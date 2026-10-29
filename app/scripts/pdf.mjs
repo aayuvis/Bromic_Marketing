@@ -3,10 +3,12 @@
 // built content the Hub shows. Run after `node scripts/build.mjs` (deploy.sh does). Needs Chromium (Playwright).
 //   node scripts/pdf.mjs            all gated documents
 //   node scripts/pdf.mjs A01-v2      one item
-// Drafts say so on the cover and in every footer; [[VERIFY]] flags stay visible until a reviewer clears them.
+// The PDF is the reader-facing final version: internal sections (editor's notes, layout notes, change logs, open questions),
+// [[VERIFY]] flags and draft labels are stripped (they stay visible in the Hub for reviewers), and every section gets a photo.
 import fs from 'node:fs';
 import path from 'node:path';
 import { createRequire } from 'node:module';
+import { spawnSync } from 'node:child_process';
 
 const require = createRequire(import.meta.url);
 const { chromium } = require('playwright');
@@ -69,48 +71,116 @@ mark.verify { background: #F6ECD9; color: #8A5A12; font-size: .85em; font-weight
 .cta .label { font: 600 7pt/1.4 "Helvetica Neue", Arial, sans-serif; letter-spacing: .16em; text-transform: uppercase; color: #CBC5BB; }
 .cta p { font: 400 14pt/1.3 Georgia, serif; margin: 4pt 0 0; color: #F4F1EC; }
 .notice { margin-top: 14pt; font-size: 8pt; color: #71777D; }
+figure.sec { margin: 0 0 14pt; }
+figure.sec img { width: 100%; height: 3.4in; max-height: none; object-fit: cover; }
+.band { height: 1.3in; overflow: hidden; margin: 0 0 14pt; }
+.band img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.colophon { margin-top: 18pt; padding-top: 8pt; border-top: 0.75pt solid #DDD8D0; font-size: 7.5pt; color: #71777D; }
 /* trends reports: one trend per page, as the layout notes ask */
-.trends main > h2 { break-before: page; border-top: 0; padding-top: 0; font-size: 22pt; }
-.trends main > h2:first-child { break-before: auto; }
+.trends section.s { break-before: page; }
+.trends section.s:first-child { break-before: auto; }
+.trends section.s h2 { border-top: 0; padding-top: 0; font-size: 22pt; margin-top: 0; }
+.trends section.s figure.sec img { height: 4.3in; }
+.trends section.s p strong:first-child { font-family: Georgia, serif; }
+.trends section.lead { break-before: auto; }
+.trends main { font-size: 12pt; line-height: 1.55; }
+.trends section.s > p:first-of-type > strong:first-child { display: block; font: 400 40pt/1 Georgia, serif; color: #EF4123; margin: 4pt 0 6pt; }
+.trends section.s ul { font-size: 12.5pt; }
+.trends section.s p { max-width: 6.2in; }
 `;
+
+// Internal sections never go to readers.
+const INTERNAL = /editor.{0,6}s note|layout notes|notes for 454|change ?log|open questions|for review|review notes|what changed|corrections applied|reviewer/i;
+const PHOTO_OK = (i) => i && !i.notes && i.kind !== 'cutout' && i.kind !== 'diagram' && i.kind !== 'heat-plan' && i.kind !== 'render' && i.status !== 'rejected' && !/coming soon|coastal|select/i.test(i.product || '');
+function imagePool(it) {
+  const ownOnly = [...(it.images || [])].filter((id) => IMG[id] && id !== it.hero);
+  const own = [...(it.images || []), ...[...(it.html.matchAll(/`([ltwpg]-[\w.-]+)`/g))].map((m) => m[1])].filter((id) => IMG[id] && id !== it.hero);
+  const aud = new Set(it.audience);
+  const rest = HUB.images.filter((i) => PHOTO_OK(i) && i.id !== it.hero && (i.audiences || []).some((a) => aud.has(a) || a === 'ALL') && /^(w|l|t)-/.test(i.id));
+  let h = 0; for (const c of it.id) h = (h * 31 + c.charCodeAt(0)) >>> 0;   // stable shuffle per document
+  rest.sort((x, y) => ((x.id.length * 7 + h) % 13) - ((y.id.length * 7 + h) % 13) || x.id.localeCompare(y.id));
+  return { own: [...new Set(own)], rest: [...new Set(rest.map((i) => i.id))].filter((id) => !own.includes(id)), ownOnly };
+}
+function finalBody(it) {
+  let html = it.html.replace(/<mark class="verify"[^>]*>[\s\S]*?<\/mark>/g, '').replace(/:\s*\[\[VERIFY[^\]]*\]\]\s*\.?/g, ': see the current Bromic specification sheet.').replace(/\(\s*\[\[VERIFY[^\]]*\]\]\s*\)/g, '').replace(/\s*\[\[VERIFY[^\]]*\]\]/g, '').replace(/<p>\s*<\/p>/g, '');
+  const plain = (h) => h.replace(/<[^>]+>/g, '').replace(/&#39;|&rsquo;|&#x27;/g, "'").replace(/&amp;/g, '&').trim();
+  // cut every internal section (from its h2 to the next h2)
+  const parts = html.split(/(?=<h2[\s>])/);
+  const head = (p) => plain((p.match(/<h2[^>]*>([\s\S]*?)<\/h2>/) || [])[1] || '');
+  const kept = parts.filter((p) => !/^<h2/.test(p) || !INTERNAL.test(head(p)))
+    // a heading that only repeats the title is dropped (its text stays)
+    .map((p) => (/^<h2/.test(p) && it.title.toLowerCase().startsWith(head(p).toLowerCase()) ? p.replace(/<h2[^>]*>[\s\S]*?<\/h2>/, '') : p))
+    .filter((p) => plain(p).length > 0);
+  // trailing <hr> left by a cut section
+  const pool = imagePool(it); const used = new Set();
+  // numbered sections (trends 01–10) take the item's own images in order; other pages draw from the wider pool first
+  const take = (numbered) => { const order = numbered ? [...pool.own, ...pool.rest] : [...pool.rest, ...pool.own]; const id = order.find((x) => !used.has(x)); if (id) used.add(id); return id && IMG[id]; };
+  const fig = (im) => `<figure class="sec"><img src="${esc(im.file)}" alt="${esc(im.alt)}"></figure>`;
+  const out = kept.map((p, i) => {
+    const isSec = /^<h2/.test(p);
+    const hasImg = /<img\s/.test(p);
+    const numbered = /^<h2[^>]*>\s*\d{2}\s/.test(p);
+    const im = hasImg || (!isSec && plain(p).length <= 160) ? null : take(numbered);
+    const trend = numbered || /plan from the start|sources/i.test((p.match(/<h2[^>]*>([\s\S]*?)<\/h2>/) || [])[1] || '');
+    if (!isSec) return `<section class="lead">${plain(p).length > 160 && im ? fig(im) : ''}${p}</section>`;
+    const body = im ? p.replace(/(<\/h2>)/, `$1${fig(im)}`) : p;
+    return `<section class="${trend ? 's' : 'n'}">${body}</section>`;
+  }).join('').replace(/<hr>\s*(?=<\/section>)/g, '');
+  return { html: out, band: take(false) };
+}
 
 function docHTML(it, built) {
   const hero = it.hero && IMG[it.hero];
-  const draft = it.status !== 'approved' && it.status !== 'published';
   const aud = it.audience.map((a) => AUD[a]?.name || a).join(' · ');
-  const cta = it.cta && it.cta.label ? `<div class="cta"><span class="label">Next step${it.cta.asset && ASSET[it.cta.asset] ? ' · ' + esc(ASSET[it.cta.asset].name) : ''}</span><p>${esc(it.cta.label)}</p></div>` : '';
-  const srcs = it.sources.length ? `<h2>Sources</h2><ol class="sources">${it.sources.map((s) => `<li id="src-${esc(it.id)}-${esc(s.id)}"><b>${esc(s.publisher || '')}</b>${s.title ? `, ${esc(s.title)}` : ''}${s.year ? ` (${esc(s.year)})` : ''}${/^https?:/.test(s.url || '') ? `. <a href="${esc(s.url)}">${esc(s.url)}</a>` : ''}${s.verified ? '' : ' <mark class="verify">to verify</mark>'}${s.supports ? `<div class="sup">${esc(s.supports)}</div>` : ''}</li>`).join('')}</ol>` : '';
+  const dek = it.dek || it.meta_description || it.summary;
+  const { html, band } = finalBody(it);
+  const cta = it.cta && it.cta.label ? `<div class="cta"><span class="label">Next step</span><p>${esc(it.cta.label)}</p></div>` : '';
+  const srcs = it.sources.length ? `<section class="s">${band ? `<div class="band"><img src="${esc(band.file)}" alt=""></div>` : ''}<h2>Sources</h2><ol class="sources">${it.sources.map((s) => `<li id="src-${esc(it.id)}-${esc(s.id)}"><b>${esc(s.publisher || '')}</b>${s.title ? `, ${esc(s.title)}` : ''}${s.year ? ` (${esc(s.year)})` : ''}${/^https?:/.test(s.url || '') ? `. <a href="${esc(s.url)}">${esc(s.url)}</a>` : ''}</li>`).join('')}</ol>
+    <p class="colophon">Confirm every installation with your local building authority and a licensed electrician or gas fitter. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately. © ${new Date(HUB.built).getFullYear()} Bromic Heating · bromic.com</p></section>` : '';
+  const month = new Date((it.updated || HUB.built.slice(0, 10)) + 'T12:00:00Z').toLocaleString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' });
   return `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>${esc(it.title)} | Bromic Heating</title><base href="file://${DIST}/"><style>${css}</style></head><body class="${/^A01/.test(it.id) ? 'trends' : ''}">
   <section class="cover">
-    <div class="top"><span class="wordmark">BROMIC<small>HEATING</small></span>${draft ? '<span class="draft">Draft for review</span>' : ''}</div>
-    <div class="titles"><div class="rule"></div><span class="label">${esc(aud)}</span><h1>${esc(it.title)}</h1>${it.summary ? `<p class="dek">${esc(it.summary)}</p>` : ''}</div>
+    <div class="top"><span class="wordmark">BROMIC<small>HEATING</small></span></div>
+    <div class="titles"><div class="rule"></div><span class="label">${esc(aud)}</span><h1>${esc(it.title)}</h1>${dek ? `<p class="dek">${esc(dek)}</p>` : ''}</div>
     <div class="hero">${hero ? `<img src="${esc(hero.file)}" alt="${esc(hero.alt)}">` : ''}</div>
-    <div class="meta"><span><b>Updated</b>${esc(it.updated || '')}</span><span><b>Reference</b>${esc(it.id)}</span><span><b>Status</b>${esc(it.status)}${it.verifies.length ? ` · ${it.verifies.length} items to verify` : ''}</span><span><b>Built</b>${esc(built)}</span></div>
+    <div class="meta"><span><b>Edition</b>${esc(month)}</span><span><b>Bromic Heating</b>bromic.com</span></div>
   </section>
-  <main>${it.html.replace(/src="images\/library\/([\w.-]+?)\.webp"/g, (m, id) => (id.endsWith('-t') ? m : `src="images/library/${id}-t.webp"`))}${cta}${srcs}
-  <p class="notice">Confirm every installation with your local building authority and a licensed electrician or gas fitter. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.${draft ? ' This is a review draft, not for distribution until approved.' : ''}</p></main>
+  <main>${html}${cta}${srcs}</main>
   </body></html>`;
 }
 
 const items = pdfItems(HUB.items).filter((it) => !only.length || only.includes(it.id));
+const IMGDIR = path.join(OUT, '_img');
+function printCopies(htmlDoc) {
+  const ids = [...new Set([...htmlDoc.matchAll(/src="images\/library\/([\w.-]+?)(-t)?\.webp"/g)].map((m) => m[1]))];
+  fs.mkdirSync(IMGDIR, { recursive: true });
+  const todo = ids.filter((id) => !fs.existsSync(path.join(IMGDIR, id + '.jpg')));
+  if (todo.length) {
+    const py = `import sys\nfrom PIL import Image\nfor i in sys.argv[2:]:\n    im=Image.open(f"{sys.argv[1]}/{i}.webp").convert("RGB"); im.thumbnail((1500,1500)); im.save(f"${IMGDIR}/{i}.jpg",quality=72,optimize=True,progressive=True)`;
+    const r = spawnSync('python3', ['-c', py, path.join(DIST, 'images', 'library'), ...todo]);
+    if (r.status) throw new Error(String(r.stderr));
+  }
+  return htmlDoc.replace(/src="images\/library\/([\w.-]+?)(-t)?\.webp"/g, (m, id) => `src="pdf/_img/${id}.jpg"`);
+}
 fs.mkdirSync(OUT, { recursive: true });
 const browser = await chromium.launch();
 const built = `${new Date(HUB.built).toISOString().slice(0, 10)}${HUB.commit ? ' · ' + HUB.commit : ''}`;
 for (const it of items) {
   const page = await browser.newPage();
   const tmp = path.join(DIST, `_pdf-${it.id}.html`);
-  fs.writeFileSync(tmp, docHTML(it, built));
+  fs.writeFileSync(tmp, printCopies(docHTML(it, built)));
   await page.goto('file://' + tmp, { waitUntil: 'load' });
   const draft = it.status !== 'approved' && it.status !== 'published';
   await page.pdf({
     path: path.join(OUT, `${it.id}.pdf`), format: 'Letter', printBackground: true, displayHeaderFooter: true,
     headerTemplate: '<span></span>',
     footerTemplate: `<div style="width:100%;font:7pt Helvetica,Arial,sans-serif;color:#71777D;padding:0 0.75in;display:flex;justify-content:space-between">
-      <span>Bromic Heating · ${esc(it.title).slice(0, 80)}${draft ? ' · Draft for review' : ''}</span><span><span class="pageNumber"></span> / <span class="totalPages"></span></span></div>`,
+      <span>Bromic Heating · ${esc(it.title).slice(0, 80)}</span><span><span class="pageNumber"></span> / <span class="totalPages"></span></span></div>`,
     margin: { top: '0.8in', bottom: '0.85in', left: '0.75in', right: '0.75in' },
   });
   fs.unlinkSync(tmp); await page.close();
   console.log(`pdf/${it.id}.pdf  ${(fs.statSync(path.join(OUT, `${it.id}.pdf`)).size / 1e6).toFixed(1)} MB  ${it.title.slice(0, 60)}`);
 }
 await browser.close();
+fs.rmSync(IMGDIR, { recursive: true, force: true });
 fs.writeFileSync(path.join(OUT, 'index.json'), JSON.stringify(items.map((it) => it.id)));

@@ -1,5 +1,5 @@
 {
- "_readme": "Page ownership for bromic.com search recovery (SEO + AEO Strategy, 2026, binding). One live URL owns each search family; Hub drafts are published onto existing URLs (upgrade), folded into an existing page as a section or FAQ (merge-into), or published new only where no owner exists. Gated guides, kits, sales kits and internal reports are assets, not web pages. URLs come from data/site-inventory.json (read 29 Oct 2026) except /outdoor-heaters/electric/, which the strategy names. cannibalisation_risk describes what would happen if the draft went live on its own slug. Built for content/reports/seo-aeo-gap-analysis.md. Owner: Brian Kim.",
+ "_readme": "Page ownership for bromic.com search recovery (SEO + AEO Strategy, 2026, binding). One live URL owns each search family; Hub drafts are published onto existing URLs (upgrade), folded into an existing page as a section or FAQ (merge-into), or published new only where no owner exists. Gated guides, kits, sales kits and internal reports are assets, not web pages. URLs come from data/site-inventory.json (read 29 Oct 2026) except /outdoor-heaters/electric/, which the strategy names. cannibalisation_risk describes what would happen if the draft went live on its own slug. Built for content/reports/seo-aeo-gap-analysis.md. Owner: Brian Kim. 'feeds-blog' (29 Oct 2026): the live URL now has a rewritten blog post (content/blog/); this draft feeds it rather than competing.",
  "families": [
   {
    "family": "outdoor heater / outdoor heaters / patio heater",
@@ -642,19 +642,21 @@
   },
   {
    "id": "RES-AW-01",
-   "publish_as": "upgrade",
+   "publish_as": "feeds-blog",
    "target_url": "https://www.bromic.com/blog/do-outdoor-heaters-work-in-the-winter/",
    "owner_link": "https://www.bromic.com/residential/",
-   "reason": "Same question (using a patio in the cold); live post has thin, unsourced content.",
-   "cannibalisation_risk": "high if new: https://www.bromic.com/blog/do-outdoor-heaters-work-in-the-winter/"
+   "reason": "BLOG-17 is the new body for this URL; this draft's unique material (tables, worked examples, sources) is folded into it before publishing, so the URL has one body.",
+   "cannibalisation_risk": "none: one body per URL",
+   "feeds": "BLOG-17"
   },
   {
    "id": "RES-BY-01",
-   "publish_as": "upgrade",
+   "publish_as": "feeds-blog",
    "target_url": "https://www.bromic.com/blog/how-to-use-the-new-bromic-heating-app/",
    "owner_link": "https://www.bromic.com/controls/",
-   "reason": "Blog audit: rewrite the app how-to around RES-BY-01.",
-   "cannibalisation_risk": "high if new: https://www.bromic.com/blog/how-to-use-the-new-bromic-heating-app/; low: https://www.bromic.com/smart-controls/"
+   "reason": "BLOG-07 is the new body for this URL; this draft's unique material (tables, worked examples, sources) is folded into it before publishing, so the URL has one body.",
+   "cannibalisation_risk": "none: one body per URL",
+   "feeds": "BLOG-07"
   },
   {
    "id": "RES-IN-01",
@@ -674,11 +676,12 @@
   },
   {
    "id": "ARC-AW-01",
-   "publish_as": "upgrade",
+   "publish_as": "feeds-blog",
    "target_url": "https://www.bromic.com/blog/outdoor-amenities-shaping-home-design-like-never-before/",
    "owner_link": "https://www.bromic.com/architects-designers/",
-   "reason": "Blog audit: replace the 2019/2020 NAHB figures with ARC-AW-01.",
-   "cannibalisation_risk": "low: https://www.bromic.com/outdoor-living-trends/ (statistics intent stays with A01-stats)"
+   "reason": "BLOG-47 is the new body for this URL; this draft's unique material (tables, worked examples, sources) is folded into it before publishing, so the URL has one body.",
+   "cannibalisation_risk": "none: one body per URL",
+   "feeds": "BLOG-47"
   },
   {
    "id": "ARC-BY-01",
@@ -690,19 +693,21 @@
   },
   {
    "id": "ARC-CO-01",
-   "publish_as": "upgrade",
+   "publish_as": "feeds-blog",
    "target_url": "https://www.bromic.com/blog/heating-people-not-places-the-fundamentals-of-heat-transfer/",
    "owner_link": "https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/",
-   "reason": "Blog audit: heating-people post needs sourced radiant figures and a link to ARC-CO-01; make ARC-CO-01 the body.",
-   "cannibalisation_risk": "high if new: https://www.bromic.com/blog/heating-people-not-places-the-fundamentals-of-heat-transfer/; low: https://www.bromic.com/blog/what-is-the-difference-between-an-infrared-heater-and-a-radiant-heater/"
+   "reason": "BLOG-16 is the new body for this URL; this draft's unique material (tables, worked examples, sources) is folded into it before publishing, so the URL has one body.",
+   "cannibalisation_risk": "none: one body per URL",
+   "feeds": "BLOG-16"
   },
   {
    "id": "ARC-IN-01",
-   "publish_as": "upgrade",
+   "publish_as": "feeds-blog",
    "target_url": "https://www.bromic.com/blog/why-its-important-to-specify-outdoor-heating-early/",
    "owner_link": "https://www.bromic.com/architects-designers/",
-   "reason": "Nearest live page to the thesis; one page should own \"specify outdoor heaters\".",
-   "cannibalisation_risk": "high if new: https://www.bromic.com/blog/why-its-important-to-specify-outdoor-heating-early/"
+   "reason": "BLOG-30 is the new body for this URL; this draft's unique material (tables, worked examples, sources) is folded into it before publishing, so the URL has one body.",
+   "cannibalisation_risk": "none: one body per URL",
+   "feeds": "BLOG-30"
   },
   {
    "id": "ARC-PP-01",
@@ -722,11 +727,12 @@
   },
   {
    "id": "BLD-BY-01",
-   "publish_as": "merge-into",
+   "publish_as": "feeds-blog",
    "target_url": "https://www.bromic.com/blog/how-should-i-mount-my-outdoor-electric-patio-heater/",
    "owner_link": "https://www.bromic.com/outdoor-heaters/wall-mounted/",
-   "reason": "Install steps, wiring and commissioning extend the strongest live mounting post.",
-   "cannibalisation_risk": "high if new: https://www.bromic.com/blog/how-should-i-mount-my-outdoor-electric-patio-heater/"
+   "reason": "BLOG-01 is the new body for this URL; this draft's unique material (tables, worked examples, sources) is folded into it before publishing, so the URL has one body.",
+   "cannibalisation_risk": "none: one body per URL",
+   "feeds": "BLOG-01"
   },
   {
    "id": "BLD-CO-01",
@@ -754,27 +760,30 @@
   },
   {
    "id": "COM-AW-01",
-   "publish_as": "upgrade",
+   "publish_as": "feeds-blog",
    "target_url": "https://www.bromic.com/blog/outdoor-dining-is-it-here-to-stay-or-go/",
    "owner_link": "https://www.bromic.com/restaurants/",
-   "reason": "Blog audit: rewrite the pandemic-era post with sourced figures.",
-   "cannibalisation_risk": "high: https://www.bromic.com/restaurants/ owns \"restaurant patio heating\"; retarget the primary keyword to keeping outdoor dining open in winter"
+   "reason": "BLOG-28 is the new body for this URL; this draft's unique material (tables, worked examples, sources) is folded into it before publishing, so the URL has one body.",
+   "cannibalisation_risk": "none: one body per URL",
+   "feeds": "BLOG-28"
   },
   {
    "id": "COM-BY-01",
-   "publish_as": "merge-into",
+   "publish_as": "feeds-blog",
    "target_url": "https://www.bromic.com/blog/keeping-the-heat-on-essential-cleaning-and-maintenance-for-outdoor-heaters/",
    "owner_link": "https://www.bromic.com/controls/",
-   "reason": "Same maintenance question as the live post; zones and schedules link to /controls/.",
-   "cannibalisation_risk": "high if new: https://www.bromic.com/blog/keeping-the-heat-on-essential-cleaning-and-maintenance-for-outdoor-heaters/"
+   "reason": "BLOG-26 is the new body for this URL; this draft's unique material (tables, worked examples, sources) is folded into it before publishing, so the URL has one body.",
+   "cannibalisation_risk": "none: one body per URL",
+   "feeds": "BLOG-26"
   },
   {
    "id": "COM-CO-01",
-   "publish_as": "upgrade",
+   "publish_as": "feeds-blog",
    "target_url": "https://www.bromic.com/blog/why-mushroom-heaters-are-bad-for-business/",
    "owner_link": "https://www.bromic.com/restaurants/",
-   "reason": "Blog audit: rebuild the mushroom-heater post on the A20 cost model.",
-   "cannibalisation_risk": "high if new: https://www.bromic.com/blog/why-mushroom-heaters-are-bad-for-business/; low: https://www.bromic.com/blog/gas-or-electric-patio-heaters-which-one-is-right-for-me/ (residential intent)"
+   "reason": "BLOG-27 is the new body for this URL; this draft's unique material (tables, worked examples, sources) is folded into it before publishing, so the URL has one body.",
+   "cannibalisation_risk": "none: one body per URL",
+   "feeds": "BLOG-27"
   },
   {
    "id": "COM-IN-01",
@@ -794,11 +803,12 @@
   },
   {
    "id": "ARC-BY-KB1",
-   "publish_as": "merge-into",
+   "publish_as": "feeds-blog",
    "target_url": "https://www.bromic.com/blog/top-5-considerations-for-installing-ceiling-mounted-outdoor-heaters/",
    "owner_link": "https://www.bromic.com/outdoor-heaters/ceiling-mounted/",
-   "reason": "Answer block and table inside the ceiling-mount post, which asks the clearance question.",
-   "cannibalisation_risk": "high if new: https://www.bromic.com/blog/top-5-considerations-for-installing-ceiling-mounted-outdoor-heaters/"
+   "reason": "BLOG-04 is the new body for this URL; this draft's unique material (tables, worked examples, sources) is folded into it before publishing, so the URL has one body.",
+   "cannibalisation_risk": "none: one body per URL",
+   "feeds": "BLOG-04"
   },
   {
    "id": "ARC-CO-KB1",
@@ -810,19 +820,21 @@
   },
   {
    "id": "ARC-IN-KB1",
-   "publish_as": "merge-into",
+   "publish_as": "feeds-blog",
    "target_url": "https://www.bromic.com/blog/what-should-be-considered-when-installing-recessed-electric-outdoor-heaters/",
    "owner_link": "https://www.bromic.com/outdoor-heaters/flush-mounted/",
-   "reason": "Same recess question as the live post.",
-   "cannibalisation_risk": "high if new: https://www.bromic.com/blog/what-should-be-considered-when-installing-recessed-electric-outdoor-heaters/"
+   "reason": "BLOG-03 is the new body for this URL; this draft's unique material (tables, worked examples, sources) is folded into it before publishing, so the URL has one body.",
+   "cannibalisation_risk": "none: one body per URL",
+   "feeds": "BLOG-03"
   },
   {
    "id": "BLD-BY-KB1",
-   "publish_as": "merge-into",
+   "publish_as": "feeds-blog",
    "target_url": "https://www.bromic.com/blog/how-should-i-mount-my-outdoor-electric-patio-heater/",
    "owner_link": "https://www.bromic.com/outdoor-heaters/wall-mounted/",
-   "reason": "GFCI answer as an FAQ in the mounting post; no thin FAQ URL.",
-   "cannibalisation_risk": "low: https://www.bromic.com/blog/how-should-i-mount-my-outdoor-electric-patio-heater/"
+   "reason": "BLOG-01 is the new body for this URL; this draft's unique material (tables, worked examples, sources) is folded into it before publishing, so the URL has one body.",
+   "cannibalisation_risk": "none: one body per URL",
+   "feeds": "BLOG-01"
   },
   {
    "id": "BLD-IN-KB1",
@@ -866,19 +878,21 @@
   },
   {
    "id": "RES-CO-KB1",
-   "publish_as": "merge-into",
+   "publish_as": "feeds-blog",
    "target_url": "https://www.bromic.com/blog/do-infrared-heaters-work-outdoors/",
    "owner_link": "https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/",
-   "reason": "Wind answer block inside the infrared-outdoors post.",
-   "cannibalisation_risk": "low: https://www.bromic.com/blog/do-infrared-heaters-work-outdoors/"
+   "reason": "BLOG-13 is the new body for this URL; this draft's unique material (tables, worked examples, sources) is folded into it before publishing, so the URL has one body.",
+   "cannibalisation_risk": "none: one body per URL",
+   "feeds": "BLOG-13"
   },
   {
    "id": "RES-CO-KB2",
-   "publish_as": "merge-into",
+   "publish_as": "feeds-blog",
    "target_url": "https://www.bromic.com/blog/are-infrared-outdoor-heaters-safe/",
    "owner_link": "https://www.bromic.com/outdoor-heaters/",
-   "reason": "Same safety question as the live post (blog audit: link RES-CO-KB2).",
-   "cannibalisation_risk": "high if new: https://www.bromic.com/blog/are-infrared-outdoor-heaters-safe/"
+   "reason": "BLOG-21 is the new body for this URL; this draft's unique material (tables, worked examples, sources) is folded into it before publishing, so the URL has one body.",
+   "cannibalisation_risk": "none: one body per URL",
+   "feeds": "BLOG-21"
   },
   {
    "id": "RES-PP-KB1",

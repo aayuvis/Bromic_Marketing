@@ -14,7 +14,7 @@ summary: "Why convection fails outdoors and radiation works, what short, medium 
 primary_keyword: radiant heat vs convection heat outdoor
 secondary_keywords: [heat transfer outdoor heating, short medium long wave infrared, radiant heater outdoor design, directional heat]
 ai_prompt: "Why is radiant heat better than convection for outdoor spaces?"
-meta_description: "Convection fails outdoors because warm air leaves; radiant heat reaches people directly. Short, medium and long wave compared, with the design rules that follow."
+meta_description: "Convection fails outdoors because warm air leaves; radiant heat reaches people directly. Short, medium and long wave compared, with the design rules."
 cta: {label: "Download the Planning Guide (pro edition)", asset: A02}
 hero: w-smoque-n-bones-tungsten-electric-1
 owner_review: Megan Spies
@@ -86,7 +86,7 @@ Heat moves three ways. Conduction needs contact, so it plays no part in warming 
 
 Bromic's Planning Guide puts it in one line: you cannot thermostatically control outdoor heating[^s1]. There is no air volume to hold at a set point.
 
-<div class="diagram">Diagram: section through a covered terrace. Left half: a convection heater whose warm-air arrows rise to the soffit and spill out of the open side with the wind. Right half: a wall-mounted radiant heater whose straight arrows land on seated people, the table and the floor; a shaded band under the soffit is labelled "heat cloud". Note the 30% open-perimeter rule and the 72 in wall / 96 in ceiling minimums.</div>
+<div class="diagram">Diagram: section through a covered terrace. Left half: a convection heater whose warm-air arrows rise to the soffit and spill out of the open side with the wind. Right half: a wall-mounted radiant heater whose straight arrows land on seated people, the table and the floor; a shaded band under the soffit is labelled "heat cloud". Note the 30% open-perimeter rule and the 72 in wall / 96 in ceiling minimums[^s1][^s3].</div>
 
 ## What do short, medium and long wave mean?
 

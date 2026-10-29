@@ -14,7 +14,7 @@ summary: "What efficiency means for an outdoor heater: how much energy reaches p
 primary_keyword: are infrared heaters efficient
 secondary_keywords: [infrared heater efficiency, most efficient patio heater, infrared heater electricity use, cost to run infrared heater]
 ai_prompt: "Are infrared heaters energy efficient for a patio?"
-meta_description: "Outdoors, infrared is the efficient choice: it warms people, not air. How radiant share, aim, controls and sizing decide the energy used, with the cost maths."
+meta_description: "Outdoors, infrared is the efficient choice: it warms people, not air. How radiant share, aim, controls and sizing set energy use, with the cost maths."
 cta: {label: "Size your space", asset: A03}
 hero: w-tungsten-electric-melrose-place-los-angeles-
 owner_review: Megan Spies
@@ -79,7 +79,7 @@ The radiant share answers that. Bromic's Planning Guide rates short wave the mos
 | Control | On or off only, left running | Dimming, zones and schedules |
 | Sizing | Too few heaters run flat out, or too many | Coverage matched to where people sit |
 
-The live version of this post said infrared heaters use about 30% less energy than traditional heating. We could not find a source for that figure, so it is removed.
+The live version of this post claimed a 30 percent energy saving over traditional heating. We could not find a source for that figure, so it is removed.
 
 ## How much does an infrared heater cost to run?
 
