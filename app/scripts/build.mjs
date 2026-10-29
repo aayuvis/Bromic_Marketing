@@ -170,6 +170,7 @@ fs.mkdirSync(DIST, { recursive: true });
 for (const f of ['index.html', 'styles.css', 'app.js']) fs.copyFileSync(path.join(APP, 'src', f), path.join(DIST, f));
 fs.writeFileSync(path.join(DIST, 'data.js'), 'window.HUB=' + JSON.stringify(HUB) + ';');
 fs.cpSync(path.join(ROOT, 'images', 'library'), path.join(DIST, 'images', 'library'), { recursive: true });
+if (fs.existsSync(path.join(ROOT, 'tools', '_shared'))) fs.cpSync(path.join(ROOT, 'tools', '_shared'), path.join(DIST, 'tools', '_shared'), { recursive: true });
 for (const t of tools) fs.cpSync(path.join(ROOT, 'tools', t), path.join(DIST, 'tools', t), { recursive: true, filter: (s) => !/test\.mjs$|README\.md$/.test(s) });
 console.log('dist written → app/dist/index.html');
 
