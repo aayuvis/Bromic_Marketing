@@ -1,0 +1,1028 @@
+{
+ "_readme": "Page ownership for bromic.com search recovery (SEO + AEO Strategy, 2026, binding). One live URL owns each search family; Hub drafts are published onto existing URLs (upgrade), folded into an existing page as a section or FAQ (merge-into), or published new only where no owner exists. Gated guides, kits, sales kits and internal reports are assets, not web pages. URLs come from data/site-inventory.json (read 29 Oct 2026) except /outdoor-heaters/electric/, which the strategy names. cannibalisation_risk describes what would happen if the draft went live on its own slug. Built for content/reports/seo-aeo-gap-analysis.md. Owner: Brian Kim.",
+ "families": [
+  {
+   "family": "outdoor heater / outdoor heaters / patio heater",
+   "owner_url": "https://www.bromic.com/outdoor-heaters/",
+   "owner_kind": "category",
+   "supporting_urls": [
+    "https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/",
+    "https://www.bromic.com/outdoor-heaters/outdoor-gas-heaters/",
+    "https://www.bromic.com/outdoor-heaters/ceiling-mounted/",
+    "https://www.bromic.com/outdoor-heaters/wall-mounted/",
+    "https://www.bromic.com/outdoor-heaters/flush-mounted/",
+    "https://www.bromic.com/outdoor-heaters/built-in/",
+    "https://www.bromic.com/outdoor-heaters/freestanding/",
+    "https://www.bromic.com/compare-outdoor-heating-systems/",
+    "https://www.bromic.com/outdoor-heating-101/",
+    "https://www.bromic.com/blog/which-outdoor-heater-collection-is-right-for-you/"
+   ],
+   "hub_items": [
+    "A03",
+    "RES-CO-01",
+    "RES-PP-01",
+    "A02-homeowner"
+   ],
+   "notes": "Strategy P2 owner; impressions 234.9K to 124.5K (-47%). /compare-outdoor-heating-systems/ and /outdoor-heating-101/ support it and must not target the head term. Paid-social pages /luxury-outdoor-heaters/ and /high-end-outdoor-heaters/ should not be indexable [[VERIFY: noindex status of paid landing pages — Brian Kim]]."
+  },
+  {
+   "family": "Bromic (brand) / homepage",
+   "owner_url": "https://www.bromic.com/",
+   "owner_kind": "home",
+   "supporting_urls": [
+    "https://www.bromic.com/about-bromic/",
+    "https://www.bromic.com/outdoor-heaters/",
+    "https://www.bromic.com/products/"
+   ],
+   "hub_items": [],
+   "notes": "Impressions 255.9K to 89.3K (-65%). The homepage owns branded and navigational queries; it links to /outdoor-heaters/ with literal anchor text instead of competing for \"outdoor heaters\"."
+  },
+  {
+   "family": "electric outdoor heater",
+   "owner_url": "https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/",
+   "owner_kind": "category",
+   "supporting_urls": [
+    "https://www.bromic.com/product/tungsten-smart-heat-electric/",
+    "https://www.bromic.com/product/platinum-smart-heat-electric/",
+    "https://www.bromic.com/product/eclipse-smart-heat-electric/",
+    "https://www.bromic.com/product/cobalt-smart-heat-electric/",
+    "https://www.bromic.com/product/platinum-smart-heat-electric-marine/",
+    "https://www.bromic.com/product/eclipse-smart-heat-freestanding/",
+    "https://www.bromic.com/electric-old/",
+    "https://www.bromic.com/outdoor-heaters/electric/"
+   ],
+   "hub_items": [
+    "RES-CO-01",
+    "RES-CO-KB1",
+    "BLD-IN-KB1",
+    "BLD-IN-KB2",
+    "ARC-PP-01",
+    "A12",
+    "RES-IN-01"
+   ],
+   "notes": "Strategy P1/P2: the legacy /outdoor-heaters/electric/ (139.7K impressions in 2025; named by the strategy, not in the crawl) and /electric-old/ (live duplicate) 301 here in one hop. Cobalt is missing from the page."
+  },
+  {
+   "family": "gas outdoor heater / propane patio heater",
+   "owner_url": "https://www.bromic.com/outdoor-heaters/outdoor-gas-heaters/",
+   "owner_kind": "category",
+   "supporting_urls": [
+    "https://www.bromic.com/product/platinum-smart-heat-gas/",
+    "https://www.bromic.com/product/tungsten-smart-heat-gas/",
+    "https://www.bromic.com/product/tungsten-smart-heat-freestanding/",
+    "https://www.bromic.com/blog/how-should-i-mount-my-outdoor-gas-patio-heater/",
+    "https://www.bromic.com/blog/how-long-do-propane-patio-heaters-last/"
+   ],
+   "hub_items": [
+    "COM-CO-01",
+    "COM-CO-KB1",
+    "COM-PP-KB1"
+   ],
+   "notes": "Strategy P2 owner. The page has no BTU, coverage, gas type, clearance or gas-fitter disclaimer today."
+  },
+  {
+   "family": "infrared heater / infrared outdoor heating",
+   "owner_url": "https://www.bromic.com/infrared-outdoor-heating/",
+   "owner_kind": "education",
+   "supporting_urls": [
+    "https://www.bromic.com/blog/do-infrared-heaters-work-outdoors/",
+    "https://www.bromic.com/blog/are-infrared-heaters-efficient/",
+    "https://www.bromic.com/blog/what-is-the-difference-between-an-infrared-heater-and-a-radiant-heater/",
+    "https://www.bromic.com/blog/heating-people-not-places-the-fundamentals-of-heat-transfer/",
+    "https://www.bromic.com/outdoor-heating-101/"
+   ],
+   "hub_items": [
+    "ARC-CO-01",
+    "RES-CO-KB1"
+   ],
+   "notes": "The strategy names an \"infrared education/solution owner\" without a URL. /infrared-outdoor-heating/ is the only page whose title carries the term, but it is a near-duplicate of /compare-outdoor-heating-systems/ and /integrated-outdoor-heating-solutions/; differentiate it or pick another owner [[VERIFY: which URL held infrared heater impressions in 2025 — Brian Kim]]."
+  },
+  {
+   "family": "infrared vs radiant heater",
+   "owner_url": "https://www.bromic.com/blog/what-is-the-difference-between-an-infrared-heater-and-a-radiant-heater/",
+   "owner_kind": "education",
+   "supporting_urls": [
+    "https://www.bromic.com/blog/heating-people-not-places-the-fundamentals-of-heat-transfer/",
+    "https://www.bromic.com/infrared-outdoor-heating/"
+   ],
+   "hub_items": [
+    "ARC-CO-01",
+    "RES-CO-KB1"
+   ],
+   "notes": "Strategy example authority page: about 103K impressions (Jun-Aug 2025) to 39K (2026). Keep the URL; links on to /outdoor-heaters/, Electric and Gas categories, PDPs and Design Request."
+  },
+  {
+   "family": "radiant heat transfer / short, medium and long wave",
+   "owner_url": "https://www.bromic.com/blog/heating-people-not-places-the-fundamentals-of-heat-transfer/",
+   "owner_kind": "education",
+   "supporting_urls": [
+    "https://www.bromic.com/blog/what-is-the-difference-between-an-infrared-heater-and-a-radiant-heater/",
+    "https://www.bromic.com/infrared-outdoor-heating/"
+   ],
+   "hub_items": [
+    "ARC-CO-01"
+   ],
+   "notes": "ARC-CO-01 becomes the body. Wavelength detail lives here; the definitional infrared-vs-radiant question stays on its own URL."
+  },
+  {
+   "family": "electric vs gas patio heater / running cost",
+   "owner_url": "https://www.bromic.com/blog/gas-or-electric-patio-heaters-which-one-is-right-for-me/",
+   "owner_kind": "education",
+   "supporting_urls": [
+    "https://www.bromic.com/compare-outdoor-heating-systems/",
+    "https://www.bromic.com/blog/how-to-select-the-right-fuel-source-for-your-space/"
+   ],
+   "hub_items": [
+    "RES-CO-01",
+    "RES-IN-01",
+    "COM-CO-KB1",
+    "COM-CO-01"
+   ],
+   "notes": "RES-CO-01 replaces the body (blog audit). /compare-outdoor-heating-systems/ answers the same question in an H2 and must link here instead; the fuel-source post 301s here. RES-IN-01 (cost per hour) publishes new and links back."
+  },
+  {
+   "family": "Tungsten electric heater",
+   "owner_url": "https://www.bromic.com/product/tungsten-smart-heat-electric/",
+   "owner_kind": "pdp",
+   "supporting_urls": [
+    "https://www.bromic.com/tungsten-collection/",
+    "https://www.bromic.com/product/tungsten-electric-recess-kit/",
+    "https://www.bromic.com/product/tungsten-electric-mounting-poles/",
+    "https://www.bromic.com/product/tungsten-electric-wall-mounting-bracket/",
+    "https://www.bromic.com/technical-resources/",
+    "https://www.bromic.com/revit-bim-files/"
+   ],
+   "hub_items": [
+    "A11",
+    "ARC-IN-KB1",
+    "BLD-IN-KB2",
+    "ARC-IN-01"
+   ],
+   "notes": "Strategy P2/P4 owner; impressions 110.2K to 60.1K (-46%). Strengthen, never replace, the URL."
+  },
+  {
+   "family": "Platinum electric heater",
+   "owner_url": "https://www.bromic.com/product/platinum-smart-heat-electric/",
+   "owner_kind": "pdp",
+   "supporting_urls": [
+    "https://www.bromic.com/platinum-collection/",
+    "https://www.bromic.com/product/platinum-electric-low-clearance-recess-kit/",
+    "https://www.bromic.com/product/platinum-electric-recess-kit/",
+    "https://www.bromic.com/product/platinum-smart-heat-electric-marine/",
+    "https://www.bromic.com/blog/bromic-offers-complete-product-line-solutions-for-platinum-smart-heat-electric-series/"
+   ],
+   "hub_items": [
+    "BLD-IN-KB1",
+    "ARC-IN-KB1",
+    "A11"
+   ],
+   "notes": "Impressions 76.7K to 35.2K (-54%). The English spec sheet link points at the Marine cut sheet."
+  },
+  {
+   "family": "Eclipse heater",
+   "owner_url": "https://www.bromic.com/product/eclipse-smart-heat-electric/",
+   "owner_kind": "pdp",
+   "supporting_urls": [
+    "https://www.bromic.com/eclipse-collection/",
+    "https://www.bromic.com/product/eclipse-smart-heat-freestanding/",
+    "https://www.bromic.com/product/affinity-smart-heat-eclipse-controllers/",
+    "https://www.bromic.com/blog/radiance-redefined-the-eclipse-collection-of-luxury-heaters/"
+   ],
+   "hub_items": [
+    "RES-BY-01"
+   ],
+   "notes": "Six vs seven mounting options conflict across pages; seven only if freestanding is counted."
+  },
+  {
+   "family": "ceiling-mounted outdoor heater",
+   "owner_url": "https://www.bromic.com/outdoor-heaters/ceiling-mounted/",
+   "owner_kind": "installation",
+   "supporting_urls": [
+    "https://www.bromic.com/blog/top-5-considerations-for-installing-ceiling-mounted-outdoor-heaters/",
+    "https://www.bromic.com/product/tungsten-smart-heat-electric/",
+    "https://www.bromic.com/product/platinum-smart-heat-electric/",
+    "https://www.bromic.com/product/platinum-smart-heat-gas/"
+   ],
+   "hub_items": [
+    "ARC-BY-KB1",
+    "BLD-PP-01"
+   ],
+   "notes": "Links to /2022/12/12/ dated fuel-source URL today; no specs or controls."
+  },
+  {
+   "family": "wall-mounted outdoor heater / mounting height",
+   "owner_url": "https://www.bromic.com/outdoor-heaters/wall-mounted/",
+   "owner_kind": "installation",
+   "supporting_urls": [
+    "https://www.bromic.com/blog/how-should-i-mount-my-outdoor-electric-patio-heater/",
+    "https://www.bromic.com/blog/is-wall-mounting-your-outdoor-heater-the-right-choice-for-you/",
+    "https://www.bromic.com/product/platinum-electric-wall-mounting-bracket/",
+    "https://www.bromic.com/product/tungsten-electric-wall-mounting-bracket/"
+   ],
+   "hub_items": [
+    "ARC-CO-KB1",
+    "BLD-BY-01",
+    "BLD-BY-KB1"
+   ],
+   "notes": "The page asks \"How high should a wall-mounted outdoor heater be installed?\" and gives no figure; ARC-CO-KB1 supplies the answer block."
+  },
+  {
+   "family": "recessed / flush-mounted outdoor heater",
+   "owner_url": "https://www.bromic.com/outdoor-heaters/flush-mounted/",
+   "owner_kind": "installation",
+   "supporting_urls": [
+    "https://www.bromic.com/blog/what-should-be-considered-when-installing-recessed-electric-outdoor-heaters/",
+    "https://www.bromic.com/blog/how-to-install-the-low-clearance-recess-kit/",
+    "https://www.bromic.com/product/platinum-electric-low-clearance-recess-kit/",
+    "https://www.bromic.com/product/platinum-electric-recess-kit/",
+    "https://www.bromic.com/product/tungsten-electric-recess-kit/"
+   ],
+   "hub_items": [
+    "ARC-IN-KB1"
+   ],
+   "notes": "The strategy says \"Recessed\"; the site says flush-mounted. Keep the URL and use both words on the page."
+  },
+  {
+   "family": "built-in outdoor heater",
+   "owner_url": "https://www.bromic.com/outdoor-heaters/built-in/",
+   "owner_kind": "installation",
+   "supporting_urls": [
+    "https://www.bromic.com/blog/how-to-prepare-your-patio-for-outdoor-heating/",
+    "https://www.bromic.com/patio-to-living-space/",
+    "https://www.bromic.com/outdoor-planning-where-to-start/"
+   ],
+   "hub_items": [
+    "BLD-IN-01",
+    "A16",
+    "BLD-IN-KB2"
+   ],
+   "notes": "Built-in overlaps ceiling, wall and flush. Decide whether it is the parent of the three or a sibling [[VERIFY: built-in vs flush-mounted taxonomy — Brian Kim]]; no URL change during recovery."
+  },
+  {
+   "family": "freestanding / portable patio heater",
+   "owner_url": "https://www.bromic.com/outdoor-heaters/freestanding/",
+   "owner_kind": "installation",
+   "supporting_urls": [
+    "https://www.bromic.com/product/eclipse-smart-heat-freestanding/",
+    "https://www.bromic.com/product/tungsten-smart-heat-freestanding/",
+    "https://www.bromic.com/blog/freestanding-heaters-dont-need-to-be-clunky/",
+    "https://www.bromic.com/blog/how-long-do-propane-patio-heaters-last/"
+   ],
+   "hub_items": [],
+   "notes": "Settle \"Freestanding\" vs \"Portable\" naming; several pages still link /product/*-portable/ URLs that are not in the crawl."
+  },
+  {
+   "family": "outdoor heater for home / residential patio heating",
+   "owner_url": "https://www.bromic.com/residential/",
+   "owner_kind": "application",
+   "supporting_urls": [
+    "https://www.bromic.com/patio-to-living-space/",
+    "https://www.bromic.com/blog/do-outdoor-heaters-work-in-the-winter/",
+    "https://www.bromic.com/blog/elevating-your-patio-space-to-give-the-feeling-of-a-5-star-resort/"
+   ],
+   "hub_items": [
+    "RES-AW-01",
+    "A02-homeowner",
+    "RES-PP-KB1",
+    "RES-CO-KB2"
+   ],
+   "notes": "Links today go to merge candidates (fuel-source post, transform post); repoint to the owners."
+  },
+  {
+   "family": "restaurant patio heaters / outdoor dining heating",
+   "owner_url": "https://www.bromic.com/restaurants/",
+   "owner_kind": "application",
+   "supporting_urls": [
+    "https://www.bromic.com/restaurant-outdoor-heating-planning-guide/",
+    "https://www.bromic.com/blog/how-outdoor-heating-can-increase-revenue-profits/",
+    "https://www.bromic.com/blog/why-mushroom-heaters-are-bad-for-business/",
+    "https://www.bromic.com/blog/outdoor-dining-is-it-here-to-stay-or-go/"
+   ],
+   "hub_items": [
+    "COM-AW-01",
+    "COM-IN-01",
+    "COM-CO-01",
+    "COM-CO-KB1",
+    "COM-IN-KB1",
+    "COM-PP-01",
+    "COM-PP-KB1",
+    "A20",
+    "A21",
+    "A02-commercial"
+   ],
+   "notes": "The page links an ungated ROI PDF; A21 replaces it. No controls named."
+  },
+  {
+   "family": "hotel and resort outdoor heating",
+   "owner_url": "https://www.bromic.com/hotels/",
+   "owner_kind": "application",
+   "supporting_urls": [
+    "https://www.bromic.com/blog/crafting-enduring-experiences-in-outdoor-hospitality/",
+    "https://www.bromic.com/case-studies/"
+   ],
+   "hub_items": [],
+   "notes": "No Hub draft targets hotels yet; candidates for case-study upgrades are in CS-CANDIDATES."
+  },
+  {
+   "family": "marine and superyacht heaters",
+   "owner_url": "https://www.bromic.com/super-yacht-cruise-ships/",
+   "owner_kind": "application",
+   "supporting_urls": [
+    "https://www.bromic.com/product/platinum-smart-heat-electric-marine/",
+    "https://www.bromic.com/blog/worlds-first-lloyds-register-approved-outdoor-heating-range-for-marine-applications/",
+    "https://www.bromic.com/blog/stylish-resilient-coastal-outdoor-heaters/"
+   ],
+   "hub_items": [],
+   "notes": "IP rating given as \"IPx55\" (invalid) on the page; Marine site block says IPX5."
+  },
+  {
+   "family": "outdoor heating for builders",
+   "owner_url": "https://www.bromic.com/builders/",
+   "owner_kind": "application",
+   "supporting_urls": [
+    "https://www.bromic.com/builder-outdoor-heating-101/",
+    "https://www.bromic.com/builders-outdoor-heating/",
+    "https://www.bromic.com/builders-lp-a/",
+    "https://www.bromic.com/lp-builders/"
+   ],
+   "hub_items": [
+    "BLD-AW-01",
+    "BLD-CO-01",
+    "A15",
+    "BLD-PP-01"
+   ],
+   "notes": "Four builder landing pages are near-duplicates of each other; keep them out of the index [[VERIFY: noindex on builder LPs — Brian Kim]]."
+  },
+  {
+   "family": "outdoor heaters for architects / specification",
+   "owner_url": "https://www.bromic.com/architects-designers/",
+   "owner_kind": "application",
+   "supporting_urls": [
+    "https://www.bromic.com/technical-resources/",
+    "https://www.bromic.com/access-bim-files/",
+    "https://www.bromic.com/revit-bim-files/",
+    "https://www.bromic.com/aia-ce/",
+    "https://www.bromic.com/blog/why-its-important-to-specify-outdoor-heating-early/"
+   ],
+   "hub_items": [
+    "ARC-IN-01",
+    "ARC-BY-01",
+    "A11",
+    "A02-pro",
+    "ARC-AW-01"
+   ],
+   "notes": "/access-bim-files/ and /revit-bim-files/ are the same page on two URLs: pick one and canonicalise."
+  },
+  {
+   "family": "specify outdoor heaters early / how to specify",
+   "owner_url": "https://www.bromic.com/blog/why-its-important-to-specify-outdoor-heating-early/",
+   "owner_kind": "education",
+   "supporting_urls": [
+    "https://www.bromic.com/architects-designers/",
+    "https://www.bromic.com/technical-resources/"
+   ],
+   "hub_items": [
+    "ARC-IN-01"
+   ],
+   "notes": "ARC-IN-01 becomes the body, keeping the early-specification argument as its opening section."
+  },
+  {
+   "family": "outdoor heater controls / smart patio heater",
+   "owner_url": "https://www.bromic.com/controls/",
+   "owner_kind": "category",
+   "supporting_urls": [
+    "https://www.bromic.com/smart-controls/",
+    "https://www.bromic.com/affinity-smart-heat-app/",
+    "https://www.bromic.com/product/affinity-smart-heat-on-off-controllers/",
+    "https://www.bromic.com/product/affinity-smart-heat-dimmer-controllers/",
+    "https://www.bromic.com/product/affinity-smart-heat-eclipse-controllers/",
+    "https://www.bromic.com/product/manual-wall-switch/"
+   ],
+   "hub_items": [
+    "RES-BY-01",
+    "COM-BY-01"
+   ],
+   "notes": "/smart-controls/ overlaps /controls/ (same expansion-board conflict); keep /controls/ as owner, make /smart-controls/ the integrations page."
+  },
+  {
+   "family": "patio heater app / Alexa / Google",
+   "owner_url": "https://www.bromic.com/blog/how-to-use-the-new-bromic-heating-app/",
+   "owner_kind": "education",
+   "supporting_urls": [
+    "https://www.bromic.com/controls/",
+    "https://www.bromic.com/affinity-smart-heat-app/",
+    "https://www.bromic.com/blog/are-there-remote-controls-for-bromic-patio-heaters/"
+   ],
+   "hub_items": [
+    "RES-BY-01"
+   ],
+   "notes": "RES-BY-01 becomes the body; drop \"new\" from the H1 but keep the URL."
+  },
+  {
+   "family": "patio heater clearance / covered patio",
+   "owner_url": "https://www.bromic.com/blog/what-are-the-clearances-to-heat-my-covered-patio/",
+   "owner_kind": "education",
+   "supporting_urls": [
+    "https://www.bromic.com/blog/can-you-put-a-patio-heater-under-a-gazebo/",
+    "https://www.bromic.com/blog/top-5-considerations-for-installing-ceiling-mounted-outdoor-heaters/",
+    "https://www.bromic.com/outdoor-heaters/wall-mounted/",
+    "https://www.bromic.com/outdoor-heaters/ceiling-mounted/"
+   ],
+   "hub_items": [
+    "RES-PP-01",
+    "RES-PP-KB1",
+    "ARC-BY-KB1"
+   ],
+   "notes": "RES-PP-01 replaces the body (blog audit); RES-PP-KB1 is its direct answer and FAQ."
+  },
+  {
+   "family": "install / mount an electric patio heater",
+   "owner_url": "https://www.bromic.com/blog/how-should-i-mount-my-outdoor-electric-patio-heater/",
+   "owner_kind": "education",
+   "supporting_urls": [
+    "https://www.bromic.com/outdoor-heaters/wall-mounted/",
+    "https://www.bromic.com/blog/is-wall-mounting-your-outdoor-heater-the-right-choice-for-you/"
+   ],
+   "hub_items": [
+    "BLD-BY-01",
+    "BLD-BY-KB1",
+    "BLD-PP-01"
+   ],
+   "notes": "Merge target for the wall-mounting post (blog audit)."
+  },
+  {
+   "family": "recessed heater installation detail",
+   "owner_url": "https://www.bromic.com/blog/what-should-be-considered-when-installing-recessed-electric-outdoor-heaters/",
+   "owner_kind": "education",
+   "supporting_urls": [
+    "https://www.bromic.com/outdoor-heaters/flush-mounted/",
+    "https://www.bromic.com/blog/how-to-install-the-low-clearance-recess-kit/"
+   ],
+   "hub_items": [
+    "ARC-IN-KB1"
+   ],
+   "notes": "Answers the same question as ARC-IN-KB1."
+  },
+  {
+   "family": "pre-wire patio for heaters",
+   "owner_url": "https://www.bromic.com/blog/how-to-prepare-your-patio-for-outdoor-heating/",
+   "owner_kind": "education",
+   "supporting_urls": [
+    "https://www.bromic.com/outdoor-heaters/built-in/",
+    "https://www.bromic.com/builders/"
+   ],
+   "hub_items": [
+    "BLD-IN-01",
+    "BLD-IN-KB2",
+    "A16"
+   ],
+   "notes": "BLD-IN-01 replaces the body (blog audit)."
+  },
+  {
+   "family": "are infrared patio heaters safe",
+   "owner_url": "https://www.bromic.com/blog/are-infrared-outdoor-heaters-safe/",
+   "owner_kind": "education",
+   "supporting_urls": [
+    "https://www.bromic.com/blog/top-tips-for-outdoor-heaters-safety/",
+    "https://www.bromic.com/blog/patio-heater-in-a-garage/"
+   ],
+   "hub_items": [
+    "RES-CO-KB2"
+   ],
+   "notes": "Top-tips post 301s here (blog audit)."
+  },
+  {
+   "family": "do infrared heaters work outdoors / in wind",
+   "owner_url": "https://www.bromic.com/blog/do-infrared-heaters-work-outdoors/",
+   "owner_kind": "education",
+   "supporting_urls": [
+    "https://www.bromic.com/infrared-outdoor-heating/",
+    "https://www.bromic.com/blog/what-is-the-difference-between-an-infrared-heater-and-a-radiant-heater/"
+   ],
+   "hub_items": [
+    "RES-CO-KB1"
+   ],
+   "notes": "RES-CO-KB1 supplies the wind answer block."
+  },
+  {
+   "family": "outdoor heaters in winter / year-round patio",
+   "owner_url": "https://www.bromic.com/blog/do-outdoor-heaters-work-in-the-winter/",
+   "owner_kind": "education",
+   "supporting_urls": [
+    "https://www.bromic.com/residential/",
+    "https://www.bromic.com/patio-to-living-space/"
+   ],
+   "hub_items": [
+    "RES-AW-01"
+   ],
+   "notes": "RES-AW-01 becomes the body."
+  },
+  {
+   "family": "restaurant outdoor dining in winter",
+   "owner_url": "https://www.bromic.com/blog/outdoor-dining-is-it-here-to-stay-or-go/",
+   "owner_kind": "education",
+   "supporting_urls": [
+    "https://www.bromic.com/restaurants/"
+   ],
+   "hub_items": [
+    "COM-AW-01"
+   ],
+   "notes": "Must not target \"restaurant patio heating\", which /restaurants/ owns."
+  },
+  {
+   "family": "restaurant patio heater ROI",
+   "owner_url": "https://www.bromic.com/blog/how-outdoor-heating-can-increase-revenue-profits/",
+   "owner_kind": "education",
+   "supporting_urls": [
+    "https://www.bromic.com/restaurants/",
+    "https://www.bromic.com/restaurant-outdoor-heating-planning-guide/"
+   ],
+   "hub_items": [
+    "COM-IN-01",
+    "A21"
+   ],
+   "notes": "COM-IN-01 replaces the body (blog audit); the A21 calculator does the arithmetic."
+  },
+  {
+   "family": "commercial patio heater fuel cost",
+   "owner_url": "https://www.bromic.com/blog/why-mushroom-heaters-are-bad-for-business/",
+   "owner_kind": "education",
+   "supporting_urls": [
+    "https://www.bromic.com/restaurants/",
+    "https://www.bromic.com/blog/gas-or-electric-patio-heaters-which-one-is-right-for-me/"
+   ],
+   "hub_items": [
+    "COM-CO-01",
+    "A20"
+   ],
+   "notes": "Rebuilt on the A20 cost model (blog audit)."
+  },
+  {
+   "family": "patio heater maintenance",
+   "owner_url": "https://www.bromic.com/blog/keeping-the-heat-on-essential-cleaning-and-maintenance-for-outdoor-heaters/",
+   "owner_kind": "education",
+   "supporting_urls": [
+    "https://www.bromic.com/controls/",
+    "https://www.bromic.com/warranty/"
+   ],
+   "hub_items": [
+    "COM-BY-01"
+   ],
+   "notes": "COM-BY-01 answers the same question; merge rather than publish a rival."
+  },
+  {
+   "family": "outdoor living trends and statistics",
+   "owner_url": "https://www.bromic.com/outdoor-living-trends/",
+   "owner_kind": "education",
+   "supporting_urls": [
+    "https://www.bromic.com/outdoor-design-trends/",
+    "https://www.bromic.com/blog/outdoor-amenities-shaping-home-design-like-never-before/"
+   ],
+   "hub_items": [
+    "A01-stats",
+    "A01-corrections",
+    "ARC-AW-01",
+    "RES-AW-01"
+   ],
+   "notes": "Thin gated page today; the A01 stats become its ungated body [[VERIFY: is /outdoor-living-trends/ the Bromic Trends 2026 report — Megan Spies]]."
+  },
+  {
+   "family": "outdoor design trends for architects",
+   "owner_url": "https://www.bromic.com/blog/outdoor-amenities-shaping-home-design-like-never-before/",
+   "owner_kind": "education",
+   "supporting_urls": [
+    "https://www.bromic.com/outdoor-design-trends/",
+    "https://www.bromic.com/architects-designers/"
+   ],
+   "hub_items": [
+    "ARC-AW-01"
+   ],
+   "notes": "ARC-AW-01 becomes the body, replacing the 2019/2020 NAHB figures."
+  },
+  {
+   "family": "outdoor heating planning guide",
+   "owner_url": "https://www.bromic.com/outdoor-heating-planning-guide/",
+   "owner_kind": "education",
+   "supporting_urls": [
+    "https://www.bromic.com/design-guides/",
+    "https://www.bromic.com/heating-planning-101/",
+    "https://www.bromic.com/restaurant-outdoor-heating-planning-guide/"
+   ],
+   "hub_items": [
+    "A02-homeowner",
+    "A02-pro",
+    "A02-outline"
+   ],
+   "notes": "Landing exists; the 2021 guide behind it is replaced by Planning Guide v2."
+  },
+  {
+   "family": "free outdoor heating design plan",
+   "owner_url": "https://www.bromic.com/design-your-space/",
+   "owner_kind": "tool",
+   "supporting_urls": [
+    "https://www.bromic.com/design-your-space-variant/",
+    "https://www.bromic.com/talk-to-sales/"
+   ],
+   "hub_items": [
+    "A03",
+    "CS-CANDIDATES",
+    "CS-TEMPLATE"
+   ],
+   "notes": "Primary conversion page for every chain. /design-your-space-variant/ must carry a canonical or noindex."
+  }
+ ],
+ "items": [
+  {
+   "id": "RES-CO-01",
+   "publish_as": "upgrade",
+   "target_url": "https://www.bromic.com/blog/gas-or-electric-patio-heaters-which-one-is-right-for-me/",
+   "owner_link": "https://www.bromic.com/outdoor-heaters/",
+   "reason": "Blog audit: replace body; the live post holds the gas-or-electric question and its links.",
+   "cannibalisation_risk": "high if new: https://www.bromic.com/blog/gas-or-electric-patio-heaters-which-one-is-right-for-me/ and https://www.bromic.com/compare-outdoor-heating-systems/ (same question); resolved by upgrading the post and pointing the compare page at it"
+  },
+  {
+   "id": "RES-AW-01",
+   "publish_as": "upgrade",
+   "target_url": "https://www.bromic.com/blog/do-outdoor-heaters-work-in-the-winter/",
+   "owner_link": "https://www.bromic.com/residential/",
+   "reason": "Same question (using a patio in the cold); live post has thin, unsourced content.",
+   "cannibalisation_risk": "high if new: https://www.bromic.com/blog/do-outdoor-heaters-work-in-the-winter/"
+  },
+  {
+   "id": "RES-BY-01",
+   "publish_as": "upgrade",
+   "target_url": "https://www.bromic.com/blog/how-to-use-the-new-bromic-heating-app/",
+   "owner_link": "https://www.bromic.com/controls/",
+   "reason": "Blog audit: rewrite the app how-to around RES-BY-01.",
+   "cannibalisation_risk": "high if new: https://www.bromic.com/blog/how-to-use-the-new-bromic-heating-app/; low: https://www.bromic.com/smart-controls/"
+  },
+  {
+   "id": "RES-IN-01",
+   "publish_as": "new",
+   "target_url": null,
+   "owner_link": "https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/",
+   "reason": "No live page owns cost per hour; build where no owner exists (strategy AEO).",
+   "cannibalisation_risk": "low: https://www.bromic.com/blog/gas-or-electric-patio-heaters-which-one-is-right-for-me/ (keep its cost section short and link here)"
+  },
+  {
+   "id": "RES-PP-01",
+   "publish_as": "upgrade",
+   "target_url": "https://www.bromic.com/blog/what-are-the-clearances-to-heat-my-covered-patio/",
+   "owner_link": "https://www.bromic.com/outdoor-heaters/",
+   "reason": "Blog audit: replace the covered-patio clearances body with sourced placement guidance.",
+   "cannibalisation_risk": "high if new: https://www.bromic.com/blog/what-are-the-clearances-to-heat-my-covered-patio/; low: https://www.bromic.com/outdoor-heaters/wall-mounted/ (lead with placement, link height questions to the installation page)"
+  },
+  {
+   "id": "ARC-AW-01",
+   "publish_as": "upgrade",
+   "target_url": "https://www.bromic.com/blog/outdoor-amenities-shaping-home-design-like-never-before/",
+   "owner_link": "https://www.bromic.com/architects-designers/",
+   "reason": "Blog audit: replace the 2019/2020 NAHB figures with ARC-AW-01.",
+   "cannibalisation_risk": "low: https://www.bromic.com/outdoor-living-trends/ (statistics intent stays with A01-stats)"
+  },
+  {
+   "id": "ARC-BY-01",
+   "publish_as": "new",
+   "target_url": null,
+   "owner_link": "https://www.bromic.com/technical-resources/",
+   "reason": "No live page answers submittals; links to spec sheets and BIM files.",
+   "cannibalisation_risk": "none"
+  },
+  {
+   "id": "ARC-CO-01",
+   "publish_as": "upgrade",
+   "target_url": "https://www.bromic.com/blog/heating-people-not-places-the-fundamentals-of-heat-transfer/",
+   "owner_link": "https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/",
+   "reason": "Blog audit: heating-people post needs sourced radiant figures and a link to ARC-CO-01; make ARC-CO-01 the body.",
+   "cannibalisation_risk": "high if new: https://www.bromic.com/blog/heating-people-not-places-the-fundamentals-of-heat-transfer/; low: https://www.bromic.com/blog/what-is-the-difference-between-an-infrared-heater-and-a-radiant-heater/"
+  },
+  {
+   "id": "ARC-IN-01",
+   "publish_as": "upgrade",
+   "target_url": "https://www.bromic.com/blog/why-its-important-to-specify-outdoor-heating-early/",
+   "owner_link": "https://www.bromic.com/architects-designers/",
+   "reason": "Nearest live page to the thesis; one page should own \"specify outdoor heaters\".",
+   "cannibalisation_risk": "high if new: https://www.bromic.com/blog/why-its-important-to-specify-outdoor-heating-early/"
+  },
+  {
+   "id": "ARC-PP-01",
+   "publish_as": "new",
+   "target_url": null,
+   "owner_link": "https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/",
+   "reason": "No live page covers electrification codes.",
+   "cannibalisation_risk": "low: https://www.bromic.com/sustainable-design-principles/"
+  },
+  {
+   "id": "BLD-AW-01",
+   "publish_as": "new",
+   "target_url": null,
+   "owner_link": "https://www.bromic.com/builders/",
+   "reason": "No informational builder-upgrade post exists; /builders/ stays the commercial page.",
+   "cannibalisation_risk": "low: https://www.bromic.com/builders/ (do not target \"builder outdoor heating\")"
+  },
+  {
+   "id": "BLD-BY-01",
+   "publish_as": "merge-into",
+   "target_url": "https://www.bromic.com/blog/how-should-i-mount-my-outdoor-electric-patio-heater/",
+   "owner_link": "https://www.bromic.com/outdoor-heaters/wall-mounted/",
+   "reason": "Install steps, wiring and commissioning extend the strongest live mounting post.",
+   "cannibalisation_risk": "high if new: https://www.bromic.com/blog/how-should-i-mount-my-outdoor-electric-patio-heater/"
+  },
+  {
+   "id": "BLD-CO-01",
+   "publish_as": "merge-into",
+   "target_url": "https://www.bromic.com/builders/",
+   "owner_link": "https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/",
+   "reason": "Good-better-best tiers become the selection module on the builders page (P3); long form lives in A15.",
+   "cannibalisation_risk": "high if new: https://www.bromic.com/builders/"
+  },
+  {
+   "id": "BLD-IN-01",
+   "publish_as": "upgrade",
+   "target_url": "https://www.bromic.com/blog/how-to-prepare-your-patio-for-outdoor-heating/",
+   "owner_link": "https://www.bromic.com/outdoor-heaters/built-in/",
+   "reason": "Blog audit: replace with the pre-wire draft.",
+   "cannibalisation_risk": "high if new: https://www.bromic.com/blog/how-to-prepare-your-patio-for-outdoor-heating/"
+  },
+  {
+   "id": "BLD-PP-01",
+   "publish_as": "new",
+   "target_url": null,
+   "owner_link": "https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/",
+   "reason": "\"Not warm enough\" install mistakes has no live owner.",
+   "cannibalisation_risk": "low: https://www.bromic.com/blog/how-should-i-mount-my-outdoor-electric-patio-heater/ and https://www.bromic.com/blog/top-5-considerations-for-installing-ceiling-mounted-outdoor-heaters/"
+  },
+  {
+   "id": "COM-AW-01",
+   "publish_as": "upgrade",
+   "target_url": "https://www.bromic.com/blog/outdoor-dining-is-it-here-to-stay-or-go/",
+   "owner_link": "https://www.bromic.com/restaurants/",
+   "reason": "Blog audit: rewrite the pandemic-era post with sourced figures.",
+   "cannibalisation_risk": "high: https://www.bromic.com/restaurants/ owns \"restaurant patio heating\"; retarget the primary keyword to keeping outdoor dining open in winter"
+  },
+  {
+   "id": "COM-BY-01",
+   "publish_as": "merge-into",
+   "target_url": "https://www.bromic.com/blog/keeping-the-heat-on-essential-cleaning-and-maintenance-for-outdoor-heaters/",
+   "owner_link": "https://www.bromic.com/controls/",
+   "reason": "Same maintenance question as the live post; zones and schedules link to /controls/.",
+   "cannibalisation_risk": "high if new: https://www.bromic.com/blog/keeping-the-heat-on-essential-cleaning-and-maintenance-for-outdoor-heaters/"
+  },
+  {
+   "id": "COM-CO-01",
+   "publish_as": "upgrade",
+   "target_url": "https://www.bromic.com/blog/why-mushroom-heaters-are-bad-for-business/",
+   "owner_link": "https://www.bromic.com/restaurants/",
+   "reason": "Blog audit: rebuild the mushroom-heater post on the A20 cost model.",
+   "cannibalisation_risk": "high if new: https://www.bromic.com/blog/why-mushroom-heaters-are-bad-for-business/; low: https://www.bromic.com/blog/gas-or-electric-patio-heaters-which-one-is-right-for-me/ (residential intent)"
+  },
+  {
+   "id": "COM-IN-01",
+   "publish_as": "upgrade",
+   "target_url": "https://www.bromic.com/blog/how-outdoor-heating-can-increase-revenue-profits/",
+   "owner_link": "https://www.bromic.com/restaurants/",
+   "reason": "Blog audit: replace body; unsourced $ figures go.",
+   "cannibalisation_risk": "high if new: https://www.bromic.com/blog/how-outdoor-heating-can-increase-revenue-profits/"
+  },
+  {
+   "id": "COM-PP-01",
+   "publish_as": "new",
+   "target_url": null,
+   "owner_link": "https://www.bromic.com/restaurants/",
+   "reason": "No live page answers restaurant heater permits.",
+   "cannibalisation_risk": "low: https://www.bromic.com/restaurant-outdoor-heating-planning-guide/ (gated guide lists regulations)"
+  },
+  {
+   "id": "ARC-BY-KB1",
+   "publish_as": "merge-into",
+   "target_url": "https://www.bromic.com/blog/top-5-considerations-for-installing-ceiling-mounted-outdoor-heaters/",
+   "owner_link": "https://www.bromic.com/outdoor-heaters/ceiling-mounted/",
+   "reason": "Answer block and table inside the ceiling-mount post, which asks the clearance question.",
+   "cannibalisation_risk": "high if new: https://www.bromic.com/blog/top-5-considerations-for-installing-ceiling-mounted-outdoor-heaters/"
+  },
+  {
+   "id": "ARC-CO-KB1",
+   "publish_as": "merge-into",
+   "target_url": "https://www.bromic.com/outdoor-heaters/wall-mounted/",
+   "owner_link": "https://www.bromic.com/product/tungsten-smart-heat-electric/",
+   "reason": "Supplies the missing mounting-height answer on the installation page (P3 FAQs).",
+   "cannibalisation_risk": "high if new: https://www.bromic.com/outdoor-heaters/wall-mounted/"
+  },
+  {
+   "id": "ARC-IN-KB1",
+   "publish_as": "merge-into",
+   "target_url": "https://www.bromic.com/blog/what-should-be-considered-when-installing-recessed-electric-outdoor-heaters/",
+   "owner_link": "https://www.bromic.com/outdoor-heaters/flush-mounted/",
+   "reason": "Same recess question as the live post.",
+   "cannibalisation_risk": "high if new: https://www.bromic.com/blog/what-should-be-considered-when-installing-recessed-electric-outdoor-heaters/"
+  },
+  {
+   "id": "BLD-BY-KB1",
+   "publish_as": "merge-into",
+   "target_url": "https://www.bromic.com/blog/how-should-i-mount-my-outdoor-electric-patio-heater/",
+   "owner_link": "https://www.bromic.com/outdoor-heaters/wall-mounted/",
+   "reason": "GFCI answer as an FAQ in the mounting post; no thin FAQ URL.",
+   "cannibalisation_risk": "low: https://www.bromic.com/blog/how-should-i-mount-my-outdoor-electric-patio-heater/"
+  },
+  {
+   "id": "BLD-IN-KB1",
+   "publish_as": "merge-into",
+   "target_url": "https://www.bromic.com/product/platinum-smart-heat-electric/",
+   "owner_link": "https://www.bromic.com/product/platinum-smart-heat-electric/",
+   "reason": "4500 W is a Platinum model; breaker sizing belongs in the PDP FAQs (P4).",
+   "cannibalisation_risk": "none"
+  },
+  {
+   "id": "BLD-IN-KB2",
+   "publish_as": "merge-into",
+   "target_url": "https://www.bromic.com/blog/how-to-prepare-your-patio-for-outdoor-heating/",
+   "owner_link": "https://www.bromic.com/outdoor-heaters/built-in/",
+   "reason": "Circuit count is part of the pre-wire answer.",
+   "cannibalisation_risk": "low: https://www.bromic.com/blog/how-to-prepare-your-patio-for-outdoor-heating/"
+  },
+  {
+   "id": "COM-CO-KB1",
+   "publish_as": "merge-into",
+   "target_url": "https://www.bromic.com/restaurants/",
+   "owner_link": "https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/",
+   "reason": "Quick fuel answer as a restaurants FAQ, linking the long form.",
+   "cannibalisation_risk": "low: https://www.bromic.com/blog/why-mushroom-heaters-are-bad-for-business/"
+  },
+  {
+   "id": "COM-IN-KB1",
+   "publish_as": "merge-into",
+   "target_url": "https://www.bromic.com/restaurants/",
+   "owner_link": "https://www.bromic.com/design-your-space/",
+   "reason": "Sizing answer as a restaurants FAQ, linking A03 and Design Request.",
+   "cannibalisation_risk": "low: https://www.bromic.com/restaurants/"
+  },
+  {
+   "id": "COM-PP-KB1",
+   "publish_as": "new",
+   "target_url": null,
+   "owner_link": "https://www.bromic.com/restaurants/",
+   "reason": "Publish as an H2 and FAQ inside COM-PP-01, not as its own URL.",
+   "cannibalisation_risk": "none"
+  },
+  {
+   "id": "RES-CO-KB1",
+   "publish_as": "merge-into",
+   "target_url": "https://www.bromic.com/blog/do-infrared-heaters-work-outdoors/",
+   "owner_link": "https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/",
+   "reason": "Wind answer block inside the infrared-outdoors post.",
+   "cannibalisation_risk": "low: https://www.bromic.com/blog/do-infrared-heaters-work-outdoors/"
+  },
+  {
+   "id": "RES-CO-KB2",
+   "publish_as": "merge-into",
+   "target_url": "https://www.bromic.com/blog/are-infrared-outdoor-heaters-safe/",
+   "owner_link": "https://www.bromic.com/outdoor-heaters/",
+   "reason": "Same safety question as the live post (blog audit: link RES-CO-KB2).",
+   "cannibalisation_risk": "high if new: https://www.bromic.com/blog/are-infrared-outdoor-heaters-safe/"
+  },
+  {
+   "id": "RES-PP-KB1",
+   "publish_as": "merge-into",
+   "target_url": "https://www.bromic.com/blog/what-are-the-clearances-to-heat-my-covered-patio/",
+   "owner_link": "https://www.bromic.com/outdoor-heaters/ceiling-mounted/",
+   "reason": "Direct answer for the covered-patio post that RES-PP-01 rewrites.",
+   "cannibalisation_risk": "high if new: https://www.bromic.com/blog/what-are-the-clearances-to-heat-my-covered-patio/"
+  },
+  {
+   "id": "A02-homeowner",
+   "publish_as": "upgrade",
+   "target_url": "https://www.bromic.com/outdoor-heating-planning-guide/",
+   "owner_link": "https://www.bromic.com/design-your-space/",
+   "reason": "Gated PDF, not a web page: replaces the 2021 guide behind the existing landing.",
+   "cannibalisation_risk": "none"
+  },
+  {
+   "id": "A02-pro",
+   "publish_as": "upgrade",
+   "target_url": "https://www.bromic.com/outdoor-heating-planning-guide/",
+   "owner_link": "https://www.bromic.com/architects-designers/",
+   "reason": "Gated PDF, not a web page: pro edition offered from the same landing and /architects-designers/.",
+   "cannibalisation_risk": "none"
+  },
+  {
+   "id": "A02-commercial",
+   "publish_as": "upgrade",
+   "target_url": "https://www.bromic.com/restaurant-outdoor-heating-planning-guide/",
+   "owner_link": "https://www.bromic.com/restaurants/",
+   "reason": "Gated PDF, not a web page: replaces the restaurant guide behind the existing landing.",
+   "cannibalisation_risk": "none"
+  },
+  {
+   "id": "A02-outline",
+   "publish_as": "new",
+   "target_url": null,
+   "owner_link": "https://www.bromic.com/outdoor-heating-planning-guide/",
+   "reason": "Internal review outline; not published.",
+   "cannibalisation_risk": "none"
+  },
+  {
+   "id": "A12",
+   "publish_as": "new",
+   "target_url": null,
+   "owner_link": "https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/",
+   "reason": "Gated PDF, not a web page; offered from ARC-PP-01.",
+   "cannibalisation_risk": "low: https://www.bromic.com/sustainable-design-principles/"
+  },
+  {
+   "id": "A16",
+   "publish_as": "new",
+   "target_url": null,
+   "owner_link": "https://www.bromic.com/outdoor-heaters/built-in/",
+   "reason": "Gated PDF, not a web page; offered from the pre-wire post and /builders/.",
+   "cannibalisation_risk": "none"
+  },
+  {
+   "id": "A11",
+   "publish_as": "new",
+   "target_url": null,
+   "owner_link": "https://www.bromic.com/architects-designers/",
+   "reason": "Gated asset, not a web page; offered from /technical-resources/ and /architects-designers/; spec sheets and BIM stay ungated.",
+   "cannibalisation_risk": "none"
+  },
+  {
+   "id": "A15",
+   "publish_as": "new",
+   "target_url": null,
+   "owner_link": "https://www.bromic.com/builders/",
+   "reason": "Sales kit (PDF), not a web page; offered from /builders/.",
+   "cannibalisation_risk": "none"
+  },
+  {
+   "id": "A01-stats",
+   "publish_as": "upgrade",
+   "target_url": "https://www.bromic.com/outdoor-living-trends/",
+   "owner_link": "https://www.bromic.com/design-your-space/",
+   "reason": "Ungated HTML stats become the body of the thin gated trends page.",
+   "cannibalisation_risk": "low: https://www.bromic.com/blog/outdoor-amenities-shaping-home-design-like-never-before/"
+  },
+  {
+   "id": "A01-corrections",
+   "publish_as": "new",
+   "target_url": null,
+   "owner_link": "https://www.bromic.com/outdoor-living-trends/",
+   "reason": "Internal QA report; not published.",
+   "cannibalisation_risk": "none"
+  },
+  {
+   "id": "R-BLOG-AUDIT",
+   "publish_as": "new",
+   "target_url": null,
+   "owner_link": "https://www.bromic.com/outdoor-heaters/",
+   "reason": "Internal report; not published.",
+   "cannibalisation_risk": "none"
+  },
+  {
+   "id": "R-SEO-AEO",
+   "publish_as": "new",
+   "target_url": null,
+   "owner_link": "https://www.bromic.com/outdoor-heaters/",
+   "reason": "Internal report; not published.",
+   "cannibalisation_risk": "none"
+  },
+  {
+   "id": "A03",
+   "publish_as": "new",
+   "target_url": null,
+   "owner_link": "https://www.bromic.com/design-your-space/",
+   "reason": "Strategy names a coverage/sizing tool as proprietary value; no live tool exists.",
+   "cannibalisation_risk": "low: https://www.bromic.com/design-your-space/ (the tool estimates, Design Request designs)"
+  },
+  {
+   "id": "A20",
+   "publish_as": "new",
+   "target_url": null,
+   "owner_link": "https://www.bromic.com/restaurants/",
+   "reason": "No live cost tool; linked from COM-CO-01.",
+   "cannibalisation_risk": "none"
+  },
+  {
+   "id": "A21",
+   "publish_as": "new",
+   "target_url": null,
+   "owner_link": "https://www.bromic.com/restaurants/",
+   "reason": "Replaces the ungated ROI PDF linked from /restaurants/.",
+   "cannibalisation_risk": "low: https://www.bromic.com/blog/how-outdoor-heating-can-increase-revenue-profits/ (article explains, tool calculates)"
+  },
+  {
+   "id": "CS-CANDIDATES",
+   "publish_as": "new",
+   "target_url": null,
+   "owner_link": "https://www.bromic.com/case-studies/",
+   "reason": "Internal working sheet; upgrades land on existing /case-study/ URLs.",
+   "cannibalisation_risk": "none"
+  },
+  {
+   "id": "CS-TEMPLATE",
+   "publish_as": "new",
+   "target_url": null,
+   "owner_link": "https://www.bromic.com/case-studies/",
+   "reason": "Template, not published; real stories use existing or new /case-study/ URLs.",
+   "cannibalisation_risk": "none"
+  }
+ ]
+}
