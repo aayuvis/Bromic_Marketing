@@ -113,6 +113,9 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
   body { background: #fff; }
   .gate, .actions, .inputs { display: none !important; }
 }
+
+/* Inside a Claude page (?framed=1) print and downloads are blocked: hide those controls. */
+.framed .no-frame { display: none !important; }
 /* @inline:end ../_shared/brand.css */
 </style>
 </head>
@@ -940,6 +943,8 @@ return { ENCLOSURES, CLIMATES, FUELS, STYLES, defaults, normalise, heightFactor,
 
 /* @inline:begin ../_shared/lead.js */
 const Lead = (() => {
+// ?framed=1 (the Hub inside a Claude page): hide print and download controls.
+try { if (new URLSearchParams(location.search).get('framed')) document.body.classList.add('framed'); } catch {}
 // Shared lead gate for the Bromic tools (HANDOVER §9; spec in forms/hubspot-form-spec.md).
 // Inlined into each tool's index.html by tools/build-config.mjs. The pure functions at the top are
 // tested by tools/_shared/test.mjs; mountLeadGate() is the only part that touches the DOM.
@@ -1238,7 +1243,7 @@ function renderReport(r) {
 
 function ctaHtml() {
   return `<div class="actions"><a class="btn primary" href="${esc(v(CONFIG.cta.href))}" target="_top" rel="noopener">${esc(CONFIG.cta.label)}</a>
-    <button class="btn ghost" type="button" onclick="window.print()">Print or save as PDF</button></div>
+    <button class="btn ghost no-frame" type="button" onclick="window.print()">Print or save as PDF</button></div>
     <p class="note">Our design team turns this into a layout with placements and a full parts list.</p>`;
 }
 

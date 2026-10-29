@@ -178,7 +178,8 @@ for (const it of items) {
   for (const u of used) (usage[u] ||= []).push(it.id);
 }
 
-const HUB = { built: new Date().toISOString(), matrix, assets, facts, images, usage, tools, site, cs, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
+let commit = ''; try { commit = (await import('node:child_process')).execSync('git rev-parse --short HEAD', { cwd: ROOT }).toString().trim(); } catch {}
+const HUB = { built: new Date().toISOString(), commit, matrix, assets, facts, images, usage, tools, site, cs, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
 
 console.log(`items ${items.length} · tools ${tools.length} · images ${images.length} · site pages ${site.length} · errors ${errors.length} · warnings ${warn.length}`);
 warn.forEach((w) => console.log('  warn  ' + w));

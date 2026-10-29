@@ -325,3 +325,6 @@ table.data tr:hover td { background: var(--paper); }
 .ws.na { background: transparent; }
 .ws button:focus-visible { outline: 2px solid var(--flame); outline-offset: 1px; }
 @media (max-width: 640px) { .cs-coll { grid-template-columns: 56px 1fr; } .cs-coll img { width: 56px; height: 56px; } }
+
+/* inside a Claude page: print and downloads are blocked */
+.framed .no-frame { display: none !important; }

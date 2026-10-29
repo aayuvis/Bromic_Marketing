@@ -104,3 +104,6 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
   body { background: #fff; }
   .gate, .actions, .inputs { display: none !important; }
 }
+
+/* Inside a Claude page (?framed=1) print and downloads are blocked: hide those controls. */
+.framed .no-frame { display: none !important; }

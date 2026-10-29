@@ -68,6 +68,11 @@ The repo is private; **the Pages site is public to anyone with the link** (the o
 carries `noindex`. Commit first: the deploy is stamped with the commit it was built from. Tools are inlined by
 `node tools/build-config.mjs` (part of `npm run build` and `npm test`); a tool's README table comes from `node tools/readme-table.mjs <id>`.
 
+**Private preview (the link the owner uses):** <https://claude.ai/artifact/DL4yWhz2KcMoxMHoLhLd8i>. GitHub Pages needs a paid plan for a
+private repo, so until then this is the shared link. Republish from git: commit and push, then `cd app && npm run artifact` and publish
+`app/dist-artifact/artifact.html` to that URL with every other file in `app/dist-artifact/` as `files` (root `app/dist-artifact`). The page
+footer shows the commit it was built from. Inside the preview, downloads and print are blocked: those buttons become Copy.
+
 ## Verify
 
 ```bash

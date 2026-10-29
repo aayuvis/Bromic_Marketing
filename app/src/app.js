@@ -40,7 +40,10 @@
     try { await navigator.clipboard.writeText(text); toast(msg); }
     catch { const ta = document.createElement('textarea'); ta.value = text; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove(); toast(msg); }
   }
+  const FRAMED = !!window.HUB_FRAME;  // inside a Claude page: downloads and print are blocked, so copy instead
+  if (FRAMED) document.documentElement.classList.add('framed');
   function download(name, text, type = 'text/html') {
+    if (FRAMED) { copy(text, 'Copied (downloads are blocked here)'); return; }
     const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([text], { type })); a.download = name; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 500);
   }
 
@@ -201,8 +204,8 @@
       ${rel.length ? `<div class="panel"><h4>Related</h4><ul class="list">${rel.map((r) => `<li><a href="#/item/${esc(r.id)}"><span class="t" style="font-size:15px">${esc(r.title)}</span></a></li>`).join('')}</ul></div>` : ''}
       <div class="btns">
         <button class="btn" data-act="md" data-id="${esc(it.id)}">${ic.copy}Copy Markdown</button>
-        <button class="btn" data-act="html" data-id="${esc(it.id)}">${ic.down}Export HTML</button>
-        <button class="btn" data-act="print">${ic.print}Print / PDF</button>
+        <button class="btn" data-act="html" data-id="${esc(it.id)}">${FRAMED ? ic.copy + 'Copy HTML' : ic.down + 'Export HTML'}</button>
+        <button class="btn no-frame" data-act="print">${ic.print}Print / PDF</button>
       </div>
     </aside></div>`;
   }
@@ -259,8 +262,8 @@
     const c = H.items.find((i) => i.type === 'tool' && t.startsWith(i.asset || '#'));
     return `<nav class="crumbs"><a href="#/tools">Tools</a><span>/</span><span>${esc(t)}</span></nav>
       <div class="ph"><div><h1>${esc(c?.title || t)}</h1>${c?.summary ? `<p>${esc(c.summary)}</p>` : ''}</div>
-      <div class="btns"><a class="btn" href="tools/${esc(t)}/index.html" target="_blank" rel="noopener">${ic.ext}Open full page</a>${c ? `<a class="btn" href="#/item/${esc(c.id)}">About this tool</a>` : ''}</div></div>
-      <iframe class="tool-frame" src="tools/${esc(t)}/index.html?embed=1" title="${esc(c?.title || t)}"></iframe>`;
+      <div class="btns"><a class="btn" href="tools/${esc(t)}/index.html${FRAMED ? '?framed=1' : ''}" target="_blank" rel="noopener">${ic.ext}Open full page</a>${c ? `<a class="btn" href="#/item/${esc(c.id)}">About this tool</a>` : ''}</div></div>
+      <iframe class="tool-frame" src="tools/${esc(t)}/index.html?embed=1${FRAMED ? '&framed=1' : ''}" title="${esc(c?.title || t)}"></iframe>`;
   }
 
   let imgFilter = { product: '', aud: '', src: '' };
@@ -284,7 +287,7 @@
       <aside><span class="label">${esc(i.id)}</span><h3 style="font-size:22px;margin:8px 0 12px">${esc(i.product)}</h3><p style="margin:0 0 16px">${esc(i.alt)}</p>
       <dl class="kv"><dt>Setting</dt><dd>${esc(i.setting)}</dd><dt>Audience</dt><dd>${i.audiences.join(', ')}</dd><dt>Source</dt><dd>${i.page_url ? `<a href="${esc(i.page_url)}" target="_blank" rel="noopener">${esc(i.source)}</a>${i.used_on && i.used_on.length > 1 ? ` (+${i.used_on.length - 1} pages)` : ''}` : `${esc(i.source)}, p.${i.page}`}</dd>${i.notes ? `<dt>Note</dt><dd>${esc(i.notes)}</dd>` : ''}<dt>Size</dt><dd>${i.w}×${i.h}, ${i.orientation}</dd><dt>Rights</dt><dd>${esc(i.rights)}</dd>
       <dt>Used in</dt><dd>${used.length ? used.map((u) => `<a href="#/item/${esc(u)}">${esc(u)}</a>`).join(', ') : 'Not yet'}</dd></dl>
-      <div class="btns" style="margin-top:18px"><button class="btn" data-copyid="${esc(i.id)}">${ic.copy}Copy id</button><a class="btn" href="${i.file}" download>${ic.down}Download</a></div></aside>`;
+      <div class="btns" style="margin-top:18px"><button class="btn" data-copyid="${esc(i.id)}">${ic.copy}Copy id</button><a class="btn no-frame" href="${i.file}" download>${ic.down}Download</a></div></aside>`;
     const close = () => { el.remove(); document.removeEventListener('keydown', k); };
     const k = (e) => { if (e.key === 'Escape') close(); };
     el.addEventListener('click', (e) => { if (e.target === el || e.target.classList.contains('x') || e.target.closest('.pic') && e.target.tagName !== 'IMG' || e.target.closest('a[href^="#/item"]')) close(); const c = e.target.closest('[data-copyid]'); if (c) copy(c.dataset.copyid, 'Image id copied'); });
@@ -379,7 +382,7 @@
     const fsel = (g) => `<label class="muted" style="font-size:13px">${esc(CS.tax.groups[g].label)} <select data-wsf="${g}"><option value="">Any</option>${CS.tax.groups[g].tags.map((t) => `<option value="${t.id}" ${wsF[g] === t.id ? 'selected' : ''}>${esc(t.label)}</option>`).join('')}</select></label>`;
     const owner = CS.targets.filter((t) => t.priority === 'owner'), sugg = CS.targets.filter((t) => t.priority !== 'owner');
     return `<div class="ph"><div><span class="label">Case-study whitespace</span><h1>What sales can't show a prospect yet</h1><p>${covered} of ${total} segment × market cells have a written case study. Dark: written · mid: photos only, never written up · outlined: priority to fill. Filter by product, space or install to find narrower gaps ("no pergola story in Australia").</p></div>
-      <div class="btns"><button class="btn" data-wscsv>${ic.down}Download CSV</button></div></div>
+      <div class="btns"><button class="btn" data-wscsv>${FRAMED ? ic.copy + 'Copy CSV' : ic.down + 'Download CSV'}</button></div></div>
       ${csTabs('whitespace')}
       <div class="toolbar"><span class="muted">Click a cell for what exists or the outreach brief.</span><span class="btns">${fsel('product')}${fsel('space')}${fsel('install')}</span></div>
       <div class="tbl-wrap"><table class="data wsgrid"><thead><tr><th></th>${mk.map((m) => `<th>${esc(m === 'MARINE' ? 'At sea' : m)}</th>`).join('')}</tr></thead><tbody>${rows}</tbody></table></div>
@@ -410,8 +413,8 @@
     const [k, qs] = (location.hash.split('/cases/')[1] || '').split('?');
     if (k === 'whitespace') return csWhitespace();
     if (k === 'capture') return `<div class="ph"><div><span class="label">Case studies</span><h1>Capture a project</h1><p>For sales and marketing on site: the property, the people, products and controls, results, photos and every approval. It saves in your browser until you download the record.</p></div>
-      <div class="btns"><a class="btn" href="tools/CS-capture/index.html${qs ? '?' + qs : ''}" target="_blank" rel="noopener">${ic.ext}Open full page</a></div></div>${csTabs('capture')}
-      <iframe class="tool-frame" style="min-height:1400px" src="tools/CS-capture/index.html?embed=1${qs ? '&' + qs : ''}" title="Case-study capture"></iframe>`;
+      <div class="btns"><a class="btn" href="tools/CS-capture/index.html?${FRAMED ? 'framed=1&' : ''}${qs || ''}" target="_blank" rel="noopener">${ic.ext}Open full page</a></div></div>${csTabs('capture')}
+      <iframe class="tool-frame" style="min-height:1400px" src="tools/CS-capture/index.html?embed=1${FRAMED ? '&framed=1' : ''}${qs ? '&' + qs : ''}" title="Case-study capture"></iframe>`;
     return csLibrary();
   }
 
@@ -482,7 +485,7 @@
       const it = ITEM[act.dataset.id];
       if (act.dataset.act === 'md') copy(it.markdown, 'Markdown copied');
       if (act.dataset.act === 'html') download(`${it.id}-${it.slug || 'export'}.html`, exportHTML(it));
-      if (act.dataset.act === 'print') window.print();
+      if (act.dataset.act === 'print' && !FRAMED) window.print();
       return;
     }
     const t = e.target.closest('[data-img]'); if (t) lightbox(t.dataset.img);
@@ -521,7 +524,7 @@
     root.dataset.theme = dark ? 'light' : 'dark';
     try { localStorage.setItem('bch-theme', root.dataset.theme); } catch {}
   });
-  $('#built').textContent = 'Built ' + new Date(H.built).toLocaleString();
+  $('#built').textContent = 'Built ' + new Date(H.built).toLocaleString() + (H.commit ? ' from commit ' + H.commit : '');
   window.addEventListener('hashchange', route);
   route();
 })();

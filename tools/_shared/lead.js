@@ -1,3 +1,5 @@
+// ?framed=1 (the Hub inside a Claude page): hide print and download controls.
+try { if (new URLSearchParams(location.search).get('framed')) document.body.classList.add('framed'); } catch {}
 // Shared lead gate for the Bromic tools (HANDOVER §9; spec in forms/hubspot-form-spec.md).
 // Inlined into each tool's index.html by tools/build-config.mjs. The pure functions at the top are
 // tested by tools/_shared/test.mjs; mountLeadGate() is the only part that touches the DOM.

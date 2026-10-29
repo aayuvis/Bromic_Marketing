@@ -114,6 +114,9 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
   body { background: #fff; }
   .gate, .actions, .inputs { display: none !important; }
 }
+
+/* Inside a Claude page (?framed=1) print and downloads are blocked: hide those controls. */
+.framed .no-frame { display: none !important; }
 /* @inline:end ../_shared/brand.css */
 .status { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: center; position: sticky; top: 0; z-index: 2; background: var(--paper); padding: 12px 0; border-bottom: 1px solid var(--mist); margin-bottom: 20px; }
 .status b { font-family: var(--serif); font-size: 1.3rem; font-weight: normal; }
@@ -172,9 +175,10 @@ pre.md { white-space: pre-wrap; background: var(--white); border: 1px solid var(
     <div class="tagline" id="tags"></div>
     <div class="actions">
       <button type="button" class="btn primary" id="copy">Copy Markdown draft</button>
-      <button type="button" class="btn" id="json">Download record (JSON)</button>
-      <button type="button" class="btn" id="mdl">Download Markdown</button>
-      <button type="button" class="btn ghost" id="print">Print or save as PDF</button>
+      <button type="button" class="btn" id="cjson">Copy record (JSON)</button>
+      <button type="button" class="btn no-frame" id="json">Download record (JSON)</button>
+      <button type="button" class="btn no-frame" id="mdl">Download Markdown</button>
+      <button type="button" class="btn ghost no-frame" id="print">Print or save as PDF</button>
       <button type="button" class="btn ghost" id="load">Load a record</button>
       <button type="button" class="btn ghost" id="clear">Start a new capture</button>
       <input type="file" id="file" accept="application/json" class="hidden">
@@ -331,6 +335,7 @@ try { C = JSON.parse(localStorage.getItem(KEY) || 'null'); } catch { C = null; }
 if (!C) C = Logic.blank();
 const q = new URLSearchParams(location.search);
 if (q.get('embed') === '1') document.body.classList.add('embed');
+if (q.get('framed')) document.body.classList.add('framed');
 if (q.get('segment') && !C.project.segment.length) C.project.segment = q.get('segment').split(',');
 if (q.get('market') && !C.project.market) C.project.market = q.get('market');
 
@@ -459,7 +464,17 @@ $('#copy').addEventListener('click', async () => {
 $('#json').addEventListener('click', () => save(`case-study-${slug()}.json`, JSON.stringify({ capture: C, tags: Logic.tags(C, TAX), status: Logic.status(C).id, saved: new Date().toISOString() }, null, 2), 'application/json'));
 $('#mdl').addEventListener('click', () => save(`case-study-${slug()}.md`, Logic.toMarkdown(C, TAX), 'text/markdown'));
 $('#print').addEventListener('click', () => { document.querySelectorAll('details.sec').forEach((d) => (d.open = true)); window.print(); });
-$('#clear').addEventListener('click', () => { if (confirm('Start a new capture? Download this one first if you need it.')) { C = Logic.blank(); form(); } });
+let clearArmed = 0;  // two taps instead of confirm(), which some frames block
+$('#clear').addEventListener('click', (e) => {
+  if (Date.now() - clearArmed < 4000) { C = Logic.blank(); form(); e.target.textContent = 'Start a new capture'; clearArmed = 0; $('#saved').textContent = 'New capture started.'; return; }
+  clearArmed = Date.now(); e.target.textContent = 'Tap again to clear this capture'; $('#saved').textContent = 'Copy or download this record first if you need it.';
+  setTimeout(() => { if (clearArmed && Date.now() - clearArmed >= 4000) { e.target.textContent = 'Start a new capture'; clearArmed = 0; } }, 4100);
+});
+$('#cjson').addEventListener('click', async () => {
+  const body = JSON.stringify({ capture: C, tags: Logic.tags(C, TAX), status: Logic.status(C).id, saved: new Date().toISOString() }, null, 2);
+  try { await navigator.clipboard.writeText(body); $('#saved').textContent = 'Record copied. Paste it into an email or a file for marketing.'; }
+  catch { $('#md').closest('details').open = true; $('#md').textContent = body; $('#saved').textContent = 'Copy was blocked here: select the record below and copy it.'; }
+});
 $('#load').addEventListener('click', () => $('#file').click());
 $('#file').addEventListener('change', async (e) => {
   const file = e.target.files[0]; if (!file) return;
