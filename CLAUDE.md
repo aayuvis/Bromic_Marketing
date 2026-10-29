@@ -61,17 +61,31 @@ Figures in the inventory are leads to check on the live page, never sources. Pro
 Images: `python3 scripts/bromic_site_images.py fetch | sheets | ingest` → `images/_raw/bromic-com/` (gitignored) → contact sheets
 → the library as `w-` ids with `source_url` and `page_url`. Every image is looked at before ingest; rights stay `[[VERIFY]]`.
 
+## Feedback loop (start every session here)
+
+The Hub has a Feedback button on every page, a comment button on every section heading, "Comment on this" for selected text, and
+a feedback link on every case study and image. Each opens a GitHub issue in this repo titled `[Feedback] …` whose body starts with
+a machine-readable block (`element`, `section`, `type`, `page`, `commit`, then the quoted text and the request).
+**At the start of every session:** run `node scripts/feedback.mjs` (or list issues with the GitHub tools) and work through every
+open feedback issue: make the change in the source file the element names (an item id → `content/**/<id>-*.md`; `tool:` →
+`tools/<id>/`; `case:` → `scripts/build_case_studies.py` tags or `data/case-studies.json`; `image:` → `images/library/manifest.json`),
+keeping every hard rule above. Run the tests, commit with `Fixes #N` in the message (one commit may fix several), push, deploy,
+then comment on each issue with what changed and the commit, and close it. Feedback that conflicts with a hard rule or needs an
+owner's decision is not implemented: comment why, label the question with its owner, and leave it open.
+
 ## Publish the Hub
 
-`cd app && ./deploy.sh` builds and force-replaces the `gh-pages` branch → <https://aayuvis.github.io/Bromic_Marketing/#/home>.
-The repo is private; **the Pages site is public to anyone with the link** (the owner chose this, 29 Oct 2026), so the page
-carries `noindex`. Commit first: the deploy is stamped with the commit it was built from. Tools are inlined by
+`cd app && ./deploy.sh` builds, renders the PDFs, and force-replaces the `gh-pages` branch →
+<https://aayuvis.github.io/Bromic_Marketing/#/home>. **The repo and the site are public** (the owner made the repo public, 29 Oct 2026);
+the page carries `noindex`. Commit first: the deploy is stamped with the commit it was built from. Tools are inlined by
 `node tools/build-config.mjs` (part of `npm run build` and `npm test`); a tool's README table comes from `node tools/readme-table.mjs <id>`.
 
-**Private preview (the link the owner uses):** <https://claude.ai/artifact/DL4yWhz2KcMoxMHoLhLd8i>. GitHub Pages needs a paid plan for a
-private repo, so until then this is the shared link. Republish from git: commit and push, then `cd app && npm run artifact` and publish
-`app/dist-artifact/artifact.html` to that URL with every other file in `app/dist-artifact/` as `files` (root `app/dist-artifact`). The page
-footer shows the commit it was built from. Inside the preview, downloads and print are blocked: those buttons become Copy.
+**PDFs:** every gated document (report, gated guide, spec kit, sales kit) gets a branded PDF at deploy (`node scripts/pdf.mjs` →
+`app/dist/pdf/<id>.pdf`; cover, body, CTA, sources, page numbers; drafts say so on every page). The Hub shows "Download PDF" on
+those items. PDFs are built from git at each deploy, never committed.
+
+A private Claude preview build also exists (`npm run artifact`, <https://claude.ai/artifact/DL4yWhz2KcMoxMHoLhLd8i>); it is not kept in
+step since the site went public.
 
 ## Verify
 

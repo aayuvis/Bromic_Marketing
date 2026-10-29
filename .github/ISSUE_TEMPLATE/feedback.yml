@@ -1,0 +1,32 @@
+name: Feedback on the Content Hub
+description: A correction, a content change, a design note or an idea for any article, guide, tool, case study or image.
+title: "[Feedback] "
+labels: ["feedback"]
+body:
+  - type: input
+    id: element
+    attributes:
+      label: Element
+      description: The item id (e.g. RES-CO-01, A01-v2), tool (tool:A03-sizing), case study (case:...) or image (image:w-...). The Hub's Feedback button fills this in.
+      placeholder: RES-CO-01
+    validations:
+      required: true
+  - type: input
+    id: section
+    attributes:
+      label: Section
+      description: The heading or table it is about, if any.
+  - type: dropdown
+    id: type
+    attributes:
+      label: Kind
+      options: [Correction, Content, Design, Data or source, Idea]
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What should change
+      description: Be specific. Quote the text if it helps.
+    validations:
+      required: true

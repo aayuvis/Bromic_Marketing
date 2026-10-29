@@ -16,6 +16,7 @@
   const GATED_TYPES = ['gated-guide', 'spec-kit', 'sales-kit'];
 
   const ic = {
+    chat: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v10H9l-5 4z"/></svg>',
     lock: '<svg viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="9"/><path d="M8 11V8a4 4 0 018 0v3"/></svg>',
     arrow: '<svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>',
     copy: '<svg viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12"/><path d="M16 8V4H4v12h4"/></svg>',
@@ -51,7 +52,7 @@
     const hero = it.hero || (it.type === 'tool' ? 't-009-025' : '');
     const v = it.verifies.length;
     return `<a class="card" href="#/item/${esc(it.id)}">
-      <div class="ph-img">${img(hero)}${isGated(it) ? `<span class="lock">${ic.lock}GATED</span>` : ''}</div>
+      <div class="ph-img">${img(hero)}${isGated(it) ? `<span class="lock">${ic.lock}GATED${hasPdf(it) ? ' · PDF' : ''}</span>` : ''}</div>
       <div class="body">
         <span class="label">${esc(TYPES[it.type] || it.type)} · ${esc(it.id)}</span>
         <h3>${esc(it.title)}</h3>
@@ -155,6 +156,9 @@
         ${list.length ? `<div class="grid">${list.map(card).join('')}</div>` : '<div class="empty">Nothing matches. Clear a filter.</div>'}</section></div>`;
   }
 
+  // Gated documents get a PDF at deploy (app/scripts/pdf.mjs uses the same rule).
+  const PDF_TYPES = ['report', 'gated-guide', 'spec-kit', 'sales-kit', 'stats-page'];
+  const hasPdf = (it) => it.gated === true && PDF_TYPES.includes(it.type) && !FRAMED;
   function item(id) {
     const it = ITEM[id];
     if (!it) return `<div class="empty">No item “${esc(id)}”. <a href="#/library">Back to the library</a></div>`;
@@ -171,6 +175,7 @@
       <h1>${esc(it.title)}</h1>
       ${it.summary ? `<p class="dek">${esc(it.summary)}</p>` : ''}
       ${tool ? `<p><a class="btn primary" href="#/tool/${esc(tool)}">${ic.arrow} Open the tool</a></p>` : ''}
+      ${hasPdf(it) ? `<p><a class="btn primary" href="pdf/${esc(it.id)}.pdf" download="Bromic-${esc(it.id)}.pdf">${ic.down}Download the PDF</a> <span class="muted" style="font-size:13px">${it.status === 'approved' || it.status === 'published' ? 'Ready to share' : 'Review draft'}</span></p>` : ''}
       <div class="prose">${it.html}</div>
       ${it.sources.length ? `<hr class="rule"><h2 style="font-size:24px;margin-bottom:6px">Sources</h2><p class="muted" style="margin-top:0;font-size:13px">${it.sources.length} mapped · ${it.sources.length - unverified(it)} verified</p>
       <ol class="srcs">${it.sources.map((s, i) => `<li id="src-${esc(it.id)}-${esc(s.id)}"><span class="n">${i + 1}</span><span><b>${esc(s.publisher || '')}</b>${s.title ? ` — ${esc(s.title)}` : ''}${s.year ? ` (${esc(s.year)})` : ''} ${s.verified ? '<span class="chip ok">Verified</span>' : '<span class="chip warn">Verify</span>'}
@@ -201,8 +206,10 @@
       </dl></div>` : ''}
       ${it.verifies.length ? `<div class="panel"><h4>To verify · ${it.verifies.length}</h4><ol class="vlist">${it.verifies.map((v) => `<li>${esc(v)}</li>`).join('')}</ol></div>` : ''}
       ${cell ? `<div class="panel"><h4>Journey cell · ${esc(cell.id)}</h4><p style="margin:0 0 8px;font-size:13.5px">${esc(cell.pain_point)}</p><a href="#/journey/${esc(cell.id)}" style="font-size:13px">Open cell →</a></div>` : ''}
+      <div class="panel"><h4>Feedback</h4><div id="fb-panel"><p class="muted" style="font-size:13px;margin:0">Loading…</p></div><button class="btn" style="margin-top:10px" data-fb>${ic.chat}Give feedback</button></div>
       ${rel.length ? `<div class="panel"><h4>Related</h4><ul class="list">${rel.map((r) => `<li><a href="#/item/${esc(r.id)}"><span class="t" style="font-size:15px">${esc(r.title)}</span></a></li>`).join('')}</ul></div>` : ''}
       <div class="btns">
+        ${hasPdf(it) ? `<a class="btn primary" href="pdf/${esc(it.id)}.pdf" download="Bromic-${esc(it.id)}.pdf">${ic.down}Download PDF</a>` : ''}
         <button class="btn" data-act="md" data-id="${esc(it.id)}">${ic.copy}Copy Markdown</button>
         <button class="btn" data-act="html" data-id="${esc(it.id)}">${FRAMED ? ic.copy + 'Copy HTML' : ic.down + 'Export HTML'}</button>
         <button class="btn no-frame" data-act="print">${ic.print}Print / PDF</button>
@@ -287,7 +294,7 @@
       <aside><span class="label">${esc(i.id)}</span><h3 style="font-size:22px;margin:8px 0 12px">${esc(i.product)}</h3><p style="margin:0 0 16px">${esc(i.alt)}</p>
       <dl class="kv"><dt>Setting</dt><dd>${esc(i.setting)}</dd><dt>Audience</dt><dd>${i.audiences.join(', ')}</dd><dt>Source</dt><dd>${i.page_url ? `<a href="${esc(i.page_url)}" target="_blank" rel="noopener">${esc(i.source)}</a>${i.used_on && i.used_on.length > 1 ? ` (+${i.used_on.length - 1} pages)` : ''}` : `${esc(i.source)}, p.${i.page}`}</dd>${i.notes ? `<dt>Note</dt><dd>${esc(i.notes)}</dd>` : ''}<dt>Size</dt><dd>${i.w}×${i.h}, ${i.orientation}</dd><dt>Rights</dt><dd>${esc(i.rights)}</dd>
       <dt>Used in</dt><dd>${used.length ? used.map((u) => `<a href="#/item/${esc(u)}">${esc(u)}</a>`).join(', ') : 'Not yet'}</dd></dl>
-      <div class="btns" style="margin-top:18px"><button class="btn" data-copyid="${esc(i.id)}">${ic.copy}Copy id</button><a class="btn no-frame" href="${i.file}" download>${ic.down}Download</a></div></aside>`;
+      <div class="btns" style="margin-top:18px"><button class="btn" data-copyid="${esc(i.id)}">${ic.copy}Copy id</button><button class="btn" data-fbel="image:${esc(i.id)}" data-fblabel="Image ${esc(i.id)}">${ic.chat}Feedback</button><a class="btn no-frame" href="${i.file}" download>${ic.down}Download</a></div></aside>`;
     const close = () => { el.remove(); document.removeEventListener('keydown', k); };
     const k = (e) => { if (e.key === 'Escape') close(); };
     el.addEventListener('click', (e) => { if (e.target === el || e.target.classList.contains('x') || e.target.closest('.pic') && e.target.tagName !== 'IMG' || e.target.closest('a[href^="#/item"]')) close(); const c = e.target.closest('[data-copyid]'); if (c) copy(c.dataset.copyid, 'Image id copied'); });
@@ -318,6 +325,8 @@
       <div class="kanban">${STATUSES.map((s) => `<a class="col" href="${libHref({ status: s })}" style="text-decoration:none"><span class="label">${s.replace('-', ' ')}</span><b>${col(s)}</b></a>`).join('')}</div>
       <div class="two"><div><div class="sec-h"><h2>By reviewer</h2></div><ul class="list">${Object.entries(byOwner).sort((a, b) => b[1].length - a[1].length).map(([o, its]) => `<li><span class="row"><span class="t" style="font-size:16px">${esc(o)}</span><span class="muted">${its.length} items · ${its.reduce((n, i) => n + i.verifies.length, 0)} flags</span></span></li>`).join('')}</ul></div>
       <div><div class="sec-h"><h2>Most to verify</h2></div><ul class="list">${top.slice(0, 12).map((i) => `<li><a href="#/item/${esc(i.id)}"><span class="t" style="font-size:15px">${esc(i.title)}</span><span class="vcount" style="font-size:13px;white-space:nowrap">${i.verifies.length} flags · ${unverified(i)} sources</span></a></li>`).join('')}</ul></div></div>
+      <div class="sec-h"><h2>Feedback</h2><a href="https://github.com/${REPO}/issues?q=%5BFeedback%5D" target="_blank" rel="noopener">All on GitHub →</a></div>
+      <div class="panel" id="fb-all"><p class="muted" style="margin:0">Loading…</p></div>
       <div class="sec-h"><h2>Open questions</h2></div>
       ${H.openQuestions.map((q, n) => `<details class="oq" ${n === 0 ? 'open' : ''}><summary>${esc(q.name.replace(/-/g, ' '))}</summary>${q.html}</details>`).join('') || '<div class="empty">No open questions logged.</div>'}`;
   }
@@ -344,7 +353,8 @@
       <p class="muted" style="font-size:14px;margin:0 0 8px">${esc(r.location || '')}</p><p style="font-size:14px">${esc(r.summary || '')}</p>
       <div class="chips">${chips}</div>
       ${(r.tags.proof || []).length ? `<p class="muted" style="font-size:13px;margin-top:8px">Proof: ${r.tags.proof.map((id) => esc(TG('proof', id))).join(', ')}</p>` : ''}
-      ${(r.tags.controls || []).includes('controls-not-stated') && r.kind === 'case-study' ? '<p class="vcount" style="font-size:13px">Controls not stated: add them when this is upgraded</p>' : ''}</div></article>`;
+      ${(r.tags.controls || []).includes('controls-not-stated') && r.kind === 'case-study' ? '<p class="vcount" style="font-size:13px">Controls not stated: add them when this is upgraded</p>' : ''}
+      <button class="fb-link" data-fbel="case:${esc(r.id)}" data-fblabel="${esc(r.title || r.id)}">${ic.chat}Feedback on this</button></div></article>`;
   }
   function csLibrary() {
     if (!CS.tax) return '<div class="empty">No case-study data. Run <code>python3 scripts/build_case_studies.py</code>.</div>';
@@ -451,6 +461,89 @@
         ${r.issues.length ? `<p class="label" style="margin-top:12px">Issues</p><ul>${r.issues.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}</details>`).join('')}</div>`;
   }
 
+  // ---------- feedback: every element → a GitHub issue that Claude reads, implements and closes ----------
+  // The Hub is static, so feedback becomes an issue in the repo, marked "[Feedback]" with a machine-readable block naming the
+  // element. CLAUDE.md tells every session to read open feedback first, implement it, commit "Fixes #N" and redeploy.
+  const REPO = 'aayuvis/Bromic_Marketing';
+  const FB_TYPES = ['Correction', 'Content', 'Design', 'Data or source', 'Idea'];
+  let fbIssues = null; let fbLoading = false;
+  const fbCtx = () => {
+    const h = location.hash.replace(/^#\/?/, '').split('?')[0]; const [p, a] = h.split('/');
+    if (p === 'item' && ITEM[a]) return { element: `item:${a}`, label: `${a} · ${ITEM[a].title}` };
+    if (p === 'tool') return { element: `tool:${a}`, label: `Tool ${a}` };
+    if (p === 'journey' && a) return { element: `cell:${a}`, label: `Journey cell ${a}` };
+    if (p === 'assets' && a) return { element: `asset:${a}`, label: `Backlog ${a}` };
+    if (p === 'cases') return { element: `cases:${a || 'library'}`, label: `Case studies${a ? ' · ' + a : ''}` };
+    return { element: `page:${p || 'home'}`, label: `${(p || 'overview').replace(/^./, (c) => c.toUpperCase())} page` };
+  };
+  function fbParse(body) { const m = /<!-- bromic-feedback v1 -->([\s\S]*?)\n---/.exec(body || ''); const o = {}; if (m) for (const l of m[1].split('\n')) { const i = l.indexOf(':'); if (i > 0) o[l.slice(0, i).trim()] = l.slice(i + 1).trim(); } return o; }
+  async function fbLoad(force) {
+    if (fbLoading || (fbIssues && !force)) return fbIssues;
+    try { const c = JSON.parse(sessionStorage.getItem('fb-cache') || 'null'); if (!force && c && Date.now() - c.t < 5 * 60e3) { fbIssues = c.d; return fbIssues; } } catch {}
+    fbLoading = true;
+    try {
+      const r = await fetch(`https://api.github.com/repos/${REPO}/issues?state=all&per_page=100&sort=updated`, { headers: { Accept: 'application/vnd.github+json' } });
+      if (!r.ok) throw new Error(r.status);
+      fbIssues = (await r.json()).filter((i) => !i.pull_request && /^\[Feedback\]/i.test(i.title)).map((i) => ({ n: i.number, title: i.title, state: i.state, url: i.html_url, at: i.updated_at, comments: i.comments, ...fbParse(i.body) }));
+      try { sessionStorage.setItem('fb-cache', JSON.stringify({ t: Date.now(), d: fbIssues })); } catch {}
+    } catch { fbIssues = fbIssues || []; fbIssues.failed = true; }
+    fbLoading = false; return fbIssues;
+  }
+  const fbFor = (el) => (fbIssues || []).filter((i) => i.element === el || (el.startsWith('item:') && i.element === el));
+  function fbList(list) {
+    if (!list.length) return '<p class="muted" style="font-size:13px;margin:0">No feedback yet.</p>';
+    return `<ul class="fb-list">${list.map((i) => `<li><span class="chip ${i.state === 'closed' ? 'ok' : 'warn'}">${i.state === 'closed' ? 'Done' : 'Open'}</span> <a href="${esc(i.url)}" target="_blank" rel="noopener">#${i.n} ${esc(i.title.replace(/^\[Feedback\]\s*/i, ''))}</a>${i.section ? `<span class="muted"> · ${esc(i.section)}</span>` : ''}</li>`).join('')}</ul>`;
+  }
+  function fbOpen(extra = {}) {
+    const ctx = { ...fbCtx(), ...extra };
+    document.querySelector('.fb-dialog')?.remove();
+    const el = document.createElement('div'); el.className = 'fb-dialog'; el.setAttribute('role', 'dialog'); el.setAttribute('aria-label', 'Give feedback');
+    el.innerHTML = `<form class="fb-card"><div class="row" style="justify-content:space-between;align-items:flex-start;gap:12px"><div><span class="label">Feedback</span><h3 style="font-size:20px;margin:4px 0 0">${esc(ctx.label)}</h3>${ctx.section ? `<p class="muted" style="margin:2px 0 0;font-size:13px">Section: ${esc(ctx.section)}</p>` : ''}</div><button type="button" class="x" aria-label="Close">×</button></div>
+      ${ctx.quote ? `<blockquote class="fb-quote">${esc(ctx.quote.slice(0, 400))}</blockquote>` : ''}
+      <fieldset class="fb-types"><legend class="label">Kind</legend>${FB_TYPES.map((t, i) => `<label><input type="radio" name="fbt" value="${esc(t)}" ${i === (ctx.quote ? 0 : 1) ? 'checked' : ''}> ${esc(t)}</label>`).join('')}</fieldset>
+      <label class="label" for="fb-text">What should change</label>
+      <textarea id="fb-text" required placeholder="Be specific: what is wrong or missing, and what it should say or do instead."></textarea>
+      <label class="label" for="fb-who">Your name (optional)</label><input id="fb-who" type="text" placeholder="So Claude can credit or ask you">
+      <div class="btns" style="margin-top:14px"><button class="btn primary" type="submit">${ic.ext}Send via GitHub</button><button class="btn" type="button" data-fbcopy>${ic.copy}Copy instead</button></div>
+      <p class="muted" style="font-size:12.5px;margin:10px 0 0">This opens a pre-filled issue on GitHub (sign in once). Claude reads open feedback at the start of every session, makes the change, and closes the issue with the commit. No GitHub account? Copy it and send it to marketing.</p></form>`;
+    const body = () => {
+      const t = el.querySelector('input[name=fbt]:checked')?.value || 'Content';
+      return `<!-- bromic-feedback v1 -->\nelement: ${ctx.element}\n${ctx.section ? `section: ${ctx.section}\n` : ''}type: ${t}\npage: ${location.href}\n${H.commit ? `commit: ${H.commit}\n` : ''}${el.querySelector('#fb-who').value ? `from: ${el.querySelector('#fb-who').value}\n` : ''}---\n\n${ctx.quote ? `> ${ctx.quote.replace(/\n+/g, ' ').slice(0, 600)}\n\n` : ''}${el.querySelector('#fb-text').value}\n`;
+    };
+    const title = () => `[Feedback] ${ctx.element.replace(/^item:/, '')}${ctx.section ? ' · ' + ctx.section.slice(0, 40) : ''}: ${el.querySelector('#fb-text').value.trim().split(/\s+/).slice(0, 8).join(' ')}`;
+    const close = () => { el.remove(); document.removeEventListener('keydown', k); };
+    const k = (e) => { if (e.key === 'Escape') close(); };
+    el.addEventListener('click', (e) => { if (e.target === el || e.target.classList.contains('x')) close(); if (e.target.closest('[data-fbcopy]')) { if (!el.querySelector('#fb-text').value.trim()) { el.querySelector('#fb-text').focus(); return; } copy(title() + '\n\n' + body(), 'Feedback copied'); } });
+    el.querySelector('form').addEventListener('submit', (e) => {
+      e.preventDefault(); if (!el.querySelector('#fb-text').value.trim()) return;
+      const u = `https://github.com/${REPO}/issues/new?labels=feedback&title=${encodeURIComponent(title())}&body=${encodeURIComponent(body())}`;
+      const a = document.createElement('a'); a.href = u; a.target = '_blank'; a.rel = 'noopener'; document.body.appendChild(a); a.click(); a.remove();
+      sessionStorage.removeItem('fb-cache'); toast('GitHub opened in a new tab: press "Submit new issue" there'); close();
+    });
+    document.addEventListener('keydown', k); document.body.appendChild(el); el.querySelector('#fb-text').focus();
+  }
+  // Section comment buttons on headings, and "Comment on this" for selected text, inside any readable page.
+  function fbDecorate() {
+    const prose = $('.prose'); if (prose && !prose.dataset.fb) {
+      prose.dataset.fb = '1';
+      prose.querySelectorAll('h2, h3').forEach((h) => { const b = document.createElement('button'); b.type = 'button'; b.className = 'fb-h'; b.dataset.fbsection = h.textContent.trim(); b.title = 'Comment on this section'; b.setAttribute('aria-label', 'Comment on the section ' + h.textContent.trim()); b.innerHTML = ic.chat; h.appendChild(b); });
+    }
+    const slot = $('#fb-panel'); if (slot) fbLoad().then((l) => { const c = fbCtx(); slot.innerHTML = l?.failed ? `<p class="muted" style="font-size:13px;margin:0">Feedback could not be loaded. <a href="https://github.com/${REPO}/issues?q=%5BFeedback%5D" target="_blank" rel="noopener">See it on GitHub</a>.</p>` : fbList(fbFor(c.element)); });
+    const all = $('#fb-all'); if (all) fbLoad(true).then((l) => { all.innerHTML = l?.failed ? `<p class="muted">Could not reach GitHub just now. <a href="https://github.com/${REPO}/issues?q=%5BFeedback%5D" target="_blank" rel="noopener">Open the feedback list on GitHub</a>.</p>` : `<p class="muted" style="font-size:13px">${l.filter((i) => i.state === 'open').length} open · ${l.filter((i) => i.state === 'closed').length} done</p>${fbList(l)}`; });
+  }
+  let fbSel = null;
+  document.addEventListener('selectionchange', () => {
+    clearTimeout(fbSel); fbSel = setTimeout(() => {
+      const s = window.getSelection(); const chip = $('#fb-sel');
+      const txt = s && String(s).trim(); const inProse = s && s.rangeCount && s.anchorNode && s.anchorNode.parentElement?.closest('.prose, .cs-card, .cell-detail, .tbl-wrap');
+      if (!txt || txt.length < 3 || !inProse) { if (chip) chip.hidden = true; return; }
+      const r = s.getRangeAt(0).getBoundingClientRect(); const c = chip || Object.assign(document.createElement('button'), { id: 'fb-sel', type: 'button', className: 'btn primary fb-sel', innerHTML: ic.chat + 'Comment on this' });
+      if (!chip) document.body.appendChild(c);
+      c.hidden = false; c.style.top = Math.max(8, window.scrollY + r.top - 44) + 'px'; c.style.left = Math.max(8, Math.min(window.scrollX + r.left, window.scrollX + innerWidth - 190)) + 'px'; c.dataset.quote = txt;
+      const h = [...document.querySelectorAll('.prose h2, .prose h3')].filter((x) => x.compareDocumentPosition(s.anchorNode) & Node.DOCUMENT_POSITION_FOLLOWING).pop(); c.dataset.section = h ? h.textContent.trim() : '';
+    }, 180);
+  });
+
   // ---------- export ----------
   function exportHTML(it) {
     const faq = it.faq.length ? `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: it.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) })}<\/script>` : '';
@@ -475,6 +568,7 @@
     if (p === 'journey' && a) setTimeout(() => $('#cell')?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 20);
     else if (p !== 'assets' && !route.keepScroll) window.scrollTo(0, 0);
     route.keepScroll = false;
+    setTimeout(fbDecorate, 0);
   }
 
   document.addEventListener('click', (e) => {
@@ -489,6 +583,8 @@
       return;
     }
     const t = e.target.closest('[data-img]'); if (t) lightbox(t.dataset.img);
+    const fb = e.target.closest('[data-fb], [data-fbsection], #fb-sel, [data-fbel]');
+    if (fb) { e.preventDefault(); e.stopPropagation(); const extra = {}; if (fb.dataset.fbsection) extra.section = fb.dataset.fbsection; if (fb.id === 'fb-sel') { extra.quote = fb.dataset.quote; if (fb.dataset.section) extra.section = fb.dataset.section; fb.hidden = true; } if (fb.dataset.fbel) { extra.element = fb.dataset.fbel; extra.label = fb.dataset.fblabel || fb.dataset.fbel; } fbOpen(extra); return; }
     const cc = e.target.closest('[data-cscoll]'); if (cc) { csColl = csColl === cc.dataset.cscoll ? '' : cc.dataset.cscoll; route.keepScroll = true; view.innerHTML = casesPage(); return; }
     if (e.target.closest('[data-csclear]')) { csF = {}; csColl = ''; csKind = 'all'; view.innerHTML = casesPage(); return; }
     const wc = e.target.closest('[data-ws]'); if (wc) { const [sg, m] = wc.dataset.ws.split('|'); const d = $('#wsdetail'); if (d) { d.innerHTML = wsDetail(sg, m); d.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); } return; }

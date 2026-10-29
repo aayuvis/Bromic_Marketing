@@ -10,6 +10,7 @@ if [ -n "$(git -C "$ROOT" status --porcelain -- app content data images/library 
 SHA=$(git rev-parse --short HEAD)
 [ "${1:-}" = "--fast" ] || npm test
 npm run build
+node scripts/pdf.mjs   # a PDF of every gated document → dist/pdf/
 N_BUILD=$(find dist -type f | wc -l)
 TMP=$(mktemp -d); trap 'rm -rf "$TMP"' EXIT
 cp -R dist/. "$TMP/"

@@ -7,7 +7,8 @@
     "test": "node ../tools/build-config.mjs --check && node scripts/build.mjs --check && node test/content.mjs && node test/tools.mjs",
     "dev": "node scripts/build.mjs && node scripts/serve.mjs",
     "single": "node ../tools/build-config.mjs && node scripts/build.mjs --single",
-    "artifact": "node ../tools/build-config.mjs && node scripts/build.mjs && node scripts/artifact.mjs"
+    "artifact": "node ../tools/build-config.mjs && node scripts/build.mjs && node scripts/artifact.mjs",
+    "pdf": "node scripts/pdf.mjs"
   },
   "dependencies": {
     "js-yaml": "4.1.0",

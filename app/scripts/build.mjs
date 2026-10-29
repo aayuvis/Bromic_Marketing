@@ -102,7 +102,7 @@ for (const f of files) {
     asset: fm.asset ? String(fm.asset) : '', summary: fm.summary || '', primary_keyword: fm.primary_keyword || '',
     secondary_keywords: arr(fm.secondary_keywords), ai_prompt: fm.ai_prompt || '', meta_description: fm.meta_description || '',
     cta: fm.cta || null, hero: fm.hero || '', owner_review: fm.owner_review || '', status: fm.status || 'draft',
-    gated: !!fm.gated, related: arr(fm.related).map(String), updated: fm.updated ? String(fm.updated).slice(0, 10) : '',
+    gated: !!fm.gated, related: arr(fm.related).map(String), updated: fm.updated ? (fm.updated instanceof Date ? fm.updated.toISOString().slice(0, 10) : String(fm.updated).slice(0, 10)) : '',
     needs_approval: fm.needs_approval || '', sources: arr(fm.sources).map((s) => ({ ...s, id: String(s.id) })),
   };
   const srcIndex = {};
