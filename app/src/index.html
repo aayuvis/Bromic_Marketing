@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bromic Content Hub</title>
+<meta name="description" content="Bromic Heating content and MQL asset base, by lifecycle, audience and type.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="#/" aria-label="Bromic Content Hub, overview">
+      <span class="wordmark">BROMIC<small>HEATING</small></span>
+      <span class="brand-rule" aria-hidden="true"></span>
+      <span class="brand-sub">Content Hub</span>
+    </a>
+    <label class="search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+      <input id="q" type="search" placeholder="Search content, keywords, sources" autocomplete="off" aria-label="Search">
+    </label>
+    <button class="theme" id="theme" type="button" aria-label="Switch light or dark">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 019.5 4a8 8 0 1010.5 10.5z"/></svg>
+    </button>
+  </div>
+  <nav class="tabs" aria-label="Sections">
+    <a href="#/" data-tab="home">Overview</a>
+    <a href="#/library" data-tab="library">Library</a>
+    <a href="#/journey" data-tab="journey">Journey</a>
+    <a href="#/assets" data-tab="assets">Backlog</a>
+    <a href="#/tools" data-tab="tools">Tools</a>
+    <a href="#/images" data-tab="images">Images</a>
+    <a href="#/sources" data-tab="sources">Sources</a>
+    <a href="#/review" data-tab="review">Review</a>
+  </nav>
+</header>
+<main id="view" tabindex="-1"></main>
+<footer class="foot">
+  <span>Bromic Heating · Content & MQL asset base · Review-ready drafts, not published copy</span>
+  <span id="built"></span>
+</footer>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

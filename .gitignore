@@ -1,0 +1,9 @@
+node_modules/
+app/dist/
+app/dist-single/
+images/_raw/
+.gemini_key
+*.key
+.env
+__pycache__/
+.DS_Store

@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How many heaters? Sizing calculator | Bromic Heating</title>
+<meta name="description" content="Enter your space and climate to see how many Bromic heaters it needs, which models fit, and the controls that run them.">
+<style>
+/* @inline:begin ../_shared/brand.css */
+/* @inline:end ../_shared/brand.css */
+</style>
+</head>
+<body>
+<script>if (/[?&]embed=1(&|$)/.test(location.search)) document.body.classList.add('embed');</script>
+<main class="page">
+  <header class="masthead">
+    <span class="eyebrow">Sizing calculator</span>
+    <h1>How many heaters does your space need?</h1>
+    <p class="lede">Tell us the size of the space, how open it is and how cold your evenings get. You will see a heater count, the models that fit and the controls that run them. Designed from the start, not added later.</p>
+  </header>
+
+  <form id="inputs" class="card inputs" novalidate aria-labelledby="inputs-h">
+    <h2 id="inputs-h" class="sr-only">Your space</h2>
+    <div class="grid">
+      <div class="field" data-field="length_ft">
+        <label class="k" for="length_ft">Length (ft)</label>
+        <input id="length_ft" name="length_ft" type="number" inputmode="decimal" min="1" step="0.5" required aria-describedby="length_ft-err">
+        <span class="err" id="length_ft-err"></span>
+      </div>
+      <div class="field" data-field="width_ft">
+        <label class="k" for="width_ft">Width (ft)</label>
+        <input id="width_ft" name="width_ft" type="number" inputmode="decimal" min="1" step="0.5" required aria-describedby="width_ft-err">
+        <span class="err" id="width_ft-err"></span>
+      </div>
+    </div>
+
+    <fieldset class="field" style="margin-top:16px">
+      <legend class="k">Enclosure</legend>
+      <div class="choices" id="enclosure-choices"></div>
+      <span class="hint" id="enclosure-hint"></span>
+    </fieldset>
+
+    <fieldset class="field" id="open30-field" style="margin-top:16px">
+      <legend class="k">Is at least <span data-open-pct></span>% of the perimeter permanently open?</legend>
+      <div class="choices">
+        <label><input type="radio" name="open_30" value="yes" checked> Yes</label>
+        <label><input type="radio" name="open_30" value="no"> No</label>
+      </div>
+      <span class="hint">Bromic treats a space as outdoor when at least <span data-open-pct></span>% of its perimeter is permanently open. A partial cover traps a heat cloud that adds warmth.</span>
+    </fieldset>
+
+    <fieldset class="field" style="margin-top:16px">
+      <legend class="k">Climate</legend>
+      <div class="choices" id="climate-choices"></div>
+      <span class="hint" id="climate-hint"></span>
+    </fieldset>
+
+    <div class="grid" style="margin-top:16px">
+      <fieldset class="field">
+        <legend class="k">Fuel</legend>
+        <div class="choices">
+          <label><input type="radio" name="fuel" value="any" checked> No preference</label>
+          <label><input type="radio" name="fuel" value="electric"> Electric</label>
+          <label><input type="radio" name="fuel" value="gas"> Gas</label>
+        </div>
+      </fieldset>
+      <fieldset class="field">
+        <legend class="k">Style</legend>
+        <div class="choices">
+          <label><input type="radio" name="style" value="any" checked> No preference</label>
+          <label><input type="radio" name="style" value="built-in"> Built-in</label>
+          <label><input type="radio" name="style" value="freestanding"> Freestanding</label>
+        </div>
+      </fieldset>
+    </div>
+
+    <div class="grid" style="margin-top:16px">
+      <div class="field" data-field="mount_height_ft" id="height-field">
+        <label class="k" for="mount_height_ft">Mount height (ft)</label>
+        <input id="mount_height_ft" name="mount_height_ft" type="number" inputmode="decimal" min="5" max="30" step="0.5" aria-describedby="mount_height_ft-hint mount_height_ft-err">
+        <span class="hint" id="mount_height_ft-hint">Ceiling or wall height where built-in heaters would go.</span>
+        <span class="err" id="mount_height_ft-err"></span>
+      </div>
+      <div class="field" data-field="zones">
+        <label class="k" for="zones">Zones</label>
+        <input id="zones" name="zones" type="number" inputmode="numeric" min="1" max="20" step="1" aria-describedby="zones-hint">
+        <span class="hint" id="zones-hint">Areas you want to switch or dim separately, such as dining and lounge.</span>
+      </div>
+    </div>
+  </form>
+
+  <section id="teaser" class="card teaser" aria-live="polite" aria-atomic="true"></section>
+
+  <section id="gate" class="card gate" aria-labelledby="gate-h">
+    <h2 id="gate-h">Get the full report</h2>
+    <p>Every model that fits, the controls bundle for each, electrical load, and the assumptions behind the numbers.</p>
+    <div id="lead"></div>
+  </section>
+
+  <section id="report" class="card hidden" tabindex="-1" aria-labelledby="report-h"></section>
+
+  <footer class="foot note" id="foot"></footer>
+</main>
+
+<script type="module">
+/* @inline:begin config.json */
+/* @inline:end config.json */
+
+/* @inline:begin logic.js */
+/* @inline:end logic.js */
+
+/* @inline:begin ../_shared/lead.js */
+/* @inline:end ../_shared/lead.js */
+
+// ---- Page ------------------------------------------------------------------------------------------
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const v = (a) => (a && typeof a === 'object' && 'value' in a ? a.value : a);
+const form = $('#inputs');
+let unlocked = false;
+
+function radios(container, name, entries, checked) {
+  container.innerHTML = entries.map(([value, e]) =>
+    `<label><input type="radio" name="${name}" value="${value}"${value === checked ? ' checked' : ''}> ${esc(e.label)}</label>`).join('');
+}
+
+function init() {
+  const d = Logic.defaults(CONFIG);
+  radios($('#enclosure-choices'), 'enclosure', Object.entries(CONFIG.enclosure), d.enclosure);
+  radios($('#climate-choices'), 'climate', Object.entries(CONFIG.climate), d.climate);
+  for (const k of ['length_ft', 'width_ft', 'mount_height_ft', 'zones']) form.elements[k].value = d[k];
+  document.querySelectorAll('[data-open-pct]').forEach((n) => (n.textContent = v(CONFIG.outdoor_rule.min_open_perimeter_pct)));
+  $('#foot').innerHTML = `${esc(CONFIG.disclaimers.coverage)} ${esc(CONFIG.disclaimers.code)}
+    <a href="${esc(CONFIG.disclaimers.code_source_url)}" target="_blank" rel="noopener">NFPA 70</a>.
+    Draft ${esc(CONFIG.tool.version)}: figures marked for verification are being confirmed by Bromic.`;
+  form.addEventListener('input', update);
+  form.addEventListener('change', update);
+  Lead.mountLeadGate({
+    el: $('#lead'), assetId: CONFIG.tool.asset_id, matrixCell: CONFIG.tool.matrix_cell,
+    getInputs: () => readInputs(), defaultSizeUnit: 'ft2',
+    onUnlock: () => { unlocked = true; $('#gate').classList.add('hidden'); update(); $('#report').focus(); },
+  });
+  update();
+}
+
+function readInputs() {
+  const f = form.elements;
+  return {
+    length_ft: f.length_ft.value, width_ft: f.width_ft.value, enclosure: f.enclosure.value,
+    open_30: f.open_30.value, climate: f.climate.value, mount_height_ft: f.mount_height_ft.value,
+    fuel: f.fuel.value, style: f.style.value, zones: f.zones.value,
+  };
+}
+
+function showErrors(errors) {
+  form.querySelectorAll('.field[data-field]').forEach((el) => {
+    const k = el.dataset.field, err = el.querySelector('.err');
+    el.classList.toggle('invalid', !!errors[k]);
+    if (err) err.textContent = errors[k] || '';
+    const input = el.querySelector('input');
+    if (input) input.setAttribute('aria-invalid', errors[k] ? 'true' : 'false');
+  });
+}
+
+const controlsText = (c) => c.items.map((i) => `${i.qty} × ${i.name}`).join('; ');
+
+function update() {
+  const raw = readInputs();
+  $('#open30-field').hidden = raw.enclosure !== 'covered';
+  $('#height-field').hidden = raw.style === 'freestanding';
+  $('#enclosure-hint').textContent = CONFIG.enclosure[raw.enclosure].hint;
+  $('#climate-hint').textContent = CONFIG.climate[raw.climate].hint;
+  const r = Logic.size(raw, CONFIG);
+  showErrors(r.ok ? {} : r.errors);
+  if (!r.ok) { $('#teaser').innerHTML = '<p class="sub">Enter the size of your space to see a result.</p>'; return; }
+  renderTeaser(r);
+  if (unlocked) renderReport(r);
+}
+
+function renderTeaser(r) {
+  const t = $('#teaser');
+  if (!r.outdoor || !r.recommended) {
+    t.innerHTML = `<span class="label">Your result</span><p class="headline" style="font-size:1.6rem">Talk to our design team</p><p>${esc(r.message)}</p>`;
+    return;
+  }
+  const rec = r.recommended;
+  t.innerHTML = `
+    <span class="label">Your result · ${r.area} ft²</span>
+    <p class="headline">${rec.count} ${rec.count === 1 ? 'heater' : 'heaters'}</p>
+    <p class="sub">${esc(rec.name)}, with ${esc(controlsText(rec.controls))}.</p>
+    <p class="note">${esc(CONFIG.controls.app_note)} The full report compares every model that fits and the controls each needs.</p>`;
+}
+
+function renderReport(r) {
+  const el = $('#report');
+  el.classList.remove('hidden');
+  if (!r.outdoor) {
+    el.innerHTML = `<h2 id="report-h">Your report</h2><p>${esc(r.message)}</p>${ctaHtml()}`;
+    return;
+  }
+  const fmtCov = (o) => Array.isArray(o.coverage_nominal) ? `${o.coverage_nominal[0]}–${o.coverage_nominal[1]}` :
+    o.coverage_nominal != null ? `${o.coverage_nominal} → ${o.coverage_effective}` : 'To confirm';
+  const fmtCount = (o) => o.count != null ? o.count : o.count_range ? `${o.count_range[0]}–${o.count_range[1]}` : '—';
+  const status = (o) => o.status === 'coming-soon' ? 'Coming soon' : o.status === 'unverified' ? 'Design team sizes' : 'Available';
+  const rows = r.options.map((o) => `<tr>
+      <td>${esc(o.name)}${o.note ? `<br><span class="note">${esc(o.note)}</span>` : ''}</td>
+      <td>${status(o)}</td>
+      <td class="num">${fmtCov(o)}</td>
+      <td class="num">${fmtCount(o)}</td>
+      <td class="num">${o.load_kw != null ? o.load_kw + ' kW' : o.btu_each ? (o.btu_each * (o.count || 0)).toLocaleString('en-US') + ' BTU/hr' : '—'}</td>
+      <td>${esc(controlsText(o.controls))}</td></tr>`).join('');
+  const rec = r.recommended;
+  const f = r.factors;
+  el.innerHTML = `
+    <h2 id="report-h">Your heating report</h2>
+    <p>For a ${r.input.length_ft} × ${r.input.width_ft} ft space (${r.area} ft²), ${esc(CONFIG.enclosure[r.input.enclosure].label.toLowerCase())}, in a ${esc(CONFIG.climate[r.input.climate].label.toLowerCase())} climate.</p>
+    ${r.warnings.map((w) => `<p class="warn">${esc(w)}</p>`).join('')}
+    ${rec ? `<h3>Recommended: ${rec.count} × ${esc(rec.name)}</h3>
+    <p class="label">Controls for a complete working system</p>
+    <ul class="controls-list">${rec.controls.items.map((i) => `<li>${i.qty} × ${esc(i.name)}</li>`).join('')}</ul>
+    <p class="note">${esc(rec.controls.app_note)} ${esc(rec.controls.integration_note)}</p>
+    ${rec.controls.capacity_verified ? '' : '<p class="verify">Controller quantities assume your chosen zones; the maximum heaters per controller is being confirmed by Bromic.</p>'}` : `<p>${esc(r.message)}</p>`}
+    <h3>Every model that fits your preference</h3>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Model</th><th>Status</th><th class="num">Coverage ft² (each, nominal → here)</th><th class="num">Heaters</th><th class="num">Total load</th><th>Controls</th></tr></thead>
+      <tbody>${rows}</tbody></table></div>
+    <h3>How we worked it out</h3>
+    <p class="formula">heaters = ceil( area ÷ (coverage × enclosure ${f.enclosure} × climate ${f.climate} × mount height ${f.height} × layout ${f.layout}) )</p>
+    <p class="note">Mount height applies to built-in heaters only. Electrical load is the sum of heater wattages; your electrician sizes the circuits. ${esc(CONFIG.disclaimers.coverage)}</p>
+    <p class="note">${esc(CONFIG.disclaimers.code)}</p>
+    ${ctaHtml()}`;
+}
+
+function ctaHtml() {
+  return `<div class="actions"><a class="btn primary" href="${esc(v(CONFIG.cta.href))}" target="_top" rel="noopener">${esc(CONFIG.cta.label)}</a>
+    <button class="btn ghost" type="button" onclick="window.print()">Print or save as PDF</button></div>
+    <p class="note">Our design team turns this into a layout with placements and a full parts list.</p>`;
+}
+
+init();
+</script>
+</body>
+</html>

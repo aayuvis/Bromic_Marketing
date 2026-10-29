@@ -1,0 +1,414 @@
+{
+ "_readme": "A01\u2013A24 backlog. Rows with provenance \"known\" are stated in HANDOVER.md; \"known-ref\" are referenced there by id only; \"proposed\" are RECONSTRUCTED because the original data/assets.json was not supplied \u2014 replace when available.",
+ "assets": [
+  {
+   "id": "A01",
+   "name": "Trends 2026 report + HTML stats page",
+   "type": "report",
+   "priority": "P1",
+   "status": "fix",
+   "audiences": [
+    "RES",
+    "ARC",
+    "BLD"
+   ],
+   "stages": [
+    "AW",
+    "CO"
+   ],
+   "owner": "Megan Spies",
+   "gated": true,
+   "provenance": "known"
+  },
+  {
+   "id": "A02",
+   "name": "Planning Guide v2 (homeowner, pro, commercial editions)",
+   "type": "gated-guide",
+   "priority": "P1",
+   "status": "fix",
+   "audiences": [
+    "RES",
+    "ARC",
+    "COM"
+   ],
+   "stages": [
+    "CO",
+    "IN"
+   ],
+   "owner": "Mike Clifford + 454 Creative",
+   "gated": true,
+   "provenance": "known"
+  },
+  {
+   "id": "A03",
+   "name": "\"How many heaters?\" sizing calculator",
+   "type": "tool",
+   "priority": "P1",
+   "status": "new",
+   "audiences": [
+    "RES"
+   ],
+   "stages": [
+    "CO"
+   ],
+   "owner": "Brian Kim + 454 Creative",
+   "gated": true,
+   "provenance": "known"
+  },
+  {
+   "id": "A04",
+   "name": "Electric vs gas buyer's guide",
+   "type": "gated-guide",
+   "priority": "P2",
+   "status": "proposed",
+   "audiences": [
+    "RES"
+   ],
+   "stages": [
+    "CO"
+   ],
+   "owner": "[[VERIFY: owner]]",
+   "gated": true,
+   "provenance": "proposed"
+  },
+  {
+   "id": "A05",
+   "name": "Lookbook 2026 (digital, ungated)",
+   "type": "report",
+   "priority": "P2",
+   "status": "exists",
+   "audiences": [
+    "RES",
+    "ARC"
+   ],
+   "stages": [
+    "AW"
+   ],
+   "owner": "Megan Spies",
+   "gated": false,
+   "provenance": "proposed"
+  },
+  {
+   "id": "A06",
+   "name": "Running-cost explainer (sourced 2026 rates)",
+   "type": "kb",
+   "priority": "P2",
+   "status": "proposed",
+   "audiences": [
+    "RES",
+    "COM"
+   ],
+   "stages": [
+    "CO",
+    "IN"
+   ],
+   "owner": "Brian Kim",
+   "gated": false,
+   "provenance": "proposed"
+  },
+  {
+   "id": "A07",
+   "name": "Design Your Space 2.0 (48\u201372h layout + BOM)",
+   "type": "service",
+   "priority": "P1",
+   "status": "fix",
+   "audiences": [
+    "RES",
+    "ARC",
+    "COM"
+   ],
+   "stages": [
+    "PP",
+    "BY"
+   ],
+   "owner": "Shaughn Ritchie + Brian Kim",
+   "gated": true,
+   "provenance": "known"
+  },
+  {
+   "id": "A08",
+   "name": "Product finder quiz",
+   "type": "tool",
+   "priority": "P3",
+   "status": "proposed",
+   "audiences": [
+    "RES"
+   ],
+   "stages": [
+    "CO"
+   ],
+   "owner": "[[VERIFY: owner]]",
+   "gated": true,
+   "provenance": "proposed"
+  },
+  {
+   "id": "A09",
+   "name": "Smart-Heat controls setup guide",
+   "type": "kb",
+   "priority": "P2",
+   "status": "proposed",
+   "audiences": [
+    "RES",
+    "COM"
+   ],
+   "stages": [
+    "BY"
+   ],
+   "owner": "[[VERIFY: owner]]",
+   "gated": false,
+   "provenance": "proposed"
+  },
+  {
+   "id": "A10",
+   "name": "Homeowner case studies",
+   "type": "case-study",
+   "priority": "P2",
+   "status": "proposed",
+   "audiences": [
+    "RES"
+   ],
+   "stages": [
+    "IN",
+    "PP"
+   ],
+   "owner": "Regional leads",
+   "gated": false,
+   "provenance": "proposed"
+  },
+  {
+   "id": "A11",
+   "name": "Architect Spec Kit (CSI 3-part spec, details, coverage table)",
+   "type": "spec-kit",
+   "priority": "P1",
+   "status": "new",
+   "audiences": [
+    "ARC"
+   ],
+   "stages": [
+    "IN"
+   ],
+   "owner": "Shaughn Ritchie + Mike Clifford",
+   "gated": true,
+   "provenance": "known"
+  },
+  {
+   "id": "A12",
+   "name": "Electrification compliance guide",
+   "type": "gated-guide",
+   "priority": "P1",
+   "status": "new",
+   "audiences": [
+    "ARC",
+    "COM"
+   ],
+   "stages": [
+    "PP"
+   ],
+   "owner": "Shaughn Ritchie",
+   "gated": true,
+   "provenance": "known"
+  },
+  {
+   "id": "A13",
+   "name": "BIM / CAD library",
+   "type": "spec-kit",
+   "priority": "P2",
+   "status": "proposed",
+   "audiences": [
+    "ARC"
+   ],
+   "stages": [
+    "IN"
+   ],
+   "owner": "[[VERIFY: owner]]",
+   "gated": true,
+   "provenance": "proposed"
+  },
+  {
+   "id": "A14",
+   "name": "AIA CES continuing-education course",
+   "type": "gated-guide",
+   "priority": "P3",
+   "status": "proposed",
+   "audiences": [
+    "ARC"
+   ],
+   "stages": [
+    "CO"
+   ],
+   "owner": "[[VERIFY: owner]]",
+   "gated": true,
+   "provenance": "proposed"
+  },
+  {
+   "id": "A15",
+   "name": "Builder program one-pager + Good-Better-Best guide",
+   "type": "sales-kit",
+   "priority": "P1",
+   "status": "new",
+   "audiences": [
+    "BLD"
+   ],
+   "stages": [
+    "AW",
+    "CO"
+   ],
+   "owner": "Arvin Avaness",
+   "gated": true,
+   "provenance": "known"
+  },
+  {
+   "id": "A16",
+   "name": "Pre-wire / rough-in guide",
+   "type": "gated-guide",
+   "priority": "P1",
+   "status": "new",
+   "audiences": [
+    "BLD"
+   ],
+   "stages": [
+    "IN"
+   ],
+   "owner": "Arvin Avaness",
+   "gated": true,
+   "provenance": "known"
+  },
+  {
+   "id": "A17",
+   "name": "Install guide series (electric, gas, freestanding)",
+   "type": "kb",
+   "priority": "P2",
+   "status": "proposed",
+   "audiences": [
+    "BLD"
+   ],
+   "stages": [
+    "BY"
+   ],
+   "owner": "[[VERIFY: owner]]",
+   "gated": false,
+   "provenance": "proposed"
+  },
+  {
+   "id": "A18",
+   "name": "Builder pricing tiers + lead-time sheet",
+   "type": "sales-kit",
+   "priority": "P2",
+   "status": "proposed",
+   "audiences": [
+    "BLD"
+   ],
+   "stages": [
+    "PP"
+   ],
+   "owner": "Arvin Avaness / Peter Abraham",
+   "gated": true,
+   "provenance": "known-ref"
+  },
+  {
+   "id": "A19",
+   "name": "Builder case studies",
+   "type": "case-study",
+   "priority": "P2",
+   "status": "proposed",
+   "audiences": [
+    "BLD"
+   ],
+   "stages": [
+    "PP"
+   ],
+   "owner": "Regional leads",
+   "gated": false,
+   "provenance": "proposed"
+  },
+  {
+   "id": "A20",
+   "name": "Commercial 5-year TCO model",
+   "type": "tool",
+   "priority": "P1",
+   "status": "new",
+   "audiences": [
+    "COM"
+   ],
+   "stages": [
+    "CO"
+   ],
+   "owner": "Blake Petty + Brian Kim",
+   "gated": true,
+   "provenance": "known"
+  },
+  {
+   "id": "A21",
+   "name": "Patio revenue ROI calculator",
+   "type": "tool",
+   "priority": "P1",
+   "status": "new",
+   "audiences": [
+    "COM"
+   ],
+   "stages": [
+    "AW",
+    "IN"
+   ],
+   "owner": "Blake Petty + Brian Kim",
+   "gated": true,
+   "provenance": "known"
+  },
+  {
+   "id": "A22",
+   "name": "Permit & fire-code checklist (commercial)",
+   "type": "gated-guide",
+   "priority": "P2",
+   "status": "proposed",
+   "audiences": [
+    "COM",
+    "ARC"
+   ],
+   "stages": [
+    "PP"
+   ],
+   "owner": "Shaughn Ritchie",
+   "gated": true,
+   "provenance": "known-ref"
+  },
+  {
+   "id": "A23",
+   "name": "Commercial operations playbook + case studies",
+   "type": "case-study",
+   "priority": "P2",
+   "status": "proposed",
+   "audiences": [
+    "COM"
+   ],
+   "stages": [
+    "BY"
+   ],
+   "owner": "Blake Petty",
+   "gated": false,
+   "provenance": "proposed"
+  },
+  {
+   "id": "A24",
+   "name": "SEO / AEO anchor article program (20 articles)",
+   "type": "article",
+   "priority": "P1",
+   "status": "new",
+   "audiences": [
+    "RES",
+    "ARC",
+    "BLD",
+    "COM"
+   ],
+   "stages": [
+    "AW",
+    "CO",
+    "IN",
+    "PP",
+    "BY"
+   ],
+   "owner": "Megan Spies (editorial)",
+   "gated": false,
+   "provenance": "known"
+  }
+ ]
+}

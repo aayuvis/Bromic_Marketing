@@ -1,0 +1,406 @@
+{
+ "_readme": "RECONSTRUCTED from HANDOVER.md because the original data/journey-matrix.json was not supplied. Replace with the original when available; keyword choices are directional, unvalidated (Brian Kim).",
+ "source": "reconstructed",
+ "audiences": {
+  "RES": {
+   "name": "Residential homeowner",
+   "persona": "The Outdoor Investor"
+  },
+  "ARC": {
+   "name": "Architect / designer",
+   "persona": "The Specifier"
+  },
+  "BLD": {
+   "name": "Builder / installer",
+   "persona": "The Spec Master"
+  },
+  "COM": {
+   "name": "Commercial end user (HORECA)",
+   "persona": "The Revenue Operator"
+  }
+ },
+ "stages": {
+  "AW": {
+   "name": "Awareness",
+   "funnel": "Traffic"
+  },
+  "CO": {
+   "name": "Consideration",
+   "funnel": "\u2192 MQL"
+  },
+  "IN": {
+   "name": "Intent",
+   "funnel": "SAL"
+  },
+  "PP": {
+   "name": "Pre-purchase",
+   "funnel": "SAL \u2192 SQL"
+  },
+  "BY": {
+   "name": "Buyer",
+   "funnel": "SQL \u2192 Customer"
+  }
+ },
+ "cells": [
+  {
+   "id": "RES-AW",
+   "audience": "RES",
+   "stage": "AW",
+   "pain_point": "Thinks about heating only after the patio is built \u2014 or never",
+   "opportunity": "Plant heating in the first budget, alongside the pergola and lighting",
+   "problem_to_solve": "Outdoor space sits unused on cool evenings and shoulder seasons",
+   "mql_asset": "A01",
+   "anchor_article": "How to use your patio year-round: what actually works",
+   "primary_keyword": "year round patio",
+   "secondary_keywords": [
+    "patio in winter",
+    "outdoor living ideas"
+   ],
+   "ai_prompt": "How can I use my patio when it's cold?",
+   "intent": "Informational",
+   "kpi": "Organic sessions; A01 downloads"
+  },
+  {
+   "id": "RES-CO",
+   "audience": "RES",
+   "stage": "CO",
+   "pain_point": "Confused by electric vs gas vs 'infrared' and how many heaters a space needs",
+   "opportunity": "Become the sizing authority with a calculator that answers in a minute",
+   "problem_to_solve": "Fear of buying the wrong type or too few heaters",
+   "mql_asset": "A03",
+   "anchor_article": "Electric vs gas patio heaters: which suits your space",
+   "primary_keyword": "electric vs gas patio heater",
+   "secondary_keywords": [
+    "infrared patio heater",
+    "best outdoor heater"
+   ],
+   "ai_prompt": "Are electric or gas patio heaters better?",
+   "intent": "Commercial investigation",
+   "kpi": "Calculator completions; MQL rate"
+  },
+  {
+   "id": "RES-IN",
+   "audience": "RES",
+   "stage": "IN",
+   "pain_point": "No clear all-in cost: hardware, install, controls, running cost",
+   "opportunity": "Give a transparent cost model before a dealer conversation",
+   "problem_to_solve": "Sticker shock late in the project",
+   "mql_asset": "A02",
+   "anchor_article": "How much does it cost to run an outdoor heater?",
+   "primary_keyword": "cost to run patio heater",
+   "secondary_keywords": [
+    "electric patio heater cost per hour",
+    "propane heater running cost"
+   ],
+   "ai_prompt": "How much does it cost to run a patio heater per hour?",
+   "intent": "Commercial investigation",
+   "kpi": "A02 downloads; repeat visits"
+  },
+  {
+   "id": "RES-PP",
+   "audience": "RES",
+   "stage": "PP",
+   "pain_point": "Worried the heater will look wrong or sit in the wrong place",
+   "opportunity": "Offer a free layout from a specialist before purchase",
+   "problem_to_solve": "Placement, mounting height and spacing feel like guesswork",
+   "mql_asset": "A07",
+   "anchor_article": "Where to place patio heaters: height, spacing and clearance",
+   "primary_keyword": "patio heater placement",
+   "secondary_keywords": [
+    "how high to mount patio heater",
+    "ceiling mounted patio heater"
+   ],
+   "ai_prompt": "How high should I mount an outdoor heater?",
+   "intent": "Transactional",
+   "kpi": "Design requests; SQL conversion"
+  },
+  {
+   "id": "RES-BY",
+   "audience": "RES",
+   "stage": "BY",
+   "pain_point": "Unsure how to set up zones, schedules and the app after install",
+   "opportunity": "Make the first week effortless so the owner refers others",
+   "problem_to_solve": "Controls left unused; heat feels 'on or off' only",
+   "mql_asset": "A09",
+   "anchor_article": "Setting up Smart-Heat controls: zones, schedules and voice",
+   "primary_keyword": "smart patio heater app",
+   "secondary_keywords": [
+    "patio heater alexa",
+    "outdoor heater timer"
+   ],
+   "ai_prompt": "Can I control my patio heater with Alexa?",
+   "intent": "Navigational",
+   "kpi": "App activations; reviews"
+  },
+  {
+   "id": "ARC-AW",
+   "audience": "ARC",
+   "stage": "AW",
+   "pain_point": "Clients ask for outdoor rooms, but heating is left to the end",
+   "opportunity": "Position heating as part of the architectural brief",
+   "problem_to_solve": "Retrofit heaters clutter the soffit the architect designed",
+   "mql_asset": "A01",
+   "anchor_article": "Designing outdoor rooms for year-round use: what the 2026 data says",
+   "primary_keyword": "outdoor living design trends",
+   "secondary_keywords": [
+    "indoor outdoor living design",
+    "outdoor room design"
+   ],
+   "ai_prompt": "What are the outdoor living design trends for 2026?",
+   "intent": "Informational",
+   "kpi": "A01 downloads by architects"
+  },
+  {
+   "id": "ARC-CO",
+   "audience": "ARC",
+   "stage": "CO",
+   "pain_point": "Needs radiant theory, coverage and clearances quickly and exactly",
+   "opportunity": "Be the technical reference specifiers trust",
+   "problem_to_solve": "Mis-sized or mis-placed heat from generic assumptions",
+   "mql_asset": "A02",
+   "anchor_article": "Radiant heat outdoors: a specifier's guide to short, medium and long wave",
+   "primary_keyword": "radiant heater outdoor design",
+   "secondary_keywords": [
+    "short wave infrared heater",
+    "infrared heater wavelength"
+   ],
+   "ai_prompt": "What is the difference between short wave and long wave infrared heaters?",
+   "intent": "Informational",
+   "kpi": "A02 pro downloads"
+  },
+  {
+   "id": "ARC-IN",
+   "audience": "ARC",
+   "stage": "IN",
+   "pain_point": "Needs spec language, details, BIM and coverage tables in the right format",
+   "opportunity": "Get Bromic written into the specification",
+   "problem_to_solve": "Substitution at bid because the spec was generic",
+   "mql_asset": "A11",
+   "anchor_article": "How to specify outdoor infrared heaters: a CSI-ready checklist",
+   "primary_keyword": "specify outdoor heater",
+   "secondary_keywords": [
+    "patio heater specification",
+    "infrared heater CSI section"
+   ],
+   "ai_prompt": "How do I write a specification for outdoor infrared heaters?",
+   "intent": "Commercial investigation",
+   "kpi": "Spec Kit downloads; spec mentions"
+  },
+  {
+   "id": "ARC-PP",
+   "audience": "ARC",
+   "stage": "PP",
+   "pain_point": "All-electric codes and gas restrictions make heating choices risky",
+   "opportunity": "Lead on electrification so electric is the default spec",
+   "problem_to_solve": "Gas specified, then blocked by code or the client's ESG goals",
+   "mql_asset": "A12",
+   "anchor_article": "All-electric outdoor heating: what electrification codes mean for patios",
+   "primary_keyword": "electric outdoor heater code",
+   "secondary_keywords": [
+    "all electric building code",
+    "gas ban patio heater"
+   ],
+   "ai_prompt": "Are gas patio heaters allowed under all-electric building codes?",
+   "intent": "Commercial investigation",
+   "kpi": "A12 downloads; consult requests"
+  },
+  {
+   "id": "ARC-BY",
+   "audience": "ARC",
+   "stage": "BY",
+   "pain_point": "Coordination with electrician and integrator; submittals",
+   "opportunity": "Make Bromic the easiest product to get through construction",
+   "problem_to_solve": "RFIs and change orders around heater circuits and controls",
+   "mql_asset": "A07",
+   "anchor_article": "Outdoor heater submittals: a coordination checklist for architects",
+   "primary_keyword": "patio heater submittal",
+   "secondary_keywords": [
+    "outdoor heater installation coordination",
+    "heater circuit requirements"
+   ],
+   "ai_prompt": "What should be in a submittal package for outdoor heaters?",
+   "intent": "Navigational",
+   "kpi": "Design consults per project"
+  },
+  {
+   "id": "BLD-AW",
+   "audience": "BLD",
+   "stage": "AW",
+   "pain_point": "Buyers want outdoor living; builders don't see heating as margin",
+   "opportunity": "Show heating as a high-value, low-effort upgrade",
+   "problem_to_solve": "Outdoor packages stop at the slab and the pergola",
+   "mql_asset": "A15",
+   "anchor_article": "Outdoor heating as a builder upgrade: what buyers will pay for",
+   "primary_keyword": "builder outdoor living upgrades",
+   "secondary_keywords": [
+    "new home upgrades",
+    "outdoor living package"
+   ],
+   "ai_prompt": "What outdoor upgrades add the most value to a new home?",
+   "intent": "Informational",
+   "kpi": "Builder program inquiries"
+  },
+  {
+   "id": "BLD-CO",
+   "audience": "BLD",
+   "stage": "CO",
+   "pain_point": "No simple way to package heating across price points",
+   "opportunity": "Give a ready Good\u2013Better\u2013Best package",
+   "problem_to_solve": "Sales teams improvise options and leave money on the table",
+   "mql_asset": "A15",
+   "anchor_article": "Good, better, best: packaging outdoor heating for new homes",
+   "primary_keyword": "outdoor heater package options",
+   "secondary_keywords": [
+    "patio heater upgrade options",
+    "builder options outdoor"
+   ],
+   "ai_prompt": "How should builders package outdoor heating options?",
+   "intent": "Commercial investigation",
+   "kpi": "GBB guide downloads"
+  },
+  {
+   "id": "BLD-IN",
+   "audience": "BLD",
+   "stage": "IN",
+   "pain_point": "Heating decided after framing means retrofit wiring and callbacks",
+   "opportunity": "Lock in the pre-wire at rough-in",
+   "problem_to_solve": "Opening finished ceilings and walls to run circuits later",
+   "mql_asset": "A16",
+   "anchor_article": "Pre-wiring a patio for outdoor heaters: rough-in checklist for builders",
+   "primary_keyword": "pre wire patio heater",
+   "secondary_keywords": [
+    "patio heater wiring",
+    "outdoor heater rough in"
+   ],
+   "ai_prompt": "What wiring should I rough in for patio heaters?",
+   "intent": "Commercial investigation",
+   "kpi": "A16 downloads; builder SALs"
+  },
+  {
+   "id": "BLD-PP",
+   "audience": "BLD",
+   "stage": "PP",
+   "pain_point": "Unclear pricing tiers, margins and lead times",
+   "opportunity": "Make supply predictable and pricing simple",
+   "problem_to_solve": "Missed schedules and unprofitable upgrades",
+   "mql_asset": "A18",
+   "anchor_article": "Avoiding callbacks: five outdoor heater install mistakes",
+   "primary_keyword": "patio heater installation mistakes",
+   "secondary_keywords": [
+    "outdoor heater clearance",
+    "patio heater not warm enough"
+   ],
+   "ai_prompt": "Why is my patio heater not warm enough?",
+   "intent": "Transactional",
+   "kpi": "Builder accounts opened"
+  },
+  {
+   "id": "BLD-BY",
+   "audience": "BLD",
+   "stage": "BY",
+   "pain_point": "Installer needs mounting, clearance and commissioning steps fast",
+   "opportunity": "Make every install right first time",
+   "problem_to_solve": "Callbacks for clearance, wiring or control pairing issues",
+   "mql_asset": "A17",
+   "anchor_article": "Installing electric patio heaters: mounting, clearance and commissioning",
+   "primary_keyword": "install electric patio heater",
+   "secondary_keywords": [
+    "mount infrared heater",
+    "patio heater installation"
+   ],
+   "ai_prompt": "How do you install an electric patio heater?",
+   "intent": "Navigational",
+   "kpi": "Install-guide views; callback rate"
+  },
+  {
+   "id": "COM-AW",
+   "audience": "COM",
+   "stage": "AW",
+   "pain_point": "Patio seats sit empty for months each year",
+   "opportunity": "Frame heating as revenue, not equipment",
+   "problem_to_solve": "Shoulder-season and evening covers lost",
+   "mql_asset": "A21",
+   "anchor_article": "How restaurants extend patio season with radiant heat",
+   "primary_keyword": "restaurant patio heating",
+   "secondary_keywords": [
+    "extend patio season",
+    "outdoor dining heaters"
+   ],
+   "ai_prompt": "How can restaurants keep outdoor dining open in winter?",
+   "intent": "Informational",
+   "kpi": "ROI calculator starts"
+  },
+  {
+   "id": "COM-CO",
+   "audience": "COM",
+   "stage": "CO",
+   "pain_point": "Propane is cheap to buy but costly to run and handle",
+   "opportunity": "Show the five-year total cost honestly",
+   "problem_to_solve": "Fuel choice made on purchase price alone",
+   "mql_asset": "A20",
+   "anchor_article": "Propane vs natural gas vs electric patio heaters: five-year cost for operators",
+   "primary_keyword": "commercial patio heater cost",
+   "secondary_keywords": [
+    "propane vs electric patio heater",
+    "natural gas patio heater restaurant"
+   ],
+   "ai_prompt": "Is propane or electric cheaper for restaurant patio heaters?",
+   "intent": "Commercial investigation",
+   "kpi": "TCO completions; MQLs"
+  },
+  {
+   "id": "COM-IN",
+   "audience": "COM",
+   "stage": "IN",
+   "pain_point": "Needs a payback case the owner or landlord will sign",
+   "opportunity": "Turn the patio into a capex case with numbers",
+   "problem_to_solve": "No business case means no budget",
+   "mql_asset": "A21",
+   "anchor_article": "Patio heater ROI: how to calculate payback for a restaurant patio",
+   "primary_keyword": "patio heater roi",
+   "secondary_keywords": [
+    "restaurant patio revenue",
+    "outdoor seating revenue"
+   ],
+   "ai_prompt": "How do I calculate ROI on restaurant patio heaters?",
+   "intent": "Commercial investigation",
+   "kpi": "ROI assessments booked"
+  },
+  {
+   "id": "COM-PP",
+   "audience": "COM",
+   "stage": "PP",
+   "pain_point": "Permits, fire code and landlord approvals slow every site",
+   "opportunity": "Give a clear permit and code checklist with primary sources",
+   "problem_to_solve": "Projects stall at permitting",
+   "mql_asset": "A22",
+   "anchor_article": "Outdoor heater permits and fire code: a checklist for restaurants",
+   "primary_keyword": "restaurant patio heater permit",
+   "secondary_keywords": [
+    "patio heater fire code",
+    "outdoor heater regulations"
+   ],
+   "ai_prompt": "Do I need a permit for restaurant patio heaters?",
+   "intent": "Transactional",
+   "kpi": "Consults; SQLs"
+  },
+  {
+   "id": "COM-BY",
+   "audience": "COM",
+   "stage": "BY",
+   "pain_point": "Running heaters well across sites: zones, schedules, maintenance",
+   "opportunity": "Make operations easy so the next site is Bromic",
+   "problem_to_solve": "Heaters left on, staff confusion, inconsistent guest comfort",
+   "mql_asset": "A23",
+   "anchor_article": "Running a heated patio: zones, schedules and maintenance for operators",
+   "primary_keyword": "patio heater maintenance",
+   "secondary_keywords": [
+    "commercial patio heater schedule",
+    "outdoor heater zones"
+   ],
+   "ai_prompt": "How do I maintain commercial patio heaters?",
+   "intent": "Navigational",
+   "kpi": "Multi-site rollouts; reorders"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "bromic-content-hub",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/build.mjs --check && node test/content.mjs && node test/tools.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs",
+    "single": "node scripts/build.mjs --single"
+  },
+  "dependencies": {
+    "js-yaml": "4.1.0",
+    "marked": "12.0.2"
+  }
+}
