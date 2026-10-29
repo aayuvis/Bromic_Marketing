@@ -168,17 +168,20 @@ def ingest():
     added = 0
     for fam, v in sorted(idx.items()):
         if not v.get('file') or v.get('skip') or v['kind'] == 'cover': continue
-        if v.get('review') == 'reject': continue
+        if v.get('review') != 'keep': continue  # only images a reviewer looked at and kept
         base = re.sub(r'[^a-z0-9]+', '-', fam.lower()).strip('-')[:44]; iid = 'w-' + base
         if v['source_url'] in by_url: continue
         n = 2
         while iid in ids: iid = f'w-{base}-{n}'; n += 1
-        im = ImageOps.exif_transpose(Image.open(os.path.join(ROOT, v['file']))).convert('RGB'); w, h = im.size
+        im = ImageOps.exif_transpose(Image.open(os.path.join(ROOT, v['file'])))
+        im = im.convert('RGBA') if v['kind'] == 'cutout' else im.convert('RGB')  # cut-outs keep their transparency (for compositing)
+        w, h = im.size
         big = im.copy(); big.thumbnail((1600, 1600)); big.save(os.path.join(LIB, iid + '.webp'), quality=78)
         th = im.copy(); th.thumbnail((520, 520)); th.save(os.path.join(LIB, iid + '-t.webp'), quality=70)
         page = v['pages'][0] if v['pages'] else {}
         notes = []
         if v.get('ai_edited_on_site'): notes.append('AI-extended or rendered on bromic.com, not a plain photo: check before use')
+        if v.get('kind') == 'render': notes.append('CGI render on bromic.com, not a photograph: label it if used')
         if v.get('note'): notes.append(v['note'])
         man.append({'id': iid, 'file': f'images/library/{iid}.webp', 'thumb': f'images/library/{iid}-t.webp',
                     'w': big.size[0], 'h': big.size[1],
@@ -189,6 +192,7 @@ def ingest():
                     'source': 'bromic.com', 'source_file': v['source_url'], 'source_url': v['source_url'],
                     'page_url': page.get('url'), 'used_on': [p['url'] for p in v['pages']], 'page': 0,
                     'kind': v['kind'],
+                    **({'install_ok': v['install_ok']} if 'install_ok' in v else {}),
                     'rights': 'Bromic-published (bromic.com); [[VERIFY: photographer credit and usage rights — Megan Spies]]',
                     'status': 'site-source', **({'notes': '; '.join(notes)} if notes else {})})
         ids.add(iid); added += 1
@@ -196,5 +200,25 @@ def ingest():
     print(f'{added} added · library {len(man)}')
 
 
+def apply_tags():
+    """Apply the human/agent image review (JSON arrays of {family, review, product, kind, setting, audiences, alt, install_ok, note})
+    to the index. A later file wins, so a re-check overrides a first pass. 'reject' and 'unseen' never enter the library."""
+    idx = load(IDX, {}); n = 0
+    for f in sys.argv[2:]:
+        for t in json.load(open(f)):
+            v = idx.get(t['family'])
+            if not v: continue
+            v['review'] = t.get('review')
+            for k in ('product', 'setting', 'audiences', 'alt', 'install_ok', 'reject_reason'):
+                if t.get(k) not in (None, ''): v[k] = t[k]
+            if t.get('kind'): v['kind'] = t['kind']
+            if t.get('note'): v['note'] = t['note']
+            n += 1
+    json.dump(idx, open(IDX, 'w'), indent=1)
+    from collections import Counter
+    print(n, 'reviews applied', Counter(v.get('review') for v in idx.values() if v.get('file') and not v.get('skip')))
+
+
 if __name__ == '__main__':
+    if len(sys.argv) > 1 and sys.argv[1] == 'apply-tags': apply_tags(); sys.exit()
     {'fetch': fetch, 'sheets': sheets, 'ingest': ingest}[sys.argv[1] if len(sys.argv) > 1 else 'fetch']()

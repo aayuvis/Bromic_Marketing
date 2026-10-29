@@ -78,6 +78,77 @@
   "read_on": "2026-10-29"
  },
  {
+  "url": "https://www.bromic.com/about-bromic/",
+  "kind": "page",
+  "title": "The Bromic Difference",
+  "summary": "About page: Bromic's Australian origins and timeline, patented innovations, awards, global presence and hospitality clientele.",
+  "headings": [
+   "Decades of Design",
+   "Our Awards",
+   "A Global Presence",
+   "Preferred by Homeowners, Trusted by Hospitality"
+  ],
+  "question_answered": "Who is Bromic Heating?",
+  "audience": [
+   "RES",
+   "ARC",
+   "BLD",
+   "COM"
+  ],
+  "stage": [
+   "AW",
+   "CO"
+  ],
+  "products": [
+   "Eclipse Electric",
+   "Platinum Electric Marine",
+   "Tungsten Portable/Freestanding"
+  ],
+  "controls_mentioned": false,
+  "stats": [
+   {
+    "claim": "Since its founding in 2008 in Australia",
+    "source_named": null
+   },
+   {
+    "claim": "Bromic Heater is now represented in over 30 countries globally",
+    "source_named": null
+   },
+   {
+    "claim": "bring over 50 years of expertise to markets in more than 30 countries",
+    "source_named": null
+   },
+   {
+    "claim": "over a decade creating patented innovations",
+    "source_named": null
+   }
+  ],
+  "product_facts": [],
+  "people_quoted": [],
+  "cta": [],
+  "gated": false,
+  "downloads": [],
+  "issues": [
+   "Founding conflict: Bromic Group founded 1978 (timeline) vs Bromic Heating 2008 — '50 years of expertise' needs the Group context stated clearly",
+   "Company stats unsourced (30+ countries)",
+   "Award images have no captions — awards not named in text",
+   "No CTA on the page",
+   "Stray '****' artifact",
+   "'Bromic Heater' vs 'Bromic Heating' naming"
+  ],
+  "images": [
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2023/01/Eclipse-Portable-Render-Cropped-1600x428.jpg",
+    "alt": null
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/sites/2/2026/01/Eclipse-Portable-Render-Cropped-1600x428.jpg",
+    "alt": null
+   }
+  ],
+  "read_on": "2026-10-29"
+ },
+ {
   "url": "https://www.bromic.com/access-bim-files/",
   "kind": "page",
   "title": "Revit BIM & CAD Files",
@@ -643,6 +714,99 @@
   "read_on": "2026-10-29"
  },
  {
+  "url": "https://www.bromic.com/blog/",
+  "kind": "page",
+  "title": "Outdoor Heating Blogs",
+  "summary": "Blog index listing articles on heater choice, design, climate performance, smart controls and industry features, each linking to the full post.",
+  "headings": [],
+  "question_answered": null,
+  "audience": [
+   "RES",
+   "ARC",
+   "BLD",
+   "COM"
+  ],
+  "stage": [
+   "AW",
+   "CO"
+  ],
+  "products": [],
+  "controls_mentioned": false,
+  "stats": [],
+  "product_facts": [],
+  "people_quoted": [],
+  "cta": [
+   {
+    "label": "Continue Reading",
+    "target": "https://www.bromic.com/blog/what-makes-an-outdoor-heater-top-rated/"
+   },
+   {
+    "label": "Continue Reading",
+    "target": "https://www.bromic.com/blog/from-luxury-hotels-to-your-back-porch/"
+   },
+   {
+    "label": "Continue Reading",
+    "target": "https://www.bromic.com/blog/transforming-outdoor-spaces-with-smart-technology/"
+   },
+   {
+    "label": "Continue Reading",
+    "target": "https://www.bromic.com/blog/elevating-outdoor-living-with-design-forward-heating/"
+   },
+   {
+    "label": "Continue Reading",
+    "target": "https://www.bromic.com/blog/design-without-borders-outdoor-spaces/"
+   },
+   {
+    "label": "Continue Reading",
+    "target": "https://www.bromic.com/blog/what-professionals-are-saying-about-bromic-heating/"
+   },
+   {
+    "label": "Continue Reading",
+    "target": "https://www.bromic.com/blog/the-art-and-science-of-outdoor-space-design/"
+   },
+   {
+    "label": "Continue Reading",
+    "target": "https://www.bromic.com/blog/best-type-of-heater-for-outdoors/"
+   },
+   {
+    "label": "Continue Reading",
+    "target": "https://www.bromic.com/blog/revolutionizing-outdoor-living-in-extreme-climates/"
+   }
+  ],
+  "gated": false,
+  "downloads": [],
+  "issues": [
+   "No pagination visible in fetched content (only 9 posts) — older posts (e.g. /2021/04/26/… URLs linked elsewhere) not discoverable from index",
+   "No categories shown, only 'Clear Filter'",
+   "Post dates not shown",
+   "Mixed blog URL patterns: /blog/<slug>/ vs dated /YYYY/MM/DD/<slug>/",
+   "Several thumbnails have no src/alt",
+   "H1 differs from title tag"
+  ],
+  "images": [
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/sites/2/2024/07/Eclipse-Portable-Pool-Render_Cropped-1600x428.jpg",
+    "alt": "Eclipse Portable Pool"
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/sites/2/2026/06/Eclispe-1-1024x687.jpg",
+    "alt": "What Makes an Outdoor Heater Top Rated?"
+   }
+  ],
+  "post_titles": [
+   "What Makes an Outdoor Heater Top Rated?",
+   "From Luxury Hotels to Your Back Porch: Bromic Heating on the Design Builders Podcast",
+   "The Future of Home Automation: Transforming Outdoor Spaces with Smart Technology",
+   "Elevating Outdoor Living with Design-Forward Heating",
+   "Design Without Borders: Outdoor Spaces That Travel the World",
+   "What Professionals Are Saying About Bromic Heating",
+   "The Art and Science of Outdoor Space Design",
+   "What are the Best Types of Outdoor Heaters?",
+   "Revolutionizing Outdoor Living in Extreme Climates"
+  ],
+  "read_on": "2026-10-29"
+ },
+ {
   "url": "https://www.bromic.com/builders/",
   "kind": "page",
   "title": "Outdoor Heating Made Easy",
@@ -761,6 +925,84 @@
     "src": "https://www.bromic.com/wp-content/uploads/2023/04/892rC6CyN0IOCgE2hIKd.jpg",
     "alt": "Outdoor Heater Builders"
    }
+  ],
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://www.bromic.com/case-studies/",
+  "kind": "page",
+  "title": "Bromic Outdoor Heating Case Studies",
+  "summary": "Case-study index of hotel, residential, multifamily, workplace, restaurant and yacht installations, each with location and products, linking to full case studies.",
+  "headings": [
+   "Embracing Earthy Elegance at Oran Park Hotel",
+   "Sydney, Australia",
+   "Albany, NY",
+   "Irvine, CA",
+   "Orange County, CA",
+   "Sedona, AZ",
+   "Beaconsfield, Australia",
+   "Scottsdale, AZ",
+   "Madison, NJ",
+   "Atlantic & Aegean Oceans",
+   "Båstad, Sweden"
+  ],
+  "question_answered": null,
+  "audience": [
+   "RES",
+   "ARC",
+   "BLD",
+   "COM"
+  ],
+  "stage": [
+   "CO",
+   "IN"
+  ],
+  "products": [
+   "Eclipse Electric",
+   "Tungsten Electric",
+   "Platinum Electric Marine",
+   "Eclipse Freestanding/Portable"
+  ],
+  "controls_mentioned": false,
+  "stats": [],
+  "product_facts": [],
+  "people_quoted": [],
+  "cta": [
+   {
+    "label": "View Case Study",
+    "target": "https://www.bromic.com/case-study/embracing-earthy-elegance-at-oran-park-hotel/"
+   }
+  ],
+  "gated": false,
+  "downloads": [],
+  "issues": [
+   "Filter groups (Collection, Install Type, Fuel Type, Application, Color) show no options in fetched content",
+   "Several list images have empty src",
+   "Schema uses staging domain us.bromic-prod.454.agency",
+   "Strong US residential/commercial proof set (Albany, Irvine, Orange County, Sedona, Scottsdale, Madison NJ) — reusable for consideration content",
+   "Case studies referenced elsewhere (Pangbourne, Wrigley Mansion, HIDE, low-clearance recess kit) not in first page of index — check pagination"
+  ],
+  "images": [
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/sites/2/2026/01/eclispe-1024x687.jpg",
+    "alt": "Embracing Earthy Elegance at Oran Park Hotel"
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2025/03/Industrie-Apartments-Exterior-1024x812.jpg",
+    "alt": "Creating a Year-Round Rooftop Retreat in Albany’s First Zero-Emissions Multifamily Building"
+   }
+  ],
+  "case_study_titles": [
+   "Embracing Earthy Elegance at Oran Park Hotel (Sydney, Australia)",
+   "Creating a Year-Round Rooftop Retreat in Albany’s First Zero-Emissions Multifamily Building (Albany, NY)",
+   "Enhancing Work-Life Balance with Year-Round Outdoor Comfort at The Boardwalk (Irvine, CA)",
+   "Welcoming Guests with the Warmth of Mexican Hospitality (Orange County, CA)",
+   "Embracing Nature’s Elegance: Ambiente Sedona (Sedona, AZ)",
+   "Eclipse Electric and Tungsten Electric at Pink Hill Hotel (Beaconsfield, Australia)",
+   "Desert Mirage: Blurring the Lines Between Home and Nature (Scottsdale, AZ)",
+   "From Gut Renovation to Outdoor Bliss: How Bromic’s Tungsten Heaters Redefined Comfort for This New Jersey Home (Madison, NJ)",
+   "Platinum Electric Marine Heaters Aboard Ritz Carlton Yacht Collections’ Evrima (Atlantic & Aegean Oceans)",
+   "Hotel Skansen Elevates Outdoor Dining with the Bromic Smart-Heat™ Freestanding Heaters (Båstad, Sweden)"
   ],
   "read_on": "2026-10-29"
  },
@@ -1240,6 +1482,61 @@
     "alt": "Bromic Outdoor Heater - Outdoor Heating Planning Guide"
    }
   ],
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://www.bromic.com/design-your-space/",
+  "kind": "page",
+  "title": "Start Your Complimentary Design Request",
+  "summary": "The complimentary design service request page: describe your project to get a plan covering layout, heater type, fuel, budget and mounting; a sample design PDF shows the deliverable.",
+  "headings": [
+   "Latest Projects"
+  ],
+  "question_answered": "How do I get a free outdoor heating design plan?",
+  "audience": [
+   "RES",
+   "ARC",
+   "BLD",
+   "COM"
+  ],
+  "stage": [
+   "IN",
+   "PP"
+  ],
+  "products": [],
+  "controls_mentioned": false,
+  "stats": [],
+  "product_facts": [],
+  "people_quoted": [],
+  "cta": [
+   {
+    "label": "Download a Sample Design",
+    "target": "https://pim.bromic.com/wp-content/uploads/2021/09/Design-Services-Project-Example.pdf"
+   },
+   {
+    "label": "Tell Us About Your Project",
+    "target": "design request form (fields not visible in fetched content)"
+   }
+  ],
+  "gated": false,
+  "downloads": [
+   "Sample design (Design-Services-Project-Example.pdf, 2021)"
+  ],
+  "issues": [
+   "Primary conversion page: form fields not visible without JS — confirm form renders and what it asks",
+   "Deliverables list does not mention controls (other pages say the plan includes a 'parts and controls list')",
+   "Sample design PDF dated 2021 — check product names and controls are current",
+   "Latest Projects images have no src",
+   "Hero image alt says 'Eclipse Portable' but the file is a Tungsten Portable photo"
+  ],
+  "images": [
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2021/08/Tungsten_Portable_HR-1-1600x1131.jpg",
+    "alt": "Portable Outside Heaters - Bromic Eclipse Portable"
+   }
+  ],
+  "form": "Design request form under 'Tell Us About Your Project' (fields not visible in fetched content; likely embedded HubSpot form). Offers a complimentary outdoor heating design plan.",
+  "offer": "Complimentary Outdoor Heating Design Plan",
   "read_on": "2026-10-29"
  },
  {
@@ -1898,6 +2195,66 @@
    }
   ],
   "offer": "Complimentary Outdoor Heating Design Service",
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://www.bromic.com/instructional-videos/",
+  "kind": "page",
+  "title": "Technical Resources: Installation, Products, and Controls",
+  "summary": "Video library of how-to tutorials: phone/app control, controller reset, Low Clearance Recess Kit, Affinity smart controls, dimmer troubleshooting, recess kit installs, programming a transmitter, a heater not lighting, Tungsten freestanding.",
+  "headings": [
+   "Technical & Operational Guidance Library",
+   "Design Support That Brings the Plan Together",
+   "Control from your phone",
+   "Controller reset",
+   "Low clearance recess kit",
+   "Affinity smart controls",
+   "Dimmer troubleshooting",
+   "Recess kit installs",
+   "Programming transmitter",
+   "Heater not lighting",
+   "Tungsten freestanding"
+  ],
+  "question_answered": "How do I install, reset or troubleshoot my Bromic heater and controls?",
+  "audience": [
+   "RES",
+   "BLD"
+  ],
+  "stage": [
+   "BY"
+  ],
+  "products": [
+   "Tungsten Portable/Freestanding",
+   "Affinity Smart-Heat controls",
+   "Low Clearance Recess Kit",
+   "Recess kits"
+  ],
+  "controls_mentioned": true,
+  "stats": [],
+  "product_facts": [],
+  "people_quoted": [],
+  "cta": [
+   {
+    "label": "GET STARTED",
+    "target": "https://www.bromic.com/design-your-space/"
+   }
+  ],
+  "gated": false,
+  "downloads": [],
+  "issues": [
+   "Video entries have no embeds or links in fetched content (may be JS-loaded) — verify",
+   "'Programming transmitter' likely refers to legacy wireless controls — check currency",
+   "Design image 'Bromic Design Plan' has an empty src",
+   "Title has '&amp;' entity",
+   "H1 'Technical Resources…' duplicates /technical-resources/ naming"
+  ],
+  "images": [
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2026/03/landing-page-header-1600x1067.png",
+    "alt": null
+   }
+  ],
+  "offer": "COMPLIMENTARY OUTDOOR HEATING DESIGN SERVICE",
   "read_on": "2026-10-29"
  },
  {
@@ -3596,6 +3953,69 @@
   "read_on": "2026-10-29"
  },
  {
+  "url": "https://www.bromic.com/product-catalog/",
+  "kind": "page",
+  "title": "Bromic Heating Product Catalog",
+  "summary": "Download page for the 2026 Bromic Product Catalog (PDF, ungated) with a pointer to the free design service.",
+  "headings": [
+   "Free Design Service"
+  ],
+  "question_answered": "Where can I download the Bromic product catalog?",
+  "audience": [
+   "RES",
+   "ARC",
+   "BLD",
+   "COM"
+  ],
+  "stage": [
+   "CO",
+   "PP"
+  ],
+  "products": [
+   "Eclipse Freestanding/Portable"
+  ],
+  "controls_mentioned": false,
+  "stats": [],
+  "product_facts": [],
+  "people_quoted": [],
+  "cta": [
+   {
+    "label": "2026 Bromic Product Catalog",
+    "target": "https://pim.bromic.com/wp-content/uploads/2026/05/2026-Bromic-Product-Catalog.pdf"
+   },
+   {
+    "label": "Download",
+    "target": "https://pim.bromic.com/wp-content/uploads/2026/05/2026-Bromic-Product-Catalog.pdf"
+   },
+   {
+    "label": "Design Your Space",
+    "target": "https://www.bromic.com/design-your-space"
+   }
+  ],
+  "gated": false,
+  "downloads": [
+   "2026 Bromic Product Catalog (https://pim.bromic.com/wp-content/uploads/2026/05/2026-Bromic-Product-Catalog.pdf)"
+  ],
+  "issues": [
+   "Duplicate of /catalogs-and-literature/ (same H1, same PDF)",
+   "No product details in page body",
+   "Schema uses staging domain us.bromic-prod.454.agency",
+   "datePublished 2021"
+  ],
+  "images": [
+   {
+    "src": "https://pim.bromic.com/wp-content/uploads/2021/09/IMG_0194.jpg",
+    "alt": null
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/sites/2/2025/12/eclipse_portable_residential-scene_web-1600x1066.jpg",
+    "alt": null
+   }
+  ],
+  "offer": "Free Design Service",
+  "read_on": "2026-10-29"
+ },
+ {
   "url": "https://www.bromic.com/products/",
   "kind": "page",
   "title": "Products",
@@ -3818,6 +4238,1254 @@
   "read_on": "2026-10-29"
  },
  {
+  "url": "https://www.bromic.com/residential/",
+  "kind": "page",
+  "title": "Where Design meets Warmth",
+  "summary": "Residential audience page: heaters by design style (Platinum, Eclipse, Tungsten), homeowner testimonials, Lookbook, complimentary heat-mapping design service, fuel-source guide and a gallery.",
+  "headings": [
+   "What’s Your Design Style?",
+   "Hear What Homeowners Are Saying",
+   "Outdoor Lookbook",
+   "Complimentary Design Service",
+   "How to Select the Right Fuel Source for Your Space",
+   "How Outdoor Heating Can Transform Your Outdoor Space",
+   "Gallery"
+  ],
+  "question_answered": "What is the best outdoor heater for my home?",
+  "audience": [
+   "RES"
+  ],
+  "stage": [
+   "AW",
+   "CO"
+  ],
+  "products": [
+   "Platinum Electric",
+   "Eclipse Electric",
+   "Eclipse Freestanding/Portable",
+   "Tungsten Electric",
+   "Tungsten Portable/Freestanding"
+  ],
+  "controls_mentioned": true,
+  "stats": [
+   {
+    "claim": "As the only manufacturer that offers outdoor heating appliances in natural gas, propane, and electric fuel sources",
+    "source_named": null
+   }
+  ],
+  "product_facts": [
+   {
+    "product": "Platinum Smart-Heat Electric",
+    "attribute": "controls",
+    "value": "intuitive controls"
+   }
+  ],
+  "people_quoted": [
+   {
+    "name": "James Peters",
+    "role_org": "Homeowner – Pangbourne, UK"
+   },
+   {
+    "name": "Regina Schaurer-Will",
+    "role_org": "Homeowner – Freimersheim, Germany"
+   },
+   {
+    "name": "Lindsay-Anne Dow",
+    "role_org": "Homeowner – Canada"
+   },
+   {
+    "name": "Chris Dorrington",
+    "role_org": "Dorrington Homes"
+   }
+  ],
+  "cta": [
+   {
+    "label": "Read the Case Study",
+    "target": "https://www.bromic.com/case-study/platinum-electric-heaters-in-pangbourne/"
+   },
+   {
+    "label": "Read the Case Study",
+    "target": "https://www.bromic.com/case-study/perfecting-the-modern-outdoor-pool-house-with-bromics-eclipse-collection/"
+   },
+   {
+    "label": "Start Your Design",
+    "target": "https://www.bromic.com/design-your-space/"
+   },
+   {
+    "label": "SEND ME THE OUTDOOR LOOKBOOK",
+    "target": "https://www.bromic.com/outdoor-lookbook/"
+   },
+   {
+    "label": "GET STARTED",
+    "target": "https://www.bromic.com/design-your-space/"
+   },
+   {
+    "label": "DOWNLOAD THE GUIDE",
+    "target": "https://www.bromic.com/blog/how-to-select-the-right-fuel-source-for-your-space/"
+   },
+   {
+    "label": "READ THE BLOG",
+    "target": "https://www.bromic.com/blog/how-outdoor-heating-can-transform-your-outdoor-space/"
+   }
+  ],
+  "gated": false,
+  "downloads": [
+   "Outdoor Lookbook",
+   "How to Select the Right Fuel Source for Your Space"
+  ],
+  "issues": [
+   "Controls mentioned only as 'intuitive controls' — no Affinity product named",
+   "Unsourced 'only manufacturer' claim (all three fuels)",
+   "Unsourced claim on gas efficiency in wind",
+   "H1 contains raw <br> tag",
+   "Meta description truncated, missing space ('Designmeets')",
+   "'DOWNLOAD THE GUIDE' links to a blog post, not a download",
+   "Stray '**' markup in design-style headings",
+   "Uses AU/UK/DE/CA testimonials on the US site — no US homeowner quoted"
+  ],
+  "images": [
+   {
+    "src": "https://pim.bromic.com/wp-content/uploads/2024/10/Final-Black.png",
+    "alt": null
+   },
+   {
+    "src": "https://pim.bromic.com/wp-content/uploads/2024/02/Tungsten-Portable-Residential-Edited.png",
+    "alt": null
+   },
+   {
+    "src": "https://pim.bromic.com/wp-content/uploads/2024/01/DW-Design-Build-Residential-Image-7-1.png",
+    "alt": null
+   },
+   {
+    "src": "https://pim.bromic.com/wp-content/uploads/2024/01/DW-Design-Build-Residential-Image-4-1.png",
+    "alt": null
+   },
+   {
+    "src": "https://pim.bromic.com/wp-content/uploads/2023/11/Residential-Bogota-Colombia-6-scaled.jpg",
+    "alt": null
+   },
+   {
+    "src": "https://pim.bromic.com/wp-content/uploads/2023/10/TungstenE_White_Residential_HR-scaled.jpg",
+    "alt": null
+   },
+   {
+    "src": "https://pim.bromic.com/wp-content/uploads/2023/09/Bromic_PG_Residential_HR-scaled.jpg",
+    "alt": null
+   }
+  ],
+  "offer": "Complimentary Design Service (heat-mapping)",
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://www.bromic.com/restaurant-outdoor-heating-planning-guide/",
+  "kind": "page",
+  "title": "Restaurant Outdoor Heating Planning Guide",
+  "summary": "Download page for a free guide for restaurant operators planning patio heating: heating solutions, gas versus electric, costs and building regulations, to extend outdoor dining into colder months.",
+  "headings": [],
+  "question_answered": "What heating options, costs and regulations should restaurants consider for outdoor dining?",
+  "audience": [
+   "COM"
+  ],
+  "stage": [
+   "AW",
+   "CO"
+  ],
+  "products": [],
+  "controls_mentioned": false,
+  "stats": [],
+  "product_facts": [],
+  "people_quoted": [],
+  "cta": [
+   {
+    "label": "Download Bromic’s complimentary outdoor heater guide.",
+    "target": "download form (not visible in fetched content)"
+   }
+  ],
+  "gated": true,
+  "downloads": [
+   "Restaurant Outdoor Heating Planning Guide"
+  ],
+  "issues": [
+   "Listed guide topics are bare labels with no content",
+   "Download CTA has no visible target or form",
+   "Same image referenced more than once",
+   "Thin page with no H2 structure"
+  ],
+  "images": [
+   {
+    "src": "https://pim.bromic.com/wp-content/uploads/2024/11/OHPG-Hosp_.png",
+    "alt": null
+   }
+  ],
+  "form": "Guide download form (not visible in fetched content; likely embedded HubSpot form)",
+  "offer": "Complimentary Restaurant Outdoor Heating Planning Guide",
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://www.bromic.com/restaurants/",
+  "kind": "page",
+  "title": "Restaurant Outdoor Heaters",
+  "summary": "Restaurant audience page: client logos, heater collections for patios, a revenue-and-profits guide (PDF), a rooftop-bar case study, gallery and FAQs on choosing and using patio heaters, plus the free design service.",
+  "headings": [
+   "As Seen On",
+   "Outdoor Restaurant Heater Collections",
+   "Generate Extra Revenue by Adding Outdoor Heating to Your Restaurant",
+   "Enhancing Rooftop Bar Design and Experience",
+   "FAQ",
+   "Not sure which outdoor heater is right for your restaurant?"
+  ],
+  "question_answered": "How do I heat a restaurant patio?",
+  "audience": [
+   "COM",
+   "ARC"
+  ],
+  "stage": [
+   "AW",
+   "CO"
+  ],
+  "products": [
+   "Tungsten Electric",
+   "Tungsten Gas",
+   "Tungsten Portable/Freestanding",
+   "Eclipse Electric",
+   "Eclipse Pendant",
+   "Eclipse Freestanding/Portable",
+   "Platinum Electric",
+   "Platinum Gas",
+   "Platinum Electric Marine"
+  ],
+  "controls_mentioned": false,
+  "stats": [
+   {
+    "claim": "Spread across 4.25 acres",
+    "source_named": null
+   },
+   {
+    "claim": "offering over 250 rooms on 7 floors",
+    "source_named": null
+   }
+  ],
+  "product_facts": [
+   {
+    "product": "Platinum Collection",
+    "attribute": "materials",
+    "value": "sleek ceramic-glass surface"
+   },
+   {
+    "product": "Platinum Collection",
+    "attribute": "materials",
+    "value": "stainless-steel frame"
+   },
+   {
+    "product": "Bromic outdoor patio heaters",
+    "attribute": "IP rating",
+    "value": "IP rated"
+   }
+  ],
+  "people_quoted": [],
+  "cta": [
+   {
+    "label": "Design Your Space",
+    "target": "https://www.bromic.com/design-your-space/"
+   },
+   {
+    "label": "Download Now",
+    "target": "https://21962787.fs1.hubspotusercontent-na1.net/hubfs/21962787/Content/How%20Outdoor%20Heating%20Increases%20Revenue%20&%20Profits.pdf"
+   },
+   {
+    "label": "READ THE CASE STUDY",
+    "target": "https://www.bromic.com/case-study/enhancing-rooftop-bar-designs-with-cutting-edge-outdoor-heating-solutions/"
+   },
+   {
+    "label": "See Restaurant Gallery",
+    "target": "https://www.bromic.com/gallery/?_application=restaurant"
+   },
+   {
+    "label": "Talk to Sales",
+    "target": "https://www.bromic.com/talk-to-sales/"
+   }
+  ],
+  "gated": false,
+  "downloads": [
+   "How Outdoor Heating Increases Revenue & Profits (PDF, ungated)"
+  ],
+  "issues": [
+   "No controls mentioned",
+   "Empty image sources for client logos (Nobu, Umami Burger, North Italia, Eureka) and featured projects",
+   "'Download our Guide' has no link target",
+   "Typo: 'expercts' in FAQ",
+   "Stray asterisks after collection names",
+   "Revenue guide is ungated — candidate to gate as MQL asset",
+   "Does not link the Restaurant Outdoor Heating Planning Guide page"
+  ],
+  "images": [
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/sites/2/2023/08/1.jpg",
+    "alt": null
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2021/09/1.jpg",
+    "alt": "Outdoor Gas Patio Heater - Platinum Gas Wall Mounted"
+   }
+  ],
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://www.bromic.com/revit-bim-files/",
+  "kind": "page",
+  "title": "Revit BIM & CAD Files",
+  "summary": "Download library of Revit BIM and CAD files for Eclipse, Platinum, Tungsten and Cobalt heaters and Affinity controllers, grouped by product and mounting type, plus the product catalogue.",
+  "headings": [
+   "Eclipse Smart-Heat Range",
+   "Platinum Smart-Heat Range",
+   "Tungsten Smart-Heat Range",
+   "Cobalt Smart-Heat Range",
+   "Affinity Controls Series",
+   "Bromic Product Catalogue"
+  ],
+  "question_answered": "Where can I download Revit BIM and CAD files for Bromic heaters?",
+  "audience": [
+   "ARC",
+   "BLD"
+  ],
+  "stage": [
+   "CO",
+   "IN"
+  ],
+  "products": [
+   "Eclipse Electric",
+   "Eclipse Freestanding/Portable",
+   "Platinum Gas",
+   "Platinum Electric",
+   "Tungsten Gas",
+   "Tungsten Electric",
+   "Tungsten Portable/Freestanding",
+   "Cobalt Electric",
+   "Affinity Smart-Heat controls"
+  ],
+  "controls_mentioned": true,
+  "stats": [],
+  "product_facts": [],
+  "people_quoted": [],
+  "cta": [
+   {
+    "label": "View Eclipse Electric",
+    "target": "https://www.bromic.com/product/eclipse-smart-heat-electric/"
+   },
+   {
+    "label": "View Eclipse Freestanding",
+    "target": "https://www.bromic.com/product/eclipse-smart-heat-portable/"
+   },
+   {
+    "label": "View Platinum Gas",
+    "target": "https://www.bromic.com/product/platinum-smart-heat-gas/"
+   },
+   {
+    "label": "View Platinum Electric",
+    "target": "https://www.bromic.com/product/platinum-smart-heat-electric/"
+   },
+   {
+    "label": "View Tungsten Gas",
+    "target": "https://www.bromic.com/product/tungsten-smart-heat-gas/"
+   },
+   {
+    "label": "View Tungsten Electric",
+    "target": "https://www.bromic.com/product/tungsten-smart-heat-electric/"
+   },
+   {
+    "label": "View Tungsten Freestanding",
+    "target": "https://www.bromic.com/product/tungsten-smart-heat-portable/"
+   },
+   {
+    "label": "View Cobalt Electric",
+    "target": "https://www.bromic.com/product/tungsten-smart-heat-electric/"
+   },
+   {
+    "label": "View Affinitiy On/Off",
+    "target": "https://www.bromic.com/product/affinity-smart-heat-on-off-controllers/"
+   },
+   {
+    "label": "View Affinity Dimmer",
+    "target": "https://www.bromic.com/product/affinity-smart-heat-dimmer-controllers/"
+   },
+   {
+    "label": "View Affinity Eclipse",
+    "target": "https://www.bromic.com/product/affinity-smart-heat-eclipse-controllers/"
+   },
+   {
+    "label": "View Outdoor Heaters",
+    "target": "https://www.bromic.com/outdoor-heaters/"
+   }
+  ],
+  "gated": false,
+  "downloads": [
+   "Eclipse Smart-Heat Electric: Revit BIM – Ceiling, Wall; CAD (2023)",
+   "Eclipse Smart-Heat Freestanding: Revit BIM; CAD (2023)",
+   "Platinum Smart-Heat Gas: Revit BIM – Ceiling, Wall; CAD (2023)",
+   "Platinum Smart-Heat Electric: Revit BIM – Ceiling, Wall; CAD (2023)",
+   "Tungsten Smart-Heat Gas: Revit BIM – Ceiling, Wall; CAD (2023)",
+   "Tungsten Smart-Heat Electric: Revit BIM – Ceiling, Wall; CAD (2023)",
+   "Tungsten Smart-Heat Freestanding: Revit BIM; CAD (2023)",
+   "Cobalt Smart-Heat Electric: Revit BIM – Ceiling, Wall; CAD – Ceiling, Wall (2025)",
+   "Affinity On/Off, Dimmer, Eclipse: Revit BIM (2024)",
+   "Bromic Product Catalogue (Bromic-Catalog-US-1, 2025)"
+  ],
+  "issues": [
+   "Duplicate of /access-bim-files/ (same content, two URLs) — consolidate/canonicalise",
+   "'View Cobalt Electric' links to the Tungsten Electric product page",
+   "Typo: 'View Affinitiy On/Off'",
+   "Tungsten Freestanding Revit file name references 'Gas-Portable'",
+   "Affinity file labels lack product names",
+   "Files hosted inconsistently (pim.bromic.com and Google Drive)",
+   "Catalogue here is 2025 while 2026 catalog exists",
+   "No Platinum Electric Marine or Eclipse Pendant files"
+  ],
+  "images": [
+   {
+    "src": "http://www.bromic.com/wp-content/uploads/sites/2/2023/08/technical-resources-mounting.webp",
+    "alt": null
+   }
+  ],
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://www.bromic.com/smart-controls/",
+  "kind": "page",
+  "title": "Intelligent Controls Systems",
+  "summary": "Controls landing page for Affinity Smart-Heat: the Bromic Heating app, zone control, smart-home integration, and planning controls from the start with the complimentary design service.",
+  "headings": [
+   "Precision Control at Your Fingertips",
+   "Customize your Heating with Zone Control",
+   "Smart Home Integration",
+   "Planning Smart Control, From the Start"
+  ],
+  "question_answered": "Can Bromic heaters integrate with smart home systems like Alexa, Google Home or Control4?",
+  "audience": [
+   "RES",
+   "ARC",
+   "COM"
+  ],
+  "stage": [
+   "CO",
+   "IN"
+  ],
+  "products": [
+   "Affinity Smart-Heat controls",
+   "Affinity Smart-Heat Expansion Board",
+   "Eclipse Electric",
+   "Bromic Heating app"
+  ],
+  "controls_mentioned": true,
+  "stats": [],
+  "product_facts": [
+   {
+    "product": "Affinity Smart-Heat® Controls",
+    "attribute": "connectivity",
+    "value": "Wi-Fi and Bluetooth connectivity"
+   },
+   {
+    "product": "Affinity Smart-Heat® Controls",
+    "attribute": "compatibility",
+    "value": "Google Home, Amazon Alexa, and leading automation platforms including Lutron, Crestron, Control4, Domotica, and Josh.ai"
+   },
+   {
+    "product": "Smart-Heat Expansion Board",
+    "attribute": "integration",
+    "value": "using 0-10v control"
+   },
+   {
+    "product": "Smart-Heat Expansion Board",
+    "attribute": "availability",
+    "value": "built into the 5-Channel controllers"
+   },
+   {
+    "product": "Eclipse Smart-Heat® Collection",
+    "attribute": "controls",
+    "value": "incremental heat levels and lighting control"
+   }
+  ],
+  "people_quoted": [],
+  "cta": [
+   {
+    "label": "Learn More",
+    "target": "https://www.bromic.com/controls/"
+   },
+   {
+    "label": "LEARN MORE",
+    "target": "https://www.bromic.com/affinity-smart-heat-app/"
+   },
+   {
+    "label": "Get Started",
+    "target": "https://www.bromic.com/design-your-space/"
+   },
+   {
+    "label": "Contact Our Team",
+    "target": "https://www.bromic.com/talk-to-sales/"
+   }
+  ],
+  "gated": false,
+  "downloads": [],
+  "issues": [
+   "Expansion Board described as an add-on accessory and as 'built into the 5-Channel controllers' (conflict, also on /controls/)",
+   "App features described without stating compatible Affinity controls are required (sold separately)",
+   "Integration list (Lutron, Crestron, Control4, Domotica, Josh.ai) is longer than /controls/ (Alexa, Google) — reconcile",
+   "Meta description describes topics not on the page; title metadata 'Smart Controls Landing Page' differs from H1",
+   "Blog link text references legacy 'Smart-Heat Link'",
+   "Overlaps /controls/ and /affinity-smart-heat-app/",
+   "Good 'plan controls from the start' message — on-thesis"
+  ],
+  "images": [
+   {
+    "src": "https://pim.bromic.com/wp-content/uploads/2024/09/Bromic-HT-App_Setting-up-Scenes.gif",
+    "alt": null
+   }
+  ],
+  "offer": "Complimentary Outdoor Heating Design Service",
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://www.bromic.com/super-yacht-cruise-ships/",
+  "kind": "page",
+  "title": "Outdoor Heaters for Superyachts & Cruise Ships",
+  "summary": "Marine audience page for the Platinum Smart-Heat Electric Marine heater: Lloyd's Register certification, marine-grade steel, warranty, colours and mounting, FAQs and a design consultation offer.",
+  "headings": [
+   "As Seen On",
+   "Platinum Smart-Heat® Electric Marine Heater",
+   "Ready to Incorporate Bromic <br> Heating on Your Open Decks?",
+   "FAQ",
+   "Not sure which outdoor heater is right for your vessel?"
+  ],
+  "question_answered": "What outdoor heaters can be used on superyachts and cruise ships?",
+  "audience": [
+   "COM",
+   "ARC"
+  ],
+  "stage": [
+   "AW",
+   "CO",
+   "IN"
+  ],
+  "products": [
+   "Platinum Electric Marine"
+  ],
+  "controls_mentioned": true,
+  "stats": [
+   {
+    "claim": "As the only company offering outdoor heating solutions that are Lloyd’s Register Certified",
+    "source_named": null
+   },
+   {
+    "claim": "making them the first outdoor heating solutions to receive approval",
+    "source_named": null
+   }
+  ],
+  "product_facts": [
+   {
+    "product": "Platinum Smart-Heat® Electric Marine",
+    "attribute": "material",
+    "value": "AISI316 Marine-Grade Stainless Steel"
+   },
+   {
+    "product": "Platinum Smart-Heat® Electric Marine",
+    "attribute": "IP rating",
+    "value": "IPx55"
+   },
+   {
+    "product": "Platinum Smart-Heat® Electric Marine",
+    "attribute": "IP rating (FAQ)",
+    "value": "IPX5 rated"
+   },
+   {
+    "product": "Platinum Smart-Heat® Electric Marine",
+    "attribute": "material (FAQ)",
+    "value": "premium 314 stainless steel"
+   },
+   {
+    "product": "Platinum Smart-Heat® Electric Marine",
+    "attribute": "construction",
+    "value": "Fully enclosed with ceramic glass"
+   },
+   {
+    "product": "Platinum Smart-Heat® Electric Marine",
+    "attribute": "certification",
+    "value": "fully ENV5-certified by Lloyd’s Register"
+   },
+   {
+    "product": "Platinum Smart-Heat® Electric Marine",
+    "attribute": "warranty",
+    "value": "Backed by an industry-leading 5-year warranty"
+   },
+   {
+    "product": "Platinum Smart-Heat® Electric Marine",
+    "attribute": "colour",
+    "value": "white or black"
+   },
+   {
+    "product": "Platinum Smart-Heat® Electric Marine",
+    "attribute": "mounting",
+    "value": "wall, ceiling, and recessed"
+   }
+  ],
+  "people_quoted": [],
+  "cta": [
+   {
+    "label": "EXPLORE PLATINUM ELECTRIC MARINE",
+    "target": "https://www.bromic.com/product/platinum-smart-heat-electric-marine/"
+   },
+   {
+    "label": "CONSULT A HEATING EXPERT",
+    "target": "https://www.bromic.com/design-your-space/"
+   },
+   {
+    "label": "Design Your Space",
+    "target": "https://www.bromic.com/design-your-space/"
+   },
+   {
+    "label": "Contact Our Team",
+    "target": "https://www.bromic.com/contact-us/"
+   },
+   {
+    "label": "Schedule a Technical Support Call",
+    "target": "https://www.bromic.com/contact-technical-support/"
+   }
+  ],
+  "gated": false,
+  "downloads": [
+   "Revit BIM Files"
+  ],
+  "issues": [
+   "Spec conflict: IP rating 'IPx55' (body) vs 'IPX5' (FAQ; also IPX5 on /platinum-collection/) — 'IPx55' is not a valid IP code",
+   "Spec conflict: 'AISI316' vs 'premium 314 stainless steel' in FAQ",
+   "Unsourced 'only company' and 'first' Lloyd's Register claims (certificate not linked)",
+   "'As Seen On' logo grid has images with no src/alt",
+   "Heading contains raw <br>",
+   "Image filename misspelled 'yatch.jpg'",
+   "Wording: 'maritime amusement'; stray comma in 'environments with, a fully enclosed'",
+   "Schema uses staging domain us.bromic-prod.454.agency"
+  ],
+  "images": [
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2022/08/Marine-Grade_Platinum-Electric_White_Lady-Lene-2-1600x1067.jpg",
+    "alt": "Overhead Electric Heater on Lady Lene Deck - Platinum Electric Marine"
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/sites/2/2026/01/yatch.jpg",
+    "alt": null
+   }
+  ],
+  "offer": "Complimentary technical design service",
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://www.bromic.com/sustainable-design-principles/",
+  "kind": "page",
+  "title": "Outdoor Heating Guide on Sustainable Design Principles",
+  "summary": "Download page for Bromic's free guide on sustainable outdoor heating design: outdoor living, current design trends, five sustainable design principles and how to apply them.",
+  "headings": [],
+  "question_answered": "How do I design sustainable outdoor heating?",
+  "audience": [
+   "ARC",
+   "RES",
+   "COM"
+  ],
+  "stage": [
+   "AW",
+   "CO"
+  ],
+  "products": [],
+  "controls_mentioned": false,
+  "stats": [],
+  "product_facts": [],
+  "people_quoted": [],
+  "cta": [
+   {
+    "label": "Download our handy guide",
+    "target": "download form (not visible in fetched content)"
+   }
+  ],
+  "gated": true,
+  "downloads": [
+   "Outdoor Heating Guide on Sustainable Design Principles (white paper)"
+  ],
+  "issues": [
+   "Same white paper is linked as an ungated HubSpot PDF from /dwell/ — gating is inconsistent",
+   "Thin page: no H2s, no preview of the five principles",
+   "Guide cover dated 2023, no alt text",
+   "Schema uses staging domain us.bromic-prod.454.agency"
+  ],
+  "images": [
+   {
+    "src": "https://pim.bromic.com/wp-content/uploads/2023/07/Bromics-Outdoor-Heating-Guide-on-Sustainable-Design-Principles.png",
+    "alt": null
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/sites/2/2025/12/eclipse_portable_residential-scene_web-1600x1066.jpg",
+    "alt": null
+   }
+  ],
+  "form": "Guide download form (not visible in fetched content; likely embedded HubSpot form)",
+  "offer": "FREE GUIDE: Sustainable Design Principles",
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://www.bromic.com/talk-to-sales/",
+  "kind": "page",
+  "title": "Talk to an Expert",
+  "summary": "Sales contact page for sales, dealer and technical questions, promoting the free design service (dedicated designer, 2D heating map, personalised order list), with phone number and links to design and support requests.",
+  "headings": [
+   "Utilize Our Complimentary Design Service"
+  ],
+  "question_answered": "How do I contact Bromic sales or find a dealer?",
+  "audience": [
+   "RES",
+   "ARC",
+   "BLD",
+   "COM"
+  ],
+  "stage": [
+   "IN",
+   "PP"
+  ],
+  "products": [
+   "Platinum Electric"
+  ],
+  "controls_mentioned": true,
+  "stats": [],
+  "product_facts": [],
+  "people_quoted": [],
+  "cta": [
+   {
+    "label": "SUBMIT YOUR DESIGN REQUEST",
+    "target": "https://www.bromic.com/design-your-space/"
+   },
+   {
+    "label": "(800) 301-1293",
+    "target": "tel:(800) 301-1293"
+   },
+   {
+    "label": "technical documents",
+    "target": "https://www.bromic.com/technical-resources/"
+   },
+   {
+    "label": "Technical Support Request",
+    "target": "https://www.bromic.com/contact-technical-support/"
+   }
+  ],
+  "gated": false,
+  "downloads": [],
+  "issues": [
+   "Form referenced but not visible in fetched content",
+   "H1 'Talk to an Expert' appears twice",
+   "Title/breadcrumb contain '&amp;' entity",
+   "Second product image has no src",
+   "Canonical vs schema domain mismatch (us.bromic-prod.454.agency)",
+   "Hero image (2021/09/8.jpg) reused on /bestbuy/"
+  ],
+  "images": [
+   {
+    "src": "https://pim.bromic.com/wp-content/uploads/2021/09/8.jpg",
+    "alt": null
+   }
+  ],
+  "form": "Intro refers to 'the form on this page' but no form fields visible in fetched content (likely JS-embedded) — verify",
+  "offer": "Free professional design services (dedicated designer, 2D heating map, personalised order list)",
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://www.bromic.com/technical-resources/",
+  "kind": "page",
+  "title": "Technical Resources",
+  "summary": "Technical library by collection: spec sheets, instruction manuals and wiring guides for every heater and controller (including legacy wireless controls), with links to BIM/CAD files and instructional videos.",
+  "headings": [
+   "Eclipse Collection",
+   "Platinum Collection",
+   "Tungsten Collection",
+   "Cobalt Collection",
+   "Affinity Controllers",
+   "Legacy Wireless Remotes & Controllers",
+   "Visual Guidance & Instructional Support"
+  ],
+  "question_answered": "Where can I find Bromic spec sheets and installation manuals?",
+  "audience": [
+   "ARC",
+   "BLD",
+   "RES"
+  ],
+  "stage": [
+   "IN",
+   "BY"
+  ],
+  "products": [
+   "Eclipse Electric",
+   "Eclipse Freestanding/Portable",
+   "Platinum Electric",
+   "Platinum Electric Marine",
+   "Platinum Electric Recess Kit",
+   "Low Clearance Recess Kit",
+   "Platinum Gas",
+   "Tungsten Electric",
+   "Tungsten Gas",
+   "Tungsten Portable/Freestanding",
+   "Cobalt Electric",
+   "Affinity Smart-Heat controls",
+   "Affinity Smart-Heat On/Off Controllers",
+   "Affinity Smart-Heat Dimmer Controllers",
+   "Affinity Smart-Heat Eclipse Controllers",
+   "Manual Wall Switch",
+   "Wireless On/Off Controller",
+   "Wireless Dimmer Controller",
+   "Wireless Eclipse Controller",
+   "Smart-Heat Link"
+  ],
+  "controls_mentioned": true,
+  "stats": [],
+  "product_facts": [],
+  "people_quoted": [],
+  "cta": [
+   {
+    "label": "WATCH INSTRUCTIONAL VIDEOS",
+    "target": "https://www.bromic.com/instructional-videos"
+   },
+   {
+    "label": "Revit BIM & CAD",
+    "target": "https://www.bromic.com/access-bim-files/"
+   }
+  ],
+  "gated": false,
+  "downloads": [
+   "Eclipse Smart-Heat Electric Spec Sheet (2025)",
+   "Eclipse Instruction Manual – Affinity Controller (2025)",
+   "Eclipse Instruction Manual – Legacy Controller (2021)",
+   "Eclipse Smart-Heat Freestanding Spec Sheet (2025)",
+   "Eclipse Smart-Heat Freestanding Instruction Manual (2025)",
+   "Platinum Smart-Heat Electric Spec Sheet (2025)",
+   "Platinum Smart-Heat Electric Instruction Manual (2021)",
+   "Platinum Smart-Heat Electric Instruction Manual 4.5W (2021)",
+   "Platinum Electric Marine Spec Sheet (2025)",
+   "Platinum Electric Marine Instruction Manual (2021)",
+   "Platinum Electric Low Clearance Recess Instruction Manual (2025)",
+   "Legacy LC Kit Affinity Wiring Guide (2025)",
+   "Platinum Smart-Heat Gas Spec Sheet (2025)",
+   "Platinum Smart-Heat Gas Instruction Manual (2021)",
+   "Tungsten Smart-Heat Electric Spec Sheet (2025)",
+   "Tungsten Smart-Heat Electric Instruction Manual (2021)",
+   "Tungsten Smart-Heat Gas Spec Sheet (2025)",
+   "Tungsten Smart-Heat Gas Instructional Manual (2026)",
+   "Tungsten Smart-Heat Freestanding Spec Sheet (2025)",
+   "Tungsten Smart-Heat Freestanding Instruction Manual (2021)",
+   "Cobalt Smart-Heat Electric Spec Sheet (2025)",
+   "Cobalt Smart-Heat Electric Instructional Manual (2025)",
+   "Affinity Smart-Heat On/Off Controllers Spec Sheet (2025)",
+   "Affinity Smart-Heat Control Instruction Manual (2024)",
+   "Affinity Smart-Heat Dimmer Controllers Spec Sheet (2025)",
+   "Affinity Smart-Heat Eclipse Controllers Spec Sheet (2025)",
+   "Manual Wall Switch Wiring Diagram",
+   "Wireless On/Off Controller Instruction Manual (2021)",
+   "Wireless Dimmer Controller Instruction Manual (2021)",
+   "Wireless Eclipse Controller Instruction Manual V1.4 (2024)",
+   "Smart-Heat Link Installation Guide (2021)",
+   "Smart-Heat Link Protocol Tool rev4.0 (2021)"
+  ],
+  "issues": [
+   "Legacy controls (Smart-Heat Link, Wireless On/Off/Dimmer/Eclipse) still listed — correctly labelled 'Legacy', but other pages still recommend them",
+   "Many instruction manuals dated 2021",
+   "Platinum Electric Marine and Platinum Electric link to the same spec sheet and manual files",
+   "Link text 'Instruction Manual 4.5W' points to a file named 4.5kW (typo)",
+   "Platinum Electric 4.5kW manual exists — supports 'up to 4500W', conflicts with FAQ '2300 and 3400W'",
+   "Platinum Electric Recess Kit has no spec sheet",
+   "Inconsistent labels: Smart-Heat® vs ™; 'Instruction' vs 'Instructional' Manual",
+   "Key ungated spec-kit asset base for architects/builders"
+  ],
+  "images": [
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2024/10/ProLiving_39Spinnaker_05-cropped-1600x509.jpg",
+    "alt": null
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2025/04/Eclipse-Electric-500x500.png",
+    "alt": null
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2025/05/Eclipse-Portable-e1768431897240-500x500.png",
+    "alt": null
+   }
+  ],
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://www.bromic.com/tungsten-collection/",
+  "kind": "page",
+  "title": "Tungsten Collection",
+  "summary": "Collection page for Tungsten heaters — Electric, Freestanding and Gas — with specs, mounting and accessory options, controls, a HIDE Restaurant case study and FAQs on fuel, ventilation and durability.",
+  "headings": [
+   "Tungsten Smart-Heat® Electric",
+   "Tungsten Smart-Heat® Freestanding",
+   "Tungsten Smart-Heat® Gas",
+   "Tungsten Electric Mounting Poles",
+   "Tungsten Electric Wall Mounting Bracket",
+   "Tungsten Electric Recess Kit",
+   "Tungsten Gas Heat Deflector",
+   "Gas Mounting Poles",
+   "Gas Wall Mounting Bracket",
+   "Tungsten Freestanding Cover",
+   "Affinity Smart-Heat® On/Off Controllers",
+   "Affinity Smart-Heat® Dimmer Controllers"
+  ],
+  "question_answered": "What is the Bromic Tungsten heater range and which model should I choose?",
+  "audience": [
+   "RES",
+   "COM",
+   "BLD"
+  ],
+  "stage": [
+   "CO",
+   "IN"
+  ],
+  "products": [
+   "Tungsten Electric",
+   "Tungsten Portable/Freestanding",
+   "Tungsten Gas",
+   "Tungsten Electric Mounting Poles",
+   "Tungsten Electric Wall Mounting Bracket",
+   "Tungsten Electric Recess Kit",
+   "Tungsten Gas Heat Deflector",
+   "Gas Mounting Poles",
+   "Gas Wall Mounting Bracket",
+   "Tungsten Freestanding Cover",
+   "Affinity Smart-Heat controls",
+   "Affinity Smart-Heat On/Off Controllers",
+   "Affinity Smart-Heat Dimmer Controllers",
+   "Affinity Smart-Heat Expansion Board",
+   "Manual Wall Switch",
+   "Wireless On/Off Controller",
+   "Wireless Dimmer Controller",
+   "Wireless Master Remote",
+   "Smart-Heat Link"
+  ],
+  "controls_mentioned": true,
+  "stats": [
+   {
+    "claim": "Three times more efficient than traditional mushroom heaters",
+    "source_named": null
+   }
+  ],
+  "product_facts": [
+   {
+    "product": "Tungsten Collection",
+    "attribute": "coverage",
+    "value": "heating areas up to 215ft²"
+   },
+   {
+    "product": "Tungsten Collection",
+    "attribute": "materials",
+    "value": "durable stainless-steel construction"
+   },
+   {
+    "product": "Tungsten Collection",
+    "attribute": "finish",
+    "value": "high temperature coating"
+   },
+   {
+    "product": "Tungsten Collection",
+    "attribute": "design",
+    "value": "honeycomb mesh surface"
+   },
+   {
+    "product": "Tungsten Collection",
+    "attribute": "elements",
+    "value": "interior quartz elements"
+   },
+   {
+    "product": "Tungsten Collection",
+    "attribute": "IP rating",
+    "value": "IP certified"
+   },
+   {
+    "product": "Tungsten Collection",
+    "attribute": "operation",
+    "value": "designed for intermittent use"
+   },
+   {
+    "product": "Tungsten Electric",
+    "attribute": "output",
+    "value": "2000W to 6000W"
+   },
+   {
+    "product": "Tungsten Electric",
+    "attribute": "power options",
+    "value": "four electric power options"
+   },
+   {
+    "product": "Tungsten Electric",
+    "attribute": "colour",
+    "value": "black and white"
+   },
+   {
+    "product": "Tungsten Electric",
+    "attribute": "mounting",
+    "value": "wall mounted, ceiling mounted and recessed"
+   },
+   {
+    "product": "Tungsten Electric",
+    "attribute": "ventilation",
+    "value": "do not require ventilation"
+   },
+   {
+    "product": "Tungsten Electric",
+    "attribute": "element",
+    "value": "durable element with a high-output, low-glare design"
+   },
+   {
+    "product": "Tungsten Freestanding",
+    "attribute": "finish",
+    "value": "award-winning matte black finish"
+   },
+   {
+    "product": "Tungsten Freestanding",
+    "attribute": "design",
+    "value": "modular and maneuverable design"
+   },
+   {
+    "product": "Tungsten Freestanding",
+    "attribute": "efficiency",
+    "value": "Three times more efficient than traditional mushroom heaters"
+   },
+   {
+    "product": "Tungsten Freestanding",
+    "attribute": "ventilation",
+    "value": "do require ventilation"
+   },
+   {
+    "product": "Tungsten Gas",
+    "attribute": "output",
+    "value": "two power output levels"
+   },
+   {
+    "product": "Tungsten Gas",
+    "attribute": "fuel",
+    "value": "natural gas (NG) and propane (LPG)"
+   },
+   {
+    "product": "Tungsten Gas",
+    "attribute": "body",
+    "value": "durable stainless steel engineered body"
+   },
+   {
+    "product": "Tungsten Gas",
+    "attribute": "burner",
+    "value": "ceramic burners"
+   },
+   {
+    "product": "Tungsten Gas",
+    "attribute": "ventilation",
+    "value": "do require ventilation"
+   },
+   {
+    "product": "Tungsten Gas",
+    "attribute": "application",
+    "value": "well-ventilated large spaces and colder climates"
+   },
+   {
+    "product": "Gas accessories",
+    "attribute": "mounting",
+    "value": "wall and six different sized ceiling mounts"
+   },
+   {
+    "product": "Tungsten Freestanding Cover",
+    "attribute": "protection",
+    "value": "weatherproof"
+   }
+  ],
+  "people_quoted": [
+   {
+    "name": "Matthew Mawtus",
+    "role_org": "Restaurant Manager, HIDE Restaurant – London, UK"
+   }
+  ],
+  "cta": [
+   {
+    "label": "EXPLORE TUNGSTEN ELECTRIC",
+    "target": "https://www.bromic.com/product/tungsten-smart-heat-electric/"
+   },
+   {
+    "label": "EXPLORE TUNGSTEN FREESTANDING",
+    "target": "https://www.bromic.com/product/tungsten-smart-heat-freestanding/"
+   },
+   {
+    "label": "EXPLORE TUNGSTEN GAS",
+    "target": "https://www.bromic.com/product/tungsten-smart-heat-gas/"
+   },
+   {
+    "label": "READ THE CASE STUDY",
+    "target": "https://www.bromic.com/case-study/hide-restaurant/"
+   },
+   {
+    "label": "View More Images",
+    "target": "https://www.bromic.com/gallery/?_collections=tungsten"
+   },
+   {
+    "label": "Bromic’s team of heating experts",
+    "target": "https://www.bromic.com/talk-to-sales/"
+   },
+   {
+    "label": "Complimentary Design Service",
+    "target": "https://www.bromic.com/design-your-space/"
+   }
+  ],
+  "gated": false,
+  "downloads": [
+   "Installation Manual"
+  ],
+  "issues": [
+   "Image filename 'tungsten-gas-500.png' echoes legacy '500' naming",
+   "Spec conflict: collection coverage 'up to 215ft²' vs builder pages 'Max Heat Area 160ft²'",
+   "FAQ lists legacy controls (Wireless On/Off, Wireless Dimmer, Wireless Master Remote, Smart-Heat Link) as compatible",
+   "Tungsten Gas output stated only as 'two power output levels' — no BTU figure (gas BTU unpublished; /outdoor-heaters/freestanding/ gives Freestanding 'up to 38500BTU')",
+   "Unsourced: 'Three times more efficient than traditional mushroom heaters', 'award-winning' finish (award not named)",
+   "Typos: 'it’s' for 'its', 'biproducts', missing space before 'to'",
+   "Tungsten Coastal / Select not mentioned (correct while 'Coming soon')",
+   "Empty image blocks with no alt"
+  ],
+  "images": [
+   {
+    "src": "https://pim.bromic.com/wp-content/uploads/2023/10/tungsten-gas-500.png",
+    "alt": null
+   },
+   {
+    "src": "https://pim.bromic.com/wp-content/uploads/2023/10/tungsten-electric-slant.png",
+    "alt": null
+   },
+   {
+    "src": "https://pim.bromic.com/wp-content/uploads/2023/10/tungsten-portable-top.png",
+    "alt": null
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2026/01/GNo-2.jpg",
+    "alt": null
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2025/08/tungsten-outdoor.jpg",
+    "alt": null
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2024/12/Delmonico_08-1600x1067.jpg",
+    "alt": "Tungsten Electric"
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2024/12/Tungsten-Electric.jpg",
+    "alt": null
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2024/12/Elm-Ave_11-Thumb-1600x1067.jpg",
+    "alt": "Tungsten Electric"
+   }
+  ],
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://www.bromic.com/warranty/",
+  "kind": "page",
+  "title": "Warranty",
+  "summary": "Warranty terms by product line — periods for each heater and the Affinity controllers — plus the claim process and the costs the owner covers (labour, shipping).",
+  "headings": [
+   "Bromic Heating Warranty"
+  ],
+  "question_answered": "How long is the Bromic heater warranty?",
+  "audience": [
+   "RES",
+   "BLD",
+   "COM"
+  ],
+  "stage": [
+   "BY"
+  ],
+  "products": [
+   "Platinum Electric",
+   "Platinum Electric Marine",
+   "Eclipse Pendant",
+   "Eclipse Freestanding/Portable",
+   "Tungsten Electric",
+   "Platinum Gas",
+   "Tungsten Gas",
+   "Tungsten Portable/Freestanding",
+   "Affinity Smart-Heat controls"
+  ],
+  "controls_mentioned": true,
+  "stats": [],
+  "product_facts": [
+   {
+    "product": "Platinum Electric",
+    "attribute": "warranty",
+    "value": "3 years"
+   },
+   {
+    "product": "Platinum Electric Marine",
+    "attribute": "warranty",
+    "value": "5 years (land-based applications); 3 years (marine vessels)"
+   },
+   {
+    "product": "Eclipse Pendant",
+    "attribute": "warranty",
+    "value": "3 years"
+   },
+   {
+    "product": "Eclipse Freestanding",
+    "attribute": "warranty",
+    "value": "3 years"
+   },
+   {
+    "product": "Tungsten Electric",
+    "attribute": "warranty",
+    "value": "2 years Heater (7 years on Heating Elements)"
+   },
+   {
+    "product": "Platinum Gas",
+    "attribute": "warranty",
+    "value": "2 years (excluding maintenance items*)"
+   },
+   {
+    "product": "Tungsten Gas",
+    "attribute": "warranty",
+    "value": "2 years (excluding maintenance items*)"
+   },
+   {
+    "product": "Tungsten Freestanding",
+    "attribute": "warranty",
+    "value": "1 year"
+   },
+   {
+    "product": "Affinity Controllers",
+    "attribute": "warranty",
+    "value": "1 year"
+   }
+  ],
+  "people_quoted": [],
+  "cta": [
+   {
+    "label": "Customer Support Form",
+    "target": "Customer Support Form"
+   }
+  ],
+  "gated": false,
+  "downloads": [],
+  "issues": [
+   "Warranty conflict: Platinum Electric Marine is 3 years on marine vessels here, but /super-yacht-cruise-ships/ and /platinum-collection/ promise an 'industry-leading 5-year warranty' for marine use",
+   "Cobalt Electric and Eclipse Electric (wall/ceiling) not listed in the warranty table",
+   "Partner LPs promise '+1 year' extended warranty — not reflected here",
+   "Customer Support Form appears empty",
+   "Broken image placeholder (empty src)",
+   "'Labour' vs 'Labor' spelling"
+  ],
+  "images": [
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2021/07/eclipse_portable_residential-scene_web-1600x1066.jpg",
+    "alt": "Residential Portable Outside Heaters - Bromic Eclipse Portable"
+   }
+  ],
+  "form": "Customer Support Form — appears empty in fetched content (placeholder 'US', '****')",
+  "read_on": "2026-10-29"
+ },
+ {
   "url": "https://www.bromic.com/bestbuy/",
   "kind": "landing",
   "title": "Best Buy<br>Bromic Design Service",
@@ -4014,6 +5682,104 @@
   ],
   "form": "Contact a Bromic Rep form (#form); fields not visible in fetched content.",
   "offer": "Complimentary technical design plan",
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://www.bromic.com/builders-lp-a/",
+  "kind": "landing",
+  "title": null,
+  "summary": "A/B branch of the Partner Program landing page for trade professionals: partner pricing, expert support, extended warranty, free heating design plans and project marketing spotlights, with a register-your-project form.",
+  "headings": [
+   "For the trade professionals behind great outdoor spaces.",
+   "Register Your Project",
+   "Bromic Partner Benefits",
+   "The Bromic Difference",
+   "Ready to Bring the Heat to Your Next Project?",
+   "WE’VE GOT WHAT YOU NEED",
+   "Ready to get started?"
+  ],
+  "question_answered": "What does the Bromic Partner Program offer builders and designers?",
+  "audience": [
+   "BLD",
+   "ARC"
+  ],
+  "stage": [
+   "CO",
+   "IN"
+  ],
+  "products": [
+   "Platinum Electric"
+  ],
+  "controls_mentioned": true,
+  "stats": [],
+  "product_facts": [
+   {
+    "product": "Partner Program",
+    "attribute": "warranty",
+    "value": "Extended +1 Year Warranty"
+   },
+   {
+    "product": "Platinum Smart-Heat Electric",
+    "attribute": "colour",
+    "value": "in white"
+   }
+  ],
+  "people_quoted": [
+   {
+    "name": "Nikhil Barua",
+    "role_org": "President, ARTIVO Shades"
+   },
+   {
+    "name": "Chris Dorrington",
+    "role_org": "Dorrington Homes"
+   }
+  ],
+  "cta": [
+   {
+    "label": "REQUEST YOUR DESIGN PLAN",
+    "target": "https://www.bromic.com/design-your-space/"
+   },
+   {
+    "label": "MEET YOUR BROMIC REP",
+    "target": "https://www.bromic.com/builders-lp-a/#form"
+   },
+   {
+    "label": "INSTALLATION MANUALS",
+    "target": "https://www.bromic.com/technical-resources/"
+   },
+   {
+    "label": "CAD & REVIT/BIM FILES",
+    "target": "https://www.bromic.com/revit-bim-files/"
+   },
+   {
+    "label": "TECHNICAL SUPPORT",
+    "target": "https://www.bromic.com/contact-technical-support/"
+   },
+   {
+    "label": "FAQ’s",
+    "target": "https://www.bromic.com/faqs/"
+   }
+  ],
+  "gated": false,
+  "downloads": [
+   "Installation manuals",
+   "CAD & Revit/BIM files"
+  ],
+  "issues": [
+   "No H1; title tag 'BUILDERS LP BRANCH B' while slug is 'builders-lp-a' (A/B naming mismatch)",
+   "Form fields not visible",
+   "+1 year warranty unqualified and absent from /warranty/",
+   "Empty image src/alt for design plan and install images",
+   "Near-duplicate of /lp-builders/"
+  ],
+  "images": [
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/sites/2/2026/10/Bromic-Platinum-Electric-White-Recessed2.png",
+    "alt": null
+   }
+  ],
+  "form": "Register Your Project form (#form); fields not visible in fetched content",
+  "offer": "Bromic Partner Program: partner pricing, expert support, Extended +1 Year Warranty, free heating design plans, project marketing spotlights",
   "read_on": "2026-10-29"
  },
  {
@@ -4218,6 +5984,59 @@
   ],
   "form": "Outdoor Lookbook request form (fields not visible in fetched content)",
   "offer": "Free Bromic Outdoor Lookbook",
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://www.bromic.com/design-your-space-variant/",
+  "kind": "landing",
+  "title": "Start Your Complimentary Design Request",
+  "summary": "A/B variant of the design request page: submit a project to receive technical floor-plan overlays, layout and energy analysis, heater selection and mounting guidance; sample design PDF.",
+  "headings": [
+   "Latest Projects"
+  ],
+  "question_answered": "How do I get a free outdoor heating design plan?",
+  "audience": [
+   "RES",
+   "ARC",
+   "COM"
+  ],
+  "stage": [
+   "IN",
+   "PP"
+  ],
+  "products": [],
+  "controls_mentioned": false,
+  "stats": [],
+  "product_facts": [],
+  "people_quoted": [],
+  "cta": [
+   {
+    "label": "Download a Sample Design",
+    "target": "https://pim.bromic.com/wp-content/uploads/2021/09/Design-Services-Project-Example.pdf"
+   },
+   {
+    "label": "Tell Us About Your Project",
+    "target": "design request form (fields not visible in fetched content)"
+   }
+  ],
+  "gated": false,
+  "downloads": [
+   "Sample design (Design-Services-Project-Example.pdf, 2021)"
+  ],
+  "issues": [
+   "Duplicate/variant of /design-your-space/ — ensure noindex/canonical",
+   "Deliverables omit controls",
+   "Latest Projects images have no src or alt",
+   "Hero alt mismatch (Tungsten photo labelled Eclipse Portable)"
+  ],
+  "images": [
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2021/08/Tungsten_Portable_HR-1-1600x1131.jpg",
+    "alt": "Portable Outside Heaters - Bromic Eclipse Portable"
+   }
+  ],
+  "form": "Design request form (fields not visible in fetched content). Offers floor-plan overlays, layout and energy analysis, heater selection and mounting guidance.",
+  "offer": "Complimentary technical design service for heating your outdoor space.",
   "read_on": "2026-10-29"
  },
  {
@@ -4481,6 +6300,143 @@
   "read_on": "2026-10-29"
  },
  {
+  "url": "https://www.bromic.com/high-end-outdoor-heaters/",
+  "kind": "landing",
+  "title": "Bromic Outdoor Heaters",
+  "summary": "Paid-social landing page (breadcrumb 'Paid Social LP Version 4') listing all eight heater models, testimonials, a gallery and a free design service / talk-to-an-expert form.",
+  "headings": [
+   "Explore Our Collections",
+   "Tungsten Smart-Heat® Gas",
+   "Tungsten Smart-Heat® Electric",
+   "Tungsten Smart-Heat® Freestanding",
+   "Platinum Smart-Heat® Electric",
+   "Platinum Smart-Heat® Gas",
+   "Eclipse Smart-Heat® Electric",
+   "Eclipse Smart-Heat® Freestanding",
+   "Platinum Smart-Heat® Electric Marine",
+   "What Our Customers Are Saying",
+   "Gallery & Inspiration"
+  ],
+  "question_answered": null,
+  "audience": [
+   "RES",
+   "COM"
+  ],
+  "stage": [
+   "AW",
+   "CO"
+  ],
+  "products": [
+   "Tungsten Gas",
+   "Tungsten Electric",
+   "Tungsten Portable/Freestanding",
+   "Platinum Electric",
+   "Platinum Gas",
+   "Eclipse Electric",
+   "Eclipse Freestanding/Portable",
+   "Platinum Electric Marine"
+  ],
+  "controls_mentioned": false,
+  "stats": [],
+  "product_facts": [],
+  "people_quoted": [
+   {
+    "name": "Paul Bresenden",
+    "role_org": null
+   },
+   {
+    "name": "James Peters",
+    "role_org": null
+   },
+   {
+    "name": "Matthew Mawtus",
+    "role_org": null
+   },
+   {
+    "name": "Courtney Saib",
+    "role_org": null
+   },
+   {
+    "name": "Regina Schaurer-Will",
+    "role_org": null
+   }
+  ],
+  "cta": [
+   {
+    "label": "Free Design Service",
+    "target": "https://www.bromic.com/high-end-outdoor-heaters/#speak-with-a-bromic-expert"
+   },
+   {
+    "label": "Talk To A Bromic Expert",
+    "target": "https://www.bromic.com/high-end-outdoor-heaters/#speak-with-a-bromic-expert"
+   }
+  ],
+  "gated": false,
+  "downloads": [],
+  "issues": [
+   "No controls mentioned",
+   "Internal name exposed in breadcrumb: 'Premium Outdoor Heaters (Paid Social LP Version 4)'",
+   "Schema uses staging domain us.bromic-prod.454.agency",
+   "'5 Stars' rating image has no source and no rating source named",
+   "No specs on page",
+   "Cobalt Electric missing from the collection list",
+   "Near-duplicate of /luxury-outdoor-heaters/ (Version 3)"
+  ],
+  "images": [
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/sites/2/2026/01/Eclipse_Portable_Residential-Scene_WEB-1600x1066.jpg",
+    "alt": null
+   },
+   {
+    "src": "https://pim.bromic.com/wp-content/uploads/2024/07/As_seen_on_logos2.png",
+    "alt": null
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2024/07/Award-winning-design-image.jpg",
+    "alt": null
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2024/07/smart-heat-radiant-technology-image.jpg",
+    "alt": null
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2024/07/energy-efficient-image.jpg",
+    "alt": null
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2024/07/complimentary-design.jpg",
+    "alt": null
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2024/07/Technical-Support-image.jpg",
+    "alt": null
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2024/07/industry-leading-warranty-image.jpeg",
+    "alt": null
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2024/07/gallery-and-inspo-3.jpg",
+    "alt": null
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2024/07/gallery-and-inspo-4.jpg",
+    "alt": null
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2024/07/gallery-and-inspo.jpg",
+    "alt": null
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2024/07/gallery-and-inspo2.jpg",
+    "alt": null
+   }
+  ],
+  "form": "Speak with a Bromic Expert form (#speak-with-a-bromic-expert); fields not visible in fetched content",
+  "offer": "Free Design Service",
+  "read_on": "2026-10-29"
+ },
+ {
   "url": "https://www.bromic.com/houzz/",
   "kind": "landing",
   "title": "Inviting & Inspiring Outdoor Spaces",
@@ -4559,6 +6515,53 @@
   "read_on": "2026-10-29"
  },
  {
+  "url": "https://www.bromic.com/ibs-2026-offer/",
+  "kind": "landing",
+  "title": "Take Advantage of Our Exclusive IBS 2026 Offer",
+  "summary": "Trade-show landing page for IBS 2026 attendees offering a custom outdoor heating design plan for their space via a project form.",
+  "headings": [],
+  "question_answered": null,
+  "audience": [
+   "BLD",
+   "RES"
+  ],
+  "stage": [
+   "IN",
+   "PP"
+  ],
+  "products": [
+   "Platinum Gas"
+  ],
+  "controls_mentioned": false,
+  "stats": [],
+  "product_facts": [],
+  "people_quoted": [],
+  "cta": [
+   {
+    "label": "Tell Us About Your Project",
+    "target": "IBS 2026 offer form (fields not visible in fetched content)"
+   }
+  ],
+  "gated": false,
+  "downloads": [],
+  "issues": [
+   "Offer terms, discount and expiry not stated — the 'exclusive offer' is the same complimentary design service available to everyone",
+   "IBS (International Builders' Show) 2026 was in February 2026 — page is likely expired; update or retire",
+   "Copy speaks to 'your home' though IBS attendees are builders",
+   "Stray '****' in form area",
+   "Header image dated 2021, no alt"
+  ],
+  "images": [
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2021/07/Platinum-Gas-In-Situ-e1632894839721-500x500-4.jpg",
+    "alt": null
+   }
+  ],
+  "form": "'Tell Us About Your Project' form — no field labels or submit button visible in fetched content",
+  "offer": "Unlock your IBS 2026 attendee offer with a custom outdoor heating design tailored to your space.",
+  "read_on": "2026-10-29"
+ },
+ {
   "url": "https://www.bromic.com/lp-architects-designers/",
   "kind": "landing",
   "title": null,
@@ -4633,6 +6636,110 @@
   ],
   "form": "Project specification support request form (#form); fields not visible in fetched content (likely embedded HubSpot form).",
   "offer": "Project specification support (product selection, layout and specification)",
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://www.bromic.com/lp-builders/",
+  "kind": "landing",
+  "title": null,
+  "summary": "Bromic Partner Program landing page for trade professionals who specify, design, build or install outdoor spaces: partner pricing, support, extended warranty, a free design plan, and a register-your-project / meet-your-rep form.",
+  "headings": [
+   "For the trade professionals behind great outdoor spaces.",
+   "Register Your Project",
+   "Bromic Partner Benefits",
+   "The Bromic Difference",
+   "Ready to Bring the Heat to Your Next Project?",
+   "WE’VE GOT WHAT YOU NEED",
+   "Ready to get started?"
+  ],
+  "question_answered": "What does the Bromic Partner Program offer builders and designers?",
+  "audience": [
+   "BLD",
+   "ARC"
+  ],
+  "stage": [
+   "CO",
+   "IN"
+  ],
+  "products": [
+   "Platinum Electric",
+   "Affinity Smart-Heat controls"
+  ],
+  "controls_mentioned": true,
+  "stats": [],
+  "product_facts": [
+   {
+    "product": "Partner Program",
+    "attribute": "warranty",
+    "value": "Receive an additional year of warranty coverage on qualifying products."
+   },
+   {
+    "product": "Platinum Smart-Heat Electric",
+    "attribute": "colour",
+    "value": "white"
+   }
+  ],
+  "people_quoted": [
+   {
+    "name": "Nikhil Barua",
+    "role_org": "President, ARTIVO Shades"
+   },
+   {
+    "name": "Chris Dorrington",
+    "role_org": "Dorrington Homes"
+   }
+  ],
+  "cta": [
+   {
+    "label": "REQUEST YOUR DESIGN PLAN",
+    "target": "https://www.bromic.com/design-your-space/"
+   },
+   {
+    "label": "MEET YOUR BROMIC REP",
+    "target": "https://www.bromic.com/lp-builders/#form"
+   },
+   {
+    "label": "INSTALLATION MANUALS",
+    "target": "https://www.bromic.com/technical-resources/"
+   },
+   {
+    "label": "CAD & REVIT/BIM FILES",
+    "target": "https://www.bromic.com/revit-bim-files/"
+   },
+   {
+    "label": "TECHNICAL SUPPORT",
+    "target": "https://www.bromic.com/contact-technical-support/"
+   },
+   {
+    "label": "FAQ’s",
+    "target": "https://www.bromic.com/faqs/"
+   },
+   {
+    "label": "Bromic Heating app",
+    "target": "https://www.bromic.com/affinity-smart-heat-app/"
+   }
+  ],
+  "gated": false,
+  "downloads": [
+   "Installation manuals",
+   "CAD & Revit/BIM files"
+  ],
+  "issues": [
+   "No H1 on page (title tag 'Builders Paid Social LP 2.0')",
+   "Form fields not visible",
+   "+1 year warranty: qualifying products not specified; not on /warranty/",
+   "Unsourced performance claims (efficiency, directional heat)",
+   "Empty image placeholders",
+   "Near-duplicate of /builders-lp-a/ (A/B branch)"
+  ],
+  "images": [
+   {
+    "src": "https://pim.bromic.com/wp-content/uploads/2026/10/Bromic-Platinum-Electric-White-Recessed2.png",
+    "alt": null
+   }
+  ],
+  "form": "Register Your Project / Meet your Bromic rep form (#form); fields not visible in fetched content",
+  "offer": "Bromic Partner Program: partner pricing, expert support, +1 year extended warranty on qualifying products, complimentary technical design plan",
   "read_on": "2026-10-29"
  },
  {
@@ -9903,6 +12010,9 @@
   "has_heat_plan_image": false,
   "photographer_credit": null,
   "read_on": "2026-10-29",
+  "also_at": [
+   "https://www.bromic.ca/case-study/albany-zero-emissions-multifamily-building/"
+  ],
   "market": "US"
  },
  {
@@ -9993,6 +12103,9 @@
   "has_heat_plan_image": false,
   "photographer_credit": null,
   "read_on": "2026-10-29",
+  "also_at": [
+   "https://www.bromic.ca/case-study/christophers-at-wrigley-mansion/"
+  ],
   "market": "US"
  },
  {
@@ -10061,7 +12174,8 @@
   "photographer_credit": null,
   "read_on": "2026-10-29",
   "also_at": [
-   "https://www.bromic.com.au/case-study/del-friscos/"
+   "https://www.bromic.com.au/case-study/del-friscos/",
+   "https://www.bromic.ca/case-study/del-friscos-double-eagle-steakhouse/"
   ],
   "market": "US"
  },
@@ -10183,7 +12297,8 @@
   "photographer_credit": "Chris Smith, Istoria Films",
   "read_on": "2026-10-29",
   "also_at": [
-   "https://www.bromic.com.au/case-study/desert-mirage-blurring-the-lines-between-home-and-nature/"
+   "https://www.bromic.com.au/case-study/desert-mirage-blurring-the-lines-between-home-and-nature/",
+   "https://www.bromic.ca/case-study/desert-mirage-blurring-the-lines-between-home-and-nature/"
   ],
   "market": "US"
  },
@@ -10308,7 +12423,8 @@
   "photographer_credit": null,
   "read_on": "2026-10-29",
   "also_at": [
-   "https://www.bromic.com.au/case-study/eclipse-electric-and-tungsten-electric-at-pink-hill-hotel/"
+   "https://www.bromic.com.au/case-study/eclipse-electric-and-tungsten-electric-at-pink-hill-hotel/",
+   "https://www.bromic.ca/case-study/eclipse-electric-and-tungsten-electric-at-pink-hill-hotel/"
   ],
   "market": "AU"
  },
@@ -10419,7 +12535,8 @@
   "photographer_credit": null,
   "read_on": "2026-10-29",
   "also_at": [
-   "https://www.bromic.com.au/case-study/eclipse-freestanding-and-tungsten-electric-at-hyatt-regency-dehradun/"
+   "https://www.bromic.com.au/case-study/eclipse-freestanding-and-tungsten-electric-at-hyatt-regency-dehradun/",
+   "https://www.bromic.ca/case-study/eclipse-freestanding-and-tungsten-electric-at-hyatt-regency-dehradun/"
   ],
   "market": "Other"
  },
@@ -10544,6 +12661,9 @@
   "has_heat_plan_image": true,
   "photographer_credit": null,
   "read_on": "2026-10-29",
+  "also_at": [
+   "https://www.bromic.ca/case-study/eclipse-pendant-and-platinum-electric-at-stellas-wine-bar/"
+  ],
   "market": "US"
  },
  {
@@ -10634,7 +12754,8 @@
   "photographer_credit": "Image Credit: Steve Woodburn",
   "read_on": "2026-10-29",
   "also_at": [
-   "https://www.bromic.com.au/case-study/embracing-earthy-elegance-at-oran-park-hotel/"
+   "https://www.bromic.com.au/case-study/embracing-earthy-elegance-at-oran-park-hotel/",
+   "https://www.bromic.ca/case-study/embracing-earthy-elegance-at-oran-park-hotel/"
   ],
   "market": "AU"
  },
@@ -10757,6 +12878,9 @@
   "has_heat_plan_image": false,
   "photographer_credit": null,
   "read_on": "2026-10-29",
+  "also_at": [
+   "https://www.bromic.ca/case-study/embracing-natures-elegance-ambiente-sedona/"
+  ],
   "market": "US"
  },
  {
@@ -10860,7 +12984,8 @@
   "photographer_credit": null,
   "read_on": "2026-10-29",
   "also_at": [
-   "https://www.bromic.com.au/case-study/enhancing-rooftop-bar-designs-with-cutting-edge-outdoor-heating-solutions/"
+   "https://www.bromic.com.au/case-study/enhancing-rooftop-bar-designs-with-cutting-edge-outdoor-heating-solutions/",
+   "https://www.bromic.ca/case-study/enhancing-rooftop-bar-designs-with-cutting-edge-outdoor-heating-solutions/"
   ],
   "market": "US"
  },
@@ -10961,6 +13086,9 @@
   "has_heat_plan_image": false,
   "photographer_credit": null,
   "read_on": "2026-10-29",
+  "also_at": [
+   "https://www.bromic.ca/case-study/enhancing-work-life-balance-with-year-round-outdoor-comfort-at-the-boardwalk/"
+  ],
   "market": "US"
  },
  {
@@ -11057,7 +13185,8 @@
   "photographer_credit": null,
   "read_on": "2026-10-29",
   "also_at": [
-   "https://www.bromic.com.au/case-study/from-gut-renovation-to-outdoor-bliss-how-bromics-tungsten-heaters-redefined-comfort-for-this-new-jersey-home/"
+   "https://www.bromic.com.au/case-study/from-gut-renovation-to-outdoor-bliss-how-bromics-tungsten-heaters-redefined-comfort-for-this-new-jersey-home/",
+   "https://www.bromic.ca/case-study/from-gut-renovation-to-outdoor-bliss-how-bromics-tungsten-heaters-redefined-comfort-for-this-new-jersey-home/"
   ],
   "market": "US"
  },
@@ -11141,7 +13270,8 @@
   "photographer_credit": null,
   "read_on": "2026-10-29",
   "also_at": [
-   "https://www.bromic.com.au/case-study/hide-restaurant/"
+   "https://www.bromic.com.au/case-study/hide-restaurant/",
+   "https://www.bromic.ca/case-study/hide-restaurant/"
   ],
   "market": "EU/UK"
  },
@@ -11246,6 +13376,9 @@
   "has_heat_plan_image": true,
   "photographer_credit": null,
   "read_on": "2026-10-29",
+  "also_at": [
+   "https://www.bromic.ca/case-study/hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-heat-freestanding-heaters/"
+  ],
   "market": "EU/UK"
  },
  {
@@ -11336,6 +13469,10 @@
   "has_heat_plan_image": false,
   "photographer_credit": null,
   "read_on": "2026-10-29",
+  "also_at": [
+   "https://www.bromic.ca/case-study/kahite-golf-course-pub-grill/",
+   "https://www.bromic.ca/fr-ca/case-study/kahite-golf-course-pub-grill/"
+  ],
   "market": "US"
  },
  {
@@ -11436,6 +13573,9 @@
   "has_heat_plan_image": false,
   "photographer_credit": null,
   "read_on": "2026-10-29",
+  "also_at": [
+   "https://www.bromic.ca/case-study/london-restauranteur-incorporates-full-bromic-line-across-locations/"
+  ],
   "market": "EU/UK"
  },
  {
@@ -11533,6 +13673,9 @@
   "has_heat_plan_image": false,
   "photographer_credit": "Copyright © www.yacht-shot.com Stuart Pearce",
   "read_on": "2026-10-29",
+  "also_at": [
+   "https://www.bromic.ca/case-study/m-y-lady-lene-superyacht/"
+  ],
   "market": null
  },
  {
@@ -11616,7 +13759,9 @@
   "photographer_credit": null,
   "read_on": "2026-10-29",
   "also_at": [
-   "https://www.bromic.com.au/case-study/pecora-bianca/"
+   "https://www.bromic.com.au/case-study/pecora-bianca/",
+   "https://www.bromic.ca/case-study/pecora-bianca/",
+   "https://www.bromic.ca/fr-ca/case-study/pecora-bianca/"
   ],
   "market": "US"
  },
@@ -11718,6 +13863,9 @@
   "has_heat_plan_image": false,
   "photographer_credit": null,
   "read_on": "2026-10-29",
+  "also_at": [
+   "https://www.bromic.ca/case-study/perfecting-the-modern-outdoor-pool-house-with-bromics-eclipse-collection/"
+  ],
   "market": "EU/UK"
  },
  {
@@ -11819,6 +13967,9 @@
   "has_heat_plan_image": false,
   "photographer_credit": null,
   "read_on": "2026-10-29",
+  "also_at": [
+   "https://www.bromic.ca/case-study/platinum-electric-heaters-in-pangbourne/"
+  ],
   "market": "EU/UK"
  },
  {
@@ -11915,6 +14066,9 @@
   "has_heat_plan_image": false,
   "photographer_credit": null,
   "read_on": "2026-10-29",
+  "also_at": [
+   "https://www.bromic.ca/case-study/platinum-electric-heaters-recessed-using-the-low-clearance-recess-kit/"
+  ],
   "market": null
  },
  {
@@ -12017,7 +14171,8 @@
   "photographer_credit": null,
   "read_on": "2026-10-29",
   "also_at": [
-   "https://www.bromic.com.au/case-study/platinum-electric-marine-heaters-aboard-iconic-superyacht-m-y-coral-ocean/"
+   "https://www.bromic.com.au/case-study/platinum-electric-marine-heaters-aboard-iconic-superyacht-m-y-coral-ocean/",
+   "https://www.bromic.ca/case-study/platinum-electric-marine-heaters-aboard-iconic-superyacht-m-y-coral-ocean/"
   ],
   "market": null
  },
@@ -12135,7 +14290,8 @@
   "photographer_credit": "Jack Hardy (per image filenames only)",
   "read_on": "2026-10-29",
   "also_at": [
-   "https://www.bromic.com.au/case-study/platinum-electric-marine-heaters-aboard-ritz-carlton-yacht-collections-evrima/"
+   "https://www.bromic.com.au/case-study/platinum-electric-marine-heaters-aboard-ritz-carlton-yacht-collections-evrima/",
+   "https://www.bromic.ca/case-study/platinum-electric-marine-heaters-aboard-ritz-carlton-yacht-collections-evrima/"
   ],
   "market": "EU/UK"
  },
@@ -12219,6 +14375,9 @@
   "has_heat_plan_image": false,
   "photographer_credit": null,
   "read_on": "2026-10-29",
+  "also_at": [
+   "https://www.bromic.ca/case-study/print-restaurant/"
+  ],
   "market": "US"
  },
  {
@@ -12323,6 +14482,9 @@
   "has_heat_plan_image": false,
   "photographer_credit": null,
   "read_on": "2026-10-29",
+  "also_at": [
+   "https://www.bromic.ca/case-study/private-residence-connecticut/"
+  ],
   "market": "US"
  },
  {
@@ -12396,7 +14558,9 @@
   "photographer_credit": null,
   "read_on": "2026-10-29",
   "also_at": [
-   "https://www.bromic.com.au/case-study/provenance/"
+   "https://www.bromic.com.au/case-study/provenance/",
+   "https://www.bromic.ca/case-study/provenance/",
+   "https://www.bromic.ca/fr-ca/case-study/provenance/"
   ],
   "market": "US"
  },
@@ -12512,6 +14676,9 @@
   "has_heat_plan_image": false,
   "photographer_credit": "© marine interior images (per image filenames)",
   "read_on": "2026-10-29",
+  "also_at": [
+   "https://www.bromic.ca/case-study/smart-heating-aboard-the-most-technologically-advanced-cruiseship-built-to-date/"
+  ],
   "market": "EU/UK"
  },
  {
@@ -12583,6 +14750,9 @@
   "has_heat_plan_image": false,
   "photographer_credit": null,
   "read_on": "2026-10-29",
+  "also_at": [
+   "https://www.bromic.ca/case-study/talon-bar-brooklyn/"
+  ],
   "market": "US"
  },
  {
@@ -12646,7 +14816,8 @@
   "photographer_credit": null,
   "read_on": "2026-10-29",
   "also_at": [
-   "https://www.bromic.com.au/case-study/the-calile-hotel/"
+   "https://www.bromic.com.au/case-study/the-calile-hotel/",
+   "https://www.bromic.ca/case-study/the-calile-hotel/"
   ],
   "market": "AU"
  },
@@ -12731,6 +14902,9 @@
   "has_heat_plan_image": false,
   "photographer_credit": null,
   "read_on": "2026-10-29",
+  "also_at": [
+   "https://www.bromic.ca/case-study/the-modern-heating-solution-for-vintage-upscale-dining/"
+  ],
   "market": "US"
  },
  {
@@ -12840,6 +15014,9 @@
   "has_heat_plan_image": false,
   "photographer_credit": null,
   "read_on": "2026-10-29",
+  "also_at": [
+   "https://www.bromic.ca/case-study/the-sheraton-carlsbad-resort-spa/"
+  ],
   "market": "US"
  },
  {
@@ -12920,6 +15097,9 @@
   "has_heat_plan_image": false,
   "photographer_credit": null,
   "read_on": "2026-10-29",
+  "also_at": [
+   "https://www.bromic.ca/case-study/the-w-hotel/"
+  ],
   "market": "US"
  },
  {
@@ -12977,6 +15157,10 @@
   "has_heat_plan_image": false,
   "photographer_credit": null,
   "read_on": "2026-10-29",
+  "also_at": [
+   "https://www.bromic.ca/case-study/tonys-di-napoli/",
+   "https://www.bromic.ca/fr-ca/case-study/tonys-di-napoli/"
+  ],
   "market": "US"
  },
  {
@@ -13071,6 +15255,9 @@
   "has_heat_plan_image": false,
   "photographer_credit": null,
   "read_on": "2026-10-29",
+  "also_at": [
+   "https://www.bromic.ca/case-study/tungsten-electric-heaters-at-clinica-las-condes/"
+  ],
   "market": "Other"
  },
  {
@@ -13192,6 +15379,9 @@
   "has_heat_plan_image": false,
   "photographer_credit": null,
   "read_on": "2026-10-29",
+  "also_at": [
+   "https://www.bromic.ca/case-study/welcoming-guests-with-the-warmth-of-mexican-hospitality/"
+  ],
   "market": "US"
  },
  {
@@ -18983,6 +21173,595 @@
   "read_on": "2026-10-29"
  },
  {
+  "url": "https://www.bromic.com/podcast/mastering-outdoor-design/",
+  "kind": "podcast",
+  "title": "Mastering Outdoor Space Design",
+  "summary": "Podcast episode (S2E1): architect Frank Cavanaugh of Aria Group on what shapes outdoor space design — local rules, health-department requirements, structure, climate adaptation and ambiance.",
+  "headings": [
+   "Never Miss an Episode!",
+   "The Art and Science of Outdoor Space Design",
+   "Image Gallery"
+  ],
+  "question_answered": "What do architects need to consider when designing outdoor spaces?",
+  "audience": [
+   "ARC",
+   "COM"
+  ],
+  "stage": [
+   "AW"
+  ],
+  "products": [],
+  "controls_mentioned": false,
+  "stats": [],
+  "product_facts": [],
+  "people_quoted": [
+   {
+    "name": "Frank Cavanaugh",
+    "role_org": "Principal, Aria Group Architects"
+   },
+   {
+    "name": "Evan Troxell",
+    "role_org": "Host, Designing Outdoor Spaces podcast"
+   }
+  ],
+  "cta": [
+   {
+    "label": "SUBSCRIBE",
+    "target": "https://www.bromic.com/podcast/mastering-outdoor-design/#subscribe"
+   },
+   {
+    "label": "Listen on YouTube Music",
+    "target": "https://music.youtube.com/watch?v=UJNyguothNU&si=eShDa8prNINMgZWr"
+   },
+   {
+    "label": "Listen on Spotify",
+    "target": "https://open.spotify.com/episode/2SLfENjPHjeu6kMe8NF4v0?si=zLWpg2f9T2mDqkRIWCCo9w"
+   },
+   {
+    "label": "Listen on Apple Podcasts",
+    "target": "https://podcasts.apple.com/us/podcast/358-au-mastering-outdoor-space-design-with-frank-cavanaugh/id599491778?i=1000684681673"
+   },
+   {
+    "label": "Listen on Overcast",
+    "target": "https://overcast.fm/login"
+   },
+   {
+    "label": "LEARN MORE",
+    "target": "https://www.bromic.com/blog/the-art-and-science-of-outdoor-space-design/"
+   }
+  ],
+  "gated": false,
+  "downloads": [
+   "Video transcript"
+  ],
+  "issues": [
+   "Image Gallery empty",
+   "Newsletter prompt has no link",
+   "Overcast link points to a login page",
+   "Title tag missing space before 'Official Bromic Heating'",
+   "Host surname spelled 'Troxell' here vs 'Troxel' on podcast hub"
+  ],
+  "images": [
+   {
+    "src": "https://pim.bromic.com/wp-content/uploads/2025/02/Podcast-S2Ep1-Thumbnail-Image-1600x1210.png",
+    "alt": null
+   }
+  ],
+  "episode_number": "S2 E1",
+  "episode_date": "2025-02-04",
+  "transcript": true,
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://www.bromic.com/podcast/multi-residential-outdoor-spaces/",
+  "kind": "podcast",
+  "title": "Multi-Family Outdoor Spaces",
+  "summary": "Podcast episode (S1E3) with Sara Schneider of TCA Architects on multi-family and mixed-use outdoor amenity spaces: challenges and emerging trends.",
+  "headings": [
+   "Never Miss an Episode!",
+   "Multi-Family & Mixed-Use Outdoor Designs",
+   "Image Gallery"
+  ],
+  "question_answered": null,
+  "audience": [
+   "ARC",
+   "COM"
+  ],
+  "stage": [
+   "AW"
+  ],
+  "products": [],
+  "controls_mentioned": false,
+  "stats": [],
+  "product_facts": [],
+  "people_quoted": [
+   {
+    "name": "Sara Schneider",
+    "role_org": "TCA Architects"
+   }
+  ],
+  "cta": [
+   {
+    "label": "SUBSCRIBE",
+    "target": "https://www.bromic.com/podcast/multi-residential-outdoor-spaces/#subscribe"
+   },
+   {
+    "label": "LEARN MORE",
+    "target": "https://www.bromic.com/blog/exploring-multi-family-and-mixed-use-outdoor-spaces-with-sara-schneider-of-tca-architects/"
+   }
+  ],
+  "gated": false,
+  "downloads": [
+   "Video transcript"
+  ],
+  "issues": [
+   "H1 'Multi-Family Outdoor Spaces' differs from title tag 'Outdoor Design Trends In Multi-Residential Applications'",
+   "Title missing space ('Applications| Official')",
+   "Image Gallery empty",
+   "No visible date",
+   "Overcast link points to a login page",
+   "'multi-residential' vs 'multi-family' used inconsistently"
+  ],
+  "images": [
+   {
+    "src": "https://pim.bromic.com/wp-content/uploads/2024/03/Podcast-Episode-3-Thumbnail-Image-01.png",
+    "alt": null
+   }
+  ],
+  "episode_number": "S1 E3",
+  "episode_date": "2024-03-12",
+  "transcript": true,
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://www.bromic.com/podcast/outdoor-design-trends-on-cruise-ships/",
+  "kind": "podcast",
+  "title": "Outdoor Design Trends on Cruise Ships",
+  "summary": "Podcast episode (S2E2): Helena Sawelin of Tillberg Design on outdoor spaces aboard cruise ships and yachts — dynamic environments, guest experience at sea, beauty versus performance in limited space.",
+  "headings": [
+   "Never Miss an Episode!",
+   "Design Without Borders: Outdoor Spaces That Travel the World",
+   "Image Gallery"
+  ],
+  "question_answered": null,
+  "audience": [
+   "ARC",
+   "COM"
+  ],
+  "stage": [
+   "AW"
+  ],
+  "products": [],
+  "controls_mentioned": false,
+  "stats": [],
+  "product_facts": [],
+  "people_quoted": [
+   {
+    "name": "Helena Sawelin",
+    "role_org": "Partner and Design Director, Tillberg Design"
+   }
+  ],
+  "cta": [
+   {
+    "label": "SUBSCRIBE",
+    "target": "https://www.bromic.com/podcast/outdoor-design-trends-on-cruise-ships/#subscribe"
+   },
+   {
+    "label": "LEARN MORE",
+    "target": "https://www.bromic.com/blog/design-without-borders-outdoor-spaces"
+   }
+  ],
+  "gated": false,
+  "downloads": [
+   "Video transcript"
+  ],
+  "issues": [
+   "Podcast hub lists this episode under the title 'Mastering Outdoor Space Designs' (duplicate of S2E1 title)",
+   "Numbering mismatch: S2 E2 vs transcript Archispeak-363 vs show notes 364",
+   "Blog teaser names Frank Cavanaugh, who is not a guest on this episode",
+   "Image Gallery empty",
+   "Overcast link points to a login page",
+   "No Platinum Electric Marine tie-in although marine is a Bromic application"
+  ],
+  "images": [
+   {
+    "src": "https://pim.bromic.com/wp-content/uploads/2025/04/Season-2-Episode-2-Thumbnail-1600x1028.png",
+    "alt": null
+   }
+  ],
+  "episode_number": "S2 E2",
+  "episode_date": "2025-04-19",
+  "transcript": true,
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://www.bromic.com/podcast/outdoor-product-design/",
+  "kind": "podcast",
+  "title": "Product Design Innovation for Outdoor Spaces",
+  "summary": "Podcast episode (S1E6): Bromic CEO Scott Smith and StruXure CEO Scott Selzer on the product gaps behind new outdoor living offerings for residential and commercial markets, and what comes next.",
+  "headings": [
+   "Never Miss an Episode!",
+   "Innovative Outdoor Product Designs",
+   "Image Gallery"
+  ],
+  "question_answered": null,
+  "audience": [
+   "ARC",
+   "BLD",
+   "COM"
+  ],
+  "stage": [
+   "AW"
+  ],
+  "products": [],
+  "controls_mentioned": false,
+  "stats": [],
+  "product_facts": [],
+  "people_quoted": [
+   {
+    "name": "Scott Smith",
+    "role_org": "CEO, Bromic Heating"
+   },
+   {
+    "name": "Scott Selzer",
+    "role_org": "CEO, StruXure"
+   }
+  ],
+  "cta": [
+   {
+    "label": "SUBSCRIBE",
+    "target": "https://www.bromic.com/podcast/outdoor-product-design/#subscribe"
+   },
+   {
+    "label": "Listen on YouTube Music",
+    "target": "https://music.youtube.com/watch?v=sTllbeHnm_A&si=gIXeuqbfCSyZVzRR"
+   },
+   {
+    "label": "Listen on Spotify",
+    "target": "https://open.spotify.com/episode/1KzvHtKTtxRKxb975salYc?si=eea497a4dbba46f2"
+   },
+   {
+    "label": "Listen on Apple Podcasts",
+    "target": "https://podcasts.apple.com/us/podcast/339-au-outdoor-design-innovation-with-struxure-and/id599491778?i=1000657657597&app=podcast"
+   },
+   {
+    "label": "Listen on Overcast",
+    "target": "https://overcast.fm/login"
+   },
+   {
+    "label": "LEARN MORE",
+    "target": "https://www.bromic.com/blog/outdoor-design-innovation-adapting-to-consumer-needs/"
+   }
+  ],
+  "gated": false,
+  "downloads": [
+   "Video transcript"
+  ],
+  "issues": [
+   "Title tag missing space ('Innovations| Official') and differs from H1",
+   "Image Gallery empty",
+   "Overcast link points to a login page",
+   "Hosts not named",
+   "Numbering: S1 E6 vs Archispeak 339",
+   "Podcast hub calls this episode 'Product Design Innovation' — consistent, but no date visible"
+  ],
+  "images": [
+   {
+    "src": "https://pim.bromic.com/wp-content/uploads/2024/06/Podcast-Episode-06-Thumbnail-Image-1600x1219.jpg",
+    "alt": null
+   }
+  ],
+  "episode_number": "S1 E6",
+  "episode_date": "2024-06-24",
+  "transcript": true,
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://www.bromic.com/podcast/residential-outdoor-spaces/",
+  "kind": "podcast",
+  "title": "Residential Outdoor Spaces",
+  "summary": "Podcast episode (S1E2) with Danny Wang of DW Design & Build on how single-family outdoor spaces became functional living areas after the pandemic, indoor-outdoor design and year-round use.",
+  "headings": [
+   "Single-Family Residential Outdoor Spaces",
+   "Never Miss an Episode!",
+   "Image Gallery"
+  ],
+  "question_answered": null,
+  "audience": [
+   "RES",
+   "ARC",
+   "BLD"
+  ],
+  "stage": [
+   "AW"
+  ],
+  "products": [],
+  "controls_mentioned": false,
+  "stats": [],
+  "product_facts": [],
+  "people_quoted": [
+   {
+    "name": "Danny Wang",
+    "role_org": "DW Design & Build"
+   }
+  ],
+  "cta": [
+   {
+    "label": "SUBSCRIBE",
+    "target": "https://www.bromic.com/podcast/residential-outdoor-spaces/#subscribe"
+   },
+   {
+    "label": "LEARN MORE",
+    "target": "https://www.bromic.com/blog/exploring-residential-outdoor-spaces-with-danny-wang/"
+   },
+   {
+    "label": "Archispeak",
+    "target": "https://www.archispeakpodcast.com/"
+   }
+  ],
+  "gated": false,
+  "downloads": [
+   "Video transcript"
+  ],
+  "issues": [
+   "Hosts not named",
+   "Numbering mismatch: S1 E2 vs Archispeak episode 321",
+   "Image Gallery empty",
+   "Title missing space ('Spaces| Official')",
+   "Subscribe block has no form or link"
+  ],
+  "images": [
+   {
+    "src": "https://pim.bromic.com/wp-content/uploads/2023/12/Podcast-Episode2-Thumbnail-Image-V2-1600x1212.jpg",
+    "alt": null
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/sites/2/2024/01/EP2-Podcast-Episode-Page-Thumbnail-Image.png",
+    "alt": null
+   }
+  ],
+  "episode_number": "S1 E2",
+  "episode_date": "2024-01-17",
+  "transcript": true,
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://www.bromic.com/podcast/sustainable-outdoor-spaces/",
+  "kind": "podcast",
+  "title": "Sustainable Outdoor Designs with Thomas Ventura of Gensler",
+  "summary": "Podcast episode (S1E5) with Gensler's Thomas Ventura on sustainable outdoor design: energy myths, client buy-in, efficient heating and furniture products, and future trends.",
+  "headings": [
+   "Never Miss an Episode!",
+   "Sustainable Outdoor Designs",
+   "Image Gallery"
+  ],
+  "question_answered": null,
+  "audience": [
+   "ARC",
+   "COM"
+  ],
+  "stage": [
+   "AW"
+  ],
+  "products": [],
+  "controls_mentioned": false,
+  "stats": [
+   {
+    "claim": "carbon neutrality in all projects by 2030",
+    "source_named": "Gensler (as stated in episode notes)"
+   }
+  ],
+  "product_facts": [],
+  "people_quoted": [
+   {
+    "name": "Thomas Ventura",
+    "role_org": "Associate Design Director, Gensler"
+   }
+  ],
+  "cta": [
+   {
+    "label": "SUBSCRIBE",
+    "target": "https://www.bromic.com/podcast/sustainable-outdoor-spaces/#subscribe"
+   },
+   {
+    "label": "LEARN MORE",
+    "target": "https://www.bromic.com/blog/outdoor-design-trends-a-focus-on-sustainability/"
+   },
+   {
+    "label": "Listen on Spotify",
+    "target": "https://open.spotify.com/episode/1LMQkQw5bh2brvStMdCHWZ?si=085937eead66425f"
+   },
+   {
+    "label": "Listen on Apple Podcasts",
+    "target": "https://podcasts.apple.com/us/podcast/336-au-embracing-sustainability/id599491778?i=1000654663563&app=podcast"
+   },
+   {
+    "label": "Listen on YouTube Music",
+    "target": "https://music.youtube.com/watch?v=0M6Kw4F_BZI&si=XXbMke5TtkVFkmH4"
+   },
+   {
+    "label": "Listen on Overcast",
+    "target": "https://overcast.fm/login"
+   }
+  ],
+  "gated": false,
+  "downloads": [
+   "Video transcript"
+  ],
+  "issues": [
+   "Image Gallery empty",
+   "Numbering mismatch: S1 E5 vs Archispeak 336 vs transcript filename 332",
+   "Title missing space ('Trends| Official')",
+   "Image alt typo 'Pavillion'",
+   "Schema uses staging domain us.bromic-prod.454.agency",
+   "Hosts not named"
+  ],
+  "images": [
+   {
+    "src": "https://pim.bromic.com/wp-content/uploads/2024/05/Podcast-Episode-5-Thumbnail-Image-02.png",
+    "alt": null
+   }
+  ],
+  "episode_number": "S1 E5",
+  "episode_date": "2024-05-10",
+  "transcript": true,
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://www.bromic.com/podcast/the-future-of-home-automation/",
+  "kind": "podcast",
+  "title": "The Future of Home Automation",
+  "summary": "Podcast episode (S2E3): Snap One's Jeff Thomas and Bromic's Michael Smith on smart-home technology for indoor-outdoor living — early integration in design and construction, wired versus wireless, integrator–designer collaboration.",
+  "headings": [
+   "Never Miss an Episode!",
+   "Designing Seamless Indoor-Outdoor Experiences Through Automation"
+  ],
+  "question_answered": "How should home automation be planned into outdoor spaces?",
+  "audience": [
+   "ARC",
+   "BLD",
+   "RES"
+  ],
+  "stage": [
+   "AW"
+  ],
+  "products": [],
+  "controls_mentioned": true,
+  "stats": [],
+  "product_facts": [],
+  "people_quoted": [
+   {
+    "name": "Jeff Thomas",
+    "role_org": "Senior Director of Product Management, Snap One"
+   },
+   {
+    "name": "Michael Smith",
+    "role_org": "Global VP, Bromic Heating"
+   }
+  ],
+  "cta": [
+   {
+    "label": "SUBSCRIBE",
+    "target": "https://www.bromic.com/podcast/the-future-of-home-automation/#subscribe"
+   },
+   {
+    "label": "LEARN MORE",
+    "target": "https://www.bromic.com/blog/transforming-outdoor-spaces-with-smart-technology"
+   },
+   {
+    "label": "Listen on Spotify",
+    "target": "https://open.spotify.com/episode/4eOsUAUPBJS99LPSKxqYtZ?si=MaBXw_LEQaW1-w8UyU13zQ"
+   },
+   {
+    "label": "Listen on Apple Podcasts",
+    "target": "https://pod.link/archispeak/episode/b30d1df7f5605664f55c9f4ae8ebe7f7"
+   },
+   {
+    "label": "Listen on YouTube Music",
+    "target": "https://music.youtube.com/watch?v=coCDCbnn68k&si=wX60lmWTD4NA4miY"
+   },
+   {
+    "label": "Listen on Overcast",
+    "target": "https://overcast.fm/login"
+   }
+  ],
+  "gated": false,
+  "downloads": [
+   "Video transcript"
+  ],
+  "issues": [
+   "Episode page does not link to Affinity controls or /smart-controls/ despite the topic",
+   "Title tag missing space before pipe",
+   "No visible date",
+   "Subscribe anchor has no matching section",
+   "Overcast link points to a login page",
+   "Blog description refers to Control4 while episode features Snap One (relationship not explained)",
+   "Schema uses staging domain us.bromic-prod.454.agency"
+  ],
+  "images": [
+   {
+    "src": "https://pim.bromic.com/wp-content/uploads/2025/06/Season-2-Episode-3-Thumbnail.png",
+    "alt": null
+   }
+  ],
+  "episode_number": "S2 E3",
+  "episode_date": "2025-06-20",
+  "transcript": true,
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://www.bromic.com/podcast/workplace-outdoor-spaces/",
+  "kind": "podcast",
+  "title": "Outdoor Designs in the Workplace with Primo Orpilla of Studio O+A",
+  "summary": "Podcast episode (S1E4) with Primo Orpilla of Studio O+A on outdoor space as part of workplace design — sustainability, wellness, engagement and productivity.",
+  "headings": [
+   "Never Miss an Episode!",
+   "Outdoor Designs in the Workplace",
+   "Image Gallery"
+  ],
+  "question_answered": null,
+  "audience": [
+   "ARC",
+   "COM"
+  ],
+  "stage": [
+   "AW"
+  ],
+  "products": [],
+  "controls_mentioned": false,
+  "stats": [],
+  "product_facts": [],
+  "people_quoted": [
+   {
+    "name": "Primo Orpilla",
+    "role_org": "Studio O+A"
+   }
+  ],
+  "cta": [
+   {
+    "label": "LEARN MORE",
+    "target": "https://www.bromic.com/blog/the-evolution-of-workplace-designs-and-outdoor-settings/"
+   },
+   {
+    "label": "Listen on Spotify",
+    "target": "https://open.spotify.com/episode/1M09FrAobCTZZWzRZulugj?si=okfR2BodR0OfQzgJsANTxQ"
+   },
+   {
+    "label": "Listen on Apple Podcasts",
+    "target": "https://podcasts.apple.com/us/podcast/333-au-evolving-workplace-design/id599491778?i=1000651764282"
+   },
+   {
+    "label": "Listen on YouTube Music",
+    "target": "https://music.youtube.com/watch?v=jLJ2jWpvSww&si=zO93areQYHlU7dVc"
+   },
+   {
+    "label": "Listen on Overcast",
+    "target": "https://overcast.fm/login"
+   }
+  ],
+  "gated": false,
+  "downloads": [
+   "Video transcript"
+  ],
+  "issues": [
+   "Image Gallery empty",
+   "Subscribe section has no form",
+   "Host not named",
+   "No visible date",
+   "Overcast link points to a login page"
+  ],
+  "images": [
+   {
+    "src": "https://pim.bromic.com/wp-content/uploads/2024/04/Podcast-Episode-4-Thumbnail-Image-1600x1220.jpg",
+    "alt": null
+   }
+  ],
+  "episode_number": "S1 E4",
+  "episode_date": "2024-04-08",
+  "transcript": true,
+  "read_on": "2026-10-29"
+ },
+ {
   "url": "https://venue.net.au/?p=2932/",
   "kind": "press",
   "market": "AU",
@@ -19053,6 +21832,34 @@
   "read_on": "2026-10-29"
  },
  {
+  "url": "https://www.bromic.ca/residential/",
+  "kind": "press",
+  "market": "CA",
+  "title": "Residential - Bromic Heating Canada (search title)",
+  "summary": "CA residential page. Only Canadian reference is a homeowner testimonial attributed to 'Lindsay-Anne Dow', 'Homeowner – Canada' (no city or project). Other testimonials: Pangbourne UK, Freimersheim Germany, Marmion display home (Dorrington Homes).",
+  "read": "direct",
+  "issues": [],
+  "audience": [],
+  "stage": [],
+  "images": [],
+  "read_on": "2026-10-29",
+  "location": "Canada"
+ },
+ {
+  "url": "https://www.bromic.ca/restaurants/",
+  "kind": "press",
+  "market": "CA",
+  "title": "Bromic Outdoor Heaters for Restaurants (search title)",
+  "summary": "CA restaurants page. Named projects are Hive & Honey (Irvine CA), Rare Society (San Clemente CA), Hyatt Regency Dehradun, Stella's Wine Bar (Houston). No Canadian venue named.",
+  "read": "direct",
+  "issues": [],
+  "audience": [],
+  "stage": [],
+  "images": [],
+  "read_on": "2026-10-29",
+  "location": "Canada"
+ },
+ {
   "url": "https://www.bromic.com.au/blog/elevating-outdoor-living-with-design-forward-heating/",
   "kind": "press",
   "market": "AU",
@@ -19097,6 +21904,114 @@
    "IN"
   ],
   "images": [],
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://www.bromic.com/gallery/",
+  "kind": "gallery",
+  "title": "Gallery",
+  "summary": "Filterable photo gallery of Bromic installations on decks, patios and hospitality venues, by collection, install type, fuel type, application and colour.",
+  "headings": [],
+  "question_answered": null,
+  "audience": [
+   "RES",
+   "ARC",
+   "COM"
+  ],
+  "stage": [
+   "AW",
+   "CO"
+  ],
+  "products": [
+   "Tungsten Electric",
+   "Eclipse Electric",
+   "Eclipse Freestanding/Portable",
+   "Platinum Electric"
+  ],
+  "controls_mentioned": false,
+  "stats": [],
+  "product_facts": [],
+  "people_quoted": [],
+  "cta": [],
+  "gated": false,
+  "downloads": [],
+  "issues": [
+   "AI-edited image in gallery: letzai-edit-22de2b83-…jpg captioned 'Tungsten Electric Eclipse Freestanding – Hyatt Dehradun' — verify it shows the product as installed",
+   "Caption mismatch: 'Showroom-Livium Roof Structure' on meeting.jpg",
+   "'Private:' prefix and underscore in captions ('Private: Showroom-Livium Roof Structure', 'Eclipse Portable_NL')",
+   "Several thumbnails have empty src",
+   "Filter options not visible in fetched content",
+   "Richest single source of real installation photos for the image library"
+  ],
+  "images": [
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2026/01/GNo-2-1024x687.jpg",
+    "alt": "Tungsten Electric Outdoor Heater"
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2025/09/Showroom-Livium-Roof-Structure-1024x683.jpg",
+    "alt": "Private: Showroom-Livium Roof Structure"
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2025/09/meeting-1024x765.jpg",
+    "alt": "Showroom-Livium Roof Structure"
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2025/08/Bromic-Scottsdale-AFT-Bracketed-9-1024x683.jpg",
+    "alt": "Eclipse Electric Outdoor Heater at Scottsdale AFT – Bracketed-9"
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2025/08/Outdoor-Electric-Heaters-Scottsdale-1024x687.jpeg",
+    "alt": "Outdoor Electric Heaters Scottsdale AFT – Bracketed-6"
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2025/08/eclispe-freestanding-765x1024.jpg",
+    "alt": "Eclipse Portable_NL"
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2025/08/Eclipse-Electric-Outdoor-1024x687.png",
+    "alt": "Eclipse Electric Outdoor Heater at the Scottsdale AFT – Bracket-2"
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2025/08/tungsten-outdoor-1024x687.jpg",
+    "alt": "Tungsten Electric Outdoor Heater at Scottsdale AFT – Bracket-5"
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2025/06/eclispe-1024x687.jpg",
+    "alt": "Eclipse Electric Outdoor Heater at the Oran Hotel"
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2025/06/Dorrington-Homes-Platinum-Electric-1-1600x1066.jpg",
+    "alt": "Dorrington Homes Platinum Electric 1"
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2025/06/Dorrington-Homes-Platinum-Electric-3-1600x1066.jpg",
+    "alt": "Dorrington Homes Platinum Electric 3"
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2025/06/Dorrington-Homes-Platinum-Electric-2-1600x1066.jpg",
+    "alt": "Dorrington Homes Platinum Electric 2"
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2025/05/hotel-lounge.png",
+    "alt": "Tungsten Electric – Hyatt"
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2025/05/letzai-edit-22de2b83-5aa9-456a-856c-b8c67b911181.jpg",
+    "alt": "Tungsten Electric Eclipse Freestanding – Hyatt Dehradun"
+   },
+   {
+    "src": "https://www.bromic.com/wp-content/uploads/2024/03/BromicEclipseHeater-.png",
+    "alt": "Eclipse Freestanding Residential Home"
+   }
+  ],
+  "filters": [
+   "Collection",
+   "Install Type",
+   "Fuel Type",
+   "Application",
+   "Color"
+  ],
   "read_on": "2026-10-29"
  },
  {

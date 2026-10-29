@@ -16,7 +16,7 @@ import { dirname, join, resolve, basename } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
-export const TOOLS = ['A03-sizing', 'A20-tco', 'A21-roi'];
+export const TOOLS = ['A03-sizing', 'A20-tco', 'A21-roi', 'CS-capture'];
 const check = process.argv.includes('--check');
 
 // Every object with a `value` is an assumption and must be fully described.
@@ -33,7 +33,7 @@ export function validateAssumptions(node, path = '', out = []) {
   return out;
 }
 
-const NAMES = { 'logic.js': 'Logic', 'lead.js': 'Lead' };
+const NAMES = { 'logic.js': 'Logic', 'lead.js': 'Lead', 'case-study-taxonomy.json': 'TAX' };
 
 function inlineJs(code, file) {
   const names = [...code.matchAll(/^export\s+(?:async\s+)?(?:function\*?|const|let|class)\s+([A-Za-z_$][\w$]*)/gm)].map((m) => m[1]);
@@ -46,12 +46,13 @@ function inlineJs(code, file) {
 function build(tool) {
   const dir = join(ROOT, tool);
   const cfgPath = join(dir, 'config.json');
-  const cfg = JSON.parse(readFileSync(cfgPath, 'utf8'));
+  const hasCfg = existsSync(cfgPath);  // a tool without assumptions (CS-capture) has no config.json
+  const cfg = hasCfg ? JSON.parse(readFileSync(cfgPath, 'utf8')) : {};
   const problems = validateAssumptions(cfg).map((p) => `${tool}/config.json ${p}`);
   const json = JSON.stringify(cfg, null, 2);
 
   const configJs = `// Generated from config.json by tools/build-config.mjs — edit config.json, not this file.\nexport default ${json};\n`;
-  const outputs = [[join(dir, 'config.js'), configJs]];
+  const outputs = hasCfg ? [[join(dir, 'config.js'), configJs]] : [];
 
   const htmlPath = join(dir, 'index.html');
   if (existsSync(htmlPath)) {
@@ -64,6 +65,7 @@ function build(tool) {
       let text;
       if (rel === 'config.json') text = `const CONFIG = ${json};`;
       else if (rel.endsWith('.js')) text = inlineJs(readFileSync(src, 'utf8'), rel);
+      else if (rel.endsWith('.json')) text = `const ${NAMES[basename(rel)] || basename(rel, '.json').replace(/\W/g, '_')} = ${JSON.stringify(JSON.parse(readFileSync(src, 'utf8')))};`;
       else text = readFileSync(src, 'utf8').trimEnd();
       if (/<\/(script|style)/i.test(text)) problems.push(`${tool}: ${rel} contains a closing script/style tag`);
       return `/* @inline:begin ${rel} */\n${text}\n/* @inline:end ${rel} */`;
@@ -84,7 +86,7 @@ function build(tool) {
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   let failed = false;
   for (const t of TOOLS) {
-    if (!existsSync(join(ROOT, t, 'config.json'))) { console.error(`${t}: no config.json`); failed = true; continue; }
+    if (!existsSync(join(ROOT, t, 'index.html'))) { console.error(`${t}: no index.html`); failed = true; continue; }
     const { problems, stale } = build(t);
     for (const p of problems) console.error('  ✗ ' + p);
     for (const s of stale) console.error('  ✗ stale: ' + s + ' (run node tools/build-config.mjs)');

@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Case-study capture | Bromic Heating</title>
+<meta name="description" content="For Bromic sales and marketing: capture a project on site — the property, the people, the products and controls, the results, the photos — and track every approval before a case study is written.">
+<style>
+/* @inline:begin ../_shared/brand.css */
+/* Bromic tool styling — shared by A03, A20, A21. Inlined into each index.html by tools/build-config.mjs.
+   Flame is the only accent. Georgia headings, Helvetica/Arial body. Works from 320px up. */
+:root {
+  --paper: #F4F1EC;
+  --ink: #231F20;
+  --flame: #EF4123;
+  --flame-ink: #231F20;          /* small text stays ink: flame on paper is under 4.5:1, so flame marks borders and rules only */
+  --steel: #71777D;
+  --steel-ink: #575C61;          /* steel darkened for small text on paper */
+  --mist: #DDE0E2;
+  --white: #FFFFFF;
+  --serif: Georgia, "Times New Roman", serif;
+  --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 16px/1.5 var(--sans);
+}
+.page { max-width: 880px; margin: 0 auto; padding: 32px 20px 48px; }
+body.embed .page { max-width: none; padding: 0; }
+body.embed .masthead, body.embed .foot { display: none; }
+
+h1, h2, h3 { font-family: var(--serif); font-weight: normal; line-height: 1.2; margin: 0 0 .5em; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.4rem; margin-top: 1.2em; }
+h3 { font-size: 1.1rem; margin-top: 1em; }
+p { margin: 0 0 1em; }
+a { color: var(--ink); text-decoration-color: var(--flame); text-underline-offset: 3px; }
+
+.label, label.k, legend.k, .eyebrow, th {
+  font-family: var(--sans); font-size: .72rem; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--steel-ink); font-weight: 600;
+}
+.eyebrow { color: var(--ink); margin: 0 0 .5em; display: block; border-left: 3px solid var(--flame); padding-left: 8px; }
+.masthead { border-bottom: 1px solid var(--mist); margin-bottom: 24px; padding-bottom: 16px; }
+.masthead .lede { color: var(--steel-ink); max-width: 60ch; }
+
+.card { background: var(--white); border: 1px solid var(--mist); padding: 20px; margin: 0 0 20px; }
+.grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+.field { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.field .hint { font-size: .85rem; color: var(--steel-ink); }
+fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
+legend { padding: 0; margin-bottom: 6px; }
+input[type=text], input[type=email], input[type=number], select {
+  font: inherit; color: var(--ink); background: var(--white); width: 100%;
+  border: 1px solid var(--steel); border-radius: 0; padding: 10px 12px; min-height: 44px;
+}
+.choices { display: flex; flex-wrap: wrap; gap: 8px; }
+.choices label {
+  display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--steel);
+  background: var(--white); padding: 8px 12px; min-height: 44px; cursor: pointer;
+}
+.choices input { accent-color: var(--flame); margin: 0; }
+.choices label:has(input:checked) { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
+:focus-visible { outline: 3px solid var(--flame); outline-offset: 2px; }
+input:focus-visible, select:focus-visible { outline-offset: 0; }
+
+.btn {
+  font: 600 .8rem/1 var(--sans); letter-spacing: .12em; text-transform: uppercase; cursor: pointer;
+  border: 1px solid var(--ink); background: var(--ink); color: var(--white); padding: 14px 20px; min-height: 44px;
+}
+.btn.primary { background: var(--flame); border-color: var(--flame); color: var(--ink); }
+.btn.ghost { background: transparent; color: var(--ink); }
+.btn:hover { filter: brightness(1.08); }
+
+.teaser { border-top: 4px solid var(--flame); }
+.headline { font-family: var(--serif); font-size: clamp(2.2rem, 9vw, 3.4rem); line-height: 1; margin: .1em 0 .2em; }
+.sub { color: var(--steel-ink); }
+.note { font-size: .88rem; color: var(--steel-ink); }
+.warn { border-left: 4px solid var(--flame); padding: 8px 12px; background: var(--paper); margin: 0 0 12px; }
+.verify { font-size: .8rem; color: var(--ink); border-left: 3px solid var(--flame); padding-left: 6px; }
+.placeholder-tag {
+  font-size: .65rem; letter-spacing: .12em; text-transform: uppercase; color: var(--flame-ink);
+  border: 1px solid var(--flame); padding: 1px 6px; margin-left: 6px; vertical-align: middle;
+}
+
+table { width: 100%; border-collapse: collapse; margin: 0 0 16px; font-size: .92rem; }
+th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--mist); vertical-align: top; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+.table-wrap { overflow-x: auto; }
+.formula { font-family: "Courier New", monospace; font-size: .85rem; background: var(--paper); padding: 10px 12px; white-space: pre-wrap; word-break: break-word; }
+.controls-list li { margin-bottom: 4px; }
+.chart svg { width: 100%; height: auto; display: block; }
+
+.gate h2 { margin-top: 0; }
+.gate .errors { color: var(--flame-ink); font-size: .9rem; }
+.field.invalid input, .field.invalid select { border-color: var(--flame); box-shadow: inset 0 0 0 1px var(--flame); }
+.field .err { color: var(--flame-ink); font-size: .82rem; min-height: 0; }
+.hidden, [hidden] { display: none !important; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 16px; }
+.foot { margin-top: 32px; border-top: 1px solid var(--mist); padding-top: 16px; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+@media (max-width: 480px) {
+  .page { padding: 20px 14px 32px; }
+  h1 { font-size: 1.6rem; }
+  .card { padding: 16px; }
+  .grid { grid-template-columns: 1fr; }
+  th, td { padding: 6px 4px; }
+}
+@media print {
+  body { background: #fff; }
+  .gate, .actions, .inputs { display: none !important; }
+}
+/* @inline:end ../_shared/brand.css */
+.status { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: center; position: sticky; top: 0; z-index: 2; background: var(--paper); padding: 12px 0; border-bottom: 1px solid var(--mist); margin-bottom: 20px; }
+.status b { font-family: var(--serif); font-size: 1.3rem; font-weight: normal; }
+.bar { flex: 1 1 160px; height: 6px; background: var(--mist); min-width: 120px; }
+.bar i { display: block; height: 100%; background: var(--flame); }
+.todo { font-size: .85rem; color: var(--steel-ink); flex-basis: 100%; margin: 0; }
+details.sec { background: var(--white); border: 1px solid var(--mist); margin: 0 0 12px; }
+details.sec > summary { cursor: pointer; padding: 16px 20px; font-family: var(--serif); font-size: 1.15rem; list-style: none; display: flex; justify-content: space-between; gap: 12px; }
+details.sec > summary::-webkit-details-marker { display: none; }
+details.sec > summary small { font-family: var(--sans); font-size: .8rem; color: var(--steel-ink); white-space: nowrap; }
+details.sec > summary small.ok { color: var(--ink); }
+details.sec > div { padding: 0 20px 20px; }
+input[type=text], input[type=email], input[type=date], input[type=number], select, textarea { width: 100%; font: inherit; padding: 10px 12px; border: 1px solid var(--steel); background: var(--white); color: var(--ink); border-radius: 0; }
+textarea { min-height: 84px; resize: vertical; }
+input:focus-visible, select:focus-visible, textarea:focus-visible, summary:focus-visible, .btn:focus-visible, .choices label:focus-within { outline: 2px solid var(--ink); outline-offset: 2px; }
+.rows .row { display: grid; gap: 8px; grid-template-columns: 2fr 1.4fr 1fr .7fr 1.6fr auto; align-items: end; margin-bottom: 8px; }
+.rows.res .row { grid-template-columns: 1.6fr 1fr 1fr 1fr 1.4fr auto auto; }
+.rows.q .row { grid-template-columns: 3fr 1.2fr 1.2fr auto auto; }
+.rows .row .x { padding: 10px 12px; }
+.chk { display: flex; gap: 10px; align-items: flex-start; padding: 8px 0; border-bottom: 1px solid var(--mist); }
+.chk:last-child { border-bottom: 0; }
+.chk input[type=checkbox] { accent-color: var(--flame); width: 18px; height: 18px; margin-top: 3px; flex: none; }
+.chk .who { display: grid; grid-template-columns: 1fr 140px; gap: 8px; margin-top: 6px; }
+.gate-tag { font-size: .72rem; letter-spacing: .08em; text-transform: uppercase; border: 1px solid var(--steel); padding: 1px 6px; margin-left: 6px; color: var(--steel-ink); }
+.tagline { display: flex; flex-wrap: wrap; gap: 6px; }
+.tagline span { font-size: .8rem; border: 1px solid var(--steel); padding: 2px 8px; background: var(--white); }
+pre.md { white-space: pre-wrap; background: var(--white); border: 1px solid var(--mist); padding: 16px; font-size: .82rem; max-height: 420px; overflow: auto; }
+.privacy { border-left: 3px solid var(--flame); padding: 4px 0 4px 12px; }
+@media (max-width: 640px) {
+  .rows .row, .rows.res .row, .rows.q .row { grid-template-columns: 1fr 1fr; }
+  .rows .row > :first-child { grid-column: 1 / -1; }
+  .chk .who { grid-template-columns: 1fr; }
+}
+@media print { .status, .actions, .rows .x, #out { display: none !important; } details.sec { break-inside: avoid; } details.sec:not([open]) > div { display: block; } }
+</style>
+</head>
+<body>
+<main class="page">
+  <header class="masthead">
+    <span class="eyebrow">Case-study capture · sales and marketing</span>
+    <h1>Capture a project</h1>
+    <p class="sub">Fill this in at the property or after the call. It keeps the facts, the photos and every approval in one record, and
+    turns them into a case-study draft. Nothing is published from here, and no figure or quote is used until it is approved in writing.</p>
+  </header>
+
+  <div class="status" role="status" aria-live="polite">
+    <b id="st">Capturing</b><div class="bar" aria-hidden="true"><i id="pr" style="width:0"></i></div><span id="pct" class="note">0%</span>
+    <p class="todo" id="todo"></p>
+  </div>
+
+  <form id="f" autocomplete="off" novalidate></form>
+
+  <section class="card" id="out">
+    <h2>Output</h2>
+    <p class="note">Suggested library tags (from what you entered):</p>
+    <div class="tagline" id="tags"></div>
+    <div class="actions">
+      <button type="button" class="btn primary" id="copy">Copy Markdown draft</button>
+      <button type="button" class="btn" id="json">Download record (JSON)</button>
+      <button type="button" class="btn" id="mdl">Download Markdown</button>
+      <button type="button" class="btn ghost" id="print">Print or save as PDF</button>
+      <button type="button" class="btn ghost" id="load">Load a record</button>
+      <button type="button" class="btn ghost" id="clear">Start a new capture</button>
+      <input type="file" id="file" accept="application/json" class="hidden">
+    </div>
+    <p class="note" id="saved">This draft is kept in this browser only until you download it. Send the JSON and the photos to marketing (images go in <code>images/inbox/&lt;project&gt;/</code>).</p>
+    <details><summary class="note">Preview the Markdown draft</summary><pre class="md" id="md"></pre></details>
+  </section>
+  <footer class="foot"><p class="note">Contact details stay internal: they never appear in a published case study. Residential addresses are never published without the owner’s consent.</p></footer>
+</main>
+<script type="module">
+/* @inline:begin ../../data/case-study-taxonomy.json */
+const TAX = {"_readme":"Tags for case studies and projects (data/case-studies.json). A record can carry many tags in each group. Segments and markets are also the axes of the Hub's whitespace grid. Edit freely; the Hub reads this file at build.","groups":{"segment":{"label":"Segment","multi":true,"tags":[{"id":"single-family","label":"Single-family home","audience":["RES","BLD","ARC"]},{"id":"multifamily","label":"Multifamily and common areas","audience":["ARC","BLD","COM"]},{"id":"builder-community","label":"Builder community and display homes","audience":["BLD"]},{"id":"hotel-resort","label":"Hotel and resort","audience":["COM","ARC"]},{"id":"restaurant","label":"Restaurant","audience":["COM"]},{"id":"bar-rooftop","label":"Bar and rooftop venue","audience":["COM","ARC"]},{"id":"pub-club","label":"Pub, club and bowling club","audience":["COM"]},{"id":"golf-country-club","label":"Golf and country club","audience":["COM"]},{"id":"stadium-arena","label":"Stadium, arena and sports venue","audience":["COM","ARC"]},{"id":"workplace","label":"Workplace and office campus","audience":["ARC","COM"]},{"id":"healthcare","label":"Healthcare and hospital","audience":["ARC","COM"]},{"id":"senior-living","label":"Senior living","audience":["ARC","COM"]},{"id":"education","label":"School and university campus","audience":["ARC","COM"]},{"id":"animal-care","label":"Animal shelter and veterinary","audience":["ARC","COM"]},{"id":"retail-precinct","label":"Retail, mall and dining precinct","audience":["COM","ARC"]},{"id":"winery-brewery","label":"Winery and brewery","audience":["COM"]},{"id":"event-venue","label":"Event and wedding venue","audience":["COM"]},{"id":"ski-alpine","label":"Ski and alpine resort","audience":["COM"]},{"id":"transport","label":"Airport and transit","audience":["ARC","COM"]},{"id":"civic-worship","label":"Civic, community and place of worship","audience":["ARC","COM"]},{"id":"marine-yacht","label":"Superyacht","audience":["COM","ARC"]},{"id":"marine-cruise","label":"Cruise ship","audience":["COM","ARC"]}]},"space":{"label":"Space","multi":true,"tags":[{"id":"covered-patio","label":"Covered patio"},{"id":"screened-porch","label":"Screened porch"},{"id":"california-room","label":"California room / indoor-outdoor"},{"id":"pergola","label":"Pergola"},{"id":"louvred-roof","label":"Louvred roof"},{"id":"rooftop","label":"Rooftop"},{"id":"pool-cabana","label":"Pool and cabana"},{"id":"courtyard","label":"Courtyard"},{"id":"terrace","label":"Terrace and balcony"},{"id":"outdoor-kitchen","label":"Outdoor kitchen"},{"id":"street-dining","label":"Street and sidewalk dining"},{"id":"deck","label":"Deck"},{"id":"barn-outbuilding","label":"Barn and outbuilding"},{"id":"amenity-deck","label":"Common amenity deck"},{"id":"yacht-deck","label":"Yacht or ship deck"}]},"install":{"label":"Install","multi":true,"tags":[{"id":"recessed","label":"Recessed"},{"id":"low-clearance-recess","label":"Low-clearance recess kit"},{"id":"ceiling-mounted","label":"Ceiling-mounted"},{"id":"wall-mounted","label":"Wall-mounted"},{"id":"pole-suspended","label":"Pole or suspended"},{"id":"pendant","label":"Pendant"},{"id":"wood-structure","label":"On a wood structure"},{"id":"freestanding","label":"Freestanding / portable"}]},"product":{"label":"Product","multi":true,"tags":[{"id":"tungsten-electric","label":"Tungsten Electric"},{"id":"tungsten-portable","label":"Tungsten Portable (gas)"},{"id":"tungsten-gas","label":"Tungsten Gas"},{"id":"platinum-electric","label":"Platinum Electric"},{"id":"platinum-marine","label":"Platinum Electric Marine"},{"id":"platinum-gas","label":"Platinum Gas"},{"id":"eclipse-electric","label":"Eclipse Electric"},{"id":"eclipse-pendant","label":"Eclipse Pendant"},{"id":"eclipse-portable","label":"Eclipse Portable / Freestanding"},{"id":"cobalt","label":"Cobalt Electric"}]},"controls":{"label":"Controls","multi":true,"tags":[{"id":"affinity","label":"Affinity Smart-Heat"},{"id":"eclipse-dimmer","label":"Eclipse dimmer"},{"id":"legacy-wireless","label":"Earlier wireless dimmer or remote"},{"id":"switch","label":"Wall switch"},{"id":"controls-not-stated","label":"Controls not stated"}]},"theme":{"label":"Theme","multi":true,"tags":[{"id":"heat-light","label":"Heat + light"},{"id":"coastal","label":"Coastal and salt air"},{"id":"wind","label":"Wind"},{"id":"low-clearance","label":"Low clearance"},{"id":"high-ceiling","label":"High ceilings"},{"id":"all-electric","label":"All-electric / decarbonisation"},{"id":"design-led","label":"Architect or design-led"},{"id":"season-extension","label":"Season extension"},{"id":"replace-gas","label":"Replacing gas or propane"},{"id":"heritage","label":"Heritage building"},{"id":"multi-site","label":"Multi-site rollout"},{"id":"large-scale","label":"Large scale (20+ heaters)"},{"id":"fire-code","label":"Fire code and permits"},{"id":"durability","label":"Long-term durability"},{"id":"design-service","label":"Bromic design service / heat plan"}]},"market":{"label":"Market","multi":false,"tags":[{"id":"US","label":"United States"},{"id":"CA","label":"Canada"},{"id":"AU","label":"Australia"},{"id":"NZ","label":"New Zealand"},{"id":"UK","label":"United Kingdom"},{"id":"NL","label":"Netherlands"},{"id":"BE","label":"Belgium"},{"id":"DACH","label":"Germany, Austria, Switzerland"},{"id":"EU","label":"Rest of Europe"},{"id":"ME","label":"Middle East"},{"id":"IN","label":"India"},{"id":"ASIA","label":"Asia"},{"id":"LATAM","label":"Latin America"},{"id":"MARINE","label":"At sea (global)"}]},"proof":{"label":"Proof","multi":true,"tags":[{"id":"quote","label":"Customer quote"},{"id":"heat-plan","label":"Heat plan"},{"id":"numbers","label":"Result with numbers"},{"id":"credits","label":"Architect or designer credited"},{"id":"press","label":"Third-party press"},{"id":"photo-set","label":"Photo set (5+)"}]}},"grid":{"markets":["US","CA","AU","NZ","UK","NL","BE","DACH","EU","ME","IN","LATAM"],"note":"Whitespace columns are the markets Bromic Global Heating sells into. Marine is global and shown as its own rows."}};
+/* @inline:end ../../data/case-study-taxonomy.json */
+/* @inline:begin logic.js */
+const Logic = (() => {
+// Case-study capture: the rules, no DOM. index.html inlines this; test.mjs imports it.
+// A capture is a plain object (see blank()). Nothing here invents content: the Markdown is built only from what was entered.
+
+const APPROVALS = [
+  { id: 'consent_name', label: 'Customer agrees to be named (venue or home), with the exact wording', gate: 'draft' },
+  { id: 'consent_numbers', label: 'Every number approved in writing, with how it was measured', gate: 'draft' },
+  { id: 'consent_quote', label: 'Every quote approved word for word by the person quoted', gate: 'draft' },
+  { id: 'photo_licence', label: 'Photo licence covers web, print, social and paid use; credit line agreed', gate: 'draft' },
+  { id: 'consent_credits', label: 'Architect, designer, builder and installer agree to be credited (names and spelling)', gate: 'draft' },
+  { id: 'privacy', label: 'Residential: nothing locates the home without the owner’s consent (not needed for commercial)', gate: 'draft' },
+  { id: 'regional_lead', label: 'Regional lead checked the facts', gate: 'publish' },
+  { id: 'product_controls', label: 'Mike Clifford checked products, mounting and controls', gate: 'publish' },
+  { id: 'brand', label: 'Megan Spies approved brand and consent file', gate: 'publish' },
+  { id: 'final_customer', label: 'Customer approved the final draft (saved with the source files)', gate: 'publish' },
+];
+
+const SHOTS = [
+  { id: 'hero', label: 'Hero: the space in use at dusk, heaters on, correctly installed' },
+  { id: 'wide', label: 'Wide: the whole space, people using it (with consent)' },
+  { id: 'detail', label: 'Detail: a heater and its mounting (bracket, pole, recess)' },
+  { id: 'controls', label: 'Controls: the wall controller or the app in use' },
+  { id: 'heatplan', label: 'Heat plan or layout drawing' },
+  { id: 'before', label: 'Before: the space without heating (if one exists)' },
+];
+
+const REQUIRED = [
+  ['project.name', 'Project name'], ['project.segment', 'Property type'], ['project.market', 'Market'], ['project.city', 'City or region'],
+  ['people.owner', 'Owner or operator'], ['people.contact_name', 'Contact name'],
+  ['space.types', 'Space'], ['space.area', 'Heated area'],
+  ['before.problem', 'What did not work before'],
+  ['solution.products', 'Products and quantities'], ['solution.controls', 'Controls'],
+];
+
+const get = (o, p) => p.split('.').reduce((x, k) => (x == null ? x : x[k]), o);
+const filled = (v) => Array.isArray(v) ? v.some((x) => (typeof x === 'object' ? Object.values(x).some(filled) : String(x).trim())) : v != null && String(v).trim() !== '';
+
+function blank() {
+  return {
+    project: { name: '', segment: [], market: '', city: '', completed: '', status: 'completed' },
+    people: { owner: '', contact_name: '', contact_role: '', contact_email: '', architect: '', designer: '', builder: '', installer: '', dealer: '', bromic_rep: '' },
+    space: { types: [], area: '', area_unit: 'ft2', open_30: '', mount_height: '', structure: '', exposure: [], power: '', gas: '' },
+    before: { use: '', problem: '', previous: '' },
+    solution: { products: [{ product: '', model: '', finish: '', qty: '', mounting: '' }], controls: '', zones: '', bms: '', design_service: '', heat_plan: '' },
+    results: [{ metric: '', before: '', after: '', period: '', measured: '', approved: false }],
+    quotes: [{ text: '', name: '', role: '', approved: false }],
+    photos: { shots: {}, photographer: '', licence: '', files: '', count: '' },
+    approvals: {},
+    notes: '',
+  };
+}
+
+function missing(c) { return REQUIRED.filter(([p]) => !filled(get(c, p))).map(([, l]) => l); }
+
+function approvalsOpen(c, gate) {
+  const residential = (c.project.segment || []).includes('single-family');
+  return APPROVALS.filter((a) => (gate === 'publish' || a.gate === 'draft') && !(a.id === 'privacy' && !residential) && !(c.approvals[a.id] && c.approvals[a.id].done));
+}
+
+// Status: capturing → ready to draft (facts in, consents given) → ready to publish (every sign-off) .
+function status(c) {
+  const m = missing(c);
+  if (m.length) return { id: 'capturing', label: 'Capturing', todo: m };
+  const d = approvalsOpen(c, 'draft');
+  if (d.length) return { id: 'awaiting-consent', label: 'Awaiting consent', todo: d.map((a) => a.label) };
+  const p = approvalsOpen(c, 'publish');
+  if (p.length) return { id: 'ready-to-draft', label: 'Ready to draft', todo: p.map((a) => a.label) };
+  return { id: 'ready-to-publish', label: 'Ready to publish', todo: [] };
+}
+
+function progress(c) {
+  const residential = (c.project.segment || []).includes('single-family');
+  const apps = APPROVALS.filter((a) => residential || a.id !== 'privacy');  // the privacy check applies to homes only
+  const parts = REQUIRED.length + apps.length + SHOTS.length;
+  const done = REQUIRED.length - missing(c).length + apps.filter((a) => c.approvals[a.id] && c.approvals[a.id].done).length + SHOTS.filter((s) => c.photos.shots[s.id]).length;
+  return Math.round(done / parts * 100);
+}
+
+// Tags for the case-study library, from what was entered (data/case-study-taxonomy.json ids).
+function tags(c, tax) {
+  const has = (g, id) => tax && tax.groups[g].tags.some((t) => t.id === id);
+  const prod = [...new Set(c.solution.products.map((p) => p.product).filter((p) => has('product', p)))];
+  const inst = [...new Set(c.solution.products.map((p) => p.mounting).filter((m) => has('install', m)))];
+  const ctl = /affinity/i.test(c.solution.controls) ? ['affinity'] : /eclipse/i.test(c.solution.controls) ? ['eclipse-dimmer'] : /switch/i.test(c.solution.controls) ? ['switch'] : [];
+  const theme = [...(c.space.exposure || []).filter((e) => has('theme', e)), ...(c.solution.design_service === 'yes' ? ['design-service'] : []),
+    ...(/propane|gas|mushroom/i.test(c.before.previous) ? ['replace-gas'] : [])];
+  const proof = [...(c.quotes.some((q) => q.text && q.approved) ? ['quote'] : []), ...(c.solution.heat_plan === 'yes' ? ['heat-plan'] : []),
+    ...(c.results.some((r) => r.metric && r.approved) ? ['numbers'] : []), ...([c.people.architect, c.people.designer].some(filled) ? ['credits'] : []),
+    ...(Number(c.photos.count) >= 5 ? ['photo-set'] : [])];
+  return { segment: c.project.segment || [], space: c.space.types || [], install: inst, product: prod, controls: ctl, theme: [...new Set(theme)],
+    market: c.project.market ? [c.project.market] : [], proof };
+}
+
+const line = (k, v) => (filled(v) ? `| ${k} | ${String(v).replace(/\|/g, '/').replace(/\n/g, ' ')} |\n` : '');
+const slug = (s) => String(s || 'project').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 50);
+
+// Markdown in the shape of content/case-studies/case-study-template.md, ready for a writer. Only what was entered.
+function toMarkdown(c, tax) {
+  const t = tags(c, tax), st = status(c);
+  const name = (g, id) => (tax && tax.groups[g].tags.find((x) => x.id === id)?.label) || id;
+  const prods = c.solution.products.filter((p) => filled(Object.values(p)));
+  const res = c.results.filter((r) => r.metric);
+  const qs = c.quotes.filter((q) => q.text);
+  const aud = [...new Set(t.segment.flatMap((s) => (tax?.groups.segment.tags.find((x) => x.id === s)?.audience) || []))];
+  let md = `---\nid: CS-${slug(c.project.name).toUpperCase().slice(0, 24)}\ntype: case-study\ntitle: "${(c.project.name || '').replace(/"/g, "'")}${c.project.city ? ', ' + c.project.city.replace(/"/g, "'") : ''}"\n`;
+  md += `slug: ${slug(c.project.name)}\naudience: [${aud.join(', ') || 'COM'}]\nstage: [IN, PP]\nasset: A10\ncta: {label: "Book a design consult", asset: A07}\n`;
+  md += `owner_review: Megan Spies\nstatus: draft\ncapture_status: ${st.id}\ntags: ${JSON.stringify(t)}\n---\n\n`;
+  md += `> Capture status: **${st.label}**.${st.todo.length ? ' Still open: ' + st.todo.join('; ') + '.' : ''} Draft only from approved facts.\n\n`;
+  md += `## At a glance\n\n| | |\n|---|---|\n`;
+  md += line('Project', c.project.name) + line('Location', [c.project.city, c.project.market].filter(Boolean).join(', ')) + line('Segment', t.segment.map((s) => name('segment', s)).join(', '));
+  md += line('Owner / operator', c.people.owner) + line('Architect', c.people.architect) + line('Designer', c.people.designer) + line('Builder', c.people.builder) + line('Installer', c.people.installer) + line('Dealer', c.people.dealer);
+  md += line('Products', prods.map((p) => [p.qty && p.qty + ' ×', name('product', p.product), p.model, p.finish, p.mounting && '(' + name('install', p.mounting) + ')'].filter(Boolean).join(' ')).join('; '));
+  md += line('Controls', [c.solution.controls, c.solution.zones && c.solution.zones + ' zones', c.solution.bms && 'BMS: ' + c.solution.bms].filter(Boolean).join(' · '));
+  md += line('Heated area', c.space.area && `${c.space.area} ${c.space.area_unit === 'm2' ? 'm²' : 'ft²'}`) + line('Completed', c.project.completed);
+  md += line('Photography', [c.photos.photographer, c.photos.licence].filter(Boolean).join(' · '));
+  md += `\n## Situation\n\n${c.before.use || '[[VERIFY: how the space was used before — capture]]'}\n\n${c.before.problem || ''}${c.before.previous ? `\n\nPreviously heated with: ${c.before.previous}.` : ''}\n`;
+  md += `\n## The brief\n\n${[c.space.types.length && 'Space: ' + c.space.types.map((s) => name('space', s)).join(', '), c.space.open_30 && 'At least 30% of the perimeter open: ' + c.space.open_30, c.space.mount_height && 'Mount height: ' + c.space.mount_height, c.space.structure && 'Structure: ' + c.space.structure, c.space.exposure.length && 'Exposure: ' + c.space.exposure.map((s) => name('theme', s)).join(', '), c.space.power && 'Power: ' + c.space.power, c.space.gas && 'Gas: ' + c.space.gas].filter(Boolean).map((x) => '- ' + x).join('\n')}\n`;
+  md += `\n## The solution\n\n${prods.map((p) => `- ${[p.qty && p.qty + ' ×', name('product', p.product), p.model, p.finish].filter(Boolean).join(' ')}${p.mounting ? ', ' + name('install', p.mounting).toLowerCase() : ''}`).join('\n')}\n- Controls: ${c.solution.controls || '[[VERIFY: controls — never blank]]'}${c.solution.zones ? `, ${c.solution.zones} zones` : ''}. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.\n${c.solution.design_service === 'yes' ? '- Laid out with the Bromic design service.\n' : ''}`;
+  md += `\n## The result\n\n${res.length ? res.map((r) => `- ${r.metric}: ${[r.before && 'before ' + r.before, r.after && 'after ' + r.after].filter(Boolean).join(', ')}${r.period ? ` (${r.period})` : ''}${r.measured ? `; measured by ${r.measured}` : ''}${r.approved ? '' : ' **[not yet approved for publication]**'}`).join('\n') : 'No numbers captured. Publish no figure without written approval.'}\n`;
+  if (qs.length) md += `\n${qs.map((q) => `> "${q.text}"\n> — ${[q.name, q.role].filter(Boolean).join(', ')}${q.approved ? '' : ' **[quote not yet approved]**'}`).join('\n\n')}\n`;
+  md += `\n## Photos\n\n${SHOTS.map((s) => `- [${c.photos.shots[s.id] ? 'x' : ' '}] ${s.label}`).join('\n')}\n${c.photos.files ? `\nFiles: ${c.photos.files}\n` : ''}`;
+  md += `\n## Approvals\n\n${APPROVALS.map((a) => { const v = c.approvals[a.id] || {}; return `- [${v.done ? 'x' : ' '}] ${a.label}${v.by ? ` — ${v.by}` : ''}${v.date ? `, ${v.date}` : ''}`; }).join('\n')}\n`;
+  if (c.notes) md += `\n## Notes\n\n${c.notes}\n`;
+  md += `\nThis is a first record, not a design. Confirm every installation with your local building authority and a licensed electrician or gas fitter.\n`;
+  return md;
+}
+
+return { APPROVALS, SHOTS, REQUIRED, blank, missing, approvalsOpen, status, progress, tags, toMarkdown };
+})();
+/* @inline:end logic.js */
+
+const KEY = 'bromic-cs-capture-v1';
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const opts = (g) => TAX.groups[g].tags;
+const get = (o, p) => p.split('.').reduce((x, k) => (x == null ? x : x[k]), o);
+const set = (o, p, v) => { const ks = p.split('.'); const last = ks.pop(); ks.reduce((x, k) => x[k], o)[last] = v; };
+let C;
+try { C = JSON.parse(localStorage.getItem(KEY) || 'null'); } catch { C = null; }
+if (!C) C = Logic.blank();
+const q = new URLSearchParams(location.search);
+if (q.get('embed') === '1') document.body.classList.add('embed');
+if (q.get('segment') && !C.project.segment.length) C.project.segment = q.get('segment').split(',');
+if (q.get('market') && !C.project.market) C.project.market = q.get('market');
+
+const text = (p, label, hint = '', type = 'text') => `<div class="field"><label class="k" for="${p}">${label}</label><input type="${type}" id="${p}" data-p="${p}" value="${esc(get(C, p))}">${hint ? `<span class="hint">${hint}</span>` : ''}</div>`;
+const area = (p, label, hint = '') => `<div class="field" style="grid-column:1/-1"><label class="k" for="${p}">${label}</label><textarea id="${p}" data-p="${p}">${esc(get(C, p))}</textarea>${hint ? `<span class="hint">${hint}</span>` : ''}</div>`;
+const select = (p, label, list, hint = '') => `<div class="field"><label class="k" for="${p}">${label}</label><select id="${p}" data-p="${p}"><option value="">Choose</option>${list.map(([v, l]) => `<option value="${esc(v)}" ${get(C, p) === v ? 'selected' : ''}>${esc(l)}</option>`).join('')}</select>${hint ? `<span class="hint">${hint}</span>` : ''}</div>`;
+const multi = (p, label, group) => `<fieldset class="field" style="grid-column:1/-1"><legend class="k">${label}</legend><div class="choices">${opts(group).map((t) => `<label><input type="checkbox" data-m="${p}" value="${t.id}" ${(get(C, p) || []).includes(t.id) ? 'checked' : ''}> ${esc(t.label)}</label>`).join('')}</div></fieldset>`;
+const sec = (id, title, body, open = false) => `<details class="sec" id="s-${id}" ${open ? 'open' : ''}><summary>${title}<small data-sum="${id}"></small></summary><div>${body}</div></details>`;
+const yn = [['yes', 'Yes'], ['no', 'No'], ['unsure', 'Not sure']];
+const prodOpts = opts('product').map((t) => [t.id, t.label]).concat([['affinity-controls', 'Affinity controls only'], ['accessory', 'Accessory']]);
+
+function rows(key) {
+  const list = key === 'products' ? C.solution.products : C[key];
+  if (key === 'products') return list.map((r, i) => `<div class="row">
+      ${select(`solution.products.${i}.product`, 'Product', prodOpts)}${text(`solution.products.${i}.model`, 'Model / wattage')}
+      ${text(`solution.products.${i}.finish`, 'Finish')}${text(`solution.products.${i}.qty`, 'Qty', '', 'number')}
+      ${select(`solution.products.${i}.mounting`, 'Mounting', opts('install').map((t) => [t.id, t.label]))}
+      <button type="button" class="btn ghost x" data-del="products:${i}" aria-label="Remove product row ${i + 1}">×</button></div>`).join('');
+  if (key === 'results') return list.map((r, i) => `<div class="row">${text(`results.${i}.metric`, 'What changed', 'e.g. covers per night, months open')}
+      ${text(`results.${i}.before`, 'Before')}${text(`results.${i}.after`, 'After')}${text(`results.${i}.period`, 'Over what period')}${text(`results.${i}.measured`, 'How measured')}
+      <label class="chk" style="border:0"><input type="checkbox" data-b="results.${i}.approved" ${r.approved ? 'checked' : ''}> Approved in writing</label>
+      <button type="button" class="btn ghost x" data-del="results:${i}" aria-label="Remove result ${i + 1}">×</button></div>`).join('');
+  return list.map((r, i) => `<div class="row"><div class="field"><label class="k" for="quotes.${i}.text">Quote, word for word</label><textarea id="quotes.${i}.text" data-p="quotes.${i}.text">${esc(r.text)}</textarea></div>
+      ${text(`quotes.${i}.name`, 'Name')}${text(`quotes.${i}.role`, 'Role, organisation')}
+      <label class="chk" style="border:0"><input type="checkbox" data-b="quotes.${i}.approved" ${r.approved ? 'checked' : ''}> Approved verbatim</label>
+      <button type="button" class="btn ghost x" data-del="quotes:${i}" aria-label="Remove quote ${i + 1}">×</button></div>`).join('');
+}
+
+function form() {
+  const markets = opts('market').map((t) => [t.id, t.label]);
+  $('#f').innerHTML = [
+    sec('project', '1. The project', `<div class="grid">${text('project.name', 'Project name', 'Venue, development or "private residence"')}
+      ${select('project.market', 'Market', markets)}${text('project.city', 'City and state or region')}${text('project.completed', 'Installed (month and year)')}
+      ${select('project.status', 'Status', [['completed', 'Completed and in use'], ['in-progress', 'Installing now'], ['planned', 'Specified, not yet installed']])}
+      ${multi('project.segment', 'Property type (all that apply)', 'segment')}</div>`, true),
+    sec('people', '2. People and permissions to credit', `<p class="note privacy">Contact details are internal. Only names the person has agreed to are published (approvals, step 9).</p><div class="grid">
+      ${text('people.owner', 'Owner or operator')}${text('people.contact_name', 'Contact name')}${text('people.contact_role', 'Contact role')}${text('people.contact_email', 'Contact email', '', 'email')}
+      ${text('people.architect', 'Architect')}${text('people.designer', 'Interior or landscape designer')}${text('people.builder', 'Builder')}${text('people.installer', 'Installer or electrician')}
+      ${text('people.dealer', 'Dealer or distributor')}${text('people.bromic_rep', 'Bromic rep')}</div>`),
+    sec('space', '3. The space', `<div class="grid">${multi('space.types', 'Space (all that apply)', 'space')}
+      ${text('space.area', 'Heated area', '', 'number')}${select('space.area_unit', 'Unit', [['ft2', 'ft²'], ['m2', 'm²']])}
+      ${select('space.open_30', 'At least 30% of the perimeter permanently open?', yn, 'Below 30% it is not treated as outdoor')}
+      ${text('space.mount_height', 'Ceiling or mount height', 'ft or m')}${text('space.structure', 'Structure', 'Wood pergola, steel, concrete soffit, louvred roof…')}
+      ${text('space.power', 'Power available', '208 V, 240 V, 277 V, circuits')}${text('space.gas', 'Gas', 'Natural gas, propane, none')}
+      ${multi('space.exposure', 'Conditions', 'theme')}</div>`),
+    sec('before', '4. Before', `<div class="grid">${area('before.use', 'How the space was used before', 'When, by whom, how often')}
+      ${area('before.problem', 'What did not work', 'Cold evenings, short season, wind, propane cylinders, glare, noise, low ceiling…')}
+      ${text('before.previous', 'Previous heating', 'None, propane towers, another brand, older Bromic…')}</div>`),
+    sec('solution', '5. The solution: products and controls', `<div class="rows" id="r-products">${rows('products')}</div>
+      <button type="button" class="btn ghost" data-add="products">Add a product</button>
+      <div class="grid" style="margin-top:16px">${text('solution.controls', 'Controls (never blank)', 'Affinity Smart-Heat On/Off, Dimmer or Eclipse controller; channels; wall switch; app')}
+      ${text('solution.zones', 'Zones', '', 'number')}${text('solution.bms', 'Home automation or BMS', 'Control4, Crestron, Lutron, BMS via expansion board…')}
+      ${select('solution.design_service', 'Bromic design service used?', yn)}${select('solution.heat_plan', 'Heat plan or layout available?', yn)}</div>
+      <p class="note">Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.</p>`),
+    sec('results', '6. Results (only with written permission)', `<div class="rows res" id="r-results">${rows('results')}</div><button type="button" class="btn ghost" data-add="results">Add a result</button>`),
+    sec('quotes', '7. Quotes', `<div class="rows q" id="r-quotes">${rows('quotes')}</div><button type="button" class="btn ghost" data-add="quotes">Add a quote</button>`),
+    sec('photos', '8. Photos', `<div>${Logic.SHOTS.map((s) => `<label class="chk"><input type="checkbox" data-shot="${s.id}" ${C.photos.shots[s.id] ? 'checked' : ''}> <span>${esc(s.label)}</span></label>`).join('')}</div>
+      <div class="grid" style="margin-top:12px">${text('photos.photographer', 'Photographer and credit line')}${text('photos.licence', 'Licence', 'Web, print, social, paid; term')}
+      ${text('photos.count', 'Number of usable photos', '', 'number')}${text('photos.files', 'Where the files are', 'DAM, Drive or Dropbox link')}</div>
+      <p class="note">Shoot heaters only as they are really installed. No AI-extended or edited images.</p>`),
+    sec('approvals', '9. Approvals', Logic.APPROVALS.map((a) => { const v = C.approvals[a.id] || {}; return `<div class="chk"><input type="checkbox" id="ap-${a.id}" data-ap="${a.id}" ${v.done ? 'checked' : ''}>
+      <div style="flex:1"><label for="ap-${a.id}">${esc(a.label)}</label><span class="gate-tag">${a.gate === 'draft' ? 'before drafting' : 'before publishing'}</span>
+      <div class="who"><input type="text" aria-label="Approved by" placeholder="Approved by" data-apby="${a.id}" value="${esc(v.by)}"><input type="date" aria-label="Date" data-apdate="${a.id}" value="${esc(v.date)}"></div></div></div>`; }).join('')),
+    sec('notes', '10. Notes', area('notes', 'Anything else marketing should know')),
+  ].join('');
+  refresh();
+}
+
+function refresh() {
+  try { localStorage.setItem(KEY, JSON.stringify(C)); } catch {}
+  const st = Logic.status(C), pc = Logic.progress(C);
+  $('#st').textContent = st.label; $('#pr').style.width = pc + '%'; $('#pct').textContent = pc + '%';
+  $('#todo').textContent = st.todo.length ? 'Still open: ' + st.todo.slice(0, 4).join(' · ') + (st.todo.length > 4 ? ` (+${st.todo.length - 4} more)` : '') : 'Every fact and approval is in.';
+  const miss = Logic.missing(C);
+  const sum = { project: ['Project name', 'Property type', 'Market', 'City or region'], people: ['Owner or operator', 'Contact name'], space: ['Space', 'Heated area'], before: ['What did not work before'], solution: ['Products and quantities', 'Controls'] };
+  document.querySelectorAll('[data-sum]').forEach((el) => {
+    const id = el.dataset.sum; const m = (sum[id] || []).filter((x) => miss.includes(x));
+    if (id === 'approvals') { const n = Logic.APPROVALS.length - Logic.approvalsOpen(C, 'publish').length; el.textContent = `${n} of ${Logic.APPROVALS.length}`; el.className = n === Logic.APPROVALS.length ? 'ok' : ''; return; }
+    if (id === 'photos') { const n = Logic.SHOTS.filter((s) => C.photos.shots[s.id]).length; el.textContent = `${n} of ${Logic.SHOTS.length} shots`; return; }
+    el.textContent = sum[id] ? (m.length ? `${m.length} to fill` : 'Done') : ''; el.className = sum[id] && !m.length ? 'ok' : '';
+  });
+  const t = Logic.tags(C, TAX); const label = (g, id) => TAX.groups[g].tags.find((x) => x.id === id)?.label || id;
+  $('#tags').innerHTML = Object.entries(t).flatMap(([g, ids]) => ids.map((id) => `<span title="${esc(TAX.groups[g].label)}">${esc(label(g, id))}</span>`)).join('') || '<span>None yet</span>';
+  $('#md').textContent = Logic.toMarkdown(C, TAX);
+}
+
+const f = $('#f');
+f.addEventListener('input', (e) => {
+  const el = e.target;
+  if (el.dataset.p) set(C, el.dataset.p, el.value);
+  else if (el.dataset.apby) (C.approvals[el.dataset.apby] ||= {}).by = el.value;
+  else if (el.dataset.apdate) (C.approvals[el.dataset.apdate] ||= {}).date = el.value;
+  refresh();
+});
+f.addEventListener('change', (e) => {
+  const el = e.target;
+  if (el.dataset.p) set(C, el.dataset.p, el.value);
+  if (el.dataset.m) { const cur = new Set(get(C, el.dataset.m) || []); el.checked ? cur.add(el.value) : cur.delete(el.value); set(C, el.dataset.m, [...cur]); }
+  if (el.dataset.b) set(C, el.dataset.b, el.checked);
+  if (el.dataset.shot) C.photos.shots[el.dataset.shot] = el.checked;
+  if (el.dataset.ap) (C.approvals[el.dataset.ap] ||= {}).done = el.checked;
+  refresh();
+});
+f.addEventListener('click', (e) => {
+  const add = e.target.closest('[data-add]'), del = e.target.closest('[data-del]');
+  if (!add && !del) return;
+  const key = (add || del).dataset[add ? 'add' : 'del'].split(':')[0];
+  const list = key === 'products' ? C.solution.products : C[key];
+  const empty = () => structuredClone(key === 'products' ? Logic.blank().solution.products[0] : Logic.blank()[key][0]);
+  if (add) list.push(empty());
+  else { list.splice(Number(del.dataset.del.split(':')[1]), 1); if (!list.length) list.push(empty()); }
+  $(`#r-${key}`).innerHTML = rows(key); refresh();
+  if (add) $(`#r-${key} .row:last-child input, #r-${key} .row:last-child select, #r-${key} .row:last-child textarea`)?.focus();
+});
+
+const slug = () => (C.project.name || 'project').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40);
+function save(name, body, type) {
+  const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([body], { type })); a.download = name; document.body.appendChild(a); a.click();
+  setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500);
+}
+$('#copy').addEventListener('click', async () => {
+  const md = Logic.toMarkdown(C, TAX);
+  try { await navigator.clipboard.writeText(md); $('#saved').textContent = 'Markdown copied. Paste it into content/case-studies/ for a writer.'; }
+  catch { $('#md').closest('details').open = true; $('#saved').textContent = 'Copy was blocked here: select the preview below and copy it.'; }
+});
+$('#json').addEventListener('click', () => save(`case-study-${slug()}.json`, JSON.stringify({ capture: C, tags: Logic.tags(C, TAX), status: Logic.status(C).id, saved: new Date().toISOString() }, null, 2), 'application/json'));
+$('#mdl').addEventListener('click', () => save(`case-study-${slug()}.md`, Logic.toMarkdown(C, TAX), 'text/markdown'));
+$('#print').addEventListener('click', () => { document.querySelectorAll('details.sec').forEach((d) => (d.open = true)); window.print(); });
+$('#clear').addEventListener('click', () => { if (confirm('Start a new capture? Download this one first if you need it.')) { C = Logic.blank(); form(); } });
+$('#load').addEventListener('click', () => $('#file').click());
+$('#file').addEventListener('change', async (e) => {
+  const file = e.target.files[0]; if (!file) return;
+  try { const j = JSON.parse(await file.text()); C = { ...Logic.blank(), ...(j.capture || j) }; form(); $('#saved').textContent = `Loaded ${file.name}.`; }
+  catch { $('#saved').textContent = 'That file is not a capture record.'; }
+});
+form();
+</script>
+</body>
+</html>

@@ -1,0 +1,533 @@
+{
+ "_readme": "Tags for case studies and projects (data/case-studies.json). A record can carry many tags in each group. Segments and markets are also the axes of the Hub's whitespace grid. Edit freely; the Hub reads this file at build.",
+ "groups": {
+  "segment": {
+   "label": "Segment",
+   "multi": true,
+   "tags": [
+    {
+     "id": "single-family",
+     "label": "Single-family home",
+     "audience": [
+      "RES",
+      "BLD",
+      "ARC"
+     ]
+    },
+    {
+     "id": "multifamily",
+     "label": "Multifamily and common areas",
+     "audience": [
+      "ARC",
+      "BLD",
+      "COM"
+     ]
+    },
+    {
+     "id": "builder-community",
+     "label": "Builder community and display homes",
+     "audience": [
+      "BLD"
+     ]
+    },
+    {
+     "id": "hotel-resort",
+     "label": "Hotel and resort",
+     "audience": [
+      "COM",
+      "ARC"
+     ]
+    },
+    {
+     "id": "restaurant",
+     "label": "Restaurant",
+     "audience": [
+      "COM"
+     ]
+    },
+    {
+     "id": "bar-rooftop",
+     "label": "Bar and rooftop venue",
+     "audience": [
+      "COM",
+      "ARC"
+     ]
+    },
+    {
+     "id": "pub-club",
+     "label": "Pub, club and bowling club",
+     "audience": [
+      "COM"
+     ]
+    },
+    {
+     "id": "golf-country-club",
+     "label": "Golf and country club",
+     "audience": [
+      "COM"
+     ]
+    },
+    {
+     "id": "stadium-arena",
+     "label": "Stadium, arena and sports venue",
+     "audience": [
+      "COM",
+      "ARC"
+     ]
+    },
+    {
+     "id": "workplace",
+     "label": "Workplace and office campus",
+     "audience": [
+      "ARC",
+      "COM"
+     ]
+    },
+    {
+     "id": "healthcare",
+     "label": "Healthcare and hospital",
+     "audience": [
+      "ARC",
+      "COM"
+     ]
+    },
+    {
+     "id": "senior-living",
+     "label": "Senior living",
+     "audience": [
+      "ARC",
+      "COM"
+     ]
+    },
+    {
+     "id": "education",
+     "label": "School and university campus",
+     "audience": [
+      "ARC",
+      "COM"
+     ]
+    },
+    {
+     "id": "animal-care",
+     "label": "Animal shelter and veterinary",
+     "audience": [
+      "ARC",
+      "COM"
+     ]
+    },
+    {
+     "id": "retail-precinct",
+     "label": "Retail, mall and dining precinct",
+     "audience": [
+      "COM",
+      "ARC"
+     ]
+    },
+    {
+     "id": "winery-brewery",
+     "label": "Winery and brewery",
+     "audience": [
+      "COM"
+     ]
+    },
+    {
+     "id": "event-venue",
+     "label": "Event and wedding venue",
+     "audience": [
+      "COM"
+     ]
+    },
+    {
+     "id": "ski-alpine",
+     "label": "Ski and alpine resort",
+     "audience": [
+      "COM"
+     ]
+    },
+    {
+     "id": "transport",
+     "label": "Airport and transit",
+     "audience": [
+      "ARC",
+      "COM"
+     ]
+    },
+    {
+     "id": "civic-worship",
+     "label": "Civic, community and place of worship",
+     "audience": [
+      "ARC",
+      "COM"
+     ]
+    },
+    {
+     "id": "marine-yacht",
+     "label": "Superyacht",
+     "audience": [
+      "COM",
+      "ARC"
+     ]
+    },
+    {
+     "id": "marine-cruise",
+     "label": "Cruise ship",
+     "audience": [
+      "COM",
+      "ARC"
+     ]
+    }
+   ]
+  },
+  "space": {
+   "label": "Space",
+   "multi": true,
+   "tags": [
+    {
+     "id": "covered-patio",
+     "label": "Covered patio"
+    },
+    {
+     "id": "screened-porch",
+     "label": "Screened porch"
+    },
+    {
+     "id": "california-room",
+     "label": "California room / indoor-outdoor"
+    },
+    {
+     "id": "pergola",
+     "label": "Pergola"
+    },
+    {
+     "id": "louvred-roof",
+     "label": "Louvred roof"
+    },
+    {
+     "id": "rooftop",
+     "label": "Rooftop"
+    },
+    {
+     "id": "pool-cabana",
+     "label": "Pool and cabana"
+    },
+    {
+     "id": "courtyard",
+     "label": "Courtyard"
+    },
+    {
+     "id": "terrace",
+     "label": "Terrace and balcony"
+    },
+    {
+     "id": "outdoor-kitchen",
+     "label": "Outdoor kitchen"
+    },
+    {
+     "id": "street-dining",
+     "label": "Street and sidewalk dining"
+    },
+    {
+     "id": "deck",
+     "label": "Deck"
+    },
+    {
+     "id": "barn-outbuilding",
+     "label": "Barn and outbuilding"
+    },
+    {
+     "id": "amenity-deck",
+     "label": "Common amenity deck"
+    },
+    {
+     "id": "yacht-deck",
+     "label": "Yacht or ship deck"
+    }
+   ]
+  },
+  "install": {
+   "label": "Install",
+   "multi": true,
+   "tags": [
+    {
+     "id": "recessed",
+     "label": "Recessed"
+    },
+    {
+     "id": "low-clearance-recess",
+     "label": "Low-clearance recess kit"
+    },
+    {
+     "id": "ceiling-mounted",
+     "label": "Ceiling-mounted"
+    },
+    {
+     "id": "wall-mounted",
+     "label": "Wall-mounted"
+    },
+    {
+     "id": "pole-suspended",
+     "label": "Pole or suspended"
+    },
+    {
+     "id": "pendant",
+     "label": "Pendant"
+    },
+    {
+     "id": "wood-structure",
+     "label": "On a wood structure"
+    },
+    {
+     "id": "freestanding",
+     "label": "Freestanding / portable"
+    }
+   ]
+  },
+  "product": {
+   "label": "Product",
+   "multi": true,
+   "tags": [
+    {
+     "id": "tungsten-electric",
+     "label": "Tungsten Electric"
+    },
+    {
+     "id": "tungsten-portable",
+     "label": "Tungsten Portable (gas)"
+    },
+    {
+     "id": "tungsten-gas",
+     "label": "Tungsten Gas"
+    },
+    {
+     "id": "platinum-electric",
+     "label": "Platinum Electric"
+    },
+    {
+     "id": "platinum-marine",
+     "label": "Platinum Electric Marine"
+    },
+    {
+     "id": "platinum-gas",
+     "label": "Platinum Gas"
+    },
+    {
+     "id": "eclipse-electric",
+     "label": "Eclipse Electric"
+    },
+    {
+     "id": "eclipse-pendant",
+     "label": "Eclipse Pendant"
+    },
+    {
+     "id": "eclipse-portable",
+     "label": "Eclipse Portable / Freestanding"
+    },
+    {
+     "id": "cobalt",
+     "label": "Cobalt Electric"
+    }
+   ]
+  },
+  "controls": {
+   "label": "Controls",
+   "multi": true,
+   "tags": [
+    {
+     "id": "affinity",
+     "label": "Affinity Smart-Heat"
+    },
+    {
+     "id": "eclipse-dimmer",
+     "label": "Eclipse dimmer"
+    },
+    {
+     "id": "legacy-wireless",
+     "label": "Earlier wireless dimmer or remote"
+    },
+    {
+     "id": "switch",
+     "label": "Wall switch"
+    },
+    {
+     "id": "controls-not-stated",
+     "label": "Controls not stated"
+    }
+   ]
+  },
+  "theme": {
+   "label": "Theme",
+   "multi": true,
+   "tags": [
+    {
+     "id": "heat-light",
+     "label": "Heat + light"
+    },
+    {
+     "id": "coastal",
+     "label": "Coastal and salt air"
+    },
+    {
+     "id": "wind",
+     "label": "Wind"
+    },
+    {
+     "id": "low-clearance",
+     "label": "Low clearance"
+    },
+    {
+     "id": "high-ceiling",
+     "label": "High ceilings"
+    },
+    {
+     "id": "all-electric",
+     "label": "All-electric / decarbonisation"
+    },
+    {
+     "id": "design-led",
+     "label": "Architect or design-led"
+    },
+    {
+     "id": "season-extension",
+     "label": "Season extension"
+    },
+    {
+     "id": "replace-gas",
+     "label": "Replacing gas or propane"
+    },
+    {
+     "id": "heritage",
+     "label": "Heritage building"
+    },
+    {
+     "id": "multi-site",
+     "label": "Multi-site rollout"
+    },
+    {
+     "id": "large-scale",
+     "label": "Large scale (20+ heaters)"
+    },
+    {
+     "id": "fire-code",
+     "label": "Fire code and permits"
+    },
+    {
+     "id": "durability",
+     "label": "Long-term durability"
+    },
+    {
+     "id": "design-service",
+     "label": "Bromic design service / heat plan"
+    }
+   ]
+  },
+  "market": {
+   "label": "Market",
+   "multi": false,
+   "tags": [
+    {
+     "id": "US",
+     "label": "United States"
+    },
+    {
+     "id": "CA",
+     "label": "Canada"
+    },
+    {
+     "id": "AU",
+     "label": "Australia"
+    },
+    {
+     "id": "NZ",
+     "label": "New Zealand"
+    },
+    {
+     "id": "UK",
+     "label": "United Kingdom"
+    },
+    {
+     "id": "NL",
+     "label": "Netherlands"
+    },
+    {
+     "id": "BE",
+     "label": "Belgium"
+    },
+    {
+     "id": "DACH",
+     "label": "Germany, Austria, Switzerland"
+    },
+    {
+     "id": "EU",
+     "label": "Rest of Europe"
+    },
+    {
+     "id": "ME",
+     "label": "Middle East"
+    },
+    {
+     "id": "IN",
+     "label": "India"
+    },
+    {
+     "id": "ASIA",
+     "label": "Asia"
+    },
+    {
+     "id": "LATAM",
+     "label": "Latin America"
+    },
+    {
+     "id": "MARINE",
+     "label": "At sea (global)"
+    }
+   ]
+  },
+  "proof": {
+   "label": "Proof",
+   "multi": true,
+   "tags": [
+    {
+     "id": "quote",
+     "label": "Customer quote"
+    },
+    {
+     "id": "heat-plan",
+     "label": "Heat plan"
+    },
+    {
+     "id": "numbers",
+     "label": "Result with numbers"
+    },
+    {
+     "id": "credits",
+     "label": "Architect or designer credited"
+    },
+    {
+     "id": "press",
+     "label": "Third-party press"
+    },
+    {
+     "id": "photo-set",
+     "label": "Photo set (5+)"
+    }
+   ]
+  }
+ },
+ "grid": {
+  "markets": [
+   "US",
+   "CA",
+   "AU",
+   "NZ",
+   "UK",
+   "NL",
+   "BE",
+   "DACH",
+   "EU",
+   "ME",
+   "IN",
+   "LATAM"
+  ],
+  "note": "Whitespace columns are the markets Bromic Global Heating sells into. Marine is global and shown as its own rows."
+ }
+}

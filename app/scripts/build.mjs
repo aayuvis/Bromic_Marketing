@@ -161,6 +161,11 @@ const site = fs.existsSync(sitePath) ? readJSON('data/site-inventory.json').filt
   ...(r.kind === 'gallery' ? { segment: r.segment, location: r.location, mount: r.mount } : {}),
 })) : [];
 
+// case studies: records, taxonomy, slide collections, whitespace targets (scripts/build_case_studies.py)
+const csFile = (f) => (fs.existsSync(path.join(ROOT, 'data', f)) ? readJSON('data/' + f) : null);
+const cs = { records: csFile('case-studies.json') || [], tax: csFile('case-study-taxonomy.json'), collections: (csFile('case-study-collections.json') || {}).collections || [], targets: (csFile('case-study-targets.json') || {}).targets || [] };
+for (const r of cs.records) for (const id of r.images || []) if (!imgIds.has(id)) errors.push(`data/case-studies.json ${r.id}: image "${id}" not in library`);
+
 // image usage
 const usage = {};
 for (const it of items) {
@@ -168,7 +173,7 @@ for (const it of items) {
   for (const u of used) (usage[u] ||= []).push(it.id);
 }
 
-const HUB = { built: new Date().toISOString(), matrix, assets, facts, images, usage, tools, site, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
+const HUB = { built: new Date().toISOString(), matrix, assets, facts, images, usage, tools, site, cs, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
 
 console.log(`items ${items.length} · tools ${tools.length} · images ${images.length} · site pages ${site.length} · errors ${errors.length} · warnings ${warn.length}`);
 warn.forEach((w) => console.log('  warn  ' + w));

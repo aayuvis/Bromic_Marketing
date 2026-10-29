@@ -1,0 +1,6584 @@
+[
+ {
+  "id": "cs-untied-rooftop-bar-barangaroo-sydney-unc",
+  "kind": "case-study",
+  "title": "Untied - Rooftop Bar (Barangaroo, Sydney) — UNCONFIRMED",
+  "customer": "Untied",
+  "location": "Barangaroo, Sydney",
+  "url": null,
+  "also_at": [],
+  "read": "search-snippet-only",
+  "summary": "Possibly a legacy Bromic AU case study; existence not confirmed. No URL, products or details recoverable. Treat as a lead to verify with Bromic AU.",
+  "year": null,
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [],
+   "product": [],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "AU"
+   ],
+   "proof": []
+  },
+  "issues": [
+   "Not read: www.bromic.com.au blocks automated reading; known from a search listing only"
+  ],
+  "images": [],
+  "note": "Known from a search listing only: the page could not be read · Not yet tagged by hand"
+ },
+ {
+  "id": "cs-barangaroo-house",
+  "kind": "case-study",
+  "title": "Barangaroo House - Bromic Heating Australia",
+  "customer": "Solotel (operator) — Barangaroo House",
+  "location": "Barangaroo, Sydney, NSW",
+  "url": "https://www.bromic.com.au/case-study/barangaroo-house/",
+  "also_at": [],
+  "read": "search-snippet-only",
+  "summary": "Solotel's three-level Sydney venue with most of its service area outdoors; Platinum Smart-Heat Electric heaters on every level. Quantities, controls and images unknown (page not readable).",
+  "year": null,
+  "tags": {
+   "segment": [
+    "restaurant",
+    "bar-rooftop"
+   ],
+   "space": [
+    "terrace",
+    "rooftop"
+   ],
+   "install": [],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "AU"
+   ],
+   "proof": []
+  },
+  "issues": [
+   "Not read: www.bromic.com.au blocks automated reading; known from a search listing only"
+  ],
+  "images": [
+   "w-barangaroo-house-sydney-platinum-electric-4"
+  ],
+  "note": "Known from a search listing only: the page could not be read",
+  "gallery_projects": [
+   "pj-barangaroo-house"
+  ]
+ },
+ {
+  "id": "cs-albany-zero-emissions-multifamily-building",
+  "kind": "case-study",
+  "title": "Creating a Year-Round Rooftop Retreat in Albany's First Zero-Emissions Multifamily Building",
+  "customer": "The Rosenblum Companies (Industrie apartments)",
+  "location": "Albany, New York, USA",
+  "url": "https://www.bromic.com/case-study/albany-zero-emissions-multifamily-building/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/albany-zero-emissions-multifamily-building/"
+  ],
+  "read": "read",
+  "summary": "2024 multifamily case study: The Rosenblum Companies' all-electric Industrie building in Albany uses Eclipse portable heaters on its roof deck instead of gas fire tables; developer quotes.",
+  "year": 2024,
+  "tags": {
+   "segment": [
+    "multifamily"
+   ],
+   "space": [
+    "rooftop",
+    "amenity-deck"
+   ],
+   "install": [
+    "freestanding"
+   ],
+   "product": [
+    "eclipse-portable"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [
+    "all-electric",
+    "replace-gas",
+    "design-led"
+   ],
+   "market": [
+    "US"
+   ],
+   "proof": [
+    "quote",
+    "credits",
+    "photo-set"
+   ]
+  },
+  "issues": [
+   "Strong electrification angle, but no controls mentioned",
+   "'outperforms natural gas fire tables' unquantified",
+   "'Freestanding' vs 'Portable' naming",
+   "Unattributed resident quote; heat maps mentioned not shown",
+   "No quantities; empty image tags; no alt text"
+  ],
+  "images": [
+   "w-industrie-apartments-exterior",
+   "w-industrie-roof-deck-1",
+   "w-rdc-industrie-may-2024-14-edit"
+  ]
+ },
+ {
+  "id": "cs-christophers-at-wrigley-mansion",
+  "kind": "case-study",
+  "title": "Eclipse Freestanding for Christopher’s at Wrigley Mansion",
+  "customer": "Christopher's at Wrigley Mansion (owner Jamie Hormel; restaurateur Christopher Gross)",
+  "location": "Phoenix, Arizona, USA",
+  "url": "https://www.bromic.com/case-study/christophers-at-wrigley-mansion/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/christophers-at-wrigley-mansion/"
+  ],
+  "read": "read",
+  "summary": "2022 case study: architect Wendell Burnette chose Eclipse freestanding heaters so Christopher's restaurant at Phoenix's historic 1931 Wrigley Mansion could add a patio without spoiling the design.",
+  "year": 2022,
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [
+    "terrace"
+   ],
+   "install": [
+    "freestanding"
+   ],
+   "product": [
+    "eclipse-portable"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [
+    "heritage",
+    "design-led",
+    "heat-light"
+   ],
+   "market": [
+    "US"
+   ],
+   "proof": [
+    "quote",
+    "credits"
+   ]
+  },
+  "issues": [
+   "Client field lists the architect firm, not the venue",
+   "Typo 'Wendall' (Wendell); alt text 'Wrigleys Mansion'",
+   "No controls mentioned; no quantity",
+   "Gallery images empty src (link targets only)"
+  ],
+  "images": [
+   "w-christophers-wrigley-mansion",
+   "w-wrigley-mansion-phoenix-arizona-17",
+   "w-wrigley-mansion-phoenix-arizona-22",
+   "w-wrigleys-mansion-eclipse-portable-heater-1",
+   "w-wrigleys-mansion-eclipse-portable-heater-4"
+  ],
+  "gallery_projects": [
+   "pj-wrigley-mansion"
+  ]
+ },
+ {
+  "id": "cs-del-friscos-double-eagle-steakhouse",
+  "kind": "case-study",
+  "title": "Platinum Electric Heaters at Del Frisco’s Steakhouse",
+  "customer": "Del Frisco’s Restaurant Group (Del Frisco's, Westfield Century City)",
+  "location": "Los Angeles, California, USA",
+  "url": "https://www.bromic.com/case-study/del-friscos-double-eagle-steakhouse/",
+  "also_at": [
+   "https://www.bromic.com.au/case-study/del-friscos/",
+   "https://www.bromic.ca/case-study/del-friscos-double-eagle-steakhouse/"
+  ],
+  "read": "read",
+  "summary": "Jan 2019: Del Frisco's at Westfield Century City, LA, added three Platinum 3400W electric heaters with a wireless controller and dimmer to its patio for year-round dining.",
+  "year": 2019,
+  "tags": {
+   "segment": [
+    "restaurant",
+    "retail-precinct"
+   ],
+   "space": [
+    "terrace"
+   ],
+   "install": [
+    "ceiling-mounted"
+   ],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "legacy-wireless"
+   ],
+   "theme": [
+    "season-extension"
+   ],
+   "market": [
+    "US"
+   ],
+   "proof": [
+    "numbers"
+   ]
+  },
+  "issues": [
+   "Typos 'choose' (chose), 'dining guest'",
+   "Slug says 'double-eagle' but H1 says Steakhouse",
+   "Single photo; date 2019 vs metadata 2021",
+   "JSON-LD references staging domain us.bromic-prod.454.agency"
+  ],
+  "images": [
+   "w-img-9924-copy-1024x683-1"
+  ]
+ },
+ {
+  "id": "cs-desert-mirage-blurring-the-lines-between-home-and-nature",
+  "kind": "case-study",
+  "title": "Desert Mirage: Blurring the Lines Between Home and Nature",
+  "customer": "Private residence (Desert Mirage / Sunset Residence)",
+  "location": "Scottsdale, Arizona, USA",
+  "url": "https://www.bromic.com/case-study/desert-mirage-blurring-the-lines-between-home-and-nature/",
+  "also_at": [
+   "https://www.bromic.com.au/case-study/desert-mirage-blurring-the-lines-between-home-and-nature/",
+   "https://www.bromic.ca/case-study/desert-mirage-blurring-the-lines-between-home-and-nature/"
+  ],
+  "read": "read",
+  "summary": "Scottsdale residence (featured on Dwell) by AFT Construction, Cosan Studio and Alisha Taylor Interiors, using an Eclipse freestanding/portable heater on the patio; builder quote and full credits.",
+  "year": 2024,
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [
+    "covered-patio",
+    "california-room"
+   ],
+   "install": [
+    "freestanding"
+   ],
+   "product": [
+    "eclipse-portable"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [
+    "design-led",
+    "heat-light"
+   ],
+   "market": [
+    "US"
+   ],
+   "proof": [
+    "quote",
+    "credits",
+    "press",
+    "photo-set"
+   ]
+  },
+  "issues": [
+   "Standout: architect/designer/builder/photographer credits and Dwell feature — good template",
+   "No date shown; no controls mentioned",
+   "'Freestanding' vs 'Electric Portable' naming",
+   "Bromic link uses hubs.li tracking shortener",
+   "Meta description truncated",
+   "All images lack alt; several missing src; one from pim.bromic.com"
+  ],
+  "images": [
+   "w-bromic-eclipse-heater-scottsdale-home-6",
+   "w-bromiceclipseheater-scottsdalehome-10",
+   "w-desert-mirage",
+   "w-dwell-modern-sunset-house",
+   "w-dwellimage2",
+   "w-dwellimage3",
+   "w-dwellimage4",
+   "w-dwellimage5",
+   "w-dwellimage6"
+  ]
+ },
+ {
+  "id": "cs-eclipse-electric-and-tungsten-electric-at-pink-hill-hotel",
+  "kind": "case-study",
+  "title": "Eclipse Electric and Tungsten Electric at Pink Hill Hotel",
+  "customer": "Pink Hill Hotel",
+  "location": "Beaconsfield, Australia",
+  "url": "https://www.bromic.com/case-study/eclipse-electric-and-tungsten-electric-at-pink-hill-hotel/",
+  "also_at": [
+   "https://www.bromic.com.au/case-study/eclipse-electric-and-tungsten-electric-at-pink-hill-hotel/",
+   "https://www.bromic.ca/case-study/eclipse-electric-and-tungsten-electric-at-pink-hill-hotel/"
+  ],
+  "read": "read",
+  "summary": "Dec 2023 Australian pub/live-music venue: Bromic mixed Eclipse (pole and pendant) and Tungsten electric heaters with poles to suit varying ceiling heights; Eclipse Dimmer Controller presets noted.",
+  "year": 2023,
+  "tags": {
+   "segment": [
+    "pub-club",
+    "hotel-resort"
+   ],
+   "space": [
+    "courtyard",
+    "terrace"
+   ],
+   "install": [
+    "pole-suspended",
+    "pendant"
+   ],
+   "product": [
+    "eclipse-electric",
+    "eclipse-pendant",
+    "tungsten-electric"
+   ],
+   "controls": [
+    "eclipse-dimmer"
+   ],
+   "theme": [
+    "heat-light",
+    "high-ceiling",
+    "design-service"
+   ],
+   "market": [
+    "AU"
+   ],
+   "proof": [
+    "press",
+    "photo-set"
+   ]
+  },
+  "issues": [
+   "Conflicting spec: '3 ft (1200mm)' — 1200mm is ~4 ft",
+   "'24 Inch Straight Pole' (list) vs '24-inch (600mm) Twin Pole' (body)",
+   "Eclipse Pendant in body but not in Solution list",
+   "Dimmer link uses ?post_type=product&p=26050 in Solution list",
+   "® vs ™ inconsistency",
+   "Two body images missing src; gallery lacks alt"
+  ],
+  "images": [
+   "w-eclipse-electric-bromic-pinkhill-532-2",
+   "w-eclipse-electric-bromic-pinkhill-553-1",
+   "w-eclipse-electric-tungsten-electric-bromic-pi",
+   "w-pink-hills-hotel-aus-1",
+   "w-pink-hills-hotel-aus-2",
+   "w-tungsten-electric-bromic-pinkhill-524",
+   "w-tungsten-electric-bromic-pinkhill-547-1"
+  ],
+  "gallery_projects": [
+   "pj-pink-hills-hotel"
+  ]
+ },
+ {
+  "id": "cs-eclipse-freestanding-and-tungsten-electric-at-hyatt-regency-",
+  "kind": "case-study",
+  "title": "Eclipse Freestanding and Tungsten Electric at Hyatt Regency Dehradun",
+  "customer": "Hyatt Regency Dehradun",
+  "location": "Dehradun / Mussoorie foothills, Uttarakhand, India",
+  "url": "https://www.bromic.com/case-study/eclipse-freestanding-and-tungsten-electric-at-hyatt-regency-dehradun/",
+  "also_at": [
+   "https://www.bromic.com.au/case-study/eclipse-freestanding-and-tungsten-electric-at-hyatt-regency-dehradun/",
+   "https://www.bromic.ca/case-study/eclipse-freestanding-and-tungsten-electric-at-hyatt-regency-dehradun/"
+  ],
+  "read": "read",
+  "summary": "May 2023 hotel case study: Tungsten electric and Eclipse freestanding heaters with Eclipse dimmers across rooftop bar and restaurants of Hyatt Regency Dehradun, chosen for hill winds via Bromic's design service; architect quotes.",
+  "year": 2023,
+  "tags": {
+   "segment": [
+    "hotel-resort",
+    "bar-rooftop"
+   ],
+   "space": [
+    "rooftop",
+    "terrace"
+   ],
+   "install": [
+    "freestanding",
+    "wall-mounted"
+   ],
+   "product": [
+    "eclipse-portable",
+    "tungsten-electric"
+   ],
+   "controls": [
+    "eclipse-dimmer"
+   ],
+   "theme": [
+    "wind",
+    "design-service",
+    "design-led"
+   ],
+   "market": [
+    "IN"
+   ],
+   "proof": [
+    "quote",
+    "credits"
+   ]
+  },
+  "issues": [
+   "Typo 'Uttatakhand' (Uttarakhand); 'Chaudhary' vs 'Choudhary'",
+   "Body dimmer link https://www.bromic.com/eclipse-dimmer-controller/ differs from product URL (possible 404); Solution link uses ?post_type=product&p=26050",
+   "Unsourced 'largest luxury 5-star' claim",
+   "No quantities; captioned photos missing src; no alt text",
+   "JSON-LD references staging domain us.bromic-prod.454.agency"
+  ],
+  "images": [
+   "w-23-03-12-bromic-heating-hyatt-dehradun-14",
+   "w-23-03-12-bromic-heating-hyatt-dehradun-49",
+   "w-23-03-12-bromic-heating-hyatt-dehradun-52",
+   "w-23-03-12-bromic-heating-hyatt-dehradun-61",
+   "w-23-03-12-bromic-heating-hyatt-dehradun-85"
+  ],
+  "gallery_projects": [
+   "pj-hyatt-dehradun"
+  ]
+ },
+ {
+  "id": "cs-eclipse-pendant-and-platinum-electric-at-stellas-wine-bar",
+  "kind": "case-study",
+  "title": "Eclipse Pendant and Platinum Electric at Stella’s Wine Bar",
+  "customer": "Stella's Wine Bar, The Post Oak Hotel (Landry's)",
+  "location": "Houston, Texas, USA",
+  "url": "https://www.bromic.com/case-study/eclipse-pendant-and-platinum-electric-at-stellas-wine-bar/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/eclipse-pendant-and-platinum-electric-at-stellas-wine-bar/"
+  ],
+  "read": "read",
+  "summary": "Stella's Wine Bar at Landry's Post Oak Hotel, Houston: four Eclipse pendants with dimmers and two Platinum electric heaters with a wireless dimmer, from a 2D heat plan by Bromic's design service; sommelier quote.",
+  "year": 2023,
+  "tags": {
+   "segment": [
+    "bar-rooftop",
+    "hotel-resort"
+   ],
+   "space": [
+    "terrace"
+   ],
+   "install": [
+    "pendant",
+    "pole-suspended",
+    "ceiling-mounted"
+   ],
+   "product": [
+    "eclipse-pendant",
+    "platinum-electric"
+   ],
+   "controls": [
+    "eclipse-dimmer",
+    "legacy-wireless"
+   ],
+   "theme": [
+    "heat-light",
+    "design-service"
+   ],
+   "market": [
+    "US"
+   ],
+   "proof": [
+    "quote",
+    "heat-plan",
+    "numbers"
+   ]
+  },
+  "issues": [
+   "Standout: shows Bromic's 2D heat plan — but the heat-plan image has empty src (broken)",
+   "'compliment' should be 'complement'",
+   "Date 2021 vs metadata 2023",
+   "'2' ceiling mount' vs 'Platinum Electric Mounting Poles'; mixed inch/foot units",
+   "Unsourced claims about Landry's and hotel ratings",
+   "No alt text; dimmer link uses ?post_type=product&p=26050"
+  ],
+  "images": [
+   "w-stellas-bromic-eclipse-and-platinum-electric",
+   "w-stellas-bromic-eclipse-heater",
+   "w-stellas-bromic-platinum-electric",
+   "w-stellas-wine-bar-houston-tx-3"
+  ]
+ },
+ {
+  "id": "cs-embracing-earthy-elegance-at-oran-park-hotel",
+  "kind": "case-study",
+  "title": "Embracing Earthy Elegance at Oran Park Hotel",
+  "customer": "Oran Park Hotel",
+  "location": "Oran Park, Sydney, Australia",
+  "url": "https://www.bromic.com/case-study/embracing-earthy-elegance-at-oran-park-hotel/",
+  "also_at": [
+   "https://www.bromic.com.au/case-study/embracing-earthy-elegance-at-oran-park-hotel/",
+   "https://www.bromic.ca/case-study/embracing-earthy-elegance-at-oran-park-hotel/"
+  ],
+  "read": "read",
+  "summary": "2025 Australian pub-hotel case study: Platinum Electric and Eclipse Pendant heaters across large terraces and a rooftop, positioned with Bromic's design team; architect quotes on fitting an earth-inspired design.",
+  "year": 2025,
+  "tags": {
+   "segment": [
+    "hotel-resort",
+    "pub-club"
+   ],
+   "space": [
+    "terrace",
+    "courtyard",
+    "rooftop"
+   ],
+   "install": [
+    "wall-mounted",
+    "pole-suspended",
+    "pendant"
+   ],
+   "product": [
+    "platinum-electric",
+    "eclipse-pendant"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [
+    "heat-light",
+    "high-ceiling",
+    "design-led",
+    "design-service"
+   ],
+   "market": [
+    "AU"
+   ],
+   "proof": [
+    "quote",
+    "credits",
+    "press",
+    "photo-set"
+   ]
+  },
+  "issues": [
+   "Heaters recommended without controls",
+   "Metric-only dimensions and British spelling on US site",
+   "Architect firm 'Achiebiosis' vs URL 'archebiosis' mismatch",
+   "Hero filename typo 'eclispe.jpg'; two images missing src",
+   "'has yet to receive direct guest feedback' dated; no date or quantities",
+   "JSON-LD references staging domain us.bromic-prod.454.agency"
+  ],
+  "images": [
+   "w-eclispe"
+  ],
+  "gallery_projects": [
+   "pj-the-oran-hotel"
+  ]
+ },
+ {
+  "id": "cs-embracing-natures-elegance-ambiente-sedona",
+  "kind": "case-study",
+  "title": "Embracing Nature’s Elegance: Ambiente Sedona",
+  "customer": "Ambiente Sedona (Ambiente, A Landscape Hotel)",
+  "location": "Sedona, Arizona, USA",
+  "url": "https://www.bromic.com/case-study/embracing-natures-elegance-ambiente-sedona/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/embracing-natures-elegance-ambiente-sedona/"
+  ],
+  "read": "read",
+  "summary": "Longer 2024 story of Ambiente, a Sedona landscape hotel, using Eclipse freestanding and Tungsten electric heaters planned by Bromic's design team; co-owner quotes and a large photo gallery.",
+  "year": 2024,
+  "tags": {
+   "segment": [
+    "hotel-resort"
+   ],
+   "space": [
+    "terrace",
+    "deck"
+   ],
+   "install": [
+    "freestanding",
+    "wall-mounted"
+   ],
+   "product": [
+    "eclipse-portable",
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [
+    "design-led",
+    "design-service"
+   ],
+   "market": [
+    "US"
+   ],
+   "proof": [
+    "quote",
+    "photo-set"
+   ]
+  },
+  "issues": [
+   "Typo 'mordern'; heading 'The Plan.' stray period; comma splice",
+   "Heat plans mentioned but not shown",
+   "Heaters recommended without controls",
+   "'Freestanding' vs 'Eclipse Portable Heaters' naming",
+   "Unsupported claims ('overwhelmingly positive', 'pioneer')",
+   "Body images have empty src"
+  ],
+  "images": [
+   "w-bromic-ambiente-sedona",
+   "w-bromic-ambiente-sedona-10",
+   "w-bromic-ambiente-sedona-11",
+   "w-bromic-ambiente-sedona-12",
+   "w-bromic-ambiente-sedona-14",
+   "w-bromic-ambiente-sedona-16",
+   "w-bromic-ambiente-sedona-17",
+   "w-bromic-ambiente-sedona-4",
+   "w-bromic-ambiente-sedona-5",
+   "w-bromic-ambiente-sedona-9"
+  ]
+ },
+ {
+  "id": "cs-enhancing-rooftop-bar-designs-with-cutting-edge-outdoor-heat",
+  "kind": "case-study",
+  "title": "Enhancing Rooftop Bar Designs with Cutting-Edge Outdoor Heating Solutions",
+  "customer": "Private Developer (rooftop bar, Hive and Honey per image filenames)",
+  "location": "Irvine, California, USA",
+  "url": "https://www.bromic.com/case-study/enhancing-rooftop-bar-designs-with-cutting-edge-outdoor-heating-solutions/",
+  "also_at": [
+   "https://www.bromic.com.au/case-study/enhancing-rooftop-bar-designs-with-cutting-edge-outdoor-heating-solutions/",
+   "https://www.bromic.ca/case-study/enhancing-rooftop-bar-designs-with-cutting-edge-outdoor-heating-solutions/"
+  ],
+  "read": "read",
+  "summary": "2023 rooftop bar (Hive and Honey) 16 storeys up in Irvine: wind and window-washing rigs ruled out gas and perimeter mounts, so Bromic mixed Eclipse portables with hardwired Tungsten electric heaters.",
+  "year": 2023,
+  "tags": {
+   "segment": [
+    "bar-rooftop",
+    "restaurant"
+   ],
+   "space": [
+    "rooftop"
+   ],
+   "install": [
+    "freestanding",
+    "pole-suspended"
+   ],
+   "product": [
+    "eclipse-portable",
+    "tungsten-electric"
+   ],
+   "controls": [
+    "eclipse-dimmer",
+    "switch"
+   ],
+   "theme": [
+    "wind",
+    "replace-gas",
+    "design-service"
+   ],
+   "market": [
+    "US"
+   ],
+   "proof": [
+    "heat-plan",
+    "photo-set"
+   ]
+  },
+  "issues": [
+   "Venue (Hive and Honey) named only in image filenames",
+   "Grammar 'hardwired to a On/Off switches'",
+   "'Freestanding' vs 'Portable'; 'Dimmer Controller' vs 'Dimmer Remote'",
+   "Heat plan described but not shown",
+   "No quantities; three body images empty src; gallery lacks alt",
+   "JSON-LD references staging domain us.bromic-prod.454.agency"
+  ],
+  "images": [
+   "w-bromic-sep18th-14",
+   "w-bromic-sep18th-18",
+   "w-bromic-sep18th-28",
+   "w-bromic-sep18th-41-photoshopped",
+   "w-eclipse-portable-hive-and-honey-2",
+   "w-eclipse-portable-hive-and-honey-3",
+   "w-img-0661",
+   "w-white-tungsten-electric-hive-and-honey-1"
+  ],
+  "gallery_projects": [
+   "pj-honey-hive"
+  ]
+ },
+ {
+  "id": "cs-enhancing-work-life-balance-with-year-round-outdoor-comfort-",
+  "kind": "case-study",
+  "title": "Enhancing Work-Life Balance with Year-Round Outdoor Comfort at The Boardwalk",
+  "customer": "The Boardwalk (managed by CBRE)",
+  "location": "Irvine, California, USA",
+  "url": "https://www.bromic.com/case-study/enhancing-work-life-balance-with-year-round-outdoor-comfort-at-the-boardwalk/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/enhancing-work-life-balance-with-year-round-outdoor-comfort-at-the-boardwalk/"
+  ],
+  "read": "read",
+  "summary": "2024 workplace case study: Platinum Electric heaters in the pergolas of The Boardwalk's two-acre courtyard, an Irvine office campus managed by CBRE, for year-round outdoor work and breaks.",
+  "year": 2024,
+  "tags": {
+   "segment": [
+    "workplace"
+   ],
+   "space": [
+    "pergola",
+    "courtyard"
+   ],
+   "install": [
+    "pole-suspended",
+    "wood-structure"
+   ],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [
+    "season-extension"
+   ],
+   "market": [
+    "US"
+   ],
+   "proof": [
+    "heat-plan"
+   ]
+  },
+  "issues": [
+   "Heaters without controls; no quantities, no quote, no CTA",
+   "'Platinum E heaters' naming; heading 'The balance of work-life' awkward",
+   "Filename typo 'platnium.png'; empty image tags; no alt text",
+   "'304-grade' material should be checked against product facts (marine is 316)",
+   "JSON-LD references staging domain us.bromic-prod.454.agency"
+  ],
+  "images": [
+   "w-boardwalk-edits-27",
+   "w-boardwalk-edits-49"
+  ]
+ },
+ {
+  "id": "cs-from-gut-renovation-to-outdoor-bliss-how-bromics-tungsten-he",
+  "kind": "case-study",
+  "title": "From Gut Renovation to Outdoor Bliss: How Bromic's Tungsten Heaters Redefined Comfort for This New Jersey Home",
+  "customer": "Courtney Saib, Homeowner",
+  "location": "New Jersey, USA",
+  "url": "https://www.bromic.com/case-study/from-gut-renovation-to-outdoor-bliss-how-bromics-tungsten-heaters-redefined-comfort-for-this-new-jersey-home/",
+  "also_at": [
+   "https://www.bromic.com.au/case-study/from-gut-renovation-to-outdoor-bliss-how-bromics-tungsten-heaters-redefined-comfort-for-this-new-jersey-home/",
+   "https://www.bromic.ca/case-study/from-gut-renovation-to-outdoor-bliss-how-bromics-tungsten-heaters-redefined-comfort-for-this-new-jersey-home/"
+  ],
+  "read": "read",
+  "summary": "2024 residential story: a renovated 1960s New Jersey colonial heats its screened-in porch with two black Tungsten 4000W heaters and a dimmer; Bromic specialists cut the plan from three heaters to two.",
+  "year": 2024,
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [
+    "screened-porch"
+   ],
+   "install": [
+    "pole-suspended",
+    "ceiling-mounted"
+   ],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "legacy-wireless"
+   ],
+   "theme": [
+    "season-extension",
+    "design-service"
+   ],
+   "market": [
+    "US"
+   ],
+   "proof": [
+    "quote",
+    "photo-set"
+   ]
+  },
+  "issues": [
+   "Grammar: 'The core question: became how…'; 'families home'; 'hangout'",
+   "Alt text says 'Courtney Thompson' while client/filenames say Courtney Saib",
+   "No Solution section/product list unlike other case studies",
+   "Body images have empty src",
+   "Title tag differs from H1"
+  ],
+  "images": [
+   "w-dsc05545-courtney-saib",
+   "w-dsc05656-courtney-saib",
+   "w-dsc05715-courtney-saib",
+   "w-dsc05737-courtney-saib",
+   "w-tungsten-electric-courtney-thompson-1"
+  ],
+  "gallery_projects": [
+   "pj-new-jersey-usa"
+  ]
+ },
+ {
+  "id": "cs-hide-restaurant",
+  "kind": "case-study",
+  "title": "Freestanding Tungsten Gas Heaters at HIDE Restaurant",
+  "customer": "HIDE Restaurant",
+  "location": "Piccadilly, London, United Kingdom",
+  "url": "https://www.bromic.com/case-study/hide-restaurant/",
+  "also_at": [
+   "https://www.bromic.com.au/case-study/hide-restaurant/",
+   "https://www.bromic.ca/case-study/hide-restaurant/"
+  ],
+  "read": "read",
+  "summary": "2020 COVID-era case study: Michelin-starred HIDE in London's Piccadilly moved dining onto the street with Tungsten freestanding gas heaters; restaurant manager quote.",
+  "year": 2020,
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [
+    "street-dining"
+   ],
+   "install": [
+    "freestanding"
+   ],
+   "product": [
+    "tungsten-portable"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [
+    "season-extension"
+   ],
+   "market": [
+    "UK"
+   ],
+   "proof": [
+    "quote"
+   ]
+  },
+  "issues": [
+   "Quoted person spelled 'Mawtus' and 'Mathus'",
+   "Unsourced claims ('world’s 2nd largest wine list', 'industry-leading heat output')",
+   "COVID framing dated; UK project on US site",
+   "HTML entity in front matter; schema name differs from H1",
+   "JSON-LD references staging domain us.bromic-prod.454.agency"
+  ],
+  "images": [
+   "w-hide-london-2",
+   "w-hide-london-4",
+   "w-hide-london-5"
+  ]
+ },
+ {
+  "id": "cs-hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-",
+  "kind": "case-study",
+  "title": "Hotel Skansen Elevates Outdoor Dining with the Bromic Smart-Heat™ Freestanding Heaters",
+  "customer": "Hotel Skansen (GRAM Group)",
+  "location": "Båstad, Sweden",
+  "url": "https://www.bromic.com/case-study/hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-heat-freestanding-heaters/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-heat-freestanding-heaters/"
+  ],
+  "read": "read",
+  "summary": "Nov 2023 Swedish hotel case study: two Eclipse freestanding heaters with the Eclipse Dimmer Controller for Hotel Skansen's SAND restaurant terrace, with layout and heat-plan images and staff quotes.",
+  "year": 2023,
+  "tags": {
+   "segment": [
+    "hotel-resort",
+    "restaurant"
+   ],
+   "space": [
+    "terrace"
+   ],
+   "install": [
+    "freestanding"
+   ],
+   "product": [
+    "eclipse-portable"
+   ],
+   "controls": [
+    "eclipse-dimmer"
+   ],
+   "theme": [
+    "coastal",
+    "heat-light",
+    "design-service"
+   ],
+   "market": [
+    "EU"
+   ],
+   "proof": [
+    "quote",
+    "heat-plan",
+    "numbers"
+   ]
+  },
+  "issues": [
+   "Standout: shows site layout and heat plan — but both images have empty src (broken)",
+   "Bracketed insertions in quotes suggest edited quotations",
+   "Grammar 'Bromic heaters is'",
+   "Client 'GRAM Group' unexplained; title tag differs from H1",
+   "Dimmer link uses ?post_type=product&p=26050 in Solution list; ® vs ™",
+   "JSON-LD references staging domain us.bromic-prod.454.agency"
+  ],
+  "images": [
+   "w-bromic-eclipse-portable-hotel-skansen-01",
+   "w-bromic-eclipse-portable-hotel-skansen-04",
+   "w-bromic-eclipse-portable-hotel-skansen-05-v02",
+   "w-bromic-eclipse-portable-hotel-skansen-06-v02",
+   "w-bromic-eclipse-portable-hotel-skansen-07"
+  ],
+  "gallery_projects": [
+   "pj-skansen-hotel"
+  ]
+ },
+ {
+  "id": "cs-kahite-golf-course-pub-grill",
+  "kind": "case-study",
+  "title": "Tungsten Electric Heaters at Kahite Golf Course Pub & Grill",
+  "customer": "Kahite Golf Course (Kahite Pub & Grill)",
+  "location": "Vonore, Tennessee, USA",
+  "url": "https://www.bromic.com/case-study/kahite-golf-course-pub-grill/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/kahite-golf-course-pub-grill/",
+   "https://www.bromic.ca/fr-ca/case-study/kahite-golf-course-pub-grill/"
+  ],
+  "read": "read",
+  "summary": "Oct 2020: a Tennessee golf club built a ~100-seat covered patio with curtains and nine Tungsten 6000W electric heaters, doubling seating; quotes from the planning committee on low-ceiling suitability.",
+  "year": 2020,
+  "tags": {
+   "segment": [
+    "golf-country-club",
+    "restaurant"
+   ],
+   "space": [
+    "covered-patio"
+   ],
+   "install": [
+    "ceiling-mounted"
+   ],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [
+    "low-clearance",
+    "season-extension"
+   ],
+   "market": [
+    "US"
+   ],
+   "proof": [
+    "quote",
+    "numbers"
+   ]
+  },
+  "issues": [
+   "Nine heaters with no controls mentioned",
+   "Metric-only units (°C, m²) on the US site",
+   "Typo 'Golf Cours' in alt/caption",
+   "Coverage claim '15m2' should be checked against product facts",
+   "Date Oct 2020 vs metadata 2021; empty image tag",
+   "JSON-LD references staging domain us.bromic-prod.454.agency"
+  ],
+  "images": []
+ },
+ {
+  "id": "cs-london-restauranteur-incorporates-full-bromic-line-across-lo",
+  "kind": "case-study",
+  "title": "London Restauranteur Incorporates Full Bromic Line Across Locations",
+  "customer": "London restaurateur (unnamed) — Paris Grill, Paris Bar, Kadie's Club",
+  "location": "London, United Kingdom",
+  "url": "https://www.bromic.com/case-study/london-restauranteur-incorporates-full-bromic-line-across-locations/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/london-restauranteur-incorporates-full-bromic-line-across-locations/"
+  ],
+  "read": "read",
+  "summary": "April 2023: a London restaurateur used Eclipse pendants, Tungsten and Platinum electric heaters across Paris Grill, Paris Bar and Kadie's Club (plus a home gym), with dimmer and on/off controls, via dealer Heatport.",
+  "year": 2023,
+  "tags": {
+   "segment": [
+    "restaurant",
+    "bar-rooftop"
+   ],
+   "space": [
+    "terrace",
+    "street-dining"
+   ],
+   "install": [
+    "pendant",
+    "wall-mounted",
+    "ceiling-mounted"
+   ],
+   "product": [
+    "eclipse-pendant",
+    "tungsten-electric",
+    "platinum-electric"
+   ],
+   "controls": [
+    "eclipse-dimmer",
+    "legacy-wireless"
+   ],
+   "theme": [
+    "multi-site",
+    "heat-light"
+   ],
+   "market": [
+    "UK"
+   ],
+   "proof": [
+    "quote",
+    "credits"
+   ]
+  },
+  "issues": [
+   "Typos: 'Restauranteur' (restaurateur) in H1, 'Gerkin' (Gherkin), 'a HVAC'",
+   "UK project on US site; client unnamed",
+   "Dimmer link uses ?post_type=product&p=26050",
+   "Two images empty src; one from pim.bromic.com; no alt text",
+   "JSON-LD references staging domain us.bromic-prod.454.agency"
+  ],
+  "images": [
+   "w-eclipse-electric-24inch-single-pole-ceiling-",
+   "w-paris-grill-case-study-hero-image",
+   "w-paris-grill-case-study-image",
+   "w-tungsten-electric-wall-mount-paris-bar-londo"
+  ],
+  "gallery_projects": [
+   "pj-paris-bar",
+   "pj-paris-grill"
+  ]
+ },
+ {
+  "id": "cs-m-y-lady-lene-superyacht",
+  "kind": "case-study",
+  "title": "Platinum Electric Marine Heaters aboard the M/Y Lady Lene Superyacht",
+  "customer": "Van der Valk Shipyard | M/Y Lady Lene Superyacht",
+  "location": null,
+  "url": "https://www.bromic.com/case-study/m-y-lady-lene-superyacht/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/m-y-lady-lene-superyacht/"
+  ],
+  "read": "read",
+  "summary": "Marine case study: white Platinum Electric Marine heaters recessed into the aft decks of the 34-metre Van der Valk explorer yacht Lady Lene; chief engineer reports they withstand deck washdowns. Full design-team credits.",
+  "year": null,
+  "tags": {
+   "segment": [
+    "marine-yacht"
+   ],
+   "space": [
+    "yacht-deck"
+   ],
+   "install": [
+    "recessed"
+   ],
+   "product": [
+    "platinum-marine"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [
+    "coastal",
+    "durability"
+   ],
+   "market": [
+    "MARINE"
+   ],
+   "proof": [
+    "quote",
+    "credits"
+   ]
+  },
+  "issues": [
+   "Heaters shown without controls",
+   "'only company' Lloyd's Register claim needs verification",
+   "Date 2021 vs metadata 2022; ® vs ™",
+   "No alt text; two empty-src images"
+  ],
+  "images": [
+   "w-bromic-heating-marine-platinum-electric-lady",
+   "w-marine-grade-platinum-electric-white-lady-le"
+  ],
+  "gallery_projects": [
+   "pj-lady-lene"
+  ]
+ },
+ {
+  "id": "cs-pecora-bianca",
+  "kind": "case-study",
+  "title": "Platinum and Tungsten Electric Heaters at Pecora Bianca Restaurant",
+  "customer": "Pecora Bianca",
+  "location": "New York, NY, USA (inferred from image names/alt)",
+  "url": "https://www.bromic.com/case-study/pecora-bianca/",
+  "also_at": [
+   "https://www.bromic.com.au/case-study/pecora-bianca/",
+   "https://www.bromic.ca/case-study/pecora-bianca/",
+   "https://www.bromic.ca/fr-ca/case-study/pecora-bianca/"
+  ],
+  "read": "read",
+  "summary": "Brief Sept 2020 case study: Pecora Bianca restaurant used Platinum and Tungsten electric heaters to keep serving outdoors during COVID.",
+  "year": 2020,
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [
+    "street-dining"
+   ],
+   "install": [
+    "wall-mounted"
+   ],
+   "product": [
+    "platinum-electric",
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [
+    "season-extension"
+   ],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "issues": [
+   "Heaters shown without controls",
+   "Location not stated in text (only 'NYC' in filenames)",
+   "'Pecora Bianca' vs 'La Pecora Bianca' inconsistency",
+   "Meta title differs from H1; JSON-LD date conflicts with on-page date",
+   "COVID framing dated",
+   "JSON-LD references staging domain us.bromic-prod.454.agency"
+  ],
+  "images": [
+   "w-dsc000071",
+   "w-dsc000141",
+   "w-img-13962",
+   "w-img-14041"
+  ],
+  "gallery_projects": [
+   "pj-la-pecora-bianca"
+  ]
+ },
+ {
+  "id": "cs-perfecting-the-modern-outdoor-pool-house-with-bromics-eclips",
+  "kind": "case-study",
+  "title": "Perfecting the Modern Outdoor Pool House with Bromic’s Eclipse Collection",
+  "customer": "Private Homeowner",
+  "location": "Germany (dealer in Bellheim)",
+  "url": "https://www.bromic.com/case-study/perfecting-the-modern-outdoor-pool-house-with-bromics-eclipse-collection/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/perfecting-the-modern-outdoor-pool-house-with-bromics-eclipse-collection/"
+  ],
+  "read": "read",
+  "summary": "German pool-house project (June 2023) where a pool dealer used Eclipse electric heaters on straight poles with the Eclipse Dimmer Controller, working with a Bromic heating expert on low clearance and voltage.",
+  "year": 2023,
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [
+    "pool-cabana"
+   ],
+   "install": [
+    "pole-suspended"
+   ],
+   "product": [
+    "eclipse-electric"
+   ],
+   "controls": [
+    "eclipse-dimmer"
+   ],
+   "theme": [
+    "heat-light",
+    "low-clearance",
+    "design-service"
+   ],
+   "market": [
+    "DACH"
+   ],
+   "proof": [
+    "quote",
+    "credits"
+   ]
+  },
+  "issues": [
+   "HTML entities (&#039; / &#8217;) in meta title and breadcrumb",
+   "Solution-list Dimmer link uses ?post_type=product&p=26050 instead of the clean URL",
+   "'8 Inch' vs '8”' naming inconsistency",
+   "All images missing alt text",
+   "No location city or quantities stated",
+   "JSON-LD references staging domain us.bromic-prod.454.agency"
+  ],
+  "images": [
+   "w-dsc01766-bearbeitet",
+   "w-dsc01860-bearbeitet",
+   "w-dsc01890-hdr-bearbeitet",
+   "w-dsc01972-bearbeitet"
+  ]
+ },
+ {
+  "id": "cs-platinum-electric-heaters-in-pangbourne",
+  "kind": "case-study",
+  "title": "Platinum Electric Heaters in Pangbourne",
+  "customer": "Private Residence (homeowner James Peters)",
+  "location": "Pangbourne, United Kingdom",
+  "url": "https://www.bromic.com/case-study/platinum-electric-heaters-in-pangbourne/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/platinum-electric-heaters-in-pangbourne/"
+  ],
+  "read": "read",
+  "summary": "UK residence (2022): a 1920s home's barn-conversion entertaining space heated by twelve Platinum 3400W electric heaters with a wireless dimmer and master remote for zoned control; includes homeowner quote.",
+  "year": 2022,
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [
+    "barn-outbuilding"
+   ],
+   "install": [
+    "wood-structure",
+    "ceiling-mounted"
+   ],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "legacy-wireless"
+   ],
+   "theme": [
+    "heritage",
+    "large-scale"
+   ],
+   "market": [
+    "UK"
+   ],
+   "proof": [
+    "quote",
+    "numbers"
+   ]
+  },
+  "issues": [
+   "UK project on the US site",
+   "'1920’s' should be '1920s'; HTML entity in meta description",
+   "'Platinum Smart-Heat® Electric' vs 'Platinum 3400W Electric' naming",
+   "JSON-LD references staging domain us.bromic-prod.454.agency"
+  ],
+  "images": [
+   "w-p1020691-denoiseai-clear",
+   "w-p1020710-hdr-2-denoiseai-clear",
+   "w-p1021414-hdr-denoiseai-low-light",
+   "w-p1021449-hdr-denoiseai-low-light"
+  ],
+  "gallery_projects": [
+   "pj-pangbourne-uk"
+  ]
+ },
+ {
+  "id": "cs-platinum-electric-heaters-recessed-using-the-low-clearance-r",
+  "kind": "case-study",
+  "title": "Platinum Electric Heaters Recessed Using the Low Clearance Recess Kit",
+  "customer": "Artivo Shades",
+  "location": null,
+  "url": "https://www.bromic.com/case-study/platinum-electric-heaters-recessed-using-the-low-clearance-recess-kit/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/platinum-electric-heaters-recessed-using-the-low-clearance-recess-kit/"
+  ],
+  "read": "read",
+  "summary": "June 2023 installer-focused case study: Artivo Shades recessed Platinum electric heaters into a part-built pergola using the Low Clearance Recess Kit after a Bromic design consult; links to install guide.",
+  "year": 2023,
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [
+    "pergola",
+    "louvred-roof"
+   ],
+   "install": [
+    "recessed",
+    "low-clearance-recess"
+   ],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [
+    "low-clearance",
+    "design-service"
+   ],
+   "market": [],
+   "proof": [
+    "credits"
+   ]
+  },
+  "issues": [
+   "Heaters recommended without controls",
+   "No location or quantities",
+   "Quote 'the only brand that makes good looking recessed heaters' unverified",
+   "'Platinum Electric Recess Kit' vs 'Low Clearance Recess Kit' naming",
+   "One image from pim.bromic.com domain; empty src image; no alt text",
+   "JSON-LD references staging domain us.bromic-prod.454.agency"
+  ],
+  "images": [
+   "w-bromic-shoot-may-11-2023-39",
+   "w-bromic-shoot-may-11-2023-54"
+  ],
+  "gallery_projects": [
+   "pj-platinum-electric-lc-recess-kit-artivo-install"
+  ]
+ },
+ {
+  "id": "cs-platinum-electric-marine-heaters-aboard-iconic-superyacht-m-",
+  "kind": "case-study",
+  "title": "Platinum Electric Marine Heaters Aboard Iconic Superyacht, M/Y Coral Ocean",
+  "customer": "Lurssen Yachts | M/Y Coral Ocean (owner Ian Malouf)",
+  "location": null,
+  "url": "https://www.bromic.com/case-study/platinum-electric-marine-heaters-aboard-iconic-superyacht-m-y-coral-ocean/",
+  "also_at": [
+   "https://www.bromic.com.au/case-study/platinum-electric-marine-heaters-aboard-iconic-superyacht-m-y-coral-ocean/",
+   "https://www.bromic.ca/case-study/platinum-electric-marine-heaters-aboard-iconic-superyacht-m-y-coral-ocean/"
+  ],
+  "read": "read",
+  "summary": "2019 superyacht refit: recessed Platinum Electric Marine heaters on Coral Ocean's main and owner's aft decks, chosen from a free 2D heat map and run on a wireless dimmer; captain quote.",
+  "year": 2019,
+  "tags": {
+   "segment": [
+    "marine-yacht"
+   ],
+   "space": [
+    "yacht-deck"
+   ],
+   "install": [
+    "recessed"
+   ],
+   "product": [
+    "platinum-marine"
+   ],
+   "controls": [
+    "legacy-wireless"
+   ],
+   "theme": [
+    "coastal",
+    "design-service"
+   ],
+   "market": [
+    "MARINE"
+   ],
+   "proof": [
+    "quote",
+    "credits",
+    "heat-plan"
+   ]
+  },
+  "issues": [
+   "Shows a 2D heat map but its image src is empty (broken)",
+   "'drew-up', 'less cold spots' (fewer)",
+   "Lurssen listed as client although described as builder",
+   "® vs ™; no alt text",
+   "JSON-LD references staging domain us.bromic-prod.454.agency"
+  ],
+  "images": [
+   "w-my-coral-ocean-platinum-electric-2",
+   "w-my-coral-ocean-platinum-electric-3",
+   "w-my-coral-ocean-platinum-electric-4",
+   "w-my-coral-ocean-platinum-electric-6"
+  ]
+ },
+ {
+  "id": "cs-platinum-electric-marine-heaters-aboard-ritz-carlton-yacht-c",
+  "kind": "case-study",
+  "title": "Platinum Electric Marine Heaters Aboard Ritz Carlton Yacht Collections' Evrima",
+  "customer": "Ritz Carlton Yacht Collection (Evrima)",
+  "location": "Shipyard in Spain (construction)",
+  "url": "https://www.bromic.com/case-study/platinum-electric-marine-heaters-aboard-ritz-carlton-yacht-collections-evrima/",
+  "also_at": [
+   "https://www.bromic.com.au/case-study/platinum-electric-marine-heaters-aboard-ritz-carlton-yacht-collections-evrima/",
+   "https://www.bromic.ca/case-study/platinum-electric-marine-heaters-aboard-ritz-carlton-yacht-collections-evrima/"
+  ],
+  "read": "read",
+  "summary": "2022 marine case study: recessed Platinum Electric Marine heaters across six open deck areas of Ritz-Carlton Yacht Collection's Evrima, laid out with Bromic's heating expert and the interior architect.",
+  "year": 2022,
+  "tags": {
+   "segment": [
+    "marine-cruise"
+   ],
+   "space": [
+    "yacht-deck"
+   ],
+   "install": [
+    "recessed"
+   ],
+   "product": [
+    "platinum-marine"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [
+    "coastal",
+    "design-service",
+    "design-led"
+   ],
+   "market": [
+    "MARINE"
+   ],
+   "proof": [
+    "credits",
+    "heat-plan"
+   ]
+  },
+  "issues": [
+   "Hero image filename 'letzai-edit-…' suggests an AI-edited image — check provenance",
+   "Stale timelines (Ilma July 2024, Luminara Fall 2025)",
+   "No controls mentioned",
+   "'Ritz Carlton' vs 'Ritz-Carlton'; 'Collections'' vs 'Collection'; ® vs ™",
+   "Title tag raw HTML entities; two empty-src images; no alt text",
+   "JSON-LD references staging domain us.bromic-prod.454.agency"
+  ],
+  "images": [
+   "w-platinum-marine-ritz-carlton-evrima-jack-har",
+   "w-platinum-marine-ritz-carlton-evrima-jack-har-2",
+   "w-platinum-marine-ritz-carlton-evrima-jack-har-3"
+  ],
+  "gallery_projects": [
+   "pj-ritz-carlton-evrima"
+  ]
+ },
+ {
+  "id": "cs-print-restaurant",
+  "kind": "case-study",
+  "title": "Tungsten Electric Heaters at Print Restaurant",
+  "customer": "Print Restaurant",
+  "location": "New York, NY, USA",
+  "url": "https://www.bromic.com/case-study/print-restaurant/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/print-restaurant/"
+  ],
+  "read": "read",
+  "summary": "Brief case study (Jan 2017) of Print, a Hell's Kitchen restaurant overlooking the Hudson, heating its outdoor and pool area with Tungsten electric heaters.",
+  "year": 2017,
+  "tags": {
+   "segment": [
+    "restaurant",
+    "bar-rooftop"
+   ],
+   "space": [
+    "rooftop",
+    "pool-cabana"
+   ],
+   "install": [
+    "wall-mounted"
+   ],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [
+    "season-extension"
+   ],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "issues": [
+   "Heater shown without any controls",
+   "Typo 'Restaraunt' in meta description",
+   "Meta title differs from H1",
+   "Gallery images have empty src attributes and generic alt text",
+   "JSON-LD references staging domain us.bromic-prod.454.agency",
+   "Dated (2017), no quantities or credits"
+  ],
+  "images": [
+   "w-2014-01-29-17-10-54",
+   "w-e-tungsten-1",
+   "w-printrestaurant-tungstenelectric-02",
+   "w-tungsten-2",
+   "w-tungsten-3"
+  ]
+ },
+ {
+  "id": "cs-private-residence-connecticut",
+  "kind": "case-study",
+  "title": "Tungsten Electric Heaters in Connecticut",
+  "customer": "Private Residence",
+  "location": "Connecticut, USA",
+  "url": "https://www.bromic.com/case-study/private-residence-connecticut/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/private-residence-connecticut/"
+  ],
+  "read": "read",
+  "summary": "Short case study (Sept 2015) of a traditional Connecticut home that added recessed white Tungsten electric heaters with wireless dimmers to keep its porch usable in colder months.",
+  "year": 2015,
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [
+    "covered-patio"
+   ],
+   "install": [
+    "recessed"
+   ],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "legacy-wireless"
+   ],
+   "theme": [
+    "season-extension"
+   ],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "issues": [
+   "Dated project (September 2015) with no quantities, credits or quote",
+   "Controls named only as 'Wireless Dimmer Controllers' — no current Affinity naming",
+   "Most gallery images lack alt text"
+  ],
+  "images": [
+   "w-connecticut-private-res-tungsten-electric-1",
+   "w-connecticut-privateresidence-tungstenelectri",
+   "w-connecticut-privateresidence-tungstenelectri-2",
+   "w-connecticut-privateresidence-tungstenelectri-3",
+   "w-private-residence-tungsten-1",
+   "w-private-residence-tungsten-2",
+   "w-private-residence-tungsten-3",
+   "w-tungsten-electric-white-recessed"
+  ],
+  "gallery_projects": [
+   "pj-connecticut-usa"
+  ]
+ },
+ {
+  "id": "cs-provenance",
+  "kind": "case-study",
+  "title": "Platinum Gas Heaters at Provenance Restaurant",
+  "customer": "Provenance",
+  "location": "Newport Beach, California, USA",
+  "url": "https://www.bromic.com/case-study/provenance/",
+  "also_at": [
+   "https://www.bromic.com.au/case-study/provenance/",
+   "https://www.bromic.ca/case-study/provenance/",
+   "https://www.bromic.ca/fr-ca/case-study/provenance/"
+  ],
+  "read": "read",
+  "summary": "Short 2016 case study of a Newport Beach bistro using Platinum gas heaters to keep its terrace warm and add outdoor tables year-round.",
+  "year": 2016,
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [
+    "terrace"
+   ],
+   "install": [
+    "wall-mounted"
+   ],
+   "product": [
+    "platinum-gas"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [
+    "coastal",
+    "season-extension"
+   ],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "issues": [
+   "Heater shown without controls",
+   "Dated (Sept 2016), no quantities",
+   "Missing comma 'Newport Beach California'; stray spaces",
+   "External link uses http",
+   "Gallery images lack alt and links empty",
+   "Meta title differs from H1"
+  ],
+  "images": [
+   "w-california-laprovenance-platinumgas-01",
+   "w-provenancerestaurant-platinumgas-02",
+   "w-provenancerestaurant-platinumgas-03"
+  ]
+ },
+ {
+  "id": "cs-smart-heating-aboard-the-most-technologically-advanced-cruis",
+  "kind": "case-study",
+  "title": "Smart Heating Aboard The Most Technologically Advanced Cruiseship Built to Date",
+  "customer": "The Royal Caribbean Group – Silversea Cruises (Silver Nova)",
+  "location": "Built at Meyer Werft, Papenburg, Germany",
+  "url": "https://www.bromic.com/case-study/smart-heating-aboard-the-most-technologically-advanced-cruiseship-built-to-date/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/smart-heating-aboard-the-most-technologically-advanced-cruiseship-built-to-date/"
+  ],
+  "read": "read",
+  "summary": "2023 marine case study: Silversea's Silver Nova carries 70 Platinum Electric Marine heaters, recessed and pole-mounted across public decks, placed via a Bromic 2D heat plan with the Royal Caribbean Group's design lead.",
+  "year": 2023,
+  "tags": {
+   "segment": [
+    "marine-cruise"
+   ],
+   "space": [
+    "yacht-deck"
+   ],
+   "install": [
+    "recessed",
+    "pole-suspended"
+   ],
+   "product": [
+    "platinum-marine"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [
+    "large-scale",
+    "coastal",
+    "design-service"
+   ],
+   "market": [
+    "MARINE"
+   ],
+   "proof": [
+    "credits",
+    "heat-plan",
+    "numbers"
+   ]
+  },
+  "issues": [
+   "70 heaters with no controls mentioned",
+   "'Cruiseship' (cruise ship) in H1; 'Lloyds' (Lloyd's)",
+   "Unsourced superlatives and IMO/EEXI figure",
+   "'recently embarked on its first voyage' dated",
+   "Four body images empty src; no alt text",
+   "JSON-LD references staging domain us.bromic-prod.454.agency"
+  ],
+  "images": [
+   "w-most-advanced-cruise-ship-built",
+   "w-silver-nova-by-silversea-cruises",
+   "w-web-bromic-heating-silversea-silver-nova-202-2",
+   "w-web-bromic-heating-silversea-silver-nova-202-3",
+   "w-web-bromic-heating-silversea-silver-nova-202-4"
+  ]
+ },
+ {
+  "id": "cs-talon-bar-brooklyn",
+  "kind": "case-study",
+  "title": "Tungsten Electric Heaters at Talon Bar",
+  "customer": "Talon Bar",
+  "location": "Brooklyn, New York, USA",
+  "url": "https://www.bromic.com/case-study/talon-bar-brooklyn/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/talon-bar-brooklyn/"
+  ],
+  "read": "read",
+  "summary": "Short COVID-era case study of a Brooklyn bar that kept trading on its backyard patio with ceiling-hung Tungsten electric heaters.",
+  "year": 2020,
+  "tags": {
+   "segment": [
+    "bar-rooftop"
+   ],
+   "space": [
+    "courtyard"
+   ],
+   "install": [
+    "ceiling-mounted"
+   ],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [
+    "season-extension"
+   ],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "issues": [
+   "Heater shown without controls",
+   "Typo 'beiling' (ceiling) in image alt",
+   "Pandemic framing now dated",
+   "Meta title differs from H1",
+   "Gallery links empty; logo lacks alt",
+   "JSON-LD references staging domain us.bromic-prod.454.agency"
+  ],
+  "images": [
+   "w-dsc000111",
+   "w-dsc00012"
+  ]
+ },
+ {
+  "id": "cs-the-calile-hotel",
+  "kind": "case-study",
+  "title": "Platinum Electric Heaters at The Calile Hotel",
+  "customer": "The Calile Hotel",
+  "location": "Brisbane, Australia",
+  "url": "https://www.bromic.com/case-study/the-calile-hotel/",
+  "also_at": [
+   "https://www.bromic.com.au/case-study/the-calile-hotel/",
+   "https://www.bromic.ca/case-study/the-calile-hotel/"
+  ],
+  "read": "read",
+  "summary": "Brief 2019 case study: Brisbane's Calile Hotel fitted an overhead Platinum electric heater in each of seven poolside cabanas, guest-controlled from inside.",
+  "year": 2019,
+  "tags": {
+   "segment": [
+    "hotel-resort"
+   ],
+   "space": [
+    "pool-cabana"
+   ],
+   "install": [
+    "ceiling-mounted"
+   ],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "switch"
+   ],
+   "theme": [
+    "design-led"
+   ],
+   "market": [
+    "AU"
+   ],
+   "proof": [
+    "numbers"
+   ]
+  },
+  "issues": [
+   "Australian project on US site",
+   "Control type not named ('which the guest can control from within the cabana')",
+   "Single image; no total heater count",
+   "Meta title differs from H1; visible date 2019 vs schema 2020",
+   "JSON-LD references staging domain us.bromic-prod.454.agency"
+  ],
+  "images": [
+   "w-calilehero-2"
+  ]
+ },
+ {
+  "id": "cs-the-modern-heating-solution-for-vintage-upscale-dining",
+  "kind": "case-study",
+  "title": "The Modern Heating Solution for Vintage Upscale Dining",
+  "customer": "Rare Society (Trust Restaurant Group)",
+  "location": "San Clemente, California, USA",
+  "url": "https://www.bromic.com/case-study/the-modern-heating-solution-for-vintage-upscale-dining/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/the-modern-heating-solution-for-vintage-upscale-dining/"
+  ],
+  "read": "read",
+  "summary": "2023 case study of Rare Society (Trust Restaurant Group), a 5,500 sf San Clemente steakhouse, heating semi-enclosed patios with Platinum electric heaters on hardwired on/off switches.",
+  "year": 2023,
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [
+    "terrace",
+    "covered-patio"
+   ],
+   "install": [
+    "ceiling-mounted"
+   ],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "switch"
+   ],
+   "theme": [
+    "design-led"
+   ],
+   "market": [
+    "US"
+   ],
+   "proof": [
+    "photo-set"
+   ]
+  },
+  "issues": [
+   "Customer (Rare Society) not in title; client listed as Trust Restaurant Group",
+   "No quantities",
+   "All images lack alt text; two placeholders missing src",
+   "Visible date 2023 vs schema 2024",
+   "JSON-LD references staging domain us.bromic-prod.454.agency"
+  ],
+  "images": [
+   "w-black-platinum-electric-close-up",
+   "w-bromic-sep18th-3-1",
+   "w-bromic-sep18th-9-1",
+   "w-rare-society-1",
+   "w-rare-society-platinum-electric-1"
+  ]
+ },
+ {
+  "id": "cs-the-sheraton-carlsbad-resort-spa",
+  "kind": "case-study",
+  "title": "Platinum Gas Heaters at The Sheraton Carlsbad Hotel",
+  "customer": "Sheraton Carlsbad Resort & Spa (Twenty/20 Grill & Wine Bar)",
+  "location": "Carlsbad, California, USA",
+  "url": "https://www.bromic.com/case-study/the-sheraton-carlsbad-resort-spa/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/the-sheraton-carlsbad-resort-spa/"
+  ],
+  "read": "read",
+  "summary": "Durability story: 15 Platinum Gas heaters on a 120-seat resort patio, installed around 2008, needed only a few modular parts swapped after about 12 coastal years. Quotes the resort's engineering director and Bromic sales.",
+  "year": null,
+  "tags": {
+   "segment": [
+    "hotel-resort",
+    "restaurant"
+   ],
+   "space": [
+    "terrace"
+   ],
+   "install": [
+    "ceiling-mounted"
+   ],
+   "product": [
+    "platinum-gas"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [
+    "coastal",
+    "durability"
+   ],
+   "market": [
+    "US"
+   ],
+   "proof": [
+    "quote",
+    "numbers"
+   ]
+  },
+  "issues": [
+   "'12mp/h' unit typo (mph); wind figure unsourced",
+   "® vs ™ inconsistency and stray 'Smart-HeatTM' markup",
+   "Page date Oct 2020 vs install 'back in 2008'; narrative says units replaced yet only parts swapped",
+   "Gas heaters shown with no controls mentioned",
+   "Filename typo 'Shearton-4.jpg'",
+   "JSON-LD references staging domain us.bromic-prod.454.agency"
+  ],
+  "images": [
+   "w-20-twenty-westin-carlsbad-6-1024x576-1",
+   "w-26962413-10155347734127686-68414710268315124",
+   "w-platinum-gas-sheraton-carlsbad-ca-usa",
+   "w-shearton-4",
+   "w-sheraton-1",
+   "w-sheraton-2",
+   "w-sheraton-3"
+  ],
+  "gallery_projects": [
+   "pj-sheraton-carlsbad"
+  ]
+ },
+ {
+  "id": "cs-the-w-hotel",
+  "kind": "case-study",
+  "title": "Platinum and Tungsten Electric Heaters at The W Hotel",
+  "customer": "W Hotel (POV Terrace Bar)",
+  "location": "Washington, D.C., USA",
+  "url": "https://www.bromic.com/case-study/the-w-hotel/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/the-w-hotel/"
+  ],
+  "read": "read",
+  "summary": "Short case study of the W Hotel Washington's POV terrace bar using Platinum and Tungsten heaters; bar director reports customers love them.",
+  "year": null,
+  "tags": {
+   "segment": [
+    "hotel-resort",
+    "bar-rooftop"
+   ],
+   "space": [
+    "rooftop",
+    "terrace"
+   ],
+   "install": [
+    "ceiling-mounted"
+   ],
+   "product": [
+    "platinum-electric",
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [
+    "design-led"
+   ],
+   "market": [
+    "US"
+   ],
+   "proof": [
+    "quote"
+   ]
+  },
+  "issues": [
+   "Conflicting spec: body says 'Platinum Smart-Heat Gas', Solution list says Platinum Electric",
+   "Sentence fragment starting lowercase 'the newly installed…'",
+   "No date, quantities or controls; 'last winter' dated",
+   "Meta title differs from H1"
+  ],
+  "images": [
+   "w-ctkeakiveamtj6o",
+   "w-pov-terrace-dome-bar5",
+   "w-w-hotel04"
+  ]
+ },
+ {
+  "id": "cs-tonys-di-napoli",
+  "kind": "case-study",
+  "title": "Tungsten Electric Heaters at Tony's Di Napoli Restaurant",
+  "customer": "Tony's Di Napoli",
+  "location": "New York, NY, USA",
+  "url": "https://www.bromic.com/case-study/tonys-di-napoli/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/tonys-di-napoli/",
+   "https://www.bromic.ca/fr-ca/case-study/tonys-di-napoli/"
+  ],
+  "read": "read",
+  "summary": "Very thin case study: a New York family restaurant added Tungsten electric heaters to meet demand for outdoor seating. One photo, no specs or credits.",
+  "year": null,
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [
+    "street-dining"
+   ],
+   "install": [
+    "wall-mounted"
+   ],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [
+    "season-extension"
+   ],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "issues": [
+   "Thin content: no date, quantities, specs, credits or quote",
+   "Heater shown without controls",
+   "Meta title 'Best Electric Patio Heaters for Tony's Restaurants' differs from H1",
+   "'cater for' should be 'cater to'; stray '****' line",
+   "JSON-LD references staging domain us.bromic-prod.454.agency"
+  ],
+  "images": [
+   "w-tungsten-electric-tonys-bar-brooklyn-ny-1"
+  ],
+  "gallery_projects": [
+   "pj-tony-s-bar"
+  ]
+ },
+ {
+  "id": "cs-tungsten-electric-heaters-at-clinica-las-condes",
+  "kind": "case-study",
+  "title": "Tungsten Electric Heaters at Clinica Las Condes",
+  "customer": "Clinica Las Condes",
+  "location": "Santiago, Chile",
+  "url": "https://www.bromic.com/case-study/tungsten-electric-heaters-at-clinica-las-condes/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/tungsten-electric-heaters-at-clinica-las-condes/"
+  ],
+  "read": "read",
+  "summary": "Aug 2023 healthcare case study: a Santiago hospital fitted 32 Tungsten 6000W electric heaters in bioclimatic pergolas over three restaurant terraces; quotes from Bromic and the local dealer.",
+  "year": 2023,
+  "tags": {
+   "segment": [
+    "healthcare",
+    "restaurant"
+   ],
+   "space": [
+    "pergola",
+    "louvred-roof",
+    "terrace"
+   ],
+   "install": [
+    "ceiling-mounted"
+   ],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [
+    "large-scale"
+   ],
+   "market": [
+    "LATAM"
+   ],
+   "proof": [
+    "quote",
+    "numbers",
+    "heat-plan"
+   ]
+  },
+  "issues": [
+   "32 heaters specified with no controls mentioned",
+   "Calls the hospital 'the leading public hospital' — verify (generally known as private)",
+   "'no energy is wasted' overclaim",
+   "® vs ™ inconsistency; missing accents (Clínica, Domínguez)",
+   "Two images empty src; no alt text",
+   "JSON-LD references staging domain us.bromic-prod.454.agency"
+  ],
+  "images": []
+ },
+ {
+  "id": "cs-welcoming-guests-with-the-warmth-of-mexican-hospitality",
+  "kind": "case-study",
+  "title": "Welcoming Guests with the Warmth of Mexican Hospitality",
+  "customer": "Centrico (Patina Restaurant Group; sister restaurant Paseo)",
+  "location": "North Orange County, California, USA",
+  "url": "https://www.bromic.com/case-study/welcoming-guests-with-the-warmth-of-mexican-hospitality/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/welcoming-guests-with-the-warmth-of-mexican-hospitality/"
+  ],
+  "read": "read",
+  "summary": "2024 case study of Centrico (Patina Restaurant Group), an open-air Mexican restaurant in North Orange County, using ceiling-mounted Platinum gas heaters coordinated with Ignisio Studios to meet fire code.",
+  "year": 2024,
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [
+    "covered-patio",
+    "courtyard"
+   ],
+   "install": [
+    "ceiling-mounted"
+   ],
+   "product": [
+    "platinum-gas"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [
+    "fire-code",
+    "design-led"
+   ],
+   "market": [
+    "US"
+   ],
+   "proof": [
+    "credits",
+    "photo-set"
+   ]
+  },
+  "issues": [
+   "Legacy model naming: 'Platinum 300 and 500 natural gas heaters'",
+   "Frank Moreno quote ends abruptly with no text (broken)",
+   "Gas heaters with no controls mentioned",
+   "Grammar: 'adjacent from', 'for its'; stray bracket '[heaters]'",
+   "Meta description truncated; four images empty src; no alt text",
+   "JSON-LD references staging domain us.bromic-prod.454.agency"
+  ],
+  "images": [
+   "w-bromic-centrico-photos",
+   "w-bromic-centrico-photos-13",
+   "w-bromic-centrico-photos-19",
+   "w-bromic-centrico-photos-2",
+   "w-bromic-centrico-photos-22",
+   "w-bromic-centrico-photos-29",
+   "w-bromic-centrico-photos-30",
+   "w-bromic-centrico-photos-7",
+   "w-bromic-centrico-photos-8",
+   "w-centrico-case-study"
+  ],
+  "gallery_projects": [
+   "pj-centrico"
+  ]
+ },
+ {
+  "id": "cs-sunbury-bowling-club",
+  "kind": "case-study",
+  "title": "Sunbury Bowling Club (legacy AU case study; search title \"Case Studies of Gas and Electric Outdoor Patio Heaters - Bromic Heating Australia\")",
+  "customer": "Sunbury Bowling Club",
+  "location": "Sunbury, Victoria (club listing: 49 Riddell Road)",
+  "url": "https://www.bromic.com/heating-au/case-studies/sunbury-bowling-club/",
+  "also_at": [],
+  "read": "search-snippet-only",
+  "summary": "Legacy AU case study. Only its opening line survives in search; the legacy URL now 301-redirects to the AU case-studies listing, so the page appears retired. Products unknown.",
+  "year": null,
+  "tags": {
+   "segment": [
+    "pub-club"
+   ],
+   "space": [],
+   "install": [],
+   "product": [],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "AU"
+   ],
+   "proof": []
+  },
+  "issues": [
+   "Not read: www.bromic.com.au blocks automated reading; known from a search listing only"
+  ],
+  "images": [],
+  "note": "Known from a search listing only: the page could not be read"
+ },
+ {
+  "id": "pj-aba-restaurant",
+  "kind": "project",
+  "title": "Aba Restaurant",
+  "customer": "Aba Restaurant",
+  "location": null,
+  "url": "https://www.bromic.com/gallery/platinum-gas-aba-restaurant/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-gas"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-aba-restaurant"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-gas-aba-restaurant/"
+  ]
+ },
+ {
+  "id": "pj-albion-hotel",
+  "kind": "project",
+  "title": "Albion Hotel",
+  "customer": "Albion Hotel",
+  "location": "Melbourne, Australia",
+  "url": "https://www.bromic.com/gallery/platinum-gas-albion-hotel-melbourne/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "hotel-resort"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-gas"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "AU"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-platinum-gas-albion-hotel-melbourne"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-gas-albion-hotel-melbourne/"
+  ]
+ },
+ {
+  "id": "pj-argentina",
+  "kind": "project",
+  "title": "Argentina",
+  "customer": null,
+  "location": "Argentina",
+  "url": "https://www.bromic.com/gallery/tungsten-electric-black-argentina-residence/",
+  "read": "gallery",
+  "summary": "3 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "LATAM"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-argentina-residential-2",
+   "w-argentina-residential-3",
+   "w-argentina-residential-5"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-black-argentina-residence/",
+   "https://www.bromic.com/gallery/tungsten-electric-residential-argentina-2/",
+   "https://www.bromic.com/gallery/tungsten-electric-residential-argentina/"
+  ]
+ },
+ {
+  "id": "pj-arizona-usa",
+  "kind": "project",
+  "title": "Arizona, USA",
+  "customer": null,
+  "location": "Arizona, USA",
+  "url": "https://www.bromic.com/gallery/eclipse-freestanding-arizona-home/",
+  "read": "gallery",
+  "summary": "2 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [
+    "freestanding"
+   ],
+   "product": [
+    "eclipse-portable"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-bromiceclipseheater-scottsdalehome-2",
+   "w-bromiceclipseheater-scottsdalehome-4"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/eclipse-freestanding-arizona-home/",
+   "https://www.bromic.com/gallery/eclipse-freestanding-residential-arizona/"
+  ]
+ },
+ {
+  "id": "pj-babcock-custom-pools",
+  "kind": "project",
+  "title": "Babcock Custom Pools",
+  "customer": "Babcock Custom Pools",
+  "location": null,
+  "url": "https://www.bromic.com/gallery/platinum-electric-babcock-custom-pools/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-platinum-electric-babcock-custom-pools"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-babcock-custom-pools/"
+  ]
+ },
+ {
+  "id": "pj-barangaroo-house",
+  "kind": "project",
+  "title": "Barangaroo House",
+  "customer": "Barangaroo House",
+  "location": "Sydney, Australia",
+  "url": "https://www.bromic.com/gallery/platinum-electric-barangaroo-house-sydney/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "bar-rooftop",
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "AU"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-barangaroo-house-sydney-platinum-electric-4"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-barangaroo-house-sydney/"
+  ],
+  "written_as": "cs-barangaroo-house"
+ },
+ {
+  "id": "pj-belgium",
+  "kind": "project",
+  "title": "Belgium",
+  "customer": null,
+  "location": "Belgium",
+  "url": "https://www.bromic.com/gallery/platinum-electric-black-residential-belgium/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "BE"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-residential-belgium-bromic-platinum-electric"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-black-residential-belgium/"
+  ]
+ },
+ {
+  "id": "pj-brussels-belgium",
+  "kind": "project",
+  "title": "Brussels, Belgium",
+  "customer": null,
+  "location": "Brussels, Belgium",
+  "url": "https://www.bromic.com/gallery/platinum-electric-black-private-residence-brussels/",
+  "read": "gallery",
+  "summary": "4 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "BE"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-brussels-residence-platinumelectric-3-lr-102",
+   "w-residential-belgium-brussels-blackcontemp-re",
+   "w-residential-belgium-brussels-blackcontemp-re-2",
+   "w-residential-belgium-brussels-medows-resid-3"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-black-private-residence-brussels/",
+   "https://www.bromic.com/gallery/platinum-electric-black-residential-belgium-brussels-2/",
+   "https://www.bromic.com/gallery/platinum-electric-black-residential-belgium-brussels-3/",
+   "https://www.bromic.com/gallery/platinum-electric-black-residential-belgium-brussels/"
+  ]
+ },
+ {
+  "id": "pj-california-usa",
+  "kind": "project",
+  "title": "California, USA",
+  "customer": null,
+  "location": "California, USA",
+  "url": "https://www.bromic.com/gallery/tungsten-electric-and-tungsten-freestanding-in-private-residence-california/",
+  "read": "gallery",
+  "summary": "4 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [
+    "freestanding"
+   ],
+   "product": [
+    "tungsten-electric",
+    "tungsten-portable"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-tungsten-electric-portable-studio-city",
+   "w-tungsten-electric-studio-city-4",
+   "w-tungsten-portable-studio-city-3",
+   "w-tungsten-portable-studio-city-6"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-and-tungsten-freestanding-in-private-residence-california/",
+   "https://www.bromic.com/gallery/tungsten-electric-in-private-residence-california/",
+   "https://www.bromic.com/gallery/tungsten-freestanding-at-private-residence-california/",
+   "https://www.bromic.com/gallery/tungsten-freestanding-private-residence-california/"
+  ]
+ },
+ {
+  "id": "pj-centrico",
+  "kind": "project",
+  "title": "Centrico",
+  "customer": "Centrico",
+  "location": null,
+  "url": "https://www.bromic.com/gallery/platinum-gas-at-centrico-2/",
+  "read": "gallery",
+  "summary": "2 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-gas"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-bromic-centrico-photos-8"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-gas-at-centrico-2/",
+   "https://www.bromic.com/gallery/platinum-gas-at-centrico/"
+  ],
+  "written_as": "cs-welcoming-guests-with-the-warmth-of-mexican-hospitality"
+ },
+ {
+  "id": "pj-chile",
+  "kind": "project",
+  "title": "Chile",
+  "customer": null,
+  "location": "Chile",
+  "url": "https://www.bromic.com/gallery/tungsten-electric-chile/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "LATAM"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-tungsten-electric-ceiling-mounted-chile"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-chile/"
+  ]
+ },
+ {
+  "id": "pj-cobalt-electric-residential-1",
+  "kind": "project",
+  "title": "Cobalt Electric Residential_1",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/cobalt-electric-residential_1/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "cobalt"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [],
+  "gallery": [
+   "https://www.bromic.com/gallery/cobalt-electric-residential_1/"
+  ]
+ },
+ {
+  "id": "pj-cobalt-garage",
+  "kind": "project",
+  "title": "Cobalt Garage",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/cobalt-garage/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [],
+   "product": [
+    "cobalt"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [],
+  "gallery": [
+   "https://www.bromic.com/gallery/cobalt-garage/"
+  ]
+ },
+ {
+  "id": "pj-connecticut-usa",
+  "kind": "project",
+  "title": "Connecticut, USA",
+  "customer": null,
+  "location": "Connecticut, USA",
+  "url": "https://www.bromic.com/gallery/tungsten-electric-flush-mounted-in-private-residence-connecticut/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [
+    "recessed"
+   ],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-tungsten-electric-white-recessed"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-flush-mounted-in-private-residence-connecticut/"
+  ],
+  "written_as": "cs-private-residence-connecticut"
+ },
+ {
+  "id": "pj-corinthia",
+  "kind": "project",
+  "title": "Corinthia",
+  "customer": "Corinthia",
+  "location": "London, UK",
+  "url": "https://www.bromic.com/gallery/tungsten-freestanding-london-corinthia/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "hotel-resort"
+   ],
+   "space": [],
+   "install": [
+    "freestanding"
+   ],
+   "product": [
+    "tungsten-portable"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "UK"
+   ],
+   "proof": []
+  },
+  "images": [],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-freestanding-london-corinthia/"
+  ]
+ },
+ {
+  "id": "pj-crystal-cruises",
+  "kind": "project",
+  "title": "Crystal Cruises",
+  "customer": "Crystal Cruises",
+  "location": null,
+  "url": "https://www.bromic.com/gallery/crystal-cruises-platinum-electric-marine/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "marine-cruise",
+    "marine-yacht"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-marine"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-crystal-cruises-platinum-electric-marine"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/crystal-cruises-platinum-electric-marine/"
+  ]
+ },
+ {
+  "id": "pj-dalloway-terrace",
+  "kind": "project",
+  "title": "Dalloway Terrace",
+  "customer": "Dalloway Terrace",
+  "location": "London, UK",
+  "url": "https://www.bromic.com/gallery/tungsten-electric-dalloway-terrace-london/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "UK"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-tungsten-electric-dalloway-terrace-london"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-dalloway-terrace-london/"
+  ]
+ },
+ {
+  "id": "pj-decoy-lakehouse",
+  "kind": "project",
+  "title": "Decoy Lakehouse",
+  "customer": "Decoy Lakehouse",
+  "location": "San Diego, USA",
+  "url": "https://www.bromic.com/gallery/tungsten-gas-decoy-lakehouse-san-diego-2/",
+  "read": "gallery",
+  "summary": "2 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "hotel-resort"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-gas"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-img-0818",
+   "w-usa-san-diego-decoy-lakehouse-hotel-tungsten"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-gas-decoy-lakehouse-san-diego-2/",
+   "https://www.bromic.com/gallery/tungsten-gas-decoy-lakehouse-san-diego/"
+  ]
+ },
+ {
+  "id": "pj-dorrington-homes",
+  "kind": "project",
+  "title": "Dorrington Homes",
+  "customer": "Dorrington Homes",
+  "location": "Perth, Australia",
+  "url": "https://www.bromic.com/gallery/dorrington-homes-platinum-electric-1/",
+  "read": "gallery",
+  "summary": "4 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [
+    "recessed"
+   ],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "AU"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-dorrington-homes-platinum-electric-1",
+   "w-dorrington-homes-platinum-electric-2",
+   "w-dorrington-homes-platinum-electric-3"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/dorrington-homes-platinum-electric-1/",
+   "https://www.bromic.com/gallery/dorrington-homes-platinum-electric-2/",
+   "https://www.bromic.com/gallery/dorrington-homes-platinum-electric-3/",
+   "https://www.bromic.com/gallery/platinum-electric-recessed-black-dorrington-homes-perth/"
+  ]
+ },
+ {
+  "id": "pj-eclipse-electric-48-1200mm-pole",
+  "kind": "project",
+  "title": "Eclipse Electric 48 1200Mm Pole",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/eclipse-electric-48-1200mm-pole/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [
+    "pole-suspended"
+   ],
+   "product": [
+    "eclipse-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [],
+  "gallery": [
+   "https://www.bromic.com/gallery/eclipse-electric-48-1200mm-pole/"
+  ]
+ },
+ {
+  "id": "pj-eclipse-electric-ceiling-mount-angled",
+  "kind": "project",
+  "title": "Eclipse Electric Ceiling Mount Angled",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/eclipse-electric-ceiling-mount-angled/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [
+    "ceiling-mounted"
+   ],
+   "product": [
+    "eclipse-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-dsc01972-bearbeitet"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/eclipse-electric-ceiling-mount-angled/"
+  ]
+ },
+ {
+  "id": "pj-eclipse-electric-ceiling-mounted",
+  "kind": "project",
+  "title": "Eclipse Electric Ceiling Mounted",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/eclipse-electric-ceiling-mounted/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [
+    "ceiling-mounted"
+   ],
+   "product": [
+    "eclipse-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-dsc01766-bearbeitet"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/eclipse-electric-ceiling-mounted/"
+  ]
+ },
+ {
+  "id": "pj-eclipse-electric-ceiling-mounted-no-people",
+  "kind": "project",
+  "title": "Eclipse Electric Ceiling Mounted No People",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/eclipse-electric-ceiling-mounted-no-people/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [
+    "ceiling-mounted"
+   ],
+   "product": [
+    "eclipse-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-dsc01860-bearbeitet"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/eclipse-electric-ceiling-mounted-no-people/"
+  ]
+ },
+ {
+  "id": "pj-eclipse-electric-freestanding",
+  "kind": "project",
+  "title": "Eclipse Electric Freestanding 2",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/eclipse-electric-freestanding-2/",
+  "read": "gallery",
+  "summary": "2 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [
+    "freestanding"
+   ],
+   "product": [
+    "eclipse-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [],
+  "gallery": [
+   "https://www.bromic.com/gallery/eclipse-electric-freestanding-2/",
+   "https://www.bromic.com/gallery/eclipse-electric-freestanding/"
+  ]
+ },
+ {
+  "id": "pj-eclipse-electric-pole-mounted",
+  "kind": "project",
+  "title": "Eclipse Electric Pole Mounted 2",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/eclipse-electric-pole-mounted-2/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [
+    "pole-suspended"
+   ],
+   "product": [
+    "eclipse-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-eclipse-pendant-residential-hr"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/eclipse-electric-pole-mounted-2/"
+  ]
+ },
+ {
+  "id": "pj-eclipse-electric-twin-pole",
+  "kind": "project",
+  "title": "Eclipse Electric Twin Pole",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/eclipse-electric-twin-pole/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [
+    "pole-suspended"
+   ],
+   "product": [
+    "eclipse-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-eclipse-electric-24twin-pole-commercial-scen"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/eclipse-electric-twin-pole/"
+  ]
+ },
+ {
+  "id": "pj-eclipse-electric-wall-mount",
+  "kind": "project",
+  "title": "Eclipse Electric Wall Mount",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/eclipse-electric-wall-mount/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [
+    "wall-mounted"
+   ],
+   "product": [
+    "eclipse-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-eclipse-electric-wall-mount-commercial-scene"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/eclipse-electric-wall-mount/"
+  ]
+ },
+ {
+  "id": "pj-eclipse-freestanding-residential-home",
+  "kind": "project",
+  "title": "Eclipse Freestanding Residential Home",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/eclipse-freestanding-residential-home/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [
+    "freestanding"
+   ],
+   "product": [
+    "eclipse-portable"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-bromiceclipseheater"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/eclipse-freestanding-residential-home/"
+  ]
+ },
+ {
+  "id": "pj-eclipse-pendant-residential-10",
+  "kind": "project",
+  "title": "Eclipse Pendant Residential 10 01",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/eclipse-pendant-residential-10-01/",
+  "read": "gallery",
+  "summary": "3 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [
+    "pendant"
+   ],
+   "product": [
+    "eclipse-pendant"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-eclipse-pendant-uk-residential",
+   "w-eclipse-pendant-uk-residential-2",
+   "w-eclipse-pendant-uk-residential-3"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/eclipse-pendant-residential-10-01/",
+   "https://www.bromic.com/gallery/eclipse-pendant-residential-10-02/",
+   "https://www.bromic.com/gallery/eclipse-pendant-residential-10-03/"
+  ]
+ },
+ {
+  "id": "pj-eclipse-portable-residential-10",
+  "kind": "project",
+  "title": "Eclipse Portable Residential 10 02",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/eclipse-portable-residential-10-02/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [
+    "freestanding"
+   ],
+   "product": [
+    "eclipse-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-eclipse-portable-residential"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/eclipse-portable-residential-10-02/"
+  ]
+ },
+ {
+  "id": "pj-fayetteville-ny-usa",
+  "kind": "project",
+  "title": "Fayetteville, NY, USA",
+  "customer": null,
+  "location": "Fayetteville, NY, USA",
+  "url": "https://www.bromic.com/gallery/tungsten-gas-fayetteville-ny-restaurant/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-gas"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-tungsten-gas-fayetteville-ny-restaurant"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-gas-fayetteville-ny-restaurant/"
+  ]
+ },
+ {
+  "id": "pj-fiddler",
+  "kind": "project",
+  "title": "Fiddler",
+  "customer": "Fiddler",
+  "location": "Sydney, Australia",
+  "url": "https://www.bromic.com/gallery/tungsten-gas-500-fiddler-sydney-2/",
+  "read": "gallery",
+  "summary": "2 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-gas"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "AU"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-tungsten-gas-500-fiddler-sydney-1-1",
+   "w-tungsten-gas-500-fiddler-sydney-2-1"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-gas-500-fiddler-sydney-2/",
+   "https://www.bromic.com/gallery/tungsten-gas-500-fiddler-sydney/"
+  ]
+ },
+ {
+  "id": "pj-gallery",
+  "kind": "project",
+  "title": "Gallery",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [],
+   "product": [],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [],
+  "gallery": [
+   "https://www.bromic.com/gallery/"
+  ]
+ },
+ {
+  "id": "pj-greenwich-sydney-australia",
+  "kind": "project",
+  "title": "Greenwich, Sydney, Australia",
+  "customer": null,
+  "location": "Greenwich, Sydney, Australia",
+  "url": "https://www.bromic.com/gallery/platinum-electric-black-residential-sydney-greenwich-2/",
+  "read": "gallery",
+  "summary": "2 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "AU"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-australia-sydney-greenwich-residence-1-cropp",
+   "w-australia-sydney-greenwich-residence-2"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-black-residential-sydney-greenwich-2/",
+   "https://www.bromic.com/gallery/platinum-electric-black-residential-sydney-greenwich/"
+  ]
+ },
+ {
+  "id": "pj-gregory-hills-hotel",
+  "kind": "project",
+  "title": "Gregory Hills Hotel",
+  "customer": "Gregory Hills Hotel",
+  "location": "Sydney, Australia",
+  "url": "https://www.bromic.com/gallery/platinum-gas-wall-mounted-gregory-hills-hotel-sydney/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "hotel-resort"
+   ],
+   "space": [],
+   "install": [
+    "wall-mounted"
+   ],
+   "product": [
+    "platinum-gas"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "AU"
+   ],
+   "proof": []
+  },
+  "images": [],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-gas-wall-mounted-gregory-hills-hotel-sydney/"
+  ]
+ },
+ {
+  "id": "pj-honey-hive",
+  "kind": "project",
+  "title": "Honey Hive",
+  "customer": "Honey Hive",
+  "location": "Irvine, CA, USA",
+  "url": "https://www.bromic.com/gallery/eclipse-freestanding-honey-hive-irvine/",
+  "read": "gallery",
+  "summary": "5 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [
+    "ceiling-mounted",
+    "freestanding"
+   ],
+   "product": [
+    "eclipse-portable",
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": [
+    "photo-set"
+   ]
+  },
+  "images": [
+   "w-bromic-sep18th-14",
+   "w-bromic-sep18th-18",
+   "w-bromic-sep18th-28",
+   "w-bromic-sep18th-41-photoshopped",
+   "w-img-0661"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/eclipse-freestanding-honey-hive-irvine/",
+   "https://www.bromic.com/gallery/eclipse-freestanding-honey-hive/",
+   "https://www.bromic.com/gallery/eclipse-freestanding-restaurant-honey-hive/",
+   "https://www.bromic.com/gallery/tungsten-electric-ceiling-mounted-white-honey-hive/",
+   "https://www.bromic.com/gallery/tungsten-electric-white-ceiling-mounted-honey-hive/"
+  ],
+  "written_as": "cs-enhancing-rooftop-bar-designs-with-cutting-edge-outdoor-heat"
+ },
+ {
+  "id": "pj-hooghuis",
+  "kind": "project",
+  "title": "Hooghuis",
+  "customer": "Hooghuis",
+  "location": "Brussels, Belgium",
+  "url": "https://www.bromic.com/gallery/platinum-gas-hooghuis-brussels-belgium/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-gas"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "BE"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-hooghuis-brussels-belgium-platinum-gas-2"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-gas-hooghuis-brussels-belgium/"
+  ]
+ },
+ {
+  "id": "pj-hotel-distil-marriott-autograph-collection",
+  "kind": "project",
+  "title": "Hotel Distil (Marriott Autograph Collection)",
+  "customer": "Hotel Distil (Marriott Autograph Collection)",
+  "location": "Louisville, KY, USA",
+  "url": "https://www.bromic.com/gallery/platinum-gas-hotel-distil-marriott-autograph-collection-louisville-ky/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "hotel-resort"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-gas"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-hotel-distil-marriott-autograph-collection-l"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-gas-hotel-distil-marriott-autograph-collection-louisville-ky/"
+  ]
+ },
+ {
+  "id": "pj-hyatt",
+  "kind": "project",
+  "title": "Hyatt",
+  "customer": "Hyatt",
+  "location": null,
+  "url": "https://www.bromic.com/gallery/tungsten-electric-hyatt/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "hotel-resort"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-hyatt/"
+  ]
+ },
+ {
+  "id": "pj-hyatt-dehradun",
+  "kind": "project",
+  "title": "Hyatt Dehradun",
+  "customer": "Hyatt Dehradun",
+  "location": "Dehradun, India",
+  "url": "https://www.bromic.com/gallery/eclipse-portable-hyatt-dehradun/",
+  "read": "gallery",
+  "summary": "3 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "hotel-resort"
+   ],
+   "space": [],
+   "install": [
+    "freestanding"
+   ],
+   "product": [
+    "eclipse-electric",
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "IN"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-23-03-12-bromic-heating-hyatt-dehradun-14"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/eclipse-portable-hyatt-dehradun/",
+   "https://www.bromic.com/gallery/tungsten-electric-eclipse-freestanding-hyatt-dehradun/",
+   "https://www.bromic.com/gallery/tungsten-electric-hyatt-dehradun/"
+  ],
+  "written_as": "cs-eclipse-freestanding-and-tungsten-electric-at-hyatt-regency-"
+ },
+ {
+  "id": "pj-intercontinental-los-angeles",
+  "kind": "project",
+  "title": "InterContinental Los Angeles",
+  "customer": "InterContinental Los Angeles",
+  "location": "Los Angeles, USA",
+  "url": "https://www.bromic.com/gallery/tungsten-electric-intercontinental-la-2/",
+  "read": "gallery",
+  "summary": "2 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "hotel-resort"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-intercontinental-la-downtown-spire-73",
+   "w-intercontinental-la-downtown-spire-73-sunset"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-intercontinental-la-2/",
+   "https://www.bromic.com/gallery/tungsten-electric-intercontinental-la/"
+  ]
+ },
+ {
+  "id": "pj-javier-s-crystal-cove",
+  "kind": "project",
+  "title": "Javier's Crystal Cove",
+  "customer": "Javier's Crystal Cove",
+  "location": "Newport, CA, USA",
+  "url": "https://www.bromic.com/gallery/platinum-electric-black-javiers-crystal-cove-newport-ca/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-platinum-electric-javiers-crystal-cove-newpo"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-black-javiers-crystal-cove-newport-ca/"
+  ]
+ },
+ {
+  "id": "pj-joey-s",
+  "kind": "project",
+  "title": "Joey's",
+  "customer": "Joey's",
+  "location": "Brisbane, Australia",
+  "url": "https://www.bromic.com/gallery/white-platinum-electric-joeys-brisbane-3/",
+  "read": "gallery",
+  "summary": "2 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "AU"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-white-platinum-electric-joeys-brisbane-2",
+   "w-white-platinum-electric-joeys-brisbane-au"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/white-platinum-electric-joeys-brisbane-3/",
+   "https://www.bromic.com/gallery/white-platinum-electric-joeys-brisbane/"
+  ]
+ },
+ {
+  "id": "pj-jw-marriott-club-de-industriales",
+  "kind": "project",
+  "title": "JW Marriott (Club de Industriales)",
+  "customer": "JW Marriott (Club de Industriales)",
+  "location": null,
+  "url": "https://www.bromic.com/gallery/eclipse-electric-marriot/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "hotel-resort"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "eclipse-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-eclipse-electric-club-de-industriales-jw-mar"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/eclipse-electric-marriot/"
+  ]
+ },
+ {
+  "id": "pj-kansas-bar-grill-pablo-mekler",
+  "kind": "project",
+  "title": "Kansas Bar & Grill (Pablo Mekler)",
+  "customer": "Kansas Bar & Grill (Pablo Mekler)",
+  "location": "Buenos Aires, Argentina",
+  "url": "https://www.bromic.com/gallery/tungsten-electric-pablo-mekler-2/",
+  "read": "gallery",
+  "summary": "3 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "LATAM"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-tungsten-electric-kansas-bar-grill-buenos-ai",
+   "w-tungsten-electric-kansas-bar-grill-buenos-ai-2",
+   "w-tungsten-electric-kansas-bar-grill-buenos-ai-3"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-pablo-mekler-2/",
+   "https://www.bromic.com/gallery/tungsten-electric-pablo-mekler-3/",
+   "https://www.bromic.com/gallery/tungsten-electric-pablo-mekler/"
+  ]
+ },
+ {
+  "id": "pj-kedron-wavell",
+  "kind": "project",
+  "title": "Kedron Wavell",
+  "customer": "Kedron Wavell",
+  "location": "Brisbane, Australia",
+  "url": "https://www.bromic.com/gallery/platinum-gas-kedron-wavell-brisbane/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-gas"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "AU"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-commercial-australia-brisbane-kedron-wavell-"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-gas-kedron-wavell-brisbane/"
+  ]
+ },
+ {
+  "id": "pj-kentucky-usa",
+  "kind": "project",
+  "title": "Kentucky, USA",
+  "customer": null,
+  "location": "Kentucky, USA",
+  "url": "https://www.bromic.com/gallery/eclipse-electric-ceiling-mounted-private-residence-kentucky/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [
+    "ceiling-mounted"
+   ],
+   "product": [
+    "eclipse-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-eclipse-electric-pendant-kentucky-us"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/eclipse-electric-ceiling-mounted-private-residence-kentucky/"
+  ]
+ },
+ {
+  "id": "pj-la-pecora-bianca",
+  "kind": "project",
+  "title": "La Pecora Bianca",
+  "customer": "La Pecora Bianca",
+  "location": "New York, USA",
+  "url": "https://www.bromic.com/gallery/tungsten-electric-la-pecora-bianca-nyc/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "images": [],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-la-pecora-bianca-nyc/"
+  ],
+  "written_as": "cs-pecora-bianca"
+ },
+ {
+  "id": "pj-lady-lene",
+  "kind": "project",
+  "title": "Lady Lene",
+  "customer": "Lady Lene",
+  "location": null,
+  "url": "https://www.bromic.com/gallery/platinum-electric-marine-lady-lene-deck/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "marine-yacht"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-marine"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-bromic-heating-marine-platinum-electric-lady"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-marine-lady-lene-deck/"
+  ],
+  "written_as": "cs-m-y-lady-lene-superyacht"
+ },
+ {
+  "id": "pj-lilymu-parramatta-square",
+  "kind": "project",
+  "title": "Lilymu, Parramatta Square",
+  "customer": "Lilymu, Parramatta Square",
+  "location": "Sydney, Australia",
+  "url": "https://www.bromic.com/gallery/platinum-electric-black-lilymu-parramatta-square-sydney-2/",
+  "read": "gallery",
+  "summary": "2 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "AU"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-lilymu-parramattasquare-sydney-platinumelect",
+   "w-lilymu-parramattasquare-sydney-platinumelect-2"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-black-lilymu-parramatta-square-sydney-2/",
+   "https://www.bromic.com/gallery/platinum-electric-black-lilymu-parramatta-square-sydney/"
+  ]
+ },
+ {
+  "id": "pj-livium-showroom",
+  "kind": "project",
+  "title": "Livium showroom",
+  "customer": "Livium showroom",
+  "location": null,
+  "url": "https://www.bromic.com/gallery/showroom-livium-roof-structure-2/",
+  "read": "gallery",
+  "summary": "2 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [],
+   "product": [],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-showroom-livium-roof-structure"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/showroom-livium-roof-structure-2/",
+   "https://www.bromic.com/gallery/showroom-livium-roof-structure/"
+  ]
+ },
+ {
+  "id": "pj-london-uk",
+  "kind": "project",
+  "title": "London, UK",
+  "customer": null,
+  "location": "London, UK",
+  "url": "https://www.bromic.com/gallery/tungsten-electric-wall-mount-london-uk/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [
+    "wall-mounted"
+   ],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "UK"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-tungsten-electric-wall-mount-london-uk"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-wall-mount-london-uk/"
+  ]
+ },
+ {
+  "id": "pj-louisiana-purchase",
+  "kind": "project",
+  "title": "Louisiana Purchase",
+  "customer": "Louisiana Purchase",
+  "location": null,
+  "url": "https://www.bromic.com/gallery/tungsten-electric-louisian-purchase/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-louisian-purchase-2"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-louisian-purchase/"
+  ]
+ },
+ {
+  "id": "pj-louvered-pergola-with-recessed-platinum-electric-h",
+  "kind": "project",
+  "title": "Louvered Pergola With Recessed Platinum Electric Heater",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/louvered-pergola-with-recessed-platinum-electric-heater/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [
+    "recessed"
+   ],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-louvered-pergola-with-recessed-platinum-elec"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/louvered-pergola-with-recessed-platinum-electric-heater/"
+  ]
+ },
+ {
+  "id": "pj-m-y-lel",
+  "kind": "project",
+  "title": "M/Y LEL",
+  "customer": "M/Y LEL",
+  "location": null,
+  "url": "https://www.bromic.com/gallery/platinum-electric-marine-m-y-lel-yacht-2/",
+  "read": "gallery",
+  "summary": "4 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "marine-yacht"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-marine"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-bromic-platinum-electric-on-my-lel-by-rossin",
+   "w-my-lel-3-lr",
+   "w-my-lel-4-lr",
+   "w-my-lel-lr"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-marine-m-y-lel-yacht-2/",
+   "https://www.bromic.com/gallery/platinum-electric-marine-m-y-lel-yacht-3/",
+   "https://www.bromic.com/gallery/platinum-electric-marine-m-y-lel-yacht-4/",
+   "https://www.bromic.com/gallery/platinum-electric-marine-m-y-lel-yacht/"
+  ]
+ },
+ {
+  "id": "pj-mandarin-oriental-hotel",
+  "kind": "project",
+  "title": "Mandarin Oriental Hotel",
+  "customer": "Mandarin Oriental Hotel",
+  "location": "London, UK",
+  "url": "https://www.bromic.com/gallery/mandarin-oriental-hotel-eclipse-electric-01-25/",
+  "read": "gallery",
+  "summary": "2 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "hotel-resort"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "eclipse-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "UK"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-mandarin-oriental-hotel-london-eclipse-elect",
+   "w-mandarin-oriental-hotel-london-eclipse-elect-2"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/mandarin-oriental-hotel-eclipse-electric-01-25/",
+   "https://www.bromic.com/gallery/mandarin-oriental-hotel-eclipse-electric-02-25/"
+  ]
+ },
+ {
+  "id": "pj-manly-wharf",
+  "kind": "project",
+  "title": "Manly Wharf",
+  "customer": "Manly Wharf",
+  "location": "Sydney, Australia",
+  "url": "https://www.bromic.com/gallery/platinum-electric-black-commercial-sydney-manly-wharf/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "AU"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-commercial-australia-sydney-manly-wharf-15"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-black-commercial-sydney-manly-wharf/"
+  ]
+ },
+ {
+  "id": "pj-melbourne-australia",
+  "kind": "project",
+  "title": "Melbourne, Australia",
+  "customer": null,
+  "location": "Melbourne, Australia",
+  "url": "https://www.bromic.com/gallery/platinum-electric-black-residential-australia-melbourne/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "AU"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-residential-australia-melbourne-1"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-black-residential-australia-melbourne/"
+  ]
+ },
+ {
+  "id": "pj-melrose-place",
+  "kind": "project",
+  "title": "Melrose Place",
+  "customer": "Melrose Place",
+  "location": "Los Angeles, USA",
+  "url": "https://www.bromic.com/gallery/tungsten-electric-melrose-place/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-tungsten-electric-melrose-place-los-angeles-"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-melrose-place/"
+  ]
+ },
+ {
+  "id": "pj-mountain-view-retreat",
+  "kind": "project",
+  "title": "Mountain View Retreat",
+  "customer": "Mountain View Retreat",
+  "location": null,
+  "url": "https://www.bromic.com/gallery/mountain-view-retreat-platinum-electric-recessed-in-pergola/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [
+    "recessed"
+   ],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-mountain-view-retreat-platinum-electric-rece"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/mountain-view-retreat-platinum-electric-recessed-in-pergola/"
+  ]
+ },
+ {
+  "id": "pj-netherlands",
+  "kind": "project",
+  "title": "Netherlands",
+  "customer": null,
+  "location": "Netherlands",
+  "url": "https://www.bromic.com/gallery/eclipse-portable_nl/",
+  "read": "gallery",
+  "summary": "2 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [
+    "freestanding"
+   ],
+   "product": [
+    "eclipse-electric",
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "NL"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-eclispe-freestanding",
+   "w-residential-europe-netherlands-1"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/eclipse-portable_nl/",
+   "https://www.bromic.com/gallery/platinum-electric-white-residential-europe-netherlands/"
+  ]
+ },
+ {
+  "id": "pj-new-jersey-usa",
+  "kind": "project",
+  "title": "New Jersey, USA",
+  "customer": null,
+  "location": "New Jersey, USA",
+  "url": "https://www.bromic.com/gallery/tungten-electric-residential-new-jersey-2/",
+  "read": "gallery",
+  "summary": "3 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-dsc05656-courtney-saib",
+   "w-dsc05737-courtney-saib",
+   "w-tungsten-electric-courtney-thompson-1"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungten-electric-residential-new-jersey-2/",
+   "https://www.bromic.com/gallery/tungten-electric-residential-new-jersey-3/",
+   "https://www.bromic.com/gallery/tungten-electric-residential-new-jersey/"
+  ],
+  "written_as": "cs-from-gut-renovation-to-outdoor-bliss-how-bromics-tungsten-he"
+ },
+ {
+  "id": "pj-new-york-usa",
+  "kind": "project",
+  "title": "New York, USA",
+  "customer": null,
+  "location": "New York, USA",
+  "url": "https://www.bromic.com/gallery/tungsten-electric-new-york-residential/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-tungsten-electric-new-york-residential"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-new-york-residential/"
+  ]
+ },
+ {
+  "id": "pj-northwest-idea-house",
+  "kind": "project",
+  "title": "Northwest Idea House",
+  "customer": "Northwest Idea House",
+  "location": "Woodinville, WA, USA",
+  "url": "https://www.bromic.com/gallery/platinum-electric-woodinville-wa-northwest-idea-house/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-print-15"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-woodinville-wa-northwest-idea-house/"
+  ]
+ },
+ {
+  "id": "pj-olivia-restaurant",
+  "kind": "project",
+  "title": "Olivia restaurant",
+  "customer": "Olivia restaurant",
+  "location": "Oslo, Norway",
+  "url": "https://www.bromic.com/gallery/eclipse-electric-olivia-restaurant-oslo-norway/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "eclipse-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "EU"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-olivia-eger-oslo-norway-2"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/eclipse-electric-olivia-restaurant-oslo-norway/"
+  ]
+ },
+ {
+  "id": "pj-pangbourne-uk",
+  "kind": "project",
+  "title": "Pangbourne, UK",
+  "customer": null,
+  "location": "Pangbourne, UK",
+  "url": "https://www.bromic.com/gallery/platinum-electric-pangbourne/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-pangbourne/"
+  ],
+  "written_as": "cs-platinum-electric-heaters-in-pangbourne"
+ },
+ {
+  "id": "pj-paris-bar",
+  "kind": "project",
+  "title": "Paris Bar",
+  "customer": "Paris Bar",
+  "location": "London, UK",
+  "url": "https://www.bromic.com/gallery/tungsten-electric-wall-mount-paris-bar/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "bar-rooftop",
+    "restaurant"
+   ],
+   "space": [],
+   "install": [
+    "wall-mounted"
+   ],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "UK"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-tungsten-electric-wall-mount-paris-bar-londo"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-wall-mount-paris-bar/"
+  ],
+  "written_as": "cs-london-restauranteur-incorporates-full-bromic-line-across-lo"
+ },
+ {
+  "id": "pj-paris-grill",
+  "kind": "project",
+  "title": "Paris Grill",
+  "customer": "Paris Grill",
+  "location": "London, UK",
+  "url": "https://www.bromic.com/gallery/eclipse-electric-paris-grill-london-uk/",
+  "read": "gallery",
+  "summary": "2 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "eclipse-electric",
+    "eclipse-pendant"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "UK"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-eclipse-electric-24inch-single-pole-ceiling-",
+   "w-paris-grill-case-study-image"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/eclipse-electric-paris-grill-london-uk/",
+   "https://www.bromic.com/gallery/eclipse-pendent-paris-grill/"
+  ],
+  "written_as": "cs-london-restauranteur-incorporates-full-bromic-line-across-lo"
+ },
+ {
+  "id": "pj-parkway-hotel",
+  "kind": "project",
+  "title": "Parkway Hotel",
+  "customer": "Parkway Hotel",
+  "location": "Sydney, Australia",
+  "url": "https://www.bromic.com/gallery/platinum-gas-parkway-hotel-sydney/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "hotel-resort"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-gas"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "AU"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-platinum-gas-parkway-hotel-sydney-2"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-gas-parkway-hotel-sydney/"
+  ]
+ },
+ {
+  "id": "pj-perth-australia",
+  "kind": "project",
+  "title": "Perth, Australia",
+  "customer": null,
+  "location": "Perth, Australia",
+  "url": "https://www.bromic.com/gallery/platinum-electric-black-recessed-perth/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [
+    "recessed"
+   ],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "AU"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-bromic-platinum-electric-black-in-situ"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-black-recessed-perth/"
+  ]
+ },
+ {
+  "id": "pj-pink-hills-hotel",
+  "kind": "project",
+  "title": "Pink Hills Hotel",
+  "customer": "Pink Hills Hotel",
+  "location": "Australia",
+  "url": "https://www.bromic.com/gallery/eclipse-electric-at-pink-hill-hotel-2/",
+  "read": "gallery",
+  "summary": "5 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "hotel-resort"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "eclipse-electric",
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "AU"
+   ],
+   "proof": [
+    "photo-set"
+   ]
+  },
+  "images": [
+   "w-pink-hills-hotel-aus-1",
+   "w-pink-hills-hotel-aus-2",
+   "w-tungsten-electric-bromic-pinkhill-547-1"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/eclipse-electric-at-pink-hill-hotel-2/",
+   "https://www.bromic.com/gallery/eclipse-electric-at-pink-hill-hotel/",
+   "https://www.bromic.com/gallery/eclipse-electric-pink-hills-hotel-aus-2/",
+   "https://www.bromic.com/gallery/eclipse-electric-pink-hills-hotel-aus/",
+   "https://www.bromic.com/gallery/tungsten-electric-at-pink-hill-hotel-2/"
+  ],
+  "written_as": "cs-eclipse-electric-and-tungsten-electric-at-pink-hill-hotel"
+ },
+ {
+  "id": "pj-platinum-electric-12",
+  "kind": "project",
+  "title": "Platinum Electric 12 1",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/platinum-electric-12-1/",
+  "read": "gallery",
+  "summary": "6 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": [
+    "photo-set"
+   ]
+  },
+  "images": [
+   "w-045",
+   "w-hr-villabouwsels-20822",
+   "w-hr-studio-anja-vissers-057-1",
+   "w-platinum-electric",
+   "w-platinum-electric2",
+   "w-watkinsrd-dalkeith02"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-12-1/",
+   "https://www.bromic.com/gallery/platinum-electric-12-2/",
+   "https://www.bromic.com/gallery/platinum-electric-12-3/",
+   "https://www.bromic.com/gallery/platinum-electric-12-4/",
+   "https://www.bromic.com/gallery/platinum-electric-12-5/",
+   "https://www.bromic.com/gallery/platinum-electric-12-6/"
+  ]
+ },
+ {
+  "id": "pj-platinum-electric-black-ceiling-mounted",
+  "kind": "project",
+  "title": "Platinum Electric Black Ceiling Mounted",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/platinum-electric-black-ceiling-mounted/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [
+    "ceiling-mounted"
+   ],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-bromic-sep18th-9-1"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-black-ceiling-mounted/"
+  ]
+ },
+ {
+  "id": "pj-platinum-electric-black-residential",
+  "kind": "project",
+  "title": "Platinum Electric Black Residential",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/platinum-electric-black-residential/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-bromic-platinum-electric-patio-heater-black"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-black-residential/"
+  ]
+ },
+ {
+  "id": "pj-platinum-electric-black-wall-mounted",
+  "kind": "project",
+  "title": "Platinum Electric Black Wall Mounted",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/platinum-electric-black-wall-mounted/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [
+    "wall-mounted"
+   ],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-bromic-sep18th-3-1"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-black-wall-mounted/"
+  ]
+ },
+ {
+  "id": "pj-platinum-electric-lc-recess-kit-artivo-install",
+  "kind": "project",
+  "title": "Platinum Electric Lc Recess Kit Artivo Install",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/platinum-electric-lc-recess-kit-artivo-install/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [
+    "recessed",
+    "low-clearance-recess"
+   ],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-bromic-shoot-may-11-2023-54"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-lc-recess-kit-artivo-install/"
+  ],
+  "written_as": "cs-platinum-electric-heaters-recessed-using-the-low-clearance-r"
+ },
+ {
+  "id": "pj-platinum-electric-lc-recess-kit-install",
+  "kind": "project",
+  "title": "Platinum Electric Lc Recess Kit Install",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/platinum-electric-lc-recess-kit-install/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [
+    "recessed",
+    "low-clearance-recess"
+   ],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-bromic-shoot-may-11-2023-43"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-lc-recess-kit-install/"
+  ]
+ },
+ {
+  "id": "pj-platinum-electric-marine-black-flush-mounted",
+  "kind": "project",
+  "title": "Platinum Electric Marine Black Flush Mounted",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/platinum-electric-marine-black-flush-mounted/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "marine-yacht"
+   ],
+   "space": [],
+   "install": [
+    "recessed"
+   ],
+   "product": [
+    "platinum-marine"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-web-bromic-heating-swan-hellenic-diana-2023-"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-marine-black-flush-mounted/"
+  ]
+ },
+ {
+  "id": "pj-platinum-electric-marine-flush-mounted",
+  "kind": "project",
+  "title": "Platinum Electric Marine Flush Mounted",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/platinum-electric-marine-flush-mounted/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "marine-yacht"
+   ],
+   "space": [],
+   "install": [
+    "recessed"
+   ],
+   "product": [
+    "platinum-marine"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-web-bromic-heating-swan-hellenic-diana-2023--2"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-marine-flush-mounted/"
+  ]
+ },
+ {
+  "id": "pj-platinum-electric-marine-residential",
+  "kind": "project",
+  "title": "Platinum Electric Marine Residential",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/platinum-electric-marine-residential/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "marine-yacht",
+    "single-family"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-marine"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-bromic-platinum-electric-marine-patio-heater"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-marine-residential/"
+  ]
+ },
+ {
+  "id": "pj-platinum-electric-marine-white",
+  "kind": "project",
+  "title": "Platinum Electric Marine White",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/platinum-electric-marine-white/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "marine-yacht"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-marine"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-marine-white/"
+  ]
+ },
+ {
+  "id": "pj-platinum-electric-marine-white-flush-mounted",
+  "kind": "project",
+  "title": "Platinum Electric Marine White Flush Mounted",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/platinum-electric-marine-white-flush-mounted/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "marine-yacht"
+   ],
+   "space": [],
+   "install": [
+    "recessed"
+   ],
+   "product": [
+    "platinum-marine"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-web-bromic-heating-silversea-silver-nova-202"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-marine-white-flush-mounted/"
+  ]
+ },
+ {
+  "id": "pj-platinum-electric-marine-white-wall-mounted",
+  "kind": "project",
+  "title": "Platinum Electric Marine White Wall Mounted",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/platinum-electric-marine-white-wall-mounted/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "marine-yacht"
+   ],
+   "space": [],
+   "install": [
+    "wall-mounted"
+   ],
+   "product": [
+    "platinum-marine"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-marine-white-wall-mounted/"
+  ]
+ },
+ {
+  "id": "pj-platinum-electric-residential-10",
+  "kind": "project",
+  "title": "Platinum Electric Residential 10 01",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/platinum-electric-residential-10-01/",
+  "read": "gallery",
+  "summary": "6 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": [
+    "photo-set"
+   ]
+  },
+  "images": [
+   "w-06-hr-grosveldvandervelde-nl1-2021",
+   "w-84-hr-grosveldvandervelde-nl1-2021",
+   "w-pilarshoots-hr-achtoptien-00-71",
+   "w-pilarshoots-hr-achtoptien-00-72",
+   "w-platinum-electric-black",
+   "w-platinum-electric-black-taol-2020"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-residential-10-01/",
+   "https://www.bromic.com/gallery/platinum-electric-residential-10-02/",
+   "https://www.bromic.com/gallery/platinum-electric-residential-10-03/",
+   "https://www.bromic.com/gallery/platinum-electric-residential-10-04/",
+   "https://www.bromic.com/gallery/platinum-electric-residential-10-05/",
+   "https://www.bromic.com/gallery/platinum-electric-residential-10-06/"
+  ]
+ },
+ {
+  "id": "pj-platinum-electric-white-residential",
+  "kind": "project",
+  "title": "Platinum Electric White Residential",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/platinum-electric-white-residential/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-platinume-white-residential-hr"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-white-residential/"
+  ]
+ },
+ {
+  "id": "pj-platinum-gas",
+  "kind": "project",
+  "title": "Platinum Gas",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/platinum-gas/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-gas"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-gas/"
+  ]
+ },
+ {
+  "id": "pj-private-residence-bromic",
+  "kind": "project",
+  "title": "Private Residence Bromic",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/private-residence-bromic/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [],
+   "product": [],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-site-images-bromicch-09"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/private-residence-bromic/"
+  ]
+ },
+ {
+  "id": "pj-pymble-sydney-australia",
+  "kind": "project",
+  "title": "Pymble, Sydney, Australia",
+  "customer": null,
+  "location": "Pymble, Sydney, Australia",
+  "url": "https://www.bromic.com/gallery/platinum-electric-white-recessed-residential-pymble-australia/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [
+    "recessed"
+   ],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "AU"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-platinum-electric-white-recessed-residential-2"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-white-recessed-residential-pymble-australia/"
+  ]
+ },
+ {
+  "id": "pj-restaurant-patio-heater-platinum-electric",
+  "kind": "project",
+  "title": "Restaurant Patio Heater Platinum Electric",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/restaurant-patio-heater-platinum-electric/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-bromic-platinum-electric-patio-heater-restau"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/restaurant-patio-heater-platinum-electric/"
+  ]
+ },
+ {
+  "id": "pj-ritz-carlton-evrima",
+  "kind": "project",
+  "title": "Ritz-Carlton Evrima",
+  "customer": "Ritz-Carlton Evrima",
+  "location": null,
+  "url": "https://www.bromic.com/gallery/platinum-electric-black-ritz-carlton-2/",
+  "read": "gallery",
+  "summary": "2 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "marine-yacht"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-black-ritz-carlton-2/",
+   "https://www.bromic.com/gallery/platinum-electric-ritz-carlton-2/"
+  ],
+  "written_as": "cs-platinum-electric-marine-heaters-aboard-ritz-carlton-yacht-c"
+ },
+ {
+  "id": "pj-ruse-parramatta-square",
+  "kind": "project",
+  "title": "Ruse, Parramatta Square",
+  "customer": "Ruse, Parramatta Square",
+  "location": "Sydney, Australia",
+  "url": "https://www.bromic.com/gallery/platinum-electric-ruse-parramatta-square-sydney/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "AU"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-ruse-parramattasquare-sydney-platinumelectri"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-ruse-parramatta-square-sydney/"
+  ]
+ },
+ {
+  "id": "pj-scottsdale-aft",
+  "kind": "project",
+  "title": "Scottsdale AFT",
+  "customer": "Scottsdale AFT",
+  "location": "Scottsdale, Arizona, USA",
+  "url": "https://www.bromic.com/gallery/eclipse-electric-outdoor-heater-at-scottsdale-aft-bracket-5/",
+  "read": "gallery",
+  "summary": "4 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [],
+   "product": [
+    "eclipse-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-bromic-scottsdale-aft-bracketed-9",
+   "w-eclipse-electric-outdoor",
+   "w-tungsten-outdoor"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/eclipse-electric-outdoor-heater-at-scottsdale-aft-bracket-5/",
+   "https://www.bromic.com/gallery/eclipse-electric-outdoor-heater-at-scottsdale-aft-bracketed-9/",
+   "https://www.bromic.com/gallery/eclipse-electric-outdoor-heater-at-the-scottsdale-aft-bracket-2/",
+   "https://www.bromic.com/gallery/outdoor-electric-heaters-scottsdale-aft-bracketed-6/"
+  ]
+ },
+ {
+  "id": "pj-shake-shack",
+  "kind": "project",
+  "title": "Shake Shack",
+  "customer": "Shake Shack",
+  "location": "Franklin, TN, USA",
+  "url": "https://www.bromic.com/gallery/tungsten-gas-shake-shack-franklin-tn/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-gas"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-shake-shack-franklin-tn-1"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-gas-shake-shack-franklin-tn/"
+  ]
+ },
+ {
+  "id": "pj-sheraton-carlsbad",
+  "kind": "project",
+  "title": "Sheraton Carlsbad",
+  "customer": "Sheraton Carlsbad",
+  "location": "Carlsbad, CA, USA",
+  "url": "https://www.bromic.com/gallery/platinum-gas-sheraton-carlsbad-ca/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "hotel-resort"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-gas"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-platinum-gas-sheraton-carlsbad-ca-usa"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-gas-sheraton-carlsbad-ca/"
+  ],
+  "written_as": "cs-the-sheraton-carlsbad-resort-spa"
+ },
+ {
+  "id": "pj-skansen-hotel",
+  "kind": "project",
+  "title": "Skansen Hotel",
+  "customer": "Skansen Hotel",
+  "location": null,
+  "url": "https://www.bromic.com/gallery/eclipse-freestanding-at-skansen-hotel/",
+  "read": "gallery",
+  "summary": "2 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "hotel-resort"
+   ],
+   "space": [],
+   "install": [
+    "freestanding"
+   ],
+   "product": [
+    "eclipse-portable"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-bromic-eclipse-portable-hotel-skansen-05-v02",
+   "w-bromic-eclipse-portable-hotel-skansen-06-v02"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/eclipse-freestanding-at-skansen-hotel/",
+   "https://www.bromic.com/gallery/eclipse-freestanding-skansen-hotel/"
+  ],
+  "written_as": "cs-hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-"
+ },
+ {
+  "id": "pj-smoque-n-bones",
+  "kind": "project",
+  "title": "Smoque N' Bones",
+  "customer": "Smoque N' Bones",
+  "location": null,
+  "url": "https://www.bromic.com/gallery/tungsten-electric-smoque-n-bones/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-smoque-n-bones-tungsten-electric-1"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-smoque-n-bones/"
+  ]
+ },
+ {
+  "id": "pj-soulmate-restaurant",
+  "kind": "project",
+  "title": "Soulmate Restaurant",
+  "customer": "Soulmate Restaurant",
+  "location": "West Hollywood, California, USA",
+  "url": "https://www.bromic.com/gallery/platinum-electric-soulmate-restaurant-california/",
+  "read": "gallery",
+  "summary": "3 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-electric",
+    "platinum-gas"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-soulmate-restaurant-california-4",
+   "w-soulmate-restaurant-california-5"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-soulmate-restaurant-california/",
+   "https://www.bromic.com/gallery/platinum-gas-heaters-soulmate-restaurant-california/",
+   "https://www.bromic.com/gallery/platinum-gas-soulmate-restaurant-west-hollywood/"
+  ]
+ },
+ {
+  "id": "pj-starbucks-reserve-greenwich",
+  "kind": "project",
+  "title": "Starbucks Reserve Greenwich",
+  "customer": "Starbucks Reserve Greenwich",
+  "location": "New York, USA",
+  "url": "https://www.bromic.com/gallery/tungsten-freestanding-starbuck-reserve-greenwich/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [
+    "freestanding"
+   ],
+   "product": [
+    "tungsten-portable"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-starbuck-reserve-nyc-greenwich"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-freestanding-starbuck-reserve-greenwich/"
+  ]
+ },
+ {
+  "id": "pj-starbucks-roastery-chelsea",
+  "kind": "project",
+  "title": "Starbucks Roastery Chelsea",
+  "customer": "Starbucks Roastery Chelsea",
+  "location": "New York, USA",
+  "url": "https://www.bromic.com/gallery/tungsten-freestanding-starbucks-roastery-chelsea/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [
+    "freestanding"
+   ],
+   "product": [
+    "tungsten-portable"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-starbucks-roastery-chelsea-2"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-freestanding-starbucks-roastery-chelsea/"
+  ]
+ },
+ {
+  "id": "pj-sydney-australia",
+  "kind": "project",
+  "title": "Sydney, Australia",
+  "customer": null,
+  "location": "Sydney, Australia",
+  "url": "https://www.bromic.com/gallery/platinum-electric-ceiling-mounted-sydney/",
+  "read": "gallery",
+  "summary": "6 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [
+    "ceiling-mounted",
+    "recessed"
+   ],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "AU"
+   ],
+   "proof": [
+    "photo-set"
+   ]
+  },
+  "images": [
+   "w-platinum-electric-black-ceiling-mounted-sydn",
+   "w-platinum-electric-white-recessed-residential-4",
+   "w-platinum-electric-white-recessed-residential-5",
+   "w-residential-australia-sydney-02",
+   "w-residential-australia-sydney-03",
+   "w-residential-australia-sydney-06"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-ceiling-mounted-sydney/",
+   "https://www.bromic.com/gallery/platinum-electric-white-recessed-residential-sydney/",
+   "https://www.bromic.com/gallery/platinum-electric-white-recessed-sydney-australia/",
+   "https://www.bromic.com/gallery/platinum-electric-white-residential-australia-sydney-2/",
+   "https://www.bromic.com/gallery/platinum-electric-white-residential-australia-sydney-3/",
+   "https://www.bromic.com/gallery/platinum-electric-white-residential-australia-sydney/"
+  ]
+ },
+ {
+  "id": "pj-taol",
+  "kind": "project",
+  "title": "TAOL",
+  "customer": "TAOL",
+  "location": null,
+  "url": "https://www.bromic.com/gallery/taol-platinum-electric-03-25/",
+  "read": "gallery",
+  "summary": "2 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-taol-studio-mbc-platinum-electric",
+   "w-taol-wellness-retreat-platinum-electric-2"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/taol-platinum-electric-03-25/",
+   "https://www.bromic.com/gallery/taol-platinum-electric-04-25/"
+  ]
+ },
+ {
+  "id": "pj-taol-wellness-retreat",
+  "kind": "project",
+  "title": "TAOL Wellness Retreat",
+  "customer": "TAOL Wellness Retreat",
+  "location": null,
+  "url": "https://www.bromic.com/gallery/tao-wellness-retreat-platinum-electric-05-25/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "hotel-resort"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-taol-wellness-retreat-3"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tao-wellness-retreat-platinum-electric-05-25/"
+  ]
+ },
+ {
+  "id": "pj-the-ivy",
+  "kind": "project",
+  "title": "The Ivy",
+  "customer": "The Ivy",
+  "location": "London, UK",
+  "url": "https://www.bromic.com/gallery/tungsten-electric-the-ivy-london/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "UK"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-the-ivy-london-tungsten-electric"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-the-ivy-london/"
+  ]
+ },
+ {
+  "id": "pj-the-marylebone-hotel",
+  "kind": "project",
+  "title": "The Marylebone Hotel",
+  "customer": "The Marylebone Hotel",
+  "location": "London, UK",
+  "url": "https://www.bromic.com/gallery/tungsten-electric-marylebone-hotel-london/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "hotel-resort"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "UK"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-tungsten-electric-marylebone-hotel-london"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-marylebone-hotel-london/"
+  ]
+ },
+ {
+  "id": "pj-the-nolen-rooftop-bar",
+  "kind": "project",
+  "title": "The Nolen rooftop bar",
+  "customer": "The Nolen rooftop bar",
+  "location": "San Diego, USA",
+  "url": "https://www.bromic.com/gallery/tungsten-gas-the-nolen-rooftop-bar-san-diego/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "bar-rooftop",
+    "hotel-resort"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-gas"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-the-nolen-sd-courtyard-marriott-2"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-gas-the-nolen-rooftop-bar-san-diego/"
+  ]
+ },
+ {
+  "id": "pj-the-oberoi",
+  "kind": "project",
+  "title": "The Oberoi",
+  "customer": "The Oberoi",
+  "location": "Delhi, India",
+  "url": "https://www.bromic.com/gallery/tungsten-electric-oberoi-hotel-delhi/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "hotel-resort"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "IN"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-tungsten-electric-oberoi-hotel-delhi-1"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-oberoi-hotel-delhi/"
+  ]
+ },
+ {
+  "id": "pj-the-oran-hotel",
+  "kind": "project",
+  "title": "The Oran Hotel",
+  "customer": "The Oran Hotel",
+  "location": null,
+  "url": "https://www.bromic.com/gallery/eclipse-electric-outdoor-heater-at-the-oran-hotel/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "hotel-resort"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "eclipse-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-eclispe"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/eclipse-electric-outdoor-heater-at-the-oran-hotel/"
+  ],
+  "written_as": "cs-embracing-earthy-elegance-at-oran-park-hotel"
+ },
+ {
+  "id": "pj-tony-s-bar",
+  "kind": "project",
+  "title": "Tony's Bar",
+  "customer": "Tony's Bar",
+  "location": "Brooklyn, NY, USA",
+  "url": "https://www.bromic.com/gallery/tungsten-electric-tonys-bar-brooklyn-ny/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "bar-rooftop",
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-tungsten-electric-tonys-bar-brooklyn-ny-1"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-tonys-bar-brooklyn-ny/"
+  ],
+  "written_as": "cs-tonys-di-napoli"
+ },
+ {
+  "id": "pj-topgolf-monterrey",
+  "kind": "project",
+  "title": "Topgolf Monterrey",
+  "customer": "Topgolf Monterrey",
+  "location": "Monterrey, Mexico",
+  "url": "https://www.bromic.com/gallery/tungsten-freestanding-top-golf-monterrey/",
+  "read": "gallery",
+  "summary": "2 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "golf-country-club",
+    "restaurant"
+   ],
+   "space": [],
+   "install": [
+    "freestanding"
+   ],
+   "product": [
+    "tungsten-gas",
+    "tungsten-portable"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "LATAM"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-tungsten-500-top-golf-monterrey",
+   "w-tungsten-portable-top-golf-monterrey-1"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-freestanding-top-golf-monterrey/",
+   "https://www.bromic.com/gallery/tungsten-gas-500-top-golf-monterrey/"
+  ]
+ },
+ {
+  "id": "pj-tungsten-electric",
+  "kind": "project",
+  "title": "Tungsten Electric",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/tungsten-electric/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-img-1256"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric/"
+  ]
+ },
+ {
+  "id": "pj-tungsten-electric-12",
+  "kind": "project",
+  "title": "Tungsten Electric 12 1",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/tungsten-electric-12-1/",
+  "read": "gallery",
+  "summary": "6 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": [
+    "photo-set"
+   ]
+  },
+  "images": [
+   "w-delmonico-08",
+   "w-elm-ave-11-thumb",
+   "w-tungsten-electric"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-12-1/",
+   "https://www.bromic.com/gallery/tungsten-electric-12-2/",
+   "https://www.bromic.com/gallery/tungsten-electric-12-3/",
+   "https://www.bromic.com/gallery/tungsten-electric-12-4/",
+   "https://www.bromic.com/gallery/tungsten-electric-12-5/",
+   "https://www.bromic.com/gallery/tungsten-electric-12-6/"
+  ]
+ },
+ {
+  "id": "pj-tungsten-electric-black-commercial-installation",
+  "kind": "project",
+  "title": "Tungsten Electric Black Commercial Installation",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/tungsten-electric-black-commercial-installation/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-kion-sui-madrid-spain-tungsten-electric-5"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-black-commercial-installation/"
+  ]
+ },
+ {
+  "id": "pj-tungsten-electric-black-flush-mounted-in-private-r",
+  "kind": "project",
+  "title": "Tungsten Electric Black Flush Mounted In Private Residence",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/tungsten-electric-black-flush-mounted-in-private-residence/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [
+    "recessed"
+   ],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-bromic-tungsten-electric-residential"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-black-flush-mounted-in-private-residence/"
+  ]
+ },
+ {
+  "id": "pj-tungsten-electric-black-recessed",
+  "kind": "project",
+  "title": "Tungsten Electric Black Recessed",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/tungsten-electric-black-recessed/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [
+    "recessed"
+   ],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-bromic-tungsten-electric-black-recessed"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-black-recessed/"
+  ]
+ },
+ {
+  "id": "pj-tungsten-electric-outdoor-heater",
+  "kind": "project",
+  "title": "Tungsten Electric Outdoor Heater",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/tungsten-electric-outdoor-heater/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-gno-2"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-outdoor-heater/"
+  ]
+ },
+ {
+  "id": "pj-tungsten-electric-strx-230222-bromic-dc",
+  "kind": "project",
+  "title": "Tungsten Electric Strx_230222_Bromic_Dc 6",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/tungsten-electric-strx_230222_bromic_dc-6/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-strx-230222-bromic-dc-6"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-strx_230222_bromic_dc-6/"
+  ]
+ },
+ {
+  "id": "pj-tungsten-electric-tungsten-freestanding-strx-23022",
+  "kind": "project",
+  "title": "Tungsten Electric Tungsten Freestanding Strx_230222_Bromic_Dc 1",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/tungsten-electric-tungsten-freestanding-strx_230222_bromic_dc-1/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [
+    "freestanding"
+   ],
+   "product": [
+    "tungsten-portable"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-strx-230222-bromic-dc-1"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-tungsten-freestanding-strx_230222_bromic_dc-1/"
+  ]
+ },
+ {
+  "id": "pj-tungsten-electric-vbb7418",
+  "kind": "project",
+  "title": "Tungsten Electric Vbb7418",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/tungsten-electric-vbb7418/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-vbb7418"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-vbb7418/"
+  ]
+ },
+ {
+  "id": "pj-tungsten-electric-vbb7428",
+  "kind": "project",
+  "title": "Tungsten Electric Vbb7428",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/tungsten-electric-vbb7428/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-vbb7428"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-vbb7428/"
+  ]
+ },
+ {
+  "id": "pj-tungsten-electric-vbb7479",
+  "kind": "project",
+  "title": "Tungsten Electric Vbb7479",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/tungsten-electric-vbb7479/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-vbb7479"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-vbb7479/"
+  ]
+ },
+ {
+  "id": "pj-tungsten-electric-vbb7509",
+  "kind": "project",
+  "title": "Tungsten Electric Vbb7509",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/tungsten-electric-vbb7509/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-vbb7509"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-vbb7509/"
+  ]
+ },
+ {
+  "id": "pj-tungsten-electric-wall-mounted",
+  "kind": "project",
+  "title": "Tungsten Electric Wall Mounted",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/tungsten-electric-wall-mounted/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [
+    "wall-mounted"
+   ],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-tungsten-electric-wall-mount-2"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-electric-wall-mounted/"
+  ]
+ },
+ {
+  "id": "pj-tungsten-freestanding",
+  "kind": "project",
+  "title": "Tungsten Freestanding",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/tungsten-freestanding/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [
+    "freestanding"
+   ],
+   "product": [
+    "tungsten-portable"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-tungsten-portable-hr-1"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-freestanding/"
+  ]
+ },
+ {
+  "id": "pj-tungsten-freestanding-strx-230222-bromic-dc",
+  "kind": "project",
+  "title": "Tungsten Freestanding Strx_230222_Bromic_Dc 3",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/tungsten-freestanding-strx_230222_bromic_dc-3/",
+  "read": "gallery",
+  "summary": "2 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [
+    "freestanding"
+   ],
+   "product": [
+    "tungsten-portable"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-strx-230222-bromic-dc-3",
+   "w-strx-230222-bromic-dc-8"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/tungsten-freestanding-strx_230222_bromic_dc-3/",
+   "https://www.bromic.com/gallery/tungsten-freestanding-strx_230222_bromic_dc-8/"
+  ]
+ },
+ {
+  "id": "pj-usa",
+  "kind": "project",
+  "title": "USA",
+  "customer": null,
+  "location": "USA",
+  "url": "https://www.bromic.com/gallery/platinum-gas-wall-mounted-residential-us/",
+  "read": "gallery",
+  "summary": "2 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [
+    "wall-mounted"
+   ],
+   "product": [
+    "platinum-gas",
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-apex-building-plat-500-residential",
+   "w-mom-design-build-2-web"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-gas-wall-mounted-residential-us/",
+   "https://www.bromic.com/gallery/tungsten-electric-black-residential-us/"
+  ]
+ },
+ {
+  "id": "pj-vaucluse-sydney-australia",
+  "kind": "project",
+  "title": "Vaucluse, Sydney, Australia",
+  "customer": null,
+  "location": "Vaucluse, Sydney, Australia",
+  "url": "https://www.bromic.com/gallery/platinum-electric-white-residential-sydney-vaucluse-2/",
+  "read": "gallery",
+  "summary": "2 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "AU"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-residential-australia-sydney-vaucluse-01",
+   "w-residential-australia-sydney-vaucluse-04"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-electric-white-residential-sydney-vaucluse-2/",
+   "https://www.bromic.com/gallery/platinum-electric-white-residential-sydney-vaucluse/"
+  ]
+ },
+ {
+  "id": "pj-white-platinum-electric-recessed",
+  "kind": "project",
+  "title": "White Platinum Electric Recessed",
+  "customer": null,
+  "location": null,
+  "url": "https://www.bromic.com/gallery/white-platinum-electric-recessed/",
+  "read": "gallery",
+  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [
+    "recessed"
+   ],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": []
+  },
+  "images": [
+   "w-platinum-electric-white-recessed-residential-3"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/white-platinum-electric-recessed/"
+  ]
+ },
+ {
+  "id": "pj-wrigley-mansion",
+  "kind": "project",
+  "title": "Wrigley Mansion",
+  "customer": "Wrigley Mansion",
+  "location": "Phoenix, Arizona, USA",
+  "url": "https://www.bromic.com/gallery/eclipse-electric-freestanding-at-night-wrigley-mansion-arizona/",
+  "read": "gallery",
+  "summary": "2 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [
+    "freestanding"
+   ],
+   "product": [
+    "eclipse-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-wrigley-mansion-phoenix-arizona-17",
+   "w-wrigley-mansion-phoenix-arizona-22"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/eclipse-electric-freestanding-at-night-wrigley-mansion-arizona/",
+   "https://www.bromic.com/gallery/eclipse-electric-freestanding-wrigley-mansion-arizona/"
+  ],
+  "written_as": "cs-christophers-at-wrigley-mansion"
+ },
+ {
+  "id": "pj-zeus-greek-street",
+  "kind": "project",
+  "title": "Zeus Greek Street",
+  "customer": "Zeus Greek Street",
+  "location": "Kotara, Australia",
+  "url": "https://www.bromic.com/gallery/platinum-gas-zeus-greek-street-kotara-sydney-2/",
+  "read": "gallery",
+  "summary": "2 gallery photos on bromic.com, never written up as a case study.",
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-gas"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "AU"
+   ],
+   "proof": []
+  },
+  "images": [
+   "w-zeus-greek-street-kotara-sydney-platinum-gas",
+   "w-zeus-greek-street-kotara-sydney-platinum-gas-2"
+  ],
+  "gallery": [
+   "https://www.bromic.com/gallery/platinum-gas-zeus-greek-street-kotara-sydney-2/",
+   "https://www.bromic.com/gallery/platinum-gas-zeus-greek-street-kotara-sydney/"
+  ]
+ }
+]

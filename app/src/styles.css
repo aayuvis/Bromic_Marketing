@@ -299,3 +299,29 @@ table.data tr:hover td { background: var(--paper); }
   .reader-hero { margin: 0 0 20px; width: 100%; }
   main { padding: 0; }
 }
+
+/* case studies */
+.cs-colls { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; margin-bottom: 18px; }
+.cs-coll { display: grid; grid-template-columns: 72px 1fr; gap: 12px; align-items: center; text-align: left; background: var(--card); border: 1px solid var(--line); padding: 10px; cursor: pointer; font: inherit; color: var(--ink); }
+.cs-coll img { width: 72px; height: 72px; object-fit: cover; }
+.cs-coll.on, .cs-coll:hover { border-color: var(--flame); }
+.cs-coll i { font-style: italic; font-size: 13px; }
+.cs-coll .muted { font-size: 12px; }
+.cs-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+.cs-card { background: var(--card); border: 1px solid var(--line); display: flex; flex-direction: column; min-width: 0; }
+.cs-img { display: block; border: 0; padding: 0; background: var(--paper-2); cursor: zoom-in; aspect-ratio: 3 / 2; width: 100%; }
+.cs-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.cs-img.none { display: flex; align-items: center; justify-content: center; font-size: 13px; color: var(--ink-3, var(--ink-2)); cursor: default; }
+.cs-body { padding: 14px 16px 16px; }
+.cs-body h3 { font-size: 18px; margin: 8px 0 2px; }
+.cs-body .chips { display: flex; flex-wrap: wrap; gap: 5px; }
+.wsgrid th, .wsgrid td { text-align: center; padding: 4px; }
+.wsgrid th[scope=row] { text-align: left; font-weight: 400; white-space: nowrap; }
+.ws button { width: 100%; min-width: 46px; height: 34px; border: 1px solid var(--line); background: var(--card); font: 600 11px/1 var(--sans); color: var(--ink); cursor: pointer; }
+.ws.w button { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.ws.p button { background: var(--paper-2); }
+.ws.t-owner button { box-shadow: inset 0 0 0 2px var(--flame); }
+.ws.t-suggested button { box-shadow: inset 0 0 0 1px var(--flame); }
+.ws.na { background: transparent; }
+.ws button:focus-visible { outline: 2px solid var(--flame); outline-offset: 1px; }
+@media (max-width: 640px) { .cs-coll { grid-template-columns: 56px 1fr; } .cs-coll img { width: 56px; height: 56px; } }

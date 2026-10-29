@@ -1,0 +1,24 @@
+{
+ "_readme": "Curated collections for the sales deck (the owner's case-study slide, 29 Oct 2026). Each is a tag query over data/case-studies.json (any tag within a group, every group must match) plus the projects the slide names. A project the slide names that is not on bromic.com is listed under deck_only with only what the slide states; its details are to be captured with the case-study capture form.",
+ "collections": [
+  {"id": "single-family-recessing", "title": "Single-family recessing", "place": "Toronto",
+   "query": {"segment": ["single-family"], "install": ["recessed", "low-clearance-recess"]},
+   "deck_only": [{"name": "Single-family recessing", "place": "Toronto, Canada", "market": "CA"}]},
+  {"id": "oceanfront-california-room", "title": "Oceanfront California room", "place": "San Diego, California",
+   "query": {"segment": ["single-family"], "space": ["california-room", "covered-patio"], "theme": ["coastal"]},
+   "deck_only": [{"name": "Oceanfront California room", "place": "San Diego, California", "market": "US"}]},
+  {"id": "under-pergola", "title": "Installation under a pergola", "place": "Lake Washington",
+   "query": {"space": ["pergola", "louvred-roof"]},
+   "deck_only": [{"name": "Installation under a pergola", "place": "Lake Washington, Washington", "market": "US"}]},
+  {"id": "heat-light-dining", "title": "Heat + light for outdoor dining", "place": "Dallas and Normanby, Australia",
+   "query": {"theme": ["heat-light"]},
+   "deck_only": [{"name": "Heat + light for outdoor dining", "place": "Dallas, Texas", "market": "US"}, {"name": "Heat + light for outdoor dining", "place": "Normanby, Australia", "market": "AU"}]},
+  {"id": "multifamily-common-areas", "title": "Multifamily: common areas", "place": "Industrie, Rosenblum, Albany NY",
+   "query": {"segment": ["multifamily"]},
+   "named": ["cs-albany-zero-emissions-multifamily-building"]},
+  {"id": "wood-pergola-mounting", "title": "Mounting on a wood pergola", "place": "San Diego and Pangbourne, London",
+   "query": {"install": ["wood-structure"]},
+   "named": ["cs-platinum-electric-heaters-in-pangbourne"],
+   "deck_only": [{"name": "Mounting on a wood pergola", "place": "San Diego, California", "market": "US"}]}
+ ]
+}

@@ -28,9 +28,19 @@ for name in ['pages', 'products', 'cases', 'blog-a', 'blog-b', 'gallery']:
         recs[u] = {**recs.get(u, {}), **r, 'url': u}
 # Australia: www.bromic.com.au refuses every fetch (403), so AU-only case studies and press are known from search listings
 # (read = 'search-snippet-only', words paraphrased by the search tool) or, where the US site hosts the same study, read there.
-au = os.path.join(src, 'au-cases.json')
-if os.path.exists(au):
-    for r in json.load(open(au)):
+# Canada: www.bromic.ca loads, but carries only the US case studies (same slugs) and no Canadian project (29 Oct 2026).
+for au in [os.path.join(src, 'au-cases.json'), os.path.join(src, 'ca-cases.json')]:
+  if not os.path.exists(au): continue
+  for r in json.load(open(au)):
+        if r.get('kind') in ('gallery', 'search-log'): continue
+        if r.get('kind') == 'page':  # a market page that names a testimonial: keep it as a lead, not as a case study
+            u = r['url'].rstrip('/') + '/'
+            recs[u] = {'url': u, 'kind': 'press', 'market': r.get('market'), 'title': r.get('title'), 'summary': r.get('summary', ''),
+                       'read': 'direct', 'issues': [], 'audience': [], 'stage': [], 'images': [], 'read_on': '2026-10-29', 'location': 'Canada'}
+            continue
+        if r.get('read') in ('us-mirror',) and not r.get('us_url'):
+            slug = (r.get('url') or '').rstrip('/').split('/')[-1]
+            r['us_url'] = f'https://www.bromic.com/case-study/{slug}/' if slug else None
         if r.get('read') in ('us-mirror',) and r.get('us_url'):
             u = r['us_url'].rstrip('/') + '/'
             if u in recs: recs[u].setdefault('also_at', []).append(r['url'])

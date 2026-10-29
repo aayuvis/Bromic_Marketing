@@ -316,6 +316,102 @@
       ${H.openQuestions.map((q, n) => `<details class="oq" ${n === 0 ? 'open' : ''}><summary>${esc(q.name.replace(/-/g, ' '))}</summary>${q.html}</details>`).join('') || '<div class="empty">No open questions logged.</div>'}`;
   }
 
+  // ---------- case studies: library, whitespace, capture ----------
+  const CS = H.cs || { records: [], tax: null, collections: [], targets: [] };
+  const TG = (g, id) => CS.tax?.groups[g]?.tags.find((t) => t.id === id)?.label || id;
+  let csF = {}; let csKind = 'all'; let csColl = ''; let wsF = { product: '', space: '', install: '' };
+  const matchQ = (r, q) => Object.entries(q).every(([g, ids]) => !ids.length || ids.some((id) => (r.tags[g] || []).includes(id)));
+  function csList() {
+    const coll = CS.collections.find((c) => c.id === csColl);
+    return CS.records.filter((r) => (csKind === 'all' || (csKind === 'written' ? r.kind === 'case-study' : r.kind === 'project' && !r.written_as))
+      && matchQ(r, csF) && (!coll || matchQ(r, coll.query) || (coll.named || []).includes(r.id))
+      && (!searchTerm || [r.title, r.customer, r.location, r.summary].join(' ').toLowerCase().includes(searchTerm)));
+  }
+  const csTabs = (cur) => `<div class="btns" role="tablist" style="margin:0 0 18px">${[['', 'Library'], ['whitespace', 'Whitespace'], ['capture', 'Capture a project']].map(([k, l]) => `<a class="btn ${cur === k ? 'primary' : ''}" role="tab" aria-selected="${cur === k}" href="#/cases${k ? '/' + k : ''}">${l}</a>`).join('')}</div>`;
+  function csCard(r) {
+    const img = r.images?.length ? IMG[r.images[0]] : null;
+    const chips = ['segment', 'space', 'install', 'product', 'theme'].flatMap((g) => (r.tags[g] || []).map((id) => `<span class="chip">${esc(TG(g, id))}</span>`)).join('');
+    const badge = r.kind === 'case-study' ? (r.read === 'search-snippet-only' ? '<span class="chip warn">Search listing only</span>' : '<span class="chip solid">Case study</span>') : r.written_as ? '<span class="chip">Photos of a written study</span>' : '<span class="chip">Photos only, not written up</span>';
+    return `<article class="cs-card">${img ? `<button class="cs-img" data-img="${img.id}" aria-label="View photo"><img src="${img.thumb}" alt="${esc(img.alt)}" loading="lazy"></button>` : '<div class="cs-img none">No photo in the library yet</div>'}
+      <div class="cs-body"><div class="row gap">${badge}${(r.tags.market || []).map((m) => `<span class="chip">${esc(m)}</span>`).join('')}${r.year ? `<span class="muted" style="font-size:13px">${r.year}</span>` : ''}</div>
+      <h3>${r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title || r.customer || r.id)}</a>` : esc(r.title || r.id)}</h3>
+      <p class="muted" style="font-size:14px;margin:0 0 8px">${esc(r.location || '')}</p><p style="font-size:14px">${esc(r.summary || '')}</p>
+      <div class="chips">${chips}</div>
+      ${(r.tags.proof || []).length ? `<p class="muted" style="font-size:13px;margin-top:8px">Proof: ${r.tags.proof.map((id) => esc(TG('proof', id))).join(', ')}</p>` : ''}
+      ${(r.tags.controls || []).includes('controls-not-stated') && r.kind === 'case-study' ? '<p class="vcount" style="font-size:13px">Controls not stated: add them when this is upgraded</p>' : ''}</div></article>`;
+  }
+  function csLibrary() {
+    if (!CS.tax) return '<div class="empty">No case-study data. Run <code>python3 scripts/build_case_studies.py</code>.</div>';
+    const list = csList();
+    const groupSel = (g) => `<label class="muted" style="font-size:13px">${esc(CS.tax.groups[g].label)} <select data-csf="${g}"><option value="">All</option>${CS.tax.groups[g].tags.filter((t) => CS.records.some((r) => (r.tags[g] || []).includes(t.id))).map((t) => `<option value="${t.id}" ${(csF[g] || [])[0] === t.id ? 'selected' : ''}>${esc(t.label)}</option>`).join('')}</select></label>`;
+    const nW = CS.records.filter((r) => r.kind === 'case-study').length, nP = CS.records.filter((r) => r.kind === 'project' && !r.written_as).length;
+    return `<div class="ph"><div><span class="label">Case studies</span><h1>Every Bromic project, tagged the way sales sells it</h1><p>${nW} written case studies (US, Australia, Europe, marine) and ${nP} photographed projects never written up, from bromic.com, bromic.com.au and bromic.ca. Tag by segment, space, install, product, controls, theme, market and proof; the collections are the sales deck's.</p></div></div>
+      ${csTabs('')}
+      <div class="sec-h"><h2>Collections</h2></div><div class="cs-colls">${CS.collections.map((c) => { const n = CS.records.filter((r) => matchQ(r, c.query) || (c.named || []).includes(r.id)).length; const r0 = CS.records.find((r) => ((c.named || []).includes(r.id) || matchQ(r, c.query)) && r.images?.length); const im = r0 && IMG[r0.images[0]];
+        return `<button class="cs-coll ${csColl === c.id ? 'on' : ''}" data-cscoll="${c.id}">${im ? `<img src="${im.thumb}" alt="" loading="lazy">` : ''}<span><b>${esc(c.title)}</b><br><i>${esc(c.place)}</i><br><span class="muted">${n} on the sites${(c.deck_only || []).length ? ` · ${c.deck_only.length} deck-only to capture` : ''}</span></span></button>`; }).join('')}</div>
+      ${csColl ? (() => { const c = CS.collections.find((x) => x.id === csColl); return (c.deck_only || []).length ? `<div class="callout"><b>${esc(c.title)}: in the sales deck, not on any Bromic site.</b> ${c.deck_only.map((d) => `${esc(d.place)} <a href="#/cases/capture?segment=${esc((c.query.segment || [''])[0])}&market=${esc(d.market)}">Capture it</a>`).join(' · ')}</div>` : ''; })() : ''}
+      <div class="toolbar"><span class="muted">${list.length} shown${csColl || Object.values(csF).some((x) => x.length) ? ' · <button class="clear" data-csclear>Clear</button>' : ''}</span>
+      <span class="btns"><label class="muted" style="font-size:13px">Show <select data-cskind><option value="all" ${csKind === 'all' ? 'selected' : ''}>All</option><option value="written" ${csKind === 'written' ? 'selected' : ''}>Written case studies</option><option value="photos" ${csKind === 'photos' ? 'selected' : ''}>Photo-only projects</option></select></label>
+      ${['segment', 'market', 'space', 'install', 'product', 'theme', 'proof'].map(groupSel).join('')}</span></div>
+      <div class="cs-grid">${list.slice(0, 120).map(csCard).join('') || '<div class="empty">Nothing matches. That may be whitespace: <a href="#/cases/whitespace">see the grid</a>.</div>'}</div>${list.length > 120 ? `<p class="muted">Showing 120 of ${list.length}; narrow the filters.</p>` : ''}`;
+  }
+  function wsCell(seg, mkt) {
+    const recs = CS.records.filter((r) => (r.tags.segment || []).includes(seg) && (r.tags.market || []).includes(mkt) && matchQ(r, Object.fromEntries(Object.entries(wsF).filter(([, v]) => v).map(([g, v]) => [g, [v]]))));
+    const written = recs.filter((r) => r.kind === 'case-study' && r.read !== 'search-snippet-only');
+    const photos = recs.filter((r) => r.kind === 'project' && !r.written_as);
+    const target = CS.targets.find((t) => t.segment === seg && t.market === mkt);
+    return { written, photos, target, unread: recs.filter((r) => r.read === 'search-snippet-only') };
+  }
+  function csWhitespace() {
+    if (!CS.tax) return '';
+    const mk = CS.tax.grid.markets.concat(['MARINE']);
+    const segs = CS.tax.groups.segment.tags;
+    let covered = 0, total = 0;
+    const rows = segs.map((sg) => `<tr><th scope="row">${esc(sg.label)}</th>${mk.map((m) => {
+      const marine = sg.id.startsWith('marine'); if (marine !== (m === 'MARINE')) return '<td class="ws na" aria-label="not applicable"></td>';
+      const c = wsCell(sg.id, m); total++; if (c.written.length) covered++;
+      const cls = c.written.length ? 'w' : c.photos.length ? 'p' : 'e';
+      const lab = c.written.length ? `${c.written.length}` : c.photos.length ? `${c.photos.length} ph` : c.target ? (c.target.priority === 'owner' ? 'Priority' : 'Suggested') : '';
+      return `<td class="ws ${cls} ${c.target ? 't-' + c.target.priority : ''}"><button data-ws="${sg.id}|${m}" aria-label="${esc(sg.label)}, ${esc(m)}: ${c.written.length} written, ${c.photos.length} photo-only${c.target ? ', ' + c.target.priority + ' target' : ''}">${lab}</button></td>`; }).join('')}</tr>`).join('');
+    const fsel = (g) => `<label class="muted" style="font-size:13px">${esc(CS.tax.groups[g].label)} <select data-wsf="${g}"><option value="">Any</option>${CS.tax.groups[g].tags.map((t) => `<option value="${t.id}" ${wsF[g] === t.id ? 'selected' : ''}>${esc(t.label)}</option>`).join('')}</select></label>`;
+    const owner = CS.targets.filter((t) => t.priority === 'owner'), sugg = CS.targets.filter((t) => t.priority !== 'owner');
+    return `<div class="ph"><div><span class="label">Case-study whitespace</span><h1>What sales can't show a prospect yet</h1><p>${covered} of ${total} segment × market cells have a written case study. Dark: written · mid: photos only, never written up · outlined: priority to fill. Filter by product, space or install to find narrower gaps ("no pergola story in Australia").</p></div>
+      <div class="btns"><button class="btn" data-wscsv>${ic.down}Download CSV</button></div></div>
+      ${csTabs('whitespace')}
+      <div class="toolbar"><span class="muted">Click a cell for what exists or the outreach brief.</span><span class="btns">${fsel('product')}${fsel('space')}${fsel('install')}</span></div>
+      <div class="tbl-wrap"><table class="data wsgrid"><thead><tr><th></th>${mk.map((m) => `<th>${esc(m === 'MARINE' ? 'At sea' : m)}</th>`).join('')}</tr></thead><tbody>${rows}</tbody></table></div>
+      <div id="wsdetail"></div>
+      <div class="two"><div><div class="sec-h"><h2>Owner priorities</h2></div><ul class="list">${owner.map((t) => `<li><button class="row linkish" data-ws="${t.segment}|${t.market}"><span class="t" style="font-size:16px">${esc(TG('segment', t.segment))} · ${esc(t.market)}</span><span class="muted">${esc(t.angle)}</span></button></li>`).join('')}</ul></div>
+      <div><div class="sec-h"><h2>Suggested next</h2></div><ul class="list">${sugg.map((t) => `<li><button class="row linkish" data-ws="${t.segment}|${t.market}"><span class="t" style="font-size:16px">${esc(TG('segment', t.segment))} · ${esc(t.market)}</span><span class="muted">${esc(t.angle)}</span></button></li>`).join('')}</ul></div></div>`;
+  }
+  function wsDetail(seg, m) {
+    const c = wsCell(seg, m), sg = TG('segment', seg), t = c.target;
+    const recLink = (r) => `<li>${r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title || r.id)}</a>` : esc(r.title || r.id)} <span class="muted">${esc(r.location || '')}</span></li>`;
+    const cap = `#/cases/capture?segment=${encodeURIComponent(seg)}&market=${encodeURIComponent(m)}`;
+    return `<section class="card" style="margin-top:18px"><span class="label">${esc(m === 'MARINE' ? 'At sea' : m)}</span><h2 style="margin-top:4px">${esc(sg)}</h2>
+      ${c.written.length ? `<p><b>Written case studies</b></p><ul>${c.written.map(recLink).join('')}</ul>` : '<p class="vcount">No written case study.</p>'}
+      ${c.photos.length ? `<p><b>Photographed, never written up</b>: the fastest win is to write one of these.</p><ul>${c.photos.map(recLink).join('')}</ul>` : ''}
+      ${c.unread.length ? `<p><b>Known from a search listing only</b></p><ul>${c.unread.map(recLink).join('')}</ul>` : ''}
+      ${t ? `<div class="callout"><b>${t.priority === 'owner' ? 'Owner priority' : 'Suggested target'}: ${esc(t.angle)}</b><dl class="kv" style="margin-top:10px"><dt>Why</dt><dd>${esc(t.why)}</dd><dt>Who to approach</dt><dd>${esc(t.prospects)}</dd>
+        <dt>Lead with</dt><dd>${t.lead_with.map((x) => esc(TG('product', x))).join(', ')}, with ${esc(t.controls)}</dd><dt>Capture</dt><dd>${esc(t.capture)}</dd><dt>Owner</dt><dd>${esc(t.owner)}</dd></dl></div>`
+        : (!c.written.length ? `<p class="muted">Not prioritised yet. Add it to <code>data/case-study-targets.json</code> with an owner, or capture a project now.</p>` : '')}
+      <div class="btns"><a class="btn primary" href="${cap}">Capture a ${esc(sg.toLowerCase())} project</a></div></section>`;
+  }
+  function csCSV() {
+    const mk = CS.tax.grid.markets.concat(['MARINE']); const lines = [['segment', 'market', 'written', 'photo_only', 'target', 'angle', 'owner'].join(',')];
+    for (const sg of CS.tax.groups.segment.tags) for (const m of mk) { if (sg.id.startsWith('marine') !== (m === 'MARINE')) continue; const c = wsCell(sg.id, m);
+      lines.push([sg.label, m, c.written.length, c.photos.length, c.target?.priority || '', c.target?.angle || '', c.target?.owner || ''].map((x) => `"${String(x).replace(/"/g, '""')}"`).join(',')); }
+    return lines.join('\n');
+  }
+  function casesPage(sub) {
+    const [k, qs] = (location.hash.split('/cases/')[1] || '').split('?');
+    if (k === 'whitespace') return csWhitespace();
+    if (k === 'capture') return `<div class="ph"><div><span class="label">Case studies</span><h1>Capture a project</h1><p>For sales and marketing on site: the property, the people, products and controls, results, photos and every approval. It saves in your browser until you download the record.</p></div>
+      <div class="btns"><a class="btn" href="tools/CS-capture/index.html${qs ? '?' + qs : ''}" target="_blank" rel="noopener">${ic.ext}Open full page</a></div></div>${csTabs('capture')}
+      <iframe class="tool-frame" style="min-height:1400px" src="tools/CS-capture/index.html?embed=1${qs ? '&' + qs : ''}" title="Case-study capture"></iframe>`;
+    return csLibrary();
+  }
+
   // ---------- bromic.com inventory ----------
   let siteF = { kind: '', aud: '', stg: '', issues: '', market: '' };
   const KINDS = { page: 'Page', landing: 'Landing page', product: 'Product', 'case-study': 'Case study', press: 'Press', blog: 'Blog post', podcast: 'Podcast', gallery: 'Gallery photo' };
@@ -366,7 +462,7 @@
     const tab = { '': 'home', item: 'library', tool: 'tools' }[p] ?? p;
     document.querySelectorAll('.tabs a').forEach((x) => x.toggleAttribute('aria-current', false) || (x.dataset.tab === tab && x.setAttribute('aria-current', 'page')));
     const html = p === '' ? home() : p === 'library' ? library() : p === 'item' ? item(decodeURIComponent(a || '')) : p === 'journey' ? journey(a) : p === 'assets' ? assets(a)
-      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
+      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : p === 'cases' ? casesPage(a) : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
     view.innerHTML = html;
     const it = p === 'item' && ITEM[a];
     document.title = it ? `${it.title} · Bromic Content Hub` : 'Bromic Content Hub';
@@ -387,6 +483,10 @@
       return;
     }
     const t = e.target.closest('[data-img]'); if (t) lightbox(t.dataset.img);
+    const cc = e.target.closest('[data-cscoll]'); if (cc) { csColl = csColl === cc.dataset.cscoll ? '' : cc.dataset.cscoll; route.keepScroll = true; view.innerHTML = casesPage(); return; }
+    if (e.target.closest('[data-csclear]')) { csF = {}; csColl = ''; csKind = 'all'; view.innerHTML = casesPage(); return; }
+    const wc = e.target.closest('[data-ws]'); if (wc) { const [sg, m] = wc.dataset.ws.split('|'); const d = $('#wsdetail'); if (d) { d.innerHTML = wsDetail(sg, m); d.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); } return; }
+    if (e.target.closest('[data-wscsv]')) { download('case-study-whitespace.csv', csCSV()); return; }
     const sc = e.target.closest('[data-sitecell]'); if (sc) { const [a, s] = sc.dataset.sitecell.split('|'); siteF = { ...siteF, aud: a, stg: s }; route.keepScroll = true; view.innerHTML = sitePage(); return; }
     const sk = e.target.closest('[data-sitef-kind]'); if (sk) { siteF = { ...siteF, kind: sk.dataset.sitefKind === 'gallery' ? '' : sk.dataset.sitefKind }; if (sk.dataset.sitefKind === 'gallery') { imgFilter.src = 'bromic.com'; location.hash = '#/images'; return; } view.innerHTML = sitePage(); return; }
     const cite = e.target.closest('sup.cite a');
@@ -395,6 +495,9 @@
   document.addEventListener('change', (e) => {
     if (e.target.id === 'sort') { route.keepScroll = true; location.hash = libHref({ ...parseQ(), sort: e.target.value }); }
     if (e.target.dataset.imgf) { imgFilter[e.target.dataset.imgf] = e.target.value; view.innerHTML = images(); }
+    if (e.target.dataset.csf) { const g = e.target.dataset.csf; csF[g] = e.target.value ? [e.target.value] : []; view.innerHTML = casesPage(); return; }
+    if (e.target.dataset.cskind !== undefined) { csKind = e.target.value; view.innerHTML = casesPage(); return; }
+    if (e.target.dataset.wsf) { wsF[e.target.dataset.wsf] = e.target.value; view.innerHTML = casesPage(); return; }
     if (e.target.dataset.sitef) { const k = e.target.dataset.sitef; siteF[k] = e.target.type === 'checkbox' ? (e.target.checked ? '1' : '') : e.target.value; view.innerHTML = sitePage(); }
   });
   $('#q').addEventListener('input', (e) => {
@@ -402,6 +505,7 @@
     const p = location.hash.replace(/^#\/?/, '').split(/[/?]/)[0];
     if (p === 'sources') { view.innerHTML = sources(); return; }
     if (p === 'site') { view.innerHTML = sitePage(); return; }
+    if (p === 'cases') { view.innerHTML = casesPage(); return; }
     if (p !== 'library') { location.hash = '#/library'; return; }
     route.keepScroll = true; route();
     $('#q').focus();
