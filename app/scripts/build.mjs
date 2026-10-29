@@ -21,7 +21,7 @@ const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<
 
 export const TYPES = {
   article: 'Article', kb: 'Knowledge base', 'gated-guide': 'Gated guide', report: 'Report', 'stats-page': 'Stats page',
-  'spec-kit': 'Specification kit', 'sales-kit': 'Sales kit', 'case-study': 'Case study', tool: 'Tool',
+  'spec-kit': 'Specification kit', 'sales-kit': 'Sales kit', 'case-study': 'Case study', tool: 'Tool', blog: 'Blog post',
 };
 const AUD = ['RES', 'ARC', 'BLD', 'COM'];
 const STG = ['AW', 'CO', 'IN', 'PP', 'BY'];
@@ -103,7 +103,8 @@ for (const f of files) {
     secondary_keywords: arr(fm.secondary_keywords), ai_prompt: fm.ai_prompt || '', meta_description: fm.meta_description || '',
     cta: fm.cta || null, hero: fm.hero || '', owner_review: fm.owner_review || '', status: fm.status || 'draft',
     gated: !!fm.gated, related: arr(fm.related).map(String), updated: fm.updated ? (fm.updated instanceof Date ? fm.updated.toISOString().slice(0, 10) : String(fm.updated).slice(0, 10)) : '',
-    needs_approval: fm.needs_approval || '', sources: arr(fm.sources).map((s) => ({ ...s, id: String(s.id) })),
+    needs_approval: fm.needs_approval || '', live_url: fm.live_url || '', action: fm.action || '', merges: arr(fm.merges).map(String),
+    technical_reviewer: fm.technical_reviewer || '', last_reviewed: fm.last_reviewed ? (fm.last_reviewed instanceof Date ? fm.last_reviewed.toISOString().slice(0, 10) : String(fm.last_reviewed)) : '', sources: arr(fm.sources).map((s) => ({ ...s, id: String(s.id) })),
   };
   const srcIndex = {};
   it.sources.forEach((s, i) => { srcIndex[s.id] = i + 1; });
@@ -127,6 +128,15 @@ for (const f of files) {
     if (!it.cta) errors.push(`${where}: article needs a cta`);
     if (!it.faq.length) errors.push(`${where}: article needs an FAQ`);
     if (!/<table/.test(it.html)) errors.push(`${where}: article needs a table`);
+    if (it.meta_description.length > 160) warn.push(`${where}: meta_description ${it.meta_description.length} chars`);
+  }
+  if (it.type === 'blog') {  // a blog post replaces a live bromic.com URL (content/reports/blog-audit.md, data/page-ownership.json)
+    if (!it.cta) errors.push(`${where}: blog post needs a cta`);
+    if (!/^https:\/\/www\.bromic\.com\/blog\//.test(it.live_url)) errors.push(`${where}: blog post needs live_url (the bromic.com/blog/ URL it replaces)`);
+    if (!it.technical_reviewer || !it.last_reviewed) warn.push(`${where}: blog post needs technical_reviewer and last_reviewed (AEO template)`);
+    const first = (p.body.split(/\n\s*\n/).map((x) => x.trim()).find((x) => x && !/^(#|!\[|>|\||<)/.test(x)) || '');
+    const n = first.split(/\s+/).filter(Boolean).length;
+    if (n < 35 || n > 90) warn.push(`${where}: opening answer is ${n} words (AEO template: 40–80)`);
     if (it.meta_description.length > 160) warn.push(`${where}: meta_description ${it.meta_description.length} chars`);
   }
   if (/500 series/i.test(p.body)) errors.push(`${where}: legacy "500 series" naming`);
@@ -166,6 +176,21 @@ const csFile = (f) => (fs.existsSync(path.join(ROOT, 'data', f)) ? readJSON('dat
 const cs = { records: csFile('case-studies.json') || [], tax: csFile('case-study-taxonomy.json'), collections: (csFile('case-study-collections.json') || {}).collections || [], targets: (csFile('case-study-targets.json') || {}).targets || [] };
 for (const r of cs.records) for (const id of r.images || []) if (!imgIds.has(id)) errors.push(`data/case-studies.json ${r.id}: image "${id}" not in library`);
 
+// Blog plan: every live bromic.com/blog post (content/reports/blog-audit.md) → its call and what replaces it.
+const blogPlan = [];
+{
+  const auditFile = path.join(ROOT, 'content', 'reports', 'blog-audit.md');
+  const audit = fs.existsSync(auditFile) ? fs.readFileSync(auditFile, 'utf8') : '';
+  const norm = (u) => (u || '').replace(/\/?$/, '/');
+  for (const m of audit.matchAll(/^\| \[(.+?)\]\((https:\/\/www\.bromic\.com\/blog\/[^)]+)\) \| ([A-Z]{3}-[A-Z]{2}) \| ([^|]+?) \| ([^|]*?) \|/gm)) {
+    const [, title, url, cell, call, why] = m; const u = norm(url);
+    const post = items.find((it) => it.type === 'blog' && norm(it.live_url) === u);
+    const into = items.find((it) => it.type === 'blog' && it.merges.map(norm).includes(u));
+    const viaOwn = (fs.existsSync(path.join(ROOT, 'data', 'page-ownership.json')) ? readJSON('data/page-ownership.json').items : []).find((o) => norm(o.target_url) === u && items.some((it) => it.id === o.id && it.type !== 'blog'));
+    blogPlan.push({ title, url: u, cell, call: call.trim(), why: why.trim(), post: post?.id || '', into: into?.id || '', article: viaOwn?.id || '' });
+  }
+}
+
 // SEO/AEO: how each draft is published (data/page-ownership.json) — upgrade a live URL before creating a new one
 const own = fs.existsSync(path.join(ROOT, 'data', 'page-ownership.json')) ? readJSON('data/page-ownership.json') : { items: [] };
 for (const it of items) { const o = own.items.find((x) => x.id === it.id); if (o) it.publish = o; }
@@ -179,7 +204,7 @@ for (const it of items) {
 }
 
 let commit = ''; try { commit = (await import('node:child_process')).execSync('git rev-parse --short HEAD', { cwd: ROOT }).toString().trim(); } catch {}
-const HUB = { built: new Date().toISOString(), commit, matrix, assets, facts, images, usage, tools, site, cs, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
+const HUB = { built: new Date().toISOString(), commit, matrix, assets, facts, images, usage, tools, site, cs, blogPlan, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
 
 console.log(`items ${items.length} · tools ${tools.length} · images ${images.length} · site pages ${site.length} · errors ${errors.length} · warnings ${warn.length}`);
 warn.forEach((w) => console.log('  warn  ' + w));

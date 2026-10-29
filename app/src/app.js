@@ -331,6 +331,31 @@
       ${H.openQuestions.map((q, n) => `<details class="oq" ${n === 0 ? 'open' : ''}><summary>${esc(q.name.replace(/-/g, ' '))}</summary>${q.html}</details>`).join('') || '<div class="empty">No open questions logged.</div>'}`;
   }
 
+  // ---------- blog: the live bromic.com/blog, post by post, and what replaces each ----------
+  let blogF = '';
+  function blogPage() {
+    const P = H.blogPlan || [];
+    const kind = (r) => r.post ? 'post' : r.into ? 'merged' : r.article ? 'article' : /retire|unpublish/i.test(r.call) ? 'retired' : 'todo';
+    const posts = H.items.filter((i) => i.type === 'blog');
+    const n = (k) => P.filter((r) => kind(r) === k).length;
+    const after = P.length - n('merged') - n('retired');
+    const list = P.filter((r) => !blogF || kind(r) === blogF || (blogF === 'post' && kind(r) === 'post'));
+    const pill = { post: '<span class="chip solid">New post</span>', merged: '<span class="chip">Merged, 301</span>', article: '<span class="chip ok">Hub article</span>', retired: '<span class="chip warn">Retire / unpublish</span>', todo: '<span class="chip warn">Not yet written</span>' };
+    const tgt = (r) => { const id = r.post || r.into || r.article; const it = id && ITEM[id]; return it ? `<a href="#/item/${esc(id)}">${esc(id)} · ${esc(it.title)}</a>${r.into ? ' <span class="muted">(merged into)</span>' : ''}<br><span class="muted" style="font-size:12.5px">${esc(it.status)} · ${it.words.toLocaleString()} words${it.verifies.length ? ` · <span class="vcount">${it.verifies.length} to verify</span>` : ''}</span>` : `<span class="muted">${esc(r.why).slice(0, 140)}</span>`; };
+    const words = posts.reduce((a, i) => a + i.words, 0);
+    return `<div class="ph"><div><span class="label">Blog</span><h1>bromic.com/blog, rewritten post by post</h1><p>${P.length} live posts become ${after}: each keeps its URL (the SEO plan recovers existing pages rather than adding new ones), merged posts redirect into the strongest one, and every rewrite follows the answer-first template with its controls, sources and one next step.</p></div></div>
+      <div class="stats"><div class="stat"><span class="label">Live today</span><b>${P.length}</b><span class="sub">posts on bromic.com/blog</span></div>
+        <div class="stat"><span class="label">New posts written</span><b>${n('post')}</b><span class="sub">${words.toLocaleString()} words, drafts for review</span></div>
+        <div class="stat"><span class="label">Merged</span><b>${n('merged')}</b><span class="sub">301 into a stronger post</span></div>
+        <div class="stat"><span class="label">Hub articles</span><b>${n('article')}</b><span class="sub">replace the post body</span></div>
+        <div class="stat"><span class="label">Retire</span><b>${n('retired')}</b><span class="sub">${n('todo') ? n('todo') + ' still to write' : 'nothing left to write'}</span></div></div>
+      <div class="toolbar" style="margin-top:22px"><span class="muted">${list.length} of ${P.length} live posts</span><span class="btns"><label class="muted" style="font-size:13px">Show <select data-blogf><option value="">All</option>${['post', 'merged', 'article', 'retired', 'todo'].map((k) => `<option value="${k}" ${blogF === k ? 'selected' : ''}>${{ post: 'New posts', merged: 'Merged', article: 'Hub articles', retired: 'Retire', todo: 'Not yet written' }[k]}</option>`).join('')}</select></label></span></div>
+      <div class="tbl-wrap"><table class="data"><thead><tr><th>Live post</th><th>Cell</th><th>Call</th><th>Replaced by</th></tr></thead><tbody>
+      ${list.map((r) => `<tr><td style="min-width:220px"><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a></td><td><a href="#/journey/${esc(r.cell)}">${esc(r.cell)}</a></td><td style="min-width:150px">${pill[kind(r)]}<br><span class="muted" style="font-size:12.5px">${esc(r.call)}</span></td><td style="min-width:260px">${tgt(r)}</td></tr>`).join('')}
+      </tbody></table></div>
+      <p class="muted" style="font-size:13px;margin-top:14px">The redirect plan and the reasons behind each call: <a href="#/item/R-BLOG-AUDIT">Blog audit</a> · ownership of each search intent: <a href="#/item/R-SEO-AEO">SEO and AEO gap analysis</a>.</p>`;
+  }
+
   // ---------- case studies: library, whitespace, capture ----------
   const CS = H.cs || { records: [], tax: null, collections: [], targets: [] };
   const TG = (g, id) => CS.tax?.groups[g]?.tags.find((t) => t.id === id)?.label || id;
@@ -561,7 +586,7 @@
     const tab = { '': 'home', item: 'library', tool: 'tools' }[p] ?? p;
     document.querySelectorAll('.tabs a').forEach((x) => x.toggleAttribute('aria-current', false) || (x.dataset.tab === tab && x.setAttribute('aria-current', 'page')));
     const html = p === '' ? home() : p === 'library' ? library() : p === 'item' ? item(decodeURIComponent(a || '')) : p === 'journey' ? journey(a) : p === 'assets' ? assets(a)
-      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : p === 'cases' ? casesPage(a) : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
+      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : p === 'cases' ? casesPage(a) : p === 'blog' ? blogPage() : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
     view.innerHTML = html;
     const it = p === 'item' && ITEM[a];
     document.title = it ? `${it.title} · Bromic Content Hub` : 'Bromic Content Hub';
@@ -597,6 +622,7 @@
   document.addEventListener('change', (e) => {
     if (e.target.id === 'sort') { route.keepScroll = true; location.hash = libHref({ ...parseQ(), sort: e.target.value }); }
     if (e.target.dataset.imgf) { imgFilter[e.target.dataset.imgf] = e.target.value; view.innerHTML = images(); }
+    if (e.target.dataset.blogf !== undefined) { blogF = e.target.value; view.innerHTML = blogPage(); return; }
     if (e.target.dataset.csf) { const g = e.target.dataset.csf; csF[g] = e.target.value ? [e.target.value] : []; view.innerHTML = casesPage(); return; }
     if (e.target.dataset.cskind !== undefined) { csKind = e.target.value; view.innerHTML = casesPage(); return; }
     if (e.target.dataset.wsf) { wsF[e.target.dataset.wsf] = e.target.value; view.innerHTML = casesPage(); return; }

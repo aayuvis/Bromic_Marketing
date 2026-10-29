@@ -22,14 +22,14 @@ for (const f of files) {
   if (/500 series/i.test(prose)) fail(f, 'legacy "500 series" naming');
   if (/39,?800/.test(prose) && !/\[\[VERIFY|conflict|do not publish|removed|old figure|2021/i.test(prose)) fail(f, '39,800 BTU published as fact');
   // 4. one CTA (gated assets and articles)
-  if (['article', 'kb', 'gated-guide', 'stats-page', 'spec-kit', 'sales-kit', 'tool'].includes(fm.type) && fm.status !== 'template' && !(fm.cta && fm.cta.label)) fail(f, 'missing cta');
+  if (['article', 'kb', 'blog', 'gated-guide', 'stats-page', 'spec-kit', 'sales-kit', 'tool'].includes(fm.type) && fm.status !== 'template' && !(fm.cta && fm.cta.label)) fail(f, 'missing cta');
   // 5. every source has a publisher and a url or file
   for (const s of fm.sources || []) if (!s.publisher || !s.url) fail(f, `source ${s.id} lacks publisher or url`);
   // 6. voice: no exclamation marks, no emoji
   if (/[A-Za-z][!](\s|$)/.test(prose.replace(/!\[/g, ''))) fail(f, 'exclamation mark');
   if (/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/u.test(prose)) fail(f, 'emoji');
   // 7. code/permit content carries the disclaimer
-  if (/\b(NEC|NFPA|IFC|permit|fire code|building code)\b/.test(prose) && ['article', 'kb', 'gated-guide', 'spec-kit'].includes(fm.type) && !/local[^.\n]{0,30}(authority|authorities|inspector|jurisdiction|fire marshal|building department)|authority having jurisdiction|\bAHJ\b|FDNY|Department of Buildings|licensed (electrician|gas fitter|master plumber)/i.test(prose)) fail(f, 'code content without local-authority disclaimer');
+  if (/\b(NEC|NFPA|IFC|permit|fire code|building code)\b/.test(prose) && ['article', 'kb', 'blog', 'gated-guide', 'spec-kit'].includes(fm.type) && !/local[^.\n]{0,30}(authority|authorities|inspector|jurisdiction|fire marshal|building department)|authority having jurisdiction|\bAHJ\b|FDNY|Department of Buildings|licensed (electrician|gas fitter|master plumber)/i.test(prose)) fail(f, 'code content without local-authority disclaimer');
   // 8. competitor mentions need approval flag
   if (/\b(Infratech|Heatscope|Heatstrip)\b/.test(prose) && !fm.needs_approval) fail(f, 'competitor named without needs_approval');
   // warn: a percentage in a paragraph with no citation

@@ -61,6 +61,14 @@ Figures in the inventory are leads to check on the live page, never sources. Pro
 Images: `python3 scripts/bromic_site_images.py fetch | sheets | ingest` → `images/_raw/bromic-com/` (gitignored) → contact sheets
 → the library as `w-` ids with `source_url` and `page_url`. Every image is looked at before ingest; rights stay `[[VERIFY]]`.
 
+## Blog (content/blog/)
+
+Every live bromic.com/blog post has a call in `content/reports/blog-audit.md` (keep and fix, rewrite, merge, replace with a Hub
+article, retire). A post that survives is rewritten as `type: blog` in `content/blog/`, **on its existing URL** (`live_url`; the SEO
+strategy recovers existing pages instead of adding new ones), absorbing the posts that merge into it (`merges:` → 301s). Each
+follows `templates/blog-brief.md`: a 40–80 word answer first, H2s, a table where it fits, controls with every heater, sources,
+one CTA, `technical_reviewer` and `last_reviewed`. The Hub's Blog tab shows all 73 live posts and what replaces each.
+
 ## Feedback loop (start every session here)
 
 The Hub has a Feedback button on every page, a comment button on every section heading, "Comment on this" for selected text, and
