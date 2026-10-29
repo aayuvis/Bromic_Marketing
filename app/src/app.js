@@ -181,6 +181,9 @@
         <dt>Lifecycle</dt><dd>${it.stage.map((s) => esc(STG[s]?.name || s)).join(', ')}</dd>
         ${it.asset ? `<dt>Asset</dt><dd><a href="#/assets/${esc(it.asset)}">${esc(it.asset)} · ${esc(ASSET[it.asset]?.name || '')}</a></dd>` : ''}
         <dt>Reviewer</dt><dd>${esc(it.owner_review || '—')}</dd>
+        ${it.publish ? `<dt>Publish as</dt><dd><b>${esc(it.publish.publish_as)}</b>${it.publish.target_url ? ` → <a href="${esc(it.publish.target_url)}" target="_blank" rel="noopener">${esc(it.publish.target_url.replace('https://www.bromic.com', ''))}</a>` : ''}<br><span class="muted" style="font-size:13px">${esc(it.publish.reason || '')}</span></dd>
+        ${it.publish.owner_link ? `<dt>Must link to</dt><dd><a href="${esc(it.publish.owner_link)}" target="_blank" rel="noopener">${esc(it.publish.owner_link.replace('https://www.bromic.com', '') || '/')}</a> (owner of the purchase intent)</dd>` : ''}
+        ${it.publish.cannibalisation_risk && !/^none/i.test(it.publish.cannibalisation_risk) ? `<dt>Cannibalisation</dt><dd class="vcount" style="font-size:13px">${esc(it.publish.cannibalisation_risk)}</dd>` : ''}` : ''}
         ${it.needs_approval ? `<dt>Approval</dt><dd>${esc(it.needs_approval)}</dd>` : ''}
         <dt>Length</dt><dd>${it.words.toLocaleString()} words</dd>
         ${it.updated ? `<dt>Updated</dt><dd>${esc(it.updated)}</dd>` : ''}

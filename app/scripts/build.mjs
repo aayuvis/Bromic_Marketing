@@ -166,6 +166,11 @@ const csFile = (f) => (fs.existsSync(path.join(ROOT, 'data', f)) ? readJSON('dat
 const cs = { records: csFile('case-studies.json') || [], tax: csFile('case-study-taxonomy.json'), collections: (csFile('case-study-collections.json') || {}).collections || [], targets: (csFile('case-study-targets.json') || {}).targets || [] };
 for (const r of cs.records) for (const id of r.images || []) if (!imgIds.has(id)) errors.push(`data/case-studies.json ${r.id}: image "${id}" not in library`);
 
+// SEO/AEO: how each draft is published (data/page-ownership.json) — upgrade a live URL before creating a new one
+const own = fs.existsSync(path.join(ROOT, 'data', 'page-ownership.json')) ? readJSON('data/page-ownership.json') : { items: [] };
+for (const it of items) { const o = own.items.find((x) => x.id === it.id); if (o) it.publish = o; }
+for (const o of own.items) if (!items.some((it) => it.id === o.id)) warn.push(`data/page-ownership.json: "${o.id}" is not a content item`);
+
 // image usage
 const usage = {};
 for (const it of items) {
