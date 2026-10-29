@@ -826,7 +826,8 @@
   "url": "https://www.bromic.com/case-study/hide-restaurant/",
   "also_at": [
    "https://www.bromic.com.au/case-study/hide-restaurant/",
-   "https://www.bromic.ca/case-study/hide-restaurant/"
+   "https://www.bromic.ca/case-study/hide-restaurant/",
+   "https://www.bromic.co.uk/case-study/hide-restaurant/"
   ],
   "read": "read",
   "summary": "2020 COVID-era case study: Michelin-starred HIDE in London's Piccadilly moved dining onto the street with Tungsten freestanding gas heaters; restaurant manager quote.",
@@ -994,7 +995,8 @@
   "location": "London, United Kingdom",
   "url": "https://www.bromic.com/case-study/london-restauranteur-incorporates-full-bromic-line-across-locations/",
   "also_at": [
-   "https://www.bromic.ca/case-study/london-restauranteur-incorporates-full-bromic-line-across-locations/"
+   "https://www.bromic.ca/case-study/london-restauranteur-incorporates-full-bromic-line-across-locations/",
+   "https://www.bromic.co.uk/case-study/london-restauranteur-incorporates-full-bromic-line-across-locations/"
   ],
   "read": "read",
   "summary": "April 2023: a London restaurateur used Eclipse pendants, Tungsten and Platinum electric heaters across Paris Grill, Paris Bar and Kadie's Club (plus a home gym), with dimmer and on/off controls, via dealer Heatport.",
@@ -1060,7 +1062,8 @@
   "location": null,
   "url": "https://www.bromic.com/case-study/m-y-lady-lene-superyacht/",
   "also_at": [
-   "https://www.bromic.ca/case-study/m-y-lady-lene-superyacht/"
+   "https://www.bromic.ca/case-study/m-y-lady-lene-superyacht/",
+   "https://www.bromic.co.uk/case-study/m-y-lady-lene-superyacht/"
   ],
   "read": "read",
   "summary": "Marine case study: white Platinum Electric Marine heaters recessed into the aft decks of the 34-metre Van der Valk explorer yacht Lady Lene; chief engineer reports they withstand deck washdowns. Full design-team credits.",
@@ -1230,7 +1233,8 @@
   "location": "Pangbourne, United Kingdom",
   "url": "https://www.bromic.com/case-study/platinum-electric-heaters-in-pangbourne/",
   "also_at": [
-   "https://www.bromic.ca/case-study/platinum-electric-heaters-in-pangbourne/"
+   "https://www.bromic.ca/case-study/platinum-electric-heaters-in-pangbourne/",
+   "https://www.bromic.co.uk/case-study/platinum-electric-heaters-in-pangbourne/"
   ],
   "read": "read",
   "summary": "UK residence (2022): a 1920s home's barn-conversion entertaining space heated by twelve Platinum 3400W electric heaters with a wireless dimmer and master remote for zoned control; includes homeowner quote.",
@@ -2155,6 +2159,42 @@
   ],
   "images": [],
   "note": "Known from a search listing only: the page could not be read"
+ },
+ {
+  "id": "cs-neumanns-restaurant",
+  "kind": "case-study",
+  "title": "Neumanns Restaurant",
+  "customer": "Neumanns Restaurant",
+  "location": "Hamburg, Germany",
+  "url": "https://www.bromic.de/de/case-study/neumanns-restaurant/",
+  "also_at": [],
+  "read": "direct",
+  "summary": "Very short German case study: a Hamburg restaurant used Bromic outdoor heating through the Covid period to give guests extra comfort. Only product named is Platinum Smart-Heat Electric; no quantity, controls, people or detail.",
+  "year": null,
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [
+    "terrace"
+   ],
+   "install": [],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [
+    "season-extension"
+   ],
+   "market": [
+    "DACH"
+   ],
+   "proof": []
+  },
+  "issues": [],
+  "images": []
  },
  {
   "id": "pj-aba-restaurant",

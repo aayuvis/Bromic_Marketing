@@ -54,6 +54,7 @@ T = {
  'tonys-di-napoli': dict(seg='restaurant', space='street-dining', inst='wall-mounted', prod='tungsten-electric', ctl='controls-not-stated', theme='season-extension', proof=''),
  'tungsten-electric-heaters-at-clinica-las-condes': dict(seg='healthcare restaurant', space='pergola louvred-roof terrace', inst='ceiling-mounted', prod='tungsten-electric', ctl='controls-not-stated', theme='large-scale', proof='quote numbers heat-plan', year=2023, market='LATAM'),
  'welcoming-guests-with-the-warmth-of-mexican-hospitality': dict(seg='restaurant', space='covered-patio courtyard', inst='ceiling-mounted', prod='platinum-gas', ctl='controls-not-stated', theme='fire-code design-led', proof='credits photo-set', year=2024),
+ 'neumanns-restaurant': dict(seg='restaurant', space='terrace', inst='', prod='platinum-electric', ctl='controls-not-stated', theme='season-extension', proof='', market='DACH'),
  'barangaroo-house': dict(seg='restaurant bar-rooftop', space='terrace rooftop', inst='', prod='platinum-electric', ctl='controls-not-stated', theme='', proof='', market='AU'),
  'sunbury-bowling-club': dict(seg='pub-club', space='', inst='', prod='', ctl='controls-not-stated', theme='', proof='', market='AU'),
 }
@@ -64,7 +65,7 @@ def market_of(loc, given=None):
     for k, m in [('australia', 'AU'), ('sydney', 'AU'), ('brisbane', 'AU'), ('melbourne', 'AU'), ('perth', 'AU'), ('victoria', 'AU'),
                  ('canada', 'CA'), ('toronto', 'CA'), ('vancouver', 'CA'), ('calgary', 'CA'), ('montreal', 'CA'), ('ontario', 'CA'), ('british columbia', 'CA'), ('alberta', 'CA'), ('quebec', 'CA'),
                  ('new zealand', 'NZ'), ('auckland', 'NZ'), ('united kingdom', 'UK'), ('london', 'UK'), ('england', 'UK'),
-                 ('germany', 'DACH'), ('austria', 'DACH'), ('switzerland', 'DACH'), ('bellheim', 'DACH'), ('belgium', 'BE'), ('brussels', 'BE'), ('netherlands', 'NL'), ('amsterdam', 'NL'), ('sweden', 'EU'), ('spain', 'EU'), ('norway', 'EU'), ('oslo', 'EU'), ('france', 'EU'),
+                 ('germany', 'DACH'), ('austria', 'DACH'), ('switzerland', 'DACH'), ('bellheim', 'DACH'), ('hamburg', 'DACH'), ('belgium', 'BE'), ('brussels', 'BE'), ('netherlands', 'NL'), ('amsterdam', 'NL'), ('sweden', 'EU'), ('spain', 'EU'), ('norway', 'EU'), ('oslo', 'EU'), ('france', 'EU'),
                  ('india', 'IN'), ('chile', 'LATAM'), ('argentina', 'LATAM'), ('mexico', 'LATAM'), ('monterrey', 'LATAM'), ('dubai', 'ME'), ('uae', 'ME'),
                  ('usa', 'US'), ('california', 'US'), ('new york', 'US'), ('texas', 'US'), ('arizona', 'US'), ('d.c', 'US'), ('kentucky', 'US'),
                  ('tennessee', 'US'), ('new jersey', 'US'), ('connecticut', 'US'), ('washington', 'US'), ('ny', 'US'), ('ky', 'US'), ('tn', 'US'), ('wa', 'US'), ('us', 'US'), ('irvine', 'US'), ('san diego', 'US'), ('louisville', 'US'), ('newport', 'US'), ('brooklyn', 'US'), ('nyc', 'US'), ('woodinville', 'US')]:

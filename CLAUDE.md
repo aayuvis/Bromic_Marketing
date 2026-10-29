@@ -51,7 +51,10 @@ enters the library, labelled `generated`. Of the six first-run images, five were
 words, into `data/site-inventory.json` (`python3 scripts/merge_site_inventory.py <dir>`): 73 blog posts, 32 product pages, 38 case
 studies (US + AU), 48 pages and landing pages, 205 gallery photos. **Never try to get around the challenge** (no spoofed user
 agents, headless browsers or caches). Image files under `wp-content/uploads` download directly. **www.bromic.com.au blocks even
-the fetch tool**: Australian items are read through their US copies where they exist, otherwise marked "search listing only".
+the fetch tool**: Australian items are read through their US copies where they exist, otherwise marked "search listing only". bromic.ca,
+bromic.co.uk, bromic.nl, bromic.be and bromic.de load, but carry translated copies of the US/AU case studies; the only local one is
+Neumanns Restaurant, Hamburg (bromic.de). bromic.at, bromic.ch and bromicheating.co.uk redirect to bromic.com. Case studies:
+`python3 scripts/build_case_studies.py` → `data/case-studies.json` (tags in `case-study-taxonomy.json`, deck collections, whitespace targets).
 Figures in the inventory are leads to check on the live page, never sources. Product-page specs and list prices live in
 `data/product-facts.json` under `site` per product, `verified: false` until Mike Clifford signs off.
 

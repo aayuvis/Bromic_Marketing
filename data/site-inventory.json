@@ -13271,7 +13271,8 @@
   "read_on": "2026-10-29",
   "also_at": [
    "https://www.bromic.com.au/case-study/hide-restaurant/",
-   "https://www.bromic.ca/case-study/hide-restaurant/"
+   "https://www.bromic.ca/case-study/hide-restaurant/",
+   "https://www.bromic.co.uk/case-study/hide-restaurant/"
   ],
   "market": "EU/UK"
  },
@@ -13574,7 +13575,8 @@
   "photographer_credit": null,
   "read_on": "2026-10-29",
   "also_at": [
-   "https://www.bromic.ca/case-study/london-restauranteur-incorporates-full-bromic-line-across-locations/"
+   "https://www.bromic.ca/case-study/london-restauranteur-incorporates-full-bromic-line-across-locations/",
+   "https://www.bromic.co.uk/case-study/london-restauranteur-incorporates-full-bromic-line-across-locations/"
   ],
   "market": "EU/UK"
  },
@@ -13674,7 +13676,8 @@
   "photographer_credit": "Copyright © www.yacht-shot.com Stuart Pearce",
   "read_on": "2026-10-29",
   "also_at": [
-   "https://www.bromic.ca/case-study/m-y-lady-lene-superyacht/"
+   "https://www.bromic.ca/case-study/m-y-lady-lene-superyacht/",
+   "https://www.bromic.co.uk/case-study/m-y-lady-lene-superyacht/"
   ],
   "market": null
  },
@@ -13968,7 +13971,8 @@
   "photographer_credit": null,
   "read_on": "2026-10-29",
   "also_at": [
-   "https://www.bromic.ca/case-study/platinum-electric-heaters-in-pangbourne/"
+   "https://www.bromic.ca/case-study/platinum-electric-heaters-in-pangbourne/",
+   "https://www.bromic.co.uk/case-study/platinum-electric-heaters-in-pangbourne/"
   ],
   "market": "EU/UK"
  },
@@ -15398,6 +15402,29 @@
   "issues": [
    "Not read: www.bromic.com.au blocks automated reading; known from a search listing only"
   ],
+  "audience": [
+   "COM"
+  ],
+  "stage": [
+   "IN"
+  ],
+  "images": [],
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://www.bromic.de/de/case-study/neumanns-restaurant/",
+  "kind": "case-study",
+  "market": "DACH",
+  "title": "Neumanns Restaurant",
+  "summary": "Very short German case study: a Hamburg restaurant used Bromic outdoor heating through the Covid period to give guests extra comfort. Only product named is Platinum Smart-Heat Electric; no quantity, controls, people or detail.",
+  "customer": "Neumanns Restaurant",
+  "location": "Hamburg, Germany",
+  "segment": "restaurant",
+  "products": [
+   "Platinum Electric"
+  ],
+  "read": "direct",
+  "issues": [],
   "audience": [
    "COM"
   ],
@@ -21762,6 +21789,75 @@
   "read_on": "2026-10-29"
  },
  {
+  "url": "https://eat-drink-sleep.com/?p=8656/",
+  "kind": "press",
+  "market": "UK",
+  "title": "Increase Dining Revenue by 30% with Outdoor Heating",
+  "summary": "Advertorial-style piece; no named venue; the 30% figure is unsourced and must not be reused.",
+  "customer": "Carlton Technologies (UK distributor; Max Crampton quoted)",
+  "location": "UK",
+  "segment": "restaurant",
+  "products": [
+   "Smart-Heat range (unspecified)"
+  ],
+  "read": "press-article",
+  "issues": [],
+  "audience": [
+   "COM"
+  ],
+  "stage": [
+   "IN"
+  ],
+  "images": [],
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://lhmagazine.co.uk/smart-fire-uk-leads-the-way-in-heating-solutions/",
+  "kind": "press",
+  "market": "UK",
+  "title": "Smart Fire UK leads the way in heating solutions",
+  "summary": "Distributor profile; no named Bromic project.",
+  "customer": "Smart Fire UK",
+  "location": "UK",
+  "segment": "hotel",
+  "products": [],
+  "read": "press-article",
+  "issues": [],
+  "audience": [
+   "COM"
+  ],
+  "stage": [
+   "IN"
+  ],
+  "images": [],
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://trends.archiexpo.com/bromic-heating/project-94052-245594.html/",
+  "kind": "press",
+  "market": "UK",
+  "title": "ArchiExpo #Product Trends project page (Bromic Heating)",
+  "summary": "Only source for a named Ivy Chelsea Garden install; unverified. Pairs with the bromic.co.uk gallery entry \"Tungsten Electric – The Ivy, London\".",
+  "customer": "The Ivy Chelsea Garden",
+  "location": "King's Road, Chelsea, London",
+  "segment": "restaurant",
+  "products": [
+   "Tungsten Electric"
+  ],
+  "read": "search-snippet-only",
+  "issues": [
+   "Not read: www.bromic.com.au blocks automated reading; known from a search listing only"
+  ],
+  "audience": [
+   "COM"
+  ],
+  "stage": [
+   "IN"
+  ],
+  "images": [],
+  "read_on": "2026-10-29"
+ },
+ {
   "url": "https://venue.net.au/?p=2932/",
   "kind": "press",
   "market": "AU",
@@ -21900,6 +21996,54 @@
    "Not read: www.bromic.com.au blocks automated reading; known from a search listing only"
   ],
   "audience": [],
+  "stage": [
+   "IN"
+  ],
+  "images": [],
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://www.restaurantonline.co.uk/All-products/How-to-design-an-effective-outdoor-dining-space/",
+  "kind": "press",
+  "market": "UK",
+  "title": "How to design an effective outdoor dining space",
+  "summary": "Sponsored content; no named venue. Article itself not fetched.",
+  "customer": null,
+  "location": "UK",
+  "segment": "restaurant",
+  "products": [],
+  "read": "search-snippet-only",
+  "issues": [
+   "Not read: www.bromic.com.au blocks automated reading; known from a search listing only"
+  ],
+  "audience": [
+   "COM"
+  ],
+  "stage": [
+   "IN"
+  ],
+  "images": [],
+  "read_on": "2026-10-29"
+ },
+ {
+  "url": "https://www.spabusiness.com/wellness-products-and-services/Smart-solutions-heating-up-hospitality-sector/312053/",
+  "kind": "press",
+  "market": "UK",
+  "title": "Smart solutions heating up hospitality sector",
+  "summary": "Old (2014) trade item; client list is the distributor's, not proof of Bromic installs.",
+  "customer": "Smart Fire UK (then UK Bromic distributor)",
+  "location": "not stated (London hotels by name)",
+  "segment": "hotel",
+  "products": [
+   "Tungsten Portable/Freestanding",
+   "Tungsten Electric",
+   "Platinum Gas"
+  ],
+  "read": "press-article",
+  "issues": [],
+  "audience": [
+   "COM"
+  ],
   "stage": [
    "IN"
   ],

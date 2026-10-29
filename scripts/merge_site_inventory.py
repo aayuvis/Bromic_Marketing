@@ -29,10 +29,10 @@ for name in ['pages', 'products', 'cases', 'blog-a', 'blog-b', 'gallery']:
 # Australia: www.bromic.com.au refuses every fetch (403), so AU-only case studies and press are known from search listings
 # (read = 'search-snippet-only', words paraphrased by the search tool) or, where the US site hosts the same study, read there.
 # Canada: www.bromic.ca loads, but carries only the US case studies (same slugs) and no Canadian project (29 Oct 2026).
-for au in [os.path.join(src, 'au-cases.json'), os.path.join(src, 'ca-cases.json')]:
+for au in [os.path.join(src, f) for f in ('au-cases.json', 'ca-cases.json', 'eu-cases.json')]:  # UK, NL, BE, DACH sites: bromic.co.uk/.nl/.be/.de (29 Oct 2026)
   if not os.path.exists(au): continue
   for r in json.load(open(au)):
-        if r.get('kind') in ('gallery', 'search-log'): continue
+        if r.get('kind') in ('gallery', 'search-log', 'site-note'): continue
         if r.get('kind') == 'page':  # a market page that names a testimonial: keep it as a lead, not as a case study
             u = r['url'].rstrip('/') + '/'
             recs[u] = {'url': u, 'kind': 'press', 'market': r.get('market'), 'title': r.get('title'), 'summary': r.get('summary', ''),
