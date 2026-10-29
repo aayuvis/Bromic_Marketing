@@ -266,7 +266,8 @@
     const srcs = [...new Set(H.images.map((i) => i.source))];
     const list = H.images.filter((i) => (!imgFilter.product || i.product.startsWith(imgFilter.product)) && (!imgFilter.aud || i.audiences.includes(imgFilter.aud) || i.audiences.includes('ALL')) && (!imgFilter.src || i.source === imgFilter.src));
     const sel = (k, opts, label) => `<label class="muted" style="font-size:13px">${label} <select data-imgf="${k}"><option value="">All</option>${opts.map((o) => `<option ${imgFilter[k] === o ? 'selected' : ''}>${esc(o)}</option>`).join('')}</select></label>`;
-    return `<div class="ph"><div><span class="label">Image library</span><h1>Bromic photography, tagged for reuse</h1><p>Seeded from the Lookbook 2026, Trends 2026 and the 2021 Planning Guide. Order of preference: bromic.com → Bromic asset library → Bromic publications → generated, labelled.</p></div></div>
+    return `<div class="ph"><div><span class="label">Image library</span><h1>Bromic photography, tagged for reuse</h1><p>bromic.com photography (case studies, gallery, product pages), the Lookbook 2026, Trends 2026 and the 2021 Planning Guide. Order of preference: bromic.com → Bromic asset library → Bromic publications → generated, labelled.</p></div></div>
+      <div class="callout"><b>bromic.com:</b> <code>python3 scripts/bromic_site_images.py fetch</code> pulls every image the site inventory names; <code>sheets</code> makes contact sheets to look at; <code>ingest</code> adds the kept ones with their page link. Rights stay [[VERIFY]] until Megan Spies confirms.</div>
       <div class="callout"><b>Add images:</b> drop files into <code>images/inbox/</code> in the Bromic_Marketing repo, then run <code>python3 scripts/ingest_images.py</code> — they are resized, tagged and appear here on the next build.</div>
       <div class="toolbar"><span class="muted">${list.length} images</span><span class="btns">${sel('product', prods, 'Product')}${sel('aud', AK, 'Audience')}${sel('src', srcs, 'Source')}</span></div>
       <div class="masonry">${list.map((i) => `<button class="tile" data-img="${i.id}"><img src="${i.thumb}" alt="${esc(i.alt)}" loading="lazy" width="${i.w}" height="${i.h}"><span class="cap"><span><b>${esc(i.product)}</b><br>${esc(i.setting)}</span><span>${(H.usage[i.id] || []).length ? (H.usage[i.id].length + '×') : ''}</span></span></button>`).join('')}</div>`;
@@ -278,7 +279,7 @@
     el.className = 'lightbox'; el.setAttribute('role', 'dialog'); el.setAttribute('aria-label', i.alt);
     el.innerHTML = `<div class="pic"><img src="${i.file}" alt="${esc(i.alt)}"></div><button class="x" aria-label="Close">×</button>
       <aside><span class="label">${esc(i.id)}</span><h3 style="font-size:22px;margin:8px 0 12px">${esc(i.product)}</h3><p style="margin:0 0 16px">${esc(i.alt)}</p>
-      <dl class="kv"><dt>Setting</dt><dd>${esc(i.setting)}</dd><dt>Audience</dt><dd>${i.audiences.join(', ')}</dd><dt>Source</dt><dd>${esc(i.source)}, p.${i.page}</dd><dt>Size</dt><dd>${i.w}×${i.h}, ${i.orientation}</dd><dt>Rights</dt><dd>${esc(i.rights)}</dd>
+      <dl class="kv"><dt>Setting</dt><dd>${esc(i.setting)}</dd><dt>Audience</dt><dd>${i.audiences.join(', ')}</dd><dt>Source</dt><dd>${i.page_url ? `<a href="${esc(i.page_url)}" target="_blank" rel="noopener">${esc(i.source)}</a>${i.used_on && i.used_on.length > 1 ? ` (+${i.used_on.length - 1} pages)` : ''}` : `${esc(i.source)}, p.${i.page}`}</dd>${i.notes ? `<dt>Note</dt><dd>${esc(i.notes)}</dd>` : ''}<dt>Size</dt><dd>${i.w}×${i.h}, ${i.orientation}</dd><dt>Rights</dt><dd>${esc(i.rights)}</dd>
       <dt>Used in</dt><dd>${used.length ? used.map((u) => `<a href="#/item/${esc(u)}">${esc(u)}</a>`).join(', ') : 'Not yet'}</dd></dl>
       <div class="btns" style="margin-top:18px"><button class="btn" data-copyid="${esc(i.id)}">${ic.copy}Copy id</button><a class="btn" href="${i.file}" download>${ic.down}Download</a></div></aside>`;
     const close = () => { el.remove(); document.removeEventListener('keydown', k); };
@@ -315,6 +316,39 @@
       ${H.openQuestions.map((q, n) => `<details class="oq" ${n === 0 ? 'open' : ''}><summary>${esc(q.name.replace(/-/g, ' '))}</summary>${q.html}</details>`).join('') || '<div class="empty">No open questions logged.</div>'}`;
   }
 
+  // ---------- bromic.com inventory ----------
+  let siteF = { kind: '', aud: '', stg: '', issues: '', market: '' };
+  const KINDS = { page: 'Page', landing: 'Landing page', product: 'Product', 'case-study': 'Case study', press: 'Press', blog: 'Blog post', podcast: 'Podcast', gallery: 'Gallery photo' };
+  function sitePage() {
+    const S = H.site || [];
+    if (!S.length) return '<div class="empty">No bromic.com inventory yet. Run <code>python3 scripts/merge_site_inventory.py</code>.</div>';
+    const words = S.filter((r) => r.kind !== 'gallery');
+    const list = words.filter((r) => (!siteF.kind || r.kind === siteF.kind) && (!siteF.aud || r.audience.includes(siteF.aud)) && (!siteF.stg || r.stage.includes(siteF.stg))
+      && (!siteF.issues || r.issues.length) && (!siteF.market || r.market === siteF.market) && (!searchTerm || (r.title + ' ' + r.summary + ' ' + r.q + ' ' + r.products.join(' ')).toLowerCase().includes(searchTerm)));
+    const cnt = (a, s) => words.filter((r) => r.audience.includes(a) && r.stage.includes(s)).length;
+    const max = Math.max(1, ...AK.flatMap((a) => SK.map((s) => cnt(a, s))));
+    const kinds = Object.keys(KINDS).filter((k) => S.some((r) => r.kind === k));
+    const sel = (k, opts, label, names = {}) => `<label class="muted" style="font-size:13px">${label} <select data-sitef="${k}"><option value="">All</option>${opts.map((o) => `<option value="${esc(o)}" ${siteF[k] === o ? 'selected' : ''}>${esc(names[o] || o)}</option>`).join('')}</select></label>`;
+    const nIssues = words.reduce((n, r) => n + r.issues.length, 0);
+    return `<div class="ph"><div><span class="label">bromic.com</span><h1>What the live site already says</h1><p>${words.length} pages and ${S.length - words.length} gallery photos read on 29 Oct 2026, summarised in our words, mapped to audience and stage. ${nIssues} issues logged. Figures quoted here are leads to check on the live page, not sources.</p></div></div>
+      <div class="two"><div><div class="sec-h"><h2>Coverage by journey cell</h2></div>
+      <div class="tbl-wrap"><table class="data heat"><thead><tr><th></th>${SK.map((s) => `<th>${esc(STG[s].name)}</th>`).join('')}</tr></thead><tbody>
+      ${AK.map((a) => `<tr><th>${esc(AUD[a].name)}</th>${SK.map((s) => { const n = cnt(a, s); return `<td><button class="cellbtn" data-sitecell="${a}|${s}" style="background:rgba(239,65,35,${(n / max * 0.55).toFixed(2)})">${n}</button></td>`; }).join('')}</tr>`).join('')}
+      </tbody></table></div><p class="muted" style="font-size:13px">Pages per cell (a page can sit in several). Pale cells are where bromic.com has least to offer that reader.</p></div>
+      <div><div class="sec-h"><h2>By type</h2></div><ul class="list">${kinds.map((k) => `<li><button class="row linkish" data-sitef-kind="${k}"><span class="t" style="font-size:16px">${esc(KINDS[k])}</span><span class="muted">${S.filter((r) => r.kind === k).length}</span></button></li>`).join('')}</ul></div></div>
+      <div class="toolbar"><span class="muted">${list.length} of ${words.length} pages${searchTerm ? ` matching “${esc(searchTerm)}”` : ''}</span><span class="btns">${sel('kind', kinds.filter((k) => k !== 'gallery'), 'Type', KINDS)}${sel('market', [...new Set(words.map((r) => r.market).filter(Boolean))].sort(), 'Market')}${sel('aud', AK, 'Audience')}${sel('stg', SK, 'Stage', Object.fromEntries(SK.map((s) => [s, STG[s].name])))}<label class="muted" style="font-size:13px"><input type="checkbox" data-sitef="issues" ${siteF.issues ? 'checked' : ''}> With issues</label></span></div>
+      <div class="sitelist">${list.map((r) => `<details class="oq"><summary><span class="chip">${esc(KINDS[r.kind] || r.kind)}</span> <b>${esc(r.title || r.url)}</b>${r.market ? ` <span class="chip">${esc(r.market)}</span>` : ''}${r.read === 'search-snippet-only' ? ' <span class="chip warn">Search listing only</span>' : ''} <span class="muted" style="font-size:13px">${r.audience.join(' ')} · ${r.stage.join(' ')}${r.issues.length ? ` · <span class="vcount">${r.issues.length} issue${r.issues.length > 1 ? 's' : ''}</span>` : ''}</span></summary>
+        <p>${esc(r.summary)}</p>${r.q ? `<p class="muted">Answers: “${esc(r.q)}”</p>` : ''}
+        <dl class="kv"><dt>URL</dt><dd>${r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.url.replace(/^https:\/\/www\./, ''))}</a>` : 'No URL found'}${r.also && r.also.length ? ` · also on <a href="${esc(r.also[0])}" target="_blank" rel="noopener">bromic.com.au</a>` : ''}</dd>
+        ${r.customer ? `<dt>Customer</dt><dd>${esc(r.customer)}${r.location ? ', ' + esc(r.location) : ''}${r.segment ? ' · ' + esc(r.segment) : ''}</dd>` : ''}
+        ${r.products.length ? `<dt>Products</dt><dd>${esc(r.products.join(', '))}</dd>` : ''}<dt>Controls named</dt><dd>${r.controls ? 'Yes' : '<span class="vcount">No</span>'}</dd>
+        ${r.cta.length ? `<dt>Calls to action</dt><dd>${r.cta.map((c) => esc(c.label)).join(' · ')}${r.gated ? ' (gated)' : ''}</dd>` : ''}
+        ${r.downloads.length ? `<dt>Downloads</dt><dd>${esc(r.downloads.join(', '))}</dd>` : ''}${r.people.length ? `<dt>People quoted</dt><dd>${esc(r.people.join('; '))}</dd>` : ''}
+        <dt>Images</dt><dd>${r.images}</dd>${r.facts ? `<dt>Spec values</dt><dd>${r.facts} (in data/site-inventory.json)</dd>` : ''}</dl>
+        ${r.stats.length ? `<p class="label" style="margin-top:12px">Statistics on the page</p><ul>${r.stats.map((x) => `<li>${esc(x.claim)} <span class="muted">— ${x.source_named ? esc(x.source_named) : '<span class="vcount">no source named</span>'}</span></li>`).join('')}</ul>` : ''}
+        ${r.issues.length ? `<p class="label" style="margin-top:12px">Issues</p><ul>${r.issues.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}</details>`).join('')}</div>`;
+  }
+
   // ---------- export ----------
   function exportHTML(it) {
     const faq = it.faq.length ? `<script type="application/ld+json">${JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: it.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) })}<\/script>` : '';
@@ -327,11 +361,12 @@
   // ---------- router ----------
   function route() {
     const h = location.hash.replace(/^#\/?/, '').split('?')[0];
-    const [p, a] = h.split('/');
+    const [p0, a] = h.split('/');
+    const p = p0 === 'home' ? '' : p0;
     const tab = { '': 'home', item: 'library', tool: 'tools' }[p] ?? p;
     document.querySelectorAll('.tabs a').forEach((x) => x.toggleAttribute('aria-current', false) || (x.dataset.tab === tab && x.setAttribute('aria-current', 'page')));
     const html = p === '' ? home() : p === 'library' ? library() : p === 'item' ? item(decodeURIComponent(a || '')) : p === 'journey' ? journey(a) : p === 'assets' ? assets(a)
-      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : '<div class="empty">Not found. <a href="#/">Overview</a></div>';
+      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
     view.innerHTML = html;
     const it = p === 'item' && ITEM[a];
     document.title = it ? `${it.title} · Bromic Content Hub` : 'Bromic Content Hub';
@@ -352,17 +387,21 @@
       return;
     }
     const t = e.target.closest('[data-img]'); if (t) lightbox(t.dataset.img);
+    const sc = e.target.closest('[data-sitecell]'); if (sc) { const [a, s] = sc.dataset.sitecell.split('|'); siteF = { ...siteF, aud: a, stg: s }; route.keepScroll = true; view.innerHTML = sitePage(); return; }
+    const sk = e.target.closest('[data-sitef-kind]'); if (sk) { siteF = { ...siteF, kind: sk.dataset.sitefKind === 'gallery' ? '' : sk.dataset.sitefKind }; if (sk.dataset.sitefKind === 'gallery') { imgFilter.src = 'bromic.com'; location.hash = '#/images'; return; } view.innerHTML = sitePage(); return; }
     const cite = e.target.closest('sup.cite a');
     if (cite) { e.preventDefault(); const el = document.getElementById(cite.getAttribute('href').slice(1)); if (el) { el.scrollIntoView({ behavior: 'smooth', block: 'center' }); el.style.background = 'var(--flame-wash)'; setTimeout(() => (el.style.background = ''), 1600); } }
   });
   document.addEventListener('change', (e) => {
     if (e.target.id === 'sort') { route.keepScroll = true; location.hash = libHref({ ...parseQ(), sort: e.target.value }); }
     if (e.target.dataset.imgf) { imgFilter[e.target.dataset.imgf] = e.target.value; view.innerHTML = images(); }
+    if (e.target.dataset.sitef) { const k = e.target.dataset.sitef; siteF[k] = e.target.type === 'checkbox' ? (e.target.checked ? '1' : '') : e.target.value; view.innerHTML = sitePage(); }
   });
   $('#q').addEventListener('input', (e) => {
     searchTerm = e.target.value.trim().toLowerCase();
     const p = location.hash.replace(/^#\/?/, '').split(/[/?]/)[0];
     if (p === 'sources') { view.innerHTML = sources(); return; }
+    if (p === 'site') { view.innerHTML = sitePage(); return; }
     if (p !== 'library') { location.hash = '#/library'; return; }
     route.keepScroll = true; route();
     $('#q').focus();

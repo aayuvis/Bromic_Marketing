@@ -10,6 +10,8 @@ these are review-ready drafts. Brief: [HANDOVER.md](HANDOVER.md). Standing rules
 
 ## Open the Content Hub
 
+**Online:** <https://aayuvis.github.io/Bromic_Marketing/#/home> (public to anyone with the link, not indexed; `cd app && ./deploy.sh` republishes).
+
 ```bash
 cd app && npm install && npm run build
 open dist/index.html          # works from file://, no server needed
@@ -17,7 +19,7 @@ open dist/index.html          # works from file://, no server needed
 
 Tabs: **Overview** (coverage heat-map, backlog, stats) · **Library** (filter by lifecycle, audience, type, access, status) ·
 **Journey** (the 20-cell buyer map: pain, opportunity, AI prompt, keywords, MQL asset) · **Backlog** (A01–A24) ·
-**Tools** (sizing, TCO, ROI calculators) · **Images** (tagged library) · **Sources** (every citation, verified or not) ·
+**Tools** (sizing, TCO, ROI calculators) · **Images** (tagged library) · **Sources** (every citation, verified or not) · **bromic.com** (the live site read page by page: coverage by journey cell, issues, case studies by market) ·
 **Review** (status, flags by reviewer, open questions). Each item exports WordPress-ready HTML with FAQ and Article JSON-LD.
 
 ## Layout

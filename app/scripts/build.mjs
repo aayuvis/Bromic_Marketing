@@ -150,6 +150,17 @@ const openQuestions = fs.existsSync(oqDir) ? fs.readdirSync(oqDir).filter((f) =>
 const extraReviews = ['reviews/open-questions.md', 'reviews/review-log.md'].filter((f) => fs.existsSync(path.join(ROOT, f)))
   .map((f) => ({ name: path.basename(f, '.md'), html: marked.parse(fs.readFileSync(path.join(ROOT, f), 'utf8')) }));
 
+// bromic.com inventory (data/site-inventory.json, built by scripts/merge_site_inventory.py)
+const sitePath = path.join(ROOT, 'data', 'site-inventory.json');
+const site = fs.existsSync(sitePath) ? readJSON('data/site-inventory.json').filter((r) => !r.error).map((r) => ({
+  url: r.url.startsWith('au-unconfirmed:') ? '' : r.url, kind: r.kind, title: r.title, summary: r.summary || '', q: r.question_answered || '', audience: r.audience || [], stage: r.stage || [],
+  products: r.products || [], controls: !!r.controls_mentioned, issues: r.issues || [], stats: r.stats || [], facts: (r.product_facts || []).length,
+  cta: r.cta || [], gated: !!r.gated, downloads: r.downloads || [], images: (r.images || []).length,
+  people: (r.people_quoted || []).map((x) => [x.name, x.role_org].filter(Boolean).join(', ')),
+  ...(r.kind === 'case-study' || r.kind === 'press' ? { customer: r.customer, location: r.location, segment: r.segment, market: r.market, read: r.read || 'read', also: r.also_at || [] } : {}),
+  ...(r.kind === 'gallery' ? { segment: r.segment, location: r.location, mount: r.mount } : {}),
+})) : [];
+
 // image usage
 const usage = {};
 for (const it of items) {
@@ -157,9 +168,9 @@ for (const it of items) {
   for (const u of used) (usage[u] ||= []).push(it.id);
 }
 
-const HUB = { built: new Date().toISOString(), matrix, assets, facts, images, usage, tools, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
+const HUB = { built: new Date().toISOString(), matrix, assets, facts, images, usage, tools, site, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
 
-console.log(`items ${items.length} · tools ${tools.length} · images ${images.length} · errors ${errors.length} · warnings ${warn.length}`);
+console.log(`items ${items.length} · tools ${tools.length} · images ${images.length} · site pages ${site.length} · errors ${errors.length} · warnings ${warn.length}`);
 warn.forEach((w) => console.log('  warn  ' + w));
 errors.forEach((e) => console.log('  ERROR ' + e));
 if (CHECK) process.exit(errors.length ? 1 : 0);

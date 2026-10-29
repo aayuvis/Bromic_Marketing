@@ -7,6 +7,112 @@
 <meta name="description" content="Enter your space and climate to see how many Bromic heaters it needs, which models fit, and the controls that run them.">
 <style>
 /* @inline:begin ../_shared/brand.css */
+/* Bromic tool styling — shared by A03, A20, A21. Inlined into each index.html by tools/build-config.mjs.
+   Flame is the only accent. Georgia headings, Helvetica/Arial body. Works from 320px up. */
+:root {
+  --paper: #F4F1EC;
+  --ink: #231F20;
+  --flame: #EF4123;
+  --flame-ink: #231F20;          /* small text stays ink: flame on paper is under 4.5:1, so flame marks borders and rules only */
+  --steel: #71777D;
+  --steel-ink: #575C61;          /* steel darkened for small text on paper */
+  --mist: #DDE0E2;
+  --white: #FFFFFF;
+  --serif: Georgia, "Times New Roman", serif;
+  --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 16px/1.5 var(--sans);
+}
+.page { max-width: 880px; margin: 0 auto; padding: 32px 20px 48px; }
+body.embed .page { max-width: none; padding: 0; }
+body.embed .masthead, body.embed .foot { display: none; }
+
+h1, h2, h3 { font-family: var(--serif); font-weight: normal; line-height: 1.2; margin: 0 0 .5em; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.4rem; margin-top: 1.2em; }
+h3 { font-size: 1.1rem; margin-top: 1em; }
+p { margin: 0 0 1em; }
+a { color: var(--ink); text-decoration-color: var(--flame); text-underline-offset: 3px; }
+
+.label, label.k, legend.k, .eyebrow, th {
+  font-family: var(--sans); font-size: .72rem; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--steel-ink); font-weight: 600;
+}
+.eyebrow { color: var(--ink); margin: 0 0 .5em; display: block; border-left: 3px solid var(--flame); padding-left: 8px; }
+.masthead { border-bottom: 1px solid var(--mist); margin-bottom: 24px; padding-bottom: 16px; }
+.masthead .lede { color: var(--steel-ink); max-width: 60ch; }
+
+.card { background: var(--white); border: 1px solid var(--mist); padding: 20px; margin: 0 0 20px; }
+.grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+.field { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.field .hint { font-size: .85rem; color: var(--steel-ink); }
+fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
+legend { padding: 0; margin-bottom: 6px; }
+input[type=text], input[type=email], input[type=number], select {
+  font: inherit; color: var(--ink); background: var(--white); width: 100%;
+  border: 1px solid var(--steel); border-radius: 0; padding: 10px 12px; min-height: 44px;
+}
+.choices { display: flex; flex-wrap: wrap; gap: 8px; }
+.choices label {
+  display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--steel);
+  background: var(--white); padding: 8px 12px; min-height: 44px; cursor: pointer;
+}
+.choices input { accent-color: var(--flame); margin: 0; }
+.choices label:has(input:checked) { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
+:focus-visible { outline: 3px solid var(--flame); outline-offset: 2px; }
+input:focus-visible, select:focus-visible { outline-offset: 0; }
+
+.btn {
+  font: 600 .8rem/1 var(--sans); letter-spacing: .12em; text-transform: uppercase; cursor: pointer;
+  border: 1px solid var(--ink); background: var(--ink); color: var(--white); padding: 14px 20px; min-height: 44px;
+}
+.btn.primary { background: var(--flame); border-color: var(--flame); color: var(--ink); }
+.btn.ghost { background: transparent; color: var(--ink); }
+.btn:hover { filter: brightness(1.08); }
+
+.teaser { border-top: 4px solid var(--flame); }
+.headline { font-family: var(--serif); font-size: clamp(2.2rem, 9vw, 3.4rem); line-height: 1; margin: .1em 0 .2em; }
+.sub { color: var(--steel-ink); }
+.note { font-size: .88rem; color: var(--steel-ink); }
+.warn { border-left: 4px solid var(--flame); padding: 8px 12px; background: var(--paper); margin: 0 0 12px; }
+.verify { font-size: .8rem; color: var(--ink); border-left: 3px solid var(--flame); padding-left: 6px; }
+.placeholder-tag {
+  font-size: .65rem; letter-spacing: .12em; text-transform: uppercase; color: var(--flame-ink);
+  border: 1px solid var(--flame); padding: 1px 6px; margin-left: 6px; vertical-align: middle;
+}
+
+table { width: 100%; border-collapse: collapse; margin: 0 0 16px; font-size: .92rem; }
+th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--mist); vertical-align: top; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+.table-wrap { overflow-x: auto; }
+.formula { font-family: "Courier New", monospace; font-size: .85rem; background: var(--paper); padding: 10px 12px; white-space: pre-wrap; word-break: break-word; }
+.controls-list li { margin-bottom: 4px; }
+.chart svg { width: 100%; height: auto; display: block; }
+
+.gate h2 { margin-top: 0; }
+.gate .errors { color: var(--flame-ink); font-size: .9rem; }
+.field.invalid input, .field.invalid select { border-color: var(--flame); box-shadow: inset 0 0 0 1px var(--flame); }
+.field .err { color: var(--flame-ink); font-size: .82rem; min-height: 0; }
+.hidden, [hidden] { display: none !important; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 16px; }
+.foot { margin-top: 32px; border-top: 1px solid var(--mist); padding-top: 16px; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+@media (max-width: 480px) {
+  .page { padding: 20px 14px 32px; }
+  h1 { font-size: 1.6rem; }
+  .card { padding: 16px; }
+  .grid { grid-template-columns: 1fr; }
+  th, td { padding: 6px 4px; }
+}
+@media print {
+  body { background: #fff; }
+  .gate, .actions, .inputs { display: none !important; }
+}
 /* @inline:end ../_shared/brand.css */
 </style>
 </head>
@@ -104,12 +210,911 @@
 
 <script type="module">
 /* @inline:begin config.json */
+const CONFIG = {
+  "_readme": "Every assumption the A03 sizing calculator uses. An assumption is any object with a `value`: it must carry unit, source, verified and owner, and a [[VERIFY]] note while verified is false. Edit this file, then run `node tools/build-config.mjs` to regenerate config.js and re-inline it into index.html. Bromic product values mirror data/product-facts.json and stay verified:false until Mike Clifford signs off.",
+  "tool": {
+    "asset_id": "A03",
+    "matrix_cell": "RES-CO",
+    "title": "How many heaters?",
+    "version": "0.1.0-draft"
+  },
+  "cta": {
+    "label": "Book a design consult",
+    "asset": "A07",
+    "href": {
+      "value": "https://www.bromic.com/design-your-space/",
+      "unit": "url",
+      "source": "Lookbook 2026 p.43 (design service)",
+      "verified": false,
+      "verify": "[[VERIFY: final A07 Design Your Space 2.0 landing URL — 454 Creative]]",
+      "owner": "454 Creative"
+    }
+  },
+  "limits": {
+    "min_side_ft": {
+      "value": 4,
+      "unit": "ft",
+      "source": "Tool guard rail, not a product fact",
+      "verified": false,
+      "verify": "[[VERIFY: smallest space the tool should size — Brian Kim]]",
+      "owner": "Brian Kim"
+    },
+    "max_side_ft": {
+      "value": 200,
+      "unit": "ft",
+      "source": "Tool guard rail, not a product fact",
+      "verified": false,
+      "verify": "[[VERIFY: largest side the tool should accept — Brian Kim]]",
+      "owner": "Brian Kim"
+    },
+    "large_space_ft2": {
+      "value": 1500,
+      "unit": "ft²",
+      "source": "Tool guard rail: above this the result tells the visitor to use the design service",
+      "verified": false,
+      "verify": "[[VERIFY: area above which we route to the design team — Shaughn Ritchie]]",
+      "owner": "Shaughn Ritchie"
+    }
+  },
+  "outdoor_rule": {
+    "min_open_perimeter_pct": {
+      "value": 30,
+      "unit": "% of perimeter permanently open",
+      "source": "Planning Guide v1.2 (2021) Step 01; data/product-facts.json principles.outdoor-definition",
+      "verified": false,
+      "verify": "[[VERIFY: confirm the 30% open rule for 2026 — Mike Clifford]]",
+      "owner": "Mike Clifford"
+    }
+  },
+  "enclosure": {
+    "open": {
+      "label": "Open",
+      "hint": "No roof over the heated area.",
+      "factor": {
+        "value": 0.85,
+        "unit": "× nominal coverage",
+        "source": "Assumption: no overhead cover, so no 'heat cloud' and more wind exposure (Planning Guide v1.2 Step 01, qualitative only)",
+        "verified": false,
+        "verify": "[[VERIFY: coverage derate for fully open spaces — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    "partial": {
+      "label": "Partially covered",
+      "hint": "A pergola, umbrella or part roof over some of the area.",
+      "factor": {
+        "value": 1,
+        "unit": "× nominal coverage",
+        "source": "Assumption: Lookbook coverage treated as the partially covered reference case",
+        "verified": false,
+        "verify": "[[VERIFY: which setting the Lookbook coverage figures assume — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    "covered": {
+      "label": "Covered",
+      "hint": "A solid roof, with walls on some sides.",
+      "factor": {
+        "value": 1.1,
+        "unit": "× nominal coverage",
+        "source": "Assumption: a cover traps a 'heat cloud' that adds a convective boost (Planning Guide v1.2 Step 01, qualitative only)",
+        "verified": false,
+        "verify": "[[VERIFY: coverage uplift for covered spaces — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    }
+  },
+  "climate": {
+    "mild": {
+      "label": "Mild",
+      "hint": "Evenings you heat are usually above about 50°F.",
+      "factor": {
+        "value": 1,
+        "unit": "× coverage",
+        "source": "Assumption. Planning Guide v1.2 Step 05 says colder states may need more heaters for the same space (its example: 2 heaters in California, 3 in Massachusetts for 20 × 10 ft)",
+        "verified": false,
+        "verify": "[[VERIFY: climate derate factors and the temperature bands that define them — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    "cool": {
+      "label": "Cool",
+      "hint": "Evenings you heat are usually about 40–50°F.",
+      "factor": {
+        "value": 0.85,
+        "unit": "× coverage",
+        "source": "Assumption (see mild)",
+        "verified": false,
+        "verify": "[[VERIFY: climate derate factors — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    "cold": {
+      "label": "Cold",
+      "hint": "Evenings you heat are often below about 40°F.",
+      "factor": {
+        "value": 0.7,
+        "unit": "× coverage",
+        "source": "Assumption (see mild). Note: the Planning Guide's example (2 gas heaters for 200 ft² in California) implies a layout or overlap allowance this tool does not model",
+        "verified": false,
+        "verify": "[[VERIFY: climate derate factors — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    }
+  },
+  "mounting": {
+    "min_wall_mount_in": {
+      "value": 72,
+      "unit": "in above floor",
+      "source": "Planning Guide v1.2 (2021) Step 06; data/product-facts.json principles.codes-electric",
+      "verified": false,
+      "verify": "[[VERIFY: 2026 minimum wall-mount height per model — Mike Clifford]]",
+      "owner": "Mike Clifford"
+    },
+    "min_ceiling_mount_in": {
+      "value": 96,
+      "unit": "in above floor",
+      "source": "Planning Guide v1.2 (2021) Step 06 (varies with output)",
+      "verified": false,
+      "verify": "[[VERIFY: 2026 minimum ceiling-mount height per model — Mike Clifford]]",
+      "owner": "Mike Clifford"
+    },
+    "default_height_ft": {
+      "value": 9,
+      "unit": "ft",
+      "source": "Form default only",
+      "verified": false,
+      "verify": "[[VERIFY: default mount height shown in the form — Brian Kim]]",
+      "owner": "Brian Kim"
+    },
+    "height_bands": {
+      "value": [
+        {
+          "up_to_ft": 10,
+          "factor": 1
+        },
+        {
+          "up_to_ft": 12,
+          "factor": 0.9
+        },
+        {
+          "up_to_ft": 99,
+          "factor": 0.8
+        }
+      ],
+      "unit": "× coverage by mount height (built-in heaters only)",
+      "source": "Assumption. Lookbook 2026 notes coverage varies with mounting height but publishes no curve",
+      "verified": false,
+      "verify": "[[VERIFY: coverage by mount height per model — Mike Clifford]]",
+      "owner": "Mike Clifford"
+    },
+    "max_recommended_ft": {
+      "value": 14,
+      "unit": "ft",
+      "source": "Assumption: above this the result suggests a suspension pole (Planning Guide v1.2 Step 07 lists suspension poles to bring units down in high ceilings)",
+      "verified": false,
+      "verify": "[[VERIFY: height above which to suggest a suspension pole — Mike Clifford]]",
+      "owner": "Mike Clifford"
+    }
+  },
+  "layout": {
+    "overlap_factor": {
+      "value": 1,
+      "unit": "× effective coverage (1.0 = no allowance for overlap or awkward shapes)",
+      "source": "Assumption. The Planning Guide v1.2 Step 05 example recommends 2 gas heaters for a 20 × 10 ft patio in California although one heater's nominal coverage exceeds 200 ft², which suggests an overlap or layout allowance",
+      "verified": false,
+      "verify": "[[VERIFY: overlap / layout allowance to apply to nominal coverage — Mike Clifford]]",
+      "owner": "Mike Clifford"
+    }
+  },
+  "products": [
+    {
+      "id": "platinum-electric-2300",
+      "family": "platinum-electric",
+      "name": "Platinum Smart-Heat Electric 2300W",
+      "fuel": "electric",
+      "style": "built-in",
+      "status": "current",
+      "controls": "affinity",
+      "coverage_ft2": {
+        "value": 65,
+        "unit": "ft²",
+        "source": "Lookbook 2026 p.21: range 65–143 ft² across 2300/3400/4500W; lowest wattage mapped to the low end",
+        "verified": false,
+        "verify": "[[VERIFY: coverage of the 2300W model — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      },
+      "watts": {
+        "value": 2300,
+        "unit": "W",
+        "source": "Lookbook 2026 p.21",
+        "verified": false,
+        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    {
+      "id": "platinum-electric-3400",
+      "family": "platinum-electric",
+      "name": "Platinum Smart-Heat Electric 3400W",
+      "fuel": "electric",
+      "style": "built-in",
+      "status": "current",
+      "controls": "affinity",
+      "coverage_ft2": {
+        "value": 108,
+        "unit": "ft²",
+        "source": "bromic.com product page https://www.bromic.com/product/platinum-smart-heat-electric/ (read 29 Oct 2026) spec table: 3400W, 108 ft²; replaces the 104 ft² interpolation",
+        "verified": false,
+        "verify": "[[VERIFY: coverage of the 3400W model — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      },
+      "watts": {
+        "value": 3400,
+        "unit": "W",
+        "source": "Lookbook 2026 p.21",
+        "verified": false,
+        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    {
+      "id": "platinum-electric-4500",
+      "family": "platinum-electric",
+      "name": "Platinum Smart-Heat Electric 4500W",
+      "fuel": "electric",
+      "style": "built-in",
+      "status": "current",
+      "controls": "affinity",
+      "coverage_ft2": {
+        "value": 143,
+        "unit": "ft²",
+        "source": "Lookbook 2026 p.21: highest wattage mapped to the high end of 65–143 ft²",
+        "verified": false,
+        "verify": "[[VERIFY: coverage of the 4500W model — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      },
+      "watts": {
+        "value": 4500,
+        "unit": "W",
+        "source": "Lookbook 2026 p.21",
+        "verified": false,
+        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    {
+      "id": "eclipse-electric",
+      "family": "eclipse-electric",
+      "name": "Eclipse Smart-Heat Electric (pole mount)",
+      "fuel": "electric",
+      "style": "built-in",
+      "status": "current",
+      "controls": "eclipse",
+      "coverage_ft2": {
+        "value": 121,
+        "unit": "ft²",
+        "source": "Lookbook 2026 p.27",
+        "verified": false,
+        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      },
+      "watts": {
+        "value": null,
+        "unit": "W",
+        "source": "Not published in Lookbook 2026",
+        "verified": false,
+        "verify": "[[VERIFY: Eclipse Electric wattage — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    {
+      "id": "eclipse-freestanding",
+      "family": "eclipse-freestanding",
+      "name": "Eclipse Smart-Heat Freestanding Electric",
+      "fuel": "electric",
+      "style": "freestanding",
+      "status": "current",
+      "controls": "eclipse",
+      "coverage_ft2": {
+        "value": 121,
+        "unit": "ft²",
+        "source": "Lookbook 2026 p.33",
+        "verified": false,
+        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      },
+      "watts": {
+        "value": null,
+        "unit": "W",
+        "source": "Not published in Lookbook 2026",
+        "verified": false,
+        "verify": "[[VERIFY: Eclipse Freestanding wattage and plug type — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    {
+      "id": "tungsten-freestanding-gas",
+      "family": "tungsten-freestanding-gas",
+      "name": "Tungsten Smart-Heat Freestanding Gas",
+      "fuel": "gas",
+      "style": "freestanding",
+      "status": "current",
+      "controls": "gas-freestanding",
+      "coverage_ft2": {
+        "value": 215,
+        "unit": "ft²",
+        "source": "Lookbook 2026 p.39",
+        "verified": false,
+        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      },
+      "btu": {
+        "value": 38000,
+        "unit": "BTU/hr",
+        "source": "Lookbook 2026 p.39 (freestanding only)",
+        "verified": false,
+        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    {
+      "id": "tungsten-electric-coastal",
+      "family": "tungsten-electric",
+      "name": "Tungsten Smart-Heat Electric — Coastal collection",
+      "fuel": "electric",
+      "style": "built-in",
+      "status": "coming-soon",
+      "controls": "affinity",
+      "coverage_ft2": {
+        "value": [
+          64,
+          144
+        ],
+        "unit": "ft² (range by model and size)",
+        "source": "Lookbook 2026 pp.7, 15",
+        "verified": false,
+        "verify": "[[VERIFY: launch date and per-model coverage — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    {
+      "id": "tungsten-electric-select",
+      "family": "tungsten-electric",
+      "name": "Tungsten Smart-Heat Electric — Select collection",
+      "fuel": "electric",
+      "style": "built-in",
+      "status": "coming-soon",
+      "controls": "affinity",
+      "coverage_ft2": {
+        "value": [
+          64,
+          144
+        ],
+        "unit": "ft² (range by model and size)",
+        "source": "Lookbook 2026 pp.11, 15",
+        "verified": false,
+        "verify": "[[VERIFY: launch date and per-model coverage — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    {
+      "id": "platinum-gas-s",
+      "family": "platinum-gas",
+      "name": "Platinum Smart-Heat Gas, smaller model",
+      "fuel": "gas",
+      "style": "built-in",
+      "status": "current",
+      "controls": "gas-builtin",
+      "coverage_ft2": {
+        "value": 160,
+        "unit": "ft²",
+        "source": "bromic.com product page https://www.bromic.com/product/platinum-smart-heat-gas/ (read 29 Oct 2026) spec table: 160 ft²",
+        "verified": false,
+        "verify": "[[VERIFY: Platinum Gas coverage per model — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    {
+      "id": "platinum-gas-l",
+      "family": "platinum-gas",
+      "name": "Platinum Smart-Heat Gas, larger model",
+      "fuel": "gas",
+      "style": "built-in",
+      "status": "current",
+      "controls": "gas-builtin",
+      "coverage_ft2": {
+        "value": 215,
+        "unit": "ft²",
+        "source": "bromic.com product page https://www.bromic.com/product/platinum-smart-heat-gas/ (read 29 Oct 2026) spec table: 215 ft²",
+        "verified": false,
+        "verify": "[[VERIFY: Platinum Gas coverage per model — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    {
+      "id": "tungsten-gas-builtin-s",
+      "family": "tungsten-gas-builtin",
+      "name": "Tungsten Smart-Heat Gas (built-in), smaller model",
+      "fuel": "gas",
+      "style": "built-in",
+      "status": "current",
+      "controls": "gas-builtin",
+      "coverage_ft2": {
+        "value": 160,
+        "unit": "ft²",
+        "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-gas/ (read 29 Oct 2026) spec table: 160 ft². Output is not shown: Tungsten gas BTU stays unpublished until verified",
+        "verified": false,
+        "verify": "[[VERIFY: Tungsten Gas built-in coverage and BTU — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    {
+      "id": "tungsten-gas-builtin-l",
+      "family": "tungsten-gas-builtin",
+      "name": "Tungsten Smart-Heat Gas (built-in), larger model",
+      "fuel": "gas",
+      "style": "built-in",
+      "status": "current",
+      "controls": "gas-builtin",
+      "coverage_ft2": {
+        "value": 215,
+        "unit": "ft²",
+        "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-gas/ (read 29 Oct 2026) spec table: 215 ft². Output is not shown: Tungsten gas BTU stays unpublished until verified",
+        "verified": false,
+        "verify": "[[VERIFY: Tungsten Gas built-in coverage and BTU — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    }
+  ],
+  "controls": {
+    "affinity": {
+      "items": [
+        {
+          "name": "Affinity Smart-Heat Dimmer or On/Off controller channel (controllers come in 1, 2 or 5 channels)",
+          "per": "zone"
+        },
+        {
+          "name": "Manual wall switch",
+          "per": "zone"
+        },
+        {
+          "name": "Bromic Smart-Heat app (zones, schedules, timers)",
+          "per": "system"
+        }
+      ],
+      "max_heaters_per_controller": {
+        "value": null,
+        "unit": "heaters (or kW) per controller",
+        "source": "Worked out per model from max_kw_per_channel and the heater wattage (one channel per zone)",
+        "verified": false,
+        "verify": "[[VERIFY: maximum heaters or load per Affinity channel — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      },
+      "max_kw_per_channel": {
+        "value": 6,
+        "unit": "kW per controller channel at 208–277 V",
+        "source": "bromic.com product page https://www.bromic.com/product/affinity-smart-heat-dimmer-controllers/ (read 29 Oct 2026); same on the On/Off page",
+        "verified": false,
+        "verify": "[[VERIFY: Affinity capacity per channel at 208 V and 240 V — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    "eclipse": {
+      "items": [
+        {
+          "name": "Affinity Smart-Heat Eclipse controller channel (1 or 5 channels) or the Eclipse Dimmer Controller",
+          "per": "zone"
+        },
+        {
+          "name": "Manual wall switch",
+          "per": "zone"
+        },
+        {
+          "name": "Bromic Smart-Heat app (zones, schedules, timers)",
+          "per": "system"
+        }
+      ],
+      "max_heaters_per_controller": {
+        "value": 1,
+        "unit": "Eclipse heaters per controller channel",
+        "source": "bromic.com product page https://www.bromic.com/product/affinity-smart-heat-eclipse-controllers/ (read 29 Oct 2026): one Eclipse heater per channel",
+        "verified": false,
+        "verify": "[[VERIFY: heaters per Eclipse controller; whether Eclipse Freestanding uses the same controller — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    "gas-freestanding": {
+      "items": [
+        {
+          "name": "Controls for Tungsten Smart-Heat Freestanding Gas — confirmed by the Bromic design team [[VERIFY: control options and Affinity compatibility for Tungsten Freestanding Gas — Mike Clifford]]",
+          "per": "heater"
+        }
+      ],
+      "max_heaters_per_controller": {
+        "value": null,
+        "unit": "heaters per controller",
+        "source": "Not published",
+        "verified": false,
+        "verify": "[[VERIFY: control options for Tungsten Freestanding Gas — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    "gas-builtin": {
+      "items": [
+        {
+          "name": "Affinity Smart-Heat On/Off controller channel (dimming is not available on gas)",
+          "per": "zone"
+        },
+        {
+          "name": "Manual wall switch",
+          "per": "zone"
+        },
+        {
+          "name": "Bromic Smart-Heat app (zones, schedules, timers)",
+          "per": "system"
+        }
+      ],
+      "max_heaters_per_controller": {
+        "value": 10,
+        "unit": "gas heaters per On/Off channel",
+        "source": "bromic.com product page https://www.bromic.com/product/affinity-smart-heat-on-off-controllers/ (read 29 Oct 2026): up to 10 gas heaters (or 6,000 W) per channel; Platinum Gas FAQ: on/off only",
+        "verified": false,
+        "verify": "[[VERIFY: On/Off control of Platinum Gas and Tungsten Gas built-in (the On/Off spec table lists only electric) — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    "app_note": "Wi-Fi and app features require compatible Affinity Smart-Heat controls, sold separately.",
+    "integration_note": "Works with Amazon Alexa, Google Assistant, Control4, Crestron and Lutron. Compatibility varies by system and may need additional integration hardware or configuration."
+  },
+  "disclaimers": {
+    "coverage": "Coverage is approximate and varies by heater model, mounting height, environment and installation conditions (Lookbook 2026). This is a first estimate, not a design.",
+    "code": "Electric heaters in the US follow ANSI/NFPA 70 (NEC) and gas heaters ANSI Z223.1/NFPA 54. Confirm every installation with your local building authority and a licensed electrician or gas fitter.",
+    "code_source_url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
+  }
+};
 /* @inline:end config.json */
 
 /* @inline:begin logic.js */
+const Logic = (() => {
+// A03 "How many heaters?" — pure sizing logic. No DOM, no I/O: every number comes from `cfg` (config.json).
+// Tested by test.mjs; inlined into index.html by tools/build-config.mjs.
+
+const val = (a) => (a && typeof a === 'object' && 'value' in a ? a.value : a);
+
+const ENCLOSURES = ['open', 'partial', 'covered'];
+const CLIMATES = ['mild', 'cool', 'cold'];
+const FUELS = ['electric', 'gas', 'any'];
+const STYLES = ['built-in', 'freestanding', 'any'];
+
+function defaults(cfg) {
+  return {
+    length_ft: 20, width_ft: 12, enclosure: 'partial', open_30: true, climate: 'cool',
+    mount_height_ft: val(cfg.mounting.default_height_ft), fuel: 'any', style: 'any', zones: 1,
+  };
+}
+
+// Clean and range-check raw form values. Returns {input, errors}.
+function normalise(raw, cfg) {
+  const errors = {};
+  const num = (k) => Number(String(raw[k] ?? '').replace(',', '.'));
+  const min = val(cfg.limits.min_side_ft), max = val(cfg.limits.max_side_ft);
+  const input = {
+    length_ft: num('length_ft'),
+    width_ft: num('width_ft'),
+    enclosure: ENCLOSURES.includes(raw.enclosure) ? raw.enclosure : 'partial',
+    open_30: raw.open_30 === true || raw.open_30 === 'yes',
+    climate: CLIMATES.includes(raw.climate) ? raw.climate : 'cool',
+    mount_height_ft: num('mount_height_ft'),
+    fuel: FUELS.includes(raw.fuel) ? raw.fuel : 'any',
+    style: STYLES.includes(raw.style) ? raw.style : 'any',
+    zones: Math.max(1, Math.min(20, Math.round(num('zones')) || 1)),
+  };
+  for (const k of ['length_ft', 'width_ft']) {
+    if (!Number.isFinite(input[k]) || input[k] < min || input[k] > max) errors[k] = `Enter a number from ${min} to ${max} ft.`;
+  }
+  if (input.style !== 'freestanding' && (!Number.isFinite(input.mount_height_ft) || input.mount_height_ft < 5 || input.mount_height_ft > 30)) {
+    errors.mount_height_ft = 'Enter a mount height from 5 to 30 ft.';
+  }
+  return { input, errors };
+}
+
+function heightFactor(heightFt, cfg) {
+  const bands = val(cfg.mounting.height_bands);
+  for (const b of bands) if (heightFt <= b.up_to_ft) return b.factor;
+  return bands[bands.length - 1].factor;
+}
+
+// The coverage one heater gives in this space, after every derate.
+function effectiveCoverage(nominal, factors) {
+  return nominal * factors.enclosure * factors.climate * factors.height * factors.layout;
+}
+
+function heaterCount(areaFt2, effective) {
+  if (!(effective > 0)) return null;
+  return Math.max(1, Math.ceil(areaFt2 / effective - 1e-9));
+}
+
+// Controls bundle for `count` heaters of one family. Controls are always part of the recommendation.
+function controlsBundle(controlsKey, count, zonesWanted, cfg, watts = null) {
+  const spec = cfg.controls[controlsKey];
+  const kw = spec.max_kw_per_channel ? val(spec.max_kw_per_channel) : null;
+  const perController = kw && watts ? Math.max(1, Math.floor(kw * 1000 / watts)) : val(spec.max_heaters_per_controller);
+  const zones = Math.min(count, Math.max(zonesWanted, perController ? Math.ceil(count / perController) : 1));
+  const items = spec.items.map((it) => ({
+    name: it.name,
+    qty: it.per === 'zone' ? zones : it.per === 'heater' ? count : 1,
+    per: it.per,
+  }));
+  return {
+    zones, items,
+    app_note: cfg.controls.app_note,
+    integration_note: cfg.controls.integration_note,
+    capacity_verified: !!perController,
+  };
+}
+
+function matches(p, input) {
+  return (input.fuel === 'any' || p.fuel === input.fuel) && (input.style === 'any' || p.style === input.style);
+}
+
+function size(rawInput, cfg) {
+  const { input, errors } = normalise(rawInput, cfg);
+  if (Object.keys(errors).length) return { ok: false, errors, input };
+
+  const area = Math.round(input.length_ft * input.width_ft * 10) / 10;
+  const warnings = [];
+  const outdoor = !(input.enclosure === 'covered' && !input.open_30);
+  if (!outdoor) {
+    return {
+      ok: true, input, area, outdoor: false, options: [], recommended: null, warnings: [],
+      message: `With less than ${val(cfg.outdoor_rule.min_open_perimeter_pct)}% of the perimeter permanently open, the space is not treated as outdoor. Outdoor heaters may not be suitable: talk to the Bromic design team before choosing.`,
+    };
+  }
+
+  const builtInHeight = input.style !== 'freestanding';
+  const factors = {
+    enclosure: val(cfg.enclosure[input.enclosure].factor),
+    climate: val(cfg.climate[input.climate].factor),
+    height: 1,
+    layout: val(cfg.layout.overlap_factor),
+  };
+  const hf = builtInHeight ? heightFactor(input.mount_height_ft, cfg) : 1;
+  const minCeilFt = val(cfg.mounting.min_ceiling_mount_in) / 12;
+  const minWallFt = val(cfg.mounting.min_wall_mount_in) / 12;
+  if (builtInHeight && input.mount_height_ft < minCeilFt) {
+    warnings.push(input.mount_height_ft < minWallFt
+      ? `A mount height of ${input.mount_height_ft} ft is below Bromic's 2021 guidance for both wall mounts (${minWallFt} ft) and ceiling mounts (${minCeilFt} ft). A freestanding heater may suit better.`
+      : `At ${input.mount_height_ft} ft, a ceiling mount is below Bromic's 2021 guidance of ${minCeilFt} ft; a wall mount (from ${minWallFt} ft) may work. Minimums vary with output.`);
+  }
+  if (builtInHeight && input.mount_height_ft > val(cfg.mounting.max_recommended_ft)) {
+    warnings.push(`At ${input.mount_height_ft} ft, ask about a suspension pole to bring heaters down to an effective height.`);
+  }
+  if (area > val(cfg.limits.large_space_ft2)) {
+    warnings.push(`At ${area} ft², this is a large space. Use the result as a starting point and let the design team lay it out.`);
+  }
+
+  const options = [];
+  for (const p of cfg.products.filter((x) => matches(x, input))) {
+    const cov = val(p.coverage_ft2);
+    const f = { ...factors, height: p.style === 'built-in' ? hf : 1 };
+    const opt = { id: p.id, family: p.family, name: p.name, fuel: p.fuel, style: p.style, status: p.status };
+    if (p.status === 'unverified' || cov == null) {
+      opt.count = null;
+      opt.note = 'Coverage not yet confirmed. The Bromic design team sizes this model.';
+    } else if (Array.isArray(cov)) {
+      const lo = heaterCount(area, effectiveCoverage(cov[1], f));
+      const hi = heaterCount(area, effectiveCoverage(cov[0], f));
+      opt.count = null; opt.count_range = [lo, hi]; opt.coverage_nominal = cov;
+      opt.note = 'Coming soon. Count depends on model and size.';
+    } else {
+      opt.coverage_nominal = cov;
+      opt.coverage_effective = Math.round(effectiveCoverage(cov, f) * 10) / 10;
+      opt.count = heaterCount(area, effectiveCoverage(cov, f));
+      const w = val(p.watts);
+      opt.load_kw = w ? Math.round(opt.count * w / 100) / 10 : null;
+      opt.btu_each = val(p.btu) ?? null;
+    }
+    const n = opt.count ?? (opt.count_range ? opt.count_range[1] : 1);
+    opt.controls = controlsBundle(p.controls, n, input.zones, cfg, val(p.watts) ?? null);
+    options.push(opt);
+  }
+
+  const rank = { current: 0, 'coming-soon': 1, unverified: 2 };
+  options.sort((a, b) => rank[a.status] - rank[b.status]
+    || (a.count ?? 1e9) - (b.count ?? 1e9)
+    || (a.coverage_effective ?? 0) - (b.coverage_effective ?? 0));
+  // Same count: the smaller heater first, so the lead option is the closest fit (e.g. the lowest Platinum wattage
+  // that still needs no extra heater).
+  const recommended = options.find((o) => o.status === 'current' && o.count != null) || null;
+
+  return {
+    ok: true, input, area, outdoor: true, factors: { ...factors, height: hf }, options, recommended, warnings,
+    message: recommended ? null : 'No current model with confirmed coverage matches this preference yet. The Bromic design team will size it for you.',
+  };
+}
+
+return { ENCLOSURES, CLIMATES, FUELS, STYLES, defaults, normalise, heightFactor, effectiveCoverage, heaterCount, controlsBundle, size };
+})();
 /* @inline:end logic.js */
 
 /* @inline:begin ../_shared/lead.js */
+const Lead = (() => {
+// Shared lead gate for the Bromic tools (HANDOVER §9; spec in forms/hubspot-form-spec.md).
+// Inlined into each tool's index.html by tools/build-config.mjs. The pure functions at the top are
+// tested by tools/_shared/test.mjs; mountLeadGate() is the only part that touches the DOM.
+
+const ROLES = [
+  { value: 'homeowner', label: 'Homeowner', professional: false },
+  { value: 'architect_designer', label: 'Architect / designer', professional: true },
+  { value: 'builder_installer', label: 'Builder / installer', professional: true },
+  { value: 'commercial_operator', label: 'Commercial operator', professional: true },
+  { value: 'dealer', label: 'Dealer', professional: true },
+];
+const TIMINGS = [
+  { value: '0_3_months', label: '0–3 months' },
+  { value: '3_6_months', label: '3–6 months' },
+  { value: '6_12_months', label: '6–12 months' },
+  { value: 'researching', label: 'Researching' },
+];
+const SIZE_UNITS = [
+  { value: 'homes', label: 'No. of homes' },
+  { value: 'seats', label: 'Seats' },
+  { value: 'ft2', label: 'ft²' },
+];
+const UTM_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'];
+const MATRIX_CELL = /^(RES|ARC|BLD|COM)-(AW|CO|IN|PP|BY)$/;
+
+function isProfessional(role) {
+  const r = ROLES.find((x) => x.value === role);
+  return !!(r && r.professional);
+}
+
+// UTM values and an optional matrix_cell override, read from the page URL's query string.
+function readTracking(search, defaultCell) {
+  const q = new URLSearchParams(search || '');
+  const out = {};
+  for (const k of UTM_KEYS) out[k] = (q.get(k) || '').slice(0, 200);
+  const cell = (q.get('matrix_cell') || '').toUpperCase();
+  out.matrix_cell = MATRIX_CELL.test(cell) ? cell : defaultCell;
+  return out;
+}
+
+const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+const POSTAL = /^[A-Za-z0-9][A-Za-z0-9 \-]{1,9}$/; // US ZIP, CA, UK, AU, EU postcodes
+
+// Returns {field: message} for every invalid field; {} when the form can be sent.
+function validateLead(v) {
+  const e = {};
+  if (!String(v.firstname || '').trim()) e.firstname = 'Enter your first name.';
+  if (!String(v.lastname || '').trim()) e.lastname = 'Enter your last name.';
+  if (!EMAIL.test(String(v.email || '').trim())) e.email = 'Enter a valid email address.';
+  if (!ROLES.some((r) => r.value === v.i_am_a)) e.i_am_a = 'Choose the option that describes you.';
+  if (!POSTAL.test(String(v.zip || '').trim())) e.zip = 'Enter a ZIP or postal code.';
+  if (!TIMINGS.some((t) => t.value === v.project_timing)) e.project_timing = 'Choose your project timing.';
+  if (isProfessional(v.i_am_a) && !String(v.company || '').trim()) e.company = 'Enter your company.';
+  if (v.project_size_value !== '' && v.project_size_value != null) {
+    const n = Number(v.project_size_value);
+    if (!Number.isFinite(n) || n <= 0) e.project_size_value = 'Enter a number, or leave it blank.';
+  }
+  return e;
+}
+
+// The object HubSpot would receive. Field names are the internal names in forms/hubspot-form-spec.md.
+function buildPayload(values, hidden) {
+  const pro = isProfessional(values.i_am_a);
+  return {
+    firstname: String(values.firstname || '').trim(),
+    lastname: String(values.lastname || '').trim(),
+    email: String(values.email || '').trim().toLowerCase(),
+    i_am_a: values.i_am_a,
+    zip: String(values.zip || '').trim().toUpperCase(),
+    project_timing: values.project_timing,
+    company: pro ? String(values.company || '').trim() : '',
+    project_size_value: values.project_size_value === '' || values.project_size_value == null ? '' : Number(values.project_size_value),
+    project_size_unit: values.project_size_value === '' || values.project_size_value == null ? '' : values.project_size_unit,
+    asset_id: hidden.asset_id,
+    matrix_cell: hidden.matrix_cell,
+    utm_source: hidden.utm_source || '',
+    utm_medium: hidden.utm_medium || '',
+    utm_campaign: hidden.utm_campaign || '',
+    utm_term: hidden.utm_term || '',
+    utm_content: hidden.utm_content || '',
+    tool_inputs: JSON.stringify(hidden.tool_inputs || {}),
+  };
+}
+
+// ---- DOM ---------------------------------------------------------------------------------------
+
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+function formHtml(id, defaultSizeUnit) {
+  const opt = (list, sel) => list.map((o) => `<option value="${o.value}"${o.value === sel ? ' selected' : ''}>${esc(o.label)}</option>`).join('');
+  const f = (name, label, input, extra = '') => `
+    <div class="field" data-field="${name}"${extra}>
+      <label class="k" for="${id}-${name}">${label}</label>${input}
+      <span class="err" id="${id}-${name}-err" aria-live="polite"></span>
+    </div>`;
+  const txt = (name, type, auto, req = true) =>
+    `<input id="${id}-${name}" name="${name}" type="${type}" autocomplete="${auto}"${req ? ' required aria-required="true"' : ''} aria-describedby="${id}-${name}-err">`;
+  return `
+  <form class="lead-form" novalidate>
+    <div class="grid">
+      ${f('firstname', 'First name', txt('firstname', 'text', 'given-name'))}
+      ${f('lastname', 'Last name', txt('lastname', 'text', 'family-name'))}
+      ${f('email', 'Email', txt('email', 'email', 'email'))}
+      ${f('i_am_a', 'I am a…', `<select id="${id}-i_am_a" name="i_am_a" required aria-required="true" aria-describedby="${id}-i_am_a-err"><option value="">Choose one</option>${opt(ROLES)}</select>`)}
+      ${f('company', 'Company', txt('company', 'text', 'organization'), ' hidden')}
+      ${f('zip', 'ZIP / postal code', txt('zip', 'text', 'postal-code'))}
+      ${f('project_timing', 'Project timing', `<select id="${id}-project_timing" name="project_timing" required aria-required="true" aria-describedby="${id}-project_timing-err"><option value="">Choose one</option>${opt(TIMINGS)}</select>`)}
+      <div class="field" data-field="project_size_value">
+        <label class="k" for="${id}-project_size_value">Project size (optional)</label>
+        <div style="display:flex;gap:8px">
+          <input id="${id}-project_size_value" name="project_size_value" type="number" min="0" step="1" inputmode="numeric" aria-describedby="${id}-project_size_value-err">
+          <select name="project_size_unit" aria-label="Project size unit">${opt(SIZE_UNITS, defaultSizeUnit)}</select>
+        </div>
+        <span class="err" id="${id}-project_size_value-err" aria-live="polite"></span>
+      </div>
+    </div>
+    <!-- Hidden fields (HANDOVER §9). Filled at submit time. -->
+    <input type="hidden" name="asset_id"><input type="hidden" name="matrix_cell">
+    <input type="hidden" name="utm_source"><input type="hidden" name="utm_medium"><input type="hidden" name="utm_campaign">
+    <input type="hidden" name="utm_term"><input type="hidden" name="utm_content"><input type="hidden" name="tool_inputs">
+    <p class="errors" role="alert"></p>
+    <div class="actions">
+      <button class="btn primary" type="submit">See the full report</button>
+      <span class="note">We use these details to send your report and, if you ask, to follow up. No spam.
+      [[VERIFY: privacy line and policy link — Brian Kim]]</span>
+    </div>
+  </form>`;
+}
+
+// el: container; getInputs(): the tool's current inputs (becomes tool_inputs); onUnlock(payload): show the report.
+function mountLeadGate({ el, assetId, matrixCell, getInputs, onUnlock, defaultSizeUnit = 'ft2' }) {
+  const id = `lead-${assetId}`;
+  el.innerHTML = formHtml(id, defaultSizeUnit);
+  const form = el.querySelector('form');
+  const tracking = readTracking(location.search, matrixCell);
+  const companyField = form.querySelector('[data-field="company"]');
+  const role = form.elements.i_am_a;
+  const syncCompany = () => {
+    const show = isProfessional(role.value);
+    companyField.hidden = !show;
+    form.elements.company.required = show;
+  };
+  role.addEventListener('change', syncCompany);
+  syncCompany();
+
+  form.addEventListener('submit', (ev) => {
+    ev.preventDefault();
+    const values = Object.fromEntries(new FormData(form).entries());
+    const errors = validateLead(values);
+    form.querySelectorAll('.field').forEach((f) => {
+      const name = f.dataset.field;
+      f.classList.toggle('invalid', !!errors[name]);
+      const msg = f.querySelector('.err');
+      if (msg) msg.textContent = errors[name] || '';
+      const input = f.querySelector('input,select');
+      if (input) input.setAttribute('aria-invalid', errors[name] ? 'true' : 'false');
+    });
+    const first = Object.keys(errors)[0];
+    form.querySelector('.errors').textContent = first ? 'Please check the highlighted fields.' : '';
+    if (first) { form.elements[first].focus(); return; }
+
+    const hidden = { asset_id: assetId, ...tracking, tool_inputs: getInputs() };
+    for (const k of ['asset_id', 'matrix_cell', ...UTM_KEYS]) form.elements[k].value = hidden[k] || '';
+    form.elements.tool_inputs.value = JSON.stringify(hidden.tool_inputs);
+    const payload = buildPayload(values, hidden);
+
+    // HubSpot form embed replaces this: the embed posts the payload to HubSpot and fires onFormSubmitted,
+    // which then calls onUnlock(). Until then nothing leaves the page; the payload is only logged.
+    console.log('[Bromic lead payload]', payload);
+    onUnlock(payload);
+  });
+}
+
+return { ROLES, TIMINGS, SIZE_UNITS, UTM_KEYS, MATRIX_CELL, isProfessional, readTracking, validateLead, buildPayload, mountLeadGate };
+})();
 /* @inline:end ../_shared/lead.js */
 
 // ---- Page ------------------------------------------------------------------------------------------

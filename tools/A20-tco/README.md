@@ -1,0 +1,99 @@
+# A20 — Five-year cost of patio heating (TCO model)
+
+Draft 0.1.0. Cell COM-CO, gated (lead form from `../_shared/lead.js`), CTA → A21 ROI calculator.
+Compares five years of owning and running electric, natural gas and propane patio heating for an operator.
+
+## Files
+
+| File | Role |
+|---|---|
+| `config.json` | Every number the model uses, each with unit, source, owner and verify status. **Edit this, not the page.** |
+| `logic.js` | Pure functions (`defaults`, `normalise`, `heaterCount`, `hourly`, `escalatedSum`, `exchangesPerYear`, `tco`). No DOM, no imports. |
+| `index.html` | The page. `node tools/build-config.mjs` inlines brand.css, config.json, logic.js and lead.js between the `@inline` markers, so it runs from `file://` or an iframe with no network. |
+| `config.js` | Generated from config.json. Do not edit. |
+| `test.mjs` | `node tools/A20-tco/test.mjs` (5 cases; also run by `node app/test/tools.mjs`). |
+
+## The maths
+
+```
+Fuel per hour   electric     kW × heaters × output% × $/kWh
+                natural gas  BTU/hr × heaters × output% ÷ 100,000 × $/therm
+                propane      BTU/hr × heaters × output% ÷ 91,500 × $/gal
+Heaters         blank → ceil(area ÷ coverage per heater); area = seats × ft² per seat, or ft² entered
+Fuel, 5 years   Σ (fuel per hour × hours a year) × (1 + escalation)^year, years 0–4
+Propane swaps   round(gallons a year ÷ usable gallons per cylinder)
+Handling        swaps × minutes ÷ 60 × wage × 5   (not escalated)
+Total           heaters × (purchase + install) + heaters × maintenance × 5 + fuel + handling
+```
+
+Out of scope (stated on the page): demand charges, utility connection fees, financing, tax, resale.
+
+## Test case 1 — COM-CO-01's five-year example
+
+Inputs from the article (not the config defaults): 6 × Platinum 4500W, 4 × Tungsten Freestanding Gas on natural gas and on
+propane; 1,000 h a year; 14.07¢/kWh, $1.01/therm, $2.46/gal; 4.7 gal cylinders, 10 min a swap, $25/h; purchase, install and
+maintenance set to 0 (the article leaves them as [[VERIFY]]).
+
+| | Electric | Natural gas | Propane |
+|---|---|---|---|
+| Fuel a year | $3,799 | $1,535 | $4,087 (article $4,086) |
+| Fuel, 5 years | $18,995 | $7,676 | $20,433 (article $20,430: it multiplies the rounded $4,086) |
+| Handling, 5 years | none | none | $7,354 (353 swaps a year) |
+| Total | $18,995 | $7,676 | $27,787 (article $27,784) |
+
+The test allows ±$5 on the propane lines for the article's rounding. Note: the article's 860 ft² patio sized by coverage would
+need 7 electric heaters (860 ÷ 143 = 6.01); the test sets the counts to the article's 6 and 4, and test 2 shows 858 ft² → 6 and 4.
+
+## Placeholders
+
+Purchase, install and maintenance per heater are **placeholders, not Bromic prices** — the page tags them "Placeholder" at the
+inputs, in the teaser and in the report. Heater hours, ft² per seat and minutes per swap are also placeholders.
+
+## Rates differ from the article
+
+The config defaults are newer EIA figures than COM-CO-01 uses: electricity 13.54¢ (May 2026) vs the article's 14.07¢
+(Jan–May 2026); natural gas $0.87/therm (Jan–May 2026) vs $1.01 (Jan–Apr 2025); propane $2.674 (week of 30 Mar 2026) vs $2.46
+(winter 2025–26 forecast). Brian Kim/Finance should pick one set for the article, A20 and A21 (A21 uses 14.07¢).
+
+## Controls
+
+Electric: Affinity Smart-Heat Dimmer or On/Off controller and a wall switch per zone; Bromic Smart-Heat app. Gas options carry
+`[[VERIFY: control options for Tungsten Freestanding Gas — Mike Clifford]]`. Wi-Fi and app features require compatible Affinity
+Smart-Heat controls, sold separately — shown in the teaser and the report.
+
+## Every config value
+
+| Config path | Value | Unit | Source | Owner | Status |
+|---|---|---|---|---|---|
+| `tool.years` | 5 | years | Asset brief A20 (HANDOVER §8) | Blake Petty | verified |
+| `cta.href` | "../A21-roi/index.html" | url | Next-stage asset per data/journey-matrix.json (COM-CO → COM-IN, A21) | 454 Creative | [[VERIFY: live URL of the A21 ROI calculator — 454 Creative]] |
+| `space.ft2_per_seat` | 15 | ft² of heated patio per seat | Rule-of-thumb placeholder for full-service patio dining; no published source read | Blake Petty | [[VERIFY: patio ft² per seat to use (and source) — Blake Petty]] |
+| `space.default_seats` | 40 | seats | Form default only | Blake Petty | [[VERIFY: default seat count shown in the form — Blake Petty]] |
+| `space.default_ft2` | 600 | ft² | Form default only | Blake Petty | [[VERIFY: default area shown in the form — Blake Petty]] |
+| `operation.hours_per_year` | 900 | heater hours per year | Placeholder: 6 hours a night × 150 nights | Blake Petty | [[VERIFY: typical heated hours per year by climate — Blake Petty]] |
+| `operation.average_output_pct` | 100 | % of rated input, averaged over operating hours | Conservative default: heaters at full output whenever on. Dimmers and Eclipse 33/66/100% steps lower this | Mike Clifford | [[VERIFY: typical average output with Affinity dimming — Mike Clifford]] |
+| `operation.fuel_escalation_pct` | 0 | % per year applied to fuel prices | Default: flat prices; no forecast applied | Brian Kim | [[VERIFY: whether to apply an EIA STEO price outlook — Brian Kim/Finance]] |
+| `prices.electric_per_kwh` | 0.1354 | $/kWh | EIA Monthly Energy Review, Aug 2026, Figure 9.2: US commercial average retail electricity price, May 2026, 13.54¢/kWh (read from a search snippet; label order uncertain). https://www.eia.gov/totalenergy/data/monthly/ · cross-check EIA Electric Power Monthly Table 5.6.A https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a | Brian Kim | [[VERIFY: 2026 commercial $/kWh from EIA EPM Table 5.6.A, national and by state — Brian Kim/Finance]] |
+| `prices.natural_gas_per_therm` | 0.87 | $/therm | EIA Natural Gas Prices (US commercial), Jan–May 2026 average $9.03 per thousand cubic feet (9.03, 9.42, 9.72, 8.18, 8.81) ÷ 10.36 therms per Mcf. https://www.eia.gov/dnav/ng/ng_pri_sum_dcu_nus_m.htm | Brian Kim | [[VERIFY: 2026 commercial $/therm and the Mcf→therm heat content used — Brian Kim/Finance]] |
+| `prices.propane_per_gal` | 2.674 | $/gal | EIA Heating Oil and Propane Update, week of 30 Mar 2026: US average RESIDENTIAL propane $2.674/gal (EIA publishes no commercial series; cylinder-exchange prices run higher). https://www.eia.gov/petroleum/heatingoilpropane/ | Brian Kim | [[VERIFY: commercial propane or cylinder-exchange $/gal operators actually pay — Brian Kim/Finance]] |
+| `conversions.btu_per_therm` | 100000 | BTU/therm | Definition of the therm; writer brief running-cost formula | Brian Kim | verified |
+| `conversions.btu_per_gal_propane` | 91500 | BTU/gal | Writer brief running-cost formula (approx. heat content of propane) | Brian Kim | [[VERIFY: propane heat content to standardise on (91,500 vs 91,452 BTU/gal) — Brian Kim]] |
+| `conversions.therms_per_mcf` | 10.36 | therms per thousand cubic feet | Approx. US average heat content of delivered natural gas, about 1,036 BTU/ft³ (EIA) | Brian Kim | [[VERIFY: current EIA heat content of natural gas delivered to consumers — Brian Kim]] |
+| `propane_handling.cylinder_gal` | 4.7 | gal per cylinder exchange | Derived: 20 lb cylinder ÷ about 4.24 lb per gallon. Many exchange cylinders are filled to 15 lb (about 3.5 gal) | Mike Clifford | [[VERIFY: cylinder size used by Tungsten Freestanding Gas and the usable fill — Mike Clifford]] |
+| `propane_handling.minutes_per_exchange` | 10 | staff minutes per cylinder swap | Placeholder: swap, leak check, storage cage, paperwork | Blake Petty | [[VERIFY: staff minutes per cylinder exchange from operators — Blake Petty]] |
+| `propane_handling.wage_per_hour` | 15.71 | $/hour | BLS OEWS May 2024 median for Dining Room and Cafeteria Attendants and Bartender Helpers (35-9011), via O*NET OnLine. https://www.onetonline.org/link/localwages/35-9011.00. Unloaded: add payroll burden if wanted | Blake Petty | verified |
+| `options[electric].coverage_ft2` | 143 | ft² per heater | Lookbook 2026 p.21 (top of 65–143 ft² range mapped to 4500W) | Mike Clifford | [[VERIFY: 4500W coverage — Mike Clifford]] |
+| `options[electric].input_kw` | 4.5 | kW per heater | Lookbook 2026 p.21 (4500W) | Mike Clifford | [[VERIFY: sign-off of product-facts.json — Mike Clifford]] |
+| `options[electric].purchase_per_heater` | 2500 | $ per heater incl. controls share | PLACEHOLDER, not a Bromic price | Blake Petty | [[VERIFY: commercial price per heater incl. Affinity controls — Blake Petty]] |
+| `options[electric].install_per_heater` | 900 | $ per heater (circuit, mounting, labour) | PLACEHOLDER | Blake Petty | [[VERIFY: typical installed cost per electric heater — Blake Petty]] |
+| `options[electric].maintenance_per_heater_year` | 25 | $ per heater per year | PLACEHOLDER | Blake Petty | [[VERIFY: annual maintenance per electric heater — Blake Petty]] |
+| `options[natural_gas].coverage_ft2` | 215 | ft² per heater | Lookbook 2026 p.39 | Mike Clifford | [[VERIFY: sign-off of product-facts.json — Mike Clifford]] |
+| `options[natural_gas].input_btu` | 38000 | BTU/hr per heater | Lookbook 2026 p.39 (freestanding; built-in gas BTU is not published) | Mike Clifford | [[VERIFY: sign-off of product-facts.json — Mike Clifford]] |
+| `options[natural_gas].purchase_per_heater` | 3000 | $ per heater | PLACEHOLDER, not a Bromic price | Blake Petty | [[VERIFY: commercial price per gas heater — Blake Petty]] |
+| `options[natural_gas].install_per_heater` | 1500 | $ per heater (gas line, fitter) | PLACEHOLDER | Blake Petty | [[VERIFY: typical installed cost per natural-gas heater — Blake Petty]] |
+| `options[natural_gas].maintenance_per_heater_year` | 100 | $ per heater per year | PLACEHOLDER | Blake Petty | [[VERIFY: annual service per gas heater — Blake Petty]] |
+| `options[propane].coverage_ft2` | 215 | ft² per heater | Lookbook 2026 p.39 | Mike Clifford | [[VERIFY: sign-off of product-facts.json — Mike Clifford]] |
+| `options[propane].input_btu` | 38000 | BTU/hr per heater | Lookbook 2026 p.39 | Mike Clifford | [[VERIFY: sign-off of product-facts.json — Mike Clifford]] |
+| `options[propane].purchase_per_heater` | 3000 | $ per heater | PLACEHOLDER, not a Bromic price | Blake Petty | [[VERIFY: commercial price per gas heater — Blake Petty]] |
+| `options[propane].install_per_heater` | 0 | $ per heater | PLACEHOLDER: freestanding on cylinders, no fixed install | Blake Petty | [[VERIFY: set-up cost for propane freestanding heaters — Blake Petty]] |
+| `options[propane].maintenance_per_heater_year` | 100 | $ per heater per year | PLACEHOLDER | Blake Petty | [[VERIFY: annual service per propane heater — Blake Petty]] |

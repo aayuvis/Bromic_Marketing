@@ -230,9 +230,9 @@
       "status": "current",
       "controls": "affinity",
       "coverage_ft2": {
-        "value": 104,
+        "value": 108,
         "unit": "ft²",
-        "source": "Linear interpolation by wattage between Lookbook 2026 p.21 range ends (65 at 2300W, 143 at 4500W); not published",
+        "source": "bromic.com product page https://www.bromic.com/product/platinum-smart-heat-electric/ (read 29 Oct 2026) spec table: 3400W, 108 ft²; replaces the 104 ft² interpolation",
         "verified": false,
         "verify": "[[VERIFY: coverage of the 3400W model — Mike Clifford]]",
         "owner": "Mike Clifford"
@@ -387,36 +387,70 @@
       }
     },
     {
-      "id": "platinum-gas",
+      "id": "platinum-gas-s",
       "family": "platinum-gas",
-      "name": "Platinum Gas",
+      "name": "Platinum Smart-Heat Gas, smaller model",
       "fuel": "gas",
       "style": "built-in",
-      "status": "unverified",
+      "status": "current",
       "controls": "gas-builtin",
       "coverage_ft2": {
-        "value": null,
+        "value": 160,
         "unit": "ft²",
-        "source": "bromic.com product page, not yet read; the 2021 Planning Guide's 160–215 ft² is not used",
+        "source": "bromic.com product page https://www.bromic.com/product/platinum-smart-heat-gas/ (read 29 Oct 2026) spec table: 160 ft²",
         "verified": false,
-        "verify": "[[VERIFY: current Platinum Gas coverage — Mike Clifford]]",
+        "verify": "[[VERIFY: Platinum Gas coverage per model — Mike Clifford]]",
         "owner": "Mike Clifford"
       }
     },
     {
-      "id": "tungsten-gas-builtin",
-      "family": "tungsten-gas-builtin",
-      "name": "Tungsten Gas (built-in)",
+      "id": "platinum-gas-l",
+      "family": "platinum-gas",
+      "name": "Platinum Smart-Heat Gas, larger model",
       "fuel": "gas",
       "style": "built-in",
-      "status": "unverified",
+      "status": "current",
       "controls": "gas-builtin",
       "coverage_ft2": {
-        "value": null,
+        "value": 215,
         "unit": "ft²",
-        "source": "bromic.com product page, not yet read; output is in conflict (39,800 vs 38,000 BTU) and is not published",
+        "source": "bromic.com product page https://www.bromic.com/product/platinum-smart-heat-gas/ (read 29 Oct 2026) spec table: 215 ft²",
         "verified": false,
-        "verify": "[[VERIFY: current Tungsten Gas built-in coverage and BTU — Mike Clifford]]",
+        "verify": "[[VERIFY: Platinum Gas coverage per model — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    {
+      "id": "tungsten-gas-builtin-s",
+      "family": "tungsten-gas-builtin",
+      "name": "Tungsten Smart-Heat Gas (built-in), smaller model",
+      "fuel": "gas",
+      "style": "built-in",
+      "status": "current",
+      "controls": "gas-builtin",
+      "coverage_ft2": {
+        "value": 160,
+        "unit": "ft²",
+        "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-gas/ (read 29 Oct 2026) spec table: 160 ft². Output is not shown: Tungsten gas BTU stays unpublished until verified",
+        "verified": false,
+        "verify": "[[VERIFY: Tungsten Gas built-in coverage and BTU — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    {
+      "id": "tungsten-gas-builtin-l",
+      "family": "tungsten-gas-builtin",
+      "name": "Tungsten Smart-Heat Gas (built-in), larger model",
+      "fuel": "gas",
+      "style": "built-in",
+      "status": "current",
+      "controls": "gas-builtin",
+      "coverage_ft2": {
+        "value": 215,
+        "unit": "ft²",
+        "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-gas/ (read 29 Oct 2026) spec table: 215 ft². Output is not shown: Tungsten gas BTU stays unpublished until verified",
+        "verified": false,
+        "verify": "[[VERIFY: Tungsten Gas built-in coverage and BTU — Mike Clifford]]",
         "owner": "Mike Clifford"
       }
     }
@@ -425,7 +459,7 @@
     "affinity": {
       "items": [
         {
-          "name": "Affinity Smart-Heat Dimmer or On/Off controller",
+          "name": "Affinity Smart-Heat Dimmer or On/Off controller channel (controllers come in 1, 2 or 5 channels)",
           "per": "zone"
         },
         {
@@ -440,16 +474,24 @@
       "max_heaters_per_controller": {
         "value": null,
         "unit": "heaters (or kW) per controller",
-        "source": "Not published in Lookbook 2026",
+        "source": "Worked out per model from max_kw_per_channel and the heater wattage (one channel per zone)",
         "verified": false,
-        "verify": "[[VERIFY: maximum heaters or load per Affinity controller — Mike Clifford]]",
+        "verify": "[[VERIFY: maximum heaters or load per Affinity channel — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      },
+      "max_kw_per_channel": {
+        "value": 6,
+        "unit": "kW per controller channel at 208–277 V",
+        "source": "bromic.com product page https://www.bromic.com/product/affinity-smart-heat-dimmer-controllers/ (read 29 Oct 2026); same on the On/Off page",
+        "verified": false,
+        "verify": "[[VERIFY: Affinity capacity per channel at 208 V and 240 V — Mike Clifford]]",
         "owner": "Mike Clifford"
       }
     },
     "eclipse": {
       "items": [
         {
-          "name": "Eclipse controller",
+          "name": "Affinity Smart-Heat Eclipse controller channel (1 or 5 channels) or the Eclipse Dimmer Controller",
           "per": "zone"
         },
         {
@@ -462,9 +504,9 @@
         }
       ],
       "max_heaters_per_controller": {
-        "value": null,
-        "unit": "heaters per Eclipse controller",
-        "source": "Not published in Lookbook 2026",
+        "value": 1,
+        "unit": "Eclipse heaters per controller channel",
+        "source": "bromic.com product page https://www.bromic.com/product/affinity-smart-heat-eclipse-controllers/ (read 29 Oct 2026): one Eclipse heater per channel",
         "verified": false,
         "verify": "[[VERIFY: heaters per Eclipse controller; whether Eclipse Freestanding uses the same controller — Mike Clifford]]",
         "owner": "Mike Clifford"
@@ -489,16 +531,24 @@
     "gas-builtin": {
       "items": [
         {
-          "name": "Controls for built-in gas — confirmed by the Bromic design team [[VERIFY: control options for Platinum Gas and Tungsten Gas built-in — Mike Clifford]]",
+          "name": "Affinity Smart-Heat On/Off controller channel (dimming is not available on gas)",
           "per": "zone"
+        },
+        {
+          "name": "Manual wall switch",
+          "per": "zone"
+        },
+        {
+          "name": "Bromic Smart-Heat app (zones, schedules, timers)",
+          "per": "system"
         }
       ],
       "max_heaters_per_controller": {
-        "value": null,
-        "unit": "heaters per controller",
-        "source": "Not published",
+        "value": 10,
+        "unit": "gas heaters per On/Off channel",
+        "source": "bromic.com product page https://www.bromic.com/product/affinity-smart-heat-on-off-controllers/ (read 29 Oct 2026): up to 10 gas heaters (or 6,000 W) per channel; Platinum Gas FAQ: on/off only",
         "verified": false,
-        "verify": "[[VERIFY: control options for built-in gas — Mike Clifford]]",
+        "verify": "[[VERIFY: On/Off control of Platinum Gas and Tungsten Gas built-in (the On/Off spec table lists only electric) — Mike Clifford]]",
         "owner": "Mike Clifford"
       }
     },

@@ -1,0 +1,717 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Patio heater ROI: revenue and payback calculator | Bromic Heating</title>
+<meta name="description" content="Work out what heated patio seats add in revenue and margin, and how many months the heaters take to pay back, with every input and formula shown.">
+<style>
+/* @inline:begin ../_shared/brand.css */
+/* Bromic tool styling — shared by A03, A20, A21. Inlined into each index.html by tools/build-config.mjs.
+   Flame is the only accent. Georgia headings, Helvetica/Arial body. Works from 320px up. */
+:root {
+  --paper: #F4F1EC;
+  --ink: #231F20;
+  --flame: #EF4123;
+  --flame-ink: #231F20;          /* small text stays ink: flame on paper is under 4.5:1, so flame marks borders and rules only */
+  --steel: #71777D;
+  --steel-ink: #575C61;          /* steel darkened for small text on paper */
+  --mist: #DDE0E2;
+  --white: #FFFFFF;
+  --serif: Georgia, "Times New Roman", serif;
+  --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 16px/1.5 var(--sans);
+}
+.page { max-width: 880px; margin: 0 auto; padding: 32px 20px 48px; }
+body.embed .page { max-width: none; padding: 0; }
+body.embed .masthead, body.embed .foot { display: none; }
+
+h1, h2, h3 { font-family: var(--serif); font-weight: normal; line-height: 1.2; margin: 0 0 .5em; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.4rem; margin-top: 1.2em; }
+h3 { font-size: 1.1rem; margin-top: 1em; }
+p { margin: 0 0 1em; }
+a { color: var(--ink); text-decoration-color: var(--flame); text-underline-offset: 3px; }
+
+.label, label.k, legend.k, .eyebrow, th {
+  font-family: var(--sans); font-size: .72rem; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--steel-ink); font-weight: 600;
+}
+.eyebrow { color: var(--ink); margin: 0 0 .5em; display: block; border-left: 3px solid var(--flame); padding-left: 8px; }
+.masthead { border-bottom: 1px solid var(--mist); margin-bottom: 24px; padding-bottom: 16px; }
+.masthead .lede { color: var(--steel-ink); max-width: 60ch; }
+
+.card { background: var(--white); border: 1px solid var(--mist); padding: 20px; margin: 0 0 20px; }
+.grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+.field { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.field .hint { font-size: .85rem; color: var(--steel-ink); }
+fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
+legend { padding: 0; margin-bottom: 6px; }
+input[type=text], input[type=email], input[type=number], select {
+  font: inherit; color: var(--ink); background: var(--white); width: 100%;
+  border: 1px solid var(--steel); border-radius: 0; padding: 10px 12px; min-height: 44px;
+}
+.choices { display: flex; flex-wrap: wrap; gap: 8px; }
+.choices label {
+  display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--steel);
+  background: var(--white); padding: 8px 12px; min-height: 44px; cursor: pointer;
+}
+.choices input { accent-color: var(--flame); margin: 0; }
+.choices label:has(input:checked) { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
+:focus-visible { outline: 3px solid var(--flame); outline-offset: 2px; }
+input:focus-visible, select:focus-visible { outline-offset: 0; }
+
+.btn {
+  font: 600 .8rem/1 var(--sans); letter-spacing: .12em; text-transform: uppercase; cursor: pointer;
+  border: 1px solid var(--ink); background: var(--ink); color: var(--white); padding: 14px 20px; min-height: 44px;
+}
+.btn.primary { background: var(--flame); border-color: var(--flame); color: var(--ink); }
+.btn.ghost { background: transparent; color: var(--ink); }
+.btn:hover { filter: brightness(1.08); }
+
+.teaser { border-top: 4px solid var(--flame); }
+.headline { font-family: var(--serif); font-size: clamp(2.2rem, 9vw, 3.4rem); line-height: 1; margin: .1em 0 .2em; }
+.sub { color: var(--steel-ink); }
+.note { font-size: .88rem; color: var(--steel-ink); }
+.warn { border-left: 4px solid var(--flame); padding: 8px 12px; background: var(--paper); margin: 0 0 12px; }
+.verify { font-size: .8rem; color: var(--ink); border-left: 3px solid var(--flame); padding-left: 6px; }
+.placeholder-tag {
+  font-size: .65rem; letter-spacing: .12em; text-transform: uppercase; color: var(--flame-ink);
+  border: 1px solid var(--flame); padding: 1px 6px; margin-left: 6px; vertical-align: middle;
+}
+
+table { width: 100%; border-collapse: collapse; margin: 0 0 16px; font-size: .92rem; }
+th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--mist); vertical-align: top; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+.table-wrap { overflow-x: auto; }
+.formula { font-family: "Courier New", monospace; font-size: .85rem; background: var(--paper); padding: 10px 12px; white-space: pre-wrap; word-break: break-word; }
+.controls-list li { margin-bottom: 4px; }
+.chart svg { width: 100%; height: auto; display: block; }
+
+.gate h2 { margin-top: 0; }
+.gate .errors { color: var(--flame-ink); font-size: .9rem; }
+.field.invalid input, .field.invalid select { border-color: var(--flame); box-shadow: inset 0 0 0 1px var(--flame); }
+.field .err { color: var(--flame-ink); font-size: .82rem; min-height: 0; }
+.hidden, [hidden] { display: none !important; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 16px; }
+.foot { margin-top: 32px; border-top: 1px solid var(--mist); padding-top: 16px; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+@media (max-width: 480px) {
+  .page { padding: 20px 14px 32px; }
+  h1 { font-size: 1.6rem; }
+  .card { padding: 16px; }
+  .grid { grid-template-columns: 1fr; }
+  th, td { padding: 6px 4px; }
+}
+@media print {
+  body { background: #fff; }
+  .gate, .actions, .inputs { display: none !important; }
+}
+/* @inline:end ../_shared/brand.css */
+.stats { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); margin: 12px 0 0; }
+.stats div { border-top: 1px solid var(--mist); padding-top: 8px; }
+.stats strong { display: block; font-family: var(--serif); font-weight: normal; font-size: 1.5rem; }
+td.total { font-weight: 600; }
+</style>
+</head>
+<body>
+<script>if (/[?&]embed=1(&|$)/.test(location.search)) document.body.classList.add('embed');</script>
+<main class="page">
+  <header class="masthead">
+    <span class="eyebrow">Patio ROI calculator</span>
+    <h1>How fast would heated patio seats pay back?</h1>
+    <p class="lede">Seats you could not sell on a cold night are capacity, not décor. Enter your own numbers to see the revenue heated seats could add, the margin after running cost, and payback in months.</p>
+  </header>
+
+  <form id="inputs" class="card inputs" novalidate aria-labelledby="inputs-h">
+    <h2 id="inputs-h" style="margin-top:0">Your covers</h2>
+    <p class="note"><span class="placeholder-tag" style="margin-left:0">Example</span> The figures filled in are an illustrative worked example, not benchmarks. Replace them with your POS and P&amp;L.</p>
+    <div class="grid" id="revenue-fields"></div>
+    <h2>Running cost</h2>
+    <p class="note">Energy for the heated hours on those extra nights. Electric example: <span id="model"></span>.</p>
+    <div class="grid" id="running-fields"></div>
+    <h2>Investment</h2>
+    <div class="grid" id="investment-fields"></div>
+  </form>
+
+  <section id="teaser" class="card teaser" aria-live="polite" aria-atomic="true"></section>
+
+  <section id="gate" class="card gate" aria-labelledby="gate-h">
+    <h2 id="gate-h">Get the full ROI report</h2>
+    <p>Added revenue, margin and running cost line by line, a low, mid and high capture case to show whoever signs, the controls bundle and every assumption with its source.</p>
+    <div id="lead"></div>
+  </section>
+
+  <section id="report" class="card hidden" tabindex="-1" aria-labelledby="report-h"></section>
+
+  <footer class="foot note" id="foot"></footer>
+</main>
+
+<script type="module">
+/* @inline:begin config.json */
+const CONFIG = {
+  "_readme": "Every assumption the A21 patio revenue ROI calculator uses. An assumption is any object with a `value`: it carries unit, source, verified and owner, and a [[VERIFY]] note while verified is false. Revenue defaults are the COM-IN-01 worked example's illustrative inputs, NOT benchmarks: every one waits on [[VERIFY: benchmarks — Blake Petty]]. Payback is on contribution (gross) margin after running cost, the article's basis: 30% margin less $1,140 of electricity gives the article's 15.5 months. Edit this file, then run `node tools/build-config.mjs`.",
+  "tool": {
+    "asset_id": "A21",
+    "matrix_cell": "COM-IN",
+    "title": "Patio heating payback",
+    "version": "0.1.0-draft"
+  },
+  "cta": {
+    "label": "Get the permit and fire-code checklist",
+    "asset": "A22",
+    "href": {
+      "value": "#A22-permit-checklist",
+      "unit": "url",
+      "source": "Next-stage asset per data/journey-matrix.json (COM-IN → COM-PP, A22 permit & fire-code checklist). Placeholder anchor until the A22 page has a URL",
+      "verified": false,
+      "verify": "[[VERIFY: live URL of the A22 permit and fire-code checklist — 454 Creative]]",
+      "owner": "454 Creative"
+    }
+  },
+  "revenue": {
+    "heated_seats": {
+      "value": 40,
+      "unit": "seats inside heated coverage",
+      "source": "COM-IN-01 worked example (illustrative input, not a benchmark)",
+      "verified": false,
+      "verify": "[[VERIFY: benchmarks — Blake Petty]]",
+      "owner": "Blake Petty"
+    },
+    "average_check": {
+      "value": 45,
+      "unit": "$ revenue per guest",
+      "source": "COM-IN-01 worked example (illustrative input, not a benchmark)",
+      "verified": false,
+      "verify": "[[VERIFY: benchmarks — Blake Petty]]",
+      "owner": "Blake Petty"
+    },
+    "turns_per_night": {
+      "value": 1.5,
+      "unit": "seatings per seat per evening",
+      "source": "COM-IN-01 worked example (illustrative input, not a benchmark)",
+      "verified": false,
+      "verify": "[[VERIFY: benchmarks — Blake Petty]]",
+      "owner": "Blake Petty"
+    },
+    "extra_nights": {
+      "value": 60,
+      "unit": "nights a year the patio opens that it would not unheated",
+      "source": "COM-IN-01 worked example (illustrative input, not a benchmark)",
+      "verified": false,
+      "verify": "[[VERIFY: benchmarks — Blake Petty]]",
+      "owner": "Blake Petty"
+    },
+    "capture_pct": {
+      "value": 50,
+      "unit": "% of heated seats filled on those nights",
+      "source": "COM-IN-01 worked example (illustrative input, not a benchmark); the article advises starting low",
+      "verified": false,
+      "verify": "[[VERIFY: benchmarks — Blake Petty]]",
+      "owner": "Blake Petty"
+    },
+    "margin_pct": {
+      "value": 30,
+      "unit": "% contribution (gross) margin: revenue left after food, drink and variable labour",
+      "source": "COM-IN-01 worked example (illustrative input, not a benchmark). This is the basis that gives the article's 15.5-month payback",
+      "verified": false,
+      "verify": "[[VERIFY: benchmarks — Blake Petty]]",
+      "owner": "Blake Petty"
+    }
+  },
+  "running": {
+    "model": "Platinum Smart-Heat Electric 4500W",
+    "controls": "Affinity Smart-Heat Dimmer or On/Off controller and a wall switch per zone; Bromic Smart-Heat app (zones, schedules, timers)",
+    "heaters": {
+      "value": 6,
+      "unit": "heaters",
+      "source": "COM-IN-01 worked example (illustrative input)",
+      "verified": false,
+      "verify": "[[VERIFY: benchmarks — Blake Petty]]",
+      "owner": "Blake Petty"
+    },
+    "kw_per_heater": {
+      "value": 4.5,
+      "unit": "kW per heater",
+      "source": "Lookbook 2026 p.21 (Platinum Smart-Heat Electric 4500W); data/product-facts.json",
+      "verified": false,
+      "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
+      "owner": "Mike Clifford"
+    },
+    "hours_per_night": {
+      "value": 5,
+      "unit": "heated hours per extra night",
+      "source": "COM-IN-01 worked example (illustrative input)",
+      "verified": false,
+      "verify": "[[VERIFY: benchmarks — Blake Petty]]",
+      "owner": "Blake Petty"
+    },
+    "price_kwh": {
+      "value": 0.1407,
+      "unit": "$/kWh",
+      "source": "EIA Monthly Energy Review: US commercial average retail electricity price, Jan–May 2026, 14.07¢/kWh (COM-IN-01 source s2). https://www.eia.gov/totalenergy/data/monthly/",
+      "verified": false,
+      "verify": "[[VERIFY: 2026 commercial $/kWh; A20 uses 13.54¢ (May 2026) — align the two — Brian Kim/Finance]]",
+      "owner": "Brian Kim"
+    }
+  },
+  "investment": {
+    "installed_cost": {
+      "value": 30000,
+      "unit": "$ installed: heaters, Affinity controls, wiring, permits",
+      "source": "PLACEHOLDER from the COM-IN-01 worked example, not a Bromic price or quote",
+      "verified": false,
+      "verify": "[[VERIFY: benchmarks — Blake Petty]]",
+      "owner": "Blake Petty"
+    }
+  },
+  "sensitivity": {
+    "capture_pcts": {
+      "value": [
+        25,
+        50,
+        75
+      ],
+      "unit": "% capture rates shown in the sensitivity table",
+      "source": "COM-IN-01 sensitivity table",
+      "verified": true,
+      "verify": "",
+      "owner": "Blake Petty"
+    }
+  },
+  "notes": {
+    "basis": "Payback = installed cost ÷ ((added revenue × contribution margin − running cost) ÷ 12). Margin, not revenue: food, drink and variable labour come out of every added cover.",
+    "controls": "Every heater needs its controls to run as a complete system. Wi-Fi and app features require compatible Affinity Smart-Heat controls, sold separately.",
+    "scope": "Illustrative: every default is an assumption chosen to show the method, not a benchmark or a promise. Excludes financing, tax, depreciation, demand charges and maintenance. Use your own POS and P&L figures.",
+    "code": "Code and permit requirements vary by city and change over time. Confirm with your local building and fire authority, and use a licensed electrician or gas fitter (US: NFPA 70 for electric, NFPA 54 for gas).",
+    "code_source_url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
+  }
+};
+/* @inline:end config.json */
+
+/* @inline:begin logic.js */
+const Logic = (() => {
+// A21 "Patio heating payback" — pure ROI logic. No DOM, no I/O: every default comes from `cfg` (config.json).
+// Tested by test.mjs; inlined into index.html by tools/build-config.mjs.
+//
+// The COM-IN-01 method:
+//   added revenue  = heated seats × turns × average check × extra nights × capture rate
+//   added margin   = added revenue × contribution (gross) margin
+//   running cost   = heaters × kW × hours a night × extra nights × $/kWh
+//   net annual gain = added margin − running cost
+//   payback months = installed cost ÷ (net annual gain ÷ 12)
+
+const val = (a) => (a && typeof a === 'object' && 'value' in a ? a.value : a);
+
+const FIELDS = {
+  heated_seats: ['revenue', 1, 5000, 'Enter seats from 1 to 5,000.'],
+  average_check: ['revenue', 0.01, 10000, 'Enter an average check above $0.'],
+  turns_per_night: ['revenue', 0.1, 20, 'Enter turns from 0.1 to 20.'],
+  extra_nights: ['revenue', 1, 366, 'Enter nights from 1 to 366.'],
+  capture_pct: ['revenue', 1, 100, 'Enter a capture rate from 1% to 100%.'],
+  margin_pct: ['revenue', 1, 100, 'Enter a margin from 1% to 100%.'],
+  heaters: ['running', 0, 500, 'Enter heaters from 0 to 500.'],
+  kw_per_heater: ['running', 0, 50, 'Enter kW from 0 to 50.'],
+  hours_per_night: ['running', 0, 24, 'Enter hours from 0 to 24.'],
+  price_kwh: ['running', 0, 5, 'Enter a price from $0 to $5 per kWh.'],
+  installed_cost: ['investment', 1, 1e7, 'Enter an installed cost above $0.'],
+};
+
+function defaults(cfg) {
+  const d = {};
+  for (const [k, [group]] of Object.entries(FIELDS)) d[k] = val(cfg[group][k]);
+  return d;
+}
+
+const toNum = (x) => (x === '' || x == null ? NaN : Number(String(x).replace(/[,$%\s]/g, '')));
+
+function normalise(raw, cfg) {
+  const r = { ...defaults(cfg), ...raw };
+  const input = {}, errors = {};
+  for (const [k, [, min, max, msg]] of Object.entries(FIELDS)) {
+    const n = toNum(r[k]);
+    if (!Number.isFinite(n) || n < min || n > max) errors[k] = msg;
+    input[k] = n;
+  }
+  return { input, errors };
+}
+
+const addedRevenue = (i) => i.heated_seats * i.turns_per_night * i.average_check * i.extra_nights * (i.capture_pct / 100);
+const runningCost = (i) => i.heaters * i.kw_per_heater * i.hours_per_night * i.extra_nights * i.price_kwh;
+const kwhPerYear = (i) => i.heaters * i.kw_per_heater * i.hours_per_night * i.extra_nights;
+
+// Months to pay back `cost` from an annual gain; null when the gain never pays it back.
+function paybackMonths(cost, annualGain) {
+  return annualGain > 0 ? cost / (annualGain / 12) : null;
+}
+
+function evaluate(i) {
+  const revenue = addedRevenue(i);
+  const margin = revenue * i.margin_pct / 100;
+  const running = runningCost(i);
+  const net = margin - running;
+  return {
+    revenue, margin, running, kwh: kwhPerYear(i), net, monthly: net / 12,
+    payback_months: paybackMonths(i.installed_cost, net),
+    // The two other bases, shown so the reader can see why margin after running cost is used.
+    payback_on_margin_only: paybackMonths(i.installed_cost, margin),
+    payback_on_revenue: paybackMonths(i.installed_cost, revenue),
+    covers: i.heated_seats * i.turns_per_night * i.extra_nights * (i.capture_pct / 100),
+  };
+}
+
+function roi(rawInput, cfg) {
+  const { input, errors } = normalise(rawInput, cfg);
+  if (Object.keys(errors).length) return { ok: false, errors, input };
+  const result = evaluate(input);
+  const sensitivity = val(cfg.sensitivity.capture_pcts).map((pct) => ({ capture_pct: pct, ...evaluate({ ...input, capture_pct: pct }) }));
+  // The capture rate at which the heaters pay back within a year (null if not reachable at 100%).
+  const perPct = (evaluate({ ...input, capture_pct: 1 }).margin);
+  const capture_for_12_months = perPct > 0 ? (input.installed_cost + result.running) / perPct : null;
+  return {
+    ok: true, input, ...result, sensitivity,
+    capture_for_12_months: capture_for_12_months != null && capture_for_12_months <= 100 ? capture_for_12_months : null,
+    controls: cfg.running.controls, model: cfg.running.model,
+  };
+}
+
+return { FIELDS, defaults, normalise, addedRevenue, runningCost, kwhPerYear, paybackMonths, evaluate, roi };
+})();
+/* @inline:end logic.js */
+
+/* @inline:begin ../_shared/lead.js */
+const Lead = (() => {
+// Shared lead gate for the Bromic tools (HANDOVER §9; spec in forms/hubspot-form-spec.md).
+// Inlined into each tool's index.html by tools/build-config.mjs. The pure functions at the top are
+// tested by tools/_shared/test.mjs; mountLeadGate() is the only part that touches the DOM.
+
+const ROLES = [
+  { value: 'homeowner', label: 'Homeowner', professional: false },
+  { value: 'architect_designer', label: 'Architect / designer', professional: true },
+  { value: 'builder_installer', label: 'Builder / installer', professional: true },
+  { value: 'commercial_operator', label: 'Commercial operator', professional: true },
+  { value: 'dealer', label: 'Dealer', professional: true },
+];
+const TIMINGS = [
+  { value: '0_3_months', label: '0–3 months' },
+  { value: '3_6_months', label: '3–6 months' },
+  { value: '6_12_months', label: '6–12 months' },
+  { value: 'researching', label: 'Researching' },
+];
+const SIZE_UNITS = [
+  { value: 'homes', label: 'No. of homes' },
+  { value: 'seats', label: 'Seats' },
+  { value: 'ft2', label: 'ft²' },
+];
+const UTM_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'];
+const MATRIX_CELL = /^(RES|ARC|BLD|COM)-(AW|CO|IN|PP|BY)$/;
+
+function isProfessional(role) {
+  const r = ROLES.find((x) => x.value === role);
+  return !!(r && r.professional);
+}
+
+// UTM values and an optional matrix_cell override, read from the page URL's query string.
+function readTracking(search, defaultCell) {
+  const q = new URLSearchParams(search || '');
+  const out = {};
+  for (const k of UTM_KEYS) out[k] = (q.get(k) || '').slice(0, 200);
+  const cell = (q.get('matrix_cell') || '').toUpperCase();
+  out.matrix_cell = MATRIX_CELL.test(cell) ? cell : defaultCell;
+  return out;
+}
+
+const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+const POSTAL = /^[A-Za-z0-9][A-Za-z0-9 \-]{1,9}$/; // US ZIP, CA, UK, AU, EU postcodes
+
+// Returns {field: message} for every invalid field; {} when the form can be sent.
+function validateLead(v) {
+  const e = {};
+  if (!String(v.firstname || '').trim()) e.firstname = 'Enter your first name.';
+  if (!String(v.lastname || '').trim()) e.lastname = 'Enter your last name.';
+  if (!EMAIL.test(String(v.email || '').trim())) e.email = 'Enter a valid email address.';
+  if (!ROLES.some((r) => r.value === v.i_am_a)) e.i_am_a = 'Choose the option that describes you.';
+  if (!POSTAL.test(String(v.zip || '').trim())) e.zip = 'Enter a ZIP or postal code.';
+  if (!TIMINGS.some((t) => t.value === v.project_timing)) e.project_timing = 'Choose your project timing.';
+  if (isProfessional(v.i_am_a) && !String(v.company || '').trim()) e.company = 'Enter your company.';
+  if (v.project_size_value !== '' && v.project_size_value != null) {
+    const n = Number(v.project_size_value);
+    if (!Number.isFinite(n) || n <= 0) e.project_size_value = 'Enter a number, or leave it blank.';
+  }
+  return e;
+}
+
+// The object HubSpot would receive. Field names are the internal names in forms/hubspot-form-spec.md.
+function buildPayload(values, hidden) {
+  const pro = isProfessional(values.i_am_a);
+  return {
+    firstname: String(values.firstname || '').trim(),
+    lastname: String(values.lastname || '').trim(),
+    email: String(values.email || '').trim().toLowerCase(),
+    i_am_a: values.i_am_a,
+    zip: String(values.zip || '').trim().toUpperCase(),
+    project_timing: values.project_timing,
+    company: pro ? String(values.company || '').trim() : '',
+    project_size_value: values.project_size_value === '' || values.project_size_value == null ? '' : Number(values.project_size_value),
+    project_size_unit: values.project_size_value === '' || values.project_size_value == null ? '' : values.project_size_unit,
+    asset_id: hidden.asset_id,
+    matrix_cell: hidden.matrix_cell,
+    utm_source: hidden.utm_source || '',
+    utm_medium: hidden.utm_medium || '',
+    utm_campaign: hidden.utm_campaign || '',
+    utm_term: hidden.utm_term || '',
+    utm_content: hidden.utm_content || '',
+    tool_inputs: JSON.stringify(hidden.tool_inputs || {}),
+  };
+}
+
+// ---- DOM ---------------------------------------------------------------------------------------
+
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+function formHtml(id, defaultSizeUnit) {
+  const opt = (list, sel) => list.map((o) => `<option value="${o.value}"${o.value === sel ? ' selected' : ''}>${esc(o.label)}</option>`).join('');
+  const f = (name, label, input, extra = '') => `
+    <div class="field" data-field="${name}"${extra}>
+      <label class="k" for="${id}-${name}">${label}</label>${input}
+      <span class="err" id="${id}-${name}-err" aria-live="polite"></span>
+    </div>`;
+  const txt = (name, type, auto, req = true) =>
+    `<input id="${id}-${name}" name="${name}" type="${type}" autocomplete="${auto}"${req ? ' required aria-required="true"' : ''} aria-describedby="${id}-${name}-err">`;
+  return `
+  <form class="lead-form" novalidate>
+    <div class="grid">
+      ${f('firstname', 'First name', txt('firstname', 'text', 'given-name'))}
+      ${f('lastname', 'Last name', txt('lastname', 'text', 'family-name'))}
+      ${f('email', 'Email', txt('email', 'email', 'email'))}
+      ${f('i_am_a', 'I am a…', `<select id="${id}-i_am_a" name="i_am_a" required aria-required="true" aria-describedby="${id}-i_am_a-err"><option value="">Choose one</option>${opt(ROLES)}</select>`)}
+      ${f('company', 'Company', txt('company', 'text', 'organization'), ' hidden')}
+      ${f('zip', 'ZIP / postal code', txt('zip', 'text', 'postal-code'))}
+      ${f('project_timing', 'Project timing', `<select id="${id}-project_timing" name="project_timing" required aria-required="true" aria-describedby="${id}-project_timing-err"><option value="">Choose one</option>${opt(TIMINGS)}</select>`)}
+      <div class="field" data-field="project_size_value">
+        <label class="k" for="${id}-project_size_value">Project size (optional)</label>
+        <div style="display:flex;gap:8px">
+          <input id="${id}-project_size_value" name="project_size_value" type="number" min="0" step="1" inputmode="numeric" aria-describedby="${id}-project_size_value-err">
+          <select name="project_size_unit" aria-label="Project size unit">${opt(SIZE_UNITS, defaultSizeUnit)}</select>
+        </div>
+        <span class="err" id="${id}-project_size_value-err" aria-live="polite"></span>
+      </div>
+    </div>
+    <!-- Hidden fields (HANDOVER §9). Filled at submit time. -->
+    <input type="hidden" name="asset_id"><input type="hidden" name="matrix_cell">
+    <input type="hidden" name="utm_source"><input type="hidden" name="utm_medium"><input type="hidden" name="utm_campaign">
+    <input type="hidden" name="utm_term"><input type="hidden" name="utm_content"><input type="hidden" name="tool_inputs">
+    <p class="errors" role="alert"></p>
+    <div class="actions">
+      <button class="btn primary" type="submit">See the full report</button>
+      <span class="note">We use these details to send your report and, if you ask, to follow up. No spam.
+      [[VERIFY: privacy line and policy link — Brian Kim]]</span>
+    </div>
+  </form>`;
+}
+
+// el: container; getInputs(): the tool's current inputs (becomes tool_inputs); onUnlock(payload): show the report.
+function mountLeadGate({ el, assetId, matrixCell, getInputs, onUnlock, defaultSizeUnit = 'ft2' }) {
+  const id = `lead-${assetId}`;
+  el.innerHTML = formHtml(id, defaultSizeUnit);
+  const form = el.querySelector('form');
+  const tracking = readTracking(location.search, matrixCell);
+  const companyField = form.querySelector('[data-field="company"]');
+  const role = form.elements.i_am_a;
+  const syncCompany = () => {
+    const show = isProfessional(role.value);
+    companyField.hidden = !show;
+    form.elements.company.required = show;
+  };
+  role.addEventListener('change', syncCompany);
+  syncCompany();
+
+  form.addEventListener('submit', (ev) => {
+    ev.preventDefault();
+    const values = Object.fromEntries(new FormData(form).entries());
+    const errors = validateLead(values);
+    form.querySelectorAll('.field').forEach((f) => {
+      const name = f.dataset.field;
+      f.classList.toggle('invalid', !!errors[name]);
+      const msg = f.querySelector('.err');
+      if (msg) msg.textContent = errors[name] || '';
+      const input = f.querySelector('input,select');
+      if (input) input.setAttribute('aria-invalid', errors[name] ? 'true' : 'false');
+    });
+    const first = Object.keys(errors)[0];
+    form.querySelector('.errors').textContent = first ? 'Please check the highlighted fields.' : '';
+    if (first) { form.elements[first].focus(); return; }
+
+    const hidden = { asset_id: assetId, ...tracking, tool_inputs: getInputs() };
+    for (const k of ['asset_id', 'matrix_cell', ...UTM_KEYS]) form.elements[k].value = hidden[k] || '';
+    form.elements.tool_inputs.value = JSON.stringify(hidden.tool_inputs);
+    const payload = buildPayload(values, hidden);
+
+    // HubSpot form embed replaces this: the embed posts the payload to HubSpot and fires onFormSubmitted,
+    // which then calls onUnlock(). Until then nothing leaves the page; the payload is only logged.
+    console.log('[Bromic lead payload]', payload);
+    onUnlock(payload);
+  });
+}
+
+return { ROLES, TIMINGS, SIZE_UNITS, UTM_KEYS, MATRIX_CELL, isProfessional, readTracking, validateLead, buildPayload, mountLeadGate };
+})();
+/* @inline:end ../_shared/lead.js */
+
+// ---- Page ------------------------------------------------------------------------------------------
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const v = (a) => (a && typeof a === 'object' && 'value' in a ? a.value : a);
+const usd = (n) => '$' + Math.round(n).toLocaleString('en-US');
+const num = (n, d = 0) => n.toLocaleString('en-US', { maximumFractionDigits: d });
+const months = (m) => (m == null ? 'Does not pay back' : `${num(m, 1)} months`);
+const form = $('#inputs');
+let unlocked = false;
+
+const LABELS = {
+  heated_seats: ['Heated seats', 'Seats inside heated coverage.', 1, 'numeric'],
+  average_check: ['Average check ($)', 'Revenue per guest.', 0.5, 'decimal'],
+  turns_per_night: ['Turns per night', 'Seatings per seat per evening.', 0.1, 'decimal'],
+  extra_nights: ['Extra nights a year', 'Nights the patio opens that it would not unheated.', 1, 'numeric'],
+  capture_pct: ['Capture rate (%)', 'Share of heated seats you fill on those nights. Start low.', 1, 'decimal'],
+  margin_pct: ['Contribution margin (%)', 'Gross margin after food, drink and variable labour.', 1, 'decimal'],
+  heaters: ['Heaters', '', 1, 'numeric'],
+  kw_per_heater: ['kW per heater', '', 0.1, 'decimal'],
+  hours_per_night: ['Heated hours a night', '', 0.5, 'decimal'],
+  price_kwh: ['Electricity ($/kWh)', 'US commercial average, EIA. Your bill is better.', 0.001, 'decimal'],
+  installed_cost: ['Installed cost ($)', 'Heaters, Affinity controls, wiring or gas, permits and labour: a full quote.', 500, 'numeric'],
+};
+
+function fields() {
+  const html = (group) => Object.entries(Logic.FIELDS).filter(([, f]) => f[0] === group).map(([k]) => {
+    const [label, hint, step, mode] = LABELS[k];
+    const a = CONFIG[group][k];
+    const tag = /PLACEHOLDER/.test(a.source) ? ' <span class="placeholder-tag">Placeholder</span>' : '';
+    return `<div class="field" data-field="${k}">
+      <label class="k" for="${k}">${label}</label>
+      <input id="${k}" name="${k}" type="number" inputmode="${mode}" min="0" step="${step}" aria-describedby="${k}-hint ${k}-err">
+      <span class="hint" id="${k}-hint">${esc(hint)}${tag}</span>
+      <span class="err" id="${k}-err"></span>
+    </div>`;
+  }).join('');
+  $('#revenue-fields').innerHTML = html('revenue');
+  $('#running-fields').innerHTML = html('running');
+  $('#investment-fields').innerHTML = html('investment');
+}
+
+function init() {
+  fields();
+  const d = Logic.defaults(CONFIG);
+  for (const [k, val] of Object.entries(d)) form.elements[k].value = val;
+  $('#model').textContent = `${CONFIG.running.model}, with ${CONFIG.running.controls}`;
+  $('#foot').innerHTML = `${esc(CONFIG.notes.scope)} ${esc(CONFIG.notes.code)}
+    <a href="${esc(CONFIG.notes.code_source_url)}" target="_blank" rel="noopener">NFPA 70</a>.
+    Draft ${esc(CONFIG.tool.version)}: figures marked for verification are being confirmed by Bromic.`;
+  form.addEventListener('input', update);
+  Lead.mountLeadGate({
+    el: $('#lead'), assetId: CONFIG.tool.asset_id, matrixCell: CONFIG.tool.matrix_cell,
+    getInputs: () => readInputs(), defaultSizeUnit: 'seats',
+    onUnlock: () => { unlocked = true; $('#gate').classList.add('hidden'); update(); $('#report').focus(); },
+  });
+  update();
+}
+
+function readInputs() {
+  return Object.fromEntries(Object.keys(Logic.FIELDS).map((k) => [k, form.elements[k].value]));
+}
+
+function showErrors(errors) {
+  form.querySelectorAll('.field[data-field]').forEach((el) => {
+    const k = el.dataset.field, err = el.querySelector('.err');
+    el.classList.toggle('invalid', !!errors[k]);
+    if (err) err.textContent = errors[k] || '';
+    el.querySelector('input').setAttribute('aria-invalid', errors[k] ? 'true' : 'false');
+  });
+}
+
+function update() {
+  const r = Logic.roi(readInputs(), CONFIG);
+  showErrors(r.ok ? {} : r.errors);
+  if (!r.ok) { $('#teaser').innerHTML = '<p class="sub">Check the highlighted fields to see your payback.</p>'; return; }
+  renderTeaser(r);
+  if (unlocked) renderReport(r);
+}
+
+const FORMULA = `Added revenue   = seats × turns × average check × extra nights × capture rate
+Added margin    = added revenue × contribution margin
+Running cost    = heaters × kW × hours a night × extra nights × $/kWh
+Net annual gain = added margin − running cost
+Payback         = installed cost ÷ (net annual gain ÷ 12)`;
+
+function renderTeaser(r) {
+  $('#teaser').innerHTML = `
+    <span class="label">Your payback</span>
+    <p class="headline">${r.payback_months == null ? 'Not on these numbers' : `${num(r.payback_months, 1)} months`}</p>
+    <p class="sub">${r.payback_months == null ? 'Running cost is larger than the added margin. Try more nights, a higher capture rate or zoned heating.' : `On a ${usd(r.input.installed_cost)} installation, from ${usd(r.net)} a year of margin after running cost.`}</p>
+    <div class="stats">
+      <div><span class="label">Added revenue a year</span><strong>${usd(r.revenue)}</strong></div>
+      <div><span class="label">Added margin a year</span><strong>${usd(r.margin)}</strong></div>
+      <div><span class="label">Running cost a year</span><strong>${usd(r.running)}</strong></div>
+    </div>
+    <h3>How it is worked out</h3>
+    <p class="formula">${esc(FORMULA)}</p>
+    <p class="note">Payback uses contribution margin after running cost, never revenue: food, drink and variable labour come out of every added cover. The heaters run with ${esc(CONFIG.running.controls)}. ${esc(CONFIG.notes.controls.split('. ').slice(1).join('. '))}</p>`;
+}
+
+function renderReport(r) {
+  const el = $('#report');
+  el.classList.remove('hidden');
+  const i = r.input;
+  const groups = ['revenue', 'running', 'investment'];
+  const assumptions = groups.flatMap((g) => Object.keys(Logic.FIELDS).filter((k) => Logic.FIELDS[k][0] === g).map((k) => [LABELS[k][0], CONFIG[g][k]]));
+  el.innerHTML = `
+    <h2 id="report-h">Your patio heating ROI report</h2>
+    <p>${num(i.heated_seats)} heated seats, ${num(i.turns_per_night, 2)} turns a night, ${usd(i.average_check)} average check, ${num(i.extra_nights)} extra nights a year at ${num(i.capture_pct, 1)}% capture; ${num(i.margin_pct, 1)}% contribution margin; ${usd(i.installed_cost)} installed.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Line</th><th>Working</th><th class="num">A year</th></tr></thead>
+      <tbody>
+        <tr><td>Added covers</td><td class="note">${num(i.heated_seats)} × ${num(i.turns_per_night, 2)} × ${num(i.extra_nights)} × ${num(i.capture_pct, 1)}%</td><td class="num">${num(r.covers)}</td></tr>
+        <tr><td>Added revenue</td><td class="note">covers × ${usd(i.average_check)}</td><td class="num">${usd(r.revenue)}</td></tr>
+        <tr><td>Added margin</td><td class="note">revenue × ${num(i.margin_pct, 1)}%</td><td class="num">${usd(r.margin)}</td></tr>
+        <tr><td>Running cost</td><td class="note">${num(i.heaters)} × ${num(i.kw_per_heater, 2)} kW × ${num(i.hours_per_night, 1)} h × ${num(i.extra_nights)} nights = ${num(r.kwh)} kWh × $${num(i.price_kwh, 4)}</td><td class="num">${usd(r.running)}</td></tr>
+        <tr><td>Net annual gain</td><td class="note">margin − running cost (${usd(r.monthly)} a month)</td><td class="num total">${usd(r.net)}</td></tr>
+        <tr><td>Payback</td><td class="note">${usd(i.installed_cost)} ÷ ${usd(r.monthly)}</td><td class="num total">${months(r.payback_months)}</td></tr>
+      </tbody></table></div>
+
+    <h3>Show the low case</h3>
+    <p>The same inputs, changing only the capture rate. A case that still pays back at the low end is a case that gets approved.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Capture rate</th><th class="num">Added revenue</th><th class="num">Net annual gain</th><th class="num">Payback</th></tr></thead>
+      <tbody>${r.sensitivity.map((s) => `<tr><td>${s.capture_pct}%</td><td class="num">${usd(s.revenue)}</td><td class="num">${usd(s.net)}</td><td class="num">${months(s.payback_months)}</td></tr>`).join('')}</tbody>
+    </table></div>
+    ${r.capture_for_12_months != null ? `<p class="note">To pay back within 12 months on these inputs you would need a capture rate of about ${num(r.capture_for_12_months, 0)}%.</p>` : ''}
+
+    <h3>Why margin after running cost</h3>
+    <p class="note">On these inputs, payback on revenue alone would read ${months(r.payback_on_revenue)} and on margin before energy ${months(r.payback_on_margin_only)}. Both overstate the return. The figure above, ${months(r.payback_months)}, is the one to sign.</p>
+
+    <h3>Controls for a complete working system</h3>
+    <ul class="controls-list"><li>${num(i.heaters)} × ${esc(CONFIG.running.model)}</li><li>${esc(CONFIG.running.controls)}</li></ul>
+    <p class="note">${esc(CONFIG.notes.controls)} Zoning by section and scheduling to the book keep running cost tied to covers. Put controls, circuits, mounting and permits in the installed cost: quote all-in.</p>
+
+    <h3>Assumptions and sources</h3>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Assumption</th><th class="num">Default</th><th>Source</th><th>Status</th></tr></thead>
+      <tbody>${assumptions.map(([label, a]) => `<tr><td>${esc(label)}</td><td class="num">${esc(num(v(a), 4))} <span class="note">${esc(a.unit)}</span></td><td class="note">${esc(a.source)}</td><td>${a.verified ? 'Verified' : `<span class="verify">${esc(a.verify)}</span>`}</td></tr>`).join('')}</tbody>
+    </table></div>
+    <p class="note">${esc(CONFIG.notes.scope)}</p>
+    <p class="note">${esc(CONFIG.notes.code)}</p>
+    <div class="actions"><a class="btn primary" href="${esc(v(CONFIG.cta.href))}" target="_top" rel="noopener">${esc(CONFIG.cta.label)}</a>
+      <button class="btn ghost" type="button" onclick="window.print()">Print or save as PDF</button></div>
+    <p class="note">Next: the permits, fire code and landlord sign-off that decide whether the heaters earn this season.</p>`;
+}
+
+init();
+</script>
+</body>
+</html>

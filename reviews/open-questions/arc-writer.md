@@ -1,4 +1,4 @@
-# Open questions — arc-writer (ARC articles + KB), 29 Oct 2026
+# Open questions — arc-writer (ARC articles + KB), 29 Oct 2026, checked against every VERIFY flag in the ARC articles and KB
 
 | item id | question | suggested owner |
 |---|---|---|

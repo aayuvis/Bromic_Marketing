@@ -45,6 +45,26 @@ really are and as they are really installed, or show no heater at all; every one
 enters the library, labelled `generated`. Of the six first-run images, five were owner-approved and added (`g-` ids); the restaurant scene was rejected. **Drop raw Bromic images into `images/inbox/`** and run
 `python3 scripts/ingest_images.py` to add them to the library.
 
+## bromic.com (read 29 Oct 2026)
+
+`www.bromic.com` pages sit behind a Cloudflare challenge: plain HTTP gets 403. They were read with a fetch tool, summarised in our
+words, into `data/site-inventory.json` (`python3 scripts/merge_site_inventory.py <dir>`): 73 blog posts, 32 product pages, 38 case
+studies (US + AU), 48 pages and landing pages, 205 gallery photos. **Never try to get around the challenge** (no spoofed user
+agents, headless browsers or caches). Image files under `wp-content/uploads` download directly. **www.bromic.com.au blocks even
+the fetch tool**: Australian items are read through their US copies where they exist, otherwise marked "search listing only".
+Figures in the inventory are leads to check on the live page, never sources. Product-page specs and list prices live in
+`data/product-facts.json` under `site` per product, `verified: false` until Mike Clifford signs off.
+
+Images: `python3 scripts/bromic_site_images.py fetch | sheets | ingest` → `images/_raw/bromic-com/` (gitignored) → contact sheets
+→ the library as `w-` ids with `source_url` and `page_url`. Every image is looked at before ingest; rights stay `[[VERIFY]]`.
+
+## Publish the Hub
+
+`cd app && ./deploy.sh` builds and force-replaces the `gh-pages` branch → <https://aayuvis.github.io/Bromic_Marketing/#/home>.
+The repo is private; **the Pages site is public to anyone with the link** (the owner chose this, 29 Oct 2026), so the page
+carries `noindex`. Commit first: the deploy is stamped with the commit it was built from. Tools are inlined by
+`node tools/build-config.mjs` (part of `npm run build` and `npm test`); a tool's README table comes from `node tools/readme-table.mjs <id>`.
+
 ## Verify
 
 ```bash

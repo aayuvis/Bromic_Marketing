@@ -1,0 +1,1104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Five-year cost of patio heating: electric, natural gas, propane | Bromic Heating</title>
+<meta name="description" content="Compare five years of owning and running electric, natural gas and propane patio heaters: purchase, install, fuel, maintenance and propane cylinder handling, with the formula shown.">
+<style>
+/* @inline:begin ../_shared/brand.css */
+/* Bromic tool styling — shared by A03, A20, A21. Inlined into each index.html by tools/build-config.mjs.
+   Flame is the only accent. Georgia headings, Helvetica/Arial body. Works from 320px up. */
+:root {
+  --paper: #F4F1EC;
+  --ink: #231F20;
+  --flame: #EF4123;
+  --flame-ink: #231F20;          /* small text stays ink: flame on paper is under 4.5:1, so flame marks borders and rules only */
+  --steel: #71777D;
+  --steel-ink: #575C61;          /* steel darkened for small text on paper */
+  --mist: #DDE0E2;
+  --white: #FFFFFF;
+  --serif: Georgia, "Times New Roman", serif;
+  --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 16px/1.5 var(--sans);
+}
+.page { max-width: 880px; margin: 0 auto; padding: 32px 20px 48px; }
+body.embed .page { max-width: none; padding: 0; }
+body.embed .masthead, body.embed .foot { display: none; }
+
+h1, h2, h3 { font-family: var(--serif); font-weight: normal; line-height: 1.2; margin: 0 0 .5em; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.4rem; margin-top: 1.2em; }
+h3 { font-size: 1.1rem; margin-top: 1em; }
+p { margin: 0 0 1em; }
+a { color: var(--ink); text-decoration-color: var(--flame); text-underline-offset: 3px; }
+
+.label, label.k, legend.k, .eyebrow, th {
+  font-family: var(--sans); font-size: .72rem; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--steel-ink); font-weight: 600;
+}
+.eyebrow { color: var(--ink); margin: 0 0 .5em; display: block; border-left: 3px solid var(--flame); padding-left: 8px; }
+.masthead { border-bottom: 1px solid var(--mist); margin-bottom: 24px; padding-bottom: 16px; }
+.masthead .lede { color: var(--steel-ink); max-width: 60ch; }
+
+.card { background: var(--white); border: 1px solid var(--mist); padding: 20px; margin: 0 0 20px; }
+.grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+.field { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.field .hint { font-size: .85rem; color: var(--steel-ink); }
+fieldset { border: 0; padding: 0; margin: 0; min-width: 0; }
+legend { padding: 0; margin-bottom: 6px; }
+input[type=text], input[type=email], input[type=number], select {
+  font: inherit; color: var(--ink); background: var(--white); width: 100%;
+  border: 1px solid var(--steel); border-radius: 0; padding: 10px 12px; min-height: 44px;
+}
+.choices { display: flex; flex-wrap: wrap; gap: 8px; }
+.choices label {
+  display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--steel);
+  background: var(--white); padding: 8px 12px; min-height: 44px; cursor: pointer;
+}
+.choices input { accent-color: var(--flame); margin: 0; }
+.choices label:has(input:checked) { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
+:focus-visible { outline: 3px solid var(--flame); outline-offset: 2px; }
+input:focus-visible, select:focus-visible { outline-offset: 0; }
+
+.btn {
+  font: 600 .8rem/1 var(--sans); letter-spacing: .12em; text-transform: uppercase; cursor: pointer;
+  border: 1px solid var(--ink); background: var(--ink); color: var(--white); padding: 14px 20px; min-height: 44px;
+}
+.btn.primary { background: var(--flame); border-color: var(--flame); color: var(--ink); }
+.btn.ghost { background: transparent; color: var(--ink); }
+.btn:hover { filter: brightness(1.08); }
+
+.teaser { border-top: 4px solid var(--flame); }
+.headline { font-family: var(--serif); font-size: clamp(2.2rem, 9vw, 3.4rem); line-height: 1; margin: .1em 0 .2em; }
+.sub { color: var(--steel-ink); }
+.note { font-size: .88rem; color: var(--steel-ink); }
+.warn { border-left: 4px solid var(--flame); padding: 8px 12px; background: var(--paper); margin: 0 0 12px; }
+.verify { font-size: .8rem; color: var(--ink); border-left: 3px solid var(--flame); padding-left: 6px; }
+.placeholder-tag {
+  font-size: .65rem; letter-spacing: .12em; text-transform: uppercase; color: var(--flame-ink);
+  border: 1px solid var(--flame); padding: 1px 6px; margin-left: 6px; vertical-align: middle;
+}
+
+table { width: 100%; border-collapse: collapse; margin: 0 0 16px; font-size: .92rem; }
+th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--mist); vertical-align: top; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+.table-wrap { overflow-x: auto; }
+.formula { font-family: "Courier New", monospace; font-size: .85rem; background: var(--paper); padding: 10px 12px; white-space: pre-wrap; word-break: break-word; }
+.controls-list li { margin-bottom: 4px; }
+.chart svg { width: 100%; height: auto; display: block; }
+
+.gate h2 { margin-top: 0; }
+.gate .errors { color: var(--flame-ink); font-size: .9rem; }
+.field.invalid input, .field.invalid select { border-color: var(--flame); box-shadow: inset 0 0 0 1px var(--flame); }
+.field .err { color: var(--flame-ink); font-size: .82rem; min-height: 0; }
+.hidden, [hidden] { display: none !important; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 16px; }
+.foot { margin-top: 32px; border-top: 1px solid var(--mist); padding-top: 16px; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+@media (max-width: 480px) {
+  .page { padding: 20px 14px 32px; }
+  h1 { font-size: 1.6rem; }
+  .card { padding: 16px; }
+  .grid { grid-template-columns: 1fr; }
+  th, td { padding: 6px 4px; }
+}
+@media print {
+  body { background: #fff; }
+  .gate, .actions, .inputs { display: none !important; }
+}
+/* @inline:end ../_shared/brand.css */
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 8px 0 0; padding: 0; list-style: none; font-size: .85rem; color: var(--steel-ink); }
+.legend li { display: inline-flex; align-items: center; gap: 6px; }
+.legend i { width: 14px; height: 14px; display: inline-block; border: 1px solid var(--steel); }
+.opt-set { border-top: 1px solid var(--mist); padding-top: 12px; margin-top: 16px; }
+.opt-set legend { font-family: var(--serif); font-size: 1.05rem; text-transform: none; letter-spacing: 0; color: var(--ink); font-weight: normal; }
+.cols-3 { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+.k-row { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px; }
+td.total { font-weight: 600; }
+</style>
+</head>
+<body>
+<script>if (/[?&]embed=1(&|$)/.test(location.search)) document.body.classList.add('embed');</script>
+<main class="page">
+  <header class="masthead">
+    <span class="eyebrow">Five-year cost model</span>
+    <h1>What will patio heating cost you over five years?</h1>
+    <p class="lede">Propane is cheap to buy and costly to run. Compare electric, natural gas and propane on everything you will pay: heaters and controls, installation, fuel, maintenance and the staff time it takes to swap cylinders.</p>
+  </header>
+
+  <form id="inputs" class="card inputs" novalidate aria-labelledby="inputs-h">
+    <h2 id="inputs-h" style="margin-top:0">Your patio</h2>
+    <fieldset class="field">
+      <legend class="k">Size the patio by</legend>
+      <div class="choices">
+        <label><input type="radio" name="basis" value="seats" checked> Heated seats</label>
+        <label><input type="radio" name="basis" value="ft2"> Area (ft²)</label>
+      </div>
+    </fieldset>
+    <div class="grid" style="margin-top:16px">
+      <div class="field" data-field="seats" id="seats-field">
+        <label class="k" for="seats">Heated seats</label>
+        <input id="seats" name="seats" type="number" inputmode="numeric" min="1" step="1" aria-describedby="seats-hint seats-err">
+        <span class="hint" id="seats-hint"></span>
+        <span class="err" id="seats-err"></span>
+      </div>
+      <div class="field" data-field="area_ft2" id="area-field" hidden>
+        <label class="k" for="area_ft2">Heated area (ft²)</label>
+        <input id="area_ft2" name="area_ft2" type="number" inputmode="decimal" min="10" step="10" aria-describedby="area_ft2-err">
+        <span class="err" id="area_ft2-err"></span>
+      </div>
+      <div class="field" data-field="hours_per_year">
+        <label class="k" for="hours_per_year">Heater hours a year</label>
+        <input id="hours_per_year" name="hours_per_year" type="number" inputmode="numeric" min="0" step="50" aria-describedby="hours_per_year-hint hours_per_year-err">
+        <span class="hint" id="hours_per_year-hint">Hours a night × nights heated. <span class="placeholder-tag">Placeholder</span></span>
+        <span class="err" id="hours_per_year-err"></span>
+      </div>
+      <div class="field" data-field="average_output_pct">
+        <label class="k" for="average_output_pct">Average output (%)</label>
+        <input id="average_output_pct" name="average_output_pct" type="number" inputmode="decimal" min="1" max="100" step="1" aria-describedby="average_output_pct-hint average_output_pct-err">
+        <span class="hint" id="average_output_pct-hint">100 = full output whenever on. Dimming with Affinity controls lowers it.</span>
+        <span class="err" id="average_output_pct-err"></span>
+      </div>
+    </div>
+
+    <h2>Fuel prices</h2>
+    <p class="note">US averages from the EIA are filled in. Your own bills are better.</p>
+    <div class="grid">
+      <div class="field" data-field="price_kwh">
+        <label class="k" for="price_kwh">Electricity ($/kWh)</label>
+        <input id="price_kwh" name="price_kwh" type="number" inputmode="decimal" min="0" step="0.001" aria-describedby="price_kwh-err">
+        <span class="err" id="price_kwh-err"></span>
+      </div>
+      <div class="field" data-field="price_therm">
+        <label class="k" for="price_therm">Natural gas ($/therm)</label>
+        <input id="price_therm" name="price_therm" type="number" inputmode="decimal" min="0" step="0.01" aria-describedby="price_therm-err">
+        <span class="err" id="price_therm-err"></span>
+      </div>
+      <div class="field" data-field="price_gal">
+        <label class="k" for="price_gal">Propane ($/gal)</label>
+        <input id="price_gal" name="price_gal" type="number" inputmode="decimal" min="0" step="0.01" aria-describedby="price_gal-err">
+        <span class="err" id="price_gal-err"></span>
+      </div>
+      <div class="field" data-field="fuel_escalation_pct">
+        <label class="k" for="fuel_escalation_pct">Yearly price change (%)</label>
+        <input id="fuel_escalation_pct" name="fuel_escalation_pct" type="number" inputmode="decimal" min="-20" max="50" step="0.5" aria-describedby="fuel_escalation_pct-err">
+        <span class="err" id="fuel_escalation_pct-err"></span>
+      </div>
+    </div>
+
+    <h2>Propane cylinder handling</h2>
+    <div class="grid">
+      <div class="field" data-field="cylinder_gal">
+        <label class="k" for="cylinder_gal">Usable gallons per cylinder</label>
+        <input id="cylinder_gal" name="cylinder_gal" type="number" inputmode="decimal" min="0.5" step="0.1" aria-describedby="cylinder_gal-err">
+        <span class="err" id="cylinder_gal-err"></span>
+      </div>
+      <div class="field" data-field="minutes_per_exchange">
+        <label class="k" for="minutes_per_exchange">Staff minutes per swap</label>
+        <input id="minutes_per_exchange" name="minutes_per_exchange" type="number" inputmode="numeric" min="0" step="1" aria-describedby="minutes_per_exchange-hint minutes_per_exchange-err">
+        <span class="hint" id="minutes_per_exchange-hint">Swap, leak check, storage, paperwork. <span class="placeholder-tag">Placeholder</span></span>
+        <span class="err" id="minutes_per_exchange-err"></span>
+      </div>
+      <div class="field" data-field="wage_per_hour">
+        <label class="k" for="wage_per_hour">Staff wage ($/hour)</label>
+        <input id="wage_per_hour" name="wage_per_hour" type="number" inputmode="decimal" min="0" step="0.25" aria-describedby="wage_per_hour-hint wage_per_hour-err">
+        <span class="hint" id="wage_per_hour-hint">BLS median, before payroll costs. Use your loaded rate.</span>
+        <span class="err" id="wage_per_hour-err"></span>
+      </div>
+    </div>
+
+    <h2>Heaters, purchase and install</h2>
+    <p class="note"><span class="placeholder-tag" style="margin-left:0">Placeholder</span> Purchase, install and maintenance figures below are placeholders, not Bromic prices. Replace them with your quote. Leave heaters blank to size from your patio.</p>
+    <div id="option-sets"></div>
+  </form>
+
+  <section id="teaser" class="card teaser" aria-live="polite" aria-atomic="true"></section>
+
+  <section id="gate" class="card gate" aria-labelledby="gate-h">
+    <h2 id="gate-h">Get the full five-year report</h2>
+    <p>The line-by-line cost for each fuel, year-one running costs, cylinder swaps, the controls each option needs and every assumption with its source.</p>
+    <div id="lead"></div>
+  </section>
+
+  <section id="report" class="card hidden" tabindex="-1" aria-labelledby="report-h"></section>
+
+  <footer class="foot note" id="foot"></footer>
+</main>
+
+<script type="module">
+/* @inline:begin config.json */
+const CONFIG = {
+  "_readme": "Every assumption the A20 five-year TCO model uses. An assumption is any object with a `value`: it carries unit, source, verified and owner, and a [[VERIFY]] note while verified is false. Purchase, install and maintenance figures are PLACEHOLDERS, not Bromic prices: the page labels them so. Edit this file, then run `node tools/build-config.mjs`.",
+  "tool": {
+    "asset_id": "A20",
+    "matrix_cell": "COM-CO",
+    "title": "Five-year cost of patio heating",
+    "version": "0.1.0-draft",
+    "years": {
+      "value": 5,
+      "unit": "years",
+      "source": "Asset brief A20 (HANDOVER §8)",
+      "verified": true,
+      "verify": "",
+      "owner": "Blake Petty"
+    }
+  },
+  "cta": {
+    "label": "Get your ROI assessment",
+    "asset": "A21",
+    "href": {
+      "value": "../A21-roi/index.html",
+      "unit": "url",
+      "source": "Next-stage asset per data/journey-matrix.json (COM-CO → COM-IN, A21)",
+      "verified": false,
+      "verify": "[[VERIFY: live URL of the A21 ROI calculator — 454 Creative]]",
+      "owner": "454 Creative"
+    }
+  },
+  "space": {
+    "ft2_per_seat": {
+      "value": 15,
+      "unit": "ft² of heated patio per seat",
+      "source": "Rule-of-thumb placeholder for full-service patio dining; no published source read",
+      "verified": false,
+      "verify": "[[VERIFY: patio ft² per seat to use (and source) — Blake Petty]]",
+      "owner": "Blake Petty"
+    },
+    "default_seats": {
+      "value": 40,
+      "unit": "seats",
+      "source": "Form default only",
+      "verified": false,
+      "verify": "[[VERIFY: default seat count shown in the form — Blake Petty]]",
+      "owner": "Blake Petty"
+    },
+    "default_ft2": {
+      "value": 600,
+      "unit": "ft²",
+      "source": "Form default only",
+      "verified": false,
+      "verify": "[[VERIFY: default area shown in the form — Blake Petty]]",
+      "owner": "Blake Petty"
+    }
+  },
+  "operation": {
+    "hours_per_year": {
+      "value": 900,
+      "unit": "heater hours per year",
+      "source": "Placeholder: 6 hours a night × 150 nights",
+      "verified": false,
+      "verify": "[[VERIFY: typical heated hours per year by climate — Blake Petty]]",
+      "owner": "Blake Petty"
+    },
+    "average_output_pct": {
+      "value": 100,
+      "unit": "% of rated input, averaged over operating hours",
+      "source": "Conservative default: heaters at full output whenever on. Dimmers and Eclipse 33/66/100% steps lower this",
+      "verified": false,
+      "verify": "[[VERIFY: typical average output with Affinity dimming — Mike Clifford]]",
+      "owner": "Mike Clifford"
+    },
+    "fuel_escalation_pct": {
+      "value": 0,
+      "unit": "% per year applied to fuel prices",
+      "source": "Default: flat prices; no forecast applied",
+      "verified": false,
+      "verify": "[[VERIFY: whether to apply an EIA STEO price outlook — Brian Kim/Finance]]",
+      "owner": "Brian Kim"
+    }
+  },
+  "prices": {
+    "electric_per_kwh": {
+      "value": 0.1354,
+      "unit": "$/kWh",
+      "source": "EIA Monthly Energy Review, Aug 2026, Figure 9.2: US commercial average retail electricity price, May 2026, 13.54¢/kWh (read from a search snippet; label order uncertain). https://www.eia.gov/totalenergy/data/monthly/ · cross-check EIA Electric Power Monthly Table 5.6.A https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a",
+      "verified": false,
+      "verify": "[[VERIFY: 2026 commercial $/kWh from EIA EPM Table 5.6.A, national and by state — Brian Kim/Finance]]",
+      "owner": "Brian Kim"
+    },
+    "natural_gas_per_therm": {
+      "value": 0.87,
+      "unit": "$/therm",
+      "source": "EIA Natural Gas Prices (US commercial), Jan–May 2026 average $9.03 per thousand cubic feet (9.03, 9.42, 9.72, 8.18, 8.81) ÷ 10.36 therms per Mcf. https://www.eia.gov/dnav/ng/ng_pri_sum_dcu_nus_m.htm",
+      "verified": false,
+      "verify": "[[VERIFY: 2026 commercial $/therm and the Mcf→therm heat content used — Brian Kim/Finance]]",
+      "owner": "Brian Kim"
+    },
+    "propane_per_gal": {
+      "value": 2.674,
+      "unit": "$/gal",
+      "source": "EIA Heating Oil and Propane Update, week of 30 Mar 2026: US average RESIDENTIAL propane $2.674/gal (EIA publishes no commercial series; cylinder-exchange prices run higher). https://www.eia.gov/petroleum/heatingoilpropane/",
+      "verified": false,
+      "verify": "[[VERIFY: commercial propane or cylinder-exchange $/gal operators actually pay — Brian Kim/Finance]]",
+      "owner": "Brian Kim"
+    }
+  },
+  "conversions": {
+    "btu_per_therm": {
+      "value": 100000,
+      "unit": "BTU/therm",
+      "source": "Definition of the therm; writer brief running-cost formula",
+      "verified": true,
+      "verify": "",
+      "owner": "Brian Kim"
+    },
+    "btu_per_gal_propane": {
+      "value": 91500,
+      "unit": "BTU/gal",
+      "source": "Writer brief running-cost formula (approx. heat content of propane)",
+      "verified": false,
+      "verify": "[[VERIFY: propane heat content to standardise on (91,500 vs 91,452 BTU/gal) — Brian Kim]]",
+      "owner": "Brian Kim"
+    },
+    "therms_per_mcf": {
+      "value": 10.36,
+      "unit": "therms per thousand cubic feet",
+      "source": "Approx. US average heat content of delivered natural gas, about 1,036 BTU/ft³ (EIA)",
+      "verified": false,
+      "verify": "[[VERIFY: current EIA heat content of natural gas delivered to consumers — Brian Kim]]",
+      "owner": "Brian Kim"
+    }
+  },
+  "propane_handling": {
+    "cylinder_gal": {
+      "value": 4.7,
+      "unit": "gal per cylinder exchange",
+      "source": "Derived: 20 lb cylinder ÷ about 4.24 lb per gallon. Many exchange cylinders are filled to 15 lb (about 3.5 gal)",
+      "verified": false,
+      "verify": "[[VERIFY: cylinder size used by Tungsten Freestanding Gas and the usable fill — Mike Clifford]]",
+      "owner": "Mike Clifford"
+    },
+    "minutes_per_exchange": {
+      "value": 10,
+      "unit": "staff minutes per cylinder swap",
+      "source": "Placeholder: swap, leak check, storage cage, paperwork",
+      "verified": false,
+      "verify": "[[VERIFY: staff minutes per cylinder exchange from operators — Blake Petty]]",
+      "owner": "Blake Petty"
+    },
+    "wage_per_hour": {
+      "value": 15.71,
+      "unit": "$/hour",
+      "source": "BLS OEWS May 2024 median for Dining Room and Cafeteria Attendants and Bartender Helpers (35-9011), via O*NET OnLine. https://www.onetonline.org/link/localwages/35-9011.00. Unloaded: add payroll burden if wanted",
+      "verified": true,
+      "verify": "",
+      "owner": "Blake Petty"
+    }
+  },
+  "options": [
+    {
+      "id": "electric",
+      "label": "Electric",
+      "fuel": "electric",
+      "model": "Platinum Smart-Heat Electric 4500W",
+      "controls": "Affinity Smart-Heat Dimmer or On/Off controller and a wall switch per zone; Bromic Smart-Heat app",
+      "coverage_ft2": {
+        "value": 143,
+        "unit": "ft² per heater",
+        "source": "Lookbook 2026 p.21 (top of 65–143 ft² range mapped to 4500W)",
+        "verified": false,
+        "verify": "[[VERIFY: 4500W coverage — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      },
+      "input_kw": {
+        "value": 4.5,
+        "unit": "kW per heater",
+        "source": "Lookbook 2026 p.21 (4500W)",
+        "verified": false,
+        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      },
+      "purchase_per_heater": {
+        "value": 2500,
+        "unit": "$ per heater incl. controls share",
+        "source": "PLACEHOLDER, not a Bromic price",
+        "verified": false,
+        "verify": "[[VERIFY: commercial price per heater incl. Affinity controls — Blake Petty]]",
+        "owner": "Blake Petty"
+      },
+      "install_per_heater": {
+        "value": 900,
+        "unit": "$ per heater (circuit, mounting, labour)",
+        "source": "PLACEHOLDER",
+        "verified": false,
+        "verify": "[[VERIFY: typical installed cost per electric heater — Blake Petty]]",
+        "owner": "Blake Petty"
+      },
+      "maintenance_per_heater_year": {
+        "value": 25,
+        "unit": "$ per heater per year",
+        "source": "PLACEHOLDER",
+        "verified": false,
+        "verify": "[[VERIFY: annual maintenance per electric heater — Blake Petty]]",
+        "owner": "Blake Petty"
+      }
+    },
+    {
+      "id": "natural_gas",
+      "label": "Natural gas",
+      "fuel": "natural_gas",
+      "model": "Tungsten Smart-Heat Freestanding Gas (natural gas)",
+      "controls": "[[VERIFY: control options for Tungsten Freestanding Gas — Mike Clifford]]",
+      "coverage_ft2": {
+        "value": 215,
+        "unit": "ft² per heater",
+        "source": "Lookbook 2026 p.39",
+        "verified": false,
+        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      },
+      "input_btu": {
+        "value": 38000,
+        "unit": "BTU/hr per heater",
+        "source": "Lookbook 2026 p.39 (freestanding; built-in gas BTU is not published)",
+        "verified": false,
+        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      },
+      "purchase_per_heater": {
+        "value": 3000,
+        "unit": "$ per heater",
+        "source": "PLACEHOLDER, not a Bromic price",
+        "verified": false,
+        "verify": "[[VERIFY: commercial price per gas heater — Blake Petty]]",
+        "owner": "Blake Petty"
+      },
+      "install_per_heater": {
+        "value": 1500,
+        "unit": "$ per heater (gas line, fitter)",
+        "source": "PLACEHOLDER",
+        "verified": false,
+        "verify": "[[VERIFY: typical installed cost per natural-gas heater — Blake Petty]]",
+        "owner": "Blake Petty"
+      },
+      "maintenance_per_heater_year": {
+        "value": 100,
+        "unit": "$ per heater per year",
+        "source": "PLACEHOLDER",
+        "verified": false,
+        "verify": "[[VERIFY: annual service per gas heater — Blake Petty]]",
+        "owner": "Blake Petty"
+      }
+    },
+    {
+      "id": "propane",
+      "label": "Propane",
+      "fuel": "propane",
+      "model": "Tungsten Smart-Heat Freestanding Gas (propane)",
+      "controls": "[[VERIFY: control options for Tungsten Freestanding Gas — Mike Clifford]]",
+      "coverage_ft2": {
+        "value": 215,
+        "unit": "ft² per heater",
+        "source": "Lookbook 2026 p.39",
+        "verified": false,
+        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      },
+      "input_btu": {
+        "value": 38000,
+        "unit": "BTU/hr per heater",
+        "source": "Lookbook 2026 p.39",
+        "verified": false,
+        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      },
+      "purchase_per_heater": {
+        "value": 3000,
+        "unit": "$ per heater",
+        "source": "PLACEHOLDER, not a Bromic price",
+        "verified": false,
+        "verify": "[[VERIFY: commercial price per gas heater — Blake Petty]]",
+        "owner": "Blake Petty"
+      },
+      "install_per_heater": {
+        "value": 0,
+        "unit": "$ per heater",
+        "source": "PLACEHOLDER: freestanding on cylinders, no fixed install",
+        "verified": false,
+        "verify": "[[VERIFY: set-up cost for propane freestanding heaters — Blake Petty]]",
+        "owner": "Blake Petty"
+      },
+      "maintenance_per_heater_year": {
+        "value": 100,
+        "unit": "$ per heater per year",
+        "source": "PLACEHOLDER",
+        "verified": false,
+        "verify": "[[VERIFY: annual service per propane heater — Blake Petty]]",
+        "owner": "Blake Petty"
+      }
+    }
+  ],
+  "notes": {
+    "scope": "Excludes electricity demand charges, utility connection fees, financing, tax and resale value. Prices are national averages; your utility bill is the better input.",
+    "controls": "Every option needs its controls to run as a complete system. Wi-Fi and app features require compatible Affinity Smart-Heat controls, sold separately.",
+    "code": "Confirm every installation with your local building authority and a licensed electrician or gas fitter (US: NFPA 70 for electric, NFPA 54 for gas).",
+    "code_source_url": "https://www.nfpa.org/codes-and-standards/nfpa-54-standard-development/54"
+  }
+};
+/* @inline:end config.json */
+
+/* @inline:begin logic.js */
+const Logic = (() => {
+// A20 "Five-year cost of patio heating" — pure TCO logic. No DOM, no I/O: every default comes from `cfg` (config.json).
+// Tested by test.mjs; inlined into index.html by tools/build-config.mjs.
+//
+// Fuel cost per hour (writer brief; COM-CO-01):
+//   electric     kW × $/kWh
+//   natural gas  BTU/hr ÷ 100,000 × $/therm
+//   propane      BTU/hr ÷ 91,500 × $/gal
+// Five-year total per option = purchase + install + maintenance × years + fuel over the years (+ propane handling).
+
+const val = (a) => (a && typeof a === 'object' && 'value' in a ? a.value : a);
+
+const OPTION_IDS = ['electric', 'natural_gas', 'propane'];
+const BASES = ['seats', 'ft2'];
+
+function defaults(cfg) {
+  const d = {
+    basis: 'seats',
+    seats: val(cfg.space.default_seats),
+    area_ft2: val(cfg.space.default_ft2),
+    hours_per_year: val(cfg.operation.hours_per_year),
+    average_output_pct: val(cfg.operation.average_output_pct),
+    fuel_escalation_pct: val(cfg.operation.fuel_escalation_pct),
+    price_kwh: val(cfg.prices.electric_per_kwh),
+    price_therm: val(cfg.prices.natural_gas_per_therm),
+    price_gal: val(cfg.prices.propane_per_gal),
+    cylinder_gal: val(cfg.propane_handling.cylinder_gal),
+    minutes_per_exchange: val(cfg.propane_handling.minutes_per_exchange),
+    wage_per_hour: val(cfg.propane_handling.wage_per_hour),
+  };
+  for (const o of cfg.options) {
+    d[`${o.id}_count`] = '';
+    d[`${o.id}_purchase`] = val(o.purchase_per_heater);
+    d[`${o.id}_install`] = val(o.install_per_heater);
+    d[`${o.id}_maintenance`] = val(o.maintenance_per_heater_year);
+  }
+  return d;
+}
+
+const toNum = (x) => (x === '' || x == null ? NaN : Number(String(x).replace(/[,$\s]/g, '')));
+
+// Clean and range-check raw form values. Returns {input, errors}. Blank `<id>_count` means "size it from the area".
+function normalise(raw, cfg) {
+  const d = defaults(cfg);
+  const r = { ...d, ...raw };
+  const errors = {};
+  const input = { basis: BASES.includes(r.basis) ? r.basis : 'seats' };
+  const need = (k, min, max, msg) => {
+    const n = toNum(r[k]);
+    if (!Number.isFinite(n) || n < min || n > max) errors[k] = msg;
+    input[k] = n;
+  };
+  if (input.basis === 'seats') { need('seats', 1, 5000, 'Enter seats from 1 to 5,000.'); input.area_ft2 = toNum(r.area_ft2); }
+  else { need('area_ft2', 10, 100000, 'Enter an area from 10 to 100,000 ft².'); input.seats = toNum(r.seats); }
+  need('hours_per_year', 0, 8760, 'Enter hours from 0 to 8,760 a year.');
+  need('average_output_pct', 1, 100, 'Enter a percentage from 1 to 100.');
+  need('fuel_escalation_pct', -20, 50, 'Enter a yearly change from -20% to 50%.');
+  need('price_kwh', 0, 5, 'Enter a price from $0 to $5 per kWh.');
+  need('price_therm', 0, 20, 'Enter a price from $0 to $20 per therm.');
+  need('price_gal', 0, 20, 'Enter a price from $0 to $20 per gallon.');
+  need('cylinder_gal', 0.5, 500, 'Enter usable gallons per cylinder from 0.5 to 500.');
+  need('minutes_per_exchange', 0, 240, 'Enter minutes from 0 to 240.');
+  need('wage_per_hour', 0, 500, 'Enter a wage from $0 to $500 an hour.');
+  for (const o of cfg.options) {
+    const c = r[`${o.id}_count`];
+    if (c === '' || c == null) input[`${o.id}_count`] = null;
+    else {
+      const n = toNum(c);
+      if (!Number.isInteger(n) || n < 1 || n > 500) errors[`${o.id}_count`] = 'Enter a whole number of heaters from 1 to 500, or leave it blank.';
+      input[`${o.id}_count`] = n;
+    }
+    need(`${o.id}_purchase`, 0, 1e6, 'Enter a cost from $0.');
+    need(`${o.id}_install`, 0, 1e6, 'Enter a cost from $0.');
+    need(`${o.id}_maintenance`, 0, 1e5, 'Enter a cost from $0.');
+  }
+  return { input, errors };
+}
+
+function heaterCount(areaFt2, coverageFt2) {
+  if (!(coverageFt2 > 0) || !(areaFt2 > 0)) return null;
+  return Math.max(1, Math.ceil(areaFt2 / coverageFt2 - 1e-9));
+}
+
+// Fuel units and dollars per hour for `count` heaters of option `o` at `outputPct` of rated input.
+function hourly(o, count, input, cfg) {
+  const out = input.average_output_pct / 100;
+  if (o.fuel === 'electric') {
+    const units = val(o.input_kw) * count * out;
+    return { units, unit: 'kWh', cost: units * input.price_kwh };
+  }
+  if (o.fuel === 'natural_gas') {
+    const units = val(o.input_btu) * count * out / val(cfg.conversions.btu_per_therm);
+    return { units, unit: 'therm', cost: units * input.price_therm };
+  }
+  if (o.fuel === 'propane') {
+    const units = val(o.input_btu) * count * out / val(cfg.conversions.btu_per_gal_propane);
+    return { units, unit: 'gal', cost: units * input.price_gal };
+  }
+  throw new Error(`unknown fuel ${o.fuel}`);
+}
+
+// Sum of a first-year amount over `years`, growing by `pct` each year after the first.
+function escalatedSum(firstYear, pct, years) {
+  let t = 0;
+  for (let i = 0; i < years; i++) t += firstYear * Math.pow(1 + pct / 100, i);
+  return t;
+}
+
+// Cylinder swaps a year: usable gallons burned ÷ gallons per cylinder, rounded to whole swaps.
+function exchangesPerYear(gallons, cylinderGal) {
+  return cylinderGal > 0 ? Math.round(gallons / cylinderGal) : 0;
+}
+
+function tco(rawInput, cfg) {
+  const { input, errors } = normalise(rawInput, cfg);
+  if (Object.keys(errors).length) return { ok: false, errors, input };
+  const years = val(cfg.tool.years);
+  const area = input.basis === 'seats' ? input.seats * val(cfg.space.ft2_per_seat) : input.area_ft2;
+
+  const options = cfg.options.map((o) => {
+    const coverage = val(o.coverage_ft2);
+    const sized = heaterCount(area, coverage);
+    const count = input[`${o.id}_count`] ?? sized;
+    const h = hourly(o, count, input, cfg);
+    const annualUnits = h.units * input.hours_per_year;
+    const fuelYear1 = h.cost * input.hours_per_year;
+    const fuel = escalatedSum(fuelYear1, input.fuel_escalation_pct, years);
+    let handling = null;
+    if (o.fuel === 'propane') {
+      const exchanges = exchangesPerYear(annualUnits, input.cylinder_gal);
+      const perYear = exchanges * input.minutes_per_exchange / 60 * input.wage_per_hour;
+      handling = { exchanges, hours: exchanges * input.minutes_per_exchange / 60, per_year: perYear, total: perYear * years };
+    }
+    const purchase = count * input[`${o.id}_purchase`];
+    const install = count * input[`${o.id}_install`];
+    const maintenance = count * input[`${o.id}_maintenance`] * years;
+    const total = purchase + install + maintenance + fuel + (handling ? handling.total : 0);
+    return {
+      id: o.id, label: o.label, fuel: o.fuel, model: o.model, controls: o.controls,
+      coverage_ft2: coverage, count, sized_count: sized, count_overridden: input[`${o.id}_count`] != null,
+      rating: o.fuel === 'electric' ? `${val(o.input_kw)} kW` : `${val(o.input_btu).toLocaleString('en-US')} BTU/hr`,
+      per_hour: h.cost, annual_units: annualUnits, unit: h.unit, fuel_year1: fuelYear1, fuel,
+      handling, purchase, install, maintenance, total,
+      running: fuel + (handling ? handling.total : 0) + maintenance,
+      placeholder_costs: [o.purchase_per_heater, o.install_per_heater, o.maintenance_per_heater_year].some((a) => a.verified === false),
+    };
+  });
+  const ranked = [...options].sort((a, b) => a.total - b.total);
+  return {
+    ok: true, input, years, area: Math.round(area * 10) / 10, options,
+    cheapest: ranked[0].id, most_expensive: ranked[ranked.length - 1].id,
+    spread: ranked[ranked.length - 1].total - ranked[0].total,
+  };
+}
+
+return { OPTION_IDS, BASES, defaults, normalise, heaterCount, hourly, escalatedSum, exchangesPerYear, tco };
+})();
+/* @inline:end logic.js */
+
+/* @inline:begin ../_shared/lead.js */
+const Lead = (() => {
+// Shared lead gate for the Bromic tools (HANDOVER §9; spec in forms/hubspot-form-spec.md).
+// Inlined into each tool's index.html by tools/build-config.mjs. The pure functions at the top are
+// tested by tools/_shared/test.mjs; mountLeadGate() is the only part that touches the DOM.
+
+const ROLES = [
+  { value: 'homeowner', label: 'Homeowner', professional: false },
+  { value: 'architect_designer', label: 'Architect / designer', professional: true },
+  { value: 'builder_installer', label: 'Builder / installer', professional: true },
+  { value: 'commercial_operator', label: 'Commercial operator', professional: true },
+  { value: 'dealer', label: 'Dealer', professional: true },
+];
+const TIMINGS = [
+  { value: '0_3_months', label: '0–3 months' },
+  { value: '3_6_months', label: '3–6 months' },
+  { value: '6_12_months', label: '6–12 months' },
+  { value: 'researching', label: 'Researching' },
+];
+const SIZE_UNITS = [
+  { value: 'homes', label: 'No. of homes' },
+  { value: 'seats', label: 'Seats' },
+  { value: 'ft2', label: 'ft²' },
+];
+const UTM_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'];
+const MATRIX_CELL = /^(RES|ARC|BLD|COM)-(AW|CO|IN|PP|BY)$/;
+
+function isProfessional(role) {
+  const r = ROLES.find((x) => x.value === role);
+  return !!(r && r.professional);
+}
+
+// UTM values and an optional matrix_cell override, read from the page URL's query string.
+function readTracking(search, defaultCell) {
+  const q = new URLSearchParams(search || '');
+  const out = {};
+  for (const k of UTM_KEYS) out[k] = (q.get(k) || '').slice(0, 200);
+  const cell = (q.get('matrix_cell') || '').toUpperCase();
+  out.matrix_cell = MATRIX_CELL.test(cell) ? cell : defaultCell;
+  return out;
+}
+
+const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+const POSTAL = /^[A-Za-z0-9][A-Za-z0-9 \-]{1,9}$/; // US ZIP, CA, UK, AU, EU postcodes
+
+// Returns {field: message} for every invalid field; {} when the form can be sent.
+function validateLead(v) {
+  const e = {};
+  if (!String(v.firstname || '').trim()) e.firstname = 'Enter your first name.';
+  if (!String(v.lastname || '').trim()) e.lastname = 'Enter your last name.';
+  if (!EMAIL.test(String(v.email || '').trim())) e.email = 'Enter a valid email address.';
+  if (!ROLES.some((r) => r.value === v.i_am_a)) e.i_am_a = 'Choose the option that describes you.';
+  if (!POSTAL.test(String(v.zip || '').trim())) e.zip = 'Enter a ZIP or postal code.';
+  if (!TIMINGS.some((t) => t.value === v.project_timing)) e.project_timing = 'Choose your project timing.';
+  if (isProfessional(v.i_am_a) && !String(v.company || '').trim()) e.company = 'Enter your company.';
+  if (v.project_size_value !== '' && v.project_size_value != null) {
+    const n = Number(v.project_size_value);
+    if (!Number.isFinite(n) || n <= 0) e.project_size_value = 'Enter a number, or leave it blank.';
+  }
+  return e;
+}
+
+// The object HubSpot would receive. Field names are the internal names in forms/hubspot-form-spec.md.
+function buildPayload(values, hidden) {
+  const pro = isProfessional(values.i_am_a);
+  return {
+    firstname: String(values.firstname || '').trim(),
+    lastname: String(values.lastname || '').trim(),
+    email: String(values.email || '').trim().toLowerCase(),
+    i_am_a: values.i_am_a,
+    zip: String(values.zip || '').trim().toUpperCase(),
+    project_timing: values.project_timing,
+    company: pro ? String(values.company || '').trim() : '',
+    project_size_value: values.project_size_value === '' || values.project_size_value == null ? '' : Number(values.project_size_value),
+    project_size_unit: values.project_size_value === '' || values.project_size_value == null ? '' : values.project_size_unit,
+    asset_id: hidden.asset_id,
+    matrix_cell: hidden.matrix_cell,
+    utm_source: hidden.utm_source || '',
+    utm_medium: hidden.utm_medium || '',
+    utm_campaign: hidden.utm_campaign || '',
+    utm_term: hidden.utm_term || '',
+    utm_content: hidden.utm_content || '',
+    tool_inputs: JSON.stringify(hidden.tool_inputs || {}),
+  };
+}
+
+// ---- DOM ---------------------------------------------------------------------------------------
+
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+function formHtml(id, defaultSizeUnit) {
+  const opt = (list, sel) => list.map((o) => `<option value="${o.value}"${o.value === sel ? ' selected' : ''}>${esc(o.label)}</option>`).join('');
+  const f = (name, label, input, extra = '') => `
+    <div class="field" data-field="${name}"${extra}>
+      <label class="k" for="${id}-${name}">${label}</label>${input}
+      <span class="err" id="${id}-${name}-err" aria-live="polite"></span>
+    </div>`;
+  const txt = (name, type, auto, req = true) =>
+    `<input id="${id}-${name}" name="${name}" type="${type}" autocomplete="${auto}"${req ? ' required aria-required="true"' : ''} aria-describedby="${id}-${name}-err">`;
+  return `
+  <form class="lead-form" novalidate>
+    <div class="grid">
+      ${f('firstname', 'First name', txt('firstname', 'text', 'given-name'))}
+      ${f('lastname', 'Last name', txt('lastname', 'text', 'family-name'))}
+      ${f('email', 'Email', txt('email', 'email', 'email'))}
+      ${f('i_am_a', 'I am a…', `<select id="${id}-i_am_a" name="i_am_a" required aria-required="true" aria-describedby="${id}-i_am_a-err"><option value="">Choose one</option>${opt(ROLES)}</select>`)}
+      ${f('company', 'Company', txt('company', 'text', 'organization'), ' hidden')}
+      ${f('zip', 'ZIP / postal code', txt('zip', 'text', 'postal-code'))}
+      ${f('project_timing', 'Project timing', `<select id="${id}-project_timing" name="project_timing" required aria-required="true" aria-describedby="${id}-project_timing-err"><option value="">Choose one</option>${opt(TIMINGS)}</select>`)}
+      <div class="field" data-field="project_size_value">
+        <label class="k" for="${id}-project_size_value">Project size (optional)</label>
+        <div style="display:flex;gap:8px">
+          <input id="${id}-project_size_value" name="project_size_value" type="number" min="0" step="1" inputmode="numeric" aria-describedby="${id}-project_size_value-err">
+          <select name="project_size_unit" aria-label="Project size unit">${opt(SIZE_UNITS, defaultSizeUnit)}</select>
+        </div>
+        <span class="err" id="${id}-project_size_value-err" aria-live="polite"></span>
+      </div>
+    </div>
+    <!-- Hidden fields (HANDOVER §9). Filled at submit time. -->
+    <input type="hidden" name="asset_id"><input type="hidden" name="matrix_cell">
+    <input type="hidden" name="utm_source"><input type="hidden" name="utm_medium"><input type="hidden" name="utm_campaign">
+    <input type="hidden" name="utm_term"><input type="hidden" name="utm_content"><input type="hidden" name="tool_inputs">
+    <p class="errors" role="alert"></p>
+    <div class="actions">
+      <button class="btn primary" type="submit">See the full report</button>
+      <span class="note">We use these details to send your report and, if you ask, to follow up. No spam.
+      [[VERIFY: privacy line and policy link — Brian Kim]]</span>
+    </div>
+  </form>`;
+}
+
+// el: container; getInputs(): the tool's current inputs (becomes tool_inputs); onUnlock(payload): show the report.
+function mountLeadGate({ el, assetId, matrixCell, getInputs, onUnlock, defaultSizeUnit = 'ft2' }) {
+  const id = `lead-${assetId}`;
+  el.innerHTML = formHtml(id, defaultSizeUnit);
+  const form = el.querySelector('form');
+  const tracking = readTracking(location.search, matrixCell);
+  const companyField = form.querySelector('[data-field="company"]');
+  const role = form.elements.i_am_a;
+  const syncCompany = () => {
+    const show = isProfessional(role.value);
+    companyField.hidden = !show;
+    form.elements.company.required = show;
+  };
+  role.addEventListener('change', syncCompany);
+  syncCompany();
+
+  form.addEventListener('submit', (ev) => {
+    ev.preventDefault();
+    const values = Object.fromEntries(new FormData(form).entries());
+    const errors = validateLead(values);
+    form.querySelectorAll('.field').forEach((f) => {
+      const name = f.dataset.field;
+      f.classList.toggle('invalid', !!errors[name]);
+      const msg = f.querySelector('.err');
+      if (msg) msg.textContent = errors[name] || '';
+      const input = f.querySelector('input,select');
+      if (input) input.setAttribute('aria-invalid', errors[name] ? 'true' : 'false');
+    });
+    const first = Object.keys(errors)[0];
+    form.querySelector('.errors').textContent = first ? 'Please check the highlighted fields.' : '';
+    if (first) { form.elements[first].focus(); return; }
+
+    const hidden = { asset_id: assetId, ...tracking, tool_inputs: getInputs() };
+    for (const k of ['asset_id', 'matrix_cell', ...UTM_KEYS]) form.elements[k].value = hidden[k] || '';
+    form.elements.tool_inputs.value = JSON.stringify(hidden.tool_inputs);
+    const payload = buildPayload(values, hidden);
+
+    // HubSpot form embed replaces this: the embed posts the payload to HubSpot and fires onFormSubmitted,
+    // which then calls onUnlock(). Until then nothing leaves the page; the payload is only logged.
+    console.log('[Bromic lead payload]', payload);
+    onUnlock(payload);
+  });
+}
+
+return { ROLES, TIMINGS, SIZE_UNITS, UTM_KEYS, MATRIX_CELL, isProfessional, readTracking, validateLead, buildPayload, mountLeadGate };
+})();
+/* @inline:end ../_shared/lead.js */
+
+// ---- Page ------------------------------------------------------------------------------------------
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const v = (a) => (a && typeof a === 'object' && 'value' in a ? a.value : a);
+const usd = (n) => '$' + Math.round(n).toLocaleString('en-US');
+const usd2 = (n) => '$' + n.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const num = (n, d = 0) => n.toLocaleString('en-US', { maximumFractionDigits: d });
+const form = $('#inputs');
+const YEARS = v(CONFIG.tool.years);
+const COLORS = { capex: '#71777D', maintenance: '#DDE0E2', fuel: '#231F20', handling: '#EF4123' };
+let unlocked = false;
+
+function optionSets() {
+  const f = (id, k, label, hint, step) => `
+    <div class="field" data-field="${id}_${k}">
+      <label class="k" for="${id}_${k}">${label}</label>
+      <input id="${id}_${k}" name="${id}_${k}" type="number" inputmode="decimal" min="0" step="${step}"${k === 'count' ? ' placeholder="Auto"' : ''} aria-describedby="${id}_${k}-err">
+      ${hint ? `<span class="hint">${hint}</span>` : ''}
+      <span class="err" id="${id}_${k}-err"></span>
+    </div>`;
+  $('#option-sets').innerHTML = CONFIG.options.map((o) => `
+    <fieldset class="opt-set">
+      <legend>${esc(o.label)} <span class="note">· ${esc(o.model)}</span></legend>
+      <div class="cols-3">
+        ${f(o.id, 'count', 'Heaters', `<span id="${o.id}-sized"></span>`, 1)}
+        ${f(o.id, 'purchase', 'Purchase, each ($)', '', 50)}
+        ${f(o.id, 'install', 'Install, each ($)', '', 50)}
+        ${f(o.id, 'maintenance', 'Service a year, each ($)', '', 5)}
+      </div>
+    </fieldset>`).join('');
+}
+
+function init() {
+  optionSets();
+  const d = Logic.defaults(CONFIG);
+  for (const [k, val] of Object.entries(d)) {
+    const el = form.elements[k];
+    if (!el) continue;
+    if (el instanceof RadioNodeList) { for (const r of el) r.checked = r.value === val; } else el.value = val;
+  }
+  $('#seats-hint').innerHTML = `About ${v(CONFIG.space.ft2_per_seat)} ft² of heated patio a seat. <span class="placeholder-tag">Placeholder</span>`;
+  $('#foot').innerHTML = `${esc(CONFIG.notes.scope)} ${esc(CONFIG.notes.code)}
+    <a href="${esc(CONFIG.notes.code_source_url)}" target="_blank" rel="noopener">NFPA 54</a>.
+    Draft ${esc(CONFIG.tool.version)}: figures marked for verification are being confirmed by Bromic.`;
+  form.addEventListener('input', update);
+  form.addEventListener('change', update);
+  Lead.mountLeadGate({
+    el: $('#lead'), assetId: CONFIG.tool.asset_id, matrixCell: CONFIG.tool.matrix_cell,
+    getInputs: () => readInputs(), defaultSizeUnit: 'seats',
+    onUnlock: () => { unlocked = true; $('#gate').classList.add('hidden'); update(); $('#report').focus(); },
+  });
+  update();
+}
+
+function readInputs() {
+  const out = {};
+  for (const el of form.elements) {
+    if (!el.name) continue;
+    if (el.type === 'radio') { if (el.checked) out[el.name] = el.value; } else out[el.name] = el.value;
+  }
+  return out;
+}
+
+function showErrors(errors) {
+  form.querySelectorAll('.field[data-field]').forEach((el) => {
+    const k = el.dataset.field, err = el.querySelector('.err');
+    el.classList.toggle('invalid', !!errors[k]);
+    if (err) err.textContent = errors[k] || '';
+    const input = el.querySelector('input');
+    if (input) input.setAttribute('aria-invalid', errors[k] ? 'true' : 'false');
+  });
+}
+
+function update() {
+  const raw = readInputs();
+  $('#seats-field').hidden = raw.basis !== 'seats';
+  $('#area-field').hidden = raw.basis !== 'ft2';
+  const r = Logic.tco(raw, CONFIG);
+  showErrors(r.ok ? {} : r.errors);
+  if (!r.ok) { $('#teaser').innerHTML = '<p class="sub">Check the highlighted fields to see your five-year cost.</p>'; return; }
+  for (const o of r.options) {
+    const s = $(`#${o.id}-sized`);
+    if (s) s.textContent = `Blank = sized from ${num(r.area)} ft²: ${o.sized_count} at about ${o.coverage_ft2} ft² each.`;
+  }
+  renderTeaser(r);
+  if (unlocked) renderReport(r);
+}
+
+function segments(o) {
+  return [
+    ['capex', o.purchase + o.install],
+    ['maintenance', o.maintenance],
+    ['fuel', o.fuel],
+    ['handling', o.handling ? o.handling.total : 0],
+  ];
+}
+
+function chart(r) {
+  const W = 600, rowH = 74, top = 6, labelW = 0;
+  const max = Math.max(...r.options.map((o) => o.total)) || 1;
+  const barW = W - labelW;
+  const rows = r.options.map((o, i) => {
+    const y = top + i * rowH;
+    let x = 0;
+    const rects = segments(o).filter(([, n]) => n > 0).map(([k, n]) => {
+      const w = Math.max(1, n / max * barW);
+      const rect = `<rect x="${x.toFixed(1)}" y="${y + 28}" width="${w.toFixed(1)}" height="30" fill="${COLORS[k]}"${k === 'maintenance' ? ' stroke="#71777D" stroke-width="1"' : ''}/>`;
+      x += w;
+      return rect;
+    }).join('');
+    return `<text x="0" y="${y + 20}" font-family="Georgia, serif" font-size="20" fill="#231F20">${esc(o.label)} · ${o.count} ${o.count === 1 ? 'heater' : 'heaters'}</text>
+      <text x="${W}" y="${y + 20}" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="bold" fill="#231F20">${usd(o.total)}</text>
+      ${rects}`;
+  }).join('');
+  const label = r.options.map((o) => `${o.label} ${usd(o.total)}`).join(', ');
+  return `<figure class="chart" style="margin:16px 0 0">
+    <svg viewBox="0 0 ${W} ${top + r.options.length * rowH}" role="img" aria-label="${YEARS}-year total cost: ${esc(label)}">${rows}</svg>
+    <ul class="legend" aria-hidden="true">
+      <li><i style="background:${COLORS.capex}"></i>Purchase and install</li>
+      <li><i style="background:${COLORS.maintenance}"></i>Maintenance</li>
+      <li><i style="background:${COLORS.fuel}"></i>Fuel</li>
+      <li><i style="background:${COLORS.handling};border-color:${COLORS.handling}"></i>Propane handling</li>
+    </ul></figure>`;
+}
+
+const FORMULA = `Fuel per hour
+  Electric     kW × heaters × output × $/kWh
+  Natural gas  BTU/hr × heaters × output ÷ 100,000 × $/therm
+  Propane      BTU/hr × heaters × output ÷ 91,500 × $/gal
+Five-year total
+  heaters × (purchase + install) + heaters × maintenance × 5
+  + fuel per hour × hours a year × 5 (compounded by any yearly price change)
+  + propane only: swaps a year × minutes ÷ 60 × wage × 5`;
+
+function renderTeaser(r) {
+  const by = Object.fromEntries(r.options.map((o) => [o.id, o]));
+  const low = by[r.cheapest], high = by[r.most_expensive];
+  $('#teaser').innerHTML = `
+    <span class="label">Your ${YEARS}-year result · ${num(r.area)} ft²</span>
+    <p class="headline">${usd(low.total)}</p>
+    <p class="sub">${esc(low.label)} costs least over ${YEARS} years on these inputs, ${usd(r.spread)} less than ${esc(high.label.toLowerCase())}.</p>
+    ${chart(r)}
+    <h3>How it is worked out</h3>
+    <p class="formula">${esc(FORMULA)}</p>
+    <p class="note"><span class="placeholder-tag" style="margin-left:0">Placeholder</span> Totals include placeholder purchase, install and maintenance figures, not Bromic prices. Every option needs its controls to run as a complete system: ${esc(by.electric.controls)}. ${esc(CONFIG.notes.controls.split('. ').slice(1).join('. '))}</p>`;
+}
+
+function renderReport(r) {
+  const el = $('#report');
+  el.classList.remove('hidden');
+  const cols = r.options;
+  const row = (label, f, cls = 'num') => `<tr><th scope="row">${label}</th>${cols.map((o) => `<td class="${cls}">${f(o)}</td>`).join('')}</tr>`;
+  const flat = (o) => (o.placeholder_costs ? ' <span class="placeholder-tag">Placeholder</span>' : '');
+  const assumptions = [
+    ['Heated patio per seat', CONFIG.space.ft2_per_seat],
+    ['Heater hours a year', CONFIG.operation.hours_per_year],
+    ['Average output', CONFIG.operation.average_output_pct],
+    ['Yearly fuel price change', CONFIG.operation.fuel_escalation_pct],
+    ['Electricity', CONFIG.prices.electric_per_kwh],
+    ['Natural gas', CONFIG.prices.natural_gas_per_therm],
+    ['Propane', CONFIG.prices.propane_per_gal],
+    ['BTU per therm', CONFIG.conversions.btu_per_therm],
+    ['BTU per gallon of propane', CONFIG.conversions.btu_per_gal_propane],
+    ['Usable gallons per cylinder', CONFIG.propane_handling.cylinder_gal],
+    ['Staff minutes per swap', CONFIG.propane_handling.minutes_per_exchange],
+    ['Staff wage', CONFIG.propane_handling.wage_per_hour],
+    ...CONFIG.options.flatMap((o) => [
+      [`${o.label}: coverage`, o.coverage_ft2],
+      [`${o.label}: input`, o.input_kw || o.input_btu],
+      [`${o.label}: purchase`, o.purchase_per_heater],
+      [`${o.label}: install`, o.install_per_heater],
+      [`${o.label}: maintenance`, o.maintenance_per_heater_year],
+    ]),
+  ];
+  el.innerHTML = `
+    <h2 id="report-h">Your ${YEARS}-year heating cost report</h2>
+    <p>For ${r.input.basis === 'seats' ? `${num(r.input.seats)} heated seats (about ${num(r.area)} ft²)` : `${num(r.area)} ft² of heated patio`}, ${num(r.input.hours_per_year)} heater hours a year at ${r.input.average_output_pct}% average output${r.input.fuel_escalation_pct ? `, fuel prices changing ${r.input.fuel_escalation_pct}% a year` : ', fuel prices held flat'}.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>${YEARS}-year cost</th>${cols.map((o) => `<th class="num">${esc(o.label)}</th>`).join('')}</tr></thead>
+      <tbody>
+        ${row('Heaters', (o) => `${o.count}${o.count_overridden ? '' : ' (sized)'}`)}
+        ${row('Rated input, each', (o) => esc(o.rating))}
+        ${row('Fuel per hour', (o) => usd2(o.per_hour))}
+        ${row('Fuel a year', (o) => `${num(o.annual_units)} ${o.unit}<br>${usd(o.fuel_year1)}`)}
+        ${row('Purchase', (o) => usd(o.purchase) + flat(o))}
+        ${row('Installation', (o) => usd(o.install) + flat(o))}
+        ${row(`Maintenance, ${YEARS} years`, (o) => usd(o.maintenance) + flat(o))}
+        ${row(`Fuel, ${YEARS} years`, (o) => usd(o.fuel))}
+        ${row(`Cylinder handling, ${YEARS} years`, (o) => (o.handling ? `${usd(o.handling.total)}<br><span class="note">${num(o.handling.exchanges)} swaps a year, ${num(o.handling.hours, 1)} staff hours</span>` : 'None'))}
+        ${row(`Total, ${YEARS} years`, (o) => usd(o.total), 'num total')}
+      </tbody></table></div>
+
+    <h3>Controls for a complete working system</h3>
+    <ul class="controls-list">${cols.map((o) => `<li><strong>${esc(o.label)}</strong> (${o.count} × ${esc(o.model)}): ${esc(o.controls)}</li>`).join('')}</ul>
+    <p class="note">${esc(CONFIG.notes.controls)} Zoning and schedules keep heaters off when seats are empty, the biggest running-cost lever for every fuel.</p>
+
+    <h3>What propane handling means</h3>
+    <p class="note">Someone collects empties, receives deliveries and swaps cylinders mid-service, and stored cylinders need space and must meet local fire code. Exchange cylinders are usually priced above bulk propane per gallon, so use your delivered price.</p>
+
+    <h3>Assumptions and sources</h3>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Assumption</th><th class="num">Default</th><th>Source</th><th>Status</th></tr></thead>
+      <tbody>${assumptions.map(([label, a]) => `<tr><td>${esc(label)}</td><td class="num">${esc(num(v(a), 4))} <span class="note">${esc(a.unit)}</span></td><td class="note">${esc(a.source)}</td><td>${a.verified ? 'Verified' : `<span class="verify">${esc(a.verify)}</span>`}</td></tr>`).join('')}</tbody>
+    </table></div>
+    <p class="note">${esc(CONFIG.notes.scope)}</p>
+    <p class="note">${esc(CONFIG.notes.code)}</p>
+    ${ctaHtml()}`;
+}
+
+function ctaHtml() {
+  return `<div class="actions"><a class="btn primary" href="${esc(v(CONFIG.cta.href))}" target="_top" rel="noopener">${esc(CONFIG.cta.label)}</a>
+    <button class="btn ghost" type="button" onclick="window.print()">Print or save as PDF</button></div>
+    <p class="note">Next: what the heated seats could earn, and how fast the installation pays back.</p>`;
+}
+
+init();
+</script>
+</body>
+</html>

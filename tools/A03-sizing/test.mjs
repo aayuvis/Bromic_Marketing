@@ -35,7 +35,9 @@ test('2. Cold, open, electric built-in at 11 ft: every derate applies and contro
     assert.match(o.controls.app_note, /sold separately/);
   }
   const ctl = p45.controls.items.find((i) => /Affinity/.test(i.name));
-  assert.equal(ctl.qty, 2, 'one controller per zone');
+  // A 6 kW Affinity channel takes one 4500 W heater (bromic.com controller page), so 4 heaters need 4 channels, never fewer than the 2 zones asked for.
+  assert.equal(ctl.qty, 4, 'one channel per 6 kW of heaters');
+  assert.equal(controlsBundle('affinity', 4, 1, cfg, 2300).zones, 2, 'two 2300 W heaters share a 6 kW channel');
   // Coming-soon Tungsten collections are shown as a range and labelled, never as the recommendation.
   const coastal = r.options.find((o) => o.id === 'tungsten-electric-coastal');
   assert.equal(coastal.status, 'coming-soon');
@@ -51,11 +53,12 @@ test('3. Covered with less than 30% open: not an outdoor space, no heater count'
   assert.match(r.message, /30%/);
 });
 
-test('4. Gas + built-in: no confirmed coverage yet, so the design team sizes it', () => {
+test('4. Gas + built-in: sized from bromic.com coverage, no Tungsten gas BTU shown, On/Off control', () => {
   const r = size({ ...base, fuel: 'gas', style: 'built-in' }, cfg);
-  assert.equal(r.recommended, null);
-  assert.ok(r.options.length >= 2 && r.options.every((o) => o.status === 'unverified' && o.count === null));
-  assert.match(r.message, /design team/);
+  assert.ok(r.recommended && r.recommended.fuel === 'gas');
+  assert.ok(r.options.length >= 4 && r.options.every((o) => o.count >= 1));
+  assert.ok(r.options.filter((o) => o.id.startsWith('tungsten-gas-builtin')).every((o) => o.btu_each == null), 'Tungsten gas BTU stays unpublished');
+  assert.ok(r.options.every((o) => o.controls.items.some((i) => /On\/Off/.test(i.name))), 'gas runs on On/Off, no dimming');
 });
 
 test('5. Guard rails and helpers: bad sizes rejected, low mount warned, freestanding ignores height', () => {

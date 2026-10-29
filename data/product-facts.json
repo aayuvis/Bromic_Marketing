@@ -1,48 +1,800 @@
 {
-  "_readme": "Only approved product facts. source = where the fact comes from; verified = confirmed by a named Bromic owner (all false until Mike Clifford signs off). Lookbook 2026 overrides Planning Guide 2021 on conflicts.",
-  "products": [
-    {"id": "tungsten-coastal", "name": "Tungsten Smart-Heat Electric — Coastal collection", "fuel": "electric", "status": "coming-soon",
-     "facts": {"material": "316 marine-grade stainless steel", "finishes": ["Black", "White"], "grille": "Signature Diamond Pattern", "mounting": ["recessed (marine-grade low-clearance recessing)", "ceiling", "wall", "single-post"], "coverage_ft2": [64, 144], "coverage_note": "approx., depending on model and size"},
-     "source": "Lookbook 2026 pp.7, 15", "verified": false},
-    {"id": "tungsten-select", "name": "Tungsten Smart-Heat Electric — Select collection", "fuel": "electric", "status": "coming-soon",
-     "facts": {"finishes": ["Black", "White", "Graphite"], "fascia": "expanded fascia options", "mounting": ["recessed (low-clearance)", "ceiling", "wall", "single-post"], "coverage_ft2": [64, 144], "coverage_note": "approx., depending on model and size; Tungsten gas models also available"},
-     "source": "Lookbook 2026 pp.11, 15", "verified": false},
-    {"id": "platinum-electric", "name": "Platinum Smart-Heat Electric", "fuel": "electric", "status": "current",
-     "facts": {"wattages_w": [2300, 3400, 4500], "finishes": ["Black", "White"], "variants": ["Classic", "Marine"], "coverage_ft2": [65, 143], "mounting": ["recessed", "ceiling", "wall"]},
-     "source": "Lookbook 2026 p.21", "verified": false},
-    {"id": "eclipse-electric", "name": "Eclipse Smart-Heat Electric", "fuel": "electric", "status": "current",
-     "facts": {"coverage_ft2": 121, "output_steps_pct": [33, 66, 100], "lighting": "dimmable rim lighting", "finishes": ["Black"], "mounting": ["single pole 8\", 24\" or 48\"", "double pole", "curved pole"]},
-     "source": "Lookbook 2026 p.27", "verified": false},
-    {"id": "eclipse-freestanding", "name": "Eclipse Smart-Heat Freestanding Electric", "fuel": "electric", "status": "current",
-     "facts": {"coverage_ft2": 121, "output_steps_pct": [33, 66, 100], "features": ["integrated wheels", "weighted base", "curved arm", "heat and light in one"], "finishes": ["Black"]},
-     "source": "Lookbook 2026 p.33", "verified": false},
-    {"id": "tungsten-freestanding-gas", "name": "Tungsten Smart-Heat Freestanding Gas", "fuel": "gas", "status": "current",
-     "facts": {"coverage_ft2": 215, "output_btu": 38000, "fuels": ["natural gas", "propane"], "features": ["tilting head", "wheels", "anti-tilt design"], "finishes": ["Black"]},
-     "source": "Lookbook 2026 p.39", "verified": false},
-    {"id": "affinity-controls", "name": "Affinity Smart-Heat Controls", "fuel": "controls", "status": "current",
-     "facts": {"controllers": ["On/Off", "Dimmer", "Eclipse controller", "manual wall switch"], "app": "Bromic Smart-Heat app: zones, schedules, timers", "integrations": ["Amazon Alexa", "Google Assistant", "Control4", "Crestron", "Lutron"], "integration_note": "Compatibility varies by system; may need additional integration hardware or configuration.", "wifi_note": "Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately."},
-     "source": "Lookbook 2026 p.41", "verified": false},
-    {"id": "platinum-gas", "name": "Platinum Gas", "fuel": "gas", "status": "current", "facts": {"coverage_ft2": "[[VERIFY: current coverage — Mike Clifford]]"}, "source": "bromic.com product page (not yet read)", "verified": false},
-    {"id": "tungsten-gas-builtin", "name": "Tungsten Gas (built-in)", "fuel": "gas", "status": "current", "facts": {"output_btu": "[[VERIFY: 39,800 (Planning Guide 2021) vs 38,000 (Lookbook freestanding) — do not publish — Mike Clifford]]"}, "source": "bromic.com (not yet read)", "verified": false},
-    {"id": "platinum-electric-marine", "name": "Platinum Electric Marine", "fuel": "electric", "status": "current", "facts": {}, "source": "bromic.com (not yet read)", "verified": false},
-    {"id": "cobalt-electric", "name": "Cobalt Electric", "fuel": "electric", "status": "current", "facts": {}, "source": "bromic.com (not yet read)", "verified": false}
-  ],
-  "principles": [
-    {"id": "outdoor-definition", "fact": "An area counts as outdoor when at least 30% of its perimeter is permanently open. A partial cover traps a 'heat cloud' that adds a convective boost.", "source": "Planning Guide v1.2 (2021) Step 01", "verified": false},
-    {"id": "radiant", "fact": "Radiant (infrared) heat warms people and objects, not air, so it works in light wind; forced air does not work outdoors and outdoor heat cannot be thermostatically controlled.", "source": "Planning Guide v1.2 (2021) p.3", "verified": false},
-    {"id": "wavelength", "fact": "Short wave ≈90% radiant, warms instantly; medium wave ≈60% radiant, ≈30 s warm-up; long wave ≈40% radiant, ≈5 min warm-up, most wind-sensitive.", "source": "Planning Guide v1.2 (2021) Step 04", "verified": false},
-    {"id": "codes-electric", "fact": "US electric heaters follow ANSI/NFPA 70 (NEC); Bromic guidance: wall mounts at least 72\" above floor, ceiling mounts at least 96\" (varies with output). Check with the local building authority.", "source": "Planning Guide v1.2 (2021) Step 06", "verified": false},
-    {"id": "codes-gas", "fact": "US gas heaters follow ANSI Z223.1/NFPA 54. Certification marks: Intertek, UL, CSA. Check with the local building authority.", "source": "Planning Guide v1.2 (2021) Step 06", "verified": false},
-    {"id": "accessories", "fact": "Electric: recess kits, suspension poles. Gas: heat deflectors (dual-layer stainless, reduce top clearance), ceiling poles (two units back to back).", "source": "Planning Guide v1.2 (2021) Step 07", "verified": false},
-    {"id": "commercial-voltage", "fact": "Commercial electric supply options listed: 208V/240V/277V.", "source": "Planning Guide v1.2 (2021) Step 08", "verified": false},
-    {"id": "design-service", "fact": "Complimentary design service: heater selection, placement, coverage drawings from photos, plans or drawings. bromic.com/design-your-space/ · 1-800-301-1293 (Mon–Fri 9–4 PT).", "source": "Lookbook 2026 p.43", "verified": false}
-  ],
-  "conflicts": [
-    {"topic": "Tungsten Electric coverage", "old": "65–108 ft² (PG 2021)", "current": "64–144 ft² (Lookbook)", "rule": "Use Lookbook; flag to Mike Clifford"},
-    {"topic": "Platinum Electric coverage", "old": "65–108 ft²", "current": "65–143 ft²", "rule": "Use Lookbook"},
-    {"topic": "Tungsten gas output", "old": "39,800 BTU", "current": "38,000 BTU (freestanding)", "rule": "Do not publish built-in BTU until verified"},
-    {"topic": "Running cost per hour, 200 ft²", "old": "NG $0.40, propane $2.50, electric $0.88 (2021)", "current": "none", "rule": "Recompute from sourced 2026 rates, show formula, [[VERIFY]]"},
-    {"topic": "Naming", "old": "500 series", "current": "Tungsten, Platinum, Eclipse", "rule": "Never use legacy naming"},
-    {"topic": "Controls", "old": "Optional Step 08", "current": "Required", "rule": "Controls are a required step"}
-  ]
+ "_readme": "Only approved product facts. source = where the fact comes from; verified = confirmed by a named Bromic owner (all false until Mike Clifford signs off). Lookbook 2026 overrides Planning Guide 2021 on conflicts. bromic.com product pages were read on 29 Oct 2026 (field `site` per product): list prices, SKUs, coverage per wattage, controller capacity. Same rule: verified false until Mike Clifford signs off; the retired series numbers the site still uses are never repeated in content.",
+ "products": [
+  {
+   "id": "tungsten-coastal",
+   "name": "Tungsten Smart-Heat Electric — Coastal collection",
+   "fuel": "electric",
+   "status": "coming-soon",
+   "facts": {
+    "material": "316 marine-grade stainless steel",
+    "finishes": [
+     "Black",
+     "White"
+    ],
+    "grille": "Signature Diamond Pattern",
+    "mounting": [
+     "recessed (marine-grade low-clearance recessing)",
+     "ceiling",
+     "wall",
+     "single-post"
+    ],
+    "coverage_ft2": [
+     64,
+     144
+    ],
+    "coverage_note": "approx., depending on model and size"
+   },
+   "source": "Lookbook 2026 pp.7, 15",
+   "verified": false
+  },
+  {
+   "id": "tungsten-select",
+   "name": "Tungsten Smart-Heat Electric — Select collection",
+   "fuel": "electric",
+   "status": "coming-soon",
+   "facts": {
+    "finishes": [
+     "Black",
+     "White",
+     "Graphite"
+    ],
+    "fascia": "expanded fascia options",
+    "mounting": [
+     "recessed (low-clearance)",
+     "ceiling",
+     "wall",
+     "single-post"
+    ],
+    "coverage_ft2": [
+     64,
+     144
+    ],
+    "coverage_note": "approx., depending on model and size; Tungsten gas models also available"
+   },
+   "source": "Lookbook 2026 pp.11, 15",
+   "verified": false
+  },
+  {
+   "id": "tungsten-electric",
+   "name": "Tungsten Smart-Heat Electric (current range)",
+   "fuel": "electric",
+   "status": "current",
+   "facts": {
+    "wattages_w": [
+     2000,
+     3000,
+     4000,
+     6000
+    ],
+    "coverage_ft2": {
+     "2000": 65,
+     "3000": 100,
+     "4000": 130,
+     "6000": 160
+    },
+    "finishes": "2000/3000 black; 4000/6000 black or white",
+    "voltage": "220–240 V, 208 V, 277 V (4000/6000)",
+    "ip_rating": "IPX4",
+    "min_mount_in": {
+     "wall": 72,
+     "ceiling": 96
+    },
+    "warranty": "2 years heater, 7 years elements",
+    "elements": "4000 and 6000 W have two separately controllable elements",
+    "certification": "Intertek ETL / cETL 4005951"
+   },
+   "source": "https://www.bromic.com/product/tungsten-smart-heat-electric/",
+   "verified": false,
+   "site": {
+    "source": "https://www.bromic.com/product/tungsten-smart-heat-electric/",
+    "read_on": "2026-10-29",
+    "verified": false,
+    "verify": "[[VERIFY: values read from bromic.com through a summarising fetch; confirm against the 2026 cut sheet — Mike Clifford]]",
+    "facts": {
+     "list_price_usd": [
+      798,
+      1246
+     ],
+     "controls": "Affinity On/Off or Dimmer, manual wall switch"
+    },
+    "conflicts": [
+     "The current range (2–6 kW, 65–160 ft²) is distinct from the coming-soon Coastal and Select collections (64–144 ft², Lookbook 2026)"
+    ]
+   }
+  },
+  {
+   "id": "platinum-electric",
+   "name": "Platinum Smart-Heat Electric",
+   "fuel": "electric",
+   "status": "current",
+   "facts": {
+    "wattages_w": [
+     2300,
+     3400,
+     4500
+    ],
+    "finishes": [
+     "Black",
+     "White"
+    ],
+    "variants": [
+     "Classic",
+     "Marine"
+    ],
+    "coverage_ft2": [
+     65,
+     143
+    ],
+    "mounting": [
+     "recessed",
+     "ceiling",
+     "wall"
+    ]
+   },
+   "source": "Lookbook 2026 p.21",
+   "verified": false,
+   "site": {
+    "source": "https://www.bromic.com/product/platinum-smart-heat-electric/",
+    "read_on": "2026-10-29",
+    "verified": false,
+    "verify": "[[VERIFY: values read from bromic.com through a summarising fetch; confirm against the 2026 cut sheet — Mike Clifford]]",
+    "facts": {
+     "models": [
+      {
+       "w": 2300,
+       "coverage_ft2": 65,
+       "weight_lb": 17,
+       "amps_240v": 9.6,
+       "amps_208v": 11.1,
+       "sku": [
+        "BH0320003 black",
+        "BH0320007 white"
+       ]
+      },
+      {
+       "w": 3400,
+       "coverage_ft2": 108,
+       "weight_lb": 22,
+       "amps_240v": 14.2,
+       "amps_208v": 16.3,
+       "sku": [
+        "BH0320005 black",
+        "BH0320008 white"
+       ]
+      },
+      {
+       "w": 4500,
+       "coverage_ft2": 143,
+       "weight_lb": 33,
+       "amps_240v": 18.8,
+       "amps_208v": 21.6,
+       "sku": [
+        "BH3622000 black",
+        "BH3622001 white"
+       ]
+      }
+     ],
+     "voltage": "220–240 V and 208 V",
+     "min_mount_in": {
+      "wall": 72,
+      "ceiling": 96
+     },
+     "certification": "Intertek ETL / cETL 5001799",
+     "warranty": "3 years",
+     "material": "304 stainless steel chassis",
+     "mounting": "Wall, pole or recessed; 8 in stainless pole included; recess kits and longer poles sold separately",
+     "controls": "Not included, sold separately: Affinity On/Off or Dimmer, manual wall switch, expansion board",
+     "list_price_usd": [
+      1527,
+      2936
+     ]
+    },
+    "conflicts": [
+     "Site links the Marine spec sheet as the Platinum Electric English spec sheet"
+    ]
+   }
+  },
+  {
+   "id": "eclipse-electric",
+   "name": "Eclipse Smart-Heat Electric",
+   "fuel": "electric",
+   "status": "current",
+   "facts": {
+    "coverage_ft2": 121,
+    "output_steps_pct": [
+     33,
+     66,
+     100
+    ],
+    "lighting": "dimmable rim lighting",
+    "finishes": [
+     "Black"
+    ],
+    "mounting": [
+     "single pole 8\", 24\" or 48\"",
+     "double pole",
+     "curved pole"
+    ]
+   },
+   "source": "Lookbook 2026 p.27",
+   "verified": false,
+   "site": {
+    "source": "https://www.bromic.com/product/eclipse-smart-heat-electric/",
+    "read_on": "2026-10-29",
+    "verified": false,
+    "verify": "[[VERIFY: values read from bromic.com through a summarising fetch; confirm against the 2026 cut sheet — Mike Clifford]]",
+    "facts": {
+     "watts": 2900,
+     "coverage_ft2": 121,
+     "amps": {
+      "208V": 13.9,
+      "220V": 11.4,
+      "230V": 11.8,
+      "240V": 12.1
+     },
+     "weight_lb": 30,
+     "led": "3000K, dimmable, 497 lm",
+     "output_steps_pct": [
+      0,
+      33,
+      66,
+      100
+     ],
+     "min_mount_in": 96,
+     "certification": "SGS/NA SGSNA/21/GZ/00074",
+     "warranty": "3 years",
+     "list_price_usd": 2849,
+     "mounting": "24 in twin pole standard; 8 in, 24 in and 48 in straight, curved and wall-mount poles optional",
+     "controls": "Affinity Smart-Heat Eclipse Controller (sold separately; enables the app) or Eclipse Dimmer Controller with remote; manual wall switch"
+    },
+    "conflicts": [
+     "Output 2900 W in the spec table vs 3000 W in the FAQ",
+     "Material: double-coated steel (features) vs 304 stainless (FAQ)"
+    ]
+   }
+  },
+  {
+   "id": "eclipse-freestanding",
+   "name": "Eclipse Smart-Heat Freestanding Electric",
+   "fuel": "electric",
+   "status": "current",
+   "facts": {
+    "coverage_ft2": 121,
+    "output_steps_pct": [
+     33,
+     66,
+     100
+    ],
+    "features": [
+     "integrated wheels",
+     "weighted base",
+     "curved arm",
+     "heat and light in one"
+    ],
+    "finishes": [
+     "Black"
+    ]
+   },
+   "source": "Lookbook 2026 p.33",
+   "verified": false,
+   "site": {
+    "source": "https://www.bromic.com/product/eclipse-smart-heat-freestanding/",
+    "read_on": "2026-10-29",
+    "verified": false,
+    "verify": "[[VERIFY: values read from bromic.com through a summarising fetch; confirm against the 2026 cut sheet — Mike Clifford]]",
+    "facts": {
+     "watts": 2900,
+     "coverage_ft2": 121,
+     "amps": {
+      "220V": 11.4,
+      "230V": 11.8,
+      "240V": 12.1
+     },
+     "output_steps_pct": [
+      0,
+      33,
+      66,
+      100
+     ],
+     "min_clearance_in": 79,
+     "certification": "SGS/NA SGSNA/21/GZ/00074",
+     "warranty": "3 years",
+     "list_price_usd": 5149,
+     "controls": "Eclipse Dimmer Controller and remote included; app via the Bromic Heating app"
+    },
+    "conflicts": [
+     "Weight listed as 383 lb (implausible)",
+     "LED 216.6 lm vs 497 lm on Eclipse Electric"
+    ]
+   }
+  },
+  {
+   "id": "tungsten-freestanding-gas",
+   "name": "Tungsten Smart-Heat Freestanding Gas",
+   "fuel": "gas",
+   "status": "current",
+   "facts": {
+    "coverage_ft2": 215,
+    "output_btu": 38000,
+    "fuels": [
+     "natural gas",
+     "propane"
+    ],
+    "features": [
+     "tilting head",
+     "wheels",
+     "anti-tilt design"
+    ],
+    "finishes": [
+     "Black"
+    ]
+   },
+   "source": "Lookbook 2026 p.39",
+   "verified": false,
+   "site": {
+    "source": "https://www.bromic.com/product/tungsten-smart-heat-freestanding/",
+    "read_on": "2026-10-29",
+    "verified": false,
+    "verify": "[[VERIFY: values read from bromic.com through a summarising fetch; confirm against the 2026 cut sheet — Mike Clifford]]",
+    "facts": {
+     "output_btu": 38500,
+     "coverage_ft2": 215,
+     "fuels": [
+      "LPG (20 lb cylinder)",
+      "natural gas (10 ft quick-connect line)"
+     ],
+     "weight_lb": 124,
+     "material": "304 stainless steel",
+     "wind_mph": 8,
+     "warranty": "1 year (LPG; NG column blank)",
+     "certification": "Intertek 4009079 (LPG)",
+     "list_price_usd": 2431
+    },
+    "conflicts": [
+     "Output 38,500 BTU on the site vs 38,000 BTU in Lookbook 2026 p.39"
+    ]
+   }
+  },
+  {
+   "id": "affinity-controls",
+   "name": "Affinity Smart-Heat Controls",
+   "fuel": "controls",
+   "status": "current",
+   "facts": {
+    "controllers": [
+     "On/Off",
+     "Dimmer",
+     "Eclipse controller",
+     "manual wall switch"
+    ],
+    "app": "Bromic Smart-Heat app: zones, schedules, timers",
+    "integrations": [
+     "Amazon Alexa",
+     "Google Assistant",
+     "Control4",
+     "Crestron",
+     "Lutron"
+    ],
+    "integration_note": "Compatibility varies by system; may need additional integration hardware or configuration.",
+    "wifi_note": "Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately."
+   },
+   "source": "Lookbook 2026 p.41",
+   "verified": false,
+   "site": {
+    "source": [
+     "https://www.bromic.com/product/affinity-smart-heat-on-off-controllers/",
+     "https://www.bromic.com/product/affinity-smart-heat-dimmer-controllers/",
+     "https://www.bromic.com/product/affinity-smart-heat-eclipse-controllers/",
+     "https://www.bromic.com/product/manual-wall-switch/",
+     "https://www.bromic.com/product/affinity-smart-heat-expansion-board/"
+    ],
+    "read_on": "2026-10-29",
+    "verified": false,
+    "verify": "[[VERIFY: controller capacities and compatibility — Mike Clifford]]",
+    "facts": {
+     "on_off": {
+      "channels": [
+       1,
+       2,
+       5
+      ],
+      "per_channel": "6 kW at 208–277 V (1 kW at 100–127 V); up to 10 gas heaters per channel",
+      "ip": "IP54",
+      "operating_f": [
+       -4,
+       86
+      ],
+      "list_price_usd": [
+       370,
+       1599
+      ]
+     },
+     "dimmer": {
+      "channels": [
+       1,
+       2,
+       5
+      ],
+      "per_channel": "6 kW at 208–277 V",
+      "dimming": "1% steps",
+      "compatible": "Platinum Electric, Tungsten Electric (FAQ adds Cobalt)",
+      "list_price_usd": [
+       785,
+       3399
+      ]
+     },
+     "eclipse": {
+      "channels": [
+       1,
+       5
+      ],
+      "per_channel": "one Eclipse heater per channel; 1-ch 4 kW at 220–240 V",
+      "list_price_usd": [
+       839,
+       4760
+      ]
+     },
+     "wall_switch": {
+      "rating": "20 A, 120–277 V; single or dual; indoor or outdoor kit",
+      "list_price_usd": [
+       108,
+       250
+      ]
+     },
+     "expansion_board": {
+      "function": "Ethernet and 0–10 V for BMS/home automation (built into 5-channel); BMS mode disables the app; Alexa and Google Home need no board",
+      "list_price_usd": 384
+     },
+     "connectivity": "2.4 GHz Wi-Fi, Bluetooth about 30 ft, optional Ethernet",
+     "certification": "UL 60730-1, CAN/CSA E60730-1",
+     "warranty": "1 year"
+    },
+    "conflicts": [
+     "On/Off spec table lists only Platinum and Tungsten Electric; the intro and FAQ add gas heaters and Cobalt",
+     "App named three ways across controller pages"
+    ]
+   }
+  },
+  {
+   "id": "platinum-gas",
+   "name": "Platinum Gas",
+   "fuel": "gas",
+   "status": "current",
+   "facts": {
+    "coverage_ft2": "[[VERIFY: current coverage — Mike Clifford]]"
+   },
+   "source": "bromic.com product page (read 29 Oct 2026; see site)",
+   "verified": false,
+   "site": {
+    "source": "https://www.bromic.com/product/platinum-smart-heat-gas/",
+    "read_on": "2026-10-29",
+    "verified": false,
+    "verify": "[[VERIFY: values read from bromic.com through a summarising fetch; confirm against the 2026 cut sheet — Mike Clifford]]",
+    "facts": {
+     "models": [
+      {
+       "output_btu": 23600,
+       "coverage_ft2": 160,
+       "weight_lb": 33,
+       "sku": [
+        "BH0110001-1 NG",
+        "BH0110002-1 LPG"
+       ]
+      },
+      {
+       "output_btu": 39800,
+       "coverage_ft2": 215,
+       "weight_lb": 44,
+       "sku": [
+        "BH0110003-1 NG",
+        "BH0110004-1 LPG"
+       ]
+      }
+     ],
+     "fuels": [
+      "LPG",
+      "natural gas"
+     ],
+     "finishes": [
+      "Black",
+      "Stainless"
+     ],
+     "electrical": "110 V, 2 A",
+     "min_mount_in": 96,
+     "certification": "Intertek 4009079",
+     "warranty": "2 years excl. hoses and igniters",
+     "mounting": "Wall or ceiling; wall brackets included; poles optional",
+     "deflector": "Recommended if clearance above is under 1,100 mm or the unit is exposed",
+     "dimming": "On/off only",
+     "controls": "Affinity On/Off controller (+ expansion board for BMS), manual wall switch",
+     "list_price_usd": [
+      2367,
+      2657
+     ]
+    },
+    "conflicts": [
+     "Site names the two models with the retired series numbers: refer to them by output (23,600 / 39,800 BTU)",
+     "Wind rating 20 km/h (body) vs 12 mph (features)",
+     "IP rating not given as a number"
+    ]
+   }
+  },
+  {
+   "id": "tungsten-gas-builtin",
+   "name": "Tungsten Gas (built-in)",
+   "fuel": "gas",
+   "status": "current",
+   "facts": {
+    "output_btu": "[[VERIFY: 39,800 (Planning Guide 2021) vs 38,000 (Lookbook freestanding) — do not publish — Mike Clifford]]"
+   },
+   "source": "bromic.com product page (read 29 Oct 2026; see site)",
+   "verified": false,
+   "site": {
+    "source": "https://www.bromic.com/product/tungsten-smart-heat-gas/",
+    "read_on": "2026-10-29",
+    "verified": false,
+    "verify": "[[VERIFY: values read from bromic.com through a summarising fetch; confirm against the 2026 cut sheet — Mike Clifford]]",
+    "facts": {
+     "models": [
+      {
+       "output_btu": 26000,
+       "coverage_ft2": 160,
+       "weight_lb": 33,
+       "sku": [
+        "BH0210001-1 NG",
+        "BH0210002-1 LPG"
+       ]
+      },
+      {
+       "output_btu": 43000,
+       "coverage_ft2": 215,
+       "weight_lb": 44,
+       "sku": [
+        "BH0210003-1 NG",
+        "BH0210004-1 LPG"
+       ]
+      }
+     ],
+     "electrical": "110 V, 2 A",
+     "finish": "Matte black",
+     "min_mount_in": 96,
+     "optimum_mount_ft": 8,
+     "wind_mph": 8,
+     "warranty": "2 years excl. hoses and igniters",
+     "mounting": "Wall or ceiling; pivot arm ±25°",
+     "deflector": "Recommended if space above is under 42 in or exposed",
+     "controls": "Affinity On/Off controller (+ expansion board for BMS), manual wall switch",
+     "list_price_usd": [
+      1828,
+      2087
+     ]
+    },
+    "conflicts": [
+     "The site publishes 26,000 and 43,000 BTU; the 2021 Planning Guide diagram said 39,800. Rule stands: no Tungsten gas BTU in content until Mike Clifford confirms",
+     "Site uses the retired series numbers"
+    ]
+   }
+  },
+  {
+   "id": "platinum-electric-marine",
+   "name": "Platinum Electric Marine",
+   "fuel": "electric",
+   "status": "current",
+   "facts": {},
+   "source": "bromic.com product page (read 29 Oct 2026; see site)",
+   "verified": false,
+   "site": {
+    "source": "https://www.bromic.com/product/platinum-smart-heat-electric-marine/",
+    "read_on": "2026-10-29",
+    "verified": false,
+    "verify": "[[VERIFY: values read from bromic.com through a summarising fetch; confirm against the 2026 cut sheet — Mike Clifford]]",
+    "facts": {
+     "models": [
+      {
+       "w": 2300,
+       "coverage_ft2": 65,
+       "weight_lb": 17
+      },
+      {
+       "w": 3400,
+       "coverage_ft2": 108,
+       "weight_lb": 22
+      },
+      {
+       "w": 4500,
+       "coverage_ft2": 143,
+       "weight_lb": 33
+      }
+     ],
+     "voltage": "220–240 V or 208 V",
+     "ip_rating": "IPX5",
+     "material": "AISI 316 marine-grade stainless steel",
+     "certification": "Lloyd's Register approval for marine applications",
+     "warranty": "5 years land-based; 3 years on vessels",
+     "min_mount_in": {
+      "wall": 72,
+      "ceiling": 96
+     },
+     "list_price_usd": [
+      3645,
+      5873
+     ],
+     "controls": "Affinity On/Off or Dimmer (sold separately), manual wall switch"
+    },
+    "conflicts": [
+     "FAQ says 314 stainless; the rest of the page says 316"
+    ]
+   }
+  },
+  {
+   "id": "cobalt-electric",
+   "name": "Cobalt Electric",
+   "fuel": "electric",
+   "status": "current",
+   "facts": {},
+   "source": "bromic.com product page (read 29 Oct 2026; see site)",
+   "verified": false,
+   "site": {
+    "source": "https://www.bromic.com/product/cobalt-smart-heat-electric/",
+    "read_on": "2026-10-29",
+    "verified": false,
+    "verify": "[[VERIFY: values read from bromic.com through a summarising fetch; confirm against the 2026 cut sheet — Mike Clifford]]",
+    "facts": {
+     "models": [
+      {
+       "w": 4000,
+       "coverage_ft2": 130,
+       "dims_in": "44 × 8.5 × 3.5",
+       "weight_lb": 19.8,
+       "amps_240v": 16.6,
+       "amps_208v": 18.75
+      },
+      {
+       "w": 6000,
+       "coverage_ft2": 160,
+       "dims_in": "56 × 8.5 × 3.5",
+       "weight_lb": 22,
+       "amps_240v": 25,
+       "amps_208v": 28.4
+      }
+     ],
+     "ip_rating": "IPX4",
+     "certification": "Intertek ETL / cETL 4005951",
+     "warranty": "1 year parts, 7 years elements",
+     "finish": "Silver",
+     "min_mount_ft": {
+      "wall": 6,
+      "ceiling": 8
+     },
+     "list_price_usd": [
+      585,
+      756
+     ],
+     "controls": "Affinity On/Off or Dimmer, manual wall switch, expansion board"
+    },
+    "conflicts": [
+     "Features say up to 144 ft²; spec table says 130 / 160 ft²"
+    ]
+   }
+  }
+ ],
+ "principles": [
+  {
+   "id": "outdoor-definition",
+   "fact": "An area counts as outdoor when at least 30% of its perimeter is permanently open. A partial cover traps a 'heat cloud' that adds a convective boost.",
+   "source": "Planning Guide v1.2 (2021) Step 01",
+   "verified": false
+  },
+  {
+   "id": "radiant",
+   "fact": "Radiant (infrared) heat warms people and objects, not air, so it works in light wind; forced air does not work outdoors and outdoor heat cannot be thermostatically controlled.",
+   "source": "Planning Guide v1.2 (2021) p.3",
+   "verified": false
+  },
+  {
+   "id": "wavelength",
+   "fact": "Short wave ≈90% radiant, warms instantly; medium wave ≈60% radiant, ≈30 s warm-up; long wave ≈40% radiant, ≈5 min warm-up, most wind-sensitive.",
+   "source": "Planning Guide v1.2 (2021) Step 04",
+   "verified": false
+  },
+  {
+   "id": "codes-electric",
+   "fact": "US electric heaters follow ANSI/NFPA 70 (NEC); Bromic guidance: wall mounts at least 72\" above floor, ceiling mounts at least 96\" (varies with output). Check with the local building authority.",
+   "source": "Planning Guide v1.2 (2021) Step 06",
+   "verified": false
+  },
+  {
+   "id": "codes-gas",
+   "fact": "US gas heaters follow ANSI Z223.1/NFPA 54. Certification marks: Intertek, UL, CSA. Check with the local building authority.",
+   "source": "Planning Guide v1.2 (2021) Step 06",
+   "verified": false
+  },
+  {
+   "id": "accessories",
+   "fact": "Electric: recess kits, suspension poles. Gas: heat deflectors (dual-layer stainless, reduce top clearance), ceiling poles (two units back to back).",
+   "source": "Planning Guide v1.2 (2021) Step 07",
+   "verified": false
+  },
+  {
+   "id": "commercial-voltage",
+   "fact": "Commercial electric supply options listed: 208V/240V/277V.",
+   "source": "Planning Guide v1.2 (2021) Step 08",
+   "verified": false
+  },
+  {
+   "id": "design-service",
+   "fact": "Complimentary design service: heater selection, placement, coverage drawings from photos, plans or drawings. bromic.com/design-your-space/ · 1-800-301-1293 (Mon–Fri 9–4 PT).",
+   "source": "Lookbook 2026 p.43",
+   "verified": false
+  }
+ ],
+ "conflicts": [
+  {
+   "topic": "Tungsten Electric coverage",
+   "old": "65–108 ft² (PG 2021)",
+   "current": "64–144 ft² (Lookbook)",
+   "rule": "Use Lookbook; flag to Mike Clifford"
+  },
+  {
+   "topic": "Platinum Electric coverage",
+   "old": "65–108 ft²",
+   "current": "65–143 ft²",
+   "rule": "Use Lookbook"
+  },
+  {
+   "topic": "Tungsten gas output",
+   "old": "39,800 BTU",
+   "current": "38,000 BTU (freestanding)",
+   "rule": "Do not publish built-in BTU until verified"
+  },
+  {
+   "topic": "Running cost per hour, 200 ft²",
+   "old": "NG $0.40, propane $2.50, electric $0.88 (2021)",
+   "current": "none",
+   "rule": "Recompute from sourced 2026 rates, show formula, [[VERIFY]]"
+  },
+  {
+   "topic": "Naming",
+   "old": "500 series",
+   "current": "Tungsten, Platinum, Eclipse",
+   "rule": "Never use legacy naming"
+  },
+  {
+   "topic": "Controls",
+   "old": "Optional Step 08",
+   "current": "Required",
+   "rule": "Controls are a required step"
+  },
+  {
+   "topic": "Tungsten Freestanding Gas output",
+   "old": "38,000 BTU (Lookbook 2026 p.39)",
+   "current": "38,500 BTU (bromic.com product page)",
+   "rule": "Use 38,000 until Mike Clifford confirms; flag"
+  },
+  {
+   "topic": "Tungsten Gas built-in output",
+   "old": "39,800 BTU (Planning Guide 2021 diagram)",
+   "current": "26,000 / 43,000 BTU (bromic.com, two models)",
+   "rule": "Still unpublished in content until verified"
+  },
+  {
+   "topic": "Eclipse Electric wattage",
+   "old": "not published (Lookbook)",
+   "current": "2900 W (spec table) vs 3000 W (FAQ)",
+   "rule": "Use 2900 W, flag the FAQ"
+  },
+  {
+   "topic": "Platinum Electric 3400 W coverage",
+   "old": "104 ft² (A03 interpolation)",
+   "current": "108 ft² (bromic.com spec table)",
+   "rule": "Use 108"
+  },
+  {
+   "topic": "Cobalt Electric coverage",
+   "old": "up to 144 ft² (features)",
+   "current": "130 / 160 ft² (spec table)",
+   "rule": "Use the spec table"
+  }
+ ]
 }

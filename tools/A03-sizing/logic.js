@@ -57,9 +57,10 @@ export function heaterCount(areaFt2, effective) {
 }
 
 // Controls bundle for `count` heaters of one family. Controls are always part of the recommendation.
-export function controlsBundle(controlsKey, count, zonesWanted, cfg) {
+export function controlsBundle(controlsKey, count, zonesWanted, cfg, watts = null) {
   const spec = cfg.controls[controlsKey];
-  const perController = val(spec.max_heaters_per_controller);
+  const kw = spec.max_kw_per_channel ? val(spec.max_kw_per_channel) : null;
+  const perController = kw && watts ? Math.max(1, Math.floor(kw * 1000 / watts)) : val(spec.max_heaters_per_controller);
   const zones = Math.min(count, Math.max(zonesWanted, perController ? Math.ceil(count / perController) : 1));
   const items = spec.items.map((it) => ({
     name: it.name,
@@ -136,7 +137,7 @@ export function size(rawInput, cfg) {
       opt.btu_each = val(p.btu) ?? null;
     }
     const n = opt.count ?? (opt.count_range ? opt.count_range[1] : 1);
-    opt.controls = controlsBundle(p.controls, n, input.zones, cfg);
+    opt.controls = controlsBundle(p.controls, n, input.zones, cfg, val(p.watts) ?? null);
     options.push(opt);
   }
 
