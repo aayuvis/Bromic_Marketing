@@ -20,7 +20,8 @@
       "installer": "a licensed electrician or gas fitter",
       "authority": "your local building authority",
       "propane": "20 lb exchange cylinders or a bulk tank",
-      "verify": null
+      "verify": null,
+      "cylinder_kg": 9.07
     },
     {
       "id": "ca",
@@ -41,7 +42,8 @@
       "installer": "a licensed electrician or a licensed gas technician",
       "authority": "your provincial or municipal authority",
       "propane": "20 lb cylinders or a bulk tank",
-      "verify": "[[VERIFY: current CEC and B149.1 editions and provincial amendments — Sean (West Canada)]]"
+      "verify": "[[VERIFY: current CEC and B149.1 editions and provincial amendments — Sean (West Canada)]]",
+      "cylinder_kg": 9.07
     },
     {
       "id": "au",
@@ -61,7 +63,8 @@
       "installer": "a licensed electrician or licensed gasfitter",
       "authority": "your state or territory regulator and local council",
       "propane": "LPG in 9 kg cylinders or larger bottles",
-      "verify": "[[VERIFY: current AS/NZS 3000 and 5601.1 editions — Bromic AU technical team]]"
+      "verify": "[[VERIFY: current AS/NZS 3000 and 5601.1 editions — Bromic AU technical team]]",
+      "cylinder_kg": 9
     },
     {
       "id": "nz",
@@ -81,7 +84,8 @@
       "installer": "a registered electrician or registered gasfitter",
       "authority": "your local council",
       "propane": "LPG in 9 kg cylinders or larger bottles",
-      "verify": "[[VERIFY: New Zealand regulations, and whether NZ customers go to bromic.com.au or a NZ distributor — Bromic AU/NZ team]]"
+      "verify": "[[VERIFY: New Zealand regulations, and whether NZ customers go to bromic.com.au or a NZ distributor — Bromic AU/NZ team]]",
+      "cylinder_kg": 9
     },
     {
       "id": "uk",
@@ -101,7 +105,8 @@
       "installer": "a registered electrician or a Gas Safe registered engineer",
       "authority": "your local authority building control",
       "propane": "LPG (propane) in 13 kg or 19 kg cylinders",
-      "verify": "[[VERIFY: current BS 7671 amendment and Part P notification for outdoor circuits — Bromic UK]]"
+      "verify": "[[VERIFY: current BS 7671 amendment and Part P notification for outdoor circuits — Bromic UK]]",
+      "cylinder_kg": 13
     },
     {
       "id": "benelux",
@@ -130,7 +135,8 @@
       "langs_planned": [
         "fr"
       ],
-      "note": "French (Belgium, Luxembourg) and Belgian-specific context are on hold (owner, 30 Oct 2026). Dutch is written for the Netherlands."
+      "note": "French (Belgium, Luxembourg) and Belgian-specific context are on hold (owner, 30 Oct 2026). Dutch is written for the Netherlands.",
+      "cylinder_kg": 10.5
     },
     {
       "id": "de",
@@ -151,7 +157,8 @@
       "installer": "a registered electrician (Elektrofachbetrieb) or gas installer",
       "authority": "your local building authority (Bauamt)",
       "propane": "propane in 5 kg or 11 kg cylinders",
-      "verify": "[[VERIFY: current VDE and DVGW rules for outdoor heaters — Raffaele Marti]]"
+      "verify": "[[VERIFY: current VDE and DVGW rules for outdoor heaters — Raffaele Marti]]",
+      "cylinder_kg": 11
     }
   ],
   "languages": {
@@ -170,5 +177,6 @@
   },
   "languages_planned": {
     "fr": "Français"
-  }
+  },
+  "cylinder_note": "cylinder_kg: the common patio-heater cylinder size per region (US/Canada 20 lb = 9.07 kg; AU/NZ 9 kg; UK 13 kg propane; Benelux 10.5 kg; Germany 11 kg), from the propane field above. Usable gallons = kg ÷ 1.923 kg a US gallon (4.24 lb, as in A20's config). [[VERIFY: regional cylinder sizes used by hospitality venues — regional teams]]"
 }

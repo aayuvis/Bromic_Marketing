@@ -101,6 +101,18 @@ records its offsets (`it.blocks`), so a save rewrites only what changed. Two way
   `node scripts/feedback.mjs` lists these with the feedback; apply each, run the tests, commit with `Fixes #N`, deploy, close.
 Commits titled "Hub edit: …" come from reviewers: pull before working (`git pull origin claude/dreamy-euler-xxi5g7`).
 
+## Regions and languages
+
+The Hub's top bar switches region: US · Canada · AUS · NZ · UK · Benelux (Dutch, English) · Germany (German, English)
+(`data/regions.json`; rules in [templates/regionalisation.md](templates/regionalisation.md)). French and Belgian context are on
+hold (owner, 30 Oct 2026). English (US) is the master. Outside the US, English pages convert units on the page (m², m, mm, °C,
+kW, L, kg; Canada keeps imperial in brackets) and every item shows a regional panel (codes, mains, installer, local Bromic site,
+"figures are US data"). Dutch and German are full translations in `content/i18n/<lang>/<same path>`, regionalised (metric, local
+codes, no dollar→euro conversion), `translation_status: machine-draft` until a native reviewer signs off; `node app/test/i18n.mjs`
+holds each to its master (citations, images, links, VERIFY notes, metric only). **When an English item changes, its translations
+are stale: update them in the same commit.** The tools read the region (`tools/_shared/region.js`, strings in
+`tools/_shared/strings.json`): lengths, areas and labels convert; A20/A21 use regional prices (`data/regional-prices.json`).
+
 ## Publish the Hub
 
 `cd app && ./deploy.sh` builds, renders the PDFs, and force-replaces the `gh-pages` branch →

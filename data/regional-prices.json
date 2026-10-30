@@ -1,0 +1,159 @@
+{
+  "_readme": "Average energy prices for COMMERCIAL / non-household customers, for outdoor-heater running-cost calculators. Gathered 30 Oct 2026 from the official sources named on each value (Eurostat API, DESNZ table_341.xlsx, Hydro-Québec 2025 comparison PDF, Statistics Canada WDS API table 25-10-0086, ESC Victoria VDO page, MBIE data via Figure.NZ, NRCan fuel prices, ECB reference rates). Every figure was read on the page/file at the url given; derived values show their arithmetic in 'derivation'. Prices are in local currency per kWh delivered (gas: per kWh of gas energy, gross calorific value where the source says so). Business basis = excluding VAT/GST (recoverable) unless 'basis' says otherwise. 'alt' holds other size bands from the same source. A null value carries a 'note' and, where useful, a 'proxy' that is NOT the requested measure. All verified:false until a human checks the source. Not found: AU gas, all LPG cylinder/bulk commercial figures. Blocked from here: ACCC (403), AER (connection refused), MBIE and data.govt.nz (bot check) - not circumvented.",
+  "built": "2026-10-30",
+  "fx": {
+    "base": "USD",
+    "date": "2026-10-30",
+    "source": "European Central Bank, euro foreign exchange reference rates (daily XML). USD->X derived as (EUR->X) / (EUR->USD); EUR = 1 / 1.1172. ECB quotes seen: USD 1.1172, GBP 0.83380, AUD 1.5904, CAD 1.5606, NZD 1.9823 per EUR.",
+    "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+    "rates": {"CAD": 1.3969, "AUD": 1.4236, "NZD": 1.7743, "GBP": 0.7463, "EUR": 0.8951},
+    "verified": false
+  },
+  "regions": {
+    "ca": {
+      "kwh": {
+        "value": 0.156,
+        "currency": "CAD",
+        "period": "rates in effect 1 Apr 2025 (2025 edition; latest edition linked by Hydro-Québec as of Oct 2026)",
+        "basis": "excluding taxes; small-power customer, 10,000 kWh/month, 40 kW demand; unweighted mean of the 12 Canadian cities' average prices (range 9.69 Winnipeg to 20.99 Edmonton c/kWh)",
+        "derivation": "mean of 12.08, 14.42, 20.44, 20.99, 19.19, 17.98, 14.14, 15.43, 14.59, 15.50, 12.70, 9.69 c/kWh = 15.60 c/kWh (= mean monthly bill C$1,559.59 / 10,000 kWh)",
+        "source": "Hydro-Québec, Comparison of Electricity Prices in Major North American Cities 2025, Detailed tables - Average prices on April 1, 2025 (excluding taxes)",
+        "url": "https://www.hydroquebec.com/data/documents-donnees/pdf/comparaison-prix-2025-en.pdf",
+        "verified": false
+      },
+      "gas_kwh": {
+        "value": 0.0236,
+        "currency": "CAD",
+        "period": "Sep 2025 - Aug 2026 (12 months)",
+        "basis": "Canada, commercial consumption: sales value (C$) / energy (GJ). Tax basis not stated by StatCan. DOUBTFUL: likely understates the delivered price, as the dollar series may cover only utility-supplied gas and not commodity bought from marketers; C$6.56/GJ looks low against utility commercial tariffs. Treat as a floor.",
+        "derivation": "C$3,958,793k / 603,586.5k GJ = C$6.559/GJ; / 277.778 kWh per GJ = C$0.0236/kWh. Also C$0.258/m3 (15,355,607k m3; 0.0393 GJ/m3).",
+        "source": "Statistics Canada, Table 25-10-0086-01 Natural gas supply and disposition, monthly (Commercial consumption: cubic metres, gigajoules, Canadian dollars)",
+        "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2510008601",
+        "verified": false
+      },
+      "lpg_kg": {"value": null, "note": "No official commercial propane price per kg found."},
+      "lpg_l": {
+        "value": null,
+        "note": "No official commercial cylinder/bulk heating-propane price found. NRCan publishes only AUTO propane (vehicle fuel at the pump), which is not the same product price.",
+        "proxy": {"value": 1.289, "currency": "CAD", "what": "Auto propane, Canada average retail pump price, week of 2026-10-20 (128.9 c/L; later rows 129.1 c/L); tax basis not stated on page", "url": "https://www2.nrcan.gc.ca/eneene/sources/pripri/prices_byfuel_e.cfm"}
+      }
+    },
+    "au": {
+      "kwh": {
+        "value": 0.256,
+        "currency": "AUD",
+        "period": "1 Jul 2026 - 30 Jun 2027",
+        "basis": "VICTORIA ONLY: Victorian Default Offer small-business flat tariff, usage charge only (excludes daily supply charge), mean of 5 distribution zones, GST removed. A regulated default price; market offers are often lower. Not a national average.",
+        "derivation": "mean of 0.3423 (AusNet), 0.2477 (CitiPower), 0.2878 (Jemena), 0.2736 (Powercor), 0.2561 (United Energy) = A$0.2815/kWh incl GST; / 1.1 = A$0.256 ex GST",
+        "source": "Essential Services Commission (Victoria), Victorian Default Offer 2026-27, small business flat tariffs",
+        "url": "https://www.esc.vic.gov.au/electricity-and-gas/prices-tariffs-and-benchmarks/victorian-default-offer",
+        "verified": false
+      },
+      "gas_kwh": {"value": null, "note": "None found. ACCC (gas inquiry, NEM inquiry) returned HTTP 403 and AER was unreachable from here; no other official small-business gas price per GJ/MJ was seen. The ACCC June 2026 NEM report (Q3 2025 small-business effective prices, c/kWh) should be checked by hand for electricity too: https://www.accc.gov.au/system/files/inquiry-national-electricity-market-report-june-2026.pdf"},
+      "lpg_kg": {"value": null, "note": "None found. ACCC/FuelWatch monitor AUTOMOTIVE LPG only, which is not cylinder or bulk heating LPG."},
+      "lpg_l": {"value": null, "note": "None found (see lpg_kg)."}
+    },
+    "nz": {
+      "kwh": {
+        "value": 0.230,
+        "currency": "NZD",
+        "period": "calendar year 2024 (latest in MBIE Energy prices, June 2025 release, published 11 Sep 2025)",
+        "basis": "commercial, nominal, excluding GST; sales-based average (sales value / kWh)",
+        "derivation": "22.99865626391 NZ c/kWh (2023: 20.94)",
+        "source": "MBIE, Energy in New Zealand: Energy prices (June 2025), via Figure.NZ chart 'Nominal average prices of commercial and industrial electricity in New Zealand'",
+        "url": "https://figure.nz/chart/fLIOX9BpEtBIeEVJ-XuCFUBREwvEXfCvj",
+        "verified": false
+      },
+      "gas_kwh": {
+        "value": 0.101,
+        "currency": "NZD",
+        "period": "calendar year 2024 (MBIE Energy prices, June 2025 release)",
+        "basis": "commercial, nominal, excluding GST",
+        "derivation": "about 10.09 NZ c/kWh as read from the chart by the fetch tool - check the exact figure",
+        "source": "MBIE, Energy in New Zealand: Energy prices (June 2025), via Figure.NZ chart 'Nominal average prices of natural gas in New Zealand'",
+        "url": "https://figure.nz/chart/fLIOX9BpEtBIeEVJ-XrtjOVNZBlH558EZ",
+        "verified": false
+      },
+      "lpg_kg": {"value": null, "note": "None found. Stats NZ publishes only a commercial LPG price INDEX (Q2 2025: -0.9% y/y), not a price: https://figure.nz/chart/MpufQ9UN7X2pUSFS-mRUs9AzxuoFYjUJx. MBIE's own site was behind a bot check."},
+      "lpg_l": {"value": null, "note": "None found (see lpg_kg)."}
+    },
+    "uk": {
+      "kwh": {
+        "value": 0.2859,
+        "currency": "GBP",
+        "period": "Q2 2026 (provisional; published 29 Sep 2026)",
+        "basis": "non-domestic, 'Small' band (20-499 MWh/yr), including Climate Change Levy, excluding VAT",
+        "derivation": "28.5888 p/kWh",
+        "alt": {"very_small_0_20MWh": 0.3836, "average_all_bands": 0.2451},
+        "source": "DESNZ, Quarterly Energy Prices, Table 3.4.2 Prices of fuels purchased by non-domestic consumers (including CCL)",
+        "url": "https://assets.publishing.service.gov.uk/media/6ab543da997a4b2950cceedc/table_341.xlsx",
+        "verified": false
+      },
+      "gas_kwh": {
+        "value": 0.0486,
+        "currency": "GBP",
+        "period": "Q2 2026 (provisional)",
+        "basis": "non-domestic, 'Small' band (278-2,777 MWh/yr, comparable to Eurostat band I2), including CCL, excluding VAT",
+        "derivation": "4.8560 p/kWh",
+        "alt": {"very_small_under_278MWh": 0.0931, "average_all_bands": 0.0528},
+        "source": "DESNZ, Quarterly Energy Prices, Table 3.4.2 (including CCL)",
+        "url": "https://assets.publishing.service.gov.uk/media/6ab543da997a4b2950cceedc/table_341.xlsx",
+        "verified": false
+      },
+      "lpg_kg": {"value": null, "note": "None found. No official non-domestic LPG price; Sutherland Tables are paywalled."},
+      "lpg_l": {
+        "value": null,
+        "note": "No official commercial LPG price. Proxy below is DOMESTIC, one county, and stale.",
+        "proxy": {"value": 0.55, "currency": "GBP", "what": "Nottingham Energy Partnership, average Nottinghamshire LPG price, 55 p/litre (9.01 p/kWh at 90% boiler efficiency, 6.78 kWh/L), last priced Feb 2026 (unchanged since Apr 2025; no data Mar-Oct 2026); domestic, VAT basis not stated", "url": "https://www.nottenergy.com/guides/project-energy-cost-comparison"}
+      }
+    },
+    "nl": {
+      "kwh": {
+        "value": 0.2693,
+        "currency": "EUR",
+        "period": "2026-S1 (H1 2026)",
+        "basis": "non-household band IB (20-499 MWh/yr), excluding VAT and other recoverable taxes and levies (Eurostat tax=X_VAT)",
+        "alt": {"IA_under_20MWh_X_VAT": 0.4113, "IB_excl_all_taxes": 0.2115, "IB_all_taxes_incl": 0.3259},
+        "source": "Eurostat, nrg_pc_205 Electricity prices for non-household consumers - bi-annual data (updated 19 Oct 2026)",
+        "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nrg_pc_205?format=JSON&lang=EN&geo=NL&geo=DE&nrg_cons=MWH20-499&currency=EUR&lastTimePeriod=2",
+        "verified": false
+      },
+      "gas_kwh": {
+        "value": 0.1146,
+        "currency": "EUR",
+        "period": "2026-S1 (H1 2026)",
+        "basis": "non-household band I2 (1,000-9,999 GJ/yr), excluding VAT and other recoverable taxes and levies; per kWh GCV (Eurostat also gives EUR 31.8439/GJ GCV)",
+        "alt": {"I1_under_1000GJ_X_VAT": 0.1254, "I2_excl_all_taxes": 0.0532, "I2_all_taxes_incl": 0.1387},
+        "source": "Eurostat, nrg_pc_203 Gas prices for non-household consumers - bi-annual data",
+        "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nrg_pc_203?format=JSON&lang=EN&geo=NL&geo=DE&nrg_cons=GJ1000-9999&currency=EUR&lastTimePeriod=2",
+        "verified": false
+      },
+      "lpg_kg": {"value": null, "note": "None found: no official commercial propane price for the Netherlands was located."},
+      "lpg_l": {"value": null, "note": "None found (CBS publishes autogas pump prices only, which is not cylinder/bulk propane; not used)."}
+    },
+    "de": {
+      "kwh": {
+        "value": 0.2366,
+        "currency": "EUR",
+        "period": "2026-S1 (H1 2026)",
+        "basis": "non-household band IB (20-499 MWh/yr), excluding VAT and other recoverable taxes and levies",
+        "alt": {"IA_under_20MWh_X_VAT": 0.2957, "IB_excl_all_taxes": 0.1818, "IB_all_taxes_incl": 0.2821},
+        "source": "Eurostat, nrg_pc_205 Electricity prices for non-household consumers - bi-annual data",
+        "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nrg_pc_205?format=JSON&lang=EN&geo=NL&geo=DE&nrg_cons=MWH20-499&currency=EUR&lastTimePeriod=2",
+        "verified": false
+      },
+      "gas_kwh": {
+        "value": 0.0811,
+        "currency": "EUR",
+        "period": "2026-S1 (H1 2026)",
+        "basis": "non-household band I2 (1,000-9,999 GJ/yr), excluding VAT and other recoverable taxes and levies; per kWh GCV (EUR 22.5406/GJ GCV)",
+        "alt": {"I1_under_1000GJ_X_VAT": 0.0915, "I2_excl_all_taxes": 0.0642, "I2_all_taxes_incl": 0.0968},
+        "source": "Eurostat, nrg_pc_203 Gas prices for non-household consumers - bi-annual data",
+        "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nrg_pc_203?format=JSON&lang=EN&geo=NL&geo=DE&nrg_cons=GJ1000-9999&currency=EUR&lastTimePeriod=2",
+        "verified": false
+      },
+      "lpg_kg": {"value": null, "note": "None found. Destatis publishes Flüssiggas only as a price index; DVFG publishes no current average. Comparison portals (e.g. Check24, ~98 c/L incl VAT, May 2026, domestic tanks) are not authoritative and were not used."},
+      "lpg_l": {"value": null, "note": "None found (see lpg_kg)."}
+    }
+  }
+}
