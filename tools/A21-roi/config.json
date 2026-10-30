@@ -112,6 +112,14 @@
       "verified": false,
       "verify": "[[VERIFY: benchmarks — Blake Petty]]",
       "owner": "Blake Petty"
+    },
+    "installed_per_heater": {
+      "value": 5000,
+      "unit": "$ per heater installed, all in: heater, its share of Affinity controls, wiring, mounting, permits",
+      "source": "PLACEHOLDER: the COM-IN-01 worked example's $30,000 for six heaters, divided by six. Not a Bromic price or quote",
+      "verified": false,
+      "verify": "[[VERIFY: typical all-in installed cost per Platinum 4500W heater with Affinity controls — Shaughn Ritchie]]",
+      "owner": "Shaughn Ritchie"
     }
   },
   "sensitivity": {
@@ -134,5 +142,213 @@
     "scope": "Illustrative: every default is an assumption chosen to show the method, not a benchmark or a promise. Excludes financing, tax, depreciation, demand charges and maintenance. Use your own POS and P&L figures.",
     "code": "Code and permit requirements vary by city and change over time. Confirm with your local building and fire authority, and use a licensed electrician or gas fitter (US: NFPA 70 for electric, NFPA 54 for gas).",
     "code_source_url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
-  }
+  },
+  "venues": [
+    {
+      "id": "restaurant",
+      "label": "Restaurant patio",
+      "image": "p-004-007",
+      "profile": {
+        "value": {
+          "heated_seats": 40,
+          "months": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "days_per_week": 7,
+          "hours_per_night": 5
+        },
+        "unit": "starting profile: heated seats, months heat keeps the patio open, days a week, heated hours a night",
+        "source": "Starting point only, not a survey: heat adds March and November, close to the COM-IN-01 example of 60 extra nights. The visitor changes every part of it.",
+        "verified": false,
+        "verify": "[[VERIFY: typical heated seats and shoulder season for this venue type — Brian Kim]]",
+        "owner": "Brian Kim"
+      }
+    },
+    {
+      "id": "rooftop",
+      "label": "Rooftop bar",
+      "image": "w-aba-restaurant",
+      "profile": {
+        "value": {
+          "heated_seats": 60,
+          "months": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "days_per_week": 7,
+          "hours_per_night": 5
+        },
+        "unit": "starting profile: heated seats, months heat keeps the patio open, days a week, heated hours a night",
+        "source": "Starting point only, not a survey: heat adds spring and autumn evenings. The visitor changes every part of it.",
+        "verified": false,
+        "verify": "[[VERIFY: typical heated seats and shoulder season for this venue type — Brian Kim]]",
+        "owner": "Brian Kim"
+      }
+    },
+    {
+      "id": "hotel",
+      "label": "Hotel terrace",
+      "image": "w-bromic-ambiente-sedona-10",
+      "profile": {
+        "value": {
+          "heated_seats": 30,
+          "months": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "days_per_week": 7,
+          "hours_per_night": 4
+        },
+        "unit": "starting profile: heated seats, months heat keeps the patio open, days a week, heated hours a night",
+        "source": "Starting point only, not a survey: heat adds spring and autumn evenings. The visitor changes every part of it.",
+        "verified": false,
+        "verify": "[[VERIFY: typical heated seats and shoulder season for this venue type — Brian Kim]]",
+        "owner": "Brian Kim"
+      }
+    },
+    {
+      "id": "pub",
+      "label": "Pub or beer garden",
+      "image": "w-1",
+      "profile": {
+        "value": {
+          "heated_seats": 80,
+          "months": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "days_per_week": 7,
+          "hours_per_night": 5
+        },
+        "unit": "starting profile: heated seats, months heat keeps the patio open, days a week, heated hours a night",
+        "source": "Starting point only, not a survey: heat adds March, October and November. The visitor changes every part of it.",
+        "verified": false,
+        "verify": "[[VERIFY: typical heated seats and shoulder season for this venue type — Brian Kim]]",
+        "owner": "Brian Kim"
+      }
+    },
+    {
+      "id": "casual",
+      "label": "Café or food hall",
+      "image": "w-commercial-australia-sydney-manly-wharf-15",
+      "profile": {
+        "value": {
+          "heated_seats": 50,
+          "months": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "days_per_week": 7,
+          "hours_per_night": 6
+        },
+        "unit": "starting profile: heated seats, months heat keeps the patio open, days a week, heated hours a night",
+        "source": "Starting point only, not a survey: heat adds March and November, longer hours. The visitor changes every part of it.",
+        "verified": false,
+        "verify": "[[VERIFY: typical heated seats and shoulder season for this venue type — Brian Kim]]",
+        "owner": "Brian Kim"
+      }
+    },
+    {
+      "id": "cafe",
+      "label": "Sidewalk café",
+      "image": "w-eclipse-electric-wall-mount-commercial-scene",
+      "profile": {
+        "value": {
+          "heated_seats": 20,
+          "months": [
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "days_per_week": 7,
+          "hours_per_night": 4
+        },
+        "unit": "starting profile: heated seats, months heat keeps the patio open, days a week, heated hours a night",
+        "source": "Starting point only, not a survey: heat adds cool spring and autumn days. The visitor changes every part of it.",
+        "verified": false,
+        "verify": "[[VERIFY: typical heated seats and shoulder season for this venue type — Brian Kim]]",
+        "owner": "Brian Kim"
+      }
+    }
+  ],
+  "default_venue": "restaurant",
+  "sizing": {
+    "ft2_per_seat": {
+      "value": 15,
+      "unit": "ft² of heated patio per seat",
+      "source": "Rule-of-thumb placeholder for full-service patio dining; no published source read",
+      "verified": false,
+      "verify": "[[VERIFY: patio ft² per seat to use (and source) — Blake Petty]]",
+      "owner": "Blake Petty"
+    },
+    "coverage_ft2": {
+      "value": 143,
+      "unit": "ft² per heater",
+      "source": "Lookbook 2026 p.21 (top of the 65–143 ft² range mapped to the 4500W Platinum); same basis as A20",
+      "verified": false,
+      "verify": "[[VERIFY: coverage of the 4500W model — Mike Clifford]]",
+      "owner": "Mike Clifford"
+    }
+  },
+  "product_image": "w-platinum-black"
 }

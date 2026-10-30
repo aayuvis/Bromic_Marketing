@@ -30,10 +30,14 @@ sources:
 ---
 
 **What it does.** An operator sees what heating the patio could add: the extra revenue from nights they could not seat outside
-before, the margin on it, and how many months the installed cost takes to pay back.
+before, the margin on it, and how many months the installed cost takes to pay back. A venue picture sets a starting profile,
+the extra nights come from the months heat keeps the patio open, the heaters are sized from the seats, and the electricity price
+comes from the state (EIA). The result card shows a seat grid, where each added dollar goes, the cash position month by month with
+the break-even point, and payback at other capture rates.
 
-**Inputs.** Heated seats · average check · turns per night · extra operating nights a year · capture rate (share of those seats
-you expect to fill) · gross margin % · installed cost (heaters, controls, install).
+**Inputs.** Venue · heated seats · average check · turns per night · months heat keeps the patio open and days a week · capture
+rate (share of those seats you expect to fill) · contribution margin % · state (electricity price) · heaters (auto from seats) ·
+installed cost a heater, all in (heater, controls, wiring, permits).
 
 **Outputs.** On screen: added revenue a year and payback in months. Behind the form: margin, a sensitivity view and the heaters and
 controls the installed cost should cover (Affinity Smart-Heat controller, wall switch, app).

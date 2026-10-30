@@ -2,7 +2,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { roi, defaults, paybackMonths } from './logic.js';
+import { roi, defaults, paybackMonths, seasonNights, autoHeaters, venueProfile } from './logic.js';
 
 const cfg = JSON.parse(readFileSync(new URL('./config.json', import.meta.url), 'utf8'));
 const near = (a, b, tol, msg) => assert.ok(Math.abs(a - b) <= tol, `${msg}: ${a} vs ${b} (±${tol})`);
@@ -56,4 +56,25 @@ test('5. Guard rails: bad numbers are rejected per field', () => {
   assert.equal(r.ok, false);
   for (const k of ['heated_seats', 'capture_pct', 'average_check', 'installed_cost']) assert.ok(r.errors[k], k);
   assert.equal(roi({ ...defaults(cfg), average_check: '$45', installed_cost: '30,000' }, cfg).ok, true, 'accepts $ and thousands separators');
+});
+
+test('6. Season, auto heaters and cost per heater: March and November, 7 days → 61 nights; 40 seats → 5 heaters; 5 × $5,000', () => {
+  const marNov = [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0].map(Boolean);
+  assert.equal(seasonNights(marNov, 7), 61);
+  assert.equal(seasonNights(marNov, 3.5), 31);
+  assert.equal(autoHeaters(40, cfg), Math.ceil(40 * 15 / 143));
+  const r = roi({ ...defaults(cfg), months: '001000000010', days_per_week: 7, heaters: '', installed_cost: '', installed_per_heater: 5000 }, cfg);
+  assert.equal(r.ok, true);
+  assert.equal(r.input.extra_nights, 61);
+  assert.equal(r.input.heaters, 5);
+  assert.equal(r.input.heaters_auto, true);
+  assert.equal(r.input.installed_cost, 25000);
+  // the cash curve starts at minus the installation and crosses zero at the payback month
+  assert.equal(r.cash[0], -25000);
+  const m = Math.ceil(r.payback_months);
+  assert.ok(r.cash[m - 1] < 0 && r.cash[m] >= 0);
+  near(r.cost_of_sales, r.revenue - r.margin, 0.01, 'cost of sales');
+  const none = roi({ ...defaults(cfg), months: '000000000000', days_per_week: 7 }, cfg);
+  assert.equal(none.ok, false);
+  for (const v of cfg.venues) { const p = venueProfile(v.id, cfg); assert.ok(p.heated_seats > 0 && p.months.some(Boolean) && p.days_per_week >= 1, v.id); }
 });

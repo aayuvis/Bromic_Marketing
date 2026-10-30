@@ -3,6 +3,13 @@
 Draft 0.1.0. Cell COM-IN (also serves COM-AW), gated (lead form from `../_shared/lead.js`), CTA → A22 permit and fire-code
 checklist (COM-PP). Turns heated patio seats into a capex case: added revenue, added margin, payback in months.
 
+The visitor picks a venue picture (a starting profile of seats and shoulder season, every part a placeholder they change), sets
+the trade (seats, average check, margin, turns), taps the months heat keeps the patio open (`seasonNights` gives the extra nights),
+sets the capture rate, and picks a state for the electricity price (A20's `state-prices.json`, EIA). Heaters are sized from the
+seats (`autoHeaters`: seats × ft² a seat ÷ coverage) and the installed cost is heaters × an all-in cost a heater (a placeholder).
+The result card shows the payback, a seat grid, a revenue-to-net waterfall, the cash position by month for three years
+(`cash`) with the break-even month, and payback at other capture rates. Venue photos come from A20's `images.json`.
+
 ## Files
 
 | File | Role |
