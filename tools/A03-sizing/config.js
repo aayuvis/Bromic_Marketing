@@ -454,6 +454,156 @@ export default {
         "verify": "[[VERIFY: Tungsten Gas built-in coverage and BTU — Mike Clifford]]",
         "owner": "Mike Clifford"
       }
+    },
+    {
+      "id": "tungsten-electric-2000",
+      "family": "tungsten-electric",
+      "name": "Tungsten Smart-Heat Electric 2000W",
+      "fuel": "electric",
+      "style": "built-in",
+      "status": "current",
+      "controls": "affinity",
+      "coverage_ft2": {
+        "value": 65,
+        "unit": "ft²",
+        "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026) spec table: 2000 W, 65 ft²",
+        "verified": false,
+        "verify": "[[VERIFY: coverage of the Tungsten Smart-Heat Electric 2000W — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      },
+      "watts": {
+        "value": 2000,
+        "unit": "W",
+        "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026)",
+        "verified": false,
+        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    {
+      "id": "tungsten-electric-3000",
+      "family": "tungsten-electric",
+      "name": "Tungsten Smart-Heat Electric 3000W",
+      "fuel": "electric",
+      "style": "built-in",
+      "status": "current",
+      "controls": "affinity",
+      "coverage_ft2": {
+        "value": 100,
+        "unit": "ft²",
+        "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026) spec table: 3000 W, 100 ft²",
+        "verified": false,
+        "verify": "[[VERIFY: coverage of the Tungsten Smart-Heat Electric 3000W — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      },
+      "watts": {
+        "value": 3000,
+        "unit": "W",
+        "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026)",
+        "verified": false,
+        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    {
+      "id": "tungsten-electric-4000",
+      "family": "tungsten-electric",
+      "name": "Tungsten Smart-Heat Electric 4000W",
+      "fuel": "electric",
+      "style": "built-in",
+      "status": "current",
+      "controls": "affinity",
+      "coverage_ft2": {
+        "value": 130,
+        "unit": "ft²",
+        "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026) spec table: 4000 W, 130 ft²",
+        "verified": false,
+        "verify": "[[VERIFY: coverage of the Tungsten Smart-Heat Electric 4000W — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      },
+      "watts": {
+        "value": 4000,
+        "unit": "W",
+        "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026)",
+        "verified": false,
+        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    {
+      "id": "tungsten-electric-6000",
+      "family": "tungsten-electric",
+      "name": "Tungsten Smart-Heat Electric 6000W",
+      "fuel": "electric",
+      "style": "built-in",
+      "status": "current",
+      "controls": "affinity",
+      "coverage_ft2": {
+        "value": 160,
+        "unit": "ft²",
+        "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026) spec table: 6000 W, 160 ft²",
+        "verified": false,
+        "verify": "[[VERIFY: coverage of the Tungsten Smart-Heat Electric 6000W — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      },
+      "watts": {
+        "value": 6000,
+        "unit": "W",
+        "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026)",
+        "verified": false,
+        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    {
+      "id": "cobalt-4000",
+      "family": "cobalt",
+      "name": "Cobalt Smart-Heat Electric 4000W",
+      "fuel": "electric",
+      "style": "built-in",
+      "status": "current",
+      "controls": "affinity",
+      "coverage_ft2": {
+        "value": 130,
+        "unit": "ft²",
+        "source": "bromic.com product page https://www.bromic.com/product/cobalt-smart-heat-electric/ (read 29 Oct 2026) spec table: 4000 W, 130 ft²",
+        "verified": false,
+        "verify": "[[VERIFY: coverage of the Cobalt Smart-Heat Electric 4000W — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      },
+      "watts": {
+        "value": 4000,
+        "unit": "W",
+        "source": "bromic.com product page https://www.bromic.com/product/cobalt-smart-heat-electric/ (read 29 Oct 2026)",
+        "verified": false,
+        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    {
+      "id": "cobalt-6000",
+      "family": "cobalt",
+      "name": "Cobalt Smart-Heat Electric 6000W",
+      "fuel": "electric",
+      "style": "built-in",
+      "status": "current",
+      "controls": "affinity",
+      "coverage_ft2": {
+        "value": 160,
+        "unit": "ft²",
+        "source": "bromic.com product page https://www.bromic.com/product/cobalt-smart-heat-electric/ (read 29 Oct 2026) spec table: 6000 W, 160 ft²",
+        "verified": false,
+        "verify": "[[VERIFY: coverage of the Cobalt Smart-Heat Electric 6000W — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      },
+      "watts": {
+        "value": 6000,
+        "unit": "W",
+        "source": "bromic.com product page https://www.bromic.com/product/cobalt-smart-heat-electric/ (read 29 Oct 2026)",
+        "verified": false,
+        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
     }
   ],
   "controls": {
@@ -560,5 +710,105 @@ export default {
     "coverage": "Coverage is approximate and varies by heater model, mounting height, environment and installation conditions (Lookbook 2026). This is a first estimate, not a design.",
     "code": "Electric heaters in the US follow ANSI/NFPA 70 (NEC) and gas heaters ANSI Z223.1/NFPA 54. Confirm every installation with your local building authority and a licensed electrician or gas fitter.",
     "code_source_url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
-  }
+  },
+  "families": [
+    {
+      "id": "any",
+      "name": "Help me choose",
+      "tagline": "Show the best fit across the range",
+      "fuel": "any",
+      "style": "any",
+      "image": ""
+    },
+    {
+      "id": "platinum-electric",
+      "name": "Platinum Electric",
+      "tagline": "Slim linear heat for walls, ceilings and flush recesses",
+      "fuel": "electric",
+      "style": "built-in",
+      "image": "w-platinum-black"
+    },
+    {
+      "id": "tungsten-electric",
+      "name": "Tungsten Electric",
+      "tagline": "Linear heat in black or white, 2 to 6 kW",
+      "fuel": "electric",
+      "style": "built-in",
+      "image": "w-tungelec-stacked"
+    },
+    {
+      "id": "eclipse-electric",
+      "name": "Eclipse",
+      "tagline": "Round heat and light on a pole or pendant",
+      "fuel": "electric",
+      "style": "built-in",
+      "image": "w-eclipse-electric"
+    },
+    {
+      "id": "eclipse-freestanding",
+      "name": "Eclipse Freestanding",
+      "tagline": "Heat and light that moves with you",
+      "fuel": "electric",
+      "style": "freestanding",
+      "image": "w-eclipse-portable"
+    },
+    {
+      "id": "cobalt",
+      "name": "Cobalt Electric",
+      "tagline": "Silver linear heat for walls and ceilings",
+      "fuel": "electric",
+      "style": "built-in",
+      "image": "w-cobalt-electric-product"
+    },
+    {
+      "id": "platinum-gas",
+      "name": "Platinum Gas",
+      "tagline": "Built-in gas heat for larger terraces",
+      "fuel": "gas",
+      "style": "built-in",
+      "image": "w-platinum-gas-300"
+    },
+    {
+      "id": "tungsten-gas-builtin",
+      "name": "Tungsten Gas",
+      "tagline": "Built-in gas heat in matte black",
+      "fuel": "gas",
+      "style": "built-in",
+      "image": "w-tungsten-gas-500"
+    },
+    {
+      "id": "tungsten-freestanding-gas",
+      "name": "Tungsten Portable",
+      "tagline": "Freestanding gas heat, no wiring",
+      "fuel": "gas",
+      "style": "freestanding",
+      "image": "w-tung-port"
+    }
+  ],
+  "controls_images": {
+    "controller": "w-affinity-dimmer-1ch-2",
+    "switch": "w-manual-1ch-indoor-switch-image"
+  },
+  "shapes": [
+    {
+      "id": "rect",
+      "name": "Rectangle"
+    },
+    {
+      "id": "l",
+      "name": "L-shape"
+    },
+    {
+      "id": "u",
+      "name": "U-shape or courtyard"
+    },
+    {
+      "id": "narrow",
+      "name": "Long and narrow"
+    },
+    {
+      "id": "round",
+      "name": "Round"
+    }
+  ]
 };

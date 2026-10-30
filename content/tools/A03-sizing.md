@@ -7,7 +7,7 @@ audience: [RES]
 stage: [CO]
 cell: RES-CO
 asset: A03
-summary: "Length, width, enclosure, climate and mount height in; a heater count, the model that fits and the controls that run it out. The full report sits behind the lead form."
+summary: "Shape, size, cover, climate and a tapped heater picture in; a to-scale plan, a heater count, the model that fits and the controls that run it out. The full report sits behind the lead form."
 primary_keyword: how many patio heaters do i need
 secondary_keywords: [patio heater calculator, outdoor heater sizing]
 ai_prompt: "How many outdoor heaters do I need for my patio?"
@@ -36,12 +36,13 @@ sources:
     verified: true
 ---
 
-**What it does.** A homeowner enters the size of the space, how covered it is, how cold their evenings get, their fuel and style
-preference, mount height and number of zones. The page answers with a heater count, the model that fits best and the controls that
+**What it does.** A homeowner picks the shape of the space (rectangle, L, U or courtyard, long and narrow, round), sets its size,
+how covered it is and how cold their evenings get, then taps a heater picture (or "Help me choose"). Each heater card shows its own
+live count. The page answers with a to-scale plan of the space showing each heater's reach as a glow, a heater count, the model that fits best and the controls that
 run it: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app
 features need compatible Affinity controls, sold separately.
 
-**Inputs.** Length and width (ft) · enclosure: open, partially covered, covered · climate: mild, cool, cold · fuel: electric, gas,
+**Inputs.** Shape · its sides or diameter (ft) · heater family (picture cards) · enclosure: open, partially covered, covered · climate: mild, cool, cold · fuel: electric, gas,
 either · style: built-in, freestanding, either · mount height (ft) · zones.
 
 **Outputs.** On screen: the count, the lead model, its controls bundle. Behind the form: every model that fits, the controls for

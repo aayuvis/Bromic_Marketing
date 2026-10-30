@@ -3,8 +3,12 @@
 **Asset:** A03 · **Cell:** RES-CO / ARC-CO · **Status:** draft 0.1 · **Reviewers:** Brian Kim (logic, form), 454 Creative (embed), Mike Clifford (every product value)
 
 ## What it does
-The visitor enters length, width, enclosure (open / partially covered / covered), climate (mild / cool / cold), fuel and style
-preference, mount height and number of zones. On screen they see a teaser: the heater count, the lead model and its controls bundle.
+The visitor picks the broad shape of the space (rectangle, L, U or courtyard, long and narrow, round), sets its size with a number
+or a slider, picks the cover (open / partially covered / covered) and the climate (mild / cool / cold), then taps a heater picture
+(Platinum, Tungsten, Eclipse, Eclipse Freestanding, Cobalt, Platinum Gas, Tungsten Gas, Tungsten Portable, or "Help me choose").
+Every heater card shows its own live count. The plan card draws the space to scale on a 5 ft grid, with each heater's reach as a glow
+clipped to the shape, then the count, the model with its photo, and the controls kit (controller, wall switch, app) with quantities.
+Heater positions are illustrative (`placeHeaters` spreads them by area; an L or U is split into arm columns so every arm gets heat).
 The full report (every model that fits, the controls for each, electrical load, the assumptions) sits behind the lead form.
 
 ## How it counts
@@ -17,6 +21,7 @@ Dimmer or Eclipse controller, wall switch and app. Wi-Fi and app features need c
 ## Files
 | File | Role |
 |---|---|
+| `images.json` | Product and controls photos from `images/library`, 360px webp data URIs, made by `make-images.py` from the image ids in `config.json` (`families`, `controls_images`) |
 | `config.json` | Every number the tool uses. **Edit this**, then `node tools/build-config.mjs` |
 | `logic.js` | Pure functions (`defaults`, `normalise`, `size`, `controlsBundle`, …). No DOM, no imports |
 | `index.html` | The page. Brand CSS, config, logic and the lead gate are inlined between `@inline` markers by `tools/build-config.mjs`, so it runs from file:// or an iframe with no network |
@@ -69,6 +74,18 @@ uses retired series numbers for the gas heaters, so the tool names them by size 
 | `products[9] (platinum-gas-l).coverage_ft2` | 215 | ft² | bromic.com product page https://www.bromic.com/product/platinum-smart-heat-gas/ (read 29 Oct 2026) spec table: 215 ft² | Mike Clifford | [[VERIFY: Platinum Gas coverage per model — Mike Clifford]] |
 | `products[10] (tungsten-gas-builtin-s).coverage_ft2` | 160 | ft² | bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-gas/ (read 29 Oct 2026) spec table: 160 ft². Output is not shown: Tungsten gas BTU stays unpublished until verified | Mike Clifford | [[VERIFY: Tungsten Gas built-in coverage and BTU — Mike Clifford]] |
 | `products[11] (tungsten-gas-builtin-l).coverage_ft2` | 215 | ft² | bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-gas/ (read 29 Oct 2026) spec table: 215 ft². Output is not shown: Tungsten gas BTU stays unpublished until verified | Mike Clifford | [[VERIFY: Tungsten Gas built-in coverage and BTU — Mike Clifford]] |
+| `products[12] (tungsten-electric-2000).coverage_ft2` | 65 | ft² | bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026) spec table: 2000 W, 65 ft² | Mike Clifford | [[VERIFY: coverage of the Tungsten Smart-Heat Electric 2000W — Mike Clifford]] |
+| `products[12] (tungsten-electric-2000).watts` | 2000 | W | bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026) | Mike Clifford | [[VERIFY: sign-off of product-facts.json — Mike Clifford]] |
+| `products[13] (tungsten-electric-3000).coverage_ft2` | 100 | ft² | bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026) spec table: 3000 W, 100 ft² | Mike Clifford | [[VERIFY: coverage of the Tungsten Smart-Heat Electric 3000W — Mike Clifford]] |
+| `products[13] (tungsten-electric-3000).watts` | 3000 | W | bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026) | Mike Clifford | [[VERIFY: sign-off of product-facts.json — Mike Clifford]] |
+| `products[14] (tungsten-electric-4000).coverage_ft2` | 130 | ft² | bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026) spec table: 4000 W, 130 ft² | Mike Clifford | [[VERIFY: coverage of the Tungsten Smart-Heat Electric 4000W — Mike Clifford]] |
+| `products[14] (tungsten-electric-4000).watts` | 4000 | W | bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026) | Mike Clifford | [[VERIFY: sign-off of product-facts.json — Mike Clifford]] |
+| `products[15] (tungsten-electric-6000).coverage_ft2` | 160 | ft² | bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026) spec table: 6000 W, 160 ft² | Mike Clifford | [[VERIFY: coverage of the Tungsten Smart-Heat Electric 6000W — Mike Clifford]] |
+| `products[15] (tungsten-electric-6000).watts` | 6000 | W | bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026) | Mike Clifford | [[VERIFY: sign-off of product-facts.json — Mike Clifford]] |
+| `products[16] (cobalt-4000).coverage_ft2` | 130 | ft² | bromic.com product page https://www.bromic.com/product/cobalt-smart-heat-electric/ (read 29 Oct 2026) spec table: 4000 W, 130 ft² | Mike Clifford | [[VERIFY: coverage of the Cobalt Smart-Heat Electric 4000W — Mike Clifford]] |
+| `products[16] (cobalt-4000).watts` | 4000 | W | bromic.com product page https://www.bromic.com/product/cobalt-smart-heat-electric/ (read 29 Oct 2026) | Mike Clifford | [[VERIFY: sign-off of product-facts.json — Mike Clifford]] |
+| `products[17] (cobalt-6000).coverage_ft2` | 160 | ft² | bromic.com product page https://www.bromic.com/product/cobalt-smart-heat-electric/ (read 29 Oct 2026) spec table: 6000 W, 160 ft² | Mike Clifford | [[VERIFY: coverage of the Cobalt Smart-Heat Electric 6000W — Mike Clifford]] |
+| `products[17] (cobalt-6000).watts` | 6000 | W | bromic.com product page https://www.bromic.com/product/cobalt-smart-heat-electric/ (read 29 Oct 2026) | Mike Clifford | [[VERIFY: sign-off of product-facts.json — Mike Clifford]] |
 | `controls.affinity.max_heaters_per_controller` | null | heaters (or kW) per controller | Worked out per model from max_kw_per_channel and the heater wattage (one channel per zone) | Mike Clifford | [[VERIFY: maximum heaters or load per Affinity channel — Mike Clifford]] |
 | `controls.affinity.max_kw_per_channel` | 6 | kW per controller channel at 208–277 V | bromic.com product page https://www.bromic.com/product/affinity-smart-heat-dimmer-controllers/ (read 29 Oct 2026); same on the On/Off page | Mike Clifford | [[VERIFY: Affinity capacity per channel at 208 V and 240 V — Mike Clifford]] |
 | `controls.eclipse.max_heaters_per_controller` | 1 | Eclipse heaters per controller channel | bromic.com product page https://www.bromic.com/product/affinity-smart-heat-eclipse-controllers/ (read 29 Oct 2026): one Eclipse heater per channel | Mike Clifford | [[VERIFY: heaters per Eclipse controller; whether Eclipse Freestanding uses the same controller — Mike Clifford]] |

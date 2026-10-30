@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>How many heaters? Sizing calculator | Bromic Heating</title>
-<meta name="description" content="Enter your space and climate to see how many Bromic heaters it needs, which models fit, and the controls that run them.">
+<meta name="description" content="Pick the shape of your space, choose a Bromic heater and see how many it needs, where they go and the controls that run them.">
 <style>
 /* @inline:begin ../_shared/brand.css */
 /* Bromic tool styling — shared by A03, A20, A21. Inlined into each index.html by tools/build-config.mjs.
@@ -118,6 +118,161 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
 .framed .no-frame { display: none !important; }
 /* @inline:end ../_shared/brand.css */
 </style>
+<style>
+/* ---- A03 visual layout ------------------------------------------------------------------------ */
+:root { --ink2: #2E2A2B; --ink3: #3A3536; --paper2: #ECE7DF; --glow: 239, 65, 35; }
+.page { max-width: 1200px; }
+.masthead { display: grid; gap: 4px; }
+.masthead h1 { font-size: clamp(1.9rem, 4.4vw, 3rem); letter-spacing: -.01em; max-width: 18ch; }
+
+.layout { display: grid; gap: 28px; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); align-items: start; }
+.steps { display: grid; gap: 18px; }
+.step { background: var(--white); border: 1px solid var(--mist); padding: 22px 22px 24px; }
+.step-h { display: flex; align-items: baseline; gap: 12px; margin: 0 0 14px; }
+.step-h .n { font: 600 .72rem/1 var(--sans); letter-spacing: .14em; color: var(--steel-ink); border: 1px solid var(--mist); padding: 6px 7px; min-width: 30px; text-align: center; }
+.step-h h2 { margin: 0; font-size: 1.25rem; }
+.step-h .aside { margin-left: auto; font-size: .82rem; color: var(--steel-ink); }
+
+/* tiles: a radio inside a label, styled as a card */
+.tiles { display: grid; gap: 10px; }
+.tile { position: relative; display: flex; flex-direction: column; align-items: center; gap: 8px; cursor: pointer;
+  border: 1px solid var(--mist); background: var(--white); padding: 14px 8px 12px; text-align: center; transition: border-color .15s, box-shadow .15s, transform .15s; }
+.tile:hover { border-color: var(--steel); }
+.tile input { position: absolute; opacity: 0; pointer-events: none; }
+.tile:has(input:checked) { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
+.tile:has(input:checked)::before { content: ''; position: absolute; left: -1px; right: -1px; top: -1px; height: 4px; background: var(--flame); }
+.tile:has(input:focus-visible) { outline: 3px solid var(--flame); outline-offset: 2px; }
+.tile .t { font-size: .84rem; font-weight: 600; line-height: 1.2; }
+.tile .s { font-size: .76rem; color: var(--steel-ink); line-height: 1.3; }
+.shapes { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.shapes svg { width: 100%; max-width: 72px; height: 52px; }
+.shapes .fill { fill: var(--paper2); stroke: var(--steel); stroke-width: 1.5; }
+.shapes .tile:has(input:checked) .fill { fill: rgba(var(--glow), .14); stroke: var(--ink); }
+.enclosures { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.enclosures svg { width: 64px; height: 44px; }
+.enclosures .tile .ln { stroke: var(--ink); stroke-width: 1.6; fill: none; stroke-linecap: square; }
+.enclosures .tile .gd { stroke: var(--steel); stroke-width: 1.2; }
+.enclosures .tile .hf { fill: var(--flame); }
+
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { position: relative; display: inline-flex; align-items: center; gap: 8px; cursor: pointer; border: 1px solid var(--mist);
+  background: var(--white); padding: 9px 14px; min-height: 44px; font-size: .9rem; }
+.chip input { position: absolute; opacity: 0; pointer-events: none; }
+.chip:has(input:checked) { border-color: var(--ink); background: var(--ink); color: var(--white); }
+.chip:has(input:focus-visible) { outline: 3px solid var(--flame); outline-offset: 2px; }
+.chip .dot { width: 10px; height: 10px; border-radius: 50%; border: 1px solid currentColor; }
+.chip[data-c="mild"] .dot { background: transparent; }
+.chip[data-c="cool"] .dot { background: linear-gradient(90deg, currentColor 50%, transparent 50%); }
+.chip[data-c="cold"] .dot { background: currentColor; }
+.sub-q { margin-top: 14px; padding-top: 14px; border-top: 1px dashed var(--mist); }
+.hint-line { font-size: .84rem; color: var(--steel-ink); margin: 10px 0 0; min-height: 1.3em; }
+
+/* dimensions */
+.dims { display: grid; gap: 14px 18px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.dim { display: grid; gap: 6px; }
+.dim .row { display: flex; align-items: center; gap: 10px; }
+.dim .num { position: relative; flex: 0 0 96px; }
+.dim .num input { padding-right: 30px; font-size: 1.05rem; font-variant-numeric: tabular-nums; }
+.dim .num.nu::after { content: none; }
+.dim .num::after { content: 'ft'; position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: .8rem; color: var(--steel-ink); pointer-events: none; }
+input[type=range] { flex: 1; min-width: 0; accent-color: var(--flame); height: 28px; }
+.dim .hint { font-size: .82rem; color: var(--steel-ink); line-height: 1.35; }
+.dim .err { color: var(--flame-ink); font-size: .8rem; }
+.dim.invalid input[type=number] { border-color: var(--flame); box-shadow: inset 0 0 0 1px var(--flame); }
+
+/* heater cards */
+.families { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.fam { padding: 0 0 12px; align-items: stretch; text-align: left; gap: 0; }
+.fam .pic { aspect-ratio: 4 / 3; background: #fff; display: flex; align-items: center; justify-content: center; overflow: hidden; border-bottom: 1px solid var(--mist); }
+.fam .pic > img { max-width: 88%; max-height: 88%; object-fit: contain; transition: transform .25s; }
+.fam:hover .pic > img { transform: scale(1.04); }
+.fam .mosaic { display: grid; grid-template-rows: 1fr 1fr; grid-template-columns: 1fr 1fr; width: 100%; height: 100%; }
+.fam .mosaic img { width: 100%; height: 100%; min-height: 0; object-fit: contain; padding: 6px; }
+.fam .t { padding: 10px 10px 0; font-family: var(--serif); font-weight: normal; font-size: .98rem; }
+.fam .s { padding: 3px 10px 0; }
+.fam .count { margin: 8px 10px 0; font: 600 .7rem/1 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--steel-ink); }
+.fam .count b { font-size: .95rem; color: var(--ink); letter-spacing: 0; }
+.fam:has(input:checked) .count b { color: var(--ink); border-bottom: 2px solid var(--flame); }
+.prefs { margin-top: 14px; display: grid; gap: 10px; }
+
+/* the plan card */
+.stage { position: sticky; top: 16px; background: var(--ink); color: var(--paper); padding: 22px; display: grid; gap: 18px; }
+.stage .label, .stage .k { color: #B9B4AE; }
+.stage-top { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.stage-top .area { font-family: var(--serif); font-size: 1.05rem; }
+.plan { position: relative; background: radial-gradient(120% 90% at 50% 40%, #2C2829 0%, #1B1819 100%); border: 1px solid #3A3536; }
+.plan svg { display: block; width: 100%; height: auto; max-height: 440px; }
+.legend { font-size: .76rem; color: #B9B4AE; margin-top: -8px; }
+.legend i { display: inline-block; width: 12px; height: 12px; border-radius: 50%; background: radial-gradient(circle, rgba(var(--glow), .9), rgba(var(--glow), 0) 70%); vertical-align: -2px; margin-right: 5px; }
+@keyframes breathe { 0%, 100% { opacity: .92; } 50% { opacity: .72; } }
+.glow { animation: breathe 5s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { .glow { animation: none; } .fam .pic img { transition: none; } }
+
+#teaser { display: grid; gap: 18px; }
+#teaser > p { margin: 0; }
+.result { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 18px; align-items: center; }
+.big { font-family: var(--serif); font-size: clamp(3.4rem, 7vw, 4.8rem); line-height: .9; color: var(--white); }
+.big small { display: block; font-family: var(--sans); font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; color: #B9B4AE; margin-top: 8px; }
+.pick { display: grid; grid-template-columns: 84px minmax(0, 1fr); gap: 14px; align-items: center; }
+.pick .ph { background: #fff; aspect-ratio: 1; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.pick .ph img { max-width: 90%; max-height: 90%; object-fit: contain; }
+.pick .nm { font-family: var(--serif); font-size: 1.12rem; line-height: 1.25; color: var(--white); }
+.pick .meta { font-size: .82rem; color: #B9B4AE; margin-top: 4px; }
+
+.kit { border-top: 1px solid #3A3536; padding-top: 16px; }
+.kit-h { display: flex; justify-content: space-between; gap: 10px; align-items: baseline; margin-bottom: 10px; }
+.kit-h .label { color: var(--paper); border-left: 3px solid var(--flame); padding-left: 8px; }
+.kit-items { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.kit-item { background: #2C2829; border: 1px solid #3A3536; padding: 10px; display: grid; gap: 8px; align-content: start; }
+.kit-item .ph { background: #fff; height: 96px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.kit-item .ph img { max-width: 86%; max-height: 86%; width: auto; height: auto; object-fit: contain; }
+.kit-item .ph.icon { background: #383334; }
+.kit-item .ph.icon svg { width: 46px; height: 56px; }
+.kit-item .q { font-family: var(--serif); font-size: 1.3rem; color: var(--white); line-height: 1; }
+.kit-item .d { font-size: .78rem; color: #CFCAC4; line-height: 1.3; }
+.kit .note, .stage .note { color: #B9B4AE; }
+.stage .warn { background: #2C2829; color: var(--paper); border-left-color: var(--flame); font-size: .88rem; }
+.alts { display: flex; flex-wrap: wrap; gap: 8px; }
+.alts button { font: inherit; font-size: .82rem; color: var(--paper); background: transparent; border: 1px solid #4A4446; padding: 8px 12px; min-height: 40px; cursor: pointer; }
+.alts button:hover { border-color: var(--paper); }
+.alts button b { color: var(--white); }
+.empty { padding: 30px 6px; text-align: center; color: #CFCAC4; }
+.empty .big { font-size: 2.2rem; margin-bottom: 10px; }
+
+.below { margin-top: 28px; }
+.report-plan { background: var(--ink); margin: 0 0 16px; }
+.report-plan svg { display: block; width: 100%; height: auto; max-height: 380px; }
+
+/* phone: a peek bar keeps the count in view while the plan card is off screen */
+.peek { position: fixed; left: 0; right: 0; bottom: 0; z-index: 5; background: var(--ink); color: var(--paper); display: none;
+  align-items: center; gap: 12px; padding: 10px 16px; border-top: 3px solid var(--flame); }
+.peek b { font-family: var(--serif); font-weight: normal; font-size: 1.5rem; color: var(--white); }
+.peek span { font-size: .82rem; flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.peek a { color: var(--paper); font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; font-weight: 600; white-space: nowrap; }
+
+@media (max-width: 960px) {
+  .layout { grid-template-columns: minmax(0, 1fr); }
+  .stage { position: static; }
+  .peek.on { display: flex; }
+  body { padding-bottom: 64px; }
+}
+@media (max-width: 560px) {
+  .step { padding: 16px 14px 18px; }
+  .shapes { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .families { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .dims { grid-template-columns: minmax(0, 1fr); }
+  .stage { padding: 16px; margin: 0 -14px; }
+  .kit-items { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
+  .kit-item { padding: 6px; }
+  .kit-item .d { font-size: .7rem; }
+  .result { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .pick { grid-template-columns: 64px minmax(0, 1fr); }
+}
+@media print {
+  .layout, .peek { display: none !important; }
+  .report-plan { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+</style>
 </head>
 <body>
 <script>if (/[?&]embed=1(&|$)/.test(location.search)) document.body.classList.add('embed');</script>
@@ -125,91 +280,100 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
   <header class="masthead">
     <span class="eyebrow">Sizing calculator</span>
     <h1>How many heaters does your space need?</h1>
-    <p class="lede">Tell us the size of the space, how open it is and how cold your evenings get. You will see a heater count, the models that fit and the controls that run them. Designed from the start, not added later.</p>
+    <p class="lede">Pick the shape of your space, set its size and choose a heater. The plan shows how many you need, roughly where they go and the controls that run them. Designed from the start, not added later.</p>
   </header>
 
-  <form id="inputs" class="card inputs" novalidate aria-labelledby="inputs-h">
-    <h2 id="inputs-h" class="sr-only">Your space</h2>
-    <div class="grid">
-      <div class="field" data-field="length_ft">
-        <label class="k" for="length_ft">Length (ft)</label>
-        <input id="length_ft" name="length_ft" type="number" inputmode="decimal" min="1" step="0.5" required aria-describedby="length_ft-err">
-        <span class="err" id="length_ft-err"></span>
-      </div>
-      <div class="field" data-field="width_ft">
-        <label class="k" for="width_ft">Width (ft)</label>
-        <input id="width_ft" name="width_ft" type="number" inputmode="decimal" min="1" step="0.5" required aria-describedby="width_ft-err">
-        <span class="err" id="width_ft-err"></span>
-      </div>
-    </div>
+  <div class="layout">
+    <form id="inputs" class="steps inputs" novalidate aria-label="Your space">
 
-    <fieldset class="field" style="margin-top:16px">
-      <legend class="k">Enclosure</legend>
-      <div class="choices" id="enclosure-choices"></div>
-      <span class="hint" id="enclosure-hint"></span>
-    </fieldset>
+      <section class="step" aria-labelledby="s1">
+        <div class="step-h"><span class="n">01</span><h2 id="s1">The shape of the space</h2></div>
+        <div class="tiles shapes" id="shape-tiles" role="radiogroup" aria-labelledby="s1"></div>
+      </section>
 
-    <fieldset class="field" id="open30-field" style="margin-top:16px">
-      <legend class="k">Is at least <span data-open-pct></span>% of the perimeter permanently open?</legend>
-      <div class="choices">
-        <label><input type="radio" name="open_30" value="yes" checked> Yes</label>
-        <label><input type="radio" name="open_30" value="no"> No</label>
-      </div>
-      <span class="hint">Bromic treats a space as outdoor when at least <span data-open-pct></span>% of its perimeter is permanently open. A partial cover traps a heat cloud that adds warmth.</span>
-    </fieldset>
+      <section class="step" aria-labelledby="s2">
+        <div class="step-h"><span class="n">02</span><h2 id="s2">Its size</h2><span class="aside" id="area-aside"></span></div>
+        <div class="dims" id="dims"></div>
+      </section>
 
-    <fieldset class="field" style="margin-top:16px">
-      <legend class="k">Climate</legend>
-      <div class="choices" id="climate-choices"></div>
-      <span class="hint" id="climate-hint"></span>
-    </fieldset>
+      <section class="step" aria-labelledby="s3">
+        <div class="step-h"><span class="n">03</span><h2 id="s3">Cover and climate</h2></div>
+        <div class="tiles enclosures" id="enclosure-tiles" role="radiogroup" aria-label="Overhead cover"></div>
+        <p class="hint-line" id="enclosure-hint"></p>
+        <fieldset class="sub-q" id="open30-field">
+          <legend class="k">Is at least <span data-open-pct></span>% of the perimeter permanently open?</legend>
+          <div class="chips">
+            <label class="chip"><input type="radio" name="open_30" value="yes" checked> Yes</label>
+            <label class="chip"><input type="radio" name="open_30" value="no"> No</label>
+          </div>
+          <p class="hint-line">Bromic treats a space as outdoor when at least <span data-open-pct></span>% of its perimeter is permanently open.</p>
+        </fieldset>
+        <fieldset class="sub-q">
+          <legend class="k">How cold are the evenings you heat?</legend>
+          <div class="chips" id="climate-chips"></div>
+          <p class="hint-line" id="climate-hint"></p>
+        </fieldset>
+      </section>
 
-    <div class="grid" style="margin-top:16px">
-      <fieldset class="field">
-        <legend class="k">Fuel</legend>
-        <div class="choices">
-          <label><input type="radio" name="fuel" value="any" checked> No preference</label>
-          <label><input type="radio" name="fuel" value="electric"> Electric</label>
-          <label><input type="radio" name="fuel" value="gas"> Gas</label>
+      <section class="step" aria-labelledby="s4">
+        <div class="step-h"><span class="n">04</span><h2 id="s4">The heater</h2><span class="aside">Tap a heater to size it</span></div>
+        <div class="tiles families" id="family-tiles" role="radiogroup" aria-labelledby="s4"></div>
+        <div class="prefs" id="prefs">
+          <fieldset><legend class="k">Fuel</legend>
+            <div class="chips">
+              <label class="chip"><input type="radio" name="fuel" value="any" checked> Either</label>
+              <label class="chip"><input type="radio" name="fuel" value="electric"> Electric</label>
+              <label class="chip"><input type="radio" name="fuel" value="gas"> Gas</label>
+            </div></fieldset>
+          <fieldset><legend class="k">Style</legend>
+            <div class="chips">
+              <label class="chip"><input type="radio" name="style" value="any" checked> Either</label>
+              <label class="chip"><input type="radio" name="style" value="built-in"> Built-in</label>
+              <label class="chip"><input type="radio" name="style" value="freestanding"> Freestanding</label>
+            </div></fieldset>
         </div>
-      </fieldset>
-      <fieldset class="field">
-        <legend class="k">Style</legend>
-        <div class="choices">
-          <label><input type="radio" name="style" value="any" checked> No preference</label>
-          <label><input type="radio" name="style" value="built-in"> Built-in</label>
-          <label><input type="radio" name="style" value="freestanding"> Freestanding</label>
+      </section>
+
+      <section class="step" aria-labelledby="s5">
+        <div class="step-h"><span class="n">05</span><h2 id="s5">Height and zones</h2></div>
+        <div class="dims">
+          <div class="dim" data-field="mount_height_ft" id="height-field">
+            <label class="k" for="mount_height_ft">Mount height</label>
+            <div class="row"><span class="num"><input id="mount_height_ft" name="mount_height_ft" type="number" inputmode="decimal" min="5" max="30" step="0.5" aria-describedby="mount_height_ft-err"></span>
+              <input type="range" min="5" max="20" step="0.5" data-for="mount_height_ft" aria-label="Mount height slider"></div>
+            <span class="hint">Where built-in heaters would go, on the wall or ceiling.</span>
+            <span class="err" id="mount_height_ft-err"></span>
+          </div>
+          <div class="dim" data-field="zones">
+            <label class="k" for="zones">Zones</label>
+            <div class="row"><span class="num nu"><input id="zones" name="zones" type="number" inputmode="numeric" min="1" max="20" step="1"></span>
+              <input type="range" min="1" max="8" step="1" data-for="zones" aria-label="Zones slider"></div>
+            <span class="hint">Areas you switch or dim on their own, such as dining and lounge.</span>
+          </div>
         </div>
-      </fieldset>
-    </div>
+      </section>
+    </form>
 
-    <div class="grid" style="margin-top:16px">
-      <div class="field" data-field="mount_height_ft" id="height-field">
-        <label class="k" for="mount_height_ft">Mount height (ft)</label>
-        <input id="mount_height_ft" name="mount_height_ft" type="number" inputmode="decimal" min="5" max="30" step="0.5" aria-describedby="mount_height_ft-hint mount_height_ft-err">
-        <span class="hint" id="mount_height_ft-hint">Ceiling or wall height where built-in heaters would go.</span>
-        <span class="err" id="mount_height_ft-err"></span>
-      </div>
-      <div class="field" data-field="zones">
-        <label class="k" for="zones">Zones</label>
-        <input id="zones" name="zones" type="number" inputmode="numeric" min="1" max="20" step="1" aria-describedby="zones-hint">
-        <span class="hint" id="zones-hint">Areas you want to switch or dim separately, such as dining and lounge.</span>
-      </div>
-    </div>
-  </form>
+    <aside class="stage" id="stage" aria-label="Your heating plan">
+      <div class="stage-top"><span class="label">Your heating plan</span><span class="area" id="stage-area"></span></div>
+      <div class="plan" id="plan"></div>
+      <p class="legend" id="legend"></p>
+      <div id="teaser" aria-live="polite" aria-atomic="true"></div>
+    </aside>
+  </div>
 
-  <section id="teaser" class="card teaser" aria-live="polite" aria-atomic="true"></section>
-
-  <section id="gate" class="card gate" aria-labelledby="gate-h">
-    <h2 id="gate-h">Get the full report</h2>
-    <p>Every model that fits, the controls bundle for each, electrical load, and the assumptions behind the numbers.</p>
-    <div id="lead"></div>
-  </section>
-
-  <section id="report" class="card hidden" tabindex="-1" aria-labelledby="report-h"></section>
+  <div class="below">
+    <section id="gate" class="card gate" aria-labelledby="gate-h">
+      <h2 id="gate-h">Get the full report</h2>
+      <p>Every model that fits, the controls bundle for each, the electrical load and the assumptions behind the numbers.</p>
+      <div id="lead"></div>
+    </section>
+    <section id="report" class="card hidden" tabindex="-1" aria-labelledby="report-h"></section>
+  </div>
 
   <footer class="foot note" id="foot"></footer>
 </main>
+<div class="peek" id="peek" aria-hidden="true"><b id="peek-n"></b><span id="peek-t"></span><a href="#stage">See the plan</a></div>
 
 <script type="module">
 /* @inline:begin config.json */
@@ -668,6 +832,156 @@ const CONFIG = {
         "verify": "[[VERIFY: Tungsten Gas built-in coverage and BTU — Mike Clifford]]",
         "owner": "Mike Clifford"
       }
+    },
+    {
+      "id": "tungsten-electric-2000",
+      "family": "tungsten-electric",
+      "name": "Tungsten Smart-Heat Electric 2000W",
+      "fuel": "electric",
+      "style": "built-in",
+      "status": "current",
+      "controls": "affinity",
+      "coverage_ft2": {
+        "value": 65,
+        "unit": "ft²",
+        "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026) spec table: 2000 W, 65 ft²",
+        "verified": false,
+        "verify": "[[VERIFY: coverage of the Tungsten Smart-Heat Electric 2000W — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      },
+      "watts": {
+        "value": 2000,
+        "unit": "W",
+        "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026)",
+        "verified": false,
+        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    {
+      "id": "tungsten-electric-3000",
+      "family": "tungsten-electric",
+      "name": "Tungsten Smart-Heat Electric 3000W",
+      "fuel": "electric",
+      "style": "built-in",
+      "status": "current",
+      "controls": "affinity",
+      "coverage_ft2": {
+        "value": 100,
+        "unit": "ft²",
+        "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026) spec table: 3000 W, 100 ft²",
+        "verified": false,
+        "verify": "[[VERIFY: coverage of the Tungsten Smart-Heat Electric 3000W — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      },
+      "watts": {
+        "value": 3000,
+        "unit": "W",
+        "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026)",
+        "verified": false,
+        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    {
+      "id": "tungsten-electric-4000",
+      "family": "tungsten-electric",
+      "name": "Tungsten Smart-Heat Electric 4000W",
+      "fuel": "electric",
+      "style": "built-in",
+      "status": "current",
+      "controls": "affinity",
+      "coverage_ft2": {
+        "value": 130,
+        "unit": "ft²",
+        "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026) spec table: 4000 W, 130 ft²",
+        "verified": false,
+        "verify": "[[VERIFY: coverage of the Tungsten Smart-Heat Electric 4000W — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      },
+      "watts": {
+        "value": 4000,
+        "unit": "W",
+        "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026)",
+        "verified": false,
+        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    {
+      "id": "tungsten-electric-6000",
+      "family": "tungsten-electric",
+      "name": "Tungsten Smart-Heat Electric 6000W",
+      "fuel": "electric",
+      "style": "built-in",
+      "status": "current",
+      "controls": "affinity",
+      "coverage_ft2": {
+        "value": 160,
+        "unit": "ft²",
+        "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026) spec table: 6000 W, 160 ft²",
+        "verified": false,
+        "verify": "[[VERIFY: coverage of the Tungsten Smart-Heat Electric 6000W — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      },
+      "watts": {
+        "value": 6000,
+        "unit": "W",
+        "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026)",
+        "verified": false,
+        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    {
+      "id": "cobalt-4000",
+      "family": "cobalt",
+      "name": "Cobalt Smart-Heat Electric 4000W",
+      "fuel": "electric",
+      "style": "built-in",
+      "status": "current",
+      "controls": "affinity",
+      "coverage_ft2": {
+        "value": 130,
+        "unit": "ft²",
+        "source": "bromic.com product page https://www.bromic.com/product/cobalt-smart-heat-electric/ (read 29 Oct 2026) spec table: 4000 W, 130 ft²",
+        "verified": false,
+        "verify": "[[VERIFY: coverage of the Cobalt Smart-Heat Electric 4000W — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      },
+      "watts": {
+        "value": 4000,
+        "unit": "W",
+        "source": "bromic.com product page https://www.bromic.com/product/cobalt-smart-heat-electric/ (read 29 Oct 2026)",
+        "verified": false,
+        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    {
+      "id": "cobalt-6000",
+      "family": "cobalt",
+      "name": "Cobalt Smart-Heat Electric 6000W",
+      "fuel": "electric",
+      "style": "built-in",
+      "status": "current",
+      "controls": "affinity",
+      "coverage_ft2": {
+        "value": 160,
+        "unit": "ft²",
+        "source": "bromic.com product page https://www.bromic.com/product/cobalt-smart-heat-electric/ (read 29 Oct 2026) spec table: 6000 W, 160 ft²",
+        "verified": false,
+        "verify": "[[VERIFY: coverage of the Cobalt Smart-Heat Electric 6000W — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      },
+      "watts": {
+        "value": 6000,
+        "unit": "W",
+        "source": "bromic.com product page https://www.bromic.com/product/cobalt-smart-heat-electric/ (read 29 Oct 2026)",
+        "verified": false,
+        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
     }
   ],
   "controls": {
@@ -774,7 +1088,107 @@ const CONFIG = {
     "coverage": "Coverage is approximate and varies by heater model, mounting height, environment and installation conditions (Lookbook 2026). This is a first estimate, not a design.",
     "code": "Electric heaters in the US follow ANSI/NFPA 70 (NEC) and gas heaters ANSI Z223.1/NFPA 54. Confirm every installation with your local building authority and a licensed electrician or gas fitter.",
     "code_source_url": "https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70"
-  }
+  },
+  "families": [
+    {
+      "id": "any",
+      "name": "Help me choose",
+      "tagline": "Show the best fit across the range",
+      "fuel": "any",
+      "style": "any",
+      "image": ""
+    },
+    {
+      "id": "platinum-electric",
+      "name": "Platinum Electric",
+      "tagline": "Slim linear heat for walls, ceilings and flush recesses",
+      "fuel": "electric",
+      "style": "built-in",
+      "image": "w-platinum-black"
+    },
+    {
+      "id": "tungsten-electric",
+      "name": "Tungsten Electric",
+      "tagline": "Linear heat in black or white, 2 to 6 kW",
+      "fuel": "electric",
+      "style": "built-in",
+      "image": "w-tungelec-stacked"
+    },
+    {
+      "id": "eclipse-electric",
+      "name": "Eclipse",
+      "tagline": "Round heat and light on a pole or pendant",
+      "fuel": "electric",
+      "style": "built-in",
+      "image": "w-eclipse-electric"
+    },
+    {
+      "id": "eclipse-freestanding",
+      "name": "Eclipse Freestanding",
+      "tagline": "Heat and light that moves with you",
+      "fuel": "electric",
+      "style": "freestanding",
+      "image": "w-eclipse-portable"
+    },
+    {
+      "id": "cobalt",
+      "name": "Cobalt Electric",
+      "tagline": "Silver linear heat for walls and ceilings",
+      "fuel": "electric",
+      "style": "built-in",
+      "image": "w-cobalt-electric-product"
+    },
+    {
+      "id": "platinum-gas",
+      "name": "Platinum Gas",
+      "tagline": "Built-in gas heat for larger terraces",
+      "fuel": "gas",
+      "style": "built-in",
+      "image": "w-platinum-gas-300"
+    },
+    {
+      "id": "tungsten-gas-builtin",
+      "name": "Tungsten Gas",
+      "tagline": "Built-in gas heat in matte black",
+      "fuel": "gas",
+      "style": "built-in",
+      "image": "w-tungsten-gas-500"
+    },
+    {
+      "id": "tungsten-freestanding-gas",
+      "name": "Tungsten Portable",
+      "tagline": "Freestanding gas heat, no wiring",
+      "fuel": "gas",
+      "style": "freestanding",
+      "image": "w-tung-port"
+    }
+  ],
+  "controls_images": {
+    "controller": "w-affinity-dimmer-1ch-2",
+    "switch": "w-manual-1ch-indoor-switch-image"
+  },
+  "shapes": [
+    {
+      "id": "rect",
+      "name": "Rectangle"
+    },
+    {
+      "id": "l",
+      "name": "L-shape"
+    },
+    {
+      "id": "u",
+      "name": "U-shape or courtyard"
+    },
+    {
+      "id": "narrow",
+      "name": "Long and narrow"
+    },
+    {
+      "id": "round",
+      "name": "Round"
+    }
+  ]
 };
 /* @inline:end config.json */
 
@@ -789,10 +1203,63 @@ const ENCLOSURES = ['open', 'partial', 'covered'];
 const CLIMATES = ['mild', 'cool', 'cold'];
 const FUELS = ['electric', 'gas', 'any'];
 const STYLES = ['built-in', 'freestanding', 'any'];
+const SHAPES = ['rect', 'l', 'u', 'narrow', 'round'];
+
+// The space as rectangles (or a circle) in feet, top-left origin. Used for the area, the plan drawing and heater placement.
+//   rect / narrow: length × width · l: main run + one arm down from its left end · u: back run + two arms down from both ends
+//   round: diameter
+function shapeGeometry(i) {
+  const L = i.length_ft, W = i.width_ft, aL = i.arm_l_ft, aW = i.arm_w_ft;
+  if (i.shape === 'round') { const d = i.diameter_ft; return { rects: [], circle: { cx: d / 2, cy: d / 2, r: d / 2 }, bbox: { w: d, h: d }, area: round1(Math.PI * d * d / 4) }; }
+  const rects = [{ x: 0, y: 0, w: L, h: W }];
+  if (i.shape === 'l') rects.push({ x: 0, y: W, w: aW, h: aL });
+  if (i.shape === 'u') rects.push({ x: 0, y: W, w: aW, h: aL }, { x: L - aW, y: W, w: aW, h: aL });
+  const area = round1(rects.reduce((n, r) => n + r.w * r.h, 0));
+  // For placing heaters, an L or U reads better as full-height columns at the arms plus the run between them,
+  // so every arm gets its own heat.
+  let parts = rects;
+  if (i.shape === 'l') parts = [{ x: 0, y: 0, w: aW, h: W + aL }, { x: aW, y: 0, w: L - aW, h: W }];
+  if (i.shape === 'u') parts = [{ x: 0, y: 0, w: aW, h: W + aL }, { x: aW, y: 0, w: L - 2 * aW, h: W }, { x: L - aW, y: 0, w: aW, h: W + aL }];
+  parts = parts.filter((r) => r.w > 0 && r.h > 0);
+  return { rects, parts, circle: null, bbox: { w: L, h: W + (i.shape === 'l' || i.shape === 'u' ? aL : 0) }, area };
+}
+const round1 = (n) => Math.round(n * 10) / 10;
+
+// Spread n heaters over the space: each rectangle gets a share by area, then a grid that follows its proportions.
+// A circle gets a ring (and a centre heater from seven up). Positions are in feet, for the plan drawing only.
+function placeHeaters(geom, n) {
+  if (!n || n < 1) return [];
+  if (geom.circle) {
+    const { cx, cy, r } = geom.circle;
+    if (n === 1) return [{ x: cx, y: cy }];
+    const centre = n >= 7 ? 1 : 0; const ring = n - centre; const rr = r * (ring <= 4 ? 0.5 : 0.62);
+    const pts = Array.from({ length: ring }, (_, k) => ({ x: round1(cx + rr * Math.cos(-Math.PI / 2 + (2 * Math.PI * k) / ring)), y: round1(cy + rr * Math.sin(-Math.PI / 2 + (2 * Math.PI * k) / ring)) }));
+    return centre ? [{ x: cx, y: cy }, ...pts] : pts;
+  }
+  const parts = geom.parts || geom.rects;
+  const total = parts.reduce((a, r) => a + r.w * r.h, 0);
+  const share = parts.map((r) => (r.w * r.h) / total * n);
+  // with enough heaters, every part gets at least one
+  const counts = share.map((x) => (n >= parts.length ? Math.max(1, Math.floor(x)) : Math.floor(x)));
+  while (counts.reduce((a, b) => a + b, 0) > n) { const i = counts.indexOf(Math.max(...counts)); counts[i]--; }
+  let left = n - counts.reduce((a, b) => a + b, 0);
+  share.map((x, i) => [x - Math.floor(x), i]).sort((a, b) => b[0] - a[0]).forEach(([, i]) => { if (left > 0) { counts[i]++; left--; } });
+  const pts = [];
+  parts.forEach((r, i) => {
+    const k = counts[i]; if (!k) return;
+    const cols = Math.max(1, Math.min(k, Math.round(Math.sqrt(k * r.w / r.h)))); const rows = Math.ceil(k / cols);
+    for (let j = 0; j < k; j++) {
+      const row = Math.floor(j / cols); const inRow = row === rows - 1 ? k - cols * (rows - 1) : cols; const col = j % cols;
+      pts.push({ x: round1(r.x + r.w * (col + 0.5) / inRow), y: round1(r.y + r.h * (row + 0.5) / rows) });
+    }
+  });
+  return pts;
+}
 
 function defaults(cfg) {
   return {
-    length_ft: 20, width_ft: 12, enclosure: 'partial', open_30: true, climate: 'cool',
+    shape: 'rect', length_ft: 20, width_ft: 12, arm_l_ft: 10, arm_w_ft: 8, diameter_ft: 16, family: 'any',
+    enclosure: 'partial', open_30: true, climate: 'cool',
     mount_height_ft: val(cfg.mounting.default_height_ft), fuel: 'any', style: 'any', zones: 1,
   };
 }
@@ -802,9 +1269,13 @@ function normalise(raw, cfg) {
   const errors = {};
   const num = (k) => Number(String(raw[k] ?? '').replace(',', '.'));
   const min = val(cfg.limits.min_side_ft), max = val(cfg.limits.max_side_ft);
+  const fam = (cfg.families || []).find((f) => f.id === raw.family);
   const input = {
+    shape: SHAPES.includes(raw.shape) ? raw.shape : 'rect',
+    family: fam ? fam.id : 'any',
     length_ft: num('length_ft'),
     width_ft: num('width_ft'),
+    arm_l_ft: num('arm_l_ft'), arm_w_ft: num('arm_w_ft'), diameter_ft: num('diameter_ft'),
     enclosure: ENCLOSURES.includes(raw.enclosure) ? raw.enclosure : 'partial',
     open_30: raw.open_30 === true || raw.open_30 === 'yes',
     climate: CLIMATES.includes(raw.climate) ? raw.climate : 'cool',
@@ -813,9 +1284,13 @@ function normalise(raw, cfg) {
     style: STYLES.includes(raw.style) ? raw.style : 'any',
     zones: Math.max(1, Math.min(20, Math.round(num('zones')) || 1)),
   };
-  for (const k of ['length_ft', 'width_ft']) {
+  // a chosen heater family sets the fuel and style
+  if (fam) { input.fuel = fam.fuel; input.style = fam.style; }
+  const need = input.shape === 'round' ? ['diameter_ft'] : input.shape === 'l' || input.shape === 'u' ? ['length_ft', 'width_ft', 'arm_l_ft', 'arm_w_ft'] : ['length_ft', 'width_ft'];
+  for (const k of need) {
     if (!Number.isFinite(input[k]) || input[k] < min || input[k] > max) errors[k] = `Enter a number from ${min} to ${max} ft.`;
   }
+  if (!errors.arm_w_ft && (input.shape === 'l' || input.shape === 'u') && input.arm_w_ft > (input.shape === 'u' ? input.length_ft / 2 : input.length_ft)) errors.arm_w_ft = input.shape === 'u' ? 'Each arm must be narrower than half the length.' : 'The arm must be narrower than the length.';
   if (input.style !== 'freestanding' && (!Number.isFinite(input.mount_height_ft) || input.mount_height_ft < 5 || input.mount_height_ft > 30)) {
     errors.mount_height_ft = 'Enter a mount height from 5 to 30 ft.';
   }
@@ -858,6 +1333,7 @@ function controlsBundle(controlsKey, count, zonesWanted, cfg, watts = null) {
 }
 
 function matches(p, input) {
+  if (input.family && input.family !== 'any') return p.family === input.family;
   return (input.fuel === 'any' || p.fuel === input.fuel) && (input.style === 'any' || p.style === input.style);
 }
 
@@ -865,12 +1341,13 @@ function size(rawInput, cfg) {
   const { input, errors } = normalise(rawInput, cfg);
   if (Object.keys(errors).length) return { ok: false, errors, input };
 
-  const area = Math.round(input.length_ft * input.width_ft * 10) / 10;
+  const geom = shapeGeometry(input);
+  const area = geom.area;
   const warnings = [];
   const outdoor = !(input.enclosure === 'covered' && !input.open_30);
   if (!outdoor) {
     return {
-      ok: true, input, area, outdoor: false, options: [], recommended: null, warnings: [],
+      ok: true, input, area, geom, outdoor: false, options: [], recommended: null, warnings: [], placement: [],
       message: `With less than ${val(cfg.outdoor_rule.min_open_perimeter_pct)}% of the perimeter permanently open, the space is not treated as outdoor. Outdoor heaters may not be suitable: talk to the Bromic design team before choosing.`,
     };
   }
@@ -932,14 +1409,20 @@ function size(rawInput, cfg) {
   const recommended = options.find((o) => o.status === 'current' && o.count != null) || null;
 
   return {
-    ok: true, input, area, outdoor: true, factors: { ...factors, height: hf }, options, recommended, warnings,
+    ok: true, input, area, geom, outdoor: true, factors: { ...factors, height: hf }, options, recommended, warnings,
+    placement: recommended ? placeHeaters(geom, recommended.count) : [],
+    radius_ft: recommended && recommended.coverage_effective ? Math.round(Math.sqrt(recommended.coverage_effective / Math.PI) * 10) / 10 : null,
     message: recommended ? null : 'No current model with confirmed coverage matches this preference yet. The Bromic design team will size it for you.',
   };
 }
 
-return { ENCLOSURES, CLIMATES, FUELS, STYLES, defaults, normalise, heightFactor, effectiveCoverage, heaterCount, controlsBundle, size };
+return { ENCLOSURES, CLIMATES, FUELS, STYLES, SHAPES, shapeGeometry, placeHeaters, defaults, normalise, heightFactor, effectiveCoverage, heaterCount, controlsBundle, size };
 })();
 /* @inline:end logic.js */
+
+/* @inline:begin images.json */
+const IMAGES = {"w-platinum-black":"data:image/webp;base64,UklGRogDAABXRUJQVlA4IHwDAADwLwCdASpoAWgBPnk8mkopoyIho19YCTAPCWlu+F8U/JKO5eqtey3CnMSh/fzH/LAo+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3M+3MtLojxxLCwbI0ZYIkKnTNtBT2EqZn49VCVlPVyvqarDWQLSjMGr+xhaiV4wlP8jChOVuTAs3jPz1X4zTehi2HjpcHNpE/laINFRbEqT9WB51X0Pv1paV8qwatNtL4rRLnrgSa/FqHUqs91U44qsdKdYuG+nHI52hDTPCUki24vHzNfJUpMegHBOo0m7/MEtwNj/zFksf5iyWFQ2LovM+3hi9tvjdOXF5n25n25n25n25n25n25n25n25n25n25n25n25n25n25n25n25n25n25n25n25n25n25n25n25n25n25n25n25n25n25n25n25n25n25n25n25npAAD+/5UgAAAAAAA9uB+MnBEZlRgr2Jr25sX9R7KT2PQbKre+CokE+wZ54TZp2cROZSjuTrN0p6gmFs7R+/M8SSPAZ+4XAx8JsYYlx395jx5aJnEOq/V77CuGKkPoJ0c5d3v5SEKhLlvMABPY5BH7P+mz9iKgtdBS+TH5ehR7cHCCoRe9MiG3kESQDQz5S1b8IYLlKYTjwx7oF/FG1u0V0acbfy8v7CYCdLoJJrOBVMDDO7MlTiG+2Lnvr3Pew3KZUuZ70PG4HSVXXQa5Jy87Z0rRu7nRIU/IoWVLpEseJxQp6DDCEGaE1zaKlb3qSReIypZM2uaI4iY6v4NakXS+UieHssyIm68zsmboYWiGAKHoY/6IApszjEeejNR9WQQR+A4lGnCbc81Wkt7G2brNch+Ot9PwQ1DqvL3eYvyVILPUfmUQGiAysehMvxFNeKAgsxV9fKDOPvd7RnxhkgvbbgyyH+WwmHBXyc/c75vU21OTlpI54gAWNRKIVPBBsAQWbEEtqrT5JNUqcT3bXwAvzuJFMwgUNs7iWzgX5HeJNEMslI6OgwOXpOlizfanBErnUusLmIWtMIecEspzg+R0613SBP1DgSaLrQ0GaBKICXEWojjgUjwDyCDP3m5CwQWbWbcOsOzETGiuBMBoAAAAAAAAAAAA","w-tungelec-stacked":"data:image/webp;base64,UklGRlgpAABXRUJQVlA4IEwpAABwlgCdASpoAWgBPnk6lkkkoyGiJhqI6JAPCWVu/Ahf+z+cfkiG9nEEcX5IHPOS6q+/qMj/9Dv8/6T1Ecz//T/uH7g/7J/w/Ub+4nrGeiTodPUC/vfRv+w3/tfUJ/43oAf//2tP4B//+sXUl/kPA/xHerP3v92f8J7VmMPq11F/nP3p/h/3b0U/4v+U8S/il/teoF+Yfzn9a/Tf+e7UnVP8F/2P9V7Avtz9s/63+W8TH/e/wvqT+k/3P/yf4b4AP5l/Rf+p6j/5bwffr/+c/aL4Av6h/cf/b/nvzA+mD++/+nl6+sP/p7hP9B/wHW/9KoeSHZUZ44dDsqM8cOh2VGeOHQ7KjPHDodlRnjh0Oyozxw6HZUZ44dDsqM8cOh2VGeOHQ7KjPHDodkooGI4fiRutY38RPxUIb5q02qz+4quBWva/7VMc7ZrM6TRjoMUAhiJjrrgG+IIMangN9Fd5TCsZbAjYhtEem2eUAIaOLxoBAoHjau5YQZxw4OnryToG+X9W4C3JCXb8RC4Wg0jFGvxG977KpgAi26zY3GgPTfyjoLvJmsBq3956fdDoom86IT5beSZMO0axYN79sDSyLzGNJ5idW4Q+/Z6607xpvW0gSshbBlc0eF3sN9rS7eaGwCdl4TWzFGRoBdhICVM05Piz4CaI0Kzqta8TCgnaGkpJMMyN7WWhQz8TT5XyYd+6YRvra/HgwlzclZjFVccKLlu+hejPX9vWLvvOnkmdO9ez1bV0ttgmhvrtUB/TsD199ZG8UtMMAUc3MEU8xynxsuRX9QN9NCe4/JD6/7YjjLBq79Z5nijuY/sY6lUwW3NpBRul+4kgqIkoKenuxS3jJMgDfXhgrSvCz0ukB6+5ugMy7qXOzCuWVO3T6cYCnHdGZefwg0lDVnfdO5tgTPkJRYEO3fFEwTG+XRCkt3dZOmn2Cz+XRlRnjh0Oyozxw6HZUZ44dDsqM8cOgHrqPSzcWRSchFvgeyQzIHi9Y37CIvWN+vn3CWrQAz6973BSoX1xgIbyNrd/coMHZQ8qna5c6l0IZX2ux+egknmNv1/WyHunQU2pFm2DVQxXjXwFe+7s1A8IyMtwnosLf9WEH+qvX8vHQ3ave2vUL0v6UbVc6/ZdH3JPh2bRcFQ76Ev4dTEzQvjVngxEDzrmqPrUV1mHKPo4jIy87eeWqQGjVvaMfVuz+MDswhLP5YRLko/OqTBba72+2/PLBfDSUe2tp3SW+VuQa+59eueBAPAj0j4owqks/DMaU8yCos50JYs0xmVVSlMwdGv+3++cm83NZKw6z+LRyo9qX6wNjiT1LP56pkTVn3fikEAiFDbaG76Qu1/muRvm3sPfAea3RGgOJ0Ub7Cg8BGKYJZr5N8rrlJ+rt81DNzRa1IaL+hPxAyABTNIQ3zB0NSv3faXjIP4zBJfM7dyccrzlWsAwZmxhVSz8/3HIORWGgo2vtEDsPv5pECL5nz6AgR8KEcA3JQFoA3X2MeWRqcoS/RurfsseW6lGjy3UK95Fv0XIlqOdlRnjh0Oyozxw6HZUZ44dDsqM8cOh2VGeOHQ7KjPHDodlRnjh0Oyozxw6HZUZ44dDsqM8cOh2VGeOHQ7KjPHDodlRmQAA/v9u9AAAAAAEnpeS5xciSJOHzWT6KUAy3XQx8DcEerRBy7Bmk1JrOdURBA81/Z4ILRIFvifYuDS40yBBQ7kuG57zWLGdjoQCkBVOv/McEAQW4xsGz703uMY8wU3/fRBwIgAodM6qqqmVrw7VMfWiQWk60y0lmPaB2UaC0+5gdk2OZiX2r6LFEex6QzLr5+k4eDcsmFkfCIftPy8nxYlRl1GLD8sy7NWSMUC75LrpYZeaQS7N9c6fjiZob/6X2gSfu6WZOUyD/+6zpaXyj06Wkw30Uq6D5p5YifZY0Cn+Xx+kCb+bSOF/l2bQ1YmfmFNAezZcIwUJHtyR3gx/qJTmlLx+ZE3pdbqA2/gclF4RCA8MkF5Z6bC9hjn46kglpEwZH3kMRuMYi3ybfQ/OmyoLDw3Wux8pIUOHZwKIKFQ/AqA8tXGgCQcgZtRnJtfKchWu5XOItbgR8scuVLDZdrDYlY9qZ5hhJU54kh+FrK7jes5DvSwkbafgal9x7HrEFHPCrMvMwRUEueXc73hsXep7w5iQvKQXbqTwsfCiXDiihE6wU47btuyPakRHYagPz1g/eKbx4PDU7S7kZU3seEPEzIp2HO2PexF2crgUfK1MkxtcMCbhj/XkgyEziSze8iQBiOrazbNN/renBgjz+5qXjxT3gqbBSJKR1tpzfTnq1i1u3TARspYbVNLZqwlJlITdxZTxOLIZZhMvoNU9cznaRdi26WvDPL8zvn0iTOf6dfrWiayYtg0bwaSTDCc6nPbOunNsnnKISvKE40oGYhVc5U89xkkJMd2vqXPvURlu34uiKsp0O39oK1eKosT4E8R05GNqA64vcHWejn4Jmlh0Kbpuicz2AQhj89hkjCiAjLrju/ULECk3x6KRxiDGWBXr+JHh9gEtWrpKCq2VcgfjEFxi/s6+hM8m71DsXnp0gZAazN0WlsXYXQaFMml/aO1RoF5gwzRsn/4/TMmIwXNY6l2g8RXpZax4b9rkhRkKYDXmVW90D2LKfilHVE0uqZ7+ZcDdBcl+QbIYk9Afa2+bvC4RotdYXUBtUxj7A1SEfLAkqM/VzpSczbT/Fmel8+tjq9fcVhyDa709+vRBCvjeNHE3PC4R7nxLn4dKFm5iJExwTWN/NSF1qOJYyBfNAzLy1YFLQZYTisyxJBYzm7wjH8O7RTuzY4+mxvfxIsg8O0JcNyEBukzCQZ2ED5QLi9Sd4uOaFCjLFuzxblUFI6gdqSNjerLcb9zlEUKW7qVZb72etm6O7CglimAY+E01ciXiFR2Q2nW8hjAInCGlI7YfsAagCadLJdsm7bvmsNBkOnlnYFbFeUkf131FWxY1bhwG+pbv8bEsKcmcTZ0Wm1BocBdB5z3DnNm+klKKjNgVLD7BBRyKqkRr/UfxQlG4zh3pE2JOX4Ch0mDYImGG+UjcxaSqNKIu0Ad14h4YEkSH7ejNIf53J41N/lz9SUPT18HP4AJ+XloRTPnX3KYf07Gwvey/XL+czCis78hOczWeXDSRl2f6T+H9UyBxjSzsGrP7WdNJGp5Sd4lgKSBYLi5CmD30MRlkAYIkXwxXT/Y1FlYwEhiF8n9ToNRs2u6quCWBGtwHIyTsm3KcQrmB9LU9Enn77uuLg59Of6AV/n7GxK/44P2PBflJM+TNgzM6WxUOWeVgvRPJtdCxQChak2ufcM5e8A1JeiiIylaoTpEw6x+RxSyxlCg56IH6zMJ08rnNOTzcTvDhoWaxW9B02P2YU9yG+LcSnX8nbgO3dbHumIPxwTpwDZURATU2R/FxyRUqpbGn9x2cUpagMWVvQzQJ+vBnKuy/nc02sLFlKVPAW0d0LEvxQJCVmUTLN9fsbcaENLSshBmgZaUTSBgfpaJXgURDDiW00NJPDJSV+4lh8NfJyEL+feEUGu57UHqg1qH8T/V4jguXhS3kNEO5jErvkDB2toidI6sSzPOerkLFhAVEYxRjoKb8zIB8RqX9xxZM/h1YmnTMVq17+tyXPJykuLS2NFq/Qv5CV3i4hXfx6eWYlg+0a4XvbxzhkqHtdVQ+Sj6FBda/KvQ0YcR07NJ1dkPpOmZQIE21209X0grYZZtZ5m+VnZ7GK1jwcUHGgfBLNTE3lTt/cE0TaXDZ9fQaiIJRz+XQuTieLrtv5OEgcjQJvvrToXUfcCJL5b6LUP3KugE7tvjSLlJAfRtNXFpby/ei+oP6i+MYDWV5pm7mf+Bw92qzvy0V7KGLtV2sw+U+GCRTR26cfC6EujHU9WFrfEa1PSZM11TRZB8chnpNgvsp6YKLJ4WqKwpdnQiH14lTRgBp+ND4vSgPse1mn1yW/bLUVLY4J8iFtuxWnd/Q5LYfX8KsrIFOW8Znizwpsy3lZyOs15Q+kSfq1WBEF9Lqcs+o01PavnRp8fLHuQjOBHx9f89RMm1rncCj4jE28yOuTNHDiMVW226Xnb7w4QfzN7C230leHTfTVrXfc+I4hfNfuUS507mc7BqndjO/PHeLqi/o2gzTWdTC3OXtNvRdW2FlGcOtHVa9UfLRH2SJNlJEfPlSmv21EbiyZlZ/4uT13h0iosnMRInScMsODDEJZPY/KgH7CyuG3A/ha/2fU9ZVXtRjPpaHI+1ULODmGlufvg+ojnltQudu69M62bnFce2PtrHxOexTXRAN38Y+pe/dSetlThZmnZm3At13AcoQUoViU8F/eDjYHibDmnWdNSZiC/RGxVlKbnfQuw8rwb67XHDrdHhd0LUCxBE14giwQoIxVmQNgzoT/peQSyT//kAL9ZW4aZ3N1YP/6sBgaCQLw0KCpZHwwCKOu2P4vjHei0PtabD3FGPvNBNYqSgHyqeTeiXRMnbyviRWigi4mOIujB1W631Zl1qdPqdvycYfJiMpp0XD4ekCIiDKf1GbRR+hOMapLT6oBHERrzYVcnnbnEueWlJZ4E6533m4mUL+l9wMp+CBsZDjoRXn2uoV7BmMHWfAjIWScli7X6n/77LL5KfemhPj5PwuruXZwor5RKWkBBT4PNz+tlUO/mmijBU1YNSNtqTxoaTfc6GjPhMpqW5usJUdxR63uvlZSs5VLdgDHssPkR4Rq02sjNFEcvOAQYxGLXy6UGp1hvsaJ5G8uzyUYFTkb6simEkIOdNGwofCuUQT+y19IDo7/k3ZyaYpbJlaWiFOCQ+B8H80nObdR54ndSP6CVUqH3X39y6wIiRsW5a/t4iIV7vhLKRPFG+M4Dirlk8ZuNbhZvAw1aY4anDOgZNI/RmgVvjaxCBo/iVj+r0Aqzj57+W5BU6ALOUqDq0eiY+UbDGQopob/8EldgQ+Q50eYxYTNiU1UfeunEdGzp9BviCqMxU1W3Ytz+p9/paEeYAl44hb963gslS7ohUDjsOTOcnEZ5kQj75hP8yJTg8zKkcDr9kP03Y9GUdjZluufpxY/hjqggpq+eZz+LmCp2UpdcplI60f4YpES1Iu2SjCCTSNPXSzV+xD5ELrHpuOdhudgFvQIZw/0LpkAO4MQ3SxQ0YjyQ+YI+hAEylptmijH0JsOjoCHLpj8HxY7Y5ZWhpELnFJhvtmbeQgDwR3KtUW+051PltQt3PmJRuJnFUzbJ7FLbhpydPQivINkVinbkVTCEi6TW+d4DAmqxIR5CdJk7+ZeBVGoj+QsRCcoEcTn7TK9oL71nahDPRJPP5moIoOYI2iiZzVj18HMAKMOsjcSexjbYkUWUAf+YNRwZJBXB7dCLKRMjheTVqOvRm4V1+3Gx4Hs0qV9zp4hY1y/Psq/RzCmk4NzXpFrpAIEEWauatLgmqtYpsfhTV1ZdQHtH4J6md/GqE8sdS0uxAwKxcBH2Ju2nDtX6UDy5MYoZ7+/EoJXVx2ir/Zedicz65jkQm+qUALDpyxAzzyb3/V8omsPgj86ZgvFbcZFRvj2xURunjcqZKpIdQOEqHl+kNguWLzgtbjgxxJPZzqxD68PBjZtxXOVzjSX0s8A7K8Fac0MgMnQ88OEL+zV9FjfzfWOHu+9CxL5ZQfK6Swwc2gZFni6X4iG0us6n/2of7LjPDPal8HlQrCdji7T5o+BoKnCPLQNRu4G3wPDYBA6KJgCWCv71sAAImKIAqNVTh8rQ01cqhG48tzXlKjye291AmsMHCJpKkKBooA8eR4ELEciD+hZi/GjVDbTuCzIS9V5CxUeFg7JrCi4SLcPeXJxsOe1wiFzCUrqky1RDUE+rNd/mfIPyqzhE35AabI+Gu9MDbsaxj38AlLlpd2MKF5sOU6b8R4Khc9zJODuYsiC7WcA5+iqKLnh9+27VBDfqaeHzxfVeg1AnEtk4mAy4Bd/nYEbZQTtW27I5h5UjMIrM65s/yZJJ/UjHY5iMsFH4CwmSYUkdLTa5zjmAU8fYwaWwuUqKaYqxxU/UbSIwJQ9L76RFeGsuPHC7uKfMgSf2PGy+xyUHQdT9t8ucjFmRHmvVUOibZFm/bigOuFdPVvPazYei453qiKSapHq0od6MplCkN/RvkW4qQY8wBkpwoM32kIPgzLP8Tlcpwn6yQK5kyjCiy82Gn57QNdEFxeROfY6ryjM1B35A3mOgDFEZierAo/iff6+OesUAp200iKu9/Q4cJ7Zzohaa66OtprHCML3KVyHZxFDHLCOGH/9TDsESNX/9hwiuvfRN7ERksMZ4US8G4tv9jD2z/VpnuvkDBbxNu3dwXYgJHlONJ3bRbW+TzQnoGs/yjmRAhJ+fDpt6Iw6TXCXRoPHHjufZIF4DhOS4VOsOcpiKNq7d+F6fOEackR9epSRJQKLpkgsAf+ani4PtBOzmwNGovXm+tzBAFOBe/3vsb+T/QQXLUSpydeZtO4iC0VopB5M4Wf3XcG1MycCKZdfkAujlxIAxu3vfNS2dEiJ59pATzF1CBqmkJPTjiqFVhR+r+yZwgFGd9N4GwPCPqzAmkJmJKZRHdR2y1AQshaTDKu9ojxF5juSZRR6XRyEs/QFu6SiQR5b1wqtn1HJsgzzIgIo+ax+gmj671fGjGiNGmTMnta5cjkmWpeKpjGwnD8SsQMpyiY3HprKydgQfJJYBSceZBZ0QOCGMO6QeFx/jlNepvdpA6QiOkUPnCteNDrj+Z4SWVCIpm6TqLMu2PO+k2yaxOBQkdYWxLH87UofCJK6h1EjC64PD1yQtB5lyULEPZxF/zJp5FkcABTL8Ozili63/EghEhHovsP28oslQdnkeQsnDWKVDgzGZipC0zF/4dlfeIx4CDM5Ci2N/mn4co7Vw+JmBg4BLlCGLtOR3U1Qa2USFn1uC3CW7XcfLOfn+VbrXeVER6maSCkHv7grD+XH8UYF8KFNO9dukK0UZWPQsMbfDPtJCRvAK9kINqWwRYjJdxqPd2QHvsFQrva7qjU21JYUl/u4y7KOogAAAAAABWEDkYwA7XW0STWb6W03egPUJ65XaYdRjCSzDkWhGRuFAA1gQ8kj8ui6vUL2hOCPh9B7b6TzZl6E35L/4r2ev8vFEuVy8pFzeKfuaojaa+tWnBxu6D6jHnqnGpirVjgA+BB2q8P/dx2tkla+CH9UJOroi3BSRb6X6IsTfkBmPSS1L2TxIiYibkQmUB/ZeqZwVyBtCeOSYwtWNTHiQXBKeZX44WLFbusQWkzWGPdXd4TbAFxKv3VJTMR+pzP/ZFfsO8szmYRxHxKLvTcYtsVL+u0RzsltfNHLoU327dyYfRJiMmH+SHIWDZwDtLBnE+KbemDQBnPL/USEuIDxsdSxG0E6fLympVcDtH3Zb0wlOMaJv3QfesSrcVk999oFQ4QzCX9Qbg5KD8HMNoFY3n1auQ959iC5ZoFQloRZyE/uYtLLQr0tAZ6ougu3sJf8dz0ahpq8N02zKT5642YyM7J7CH2QNu0VNVzaP5wSHssvXLEFJEvdpwyvf8vdPHLj0Xuuq5NWM2BtfuVvvWn0rd7DpLYqzVVCn49Qju+mF7hvDC960iZ3ErYakbpz/l3bK7G0gNgA6RiGXF6evZp89u5Qgt3IeeoQbC19QyI7H09rHscLsiDxCKgknd6xVUy9LNGX+AigCqslD+Z8Smb1hUIS8MhhCoACNaW2cKjrGkLSLZ7ucHHjXOSbrJZ8sNVSGGm/DcSq3aNP8dFRuvlaeTEqWCV+WYrRUcFHBKnM8g564fA7cZ1HTGCzdj7/qqVDcpfDX/tQsFr1i8cB5o+91Dfo4JvQ6/mxT/imoHnsqtZzSj7Hh2MbQ+uLyLHAUdAR0wmhzOjWjuCki+aAHpuI64XsZ6VcHTfhxx+DIS1FE4+GxlMQsA/b5aoVIZyaLA1CPEovtp+ll8YHBByHadLt2Sd4xTqrRoRoK5jWeUgzcBgY4W2f2CBNqhPrLiU3etLURBqbMAv86FOlp5wIfk32/szRO195cMZgl+xHIM6VizxkYdhF09ZdGRy9qzOsIsr883BuHTh/RFBpnVbmDXdJ9eCjlvDzLGakrP3Zd0OycZ9+meo/+QKGcil7bSI+2sJwoc83JolGB7n77nNeKRPZ6tme32T35Sr/n1ycOmZhgm3Ar/EBNZyYXGr7e1+8u0f75E6xHT/2xWo8eUjSGCw899BOuiU9DYyWNJQefUSg/w9EogFzpp+A/g3KsCW+eZp1e0Ppi0cTrgEV9XDeurx6M0Uf2agDs1Do591kqOf60NCK1YYnfvOxNwl8j2LnQoLvIbS05HaNQJbGlRYlW3r6LDKzjz9IkmG0eYq+V9sMNiSnDjiu7zF9BqCRMtKCiViWQqbxh+L2SyMu2D3bRm6212oL2nJZmgOHl+WBb2qsRDXfEl6azoN5Xq0I/1STue1Ol2560Fh6Rc/SywpVqu1Oyd2GvMGmISGnqcgFi28IFmLXJk0qiiXbU3YtkCY7N8MI7foUnDU9qsQymoEzDtieCY9GFOyk+1K2k4X5w4nQ401XZH3qJfVmms7/2apSOd15z5plHSjL87QBpJNiY21EO5az5fwkaQit4xB0L1kOsLs9ndtOXbXKLLlhOEYVjexJmfNKSEVEtoug126PY9s/jHlXOBc0BpY4ckkpxxeuEGbvDpGEXnn3ccT5zjA2HPHhLweEwOwL4w1E69ZL+yQ78mQ7n5l1Be+gZAYMdOYI7EH66++nDidHRIVGk0Mk9p3hyNd+qsRg/PUTQ3QRCx9hzGoktUIX+Uyi/139Sml0moDN7DwnjL9IICfVlOV5HzuxGTH/k0yQ0yOKxSPqWOJhvYZc1idTRi0jaQvnKUhAH9mSC9AFDXhbAj583NiZmEPZSZ5SL8Tgtfm6V9dm5utZMVaAnky30OxeyoMmcUdtyPwOLjo/8I8fzf0u6be/FkN3NE3WhFD85b9azr83/Vd6G0i1cdiz/ymNJlUKCLAU1toaUT78irvjg8mE7kyU6uVTfu6C9FhM8uBBSGEUgjorBtcci/OYiEP3V28FFl9mGLW/+kqugYltmdX6SlTtHrn87m7mB6xujkSNxO9OMAhiUnADUps0PvI2dkrcWvNYPpc/m23Zxwwgw3m5flaYkX4NhNny/ahGzXP7djcPs0cRYbr8h18y9fPj674Q35DJRvi4GhXXYHZVRVvnMv/gxH5H4NQNsiwlPXf8Rdf/mj5nxeY9+6+eGZX5iVbmEyBji7TCHGgRXfw2Shjx0ODkzptNBsnzEfb/DKdAjgPMHdFNvuvwt+FylGh30lSE6J0Gll0E56S6kMm546RBt21O9uEodJgpXfFBPrjxkhXYIEJaIQ/6jn2H6ZdgNPH9wog7q0TvLhLKv8fco9/kAS5BacvMAPq8xvjCbtvtVivk1lG58erJa2+12jO5/7REoU+YPfT3Pi+PS5H7nF5inbuSy8OungyxYeTBcf4YPvqewBlSz5H1GH/uqAZT0OIX8/GNj1ncoxGqlc7QlBnzxpHbw39RUGW4/hlqX7xZSXZ41q/HqRE8ebfxeWP6yD8yhCn0s061w9lVJJhoC5FRq4AzQSqGUwP2uK8qpjBvgGDNuYm1f1G7FdMWjUX/wYekAxY9asw6h08oxG5bPkbznwSqdqFyvK0P/xNbGmn6+dAp/3pbjHtb1Ykd+e0Vsta+mWTdTahX+mBtMbMJ1t9nt2KsPRNSTe2s8HFw2TrR4e9eF4fnrSAwncVFJh1qfe6GFo0slsRj+6E3fzjX9GK8zKj6dKFWengCYWlzIV44YIpJ8znAznxnCZz8C/ELi9WLpb1K5IURw7TbQpdsaGhWaQdTlRvCh8Kje3dgykpe5Wjb5iuS9Tf1IL9uytWBcvJ33Dpy0oNzPmhTR7pcEYjTuC6ZfjMQgBbrU1vloJBn99CLhNhT02ZtBO4EJCyIqHUDgndGc4Y4bx3v5mMGhMBHq7QqDcjU9VoXrYWn7J+9Ka/rw9Mif3JWVZEIqbJJg+ca8+6za//lubxDluKZY+/KIgmAKU6fVsSxAabbw4etjAcHCZdvBENqhmkBwXNOd81HTV6yWgq/TzkdObbWbDDBGBoBzrQSkVnSvSrtIkirgdQkuWSxPbcrCl68H4RBTTy7WHBVHewjBi3mHy3pkUBiHUyjyJD2E0rKKKpCdf8u6QJ5x/aZXcZS85QMHO3mTtNNG0RlGDFbbdZDgbuNIvPdC9i7r5iGIEJMfkWzMflYXpbekz1aok4mrLIaqLTDN67H/MU4TR/zQ0Q6O/SKeJUQOJWRKUeJRcuvXel3cZH1RNrQg7WhRwHFx8Qlm9qHDGFe6EmlebonygkRt6vDRgZsGzBpNsRAOul2tadfs7G8ore5mRsHqzHqmtoqUeMDvyJchDqa1MknDRpcYI6Fr7oRT+AkyHDfEMS91QRwkEHOFbtMei03DNW3+H8T70pZGQvBLYZVF0BA1Y0yXn37qvBDALnMdPZ140NxxeDyxW5pZcCe16y3mslbN7He7xIc4nqMmo6TdH5ljQRnAYHC9EcUa77EBDc9obP6x6PBff2vD2d1AQ3jzVLWxzv60abGeMafOJ+1H1OPHUK88nY/A7giiO8mJ/eJmMPjYE6vlbqrn10tt3hXw7YGqf47fR/RwPa8PUVu/E1lq/6gpe9lKf4N1PYBOu01Fosd2tOqkW8jCl9VTi47hJRxbqBP90X6X235qFm1EoI1hcDmXIAM2RC7TFlP7k9wZPF+wOBfWSlcTlxG8tZYLYYx/mNv1q7MksdyIS36VujkchXsCTHch93xKqY0t6y+MJ/yd/gl+zd7lrgPaBCbytN6JQavMCytXOK0ef1eMgK6sJlRHB4+JFnGCTL+SehS91cVTxsA0/2enbzy6IOLuk1wnuGS8ieIrLRN1FXHoXm+9YPuLnHvCPW2xaP5E6nGOu/ZkIVEjPUXg1CE5zMDCQTgtT0pWJKLyEm/Mrhm15A1fKf0FtuokXAnHNFKbPys+Zv4LZRLLN4N1qwfnBjkmDwzjn7Er53KFSDC6DN5hDD1m65i5p4YLSrhLyVWhUBRCm+3pb9dccoZms1XRaVOiTnYp9Lygq/Ep3HpI8hVkLHO04lY47gEIr1lo4jFCZ9k9CfxBM9TtLBrprTugFIKgTlAFzucsnmzJTxmUMHo3BDEECVCGAmOnZeEBr7OMlwceJpcWVsAyM+JxWtXHPw3T4i6MUEdPuDA9riqmINUdEY5ttRxN4/1StfekgjTeW/W7MOtyC1s/Ed+0XozmgzmN54Sl9NALQjsWJIpeEqK/Elh4ioeaekCEWUWdPawZwjeiqFv+KuUkOtS050hUAXej8JAHsn69hkymMF2N7mpZQIvdTU33fN56YuqlIsU33y9SE2ghFunz9x9mlXmClqR2NKk58eHvqkZVkzWD9djYrHn57O+FKk0GrKpzVR4MkYvyLQ3y2JwMCfEp28nl40wvUMFRkX8swjmlrd8uCSp6pMpPgAGpt0t4mfJE+GhX4pyarLTxh+yZu7AAZIpnnunDeZ4sCLalcv+4OxPJR1sbgEWwsq56928Cv2PEsQ4Uqzu7/85mNoJaKjkf3f+POLoaL43q/cPNy/pTki3RKh9uiNfESLIF+75NvR+yBzNZ5kKzFY5YJwhFeJ+8TveIUtJArXK1Xbe7rOYcqDOhk3qwjWMOeuNfWHA0yd3e/joqUgm+B42eWY3cdlGd5NcZi1xHGRquxIfDaBechyLVEpTs2Rj2qhLcUZ69qrlIWM3iHZU3TN4D6xpM+TpctE061UbJxbWzNfWuVwnOvHDzG3EhhN83So0+oBDI4ExLnHLREjLoUKcsIlBAwtfZAT1xyStgfhYyzuWulsdSIklknd2NL0tcwDWgWHO6x78ZETbXirAQDPzJKnnNe2JTFxQqlvOuSVxi69aK2dzAQRz8jcEeDDWL/W4minmyfCPq1iHvN4HdJMycoWRDO6pTLWYFwFYoOGiBfHsCgVhzU5aYq6w/PL6u2mvjxnvFXVyLVBpo7Y9wD5jndVj47guiPr1na8uMGpKJxDqx+gaxwCQjyy7g3+RI5535aSQZ8sFTFUl6Hzz6YKCjqKDwa/JwlVAHEuNL9MLhte3CZCDlzh+Bu0CZWH+T9oWo0il6K5p946rtG/Kp2tfWvqmR8T9Rfc4rQiXhr9jWg1tXmQbhk+Ml/MfSAzy9BDlIcz4V4o6zNaXNhKlh8kT/+Z4S7UdkOX1zn1R8rG7marjUY0T/MOpqx6idj8PuZs+r2KFrDiXFyQI8AMVGyfdm6ckUjaO7HdRLggs7hibc8OdNiWx0MuUINz+GhtSuXpvnR2wcNIEb4YFbAKiIETz4sKrEL3kD0sy0YDRNNU5DSElv+ivifwqRtKNIFzEztDNAh0727U3q8Gss9/7bTC3jsYY3UQbzV7phonV2lEQ3HutDGwTdiFIupsJ9LlXD5QVaz6UFH69ymqUqE76qqgOF8hI1mpwzG4tkthxsqRbQ/q8wN1YdlIv7Z615WB8DkBASLK+zSMzsoZQOZatgER8rZAbEoce5L5Vg2TFIe/u5g0V/++YB1M0BJxgCo6DcUTF06CLdK6GdmXwNueXS7EtyEx9c8wCfFQOQL0vGZeXAwXYmxxsP/jzw2/cJYbzjLRVkGSkl9OQQLgmtfb04eC/m3cEJ0NHjLb737cNdEc3SDyF0E1C8CkBI1V4Q9zfCgSh1PYwJlG7ZTIaFbVaMKvIdkL19DimIETUZNIqxcaOWYv2/b2qvTqUPlvaln1iLqCkrcFYoV2hxQOjaE+oh5KyTkQ+XuWIo9tx4Mg0CuqhMgMZgIJ19TvVSWG7DlzYlt3xx30wuIVDTsKBEK+YpTM1mmrf7zh74FjnB88e6XEyHwdSJ1zLQvkO+6nFD8t8xjjZfRyvRpd/AS6GxSXNiieWztGT7Z2H2PRdkRljkl2VAqyl7pGTLvNfX7R/hkh+psKn32zf1mp1TfToBHoxJbZBNDhbiKxbuKD3ce5G9wVaEp+A26uF9UCmeBI/3AbnInw/ytkD+kipgzglcMDQ3KSPPz7s6UY4KydSgSPZE94PTR9imZ3D1Q/eUPb4fXfXAdVBhdFkjy7JKO9D5lZS47dBi8JnzlXUY5mM1wpMDO6KAzpaR4/Z1m6iSVsvrupMAsveybNTpj9unpsop++JN2gclBsg7X+Cnx5L7y9KI91JVK6SIqksXOq+v3MEcqKISmLdk/uvFM6HPnAonCtIqz+W5NCNjVO1ZbIS+PLb9mpkFN5a92L/5+zEtYvIKR/w0w/RU+TX/zAZx28K4L8sVZq5CJsWSudv9M15NmiyE9ItDmR/OxtzqYwYlcU6rPOO5GqrJ8GowaDRU9DdYcgkd3Np/EmeApkoXfTVB3GFPOJ80GvZ2Zl3Dwqv1tgycsdIJZlJQNdOCTybS0XFo6OlIj5ZKaQGZCh3tpc02ybCN7GlIfrvi0oeSoo1cxt25fKalXdjH0xh7i8fawh5ieXUS7y5QSojGJPayEB+xAy/bgOvI9QXIPTfCG6SvPIY1Nqg+dWEO8KiajjTkwCVqriExW4Qr6MEb/Nbsc4GohpqZDqLNCiOA9Nf6NJBsbsJBRiEBDPfHJyE060Ske3lePhaFFZwxd4OwtVOeiqc5FJwZW+kMnTAvPIGoFq62Uk9dvSl3Bw2Bh75u+1IKWriDSdPyLioxyi0CqBVewMon0+e/1PekNOeboPeiDEhOOhiq0RVYicnBrme2FXoj81QOMPkRKir3oZVRsrdpVpGL+Pl9C5oVj+PSohFTrHnEJD/M7TB4Le8I+phbnTDwoNDFCC201CNALP5tkXCA61nxAoO/DdScUTZ78lDFzD8Dmm9oe1mDJne6MVV3flnFsgT7xRXM5hxxlC++77qmJD2OePXEjmgs9u+OHAVrgEy1ac7etwV9bxjAXMm3UiObL9UJjaRHJ942Qi8U+/b3+yJUpI/+zmpDmCI+F7ErGBBCSuXG4bNwqEdb26lEojt+09/4BXEAS4dlIqEqZ2aTiy/tYqu7z5OJegBY8son8H06WBBgkrxPBeDNUR9+QrrytidRTgQMFW7XQZSR7HtVnDU6Qvp6Z/BZJDU8f2PEC4H2RiAAAAAAAAAAAAAAA=","w-eclipse-electric":"data:image/webp;base64,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","w-eclipse-portable":"data:image/webp;base64,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","w-cobalt-electric-product":"data:image/webp;base64,UklGRjAEAABXRUJQVlA4ICQEAADwMQCdASpoAWgBPnk8nEomoyMhor1YoNAPCWdu+F6o3in/HtF1u0F6FNvtz5F5dX0UYrlZQuJcS4lxLiXEuJcS4lxLiXEuJcS4lxLiXEuJcS4lxLiXEuJcS4lxLiXEuJcS4lxLiXEuJcS4lxLiXEuJcS4lxLiXEuJcS4lxLiXEuJcS4lxLiXEuJcS4lxLiXEuJcRkDqlwuu7W9XTXwVdrerpr4Kuy3xxVRm86aCCgwEXR7sMnishUe+WYYi3hWctMbKGF+FHSe4CUKzlpb4zuFUzK54H2G2rxK++VS5OFYW1vERopoypI60o41GtnVHQ8qNND/XZMLvRQx593tOp+l8NhQU+E4BUTYUoLsM89pCnw4JQrOWmJoyR3HXU+HBKeJxpwxWSS3kmQdq+oZ0YSaaZOnQe4Mvgy4lxLiXEuJcS4lxLiXEuJcS4lxLiXEuJcS4lxLiXEuJcS4lxLiXEuJcS4lxLiXEuJcS4lxLiXEuJcS4lxLiXEuJcS4lxLiXEuJcS4lxLiXEuJcS4lxLiXEuJcS4lxLgAAA/v+59AAAAAAAAAACX+6a9ZI2Yu3+49jr4gE+x4BCl1JwjJ6QkpWhs26IOuhvDA3UpK/cb9EwsSFa4i2hdSVXAFIFv+upqwrY4zfyzR1lGRaoXaGPUDamVaKDoTnYQWNkrD0bkNKKqT0+aWYfRmKYRzpwHbjpgDneIIzOZO+UZEDqpRPh/Ru3oNgjGZ3Aekh+YSum5zFQxAZX070NKAS1FELgdwAi5xAUuAaAUEKy827xOl7b/D1uJcdauyQmTnNeGkG3+GLK3zGM4g6Cx4bga2zKi6JheY+tlEUJ0LD0lk7GLBn+L+gNo2uggIsqkYXuuwCKLPWb9o3f+dguP/H6dwoxp/EtwrmkBBSKcmBsOgefB+S8D6uLta2e1LTIVo3el6AeR3FX4tBPku2hP8U2SfAvPpK0xs74wB2NBp+VldTvFoB4XCS5htlriU6ugOFWrE+BmRUnuNXRA1TUCLsCFSxc0GGzXdB2NCv6lEeAdbYeO2gjWE2u+3fMQdhfW+VY1gRkBDtZIj1Y8R3wJlk/bYrwEgdpqQH52KvZaa5j9QeBaSBwBHST3JkLS4lQPH9942008dks36gWnqcvgUEyVU938uuGbqre0EG/Zezex5ssrwwxwqXmvS0+UoGB/LKk03TB98gDnMMA71DcsRT/LHEib8ex+r6xTcHZ0IK9vwskHLuvk2con8zajBGZwNgL6JyVOCz1dkqyIHnrns5bw4MMScgm5LKXileMhbWbGpKa+O9o0zpyNR55Qz+0/0NcNpExlrztd1ODHiNO8C4w3KFFz3R2G5yyVlHUJhooSHgMt8Wx8AbLmcOXOa3BP7zNw9fUKdzHxO+UUv4f97gAAAAAAAAAAAAAAAAA","w-platinum-gas-300":"data:image/webp;base64,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","w-tungsten-gas-500":"data:image/webp;base64,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","w-tung-port":"data:image/webp;base64,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","w-affinity-dimmer-1ch-2":"data:image/webp;base64,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","w-manual-1ch-indoor-switch-image":"data:image/webp;base64,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"};
+/* @inline:end images.json */
 
 /* @inline:begin ../_shared/lead.js */
 const Lead = (() => {
@@ -1127,78 +1610,315 @@ const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const v = (a) => (a && typeof a === 'object' && 'value' in a ? a.value : a);
 const form = $('#inputs');
+const FAM = Object.fromEntries(CONFIG.families.map((f) => [f.id, f]));
+const PROD = Object.fromEntries(CONFIG.products.map((p) => [p.id, p]));
+const img = (id) => (id && IMAGES[id]) || '';
 let unlocked = false;
 
-function radios(container, name, entries, checked) {
-  container.innerHTML = entries.map(([value, e]) =>
-    `<label><input type="radio" name="${name}" value="${value}"${value === checked ? ' checked' : ''}> ${esc(e.label)}</label>`).join('');
+// Shape silhouettes for the picker (a 72 × 52 box).
+const SHAPE_ICON = {
+  rect: '<rect class="fill" x="8" y="10" width="56" height="32"/>',
+  l: '<path class="fill" d="M8 6h56v18H26v22H8z"/>',
+  u: '<path class="fill" d="M6 6h60v40H50V22H22v24H6z"/>',
+  narrow: '<rect class="fill" x="3" y="19" width="66" height="14"/>',
+  round: '<circle class="fill" cx="36" cy="26" r="20"/>',
+};
+const SHAPE_SUB = { rect: 'Patio, deck', l: 'Wraps a corner', u: 'Courtyard', narrow: 'Balcony, bar', round: 'Fire pit, terrace' };
+// Each shape opens with sizes that suit it; the visitor then edits them.
+const PRESETS = {
+  rect: { length_ft: 20, width_ft: 12 }, narrow: { length_ft: 32, width_ft: 8 },
+  l: { length_ft: 22, width_ft: 10, arm_l_ft: 12, arm_w_ft: 10 }, u: { length_ft: 28, width_ft: 10, arm_l_ft: 12, arm_w_ft: 9 },
+  round: { diameter_ft: 18 },
+};
+const DIMS = {
+  length_ft: { rect: 'Length', narrow: 'Length', l: 'Main run, length', u: 'Back run, length' },
+  width_ft: { rect: 'Width', narrow: 'Depth', l: 'Main run, depth', u: 'Back run, depth' },
+  arm_l_ft: { l: 'Arm, length', u: 'Each arm, length' },
+  arm_w_ft: { l: 'Arm, width', u: 'Each arm, width' },
+  diameter_ft: { round: 'Diameter' },
+};
+const ENC_ICON = {
+  open: '<line class="gd" x1="4" y1="40" x2="60" y2="40"/><circle class="ln" cx="48" cy="12" r="6"/><rect class="hf" x="14" y="26" width="16" height="4"/><line class="ln" x1="22" y1="30" x2="22" y2="40"/>',
+  partial: '<line class="gd" x1="4" y1="40" x2="60" y2="40"/><line class="ln" x1="10" y1="10" x2="10" y2="40"/><line class="ln" x1="54" y1="10" x2="54" y2="40"/><path class="ln" d="M6 10h52M16 10v4M26 10v4M36 10v4M46 10v4"/><rect class="hf" x="24" y="16" width="16" height="4"/>',
+  covered: '<line class="gd" x1="4" y1="40" x2="60" y2="40"/><path class="ln" d="M4 12 32 4l28 8"/><line class="ln" x1="10" y1="11" x2="10" y2="40"/><line class="ln" x1="54" y1="11" x2="54" y2="40"/><rect class="hf" x="24" y="14" width="16" height="4"/>',
+};
+const ICON = {
+  controller: '<svg viewBox="0 0 40 40" fill="none" stroke="#F4F1EC" stroke-width="2"><rect x="8" y="4" width="24" height="32"/><path d="M14 12h12M14 18h12M14 24h6"/></svg>',
+  switch: '<svg viewBox="0 0 40 40" fill="none" stroke="#F4F1EC" stroke-width="2"><rect x="10" y="4" width="20" height="32"/><rect x="16" y="10" width="8" height="20"/></svg>',
+  app: '<svg viewBox="0 0 40 40" fill="none" stroke="#F4F1EC" stroke-width="2"><rect x="11" y="3" width="18" height="34" rx="3"/><path d="M17 31h6"/><circle cx="20" cy="17" r="5" stroke="#EF4123"/></svg>',
+  gas: '<svg viewBox="0 0 40 40" fill="none" stroke="#F4F1EC" stroke-width="2"><path d="M20 4c6 8 10 13 10 20a10 10 0 0 1-20 0c0-5 3-8 5-11 1 4 3 5 5 5 0-5-2-9 0-14z" stroke="#EF4123"/></svg>',
+};
+
+function tile(name, value, checked, inner, cls = '') {
+  return `<label class="tile ${cls}"><input type="radio" name="${name}" value="${value}"${checked ? ' checked' : ''}>${inner}</label>`;
 }
 
 function init() {
   const d = Logic.defaults(CONFIG);
-  radios($('#enclosure-choices'), 'enclosure', Object.entries(CONFIG.enclosure), d.enclosure);
-  radios($('#climate-choices'), 'climate', Object.entries(CONFIG.climate), d.climate);
-  for (const k of ['length_ft', 'width_ft', 'mount_height_ft', 'zones']) form.elements[k].value = d[k];
+  $('#shape-tiles').innerHTML = CONFIG.shapes.map((s) => tile('shape', s.id, s.id === d.shape,
+    `<svg viewBox="0 0 72 52" aria-hidden="true">${SHAPE_ICON[s.id]}</svg><span class="t">${esc(s.name)}</span><span class="s">${esc(SHAPE_SUB[s.id] || '')}</span>`)).join('');
+  $('#enclosure-tiles').innerHTML = Object.entries(CONFIG.enclosure).map(([k, e]) => tile('enclosure', k, k === d.enclosure,
+    `<svg viewBox="0 0 64 44" aria-hidden="true">${ENC_ICON[k] || ''}</svg><span class="t">${esc(e.label)}</span>`)).join('');
+  $('#climate-chips').innerHTML = Object.entries(CONFIG.climate).map(([k, c]) =>
+    `<label class="chip" data-c="${k}"><input type="radio" name="climate" value="${k}"${k === d.climate ? ' checked' : ''}><span class="dot" aria-hidden="true"></span>${esc(c.label)}</label>`).join('');
+  const mosaic = CONFIG.families.filter((f) => f.image).slice(0, 4).map((f) => `<img src="${img(f.image)}" alt="">`).join('');
+  $('#family-tiles').innerHTML = CONFIG.families.map((f) => tile('family', f.id, f.id === d.family,
+    `<span class="pic">${f.image ? `<img src="${img(f.image)}" alt="${esc(f.name)} heater" loading="lazy">` : `<span class="mosaic" aria-hidden="true">${mosaic}</span>`}</span>
+     <span class="t">${esc(f.name)}</span><span class="s">${esc(f.tagline)}</span><span class="count" data-count="${f.id}"></span>`, 'fam')).join('');
+  $('#dims').innerHTML = Object.keys(DIMS).map((k) => `
+    <div class="dim" data-field="${k}">
+      <label class="k" for="${k}"></label>
+      <div class="row"><span class="num"><input id="${k}" name="${k}" type="number" inputmode="decimal" min="1" step="0.5" aria-describedby="${k}-err"></span>
+        <input type="range" min="4" max="${k === 'arm_w_ft' ? 30 : 80}" step="1" data-for="${k}" aria-label="slider"></div>
+      <span class="err" id="${k}-err"></span>
+    </div>`).join('');
+  for (const k of ['length_ft', 'width_ft', 'arm_l_ft', 'arm_w_ft', 'diameter_ft', 'mount_height_ft', 'zones']) form.elements[k].value = d[k];
+  syncRanges();
   document.querySelectorAll('[data-open-pct]').forEach((n) => (n.textContent = v(CONFIG.outdoor_rule.min_open_perimeter_pct)));
-  $('#foot').innerHTML = `${esc(CONFIG.disclaimers.coverage)} ${esc(CONFIG.disclaimers.code)}
+  $('#foot').innerHTML = `${esc(CONFIG.disclaimers.coverage)} The plan is illustrative: the design team sets exact positions. ${esc(CONFIG.disclaimers.code)}
     <a href="${esc(CONFIG.disclaimers.code_source_url)}" target="_blank" rel="noopener">NFPA 70</a>.
     Draft ${esc(CONFIG.tool.version)}: figures marked for verification are being confirmed by Bromic.`;
-  form.addEventListener('input', update);
-  form.addEventListener('change', update);
+
+  form.addEventListener('input', (e) => {
+    const t = e.target;
+    if (t.type === 'range') { form.elements[t.dataset.for].value = t.value; }
+    else if (t.type === 'number') syncRanges();
+    if (t.name === 'shape') applyPreset(t.value);
+    update();
+  });
+  form.addEventListener('change', (e) => { if (e.target.name === 'shape') { applyPreset(e.target.value); update(); } });
+  $('#teaser').addEventListener('click', (e) => {
+    const b = e.target.closest('[data-pick]'); if (!b) return;
+    const r = form.querySelector(`input[name=family][value="${b.dataset.pick}"]`); if (r) { r.checked = true; update(); }
+  });
   Lead.mountLeadGate({
     el: $('#lead'), assetId: CONFIG.tool.asset_id, matrixCell: CONFIG.tool.matrix_cell,
     getInputs: () => readInputs(), defaultSizeUnit: 'ft2',
     onUnlock: () => { unlocked = true; $('#gate').classList.add('hidden'); update(); $('#report').focus(); },
   });
+  if ('IntersectionObserver' in window) {
+    new IntersectionObserver(([e]) => $('#peek').classList.toggle('on', !e.isIntersecting && e.boundingClientRect.top > 0)).observe($('#stage'));
+  }
   update();
+}
+
+let lastShape = 'rect';
+function applyPreset(shape) {
+  if (shape === lastShape) return;
+  lastShape = shape;
+  for (const [k, val] of Object.entries(PRESETS[shape] || {})) form.elements[k].value = val;
+  syncRanges();
+}
+function syncRanges() {
+  form.querySelectorAll('input[type=range][data-for]').forEach((r) => {
+    const n = Number(form.elements[r.dataset.for].value);
+    if (Number.isFinite(n)) r.value = Math.min(Number(r.max), Math.max(Number(r.min), n));
+  });
 }
 
 function readInputs() {
   const f = form.elements;
-  return {
-    length_ft: f.length_ft.value, width_ft: f.width_ft.value, enclosure: f.enclosure.value,
-    open_30: f.open_30.value, climate: f.climate.value, mount_height_ft: f.mount_height_ft.value,
-    fuel: f.fuel.value, style: f.style.value, zones: f.zones.value,
-  };
+  const o = {};
+  for (const k of ['shape', 'family', 'length_ft', 'width_ft', 'arm_l_ft', 'arm_w_ft', 'diameter_ft', 'enclosure', 'open_30', 'climate', 'mount_height_ft', 'fuel', 'style', 'zones']) o[k] = f[k].value;
+  return o;
 }
 
 function showErrors(errors) {
-  form.querySelectorAll('.field[data-field]').forEach((el) => {
+  form.querySelectorAll('[data-field]').forEach((el) => {
     const k = el.dataset.field, err = el.querySelector('.err');
     el.classList.toggle('invalid', !!errors[k]);
     if (err) err.textContent = errors[k] || '';
-    const input = el.querySelector('input');
+    const input = el.querySelector('input[type=number]');
     if (input) input.setAttribute('aria-invalid', errors[k] ? 'true' : 'false');
   });
 }
 
+const plural = (n, w) => `${n} ${w}${n === 1 ? '' : 's'}`;
 const controlsText = (c) => c.items.map((i) => `${i.qty} × ${i.name}`).join('; ');
 
 function update() {
   const raw = readInputs();
+  const shape = raw.shape;
+  form.querySelectorAll('#dims .dim').forEach((el) => {
+    const label = DIMS[el.dataset.field][shape];
+    el.hidden = !label;
+    if (label) { el.querySelector('label').textContent = label; el.querySelector('input[type=range]').setAttribute('aria-label', label); }
+  });
+  const fam = FAM[raw.family] || FAM.any;
+  $('#prefs').hidden = raw.family !== 'any';
   $('#open30-field').hidden = raw.enclosure !== 'covered';
-  $('#height-field').hidden = raw.style === 'freestanding';
+  const style = raw.family !== 'any' ? fam.style : raw.style;
+  $('#height-field').hidden = style === 'freestanding';
   $('#enclosure-hint').textContent = CONFIG.enclosure[raw.enclosure].hint;
   $('#climate-hint').textContent = CONFIG.climate[raw.climate].hint;
+
+  // live count on every heater card
+  for (const f of CONFIG.families) {
+    const rr = Logic.size({ ...raw, family: f.id }, CONFIG);
+    const el = form.querySelector(`[data-count="${f.id}"]`);
+    if (!el) continue;
+    if (!rr.ok || !rr.outdoor) { el.textContent = ''; continue; }
+    const rec = rr.recommended;
+    const soon = rr.options.find((o) => o.count_range);
+    el.innerHTML = rec ? `<b>${rec.count}</b> ${rec.count === 1 ? 'heater' : 'heaters'}`
+      : soon ? 'Coming soon' : 'Design team sizes';
+  }
+
   const r = Logic.size(raw, CONFIG);
   showErrors(r.ok ? {} : r.errors);
-  if (!r.ok) { $('#teaser').innerHTML = '<p class="sub">Enter the size of your space to see a result.</p>'; return; }
+  if (!r.ok) {
+    $('#stage-area').textContent = '';
+    $('#area-aside').textContent = '';
+    $('#plan').innerHTML = ''; $('#legend').innerHTML = '';
+    $('#teaser').innerHTML = '<div class="empty">Enter the size of your space to see the plan.</div>';
+    peek('', 'Enter the size of your space');
+    return;
+  }
+  $('#stage-area').textContent = `${r.area.toLocaleString('en-US')} ft²`;
+  $('#area-aside').textContent = `${r.area.toLocaleString('en-US')} ft²`;
+  $('#plan').innerHTML = planSvg(r);
+  $('#legend').innerHTML = r.recommended ? `<i></i>Each glow is one heater's reach, about ${Math.round(r.recommended.coverage_effective)} ft² in this space. Positions are illustrative.` : '';
   renderTeaser(r);
   if (unlocked) renderReport(r);
+}
+
+function peek(n, t) { $('#peek-n').textContent = n; $('#peek-t').textContent = t; }
+
+// The plan drawing: the shape to scale on a 5 ft grid, each heater's reach as a glow clipped to the space.
+function planSvg(r) {
+  const g = r.geom, W = g.bbox.w, H = g.bbox.h, M = Math.max(W, H);
+  const fs = M / 24, pad = fs * 2.2, padR = fs * 4.2;
+  const vb = [-pad, -pad * 1.2, W + pad + padR, H + pad * 2.4];
+  const id = 'p' + Math.random().toString(36).slice(2, 7);
+  const C = { fill: '#2A2627', edge: '#F4F1EC', grid: 'rgba(244,241,236,.08)', text: '#CFCAC4', heater: '#F4F1EC' };
+  const shapeEls = g.circle ? `<circle cx="${g.circle.cx}" cy="${g.circle.cy}" r="${g.circle.r}"/>`
+    : g.rects.map((q) => `<rect x="${q.x}" y="${q.y}" width="${q.w}" height="${q.h}"/>`).join('');
+  // outline: union of rectangles, drawn as one path by tracing the cells (rects share edges cleanly here)
+  const outline = g.circle ? `<circle cx="${g.circle.cx}" cy="${g.circle.cy}" r="${g.circle.r}"/>` : outlinePath(r.input.shape, g);
+  let grid = '';
+  for (let x = 5; x < W; x += 5) grid += `<line x1="${x}" y1="0" x2="${x}" y2="${H}"/>`;
+  for (let y = 5; y < H; y += 5) grid += `<line x1="0" y1="${y}" x2="${W}" y2="${y}"/>`;
+  const rad = r.radius_ft || 0;
+  const pts = r.placement || [];
+  const famId = r.recommended ? r.recommended.family : null;
+  const marker = /eclipse/.test(famId || '') ? 'disc' : famId === 'tungsten-freestanding-gas' ? 'post' : 'bar';
+  const glows = pts.map((p) => `<circle cx="${p.x}" cy="${p.y}" r="${rad}" fill="url(#${id}g)"/>`).join('');
+  const hs = Math.max(1.2, Math.min(4, M / 14));
+  const heaters = pts.map((p) => {
+    if (marker === 'disc') return `<circle cx="${p.x}" cy="${p.y}" r="${hs * 0.32}" fill="#1B1819" stroke="${C.heater}" stroke-width="${hs * 0.08}"/><circle cx="${p.x}" cy="${p.y}" r="${hs * 0.16}" fill="#EF4123"/>`;
+    if (marker === 'post') return `<circle cx="${p.x}" cy="${p.y}" r="${hs * 0.3}" fill="${C.heater}"/><circle cx="${p.x}" cy="${p.y}" r="${hs * 0.14}" fill="#EF4123"/>`;
+    const cell = cellOf(g, p); const horiz = !cell || cell.w >= cell.h;
+    const w = horiz ? hs : hs * 0.24, h = horiz ? hs * 0.24 : hs;
+    return `<rect x="${p.x - w / 2}" y="${p.y - h / 2}" width="${w}" height="${h}" fill="#1B1819" stroke="${C.heater}" stroke-width="${hs * 0.05}"/><rect x="${p.x - w / 2 + (horiz ? hs * .1 : hs * .06)}" y="${p.y - h / 2 + (horiz ? hs * .06 : hs * .1)}" width="${w - (horiz ? hs * .2 : hs * .12)}" height="${h - (horiz ? hs * .12 : hs * .2)}" fill="#EF4123"/>`;
+  }).join('');
+  const dims = dimLabels(r.input, g, fs);
+  return `<svg viewBox="${vb.join(' ')}" role="img" aria-label="Plan of a ${r.area} square foot space with ${pts.length} heaters">
+    <defs>
+      <clipPath id="${id}c">${shapeEls}</clipPath>
+      <radialGradient id="${id}g"><stop offset="0" stop-color="#EF4123" stop-opacity=".62"/><stop offset=".55" stop-color="#EF4123" stop-opacity=".3"/><stop offset="1" stop-color="#EF4123" stop-opacity="0"/></radialGradient>
+    </defs>
+    <g fill="${C.fill}">${shapeEls}</g>
+    <g clip-path="url(#${id}c)">
+      <g stroke="${C.grid}" stroke-width="1" vector-effect="non-scaling-stroke">${grid.replace(/<line /g, '<line vector-effect="non-scaling-stroke" ')}</g>
+      <g class="glow" style="mix-blend-mode:screen">${glows}</g>
+    </g>
+    <g fill="none" stroke="${C.edge}" stroke-width="1.6">${outline.replace(/<(path|circle) /, '<$1 vector-effect="non-scaling-stroke" ')}</g>
+    ${heaters}
+    <g fill="${C.text}" stroke="${C.text}" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="${fs}">${dims}</g>
+  </svg>`;
+}
+
+function cellOf(g, p) { return g.rects.find((q) => p.x >= q.x && p.x <= q.x + q.w && p.y >= q.y && p.y <= q.y + q.h); }
+
+function outlinePath(shape, g) {
+  const [a, b, c] = g.rects;
+  let d;
+  if (shape === 'l') d = `M0 0H${a.w}V${a.h}H${b.w}V${a.h + b.h}H0Z`;
+  else if (shape === 'u') d = `M0 0H${a.w}V${a.h + c.h}H${c.x}V${a.h}H${b.w}V${a.h + b.h}H0Z`;
+  else d = `M0 0H${a.w}V${a.h}H0Z`;
+  return `<path d="${d}"/>`;
+}
+
+// Dimension lines with ticks, outside the shape.
+function dimLabels(i, g, fs) {
+  const off = fs * 1.1, t = fs * 0.35, sw = `stroke-width="1" vector-effect="non-scaling-stroke"`;
+  const h = (x1, x2, y, label) => `<path d="M${x1} ${y}H${x2}M${x1} ${y - t}V${y + t}M${x2} ${y - t}V${y + t}" ${sw} fill="none"/><text x="${(x1 + x2) / 2}" y="${y - fs * 0.45}" text-anchor="middle" stroke="none">${label}</text>`;
+  const vt = (x, y1, y2, label) => `<path d="M${x} ${y1}V${y2}M${x - t} ${y1}H${x + t}M${x - t} ${y2}H${x + t}" ${sw} fill="none"/><text x="${x + fs * 0.5}" y="${(y1 + y2) / 2 + fs * 0.35}" stroke="none">${label}</text>`;
+  const ft = (n) => `${+n.toFixed(1)} ft`;
+  if (g.circle) { const { cx, cy, r } = g.circle; return h(cx - r, cx + r, -off, `${ft(r * 2)} across`) ; }
+  const [a, b, c] = g.rects;
+  let s = h(0, a.w, -off, ft(a.w));
+  const rightX = a.w + off;
+  if (i.shape === 'l') {
+    s += vt(rightX, 0, a.h, ft(a.h));
+    s += vt(b.w + off, a.h, a.h + b.h, ft(b.h));
+    s += h(0, b.w, a.h + b.h + off * 1.7, ft(b.w));
+  } else if (i.shape === 'u') {
+    s += vt(rightX, 0, a.h, ft(a.h));
+    s += vt(rightX, a.h, a.h + c.h, ft(c.h));
+    s += h(0, b.w, a.h + b.h + off * 1.7, ft(b.w));
+  } else s += vt(rightX, 0, a.h, ft(a.h));
+  return s;
+}
+
+function kitHtml(rec) {
+  const p = PROD[rec.id] || {};
+  const items = rec.controls.items;
+  const pic = (item, k) => {
+    if (/wall switch/i.test(item.name)) return `<span class="ph"><img src="${img(CONFIG.controls_images.switch)}" alt="Manual wall switch"></span>`;
+    if (/app/i.test(item.name) && item.per === 'system') return `<span class="ph icon">${ICON.app}</span>`;
+    if (p.controls === 'affinity' && k === 0) return `<span class="ph"><img src="${img(CONFIG.controls_images.controller)}" alt="Affinity Smart-Heat controller"></span>`;
+    if (p.controls === 'gas-freestanding') return `<span class="ph icon">${ICON.gas}</span>`;
+    return `<span class="ph icon">${ICON.controller}</span>`;
+  };
+  const short = (n) => n.replace(/\s*\[\[VERIFY[^\]]*\]\]/g, '').replace(/\s*\((controllers come|dimming is not|zones, schedules)[^)]*\)/i, '');
+  return `<div class="kit">
+    <div class="kit-h"><span class="label">Controls for a complete system</span><span class="note">${plural(rec.controls.zones, 'zone')}</span></div>
+    <div class="kit-items">${items.map((it, k) => `<div class="kit-item">${pic(it, k)}<span class="q">${it.qty} ×</span><span class="d">${esc(short(it.name))}</span></div>`).join('')}</div>
+    <p class="note" style="margin:12px 0 0">${esc(rec.controls.app_note)}</p>
+  </div>`;
 }
 
 function renderTeaser(r) {
   const t = $('#teaser');
   if (!r.outdoor || !r.recommended) {
-    t.innerHTML = `<span class="label">Your result</span><p class="headline" style="font-size:1.6rem">Talk to our design team</p><p>${esc(r.message)}</p>`;
+    t.innerHTML = `<div class="empty"><div class="big">Talk to our design team</div><p>${esc(r.message)}</p></div>`;
+    peek('', 'Talk to our design team');
     return;
   }
   const rec = r.recommended;
+  const fam = FAM[rec.family] || {};
+  const meta = [rec.fuel === 'gas' ? 'Gas' : 'Electric', rec.style === 'freestanding' ? 'freestanding' : 'built-in',
+    rec.load_kw ? `${rec.load_kw} kW in total` : null].filter(Boolean).join(' · ');
+  // other heaters that fit, one per family, so the visitor can compare with a tap
+  const alts = [];
+  if (r.input.family === 'any') {
+    const seen = new Set([rec.family]);
+    for (const o of r.options) if (o.status === 'current' && o.count != null && !seen.has(o.family) && FAM[o.family]) { seen.add(o.family); alts.push(o); }
+  }
   t.innerHTML = `
-    <span class="label">Your result · ${r.area} ft²</span>
-    <p class="headline">${rec.count} ${rec.count === 1 ? 'heater' : 'heaters'}</p>
-    <p class="sub">${esc(rec.name)}, with ${esc(controlsText(rec.controls))}.</p>
-    <p class="note">${esc(CONFIG.controls.app_note)} The full report compares every model that fits and the controls each needs.</p>`;
+    ${r.warnings.map((w) => `<p class="warn">${esc(w)}</p>`).join('')}
+    <div class="result">
+      <div class="big">${rec.count}<small>${rec.count === 1 ? 'heater' : 'heaters'}</small></div>
+      <div class="pick">
+        <span class="ph">${fam.image ? `<img src="${img(fam.image)}" alt="${esc(fam.name)}">` : ''}</span>
+        <div><div class="nm">${esc(rec.name)}</div><div class="meta">${esc(meta)}</div></div>
+      </div>
+    </div>
+    ${kitHtml(rec)}
+    ${alts.length ? `<div><span class="label" style="display:block;margin-bottom:10px">Also fits · tap to compare</span><div class="alts">${alts.slice(0, 4).map((o) =>
+      `<button type="button" data-pick="${o.family}"><b>${o.count}</b> × ${esc(FAM[o.family].name)}</button>`).join('')}</div></div>` : ''}
+    <p class="note">The full report below compares every model that fits and the controls each needs.</p>`;
+  peek(String(rec.count), `${rec.count === 1 ? 'heater' : 'heaters'} · ${rec.name}`);
+}
+
+function describe(r) {
+  const i = r.input;
+  const s = i.shape === 'round' ? `round space ${i.diameter_ft} ft across`
+    : i.shape === 'l' ? `L-shaped space (${i.length_ft} × ${i.width_ft} ft with a ${i.arm_w_ft} × ${i.arm_l_ft} ft arm)`
+    : i.shape === 'u' ? `U-shaped space (${i.length_ft} × ${i.width_ft} ft with two ${i.arm_w_ft} × ${i.arm_l_ft} ft arms)`
+    : `${i.length_ft} × ${i.width_ft} ft space`;
+  return `a ${s}, ${r.area} ft²`;
 }
 
 function renderReport(r) {
@@ -1223,9 +1943,10 @@ function renderReport(r) {
   const f = r.factors;
   el.innerHTML = `
     <h2 id="report-h">Your heating report</h2>
-    <p>For a ${r.input.length_ft} × ${r.input.width_ft} ft space (${r.area} ft²), ${esc(CONFIG.enclosure[r.input.enclosure].label.toLowerCase())}, in a ${esc(CONFIG.climate[r.input.climate].label.toLowerCase())} climate.</p>
+    <p>For ${esc(describe(r))}, ${esc(CONFIG.enclosure[r.input.enclosure].label.toLowerCase())}, in a ${esc(CONFIG.climate[r.input.climate].label.toLowerCase())} climate.</p>
     ${r.warnings.map((w) => `<p class="warn">${esc(w)}</p>`).join('')}
-    ${rec ? `<h3>Recommended: ${rec.count} × ${esc(rec.name)}</h3>
+    ${rec ? `<div class="report-plan">${planSvg(r)}</div>
+    <h3>Recommended: ${rec.count} × ${esc(rec.name)}</h3>
     <p class="label">Controls for a complete working system</p>
     <ul class="controls-list">${rec.controls.items.map((i) => `<li>${i.qty} × ${esc(i.name)}</li>`).join('')}</ul>
     <p class="note">${esc(rec.controls.app_note)} ${esc(rec.controls.integration_note)}</p>
@@ -1236,7 +1957,7 @@ function renderReport(r) {
       <tbody>${rows}</tbody></table></div>
     <h3>How we worked it out</h3>
     <p class="formula">heaters = ceil( area ÷ (coverage × enclosure ${f.enclosure} × climate ${f.climate} × mount height ${f.height} × layout ${f.layout}) )</p>
-    <p class="note">Mount height applies to built-in heaters only. Electrical load is the sum of heater wattages; your electrician sizes the circuits. ${esc(CONFIG.disclaimers.coverage)}</p>
+    <p class="note">Mount height applies to built-in heaters only. The plan spreads heaters evenly by area to show the idea; the design team sets the real positions. Electrical load is the sum of heater wattages; your electrician sizes the circuits. ${esc(CONFIG.disclaimers.coverage)}</p>
     <p class="note">${esc(CONFIG.disclaimers.code)}</p>
     ${ctaHtml()}`;
 }

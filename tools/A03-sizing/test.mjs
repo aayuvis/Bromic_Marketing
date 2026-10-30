@@ -2,7 +2,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { size, heaterCount, effectiveCoverage, controlsBundle, heightFactor } from './logic.js';
+import { size, heaterCount, effectiveCoverage, controlsBundle, heightFactor, shapeGeometry, placeHeaters } from './logic.js';
 
 const cfg = JSON.parse(readFileSync(new URL('./config.json', import.meta.url), 'utf8'));
 const base = { length_ft: 20, width_ft: 12, enclosure: 'partial', open_30: 'yes', climate: 'mild', mount_height_ft: 9, fuel: 'any', style: 'any', zones: 1 };
@@ -75,4 +75,37 @@ test('5. Guard rails and helpers: bad sizes rejected, low mount warned, freestan
   assert.equal(effectiveCoverage(100, { enclosure: 1, climate: 0.5, height: 1, layout: 1 }), 50);
   assert.equal(heightFactor(13, cfg), 0.8);
   assert.equal(controlsBundle('affinity', 3, 5, cfg).zones, 3, 'never more zones than heaters');
+});
+
+test('6. Shapes: areas, and placement puts every heater inside the space (every arm of an L or U gets heat)', () => {
+  const g = (o) => shapeGeometry({ length_ft: 22, width_ft: 10, arm_l_ft: 12, arm_w_ft: 10, diameter_ft: 18, ...o });
+  assert.equal(g({ shape: 'rect' }).area, 220);
+  assert.equal(g({ shape: 'l' }).area, 340);
+  assert.equal(g({ shape: 'u', length_ft: 28, arm_w_ft: 9 }).area, 496);
+  assert.equal(g({ shape: 'round' }).area, 254.5);
+  for (const shape of ['rect', 'l', 'u', 'narrow', 'round']) {
+    const geom = g({ shape, length_ft: 28, arm_w_ft: 9 });
+    for (let n = 1; n <= 9; n++) {
+      const pts = placeHeaters(geom, n);
+      assert.equal(pts.length, n, `${shape} ${n}`);
+      for (const p of pts) {
+        const inside = geom.circle ? Math.hypot(p.x - geom.circle.cx, p.y - geom.circle.cy) <= geom.circle.r
+          : geom.rects.some((q) => p.x >= q.x && p.x <= q.x + q.w && p.y >= q.y && p.y <= q.y + q.h);
+        assert.ok(inside, `${shape} ${n} heater at ${p.x},${p.y} is outside`);
+      }
+    }
+  }
+  const u = placeHeaters(g({ shape: 'u', length_ft: 28, arm_w_ft: 9 }), 3);
+  assert.ok(u.some((p) => p.x < 9) && u.some((p) => p.x > 19), 'both arms of the U get a heater');
+});
+
+test('7. A chosen heater family sizes only that family, and the result carries the plan', () => {
+  const r = size({ ...base, shape: 'l', arm_l_ft: 10, arm_w_ft: 8, family: 'eclipse-electric' }, cfg);
+  assert.equal(r.area, 320);
+  assert.ok(r.options.every((o) => o.family === 'eclipse-electric'));
+  assert.equal(r.placement.length, r.recommended.count);
+  assert.ok(r.radius_ft > 0);
+  const bad = size({ ...base, shape: 'u', arm_w_ft: 11 }, cfg);
+  assert.equal(bad.ok, false);
+  assert.ok(bad.errors.arm_w_ft);
 });

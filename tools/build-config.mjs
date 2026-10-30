@@ -33,7 +33,7 @@ export function validateAssumptions(node, path = '', out = []) {
   return out;
 }
 
-const NAMES = { 'logic.js': 'Logic', 'lead.js': 'Lead', 'case-study-taxonomy.json': 'TAX' };
+const NAMES = { 'logic.js': 'Logic', 'lead.js': 'Lead', 'case-study-taxonomy.json': 'TAX', 'images.json': 'IMAGES' };
 
 function inlineJs(code, file) {
   const names = [...code.matchAll(/^export\s+(?:async\s+)?(?:function\*?|const|let|class)\s+([A-Za-z_$][\w$]*)/gm)].map((m) => m[1]);
