@@ -4,7 +4,7 @@ import path from 'node:path';
 import yaml from 'js-yaml';
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..', '..');
 const walk = (d) => !fs.existsSync(d) ? [] : fs.readdirSync(d, { withFileTypes: true }).flatMap((e) => e.isDirectory() ? walk(path.join(d, e.name)) : [path.join(d, e.name)]);
-const files = walk(path.join(ROOT, 'content')).filter((f) => f.endsWith('.md'));
+const files = walk(path.join(ROOT, 'content')).filter((f) => f.endsWith('.md') && !f.includes(path.sep + 'i18n' + path.sep));  // translations: test/i18n.mjs
 const fails = [], warns = [];
 const fail = (f, m) => fails.push(`${path.relative(ROOT, f)}: ${m}`);
 for (const f of files) {

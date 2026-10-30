@@ -89,7 +89,8 @@ function render(body, item, srcIndex) {
 
 const errors = [];
 const warn = [];
-const files = [...walk(path.join(ROOT, 'content'))].filter((f) => f.endsWith('.md'));
+const I18N = path.join(ROOT, 'content', 'i18n');   // translations: loaded separately, never as items of their own
+const files = [...walk(path.join(ROOT, 'content'))].filter((f) => f.endsWith('.md') && !f.startsWith(I18N + path.sep));
 const items = [];
 for (const f of files) {
   const p = parse(f);

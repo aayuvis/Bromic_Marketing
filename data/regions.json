@@ -1,0 +1,174 @@
+{
+  "_readme": "The Hub's regions and languages (templates/regionalisation.md). A region sets units, currency, mains voltage, the codes an installer works to and the local Bromic site. Code names are the standard titles; every installation still goes to the local authority and a licensed installer, and the [[VERIFY]] notes ask a regional reviewer to confirm the current edition.",
+  "default": "us",
+  "regions": [
+    {
+      "id": "us",
+      "label": "US",
+      "name": "United States",
+      "langs": [
+        "en"
+      ],
+      "units": "imperial",
+      "temp": "F",
+      "currency": "USD",
+      "symbol": "$",
+      "voltage": "120/240 V, 60 Hz",
+      "site": "https://www.bromic.com/",
+      "electrical_code": "NEC (NFPA 70)",
+      "gas_code": "NFPA 54 (natural gas) and NFPA 58 (propane)",
+      "installer": "a licensed electrician or gas fitter",
+      "authority": "your local building authority",
+      "propane": "20 lb exchange cylinders or a bulk tank",
+      "verify": null
+    },
+    {
+      "id": "ca",
+      "label": "Canada",
+      "name": "Canada",
+      "langs": [
+        "en"
+      ],
+      "units": "metric",
+      "dual": true,
+      "temp": "C",
+      "currency": "CAD",
+      "symbol": "C$",
+      "voltage": "120/240 V, 60 Hz",
+      "site": "https://www.bromic.ca/",
+      "electrical_code": "Canadian Electrical Code (CSA C22.1)",
+      "gas_code": "CSA B149.1 (natural gas and propane installation code)",
+      "installer": "a licensed electrician or a licensed gas technician",
+      "authority": "your provincial or municipal authority",
+      "propane": "20 lb cylinders or a bulk tank",
+      "verify": "[[VERIFY: current CEC and B149.1 editions and provincial amendments — Sean (West Canada)]]"
+    },
+    {
+      "id": "au",
+      "label": "AUS",
+      "name": "Australia",
+      "langs": [
+        "en"
+      ],
+      "units": "metric",
+      "temp": "C",
+      "currency": "AUD",
+      "symbol": "A$",
+      "voltage": "230 V, 50 Hz",
+      "site": "https://www.bromic.com.au/",
+      "electrical_code": "AS/NZS 3000 (Wiring Rules)",
+      "gas_code": "AS/NZS 5601.1 (gas installations)",
+      "installer": "a licensed electrician or licensed gasfitter",
+      "authority": "your state or territory regulator and local council",
+      "propane": "LPG in 9 kg cylinders or larger bottles",
+      "verify": "[[VERIFY: current AS/NZS 3000 and 5601.1 editions — Bromic AU technical team]]"
+    },
+    {
+      "id": "nz",
+      "label": "NZ",
+      "name": "New Zealand",
+      "langs": [
+        "en"
+      ],
+      "units": "metric",
+      "temp": "C",
+      "currency": "NZD",
+      "symbol": "NZ$",
+      "voltage": "230 V, 50 Hz",
+      "site": "https://www.bromic.com.au/",
+      "electrical_code": "AS/NZS 3000 (Wiring Rules), under the Electricity (Safety) Regulations 2010",
+      "gas_code": "AS/NZS 5601.1, under the Gas (Safety and Measurement) Regulations 2010",
+      "installer": "a registered electrician or registered gasfitter",
+      "authority": "your local council",
+      "propane": "LPG in 9 kg cylinders or larger bottles",
+      "verify": "[[VERIFY: New Zealand regulations, and whether NZ customers go to bromic.com.au or a NZ distributor — Bromic AU/NZ team]]"
+    },
+    {
+      "id": "uk",
+      "label": "UK",
+      "name": "United Kingdom",
+      "langs": [
+        "en"
+      ],
+      "units": "metric",
+      "temp": "C",
+      "currency": "GBP",
+      "symbol": "£",
+      "voltage": "230 V, 50 Hz",
+      "site": "https://www.bromic.co.uk/",
+      "electrical_code": "BS 7671 (IET Wiring Regulations)",
+      "gas_code": "the Gas Safety (Installation and Use) Regulations 1998",
+      "installer": "a registered electrician or a Gas Safe registered engineer",
+      "authority": "your local authority building control",
+      "propane": "LPG (propane) in 13 kg or 19 kg cylinders",
+      "verify": "[[VERIFY: current BS 7671 amendment and Part P notification for outdoor circuits — Bromic UK]]"
+    },
+    {
+      "id": "benelux",
+      "label": "Benelux",
+      "name": "Belgium, Netherlands, Luxembourg",
+      "langs": [
+        "nl",
+        "en"
+      ],
+      "units": "metric",
+      "temp": "C",
+      "currency": "EUR",
+      "symbol": "€",
+      "voltage": "230 V, 50 Hz",
+      "site": "https://www.bromic.nl/",
+      "sites": {
+        "nl": "https://www.bromic.nl/",
+        "en": "https://www.bromic.nl/"
+      },
+      "electrical_code": "NEN 1010 (Netherlands); AREI/RGIE (Belgium)",
+      "gas_code": "NEN 1078 (Netherlands); NBN D 51-003 (Belgium)",
+      "installer": "a qualified electrician or gas installer (in Belgium, with an AREI/RGIE inspection)",
+      "authority": "your municipality",
+      "propane": "propane in 10.5 kg or 11 kg cylinders",
+      "verify": "[[VERIFY: current Dutch, Belgian and Luxembourg codes — Bromic Benelux distributor]]",
+      "langs_planned": [
+        "fr"
+      ],
+      "note": "French (Belgium, Luxembourg) and Belgian-specific context are on hold (owner, 30 Oct 2026). Dutch is written for the Netherlands."
+    },
+    {
+      "id": "de",
+      "label": "Germany",
+      "name": "Germany",
+      "langs": [
+        "de",
+        "en"
+      ],
+      "units": "metric",
+      "temp": "C",
+      "currency": "EUR",
+      "symbol": "€",
+      "voltage": "230 V, 50 Hz",
+      "site": "https://www.bromic.de/",
+      "electrical_code": "DIN VDE 0100",
+      "gas_code": "DVGW-TRGI (natural gas) and TRF (LPG)",
+      "installer": "a registered electrician (Elektrofachbetrieb) or gas installer",
+      "authority": "your local building authority (Bauamt)",
+      "propane": "propane in 5 kg or 11 kg cylinders",
+      "verify": "[[VERIFY: current VDE and DVGW rules for outdoor heaters — Raffaele Marti]]"
+    }
+  ],
+  "languages": {
+    "en": "English",
+    "nl": "Nederlands",
+    "de": "Deutsch"
+  },
+  "conversions": {
+    "ft_to_m": 0.3048,
+    "ft2_to_m2": 0.09290304,
+    "in_to_mm": 25.4,
+    "btu_h_to_kw": 0.00029307107,
+    "gal_us_to_l": 3.785411784,
+    "lb_to_kg": 0.45359237,
+    "therm_to_kwh": 29.3071
+  },
+  "languages_planned": {
+    "fr": "Français"
+  }
+}
