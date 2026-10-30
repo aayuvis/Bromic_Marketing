@@ -72,7 +72,7 @@ function render(body, item, srcIndex) {
       const id = href.slice(4);
       const im = images.find((i) => i.id === id);
       if (!im) return `<span class="missing">missing image ${esc(id)}</span>`;
-      return `<figure><img src="${im.file}" alt="${esc(text || im.alt)}" loading="lazy" width="${im.w}" height="${im.h}"><figcaption>${esc(text || im.alt)}</figcaption></figure>`;
+      return `<figure data-img="${esc(id)}"><img src="${im.file}" alt="${esc(text || im.alt)}" loading="lazy" width="${im.w}" height="${im.h}"><figcaption>${esc(text || im.alt)}</figcaption></figure>`;
     }
     return `<img src="${esc(href)}" alt="${esc(text)}">`;
   };
@@ -93,6 +93,7 @@ const files = [...walk(path.join(ROOT, 'content'))].filter((f) => f.endsWith('.m
 const items = [];
 for (const f of files) {
   const p = parse(f);
+  const raw = fs.readFileSync(f, 'utf8');
   const rel = path.relative(ROOT, f);
   if (p.error) { errors.push(`${rel}: ${p.error}`); continue; }
   const fm = p.fm;
@@ -108,12 +109,27 @@ for (const f of files) {
   };
   const srcIndex = {};
   it.sources.forEach((s, i) => { srcIndex[s.id] = i + 1; });
-  const r = render(p.body, it, srcIndex);
-  it.html = r.html;
-  it.verifies = r.verifies;
+  // Render block by block so the Hub's editor can map each block back to its lines in the file: the HTML carries
+  // <!--b:N--> before each block, and it.blocks holds [start, end] offsets into it.markdown.
+  const toks = marked.lexer(p.body);
+  const bodyAt = raw.length - p.body.length;
+  if (toks.map((t) => t.raw).join('') === p.body) {
+    let at = bodyAt, html = '', ver = [];
+    it.blocks = [];
+    toks.forEach((t, n) => {
+      it.blocks.push([at, at + t.raw.length]); at += t.raw.length;
+      if (t.type === 'space') return;
+      const r = render(t.raw, it, srcIndex);
+      html += `<!--b:${n}-->` + r.html; ver = ver.concat(r.verifies);
+    });
+    it.html = html; it.verifies = ver;
+  } else {
+    const r = render(p.body, it, srcIndex);
+    it.html = r.html; it.verifies = r.verifies; it.blocks = null;
+  }
   it.words = words(p.body);
   it.faq = faqOf(p.body);
-  it.markdown = fs.readFileSync(f, 'utf8');
+  it.markdown = raw;
   it.cited = [...new Set([...p.body.matchAll(/\[\^(\w+)\]/g)].map((m) => m[1]))];
   // validation
   const where = `${rel}`;
@@ -204,7 +220,8 @@ for (const it of items) {
 }
 
 let commit = ''; try { commit = (await import('node:child_process')).execSync('git rev-parse --short HEAD', { cwd: ROOT }).toString().trim(); } catch {}
-const HUB = { built: new Date().toISOString(), commit, matrix, assets, facts, images, usage, tools, site, cs, blogPlan, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
+const repo = { owner: 'aayuvis', name: 'Bromic_Marketing', branch: process.env.HUB_BRANCH || 'claude/dreamy-euler-xxi5g7' };
+const HUB = { built: new Date().toISOString(), commit, repo, matrix, assets, facts, images, usage, tools, site, cs, blogPlan, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
 
 console.log(`items ${items.length} · tools ${tools.length} · images ${images.length} · site pages ${site.length} · errors ${errors.length} · warnings ${warn.length}`);
 warn.forEach((w) => console.log('  warn  ' + w));
@@ -214,11 +231,13 @@ if (CHECK) process.exit(errors.length ? 1 : 0);
 // write dist
 fs.rmSync(DIST, { recursive: true, force: true });
 fs.mkdirSync(DIST, { recursive: true });
-for (const f of ['index.html', 'styles.css', 'app.js']) fs.copyFileSync(path.join(APP, 'src', f), path.join(DIST, f));
+for (const f of ['index.html', 'styles.css', 'app.js', 'editor.js']) fs.copyFileSync(path.join(APP, 'src', f), path.join(DIST, f));
+fs.mkdirSync(path.join(DIST, 'vendor'), { recursive: true });
+fs.copyFileSync(path.join(APP, 'node_modules', 'marked', 'marked.min.js'), path.join(DIST, 'vendor', 'marked.min.js'));  // the editor's preview
 // cache-busting: a new deploy always loads its own script, data and styles (GitHub Pages lets browsers cache for 10 minutes)
 { const v = (commit || 'dev') + '-' + Date.parse(HUB.built).toString(36);
   const ix = path.join(DIST, 'index.html');
-  fs.writeFileSync(ix, fs.readFileSync(ix, 'utf8').replace(/(src|href)="(app\.js|data\.js|styles\.css)"/g, `$1="$2?v=${v}"`)); }
+  fs.writeFileSync(ix, fs.readFileSync(ix, 'utf8').replace(/(src|href)="(app\.js|data\.js|styles\.css|editor\.js)"/g, `$1="$2?v=${v}"`)); }
 fs.writeFileSync(path.join(DIST, 'data.js'), 'window.HUB=' + JSON.stringify(HUB) + ';');
 fs.cpSync(path.join(ROOT, 'images', 'library'), path.join(DIST, 'images', 'library'), { recursive: true });
 if (fs.existsSync(path.join(ROOT, 'tools', '_shared'))) fs.cpSync(path.join(ROOT, 'tools', '_shared'), path.join(DIST, 'tools', '_shared'), { recursive: true });

@@ -81,6 +81,18 @@ keeping every hard rule above. Run the tests, commit with `Fixes #N` in the mess
 then comment on each issue with what changed and the commit, and close it. Feedback that conflicts with a hard rule or needs an
 owner's decision is not implemented: comment why, label the question with its owner, and leave it open.
 
+## Reviewer editor (live edits on the Hub)
+
+Every item page has "Edit this page" (`app/src/editor.js`, loaded on demand). A reviewer rewrites any block (as Markdown), the
+title or summary, or switches the main or an inline image for one from the library. The build renders each block separately and
+records its offsets (`it.blocks`), so a save rewrites only what changed. Two ways to save:
+- **Save to GitHub**: commits straight to the content file on `claude/dreamy-euler-xxi5g7` with the reviewer's own fine-grained
+  token (Contents: read and write, this repo only; kept in their browser). `.github/workflows/publish-hub.yml` then runs the tests and
+  republishes the Hub. A rule-breaking edit fails the tests and is not published: fix it in the next session.
+- **Send to Claude**: opens an `[Edit] …` issue with a JSON patch (`file`, `edits[{block, old, new}]`, `hero`, `title`, `summary`).
+  `node scripts/feedback.mjs` lists these with the feedback; apply each, run the tests, commit with `Fixes #N`, deploy, close.
+Commits titled "Hub edit: …" come from reviewers: pull before working (`git pull origin claude/dreamy-euler-xxi5g7`).
+
 ## Publish the Hub
 
 `cd app && ./deploy.sh` builds, renders the PDFs, and force-replaces the `gh-pages` branch →

@@ -7,7 +7,7 @@ audience: [RES, ARC, BLD]
 stage: [AW, CO]
 cell: RES-AW
 asset: A01
-summary: "The Trends 2026 report rewritten at half the length: ten shifts in US outdoor living, one checked statistic each, what it means, and one design move per trend. Replaces the 2026 PDF text, with every correction applied."
+summary: "Ten shifts in how Americans live outdoors, each with one checked statistic, what it means for the space, and one design move to make."
 primary_keyword: outdoor living trends 2026
 secondary_keywords: [outdoor living statistics 2026, year round patio, outdoor heating trends]
 ai_prompt: "What are the outdoor living trends for 2026?"

@@ -1,0 +1,38 @@
+# Rebuilds and publishes the Content Hub when content changes on the working branch, including saves from the
+# Hub's own editor (a reviewer's commit). The content tests run first: an edit that breaks a hard rule is not published.
+name: Publish the Content Hub
+on:
+  push:
+    branches: [claude/dreamy-euler-xxi5g7]
+    paths: [content/**, data/**, images/library/**, tools/**, app/**, forms/**, reviews/**, templates/**]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: publish-hub
+  cancel-in-progress: true
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install
+        working-directory: app
+        run: |
+          npm install --no-audit --no-fund
+          npm install --no-save --no-audit --no-fund playwright@1.48.2
+          npx playwright install --with-deps chromium
+          python3 -m pip install --quiet pillow
+      - name: Test, build, render PDFs and publish to gh-pages
+        working-directory: app
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name "Content Hub publisher"
+          git config --global user.email "hub-publisher@users.noreply.github.com"
+          git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          ./deploy.sh

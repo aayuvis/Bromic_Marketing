@@ -23,6 +23,7 @@
     down: '<svg viewBox="0 0 24 24"><path d="M12 4v12M6 10l6 6 6-6M4 20h16"/></svg>',
     print: '<svg viewBox="0 0 24 24"><path d="M7 9V3h10v6M7 17H4v-8h16v8h-3M7 14h10v7H7z"/></svg>',
     ext: '<svg viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v6H4V6h6"/></svg>',
+    pen: '<svg viewBox="0 0 24 24"><path d="M4 20h4L19 9l-4-4L4 16zM14 6l4 4"/></svg>',
   };
 
   const img = (id, cls = '', thumb = true) => {
@@ -83,40 +84,125 @@
   }
 
   // ---------- views ----------
+  // ---------- front page: purpose, then three ways in (who, where, what), then the flagships; the team's numbers last ----------
+  const AUD_FRONT = {
+    RES: { img: 'l-010-071', short: 'Homeowners', job: 'Want a warm, good-looking outdoor room, and a straight answer on how many heaters, what they cost and how they look.' },
+    ARC: { img: 'l-010-075', short: 'Architects and designers', job: 'Need specs, clearances, coverage and details that drop into a drawing set, so heating is designed in from the start.' },
+    BLD: { img: 'g-rough-in', short: 'Builders and installers', job: 'Need the pre-wire right at rough-in, pricing tiers to sell up, and installs that pass inspection first time.' },
+    COM: { img: 'p-003-006', short: 'Restaurant and hotel operators', job: 'Need full patios in the shoulder season and a payback case the owner will sign.' },
+  };
+  const STG_FRONT = {
+    AW: 'Put outdoor heating on the plan before the design is fixed.',
+    CO: 'Answer electric or gas, how many and what it costs, and earn the lead.',
+    IN: 'Give the specifics to choose: specs, layouts, budgets.',
+    PP: 'Remove the last risks: codes, pre-wire, lead times, approvals.',
+    BY: 'Set it up well, and turn buyers into references.',
+  };
+  const FLAGSHIP = ['A01-v2', 'A01c', 'A02-homeowner', 'A02-pro', 'A03', 'A20', 'A21', 'A11'];
+  const rankFront = (i) => (i.type === 'tool' ? 0 : isGated(i) ? 1 : i.type === 'article' ? 2 : i.type === 'kb' ? 3 : 4);
+  const shortTitle = (t) => t.split(/[:—]/)[0].trim();
+
   function home() {
     const gated = H.items.filter(isGated).length;
     const srcs = H.items.flatMap((i) => i.sources);
     const ver = srcs.filter((s) => s.verified).length;
     const verifies = H.items.reduce((n, i) => n + i.verifies.length, 0);
+    const byType = (ts) => H.items.filter((i) => ts.includes(i.type)).length;
     const p1 = H.assets.filter((a) => a.priority === 'P1');
-    const byType = Object.keys(TYPES).map((t) => [t, H.items.filter((i) => i.type === t).length]).filter(([, n]) => n);
-    const max = Math.max(1, ...byType.map(([, n]) => n));
-    const recent = [...H.items].sort((a, b) => (b.updated || '').localeCompare(a.updated || '') || b.words - a.words).slice(0, 6);
+    const gaps = p1.filter((a) => !linked(a.id).length).length;
+    const inReview = H.items.filter((i) => i.status === 'in-review').length;
+
+    const audCards = AK.map((a) => {
+      const f = AUD_FRONT[a] || {}; const its = itemsFor((i) => i.audience.includes(a));
+      const top = [...its].sort((x, y) => rankFront(x) - rankFront(y)).slice(0, 3);
+      return `<article class="fp-aud">
+        <a class="fp-aud-pic" href="#/library?aud=${a}" tabindex="-1" aria-hidden="true">${img(f.img)}</a>
+        <div class="fp-aud-b">
+          <span class="label">${esc(AUD[a].persona)}</span>
+          <h3><a href="#/library?aud=${a}">${esc(f.short || AUD[a].name)}</a></h3>
+          <p>${esc(f.job || '')}</p>
+          <ul>${top.map((i) => `<li><a href="#/item/${esc(i.id)}"><span class="fp-t">${esc(TYPES[i.type] || i.type)}</span>${esc(shortTitle(i.title))}</a></li>`).join('')}</ul>
+          <a class="fp-more" href="#/library?aud=${a}">All ${its.length} for ${esc((f.short || '').toLowerCase())} ${ic.arrow}</a>
+        </div></article>`;
+    }).join('');
+
+    const stages = SK.map((s, n) => {
+      const its = itemsFor((i) => i.stage.includes(s));
+      const top = [...its].filter((i) => i.type !== 'blog').sort((x, y) => rankFront(x) - rankFront(y)).slice(0, 2);
+      return `<a class="fp-stg" href="#/library?stage=${s}">
+        <span class="fp-stg-n">${String(n + 1).padStart(2, '0')}</span>
+        <span class="label">${esc(STG[s].funnel)}</span>
+        <h3>${esc(STG[s].name)}</h3>
+        <p>${esc(STG_FRONT[s] || '')}</p>
+        <span class="fp-stg-eg">${top.map((i) => esc(shortTitle(i.title))).join(' · ')}</span>
+        <span class="fp-stg-c">${its.length} pieces ${ic.arrow}</span></a>`;
+    }).join('');
+
+    const tools = H.items.filter((i) => i.type === 'tool');
+    const needs = [
+      { t: 'Read and answer', d: 'Articles, answers and blog posts that rank and get quoted by AI search.', n: byType(['article', 'kb', 'blog']), href: '#/library?type=article', img: 'l-022-201',
+        links: [['Articles', '#/library?type=article'], ['Answers', '#/library?type=kb'], ['Blog', '#/blog']] },
+      { t: 'Download', d: 'Reports, planning guides and spec kits, each a finished PDF behind a form.', n: pdfList().length, href: '#/downloads', img: 't-001-000',
+        links: pdfList().slice(0, 3).map((i) => [shortTitle(i.title), `#/item/${i.id}`]) },
+      { t: 'Try a tool', d: 'Calculators that turn a visit into a lead: sizing, five-year cost, revenue.', n: tools.length, href: '#/tools', img: 'p-003-006',
+        links: tools.map((i) => [shortTitle(i.title), `#/item/${i.id}`]) },
+      { t: 'Prove it', d: 'Case studies tagged by project type, and the Bromic image library.', n: (H.cs?.records?.length || 0), href: '#/cases', img: 'l-016-131',
+        links: [['Case studies', '#/cases'], ['Find the gaps', '#/cases/whitespace'], ['Images', '#/images']] },
+    ];
+    const needCards = needs.map((x) => `<article class="fp-need">
+        <a class="fp-need-pic" href="${x.href}" tabindex="-1" aria-hidden="true">${img(x.img)}<span class="fp-need-n">${x.n}</span></a>
+        <div class="fp-need-b"><h3><a href="${x.href}">${esc(x.t)}</a></h3><p>${esc(x.d)}</p>
+        <div class="fp-links">${x.links.map(([l, h]) => `<a href="${h}">${esc(l)}</a>`).join('')}</div></div></article>`).join('');
+
+    const flag = FLAGSHIP.map((id) => ITEM[id]).filter(Boolean);
+
     return `
-    <section class="hero">${img('l-022-201', '', false)}
-      <div class="hero-in"><span class="flame-rule"></span><span class="label">Content & MQL asset base · FY27</span>
+    <section class="hero fp-hero">${img('l-022-201', '', false)}
+      <div class="hero-in"><span class="flame-rule"></span><span class="label">Bromic Content Hub</span>
         <h1>Designed from the start, not added later.</h1>
-        <p>Only 23% of homeowners prioritise outdoor heating at the planning stage. Every asset here moves heating earlier — into the architect's drawing, the builder's pre-wire and the homeowner's first budget.</p></div>
+        <p>Every piece of Bromic content that moves outdoor heating earlier: into the architect's drawing, the builder's pre-wire and the homeowner's first budget. Find it by who it is for, where they are in the decision, or what you need.</p>
+        <nav class="fp-ways" aria-label="Ways in">
+          <a href="#fp-who"><span>01</span>Who it is for</a>
+          <a href="#fp-where"><span>02</span>Where they are</a>
+          <a href="#fp-what"><span>03</span>What you need</a>
+        </nav></div>
     </section>
-    <div class="stats">
-      <div class="stat"><span class="label">Content items</span><b>${H.items.length}</b><span class="sub">${H.items.filter((i) => i.type === 'article').length} anchor articles</span></div>
-      <div class="stat"><span class="label">Gated MQL assets</span><b>${gated}</b><span class="sub">guides, kits, tools</span></div>
-      <div class="stat"><span class="label">Sources mapped</span><b>${srcs.length}</b><span class="sub">${ver} verified · ${srcs.length - ver} pending</span></div>
-      <div class="stat"><span class="label">Open verifications</span><b>${verifies}</b><span class="sub">inline [[VERIFY]] flags</span></div>
-      <div class="stat"><span class="label">Image library</span><b>${H.images.length}</b><span class="sub">Bromic-owned</span></div>
-    </div>
-    <div class="sec-h"><h2>Download the PDFs</h2><a href="#/downloads">All downloads →</a></div>
-    <div class="dl-strip">${pdfList().map((it) => `<a class="dl-chip" href="pdf/${esc(it.id)}.pdf" download="Bromic-${esc(it.id)}.pdf">${ic.down}<span>${esc(/planning guide/i.test(it.title) ? 'Planning guide · ' + (it.title.split(':')[1] || '').trim().replace(/ edition$/, '') : it.title.split(':')[0])}</span></a>`).join('')}</div>
-    <div class="sec-h"><h2>Coverage by audience and lifecycle</h2><a href="#/journey">Open the journey map →</a></div>
-    ${matrixGrid()}
-    <div class="two" style="margin-top:8px">
-      <div><div class="sec-h"><h2>By type</h2><a href="#/library">Library →</a></div>
-        <div class="typebars">${byType.map(([t, n]) => `<a class="r" href="#/library?type=${t}"><span>${esc(TYPES[t])}</span><span class="bar"><i class="${GATED_TYPES.includes(t) || t === 'tool' ? 'f' : ''}" style="width:${(n / max) * 100}%"></i></span><span class="muted">${n}</span></a>`).join('')}</div></div>
-      <div><div class="sec-h"><h2>Priority 1 backlog</h2><a href="#/assets">All 24 →</a></div>
-        <ul class="list">${p1.map((a) => { const n = linked(a.id).length; return `<li><a href="#/assets/${a.id}"><span><span class="label">${a.id}</span><br><span class="t">${esc(a.name)}</span></span><span class="${n ? 'muted' : 'gap'}">${n ? n + ' item' + (n > 1 ? 's' : '') : 'gap'}</span></a></li>`; }).join('')}</ul></div>
-    </div>
-    <div class="sec-h"><h2>Recently drafted</h2><a href="#/library">Everything →</a></div>
-    <div class="grid">${recent.map(card).join('')}</div>`;
+
+    <section id="fp-who" class="fp-sec">
+      <div class="fp-h"><span class="fp-k">01 · Who it is for</span><h2>Four audiences, four different questions</h2>
+        <p>Each audience gets content written for its job, not one brochure for everyone.</p></div>
+      <div class="fp-auds">${audCards}</div>
+    </section>
+
+    <section id="fp-where" class="fp-sec">
+      <div class="fp-h"><span class="fp-k">02 · Where they are</span><h2>From first idea to a working system</h2>
+        <p>Every piece has one job at one stage, and one next step that moves the reader on.</p></div>
+      <div class="fp-journey">${stages}</div>
+      <p class="fp-note"><a href="#/journey">See the full map: every audience at every stage, with the question each piece answers ${ic.arrow}</a></p>
+    </section>
+
+    <section id="fp-what" class="fp-sec">
+      <div class="fp-h"><span class="fp-k">03 · What you need</span><h2>Read, download, use, prove</h2></div>
+      <div class="fp-needs">${needCards}</div>
+    </section>
+
+    <section class="fp-sec">
+      <div class="fp-h"><span class="fp-k">Start here</span><h2>The flagship pieces</h2></div>
+      <div class="grid">${flag.map(card).join('')}</div>
+    </section>
+
+    <section class="fp-team" aria-labelledby="fp-team-h">
+      <div class="fp-team-h"><h2 id="fp-team-h">For the content team</h2>
+        <p>Drafts are review-ready, not published. Here is where the work stands.</p></div>
+      <div class="fp-team-stats">
+        <a href="#/library"><b>${H.items.length}</b><span>pieces · ${gated} gated</span></a>
+        <a href="#/review"><b>${inReview}</b><span>in review</span></a>
+        <a href="#/sources"><b>${verifies}</b><span>facts to verify · ${ver}/${srcs.length} sources checked</span></a>
+        <a href="#/assets"><b>${p1.length - gaps}/${p1.length}</b><span>priority assets drafted</span></a>
+        <a href="#/images"><b>${H.images.length}</b><span>images</span></a>
+      </div>
+      <details class="fp-cov"><summary>Coverage map: audience by stage</summary>${matrixGrid()}</details>
+    </section>`;
   }
 
   function linked(assetId) { return H.items.filter((i) => i.asset === assetId || i.id === assetId || i.id.startsWith(assetId + '-')); }
@@ -170,15 +256,17 @@
     const rel = it.related.map((r) => ITEM[r]).filter(Boolean);
     const md = it.meta_description || '';
     const tool = it.type === 'tool' && H.tools.find((t) => t.startsWith(it.asset || it.id));
+    const ED = window.HubEditor, hero = ED ? ED.heroId(it) : it.hero;
     return `<nav class="crumbs"><a href="#/library">Library</a><span>/</span><a href="${libHref({ type: it.type })}">${esc(TYPES[it.type] || it.type)}</a>${it.cell ? `<span>/</span><a href="#/journey/${esc(it.cell)}">${esc(it.cell)}</a>` : ''}</nav>
-    ${it.hero ? `<div class="reader-hero">${img(it.hero, '', false)}</div>` : ''}
+    <div class="ed-start"><button type="button" class="btn" data-edit-page>${ic.pen}Edit this page</button></div>
+    ${hero ? `<div class="reader-hero">${img(hero, '', false)}${ED ? ED.heroButton(it) : ''}</div>` : ED && ED.active(it.id) ? `<div class="reader-hero ed-nohero">${ED.heroButton(it)}</div>` : ''}
     <div class="reader"><article>
       <span class="label">${esc(TYPES[it.type] || it.type)} · ${esc(it.id)}${isGated(it) ? ' · Gated' : ''}</span>
-      <h1>${esc(it.title)}</h1>
-      ${it.summary ? `<p class="dek">${esc(it.summary)}</p>` : ''}
+      <h1>${ED ? ED.title(it) : esc(it.title)}</h1>
+      ${it.summary || (ED && ED.active(it.id)) ? `<p class="dek">${ED ? ED.summary(it) : esc(it.summary)}</p>` : ''}
       ${tool ? `<p><a class="btn primary" href="#/tool/${esc(tool)}">${ic.arrow} Open the tool</a></p>` : ''}
       ${hasPdf(it) ? `<p><a class="btn primary" href="pdf/${esc(it.id)}.pdf" download="Bromic-${esc(it.id)}.pdf">${ic.down}Download the PDF</a> <span class="muted" style="font-size:13px">${it.status === 'approved' || it.status === 'published' ? 'Ready to share' : 'Review draft'}</span></p>` : ''}
-      <div class="prose">${it.html}</div>
+      <div class="prose">${ED ? ED.prose(it) : it.html}</div>
       ${it.sources.length ? `<hr class="rule"><h2 style="font-size:24px;margin-bottom:6px">Sources</h2><p class="muted" style="margin-top:0;font-size:13px">${it.sources.length} mapped · ${it.sources.length - unverified(it)} verified</p>
       <ol class="srcs">${it.sources.map((s, i) => `<li id="src-${esc(it.id)}-${esc(s.id)}"><span class="n">${i + 1}</span><span><b>${esc(s.publisher || '')}</b>${s.title ? ` — ${esc(s.title)}` : ''}${s.year ? ` (${esc(s.year)})` : ''} ${s.verified ? '<span class="chip ok">Verified</span>' : '<span class="chip warn">Verify</span>'}
         ${s.supports ? `<div class="s-sup">Supports: ${esc(s.supports)}</div>` : ''}${s.url ? `<div><a href="${esc(/^https?:/.test(s.url) ? s.url : '#')}" target="_blank" rel="noopener">${esc(s.url)}</a></div>` : ''}</span></li>`).join('')}</ol>` : ''}
@@ -515,7 +603,7 @@
     if (p === 'cases') return { element: `cases:${a || 'library'}`, label: `Case studies${a ? ' · ' + a : ''}` };
     return { element: `page:${p || 'home'}`, label: `${(p || 'overview').replace(/^./, (c) => c.toUpperCase())} page` };
   };
-  function fbParse(body) { const m = /<!-- bromic-feedback v1 -->([\s\S]*?)\n---/.exec(body || ''); const o = {}; if (m) for (const l of m[1].split('\n')) { const i = l.indexOf(':'); if (i > 0) o[l.slice(0, i).trim()] = l.slice(i + 1).trim(); } return o; }
+  function fbParse(body) { const m = /<!-- bromic-(?:feedback|edit) v1 -->([\s\S]*?)\n---/.exec(body || ''); const o = {}; if (m) for (const l of m[1].split('\n')) { const i = l.indexOf(':'); if (i > 0) o[l.slice(0, i).trim()] = l.slice(i + 1).trim(); } return o; }
   async function fbLoad(force) {
     if (fbLoading || (fbIssues && !force)) return fbIssues;
     try { const c = JSON.parse(sessionStorage.getItem('fb-cache') || 'null'); if (!force && c && Date.now() - c.t < 5 * 60e3) { fbIssues = c.d; return fbIssues; } } catch {}
@@ -523,7 +611,7 @@
     try {
       const r = await fetch(`https://api.github.com/repos/${REPO}/issues?state=all&per_page=100&sort=updated`, { headers: { Accept: 'application/vnd.github+json' } });
       if (!r.ok) throw new Error(r.status);
-      fbIssues = (await r.json()).filter((i) => !i.pull_request && /^\[Feedback\]/i.test(i.title)).map((i) => ({ n: i.number, title: i.title, state: i.state, url: i.html_url, at: i.updated_at, comments: i.comments, ...fbParse(i.body) }));
+      fbIssues = (await r.json()).filter((i) => !i.pull_request && /^\[(Feedback|Edit)\]/i.test(i.title)).map((i) => ({ n: i.number, title: i.title, state: i.state, url: i.html_url, at: i.updated_at, comments: i.comments, ...fbParse(i.body) }));
       try { sessionStorage.setItem('fb-cache', JSON.stringify({ t: Date.now(), d: fbIssues })); } catch {}
     } catch { fbIssues = fbIssues || []; fbIssues.failed = true; }
     fbLoading = false; return fbIssues;
@@ -563,7 +651,7 @@
   }
   // Section comment buttons on headings, and "Comment on this" for selected text, inside any readable page.
   function fbDecorate() {
-    const prose = $('.prose'); if (prose && !prose.dataset.fb) {
+    const prose = $('.prose'); if (prose && !prose.dataset.fb && !document.body.classList.contains('ed-editing')) {
       prose.dataset.fb = '1';
       prose.querySelectorAll('h2, h3').forEach((h) => { const b = document.createElement('button'); b.type = 'button'; b.className = 'fb-h'; b.dataset.fbsection = h.textContent.trim(); b.title = 'Comment on this section'; b.setAttribute('aria-label', 'Comment on the section ' + h.textContent.trim()); b.innerHTML = ic.chat; h.appendChild(b); });
     }
@@ -575,7 +663,7 @@
     clearTimeout(fbSel); fbSel = setTimeout(() => {
       const s = window.getSelection(); const chip = $('#fb-sel');
       const txt = s && String(s).trim(); const inProse = s && s.rangeCount && s.anchorNode && s.anchorNode.parentElement?.closest('.prose, .cs-card, .cell-detail, .tbl-wrap');
-      if (!txt || txt.length < 3 || !inProse) { if (chip) chip.hidden = true; return; }
+      if (!txt || txt.length < 3 || !inProse || document.body.classList.contains('ed-editing')) { if (chip) chip.hidden = true; return; }
       const r = s.getRangeAt(0).getBoundingClientRect(); const c = chip || Object.assign(document.createElement('button'), { id: 'fb-sel', type: 'button', className: 'btn primary fb-sel', innerHTML: ic.chat + 'Comment on this' });
       if (!chip) document.body.appendChild(c);
       c.hidden = false; c.style.top = Math.max(8, window.scrollY + r.top - 44) + 'px'; c.style.left = Math.max(8, Math.min(window.scrollX + r.left, window.scrollX + innerWidth - 190)) + 'px'; c.dataset.quote = txt;
@@ -608,7 +696,26 @@
     else if (p !== 'assets' && !route.keepScroll) window.scrollTo(0, 0);
     route.keepScroll = false;
     setTimeout(fbDecorate, 0);
+    if (window.HubEditor) window.HubEditor.bar(it || null);
   }
+
+  // ---------- reviewer editor (editor.js, loaded on demand) ----------
+  const currentId = () => { const h = location.hash.replace(/^#\/?/, '').split('?')[0].split('/'); return h[0] === 'item' ? decodeURIComponent(h[1] || '') : ''; };
+  function loadEditor() {
+    if (window.HubEditor) return Promise.resolve(window.HubEditor);
+    return new Promise((res, rej) => {
+      const s = document.createElement('script');
+      s.src = 'editor.js?v=' + encodeURIComponent((H.commit || 'dev') + '-' + Date.parse(H.built).toString(36));
+      s.onload = () => { window.HubEditor.init({ H, ITEM, IMG, esc, toast, currentId, rerender: () => { const y = window.scrollY; route.keepScroll = true; route(); window.scrollTo(0, y); } }); res(window.HubEditor); };
+      s.onerror = rej; document.head.appendChild(s);
+    });
+  }
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('[data-edit-page]')) return;
+    const id = currentId();
+    loadEditor().then((ED) => ED.start(id)).catch(() => toast('Could not load the editor'));
+  });
+  try { if (localStorage.getItem('bromic-hub-edits-v1') || localStorage.getItem('bromic-hub-saved-v1')) { const v = JSON.parse(localStorage.getItem('bromic-hub-edits-v1') || '{}'), w = JSON.parse(localStorage.getItem('bromic-hub-saved-v1') || '{}'); if (Object.keys(v).length || Object.keys(w).length) loadEditor().then(() => { route.keepScroll = true; route(); }); } } catch {}
 
   document.addEventListener('click', (e) => {
     const b = e.target.closest('[data-href]'); if (b) { route.keepScroll = true; location.hash = b.dataset.href; return; }
