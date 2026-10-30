@@ -51,10 +51,13 @@ sources:
 ---
 
 **What it does.** A restaurant or hotel operator compares five years of patio heating by fuel. Each option's total is purchase,
-install, fuel and, for propane, the staff time spent swapping cylinders. A bar chart shows the three totals and the page shows the
-formula behind each.
+install, service, fuel and, for propane, the staff time spent swapping cylinders. Four visual choices drive it: a venue picture
+(which sets seats and season as a starting point), size, state (which fills in EIA energy prices) and the months, days and hours
+heated. The result card shows the three totals with product photos, the fuel cost a day, a running-total chart with the year the
+dearer-to-buy option pays itself back, a breakdown bar and the propane cylinder count. Costs, dimming and cylinder details sit in
+a closed Fine-tune panel.
 
-**Inputs.** Seats or ft² · heated hours a year · electricity ($/kWh), natural gas ($/therm) and propane ($/gal) prices · purchase
+**Inputs.** Venue · seats or ft² · state (prices filled from EIA, editable) · months heated, days a week, hours a day · in Fine-tune: purchase
 and install per option · cylinder exchanges a year, minutes per exchange and hourly wage.
 
 **Outputs.** On screen: the five-year total per fuel and the cheapest. Behind the form: the year-by-year table, the fuel maths and

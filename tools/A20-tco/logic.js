@@ -10,6 +10,26 @@
 const val = (a) => (a && typeof a === 'object' && 'value' in a ? a.value : a);
 
 export const OPTION_IDS = ['electric', 'natural_gas', 'propane'];
+export const MONTH_DAYS = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+
+// Heater hours a year from a season: the months heated, nights a week, hours a night.
+export function seasonHours(months, nightsPerWeek, hoursPerNight) {
+  const days = months.reduce((n, on, i) => n + (on ? MONTH_DAYS[i] : 0), 0);
+  return Math.round(days * nightsPerWeek / 7 * hoursPerNight);
+}
+
+// A venue's starting profile (seats, season). Every part is a placeholder the visitor changes.
+export function venueProfile(id, cfg) {
+  const v = (cfg.venues || []).find((x) => x.id === id) || (cfg.venues || [])[0];
+  return v ? { id: v.id, label: v.label, ...val(v.profile) } : null;
+}
+
+// Energy prices for a state (two-letter code) from state-prices.json; the US average, then config, as fallbacks.
+export function pricesFor(state, P, cfg) {
+  const s = (P && P.states && P.states[state]) || (P && P.US);
+  if (!s) return { kwh: val(cfg.prices.electric_per_kwh), therm: val(cfg.prices.natural_gas_per_therm), gal: val(cfg.prices.propane_per_gal), name: 'United States (average)', gal_from: 'config' };
+  return { kwh: s.kwh, therm: s.therm, gal: s.gal, name: s.name, gal_from: s.gal_from, kwh_from: s.kwh_from, therm_from: s.therm_from };
+}
 export const BASES = ['seats', 'ft2'];
 
 export function defaults(cfg) {
@@ -51,7 +71,14 @@ export function normalise(raw, cfg) {
   };
   if (input.basis === 'seats') { need('seats', 1, 5000, 'Enter seats from 1 to 5,000.'); input.area_ft2 = toNum(r.area_ft2); }
   else { need('area_ft2', 10, 100000, 'Enter an area from 10 to 100,000 ft².'); input.seats = toNum(r.seats); }
-  need('hours_per_year', 0, 8760, 'Enter hours from 0 to 8,760 a year.');
+  // Season mode: months as a 12-character string of 0/1, with nights a week and hours a night, sets the hours a year.
+  if (typeof r.months === 'string' && /^[01]{12}$/.test(r.months)) {
+    input.months = [...r.months].map((c) => c === '1');
+    need('nights_per_week', 1, 7, 'Choose 1 to 7 nights a week.');
+    need('hours_per_night', 0.5, 24, 'Enter 0.5 to 24 hours a night.');
+    if (!input.months.some(Boolean)) errors.months = 'Pick at least one month.';
+    if (!errors.nights_per_week && !errors.hours_per_night) input.hours_per_year = seasonHours(input.months, input.nights_per_week, input.hours_per_night);
+  } else need('hours_per_year', 0, 8760, 'Enter hours from 0 to 8,760 a year.');
   need('average_output_pct', 1, 100, 'Enter a percentage from 1 to 100.');
   need('fuel_escalation_pct', -20, 50, 'Enter a yearly change from -20% to 50%.');
   need('price_kwh', 0, 5, 'Enter a price from $0 to $5 per kWh.');
@@ -134,19 +161,35 @@ export function tco(rawInput, cfg) {
     const install = count * input[`${o.id}_install`];
     const maintenance = count * input[`${o.id}_maintenance`] * years;
     const total = purchase + install + maintenance + fuel + (handling ? handling.total : 0);
+    // Money spent by the end of each year: year 0 is the day it is installed.
+    const series = [purchase + install];
+    for (let y = 1; y <= years; y++) {
+      const fuelY = fuelYear1 * Math.pow(1 + input.fuel_escalation_pct / 100, y - 1);
+      series.push(series[y - 1] + fuelY + count * input[`${o.id}_maintenance`] + (handling ? handling.per_year : 0));
+    }
     return {
       id: o.id, label: o.label, fuel: o.fuel, model: o.model, controls: o.controls,
       coverage_ft2: coverage, count, sized_count: sized, count_overridden: input[`${o.id}_count`] != null,
       rating: o.fuel === 'electric' ? `${val(o.input_kw)} kW` : `${val(o.input_btu).toLocaleString('en-US')} BTU/hr`,
       per_hour: h.cost, annual_units: annualUnits, unit: h.unit, fuel_year1: fuelYear1, fuel,
-      handling, purchase, install, maintenance, total,
+      handling, purchase, install, maintenance, total, series,
+      per_night: input.hours_per_night ? h.cost * input.hours_per_night : null,
       running: fuel + (handling ? handling.total : 0) + maintenance,
       placeholder_costs: [o.purchase_per_heater, o.install_per_heater, o.maintenance_per_heater_year].some((a) => a.verified === false),
     };
   });
   const ranked = [...options].sort((a, b) => a.total - b.total);
+  // Where one option's running total drops below another's: the year (to a tenth) it pays back its higher upfront cost.
+  const crossovers = [];
+  for (const a of options) for (const b of options) {
+    if (a === b || !(a.series[0] > b.series[0]) || !(a.total < b.total)) continue;
+    for (let y = 1; y <= years; y++) {
+      const d0 = a.series[y - 1] - b.series[y - 1], d1 = a.series[y] - b.series[y];
+      if (d1 <= 0) { crossovers.push({ a: a.id, b: b.id, year: Math.round((y - 1 + d0 / (d0 - d1)) * 10) / 10 }); break; }
+    }
+  }
   return {
-    ok: true, input, years, area: Math.round(area * 10) / 10, options,
+    ok: true, input, years, area: Math.round(area * 10) / 10, options, crossovers,
     cheapest: ranked[0].id, most_expensive: ranked[ranked.length - 1].id,
     spread: ranked[ranked.length - 1].total - ranked[0].total,
   };

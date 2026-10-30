@@ -301,9 +301,204 @@ export default {
     }
   ],
   "notes": {
-    "scope": "Excludes electricity demand charges, utility connection fees, financing, tax and resale value. Prices are national averages; your utility bill is the better input.",
+    "scope": "Excludes electricity demand charges, utility connection fees, financing, tax and resale value. Energy prices default to EIA state averages; your utility bill is the better input.",
     "controls": "Every option needs its controls to run as a complete system. Wi-Fi and app features require compatible Affinity Smart-Heat controls, sold separately.",
     "code": "Confirm every installation with your local building authority and a licensed electrician or gas fitter (US: NFPA 70 for electric, NFPA 54 for gas).",
     "code_source_url": "https://www.nfpa.org/codes-and-standards/nfpa-54-standard-development/54"
-  }
+  },
+  "venues": [
+    {
+      "id": "restaurant",
+      "label": "Restaurant patio",
+      "image": "p-004-007",
+      "profile": {
+        "value": {
+          "seats": 40,
+          "months": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "nights_per_week": 6,
+          "hours_per_night": 5
+        },
+        "unit": "starting profile: seats, months heated, nights a week, hours a night",
+        "source": "Starting point only, not a survey: dinner service, closed one night, October to April. The visitor changes every part of it.",
+        "verified": false,
+        "verify": "[[VERIFY: typical heated seats and season for this venue type — Brian Kim]]",
+        "owner": "Brian Kim"
+      }
+    },
+    {
+      "id": "rooftop",
+      "label": "Rooftop bar",
+      "image": "w-aba-restaurant",
+      "profile": {
+        "value": {
+          "seats": 60,
+          "months": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "nights_per_week": 7,
+          "hours_per_night": 6
+        },
+        "unit": "starting profile: seats, months heated, nights a week, hours a night",
+        "source": "Starting point only, not a survey: evening trade every night, September to May. The visitor changes every part of it.",
+        "verified": false,
+        "verify": "[[VERIFY: typical heated seats and season for this venue type — Brian Kim]]",
+        "owner": "Brian Kim"
+      }
+    },
+    {
+      "id": "hotel",
+      "label": "Hotel terrace",
+      "image": "w-bromic-ambiente-sedona-10",
+      "profile": {
+        "value": {
+          "seats": 30,
+          "months": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "nights_per_week": 7,
+          "hours_per_night": 5
+        },
+        "unit": "starting profile: seats, months heated, nights a week, hours a night",
+        "source": "Starting point only, not a survey: guests every evening, October to April. The visitor changes every part of it.",
+        "verified": false,
+        "verify": "[[VERIFY: typical heated seats and season for this venue type — Brian Kim]]",
+        "owner": "Brian Kim"
+      }
+    },
+    {
+      "id": "pub",
+      "label": "Pub or beer garden",
+      "image": "w-1",
+      "profile": {
+        "value": {
+          "seats": 80,
+          "months": [
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "nights_per_week": 7,
+          "hours_per_night": 6
+        },
+        "unit": "starting profile: seats, months heated, nights a week, hours a night",
+        "source": "Starting point only, not a survey: afternoon into evening, September to April. The visitor changes every part of it.",
+        "verified": false,
+        "verify": "[[VERIFY: typical heated seats and season for this venue type — Brian Kim]]",
+        "owner": "Brian Kim"
+      }
+    },
+    {
+      "id": "casual",
+      "label": "Café or food hall",
+      "image": "w-commercial-australia-sydney-manly-wharf-15",
+      "profile": {
+        "value": {
+          "seats": 50,
+          "months": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1
+          ],
+          "nights_per_week": 7,
+          "hours_per_night": 8
+        },
+        "unit": "starting profile: seats, months heated, nights a week, hours a night",
+        "source": "Starting point only, not a survey: lunch into evening every day, October to March. The visitor changes every part of it.",
+        "verified": false,
+        "verify": "[[VERIFY: typical heated seats and season for this venue type — Brian Kim]]",
+        "owner": "Brian Kim"
+      }
+    },
+    {
+      "id": "cafe",
+      "label": "Sidewalk café",
+      "image": "w-eclipse-electric-wall-mount-commercial-scene",
+      "profile": {
+        "value": {
+          "seats": 20,
+          "months": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "nights_per_week": 7,
+          "hours_per_night": 4
+        },
+        "unit": "starting profile: seats, months heated, nights a week, hours a night",
+        "source": "Starting point only, not a survey: cool mornings and afternoons, November to March. The visitor changes every part of it.",
+        "verified": false,
+        "verify": "[[VERIFY: typical heated seats and season for this venue type — Brian Kim]]",
+        "owner": "Brian Kim"
+      }
+    }
+  ],
+  "default_venue": "restaurant",
+  "product_images": {
+    "electric": "w-platinum-black",
+    "natural_gas": "w-tung-port",
+    "propane": "w-tung-port"
+  },
+  "prices_note": "State prices come from state-prices.json (scripts/eia_prices.py, EIA). The prices block above is the fallback when no state data loads."
 };

@@ -8,3 +8,4 @@ images/_raw/
 __pycache__/
 .DS_Store
 app/dist-artifact/
+data/_eia/

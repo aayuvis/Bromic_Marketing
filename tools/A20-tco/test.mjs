@@ -2,7 +2,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { tco, defaults, heaterCount, escalatedSum, exchangesPerYear } from './logic.js';
+import { tco, defaults, heaterCount, escalatedSum, exchangesPerYear, seasonHours, venueProfile, pricesFor } from './logic.js';
 
 const cfg = JSON.parse(readFileSync(new URL('./config.json', import.meta.url), 'utf8'));
 const near = (a, b, tol, msg) => assert.ok(Math.abs(a - b) <= tol, `${msg}: ${a} vs ${b} (±${tol})`);
@@ -94,4 +94,46 @@ test('5. Guard rails: bad numbers are rejected with a message per field', () => 
   for (const k of ['hours_per_year', 'price_kwh', 'electric_count', 'propane_count']) assert.ok(r.errors[k], k);
   assert.equal(tco({ ...defaults(cfg), basis: 'ft2', area_ft2: '' }, cfg).ok, false);
   assert.equal(tco({ ...defaults(cfg), basis: 'seats', seats: 40, area_ft2: '' }, cfg).ok, true, 'area ignored on seats basis');
+});
+
+const P = JSON.parse(readFileSync(new URL('./state-prices.json', import.meta.url), 'utf8'));
+
+test('6. Season: months, days a week and hours a day set the hours a year', () => {
+  const octApr = [1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1].map(Boolean);
+  assert.equal(seasonHours(octApr, 7, 5), 212 * 5);
+  assert.equal(seasonHours(octApr, 6, 5), Math.round(212 * 6 / 7 * 5));
+  const r = tco({ ...defaults(cfg), months: '111100000111', nights_per_week: 7, hours_per_night: 5 }, cfg);
+  assert.equal(r.input.hours_per_year, 1060);
+  const none = tco({ ...defaults(cfg), months: '000000000000', nights_per_week: 7, hours_per_night: 5 }, cfg);
+  assert.equal(none.ok, false);
+  assert.ok(none.errors.months);
+  // every venue profile is a usable season
+  for (const v of cfg.venues) {
+    const p = venueProfile(v.id, cfg);
+    assert.ok(p.seats > 0 && p.months.length === 12 && p.months.some(Boolean) && p.nights_per_week >= 1 && p.hours_per_night > 0, v.id);
+  }
+});
+
+test('7. State prices: every state has all three prices, each from the state or a named fallback', () => {
+  assert.equal(Object.keys(P.states).length, 51);
+  for (const [k, s] of Object.entries(P.states)) {
+    for (const f of ['kwh', 'therm', 'gal']) assert.ok(s[f] > 0 && s[f] < 10, `${k} ${f}`);
+    assert.ok(s.gal_from === 'state' || /PADD|US average/.test(s.gal_from), `${k} propane source`);
+  }
+  for (const f of ['kwh', 'therm', 'gal']) assert.match(P.sources[f].label, /^EIA /);
+  assert.equal(pricesFor('CA', P, cfg).kwh, P.states.CA.kwh);
+  assert.equal(pricesFor('ZZ', P, cfg).kwh, P.US.kwh);
+});
+
+test('8. Running totals end at the five-year total; a payback year is found where the lines cross', () => {
+  const r = tco({ ...defaults(cfg), months: '111100000111', nights_per_week: 6, hours_per_night: 5 }, cfg);
+  for (const o of r.options) {
+    assert.equal(o.series.length, r.years + 1);
+    assert.ok(Math.abs(o.series[r.years] - o.total) < 0.01, o.id);
+    assert.equal(o.series[0], o.purchase + o.install);
+  }
+  for (const c of r.crossovers) {
+    const a = r.options.find((o) => o.id === c.a), b = r.options.find((o) => o.id === c.b);
+    assert.ok(a.series[0] > b.series[0] && a.total < b.total && c.year > 0 && c.year <= r.years);
+  }
 });
