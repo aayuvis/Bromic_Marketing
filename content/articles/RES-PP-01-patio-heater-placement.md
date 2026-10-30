@@ -19,7 +19,7 @@ owner_review: Megan Spies
 status: draft
 gated: false
 related: [RES-CO-01, RES-BY-01, RES-PP-KB1, ARC-PP-01]
-updated: 2026-10-29
+updated: 2026-10-30
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -83,7 +83,7 @@ Space them so their coverage areas meet and slightly overlap over the seating �
 | Eclipse Smart-Heat Electric / Freestanding Electric | 121 ft² |
 | Tungsten Smart-Heat Freestanding Gas | 215 ft² |
 
-A worked example: a 24' × 10' dining terrace is 240 ft². With heaters near the middle of the Platinum range, that is two to three units along the long side, each centred over a section of the table, edges overlapping. [[VERIFY: recommended centre-to-centre spacing by model and mounting height — Mike Clifford]] [[DIAGRAM: plan view of a 24' × 10' terrace with two and three wall heaters, overlapping coverage over the table]]
+A worked example: a 24' × 10' dining terrace is 240 ft². Count heaters as area ÷ (coverage × cover factor × climate factor), rounded up; for a partly covered terrace on cool evenings the two factors come to 1.0 × 0.85 = 0.85 (an open site is 0.85 for cover, a solid roof 1.1; mild evenings 1.0, cold 0.7). [[VERIFY: cover and climate factors — Mike Clifford]] Platinum 4500W: 240 ÷ (143 × 0.85) = 2.0, so two; Platinum 3400W: 240 ÷ (108 × 0.85) = 2.6, so three. Run them along the long side, each centred over a section of the table, edges overlapping, each with its Affinity Smart-Heat On/Off or Dimmer controller and a wall switch. A freestanding heater serves at most four seats, because guests block its radiant heat: at 20 ft² a seat, 240 ft² is 12 seats, so three Tungsten Freestanding Gas heaters. [[VERIFY: recommended centre-to-centre spacing by model and mounting height — Mike Clifford]] [[DIAGRAM: plan view of a 24' × 10' terrace with two and three wall heaters, overlapping coverage over the table]]
 
 For the exact count, [electric vs gas](item:RES-CO-01) gives a quick sizing method, and the Bromic sizing calculator refines it.
 
@@ -125,7 +125,7 @@ At least 96" (8 ft) above the floor, with clearance from the ceiling that varies
 Often, if the heater meets its clearance to combustibles. Recess kits, suspension poles and (for gas) heat deflectors help; the manual governs.[^s1]
 
 ### How many heaters for a 20 × 12 patio?
-240 ft² usually takes two to three Platinum heaters, or one or two freestanding gas heaters, depending on climate, wind and mounting height.[^s2]
+240 ft², partly covered on cool evenings: two Platinum 4500W heaters (240 ÷ (143 × 0.85) = 2.0) or three 3400W (240 ÷ (108 × 0.85) = 2.6), with Affinity Smart-Heat On/Off or Dimmer controls and a wall switch.[^s2] Freestanding gas is set by seats, not area: at 20 ft² a seat that is 12 seats, and at no more than four seats a heater, three Tungsten Freestanding Gas heaters. An open, windy or colder site may need one more overhead heater.
 
 ### Should heaters face each other?
 On wide spaces, heating from two sides keeps everyone warm. Overlap the coverage over the seating rather than doubling it in one spot.

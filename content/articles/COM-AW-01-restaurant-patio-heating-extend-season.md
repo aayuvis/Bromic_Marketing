@@ -19,7 +19,7 @@ owner_review: Blake Petty
 status: draft
 gated: false
 related: [COM-IN-01, COM-CO-01, COM-PP-01, COM-IN-KB1]
-updated: 2026-10-29
+updated: 2026-10-30
 sources:
   - id: s1
     publisher: National Restaurant Association
@@ -78,7 +78,7 @@ For service, warm-up time matters. A heater that is warm the moment a table is s
 Most of them, if the design is right. Bromic treats a space as outdoor when at least 30% of its perimeter is permanently open. A partial cover — an awning, pergola or soffit — traps a "heat cloud" that adds a convective boost on top of the radiant heat.[^s3]
 
 - **Covered terraces and awnings:** mount electric heaters on the wall or soffit, out of the way of service.
-- **Open courtyards and sidewalks:** freestanding heaters move with the layout.
+- **Open courtyards and sidewalks:** freestanding heaters move with the layout; allow one for every four seats.
 - **Rooftops:** wind is the enemy; screen the windward side and favour short-wave heat.
 
 ![Guests dining on a heated restaurant terrace](img:p-003-006)
@@ -91,11 +91,11 @@ Choose by structure, fuel on site and how often the layout changes. Every option
 |---|---|---|---|
 | Covered terrace, wall or soffit | Platinum Smart-Heat Electric (2300, 3400 or 4500W) | 65–143 ft² | Affinity Smart-Heat On/Off or Dimmer controller, wall switch, app |
 | Pergola or awning, heat plus light | Eclipse Smart-Heat Electric (pole mount) | about 121 ft² | Eclipse controller, wall switch, app |
-| Open layout that changes nightly | Eclipse Smart-Heat Freestanding Electric | about 121 ft² | Eclipse controller [[VERIFY: controller pairing for the freestanding Eclipse — Mike Clifford]] |
-| Large open area, gas on site | Tungsten Smart-Heat Freestanding Gas (38,000 BTU, natural gas or propane) | about 215 ft² | [[VERIFY: Affinity control options for Tungsten freestanding gas — Mike Clifford]] |
+| Open layout that changes nightly | Eclipse Smart-Heat Freestanding Electric | about 121 ft², and no more than 4 seats a heater | Eclipse controller [[VERIFY: controller pairing for the freestanding Eclipse — Mike Clifford]] |
+| Large open area, gas on site | Tungsten Smart-Heat Freestanding Gas (38,000 BTU, natural gas or propane) | about 215 ft², and no more than 4 seats a heater | [[VERIFY: Affinity control options for Tungsten freestanding gas — Mike Clifford]] |
 | Architectural recessed install | Tungsten Smart-Heat Electric, Coastal or Select (coming soon) | 64–144 ft² | Affinity Smart-Heat On/Off or Dimmer controller, wall switch, app |
 
-Coverage varies with model, size and mounting height; cold, exposed sites need more units for the same area. Wi-Fi and app features — zones, schedules and timers in the Bromic Smart-Heat app — require compatible Affinity Smart-Heat Controls, sold separately.[^s4]
+Coverage varies with model, size and mounting height; cold, exposed sites need more units for the same area. A freestanding heater serves no more than four seats, whatever its coverage, because seated guests block its radiant heat: 40 seats need at least ten. Wi-Fi and app features — zones, schedules and timers in the Bromic Smart-Heat app — require compatible Affinity Smart-Heat Controls, sold separately.[^s4]
 
 ## How do operators keep the running cost in check?
 
@@ -138,7 +138,7 @@ Electric suits covered, fixed installs and avoids fuel handling; gas suits large
 
 ### How many heaters does a patio need?
 
-Divide the heated area by each heater's coverage, round up, then adjust for exposure and climate. See [how many heaters for a 40-seat patio](item:COM-IN-KB1).
+For overhead heaters, divide the seating area (about 20 ft² a seat) by each heater's coverage adjusted for cover and climate, and round up: 40 seats, partly covered on cool evenings, is 800 ÷ (143 × 0.85) = 6.6, so seven Platinum 4500W heaters with Affinity Smart-Heat On/Off or Dimmer controls and a wall switch. Freestanding heaters serve no more than four seats each, so the same 40 seats need ten. See [how many heaters for a 40-seat patio](item:COM-IN-KB1).
 
 ### Do I need a permit for patio heaters?
 

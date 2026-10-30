@@ -1188,7 +1188,24 @@ const CONFIG = {
       "id": "round",
       "name": "Round"
     }
-  ]
+  ],
+  "seating": {
+    "ft2_per_seat": {
+      "value": 20,
+      "unit": "ft² of heated patio a seat, aisles and breathing room included",
+      "source": "NAFEM space-planning chart as published in the Restaurant Furniture seating capacity guide (https://www.restaurant-furniture.com/resources/guides/restaurant-seating-capacity-guide): full-service dining 12–15 ft² a seat, fine dining 18–20. The top of the range is used so tables are not crammed (owner, 30 Oct 2026)",
+      "verified": false,
+      "verify": "[[VERIFY: open the NAFEM chart itself and confirm the 18–20 ft² fine-dining figure — Brian Kim]]",
+      "owner": "Brian Kim"
+    },
+    "freestanding_max_seats": {
+      "value": 4,
+      "unit": "seats a freestanding heater can warm",
+      "source": "Owner rule (Aayush Vishnoi, 30 Oct 2026): guests block the radiant heat of a freestanding heater (templates/calculation-model.md)",
+      "verified": true,
+      "owner": "Aayush Vishnoi"
+    }
+  }
 };
 /* @inline:end config.json */
 
@@ -1391,6 +1408,11 @@ function size(rawInput, cfg) {
       opt.coverage_nominal = cov;
       opt.coverage_effective = Math.round(effectiveCoverage(cov, f) * 10) / 10;
       opt.count = heaterCount(area, effectiveCoverage(cov, f));
+      // A freestanding heater warms four seats at most (guests block its heat); seats = area ÷ ft² a seat.
+      if (p.style === 'freestanding' && cfg.seating) {
+        const bySeats = Math.ceil(area / val(cfg.seating.ft2_per_seat) / val(cfg.seating.freestanding_max_seats) - 1e-9);
+        if (bySeats > opt.count) { opt.count = bySeats; opt.sized_by = 'seats'; }
+      }
       const w = val(p.watts);
       opt.load_kw = w ? Math.round(opt.count * w / 100) / 10 : null;
       opt.btu_each = val(p.btu) ?? null;

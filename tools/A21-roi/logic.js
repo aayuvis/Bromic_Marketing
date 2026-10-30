@@ -31,9 +31,9 @@ export function seasonNights(months, daysPerWeek) {
   return Math.round(months.reduce((n, on, i) => n + (on ? MONTH_DAYS[i] : 0), 0) * daysPerWeek / 7);
 }
 
-// Heaters for the heated seats: seats × ft² a seat ÷ one heater's coverage, rounded up.
+// Heaters for the heated seats: seats × ft² a seat ÷ (one heater's coverage × the default site factor), rounded up.
 export function autoHeaters(seats, cfg) {
-  const area = seats * val(cfg.sizing.ft2_per_seat), cov = val(cfg.sizing.coverage_ft2);
+  const area = seats * val(cfg.sizing.ft2_per_seat), cov = val(cfg.sizing.coverage_ft2) * (cfg.sizing.derate ? val(cfg.sizing.derate) : 1);
   return area > 0 && cov > 0 ? Math.max(1, Math.ceil(area / cov - 1e-9)) : 0;
 }
 

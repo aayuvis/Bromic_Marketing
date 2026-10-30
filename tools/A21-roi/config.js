@@ -73,9 +73,9 @@ export default {
     "model": "Platinum Smart-Heat Electric 4500W",
     "controls": "Affinity Smart-Heat Dimmer or On/Off controller and a wall switch per zone; Bromic Smart-Heat app (zones, schedules, timers)",
     "heaters": {
-      "value": 6,
+      "value": 7,
       "unit": "heaters",
-      "source": "COM-IN-01 worked example (illustrative input)",
+      "source": "COM-IN-01 worked example: 40 seats × 20 ft² ÷ (143 × 0.85) = 6.6 → 7 (templates/calculation-model.md)",
       "verified": false,
       "verify": "[[VERIFY: benchmarks — Blake Petty]]",
       "owner": "Blake Petty"
@@ -107,9 +107,9 @@ export default {
   },
   "investment": {
     "installed_cost": {
-      "value": 30000,
+      "value": 35000,
       "unit": "$ installed: heaters, Affinity controls, wiring, permits",
-      "source": "PLACEHOLDER from the COM-IN-01 worked example, not a Bromic price or quote",
+      "source": "PLACEHOLDER: 7 heaters × the $5,000 all-in placeholder a heater (COM-IN-01 worked example). Not a Bromic price or quote",
       "verified": false,
       "verify": "[[VERIFY: benchmarks — Blake Petty]]",
       "owner": "Blake Petty"
@@ -335,12 +335,12 @@ export default {
   "default_venue": "restaurant",
   "sizing": {
     "ft2_per_seat": {
-      "value": 15,
-      "unit": "ft² of heated patio per seat",
-      "source": "Rule-of-thumb placeholder for full-service patio dining; no published source read",
+      "value": 20,
+      "unit": "ft² of heated patio a seat, aisles and breathing room included",
+      "source": "NAFEM space-planning chart as published in the Restaurant Furniture seating capacity guide (https://www.restaurant-furniture.com/resources/guides/restaurant-seating-capacity-guide): full-service dining 12–15 ft² a seat, fine dining 18–20. The top of the range is used so tables are not crammed (owner, 30 Oct 2026)",
       "verified": false,
-      "verify": "[[VERIFY: patio ft² per seat to use (and source) — Blake Petty]]",
-      "owner": "Blake Petty"
+      "verify": "[[VERIFY: open the NAFEM chart itself and confirm the 18–20 ft² fine-dining figure — Brian Kim]]",
+      "owner": "Brian Kim"
     },
     "coverage_ft2": {
       "value": 143,
@@ -348,6 +348,14 @@ export default {
       "source": "Lookbook 2026 p.21 (top of the 65–143 ft² range mapped to the 4500W Platinum); same basis as A20",
       "verified": false,
       "verify": "[[VERIFY: coverage of the 4500W model — Mike Clifford]]",
+      "owner": "Mike Clifford"
+    },
+    "derate": {
+      "value": 0.85,
+      "unit": "× coverage (partly covered, cool evenings)",
+      "source": "templates/calculation-model.md: the A03 factors for the default site, partly covered (1.0) × cool (0.85)",
+      "verified": false,
+      "verify": "[[VERIFY: A03 cover and climate factors — Mike Clifford]]",
       "owner": "Mike Clifford"
     }
   },

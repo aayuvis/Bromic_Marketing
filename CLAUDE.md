@@ -29,6 +29,14 @@ moves heating earlier — into the drawing, the pre-wire, the first budget.
 9. Keyword volume tiers are directional, never in copy. Do not reproduce third-party text — paraphrase and cite.
 10. Nothing is published from here. Output is review-ready drafts; publishing (WordPress, 454 Creative) follows owner sign-off.
 
+## Calculations: one simple model
+
+Every tool and every article that does arithmetic follows [templates/calculation-model.md](templates/calculation-model.md) (owner,
+30 Oct 2026: people doing these sums think simply; few variables, accurate basics). 20 ft² a seat; overhead heaters = area ÷
+(coverage × cover factor × climate factor); freestanding heaters never more than 4 seats each; running cost from kW or BTU and the
+price. A worked example in an article must match what the tool shows for the same inputs (the tools' tests check the articles'
+numbers). Tools ask only what moves the answer; everything else is a stated default in the full report.
+
 ## Voice and look
 
 Direct, expert, calm. No hype, no exclamation marks, no emoji. Sentence case; UPPERCASE only for small labels. People and moments

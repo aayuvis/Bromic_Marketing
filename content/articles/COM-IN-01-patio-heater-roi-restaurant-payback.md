@@ -19,7 +19,7 @@ owner_review: Blake Petty
 status: draft
 gated: false
 related: [COM-CO-01, COM-AW-01, COM-PP-01, COM-IN-KB1]
-updated: 2026-10-29
+updated: 2026-10-30
 sources:
   - id: s1
     publisher: National Restaurant Association
@@ -49,9 +49,15 @@ sources:
     url: sources/Bromic_Planning_Guide_US_v1.2_2021.pdf
     supports: "All-in quote: hardware, utilities, permit fees, installation"
     verified: true
+  - id: s5
+    publisher: Restaurant Furniture (NAFEM chart)
+    title: "Restaurant seating capacity guide"
+    url: https://www.restaurant-furniture.com/resources/guides/restaurant-seating-capacity-guide
+    supports: "Space per seat: full-service dining 12–15 ft², fine dining 18–20 ft²; 20 ft² a seat used so tables are not crammed"
+    verified: false
 ---
 
-Patio heater ROI is the margin from seats you could not sell before, minus what it costs to heat them, set against the installed cost. Calculate added revenue as heated seats × turns per night × average check × extra nights × capture rate; take your contribution margin, subtract running cost, and divide the installed cost by the monthly result. That gives payback in months — the number an owner, investor or landlord will actually sign.
+Patio heater ROI is the margin from seats you could not sell before, minus what it costs to heat them, set against the installed cost. Calculate added revenue as heated seats × turns per night × average check × extra nights × share of seats filled; take your contribution margin, subtract running cost, and divide the installed cost by the monthly result. That gives payback in months — the number an owner, investor or landlord will actually sign.
 
 ## What goes into a patio heater ROI?
 
@@ -63,16 +69,16 @@ Five revenue inputs, two cost inputs and one margin. All of them are yours, not 
 | Turns per night | Seatings per seat per evening | POS, by daypart |
 | Average check | Revenue per guest | POS |
 | Extra nights | Nights a year the patio opens that it would not unheated | Last year's closures and weather |
-| Capture rate | Share of heated seats you actually fill on those nights | Your judgement; start low |
+| Share of seats filled | Share of heated seats you actually fill on those nights | Your judgement; start low |
 | Contribution margin | Share of revenue left after food, drink and variable labour | Your P&L |
 | Running cost | Energy for the heated hours | Rated input × hours × your tariff |
 | Installed cost | Heaters, controls, wiring or gas, permits | A full quote |
 
-Capture rate does the honest work. A heated patio on a cold Tuesday will not be full; pricing the case at 100% is how capex requests lose credibility.
+Share of seats filled does the honest work. A heated patio on a cold Tuesday will not be full; pricing the case at 100% is how capex requests lose credibility.
 
 ## What is the formula?
 
-1. **Added revenue** = heated seats × turns × average check × extra nights × capture rate
+1. **Added revenue** = heated seats × turns × average check × extra nights × share of seats filled
 2. **Added margin** = added revenue × contribution margin
 3. **Net annual gain** = added margin − annual running cost
 4. **Payback (months)** = installed cost ÷ (net annual gain ÷ 12)
@@ -83,27 +89,31 @@ Extra nights is the simple case. If the heaters instead extend evenings you alre
 
 Illustrative only. Every input is an assumption chosen to show the method, not a benchmark or a promise. [[VERIFY: benchmarks — Blake Petty]]
 
-**Assumptions:** 40 heated seats; 1.5 turns a night; $45 average check; 60 extra nights a year; 50% capture rate; 30% contribution margin; six Platinum Smart-Heat Electric 4500W heaters running 5 hours a night on those nights; electricity at 14.07¢/kWh, the US commercial average for January–May 2026[^s2]; installed cost $30,000 including Affinity controls, wiring and permits.
+**Assumptions:** 40 heated seats; 1.5 turns a night; $45 average check; 60 extra nights a year; 50% of seats filled; 30% contribution margin; seven Platinum Smart-Heat Electric 4500W heaters with Affinity Smart-Heat On/Off or Dimmer controls and a wall switch, running 5 hours a night on those nights; electricity at 14.07¢/kWh, the US commercial average for January–May 2026[^s2]; installed cost $35,000 (7 × $5,000, a placeholder for a full quote including controls, wiring and permits, not a Bromic price). [[VERIFY: installed cost per heater — Blake Petty]]
+
+Seven heaters is the sizing for 40 seats: 40 × 20 ft² a seat = 800 ft²[^s5], ÷ (143 ft² coverage[^s3] × 0.85 for a partly covered patio on cool evenings) = 6.6, rounded up to 7. See [how many heaters a 40-seat patio needs](item:COM-IN-KB1).
 
 - Added revenue: 40 × 1.5 × $45 × 60 × 0.5 = **$81,000 a year**
 - Added margin: $81,000 × 30% = **$24,300**
-- Running cost: 6 × 4.5 kW × 5 h × 60 nights = 8,100 kWh × $0.1407 = **$1,140**
-- Net annual gain: $24,300 − $1,140 = **$23,160**, or $1,930 a month
-- Payback: $30,000 ÷ $1,930 = **about 15.5 months**
+- Running cost: 7 × 4.5 kW × 5 h × 60 nights = 9,450 kWh × $0.1407 = **$1,330**
+- Net annual gain: $24,300 − $1,330 = **$22,970**, or about $1,914 a month
+- Payback: $35,000 ÷ $1,914 = **about 18.3 months**
 
-Running cost is small next to margin in this example. The inputs that move payback are capture rate and extra nights.
+Running cost is small next to margin in this example. The inputs that move payback are share of seats filled and extra nights.
 
 ![Long candlelit dining table under Eclipse heaters](img:l-013-100)
 
 ## How sensitive is payback to the assumptions?
 
-Very. Here is the same example, changing only capture rate.
+Very. Here is the same example, changing only the share of seats filled.
 
-| Capture rate (assumption) | Added revenue | Net annual gain | Payback |
+| Seats filled (assumption) | Added revenue | Net annual gain | Payback |
 |---|---|---|---|
-| 25% | $40,500 | $11,010 | about 33 months |
-| 50% | $81,000 | $23,160 | about 15.5 months |
-| 75% | $121,500 | $35,310 | about 10 months |
+| 25% | $40,500 | $10,820 | about 38.8 months |
+| 50% | $81,000 | $22,970 | about 18.3 months |
+| 75% | $121,500 | $35,120 | about 12.0 months |
+
+A one-year payback needs about 75% of the heated seats filled.
 
 Show this table to whoever signs. A case that still pays back at the low end is a case that gets approved.
 
@@ -124,7 +134,7 @@ One page. Put the payback and the low-case payback at the top, the inputs and th
 ## Key takeaways
 
 - ROI = margin from new covers, less running cost, against installed cost.
-- Capture rate and extra nights drive the answer; start conservative.
+- Share of seats filled and extra nights drive the answer; start conservative.
 - Running cost is usually small next to margin, but count it.
 - Quote all-in, including controls and permits.
 - Show the low case. It is what gets the budget approved.
@@ -133,15 +143,15 @@ One page. Put the payback and the low-case payback at the top, the inputs and th
 
 ### How do I calculate ROI on restaurant patio heaters?
 
-Added revenue = heated seats × turns × average check × extra nights × capture rate. Multiply by contribution margin, subtract annual running cost, and divide installed cost by the monthly result for payback in months.
+Added revenue = heated seats × turns × average check × extra nights × share of seats filled. Multiply by contribution margin, subtract annual running cost, and divide installed cost by the monthly result for payback in months.
 
-### What capture rate should I assume?
+### What share of seats filled should I assume?
 
 Your own, from past shoulder-season nights. If you have none, run the case at a low, mid and high rate and present all three.
 
 ### Should I use revenue or margin for payback?
 
-Margin. Revenue overstates the return because food, drink and variable labour come out of every added cover.
+Margin. Revenue overstates the return because food, drink and variable labour come out of every added cover. In the example, payback on revenue alone would read 5.2 months ($35,000 ÷ ($81,000 ÷ 12)); on margin before energy, 17.3 months ($35,000 ÷ ($24,300 ÷ 12)); on margin after energy, 18.3.
 
 ### What should installed cost include?
 
@@ -157,3 +167,4 @@ Put your own inputs in — get your ROI assessment.
 [^s2]: U.S. EIA, Monthly Energy Review, commercial electricity price, Jan–May 2026.
 [^s3]: Bromic Heating, Lookbook 2026.
 [^s4]: Bromic Heating, Planning Guide US v1.2, 2021.
+[^s5]: Restaurant Furniture, seating capacity guide (NAFEM space-planning chart).

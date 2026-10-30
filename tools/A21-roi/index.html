@@ -292,30 +292,29 @@ td.total { font-weight: 600; }
   <header class="masthead">
     <span class="eyebrow">Patio revenue and payback</span>
     <h1>What are heated seats worth, and when do the heaters pay for themselves?</h1>
-    <p class="lede">Pick your venue, your seats and the months heat keeps the patio open. See the covers and margin those nights add, what the heaters cost to run, and the month the installation has paid for itself.</p>
+    <p class="lede">Your seats, your average check and the evenings heat adds. See the margin those evenings bring in, what the heaters cost to run, and the month the installation has paid for itself.</p>
   </header>
 
   <div class="layout">
     <form id="inputs" class="steps inputs" novalidate aria-label="Your patio">
 
       <section class="step" aria-labelledby="s1">
-        <div class="step-h"><span class="n">01</span><h2 id="s1">Your venue</h2><span class="aside">Sets a starting point you can change</span></div>
-        <div class="tiles venues" id="venue-tiles" role="radiogroup" aria-labelledby="s1"></div>
-      </section>
-
-      <section class="step" aria-labelledby="s2">
-        <div class="step-h"><span class="n">02</span><h2 id="s2">Your patio trade</h2></div>
-        <div class="dims" style="margin-top:0">
+        <div class="step-h"><span class="n">01</span><h2 id="s1">How many heated seats?</h2><span class="aside" id="heaters-aside"></span></div>
           <div class="dim" data-field="heated_seats">
             <label class="k" for="heated_seats">Heated seats</label>
-            <div class="row"><span class="num"><input id="heated_seats" name="heated_seats" type="number" inputmode="numeric" min="1" step="1"></span>
+            <div class="row"><span class="num"><input id="heated_seats" name="heated_seats" type="number" inputmode="decimal" min="1" max="5000" step="1"></span>
               <input type="range" min="4" max="300" step="2" data-for="heated_seats" aria-label="Heated seats"></div>
             <span class="err" data-err="heated_seats"></span>
           </div>
+      </section>
+
+      <section class="step" aria-labelledby="s2">
+        <div class="step-h"><span class="n">02</span><h2 id="s2">Your trade</h2></div>
+        <div class="dims" style="margin-top:0">
           <div class="dim" data-field="average_check">
             <label class="k" for="average_check">Average check a guest</label>
-            <div class="row"><span class="num" data-u="$"><input id="average_check" name="average_check" type="number" inputmode="decimal" min="1" step="1"></span>
-              <input type="range" min="5" max="200" step="1" data-for="average_check" aria-label="Average check"></div>
+            <div class="row"><span class="num" data-u="$"><input id="average_check" name="average_check" type="number" inputmode="decimal" min="1" max="10000" step="1"></span>
+              <input type="range" min="5" max="200" step="1" data-for="average_check" aria-label="Average check a guest"></div>
             <span class="err" data-err="average_check"></span>
           </div>
           <div class="dim" data-field="margin_pct">
@@ -329,72 +328,69 @@ td.total { font-weight: 600; }
             <span class="label">Turns a night</span>
             <div class="chips turns" role="radiogroup" aria-label="Turns a night" id="turns"></div>
             <input type="hidden" name="turns_per_night">
-            <span class="hint">Seatings per seat in an evening.</span>
             <span class="err" data-err="turns_per_night"></span>
           </div>
         </div>
       </section>
 
       <section class="step" aria-labelledby="s3">
-        <div class="step-h"><span class="n">03</span><h2 id="s3">The nights heat adds</h2><span class="aside" id="nights-aside"></span></div>
-        <p class="hint" style="margin:0 0 10px">Tap the months you would close or empty the patio without heat.</p>
-        <div class="months" id="months" role="group" aria-label="Months heat keeps the patio open"></div>
-        <input type="hidden" name="months">
-        <span class="err" data-err="months"></span>
-        <div class="dims">
-          <div class="dim" data-field="days_per_week">
-            <label class="k" for="days_per_week">Days a week you trade</label>
-            <div class="row"><span class="num"><input id="days_per_week" name="days_per_week" type="number" inputmode="numeric" min="1" max="7" step="1"></span>
-              <input type="range" min="1" max="7" step="1" data-for="days_per_week" aria-label="Days a week"></div>
-            <span class="err" data-err="days_per_week"></span>
+        <div class="step-h"><span class="n">03</span><h2 id="s3">The evenings heat adds</h2></div>
+          <div class="dim" data-field="extra_nights">
+            <label class="k" for="extra_nights">Extra evenings a year</label>
+            <div class="row"><span class="num"><input id="extra_nights" name="extra_nights" type="number" inputmode="decimal" min="1" max="366" step="1"></span>
+              <input type="range" min="10" max="200" step="5" data-for="extra_nights" aria-label="Extra evenings a year"></div>
+            <span class="hint">Evenings you would close or empty the patio without heat.</span>
+            <span class="err" data-err="extra_nights"></span>
           </div>
-          <div class="dim" data-field="hours_per_night">
-            <label class="k" for="hours_per_night">Heated hours a night</label>
-            <div class="row"><span class="num" data-u="h"><input id="hours_per_night" name="hours_per_night" type="number" inputmode="decimal" min="0.5" max="24" step="0.5"></span>
-              <input type="range" min="1" max="12" step="0.5" data-for="hours_per_night" aria-label="Heated hours a night"></div>
-            <span class="err" data-err="hours_per_night"></span>
+          <div class="dim" data-field="capture_pct">
+            <label class="k" for="capture_pct">Seats filled on those evenings</label>
+            <div class="row"><span class="num" data-u="%"><input id="capture_pct" name="capture_pct" type="number" inputmode="decimal" min="1" max="100" step="1"></span>
+              <input type="range" min="5" max="100" step="5" data-for="capture_pct" aria-label="Seats filled on those evenings"></div>
+            <span class="hint">Start low. A case that pays back at a modest fill is one that gets approved.</span>
+            <span class="err" data-err="capture_pct"></span>
           </div>
-        </div>
       </section>
 
       <section class="step" aria-labelledby="s4">
-        <div class="step-h"><span class="n">04</span><h2 id="s4">How full on those nights</h2><span class="aside" id="cap-aside"></span></div>
-        <div class="dim" data-field="capture_pct">
-          <label class="k" for="capture_pct">Seats filled (capture rate)</label>
-          <div class="row"><span class="num" data-u="%"><input id="capture_pct" name="capture_pct" type="number" inputmode="decimal" min="1" max="100" step="1"></span>
-            <input type="range" min="5" max="100" step="5" data-for="capture_pct" aria-label="Capture rate"></div>
-          <span class="hint">Start low. A case that pays back at a modest capture rate is one that gets approved.</span>
-          <span class="err" data-err="capture_pct"></span>
-        </div>
+        <div class="step-h"><span class="n">04</span><h2 id="s4">Where you are</h2></div>
+        <select id="state" class="big" aria-label="State"></select>
+        <p class="hint" id="price-line" style="margin:10px 0 0"></p>
       </section>
 
-      <section class="step" aria-labelledby="s5">
-        <div class="step-h"><span class="n">05</span><h2 id="s5">Heaters and cost</h2></div>
-        <div class="pick-row"><span class="ph"><img id="prod-img" alt=""></span><div><div class="t" id="prod-name"></div><div class="s" id="prod-ctl"></div></div></div>
-        <div class="dims">
-          <div class="dim" data-field="heaters">
-            <label class="k" for="heaters">Heaters</label>
-            <div class="row"><span class="num"><input id="heaters" name="heaters" type="number" inputmode="numeric" min="0" step="1" placeholder="Auto"></span></div>
-            <span class="hint" id="heaters-hint"></span>
-            <span class="err" data-err="heaters"></span>
-          </div>
+      <details class="tune" id="tune">
+        <summary><h2>Use your own numbers</h2><span class="aside">Heaters, cost, hours, price</span></summary>
+        <div class="body">
+          <div class="pick-row" style="margin-top:0"><span class="ph"><img id="prod-img" alt=""></span><div><div class="t" id="prod-name"></div><div class="s" id="prod-ctl"></div></div></div>
+          <div class="dims">
+            <div class="dim" data-field="heaters">
+              <label class="k" for="heaters">Heaters</label>
+              <div class="row"><span class="num"><input id="heaters" name="heaters" type="number" inputmode="numeric" min="0" step="1" placeholder="Auto"></span></div>
+              <span class="hint" id="heaters-hint"></span>
+              <span class="err" data-err="heaters"></span>
+            </div>
           <div class="dim" data-field="installed_per_heater">
             <label class="k" for="installed_per_heater">Installed cost a heater, all in</label>
-            <div class="row"><span class="num" data-u="$"><input id="installed_per_heater" name="installed_per_heater" type="number" inputmode="numeric" min="100" step="100"></span>
-              <input type="range" min="1000" max="15000" step="250" data-for="installed_per_heater" aria-label="Installed cost a heater"></div>
+            <div class="row"><span class="num" data-u="$"><input id="installed_per_heater" name="installed_per_heater" type="number" inputmode="decimal" min="100" max="1000000" step="100"></span>
+              <input type="range" min="1000" max="15000" step="250" data-for="installed_per_heater" aria-label="Installed cost a heater, all in"></div>
             <span class="hint">Heater, its share of controls, wiring, mounting and permits. <span class="placeholder-tag" style="margin:0">Placeholder</span></span>
             <span class="err" data-err="installed_per_heater"></span>
           </div>
-          <div class="dim" data-field="price_kwh">
-            <label class="k" for="state">Electricity price</label>
-            <select id="state"></select>
-            <div class="row" style="margin-top:6px"><span class="num" data-u="/kWh"><input id="price_kwh" name="price_kwh" type="number" inputmode="decimal" min="0" step="0.001" aria-label="Electricity price, dollars per kWh"></span></div>
-            <span class="hint" id="price-src"></span>
-            <span class="err" data-err="price_kwh"></span>
+          <div class="dim" data-field="hours_per_night">
+            <label class="k" for="hours_per_night">Heated hours an evening</label>
+            <div class="row"><span class="num" data-u="h"><input id="hours_per_night" name="hours_per_night" type="number" inputmode="decimal" min="0.5" max="24" step="0.5"></span>
+              <input type="range" min="1" max="12" step="0.5" data-for="hours_per_night" aria-label="Heated hours an evening"></div>
+            <span class="err" data-err="hours_per_night"></span>
+          </div>
+            <div class="dim" data-field="price_kwh">
+              <label class="k" for="price_kwh">Electricity</label>
+              <div class="row"><span class="num" data-u="/kWh"><input id="price_kwh" name="price_kwh" type="number" inputmode="decimal" min="0" step="0.001"></span></div>
+              <span class="hint" id="price-src"></span>
+              <span class="err" data-err="price_kwh"></span>
+            </div>
           </div>
         </div>
-        <input type="hidden" name="kw_per_heater"><input type="hidden" name="installed_cost">
-      </section>
+      </details>
+      <input type="hidden" name="kw_per_heater">
     </form>
 
     <aside class="stage" id="stage" aria-label="Your payback">
@@ -491,9 +487,9 @@ const CONFIG = {
     "model": "Platinum Smart-Heat Electric 4500W",
     "controls": "Affinity Smart-Heat Dimmer or On/Off controller and a wall switch per zone; Bromic Smart-Heat app (zones, schedules, timers)",
     "heaters": {
-      "value": 6,
+      "value": 7,
       "unit": "heaters",
-      "source": "COM-IN-01 worked example (illustrative input)",
+      "source": "COM-IN-01 worked example: 40 seats × 20 ft² ÷ (143 × 0.85) = 6.6 → 7 (templates/calculation-model.md)",
       "verified": false,
       "verify": "[[VERIFY: benchmarks — Blake Petty]]",
       "owner": "Blake Petty"
@@ -525,9 +521,9 @@ const CONFIG = {
   },
   "investment": {
     "installed_cost": {
-      "value": 30000,
+      "value": 35000,
       "unit": "$ installed: heaters, Affinity controls, wiring, permits",
-      "source": "PLACEHOLDER from the COM-IN-01 worked example, not a Bromic price or quote",
+      "source": "PLACEHOLDER: 7 heaters × the $5,000 all-in placeholder a heater (COM-IN-01 worked example). Not a Bromic price or quote",
       "verified": false,
       "verify": "[[VERIFY: benchmarks — Blake Petty]]",
       "owner": "Blake Petty"
@@ -753,12 +749,12 @@ const CONFIG = {
   "default_venue": "restaurant",
   "sizing": {
     "ft2_per_seat": {
-      "value": 15,
-      "unit": "ft² of heated patio per seat",
-      "source": "Rule-of-thumb placeholder for full-service patio dining; no published source read",
+      "value": 20,
+      "unit": "ft² of heated patio a seat, aisles and breathing room included",
+      "source": "NAFEM space-planning chart as published in the Restaurant Furniture seating capacity guide (https://www.restaurant-furniture.com/resources/guides/restaurant-seating-capacity-guide): full-service dining 12–15 ft² a seat, fine dining 18–20. The top of the range is used so tables are not crammed (owner, 30 Oct 2026)",
       "verified": false,
-      "verify": "[[VERIFY: patio ft² per seat to use (and source) — Blake Petty]]",
-      "owner": "Blake Petty"
+      "verify": "[[VERIFY: open the NAFEM chart itself and confirm the 18–20 ft² fine-dining figure — Brian Kim]]",
+      "owner": "Brian Kim"
     },
     "coverage_ft2": {
       "value": 143,
@@ -766,6 +762,14 @@ const CONFIG = {
       "source": "Lookbook 2026 p.21 (top of the 65–143 ft² range mapped to the 4500W Platinum); same basis as A20",
       "verified": false,
       "verify": "[[VERIFY: coverage of the 4500W model — Mike Clifford]]",
+      "owner": "Mike Clifford"
+    },
+    "derate": {
+      "value": 0.85,
+      "unit": "× coverage (partly covered, cool evenings)",
+      "source": "templates/calculation-model.md: the A03 factors for the default site, partly covered (1.0) × cool (0.85)",
+      "verified": false,
+      "verify": "[[VERIFY: A03 cover and climate factors — Mike Clifford]]",
       "owner": "Mike Clifford"
     }
   },
@@ -808,9 +812,9 @@ function seasonNights(months, daysPerWeek) {
   return Math.round(months.reduce((n, on, i) => n + (on ? MONTH_DAYS[i] : 0), 0) * daysPerWeek / 7);
 }
 
-// Heaters for the heated seats: seats × ft² a seat ÷ one heater's coverage, rounded up.
+// Heaters for the heated seats: seats × ft² a seat ÷ (one heater's coverage × the default site factor), rounded up.
 function autoHeaters(seats, cfg) {
-  const area = seats * val(cfg.sizing.ft2_per_seat), cov = val(cfg.sizing.coverage_ft2);
+  const area = seats * val(cfg.sizing.ft2_per_seat), cov = val(cfg.sizing.coverage_ft2) * (cfg.sizing.derate ? val(cfg.sizing.derate) : 1);
   return area > 0 && cov > 0 ? Math.max(1, Math.ceil(area / cov - 1e-9)) : 0;
 }
 
@@ -1103,18 +1107,15 @@ const form = $('#inputs');
 let unlocked = false;
 
 function init() {
-  $('#venue-tiles').innerHTML = CONFIG.venues.map((x) => `<label class="tile venue"><input type="radio" name="venue" value="${x.id}"${x.id === CONFIG.default_venue ? ' checked' : ''}>
-    <span class="pic"><img src="${img(x.image)}" alt="${esc(x.label)}"></span><span class="t">${esc(x.label)}</span></label>`).join('');
-  $('#months').innerHTML = MONTHS.map((m, i) => `<label class="chip"><input type="checkbox" data-month="${i}">${m}</label>`).join('');
   $('#turns').innerHTML = TURNS.map((t) => `<label class="chip"><input type="radio" name="turns" value="${t}">${t}</label>`).join('');
   const states = Object.entries(PRICES.states).sort((a, b) => a[1].name.localeCompare(b[1].name));
-  $('#state').innerHTML = `<option value="US">${esc(PRICES.US.name)}</option>` + states.map(([k, s]) => `<option value="${k}">${esc(s.name)}</option>`).join('');
+  $('#state').innerHTML = `<option value="US">${esc(PRICES.US.name)}</option>` + states.map(([k, st]) => `<option value="${k}">${esc(st.name)}</option>`).join('');
   const d = Logic.defaults(CONFIG);
-  for (const k of ['average_check', 'margin_pct', 'capture_pct', 'kw_per_heater']) form.elements[k].value = d[k];
+  for (const k of ['heated_seats', 'average_check', 'margin_pct', 'extra_nights', 'capture_pct', 'hours_per_night', 'kw_per_heater']) form.elements[k].value = d[k];
   setTurns(d.turns_per_night);
   form.elements.installed_per_heater.value = v(CONFIG.investment.installed_per_heater);
-  applyVenue(CONFIG.default_venue);
   applyState('US');
+  syncRanges();
   $('#prod-img').src = img(CONFIG.product_image);
   $('#prod-name').textContent = CONFIG.running.model;
   $('#prod-ctl').textContent = `With ${CONFIG.running.controls}`;
@@ -1126,7 +1127,7 @@ function init() {
   $('#state').addEventListener('change', (e) => { applyState(e.target.value); update(); });
   Lead.mountLeadGate({
     el: $('#lead'), assetId: CONFIG.tool.asset_id, matrixCell: CONFIG.tool.matrix_cell,
-    getInputs: () => ({ ...readInputs(), venue: form.elements.venue.value, state: $('#state').value }), defaultSizeUnit: 'seats',
+    getInputs: () => ({ ...readInputs(), state: $('#state').value }), defaultSizeUnit: 'seats',
     onUnlock: () => { unlocked = true; $('#gate').classList.add('hidden'); update(); $('#report').focus(); },
   });
   if ('IntersectionObserver' in window) new IntersectionObserver(([e]) => $('#peek').classList.toggle('on', !e.isIntersecting && e.boundingClientRect.top > 0)).observe($('#stage'));
@@ -1137,27 +1138,17 @@ function setTurns(t) { form.elements.turns_per_night.value = t; form.querySelect
 
 function onInput(e) {
   const t = e.target;
-  if (t.name === 'venue') applyVenue(t.value);
   if (t.name === 'turns') setTurns(t.value);
   if (t.type === 'range' && t.dataset.for) form.elements[t.dataset.for].value = t.value;
   else if (t.type === 'number') syncRanges();
   update();
 }
 
-function applyVenue(id) {
-  const p = Logic.venueProfile(id, CONFIG);
-  if (!p) return;
-  form.elements.heated_seats.value = p.heated_seats;
-  form.elements.days_per_week.value = p.days_per_week;
-  form.elements.hours_per_night.value = p.hours_per_night;
-  form.querySelectorAll('[data-month]').forEach((c) => (c.checked = !!p.months[+c.dataset.month]));
-  syncRanges();
-}
-
 function applyState(code) {
   const p = (PRICES.states[code] || PRICES.US);
   form.elements.price_kwh.value = p.kwh;
-  $('#price-src').innerHTML = `${code === 'US' ? 'US' : esc(p.name)} commercial average, <a href="${esc(PRICES.sources.kwh.url)}" target="_blank" rel="noopener">${esc(PRICES.sources.kwh.label.replace(/^EIA /, 'EIA '))}</a>. Type your own rate over it.`;
+  $('#price-line').innerHTML = `${code === 'US' ? 'US average' : esc(p.name)} commercial electricity: <b>$${p.kwh.toFixed(3)}</b>/kWh (EIA). Change it under "Use your own numbers".`;
+  $('#price-src').innerHTML = `<a href="${esc(PRICES.sources.kwh.url)}" target="_blank" rel="noopener">${esc(PRICES.sources.kwh.label)}</a>`;
 }
 
 function syncRanges() {
@@ -1168,9 +1159,8 @@ function syncRanges() {
 }
 
 function readInputs() {
-  form.elements.months.value = [...form.querySelectorAll('[data-month]')].map((c) => (c.checked ? '1' : '0')).join('');
   const out = {};
-  for (const k of ['heated_seats', 'average_check', 'turns_per_night', 'capture_pct', 'margin_pct', 'heaters', 'kw_per_heater', 'hours_per_night', 'price_kwh', 'months', 'days_per_week', 'installed_per_heater']) out[k] = form.elements[k].value;
+  for (const k of ['heated_seats', 'average_check', 'turns_per_night', 'capture_pct', 'margin_pct', 'extra_nights', 'heaters', 'kw_per_heater', 'hours_per_night', 'price_kwh', 'installed_per_heater']) out[k] = form.elements[k].value;
   out.installed_cost = '';
   return out;
 }
@@ -1185,10 +1175,9 @@ function showErrors(errors) {
 function update() {
   const r = Logic.roi(readInputs(), CONFIG);
   showErrors(r.ok ? {} : r.errors);
-  if (r.input && Number.isFinite(r.input.extra_nights)) $('#nights-aside').innerHTML = `<b>${num(r.input.extra_nights)}</b> extra nights a year`;
   if (!r.ok) { $('#teaser').innerHTML = '<div class="empty">Check the highlighted fields to see your payback.</div>'; peek('', 'Check the highlighted fields'); return; }
-  $('#heaters-hint').textContent = r.input.heaters_auto ? `Sized from the seats: ${num(r.input.heated_seats)} × ${v(CONFIG.sizing.ft2_per_seat)} ft² ÷ ${v(CONFIG.sizing.coverage_ft2)} ft² a heater. Type a number to override.` : 'Your number. Clear it to size from the seats.';
-  $('#cap-aside').innerHTML = `<b>${num(r.input.heated_seats * r.input.capture_pct / 100)}</b> of ${num(r.input.heated_seats)} seats`;
+  $('#heaters-hint').textContent = r.input.heaters_auto ? `Sized from the seats: ${num(r.input.heated_seats)} × ${v(CONFIG.sizing.ft2_per_seat)} ft² ÷ (${v(CONFIG.sizing.coverage_ft2)} ft² × ${v(CONFIG.sizing.derate)} for a partly covered patio on cool evenings). Type a number to override.` : 'Your number. Clear it to size from the seats.';
+  $('#heaters-aside').innerHTML = `<b>${num(r.input.heaters)}</b> heaters`;
   renderTeaser(r);
   if (unlocked) renderReport(r);
 }
@@ -1288,7 +1277,7 @@ function renderReport(r) {
     ['Contribution margin', CONFIG.revenue.margin_pct], ['Heated patio a seat', CONFIG.sizing.ft2_per_seat], ['Coverage a heater', CONFIG.sizing.coverage_ft2],
     ['kW a heater', CONFIG.running.kw_per_heater], ['Installed cost a heater', CONFIG.investment.installed_per_heater],
   ];
-  const mo = i.months ? MONTHS.filter((_, k) => i.months[k]).join(', ') : null;
+  const mo = null;
   el.innerHTML = `
     <h2 id="report-h">Your patio heating ROI report</h2>
     <p>${num(i.heated_seats)} heated seats, ${num(i.turns_per_night, 2)} turns a night, ${usd(i.average_check)} average check, ${num(i.capture_pct, 1)}% capture and ${num(i.margin_pct, 1)}% contribution margin,

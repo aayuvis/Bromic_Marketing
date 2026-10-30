@@ -11,7 +11,7 @@ summary: "Radiant versus convective heat in plain terms, the real trade-offs bet
 primary_keyword: electric vs gas patio heater
 secondary_keywords: [infrared patio heater, best outdoor heater]
 ai_prompt: "Are electric or gas patio heaters better?"
-meta_description: "Electric or gas patio heater? Built-in electric suits covered patios; gas covers more ground in open space. Compare install, cost, wind and look."
+meta_description: "Electric or gas patio heater? Built-in electric suits covered patios; freestanding gas suits open space. Compare install, cost, wind and look."
 cta: {label: "Size your space", asset: A03}
 hero: l-019-164
 images: [l-010-076]
@@ -19,7 +19,7 @@ owner_review: Megan Spies
 status: draft
 gated: false
 related: [RES-IN-01, RES-PP-01, RES-CO-KB1, ARC-CO-01]
-updated: 2026-10-29
+updated: 2026-10-30
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -51,7 +51,7 @@ sources:
     verified: true
 ---
 
-Neither fuel is better everywhere. Built-in electric infrared suits covered patios, pergolas and outdoor kitchens: it mounts on the wall or ceiling, needs no gas line or venting, and switches on instantly. Gas covers more ground per heater and suits open, larger spaces — a single Tungsten Smart-Heat Freestanding Gas heater covers approx. 215 ft² against approx. 65–143 ft² for one Platinum Smart-Heat Electric.[^s2] The right answer depends on the structure, the utilities you have, and how you will use the space.
+Neither fuel is better everywhere. Built-in electric infrared suits covered patios, pergolas and outdoor kitchens: it mounts on the wall or ceiling, needs no gas line or venting, and switches on instantly. Freestanding gas suits open, larger spaces with nothing to mount to. One Tungsten Smart-Heat Freestanding Gas heater covers approx. 215 ft² against approx. 65–143 ft² for one Platinum Smart-Heat Electric,[^s2] but guests block the radiant heat of a freestanding unit, so each one serves no more than four seats — and for a seated space that usually sets the count. The right answer depends on the structure, the utilities you have, and how you will use the space.
 
 ## What is the difference between radiant and convective heat?
 
@@ -92,35 +92,38 @@ Outdoors, you want as much radiant heat as possible. Bromic's guidance sorts hea
 
 ## When is gas the better choice?
 
-- **The space is open and large.** One freestanding gas heater covers more ground than one electric heater.[^s2]
+- **The space is open and large.** One freestanding gas heater covers more ground than one electric heater,[^s2] though around seated guests the four-seats-a-heater limit usually decides how many you need.
 - **There is nothing to mount to.** A lawn, a pool deck, a terrace with open sky.
 - **You want to move the heat.** Wheels and an anti-tilt design let you reposition it with the furniture.[^s2]
 - **Natural gas is already on site**, or a propane supply suits you. Propane is portable but has to be refilled.
 
 ## How many heaters does my space need?
 
-A quick estimate: divide the area you want warm — usually the seating, not the whole slab — by one heater's coverage, then round up.
+A quick estimate, for the area you want warm — usually the seating, not the whole slab:
 
-| Example area | Platinum Electric (approx. 65–143 ft² each) | Tungsten Freestanding Gas (approx. 215 ft² each) |
+- **Built-in electric:** heaters = area ÷ (coverage × cover factor × climate factor), rounded up. Cover: open 0.85, partly covered 1.0, solid roof 1.1. Climate on the evenings you heat: mild 1.0, cool 0.85, cold 0.7. [[VERIFY: cover and climate factors — Mike Clifford]] The table uses partly covered and cool, 1.0 × 0.85 = 0.85.
+- **Freestanding gas:** the same area sum, but never more than four seats a heater, because guests block its radiant heat. Without a seat count, allow 20 ft² a seat. Take the larger of the two answers.
+
+| Example area | Platinum Electric, 4500 W (143 ft²) to 2300 W (65 ft²)[^s2] | Tungsten Freestanding Gas (215 ft²)[^s2] |
 |---|---|---|
-| 12' × 10' dining nook (120 ft²) | 1–2 | 1 |
-| 20' × 16' patio (320 ft², about the new-home average[^s3]) | 3–5 | 2 |
-| 30' × 20' terrace (600 ft²) | 5–10 | 3 |
+| 12' × 10' dining nook (120 ft², 6 seats) | 1–3 (120 ÷ 121.6 = 1.0; 120 ÷ 55.3 = 2.2) | 2 (6 seats ÷ 4) |
+| 20' × 16' patio (320 ft², about the new-home average[^s3]; 16 seats) | 3–6 (320 ÷ 121.6 = 2.6; 320 ÷ 55.3 = 5.8) | 4 (16 seats ÷ 4) |
+| 30' × 20' terrace (600 ft², 30 seats) | 5–11 (600 ÷ 121.6 = 4.9; 600 ÷ 55.3 = 10.9) | 8 (30 seats ÷ 4) |
 
-The range is wide because coverage changes with model, mounting height, wind and installation conditions.[^s2] Colder, windier and coastal sites need more heat for the same floor; covered spaces often need less, because a partial cover holds a "heat cloud".[^s1] Treat this as a starting point. The [sizing calculator](asset:A03) narrows it in a minute, and [placement](item:RES-PP-01) decides whether the heat lands where people sit.
+Each built-in heater runs from an Affinity Smart-Heat On/Off or Dimmer controller and a wall switch. [[VERIFY: control options for Tungsten Freestanding Gas — Mike Clifford]] In every row the four-seat limit, not coverage, sets the gas count (600 ÷ (215 × 0.85) = 3.3 would round up to only 4). The electric range is wide because it spans wattages; coverage also changes with mounting height and installation.[^s2] An open site or cold evenings lower the factor and raise the count; a solid roof raises it, because a cover holds a "heat cloud".[^s1] Treat this as a starting point. The [sizing calculator](asset:A03) narrows it in a minute, and [placement](item:RES-PP-01) decides whether the heat lands where people sit.
 
 ## Key takeaways
 
 - Outdoors, radiant heat is the kind that works; short and medium wave warm fastest and resist wind best.[^s1]
 - Choose electric for covered, built-in or partly enclosed spaces; choose gas for open, larger or movable layouts.
-- Size the seating, not the slab, and round up in cold or windy sites.
+- Size the seating, not the slab: built-in heaters by area, adjusted for cover and climate; freestanding heaters at no more than four seats each.
 - Electric work is for a licensed electrician; gas work for a licensed gas fitter. Confirm requirements with your local building authority.[^s1]
 - Every heater needs its controls: an Affinity On/Off, Dimmer or Eclipse controller, or wall switch; app and voice features need compatible Affinity controls, sold separately.
 
 ## FAQ
 
 ### Are electric patio heaters as warm as gas?
-Per heater, gas covers more area (approx. 215 ft² vs approx. 65–143 ft² for Platinum).[^s2] Over a seating area sized correctly, both keep people comfortable; electric simply uses more units for the same floor.
+Per heater, gas covers more area (approx. 215 ft² vs approx. 65–143 ft² for Platinum).[^s2] Around a table, though, guests block a freestanding heater's radiant heat, so each serves no more than four seats; for a seated patio that limit usually means more freestanding gas heaters than Platinum 4500W ones (four against three for a 320 ft² patio, in the table above). Sized correctly, both keep people comfortable.
 
 ### What is the best outdoor heater for a covered patio?
 Usually built-in electric infrared, wall- or ceiling-mounted or recessed, because it needs no venting and keeps the floor clear. See [can I put a patio heater under a covered patio](item:RES-PP-KB1).

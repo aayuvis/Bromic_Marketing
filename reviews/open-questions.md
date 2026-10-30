@@ -171,3 +171,12 @@ The ten answers that unblock the most content (basis: docs/HANDOVER-next-session
 | item id | question | suggested owner |
 |---|---|---|
 | A10, A19, A23, HANDOVER §11.8 | Case-study candidates with written permission to publish numbers and quotes. | Regional leads |
+
+## Calculation model (30 Oct 2026)
+
+| Question | Owner | Used by |
+|---|---|---|
+| Cover factors (open 0.85, partly covered 1.0, covered 1.1) and climate factors (mild 1.0, cool 0.85, cold 0.7) that adjust heater coverage. Every tool and worked example now uses them (templates/calculation-model.md). | Mike Clifford | A03, A20, A21, COM-CO-01, COM-IN-01, COM-IN-KB1, A02 guides, RES-CO-01, RES-PP-01 |
+| 20 ft² a seat (NAFEM chart, fine-dining end, via the Restaurant Furniture guide): open the NAFEM chart itself and confirm. | Brian Kim | Same |
+| Freestanding heaters: no more than four seats a heater (owner rule, 30 Oct 2026). Confirm Bromic's own guidance for the Tungsten Freestanding Gas and Eclipse Freestanding. | Mike Clifford | Same |
+

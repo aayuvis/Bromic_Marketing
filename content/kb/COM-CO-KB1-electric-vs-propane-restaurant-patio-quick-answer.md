@@ -18,7 +18,7 @@ owner_review: Blake Petty
 status: draft
 gated: false
 related: [COM-CO-01, COM-PP-KB1]
-updated: 2026-10-29
+updated: 2026-10-30
 sources:
   - id: s1
     publisher: U.S. Energy Information Administration
@@ -43,7 +43,7 @@ sources:
     verified: true
 ---
 
-For most restaurants, electric. On fuel alone, electric and propane cost about the same per square foot heated; propane then adds cylinder swaps, storage and, in some cities, outright restrictions. Propane wins where there is no power to the patio and the layout changes nightly.
+For most restaurants, electric. A freestanding propane heater serves no more than 4 seats, because guests block its radiant heat, so a 40-seat patio needs 10 of them against 7 overhead electric heaters, and each burns dearer fuel per hour. Propane then adds cylinder swaps, storage and, in some cities, outright restrictions. Propane fits where there is no power to the patio and the layout changes nightly.
 
 ## The numbers
 
@@ -53,11 +53,12 @@ Formulas: electric = kW × $/kWh; propane = BTU/hr ÷ 91,500 × $/gal. Rates: 14
 |---|---|---|
 | Cost per hour | $0.63 | $1.02 |
 | Approx. coverage | up to 143 ft² | about 215 ft² |
-| Cost per 100 ft² per hour | about $0.44 | about $0.48 |
+| Heaters for 40 seats (800 ft², partly covered, cool) | 800 ÷ (143 × 0.85) = 6.6 → 7 | 40 seats ÷ 4 = 10 |
+| Fuel for 40 seats, 1,000 hours a year | 31,500 kWh = $4,432 | 4,153 gal = $10,216 |
 | Fuel handling | none | swaps, storage, deliveries |
 | Code exposure | electrical permit | fire code clearances, storage rules |
 
-Cylinder propane is usually priced above the bulk average used here, which narrows propane's case further.
+Swapping 4,153 gallons through 4.7-gallon cylinders is 884 swaps a year; at 10 minutes each and $25 an hour, another $3,683. Cylinder propane is usually priced above the bulk average used here, which narrows propane's case further.
 
 ## Which to choose
 

@@ -195,6 +195,11 @@ export function size(rawInput, cfg) {
       opt.coverage_nominal = cov;
       opt.coverage_effective = Math.round(effectiveCoverage(cov, f) * 10) / 10;
       opt.count = heaterCount(area, effectiveCoverage(cov, f));
+      // A freestanding heater warms four seats at most (guests block its heat); seats = area ÷ ft² a seat.
+      if (p.style === 'freestanding' && cfg.seating) {
+        const bySeats = Math.ceil(area / val(cfg.seating.ft2_per_seat) / val(cfg.seating.freestanding_max_seats) - 1e-9);
+        if (bySeats > opt.count) { opt.count = bySeats; opt.sized_by = 'seats'; }
+      }
       const w = val(p.watts);
       opt.load_kw = w ? Math.round(opt.count * w / 100) / 10 : null;
       opt.btu_each = val(p.btu) ?? null;

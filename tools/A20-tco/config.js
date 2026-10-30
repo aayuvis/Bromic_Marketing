@@ -29,12 +29,12 @@ export default {
   },
   "space": {
     "ft2_per_seat": {
-      "value": 15,
-      "unit": "ft² of heated patio per seat",
-      "source": "Rule-of-thumb placeholder for full-service patio dining; no published source read",
+      "value": 20,
+      "unit": "ft² of heated patio a seat, aisles and breathing room included",
+      "source": "NAFEM space-planning chart as published in the Restaurant Furniture seating capacity guide (https://www.restaurant-furniture.com/resources/guides/restaurant-seating-capacity-guide): full-service dining 12–15 ft² a seat, fine dining 18–20. The top of the range is used so tables are not crammed (owner, 30 Oct 2026)",
       "verified": false,
-      "verify": "[[VERIFY: patio ft² per seat to use (and source) — Blake Petty]]",
-      "owner": "Blake Petty"
+      "verify": "[[VERIFY: open the NAFEM chart itself and confirm the 18–20 ft² fine-dining figure — Brian Kim]]",
+      "owner": "Brian Kim"
     },
     "default_seats": {
       "value": 40,
@@ -76,6 +76,22 @@ export default {
       "source": "Default: flat prices; no forecast applied",
       "verified": false,
       "verify": "[[VERIFY: whether to apply an EIA STEO price outlook — Brian Kim/Finance]]",
+      "owner": "Brian Kim"
+    },
+    "evenings_per_year": {
+      "value": 150,
+      "unit": "evenings a year the heaters run",
+      "source": "Form default only: the 900-hour placeholder (6 hours × 150 nights) as evenings",
+      "verified": false,
+      "verify": "[[VERIFY: default heated evenings a year — Brian Kim]]",
+      "owner": "Brian Kim"
+    },
+    "hours_per_evening": {
+      "value": 5,
+      "unit": "heater hours an evening",
+      "source": "Form default only",
+      "verified": false,
+      "verify": "[[VERIFY: default heated hours an evening — Brian Kim]]",
       "owner": "Brian Kim"
     }
   },
@@ -250,6 +266,13 @@ export default {
         "verified": false,
         "verify": "[[VERIFY: annual service per gas heater — Blake Petty]]",
         "owner": "Blake Petty"
+      },
+      "max_seats_per_heater": {
+        "value": 4,
+        "unit": "seats a freestanding heater can warm",
+        "source": "Owner rule (Aayush Vishnoi, 30 Oct 2026): guests block the radiant heat of a freestanding heater, so one heater warms four seats at most. Consistent with a patio-heater specialist's buyer guide that seating needs close to one heater per guest (https://www.gasoutdoorpatioheaters.com/restaurant-patio-heaters/)",
+        "verified": true,
+        "owner": "Aayush Vishnoi"
       }
     },
     {
@@ -297,6 +320,13 @@ export default {
         "verified": false,
         "verify": "[[VERIFY: annual service per propane heater — Blake Petty]]",
         "owner": "Blake Petty"
+      },
+      "max_seats_per_heater": {
+        "value": 4,
+        "unit": "seats a freestanding heater can warm",
+        "source": "Owner rule (Aayush Vishnoi, 30 Oct 2026): guests block the radiant heat of a freestanding heater, so one heater warms four seats at most. Consistent with a patio-heater specialist's buyer guide that seating needs close to one heater per guest (https://www.gasoutdoorpatioheaters.com/restaurant-patio-heaters/)",
+        "verified": true,
+        "owner": "Aayush Vishnoi"
       }
     }
   ],
@@ -500,5 +530,82 @@ export default {
     "natural_gas": "w-tung-port",
     "propane": "w-tung-port"
   },
-  "prices_note": "State prices come from state-prices.json (scripts/eia_prices.py, EIA). The prices block above is the fallback when no state data loads."
+  "prices_note": "State prices come from state-prices.json (scripts/eia_prices.py, EIA). The prices block above is the fallback when no state data loads.",
+  "enclosure": {
+    "open": {
+      "label": "Open",
+      "hint": "No roof over the heated area.",
+      "factor": {
+        "value": 0.85,
+        "unit": "× nominal coverage",
+        "source": "Assumption: no overhead cover, so no 'heat cloud' and more wind exposure (Planning Guide v1.2 Step 01, qualitative only)",
+        "verified": false,
+        "verify": "[[VERIFY: coverage derate for fully open spaces — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    "partial": {
+      "label": "Partially covered",
+      "hint": "A pergola, umbrella or part roof over some of the area.",
+      "factor": {
+        "value": 1,
+        "unit": "× nominal coverage",
+        "source": "Assumption: Lookbook coverage treated as the partially covered reference case",
+        "verified": false,
+        "verify": "[[VERIFY: which setting the Lookbook coverage figures assume — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    "covered": {
+      "label": "Covered",
+      "hint": "A solid roof, with walls on some sides.",
+      "factor": {
+        "value": 1.1,
+        "unit": "× nominal coverage",
+        "source": "Assumption: a cover traps a 'heat cloud' that adds a convective boost (Planning Guide v1.2 Step 01, qualitative only)",
+        "verified": false,
+        "verify": "[[VERIFY: coverage uplift for covered spaces — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    }
+  },
+  "climate": {
+    "mild": {
+      "label": "Mild",
+      "hint": "Evenings you heat are usually above about 50°F.",
+      "factor": {
+        "value": 1,
+        "unit": "× coverage",
+        "source": "Assumption. Planning Guide v1.2 Step 05 says colder states may need more heaters for the same space (its example: 2 heaters in California, 3 in Massachusetts for 20 × 10 ft)",
+        "verified": false,
+        "verify": "[[VERIFY: climate derate factors and the temperature bands that define them — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    "cool": {
+      "label": "Cool",
+      "hint": "Evenings you heat are usually about 40–50°F.",
+      "factor": {
+        "value": 0.85,
+        "unit": "× coverage",
+        "source": "Assumption (see mild)",
+        "verified": false,
+        "verify": "[[VERIFY: climate derate factors — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    "cold": {
+      "label": "Cold",
+      "hint": "Evenings you heat are often below about 40°F.",
+      "factor": {
+        "value": 0.7,
+        "unit": "× coverage",
+        "source": "Assumption (see mild). Note: the Planning Guide's example (2 gas heaters for 200 ft² in California) implies a layout or overlap allowance this tool does not model",
+        "verified": false,
+        "verify": "[[VERIFY: climate derate factors — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    }
+  },
+  "sizing_note": "Heater counts use the A03 method: seats × ft² a seat ÷ (coverage × enclosure × climate), rounded up. Enclosure and climate factors are copied from tools/A03-sizing/config.json; change them there and here together."
 };

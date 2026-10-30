@@ -19,7 +19,7 @@ owner_review: Mike Clifford + 454 Creative
 status: draft
 gated: true
 related: [RES-IN-01, RES-CO-01, BLD-IN-01]
-updated: 2026-10-29
+updated: 2026-10-30
 version: "2.0 draft, revision 2 (replaces Planning Guide US v1.2, 10/2021)"
 sources:
   - id: s1
@@ -303,7 +303,17 @@ A flush, recessed look needs a recess kit and must be decided before the ceiling
 
 ## Step 5. Size it
 
-Heaters needed = area ÷ coverage per heater, rounded up. A colder or windier site may need one more for the same area[^s3].
+Heaters needed = area ÷ (coverage per heater × cover factor × climate factor), rounded up. A colder or more open site needs more heat for the same area[^s3]; the two factors put that into the sum:
+
+| Cover | Factor | Climate (evenings you heat) | Factor |
+|---|---|---|---|
+| Open (no roof) | 0.85 | Mild (above about 50°F) | 1.0 |
+| Partly covered (pergola, umbrella, part roof) | 1.0 | Cool (about 40–50°F) | 0.85 |
+| Covered (solid roof) | 1.1 | Cold (often below about 40°F) | 0.7 |
+
+[[VERIFY: cover and climate factors — Mike Clifford]] Not sure? Use partly covered and cool: 1.0 × 0.85 = 0.85. Measure the seating, not the whole deck; if you know the seats rather than the area, allow 20 ft² a seat.
+
+**Freestanding heaters** (Tungsten Freestanding Gas, Eclipse Freestanding) serve no more than four seats each, because the guests themselves block the radiant heat. Count both ways and take the larger: area ÷ (coverage × factors), or seats ÷ 4.
 
 | Heater | Coverage per heater (approx.) |
 |---|---|
@@ -318,19 +328,20 @@ Heaters needed = area ÷ coverage per heater, rounded up. A colder or windier si
 
 Coverage is approximate and varies with mounting height, wind and installation[^s2]. Product-page values read on 29 October 2026. [[VERIFY: coverage and output per model against the 2026 cut sheets; Eclipse 2900 W (spec table) vs 3000 W (FAQ); Tungsten Freestanding Gas 38,000 Btu (Lookbook) vs 38,500 (site) — Mike Clifford]]
 
-The free [How many heaters? calculator](asset:A03) does this for you and adjusts for cover, climate and mounting height.
+The free [How many heaters? calculator](asset:A03) does this for you with the same cover and climate factors.
 
 ### Worked example: a 20 × 12 ft covered patio
 
 1. **Area:** 20 × 12 = 240 ft². Covered, with one long side and one end open: well over 30% open[^s3].
-2. **Tungsten Electric 4000 W, recessed:** 240 ÷ 130 = 1.8, so **two heaters**.
-3. **Or Eclipse pendants over the table:** 240 ÷ 121 = 2.0, so **two Eclipse**; consider a third on a windy site.
-4. **Controls:** two Tungsten 4000 W heaters need two controller channels (Step 7): an Affinity Smart-Heat 2-channel Dimmer or On/Off controller, a wall switch and the app. Two Eclipse need an Affinity Eclipse controller channel each.
-5. **Running cost:** 2 × 4 kW × 3 hours × $0.1354 = about $3.25 a night at the May 2026 commercial average[^s18]. Use your own rate.
+2. **Factors:** covered 1.1 × cool evenings 0.85 = 0.935.
+3. **Tungsten Electric 4000 W, recessed:** 240 ÷ (130 × 0.935) = 240 ÷ 121.6 = 2.0, so **two heaters**.
+4. **Or Eclipse pendants over the table:** 240 ÷ (121 × 0.935) = 240 ÷ 113.1 = 2.1, so **three Eclipse**.
+5. **Controls:** two Tungsten 4000 W heaters need two controller channels (Step 7): an Affinity Smart-Heat 2-channel Dimmer or On/Off controller, a wall switch and the app. Three Eclipse need an Affinity Eclipse controller channel each: a 5-channel controller, or three 1-channel.
+6. **Running cost:** 2 × 4 kW × 3 hours × $0.1354 = about $3.25 a night at the May 2026 commercial average[^s18]. Use your own rate.
 
-[[DIAGRAM: Plan of the 20 × 12 ft patio: two recessed Tungsten heaters along the long axis, or two Eclipse pendants over the table, with heat-bloom circles and the open sides marked.]]
+[[DIAGRAM: Plan of the 20 × 12 ft patio: two recessed Tungsten heaters along the long axis, or three Eclipse pendants over the table, with heat-bloom circles and the open sides marked.]]
 
-- [ ] Area ÷ coverage = ______, rounded up = ______ heaters
+- [ ] Area ÷ (coverage × cover × climate) = ______, rounded up = ______ heaters (freestanding: at least seats ÷ 4)
 - [ ] Calculator run; result saved
 
 ## Step 6. Plan the power or gas

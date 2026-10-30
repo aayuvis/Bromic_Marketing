@@ -35,6 +35,7 @@ export const BASES = ['seats', 'ft2'];
 export function defaults(cfg) {
   const d = {
     basis: 'seats',
+    enclosure: 'partial', climate: 'cool',
     seats: val(cfg.space.default_seats),
     area_ft2: val(cfg.space.default_ft2),
     hours_per_year: val(cfg.operation.hours_per_year),
@@ -64,6 +65,8 @@ export function normalise(raw, cfg) {
   const r = { ...d, ...raw };
   const errors = {};
   const input = { basis: BASES.includes(r.basis) ? r.basis : 'seats' };
+  input.enclosure = cfg.enclosure && cfg.enclosure[r.enclosure] ? r.enclosure : 'partial';
+  input.climate = cfg.climate && cfg.climate[r.climate] ? r.climate : 'cool';
   const need = (k, min, max, msg) => {
     const n = toNum(r[k]);
     if (!Number.isFinite(n) || n < min || n > max) errors[k] = msg;
@@ -72,7 +75,12 @@ export function normalise(raw, cfg) {
   if (input.basis === 'seats') { need('seats', 1, 5000, 'Enter seats from 1 to 5,000.'); input.area_ft2 = toNum(r.area_ft2); }
   else { need('area_ft2', 10, 100000, 'Enter an area from 10 to 100,000 ft².'); input.seats = toNum(r.seats); }
   // Season mode: months as a 12-character string of 0/1, with nights a week and hours a night, sets the hours a year.
-  if (typeof r.months === 'string' && /^[01]{12}$/.test(r.months)) {
+  // Simple mode: evenings a year × hours an evening.
+  if (raw.evenings_per_year != null && raw.evenings_per_year !== '') {
+    need('evenings_per_year', 1, 366, 'Enter 1 to 366 evenings a year.');
+    need('hours_per_night', 0.5, 24, 'Enter 0.5 to 24 hours an evening.');
+    if (!errors.evenings_per_year && !errors.hours_per_night) input.hours_per_year = Math.round(input.evenings_per_year * input.hours_per_night);
+  } else if (typeof r.months === 'string' && /^[01]{12}$/.test(r.months)) {
     input.months = [...r.months].map((c) => c === '1');
     need('nights_per_week', 1, 7, 'Choose 1 to 7 nights a week.');
     need('hours_per_night', 0.5, 24, 'Enter 0.5 to 24 hours a night.');
@@ -143,9 +151,18 @@ export function tco(rawInput, cfg) {
   const years = val(cfg.tool.years);
   const area = input.basis === 'seats' ? input.seats * val(cfg.space.ft2_per_seat) : input.area_ft2;
 
+  // Coverage is derated for how open the patio is and how cold the evenings are: the A03 sizing method.
+  const derate = (cfg.enclosure ? val(cfg.enclosure[input.enclosure].factor) : 1) * (cfg.climate ? val(cfg.climate[input.climate].factor) : 1);
   const options = cfg.options.map((o) => {
-    const coverage = val(o.coverage_ft2);
-    const sized = heaterCount(area, coverage);
+    const nominal = val(o.coverage_ft2);
+    const coverage = Math.round(nominal * derate * 10) / 10;
+    // A freestanding heater warms a few seats at most (guests block its heat): never fewer than seats ÷ that cap.
+    const seats = input.basis === 'seats' ? input.seats : area / val(cfg.space.ft2_per_seat);
+    const byArea = heaterCount(area, coverage);
+    const cap = o.max_seats_per_heater ? val(o.max_seats_per_heater) : null;
+    const bySeats = cap ? Math.ceil(seats / cap - 1e-9) : 0;
+    const sized = Math.max(byArea || 0, bySeats) || null;
+    const sized_by = bySeats > (byArea || 0) ? 'seats' : 'area';
     const count = input[`${o.id}_count`] ?? sized;
     const h = hourly(o, count, input, cfg);
     const annualUnits = h.units * input.hours_per_year;
@@ -169,7 +186,7 @@ export function tco(rawInput, cfg) {
     }
     return {
       id: o.id, label: o.label, fuel: o.fuel, model: o.model, controls: o.controls,
-      coverage_ft2: coverage, count, sized_count: sized, count_overridden: input[`${o.id}_count`] != null,
+      coverage_ft2: coverage, coverage_nominal: nominal, count, sized_count: sized, sized_by, seats_per_heater_cap: cap, count_overridden: input[`${o.id}_count`] != null,
       rating: o.fuel === 'electric' ? `${val(o.input_kw)} kW` : `${val(o.input_btu).toLocaleString('en-US')} BTU/hr`,
       per_hour: h.cost, annual_units: annualUnits, unit: h.unit, fuel_year1: fuelYear1, fuel,
       handling, purchase, install, maintenance, total, series,
@@ -189,7 +206,7 @@ export function tco(rawInput, cfg) {
     }
   }
   return {
-    ok: true, input, years, area: Math.round(area * 10) / 10, options, crossovers,
+    ok: true, input, years, area: Math.round(area * 10) / 10, options, crossovers, derate,
     cheapest: ranked[0].id, most_expensive: ranked[ranked.length - 1].id,
     spread: ranked[ranked.length - 1].total - ranked[0].total,
   };

@@ -30,14 +30,13 @@ sources:
 ---
 
 **What it does.** An operator sees what heating the patio could add: the extra revenue from nights they could not seat outside
-before, the margin on it, and how many months the installed cost takes to pay back. A venue picture sets a starting profile,
-the extra nights come from the months heat keeps the patio open, the heaters are sized from the seats, and the electricity price
-comes from the state (EIA). The result card shows a seat grid, where each added dollar goes, the cash position month by month with
-the break-even point, and payback at other capture rates.
+before, the margin on it, and how many months the installed cost takes to pay back. Seven inputs; the heaters are sized from the
+seats and the electricity price comes from the state (EIA). The result card shows a seat grid, where each added dollar goes, the cash position month by month with
+the break-even point, and payback at other shares of seats filled.
 
-**Inputs.** Venue · heated seats · average check · turns per night · months heat keeps the patio open and days a week · capture
-rate (share of those seats you expect to fill) · contribution margin % · state (electricity price) · heaters (auto from seats) ·
-installed cost a heater, all in (heater, controls, wiring, permits).
+**Inputs.** Heated seats · average check · turns a night · contribution margin % · extra evenings a year · share of seats filled ·
+state (electricity price). Under "Use your own numbers": heaters (sized from the seats by templates/calculation-model.md), installed
+cost a heater (placeholder), heated hours an evening, electricity price.
 
 **Outputs.** On screen: added revenue a year and payback in months. Behind the form: margin, a sensitivity view and the heaters and
 controls the installed cost should cover (Affinity Smart-Heat controller, wall switch, app).

@@ -303,7 +303,7 @@ Product-page values read 29 October 2026; Lookbook 2026 governs where they diffe
 
 ## 5. Size it
 
-Heaters per zone = zone area ÷ effective coverage per heater, rounded up. The [A03 calculator](asset:A03) applies its stated adjustments to the nominal coverage above: open space 0.85, partially covered 1.0, covered 1.1; mild 1.0, cool 0.85, cold 0.7; mounting to 10 ft 1.0, to 12 ft 0.9, above 12 ft 0.8 (built-in heaters). These are working assumptions awaiting Bromic sign-off, not published ratings. [[VERIFY: A03 enclosure, climate and height factors — Mike Clifford]]
+Heaters per zone = zone area ÷ effective coverage per heater, rounded up. The [A03 calculator](asset:A03) applies its stated adjustments to the nominal coverage above: open space 0.85, partially covered 1.0, covered 1.1; mild 1.0, cool 0.85, cold 0.7; mounting to 10 ft 1.0, to 12 ft 0.9, above 12 ft 0.8 (built-in heaters). These are working assumptions awaiting Bromic sign-off, not published ratings. [[VERIFY: A03 enclosure, climate and height factors — Mike Clifford]] Freestanding heaters (Tungsten Freestanding Gas, Eclipse Freestanding) also serve no more than four seats each, because seated guests block their radiant heat: count max(area ÷ effective coverage, seats ÷ 4), allowing 20 ft² a seat where the seat count is unknown.
 
 **Example.** A 16 × 24 ft covered dining terrace, cool climate, 10 ft soffit: 384 ft². Tungsten Electric 6000 W: 160 × 1.1 × 0.85 × 1.0 = 150 ft² effective; 384 ÷ 150 = 2.6, so **three heaters**, each on its own Affinity Dimmer channel (a 5-channel controller), a wall switch and the app.
 

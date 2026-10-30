@@ -50,15 +50,15 @@ sources:
     verified: true
 ---
 
-**What it does.** A restaurant or hotel operator compares five years of patio heating by fuel. Each option's total is purchase,
-install, service, fuel and, for propane, the staff time spent swapping cylinders. Four visual choices drive it: a venue picture
-(which sets seats and season as a starting point), size, state (which fills in EIA energy prices) and the months, days and hours
-heated. The result card shows the three totals with product photos, the fuel cost a day, a running-total chart with the year the
-dearer-to-buy option pays itself back, a breakdown bar and the propane cylinder count. Costs, dimming and cylinder details sit in
-a closed Fine-tune panel.
+**What it does.** A restaurant or hotel operator compares five years of patio heating by fuel, from four quick answers: heated
+seats, how covered the patio is, how cold the evenings are, and the state (which sets EIA energy prices), plus evenings a year and
+hours an evening. Heaters are sized by templates/calculation-model.md: 20 ft² a seat; overhead electric by area with the cover and
+climate factors; freestanding gas at no more than four seats a heater. Each option's total is purchase, install, service, fuel and,
+for propane, the staff time spent swapping cylinders. The result card shows the three totals, the fuel cost a day and the running
+total year by year.
 
-**Inputs.** Venue · seats or ft² · state (prices filled from EIA, editable) · months heated, days a week, hours a day · in Fine-tune: purchase
-and install per option · cylinder exchanges a year, minutes per exchange and hourly wage.
+**Inputs.** Heated seats · cover (open, partly covered, covered) · evenings (mild, cool, cold) · state · evenings a year · hours an
+evening. Under "Use your own numbers": energy prices, heater counts, purchase and install per heater.
 
 **Outputs.** On screen: the five-year total per fuel and the cheapest. Behind the form: the year-by-year table, the fuel maths and
 the heaters and controls assumed for each option.

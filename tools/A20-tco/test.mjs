@@ -7,71 +7,72 @@ import { tco, defaults, heaterCount, escalatedSum, exchangesPerYear, seasonHours
 const cfg = JSON.parse(readFileSync(new URL('./config.json', import.meta.url), 'utf8'));
 const near = (a, b, tol, msg) => assert.ok(Math.abs(a - b) <= tol, `${msg}: ${a} vs ${b} (±${tol})`);
 
-// COM-CO-01's worked example: its own rates, 1,000 h, $25/h loaded labour, fuel and handling only.
+// COM-CO-01's worked example (templates/calculation-model.md): 40 seats, partly covered, cool; its own rates, 1,000 h,
+// $25/h loaded labour, fuel and handling only. Heater counts are NOT overridden: the model sizes them (7 / 10 / 10).
 const article = {
   ...defaults(cfg),
+  seats: 40, enclosure: 'partial', climate: 'cool',
   hours_per_year: 1000, average_output_pct: 100, fuel_escalation_pct: 0,
   price_kwh: 0.1407, price_therm: 1.01, price_gal: 2.46,
   cylinder_gal: 4.7, minutes_per_exchange: 10, wage_per_hour: 25,
-  electric_count: 6, natural_gas_count: 4, propane_count: 4,
   electric_purchase: 0, electric_install: 0, electric_maintenance: 0,
   natural_gas_purchase: 0, natural_gas_install: 0, natural_gas_maintenance: 0,
   propane_purchase: 0, propane_install: 0, propane_maintenance: 0,
 };
 
-test('1. COM-CO-01 five-year example: fuel and propane handling reproduce the article', () => {
+test('1. COM-CO-01 five-year example: counts, fuel and propane handling reproduce the article', () => {
   const r = tco(article, cfg);
   assert.equal(r.ok, true);
   const o = Object.fromEntries(r.options.map((x) => [x.id, x]));
-  // Electric: 27 kW × 1,000 h = 27,000 kWh × $0.1407 = $3,799 a year; $18,995 over five
-  near(o.electric.annual_units, 27000, 1e-6, 'electric kWh');
-  near(o.electric.fuel_year1, 3799, 0.5, 'electric a year');
-  near(o.electric.fuel, 18995, 0.5, 'electric five years');
-  // Natural gas: 4 × 0.38 therm × 1,000 h = 1,520 therms × $1.01 = $1,535 a year; $7,676 over five
-  near(o.natural_gas.annual_units, 1520, 1e-6, 'therms');
-  near(o.natural_gas.fuel_year1, 1535, 0.5, 'gas a year');
-  near(o.natural_gas.fuel, 7676, 0.5, 'gas five years');
-  // Propane: 1,661 gal × $2.46 = $4,086 a year; the article multiplies the rounded $4,086 by 5 = $20,430
-  near(o.propane.annual_units, 1661, 0.5, 'gallons');
-  near(o.propane.fuel_year1, 4086, 1, 'propane a year');
-  near(o.propane.fuel, 20430, 5, 'propane five years');
-  // About 353 swaps × 10 min × $25/h = $1,471 a year; $7,354 over five
-  assert.equal(o.propane.handling.exchanges, 353);
-  near(o.propane.handling.per_year, 1471, 0.5, 'handling a year');
-  near(o.propane.handling.total, 7354, 0.5, 'handling five years');
-  // Fuel plus handling: $18,995 / $7,676 / $27,784
-  near(o.electric.total, 18995, 0.5, 'electric total');
-  near(o.natural_gas.total, 7676, 0.5, 'gas total');
-  near(o.propane.total, 27784, 5, 'propane total');
+  assert.equal(r.area, 800);
+  assert.equal([o.electric.count, o.natural_gas.count, o.propane.count].join(), '7,10,10');
+  // Electric: 31.5 kW × 1,000 h = 31,500 kWh × $0.1407 = $4,432 a year; $22,160 over five
+  near(o.electric.annual_units, 31500, 1e-6, 'electric kWh');
+  near(o.electric.fuel_year1, 4432, 0.5, 'electric a year');
+  near(o.electric.fuel, 22160, 0.5, 'electric five years');
+  // Natural gas: 10 × 0.38 therm × 1,000 h = 3,800 therms × $1.01 = $3,838 a year; $19,190 over five
+  near(o.natural_gas.annual_units, 3800, 1e-6, 'therms');
+  near(o.natural_gas.fuel_year1, 3838, 0.5, 'gas a year');
+  near(o.natural_gas.fuel, 19190, 0.5, 'gas five years');
+  // Propane: 4,153 gal × $2.46 = $10,216 a year; $51,082 over five
+  near(o.propane.annual_units, 4153, 0.5, 'gallons');
+  near(o.propane.fuel_year1, 10216, 1, 'propane a year');
+  near(o.propane.fuel, 51082, 5, 'propane five years');
+  // 884 swaps × 10 min × $25/h = $3,683 a year; $18,417 over five
+  assert.equal(o.propane.handling.exchanges, 884);
+  near(o.propane.handling.per_year, 3683, 0.5, 'handling a year');
+  near(o.propane.handling.total, 18417, 0.5, 'handling five years');
+  near(o.propane.total, 69499, 5, 'propane total');
   assert.equal(r.cheapest, 'natural_gas');
   assert.equal(r.most_expensive, 'propane');
 });
-
-test('2. Heater counts come from the area unless overridden: 858 ft² → 6 electric, 4 gas; 40 seats × 15 ft² → 5 and 3', () => {
-  const r = tco({ ...defaults(cfg), basis: 'ft2', area_ft2: 858 }, cfg);
+test('2. Heater counts: overhead electric by area, freestanding gas never above 4 seats a heater', () => {
+  const nominal = { enclosure: 'partial', climate: 'mild' };   // both factors 1.0: the catalogue coverage
+  const r = tco({ ...defaults(cfg), ...nominal, basis: 'ft2', area_ft2: 858 }, cfg);
   const o = Object.fromEntries(r.options.map((x) => [x.id, x]));
-  assert.equal(o.electric.count, 6);
-  assert.equal(o.natural_gas.count, 4);
-  assert.equal(o.propane.count, 4);
-  const s = tco(defaults(cfg), cfg);
-  assert.equal(s.area, 600);
-  assert.deepEqual(s.options.map((x) => x.count), [5, 3, 3]);
+  assert.equal(o.electric.count, 6);                 // 858 ÷ 143 = 6.0
+  assert.equal(o.electric.sized_by, 'area');
+  assert.equal(o.natural_gas.count, 11);             // 858 ÷ 20 ft² = 42.9 seats ÷ 4 = 10.7 → 11 (area alone would say 4)
+  assert.equal(o.natural_gas.sized_by, 'seats');
+  assert.equal(o.propane.count, 11);
+  const s = tco({ ...defaults(cfg), ...nominal }, cfg);
+  assert.equal(s.area, 800);                         // 40 seats × 20 ft²
+  assert.equal(s.options.map((x) => x.count).join(), '6,10,10');
   assert.equal(heaterCount(143.01, 143), 2);
   assert.equal(heaterCount(0, 143), null);
 });
-
 test('3. Config defaults: purchase, install and maintenance are added per heater, flagged as placeholders, and every option names its controls', () => {
-  const r = tco(defaults(cfg), cfg);
+  const r = tco({ ...defaults(cfg), enclosure: 'partial', climate: 'mild' }, cfg);
   const e = r.options.find((x) => x.id === 'electric');
-  // 5 heaters × ($2,500 + $900) + 5 × $25 × 5 + 4.5 × 5 kW × 900 h × $0.1354 × 5
-  const fuel = 4.5 * 5 * 900 * 0.1354 * 5;
-  near(e.total, 5 * 2500 + 5 * 900 + 5 * 25 * 5 + fuel, 1e-6, 'electric total');
+  // 6 heaters × ($2,500 + $900) + 6 × $25 × 5 + 4.5 × 6 kW × 900 h × $0.1354 × 5
+  const fuel = 4.5 * 6 * 900 * 0.1354 * 5;
+  near(e.total, 6 * 2500 + 6 * 900 + 6 * 25 * 5 + fuel, 1e-6, 'electric total');
   assert.ok(r.options.every((x) => x.placeholder_costs), 'placeholder costs are flagged');
   assert.ok(r.options.every((x) => typeof x.controls === 'string' && x.controls.length > 0), 'controls named');
   assert.match(e.controls, /Affinity/);
   // Propane handling is counted from the config's cylinder, minutes and wage.
   const p = r.options.find((x) => x.id === 'propane');
-  const gal = 3 * 38000 / 91500 * 900;
+  const gal = 10 * 38000 / 91500 * 900;
   assert.equal(p.handling.exchanges, Math.round(gal / 4.7));
   near(p.handling.per_year, p.handling.exchanges * 10 / 60 * 15.71, 1e-9, 'handling');
 });
@@ -136,4 +137,12 @@ test('8. Running totals end at the five-year total; a payback year is found wher
     const a = r.options.find((o) => o.id === c.a), b = r.options.find((o) => o.id === c.b);
     assert.ok(a.series[0] > b.series[0] && a.total < b.total && c.year > 0 && c.year <= r.years);
   }
+});
+
+test('9. Sizing follows A03 for overhead heat: 40 seats, partly covered, cool → 7 electric; open and cold → 10; gas stays at 10 (4 seats each)', () => {
+  const r = tco({ ...defaults(cfg), evenings_per_year: 150, hours_per_night: 5 }, cfg);
+  assert.equal(r.input.hours_per_year, 750);
+  assert.equal(r.options.map((x) => x.count).join(), '7,10,10');        // 800 ÷ (143 × 0.85) = 6.6 → 7
+  const cold = tco({ ...defaults(cfg), enclosure: 'open', climate: 'cold' }, cfg);
+  assert.equal(cold.options.map((x) => x.count).join(), '10,10,10');    // 800 ÷ (143 × 0.85 × 0.7) = 9.4 → 10
 });

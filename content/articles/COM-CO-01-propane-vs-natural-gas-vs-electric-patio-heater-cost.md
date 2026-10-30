@@ -7,7 +7,7 @@ audience: [COM]
 stage: [CO]
 cell: COM-CO
 asset: A24
-summary: "A worked five-year cost comparison of propane, natural gas and electric patio heating for a restaurant — fuel, cylinder handling, purchase and install — with every formula shown."
+summary: "A worked five-year cost comparison of propane, natural gas and electric patio heating for a 40-seat restaurant patio — heater count, fuel and cylinder handling — with every formula shown."
 primary_keyword: commercial patio heater cost
 secondary_keywords: [propane vs electric patio heater, natural gas patio heater restaurant]
 ai_prompt: "Is propane or electric cheaper for restaurant patio heaters?"
@@ -19,7 +19,7 @@ owner_review: Blake Petty
 status: draft
 gated: false
 related: [COM-AW-01, COM-IN-01, COM-CO-KB1, COM-PP-01]
-updated: 2026-10-29
+updated: 2026-10-30
 sources:
   - id: s1
     publisher: U.S. Energy Information Administration
@@ -70,9 +70,15 @@ sources:
     url: sources/Bromic_Planning_Guide_US_v1.2_2021.pdf
     supports: "All-in quote should include hardware, utilities, permit fees and installation"
     verified: true
+  - id: s8
+    publisher: Restaurant Furniture (NAFEM chart)
+    title: "Restaurant seating capacity guide"
+    url: https://www.restaurant-furniture.com/resources/guides/restaurant-seating-capacity-guide
+    supports: "Space per seat: full-service dining 12–15 ft², fine dining 18–20 ft²; 20 ft² a seat used so tables are not crammed"
+    verified: false
 ---
 
-Per hour of heat, natural gas is usually the cheapest fuel, and propane and electric land close together once you compare cost per square foot heated. Over five years, propane is rarely the cheapest: the fuel costs more per unit of heat than piped gas, and someone has to buy, carry, swap and store the cylinders. Electric avoids fuel handling entirely; natural gas wins on fuel but only where a gas line already reaches the patio.
+For a 40-seat patio, natural gas has the lowest fuel bill, electric runs close behind, and propane costs more than both put together once cylinder handling is counted. Freestanding gas heaters must be sized by seats as well as area, so a propane patio needs more heaters than an electric one, each burning the dearest fuel per unit of heat, and someone has to buy, carry, swap and store the cylinders. Natural gas wins on fuel only where a gas line already reaches the patio.
 
 ## What does each fuel cost per hour?
 
@@ -84,12 +90,12 @@ The formulas, from rates you can check on your own bill:
 
 Rates used here: commercial electricity 14.07¢/kWh (US average, January–May 2026)[^s1]; commercial natural gas $10.45 per thousand cubic feet (US average, January–April 2025)[^s2], which at about 1,036 Btu per cubic foot is roughly $1.01 per therm[^s3]; propane $2.46 per gallon, EIA's residential winter forecast for 2025–26.[^s4] [[VERIFY: 2026 rates — Brian Kim/Finance; commercial propane delivered in exchange cylinders is typically priced well above bulk residential — confirm a supplier quote]]
 
-| Heater | Input | Fuel cost per hour | Approx. coverage | Cost per 100 ft² per hour |
-|---|---|---|---|---|
-| Platinum Smart-Heat Electric 2300W | 2.3 kW | $0.32 | 65–143 ft² | depends on coverage per model |
-| Platinum Smart-Heat Electric 4500W | 4.5 kW | $0.63 | up to 143 ft² | about $0.44 (at 143 ft²) |
-| Tungsten Smart-Heat Freestanding Gas, natural gas | 38,000 BTU/hr | $0.38 | about 215 ft² | about $0.18 |
-| Tungsten Smart-Heat Freestanding Gas, propane | 38,000 BTU/hr | $1.02 | about 215 ft² | about $0.48 |
+| Heater | Input | Fuel cost per hour | Approx. coverage |
+|---|---|---|---|
+| Platinum Smart-Heat Electric 2300W | 2.3 kW | $0.32 | about 65 ft² |
+| Platinum Smart-Heat Electric 4500W | 4.5 kW | $0.63 | up to 143 ft² |
+| Tungsten Smart-Heat Freestanding Gas, natural gas | 38,000 BTU/hr | $0.38 | about 215 ft² |
+| Tungsten Smart-Heat Freestanding Gas, propane | 38,000 BTU/hr | $1.02 | about 215 ft² |
 
 Coverage figures are Bromic's published ranges;[^s6] the per-model figure for each Platinum wattage needs Bromic's coverage table. [[VERIFY: coverage per Platinum wattage — Mike Clifford]] Natural gas is not one product here: a freestanding heater on natural gas needs a fixed gas connection. [[VERIFY: natural gas connection method for Tungsten Smart-Heat Freestanding Gas — Mike Clifford]]
 
@@ -106,21 +112,21 @@ Labour and storage. Propane heaters burn through cylinders on busy nights, and t
 
 Illustrative only. Every input below is an assumption for a worked example, not a quote or a benchmark. Run your own in the [five-year cost model](asset:A20).
 
-**Assumptions:** a patio of about 860 ft²; 1,000 operating hours per heater per year (for example, 5 hours a night for 200 nights); the rates above, held flat for five years; propane in cylinders of about 4.7 usable gallons, 10 minutes per swap, $25 per hour loaded labour.
+**Assumptions:** 40 seats at 20 ft² a seat = 800 ft²,[^s8] partly covered, cool evenings (a combined factor of 0.85); 1,000 operating hours per heater per year (for example, 5 hours a night for 200 nights); the rates above, held flat for five years; propane in cylinders of about 4.7 usable gallons, 10 minutes per swap, $25 per hour loaded labour. Your bill, zones and dimming lower every figure below.
 
-- **Electric:** 6 × Platinum 4500W (6 × up to 143 ft²). 27 kW × 1,000 h = 27,000 kWh × $0.1407 = **$3,799 a year**.
-- **Natural gas:** 4 × Tungsten Freestanding Gas (4 × about 215 ft²). 4 × 0.38 therm × 1,000 h = 1,520 therms × $1.01 = **$1,535 a year**.
-- **Propane:** the same 4 heaters. 4 × 0.415 gal × 1,000 h = 1,661 gal × $2.46 = **$4,086 a year**, plus about 353 swaps × 10 min × $25/h = **$1,471 a year** in labour.
+- **Electric:** 800 ÷ (143 × 0.85) = 6.6 → 7 × Platinum 4500W, with Affinity Smart-Heat On/Off or Dimmer controls and a wall switch. 31.5 kW × 1,000 h = 31,500 kWh × $0.1407 = **$4,432 a year**.
+- **Natural gas:** 10 × Tungsten Freestanding Gas. By area 800 ÷ (215 × 0.85) = 4.4 would be 5, but guests block a freestanding heater's radiant heat, so it serves no more than 4 seats: 40 ÷ 4 = 10. 10 × 0.38 therm × 1,000 h = 3,800 therms × $1.01 = **$3,838 a year**.
+- **Propane:** the same 10 heaters. 10 × 0.4153 gal × 1,000 h = 4,153 gal × $2.46 = **$10,216 a year**, plus 4,153 ÷ 4.7 = 884 swaps × 10 min = 147 hours × $25/h = **$3,683 a year** in labour.
 
 | Five-year cost (illustrative) | Electric | Natural gas | Propane |
 |---|---|---|---|
 | Heaters and controls (purchase) | [[VERIFY: price list — Blake Petty]] | [[VERIFY: price list — Blake Petty]] | [[VERIFY: price list — Blake Petty]] |
 | Installation and permits | [[VERIFY: circuit and install cost — Blake Petty]] | [[VERIFY: gas line extension cost — Blake Petty]] | [[VERIFY: storage cage or cabinet cost — Blake Petty]] |
-| Fuel, 5 years | $18,995 | $7,676 | $20,430 |
-| Cylinder handling labour, 5 years | none | none | $7,354 |
-| Fuel plus handling, 5 years | $18,995 | $7,676 | $27,784 |
+| Fuel, 5 years | $22,160 | $19,190 | $51,082 |
+| Cylinder handling labour, 5 years | none | none | $18,417 |
+| Fuel plus handling, 5 years | $22,160 | $19,190 | $69,499 |
 
-On these assumptions, propane costs more over five years than electric before you count purchase and install — and natural gas costs least to run, if the line is there. A gas line run across a patio, or a new electrical circuit, can change the answer, which is why Bromic's guidance is to quote all-in: hardware, utilities, permit fees and installation.[^s7]
+On these assumptions, natural gas costs least to run if the line is there, electric costs about 15% more, and propane costs more than three times electric before purchase and install are counted. A gas line run across a patio, or a new electrical circuit, can change the answer, which is why Bromic's guidance is to quote all-in: hardware, utilities, permit fees and installation.[^s7]
 
 ![Covered outdoor kitchen and bar with flush ceiling heaters](img:l-010-067)
 
@@ -140,20 +146,21 @@ Wi-Fi and app features — zones, schedules and timers — require compatible Af
 ## Key takeaways
 
 - Compare five-year cost, not purchase price.
-- Natural gas is usually the cheapest fuel per hour; it needs a line to the patio.
-- Propane carries labour, storage and code costs the fuel price does not show.
-- Electric and propane land close on fuel per square foot; electric has no handling.
+- Natural gas has the lowest fuel bill; it needs a line to the patio.
+- Electric runs close behind natural gas, with no fuel handling.
+- Size freestanding heaters by seats too: no more than 4 seats a heater.
+- Propane costs the most to run, and carries labour, storage and code costs the fuel price does not show.
 - Zones and schedules through compatible Affinity controls cut every fuel's bill.
 
 ## FAQ
 
 ### Is propane or electric cheaper for restaurant patio heaters?
 
-Over five years, usually electric, once cylinder handling and storage are counted. On fuel alone per square foot they are close; see the worked example above and rerun it with your rates.
+Electric, by a wide margin. For 40 seats, 7 electric heaters cost $4,432 a year in power; the 10 freestanding propane heaters the same seats need cost $10,216 in fuel plus $3,683 in cylinder swaps. Rerun it with your rates.
 
 ### Is natural gas the cheapest option?
 
-Usually per hour, yes. Whether it is cheapest overall depends on the cost of running a gas line to the patio and the permits that go with it.
+To run, yes: $3,838 a year against $4,432 for electric in the example above. Whether it is cheapest overall depends on the cost of running a gas line to the patio and the permits that go with it.
 
 ### How much does it cost to run a commercial patio heater per hour?
 
@@ -176,3 +183,4 @@ Compare your own numbers — run the five-year cost model.
 [^s5]: NFPA 58, Liquefied Petroleum Gas Code, Chapter 8.
 [^s6]: Bromic Heating, Lookbook 2026.
 [^s7]: Bromic Heating, Planning Guide US v1.2, 2021.
+[^s8]: Restaurant Furniture, seating capacity guide (NAFEM space-planning chart).

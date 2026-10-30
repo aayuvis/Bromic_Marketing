@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Five-year cost of patio heating: electric, natural gas, propane | Bromic Heating</title>
-<meta name="description" content="Pick your venue, size, state and season. See five years of owning and running electric, natural gas and propane patio heaters, with your state's energy prices and the formula shown.">
+<meta name="description" content="Seats, cover, state and hours: see how many electric, natural gas or propane heaters a patio needs and what each costs over five years.">
 <style>
 /* @inline:begin ../_shared/brand.css */
 /* Bromic tool styling — shared by A03, A20, A21. Inlined into each index.html by tools/build-config.mjs.
@@ -220,6 +220,14 @@ details.tune .body { padding: 0 22px 22px; display: grid; gap: 18px; }
 .empty { padding: 30px 6px; text-align: center; color: var(--dkt2); }
 
 #teaser { display: grid; gap: 22px; }
+.enclosures { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.tile.enc { align-items: center; gap: 6px; padding: 14px 8px 12px; text-align: center; }
+.tile.enc svg { width: 64px; height: 44px; }
+.tile.enc .t { font-size: .86rem; font-weight: 600; }
+.tile.enc .ln { stroke: var(--ink); stroke-width: 1.6; fill: none; }
+.tile.enc .gd { stroke: var(--steel); stroke-width: 1.2; }
+.tile.enc .hf { fill: var(--flame); }
+#price-line b { font-weight: 600; color: var(--ink); }
 #teaser > * { margin: 0; }
 .below { margin-top: 28px; }
 .legend { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 8px 0 0; padding: 0; list-style: none; font-size: .85rem; color: var(--steel-ink); }
@@ -264,106 +272,68 @@ td.total { font-weight: 600; }
   <header class="masthead">
     <span class="eyebrow">Five-year cost model</span>
     <h1>What will patio heating cost you over five years?</h1>
-    <p class="lede">Pick your venue, its size, your state and when you heat. We fill in your state's energy prices and compare electric, natural gas and propane on everything you will pay: heaters, installation, fuel, service and the staff time it takes to swap cylinders.</p>
+    <p class="lede">Four quick answers: seats, cover, state and how much you heat. We size the heaters, fill in your state's energy prices, and compare electric, natural gas and propane on what you will pay: heaters, installation, fuel and the staff time it takes to swap cylinders.</p>
   </header>
 
   <div class="layout">
-    <form id="inputs" class="steps inputs" novalidate aria-label="Your venue">
+    <form id="inputs" class="steps inputs" novalidate aria-label="Your patio">
 
       <section class="step" aria-labelledby="s1">
-        <div class="step-h"><span class="n">01</span><h2 id="s1">Your venue</h2><span class="aside">Sets a starting point you can change</span></div>
-        <div class="tiles venues" id="venue-tiles" role="radiogroup" aria-labelledby="s1"></div>
+        <div class="step-h"><span class="n">01</span><h2 id="s1">How many heated seats?</h2><span class="aside" id="area-aside"></span></div>
+        <div class="dim" data-field="seats">
+          <div class="row"><span class="num"><input id="seats" name="seats" type="number" inputmode="numeric" min="1" step="1" aria-label="Heated seats"></span>
+            <input type="range" min="4" max="300" step="2" data-for="seats" aria-label="Heated seats"></div>
+          <span class="hint" id="seats-hint"></span>
+          <span class="err" data-err="seats"></span>
+        </div>
       </section>
 
       <section class="step" aria-labelledby="s2">
-        <div class="step-h"><span class="n">02</span><h2 id="s2">How big</h2><span class="aside" id="area-aside"></span></div>
-        <div class="chips basis" role="radiogroup" aria-label="Size by">
-          <label class="chip"><input type="radio" name="basis" value="seats" checked> Heated seats</label>
-          <label class="chip"><input type="radio" name="basis" value="ft2"> Square feet</label>
-        </div>
-        <div class="dims">
-          <div class="dim" data-field="seats" id="seats-field">
-            <label class="k" for="seats">Heated seats</label>
-            <div class="row"><span class="num"><input id="seats" name="seats" type="number" inputmode="numeric" min="1" step="1"></span>
-              <input type="range" min="4" max="300" step="2" data-for="seats" aria-label="Heated seats"></div>
-            <span class="hint" id="seats-hint"></span>
-            <span class="err" data-err="seats"></span>
-          </div>
-          <div class="dim" data-field="area_ft2" id="area-field" hidden>
-            <label class="k" for="area_ft2">Heated area</label>
-            <div class="row"><span class="num" data-u="ft²"><input id="area_ft2" name="area_ft2" type="number" inputmode="decimal" min="10" step="10"></span>
-              <input type="range" min="50" max="5000" step="25" data-for="area_ft2" aria-label="Heated area"></div>
-            <span class="err" data-err="area_ft2"></span>
-          </div>
-        </div>
+        <div class="step-h"><span class="n">02</span><h2 id="s2">The patio</h2></div>
+        <div class="tiles enclosures" id="enclosure-tiles" role="radiogroup" aria-label="Overhead cover"></div>
+        <p class="hint" style="margin:14px 0 6px">How cold are the evenings you heat?</p>
+        <div class="chips" id="climate-chips" role="radiogroup" aria-label="Climate"></div>
       </section>
 
       <section class="step" aria-labelledby="s3">
         <div class="step-h"><span class="n">03</span><h2 id="s3">Where you are</h2></div>
-        <label class="k" for="state">State</label>
-        <select id="state" class="big" style="margin-top:6px"></select>
-        <div class="prices">
-          <div class="price" data-field="price_kwh"><span class="k"><span>Electricity</span></span>
-            <span class="row">$<input id="price_kwh" name="price_kwh" type="number" inputmode="decimal" min="0" step="0.001" aria-label="Electricity price, dollars per kWh"><span class="u">/ kWh</span></span>
-            <span class="from" id="from-kwh"></span><span class="err" data-err="price_kwh"></span></div>
-          <div class="price" data-field="price_therm"><span class="k"><span>Natural gas</span></span>
-            <span class="row">$<input id="price_therm" name="price_therm" type="number" inputmode="decimal" min="0" step="0.01" aria-label="Natural gas price, dollars per therm"><span class="u">/ therm</span></span>
-            <span class="from" id="from-therm"></span><span class="err" data-err="price_therm"></span></div>
-          <div class="price" data-field="price_gal"><span class="k"><span>Propane</span></span>
-            <span class="row">$<input id="price_gal" name="price_gal" type="number" inputmode="decimal" min="0" step="0.01" aria-label="Propane price, dollars per gallon"><span class="u">/ gal</span></span>
-            <span class="from" id="from-gal"></span><span class="err" data-err="price_gal"></span></div>
-        </div>
-        <p class="hint" id="price-src" style="margin:10px 0 0"></p>
+        <select id="state" class="big" aria-label="State"></select>
+        <p class="hint" id="price-line" style="margin:10px 0 0"></p>
       </section>
 
       <section class="step" aria-labelledby="s4">
-        <div class="step-h"><span class="n">04</span><h2 id="s4">When you heat</h2><span class="aside" id="hours-aside"></span></div>
-        <div class="months" id="months" role="group" aria-label="Months you heat"></div>
-        <input type="hidden" name="months">
-        <span class="err" data-err="months"></span>
-        <div class="dims">
-          <div class="dim" data-field="nights_per_week">
-            <label class="k" for="nights_per_week">Days a week</label>
-            <div class="row"><span class="num"><input id="nights_per_week" name="nights_per_week" type="number" inputmode="numeric" min="1" max="7" step="1"></span>
-              <input type="range" min="1" max="7" step="1" data-for="nights_per_week" aria-label="Days a week"></div>
-            <span class="err" data-err="nights_per_week"></span>
+        <div class="step-h"><span class="n">04</span><h2 id="s4">How much you heat</h2><span class="aside" id="hours-aside"></span></div>
+        <div class="dims" style="margin-top:0">
+          <div class="dim" data-field="evenings_per_year">
+            <label class="k" for="evenings_per_year">Evenings a year</label>
+            <div class="row"><span class="num"><input id="evenings_per_year" name="evenings_per_year" type="number" inputmode="numeric" min="1" max="366" step="1"></span>
+              <input type="range" min="20" max="365" step="5" data-for="evenings_per_year" aria-label="Evenings a year"></div>
+            <span class="err" data-err="evenings_per_year"></span>
           </div>
           <div class="dim" data-field="hours_per_night">
-            <label class="k" for="hours_per_night">Heater hours a day</label>
+            <label class="k" for="hours_per_night">Hours an evening</label>
             <div class="row"><span class="num" data-u="h"><input id="hours_per_night" name="hours_per_night" type="number" inputmode="decimal" min="0.5" max="24" step="0.5"></span>
-              <input type="range" min="1" max="14" step="0.5" data-for="hours_per_night" aria-label="Heater hours a day"></div>
+              <input type="range" min="1" max="12" step="0.5" data-for="hours_per_night" aria-label="Hours an evening"></div>
             <span class="err" data-err="hours_per_night"></span>
           </div>
         </div>
       </section>
 
       <details class="tune" id="tune">
-        <summary><span class="step-h" style="margin:0"><span class="n">05</span></span><h2>Fine-tune</h2><span class="aside">Costs, dimming, cylinders</span></summary>
+        <summary><h2>Use your own numbers</h2><span class="aside">Prices, heater counts, costs</span></summary>
         <div class="body">
-          <div class="dims" style="margin-top:0">
-            <div class="dim" data-field="average_output_pct">
-              <label class="k" for="average_output_pct">Average output</label>
-              <div class="row"><span class="num" data-u="%"><input id="average_output_pct" name="average_output_pct" type="number" inputmode="decimal" min="1" max="100" step="1"></span>
-                <input type="range" min="33" max="100" step="1" data-for="average_output_pct" aria-label="Average output"></div>
-              <span class="hint">100 = full output whenever on. Dimming with Affinity controls lowers it (electric only).</span>
-              <span class="err" data-err="average_output_pct"></span>
-            </div>
-            <div class="dim" data-field="fuel_escalation_pct">
-              <label class="k" for="fuel_escalation_pct">Fuel prices change a year</label>
-              <div class="row"><span class="num" data-u="%"><input id="fuel_escalation_pct" name="fuel_escalation_pct" type="number" inputmode="decimal" min="-20" max="50" step="0.5"></span>
-                <input type="range" min="-5" max="10" step="0.5" data-for="fuel_escalation_pct" aria-label="Fuel price change a year"></div>
-              <span class="hint">0 holds today's prices flat. No forecast is applied.</span>
-              <span class="err" data-err="fuel_escalation_pct"></span>
-            </div>
+          <div class="prices">
+            <div class="price" data-field="price_kwh"><span class="k"><span>Electricity</span></span>
+              <span class="row">$<input id="price_kwh" name="price_kwh" type="number" inputmode="decimal" min="0" step="0.001" aria-label="Electricity price, dollars per kWh"><span class="u">/ kWh</span></span>
+              <span class="err" data-err="price_kwh"></span></div>
+            <div class="price" data-field="price_therm"><span class="k"><span>Natural gas</span></span>
+              <span class="row">$<input id="price_therm" name="price_therm" type="number" inputmode="decimal" min="0" step="0.01" aria-label="Natural gas price, dollars per therm"><span class="u">/ therm</span></span>
+              <span class="err" data-err="price_therm"></span></div>
+            <div class="price" data-field="price_gal"><span class="k"><span>Propane</span></span>
+              <span class="row">$<input id="price_gal" name="price_gal" type="number" inputmode="decimal" min="0" step="0.01" aria-label="Propane price, dollars per gallon"><span class="u">/ gal</span></span>
+              <span class="err" data-err="price_gal"></span></div>
           </div>
-          <fieldset>
-            <legend class="k">Propane cylinders</legend>
-            <div class="cols-3">
-              <div class="dim" data-field="cylinder_gal"><label class="k" for="cylinder_gal">Usable gallons a cylinder</label><span class="num" data-u="gal" style="flex:none"><input id="cylinder_gal" name="cylinder_gal" type="number" inputmode="decimal" min="0.5" step="0.1"></span><span class="err" data-err="cylinder_gal"></span></div>
-              <div class="dim" data-field="minutes_per_exchange"><label class="k" for="minutes_per_exchange">Staff minutes a swap</label><span class="num" data-u="min" style="flex:none"><input id="minutes_per_exchange" name="minutes_per_exchange" type="number" inputmode="numeric" min="0" step="1"></span><span class="hint">Swap, leak check, storage, paperwork. <span class="placeholder-tag" style="margin:0">Placeholder</span></span><span class="err" data-err="minutes_per_exchange"></span></div>
-              <div class="dim" data-field="wage_per_hour"><label class="k" for="wage_per_hour">Staff wage</label><span class="num" data-u="$/h" style="flex:none"><input id="wage_per_hour" name="wage_per_hour" type="number" inputmode="decimal" min="0" step="0.25"></span><span class="hint">BLS median, before payroll costs. Use your loaded rate.</span><span class="err" data-err="wage_per_hour"></span></div>
-            </div>
-          </fieldset>
+          <p class="hint" id="price-src" style="margin:0"></p>
           <div id="option-sets"></div>
         </div>
       </details>
@@ -419,12 +389,12 @@ const CONFIG = {
   },
   "space": {
     "ft2_per_seat": {
-      "value": 15,
-      "unit": "ft² of heated patio per seat",
-      "source": "Rule-of-thumb placeholder for full-service patio dining; no published source read",
+      "value": 20,
+      "unit": "ft² of heated patio a seat, aisles and breathing room included",
+      "source": "NAFEM space-planning chart as published in the Restaurant Furniture seating capacity guide (https://www.restaurant-furniture.com/resources/guides/restaurant-seating-capacity-guide): full-service dining 12–15 ft² a seat, fine dining 18–20. The top of the range is used so tables are not crammed (owner, 30 Oct 2026)",
       "verified": false,
-      "verify": "[[VERIFY: patio ft² per seat to use (and source) — Blake Petty]]",
-      "owner": "Blake Petty"
+      "verify": "[[VERIFY: open the NAFEM chart itself and confirm the 18–20 ft² fine-dining figure — Brian Kim]]",
+      "owner": "Brian Kim"
     },
     "default_seats": {
       "value": 40,
@@ -466,6 +436,22 @@ const CONFIG = {
       "source": "Default: flat prices; no forecast applied",
       "verified": false,
       "verify": "[[VERIFY: whether to apply an EIA STEO price outlook — Brian Kim/Finance]]",
+      "owner": "Brian Kim"
+    },
+    "evenings_per_year": {
+      "value": 150,
+      "unit": "evenings a year the heaters run",
+      "source": "Form default only: the 900-hour placeholder (6 hours × 150 nights) as evenings",
+      "verified": false,
+      "verify": "[[VERIFY: default heated evenings a year — Brian Kim]]",
+      "owner": "Brian Kim"
+    },
+    "hours_per_evening": {
+      "value": 5,
+      "unit": "heater hours an evening",
+      "source": "Form default only",
+      "verified": false,
+      "verify": "[[VERIFY: default heated hours an evening — Brian Kim]]",
       "owner": "Brian Kim"
     }
   },
@@ -640,6 +626,13 @@ const CONFIG = {
         "verified": false,
         "verify": "[[VERIFY: annual service per gas heater — Blake Petty]]",
         "owner": "Blake Petty"
+      },
+      "max_seats_per_heater": {
+        "value": 4,
+        "unit": "seats a freestanding heater can warm",
+        "source": "Owner rule (Aayush Vishnoi, 30 Oct 2026): guests block the radiant heat of a freestanding heater, so one heater warms four seats at most. Consistent with a patio-heater specialist's buyer guide that seating needs close to one heater per guest (https://www.gasoutdoorpatioheaters.com/restaurant-patio-heaters/)",
+        "verified": true,
+        "owner": "Aayush Vishnoi"
       }
     },
     {
@@ -687,6 +680,13 @@ const CONFIG = {
         "verified": false,
         "verify": "[[VERIFY: annual service per propane heater — Blake Petty]]",
         "owner": "Blake Petty"
+      },
+      "max_seats_per_heater": {
+        "value": 4,
+        "unit": "seats a freestanding heater can warm",
+        "source": "Owner rule (Aayush Vishnoi, 30 Oct 2026): guests block the radiant heat of a freestanding heater, so one heater warms four seats at most. Consistent with a patio-heater specialist's buyer guide that seating needs close to one heater per guest (https://www.gasoutdoorpatioheaters.com/restaurant-patio-heaters/)",
+        "verified": true,
+        "owner": "Aayush Vishnoi"
       }
     }
   ],
@@ -890,7 +890,84 @@ const CONFIG = {
     "natural_gas": "w-tung-port",
     "propane": "w-tung-port"
   },
-  "prices_note": "State prices come from state-prices.json (scripts/eia_prices.py, EIA). The prices block above is the fallback when no state data loads."
+  "prices_note": "State prices come from state-prices.json (scripts/eia_prices.py, EIA). The prices block above is the fallback when no state data loads.",
+  "enclosure": {
+    "open": {
+      "label": "Open",
+      "hint": "No roof over the heated area.",
+      "factor": {
+        "value": 0.85,
+        "unit": "× nominal coverage",
+        "source": "Assumption: no overhead cover, so no 'heat cloud' and more wind exposure (Planning Guide v1.2 Step 01, qualitative only)",
+        "verified": false,
+        "verify": "[[VERIFY: coverage derate for fully open spaces — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    "partial": {
+      "label": "Partially covered",
+      "hint": "A pergola, umbrella or part roof over some of the area.",
+      "factor": {
+        "value": 1,
+        "unit": "× nominal coverage",
+        "source": "Assumption: Lookbook coverage treated as the partially covered reference case",
+        "verified": false,
+        "verify": "[[VERIFY: which setting the Lookbook coverage figures assume — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    "covered": {
+      "label": "Covered",
+      "hint": "A solid roof, with walls on some sides.",
+      "factor": {
+        "value": 1.1,
+        "unit": "× nominal coverage",
+        "source": "Assumption: a cover traps a 'heat cloud' that adds a convective boost (Planning Guide v1.2 Step 01, qualitative only)",
+        "verified": false,
+        "verify": "[[VERIFY: coverage uplift for covered spaces — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    }
+  },
+  "climate": {
+    "mild": {
+      "label": "Mild",
+      "hint": "Evenings you heat are usually above about 50°F.",
+      "factor": {
+        "value": 1,
+        "unit": "× coverage",
+        "source": "Assumption. Planning Guide v1.2 Step 05 says colder states may need more heaters for the same space (its example: 2 heaters in California, 3 in Massachusetts for 20 × 10 ft)",
+        "verified": false,
+        "verify": "[[VERIFY: climate derate factors and the temperature bands that define them — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    "cool": {
+      "label": "Cool",
+      "hint": "Evenings you heat are usually about 40–50°F.",
+      "factor": {
+        "value": 0.85,
+        "unit": "× coverage",
+        "source": "Assumption (see mild)",
+        "verified": false,
+        "verify": "[[VERIFY: climate derate factors — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    },
+    "cold": {
+      "label": "Cold",
+      "hint": "Evenings you heat are often below about 40°F.",
+      "factor": {
+        "value": 0.7,
+        "unit": "× coverage",
+        "source": "Assumption (see mild). Note: the Planning Guide's example (2 gas heaters for 200 ft² in California) implies a layout or overlap allowance this tool does not model",
+        "verified": false,
+        "verify": "[[VERIFY: climate derate factors — Mike Clifford]]",
+        "owner": "Mike Clifford"
+      }
+    }
+  },
+  "sizing_note": "Heater counts use the A03 method: seats × ft² a seat ÷ (coverage × enclosure × climate), rounded up. Enclosure and climate factors are copied from tools/A03-sizing/config.json; change them there and here together."
 };
 /* @inline:end config.json */
 
@@ -933,6 +1010,7 @@ const BASES = ['seats', 'ft2'];
 function defaults(cfg) {
   const d = {
     basis: 'seats',
+    enclosure: 'partial', climate: 'cool',
     seats: val(cfg.space.default_seats),
     area_ft2: val(cfg.space.default_ft2),
     hours_per_year: val(cfg.operation.hours_per_year),
@@ -962,6 +1040,8 @@ function normalise(raw, cfg) {
   const r = { ...d, ...raw };
   const errors = {};
   const input = { basis: BASES.includes(r.basis) ? r.basis : 'seats' };
+  input.enclosure = cfg.enclosure && cfg.enclosure[r.enclosure] ? r.enclosure : 'partial';
+  input.climate = cfg.climate && cfg.climate[r.climate] ? r.climate : 'cool';
   const need = (k, min, max, msg) => {
     const n = toNum(r[k]);
     if (!Number.isFinite(n) || n < min || n > max) errors[k] = msg;
@@ -970,7 +1050,12 @@ function normalise(raw, cfg) {
   if (input.basis === 'seats') { need('seats', 1, 5000, 'Enter seats from 1 to 5,000.'); input.area_ft2 = toNum(r.area_ft2); }
   else { need('area_ft2', 10, 100000, 'Enter an area from 10 to 100,000 ft².'); input.seats = toNum(r.seats); }
   // Season mode: months as a 12-character string of 0/1, with nights a week and hours a night, sets the hours a year.
-  if (typeof r.months === 'string' && /^[01]{12}$/.test(r.months)) {
+  // Simple mode: evenings a year × hours an evening.
+  if (raw.evenings_per_year != null && raw.evenings_per_year !== '') {
+    need('evenings_per_year', 1, 366, 'Enter 1 to 366 evenings a year.');
+    need('hours_per_night', 0.5, 24, 'Enter 0.5 to 24 hours an evening.');
+    if (!errors.evenings_per_year && !errors.hours_per_night) input.hours_per_year = Math.round(input.evenings_per_year * input.hours_per_night);
+  } else if (typeof r.months === 'string' && /^[01]{12}$/.test(r.months)) {
     input.months = [...r.months].map((c) => c === '1');
     need('nights_per_week', 1, 7, 'Choose 1 to 7 nights a week.');
     need('hours_per_night', 0.5, 24, 'Enter 0.5 to 24 hours a night.');
@@ -1041,9 +1126,18 @@ function tco(rawInput, cfg) {
   const years = val(cfg.tool.years);
   const area = input.basis === 'seats' ? input.seats * val(cfg.space.ft2_per_seat) : input.area_ft2;
 
+  // Coverage is derated for how open the patio is and how cold the evenings are: the A03 sizing method.
+  const derate = (cfg.enclosure ? val(cfg.enclosure[input.enclosure].factor) : 1) * (cfg.climate ? val(cfg.climate[input.climate].factor) : 1);
   const options = cfg.options.map((o) => {
-    const coverage = val(o.coverage_ft2);
-    const sized = heaterCount(area, coverage);
+    const nominal = val(o.coverage_ft2);
+    const coverage = Math.round(nominal * derate * 10) / 10;
+    // A freestanding heater warms a few seats at most (guests block its heat): never fewer than seats ÷ that cap.
+    const seats = input.basis === 'seats' ? input.seats : area / val(cfg.space.ft2_per_seat);
+    const byArea = heaterCount(area, coverage);
+    const cap = o.max_seats_per_heater ? val(o.max_seats_per_heater) : null;
+    const bySeats = cap ? Math.ceil(seats / cap - 1e-9) : 0;
+    const sized = Math.max(byArea || 0, bySeats) || null;
+    const sized_by = bySeats > (byArea || 0) ? 'seats' : 'area';
     const count = input[`${o.id}_count`] ?? sized;
     const h = hourly(o, count, input, cfg);
     const annualUnits = h.units * input.hours_per_year;
@@ -1067,7 +1161,7 @@ function tco(rawInput, cfg) {
     }
     return {
       id: o.id, label: o.label, fuel: o.fuel, model: o.model, controls: o.controls,
-      coverage_ft2: coverage, count, sized_count: sized, count_overridden: input[`${o.id}_count`] != null,
+      coverage_ft2: coverage, coverage_nominal: nominal, count, sized_count: sized, sized_by, seats_per_heater_cap: cap, count_overridden: input[`${o.id}_count`] != null,
       rating: o.fuel === 'electric' ? `${val(o.input_kw)} kW` : `${val(o.input_btu).toLocaleString('en-US')} BTU/hr`,
       per_hour: h.cost, annual_units: annualUnits, unit: h.unit, fuel_year1: fuelYear1, fuel,
       handling, purchase, install, maintenance, total, series,
@@ -1087,7 +1181,7 @@ function tco(rawInput, cfg) {
     }
   }
   return {
-    ok: true, input, years, area: Math.round(area * 10) / 10, options, crossovers,
+    ok: true, input, years, area: Math.round(area * 10) / 10, options, crossovers, derate,
     cheapest: ranked[0].id, most_expensive: ranked[ranked.length - 1].id,
     spread: ranked[ranked.length - 1].total - ranked[0].total,
   };
@@ -1318,40 +1412,41 @@ function optionSets() {
         ${f(o.id, 'count', 'Heaters', `<span id="${o.id}-sized"></span>`, 1)}
         ${f(o.id, 'purchase', 'Purchase, each ($)', '<span class="placeholder-tag" style="margin:0">Placeholder</span>', 50)}
         ${f(o.id, 'install', 'Install, each ($)', '', 50)}
-        ${f(o.id, 'maintenance', 'Service a year, each ($)', '', 5)}
       </div>
     </fieldset>`).join('');
 }
 
+const ENC_ICON = {
+  open: '<line class="gd" x1="4" y1="40" x2="60" y2="40"/><circle class="ln" cx="48" cy="12" r="6"/><rect class="hf" x="14" y="26" width="16" height="4"/><line class="ln" x1="22" y1="30" x2="22" y2="40"/>',
+  partial: '<line class="gd" x1="4" y1="40" x2="60" y2="40"/><line class="ln" x1="10" y1="10" x2="10" y2="40"/><line class="ln" x1="54" y1="10" x2="54" y2="40"/><path class="ln" d="M6 10h52M16 10v4M26 10v4M36 10v4M46 10v4"/><rect class="hf" x="24" y="16" width="16" height="4"/>',
+  covered: '<line class="gd" x1="4" y1="40" x2="60" y2="40"/><path class="ln" d="M4 12 32 4l28 8"/><line class="ln" x1="10" y1="11" x2="10" y2="40"/><line class="ln" x1="54" y1="11" x2="54" y2="40"/><rect class="hf" x="24" y="14" width="16" height="4"/>',
+};
+
 function init() {
   optionSets();
-  $('#venue-tiles').innerHTML = CONFIG.venues.map((x) => `<label class="tile venue"><input type="radio" name="venue" value="${x.id}"${x.id === CONFIG.default_venue ? ' checked' : ''}>
-    <span class="pic"><img src="${img(x.image)}" alt="${esc(x.label)}"></span><span class="t">${esc(x.label)}</span></label>`).join('');
-  $('#months').innerHTML = MONTHS.map((m, i) => `<label class="chip"><input type="checkbox" data-month="${i}">${m}</label>`).join('');
-  const states = Object.entries(PRICES.states).sort((a, b) => a[1].name.localeCompare(b[1].name));
-  $('#state').innerHTML = `<option value="US">${esc(PRICES.US.name)}</option>` + states.map(([k, s]) => `<option value="${k}">${esc(s.name)}</option>`).join('');
-
   const d = Logic.defaults(CONFIG);
-  for (const [k, val] of Object.entries(d)) {
-    const el = form.elements[k];
-    if (!el) continue;
-    if (el instanceof RadioNodeList) { for (const r of el) r.checked = r.value === val; } else el.value = val;
-  }
-  applyVenue(CONFIG.default_venue);
+  $('#enclosure-tiles').innerHTML = Object.entries(CONFIG.enclosure).map(([k, e]) => `<label class="tile enc"><input type="radio" name="enclosure" value="${k}"${k === d.enclosure ? ' checked' : ''}>
+    <svg viewBox="0 0 64 44" aria-hidden="true">${ENC_ICON[k] || ''}</svg><span class="t">${esc(e.label)}</span></label>`).join('');
+  $('#climate-chips').innerHTML = Object.entries(CONFIG.climate).map(([k, c]) => `<label class="chip" title="${esc(c.hint)}"><input type="radio" name="climate" value="${k}"${k === d.climate ? ' checked' : ''}>${esc(c.label)}</label>`).join('');
+  const states = Object.entries(PRICES.states).sort((a, b) => a[1].name.localeCompare(b[1].name));
+  $('#state').innerHTML = `<option value="US">${esc(PRICES.US.name)}</option>` + states.map(([k, st]) => `<option value="${k}">${esc(st.name)}</option>`).join('');
+  form.elements.seats.value = d.seats;
+  form.elements.evenings_per_year.value = v(CONFIG.operation.evenings_per_year);
+  form.elements.hours_per_night.value = v(CONFIG.operation.hours_per_evening);
+  for (const o of CONFIG.options) { form.elements[`${o.id}_purchase`].value = d[`${o.id}_purchase`]; form.elements[`${o.id}_install`].value = d[`${o.id}_install`]; }
   applyState('US');
-  $('#seats-hint').innerHTML = `About ${v(CONFIG.space.ft2_per_seat)} ft² of heated patio a seat. <span class="placeholder-tag" style="margin:0">Placeholder</span>`;
+  syncRanges();
   $('#price-src').innerHTML = `Prices from the US Energy Information Administration: ${['kwh', 'therm', 'gal'].map((k) =>
-    `<a href="${esc(PRICES.sources[k].url)}" target="_blank" rel="noopener">${esc(PRICES.sources[k].label)}</a>`).join('; ')}. Type over any price to use your own bill. ${esc(PRICES.sources.gal.note)}`;
+    `<a href="${esc(PRICES.sources[k].url)}" target="_blank" rel="noopener">${esc(PRICES.sources[k].label)}</a>`).join('; ')}. ${esc(PRICES.sources.gal.note)}`;
   $('#foot').innerHTML = `${esc(CONFIG.notes.scope)} ${esc(CONFIG.notes.code)}
     <a href="${esc(CONFIG.notes.code_source_url)}" target="_blank" rel="noopener">NFPA 54</a>.
     Draft ${esc(CONFIG.tool.version)}: figures marked for verification are being confirmed by Bromic.`;
-
   form.addEventListener('input', onInput);
   form.addEventListener('change', onInput);
   $('#state').addEventListener('change', (e) => { applyState(e.target.value); update(); });
   Lead.mountLeadGate({
     el: $('#lead'), assetId: CONFIG.tool.asset_id, matrixCell: CONFIG.tool.matrix_cell,
-    getInputs: () => ({ ...readInputs(), venue: form.elements.venue.value, state: $('#state').value }), defaultSizeUnit: 'seats',
+    getInputs: () => ({ ...readInputs(), state: $('#state').value }), defaultSizeUnit: 'seats',
     onUnlock: () => { unlocked = true; $('#gate').classList.add('hidden'); update(); $('#report').focus(); },
   });
   if ('IntersectionObserver' in window) {
@@ -1362,20 +1457,9 @@ function init() {
 
 function onInput(e) {
   const t = e.target;
-  if (t.name === 'venue') applyVenue(t.value);
   if (t.type === 'range' && t.dataset.for) form.elements[t.dataset.for].value = t.value;
   else if (t.type === 'number') syncRanges();
   update();
-}
-
-function applyVenue(id) {
-  const p = Logic.venueProfile(id, CONFIG);
-  if (!p) return;
-  form.elements.seats.value = p.seats;
-  form.elements.nights_per_week.value = p.nights_per_week;
-  form.elements.hours_per_night.value = p.hours_per_night;
-  form.querySelectorAll('[data-month]').forEach((c) => (c.checked = !!p.months[+c.dataset.month]));
-  syncRanges();
 }
 
 function applyState(code) {
@@ -1383,9 +1467,7 @@ function applyState(code) {
   form.elements.price_kwh.value = p.kwh;
   form.elements.price_therm.value = p.therm;
   form.elements.price_gal.value = p.gal;
-  $('#from-kwh').textContent = p.kwh_from ? 'US average: no state figure' : code === 'US' ? 'US commercial average' : `${p.name}, commercial`;
-  $('#from-therm').textContent = p.therm_from ? 'US average: no state figure' : code === 'US' ? 'US commercial average' : `${p.name}, commercial`;
-  $('#from-gal').textContent = code === 'US' ? 'US residential average' : p.gal_from === 'state' ? `${p.name}, residential` : `${p.gal_from}: EIA does not survey ${p.name}`;
+  $('#price-line').innerHTML = `${code === 'US' ? 'US averages' : esc(p.name)}: electricity <b>$${p.kwh.toFixed(3)}</b>/kWh · natural gas <b>$${p.therm.toFixed(2)}</b>/therm · propane <b>$${p.gal.toFixed(2)}</b>/gal${p.gal_from && p.gal_from !== 'state' && code !== 'US' ? ` (propane: ${esc(p.gal_from)})` : ''}. EIA. Change them under "Use your own numbers".`;
 }
 
 function syncRanges() {
@@ -1395,11 +1477,11 @@ function syncRanges() {
   });
 }
 
+// Six inputs, plus prices and costs the visitor may override. Everything else is a stated default from config.json.
 function readInputs() {
-  form.elements.months.value = [...form.querySelectorAll('[data-month]')].map((c) => (c.checked ? '1' : '0')).join('');
-  const out = {};
+  const out = { basis: 'seats' };
   for (const el of form.elements) {
-    if (!el.name || el.name === 'venue' || el.type === 'range') continue;
+    if (!el.name || el.type === 'range') continue;
     if (el.type === 'radio') { if (el.checked) out[el.name] = el.value; } else out[el.name] = el.value;
   }
   return out;
@@ -1416,8 +1498,6 @@ function showErrors(errors) {
 
 function update() {
   const raw = readInputs();
-  $('#seats-field').hidden = raw.basis !== 'seats';
-  $('#area-field').hidden = raw.basis !== 'ft2';
   const r = Logic.tco(raw, CONFIG);
   showErrors(r.ok ? {} : r.errors);
   if (r.input && Number.isFinite(r.input.hours_per_year)) $('#hours-aside').innerHTML = `<b>${num(r.input.hours_per_year)}</b> heater hours a year`;
@@ -1426,10 +1506,11 @@ function update() {
     peek('', 'Check the highlighted fields');
     return;
   }
-  $('#area-aside').innerHTML = `<b>${num(r.area)}</b> ft² heated`;
+  $('#area-aside').innerHTML = `<b>${num(r.area)}</b> ft² of patio`;
+  $('#seats-hint').textContent = `At ${v(CONFIG.space.ft2_per_seat)} ft² a seat, so tables have room to breathe.`;
   for (const o of r.options) {
     const s = $(`#${o.id}-sized`);
-    if (s) s.textContent = `Blank = ${o.sized_count}, sized at about ${o.coverage_ft2} ft² each.`;
+    if (s) s.textContent = `Blank = ${o.sized_count}, ${o.sized_by === 'seats' ? `${o.seats_per_heater_cap} seats a heater` : `about ${Math.round(o.coverage_ft2)} ft² each`}.`;
   }
   renderTeaser(r);
   if (unlocked) renderReport(r);
@@ -1492,14 +1573,14 @@ function renderTeaser(r) {
         ${o.id === r.cheapest ? '<span class="tag">Lowest cost</span>' : ''}
         <span class="ph"><img src="${img(CONFIG.product_images[o.id])}" alt=""></span>
         <div class="b"><span class="nm"><span class="sw" style="background:${LINE[o.id]}"></span>${esc(o.label)}</span>
-          <span class="ct">${o.count} ${o.count === 1 ? 'heater' : 'heaters'}</span>
+          <span class="ct">${o.count} ${o.count === 1 ? 'heater' : 'heaters'} · ${o.sized_by === 'seats' ? `${o.seats_per_heater_cap} seats each` : `${Math.round(o.coverage_ft2)} ft² each`}</span>
           <span class="tot">${usd(o.total)}</span>
           <span class="pn">${o.per_night != null ? `${usd2(o.per_night)} a day in fuel` : `${usd2(o.per_hour)} an hour in fuel`}</span></div>
       </div>`).join('')}</div>
     <div class="chartbox"><h3>Running total</h3>${lineChart(r)}</div>
-    <div class="chartbox"><h3>What it is made of</h3>${barChart(r)}</div>
     ${pr && pr.handling ? `<div class="callout"><b>${num(pr.handling.exchanges)} cylinder swaps a year</b> for propane: about ${num(pr.handling.hours, 0)} staff hours, ${usd(pr.handling.total)} over ${YEARS} years, plus a fire-code storage cage.</div>` : ''}
-    <p class="note" style="margin:0"><span class="ph-tag">Placeholder</span>Heater, install and service prices are placeholders, not Bromic prices: set yours in Fine-tune. Every option needs its controls to run as a complete system. ${esc(CONFIG.notes.controls.split('. ').slice(1).join('. '))}</p>`;
+    <p class="note" style="margin:0">How we count: overhead electric heaters by area (${v(CONFIG.space.ft2_per_seat)} ft² a seat, coverage adjusted for cover and climate); freestanding gas heaters at no more than four seats each, because guests block their heat.</p>
+    <p class="note" style="margin:0"><span class="ph-tag">Placeholder</span>Heater, install and service prices are placeholders, not Bromic prices: set yours under "Use your own numbers". Every option needs its controls to run as a complete system. ${esc(CONFIG.notes.controls.split('. ').slice(1).join('. '))}</p>`;
   peek(usd(low.total), `${low.label} costs least over ${YEARS} years`);
 }
 
@@ -1525,11 +1606,11 @@ function renderReport(r) {
       [`${o.label}: purchase`, o.purchase_per_heater], [`${o.label}: install`, o.install_per_heater], [`${o.label}: maintenance`, o.maintenance_per_heater_year],
     ]),
   ];
-  const months = r.input.months ? MONTHS.filter((_, i) => r.input.months[i]).join(', ') : null;
+  const months = null;
   el.innerHTML = `
     <h2 id="report-h">Your ${YEARS}-year heating cost report</h2>
     <p>For ${r.input.basis === 'seats' ? `${num(r.input.seats)} heated seats (about ${num(r.area)} ft²)` : `${num(r.area)} ft² of heated patio`} in ${esc(state)},
-      ${months ? `heated ${esc(months)}, ${r.input.nights_per_week} days a week, ${r.input.hours_per_night} hours a day (${num(r.input.hours_per_year)} heater hours a year)` : `${num(r.input.hours_per_year)} heater hours a year`},
+      ${esc(CONFIG.enclosure[r.input.enclosure].label.toLowerCase())}, ${esc(CONFIG.climate[r.input.climate].label.toLowerCase())} evenings, heated ${num(r.input.evenings_per_year || 0)} evenings a year for ${r.input.hours_per_night} hours (${num(r.input.hours_per_year)} heater hours),
       at ${r.input.average_output_pct}% average output${r.input.fuel_escalation_pct ? `, fuel prices changing ${r.input.fuel_escalation_pct}% a year` : ', fuel prices held flat'}.
       Prices: electricity ${usd2(r.input.price_kwh)}/kWh, natural gas ${usd2(r.input.price_therm)}/therm, propane ${usd2(r.input.price_gal)}/gal.</p>
     <div class="report-chart">${lineChart(r)}</div>

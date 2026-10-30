@@ -211,13 +211,19 @@ sources:
     url: https://www.nfpa.org/codes-and-standards/nfpa-58-standard-development/58
     supports: "LP-gas cylinder storage and handling"
     verified: false
+  - id: s28
+    publisher: Restaurant Furniture (NAFEM chart)
+    title: "Restaurant seating capacity guide"
+    url: https://www.restaurant-furniture.com/resources/guides/restaurant-seating-capacity-guide
+    supports: "Space per seat: full-service dining 12–15 ft², fine dining 18–20 ft²; 20 ft² a seat used so tables are not crammed"
+    verified: false
 ---
 
 # The outdoor heating planning guide
 
 *Operator edition, for restaurants, hotels, bars and venues. Extend the Moment.*
 
-At US average 2026 prices, natural gas is the cheapest fuel per square foot heated and propane the dearest, with electric between them. In a 600 ft² example, five years of electric energy costs about the same as propane, before propane's cylinder handling, and about three times natural gas. The formula and a 600 ft² worked example are in Step 3. Purchase price is the smallest number in the decision; energy, handling, controls and the fire code decide it.
+At US average 2026 prices, natural gas is the cheapest fuel per square foot heated and propane the dearest, with electric between them. In a 30-seat, 600 ft² example, five years of propane costs more than twice electric before cylinder handling, because a freestanding heater serves no more than 4 seats; electric costs about three times natural gas. The formula and the worked example are in Step 3. Purchase price is the smallest number in the decision; energy, handling, controls and the fire code decide it.
 
 Outdoor seating is mainstream: in a 2020 National Restaurant Association survey, 74% of full-service operators offered it and 49% were extending the outdoor season, including with tents or patio heaters[^s1].
 
@@ -274,17 +280,17 @@ Rates used, the same as the [A20 TCO model](asset:A20): electricity 13.54¢/kWh 
 | Platinum Gas 39,800 Btu/h, natural gas / propane | 215 ft² | $0.35 / $1.16 |
 | Tungsten Freestanding Gas 38,000 Btu/h, natural gas / propane | 215 ft² | $0.33 / $1.11 |
 
-### Worked example: a 600 ft² terrace, 900 heater hours a year
+### Worked example: 30 seats, 600 ft², 900 heater hours a year
 
-900 hours (6 hours × 150 nights) is the A20 model's placeholder, not a benchmark.
+30 seats × 20 ft² = 600 ft²[^s28], partly covered, cool (factor 0.85; Step 5). 900 hours (6 hours × 150 nights) is the A20 model's placeholder, not a benchmark.
 
 | Option | Heaters | Energy a year | Energy over 5 years | Controls |
 |---|---|---|---|---|
-| Tungsten Electric 6000 W | 600 ÷ 160 → 4 | 4 × 6 kW × 900 h × $0.1354 = $2,925 | $14,623 | 5-channel Affinity Dimmer, one heater per channel; wall switch; app |
-| Platinum Gas 39,800 Btu/h, natural gas | 600 ÷ 215 → 3 | 3 × 0.398 therm × 900 h × $0.87 = $935 | $4,675 | One Affinity On/Off channel (up to 10 gas heaters); wall switch; app |
-| Tungsten Freestanding Gas, propane | 600 ÷ 215 → 3 | 3 × 0.415 gal × 900 h × $2.674 = $2,998 | $14,992, plus handling | [[VERIFY: controls for Tungsten Freestanding Gas — Mike Clifford]] |
+| Tungsten Electric 6000 W | 600 ÷ (160 × 0.85 = 136) = 4.4 → 5 | 5 × 6 kW × 900 h × $0.1354 = $3,656 | $18,279 | 5-channel Affinity Dimmer, one heater per 6 kW channel (5 channels); wall switch; app |
+| Platinum Gas 39,800 Btu/h, natural gas | 600 ÷ (215 × 0.85 = 182.75) = 3.3 → 4 | 4 × 0.398 therm × 900 h × $0.87 = $1,247 | $6,233 | One Affinity On/Off channel (up to 10 gas heaters); wall switch; app |
+| Tungsten Freestanding Gas, propane | larger of 3.3 → 4 by area and 30 seats ÷ 4 = 7.5 → 8 | 8 × 0.4153 gal × 900 h × $2.674 = $7,996 | $39,979, plus handling | [[VERIFY: controls for Tungsten Freestanding Gas — Mike Clifford]] |
 
-Energy only, at full output. Dimming and schedules cut electric energy; propane adds about 1,120 gallons a year to buy, swap and store. Run hardware, installation and handling in the [TCO model](asset:A20). The 2021 guide's per-hour figures used 2021 prices and are retired.
+Energy only, at full output; your bill, schedules and dimming lower it. Propane adds about 2,990 gallons a year, about 636 swaps of a 4.7-gallon cylinder, to buy, swap and store. Run hardware, installation and handling in the [TCO model](asset:A20). The 2021 guide's per-hour figures used 2021 prices and are retired.
 
 | | Electric | Natural gas | Propane |
 |---|---|---|---|
@@ -325,7 +331,7 @@ Energy only, at full output. Dimming and schedules cut electric energy; propane 
 
 ## Step 5. Size it
 
-Heaters per zone = zone ft² ÷ coverage, rounded up; add one for exposed or cold sites[^s3].
+Heaters per zone = zone ft² ÷ (coverage × cover factor × climate factor), rounded up. Cover: open 0.85, partly covered 1.0, covered 1.1. Climate: mild (above about 50°F) 1.0, cool (about 40–50°F) 0.85, cold (often below about 40°F) 0.7. Freestanding heaters also serve no more than 4 seats each, because guests block their radiant heat: take the larger of the two counts. Without a seat count, seats = ft² ÷ 20[^s28]. [[VERIFY: cover and climate factors — Mike Clifford]]
 
 | Heater | Coverage per heater |
 |---|---|

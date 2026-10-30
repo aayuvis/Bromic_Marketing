@@ -11,9 +11,10 @@ test('1. 20 × 12 ft, partially covered, mild, any heater: counts per model, clo
   const r = size(base, cfg);
   assert.equal(r.ok, true);
   assert.equal(r.area, 240);
-  // 240 ft² ÷ 215 (Tungsten Freestanding Gas, factors 1.0) = 1.12 → 2; ÷ 143 → 2; ÷ 121 → 2; ÷ 104 → 3; ÷ 65 → 4
+  // 240 ft² ÷ 215 (Tungsten Freestanding Gas, factors 1.0) = 1.12 → 2, raised to 3 by the four-seat rule; ÷ 143 → 2; ÷ 121 → 2; ÷ 104 → 3; ÷ 65 → 4
   const byId = Object.fromEntries(r.options.map((o) => [o.id, o]));
-  assert.equal(byId['tungsten-freestanding-gas'].count, 2);
+  assert.equal(byId['tungsten-freestanding-gas'].count, 3);   // by area 2, but 240 ft² ÷ 20 = 12 seats ÷ 4 = 3 (calculation model)
+  assert.equal(byId['eclipse-freestanding'].count, 3);
   assert.equal(byId['platinum-electric-4500'].count, 2);
   assert.equal(byId['eclipse-electric'].count, 2);
   assert.equal(byId['platinum-electric-3400'].count, 3);
