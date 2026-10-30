@@ -354,3 +354,18 @@ table.data tr:hover td { background: var(--paper); }
 @media (max-width: 640px) { .fb-fab span { display: none; } .fb-fab { padding: 12px; } }
 @media print { .fb-fab, .fb-h, .fb-sel, .fb-link { display: none !important; } }
 .prose code { overflow-wrap: anywhere; word-break: break-word; }
+
+/* downloads */
+.dl-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 18px; }
+.dl-card { background: var(--card); border: 1px solid var(--line); display: flex; flex-direction: column; min-width: 0; }
+.dl-cover { display: block; aspect-ratio: 16 / 10; overflow: hidden; background: var(--paper-2); }
+.dl-cover img { width: 100%; height: 100%; object-fit: cover; }
+.dl-body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+.dl-body h3 { font-size: 19px; line-height: 1.25; }
+.dl-body h3 a { text-decoration: none; }
+.dl-body p { margin: 0; font-size: 13.5px; color: var(--ink-2); }
+.dl-body .btns { margin-top: auto; padding-top: 6px; }
+.dl-strip { display: flex; flex-wrap: wrap; gap: 8px; }
+.dl-chip { display: inline-flex; align-items: center; gap: 8px; background: var(--card); border: 1px solid var(--line); padding: 9px 12px; text-decoration: none; font-size: 13.5px; }
+.dl-chip:hover { border-color: var(--flame); }
+.dl-chip svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 1.8; flex: none; }

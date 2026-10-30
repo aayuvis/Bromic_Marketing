@@ -215,6 +215,10 @@ if (CHECK) process.exit(errors.length ? 1 : 0);
 fs.rmSync(DIST, { recursive: true, force: true });
 fs.mkdirSync(DIST, { recursive: true });
 for (const f of ['index.html', 'styles.css', 'app.js']) fs.copyFileSync(path.join(APP, 'src', f), path.join(DIST, f));
+// cache-busting: a new deploy always loads its own script, data and styles (GitHub Pages lets browsers cache for 10 minutes)
+{ const v = (commit || 'dev') + '-' + Date.parse(HUB.built).toString(36);
+  const ix = path.join(DIST, 'index.html');
+  fs.writeFileSync(ix, fs.readFileSync(ix, 'utf8').replace(/(src|href)="(app\.js|data\.js|styles\.css)"/g, `$1="$2?v=${v}"`)); }
 fs.writeFileSync(path.join(DIST, 'data.js'), 'window.HUB=' + JSON.stringify(HUB) + ';');
 fs.cpSync(path.join(ROOT, 'images', 'library'), path.join(DIST, 'images', 'library'), { recursive: true });
 if (fs.existsSync(path.join(ROOT, 'tools', '_shared'))) fs.cpSync(path.join(ROOT, 'tools', '_shared'), path.join(DIST, 'tools', '_shared'), { recursive: true });

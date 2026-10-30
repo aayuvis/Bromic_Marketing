@@ -105,6 +105,8 @@
       <div class="stat"><span class="label">Open verifications</span><b>${verifies}</b><span class="sub">inline [[VERIFY]] flags</span></div>
       <div class="stat"><span class="label">Image library</span><b>${H.images.length}</b><span class="sub">Bromic-owned</span></div>
     </div>
+    <div class="sec-h"><h2>Download the PDFs</h2><a href="#/downloads">All downloads →</a></div>
+    <div class="dl-strip">${pdfList().map((it) => `<a class="dl-chip" href="pdf/${esc(it.id)}.pdf" download="Bromic-${esc(it.id)}.pdf">${ic.down}<span>${esc(/planning guide/i.test(it.title) ? 'Planning guide · ' + (it.title.split(':')[1] || '').trim().replace(/ edition$/, '') : it.title.split(':')[0])}</span></a>`).join('')}</div>
     <div class="sec-h"><h2>Coverage by audience and lifecycle</h2><a href="#/journey">Open the journey map →</a></div>
     ${matrixGrid()}
     <div class="two" style="margin-top:8px">
@@ -253,7 +255,7 @@
         <td><b style="font:400 16px var(--serif)">${esc(a.name)}</b>${a.provenance === 'proposed' ? '<div class="prov">Proposed — not in the brief</div>' : ''}</td>
         <td>${esc(TYPES[a.type] || a.type)}</td><td>${a.audiences.join(' ')}</td><td>${a.stages.map((s) => STG[s]?.name || s).join(', ')}</td>
         <td>${a.gated ? 'Gated' : 'Open'}</td><td style="text-transform:capitalize">${esc(a.status)}</td><td>${esc(a.owner)}</td>
-        <td>${its.length ? its.map((i) => `<a href="#/item/${esc(i.id)}">${esc(i.id)}</a>`).join('<br>') : '<span class="gap" style="color:var(--flame-ink)">—</span>'}</td></tr>`;
+        <td>${its.length ? its.map((i) => `<a href="#/item/${esc(i.id)}">${esc(i.id)}</a>${hasPdf(i) ? ` · <a href="pdf/${esc(i.id)}.pdf" download="Bromic-${esc(i.id)}.pdf">PDF</a>` : ''}`).join('<br>') : '<span class="gap" style="color:var(--flame-ink)">—</span>'}</td></tr>`;
     }).join('');
     setTimeout(() => id && document.getElementById('a-' + id)?.scrollIntoView({ block: 'center' }), 30);
     return `<div class="ph"><div><span class="label">Build backlog</span><h1>A01–A24</h1><p>Priority 1 first. Draft content is linked; a dash is a gap.</p></div></div>
@@ -329,6 +331,18 @@
       <div class="panel" id="fb-all"><p class="muted" style="margin:0">Loading…</p></div>
       <div class="sec-h"><h2>Open questions</h2></div>
       ${H.openQuestions.map((q, n) => `<details class="oq" ${n === 0 ? 'open' : ''}><summary>${esc(q.name.replace(/-/g, ' '))}</summary>${q.html}</details>`).join('') || '<div class="empty">No open questions logged.</div>'}`;
+  }
+
+  // ---------- downloads: every gated document as a PDF ----------
+  const pdfList = () => H.items.filter(hasPdf).sort((a, b) => (a.id.startsWith('A01') ? 0 : 1) - (b.id.startsWith('A01') ? 0 : 1) || a.id.localeCompare(b.id));
+  const pdfBtn = (it, label = 'Download PDF') => `<a class="btn primary" href="pdf/${esc(it.id)}.pdf" download="Bromic-${esc(it.id)}.pdf">${ic.down}${label}</a>`;
+  function downloadsPage() {
+    const L = pdfList();
+    return `<div class="ph"><div><span class="label">Downloads</span><h1>Reports, guides and kits as PDFs</h1><p>${L.length} documents, rebuilt from the latest content at every update. Each opens with a cover and carries its sources and one next step.</p></div></div>
+      <div class="dl-grid">${L.map((it) => `<article class="dl-card"><a class="dl-cover" href="#/item/${esc(it.id)}">${img(it.hero)}</a>
+        <div class="dl-body"><span class="label">${esc(TYPES[it.type] || it.type)} · ${it.audience.map((a) => esc(AUD[a]?.name || a)).join(', ')}</span>
+        <h3><a href="#/item/${esc(it.id)}">${esc(it.title)}</a></h3>${it.meta_description || it.summary ? `<p>${esc(it.meta_description || it.summary)}</p>` : ''}
+        <div class="btns">${pdfBtn(it)}<a class="btn" href="pdf/${esc(it.id)}.pdf" target="_blank" rel="noopener">${ic.ext}Open</a></div></div></article>`).join('')}</div>`;
   }
 
   // ---------- blog: the live bromic.com/blog, post by post, and what replaces each ----------
@@ -586,7 +600,7 @@
     const tab = { '': 'home', item: 'library', tool: 'tools' }[p] ?? p;
     document.querySelectorAll('.tabs a').forEach((x) => x.toggleAttribute('aria-current', false) || (x.dataset.tab === tab && x.setAttribute('aria-current', 'page')));
     const html = p === '' ? home() : p === 'library' ? library() : p === 'item' ? item(decodeURIComponent(a || '')) : p === 'journey' ? journey(a) : p === 'assets' ? assets(a)
-      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : p === 'cases' ? casesPage(a) : p === 'blog' ? blogPage() : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
+      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : p === 'cases' ? casesPage(a) : p === 'blog' ? blogPage() : p === 'downloads' ? downloadsPage() : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
     view.innerHTML = html;
     const it = p === 'item' && ITEM[a];
     document.title = it ? `${it.title} · Bromic Content Hub` : 'Bromic Content Hub';
