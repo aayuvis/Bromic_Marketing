@@ -37,6 +37,170 @@
   const itemsFor = (pred) => H.items.filter(pred);
   const unverified = (it) => it.sources.filter((s) => !s.verified).length;
 
+  // ---------- regions and languages (data/regions.json, templates/regionalisation.md) ----------
+  const RG = H.regions || { regions: [], default: 'us', languages: { en: 'English' } };
+  const REGION = Object.fromEntries(RG.regions.map((r) => [r.id, r]));
+  const store = { get: (k) => { try { return localStorage.getItem(k); } catch { return null; } }, set: (k, v) => { try { localStorage.setItem(k, v); } catch {} } };
+  const qp = new URLSearchParams(location.search);
+  let region = REGION[qp.get('region')] ? qp.get('region') : REGION[store.get('bromic-hub-region')] ? store.get('bromic-hub-region') : RG.default;
+  let lang = qp.get('lang') || store.get('bromic-hub-lang') || 'en';
+  if (!REGION[region].langs.includes(lang)) lang = REGION[region].langs[0];
+  const R = () => REGION[region];
+  // Keep each item's English, then lay a translation over it in place so every view shows the chosen language.
+  const EN_KEYS = ['title', 'summary', 'dek', 'meta_description', 'cta', 'html', 'blocks', 'markdown', 'file', 'verifies', 'faq', 'words'];
+  for (const it of H.items) { it._en = Object.fromEntries(EN_KEYS.map((k) => [k, it[k]])); it.lang = 'en'; }
+  function applyLang() {
+    const T = (window.HUB_TR || {})[lang] || {};
+    for (const it of H.items) {
+      Object.assign(it, it._en); it.lang = 'en'; it.tr = null;
+      const t = lang !== 'en' && T[it.id];
+      if (t) { for (const k of EN_KEYS) if (t[k] != null && t[k] !== '') it[k] = t[k]; it.lang = lang; it.tr = { status: t.status, reviewer: t.native_reviewer }; }
+    }
+    document.documentElement.lang = lang;
+  }
+  function loadLang(l) {
+    if (l === 'en' || (window.HUB_TR || {})[l]) return Promise.resolve();
+    return new Promise((res) => { const sc = document.createElement('script'); sc.src = `data-${l}.js?v=${encodeURIComponent((H.commit || 'dev') + '-' + Date.parse(H.built).toString(36))}`; sc.onload = res; sc.onerror = res; document.head.appendChild(sc); });
+  }
+  function setRegion(r, l) {
+    region = r; lang = l && REGION[r].langs.includes(l) ? l : REGION[r].langs[0];   // a region opens in its own language
+    store.set('bromic-hub-region', region); store.set('bromic-hub-lang', lang);
+    return loadLang(lang).then(() => { applyLang(); regionBar(); chromeText(); route.keepScroll = true; route(); });
+  }
+  function regionBar() {
+    const el = $('#regions'); if (!el) return;
+    el.innerHTML = RG.regions.map((r) => `<button type="button" class="rg${r.id === region ? ' on' : ''}" data-region="${r.id}" aria-pressed="${r.id === region}" title="${esc(r.name)}">${esc(r.label)}</button>`).join('')
+      + (R().langs.length > 1 ? `<span class="rg-langs" role="group" aria-label="Language">${R().langs.map((l) => `<button type="button" class="rl${l === lang ? ' on' : ''}" data-lang="${l}" aria-pressed="${l === lang}" title="${esc(RG.languages[l] || l)}">${l.toUpperCase()}</button>`).join('')}</span>` : '');
+  }
+  // English pages outside the US: units converted on the page (US imperial master). Canada shows both.
+  const CV = RG.conversions || {};
+  const nf = (x, d) => Number(x).toLocaleString(lang === 'de' ? 'de-DE' : lang === 'nl' ? 'nl-NL' : 'en-GB', { maximumFractionDigits: d, minimumFractionDigits: 0 });
+  const rnd = (x) => (Math.abs(x) >= 10 ? nf(Math.round(x), 0) : nf(Math.round(x * 10) / 10, 1));
+  const N = (t) => Number(String(t).replace(/,/g, ''));
+  const UNIT_RULES = [
+    [/(\d[\d,]*(?:\.\d+)?)\s?[–-]\s?(\d[\d,]*(?:\.\d+)?)\s?(?:ft²|sq\.?\s?ft\.?|square feet)/g, (m, a, b) => `${rnd(N(a) * CV.ft2_to_m2)}–${rnd(N(b) * CV.ft2_to_m2)} m²`],
+    [/(\d[\d,]*(?:\.\d+)?)\s?(?:ft²|sq\.?\s?ft\.?|square feet|square foot)/g, (m, a) => `${rnd(N(a) * CV.ft2_to_m2)} m²`],
+    [/(\d+(?:\.\d+)?)\s?(?:'|ft|feet)?\s?[×x]\s?(\d+(?:\.\d+)?)\s?(?:ft|feet|')(?![²\w])/g, (m, a, b) => `${rnd(N(a) * CV.ft_to_m)} × ${rnd(N(b) * CV.ft_to_m)} m`],
+    [/(\d+(?:\.\d+)?)\s?(?:ft|feet|foot)\b(?!²)/g, (m, a) => `${rnd(N(a) * CV.ft_to_m)} m`],
+    [/(\d+(?:\.\d+)?)\s?(?:in\.|inches|inch)(?!\w)/g, (m, a) => `${nf(Math.round(N(a) * CV.in_to_mm), 0)} mm`],
+    [/(-?\d+)\s?[–-]\s?(-?\d+)\s?°F/g, (m, a, b) => `${nf(Math.round((N(a) - 32) * 5 / 9), 0)}–${nf(Math.round((N(b) - 32) * 5 / 9), 0)}°C`],
+    [/(-?\d+(?:\.\d+)?)\s?°F/g, (m, a) => `${nf(Math.round((N(a) - 32) * 5 / 9), 0)}°C`],
+    [/(\d[\d,]*(?:\.\d+)?)\s?(?:BTU\/hr|BTU\/h|Btu\/h|Btu\/hr|BTUs?|Btu)(?!\w)/g, (m, a) => `${rnd(N(a) * CV.btu_h_to_kw)} kW`],
+    [/(\d[\d,]*(?:\.\d+)?)\s?(?:US gal|gallons?|gal)(?!\w)/g, (m, a) => `${rnd(N(a) * CV.gal_us_to_l)} L`],
+    [/(\d[\d,]*(?:\.\d+)?)\s?(?:lb|lbs|pounds?)(?!\w)/g, (m, a) => `${rnd(N(a) * CV.lb_to_kg)} kg`],
+  ];
+  function convertText(t) {
+    // Each match is parked behind a token so a later rule never converts it again (ranges, Canada's brackets).
+    const parked = []; let out = t;
+    for (const [re, fn] of UNIT_RULES) out = out.replace(re, (...a) => { const v = fn(...a); parked.push(R().dual ? `${v} (${a[0]})` : v); return `\u0000${parked.length - 1}\u0000`; });
+    return out.replace(/\u0000(\d+)\u0000/g, (m, i) => parked[+i]);
+  }
+  function regionalise(root) {
+    if (!root || R().units !== 'metric') return;
+    const w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: (n) => n.parentElement.closest('script,style,textarea,input,code,.ed-ta,[data-noconv]') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT });
+    const nodes = []; while (w.nextNode()) nodes.push(w.currentNode);
+    for (const n of nodes) { const v = convertText(n.nodeValue); if (v !== n.nodeValue) n.nodeValue = v; }
+  }
+  function regionPanel(it) {
+    const r = R(), site = (r.sites && r.sites[lang]) || r.site;
+    if (region === 'us' && lang === 'en') return '';
+    const tr = it.lang !== 'en';
+    return `<div class="panel region-panel"><h4>${esc(STR('For'))} ${esc(STR(r.name))}</h4>
+      ${tr ? `<p class="rp-note">${esc(STR('Machine translation, native review pending.'))}</p>` : lang !== 'en' ? `<p class="rp-note">${esc(STR('Not translated yet: shown in English.'))}</p>` : ''}
+      <dl class="kv">
+        <dt>${esc(STR('Units'))}</dt><dd>${r.units === 'metric' ? (tr ? esc(STR('Metric')) : esc(STR('Metric, converted from the US original'))) + (r.dual ? ' ' + esc(STR('(imperial in brackets)')) : '') : 'Imperial'}</dd>
+        <dt>${esc(STR('Mains'))}</dt><dd>${esc(r.voltage)}</dd>
+        <dt>${esc(STR('Electrical'))}</dt><dd>${esc(r.electrical_code)}</dd>
+        <dt>${esc(STR('Gas'))}</dt><dd>${esc(r.gas_code)}</dd>
+        <dt>${esc(STR('Installer'))}</dt><dd>${esc(r.installer)}; ${esc(r.authority)}</dd>
+        <dt>${esc(STR('Bromic'))}</dt><dd><a href="${esc(site)}" target="_blank" rel="noopener">${esc(site.replace(/^https:\/\/(www\.)?/, '').replace(/\/$/, ''))}</a></dd>
+      </dl>
+      ${!tr ? `<p class="rp-note">${esc(STR('Prices, statistics and code references in the text are US figures unless stated. Use local prices and codes.'))}</p>` : ''}
+      ${r.verify ? `<p class="rp-note vcount">${esc(r.verify.replace(/^\[\[VERIFY:\s*|\]\]$/g, ''))}</p>` : ''}</div>`;
+  }
+
+
+  // Interface words. English is the key; German and Dutch are drafts for native review like the content.
+  const UI = {
+    de: {
+      'Overview': 'Übersicht', 'Library': 'Bibliothek', 'Blog': 'Blog', 'Downloads': 'Downloads', 'Journey': 'Customer Journey', 'Backlog': 'Backlog', 'Tools': 'Tools',
+      'Case studies': 'Referenzen', 'Images': 'Bilder', 'Sources': 'Quellen', 'bromic.com': 'bromic.com', 'Review': 'Review',
+      'Search content, keywords, sources': 'Inhalte, Stichwörter, Quellen suchen',
+      'Bromic Content Hub': 'Bromic Content Hub', 'Designed from the start, not added later.': 'Von Anfang an geplant, nicht nachträglich ergänzt.',
+      'HERO': 'Alle Bromic-Inhalte, die Terrassenheizung früher ins Projekt bringen: in die Planung des Architekten, die Vorverkabelung des Bauunternehmers und das erste Budget des Bauherrn. Finden Sie sie nach Zielgruppe, nach Phase der Entscheidung oder nach Bedarf.',
+      'Who it is for': 'Für wen', 'Where they are': 'Wo sie stehen', 'What you need': 'Was Sie brauchen',
+      '01 · Who it is for': '01 · Für wen', 'Four audiences, four different questions': 'Vier Zielgruppen, vier verschiedene Fragen',
+      'Each audience gets content written for its job, not one brochure for everyone.': 'Jede Zielgruppe bekommt Inhalte für ihre Aufgabe, keine Einheitsbroschüre.',
+      '02 · Where they are': '02 · Wo sie stehen', 'From first idea to a working system': 'Von der ersten Idee bis zur laufenden Anlage',
+      'Every piece has one job at one stage, and one next step that moves the reader on.': 'Jeder Inhalt hat eine Aufgabe in einer Phase und einen nächsten Schritt.',
+      '03 · What you need': '03 · Was Sie brauchen', 'Read, download, use, prove': 'Lesen, herunterladen, nutzen, belegen',
+      'Start here': 'Hier beginnen', 'The flagship pieces': 'Die wichtigsten Inhalte', 'For the content team': 'Für das Content-Team',
+      'See the full map: every audience at every stage, with the question each piece answers': 'Die ganze Übersicht: jede Zielgruppe in jeder Phase, mit der Frage, die jeder Inhalt beantwortet',
+      'Read and answer': 'Lesen und Antworten', 'Download': 'Herunterladen', 'Try a tool': 'Tool nutzen', 'Prove it': 'Belegen',
+      'NEED_READ': 'Artikel, Antworten und Blogbeiträge, die gefunden und von KI-Suchen zitiert werden.',
+      'NEED_DL': 'Reports, Planungshandbücher und Spec Kits, jeweils als fertiges PDF hinter einem Formular.',
+      'NEED_TOOL': 'Rechner, die aus einem Besuch einen Kontakt machen: Dimensionierung, Fünfjahreskosten, Umsatz.',
+      'NEED_PROVE': 'Referenzprojekte nach Projekttyp und die Bromic-Bildbibliothek.',
+      'pieces': 'Inhalte', 'All': 'Alle', 'for': 'für',
+      'For': 'Für', 'Machine translation, native review pending.': 'Maschinelle Übersetzung, muttersprachliche Prüfung ausstehend.',
+      'Not translated yet: shown in English.': 'Noch nicht übersetzt: auf Englisch angezeigt.',
+      'Units': 'Einheiten', 'Metric': 'Metrisch', 'Metric, converted from the US original': 'Metrisch, aus dem US-Original umgerechnet', '(imperial in brackets)': '(imperial in Klammern)',
+      'Mains': 'Netz', 'Electrical': 'Elektro', 'Gas': 'Gas', 'Installer': 'Installation', 'Bromic': 'Bromic',
+      'Prices, statistics and code references in the text are US figures unless stated. Use local prices and codes.': 'Preise, Statistiken und Normen im Text sind US-Angaben, sofern nicht anders vermerkt. Verwenden Sie lokale Preise und Normen.',
+      'Edit this page': 'Seite bearbeiten', 'Download the PDF': 'PDF herunterladen', 'Open the tool': 'Tool öffnen', 'Details': 'Details', 'Related': 'Verwandte Inhalte', 'Give feedback': 'Feedback geben',
+      'Homeowners': 'Bauherren und Hausbesitzer', 'Architects and designers': 'Architekten und Planer', 'Builders and installers': 'Bauunternehmer und Installateure', 'Restaurant and hotel operators': 'Gastronomie und Hotellerie',
+      'JOB_RES': 'Wollen einen warmen, schönen Außenraum und eine klare Antwort: wie viele Heizstrahler, was sie kosten, wie sie aussehen.',
+      'JOB_ARC': 'Brauchen Datenblätter, Abstände, Heizflächen und Details, die direkt in die Planung passen.',
+      'JOB_BLD': 'Brauchen die richtige Vorverkabelung im Rohbau, Preisstufen zum Upselling und Montagen, die die Abnahme beim ersten Mal bestehen.',
+      'JOB_COM': 'Brauchen volle Terrassen in der Übergangszeit und eine Amortisationsrechnung, die der Eigentümer unterschreibt.',
+      'STG_AW': 'Terrassenheizung auf den Plan bringen, bevor der Entwurf steht.', 'STG_CO': 'Elektrisch oder Gas, wie viele, was es kostet, beantworten und den Kontakt gewinnen.',
+      'STG_IN': 'Die Details für die Entscheidung liefern: Datenblätter, Layouts, Budgets.', 'STG_PP': 'Die letzten Risiken ausräumen: Normen, Vorverkabelung, Lieferzeiten, Genehmigungen.',
+      'STG_BY': 'Gut einrichten und Käufer zu Referenzen machen.',
+      'Germany': 'Deutschland', 'United Kingdom': 'Vereinigtes Königreich', 'United States': 'USA', 'Australia': 'Australien', 'New Zealand': 'Neuseeland', 'Canada': 'Kanada', 'Belgium, Netherlands, Luxembourg': 'Benelux',
+    },
+    nl: {
+      'Overview': 'Overzicht', 'Library': 'Bibliotheek', 'Blog': 'Blog', 'Downloads': 'Downloads', 'Journey': 'Klantreis', 'Backlog': 'Backlog', 'Tools': 'Tools',
+      'Case studies': 'Referenties', 'Images': 'Beelden', 'Sources': 'Bronnen', 'bromic.com': 'bromic.com', 'Review': 'Review',
+      'Search content, keywords, sources': 'Zoek content, trefwoorden, bronnen',
+      'Bromic Content Hub': 'Bromic Content Hub', 'Designed from the start, not added later.': 'Vanaf het begin ontworpen, niet achteraf toegevoegd.',
+      'HERO': 'Alle Bromic-content die buitenverwarming eerder in het project brengt: in de tekening van de architect, de voorbekabeling van de aannemer en het eerste budget van de huiseigenaar. Zoek op doelgroep, op fase van de beslissing of op wat je nodig hebt.',
+      'Who it is for': 'Voor wie', 'Where they are': 'Waar ze staan', 'What you need': 'Wat je nodig hebt',
+      '01 · Who it is for': '01 · Voor wie', 'Four audiences, four different questions': 'Vier doelgroepen, vier verschillende vragen',
+      'Each audience gets content written for its job, not one brochure for everyone.': 'Elke doelgroep krijgt content voor zijn eigen taak, geen brochure voor iedereen.',
+      '02 · Where they are': '02 · Waar ze staan', 'From first idea to a working system': 'Van eerste idee tot werkend systeem',
+      'Every piece has one job at one stage, and one next step that moves the reader on.': 'Elk stuk heeft één taak in één fase en één volgende stap.',
+      '03 · What you need': '03 · Wat je nodig hebt', 'Read, download, use, prove': 'Lezen, downloaden, gebruiken, bewijzen',
+      'Start here': 'Begin hier', 'The flagship pieces': 'De belangrijkste stukken', 'For the content team': 'Voor het contentteam',
+      'See the full map: every audience at every stage, with the question each piece answers': 'Bekijk het volledige overzicht: elke doelgroep in elke fase, met de vraag die elk stuk beantwoordt',
+      'Read and answer': 'Lezen en antwoorden', 'Download': 'Downloaden', 'Try a tool': 'Probeer een tool', 'Prove it': 'Bewijs het',
+      'NEED_READ': 'Artikelen, antwoorden en blogs die gevonden en door AI-zoekmachines geciteerd worden.',
+      'NEED_DL': 'Rapporten, planningsgidsen en spec kits, elk als afgewerkte pdf achter een formulier.',
+      'NEED_TOOL': 'Rekentools die van een bezoek een lead maken: dimensionering, vijfjaarskosten, omzet.',
+      'NEED_PROVE': 'Referentieprojecten per projecttype en de Bromic-beeldbibliotheek.',
+      'pieces': 'stukken', 'All': 'Alle', 'for': 'voor',
+      'For': 'Voor', 'Machine translation, native review pending.': 'Machinevertaling, controle door moedertaalspreker volgt.',
+      'Not translated yet: shown in English.': 'Nog niet vertaald: in het Engels getoond.',
+      'Units': 'Eenheden', 'Metric': 'Metrisch', 'Metric, converted from the US original': 'Metrisch, omgerekend uit het Amerikaanse origineel', '(imperial in brackets)': '(imperiaal tussen haakjes)',
+      'Mains': 'Net', 'Electrical': 'Elektra', 'Gas': 'Gas', 'Installer': 'Installatie', 'Bromic': 'Bromic',
+      'Prices, statistics and code references in the text are US figures unless stated. Use local prices and codes.': 'Prijzen, statistieken en normen in de tekst zijn Amerikaanse gegevens, tenzij anders vermeld. Gebruik lokale prijzen en normen.',
+      'Edit this page': 'Pagina bewerken', 'Download the PDF': 'Pdf downloaden', 'Open the tool': 'Tool openen', 'Details': 'Details', 'Related': 'Gerelateerd', 'Give feedback': 'Feedback geven',
+      'Homeowners': 'Huiseigenaren', 'Architects and designers': 'Architecten en ontwerpers', 'Builders and installers': 'Aannemers en installateurs', 'Restaurant and hotel operators': 'Horeca en hotels',
+      'JOB_RES': 'Willen een warme, mooie buitenruimte en een helder antwoord: hoeveel verwarmers, wat ze kosten en hoe ze eruitzien.',
+      'JOB_ARC': 'Hebben specificaties, afstanden, verwarmd oppervlak en details nodig die direct in de tekening passen.',
+      'JOB_BLD': 'Hebben de juiste voorbekabeling in de ruwbouw nodig, prijsniveaus om op te verkopen en installaties die in één keer worden goedgekeurd.',
+      'JOB_COM': 'Willen volle terrassen in het tussenseizoen en een terugverdienberekening die de eigenaar tekent.',
+      'STG_AW': 'Buitenverwarming op de tekening krijgen voordat het ontwerp vastligt.', 'STG_CO': 'Elektrisch of gas, hoeveel en wat het kost beantwoorden, en de lead winnen.',
+      'STG_IN': 'De details voor de keuze leveren: specificaties, indelingen, budgetten.', 'STG_PP': 'De laatste risico’s wegnemen: normen, voorbekabeling, levertijden, vergunningen.',
+      'STG_BY': 'Goed instellen, en kopers referenties maken.',
+      'Belgium, Netherlands, Luxembourg': 'Nederland', 'Germany': 'Duitsland', 'United Kingdom': 'Verenigd Koninkrijk', 'United States': 'Verenigde Staten', 'Australia': 'Australië', 'New Zealand': 'Nieuw-Zeeland', 'Canada': 'Canada',
+    },
+  };
+  const STR = (k) => (UI[lang] && UI[lang][k]) || ({ HERO: '', NEED_READ: '', NEED_DL: '', NEED_TOOL: '', NEED_PROVE: '' }[k] ?? k);
+  function chromeText() {
+    document.querySelectorAll('.tabs a[data-tab]').forEach((a) => { a.dataset.en ||= a.textContent; a.textContent = STR(a.dataset.en); });
+    const q = $('#q'); if (q) { q.dataset.en ||= q.placeholder; q.placeholder = STR(q.dataset.en); }
+  }
+
   function toast(msg) { const t = $('#toast'); t.textContent = msg; t.classList.add('on'); clearTimeout(toast.t); toast.t = setTimeout(() => t.classList.remove('on'), 1800); }
   async function copy(text, msg) {
     try { await navigator.clipboard.writeText(text); toast(msg); }
@@ -113,7 +277,7 @@
     const inReview = H.items.filter((i) => i.status === 'in-review').length;
 
     const audCards = AK.map((a) => {
-      const f = AUD_FRONT[a] || {}; const its = itemsFor((i) => i.audience.includes(a));
+      const f0 = AUD_FRONT[a] || {}; const f = { ...f0, short: STR(f0.short || ''), job: lang === 'en' ? f0.job : STR('JOB_' + a) }; const its = itemsFor((i) => i.audience.includes(a));
       const top = [...its].sort((x, y) => rankFront(x) - rankFront(y)).slice(0, 3);
       return `<article class="fp-aud">
         <a class="fp-aud-pic" href="#/library?aud=${a}" tabindex="-1" aria-hidden="true">${img(f.img)}</a>
@@ -122,7 +286,7 @@
           <h3><a href="#/library?aud=${a}">${esc(f.short || AUD[a].name)}</a></h3>
           <p>${esc(f.job || '')}</p>
           <ul>${top.map((i) => `<li><a href="#/item/${esc(i.id)}"><span class="fp-t">${esc(TYPES[i.type] || i.type)}</span>${esc(shortTitle(i.title))}</a></li>`).join('')}</ul>
-          <a class="fp-more" href="#/library?aud=${a}">All ${its.length} for ${esc((f.short || '').toLowerCase())} ${ic.arrow}</a>
+          <a class="fp-more" href="#/library?aud=${a}">${esc(STR('All'))} ${its.length} ${esc(STR('for'))} ${esc((f.short || '').toLowerCase())} ${ic.arrow}</a>
         </div></article>`;
     }).join('');
 
@@ -133,20 +297,20 @@
         <span class="fp-stg-n">${String(n + 1).padStart(2, '0')}</span>
         <span class="label">${esc(STG[s].funnel)}</span>
         <h3>${esc(STG[s].name)}</h3>
-        <p>${esc(STG_FRONT[s] || '')}</p>
+        <p>${esc(lang === 'en' ? STG_FRONT[s] || '' : STR('STG_' + s))}</p>
         <span class="fp-stg-eg">${top.map((i) => esc(shortTitle(i.title))).join(' · ')}</span>
-        <span class="fp-stg-c">${its.length} pieces ${ic.arrow}</span></a>`;
+        <span class="fp-stg-c">${its.length} ${esc(STR('pieces'))} ${ic.arrow}</span></a>`;
     }).join('');
 
     const tools = H.items.filter((i) => i.type === 'tool');
     const needs = [
-      { t: 'Read and answer', d: 'Articles, answers and blog posts that rank and get quoted by AI search.', n: byType(['article', 'kb', 'blog']), href: '#/library?type=article', img: 'l-022-201',
+      { t: STR('Read and answer'), d: lang === 'en' ? 'Articles, answers and blog posts that rank and get quoted by AI search.' : STR('NEED_READ'), n: byType(['article', 'kb', 'blog']), href: '#/library?type=article', img: 'l-022-201',
         links: [['Articles', '#/library?type=article'], ['Answers', '#/library?type=kb'], ['Blog', '#/blog']] },
-      { t: 'Download', d: 'Reports, planning guides and spec kits, each a finished PDF behind a form.', n: pdfList().length, href: '#/downloads', img: 't-001-000',
+      { t: STR('Download'), d: lang === 'en' ? 'Reports, planning guides and spec kits, each a finished PDF behind a form.' : STR('NEED_DL'), n: pdfList().length, href: '#/downloads', img: 't-001-000',
         links: pdfList().slice(0, 3).map((i) => [shortTitle(i.title), `#/item/${i.id}`]) },
-      { t: 'Try a tool', d: 'Calculators that turn a visit into a lead: sizing, five-year cost, revenue.', n: tools.length, href: '#/tools', img: 'p-003-006',
+      { t: STR('Try a tool'), d: lang === 'en' ? 'Calculators that turn a visit into a lead: sizing, five-year cost, revenue.' : STR('NEED_TOOL'), n: tools.length, href: '#/tools', img: 'p-003-006',
         links: tools.map((i) => [shortTitle(i.title), `#/item/${i.id}`]) },
-      { t: 'Prove it', d: 'Case studies tagged by project type, and the Bromic image library.', n: (H.cs?.records?.length || 0), href: '#/cases', img: 'l-016-131',
+      { t: STR('Prove it'), d: lang === 'en' ? 'Case studies tagged by project type, and the Bromic image library.' : STR('NEED_PROVE'), n: (H.cs?.records?.length || 0), href: '#/cases', img: 'l-016-131',
         links: [['Case studies', '#/cases'], ['Find the gaps', '#/cases/whitespace'], ['Images', '#/images']] },
     ];
     const needCards = needs.map((x) => `<article class="fp-need">
@@ -158,36 +322,36 @@
 
     return `
     <section class="hero fp-hero">${img('l-022-201', '', false)}
-      <div class="hero-in"><span class="flame-rule"></span><span class="label">Bromic Content Hub</span>
-        <h1>Designed from the start, not added later.</h1>
-        <p>Every piece of Bromic content that moves outdoor heating earlier: into the architect's drawing, the builder's pre-wire and the homeowner's first budget. Find it by who it is for, where they are in the decision, or what you need.</p>
+      <div class="hero-in"><span class="flame-rule"></span><span class="label">Bromic Content Hub · ${esc(STR(R().name))}</span>
+        <h1>${esc(STR('Designed from the start, not added later.'))}</h1>
+        <p>${lang === 'en' ? 'Every piece of Bromic content that moves outdoor heating earlier: into the architect\'s drawing, the builder\'s pre-wire and the homeowner\'s first budget. Find it by who it is for, where they are in the decision, or what you need.' : esc(STR('HERO'))}</p>
         <nav class="fp-ways" aria-label="Ways in">
-          <a href="#fp-who"><span>01</span>Who it is for</a>
-          <a href="#fp-where"><span>02</span>Where they are</a>
-          <a href="#fp-what"><span>03</span>What you need</a>
+          <a href="#fp-who"><span>01</span>${esc(STR('Who it is for'))}</a>
+          <a href="#fp-where"><span>02</span>${esc(STR('Where they are'))}</a>
+          <a href="#fp-what"><span>03</span>${esc(STR('What you need'))}</a>
         </nav></div>
     </section>
 
     <section id="fp-who" class="fp-sec">
-      <div class="fp-h"><span class="fp-k">01 · Who it is for</span><h2>Four audiences, four different questions</h2>
-        <p>Each audience gets content written for its job, not one brochure for everyone.</p></div>
+      <div class="fp-h"><span class="fp-k">${esc(STR('01 · Who it is for'))}</span><h2>${esc(STR('Four audiences, four different questions'))}</h2>
+        <p>${esc(STR('Each audience gets content written for its job, not one brochure for everyone.'))}</p></div>
       <div class="fp-auds">${audCards}</div>
     </section>
 
     <section id="fp-where" class="fp-sec">
-      <div class="fp-h"><span class="fp-k">02 · Where they are</span><h2>From first idea to a working system</h2>
-        <p>Every piece has one job at one stage, and one next step that moves the reader on.</p></div>
+      <div class="fp-h"><span class="fp-k">${esc(STR('02 · Where they are'))}</span><h2>${esc(STR('From first idea to a working system'))}</h2>
+        <p>${esc(STR('Every piece has one job at one stage, and one next step that moves the reader on.'))}</p></div>
       <div class="fp-journey">${stages}</div>
-      <p class="fp-note"><a href="#/journey">See the full map: every audience at every stage, with the question each piece answers ${ic.arrow}</a></p>
+      <p class="fp-note"><a href="#/journey">${esc(STR('See the full map: every audience at every stage, with the question each piece answers'))} ${ic.arrow}</a></p>
     </section>
 
     <section id="fp-what" class="fp-sec">
-      <div class="fp-h"><span class="fp-k">03 · What you need</span><h2>Read, download, use, prove</h2></div>
+      <div class="fp-h"><span class="fp-k">${esc(STR('03 · What you need'))}</span><h2>${esc(STR('Read, download, use, prove'))}</h2></div>
       <div class="fp-needs">${needCards}</div>
     </section>
 
     <section class="fp-sec">
-      <div class="fp-h"><span class="fp-k">Start here</span><h2>The flagship pieces</h2></div>
+      <div class="fp-h"><span class="fp-k">${esc(STR('Start here'))}</span><h2>${esc(STR('The flagship pieces'))}</h2></div>
       <div class="grid">${flag.map(card).join('')}</div>
     </section>
 
@@ -258,20 +422,21 @@
     const tool = it.type === 'tool' && H.tools.find((t) => t.startsWith(it.asset || it.id));
     const ED = window.HubEditor, hero = ED ? ED.heroId(it) : it.hero;
     return `<nav class="crumbs"><a href="#/library">Library</a><span>/</span><a href="${libHref({ type: it.type })}">${esc(TYPES[it.type] || it.type)}</a>${it.cell ? `<span>/</span><a href="#/journey/${esc(it.cell)}">${esc(it.cell)}</a>` : ''}</nav>
-    <div class="ed-start"><button type="button" class="btn" data-edit-page>${ic.pen}Edit this page</button></div>
+    <div class="ed-start"><button type="button" class="btn" data-edit-page>${ic.pen}${esc(STR('Edit this page'))}</button></div>
     ${hero ? `<div class="reader-hero">${img(hero, '', false)}${ED ? ED.heroButton(it) : ''}</div>` : ED && ED.active(it.id) ? `<div class="reader-hero ed-nohero">${ED.heroButton(it)}</div>` : ''}
     <div class="reader"><article>
       <span class="label">${esc(TYPES[it.type] || it.type)} · ${esc(it.id)}${isGated(it) ? ' · Gated' : ''}</span>
       <h1>${ED ? ED.title(it) : esc(it.title)}</h1>
       ${it.summary || (ED && ED.active(it.id)) ? `<p class="dek">${ED ? ED.summary(it) : esc(it.summary)}</p>` : ''}
-      ${tool ? `<p><a class="btn primary" href="#/tool/${esc(tool)}">${ic.arrow} Open the tool</a></p>` : ''}
-      ${hasPdf(it) ? `<p><a class="btn primary" href="pdf/${esc(it.id)}.pdf" download="Bromic-${esc(it.id)}.pdf">${ic.down}Download the PDF</a> <span class="muted" style="font-size:13px">${it.status === 'approved' || it.status === 'published' ? 'Ready to share' : 'Review draft'}</span></p>` : ''}
+      ${tool ? `<p><a class="btn primary" href="#/tool/${esc(tool)}">${ic.arrow} ${esc(STR('Open the tool'))}</a></p>` : ''}
+      ${hasPdf(it) ? `<p><a class="btn primary" href="pdf/${esc(it.id)}.pdf" download="Bromic-${esc(it.id)}.pdf">${ic.down}${esc(STR('Download the PDF'))}</a> <span class="muted" style="font-size:13px">${it.status === 'approved' || it.status === 'published' ? 'Ready to share' : 'Review draft'}</span></p>` : ''}
       <div class="prose">${ED ? ED.prose(it) : it.html}</div>
       ${it.sources.length ? `<hr class="rule"><h2 style="font-size:24px;margin-bottom:6px">Sources</h2><p class="muted" style="margin-top:0;font-size:13px">${it.sources.length} mapped · ${it.sources.length - unverified(it)} verified</p>
       <ol class="srcs">${it.sources.map((s, i) => `<li id="src-${esc(it.id)}-${esc(s.id)}"><span class="n">${i + 1}</span><span><b>${esc(s.publisher || '')}</b>${s.title ? ` — ${esc(s.title)}` : ''}${s.year ? ` (${esc(s.year)})` : ''} ${s.verified ? '<span class="chip ok">Verified</span>' : '<span class="chip warn">Verify</span>'}
         ${s.supports ? `<div class="s-sup">Supports: ${esc(s.supports)}</div>` : ''}${s.url ? `<div><a href="${esc(/^https?:/.test(s.url) ? s.url : '#')}" target="_blank" rel="noopener">${esc(s.url)}</a></div>` : ''}</span></li>`).join('')}</ol>` : ''}
     </article>
     <aside class="side">
+      ${regionPanel(it)}
       ${cta ? `<a class="cta" href="${ctaAsset ? '#/assets/' + esc(cta.asset) : '#'}"><span><span class="label" style="color:inherit;opacity:.7">Call to action${cta.asset ? ' → ' + esc(cta.asset) : ''}</span><br>${esc(cta.label || '')}</span>${ic.arrow}</a>` : ''}
       <div class="panel"><h4>Details</h4><dl class="kv">
         <dt>Status</dt><dd><span class="status ${esc(it.status)}">${esc(it.status)}</span></dd>
@@ -359,8 +524,8 @@
     const c = H.items.find((i) => i.type === 'tool' && t.startsWith(i.asset || '#'));
     return `<nav class="crumbs"><a href="#/tools">Tools</a><span>/</span><span>${esc(t)}</span></nav>
       <div class="ph"><div><h1>${esc(c?.title || t)}</h1>${c?.summary ? `<p>${esc(c.summary)}</p>` : ''}</div>
-      <div class="btns"><a class="btn" href="tools/${esc(t)}/index.html${FRAMED ? '?framed=1' : ''}" target="_blank" rel="noopener">${ic.ext}Open full page</a>${c ? `<a class="btn" href="#/item/${esc(c.id)}">About this tool</a>` : ''}</div></div>
-      <iframe class="tool-frame" src="tools/${esc(t)}/index.html?embed=1${FRAMED ? '&framed=1' : ''}" title="${esc(c?.title || t)}"></iframe>`;
+      <div class="btns"><a class="btn" href="tools/${esc(t)}/index.html?region=${region}&lang=${lang}${FRAMED ? '&framed=1' : ''}" target="_blank" rel="noopener">${ic.ext}Open full page</a>${c ? `<a class="btn" href="#/item/${esc(c.id)}">About this tool</a>` : ''}</div></div>
+      <iframe class="tool-frame" src="tools/${esc(t)}/index.html?embed=1&region=${region}&lang=${lang}${FRAMED ? '&framed=1' : ''}" title="${esc(c?.title || t)}"></iframe>`;
   }
 
   let imgFilter = { product: '', aud: '', src: '' };
@@ -697,6 +862,7 @@
     route.keepScroll = false;
     setTimeout(fbDecorate, 0);
     if (window.HubEditor) window.HubEditor.bar(it || null);
+    regionalise(view);
   }
 
   // ---------- reviewer editor (editor.js, loaded on demand) ----------
@@ -769,5 +935,10 @@
   });
   $('#built').textContent = 'Built ' + new Date(H.built).toLocaleString() + (H.commit ? ' from commit ' + H.commit : '');
   window.addEventListener('hashchange', route);
-  route();
+  document.addEventListener('click', (e) => {
+    const r = e.target.closest('[data-region]'); if (r) { setRegion(r.dataset.region); return; }
+    const l = e.target.closest('[data-lang]'); if (l) { setRegion(region, l.dataset.lang); return; }
+  });
+  regionBar(); chromeText();
+  loadLang(lang).then(() => { applyLang(); route(); });
 })();

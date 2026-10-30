@@ -17,12 +17,13 @@
   let marked = null;
 
   const esc = (s) => C.esc(s);
+  const K = (it) => (it.lang && it.lang !== 'en' ? `${it.id}~${it.lang}` : it.id);   // edits to a translation are kept apart from the English
   const E = (id) => edits[id] || null;
   const count = (e) => (e ? Object.keys(e.blocks || {}).length + ['hero', 'title', 'summary'].filter((k) => e[k] != null).length : 0);
   const persist = () => { for (const k of Object.keys(edits)) if (!count(edits[k])) delete edits[k]; store(KEY, edits); };
 
   function view(it) {                 // the edits a reader of this browser should see: unsaved first, then saved-but-not-live
-    const s = saved[it.id], u = edits[it.id];
+    const s = saved[K(it)], u = edits[K(it)];
     if (!s && !u) return null;
     const v = { blocks: { ...(s?.edits.blocks || {}), ...(u?.blocks || {}) } };
     for (const k of ['hero', 'title', 'summary']) v[k] = u?.[k] ?? s?.edits[k] ?? null;
@@ -100,7 +101,7 @@
     let el = document.getElementById('ed-bar');
     document.body.classList.toggle('ed-editing', !!it && editing === it.id);
     if (!it) { if (el) el.hidden = true; document.body.classList.remove('ed-on'); return; }
-    const n = count(edits[it.id]), s = saved[it.id];
+    const n = count(edits[K(it)]), s = saved[K(it)];
     if (!el) { el = document.createElement('div'); el.id = 'ed-bar'; document.body.appendChild(el); }
     if (editing !== it.id && !n && !s) { el.hidden = true; document.body.classList.remove('ed-on'); return; }
     el.hidden = false; document.body.classList.add('ed-on');
@@ -184,9 +185,9 @@
     const g = await fetch(`${api}?ref=${encodeURIComponent(R.branch)}`, { headers: h });
     if (!g.ok) throw new Error(g.status === 401 || g.status === 403 ? 'GitHub did not accept the token (it needs Contents: read and write on this repository).' : `GitHub said ${g.status} reading the file.`);
     const cur = await g.json();
-    const { text, problems } = apply(unb64(cur.content), it, edits[it.id]);
+    const { text, problems } = apply(unb64(cur.content), it, edits[K(it)]);
     if (problems.length) throw new Error(problems.join(' ') + ' Reload the page and redo that block.');
-    const n = count(edits[it.id]);
+    const n = count(edits[K(it)]);
     const p = await fetch(api, { method: 'PUT', headers: { ...h, 'Content-Type': 'application/json' }, body: JSON.stringify({
       message: `Hub edit: ${it.id}, ${n} ${n === 1 ? 'change' : 'changes'}${who ? ' by ' + who : ''}`, content: b64(text), sha: cur.sha, branch: R.branch }) });
     if (!p.ok) throw new Error(p.status === 409 ? 'Someone saved this file a moment ago. Try again.' : `GitHub said ${p.status} saving the file.`);
@@ -194,11 +195,11 @@
   }
 
   function issue(it, who) {
-    const R = C.H.repo, e = edits[it.id];
+    const R = C.H.repo, e = edits[K(it)];
     const patch = { file: it.file, base_commit: C.H.commit, edits: Object.entries(e.blocks || {}).map(([n, nw]) => ({ block: +n, old: blockText(it, n).replace(/\n+$/, ''), new: nw })),
       ...(e.hero ? { hero: { old: it.hero, new: e.hero } } : {}), ...(e.title != null ? { title: e.title } : {}), ...(e.summary != null ? { summary: e.summary } : {}) };
-    const body = `<!-- bromic-edit v1 -->\nelement: item:${it.id}\ntype: edit\npage: #/item/${it.id}\ncommit: ${C.H.commit}\nby: ${who || ''}\n---\nApply these edits to \`${it.file}\` (Hub editor).\n\n\`\`\`json\n${JSON.stringify(patch, null, 1)}\n\`\`\`\n`;
-    const title = `[Edit] ${it.id}: ${count(e)} ${count(e) === 1 ? 'change' : 'changes'}`;
+    const body = `<!-- bromic-edit v1 -->\nelement: item:${it.id}${it.lang && it.lang !== 'en' ? '\nlang: ' + it.lang : ''}\ntype: edit\npage: #/item/${it.id}\ncommit: ${C.H.commit}\nby: ${who || ''}\n---\nApply these edits to \`${it.file}\` (Hub editor).\n\n\`\`\`json\n${JSON.stringify(patch, null, 1)}\n\`\`\`\n`;
+    const title = `[Edit] ${it.id}${it.lang && it.lang !== 'en' ? ' (' + it.lang + ')' : ''}: ${count(e)} ${count(e) === 1 ? 'change' : 'changes'}`;
     let url = `https://github.com/${R.owner}/${R.name}/issues/new?title=${encodeURIComponent(title)}&labels=edit&body=${encodeURIComponent(body)}`;
     if (url.length > 7500) {               // too long for a link: copy it, and open the form with a short note
       navigator.clipboard?.writeText(body).catch(() => {});
@@ -209,7 +210,7 @@
   }
 
   function reviewHtml(it) {
-    const e = edits[it.id]; if (!e) return '<p>No changes.</p>';
+    const e = edits[K(it)]; if (!e) return '<p>No changes.</p>';
     const row = (label, a, b) => `<div class="ed-diff"><span class="label">${esc(label)}</span><div class="ed-old">${esc(a)}</div><div class="ed-new">${esc(b)}</div></div>`;
     return [
       e.title != null ? row('Title', it.title, e.title) : '',
@@ -220,10 +221,10 @@
   }
 
   function saveDialog(it) {
-    const all = [...Object.values(edits[it.id].blocks || {}), edits[it.id].title || '', edits[it.id].summary || ''].join('\n');
+    const all = [...Object.values(edits[K(it)].blocks || {}), edits[K(it)].title || '', edits[K(it)].summary || ''].join('\n');
     const L = lint(all), hard = L.some((x) => x.hard);
     const tok = load(TOK, null), who = load(WHO, '');
-    modal(`<h3>Save ${count(edits[it.id])} ${count(edits[it.id]) === 1 ? 'change' : 'changes'}</h3>
+    modal(`<h3>Save ${count(edits[K(it)])} ${count(edits[K(it)]) === 1 ? 'change' : 'changes'}</h3>
       ${L.length ? `<ul class="ed-lint-list">${L.map((x) => `<li class="${x.hard ? 'hard' : ''}">${esc(x.msg)}</li>`).join('')}</ul>` : ''}
       ${hard ? '<p>Fix the rules above before saving.</p>' : `
       <label class="label" for="ed-who">Your name</label><input id="ed-who" class="ed-input" value="${esc(who)}" placeholder="For the change history">
@@ -252,35 +253,35 @@
     if (q('data-ed-toggle')) { editing = editing === it.id ? '' : it.id; openBlock = null; if (editing) needMarked().then(() => C.rerender()); C.rerender(); return; }
     if ((x = q('data-ed-open'))) { openBlock = x.dataset.edOpen; C.rerender(); setTimeout(() => { const ta = document.querySelector('.ed-ta'); if (ta) { grow(ta); ta.focus(); } }, 20); return; }
     if ((x = q('data-ed-cancel'))) { openBlock = null; C.rerender(); return; }
-    if ((x = q('data-ed-revert'))) { const n = x.dataset.edRevert; if (edits[it.id]) delete edits[it.id].blocks[n]; persist(); openBlock = null; C.rerender(); return; }
+    if ((x = q('data-ed-revert'))) { const n = x.dataset.edRevert; if (edits[K(it)]) delete edits[K(it)].blocks[n]; persist(); openBlock = null; C.rerender(); return; }
     if ((x = q('data-ed-done'))) {
       const n = x.dataset.edDone, val = document.querySelector(`[data-ed-ta="${n}"]`).value;
       const L = lint(val).filter((l) => l.hard);
       if (L.length) { document.querySelector(`[data-ed-lint="${n}"]`).textContent = L.map((l) => l.msg).join(' '); return; }
-      const e = (edits[it.id] ||= { blocks: {} }); e.blocks ||= {};
+      const e = (edits[K(it)] ||= { blocks: {} }); e.blocks ||= {};
       if (val.replace(/\s+$/, '') === blockText(it, n).replace(/\s+$/, '')) delete e.blocks[n]; else e.blocks[n] = val;
       persist(); openBlock = null; needMarked().then(() => C.rerender()); return;
     }
     if ((x = q('data-ed-swap'))) {
       const old = x.dataset.edSwap, n = x.closest('[data-b]')?.dataset.b;
       picker(old, (nw) => {
-        const e = (edits[it.id] ||= { blocks: {} }); e.blocks ||= {};
-        const base = e.blocks[n] ?? saved[it.id]?.edits.blocks?.[n] ?? blockText(it, n);
+        const e = (edits[K(it)] ||= { blocks: {} }); e.blocks ||= {};
+        const base = e.blocks[n] ?? saved[K(it)]?.edits.blocks?.[n] ?? blockText(it, n);
         e.blocks[n] = base.replace(`img:${old}`, `img:${nw}`); persist(); needMarked().then(() => C.rerender());
       }); return;
     }
-    if (q('data-ed-swap-hero')) { picker(heroId(it), (nw) => { (edits[it.id] ||= { blocks: {} }).hero = nw === it.hero ? null : nw; persist(); C.rerender(); }); return; }
+    if (q('data-ed-swap-hero')) { picker(heroId(it), (nw) => { (edits[K(it)] ||= { blocks: {} }).hero = nw === it.hero ? null : nw; persist(); C.rerender(); }); return; }
     if ((x = q('data-ed-pick'))) { const f = pick.onPick; close(); f(x.dataset.edPick); return; }
     if (q('data-ed-more')) { pick.n += 48; grid(); return; }
-    if (q('data-ed-discard')) { if (confirm('Discard every unsaved change to this page?')) { delete edits[it.id]; persist(); openBlock = null; C.rerender(); } return; }
+    if (q('data-ed-discard')) { if (confirm('Discard every unsaved change to this page?')) { delete edits[K(it)]; persist(); openBlock = null; C.rerender(); } return; }
     if (q('data-ed-review')) { modal(`<h3>Your changes</h3>${reviewHtml(it)}<p style="margin-top:14px"><button type="button" class="btn primary" data-ed-save>Save</button></p>`, true); return; }
     if (q('data-ed-save')) { saveDialog(it); return; }
     if (q('data-ed-forget')) { localStorage.removeItem(TOK); sessionStorage.removeItem(TOK); saveDialog(it); return; }
     if (q('data-ed-issue')) {
       const who = document.getElementById('ed-who')?.value.trim() || ''; store(WHO, who);
       issue(it, who);
-      saved[it.id] = { at: new Date().toISOString(), how: 'issue', edits: edits[it.id] }; store(SAVED, saved);
-      delete edits[it.id]; persist(); close(); editing = ''; C.rerender(); C.toast('Sent to Claude as a GitHub issue'); return;
+      saved[K(it)] = { at: new Date().toISOString(), how: 'issue', edits: edits[K(it)] }; store(SAVED, saved);
+      delete edits[K(it)]; persist(); close(); editing = ''; C.rerender(); C.toast('Sent to Claude as a GitHub issue'); return;
     }
     if (q('data-ed-commit')) {
       const who = document.getElementById('ed-who')?.value.trim() || ''; store(WHO, who);
@@ -291,8 +292,8 @@
       const msg = document.getElementById('ed-msg'); msg.textContent = 'Saving to GitHub…';
       t.closest('button').disabled = true;
       commit(it, tok, who).then((sha) => {
-        saved[it.id] = { at: new Date().toISOString(), how: 'github', sha, edits: edits[it.id] }; store(SAVED, saved);
-        delete edits[it.id]; persist(); close(); editing = ''; C.rerender(); C.toast('Saved to GitHub. Live after the next build.');
+        saved[K(it)] = { at: new Date().toISOString(), how: 'github', sha, edits: edits[K(it)] }; store(SAVED, saved);
+        delete edits[K(it)]; persist(); close(); editing = ''; C.rerender(); C.toast('Saved to GitHub. Live after the next build.');
       }).catch((e) => { msg.textContent = e.message; t.closest('button').disabled = false; });
       return;
     }
@@ -307,7 +308,7 @@
     const t = ev.target; if (!t.matches?.('[data-ed-field]')) return;
     const it = C.ITEM[C.currentId()]; if (!it) return;
     const k = t.dataset.edField, val = t.textContent.replace(/\s+/g, ' ').trim();
-    const e = (edits[it.id] ||= { blocks: {} });
+    const e = (edits[K(it)] ||= { blocks: {} });
     e[k] = val && val !== it[k] ? val : null;
     persist(); bar(it);
   }

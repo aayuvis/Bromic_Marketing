@@ -214,6 +214,32 @@ for (const it of items) { const o = own.items.find((x) => x.id === it.id); if (o
 for (const o of own.items) if (!items.some((it) => it.id === o.id)) warn.push(`data/page-ownership.json: "${o.id}" is not a content item`);
 
 // image usage
+// ---------- translations (content/i18n/<lang>/, templates/regionalisation.md) ----------
+const regions = readJSON('data/regions.json');
+const tr = {};   // lang → { id → translated fields }
+const byId = Object.fromEntries(items.map((i) => [i.id, i]));
+for (const lang of fs.existsSync(I18N) ? fs.readdirSync(I18N) : []) {
+  for (const f of [...walk(path.join(I18N, lang))].filter((x) => x.endsWith('.md'))) {
+    const p = parse(f); const rel = path.relative(ROOT, f);
+    if (p.error) { errors.push(`${rel}: ${p.error}`); continue; }
+    const fm = p.fm, id = String(fm.translation_of || fm.id), en = byId[id];
+    if (!en) { warn.push(`${rel}: translation of unknown item ${id}`); continue; }
+    const raw = fs.readFileSync(f, 'utf8');
+    const srcIndex = {}; en.sources.forEach((s, i) => { srcIndex[s.id] = i + 1; });
+    const t = { id, lang, file: rel, title: fm.title || en.title, summary: fm.summary || '', dek: fm.dek || '', meta_description: fm.meta_description || '',
+      cta: fm.cta || en.cta, status: fm.translation_status || 'machine-draft', native_reviewer: fm.native_reviewer || '', markdown: raw };
+    const toks = marked.lexer(p.body), bodyAt = raw.length - p.body.length;
+    if (toks.map((k) => k.raw).join('') === p.body) {
+      let at = bodyAt, html = '', ver = []; t.blocks = [];
+      toks.forEach((k, n) => { t.blocks.push([at, at + k.raw.length]); at += k.raw.length; if (k.type === 'space') return; const r = render(k.raw, en, srcIndex); html += `<!--b:${n}-->` + r.html; ver = ver.concat(r.verifies); });
+      t.html = html; t.verifies = ver;
+    } else { const r = render(p.body, en, srcIndex); t.html = r.html; t.verifies = r.verifies; t.blocks = null; }
+    t.words = words(p.body); t.faq = faqOf(p.body);
+    (tr[lang] ||= {})[id] = t;
+    (en.langs ||= []).push(lang);
+  }
+}
+
 const usage = {};
 for (const it of items) {
   const used = new Set([it.hero, ...[...it.markdown.matchAll(/img:([\w-]+)/g)].map((m) => m[1])].filter(Boolean));
@@ -222,7 +248,7 @@ for (const it of items) {
 
 let commit = ''; try { commit = (await import('node:child_process')).execSync('git rev-parse --short HEAD', { cwd: ROOT }).toString().trim(); } catch {}
 const repo = { owner: 'aayuvis', name: 'Bromic_Marketing', branch: process.env.HUB_BRANCH || 'claude/dreamy-euler-xxi5g7' };
-const HUB = { built: new Date().toISOString(), commit, repo, matrix, assets, facts, images, usage, tools, site, cs, blogPlan, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
+const HUB = { built: new Date().toISOString(), commit, repo, regions, langsAvailable: Object.fromEntries(Object.entries(tr).map(([l, m]) => [l, Object.keys(m).length])), matrix, assets, facts, images, usage, tools, site, cs, blogPlan, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
 
 console.log(`items ${items.length} · tools ${tools.length} · images ${images.length} · site pages ${site.length} · errors ${errors.length} · warnings ${warn.length}`);
 warn.forEach((w) => console.log('  warn  ' + w));
@@ -240,6 +266,7 @@ fs.copyFileSync(path.join(APP, 'node_modules', 'marked', 'marked.min.js'), path.
   const ix = path.join(DIST, 'index.html');
   fs.writeFileSync(ix, fs.readFileSync(ix, 'utf8').replace(/(src|href)="(app\.js|data\.js|styles\.css|editor\.js)"/g, `$1="$2?v=${v}"`)); }
 fs.writeFileSync(path.join(DIST, 'data.js'), 'window.HUB=' + JSON.stringify(HUB) + ';');
+for (const [lang, m] of Object.entries(tr)) fs.writeFileSync(path.join(DIST, `data-${lang}.js`), `(window.HUB_TR=window.HUB_TR||{})[${JSON.stringify(lang)}]=` + JSON.stringify(m) + ';');
 fs.cpSync(path.join(ROOT, 'images', 'library'), path.join(DIST, 'images', 'library'), { recursive: true });
 if (fs.existsSync(path.join(ROOT, 'tools', '_shared'))) fs.cpSync(path.join(ROOT, 'tools', '_shared'), path.join(DIST, 'tools', '_shared'), { recursive: true });
 for (const t of tools) fs.cpSync(path.join(ROOT, 'tools', t), path.join(DIST, 'tools', t), { recursive: true, filter: (s) => !/test\.mjs$|README\.md$|\.py$/.test(s) });
