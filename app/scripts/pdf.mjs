@@ -90,7 +90,18 @@ figure.sec img { width: 100%; height: 3.4in; max-height: none; object-fit: cover
 `;
 
 // Internal sections never go to readers.
-const INTERNAL = /editor.{0,6}s note|layout notes|notes for 454|change ?log|open questions|for review|review notes|what changed|corrections applied|reviewer/i;
+const INTERNAL = /editor.{0,6}s note|layout notes|notes for 454|change ?log|open questions|for review|review notes|what changed|corrections applied|reviewer|anmerkung(en)? der redaktion|redaktionsnotiz|layout-hinweise|hinweise für 454|änderungsprotokoll|offene fragen|zur prüfung|prüfhinweise|was sich geändert hat|korrekturen|prüfer|notitie van de redactie|lay-?outnotities|notities voor 454|wijzigingslog|open vragen|ter review|reviewnotities|wat is er veranderd|correcties|beoordelaar/i;
+// Labels per language for the printed page (the body text comes from the translation itself).
+const LBL = {
+  en: { next: 'Next step', sources: 'Sources', edition: 'Edition', site: 'bromic.com', locale: 'en-US', format: 'Letter', draft: '',
+    colophon: 'Confirm every installation with your local building authority and a licensed electrician or gas fitter. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.' },
+  de: { next: 'Nächster Schritt', sources: 'Quellen', edition: 'Ausgabe', site: 'bromic.de', locale: 'de-DE', format: 'A4', draft: 'Maschinelle Übersetzung, Entwurf',
+    colophon: 'Lassen Sie jede Installation mit Ihrer Baubehörde abstimmen und von einem Elektrofachbetrieb oder Gasinstallateur ausführen (DIN VDE 0100, DVGW-TRGI). WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat-Steuerungen, separat erhältlich.',
+    aud: { RES: 'Bauherren', ARC: 'Architekten und Planer', BLD: 'Bauunternehmer und Installateure', COM: 'Gastronomie und Hotellerie' } },
+  nl: { next: 'Volgende stap', sources: 'Bronnen', edition: 'Editie', site: 'bromic.nl', locale: 'nl-NL', format: 'A4', draft: 'Machinevertaling, concept',
+    colophon: 'Stem elke installatie af met uw gemeente en laat haar uitvoeren door een erkend installateur (NEN 1010, NEN 1078). Wifi- en appfuncties vereisen compatibele Affinity Smart-Heat-bediening, apart verkrijgbaar.',
+    aud: { RES: 'Huiseigenaren', ARC: 'Architecten en ontwerpers', BLD: 'Aannemers en installateurs', COM: 'Horeca en hotels' } },
+};
 const PHOTO_OK = (i) => i && !i.notes && i.kind !== 'cutout' && i.kind !== 'diagram' && i.kind !== 'heat-plan' && i.kind !== 'render' && i.status !== 'rejected' && !/coming soon|coastal|select/i.test(i.product || '');
 function imagePool(it) {
   const ownOnly = [...(it.images || [])].filter((id) => IMG[id] && id !== it.hero);
@@ -129,21 +140,21 @@ function finalBody(it) {
   return { html: out, band: take(false) };
 }
 
-function docHTML(it, built) {
+function docHTML(it, built, L = LBL.en, lang = 'en') {
   const hero = it.hero && IMG[it.hero];
-  const aud = it.audience.map((a) => AUD[a]?.name || a).join(' · ');
+  const aud = it.audience.map((a) => (L.aud && L.aud[a]) || AUD[a]?.name || a).join(' · ');
   const dek = it.dek || it.meta_description || it.summary;
   const { html, band } = finalBody(it);
-  const cta = it.cta && it.cta.label ? `<div class="cta"><span class="label">Next step</span><p>${esc(it.cta.label)}</p></div>` : '';
-  const srcs = it.sources.length ? `<section class="s">${band ? `<div class="band"><img src="${esc(band.file)}" alt=""></div>` : ''}<h2>Sources</h2><ol class="sources">${it.sources.map((s) => `<li id="src-${esc(it.id)}-${esc(s.id)}"><b>${esc(s.publisher || '')}</b>${s.title ? `, ${esc(s.title)}` : ''}${s.year ? ` (${esc(s.year)})` : ''}${/^https?:/.test(s.url || '') ? `. <a href="${esc(s.url)}">${esc(s.url)}</a>` : ''}</li>`).join('')}</ol>
-    <p class="colophon">Confirm every installation with your local building authority and a licensed electrician or gas fitter. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately. © ${new Date(HUB.built).getFullYear()} Bromic Heating · bromic.com</p></section>` : '';
-  const month = new Date((it.updated || HUB.built.slice(0, 10)) + 'T12:00:00Z').toLocaleString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' });
-  return `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>${esc(it.title)} | Bromic Heating</title><base href="file://${DIST}/"><style>${css}</style></head><body class="${/^A01/.test(it.id) ? 'trends' : ''}">
+  const cta = it.cta && it.cta.label ? `<div class="cta"><span class="label">${esc(L.next)}</span><p>${esc(it.cta.label)}</p></div>` : '';
+  const srcs = it.sources.length ? `<section class="s">${band ? `<div class="band"><img src="${esc(band.file)}" alt=""></div>` : ''}<h2>${esc(L.sources)}</h2><ol class="sources">${it.sources.map((s) => `<li id="src-${esc(it.id)}-${esc(s.id)}"><b>${esc(s.publisher || '')}</b>${s.title ? `, ${esc(s.title)}` : ''}${s.year ? ` (${esc(s.year)})` : ''}${/^https?:/.test(s.url || '') ? `. <a href="${esc(s.url)}">${esc(s.url)}</a>` : ''}</li>`).join('')}</ol>
+    <p class="colophon">${esc(L.colophon)} © ${new Date(HUB.built).getFullYear()} Bromic Heating · ${L.site}</p></section>` : '';
+  const month = new Date((it.updated || HUB.built.slice(0, 10)) + 'T12:00:00Z').toLocaleString(L.locale, { month: 'long', year: 'numeric', timeZone: 'UTC' });
+  return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><title>${esc(it.title)} | Bromic Heating</title><base href="file://${DIST}/"><style>${css}</style></head><body class="${/^A01/.test(it.id) ? 'trends' : ''}">
   <section class="cover">
     <div class="top"><span class="wordmark">BROMIC<small>HEATING</small></span></div>
     <div class="titles"><div class="rule"></div><span class="label">${esc(aud)}</span><h1>${esc(it.title)}</h1>${dek ? `<p class="dek">${esc(dek)}</p>` : ''}</div>
     <div class="hero">${hero ? `<img src="${esc(hero.file)}" alt="${esc(hero.alt)}">` : ''}</div>
-    <div class="meta"><span><b>Edition</b>${esc(month)}</span><span><b>Bromic Heating</b>bromic.com</span></div>
+    <div class="meta"><span><b>${esc(L.edition)}</b>${esc(month)}</span><span><b>Bromic Heating</b>${L.site}${L.draft ? ' · ' + esc(L.draft) : ''}</span></div>
   </section>
   <main>${html}${cta}${srcs}</main>
   </body></html>`;
@@ -165,22 +176,37 @@ function printCopies(htmlDoc) {
 fs.mkdirSync(OUT, { recursive: true });
 const browser = await chromium.launch();
 const built = `${new Date(HUB.built).toISOString().slice(0, 10)}${HUB.commit ? ' · ' + HUB.commit : ''}`;
-for (const it of items) {
+async function print(it, L, lang, file) {
   const page = await browser.newPage();
-  const tmp = path.join(DIST, `_pdf-${it.id}.html`);
-  fs.writeFileSync(tmp, printCopies(docHTML(it, built)));
+  const tmp = path.join(DIST, `_pdf-${lang}-${it.id}.html`);
+  fs.writeFileSync(tmp, printCopies(docHTML(it, built, L, lang)));
   await page.goto('file://' + tmp, { waitUntil: 'load' });
-  const draft = it.status !== 'approved' && it.status !== 'published';
   await page.pdf({
-    path: path.join(OUT, `${it.id}.pdf`), format: 'Letter', printBackground: true, displayHeaderFooter: true,
+    path: file, format: L.format, printBackground: true, displayHeaderFooter: true,
     headerTemplate: '<span></span>',
     footerTemplate: `<div style="width:100%;font:7pt Helvetica,Arial,sans-serif;color:#71777D;padding:0 0.75in;display:flex;justify-content:space-between">
-      <span>Bromic Heating · ${esc(it.title).slice(0, 80)}</span><span><span class="pageNumber"></span> / <span class="totalPages"></span></span></div>`,
+      <span>Bromic Heating · ${esc(it.title).slice(0, 80)}${L.draft ? ' · ' + esc(L.draft) : ''}</span><span><span class="pageNumber"></span> / <span class="totalPages"></span></span></div>`,
     margin: { top: '0.8in', bottom: '0.85in', left: '0.75in', right: '0.75in' },
   });
   fs.unlinkSync(tmp); await page.close();
-  console.log(`pdf/${it.id}.pdf  ${(fs.statSync(path.join(OUT, `${it.id}.pdf`)).size / 1e6).toFixed(1)} MB  ${it.title.slice(0, 60)}`);
+  console.log(`${path.relative(DIST, file)}  ${(fs.statSync(file).size / 1e6).toFixed(1)} MB  ${it.title.slice(0, 60)}`);
+}
+for (const it of items) await print(it, LBL.en, 'en', path.join(OUT, `${it.id}.pdf`));
+// Translations: the same document in German and Dutch, from data-<lang>.js (A4, local labels, marked as a machine draft).
+const langIndex = {};
+for (const lang of Object.keys(LBL).filter((l) => l !== 'en')) {
+  const f = path.join(DIST, `data-${lang}.js`); if (!fs.existsSync(f)) continue;
+  const T = JSON.parse(fs.readFileSync(f, 'utf8').replace(/^\(window\.HUB_TR=window\.HUB_TR\|\|\{\}\)\[[^\]]+\]=/, '').replace(/;\s*$/, ''));
+  fs.mkdirSync(path.join(OUT, lang), { recursive: true });
+  langIndex[lang] = [];
+  for (const it of items) {
+    const t = T[it.id]; if (!t) continue;
+    const tit = { ...it, title: t.title, summary: t.summary, dek: t.dek, meta_description: t.meta_description, html: t.html, cta: t.cta || it.cta };
+    await print(tit, LBL[lang], lang, path.join(OUT, lang, `${it.id}.pdf`));
+    langIndex[lang].push(it.id);
+  }
 }
 await browser.close();
 fs.rmSync(IMGDIR, { recursive: true, force: true });
 fs.writeFileSync(path.join(OUT, 'index.json'), JSON.stringify(items.map((it) => it.id)));
+fs.writeFileSync(path.join(OUT, 'langs.json'), JSON.stringify(langIndex));

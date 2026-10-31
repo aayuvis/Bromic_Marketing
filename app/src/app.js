@@ -201,6 +201,9 @@
     const q = $('#q'); if (q) { q.dataset.en ||= q.placeholder; q.placeholder = STR(q.dataset.en); }
   }
 
+  // A translated page downloads its translated PDF (pdf/<lang>/<id>.pdf, built by scripts/pdf.mjs from data-<lang>.js).
+  const pdfHref = (it) => (it.tr && it.lang !== 'en' ? `pdf/${it.lang}/${encodeURIComponent(it.id)}.pdf` : `pdf/${encodeURIComponent(it.id)}.pdf`);
+
   function toast(msg) { const t = $('#toast'); t.textContent = msg; t.classList.add('on'); clearTimeout(toast.t); toast.t = setTimeout(() => t.classList.remove('on'), 1800); }
   async function copy(text, msg) {
     try { await navigator.clipboard.writeText(text); toast(msg); }
@@ -429,7 +432,7 @@
       <h1>${ED ? ED.title(it) : esc(it.title)}</h1>
       ${it.summary || (ED && ED.active(it.id)) ? `<p class="dek">${ED ? ED.summary(it) : esc(it.summary)}</p>` : ''}
       ${tool ? `<p><a class="btn primary" href="#/tool/${esc(tool)}">${ic.arrow} ${esc(STR('Open the tool'))}</a></p>` : ''}
-      ${hasPdf(it) ? `<p><a class="btn primary" href="pdf/${esc(it.id)}.pdf" download="Bromic-${esc(it.id)}.pdf">${ic.down}${esc(STR('Download the PDF'))}</a> <span class="muted" style="font-size:13px">${it.status === 'approved' || it.status === 'published' ? 'Ready to share' : 'Review draft'}</span></p>` : ''}
+      ${hasPdf(it) ? `<p><a class="btn primary" href="${pdfHref(it)}" download="Bromic-${esc(it.id)}${it.tr && it.lang !== 'en' ? '-' + it.lang : ''}.pdf">${ic.down}${esc(STR('Download the PDF'))}</a> <span class="muted" style="font-size:13px">${it.status === 'approved' || it.status === 'published' ? 'Ready to share' : 'Review draft'}</span></p>` : ''}
       <div class="prose">${ED ? ED.prose(it) : it.html}</div>
       ${it.sources.length ? `<hr class="rule"><h2 style="font-size:24px;margin-bottom:6px">Sources</h2><p class="muted" style="margin-top:0;font-size:13px">${it.sources.length} mapped · ${it.sources.length - unverified(it)} verified</p>
       <ol class="srcs">${it.sources.map((s, i) => `<li id="src-${esc(it.id)}-${esc(s.id)}"><span class="n">${i + 1}</span><span><b>${esc(s.publisher || '')}</b>${s.title ? ` — ${esc(s.title)}` : ''}${s.year ? ` (${esc(s.year)})` : ''} ${s.verified ? '<span class="chip ok">Verified</span>' : '<span class="chip warn">Verify</span>'}
@@ -464,7 +467,7 @@
       <div class="panel"><h4>Feedback</h4><div id="fb-panel"><p class="muted" style="font-size:13px;margin:0">Loading…</p></div><button class="btn" style="margin-top:10px" data-fb>${ic.chat}Give feedback</button></div>
       ${rel.length ? `<div class="panel"><h4>Related</h4><ul class="list">${rel.map((r) => `<li><a href="#/item/${esc(r.id)}"><span class="t" style="font-size:15px">${esc(r.title)}</span></a></li>`).join('')}</ul></div>` : ''}
       <div class="btns">
-        ${hasPdf(it) ? `<a class="btn primary" href="pdf/${esc(it.id)}.pdf" download="Bromic-${esc(it.id)}.pdf">${ic.down}Download PDF</a>` : ''}
+        ${hasPdf(it) ? `<a class="btn primary" href="${pdfHref(it)}" download="Bromic-${esc(it.id)}${it.tr && it.lang !== 'en' ? '-' + it.lang : ''}.pdf">${ic.down}Download PDF</a>` : ''}
         <button class="btn" data-act="md" data-id="${esc(it.id)}">${ic.copy}Copy Markdown</button>
         <button class="btn" data-act="html" data-id="${esc(it.id)}">${FRAMED ? ic.copy + 'Copy HTML' : ic.down + 'Export HTML'}</button>
         <button class="btn no-frame" data-act="print">${ic.print}Print / PDF</button>
@@ -588,14 +591,14 @@
 
   // ---------- downloads: every gated document as a PDF ----------
   const pdfList = () => H.items.filter(hasPdf).sort((a, b) => (a.id.startsWith('A01') ? 0 : 1) - (b.id.startsWith('A01') ? 0 : 1) || a.id.localeCompare(b.id));
-  const pdfBtn = (it, label = 'Download PDF') => `<a class="btn primary" href="pdf/${esc(it.id)}.pdf" download="Bromic-${esc(it.id)}.pdf">${ic.down}${label}</a>`;
+  const pdfBtn = (it, label = 'Download PDF') => `<a class="btn primary" href="${pdfHref(it)}" download="Bromic-${esc(it.id)}${it.tr && it.lang !== 'en' ? '-' + it.lang : ''}.pdf">${ic.down}${label}</a>`;
   function downloadsPage() {
     const L = pdfList();
     return `<div class="ph"><div><span class="label">Downloads</span><h1>Reports, guides and kits as PDFs</h1><p>${L.length} documents, rebuilt from the latest content at every update. Each opens with a cover and carries its sources and one next step.</p></div></div>
       <div class="dl-grid">${L.map((it) => `<article class="dl-card"><a class="dl-cover" href="#/item/${esc(it.id)}">${img(it.hero)}</a>
         <div class="dl-body"><span class="label">${esc(TYPES[it.type] || it.type)} · ${it.audience.map((a) => esc(AUD[a]?.name || a)).join(', ')}</span>
         <h3><a href="#/item/${esc(it.id)}">${esc(it.title)}</a></h3>${it.meta_description || it.summary ? `<p>${esc(it.meta_description || it.summary)}</p>` : ''}
-        <div class="btns">${pdfBtn(it)}<a class="btn" href="pdf/${esc(it.id)}.pdf" target="_blank" rel="noopener">${ic.ext}Open</a></div></div></article>`).join('')}</div>`;
+        <div class="btns">${pdfBtn(it)}<a class="btn" href="${pdfHref(it)}" target="_blank" rel="noopener">${ic.ext}Open</a></div></div></article>`).join('')}</div>`;
   }
 
   // ---------- blog: the live bromic.com/blog, post by post, and what replaces each ----------
