@@ -77,6 +77,17 @@ strategy recovers existing pages instead of adding new ones), absorbing the post
 follows `templates/blog-brief.md`: a 40–80 word answer first, H2s, a table where it fits, controls with every heater, sources,
 one CTA, `technical_reviewer` and `last_reviewed`. The Hub's Blog tab shows all 73 live posts and what replaces each.
 
+## Installations found on the web (12 Nov 2026)
+
+`data/web-installs.json`: 36 named Bromic installations found on the open web (venues, installers, architects, listings, trade press),
+each with its sources and a confidence; Bromic's own case-study pages are excluded. 16 became **case-study drafts** in
+`content/case-studies/web/CSW-*.md` (`source_kind: web-find`, `status: draft`): sourced facts only, controls `[[VERIFY]]` where not
+stated, no numbers or quotes, and a "To publish" list ending in the template's consent checklist. The rest are leads.
+**Images:** photos owned by venues, installers or the press are listed under "Photos to request", never copied. A draft uses a
+Bromic-published photo of that project where one exists (21 `m-` images from Bromic's 2022 marine presentation; the Juneau
+showhome from bromic.com), otherwise a comparable Bromic image with `hero_caption` saying so. `scripts/build_case_studies.py`
+adds the finds to the Cases tab as `kind: web-find` (filter "Found on the web"; counted in the whitespace grid).
+
 ## Feedback loop (start every session here)
 
 The Hub has a Feedback button on every page, a comment button on every section heading, "Comment on this" for selected text, and

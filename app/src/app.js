@@ -426,7 +426,7 @@
     const ED = window.HubEditor, hero = ED ? ED.heroId(it) : it.hero;
     return `<nav class="crumbs"><a href="#/library">Library</a><span>/</span><a href="${libHref({ type: it.type })}">${esc(TYPES[it.type] || it.type)}</a>${it.cell ? `<span>/</span><a href="#/journey/${esc(it.cell)}">${esc(it.cell)}</a>` : ''}</nav>
     <div class="ed-start"><button type="button" class="btn" data-edit-page>${ic.pen}${esc(STR('Edit this page'))}</button></div>
-    ${hero ? `<div class="reader-hero">${img(hero, '', false)}${ED ? ED.heroButton(it) : ''}</div>` : ED && ED.active(it.id) ? `<div class="reader-hero ed-nohero">${ED.heroButton(it)}</div>` : ''}
+    ${hero ? `<div class="reader-hero">${img(hero, '', false)}${ED ? ED.heroButton(it) : ''}${it.hero_caption && hero === it.hero ? `<p class="hero-cap">${esc(it.hero_caption)}</p>` : ''}</div>` : ED && ED.active(it.id) ? `<div class="reader-hero ed-nohero">${ED.heroButton(it)}</div>` : ''}
     <div class="reader"><article>
       <span class="label">${esc(TYPES[it.type] || it.type)} · ${esc(it.id)}${isGated(it) ? ' · Gated' : ''}</span>
       <h1>${ED ? ED.title(it) : esc(it.title)}</h1>
@@ -633,7 +633,7 @@
   const matchQ = (r, q) => Object.entries(q).every(([g, ids]) => !ids.length || ids.some((id) => (r.tags[g] || []).includes(id)));
   function csList() {
     const coll = CS.collections.find((c) => c.id === csColl);
-    return CS.records.filter((r) => (csKind === 'all' || (csKind === 'written' ? r.kind === 'case-study' : r.kind === 'project' && !r.written_as))
+    return CS.records.filter((r) => (csKind === 'all' || (csKind === 'written' ? r.kind === 'case-study' : csKind === 'web' ? r.kind === 'web-find' : r.kind === 'project' && !r.written_as))
       && matchQ(r, csF) && (!coll || matchQ(r, coll.query) || (coll.named || []).includes(r.id))
       && (!searchTerm || [r.title, r.customer, r.location, r.summary].join(' ').toLowerCase().includes(searchTerm)));
   }
@@ -641,7 +641,7 @@
   function csCard(r) {
     const img = r.images?.length ? IMG[r.images[0]] : null;
     const chips = ['segment', 'space', 'install', 'product', 'theme'].flatMap((g) => (r.tags[g] || []).map((id) => `<span class="chip">${esc(TG(g, id))}</span>`)).join('');
-    const badge = r.kind === 'case-study' ? (r.read === 'search-snippet-only' ? '<span class="chip warn">Search listing only</span>' : '<span class="chip solid">Case study</span>') : r.written_as ? '<span class="chip">Photos of a written study</span>' : '<span class="chip">Photos only, not written up</span>';
+    const badge = r.kind === 'web-find' ? (r.case_study_item ? `<a class="chip solid" href="#/item/${esc(r.case_study_item)}">Case-study draft ${esc(r.case_study_item)}</a><span class="chip">Found on the web</span>` : '<span class="chip warn">Web lead: confirm</span>') : r.kind === 'case-study' ? (r.read === 'search-snippet-only' ? '<span class="chip warn">Search listing only</span>' : '<span class="chip solid">Case study</span>') : r.written_as ? '<span class="chip">Photos of a written study</span>' : '<span class="chip">Photos only, not written up</span>';
     return `<article class="cs-card">${img ? `<button class="cs-img" data-img="${img.id}" aria-label="View photo"><img src="${img.thumb}" alt="${esc(img.alt)}" loading="lazy"></button>` : '<div class="cs-img none">No photo in the library yet</div>'}
       <div class="cs-body"><div class="row gap">${badge}${(r.tags.market || []).map((m) => `<span class="chip">${esc(m)}</span>`).join('')}${r.year ? `<span class="muted" style="font-size:13px">${r.year}</span>` : ''}</div>
       <h3>${r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title || r.customer || r.id)}</a>` : esc(r.title || r.id)}</h3>
@@ -655,21 +655,21 @@
     if (!CS.tax) return '<div class="empty">No case-study data. Run <code>python3 scripts/build_case_studies.py</code>.</div>';
     const list = csList();
     const groupSel = (g) => `<label class="muted" style="font-size:13px">${esc(CS.tax.groups[g].label)} <select data-csf="${g}"><option value="">All</option>${CS.tax.groups[g].tags.filter((t) => CS.records.some((r) => (r.tags[g] || []).includes(t.id))).map((t) => `<option value="${t.id}" ${(csF[g] || [])[0] === t.id ? 'selected' : ''}>${esc(t.label)}</option>`).join('')}</select></label>`;
-    const nW = CS.records.filter((r) => r.kind === 'case-study').length, nP = CS.records.filter((r) => r.kind === 'project' && !r.written_as).length;
-    return `<div class="ph"><div><span class="label">Case studies</span><h1>Every Bromic project, tagged the way sales sells it</h1><p>${nW} written case studies (US, Australia, Europe, marine) and ${nP} photographed projects never written up, from bromic.com, bromic.com.au and bromic.ca. Tag by segment, space, install, product, controls, theme, market and proof; the collections are the sales deck's.</p></div></div>
+    const nW = CS.records.filter((r) => r.kind === 'case-study').length, nP = CS.records.filter((r) => r.kind === 'project' && !r.written_as).length, nWeb = CS.records.filter((r) => r.kind === 'web-find').length;
+    return `<div class="ph"><div><span class="label">Case studies</span><h1>Every Bromic project, tagged the way sales sells it</h1><p>${nW} written case studies (US, Australia, Europe, marine) and ${nP} photographed projects never written up, from bromic.com, bromic.com.au and bromic.ca, plus ${nWeb} installations found on the open web (venues, installers, press), each with its sources. Tag by segment, space, install, product, controls, theme, market and proof; the collections are the sales deck's.</p></div></div>
       ${csTabs('')}
       <div class="sec-h"><h2>Collections</h2></div><div class="cs-colls">${CS.collections.map((c) => { const n = CS.records.filter((r) => matchQ(r, c.query) || (c.named || []).includes(r.id)).length; const r0 = CS.records.find((r) => ((c.named || []).includes(r.id) || matchQ(r, c.query)) && r.images?.length); const im = r0 && IMG[r0.images[0]];
         return `<button class="cs-coll ${csColl === c.id ? 'on' : ''}" data-cscoll="${c.id}">${im ? `<img src="${im.thumb}" alt="" loading="lazy">` : ''}<span><b>${esc(c.title)}</b><br><i>${esc(c.place)}</i><br><span class="muted">${n} on the sites${(c.deck_only || []).length ? ` · ${c.deck_only.length} deck-only to capture` : ''}</span></span></button>`; }).join('')}</div>
       ${csColl ? (() => { const c = CS.collections.find((x) => x.id === csColl); return (c.deck_only || []).length ? `<div class="callout"><b>${esc(c.title)}: in the sales deck, not on any Bromic site.</b> ${c.deck_only.map((d) => `${esc(d.place)} <a href="#/cases/capture?segment=${esc((c.query.segment || [''])[0])}&market=${esc(d.market)}">Capture it</a>`).join(' · ')}</div>` : ''; })() : ''}
       <div class="toolbar"><span class="muted">${list.length} shown${csColl || Object.values(csF).some((x) => x.length) ? ' · <button class="clear" data-csclear>Clear</button>' : ''}</span>
-      <span class="btns"><label class="muted" style="font-size:13px">Show <select data-cskind><option value="all" ${csKind === 'all' ? 'selected' : ''}>All</option><option value="written" ${csKind === 'written' ? 'selected' : ''}>Written case studies</option><option value="photos" ${csKind === 'photos' ? 'selected' : ''}>Photo-only projects</option></select></label>
+      <span class="btns"><label class="muted" style="font-size:13px">Show <select data-cskind><option value="all" ${csKind === 'all' ? 'selected' : ''}>All</option><option value="written" ${csKind === 'written' ? 'selected' : ''}>Written case studies</option><option value="photos" ${csKind === 'photos' ? 'selected' : ''}>Photo-only projects</option><option value="web" ${csKind === 'web' ? 'selected' : ''}>Found on the web</option></select></label>
       ${['segment', 'market', 'space', 'install', 'product', 'theme', 'proof'].map(groupSel).join('')}</span></div>
       <div class="cs-grid">${list.slice(0, 120).map(csCard).join('') || '<div class="empty">Nothing matches. That may be whitespace: <a href="#/cases/whitespace">see the grid</a>.</div>'}</div>${list.length > 120 ? `<p class="muted">Showing 120 of ${list.length}; narrow the filters.</p>` : ''}`;
   }
   function wsCell(seg, mkt) {
     const recs = CS.records.filter((r) => (r.tags.segment || []).includes(seg) && (r.tags.market || []).includes(mkt) && matchQ(r, Object.fromEntries(Object.entries(wsF).filter(([, v]) => v).map(([g, v]) => [g, [v]]))));
     const written = recs.filter((r) => r.kind === 'case-study' && r.read !== 'search-snippet-only');
-    const photos = recs.filter((r) => r.kind === 'project' && !r.written_as);
+    const photos = recs.filter((r) => (r.kind === 'project' && !r.written_as) || r.kind === 'web-find');
     const target = CS.targets.find((t) => t.segment === seg && t.market === mkt);
     return { written, photos, target, unread: recs.filter((r) => r.read === 'search-snippet-only') };
   }

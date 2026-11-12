@@ -150,6 +150,36 @@ for r in out:
     hit = next((c for c in out if c['id'].startswith(w[:60])), None)
     if hit: r['written_as'] = hit['id']; hit.setdefault('gallery_projects', []).append(r['id']); hit['images'] = sorted(set(hit['images']) | set(r['images']))
 
+# Installations found on the open web (data/web-installs.json, 12 Nov 2026): leads and case-study drafts, never Bromic pages.
+WEB = os.path.join(ROOT, 'data', 'web-installs.json')
+if os.path.exists(WEB):
+    SEG = {'restaurant': 'restaurant', 'bar': 'bar-rooftop', 'hotel': 'hotel-resort', 'resort': 'hotel-resort', 'club': 'pub-club',
+           'residential': 'single-family', 'multifamily': 'multifamily', 'sports/stadium': 'stadium-arena', 'winery/brewery': 'winery-brewery'}
+    PROD = {'Tungsten Electric': 'tungsten-electric', 'Tungsten Gas': 'tungsten-gas', 'Tungsten Smart-Heat Freestanding Gas': 'tungsten-portable',
+            'Platinum Electric': 'platinum-electric', 'Platinum Gas': 'platinum-gas', 'Eclipse Electric': 'eclipse-electric', 'Eclipse Freestanding': 'eclipse-portable', 'Cobalt': 'cobalt'}
+    def web_images(cs_id):  # the photos the case-study draft uses (front matter `images:`)
+        if not cs_id: return []
+        import glob
+        for f in glob.glob(os.path.join(ROOT, 'content', 'case-studies', 'web', cs_id + '-*.md')):
+            m = re.search(r'^images: (\[.*\])$', open(f).read(), re.M)
+            return json.loads(m.group(1)) if m else []
+        return []
+    for w in json.load(open(WEB))['installs']:
+        marine = w.get('segment') == 'marine'
+        seg = ['marine-yacht' if re.search(r'M/Y|yacht|OA ?100', w['venue'], re.I) else 'marine-cruise'] if marine else [SEG[w['segment']]] if w.get('segment') in SEG else []
+        prod = ['platinum-marine'] if marine else sorted({PROD[p] for p in (w.get('product_normalised') or []) if p in PROD})
+        loc = ', '.join(x for x in [w.get('city'), w.get('region'), w.get('country')] if x)
+        rec = {'id': 'web-' + w['id'].lower(), 'kind': 'web-find', 'title': w['venue'], 'customer': w['venue'], 'location': loc,
+               'url': (w.get('sources') or [{}])[0].get('url'), 'also_at': [s['url'] for s in (w.get('sources') or [])[1:]], 'read': w.get('confidence', ''),
+               'summary': w.get('story', ''), 'year': None,
+               'tags': {'segment': seg, 'space': [], 'install': [], 'product': prod, 'controls': ['controls-not-stated'], 'theme': [],
+                        'market': ['MARINE'] if marine else [m for m in [market_of(loc)] if m], 'proof': ['press'] if any(s.get('kind') == 'press' for s in w.get('sources') or []) else []},
+               'issues': [] if w.get('case_study') else ['Lead from the open web: confirm with the customer before use'],
+               'images': web_images(w.get('case_study')),
+               'note': f"Found on the web, 12 Nov 2026. {'Case-study draft ' + w['case_study'] + '.' if w.get('case_study') else 'Lead only.'}",
+               'case_study_item': w.get('case_study')}
+        check(rec); out.append(rec)
+
 # Hand edits from marketing (data/case-study-tags.json: {id: {group: [tags]} or {field: value}}) win.
 if os.path.exists(EXTRA):
     ed = json.load(open(EXTRA))

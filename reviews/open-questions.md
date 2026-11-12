@@ -180,3 +180,12 @@ The ten answers that unblock the most content (basis: docs/HANDOVER-next-session
 | 20 ft² a seat (NAFEM chart, fine-dining end, via the Restaurant Furniture guide): open the NAFEM chart itself and confirm. | Brian Kim | Same |
 | Freestanding heaters: no more than four seats a heater (owner rule, 30 Oct 2026). Confirm Bromic's own guidance for the Tungsten Freestanding Gas and Eclipse Freestanding. | Mike Clifford | Same |
 
+## Installations found on the web (12 Nov 2026)
+
+| Question | Owner | Used by |
+|---|---|---|
+| Confirm each case-study draft with the customer (models, quantities, controls) and get consent to name them; superyacht owners may require anonymity. | Karl Tschauner (US), Josh Maingard (marine), Bromic AU, UK and EU leads | content/case-studies/web/CSW-01 to CSW-16 |
+| Licence to reuse the 21 photos taken from Bromic's 2022 marine presentation (yards, owners or photographers). | Josh Maingard | CSW-13 to CSW-16, images m-* |
+| Photographer licence for the Juneau showhome photo published on bromic.com. | Megan Spies | CSW-03 |
+| Original project files and photos behind Bromic's own ArchiExpo listings (The Queen's Club, Chiswick, Azotea del Círculo). | Bromic UK, AU, EU | CSW-08, CSW-11, CSW-12 |
+

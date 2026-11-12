@@ -1,0 +1,1623 @@
+{
+ "_readme": "Bromic installations found on the open web (12 Nov 2026), outside Bromic's own case-study pages. Every entry names its sources; most are snippets or third-party pages and must be confirmed with the customer before use. Images owned by others are listed, never copied. Case-study drafts: content/case-studies/web/.",
+ "built": "2026-11-12",
+ "installs": [
+  {
+   "venue": "Boneyard Saloon and Restaurant",
+   "city": "Park City",
+   "region": "Utah",
+   "country": "USA",
+   "segment": "restaurant",
+   "products": "Bromic Heaters",
+   "product_normalised": [
+    "other/unknown"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "upper deck dining area",
+   "installer": "StruXure Utah (pergola dealer; the post says the company will install the heaters)",
+   "architect_designer": "",
+   "builder_developer": "",
+   "year": "2023 (post dated 13 Oct 2023; described as planned work)",
+   "story": "A Park City tavern whose upper deck had only been usable in warm months. StruXure Utah posted that it would add a StruXure pergola with Bromic heaters, MistAmerica misting, AspectLED dimmable lighting and Progressive MagnaTrack vinyl screens, so the screens hold the heat in and block wind while keeping the mountain view. The post describes the plan; it does not confirm the work was finished.",
+   "confidence": "medium (dealer/installer lists venue + Bromic product)",
+   "case_study_value": "A mountain-resort town with cold winters, plus a pergola-partner channel (StruXure), which suits a 'designed from the start' story. First confirm the install was finished and which products were used, with StruXure Utah or the venue.",
+   "sources": [
+    {
+     "url": "https://www.flickr.com/photos/198595277@N06/53255721553/",
+     "publisher": "StruXure Utah (Flickr account StruXureUT)",
+     "kind": "installer",
+     "read": "page",
+     "says": "Photo post (13 Oct 2023) saying the Boneyard Saloon upper deck will get Bromic heaters together with vinyl wind screens, misting and lighting, to make the deck usable in colder weather. The model and the number of heaters are not given."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://www.flickr.com/photos/198595277@N06/53255721553/",
+     "owner": "StruXure Utah",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-001",
+   "case_study": null,
+   "found": "2026-11-12",
+   "status": "lead: confirm before use"
+  },
+  {
+   "venue": "Four Seasons Hotel Chicago",
+   "city": "Chicago",
+   "region": "Illinois",
+   "country": "USA",
+   "segment": "hotel",
+   "products": "Tungsten Electric",
+   "product_normalised": [
+    "Tungsten Electric"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "",
+   "installer": "",
+   "architect_designer": "",
+   "builder_developer": "",
+   "year": "",
+   "story": "A search summary said a gallery caption on Bromic's US hotels page names a Tungsten Electric heater at the Four Seasons Chicago. No third-party page confirming the install was found, and the bromic.com page was not opened (it sits behind Cloudflare).",
+   "confidence": "high (source names Bromic at this venue explicitly)",
+   "case_study_value": "A five-star global hotel brand in a cold Midwest city, which fills a climate gap left by the California, Arizona and Texas hospitality case studies. This is a lead from Bromic's own gallery only: find the property contact and the story behind it before writing it up.",
+   "sources": [
+    {
+     "url": "https://www.bromic.com/hotels/",
+     "publisher": "Bromic Heating (own site, gallery caption — not a case study)",
+     "kind": "other",
+     "read": "snippet only",
+     "says": "Search summary: a gallery caption on the hotels page mentions a Tungsten Electric unit at the Four Seasons Chicago."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://www.bromic.com/hotels/",
+     "owner": "Bromic Heating (photographer unknown)",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-002",
+   "case_study": null,
+   "found": "2026-11-12",
+   "status": "lead: confirm before use"
+  },
+  {
+   "venue": "The Luna (Wilmington Parade of Homes entry), 1826 Montage Lane, Airlie at Wrightsville Sound",
+   "city": "Wilmington",
+   "region": "North Carolina",
+   "country": "USA",
+   "segment": "residential",
+   "products": "Custom recessed Bromic heaters",
+   "product_normalised": [
+    "other/unknown"
+   ],
+   "mounting": "recessed (porch ceiling)",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "porch overlooking the pool",
+   "installer": "",
+   "architect_designer": "Interior design: Elle/A. Interiors",
+   "builder_developer": "Hardison Building Inc.",
+   "year": "2026 (page and images dated 2026; parade year not stated)",
+   "story": "A fully custom coastal home built by Hardison Building for the Wilmington Parade of Homes, with a gunite pool, hot tub, exotic-wood porch ceilings and an outdoor kitchen with Wolf appliances. The feature list names custom recessed Bromic heaters on the porch that overlooks the pool. The home won a Gold award for Best Outdoor Living.",
+   "confidence": "high (source names Bromic at this venue explicitly)",
+   "case_study_value": "An award-winning parade home in a humid coastal Southeast market, with a named builder: a strong builder-channel story about recessed heat designed in from the start. Coastal site: worth checking whether Marine-grade units were used.",
+   "sources": [
+    {
+     "url": "https://wilmingtonparadeofhomes.com/homes/the-luna/",
+     "publisher": "Wilmington Parade of Homes (WCHBA)",
+     "kind": "listing",
+     "read": "page",
+     "says": "Feature list includes custom recessed Bromic heaters on the porch overlooking the pool; builder Hardison Building; Gold for Best Outdoor Living."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://wilmingtonparadeofhomes.com/homes/the-luna/",
+     "owner": "Hardison Building / Wilmington Parade of Homes (no photo credit shown)",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-003",
+   "case_study": "CSW-01",
+   "found": "2026-11-12",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "188 Point View Place (new-build estate)",
+   "city": "Breckenridge",
+   "region": "Colorado",
+   "country": "USA",
+   "segment": "residential",
+   "products": "Bromic heaters",
+   "product_normalised": [
+    "other/unknown"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "terraces / outdoor spaces",
+   "installer": "",
+   "architect_designer": "",
+   "builder_developer": "",
+   "year": "2026 (year built)",
+   "story": "A newly built 7-bed, 11-bath mountain estate of about 10,250 sq ft, listed at $24,995,000. The listing describes resort-level outdoor spaces with heated terraces, a full Hestan outdoor kitchen and Bromic heaters, finished in Shou Sugi Ban charred wood.",
+   "confidence": "high (source names Bromic at this venue explicitly)",
+   "case_study_value": "Alpine ski-town climate at the very top of the market, where heaters sit beside a Hestan kitchen as a selling feature. Shows Bromic as a resale-value item in a real-estate listing; builder and architect still to identify.",
+   "sources": [
+    {
+     "url": "https://www.breckenridgehomes.net/listing/s1068575-188-point-view-place-breckenridge-co-80424/",
+     "publisher": "Breckenridge Associates (listing office Engel & Volkers Denver/Breckenridge), MLS S1068575",
+     "kind": "listing",
+     "read": "page",
+     "says": "Outdoor spaces include heated terraces, a Hestan outdoor kitchen and Bromic heaters; built 2026."
+    },
+    {
+     "url": "https://www.you1stunity.com/featured/",
+     "publisher": "you1stunity.com featured properties",
+     "kind": "listing",
+     "read": "page",
+     "says": "Repeats the same listing (Engel & Volkers Denver) naming Bromic heaters."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://www.breckenridgehomes.net/listing/s1068575-188-point-view-place-breckenridge-co-80424/",
+     "owner": "Listing brokerage / MLS photographer",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-004",
+   "case_study": "CSW-02",
+   "found": "2026-11-12",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "Juneau showhome (Bauer/Clifton Interiors)",
+   "city": "Juneau",
+   "region": "Alaska",
+   "country": "USA",
+   "segment": "residential",
+   "products": "Bromic Platinum Electric heater; Bromic Tungsten wall-mounted heaters (matte black)",
+   "product_normalised": [
+    "Platinum Electric",
+    "Tungsten Electric"
+   ],
+   "mounting": "Tungsten wall-mounted",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "outdoor living, dining and grilling zones; grilling zone about 75 sq ft",
+   "installer": "",
+   "architect_designer": "Bauer/Clifton Interiors",
+   "builder_developer": "",
+   "year": "2024 (article date per mirror)",
+   "story": "A showhome in Juneau's temperate rainforest with its outdoor space split into living, dining and grilling zones. The open grilling zone of about 75 sq ft took a Platinum Electric heater for durability, and matte-black wall-mounted Tungsten heaters were chosen to read as part of the architecture. The clients picked electric over propane or natural gas; the designer calls outdoor heat close to a necessity in Alaska.",
+   "confidence": "high (source names Bromic at this venue explicitly)",
+   "case_study_value": "The coldest-climate US residential example found, with a named designer and zone-by-zone product choices. Note that it is Bromic-sponsored content, so check it is not already held as an internal case study.",
+   "sources": [
+    {
+     "url": "https://dwell.com/article/juneau-alaska-showhome-outdoor-living-bromic-heating-4be0d5a6",
+     "publisher": "Dwell (Partner Story sponsored by Bromic Heating)",
+     "kind": "press",
+     "read": "snippet only",
+     "says": "Platinum Electric in the open 75 sq ft grilling zone; matte black wall-mounted Tungsten heaters; electric chosen over gas. Page returned 403; details from search snippet."
+    },
+    {
+     "url": "https://www.bromicgroup.com/brand-news/bromic-heating-featured-in-dwell-magazine/",
+     "publisher": "Bromic Group brand news",
+     "kind": "other",
+     "read": "page",
+     "says": "Says Dwell featured the Juneau showhome using Platinum Electric and Tungsten Electric heaters."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://dwell.com/article/juneau-alaska-showhome-outdoor-living-bromic-heating-4be0d5a6",
+     "owner": "Dwell / Bromic (sponsored); photographer not seen",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-005",
+   "case_study": "CSW-03",
+   "found": "2026-11-12",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "Private residence, StruXure pergola ('Year-round comfort')",
+   "city": "Livonia",
+   "region": "Michigan",
+   "country": "USA",
+   "segment": "residential",
+   "products": "Bromic Radiant Heaters",
+   "product_normalised": [
+    "other/unknown"
+   ],
+   "mounting": "integrated into the pergola structure",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "720 sq ft project",
+   "installer": "Skyview (Skyview Detroit)",
+   "architect_designer": "",
+   "builder_developer": "",
+   "year": "Fall 2025",
+   "story": "A roof-mounted StruXure louvered pergola attached to the house, with motorized louvers and MagnaTrack motorized solar screens round the perimeter. Bromic radiant heaters were built into the structure so the homeowners can keep using the space as temperatures drop.",
+   "confidence": "high (source names Bromic at this venue explicitly)",
+   "case_study_value": "Midwest cold climate, and a direct example of the StruXure + Bromic pairing through a pergola dealer: a ready installer-partner story.",
+   "sources": [
+    {
+     "url": "https://skyviewusa.com/projects/year-round-comfort/",
+     "publisher": "Skyview (StruXure dealer, Detroit)",
+     "kind": "installer",
+     "read": "page",
+     "says": "Bromic radiant heaters integrated into the pergola to extend use into cooler months; 720 sq ft; Fall 2025."
+    },
+    {
+     "url": "https://skyviewusa.com/project-gallery/",
+     "publisher": "Skyview",
+     "kind": "installer",
+     "read": "page",
+     "says": "Gallery lists the Livonia project with Bromic heaters."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://skyviewusa.com/projects/year-round-comfort/",
+     "owner": "Skyview",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-006",
+   "case_study": "CSW-04",
+   "found": "2026-11-12",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "Private residence, elevated patio and StruXure pergola ('A true outdoor living experience')",
+   "city": "Chelsea",
+   "region": "Michigan",
+   "country": "USA",
+   "segment": "residential",
+   "products": "Bromic heaters",
+   "product_normalised": [
+    "other/unknown"
+   ],
+   "mounting": "integrated into the pergola system",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "420 sq ft project",
+   "installer": "Skyview (Skyview Detroit)",
+   "architect_designer": "",
+   "builder_developer": "",
+   "year": "Summer 2025",
+   "story": "A newly built elevated patio under a three-zone StruXure louvered pergola, with MagnaTrack motorized screens, an outdoor kitchen and bi-fold doors that replaced a wall of the house. Bromic heaters are built into the pergola so the space works in cooler months, making it a four-season room.",
+   "confidence": "high (source names Bromic at this venue explicitly)",
+   "case_study_value": "Shows heat as part of a full indoor-outdoor remodel (bi-fold doors, kitchen, screens) in Michigan; pairs with the Livonia job for a two-project installer story.",
+   "sources": [
+    {
+     "url": "https://skyviewusa.com/projects/a-true-outdoor-living-experience/",
+     "publisher": "Skyview (StruXure dealer, Detroit)",
+     "kind": "installer",
+     "read": "page",
+     "says": "Bromic heaters integrated into the pergola system to extend usability into cooler months; 420 sq ft; Summer 2025."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://skyviewusa.com/projects/a-true-outdoor-living-experience/",
+     "owner": "Skyview",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-007",
+   "case_study": "CSW-04",
+   "found": "2026-11-12",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "Private residence, 'Suburban Retreat' deck and louvered pergola",
+   "city": "Glenview",
+   "region": "Illinois",
+   "country": "USA",
+   "segment": "residential",
+   "products": "Bromic electric heaters",
+   "product_normalised": [
+    "other/unknown"
+   ],
+   "mounting": "hanging from the aluminum pergola",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "",
+   "installer": "Reveal Design LLC (Chicago)",
+   "architect_designer": "Reveal Design LLC",
+   "builder_developer": "",
+   "year": "",
+   "story": "A suburban backyard with a Timbertech composite deck, an opening Pratic Brera louvered pergola, a custom Hestan grill and aluminum outdoor kitchen, a fire table and planting for privacy. Bromic electric heaters hang from the aluminum pergola.",
+   "confidence": "high (source names Bromic at this venue explicitly)",
+   "case_study_value": "Chicago-area design-build landscape firm; heaters on a European louvered pergola (Pratic) rather than StruXure, which widens the pergola-partner story.",
+   "sources": [
+    {
+     "url": "https://revealdesignchicago.com/projects-old/glenview-landscape-louvered-pergola-composite-deck",
+     "publisher": "Reveal Design LLC",
+     "kind": "installer",
+     "read": "page",
+     "says": "Bromic electric heaters installed hanging from the aluminum pergola."
+    },
+    {
+     "url": "https://revealdesignchicago.com/rooftop-decks-old",
+     "publisher": "Reveal Design LLC",
+     "kind": "installer",
+     "read": "page",
+     "says": "Project listing names Pratic Brera pergola, fire pit, Bromic heaters and Hestan grill cabinets."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://revealdesignchicago.com/projects-old/glenview-landscape-louvered-pergola-composite-deck",
+     "owner": "Reveal Design LLC",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-008",
+   "case_study": "CSW-05",
+   "found": "2026-11-12",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "Private residence, North Center backyard (louvered pergola, deck, patio)",
+   "city": "Chicago (North Center)",
+   "region": "Illinois",
+   "country": "USA",
+   "segment": "residential",
+   "products": "Bromic Heaters",
+   "product_normalised": [
+    "other/unknown"
+   ],
+   "mounting": "on the pergola (page says the pergola is equipped with heaters)",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "",
+   "installer": "Reveal Design LLC (Chicago)",
+   "architect_designer": "Reveal Design LLC",
+   "builder_developer": "",
+   "year": "",
+   "story": "A city backyard with an Apollo louvered pergola beside a brick garage with a party door, a composite deck, a clay-paver walk, turf, lit aspens and a fire table. The firm's project listing names Bromic heaters; the project page itself says only that the pergola is equipped with heaters.",
+   "confidence": "medium (dealer/installer lists venue + Bromic product)",
+   "case_study_value": "Urban small-lot Chicago yard; a second project from the same installer, useful for an installer-partner profile.",
+   "sources": [
+    {
+     "url": "https://revealdesignchicago.com/rooftop-decks-old",
+     "publisher": "Reveal Design LLC",
+     "kind": "installer",
+     "read": "page",
+     "says": "Listing for this project names Apollo louvered pergola, fire pit, Bromic heaters, upright trees and stone pavers."
+    },
+    {
+     "url": "https://revealdesignchicago.com/projects-old/north-center-chicago-louvered-pergola-patio-landscape",
+     "publisher": "Reveal Design LLC",
+     "kind": "installer",
+     "read": "page",
+     "says": "Pergola equipped with heaters; brand not named on this page."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://revealdesignchicago.com/projects-old/north-center-chicago-louvered-pergola-patio-landscape",
+     "owner": "Reveal Design LLC",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-009",
+   "case_study": "CSW-05",
+   "found": "2026-11-12",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "Private residence, gable roof patio cover and custom deck",
+   "city": "Sammamish",
+   "region": "Washington",
+   "country": "USA",
+   "segment": "residential",
+   "products": "Bromic outdoor heaters",
+   "product_normalised": [
+    "other/unknown"
+   ],
+   "mounting": "under the patio cover (implied by project)",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "",
+   "installer": "PCF Group (PCF Construction Company)",
+   "architect_designer": "",
+   "builder_developer": "",
+   "year": "",
+   "story": "A cedar gable-roof patio cover with skylights over a new custom deck. For chilly Washington evenings the contractor installed Bromic outdoor heaters together with ceiling fans to manage temperature and airflow through the year.",
+   "confidence": "high (source names Bromic at this venue explicitly)",
+   "case_study_value": "Pacific Northwest damp climate and a timber patio-cover builder; the permit record hints at the electrical side (service upgrade, timers) that makes a good pre-wire story.",
+   "sources": [
+    {
+     "url": "https://pcfgroup.com/project/gable-roof-patio-cover-and-custom-deck-in-sammamish-wa/",
+     "publisher": "PCF Group",
+     "kind": "installer",
+     "read": "snippet only",
+     "says": "Bromic outdoor heaters and ceiling fans installed under the cedar gable roof for year-round comfort. Page fetch returned empty; from search snippet."
+    },
+    {
+     "url": "https://www.buildzoom.com/contractor/pcf-construction-company",
+     "publisher": "BuildZoom",
+     "kind": "other",
+     "read": "snippet only",
+     "says": "A 2025 Washington residential electrical permit for PCF lists a service upgrade and two 30-amp Bromic patio heaters on timer controls; not confirmed to be this same Sammamish job (page 403)."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://pcfgroup.com/project/gable-roof-patio-cover-and-custom-deck-in-sammamish-wa/",
+     "owner": "PCF Group",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-010",
+   "case_study": "CSW-06",
+   "found": "2026-11-12",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "Private residence, outdoor living area in the Memorial area",
+   "city": "Houston",
+   "region": "Texas",
+   "country": "USA",
+   "segment": "residential",
+   "products": "Bromic heaters",
+   "product_normalised": [
+    "other/unknown"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "about 550 sq ft outdoor living area",
+   "installer": "Texas Custom Patios (TCP)",
+   "architect_designer": "",
+   "builder_developer": "Texas Custom Patios",
+   "year": "",
+   "story": "A roughly 550 sq ft outdoor living space with an outdoor kitchen built by Texas Custom Patios in Houston's Memorial area. The contractor says it installed Bromic heaters so the space is comfortable all year.",
+   "confidence": "high (source names Bromic at this venue explicitly)",
+   "case_study_value": "Warm-climate market (Houston) where heat is a shoulder-season extra: useful counterpoint to the cold-climate stories. Page is now 404, so contact the contractor to confirm.",
+   "sources": [
+    {
+     "url": "https://texascustompatios.com/project/outdoor-living-in-memorial-area-of-houston/",
+     "publisher": "Texas Custom Patios",
+     "kind": "installer",
+     "read": "snippet only",
+     "says": "TCP installed Bromic heaters in a ~550 sq ft outdoor living area with kitchen for year-round comfort. Page returned 404 when fetched; from search snippet."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://texascustompatios.com/project/outdoor-living-in-memorial-area-of-houston/",
+     "owner": "Texas Custom Patios",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-011",
+   "case_study": "CSW-07",
+   "found": "2026-11-12",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "Custom home in Troon North, large covered patio",
+   "city": "Scottsdale",
+   "region": "Arizona",
+   "country": "USA",
+   "segment": "residential",
+   "products": "high-end Tungsten heaters (in-ceiling)",
+   "product_normalised": [
+    "Tungsten Electric"
+   ],
+   "mounting": "in-ceiling",
+   "controls": "",
+   "quantity": "3",
+   "heated_area_or_seats": "large covered patio",
+   "installer": "",
+   "architect_designer": "",
+   "builder_developer": "Bordeaux Builders",
+   "year": "2020 (post dated 11 Feb 2020)",
+   "story": "A Scottsdale custom builder's blog post on a Troon North home where three high-end Tungsten heaters were built into the ceiling of a large covered patio to keep the residents warm. The post names the Tungsten line but not the Bromic brand; electric is assumed from in-ceiling mounting and should be checked.",
+   "confidence": "medium (dealer/installer lists venue + Bromic product)",
+   "case_study_value": "Desert custom-home builder designing heat into the ceiling at build stage, which fits the 'designed from the start' thesis. Confirm the brand with the builder before use.",
+   "sources": [
+    {
+     "url": "https://bordeauxbuilders.com/troon-home-gets-built-in-outdoor-ceiling-heaters/",
+     "publisher": "Bordeaux Builders",
+     "kind": "installer",
+     "read": "page",
+     "says": "Installing 3 high-end Tungsten heaters in the ceiling of a large covered patio at a Troon North custom home; Bromic not named."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://bordeauxbuilders.com/troon-home-gets-built-in-outdoor-ceiling-heaters/",
+     "owner": "Bordeaux Builders",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-012",
+   "case_study": null,
+   "found": "2026-11-12",
+   "status": "lead: confirm before use"
+  },
+  {
+   "venue": "Wonder of the Seas (Royal Caribbean International)",
+   "city": "Saint-Nazaire (built)",
+   "region": "",
+   "country": "France (build); operates internationally",
+   "segment": "marine",
+   "products": "Platinum Smart-Heat Electric Marine",
+   "product_normalised": [
+    "Platinum Electric"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "more than 100",
+   "heated_area_or_seats": "restaurants, bars, pool decks and suite balconies",
+   "installer": "",
+   "architect_designer": "Royal Caribbean International",
+   "builder_developer": "Royal Caribbean International (owner/operator)",
+   "year": "2022",
+   "story": "Royal Caribbean's Wonder of the Seas, described at launch as the world's biggest cruise ship, was fitted with over a hundred Bromic marine heaters. Trade press says they warm restaurants, bars, pool decks and balconies so passengers can stay outdoors in cooler weather.",
+   "confidence": "high (source names Bromic at this venue explicitly)",
+   "case_study_value": "Largest single marine install on record (100+ units) with a household-name cruise brand; strong proof of scale for marine and large commercial specifiers. Not in Bromic's case-study list (only Silversea's Silver Nova is).",
+   "sources": [
+    {
+     "url": "https://www.cruiseandferry.net/articles/royal-caribbean-improves-guest-experience-with-bromic-heaters",
+     "publisher": "Cruise & Ferry (25 Aug 2022)",
+     "kind": "press",
+     "read": "page",
+     "says": "Bromic installed more than 100 Platinum Smart-Heat Electric Marine heaters on Wonder of the Seas, in restaurants, bars, pool decks and balconies; quotes Daniel Bruntsch of Bromic."
+    },
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "publisher": "Bromic Heating (Marine presentation PDF, 2022)",
+     "kind": "other",
+     "read": "page",
+     "says": "Lists Wonder of the Seas, completed 2022, with over one hundred Platinum Smart-Heat Electric Marine heaters at restaurants, bars, pool decks and suite balconies."
+    },
+    {
+     "url": "https://cruiseandferry.net/articles/royal-caribbean-improves-guest-experience-with-bromic-heaters",
+     "publisher": "Cruise & Ferry (International Cruise & Ferry Review)",
+     "kind": "press",
+     "read": "page",
+     "says": "25 Aug 2022 article: more than 100 Platinum Smart-Heat Electric Marine heaters (AISI316 stainless) installed on Wonder of the Seas in restaurants, bars, pool decks and balconies; quotes Bromic's global head of marine, Daniel Bruntsch."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "owner": "Bromic Heating (photo rights of vessel imagery unconfirmed)",
+     "shows_heater": "unknown"
+    },
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "owner": "Bromic Heating (photo rights for each vessel unconfirmed; likely yard, owner or photographer)",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-013",
+   "case_study": "CSW-13",
+   "found": "2026-11-12",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "SH Minerva (Swan Hellenic)",
+   "city": "",
+   "region": "",
+   "country": "International (expedition cruise)",
+   "segment": "marine",
+   "products": "Platinum Smart-Heat Electric Marine / Platinum Electric Marine",
+   "product_normalised": [
+    "Platinum Electric"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "top-deck bar, restaurant and suite balconies",
+   "installer": "",
+   "architect_designer": "Tillberg Design of Sweden",
+   "builder_developer": "Swan Hellenic (operator)",
+   "year": "2021",
+   "story": "SH Minerva is a high ice-class expedition cruise ship for 152 guests. Bromic's brochure says its marine heaters were fitted to the top-deck bar, the restaurant and suite balconies, and a 2024 trade feature names the ship as carrying Bromic's heater.",
+   "confidence": "high (source names Bromic at this venue explicitly)",
+   "case_study_value": "Polar expedition ship: the coldest-climate use case Bromic can show; pairs with SH Vega for a fleet story.",
+   "sources": [
+    {
+     "url": "https://www.cruiseandferry.net/digital/magazine/2024/spring/56/",
+     "publisher": "Cruise & Ferry Review, Spring/Summer 2024 (supplier feature by Bromic)",
+     "kind": "press",
+     "read": "page",
+     "says": "Bromic's Daniel Bruntsch says the Platinum Electric Marine heater is aboard Swan Hellenic's SH Vega and SH Minerva, and Silversea's Silver Endeavour; no quantities or decks given."
+    },
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "publisher": "Bromic Heating (Marine presentation PDF, 2022)",
+     "kind": "other",
+     "read": "page",
+     "says": "SH Minerva, delivered 2021, design Tillberg Design of Sweden; Platinum Smart-Heat Electric Marine heaters on the top-deck bar, restaurant and suite balconies."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "owner": "Bromic Heating (photo rights of vessel imagery unconfirmed)",
+     "shows_heater": "unknown"
+    },
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "owner": "Bromic Heating (photo rights for each vessel unconfirmed; likely yard, owner or photographer)",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-014",
+   "case_study": "CSW-14",
+   "found": "2026-11-12",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "SH Vega (Swan Hellenic)",
+   "city": "",
+   "region": "",
+   "country": "International (expedition cruise)",
+   "segment": "marine",
+   "products": "Platinum Electric Marine",
+   "product_normalised": [
+    "Platinum Electric"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "",
+   "installer": "",
+   "architect_designer": "",
+   "builder_developer": "Swan Hellenic (operator)",
+   "year": "",
+   "story": "A 2024 Cruise & Ferry Review supplier feature quotes Bromic saying its Platinum Electric Marine heater is aboard Swan Hellenic's SH Vega, the sister of SH Minerva. No decks or quantities are given.",
+   "confidence": "high (source names Bromic at this venue explicitly)",
+   "case_study_value": "Second ship in the same fleet; details (decks, count) need Bromic's marine team. Source is Bromic's own words in trade press.",
+   "sources": [
+    {
+     "url": "https://www.cruiseandferry.net/digital/magazine/2024/spring/56/",
+     "publisher": "Cruise & Ferry Review, Spring/Summer 2024 (supplier feature by Bromic)",
+     "kind": "press",
+     "read": "page",
+     "says": "Bromic's Daniel Bruntsch says the Platinum Electric Marine heater is aboard Swan Hellenic's SH Vega (with SH Minerva and Silversea's Silver Endeavour); no quantities or decks given."
+    }
+   ],
+   "images": [],
+   "id": "WEB-015",
+   "case_study": "CSW-14",
+   "found": "2026-11-12",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "Scenic Eclipse (Scenic)",
+   "city": "",
+   "region": "",
+   "country": "International (expedition cruise)",
+   "segment": "marine",
+   "products": "BROMIC Marine Platinum Heaters",
+   "product_normalised": [
+    "Platinum Electric"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "",
+   "installer": "",
+   "architect_designer": "Oliver Design (Spain)",
+   "builder_developer": "",
+   "year": "2020",
+   "story": "Scenic Eclipse is a luxury expedition ship that sails to Antarctica. Bromic's marine brochure lists Bromic Marine Platinum heaters among its features; no decks or counts are given.",
+   "confidence": "high",
+   "case_study_value": "Well-known luxury expedition brand (Australian-owned, like Bromic); only Bromic's brochure names it so far, needs operator confirmation.",
+   "sources": [
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "publisher": "Bromic Heating (Marine presentation PDF, 2022)",
+     "kind": "other",
+     "read": "page",
+     "says": "Scenic Eclipse, completed 2020, design Oliver Design Spain; features Bromic Marine Platinum heaters."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "owner": "Bromic Heating (photo rights of vessel imagery unconfirmed)",
+     "shows_heater": "unknown"
+    },
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "owner": "Bromic Heating (photo rights for each vessel unconfirmed; likely yard, owner or photographer)",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-016",
+   "case_study": "CSW-14",
+   "found": "2026-11-12",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "Mein Schiff 4 (TUI Cruises) - Himmel & Meer Loft Suite terraces",
+   "city": "",
+   "region": "",
+   "country": "Germany (operator)",
+   "segment": "marine",
+   "products": "Platinum Smart-Heat Electric Marine",
+   "product_normalised": [
+    "Platinum Electric"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "Himmel & Meer Loft Suite terraces, top decks",
+   "installer": "",
+   "architect_designer": "",
+   "builder_developer": "TUI Cruises; ship built by Meyer Turku (Finland)",
+   "year": "2019 (upgrade)",
+   "story": "As part of an upgrade, TUI Cruises fitted Bromic marine heaters to the private terraces of Mein Schiff 4's top-deck 'Himmel & Meer' loft suites so guests can sit out while taking in the views.",
+   "confidence": "high",
+   "case_study_value": "German-market cruise reference and a premium-suite (private balcony) application, useful for the Germany region.",
+   "sources": [
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "publisher": "Bromic Heating (Marine presentation PDF, 2022)",
+     "kind": "other",
+     "read": "page",
+     "says": "Mein Schiff 4, 2019; Platinum Smart-Heat Electric Marine heaters fitted to the Himmel & Meer Loft Suite terraces as part of an upgrade."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "owner": "Bromic Heating (photo rights of vessel imagery unconfirmed)",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-017",
+   "case_study": "CSW-15",
+   "found": "2026-11-12",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "World Navigator (Mystic Cruises / Atlas Ocean Voyages)",
+   "city": "",
+   "region": "",
+   "country": "Portugal (operator)",
+   "segment": "marine",
+   "products": "Platinum Smart-Heat Electric Marine",
+   "product_normalised": [
+    "Platinum Electric"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "",
+   "installer": "",
+   "architect_designer": "Mystic Cruises",
+   "builder_developer": "Mystic Cruises",
+   "year": "2021",
+   "story": "Bromic's brochure says its marine heaters were installed on the expedition ship World Navigator, taking the product to Antarctica; the ship carries about 200 guests.",
+   "confidence": "high",
+   "case_study_value": "Antarctic expedition reference; needs operator confirmation of decks and quantity.",
+   "sources": [
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "publisher": "Bromic Heating (Marine presentation PDF, 2022)",
+     "kind": "other",
+     "read": "page",
+     "says": "World Navigator, 2021, Mystic Cruises; Platinum Smart-Heat Electric Marine heaters on board, operating in the Antarctic."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "owner": "Bromic Heating (photo rights of vessel imagery unconfirmed)",
+     "shows_heater": "unknown"
+    },
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "owner": "Bromic Heating (photo rights for each vessel unconfirmed; likely yard, owner or photographer)",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-018",
+   "case_study": "CSW-14",
+   "found": "2026-11-12",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "M/Y Lady Charlotte (42 m Feadship)",
+   "city": "",
+   "region": "",
+   "country": "Netherlands (refit)",
+   "segment": "marine",
+   "products": "Platinum Smart-Heat Electric Marine",
+   "product_normalised": [
+    "Platinum Electric"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "6",
+   "heated_area_or_seats": "outdoor dining area",
+   "installer": "",
+   "architect_designer": "Azure Naval Architects",
+   "builder_developer": "Feadship (2003 build); refit in the Netherlands",
+   "year": "2022 (refit)",
+   "story": "The 2003 Feadship Lady Charlotte was refitted in the Netherlands, with Azure Naval Architects reworking the exterior. Six Bromic marine heaters were added to the outdoor dining area so it can be used year round.",
+   "confidence": "high",
+   "case_study_value": "Refit story (heat added later to an existing yacht) with a named naval architect: a route to the Dutch refit yards for the Benelux region.",
+   "sources": [
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "publisher": "Bromic Heating (Marine presentation PDF, 2022)",
+     "kind": "other",
+     "read": "page",
+     "says": "M/Y Lady Charlotte, refit complete 2022, 6 heaters, design Azure Naval Architects; heaters warm the outdoor dining area."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "owner": "Bromic Heating (photo rights of vessel imagery unconfirmed)",
+     "shows_heater": "unknown"
+    },
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "owner": "Bromic Heating (photo rights for each vessel unconfirmed; likely yard, owner or photographer)",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-019",
+   "case_study": "CSW-16",
+   "found": "2026-11-12",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "M/Y Emocean",
+   "city": "",
+   "region": "",
+   "country": "",
+   "segment": "marine",
+   "products": "Platinum Smart-Heat Electric Marine",
+   "product_normalised": [
+    "Platinum Electric"
+   ],
+   "mounting": "recessed into the deck heads",
+   "controls": "",
+   "quantity": "4",
+   "heated_area_or_seats": "sundeck and outdoor areas",
+   "installer": "",
+   "architect_designer": "Hydro Tec (exterior); Burdisso & Capponi (interior)",
+   "builder_developer": "",
+   "year": "2020",
+   "story": "Emocean won a 2022 World Superyacht Award for displacement motor yachts of 30-44.9 m. Bromic says four of its marine heaters were installed into the deck heads to make the sundeck usable in all weather.",
+   "confidence": "high",
+   "case_study_value": "Award-winning yacht with named Italian designers; supports specification outreach to design studios.",
+   "sources": [
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "publisher": "Bromic Heating (Marine presentation PDF, 2022)",
+     "kind": "other",
+     "read": "page",
+     "says": "M/Y Emocean, 2020, 4 heaters, exterior Hydro Tec, interior Burdisso & Capponi; heaters installed into the deck heads; award winner 2022."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "owner": "Bromic Heating (photo rights of vessel imagery unconfirmed)",
+     "shows_heater": "unknown"
+    },
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "owner": "Bromic Heating (photo rights for each vessel unconfirmed; likely yard, owner or photographer)",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-020",
+   "case_study": "CSW-16",
+   "found": "2026-11-12",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "M/Y GO",
+   "city": "",
+   "region": "",
+   "country": "Turkey (built)",
+   "segment": "marine",
+   "products": "Platinum Smart-Heat Electric Marine",
+   "product_normalised": [
+    "Platinum Electric"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "6",
+   "heated_area_or_seats": "",
+   "installer": "",
+   "architect_designer": "H2 Yacht Design",
+   "builder_developer": "Turquoise Yachts",
+   "year": "2018",
+   "story": "GO is a 2018 Turquoise Yachts superyacht, exhibited at the Monaco Yacht Show, for 18 guests. Bromic lists six of its marine heaters on board.",
+   "confidence": "high",
+   "case_study_value": "Named shipyard and design studio; needs deck locations from Bromic.",
+   "sources": [
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "publisher": "Bromic Heating (Marine presentation PDF, 2022)",
+     "kind": "other",
+     "read": "page",
+     "says": "M/Y GO, 2018, 6 heaters, design H2 Yacht Design, built by Turquoise Yachts."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "owner": "Bromic Heating (photo rights of vessel imagery unconfirmed)",
+     "shows_heater": "unknown"
+    },
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "owner": "Bromic Heating (photo rights for each vessel unconfirmed; likely yard, owner or photographer)",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-021",
+   "case_study": "CSW-16",
+   "found": "2026-11-12",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "M/Y Cloudbreak",
+   "city": "",
+   "region": "",
+   "country": "Germany (built)",
+   "segment": "marine",
+   "products": "Platinum Smart-Heat Electric Marine",
+   "product_normalised": [
+    "Platinum Electric"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "8",
+   "heated_area_or_seats": "",
+   "installer": "",
+   "architect_designer": "Espen Oeino (exterior); Christian Liaigre (interior)",
+   "builder_developer": "Abeking & Rasmussen",
+   "year": "2018",
+   "story": "Cloudbreak is a global explorer yacht built by Abeking & Rasmussen for any cruising condition. Bromic lists eight of its marine heaters on board.",
+   "confidence": "high",
+   "case_study_value": "Explorer yacht from a top German yard: cold-water cruising and a Germany-region marine reference.",
+   "sources": [
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "publisher": "Bromic Heating (Marine presentation PDF, 2022)",
+     "kind": "other",
+     "read": "page",
+     "says": "M/Y Cloudbreak, 2018, 8 heaters, exterior Espen Oeino, interior Christian Liaigre, built by Abeking & Rasmussen."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "owner": "Bromic Heating (photo rights of vessel imagery unconfirmed)",
+     "shows_heater": "unknown"
+    },
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "owner": "Bromic Heating (photo rights for each vessel unconfirmed; likely yard, owner or photographer)",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-022",
+   "case_study": "CSW-16",
+   "found": "2026-11-12",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "M/Y Metis (63 m Benetti)",
+   "city": "",
+   "region": "",
+   "country": "Italy (built)",
+   "segment": "marine",
+   "products": "Platinum Smart-Heat Electric Marine",
+   "product_normalised": [
+    "Platinum Electric"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "9",
+   "heated_area_or_seats": "three decks plus the captain's bridge",
+   "installer": "Arrow Services Monaco (per search summary of the same PDF; the PDF text read names Arrow Services for M/Y Just B, verify for Metis)",
+   "architect_designer": "Giorgio M. Cassetta (exterior); Bannenberg & Rowell (interior)",
+   "builder_developer": "Benetti",
+   "year": "2019",
+   "story": "Metis is a 63 m custom Benetti. Bromic says nine marine heaters were installed across three decks and the bridge.",
+   "confidence": "high",
+   "case_study_value": "Multi-deck install on a well-known Italian build; Bannenberg & Rowell also designed Coral Ocean (a design-studio relationship).",
+   "sources": [
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "publisher": "Bromic Heating (Marine presentation PDF, 2022)",
+     "kind": "other",
+     "read": "page",
+     "says": "M/Y Metis, 2019, 9 heaters, built by Benetti; installed across three decks plus the captain's bridge."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "owner": "Bromic Heating (photo rights of vessel imagery unconfirmed)",
+     "shows_heater": "unknown"
+    },
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "owner": "Bromic Heating (photo rights for each vessel unconfirmed; likely yard, owner or photographer)",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-023",
+   "case_study": "CSW-16",
+   "found": "2026-11-12",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "M/Y Just B (ex Intuition II)",
+   "city": "Monaco (refit)",
+   "region": "",
+   "country": "Monaco",
+   "segment": "marine",
+   "products": "Platinum Smart-Heat Electric Marine",
+   "product_normalised": [
+    "Platinum Electric"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "4",
+   "heated_area_or_seats": "",
+   "installer": "Arrow Services Monaco (rebuild and technology fit-out)",
+   "architect_designer": "Vripack",
+   "builder_developer": "Amels (original build)",
+   "year": "2020 (rebuild; built 1973)",
+   "story": "The 60 m Amels-built Intuition II was redesigned by explorer specialists Vripack and renamed Just B. Bromic says Arrow Services Monaco rebuilt her and fitted four Bromic marine heaters.",
+   "confidence": "high",
+   "case_study_value": "Names an installer (Arrow Services Monaco), the only marine lead here with one: a refit-channel partner story.",
+   "sources": [
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "publisher": "Bromic Heating (Marine presentation PDF, 2022)",
+     "kind": "other",
+     "read": "page",
+     "says": "M/Y Just B, 1973/2020, 4 heaters, design Vripack; rebuilt and equipped by Arrow Services Monaco including four Platinum Smart-Heat Electric Marine heaters."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "owner": "Bromic Heating (photo rights of vessel imagery unconfirmed)",
+     "shows_heater": "unknown"
+    },
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "owner": "Bromic Heating (photo rights for each vessel unconfirmed; likely yard, owner or photographer)",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-024",
+   "case_study": "CSW-16",
+   "found": "2026-11-12",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "Ocean Alexander OA 100 Motoryacht",
+   "city": "",
+   "region": "",
+   "country": "USA (builder)",
+   "segment": "marine",
+   "products": "Platinum Smart-Heat Electric Marine",
+   "product_normalised": [
+    "Platinum Electric"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "2",
+   "heated_area_or_seats": "",
+   "installer": "",
+   "architect_designer": "Evan K. Marshall; Arrabito Naval Architects",
+   "builder_developer": "Ocean Alexander",
+   "year": "2019",
+   "story": "The OA 100 is Ocean Alexander's 100 ft production motoryacht, designed for entertaining in all seasons. Bromic lists two marine heaters on the model.",
+   "confidence": "high",
+   "case_study_value": "US builder and a production model rather than a one-off: a possible OEM (standard-fit) story for the US marine market. Confirm whether heaters are standard or per hull.",
+   "sources": [
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "publisher": "Bromic Heating (Marine presentation PDF, 2022)",
+     "kind": "other",
+     "read": "page",
+     "says": "M/Y OA100, 2019, 2 heaters, design Evan K. Marshall & Arrabito Naval Architects; Ocean Alexander's newest model."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf",
+     "owner": "Bromic Heating (photo rights of vessel imagery unconfirmed)",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-025",
+   "case_study": "CSW-16",
+   "found": "2026-11-12",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "The Queen's Club (Queens Tennis Club) - outdoor terrace",
+   "city": "London",
+   "region": "",
+   "country": "United Kingdom",
+   "segment": "sports/stadium",
+   "products": "Tungsten Smart-Heat Electric (white)",
+   "product_normalised": [
+    "Tungsten Electric"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "terrace extended for about 100 more restaurant and bar patrons",
+   "installer": "",
+   "architect_designer": "",
+   "builder_developer": "",
+   "year": "",
+   "story": "The club renovated and opened its outdoor terrace to about 100 more restaurant and bar guests. To keep members dining outside in spring and late autumn it installed white Tungsten Smart-Heat Electric heaters, chosen to suit the decor and the tennis theme.",
+   "confidence": "high (source names Bromic at this venue explicitly)",
+   "case_study_value": "Famous sports club (home of a major grass-court tournament): fills the sports-club gap and the UK region. Content is likely Bromic-supplied; confirm with the UK team.",
+   "sources": [
+    {
+     "url": "https://trends.archiexpo.com/bromic-heating/project-94052-245583.html",
+     "publisher": "ArchiExpo e-Magazine (Bromic Heating project page)",
+     "kind": "dealer",
+     "read": "snippet only",
+     "says": "The club renovated, opening its terrace to about 100 more patrons, and installed Bromic Tungsten Smart-Heat Electric heaters in white for the shoulder seasons. Page returned 403; snippet only."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://trends.archiexpo.com/bromic-heating/project-94052-245583.html",
+     "owner": "unknown (ArchiExpo / Bromic)",
+     "shows_heater": "unknown"
+    },
+    {
+     "url": "https://trends.archiexpo.com/bromic-heating/project-94052-245583.html",
+     "owner": "Bromic Heating / ArchiExpo listing (photographer unknown)",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-026",
+   "case_study": "CSW-08",
+   "found": "2026-11-12",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "St Andrews Country Club",
+   "city": "Boca Raton",
+   "region": "Florida",
+   "country": "USA",
+   "segment": "club",
+   "products": "Bromic heater (model not stated)",
+   "product_normalised": [
+    "other/unknown"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "",
+   "installer": "Outdoor Elements",
+   "architect_designer": "",
+   "builder_developer": "",
+   "year": "",
+   "story": "Installer Outdoor Elements has a page titled as a Bromic heater system installation at St Andrews Country Club in Boca Raton. The page itself did not load for reading, so the scope and products are unknown.",
+   "confidence": "medium (dealer/installer lists venue + Bromic product)",
+   "case_study_value": "Private country club in warm-climate Florida with a named US installer; worth a call to Outdoor Elements to confirm. Treat as a thin lead.",
+   "sources": [
+    {
+     "url": "https://outdoorelementsusa.com/location/boca-raton-st-andrews-country-club-bromic-heater-installation/",
+     "publisher": "Outdoor Elements (installer)",
+     "kind": "installer",
+     "read": "snippet only",
+     "says": "Page title names a Bromic heater system installation at Boca Raton St Andrews Country Club; may be a location/SEO landing page rather than a project write-up."
+    }
+   ],
+   "images": [],
+   "id": "WEB-027",
+   "case_study": null,
+   "found": "2026-11-12",
+   "status": "lead: confirm before use"
+  },
+  {
+   "venue": "Café Sydney (Customs House)",
+   "city": "Sydney (Circular Quay)",
+   "region": "NSW",
+   "country": "Australia",
+   "segment": "restaurant",
+   "products": "Platinum Smart-Heat gas heaters",
+   "product_normalised": [
+    "Platinum Gas"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "outdoor dining terrace (snippet says about half the seating is outdoors)",
+   "installer": "",
+   "architect_designer": "",
+   "builder_developer": "",
+   "year": "2013 (date of the press item)",
+   "story": "Harbour-view restaurant on the top of Customs House with a large outdoor dining terrace. According to a 2013 trade-press item, the manager chose Platinum Smart-Heat gas heaters after seeing them working at another venue, valuing that the units visually recede when off. Whether they are still installed today is not confirmed.",
+   "confidence": "high (source names Bromic at this venue explicitly)",
+   "case_study_value": "Iconic Sydney harbour restaurant and a gas (Platinum Gas) reference; an existing customer video means a refreshed case study could be quick. Needs a check that heaters are still in place after 10+ years.",
+   "sources": [
+    {
+     "url": "https://venue.net.au/?p=2932",
+     "publisher": "Venue (venue.net.au)",
+     "kind": "press",
+     "read": "snippet only",
+     "says": "Headline 'Bromic warms up Cafe Sydney'; the restaurant manager picked Platinum Smart-Heat gas heaters for the outdoor area after seeing them elsewhere. Text appears to be a Bromic press release republished. Host not reachable from this session."
+    },
+    {
+     "url": "https://www.venue.net.au/bromic-warms-up-cafe-sydney/",
+     "publisher": "Venue (venue.net.au)",
+     "kind": "press",
+     "read": "snippet only",
+     "says": "Same article, alternate URL."
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=kIi_drQMKKc",
+     "publisher": "YouTube (Bromic channel)",
+     "kind": "social",
+     "read": "snippet only",
+     "says": "Video titled 'Bromic Heating Customer Profile - Cafe Sydney (AU)'. Bromic-produced."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://www.youtube.com/watch?v=kIi_drQMKKc",
+     "owner": "Bromic (video)",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-028",
+   "case_study": "CSW-09",
+   "found": "2026-11-12",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "The Camellia Hotel",
+   "city": "Rosehill (western Sydney)",
+   "region": "NSW",
+   "country": "Australia",
+   "segment": "bar",
+   "products": "Bromic heaters (model not stated in snippet)",
+   "product_normalised": [
+    "other/unknown"
+   ],
+   "mounting": "recessed into the design (stated as a requirement)",
+   "controls": "variable heat (stated as a requirement)",
+   "quantity": "",
+   "heated_area_or_seats": "",
+   "installer": "",
+   "architect_designer": "",
+   "builder_developer": "",
+   "year": "2022 (article date)",
+   "story": "Suburban Sydney pub that, during a cold 2022 winter, wanted heating that was discreet, gave variable heat, could be recessed and matched the decor. Owner Dan O'Hara is reported as choosing Bromic heaters, powered by the venue's rooftop solar panels. The pub's 80 kW solar system is documented separately by the panel maker, which does not mention Bromic.",
+   "confidence": "high (source names Bromic at this venue explicitly)",
+   "case_study_value": "A sustainability angle no current case study has: electric heat run alongside rooftop solar at a suburban pub. Strong for the pub segment and for the electric-versus-gas argument. Product model and quantity still need confirming with the venue.",
+   "sources": [
+    {
+     "url": "https://issuu.com/theintermediagroup/docs/australian_hotelier_august_2022/s/16584437",
+     "publisher": "Australian Hotelier (The Intermedia Group), August 2022",
+     "kind": "press",
+     "read": "snippet only",
+     "says": "Owner Dan O'Hara chose Bromic heaters powered by rooftop solar, after seeking a discreet, variable, recessable heater to match the decor. The Issuu page was opened but its article text did not load; detail is from the search snippet."
+    },
+    {
+     "url": "https://www.solaria.com/australia/blog/camellia-hotel",
+     "publisher": "Solaria",
+     "kind": "other",
+     "read": "snippet only",
+     "says": "80 kW Solaria PowerXT system installed on the Camellia Hotel by Solar Energy Enterprises. Does not mention Bromic; context only."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://issuu.com/theintermediagroup/docs/australian_hotelier_august_2022/s/16584437",
+     "owner": "The Intermedia Group / venue",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-029",
+   "case_study": "CSW-10",
+   "found": "2026-11-12",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "Chiswick Restaurant (Matt Moran)",
+   "city": "Woollahra, Sydney",
+   "region": "NSW",
+   "country": "Australia",
+   "segment": "restaurant",
+   "products": "Tungsten Smart-Heat Gas series",
+   "product_normalised": [
+    "Tungsten Gas"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "indoor and terrace dining, casual bar, communal table, shaded outdoor seating",
+   "installer": "",
+   "architect_designer": "",
+   "builder_developer": "",
+   "year": "",
+   "story": "Casual dining restaurant from chef Matt Moran at 65 Ocean St, Woollahra, with indoor and terrace dining and a waitlist all year. The listing says Tungsten Smart-Heat Gas heaters were chosen to keep diners comfortable wherever they sit, terrace included.",
+   "confidence": "high (source names Bromic at this venue explicitly)",
+   "case_study_value": "Celebrity-chef restaurant in Sydney's eastern suburbs, and a Tungsten Gas reference in AU, where current case studies lean electric. Not on the known list, so worth a fresh write-up with venue permission.",
+   "sources": [
+    {
+     "url": "https://trends.archiexpo.com/bromic-heating/project-94052-245389.html",
+     "publisher": "ArchiExpo Trends (Bromic Heating's project listing)",
+     "kind": "dealer",
+     "read": "snippet only",
+     "says": "Chiswick Restaurant, 65 Ocean St, Woollahra: Tungsten Smart-Heat Gas series chosen to keep indoor and terrace diners warm. Bromic-supplied content on a third-party platform. The page returned 403 when fetched."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://trends.archiexpo.com/bromic-heating/project-94052-245389.html",
+     "owner": "Bromic (supplied to ArchiExpo); photographer unknown",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-030",
+   "case_study": "CSW-11",
+   "found": "2026-11-12",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "Picknicka Restaurant",
+   "city": "Tauranga",
+   "region": "Bay of Plenty",
+   "country": "New Zealand",
+   "segment": "restaurant",
+   "products": "Eclipse Smart-Heat Electric Pendant",
+   "product_normalised": [
+    "Eclipse Electric"
+   ],
+   "mounting": "pendant",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "",
+   "installer": "",
+   "architect_designer": "",
+   "builder_developer": "",
+   "year": "",
+   "story": "Tauranga restaurant listed as in-service history for the Eclipse Smart-Heat Electric Pendant on New Zealand's building-product library. No detail on the space, quantity or install date in what was seen.",
+   "confidence": "medium (dealer/installer lists venue + Bromic product)",
+   "case_study_value": "The only named NZ hospitality install found, in a regional city outside Auckland. It would fill the NZ gap, but the venue's current status and the details need a call first.",
+   "sources": [
+    {
+     "url": "https://eboss.co.nz/library/bromic/eclipse-smart-heat-electric-pendant",
+     "publisher": "EBOSS (NZ building product library)",
+     "kind": "dealer",
+     "read": "snippet only",
+     "says": "The Eclipse Smart-Heat Electric Pendant product entry names Picknicka Restaurant, Tauranga, under in-service history, and says the product is certified for NZ. The page returned 404 when fetched."
+    }
+   ],
+   "images": [],
+   "id": "WEB-031",
+   "case_study": null,
+   "found": "2026-11-12",
+   "status": "lead: confirm before use"
+  },
+  {
+   "venue": "Builder display home, Marmion (builder not named)",
+   "city": "Marmion, Perth",
+   "region": "WA",
+   "country": "Australia",
+   "segment": "residential",
+   "products": "Platinum Smart-Heat Electric heaters in white",
+   "product_normalised": [
+    "Platinum Electric"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "",
+   "installer": "",
+   "architect_designer": "",
+   "builder_developer": "unnamed WA builder (testimonial)",
+   "year": "",
+   "story": "A builder's testimonial says it chose white Platinum Smart-Heat Electric heaters for its display home in Marmion and has relied on Bromic across many projects. The builder is not named in the snippet seen.",
+   "confidence": "medium (dealer/installer lists venue + Bromic product)",
+   "case_study_value": "A volume-builder display home in Perth: the builder channel and specification at display-home stage, which fits the 'designed in from the start' thesis. Bromic AU marketing will know the builder's name.",
+   "sources": [
+    {
+     "url": "https://www.bromic.com.au/builders-outdoor-heating",
+     "publisher": "Bromic Australia (builders landing page, not a case study)",
+     "kind": "other",
+     "read": "snippet only",
+     "says": "Builder testimonial: white Platinum Smart-Heat Electric heaters chosen for its Marmion display home. bromic.com.au blocks automated reading, so this is the search snippet only."
+    }
+   ],
+   "images": [],
+   "id": "WEB-032",
+   "case_study": null,
+   "found": "2026-11-12",
+   "status": "lead: confirm before use"
+  },
+  {
+   "venue": "The Establishment (Merivale)",
+   "city": "Sydney CBD",
+   "region": "NSW",
+   "country": "Australia",
+   "segment": "bar",
+   "products": "Bromic Heating commercial patio heaters (copy also lists the Platinum range)",
+   "product_normalised": [
+    "other/unknown"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "",
+   "installer": "",
+   "architect_designer": "",
+   "builder_developer": "",
+   "year": "",
+   "story": "A US dealer's commercial-heating page says Bromic commercial patio heaters are installed in 'A-list venues around Sydney', naming The Establishment. The wording looks reused from older Bromic marketing, and no detail of the install is given.",
+   "confidence": "medium (dealer/installer lists venue + Bromic product)",
+   "case_study_value": "Flagship Merivale venue. The lead is weak (secondhand list, likely an old install), so confirm with Bromic AU sales history before approaching. The Ivy from the same list is already a known case study.",
+   "sources": [
+    {
+     "url": "https://radiantpatioheater.com/commercial-heating/",
+     "publisher": "Radiant Patio Heater / Rasmussen Gas Logs & Grills (US dealer)",
+     "kind": "dealer",
+     "read": "page",
+     "says": "Body copy: Bromic Heating commercial solutions installed in Sydney venues including The Establishment, The Ivy, Cruise Bar and Criniti's Darling Harbour."
+    }
+   ],
+   "images": [],
+   "id": "WEB-033",
+   "case_study": null,
+   "found": "2026-11-12",
+   "status": "lead: confirm before use"
+  },
+  {
+   "venue": "Cruise Bar (Overseas Passenger Terminal)",
+   "city": "Sydney (Circular Quay)",
+   "region": "NSW",
+   "country": "Australia",
+   "segment": "bar",
+   "products": "Bromic Heating commercial patio heaters",
+   "product_normalised": [
+    "other/unknown"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "",
+   "installer": "",
+   "architect_designer": "",
+   "builder_developer": "",
+   "year": "",
+   "story": "Named on the same US dealer page as one of the Sydney venues with Bromic commercial heaters. No install detail.",
+   "confidence": "medium (dealer/installer lists venue + Bromic product)",
+   "case_study_value": "Waterfront bar on the Harbour, exposed to wind: a good gas and wind-resistance story if it is confirmed. A secondhand lead that needs verification.",
+   "sources": [
+    {
+     "url": "https://radiantpatioheater.com/commercial-heating/",
+     "publisher": "Radiant Patio Heater / Rasmussen Gas Logs & Grills (US dealer)",
+     "kind": "dealer",
+     "read": "page",
+     "says": "Lists Cruise Bar among Sydney venues with Bromic Heating commercial patio heaters."
+    }
+   ],
+   "images": [],
+   "id": "WEB-034",
+   "case_study": null,
+   "found": "2026-11-12",
+   "status": "lead: confirm before use"
+  },
+  {
+   "venue": "Criniti's Darling Harbour",
+   "city": "Sydney (Darling Harbour)",
+   "region": "NSW",
+   "country": "Australia",
+   "segment": "restaurant",
+   "products": "Bromic Heating commercial patio heaters",
+   "product_normalised": [
+    "other/unknown"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "",
+   "installer": "",
+   "architect_designer": "",
+   "builder_developer": "",
+   "year": "",
+   "story": "Named on the same US dealer page as a Sydney venue with Bromic commercial heaters. No install detail.",
+   "confidence": "medium (dealer/installer lists venue + Bromic product)",
+   "case_study_value": "A multi-site Italian restaurant group: a possible multi-venue rollout story. A secondhand lead that needs verification.",
+   "sources": [
+    {
+     "url": "https://radiantpatioheater.com/commercial-heating/",
+     "publisher": "Radiant Patio Heater / Rasmussen Gas Logs & Grills (US dealer)",
+     "kind": "dealer",
+     "read": "page",
+     "says": "Lists Criniti's Darling Harbour among Sydney venues with Bromic Heating commercial patio heaters."
+    }
+   ],
+   "images": [],
+   "id": "WEB-035",
+   "case_study": null,
+   "found": "2026-11-12",
+   "status": "lead: confirm before use"
+  },
+  {
+   "venue": "Azotea del Círculo (rooftop of the Círculo de Bellas Artes)",
+   "city": "Madrid",
+   "region": "Community of Madrid",
+   "country": "Spain",
+   "segment": "bar",
+   "products": "Platinum Smart-Heat Electric",
+   "product_normalised": [
+    "Platinum Electric"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "",
+   "installer": "",
+   "architect_designer": "",
+   "builder_developer": "",
+   "year": "",
+   "story": "The 7th-floor rooftop bar and restaurant of Madrid's Círculo de Bellas Artes cultural centre is known for its 360-degree city view. A trade listing says Bromic Platinum Smart-Heat Electric heaters warm the rooftop.",
+   "confidence": "high",
+   "case_study_value": "One of the best-known rooftops in Europe; a Spain/Southern-Europe rooftop reference with no current case study. Only one (Bromic-supplied) source: confirm with the operator.",
+   "sources": [
+    {
+     "url": "https://trends.archiexpo.com/bromic-heating/project-94052-245584.html",
+     "publisher": "ArchiExpo e-Magazine (Product Trends; Bromic-supplied project listing)",
+     "kind": "dealer",
+     "read": "snippet only",
+     "says": "Snippet calls the Círculo de Bellas Artes 7th floor one of Madrid's most popular rooftop bar/restaurants with a panoramic view and names Bromic Platinum Smart-Heat Electric as the product."
+    },
+    {
+     "url": "https://www.circulobellasartes.com/en/azotea/",
+     "publisher": "Círculo de Bellas Artes",
+     "kind": "venue",
+     "read": "page",
+     "says": "Venue page describes the rooftop and its restaurant (reservations via azoteadelcirculo.com); it does not mention heaters or Bromic."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://trends.archiexpo.com/bromic-heating/project-94052-245584.html",
+     "owner": "Bromic Heating / ArchiExpo listing (photographer unknown)",
+     "shows_heater": "unknown"
+    }
+   ],
+   "id": "WEB-036",
+   "case_study": "CSW-12",
+   "found": "2026-11-12",
+   "status": "case-study draft"
+  }
+ ]
+}
