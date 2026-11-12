@@ -511,6 +511,80 @@
      "label": "Photo set (5+)"
     }
    ]
+  },
+  "origin": {
+   "label": "Origin",
+   "multi": false,
+   "tags": [
+    {
+     "id": "bromic-site",
+     "label": "Bromic case study (bromic.com and regional sites)"
+    },
+    {
+     "id": "bromic-gallery",
+     "label": "Bromic gallery photos"
+    },
+    {
+     "id": "sales-deck",
+     "label": "Sales deck only"
+    },
+    {
+     "id": "web-search",
+     "label": "Found by web search"
+    },
+    {
+     "id": "sales-capture",
+     "label": "Captured by sales"
+    }
+   ]
+  },
+  "evidence": {
+   "label": "Evidence",
+   "multi": false,
+   "tags": [
+    {
+     "id": "page-read",
+     "label": "Source page read"
+    },
+    {
+     "id": "snippet-only",
+     "label": "Search snippet only"
+    },
+    {
+     "id": "bromic-listing",
+     "label": "Bromic-supplied listing on another platform"
+    },
+    {
+     "id": "bromic-publication",
+     "label": "Bromic brochure or publication"
+    }
+   ]
+  },
+  "completeness": {
+   "label": "Completeness",
+   "multi": false,
+   "tags": [
+    {
+     "id": "published",
+     "label": "Published case study"
+    },
+    {
+     "id": "full-draft",
+     "label": "Case-study draft"
+    },
+    {
+     "id": "partial",
+     "label": "Partial case study"
+    },
+    {
+     "id": "photos-only",
+     "label": "Photos only"
+    },
+    {
+     "id": "lead",
+     "label": "Lead only"
+    }
+   ]
   }
  },
  "grid": {

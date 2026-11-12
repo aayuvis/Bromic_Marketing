@@ -15,6 +15,9 @@ images: ["w-240619-yorba-linda-ca-dc-64"]
 owner_review: Karl Tschauner
 status: draft
 source_kind: web-find
+origin: web-search
+evidence: page-read
+completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
 updated: 2026-11-12

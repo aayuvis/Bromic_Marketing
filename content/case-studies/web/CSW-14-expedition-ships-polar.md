@@ -15,6 +15,9 @@ images: ["m-scenic-eclipse-1", "m-scenic-eclipse-2", "m-world-navigator-1", "m-s
 owner_review: Josh Maingard
 status: draft
 source_kind: web-find
+origin: web-search
+evidence: bromic-publication
+completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
 updated: 2026-11-12

@@ -15,6 +15,9 @@ images: ["m-wonder-of-the-seas-1", "m-wonder-of-the-seas-2"]
 owner_review: Josh Maingard
 status: draft
 source_kind: web-find
+origin: web-search
+evidence: bromic-publication
+completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
 updated: 2026-11-12

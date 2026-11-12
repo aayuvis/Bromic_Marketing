@@ -222,7 +222,7 @@
     return `<a class="card" href="#/item/${esc(it.id)}">
       <div class="ph-img">${img(hero)}${isGated(it) ? `<span class="lock">${ic.lock}GATED${hasPdf(it) ? ' · PDF' : ''}</span>` : ''}</div>
       <div class="body">
-        <span class="label">${esc(TYPES[it.type] || it.type)} · ${esc(it.id)}</span>
+        <span class="label">${esc(TYPES[it.type] || it.type)} · ${esc(it.id)}</span>${it.origin === 'web-search' ? `<span class="prov prov-web-search" style="margin-left:6px">Web find${it.completeness === 'partial' ? ' · partial' : ''}</span>` : ''}
         <h3>${esc(it.title)}</h3>
         ${it.summary ? `<p>${esc(it.summary)}</p>` : ''}
         <div class="chips">${audChips(it)}${stgChips(it)}</div>
@@ -447,6 +447,7 @@
         <dt>Lifecycle</dt><dd>${it.stage.map((s) => esc(STG[s]?.name || s)).join(', ')}</dd>
         ${it.asset ? `<dt>Asset</dt><dd><a href="#/assets/${esc(it.asset)}">${esc(it.asset)} · ${esc(ASSET[it.asset]?.name || '')}</a></dd>` : ''}
         <dt>Reviewer</dt><dd>${esc(it.owner_review || '—')}</dd>
+        ${it.origin ? `<dt>Source</dt><dd>${['origin', 'evidence', 'completeness'].filter((g) => it[g]).map((g) => `<span class="prov prov-${esc(it[g])}">${esc(TG(g, it[g]))}</span>`).join(' ')}</dd>` : ''}
         ${it.publish ? `<dt>Publish as</dt><dd><b>${esc(it.publish.publish_as)}</b>${it.publish.target_url ? ` → <a href="${esc(it.publish.target_url)}" target="_blank" rel="noopener">${esc(it.publish.target_url.replace('https://www.bromic.com', ''))}</a>` : ''}<br><span class="muted" style="font-size:13px">${esc(it.publish.reason || '')}</span></dd>
         ${it.publish.owner_link ? `<dt>Must link to</dt><dd><a href="${esc(it.publish.owner_link)}" target="_blank" rel="noopener">${esc(it.publish.owner_link.replace('https://www.bromic.com', '') || '/')}</a> (owner of the purchase intent)</dd>` : ''}
         ${it.publish.cannibalisation_risk && !/^none/i.test(it.publish.cannibalisation_risk) ? `<dt>Cannibalisation</dt><dd class="vcount" style="font-size:13px">${esc(it.publish.cannibalisation_risk)}</dd>` : ''}` : ''}
@@ -647,6 +648,7 @@
       <h3>${r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title || r.customer || r.id)}</a>` : esc(r.title || r.id)}</h3>
       <p class="muted" style="font-size:14px;margin:0 0 8px">${esc(r.location || '')}</p><p style="font-size:14px">${esc(r.summary || '')}</p>
       <div class="chips">${chips}</div>
+      ${['origin', 'evidence', 'completeness'].some((g) => (r.tags[g] || []).length) ? `<p class="cs-prov">${['origin', 'evidence', 'completeness'].flatMap((g) => (r.tags[g] || []).map((id) => `<span class="prov prov-${esc(id)}">${esc(TG(g, id))}</span>`)).join('')}</p>` : ''}
       ${(r.tags.proof || []).length ? `<p class="muted" style="font-size:13px;margin-top:8px">Proof: ${r.tags.proof.map((id) => esc(TG('proof', id))).join(', ')}</p>` : ''}
       ${(r.tags.controls || []).includes('controls-not-stated') && r.kind === 'case-study' ? '<p class="vcount" style="font-size:13px">Controls not stated: add them when this is upgraded</p>' : ''}
       <button class="fb-link" data-fbel="case:${esc(r.id)}" data-fblabel="${esc(r.title || r.id)}">${ic.chat}Feedback on this</button></div></article>`;
@@ -663,7 +665,7 @@
       ${csColl ? (() => { const c = CS.collections.find((x) => x.id === csColl); return (c.deck_only || []).length ? `<div class="callout"><b>${esc(c.title)}: in the sales deck, not on any Bromic site.</b> ${c.deck_only.map((d) => `${esc(d.place)} <a href="#/cases/capture?segment=${esc((c.query.segment || [''])[0])}&market=${esc(d.market)}">Capture it</a>`).join(' · ')}</div>` : ''; })() : ''}
       <div class="toolbar"><span class="muted">${list.length} shown${csColl || Object.values(csF).some((x) => x.length) ? ' · <button class="clear" data-csclear>Clear</button>' : ''}</span>
       <span class="btns"><label class="muted" style="font-size:13px">Show <select data-cskind><option value="all" ${csKind === 'all' ? 'selected' : ''}>All</option><option value="written" ${csKind === 'written' ? 'selected' : ''}>Written case studies</option><option value="photos" ${csKind === 'photos' ? 'selected' : ''}>Photo-only projects</option><option value="web" ${csKind === 'web' ? 'selected' : ''}>Found on the web</option></select></label>
-      ${['segment', 'market', 'space', 'install', 'product', 'theme', 'proof'].map(groupSel).join('')}</span></div>
+      ${['origin', 'evidence', 'completeness', 'segment', 'market', 'space', 'install', 'product', 'theme', 'proof'].filter((g) => CS.tax.groups[g]).map(groupSel).join('')}</span></div>
       <div class="cs-grid">${list.slice(0, 120).map(csCard).join('') || '<div class="empty">Nothing matches. That may be whitespace: <a href="#/cases/whitespace">see the grid</a>.</div>'}</div>${list.length > 120 ? `<p class="muted">Showing 120 of ${list.length}; narrow the filters.</p>` : ''}`;
   }
   function wsCell(seg, mkt) {

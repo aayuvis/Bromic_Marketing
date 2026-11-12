@@ -15,6 +15,9 @@ images: ["l-001-000"]
 owner_review: "Bromic UK [[VERIFY: UK regional lead]]"
 status: draft
 source_kind: web-find
+origin: web-search
+evidence: bromic-listing
+completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
 updated: 2026-11-12

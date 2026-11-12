@@ -157,6 +157,12 @@ if os.path.exists(WEB):
            'residential': 'single-family', 'multifamily': 'multifamily', 'sports/stadium': 'stadium-arena', 'winery/brewery': 'winery-brewery'}
     PROD = {'Tungsten Electric': 'tungsten-electric', 'Tungsten Gas': 'tungsten-gas', 'Tungsten Smart-Heat Freestanding Gas': 'tungsten-portable',
             'Platinum Electric': 'platinum-electric', 'Platinum Gas': 'platinum-gas', 'Eclipse Electric': 'eclipse-electric', 'Eclipse Freestanding': 'eclipse-portable', 'Cobalt': 'cobalt'}
+    def web_evidence(w):  # the strongest kind of source behind a find
+        ss = w.get('sources') or []
+        if any('bromic' in (x.get('url') or '') and (x.get('url') or '').endswith('.pdf') for x in ss): return 'bromic-publication'
+        if any(x.get('read') == 'page' and 'bromic' not in (x.get('url') or '') for x in ss): return 'page-read'
+        if any(re.search(r'archiexpo|architonic|archipro|eboss|bromicgroup|youtube', x.get('url') or '') for x in ss): return 'bromic-listing'
+        return 'snippet-only'
     def web_images(cs_id):  # the photos the case-study draft uses (front matter `images:`)
         if not cs_id: return []
         import glob
@@ -178,7 +184,24 @@ if os.path.exists(WEB):
                'images': web_images(w.get('case_study')),
                'note': f"Found on the web, 12 Nov 2026. {'Case-study draft ' + w['case_study'] + '.' if w.get('case_study') else 'Lead only.'}",
                'case_study_item': w.get('case_study')}
+        ev = w.get('evidence') or web_evidence(w)
+        rec['tags']['origin'] = ['web-search']
+        rec['tags']['evidence'] = [ev]
+        cs = w.get('case_study') or ''
+        rec['tags']['completeness'] = ['full-draft' if cs.startswith('CSW') else 'partial' if cs.startswith('CSP') else 'lead']
         check(rec); out.append(rec)
+
+# Where each record comes from, how strong its evidence is, and how far it is written up (taxonomy: origin, evidence, completeness).
+for rec in out:
+    t = rec['tags']
+    if rec['kind'] == 'case-study':
+        t.setdefault('origin', ['bromic-site']); t.setdefault('evidence', ['snippet-only' if rec.get('read') == 'search-snippet-only' else 'page-read']); t.setdefault('completeness', ['published'])
+    elif rec['kind'] == 'project':
+        t.setdefault('origin', ['bromic-gallery']); t.setdefault('evidence', ['page-read']); t.setdefault('completeness', ['photos-only'])
+    elif rec['kind'] == 'deck-only':
+        t.setdefault('origin', ['sales-deck']); t.setdefault('evidence', []); t.setdefault('completeness', ['lead'])
+    for g in ('origin', 'evidence', 'completeness'): t.setdefault(g, [])
+    check(rec)
 
 # Hand edits from marketing (data/case-study-tags.json: {id: {group: [tags]} or {field: value}}) win.
 if os.path.exists(EXTRA):

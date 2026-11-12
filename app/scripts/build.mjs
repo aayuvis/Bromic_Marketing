@@ -103,7 +103,7 @@ for (const f of files) {
     slug: fm.slug || '', audience: arr(fm.audience).map(String), stage: arr(fm.stage).map(String), cell: fm.cell || '',
     asset: fm.asset ? String(fm.asset) : '', summary: fm.summary || '', primary_keyword: fm.primary_keyword || '',
     secondary_keywords: arr(fm.secondary_keywords), ai_prompt: fm.ai_prompt || '', meta_description: fm.meta_description || '',
-    cta: fm.cta || null, hero: fm.hero || '', hero_caption: fm.hero_caption || '', source_kind: fm.source_kind || '', owner_review: fm.owner_review || '', status: fm.status || 'draft',
+    cta: fm.cta || null, hero: fm.hero || '', hero_caption: fm.hero_caption || '', source_kind: fm.source_kind || '', origin: fm.origin || '', evidence: fm.evidence || '', completeness: fm.completeness || '', owner_review: fm.owner_review || '', status: fm.status || 'draft',
     gated: !!fm.gated, related: arr(fm.related).map(String), updated: fm.updated ? (fm.updated instanceof Date ? fm.updated.toISOString().slice(0, 10) : String(fm.updated).slice(0, 10)) : '',
     needs_approval: fm.needs_approval || '', live_url: fm.live_url || '', images: arr(fm.images).map(String), dek: fm.dek || '', action: fm.action || '', merges: arr(fm.merges).map(String),
     technical_reviewer: fm.technical_reviewer || '', last_reviewed: fm.last_reviewed ? (fm.last_reviewed instanceof Date ? fm.last_reviewed.toISOString().slice(0, 10) : String(fm.last_reviewed)) : '', sources: arr(fm.sources).map((s) => ({ ...s, id: String(s.id) })),

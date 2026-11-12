@@ -15,6 +15,9 @@ images: ["w-ar-homes-4118-opt"]
 owner_review: Karl Tschauner
 status: draft
 source_kind: web-find
+origin: web-search
+evidence: snippet-only
+completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
 updated: 2026-11-12

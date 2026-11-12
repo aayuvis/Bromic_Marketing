@@ -15,6 +15,9 @@ images: ["t-006-016"]
 owner_review: "Bromic EU [[VERIFY: EU regional lead]]"
 status: draft
 source_kind: web-find
+origin: web-search
+evidence: page-read
+completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
 updated: 2026-11-12

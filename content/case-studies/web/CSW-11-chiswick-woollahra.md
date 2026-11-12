@@ -15,6 +15,9 @@ images: ["w-gasceilingmountpole246mm-lifestyle2-1"]
 owner_review: "Bromic AU [[VERIFY: AU regional lead]]"
 status: draft
 source_kind: web-find
+origin: web-search
+evidence: bromic-listing
+completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
 updated: 2026-11-12

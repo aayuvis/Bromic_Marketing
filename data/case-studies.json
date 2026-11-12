@@ -22,7 +22,16 @@
    "market": [
     "AU"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "snippet-only"
+   ],
+   "completeness": [
+    "published"
+   ]
   },
   "issues": [
    "Not read: www.bromic.com.au blocks automated reading; known from a search listing only"
@@ -61,7 +70,16 @@
    "market": [
     "AU"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "snippet-only"
+   ],
+   "completeness": [
+    "published"
+   ]
   },
   "issues": [
    "Not read: www.bromic.com.au blocks automated reading; known from a search listing only"
@@ -116,6 +134,15 @@
     "quote",
     "credits",
     "photo-set"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -171,6 +198,15 @@
    "proof": [
     "quote",
     "credits"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -229,6 +265,15 @@
    ],
    "proof": [
     "numbers"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -284,6 +329,15 @@
     "credits",
     "press",
     "photo-set"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -352,6 +406,15 @@
    "proof": [
     "press",
     "photo-set"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -420,6 +483,15 @@
    "proof": [
     "quote",
     "credits"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -485,6 +557,15 @@
     "quote",
     "heat-plan",
     "numbers"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -552,6 +633,15 @@
     "credits",
     "press",
     "photo-set"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -611,6 +701,15 @@
    "proof": [
     "quote",
     "photo-set"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -679,6 +778,15 @@
    "proof": [
     "heat-plan",
     "photo-set"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -742,6 +850,15 @@
    ],
    "proof": [
     "heat-plan"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -797,6 +914,15 @@
    "proof": [
     "quote",
     "photo-set"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -856,6 +982,15 @@
    ],
    "proof": [
     "quote"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -913,6 +1048,15 @@
     "quote",
     "heat-plan",
     "numbers"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -975,6 +1119,15 @@
    "proof": [
     "quote",
     "numbers"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -1034,6 +1187,15 @@
    "proof": [
     "quote",
     "credits"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -1094,6 +1256,15 @@
    "proof": [
     "quote",
     "credits"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -1148,7 +1319,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
+   ]
   },
   "issues": [
    "Heaters shown without controls",
@@ -1208,6 +1388,15 @@
    "proof": [
     "quote",
     "credits"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -1266,6 +1455,15 @@
    "proof": [
     "quote",
     "numbers"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -1322,6 +1520,15 @@
    "market": [],
    "proof": [
     "credits"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -1381,6 +1588,15 @@
     "quote",
     "credits",
     "heat-plan"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -1438,6 +1654,15 @@
    "proof": [
     "credits",
     "heat-plan"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -1494,7 +1719,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
+   ]
   },
   "issues": [
    "Heater shown without any controls",
@@ -1547,7 +1781,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
+   ]
   },
   "issues": [
    "Dated project (September 2015) with no quantities, credits or quote",
@@ -1606,7 +1849,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
+   ]
   },
   "issues": [
    "Heater shown without controls",
@@ -1664,6 +1916,15 @@
     "credits",
     "heat-plan",
     "numbers"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -1717,7 +1978,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
+   ]
   },
   "issues": [
    "Heater shown without controls",
@@ -1770,6 +2040,15 @@
    ],
    "proof": [
     "numbers"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -1821,6 +2100,15 @@
    ],
    "proof": [
     "photo-set"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -1878,6 +2166,15 @@
    "proof": [
     "quote",
     "numbers"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -1941,6 +2238,15 @@
    ],
    "proof": [
     "quote"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -1991,7 +2297,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
+   ]
   },
   "issues": [
    "Thin content: no date, quantities, specs, credits or quote",
@@ -2049,6 +2364,15 @@
     "quote",
     "numbers",
     "heat-plan"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -2101,6 +2425,15 @@
    "proof": [
     "credits",
     "photo-set"
+   ],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
    ]
   },
   "issues": [
@@ -2152,7 +2485,16 @@
    "market": [
     "AU"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "snippet-only"
+   ],
+   "completeness": [
+    "published"
+   ]
   },
   "issues": [
    "Not read: www.bromic.com.au blocks automated reading; known from a search listing only"
@@ -2191,7 +2533,16 @@
    "market": [
     "DACH"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-site"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "published"
+   ]
   },
   "issues": [],
   "images": []
@@ -2219,7 +2570,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-aba-restaurant"
@@ -2253,7 +2613,16 @@
    "market": [
     "AU"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-platinum-gas-albion-hotel-melbourne"
@@ -2287,7 +2656,16 @@
    "market": [
     "LATAM"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-argentina-residential-2",
@@ -2327,7 +2705,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-bromiceclipseheater-scottsdalehome-2",
@@ -2361,7 +2748,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-platinum-electric-babcock-custom-pools"
@@ -2396,7 +2792,16 @@
    "market": [
     "AU"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-barangaroo-house-sydney-platinum-electric-4"
@@ -2431,7 +2836,16 @@
    "market": [
     "BE"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-residential-belgium-bromic-platinum-electric"
@@ -2465,7 +2879,16 @@
    "market": [
     "BE"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-brussels-residence-platinumelectric-3-lr-102",
@@ -2508,7 +2931,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-tungsten-electric-portable-studio-city",
@@ -2544,7 +2976,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-bromic-centrico-photos-8"
@@ -2578,7 +3019,16 @@
    "market": [
     "LATAM"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-tungsten-electric-ceiling-mounted-chile"
@@ -2610,7 +3060,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [],
   "gallery": [
@@ -2638,7 +3097,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [],
   "gallery": [
@@ -2672,7 +3140,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-tungsten-electric-white-recessed"
@@ -2709,7 +3186,16 @@
    "market": [
     "UK"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [],
   "gallery": [
@@ -2740,7 +3226,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-crystal-cruises-platinum-electric-marine"
@@ -2774,7 +3269,16 @@
    "market": [
     "UK"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-tungsten-electric-dalloway-terrace-london"
@@ -2808,7 +3312,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-img-0818",
@@ -2846,7 +3359,16 @@
    "market": [
     "AU"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-dorrington-homes-platinum-electric-1",
@@ -2883,7 +3405,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [],
   "gallery": [
@@ -2913,7 +3444,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-dsc01972-bearbeitet"
@@ -2945,7 +3485,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-dsc01766-bearbeitet"
@@ -2977,7 +3526,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-dsc01860-bearbeitet"
@@ -3009,7 +3567,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [],
   "gallery": [
@@ -3040,7 +3607,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-eclipse-pendant-residential-hr"
@@ -3072,7 +3648,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-eclipse-electric-24twin-pole-commercial-scen"
@@ -3104,7 +3689,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-eclipse-electric-wall-mount-commercial-scene"
@@ -3138,7 +3732,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-bromiceclipseheater"
@@ -3172,7 +3775,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-eclipse-pendant-uk-residential",
@@ -3210,7 +3822,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-eclipse-portable-residential"
@@ -3244,7 +3865,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-tungsten-gas-fayetteville-ny-restaurant"
@@ -3278,7 +3908,16 @@
    "market": [
     "AU"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-tungsten-gas-500-fiddler-sydney-1-1",
@@ -3308,7 +3947,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [],
   "gallery": [
@@ -3340,7 +3988,16 @@
    "market": [
     "AU"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-australia-sydney-greenwich-residence-1-cropp",
@@ -3378,7 +4035,16 @@
    "market": [
     "AU"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [],
   "gallery": [
@@ -3416,6 +4082,15 @@
    ],
    "proof": [
     "photo-set"
+   ],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
    ]
   },
   "images": [
@@ -3457,7 +4132,16 @@
    "market": [
     "BE"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-hooghuis-brussels-belgium-platinum-gas-2"
@@ -3491,7 +4175,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-hotel-distil-marriott-autograph-collection-l"
@@ -3523,7 +4216,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [],
   "gallery": [
@@ -3558,7 +4260,16 @@
    "market": [
     "IN"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-23-03-12-bromic-heating-hyatt-dehradun-14"
@@ -3595,7 +4306,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-intercontinental-la-downtown-spire-73",
@@ -3631,7 +4351,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-platinum-electric-javiers-crystal-cove-newpo"
@@ -3665,7 +4394,16 @@
    "market": [
     "AU"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-white-platinum-electric-joeys-brisbane-2",
@@ -3699,7 +4437,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-eclipse-electric-club-de-industriales-jw-mar"
@@ -3733,7 +4480,16 @@
    "market": [
     "LATAM"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-tungsten-electric-kansas-bar-grill-buenos-ai",
@@ -3769,7 +4525,16 @@
    "market": [
     "AU"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-commercial-australia-brisbane-kedron-wavell-"
@@ -3805,7 +4570,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-eclipse-electric-pendant-kentucky-us"
@@ -3839,7 +4613,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [],
   "gallery": [
@@ -3870,7 +4653,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-bromic-heating-marine-platinum-electric-lady"
@@ -3905,7 +4697,16 @@
    "market": [
     "AU"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-lilymu-parramattasquare-sydney-platinumelect",
@@ -3935,7 +4736,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-showroom-livium-roof-structure"
@@ -3970,7 +4780,16 @@
    "market": [
     "UK"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-tungsten-electric-wall-mount-london-uk"
@@ -4002,7 +4821,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-louisian-purchase-2"
@@ -4036,7 +4864,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-louvered-pergola-with-recessed-platinum-elec"
@@ -4068,7 +4905,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-bromic-platinum-electric-on-my-lel-by-rossin",
@@ -4108,7 +4954,16 @@
    "market": [
     "UK"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-mandarin-oriental-hotel-london-eclipse-elect",
@@ -4144,7 +4999,16 @@
    "market": [
     "AU"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-commercial-australia-sydney-manly-wharf-15"
@@ -4178,7 +5042,16 @@
    "market": [
     "AU"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-residential-australia-melbourne-1"
@@ -4212,7 +5085,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-tungsten-electric-melrose-place-los-angeles-"
@@ -4246,7 +5128,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-mountain-view-retreat-platinum-electric-rece"
@@ -4283,7 +5174,16 @@
    "market": [
     "NL"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-eclispe-freestanding",
@@ -4319,7 +5219,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-dsc05656-courtney-saib",
@@ -4358,7 +5267,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-tungsten-electric-new-york-residential"
@@ -4392,7 +5310,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-print-15"
@@ -4426,7 +5353,16 @@
    "market": [
     "EU"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-olivia-eger-oslo-norway-2"
@@ -4456,7 +5392,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [],
   "gallery": [
@@ -4492,7 +5437,16 @@
    "market": [
     "UK"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-tungsten-electric-wall-mount-paris-bar-londo"
@@ -4528,7 +5482,16 @@
    "market": [
     "UK"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-eclipse-electric-24inch-single-pole-ceiling-",
@@ -4565,7 +5528,16 @@
    "market": [
     "AU"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-platinum-gas-parkway-hotel-sydney-2"
@@ -4599,7 +5571,16 @@
    "market": [
     "AU"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-bromic-platinum-electric-black-in-situ"
@@ -4636,6 +5617,15 @@
    ],
    "proof": [
     "photo-set"
+   ],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
    ]
   },
   "images": [
@@ -4675,6 +5665,15 @@
    "market": [],
    "proof": [
     "photo-set"
+   ],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
    ]
   },
   "images": [
@@ -4717,7 +5716,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-bromic-sep18th-9-1"
@@ -4749,7 +5757,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-bromic-platinum-electric-patio-heater-black"
@@ -4781,7 +5798,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-bromic-sep18th-3-1"
@@ -4814,7 +5840,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-bromic-shoot-may-11-2023-54"
@@ -4848,7 +5883,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-bromic-shoot-may-11-2023-43"
@@ -4882,7 +5926,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-web-bromic-heating-swan-hellenic-diana-2023-"
@@ -4916,7 +5969,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-web-bromic-heating-swan-hellenic-diana-2023--2"
@@ -4949,7 +6011,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-bromic-platinum-electric-marine-patio-heater"
@@ -4981,7 +6052,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [],
   "gallery": [
@@ -5013,7 +6093,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-web-bromic-heating-silversea-silver-nova-202"
@@ -5047,7 +6136,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [],
   "gallery": [
@@ -5079,6 +6177,15 @@
    "market": [],
    "proof": [
     "photo-set"
+   ],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
    ]
   },
   "images": [
@@ -5121,7 +6228,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-platinume-white-residential-hr"
@@ -5151,7 +6267,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [],
   "gallery": [
@@ -5179,7 +6304,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-site-images-bromicch-09"
@@ -5215,7 +6349,16 @@
    "market": [
     "AU"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-platinum-electric-white-recessed-residential-2"
@@ -5247,7 +6390,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-bromic-platinum-electric-patio-heater-restau"
@@ -5279,7 +6431,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [],
   "gallery": [
@@ -5313,7 +6474,16 @@
    "market": [
     "AU"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-ruse-parramattasquare-sydney-platinumelectri"
@@ -5345,7 +6515,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-bromic-scottsdale-aft-bracketed-9",
@@ -5384,7 +6563,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-shake-shack-franklin-tn-1"
@@ -5418,7 +6606,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-platinum-gas-sheraton-carlsbad-ca-usa"
@@ -5453,7 +6650,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-bromic-eclipse-portable-hotel-skansen-05-v02",
@@ -5488,7 +6694,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-smoque-n-bones-tungsten-electric-1"
@@ -5523,7 +6738,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-soulmate-restaurant-california-4",
@@ -5562,7 +6786,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-starbuck-reserve-nyc-greenwich"
@@ -5598,7 +6831,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-starbucks-roastery-chelsea-2"
@@ -5637,6 +6879,15 @@
    ],
    "proof": [
     "photo-set"
+   ],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
    ]
   },
   "images": [
@@ -5677,7 +6928,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-taol-studio-mbc-platinum-electric",
@@ -5711,7 +6971,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-taol-wellness-retreat-3"
@@ -5745,7 +7014,16 @@
    "market": [
     "UK"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-the-ivy-london-tungsten-electric"
@@ -5779,7 +7057,16 @@
    "market": [
     "UK"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-tungsten-electric-marylebone-hotel-london"
@@ -5814,7 +7101,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-the-nolen-sd-courtyard-marriott-2"
@@ -5848,7 +7144,16 @@
    "market": [
     "IN"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-tungsten-electric-oberoi-hotel-delhi-1"
@@ -5880,7 +7185,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-eclispe"
@@ -5916,7 +7230,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-tungsten-electric-tonys-bar-brooklyn-ny-1"
@@ -5955,7 +7278,16 @@
    "market": [
     "LATAM"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-tungsten-500-top-golf-monterrey",
@@ -5987,7 +7319,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-img-1256"
@@ -6019,6 +7360,15 @@
    "market": [],
    "proof": [
     "photo-set"
+   ],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
    ]
   },
   "images": [
@@ -6056,7 +7406,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-kion-sui-madrid-spain-tungsten-electric-5"
@@ -6090,7 +7449,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-bromic-tungsten-electric-residential"
@@ -6122,7 +7490,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-bromic-tungsten-electric-black-recessed"
@@ -6152,7 +7529,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-gno-2"
@@ -6182,7 +7568,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-strx-230222-bromic-dc-6"
@@ -6214,7 +7609,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-strx-230222-bromic-dc-1"
@@ -6244,7 +7648,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-vbb7418"
@@ -6274,7 +7687,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-vbb7428"
@@ -6304,7 +7726,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-vbb7479"
@@ -6334,7 +7765,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-vbb7509"
@@ -6366,7 +7806,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-tungsten-electric-wall-mount-2"
@@ -6398,7 +7847,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-tungsten-portable-hr-1"
@@ -6430,7 +7888,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-strx-230222-bromic-dc-3",
@@ -6469,7 +7936,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-apex-building-plat-500-residential",
@@ -6505,7 +7981,16 @@
    "market": [
     "AU"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-residential-australia-sydney-vaucluse-01",
@@ -6539,7 +8024,16 @@
    ],
    "theme": [],
    "market": [],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-platinum-electric-white-recessed-residential-3"
@@ -6573,7 +8067,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-wrigley-mansion-phoenix-arizona-17",
@@ -6610,7 +8113,16 @@
    "market": [
     "AU"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "bromic-gallery"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "photos-only"
+   ]
   },
   "images": [
    "w-zeus-greek-street-kotara-sydney-platinum-gas",
@@ -6646,7 +8158,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "lead"
+   ]
   },
   "issues": [
    "Lead from the open web: confirm with the customer before use"
@@ -6682,7 +8203,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "snippet-only"
+   ],
+   "completeness": [
+    "lead"
+   ]
   },
   "issues": [
    "Lead from the open web: confirm with the customer before use"
@@ -6716,7 +8246,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
   },
   "issues": [],
   "images": [
@@ -6752,7 +8291,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
   },
   "issues": [],
   "images": [
@@ -6793,6 +8341,15 @@
    ],
    "proof": [
     "press"
+   ],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "bromic-listing"
+   ],
+   "completeness": [
+    "full-draft"
    ]
   },
   "issues": [],
@@ -6829,7 +8386,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
   },
   "issues": [],
   "images": [
@@ -6863,7 +8429,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
   },
   "issues": [],
   "images": [
@@ -6899,7 +8474,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
   },
   "issues": [],
   "images": [
@@ -6935,7 +8519,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
   },
   "issues": [],
   "images": [
@@ -6971,7 +8564,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "snippet-only"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
   },
   "issues": [],
   "images": [
@@ -7005,7 +8607,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "snippet-only"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
   },
   "issues": [],
   "images": [
@@ -7041,7 +8652,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "lead"
+   ]
   },
   "issues": [
    "Lead from the open web: confirm with the customer before use"
@@ -7082,6 +8702,15 @@
    ],
    "proof": [
     "press"
+   ],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "bromic-publication"
+   ],
+   "completeness": [
+    "full-draft"
    ]
   },
   "issues": [],
@@ -7123,6 +8752,15 @@
    ],
    "proof": [
     "press"
+   ],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "bromic-publication"
+   ],
+   "completeness": [
+    "full-draft"
    ]
   },
   "issues": [],
@@ -7164,6 +8802,15 @@
    ],
    "proof": [
     "press"
+   ],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "full-draft"
    ]
   },
   "issues": [],
@@ -7203,7 +8850,16 @@
    "market": [
     "MARINE"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "bromic-publication"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
   },
   "issues": [],
   "images": [
@@ -7242,7 +8898,16 @@
    "market": [
     "MARINE"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "bromic-publication"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
   },
   "issues": [],
   "images": [
@@ -7279,7 +8944,16 @@
    "market": [
     "MARINE"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "bromic-publication"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
   },
   "issues": [],
   "images": [
@@ -7318,7 +8992,16 @@
    "market": [
     "MARINE"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "bromic-publication"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
   },
   "issues": [],
   "images": [
@@ -7361,7 +9044,16 @@
    "market": [
     "MARINE"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "bromic-publication"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
   },
   "issues": [],
   "images": [
@@ -7404,7 +9096,16 @@
    "market": [
     "MARINE"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "bromic-publication"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
   },
   "issues": [],
   "images": [
@@ -7447,7 +9148,16 @@
    "market": [
     "MARINE"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "bromic-publication"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
   },
   "issues": [],
   "images": [
@@ -7490,7 +9200,16 @@
    "market": [
     "MARINE"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "bromic-publication"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
   },
   "issues": [],
   "images": [
@@ -7533,7 +9252,16 @@
    "market": [
     "MARINE"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "bromic-publication"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
   },
   "issues": [],
   "images": [
@@ -7576,7 +9304,16 @@
    "market": [
     "MARINE"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "bromic-publication"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
   },
   "issues": [],
   "images": [
@@ -7619,7 +9356,16 @@
    "market": [
     "UK"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "bromic-listing"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
   },
   "issues": [],
   "images": [
@@ -7653,7 +9399,16 @@
    "market": [
     "US"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "snippet-only"
+   ],
+   "completeness": [
+    "lead"
+   ]
   },
   "issues": [
    "Lead from the open web: confirm with the customer before use"
@@ -7694,6 +9449,15 @@
    ],
    "proof": [
     "press"
+   ],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "bromic-listing"
+   ],
+   "completeness": [
+    "full-draft"
    ]
   },
   "issues": [],
@@ -7732,6 +9496,15 @@
    ],
    "proof": [
     "press"
+   ],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "snippet-only"
+   ],
+   "completeness": [
+    "full-draft"
    ]
   },
   "issues": [],
@@ -7768,7 +9541,16 @@
    "market": [
     "AU"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "bromic-listing"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
   },
   "issues": [],
   "images": [
@@ -7804,7 +9586,16 @@
    "market": [
     "NZ"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "bromic-listing"
+   ],
+   "completeness": [
+    "lead"
+   ]
   },
   "issues": [
    "Lead from the open web: confirm with the customer before use"
@@ -7840,7 +9631,16 @@
    "market": [
     "AU"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "snippet-only"
+   ],
+   "completeness": [
+    "lead"
+   ]
   },
   "issues": [
    "Lead from the open web: confirm with the customer before use"
@@ -7874,7 +9674,16 @@
    "market": [
     "AU"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "lead"
+   ]
   },
   "issues": [
    "Lead from the open web: confirm with the customer before use"
@@ -7908,7 +9717,16 @@
    "market": [
     "AU"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "lead"
+   ]
   },
   "issues": [
    "Lead from the open web: confirm with the customer before use"
@@ -7942,7 +9760,16 @@
    "market": [
     "AU"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "lead"
+   ]
   },
   "issues": [
    "Lead from the open web: confirm with the customer before use"
@@ -7980,7 +9807,16 @@
    "market": [
     "EU"
    ],
-   "proof": []
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
   },
   "issues": [],
   "images": [

@@ -15,6 +15,9 @@ images: ["m-cloudbreak-1", "m-cloudbreak-2", "m-metis-1", "m-emocean-1", "m-lady
 owner_review: Josh Maingard
 status: draft
 source_kind: web-find
+origin: web-search
+evidence: bromic-publication
+completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
 updated: 2026-11-12
