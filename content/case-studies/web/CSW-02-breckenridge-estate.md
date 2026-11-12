@@ -42,7 +42,7 @@ sources:
 
 | | |
 |---|---|
-| Project | 188 Point View Place, a new-build estate (listing) |
+| Project | A new-build estate (real-estate listing) |
 | Location | Breckenridge, Colorado |
 | Segment | Single-family luxury home |
 | Size | About 10,250 sq ft, 7 bedrooms, 11 baths (listing) |

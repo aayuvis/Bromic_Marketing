@@ -8166,15 +8166,15 @@
     "page-read"
    ],
    "completeness": [
-    "lead"
+    "partial"
    ]
   },
-  "issues": [
-   "Lead from the open web: confirm with the customer before use"
+  "issues": [],
+  "images": [
+   "l-002-008"
   ],
-  "images": [],
-  "note": "Found on the web, 12 Nov 2026. Lead only.",
-  "case_study_item": null
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSP-01.",
+  "case_study_item": "CSP-01"
  },
  {
   "id": "web-web-002",
@@ -8211,21 +8211,21 @@
     "snippet-only"
    ],
    "completeness": [
-    "lead"
+    "partial"
    ]
   },
-  "issues": [
-   "Lead from the open web: confirm with the customer before use"
+  "issues": [],
+  "images": [
+   "l-001-000"
   ],
-  "images": [],
-  "note": "Found on the web, 12 Nov 2026. Lead only.",
-  "case_study_item": null
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSP-02.",
+  "case_study_item": "CSP-02"
  },
  {
   "id": "web-web-003",
   "kind": "web-find",
-  "title": "The Luna (Wilmington Parade of Homes entry), 1826 Montage Lane, Airlie at Wrightsville Sound",
-  "customer": "The Luna (Wilmington Parade of Homes entry), 1826 Montage Lane, Airlie at Wrightsville Sound",
+  "title": "The Luna (Wilmington Parade of Homes entry), Airlie at Wrightsville Sound",
+  "customer": "The Luna (Wilmington Parade of Homes entry), Airlie at Wrightsville Sound",
   "location": "Wilmington, North Carolina, USA",
   "url": "https://wilmingtonparadeofhomes.com/homes/the-luna/",
   "also_at": [],
@@ -8267,8 +8267,8 @@
  {
   "id": "web-web-004",
   "kind": "web-find",
-  "title": "188 Point View Place (new-build estate)",
-  "customer": "188 Point View Place (new-build estate)",
+  "title": "New-build estate, Breckenridge (real-estate listing)",
+  "customer": "New-build estate, Breckenridge (real-estate listing)",
   "location": "Breckenridge, Colorado, USA",
   "url": "https://www.breckenridgehomes.net/listing/s1068575-188-point-view-place-breckenridge-co-80424/",
   "also_at": [
@@ -8660,15 +8660,15 @@
     "page-read"
    ],
    "completeness": [
-    "lead"
+    "partial"
    ]
   },
-  "issues": [
-   "Lead from the open web: confirm with the customer before use"
+  "issues": [],
+  "images": [
+   "l-002-006"
   ],
-  "images": [],
-  "note": "Found on the web, 12 Nov 2026. Lead only.",
-  "case_study_item": null
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSP-03.",
+  "case_study_item": "CSP-03"
  },
  {
   "id": "web-web-013",
@@ -9407,15 +9407,15 @@
     "snippet-only"
    ],
    "completeness": [
-    "lead"
+    "partial"
    ]
   },
-  "issues": [
-   "Lead from the open web: confirm with the customer before use"
+  "issues": [],
+  "images": [
+   "l-002-004"
   ],
-  "images": [],
-  "note": "Found on the web, 12 Nov 2026. Lead only.",
-  "case_study_item": null
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSP-04.",
+  "case_study_item": "CSP-04"
  },
  {
   "id": "web-web-028",
@@ -9594,15 +9594,15 @@
     "bromic-listing"
    ],
    "completeness": [
-    "lead"
+    "partial"
    ]
   },
-  "issues": [
-   "Lead from the open web: confirm with the customer before use"
+  "issues": [],
+  "images": [
+   "l-013-099"
   ],
-  "images": [],
-  "note": "Found on the web, 12 Nov 2026. Lead only.",
-  "case_study_item": null
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSP-05.",
+  "case_study_item": "CSP-05"
  },
  {
   "id": "web-web-032",
@@ -9639,15 +9639,15 @@
     "snippet-only"
    ],
    "completeness": [
-    "lead"
+    "partial"
    ]
   },
-  "issues": [
-   "Lead from the open web: confirm with the customer before use"
+  "issues": [],
+  "images": [
+   "l-010-073"
   ],
-  "images": [],
-  "note": "Found on the web, 12 Nov 2026. Lead only.",
-  "case_study_item": null
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSP-06.",
+  "case_study_item": "CSP-06"
  },
  {
   "id": "web-web-033",
@@ -9682,15 +9682,15 @@
     "page-read"
    ],
    "completeness": [
-    "lead"
+    "partial"
    ]
   },
-  "issues": [
-   "Lead from the open web: confirm with the customer before use"
+  "issues": [],
+  "images": [
+   "l-010-067"
   ],
-  "images": [],
-  "note": "Found on the web, 12 Nov 2026. Lead only.",
-  "case_study_item": null
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSP-07.",
+  "case_study_item": "CSP-07"
  },
  {
   "id": "web-web-034",
@@ -9725,15 +9725,15 @@
     "page-read"
    ],
    "completeness": [
-    "lead"
+    "partial"
    ]
   },
-  "issues": [
-   "Lead from the open web: confirm with the customer before use"
+  "issues": [],
+  "images": [
+   "l-013-107"
   ],
-  "images": [],
-  "note": "Found on the web, 12 Nov 2026. Lead only.",
-  "case_study_item": null
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSP-08.",
+  "case_study_item": "CSP-08"
  },
  {
   "id": "web-web-035",
@@ -9768,15 +9768,15 @@
     "page-read"
    ],
    "completeness": [
-    "lead"
+    "partial"
    ]
   },
-  "issues": [
-   "Lead from the open web: confirm with the customer before use"
+  "issues": [],
+  "images": [
+   "l-010-070"
   ],
-  "images": [],
-  "note": "Found on the web, 12 Nov 2026. Lead only.",
-  "case_study_item": null
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSP-09.",
+  "case_study_item": "CSP-09"
  },
  {
   "id": "web-web-036",
@@ -9824,5 +9824,861 @@
   ],
   "note": "Found on the web, 12 Nov 2026. Case-study draft CSW-12.",
   "case_study_item": "CSW-12"
+ },
+ {
+  "id": "web-web-037",
+  "kind": "web-find",
+  "title": "Family home for sale, Baulkham Hills (Manor Real Estate listing)",
+  "customer": "Family home for sale, Baulkham Hills (Manor Real Estate listing)",
+  "location": "Baulkham Hills (north-west Sydney), NSW, Australia",
+  "url": "https://www.manorrealestate.com.au/8910/18-daniel-avenue-baulkham-hills",
+  "also_at": [],
+  "read": "high (source names Bromic at this venue explicitly)",
+  "summary": "A five-bedroom family home whose covered alfresco room has a built-in Wolf barbecue, sink, TV, ceiling fans, surround sound and Bromic heaters, looking over a heated pool. The agent's listing calls out the Bromic heaters as what makes the alfresco usable for entertaining all year.",
+  "year": null,
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [],
+   "product": [],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "AU"
+   ],
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "partial"
+   ]
+  },
+  "issues": [],
+  "images": [
+   "l-010-076"
+  ],
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSP-10.",
+  "case_study_item": "CSP-10"
+ },
+ {
+  "id": "web-web-038",
+  "kind": "web-find",
+  "title": "A Home Built for Family: Mangawhai Beach House",
+  "customer": "A Home Built for Family: Mangawhai Beach House",
+  "location": "Mangawhai, Northland, New Zealand",
+  "url": "https://archipro.co.nz/project/a-home-built-for-family-mangawhai-beach-house-louvretec-new-zealand",
+  "also_at": [
+   "https://archipro.com.au/project/a-home-built-for-family-mangawhai-beach-house-louvretec-new-zealand",
+   "https://www.eboss.co.nz/assets/literature/103/49803/Section-8-Heating_Louvretec-Design-Manual-LR.pdf"
+  ],
+  "read": "medium (dealer/installer lists venue + Bromic product)",
+  "summary": "A family beach house at Mangawhai with a Louvretec outdoor room. The listing names its parts: a 220/35 slimline opening roof, built-in LED lighting, Bromic heaters and a 165 Hi-Span motorised panel. Louvretec, Bromic's NZ distributor, recommends the Platinum Smart-Heat Electric for use under its opening roofs, but the model used here is not stated.",
+  "year": null,
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [],
+   "product": [],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "NZ"
+   ],
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "snippet-only"
+   ],
+   "completeness": [
+    "partial"
+   ]
+  },
+  "issues": [],
+  "images": [
+   "l-016-133"
+  ],
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSP-11.",
+  "case_study_item": "CSP-11"
+ },
+ {
+  "id": "web-web-039",
+  "kind": "web-find",
+  "title": "Bistro Guillaume, Crown Melbourne",
+  "customer": "Bistro Guillaume, Crown Melbourne",
+  "location": "Melbourne (Southbank), VIC, Australia",
+  "url": "http://www.melbourneawningcentre.com.au/products/bromic-gas",
+  "also_at": [],
+  "read": "medium (dealer/installer lists venue + Bromic product)",
+  "summary": "A French bistro at the Crown entertainment complex on the Yarra. A Melbourne awning and outdoor-heating firm's Bromic product page lists Bistro Guillaume at Crown as a project using the Bromic range. No detail on the heaters or the space; the venue may have changed since.",
+  "year": null,
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "AU"
+   ],
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "snippet-only"
+   ],
+   "completeness": [
+    "partial"
+   ]
+  },
+  "issues": [],
+  "images": [
+   "l-013-100"
+  ],
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSP-12.",
+  "case_study_item": "CSP-12"
+ },
+ {
+  "id": "web-web-040",
+  "kind": "web-find",
+  "title": "Taberna Puertalsol (rooftop restaurant)",
+  "customer": "Taberna Puertalsol (rooftop restaurant)",
+  "location": "Madrid, Community of Madrid (Plaza Puerta del Sol), Spain",
+  "url": "https://trends.archiexpo.com/bromic-heating/project-94052-245587.html",
+  "also_at": [],
+  "read": "high",
+  "summary": "A rooftop restaurant looking over Madrid's Puerta del Sol, linked in the listing to chef Alberto Chicote. A Bromic-supplied trade listing says white 6000W Tungsten Smart-Heat Electric heaters were chosen to suit the restaurant's clean look and to spread heat across the seating.",
+  "year": null,
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "EU"
+   ],
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "bromic-listing"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
+  },
+  "issues": [],
+  "images": [
+   "w-23-03-12-bromic-heating-hyatt-dehradun-14"
+  ],
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSW-17.",
+  "case_study_item": "CSW-17"
+ },
+ {
+  "id": "web-web-041",
+  "kind": "web-find",
+  "title": "Aubaine (restaurant)",
+  "customer": "Aubaine (restaurant)",
+  "location": "London, United Kingdom",
+  "url": "https://trends.archiexpo.com/bromic-heating/project-94052-218351.html",
+  "also_at": [],
+  "read": "medium",
+  "summary": "Aubaine is a London French-style restaurant group. On ArchiExpo, Bromic's listing that launched the all-new Platinum Smart-Heat Electric shows an Aubaine restaurant as an example or associated project. It is not clear which branch it is, or whether that product (or another Bromic product) is installed there.",
+  "year": null,
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "UK"
+   ],
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "bromic-listing"
+   ],
+   "completeness": [
+    "partial"
+   ]
+  },
+  "issues": [],
+  "images": [
+   "w-045"
+  ],
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSP-13.",
+  "case_study_item": "CSP-13"
+ },
+ {
+  "id": "web-web-042",
+  "kind": "web-find",
+  "title": "The Trade Hotel (Marriott Autograph Collection) - lounge, suite patios and il cervo rooftop restaurant",
+  "customer": "The Trade Hotel (Marriott Autograph Collection) - lounge, suite patios and il cervo rooftop restaurant",
+  "location": "Milwaukee, Wisconsin, USA",
+  "url": "https://gunnpegelow.com/resources/case-studies/the-trade-hotel/",
+  "also_at": [],
+  "read": "high",
+  "summary": "The Trade is an Autograph Collection hotel beside Fiserv Forum and the Deer District. Its outdoor spaces - a lounge, suite patios and the ninth-floor rooftop restaurant il cervo - were heated with Bromic electric patio heaters, laid out by NCG with Bromic's design team to give an even temperature across the spaces. The contractor used several mounting methods, some custom, to suit each area.",
+  "year": null,
+  "tags": {
+   "segment": [
+    "hotel-resort"
+   ],
+   "space": [],
+   "install": [],
+   "product": [],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "partial"
+   ]
+  },
+  "issues": [],
+  "images": [
+   "l-002-005"
+  ],
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSP-14.",
+  "case_study_item": "CSP-14"
+ },
+ {
+  "id": "web-web-043",
+  "kind": "web-find",
+  "title": "Greenwood Restaurant",
+  "customer": "Greenwood Restaurant",
+  "location": "Highwood, Illinois, USA",
+  "url": "https://gunnpegelow.com/2019/05/02/case-study-bromic-at-greenwood-restaurant/",
+  "also_at": [
+   "https://gunnpegelow.com/resources/case-studies/greenwood-restaurant/"
+  ],
+  "read": "high",
+  "summary": "Greenwood's mid-century modern and rustic interior carries out onto its patio. The team chose the Bromic Platinum gas heater for its looks and output, and Gunn & Pegelow worked the heaters into the patio's table layout, traffic paths and heat requirements with WT Engineering.",
+  "year": null,
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-gas"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
+  },
+  "issues": [],
+  "images": [
+   "w-1"
+  ],
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSW-18.",
+  "case_study_item": "CSW-18"
+ },
+ {
+  "id": "web-web-044",
+  "kind": "web-find",
+  "title": "Howard Park Public House (restaurant patio and ice-skating rental shop, Howard Park)",
+  "customer": "Howard Park Public House (restaurant patio and ice-skating rental shop, Howard Park)",
+  "location": "South Bend, Indiana, USA",
+  "url": "https://gunnpegelow.com/2020/10/02/case-study-howard-park-south-bend-in/",
+  "also_at": [
+   "https://gunnpegelow.com/resources/case-studies/howard-park-public-house/"
+  ],
+  "read": "high",
+  "summary": "Howard Park, a city park with a year-round bar and restaurant and a skating rink, heats its restaurant patio and skate-rental area with Bromic Tungsten gas heaters set around the building's perimeter, so people stay comfortable outside in the colder months.",
+  "year": null,
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-gas"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
+  },
+  "issues": [],
+  "images": [
+   "w-gasceilingmountpole246mm-lifestyle2-1"
+  ],
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSW-19.",
+  "case_study_item": "CSW-19"
+ },
+ {
+  "id": "web-web-045",
+  "kind": "web-find",
+  "title": "Lambeau Field - Alumni Suite Terrace",
+  "customer": "Lambeau Field - Alumni Suite Terrace",
+  "location": "Green Bay, Wisconsin, USA",
+  "url": "https://gunnpegelow.com/resources/case-studies/lambeau-field-alumni-suite-terrace/",
+  "also_at": [],
+  "read": "high",
+  "summary": "The Alumni Suite at the Green Bay Packers' stadium has an 800 sq ft outdoor terrace. Gunn & Pegelow and Somerville Architects specified six black Tungsten 4 kW 277V electric heaters with dimmer controls so each can be turned up or down, keeping the terrace usable for late-season games.",
+  "year": null,
+  "tags": {
+   "segment": [
+    "stadium-arena"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
+  },
+  "issues": [],
+  "images": [
+   "w-23-03-12-bromic-heating-hyatt-dehradun-49"
+  ],
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSW-20.",
+  "case_study_item": "CSW-20"
+ },
+ {
+  "id": "web-web-046",
+  "kind": "web-find",
+  "title": "Catch the Wave Swim School - covered patio",
+  "customer": "Catch the Wave Swim School - covered patio",
+  "location": "South Beloit, Illinois, USA",
+  "url": "https://gunnpegelow.com/resources/case-studies/catch-the-wave-swim-school/",
+  "also_at": [],
+  "read": "high",
+  "summary": "A swim school added Bromic Tungsten electric heaters to its 40 by 20 ft covered patio, positioned to a Bromic layout. Each heater has its own dimmer, so staff can set output anywhere from 0 to 100%.",
+  "year": null,
+  "tags": {
+   "segment": [],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
+  },
+  "issues": [],
+  "images": [
+   "w-23-03-12-bromic-heating-hyatt-dehradun-52"
+  ],
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSW-21.",
+  "case_study_item": "CSW-21"
+ },
+ {
+  "id": "web-web-048",
+  "kind": "web-find",
+  "title": "Predator Ridge — Range Restaurant & Bar (Range Lounge & Grill)",
+  "customer": "Predator Ridge — Range Restaurant & Bar (Range Lounge & Grill)",
+  "location": "Vernon, British Columbia, Canada",
+  "url": "https://bellaoutdoor.ca/project/predator-ridge-range-restaurant-bar/",
+  "also_at": [
+   "https://bellaoutdoor.ca/projects/"
+  ],
+  "read": "high",
+  "summary": "The restaurant at the Predator Ridge golf resort added a retractable-roof pergola over a steel platform to turn its patio into a three-season dining room. Fourteen 6000W Bromic electric heaters, LED lighting and screens let it run in most weather.",
+  "year": null,
+  "tags": {
+   "segment": [
+    "pub-club"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "CA"
+   ],
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
+  },
+  "issues": [],
+  "images": [
+   "w-bromic-tungsten-electric-black-recessed"
+  ],
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSW-22.",
+  "case_study_item": "CSW-22"
+ },
+ {
+  "id": "web-web-049",
+  "kind": "web-find",
+  "title": "Turtle Bay Pub at Wood Lake",
+  "customer": "Turtle Bay Pub at Wood Lake",
+  "location": "Lake Country, British Columbia, Canada",
+  "url": "https://bellaoutdoor.ca/project/turtle-bay-pub-at-wood-lake/",
+  "also_at": [],
+  "read": "high",
+  "summary": "A lakeside pub added a 13 ft high, 1,240 sq ft freestanding louvred pergola with motorised privacy screens over its patio, adding about 50 seats for three seasons. Bromic gas heaters were part of the package.",
+  "year": null,
+  "tags": {
+   "segment": [
+    "bar-rooftop"
+   ],
+   "space": [],
+   "install": [],
+   "product": [],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "CA"
+   ],
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "partial"
+   ]
+  },
+  "issues": [],
+  "images": [
+   "l-016-131"
+  ],
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSP-16.",
+  "case_study_item": "CSP-16"
+ },
+ {
+  "id": "web-web-050",
+  "kind": "web-find",
+  "title": "Private boathouse, Muskoka (Dana Smart Homes client project)",
+  "customer": "Private boathouse, Muskoka (Dana Smart Homes client project)",
+  "location": "Muskoka, Ontario, Canada",
+  "url": "https://www.danasmarthomes.com/blog/bromic-heaters-with-control4-using-0-10v-dimming-modules-referencing-the-recent-muskoka-boathouse-project/",
+  "also_at": [],
+  "read": "medium",
+  "summary": "An automation integrator wired several Platinum electric heaters at a Muskoka boathouse into the owner's Control4 system through 0-10V dimming modules. The heat runs from the same touchscreens, remotes and schedules as the lighting, audio and motorised shades.",
+  "year": null,
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "CA"
+   ],
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "partial"
+   ]
+  },
+  "issues": [],
+  "images": [
+   "w-06-hr-grosveldvandervelde-nl1-2021"
+  ],
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSP-17.",
+  "case_study_item": "CSP-17"
+ },
+ {
+  "id": "web-web-051",
+  "kind": "web-find",
+  "title": "Private residence with a Renson pergola (Gallagher's Patio Structures client), Toronto",
+  "customer": "Private residence with a Renson pergola (Gallagher's Patio Structures client), Toronto",
+  "location": "Toronto, Ontario, Canada",
+  "url": "https://www.gallagherspatiostructures.com/",
+  "also_at": [],
+  "read": "medium",
+  "summary": "A Toronto homeowner's review says Gallagher's supplied a Renson pergola and Bromic electric heaters for a new deck, and that they fitted it perfectly.",
+  "year": null,
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [],
+   "product": [],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "CA"
+   ],
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "partial"
+   ]
+  },
+  "issues": [],
+  "images": [
+   "l-016-134"
+  ],
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSP-18.",
+  "case_study_item": "CSP-18"
+ },
+ {
+  "id": "web-web-052",
+  "kind": "web-find",
+  "title": "Sticks'n'Sushi Battersea (6 Electric Boulevard, Battersea Power Station)",
+  "customer": "Sticks'n'Sushi Battersea (6 Electric Boulevard, Battersea Power Station)",
+  "location": "London, England, UK",
+  "url": "https://www.linkedin.com/in/jody-santamaria-555a0447/",
+  "also_at": [
+   "https://www.linkedin.com/in/lukasz-jakobik-9502b53a/",
+   "https://www.sticksnsushi.com/gb/en/restaurants/battersea"
+  ],
+  "read": "medium",
+  "summary": "A Japanese restaurant on the pedestrian Electric Boulevard at Battersea Power Station, opened late 2024. LinkedIn posts by Bromic Heating staff describing a London site visit with the UK business development contact say Bromic Eclipse heaters are installed at this restaurant.",
+  "year": null,
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "eclipse-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "UK"
+   ],
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "bromic-listing"
+   ],
+   "completeness": [
+    "partial"
+   ]
+  },
+  "issues": [],
+  "images": [
+   "l-013-111"
+  ],
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSP-19.",
+  "case_study_item": "CSP-19"
+ },
+ {
+  "id": "web-web-053",
+  "kind": "web-find",
+  "title": "Dishoom Battersea (Battersea Power Station)",
+  "customer": "Dishoom Battersea (Battersea Power Station)",
+  "location": "London, England, UK",
+  "url": "https://www.linkedin.com/in/jody-santamaria-555a0447/",
+  "also_at": [
+   "https://www.linkedin.com/in/lukasz-jakobik-9502b53a/",
+   "https://insideoutcontracts.com/projects/dishoom-battersea"
+  ],
+  "read": "medium",
+  "summary": "Dishoom's 235-seat restaurant at Battersea Power Station, opened 2023. The same Bromic staff LinkedIn posts that name Sticks'n'Sushi say Bromic Eclipse heaters are installed here too.",
+  "year": null,
+  "tags": {
+   "segment": [
+    "restaurant"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "eclipse-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "UK"
+   ],
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "bromic-listing"
+   ],
+   "completeness": [
+    "partial"
+   ]
+  },
+  "issues": [],
+  "images": [
+   "w-au"
+  ],
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSP-20.",
+  "case_study_item": "CSP-20"
+ },
+ {
+  "id": "web-web-054",
+  "kind": "web-find",
+  "title": "Lillies (rooftop wine bar and restaurant above the Olympia development)",
+  "customer": "Lillies (rooftop wine bar and restaurant above the Olympia development)",
+  "location": "London, England, UK",
+  "url": "https://www.linkedin.com/in/karltschauner/",
+  "also_at": [
+   "https://www.linkedin.com/in/lukasz-jakobik-9502b53a/"
+  ],
+  "read": "medium",
+  "summary": "A rooftop wine bar and restaurant above the redeveloped Olympia in west London, designed by Studio Found. Bromic staff LinkedIn posts say Platinum heaters were specified so they sit within the architecture and extend the outdoor season.",
+  "year": null,
+  "tags": {
+   "segment": [
+    "bar-rooftop"
+   ],
+   "space": [],
+   "install": [],
+   "product": [],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "UK"
+   ],
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "bromic-listing"
+   ],
+   "completeness": [
+    "partial"
+   ]
+  },
+  "issues": [],
+  "images": [
+   "t-003-005"
+  ],
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSP-21.",
+  "case_study_item": "CSP-21"
+ },
+ {
+  "id": "web-web-055",
+  "kind": "web-find",
+  "title": "Lightfields (at The Vineyard Hotel)",
+  "customer": "Lightfields (at The Vineyard Hotel)",
+  "location": "not stated in source (verify)",
+  "url": "https://www.linkedin.com/in/andrew-payne-8244b4228/",
+  "also_at": [],
+  "read": "medium",
+  "summary": "A LinkedIn post by a Bromic Group staff member says Bromic supplied Tungsten Freestanding heaters for Lightfields at The Vineyard Hotel. One search summary describes it as a Zenith Hotels activation. Location and dates were not in the snippet.",
+  "year": null,
+  "tags": {
+   "segment": [
+    "hotel-resort"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "tungsten-portable"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [],
+   "proof": [],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "bromic-listing"
+   ],
+   "completeness": [
+    "partial"
+   ]
+  },
+  "issues": [],
+  "images": [
+   "l-018-151"
+  ],
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSP-22.",
+  "case_study_item": "CSP-22"
+ },
+ {
+  "id": "web-web-056",
+  "kind": "web-find",
+  "title": "Front yard, Deckorators 'Year of the Front Yard' (New Jersey)",
+  "customer": "Front yard, Deckorators 'Year of the Front Yard' (New Jersey)",
+  "location": "New Jersey, USA",
+  "url": "https://www.prnewswire.com/news-releases/deckorators-declares-2026-the-year-of-the-front-yard-302685691.html",
+  "also_at": [],
+  "read": "high",
+  "summary": "A Deckorators press release presents a front-of-home redesign at a New Jersey farmhouse-style home owned by contractor the homeowner's. It includes an all-season lounge with Bromic Platinum Electric heaters built in, alongside a custom Deckorators swing bed.",
+  "year": null,
+  "tags": {
+   "segment": [
+    "single-family"
+   ],
+   "space": [],
+   "install": [],
+   "product": [
+    "platinum-electric"
+   ],
+   "controls": [
+    "controls-not-stated"
+   ],
+   "theme": [],
+   "market": [
+    "US"
+   ],
+   "proof": [
+    "press"
+   ],
+   "origin": [
+    "web-search"
+   ],
+   "evidence": [
+    "page-read"
+   ],
+   "completeness": [
+    "full-draft"
+   ]
+  },
+  "issues": [],
+  "images": [
+   "w-26-bromic-morningcoffee-0251-opt"
+  ],
+  "note": "Found on the web, 12 Nov 2026. Case-study draft CSW-23.",
+  "case_study_item": "CSW-23"
  }
 ]

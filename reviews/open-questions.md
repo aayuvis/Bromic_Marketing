@@ -189,3 +189,13 @@ The ten answers that unblock the most content (basis: docs/HANDOVER-next-session
 | Photographer licence for the Juneau showhome photo published on bromic.com. | Megan Spies | CSW-03 |
 | Original project files and photos behind Bromic's own ArchiExpo listings (The Queen's Club, Chiswick, Azotea del Círculo). | Bromic UK, AU, EU | CSW-08, CSW-11, CSW-12 |
 
+
+## Web-found installations, second pass (12 Nov 2026) — owner: Marketing (Aayush Vishnoi to assign)
+
+| Contact | Why | Unlocks |
+|---|---|---|
+| Gunn & Pegelow (Midwest reps) | Specified Lambeau Field Alumni Suite, Howard Park, Greenwood and other Midwest projects | Photos, controls, consent for CSW-18–20 and related partials |
+| Bella Outdoor Living / Predator Ridge, Turtle Bay (BC) | Okanagan installs found via dealer pages | Completes CSW-22 and CSP-16 |
+| Louvretec (NZ) | Pergola installs with Bromic heaters | NZ case studies |
+| Bromic UK | London venues named in trade coverage | Completes the London partials |
+| ArchiExpo listing | Returned 403; only snippets read | Confirms the snippet-only partials |

@@ -184,7 +184,7 @@ if os.path.exists(WEB):
                'images': web_images(w.get('case_study')),
                'note': f"Found on the web, 12 Nov 2026. {'Case-study draft ' + w['case_study'] + '.' if w.get('case_study') else 'Lead only.'}",
                'case_study_item': w.get('case_study')}
-        ev = w.get('evidence') or web_evidence(w)
+        ev = {'page read': 'page-read', 'snippet only': 'snippet-only', 'bromic listing': 'bromic-listing', 'bromic publication': 'bromic-publication'}.get(w.get('evidence'), w.get('evidence')) or web_evidence(w)
         rec['tags']['origin'] = ['web-search']
         rec['tags']['evidence'] = [ev]
         cs = w.get('case_study') or ''

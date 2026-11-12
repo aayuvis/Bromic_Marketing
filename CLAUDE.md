@@ -77,12 +77,19 @@ strategy recovers existing pages instead of adding new ones), absorbing the post
 follows `templates/blog-brief.md`: a 40–80 word answer first, H2s, a table where it fits, controls with every heater, sources,
 one CTA, `technical_reviewer` and `last_reviewed`. The Hub's Blog tab shows all 73 live posts and what replaces each.
 
-## Installations found on the web (12 Nov 2026)
+## Installations found on the web (two passes, 12 Nov 2026)
 
-`data/web-installs.json`: 36 named Bromic installations found on the open web (venues, installers, architects, listings, trade press),
-each with its sources and a confidence; Bromic's own case-study pages are excluded. 16 became **case-study drafts** in
-`content/case-studies/web/CSW-*.md` (`source_kind: web-find`, `status: draft`): sourced facts only, controls `[[VERIFY]]` where not
-stated, no numbers or quotes, and a "To publish" list ending in the template's consent checklist. The rest are leads.
+`data/web-installs.json`: 55 named Bromic installations found on the open web (venues, installers, reps, architects, pergola
+dealers, listings, trade press), each with its sources, a confidence and an evidence level; Bromic's own case-study pages are
+excluded. Every find becomes a case study:
+- **Full drafts** `content/case-studies/web/CSW-*.md` (23): a high-confidence find with a named product and a page actually read.
+- **Partial case studies** `CSP-*.md` (21): what the sources support, plus a "What is missing" list for the call that completes it.
+Both carry `source_kind: web-find`, `origin: web-search`, `evidence` (page-read · snippet-only · bromic-listing · bromic-publication)
+and `completeness` (full-draft · partial), `status: draft`: sourced facts only, controls `[[VERIFY]]` where not stated, no invented
+numbers or quotes, a "To publish" list ending in the template's consent checklist. The Cases tab filters every record by **Origin**,
+**Evidence** and **Completeness** (taxonomy groups in `case-study-taxonomy.json`; Bromic's own pages are `published`, gallery
+projects `photos-only`); each card shows its provenance chips. **Privacy:** a private home is named by town and source type only,
+never a house number, street or homeowner's name. Legacy "500 Series" naming in a source is dropped (hard rule 3).
 **Images:** photos owned by venues, installers or the press are listed under "Photos to request", never copied. A draft uses a
 Bromic-published photo of that project where one exists (21 `m-` images from Bromic's 2022 marine presentation; the Juneau
 showhome from bromic.com), otherwise a comparable Bromic image with `hero_caption` saying so. `scripts/build_case_studies.py`
