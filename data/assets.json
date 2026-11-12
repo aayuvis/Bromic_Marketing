@@ -1,5 +1,5 @@
 {
- "_readme": "A01\u2013A24 backlog. Rows with provenance \"known\" are stated in HANDOVER.md; \"known-ref\" are referenced there by id only; \"proposed\" are RECONSTRUCTED because the original data/assets.json was not supplied \u2014 replace when available.",
+ "_readme": "A01–A24 backlog. Rows with provenance \"known\" are stated in HANDOVER.md; \"known-ref\" are referenced there by id only; \"proposed\" are RECONSTRUCTED because the original data/assets.json was not supplied — replace when available.",
  "assets": [
   {
    "id": "A01",
@@ -108,7 +108,7 @@
   },
   {
    "id": "A07",
-   "name": "Design Your Space 2.0 (48\u201372h layout + BOM)",
+   "name": "Design Your Space 2.0 (48–72h layout + BOM)",
    "type": "service",
    "priority": "P1",
    "status": "fix",
@@ -409,6 +409,23 @@
    "owner": "Megan Spies (editorial)",
    "gated": false,
    "provenance": "known"
+  },
+  {
+   "id": "A25",
+   "name": "Electrical contractor guide + Bromic Partner Program",
+   "type": "sales-kit",
+   "priority": "P2",
+   "status": "new",
+   "audiences": [
+    "BLD"
+   ],
+   "stages": [
+    "CO",
+    "IN"
+   ],
+   "owner": "Karl Tschauner",
+   "gated": true,
+   "provenance": "owner request, 12 Nov 2026"
   }
  ]
 }

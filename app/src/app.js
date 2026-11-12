@@ -128,6 +128,7 @@
       'Search content, keywords, sources': 'Inhalte, Stichwörter, Quellen suchen',
       'Bromic Content Hub': 'Bromic Content Hub', 'Designed from the start, not added later.': 'Von Anfang an geplant, nicht nachträglich ergänzt.',
       'HERO': 'Alle Bromic-Inhalte, die Terrassenheizung früher ins Projekt bringen: in die Planung des Architekten, die Vorverkabelung des Bauunternehmers und das erste Budget des Bauherrn. Finden Sie sie nach Zielgruppe, nach Phase der Entscheidung oder nach Bedarf.',
+      'Start': 'Start', 'Assets': 'Inhalte', 'To do': 'Aufgaben', 'Find something to share': 'Inhalte zum Teilen finden', 'Approve and chase': 'Freigeben und nachfassen', 'Get a case study': 'Fallstudie finden', 'Find an image': 'Bild finden', 'This week': 'Diese Woche', 'What needs a person': 'Was jemanden braucht', 'ready to read and approve': 'bereit zum Lesen und Freigeben', 'waiting on a fact or a call': 'warten auf eine Angabe oder einen Anruf', 'approved, ready for 454 Creative': 'freigegeben, bereit für 454 Creative', 'PDFs ready to share': 'PDFs zum Teilen',
       'Who it is for': 'Für wen', 'Where they are': 'Wo sie stehen', 'What you need': 'Was Sie brauchen',
       '01 · Who it is for': '01 · Für wen', 'Four audiences, four different questions': 'Vier Zielgruppen, vier verschiedene Fragen',
       'Each audience gets content written for its job, not one brochure for everyone.': 'Jede Zielgruppe bekommt Inhalte für ihre Aufgabe, keine Einheitsbroschüre.',
@@ -164,6 +165,7 @@
       'Search content, keywords, sources': 'Zoek content, trefwoorden, bronnen',
       'Bromic Content Hub': 'Bromic Content Hub', 'Designed from the start, not added later.': 'Vanaf het begin ontworpen, niet achteraf toegevoegd.',
       'HERO': 'Alle Bromic-content die buitenverwarming eerder in het project brengt: in de tekening van de architect, de voorbekabeling van de aannemer en het eerste budget van de huiseigenaar. Zoek op doelgroep, op fase van de beslissing of op wat je nodig hebt.',
+      'Start': 'Start', 'Assets': 'Content', 'To do': 'Te doen', 'Find something to share': 'Iets vinden om te delen', 'Approve and chase': 'Goedkeuren en navragen', 'Get a case study': 'Een case study vinden', 'Find an image': 'Een beeld vinden', 'This week': 'Deze week', 'What needs a person': 'Wat iemand nodig heeft', 'ready to read and approve': 'klaar om te lezen en goed te keuren', 'waiting on a fact or a call': 'wacht op een gegeven of een telefoontje', 'approved, ready for 454 Creative': 'goedgekeurd, klaar voor 454 Creative', 'PDFs ready to share': "pdf's klaar om te delen",
       'Who it is for': 'Voor wie', 'Where they are': 'Waar ze staan', 'What you need': 'Wat je nodig hebt',
       '01 · Who it is for': '01 · Voor wie', 'Four audiences, four different questions': 'Vier doelgroepen, vier verschillende vragen',
       'Each audience gets content written for its job, not one brochure for everyone.': 'Elke doelgroep krijgt content voor zijn eigen taak, geen brochure voor iedereen.',
@@ -298,7 +300,6 @@
       const top = [...its].filter((i) => i.type !== 'blog').sort((x, y) => rankFront(x) - rankFront(y)).slice(0, 2);
       return `<a class="fp-stg" href="#/library?stage=${s}">
         <span class="fp-stg-n">${String(n + 1).padStart(2, '0')}</span>
-        <span class="label">${esc(STG[s].funnel)}</span>
         <h3>${esc(STG[s].name)}</h3>
         <p>${esc(lang === 'en' ? STG_FRONT[s] || '' : STR('STG_' + s))}</p>
         <span class="fp-stg-eg">${top.map((i) => esc(shortTitle(i.title))).join(' · ')}</span>
@@ -328,13 +329,21 @@
       <div class="hero-in"><span class="flame-rule"></span><span class="label">Bromic Content Hub · ${esc(STR(R().name))}</span>
         <h1>${esc(STR('Designed from the start, not added later.'))}</h1>
         <p>${lang === 'en' ? 'Every piece of Bromic content that moves outdoor heating earlier: into the architect\'s drawing, the builder\'s pre-wire and the homeowner\'s first budget. Find it by who it is for, where they are in the decision, or what you need.' : esc(STR('HERO'))}</p>
-        <nav class="fp-ways" aria-label="Ways in">
-          <a href="#fp-who"><span>01</span>${esc(STR('Who it is for'))}</a>
-          <a href="#fp-where"><span>02</span>${esc(STR('Where they are'))}</a>
-          <a href="#fp-what"><span>03</span>${esc(STR('What you need'))}</a>
+        <nav class="fp-ways" aria-label="What do you want to do?">
+          <a href="#/library"><span>01</span>${esc(STR('Find something to share'))}</a>
+          <a href="#/todo"><span>02</span>${esc(STR('Approve and chase'))}</a>
+          <a href="#/cases"><span>03</span>${esc(STR('Get a case study'))}</a>
+          <a href="#/images"><span>04</span>${esc(STR('Find an image'))}</a>
         </nav></div>
     </section>
 
+    <section class="fp-sec fp-todo"><div class="fp-h"><span class="fp-k">${esc(STR('This week'))}</span><h2>${esc(STR('What needs a person'))}</h2></div>
+      <div class="todo-glance">
+        <a href="#/todo#approve"><b>${H.items.filter((i) => nextStep(i).k === 'approve' && i.status === 'draft').length}</b><span>${esc(STR('ready to read and approve'))}</span></a>
+        <a href="#/todo#chase"><b>${H.items.filter((i) => nextStep(i).k === 'chase').length}</b><span>${esc(STR('waiting on a fact or a call'))}</span></a>
+        <a href="#/todo#go"><b>${H.items.filter((i) => nextStep(i).k === 'go').length}</b><span>${esc(STR('approved, ready for 454 Creative'))}</span></a>
+        <a href="#/downloads"><b>${pdfList().length}</b><span>${esc(STR('PDFs ready to share'))}</span></a>
+      </div></section>
     <section id="fp-who" class="fp-sec">
       <div class="fp-h"><span class="fp-k">${esc(STR('01 · Who it is for'))}</span><h2>${esc(STR('Four audiences, four different questions'))}</h2>
         <p>${esc(STR('Each audience gets content written for its job, not one brochure for everyone.'))}</p></div>
@@ -375,24 +384,127 @@
   function linked(assetId) { return H.items.filter((i) => i.asset === assetId || i.id === assetId || i.id.startsWith(assetId + '-')); }
 
   // library state lives in the hash query
-  function parseQ() { const q = new URLSearchParams((location.hash.split('?')[1]) || ''); return { stage: q.get('stage') || '', aud: q.get('aud') || '', type: q.get('type') || '', status: q.get('status') || '', gated: q.get('gated') || '', sort: q.get('sort') || 'journey' }; }
+  // ---------- shelves, next steps and people: the brand manager's view of the library ----------
+  // Every item sits on one shelf named for where it goes, and carries one next step in plain words.
+  const INTERNAL = new Set(['A02-outline', 'A01-corrections', 'R-BLOG-AUDIT', 'R-SEO-AEO', 'CS-CANDIDATES', 'CS-TEMPLATE']);
+  const SHELVES = [
+    { id: 'web', name: 'Website articles and answers', use: 'Pages for bromic.com that answer what people search for and ask AI assistants.', how: 'Publish on bromic.com', types: ['article', 'kb'] },
+    { id: 'lead', name: 'Downloads that capture leads', use: 'Reports and guides offered behind a form. Each has a finished PDF.', how: 'Put behind a form; share the PDF', types: ['report', 'gated-guide', 'stats-page'] },
+    { id: 'trade', name: 'Sales and trade kits', use: 'For reps, builders, contractors and specifiers: one-pagers, spec kits and program guides.', how: 'Hand to sales and the trade', types: ['sales-kit', 'spec-kit'] },
+    { id: 'tools', name: 'Calculators', use: 'Interactive tools that size a space, compare running costs or show the revenue case.', how: 'Embed on bromic.com', types: ['tool'] },
+    { id: 'proof', name: 'Case studies', use: 'Real installations: published stories, drafts to finish and web finds to confirm.', how: 'Complete, get consent, publish', types: ['case-study'] },
+    { id: 'blog', name: 'Blog rewrites', use: 'Rewrites of the posts already live on bromic.com/blog, each kept on its existing URL.', how: 'Replace the live post', types: ['blog'] },
+    { id: 'internal', name: 'Working documents', use: 'Audits, outlines, corrections and templates for the content team. Not for sharing.', how: 'Read for context', types: [] },
+  ];
+  const SHELF = Object.fromEntries(SHELVES.map((x) => [x.id, x]));
+  const shelfOf = (it) => (INTERNAL.has(it.id) || it.status === 'template' ? 'internal' : (SHELVES.find((x) => x.types.includes(it.type)) || SHELVES[0]).id);
+  const PLAIN = { draft: 'Draft', 'in-review': 'With reviewer', approved: 'Approved', published: 'Live', template: 'Template' };
+  const personOf = (v) => {
+    const seg = String(v).split(/ — /).pop().split(/\[\[|;/)[0];
+    const n = seg.split(/[\/+]/).map((x) => x.trim()).find((x) => /^[A-Z][a-z]+ [A-Z][a-z]+$|^Bromic (AU|UK|EU)$/.test(x));
+    return n || '';
+  };
+  const people = (it) => [...new Set(it.verifies.map(personOf).filter(Boolean))];
+  // One next step per item, from its status and what is still open.
+  function nextStep(it) {
+    const v = it.verifies.length, who = it.owner_review || 'the reviewer';
+    if (shelfOf(it) === 'internal') return { k: 'info', t: 'For the content team', d: 'Working document; nothing to publish.', who: '' };
+    if (it.status === 'published') return { k: 'done', t: 'Live', d: 'Keep it up to date.', who: '' };
+    if (it.status === 'approved') return { k: 'go', t: 'Send to 454 Creative', d: 'Approved: lay out and publish.', who: '454 Creative' };
+    if (it.completeness === 'partial') return { k: 'chase', t: 'Call the venue or installer', d: 'Partial case study: controls, photos and consent are missing.', who: who };
+    if (v) { const ps = people(it); return { k: 'chase', t: `Answer ${v} open ${v === 1 ? 'fact' : 'facts'}`, d: ps.length ? 'Waiting on ' + ps.slice(0, 3).join(', ') + (ps.length > 3 ? ` and ${ps.length - 3} more` : '') : 'Facts marked to verify.', who: ps[0] || who }; }
+    if (it.status === 'in-review') return { k: 'approve', t: 'Waiting for sign-off', d: `With ${who}.`, who };
+    return { k: 'approve', t: 'Read and approve', d: `No open facts. ${who} signs off.`, who };
+  }
+  const NEXT_IC = { approve: '●', chase: '◐', go: '→', done: '✓', info: '·' };
+  const nextBadge = (it) => { const n = nextStep(it); return `<span class="nx nx-${n.k}"><b>${esc(n.t)}</b>${n.d ? `<small>${esc(n.d)}</small>` : ''}</span>`; };
+  function row(it) {
+    const hero = it.hero || (it.type === 'tool' ? 't-009-025' : '');
+    return `<a class="arow" href="#/item/${esc(it.id)}">
+      <span class="arow-pic">${img(hero)}</span>
+      <span class="arow-main"><span class="label">${esc(TYPES[it.type] || it.type)}${hasPdf(it) ? ' · PDF' : ''}${it.origin === 'web-search' ? ' · Web find' : ''}</span>
+        <span class="arow-t">${esc(it.title)}</span>
+        <span class="arow-for">For ${esc(it.audience.map((a) => (AUD_FRONT[a]?.short || AUD[a]?.name || a).toLowerCase()).join(', '))}</span></span>
+      <span class="arow-st"><span class="status ${esc(it.status)}">${esc(PLAIN[it.status] || it.status)}</span></span>
+      ${nextBadge(it)}</a>`;
+  }
+  function shelvesPage() {
+    const all = H.items;
+    const ready = all.filter((i) => nextStep(i).k === 'approve' && i.status === 'draft').length;
+    const chase = all.filter((i) => nextStep(i).k === 'chase').length;
+    const go = all.filter((i) => nextStep(i).k === 'go').length;
+    return `<div class="ph"><div><span class="label">Assets</span><h1>Everything we have, by where it goes</h1>
+      <p>Each shelf is a kind of asset and the channel it is for. Every row tells you its status and the one thing it needs next.</p></div>
+      <a class="btn" href="#/todo">${ic.arrow}Open my to-do</a></div>
+      <div class="todo-glance">
+        <a href="#/todo#approve"><b>${ready}</b><span>ready to read and approve</span></a>
+        <a href="#/todo#chase"><b>${chase}</b><span>waiting on a fact or a call</span></a>
+        <a href="#/todo#go"><b>${go}</b><span>approved, ready for 454 Creative</span></a>
+        <a href="#/downloads"><b>${pdfList().length}</b><span>PDFs ready to share</span></a>
+      </div>
+      ${SHELVES.map((sh) => {
+        const its = all.filter((i) => shelfOf(i) === sh.id);
+        if (!its.length) return '';
+        const order = (i) => ['go', 'approve', 'chase', 'done', 'info'].indexOf(nextStep(i).k);
+        const top = [...its].sort((a, b) => (FLAGSHIP.includes(b.id) - FLAGSHIP.includes(a.id)) || order(a) - order(b)).slice(0, sh.id === 'internal' ? 3 : 5);
+        return `<section class="shelf" id="shelf-${sh.id}"><div class="shelf-h"><div><h2>${esc(sh.name)} <span class="muted">${its.length}</span></h2><p>${esc(sh.use)}</p></div>
+          <div class="shelf-how"><span class="label">What you do with it</span><b>${esc(sh.how)}</b></div></div>
+          <div class="arows">${top.map(row).join('')}</div>
+          ${its.length > top.length ? `<a class="shelf-more" href="${libHref({ shelf: sh.id })}">See all ${its.length} ${esc(sh.name.toLowerCase())} ${ic.arrow}</a>` : ''}</section>`;
+      }).join('')}
+      <p class="muted" style="font-size:13px">Looking for something specific? Search at the top, or <a href="${libHref({ shelf: 'all' })}">filter everything by audience, stage and type</a>.</p>`;
+  }
+
+  // ---------- my to-do: what needs a person, grouped by what to do ----------
+  function todo() {
+    const me = store.get('bromic-hub-me') || '';
+    const live = H.items.filter((i) => shelfOf(i) !== 'internal');
+    const mine = (i) => !me || i.owner_review === me || people(i).includes(me) || (me === '454 Creative' && nextStep(i).k === 'go');
+    const approve = live.filter((i) => nextStep(i).k === 'approve' && mine(i));
+    const go = live.filter((i) => nextStep(i).k === 'go' && mine(i));
+    const partial = live.filter((i) => i.completeness === 'partial' && mine(i));
+    const chaseItems = live.filter((i) => i.verifies.length && i.completeness !== 'partial');
+    const byPerson = {};
+    for (const it of chaseItems) for (const v of it.verifies) { const p = personOf(v) || 'Not assigned'; if (me && p !== me && it.owner_review !== me) continue; ((byPerson[p] ||= {})[it.id] ||= []).push(v); }
+    const everyone = [...new Set([...H.items.map((i) => i.owner_review).filter(Boolean).flatMap((o) => o.split(/ \+ /)), ...H.items.flatMap(people), '454 Creative'])].filter((x) => !/VERIFY/.test(x)).sort();
+    const steps = [['Draft', live.filter((i) => i.status === 'draft').length], ['Facts answered', live.filter((i) => i.status === 'draft' && nextStep(i).k === 'approve').length], ['Approved', live.filter((i) => i.status === 'approved').length], ['Laid out by 454 Creative', 0], ['Live on bromic.com', live.filter((i) => i.status === 'published').length]];
+    const list = (its, empty) => (its.length ? `<div class="arows">${its.map(row).join('')}</div>` : `<div class="empty">${empty}</div>`);
+    return `<div class="ph"><div><span class="label">To do</span><h1>${me ? esc(me) + "'s to-do" : 'What needs a person next'}</h1>
+      <p>Nothing here is published until its owner approves it. Answer the open facts, approve the draft, then 454 Creative lays it out for bromic.com.</p></div>
+      <label class="who-pick"><span class="label">Show the to-do for</span><select id="me"><option value="">Everyone</option>${everyone.map((p) => `<option ${p === me ? 'selected' : ''}>${esc(p)}</option>`).join('')}</select></label></div>
+      <ol class="flow">${steps.map(([t, n], k) => `<li><span class="flow-n">${k + 1}</span><b>${esc(t)}</b><span>${n}</span></li>`).join('')}</ol>
+      <section class="todo-sec" id="approve"><div class="todo-h"><h2>Read and approve</h2><p>${approve.length} with no open facts. Open one, read it, and press <b>Approve</b> on the page.</p></div>${list(approve.slice(0, 40), 'Nothing waiting for approval.')}</section>
+      <section class="todo-sec" id="go"><div class="todo-h"><h2>Approved: send to 454 Creative</h2><p>Approved drafts go to 454 Creative for layout, then WordPress.</p></div>${list(go, 'Nothing approved yet. Approve a draft above and it moves here.')}</section>
+      <section class="todo-sec" id="chase"><div class="todo-h"><h2>Facts to answer</h2><p>Each draft stays a draft until these are answered. Grouped by who can answer them; send each person their list.</p></div>
+        ${Object.entries(byPerson).sort((a, b) => Object.values(b[1]).flat().length - Object.values(a[1]).flat().length).map(([p, its]) => {
+          const n = Object.values(its).flat().length;
+          return `<details class="chase"><summary><b>${esc(p)}</b><span class="muted">${n} ${n === 1 ? 'question' : 'questions'} across ${Object.keys(its).length} ${Object.keys(its).length === 1 ? 'asset' : 'assets'}</span></summary>
+            ${Object.entries(its).map(([id, vs]) => `<div class="chase-it"><a href="#/item/${esc(id)}">${esc(ITEM[id].title)}</a><ol>${vs.map((v) => `<li>${esc(v)}</li>`).join('')}</ol></div>`).join('')}
+            <button class="btn" data-copy-chase="${esc(p)}">${ic.copy}Copy as an email</button></details>`;
+        }).join('') || '<div class="empty">No open facts.</div>'}</section>
+      <section class="todo-sec" id="partial"><div class="todo-h"><h2>Case studies to finish</h2><p>Found on the web; each needs a call to the venue or installer for controls, photos and consent.</p></div>${list(partial, 'None.')}</section>`;
+  }
+
+  function parseQ() { const q = new URLSearchParams((location.hash.split('?')[1]) || ''); return { stage: q.get('stage') || '', aud: q.get('aud') || '', type: q.get('type') || '', status: q.get('status') || '', gated: q.get('gated') || '', shelf: q.get('shelf') || '', view: q.get('view') || '', sort: q.get('sort') || 'journey' }; }
   function libHref(st) { const q = new URLSearchParams(); for (const [k, v] of Object.entries(st)) if (v && !(k === 'sort' && v === 'journey')) q.set(k, v); const s = q.toString(); return '#/library' + (s ? '?' + s : ''); }
   function match(it, st, skip) {
     return (skip === 'stage' || !st.stage || it.stage.includes(st.stage)) && (skip === 'aud' || !st.aud || it.audience.includes(st.aud))
       && (skip === 'type' || !st.type || it.type === st.type) && (skip === 'status' || !st.status || it.status === st.status)
-      && (skip === 'gated' || !st.gated || (st.gated === 'yes') === isGated(it)) && (!searchTerm || hay(it).includes(searchTerm));
+      && (skip === 'gated' || !st.gated || (st.gated === 'yes') === isGated(it)) && (skip === 'shelf' || !st.shelf || st.shelf === 'all' || shelfOf(it) === st.shelf) && (!searchTerm || hay(it).includes(searchTerm));
   }
   const hay = (it) => (hay.c ||= {})[it.id] ||= [it.id, it.title, it.summary, it.primary_keyword, ...it.secondary_keywords, it.ai_prompt, it.markdown, ...it.sources.map((s) => s.publisher + ' ' + s.title)].join(' ').toLowerCase();
   let searchTerm = '';
 
   function library() {
     const st = parseQ();
+    if (!searchTerm && !['stage', 'aud', 'type', 'status', 'gated', 'shelf'].some((k) => st[k])) return shelvesPage();
     const groups = [
-      ['stage', 'Lifecycle', SK.map((k) => [k, STG[k].name])],
+      ['shelf', 'Where it goes', SHELVES.map((x) => [x.id, x.name])],
+      ['stage', 'Buyer stage', SK.map((k) => [k, STG[k].name])],
       ['aud', 'Audience', AK.map((k) => [k, AUD[k].name.split(' (')[0]])],
       ['type', 'Type', Object.keys(TYPES).map((k) => [k, TYPES[k]])],
-      ['gated', 'Access', [['yes', 'Gated (MQL)'], ['no', 'Open']]],
-      ['status', 'Status', STATUSES.concat('template').map((k) => [k, k.replace('-', ' ')])],
+      ['gated', 'Access', [['yes', 'Behind a form'], ['no', 'Open to all']]],
+      ['status', 'Status', STATUSES.concat('template').map((k) => [k, PLAIN[k] || k])],
     ];
     const f = groups.map(([key, label, opts]) => `<div class="fgroup"><span class="label">${label}</span>${opts.map(([v, l]) => {
       const n = H.items.filter((i) => match(i, { ...st, [key]: v }, '')).length;
@@ -403,12 +515,15 @@
     const ord = (i) => AK.indexOf(i.audience[0]) * 10 + SK.indexOf(i.stage[0]);
     list.sort(st.sort === 'title' ? (a, b) => a.title.localeCompare(b.title) : st.sort === 'verify' ? (a, b) => b.verifies.length - a.verifies.length
       : st.sort === 'words' ? (a, b) => b.words - a.words : (a, b) => ord(a) - ord(b) || (a.type === 'article' ? -1 : 1));
-    const active = Object.entries(st).filter(([k, v]) => v && k !== 'sort').length || searchTerm;
-    return `<div class="ph"><div><span class="label">Library</span><h1>Every asset, by lifecycle, audience and type</h1></div></div>
+    const active = Object.entries(st).filter(([k, v]) => v && k !== 'sort' && k !== 'view').length || searchTerm;
+    const sh = SHELF[st.shelf];
+    return `<nav class="crumbs"><a href="#/library">Assets</a><span>/</span><span>${esc(sh ? sh.name : 'Filtered')}</span></nav>
+    <div class="ph"><div><span class="label">Assets</span><h1>${esc(sh ? sh.name : 'Every asset')}</h1>${sh ? `<p>${esc(sh.use)} <b>${esc(sh.how)}.</b></p>` : ''}</div>
+      <span class="btns"><a class="btn${st.view === 'cards' ? '' : ' primary'}" href="${libHref({ ...st, view: '' })}">List</a><a class="btn${st.view === 'cards' ? ' primary' : ''}" href="${libHref({ ...st, view: 'cards' })}">Pictures</a></span></div>
     <div class="lib"><aside class="filters" aria-label="Filters">${f}</aside>
       <section><div class="toolbar"><span class="muted">${list.length} of ${H.items.length}${searchTerm ? ` matching “${esc(searchTerm)}”` : ''}${active ? ` · <button class="clear" data-clear>Clear filters</button>` : ''}</span>
         <label class="muted" style="font-size:13px">Sort <select id="sort">${[['journey', 'Journey order'], ['title', 'Title'], ['verify', 'Most to verify'], ['words', 'Longest']].map(([v, l]) => `<option value="${v}" ${st.sort === v ? 'selected' : ''}>${l}</option>`).join('')}</select></label></div>
-        ${list.length ? `<div class="grid">${list.map(card).join('')}</div>` : '<div class="empty">Nothing matches. Clear a filter.</div>'}</section></div>`;
+        ${list.length ? (st.view === 'cards' ? `<div class="grid">${list.map(card).join('')}</div>` : `<div class="arows">${list.map(row).join('')}</div>`) : '<div class="empty">Nothing matches. Clear a filter.</div>'}</section></div>`;
   }
 
   // Gated documents get a PDF at deploy (app/scripts/pdf.mjs uses the same rule).
@@ -424,7 +539,7 @@
     const md = it.meta_description || '';
     const tool = it.type === 'tool' && H.tools.find((t) => t.startsWith(it.asset || it.id));
     const ED = window.HubEditor, hero = ED ? ED.heroId(it) : it.hero;
-    return `<nav class="crumbs"><a href="#/library">Library</a><span>/</span><a href="${libHref({ type: it.type })}">${esc(TYPES[it.type] || it.type)}</a>${it.cell ? `<span>/</span><a href="#/journey/${esc(it.cell)}">${esc(it.cell)}</a>` : ''}</nav>
+    return `<nav class="crumbs"><a href="#/library">Assets</a><span>/</span><a href="${libHref({ shelf: shelfOf(it) })}">${esc(SHELF[shelfOf(it)].name)}</a>${it.cell ? `<span>/</span><a href="#/journey/${esc(it.cell)}">${esc(it.cell)}</a>` : ''}</nav>
     <div class="ed-start"><button type="button" class="btn" data-edit-page>${ic.pen}${esc(STR('Edit this page'))}</button></div>
     ${hero ? `<div class="reader-hero">${img(hero, '', false)}${ED ? ED.heroButton(it) : ''}${it.hero_caption && hero === it.hero ? `<p class="hero-cap">${esc(it.hero_caption)}</p>` : ''}</div>` : ED && ED.active(it.id) ? `<div class="reader-hero ed-nohero">${ED.heroButton(it)}</div>` : ''}
     <div class="reader"><article>
@@ -439,6 +554,9 @@
         ${s.supports ? `<div class="s-sup">Supports: ${esc(s.supports)}</div>` : ''}${s.url ? `<div><a href="${esc(/^https?:/.test(s.url) ? s.url : '#')}" target="_blank" rel="noopener">${esc(s.url)}</a></div>` : ''}</span></li>`).join('')}</ol>` : ''}
     </article>
     <aside class="side">
+      <div class="panel todo-panel"><h4>What to do with this</h4>${nextBadge(it)}
+        <p class="muted" style="font-size:13px;margin:10px 0 0">${esc(SHELF[shelfOf(it)].name)}: ${esc(SHELF[shelfOf(it)].how.toLowerCase())}.${it.owner_review ? ` Owner: ${esc(it.owner_review)}.` : ''}</p>
+        <div class="btns" style="margin-top:12px">${shelfOf(it) !== 'internal' && it.status === 'draft' && !it.verifies.length && it.completeness !== 'partial' ? `<button class="btn primary" type="button" data-approve="${esc(it.id)}">${ic.arrow}Approve</button>` : ''}${it.verifies.length ? `<a class="btn" href="#verify-list" data-scroll="verify-list">See the ${it.verifies.length} open ${it.verifies.length === 1 ? 'fact' : 'facts'}</a>` : ''}<button class="btn" data-fb>${ic.chat}Comment</button></div></div>
       ${regionPanel(it)}
       ${cta ? `<a class="cta" href="${ctaAsset ? '#/assets/' + esc(cta.asset) : '#'}"><span><span class="label" style="color:inherit;opacity:.7">Call to action${cta.asset ? ' → ' + esc(cta.asset) : ''}</span><br>${esc(cta.label || '')}</span>${ic.arrow}</a>` : ''}
       <div class="panel"><h4>Details</h4><dl class="kv">
@@ -463,7 +581,7 @@
         ${md ? `<dt>Meta</dt><dd>${esc(md)} <span class="charcount ${md.length > 155 ? 'bad' : 'muted'}">${md.length}/155</span></dd>` : ''}
         ${it.faq.length ? `<dt>FAQ schema</dt><dd>${it.faq.length} questions</dd>` : ''}
       </dl></div>` : ''}
-      ${it.verifies.length ? `<div class="panel"><h4>To verify · ${it.verifies.length}</h4><ol class="vlist">${it.verifies.map((v) => `<li>${esc(v)}</li>`).join('')}</ol></div>` : ''}
+      ${it.verifies.length ? `<div class="panel" id="verify-list"><h4>To verify · ${it.verifies.length}</h4><ol class="vlist">${it.verifies.map((v) => `<li>${esc(v)}</li>`).join('')}</ol></div>` : ''}
       ${cell ? `<div class="panel"><h4>Journey cell · ${esc(cell.id)}</h4><p style="margin:0 0 8px;font-size:13.5px">${esc(cell.pain_point)}</p><a href="#/journey/${esc(cell.id)}" style="font-size:13px">Open cell →</a></div>` : ''}
       <div class="panel"><h4>Feedback</h4><div id="fb-panel"><p class="muted" style="font-size:13px;margin:0">Loading…</p></div><button class="btn" style="margin-top:10px" data-fb>${ic.chat}Give feedback</button></div>
       ${rel.length ? `<div class="panel"><h4>Related</h4><ul class="list">${rel.map((r) => `<li><a href="#/item/${esc(r.id)}"><span class="t" style="font-size:15px">${esc(r.title)}</span></a></li>`).join('')}</ul></div>` : ''}
@@ -765,7 +883,7 @@
   const FB_TYPES = ['Correction', 'Content', 'Design', 'Data or source', 'Idea'];
   let fbIssues = null; let fbLoading = false;
   const fbCtx = () => {
-    const h = location.hash.replace(/^#\/?/, '').split('?')[0]; const [p, a] = h.split('/');
+    const raw = location.hash.replace(/^#\/?/, ''), h = raw.split(/[?#]/)[0], anc = raw.split('#')[1]; const [p, a] = h.split('/');
     if (p === 'item' && ITEM[a]) return { element: `item:${a}`, label: `${a} · ${ITEM[a].title}` };
     if (p === 'tool') return { element: `tool:${a}`, label: `Tool ${a}` };
     if (p === 'journey' && a) return { element: `cell:${a}`, label: `Journey cell ${a}` };
@@ -852,17 +970,19 @@
 
   // ---------- router ----------
   function route() {
-    const h = location.hash.replace(/^#\/?/, '').split('?')[0];
+    const raw = location.hash.replace(/^#\/?/, ''), h = raw.split(/[?#]/)[0], anc = raw.split('#')[1];
     const [p0, a] = h.split('/');
     const p = p0 === 'home' ? '' : p0;
-    const tab = { '': 'home', item: 'library', tool: 'tools' }[p] ?? p;
+    const tab = { '': 'home', item: 'library', tool: 'more', tools: 'more', blog: 'more', downloads: 'more', journey: 'more', assets: 'more', sources: 'more', site: 'more', review: 'more' }[p] ?? p;
     document.querySelectorAll('.tabs a').forEach((x) => x.toggleAttribute('aria-current', false) || (x.dataset.tab === tab && x.setAttribute('aria-current', 'page')));
+    const mo = document.querySelector('.tabs .more'); if (mo) { mo.open = false; mo.toggleAttribute('data-on', tab === 'more'); }
     const html = p === '' ? home() : p === 'library' ? library() : p === 'item' ? item(decodeURIComponent(a || '')) : p === 'journey' ? journey(a) : p === 'assets' ? assets(a)
-      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : p === 'cases' ? casesPage(a) : p === 'blog' ? blogPage() : p === 'downloads' ? downloadsPage() : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
+      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : p === 'cases' ? casesPage(a) : p === 'blog' ? blogPage() : p === 'downloads' ? downloadsPage() : p === 'todo' ? todo() : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
     view.innerHTML = html;
     const it = p === 'item' && ITEM[a];
     document.title = it ? `${it.title} · Bromic Content Hub` : 'Bromic Content Hub';
     if (p === 'journey' && a) setTimeout(() => $('#cell')?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 20);
+    else if (anc) setTimeout(() => document.getElementById(anc)?.scrollIntoView({ block: 'start' }), 20);
     else if (p !== 'assets' && !route.keepScroll) window.scrollTo(0, 0);
     route.keepScroll = false;
     setTimeout(fbDecorate, 0);
@@ -889,6 +1009,14 @@
   try { if (localStorage.getItem('bromic-hub-edits-v1') || localStorage.getItem('bromic-hub-saved-v1')) { const v = JSON.parse(localStorage.getItem('bromic-hub-edits-v1') || '{}'), w = JSON.parse(localStorage.getItem('bromic-hub-saved-v1') || '{}'); if (Object.keys(v).length || Object.keys(w).length) loadEditor().then(() => { route.keepScroll = true; route(); }); } } catch {}
 
   document.addEventListener('click', (e) => {
+    const ap = e.target.closest('[data-approve]'); if (ap) { loadEditor().then((E) => E.approve(ap.dataset.approve)); return; }
+    const sc0 = e.target.closest('[data-scroll]'); if (sc0) { e.preventDefault(); document.getElementById(sc0.dataset.scroll)?.scrollIntoView({ behavior: 'smooth', block: 'center' }); return; }
+    const cc0 = e.target.closest('[data-copy-chase]'); if (cc0) {
+      const d = cc0.closest('details'), p = cc0.dataset.copyChase;
+      const body = `${p}, a few facts to confirm before these Bromic drafts can be approved:\n\n` + [...d.querySelectorAll('.chase-it')].map((x) => `${x.querySelector('a').textContent}\n${[...x.querySelectorAll('li')].map((l, n) => `  ${n + 1}. ${l.textContent}`).join('\n')}`).join('\n\n') + `\n\nEach one is open in the Content Hub: ${location.origin}${location.pathname}#/todo`;
+      navigator.clipboard?.writeText(body).then(() => toast('Copied: paste it into an email'), () => toast('Copy failed'));
+      return;
+    }
     const b = e.target.closest('[data-href]'); if (b) { route.keepScroll = true; location.hash = b.dataset.href; return; }
     if (e.target.closest('[data-clear]')) { $('#q').value = ''; searchTerm = ''; location.hash = '#/library'; route(); return; }
     const act = e.target.closest('[data-act]');
@@ -912,6 +1040,7 @@
     if (cite) { e.preventDefault(); const el = document.getElementById(cite.getAttribute('href').slice(1)); if (el) { el.scrollIntoView({ behavior: 'smooth', block: 'center' }); el.style.background = 'var(--flame-wash)'; setTimeout(() => (el.style.background = ''), 1600); } }
   });
   document.addEventListener('change', (e) => {
+    if (e.target.id === 'me') { store.set('bromic-hub-me', e.target.value); route.keepScroll = true; route(); return; }
     if (e.target.id === 'sort') { route.keepScroll = true; location.hash = libHref({ ...parseQ(), sort: e.target.value }); }
     if (e.target.dataset.imgf) { imgFilter[e.target.dataset.imgf] = e.target.value; view.innerHTML = images(); }
     if (e.target.dataset.blogf !== undefined) { blogF = e.target.value; view.innerHTML = blogPage(); return; }

@@ -19,7 +19,7 @@
   const esc = (s) => C.esc(s);
   const K = (it) => (it.lang && it.lang !== 'en' ? `${it.id}~${it.lang}` : it.id);   // edits to a translation are kept apart from the English
   const E = (id) => edits[id] || null;
-  const count = (e) => (e ? Object.keys(e.blocks || {}).length + ['hero', 'title', 'summary'].filter((k) => e[k] != null).length : 0);
+  const count = (e) => (e ? Object.keys(e.blocks || {}).length + ['hero', 'title', 'summary', 'status'].filter((k) => e[k] != null).length : 0);
   const persist = () => { for (const k of Object.keys(edits)) if (!count(edits[k])) delete edits[k]; store(KEY, edits); };
 
   function view(it) {                 // the edits a reader of this browser should see: unsaved first, then saved-but-not-live
@@ -172,6 +172,7 @@
     if (e.hero) text = setFm(text, 'hero', e.hero);
     if (e.title != null) text = setFm(text, 'title', e.title);
     if (e.summary != null) text = setFm(text, 'summary', e.summary);
+    if (e.status) text = text.replace(/^status:.*$/m, `status: ${e.status}`);
     return { text, problems };
   }
 
@@ -189,7 +190,7 @@
     if (problems.length) throw new Error(problems.join(' ') + ' Reload the page and redo that block.');
     const n = count(edits[K(it)]);
     const p = await fetch(api, { method: 'PUT', headers: { ...h, 'Content-Type': 'application/json' }, body: JSON.stringify({
-      message: `Hub edit: ${it.id}, ${n} ${n === 1 ? 'change' : 'changes'}${who ? ' by ' + who : ''}`, content: b64(text), sha: cur.sha, branch: R.branch }) });
+      message: edits[K(it)].status && n === 1 ? `Hub edit: ${it.id} ${edits[K(it)].status}${who ? ' by ' + who : ''}` : `Hub edit: ${it.id}, ${n} ${n === 1 ? 'change' : 'changes'}${who ? ' by ' + who : ''}`, content: b64(text), sha: cur.sha, branch: R.branch }) });
     if (!p.ok) throw new Error(p.status === 409 ? 'Someone saved this file a moment ago. Try again.' : `GitHub said ${p.status} saving the file.`);
     return (await p.json()).commit.sha;
   }
@@ -197,9 +198,9 @@
   function issue(it, who) {
     const R = C.H.repo, e = edits[K(it)];
     const patch = { file: it.file, base_commit: C.H.commit, edits: Object.entries(e.blocks || {}).map(([n, nw]) => ({ block: +n, old: blockText(it, n).replace(/\n+$/, ''), new: nw })),
-      ...(e.hero ? { hero: { old: it.hero, new: e.hero } } : {}), ...(e.title != null ? { title: e.title } : {}), ...(e.summary != null ? { summary: e.summary } : {}) };
+      ...(e.hero ? { hero: { old: it.hero, new: e.hero } } : {}), ...(e.title != null ? { title: e.title } : {}), ...(e.status ? { status: e.status } : {}), ...(e.summary != null ? { summary: e.summary } : {}) };
     const body = `<!-- bromic-edit v1 -->\nelement: item:${it.id}${it.lang && it.lang !== 'en' ? '\nlang: ' + it.lang : ''}\ntype: edit\npage: #/item/${it.id}\ncommit: ${C.H.commit}\nby: ${who || ''}\n---\nApply these edits to \`${it.file}\` (Hub editor).\n\n\`\`\`json\n${JSON.stringify(patch, null, 1)}\n\`\`\`\n`;
-    const title = `[Edit] ${it.id}${it.lang && it.lang !== 'en' ? ' (' + it.lang + ')' : ''}: ${count(e)} ${count(e) === 1 ? 'change' : 'changes'}`;
+    const title = e.status && count(e) === 1 ? `[Approve] ${it.id}: ${it.title.slice(0, 60)}` : `[Edit] ${it.id}${it.lang && it.lang !== 'en' ? ' (' + it.lang + ')' : ''}: ${count(e)} ${count(e) === 1 ? 'change' : 'changes'}`;
     let url = `https://github.com/${R.owner}/${R.name}/issues/new?title=${encodeURIComponent(title)}&labels=edit&body=${encodeURIComponent(body)}`;
     if (url.length > 7500) {               // too long for a link: copy it, and open the form with a short note
       navigator.clipboard?.writeText(body).catch(() => {});
@@ -213,6 +214,7 @@
     const e = edits[K(it)]; if (!e) return '<p>No changes.</p>';
     const row = (label, a, b) => `<div class="ed-diff"><span class="label">${esc(label)}</span><div class="ed-old">${esc(a)}</div><div class="ed-new">${esc(b)}</div></div>`;
     return [
+      e.status ? row('Status', it.status, e.status) : '',
       e.title != null ? row('Title', it.title, e.title) : '',
       e.summary != null ? row('Summary', it.summary, e.summary) : '',
       e.hero ? `<div class="ed-diff"><span class="label">Main image</span><div class="ed-imgs">${C.IMG[it.hero] ? `<img src="${C.IMG[it.hero].thumb}" alt="">` : ''}<span>→</span><img src="${C.IMG[e.hero].thumb}" alt=""></div></div>` : '',
@@ -224,7 +226,7 @@
     const all = [...Object.values(edits[K(it)].blocks || {}), edits[K(it)].title || '', edits[K(it)].summary || ''].join('\n');
     const L = lint(all), hard = L.some((x) => x.hard);
     const tok = load(TOK, null), who = load(WHO, '');
-    modal(`<h3>Save ${count(edits[K(it)])} ${count(edits[K(it)]) === 1 ? 'change' : 'changes'}</h3>
+    modal(`<h3>${edits[K(it)].status && count(edits[K(it)]) === 1 ? 'Approve this page' : `Save ${count(edits[K(it)])} ${count(edits[K(it)]) === 1 ? 'change' : 'changes'}`}</h3>${edits[K(it)].status ? '<p>Marks it approved, ready for 454 Creative to lay out. Your name goes in the change history.</p>' : ''}
       ${L.length ? `<ul class="ed-lint-list">${L.map((x) => `<li class="${x.hard ? 'hard' : ''}">${esc(x.msg)}</li>`).join('')}</ul>` : ''}
       ${hard ? '<p>Fix the rules above before saving.</p>' : `
       <label class="label" for="ed-who">Your name</label><input id="ed-who" class="ed-input" value="${esc(who)}" placeholder="For the change history">
@@ -328,6 +330,7 @@
       document.addEventListener('keydown', onKey);
       if (Object.keys(edits).length || Object.keys(saved).length) needMarked().then(() => C.rerender());
     },
+    approve(id) { const it = C.ITEM[id]; if (!it) return; (edits[K(it)] ||= { blocks: {} }).status = 'approved'; persist(); saveDialog(it); },
     start(id) { editing = id; openBlock = null; C.rerender(); needMarked().then(() => C.rerender()); },
     active: (id) => editing === id,
     touched: (id) => !!(edits[id] || saved[id]),

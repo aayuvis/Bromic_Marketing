@@ -29,6 +29,15 @@ moves heating earlier — into the drawing, the pre-wire, the first budget.
 9. Keyword volume tiers are directional, never in copy. Do not reproduce third-party text — paraphrase and cite.
 10. Nothing is published from here. Output is review-ready drafts; publishing (WordPress, 454 Creative) follows owner sign-off.
 
+## Electrical contractor guide (A25, 12 Nov 2026)
+
+`content/sales/A25-electrical-contractor-guide.md`: a Bromic version of a dealer's contractor brochure (Patio Heat and Shade,
+supplied by the owner). Structure followed, every line rewritten; facts only from product data and sourced pages. Ends with the
+Bromic Partner Program's six benefits (from bromic.com/lp-builders and the owner's screenshot) and the footnote "A reseller
+certificate is required to join the Bromic installer program" (owner). The brochure's Bromic photos are in the library as `d-` ids
+(11; Infratech, awning, umbrella and thermostat images were left out). US only (NEC): no nl/de translation until a regional version
+is asked for.
+
 ## Calculations: one simple model
 
 Every tool and every article that does arithmetic follows [templates/calculation-model.md](templates/calculation-model.md) (owner,
@@ -94,6 +103,19 @@ never a house number, street or homeowner's name. Legacy "500 Series" naming in 
 Bromic-published photo of that project where one exists (21 `m-` images from Bromic's 2022 marine presentation; the Juneau
 showhome from bromic.com), otherwise a comparable Bromic image with `hero_caption` saying so. `scripts/build_case_studies.py`
 adds the finds to the Cases tab as `kind: web-find` (filter "Found on the web"; counted in the whitespace grid).
+
+## Navigation for a brand manager (owner, 12 Nov 2026: "no way a brand manager can navigate the asset library")
+
+Five tabs: **Start · Assets · To do · Case studies · Images**, everything else under **More** (PDF downloads, calculators, blog plan,
+buyer journey map, asset backlog, sources, bromic.com audit, review numbers). **Assets** opens on shelves named for where a piece
+goes (`SHELVES` in app.js: website articles and answers, downloads that capture leads, sales and trade kits, calculators, case
+studies, blog rewrites, working documents); filters appear only once a shelf or search is chosen. Every row and every item page
+carries ONE next step in plain words (`nextStep()`: read and approve, answer N open facts and who, call the venue, send to 454
+Creative, live). **To do** (`#/todo`) shows the flow Draft → Facts answered → Approved → 454 Creative → Live, can be filtered to one
+person, groups open `[[VERIFY]]` facts by the person named after the dash (copyable as an email), and lists partial case studies.
+**Approve** on an item page (only when no facts are open) writes `status: approved` through the editor (GitHub token) or opens an
+`[Approve]` issue, which `scripts/feedback.mjs` lists with feedback and edits. Internal documents (audits, outlines, templates) sit on
+the Working documents shelf, never among assets to share. Jargon stays out of the chrome (no MQL/SAL in labels).
 
 ## Feedback loop (start every session here)
 
