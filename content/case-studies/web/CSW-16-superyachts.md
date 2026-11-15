@@ -12,7 +12,7 @@ cta: {label: "Book a design consult", asset: A07}
 hero: m-cloudbreak-1
 hero_caption: "M/Y Cloudbreak, from Bromic's marine presentation (2022)."
 images: ["m-cloudbreak-1", "m-cloudbreak-2", "m-metis-1", "m-emocean-1", "m-lady-charlotte-2", "m-just-b-1", "m-go-1", "m-oa100-1"]
-owner_review: Josh Maingard
+owner_review: Marine team
 status: draft
 source_kind: web-find
 origin: web-search
@@ -41,7 +41,7 @@ sources:
 | Yachts | Lady Charlotte (Feadship, 2022 refit, 6 heaters); Emocean (2020, 4); GO (Turquoise, 2018, 6); Cloudbreak (Abeking & Rasmussen, 2018, 8); Metis (Benetti 63 m, 2019, 9); Just B (Amels 1973, 2020 rebuild, 4); OA100 (Ocean Alexander, 2019, 2) |
 | Designers | Azure Naval Architects; Hydro Tec with Burdisso & Capponi; H2 Yacht Design; Espen Oeino with Christian Liaigre; Giorgio M. Cassetta with Bannenberg & Rowell; Vripack; Evan K. Marshall with Arrabito |
 | Installer | Arrow Services Monaco (Just B) |
-| Controls | [[VERIFY: controls and zoning per yacht — Josh Maingard]] |
+| Controls | [[VERIFY: controls and zoning per yacht — Marine team]] |
 
 ## The space
 
@@ -51,7 +51,7 @@ Owners and guests on these yachts use outdoor decks in all seasons and latitudes
 
 Platinum Smart-Heat Electric Marine heaters on every yacht, from two on the OA100 production motor yacht to nine across three decks and the bridge on the 63 m Benetti Metis. On Emocean, a 2022 World Superyacht Award winner, four heaters are recessed into the deck heads; on Lady Charlotte, six serve the outdoor dining area.
 
-**Controls.** [[VERIFY: which controls were installed, and how many zones — Josh Maingard]] A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+**Controls.** [[VERIFY: which controls were installed, and how many zones — Marine team]] A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
 ## Why it matters for sales
 
@@ -83,6 +83,6 @@ All photographs come from Bromic's 2022 marine presentation. The licence for reu
 
 ## To publish
 
-- Josh Maingard: confirm each yacht and whether owners may be named; superyacht owners often require anonymity.
+- Marine team: confirm each yacht and whether owners may be named; superyacht owners often require anonymity.
 - Approach Arrow Services Monaco as an installer partner and reference.
 - Work through the consent checklist in the [case-study template](item:CS-TEMPLATE): permission to name the venue or home, approved numbers and quotes, credits, and a photo licence.

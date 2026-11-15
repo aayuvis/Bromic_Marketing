@@ -14,7 +14,7 @@ meta_description: "Trends 2026 bei der Gestaltung von Außenbereichen nach Daten
 cta: {label: "Den Bericht Trends 2026 herunterladen", asset: A01}
 hero: l-010-075
 images: [l-010-069, t-006-016]
-owner_review: Megan Spies
+owner_review: Marketing
 status: draft
 gated: false
 related: [ARC-CO-01, ARC-IN-01, BLD-IN-01]
@@ -79,7 +79,7 @@ sources:
 lang: de
 translation_of: ARC-AW-01
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 Der Außenbereich ist immer noch der Raum, nach dem Bauherren zuerst fragen. In der Home Design Trends Survey 2026 des American Institute of Architects (AIA), einer Umfrage unter US-Architekten, lagen Außenwohnbereiche unter den Räumen mit besonderer Funktion auf Platz eins, und laut AIA stieg die Nachfrage danach gegenüber 2025 um 10 %[^s1][^s2]. Die Veränderung hinter der Zahl: Bauherren wollen keine Terrasse mehr neben dem Haus. Sie wollen einen Außenraum, der auch an einem kalten Abend funktioniert, mit Strom, Konstruktion, Licht und Wärme von Anfang an eingeplant.
 
@@ -98,7 +98,7 @@ Die Kernaussage ist eine stabile Nachfrage auf hohem Niveau, kein Boom. Liest ma
 | Neue Einfamilienhäuser in den USA, die mit Terrasse begonnen wurden (2025) | 60,5 % (61,8 % im Jahr 2024) | NAHB[^s4] |
 | Durchschnittliche Terrasse eines US-Neubaus | ca. 30 m² | NAHB / Home Innovation[^s5] |
 
-[[VERIFY: Die AIA meldet Nettoanteile („steigend minus fallend“); anhand der AIA-PDFs bestätigen, ob die 10 % Prozentpunkte oder relativ sind und aus welcher Quartalsfrage die 55 %/40 % stammen — Megan Spies]]
+[[VERIFY: Die AIA meldet Nettoanteile („steigend minus fallend“); anhand der AIA-PDFs bestätigen, ob die 10 % Prozentpunkte oder relativ sind und aus welcher Quartalsfrage die 55 %/40 % stammen — Marketing]]
 
 Zwei Vorbehalte für alle, die diese Zahlen zitieren. Die AIA-Werte sind Nettoanteile von Architekten, nicht Anteile von Häusern. Und der Anteil der US-Neubauten mit Terrasse laut NAHB ist inzwischen zwei Jahre in Folge gesunken[^s4]; „jeder Neubau hat eine Terrasse“ ist also übertrieben. Die ehrliche Lesart: Die meisten US-Neubauten bekommen eine, sie ist im Schnitt mit ca. 30 m² so groß wie ein Zimmer, und Architekten nennen sie weiterhin als den Raum, den Bauherren am meisten wollen.
 

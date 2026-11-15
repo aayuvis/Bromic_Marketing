@@ -17,8 +17,8 @@ ai_prompt: "What do architects need to consider when designing outdoor dining sp
 meta_description: "Frank Cavanaugh of Aria Group on site context, local rules, ambiance and flexibility in outdoor dining design, and where heating belongs in the plan."
 cta: {label: "Get the architect spec kit", asset: A11}
 hero: w-stellas-wine-bar-houston-tx-3
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false

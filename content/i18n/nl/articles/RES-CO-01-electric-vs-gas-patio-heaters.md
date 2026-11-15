@@ -14,7 +14,7 @@ meta_description: "Elektrische of gasterrasverwarmer? Ingebouwd elektrisch past 
 cta: {label: "Bereken je ruimte", asset: A03}
 hero: l-019-164
 images: [l-010-076]
-owner_review: Megan Spies
+owner_review: marketing
 status: draft
 gated: false
 related: [RES-IN-01, RES-PP-01, RES-CO-KB1, ARC-CO-01]
@@ -79,9 +79,9 @@ Buiten wil je zoveel mogelijk stralingswarmte. De richtlijnen van Bromic delen v
 | Energiebron en aansluiting | Een aparte groep, aangelegd door een vakbekwaam elektrotechnisch installateur volgens NEN 1010[^s1] | Aardgas of propaan; gaswerk volgens NEN 1078[^s1] |
 | Montage | Wand, plafond of vlak ingebouwd[^s2] | Verrijdbaar op wieltjes; een kantelbare kop richt de warmte[^s2] |
 | Afvoer en omsloten ruimtes | Geen verbranding, dus geen uitlaatgassen | Verbrandt brandstof: heeft open lucht nodig; een met gas verwarmde ruimte afsluiten verhoogt het risico op koolmonoxide[^s4] |
-| Vrije afstanden | Aan de wand minstens 1,8 m, aan het plafond minstens 2,4 m, afhankelijk van het vermogen (richtlijn van Bromic; de handleiding is leidend)[^s1] | Afstand tot brandbare materialen volgens de installatiehandleiding [[VERIFY: vrije afstanden van de Tungsten Freestanding Gas — Mike Clifford]] |
+| Vrije afstanden | Aan de wand minstens 1,8 m, aan het plafond minstens 2,4 m, afhankelijk van het vermogen (richtlijn van Bromic; de handleiding is leidend)[^s1] | Afstand tot brandbare materialen volgens de installatiehandleiding [[VERIFY: vrije afstanden van de Tungsten Freestanding Gas — productteam]] |
 | Sfeer | Onopvallend; Eclipse heeft dimbare randverlichting[^s2] | Een zichtbare gloed en een vrijstaande aanwezigheid |
-| Bediening | Affinity On/Off-, Dimmer- of Eclipse-regelaar, of wandschakelaar; app en spraakbediening vragen compatibele Affinity-bediening, die apart wordt verkocht[^s2] | [[VERIFY: bedieningsopties voor de Tungsten Freestanding Gas — Mike Clifford]] |
+| Bediening | Affinity On/Off-, Dimmer- of Eclipse-regelaar, of wandschakelaar; app en spraakbediening vragen compatibele Affinity-bediening, die apart wordt verkocht[^s2] | [[VERIFY: bedieningsopties voor de Tungsten Freestanding Gas — productteam]] |
 | Gebruikskosten | kW × je prijs per kWh | kW × je gas- of propaanprijs; zie [wat het kost om te laten branden](item:RES-IN-01) |
 
 ## Wanneer is elektrisch de betere keuze?
@@ -104,7 +104,7 @@ Buiten wil je zoveel mogelijk stralingswarmte. De richtlijnen van Bromic delen v
 
 Een snelle schatting, voor het oppervlak dat je warm wilt hebben: meestal het zitgedeelte, niet het hele terras.
 
-- **Ingebouwd elektrisch:** aantal = oppervlak ÷ (verwarmd oppervlak × overkappingsfactor × klimaatfactor), naar boven afgerond. Overkapping: open 0,85, gedeeltelijk overdekt 1,0, dicht dak 1,1. Klimaat op de avonden dat je verwarmt: mild 1,0, koel 0,85, koud 0,7. [[VERIFY: factoren voor overkapping en klimaat — Mike Clifford]] De tabel gaat uit van gedeeltelijk overdekt en koel: 1,0 × 0,85 = 0,85.
+- **Ingebouwd elektrisch:** aantal = oppervlak ÷ (verwarmd oppervlak × overkappingsfactor × klimaatfactor), naar boven afgerond. Overkapping: open 0,85, gedeeltelijk overdekt 1,0, dicht dak 1,1. Klimaat op de avonden dat je verwarmt: mild 1,0, koel 0,85, koud 0,7. [[VERIFY: factoren voor overkapping en klimaat — productteam]] De tabel gaat uit van gedeeltelijk overdekt en koel: 1,0 × 0,85 = 0,85.
 - **Vrijstaand gas:** dezelfde som voor het oppervlak, maar nooit meer dan vier zitplaatsen per verwarmer, omdat gasten de stralingswarmte afschermen. Zonder aantal zitplaatsen reken je met ongeveer 1,9 m² per zitplaats. Neem de grootste van de twee uitkomsten.
 
 | Voorbeeldoppervlak | Platinum Electric, 4500 W (ca. 13,3 m²) tot 2300 W (ca. 6 m²)[^s2] | Tungsten Freestanding Gas (ca. 20 m²)[^s2] |
@@ -113,7 +113,7 @@ Een snelle schatting, voor het oppervlak dat je warm wilt hebben: meestal het zi
 | Terras van ca. 6,1 × 4,9 m (ca. 30 m², ongeveer het gemiddelde bij Amerikaanse nieuwbouwwoningen[^s3]; 16 zitplaatsen) | 3–6 (30 ÷ 11,3 = 2,6; 30 ÷ 5,1 = 5,8) | 4 (16 zitplaatsen ÷ 4) |
 | Terras van ca. 9,1 × 6,1 m (ca. 56 m², 30 zitplaatsen) | 5–11 (56 ÷ 11,3 = 4,9; 56 ÷ 5,1 = 10,9) | 8 (30 zitplaatsen ÷ 4) |
 
-Elke ingebouwde verwarmer werkt met een Affinity Smart-Heat On/Off- of Dimmer-regelaar en een wandschakelaar. [[VERIFY: bedieningsopties voor de Tungsten Freestanding Gas — Mike Clifford]] In elke rij bepaalt de grens van vier zitplaatsen, niet het verwarmd oppervlak, het aantal gasverwarmers (56 ÷ (20 × 0,85) = 3,3 zou afgerond maar 4 opleveren). De bandbreedte bij elektrisch is groot omdat ze verschillende vermogens omvat; het verwarmd oppervlak verandert ook met de montagehoogte en de installatie.[^s2] Een open locatie of koude avonden verlagen de factor en verhogen het aantal; een dicht dak verhoogt de factor, omdat een overkapping een 'warmtewolk' vasthoudt.[^s1] Zie dit als beginpunt. De [calculator](asset:A03) verfijnt het in een minuut, en de [plaatsing](item:RES-PP-01) bepaalt of de warmte terechtkomt waar mensen zitten.
+Elke ingebouwde verwarmer werkt met een Affinity Smart-Heat On/Off- of Dimmer-regelaar en een wandschakelaar. [[VERIFY: bedieningsopties voor de Tungsten Freestanding Gas — productteam]] In elke rij bepaalt de grens van vier zitplaatsen, niet het verwarmd oppervlak, het aantal gasverwarmers (56 ÷ (20 × 0,85) = 3,3 zou afgerond maar 4 opleveren). De bandbreedte bij elektrisch is groot omdat ze verschillende vermogens omvat; het verwarmd oppervlak verandert ook met de montagehoogte en de installatie.[^s2] Een open locatie of koude avonden verlagen de factor en verhogen het aantal; een dicht dak verhoogt de factor, omdat een overkapping een 'warmtewolk' vasthoudt.[^s1] Zie dit als beginpunt. De [calculator](asset:A03) verfijnt het in een minuut, en de [plaatsing](item:RES-PP-01) bepaalt of de warmte terechtkomt waar mensen zitten.
 
 ## De belangrijkste punten
 

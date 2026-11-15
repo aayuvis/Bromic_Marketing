@@ -14,8 +14,8 @@ ai_prompt: "Sind Infrarot-Terrassenheizstrahler für draußen sicher?"
 meta_description: "Infrarot-Terrassenheizstrahler sind sicher, wenn sie geprüft, vorschriftsgemäß installiert und von Brennbarem ferngehalten werden. Elektro oder Gas, Belüftung und Abstände je Modell."
 cta: {label: "Ihren Bereich berechnen", asset: A03}
 hero: w-tungsten-electric-white-recessed
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -24,7 +24,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLOG-21
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -95,11 +95,11 @@ Ein Infrarot-Heizstrahler wärmt Menschen, Möbel und Böden direkt, wie Sonnenl
 | Vorschriften (Deutschland) | DIN VDE 0100 | DVGW-TRGI (Erdgas) bzw. TRF (Flüssiggas) |
 | Installation | Eingetragener Elektrofachbetrieb | Gasinstallateur (eingetragenes Installationsunternehmen) |
 
-In den USA gelten dafür der National Electrical Code (NFPA 70) sowie für Gas ANSI Z223.1/NFPA 54 und für Propanflaschen NFPA 58[^s1][^s6]; in Deutschland treten DIN VDE 0100, die DVGW-TRGI und die TRF an ihre Stelle. [[VERIFY: current VDE and DVGW rules for outdoor heaters — Raffaele Marti]]
+In den USA gelten dafür der National Electrical Code (NFPA 70) sowie für Gas ANSI Z223.1/NFPA 54 und für Propanflaschen NFPA 58[^s1][^s6]; in Deutschland treten DIN VDE 0100, die DVGW-TRGI und die TRF an ihre Stelle. [[VERIFY: current VDE and DVGW rules for outdoor heaters — Partner Deutschland]]
 
 ## Wie offen muss ein Bereich für Gas sein?
 
-Der Planungsleitfaden von Bromic behandelt einen Bereich als Außenbereich, wenn mindestens 30 % seines Umfangs dauerhaft offen sind.[^s1] Zwei ältere Bromic-Beiträge nannten andere Werte, 25 % offene Wandfläche und 75 % offene Wände.[^s3] Beide werden hier zurückgezogen. Maßgeblich für Ihre Terrasse sind die Installationsanleitung des Heizstrahlers und die DVGW-TRGI bzw. TRF, so wie Ihre zuständige Behörde sie anwendet. [[VERIFY: the ventilation requirement stated in the Platinum Gas, Tungsten Gas and Tungsten Freestanding manuals — Mike Clifford]]
+Der Planungsleitfaden von Bromic behandelt einen Bereich als Außenbereich, wenn mindestens 30 % seines Umfangs dauerhaft offen sind.[^s1] Zwei ältere Bromic-Beiträge nannten andere Werte, 25 % offene Wandfläche und 75 % offene Wände.[^s3] Beide werden hier zurückgezogen. Maßgeblich für Ihre Terrasse sind die Installationsanleitung des Heizstrahlers und die DVGW-TRGI bzw. TRF, so wie Ihre zuständige Behörde sie anwendet. [[VERIFY: the ventilation requirement stated in the Platinum Gas, Tungsten Gas and Tungsten Freestanding manuals — Produktteam]]
 
 ## Montagehöhen und Abstände je Modell
 
@@ -114,15 +114,15 @@ Der Planungsleitfaden von Bromic behandelt einen Bereich als Außenbereich, wenn
 | Tungsten Gas | 2,44 m | Hitzeschild anbringen, wenn darüber weniger als ca. 1070 mm frei sind[^s2] |
 | Tungsten Smart-Heat Freestanding | Freistehend | Kippschutz; ausgelegt für Wind bis ca. 13 km/h[^s2] |
 
-Werte von den Bromic-Produktseiten.[^s2] [[VERIFY: all heights against 2026 cut sheets, and add side and below clearances to combustibles per model from the manuals — Mike Clifford]] Halten Sie alles Brennbare, etwa Kissen, Markisen, Sonnenschirme und Pflanzen, mindestens ca. 0,9 m entfernt, wie es die US-Brandschutzorganisation NFPA empfiehlt, oder weiter, wenn die Anleitung das verlangt.[^s5] Mehr zu Abständen: [Abstand von Heizstrahlern zu brennbaren Materialien](item:ARC-BY-KB1).
+Werte von den Bromic-Produktseiten.[^s2] [[VERIFY: all heights against 2026 cut sheets, and add side and below clearances to combustibles per model from the manuals — Produktteam]] Halten Sie alles Brennbare, etwa Kissen, Markisen, Sonnenschirme und Pflanzen, mindestens ca. 0,9 m entfernt, wie es die US-Brandschutzorganisation NFPA empfiehlt, oder weiter, wenn die Anleitung das verlangt.[^s5] Mehr zu Abständen: [Abstand von Heizstrahlern zu brennbaren Materialien](item:ARC-BY-KB1).
 
 ## Geben Infrarot-Heizstrahler Abgase oder UV-Strahlung ab?
 
-Elektrische Modelle geben keine Abgase ab. Gasmodelle erzeugen Kohlenmonoxid, das man weder sehen noch riechen kann; sie gehören deshalb ins Freie.[^s4] Infrarot liegt bei längeren Wellenlängen als sichtbares Licht, Ultraviolett bei kürzeren. Bromic-Heizstrahler sind dafür ausgelegt, Infrarot abzugeben. [[VERIFY: any UV emission data for Bromic elements before claiming "no UV" — Mike Clifford]]
+Elektrische Modelle geben keine Abgase ab. Gasmodelle erzeugen Kohlenmonoxid, das man weder sehen noch riechen kann; sie gehören deshalb ins Freie.[^s4] Infrarot liegt bei längeren Wellenlängen als sichtbares Licht, Ultraviolett bei kürzeren. Bromic-Heizstrahler sind dafür ausgelegt, Infrarot abzugeben. [[VERIFY: any UV emission data for Bromic elements before claiming "no UV" — Produktteam]]
 
 ## Sicherheits-Checkliste für den Alltag
 
-1. **Geprüft und fachgerecht installiert.** Achten Sie auf ein Prüfzeichen; der US-Planungsleitfaden nennt Intertek, UL oder CSA.[^s1] [[VERIFY: welche Prüf- und Konformitätszeichen Bromic-Geräte in Deutschland tragen (z. B. CE) — Mike Clifford]]
+1. **Geprüft und fachgerecht installiert.** Achten Sie auf ein Prüfzeichen; der US-Planungsleitfaden nennt Intertek, UL oder CSA.[^s1] [[VERIFY: welche Prüf- und Konformitätszeichen Bromic-Geräte in Deutschland tragen (z. B. CE) — Produktteam]]
 2. **Eben und standsicher.** Stellen Sie freistehende Heizstrahler auf festen, ebenen Untergrund. Tungsten Freestanding hat einen Kippschutz; Eclipse Freestanding hat einen beschwerten Fuß.[^s7]
 3. **Nie unbeaufsichtigt, nie über Nacht.** Schalten Sie Heizstrahler aus, wenn alle gehen.[^s5] Bei Gas schließen Sie die Zufuhr vollständig.[^s3]
 4. **Flüssiggasflaschen.** Halten Sie sie aufrecht und geschlossen. Lagern Sie sie im Freien, belüftet, fern von Wärme und allem Brennbaren, und nie im Haus.[^s3][^s6]

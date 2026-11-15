@@ -12,7 +12,7 @@ cta: {label: "Book a design consult", asset: A07}
 hero: w-hartleyhallplporchdeckdarnestownmd-0052
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
 images: ["w-hartleyhallplporchdeckdarnestownmd-0052"]
-owner_review: Karl Tschauner
+owner_review: US field sales
 status: draft
 source_kind: web-find
 origin: web-search
@@ -41,8 +41,8 @@ sources:
 | Segment | Single-family home, builder show home |
 | Builder | Hardison Building Inc. |
 | Interior design | Elle/A. Interiors |
-| Products | Custom recessed Bromic heaters [[VERIFY: model, wattage and quantity — Karl Tschauner]] |
-| Controls | [[VERIFY: controls and zones — Karl Tschauner]] |
+| Products | Custom recessed Bromic heaters [[VERIFY: model, wattage and quantity — US field sales]] |
+| Controls | [[VERIFY: controls and zones — US field sales]] |
 | Heated area | The porch overlooking the pool |
 | Recognition | Gold award, Best Outdoor Living (per the Parade listing) |
 

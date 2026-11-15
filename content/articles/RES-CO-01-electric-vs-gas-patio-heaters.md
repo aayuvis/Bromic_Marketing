@@ -15,7 +15,7 @@ meta_description: "Electric or gas patio heater? Built-in electric suits covered
 cta: {label: "Size your space", asset: A03}
 hero: l-019-164
 images: [l-010-076]
-owner_review: Megan Spies
+owner_review: Marketing
 status: draft
 gated: false
 related: [RES-IN-01, RES-PP-01, RES-CO-KB1, ARC-CO-01]
@@ -51,11 +51,11 @@ sources:
     verified: true
 ---
 
-Neither fuel is better everywhere. Built-in electric infrared suits covered patios, pergolas and outdoor kitchens: it mounts on the wall or ceiling, needs no gas line or venting, and switches on instantly. Freestanding gas suits open, larger spaces with nothing to mount to. One Tungsten Smart-Heat Freestanding Gas heater covers approx. 215 ft² against approx. 65–143 ft² for one Platinum Smart-Heat Electric,[^s2] but guests block the radiant heat of a freestanding unit, so each one serves no more than four seats — and for a seated space that usually sets the count. The right answer depends on the structure, the utilities you have, and how you will use the space.
+Neither fuel is better everywhere. Built-in electric infrared suits covered patios, pergolas and outdoor kitchens: it mounts on the wall or ceiling, needs no gas line or venting, and switches on instantly. Freestanding gas suits open, larger spaces with nothing to mount to. One Tungsten Smart-Heat Freestanding Gas heater covers approx. 215 ft² against approx. 65–143 ft² for one Platinum Smart-Heat Electric,[^s2] but guests block the radiant heat of a freestanding unit, so each one serves no more than four seats – and for a seated space that usually sets the count. The right answer depends on the structure, the utilities you have, and how you will use the space.
 
 ## What is the difference between radiant and convective heat?
 
-Think of standing in sunshine on a cold day. The air is cold, but your face is warm. That is radiant heat: infrared energy travels to you and warms whatever it lands on. Convective heat warms the air, and the air warms you — which works in a closed room and fails on an open patio, where the warm air drifts away.[^s1]
+Think of standing in sunshine on a cold day. The air is cold, but your face is warm. That is radiant heat: infrared energy travels to you and warms whatever it lands on. Convective heat warms the air, and the air warms you – which works in a closed room and fails on an open patio, where the warm air drifts away.[^s1]
 
 Outdoors, you want as much radiant heat as possible. Bromic's guidance sorts heaters by wavelength:[^s1]
 
@@ -76,17 +76,17 @@ Outdoors, you want as much radiant heat as possible. Bromic's guidance sorts hea
 | Fuel and supply | A dedicated circuit, installed by a licensed electrician to ANSI/NFPA 70[^s1] | Natural gas or propane; gas work to ANSI Z223.1/NFPA 54[^s1] |
 | Mounting | Wall, ceiling or recessed flush[^s2] | Moves on wheels; tilting head aims the heat[^s2] |
 | Venting and enclosure | No combustion, so no exhaust | Burns fuel: needs open air; enclosing a gas-heated space raises carbon monoxide risk[^s4] |
-| Clearances | Wall mounts at least 72", ceiling at least 96", varying with output (Bromic guidance; manual governs)[^s1] | Clearance to combustibles per the installation manual [[VERIFY: Tungsten Freestanding Gas clearances — Mike Clifford]] |
+| Clearances | Wall mounts at least 72", ceiling at least 96", varying with output (Bromic guidance; manual governs)[^s1] | Clearance to combustibles per the installation manual [[VERIFY: Tungsten Freestanding Gas clearances — Product team]] |
 | Ambience | Discreet; Eclipse adds dimmable rim lighting[^s2] | A visible glow and a freestanding presence |
-| Controls | Affinity On/Off, Dimmer or Eclipse controller, or wall switch; app and voice need compatible Affinity controls, sold separately[^s2] | [[VERIFY: control options for Tungsten Freestanding Gas — Mike Clifford]] |
-| Running cost | Watts × electricity rate | BTU × gas or propane rate — see [what it costs to run](item:RES-IN-01) |
+| Controls | Affinity On/Off, Dimmer or Eclipse controller, or wall switch; app and voice need compatible Affinity controls, sold separately[^s2] | [[VERIFY: control options for Tungsten Freestanding Gas — Product team]] |
+| Running cost | Watts × electricity rate | BTU × gas or propane rate – see [what it costs to run](item:RES-IN-01) |
 
 ## When is electric the better choice?
 
 - **The space has a roof, soffit or pergola.** Electric heaters mount to it or recess into it, and nothing has to sit on the floor.
 - **You want it to look built in.** Recess kits flush-mount Platinum and Tungsten Electric heaters into a ceiling cavity.[^s1]
-- **The space is partly enclosed.** No combustion means no exhaust to manage — the reason WorkSafeBC, a Canadian workplace-safety regulator, points to electric heaters as the way to lower carbon monoxide risk in enclosed patios.[^s4] It still has to meet the outdoor definition: at least 30% of the perimeter permanently open.[^s1]
-- **You want zones and schedules.** Affinity Smart-Heat Controls run built-in heaters through the Bromic Smart-Heat app — zones, schedules, timers — and work with Amazon Alexa and Google Assistant. App and Wi-Fi features need compatible Affinity controls, sold separately.[^s2]
+- **The space is partly enclosed.** No combustion means no exhaust to manage – the reason WorkSafeBC, a Canadian workplace-safety regulator, points to electric heaters as the way to lower carbon monoxide risk in enclosed patios.[^s4] It still has to meet the outdoor definition: at least 30% of the perimeter permanently open.[^s1]
+- **You want zones and schedules.** Affinity Smart-Heat Controls run built-in heaters through the Bromic Smart-Heat app – zones, schedules, timers – and work with Amazon Alexa and Google Assistant. App and Wi-Fi features need compatible Affinity controls, sold separately.[^s2]
 
 ![White heater set between pergola louvres](img:l-010-076)
 
@@ -99,9 +99,9 @@ Outdoors, you want as much radiant heat as possible. Bromic's guidance sorts hea
 
 ## How many heaters does my space need?
 
-A quick estimate, for the area you want warm — usually the seating, not the whole slab:
+A quick estimate, for the area you want warm – usually the seating, not the whole slab:
 
-- **Built-in electric:** heaters = area ÷ (coverage × cover factor × climate factor), rounded up. Cover: open 0.85, partly covered 1.0, solid roof 1.1. Climate on the evenings you heat: mild 1.0, cool 0.85, cold 0.7. [[VERIFY: cover and climate factors — Mike Clifford]] The table uses partly covered and cool, 1.0 × 0.85 = 0.85.
+- **Built-in electric:** heaters = area ÷ (coverage × cover factor × climate factor), rounded up. Cover: open 0.85, partly covered 1.0, solid roof 1.1. Climate on the evenings you heat: mild 1.0, cool 0.85, cold 0.7. [[VERIFY: cover and climate factors — Product team]] The table uses partly covered and cool, 1.0 × 0.85 = 0.85.
 - **Freestanding gas:** the same area sum, but never more than four seats a heater, because guests block its radiant heat. Without a seat count, allow 20 ft² a seat. Take the larger of the two answers.
 
 | Example area | Platinum Electric, 4500 W (143 ft²) to 2300 W (65 ft²)[^s2] | Tungsten Freestanding Gas (215 ft²)[^s2] |
@@ -110,7 +110,7 @@ A quick estimate, for the area you want warm — usually the seating, not the wh
 | 20' × 16' patio (320 ft², about the new-home average[^s3]; 16 seats) | 3–6 (320 ÷ 121.6 = 2.6; 320 ÷ 55.3 = 5.8) | 4 (16 seats ÷ 4) |
 | 30' × 20' terrace (600 ft², 30 seats) | 5–11 (600 ÷ 121.6 = 4.9; 600 ÷ 55.3 = 10.9) | 8 (30 seats ÷ 4) |
 
-Each built-in heater runs from an Affinity Smart-Heat On/Off or Dimmer controller and a wall switch. [[VERIFY: control options for Tungsten Freestanding Gas — Mike Clifford]] In every row the four-seat limit, not coverage, sets the gas count (600 ÷ (215 × 0.85) = 3.3 would round up to only 4). The electric range is wide because it spans wattages; coverage also changes with mounting height and installation.[^s2] An open site or cold evenings lower the factor and raise the count; a solid roof raises it, because a cover holds a "heat cloud".[^s1] Treat this as a starting point. The [sizing calculator](asset:A03) narrows it in a minute, and [placement](item:RES-PP-01) decides whether the heat lands where people sit.
+Each built-in heater runs from an Affinity Smart-Heat On/Off or Dimmer controller and a wall switch. [[VERIFY: control options for Tungsten Freestanding Gas — Product team]] In every row the four-seat limit, not coverage, sets the gas count (600 ÷ (215 × 0.85) = 3.3 would round up to only 4). The electric range is wide because it spans wattages; coverage also changes with mounting height and installation.[^s2] An open site or cold evenings lower the factor and raise the count; a solid roof raises it, because a cover holds a "heat cloud".[^s1] Treat this as a starting point. The [sizing calculator](asset:A03) narrows it in a minute, and [placement](item:RES-PP-01) decides whether the heat lands where people sit.
 
 ## Key takeaways
 

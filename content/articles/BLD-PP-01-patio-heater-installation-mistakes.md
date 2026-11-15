@@ -15,7 +15,7 @@ meta_description: "Patio heater not warm enough? Usually it is mounted too high,
 cta: {label: "Request builder pricing and lead times", asset: A18}
 hero: l-010-074
 images: [l-010-066]
-owner_review: Arvin Avaness
+owner_review: Trade sales
 status: draft
 gated: false
 related: [BLD-IN-01, BLD-BY-01, BLD-IN-KB2]
@@ -64,7 +64,7 @@ A patio heater that is not warm enough is usually mounted too high or too far fr
 
 Radiant heat falls off with distance. Mount a heater higher than its rating allows and the people underneath feel little. Mount it too low and heads get hot, and you may breach the code minimum.
 
-Bromic's guidance is at least 72 in. above the floor for wall mounts and at least 96 in. for ceiling mounts, with the right height varying by output[^s2]. Approximate coverage also changes with mounting height[^s1]. Take the height for each model from the installation manual [[VERIFY: recommended mounting height range per model and wattage — Mike Clifford]], and on high ceilings use suspension poles to bring the heater down to an effective height[^s2].
+Bromic's guidance is at least 72 in. above the floor for wall mounts and at least 96 in. for ceiling mounts, with the right height varying by output[^s2]. Approximate coverage also changes with mounting height[^s1]. Take the height for each model from the installation manual [[VERIFY: recommended mounting height range per model and wattage — Product team]], and on high ceilings use suspension poles to bring the heater down to an effective height[^s2].
 
 ## 2. How many heaters does an exposed patio need?
 
@@ -80,7 +80,7 @@ Size for the coldest evening the buyer will use the space, and cover where peopl
 
 ## 3. Which clearances get missed?
 
-The ones nobody marked before the boards went up: distance to the ceiling above a wall heater, to beams and fans beside a ceiling heater, and to combustible trim. The clearance from the ceiling varies with output[^s2]. Pull the clearance table from the installation manual for the exact model [[VERIFY: clearance table per model — Mike Clifford]] and mark it on the framing. A fan, light or speaker placed inside a heater's clearance is a redesign, not a fix.
+The ones nobody marked before the boards went up: distance to the ceiling above a wall heater, to beams and fans beside a ceiling heater, and to combustible trim. The clearance from the ceiling varies with output[^s2]. Pull the clearance table from the installation manual for the exact model [[VERIFY: clearance table per model — Product team]] and mark it on the framing. A fan, light or speaker placed inside a heater's clearance is a redesign, not a fix.
 
 ## 4. Why does a heater trip, or feel weak?
 
@@ -88,7 +88,7 @@ Two electrical faults cause most of these calls.
 
 **Undersized circuits.** An outdoor heater can run for hours, so treat it as a continuous load: current expected for three hours or more[^s3]. Size the branch circuit at no less than 125% of the heater's marked current[^s3]. A 4500 W heater at 240 V draws 18.75 A, or 23.4 A with the 125% rule: it does not belong on a 20 A circuit. Heaters added to a shared circuit trip it.
 
-**Wrong voltage.** A heater built for 240 V on a 208 V supply delivers about 75% of its rated output, because output falls with the square of the voltage. That is a heater that "works" but never feels right. Confirm the site voltage and order the matching model [[VERIFY: voltage options per model — Mike Clifford]].
+**Wrong voltage.** A heater built for 240 V on a 208 V supply delivers about 75% of its rated output, because output falls with the square of the voltage. That is a heater that "works" but never feels right. Confirm the site voltage and order the matching model [[VERIFY: voltage options per model — Product team]].
 
 See the [rough-in checklist](item:BLD-IN-01) and [heaters per circuit](item:BLD-IN-KB2) for the maths.
 
@@ -100,7 +100,7 @@ Every heater needs its control: an Affinity Smart-Heat On/Off or Dimmer controll
 
 ## How do builders keep supply from causing the sixth problem?
 
-Order heaters, recess kits and controls together, against the rough-in date, not the trim date. A recess kit that arrives after the ceiling is boarded is mistake three by another route. Lead times come from the builder program [[VERIFY: standard lead times by product and region — Arvin Avaness / Peter Abraham]].
+Order heaters, recess kits and controls together, against the rough-in date, not the trim date. A recess kit that arrives after the ceiling is boarded is mistake three by another route. Lead times come from the builder program [[VERIFY: standard lead times by product and region — Trade sales / Sales operations]].
 
 ## Planning checklist
 
@@ -127,7 +127,7 @@ Light wind has less effect on radiant heat than on forced air, but an open, wind
 Usually the circuit is undersized for a continuous load or shared with other heaters. Size each circuit at 125% of the heater's current.
 
 ### Do I need a controller for every heater?
-Every heater needs a control: an Affinity Smart-Heat controller and a wall switch. How many heaters one controller can run depends on the controller and its load rating [[VERIFY: heaters and maximum load per Affinity controller — Mike Clifford]].
+Every heater needs a control: an Affinity Smart-Heat controller and a wall switch. How many heaters one controller can run depends on the controller and its load rating [[VERIFY: heaters and maximum load per Affinity controller — Product team]].
 
 Plan the next order around the rough-in date. Request builder pricing and lead times.
 

@@ -14,8 +14,8 @@ ai_prompt: "Wie planen Architekten Gemeinschaftsflächen im Freien in Mehrfamili
 meta_description: "Sara Schneider von TCA Architects über Außenbereiche im Mehrfamilienbau: Übergang von innen nach außen, ganzjährige Nutzung, flexible Räume und wo die Wärme hingehört."
 cta: {label: "Das Spec Kit für Architekten anfordern", asset: A11}
 hero: w-img-3076
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -60,7 +60,7 @@ sources:
 lang: de
 translation_of: BLOG-41
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 
 Gemeinschaftsflächen im Freien werden im Mehrfamilienbau zum alltäglichen Wohnraum – nicht mehr nur ein Pooldeck, das drei Monate im Jahr genutzt wird. In Staffel eins, Folge drei von Designing Outdoor Spaces erklärt Sara Schneider von TCA Architects, wie ihr Team die Grenze zwischen Innen- und Außenangeboten verwischt, für die ganzjährige Nutzung plant und dabei die Grenzen des Wetters akzeptiert, und wie es Räume flexibel genug hält, um sich mit den Bedürfnissen der Bewohner zu verändern[^s1].

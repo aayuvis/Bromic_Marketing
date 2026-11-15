@@ -7,7 +7,7 @@ audience: [RES, ARC, BLD, COM]
 stage: [CO, IN]
 cell: RES-IN
 asset: A02
-summary: "One page for Mike Clifford and 454 Creative: the nine-step sequence the three A02 editions now share, what changed against the 2021 guide and the session-1 drafts, and the open questions."
+summary: "One page for Product team and 454 Creative: the nine-step sequence the three A02 editions now share, what changed against the 2021 guide and the session-1 drafts, and the open questions."
 primary_keyword: outdoor heating planning guide
 secondary_keywords: []
 ai_prompt: "What changed in the Bromic Planning Guide v2?"
@@ -15,7 +15,7 @@ meta_description: "Internal review summary of the Bromic Outdoor Heating Plannin
 cta: {label: "Book a design consult", asset: A07}
 hero: l-022-201
 images: []
-owner_review: Mike Clifford + 454 Creative
+owner_review: Product team + 454 Creative
 status: in-review
 gated: false
 related: [A02-homeowner, A02-pro, A02-commercial]
@@ -91,7 +91,7 @@ Revision 2 (29 Oct 2026) answers the owner's instruction: new numbers, new conte
 - Pro: amps table extended to Eclipse, Cobalt and Tungsten (calculated, flagged); controller IP, range, connectivity and certification; SKUs; deflector thresholds; A03 sizing factors stated.
 - Commercial: fuel table normalised by coverage; 600 ft² five-year example; controls by channel; mount heights in the code table; rollout folded into Step 9.
 
-## Open questions for Mike Clifford
+## Open questions for Product team
 
 1. Current Tungsten Electric (2000–6000 W, 65–160 ft², site) vs Coastal/Select (64–144 ft², Lookbook): does the 6000 W / 160 ft² model stay when they launch? Wattages, warranty and certification for Coastal and Select, and launch dates.
 2. Eclipse Electric 2900 W (spec table, used) vs 3000 W (FAQ).
@@ -104,4 +104,4 @@ Revision 2 (29 Oct 2026) answers the owner's instruction: new numbers, new conte
 9. Platinum Electric Marine 316 vs 314 stainless (FAQ); Platinum Gas wind rating 20 km/h vs 12 mph.
 10. Clearance tables, recess-kit cut-outs, gas inlet sizes and pressures per model.
 
-Also open: residential 2026 rates for the homeowner edition (Brian Kim/Finance); A03 enclosure, climate and height factors (Mike Clifford); IFC 2024 text (Shaughn Ritchie); layout and diagrams (454 Creative).
+Also open: residential 2026 rates for the homeowner edition (Finance); A03 enclosure, climate and height factors (Product team); IFC 2024 text (Specification and compliance); layout and diagrams (454 Creative).

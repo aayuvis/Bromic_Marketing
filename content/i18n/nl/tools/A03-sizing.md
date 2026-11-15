@@ -13,7 +13,7 @@ ai_prompt: "Hoeveel buitenverwarmers heb ik nodig voor mijn terras?"
 meta_description: "Vul de afmetingen, overkapping en het klimaat van je terras in. Zie hoeveel Bromic-verwarmers je nodig hebt, welke modellen passen en welke bediening erbij hoort."
 cta: {label: "Plan een ontwerpgesprek", asset: A07}
 hero: l-010-067
-owner_review: Brian Kim + 454 Creative
+owner_review: digitale marketing + 454 Creative
 status: draft
 gated: true
 related: [RES-PP-01, COM-IN-KB1, RES-CO-01]
@@ -53,7 +53,7 @@ klimaat: mild, koel, koud · energiebron: elektrisch, gas, beide · stijl: inbou
 bediening bij elk model, de elektrische belasting en de aannames.
 
 **Aannames.** Het verwarmd oppervlak per model komt uit de Lookbook 2026[^s1]. De factoren voor overkapping, klimaat en hoogte zijn
-de richtlijnen van Bromic uit 2021, omgezet in getallen[^s2], en wachten op de goedkeuring van Mike Clifford. Een ruimte waarvan
+de richtlijnen van Bromic uit 2021, omgezet in getallen[^s2], en wachten op de goedkeuring van productteam. Een ruimte waarvan
 minder dan 30% van de omtrek open is, gaat naar het ontwerpteam. Tungsten Coastal en Tungsten Select zijn binnenkort leverbaar en
 tonen een bandbreedte, nooit één aantal. Elke waarde, de bron en de eigenaar: `tools/A03-sizing/README.md`.
 

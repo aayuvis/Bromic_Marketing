@@ -13,7 +13,7 @@ ai_prompt: "Wie viele Heizstrahler brauche ich für meine Terrasse?"
 meta_description: "Geben Sie Größe, Überdachung und Klima Ihrer Terrasse ein. Sehen Sie, wie viele Bromic-Heizstrahler sie braucht, welche Modelle passen und welche Steuerung sie bedient."
 cta: {label: "Planungsgespräch buchen", asset: A07}
 hero: l-010-067
-owner_review: Brian Kim + 454 Creative
+owner_review: Digitales Marketing + 454 Creative
 status: draft
 gated: true
 related: [RES-PP-01, COM-IN-KB1, RES-CO-01]
@@ -36,7 +36,7 @@ sources:
 lang: de
 translation_of: A03
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 **Was der Rechner leistet.** Hausbesitzer wählen die Form der Fläche (Rechteck, L, U oder Innenhof, lang und schmal, rund), geben ihre Größe ein,
 wie stark sie überdacht ist und wie kühl ihre Abende werden, und tippen dann auf ein Heizstrahler-Bild (oder „Hilfe bei der Auswahl“). Jede Heizstrahler-Karte zeigt ihre eigene
@@ -51,7 +51,7 @@ beides · Bauform: Einbau, freistehend, beides · Montagehöhe (m) · Zonen.
 jedes, die elektrische Last und die Annahmen.
 
 **Annahmen.** Die Heizflächen stammen aus dem Lookbook 2026[^s1]. Die Faktoren für Überdachung, Klima und Höhe sind die Bromic-Empfehlungen von 2021,
-in Zahlen übersetzt[^s2], und warten auf die Freigabe durch Mike Clifford. Eine Fläche, deren Umfang zu weniger als 30 % offen ist, geht an das Planungs-
+in Zahlen übersetzt[^s2], und warten auf die Freigabe durch Produktteam. Eine Fläche, deren Umfang zu weniger als 30 % offen ist, geht an das Planungs-
 team. Tungsten Coastal und Tungsten Select sind demnächst erhältlich und zeigen eine Spanne, nie eine einzelne Anzahl. Jeder Wert, seine Quelle und sein Verantwortlicher: `tools/A03-sizing/README.md`.
 
 **Wohin der Kontakt geht.** Das HubSpot-Formular (`forms/hubspot-form-spec.md`) mit `asset_id=A03`, `matrix_cell=RES-CO`, den UTM-Feldern

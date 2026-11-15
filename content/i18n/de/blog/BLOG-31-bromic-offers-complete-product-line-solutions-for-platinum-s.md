@@ -15,8 +15,8 @@ meta_description: "Platinum Smart-Heat Electric mit 2300, 3400 und 4500 W: Heizf
 cta: {label: "Das Spezifikationspaket herunterladen", asset: A11}
 hero: w-bromic-platinum-electric-4500w
 images: [w-bromic-shoot-may-11-2023-54, w-australia-sydney-greenwich-residence-2]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -75,7 +75,7 @@ sources:
 lang: de
 translation_of: BLOG-31
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 Der Platinum Smart-Heat Electric ist ein flacher, geschlossener Strahlungsheizer in drei Leistungen: 2300 W für ca. 6 m², 3400 W für ca. 10 m² und 4500 W für ca. 13 m².[^s2] Es gibt ihn in Schwarz oder Weiß, in der Classic-Ausführung oder in seewasserbeständigem Edelstahl, und er wird an der Wand, an einer Deckenstange oder mit einem von zwei Einbausätzen bündig eingelassen montiert.[^s1] Jede Installation braucht zusätzlich ein Affinity-Steuergerät oder einen manuellen Wandschalter, die separat erhältlich sind.[^s2]
 
@@ -83,7 +83,7 @@ Der Platinum Smart-Heat Electric ist ein flacher, geschlossener Strahlungsheizer
 
 ## Welche Leistung braucht welche Fläche?
 
-Wählen Sie nach der Fläche, die warm werden soll, und prüfen Sie dann den Stromkreis. Die Werte unten stammen aus der aktuellen Datentabelle auf bromic.com; die Stromaufnahme ist für das deutsche Netz mit 230 V neu berechnet (A = W ÷ 230).[^s2] [[VERIFY: Werte von bromic.com übernommen; mit dem Datenblatt 2026 abgleichen — Mike Clifford]]
+Wählen Sie nach der Fläche, die warm werden soll, und prüfen Sie dann den Stromkreis. Die Werte unten stammen aus der aktuellen Datentabelle auf bromic.com; die Stromaufnahme ist für das deutsche Netz mit 230 V neu berechnet (A = W ÷ 230).[^s2] [[VERIFY: Werte von bromic.com übernommen; mit dem Datenblatt 2026 abgleichen — Produktteam]]
 
 | Modell | Heizfläche (ca.) | Stromaufnahme bei 230 V | Gewicht |
 |---|---|---|---|
@@ -107,7 +107,7 @@ Auf drei Arten, immer mit dem Gehäuse aus Edelstahl 304 und einer Front aus Gla
 
 ## Passt der Low-Clearance-Einbausatz zum 4500-W-Modell?
 
-Laut aktueller Produktseite ja: Sie nennt alle drei Leistungen, für Platinum und Platinum Marine, in Schwarz oder Weiß.[^s3] Die Fassung dieses Beitrags von 2023 nannte nur 2300 und 3400 W.[^s6] [[VERIFY: Kompatibilität des Low-Clearance-Einbausatzes mit 4500 W (Produktseite sagt ja, Beitrag von 2023 sagte nein) — Mike Clifford]]
+Laut aktueller Produktseite ja: Sie nennt alle drei Leistungen, für Platinum und Platinum Marine, in Schwarz oder Weiß.[^s3] Die Fassung dieses Beitrags von 2023 nannte nur 2300 und 3400 W.[^s6] [[VERIFY: Kompatibilität des Low-Clearance-Einbausatzes mit 4500 W (Produktseite sagt ja, Beitrag von 2023 sagte nein) — Produktteam]]
 
 Was der Einbausatz ändert:
 
@@ -138,7 +138,7 @@ WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Steuerungen vorau
 - Ein eigener Stromkreis, bemessen für die Stromaufnahme jedes Heizstrahlers, plus die Lüfterversorgung beim Low-Clearance-Einbausatz. Siehe [Absicherung für einen 4500-W-Heizstrahler](item:BLD-IN-KB1).
 - Das Steuergerät und der Ort von Wandschalter oder Bedienfeld.
 
-In den USA werden elektrische Heizstrahler nach ANSI/NFPA 70 (dem NEC) installiert,[^s7] in Deutschland nach DIN VDE 0100. Klären Sie Stromkreise, Montagehöhen und Abstände mit Ihrem örtlichen Bauamt und einem Elektrofachbetrieb. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Raffaele Marti]]
+In den USA werden elektrische Heizstrahler nach ANSI/NFPA 70 (dem NEC) installiert,[^s7] in Deutschland nach DIN VDE 0100. Klären Sie Stromkreise, Montagehöhen und Abstände mit Ihrem örtlichen Bauamt und einem Elektrofachbetrieb. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Partner Deutschland]]
 
 ## Häufige Fragen
 

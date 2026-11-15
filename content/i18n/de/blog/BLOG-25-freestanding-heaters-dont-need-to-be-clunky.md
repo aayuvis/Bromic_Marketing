@@ -15,8 +15,8 @@ meta_description: "Worauf es bei einem freistehenden Terrassenheizstrahler ankom
 cta: {label: "Herausfinden, wie viele Heizstrahler Sie brauchen", asset: A03}
 hero: w-eclipse-portable-hive-and-honey-1
 images: [w-bromic-eclipse-portable-hotel-skansen-01, l-019-163]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -68,7 +68,7 @@ sources:
 lang: de
 translation_of: BLOG-25
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 
 Achten Sie auf einen freistehenden Heizstrahler, der Menschen wärmt, nicht die Luft: Strahlungswärme, die auf den Tisch gerichtet ist, statt eines Heizpilzes, dessen Haube in alle Richtungen glüht. Prüfen Sie dann, welche Energie Sie nutzen können, wie standfest er bei Wind ist, welche Fläche er beheizt, wie er gesteuert wird und ob er optisch an den Ort passt. Bromic baut zwei: den Eclipse Smart-Heat Freestanding Electric, Wärme und Licht in einem Bogen, und den Tungsten Smart-Heat Freestanding Gas, für Flüssiggas oder Erdgas.
@@ -88,10 +88,10 @@ Weil die meisten um eine Gasflasche herum gebaut sind, nicht um die Menschen, di
 | Heizfläche | Bestimmt, wie viele Sie brauchen | Ca. 11 m²[^s1] | Ca. 20 m²[^s1] |
 | Energie | Was Ihr Standort liefern kann | Elektro, 2900 W[^s2] | Flüssiggas (Flasche) oder Erdgas (Schnellanschlussleitung)[^s3] |
 | Umstellen | Die Aufstellung ändert sich mit der Saison | Räder, beschwerter Fuß[^s1] | Räder, kippsichere Bauweise[^s1] |
-| Steuerung | Komfort und Betriebskosten | Leistung in Stufen von 33, 66 und 100 %, dimmbares Licht[^s1] | [[VERIFY: Steuerungsoptionen — Mike Clifford]] |
+| Steuerung | Komfort und Betriebskosten | Leistung in Stufen von 33, 66 und 100 %, dimmbares Licht[^s1] | [[VERIFY: Steuerungsoptionen — Produktteam]] |
 | Optik | Er steht mitten im Raum | Geschwungener Arm, Lichtring | Edelstahlsäule |
 
-[[VERIFY: Leistung des Tungsten Freestanding Gas, ca. 11,1 kW laut Lookbook gegenüber ca. 11,3 kW laut Produktseite; Eclipse 2900 W gegenüber 3000 W in der Produkt-FAQ — Mike Clifford]]
+[[VERIFY: Leistung des Tungsten Freestanding Gas, ca. 11,1 kW laut Lookbook gegenüber ca. 11,3 kW laut Produktseite; Eclipse 2900 W gegenüber 3000 W in der Produkt-FAQ — Produktteam]]
 
 ### Spielt die Wellenlänge eine Rolle?
 
@@ -101,17 +101,17 @@ Ja, vor allem bei Wind. Bromics Planungsleitfaden beziffert Kurzwellenwärme auf
 
 Ein geschwungener Arm auf einem beschwerten Fuß mit Rädern trägt einen runden Heizstrahler über einen Tisch oder eine Lounge, mit einem dimmbaren Licht um den Rand – eine Leuchte, die Wärme und Stimmung zugleich bestimmt.[^s1] Er wird dort eingesteckt, wo es keine Wand oder Decke zur Montage gibt, und wandert mit, wenn die Möbel umgestellt werden. Halten Sie darüber mindestens ca. 2,0 m Freiraum ein.[^s2]
 
-**Steuerung:** Er wird mit dem Eclipse Dimmer-Steuergerät und Fernbedienung geliefert, die die Wärme in Stufen von 33, 66 und 100 % schalten und das Licht dimmen.[^s2] App-Steuerung mit Zonen und Zeitplänen erfordert ein kompatibles Affinity Smart-Heat Eclipse Steuergerät; WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Steuerungen, die separat erhältlich sind.[^s1] [[VERIFY: welche App-Steuerung der Eclipse Freestanding über den mitgelieferten Dimmer hinaus braucht — Mike Clifford]]
+**Steuerung:** Er wird mit dem Eclipse Dimmer-Steuergerät und Fernbedienung geliefert, die die Wärme in Stufen von 33, 66 und 100 % schalten und das Licht dimmen.[^s2] App-Steuerung mit Zonen und Zeitplänen erfordert ein kompatibles Affinity Smart-Heat Eclipse Steuergerät; WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Steuerungen, die separat erhältlich sind.[^s1] [[VERIFY: welche App-Steuerung der Eclipse Freestanding über den mitgelieferten Dimmer hinaus braucht — Produktteam]]
 
 ![Gebogener freistehender Eclipse Heizstrahler über einem gedeckten Tisch in einem Hotelinnenhof in der Abenddämmerung](img:w-bromic-eclipse-portable-hotel-skansen-01)
 
-Im [Hotel Skansen](https://www.bromic.com/case-study/hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-heat-freestanding-heaters/) in Schweden halten zwei freistehende Eclipse Heizstrahler am Eclipse Dimmer-Steuergerät die Terrasse des Restaurants SAND nutzbar. In Scottsdale setzte AFT Construction einen auf der Terrasse des Hauses [Desert Mirage](https://www.bromic.com/case-study/desert-mirage-blurring-the-lines-between-home-and-nature/) ein. [[VERIFY: das Reel von AFT Construction einbinden, auf das der Originalbeitrag verweist, oder den Hinweis entfernen — Megan Spies]]
+Im [Hotel Skansen](https://www.bromic.com/case-study/hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-heat-freestanding-heaters/) in Schweden halten zwei freistehende Eclipse Heizstrahler am Eclipse Dimmer-Steuergerät die Terrasse des Restaurants SAND nutzbar. In Scottsdale setzte AFT Construction einen auf der Terrasse des Hauses [Desert Mirage](https://www.bromic.com/case-study/desert-mirage-blurring-the-lines-between-home-and-nature/) ein. [[VERIFY: das Reel von AFT Construction einbinden, auf das der Originalbeitrag verweist, oder den Hinweis entfernen — Marketing]]
 
 ## Tungsten Smart-Heat Freestanding Gas
 
-Eine Edelstahlsäule mit neigbarem Kopf und Keramikbrennern, gebaut für offene Terrassen und Restaurantterrassen, die mehr Heizfläche aus einem Gerät brauchen.[^s1] Er läuft laut US-Produktseite mit einer Flüssiggasflasche von ca. 9 kg (20 lb) oder mit Erdgas über eine Schnellanschlussleitung von ca. 3 m, rollt auf Rädern und ist kippsicher konstruiert.[^s3] [[VERIFY: zulässige Flaschengrößen in Deutschland (5 kg, 11 kg) für den Tungsten Freestanding Gas — Mike Clifford]] Bromic gibt ihn für Wind bis ca. 13 km/h an.[^s3] Eine wetterfeste [Tungsten Freestanding Cover](https://www.bromic.de/) schützt den Kopf zwischen den Einsätzen.
+Eine Edelstahlsäule mit neigbarem Kopf und Keramikbrennern, gebaut für offene Terrassen und Restaurantterrassen, die mehr Heizfläche aus einem Gerät brauchen.[^s1] Er läuft laut US-Produktseite mit einer Flüssiggasflasche von ca. 9 kg (20 lb) oder mit Erdgas über eine Schnellanschlussleitung von ca. 3 m, rollt auf Rädern und ist kippsicher konstruiert.[^s3] [[VERIFY: zulässige Flaschengrößen in Deutschland (5 kg, 11 kg) für den Tungsten Freestanding Gas — Produktteam]] Bromic gibt ihn für Wind bis ca. 13 km/h an.[^s3] Eine wetterfeste [Tungsten Freestanding Cover](https://www.bromic.de/) schützt den Kopf zwischen den Einsätzen.
 
-Die Laufzeit je Flasche hängt von der Leistungsstufe und der Füllung ab. [[VERIFY: Laufzeit je 9-kg-Flasche (20 lb); der Originalbeitrag nannte bis zu 8 Stunden — Mike Clifford]] Flüssiggas bringt auch Vorschriften mit sich: Ortsveränderliche Gasheizstrahler brauchen festgelegte Abstände zu Überdachungen und Notausgängen. *Klären Sie das mit Ihrer örtlichen Brandschutzbehörde und einem Gasinstallateur (TRF).* Für Restaurants rechnet der Beitrag [was ein Heizpilz wirklich kostet (auf Englisch)](https://www.bromic.com/blog/why-mushroom-heaters-are-bad-for-business/) Brennstoff und Flaschen durch.
+Die Laufzeit je Flasche hängt von der Leistungsstufe und der Füllung ab. [[VERIFY: Laufzeit je 9-kg-Flasche (20 lb); der Originalbeitrag nannte bis zu 8 Stunden — Produktteam]] Flüssiggas bringt auch Vorschriften mit sich: Ortsveränderliche Gasheizstrahler brauchen festgelegte Abstände zu Überdachungen und Notausgängen. *Klären Sie das mit Ihrer örtlichen Brandschutzbehörde und einem Gasinstallateur (TRF).* Für Restaurants rechnet der Beitrag [was ein Heizpilz wirklich kostet (auf Englisch)](https://www.bromic.com/blog/why-mushroom-heaters-are-bad-for-business/) Brennstoff und Flaschen durch.
 
 ![Freistehender Tungsten Gasheizstrahler in einem Steinhof in der Abenddämmerung](img:l-019-163)
 

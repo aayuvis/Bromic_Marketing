@@ -15,8 +15,8 @@ meta_description: "Duurzame buitenverwarming voor architecten: stralingswarmte g
 cta: {label: "Download de planningsgids (editie voor professionals)", asset: A02}
 hero: w-mountain-view-retreat-platinum-electric-rece
 images: [w-residential-us-pavillion-du-lac-1]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false

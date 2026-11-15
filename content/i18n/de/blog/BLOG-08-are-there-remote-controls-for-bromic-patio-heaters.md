@@ -15,8 +15,8 @@ meta_description: "Bromic Heizstrahler werden über Affinity Smart-Heat Steuerge
 cta: {label: "Planungsgespräch vereinbaren", asset: A07}
 hero: w-affinity-onoff
 images: [w-render-3]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -89,7 +89,7 @@ sources:
 lang: de
 translation_of: BLOG-08
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 
 Nicht im herkömmlichen Sinn. Bromics aktuelle Steuerung ist die Affinity Smart-Heat Serie: On/Off-, Dimmer- und Eclipse-Steuergeräte, die Sie über die Bromic App auf dem Smartphone, per Sprache über Alexa oder Google Home oder über einen manuellen Wandschalter bedienen.[^s1] Affinity-Steuergeräte werden ohne Handfernbedienung geliefert; die App ist die Fernbedienung.[^s1] Jeder installierte Heizstrahler braucht eine dieser Steuerungen, die separat erhältlich sind und nach Heizstrahlertyp und Last ausgewählt werden.
@@ -106,9 +106,9 @@ Wählen Sie nach Energieart, danach, ob Sie dimmen möchten, und nach der Last j
 | Affinity Dimmer | Platinum und Tungsten Electric; laut Bromic-FAQ auch Cobalt[^s3] | 1, 2 oder 5 | 6 kW[^s3] | Leistung in 1-%-Schritten, dazu App, Sprache und Zeitpläne[^s1] |
 | Affinity Eclipse Steuergerät | Eclipse Electric[^s4] | 1 oder 5 | Ein Eclipse Heizstrahler; 4 kW bei 220–240 V beim 1-Kanal-Gerät[^s4] | Wärme und Ringbeleuchtung über eine Steuerung |
 | Manueller Wandschalter | Tungsten und Platinum, Gas oder Elektro[^s5] | Einfach oder zweifach | 20 A, 120–277 V (US-Ausführung)[^s5] | Ein und aus an der Wand; keine App |
-| Affinity Erweiterungsplatine | 1- und 2-Kanal On/Off und Dimmer; im 5-Kanal-Gerät integriert[^s6] | — | — | Ethernet und 0–10 V für Hausautomation oder Gebäudeleittechnik |
+| Affinity Erweiterungsplatine | 1- und 2-Kanal On/Off und Dimmer; im 5-Kanal-Gerät integriert[^s6] | – | – | Ethernet und 0–10 V für Hausautomation oder Gebäudeleittechnik |
 
-[[VERIFY: Kapazitäten der Steuergeräte und Kompatibilität der Heizstrahler, einschließlich Cobalt und Gas in der Spezifikationstabelle des On/Off; Ausführung des Wandschalters für 230 V in Deutschland — Mike Clifford]]
+[[VERIFY: Kapazitäten der Steuergeräte und Kompatibilität der Heizstrahler, einschließlich Cobalt und Gas in der Spezifikationstabelle des On/Off; Ausführung des Wandschalters für 230 V in Deutschland — Produktteam]]
 
 ## Wie viele Heizstrahler je Kanal?
 
@@ -124,7 +124,7 @@ Bromics Kompatibilitätstabelle nennt diese Anzahl je Kanal für On/Off- und Dim
 | Platinum oder Tungsten Gas (beide Größen) | 10 (nur On/Off) |
 | Eclipse Electric | 1 (Eclipse Steuergerät) |
 
-Zwei Platinum Heizstrahler mit 2300 W teilen sich also einen Kanal; zwei Tungsten mit 6000 W brauchen ein 2-Kanal-Steuergerät.[^s2] Bei einem 2-Kanal-On/Off lassen sich die beiden Heizelemente eines Platinum mit 4500 W oder eines Tungsten mit 4000/6000 W getrennt schalten.[^s2] [[VERIFY: Anzahl je Kanal bei 230 V (die US-Angaben gelten für 208 V und 277 V) — Mike Clifford]]
+Zwei Platinum Heizstrahler mit 2300 W teilen sich also einen Kanal; zwei Tungsten mit 6000 W brauchen ein 2-Kanal-Steuergerät.[^s2] Bei einem 2-Kanal-On/Off lassen sich die beiden Heizelemente eines Platinum mit 4500 W oder eines Tungsten mit 4000/6000 W getrennt schalten.[^s2] [[VERIFY: Anzahl je Kanal bei 230 V (die US-Angaben gelten für 208 V und 277 V) — Produktteam]]
 
 <div class="diagram">Diagramm: ein 2-Kanal Affinity Dimmer; Kanal 1 versorgt zwei Platinum Heizstrahler mit 2300 W über dem Tisch, Kanal 2 einen Tungsten mit 4000 W über der Lounge; Wandschalter und Smartphone als die beiden Bedienwege.</div>
 
@@ -140,9 +140,9 @@ Frühere Beiträge beschrieben eine Serie mit kabellosen Handfernbedienungen.[^s
 | Wireless Master Remote (Zonen über viele Heizstrahler) | Zonen und Szenen in der App |
 | Smart-Heat Link (RS232-Gateway) | Erweiterungsplatine (Ethernet, 0–10 V) oder Alexa und Google Home ohne Platine[^s6] |
 
-[[VERIFY: Sind Wireless On/Off, Wireless Dimmer, Master Remote und Smart-Heat Link eingestellt oder noch als Ersatzteile erhältlich; gibt es einen Umrüstweg — Mike Clifford]]
+[[VERIFY: Sind Wireless On/Off, Wireless Dimmer, Master Remote und Smart-Heat Link eingestellt oder noch als Ersatzteile erhältlich; gibt es einen Umrüstweg — Produktteam]]
 
-Eine Ausnahme: Der Eclipse Freestanding Heizstrahler wird mit Eclipse Dimmer-Steuergerät und Fernbedienung im Lieferumfang geführt.[^s8] [[VERIFY: Wird Eclipse Freestanding mit dem früheren Eclipse Dimmer und Fernbedienung oder mit Affinity geliefert; App-Unterstützung — Mike Clifford]]
+Eine Ausnahme: Der Eclipse Freestanding Heizstrahler wird mit Eclipse Dimmer-Steuergerät und Fernbedienung im Lieferumfang geführt.[^s8] [[VERIFY: Wird Eclipse Freestanding mit dem früheren Eclipse Dimmer und Fernbedienung oder mit Affinity geliefert; App-Unterstützung — Produktteam]]
 
 ## Wo wird das Steuergerät montiert?
 

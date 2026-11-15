@@ -15,8 +15,8 @@ meta_description: "Was einen guten Heizstrahler für den Außenbereich ausmacht:
 cta: {label: "Fläche berechnen", asset: A03}
 hero: w-eclispe-1
 images: [w-bromic-tungsten-electric-patio-heater]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -25,7 +25,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLOG-12
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -88,8 +88,8 @@ Ein wirklich guter Heizstrahler für den Außenbereich liefert nutzbare Wärme �
 |---|---|---|
 | Wärme, die bei den Menschen ankommt | Strahlungswärme, Kurzwellenelement; Heizfläche je Modell, nicht nur Watt oder kW | Tungsten Electric beheizt ca. 6–15 m² bei 2000–6000 W[^s3] |
 | Wetterfest gebaut | Abgedichtetes Gehäuse; IP-Schutzart als Zahl angegeben | Tungsten Electric IPX4; Platinum Marine IPX5[^s3][^s4] |
-| Unabhängige Zertifizierung | Ein anerkanntes Prüfzeichen; in Nordamerika ETL, cETL, UL oder CSA, in Europa die CE-Kennzeichnung | Intertek ETL/cETL bei Tungsten und Platinum Electric[^s3][^s4] [[VERIFY: CE-Kennzeichnung und europäische Prüfnachweise je Modell — Mike Clifford]] |
-| Garantie | Jahre und Umfang | Tungsten: 2 Jahre auf das Gerät, 7 Jahre auf die Heizelemente; Platinum: 3 Jahre[^s3][^s4] [[VERIFY: Garantiebedingungen für den deutschen Markt — Mike Clifford]] |
+| Unabhängige Zertifizierung | Ein anerkanntes Prüfzeichen; in Nordamerika ETL, cETL, UL oder CSA, in Europa die CE-Kennzeichnung | Intertek ETL/cETL bei Tungsten und Platinum Electric[^s3][^s4] [[VERIFY: CE-Kennzeichnung und europäische Prüfnachweise je Modell — Produktteam]] |
+| Garantie | Jahre und Umfang | Tungsten: 2 Jahre auf das Gerät, 7 Jahre auf die Heizelemente; Platinum: 3 Jahre[^s3][^s4] [[VERIFY: Garantiebedingungen für den deutschen Markt — Produktteam]] |
 | Passende Montage | Wand, Decke, eingelassen, Stange oder freistehend; Mindesthöhen | Platinum lässt sich bündig einbauen, auch mit Einbaurahmen für geringe Einbautiefe[^s4] |
 | Steuerung | Zonen, Dimmen, Zeitpläne, Sprache; was separat erhältlich ist | Affinity On/Off-, Dimmer- oder Eclipse-Steuergerät oder ein Wandschalter[^s5] |
 | Gestaltung | Blendung, Oberfläche, Profil, ob er auch Licht gibt | Eclipse ergänzt eine dimmbare Randbeleuchtung[^s6] |
@@ -120,7 +120,7 @@ Weil ein Heizstrahler, den man nicht anpassen kann, ausgeschaltet wird. Affinity
 
 ## Wer bewertet Bromic?
 
-Bromic-Heizstrahler stehen in der Liste der bestbewerteten Terrassenheizstrahler des US-Händlers BBQGuys in den Kategorien Gewerbe, Elektro und Gas.[^s1][^s7] [[VERIFY: the BBQGuys list, the categories and placements, and the date — Megan Spies]] Eine Liste ist ein Ausgangspunkt. Ob ein Gerät für Sie funktioniert, entscheiden das Datenblatt und ein Heizstrahler, der zu Ihrem Bereich passt.
+Bromic-Heizstrahler stehen in der Liste der bestbewerteten Terrassenheizstrahler des US-Händlers BBQGuys in den Kategorien Gewerbe, Elektro und Gas.[^s1][^s7] [[VERIFY: the BBQGuys list, the categories and placements, and the date — Marketing]] Eine Liste ist ein Ausgangspunkt. Ob ein Gerät für Sie funktioniert, entscheiden das Datenblatt und ein Heizstrahler, der zu Ihrem Bereich passt.
 
 ## Häufige Fragen
 

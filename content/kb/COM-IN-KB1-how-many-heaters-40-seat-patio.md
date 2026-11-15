@@ -14,7 +14,7 @@ ai_prompt: "How many heaters do I need for a 40-seat restaurant patio?"
 meta_description: "Heaters for a 40-seat patio depend on area for overhead heaters; for freestanding, never more than four seats a heater. Worked 800 ft² example."
 cta: {label: "Book a design consult", asset: A07}
 hero: p-002-001
-owner_review: Blake Petty
+owner_review: Hospitality sales
 status: draft
 gated: false
 related: [COM-IN-01, COM-AW-01]
@@ -46,7 +46,7 @@ For overhead heaters it depends on the area; for freestanding heaters, never mor
 
 ## The method
 
-1. **Measure** the seating you want warm — the tables and chairs, not the planters. From a seat count, allow 20 ft² a seat, aisles included: the top of the NAFEM range, so tables are not crammed.[^s3]
+1. **Measure** the seating you want warm – the tables and chairs, not the planters. From a seat count, allow 20 ft² a seat, aisles included: the top of the NAFEM range, so tables are not crammed.[^s3]
 2. **Overhead and built-in heaters:** heaters = area ÷ (coverage × cover factor × climate factor), rounded up. Coverage is Bromic's published figure.[^s1]
 3. **Freestanding heaters:** the same sum, but never more than four seats a heater, because seated guests block the radiant heat of a freestanding unit. Take the larger of area ÷ effective coverage and seats ÷ 4.
 
@@ -56,7 +56,7 @@ For overhead heaters it depends on the area; for freestanding heaters, never mor
 | Partly covered (pergola, umbrella, part roof) | 1.0 | Cool (about 40–50°F) | 0.85 |
 | Covered (solid roof) | 1.1 | Cold (often below about 40°F) | 0.7 |
 
-The factors are planning assumptions, not published ratings. [[VERIFY: cover and climate factors — Mike Clifford]] They follow Bromic's own example, in which the same 200 ft² patio takes two heaters in California and three in Massachusetts, and a partial cover adds a heat cloud.[^s2]
+The factors are planning assumptions, not published ratings. [[VERIFY: cover and climate factors — Product team]] They follow Bromic's own example, in which the same 200 ft² patio takes two heaters in California and three in Massachusetts, and a partial cover adds a heat cloud.[^s2]
 
 ## Worked example
 
@@ -66,9 +66,9 @@ The factors are planning assumptions, not published ratings. [[VERIFY: cover and
 |---|---|---|---|---|
 | Platinum Smart-Heat Electric 4500W | 143 ft² | 800 ÷ (143 × 0.85) = 6.6 | 7 | Affinity On/Off or Dimmer controller, wall switch |
 | Eclipse Smart-Heat Electric | about 121 ft² | 800 ÷ (121 × 0.85) = 800 ÷ 102.85 = 7.8 | 8 | Eclipse controller, wall switch |
-| Tungsten Smart-Heat Freestanding Gas | about 215 ft² | 800 ÷ (215 × 0.85) = 4.4, but 40 seats ÷ 4 = 10 | 10 | [[VERIFY: control options — Mike Clifford]] |
+| Tungsten Smart-Heat Freestanding Gas | about 215 ft² | 800 ÷ (215 × 0.85) = 4.4, but 40 seats ÷ 4 = 10 | 10 | [[VERIFY: control options — Product team]] |
 
-An open patio or colder evenings lower the factor and raise the overhead count; a solid roof raises it and lowers the count. The freestanding count stays at ten for 40 seats either way. Smaller Platinum models cover less (3400W 108 ft², 2300W 65 ft²) and need more units.[^s1] [[VERIFY: coverage per Platinum wattage and mounting height — Mike Clifford]] Wi-Fi and app features — zones, schedules, timers — require compatible Affinity Smart-Heat Controls, sold separately.[^s1]
+An open patio or colder evenings lower the factor and raise the overhead count; a solid roof raises it and lowers the count. The freestanding count stays at ten for 40 seats either way. Smaller Platinum models cover less (3400W 108 ft², 2300W 65 ft²) and need more units.[^s1] [[VERIFY: coverage per Platinum wattage and mounting height — Product team]] Wi-Fi and app features – zones, schedules, timers – require compatible Affinity Smart-Heat Controls, sold separately.[^s1]
 
 ## Before you order
 
@@ -78,7 +78,7 @@ An open patio or colder evenings lower the factor and raise the overhead count; 
 
 Then put the layout into [the ROI case](item:COM-IN-01).
 
-Get a layout for your patio — book a design consult.
+Get a layout for your patio – book a design consult.
 
 [^s1]: Bromic Heating, Lookbook 2026.
 [^s2]: Bromic Heating, Planning Guide US v1.2, 2021.

@@ -15,8 +15,8 @@ meta_description: "Pergola, Cabana oder Lamellendach beheizen: welcher Bromic-He
 cta: {label: "Den Report Outdoor Living Trends 2026 herunterladen", asset: A01}
 hero: w-mountain-view-retreat-platinum-electric-rece
 images: [w-strx-230222-bromic-dc-8, w-platinumelectricflushmountedw-lowclearancere]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -25,7 +25,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLOG-34
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -86,7 +86,7 @@ Beheizen Sie eine Außenkonstruktion mit Strahlungsheizern, die an ihr befestigt
 
 Eine Pergola, eine Cabana oder ein Lamellendach schafft einen Raum, ohne das Haus zu vergrößern. Sie halten Sonne und Regen ab, aber nicht die Kälte. Das Dach ist zugleich der Ort, an dem die besten Positionen für Heizstrahler liegen, deshalb zeichnet man beides am besten zusammen.
 
-Darum ging es in der Fassung dieses Beitrags von 2023, entstanden mit dem Lamellendach-Hersteller StruXure: Dessen Gründer Scott Selzer argumentierte, dass ein Bereich, in dem sich niemand wohlfühlt, ungenutzt bleibt, und Michael Smith von Bromic nannte die Verbindung von Konstruktion und Heizung eine naheliegende Ergänzung für das Leben im Freien.[^s6] [[VERIFY: Michael Smith's current title (pages differ) and permission to keep both comments — Megan Spies]]
+Darum ging es in der Fassung dieses Beitrags von 2023, entstanden mit dem Lamellendach-Hersteller StruXure: Dessen Gründer Scott Selzer argumentierte, dass ein Bereich, in dem sich niemand wohlfühlt, ungenutzt bleibt, und Michael Smith von Bromic nannte die Verbindung von Konstruktion und Heizung eine naheliegende Ergänzung für das Leben im Freien.[^s6] [[VERIFY: Michael Smith's current title (pages differ) and permission to keep both comments — Marketing]]
 
 Die Überdachung hilft auch dem Heizstrahler. Unter einem teilweise geschlossenen Dach sammelt sich ein Teil der Wärme zu einer „Wärmewolke“, die die Strahlungswärme ergänzt.[^s1] Lassen Sie aber genug Seiten offen: Der Planungsleitfaden von Bromic behandelt einen Bereich nur dann als Außenbereich, wenn mindestens 30 % seines Umfangs dauerhaft offen sind.[^s1] Wer eine Konstruktion mit Screens oder Glas rundum schließt, kann ändern, wie sie eingestuft wird; fragen Sie vorher bei Ihrem Bauamt nach.
 
@@ -120,7 +120,7 @@ Planen Sie sie zusammen mit dem Dach. Ein Affinity Smart-Heat On/Off- oder Dimme
 - Ein Stromkreis je Heizstrahler, dazu die Versorgung des Lüfters im Einbaurahmen, vorverlegt, bevor die Decke geschlossen wird. Siehe [Vorverkabelung einer Terrasse](item:BLD-IN-01).
 - Standort von Steuergerät und Wandschalter.
 
-Elektrische Heizstrahler werden in Deutschland nach DIN VDE 0100 angeschlossen; klären Sie Stromkreise, Abstände und Höhen mit Ihrem Bauamt und einem eingetragenen Elektrofachbetrieb ab. [[VERIFY: current VDE and DVGW rules for outdoor heaters — Raffaele Marti]] Der Planungsservice von Bromic zeichnet Ihnen anhand Ihrer Pläne kostenlos einen Wärmeplan ([bromic.de](https://www.bromic.de/)).
+Elektrische Heizstrahler werden in Deutschland nach DIN VDE 0100 angeschlossen; klären Sie Stromkreise, Abstände und Höhen mit Ihrem Bauamt und einem eingetragenen Elektrofachbetrieb ab. [[VERIFY: current VDE and DVGW rules for outdoor heaters — Partner Deutschland]] Der Planungsservice von Bromic zeichnet Ihnen anhand Ihrer Pläne kostenlos einen Wärmeplan ([bromic.de](https://www.bromic.de/)).
 
 ## Häufige Fragen
 

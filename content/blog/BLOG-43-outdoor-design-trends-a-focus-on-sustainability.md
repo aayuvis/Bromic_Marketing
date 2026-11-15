@@ -17,8 +17,8 @@ ai_prompt: "How does outdoor space design support sustainable architecture?"
 meta_description: "Thomas Ventura of Gensler on sustainable outdoor design: early client buy-in, daylight and air, durable materials, and heat sized to the space."
 cta: {label: "Book the AIA CE course on outdoor heating", asset: A14}
 hero: w-gensler-project-images-3
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -68,7 +68,7 @@ Outdoor space is part of a sustainable building, not decoration around it. In se
 
 ## Who is Thomas Ventura?
 
-Thomas Ventura is a design leader at [Gensler](https://www.gensler.com/) with more than 30 years in the industry, nearly a decade of it at Gensler, focused on mixed-use, multi-family and hospitality projects[^s1]. [[VERIFY: Thomas Ventura's current title (the episode page says Associate Design Director) against Gensler — Megan Spies]] The episode was released on 10 May 2024[^s2] and is hosted by Archispeak.
+Thomas Ventura is a design leader at [Gensler](https://www.gensler.com/) with more than 30 years in the industry, nearly a decade of it at Gensler, focused on mixed-use, multi-family and hospitality projects[^s1]. [[VERIFY: Thomas Ventura's current title (the episode page says Associate Design Director) against Gensler — Marketing]] The episode was released on 10 May 2024[^s2] and is hosted by Archispeak.
 
 ## Sustainability starts with the client
 

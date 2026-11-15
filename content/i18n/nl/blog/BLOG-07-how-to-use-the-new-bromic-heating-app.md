@@ -15,8 +15,8 @@ meta_description: "Stel de Bromic Smart-Heat app in: koppel een Affinity-regelaa
 cta: {label: "Open de installatiegids voor Smart-Heat", asset: A09}
 hero: w-eclipse-electric-w-bromic-heating-app
 images: [w-affinity-onoff]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -108,7 +108,7 @@ Een **scène** automatiseert een vaste gewoonte op een weekschema: warmte aan bi
 
 ## Kunnen anderen de app ook gebruiken?
 
-Ja. De Admin nodigt mensen per e-mail uit via Settings, Manage Users. Admins kunnen de instellingen van de locatie wijzigen; Users kunnen alleen de verwarmers bedienen.[^s1][^s2] Voor uitnodigingen moet de regelaar op wifi zijn aangesloten.[^s1] Er is geen grens aan het aantal verwarmers per locatie of locaties per account.[^s2] [[VERIFY: of de app in het Nederlands beschikbaar is en hoe de menu's dan heten — Mike Clifford]]
+Ja. De Admin nodigt mensen per e-mail uit via Settings, Manage Users. Admins kunnen de instellingen van de locatie wijzigen; Users kunnen alleen de verwarmers bedienen.[^s1][^s2] Voor uitnodigingen moet de regelaar op wifi zijn aangesloten.[^s1] Er is geen grens aan het aantal verwarmers per locatie of locaties per account.[^s2] [[VERIFY: of de app in het Nederlands beschikbaar is en hoe de menu's dan heten — productteam]]
 
 ## Werkt de app met Alexa of Google Home?
 
@@ -116,18 +116,18 @@ Ja, via compatibele Affinity-bediening; koppel ze vanuit de app van Alexa of Goo
 
 ## Wat als de wifi wegvalt?
 
-De regelaar schakelt over op een andere beschikbare verbinding, of op Bluetooth, en gaat terug naar wifi of ethernet zodra die er weer is.[^s2] Valt de stroom van de regelaar weg, dan toont de app de verwarmers als offline.[^s2] [[VERIFY: stand van de verwarmers na een stroomstoring en of een wandschakelaar een Affinity-regelaar kan overrulen — Mike Clifford]]
+De regelaar schakelt over op een andere beschikbare verbinding, of op Bluetooth, en gaat terug naar wifi of ethernet zodra die er weer is.[^s2] Valt de stroom van de regelaar weg, dan toont de app de verwarmers als offline.[^s2] [[VERIFY: stand van de verwarmers na een stroomstoring en of een wandschakelaar een Affinity-regelaar kan overrulen — productteam]]
 
 ## Veelgestelde vragen
 
 ### Werkt de app met mijn oudere afstandsbediening van Bromic?
-Nee. De app is gemaakt voor Affinity-bediening en is niet achterwaarts compatibel met de oudere afstandsbedieningen van Bromic.[^s1][^s2] [[VERIFY: aanbevolen vervangingsroute voor eigenaren van draadloze On/Off- en Dimmer-regelaars — Mike Clifford]]
+Nee. De app is gemaakt voor Affinity-bediening en is niet achterwaarts compatibel met de oudere afstandsbedieningen van Bromic.[^s1][^s2] [[VERIFY: aanbevolen vervangingsroute voor eigenaren van draadloze On/Off- en Dimmer-regelaars — productteam]]
 
 ### Wordt er bij Affinity-regelaars een afstandsbediening geleverd?
 Nee. Affinity-bediening werkt via de app en wordt geleverd zonder fysieke afstandsbediening.[^s3]
 
 ### Is de app gratis?
-[[VERIFY: prijs van de app en eventueel abonnement — Mike Clifford]] De regelaars worden apart verkocht; zie het [assortiment bediening van Bromic](https://www.bromic.com/controls/).
+[[VERIFY: prijs van de app en eventueel abonnement — productteam]] De regelaars worden apart verkocht; zie het [assortiment bediening van Bromic](https://www.bromic.com/controls/).
 
 ### Waar krijg ik hulp?
 Bij de technische ondersteuning van Bromic via https://www.bromic.com/contact-technical-support/, of in de [veelgestelde vragen op de app-pagina](https://www.bromic.com/affinity-smart-heat-app/). In Nederland kun je ook terecht via [bromic.nl](https://www.bromic.nl/).

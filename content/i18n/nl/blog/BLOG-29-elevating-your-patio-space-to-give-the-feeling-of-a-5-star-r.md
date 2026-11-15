@@ -15,8 +15,8 @@ meta_description: "Zes stappen naar een terras met resortgevoel: warmte waar je 
 cta: {label: "Download het Trends 2026-rapport", asset: A01}
 hero: w-bromic-eclipse-heater-scottsdale-home-6
 images: [w-bromiceclipseheater-scottsdalehome-10, w-wrigley-mansion-phoenix-arizona-22]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -81,7 +81,7 @@ Resorts verwarmen de stoel, niet de lucht erboven. Stralingswarmte verwarmt mens
 
 Waar geen wand of plafond is om op te monteren, reikt de Eclipse Smart-Heat Freestanding Electric met een gebogen arm vanaf een verzwaarde voet op wieltjes over een tafel, en verwarmt ongeveer 11 m².[^s1] Waar een overstek is, houdt een vaste verwarmer op een paal of in het plafond de vloer vrij. De [gratis ontwerpservice](https://www.bromic.nl/) van Bromic berekent hoeveel verwarmers je nodig hebt en waar ze moeten komen. [[VERIFY: of de ontwerpservice in Nederland gratis is — Bromic Benelux distributor]]
 
-De Eclipse stond in The Wall Street Journal, in een artikel over hoe je van een terras een resort maakt.[^s3] [[VERIFY: datum en kop van het WSJ-artikel en wat het over de Eclipse zegt — Megan Spies]]
+De Eclipse stond in The Wall Street Journal, in een artikel over hoe je van een terras een resort maakt.[^s3] [[VERIFY: datum en kop van het WSJ-artikel en wat het over de Eclipse zegt — marketing]]
 
 ## 2. Werk met lagen licht
 
@@ -100,7 +100,7 @@ Resortterrassen hebben diepe zitmeubels, gemengde materialen en stukken die tege
 
 ## 4. Geef de ruimte een blikvanger
 
-Een vuurelement, water, een kunstwerk of een opvallende verwarmer geeft mensen een plek om samen te komen. Het gebogen silhouet van de Eclipse is vaak het eerste wat mensen opvalt. Bij [Christopher's at Wrigley Mansion](https://www.bromic.com/case-study/christophers-at-wrigley-mansion/) in Phoenix koos architect Wendell Burnette voor vrijstaande Eclipse-verwarmers, zodat het restaurant een terras kon toevoegen zonder het ontwerp van het historische gebouw aan te tasten; in het oorspronkelijke artikel vertelt hij dat gasten er opmerkingen over maken.[^s4] [[VERIFY: formulering van het citaat controleren tegen de case study voordat een letterlijk citaat wordt gebruikt — Megan Spies]]
+Een vuurelement, water, een kunstwerk of een opvallende verwarmer geeft mensen een plek om samen te komen. Het gebogen silhouet van de Eclipse is vaak het eerste wat mensen opvalt. Bij [Christopher's at Wrigley Mansion](https://www.bromic.com/case-study/christophers-at-wrigley-mansion/) in Phoenix koos architect Wendell Burnette voor vrijstaande Eclipse-verwarmers, zodat het restaurant een terras kon toevoegen zonder het ontwerp van het historische gebouw aan te tasten; in het oorspronkelijke artikel vertelt hij dat gasten er opmerkingen over maken.[^s4] [[VERIFY: formulering van het citaat controleren tegen de case study voordat een letterlijk citaat wordt gebruikt — marketing]]
 
 ![Terras bij nacht met gloeiende, gebogen vrijstaande Eclipse-verwarmers boven gasten, bergen op de achtergrond](img:w-wrigley-mansion-phoenix-arizona-22)
 
@@ -116,7 +116,7 @@ Luxe is niet zoeken naar schakelaars. De Eclipse Freestanding wordt geleverd met
 
 Het huis op de foto is [Desert Mirage](https://www.bromic.com/case-study/desert-mirage-blurring-the-lines-between-home-and-nature/) in Scottsdale (Arizona), van AFT Construction, Cosan Studio en Alisha Taylor Interiors, met een vrijstaande Eclipse-verwarmer op het terras.
 
-Het oorspronkelijke artikel noemde de Eclipse Freestanding "2,4 meter hoog" (8 voet); die hoogte staat niet in de huidige productgegevens van Bromic en is daarom weggelaten tot ze is bevestigd.[^s6] [[VERIFY: totale hoogte van de Eclipse Freestanding — Mike Clifford]]
+Het oorspronkelijke artikel noemde de Eclipse Freestanding "2,4 meter hoog" (8 voet); die hoogte staat niet in de huidige productgegevens van Bromic en is daarom weggelaten tot ze is bevestigd.[^s6] [[VERIFY: totale hoogte van de Eclipse Freestanding — productteam]]
 
 ## Veelgestelde vragen
 

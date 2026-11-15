@@ -18,7 +18,7 @@ meta_description: "Plan terrasverwarming in negen stappen: opmeten, energiebron 
 cta: {label: "Boek een ontwerpadvies", asset: A07}
 hero: l-010-071
 images: [l-007-035, l-019-163, l-013-102, t-009-025, l-010-067]
-owner_review: Mike Clifford + 454 Creative
+owner_review: productteam + 454 Creative
 status: draft
 gated: true
 related: [RES-IN-01, RES-CO-01, BLD-IN-01]
@@ -256,7 +256,7 @@ Bron: Bromic Planning Guide 2021[^s3]. Een vuurkorf is een blikvanger, geen verw
 | Bediening | Aan/uit of dimmen, zones, schema's, app | Aan/uit, wandschakelaar, schema's |
 | Verwarmd oppervlak per verwarmer | 6,0–14,9 m² | 14,9–20,0 m² |
 
-[[VERIFY: voedingsspecificatie (230 V) van de gasverwarmers voor de Nederlandse markt — Mike Clifford]]
+[[VERIFY: voedingsspecificatie (230 V) van de gasverwarmers voor de Nederlandse markt — productteam]]
 
 ### Wat het kost om te stoken
 
@@ -264,7 +264,7 @@ Bron: Bromic Planning Guide 2021[^s3]. Een vuurkorf is een blikvanger, geen verw
 - **Aardgas:** kosten per uur = vermogen in kW ÷ de energie-inhoud van een m³ gas (in kWh) × je prijs per m³
 - **Propaan:** kosten per uur = vermogen in kW ÷ ongeveer 7,1 kWh per liter[^s23] × je prijs per liter
 
-Wij rekenen hier niet met Nederlandse energieprijzen: vul de prijs van je eigen energierekening in. Ter vergelijking, de Amerikaanse gemiddelden die in de Engelse gids worden gebruikt: elektriciteit 13,54 dollarcent per kWh (EIA, zakelijk, mei 2026)[^s18]; aardgas $ 0,87 per therm (EIA, zakelijk, gemiddelde januari–mei 2026)[^s19]; propaan $ 2,674 per gallon (EIA, particulier, week van 30 maart 2026)[^s20]. [[VERIFY: tarieven voor huishoudens 2026 om naast de zakelijke te publiceren — Brian Kim/Finance]] [[VERIFY: energie-inhoud van aardgas per m³ voor Nederlandse rekeningen — Bromic Benelux distributor]]
+Wij rekenen hier niet met Nederlandse energieprijzen: vul de prijs van je eigen energierekening in. Ter vergelijking, de Amerikaanse gemiddelden die in de Engelse gids worden gebruikt: elektriciteit 13,54 dollarcent per kWh (EIA, zakelijk, mei 2026)[^s18]; aardgas $ 0,87 per therm (EIA, zakelijk, gemiddelde januari–mei 2026)[^s19]; propaan $ 2,674 per gallon (EIA, particulier, week van 30 maart 2026)[^s20]. [[VERIFY: tarieven voor huishoudens 2026 om naast de zakelijke te publiceren — financiën]] [[VERIFY: energie-inhoud van aardgas per m³ voor Nederlandse rekeningen — Bromic Benelux distributor]]
 
 | Verwarmer op vol vermogen | Energie per uur | Kosten per uur |
 |---|---|---|
@@ -316,7 +316,7 @@ Benodigde verwarmers = oppervlak ÷ (verwarmd oppervlak per verwarmer × overkap
 | Deels overdekt (pergola, parasol, gedeeltelijk dak) | 1,0 | Koel (ongeveer 4–10 °C) | 0,85 |
 | Overdekt (dicht dak) | 1,1 | Koud (vaak onder ongeveer 4 °C) | 0,7 |
 
-[[VERIFY: overkappings- en klimaatfactoren — Mike Clifford]] Twijfel je? Reken met deels overdekt en koel: 1,0 × 0,85 = 0,85. Meet de zitplekken, niet het hele terras; weet je het aantal zitplaatsen in plaats van het oppervlak, reken dan ongeveer 1,9 m² per zitplaats.
+[[VERIFY: overkappings- en klimaatfactoren — productteam]] Twijfel je? Reken met deels overdekt en koel: 1,0 × 0,85 = 0,85. Meet de zitplekken, niet het hele terras; weet je het aantal zitplaatsen in plaats van het oppervlak, reken dan ongeveer 1,9 m² per zitplaats.
 
 **Vrijstaande verwarmers** (Tungsten Freestanding Gas, Eclipse Freestanding) bedienen elk niet meer dan vier zitplaatsen, omdat de gasten zelf de stralingswarmte tegenhouden. Reken het op twee manieren uit en neem de hoogste uitkomst: oppervlak ÷ (verwarmd oppervlak × factoren), of zitplaatsen ÷ 4.
 
@@ -331,7 +331,7 @@ Benodigde verwarmers = oppervlak ÷ (verwarmd oppervlak per verwarmer × overkap
 | Tungsten Freestanding Gas, 11,1 kW | 20,0 m²[^s2] |
 | Tungsten Electric Coastal en Select (binnenkort) | 5,9–13,4 m² afhankelijk van het model[^s2] |
 
-Het verwarmde oppervlak is een benadering en hangt af van montagehoogte, wind en installatie[^s2]. Waarden van de Amerikaanse productpagina's, gelezen op 29 oktober 2026 en omgerekend naar m². [[VERIFY: verwarmd oppervlak en vermogen per model tegen de productbladen van 2026; Eclipse 2900 W (specificatietabel) tegenover 3000 W (FAQ); Tungsten Freestanding Gas 11,1 kW (Lookbook) tegenover 11,3 kW (website) — Mike Clifford]]
+Het verwarmde oppervlak is een benadering en hangt af van montagehoogte, wind en installatie[^s2]. Waarden van de Amerikaanse productpagina's, gelezen op 29 oktober 2026 en omgerekend naar m². [[VERIFY: verwarmd oppervlak en vermogen per model tegen de productbladen van 2026; Eclipse 2900 W (specificatietabel) tegenover 3000 W (FAQ); Tungsten Freestanding Gas 11,1 kW (Lookbook) tegenover 11,3 kW (website) — productteam]]
 
 De gratis [calculator Hoeveel verwarmers?](asset:A03) doet dit voor je, met dezelfde overkappings- en klimaatfactoren.
 
@@ -361,7 +361,7 @@ Elektrische verwarmers worden vast aangesloten. Je installateur bepaalt elke gro
 | Cobalt Electric 4000 / 6000 W | 17,4 / 26,1 A[^s9] |
 | Tungsten Electric 2000 / 3000 / 4000 / 6000 W | 8,7 / 13,0 / 17,4 / 26,1 A |
 
-Deze stromen zijn berekend als watt ÷ 230 V; de Amerikaanse productpagina's geven ze bij 208 en 240 V. Groepen en beveiliging volgen NEN 1010 en worden bepaald door je installateur. [[VERIFY: stroom per model bij 230 V voor de Europese uitvoeringen — Mike Clifford]]
+Deze stromen zijn berekend als watt ÷ 230 V; de Amerikaanse productpagina's geven ze bij 208 en 240 V. Groepen en beveiliging volgen NEN 1010 en worden bepaald door je installateur. [[VERIFY: stroom per model bij 230 V voor de Europese uitvoeringen — productteam]]
 
 Inbouwgasverwarmers hebben een gasleiding nodig, aangelegd door een erkend gasinstallateur, en een aparte elektrische voeding[^s10][^s11]. De Tungsten Freestanding Gas werkt op een propaanfles of met een aardgasslang van 3 m met snelkoppeling[^s12]. [[VERIFY: geschikte propaanfles in Nederland (10,5 of 11 kg) en aansluiting voor de Tungsten Freestanding Gas — Bromic Benelux distributor]]
 
@@ -382,9 +382,9 @@ Een verwarmer zonder bediening is geen af systeem. Elk plan heeft alle vier de o
 | Handmatige wandschakelaar | Aan/uit bij de deur | Amerikaanse uitvoering: 20 A, 120–277 V[^s16] |
 | Bromic Smart-Heat-app | Zones, schema's, timers | Werkt via een compatibele Affinity-regelaar |
 
-**Verwarmers per kanaal van 6 kW:** Tungsten 2000 W: 3 · 3000 W: 2 · 4000 of 6000 W: 1 · Platinum 2300 W: 2 · 3400 of 4500 W: 1 · Cobalt: 1 · Eclipse: 1 (op een Eclipse-regelaar). Gerekend op de nominale 6 kW; de groep kan een lagere grens opleggen. [[VERIFY: capaciteit en compatibiliteit van de regelaars, ook bij 230 V — Mike Clifford]]
+**Verwarmers per kanaal van 6 kW:** Tungsten 2000 W: 3 · 3000 W: 2 · 4000 of 6000 W: 1 · Platinum 2300 W: 2 · 3400 of 4500 W: 1 · Cobalt: 1 · Eclipse: 1 (op een Eclipse-regelaar). Gerekend op de nominale 6 kW; de groep kan een lagere grens opleggen. [[VERIFY: capaciteit en compatibiliteit van de regelaars, ook bij 230 V — productteam]]
 
-De Eclipse Freestanding wordt geleverd met een Eclipse Dimmer Controller en afstandsbediening[^s8]. Inbouwgas schakelt alleen aan en uit; het dimt niet[^s10]. [[VERIFY: welke bediening de Tungsten Freestanding Gas gebruikt — Mike Clifford]]
+De Eclipse Freestanding wordt geleverd met een Eclipse Dimmer Controller en afstandsbediening[^s8]. Inbouwgas schakelt alleen aan en uit; het dimt niet[^s10]. [[VERIFY: welke bediening de Tungsten Freestanding Gas gebruikt — productteam]]
 
 Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht. De app werkt ook met Amazon Alexa, Google Assistant, Control4, Crestron en Lutron; de compatibiliteit verschilt en kan extra hardware of instellingen vragen[^s2].
 
@@ -422,7 +422,7 @@ De afstanden tot het plafond en tot alles wat brandbaar is staan in de installat
 | Tungsten Freestanding Gas | 1 jaar (propaanmodel)[^s12] |
 | Affinity Smart-Heat-bediening | 1 jaar[^s13] |
 
-[[VERIFY: garantievoorwaarden per model, ook het aardgasmodel van de Tungsten Freestanding Gas en de voorwaarden in Nederland — Mike Clifford]]
+[[VERIFY: garantievoorwaarden per model, ook het aardgasmodel van de Tungsten Freestanding Gas en de voorwaarden in Nederland — productteam]]
 
 - [ ] Montagehoogtes voldoen aan de minima
 - [ ] Afstanden volgens elke installatiehandleiding
@@ -434,7 +434,7 @@ De afstanden tot het plafond en tot alles wat brandbaar is staan in de installat
 
 De ontwerpspecialisten van Bromic bekijken je foto's, plannen of tekeningen en adviseren kosteloos over verwarmers, plaatsing en bediening, met tekeningen van het verwarmde oppervlak[^s2].
 
-Een volledige offerte heeft vijf regels: verwarmers en montagesets; bediening; installatie; vergunningen; gebruikskosten. De Amerikaanse catalogusprijzen op bromic.com (29 oktober 2026) beginnen bij $ 798 voor een Tungsten Electric-verwarmer en $ 370 voor een Affinity On/Off-regelaar[^s4][^s13]; dat zijn Amerikaanse prijzen, geen Nederlandse. [[VERIFY: te publiceren prijzen, ook voor Nederland — Mike Clifford]]
+Een volledige offerte heeft vijf regels: verwarmers en montagesets; bediening; installatie; vergunningen; gebruikskosten. De Amerikaanse catalogusprijzen op bromic.com (29 oktober 2026) beginnen bij $ 798 voor een Tungsten Electric-verwarmer en $ 370 voor een Affinity On/Off-regelaar[^s4][^s13]; dat zijn Amerikaanse prijzen, geen Nederlandse. [[VERIFY: te publiceren prijzen, ook voor Nederland — productteam]]
 
 - [ ] Checklists van stap 1–8 ingevuld
 - [ ] Foto's of plannen klaar

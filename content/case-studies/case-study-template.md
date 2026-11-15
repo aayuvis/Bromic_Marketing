@@ -10,7 +10,7 @@ asset: A10
 summary: "The structure, interview guide and consent checklist for every new Bromic case study. A case study ships only with a real, permissioned customer; numbers and quotes only with written permission."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-013-111
-owner_review: Megan Spies
+owner_review: Marketing
 status: template
 gated: false
 related: [CS-CANDIDATES, COM-IN-01]
@@ -80,4 +80,4 @@ the controller or app in use, the heat plan. Every photo: product, setting, phot
 - [ ] A photo licence covering web, print, social and paid use, and the photographer's credit line
 - [ ] Residential: no house number, street or anything that locates the home without the owner's consent
 - [ ] Final draft approved by the customer before publication; approval saved with the source files
-- [ ] Reviewer sign-off: regional lead (facts), Mike Clifford (product and controls), Megan Spies (brand)
+- [ ] Reviewer sign-off: regional lead (facts), Product team (product and controls), Marketing (brand)

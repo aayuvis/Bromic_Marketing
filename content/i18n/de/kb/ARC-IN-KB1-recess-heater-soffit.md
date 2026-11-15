@@ -14,7 +14,7 @@ meta_description: "Lassen sich Heizstrahler in eine Dachuntersicht einbauen? Ja,
 cta: {label: "Spezifikationspaket herunterladen", asset: A11}
 hero: t-006-016
 images: []
-owner_review: Mike Clifford
+owner_review: Produktteam
 status: draft
 gated: false
 related: [ARC-IN-01, ARC-BY-01]
@@ -22,7 +22,7 @@ updated: 2026-10-29
 lang: de
 translation_of: ARC-IN-KB1
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -59,7 +59,7 @@ Quelle: Lookbook 2026 und Planning Guide[^s1][^s2].
 - [ ] Montagehöhe im Schnitt (Deckenmontage mindestens 2,4 m, je nach Leistung höher)[^s1]
 - [ ] Lage von Steuergerät und Wandschalter
 
-[[VERIFY: Ausschnittmaß des Einbausatzes, Hohlraumtiefe und Abstände im Hohlraum je Modell — Mike Clifford]]
+[[VERIFY: Ausschnittmaß des Einbausatzes, Hohlraumtiefe und Abstände im Hohlraum je Modell — Produktteam]]
 
 Planen Sie zu jedem eingebauten Heizstrahler die Steuerung mit ein: ein Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät, einen Wandschalter und die Bromic Smart-Heat App. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind[^s2].
 

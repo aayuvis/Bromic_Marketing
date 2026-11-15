@@ -18,7 +18,7 @@ meta_description: "Propaan is goedkoop in aanschaf en duur in gebruik. Een verge
 cta: {label: "Reken het vijfjarige kostenmodel door", asset: A20}
 hero: l-019-164
 images: [l-010-067]
-owner_review: Blake Petty
+owner_review: verkoop horeca
 status: draft
 gated: false
 related: [COM-AW-01, COM-IN-01, COM-CO-KB1, COM-PP-01]
@@ -93,7 +93,7 @@ De formules, met tarieven die u op uw eigen rekening kunt controleren:
 - **Aardgas:** gasverbruik per uur = vermogen in kW = kWh gas; kosten per uur = kWh gas × uw prijs per kWh gas (reken uw prijs per m³ om met de calorische waarde op uw energierekening)
 - **Propaan:** verbruik per uur = vermogen in kW ÷ 7,08 kWh per liter; kosten per uur = liters × uw prijs per liter
 
-(7,08 kWh per liter is de omrekening van de 91.500 BTU per US gallon uit de Amerikaanse bronnen.) Gebruikte Amerikaanse tarieven, VS-voorbeeld: elektriciteit voor bedrijven 14,07 dollarcent per kWh (Amerikaans gemiddelde, januari–mei 2026)[^s1]; aardgas voor bedrijven $10,45 per duizend kubieke voet (ca. 28,3 m³; Amerikaans gemiddelde, januari–april 2025)[^s2], wat bij een energie-inhoud van ca. 38,6 MJ per m³ (1.036 Btu per kubieke voet) neerkomt op ongeveer $1,01 per therm (ca. $0,034 per kWh)[^s3]; propaan $2,46 per gallon (ca. $0,65 per liter), de prognose van EIA voor huishoudens voor de winter 2025–26.[^s4] [[VERIFY: tarieven 2026 — Brian Kim/Finance; propaan voor bedrijven, geleverd in ruilflessen, is meestal duidelijk duurder dan bulkpropaan voor huishoudens — bevestig met een offerte van een leverancier]]
+(7,08 kWh per liter is de omrekening van de 91.500 BTU per US gallon uit de Amerikaanse bronnen.) Gebruikte Amerikaanse tarieven, VS-voorbeeld: elektriciteit voor bedrijven 14,07 dollarcent per kWh (Amerikaans gemiddelde, januari–mei 2026)[^s1]; aardgas voor bedrijven $10,45 per duizend kubieke voet (ca. 28,3 m³; Amerikaans gemiddelde, januari–april 2025)[^s2], wat bij een energie-inhoud van ca. 38,6 MJ per m³ (1.036 Btu per kubieke voet) neerkomt op ongeveer $1,01 per therm (ca. $0,034 per kWh)[^s3]; propaan $2,46 per gallon (ca. $0,65 per liter), de prognose van EIA voor huishoudens voor de winter 2025–26.[^s4] [[VERIFY: tarieven 2026 — financiën; propaan voor bedrijven, geleverd in ruilflessen, is meestal duidelijk duurder dan bulkpropaan voor huishoudens — bevestig met een offerte van een leverancier]]
 
 | Verwarmer | Vermogen | Brandstofkosten per uur, VS-voorbeeld | Verwarmd oppervlak (ca.) |
 |---|---|---|---|
@@ -102,7 +102,7 @@ De formules, met tarieven die u op uw eigen rekening kunt controleren:
 | Tungsten Smart-Heat Freestanding Gas, aardgas | 11,1 kW | $0,38 | ca. 20 m² |
 | Tungsten Smart-Heat Freestanding Gas, propaan | 11,1 kW (1,6 L per uur) | $1,02 | ca. 20 m² |
 
-De waarden voor het verwarmde oppervlak zijn de gepubliceerde bereiken van Bromic;[^s6] voor de waarde per vermogen van Platinum is de dekkingstabel van Bromic nodig. [[VERIFY: verwarmd oppervlak per Platinum-vermogen — Mike Clifford]] Aardgas is hier niet één product: een vrijstaande verwarmer op aardgas heeft een vaste gasaansluiting nodig. [[VERIFY: aansluitmethode op aardgas voor Tungsten Smart-Heat Freestanding Gas — Mike Clifford]]
+De waarden voor het verwarmde oppervlak zijn de gepubliceerde bereiken van Bromic;[^s6] voor de waarde per vermogen van Platinum is de dekkingstabel van Bromic nodig. [[VERIFY: verwarmd oppervlak per Platinum-vermogen — productteam]] Aardgas is hier niet één product: een vrijstaande verwarmer op aardgas heeft een vaste gasaansluiting nodig. [[VERIFY: aansluitmethode op aardgas voor Tungsten Smart-Heat Freestanding Gas — productteam]]
 
 ## Wat zijn de verborgen kosten van propaan?
 
@@ -110,7 +110,7 @@ Arbeid en opslag. Propaanverwarmers gaan op drukke avonden flessen door, en het 
 
 - **Arbeid voor het wisselen:** iemand haalt lege flessen op, neemt leveringen aan en wisselt flessen. Reken dat mee.
 - **Opslag:** in de VS bepaalt NFPA 58 hoe ver opgeslagen flessen van deuren en andere blootstellingen moeten staan, en veel steden stellen eigen grenzen of eisen een vergunning boven bepaalde hoeveelheden.[^s5] In Nederland stellen uw gemeente en de brandweer de eisen. [[VERIFY: Nederlandse regels voor de opslag van propaanflessen bij horecabedrijven — Bromic Benelux distributor]] Ruimte voor een opslagkooi is vloeroppervlak dat u niet verkoopt.
-- **Leveringsregels:** sommige brandweervoorschriften verbieden levering van vergunningsplichtige hoeveelheden aan een locatie zonder brandvergunning — New York City is een voorbeeld.
+- **Leveringsregels:** sommige brandweervoorschriften verbieden levering van vergunningsplichtige hoeveelheden aan een locatie zonder brandvergunning – New York City is een voorbeeld.
 - **Prijs:** ruilflessen zijn per liter meestal duidelijk duurder dan bulkpropaan. De tabel hierboven gebruikt een bulkgemiddelde voor huishoudens, en dat flatteert propaan.
 
 ## Hoe ziet vijf jaar eruit?
@@ -125,8 +125,8 @@ Alleen ter illustratie. Elke invoer hieronder is een aanname voor een rekenvoorb
 
 | Kosten over vijf jaar (illustratief, VS-voorbeeld) | Elektrisch | Aardgas | Propaan |
 |---|---|---|---|
-| Verwarmers en bediening (aanschaf) | [[VERIFY: prijslijst — Blake Petty]] | [[VERIFY: prijslijst — Blake Petty]] | [[VERIFY: prijslijst — Blake Petty]] |
-| Installatie en vergunningen | [[VERIFY: kosten groep en installatie — Blake Petty]] | [[VERIFY: kosten verlenging gasleiding — Blake Petty]] | [[VERIFY: kosten opslagkooi of -kast — Blake Petty]] |
+| Verwarmers en bediening (aanschaf) | [[VERIFY: prijslijst — verkoop horeca]] | [[VERIFY: prijslijst — verkoop horeca]] | [[VERIFY: prijslijst — verkoop horeca]] |
+| Installatie en vergunningen | [[VERIFY: kosten groep en installatie — verkoop horeca]] | [[VERIFY: kosten verlenging gasleiding — verkoop horeca]] | [[VERIFY: kosten opslagkooi of -kast — verkoop horeca]] |
 | Brandstof, 5 jaar | $22.160 | $19.190 | $51.082 |
 | Arbeid voor flessenwissels, 5 jaar | geen | geen | $18.417 |
 | Brandstof plus wissels, 5 jaar | $22.160 | $19.190 | $69.499 |
@@ -140,11 +140,11 @@ Met deze aannames kost aardgas het minst in gebruik als de leiding er al ligt, k
 | Locatie | Past meestal | Benodigde bediening |
 |---|---|---|
 | Overdekt terras, wand of overstek beschikbaar | Platinum Smart-Heat Electric | Affinity Smart-Heat On/Off- of Dimmer-regelaar, wandschakelaar, app |
-| Groot open terras, gasleiding binnen bereik | Tungsten Smart-Heat Freestanding Gas op aardgas | [[VERIFY: Affinity-bedieningsopties — Mike Clifford]] |
+| Groot open terras, gasleiding binnen bereik | Tungsten Smart-Heat Freestanding Gas op aardgas | [[VERIFY: Affinity-bedieningsopties — productteam]] |
 | Tijdelijke of seizoensopstelling, geen gas | Eclipse Smart-Heat Freestanding Electric | Eclipse-regelaar |
 | Drukke binnenstedelijke locatie met beperkingen voor propaan | Elektrisch | Affinity Smart-Heat On/Off- of Dimmer-regelaar, wandschakelaar, app |
 
-Wifi- en app-functies — zones, schema's en timers — vragen om compatibele Affinity Smart-Heat Controls, apart verkrijgbaar.[^s6] Zones zijn de grootste knop voor de gebruikskosten: een verwarmer die uit staat, kost niets.
+Wifi- en app-functies – zones, schema's en timers – vragen om compatibele Affinity Smart-Heat Controls, apart verkrijgbaar.[^s6] Zones zijn de grootste knop voor de gebruikskosten: een verwarmer die uit staat, kost niets.
 
 > Eisen voor normen en vergunningen verschillen per gemeente en veranderen in de loop van de tijd. Stem af met uw gemeente en de brandweer, en werk met een erkende installateur of gasinstallateur (elektra volgens NEN 1010, gas volgens NEN 1078). [[VERIFY: huidige edities NEN 1010 en NEN 1078 — Bromic Benelux distributor]]
 
@@ -179,7 +179,7 @@ Die op uw eigen rekeningen. Elektriciteit in prijs per kWh, inclusief eventuele 
 
 Het [vijfjarige kostenmodel](asset:A20) rekent met aanschaf, installatie, brandstof en het hanteren van propaan, zodat de vergelijking alles-in is.
 
-Vergelijk uw eigen cijfers — reken het vijfjarige kostenmodel door.
+Vergelijk uw eigen cijfers – reken het vijfjarige kostenmodel door.
 
 [^s1]: U.S. EIA, Monthly Energy Review, elektriciteitsprijs voor bedrijven, jan.–mei 2026.
 [^s2]: U.S. EIA, Natural Gas Monthly, Table 21, jan.–apr. 2025.

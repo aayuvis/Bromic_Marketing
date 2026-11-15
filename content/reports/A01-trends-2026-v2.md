@@ -15,7 +15,7 @@ meta_description: "Ten outdoor living trends for 2026, each with one sourced sta
 cta: {label: "Size your space", asset: A03}
 hero: t-001-000
 images: [t-003-005, l-013-108, t-005-013, t-006-016, t-007-019, t-008-022, t-009-025, t-010-028, t-011-031, t-012-034, t-013-037]
-owner_review: Megan Spies
+owner_review: Marketing
 status: draft
 gated: true
 related: [A01-stats, A01-corrections, RES-AW-01, ARC-AW-01]
@@ -105,7 +105,7 @@ The patio is now a room for all year. Cold after dark empties it, and heating is
 ## 02 Outdoor space is used morning to night
 
 **67%** say heating would do most to extend their outdoor time.[^s2]\
-*Atomik Research for Bromic Heating, 2025* [[VERIFY: survey date, base n and question wording against the Atomik topline — Megan Spies]]
+*Atomik Research for Bromic Heating, 2025* [[VERIFY: survey date, base n and question wording against the Atomik topline — Marketing]]
 
 - Coffee at dawn, dinner at dusk.
 - Cold cuts both short.
@@ -209,7 +209,7 @@ The patio is now a room for all year. Cold after dark empties it, and heating is
 ## 10 Heating moves from add-on to built-in
 
 **23%** of homeowners rank outdoor heating a top planning priority.[^s3]\
-*Atomik Research for Bromic Heating, 2025* [[VERIFY: survey date, base n and question wording against the Atomik topline — Megan Spies]]
+*Atomik Research for Bromic Heating, 2025* [[VERIFY: survey date, base n and question wording against the Atomik topline — Marketing]]
 
 - Grills went built-in. Heating is next.
 - It is specified with lighting.
@@ -239,15 +239,15 @@ Every Bromic heater needs an Affinity On/Off, Dimmer or Eclipse controller, a wa
 | 9.9 | NAR and NALP, Remodeling Impact Report, 2023[^s7] |
 | 5, 121 ft² | Bromic Lookbook 2026[^s8] |
 
-AIA figures are net (rising minus falling). Bromic commissioned the Atomik homeowner survey. [[VERIFY: sample size, field dates and margin of error from the Atomik topline — Megan Spies]]
+AIA figures are net (rising minus falling). Bromic commissioned the Atomik homeowner survey. [[VERIFY: sample size, field dates and margin of error from the Atomik topline — Marketing]]
 
 ---
 
 ## Editor's note
 
 - **Length.** Original report text: 1,631 words (`sources/Bromic_Outdoor_Living_Trends_2026.txt`). This version, cover to sources page: 796 words, a 51% cut. Report copy alone, cover to "Plan from the start": 727 words, a 55% cut. Both counted the same way: dashes split words; this note, the layout notes, `[[VERIFY]]` placeholders, footnote markers and Markdown syntax are excluded.
-- **Stats cut.** 94% "could be used more" (Bromic's own releases say 94% and 92%; held until Megan Spies picks one). 39% infrared heaters (not found in any AIA release). $522B (not in any Harvard release; replaced by $525B). The 1970s/2000s/2010s appliance dates (unsourced). The 320 sq ft patio size and 95% cost recovery (verified, but one stat per trend). 43% "do not think about heating" (unverified, not needed).
-- **Stats changed.** 61.8% (2024) updated to 60.5% (2025 starts), per the corrections file's recommendation; switch back if Megan Spies decides otherwise. 55% and 40% now say "net share" and give the year. 33% now has the right study, base and year. "Satisfaction score" is now NAR's Joy Score.
+- **Stats cut.** 94% "could be used more" (Bromic's own releases say 94% and 92%; held until Marketing picks one). 39% infrared heaters (not found in any AIA release). $522B (not in any Harvard release; replaced by $525B). The 1970s/2000s/2010s appliance dates (unsourced). The 320 sq ft patio size and 95% cost recovery (verified, but one stat per trend). 43% "do not think about heating" (unverified, not needed).
+- **Stats changed.** 61.8% (2024) updated to 60.5% (2025 starts), per the corrections file's recommendation; switch back if Marketing decides otherwise. 55% and 40% now say "net share" and give the year. 33% now has the right study, base and year. "Satisfaction score" is now NAR's Joy Score.
 - **Stats moved so each trend carries one.** 67% from trend 01 to 02, 23% from 02 to 10, 9.9 from 03 to 08. Trends 07 and 09 had none in the original; each now carries a Bromic product fact from the Lookbook, not a market statistic.
 - **Fixes applied.** All 38 items in [the corrections file](item:A01-corrections): "Studies", "radiant", "integration", "Multi-Use", "beginning"; the broken trend 04 sentence rewritten; the p.10 smart-controls insight moved to trend 07 and trend 08 given a design-led insight; the 23% reworded to "rank … a top planning priority"; the "=" headline; stray spaces; one source-line format; a sources page added.
 - **Rules.** Every heater recommendation names its controls; Wi-Fi and app features are labelled as needing compatible Affinity controls, sold separately. No legacy series names, no Tungsten Coastal or Select copy.

@@ -14,7 +14,7 @@ meta_description: "Terrassenheizstrahler nicht warm genug? Meist hängt er zu ho
 cta: {label: "Preise und Lieferzeiten für Bauunternehmen anfragen", asset: A18}
 hero: l-010-074
 images: [l-010-066]
-owner_review: Arvin Avaness
+owner_review: Fachhandelsvertrieb
 status: draft
 gated: false
 related: [BLD-IN-01, BLD-BY-01, BLD-IN-KB2]
@@ -22,7 +22,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLD-PP-01
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -49,7 +49,7 @@ sources:
 
 Ein Terrassenheizstrahler, der nicht warm genug wird, hängt meist zu hoch oder zu weit vom Sitzbereich entfernt, soll bei diesem Wind mehr Fläche beheizen, als er kann, oder läuft an der falschen Spannung. Ein Heizstrahler, der ständig die Sicherung auslöst, hängt meist an einem zu knapp bemessenen oder geteilten Stromkreis. All das wird entschieden, bevor das Gerät hängt – deshalb kommt es als Nacharbeit zurück. Hier sind die fünf Fehler und wie Sie sie von vornherein ausschließen.
 
-*Montagehöhen, Abstände und Verkabelung richten sich nach der Montageanleitung des Produkts, dem zuständigen Bauamt und einem Elektrofachbetrieb; in Deutschland gilt DIN VDE 0100.* [[VERIFY: current VDE and DVGW rules for outdoor heaters — Raffaele Marti]]
+*Montagehöhen, Abstände und Verkabelung richten sich nach der Montageanleitung des Produkts, dem zuständigen Bauamt und einem Elektrofachbetrieb; in Deutschland gilt DIN VDE 0100.* [[VERIFY: current VDE and DVGW rules for outdoor heaters — Partner Deutschland]]
 
 ![Schwarzer Heizstrahler an der Holzwand einer Cabana in der Dämmerung](img:l-010-074)
 
@@ -67,7 +67,7 @@ Ein Terrassenheizstrahler, der nicht warm genug wird, hängt meist zu hoch oder 
 
 Strahlungswärme nimmt mit der Entfernung ab. Montieren Sie ein Gerät höher, als seine Auslegung zulässt, spüren die Menschen darunter wenig. Montieren Sie es zu tief, wird es am Kopf heiß, und Sie unterschreiten möglicherweise den vorgeschriebenen Mindestwert.
 
-Bromic empfiehlt mindestens ca. 1,83 m über dem Boden bei Wandmontage und mindestens ca. 2,44 m bei Deckenmontage; die richtige Höhe hängt von der Leistung ab[^s2]. Auch die ungefähre Heizfläche ändert sich mit der Montagehöhe[^s1]. Entnehmen Sie die Höhe für jedes Modell der Montageanleitung [[VERIFY: recommended mounting height range per model and wattage — Mike Clifford]] und bringen Sie das Gerät unter hohen Decken mit Abhängestangen auf eine wirksame Höhe[^s2].
+Bromic empfiehlt mindestens ca. 1,83 m über dem Boden bei Wandmontage und mindestens ca. 2,44 m bei Deckenmontage; die richtige Höhe hängt von der Leistung ab[^s2]. Auch die ungefähre Heizfläche ändert sich mit der Montagehöhe[^s1]. Entnehmen Sie die Höhe für jedes Modell der Montageanleitung [[VERIFY: recommended mounting height range per model and wattage — Produktteam]] und bringen Sie das Gerät unter hohen Decken mit Abhängestangen auf eine wirksame Höhe[^s2].
 
 ## 2. Wie viele Heizstrahler braucht eine exponierte Terrasse?
 
@@ -83,7 +83,7 @@ Legen Sie die Anlage für den kältesten Abend aus, an dem der Bauherr den Berei
 
 ## 3. Welche Abstände werden übersehen?
 
-Die, die niemand markiert hat, bevor beplankt wurde: der Abstand zur Decke über einem Wandgerät, zu Balken und Ventilatoren neben einem Deckengerät und zu brennbaren Blenden. Der Abstand zur Decke hängt von der Leistung ab[^s2]. Nehmen Sie die Abstandstabelle aus der Montageanleitung des genauen Modells [[VERIFY: clearance table per model — Mike Clifford]] und markieren Sie sie auf der Unterkonstruktion. Ein Ventilator, eine Leuchte oder ein Lautsprecher im Abstandsbereich eines Heizstrahlers bedeutet eine Umplanung, keine schnelle Korrektur.
+Die, die niemand markiert hat, bevor beplankt wurde: der Abstand zur Decke über einem Wandgerät, zu Balken und Ventilatoren neben einem Deckengerät und zu brennbaren Blenden. Der Abstand zur Decke hängt von der Leistung ab[^s2]. Nehmen Sie die Abstandstabelle aus der Montageanleitung des genauen Modells [[VERIFY: clearance table per model — Produktteam]] und markieren Sie sie auf der Unterkonstruktion. Ein Ventilator, eine Leuchte oder ein Lautsprecher im Abstandsbereich eines Heizstrahlers bedeutet eine Umplanung, keine schnelle Korrektur.
 
 ## 4. Warum löst ein Heizstrahler aus oder wirkt schwach?
 
@@ -91,7 +91,7 @@ Zwei elektrische Fehler verursachen die meisten dieser Anrufe.
 
 **Zu knapp bemessene Stromkreise.** Ein Heizstrahler im Außenbereich kann stundenlang laufen, behandeln Sie ihn also als Dauerlast. In den USA gilt als Dauerlast ein Strom, der drei Stunden oder länger fließt, und der Stromkreis muss für mindestens 125 % des angegebenen Stroms bemessen sein[^s3]. Ein Gerät mit 4500 W zieht an 230 V rund 19,6 A. Leitungsquerschnitt und Absicherung für diese Dauerlast legt der Elektrofachbetrieb nach DIN VDE 0100 fest; ein Gerät dieser Größe gehört auf einen eigenen Stromkreis. Heizstrahler, die an einen geteilten Stromkreis gehängt werden, lösen ihn aus.
 
-**Falsche Spannung.** Die Leistung eines Heizstrahlers sinkt mit dem Quadrat der Spannung. Ein Gerät, das für eine höhere Spannung gebaut ist, „funktioniert“ an einer niedrigeren, fühlt sich aber nie richtig an; in den USA liefert ein für 240 V gebautes Gerät an 208 V nur etwa 75 % seiner Nennleistung. In Deutschland liegt das Netz bei 230 V, 50 Hz. Prüfen Sie, dass das bestellte Modell dafür ausgelegt ist [[VERIFY: voltage options per model — Mike Clifford]].
+**Falsche Spannung.** Die Leistung eines Heizstrahlers sinkt mit dem Quadrat der Spannung. Ein Gerät, das für eine höhere Spannung gebaut ist, „funktioniert“ an einer niedrigeren, fühlt sich aber nie richtig an; in den USA liefert ein für 240 V gebautes Gerät an 208 V nur etwa 75 % seiner Nennleistung. In Deutschland liegt das Netz bei 230 V, 50 Hz. Prüfen Sie, dass das bestellte Modell dafür ausgelegt ist [[VERIFY: voltage options per model — Produktteam]].
 
 Die Rechnung finden Sie in der [Checkliste zur Rohinstallation](item:BLD-IN-01) und unter [Heizstrahler je Stromkreis](item:BLD-IN-KB2).
 
@@ -103,7 +103,7 @@ Jeder Heizstrahler braucht seine Steuerung: ein Affinity Smart-Heat On/Off- oder
 
 ## Wie verhindern Bauunternehmen, dass die Lieferung zum sechsten Problem wird?
 
-Bestellen Sie Heizstrahler, Einbaurahmen und Steuerung zusammen, abgestimmt auf den Termin der Rohinstallation, nicht auf die Endmontage. Ein Einbaurahmen, der nach dem Beplanken der Decke ankommt, ist Fehler drei auf anderem Weg. Die Lieferzeiten kommen aus dem Programm für Bauunternehmen [[VERIFY: standard lead times by product and region — Arvin Avaness / Peter Abraham]].
+Bestellen Sie Heizstrahler, Einbaurahmen und Steuerung zusammen, abgestimmt auf den Termin der Rohinstallation, nicht auf die Endmontage. Ein Einbaurahmen, der nach dem Beplanken der Decke ankommt, ist Fehler drei auf anderem Weg. Die Lieferzeiten kommen aus dem Programm für Bauunternehmen [[VERIFY: standard lead times by product and region — Fachhandelsvertrieb / Vertriebssteuerung]].
 
 ## Checkliste für die Planung
 
@@ -130,7 +130,7 @@ Leichter Wind beeinflusst Strahlungswärme weniger als Warmluft, doch ein offene
 Meist ist der Stromkreis für eine Dauerlast zu knapp bemessen oder mit anderen Heizstrahlern geteilt. Lassen Sie jeden Stromkreis vom Elektrofachbetrieb für die Dauerlast des Geräts bemessen.
 
 ### Brauche ich für jeden Heizstrahler ein Steuergerät?
-Jeder Heizstrahler braucht eine Steuerung: ein Affinity Smart-Heat-Steuergerät und einen Wandschalter. Wie viele Heizstrahler ein Steuergerät betreiben kann, hängt vom Steuergerät und seiner Belastbarkeit ab [[VERIFY: heaters and maximum load per Affinity controller — Mike Clifford]].
+Jeder Heizstrahler braucht eine Steuerung: ein Affinity Smart-Heat-Steuergerät und einen Wandschalter. Wie viele Heizstrahler ein Steuergerät betreiben kann, hängt vom Steuergerät und seiner Belastbarkeit ab [[VERIFY: heaters and maximum load per Affinity controller — Produktteam]].
 
 Planen Sie die nächste Bestellung nach dem Termin der Rohinstallation. Fragen Sie Preise und Lieferzeiten für Bauunternehmen an.
 

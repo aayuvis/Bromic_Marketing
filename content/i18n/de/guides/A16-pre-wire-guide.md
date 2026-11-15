@@ -14,7 +14,7 @@ meta_description: "Leitfaden zur Rohinstallation von Terrassenheizstrahlern: Str
 cta: {label: "Planungsgespräch vereinbaren", asset: A07}
 hero: g-rough-in
 images: [l-010-076, l-005-022, l-010-074, t-012-034]
-owner_review: Arvin Avaness
+owner_review: Fachhandelsvertrieb
 status: draft
 gated: true
 related: [BLD-IN-01, BLD-CO-01, ARC-IN-01]
@@ -65,7 +65,7 @@ sources:
 lang: de
 translation_of: A16
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 
 # Vorverkabelung für Außenwärme
@@ -106,7 +106,7 @@ In einer US-Umfrage gab weniger als jeder vierte Hausbesitzer der Heizung in der
 | Platinum Smart-Heat Electric | 2300 / 3400 / 4500 W | Eigene(r) Stromkreis(e) zum Steuergerät; Abzweigdose am Heizstrahler | Eingelassen (Einbaurahmen), Decke oder Wand; Unterkonstruktion |
 | Eclipse Smart-Heat Electric | [[VERIFY: Leistung und Anschluss]] | Stromkreis zum Steuergerät; Deckendose an der Stange | Einzelstange 203, 610 oder 1.219 mm; Doppel- oder gebogene Stange; Unterkonstruktion für die Stange |
 | Eclipse Smart-Heat Freestanding Electric | [[VERIFY: Stecker oder Festanschluss; Bemessung der Steckdose]] | [[VERIFY: Anforderungen an die Außensteckdose]] | Keine; ebene Fläche |
-| Tungsten Smart-Heat Electric — Coastal / Select (demnächst erhältlich) | [[VERIFY: Leistungen]] | Wie Platinum, bis die Installationsanleitung vorliegt | Einbau mit geringem Abstand, Decke, Wand, Einzelmast |
+| Tungsten Smart-Heat Electric – Coastal / Select (demnächst erhältlich) | [[VERIFY: Leistungen]] | Wie Platinum, bis die Installationsanleitung vorliegt | Einbau mit geringem Abstand, Decke, Wand, Einzelmast |
 | Tungsten Gas (fest installiert), Platinum Gas | [[VERIFY: Nennwärmebelastung — den Wert für Tungsten fest installiert erst nach Bestätigung veröffentlichen]] | Gasanschlussstelle und Absperreinrichtung; [[VERIFY: eventuelle Stromversorgung für Zündung/Steuerung]] | Decke, Wand; Deckenstangen, Hitzeschilde |
 | Tungsten Smart-Heat Freestanding Gas | Ca. 11,1 kW; Erdgas oder Flüssiggas | Flüssiggas: keine. Erdgas: [[VERIFY: Anforderung an die Schnellanschlussdose]] | Keine |
 
@@ -116,7 +116,7 @@ Produktangaben: Bromic Lookbook 2026[^s2] und Planungsleitfaden 2021[^s3]. Bauen
 
 **Schritt 1. Strom je Heizstrahler.** I = W ÷ V, in Deutschland bei 230 V.
 
-**Schritt 2. Dauerlast.** Fest installierte elektrische Raumheizungen gelten als Dauerlast. In den USA verlangt NEC Artikel 424, dass die Leitungen dafür mit mindestens 125 % der Last bemessen werden, im Einklang mit den Regeln für Dauerlasten in 210.19(A)(1) und 210.20(A)[^s5][^s4]. In Deutschland bemisst der Elektrofachbetrieb nach DIN VDE 0100. [[VERIFY: aktuelle VDE-Regeln für die Bemessung von Stromkreisen für Heizstrahler im Freien — Raffaele Marti]]
+**Schritt 2. Dauerlast.** Fest installierte elektrische Raumheizungen gelten als Dauerlast. In den USA verlangt NEC Artikel 424, dass die Leitungen dafür mit mindestens 125 % der Last bemessen werden, im Einklang mit den Regeln für Dauerlasten in 210.19(A)(1) und 210.20(A)[^s5][^s4]. In Deutschland bemisst der Elektrofachbetrieb nach DIN VDE 0100. [[VERIFY: aktuelle VDE-Regeln für die Bemessung von Stromkreisen für Heizstrahler im Freien — Partner Deutschland]]
 
 **Schritt 3. Stromkreis und Schutzorgan.** Der Elektrofachbetrieb wählt Leitung und Überstromschutz anhand des Ergebnisses, der Installationsanleitung und der DIN VDE 0100.
 
@@ -133,7 +133,7 @@ Nennleistung geteilt durch Spannung. Ein Heizstrahler an einer niedrigeren Spann
 - Alle drei an einem Ausgang des Steuergeräts: 44,3 A – zu viel für einen üblichen Stromkreis, also aufteilen.
 - Verteilung: 10,2 kW zur Leistungsbilanz des Gebäudes addieren.
 
-[[VERIFY: (1) wie die Bromic Elektro-Heizstrahler nach DIN VDE 0100 einzuordnen sind (in den USA: NEC Art. 424 oder Art. 422); (2) die Absicherung und die maximale Zahl der Heizstrahler je Stromkreis laut Installationsanleitung; (3) die maximale Last je Kanal des Affinity Steuergeräts und ob es zwischen Schutzorgan und Heizstrahlern sitzt — Arvin Avaness + Elektrofachbetrieb]]
+[[VERIFY: (1) wie die Bromic Elektro-Heizstrahler nach DIN VDE 0100 einzuordnen sind (in den USA: NEC Art. 424 oder Art. 422); (2) die Absicherung und die maximale Zahl der Heizstrahler je Stromkreis laut Installationsanleitung; (3) die maximale Last je Kanal des Affinity Steuergeräts und ob es zwischen Schutzorgan und Heizstrahlern sitzt — Fachhandelsvertrieb + Elektrofachbetrieb]]
 
 [[DIAGRAM: Übersichtsschaltplan: Verteilung → eigene Schutzorgane → Affinity Steuergerät (ein Kanal je Zone) → Abzweigdosen an den Heizstrahlern; Wandschalter und WLAN eingezeichnet; Leitungsquerschnitte für den Elektriker frei gelassen.]]
 
@@ -141,7 +141,7 @@ Nennleistung geteilt durch Spannung. Ein Heizstrahler an einer niedrigeren Spann
 
 | Element | Position | Hinweis |
 |---|---|---|
-| Abzweigdose am Heizstrahler | An jeder Heizstrahler-Position, laut Anleitung | [[VERIFY: Dosentyp, Versatz zur Mittelachse des Heizstrahlers, ob im Einbaurahmen integriert — Mike Clifford]] |
+| Abzweigdose am Heizstrahler | An jeder Heizstrahler-Position, laut Anleitung | [[VERIFY: Dosentyp, Versatz zur Mittelachse des Heizstrahlers, ob im Einbaurahmen integriert — Produktteam]] |
 | Höhe bei Wandmontage | Heizstrahler ≥ 1,83 m über Oberkante Fertigfußboden | Hinweis von Bromic[^s3] |
 | Höhe bei Deckenmontage | Heizstrahler ≥ 2,44 m über Oberkante Fertigfußboden | Abstand zur Decke je nach Leistung[^s3] |
 | Unterkonstruktion | Tragfähige Auswechslung zwischen den Balken an jedem Heizstrahler, jeder Stange und Halterung | Für Gewicht von Heizstrahler und Stange bemessen [[VERIFY: Gewichte je Modell]] |
@@ -157,11 +157,11 @@ Mit Einbaurahmen werden Platinum und Tungsten Elektro-Heizstrahler bündig in de
 
 | Maß | Wert |
 |---|---|
-| Rohbauöffnung (L × B) | [[VERIFY Maße: je Modell und Größe — Mike Clifford]] |
-| Mindesttiefe des Hohlraums | [[VERIFY Maße: je Modell — Mike Clifford]] |
-| Abstand über dem Rahmen zu brennbaren Materialien | [[VERIFY Maße: laut Installationsanleitung — Mike Clifford]] |
-| Einbau mit geringem Abstand (Tungsten Coastal / Select, demnächst erhältlich) | [[VERIFY Maße — Mike Clifford]] |
-| Zulässige Stärke der Deckenbekleidung | [[VERIFY Maße — Mike Clifford]] |
+| Rohbauöffnung (L × B) | [[VERIFY Maße: je Modell und Größe — Produktteam]] |
+| Mindesttiefe des Hohlraums | [[VERIFY Maße: je Modell — Produktteam]] |
+| Abstand über dem Rahmen zu brennbaren Materialien | [[VERIFY Maße: laut Installationsanleitung — Produktteam]] |
+| Einbau mit geringem Abstand (Tungsten Coastal / Select, demnächst erhältlich) | [[VERIFY Maße — Produktteam]] |
+| Zulässige Stärke der Deckenbekleidung | [[VERIFY Maße — Produktteam]] |
 
 - Führen Sie Balken oder setzen Sie Wechsel, damit die Öffnung rechtwinklig und eben ist.
 - Halten Sie Dämmung, Dampfbremsen und andere Leitungen laut Anleitung vom Rahmen fern.
@@ -177,9 +177,9 @@ Die Steuerung ist Teil des Systems. Bereiten Sie sie zusammen mit den Stromkreis
 
 | Leitung | Von → nach | Hinweis |
 |---|---|---|
-| Netzspannung | Verteilung → Affinity Steuergerät → Heizstrahler | Ein Kanal des Steuergeräts je Zone [[VERIFY: Verdrahtungsschema des Steuergeräts — Mike Clifford]] |
-| Wandschalter | Steuergerät → Schalterdose an der Tür | [[VERIFY: Schaltleitung in Netz- oder Kleinspannung; Dosengröße — Mike Clifford]] |
-| Ort des Steuergeräts | Zugänglich, geschützt, in WLAN-Reichweite | [[VERIFY: Eignung für innen/außen und Montage — Mike Clifford]] |
+| Netzspannung | Verteilung → Affinity Steuergerät → Heizstrahler | Ein Kanal des Steuergeräts je Zone [[VERIFY: Verdrahtungsschema des Steuergeräts — Produktteam]] |
+| Wandschalter | Steuergerät → Schalterdose an der Tür | [[VERIFY: Schaltleitung in Netz- oder Kleinspannung; Dosengröße — Produktteam]] |
+| Ort des Steuergeräts | Zugänglich, geschützt, in WLAN-Reichweite | [[VERIFY: Eignung für innen/außen und Montage — Produktteam]] |
 | Integration | Steuergerät → Zentrale der Hausautomation | Control4, Crestron oder Lutron; Kompatibilität unterschiedlich, ggf. zusätzliche Hardware nötig[^s2] |
 | Reserve-Leerrohr | Heizzone → Ort des Steuergeräts | Ermöglicht spätere Zonen oder Integration, ohne fertige Oberflächen zu öffnen |
 
@@ -187,8 +187,8 @@ Legen Sie für jeden Heizstrahler die passende Steuerung fest: ein Affinity Smar
 
 ## Gasanschlüsse für Gasmodelle
 
-- **Nur durch einen Gasinstallateur.** Leitung nach DVGW-TRGI (Erdgas) bzw. TRF (Flüssiggas) und den örtlichen Vorgaben dimensionieren, verlegen und prüfen. In den USA gilt dafür ANSI Z223.1/NFPA 54[^s6]. [[VERIFY: aktuelle DVGW-Regeln für fest installierte Gasheizstrahler im Freien — Raffaele Marti]]
-- **Nach der angeschlossenen Last dimensionieren.** Gesamte Nennwärmebelastung aller Geräte an der Leitung, Leitungslänge und Versorgungsdruck. [[VERIFY: Nennwärmebelastung, Anschlussgröße und Druck für Platinum Gas und Tungsten Gas fest installiert — Mike Clifford]]
+- **Nur durch einen Gasinstallateur.** Leitung nach DVGW-TRGI (Erdgas) bzw. TRF (Flüssiggas) und den örtlichen Vorgaben dimensionieren, verlegen und prüfen. In den USA gilt dafür ANSI Z223.1/NFPA 54[^s6]. [[VERIFY: aktuelle DVGW-Regeln für fest installierte Gasheizstrahler im Freien — Partner Deutschland]]
+- **Nach der angeschlossenen Last dimensionieren.** Gesamte Nennwärmebelastung aller Geräte an der Leitung, Leitungslänge und Versorgungsdruck. [[VERIFY: Nennwärmebelastung, Anschlussgröße und Druck für Platinum Gas und Tungsten Gas fest installiert — Produktteam]]
 - **Herausführen und verschließen** an jeder Heizstrahler-Position; eine zugängliche Absperreinrichtung vorsehen.
 - **Vorkehrungen für die Montage:** Hitzeschilde verringern den nötigen Abstand über Gasheizstrahlern; an Deckenstangen lassen sich zwei Heizstrahler Rücken an Rücken montieren[^s3]. Berücksichtigen Sie beides in der Unterkonstruktion.
 - **Energieart bei der Bestellung:** Erdgas oder Flüssiggas, bestätigt, bevor der Heizstrahler bestellt wird.
@@ -202,7 +202,7 @@ Legen Sie für jeden Heizstrahler die passende Steuerung fest: ein Affinity Smar
 - [ ] Einbauöffnungen nach Anleitung hergestellt
 - [ ] Gasleitung druckgeprüft und verschlossen; Absperreinrichtungen zugänglich
 - [ ] Installationsanleitungen auf der Baustelle verfügbar
-- [ ] Abschluss: Heizstrahler mit den erforderlichen Prüfzeichen (in den USA Intertek, UL oder CSA)[^s3] [[VERIFY: welche Kennzeichnung für Deutschland nachzuweisen ist — Raffaele Marti]]; Abstände eingehalten; Steuerung funktioniert
+- [ ] Abschluss: Heizstrahler mit den erforderlichen Prüfzeichen (in den USA Intertek, UL oder CSA)[^s3] [[VERIFY: welche Kennzeichnung für Deutschland nachzuweisen ist — Partner Deutschland]]; Abstände eingehalten; Steuerung funktioniert
 
 *Dieser Leitfaden ist eine allgemeine Hilfe, keine technische oder rechtliche Festlegung. Klären Sie die Anforderungen mit dem örtlichen Bauamt. Elektroarbeiten durch einen Elektrofachbetrieb nach DIN VDE 0100 (in den USA nach NFPA 70[^s4]); Gasarbeiten durch einen Gasinstallateur nach DVGW-TRGI bzw. TRF (in den USA nach ANSI Z223.1/NFPA 54[^s6]); beides nach der Installationsanleitung des Herstellers.*
 

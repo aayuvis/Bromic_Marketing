@@ -15,8 +15,8 @@ meta_description: "Wat een buitenverwarmer topklasse maakt: verwarmd oppervlak, 
 cta: {label: "Bereken je ruimte", asset: A03}
 hero: w-eclispe-1
 images: [w-bromic-tungsten-electric-patio-heater]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -120,7 +120,7 @@ Omdat een verwarmer die je niet kunt regelen, uit blijft. Affinity Dimmer-regela
 
 ## Wie beoordeelt Bromic?
 
-Bromic-verwarmers staan op de lijst van best beoordeelde terrasverwarmers van de Amerikaanse retailer BBQGuys, in de categorieën zakelijk, elektrisch en gas.[^s1][^s7] [[VERIFY: de BBQGuys-lijst, de categorieën en plaatsingen, en de datum — Megan Spies]] Een lijst is een beginpunt. Het specificatieblad, en een verwarmer die op je ruimte is afgestemd, bepalen of hij voor jou werkt.
+Bromic-verwarmers staan op de lijst van best beoordeelde terrasverwarmers van de Amerikaanse retailer BBQGuys, in de categorieën zakelijk, elektrisch en gas.[^s1][^s7] [[VERIFY: de BBQGuys-lijst, de categorieën en plaatsingen, en de datum — marketing]] Een lijst is een beginpunt. Het specificatieblad, en een verwarmer die op je ruimte is afgestemd, bepalen of hij voor jou werkt.
 
 ## Veelgestelde vragen
 

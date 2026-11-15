@@ -16,7 +16,7 @@
     "AW",
     "CO"
    ],
-   "owner": "Megan Spies",
+   "owner": "Marketing",
    "gated": true,
    "provenance": "known"
   },
@@ -35,7 +35,7 @@
     "CO",
     "IN"
    ],
-   "owner": "Mike Clifford + 454 Creative",
+   "owner": "Product team + 454 Creative",
    "gated": true,
    "provenance": "known"
   },
@@ -51,7 +51,7 @@
    "stages": [
     "CO"
    ],
-   "owner": "Brian Kim + 454 Creative",
+   "owner": "Digital marketing + 454 Creative",
    "gated": true,
    "provenance": "known"
   },
@@ -84,7 +84,7 @@
    "stages": [
     "AW"
    ],
-   "owner": "Megan Spies",
+   "owner": "Marketing",
    "gated": false,
    "provenance": "proposed"
   },
@@ -102,7 +102,7 @@
     "CO",
     "IN"
    ],
-   "owner": "Brian Kim",
+   "owner": "Digital marketing",
    "gated": false,
    "provenance": "proposed"
   },
@@ -121,7 +121,7 @@
     "PP",
     "BY"
    ],
-   "owner": "Shaughn Ritchie + Brian Kim",
+   "owner": "Specification and compliance + Digital marketing",
    "gated": true,
    "provenance": "known"
   },
@@ -187,7 +187,7 @@
    "stages": [
     "IN"
    ],
-   "owner": "Shaughn Ritchie + Mike Clifford",
+   "owner": "Specification and compliance + Product team",
    "gated": true,
    "provenance": "known"
   },
@@ -204,7 +204,7 @@
    "stages": [
     "PP"
    ],
-   "owner": "Shaughn Ritchie",
+   "owner": "Specification and compliance",
    "gated": true,
    "provenance": "known"
   },
@@ -253,7 +253,7 @@
     "AW",
     "CO"
    ],
-   "owner": "Arvin Avaness",
+   "owner": "Trade sales",
    "gated": true,
    "provenance": "known"
   },
@@ -269,7 +269,7 @@
    "stages": [
     "IN"
    ],
-   "owner": "Arvin Avaness",
+   "owner": "Trade sales",
    "gated": true,
    "provenance": "known"
   },
@@ -301,7 +301,7 @@
    "stages": [
     "PP"
    ],
-   "owner": "Arvin Avaness / Peter Abraham",
+   "owner": "Trade sales / Sales operations",
    "gated": true,
    "provenance": "known-ref"
   },
@@ -333,7 +333,7 @@
    "stages": [
     "CO"
    ],
-   "owner": "Blake Petty + Brian Kim",
+   "owner": "Hospitality sales + Digital marketing",
    "gated": true,
    "provenance": "known"
   },
@@ -350,7 +350,7 @@
     "AW",
     "IN"
    ],
-   "owner": "Blake Petty + Brian Kim",
+   "owner": "Hospitality sales + Digital marketing",
    "gated": true,
    "provenance": "known"
   },
@@ -367,7 +367,7 @@
    "stages": [
     "PP"
    ],
-   "owner": "Shaughn Ritchie",
+   "owner": "Specification and compliance",
    "gated": true,
    "provenance": "known-ref"
   },
@@ -383,7 +383,7 @@
    "stages": [
     "BY"
    ],
-   "owner": "Blake Petty",
+   "owner": "Hospitality sales",
    "gated": false,
    "provenance": "proposed"
   },
@@ -406,7 +406,7 @@
     "PP",
     "BY"
    ],
-   "owner": "Megan Spies (editorial)",
+   "owner": "Marketing (editorial)",
    "gated": false,
    "provenance": "known"
   },
@@ -423,7 +423,7 @@
     "CO",
     "IN"
    ],
-   "owner": "Karl Tschauner",
+   "owner": "US field sales",
    "gated": true,
    "provenance": "owner request, 12 Nov 2026"
   }

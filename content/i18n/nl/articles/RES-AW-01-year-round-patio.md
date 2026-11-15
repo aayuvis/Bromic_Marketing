@@ -14,7 +14,7 @@ meta_description: "Je terras gebruiken als het koud is: houd de wind tegen, zorg
 cta: {label: "Download het rapport Outdoor Living Trends 2026", asset: A01}
 hero: l-013-099
 images: [l-007-037, l-016-135]
-owner_review: Megan Spies
+owner_review: marketing
 status: draft
 gated: false
 related: [RES-CO-01, RES-PP-01, RES-CO-KB1, BLD-AW-01]
@@ -64,7 +64,7 @@ Wil je je terras gebruiken als het koud is, doe dan drie dingen: houd de wind te
 
 ## Waarom staan zoveel terrassen 's avonds leeg?
 
-Omdat het terras wel is aangelegd en de warmte niet. In de VS krijgen de meeste nieuwe woningen er een: 60,5% van de vrijstaande woningen waarvan de bouw in 2025 begon, kreeg een terras, en het gemiddelde terras bij een nieuwe woning is ongeveer 30 m².[^s1][^s2] Toch zei in het eigen onderzoek van Bromic onder Amerikaanse huiseigenaren 94% dat hun buitenruimte meer gebruikt zou kunnen worden, en nam minder dan een op de vier (23%) verwarming vanaf het begin in het plan op.[^s3] [[VERIFY: aantal respondenten, veldwerkdata en vraagstelling voor de cijfers van 94% en 23% — Megan Spies]]
+Omdat het terras wel is aangelegd en de warmte niet. In de VS krijgen de meeste nieuwe woningen er een: 60,5% van de vrijstaande woningen waarvan de bouw in 2025 begon, kreeg een terras, en het gemiddelde terras bij een nieuwe woning is ongeveer 30 m².[^s1][^s2] Toch zei in het eigen onderzoek van Bromic onder Amerikaanse huiseigenaren 94% dat hun buitenruimte meer gebruikt zou kunnen worden, en nam minder dan een op de vier (23%) verwarming vanaf het begin in het plan op.[^s3] [[VERIFY: aantal respondenten, veldwerkdata en vraagstelling voor de cijfers van 94% en 23% — marketing]]
 
 Het resultaat ken je wel. Bij zonsondergang verhuist het diner naar binnen. De loungeset wordt in juli gebruikt en gaat in oktober onder de hoes. De oplossing is niet meer meubilair; het is comfort dat blijft als de temperatuur daalt.
 
@@ -97,7 +97,7 @@ Begin bij hoe de ruimte is gebouwd.
 - **Een open eetterras.** De Eclipse Smart-Heat Electric pendel: warmte en dimbare randverlichting in één, ca. 11 m², met vermogensstappen van 33/66/100%.[^s5]
 - **Een vlonder of gazon dat je steeds anders inricht.** Eclipse Smart-Heat Freestanding Electric (ca. 11 m², wielen, verzwaarde voet) of Tungsten Smart-Heat Freestanding Gas (ca. 20 m², ongeveer 11,1 kW, aardgas of propaan, kantelbare kop, ontwerp tegen omvallen).[^s5]
 
-Elk ingebouwd systeem heeft zijn bediening nodig om als geheel te werken: een Affinity Smart-Heat On/Off-, Dimmer- of Eclipse-regelaar, of een handmatige wandschakelaar. Schema's in de app, zones en spraakbediening via Amazon Alexa of Google Assistant vragen om compatibele Affinity Smart-Heat Controls, die apart worden verkocht.[^s5] Vrijstaande verwarmers bedien je volgens de handleiding van het product [[VERIFY: bediening van Eclipse Freestanding en Tungsten Freestanding Gas — Mike Clifford]].
+Elk ingebouwd systeem heeft zijn bediening nodig om als geheel te werken: een Affinity Smart-Heat On/Off-, Dimmer- of Eclipse-regelaar, of een handmatige wandschakelaar. Schema's in de app, zones en spraakbediening via Amazon Alexa of Google Assistant vragen om compatibele Affinity Smart-Heat Controls, die apart worden verkocht.[^s5] Vrijstaande verwarmers bedien je volgens de handleiding van het product [[VERIFY: bediening van Eclipse Freestanding en Tungsten Freestanding Gas — productteam]].
 
 ![Eclipse vrijstaande verwarmer naast het terras van een boshuisje](img:l-016-135)
 

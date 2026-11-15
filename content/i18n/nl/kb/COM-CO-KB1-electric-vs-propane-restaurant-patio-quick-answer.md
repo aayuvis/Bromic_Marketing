@@ -17,7 +17,7 @@ ai_prompt: "Elektrische of propaanterrasverwarmers voor een restaurant?"
 meta_description: "Elektrische of propaanterrasverwarmers voor de horeca: gebruikskosten per uur, het wisselen van flessen en de regels, met de formules om met uw eigen tarieven door te rekenen."
 cta: {label: "Gebruik het kostenmodel over vijf jaar", asset: A20}
 hero: l-005-024
-owner_review: Blake Petty
+owner_review: verkoop horeca
 status: draft
 gated: false
 related: [COM-CO-01, COM-PP-KB1]
@@ -50,7 +50,7 @@ Voor de meeste horecazaken: elektrisch. Een vrijstaande propaanverwarmer bedient
 
 ## De cijfers
 
-Formules: elektrisch = kW × uw prijs per kWh; propaan = vermogen in kW ÷ ongeveer 7,1 kWh per liter × uw prijs per liter. Wij rekenen niet met Nederlandse prijzen. De bedragen hieronder zijn een Amerikaans voorbeeld met Amerikaanse tarieven: 14,07 dollarcent per kWh zakelijke elektriciteit, Amerikaans gemiddelde januari–mei 2026;[^s1] $ 2,46 per gallon propaan, de winterprognose voor huishoudens 2025–26 van de EIA.[^s2] [[VERIFY: tarieven 2026 en een prijs per afgeleverde fles — Brian Kim/Finance]] [[VERIFY: Nederlandse tarieven voor zakelijke elektriciteit en propaan in flessen — Bromic Benelux distributor]]
+Formules: elektrisch = kW × uw prijs per kWh; propaan = vermogen in kW ÷ ongeveer 7,1 kWh per liter × uw prijs per liter. Wij rekenen niet met Nederlandse prijzen. De bedragen hieronder zijn een Amerikaans voorbeeld met Amerikaanse tarieven: 14,07 dollarcent per kWh zakelijke elektriciteit, Amerikaans gemiddelde januari–mei 2026;[^s1] $ 2,46 per gallon propaan, de winterprognose voor huishoudens 2025–26 van de EIA.[^s2] [[VERIFY: tarieven 2026 en een prijs per afgeleverde fles — financiën]] [[VERIFY: Nederlandse tarieven voor zakelijke elektriciteit en propaan in flessen — Bromic Benelux distributor]]
 
 | | Elektrisch: Platinum 4500W | Propaan: Tungsten Freestanding Gas 11,1 kW |
 |---|---|---|
@@ -68,11 +68,11 @@ In het Amerikaanse voorbeeld betekent die hoeveelheid propaan, in flessen met 17
 
 - **Overdekt terras, muur of overstek:** Platinum Smart-Heat Electric met een Affinity Smart-Heat On/Off- of Dimmer-regelaar en een wandschakelaar.
 - **Open opstelling, stroom in de buurt:** Eclipse Smart-Heat Freestanding Electric met de Eclipse-regelaar.
-- **Geen stroom, flexibele opstelling, propaan toegestaan:** Tungsten Smart-Heat Freestanding Gas. [[VERIFY: Affinity-bediening voor de vrijstaande Tungsten-gasverwarmer — Mike Clifford]]
+- **Geen stroom, flexibele opstelling, propaan toegestaan:** Tungsten Smart-Heat Freestanding Gas. [[VERIFY: Affinity-bediening voor de vrijstaande Tungsten-gasverwarmer — productteam]]
 
 Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht.[^s3] Voor aardgas en een blik over vijf jaar, zie [de volledige vergelijking](item:COM-CO-01).
 
-Vul uw eigen tarieven in — gebruik het kostenmodel over vijf jaar.
+Vul uw eigen tarieven in – gebruik het kostenmodel over vijf jaar.
 
 [^s1]: U.S. EIA, Monthly Energy Review, jan.–mei 2026.
 [^s2]: U.S. EIA, Winter Fuels Outlook 2025–26.

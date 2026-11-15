@@ -13,7 +13,7 @@ ai_prompt: "Brauchen elektrische Heizstrahler im Außenbereich einen FI-Schutzsc
 meta_description: "Fehlerstromschutz für elektrische Terrassenheizstrahler: was in Deutschland nach DIN VDE 0100 zu klären ist, und was die US-Regel NEC 210.8(F) zum Vergleich verlangt."
 cta: {label: "Die Installationsleitfäden herunterladen", asset: A17}
 hero: l-010-066
-owner_review: Arvin Avaness
+owner_review: Fachhandelsvertrieb
 status: draft
 gated: false
 related: [BLD-BY-01, BLD-IN-01]
@@ -50,13 +50,13 @@ sources:
 lang: de
 translation_of: BLD-BY-KB1
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
-In der Regel ja. In Deutschland sind Außenstromkreise nach DIN VDE 0100 zu errichten, und ein Fehlerstromschutzschalter (RCD, umgangssprachlich FI-Schutzschalter) ist für viele Stromkreise im Außenbereich vorgesehen [[VERIFY: welche Teile der DIN VDE 0100 (z. B. 0100-410, 0100-737) einen RCD für fest angeschlossene Heizstrahler im Außenbereich verlangen, mit Bemessungsfehlerstrom — Raffaele Marti]]. Ob ein fest angeschlossener Heizstrahler darunter fällt, entscheidet der Elektrofachbetrieb anhand der aktuellen Norm und der Installationsanleitung. Klären Sie das vor der Vorverkabelung.
+In der Regel ja. In Deutschland sind Außenstromkreise nach DIN VDE 0100 zu errichten, und ein Fehlerstromschutzschalter (RCD, umgangssprachlich FI-Schutzschalter) ist für viele Stromkreise im Außenbereich vorgesehen [[VERIFY: welche Teile der DIN VDE 0100 (z. B. 0100-410, 0100-737) einen RCD für fest angeschlossene Heizstrahler im Außenbereich verlangen, mit Bemessungsfehlerstrom — Partner Deutschland]]. Ob ein fest angeschlossener Heizstrahler darunter fällt, entscheidet der Elektrofachbetrieb anhand der aktuellen Norm und der Installationsanleitung. Klären Sie das vor der Vorverkabelung.
 
 Zum Vergleich die Regel in den USA, auf die sich die US-Ausgabe dieses Artikels stützt: Der National Electrical Code (NEC) verlangt dort einen Fehlerstromschutz (GFCI) für Außenanschlüsse an Wohngebäuden bei einphasigen Stromkreisen mit höchstens 150 V gegen Erde, in der Ausgabe 2023 bis 50 A[^s1] und in der Ausgabe 2026 bis 60 A[^s2].
 
-*Stimmen Sie die Installation mit Ihrem örtlichen Bauamt, einem Elektrofachbetrieb und der Installationsanleitung des Produkts ab.* [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Raffaele Marti]]
+*Stimmen Sie die Installation mit Ihrem örtlichen Bauamt, einem Elektrofachbetrieb und der Installationsanleitung des Produkts ab.* [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Partner Deutschland]]
 
 ## Was regelt die US-Vorschrift?
 
@@ -69,7 +69,7 @@ Die Ausgabe 2026 erschien im August 2025, doch jeder US-Bundesstaat und jede Sta
 
 ## Warum ist ein fest angeschlossener Heizstrahler eine Grauzone?
 
-Die US-Regel spricht von „Anschlüssen“ (outlets). Manche US-Behörden werten einen festen Anschlusspunkt als solchen, andere nicht. In Deutschland stellt sich die Frage anders, weil die DIN VDE 0100 nach Art des Stromkreises und des Betriebsmittels unterscheidet. Planen Sie einen Fehlerstromschutz ein, solange der Elektrofachbetrieb nicht schriftlich etwas anderes festlegt. Prüfen Sie dann die Installationsanleitung, die eigene Anforderungen stellen kann [[VERIFY: Anforderung an GFCI/RCD in der Bromic-Installationsanleitung — Mike Clifford]].
+Die US-Regel spricht von „Anschlüssen“ (outlets). Manche US-Behörden werten einen festen Anschlusspunkt als solchen, andere nicht. In Deutschland stellt sich die Frage anders, weil die DIN VDE 0100 nach Art des Stromkreises und des Betriebsmittels unterscheidet. Planen Sie einen Fehlerstromschutz ein, solange der Elektrofachbetrieb nicht schriftlich etwas anderes festlegt. Prüfen Sie dann die Installationsanleitung, die eigene Anforderungen stellen kann [[VERIFY: Anforderung an GFCI/RCD in der Bromic-Installationsanleitung — Produktteam]].
 
 ## Wie wird der Fehlerstromschutz bei einem Heizstrahlerstromkreis umgesetzt?
 

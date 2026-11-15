@@ -23,7 +23,7 @@ related: [CS-TEMPLATE, CS-CANDIDATES]
 updated: 2026-11-12
 sources:
   - id: s1
-    publisher: "LinkedIn (Karl Tschauner, Bromic Heating)"
+    publisher: "LinkedIn (US field sales, Bromic Heating)"
     title: "Social source (search snippet only)"
     url: https://www.linkedin.com/in/karltschauner/
     verified: false

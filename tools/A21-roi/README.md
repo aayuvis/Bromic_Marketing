@@ -54,7 +54,7 @@ $/kWh) is added because the article's 15.5 months depends on it. Set heaters to 
 ## Every default is an assumption
 
 All revenue defaults and the installed cost are the article's illustrative inputs, **not benchmarks**:
-`[[VERIFY: benchmarks — Blake Petty]]`. The installed cost is also tagged "Placeholder" on the page: it is not a Bromic price.
+`[[VERIFY: benchmarks — Hospitality sales]]`. The installed cost is also tagged "Placeholder" on the page: it is not a Bromic price.
 The page says so above the inputs, and the report lists every assumption with its status.
 
 ## Controls
@@ -68,15 +68,15 @@ separately. Shown in the teaser and the report; the installed-cost hint says to 
 | Config path | Value | Unit | Source | Owner | Status |
 |---|---|---|---|---|---|
 | `cta.href` | "#A22-permit-checklist" | url | Next-stage asset per data/journey-matrix.json (COM-IN → COM-PP, A22 permit & fire-code checklist). Placeholder anchor until the A22 page has a URL | 454 Creative | [[VERIFY: live URL of the A22 permit and fire-code checklist — 454 Creative]] |
-| `revenue.heated_seats` | 40 | seats inside heated coverage | COM-IN-01 worked example (illustrative input, not a benchmark) | Blake Petty | [[VERIFY: benchmarks — Blake Petty]] |
-| `revenue.average_check` | 45 | $ revenue per guest | COM-IN-01 worked example (illustrative input, not a benchmark) | Blake Petty | [[VERIFY: benchmarks — Blake Petty]] |
-| `revenue.turns_per_night` | 1.5 | seatings per seat per evening | COM-IN-01 worked example (illustrative input, not a benchmark) | Blake Petty | [[VERIFY: benchmarks — Blake Petty]] |
-| `revenue.extra_nights` | 60 | nights a year the patio opens that it would not unheated | COM-IN-01 worked example (illustrative input, not a benchmark) | Blake Petty | [[VERIFY: benchmarks — Blake Petty]] |
-| `revenue.capture_pct` | 50 | % of heated seats filled on those nights | COM-IN-01 worked example (illustrative input, not a benchmark); the article advises starting low | Blake Petty | [[VERIFY: benchmarks — Blake Petty]] |
-| `revenue.margin_pct` | 30 | % contribution (gross) margin: revenue left after food, drink and variable labour | COM-IN-01 worked example (illustrative input, not a benchmark). This is the basis that gives the article's 15.5-month payback | Blake Petty | [[VERIFY: benchmarks — Blake Petty]] |
-| `running.heaters` | 6 | heaters | COM-IN-01 worked example (illustrative input) | Blake Petty | [[VERIFY: benchmarks — Blake Petty]] |
-| `running.kw_per_heater` | 4.5 | kW per heater | Lookbook 2026 p.21 (Platinum Smart-Heat Electric 4500W); data/product-facts.json | Mike Clifford | [[VERIFY: sign-off of product-facts.json — Mike Clifford]] |
-| `running.hours_per_night` | 5 | heated hours per extra night | COM-IN-01 worked example (illustrative input) | Blake Petty | [[VERIFY: benchmarks — Blake Petty]] |
-| `running.price_kwh` | 0.1407 | $/kWh | EIA Monthly Energy Review: US commercial average retail electricity price, Jan–May 2026, 14.07¢/kWh (COM-IN-01 source s2). https://www.eia.gov/totalenergy/data/monthly/ | Brian Kim | [[VERIFY: 2026 commercial $/kWh; A20 uses 13.54¢ (May 2026) — align the two — Brian Kim/Finance]] |
-| `investment.installed_cost` | 30000 | $ installed: heaters, Affinity controls, wiring, permits | PLACEHOLDER from the COM-IN-01 worked example, not a Bromic price or quote | Blake Petty | [[VERIFY: benchmarks — Blake Petty]] |
-| `sensitivity.capture_pcts` | [25,50,75] | % capture rates shown in the sensitivity table | COM-IN-01 sensitivity table | Blake Petty | verified |
+| `revenue.heated_seats` | 40 | seats inside heated coverage | COM-IN-01 worked example (illustrative input, not a benchmark) | Hospitality sales | [[VERIFY: benchmarks — Hospitality sales]] |
+| `revenue.average_check` | 45 | $ revenue per guest | COM-IN-01 worked example (illustrative input, not a benchmark) | Hospitality sales | [[VERIFY: benchmarks — Hospitality sales]] |
+| `revenue.turns_per_night` | 1.5 | seatings per seat per evening | COM-IN-01 worked example (illustrative input, not a benchmark) | Hospitality sales | [[VERIFY: benchmarks — Hospitality sales]] |
+| `revenue.extra_nights` | 60 | nights a year the patio opens that it would not unheated | COM-IN-01 worked example (illustrative input, not a benchmark) | Hospitality sales | [[VERIFY: benchmarks — Hospitality sales]] |
+| `revenue.capture_pct` | 50 | % of heated seats filled on those nights | COM-IN-01 worked example (illustrative input, not a benchmark); the article advises starting low | Hospitality sales | [[VERIFY: benchmarks — Hospitality sales]] |
+| `revenue.margin_pct` | 30 | % contribution (gross) margin: revenue left after food, drink and variable labour | COM-IN-01 worked example (illustrative input, not a benchmark). This is the basis that gives the article's 15.5-month payback | Hospitality sales | [[VERIFY: benchmarks — Hospitality sales]] |
+| `running.heaters` | 6 | heaters | COM-IN-01 worked example (illustrative input) | Hospitality sales | [[VERIFY: benchmarks — Hospitality sales]] |
+| `running.kw_per_heater` | 4.5 | kW per heater | Lookbook 2026 p.21 (Platinum Smart-Heat Electric 4500W); data/product-facts.json | Product team | [[VERIFY: sign-off of product-facts.json — Product team]] |
+| `running.hours_per_night` | 5 | heated hours per extra night | COM-IN-01 worked example (illustrative input) | Hospitality sales | [[VERIFY: benchmarks — Hospitality sales]] |
+| `running.price_kwh` | 0.1407 | $/kWh | EIA Monthly Energy Review: US commercial average retail electricity price, Jan–May 2026, 14.07¢/kWh (COM-IN-01 source s2). https://www.eia.gov/totalenergy/data/monthly/ | Digital marketing | [[VERIFY: 2026 commercial $/kWh; A20 uses 13.54¢ (May 2026) — align the two — Finance]] |
+| `investment.installed_cost` | 30000 | $ installed: heaters, Affinity controls, wiring, permits | PLACEHOLDER from the COM-IN-01 worked example, not a Bromic price or quote | Hospitality sales | [[VERIFY: benchmarks — Hospitality sales]] |
+| `sensitivity.capture_pcts` | [25,50,75] | % capture rates shown in the sensitivity table | COM-IN-01 sensitivity table | Hospitality sales | verified |

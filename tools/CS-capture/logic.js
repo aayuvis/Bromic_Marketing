@@ -9,8 +9,8 @@ export const APPROVALS = [
   { id: 'consent_credits', label: 'Architect, designer, builder and installer agree to be credited (names and spelling)', gate: 'draft' },
   { id: 'privacy', label: 'Residential: nothing locates the home without the owner’s consent (not needed for commercial)', gate: 'draft' },
   { id: 'regional_lead', label: 'Regional lead checked the facts', gate: 'publish' },
-  { id: 'product_controls', label: 'Mike Clifford checked products, mounting and controls', gate: 'publish' },
-  { id: 'brand', label: 'Megan Spies approved brand and consent file', gate: 'publish' },
+  { id: 'product_controls', label: 'Product team checked products, mounting and controls', gate: 'publish' },
+  { id: 'brand', label: 'Marketing approved brand and consent file', gate: 'publish' },
   { id: 'final_customer', label: 'Customer approved the final draft (saved with the source files)', gate: 'publish' },
 ];
 
@@ -103,7 +103,7 @@ export function toMarkdown(c, tax) {
   const aud = [...new Set(t.segment.flatMap((s) => (tax?.groups.segment.tags.find((x) => x.id === s)?.audience) || []))];
   let md = `---\nid: CS-${slug(c.project.name).toUpperCase().slice(0, 24)}\ntype: case-study\ntitle: "${(c.project.name || '').replace(/"/g, "'")}${c.project.city ? ', ' + c.project.city.replace(/"/g, "'") : ''}"\n`;
   md += `slug: ${slug(c.project.name)}\naudience: [${aud.join(', ') || 'COM'}]\nstage: [IN, PP]\nasset: A10\ncta: {label: "Book a design consult", asset: A07}\n`;
-  md += `owner_review: Megan Spies\nstatus: draft\ncapture_status: ${st.id}\ntags: ${JSON.stringify(t)}\n---\n\n`;
+  md += `owner_review: Marketing\nstatus: draft\ncapture_status: ${st.id}\ntags: ${JSON.stringify(t)}\n---\n\n`;
   md += `> Capture status: **${st.label}**.${st.todo.length ? ' Still open: ' + st.todo.join('; ') + '.' : ''} Draft only from approved facts.\n\n`;
   md += `## At a glance\n\n| | |\n|---|---|\n`;
   md += line('Project', c.project.name) + line('Location', [c.project.city, c.project.market].filter(Boolean).join(', ')) + line('Segment', t.segment.map((s) => name('segment', s)).join(', '));

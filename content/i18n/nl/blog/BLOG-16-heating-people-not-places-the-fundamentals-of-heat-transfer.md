@@ -14,8 +14,8 @@ ai_prompt: "Waarom is stralingswarmte buiten beter dan convectiewarmte?"
 meta_description: "Convectie werkt buiten niet omdat warme lucht wegtrekt; stralingswarmte bereikt mensen direct. Korte, middellange en lange golf vergeleken, met de ontwerpregels."
 cta: {label: "Download de Planning Guide (editie voor professionals)", asset: A02}
 hero: w-smoque-n-bones-tungsten-electric-1
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -102,7 +102,7 @@ De golflengte volgt de temperatuur van het element. Hoe heter het element, hoe k
 
 Bron: Bromic Planning Guide v1.2, heat-wave mapping[^s2]. Dit zijn de cijfers achter de bandbreedte van "60 tot 90%" die de eerdere versie van dit artikel zonder bron noemde: 60% is middellange golf, 90% korte golf.
 
-De gids deelt ze in naar toepassing. Directe warmte, een mix van korte en middellange golf, geeft het hoogste rendement. Indirecte warmte, middellange en lange golf, warmt langzamer op en is gevoeliger voor wind[^s1]. De golflengte per model staat in de gids voor voorschrijvers, [stralingswarmte buiten: korte, middellange en lange golf](item:ARC-CO-01). [[VERIFY: wavelength band of each current Bromic model — Mike Clifford]]
+De gids deelt ze in naar toepassing. Directe warmte, een mix van korte en middellange golf, geeft het hoogste rendement. Indirecte warmte, middellange en lange golf, warmt langzamer op en is gevoeliger voor wind[^s1]. De golflengte per model staat in de gids voor voorschrijvers, [stralingswarmte buiten: korte, middellange en lange golf](item:ARC-CO-01). [[VERIFY: wavelength band of each current Bromic model — productteam]]
 
 ## Wat volgt daaruit voor het ontwerp?
 
@@ -122,7 +122,7 @@ De gids deelt ze in naar toepassing. Directe warmte, een mix van korte en middel
 | Tungsten Smart-Heat Electric | 6–15 m²[^s6] | Wand, plafond, stang, verzonken | Affinity On/Off- of Dimmer-regelaar, handbediende wandschakelaar; twee elementen bij 4000 en 6000 W[^s6] |
 | Eclipse Smart-Heat Electric | 11 m²[^s4] | Enkele, dubbele of gebogen stang | Affinity Eclipse-regelaar of Eclipse Dimmer, handbediende wandschakelaar |
 
-Wifi, tijdschema's in de app en zones vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht[^s4]. [[VERIFY: product-page values read from bromic.com; confirm against 2026 cut sheets — Mike Clifford]] Vergelijk de elektrische en gasverwarmers op [bromic.nl](https://www.bromic.nl/), of stuur je plannen naar het team van [Design Your Space](https://www.bromic.nl/) voor tekeningen met het verwarmd oppervlak.
+Wifi, tijdschema's in de app en zones vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht[^s4]. [[VERIFY: product-page values read from bromic.com; confirm against 2026 cut sheets — productteam]] Vergelijk de elektrische en gasverwarmers op [bromic.nl](https://www.bromic.nl/), of stuur je plannen naar het team van [Design Your Space](https://www.bromic.nl/) voor tekeningen met het verwarmd oppervlak.
 
 ## Veelgestelde vragen
 

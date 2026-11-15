@@ -14,7 +14,7 @@ ai_prompt: "Are propane patio heaters allowed in NYC?"
 meta_description: "NYC revoked permission for propane heaters in outdoor dining from June 1, 2021. What that means for restaurants, and what electric and gas heaters need."
 cta: {label: "Download the permit and fire-code checklist", asset: A22}
 hero: l-013-107
-owner_review: Shaughn Ritchie
+owner_review: Specification and compliance
 status: draft
 gated: false
 related: [COM-PP-01, COM-CO-KB1]
@@ -43,7 +43,7 @@ sources:
     verified: true
 ---
 
-As of the latest primary sources we could find, no — not for outdoor dining. New York City revoked permission to use propane-fuelled heaters in outdoor dining areas from June 1, 2021, and required the cylinders used for outdoor heating to be removed.[^s1] Electric radiant heaters remain the straightforward option. [[VERIFY: confirm no later order or Fire Code change has reinstated propane heaters — Shaughn Ritchie]]
+As of the latest primary sources we could find, no – not for outdoor dining. New York City revoked permission to use propane-fuelled heaters in outdoor dining areas from June 1, 2021, and required the cylinders used for outdoor heating to be removed.[^s1] Electric radiant heaters remain the straightforward option. [[VERIFY: confirm no later order or Fire Code change has reinstated propane heaters — Specification and compliance]]
 
 > **Disclaimer.** Planning information only, not legal advice. Confirm with FDNY and the NYC Department of Buildings, and use a licensed electrician or licensed master plumber.
 
@@ -51,15 +51,15 @@ As of the latest primary sources we could find, no — not for outdoor dining. N
 
 | Heater | Status for outdoor dining | What it needs |
 |---|---|---|
-| Propane (portable) | Permission revoked from June 1, 2021[^s1] | — |
+| Propane (portable) | Permission revoked from June 1, 2021[^s1] | – |
 | Electric radiant | Allowed, subject to code | Compliance with the NYC Electrical Code; licensed electrician[^s2] |
-| Natural gas | Possible in some settings | Gas work filed with DOB by a licensed master plumber[^s2] [[VERIFY: where natural gas heaters are allowed (sidewalk vs roadway cafés) — Shaughn Ritchie]] |
+| Natural gas | Possible in some settings | Gas work filed with DOB by a licensed master plumber[^s2] [[VERIFY: where natural gas heaters are allowed (sidewalk vs roadway cafés) — Specification and compliance]] |
 
 Propane delivery is also controlled: the Fire Code bars delivering permit-level quantities to a site without an FDNY permit.[^s3]
 
 ## Which Bromic heaters suit a NYC patio?
 
-Electric. Platinum Smart-Heat Electric (2300, 3400 or 4500W, about 65–143 ft²) mounts on a wall, soffit or awning frame, with an Affinity Smart-Heat On/Off or Dimmer controller and a wall switch. Eclipse Smart-Heat Electric (about 121 ft²) adds heat and light on a pole, with the Eclipse controller. Wi-Fi and app features — zones, schedules, timers — require compatible Affinity Smart-Heat Controls, sold separately.
+Electric. Platinum Smart-Heat Electric (2300, 3400 or 4500W, about 65–143 ft²) mounts on a wall, soffit or awning frame, with an Affinity Smart-Heat On/Off or Dimmer controller and a wall switch. Eclipse Smart-Heat Electric (about 121 ft²) adds heat and light on a pole, with the Eclipse controller. Wi-Fi and app features – zones, schedules, timers – require compatible Affinity Smart-Heat Controls, sold separately.
 
 ## Checklist
 
@@ -68,7 +68,7 @@ Electric. Platinum Smart-Heat Electric (2300, 3400 or 4500W, about 65–143 ft²
 - Keep listings and spec sheets for the filing.
 - See [the full permit and fire-code checklist](item:COM-PP-01).
 
-Take it to your filing — download the permit and fire-code checklist.
+Take it to your filing – download the permit and fire-code checklist.
 
 [^s1]: City of New York, Emergency Executive Order No. 200, 2021.
 [^s2]: NYC Department of Buildings, Buildings Bulletin 2024-005.

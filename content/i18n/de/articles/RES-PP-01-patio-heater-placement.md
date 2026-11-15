@@ -14,7 +14,7 @@ meta_description: "Bromic-Richtwerte: Heizstrahler an der Wand mindestens ca. 1,
 cta: {label: "Planungsgespräch vereinbaren", asset: A07}
 hero: l-010-070
 images: [l-010-075, l-005-022]
-owner_review: Megan Spies
+owner_review: Marketing
 status: draft
 gated: false
 related: [RES-CO-01, RES-BY-01, RES-PP-KB1, ARC-PP-01]
@@ -22,7 +22,7 @@ updated: 2026-10-30
 lang: de
 translation_of: RES-PP-01
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -55,13 +55,13 @@ Bromic empfiehlt, einen elektrischen Heizstrahler im Außenbereich an der Wand m
 |---|---|---|
 | Wand, elektrisch | ca. 1,83 m[^s1] | Leistung des Geräts; die Montageanleitung des Modells |
 | Decke, elektrisch | ca. 2,44 m[^s1] | Leistung des Geräts; der Abstand zur Decke hängt von der Leistung ab[^s1] |
-| Eingelassen, elektrisch (Platinum, Tungsten Electric) | Laut Montageanleitung [[VERIFY: recessed mounting heights by model — Mike Clifford]] | Einbaurahmen und Deckenhohlraum |
-| Eclipse-Pendelleuchte | Laut Montageanleitung [[VERIFY: Eclipse mounting height and pole selection — Mike Clifford]] | Stange: einzeln 200 mm, 610 mm oder 1220 mm, doppelt oder gebogen[^s2] |
-| Tungsten Freestanding Gas | Freistehend; keine Montagehöhe | Abstand zu brennbaren Materialien und nach oben, laut Anleitung [[VERIFY — Mike Clifford]] |
+| Eingelassen, elektrisch (Platinum, Tungsten Electric) | Laut Montageanleitung [[VERIFY: recessed mounting heights by model — Produktteam]] | Einbaurahmen und Deckenhohlraum |
+| Eclipse-Pendelleuchte | Laut Montageanleitung [[VERIFY: Eclipse mounting height and pole selection — Produktteam]] | Stange: einzeln 200 mm, 610 mm oder 1220 mm, doppelt oder gebogen[^s2] |
+| Tungsten Freestanding Gas | Freistehend; keine Montagehöhe | Abstand zu brennbaren Materialien und nach oben, laut Anleitung [[VERIFY — Produktteam]] |
 
 Höher ist nicht automatisch besser. Die Heizfläche hängt neben Modell, Umgebung und Installation auch von der Montagehöhe ab.[^s2] Hängt das Gerät zu hoch, erreicht weniger Wärme den Sitzbereich; hängt es zu tief, unterschreitet es den Mindestwert. Unter einer hohen Decke bringen Abhängestangen Platinum- und Tungsten-Electric-Heizstrahler auf eine wirksame Höhe.[^s1]
 
-Elektroinstallationen erfolgen in Deutschland nach DIN VDE 0100, Gasinstallationen nach DVGW-TRGI (Erdgas) bzw. TRF (Flüssiggas).[^s1] [[VERIFY: current VDE and DVGW rules for outdoor heaters — Raffaele Marti]] Die Anforderungen unterscheiden sich von Ort zu Ort – klären Sie sie mit Ihrem Bauamt und beauftragen Sie einen Elektrofachbetrieb oder Gasinstallateur.
+Elektroinstallationen erfolgen in Deutschland nach DIN VDE 0100, Gasinstallationen nach DVGW-TRGI (Erdgas) bzw. TRF (Flüssiggas).[^s1] [[VERIFY: current VDE and DVGW rules for outdoor heaters — Partner Deutschland]] Die Anforderungen unterscheiden sich von Ort zu Ort – klären Sie sie mit Ihrem Bauamt und beauftragen Sie einen Elektrofachbetrieb oder Gasinstallateur.
 
 ![In die Decke eingelassene Heizstrahler in einem schlichten Glaspavillon](img:l-010-075)
 
@@ -86,19 +86,19 @@ So, dass sich ihre Heizflächen über dem Sitzbereich treffen und leicht überla
 | Eclipse Smart-Heat Electric / Freestanding Electric | 11 m² |
 | Tungsten Smart-Heat Freestanding Gas | 20 m² |
 
-Ein Rechenbeispiel: Eine Restaurantterrasse von 7,3 m × 3,0 m hat 22,3 m². Die Zahl der Heizstrahler ist Fläche ÷ (Heizfläche × Überdachungsfaktor × Klimafaktor), aufgerundet; für eine teilweise überdachte Terrasse an kühlen Abenden ergeben die beiden Faktoren 1,0 × 0,85 = 0,85 (ein offener Standort hat den Überdachungsfaktor 0,85, ein festes Dach 1,1; milde Abende 1,0, kalte 0,7). [[VERIFY: cover and climate factors — Mike Clifford]] Platinum 4500 W: 22,3 ÷ (13,3 × 0,85) = 2,0, also zwei; Platinum 3400 W: 22,3 ÷ (10,0 × 0,85) = 2,6, also drei. Ordnen Sie sie entlang der Längsseite an, jedes Gerät mittig über einem Tischabschnitt, die Ränder überlappend, jedes mit seinem Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät und einem Wandschalter. Ein freistehendes Gerät versorgt höchstens vier Plätze, weil die Gäste seine Strahlungswärme abschirmen: Bei ca. 1,9 m² je Platz sind 22,3 m² rund 12 Plätze, also drei Tungsten Freestanding Gas. [[VERIFY: recommended centre-to-centre spacing by model and mounting height — Mike Clifford]] [[DIAGRAM: Draufsicht einer Terrasse von 7,3 m × 3,0 m mit zwei und drei Wandheizstrahlern, überlappende Heizflächen über dem Tisch]]
+Ein Rechenbeispiel: Eine Restaurantterrasse von 7,3 m × 3,0 m hat 22,3 m². Die Zahl der Heizstrahler ist Fläche ÷ (Heizfläche × Überdachungsfaktor × Klimafaktor), aufgerundet; für eine teilweise überdachte Terrasse an kühlen Abenden ergeben die beiden Faktoren 1,0 × 0,85 = 0,85 (ein offener Standort hat den Überdachungsfaktor 0,85, ein festes Dach 1,1; milde Abende 1,0, kalte 0,7). [[VERIFY: cover and climate factors — Produktteam]] Platinum 4500 W: 22,3 ÷ (13,3 × 0,85) = 2,0, also zwei; Platinum 3400 W: 22,3 ÷ (10,0 × 0,85) = 2,6, also drei. Ordnen Sie sie entlang der Längsseite an, jedes Gerät mittig über einem Tischabschnitt, die Ränder überlappend, jedes mit seinem Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät und einem Wandschalter. Ein freistehendes Gerät versorgt höchstens vier Plätze, weil die Gäste seine Strahlungswärme abschirmen: Bei ca. 1,9 m² je Platz sind 22,3 m² rund 12 Plätze, also drei Tungsten Freestanding Gas. [[VERIFY: recommended centre-to-centre spacing by model and mounting height — Produktteam]] [[DIAGRAM: Draufsicht einer Terrasse von 7,3 m × 3,0 m mit zwei und drei Wandheizstrahlern, überlappende Heizflächen über dem Tisch]]
 
 Für die genaue Zahl bietet [Elektro oder Gas](item:RES-CO-01) eine schnelle Auslegungsmethode, und der Bromic-Flächenrechner verfeinert sie.
 
 ## Was bedeutet Abstand zu brennbaren Materialien?
 
-Der Mindestabstand zwischen einem Heizstrahler und allem, was brennen kann – Holzdecken, Untersichten, Pergolabalken, Markisen, Vorhänge, Kissen. Die Montageanleitung jedes Modells nennt die Abstände über, neben und vor dem Gerät; der Abstand zur Decke hängt von der Leistung ab.[^s1] [[VERIFY: clearance-to-combustibles table by model — Mike Clifford]]
+Der Mindestabstand zwischen einem Heizstrahler und allem, was brennen kann – Holzdecken, Untersichten, Pergolabalken, Markisen, Vorhänge, Kissen. Die Montageanleitung jedes Modells nennt die Abstände über, neben und vor dem Gerät; der Abstand zur Decke hängt von der Leistung ab.[^s1] [[VERIFY: clearance-to-combustibles table by model — Produktteam]]
 
 So arbeiten Sie innerhalb dieser Vorgaben:
 
 - **Gasheizstrahler:** Zweilagige Hitzeschilde aus Edelstahl verringern den nötigen Abstand über dem Gerät; Deckenstangen tragen zwei Geräte Rücken an Rücken unter flachen oder geneigten Decken.[^s1]
 - **Elektrische Heizstrahler:** Mit Einbaurahmen werden Platinum und Tungsten Electric bündig in einen Dachhohlraum eingesetzt, ausgeführt nach den Einbauabständen der Anleitung.[^s1] Die demnächst erhältlichen Tungsten-Kollektionen ergänzen den Einbau mit geringer Einbautiefe.[^s2]
-- **Textilien:** Halten Sie Stoffe, Schirme und Kissen aus dem Wärmeweg. Als allgemeinen Hinweis zur Heizungssicherheit im Haushalt empfiehlt die US-Brandschutzorganisation NFPA, alles Brennbare mindestens ca. 0,9 m von Heizgeräten fernzuhalten.[^s3] [[VERIFY: NFPA tip wording; heater-specific distances come from the manual — Megan Spies]]
+- **Textilien:** Halten Sie Stoffe, Schirme und Kissen aus dem Wärmeweg. Als allgemeinen Hinweis zur Heizungssicherheit im Haushalt empfiehlt die US-Brandschutzorganisation NFPA, alles Brennbare mindestens ca. 0,9 m von Heizgeräten fernzuhalten.[^s3] [[VERIFY: NFPA tip wording; heater-specific distances come from the manual — Marketing]]
 
 ![Tungsten Coastal bündig in eine weiße Decke eingelassen](img:l-005-022)
 

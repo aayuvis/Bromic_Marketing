@@ -17,8 +17,8 @@ ai_prompt: "Can I use my patio heater in the rain?"
 meta_description: "Outdoor heaters handle rain to the level of their IP rating: IPX4 resists splashing, IPX5 water jets. Each Bromic heater's rating, and how to protect it."
 cta: {label: "Size your space", asset: A03}
 hero: w-connecticut-privateresidence-tungstenelectri
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -76,7 +76,7 @@ An IP code is defined by the international standard IEC 60529. The first digit r
 | IPX5 | Protected against water jets[^s1] | More exposed sites, coastal and marine settings |
 | IP54 | Dust-protected and protected against splashing water[^s1] | Outdoor-mounted controls |
 
-Safety certification is a separate thing. Bromic's electric heaters carry Intertek ETL/cETL listings, which concern electrical safety for the North American market[^s3]. [[VERIFY: whether Intertek also tested the IP ratings, and the test house for each — Mike Clifford]]
+Safety certification is a separate thing. Bromic's electric heaters carry Intertek ETL/cETL listings, which concern electrical safety for the North American market[^s3]. [[VERIFY: whether Intertek also tested the IP ratings, and the test house for each — Product team]]
 
 ## What is each Bromic heater rated?
 
@@ -84,13 +84,13 @@ Safety certification is a separate thing. Bromic's electric heaters carry Intert
 |---|---|---|---|
 | Tungsten Smart-Heat Electric | IPX4[^s3] | Intertek ETL/cETL | Affinity On/Off or Dimmer controller, manual wall switch |
 | Platinum Smart-Heat Electric Marine | IPX5[^s3] | 316 marine-grade stainless; Lloyd's Register approval for marine use | Affinity On/Off or Dimmer controller, manual wall switch |
-| Platinum Smart-Heat Electric (Classic) | [[VERIFY: IP rating — Mike Clifford]] | 304 stainless chassis | Affinity On/Off or Dimmer controller, manual wall switch |
+| Platinum Smart-Heat Electric (Classic) | [[VERIFY: IP rating — Product team]] | 304 stainless chassis | Affinity On/Off or Dimmer controller, manual wall switch |
 | Cobalt Electric | IPX4[^s3] | | Affinity On/Off or Dimmer controller, manual wall switch |
-| Eclipse Smart-Heat Electric and Freestanding | [[VERIFY: IP rating — Mike Clifford]] | | Affinity Eclipse controller or Eclipse Dimmer, manual wall switch |
+| Eclipse Smart-Heat Electric and Freestanding | [[VERIFY: IP rating — Product team]] | | Affinity Eclipse controller or Eclipse Dimmer, manual wall switch |
 | Platinum Smart-Heat Gas | Not published as a number[^s3] | Deflector recommended where exposed | Affinity On/Off controller, manual wall switch |
 | Affinity On/Off controller | IP54[^s3] | | |
 
-The live post rated every Bromic heater "up to IPX5". That is true only of the Marine model on current published figures, so this page gives the rating model by model. Wi-Fi and app features need compatible Affinity Smart-Heat Controls, sold separately[^s4]. [[VERIFY: product-page values read from bromic.com; confirm against 2026 cut sheets — Mike Clifford]]
+The live post rated every Bromic heater "up to IPX5". That is true only of the Marine model on current published figures, so this page gives the rating model by model. Wi-Fi and app features need compatible Affinity Smart-Heat Controls, sold separately[^s4]. [[VERIFY: product-page values read from bromic.com; confirm against 2026 cut sheets — Product team]]
 
 ## How do you protect a heater from rain?
 

@@ -15,7 +15,7 @@ meta_description: "Short vs medium vs long wave infrared heaters for outdoor des
 cta: {label: "Download the Planning Guide (pro edition)", asset: A02}
 hero: l-010-071
 images: [l-013-111, l-004-012]
-owner_review: Mike Clifford
+owner_review: Product team
 status: draft
 gated: false
 related: [ARC-IN-01, ARC-CO-KB1, ARC-AW-01]
@@ -78,7 +78,7 @@ Source: Bromic Planning Guide v1.2 heat-wave mapping[^s1]. The "indicative fit" 
 
 The convective share matters outdoors because warm air rises and drifts away. Indoors that air would be kept; outside it is lost. That is why the Planning Guide's position is blunt: outdoor heat cannot be thermostatically controlled, and forced air does not work in the open[^s2].
 
-[[VERIFY: wavelength classification (short / medium / long, element type) for each current Bromic model — Mike Clifford]]
+[[VERIFY: wavelength classification (short / medium / long, element type) for each current Bromic model — Product team]]
 
 ## Why does radiant heat work in wind when forced air does not?
 
@@ -111,7 +111,7 @@ Intensity falls with distance. For a source small relative to the distance, irra
 
 Two consequences. Raise a heater and its pattern widens while intensity at head height drops, so a high ceiling may need more heaters or a suspension pole to bring units down. Lower it and you hit Bromic's minimums: wall mounts at least 72 in above floor and ceiling mounts at least 96 in, varying with output[^s2]. Lookbook coverage figures assume typical installation; Bromic notes coverage varies with mounting height, environment and installation conditions[^s3].
 
-[[VERIFY: recommended mounting-height range per model and coverage at each height — Mike Clifford]]
+[[VERIFY: recommended mounting-height range per model and coverage at each height — Product team]]
 
 ## Which Bromic heaters fit which setting?
 
@@ -120,7 +120,7 @@ Two consequences. Raise a heater and its pattern widens while intensity at head 
 | Platinum Smart-Heat Electric, 2300/3400/4500W | 65–143 ft² | Recessed, ceiling, wall | Affinity On/Off or Dimmer, wall switch, Smart-Heat app |
 | Tungsten Smart-Heat Electric, Select and Coastal (coming soon) | 64–144 ft² | Recessed (low-clearance), ceiling, wall, single post | Affinity On/Off or Dimmer, wall switch, Smart-Heat app |
 | Eclipse Smart-Heat Electric | 121 ft² | Single, double or curved pole | Eclipse controller, wall switch, Smart-Heat app |
-| Tungsten Smart-Heat Freestanding Gas | 215 ft² | Freestanding | [[VERIFY: control options for Tungsten Freestanding Gas — Mike Clifford]] |
+| Tungsten Smart-Heat Freestanding Gas | 215 ft² | Freestanding | [[VERIFY: control options for Tungsten Freestanding Gas — Product team]] |
 
 Source: Lookbook 2026[^s3]. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately.
 

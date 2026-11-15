@@ -18,8 +18,8 @@ meta_description: "Ceiling-mounted outdoor heaters: 8–9 ft high, the right pol
 cta: {label: "Get the install guide series", asset: A17}
 hero: w-bromic-sep18th-9-1
 images: [w-bromic-sep18th-14]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -122,7 +122,7 @@ The heater hangs level, facing the floor. On a pitched ceiling the pole's adjust
 
 | Heater | Top clearance |
 |---|---|
-| Electric (Platinum, Tungsten, Cobalt, Eclipse) | Varies by model and output [[VERIFY: per model from the manual; the live posts give 5 in, 6–12 in and 8–13 in — Mike Clifford]] |
+| Electric (Platinum, Tungsten, Cobalt, Eclipse) | Varies by model and output [[VERIFY: per model from the manual; the live posts give 5 in, 6–12 in and 8–13 in — Product team]] |
 | Gas with heat deflector | 14 in[^s1] |
 | Gas without heat deflector | 36 in[^s1] |
 
@@ -137,7 +137,7 @@ Fix to joists, beams or blocking, never to the lining alone. The older post gave
 | Platinum Electric 2300 / 3400 / 4500 W | 17 / 22 / 33 lb |
 | Cobalt Electric 4000 / 6000 W | 19.8 / 22 lb |
 | Eclipse Electric | 30 lb |
-| Tungsten Electric | [[VERIFY: per model — Mike Clifford]] |
+| Tungsten Electric | [[VERIFY: per model — Product team]] |
 | Platinum Gas and Tungsten Gas | 33 lb (160 ft² model), 44 lb (215 ft² model) |
 
 Add the pole's weight to the load.

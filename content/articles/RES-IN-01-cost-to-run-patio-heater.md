@@ -15,7 +15,7 @@ meta_description: "At US average rates, a 3400 W electric patio heater costs abo
 cta: {label: "Download the Planning Guide", asset: A02}
 hero: l-010-067
 images: [l-019-160]
-owner_review: Megan Spies
+owner_review: Marketing
 status: draft
 gated: false
 related: [RES-CO-01, RES-PP-01, COM-CO-01, BLD-IN-01]
@@ -72,7 +72,7 @@ sources:
     verified: true
 ---
 
-At current US average rates, a built-in electric patio heater costs about $0.42–$0.82 an hour to run at full output, depending on wattage. A 38,000 BTU gas heater costs about $0.72–$0.97 an hour on natural gas and about $1.11 an hour on propane. Your own bill decides the real number, so the formulas are below — plug in your rate and you have it. [[VERIFY: 2026 rates — Brian Kim/Finance]]
+At current US average rates, a built-in electric patio heater costs about $0.42–$0.82 an hour to run at full output, depending on wattage. A 38,000 BTU gas heater costs about $0.72–$0.97 an hour on natural gas and about $1.11 an hour on propane. Your own bill decides the real number, so the formulas are below – plug in your rate and you have it. [[VERIFY: 2026 rates — Finance]]
 
 ## What does each heater cost per hour?
 
@@ -87,11 +87,11 @@ Running cost is energy used per hour times the price of that energy. The rates u
 | Platinum Smart-Heat Electric 2300 W | 2.3 kW[^s6] | $0.183/kWh | **$0.42** |
 | Platinum Smart-Heat Electric 3400 W | 3.4 kW[^s6] | $0.183/kWh | **$0.62** |
 | Platinum Smart-Heat Electric 4500 W | 4.5 kW[^s6] | $0.183/kWh | **$0.82** |
-| Eclipse Smart-Heat Electric | [[VERIFY: wattage — Mike Clifford]] | $0.183/kWh | kW × $0.183 |
+| Eclipse Smart-Heat Electric | [[VERIFY: wattage — Product team]] | $0.183/kWh | kW × $0.183 |
 | Tungsten Smart-Heat Freestanding Gas, natural gas | 38,000 BTU/h = 0.38 therm/h[^s6] | $1.89–$2.55/therm | **$0.72–$0.97** |
 | Tungsten Smart-Heat Freestanding Gas, propane | 38,000 BTU/h = 0.415 gal/h[^s6] | $2.67/gal | **$1.11** |
 
-Rates: national averages; state and utility rates vary widely. [[VERIFY: confirm 38,000 BTU is the input rating used for fuel maths — Mike Clifford]]
+Rates: national averages; state and utility rates vary widely. [[VERIFY: confirm 38,000 BTU is the input rating used for fuel maths — Product team]]
 
 ## How do I calculate it for my own bill?
 
@@ -111,7 +111,7 @@ Three formulas, one per fuel.
 
 ## What does that mean over a season?
 
-Hours matter more than rates. Take a household that heats the patio three hours a night, 100 nights a year — 300 hours.
+Hours matter more than rates. Take a household that heats the patio three hours a night, 100 nights a year – 300 hours.
 
 | Setup | Calculation | Season cost |
 |---|---|---|
@@ -121,7 +121,7 @@ Hours matter more than rates. Take a household that heats the patio three hours 
 
 These are full-output, every-minute figures. In practice cost falls when heat is matched to need:
 
-- **Dial it down.** Eclipse runs at 33%, 66% or 100% output; a Dimmer controller sets electric heaters below full.[^s6] [[VERIFY: power draw at reduced output is proportional to setting — Mike Clifford]]
+- **Dial it down.** Eclipse runs at 33%, 66% or 100% output; a Dimmer controller sets electric heaters below full.[^s6] [[VERIFY: power draw at reduced output is proportional to setting — Product team]]
 - **Schedule it.** The Bromic Smart-Heat app sets schedules and timers so heat is on only when people are out there; it needs compatible Affinity Smart-Heat Controls, sold separately.[^s6]
 - **Zone it.** Heat the dining end without the lounge end.
 
@@ -133,22 +133,22 @@ Running cost is the smallest line on day one. Bromic's planning guidance is to p
 
 | Line | What drives it | Typical figure |
 |---|---|---|
-| Heaters | Model, wattage, finish, count | [[VERIFY: 2026 US MSRP per model — Brian Kim]] |
-| Controls (required) | Affinity On/Off, Dimmer or Eclipse controller, or wall switch; app and voice need compatible Affinity controls, sold separately[^s6] | [[VERIFY: controls MSRP — Brian Kim]] |
-| Mounting accessories | Recess kits, suspension poles (electric); heat deflectors, ceiling poles (gas)[^s7] | [[VERIFY: accessory MSRP — Brian Kim]] |
+| Heaters | Model, wattage, finish, count | [[VERIFY: 2026 US MSRP per model — Digital marketing]] |
+| Controls (required) | Affinity On/Off, Dimmer or Eclipse controller, or wall switch; app and voice need compatible Affinity controls, sold separately[^s6] | [[VERIFY: controls MSRP — Digital marketing]] |
+| Mounting accessories | Recess kits, suspension poles (electric); heat deflectors, ceiling poles (gas)[^s7] | [[VERIFY: accessory MSRP — Digital marketing]] |
 | Electrical work | New circuits, distance to panel, panel capacity, open or finished ceilings | Quote from a licensed electrician |
 | Gas work | Line run, fittings, or propane supply | Quote from a licensed gas fitter |
 | Permits | City or county | Confirm with your local building authority |
 | Running cost | Hours × output × rate | Table above |
 
-Electrical and gas work done while walls and ceilings are open costs less than retrofitting a finished space. That is the strongest argument for putting heat in the first budget — designed from the start, not added later.
+Electrical and gas work done while walls and ceilings are open costs less than retrofitting a finished space. That is the strongest argument for putting heat in the first budget – designed from the start, not added later.
 
 ## Planning checklist
 
 - Find your rates on your last utility bill: ¢/kWh, $/therm (or $/Mcf ÷ 10.37), $/gallon.
 - Decide the hours you will really use it: nights a year × hours a night.
 - Size the heaters to the seating ([electric vs gas](item:RES-CO-01) has a quick method).
-- Include controls in the hardware line — they are part of a working system.
+- Include controls in the hardware line – they are part of a working system.
 - Get electrical, gas and permit quotes before you finalise the patio design.
 - Confirm requirements with your local building authority and a licensed electrician or gas fitter.
 
@@ -167,9 +167,9 @@ About 0.415 gallons an hour at full output (38,000 ÷ 91,500). At $2.67 a gallon
 Residential gas prices vary by month: EIA's figure for July 2026 ($26.45/Mcf) was well above October 2025 ($19.61/Mcf).[^s2][^s3] Use the rate from the season you will heat in.
 
 ### Does dimming an electric heater save money?
-Lower output uses less energy. Eclipse steps between 33%, 66% and 100%.[^s6] [[VERIFY: draw at each step — Mike Clifford]]
+Lower output uses less energy. Eclipse steps between 33%, 66% and 100%.[^s6] [[VERIFY: draw at each step — Product team]]
 
 ### Can I estimate cost before I buy?
 Yes. The Bromic Planning Guide walks through sizing, utilities and an all-in budget step by step.
 
-Get the full budget picture before you talk to a dealer — download the Bromic Planning Guide.
+Get the full budget picture before you talk to a dealer – download the Bromic Planning Guide.

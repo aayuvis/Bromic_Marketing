@@ -13,7 +13,7 @@ ai_prompt: "Sind Flüssiggas-Terrassenheizstrahler in New York City erlaubt?"
 meta_description: "New York City hat die Erlaubnis für Flüssiggas-Heizstrahler in der Außengastronomie zum 1. Juni 2021 widerrufen. Was das für Restaurants bedeutet und was Elektro- und Gasgeräte brauchen."
 cta: {label: "Checkliste zu Genehmigungen und Brandschutz herunterladen", asset: A22}
 hero: l-013-107
-owner_review: Shaughn Ritchie
+owner_review: Spezifikation und Compliance
 status: draft
 gated: false
 related: [COM-PP-01, COM-CO-KB1]
@@ -21,7 +21,7 @@ updated: 2026-10-29
 lang: de
 translation_of: COM-PP-KB1
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: City of New York, Office of the Mayor
@@ -46,9 +46,9 @@ sources:
     verified: true
 ---
 
-Nach den jüngsten Primärquellen, die wir finden konnten: nein – nicht in der Außengastronomie. New York City hat die Erlaubnis, Heizstrahler mit Flüssiggas (Propan) in Außenbereichen der Gastronomie zu betreiben, zum 1. Juni 2021 widerrufen und verlangt, dass die für die Außenheizung genutzten Flaschen entfernt werden.[^s1] Elektrische Infrarot-Heizstrahler bleiben die naheliegende Lösung. [[VERIFY: confirm no later order or Fire Code change has reinstated propane heaters — Shaughn Ritchie]]
+Nach den jüngsten Primärquellen, die wir finden konnten: nein – nicht in der Außengastronomie. New York City hat die Erlaubnis, Heizstrahler mit Flüssiggas (Propan) in Außenbereichen der Gastronomie zu betreiben, zum 1. Juni 2021 widerrufen und verlangt, dass die für die Außenheizung genutzten Flaschen entfernt werden.[^s1] Elektrische Infrarot-Heizstrahler bleiben die naheliegende Lösung. [[VERIFY: confirm no later order or Fire Code change has reinstated propane heaters — Spezifikation und Compliance]]
 
-Dieser Beitrag betrifft ausschließlich New York City. In Deutschland gelten andere Regeln; klären Sie dort den Einsatz von Heizstrahlern in der Außengastronomie mit Ihrer Gemeinde und dem Bauamt. [[VERIFY: ob ein deutsches Gegenstück zu diesem Beitrag sinnvoll ist (z. B. kommunale Regeln zu Heizstrahlern in der Außengastronomie) — Raffaele Marti]]
+Dieser Beitrag betrifft ausschließlich New York City. In Deutschland gelten andere Regeln; klären Sie dort den Einsatz von Heizstrahlern in der Außengastronomie mit Ihrer Gemeinde und dem Bauamt. [[VERIFY: ob ein deutsches Gegenstück zu diesem Beitrag sinnvoll ist (z. B. kommunale Regeln zu Heizstrahlern in der Außengastronomie) — Partner Deutschland]]
 
 > **Haftungsausschluss.** Nur Planungsinformationen, keine Rechtsberatung. Klären Sie die Anforderungen mit der New Yorker Feuerwehr (FDNY) und dem NYC Department of Buildings (DOB) und beauftragen Sie einen zugelassenen Elektriker oder zugelassenen Installateurmeister.
 
@@ -56,9 +56,9 @@ Dieser Beitrag betrifft ausschließlich New York City. In Deutschland gelten and
 
 | Heizstrahler | Status in der Außengastronomie | Voraussetzungen |
 |---|---|---|
-| Flüssiggas (tragbar) | Erlaubnis zum 1. Juni 2021 widerrufen[^s1] | — |
+| Flüssiggas (tragbar) | Erlaubnis zum 1. Juni 2021 widerrufen[^s1] | – |
 | Elektrische Infrarotheizung | Erlaubt, nach Maßgabe der Vorschriften | Einhaltung des NYC Electrical Code; zugelassener Elektriker[^s2] |
-| Erdgas | In manchen Situationen möglich | Gasarbeiten von einem zugelassenen Installateurmeister beim DOB angemeldet[^s2] [[VERIFY: where natural gas heaters are allowed (sidewalk vs roadway cafés) — Shaughn Ritchie]] |
+| Erdgas | In manchen Situationen möglich | Gasarbeiten von einem zugelassenen Installateurmeister beim DOB angemeldet[^s2] [[VERIFY: where natural gas heaters are allowed (sidewalk vs roadway cafés) — Spezifikation und Compliance]] |
 
 Auch die Anlieferung von Flüssiggas ist geregelt: Der Fire Code verbietet, genehmigungspflichtige Mengen an einen Standort ohne FDNY-Genehmigung zu liefern.[^s3]
 

@@ -14,7 +14,7 @@ ai_prompt: "How many outdoor heaters do I need for my patio?"
 meta_description: "Enter your patio's size, cover and climate. See how many Bromic heaters it needs, which models fit and the controls that run them."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-010-067
-owner_review: Brian Kim + 454 Creative
+owner_review: Digital marketing + 454 Creative
 status: draft
 gated: true
 related: [RES-PP-01, COM-IN-KB1, RES-CO-01]
@@ -49,7 +49,7 @@ either · style: built-in, freestanding, either · mount height (ft) · zones.
 each, the electrical load and the assumptions.
 
 **Assumptions.** Coverage comes from the Lookbook 2026[^s1]. The enclosure, climate and height factors are Bromic's 2021 guidance
-turned into numbers[^s2] and wait for Mike Clifford's sign-off. A space with less than 30% of its perimeter open goes to the design
+turned into numbers[^s2] and wait for Product team's sign-off. A space with less than 30% of its perimeter open goes to the design
 team. Tungsten Coastal and Tungsten Select are coming soon and show a range, never a single count. Every value, its source and owner: `tools/A03-sizing/README.md`.
 
 **Where the lead goes.** The HubSpot form (`forms/hubspot-form-spec.md`) with `asset_id=A03`, `matrix_cell=RES-CO`, the UTM fields

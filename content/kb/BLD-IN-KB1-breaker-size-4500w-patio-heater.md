@@ -14,7 +14,7 @@ ai_prompt: "What size breaker does a 4500W patio heater need?"
 meta_description: "A 4500 W heater at 240 V draws 18.75 A; at 125% that is 23.4 A, so a 25 A breaker minimum, often 30 A on 10 AWG, within the nameplate maximum."
 cta: {label: "Download the pre-wire guide", asset: A16}
 hero: t-006-016
-owner_review: Arvin Avaness
+owner_review: Trade sales
 status: draft
 gated: false
 related: [BLD-IN-01, BLD-IN-KB2]
@@ -60,14 +60,14 @@ A 20 A breaker is too small in both cases.
 
 ## What if the site is 208 V?
 
-Order a heater rated for 208 V [[VERIFY: 208 V availability for Platinum 4500 W — Mike Clifford]]. A 240 V heater on 208 V draws less current (about 16.2 A) but delivers only about 75% of its output, roughly 3,380 W. It is an easy way to end up with a heater that never feels warm enough.
+Order a heater rated for 208 V [[VERIFY: 208 V availability for Platinum 4500 W — Product team]]. A 240 V heater on 208 V draws less current (about 16.2 A) but delivers only about 75% of its output, roughly 3,380 W. It is an easy way to end up with a heater that never feels warm enough.
 
 ## What else sets the size?
 
 - **Nameplate maximum.** The breaker cannot exceed it.
 - **Run length.** Long runs may need a larger conductor for voltage drop.
 - **Shared circuits.** Add every heater's current before applying 125%. One heater per circuit is simpler.
-- **Controls.** The circuit runs through its Affinity Smart-Heat On/Off or Dimmer controller and a manual wall switch[^s1]; check the controller's load rating [[VERIFY: Affinity controller maximum load — Mike Clifford]].
+- **Controls.** The circuit runs through its Affinity Smart-Heat On/Off or Dimmer controller and a manual wall switch[^s1]; check the controller's load rating [[VERIFY: Affinity controller maximum load — Product team]].
 
 ## Checklist
 

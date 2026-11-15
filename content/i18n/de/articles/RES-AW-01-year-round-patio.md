@@ -14,7 +14,7 @@ meta_description: "Die Terrasse auch bei Kälte nutzen: Wind abhalten, teilweise
 cta: {label: "Den Report Outdoor Living Trends 2026 herunterladen", asset: A01}
 hero: l-013-099
 images: [l-007-037, l-016-135]
-owner_review: Megan Spies
+owner_review: Marketing
 status: draft
 gated: false
 related: [RES-CO-01, RES-PP-01, RES-CO-KB1, BLD-AW-01]
@@ -22,7 +22,7 @@ updated: 2026-10-29
 lang: de
 translation_of: RES-AW-01
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: National Association of Home Builders (Eye on Housing)
@@ -65,7 +65,7 @@ Wer die Terrasse auch bei Kälte nutzen will, braucht drei Dinge: den Wind abhal
 
 ## Warum bleiben so viele Terrassen nach Einbruch der Dunkelheit leer?
 
-Weil die Terrasse gebaut wurde und die Wärme nicht. In den USA haben die meisten Neubauten inzwischen eine: 60,5 % der 2025 begonnenen Einfamilienhäuser hatten eine Terrasse, und die durchschnittliche Terrasse eines US-Neubaus misst etwa 30 m².[^s1][^s2] Dennoch sagten in der US-Hausbesitzerumfrage von Bromic 94 %, ihr Außenbereich könnte mehr genutzt werden, und weniger als jeder Vierte (23 %) plante die Heizung von Anfang an ein.[^s3] [[VERIFY: survey base, fieldwork dates and question wording for the 94% and 23% figures — Megan Spies]]
+Weil die Terrasse gebaut wurde und die Wärme nicht. In den USA haben die meisten Neubauten inzwischen eine: 60,5 % der 2025 begonnenen Einfamilienhäuser hatten eine Terrasse, und die durchschnittliche Terrasse eines US-Neubaus misst etwa 30 m².[^s1][^s2] Dennoch sagten in der US-Hausbesitzerumfrage von Bromic 94 %, ihr Außenbereich könnte mehr genutzt werden, und weniger als jeder Vierte (23 %) plante die Heizung von Anfang an ein.[^s3] [[VERIFY: survey base, fieldwork dates and question wording for the 94% and 23% figures — Marketing]]
 
 Das Ergebnis kennt man. Das Abendessen zieht bei Sonnenuntergang nach drinnen. Die Loungemöbel werden im Juli genutzt und im Oktober abgedeckt. Die Lösung sind nicht mehr Möbel, sondern Behaglichkeit, die hält, wenn die Temperatur sinkt.
 
@@ -98,7 +98,7 @@ Gehen Sie davon aus, wie der Bereich gebaut ist.
 - **Eine offene Essterrasse.** Die Pendelleuchte Eclipse Smart-Heat Electric – Wärme und dimmbares Ringlicht in einem, ca. 11 m², mit Leistungsstufen von 33/66/100 %.[^s5]
 - **Ein Deck oder Rasen, den Sie umstellen.** Eclipse Smart-Heat Freestanding Electric (ca. 11 m², Rollen, beschwerter Fuß) oder Tungsten Smart-Heat Freestanding Gas (ca. 20 m², ca. 11,1 kW, Erdgas oder Flüssiggas, neigbarer Kopf, Kippschutz).[^s5]
 
-Jedes eingebaute System braucht seine Steuerung, um als Ganzes zu funktionieren: ein Affinity Smart-Heat On/Off-, Dimmer- oder Eclipse-Steuergerät oder einen manuellen Wandschalter. Zeitpläne in der App, Zonen und Sprachsteuerung über Amazon Alexa oder Google Assistant setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind.[^s5] Freistehende Heizstrahler werden nach der Anleitung des Produkts bedient [[VERIFY: controls for Eclipse Freestanding and Tungsten Freestanding Gas — Mike Clifford]].
+Jedes eingebaute System braucht seine Steuerung, um als Ganzes zu funktionieren: ein Affinity Smart-Heat On/Off-, Dimmer- oder Eclipse-Steuergerät oder einen manuellen Wandschalter. Zeitpläne in der App, Zonen und Sprachsteuerung über Amazon Alexa oder Google Assistant setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind.[^s5] Freistehende Heizstrahler werden nach der Anleitung des Produkts bedient [[VERIFY: controls for Eclipse Freestanding and Tungsten Freestanding Gas — Produktteam]].
 
 ![Freistehender Eclipse-Heizstrahler neben der Terrasse einer Waldhütte](img:l-016-135)
 

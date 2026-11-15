@@ -14,8 +14,8 @@ ai_prompt: "Hoe ontwerp je een buitenruimte die je in een koud klimaat kunt gebr
 meta_description: "Een modelwoning in Juneau, Alaska plande het terras als verwarmde zones met Bromic Tungsten en Platinum Electric. Wat het ontwerp deed en wat je ervan kunt leren."
 cta: {label: "Download het rapport Outdoor Living Trends 2026", asset: A01}
 hero: w-dsc07397-1
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -70,11 +70,11 @@ sources:
     verified: true
 ---
 
-Een koud klimaat sluit buitenleven niet uit; het verandert alleen hoe je de ruimte plant. In een modelwoning in Juneau, Alaska verdeelde Bauer/Clifton Interiors de buitenruimte in zones — loungen, eten, ontvangen en de looproutes daartussen — en gaf elke zone de warmte die ze nodig had: Bromic Tungsten Electric boven de lounge, Platinum Electric boven de eettafel, en verwarmers zo geplaatst dat ze nooit een uitzicht of een looproute blokkeren.[^s1]
+Een koud klimaat sluit buitenleven niet uit; het verandert alleen hoe je de ruimte plant. In een modelwoning in Juneau, Alaska verdeelde Bauer/Clifton Interiors de buitenruimte in zones – loungen, eten, ontvangen en de looproutes daartussen – en gaf elke zone de warmte die ze nodig had: Bromic Tungsten Electric boven de lounge, Platinum Electric boven de eettafel, en verwarmers zo geplaatst dat ze nooit een uitzicht of een looproute blokkeren.[^s1]
 
 ![Woning met houten gevelbekleding, een loungeplek op het terras en verwarmers aan de muur onder de dakrand](img:w-dsc07397-1)
 
-[[VERIFY: of deze hoofdfoto (uit het oorspronkelijke artikel) de modelwoning in Juneau toont, en de fotocredit — Megan Spies]]
+[[VERIFY: of deze hoofdfoto (uit het oorspronkelijke artikel) de modelwoning in Juneau toont, en de fotocredit — marketing]]
 
 ## In het kort
 
@@ -85,8 +85,8 @@ Een koud klimaat sluit buitenleven niet uit; het verandert alleen hoe je de ruim
 | Ontwerper | Bauer/Clifton Interiors |
 | Het probleem | Strenge winters die de maanden waarin een terras bruikbaar is inkorten |
 | Verwarmers | Tungsten Electric en Platinum Electric |
-| Aantal verwarmers | Niet vermeld [[VERIFY: aantal en vermogen van de verwarmers — Megan Spies]] |
-| Bediening | Niet vermeld [[VERIFY: bediening die in het project is gebruikt — Megan Spies]] |
+| Aantal verwarmers | Niet vermeld [[VERIFY: aantal en vermogen van de verwarmers — marketing]] |
+| Bediening | Niet vermeld [[VERIFY: bediening die in het project is gebruikt — marketing]] |
 | Verschenen in | Dwell[^s2] |
 
 Bron: het oorspronkelijke artikel dat dit stuk vervangt.[^s1]
@@ -106,7 +106,7 @@ In plaats van één groot terras gelijkmatig te verwarmen, kreeg elke activiteit
 | Ontvangen | Modulair meubilair dat verplaatst wordt | Gerichte verwarmers, buiten looproutes en zichtlijnen geplaatst |
 | Overgang | Paden die de zones verbinden | Meegenomen in de indeling |
 
-<div class="diagram">Diagram: plattegrond van het terras met de vier zones omlijnd, de posities van de verwarmers gemarkeerd en het bereik van elke verwarmer over de zitplaatsen — een opdracht om opnieuw te tekenen zodra het aantal verwarmers en de indeling van het project bevestigd zijn.</div>
+<div class="diagram">Diagram: plattegrond van het terras met de vier zones omlijnd, de posities van de verwarmers gemarkeerd en het bereik van elke verwarmer over de zitplaatsen – een opdracht om opnieuw te tekenen zodra het aantal verwarmers en de indeling van het project bevestigd zijn.</div>
 
 ## Wat elk project in een koud klimaat ervan kan leren
 
@@ -120,7 +120,7 @@ Lees hoe je verwarming plant voor een terras dat je het hele jaar gebruikt in [z
 
 ## De volledige case study
 
-Dit artikel wordt een volledige Bromic-case study zodra de projectgegevens met de ontwerper zijn bevestigd: aantal verwarmers en vermogens, de bediening, de warmte-indeling en eventuele uitspraken van het team, alleen gebruikt met schriftelijke toestemming. Het volgt het [sjabloon voor case studies](item:CS-TEMPLATE) en komt bij de andere te staan op [bromic.com/case-studies](https://www.bromic.com/case-studies/). [[VERIFY: neem contact op met Bauer/Clifton Interiors voor de projectgegevens en toestemming — Megan Spies]]
+Dit artikel wordt een volledige Bromic-case study zodra de projectgegevens met de ontwerper zijn bevestigd: aantal verwarmers en vermogens, de bediening, de warmte-indeling en eventuele uitspraken van het team, alleen gebruikt met schriftelijke toestemming. Het volgt het [sjabloon voor case studies](item:CS-TEMPLATE) en komt bij de andere te staan op [bromic.com/case-studies](https://www.bromic.com/case-studies/). [[VERIFY: neem contact op met Bauer/Clifton Interiors voor de projectgegevens en toestemming — marketing]]
 
 ## Veelgestelde vragen
 

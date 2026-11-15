@@ -19,8 +19,8 @@ meta_description: "Ja. Stralingsverwarmers verwarmen mensen, niet de koude lucht
 cta: {label: "Download het rapport Outdoor Living Trends 2026", asset: A01}
 hero: w-dsc05737-courtney-saib
 images: [w-tungsten-electric-wall-mount-canada]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -104,7 +104,7 @@ Die met het hoogste stralingsaandeel. Korte golf is ongeveer 90% straling en ver
 
 **4. Kies voor de locatie.** Aan de kust is Platinum Smart-Heat Electric Marine gemaakt van zeewaterbestendig 316-roestvast staal met beschermingsgraad IPX5[^s6]. Voor andere modellen en nat weer, zie [terrasverwarmers in de regen](https://www.bromic.com/blog/patio-heaters-in-the-rain-what-you-need-to-know/) (Engelstalig).
 
-**5. Plan het voor de kou.** Maar 23% van de Amerikaanse huiseigenaren noemt buitenverwarming een topprioriteit bij het plannen van een buitenruimte[^s4]. [[VERIFY: datum, steekproef en vraagstelling van de enquête — Megan Spies]] Bekabeling, gasleidingen en inbouwsets zijn het eenvoudigst voordat het plafond dichtgaat: vanaf het begin ontworpen, niet achteraf toegevoegd.
+**5. Plan het voor de kou.** Maar 23% van de Amerikaanse huiseigenaren noemt buitenverwarming een topprioriteit bij het plannen van een buitenruimte[^s4]. [[VERIFY: datum, steekproef en vraagstelling van de enquête — marketing]] Bekabeling, gasleidingen en inbouwsets zijn het eenvoudigst voordat het plafond dichtgaat: vanaf het begin ontworpen, niet achteraf toegevoegd.
 
 ## Welke Bromic-verwarmers, met welke bediening?
 
@@ -113,9 +113,9 @@ Die met het hoogste stralingsaandeel. Korte golf is ongeveer 90% straling en ver
 | Overdekt terras of veranda | Platinum Smart-Heat Electric | 6–13 m²[^s5] | Affinity On/Off- of Dimmer-regelaar, handmatige wandschakelaar |
 | Overdekt terras, pergola of vlonder | Tungsten Smart-Heat Electric | 6–15 m²[^s6] | Affinity On/Off- of Dimmer-regelaar, handmatige wandschakelaar |
 | Terras dat warmte en licht wil | Eclipse Smart-Heat Electric | 11 m²[^s5] | Affinity Eclipse-regelaar of Eclipse Dimmer, handmatige wandschakelaar |
-| Open ruimte, geen vaste installatie | Tungsten Smart-Heat Freestanding Gas | 20 m², windbestendig[^s5] | [[VERIFY: bedieningsopties — Mike Clifford]] |
+| Open ruimte, geen vaste installatie | Tungsten Smart-Heat Freestanding Gas | 20 m², windbestendig[^s5] | [[VERIFY: bedieningsopties — productteam]] |
 
-Bediening wordt in de winter belangrijker, niet minder belangrijk. Met dimmen zet je de warmte hoger als de avond afkoelt, en met de schema's en timers van de Smart-Heat app kan de ruimte warm zijn als je naar buiten stapt[^s5]. Wifi- en app-functies vragen om compatibele Affinity Smart-Heat Controls, apart verkrijgbaar. Plan je een regelaar buiten te monteren, controleer dan de specificaties: de Affinity On/Off-regelaar is opgegeven voor -20 °C tot 30 °C[^s6]. [[VERIFY: waarden van de productpagina, waaronder het werkbereik van de regelaar, tegen de productbladen van 2026 — Mike Clifford]]
+Bediening wordt in de winter belangrijker, niet minder belangrijk. Met dimmen zet je de warmte hoger als de avond afkoelt, en met de schema's en timers van de Smart-Heat app kan de ruimte warm zijn als je naar buiten stapt[^s5]. Wifi- en app-functies vragen om compatibele Affinity Smart-Heat Controls, apart verkrijgbaar. Plan je een regelaar buiten te monteren, controleer dan de specificaties: de Affinity On/Off-regelaar is opgegeven voor -20 °C tot 30 °C[^s6]. [[VERIFY: waarden van de productpagina, waaronder het werkbereik van de regelaar, tegen de productbladen van 2026 — productteam]]
 
 Bekijk [alle buitenverwarmers](https://www.bromic.nl/) of ideeën voor [buitenruimtes bij woningen](https://www.bromic.com/residential/) (Engelstalig).
 

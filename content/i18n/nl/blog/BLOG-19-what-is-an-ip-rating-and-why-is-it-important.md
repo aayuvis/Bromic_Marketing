@@ -14,8 +14,8 @@ ai_prompt: "Wat betekent een IP-classificatie zoals IPX4 of IPX5 bij een buitenv
 meta_description: "IP-codes volgens IEC 60529 uitgelegd: het eerste cijfer gaat over vaste stoffen, het tweede over water, X betekent niet getest. Wat IPX4 en IPX5 betekenen voor Bromic-verwarmers."
 cta: {label: "Download de Planning Guide", asset: A02}
 hero: w-bromic-platinum-electric
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -103,7 +103,7 @@ De code is altijd "IP" gevolgd door twee tekens, die je los van elkaar leest en 
 |---|---|---|---|
 | Eerste | Vaste voorwerpen en stof | 0–6 | 5 = stofbeschermd; 6 = stofdicht |
 | Tweede | Water | 0–9 | 4 = spatwater uit elke richting; 5 = waterstralen onder lage druk (12,5 L/min); 6 = krachtige waterstraal (100 L/min); 7 = onderdompeling tot 1 m; 8 = verder dan IPX7, onder voorwaarden die met de fabrikant zijn afgesproken |
-| X op een van beide plekken | Niet getest op die eigenschap | — | IPX4 zegt niets over stof; het betekent niet "nul" |
+| X op een van beide plekken | Niet getest op die eigenschap | – | IPX4 zegt niets over stof; het betekent niet "nul" |
 
 Bron: IEC 60529, zoals samengevat door TÜV Rheinland, een test- en certificeringsinstelling.[^s1][^s2]
 
@@ -123,10 +123,10 @@ Dit zijn de classificaties die Bromic op dit moment per model publiceert. Waar e
 |---|---|---|
 | Tungsten Smart-Heat Electric (2–6 kW) | IPX4[^s3] | Spatwaterdicht |
 | Cobalt Smart-Heat Electric | IPX4[^s5] | Spatwaterdicht |
-| Platinum Smart-Heat Electric Marine | IPX5[^s4] | Waterstralen onder lage druk; behuizing van rvs 316. Een eerdere versie van dit artikel noemde IP55 [[VERIFY: Marine rating — IPX5 (product page) or IP55 (old blog post); is the first digit tested? — Mike Clifford]] |
-| Platinum Smart-Heat Electric | Geen code vermeld[^s6] | De pagina zegt "IP-gecertificeerd voor buitengebruik" [[VERIFY: Platinum Electric IP code — Mike Clifford]] |
-| Eclipse Smart-Heat Electric en Freestanding | Niet vermeld[^s6] | Bromic adviseert montage onder een overkapping [[VERIFY: Eclipse IP code — Mike Clifford]] |
-| Platinum Gas, Tungsten Gas, Tungsten Smart-Heat Freestanding | Geen code vermeld | [[VERIFY: IP rating, if any, for each gas model — Mike Clifford]] |
+| Platinum Smart-Heat Electric Marine | IPX5[^s4] | Waterstralen onder lage druk; behuizing van rvs 316. Een eerdere versie van dit artikel noemde IP55 [[VERIFY: Marine rating — IPX5 (product page) or IP55 (old blog post); is the first digit tested? — productteam]] |
+| Platinum Smart-Heat Electric | Geen code vermeld[^s6] | De pagina zegt "IP-gecertificeerd voor buitengebruik" [[VERIFY: Platinum Electric IP code — productteam]] |
+| Eclipse Smart-Heat Electric en Freestanding | Niet vermeld[^s6] | Bromic adviseert montage onder een overkapping [[VERIFY: Eclipse IP code — productteam]] |
+| Platinum Gas, Tungsten Gas, Tungsten Smart-Heat Freestanding | Geen code vermeld | [[VERIFY: IP rating, if any, for each gas model — productteam]] |
 | Affinity Smart-Heat On/Off-regelaar | IP54[^s7] | Stofbeschermd en spatwaterdicht; kijk in de handleiding waar de andere regelaars gemonteerd mogen worden |
 | Tungsten Smart-Heat Electric, Coastal-collectie (binnenkort leverbaar) | Nog niet gepubliceerd[^s8] | Zeewaterbestendig rvs 316 |
 
@@ -140,7 +140,7 @@ Een elektrische verwarmer heeft spanningvoerende delen achter het front. Het twe
 - **Blootgesteld aan opspattend water, bij een zwembad of de zee, of wordt er schoongespoten:** kies IPX5 en een zeewaterbestendige behuizing; daar hoort Platinum Smart-Heat Electric Marine.[^s4]
 - **Nooit:** een verwarmer afspuiten met een hogedrukreiniger, of hem monteren waar water op kan blijven staan. Geen enkele classificatie die Bromic publiceert dekt onderdompeling.
 
-<div class="diagram">Diagram: de IP-code ontleed — "IP", eerste cijfer (vaste stoffen, 0–6), tweede cijfer (water, 0–9), met IPX4 en IPX5 als pictogrammen voor spatwater en waterstraal onder lage druk, en X aangeduid als "niet getest"</div>
+<div class="diagram">Diagram: de IP-code ontleed – "IP", eerste cijfer (vaste stoffen, 0–6), tweede cijfer (water, 0–9), met IPX4 en IPX5 als pictogrammen voor spatwater en waterstraal onder lage druk, en X aangeduid als "niet getest"</div>
 
 ## Ook de bediening heeft een classificatie
 
@@ -164,6 +164,6 @@ Nee. IP meet alleen vaste stoffen en water. Bij de zee telt het materiaal: Plati
 
 ### Heeft de IP-classificatie invloed op de garantie?
 
-De garantie hangt af van de productlijn, niet van de IP-code, en geldt voor de eerste eigenaar.[^s9] Lees de voorwaarden voordat je op een onbeschutte plek installeert. [[VERIFY: whether installation outside the manual's conditions voids cover — Mike Clifford]]
+De garantie hangt af van de productlijn, niet van de IP-code, en geldt voor de eerste eigenaar.[^s9] Lees de voorwaarden voordat je op een onbeschutte plek installeert. [[VERIFY: whether installation outside the manual's conditions voids cover — productteam]]
 
 Onze Planning Guide zet classificaties, vrije afstanden en bediening voor elk model op één plek.

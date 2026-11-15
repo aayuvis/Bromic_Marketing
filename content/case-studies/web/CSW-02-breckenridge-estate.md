@@ -12,7 +12,7 @@ cta: {label: "Book a design consult", asset: A07}
 hero: w-mountain-view-retreat-platinum-electric-rece
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
 images: ["w-mountain-view-retreat-platinum-electric-rece"]
-owner_review: Karl Tschauner
+owner_review: US field sales
 status: draft
 source_kind: web-find
 origin: web-search
@@ -46,8 +46,8 @@ sources:
 | Location | Breckenridge, Colorado |
 | Segment | Single-family luxury home |
 | Size | About 10,250 sq ft, 7 bedrooms, 11 baths (listing) |
-| Products | Bromic heaters [[VERIFY: model and quantity — Karl Tschauner]] |
-| Controls | [[VERIFY: controls and zones — Karl Tschauner]] |
+| Products | Bromic heaters [[VERIFY: model and quantity — US field sales]] |
+| Controls | [[VERIFY: controls and zones — US field sales]] |
 | Completed | 2026 (year built, per the listing) |
 
 ## The space

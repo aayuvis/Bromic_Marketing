@@ -13,7 +13,7 @@ ai_prompt: "Welche Absicherung braucht ein 4500-W-Terrassenheizstrahler?"
 meta_description: "Ein 4500-W-Heizstrahler zieht an 230 V rund 19,6 A. Leitung und Sicherung legt der Elektrofachbetrieb nach DIN VDE 0100 aus, innerhalb der Angaben auf dem Typenschild."
 cta: {label: "Leitfaden zur Vorverkabelung herunterladen", asset: A16}
 hero: t-006-016
-owner_review: Arvin Avaness
+owner_review: Fachhandelsvertrieb
 status: draft
 gated: false
 related: [BLD-IN-01, BLD-IN-KB2]
@@ -21,7 +21,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLD-IN-KB1
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -50,7 +50,7 @@ Ein 4500-W-Terrassenheizstrahler zieht an 230 V rund 19,6 A. Ein Heizstrahler l�
 
 *Nur eine Planungshilfe. Klären Sie die Ausführung mit einem Elektrofachbetrieb, anhand der Montageanleitung und mit dem zuständigen Bauamt.*
 
-[[VERIFY: aktuelle VDE-Regeln für Stromkreise von Heizstrahlern im Freien, insbesondere Absicherung und Leitungsquerschnitt bei 4500 W einphasig — Raffaele Marti]]
+[[VERIFY: aktuelle VDE-Regeln für Stromkreise von Heizstrahlern im Freien, insbesondere Absicherung und Leitungsquerschnitt bei 4500 W einphasig — Partner Deutschland]]
 
 ## Wie wird gerechnet?
 
@@ -66,14 +66,14 @@ Wie die nächste Absicherung und der Leitungsquerschnitt gewählt werden, hängt
 
 ## Was, wenn die Netzspannung nicht zum Gerät passt?
 
-Bestellen Sie einen Heizstrahler, der für die Spannung vor Ort ausgelegt ist. Im US-Markt gibt es Anschlüsse mit 208 V, für die eigene Ausführungen nötig sind [[VERIFY: 208 V availability for Platinum 4500 W — Mike Clifford]]. Ein Heizstrahler an zu niedriger Spannung zieht weniger Strom, liefert aber auch deutlich weniger Leistung: Ein 240-V-Gerät an 208 V bringt nur rund 75 % seiner Leistung, etwa 3380 W. So entsteht leicht ein Heizstrahler, der sich nie warm genug anfühlt.
+Bestellen Sie einen Heizstrahler, der für die Spannung vor Ort ausgelegt ist. Im US-Markt gibt es Anschlüsse mit 208 V, für die eigene Ausführungen nötig sind [[VERIFY: 208 V availability for Platinum 4500 W — Produktteam]]. Ein Heizstrahler an zu niedriger Spannung zieht weniger Strom, liefert aber auch deutlich weniger Leistung: Ein 240-V-Gerät an 208 V bringt nur rund 75 % seiner Leistung, etwa 3380 W. So entsteht leicht ein Heizstrahler, der sich nie warm genug anfühlt.
 
 ## Was bestimmt die Auslegung noch?
 
 - **Höchstwert auf dem Typenschild.** Die Absicherung darf ihn nicht überschreiten.
 - **Leitungslänge.** Lange Leitungen brauchen wegen des Spannungsfalls unter Umständen einen größeren Querschnitt.
 - **Gemeinsame Stromkreise.** Rechnen Sie den Strom aller Heizstrahler am Stromkreis zusammen. Ein Heizstrahler je Stromkreis ist einfacher.
-- **Steuerung.** Der Stromkreis läuft über das zugehörige Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät und einen Wandschalter[^s1]; prüfen Sie die zulässige Last des Steuergeräts [[VERIFY: Affinity controller maximum load — Mike Clifford]].
+- **Steuerung.** Der Stromkreis läuft über das zugehörige Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät und einen Wandschalter[^s1]; prüfen Sie die zulässige Last des Steuergeräts [[VERIFY: Affinity controller maximum load — Produktteam]].
 
 ## Checkliste
 

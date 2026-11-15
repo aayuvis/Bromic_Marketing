@@ -14,7 +14,7 @@ meta_description: "Installeer een elektrische terrasverwarmer in één keer goed
 cta: {label: "Download de reeks installatiegidsen", asset: A17}
 hero: g-electrician
 images: [t-006-016]
-owner_review: Arvin Avaness
+owner_review: verkoop vakhandel
 status: draft
 gated: false
 related: [BLD-IN-01, BLD-PP-01, BLD-BY-KB1]
@@ -60,11 +60,11 @@ Controleer de voorbekabeling aan de hand van de verwarmer in de doos, niet die o
 |---|---|---|
 | Model, vermogen en spanning op het typeplaatje | Spanning van de groep op de aansluitdoos (in Nederland 230 V, 50 Hz) | Stop. Een verwarmer op de verkeerde spanning levert niet zijn nominale vermogen; in de VS geeft een toestel voor 240 V op 208 V ongeveer 75% |
 | Installatieautomaat | Maximum op het typeplaatje en dimensionering op continubelasting volgens NEN 1010 | Pas aan voordat u spanning zet |
-| Keurmerk | Het keurmerk op het toestel; in de Amerikaanse gids Intertek, UL of CSA[^s2] [[VERIFY: welke keurmerken de Europese modellen dragen — Mike Clifford]] | Niet installeren |
+| Keurmerk | Het keurmerk op het toestel; in de Amerikaanse gids Intertek, UL of CSA[^s2] [[VERIFY: welke keurmerken de Europese modellen dragen — productteam]] | Niet installeren |
 | Plaats van doos en achterhout | Plaats van de beugel in de handleiding | Verplaats de beugel, niet de regel |
 | Montagehoogte | Handleiding; minstens 1,83 m aan de wand, 2,44 m aan het plafond[^s2] | Gebruik bij hoge plafonds een ophangstang[^s2] |
-| Vrije afstanden | Tabel met vrije afstanden in de handleiding [[VERIFY: per model — Mike Clifford]] | Verplaats voordat u bevestigt |
-| Inbouwopening | Afmetingen van de inbouwset [[VERIFY: per model — Mike Clifford]] | Pas de sparing aan voordat de verwarmer komt |
+| Vrije afstanden | Tabel met vrije afstanden in de handleiding [[VERIFY: per model — productteam]] | Verplaats voordat u bevestigt |
+| Inbouwopening | Afmetingen van de inbouwset [[VERIFY: per model — productteam]] | Pas de sparing aan voordat de verwarmer komt |
 
 ## Hoe wordt de verwarmer gemonteerd?
 
@@ -83,7 +83,7 @@ De volgorde is gelijk voor wand-, plafond- en inbouwmontage; de beugels verschil
 Volgens het aansluitschema in de installatiehandleiding, door een erkend elektrotechnisch installateur. Op de bouwplaats:
 
 - Breng de eigen groep naar het aansluitpunt van de verwarmer met weerbestendige materialen.
-- Voer de groep via de Affinity-regelaar zoals het schema aangeeft [[VERIFY: aansluitschema en klemmenindeling van de Affinity-regelaar — Mike Clifford]].
+- Voer de groep via de Affinity-regelaar zoals het schema aangeeft [[VERIFY: aansluitschema en klemmenindeling van de Affinity-regelaar — productteam]].
 - Plaats de handmatige wandschakelaar waar het plan hem tekent.
 - Pas aardlekbeveiliging toe zoals NEN 1010 voorschrijft. In de VS eist de NEC van 2023 die voor buitencontactdozen bij woningen tot 150 V ten opzichte van aarde en tot 50 A[^s3]; of een vast aangesloten verwarmer daaronder valt, is daar een lokale interpretatie. [[VERIFY: eisen van NEN 1010 voor aardlekbeveiliging van vast aangesloten buitentoestellen — Bromic Benelux distributor]] Zie [het antwoord over aardlekbeveiliging](item:BLD-BY-KB1).
 
@@ -98,7 +98,7 @@ Inbedrijfstelling bewijst dat het systeem werkt zoals het is verkocht.
 3. **Koppel de app** als de klant die heeft gekocht. De Bromic Smart-Heat app regelt zones, schema's en timers en vraagt om compatibele Affinity Smart-Heat Controls, die apart worden verkocht[^s1]. Geef elke zone de naam die het gezin gebruikt: "Eettafel", "Lounge".
 4. **Koppel integraties** als die zijn verkocht: Amazon Alexa, Google Assistant, Control4, Crestron of Lutron. De compatibiliteit verschilt en kan extra integratiehardware of configuratie vragen[^s1]. Stem af met de installateur van de audio- en domoticasystemen.
 5. **Test de aardlekschakelaars** met hun testknop, waar aanwezig.
-6. **Leg vast** op de werkbon: model, serienummer, groep, installatieautomaat, regelaar en gegevens van het app-account [[VERIFY: procedure voor garantieregistratie — Mike Clifford]].
+6. **Leg vast** op de werkbon: model, serienummer, groep, installatieautomaat, regelaar en gegevens van het app-account [[VERIFY: procedure voor garantieregistratie — productteam]].
 
 ## Wat hoort bij een goede overdracht?
 
@@ -107,7 +107,7 @@ Vijf minuten met de bewoner voorkomen het telefoontje "hoe zet ik hem aan".
 - Laat de wandschakelaar, de regelaar en, als die er is, de app zien.
 - Leg uit dat buitenwarmte met de hand of via een schema wordt geregeld, niet met een thermostaat[^s2].
 - Wijs de zone met vrije afstand aan: geen hangplanten of decoratie in de buurt van de verwarmer.
-- Laat de handleiding, de werkbon en de onderhoudsinstructies achter [[VERIFY: richtlijnen voor reiniging en onderhoud per afwerking — Mike Clifford]].
+- Laat de handleiding, de werkbon en de onderhoudsinstructies achter [[VERIFY: richtlijnen voor reiniging en onderhoud per afwerking — productteam]].
 
 ## Checklist voor de planning
 

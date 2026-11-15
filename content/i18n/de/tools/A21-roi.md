@@ -13,7 +13,7 @@ ai_prompt: "Wie lange braucht ein Restaurant, bis sich Terrassenheizstrahler amo
 meta_description: "Schätzen Sie, wie viel Umsatz beheizte Terrassenplätze bringen, welche Marge sie erwirtschaften und nach wie vielen Monaten sich die Heizstrahler amortisiert haben."
 cta: {label: "Planungsgespräch vereinbaren", asset: A07}
 hero: p-003-006
-owner_review: Blake Petty + Brian Kim
+owner_review: Vertrieb Gastronomie + Digitales Marketing
 status: draft
 gated: true
 related: [COM-IN-01, COM-AW-01, COM-CO-01]
@@ -29,7 +29,7 @@ sources:
 lang: de
 translation_of: A21
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 
 **Was er leistet.** Ein Gastronom sieht, was eine beheizte Terrasse bringen kann: den Mehrumsatz aus Abenden, an denen er bisher
@@ -49,7 +49,7 @@ Heizstunden pro Abend, Strompreis.
 Sensitivitätsansicht sowie die Heizstrahler und die Steuerung, die die Installationskosten abdecken sollten (Affinity Smart-Heat
 Steuergerät, Wandschalter, App).
 
-**Annahmen.** Jeder Standardwert ist ein Beispiel, kein Richtwert, und in der Konfiguration mit [[VERIFY: Richtwerte — Blake Petty]]
+**Annahmen.** Jeder Standardwert ist ein Beispiel, kein Richtwert, und in der Konfiguration mit [[VERIFY: Richtwerte — Vertrieb Gastronomie]]
 gekennzeichnet. Der erste Testfall ist das Rechenbeispiel aus COM-IN-01[^s1]. Alle Werte, Quellen und Verantwortlichen:
 `tools/A21-roi/README.md`.
 

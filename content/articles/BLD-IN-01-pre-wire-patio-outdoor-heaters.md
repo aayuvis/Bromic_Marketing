@@ -15,7 +15,7 @@ meta_description: "Rough in a dedicated circuit per patio heater, boxes and bloc
 cta: {label: "Download the pre-wire guide", asset: A16}
 hero: g-rough-in
 images: [l-005-022]
-owner_review: Arvin Avaness
+owner_review: Trade sales
 status: draft
 gated: false
 related: [BLD-IN-KB1, BLD-IN-KB2, BLD-BY-01, BLD-CO-01]
@@ -93,7 +93,7 @@ Pre-wire every covered patio that could sell heat, even if the buyer has not cho
 
 ## What voltage and circuit does each heater need?
 
-Platinum Smart-Heat Electric comes in 2300, 3400 and 4500 W[^s1]. Bromic lists 208, 240 and 277 V supply options for commercial sites[^s2]. Confirm the voltage of the exact model on order before you pull wire [[VERIFY: supply voltage per Platinum and Tungsten Electric model, residential and commercial — Mike Clifford]].
+Platinum Smart-Heat Electric comes in 2300, 3400 and 4500 W[^s1]. Bromic lists 208, 240 and 277 V supply options for commercial sites[^s2]. Confirm the voltage of the exact model on order before you pull wire [[VERIFY: supply voltage per Platinum and Tungsten Electric model, residential and commercial — Product team]].
 
 Current is watts divided by volts: **I = W ÷ V**. Treat an outdoor heater as a continuous load, which the NEC defines as one where maximum current is expected to run three hours or more[^s4]. Branch circuits for continuous loads, and for fixed space-heating equipment, are sized at no less than 125% of the load[^s3][^s4].
 
@@ -119,17 +119,17 @@ They can, within limits, but one heater per circuit is simpler to zone and to fa
 
 ## Do patio heater circuits need GFCI protection?
 
-Plan for it and ask the inspector early. The 2023 NEC requires GFCI protection for dwelling outdoor outlets on single-phase circuits of 150 V or less to ground and 50 A or less[^s5]; the 2026 edition raises that threshold to 60 A[^s6]. A residential 240 V circuit is 120 V to ground, so it falls inside that scope. Whether a hard-wired heater counts as an "outlet" under 210.8(F) is read differently by different authorities, and editions are adopted at different times[^s7]. Get the local answer in writing and check what the installation manual specifies [[VERIFY: Bromic installation-manual requirement for GFCI or RCD protection — Mike Clifford]]. More in [the GFCI answer](item:BLD-BY-KB1).
+Plan for it and ask the inspector early. The 2023 NEC requires GFCI protection for dwelling outdoor outlets on single-phase circuits of 150 V or less to ground and 50 A or less[^s5]; the 2026 edition raises that threshold to 60 A[^s6]. A residential 240 V circuit is 120 V to ground, so it falls inside that scope. Whether a hard-wired heater counts as an "outlet" under 210.8(F) is read differently by different authorities, and editions are adopted at different times[^s7]. Get the local answer in writing and check what the installation manual specifies [[VERIFY: Bromic installation-manual requirement for GFCI or RCD protection — Product team]]. More in [the GFCI answer](item:BLD-BY-KB1).
 
 ## What goes at each heater position?
 
 | Item | Rough-in action |
 |---|---|
-| Box | Weather-rated junction box at each heater position, per the manual's location relative to the bracket [[VERIFY: box type and offset per mount — Mike Clifford]] |
-| Blocking | Solid blocking between joists or studs to carry the bracket and heater weight [[VERIFY: heater weights per model — Mike Clifford]] |
+| Box | Weather-rated junction box at each heater position, per the manual's location relative to the bracket [[VERIFY: box type and offset per mount — Product team]] |
+| Blocking | Solid blocking between joists or studs to carry the bracket and heater weight [[VERIFY: heater weights per model — Product team]] |
 | Height | Wall mounts at least 72 in. above the floor; ceiling mounts at least 96 in., varying with output[^s2] |
-| Clearances | Mark clearances to walls, beams and combustibles from the manual [[VERIFY: clearance table per model — Mike Clifford]] |
-| Recess kit | Frame the opening and cavity depth for the recess kit before boarding [[VERIFY: recess kit rough opening and cavity depth per model — Mike Clifford]] |
+| Clearances | Mark clearances to walls, beams and combustibles from the manual [[VERIFY: clearance table per model — Product team]] |
+| Recess kit | Frame the opening and cavity depth for the recess kit before boarding [[VERIFY: recess kit rough opening and cavity depth per model — Product team]] |
 
 ![Heater recessed flush into a white ceiling (Tungsten Coastal, coming soon)](img:l-005-022)
 
@@ -141,7 +141,7 @@ Put the controller where the family stands when they want heat: usually inside, 
 
 At rough-in:
 
-- Set a deep box at the controller location, sized for the Affinity controller [[VERIFY: Affinity controller box size and whether it is inline with the line-voltage circuit — Mike Clifford]].
+- Set a deep box at the controller location, sized for the Affinity controller [[VERIFY: Affinity controller box size and whether it is inline with the line-voltage circuit — Product team]].
 - Run each heater circuit through that location, or as the manual's wiring diagram shows.
 - Leave a pathway, such as an empty conduit with a pull string, to the AV or automation location if smart-home control may sell.
 

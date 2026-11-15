@@ -14,7 +14,7 @@ meta_description: "Ein 3400-W-Heizstrahler verbraucht 3,4 kWh pro Stunde, ein Ga
 cta: {label: "Planungsleitfaden herunterladen", asset: A02}
 hero: l-010-067
 images: [l-019-160]
-owner_review: Megan Spies
+owner_review: Marketing
 status: draft
 gated: false
 related: [RES-CO-01, RES-PP-01, COM-CO-01, BLD-IN-01]
@@ -22,7 +22,7 @@ updated: 2026-10-29
 lang: de
 translation_of: RES-IN-01
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: U.S. Energy Information Administration
@@ -75,7 +75,7 @@ sources:
     verified: true
 ---
 
-Ein fest montierter elektrischer Terrassenheizstrahler verbraucht bei voller Leistung je nach Modell 2,3 bis 4,5 kWh Strom pro Stunde. Ein Gasheizstrahler mit ca. 11,1 kW verbraucht rund 11,1 kWh Erdgas oder ca. 1,6 Liter Flüssiggas pro Stunde. Multiplizieren Sie diese Mengen mit dem Preis auf Ihrer Rechnung, und Sie haben die Kosten. Zur Einordnung zeigen wir außerdem ein Rechenbeispiel zu US-Durchschnittspreisen; Euro-Preise rechnen wir bewusst nicht um. [[VERIFY: 2026 rates — Brian Kim/Finance]]
+Ein fest montierter elektrischer Terrassenheizstrahler verbraucht bei voller Leistung je nach Modell 2,3 bis 4,5 kWh Strom pro Stunde. Ein Gasheizstrahler mit ca. 11,1 kW verbraucht rund 11,1 kWh Erdgas oder ca. 1,6 Liter Flüssiggas pro Stunde. Multiplizieren Sie diese Mengen mit dem Preis auf Ihrer Rechnung, und Sie haben die Kosten. Zur Einordnung zeigen wir außerdem ein Rechenbeispiel zu US-Durchschnittspreisen; Euro-Preise rechnen wir bewusst nicht um. [[VERIFY: 2026 rates — Finanzen]]
 
 ## Wie viel Energie verbraucht jedes Gerät pro Stunde?
 
@@ -86,11 +86,11 @@ Die Betriebskosten sind der Energieverbrauch pro Stunde mal dem Preis dieser Ene
 | Platinum Smart-Heat Electric 2300 W | 2,3 kWh Strom[^s6] | 2,3 × Ihr Strompreis je kWh |
 | Platinum Smart-Heat Electric 3400 W | 3,4 kWh Strom[^s6] | 3,4 × Ihr Strompreis je kWh |
 | Platinum Smart-Heat Electric 4500 W | 4,5 kWh Strom[^s6] | 4,5 × Ihr Strompreis je kWh |
-| Eclipse Smart-Heat Electric | [[VERIFY: wattage — Mike Clifford]] | kW × Ihr Strompreis je kWh |
+| Eclipse Smart-Heat Electric | [[VERIFY: wattage — Produktteam]] | kW × Ihr Strompreis je kWh |
 | Tungsten Smart-Heat Freestanding Gas, Erdgas | ca. 11,1 kWh Erdgas[^s6] | 11,1 × Ihr Gaspreis je kWh |
 | Tungsten Smart-Heat Freestanding Gas, Flüssiggas | ca. 1,57 l Flüssiggas (ca. 0,8 kg)[^s6] | 1,57 × Ihr Preis je Liter |
 
-[[VERIFY: confirm the 11.1 kW (38,000 BTU/h) input rating used for fuel maths — Mike Clifford]] [[VERIFY: Umrechnung Liter → kg Flüssiggas (Dichte ca. 0,51 kg/l) und Hinweis auf 5- und 11-kg-Flaschen — Mike Clifford]] Bei ca. 0,8 kg pro Stunde reicht eine 11-kg-Flasche rechnerisch für knapp 14 Stunden volle Leistung, eine 5-kg-Flasche für gut 6 Stunden.
+[[VERIFY: confirm the 11.1 kW (38,000 BTU/h) input rating used for fuel maths — Produktteam]] [[VERIFY: Umrechnung Liter → kg Flüssiggas (Dichte ca. 0,51 kg/l) und Hinweis auf 5- und 11-kg-Flaschen — Produktteam]] Bei ca. 0,8 kg pro Stunde reicht eine 11-kg-Flasche rechnerisch für knapp 14 Stunden volle Leistung, eine 5-kg-Flasche für gut 6 Stunden.
 
 ## Ein Rechenbeispiel zu US-Preisen
 
@@ -136,7 +136,7 @@ Die Stunden zählen mehr als der Tarif. Nehmen Sie einen Haushalt, der die Terra
 
 Das sind Werte für volle Leistung, jede Minute. In der Praxis sinken die Kosten, wenn die Wärme dem Bedarf folgt:
 
-- **Leistung reduzieren.** Eclipse läuft mit 33 %, 66 % oder 100 % Leistung; ein Dimmer-Steuergerät stellt elektrische Heizstrahler unterhalb der vollen Leistung ein.[^s6] [[VERIFY: power draw at reduced output is proportional to setting — Mike Clifford]]
+- **Leistung reduzieren.** Eclipse läuft mit 33 %, 66 % oder 100 % Leistung; ein Dimmer-Steuergerät stellt elektrische Heizstrahler unterhalb der vollen Leistung ein.[^s6] [[VERIFY: power draw at reduced output is proportional to setting — Produktteam]]
 - **Zeitpläne nutzen.** Die Bromic Smart-Heat App legt Zeitpläne und Timer fest, sodass nur geheizt wird, wenn jemand draußen ist; sie erfordert kompatible Affinity Smart-Heat Controls, separat erhältlich.[^s6]
 - **Zonen bilden.** Heizen Sie den Essbereich, ohne die Lounge mitzuheizen.
 
@@ -148,9 +148,9 @@ Am ersten Tag sind die Betriebskosten der kleinste Posten. Bromic empfiehlt, das
 
 | Posten | Was ihn bestimmt | Richtwert |
 |---|---|---|
-| Heizstrahler | Modell, Leistung, Oberfläche, Anzahl | [[VERIFY: 2026 US MSRP per model — Brian Kim]] |
-| Steuerung (vorgeschrieben) | Affinity On/Off-, Dimmer- oder Eclipse-Steuergerät oder Wandschalter; App und Sprachsteuerung erfordern kompatible Affinity-Steuergeräte, separat erhältlich[^s6] | [[VERIFY: controls MSRP — Brian Kim]] |
-| Montagezubehör | Einbaurahmen, Abhängestangen (Elektro); Hitzeschilde, Deckenstangen (Gas)[^s7] | [[VERIFY: accessory MSRP — Brian Kim]] |
+| Heizstrahler | Modell, Leistung, Oberfläche, Anzahl | [[VERIFY: 2026 US MSRP per model — Digitales Marketing]] |
+| Steuerung (vorgeschrieben) | Affinity On/Off-, Dimmer- oder Eclipse-Steuergerät oder Wandschalter; App und Sprachsteuerung erfordern kompatible Affinity-Steuergeräte, separat erhältlich[^s6] | [[VERIFY: controls MSRP — Digitales Marketing]] |
+| Montagezubehör | Einbaurahmen, Abhängestangen (Elektro); Hitzeschilde, Deckenstangen (Gas)[^s7] | [[VERIFY: accessory MSRP — Digitales Marketing]] |
 | Elektroarbeiten | Neue Stromkreise, Entfernung zum Verteiler, Kapazität des Verteilers, offene oder fertige Decken | Angebot eines Elektrofachbetriebs |
 | Gasarbeiten | Leitungsweg, Armaturen oder Flüssiggasversorgung | Angebot eines Gasinstallateurs |
 | Genehmigungen | Gemeinde oder Kreis | Beim Bauamt erfragen |
@@ -165,7 +165,7 @@ Elektro- und Gasarbeiten, die erledigt werden, solange Wände und Decken offen s
 - Legen Sie die Heizstrahler für den Sitzbereich aus ([Elektro oder Gas](item:RES-CO-01) zeigt eine schnelle Methode).
 - Rechnen Sie die Steuerung zu den Geräten – sie gehört zu einer funktionierenden Anlage.
 - Holen Sie Angebote für Elektro, Gas und Genehmigungen ein, bevor Sie die Terrassenplanung abschließen.
-- Klären Sie die Anforderungen mit Ihrem Bauamt und einem Elektrofachbetrieb (DIN VDE 0100) oder Gasinstallateur (DVGW-TRGI, TRF). [[VERIFY: current VDE and DVGW rules for outdoor heaters — Raffaele Marti]]
+- Klären Sie die Anforderungen mit Ihrem Bauamt und einem Elektrofachbetrieb (DIN VDE 0100) oder Gasinstallateur (DVGW-TRGI, TRF). [[VERIFY: current VDE and DVGW rules for outdoor heaters — Partner Deutschland]]
 
 ## FAQ
 
@@ -182,7 +182,7 @@ Rund 1,57 Liter (ca. 0,8 kg) pro Stunde bei voller Leistung. Zum US-Durchschnitt
 Gaspreise für Haushalte ändern sich mit Markt und Tarif. In den USA lag der EIA-Wert für Juli 2026 (26,45 US-$/Mcf) deutlich über dem von Oktober 2025 (19,61 US-$/Mcf).[^s2][^s3] Rechnen Sie mit dem Preis, der in der Saison gilt, in der Sie heizen.
 
 ### Spart das Dimmen eines elektrischen Heizstrahlers Geld?
-Geringere Leistung verbraucht weniger Energie. Eclipse schaltet zwischen 33 %, 66 % und 100 %.[^s6] [[VERIFY: draw at each step — Mike Clifford]]
+Geringere Leistung verbraucht weniger Energie. Eclipse schaltet zwischen 33 %, 66 % und 100 %.[^s6] [[VERIFY: draw at each step — Produktteam]]
 
 ### Kann ich die Kosten vor dem Kauf abschätzen?
 Ja. Der Bromic-Planungsleitfaden führt Schritt für Schritt durch Auslegung, Anschlüsse und ein Gesamtbudget.

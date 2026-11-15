@@ -15,8 +15,8 @@ meta_description: "Nachhaltig heizen im Freien, für Architekten: auf Menschen g
 cta: {label: "Planungsleitfaden (Ausgabe für Fachleute) anfordern", asset: A02}
 hero: w-mountain-view-retreat-platinum-electric-rece
 images: [w-residential-us-pavillion-du-lac-1]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -25,7 +25,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLOG-46
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: US General Services Administration
@@ -117,13 +117,13 @@ WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Controls, sepa
 
 In einem vollelektrischen Gebäude hängen elektrische Infrarot-Heizstrahler die Terrasse an dieselbe Versorgung wie alles andere, ohne Gasleitung zur Terrasse. Platinum Smart-Heat Electric gibt es mit 2300, 3400 und 4500 W; je nach Modell und Installation beheizt ein Gerät ca. 6–13 m²[^s3]. Wo örtliche Vorschriften Verbrennung in Neubauten einschränken, lesen Sie [Vorschriften zur vollelektrischen Außenheizung](item:ARC-PP-01), bevor Sie Gas wählen.
 
-Die Stromkreise elektrischer Heizstrahler werden in Deutschland nach DIN VDE 0100 errichtet; in den USA gilt NFPA 70, der National Electrical Code[^s7]. [[VERIFY: current VDE and DVGW rules for outdoor heaters — Raffaele Marti]] Klären Sie Stromkreise, Montagehöhen und Genehmigungen mit dem zuständigen Bauamt und einem Elektrofachbetrieb; die Mindestmontagehöhen je Modell nennt Bromic in seinen eigenen Planungshinweisen[^s2].
+Die Stromkreise elektrischer Heizstrahler werden in Deutschland nach DIN VDE 0100 errichtet; in den USA gilt NFPA 70, der National Electrical Code[^s7]. [[VERIFY: current VDE and DVGW rules for outdoor heaters — Partner Deutschland]] Klären Sie Stromkreise, Montagehöhen und Genehmigungen mit dem zuständigen Bauamt und einem Elektrofachbetrieb; die Mindestmontagehöhen je Modell nennt Bromic in seinen eigenen Planungshinweisen[^s2].
 
 ![Glaspavillon mit auskragendem Dach zwischen herbstlichen Bäumen, schlanke Heizstrahler in der Untersicht](img:w-residential-us-pavillion-du-lac-1)
 
 ## Welche Materialien halten?
 
-Langlebigkeit ist die verlässlichste Nachhaltigkeitsaussage, die ein Produkt machen kann: Der Heizstrahler, den Sie nicht ersetzen, verursacht keine neue graue Energie. Platinum Smart-Heat Electric hat ein Gehäuse aus Edelstahl 304 mit 3 Jahren Garantie[^s4]. Für Küstenstandorte verwendet Platinum Smart-Heat Electric Marine Edelstahl AISI 316 in Marinequalität und erreicht die Schutzart IPX5[^s5]. Wählen Sie die Güte passend zur Umgebung, statt später einen korrodierten Heizstrahler zu ersetzen. [[VERIFY: Garantiebedingungen für den deutschen Markt — Mike Clifford]]
+Langlebigkeit ist die verlässlichste Nachhaltigkeitsaussage, die ein Produkt machen kann: Der Heizstrahler, den Sie nicht ersetzen, verursacht keine neue graue Energie. Platinum Smart-Heat Electric hat ein Gehäuse aus Edelstahl 304 mit 3 Jahren Garantie[^s4]. Für Küstenstandorte verwendet Platinum Smart-Heat Electric Marine Edelstahl AISI 316 in Marinequalität und erreicht die Schutzart IPX5[^s5]. Wählen Sie die Güte passend zur Umgebung, statt später einen korrodierten Heizstrahler zu ersetzen. [[VERIFY: Garantiebedingungen für den deutschen Markt — Produktteam]]
 
 <div class="diagram">Diagramm: Grundriss einer Terrasse, aufgeteilt in drei beheizte Zonen (Essen, Lounge, Bar), jede an einem eigenen Kanal des Steuergeräts mit eigenem Zeitplan; die Wärme ist auf die Sitzplätze gerichtet, nicht auf freie Bodenfläche.</div>
 

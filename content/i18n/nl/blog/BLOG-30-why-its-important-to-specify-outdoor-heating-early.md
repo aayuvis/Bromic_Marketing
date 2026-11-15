@@ -19,8 +19,8 @@ meta_description: "Schrijf buitenverwarming voor in het schetsontwerp: groepen, 
 cta: {label: "Download de spec kit", asset: A11}
 hero: w-pilarshoots-hr-achtoptien-00-72
 images: [g-rough-in, g-plans]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -87,7 +87,7 @@ Schrijf buitenverwarming voor in het schetsontwerp, omdat ze dingen bepaalt die 
 Omdat niemand er in de conceptfase eigenaar van is. Verlichting ligt bij de installatieadviseur, schaduw bij de landschapsarchitect, de constructie bij de constructeur. Verwarming valt ertussenin, en opdrachtgevers brengen het zelden ter sprake.
 
 **23%** van de Amerikaanse huiseigenaren noemt buitenverwarming een topprioriteit bij het plannen.[^s1]\
-*Atomik Research voor Bromic Heating, 2025* [[VERIFY: datum van de enquête, steekproefgrootte n en vraagstelling tegen de topline van Atomik — Megan Spies]]
+*Atomik Research voor Bromic Heating, 2025* [[VERIFY: datum van de enquête, steekproefgrootte n en vraagstelling tegen de topline van Atomik — marketing]]
 
 Het terras wordt getekend. De warmte niet. Dan komt de eerste koele avond en staat de ruimte waarvoor de opdrachtgever heeft betaald leeg.
 
@@ -112,7 +112,7 @@ Vanaf het begin ontworpen, niet achteraf toegevoegd: elke rij hierboven is een l
 
 **Voorlopig en definitief ontwerp.** Leg het montagetype vast. Platinum Smart-Heat Electric (2300, 3400 of 4500 W) wordt ingebouwd of op het plafond of de wand gemonteerd; voor inbouw moeten de inbouwset en de holte nu worden getekend, niet bij de afwerking.[^s3] Houd de minimale montagehoogtes van Bromic aan: minstens 1,8 m boven de vloer op een wand en minstens 2,4 m aan een plafond, afhankelijk van het vermogen.[^s2]
 
-**Bestek en werktekeningen.** Zet een eigen groep naar elke positie op het groepenschema. Een Platinum van 4500 W trekt ongeveer 19,6 A op 230 V, dus de stroom moet bekend zijn voordat de installateur de groep dimensioneert volgens NEN 1010.[^s4] [[VERIFY: stroom en voedingsspanning per model tegen het productblad van 2026 — Mike Clifford]] Neem de verwarmer met zijn bediening op in het bestek als referentieproduct; [zo schrijf je buiten-infraroodverwarmers voor](item:ARC-IN-01) geeft de besteksparagraaf, en [de checklist voor voorbekabeling](item:BLD-IN-01) geeft de ruwe installatie.
+**Bestek en werktekeningen.** Zet een eigen groep naar elke positie op het groepenschema. Een Platinum van 4500 W trekt ongeveer 19,6 A op 230 V, dus de stroom moet bekend zijn voordat de installateur de groep dimensioneert volgens NEN 1010.[^s4] [[VERIFY: stroom en voedingsspanning per model tegen het productblad van 2026 — productteam]] Neem de verwarmer met zijn bediening op in het bestek als referentieproduct; [zo schrijf je buiten-infraroodverwarmers voor](item:ARC-IN-01) geeft de besteksparagraaf, en [de checklist voor voorbekabeling](item:BLD-IN-01) geeft de ruwe installatie.
 
 ![Plafond van een overdekt terras tijdens de ruwe installatie met achterhout, kabels en aansluitdozen](img:g-rough-in)
 
@@ -138,7 +138,7 @@ Het legt de vragen over de normen voor terwijl het ontwerp nog kan veranderen. I
 
 **Horeca en utiliteit.** Warmte is capaciteit. Tel de verwarmde zitplaatsen en de avonden die ze opleveren, plan zones die passen bij de servicesecties, en kies de energiebron aan de hand van de lokale regels voor propaan, vóór de vergunningsaanvraag. Het ontwerpteam van Bromic plande de warmte voor [Stella's Wine Bar in het Post Oak Hotel](https://www.bromic.com/case-study/eclipse-pendant-and-platinum-electric-at-stellas-wine-bar/) in Houston als een 2D-warmteplan met Eclipse-pendels en Platinum Electric-verwarmers op dimmers; bij [The Industrie](https://www.bromic.com/case-study/albany-zero-emissions-multifamily-building/), een volledig elektrisch appartementengebouw in Albany, gebruikt het dakterras Eclipse-verwarmers in plaats van gasvuurtafels.
 
-De video van de live post met ontwerper Danny Wang van DW Design & Build hoort hier. [[VERIFY: de video van Danny Wang insluiten en alleen parafraseren wat hij erin zegt — Megan Spies]][^s7]
+De video van de live post met ontwerper Danny Wang van DW Design & Build hoort hier. [[VERIFY: de video van Danny Wang insluiten en alleen parafraseren wat hij erin zegt — marketing]][^s7]
 
 ## Veelgestelde vragen
 

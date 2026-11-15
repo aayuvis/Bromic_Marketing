@@ -13,7 +13,7 @@ ai_prompt: "Wie viele Heizstrahler brauche ich für eine Restaurantterrasse mit 
 meta_description: "Die Zahl der Heizstrahler für 40 Plätze hängt bei Deckengeräten von der Fläche ab; bei freistehenden Geräten nie mehr als vier Plätze je Gerät. Rechenbeispiel mit ca. 74 m²."
 cta: {label: "Planungsgespräch vereinbaren", asset: A07}
 hero: p-002-001
-owner_review: Blake Petty
+owner_review: Vertrieb Gastronomie
 status: draft
 gated: false
 related: [COM-IN-01, COM-AW-01]
@@ -21,7 +21,7 @@ updated: 2026-10-30
 lang: de
 translation_of: COM-IN-KB1
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -59,7 +59,7 @@ Bei Deckenheizstrahlern hängt es von der Fläche ab; bei freistehenden Heizstra
 | Teilweise überdacht (Pergola, Schirm, Teildach) | 1,0 | Kühl (ca. 4–10 °C) | 0,85 |
 | Überdacht (festes Dach) | 1,1 | Kalt (oft unter ca. 4 °C) | 0,7 |
 
-Die Faktoren sind Planungsannahmen, keine veröffentlichten Kennwerte. [[VERIFY: cover and climate factors — Mike Clifford]] Sie folgen dem Beispiel von Bromic, in dem dieselbe Terrasse von ca. 19 m² in Kalifornien zwei und in Massachusetts drei Heizstrahler braucht und eine Teilüberdachung eine Wärmewolke bildet.[^s2]
+Die Faktoren sind Planungsannahmen, keine veröffentlichten Kennwerte. [[VERIFY: cover and climate factors — Produktteam]] Sie folgen dem Beispiel von Bromic, in dem dieselbe Terrasse von ca. 19 m² in Kalifornien zwei und in Massachusetts drei Heizstrahler braucht und eine Teilüberdachung eine Wärmewolke bildet.[^s2]
 
 ## Rechenbeispiel
 
@@ -69,9 +69,9 @@ Die Faktoren sind Planungsannahmen, keine veröffentlichten Kennwerte. [[VERIFY:
 |---|---|---|---|---|
 | Platinum Smart-Heat Electric 4500 W | 13,3 m² | 74,3 ÷ (13,3 × 0,85) = 6,6 | 7 | Affinity On/Off- oder Dimmer-Steuergerät, Wandschalter |
 | Eclipse Smart-Heat Electric | ca. 11,2 m² | 74,3 ÷ (11,2 × 0,85) = 74,3 ÷ 9,52 = 7,8 | 8 | Eclipse-Steuergerät, Wandschalter |
-| Tungsten Smart-Heat Freestanding Gas | ca. 20 m² | 74,3 ÷ (20 × 0,85) = 4,4, aber 40 Plätze ÷ 4 = 10 | 10 | [[VERIFY: control options — Mike Clifford]] |
+| Tungsten Smart-Heat Freestanding Gas | ca. 20 m² | 74,3 ÷ (20 × 0,85) = 4,4, aber 40 Plätze ÷ 4 = 10 | 10 | [[VERIFY: control options — Produktteam]] |
 
-Eine offene Terrasse oder kältere Abende senken den Faktor und erhöhen die Zahl der Deckengeräte; ein festes Dach erhöht ihn und senkt die Zahl. Die Zahl der freistehenden Geräte bleibt bei 40 Plätzen in jedem Fall bei zehn. Kleinere Platinum-Modelle beheizen weniger (3400 W ca. 10 m², 2300 W ca. 6 m²) und brauchen mehr Geräte.[^s1] [[VERIFY: coverage per Platinum wattage and mounting height — Mike Clifford]] WLAN- und App-Funktionen – Zonen, Zeitpläne, Timer – erfordern kompatible Affinity Smart-Heat Controls, separat erhältlich.[^s1]
+Eine offene Terrasse oder kältere Abende senken den Faktor und erhöhen die Zahl der Deckengeräte; ein festes Dach erhöht ihn und senkt die Zahl. Die Zahl der freistehenden Geräte bleibt bei 40 Plätzen in jedem Fall bei zehn. Kleinere Platinum-Modelle beheizen weniger (3400 W ca. 10 m², 2300 W ca. 6 m²) und brauchen mehr Geräte.[^s1] [[VERIFY: coverage per Platinum wattage and mounting height — Produktteam]] WLAN- und App-Funktionen – Zonen, Zeitpläne, Timer – erfordern kompatible Affinity Smart-Heat Controls, separat erhältlich.[^s1]
 
 ## Vor der Bestellung
 

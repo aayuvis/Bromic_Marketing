@@ -15,8 +15,8 @@ meta_description: "Platinum Electric Marine: von Lloyd's Register zugelassen, Ed
 cta: {label: "Planungsgespräch vereinbaren", asset: A07}
 hero: w-marine-grade-platinum-electric-white-lady-le
 images: [w-platinum-marine-ritz-carlton-evrima-jack-har-2, w-my-lel-4-lr]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -25,7 +25,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLOG-33
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -66,7 +66,7 @@ sources:
 
 Der Platinum Smart-Heat Electric Marine von Bromic ist ein Heizstrahler, den Lloyd's Register für den Einsatz auf See zugelassen hat, zertifiziert nach der Umweltkategorie ENV5.[^s2] Nach Angaben von Bromic war es die erste Heizstrahler-Serie für den Außenbereich mit dieser Zulassung.[^s2] Er ist aus seewasserbeständigem Edelstahl AISI 316 gebaut, nach IPX5 geschützt und in 2300, 3400 und 4500 W für ca. 6 bis 13 m² Deck erhältlich, gesteuert über Affinity-Steuergeräte.[^s1]
 
-[[VERIFY: hier das Zertifikat von Lloyd's Register verlinken (Nummer, Geltungsbereich, Ablaufdatum); weder auf bromic.com noch in einer öffentlichen Suche gefunden — Mike Clifford]]
+[[VERIFY: hier das Zertifikat von Lloyd's Register verlinken (Nummer, Geltungsbereich, Ablaufdatum); weder auf bromic.com noch in einer öffentlichen Suche gefunden — Produktteam]]
 
 ![Lounge auf dem Achterdeck einer Superyacht in der Abenddämmerung mit Platinum-Electric-Marine-Heizstrahlern, in die Decke eingebaut](img:w-marine-grade-platinum-electric-white-lady-le)
 
@@ -87,7 +87,7 @@ Bromic hat die Marine-Serie für diese Bedingungen konstruiert: ein Gehäuse, da
 | Zulassung | Lloyd's Register (ENV5) |
 | Garantie | 5 Jahre an Land, 3 Jahre auf Schiffen |
 
-Quellen: Produktseite[^s1] und die Superyacht-Seite.[^s2] In den FAQ der Produktseite steht Edelstahl „314“, und die Superyacht-Seite nennt „IPx55“, was keine gültige Schutzart ist; wir verwenden 316 und IPX5. [[VERIFY: Stahlsorte (316 oder 314) und Schutzart (IPX5 oder IPx55) auf den Live-Seiten — Mike Clifford]]
+Quellen: Produktseite[^s1] und die Superyacht-Seite.[^s2] In den FAQ der Produktseite steht Edelstahl „314“, und die Superyacht-Seite nennt „IPx55“, was keine gültige Schutzart ist; wir verwenden 316 und IPX5. [[VERIFY: Stahlsorte (316 oder 314) und Schutzart (IPX5 oder IPx55) auf den Live-Seiten — Produktteam]]
 
 ## Welche Leistungen, und wie viel Deck beheizen sie?
 
@@ -99,7 +99,7 @@ Die Fassung dieses Beitrags von 2020 nannte 2300 und 3400 W für bis zu 10 m².[
 | 3400 W | 10 m² | 10 kg |
 | 4500 W | 13 m² | 15 kg |
 
-Alle drei laufen an 220–240 V oder 208 V.[^s1] [[VERIFY: Marine-Daten von bromic.com übernommen; mit dem Datenblatt 2026 und den von Bromic unterstützten Bordnetzspannungen abgleichen — Mike Clifford]]
+Alle drei laufen an 220–240 V oder 208 V.[^s1] [[VERIFY: Marine-Daten von bromic.com übernommen; mit dem Datenblatt 2026 und den von Bromic unterstützten Bordnetzspannungen abgleichen — Produktteam]]
 
 ![Poolbar einer Yacht unter weißen Platinum-Electric-Marine-Heizstrahlern, eingebaut in eine geschwungene Decke](img:w-platinum-marine-ritz-carlton-evrima-jack-har-2)
 
@@ -115,7 +115,7 @@ Affinity Smart-Heat On/Off- oder Dimmer-Steuergeräte oder einen manuellen Wands
 
 ## Wo ist er schon auf See im Einsatz?
 
-Bromic hat drei Marine-Projekte veröffentlicht (auf Englisch): [M/Y Lady Lene](https://www.bromic.com/case-study/m-y-lady-lene-superyacht/), [M/Y Coral Ocean](https://www.bromic.com/case-study/platinum-electric-marine-heaters-aboard-iconic-superyacht-m-y-coral-ocean/) und die [Evrima](https://www.bromic.com/case-study/platinum-electric-marine-heaters-aboard-ritz-carlton-yacht-collections-evrima/) der Ritz-Carlton Yacht Collection. Der Beitrag, den dieser ersetzt, zitierte Daniel Bruntsch, Marine-Verantwortlicher bei Bromic, zum Konstruieren für das Leben auf See; wir lassen sein Zitat weg, bis es bestätigt ist. [[VERIFY: aktuelle Funktionsbezeichnung von Daniel Bruntsch und Wortlaut seines Zitats — Megan Spies]]
+Bromic hat drei Marine-Projekte veröffentlicht (auf Englisch): [M/Y Lady Lene](https://www.bromic.com/case-study/m-y-lady-lene-superyacht/), [M/Y Coral Ocean](https://www.bromic.com/case-study/platinum-electric-marine-heaters-aboard-iconic-superyacht-m-y-coral-ocean/) und die [Evrima](https://www.bromic.com/case-study/platinum-electric-marine-heaters-aboard-ritz-carlton-yacht-collections-evrima/) der Ritz-Carlton Yacht Collection. Der Beitrag, den dieser ersetzt, zitierte Daniel Bruntsch, Marine-Verantwortlicher bei Bromic, zum Konstruieren für das Leben auf See; wir lassen sein Zitat weg, bis es bestätigt ist. [[VERIFY: aktuelle Funktionsbezeichnung von Daniel Bruntsch und Wortlaut seines Zitats — Marketing]]
 
 ## Häufige Fragen
 
@@ -129,7 +129,7 @@ Meist bündig in die Decke eingebaut, Wand- und Deckenabhängung sind aber mögl
 
 ### Was bedeutet ENV5?
 
-Das ist die Umweltkategorie von Lloyd's Register, nach der der Heizstrahler zertifiziert ist.[^s2] [[VERIFY: allgemeinverständliche Definition von ENV5 aus der Lloyd's Register Test Specification Number 1 — Mike Clifford]]
+Das ist die Umweltkategorie von Lloyd's Register, nach der der Heizstrahler zertifiziert ist.[^s2] [[VERIFY: allgemeinverständliche Definition von ENV5 aus der Lloyd's Register Test Specification Number 1 — Produktteam]]
 
 ### Ist die Steuerung im Lieferumfang?
 

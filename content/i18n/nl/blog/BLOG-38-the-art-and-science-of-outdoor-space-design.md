@@ -14,8 +14,8 @@ ai_prompt: "Waar moeten architecten op letten bij het ontwerpen van een buitente
 meta_description: "Frank Cavanaugh van Aria Group over context, lokale regels, sfeer en flexibiliteit bij het ontwerpen van horecaterrassen, en waar verwarming in het plan hoort."
 cta: {label: "Download de specificatiekit voor architecten", asset: A11}
 hero: w-stellas-wine-bar-houston-tx-3
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false

@@ -15,7 +15,7 @@ meta_description: "Plan patio heating in nine steps: measure, choose fuel and st
 cta: {label: "Book a design consult", asset: A07}
 hero: l-010-071
 images: [l-007-035, l-019-163, l-013-102, t-009-025, l-010-067]
-owner_review: Mike Clifford + 454 Creative
+owner_review: Product team + 454 Creative
 status: draft
 gated: true
 related: [RES-IN-01, RES-CO-01, BLD-IN-01]
@@ -259,7 +259,7 @@ Source: Bromic Planning Guide 2021[^s3]. A fire pit is a focal point, not a heat
 - **Natural gas:** cost per hour = Btu per hour ÷ 100,000 × $ per therm
 - **Propane:** cost per hour = Btu per hour ÷ 91,500[^s23] × $ per gallon
 
-Rates used, US averages: electricity 13.54¢/kWh (EIA, commercial, May 2026)[^s18]; natural gas $0.87 per therm (EIA, commercial, January–May 2026 average)[^s19]; propane $2.674 per gallon (EIA, residential, week of 30 March 2026)[^s20]. Home electricity and gas are billed at residential rates: put the rate from your own bill into the formula. [[VERIFY: 2026 residential rates to publish beside the commercial ones — Brian Kim/Finance]]
+Rates used, US averages: electricity 13.54¢/kWh (EIA, commercial, May 2026)[^s18]; natural gas $0.87 per therm (EIA, commercial, January–May 2026 average)[^s19]; propane $2.674 per gallon (EIA, residential, week of 30 March 2026)[^s20]. Home electricity and gas are billed at residential rates: put the rate from your own bill into the formula. [[VERIFY: 2026 residential rates to publish beside the commercial ones — Finance]]
 
 | Heater at full output | Energy per hour | Cost per hour |
 |---|---|---|
@@ -311,7 +311,7 @@ Heaters needed = area ÷ (coverage per heater × cover factor × climate factor)
 | Partly covered (pergola, umbrella, part roof) | 1.0 | Cool (about 40–50°F) | 0.85 |
 | Covered (solid roof) | 1.1 | Cold (often below about 40°F) | 0.7 |
 
-[[VERIFY: cover and climate factors — Mike Clifford]] Not sure? Use partly covered and cool: 1.0 × 0.85 = 0.85. Measure the seating, not the whole deck; if you know the seats rather than the area, allow 20 ft² a seat.
+[[VERIFY: cover and climate factors — Product team]] Not sure? Use partly covered and cool: 1.0 × 0.85 = 0.85. Measure the seating, not the whole deck; if you know the seats rather than the area, allow 20 ft² a seat.
 
 **Freestanding heaters** (Tungsten Freestanding Gas, Eclipse Freestanding) serve no more than four seats each, because the guests themselves block the radiant heat. Count both ways and take the larger: area ÷ (coverage × factors), or seats ÷ 4.
 
@@ -326,7 +326,7 @@ Heaters needed = area ÷ (coverage per heater × cover factor × climate factor)
 | Tungsten Freestanding Gas, 38,000 Btu | 215 ft²[^s2] |
 | Tungsten Electric Coastal and Select (coming soon) | 64–144 ft² by model[^s2] |
 
-Coverage is approximate and varies with mounting height, wind and installation[^s2]. Product-page values read on 29 October 2026. [[VERIFY: coverage and output per model against the 2026 cut sheets; Eclipse 2900 W (spec table) vs 3000 W (FAQ); Tungsten Freestanding Gas 38,000 Btu (Lookbook) vs 38,500 (site) — Mike Clifford]]
+Coverage is approximate and varies with mounting height, wind and installation[^s2]. Product-page values read on 29 October 2026. [[VERIFY: coverage and output per model against the 2026 cut sheets; Eclipse 2900 W (spec table) vs 3000 W (FAQ); Tungsten Freestanding Gas 38,000 Btu (Lookbook) vs 38,500 (site) — Product team]]
 
 The free [How many heaters? calculator](asset:A03) does this for you with the same cover and climate factors.
 
@@ -352,11 +352,11 @@ Electric heaters are hard-wired. Your electrician sizes each circuit from the he
 |---|---|---|
 | Platinum Electric 2300 / 3400 / 4500 W | 11.1 / 16.3 / 21.6 | 9.6 / 14.2 / 18.8[^s5] |
 | Eclipse Electric 2900 W | 13.9 | 12.1[^s7] |
-| Eclipse Freestanding 2900 W | — | 12.1[^s8] |
+| Eclipse Freestanding 2900 W | – | 12.1[^s8] |
 | Cobalt Electric 4000 / 6000 W | 18.75 / 28.4 | 16.6 / 25[^s9] |
 | Tungsten Electric 2000 / 3000 / 4000 / 6000 W | 9.6 / 14.4 / 19.2 / 28.8 | 8.3 / 12.5 / 16.7 / 25.0 |
 
-Tungsten Electric amps are calculated as watts ÷ volts; the product page does not list them. [[VERIFY: Tungsten Electric amps per model at 208, 240 and 277 V — Mike Clifford]]
+Tungsten Electric amps are calculated as watts ÷ volts; the product page does not list them. [[VERIFY: Tungsten Electric amps per model at 208, 240 and 277 V — Product team]]
 
 Built-in gas heaters need a gas line from a licensed gas fitter and a 110 V, 2 A electrical supply[^s10][^s11]. The Tungsten Freestanding Gas runs on a 20 lb propane cylinder or a 10 ft natural-gas quick-connect line[^s12].
 
@@ -377,9 +377,9 @@ A heater without a control is not a finished system. Every plan needs all four p
 | Manual wall switch | On/off at the door | Rated 20 A, 120–277 V[^s16] |
 | Bromic Smart-Heat app | Zones, schedules, timers | Works through a compatible Affinity controller |
 
-**Heaters per 6 kW channel:** Tungsten 2000 W: 3 · 3000 W: 2 · 4000 or 6000 W: 1 · Platinum 2300 W: 2 · 3400 or 4500 W: 1 · Cobalt: 1 · Eclipse: 1 (on an Eclipse controller). Arithmetic on the 6 kW rating; the circuit can set a lower limit. [[VERIFY: controller capacities and compatibility — Mike Clifford]]
+**Heaters per 6 kW channel:** Tungsten 2000 W: 3 · 3000 W: 2 · 4000 or 6000 W: 1 · Platinum 2300 W: 2 · 3400 or 4500 W: 1 · Cobalt: 1 · Eclipse: 1 (on an Eclipse controller). Arithmetic on the 6 kW rating; the circuit can set a lower limit. [[VERIFY: controller capacities and compatibility — Product team]]
 
-The Eclipse Freestanding comes with an Eclipse Dimmer Controller and remote[^s8]. Built-in gas switches on and off only; it does not dim[^s10]. [[VERIFY: which controls the Tungsten Freestanding Gas uses — Mike Clifford]]
+The Eclipse Freestanding comes with an Eclipse Dimmer Controller and remote[^s8]. Built-in gas switches on and off only; it does not dim[^s10]. [[VERIFY: which controls the Tungsten Freestanding Gas uses — Product team]]
 
 Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately. The app also works with Amazon Alexa, Google Assistant, Control4, Crestron and Lutron; compatibility varies and may need extra hardware or setup[^s2].
 
@@ -417,7 +417,7 @@ Clearances to the ceiling and to anything combustible are set by each model's in
 | Tungsten Freestanding Gas | 1 year (propane model)[^s12] |
 | Affinity Smart-Heat Controls | 1 year[^s13] |
 
-[[VERIFY: warranty terms per model, including the Tungsten Freestanding Gas natural-gas model — Mike Clifford]]
+[[VERIFY: warranty terms per model, including the Tungsten Freestanding Gas natural-gas model — Product team]]
 
 - [ ] Mount heights meet the minimums
 - [ ] Clearances from each installation manual
@@ -429,7 +429,7 @@ Clearances to the ceiling and to anything combustible are set by each model's in
 
 Bromic's design specialists review your photos, plans or drawings and recommend heaters, placement and controls, with coverage drawings, at no charge[^s2].
 
-A complete quote has five lines: heaters and mounting kits; controls; installation; permits; running cost. US list prices on bromic.com (29 October 2026) start from $798 for a Tungsten Electric heater and $370 for an Affinity On/Off controller[^s4][^s13]. [[VERIFY: list prices to publish — Mike Clifford]]
+A complete quote has five lines: heaters and mounting kits; controls; installation; permits; running cost. US list prices on bromic.com (29 October 2026) start from $798 for a Tungsten Electric heater and $370 for an Affinity On/Off controller[^s4][^s13]. [[VERIFY: list prices to publish — Product team]]
 
 - [ ] Checklists from Steps 1–8 filled in
 - [ ] Photos or plans ready

@@ -14,8 +14,8 @@ ai_prompt: "Zijn infrarood terrasverwarmers veilig in gebruik?"
 meta_description: "Infrarood terrasverwarmers zijn veilig als ze gecertificeerd zijn, volgens de voorschriften zijn geïnstalleerd en vrij staan van brandbare materialen. Elektrisch of gas, ventilatie en afstanden per model."
 cta: {label: "Bereken je ruimte", asset: A03}
 hero: w-tungsten-electric-white-recessed
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -96,7 +96,7 @@ Een infraroodverwarmer verwarmt mensen, meubels en vloeren direct, zoals zonlich
 
 ## Hoe open moet een ruimte zijn voor gas?
 
-De planningsgids van Bromic noemt een ruimte een buitenruimte als ten minste 30% van de omtrek permanent open is.[^s1] Twee oudere blogs van Bromic noemden andere cijfers: 25% open wandoppervlak en 75% open wanden.[^s3] Die trekken we hier allebei in. Voor jouw terras geldt de installatiehandleiding van de verwarmer en de gasnorm zoals je gemeente die toepast; in Nederland is dat NEN 1078. [[VERIFY: de ventilatie-eis in de handleidingen van Platinum Gas, Tungsten Gas en Tungsten Freestanding — Mike Clifford]] [[VERIFY: ventilatie-eisen voor gasterrasverwarmers in overdekte ruimtes volgens NEN 1078 — Bromic Benelux distributor]]
+De planningsgids van Bromic noemt een ruimte een buitenruimte als ten minste 30% van de omtrek permanent open is.[^s1] Twee oudere blogs van Bromic noemden andere cijfers: 25% open wandoppervlak en 75% open wanden.[^s3] Die trekken we hier allebei in. Voor jouw terras geldt de installatiehandleiding van de verwarmer en de gasnorm zoals je gemeente die toepast; in Nederland is dat NEN 1078. [[VERIFY: de ventilatie-eis in de handleidingen van Platinum Gas, Tungsten Gas en Tungsten Freestanding — productteam]] [[VERIFY: ventilatie-eisen voor gasterrasverwarmers in overdekte ruimtes volgens NEN 1078 — Bromic Benelux distributor]]
 
 ## Montagehoogtes en vrije afstanden per model
 
@@ -111,15 +111,15 @@ De planningsgids van Bromic noemt een ruimte een buitenruimte als ten minste 30%
 | Tungsten Gas | 2,44 m | Plaats een warmtedeflector als er minder dan 1.070 mm ruimte boven zit[^s2] |
 | Tungsten Smart-Heat Freestanding | Vrijstaand | Ontwerp tegen omvallen; geschikt voor wind tot 13 km/u[^s2] |
 
-Waarden van de productpagina's van Bromic.[^s2] [[VERIFY: alle hoogtes controleren aan de productbladen van 2026, en per model de afstanden opzij en onder tot brandbare materialen uit de handleidingen toevoegen — Mike Clifford]] Houd alles wat kan branden, zoals kussens, zonneschermen, parasols en planten, minstens 91 cm uit de buurt, of verder als de handleiding dat zegt.[^s5] Meer over vrije afstanden: [afstand van verwarmers tot brandbare materialen](item:ARC-BY-KB1).
+Waarden van de productpagina's van Bromic.[^s2] [[VERIFY: alle hoogtes controleren aan de productbladen van 2026, en per model de afstanden opzij en onder tot brandbare materialen uit de handleidingen toevoegen — productteam]] Houd alles wat kan branden, zoals kussens, zonneschermen, parasols en planten, minstens 91 cm uit de buurt, of verder als de handleiding dat zegt.[^s5] Meer over vrije afstanden: [afstand van verwarmers tot brandbare materialen](item:ARC-BY-KB1).
 
 ## Geven infraroodverwarmers dampen of uv af?
 
-Elektrische modellen geven geen dampen af. Gasmodellen maken koolmonoxide, dat je niet kunt zien of ruiken, en horen daarom in de open lucht.[^s4] Infrarood ligt bij langere golflengtes dan zichtbaar licht; ultraviolet bij kortere. Verwarmers van Bromic zijn ontworpen om infrarood uit te zenden. [[VERIFY: eventuele gegevens over uv-uitstraling van Bromic-elementen voordat "geen uv" wordt beweerd — Mike Clifford]]
+Elektrische modellen geven geen dampen af. Gasmodellen maken koolmonoxide, dat je niet kunt zien of ruiken, en horen daarom in de open lucht.[^s4] Infrarood ligt bij langere golflengtes dan zichtbaar licht; ultraviolet bij kortere. Verwarmers van Bromic zijn ontworpen om infrarood uit te zenden. [[VERIFY: eventuele gegevens over uv-uitstraling van Bromic-elementen voordat "geen uv" wordt beweerd — productteam]]
 
 ## Dagelijkse veiligheidschecklist
 
-1. **Gecertificeerd en vakkundig geïnstalleerd.** Kijk naar het keurmerk op het toestel; de Amerikaanse gids noemt Intertek, UL of CSA.[^s1] [[VERIFY: welke keurmerken de Europese modellen dragen — Mike Clifford]]
+1. **Gecertificeerd en vakkundig geïnstalleerd.** Kijk naar het keurmerk op het toestel; de Amerikaanse gids noemt Intertek, UL of CSA.[^s1] [[VERIFY: welke keurmerken de Europese modellen dragen — productteam]]
 2. **Waterpas en stabiel.** Zet vrijstaande verwarmers op een stevige, vlakke ondergrond. Tungsten Freestanding heeft een ontwerp tegen omvallen; Eclipse Freestanding heeft een verzwaarde voet.[^s7]
 3. **Nooit zonder toezicht, nooit 's nachts.** Zet verwarmers uit als iedereen weggaat.[^s5] Draai bij gas de toevoer helemaal dicht.[^s3]
 4. **Propaanflessen.** Houd ze rechtop en dicht. Bewaar ze buiten, geventileerd, uit de buurt van warmte en alles wat kan branden, en nooit in huis.[^s3][^s6]

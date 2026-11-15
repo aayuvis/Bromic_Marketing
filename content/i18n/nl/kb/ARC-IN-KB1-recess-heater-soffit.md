@@ -18,7 +18,7 @@ meta_description: "Kan een buitenverwarmer worden ingebouwd in een overstek? Ja,
 cta: {label: "Download de spec kit", asset: A11}
 hero: t-006-016
 images: []
-owner_review: Mike Clifford
+owner_review: productteam
 status: draft
 gated: false
 related: [ARC-IN-01, ARC-BY-01]
@@ -59,7 +59,7 @@ Bron: Lookbook 2026 en Planning Guide[^s1][^s2].
 - [ ] Montagehoogte in doorsnede (plafondmontage minimaal 2,4 m, afhankelijk van het vermogen)[^s1]
 - [ ] Positie van regelaar en wandschakelaar
 
-[[VERIFY: sparingsmaat, holtediepte en vrije ruimte in de holte per model — Mike Clifford]]
+[[VERIFY: sparingsmaat, holtediepte en vrije ruimte in de holte per model — productteam]]
 
 Schrijf bij elke ingebouwde verwarmer de bediening voor: een Affinity Smart-Heat On/Off- of Dimmer-regelaar, een wandschakelaar en de Bromic Smart-Heat app. Wifi- en app-functies vragen om compatibele Affinity Smart-Heat Controls, apart verkrijgbaar[^s2].
 

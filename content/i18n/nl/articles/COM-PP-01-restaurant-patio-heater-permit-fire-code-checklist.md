@@ -14,7 +14,7 @@ meta_description: "Heeft u een vergunning nodig voor terrasverwarmers? Vaak wel.
 cta: {label: "Download de checklist voor vergunningen en brandveiligheid", asset: A22}
 hero: l-016-131
 images: [p-014-066]
-owner_review: Shaughn Ritchie
+owner_review: specificatie en compliance
 status: draft
 gated: false
 related: [COM-PP-KB1, COM-CO-01, COM-BY-01, COM-IN-01]
@@ -103,7 +103,7 @@ Een paar normen en regels, plus de terrasregels van uw gemeente.
 | Verplaatsbaar gas (propaan) | Brandveiligheidsregels van gemeente en veiligheidsregio [[VERIFY: welke Nederlandse regels gelden voor verplaatsbare propaanverwarmers en de opslag van gasflessen bij horeca — Bromic Benelux distributor]] | International Fire Code 605.5 of NFPA 1, plus NFPA 58 voor LPG[^s1][^s4] | Gemeente, brandweer |
 | Elke verwarmer op de openbare weg | Terrasvergunning en APV van de gemeente | Regels voor stoepcafés en buiten eten in de stad | Gemeente |
 
-Elke verwarmer hoort een keurmerk te dragen; in het Amerikaanse origineel zijn dat Intertek, UL of CSA.[^s7] Verplaatsbare gasterrasverwarmers zijn in de VS gecertificeerd volgens ANSI Z83.26/CSA 2.37.[^s2] [[VERIFY: welke Europese keurmerken (CE en eventuele andere) de Bromic-modellen in Nederland dragen — Mike Clifford]]
+Elke verwarmer hoort een keurmerk te dragen; in het Amerikaanse origineel zijn dat Intertek, UL of CSA.[^s7] Verplaatsbare gasterrasverwarmers zijn in de VS gecertificeerd volgens ANSI Z83.26/CSA 2.37.[^s2] [[VERIFY: welke Europese keurmerken (CE en eventuele andere) de Bromic-modellen in Nederland dragen — productteam]]
 
 ## Wat zeggen brandveiligheidsregels over verplaatsbare gasverwarmers?
 
@@ -113,23 +113,23 @@ Een voorbeeld uit de VS: volgens de International Fire Code van 2021, zoals veel
 - ze moeten minstens 1,5 m afstand houden tot gebouwen, tot brandbare overkappingen, luifels en zonneschermen, en tot uitgangen en vluchtroutes naar buiten;
 - ze moeten gecertificeerd zijn en worden gebruikt volgens de certificering en de instructies van de fabrikant.
 
-Lokale aanvullingen gaan verder. De Californische versie, zoals sommige steden die hebben overgenomen, verbiedt ze ook op daken.[^s9] [[VERIFY: tekst van IFC 2021 §605.5 controleren aan de ICC-publicatie en NFPA 1-equivalenten noteren voor staten die NFPA 1 volgen — Shaughn Ritchie]]
+Lokale aanvullingen gaan verder. De Californische versie, zoals sommige steden die hebben overgenomen, verbiedt ze ook op daken.[^s9] [[VERIFY: tekst van IFC 2021 §605.5 controleren aan de ICC-publicatie en NFPA 1-equivalenten noteren voor staten die NFPA 1 volgen — specificatie en compliance]]
 
 Zulke afstandsregels tellen mee in de indeling: een terras onder een luifel dat direct tegen het gebouw ligt, is vaak helemaal niet geschikt voor verplaatsbare gasverwarmers, en daar komen vaste elektrische verwarmers in beeld. Vraag uw gemeente welke afstanden in Nederland gelden.
 
 ## En de opslag van propaan?
 
-In de VS regelt NFPA 58 hoe LPG-flessen buiten gebouwen worden opgeslagen, onder meer de afstand tot deuren, en veel brandveiligheidscodes eisen een vergunning boven bepaalde hoeveelheden.[^s4] In de praktijk betekent dat een afgesloten, geventileerde kooi of kast uit de buurt van uitgangen, een telling van wat u opslaat, en een leverancier die legaal bij uw locatie kan leveren. In Nederland gaat het om propaanflessen van 10,5 of 11 kg; vraag de gemeente en de brandweer welke opslagregels gelden. [[VERIFY: afstanden voor flessenopslag buiten gebouwen in de huidige editie van NFPA 58 — Shaughn Ritchie]]
+In de VS regelt NFPA 58 hoe LPG-flessen buiten gebouwen worden opgeslagen, onder meer de afstand tot deuren, en veel brandveiligheidscodes eisen een vergunning boven bepaalde hoeveelheden.[^s4] In de praktijk betekent dat een afgesloten, geventileerde kooi of kast uit de buurt van uitgangen, een telling van wat u opslaat, en een leverancier die legaal bij uw locatie kan leveren. In Nederland gaat het om propaanflessen van 10,5 of 11 kg; vraag de gemeente en de brandweer welke opslagregels gelden. [[VERIFY: afstanden voor flessenopslag buiten gebouwen in de huidige editie van NFPA 58 — specificatie en compliance]]
 
 ## Wat zijn de regels in New York City?
 
-New York City is de strengste grote markt in de VS. De toestemming om propaanverwarmers te gebruiken op terrassen werd per 1 juni 2021 ingetrokken.[^s5] Volgens de richtlijn van het Department of Buildings uit 2024 voor het programma Dining Out NYC moeten elektrische stralingsverwarmers buiten voldoen aan de NYC Electrical Code, en moet elk gaswerk bij het Department of Buildings worden aangemeld.[^s6] Zie [zijn propaanterrasverwarmers toegestaan in New York City?](item:COM-PP-KB1) [[VERIFY: huidig standpunt van FDNY en DOB over propaan- en aardgasverwarmers in stoep- en straatcafés — Shaughn Ritchie]]
+New York City is de strengste grote markt in de VS. De toestemming om propaanverwarmers te gebruiken op terrassen werd per 1 juni 2021 ingetrokken.[^s5] Volgens de richtlijn van het Department of Buildings uit 2024 voor het programma Dining Out NYC moeten elektrische stralingsverwarmers buiten voldoen aan de NYC Electrical Code, en moet elk gaswerk bij het Department of Buildings worden aangemeld.[^s6] Zie [zijn propaanterrasverwarmers toegestaan in New York City?](item:COM-PP-KB1) [[VERIFY: huidig standpunt van FDNY en DOB over propaan- en aardgasverwarmers in stoep- en straatcafés — specificatie en compliance]]
 
 ![Dineren op een dakterras onder een donkere overkapping in de schemering](img:p-014-066)
 
 ## Wat heeft een elektrische installatie nodig?
 
-Een installatie volgens NEN 1010, een eigen groep die de installateur dimensioneert, en montagehoogtes volgens de fabrikant. Bromic adviseert voor zijn elektrische verwarmers minstens 1,83 m boven de vloer aan de wand en 2,44 m aan het plafond, waarbij de afstand tot het plafond afhangt van het vermogen.[^s7] In Nederland is de aansluiting 230 V, 50 Hz; controleer per model of het voor die spanning is uitgevoerd. [[VERIFY: huidige montagehoogtes en vrije afstanden per model uit de installatiehandleidingen — Mike Clifford]]
+Een installatie volgens NEN 1010, een eigen groep die de installateur dimensioneert, en montagehoogtes volgens de fabrikant. Bromic adviseert voor zijn elektrische verwarmers minstens 1,83 m boven de vloer aan de wand en 2,44 m aan het plafond, waarbij de afstand tot het plafond afhangt van het vermogen.[^s7] In Nederland is de aansluiting 230 V, 50 Hz; controleer per model of het voor die spanning is uitgevoerd. [[VERIFY: huidige montagehoogtes en vrije afstanden per model uit de installatiehandleidingen — productteam]]
 
 De bediening hoort bij de installatie, het is geen toevoeging: een Affinity Smart-Heat On/Off- of Dimmer-regelaar en een wandschakelaar voor Platinum en Tungsten Electric (Tungsten Coastal en Select binnenkort leverbaar); de Eclipse-regelaar voor Eclipse. Wifi- en appfuncties vragen om compatibele Affinity Smart-Heat Controls, die apart worden verkocht.[^s8] Koppeling met een gebouwbeheersysteem (Control4, Crestron, Lutron) verschilt per systeem en kan extra hardware vragen.
 

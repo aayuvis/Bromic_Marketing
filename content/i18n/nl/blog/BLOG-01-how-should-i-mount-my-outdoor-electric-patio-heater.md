@@ -15,8 +15,8 @@ meta_description: "Plafond, inbouw of wand: zo monteer je een elektrische terras
 cta: {label: "Download de reeks installatiegidsen", asset: A17}
 hero: w-bromic-tungsten-electric-patio-heater
 images: [w-bromic-sep18th-3-1]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -116,12 +116,12 @@ Ontwerp de bevestiging en de groep voor het model dat je daadwerkelijk krijgt. H
 | Platinum 2300 W | 1,83 m | 2,44 m | 7,7 kg | 10,0 A |
 | Platinum 3400 W | 1,83 m | 2,44 m | 10,0 kg | 14,8 A |
 | Platinum 4500 W | 1,83 m | 2,44 m | 15,0 kg | 19,6 A |
-| Tungsten 2000–6000 W | 1,83 m | 2,44 m | [[VERIFY: per model — Mike Clifford]] | [[VERIFY: per model, bij 230 V — Mike Clifford]] |
+| Tungsten 2000–6000 W | 1,83 m | 2,44 m | [[VERIFY: per model — productteam]] | [[VERIFY: per model, bij 230 V — productteam]] |
 | Cobalt 4000 W | 1,83 m | 2,44 m | 9,0 kg | 17,4 A |
 | Cobalt 6000 W | 1,83 m | 2,44 m | 10,0 kg | 26,1 A |
 | Eclipse Electric 2900 W | Montage op een paal | 2,44 m | 13,6 kg | 12,6 A |
 
-Bronnen: productpagina's[^s3][^s4][^s5]. De stroom is berekend als vermogen ÷ 230 V; de productpagina's geven alleen Amerikaanse spanningen (208 en 240 V). [[VERIFY: stroom per model bij 230 V volgens de Europese specificaties — Mike Clifford]] Platinum Marine heeft dezelfde gewichten en hoogtes als Platinum. Tungsten 4000 en 6000 W hebben twee afzonderlijk te schakelen elementen; in de VS bestaan ze ook voor 277 V[^s4]. Bestel een verwarmer voor de spanning van je aansluiting; op de verkeerde spanning levert hij niet zijn nominale vermogen.
+Bronnen: productpagina's[^s3][^s4][^s5]. De stroom is berekend als vermogen ÷ 230 V; de productpagina's geven alleen Amerikaanse spanningen (208 en 240 V). [[VERIFY: stroom per model bij 230 V volgens de Europese specificaties — productteam]] Platinum Marine heeft dezelfde gewichten en hoogtes als Platinum. Tungsten 4000 en 6000 W hebben twee afzonderlijk te schakelen elementen; in de VS bestaan ze ook voor 277 V[^s4]. Bestel een verwarmer voor de spanning van je aansluiting; op de verkeerde spanning levert hij niet zijn nominale vermogen.
 
 ## Moet ik mijn verwarmer aan het plafond monteren?
 
@@ -131,7 +131,7 @@ Plafondmontage past bij overdekte ruimtes en kan met het hele elektrische assort
 
 Inbouw geeft een vlak plafond en kan met Platinum, Platinum Marine en Tungsten Electric[^s1]. De inbouwdiepte bepaalt de set:
 
-- Inbouwset Tungsten Electric: minstens 536 mm [[VERIFY: 536 mm (21,1 inch) hier tegenover 508 mm (20 inch) in de blog over inbouw — Mike Clifford]][^s1]
+- Inbouwset Tungsten Electric: minstens 536 mm [[VERIFY: 536 mm (21,1 inch) hier tegenover 508 mm (20 inch) in de blog over inbouw — productteam]][^s1]
 - Standaard inbouwset Platinum: minstens 254 mm, afhankelijk van het model[^s1]
 - Platinum Low Clearance Recess Kit: vanaf 180 mm, voor nieuwbouw en renovatie[^s1]
 
@@ -144,7 +144,7 @@ Wandmontage past bij terrassen zonder plafond, of met een schuin of hoog oplopen
 1. **Hoogte.** Minstens 1,83 m tot de verwarmer bij Platinum, Tungsten en Cobalt[^s3][^s5].
 2. **Constructie.** De wand of balk moet het gewicht uit de tabel hierboven dragen, bevestigd op een regel of klos in de constructie[^s2].
 3. **Richting.** Kantel de verwarmer 15–45 graden, afhankelijk van het model, naar de zit- of eetplek, zodat er geen warmte verloren gaat[^s1][^s2].
-4. **Brandbare materialen.** Houd minstens 91 cm afstand tot brandbare materialen: alles wat niet bestand is tegen een temperatuur van ongeveer 65 °C boven de omgevingstemperatuur, zoals doek, zonneschermen, horren, vinyl, tv's, lampen, ventilatoren, sprinklers en stopcontacten[^s2]. [[VERIFY: de Engelse bron noemt 149 graden Fahrenheit boven de omgevingstemperatuur; is dat 65 °C (de omgerekende waarde) of een stijging van 83 K? — Mike Clifford]] De vrije ruimte boven de verwarmer verschilt per model en vermogen [[VERIFY: elektrische vrije ruimte aan de bovenkant — de live blogs noemen 127 mm, 152–305 mm, 203–330 mm en 1,52 m; publiceer één maat per model uit de handleiding — Mike Clifford]].
+4. **Brandbare materialen.** Houd minstens 91 cm afstand tot brandbare materialen: alles wat niet bestand is tegen een temperatuur van ongeveer 65 °C boven de omgevingstemperatuur, zoals doek, zonneschermen, horren, vinyl, tv's, lampen, ventilatoren, sprinklers en stopcontacten[^s2]. [[VERIFY: de Engelse bron noemt 149 graden Fahrenheit boven de omgevingstemperatuur; is dat 65 °C (de omgerekende waarde) of een stijging van 83 K? — productteam]] De vrije ruimte boven de verwarmer verschilt per model en vermogen [[VERIFY: elektrische vrije ruimte aan de bovenkant — de live blogs noemen 127 mm, 152–305 mm, 203–330 mm en 1,52 m; publiceer één maat per model uit de handleiding — productteam]].
 
 Beugels: [Platinum](https://www.bromic.com/product/platinum-electric-wall-mounting-bracket/) en [Tungsten](https://www.bromic.com/product/tungsten-electric-wall-mounting-bracket/). Bekijk het assortiment bij [wandverwarmers](https://www.bromic.com/outdoor-heaters/wall-mounted/).
 

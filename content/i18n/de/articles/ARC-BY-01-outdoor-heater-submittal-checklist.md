@@ -14,7 +14,7 @@ meta_description: "Checkliste für Architekten zu Freigabeunterlagen von Heizstr
 cta: {label: "Planungsgespräch vereinbaren", asset: A07}
 hero: l-010-076
 images: [l-007-035]
-owner_review: Shaughn Ritchie
+owner_review: Spezifikation und Compliance
 status: draft
 gated: false
 related: [ARC-IN-01, BLD-IN-01, ARC-IN-KB1, ARC-BY-KB1]
@@ -51,7 +51,7 @@ sources:
 lang: de
 translation_of: ARC-BY-01
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 
 Vollständige Freigabeunterlagen für Heizstrahler im Freien enthalten Produktdaten und die Installationsanleitung, einen Plan der beheizten Flächen, die elektrische Last je Heizstrahler mit Stromkreis- und Schutzorganliste, Einbau- oder Montagedetails mit den Maßen der Unterkonstruktion, Abstandsangaben, ein Steuerungsschema, aus dem hervorgeht, wer was verdrahtet, sowie die Prüfzeichen. Prüfen Sie die Unterlagen anhand von drei Fragen: Hat jeder Heizstrahler einen bemessenen, eigenen Stromkreis? Sind Öffnung und Auswechslung in der Konstruktion gezeichnet? Hat jede Steuerung eine Leitung, einen Ort und einen Verantwortlichen?
@@ -68,18 +68,18 @@ Vollständige Freigabeunterlagen für Heizstrahler im Freien enthalten Produktda
 | Elektrische Aufstellung | Last je Heizstrahler, Stromkreis, Schutzorgan, Leitung, Trennvorrichtung | Elektroplaner (TGA) |
 | Einbaurahmen oder Montagezubehör | Ausschnitt, Hohlraumtiefe, Unterkonstruktion, Auswechslung, Abschlussrahmen | Tragwerk, Trockenbau |
 | Steuerungsschema | Typ und Ort des Steuergeräts, Kleinspannungs- oder Netzspannungsleitungen, Netzwerk | Elektrofachbetrieb, Systemintegrator für Gebäudeautomation |
-| Prüfzeichen | In den USA ein Intertek-, UL- oder CSA-Zeichen an jedem Gerät[^s1]; [[VERIFY: welche Kennzeichnung für Deutschland nachzuweisen ist — Raffaele Marti]] | Bauamt |
+| Prüfzeichen | In den USA ein Intertek-, UL- oder CSA-Zeichen an jedem Gerät[^s1]; [[VERIFY: welche Kennzeichnung für Deutschland nachzuweisen ist — Partner Deutschland]] | Bauamt |
 | Garantie sowie Betriebs- und Wartungsunterlagen | Bedingungen, Reinigung, Einrichtung der App | Bauherr |
 
-[[VERIFY: elektrische Daten je Modell (Stromaufnahme bei 230 V), Maße der Einbaurahmen und Abstandstabellen als Anlage zu den Freigabeunterlagen — Mike Clifford]]
+[[VERIFY: elektrische Daten je Modell (Stromaufnahme bei 230 V), Maße der Einbaurahmen und Abstandstabellen als Anlage zu den Freigabeunterlagen — Produktteam]]
 
 ## Wie werden die Stromkreise der Heizstrahler koordiniert?
 
-Behandeln Sie jeden fest installierten Elektro-Heizstrahler als Dauerlast. In Deutschland bemisst der Elektroplaner Leitungen, Schutzorgane und Stromkreise nach DIN VDE 0100 und der Installationsanleitung des Herstellers. Zum Vergleich: Der US-amerikanische NEC verlangt für fest installierte elektrische Raumheizungen Leitungen, die für mindestens 125 % der Heizlast bemessen sind[^s3]; welcher Artikel dort gilt (Artikel 424 für fest installierte Raumheizung oder Artikel 422 für Geräte), hängt von der vor Ort eingeführten Ausgabe ab[^s3][^s4]. Bitten Sie den Elektroplaner, die maßgeblichen Regeln zu bestätigen und in der Verteilerliste darzustellen. [[VERIFY: aktuelle VDE-Regeln für die Bemessung von Stromkreisen für Heizstrahler im Freien — Raffaele Marti]]
+Behandeln Sie jeden fest installierten Elektro-Heizstrahler als Dauerlast. In Deutschland bemisst der Elektroplaner Leitungen, Schutzorgane und Stromkreise nach DIN VDE 0100 und der Installationsanleitung des Herstellers. Zum Vergleich: Der US-amerikanische NEC verlangt für fest installierte elektrische Raumheizungen Leitungen, die für mindestens 125 % der Heizlast bemessen sind[^s3]; welcher Artikel dort gilt (Artikel 424 für fest installierte Raumheizung oder Artikel 422 für Geräte), hängt von der vor Ort eingeführten Ausgabe ab[^s3][^s4]. Bitten Sie den Elektroplaner, die maßgeblichen Regeln zu bestätigen und in der Verteilerliste darzustellen. [[VERIFY: aktuelle VDE-Regeln für die Bemessung von Stromkreisen für Heizstrahler im Freien — Partner Deutschland]]
 
 Punkte, die Rückfragen auslösen, wenn sie offen bleiben:
 
-- **Spannung.** In Deutschland beträgt die Netzspannung 230 V, 50 Hz. Bromic nennt für gewerbliche US-Standorte Anschlüsse mit 208 V, 240 V und 277 V[^s1]. Prüfen Sie Netzanschluss des Gebäudes und Modellspannung gemeinsam; ein Heizstrahler an einer niedrigeren Spannung als seiner Nennspannung gibt weniger Leistung ab. [[VERIFY: Leistungs- und Heizflächenminderung bei abweichender Spannung je Modell — Mike Clifford]]
+- **Spannung.** In Deutschland beträgt die Netzspannung 230 V, 50 Hz. Bromic nennt für gewerbliche US-Standorte Anschlüsse mit 208 V, 240 V und 277 V[^s1]. Prüfen Sie Netzanschluss des Gebäudes und Modellspannung gemeinsam; ein Heizstrahler an einer niedrigeren Spannung als seiner Nennspannung gibt weniger Leistung ab. [[VERIFY: Leistungs- und Heizflächenminderung bei abweichender Spannung je Modell — Produktteam]]
 - **Eigene Schutzorgane.** Sehen Sie einen Stromkreis je Heizstrahler vor, oder eine Gruppierung, die die Anleitung erlaubt, mit der Größe des Schutzorgans in der Liste.
 - **Trennvorrichtung.** Platzieren Sie die Trennvorrichtung dort, wo Vorschriften und Anleitung sie verlangen, sichtbar in den Plänen. [[VERIFY: Anforderungen an Trennvorrichtungen für fest installierte Heizstrahler nach DIN VDE 0100 — Elektroplaner]]
 - **Leerrohre und Dosen.** Führen Sie Leerrohre in die Untersicht oder den Balken, bevor die Decke geschlossen wird. Verwenden Sie Installationsmaterial und Dosen mit einer Schutzart, die der Feuchte- oder Nässebelastung entspricht.

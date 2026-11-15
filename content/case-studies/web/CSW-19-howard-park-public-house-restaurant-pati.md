@@ -12,7 +12,7 @@ cta: {label: "Book a design consult", asset: A07}
 hero: w-gasceilingmountpole246mm-lifestyle2-1
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
 images: ["w-gasceilingmountpole246mm-lifestyle2-1"]
-owner_review: "Karl Tschauner"
+owner_review: "US field sales"
 status: draft
 source_kind: web-find
 origin: web-search
@@ -45,8 +45,8 @@ sources:
 | Project | Howard Park Public House (restaurant patio and ice-skating rental shop, Howard Park) |
 | Location | South Bend, Indiana, USA |
 | Segment | restaurant |
-| Products | Bromic Tungsten Gas heaters [[VERIFY: model, wattage and quantity — Karl Tschauner]] |
-| Controls | [[VERIFY: controls and zones — Karl Tschauner]] |
+| Products | Bromic Tungsten Gas heaters [[VERIFY: model, wattage and quantity — US field sales]] |
+| Controls | [[VERIFY: controls and zones — US field sales]] |
 | Installer | Gunn & Pegelow (Bromic rep since 2018; HVAC partner on the project) |
 | Architect or designer | M/E Design Services; Alliance Architects (named as partners on the overall HVAC design) |
 | Heated area or seats | restaurant patio and ice-skating rental shop |

@@ -15,8 +15,8 @@ meta_description: "Heizstrahler als Teil der Gestaltung: eingelassen, an Decke, 
 cta: {label: "Den Report Trends 2026 herunterladen", asset: A01}
 hero: w-print-15
 images: [w-white-platinum-recessed, w-bromiceclipseheater-scottsdalehome-4]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -25,7 +25,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLOG-48
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -131,6 +131,6 @@ Ja. Eclipse Smart-Heat Electric verbindet Strahlungswärme und dimmbares Licht i
 Zusammen mit Decke, Beleuchtung und Elektroplanung, damit Einbauöffnung, Stromkreis und Schalter in einem Arbeitsgang entstehen. Stromkreis und Montage sollte ein eingetragener Elektrofachbetrieb nach DIN VDE 0100 bestätigen.
 
 ### Kann Bromic bei der Planung helfen?
-Ja. Der Planungsservice Design Your Space liefert einen Plan mit eingezeichneten Heizflächen. Alle Möglichkeiten finden Sie auf [bromic.de](https://www.bromic.de/). [[VERIFY: ob Design Your Space für Deutschland angeboten wird — Raffaele Marti]]
+Ja. Der Planungsservice Design Your Space liefert einen Plan mit eingezeichneten Heizflächen. Alle Möglichkeiten finden Sie auf [bromic.de](https://www.bromic.de/). [[VERIFY: ob Design Your Space für Deutschland angeboten wird — Partner Deutschland]]
 
 Lesen Sie im Trends-Report, was Hausbesitzer in den USA für ihren Außenbereich planen.

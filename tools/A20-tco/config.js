@@ -12,7 +12,7 @@ export default {
       "source": "Asset brief A20 (HANDOVER §8)",
       "verified": true,
       "verify": "",
-      "owner": "Blake Petty"
+      "owner": "Hospitality sales"
     }
   },
   "cta": {
@@ -33,24 +33,24 @@ export default {
       "unit": "ft² of heated patio a seat, aisles and breathing room included",
       "source": "NAFEM space-planning chart as published in the Restaurant Furniture seating capacity guide (https://www.restaurant-furniture.com/resources/guides/restaurant-seating-capacity-guide): full-service dining 12–15 ft² a seat, fine dining 18–20. The top of the range is used so tables are not crammed (owner, 30 Oct 2026)",
       "verified": false,
-      "verify": "[[VERIFY: open the NAFEM chart itself and confirm the 18–20 ft² fine-dining figure — Brian Kim]]",
-      "owner": "Brian Kim"
+      "verify": "[[VERIFY: open the NAFEM chart itself and confirm the 18–20 ft² fine-dining figure — Digital marketing]]",
+      "owner": "Digital marketing"
     },
     "default_seats": {
       "value": 40,
       "unit": "seats",
       "source": "Form default only",
       "verified": false,
-      "verify": "[[VERIFY: default seat count shown in the form — Blake Petty]]",
-      "owner": "Blake Petty"
+      "verify": "[[VERIFY: default seat count shown in the form — Hospitality sales]]",
+      "owner": "Hospitality sales"
     },
     "default_ft2": {
       "value": 600,
       "unit": "ft²",
       "source": "Form default only",
       "verified": false,
-      "verify": "[[VERIFY: default area shown in the form — Blake Petty]]",
-      "owner": "Blake Petty"
+      "verify": "[[VERIFY: default area shown in the form — Hospitality sales]]",
+      "owner": "Hospitality sales"
     }
   },
   "operation": {
@@ -59,40 +59,40 @@ export default {
       "unit": "heater hours per year",
       "source": "Placeholder: 6 hours a night × 150 nights",
       "verified": false,
-      "verify": "[[VERIFY: typical heated hours per year by climate — Blake Petty]]",
-      "owner": "Blake Petty"
+      "verify": "[[VERIFY: typical heated hours per year by climate — Hospitality sales]]",
+      "owner": "Hospitality sales"
     },
     "average_output_pct": {
       "value": 100,
       "unit": "% of rated input, averaged over operating hours",
       "source": "Conservative default: heaters at full output whenever on. Dimmers and Eclipse 33/66/100% steps lower this",
       "verified": false,
-      "verify": "[[VERIFY: typical average output with Affinity dimming — Mike Clifford]]",
-      "owner": "Mike Clifford"
+      "verify": "[[VERIFY: typical average output with Affinity dimming — Product team]]",
+      "owner": "Product team"
     },
     "fuel_escalation_pct": {
       "value": 0,
       "unit": "% per year applied to fuel prices",
       "source": "Default: flat prices; no forecast applied",
       "verified": false,
-      "verify": "[[VERIFY: whether to apply an EIA STEO price outlook — Brian Kim/Finance]]",
-      "owner": "Brian Kim"
+      "verify": "[[VERIFY: whether to apply an EIA STEO price outlook — Finance]]",
+      "owner": "Digital marketing"
     },
     "evenings_per_year": {
       "value": 150,
       "unit": "evenings a year the heaters run",
       "source": "Form default only: the 900-hour placeholder (6 hours × 150 nights) as evenings",
       "verified": false,
-      "verify": "[[VERIFY: default heated evenings a year — Brian Kim]]",
-      "owner": "Brian Kim"
+      "verify": "[[VERIFY: default heated evenings a year — Digital marketing]]",
+      "owner": "Digital marketing"
     },
     "hours_per_evening": {
       "value": 5,
       "unit": "heater hours an evening",
       "source": "Form default only",
       "verified": false,
-      "verify": "[[VERIFY: default heated hours an evening — Brian Kim]]",
-      "owner": "Brian Kim"
+      "verify": "[[VERIFY: default heated hours an evening — Digital marketing]]",
+      "owner": "Digital marketing"
     }
   },
   "prices": {
@@ -101,24 +101,24 @@ export default {
       "unit": "$/kWh",
       "source": "EIA Monthly Energy Review, Aug 2026, Figure 9.2: US commercial average retail electricity price, May 2026, 13.54¢/kWh (read from a search snippet; label order uncertain). https://www.eia.gov/totalenergy/data/monthly/ · cross-check EIA Electric Power Monthly Table 5.6.A https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a",
       "verified": false,
-      "verify": "[[VERIFY: 2026 commercial $/kWh from EIA EPM Table 5.6.A, national and by state — Brian Kim/Finance]]",
-      "owner": "Brian Kim"
+      "verify": "[[VERIFY: 2026 commercial $/kWh from EIA EPM Table 5.6.A, national and by state — Finance]]",
+      "owner": "Digital marketing"
     },
     "natural_gas_per_therm": {
       "value": 0.87,
       "unit": "$/therm",
       "source": "EIA Natural Gas Prices (US commercial), Jan–May 2026 average $9.03 per thousand cubic feet (9.03, 9.42, 9.72, 8.18, 8.81) ÷ 10.36 therms per Mcf. https://www.eia.gov/dnav/ng/ng_pri_sum_dcu_nus_m.htm",
       "verified": false,
-      "verify": "[[VERIFY: 2026 commercial $/therm and the Mcf→therm heat content used — Brian Kim/Finance]]",
-      "owner": "Brian Kim"
+      "verify": "[[VERIFY: 2026 commercial $/therm and the Mcf→therm heat content used — Finance]]",
+      "owner": "Digital marketing"
     },
     "propane_per_gal": {
       "value": 2.674,
       "unit": "$/gal",
       "source": "EIA Heating Oil and Propane Update, week of 30 Mar 2026: US average RESIDENTIAL propane $2.674/gal (EIA publishes no commercial series; cylinder-exchange prices run higher). https://www.eia.gov/petroleum/heatingoilpropane/",
       "verified": false,
-      "verify": "[[VERIFY: commercial propane or cylinder-exchange $/gal operators actually pay — Brian Kim/Finance]]",
-      "owner": "Brian Kim"
+      "verify": "[[VERIFY: commercial propane or cylinder-exchange $/gal operators actually pay — Finance]]",
+      "owner": "Digital marketing"
     }
   },
   "conversions": {
@@ -128,23 +128,23 @@ export default {
       "source": "Definition of the therm; writer brief running-cost formula",
       "verified": true,
       "verify": "",
-      "owner": "Brian Kim"
+      "owner": "Digital marketing"
     },
     "btu_per_gal_propane": {
       "value": 91500,
       "unit": "BTU/gal",
       "source": "Writer brief running-cost formula (approx. heat content of propane)",
       "verified": false,
-      "verify": "[[VERIFY: propane heat content to standardise on (91,500 vs 91,452 BTU/gal) — Brian Kim]]",
-      "owner": "Brian Kim"
+      "verify": "[[VERIFY: propane heat content to standardise on (91,500 vs 91,452 BTU/gal) — Digital marketing]]",
+      "owner": "Digital marketing"
     },
     "therms_per_mcf": {
       "value": 10.36,
       "unit": "therms per thousand cubic feet",
       "source": "Approx. US average heat content of delivered natural gas, about 1,036 BTU/ft³ (EIA)",
       "verified": false,
-      "verify": "[[VERIFY: current EIA heat content of natural gas delivered to consumers — Brian Kim]]",
-      "owner": "Brian Kim"
+      "verify": "[[VERIFY: current EIA heat content of natural gas delivered to consumers — Digital marketing]]",
+      "owner": "Digital marketing"
     }
   },
   "propane_handling": {
@@ -153,16 +153,16 @@ export default {
       "unit": "gal per cylinder exchange",
       "source": "Derived: 20 lb cylinder ÷ about 4.24 lb per gallon. Many exchange cylinders are filled to 15 lb (about 3.5 gal)",
       "verified": false,
-      "verify": "[[VERIFY: cylinder size used by Tungsten Freestanding Gas and the usable fill — Mike Clifford]]",
-      "owner": "Mike Clifford"
+      "verify": "[[VERIFY: cylinder size used by Tungsten Freestanding Gas and the usable fill — Product team]]",
+      "owner": "Product team"
     },
     "minutes_per_exchange": {
       "value": 10,
       "unit": "staff minutes per cylinder swap",
       "source": "Placeholder: swap, leak check, storage cage, paperwork",
       "verified": false,
-      "verify": "[[VERIFY: staff minutes per cylinder exchange from operators — Blake Petty]]",
-      "owner": "Blake Petty"
+      "verify": "[[VERIFY: staff minutes per cylinder exchange from operators — Hospitality sales]]",
+      "owner": "Hospitality sales"
     },
     "wage_per_hour": {
       "value": 15.71,
@@ -170,7 +170,7 @@ export default {
       "source": "BLS OEWS May 2024 median for Dining Room and Cafeteria Attendants and Bartender Helpers (35-9011), via O*NET OnLine. https://www.onetonline.org/link/localwages/35-9011.00. Unloaded: add payroll burden if wanted",
       "verified": true,
       "verify": "",
-      "owner": "Blake Petty"
+      "owner": "Hospitality sales"
     }
   },
   "options": [
@@ -185,40 +185,40 @@ export default {
         "unit": "ft² per heater",
         "source": "Lookbook 2026 p.21 (top of 65–143 ft² range mapped to 4500W)",
         "verified": false,
-        "verify": "[[VERIFY: 4500W coverage — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: 4500W coverage — Product team]]",
+        "owner": "Product team"
       },
       "input_kw": {
         "value": 4.5,
         "unit": "kW per heater",
         "source": "Lookbook 2026 p.21 (4500W)",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       },
       "purchase_per_heater": {
         "value": 2500,
         "unit": "$ per heater incl. controls share",
         "source": "PLACEHOLDER, not a Bromic price",
         "verified": false,
-        "verify": "[[VERIFY: commercial price per heater incl. Affinity controls — Blake Petty]]",
-        "owner": "Blake Petty"
+        "verify": "[[VERIFY: commercial price per heater incl. Affinity controls — Hospitality sales]]",
+        "owner": "Hospitality sales"
       },
       "install_per_heater": {
         "value": 900,
         "unit": "$ per heater (circuit, mounting, labour)",
         "source": "PLACEHOLDER",
         "verified": false,
-        "verify": "[[VERIFY: typical installed cost per electric heater — Blake Petty]]",
-        "owner": "Blake Petty"
+        "verify": "[[VERIFY: typical installed cost per electric heater — Hospitality sales]]",
+        "owner": "Hospitality sales"
       },
       "maintenance_per_heater_year": {
         "value": 25,
         "unit": "$ per heater per year",
         "source": "PLACEHOLDER",
         "verified": false,
-        "verify": "[[VERIFY: annual maintenance per electric heater — Blake Petty]]",
-        "owner": "Blake Petty"
+        "verify": "[[VERIFY: annual maintenance per electric heater — Hospitality sales]]",
+        "owner": "Hospitality sales"
       }
     },
     {
@@ -226,53 +226,53 @@ export default {
       "label": "Natural gas",
       "fuel": "natural_gas",
       "model": "Tungsten Smart-Heat Freestanding Gas (natural gas)",
-      "controls": "[[VERIFY: control options for Tungsten Freestanding Gas — Mike Clifford]]",
+      "controls": "[[VERIFY: control options for Tungsten Freestanding Gas — Product team]]",
       "coverage_ft2": {
         "value": 215,
         "unit": "ft² per heater",
         "source": "Lookbook 2026 p.39",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       },
       "input_btu": {
         "value": 38000,
         "unit": "BTU/hr per heater",
         "source": "Lookbook 2026 p.39 (freestanding; built-in gas BTU is not published)",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       },
       "purchase_per_heater": {
         "value": 3000,
         "unit": "$ per heater",
         "source": "PLACEHOLDER, not a Bromic price",
         "verified": false,
-        "verify": "[[VERIFY: commercial price per gas heater — Blake Petty]]",
-        "owner": "Blake Petty"
+        "verify": "[[VERIFY: commercial price per gas heater — Hospitality sales]]",
+        "owner": "Hospitality sales"
       },
       "install_per_heater": {
         "value": 1500,
         "unit": "$ per heater (gas line, fitter)",
         "source": "PLACEHOLDER",
         "verified": false,
-        "verify": "[[VERIFY: typical installed cost per natural-gas heater — Blake Petty]]",
-        "owner": "Blake Petty"
+        "verify": "[[VERIFY: typical installed cost per natural-gas heater — Hospitality sales]]",
+        "owner": "Hospitality sales"
       },
       "maintenance_per_heater_year": {
         "value": 100,
         "unit": "$ per heater per year",
         "source": "PLACEHOLDER",
         "verified": false,
-        "verify": "[[VERIFY: annual service per gas heater — Blake Petty]]",
-        "owner": "Blake Petty"
+        "verify": "[[VERIFY: annual service per gas heater — Hospitality sales]]",
+        "owner": "Hospitality sales"
       },
       "max_seats_per_heater": {
         "value": 4,
         "unit": "seats a freestanding heater can warm",
-        "source": "Owner rule (Aayush Vishnoi, 30 Oct 2026): guests block the radiant heat of a freestanding heater, so one heater warms four seats at most. Consistent with a patio-heater specialist's buyer guide that seating needs close to one heater per guest (https://www.gasoutdoorpatioheaters.com/restaurant-patio-heaters/)",
+        "source": "Owner rule (Leadership, 30 Oct 2026): guests block the radiant heat of a freestanding heater, so one heater warms four seats at most. Consistent with a patio-heater specialist's buyer guide that seating needs close to one heater per guest (https://www.gasoutdoorpatioheaters.com/restaurant-patio-heaters/)",
         "verified": true,
-        "owner": "Aayush Vishnoi"
+        "owner": "Leadership"
       }
     },
     {
@@ -280,53 +280,53 @@ export default {
       "label": "Propane",
       "fuel": "propane",
       "model": "Tungsten Smart-Heat Freestanding Gas (propane)",
-      "controls": "[[VERIFY: control options for Tungsten Freestanding Gas — Mike Clifford]]",
+      "controls": "[[VERIFY: control options for Tungsten Freestanding Gas — Product team]]",
       "coverage_ft2": {
         "value": 215,
         "unit": "ft² per heater",
         "source": "Lookbook 2026 p.39",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       },
       "input_btu": {
         "value": 38000,
         "unit": "BTU/hr per heater",
         "source": "Lookbook 2026 p.39",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       },
       "purchase_per_heater": {
         "value": 3000,
         "unit": "$ per heater",
         "source": "PLACEHOLDER, not a Bromic price",
         "verified": false,
-        "verify": "[[VERIFY: commercial price per gas heater — Blake Petty]]",
-        "owner": "Blake Petty"
+        "verify": "[[VERIFY: commercial price per gas heater — Hospitality sales]]",
+        "owner": "Hospitality sales"
       },
       "install_per_heater": {
         "value": 0,
         "unit": "$ per heater",
         "source": "PLACEHOLDER: freestanding on cylinders, no fixed install",
         "verified": false,
-        "verify": "[[VERIFY: set-up cost for propane freestanding heaters — Blake Petty]]",
-        "owner": "Blake Petty"
+        "verify": "[[VERIFY: set-up cost for propane freestanding heaters — Hospitality sales]]",
+        "owner": "Hospitality sales"
       },
       "maintenance_per_heater_year": {
         "value": 100,
         "unit": "$ per heater per year",
         "source": "PLACEHOLDER",
         "verified": false,
-        "verify": "[[VERIFY: annual service per propane heater — Blake Petty]]",
-        "owner": "Blake Petty"
+        "verify": "[[VERIFY: annual service per propane heater — Hospitality sales]]",
+        "owner": "Hospitality sales"
       },
       "max_seats_per_heater": {
         "value": 4,
         "unit": "seats a freestanding heater can warm",
-        "source": "Owner rule (Aayush Vishnoi, 30 Oct 2026): guests block the radiant heat of a freestanding heater, so one heater warms four seats at most. Consistent with a patio-heater specialist's buyer guide that seating needs close to one heater per guest (https://www.gasoutdoorpatioheaters.com/restaurant-patio-heaters/)",
+        "source": "Owner rule (Leadership, 30 Oct 2026): guests block the radiant heat of a freestanding heater, so one heater warms four seats at most. Consistent with a patio-heater specialist's buyer guide that seating needs close to one heater per guest (https://www.gasoutdoorpatioheaters.com/restaurant-patio-heaters/)",
         "verified": true,
-        "owner": "Aayush Vishnoi"
+        "owner": "Leadership"
       }
     }
   ],
@@ -364,8 +364,8 @@ export default {
         "unit": "starting profile: seats, months heated, nights a week, hours a night",
         "source": "Starting point only, not a survey: dinner service, closed one night, October to April. The visitor changes every part of it.",
         "verified": false,
-        "verify": "[[VERIFY: typical heated seats and season for this venue type — Brian Kim]]",
-        "owner": "Brian Kim"
+        "verify": "[[VERIFY: typical heated seats and season for this venue type — Digital marketing]]",
+        "owner": "Digital marketing"
       }
     },
     {
@@ -395,8 +395,8 @@ export default {
         "unit": "starting profile: seats, months heated, nights a week, hours a night",
         "source": "Starting point only, not a survey: evening trade every night, September to May. The visitor changes every part of it.",
         "verified": false,
-        "verify": "[[VERIFY: typical heated seats and season for this venue type — Brian Kim]]",
-        "owner": "Brian Kim"
+        "verify": "[[VERIFY: typical heated seats and season for this venue type — Digital marketing]]",
+        "owner": "Digital marketing"
       }
     },
     {
@@ -426,8 +426,8 @@ export default {
         "unit": "starting profile: seats, months heated, nights a week, hours a night",
         "source": "Starting point only, not a survey: guests every evening, October to April. The visitor changes every part of it.",
         "verified": false,
-        "verify": "[[VERIFY: typical heated seats and season for this venue type — Brian Kim]]",
-        "owner": "Brian Kim"
+        "verify": "[[VERIFY: typical heated seats and season for this venue type — Digital marketing]]",
+        "owner": "Digital marketing"
       }
     },
     {
@@ -457,8 +457,8 @@ export default {
         "unit": "starting profile: seats, months heated, nights a week, hours a night",
         "source": "Starting point only, not a survey: afternoon into evening, September to April. The visitor changes every part of it.",
         "verified": false,
-        "verify": "[[VERIFY: typical heated seats and season for this venue type — Brian Kim]]",
-        "owner": "Brian Kim"
+        "verify": "[[VERIFY: typical heated seats and season for this venue type — Digital marketing]]",
+        "owner": "Digital marketing"
       }
     },
     {
@@ -488,8 +488,8 @@ export default {
         "unit": "starting profile: seats, months heated, nights a week, hours a night",
         "source": "Starting point only, not a survey: lunch into evening every day, October to March. The visitor changes every part of it.",
         "verified": false,
-        "verify": "[[VERIFY: typical heated seats and season for this venue type — Brian Kim]]",
-        "owner": "Brian Kim"
+        "verify": "[[VERIFY: typical heated seats and season for this venue type — Digital marketing]]",
+        "owner": "Digital marketing"
       }
     },
     {
@@ -519,8 +519,8 @@ export default {
         "unit": "starting profile: seats, months heated, nights a week, hours a night",
         "source": "Starting point only, not a survey: cool mornings and afternoons, November to March. The visitor changes every part of it.",
         "verified": false,
-        "verify": "[[VERIFY: typical heated seats and season for this venue type — Brian Kim]]",
-        "owner": "Brian Kim"
+        "verify": "[[VERIFY: typical heated seats and season for this venue type — Digital marketing]]",
+        "owner": "Digital marketing"
       }
     }
   ],
@@ -540,8 +540,8 @@ export default {
         "unit": "× nominal coverage",
         "source": "Assumption: no overhead cover, so no 'heat cloud' and more wind exposure (Planning Guide v1.2 Step 01, qualitative only)",
         "verified": false,
-        "verify": "[[VERIFY: coverage derate for fully open spaces — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: coverage derate for fully open spaces — Product team]]",
+        "owner": "Product team"
       }
     },
     "partial": {
@@ -552,8 +552,8 @@ export default {
         "unit": "× nominal coverage",
         "source": "Assumption: Lookbook coverage treated as the partially covered reference case",
         "verified": false,
-        "verify": "[[VERIFY: which setting the Lookbook coverage figures assume — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: which setting the Lookbook coverage figures assume — Product team]]",
+        "owner": "Product team"
       }
     },
     "covered": {
@@ -564,8 +564,8 @@ export default {
         "unit": "× nominal coverage",
         "source": "Assumption: a cover traps a 'heat cloud' that adds a convective boost (Planning Guide v1.2 Step 01, qualitative only)",
         "verified": false,
-        "verify": "[[VERIFY: coverage uplift for covered spaces — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: coverage uplift for covered spaces — Product team]]",
+        "owner": "Product team"
       }
     }
   },
@@ -578,8 +578,8 @@ export default {
         "unit": "× coverage",
         "source": "Assumption. Planning Guide v1.2 Step 05 says colder states may need more heaters for the same space (its example: 2 heaters in California, 3 in Massachusetts for 20 × 10 ft)",
         "verified": false,
-        "verify": "[[VERIFY: climate derate factors and the temperature bands that define them — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: climate derate factors and the temperature bands that define them — Product team]]",
+        "owner": "Product team"
       }
     },
     "cool": {
@@ -590,8 +590,8 @@ export default {
         "unit": "× coverage",
         "source": "Assumption (see mild)",
         "verified": false,
-        "verify": "[[VERIFY: climate derate factors — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: climate derate factors — Product team]]",
+        "owner": "Product team"
       }
     },
     "cold": {
@@ -602,8 +602,8 @@ export default {
         "unit": "× coverage",
         "source": "Assumption (see mild). Note: the Planning Guide's example (2 gas heaters for 200 ft² in California) implies a layout or overlap allowance this tool does not model",
         "verified": false,
-        "verify": "[[VERIFY: climate derate factors — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: climate derate factors — Product team]]",
+        "owner": "Product team"
       }
     }
   },

@@ -18,8 +18,8 @@ ai_prompt: "Hoe plannen ontwerpers buitenterrassen voor horeca die werken bij ko
 meta_description: "Liz Neuffer van Aria Group over ontwerp voor buitenhoreca: omsluiting, zitplekken, weer, elektrische warmte en het beantwoorden van kostenvragen."
 cta: {label: "Boek de AIA CE-cursus over buitenverwarming", asset: A14}
 hero: w-wrigleys-mansion-eclipse-portable-heater-4
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false

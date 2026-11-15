@@ -15,7 +15,7 @@ meta_description: "Outdoor infrared heater clearance to combustibles: where the 
 cta: {label: "Book a design consult", asset: A07}
 hero: l-010-070
 images: []
-owner_review: Mike Clifford
+owner_review: Product team
 status: draft
 gated: false
 related: [ARC-BY-01, ARC-IN-01]
@@ -39,7 +39,7 @@ sources:
 
 It depends on the model and its output. Clearance to combustibles is set by each heater's installation manual and its certification listing, so take the figures from the manual for the exact model and voltage on the drawings. There is no safe universal number. Bromic's general guidance gives minimum mounting heights of 72 in above floor for wall mounts and 96 in for ceiling mounts, and notes that ceiling clearance varies with energy output[^s1].
 
-[[VERIFY: clearance-to-combustibles table (top, sides, front, below) per current model — Mike Clifford]]
+[[VERIFY: clearance-to-combustibles table (top, sides, front, below) per current model — Product team]]
 
 | Clearance | Where the number comes from |
 |---|---|

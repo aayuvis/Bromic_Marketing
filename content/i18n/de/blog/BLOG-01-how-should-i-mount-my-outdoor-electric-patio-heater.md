@@ -15,8 +15,8 @@ meta_description: "Decke, Einbau oder Wand: So montieren Sie einen elektrischen 
 cta: {label: "Die Installationsleitfäden anfordern", asset: A17}
 hero: w-bromic-tungsten-electric-patio-heater
 images: [w-bromic-sep18th-3-1]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -25,7 +25,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLOG-01
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -94,7 +94,7 @@ sources:
 
 Ein elektrischer Bromic-Heizstrahler wird auf eine von drei Arten montiert: an der Decke mit Halterung oder Stange, bündig in die Decke eingelassen mit einem Einbaurahmen oder an einer Wandhalterung, zu den Sitzplätzen geneigt. Platinum und Tungsten Electric sitzen an der Wand mindestens 1,83 m und an der Decke mindestens 2,44 m über dem Boden[^s3][^s4]. Jeder Heizstrahler läuft auf einem eigenen Stromkreis mit Affinity Smart-Heat-Steuerung und Wandschalter, installiert von einem eingetragenen Elektrofachbetrieb.
 
-*Halten Sie sich an die Installationsanleitung des jeweiligen Modells. Elektroarbeiten muss ein eingetragener Elektrofachbetrieb nach DIN VDE 0100 ausführen; klären Sie die Anforderungen mit Ihrem Bauamt ab. [[VERIFY: current VDE and DVGW rules for outdoor heaters — Raffaele Marti]]*
+*Halten Sie sich an die Installationsanleitung des jeweiligen Modells. Elektroarbeiten muss ein eingetragener Elektrofachbetrieb nach DIN VDE 0100 ausführen; klären Sie die Anforderungen mit Ihrem Bauamt ab. [[VERIFY: current VDE and DVGW rules for outdoor heaters — Partner Deutschland]]*
 
 ![Platinum-Electric-Heizstrahler an der Wand entlang eines Restaurantbalkons](img:w-bromic-sep18th-3-1)
 
@@ -117,12 +117,12 @@ Legen Sie Befestigung und Stromkreis für das Modell aus, das tatsächlich gelie
 | Platinum 2300 W | 1,83 m | 2,44 m | 7,7 kg | ca. 10,0 A |
 | Platinum 3400 W | 1,83 m | 2,44 m | 10,0 kg | ca. 14,8 A |
 | Platinum 4500 W | 1,83 m | 2,44 m | 15,0 kg | ca. 19,6 A |
-| Tungsten 2000–6000 W | 1,83 m | 2,44 m | [[VERIFY: per model — Mike Clifford]] | [[VERIFY: per model — Mike Clifford]] |
+| Tungsten 2000–6000 W | 1,83 m | 2,44 m | [[VERIFY: per model — Produktteam]] | [[VERIFY: per model — Produktteam]] |
 | Cobalt 4000 W | 1,83 m | 2,44 m | 9,0 kg | ca. 17,4 A |
 | Cobalt 6000 W | 1,83 m | 2,44 m | 10,0 kg | ca. 26,1 A |
 | Eclipse Electric 2900 W | Stangenmontage | 2,44 m | 13,6 kg | ca. 12,6 A |
 
-Quellen: Produktseiten[^s3][^s4][^s5]. Die Produktseiten nennen Ströme bei den US-Spannungen 208 V und 240 V; die Werte bei 230 V sind daraus berechnet (Watt ÷ 230). [[VERIFY: Stromaufnahme und Gewichte der 230-V-Ausführungen für Deutschland laut Datenblatt — Mike Clifford]] Platinum Marine hat dieselben Gewichte und Höhen wie Platinum. Tungsten mit 4000 und 6000 W hat zwei getrennt steuerbare Heizelemente[^s4]. Bestellen Sie ein Gerät, das zur Netzspannung (230 V, 50 Hz) passt; ein Heizstrahler an der falschen Spannung erreicht seine Nennleistung nicht.
+Quellen: Produktseiten[^s3][^s4][^s5]. Die Produktseiten nennen Ströme bei den US-Spannungen 208 V und 240 V; die Werte bei 230 V sind daraus berechnet (Watt ÷ 230). [[VERIFY: Stromaufnahme und Gewichte der 230-V-Ausführungen für Deutschland laut Datenblatt — Produktteam]] Platinum Marine hat dieselben Gewichte und Höhen wie Platinum. Tungsten mit 4000 und 6000 W hat zwei getrennt steuerbare Heizelemente[^s4]. Bestellen Sie ein Gerät, das zur Netzspannung (230 V, 50 Hz) passt; ein Heizstrahler an der falschen Spannung erreicht seine Nennleistung nicht.
 
 ## Sollte ich meinen Heizstrahler an der Decke montieren?
 
@@ -132,7 +132,7 @@ Deckenmontage eignet sich für überdachte Bereiche und ist für die gesamte Ele
 
 Der Einbau ergibt eine bündige Decke und ist für Platinum, Platinum Marine und Tungsten Electric möglich[^s1]. Der Hohlraum bestimmt den Einbaurahmen:
 
-- Einbaurahmen Tungsten Electric: mindestens ca. 536 mm [[VERIFY: 21.1 in (ca. 536 mm) hier gegenüber 20 in (ca. 508 mm) im Beitrag zum Einbau — Mike Clifford]][^s1]
+- Einbaurahmen Tungsten Electric: mindestens ca. 536 mm [[VERIFY: 21.1 in (ca. 536 mm) hier gegenüber 20 in (ca. 508 mm) im Beitrag zum Einbau — Produktteam]][^s1]
 - Standard-Einbaurahmen Platinum: mindestens ca. 254 mm, je nach Modell[^s1]
 - Platinum Low Clearance Recess Kit: nur ca. 180 mm, für Neubauten und Nachrüstungen[^s1]
 
@@ -145,7 +145,7 @@ Wandmontage eignet sich für Terrassen ohne Decke oder mit gewölbter bzw. schr�
 1. **Höhe.** Mindestens 1,83 m bis zum Heizstrahler bei Platinum, Tungsten und Cobalt[^s3][^s5].
 2. **Tragfähigkeit.** Wand oder Balken müssen das Gewicht des Heizstrahlers aus der Tabelle oben tragen, befestigt an einer Hinterfütterung[^s2].
 3. **Ausrichtung.** Neigen Sie den Heizstrahler je nach Modell um 15–45 Grad zum Sitz- oder Essbereich, damit keine Wärme verloren geht[^s1][^s2].
-4. **Brennbare Materialien.** Halten Sie mindestens ca. 0,9 m Abstand zu brennbaren Materialien: allem, was nicht für etwa 65 °C über Umgebungstemperatur ausgelegt ist, etwa Segeltuch, Markisen, Screens, Vinyl, Fernseher, Leuchten, Ventilatoren, Sprinkler und Steckdosen[^s2]. [[VERIFY: der US-Beitrag nennt 149 Grad Fahrenheit über Umgebungstemperatur; prüfen, ob 65 °C oder eine Differenz von ca. 83 K gemeint ist — Mike Clifford]] Der Abstand über dem Heizstrahler hängt von Modell und Leistung ab [[VERIFY: Abstand nach oben bei Elektrogeräten — die Live-Beiträge nennen ca. 130 mm, 150–300 mm, 200–330 mm und 1,5 m; je Modell einen Wert aus der Anleitung veröffentlichen — Mike Clifford]].
+4. **Brennbare Materialien.** Halten Sie mindestens ca. 0,9 m Abstand zu brennbaren Materialien: allem, was nicht für etwa 65 °C über Umgebungstemperatur ausgelegt ist, etwa Segeltuch, Markisen, Screens, Vinyl, Fernseher, Leuchten, Ventilatoren, Sprinkler und Steckdosen[^s2]. [[VERIFY: der US-Beitrag nennt 149 Grad Fahrenheit über Umgebungstemperatur; prüfen, ob 65 °C oder eine Differenz von ca. 83 K gemeint ist — Produktteam]] Der Abstand über dem Heizstrahler hängt von Modell und Leistung ab [[VERIFY: Abstand nach oben bei Elektrogeräten — die Live-Beiträge nennen ca. 130 mm, 150–300 mm, 200–330 mm und 1,5 m; je Modell einen Wert aus der Anleitung veröffentlichen — Produktteam]].
 
 Halterungen: [Platinum](https://www.bromic.com/product/platinum-electric-wall-mounting-bracket/) und [Tungsten](https://www.bromic.com/product/tungsten-electric-wall-mounting-bracket/). Die Wandheizstrahler finden Sie auf [bromic.de](https://www.bromic.de/).
 
@@ -192,4 +192,4 @@ Ja, mit einem Keil, damit der Heizstrahler senkrecht zum Boden hängt, oder Sie 
 
 Jeder Heizstrahler braucht ein Affinity Smart-Heat-Steuergerät und einen manuellen Wandschalter. Ein Kanal eines Steuergeräts kann mehrere Heizstrahler bis zu seiner Nennlast betreiben[^s6].
 
-Sie sind nicht sicher, welche Montage zu Ihrem Bereich passt? Der Planungsservice von Bromic plant ihn für Sie ([bromic.de](https://www.bromic.de/)). [[VERIFY: ob Design Your Space für Deutschland angeboten wird — Raffaele Marti]]
+Sie sind nicht sicher, welche Montage zu Ihrem Bereich passt? Der Planungsservice von Bromic plant ihn für Sie ([bromic.de](https://www.bromic.de/)). [[VERIFY: ob Design Your Space für Deutschland angeboten wird — Partner Deutschland]]

@@ -18,8 +18,8 @@ ai_prompt: "Werken infraroodverwarmers buiten?"
 meta_description: "Ja. Infraroodverwarmers verwarmen mensen en oppervlakken, niet de lucht, en werken dus in de open lucht en bij lichte wind. Wat het resultaat bepaalt, en hoe je er een kiest."
 cta: {label: "Download het rapport Outdoor Living Trends 2026", asset: A01}
 hero: w-tungsten-electric-new-york-residential
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -102,9 +102,9 @@ Een elektrische weerstandsverwarmer zet alle elektriciteit die hij gebruikt ter 
 | Overdekt terras, veranda of pergola met stroom | Ingebouwd elektrisch | Platinum Smart-Heat Electric (6,0–13,3 m²)[^s4], Tungsten Smart-Heat Electric (6,0–14,9 m²)[^s5] | Affinity On/Off- of Dimmer-regelaar, handmatige wandschakelaar |
 | Terras waar het ontwerp voorop staat, met warmte en licht | Elektrisch met geïntegreerd licht | Eclipse Smart-Heat Electric (11,2 m²)[^s4] | Affinity Eclipse-regelaar of Eclipse Dimmer, handmatige wandschakelaar |
 | Groter open oppervlak met gasaansluiting | Gas | Zie het [gasassortiment](https://www.bromic.nl/) | Affinity On/Off-regelaar, handmatige wandschakelaar |
-| Geen vaste installatie, of een ruimte die verandert | Vrijstaand | Eclipse Smart-Heat Freestanding (11,2 m²)[^s5]; Tungsten Smart-Heat Freestanding Gas (20,0 m², windbestendig)[^s4] | Eclipse: Dimmer Controller en afstandsbediening meegeleverd[^s5]. Tungsten Freestanding Gas: [[VERIFY: bedieningsmogelijkheden — Mike Clifford]] |
+| Geen vaste installatie, of een ruimte die verandert | Vrijstaand | Eclipse Smart-Heat Freestanding (11,2 m²)[^s5]; Tungsten Smart-Heat Freestanding Gas (20,0 m², windbestendig)[^s4] | Eclipse: Dimmer Controller en afstandsbediening meegeleverd[^s5]. Tungsten Freestanding Gas: [[VERIFY: bedieningsmogelijkheden — productteam]] |
 
-Elke vaste verwarmer wordt gepland met de bijbehorende bediening. De Smart-Heat-app voegt zones, schema's en timers toe; wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht[^s4]. Het verwarmde oppervlak verschilt per model, montagehoogte, omgeving en installatie[^s4]. [[VERIFY: waarden van de productpagina's op bromic.com, omgerekend naar m²; controleren tegen de productbladen van 2026 — Mike Clifford]]
+Elke vaste verwarmer wordt gepland met de bijbehorende bediening. De Smart-Heat-app voegt zones, schema's en timers toe; wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht[^s4]. Het verwarmde oppervlak verschilt per model, montagehoogte, omgeving en installatie[^s4]. [[VERIFY: waarden van de productpagina's op bromic.com, omgerekend naar m²; controleren tegen de productbladen van 2026 — productteam]]
 
 Bekijk de [elektrische buitenverwarmers](https://www.bromic.nl/), de [vrijstaande verwarmers](https://www.bromic.nl/) of [alle buitenverwarmers](https://www.bromic.nl/).
 

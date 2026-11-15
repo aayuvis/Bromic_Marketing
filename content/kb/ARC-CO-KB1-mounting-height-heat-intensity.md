@@ -15,7 +15,7 @@ meta_description: "How mounting height changes outdoor infrared heater intensity
 cta: {label: "Download the Planning Guide (pro edition)", asset: A02}
 hero: l-004-012
 images: []
-owner_review: Mike Clifford
+owner_review: Product team
 status: draft
 gated: false
 related: [ARC-CO-01, ARC-IN-01]
@@ -57,7 +57,7 @@ Raising a radiant heater widens its footprint and lowers the intensity people fe
 - **Measure to the people.** Use seated head height for dining and lounge zones, standing height for bars.
 - **Coverage figures assume typical mounting.** Bromic notes coverage varies with mounting height, environment and installation[^s2].
 
-[[VERIFY: recommended maximum mounting height and coverage-at-height table per model — Mike Clifford]]
+[[VERIFY: recommended maximum mounting height and coverage-at-height table per model — Product team]]
 
 Use dimming to fine-tune what height cannot: an Affinity Smart-Heat Dimmer (or the Eclipse controller for Eclipse's 33/66/100% steps), a wall switch and the Smart-Heat app. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately[^s2].
 

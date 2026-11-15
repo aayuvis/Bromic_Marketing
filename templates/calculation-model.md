@@ -24,7 +24,7 @@ and both are fixed.
 | Partly covered (pergola, umbrella, part roof) | 1.0 | Cool (about 40–50°F) | 0.85 |
 | Covered (solid roof) | 1.1 | Cold (often below about 40°F) | 0.7 |
 
-Factors live in `tools/A03-sizing/config.json` (assumptions, `[[VERIFY]]` with Mike Clifford). When an article does not know the
+Factors live in `tools/A03-sizing/config.json` (assumptions, `[[VERIFY]]` with Product team). When an article does not know the
 site, it uses **partly covered and cool** (0.85 combined), and says so.
 
 **Freestanding heaters** (Tungsten Smart-Heat Freestanding Gas, Eclipse Freestanding): also **never more than 4 seats a heater**,

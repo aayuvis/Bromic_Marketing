@@ -14,8 +14,8 @@ ai_prompt: "Warum ist Strahlungswärme im Freien besser als Konvektion?"
 meta_description: "Konvektion versagt im Freien, weil warme Luft entweicht; Strahlungswärme erreicht Menschen direkt. Kurz-, mittel- und langwellig im Vergleich, mit den Planungsregeln."
 cta: {label: "Planungsleitfaden herunterladen (Ausgabe für Fachplaner)", asset: A02}
 hero: w-smoque-n-bones-tungsten-electric-1
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -67,7 +67,7 @@ sources:
 lang: de
 translation_of: BLOG-16
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 Im Freien muss Wärme als Strahlung übertragen werden. Konvektion wirkt, indem sie Luft erwärmt, und im Freien steigt diese Luft auf und zieht ab, bevor sie jemanden erreicht; der leiseste Luftzug erledigt den Rest[^s1]. Strahlungswärme (Infrarotwärme) durchquert die Luft und wird von Menschen, Möbeln und Böden aufgenommen, wie Sonnenlicht. Planen Sie danach: Wählen Sie die Quelle mit dem höchsten Strahlungsanteil, den die Situation zulässt, richten Sie sie auf den Aufenthaltsbereich und steuern Sie ihre Leistung, nicht die Lufttemperatur.
 
@@ -101,7 +101,7 @@ Die Wellenlänge folgt der Temperatur des Heizelements. Je heißer das Element, 
 
 Quelle: Bromic-Planungsleitfaden v1.2, Zuordnung der Wellenlängen[^s2]. Das sind die Werte hinter der Spanne „60 bis 90 %“, die die frühere Fassung dieses Beitrags ohne Quelle nannte: 60 % ist mittelwellig, 90 % kurzwellig.
 
-Der Leitfaden ordnet sie nach Anwendung. Direkte Wärme, eine Mischung aus kurz- und mittelwellig, erreicht den höchsten Wirkungsgrad. Indirekte Wärme, mittel- und langwellig, heizt langsamer auf und ist dem Wind stärker ausgesetzt[^s1]. Die Wellenlänge je Modell steht im Leitfaden für Planer, [Strahlungswärme im Freien: kurz-, mittel- und langwellig](item:ARC-CO-01). [[VERIFY: Wellenlängenbereich jedes aktuellen Bromic-Modells — Mike Clifford]]
+Der Leitfaden ordnet sie nach Anwendung. Direkte Wärme, eine Mischung aus kurz- und mittelwellig, erreicht den höchsten Wirkungsgrad. Indirekte Wärme, mittel- und langwellig, heizt langsamer auf und ist dem Wind stärker ausgesetzt[^s1]. Die Wellenlänge je Modell steht im Leitfaden für Planer, [Strahlungswärme im Freien: kurz-, mittel- und langwellig](item:ARC-CO-01). [[VERIFY: Wellenlängenbereich jedes aktuellen Bromic-Modells — Produktteam]]
 
 ## Was folgt daraus für die Planung?
 
@@ -113,7 +113,7 @@ Der Leitfaden ordnet sie nach Anwendung. Direkte Wärme, eine Mischung aus kurz-
 
 **Licht.** Heißere Heizelemente glühen. Wo das Glühen für das Gestaltungskonzept wichtig ist, stimmen Sie es mit der Lichtplanung ab, nicht erst nach der Installation.
 
-**Steuerung.** Spezifizieren Sie die Steuerung zusammen mit dem Heizstrahler. Manche Energievorschriften verlangen sie inzwischen: In den USA schreibt etwa die Energievorschrift für Gewerbebauten im Bundesstaat Washington vor, dass Wärme außerhalb eines Gebäudes als Strahlung erzeugt und über einen Präsenzmelder oder eine Zeitschaltung geschaltet wird[^s5]. Welche Vorgaben in Deutschland gelten, klären Sie mit Ihrem örtlichen Bauamt; Stromkreis oder Gasversorgung plant ein Elektrofachbetrieb oder Gasinstallateur nach DIN VDE 0100 bzw. DVGW-TRGI und TRF. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Raffaele Marti]]
+**Steuerung.** Spezifizieren Sie die Steuerung zusammen mit dem Heizstrahler. Manche Energievorschriften verlangen sie inzwischen: In den USA schreibt etwa die Energievorschrift für Gewerbebauten im Bundesstaat Washington vor, dass Wärme außerhalb eines Gebäudes als Strahlung erzeugt und über einen Präsenzmelder oder eine Zeitschaltung geschaltet wird[^s5]. Welche Vorgaben in Deutschland gelten, klären Sie mit Ihrem örtlichen Bauamt; Stromkreis oder Gasversorgung plant ein Elektrofachbetrieb oder Gasinstallateur nach DIN VDE 0100 bzw. DVGW-TRGI und TRF. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Partner Deutschland]]
 
 | Heizstrahler | Heizfläche (ca.) | Montage | Zu spezifizierende Steuerung |
 |---|---|---|---|
@@ -121,7 +121,7 @@ Der Leitfaden ordnet sie nach Anwendung. Direkte Wärme, eine Mischung aus kurz-
 | Tungsten Smart-Heat Electric | 6–15 m²[^s6] | Wand, Decke, Stange, eingelassen | Affinity On/Off- oder Dimmer-Steuergerät, manueller Wandschalter; zwei Heizelemente bei 4000 und 6000 W[^s6] |
 | Eclipse Smart-Heat Electric | 11 m²[^s4] | Einzel-, Doppel- oder gebogene Stange | Affinity Eclipse-Steuergerät oder Eclipse Dimmer, manueller Wandschalter |
 
-WLAN, Zeitpläne in der App und Zonen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind[^s4]. [[VERIFY: Werte der Produktseiten von bromic.com übernommen; mit den Datenblättern 2026 abgleichen — Mike Clifford]] Vergleichen Sie die [elektrischen Heizstrahler](https://www.bromic.de/) und die [Gasheizstrahler](https://www.bromic.de/), oder senden Sie Pläne an das Team von [Design Your Space](https://www.bromic.de/) für Zeichnungen der Heizflächen.
+WLAN, Zeitpläne in der App und Zonen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind[^s4]. [[VERIFY: Werte der Produktseiten von bromic.com übernommen; mit den Datenblättern 2026 abgleichen — Produktteam]] Vergleichen Sie die [elektrischen Heizstrahler](https://www.bromic.de/) und die [Gasheizstrahler](https://www.bromic.de/), oder senden Sie Pläne an das Team von [Design Your Space](https://www.bromic.de/) für Zeichnungen der Heizflächen.
 
 ## Häufige Fragen
 

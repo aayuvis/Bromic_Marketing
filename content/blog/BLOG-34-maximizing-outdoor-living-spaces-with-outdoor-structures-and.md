@@ -18,8 +18,8 @@ meta_description: "How to heat a pergola, cabana or louvered roof: which Bromic 
 cta: {label: "Download the Outdoor Living Trends 2026 report", asset: A01}
 hero: w-mountain-view-retreat-platinum-electric-rece
 images: [w-strx-230222-bromic-dc-8, w-platinumelectricflushmountedw-lowclearancere]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -85,7 +85,7 @@ Heat an outdoor structure with radiant heaters fixed to it: recessed into a louv
 
 A pergola, cabana or louvered roof adds a room without adding to the house. It keeps off sun and rain. It does not keep off the cold. The roof is also where the best heater positions are, so the two are best drawn together.
 
-That was the point of the 2023 version of this post, written with the louvered-roof maker StruXure: its founder Scott Selzer argued that a space nobody finds comfortable goes unused, and Bromic's Michael Smith called the pairing of a structure and heating a natural fit for outdoor living.[^s6] [[VERIFY: Michael Smith's current title (pages differ) and permission to keep both comments — Megan Spies]]
+That was the point of the 2023 version of this post, written with the louvered-roof maker StruXure: its founder Scott Selzer argued that a space nobody finds comfortable goes unused, and Bromic's Michael Smith called the pairing of a structure and heating a natural fit for outdoor living.[^s6] [[VERIFY: Michael Smith's current title (pages differ) and permission to keep both comments — Marketing]]
 
 The cover helps the heater too. Under a partial roof, some of the warmth gathers into a "heat cloud" that adds to the radiant heat.[^s1] Keep enough of the sides open, though: Bromic's planning guide treats a space as outdoor only while at least 30% of its perimeter is permanently open.[^s1] Closing a structure on all sides with screens or glass can change how it is classed; ask the local building authority before you do.
 

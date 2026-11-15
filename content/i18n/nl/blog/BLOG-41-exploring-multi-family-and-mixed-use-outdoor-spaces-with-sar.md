@@ -18,8 +18,8 @@ ai_prompt: "Hoe ontwerpen architecten gemeenschappelijke buitenruimten in meerge
 meta_description: "Sara Schneider van TCA Architects over buitenvoorzieningen bij meergezinswoningen: binnen en buiten als geheel, gebruik het hele jaar, flexibele ruimten en waar warmte past."
 cta: {label: "Vraag de specificatieset voor architecten aan", asset: A11}
 hero: w-img-3076
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false

@@ -14,7 +14,7 @@ meta_description: "Rendite von Terrassenheizstrahlern in drei Schritten: Mehrums
 cta: {label: "Renditebewertung anfordern", asset: A21}
 hero: g-operator
 images: [l-013-100]
-owner_review: Blake Petty
+owner_review: Vertrieb Gastronomie
 status: draft
 gated: false
 related: [COM-CO-01, COM-AW-01, COM-PP-01, COM-IN-KB1]
@@ -22,7 +22,7 @@ updated: 2026-10-30
 lang: de
 translation_of: COM-IN-01
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: National Restaurant Association
@@ -90,9 +90,9 @@ Zusätzliche Abende sind der einfache Fall. Verlängern die Heizstrahler stattde
 
 ## Wie sieht ein Rechenbeispiel aus?
 
-Nur zur Veranschaulichung, mit US-Werten in US-Dollar. Jede Größe ist eine Annahme, um die Methode zu zeigen, kein Richtwert und kein Versprechen. Setzen Sie für Ihren Betrieb Ihre eigenen Werte in Euro und Ihren Strompreis je kWh ein. [[VERIFY: benchmarks — Blake Petty]]
+Nur zur Veranschaulichung, mit US-Werten in US-Dollar. Jede Größe ist eine Annahme, um die Methode zu zeigen, kein Richtwert und kein Versprechen. Setzen Sie für Ihren Betrieb Ihre eigenen Werte in Euro und Ihren Strompreis je kWh ein. [[VERIFY: benchmarks — Vertrieb Gastronomie]]
 
-**Annahmen (US-Beispiel):** 40 beheizte Plätze; 1,5 Belegungen pro Abend; 45 US-$ durchschnittlicher Bon; 60 zusätzliche Abende im Jahr; 50 % Auslastung; 30 % Deckungsbeitrag; sieben Platinum Smart-Heat Electric 4500 W mit Affinity Smart-Heat On/Off- oder Dimmer-Steuerung und einem Wandschalter, an diesen Abenden je 5 Stunden in Betrieb; Strom zu 14,07 US-Cent/kWh, dem US-Durchschnitt für Gewerbekunden von Januar bis Mai 2026[^s2]; Installationskosten 35.000 US-$ (7 × 5.000 US-$, ein Platzhalter für ein vollständiges Angebot einschließlich Steuerung, Verkabelung und Genehmigungen, kein Bromic-Preis). [[VERIFY: installed cost per heater — Blake Petty]]
+**Annahmen (US-Beispiel):** 40 beheizte Plätze; 1,5 Belegungen pro Abend; 45 US-$ durchschnittlicher Bon; 60 zusätzliche Abende im Jahr; 50 % Auslastung; 30 % Deckungsbeitrag; sieben Platinum Smart-Heat Electric 4500 W mit Affinity Smart-Heat On/Off- oder Dimmer-Steuerung und einem Wandschalter, an diesen Abenden je 5 Stunden in Betrieb; Strom zu 14,07 US-Cent/kWh, dem US-Durchschnitt für Gewerbekunden von Januar bis Mai 2026[^s2]; Installationskosten 35.000 US-$ (7 × 5.000 US-$, ein Platzhalter für ein vollständiges Angebot einschließlich Steuerung, Verkabelung und Genehmigungen, kein Bromic-Preis). [[VERIFY: installed cost per heater — Vertrieb Gastronomie]]
 
 Sieben Heizstrahler ergeben sich aus der Auslegung für 40 Plätze: 40 × ca. 1,9 m² je Platz = ca. 74 m²[^s5], ÷ (13,3 m² Heizfläche[^s3] × 0,85 für eine teilweise überdachte Terrasse an kühlen Abenden) = 6,6, aufgerundet 7. Siehe [wie viele Heizstrahler eine Terrasse mit 40 Plätzen braucht](item:COM-IN-KB1).
 
@@ -132,7 +132,7 @@ Zeigen Sie diese Tabelle dem, der unterschreibt. Ein Vorhaben, das sich auch im 
 
 Auf einer Seite. Stellen Sie die Amortisation und die Amortisation im ungünstigen Fall nach oben, darunter die Annahmen mit ihren Quellen, und legen Sie das Angebot bei. Terrassen tragen in vielen Restaurants erheblich zum Umsatz bei – in einer US-Umfrage der National Restaurant Association von 2021 gaben 35 % der Betreiber mit Außenplätzen an, dass diese mehr als 40 % des durchschnittlichen Tagesumsatzes ausmachten[^s1] –, präsentieren Sie die Heizstrahler daher als Kapazität, nicht als Dekoration. Vermieter wollen außerdem Montageart, Energieart und die Abnahme nach den geltenden Vorschriften sehen; das gehört in dieselbe Mappe.
 
-> Vorschriften und Genehmigungen unterscheiden sich von Ort zu Ort und ändern sich. Klären Sie sie mit Ihrem Bauamt und der zuständigen Brandschutzbehörde und beauftragen Sie einen Elektrofachbetrieb (DIN VDE 0100) oder Gasinstallateur (DVGW-TRGI, TRF). [[VERIFY: current VDE and DVGW rules for outdoor heaters — Raffaele Marti]]
+> Vorschriften und Genehmigungen unterscheiden sich von Ort zu Ort und ändern sich. Klären Sie sie mit Ihrem Bauamt und der zuständigen Brandschutzbehörde und beauftragen Sie einen Elektrofachbetrieb (DIN VDE 0100) oder Gasinstallateur (DVGW-TRGI, TRF). [[VERIFY: current VDE and DVGW rules for outdoor heaters — Partner Deutschland]]
 
 ## Das Wichtigste in Kürze
 

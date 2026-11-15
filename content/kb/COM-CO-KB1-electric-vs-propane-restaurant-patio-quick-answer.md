@@ -14,7 +14,7 @@ ai_prompt: "Electric or propane patio heaters for a restaurant?"
 meta_description: "Electric vs propane patio heaters for restaurants: per-hour running cost, cylinder handling and code limits, with the formulas to rerun on your own rates."
 cta: {label: "Run the five-year cost model", asset: A20}
 hero: l-005-024
-owner_review: Blake Petty
+owner_review: Hospitality sales
 status: draft
 gated: false
 related: [COM-CO-01, COM-PP-KB1]
@@ -47,7 +47,7 @@ For most restaurants, electric. A freestanding propane heater serves no more tha
 
 ## The numbers
 
-Formulas: electric = kW × $/kWh; propane = BTU/hr ÷ 91,500 × $/gal. Rates: 14.07¢/kWh commercial electricity, January–May 2026 US average;[^s1] $2.46/gal propane, EIA's residential winter forecast for 2025–26.[^s2] [[VERIFY: 2026 rates and a delivered cylinder price — Brian Kim/Finance]]
+Formulas: electric = kW × $/kWh; propane = BTU/hr ÷ 91,500 × $/gal. Rates: 14.07¢/kWh commercial electricity, January–May 2026 US average;[^s1] $2.46/gal propane, EIA's residential winter forecast for 2025–26.[^s2] [[VERIFY: 2026 rates and a delivered cylinder price — Finance]]
 
 | | Electric: Platinum 4500W | Propane: Tungsten Freestanding Gas 38,000 BTU |
 |---|---|---|
@@ -64,11 +64,11 @@ Swapping 4,153 gallons through 4.7-gallon cylinders is 884 swaps a year; at 10 m
 
 - **Covered terrace, wall or soffit:** Platinum Smart-Heat Electric with an Affinity Smart-Heat On/Off or Dimmer controller and a wall switch.
 - **Open layout, power nearby:** Eclipse Smart-Heat Freestanding Electric with the Eclipse controller.
-- **No power, flexible layout, propane permitted:** Tungsten Smart-Heat Freestanding Gas. [[VERIFY: Affinity control options for Tungsten freestanding gas — Mike Clifford]]
+- **No power, flexible layout, propane permitted:** Tungsten Smart-Heat Freestanding Gas. [[VERIFY: Affinity control options for Tungsten freestanding gas — Product team]]
 
 Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately.[^s3] For natural gas and a five-year view, see [the full comparison](item:COM-CO-01).
 
-Put in your own rates — run the five-year cost model.
+Put in your own rates – run the five-year cost model.
 
 [^s1]: U.S. EIA, Monthly Energy Review, Jan–May 2026.
 [^s2]: U.S. EIA, Winter Fuels Outlook 2025–26.

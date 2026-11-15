@@ -18,8 +18,8 @@ meta_description: "Platinum Electric Marine: Lloyd's Register approved, AISI 316
 cta: {label: "Book a design consult", asset: A07}
 hero: w-marine-grade-platinum-electric-white-lady-le
 images: [w-platinum-marine-ritz-carlton-evrima-jack-har-2, w-my-lel-4-lr]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -65,7 +65,7 @@ sources:
 
 Bromic's Platinum Smart-Heat Electric Marine is an outdoor heater approved by Lloyd's Register for use at sea, certified to its ENV5 environmental category.[^s2] Bromic says it was the first outdoor heating range to receive that approval.[^s2] It is built in AISI 316 marine-grade stainless steel, rated IPX5, and comes in 2300, 3400 and 4500 W for about 65 to 143 ft² of deck, run by Affinity controls.[^s1]
 
-[[VERIFY: link the Lloyd's Register certificate (number, scope, expiry) here; none found on bromic.com or in a public search — Mike Clifford]]
+[[VERIFY: link the Lloyd's Register certificate (number, scope, expiry) here; none found on bromic.com or in a public search — Product team]]
 
 ![Superyacht aft deck lounge at dusk with Platinum Electric Marine heaters recessed in the ceiling](img:w-marine-grade-platinum-electric-white-lady-le)
 
@@ -86,7 +86,7 @@ Bromic designed the Marine range for those conditions: a casing that limits inte
 | Approval | Lloyd's Register (ENV5) |
 | Warranty | 5 years on land, 3 years on vessels |
 
-Sources: product page[^s1] and the superyacht page.[^s2] The product page FAQ says "314" stainless and the superyacht page gives "IPx55", which is not a valid code; we use 316 and IPX5. [[VERIFY: steel grade (316 vs 314) and IP rating (IPX5 vs IPx55) on the live pages — Mike Clifford]]
+Sources: product page[^s1] and the superyacht page.[^s2] The product page FAQ says "314" stainless and the superyacht page gives "IPx55", which is not a valid code; we use 316 and IPX5. [[VERIFY: steel grade (316 vs 314) and IP rating (IPX5 vs IPx55) on the live pages — Product team]]
 
 ## Which outputs, and how much deck do they heat?
 
@@ -98,7 +98,7 @@ The 2020 version of this post listed 2300 and 3400 W, up to 108 ft².[^s3] The r
 | 3400 W | 108 ft² | 22 lb |
 | 4500 W | 143 ft² | 33 lb |
 
-All three run on 220–240 V or 208 V.[^s1] [[VERIFY: marine figures read from bromic.com; confirm against the 2026 cut sheet and the vessel supply voltages Bromic supports — Mike Clifford]]
+All three run on 220–240 V or 208 V.[^s1] [[VERIFY: marine figures read from bromic.com; confirm against the 2026 cut sheet and the vessel supply voltages Bromic supports — Product team]]
 
 ![Yacht pool bar under white Platinum Electric Marine heaters recessed in a curved ceiling](img:w-platinum-marine-ritz-carlton-evrima-jack-har-2)
 
@@ -114,7 +114,7 @@ Affinity Smart-Heat On/Off or Dimmer controllers, or a manual wall switch, sold 
 
 ## Where is it already at sea?
 
-Bromic has published three marine projects: [M/Y Lady Lene](https://www.bromic.com/case-study/m-y-lady-lene-superyacht/), [M/Y Coral Ocean](https://www.bromic.com/case-study/platinum-electric-marine-heaters-aboard-iconic-superyacht-m-y-coral-ocean/) and Ritz-Carlton Yacht Collection's [Evrima](https://www.bromic.com/case-study/platinum-electric-marine-heaters-aboard-ritz-carlton-yacht-collections-evrima/). The post this replaces quoted Daniel Bruntsch, Bromic's marine lead, on designing for life at sea; we leave his words out until they are confirmed. [[VERIFY: Daniel Bruntsch's current title and the wording of his quote — Megan Spies]]
+Bromic has published three marine projects: [M/Y Lady Lene](https://www.bromic.com/case-study/m-y-lady-lene-superyacht/), [M/Y Coral Ocean](https://www.bromic.com/case-study/platinum-electric-marine-heaters-aboard-iconic-superyacht-m-y-coral-ocean/) and Ritz-Carlton Yacht Collection's [Evrima](https://www.bromic.com/case-study/platinum-electric-marine-heaters-aboard-ritz-carlton-yacht-collections-evrima/). The post this replaces quoted Daniel Bruntsch, Bromic's marine lead, on designing for life at sea; we leave his words out until they are confirmed. [[VERIFY: Daniel Bruntsch's current title and the wording of his quote — Marketing]]
 
 ## Frequently asked
 
@@ -128,7 +128,7 @@ Usually recessed into the deckhead, though wall and ceiling-pole mounting are av
 
 ### What does ENV5 mean?
 
-It is the Lloyd's Register environmental category the heater is certified to.[^s2] [[VERIFY: plain-language definition of ENV5 from the Lloyd's Register Test Specification Number 1 — Mike Clifford]]
+It is the Lloyd's Register environmental category the heater is certified to.[^s2] [[VERIFY: plain-language definition of ENV5 from the Lloyd's Register Test Specification Number 1 — Product team]]
 
 ### Are controls included?
 

@@ -18,8 +18,8 @@ meta_description: "Clean and maintain outdoor heaters safely: precautions, a cle
 cta: {label: "Get the operations playbook", asset: A23}
 hero: w-bromic-shoot-may-11-2023-54
 images: [w-tungsten-portable-cover-v3]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -78,7 +78,7 @@ Bromic's own guidance, in order:[^s1]
 
 ## How should you clean an outdoor heater?
 
-Gently. Wipe dust and debris from the housing with a microfiber cloth. Avoid harsh chemicals and excess water, which can cause rust and corrosion.[^s1] Never spray water into an element or burner, and never open a sealed unit. On coastal sites, rinse salt from stainless surfaces as your model's manual directs. [[VERIFY: Bromic recommended cleaning method and products per model, including coastal care — Mike Clifford]]
+Gently. Wipe dust and debris from the housing with a microfiber cloth. Avoid harsh chemicals and excess water, which can cause rust and corrosion.[^s1] Never spray water into an element or burner, and never open a sealed unit. On coastal sites, rinse salt from stainless surfaces as your model's manual directs. [[VERIFY: Bromic recommended cleaning method and products per model, including coastal care — Product team]]
 
 ## What is the maintenance checklist?
 
@@ -95,7 +95,7 @@ Generic guidance; your model's installation and operating manual takes precedenc
 | Check circuits and connections | Licensed electrician | Per manual |
 | Cover or store freestanding heaters | Owner or staff | End of season |
 
-[[VERIFY: Bromic recommended maintenance intervals per model — Mike Clifford]]
+[[VERIFY: Bromic recommended maintenance intervals per model — Product team]]
 
 *Gas and electrical work is regulated: in the US, NFPA 54 for gas and NFPA 70 for electric installations.[^s5] Confirm requirements with your local building authority and use a licensed gas fitter or electrician.*
 
@@ -125,7 +125,7 @@ Terms differ by product. The live post gave a 1-year parts warranty for all heat
 | Tungsten Smart-Heat Freestanding Gas | 1 year |
 | Affinity Smart-Heat Controls | 1 year |
 
-[[VERIFY: warranty terms per product against the current policy; the live post and the product pages disagree — Mike Clifford]]
+[[VERIFY: warranty terms per product against the current policy; the live post and the product pages disagree — Product team]]
 
 ## Frequently asked
 

@@ -14,7 +14,7 @@ meta_description: "Außenheizung in drei klaren Stufen anbieten: eine Zone, mehr
 cta: {label: "Den Leitfaden Gut-Besser-Premium anfordern", asset: A15}
 hero: l-010-076
 images: [l-006-028, t-009-025]
-owner_review: Arvin Avaness
+owner_review: Fachhandelsvertrieb
 status: draft
 gated: false
 related: [BLD-AW-01, BLD-IN-01, BLD-PP-01]
@@ -51,7 +51,7 @@ sources:
 lang: de
 translation_of: BLD-CO-01
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 
 Bieten Sie Außenwärme in drei Stufen an, die sich eine Vorverkabelung teilen: Gut ist eine beheizte Zone mit einfacher On/Off-Steuerung, Besser sind zwei oder mehr Zonen mit Dimmer-Steuerung, und Premium sind eingelassene Heizstrahler mit App- und Smart-Home-Steuerung. Jede Stufe enthält ihre Steuerung. Käufer wählen ein Komfort- und Ausstattungsniveau, keine Teileliste, und das Bauteam führt dieselbe Rohinstallation aus, egal welche Stufe verkauft wird.
@@ -76,7 +76,7 @@ Die folgenden Produkte sind aktuelle Bromic Modelle. Die Heizflächen sind Nähe
 | Daten der Heizstrahler | 2300, 3400 oder 4500 W; je ca. 6–13 m²[^s1] | Wie Gut; Eclipse ca. 11 m², Leistung 33/66/100 %, dimmbare Ringbeleuchtung[^s1] | Wie Gut; Schwarz oder Weiß; Classic oder Marine[^s1] |
 | Steuerung (enthalten) | Affinity Smart-Heat On/Off-Steuergerät + manueller Wandschalter | Affinity Smart-Heat Dimmer-Steuergerät je Zone (Eclipse Steuergerät für Eclipse) + Wandschalter | Affinity Smart-Heat Steuergeräte je Zone + Wandschalter + Bromic Smart-Heat App; Integration in Alexa, Google Assistant, Control4, Crestron oder Lutron |
 | Elektro | Ein eigener Stromkreis je Heizstrahler | Ein eigener Stromkreis je Heizstrahler, nach Zonen gruppiert | Wie Besser, dazu Unterkonstruktion für die Einbaurahmen und Leerrohr für Kleinspannung zum Standort von Medien- oder Haustechnik |
-| Preis | [[VERIFY: Preise der Stufen — Arvin Avaness]] | [[VERIFY: Preise der Stufen — Arvin Avaness]] | [[VERIFY: Preise der Stufen — Arvin Avaness]] |
+| Preis | [[VERIFY: Preise der Stufen — Fachhandelsvertrieb]] | [[VERIFY: Preise der Stufen — Fachhandelsvertrieb]] | [[VERIFY: Preise der Stufen — Fachhandelsvertrieb]] |
 
 App, Zeitpläne und Sprachsteuerung in der Stufe Premium erfordern kompatible Affinity Smart-Heat Steuerungen, die separat erhältlich sind; die Smart-Home-Integration hängt vom System ab und kann zusätzliche Hardware oder Konfiguration erfordern[^s1]. Schreiben Sie das auf das Optionsblatt, damit niemand in der Stufe Gut eine App-Steuerung erwartet.
 
@@ -94,7 +94,7 @@ Planen Sie die Vorverkabelung für Premium und verkaufen Sie jede Stufe. In der 
 - Ziehen Sie in der Rohinstallation einen eigenen Stromkreis zu jeder Position, bemessen vom Elektrofachbetrieb nach dem Typenschild.
 - Setzen Sie eine Dose an den Ort des Steuergeräts, typischerweise innen neben der Terrassentür.
 - Lassen Sie ein Leerrohr zum Standort von Medien- oder Haustechnik, falls Premium verkauft wird.
-- Sehen Sie dort, wo die Untersicht es zulässt, die Unterkonstruktion für Einbaurahmen vor, mit denen Platinum und Tungsten Electric Heizstrahler bündig im Deckenhohlraum sitzen[^s4] [[VERIFY: Maße der Unterkonstruktion für Einbaurahmen je Modell — Mike Clifford]].
+- Sehen Sie dort, wo die Untersicht es zulässt, die Unterkonstruktion für Einbaurahmen vor, mit denen Platinum und Tungsten Electric Heizstrahler bündig im Deckenhohlraum sitzen[^s4] [[VERIFY: Maße der Unterkonstruktion für Einbaurahmen je Modell — Produktteam]].
 
 Wird Gut verkauft, werden ungenutzte Positionen verschlossen und beschriftet, und der Käufer kann später aufrüsten, ohne fertige Bauteile zu öffnen. Die Details stehen in der [Checkliste zur Rohinstallation](item:BLD-IN-01).
 

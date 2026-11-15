@@ -14,7 +14,7 @@ meta_description: "Leitfaden für Betreiber zur Terrassenheizung: Umsatzrechnung
 cta: {label: "Ihre Wirtschaftlichkeitsbewertung anfordern", asset: A21}
 hero: l-013-104
 images: [l-005-024, l-013-111, l-013-107, l-019-164, p-003-006]
-owner_review: Mike Clifford + 454 Creative
+owner_review: Produktteam + 454 Creative
 status: draft
 gated: true
 related: [COM-CO-01, COM-IN-01, ARC-CO-01]
@@ -219,7 +219,7 @@ sources:
 lang: de
 translation_of: A02-commercial
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 # Der Planungsleitfaden für Heizung im Außenbereich
 
@@ -237,7 +237,7 @@ Außengastronomie ist Standard: In einer Umfrage der National Restaurant Associa
 
 **Amortisation (Monate) = gesamte Installationskosten ÷ (zusätzlicher Deckungsbeitrag pro Jahr ÷ 12)**
 
-Rechnen Sie die Amortisation mit dem Deckungsbeitrag, nicht mit dem Umsatz. Zählen Sie nur Abende, an denen die Terrasse ohne Wärme nicht verkaufen würde. Belegungen und Bon kommen aus Ihrem Kassensystem, zusätzliche Abende aus den wetterbedingten Schließungen des Vorjahres. [[VERIFY: Vergleichsspannen für Belegungen, Bon und Saisonverlängerung je Klima — Blake Petty]] Der [Wirtschaftlichkeitsrechner](asset:A21) rechnet es für Ihren Standort.
+Rechnen Sie die Amortisation mit dem Deckungsbeitrag, nicht mit dem Umsatz. Zählen Sie nur Abende, an denen die Terrasse ohne Wärme nicht verkaufen würde. Belegungen und Bon kommen aus Ihrem Kassensystem, zusätzliche Abende aus den wetterbedingten Schließungen des Vorjahres. [[VERIFY: Vergleichsspannen für Belegungen, Bon und Saisonverlängerung je Klima — Vertrieb Gastronomie]] Der [Wirtschaftlichkeitsrechner](asset:A21) rechnet es für Ihren Standort.
 
 ## Die neun Schritte
 
@@ -272,7 +272,7 @@ Außenbereich heißt: mindestens 30 % des Umfangs dauerhaft offen; ein Teildach 
 
 **Energie je Stunde:** Strom = kW × Preis je kWh · Erdgas = kW × Gaspreis je kWh (in Deutschland in kWh abgerechnet; in den USA Btu/h ÷ 100.000 × Preis je Therm) · Flüssiggas = ca. kW ÷ 7,1 Liter je Stunde (aus 91.500 Btu je US-Gallone[^s23]) × Preis je Liter.
 
-Im US-Beispiel verwendete Preise, dieselben wie im [Gesamtkostenmodell A20](asset:A20): Strom 13,54 US-Cent/kWh (EIA, US-Durchschnitt Gewerbe, Mai 2026)[^s18]; Erdgas 0,87 US-$ je Therm (EIA, US-Gewerbe, Durchschnitt Januar–Mai 2026)[^s19]; Propan 2,674 US-$ je Gallone (EIA, US-Haushalte, Woche vom 30. März 2026; die EIA veröffentlicht keine Reihe für Gewerbe)[^s20]. Europäische Preise sind hier nicht angesetzt; setzen Sie Ihre eigenen Tarife ein. [[VERIFY: Gewerbepreise 2026, national und je Bundesstaat, und Preise für Propan im Flaschentausch — Brian Kim/Finance]]
+Im US-Beispiel verwendete Preise, dieselben wie im [Gesamtkostenmodell A20](asset:A20): Strom 13,54 US-Cent/kWh (EIA, US-Durchschnitt Gewerbe, Mai 2026)[^s18]; Erdgas 0,87 US-$ je Therm (EIA, US-Gewerbe, Durchschnitt Januar–Mai 2026)[^s19]; Propan 2,674 US-$ je Gallone (EIA, US-Haushalte, Woche vom 30. März 2026; die EIA veröffentlicht keine Reihe für Gewerbe)[^s20]. Europäische Preise sind hier nicht angesetzt; setzen Sie Ihre eigenen Tarife ein. [[VERIFY: Gewerbepreise 2026, national und je Bundesstaat, und Preise für Propan im Flaschentausch — Finanzen]]
 
 | Heizstrahler bei voller Leistung | Heizfläche | Verbrauch je Stunde | Kosten je Stunde (US-Beispiel) |
 |---|---|---|---|
@@ -290,7 +290,7 @@ Im US-Beispiel verwendete Preise, dieselben wie im [Gesamtkostenmodell A20](asse
 |---|---|---|---|---|
 | Tungsten Electric 6000 W | 56 ÷ (14,9 × 0,85 = 12,6) = 4,4 → 5 | 5 × 6 kW × 900 h = 27.000 kWh; × 0,1354 US-$ = 3.656 US-$ | 18.279 US-$ | Affinity Dimmer mit 5 Kanälen, ein Heizstrahler je 6-kW-Kanal (5 Kanäle); Wandschalter; App |
 | Platinum Gas ca. 11,7 kW, Erdgas | 56 ÷ (20,0 × 0,85 = 17,0) = 3,3 → 4 | 4 × ca. 11,7 kW × 900 h = ca. 42.000 kWh Erdgas; im US-Beispiel 4 × 0,398 Therm × 900 h × 0,87 US-$ = 1.247 US-$ | 6.233 US-$ | Ein Affinity On/Off-Kanal (bis zu 10 Gasheizstrahler); Wandschalter; App |
-| Tungsten Freestanding Gas, Flüssiggas | das Größere aus 3,3 → 4 nach Fläche und 30 Plätze ÷ 4 = 7,5 → 8 | 8 × ca. 1,57 L × 900 h = ca. 11.300 L; im US-Beispiel 8 × 0,4153 Gallonen × 900 h × 2,674 US-$ = 7.996 US-$ | 39.979 US-$, plus Handling | [[VERIFY: Steuerung für Tungsten Freestanding Gas — Mike Clifford]] |
+| Tungsten Freestanding Gas, Flüssiggas | das Größere aus 3,3 → 4 nach Fläche und 30 Plätze ÷ 4 = 7,5 → 8 | 8 × ca. 1,57 L × 900 h = ca. 11.300 L; im US-Beispiel 8 × 0,4153 Gallonen × 900 h × 2,674 US-$ = 7.996 US-$ | 39.979 US-$, plus Handling | [[VERIFY: Steuerung für Tungsten Freestanding Gas — Produktteam]] |
 
 Nur Energie, bei voller Leistung; Ihre tatsächliche Rechnung, Zeitpläne und Dimmung senken sie. Für Ihren Betrieb: Verbrauch × Ihr Preis je kWh oder Liter. Flüssiggas bedeutet ca. 11.300 Liter im Jahr, im US-Beispiel ca. 636 Wechsel einer Flasche mit ca. 17,8 L, die gekauft, getauscht und gelagert werden müssen. Rechnen Sie Geräte, Installation und Handling im [Gesamtkostenmodell](asset:A20). Die Stundenwerte des Leitfadens von 2021 beruhten auf Preisen von 2021 und gelten nicht mehr.
 
@@ -324,7 +324,7 @@ Nur Energie, bei voller Leistung; Ihre tatsächliche Rechnung, Zeitpläne und Di
 | Tungsten Electric Coastal (demnächst erhältlich) | Uferlagen; Edelstahl 316 | [[VERIFY]][^s2] |
 | Tungsten Electric Select (demnächst erhältlich) | Gestaltungsorientierte Betriebe; Schwarz, Weiß, Graphit | [[VERIFY]][^s2] |
 
-[[VERIFY: Garantiebedingungen für gewerbliche Nutzung (auch in Deutschland) und die Garantie des Tungsten Freestanding Gas mit Erdgas — Mike Clifford]]
+[[VERIFY: Garantiebedingungen für gewerbliche Nutzung (auch in Deutschland) und die Garantie des Tungsten Freestanding Gas mit Erdgas — Produktteam]]
 
 - [ ] Eine Heizstrahlerfamilie je Standorttyp (Vordach, Wand, freistehend)
 - [ ] Für demnächst erhältliche Modelle ist eine freigegebene aktuelle Alternative angegeben
@@ -333,7 +333,7 @@ Nur Energie, bei voller Leistung; Ihre tatsächliche Rechnung, Zeitpläne und Di
 
 ## Schritt 5. Dimensionieren
 
-Heizstrahler je Zone = m² der Zone ÷ (Heizfläche × Faktor Überdachung × Faktor Klima), aufgerundet. Überdachung: offen 0,85, teilweise überdacht 1,0, überdacht 1,1. Klima: mild (über ca. 10 °C) 1,0, kühl (ca. 4–10 °C) 0,85, kalt (oft unter ca. 4 °C) 0,7. Freistehende Heizstrahler versorgen außerdem jeweils nicht mehr als 4 Plätze, weil Gäste ihre Strahlungswärme abschirmen: Nehmen Sie die größere der beiden Zahlen. Ohne Platzzahl gilt: Plätze = m² ÷ 1,9[^s28]. [[VERIFY: Faktoren für Überdachung und Klima — Mike Clifford]]
+Heizstrahler je Zone = m² der Zone ÷ (Heizfläche × Faktor Überdachung × Faktor Klima), aufgerundet. Überdachung: offen 0,85, teilweise überdacht 1,0, überdacht 1,1. Klima: mild (über ca. 10 °C) 1,0, kühl (ca. 4–10 °C) 0,85, kalt (oft unter ca. 4 °C) 0,7. Freistehende Heizstrahler versorgen außerdem jeweils nicht mehr als 4 Plätze, weil Gäste ihre Strahlungswärme abschirmen: Nehmen Sie die größere der beiden Zahlen. Ohne Platzzahl gilt: Plätze = m² ÷ 1,9[^s28]. [[VERIFY: Faktoren für Überdachung und Klima — Produktteam]]
 
 | Heizstrahler | Heizfläche je Heizstrahler |
 |---|---|
@@ -346,7 +346,7 @@ Heizstrahler je Zone = m² der Zone ÷ (Heizfläche × Faktor Überdachung × Fa
 | Tungsten Freestanding Gas, ca. 11,1 kW | ca. 20 m²[^s2] |
 | Tungsten Electric Coastal und Select (demnächst erhältlich) | ca. 6–13 m²[^s2] |
 
-Die Heizfläche ist ein Näherungswert und hängt von Montagehöhe, Umgebung und Installation ab[^s2]. [[VERIFY: Eclipse 2900 W gegenüber 3000 W; Tungsten Freestanding Gas ca. 11,1 kW gegenüber ca. 11,3 kW; Heizfläche je Modell anhand der Datenblätter 2026 — Mike Clifford]]
+Die Heizfläche ist ein Näherungswert und hängt von Montagehöhe, Umgebung und Installation ab[^s2]. [[VERIFY: Eclipse 2900 W gegenüber 3000 W; Tungsten Freestanding Gas ca. 11,1 kW gegenüber ca. 11,3 kW; Heizfläche je Modell anhand der Datenblätter 2026 — Produktteam]]
 
 - [ ] Anzahl je Zone; Rechner für jeden Standort ausgeführt
 
@@ -359,7 +359,7 @@ Die Heizfläche ist ein Näherungswert und hängt von Montagehöhe, Umgebung und
 | Cobalt Electric 4000 / 6000 W | 17,4 / 26,1[^s9] |
 | Tungsten Electric 4000 / 6000 W | 17,4 / 26,1 |
 
-Die Produktseiten veröffentlichen Stromwerte nur für die US-Spannungen 208 und 240 V; Tungsten mit 4000 und 6000 W wird in den USA auch für 277 V angeboten[^s4]. [[VERIFY: Stromaufnahme von Tungsten je Modell und Spannung, auch bei 230 V — Mike Clifford]] Fest eingebaute Gasheizstrahler brauchen eine Gasleitung und laut US-Angaben eine Versorgung mit 110 V, 2 A[^s10][^s11]. Stromkreise bemisst ein Elektrofachbetrieb, in den USA nach NFPA 70[^s21], in Deutschland nach DIN VDE 0100; Gas ein Gasinstallateur, in den USA nach NFPA 54[^s22], in Deutschland nach DVGW-TRGI (Erdgas) und TRF (Flüssiggas). [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Raffaele Marti]]
+Die Produktseiten veröffentlichen Stromwerte nur für die US-Spannungen 208 und 240 V; Tungsten mit 4000 und 6000 W wird in den USA auch für 277 V angeboten[^s4]. [[VERIFY: Stromaufnahme von Tungsten je Modell und Spannung, auch bei 230 V — Produktteam]] Fest eingebaute Gasheizstrahler brauchen eine Gasleitung und laut US-Angaben eine Versorgung mit 110 V, 2 A[^s10][^s11]. Stromkreise bemisst ein Elektrofachbetrieb, in den USA nach NFPA 70[^s21], in Deutschland nach DIN VDE 0100; Gas ein Gasinstallateur, in den USA nach NFPA 54[^s22], in Deutschland nach DVGW-TRGI (Erdgas) und TRF (Flüssiggas). [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Partner Deutschland]]
 
 - [ ] Kapazität des Verteilers und Stromkreise je Zone
 - [ ] Gaslast und Absperrungen; Hilfsenergie an jedem Einbau-Gasheizstrahler
@@ -378,7 +378,7 @@ Die Steuerung macht die Zahlen aus Schritt 3 erst real. Ohne sie läuft die Wär
 | Vor dem Service an, bei Schließung aus | Bromic Smart-Heat App: Zonen, Zeitpläne, Timer | Über ein kompatibles Affinity-Steuergerät |
 | Steuerung für den ganzen Betrieb | Erweiterungsplatine: Ethernet und 0–10 V zur GLT (der GLT-Modus deaktiviert die App) | Im 5-Kanal-Gerät eingebaut[^s17] |
 
-WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind. Die Kompatibilität mit Control4, Crestron und Lutron ist unterschiedlich und kann zusätzliche Hardware oder Konfiguration erfordern[^s2]. [[VERIFY: Verwaltung mehrerer Standorte oder Fernverwaltung in der App; Steuerung des Tungsten Freestanding Gas; Kanalleistung bei 230 V — Mike Clifford]]
+WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind. Die Kompatibilität mit Control4, Crestron und Lutron ist unterschiedlich und kann zusätzliche Hardware oder Konfiguration erfordern[^s2]. [[VERIFY: Verwaltung mehrerer Standorte oder Fernverwaltung in der App; Steuerung des Tungsten Freestanding Gas; Kanalleistung bei 230 V — Produktteam]]
 
 - [ ] Zuordnung der Zonen zu den Kanälen
 - [ ] Zeitpläne nach Servicezeiten; Wandschalter für die Schließverantwortliche oder den Schließverantwortlichen
@@ -388,7 +388,7 @@ WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, 
 
 ## Schritt 8. Abstände, Brandschutz und Genehmigungen
 
-Beginnen Sie mit der Brandschutzbehörde und dem Bauamt. Die Regeln werden örtlich festgelegt und ergänzt. Die folgende Tabelle zeigt die US-Quellen, auf denen die Originalausgabe beruht; für Deutschland gelten DIN VDE 0100, DVGW-TRGI (Erdgas) und TRF (Flüssiggas) sowie die örtlichen Brandschutz- und Gaststättenvorgaben. [[VERIFY: deutsche Vorgaben für mobile Gasheizstrahler in der Gastronomie, Abstände zu Gebäuden und Ausgängen sowie Lagerung von Flüssiggasflaschen — Raffaele Marti]]
+Beginnen Sie mit der Brandschutzbehörde und dem Bauamt. Die Regeln werden örtlich festgelegt und ergänzt. Die folgende Tabelle zeigt die US-Quellen, auf denen die Originalausgabe beruht; für Deutschland gelten DIN VDE 0100, DVGW-TRGI (Erdgas) und TRF (Flüssiggas) sowie die örtlichen Brandschutz- und Gaststättenvorgaben. [[VERIFY: deutsche Vorgaben für mobile Gasheizstrahler in der Gastronomie, Abstände zu Gebäuden und Ausgängen sowie Lagerung von Flüssiggasflaschen — Partner Deutschland]]
 
 | Thema | Primärquelle (USA) | Hinweis |
 |---|---|---|
@@ -401,9 +401,9 @@ Beginnen Sie mit der Brandschutzbehörde und dem Bauamt. Die Regeln werden örtl
 | Gasinstallation | NFPA 54[^s22] (Deutschland: DVGW-TRGI, TRF) | Feste Versorgung, Abstände, Belüftung |
 | Zertifizierung | Prüfzeichen von Intertek, UL oder CSA | Vorgeschrieben für Gas- und Elektrogeräte, auch mobile Heizstrahler[^s3] |
 
-[[VERIFY: aktueller Text von IFC 2024, 603.4 und 603.4.2 — Shaughn Ritchie]]
+[[VERIFY: aktueller Text von IFC 2024, 603.4 und 603.4.2 — Spezifikation und Compliance]]
 
-*Diese Tabelle verweist auf Primärquellen; sie ist keine Rechtsberatung. Maßgeblich sind die örtlich geltenden Vorschriften und deren Auslegung durch die Behörden. Klären Sie das mit Ihrem örtlichen Bauamt und der Brandschutzbehörde, und beauftragen Sie einen Elektrofachbetrieb oder Gasinstallateur.* [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Raffaele Marti]]
+*Diese Tabelle verweist auf Primärquellen; sie ist keine Rechtsberatung. Maßgeblich sind die örtlich geltenden Vorschriften und deren Auslegung durch die Behörden. Klären Sie das mit Ihrem örtlichen Bauamt und der Brandschutzbehörde, und beauftragen Sie einen Elektrofachbetrieb oder Gasinstallateur.* [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Partner Deutschland]]
 
 - [ ] Weg über Brandschutzbehörde und Baugenehmigung je Standort geklärt
 - [ ] Abstände laut Installationsanleitung

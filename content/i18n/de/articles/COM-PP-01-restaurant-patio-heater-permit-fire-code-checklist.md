@@ -14,7 +14,7 @@ meta_description: "Brauchen Heizstrahler in der Außengastronomie eine Genehmigu
 cta: {label: "Die Checkliste zu Genehmigungen und Brandschutz herunterladen", asset: A22}
 hero: l-016-131
 images: [p-014-066]
-owner_review: Shaughn Ritchie
+owner_review: Spezifikation und Compliance
 status: draft
 gated: false
 related: [COM-PP-KB1, COM-CO-01, COM-BY-01, COM-IN-01]
@@ -22,7 +22,7 @@ updated: 2026-10-29
 lang: de
 translation_of: COM-PP-01
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: International Code Council
@@ -91,7 +91,7 @@ sources:
 
 Meistens ja. Fest angeschlossene elektrische Heizstrahler brauchen einen eingetragenen Elektrofachbetrieb, der nach DIN VDE 0100 installiert; fest installierte Erdgas-Heizstrahler ein eingetragenes Installationsunternehmen nach DVGW-TRGI; und für mobile Flüssiggas-Heizstrahler gelten die TRF und die örtlichen Brandschutz- und Ordnungsregeln, für den Betrieb ebenso wie für die Lagerung der Flaschen. Steht die Terrasse auf einem Gehweg oder öffentlichen Platz, kommen die Auflagen der Gemeinde für die Außengastronomie hinzu. Die Regeln sind örtlich verschieden; nutzen Sie diesen Artikel deshalb als Checkliste für das Gespräch mit Bauamt und Ordnungsamt, nicht als Genehmigung.
 
-> **Hinweis.** Dieser Artikel fasst Regelwerke und veröffentlichte Hinweise nur zur Planung zusammen. Er ist keine Rechts- oder Vorschriftenberatung. Vorschriften werden örtlich angewendet und ergänzt, und Ausgaben unterscheiden sich. Klären Sie jede Anforderung mit Ihrem Bauamt und der zuständigen Brandschutzdienststelle ab und lassen Sie die Arbeiten von einem eingetragenen Elektrofachbetrieb bzw. Gasinstallateur planen und ausführen. [[VERIFY: current VDE and DVGW rules for outdoor heaters — Raffaele Marti]]
+> **Hinweis.** Dieser Artikel fasst Regelwerke und veröffentlichte Hinweise nur zur Planung zusammen. Er ist keine Rechts- oder Vorschriftenberatung. Vorschriften werden örtlich angewendet und ergänzt, und Ausgaben unterscheiden sich. Klären Sie jede Anforderung mit Ihrem Bauamt und der zuständigen Brandschutzdienststelle ab und lassen Sie die Arbeiten von einem eingetragenen Elektrofachbetrieb bzw. Gasinstallateur planen und ausführen. [[VERIFY: current VDE and DVGW rules for outdoor heaters — Partner Deutschland]]
 
 ## Welche Vorschriften gelten für Terrassenheizstrahler?
 
@@ -104,9 +104,9 @@ Drei Regelwerke, dazu die Regeln Ihrer Gemeinde für die Außengastronomie. Die 
 | Mobiles Gasgerät (Flüssiggas) | TRF, dazu örtliche Brandschutz- und Ordnungsregeln | Ordnungsamt bzw. Brandschutzdienststelle | International Fire Code 605.5 oder NFPA 1, dazu NFPA 58 für Flüssiggas[^s1][^s4] |
 | Jeder Heizstrahler auf öffentlicher Fläche | Satzung der Gemeinde für die Außengastronomie | Gemeinde (Sondernutzungserlaubnis) | Städtische Regeln für Straßencafés |
 
-[[VERIFY: welche Genehmigungen deutsche Gemeinden für Heizstrahler in der Außengastronomie verlangen und wo Gas-Heizstrahler örtlich eingeschränkt sind — Raffaele Marti]]
+[[VERIFY: welche Genehmigungen deutsche Gemeinden für Heizstrahler in der Außengastronomie verlangen und wo Gas-Heizstrahler örtlich eingeschränkt sind — Partner Deutschland]]
 
-Jeder Heizstrahler sollte ein Prüfzeichen tragen; der US-Planungsleitfaden nennt Intertek, UL oder CSA.[^s7] Mobile Gas-Terrassenheizstrahler sind in den USA nach ANSI Z83.26/CSA 2.37 gelistet.[^s2] [[VERIFY: welche Prüf- und Konformitätszeichen in Deutschland erforderlich sind (z. B. CE, Gasgeräteverordnung) — Mike Clifford]]
+Jeder Heizstrahler sollte ein Prüfzeichen tragen; der US-Planungsleitfaden nennt Intertek, UL oder CSA.[^s7] Mobile Gas-Terrassenheizstrahler sind in den USA nach ANSI Z83.26/CSA 2.37 gelistet.[^s2] [[VERIFY: welche Prüf- und Konformitätszeichen in Deutschland erforderlich sind (z. B. CE, Gasgeräteverordnung) — Produktteam]]
 
 ## Was sagen Brandschutzregeln zu mobilen Gas-Heizstrahlern? Das US-Beispiel
 
@@ -116,23 +116,23 @@ Zum Vergleich: Nach dem International Fire Code 2021, wie ihn viele US-Städte �
 - sie müssen mindestens ca. 1,5 m Abstand zu Gebäuden, zu brennbaren Überständen, Markisen und Sonnensegeln sowie zu Ausgängen und Fluchtwegen halten;
 - sie müssen gelistet sein und gemäß Listung und Herstelleranleitung betrieben werden.
 
-Örtliche Ergänzungen gehen weiter. Die kalifornische Fassung verbietet sie in einigen Städten zusätzlich auf Dachterrassen.[^s9] [[VERIFY: confirm IFC 2021 §605.5 text against the ICC publication and note NFPA 1 equivalents for NFPA 1 states — Shaughn Ritchie]]
+Örtliche Ergänzungen gehen weiter. Die kalifornische Fassung verbietet sie in einigen Städten zusätzlich auf Dachterrassen.[^s9] [[VERIFY: confirm IFC 2021 §605.5 text against the ICC publication and note NFPA 1 equivalents for NFPA 1 states — Spezifikation und Compliance]]
 
 Der Gedanke dahinter ist auch für die Planung in Deutschland nützlich: Eine Terrasse mit Markise direkt am Gebäude ist für mobile Gas-Heizstrahler oft ungeeignet, und genau dort kommen fest installierte elektrische Heizstrahler ins Spiel. Welche Abstände in Deutschland gelten, regeln die TRF, die Anleitung des Geräts und die örtlichen Behörden.
 
 ## Was gilt für die Lagerung von Flüssiggas?
 
-In Deutschland regeln die TRF und die örtlichen Vorschriften, wie Flüssiggasflaschen gelagert werden. In den USA bestimmt NFPA 58, wie Flaschen außerhalb von Gebäuden gelagert werden, einschließlich des Abstands zu Türen, und viele Brandschutzvorschriften verlangen ab bestimmten Mengen eine Genehmigung.[^s4] In der Praxis heißt das: ein abschließbarer, belüfteter Gitterkäfig oder Schrank fern von Ausgängen, ein Überblick über die gelagerte Menge und ein Lieferant, der Ihren Standort zulässig beliefern kann. Gängig sind in Deutschland Flaschen mit 5 kg oder 11 kg. [[VERIFY: current NFPA 58 edition distances for cylinder storage outside buildings — Shaughn Ritchie]] [[VERIFY: Lagerregeln für Flüssiggasflaschen in der Gastronomie nach TRF und Landesrecht — Raffaele Marti]]
+In Deutschland regeln die TRF und die örtlichen Vorschriften, wie Flüssiggasflaschen gelagert werden. In den USA bestimmt NFPA 58, wie Flaschen außerhalb von Gebäuden gelagert werden, einschließlich des Abstands zu Türen, und viele Brandschutzvorschriften verlangen ab bestimmten Mengen eine Genehmigung.[^s4] In der Praxis heißt das: ein abschließbarer, belüfteter Gitterkäfig oder Schrank fern von Ausgängen, ein Überblick über die gelagerte Menge und ein Lieferant, der Ihren Standort zulässig beliefern kann. Gängig sind in Deutschland Flaschen mit 5 kg oder 11 kg. [[VERIFY: current NFPA 58 edition distances for cylinder storage outside buildings — Spezifikation und Compliance]] [[VERIFY: Lagerregeln für Flüssiggasflaschen in der Gastronomie nach TRF und Landesrecht — Partner Deutschland]]
 
 ## Was gilt in New York City? Ein US-Beispiel
 
-New York City ist der strengste große Markt in den USA. Die Erlaubnis, Propan-Heizstrahler in der Außengastronomie zu verwenden, wurde zum 1. Juni 2021 widerrufen.[^s5] Nach den Hinweisen der Bauaufsicht von 2024 für das Programm Dining Out NYC müssen elektrische Strahlungsheizer im Freien dem NYC Electrical Code entsprechen, und jede Gasinstallation muss bei der Bauaufsicht angezeigt werden.[^s6] Siehe [Sind Propan-Heizstrahler in New York City erlaubt?](item:COM-PP-KB1) [[VERIFY: current FDNY and DOB position on propane and natural gas heaters in sidewalk and roadway cafés — Shaughn Ritchie]]
+New York City ist der strengste große Markt in den USA. Die Erlaubnis, Propan-Heizstrahler in der Außengastronomie zu verwenden, wurde zum 1. Juni 2021 widerrufen.[^s5] Nach den Hinweisen der Bauaufsicht von 2024 für das Programm Dining Out NYC müssen elektrische Strahlungsheizer im Freien dem NYC Electrical Code entsprechen, und jede Gasinstallation muss bei der Bauaufsicht angezeigt werden.[^s6] Siehe [Sind Propan-Heizstrahler in New York City erlaubt?](item:COM-PP-KB1) [[VERIFY: current FDNY and DOB position on propane and natural gas heaters in sidewalk and roadway cafés — Spezifikation und Compliance]]
 
 ![Dachterrassen-Restaurant unter einem dunklen Sonnensegel in der Dämmerung](img:p-014-066)
 
 ## Was braucht eine elektrische Installation?
 
-Einen eingetragenen Elektrofachbetrieb, einen eigenen Stromkreis, den der Elektrofachbetrieb nach DIN VDE 0100 auslegt, und Montagehöhen nach Herstellerangabe. Für seine elektrischen Heizstrahler nennt Bromic mindestens 1,83 m über dem Boden an der Wand und 2,44 m an der Decke; der Abstand zur Decke hängt von der Leistung ab.[^s7] Die Versorgung ist in Deutschland 230 V, 50 Hz; bestätigen Sie für jedes Modell die passende Spannung. [[VERIFY: current mounting heights and clearances per model from installation manuals — Mike Clifford]]
+Einen eingetragenen Elektrofachbetrieb, einen eigenen Stromkreis, den der Elektrofachbetrieb nach DIN VDE 0100 auslegt, und Montagehöhen nach Herstellerangabe. Für seine elektrischen Heizstrahler nennt Bromic mindestens 1,83 m über dem Boden an der Wand und 2,44 m an der Decke; der Abstand zur Decke hängt von der Leistung ab.[^s7] Die Versorgung ist in Deutschland 230 V, 50 Hz; bestätigen Sie für jedes Modell die passende Spannung. [[VERIFY: current mounting heights and clearances per model from installation manuals — Produktteam]]
 
 Die Steuerung ist Teil der Installation, kein Zubehör: ein Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät und ein Wandschalter für Platinum und Tungsten Electric (Tungsten Coastal und Select demnächst erhältlich); das Eclipse-Steuergerät für Eclipse. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind.[^s8] Die Einbindung in die Gebäudeleittechnik – Control4, Crestron, Lutron – hängt vom jeweiligen System ab und kann zusätzliche Hardware erfordern.
 

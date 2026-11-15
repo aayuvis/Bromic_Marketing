@@ -29,62 +29,68 @@ const css = `
 @page :first { margin: 0; }
 * { box-sizing: border-box; }
 html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-body { margin: 0; font: 10.5pt/1.55 "Helvetica Neue", Helvetica, Arial, sans-serif; color: #231F20; }
-h1, h2, h3, h4 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; line-height: 1.2; color: #231F20; break-after: avoid; }
-h2 { font-size: 17pt; margin: 22pt 0 6pt; padding-top: 8pt; border-top: 0.75pt solid #DDD8D0; }
+@font-face { font-family: "Helvetica Neue"; src: local("Helvetica Neue Light"), local("HelveticaNeue-Light"), url("fonts/arimo-latin.woff2") format("woff2"); font-weight: 300; font-display: swap; }
+@font-face { font-family: "Helvetica Neue"; src: local("Helvetica Neue"), local("HelveticaNeue"), url("fonts/arimo-latin.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Helvetica Neue"; src: local("Helvetica Neue Medium"), local("HelveticaNeue-Medium"), url("fonts/arimo-latin.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+@font-face { font-family: "Helvetica Neue"; src: local("Helvetica Neue Bold"), local("HelveticaNeue-Bold"), url("fonts/arimo-latin.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Bromic Didot"; src: local("Didot"), url("fonts/gfs-didot-latin.woff2") format("woff2"); }
+body { margin: 0; font: 300 10.5pt/1.55 "Helvetica Neue", Helvetica, Arial, sans-serif; color: #231F20; }
+h1, h2 { text-transform: capitalize; }
+h1, h2, h3, h4 { font-family: Didot, "Bromic Didot", "Bodoni 72", serif; font-weight: 400; line-height: 1.2; color: #231F20; break-after: avoid; }
+h2 { font-size: 17pt; margin: 22pt 0 6pt; padding-top: 8pt; border-top: 0.75pt solid #E3E3E1; }
 h3 { font-size: 12.5pt; margin: 14pt 0 4pt; }
 p, ul, ol { margin: 0 0 8pt; orphans: 3; widows: 3; }
 li { margin: 2pt 0; }
 a { color: #231F20; text-decoration-color: #EF4123; }
 strong { font-weight: 600; }
-blockquote { margin: 12pt 0; padding: 2pt 0 2pt 12pt; border-left: 2pt solid #EF4123; font: italic 12pt/1.5 Georgia, serif; color: #4A4546; }
+blockquote { margin: 12pt 0; padding: 2pt 0 2pt 12pt; border-left: 2pt solid #EF4123; font: 300 12pt/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; color: #4A4546; }
 figure { margin: 12pt 0; break-inside: avoid; }
 figure img { width: 100%; max-height: 3.6in; object-fit: cover; display: block; }
 figcaption { font-size: 8pt; color: #71777D; margin-top: 3pt; }
 table { border-collapse: collapse; width: 100%; font-size: 8.8pt; line-height: 1.4; margin: 8pt 0 12pt; break-inside: auto; }
 tr { break-inside: avoid; }
-th { text-align: left; font: 600 7.5pt/1.3 "Helvetica Neue", Helvetica, Arial, sans-serif; letter-spacing: .1em; text-transform: uppercase; color: #575C61; background: #F4F1EC; }
-th, td { padding: 5pt 6pt; border-bottom: 0.5pt solid #DDD8D0; vertical-align: top; text-align: left; }
-code { font-size: 9pt; background: #F4F1EC; padding: 0 3pt; }
-hr { border: 0; height: 0.75pt; background: #DDD8D0; margin: 16pt 0; }
+th { text-align: left; font: 600 7.5pt/1.3 "Helvetica Neue", Helvetica, Arial, sans-serif; letter-spacing: .1em; text-transform: uppercase; color: #575C61; background: #F5F5F4; }
+th, td { padding: 5pt 6pt; border-bottom: 0.5pt solid #E3E3E1; vertical-align: top; text-align: left; }
+code { font-size: 9pt; background: #F5F5F4; padding: 0 3pt; }
+hr { border: 0; height: 0.75pt; background: #E3E3E1; margin: 16pt 0; }
 sup.cite a { color: #C7321A; text-decoration: none; font-weight: 600; font-size: 7pt; }
 mark.verify { background: #F6ECD9; color: #8A5A12; font-size: .85em; font-weight: 600; padding: 0 3pt; }
 .diagram { border: 0.75pt dashed #CBC5BB; padding: 8pt 10pt; margin: 10pt 0; font-size: 9pt; color: #71777D; }
-.cover { height: 11in; position: relative; display: flex; flex-direction: column; background: #F4F1EC; page-break-after: always; }
+.cover { height: 11in; position: relative; display: flex; flex-direction: column; background: #FFFFFF; page-break-after: always; }
 .cover .top { padding: 0.75in 0.75in 0; display: flex; justify-content: space-between; align-items: flex-start; }
-.wordmark { font: 400 20pt/1 Georgia, serif; letter-spacing: .32em; display: inline-flex; flex-direction: column; align-items: center; }
+.wordmark { font: 500 19pt/1 "Helvetica Neue", Helvetica, Arial, sans-serif; letter-spacing: .26em; display: inline-flex; flex-direction: column; align-items: center; }
 .wordmark small { font: 600 6pt/1 "Helvetica Neue", Arial, sans-serif; letter-spacing: .45em; margin-top: 4pt; color: #71777D; }
 .cover .label { font: 600 7.5pt/1.4 "Helvetica Neue", Arial, sans-serif; letter-spacing: .16em; text-transform: uppercase; color: #575C61; }
 .cover .draft { border: 0.75pt solid #EF4123; color: #231F20; padding: 4pt 8pt; font: 600 7.5pt/1 "Helvetica Neue", Arial, sans-serif; letter-spacing: .14em; text-transform: uppercase; }
 .cover .titles { padding: 0.55in 0.75in 0.35in; }
 .cover .rule { width: 0.55in; height: 2pt; background: #EF4123; margin-bottom: 14pt; }
 .cover h1 { font-size: 30pt; line-height: 1.12; margin: 8pt 0 12pt; max-width: 6.4in; text-wrap: balance; }
-.cover .dek { font: italic 13pt/1.5 Georgia, serif; color: #4A4546; max-width: 6in; margin: 0; }
-.cover .hero { flex: 1; min-height: 0; margin: 0 0.75in; overflow: hidden; background: #ECE7DF; }
+.cover .dek { font: 300 13pt/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; color: #4A4546; max-width: 6in; margin: 0; }
+.cover .hero { flex: 1; min-height: 0; margin: 0 0.75in; overflow: hidden; background: #F5F5F4; }
 .cover .hero img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .cover .meta { padding: 16pt 0.75in 0.6in; display: flex; gap: 28pt; font-size: 8.5pt; color: #575C61; }
 .cover .meta b { display: block; font: 600 7pt/1.4 "Helvetica Neue", Arial, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: #71777D; }
 .sources { font-size: 8.5pt; line-height: 1.45; padding-left: 14pt; }
 .sources li { margin: 0 0 5pt; break-inside: avoid; }
 .sources .sup { color: #575C61; }
-.cta { margin-top: 20pt; background: #231F20; color: #F4F1EC; padding: 14pt 16pt; break-inside: avoid; }
+.cta { margin-top: 20pt; background: #231F20; color: #FFFFFF; padding: 14pt 16pt; break-inside: avoid; }
 .cta .label { font: 600 7pt/1.4 "Helvetica Neue", Arial, sans-serif; letter-spacing: .16em; text-transform: uppercase; color: #CBC5BB; }
-.cta p { font: 400 14pt/1.3 Georgia, serif; margin: 4pt 0 0; color: #F4F1EC; }
+.cta p { font: 400 15pt/1.3 Didot, "Bromic Didot", "Bodoni 72", serif; margin: 4pt 0 0; color: #FFFFFF; }
 .notice { margin-top: 14pt; font-size: 8pt; color: #71777D; }
 figure.sec { margin: 0 0 14pt; }
 figure.sec img { width: 100%; height: 3.4in; max-height: none; object-fit: cover; }
 .band { height: 1.3in; overflow: hidden; margin: 0 0 14pt; }
 .band img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.colophon { margin-top: 18pt; padding-top: 8pt; border-top: 0.75pt solid #DDD8D0; font-size: 7.5pt; color: #71777D; }
+.colophon { margin-top: 18pt; padding-top: 8pt; border-top: 0.75pt solid #E3E3E1; font-size: 7.5pt; color: #71777D; }
 /* trends reports: one trend per page, as the layout notes ask */
 .trends section.s { break-before: page; }
 .trends section.s:first-child { break-before: auto; }
 .trends section.s h2 { border-top: 0; padding-top: 0; font-size: 22pt; margin-top: 0; }
 .trends section.s figure.sec img { height: 4.3in; }
-.trends section.s p strong:first-child { font-family: Georgia, serif; }
+.trends section.s p strong:first-child { font-family: Didot, "Bromic Didot", "Bodoni 72", serif; }
 .trends section.lead { break-before: auto; }
 .trends main { font-size: 12pt; line-height: 1.55; }
-.trends section.s > p:first-of-type > strong:first-child { display: block; font: 400 40pt/1 Georgia, serif; color: #EF4123; margin: 4pt 0 6pt; }
+.trends section.s > p:first-of-type > strong:first-child { display: block; font: 400 40pt/1 Didot, "Bromic Didot", "Bodoni 72", serif; color: #EF4123; margin: 4pt 0 6pt; }
 .trends section.s ul { font-size: 12.5pt; }
 .trends section.s p { max-width: 6.2in; }
 `;

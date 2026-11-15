@@ -18,7 +18,7 @@ meta_description: "Onderhoud commerciële terrasverwarmers met een eenvoudige ro
 cta: {label: "Vraag het operationele draaiboek aan", asset: A23}
 hero: l-013-104
 images: [t-009-025]
-owner_review: Blake Petty
+owner_review: verkoop horeca
 status: draft
 gated: false
 related: [COM-PP-01, COM-CO-01, COM-AW-01, COM-IN-KB1]
@@ -47,7 +47,7 @@ sources:
     verified: false
 ---
 
-Onderhoud commerciële terrasverwarmers met een korte routine en de handleiding van de fabrikant: houd het front en het rooster schoon, controleer volgens een schema de bevestigingen, snoeren en gasaansluitingen, en laat alles wat verder gaat dan schoonmaken over aan een erkende installateur of gasinstallateur. De grotere winst zit in het goed bedienen ervan — zones die passen bij uw secties, schema's die de reserveringen volgen en één dienstprocedure die elke ploeg gebruikt, zodat verwarmers nooit blijven aanstaan en elke tafel dezelfde warmte krijgt.
+Onderhoud commerciële terrasverwarmers met een korte routine en de handleiding van de fabrikant: houd het front en het rooster schoon, controleer volgens een schema de bevestigingen, snoeren en gasaansluitingen, en laat alles wat verder gaat dan schoonmaken over aan een erkende installateur of gasinstallateur. De grotere winst zit in het goed bedienen ervan – zones die passen bij uw secties, schema's die de reserveringen volgen en één dienstprocedure die elke ploeg gebruikt, zodat verwarmers nooit blijven aanstaan en elke tafel dezelfde warmte krijgt.
 
 ## Waarom gaat het mis met verwarmde terrassen?
 
@@ -98,7 +98,7 @@ Eén pagina, bij de ontvangstbalie en in de app.
 
 ## Wat staat er op de checklist voor reiniging en onderhoud?
 
-Algemene richtlijn; de installatie- en gebruikshandleiding van uw model gaat voor. [[VERIFY: door Bromic aanbevolen onderhoudsintervallen en reinigingsmethode per model — Mike Clifford]]
+Algemene richtlijn; de installatie- en gebruikshandleiding van uw model gaat voor. [[VERIFY: door Bromic aanbevolen onderhoudsintervallen en reinigingsmethode per model — productteam]]
 
 | Taak | Wie | Frequentie (volgens handleiding) |
 |---|---|---|
@@ -126,7 +126,7 @@ Maak elke vestiging gelijk, zodat een manager die van vestiging wisselt het syst
 | Typen regelaars | Eén trainingsmodule |
 | Schemasjablonen per seizoen | Het hoofdkantoor stelt ze op, vestigingen passen aan |
 | Procedure en onderhoudslogboek | Vergelijkbare gegevens over alle vestigingen |
-| Vergunningsdossier | Herhaalbare aanvragen voor nieuwe vestigingen — zie [de vergunningschecklist](item:COM-PP-01) |
+| Vergunningsdossier | Herhaalbare aanvragen voor nieuwe vestigingen – zie [de vergunningschecklist](item:COM-PP-01) |
 
 Begin de volgende vestiging met de indeling van de vorige en pas aan voor de blootstelling. De ontwerpservice van Bromic tekent het verwarmde oppervlak voor elke nieuwe vestiging.[^s1]
 
@@ -154,13 +154,13 @@ Ja, met compatibele Affinity Smart-Heat Controls en de Bromic Smart-Heat app, di
 
 ### Hoeveel zones heeft een horecaterras nodig?
 
-Meestal één per servicegebied — bar, terras, rand, lounge — zodat de warmte de gasten volgt. Kleine terrassen hebben er soms maar twee nodig.
+Meestal één per servicegebied – bar, terras, rand, lounge – zodat de warmte de gasten volgt. Kleine terrassen hebben er soms maar twee nodig.
 
 ### Kunnen verwarmers koppelen met ons gebouwbeheersysteem?
 
 Affinity-bediening werkt onder meer met Control4, Crestron en Lutron; de compatibiliteit verschilt en er kan extra koppelhardware nodig zijn.
 
-Laat elke vestiging op dezelfde manier draaien — vraag het operationele draaiboek aan.
+Laat elke vestiging op dezelfde manier draaien – vraag het operationele draaiboek aan.
 
 [^s1]: Bromic Heating, Lookbook 2026.
 [^s2]: Bromic Heating, Planning Guide US v1.2, 2021.

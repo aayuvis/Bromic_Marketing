@@ -18,8 +18,8 @@ ai_prompt: "Is het veilig om een terrasverwarmer op propaan of elektriciteit in 
 meta_description: "Gebruik nooit een terrasverwarmer op gas of propaan in een garage, ook niet met de deur open. Elektrisch kan als de handleiding het toestaat, hoog gemonteerd en aangesloten door een installateur."
 cta: {label: "Bereken je ruimte", asset: A03}
 hero: w-dsc05737-courtney-saib
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -99,7 +99,7 @@ Verwarmers op gas en propaan verbranden brandstof en geven koolmonoxide af, een 
 
 ## Wil je elektrische warmte in een garage, wat is er dan nodig?
 
-Bromic-verwarmers zijn ontworpen en gecertificeerd als buitenverwarmers. De galerij van Bromic toont een Cobalt Electric die in een garage is geïnstalleerd,[^s5] maar raadpleeg de installatiehandleiding van jouw model voordat je er een binnen plant. [[VERIFY: of de handleidingen van Tungsten, Cobalt en Platinum Electric installatie in een afgesloten garage toestaan, en onder welke voorwaarden — Mike Clifford]]
+Bromic-verwarmers zijn ontworpen en gecertificeerd als buitenverwarmers. De galerij van Bromic toont een Cobalt Electric die in een garage is geïnstalleerd,[^s5] maar raadpleeg de installatiehandleiding van jouw model voordat je er een binnen plant. [[VERIFY: of de handleidingen van Tungsten, Cobalt en Platinum Electric installatie in een afgesloten garage toestaan, en onder welke voorwaarden — productteam]]
 
 - **Monteer hem hoog.** Cobalt vraagt minstens 1,8 m op een wand en 2,4 m aan een plafond; Tungsten en Platinum Electric vragen 1,8 m en 2,4 m.[^s4][^s3] Zo hangt hij boven autodaken, ladders en opslag.
 - **Houd hem weg van brandstof en rommel.** Richt een verwarmer nooit op jerrycans, verf, oplosmiddelen, karton of de tankdop van een auto. Houd de afstanden uit de handleiding vrij.
@@ -110,7 +110,7 @@ Bromic-verwarmers zijn ontworpen en gecertificeerd als buitenverwarmers. De gale
 
 ## En een propaanfles in de garage bewaren?
 
-Bewaar flessen buiten, rechtop en dicht, weg van warmte en van alles wat kan branden. In de VS regelen NFPA 58 en de lokale brandweervoorschriften de opslag van propaan;[^s7] in Nederland vraag je het na bij je gemeente. Een eerder artikel van Bromic noemde een vrijstaande garage of schuur als opslagplek; raadpleeg de handleiding van je verwarmer en je gemeente of de brandweer voordat je daarop vertrouwt. [[VERIFY: tekst over flesopslag in de handleiding van Tungsten Smart-Heat Freestanding — Mike Clifford]] [[VERIFY: Nederlandse regels voor de opslag van propaanflessen bij woningen — Bromic Benelux distributor]]
+Bewaar flessen buiten, rechtop en dicht, weg van warmte en van alles wat kan branden. In de VS regelen NFPA 58 en de lokale brandweervoorschriften de opslag van propaan;[^s7] in Nederland vraag je het na bij je gemeente. Een eerder artikel van Bromic noemde een vrijstaande garage of schuur als opslagplek; raadpleeg de handleiding van je verwarmer en je gemeente of de brandweer voordat je daarop vertrouwt. [[VERIFY: tekst over flesopslag in de handleiding van Tungsten Smart-Heat Freestanding — productteam]] [[VERIFY: Nederlandse regels voor de opslag van propaanflessen bij woningen — Bromic Benelux distributor]]
 
 ## Waar horen terrasverwarmers wel?
 

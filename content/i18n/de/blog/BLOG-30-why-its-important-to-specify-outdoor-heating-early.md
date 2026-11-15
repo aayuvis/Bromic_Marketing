@@ -15,8 +15,8 @@ meta_description: "Planen Sie die Außenbeheizung in der Vorplanung: Stromkreise
 cta: {label: "Spezifikationspaket herunterladen", asset: A11}
 hero: w-pilarshoots-hr-achtoptien-00-72
 images: [g-rough-in, g-plans]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -25,7 +25,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLOG-30
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating (press release, syndicated)
@@ -87,7 +87,7 @@ Planen Sie die Außenbeheizung schon in der Vorplanung, denn sie legt Dinge fest
 Weil sie in der Konzeptphase niemandem gehört. Die Beleuchtung liegt beim Elektroplaner, die Beschattung beim Landschaftsarchitekten, die Konstruktion beim Tragwerksplaner. Die Beheizung fällt dazwischen durch, und Bauherren sprechen sie selten an.
 
 **23 %** der Hausbesitzer in den USA setzen die Beheizung im Freien bei der Planung ganz oben auf die Liste.[^s1]\
-*Atomik Research für Bromic Heating, 2025 (US-Umfrage)* [[VERIFY: Erhebungszeitraum, Stichprobe n und Wortlaut der Frage gegen die Atomik-Topline prüfen — Megan Spies]]
+*Atomik Research für Bromic Heating, 2025 (US-Umfrage)* [[VERIFY: Erhebungszeitraum, Stichprobe n und Wortlaut der Frage gegen die Atomik-Topline prüfen — Marketing]]
 
 Die Terrasse wird gezeichnet. Die Wärme nicht. Dann kommt der erste kühle Abend, und der Bereich, für den der Bauherr bezahlt hat, bleibt leer.
 
@@ -112,7 +112,7 @@ Von Anfang an geplant, nicht nachträglich ergänzt: Jede Zeile oben ist entwede
 
 **Entwurfsplanung.** Die Montageart festlegen. Platinum Smart-Heat Electric (2300, 3400 oder 4500 W) wird eingebaut, an der Decke oder an der Wand montiert; für den Einbau müssen Einbausatz und Hohlraum jetzt gezeichnet werden, nicht erst beim Ausbau.[^s3] Halten Sie die Mindestmontagehöhen von Bromic ein: an der Wand mindestens 1,8 m über dem Boden und an der Decke mindestens 2,4 m, je nach Leistung höher.[^s2]
 
-**Ausführungsplanung.** Für jede Position einen eigenen Stromkreis in den Verteilerplan aufnehmen. Ein Platinum mit 4500 W zieht an 230 V rund 19,6 A (4500 W ÷ 230 V; die US-Produktseite nennt Werte für 240 V und 208 V[^s4]); Leitung und Absicherung legt der Elektrofachbetrieb nach DIN VDE 0100 fest. [[VERIFY: Stromaufnahme und Versorgungsspannung je Modell gegen das Datenblatt 2026 prüfen — Mike Clifford]] Schreiben Sie den Heizstrahler als Leitprodukt mit seiner Steuerung in die Leistungsbeschreibung; [Infrarot-Heizstrahler für den Außenbereich ausschreiben](item:ARC-IN-01) liefert den Ausschreibungstext und [die Checkliste zur Vorverkabelung](item:BLD-IN-01) die Rohinstallation.
+**Ausführungsplanung.** Für jede Position einen eigenen Stromkreis in den Verteilerplan aufnehmen. Ein Platinum mit 4500 W zieht an 230 V rund 19,6 A (4500 W ÷ 230 V; die US-Produktseite nennt Werte für 240 V und 208 V[^s4]); Leitung und Absicherung legt der Elektrofachbetrieb nach DIN VDE 0100 fest. [[VERIFY: Stromaufnahme und Versorgungsspannung je Modell gegen das Datenblatt 2026 prüfen — Produktteam]] Schreiben Sie den Heizstrahler als Leitprodukt mit seiner Steuerung in die Leistungsbeschreibung; [Infrarot-Heizstrahler für den Außenbereich ausschreiben](item:ARC-IN-01) liefert den Ausschreibungstext und [die Checkliste zur Vorverkabelung](item:BLD-IN-01) die Rohinstallation.
 
 ![Decke einer überdachten Terrasse im Rohbau mit Hinterlegung, Leitungen und Abzweigdosen](img:g-rough-in)
 
@@ -128,7 +128,7 @@ Beim Platinum Electric ist die Steuerung nicht im Lieferumfang und wird separat 
 
 ## Wie hilft frühe Planung bei Genehmigung und Abnahme?
 
-Sie legt die Fragen nach den Vorschriften auf den Tisch, solange sich der Entwurf noch ändern lässt. In Deutschland werden Elektro-Heizstrahler nach DIN VDE 0100 installiert, Gas-Heizstrahler nach DVGW-TRGI (Erdgas) bzw. TRF (Flüssiggas); in den USA gelten dafür NFPA 70, der National Electrical Code[^s5], und NFPA 54, der National Fuel Gas Code.[^s6] Bei Gas kommen Abstände zu brennbaren Materialien hinzu und, unter einer niedrigen Decke, ein Wärmeabweiser.[^s2] In den USA verändern neue Gesetze für rein elektrische Gebäude, welcher Energieträger in einem Projekt überhaupt zulässig ist; siehe [Vorschriften für rein elektrische Außenbeheizung](item:ARC-PP-01). [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Freien — Raffaele Marti]]
+Sie legt die Fragen nach den Vorschriften auf den Tisch, solange sich der Entwurf noch ändern lässt. In Deutschland werden Elektro-Heizstrahler nach DIN VDE 0100 installiert, Gas-Heizstrahler nach DVGW-TRGI (Erdgas) bzw. TRF (Flüssiggas); in den USA gelten dafür NFPA 70, der National Electrical Code[^s5], und NFPA 54, der National Fuel Gas Code.[^s6] Bei Gas kommen Abstände zu brennbaren Materialien hinzu und, unter einer niedrigen Decke, ein Wärmeabweiser.[^s2] In den USA verändern neue Gesetze für rein elektrische Gebäude, welcher Energieträger in einem Projekt überhaupt zulässig ist; siehe [Vorschriften für rein elektrische Außenbeheizung](item:ARC-PP-01). [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Freien — Partner Deutschland]]
 
 *Dies ist eine Planungshilfe, keine Rechtsberatung. Vorschriften unterscheiden sich nach Ort und Ausgabe. Klären Sie jede Anforderung mit Ihrem Bauamt und einem Elektrofachbetrieb oder Gasinstallateur, und folgen Sie der Montageanleitung des Produkts.*
 
@@ -138,7 +138,7 @@ Sie legt die Fragen nach den Vorschriften auf den Tisch, solange sich der Entwur
 
 **Gewerbe.** Wärme ist Kapazität. Zählen Sie die beheizten Plätze und die Abende, die sie hinzugewinnen, planen Sie Zonen passend zu den Servicebereichen und entscheiden Sie über den Energieträger anhand der örtlichen Regeln für Flüssiggas, bevor die Genehmigungsplanung steht. Das Planungsteam von Bromic hat die Wärme für [Stella's Wine Bar im Post Oak Hotel](https://www.bromic.com/case-study/eclipse-pendant-and-platinum-electric-at-stellas-wine-bar/) in Houston geplant (Projektbericht auf Englisch), als 2D-Wärmeplan mit Eclipse-Pendelleuchten und Platinum-Electric-Heizstrahlern an Dimmern; bei [The Industrie](https://www.bromic.com/case-study/albany-zero-emissions-multifamily-building/), einem rein elektrischen Mehrfamilienhaus in Albany, ersetzen Eclipse-Heizstrahler auf der Dachterrasse die Gas-Feuertische.
 
-Das Video aus dem Live-Beitrag mit Designer Danny Wang von DW Design & Build gehört hierher. [[VERIFY: Danny-Wang-Video einbetten und nur sinngemäß wiedergeben, was er darin sagt — Megan Spies]][^s7]
+Das Video aus dem Live-Beitrag mit Designer Danny Wang von DW Design & Build gehört hierher. [[VERIFY: Danny-Wang-Video einbetten und nur sinngemäß wiedergeben, was er darin sagt — Marketing]][^s7]
 
 ## Häufige Fragen
 

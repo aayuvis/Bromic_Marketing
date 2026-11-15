@@ -18,8 +18,8 @@ meta_description: "Bromic Eclipse heats about 121 ft² and lights it with a dimm
 cta: {label: "Size your space", asset: A03}
 hero: w-bromic-eclipse-pendant-light
 images: [w-dsc01890-hdr-bearbeitet, w-eclispe-freestanding]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -84,7 +84,7 @@ Two fixtures become one, which matters on a small terrace or a busy ceiling: one
 | Controller | Affinity Eclipse Controller or Eclipse Dimmer Controller, sold separately | Eclipse Dimmer Controller and remote included |
 | Suits | Covered terraces, pergolas, pool houses | Open lawns, rented or changing layouts, venues that move tables |
 
-Sources: product pages[^s2][^s3] and Lookbook 2026.[^s1] The Eclipse Electric page gives 2900 W in its spec table and 3000 W in its FAQ; we use 2900 W. [[VERIFY: Eclipse output 2900 W (spec table) vs 3000 W (FAQ) — Mike Clifford]]
+Sources: product pages[^s2][^s3] and Lookbook 2026.[^s1] The Eclipse Electric page gives 2900 W in its spec table and 3000 W in its FAQ; we use 2900 W. [[VERIFY: Eclipse output 2900 W (spec table) vs 3000 W (FAQ) — Product team]]
 
 ## How is Eclipse Electric mounted?
 
@@ -96,7 +96,7 @@ On a pole from the ceiling or a wall, at least 96 in above the floor.[^s2] A 24 
 - [curved pole](https://www.bromic.com/product/eclipse-curved-pole/)
 - [wall-mount pole](https://www.bromic.com/product/eclipse-wall-mount-pole/)
 
-The 2023 version of this post counted "seven" options; the collection page counts the freestanding model as one of them. Listing the poles is clearer than a number. [[VERIFY: Eclipse mounting option count (six vs seven) — Mike Clifford]]
+The 2023 version of this post counted "seven" options; the collection page counts the freestanding model as one of them. Listing the poles is clearer than a number. [[VERIFY: Eclipse mounting option count (six vs seven) — Product team]]
 
 ![Garden pavilion lounge at blue hour with a round Eclipse heater on the ceiling](img:w-dsc01890-hdr-bearbeitet)
 
@@ -110,7 +110,7 @@ Every Eclipse needs a controller; it is part of the installation, not an add-on.
 - **Eclipse Dimmer Controller with remote.** Heat steps and light dimming from a handheld remote. It comes with Eclipse Freestanding.[^s3]
 - **Manual wall switch.** Simple on and off at the wall, for Eclipse Electric.[^s2]
 
-Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.[^s4] The 2023 post named an Eclipse Master Remote; the Affinity range now does that job. [[VERIFY: whether Eclipse Freestanding's included controller gives app control without an Affinity controller — Mike Clifford]] For setup, see our [controls guide](item:RES-BY-01) and the [controls overview](https://www.bromic.com/controls/).
+Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.[^s4] The 2023 post named an Eclipse Master Remote; the Affinity range now does that job. [[VERIFY: whether Eclipse Freestanding's included controller gives app control without an Affinity controller — Product team]] For setup, see our [controls guide](item:RES-BY-01) and the [controls overview](https://www.bromic.com/controls/).
 
 ![Arched Eclipse Freestanding heater over a curved garden sofa](img:w-eclispe-freestanding)
 

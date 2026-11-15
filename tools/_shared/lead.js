@@ -1,4 +1,4 @@
-// ?framed=1 (the Hub inside a Claude page): hide print and download controls.
+// ?framed=1 (the Hub inside an embedded preview): hide print and download controls.
 try { if (new URLSearchParams(location.search).get('framed')) document.body.classList.add('framed'); } catch {}
 // Shared lead gate for the Bromic tools (HANDOVER §9; spec in forms/hubspot-form-spec.md).
 // Inlined into each tool's index.html by tools/build-config.mjs. The pure functions at the top are
@@ -124,7 +124,7 @@ function formHtml(id, defaultSizeUnit) {
     <div class="actions">
       <button class="btn primary" type="submit">See the full report</button>
       <span class="note">We use these details to send your report and, if you ask, to follow up. No spam.
-      [[VERIFY: privacy line and policy link — Brian Kim]]</span>
+      [[VERIFY: privacy line and policy link — Digital marketing]]</span>
     </div>
   </form>`;
 }

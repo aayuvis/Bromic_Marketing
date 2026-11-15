@@ -14,7 +14,7 @@ meta_description: "Terrassen stehen auf der Wunschliste für Neubauten ganz oben
 cta: {label: "Den Leitfaden zum Bauträgerprogramm anfordern", asset: A15}
 hero: t-012-034
 images: [l-010-067]
-owner_review: Arvin Avaness
+owner_review: Fachhandelsvertrieb
 status: draft
 gated: false
 related: [BLD-CO-01, BLD-IN-01, BLD-PP-01]
@@ -86,7 +86,7 @@ sources:
 lang: de
 translation_of: BLD-AW-01
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 
 Die Ausstattung im Freien, die Käufer am meisten schätzen, beginnt mit der Terrasse – und was eine Terrasse wirklich nutzbar macht, ist Wärme. In der Käuferumfrage 2024 des US-Bauträgerverbands NAHB bewerteten 86 % der US-Käufer eine Terrasse als unverzichtbar oder wünschenswert, gleichauf mit dem Hauswirtschaftsraum an der Spitze der Liste[^s1]. Eingebaute Strahlungswärme, bei der Rohinstallation vorverkabelt und mit ihrer Steuerung fertiggestellt, macht aus dieser Terrasse statt einer Sommer-Bodenplatte einen Raum, den die Familie auch an einem kalten Abend nutzt.
@@ -108,7 +108,7 @@ Außenküchen und Außenkamine stehen noch nicht auf der Liste der meistgewünsc
 
 ## Wie viele Neubauten haben bereits eine Terrasse?
 
-In den USA die meisten. Die Auswertung der US-Zensusdaten durch die NAHB weist Terrassen bei 61,8 % der 2024 begonnenen Einfamilienhäuser aus[^s3] und bei 60,5 % im Jahr 2025[^s4]. Der Anteil schwankt je nach Region: über 80 % in den Bundesstaaten der Region West South Central und rund 14 % in Neuengland im Jahr 2024[^s3]. [[VERIFY: vergleichbare Daten für Deutschland, falls vorhanden — Raffaele Marti]]
+In den USA die meisten. Die Auswertung der US-Zensusdaten durch die NAHB weist Terrassen bei 61,8 % der 2024 begonnenen Einfamilienhäuser aus[^s3] und bei 60,5 % im Jahr 2025[^s4]. Der Anteil schwankt je nach Region: über 80 % in den Bundesstaaten der Region West South Central und rund 14 % in Neuengland im Jahr 2024[^s3]. [[VERIFY: vergleichbare Daten für Deutschland, falls vorhanden — Partner Deutschland]]
 
 Das ist für den Sonderwunsch entscheidend. Bodenplatte, Überdachung und oft die Pergola sind bereits im Plan. Wärme ist der kleinste Schritt von „einer Terrasse“ zu „einem Außenraum“.
 
@@ -122,9 +122,9 @@ Strahlungswärme passt zu dieser Aufgabe. Sie wärmt Menschen und Oberflächen, 
 
 ## Rechnet sich eine Aufwertung im Freien beim Wiederverkauf?
 
-US-Immobilienmakler bewerten Arbeiten im Außenbereich positiv. Im Remodeling Impact Report 2023 von NAR und NALP (US-Daten) wurden für eine neue Terrasse geschätzte Kosten von 10.500 US-$ und ein Joy Score von 9,9 von 10 angegeben[^s5]. Die Grafik zur Kostendeckung im Bericht setzt eine neue Terrasse auf geschätzte 95 % [[VERIFY: die 95 % Kostendeckung für eine neue Terrasse auf der Seite des NAR-Berichts bestätigen — Megan Spies]][^s6]. Das sind Schätzungen von US-Maklern für Umbauten, keine Preise für Sonderwünsche im Neubau – nutzen Sie sie als Richtung, nicht als Kalkulationsmodell.
+US-Immobilienmakler bewerten Arbeiten im Außenbereich positiv. Im Remodeling Impact Report 2023 von NAR und NALP (US-Daten) wurden für eine neue Terrasse geschätzte Kosten von 10.500 US-$ und ein Joy Score von 9,9 von 10 angegeben[^s5]. Die Grafik zur Kostendeckung im Bericht setzt eine neue Terrasse auf geschätzte 95 % [[VERIFY: die 95 % Kostendeckung für eine neue Terrasse auf der Seite des NAR-Berichts bestätigen — Marketing]][^s6]. Das sind Schätzungen von US-Maklern für Umbauten, keine Preise für Sonderwünsche im Neubau – nutzen Sie sie als Richtung, nicht als Kalkulationsmodell.
 
-Zu Ihren eigenen Margen: Die veröffentlichen wir nicht. Preise für Sonderwünsche, Bauträger-Staffeln und Lieferzeiten kommen aus dem Bauträgerprogramm [[VERIFY: Preisstaffeln und Margenstruktur für Bauträger — Arvin Avaness]].
+Zu Ihren eigenen Margen: Die veröffentlichen wir nicht. Preise für Sonderwünsche, Bauträger-Staffeln und Lieferzeiten kommen aus dem Bauträgerprogramm [[VERIFY: Preisstaffeln und Margenstruktur für Bauträger — Fachhandelsvertrieb]].
 
 ## Wie sieht ein Paket für eine beheizte Terrasse aus?
 

@@ -14,8 +14,8 @@ ai_prompt: "Sind Infrarot-Heizstrahler für die Terrasse energieeffizient?"
 meta_description: "Draußen ist Infrarot die effiziente Wahl: Es wärmt Menschen, nicht die Luft. Wie Strahlungsanteil, Ausrichtung, Steuerung und Auslegung den Verbrauch bestimmen, mit Kostenrechnung."
 cta: {label: "Ihren Bereich berechnen", asset: A03}
 hero: w-tungsten-electric-melrose-place-los-angeles-
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -24,7 +24,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLOG-14
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: U.S. Department of Energy, Energy Saver
@@ -88,7 +88,7 @@ Bei Elektro multiplizieren Sie die Leistung des Heizstrahlers in Kilowatt mit Ih
 
 **Kosten pro Stunde = kW × Preis je kWh**
 
-Ein Platinum Smart-Heat Electric mit 3400 W verbraucht bei voller Leistung 3,4 kWh pro Stunde; die Kosten sind also 3,4 × Ihr Preis je kWh. Gedimmt kostet er weniger. Ihre eigene Stromrechnung bestimmt die tatsächliche Zahl. Als US-Beispiel: Beim US-Durchschnittspreis für Haushaltsstrom von etwa 18,3 US-Cent je kWh[^s3] kostet derselbe Heizstrahler dort rund 0,62 US-Dollar pro Stunde. [[VERIFY: 2026 rates — Brian Kim/Finance]]
+Ein Platinum Smart-Heat Electric mit 3400 W verbraucht bei voller Leistung 3,4 kWh pro Stunde; die Kosten sind also 3,4 × Ihr Preis je kWh. Gedimmt kostet er weniger. Ihre eigene Stromrechnung bestimmt die tatsächliche Zahl. Als US-Beispiel: Beim US-Durchschnittspreis für Haushaltsstrom von etwa 18,3 US-Cent je kWh[^s3] kostet derselbe Heizstrahler dort rund 0,62 US-Dollar pro Stunde. [[VERIFY: 2026 rates — Finanzen]]
 
 Bei Erdgas multiplizieren Sie die Nennwärmebelastung des Heizstrahlers in kW mit Ihrem Gaspreis je kWh; bei Flüssiggas teilen Sie die kW durch ca. 7,1 kWh je Liter und multiplizieren mit Ihrem Preis je Liter. Die vollständige Rechnung steht in [Was kostet der Betrieb eines Heizstrahlers für draußen?](item:RES-IN-01).
 
@@ -103,14 +103,14 @@ Bei Erdgas multiplizieren Sie die Nennwärmebelastung des Heizstrahlers in kW mi
 
 | Heizstrahler | Leistung | Heizfläche (ca.) | Wasserschutz | Steuerung |
 |---|---|---|---|---|
-| Platinum Smart-Heat Electric | 2300 / 3400 / 4500 W | 6 / 10 / 13 m²[^s4][^s5] | [[VERIFY: IP rating — Mike Clifford]] | Affinity On/Off oder Dimmer, manueller Wandschalter |
+| Platinum Smart-Heat Electric | 2300 / 3400 / 4500 W | 6 / 10 / 13 m²[^s4][^s5] | [[VERIFY: IP rating — Produktteam]] | Affinity On/Off oder Dimmer, manueller Wandschalter |
 | Platinum Smart-Heat Electric Marine | 2300 / 3400 / 4500 W | 6 / 10 / 13 m²[^s5] | IPX5[^s5] | Affinity On/Off oder Dimmer, manueller Wandschalter |
 | Tungsten Smart-Heat Electric | 2000–6000 W | 6–15 m²[^s5] | IPX4[^s5] | Affinity On/Off oder Dimmer, manueller Wandschalter |
-| Eclipse Smart-Heat Electric | Stufen 33 / 66 / 100 % | 11 m²[^s4] | [[VERIFY: IP rating — Mike Clifford]] | Affinity Eclipse-Steuergerät oder Eclipse Dimmer, manueller Wandschalter |
+| Eclipse Smart-Heat Electric | Stufen 33 / 66 / 100 % | 11 m²[^s4] | [[VERIFY: IP rating — Produktteam]] | Affinity Eclipse-Steuergerät oder Eclipse Dimmer, manueller Wandschalter |
 
-Die Steuerung gehört zu jeder Installation. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind[^s4]. Was IP-Schutzarten bei nassem Wetter bedeuten, lesen Sie in [Heizstrahler bei Regen (auf Englisch)](https://www.bromic.com/blog/patio-heaters-in-the-rain-what-you-need-to-know/). [[VERIFY: product-page values read from bromic.com; confirm against 2026 cut sheets — Mike Clifford]]
+Die Steuerung gehört zu jeder Installation. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind[^s4]. Was IP-Schutzarten bei nassem Wetter bedeuten, lesen Sie in [Heizstrahler bei Regen (auf Englisch)](https://www.bromic.com/blog/patio-heaters-in-the-rain-what-you-need-to-know/). [[VERIFY: product-page values read from bromic.com; confirm against 2026 cut sheets — Produktteam]]
 
-Vergleichen Sie die elektrischen und die Gas-Heizstrahler auf [bromic.de](https://www.bromic.de/) oder lassen Sie Bromic über den Planungsservice einen Plan zeichnen. [[VERIFY: ob Design Your Space für Deutschland angeboten wird — Raffaele Marti]]
+Vergleichen Sie die elektrischen und die Gas-Heizstrahler auf [bromic.de](https://www.bromic.de/) oder lassen Sie Bromic über den Planungsservice einen Plan zeichnen. [[VERIFY: ob Design Your Space für Deutschland angeboten wird — Partner Deutschland]]
 
 ## Häufige Fragen
 

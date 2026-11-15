@@ -1,7 +1,12 @@
+@font-face { font-family: "Helvetica Neue"; src: local("Helvetica Neue Light"), local("HelveticaNeue-Light"), url("../../fonts/arimo-latin.woff2") format("woff2"); font-weight: 300; font-display: swap; }
+@font-face { font-family: "Helvetica Neue"; src: local("Helvetica Neue"), local("HelveticaNeue"), url("../../fonts/arimo-latin.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Helvetica Neue"; src: local("Helvetica Neue Medium"), local("HelveticaNeue-Medium"), url("../../fonts/arimo-latin.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+@font-face { font-family: "Helvetica Neue"; src: local("Helvetica Neue Bold"), local("HelveticaNeue-Bold"), url("../../fonts/arimo-latin.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Bromic Didot"; src: local("Didot"), url("../../fonts/gfs-didot-latin.woff2") format("woff2"); font-weight: 400; font-display: swap; }
 /* Bromic tool styling — shared by A03, A20, A21. Inlined into each index.html by tools/build-config.mjs.
-   Flame is the only accent. Georgia headings, Helvetica/Arial body. Works from 320px up. */
+   Flame is the only accent. Didot headings (Lookbook 2026), Helvetica Neue Light body. Works from 320px up. */
 :root {
-  --paper: #F4F1EC;
+  --paper: #F5F5F4;
   --ink: #231F20;
   --flame: #EF4123;
   --flame-ink: #231F20;          /* small text stays ink: flame on paper is under 4.5:1, so flame marks borders and rules only */
@@ -9,7 +14,7 @@
   --steel-ink: #575C61;          /* steel darkened for small text on paper */
   --mist: #DDE0E2;
   --white: #FFFFFF;
-  --serif: Georgia, "Times New Roman", serif;
+  --serif: Didot, "Bromic Didot", "Bodoni 72", "Bodoni MT", serif;
   --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 * { box-sizing: border-box; }
@@ -105,5 +110,5 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
   .gate, .actions, .inputs { display: none !important; }
 }
 
-/* Inside a Claude page (?framed=1) print and downloads are blocked: hide those controls. */
+/* Inside an embedded preview (?framed=1) print and downloads are blocked: hide those controls. */
 .framed .no-frame { display: none !important; }

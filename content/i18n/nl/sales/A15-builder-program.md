@@ -18,7 +18,7 @@ meta_description: "Een Good–Better–Best-pakket buitenverwarming voor woningb
 cta: {label: "Boek een ontwerpadvies", asset: A07}
 hero: l-010-069
 images: [l-010-070, l-010-071, l-013-100]
-owner_review: Arvin Avaness
+owner_review: verkoop vakhandel
 status: draft
 gated: true
 related: [BLD-AW-01, BLD-CO-01, BLD-IN-01]
@@ -87,7 +87,7 @@ Voorbekabelde stralingswarmte van Bromic in drie kant-en-klare pakketten, meegen
 
 **2. Kopers vragen erom.** 86% van de recente en toekomstige Amerikaanse kopers noemt een terras essentieel of wenselijk, gelijk met de wasruimte als meest gewilde voorziening.[^s3]
 
-**3. Warmte is het gat.** Slechts 23% van de Amerikaanse huiseigenaren geeft buitenverwarming prioriteit in de planningsfase, terwijl 67% zegt dat verwarming het gebruik van hun buitenruimte verlengt.[^s4] [[VERIFY: onderzoeksbasis, steekproefgrootte en veldwerkdatum van de cijfers van Atomik Research — Megan Spies]] Dat gat is het meerwerk. [[VERIFY: vergelijkbare Nederlandse cijfers over terrassen in de nieuwbouw, of de Amerikaanse cijfers zo laten — Bromic Benelux distributor]]
+**3. Warmte is het gat.** Slechts 23% van de Amerikaanse huiseigenaren geeft buitenverwarming prioriteit in de planningsfase, terwijl 67% zegt dat verwarming het gebruik van hun buitenruimte verlengt.[^s4] [[VERIFY: onderzoeksbasis, steekproefgrootte en veldwerkdatum van de cijfers van Atomik Research — marketing]] Dat gat is het meerwerk. [[VERIFY: vergelijkbare Nederlandse cijfers over terrassen in de nieuwbouw, of de Amerikaanse cijfers zo laten — Bromic Benelux distributor]]
 
 ### Wat het programma u biedt
 
@@ -98,19 +98,19 @@ Alles hieronder is een voorstel tot het is bevestigd. Niets hier is een toezeggi
 | Drie kant-en-klare pakketten | Good, Better, Best, elk een compleet systeem met verwarmers, bediening en omvang van de voorbekabeling | Concept (deel 2) |
 | Kosteloze ontwerpservice | Keuze van verwarmers, plaatsing en tekeningen van het verwarmde oppervlak op basis van uw plannen of foto's[^s5] | Beschikbaar |
 | Gids voor voorbekabeling | Eén pagina waarop uw installateur een prijs kan maken ([asset:A16](asset:A16)) | In ontwikkeling |
-| Prijzen voor aannemers | Gestaffelde handelsprijzen op volume | [[VERIFY: prijsstaffels en volumes — Arvin Avaness / Peter Abraham]] |
-| Margestructuur | Adviesprijzen voor uw meerwerklijst | [[VERIFY: margeadvies, indien van toepassing — Arvin Avaness / Peter Abraham]] |
-| Levering en levertijden | Voorraad- en leveringsafspraken | [[VERIFY: levertijden per serie en regio — Arvin Avaness / Peter Abraham]] |
-| Ondersteuning modelwoning | Showmodellen of demoprogramma | [[VERIFY: of dit wordt aangeboden en onder welke voorwaarden — Arvin Avaness]] |
-| Verkooptraining | Korte sessie voor showroommedewerkers | [[VERIFY: vorm en beschikbaarheid — Arvin Avaness]] |
+| Prijzen voor aannemers | Gestaffelde handelsprijzen op volume | [[VERIFY: prijsstaffels en volumes — verkoop vakhandel / verkoopoperaties]] |
+| Margestructuur | Adviesprijzen voor uw meerwerklijst | [[VERIFY: margeadvies, indien van toepassing — verkoop vakhandel / verkoopoperaties]] |
+| Levering en levertijden | Voorraad- en leveringsafspraken | [[VERIFY: levertijden per serie en regio — verkoop vakhandel / verkoopoperaties]] |
+| Ondersteuning modelwoning | Showmodellen of demoprogramma | [[VERIFY: of dit wordt aangeboden en onder welke voorwaarden — verkoop vakhandel]] |
+| Verkooptraining | Korte sessie voor showroommedewerkers | [[VERIFY: vorm en beschikbaarheid — verkoop vakhandel]] |
 | Ondersteuning installateurs | Technische lijn in de VS: 1-800-301-1293, ma–vr 9–16 uur Pacific Time[^s5] | Beschikbaar in de VS [[VERIFY: technische ondersteuning voor Nederland — Bromic Benelux distributor]] |
-| Garantie | Fabrieksgarantie per serie | [[VERIFY: voorwaarden — Mike Clifford]] |
-| Co-marketing | Inlegvellen voor brochures, beeld voor uw verkoopmateriaal | [[VERIFY: welke middelen en gebruiksrechten — Megan Spies]] |
-| Contactpersoon | Vaste regionale contactpersoon | [[VERIFY: contactpersoon per regio — Arvin Avaness]] |
+| Garantie | Fabrieksgarantie per serie | [[VERIFY: voorwaarden — productteam]] |
+| Co-marketing | Inlegvellen voor brochures, beeld voor uw verkoopmateriaal | [[VERIFY: welke middelen en gebruiksrechten — marketing]] |
+| Contactpersoon | Vaste regionale contactpersoon | [[VERIFY: contactpersoon per regio — verkoop vakhandel]] |
 
 ### Voor wie het is
 
-Projectontwikkelaars en aannemers met een pakket voor buitenleven, bouwers van vrijstaande woningen die een standaarddetail voor verwarming willen, en renovatiebedrijven die overdekte terrassen toevoegen. [[VERIFY: voorwaarden voor deelname — Arvin Avaness]]
+Projectontwikkelaars en aannemers met een pakket voor buitenleven, bouwers van vrijstaande woningen die een standaarddetail voor verwarming willen, en renovatiebedrijven die overdekte terrassen toevoegen. [[VERIFY: voorwaarden voor deelname — verkoop vakhandel]]
 
 ## Deel 2: de Good–Better–Best-gids
 
@@ -128,11 +128,11 @@ De niveaus gelden voor één overdekt terras. Het aantal verwarmers hangt af van
 | Bediening (verplicht) | Affinity Smart-Heat On/Off-regelaar + handmatige wandschakelaar | Affinity Smart-Heat Dimmer-regelaar + handmatige wandschakelaar + Bromic Smart-Heat-app (schema's, timers) | Affinity Dimmer-regelaar (Platinum) + Affinity Eclipse-regelaar + wandschakelaars + app met zones; integratie met Control4, Crestron of Lutron als de woning dat heeft (compatibiliteit verschilt; kan extra integratiehardware vragen)[^s5] |
 | Zones | Eén | Eén of twee | Twee of meer (eten, lounge) |
 | Omvang voorbekabeling | Eigen groep(en), doos bij de verwarmer, doos bij de schakelaar | Eigen groepen, timmerwerk en regelwerk voor de inbouw, plek van de regelaar, wifi-bereik | Als Better, plus constructie voor de hanger, extra groepen voor zones, afstemming met de integrator |
-| Meerwerkprijs voor de koper | [[VERIFY — Arvin Avaness / Peter Abraham]] | [[VERIFY — Arvin Avaness / Peter Abraham]] | [[VERIFY — Arvin Avaness / Peter Abraham]] |
-| Kosten voor de aannemer | [[VERIFY — Arvin Avaness / Peter Abraham]] | [[VERIFY — Arvin Avaness / Peter Abraham]] | [[VERIFY — Arvin Avaness / Peter Abraham]] |
-| Levertijd | [[VERIFY — Arvin Avaness / Peter Abraham]] | [[VERIFY — Arvin Avaness / Peter Abraham]] | [[VERIFY — Arvin Avaness / Peter Abraham]] |
+| Meerwerkprijs voor de koper | [[VERIFY — verkoop vakhandel / verkoopoperaties]] | [[VERIFY — verkoop vakhandel / verkoopoperaties]] | [[VERIFY — verkoop vakhandel / verkoopoperaties]] |
+| Kosten voor de aannemer | [[VERIFY — verkoop vakhandel / verkoopoperaties]] | [[VERIFY — verkoop vakhandel / verkoopoperaties]] | [[VERIFY — verkoop vakhandel / verkoopoperaties]] |
+| Levertijd | [[VERIFY — verkoop vakhandel / verkoopoperaties]] | [[VERIFY — verkoop vakhandel / verkoopoperaties]] | [[VERIFY — verkoop vakhandel / verkoopoperaties]] |
 
-[[VERIFY: compatibiliteit van de Affinity-regelaars met elk Platinum-vermogen, en of de On/Off-regelaar de app ondersteunt — Mike Clifford]]
+[[VERIFY: compatibiliteit van de Affinity-regelaars met elk Platinum-vermogen, en of de On/Off-regelaar de app ondersteunt — productteam]]
 
 ![Eettafel op een binnenplaats met een zwarte wandverwarmer](img:l-010-070)
 
@@ -155,7 +155,7 @@ Ingebouwde Platinum boven de lounge, Eclipse-hangers boven de eettafel voor warm
 ## Hoe verkoopt u het?
 
 - **Laat het branden.** Een verwarmd terras bij de modelwoning in de schemering doet het verkoopwerk.
-- **Prijs de voorbekabeling, ook als kopers afzien.** Voorbekabeling tijdens het timmerwerk kost veel minder dan later een afgewerkt overstek openmaken, en kopers kunnen na de oplevering alsnog warmte toevoegen. [[VERIFY: gangbare kosten voor voorbekabeling bij partnerinstallateurs — Arvin Avaness]]
+- **Prijs de voorbekabeling, ook als kopers afzien.** Voorbekabeling tijdens het timmerwerk kost veel minder dan later een afgewerkt overstek openmaken, en kopers kunnen na de oplevering alsnog warmte toevoegen. [[VERIFY: gangbare kosten voor voorbekabeling bij partnerinstallateurs — verkoop vakhandel]]
 - **Begin met het moment, dan het niveau.** "In oktober buiten eten" verkoopt beter dan een wattage.
 - **Houd de bediening in de prijs.** Een verwarmer zonder regelaar is geen afgeronde optie.
 

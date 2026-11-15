@@ -15,8 +15,8 @@ meta_description: "Die Bromic Smart-Heat App einrichten: Affinity-Steuergerät k
 cta: {label: "Den Smart-Heat-Einrichtungsleitfaden öffnen", asset: A09}
 hero: w-eclipse-electric-w-bromic-heating-app
 images: [w-affinity-onoff]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -25,7 +25,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLOG-07
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -117,20 +117,20 @@ Ja, über kompatible Affinity-Steuerungen; verknüpfen Sie sie in der Alexa- ode
 
 ## Was passiert, wenn das WLAN ausfällt?
 
-Das Steuergerät wechselt auf eine andere verfügbare Verbindung oder auf Bluetooth und kehrt zu WLAN oder Ethernet zurück, sobald diese wieder da sind.[^s2] Verliert das Steuergerät die Stromversorgung, zeigt die App seine Heizstrahler als offline an.[^s2] [[VERIFY: heater state after a power cut and whether a wall switch can override an Affinity controller — Mike Clifford]]
+Das Steuergerät wechselt auf eine andere verfügbare Verbindung oder auf Bluetooth und kehrt zu WLAN oder Ethernet zurück, sobald diese wieder da sind.[^s2] Verliert das Steuergerät die Stromversorgung, zeigt die App seine Heizstrahler als offline an.[^s2] [[VERIFY: heater state after a power cut and whether a wall switch can override an Affinity controller — Produktteam]]
 
 ## Häufige Fragen
 
 ### Funktioniert die App mit meiner älteren Bromic-Fernbedienung?
-Nein. Die App ist für Affinity-Steuerungen gebaut und nicht abwärtskompatibel mit den älteren Fernbedienungen von Bromic.[^s1][^s2] [[VERIFY: recommended replacement path for owners of wireless On/Off and Dimmer controllers — Mike Clifford]]
+Nein. Die App ist für Affinity-Steuerungen gebaut und nicht abwärtskompatibel mit den älteren Fernbedienungen von Bromic.[^s1][^s2] [[VERIFY: recommended replacement path for owners of wireless On/Off and Dimmer controllers — Produktteam]]
 
 ### Wird zu Affinity-Steuergeräten eine Fernbedienung mitgeliefert?
 Nein. Affinity-Steuerungen werden über die App bedient und ohne physische Fernbedienung geliefert.[^s3]
 
 ### Ist die App kostenlos?
-[[VERIFY: app price and any subscription — Mike Clifford]] Die Steuergeräte sind separat erhältlich; siehe die [Bromic-Steuerungen](https://www.bromic.de/).
+[[VERIFY: app price and any subscription — Produktteam]] Die Steuergeräte sind separat erhältlich; siehe die [Bromic-Steuerungen](https://www.bromic.de/).
 
 ### Wo bekomme ich Hilfe?
-Beim technischen Support von Bromic über [bromic.de](https://www.bromic.de/) oder in den [FAQ zur App (auf Englisch)](https://www.bromic.com/affinity-smart-heat-app/). [[VERIFY: Kontakt des technischen Supports für Deutschland — Raffaele Marti]]
+Beim technischen Support von Bromic über [bromic.de](https://www.bromic.de/) oder in den [FAQ zur App (auf Englisch)](https://www.bromic.com/affinity-smart-heat-app/). [[VERIFY: Kontakt des technischen Supports für Deutschland — Partner Deutschland]]
 
 Der Einrichtungsleitfaden erklärt Zonen, Szenen und Sprachsteuerung Schritt für Schritt an einem Ort.

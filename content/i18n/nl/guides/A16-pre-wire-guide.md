@@ -18,7 +18,7 @@ meta_description: "Gids voor de voorbekabeling van terrasverwarmers: groepen en 
 cta: {label: "Boek een ontwerpadvies", asset: A07}
 hero: g-rough-in
 images: [l-010-076, l-005-022, l-010-074, t-012-034]
-owner_review: Arvin Avaness
+owner_review: verkoop vakhandel
 status: draft
 gated: true
 related: [BLD-IN-01, BLD-CO-01, ARC-IN-01]
@@ -106,7 +106,7 @@ In een Amerikaans onderzoek gaf minder dan één op de vier huiseigenaren verwar
 | Platinum Smart-Heat Electric | 2300 / 3400 / 4500 W | Eigen groep(en) naar de regelaar; aansluitdoos bij de verwarmer | Inbouw (inbouwset), plafond of muur; regelwerk |
 | Eclipse Smart-Heat Electric | [[VERIFY: vermogen en voeding]] | Groep naar de regelaar; plafonddoos bij de paal | Enkele paal van 200, 610 of 1220 mm; dubbele of gebogen paal; regelwerk voor de paal |
 | Eclipse Smart-Heat Freestanding Electric | [[VERIFY: stekker of vaste aansluiting; waarde van het stopcontact]] | [[VERIFY: eisen aan het buitenstopcontact]] | Geen; vlakke ondergrond |
-| Tungsten Smart-Heat Electric — Coastal / Select (binnenkort) | [[VERIFY: vermogens]] | Als Platinum, in afwachting van de installatiehandleiding | Inbouw met lage inbouwhoogte, plafond, muur, enkele paal |
+| Tungsten Smart-Heat Electric – Coastal / Select (binnenkort) | [[VERIFY: vermogens]] | Als Platinum, in afwachting van de installatiehandleiding | Inbouw met lage inbouwhoogte, plafond, muur, enkele paal |
 | Tungsten Gas (inbouw), Platinum Gas | [[VERIFY: vermogen in kW — het cijfer van de Tungsten-inbouwgasverwarmer niet publiceren tot het bevestigd is]] | Gasaansluitpunt en afsluiter; [[VERIFY: eventuele elektrische voeding voor ontsteking/bediening]] | Plafond, muur; plafondpalen, warmtedeflectors |
 | Tungsten Smart-Heat Freestanding Gas | 11,1 kW; aardgas of propaan | Propaan: geen. Aardgas: [[VERIFY: eis voor een snelkoppelingspunt]] | Geen |
 
@@ -126,14 +126,14 @@ Productgegevens: Bromic Lookbook 2026[^s2] en Planning Guide 2021[^s3]. Bouw alt
 | 3400 W | 14,8 A |
 | 4500 W | 19,6 A |
 
-Nominaal vermogen gedeeld door de spanning. Gebruik de nominale waarden van het gespecificeerde model. [[VERIFY: nominale spanning en stroom van de Europese uitvoeringen — Mike Clifford]]
+Nominaal vermogen gedeeld door de spanning. Gebruik de nominale waarden van het gespecificeerde model. [[VERIFY: nominale spanning en stroom van de Europese uitvoeringen — productteam]]
 
 **Rekenvoorbeeld: drie verwarmers van 3400 W op 230 V.**
 - Per verwarmer: 3400 ÷ 230 = 14,8 A.
-- Alle drie op één uitgang van de regelaar: 44,3 A — te veel voor één gangbare groep, dus verdeel ze.
+- Alle drie op één uitgang van de regelaar: 44,3 A – te veel voor één gangbare groep, dus verdeel ze.
 - Meterkast: tel 10,2 kW op bij de belastingberekening.
 
-[[VERIFY: (1) hoe Bromic-verwarmers in Nederland onder NEN 1010 worden ingedeeld; (2) de beveiliging en het maximale aantal verwarmers per groep volgens elke installatiehandleiding; (3) de maximale belasting per kanaal van de Affinity-regelaar en of die tussen beveiliging en verwarmers zit — Arvin Avaness + licensed electrician]]
+[[VERIFY: (1) hoe Bromic-verwarmers in Nederland onder NEN 1010 worden ingedeeld; (2) de beveiliging en het maximale aantal verwarmers per groep volgens elke installatiehandleiding; (3) de maximale belasting per kanaal van de Affinity-regelaar en of die tussen beveiliging en verwarmers zit — verkoop vakhandel + licensed electrician]]
 
 [[DIAGRAM: Eenlijnschema: meterkast → eigen installatieautomaten → Affinity-regelaar (één kanaal per zone) → aansluitdozen bij de verwarmers; wandschakelaar en wifi aangegeven; geleiderdoorsneden open gelaten voor de installateur.]]
 
@@ -141,7 +141,7 @@ Nominaal vermogen gedeeld door de spanning. Gebruik de nominale waarden van het 
 
 | Onderdeel | Positie | Opmerking |
 |---|---|---|
-| Aansluitdoos verwarmer | Op elke plek van een verwarmer, volgens de handleiding | [[VERIFY: type doos, afstand tot de hartlijn van de verwarmer, of ze in de inbouwset zit — Mike Clifford]] |
+| Aansluitdoos verwarmer | Op elke plek van een verwarmer, volgens de handleiding | [[VERIFY: type doos, afstand tot de hartlijn van de verwarmer, of ze in de inbouwset zit — productteam]] |
 | Montagehoogte aan de muur | Verwarmer ≥ 1,83 m boven de afgewerkte vloer | Richtlijn van Bromic[^s3] |
 | Montagehoogte aan het plafond | Verwarmer ≥ 2,44 m boven de afgewerkte vloer | Afstand tot het plafond hangt af van het vermogen[^s3] |
 | Regelwerk | Massief regelwerk tussen de balken bij elke verwarmer, paal en beugel | Gedimensioneerd op het gewicht van verwarmer en paal [[VERIFY: gewicht per model]] |
@@ -157,11 +157,11 @@ Met inbouwsets worden elektrische Platinum- en Tungsten-verwarmers vlak in de pl
 
 | Maat | Waarde |
 |---|---|
-| Ruwe opening (L × B) | [[VERIFY dims: per model en maat — Mike Clifford]] |
-| Minimale diepte van de plafondruimte | [[VERIFY dims: per model — Mike Clifford]] |
-| Afstand boven de set tot brandbare materialen | [[VERIFY dims: volgens de installatiehandleiding — Mike Clifford]] |
-| Inbouw met lage inbouwhoogte (Tungsten Coastal / Select, binnenkort) | [[VERIFY dims — Mike Clifford]] |
-| Toegestane dikte van de plafondafwerking | [[VERIFY dims — Mike Clifford]] |
+| Ruwe opening (L × B) | [[VERIFY dims: per model en maat — productteam]] |
+| Minimale diepte van de plafondruimte | [[VERIFY dims: per model — productteam]] |
+| Afstand boven de set tot brandbare materialen | [[VERIFY dims: volgens de installatiehandleiding — productteam]] |
+| Inbouw met lage inbouwhoogte (Tungsten Coastal / Select, binnenkort) | [[VERIFY dims — productteam]] |
+| Toegestane dikte van de plafondafwerking | [[VERIFY dims — productteam]] |
 
 - Laat balken doorlopen of breng raveelbalken aan zodat de opening haaks en waterpas is.
 - Houd isolatie, dampremmende lagen en andere installaties vrij van de set, volgens de handleiding.
@@ -177,9 +177,9 @@ De bediening hoort bij het systeem. Bereid ze voor samen met de groepen van de v
 
 | Leiding | Van → naar | Opmerking |
 |---|---|---|
-| Netspanning | Meterkast → Affinity-regelaar → verwarmers | Eén regelaarkanaal per zone [[VERIFY: bedradingsschema van de regelaar — Mike Clifford]] |
-| Wandschakelaar | Regelaar → schakelaardoos bij de doorgang | [[VERIFY: schakeldraad op netspanning of laagspanning; doosmaat — Mike Clifford]] |
-| Plek van de regelaar | Bereikbaar, beschermd, binnen wifi-bereik | [[VERIFY: geschiktheid binnen/buiten en montage — Mike Clifford]] |
+| Netspanning | Meterkast → Affinity-regelaar → verwarmers | Eén regelaarkanaal per zone [[VERIFY: bedradingsschema van de regelaar — productteam]] |
+| Wandschakelaar | Regelaar → schakelaardoos bij de doorgang | [[VERIFY: schakeldraad op netspanning of laagspanning; doosmaat — productteam]] |
+| Plek van de regelaar | Bereikbaar, beschermd, binnen wifi-bereik | [[VERIFY: geschiktheid binnen/buiten en montage — productteam]] |
 | Integratie | Regelaar → domoticapaneel | Control4, Crestron of Lutron; compatibiliteit verschilt en kan extra hardware vragen[^s2] |
 | Reserveleiding | Verwarmingszone → plek van de regelaar | Maakt latere zones of integratie mogelijk zonder afwerking open te breken |
 
@@ -188,7 +188,7 @@ Specificeer bij elke verwarmer de bijbehorende bediening: een Affinity Smart-Hea
 ## Gasaansluitpunten voor gasmodellen
 
 - **Alleen een erkend gasinstallateur.** Leiding dimensioneren, leggen en beproeven: in de VS volgens ANSI Z223.1/NFPA 54[^s6], in Nederland volgens NEN 1078 en de plaatselijke voorschriften. [[VERIFY: actuele editie van NEN 1078 — Bromic Benelux distributor]]
-- **Dimensioneer op de aangesloten belasting.** Het totale vermogen van alle toestellen op de leiding, de leidinglengte en de voordruk. [[VERIFY: belasting in kW, aansluitmaat en druk voor Platinum Gas en Tungsten Gas inbouw — Mike Clifford]]
+- **Dimensioneer op de aangesloten belasting.** Het totale vermogen van alle toestellen op de leiding, de leidinglengte en de voordruk. [[VERIFY: belasting in kW, aansluitmaat en druk voor Platinum Gas en Tungsten Gas inbouw — productteam]]
 - **Aansluitpunt afdoppen** op elke plek van een verwarmer; zorg voor een bereikbare afsluiter.
 - **Montagevoorzieningen:** warmtedeflectors verkleinen de benodigde ruimte boven gasverwarmers; met plafondpalen hangen twee verwarmers rug aan rug[^s3]. Houd met beide rekening in het timmerwerk.
 - **Energiebron bij bestelling:** aardgas of propaan, bevestigd voordat de verwarmer wordt besteld.
@@ -202,7 +202,7 @@ Specificeer bij elke verwarmer de bijbehorende bediening: een Affinity Smart-Hea
 - [ ] Inbouwopeningen getimmerd volgens de handleiding
 - [ ] Gasleiding op druk beproefd en afgedopt; afsluiters bereikbaar
 - [ ] Installatiehandleidingen op de bouwplaats voor de controle
-- [ ] Oplevering: verwarmers gekeurd en gemarkeerd (in de VS Intertek, UL of CSA)[^s3]; afstanden gehaald; bediening werkt [[VERIFY: CE-markering en Europese keuringen per model — Mike Clifford]]
+- [ ] Oplevering: verwarmers gekeurd en gemarkeerd (in de VS Intertek, UL of CSA)[^s3]; afstanden gehaald; bediening werkt [[VERIFY: CE-markering en Europese keuringen per model — productteam]]
 
 *Deze gids is algemene informatie, geen technisch advies of uitspraak over de regelgeving. Controleer de eisen bij uw gemeente. Elektrotechnisch werk door een erkend installateur volgens NEN 1010 (in de VS NFPA 70[^s4]); gaswerk door een erkend gasinstallateur volgens NEN 1078 (in de VS ANSI Z223.1/NFPA 54[^s6]); beide volgens de installatie-instructies van de fabrikant.*
 

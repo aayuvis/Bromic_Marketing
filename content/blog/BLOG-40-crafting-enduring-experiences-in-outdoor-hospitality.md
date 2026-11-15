@@ -17,8 +17,8 @@ ai_prompt: "How do designers plan outdoor dining spaces that work in cold or cha
 meta_description: "Liz Neuffer of Aria Group on outdoor hospitality design: enclosure, seating, weather, electric heat and answering client cost questions."
 cta: {label: "Book the AIA CE course on outdoor heating", asset: A14}
 hero: w-wrigleys-mansion-eclipse-portable-heater-4
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false

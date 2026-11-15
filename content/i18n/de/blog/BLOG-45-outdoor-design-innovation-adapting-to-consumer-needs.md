@@ -14,8 +14,8 @@ ai_prompt: "Wie verändert sich die Produktgestaltung im Außenbereich für Arch
 meta_description: "Podcast-Zusammenfassung: Die Gründer von StruXure und der Bromic Group über Außenräume als Produkt, integrierte Steuerung und frühe Zusammenarbeit mit Architekten."
 cta: {label: "Trends-2026-Report herunterladen", asset: A01}
 hero: w-slc-bromic-heater-1-cropped
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -24,7 +24,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLOG-45
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -85,7 +85,7 @@ Weil Konstruktion, Stromkreis und Steuerung zusammen entschieden werden. Beide U
 
 Praktisch bedeutet das: Montageebene, Einbautiefe und Stromzuführung des Heizstrahlers stehen in den Zeichnungen, bevor die Pergola bestellt wird. Es bedeutet auch, dass die Steuerung mit dem Heizstrahler ausgewählt wird: ein Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät, ein Wandschalter und die Bromic Smart-Heat App für Zonen, Zeitpläne und Timer. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind. Eine Einbindung in Control4, Crestron oder Lutron ist möglich, die Kompatibilität hängt jedoch vom jeweiligen System ab[^s4].
 
-Auf [bromic.de](https://www.bromic.de/) finden Sie Unterlagen für Architekten und Planer, darunter BIM-Dateien und Datenblätter, sowie den Planungsservice, der einen Grundriss mit Zeichnungen der beheizten Flächen erstellt. [[VERIFY: BIM-Dateien, Datenblätter und Planungsservice (Design Your Space) auf bromic.de verfügbar — Raffaele Marti]]
+Auf [bromic.de](https://www.bromic.de/) finden Sie Unterlagen für Architekten und Planer, darunter BIM-Dateien und Datenblätter, sowie den Planungsservice, der einen Grundriss mit Zeichnungen der beheizten Flächen erstellt. [[VERIFY: BIM-Dateien, Datenblätter und Planungsservice (Design Your Space) auf bromic.de verfügbar — Partner Deutschland]]
 
 ## Häufige Fragen
 

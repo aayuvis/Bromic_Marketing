@@ -14,7 +14,7 @@ meta_description: "Bereiten Sie je Terrassenheizstrahler einen eigenen Stromkrei
 cta: {label: "Den Leitfaden zur Vorverkabelung herunterladen", asset: A16}
 hero: g-rough-in
 images: [l-005-022]
-owner_review: Arvin Avaness
+owner_review: Fachhandelsvertrieb
 status: draft
 gated: false
 related: [BLD-IN-KB1, BLD-IN-KB2, BLD-BY-01, BLD-CO-01]
@@ -79,12 +79,12 @@ sources:
 lang: de
 translation_of: BLD-IN-01
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 
 Ziehen Sie in der Rohinstallation zu jeder Heizstrahler-Position einen eigenen Stromkreis, bemessen nach dem Typenschild des Heizstrahlers und als Dauerlast, dazu eine Dose und eine tragfähige Unterkonstruktion an jeder Position und eine Dose am Ort des Steuergeräts. Erledigen Sie das, bevor Trockenbau, Untersicht oder Deckenverkleidung montiert werden. Das ist die ganze Aufgabe: ein Stromkreis, eine Dose, eine Unterkonstruktion und ein Bedienpunkt, einmal entschieden, damit niemand später eine fertige Decke öffnen muss.
 
-*Dies ist eine Planungshilfe, keine Rechtsberatung. Vorschriften unterscheiden sich je nach Ort und Ausgabe. Klären Sie jede Anforderung mit dem örtlichen Bauamt und einem Elektrofachbetrieb (DIN VDE 0100) und befolgen Sie die Installationsanleitung des Produkts. [[VERIFY: aktuelle VDE-Regeln für Heizstrahler im Freien — Raffaele Marti]]*
+*Dies ist eine Planungshilfe, keine Rechtsberatung. Vorschriften unterscheiden sich je nach Ort und Ausgabe. Klären Sie jede Anforderung mit dem örtlichen Bauamt und einem Elektrofachbetrieb (DIN VDE 0100) und befolgen Sie die Installationsanleitung des Produkts. [[VERIFY: aktuelle VDE-Regeln für Heizstrahler im Freien — Partner Deutschland]]*
 
 ![Minimalistischer Glaspavillon mit in die Decke eingelassenen Heizstrahlern](img:l-010-075)
 
@@ -96,7 +96,7 @@ Verkabeln Sie jede überdachte Terrasse vor, auf der Wärme verkauft werden kön
 
 ## Welche Spannung und welchen Stromkreis braucht jeder Heizstrahler?
 
-Platinum Smart-Heat Electric gibt es mit 2300, 3400 und 4500 W[^s1]. In Deutschland beträgt die Netzspannung 230 V, 50 Hz; Bromic nennt für gewerbliche US-Standorte Anschlüsse mit 208, 240 und 277 V[^s2]. Prüfen Sie die Spannung des genau bestellten Modells, bevor Sie Leitungen ziehen [[VERIFY: Versorgungsspannung je Platinum und Tungsten Electric Modell für Deutschland, Wohn- und Gewerbebau — Mike Clifford]].
+Platinum Smart-Heat Electric gibt es mit 2300, 3400 und 4500 W[^s1]. In Deutschland beträgt die Netzspannung 230 V, 50 Hz; Bromic nennt für gewerbliche US-Standorte Anschlüsse mit 208, 240 und 277 V[^s2]. Prüfen Sie die Spannung des genau bestellten Modells, bevor Sie Leitungen ziehen [[VERIFY: Versorgungsspannung je Platinum und Tungsten Electric Modell für Deutschland, Wohn- und Gewerbebau — Produktteam]].
 
 Der Strom ist Leistung geteilt durch Spannung: **I = W ÷ V**. Ein Heizstrahler im Freien ist eine Dauerlast. In den USA ist eine Dauerlast als Last definiert, bei der der maximale Strom drei Stunden oder länger erwartet wird, und Stromkreise für Dauerlasten und fest installierte Raumheizungen werden dort mit mindestens 125 % der Last bemessen[^s3][^s4]. In Deutschland legt der Elektrofachbetrieb Leitungsschutzschalter, Leitungsquerschnitt und Verlegeart nach DIN VDE 0100 fest.
 
@@ -117,17 +117,17 @@ Ja, in Grenzen – doch ein Heizstrahler je Stromkreis ist einfacher in Zonen au
 
 ## Brauchen Stromkreise für Terrassenheizstrahler einen Fehlerstromschutz?
 
-Planen Sie ihn ein und klären Sie das früh. In Deutschland legt die DIN VDE 0100 fest, welche Stromkreise im Freien eine Fehlerstrom-Schutzeinrichtung (RCD) brauchen; der Elektrofachbetrieb bestätigt das für Ihr Projekt [[VERIFY: Anforderungen an den Fehlerstromschutz für fest angeschlossene Heizstrahler im Freien nach DIN VDE 0100 — Raffaele Marti]]. Zum Vergleich die US-Regeln: Der NEC 2023 verlangt einen Fehlerstromschutz (GFCI) für Außenanschlüsse an Wohngebäuden bei einphasigen Stromkreisen mit höchstens 150 V gegen Erde und höchstens 50 A[^s5]; die Ausgabe 2026 hebt diese Grenze auf 60 A an[^s6]. Ob ein fest angeschlossener Heizstrahler dort als „Anschluss“ gilt, legen US-Behörden unterschiedlich aus, und die Ausgaben werden zu unterschiedlichen Zeitpunkten eingeführt[^s7]. Prüfen Sie außerdem, was die Installationsanleitung vorgibt [[VERIFY: Anforderung an GFCI- bzw. RCD-Schutz in der Bromic-Installationsanleitung — Mike Clifford]]. Mehr dazu in [der Antwort zum Fehlerstromschutz](item:BLD-BY-KB1).
+Planen Sie ihn ein und klären Sie das früh. In Deutschland legt die DIN VDE 0100 fest, welche Stromkreise im Freien eine Fehlerstrom-Schutzeinrichtung (RCD) brauchen; der Elektrofachbetrieb bestätigt das für Ihr Projekt [[VERIFY: Anforderungen an den Fehlerstromschutz für fest angeschlossene Heizstrahler im Freien nach DIN VDE 0100 — Partner Deutschland]]. Zum Vergleich die US-Regeln: Der NEC 2023 verlangt einen Fehlerstromschutz (GFCI) für Außenanschlüsse an Wohngebäuden bei einphasigen Stromkreisen mit höchstens 150 V gegen Erde und höchstens 50 A[^s5]; die Ausgabe 2026 hebt diese Grenze auf 60 A an[^s6]. Ob ein fest angeschlossener Heizstrahler dort als „Anschluss“ gilt, legen US-Behörden unterschiedlich aus, und die Ausgaben werden zu unterschiedlichen Zeitpunkten eingeführt[^s7]. Prüfen Sie außerdem, was die Installationsanleitung vorgibt [[VERIFY: Anforderung an GFCI- bzw. RCD-Schutz in der Bromic-Installationsanleitung — Produktteam]]. Mehr dazu in [der Antwort zum Fehlerstromschutz](item:BLD-BY-KB1).
 
 ## Was gehört an jede Heizstrahler-Position?
 
 | Element | Maßnahme in der Rohinstallation |
 |---|---|
-| Dose | Witterungsbeständige Abzweigdose an jeder Heizstrahler-Position, an der in der Anleitung angegebenen Stelle relativ zur Halterung [[VERIFY: Dosentyp und Versatz je Montageart — Mike Clifford]] |
-| Unterkonstruktion | Tragfähige Auswechslung zwischen Balken oder Ständern, die Halterung und Gewicht des Heizstrahlers trägt [[VERIFY: Gewichte der Heizstrahler je Modell — Mike Clifford]] |
+| Dose | Witterungsbeständige Abzweigdose an jeder Heizstrahler-Position, an der in der Anleitung angegebenen Stelle relativ zur Halterung [[VERIFY: Dosentyp und Versatz je Montageart — Produktteam]] |
+| Unterkonstruktion | Tragfähige Auswechslung zwischen Balken oder Ständern, die Halterung und Gewicht des Heizstrahlers trägt [[VERIFY: Gewichte der Heizstrahler je Modell — Produktteam]] |
 | Höhe | Wandmontage mindestens 1,83 m über dem Boden; Deckenmontage mindestens 2,44 m, je nach Leistung abweichend[^s2] |
-| Abstände | Abstände zu Wänden, Balken und brennbaren Materialien laut Anleitung markieren [[VERIFY: Abstandstabelle je Modell — Mike Clifford]] |
-| Einbaurahmen | Öffnung und Hohlraumtiefe für den Einbaurahmen vor dem Beplanken herstellen [[VERIFY: Rohbauöffnung und Hohlraumtiefe des Einbaurahmens je Modell — Mike Clifford]] |
+| Abstände | Abstände zu Wänden, Balken und brennbaren Materialien laut Anleitung markieren [[VERIFY: Abstandstabelle je Modell — Produktteam]] |
+| Einbaurahmen | Öffnung und Hohlraumtiefe für den Einbaurahmen vor dem Beplanken herstellen [[VERIFY: Rohbauöffnung und Hohlraumtiefe des Einbaurahmens je Modell — Produktteam]] |
 
 ![Heizstrahler bündig in eine weiße Decke eingelassen (Tungsten Coastal, demnächst erhältlich)](img:l-005-022)
 
@@ -139,7 +139,7 @@ Setzen Sie das Steuergerät dorthin, wo die Familie steht, wenn sie Wärme will:
 
 In der Rohinstallation:
 
-- Setzen Sie am Ort des Steuergeräts eine tiefe Dose, passend für das Affinity Steuergerät [[VERIFY: Dosengröße für das Affinity Steuergerät und ob es in den Netzspannungsstromkreis eingeschleift wird — Mike Clifford]].
+- Setzen Sie am Ort des Steuergeräts eine tiefe Dose, passend für das Affinity Steuergerät [[VERIFY: Dosengröße für das Affinity Steuergerät und ob es in den Netzspannungsstromkreis eingeschleift wird — Produktteam]].
 - Führen Sie jeden Heizstrahler-Stromkreis über diesen Ort oder so, wie es der Schaltplan der Anleitung zeigt.
 - Lassen Sie einen Weg frei, etwa ein leeres Leerrohr mit Zugdraht, zum Standort von Medien- oder Haustechnik, falls eine Smart-Home-Steuerung verkauft wird.
 

@@ -14,8 +14,8 @@ ai_prompt: "Wat is het verschil tussen een infraroodverwarmer en een stralingsve
 meta_description: "Infrarood- en stralingsverwarmers zijn hetzelfde idee: straling is hoe warmte zich verplaatst, infrarood is wat ze is. Buiten tellen golflengte en het aandeel straling."
 cta: {label: "Download het rapport Outdoor Living Trends 2026", asset: A01}
 hero: w-bromic-eclipse-portable-hotel-skansen-07
-owner_review: Brian Kim
-technical_reviewer: Mike Clifford
+owner_review: digitale marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -113,7 +113,7 @@ Stralingswarmte is de basis van elke verwarmer van Bromic[^s2]. De planningsgids
 - **Gerichte warmte.** Het grootste deel van het vermogen gaat één kant op, naar de zitplekken, in plaats van gelijkmatig alle kanten op[^s2].
 - **Geplaatst voor mensen.** Het verwarmde oppervlak wordt gepland rond de plekken waar gasten zitten, niet rond het vloeroppervlak; het hangt af van het model, de montagehoogte, de omgeving en de installatie[^s5].
 
-[[VERIFY: golflengteband (kort / midden) van elk huidig model van Bromic, voor een rij per product — Mike Clifford]]
+[[VERIFY: golflengteband (kort / midden) van elk huidig model van Bromic, voor een rij per product — productteam]]
 
 ## Kan een infraroodverwarmer elektrisch of op gas zijn?
 
@@ -126,7 +126,7 @@ Ja. Infrarood beschrijft wat eruit komt, niet de brandstof. Elektrische verwarme
 | Eclipse Smart-Heat Electric | Elektrisch | 11 m²[^s5] | Affinity Eclipse-regelaar of Eclipse Dimmer, handmatige wandschakelaar |
 | Platinum Smart-Heat Gas | Aardgas of propaan | 15–20 m², afhankelijk van het model[^s6] | Affinity On/Off-regelaar, handmatige wandschakelaar |
 
-Elke verwarmer heeft zijn bediening nodig. De Smart-Heat app voegt zones, schema's en timers toe; wifi- en appfuncties vragen om compatibele Affinity Smart-Heat Controls, die apart worden verkocht[^s5]. De waarden van de productpagina's wachten nog op goedkeuring. [[VERIFY: waarden gelezen op bromic.com; controleren aan de productbladen van 2026 — Mike Clifford]]
+Elke verwarmer heeft zijn bediening nodig. De Smart-Heat app voegt zones, schema's en timers toe; wifi- en appfuncties vragen om compatibele Affinity Smart-Heat Controls, die apart worden verkocht[^s5]. De waarden van de productpagina's wachten nog op goedkeuring. [[VERIFY: waarden gelezen op bromic.com; controleren aan de productbladen van 2026 — productteam]]
 
 ## Veelgestelde vragen
 

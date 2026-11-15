@@ -18,8 +18,8 @@ meta_description: "Yes. Radiant heaters warm people, not the cold air, so they w
 cta: {label: "Download the Outdoor Living Trends 2026 report", asset: A01}
 hero: w-dsc05737-courtney-saib
 images: [w-tungsten-electric-wall-mount-canada]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -103,7 +103,7 @@ The most radiant ones. Short wave is about 90% radiant and warms instantly; long
 
 **4. Choose for the site.** Near the coast, Platinum Smart-Heat Electric Marine is built from 316 marine-grade stainless steel and rated IPX5[^s6]. For other models and wet weather, see [patio heaters in the rain](https://www.bromic.com/blog/patio-heaters-in-the-rain-what-you-need-to-know/).
 
-**5. Plan it before the cold.** Only 23% of homeowners rank outdoor heating a top priority when they plan an outdoor space[^s4]. [[VERIFY: survey date, base and question wording — Megan Spies]] Wiring, gas lines and recess kits are simplest before the ceiling goes up: designed from the start, not added later.
+**5. Plan it before the cold.** Only 23% of homeowners rank outdoor heating a top priority when they plan an outdoor space[^s4]. [[VERIFY: survey date, base and question wording — Marketing]] Wiring, gas lines and recess kits are simplest before the ceiling goes up: designed from the start, not added later.
 
 ## Which Bromic heaters, with which controls?
 
@@ -112,9 +112,9 @@ The most radiant ones. Short wave is about 90% radiant and warms instantly; long
 | Covered patio or porch | Platinum Smart-Heat Electric | 65–143 ft²[^s5] | Affinity On/Off or Dimmer controller, manual wall switch |
 | Covered patio, pergola or deck | Tungsten Smart-Heat Electric | 65–160 ft²[^s6] | Affinity On/Off or Dimmer controller, manual wall switch |
 | Terrace wanting heat and light | Eclipse Smart-Heat Electric | 121 ft²[^s5] | Affinity Eclipse controller or Eclipse Dimmer, manual wall switch |
-| Open area, no fixed install | Tungsten Smart-Heat Freestanding Gas | 215 ft², wind resistant[^s5] | [[VERIFY: control options — Mike Clifford]] |
+| Open area, no fixed install | Tungsten Smart-Heat Freestanding Gas | 215 ft², wind resistant[^s5] | [[VERIFY: control options — Product team]] |
 
-Controls matter more in winter, not less. Dimming lets you turn heat up as the evening cools, and the Smart-Heat app's schedules and timers can have the space warm when you step out[^s5]. Wi-Fi and app features need compatible Affinity Smart-Heat Controls, sold separately. If an outdoor-mounted controller is planned, check its rating: the Affinity On/Off controller is listed for -4°F to 86°F[^s6]. [[VERIFY: product-page values, including controller operating range, against 2026 cut sheets — Mike Clifford]]
+Controls matter more in winter, not less. Dimming lets you turn heat up as the evening cools, and the Smart-Heat app's schedules and timers can have the space warm when you step out[^s5]. Wi-Fi and app features need compatible Affinity Smart-Heat Controls, sold separately. If an outdoor-mounted controller is planned, check its rating: the Affinity On/Off controller is listed for -4°F to 86°F[^s6]. [[VERIFY: product-page values, including controller operating range, against 2026 cut sheets — Product team]]
 
 Browse [all outdoor heaters](https://www.bromic.com/outdoor-heaters/) or ideas for [residential outdoor spaces](https://www.bromic.com/residential/).
 

@@ -15,8 +15,8 @@ meta_description: "Platinum Electric Low Clearance Recess Kit montieren: 180 mm 
 cta: {label: "Montageanleitungen anfordern", asset: A17}
 hero: w-bromic-shoot-may-11-2023-54
 images: [w-bromic-low-clearance-recess-kit]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -25,7 +25,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLOG-05
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -87,7 +87,7 @@ sources:
 
 Mit dem Low Clearance Recess Kit wird ein Platinum-Electric-Heizstrahler bündig in einen Deckenhohlraum von nur 180 mm Tiefe zwischen üblichen Deckenbalken eingebaut. Schneiden Sie die Öffnung passend zur Leistung aus, befestigen Sie den Einbaukasten an den Balken, setzen Sie die Blende ein, schließen Sie das Gerätekabel und die getrennte Lüfterversorgung im Anschlusskasten an, hängen Sie den Heizstrahler in den Kasten ein und ziehen Sie ihn bündig fest. Verdrahten Sie ihn mit einem Affinity Smart-Heat-Steuergerät und einem Wandschalter.
 
-*Dies ist eine Zusammenfassung. Maßgeblich für jeden Schritt ist die [Montageanleitung](https://pim.bromic.com/wp-content/uploads/2021/08/Platinum-Electric-Low-Clearance-Ceiling-Recess-Instruction-Manual-REV3.pdf)[^s7]. Die Elektroarbeiten muss ein Elektrofachbetrieb nach den örtlich geltenden Vorschriften ausführen, in Deutschland nach DIN VDE 0100 (in den USA nach [NFPA 70](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70)[^s8]); klären Sie die Anforderungen mit Ihrem Bauamt.* [[VERIFY: current VDE and DVGW rules for outdoor heaters — Raffaele Marti]]
+*Dies ist eine Zusammenfassung. Maßgeblich für jeden Schritt ist die [Montageanleitung](https://pim.bromic.com/wp-content/uploads/2021/08/Platinum-Electric-Low-Clearance-Ceiling-Recess-Instruction-Manual-REV3.pdf)[^s7]. Die Elektroarbeiten muss ein Elektrofachbetrieb nach den örtlich geltenden Vorschriften ausführen, in Deutschland nach DIN VDE 0100 (in den USA nach [NFPA 70](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70)[^s8]); klären Sie die Anforderungen mit Ihrem Bauamt.* [[VERIFY: current VDE and DVGW rules for outdoor heaters — Partner Deutschland]]
 
 ![Platinum-Electric-Heizstrahler bündig in die Decke einer überdachten Veranda eingelassen](img:w-bromic-low-clearance-recess-kit)
 
@@ -95,7 +95,7 @@ Mit dem Low Clearance Recess Kit wird ein Platinum-Electric-Heizstrahler bündig
 
 Ein belüfteter Einbaukasten mit eigener Blende, der zwischen üblichen Deckenbalken sitzt, sodass weder ein feuerbeständiger Kasten noch eine zusätzliche Unterkonstruktion nötig ist[^s2][^s3]. Er ist UL-zertifiziert und in einer Standard- und einer Marine-Ausführung für Platinum Electric und Platinum Electric Marine erhältlich[^s2][^s3]. Er eignet sich für Nachrüstung und Neubau, für Lamellenpergolen und für Decken mit Wohnraum darüber[^s2]. Einen Vergleich der Einbaurahmen finden Sie im Beitrag „Was beim Einbau elektrischer Heizstrahler in die Decke zu beachten ist“ auf [bromic.de](https://www.bromic.de/).
 
-Die Produktseite des Kits nennt 2300, 3400 und 4500 W[^s3]. Ein älterer Beitrag nannte nur 2300 und 3400 W [[VERIFY: 4500 W compatibility against the current manual — Mike Clifford]]. Die Angabe „bis zu 82 %“ geringere Einbautiefe aus dem Produktbeitrag und seine Aussage zu Laufzeitgrenzen bei Wettbewerbern sind entfernt, bis sie belegt sind.
+Die Produktseite des Kits nennt 2300, 3400 und 4500 W[^s3]. Ein älterer Beitrag nannte nur 2300 und 3400 W [[VERIFY: 4500 W compatibility against the current manual — Produktteam]]. Die Angabe „bis zu 82 %“ geringere Einbautiefe aus dem Produktbeitrag und seine Aussage zu Laufzeitgrenzen bei Wettbewerbern sind entfernt, bis sie belegt sind.
 
 ## Wie groß ist der Ausschnitt und welche Abstände gelten?
 
@@ -103,11 +103,11 @@ Die Produktseite des Kits nennt 2300, 3400 und 4500 W[^s3]. Ein älterer Beitrag
 |---|---|---|---|---|
 | Platinum 2300 W | 996 × 239 × 180 mm | 800 mm | ca. 7,7 kg | ca. 10,0 A |
 | Platinum 3400 W | 1430 × 239 × 180 mm | 1000 mm | ca. 10,0 kg | ca. 14,8 A |
-| Platinum 4500 W | 1549 × 315 × 180 mm | [[VERIFY: 4500 W cable length — Mike Clifford]] | ca. 15,0 kg | ca. 19,6 A |
+| Platinum 4500 W | 1549 × 315 × 180 mm | [[VERIFY: 4500 W cable length — Produktteam]] | ca. 15,0 kg | ca. 19,6 A |
 
-Quellen: Montagebeitrag und Produktseite[^s1][^s4]. Die Stromaufnahme ist aus der Leistung bei 230 V berechnet (A = W ÷ 230); die US-Produktseite nennt Werte bei 240 V und 208 V. Der alte Beitrag nannte die erste Kabellänge für ein Gerät mit „2400 W“; ein Platinum mit 2400 W gibt es nicht, deshalb steht der Wert hier bei 2300 W [[VERIFY — Mike Clifford]].
+Quellen: Montagebeitrag und Produktseite[^s1][^s4]. Die Stromaufnahme ist aus der Leistung bei 230 V berechnet (A = W ÷ 230); die US-Produktseite nennt Werte bei 240 V und 208 V. Der alte Beitrag nannte die erste Kabellänge für ein Gerät mit „2400 W“; ein Platinum mit 2400 W gibt es nicht, deshalb steht der Wert hier bei 2300 W [[VERIFY — Produktteam]].
 
-Abstände: mindestens 500 mm zu einer Wand[^s1]. Der Montagebeitrag setzt das Gerät mindestens ca. 2,39 m über den Fertigfußboden; die Platinum-Produktseite nennt ca. 2,44 m für jede Deckenmontage[^s1][^s4]. Planen Sie mit ca. 2,44 m [[VERIFY: 94 in vs 96 in for the recessed heater — Mike Clifford]].
+Abstände: mindestens 500 mm zu einer Wand[^s1]. Der Montagebeitrag setzt das Gerät mindestens ca. 2,39 m über den Fertigfußboden; die Platinum-Produktseite nennt ca. 2,44 m für jede Deckenmontage[^s1][^s4]. Planen Sie mit ca. 2,44 m [[VERIFY: 94 in vs 96 in for the recessed heater — Produktteam]].
 
 ## Was brauche ich vor Beginn?
 
@@ -160,8 +160,8 @@ Zwei Zuleitungen und ein Steuergerät:
 |---|---|
 | Stromkreis Heizstrahler | Eigener Stromkreis, für Dauerlast bemessen; siehe [Absicherung](item:BLD-IN-KB1) und [Fehlerstromschutz](item:BLD-BY-KB1) |
 | Lüfter des Kits | Eigene Versorgung, unabhängig vom Heizstrahler[^s3] |
-| Steuergerät | Affinity On/Off oder Affinity Dimmer: 1, 2 oder 5 Kanäle; die US-Produktseiten nennen 6 kW je Kanal bei 208–277 V[^s5] [[VERIFY: Kanalleistung und Ausführung der Steuergeräte für 230 V — Mike Clifford]] |
-| Schalter | Manueller Wandschalter; die US-Ausführung ist für 20 A, 120–277 V ausgelegt[^s5] [[VERIFY: Wandschalter für den deutschen Markt — Mike Clifford]] |
+| Steuergerät | Affinity On/Off oder Affinity Dimmer: 1, 2 oder 5 Kanäle; die US-Produktseiten nennen 6 kW je Kanal bei 208–277 V[^s5] [[VERIFY: Kanalleistung und Ausführung der Steuergeräte für 230 V — Produktteam]] |
+| Schalter | Manueller Wandschalter; die US-Ausführung ist für 20 A, 120–277 V ausgelegt[^s5] [[VERIFY: Wandschalter für den deutschen Markt — Produktteam]] |
 
 Die Bromic Smart-Heat App ergänzt Zonen, Zeitpläne und Timer; WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Controls, separat erhältlich[^s6]. Ein Schaltplan für das Kit mit Affinity steht auf der Produktseite des Kits[^s3]. Hilfe erhalten Sie beim technischen Support von Bromic über [bromic.de](https://www.bromic.de/).
 

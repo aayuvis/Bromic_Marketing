@@ -15,8 +15,8 @@ meta_description: "Buitenverwarmers aan het plafond: 2,4–2,7 m hoog, de juiste
 cta: {label: "Download de reeks installatiegidsen", asset: A17}
 hero: w-bromic-sep18th-9-1
 images: [w-bromic-sep18th-14]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -123,7 +123,7 @@ De verwarmer hangt waterpas, met de voorkant naar de vloer. Bij een schuin plafo
 
 | Verwarmer | Vrije ruimte erboven |
 |---|---|
-| Elektrisch (Platinum, Tungsten, Cobalt, Eclipse) | Verschilt per model en vermogen [[VERIFY: per model uit de handleiding; de oorspronkelijke artikelen geven ca. 127 mm, 150–305 mm en 200–330 mm — Mike Clifford]] |
+| Elektrisch (Platinum, Tungsten, Cobalt, Eclipse) | Verschilt per model en vermogen [[VERIFY: per model uit de handleiding; de oorspronkelijke artikelen geven ca. 127 mm, 150–305 mm en 200–330 mm — productteam]] |
 | Gas met warmtedeflector | ca. 360 mm[^s1] |
 | Gas zonder warmtedeflector | ca. 0,9 m[^s1] |
 
@@ -138,7 +138,7 @@ Bevestig aan balken, liggers of klossen, nooit alleen aan de beplating. Het oude
 | Platinum Electric 2300 / 3400 / 4500 W | ca. 7,7 / 10 / 15 kg |
 | Cobalt Electric 4000 / 6000 W | ca. 9 / 10 kg |
 | Eclipse Electric | ca. 13,6 kg |
-| Tungsten Electric | [[VERIFY: per model — Mike Clifford]] |
+| Tungsten Electric | [[VERIFY: per model — productteam]] |
 | Platinum Gas en Tungsten Gas | ca. 15 kg (model voor ca. 15 m²), ca. 20 kg (model voor ca. 20 m²) |
 
 Tel het gewicht van de pendel op bij de belasting.

@@ -14,7 +14,7 @@ meta_description: "Afstand van een infrarood buitenverwarmer tot brandbare mater
 cta: {label: "Plan een ontwerpgesprek", asset: A07}
 hero: l-010-070
 images: []
-owner_review: Mike Clifford
+owner_review: productteam
 status: draft
 gated: false
 related: [ARC-BY-01, ARC-IN-01]
@@ -41,7 +41,7 @@ native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 ---
 Dat hangt af van het model en het vermogen. De vrije afstand tot brandbare materialen wordt bepaald door de installatiehandleiding en de certificering van elke verwarmer; neem de waarden dus over uit de handleiding van het exacte model en de spanning die op de tekeningen staan. Er bestaat geen veilig getal dat overal geldt. De algemene richtlijn van Bromic geeft minimale montagehoogtes van 1,83 m boven de vloer bij wandmontage en 2,44 m bij plafondmontage, en merkt op dat de afstand tot het plafond afhangt van het vermogen[^s1].
 
-[[VERIFY: tabel met vrije afstanden tot brandbare materialen (boven, opzij, voor, onder) per huidig model — Mike Clifford]]
+[[VERIFY: tabel met vrije afstanden tot brandbare materialen (boven, opzij, voor, onder) per huidig model — productteam]]
 
 | Vrije afstand | Waar de waarde vandaan komt |
 |---|---|

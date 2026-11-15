@@ -14,8 +14,8 @@ ai_prompt: "Was ist der Unterschied zwischen einem Infrarot-Heizstrahler und ein
 meta_description: "Infrarot- und Strahlungsheizer sind dasselbe Prinzip: Strahlung ist, wie Wärme reist, Infrarot ist, was sie ist. Draußen zählen Wellenlänge und Strahlungsanteil."
 cta: {label: "Den Report Outdoor Living Trends 2026 herunterladen", asset: A01}
 hero: w-bromic-eclipse-portable-hotel-skansen-07
-owner_review: Brian Kim
-technical_reviewer: Mike Clifford
+owner_review: Digitales Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -24,7 +24,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLOG-15
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: International Astronomical Union, Office of Astronomy for Education
@@ -114,7 +114,7 @@ Strahlungswärme ist die Grundlage jedes Bromic-Heizstrahlers[^s2]. Der Planungs
 - **Gerichtete Wärme.** Der größte Teil der Leistung geht in eine Richtung, zu den Sitzplätzen, statt gleichmäßig in alle Richtungen[^s2].
 - **Für Menschen platziert.** Die Heizfläche wird danach geplant, wo Gäste sitzen, nicht nach der Grundfläche; sie hängt von Modell, Montagehöhe, Umgebung und Einbau ab[^s5].
 
-[[VERIFY: wavelength band (short / medium) of each current Bromic model, for a per-product row — Mike Clifford]]
+[[VERIFY: wavelength band (short / medium) of each current Bromic model, for a per-product row — Produktteam]]
 
 ## Kann ein Infrarot-Heizstrahler elektrisch oder mit Gas betrieben werden?
 
@@ -127,7 +127,7 @@ Ja. Infrarot beschreibt die abgegebene Wärme, nicht den Energieträger. Elektri
 | Eclipse Smart-Heat Electric | Strom | 11 m²[^s5] | Affinity Eclipse-Steuergerät oder Eclipse Dimmer, manueller Wandschalter |
 | Platinum Smart-Heat Gas | Erdgas oder Flüssiggas (Propan) | 15–20 m² je nach Modell[^s6] | Affinity On/Off-Steuergerät, manueller Wandschalter |
 
-Jeder Heizstrahler braucht seine Steuerung. Die Smart-Heat App ergänzt Zonen, Zeitpläne und Timer; WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind[^s5]. Die Werte der Produktseiten warten noch auf Freigabe. [[VERIFY: values read from bromic.com; confirm against 2026 cut sheets — Mike Clifford]]
+Jeder Heizstrahler braucht seine Steuerung. Die Smart-Heat App ergänzt Zonen, Zeitpläne und Timer; WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind[^s5]. Die Werte der Produktseiten warten noch auf Freigabe. [[VERIFY: values read from bromic.com; confirm against 2026 cut sheets — Produktteam]]
 
 ## Häufige Fragen
 
@@ -143,4 +143,4 @@ Bei leichtem bis mäßigem Wind ja, weil sie Menschen statt Luft wärmen[^s2]. S
 ### Kann ich einen Infrarot-Heizstrahler für draußen auf eine Temperatur einstellen?
 Nicht sinnvoll. Die Außenluft lässt sich nicht auf einer Temperatur halten[^s2]. Steuern Sie stattdessen die Leistung: Ein/Aus, Dimmen oder Zeitpläne über die Affinity Smart-Heat Controls.
 
-Einen Wärmeplan für Ihren Bereich erhalten Sie über den kostenlosen Planungsservice von Bromic ([bromic.de](https://www.bromic.de/)). [[VERIFY: ob Design Your Space für Deutschland angeboten wird — Raffaele Marti]] Wie Hausbesitzer ihre Außenräume in diesem Jahr planen, lesen Sie im Trends-Report.
+Einen Wärmeplan für Ihren Bereich erhalten Sie über den kostenlosen Planungsservice von Bromic ([bromic.de](https://www.bromic.de/)). [[VERIFY: ob Design Your Space für Deutschland angeboten wird — Partner Deutschland]] Wie Hausbesitzer ihre Außenräume in diesem Jahr planen, lesen Sie im Trends-Report.

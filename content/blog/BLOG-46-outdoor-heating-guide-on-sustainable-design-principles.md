@@ -18,8 +18,8 @@ meta_description: "Sustainable outdoor heating for architects: radiant heat aime
 cta: {label: "Get the Planning Guide (pro edition)", asset: A02}
 hero: w-mountain-view-retreat-platinum-electric-rece
 images: [w-residential-us-pavillion-du-lac-1]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false

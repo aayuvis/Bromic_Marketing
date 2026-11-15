@@ -14,8 +14,8 @@ ai_prompt: "Kan ik mijn terrasverwarmer gebruiken als het regent?"
 meta_description: "Buitenverwarmers kunnen tegen regen tot het niveau van hun IP-waarde: IPX4 tegen spatwater, IPX5 tegen waterstralen. De waarde per Bromic-verwarmer, en hoe je hem beschermt."
 cta: {label: "Bereken je ruimte", asset: A03}
 hero: w-connecticut-privateresidence-tungstenelectri
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -77,7 +77,7 @@ De IP-code is vastgelegd in de internationale norm IEC 60529 (in Nederland uitge
 | IPX5 | Beschermd tegen waterstralen[^s1] | Meer blootgestelde plekken, aan de kust en op het water |
 | IP54 | Stofbeschermd en beschermd tegen spatwater[^s1] | Bediening die buiten is gemonteerd |
 
-Veiligheidskeuring is iets anders. De elektrische verwarmers van Bromic hebben een Intertek ETL/cETL-keuring, die gaat over elektrische veiligheid voor de Noord-Amerikaanse markt[^s3]. [[VERIFY: of Intertek ook de IP-waarden heeft getest, en het testhuis per model — Mike Clifford]] [[VERIFY: CE-markering en Europese keuring per model — Bromic Benelux distributor]]
+Veiligheidskeuring is iets anders. De elektrische verwarmers van Bromic hebben een Intertek ETL/cETL-keuring, die gaat over elektrische veiligheid voor de Noord-Amerikaanse markt[^s3]. [[VERIFY: of Intertek ook de IP-waarden heeft getest, en het testhuis per model — productteam]] [[VERIFY: CE-markering en Europese keuring per model — Bromic Benelux distributor]]
 
 ## Welke waarde heeft elke Bromic-verwarmer?
 
@@ -85,13 +85,13 @@ Veiligheidskeuring is iets anders. De elektrische verwarmers van Bromic hebben e
 |---|---|---|---|
 | Tungsten Smart-Heat Electric | IPX4[^s3] | Intertek ETL/cETL | Affinity On/Off- of Dimmer-regelaar, handmatige wandschakelaar |
 | Platinum Smart-Heat Electric Marine | IPX5[^s3] | Maritiem roestvast staal 316; goedgekeurd door Lloyd's Register voor maritiem gebruik | Affinity On/Off- of Dimmer-regelaar, handmatige wandschakelaar |
-| Platinum Smart-Heat Electric (Classic) | [[VERIFY: IP-waarde — Mike Clifford]] | Chassis van roestvast staal 304 | Affinity On/Off- of Dimmer-regelaar, handmatige wandschakelaar |
+| Platinum Smart-Heat Electric (Classic) | [[VERIFY: IP-waarde — productteam]] | Chassis van roestvast staal 304 | Affinity On/Off- of Dimmer-regelaar, handmatige wandschakelaar |
 | Cobalt Electric | IPX4[^s3] | | Affinity On/Off- of Dimmer-regelaar, handmatige wandschakelaar |
-| Eclipse Smart-Heat Electric en Freestanding | [[VERIFY: IP-waarde — Mike Clifford]] | | Affinity Eclipse-regelaar of Eclipse Dimmer, handmatige wandschakelaar |
+| Eclipse Smart-Heat Electric en Freestanding | [[VERIFY: IP-waarde — productteam]] | | Affinity Eclipse-regelaar of Eclipse Dimmer, handmatige wandschakelaar |
 | Platinum Smart-Heat Gas | Niet als getal gepubliceerd[^s3] | Deflector aanbevolen op blootgestelde plekken | Affinity On/Off-regelaar, handmatige wandschakelaar |
 | Affinity On/Off-regelaar | IP54[^s3] | | |
 
-Het oorspronkelijke artikel gaf elke Bromic-verwarmer "tot IPX5". Volgens de huidige gepubliceerde cijfers geldt dat alleen voor het Marine-model, daarom staat hier de waarde per model. Voor wifi- en app-functies zijn compatibele Affinity Smart-Heat Controls nodig, die apart worden verkocht[^s4]. [[VERIFY: waarden van de productpagina's op bromic.com; controleren tegen de specificatiebladen van 2026 — Mike Clifford]]
+Het oorspronkelijke artikel gaf elke Bromic-verwarmer "tot IPX5". Volgens de huidige gepubliceerde cijfers geldt dat alleen voor het Marine-model, daarom staat hier de waarde per model. Voor wifi- en app-functies zijn compatibele Affinity Smart-Heat Controls nodig, die apart worden verkocht[^s4]. [[VERIFY: waarden van de productpagina's op bromic.com; controleren tegen de specificatiebladen van 2026 — productteam]]
 
 ## Hoe bescherm je een verwarmer tegen regen?
 

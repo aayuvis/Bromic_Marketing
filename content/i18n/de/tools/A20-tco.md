@@ -13,7 +13,7 @@ ai_prompt: "Ist eine elektrische oder eine Flüssiggas-Terrassenheizung für ein
 meta_description: "Vergleichen Sie die Fünf-Jahres-Kosten von Elektro-, Erdgas- und Flüssiggas-Heizstrahlern für die Gastronomie: Anschaffung, Installation, Energie und Flaschenwechsel."
 cta: {label: "Ihre ROI-Einschätzung anfordern", asset: A21}
 hero: l-013-111
-owner_review: Blake Petty + Brian Kim
+owner_review: Vertrieb Gastronomie + Digitales Marketing
 status: draft
 gated: true
 related: [COM-CO-01, COM-CO-KB1, COM-IN-01]
@@ -21,7 +21,7 @@ updated: 2026-10-29
 lang: de
 translation_of: A20
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: US Energy Information Administration
@@ -55,7 +55,7 @@ sources:
 
 **Was der Rechner leistet.** Gastronomen und Hoteliers vergleichen fünf Jahre Terrassenheizung nach Energieträger, ausgehend von vier kurzen Angaben: beheizte Sitzplätze, wie stark die Terrasse überdacht ist, wie kalt die Abende sind und der US-Bundesstaat (er bestimmt die Energiepreise der EIA), dazu die Abende pro Jahr und die Stunden pro Abend. Die Heizstrahler werden nach templates/calculation-model.md bemessen: ca. 1,9 m² je Sitzplatz; elektrische Deckenstrahler nach Fläche mit Faktoren für Überdachung und Klima; freistehende Gasstrahler mit höchstens vier Sitzplätzen je Gerät. Die Gesamtsumme jeder Variante setzt sich aus Anschaffung, Installation, Wartung, Energie und bei Flüssiggas der Personalzeit für den Flaschenwechsel zusammen. Die Ergebniskarte zeigt die drei Summen, die Energiekosten pro Tag und die laufende Summe Jahr für Jahr.
 
-**Eingaben.** Beheizte Sitzplätze · Überdachung (offen, teilweise überdacht, überdacht) · Abende (mild, kühl, kalt) · US-Bundesstaat · Abende pro Jahr · Stunden pro Abend. Unter „Eigene Werte verwenden“: Energiepreise, Anzahl der Heizstrahler, Anschaffung und Installation je Gerät. Für einen Betrieb in Deutschland tragen Sie hier Ihre eigenen Preise je kWh und je Liter oder Kilogramm Flüssiggas ein. [[VERIFY: deutsche Eingabemaske ohne US-Bundesstaat und mit Preisen je kWh, Liter bzw. kg — Blake Petty + Brian Kim]]
+**Eingaben.** Beheizte Sitzplätze · Überdachung (offen, teilweise überdacht, überdacht) · Abende (mild, kühl, kalt) · US-Bundesstaat · Abende pro Jahr · Stunden pro Abend. Unter „Eigene Werte verwenden“: Energiepreise, Anzahl der Heizstrahler, Anschaffung und Installation je Gerät. Für einen Betrieb in Deutschland tragen Sie hier Ihre eigenen Preise je kWh und je Liter oder Kilogramm Flüssiggas ein. [[VERIFY: deutsche Eingabemaske ohne US-Bundesstaat und mit Preisen je kWh, Liter bzw. kg — Vertrieb Gastronomie + Digitales Marketing]]
 
 **Ausgaben.** Auf dem Bildschirm: die Fünf-Jahres-Summe je Energieträger und die günstigste Variante. Hinter dem Formular: die Tabelle Jahr für Jahr, die Energierechnung sowie die Heizstrahler und die Steuerung, die für jede Variante angesetzt sind.
 

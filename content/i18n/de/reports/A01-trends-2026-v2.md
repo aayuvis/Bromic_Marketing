@@ -14,7 +14,7 @@ meta_description: "Zehn Trends 2026 beim Wohnen im Freien, jeder mit einer beleg
 cta: {label: "Fläche berechnen", asset: A03}
 hero: t-001-000
 images: [t-003-005, l-013-108, t-005-013, t-006-016, t-007-019, t-008-022, t-009-025, t-010-028, t-011-031, t-012-034, t-013-037]
-owner_review: Megan Spies
+owner_review: Marketing
 status: draft
 gated: true
 related: [A01-stats, A01-corrections, RES-AW-01, ARC-AW-01]
@@ -22,7 +22,7 @@ updated: 2026-10-29
 lang: de
 translation_of: A01-v2
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: American Institute of Architects
@@ -108,7 +108,7 @@ Die Terrasse ist heute ein Raum für das ganze Jahr. Die Kälte nach Einbruch de
 ## 02 Der Außenbereich wird von morgens bis abends genutzt
 
 **67 %** sagen, dass eine Heizung am meisten dazu beitragen würde, ihre Zeit im Freien zu verlängern.[^s2]\
-*Atomik Research für Bromic Heating, 2025, Hausbesitzer in den USA* [[VERIFY: Erhebungszeitraum, Stichprobe n und Wortlaut der Frage gegen die Atomik-Topline prüfen — Megan Spies]]
+*Atomik Research für Bromic Heating, 2025, Hausbesitzer in den USA* [[VERIFY: Erhebungszeitraum, Stichprobe n und Wortlaut der Frage gegen die Atomik-Topline prüfen — Marketing]]
 
 - Kaffee im Morgengrauen, Abendessen in der Dämmerung.
 - Die Kälte verkürzt beides.
@@ -212,7 +212,7 @@ Die Terrasse ist heute ein Raum für das ganze Jahr. Die Kälte nach Einbruch de
 ## 10 Die Heizung wird vom Zubehör zum Einbau
 
 **23 %** der Hausbesitzer in den USA setzen die Beheizung im Freien bei der Planung ganz oben auf die Liste.[^s3]\
-*Atomik Research für Bromic Heating, 2025* [[VERIFY: Erhebungszeitraum, Stichprobe n und Wortlaut der Frage gegen die Atomik-Topline prüfen — Megan Spies]]
+*Atomik Research für Bromic Heating, 2025* [[VERIFY: Erhebungszeitraum, Stichprobe n und Wortlaut der Frage gegen die Atomik-Topline prüfen — Marketing]]
 
 - Grills wurden zum Einbau. Die Heizung ist die nächste.
 - Sie wird mit der Beleuchtung spezifiziert.
@@ -242,19 +242,19 @@ Jeder Bromic Heizstrahler braucht ein Affinity On/Off-, Dimmer- oder Eclipse-Ste
 | 9,9 | NAR und NALP, Remodeling Impact Report, 2023 (USA)[^s7] |
 | 5, ca. 11 m² | Bromic Lookbook 2026[^s8] |
 
-Die AIA-Werte sind Nettowerte (steigend minus fallend). Die Atomik-Umfrage unter Hausbesitzern hat Bromic in Auftrag gegeben. [[VERIFY: Stichprobengröße, Erhebungszeitraum und Fehlermarge aus der Atomik-Topline — Megan Spies]]
+Die AIA-Werte sind Nettowerte (steigend minus fallend). Die Atomik-Umfrage unter Hausbesitzern hat Bromic in Auftrag gegeben. [[VERIFY: Stichprobengröße, Erhebungszeitraum und Fehlermarge aus der Atomik-Topline — Marketing]]
 
 ---
 
 ## Hinweis der Redaktion
 
 - **Umfang.** Die Angaben beziehen sich auf die englische Fassung. Ursprünglicher Reporttext: 1.631 Wörter (`sources/Bromic_Outdoor_Living_Trends_2026.txt`). Englische Fassung, vom Titel bis zur Quellenseite: 796 Wörter, eine Kürzung um 51 %. Reporttext allein, vom Titel bis „Plan from the start“: 727 Wörter, eine Kürzung um 55 %. Beides gleich gezählt: Gedankenstriche trennen Wörter; dieser Hinweis, die Layouthinweise, `[[VERIFY]]`-Platzhalter, Fußnotenmarker und Markdown-Syntax sind nicht mitgezählt.
-- **Gestrichene Zahlen.** 94 % „könnten mehr genutzt werden“ (die eigenen Pressemitteilungen von Bromic nennen 94 % und 92 %; zurückgestellt, bis Megan Spies sich für einen Wert entscheidet). 39 % Infrarot-Heizstrahler (in keiner AIA-Veröffentlichung gefunden). 522 Mrd. $ (in keiner Harvard-Veröffentlichung; ersetzt durch 525 Mrd. $). Die Jahreszahlen zu Geräten aus den 1970er-, 2000er- und 2010er-Jahren (ohne Quelle). Die Terrassengröße von rund 30 m² und 95 % Kostenrückfluss (geprüft, aber eine Zahl je Trend). 43 % „denken nicht an die Beheizung“ (nicht geprüft, nicht nötig).
-- **Geänderte Zahlen.** 61,8 % (2024) aktualisiert auf 60,5 % (Baubeginne 2025), wie in der Korrekturdatei empfohlen; zurückändern, falls Megan Spies anders entscheidet. 55 % und 40 % heißen jetzt „Nettoanteil“ und nennen das Jahr. 33 % hat jetzt die richtige Studie, Grundgesamtheit und das richtige Jahr. Aus „Zufriedenheitswert“ ist der Joy Score der NAR geworden.
+- **Gestrichene Zahlen.** 94 % „könnten mehr genutzt werden“ (die eigenen Pressemitteilungen von Bromic nennen 94 % und 92 %; zurückgestellt, bis Marketing sich für einen Wert entscheidet). 39 % Infrarot-Heizstrahler (in keiner AIA-Veröffentlichung gefunden). 522 Mrd. $ (in keiner Harvard-Veröffentlichung; ersetzt durch 525 Mrd. $). Die Jahreszahlen zu Geräten aus den 1970er-, 2000er- und 2010er-Jahren (ohne Quelle). Die Terrassengröße von rund 30 m² und 95 % Kostenrückfluss (geprüft, aber eine Zahl je Trend). 43 % „denken nicht an die Beheizung“ (nicht geprüft, nicht nötig).
+- **Geänderte Zahlen.** 61,8 % (2024) aktualisiert auf 60,5 % (Baubeginne 2025), wie in der Korrekturdatei empfohlen; zurückändern, falls Marketing anders entscheidet. 55 % und 40 % heißen jetzt „Nettoanteil“ und nennen das Jahr. 33 % hat jetzt die richtige Studie, Grundgesamtheit und das richtige Jahr. Aus „Zufriedenheitswert“ ist der Joy Score der NAR geworden.
 - **Verschobene Zahlen, damit jeder Trend eine trägt.** 67 % von Trend 01 zu 02, 23 % von 02 zu 10, 9,9 von 03 zu 08. Die Trends 07 und 09 hatten im Original keine; jeder trägt jetzt eine Produktangabe von Bromic aus dem Lookbook, keine Marktzahl.
 - **Umgesetzte Korrekturen.** Alle 38 Punkte aus [der Korrekturdatei](item:A01-corrections): „Studies“, „radiant“, „integration“, „Multi-Use“, „beginning“; der fehlerhafte Satz in Trend 04 neu geschrieben; der Einblick zur smarten Steuerung von S. 10 zu Trend 07 verschoben und Trend 08 einen Einblick zur Gestaltung gegeben; die 23 % umformuliert zu „setzen … bei der Planung ganz oben auf die Liste“; die Überschrift mit „=“; überzählige Leerzeichen; ein Format für Quellenzeilen; eine Quellenseite ergänzt.
 - **Regeln.** Jede Heizstrahler-Empfehlung nennt ihre Steuerung; WLAN- und App-Funktionen sind als abhängig von kompatiblen, separat erhältlichen Affinity-Steuergeräten gekennzeichnet. Keine alten Serienbezeichnungen, kein Text zu Tungsten Coastal oder Select (beide demnächst erhältlich).
-- **Deutsche Fassung.** Alle Marktzahlen stammen aus den USA und sind so gekennzeichnet; es wurden keine deutschen Zahlen ergänzt. Die Heizfläche ist in m² umgerechnet. Den Slogan „Extend the moment“ haben wir auf Englisch gelassen. [[VERIFY: ob für Deutschland eigene Marktzahlen gesucht werden sollen und ob Slogans übersetzt werden — Raffaele Marti]]
+- **Deutsche Fassung.** Alle Marktzahlen stammen aus den USA und sind so gekennzeichnet; es wurden keine deutschen Zahlen ergänzt. Die Heizfläche ist in m² umgerechnet. Den Slogan „Extend the moment“ haben wir auf Englisch gelassen. [[VERIFY: ob für Deutschland eigene Marktzahlen gesucht werden sollen und ob Slogans übersetzt werden — Partner Deutschland]]
 
 ## Layouthinweise für 454 Creative
 

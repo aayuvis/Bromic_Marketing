@@ -15,7 +15,7 @@ meta_description: "Radiant heaters, a partial cover and wind control keep patio 
 cta: {label: "Get your ROI assessment", asset: A21}
 hero: l-013-111
 images: [p-003-006]
-owner_review: Blake Petty
+owner_review: Hospitality sales
 status: draft
 gated: false
 related: [COM-IN-01, COM-CO-01, COM-PP-01, COM-IN-KB1]
@@ -55,7 +55,7 @@ Restaurants keep outdoor dining open in winter by heating the guest, not the air
 
 ## Why do patio seats sit empty for half the year?
 
-Because guests get cold before the kitchen closes. A patio is often a large share of capacity and of income. In a 2021 National Restaurant Association survey, 65% of operators offered outdoor dining, and 35% of those said it made up more than 40% of average daily sales — 41% among full-service restaurants.[^s1] Demand has held: the Association's 2023 industry report found 69% of adults like the option to eat outside.[^s2] [[VERIFY: confirm the 69% figure in the NRA 2023 State of the Restaurant Industry report itself, or cut it — Megan Spies]]
+Because guests get cold before the kitchen closes. A patio is often a large share of capacity and of income. In a 2021 National Restaurant Association survey, 65% of operators offered outdoor dining, and 35% of those said it made up more than 40% of average daily sales – 41% among full-service restaurants.[^s1] Demand has held: the Association's 2023 industry report found 69% of adults like the option to eat outside.[^s2] [[VERIFY: confirm the 69% figure in the NRA 2023 State of the Restaurant Industry report itself, or cut it — Marketing]]
 
 When the evening turns, those seats stop earning. The loss is quiet: no complaint, just a host steering guests indoors or a patio closed for the season.
 
@@ -75,7 +75,7 @@ For service, warm-up time matters. A heater that is warm the moment a table is s
 
 ## Which patios can be heated well?
 
-Most of them, if the design is right. Bromic treats a space as outdoor when at least 30% of its perimeter is permanently open. A partial cover — an awning, pergola or soffit — traps a "heat cloud" that adds a convective boost on top of the radiant heat.[^s3]
+Most of them, if the design is right. Bromic treats a space as outdoor when at least 30% of its perimeter is permanently open. A partial cover – an awning, pergola or soffit – traps a "heat cloud" that adds a convective boost on top of the radiant heat.[^s3]
 
 - **Covered terraces and awnings:** mount electric heaters on the wall or soffit, out of the way of service.
 - **Open courtyards and sidewalks:** freestanding heaters move with the layout; allow one for every four seats.
@@ -91,11 +91,11 @@ Choose by structure, fuel on site and how often the layout changes. Every option
 |---|---|---|---|
 | Covered terrace, wall or soffit | Platinum Smart-Heat Electric (2300, 3400 or 4500W) | 65–143 ft² | Affinity Smart-Heat On/Off or Dimmer controller, wall switch, app |
 | Pergola or awning, heat plus light | Eclipse Smart-Heat Electric (pole mount) | about 121 ft² | Eclipse controller, wall switch, app |
-| Open layout that changes nightly | Eclipse Smart-Heat Freestanding Electric | about 121 ft², and no more than 4 seats a heater | Eclipse controller [[VERIFY: controller pairing for the freestanding Eclipse — Mike Clifford]] |
-| Large open area, gas on site | Tungsten Smart-Heat Freestanding Gas (38,000 BTU, natural gas or propane) | about 215 ft², and no more than 4 seats a heater | [[VERIFY: Affinity control options for Tungsten freestanding gas — Mike Clifford]] |
+| Open layout that changes nightly | Eclipse Smart-Heat Freestanding Electric | about 121 ft², and no more than 4 seats a heater | Eclipse controller [[VERIFY: controller pairing for the freestanding Eclipse — Product team]] |
+| Large open area, gas on site | Tungsten Smart-Heat Freestanding Gas (38,000 BTU, natural gas or propane) | about 215 ft², and no more than 4 seats a heater | [[VERIFY: Affinity control options for Tungsten freestanding gas — Product team]] |
 | Architectural recessed install | Tungsten Smart-Heat Electric, Coastal or Select (coming soon) | 64–144 ft² | Affinity Smart-Heat On/Off or Dimmer controller, wall switch, app |
 
-Coverage varies with model, size and mounting height; cold, exposed sites need more units for the same area. A freestanding heater serves no more than four seats, whatever its coverage, because seated guests block its radiant heat: 40 seats need at least ten. Wi-Fi and app features — zones, schedules and timers in the Bromic Smart-Heat app — require compatible Affinity Smart-Heat Controls, sold separately.[^s4]
+Coverage varies with model, size and mounting height; cold, exposed sites need more units for the same area. A freestanding heater serves no more than four seats, whatever its coverage, because seated guests block its radiant heat: 40 seats need at least ten. Wi-Fi and app features – zones, schedules and timers in the Bromic Smart-Heat app – require compatible Affinity Smart-Heat Controls, sold separately.[^s4]
 
 ## How do operators keep the running cost in check?
 
@@ -103,7 +103,7 @@ By heating only the seats in use. Outdoor heat cannot be thermostatically contro
 
 1. Split the patio into zones that match sections and servers.
 2. Schedule zones to the reservation book, not the clock.
-3. Use output steps — Eclipse runs at 33, 66 or 100% — to match the night.[^s4]
+3. Use output steps – Eclipse runs at 33, 66 or 100% – to match the night.[^s4]
 4. Switch off a zone when the last table leaves.
 
 Fuel choice matters too. Propane is cheap to buy into and costly to run and handle; natural gas and electric trade differently. See [the five-year cost comparison](item:COM-CO-01).
@@ -112,7 +112,7 @@ Fuel choice matters too. Propane is cheap to buy into and costly to run and hand
 
 Put a number on the empty nights. The method is simple: heated seats × turns × average check × extra nights × the share of those seats you actually fill. Set that against the installed cost and running cost, and you have a payback in months. [The ROI article](item:COM-IN-01) walks through it with every input labelled.
 
-Before you buy, check the rules. Gas heaters near buildings, exits and awnings, propane storage and sidewalk permits are all regulated locally — see [the permit and fire-code checklist](item:COM-PP-01).
+Before you buy, check the rules. Gas heaters near buildings, exits and awnings, propane storage and sidewalk permits are all regulated locally – see [the permit and fire-code checklist](item:COM-PP-01).
 
 ## Key takeaways
 
@@ -144,7 +144,7 @@ For overhead heaters, divide the seating area (about 20 ft² a seat) by each hea
 
 Often. Hard-wired electric heaters usually need an electrical permit, gas lines a plumbing or fuel-gas permit, and portable gas heaters must meet the fire code. Confirm with your local building and fire authority.
 
-Find out what your empty seats are worth — get your ROI assessment.
+Find out what your empty seats are worth – get your ROI assessment.
 
 [^s1]: National Restaurant Association, operator survey, Sept 2021.
 [^s2]: National Restaurant Association, 2023 State of the Restaurant Industry, as reported by Restaurant Development + Design.

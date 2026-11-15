@@ -14,8 +14,8 @@ ai_prompt: "Was bedeutet eine Schutzart wie IPX4 oder IPX5 bei einem Heizstrahle
 meta_description: "IP-Codes nach IEC 60529 erklärt: Die erste Ziffer steht für Fremdkörper, die zweite für Wasser, X heißt nicht geprüft. Was IPX4 und IPX5 für Bromic Heizstrahler bedeuten."
 cta: {label: "Den Planungsleitfaden herunterladen", asset: A02}
 hero: w-bromic-platinum-electric
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -88,7 +88,7 @@ sources:
 lang: de
 translation_of: BLOG-19
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 Eine IP-Schutzart ist ein zweistelliger Code aus der internationalen Norm IEC 60529 (in Deutschland als DIN EN 60529 übernommen), der angibt, wie gut ein Gehäuse Fremdkörper und Wasser abhält.[^s1] Die erste Ziffer steht für Fremdkörper und Staub (0–6), die zweite für Wasser (0–9). Ein X bedeutet, dass diese Eigenschaft nicht geprüft wurde. IPX4 heißt also „geschützt gegen Spritzwasser aus allen Richtungen, Fremdkörperschutz nicht bewertet“, und IPX5 schützt zusätzlich gegen Strahlwasser mit niedrigem Druck.[^s2]
 
@@ -102,7 +102,7 @@ Der Code besteht immer aus „IP“ und zwei Zeichen, die getrennt gelesen werde
 |---|---|---|---|
 | Erste | Feste Fremdkörper und Staub | 0–6 | 5 = staubgeschützt; 6 = staubdicht |
 | Zweite | Wasser | 0–9 | 4 = Spritzwasser aus allen Richtungen; 5 = Strahlwasser mit niedrigem Druck (12,5 L/min); 6 = starkes Strahlwasser (100 L/min); 7 = Untertauchen bis 1 m; 8 = über IPX7 hinaus, unter mit dem Hersteller vereinbarten Bedingungen |
-| X an einer der Stellen | Für diese Eigenschaft nicht geprüft | — | IPX4 sagt nichts über Staub aus; es bedeutet nicht „null“ |
+| X an einer der Stellen | Für diese Eigenschaft nicht geprüft | – | IPX4 sagt nichts über Staub aus; es bedeutet nicht „null“ |
 
 Quelle: IEC 60529, zusammengefasst von TÜV Rheinland, einer Prüf- und Zertifizierungsstelle.[^s1][^s2]
 
@@ -122,10 +122,10 @@ Das sind die Schutzarten, die Bromic derzeit Modell für Modell veröffentlicht.
 |---|---|---|
 | Tungsten Smart-Heat Electric (2–6 kW) | IPX4[^s3] | Spritzwassergeschützt |
 | Cobalt Smart-Heat Electric | IPX4[^s5] | Spritzwassergeschützt |
-| Platinum Smart-Heat Electric Marine | IPX5[^s4] | Strahlwasser mit niedrigem Druck; Gehäuse aus Edelstahl 316. Eine frühere Fassung dieses Beitrags nannte IP55 [[VERIFY: Schutzart Marine – IPX5 (Produktseite) oder IP55 (alter Blogbeitrag); ist die erste Ziffer geprüft? — Mike Clifford]] |
-| Platinum Smart-Heat Electric | Kein Code angegeben[^s6] | Die Seite sagt „IP-zertifiziert für den Außeneinsatz“ [[VERIFY: IP-Code Platinum Electric — Mike Clifford]] |
-| Eclipse Smart-Heat Electric und Freestanding | Nicht angegeben[^s6] | Bromic empfiehlt eine Montage unter einer Überdachung [[VERIFY: IP-Code Eclipse — Mike Clifford]] |
-| Platinum Gas, Tungsten Gas, Tungsten Smart-Heat Freestanding | Kein Code angegeben | [[VERIFY: IP-Schutzart, falls vorhanden, für jedes Gasmodell — Mike Clifford]] |
+| Platinum Smart-Heat Electric Marine | IPX5[^s4] | Strahlwasser mit niedrigem Druck; Gehäuse aus Edelstahl 316. Eine frühere Fassung dieses Beitrags nannte IP55 [[VERIFY: Schutzart Marine – IPX5 (Produktseite) oder IP55 (alter Blogbeitrag); ist die erste Ziffer geprüft? — Produktteam]] |
+| Platinum Smart-Heat Electric | Kein Code angegeben[^s6] | Die Seite sagt „IP-zertifiziert für den Außeneinsatz“ [[VERIFY: IP-Code Platinum Electric — Produktteam]] |
+| Eclipse Smart-Heat Electric und Freestanding | Nicht angegeben[^s6] | Bromic empfiehlt eine Montage unter einer Überdachung [[VERIFY: IP-Code Eclipse — Produktteam]] |
+| Platinum Gas, Tungsten Gas, Tungsten Smart-Heat Freestanding | Kein Code angegeben | [[VERIFY: IP-Schutzart, falls vorhanden, für jedes Gasmodell — Produktteam]] |
 | Affinity Smart-Heat On/Off-Steuergerät | IP54[^s7] | Staub- und spritzwassergeschützt; wo die anderen Steuergeräte montiert werden dürfen, steht in der Anleitung |
 | Tungsten Smart-Heat Electric, Coastal-Kollektion (demnächst erhältlich) | Noch nicht veröffentlicht[^s8] | Seewasserbeständiger Edelstahl 316 |
 
@@ -145,7 +145,7 @@ Ein elektrischer Heizstrahler hat spannungsführende Teile hinter seiner Front. 
 
 Jeder Heizstrahler läuft über ein Steuergerät: ein Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät, das Eclipse-Steuergerät für Eclipse oder einen manuellen Wandschalter.[^s7] WLAN- und Funktionen der Bromic Smart-Heat App setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind.[^s8] Planen Sie den Ort des Steuergeräts so sorgfältig wie den des Heizstrahlers: Das On/Off-Steuergerät hat IP54,[^s7] montieren Sie es also dort, wo die Anleitung es zulässt, nicht dort, wo es durchnässt wird.
 
-Schutzarten sind ein Ausgangspunkt, keine Installationsanweisung. Folgen Sie der Installationsanleitung jedes Modells, und stimmen Sie die Installation mit Ihrem örtlichen Bauamt und einem Elektrofachbetrieb ab; maßgeblich ist DIN VDE 0100. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Raffaele Marti]]
+Schutzarten sind ein Ausgangspunkt, keine Installationsanweisung. Folgen Sie der Installationsanleitung jedes Modells, und stimmen Sie die Installation mit Ihrem örtlichen Bauamt und einem Elektrofachbetrieb ab; maßgeblich ist DIN VDE 0100. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Partner Deutschland]]
 
 ## Häufige Fragen
 
@@ -163,6 +163,6 @@ Nein. IP misst nur Fremdkörper und Wasser. Am Meer zählt das Material: Platinu
 
 ### Wirkt sich die Schutzart auf die Garantie aus?
 
-Die Garantie hängt von der Produktlinie ab, nicht vom IP-Code, und gilt für den Erstbesitzer.[^s9] Lesen Sie die Bedingungen vor einer exponierten Installation. [[VERIFY: ob eine Installation außerhalb der Bedingungen der Anleitung den Garantieschutz aufhebt — Mike Clifford]]
+Die Garantie hängt von der Produktlinie ab, nicht vom IP-Code, und gilt für den Erstbesitzer.[^s9] Lesen Sie die Bedingungen vor einer exponierten Installation. [[VERIFY: ob eine Installation außerhalb der Bedingungen der Anleitung den Garantieschutz aufhebt — Produktteam]]
 
 Unser Planungsleitfaden fasst Schutzarten, Abstände und Steuerung für jedes Modell an einer Stelle zusammen.

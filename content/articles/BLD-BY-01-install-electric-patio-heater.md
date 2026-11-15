@@ -15,7 +15,7 @@ meta_description: "Install an electric patio heater right first time: check the 
 cta: {label: "Get the install guide series", asset: A17}
 hero: g-electrician
 images: [t-006-016]
-owner_review: Arvin Avaness
+owner_review: Trade sales
 status: draft
 gated: false
 related: [BLD-IN-01, BLD-PP-01, BLD-BY-KB1]
@@ -61,8 +61,8 @@ Check the rough-in against the heater in the box, not the one on the drawing.
 | Certification mark | Intertek, UL or CSA on the unit[^s2] | Do not install |
 | Box and blocking position | Bracket position in the manual | Move the bracket, not the rule |
 | Mounting height | Manual; at least 72 in. wall, 96 in. ceiling[^s2] | Use a suspension pole on high ceilings[^s2] |
-| Clearances | Manual's clearance table [[VERIFY: per model — Mike Clifford]] | Relocate before fixing |
-| Recess opening | Recess kit dimensions [[VERIFY: per model — Mike Clifford]] | Re-frame before the heater arrives |
+| Clearances | Manual's clearance table [[VERIFY: per model — Product team]] | Relocate before fixing |
+| Recess opening | Recess kit dimensions [[VERIFY: per model — Product team]] | Re-frame before the heater arrives |
 
 ## How is the heater mounted?
 
@@ -81,7 +81,7 @@ The order is the same for wall, ceiling and recessed mounts; the brackets differ
 To the installation manual's wiring diagram, by a licensed electrician. On site:
 
 - Bring the dedicated circuit into the heater's connection point using weather-rated fittings.
-- Route the circuit through the Affinity controller as the diagram shows [[VERIFY: Affinity controller wiring topology and terminal layout — Mike Clifford]].
+- Route the circuit through the Affinity controller as the diagram shows [[VERIFY: Affinity controller wiring topology and terminal layout — Product team]].
 - Fit the manual wall switch where the plan puts it.
 - Provide GFCI protection where the adopted code or the inspector requires it. The 2023 NEC requires it for dwelling outdoor outlets of 150 V or less to ground and 50 A or less[^s3]; whether a hard-wired heater is an "outlet" is a local reading. See [the GFCI answer](item:BLD-BY-KB1).
 
@@ -96,7 +96,7 @@ Commissioning proves the system works the way it was sold.
 3. **Pair the app** if the buyer bought it. The Bromic Smart-Heat app runs zones, schedules and timers, and needs compatible Affinity Smart-Heat Controls, sold separately[^s1]. Name each zone the way the family talks: "Dining", "Lounge".
 4. **Connect integrations** if sold: Amazon Alexa, Google Assistant, Control4, Crestron or Lutron. Compatibility varies and may need extra integration hardware or configuration[^s1]. Coordinate with the AV contractor.
 5. **Test GFCI devices** with their test button, where fitted.
-6. **Record** model, serial, circuit, breaker, controller and app account details on the job sheet [[VERIFY: warranty registration process — Mike Clifford]].
+6. **Record** model, serial, circuit, breaker, controller and app account details on the job sheet [[VERIFY: warranty registration process — Product team]].
 
 ## What does a good handover cover?
 
@@ -105,7 +105,7 @@ Five minutes with the homeowner saves the "how do I turn it on" call.
 - Show the wall switch, the controller and, if fitted, the app.
 - Explain that outdoor heat is controlled by hand or schedule, not a thermostat[^s2].
 - Point out the clearance zone: no hanging plants or decorations near the heater.
-- Leave the manual, the job sheet and the care instructions [[VERIFY: cleaning and care guidance per finish — Mike Clifford]].
+- Leave the manual, the job sheet and the care instructions [[VERIFY: cleaning and care guidance per finish — Product team]].
 
 ## Planning checklist
 

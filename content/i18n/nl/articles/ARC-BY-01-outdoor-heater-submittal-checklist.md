@@ -18,7 +18,7 @@ meta_description: "Checklist voor architecten bij buitenverwarmers: productgegev
 cta: {label: "Boek een ontwerpadvies", asset: A07}
 hero: l-010-076
 images: [l-007-035]
-owner_review: Shaughn Ritchie
+owner_review: specificatie en compliance
 status: draft
 gated: false
 related: [ARC-IN-01, BLD-IN-01, ARC-IN-KB1, ARC-BY-KB1]
@@ -71,7 +71,7 @@ Een volledig pakket indieningsstukken voor buitenverwarmers bevat productgegeven
 | Keurmerken | Intertek-, UL- of CSA-markering op elk toestel (Amerikaanse uitvoering)[^s1] | Bevoegd gezag |
 | Garantie en beheer en onderhoud | Voorwaarden, reiniging, instellen van de app | Opdrachtgever |
 
-[[VERIFY: elektrische gegevens per model (stroom bij 230 V voor de Europese uitvoering), maten van de inbouwsets en afstandentabellen om bij de indieningsstukken te voegen — Mike Clifford]] [[VERIFY: CE-markering en Europese keuringen per model — Mike Clifford]]
+[[VERIFY: elektrische gegevens per model (stroom bij 230 V voor de Europese uitvoering), maten van de inbouwsets en afstandentabellen om bij de indieningsstukken te voegen — productteam]] [[VERIFY: CE-markering en Europese keuringen per model — productteam]]
 
 ## Hoe stemt u de groepen voor de verwarmers af?
 
@@ -79,7 +79,7 @@ In de VS geldt elke vast aangesloten elektrische verwarmer als continue belastin
 
 Punten die vragen van de aannemer opleveren als ze open blijven:
 
-- **Spanning.** Voor zakelijke projecten in de VS noemt Bromic voedingsopties van 208 V, 240 V en 277 V[^s1]; in Nederland is de netspanning 230 V. Bevestig de aansluiting van het gebouw en de spanning van het model samen; een verwarmer die voor een hogere spanning is gebouwd, levert op een lagere spanning minder vermogen. [[VERIFY: vermogen en verwarmd oppervlak per model bij 230 V — Mike Clifford]]
+- **Spanning.** Voor zakelijke projecten in de VS noemt Bromic voedingsopties van 208 V, 240 V en 277 V[^s1]; in Nederland is de netspanning 230 V. Bevestig de aansluiting van het gebouw en de spanning van het model samen; een verwarmer die voor een hogere spanning is gebouwd, levert op een lagere spanning minder vermogen. [[VERIFY: vermogen en verwarmd oppervlak per model bij 230 V — productteam]]
 - **Eigen beveiliging.** Toon één groep per verwarmer, of een groepering die de handleiding toestaat, met de waarde van de beveiliging in het overzicht.
 - **Werkschakelaar.** Plaats de scheidingsvoorziening waar de norm en de handleiding dat voorschrijven, zichtbaar op de tekeningen. [[VERIFY: eisen aan de scheidingsvoorziening voor vaste ruimteverwarming onder NEN 1010 — elektrotechnisch adviseur]]
 - **Leidingen en dozen.** Leg de leidingen in het overstek of de balk voordat het plafond dichtgaat. Gebruik leidingsystemen en dozen die geschikt zijn voor vochtige of natte ruimten, afhankelijk van de blootstelling.

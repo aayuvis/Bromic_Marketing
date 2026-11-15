@@ -15,8 +15,8 @@ meta_description: "Platinum Smart-Heat Electric in 2300, 3400 en 4500 W: verwarm
 cta: {label: "Download de specificatiekit", asset: A11}
 hero: w-bromic-platinum-electric-4500w
 images: [w-bromic-shoot-may-11-2023-54, w-australia-sydney-greenwich-residence-2]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -84,7 +84,7 @@ De Platinum Smart-Heat Electric is een slanke, afgesloten stralingsverwarmer in 
 
 ## Welk vermogen heeft elke ruimte nodig?
 
-Kies op basis van het oppervlak dat warm moet worden en controleer dan de groep. Het verwarmd oppervlak en het gewicht komen uit de huidige specificatietabel op bromic.com;[^s2] de stroom bij 230 V is berekend als vermogen ÷ 230 V. [[VERIFY: values read from bromic.com; confirm against the 2026 cut sheet — Mike Clifford]]
+Kies op basis van het oppervlak dat warm moet worden en controleer dan de groep. Het verwarmd oppervlak en het gewicht komen uit de huidige specificatietabel op bromic.com;[^s2] de stroom bij 230 V is berekend als vermogen ÷ 230 V. [[VERIFY: values read from bromic.com; confirm against the 2026 cut sheet — productteam]]
 
 | Model | Verwarmd oppervlak (ca.) | Stroom bij 230 V (berekend) | Gewicht |
 |---|---|---|---|
@@ -102,11 +102,11 @@ Op drie manieren, steeds met het chassis van rvs 304 en een front van keramisch 
 - **Plafond.** Minimaal 2,44 m boven de vloer, aan de rvs-stang van ca. 200 mm die in de doos zit, of aan een langere [montagestang](https://www.bromic.com/product/platinum-electric-mounting-poles/) die apart wordt verkocht.[^s2]
 - **Verzonken.** Vlak in het plafond, met de standaard [inbouwset](https://www.bromic.com/product/platinum-electric-recess-kit/)[^s4] of met de [Low-Clearance-inbouwset](https://www.bromic.com/product/platinum-electric-low-clearance-recess-kit/)[^s3] als de holte ondiep is.
 
-<div class="diagram">Diagram: de drie montageposities in doorsnede — wandbeugel op minimaal 1,83 m, plafondstang op minimaal 2,44 m, en vlak verzonken in een overstek, met de holte van 180 mm van de Low-Clearance-set aangegeven.</div>
+<div class="diagram">Diagram: de drie montageposities in doorsnede – wandbeugel op minimaal 1,83 m, plafondstang op minimaal 2,44 m, en vlak verzonken in een overstek, met de holte van 180 mm van de Low-Clearance-set aangegeven.</div>
 
 ## Past de Low-Clearance-inbouwset op de 4500 W?
 
-Volgens de huidige productpagina wel: die noemt alle drie de vermogens, in Platinum en Platinum Marine, in zwart of wit.[^s3] De versie van dit artikel uit 2023 noemde alleen 2300 en 3400 W.[^s6] [[VERIFY: Low-Clearance Recess Kit compatibility with 4500 W (product page says yes; 2023 post said no) — Mike Clifford]]
+Volgens de huidige productpagina wel: die noemt alle drie de vermogens, in Platinum en Platinum Marine, in zwart of wit.[^s3] De versie van dit artikel uit 2023 noemde alleen 2300 en 3400 W.[^s6] [[VERIFY: Low-Clearance Recess Kit compatibility with 4500 W (product page says yes; 2023 post said no) — productteam]]
 
 Wat de set verandert:
 

@@ -14,7 +14,7 @@ meta_description: "Wie die Montagehöhe Intensität und Heizfläche eines Infrar
 cta: {label: "Planungsleitfaden herunterladen (Ausgabe für Fachplaner)", asset: A02}
 hero: l-004-012
 images: []
-owner_review: Mike Clifford
+owner_review: Produktteam
 status: draft
 gated: false
 related: [ARC-CO-01, ARC-IN-01]
@@ -44,7 +44,7 @@ sources:
 lang: de
 translation_of: ARC-CO-KB1
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 Wer einen Strahlungsheizer höher montiert, vergrößert die beheizte Fläche und senkt die Intensität, die Menschen spüren. Bei einer Quelle, die im Verhältnis zum Abstand klein ist, nimmt die Intensität mit dem Quadrat des Abstands ab: doppelter Abstand, ein Viertel der Wärme[^s3]. Lineare Heizstrahler fallen im Nahbereich weniger steil ab. Verstehen Sie die Regel daher als Richtung, nicht als Bemessungswert.
 
@@ -59,8 +59,8 @@ Wer einen Strahlungsheizer höher montiert, vergrößert die beheizte Fläche un
 - **Bis zu den Menschen messen.** Für Essbereiche und Lounges gilt die Kopfhöhe im Sitzen, für Bars die Kopfhöhe im Stehen.
 - **Angaben zur Heizfläche setzen eine übliche Montage voraus.** Bromic weist darauf hin, dass die Heizfläche mit Montagehöhe, Umgebung und Installation variiert[^s2].
 
-[[VERIFY: empfohlene maximale Montagehöhe und Tabelle der Heizfläche je Höhe für jedes Modell — Mike Clifford]]
+[[VERIFY: empfohlene maximale Montagehöhe und Tabelle der Heizfläche je Höhe für jedes Modell — Produktteam]]
 
 Was die Höhe nicht leisten kann, regelt die Dimmung: ein Affinity Smart-Heat Dimmer (oder das Eclipse-Steuergerät für die Stufen 33/66/100 % des Eclipse), ein Wandschalter und die Bromic Smart-Heat App. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind[^s2].
 
-*Montagehöhen und Abstände legen die Installationsanleitung und die örtlichen Vorschriften fest (in Deutschland u. a. DIN VDE 0100). Stimmen Sie die Installation mit Ihrem örtlichen Bauamt und einem Elektrofachbetrieb ab.* [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Raffaele Marti]]
+*Montagehöhen und Abstände legen die Installationsanleitung und die örtlichen Vorschriften fest (in Deutschland u. a. DIN VDE 0100). Stimmen Sie die Installation mit Ihrem örtlichen Bauamt und einem Elektrofachbetrieb ab.* [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Partner Deutschland]]

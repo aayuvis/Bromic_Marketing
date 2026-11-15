@@ -12,7 +12,7 @@ cta: {label: "Book a design consult", asset: A07}
 hero: w-23-03-12-bromic-heating-hyatt-dehradun-52
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
 images: ["w-23-03-12-bromic-heating-hyatt-dehradun-52"]
-owner_review: "Karl Tschauner"
+owner_review: "US field sales"
 status: draft
 source_kind: web-find
 origin: web-search
@@ -39,7 +39,7 @@ sources:
 | Project | Catch the Wave Swim School - covered patio |
 | Location | South Beloit, Illinois, USA |
 | Segment | other |
-| Products | Bromic Tungsten Electric infrared heaters with Bromic dimmer controls [[VERIFY: model, wattage and quantity — Karl Tschauner]] |
+| Products | Bromic Tungsten Electric infrared heaters with Bromic dimmer controls [[VERIFY: model, wattage and quantity — US field sales]] |
 | Controls | one dimmer per heater, 0-100% output  |
 | Installer | Gunn & Pegelow (recommendation and site assessment) |
 | Architect or designer | Bromic (layout) |

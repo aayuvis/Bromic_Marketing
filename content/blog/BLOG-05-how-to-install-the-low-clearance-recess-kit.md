@@ -18,8 +18,8 @@ meta_description: "Install the Platinum Electric Low Clearance Recess Kit: 7.1 i
 cta: {label: "Get the install guide series", asset: A17}
 hero: w-bromic-shoot-may-11-2023-54
 images: [w-bromic-low-clearance-recess-kit]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -94,7 +94,7 @@ The Low Clearance Recess Kit flush-mounts a Platinum Electric heater into a ceil
 
 It is a ventilated recess box with its own trim that sits between standard ceiling joists, so no fire-resistant box or extra framing is needed[^s2][^s3]. It is UL certified and comes in standard and marine versions for Platinum Electric and Platinum Electric Marine[^s2][^s3]. It suits retrofits and new builds, louvered pergolas and ceilings with living space above[^s2]. Compare kits in [what to consider when recessing electric heaters](https://www.bromic.com/blog/what-should-be-considered-when-installing-recessed-electric-outdoor-heaters/).
 
-The kit's product page lists 2300, 3400 and 4500 W[^s3]. An older post listed 2300 and 3400 W only [[VERIFY: 4500 W compatibility against the current manual — Mike Clifford]]. The feature post's "up to 82%" cavity saving and its claim about competitors' run-time limits are removed until they are sourced.
+The kit's product page lists 2300, 3400 and 4500 W[^s3]. An older post listed 2300 and 3400 W only [[VERIFY: 4500 W compatibility against the current manual — Product team]]. The feature post's "up to 82%" cavity saving and its claim about competitors' run-time limits are removed until they are sourced.
 
 ## What size is the cut-out and what clearances apply?
 
@@ -102,11 +102,11 @@ The kit's product page lists 2300, 3400 and 4500 W[^s3]. An older post listed 23
 |---|---|---|---|---|
 | Platinum 2300 W | 39.2 × 9.4 × 7.1 in | 31.5 in (800 mm) | 17 lb | 9.6 / 11.1 A |
 | Platinum 3400 W | 56.3 × 9.4 × 7.1 in | 39.3 in (1000 mm) | 22 lb | 14.2 / 16.3 A |
-| Platinum 4500 W | 61.0 × 12.4 × 7.1 in | [[VERIFY: 4500 W cable length — Mike Clifford]] | 33 lb | 18.8 / 21.6 A |
+| Platinum 4500 W | 61.0 × 12.4 × 7.1 in | [[VERIFY: 4500 W cable length — Product team]] | 33 lb | 18.8 / 21.6 A |
 
-Sources: install post and product page[^s1][^s4]. The old post gave the first cable length for a "2400 W" unit; there is no 2400 W Platinum, so it is shown here against 2300 W [[VERIFY — Mike Clifford]].
+Sources: install post and product page[^s1][^s4]. The old post gave the first cable length for a "2400 W" unit; there is no 2400 W Platinum, so it is shown here against 2300 W [[VERIFY — Product team]].
 
-Clearances: at least 19.7 in from a wall[^s1]. The install post puts the heater at least 94 in above the finished floor; the Platinum product page sets 96 in for any ceiling mount[^s1][^s4]. Plan 96 in [[VERIFY: 94 in vs 96 in for the recessed heater — Mike Clifford]].
+Clearances: at least 19.7 in from a wall[^s1]. The install post puts the heater at least 94 in above the finished floor; the Platinum product page sets 96 in for any ceiling mount[^s1][^s4]. Plan 96 in [[VERIFY: 94 in vs 96 in for the recessed heater — Product team]].
 
 ## What do I need before starting?
 

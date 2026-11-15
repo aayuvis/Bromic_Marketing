@@ -13,7 +13,7 @@ ai_prompt: "Elektro- oder Flüssiggas-Heizstrahler für ein Restaurant?"
 meta_description: "Elektro- oder Flüssiggas-Heizstrahler für die Gastronomie: Betriebskosten pro Stunde, Flaschenwechsel und Vorschriften, mit den Formeln für Ihre eigenen Preise."
 cta: {label: "Fünf-Jahres-Kostenmodell berechnen", asset: A20}
 hero: l-005-024
-owner_review: Blake Petty
+owner_review: Vertrieb Gastronomie
 status: draft
 gated: false
 related: [COM-CO-01, COM-PP-KB1]
@@ -43,14 +43,14 @@ sources:
 lang: de
 translation_of: COM-CO-KB1
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 
 Für die meisten Restaurants: Elektro. Ein freistehender Flüssiggas-Heizstrahler versorgt höchstens 4 Plätze, weil die Gäste seine Strahlungswärme abschirmen. Eine Terrasse mit 40 Plätzen braucht also 10 davon gegenüber 7 Elektro-Heizstrahlern über Kopf – und jeder verbrennt pro Stunde teureren Brennstoff. Dazu kommen beim Flüssiggas Flaschenwechsel, Lagerung und in manchen Städten sogar Verbote. Flüssiggas passt dort, wo es auf der Terrasse keinen Strom gibt und sich die Aufstellung jeden Abend ändert.
 
 ## Die Zahlen
 
-Formeln: Elektro = kW × Preis je kWh; Flüssiggas = Leistung in kW ÷ Heizwert je Liter × Preis je Liter. Das folgende Rechenbeispiel verwendet US-Preise und ist als US-Beispiel zu lesen: 14,07 US-Cent/kWh für Gewerbestrom, US-Durchschnitt Januar bis Mai 2026;[^s1] 2,46 US-$ je US-Gallone (3,785 L) Propan, die Winterprognose der EIA für US-Privathaushalte 2025–26.[^s2] Der Rechnung liegt ein Heizwert von rund 7,1 kWh je Liter zugrunde (91.500 BTU je US-Gallone). Für Deutschland setzen Sie Ihren eigenen Strompreis je kWh und Ihren Flüssiggaspreis ein. [[VERIFY: Preise 2026 und ein Preis für gelieferte Flaschen — Brian Kim/Finance]]
+Formeln: Elektro = kW × Preis je kWh; Flüssiggas = Leistung in kW ÷ Heizwert je Liter × Preis je Liter. Das folgende Rechenbeispiel verwendet US-Preise und ist als US-Beispiel zu lesen: 14,07 US-Cent/kWh für Gewerbestrom, US-Durchschnitt Januar bis Mai 2026;[^s1] 2,46 US-$ je US-Gallone (3,785 L) Propan, die Winterprognose der EIA für US-Privathaushalte 2025–26.[^s2] Der Rechnung liegt ein Heizwert von rund 7,1 kWh je Liter zugrunde (91.500 BTU je US-Gallone). Für Deutschland setzen Sie Ihren eigenen Strompreis je kWh und Ihren Flüssiggaspreis ein. [[VERIFY: Preise 2026 und ein Preis für gelieferte Flaschen — Finanzen]]
 
 | | Elektro: Platinum 4500W | Flüssiggas: Tungsten Freestanding Gas, ca. 11,1 kW |
 |---|---|---|
@@ -67,7 +67,7 @@ Im US-Beispiel bedeuten rund 15.700 Liter in Flaschen mit je ca. 17,8 Litern (4,
 
 - **Überdachte Terrasse, Wand- oder Deckenmontage:** Platinum Smart-Heat Electric mit einem Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät und einem Wandschalter.
 - **Offene Aufstellung, Strom in der Nähe:** Eclipse Smart-Heat Freestanding Electric mit dem Eclipse Steuergerät.
-- **Kein Strom, flexible Aufstellung, Flüssiggas zulässig:** Tungsten Smart-Heat Freestanding Gas. [[VERIFY: Affinity-Steuerungsoptionen für Tungsten Freestanding Gas — Mike Clifford]]
+- **Kein Strom, flexible Aufstellung, Flüssiggas zulässig:** Tungsten Smart-Heat Freestanding Gas. [[VERIFY: Affinity-Steuerungsoptionen für Tungsten Freestanding Gas — Produktteam]]
 
 WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Steuerungen, die separat erhältlich sind.[^s3] Erdgas und die Fünf-Jahres-Betrachtung finden Sie im [ausführlichen Vergleich](item:COM-CO-01).
 

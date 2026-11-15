@@ -14,7 +14,7 @@ meta_description: "Leitfaden für Planer zur Strahlungswärme im Freien: Wellenl
 cta: {label: "Das Spezifikationspaket herunterladen", asset: A11}
 hero: l-010-075
 images: [l-007-034, l-010-076, l-005-022, t-006-016, l-013-106]
-owner_review: Mike Clifford + 454 Creative
+owner_review: Produktteam + 454 Creative
 status: draft
 gated: true
 related: [ARC-CO-01, ARC-IN-01, BLD-IN-01]
@@ -192,7 +192,7 @@ sources:
 lang: de
 translation_of: A02-pro
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 # Der Planungsleitfaden für Heizung im Außenbereich
 
@@ -254,7 +254,7 @@ Im Freien steigt konvektive Wärme auf und verteilt sich; Warmluft kann einen of
 | Wind | Geringste Empfindlichkeit | Begrenzt | Höchste |
 | Einsatz | Exponierte Standorte, höhere Montage | Überdachte Bereiche | Geschützte, wenig exponierte Flächen |
 
-Quelle: Bromic-Planungsleitfaden 2021[^s3]. Gerichtete Heizstrahler geben den größten Teil ihrer Leistung zum Aufenthaltsbereich hin ab und bringen die Energie dorthin, wo Menschen sitzen[^s3]. [[VERIFY: Einordnung jedes aktuellen Modells nach Wellenlänge, und ob die Temperaturen der Heizelemente von 2021 erneut veröffentlicht werden — Mike Clifford]]
+Quelle: Bromic-Planungsleitfaden 2021[^s3]. Gerichtete Heizstrahler geben den größten Teil ihrer Leistung zum Aufenthaltsbereich hin ab und bringen die Energie dorthin, wo Menschen sitzen[^s3]. [[VERIFY: Einordnung jedes aktuellen Modells nach Wellenlänge, und ob die Temperaturen der Heizelemente von 2021 erneut veröffentlicht werden — Produktteam]]
 
 | | Strom | Gas |
 |---|---|---|
@@ -264,7 +264,7 @@ Quelle: Bromic-Planungsleitfaden 2021[^s3]. Gerichtete Heizstrahler geben den gr
 | Steuerung | Ein/Aus oder Dimmung in 1-%-Schritten, Zonen, Zeitpläne, App, GLT | Ein/Aus, Zonen, Zeitpläne, App, GLT |
 | Gewerk | Elektrofachbetrieb | Gasinstallateur und Elektrofachbetrieb |
 
-[[VERIFY: Versorgungsspannung der fest eingebauten Gasgeräte in der deutschen Ausführung (230 V statt 110 V) — Mike Clifford]]
+[[VERIFY: Versorgungsspannung der fest eingebauten Gasgeräte in der deutschen Ausführung (230 V statt 110 V) — Produktteam]]
 
 Für Orte, die neue Gasanschlüsse einschränken: siehe den Leitfaden zur Elektrifizierung ([A12](asset:A12)).
 
@@ -286,11 +286,11 @@ Für Orte, die neue Gasanschlüsse einschränken: siehe den Leitfaden zur Elektr
 | Tungsten Electric Coastal (demnächst erhältlich) | [[VERIFY: Leistungen]]; Edelstahl 316 | ca. 6–13 m² | Seewasserbeständig, eingelassen bei geringer Einbautiefe, Decke, Wand, Einzelpfosten | [[VERIFY]] | [[VERIFY]][^s2] |
 | Tungsten Electric Select (demnächst erhältlich) | [[VERIFY: Leistungen]] | ca. 6–13 m² | Eingelassen bei geringer Einbautiefe, Decke, Wand, Einzelpfosten | [[VERIFY]] | [[VERIFY]][^s2] |
 
-Spannungen, Zertifizierungen und Garantien sind die US-Angaben; in Deutschland ist das Netz 230 V, 50 Hz, und ETL/cETL sind nordamerikanische Prüfzeichen. [[VERIFY: CE-Kennzeichnung, Ausführungen für 230 V und Garantiebedingungen für Deutschland je Modell — Mike Clifford]]
+Spannungen, Zertifizierungen und Garantien sind die US-Angaben; in Deutschland ist das Netz 230 V, 50 Hz, und ETL/cETL sind nordamerikanische Prüfzeichen. [[VERIFY: CE-Kennzeichnung, Ausführungen für 230 V und Garantiebedingungen für Deutschland je Modell — Produktteam]]
 
-Artikelnummern, Platinum Electric: 2300 W BH0320003 Schwarz / BH0320007 Weiß; 3400 W BH0320005 / BH0320008; 4500 W BH3622000 / BH3622001[^s5]. Platinum Gas: BH0110001-1 Erdgas / -002-1 Flüssiggas (ca. 6,9 kW); BH0110003-1 Erdgas / BH0110004-1 Flüssiggas (ca. 11,7 kW)[^s10]. Tungsten Gas Einbau: BH0210001-1 Erdgas / BH0210002-1 Flüssiggas (ca. 15 m²); BH0210003-1 Erdgas / BH0210004-1 Flüssiggas (ca. 20 m²)[^s11]. [[VERIFY: ob diese Artikelnummern auch für Deutschland gelten — Mike Clifford]]
+Artikelnummern, Platinum Electric: 2300 W BH0320003 Schwarz / BH0320007 Weiß; 3400 W BH0320005 / BH0320008; 4500 W BH3622000 / BH3622001[^s5]. Platinum Gas: BH0110001-1 Erdgas / -002-1 Flüssiggas (ca. 6,9 kW); BH0110003-1 Erdgas / BH0110004-1 Flüssiggas (ca. 11,7 kW)[^s10]. Tungsten Gas Einbau: BH0210001-1 Erdgas / BH0210002-1 Flüssiggas (ca. 15 m²); BH0210003-1 Erdgas / BH0210004-1 Flüssiggas (ca. 20 m²)[^s11]. [[VERIFY: ob diese Artikelnummern auch für Deutschland gelten — Produktteam]]
 
-Werte der Produktseiten gelesen am 29. Oktober 2026; wo sie abweichen, gilt das Lookbook 2026[^s2]. Offene Widersprüche: [[VERIFY: Eclipse 2900 W (Datentabelle) gegenüber 3000 W (FAQ); Tungsten Freestanding Gas ca. 11,1 kW (Lookbook, hier verwendet) gegenüber ca. 11,3 kW (Website); Cobalt ca. 12/15 m² (Datentabelle, hier verwendet) gegenüber „bis zu ca. 13 m²“ (Merkmale); ob der aktuelle Tungsten Electric 6000 W (ca. 15 m²) bleibt, wenn Coastal und Select (ca. 6–13 m²) erscheinen; Platinum Electric Marine Edelstahl 316 gegenüber 314 (FAQ) — Mike Clifford]]. Die Leistung des Tungsten Gas Einbaugeräts wird bis zur Bestätigung zurückgehalten.
+Werte der Produktseiten gelesen am 29. Oktober 2026; wo sie abweichen, gilt das Lookbook 2026[^s2]. Offene Widersprüche: [[VERIFY: Eclipse 2900 W (Datentabelle) gegenüber 3000 W (FAQ); Tungsten Freestanding Gas ca. 11,1 kW (Lookbook, hier verwendet) gegenüber ca. 11,3 kW (Website); Cobalt ca. 12/15 m² (Datentabelle, hier verwendet) gegenüber „bis zu ca. 13 m²“ (Merkmale); ob der aktuelle Tungsten Electric 6000 W (ca. 15 m²) bleibt, wenn Coastal und Select (ca. 6–13 m²) erscheinen; Platinum Electric Marine Edelstahl 316 gegenüber 314 (FAQ) — Produktteam]]. Die Leistung des Tungsten Gas Einbaugeräts wird bis zur Bestätigung zurückgehalten.
 
 | Zubehör | Energie | Zweck |
 |---|---|---|
@@ -299,7 +299,7 @@ Werte der Produktseiten gelesen am 29. Oktober 2026; wo sie abweichen, gilt das 
 | Wärmeabweiser | Gas (Einbau) | Doppelwandiger Edelstahl; verringert den Abstand nach oben. Empfohlen, wenn der Raum darüber weniger als 1.100 mm (Platinum) oder ca. 1.070 mm (Tungsten) beträgt oder das Gerät exponiert ist[^s10][^s11] |
 | Deckenstange | Gas (Einbau) | Zwei Heizstrahler Rücken an Rücken unter flachen oder geneigten Decken[^s3] |
 
-[[VERIFY: Artikelnummern des Zubehörs, Ausschnitte und Kompatibilität der Einbausätze, einschließlich Einbau von Coastal und Select — Mike Clifford]]
+[[VERIFY: Artikelnummern des Zubehörs, Ausschnitte und Kompatibilität der Einbausätze, einschließlich Einbau von Coastal und Select — Produktteam]]
 
 - [ ] Modell, Leistung in W oder kW, Spannung, Oberfläche und Artikelnummer je Position
 - [ ] Für demnächst erhältliche Modelle ist eine freigegebene aktuelle Alternative angegeben
@@ -309,7 +309,7 @@ Werte der Produktseiten gelesen am 29. Oktober 2026; wo sie abweichen, gilt das 
 
 ## 5. Dimensionieren
 
-Heizstrahler je Zone = Fläche der Zone ÷ wirksame Heizfläche je Heizstrahler, aufgerundet. Der [Rechner A03](asset:A03) wendet seine angegebenen Faktoren auf die Nenn-Heizfläche oben an: offene Fläche 0,85, teilweise überdacht 1,0, überdacht 1,1; mild 1,0, kühl 0,85, kalt 0,7; Montage bis ca. 3,0 m 1,0, bis ca. 3,7 m 0,9, über ca. 3,7 m 0,8 (Einbaugeräte). Das sind Arbeitsannahmen, die auf die Freigabe durch Bromic warten, keine veröffentlichten Nennwerte. [[VERIFY: Faktoren für Überdachung, Klima und Höhe im Rechner A03 — Mike Clifford]] Freistehende Heizstrahler (Tungsten Freestanding Gas, Eclipse Freestanding) versorgen außerdem jeweils nicht mehr als vier Plätze, weil sitzende Gäste ihre Strahlungswärme abschirmen: Rechnen Sie max(Fläche ÷ wirksame Heizfläche, Plätze ÷ 4), mit ca. 1,9 m² je Platz, wo die Zahl der Plätze unbekannt ist.
+Heizstrahler je Zone = Fläche der Zone ÷ wirksame Heizfläche je Heizstrahler, aufgerundet. Der [Rechner A03](asset:A03) wendet seine angegebenen Faktoren auf die Nenn-Heizfläche oben an: offene Fläche 0,85, teilweise überdacht 1,0, überdacht 1,1; mild 1,0, kühl 0,85, kalt 0,7; Montage bis ca. 3,0 m 1,0, bis ca. 3,7 m 0,9, über ca. 3,7 m 0,8 (Einbaugeräte). Das sind Arbeitsannahmen, die auf die Freigabe durch Bromic warten, keine veröffentlichten Nennwerte. [[VERIFY: Faktoren für Überdachung, Klima und Höhe im Rechner A03 — Produktteam]] Freistehende Heizstrahler (Tungsten Freestanding Gas, Eclipse Freestanding) versorgen außerdem jeweils nicht mehr als vier Plätze, weil sitzende Gäste ihre Strahlungswärme abschirmen: Rechnen Sie max(Fläche ÷ wirksame Heizfläche, Plätze ÷ 4), mit ca. 1,9 m² je Platz, wo die Zahl der Plätze unbekannt ist.
 
 **Beispiel.** Eine überdachte Essterrasse von ca. 4,9 × 7,3 m, kühles Klima, Untersicht auf ca. 3,0 m: ca. 35,7 m². Tungsten Electric 6000 W: 14,9 × 1,1 × 0,85 × 1,0 = 13,9 m² wirksam; 35,7 ÷ 13,9 = 2,6, also **drei Heizstrahler**, jeder an einem eigenen Kanal eines Affinity Dimmers (ein 5-Kanal-Steuergerät), mit Wandschalter und App.
 
@@ -318,7 +318,7 @@ Heizstrahler je Zone = Fläche der Zone ÷ wirksame Heizfläche je Heizstrahler,
 
 ## 6. Strom oder Gas
 
-**Stromaufnahme: I = P ÷ U.** In Deutschland mit 230 V gerechnet: A = W ÷ 230. Zum Vergleich die US-Regel: Dort gelten fest installierte elektrische Raumheizungen als Dauerlast, und Leiter und Überstromschutz der Endstromkreise werden auf mindestens 125 % der Last bemessen (NEC 424 mit 210.19(A)(1) und 210.20(A))[^s24][^s21]. In Deutschland bemisst der Elektrofachbetrieb Leitungen, Schutzorgane und Fehlerstromschutz nach DIN VDE 0100; übernehmen Sie keine US-Absicherungen. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Raffaele Marti]]
+**Stromaufnahme: I = P ÷ U.** In Deutschland mit 230 V gerechnet: A = W ÷ 230. Zum Vergleich die US-Regel: Dort gelten fest installierte elektrische Raumheizungen als Dauerlast, und Leiter und Überstromschutz der Endstromkreise werden auf mindestens 125 % der Last bemessen (NEC 424 mit 210.19(A)(1) und 210.20(A))[^s24][^s21]. In Deutschland bemisst der Elektrofachbetrieb Leitungen, Schutzorgane und Fehlerstromschutz nach DIN VDE 0100; übernehmen Sie keine US-Absicherungen. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Partner Deutschland]]
 
 | Heizstrahler | A bei 230 V (berechnet) |
 |---|---|
@@ -334,9 +334,9 @@ Heizstrahler je Zone = Fläche der Zone ÷ wirksame Heizfläche je Heizstrahler,
 | Tungsten 4000 W | 17,4 |
 | Tungsten 6000 W | 26,1 |
 
-Alle Werte sind P ÷ 230 V. Die Produktseiten veröffentlichen Stromwerte nur für 208, 240 und 277 V[^s5][^s7][^s8][^s9]; für Tungsten nennt die Seite keine. Die veröffentlichten 208-V-Werte von Cobalt liegen unter W ÷ 208. [[VERIFY: Stromaufnahme je Modell bei 230 V; Absicherung laut Installationsanleitung; Einordnung als ortsfeste Raumheizung — Mike Clifford + Arvin Avaness]]
+Alle Werte sind P ÷ 230 V. Die Produktseiten veröffentlichen Stromwerte nur für 208, 240 und 277 V[^s5][^s7][^s8][^s9]; für Tungsten nennt die Seite keine. Die veröffentlichten 208-V-Werte von Cobalt liegen unter W ÷ 208. [[VERIFY: Stromaufnahme je Modell bei 230 V; Absicherung laut Installationsanleitung; Einordnung als ortsfeste Raumheizung — Produktteam + Fachhandelsvertrieb]]
 
-**Gas.** Bemessen Sie die Leitungen für die gesamte angeschlossene Leistung, Länge und den Druck; in den USA nach ANSI Z223.1/NFPA 54[^s22], in Deutschland nach DVGW-TRGI (Erdgas) und TRF (Flüssiggas). Fest eingebaute Gasheizstrahler brauchen laut US-Angaben zusätzlich 110 V, 2 A[^s10][^s11]. Der Tungsten Freestanding Gas wird an eine Flüssiggasflasche (US: 20 lb, ca. 9 kg; in Deutschland üblich sind 5 oder 11 kg) oder an eine Erdgas-Schnellkupplung von ca. 3 m angeschlossen[^s12]. [[VERIFY: zulässige Flaschengröße und Anschluss für den Tungsten Freestanding Gas in Deutschland — Mike Clifford]] Übernehmen Sie keine Leistung des Tungsten Einbau-Gasgeräts in die Pläne, bevor Bromic sie bestätigt. [[VERIFY: Anschlussgröße und Versorgungsdruck je Gasmodell — Mike Clifford]]
+**Gas.** Bemessen Sie die Leitungen für die gesamte angeschlossene Leistung, Länge und den Druck; in den USA nach ANSI Z223.1/NFPA 54[^s22], in Deutschland nach DVGW-TRGI (Erdgas) und TRF (Flüssiggas). Fest eingebaute Gasheizstrahler brauchen laut US-Angaben zusätzlich 110 V, 2 A[^s10][^s11]. Der Tungsten Freestanding Gas wird an eine Flüssiggasflasche (US: 20 lb, ca. 9 kg; in Deutschland üblich sind 5 oder 11 kg) oder an eine Erdgas-Schnellkupplung von ca. 3 m angeschlossen[^s12]. [[VERIFY: zulässige Flaschengröße und Anschluss für den Tungsten Freestanding Gas in Deutschland — Produktteam]] Übernehmen Sie keine Leistung des Tungsten Einbau-Gasgeräts in die Pläne, bevor Bromic sie bestätigt. [[VERIFY: Anschlussgröße und Versorgungsdruck je Gasmodell — Produktteam]]
 
 Details zur Vorverkabelung (Dosen, Unterkonstruktion, Steuerleitungen): Leitfaden zur Vorverkabelung ([A16](asset:A16)).
 
@@ -354,11 +354,11 @@ Jede Heizstrahlerliste enthält eine Zeile zur Steuerung. Spezifizieren Sie das 
 | Affinity Smart-Heat Dimmer | 1, 2, 5 | 6 kW bei 208–277 V; 1-%-Schritte | Tungsten und Platinum Electric[^s14] |
 | Affinity Smart-Heat Eclipse | 1, 5 | Ein Eclipse Heizstrahler | Eclipse[^s15] |
 | Manueller Wandschalter | Einfach oder doppelt | 20 A, 120–277 V; Innen- oder Außenausführung | Alle[^s16] |
-| Erweiterungsplatine | — | Ethernet und 0–10 V für GLT oder Hausautomation; im 5-Kanal-Gerät eingebaut; der GLT-Modus deaktiviert die App | Integrierte Projekte[^s17] |
+| Erweiterungsplatine | – | Ethernet und 0–10 V für GLT oder Hausautomation; im 5-Kanal-Gerät eingebaut; der GLT-Modus deaktiviert die App | Integrierte Projekte[^s17] |
 
 **Heizstrahler je 6-kW-Kanal:** Tungsten 2000 W ×3, 3000 W ×2, 4000/6000 W ×1; Platinum 2300 W ×2, 3400/4500 W ×1; Cobalt ×1. Eclipse: einer je Eclipse-Kanal. Gas: bis zu 10 je On/Off-Kanal[^s13]. Die Bemessung des Stromkreises kann eine niedrigere Grenze setzen.
 
-Steuergeräte: IP54, Betriebstemperatur ca. −20 bis 30 °C; WLAN 2,4 GHz, Bluetooth ca. 9 m, optional Ethernet; UL 60730-1, CAN/CSA E60730-1[^s13]. Kanalleistungen und Prüfzeichen sind die US-Angaben. [[VERIFY: Kanalleistung bei 230 V und europäische Normen/CE-Kennzeichnung der Affinity-Steuergeräte — Mike Clifford]] WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind. Alexa und Google Home brauchen keine Platine; die Kompatibilität mit Control4, Crestron und Lutron ist unterschiedlich und kann zusätzliche Hardware oder Konfiguration erfordern[^s2][^s17]. [[VERIFY: Leistungen der Steuergeräte, Kompatibilität mit Cobalt und Gas (Datentabelle gegenüber FAQ) und Steuerung des Tungsten Freestanding Gas — Mike Clifford]]
+Steuergeräte: IP54, Betriebstemperatur ca. −20 bis 30 °C; WLAN 2,4 GHz, Bluetooth ca. 9 m, optional Ethernet; UL 60730-1, CAN/CSA E60730-1[^s13]. Kanalleistungen und Prüfzeichen sind die US-Angaben. [[VERIFY: Kanalleistung bei 230 V und europäische Normen/CE-Kennzeichnung der Affinity-Steuergeräte — Produktteam]] WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind. Alexa und Google Home brauchen keine Platine; die Kompatibilität mit Control4, Crestron und Lutron ist unterschiedlich und kann zusätzliche Hardware oder Konfiguration erfordern[^s2][^s17]. [[VERIFY: Leistungen der Steuergeräte, Kompatibilität mit Cobalt und Gas (Datentabelle gegenüber FAQ) und Steuerung des Tungsten Freestanding Gas — Produktteam]]
 
 - [ ] Steuergerät, Kanalzahl und Zuordnung der Heizstrahler zu den Kanälen
 - [ ] Ort des Steuergeräts: zugänglich, geschützt, in WLAN-Reichweite
@@ -381,11 +381,11 @@ Steuergeräte: IP54, Betriebstemperatur ca. −20 bis 30 °C; WLAN 2,4 GHz, Blue
 |---|---|---|---|
 | Elektro | DIN VDE 0100 | ANSI/NFPA 70[^s21] | Stromkreise, Überstromschutz, Trennung, Verlegearten |
 | Gas | DVGW-TRGI (Erdgas), TRF (Flüssiggas) | ANSI Z223.1/NFPA 54[^s22] | Wo Heizstrahler hin dürfen, Versorgung, Belüftung, Abstand zu brennbaren Materialien |
-| Zertifizierung | [[VERIFY: erforderliche Kennzeichnung (CE u. a.) für Gas- und Elektrogeräte in Deutschland — Mike Clifford]] | Prüfzeichen von Intertek, UL oder CSA | Vorgeschrieben für Gas- und Elektrogeräte, auch mobile Heizstrahler[^s3] |
+| Zertifizierung | [[VERIFY: erforderliche Kennzeichnung (CE u. a.) für Gas- und Elektrogeräte in Deutschland — Produktteam]] | Prüfzeichen von Intertek, UL oder CSA | Vorgeschrieben für Gas- und Elektrogeräte, auch mobile Heizstrahler[^s3] |
 
-Abstände zu Decke, Seiten und brennbaren Materialien ergeben sich aus der Installationsanleitung und der Zulassung jedes Modells; interpolieren Sie nicht zwischen Modellen. [[VERIFY: Abstandstabelle je Modell aus den aktuellen Anleitungen — Mike Clifford]]
+Abstände zu Decke, Seiten und brennbaren Materialien ergeben sich aus der Installationsanleitung und der Zulassung jedes Modells; interpolieren Sie nicht zwischen Modellen. [[VERIFY: Abstandstabelle je Modell aus den aktuellen Anleitungen — Produktteam]]
 
-*Nur zur Orientierung. Maßgeblich sind die geltende Fassung der Vorschriften und örtliche Ergänzungen. Klären Sie das mit Ihrem örtlichen Bauamt, und lassen Sie Heizstrahler von einem Elektrofachbetrieb oder Gasinstallateur nach den Anweisungen des Herstellers installieren.* [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Raffaele Marti]]
+*Nur zur Orientierung. Maßgeblich sind die geltende Fassung der Vorschriften und örtliche Ergänzungen. Klären Sie das mit Ihrem örtlichen Bauamt, und lassen Sie Heizstrahler von einem Elektrofachbetrieb oder Gasinstallateur nach den Anweisungen des Herstellers installieren.* [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Partner Deutschland]]
 
 - [ ] Höhen über OKFF erfüllen die Mindestwerte
 - [ ] Abstände je Modell in den Plänen
@@ -395,7 +395,7 @@ Abstände zu Decke, Seiten und brennbaren Materialien ergeben sich aus der Insta
 
 ## 9. Planungsservice
 
-Senden Sie Grundrisse, Schnitte oder Fotos an den Planungsservice von Bromic und erhalten Sie kostenlos Auswahl, Platzierung und Pläne der Heizflächen[^s2]. Betriebskosten je Heizstrahler und Stunde: kW × Ihr Preis je kWh (Strom); kW × Ihr Gaspreis je kWh (Erdgas, abgerechnet in kWh); bei Flüssiggas ca. kW ÷ 7,1 Liter je Stunde (aus 91.500 Btu je US-Gallone[^s23]) × Ihr Preis je Liter. Im US-Beispiel, mit den Preisen des Modells A20 (13,54 US-Cent/kWh, EIA Gewerbe, Mai 2026[^s18]; 0,87 US-$/Therm, EIA Gewerbe, Jan.–Mai 2026[^s19]; 2,674 US-$/Gallone, EIA Propan für Haushalte, 30. März 2026[^s20]), kostet ein Tungsten mit 4000 W 0,54 US-$ pro Stunde und ein Platinum Gas mit ca. 11,7 kW 0,35 US-$ mit Erdgas oder 1,16 US-$ mit Flüssiggas. Europäische Preise sind hier nicht angesetzt. [[VERIFY: Preise 2026 — Brian Kim/Finance]]
+Senden Sie Grundrisse, Schnitte oder Fotos an den Planungsservice von Bromic und erhalten Sie kostenlos Auswahl, Platzierung und Pläne der Heizflächen[^s2]. Betriebskosten je Heizstrahler und Stunde: kW × Ihr Preis je kWh (Strom); kW × Ihr Gaspreis je kWh (Erdgas, abgerechnet in kWh); bei Flüssiggas ca. kW ÷ 7,1 Liter je Stunde (aus 91.500 Btu je US-Gallone[^s23]) × Ihr Preis je Liter. Im US-Beispiel, mit den Preisen des Modells A20 (13,54 US-Cent/kWh, EIA Gewerbe, Mai 2026[^s18]; 0,87 US-$/Therm, EIA Gewerbe, Jan.–Mai 2026[^s19]; 2,674 US-$/Gallone, EIA Propan für Haushalte, 30. März 2026[^s20]), kostet ein Tungsten mit 4000 W 0,54 US-$ pro Stunde und ein Platinum Gas mit ca. 11,7 kW 0,35 US-$ mit Erdgas oder 1,16 US-$ mit Flüssiggas. Europäische Preise sind hier nicht angesetzt. [[VERIFY: Preise 2026 — Finanzen]]
 
 - [ ] Pläne an den Planungsservice gesendet
 - [ ] Plan der Heizflächen erhalten und abgestimmt

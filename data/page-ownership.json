@@ -1,5 +1,5 @@
 {
- "_readme": "Page ownership for bromic.com search recovery (SEO + AEO Strategy, 2026, binding). One live URL owns each search family; Hub drafts are published onto existing URLs (upgrade), folded into an existing page as a section or FAQ (merge-into), or published new only where no owner exists. Gated guides, kits, sales kits and internal reports are assets, not web pages. URLs come from data/site-inventory.json (read 29 Oct 2026) except /outdoor-heaters/electric/, which the strategy names. cannibalisation_risk describes what would happen if the draft went live on its own slug. Built for content/reports/seo-aeo-gap-analysis.md. Owner: Brian Kim. 'feeds-blog' (29 Oct 2026): the live URL now has a rewritten blog post (content/blog/); this draft feeds it rather than competing.",
+ "_readme": "Page ownership for bromic.com search recovery (SEO + AEO Strategy, 2026, binding). One live URL owns each search family; Hub drafts are published onto existing URLs (upgrade), folded into an existing page as a section or FAQ (merge-into), or published new only where no owner exists. Gated guides, kits, sales kits and internal reports are assets, not web pages. URLs come from data/site-inventory.json (read 29 Oct 2026) except /outdoor-heaters/electric/, which the strategy names. cannibalisation_risk describes what would happen if the draft went live on its own slug. Built for content/reports/seo-aeo-gap-analysis.md. Owner: Digital marketing. 'feeds-blog' (29 Oct 2026): the live URL now has a rewritten blog post (content/blog/); this draft feeds it rather than competing.",
  "families": [
   {
    "family": "outdoor heater / outdoor heaters / patio heater",
@@ -23,7 +23,7 @@
     "RES-PP-01",
     "A02-homeowner"
    ],
-   "notes": "Strategy P2 owner; impressions 234.9K to 124.5K (-47%). /compare-outdoor-heating-systems/ and /outdoor-heating-101/ support it and must not target the head term. Paid-social pages /luxury-outdoor-heaters/ and /high-end-outdoor-heaters/ should not be indexable [[VERIFY: noindex status of paid landing pages — Brian Kim]]."
+   "notes": "Strategy P2 owner; impressions 234.9K to 124.5K (-47%). /compare-outdoor-heating-systems/ and /outdoor-heating-101/ support it and must not target the head term. Paid-social pages /luxury-outdoor-heaters/ and /high-end-outdoor-heaters/ should not be indexable [[VERIFY: noindex status of paid landing pages — Digital marketing]]."
   },
   {
    "family": "Bromic (brand) / homepage",
@@ -95,7 +95,7 @@
     "ARC-CO-01",
     "RES-CO-KB1"
    ],
-   "notes": "The strategy names an \"infrared education/solution owner\" without a URL. /infrared-outdoor-heating/ is the only page whose title carries the term, but it is a near-duplicate of /compare-outdoor-heating-systems/ and /integrated-outdoor-heating-solutions/; differentiate it or pick another owner [[VERIFY: which URL held infrared heater impressions in 2025 — Brian Kim]]."
+   "notes": "The strategy names an \"infrared education/solution owner\" without a URL. /infrared-outdoor-heating/ is the only page whose title carries the term, but it is a near-duplicate of /compare-outdoor-heating-systems/ and /integrated-outdoor-heating-solutions/; differentiate it or pick another owner [[VERIFY: which URL held infrared heater impressions in 2025 — Digital marketing]]."
   },
   {
    "family": "infrared vs radiant heater",
@@ -256,7 +256,7 @@
     "A16",
     "BLD-IN-KB2"
    ],
-   "notes": "Built-in overlaps ceiling, wall and flush. Decide whether it is the parent of the three or a sibling [[VERIFY: built-in vs flush-mounted taxonomy — Brian Kim]]; no URL change during recovery."
+   "notes": "Built-in overlaps ceiling, wall and flush. Decide whether it is the parent of the three or a sibling [[VERIFY: built-in vs flush-mounted taxonomy — Digital marketing]]; no URL change during recovery."
   },
   {
    "family": "freestanding / portable patio heater",
@@ -351,7 +351,7 @@
     "A15",
     "BLD-PP-01"
    ],
-   "notes": "Four builder landing pages are near-duplicates of each other; keep them out of the index [[VERIFY: noindex on builder LPs — Brian Kim]]."
+   "notes": "Four builder landing pages are near-duplicates of each other; keep them out of the index [[VERIFY: noindex on builder LPs — Digital marketing]]."
   },
   {
    "family": "outdoor heaters for architects / specification",
@@ -584,7 +584,7 @@
     "ARC-AW-01",
     "RES-AW-01"
    ],
-   "notes": "Thin gated page today; the A01 stats become its ungated body [[VERIFY: is /outdoor-living-trends/ the Bromic Trends 2026 report — Megan Spies]]."
+   "notes": "Thin gated page today; the A01 stats become its ungated body [[VERIFY: is /outdoor-living-trends/ the Bromic Trends 2026 report — Marketing]]."
   },
   {
    "family": "outdoor design trends for architects",

@@ -13,7 +13,7 @@ ai_prompt: "Zijn terrasverwarmers op propaan toegestaan in New York?"
 meta_description: "New York trok per 1 juni 2021 de toestemming in voor propaanverwarmers op buitenterrassen. Wat dat betekent voor horeca, en wat elektrische en gasverwarmers nodig hebben."
 cta: {label: "Download de checklist voor vergunningen en brandveiligheid", asset: A22}
 hero: l-013-107
-owner_review: Shaughn Ritchie
+owner_review: specificatie en compliance
 status: draft
 gated: false
 related: [COM-PP-01, COM-CO-KB1]
@@ -48,7 +48,7 @@ native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 
 Dit artikel gaat over New York City, in de VS. Voor een terras in Nederland gelden andere regels: de gemeente, NEN 1010 voor elektrische installaties en NEN 1078 voor gasinstallaties. [[VERIFY: geldende Nederlandse regels voor propaan- en gasverwarmers op horecaterrassen — Bromic Benelux distributor]]
 
-Volgens de meest recente primaire bronnen die we konden vinden: nee, niet op buitenterrassen. New York City trok per 1 juni 2021 de toestemming in om op buitenterrassen verwarmers op propaan te gebruiken, en eiste dat de gasflessen voor buitenverwarming werden verwijderd.[^s1] Elektrische stralingsverwarmers blijven daar de eenvoudige keuze. [[VERIFY: bevestigen dat geen latere order of wijziging van de Fire Code propaanverwarmers weer heeft toegestaan — Shaughn Ritchie]]
+Volgens de meest recente primaire bronnen die we konden vinden: nee, niet op buitenterrassen. New York City trok per 1 juni 2021 de toestemming in om op buitenterrassen verwarmers op propaan te gebruiken, en eiste dat de gasflessen voor buitenverwarming werden verwijderd.[^s1] Elektrische stralingsverwarmers blijven daar de eenvoudige keuze. [[VERIFY: bevestigen dat geen latere order of wijziging van de Fire Code propaanverwarmers weer heeft toegestaan — specificatie en compliance]]
 
 > **Disclaimer.** Alleen informatie voor de planning, geen juridisch advies. In New York: raadpleeg de FDNY (brandweer) en het NYC Department of Buildings en werk met een erkende elektricien of erkende gasinstallateur. In Nederland: raadpleeg uw gemeente en laat het werk uitvoeren door een vakbekwame elektrotechnisch installateur of gasinstallateur.
 
@@ -56,9 +56,9 @@ Volgens de meest recente primaire bronnen die we konden vinden: nee, niet op bui
 
 | Verwarmer | Status op buitenterrassen | Wat er nodig is |
 |---|---|---|
-| Propaan (verplaatsbaar) | Toestemming ingetrokken per 1 juni 2021[^s1] | — |
+| Propaan (verplaatsbaar) | Toestemming ingetrokken per 1 juni 2021[^s1] | – |
 | Elektrische stralingsverwarmer | Toegestaan, mits volgens de voorschriften | Voldoen aan de NYC Electrical Code; erkende elektricien[^s2] |
-| Aardgas | In sommige situaties mogelijk | Gaswerk aangemeld bij het DOB door een erkende gasinstallateur (licensed master plumber)[^s2] [[VERIFY: waar aardgasverwarmers zijn toegestaan (terras op de stoep of op de rijbaan) — Shaughn Ritchie]] |
+| Aardgas | In sommige situaties mogelijk | Gaswerk aangemeld bij het DOB door een erkende gasinstallateur (licensed master plumber)[^s2] [[VERIFY: waar aardgasverwarmers zijn toegestaan (terras op de stoep of op de rijbaan) — specificatie en compliance]] |
 
 Ook de levering van propaan is gereguleerd: de Fire Code verbiedt het leveren van vergunningsplichtige hoeveelheden aan een locatie zonder FDNY-vergunning.[^s3]
 

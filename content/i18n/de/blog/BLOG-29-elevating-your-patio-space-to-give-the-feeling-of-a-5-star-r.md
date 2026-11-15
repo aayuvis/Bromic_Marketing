@@ -15,8 +15,8 @@ meta_description: "Sechs Schritte zur Terrasse im Resort-Stil: Wärme, wo man si
 cta: {label: "Trendbericht 2026 anfordern", asset: A01}
 hero: w-bromic-eclipse-heater-scottsdale-home-6
 images: [w-bromiceclipseheater-scottsdalehome-10, w-wrigley-mansion-phoenix-arizona-22]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -25,7 +25,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLOG-29
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -81,7 +81,7 @@ Resorts heizen den Sitzplatz, nicht den Himmel. Strahlungswärme erwärmt Mensch
 
 Wo es weder Wand noch Decke zur Montage gibt, reicht der Eclipse Smart-Heat Freestanding Electric mit seinem gebogenen Arm von einem beschwerten, fahrbaren Fuß aus über einen Tisch und beheizt rund 11 m².[^s1] Gibt es eine Untersicht, hält ein fest montierter Heizstrahler an einer Stange oder in der Decke den Boden frei. Der kostenlose Planungsservice von Bromic auf [bromic.de](https://www.bromic.de/) ermittelt, wie viele Heizstrahler wo hingehören.
 
-Der Eclipse wurde im Wall Street Journal in einem Beitrag darüber vorgestellt, wie man eine Terrasse in ein Resort verwandelt.[^s3] [[VERIFY: WSJ article date, headline and what it says about Eclipse — Megan Spies]]
+Der Eclipse wurde im Wall Street Journal in einem Beitrag darüber vorgestellt, wie man eine Terrasse in ein Resort verwandelt.[^s3] [[VERIFY: WSJ article date, headline and what it says about Eclipse — Marketing]]
 
 ## 2. Das Licht schichten
 
@@ -100,7 +100,7 @@ Resortterrassen setzen auf tiefe Sitzmöbel, gemischte Materialien und Stücke, 
 
 ## 4. Einen Blickfang schaffen
 
-Eine Feuerstelle, Wasser, ein Kunstwerk oder ein markanter Heizstrahler gibt den Menschen einen Ort, an dem sie zusammenkommen. Die Bogenform des Eclipse ist oft das Erste, was auffällt. Bei Christopher's at Wrigley Mansion in Phoenix wählte der Architekt Wendell Burnette freistehende Eclipse-Heizstrahler, damit das Restaurant eine Terrasse ergänzen konnte, ohne die Gestaltung des historischen Gebäudes zu stören; im Live-Beitrag beschreibt er, wie Gäste sie ansprechen.[^s4] [[VERIFY: quote wording against the case study before any direct quote is used — Megan Spies]]
+Eine Feuerstelle, Wasser, ein Kunstwerk oder ein markanter Heizstrahler gibt den Menschen einen Ort, an dem sie zusammenkommen. Die Bogenform des Eclipse ist oft das Erste, was auffällt. Bei Christopher's at Wrigley Mansion in Phoenix wählte der Architekt Wendell Burnette freistehende Eclipse-Heizstrahler, damit das Restaurant eine Terrasse ergänzen konnte, ohne die Gestaltung des historischen Gebäudes zu stören; im Live-Beitrag beschreibt er, wie Gäste sie ansprechen.[^s4] [[VERIFY: quote wording against the case study before any direct quote is used — Marketing]]
 
 ![Terrasse bei Nacht mit leuchtenden freistehenden Eclipse-Heizstrahlern über den Gästen, dahinter ein Berg](img:w-wrigley-mansion-phoenix-arizona-22)
 
@@ -116,7 +116,7 @@ Luxus heißt, nicht nach Schaltern suchen zu müssen. Der Eclipse Freestanding w
 
 Das abgebildete Haus ist Desert Mirage in Scottsdale (USA), von AFT Construction, Cosan Studio und Alisha Taylor Interiors, mit einem freistehenden Eclipse-Heizstrahler auf der Terrasse.
 
-Der Live-Beitrag nannte den Eclipse Freestanding „8 Fuß hoch“ (ca. 2,4 m); diese Höhe steht nicht in den aktuellen Produktdaten von Bromic und bleibt deshalb weg, bis sie bestätigt ist.[^s6] [[VERIFY: Eclipse Freestanding overall height — Mike Clifford]]
+Der Live-Beitrag nannte den Eclipse Freestanding „8 Fuß hoch“ (ca. 2,4 m); diese Höhe steht nicht in den aktuellen Produktdaten von Bromic und bleibt deshalb weg, bis sie bestätigt ist.[^s6] [[VERIFY: Eclipse Freestanding overall height — Produktteam]]
 
 ## Häufige Fragen
 

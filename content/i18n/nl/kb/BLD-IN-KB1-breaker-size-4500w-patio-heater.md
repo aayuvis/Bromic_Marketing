@@ -17,7 +17,7 @@ ai_prompt: "Welke groep en installatieautomaat heeft een terrasverwarmer van 450
 meta_description: "Een verwarmer van 4500 W op 230 V trekt 19,6 A. Waarom dat een eigen, zwaardere groep vraagt, binnen het maximum op het typeplaatje, volgens NEN 1010."
 cta: {label: "Download de gids voor voorbekabeling", asset: A16}
 hero: t-006-016
-owner_review: Arvin Avaness
+owner_review: verkoop vakhandel
 status: draft
 gated: false
 related: [BLD-IN-01, BLD-IN-KB2]
@@ -64,14 +64,14 @@ In de VS telt de NEC een continue belasting voor 125% mee bij het kiezen van de 
 
 ## Wat als de spanning op locatie afwijkt?
 
-Bestel een verwarmer die is uitgevoerd voor de netspanning op locatie, 230 V, 50 Hz [[VERIFY: 230 V-uitvoering van Platinum 4500 W voor de Nederlandse markt — Mike Clifford]]. Een verwarmer op een lagere spanning dan zijn nominale spanning trekt minder stroom, maar levert ook duidelijk minder vermogen. Zo krijg je makkelijk een verwarmer die nooit warm genoeg aanvoelt.
+Bestel een verwarmer die is uitgevoerd voor de netspanning op locatie, 230 V, 50 Hz [[VERIFY: 230 V-uitvoering van Platinum 4500 W voor de Nederlandse markt — productteam]]. Een verwarmer op een lagere spanning dan zijn nominale spanning trekt minder stroom, maar levert ook duidelijk minder vermogen. Zo krijg je makkelijk een verwarmer die nooit warm genoeg aanvoelt.
 
 ## Wat bepaalt verder de groep?
 
 - **Maximum op het typeplaatje.** De beveiliging mag daar niet boven komen.
 - **Kabellengte.** Lange kabels kunnen vanwege spanningsverlies een grotere doorsnede vragen.
 - **Gedeelde groepen.** Tel de stroom van alle verwarmers op de groep bij elkaar op. Eén verwarmer per groep is eenvoudiger.
-- **Bediening.** De groep loopt via de Affinity Smart-Heat On/Off- of Dimmer-regelaar en een handmatige wandschakelaar[^s1]; controleer het maximale schakelvermogen van de regelaar [[VERIFY: maximale belasting Affinity-regelaar — Mike Clifford]].
+- **Bediening.** De groep loopt via de Affinity Smart-Heat On/Off- of Dimmer-regelaar en een handmatige wandschakelaar[^s1]; controleer het maximale schakelvermogen van de regelaar [[VERIFY: maximale belasting Affinity-regelaar — productteam]].
 
 ## Checklist
 

@@ -14,8 +14,8 @@ ai_prompt: "Kann ich einen Terrassenheizstrahler sicher unter meinem Pavillon be
 meta_description: "Ja, mit dem richtigen Heizstrahler und den richtigen Abständen. Elektrische Infrarotwärme passt zu den meisten Pavillons; Gas braucht offene Seiten. Höhen, Gewichte, Spannungen und Steuerung je Modell."
 cta: {label: "Planungsgespräch buchen", asset: A07}
 hero: w-gazebo-bromic
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -81,7 +81,7 @@ sources:
 lang: de
 translation_of: BLOG-23
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 Ja, mit dem richtigen Heizstrahler und den richtigen Abständen. Ein elektrischer Infrarot-Heizstrahler am Rahmen des Pavillons ist die einfachste Lösung: keine Flamme, keine Abgase, und die Wärme kommt dort an, wo Menschen sitzen. Ein Gasheizstrahler kann unter einem Pavillon mit offenen Seiten funktionieren, in den Mindesthöhen von Bromic und mit dem Abstand zum Dach laut Anleitung. Prüfen Sie zuerst, ob die Konstruktion den Heizstrahler tragen kann, und lassen Sie ihn von einem Fachbetrieb installieren.[^s1][^s7]
 
@@ -103,7 +103,7 @@ Unter einem Teildach nennt der Bromic-Planungsleitfaden einen Vorteil: Die Abdec
 
 1. **Die Konstruktion.** Tragen die Balken den Heizstrahler und seine Halterung? Platinum Electric wiegt ca. 7,7–15 kg, Eclipse Electric ca. 13,6 kg.[^s3][^s4] Ist der Rahmen leicht oder das Dach aus Stoff, ist ein freistehender Heizstrahler oft die bessere Lösung.[^s7]
 2. **Die Höhe.** Die Bromic-Mindesthöhen für Tungsten und Platinum Electric sind ca. 1,83 m an der Wand und ca. 2,44 m an der Decke.[^s2][^s3] Viele Gartenpavillons sind am Balken niedriger als ca. 2,44 m: Messen Sie vor dem Kauf.
-3. **Das Dach darüber.** Halten Sie den Abstand laut Anleitung zwischen Heizstrahler und Holz, Schindeln oder Stoff ein. [[VERIFY: Abstände nach oben und zur Seite zu brennbaren Decken je Modell, aus den Anleitungen — Mike Clifford]]
+3. **Das Dach darüber.** Halten Sie den Abstand laut Anleitung zwischen Heizstrahler und Holz, Schindeln oder Stoff ein. [[VERIFY: Abstände nach oben und zur Seite zu brennbaren Decken je Modell, aus den Anleitungen — Produktteam]]
 4. **Brennbares in der Nähe.** Halten Sie Vorhänge, Kissen, Pflanzen und Lichterketten mindestens ca. 0,9 m entfernt, oder weiter, wenn die Anleitung es verlangt.[^s8]
 5. **Versorgung und Steuerung.** Legen Sie fest, wo Kabel oder Gasleitung und das Steuergerät hinkommen, bevor der Pavillon fertig ist.
 
@@ -118,7 +118,7 @@ Unter einem Teildach nennt der Bromic-Planungsleitfaden einen Vorteil: Die Abdec
 | Eclipse Smart-Heat Electric | 2900 W; ca. 11 m² | 208–240 V | ca. 2,44 m | Affinity Eclipse Controller oder Eclipse Dimmer Controller[^s4] |
 | Platinum Gas | ca. 6,9 oder 11,7 kW; ca. 15 oder 20 m² | Erdgas oder Flüssiggas | ca. 2,44 m; Wärmeabweiser, wenn weniger als ca. 1,1 m bis zur Decke | Affinity On/Off, oder Wandschalter[^s5] |
 | Eclipse Smart-Heat Freestanding | 2900 W; ca. 11 m² | 220–240 V | ca. 2,0 m Abstand | Eclipse Dimmer Controller und Fernbedienung im Lieferumfang[^s4] |
-| Tungsten Smart-Heat Freestanding | ca. 20 m² | Flüssiggas oder Erdgas | Nur bei offenen Seiten | Manuelle Bedienung am Gerät [[VERIFY: Bedienart des Tungsten Freestanding — Mike Clifford]] |
+| Tungsten Smart-Heat Freestanding | ca. 20 m² | Flüssiggas oder Erdgas | Nur bei offenen Seiten | Manuelle Bedienung am Gerät [[VERIFY: Bedienart des Tungsten Freestanding — Produktteam]] |
 
 In Deutschland ist das Netz 230 V, 50 Hz; 208 V und 277 V sind nordamerikanische Spannungen. Flüssiggas gibt es hier üblicherweise in Flaschen mit 5 oder 11 kg.
 
@@ -126,7 +126,7 @@ Tungsten Electric hat die Schutzart IPX4, geschützt gegen Spritzwasser aus alle
 
 **Steuerung.** Jeder montierte Heizstrahler braucht sein Steuergerät, das separat erhältlich ist. Die Bromic Smart-Heat App ergänzt Zonen, Zeitpläne und Timer; WLAN- und App-Funktionen setzen kompatible Affinity-Steuerungen voraus, die separat erhältlich sind.[^s6]
 
-Vorschriften regeln, wo Heizstrahler hin dürfen, die Belüftung, die Versorgung und den Abstand zu brennbaren Materialien.[^s1] Stimmen Sie die Installation mit Ihrem örtlichen Bauamt und einem Elektrofachbetrieb oder Gasinstallateur ab. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Raffaele Marti]]
+Vorschriften regeln, wo Heizstrahler hin dürfen, die Belüftung, die Versorgung und den Abstand zu brennbaren Materialien.[^s1] Stimmen Sie die Installation mit Ihrem örtlichen Bauamt und einem Elektrofachbetrieb oder Gasinstallateur ab. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Partner Deutschland]]
 
 ## Häufige Fragen
 

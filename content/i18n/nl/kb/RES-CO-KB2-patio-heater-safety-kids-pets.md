@@ -13,7 +13,7 @@ ai_prompt: "Zijn infrarood buitenverwarmers veilig met kinderen en huisdieren?"
 meta_description: "Ingebouwde infraroodverwarmers die hoog hangen en volgens de voorschriften zijn geïnstalleerd, passen bij een gezinsterras. Houd rond vrijstaande verwarmers een kindvrije zone van ongeveer 1 meter aan en houd toezicht."
 cta: {label: "Bereken je ruimte", asset: A03}
 hero: t-011-031
-owner_review: Megan Spies
+owner_review: marketing
 status: draft
 gated: false
 related: [RES-CO-01, RES-PP-01, RES-PP-KB1]
@@ -53,7 +53,7 @@ translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 ---
 
-Dat kan, als het de juiste soort verwarmer is, als hij volgens de voorschriften is geïnstalleerd en buiten bereik hangt. Een ingebouwde elektrische verwarmer op minstens 1,8 m hoogte aan de wand, of minstens 2,4 m aan het plafond, hangt boven de speelzone en verbrandt geen brandstof.[^s1] Vrijstaande verwarmers vragen meer aandacht: houd kinderen en huisdieren uit een zone van ongeveer 1 meter eromheen en houd toezicht zolang ze aan staan.[^s3] [[VERIFY: formulering van de NFPA-tip gecontroleerd op nfpa.org — Megan Spies]]
+Dat kan, als het de juiste soort verwarmer is, als hij volgens de voorschriften is geïnstalleerd en buiten bereik hangt. Een ingebouwde elektrische verwarmer op minstens 1,8 m hoogte aan de wand, of minstens 2,4 m aan het plafond, hangt boven de speelzone en verbrandt geen brandstof.[^s1] Vrijstaande verwarmers vragen meer aandacht: houd kinderen en huisdieren uit een zone van ongeveer 1 meter eromheen en houd toezicht zolang ze aan staan.[^s3] [[VERIFY: formulering van de NFPA-tip gecontroleerd op nfpa.org — marketing]]
 
 ## Wat maakt de ene opstelling veiliger dan de andere?
 
@@ -67,9 +67,9 @@ Dat kan, als het de juiste soort verwarmer is, als hij volgens de voorschriften 
 
 ## Waar moeten gezinnen op letten?
 
-- **Hete oppervlakken.** Verwarmingselementen worden zeer heet: in de gids van Bromic staat voor een kortegolfelement ongeveer 2200 °C.[^s1] Laat niemand de voorkant van een verwarmer aanraken, niet als hij aan staat en ook niet net nadat hij is uitgezet. [[VERIFY: afkoeltijd en oppervlaktetemperatuur van de behuizing per model — Mike Clifford]]
+- **Hete oppervlakken.** Verwarmingselementen worden zeer heet: in de gids van Bromic staat voor een kortegolfelement ongeveer 2200 °C.[^s1] Laat niemand de voorkant van een verwarmer aanraken, niet als hij aan staat en ook niet net nadat hij is uitgezet. [[VERIFY: afkoeltijd en oppervlaktetemperatuur van de behuizing per model — productteam]]
 - **Kindvrije zone.** De Amerikaanse brandweerorganisatie NFPA adviseert een kindvrije zone van ongeveer 1 meter rond kachels en open vuur, en om alles wat kan branden (kussens, speelgoed, dekens) minstens zo ver weg te houden.[^s3]
-- **Huisdieren.** Houd manden en bakjes uit de stralingsrichting, zodat dieren zelf uit de warmte kunnen stappen. [[VERIFY: eventuele aanwijzingen over huisdieren in de handleiding van Bromic — Mike Clifford]]
+- **Huisdieren.** Houd manden en bakjes uit de stralingsrichting, zodat dieren zelf uit de warmte kunnen stappen. [[VERIFY: eventuele aanwijzingen over huisdieren in de handleiding van Bromic — productteam]]
 - **Uitzetten.** Met schema's en timers in de Bromic Smart-Heat app stopt de warmte als de avond voorbij is; daarvoor zijn compatibele Affinity Smart-Heat Controls nodig, die apart worden verkocht. Elk systeem heeft een bediening: een Affinity On/Off-, Dimmer- of Eclipse-regelaar, of een wandschakelaar.[^s2]
 
 Controleer de installatie-eisen bij je gemeente en laat het werk doen door een vakbekwaam elektrotechnisch installateur of gasinstallateur.

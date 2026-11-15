@@ -17,8 +17,8 @@ ai_prompt: "Are infrared heaters energy efficient for a patio?"
 meta_description: "Outdoors, infrared is the efficient choice: it warms people, not air. How radiant share, aim, controls and sizing set energy use, with the cost maths."
 cta: {label: "Size your space", asset: A03}
 hero: w-tungsten-electric-melrose-place-los-angeles-
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -87,7 +87,7 @@ For electric, multiply the heater's output in kilowatts by your electricity rate
 
 **cost per hour = kW × $/kWh**
 
-At the US average residential rate of about 18.3¢/kWh[^s3], a 3,400 W Platinum Smart-Heat Electric heater costs about 3.4 × $0.183 = $0.62 an hour at full output. Turned down, it costs less. Your own bill decides the real number. [[VERIFY: 2026 rates — Brian Kim/Finance]]
+At the US average residential rate of about 18.3¢/kWh[^s3], a 3,400 W Platinum Smart-Heat Electric heater costs about 3.4 × $0.183 = $0.62 an hour at full output. Turned down, it costs less. Your own bill decides the real number. [[VERIFY: 2026 rates — Finance]]
 
 For gas, divide the heater's BTU per hour by 100,000 and multiply by your price per therm; for propane, divide by 91,500 and multiply by your price per gallon. The full workings are in [how much it costs to run an outdoor heater](item:RES-IN-01).
 
@@ -102,12 +102,12 @@ For gas, divide the heater's BTU per hour by 100,000 and multiply by your price 
 
 | Heater | Output | Coverage (approx.) | Water rating | Controls |
 |---|---|---|---|---|
-| Platinum Smart-Heat Electric | 2,300 / 3,400 / 4,500 W | 65 / 108 / 143 ft²[^s4][^s5] | [[VERIFY: IP rating — Mike Clifford]] | Affinity On/Off or Dimmer, manual wall switch |
+| Platinum Smart-Heat Electric | 2,300 / 3,400 / 4,500 W | 65 / 108 / 143 ft²[^s4][^s5] | [[VERIFY: IP rating — Product team]] | Affinity On/Off or Dimmer, manual wall switch |
 | Platinum Smart-Heat Electric Marine | 2,300 / 3,400 / 4,500 W | 65 / 108 / 143 ft²[^s5] | IPX5[^s5] | Affinity On/Off or Dimmer, manual wall switch |
 | Tungsten Smart-Heat Electric | 2,000–6,000 W | 65–160 ft²[^s5] | IPX4[^s5] | Affinity On/Off or Dimmer, manual wall switch |
-| Eclipse Smart-Heat Electric | 33 / 66 / 100% steps | 121 ft²[^s4] | [[VERIFY: IP rating — Mike Clifford]] | Affinity Eclipse controller or Eclipse Dimmer, manual wall switch |
+| Eclipse Smart-Heat Electric | 33 / 66 / 100% steps | 121 ft²[^s4] | [[VERIFY: IP rating — Product team]] | Affinity Eclipse controller or Eclipse Dimmer, manual wall switch |
 
-Controls are part of every installation. Wi-Fi and app features need compatible Affinity Smart-Heat Controls, sold separately[^s4]. For what IP ratings mean in wet weather, see [patio heaters in the rain](https://www.bromic.com/blog/patio-heaters-in-the-rain-what-you-need-to-know/). [[VERIFY: product-page values read from bromic.com; confirm against 2026 cut sheets — Mike Clifford]]
+Controls are part of every installation. Wi-Fi and app features need compatible Affinity Smart-Heat Controls, sold separately[^s4]. For what IP ratings mean in wet weather, see [patio heaters in the rain](https://www.bromic.com/blog/patio-heaters-in-the-rain-what-you-need-to-know/). [[VERIFY: product-page values read from bromic.com; confirm against 2026 cut sheets — Product team]]
 
 Compare the [electric outdoor heaters](https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/) and [gas outdoor heaters](https://www.bromic.com/outdoor-heaters/outdoor-gas-heaters/), or have Bromic draw a layout through [Design Your Space](https://www.bromic.com/design-your-space/).
 

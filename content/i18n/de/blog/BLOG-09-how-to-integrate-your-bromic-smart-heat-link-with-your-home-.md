@@ -15,8 +15,8 @@ meta_description: "Bromic Heizstrahler an Hausautomation oder Gebäudeleittechni
 cta: {label: "Die Installationsleitfäden herunterladen", asset: A17}
 hero: w-expansion-board-2-1600x1600-1
 images: [w-expansion-board]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -82,7 +82,7 @@ sources:
 lang: de
 translation_of: BLOG-09
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 Bromic Heizstrahler werden über Affinity Smart-Heat Steuergeräte, die separat erhältlich sind, in ein Smart Home eingebunden. Alexa und Google Home verbinden sich direkt mit der Bromic App, ohne zusätzliche Hardware. Control4, Crestron, Lutron und Systeme der Gebäudeleittechnik werden über die Affinity-Erweiterungsplatine angebunden, die Ethernet und einen 0–10-V-Steuereingang ergänzt; in 5-Kanal-Steuergeräten ist sie eingebaut, bei 1- und 2-Kanal-Geräten wird sie nachgerüstet.[^s1][^s2] Dieser Weg ersetzt den älteren Smart-Heat Link über RS232.
 
@@ -97,7 +97,7 @@ Bromic Heizstrahler werden über Affinity Smart-Heat Steuergeräte, die separat 
 | Gebäudeleittechnik (GLT) | Affinity-Steuergerät plus Erweiterungsplatine, GLT-Modus | Die GLT übernimmt, die App wird deaktiviert[^s1][^s4] |
 | Keine Automation | Manueller Wandschalter | Ein und aus an der Wand; keine App, keine Sprachsteuerung |
 
-Bromic nennt außerdem Domotica und Josh.ai als kompatible Plattformen.[^s2] [[VERIFY: getestete Integrationen, Treiber oder Module für Control4, Crestron, Lutron, Domotica und Josh.ai, und ob 0–10 V die einzige Schnittstelle ist — Mike Clifford]]
+Bromic nennt außerdem Domotica und Josh.ai als kompatible Plattformen.[^s2] [[VERIFY: getestete Integrationen, Treiber oder Module für Control4, Crestron, Lutron, Domotica und Josh.ai, und ob 0–10 V die einzige Schnittstelle ist — Produktteam]]
 
 ## Was leistet die Erweiterungsplatine?
 
@@ -106,7 +106,7 @@ Sie sitzt in einem 1- oder 2-Kanal-Steuergerät (On/Off oder Dimmer), wird mit z
 - **Ethernet**, eine kabelgebundene Netzwerkverbindung, die auf großen Anlagen stabiler ist als WLAN.
 - **Eine 0–10-V-Klemmleiste**, über die das Automationssystem jeden Kanal schalten oder seine Stufe einstellen kann.
 
-Die 5-Kanal-Steuergeräte On/Off und Dimmer enthalten die Platine bereits.[^s5] [[VERIFY: ob das Eclipse-Steuergerät die Erweiterungsplatine oder 0–10 V unterstützt — Mike Clifford]]
+Die 5-Kanal-Steuergeräte On/Off und Dimmer enthalten die Platine bereits.[^s5] [[VERIFY: ob das Eclipse-Steuergerät die Erweiterungsplatine oder 0–10 V unterstützt — Produktteam]]
 
 <div class="diagram">Diagramm: Automationsprozessor → 0–10-V-Adernpaar und Ethernet → Erweiterungsplatine in einem Affinity 2-Kanal-Dimmer → zwei Heizstrahlerstromkreise; eine gestrichelte Linie vom Router zum Steuergerät für die App, durchgestrichen, wenn der GLT-Modus aktiv ist.</div>
 
@@ -117,19 +117,19 @@ App und GLT können nicht gleichzeitig laufen. Wird die Steckbrücke (Jumper) au
 ## Was braucht der Systemintegrator?
 
 - **Modell des Steuergeräts und Kanalbelegung:** welcher Kanal welchen Heizstrahler versorgt, und mit welcher Last.
-- **Das Steuersignal je Kanal:** Ein/Aus für On/Off-Steuergeräte und Gasheizstrahler; eine Stufe für Dimmer-Kanäle. [[VERIFY: Skalierung von 0–10 V auf die Heizleistung bei Dimmer-Kanälen, und ob On/Off-Kanäle an einem Schwellwert schalten — Mike Clifford]]
+- **Das Steuersignal je Kanal:** Ein/Aus für On/Off-Steuergeräte und Gasheizstrahler; eine Stufe für Dimmer-Kanäle. [[VERIFY: Skalierung von 0–10 V auf die Heizleistung bei Dimmer-Kanälen, und ob On/Off-Kanäle an einem Schwellwert schalten — Produktteam]]
 - **Einen Netzwerkanschluss** am Standort des Steuergeräts, wenn Ethernet genutzt wird.
-- **Die Affinity-Installationsanleitung und die Schaltpläne** aus den technischen Unterlagen von Bromic. [[VERIFY: ob die Affinity-Schaltpläne neben 220–240 V auch 208 V und 277 V abdecken; die früheren Smart-Heat-Link-Schaltpläne zeigten nur 220–240 V — Mike Clifford]]
+- **Die Affinity-Installationsanleitung und die Schaltpläne** aus den technischen Unterlagen von Bromic. [[VERIFY: ob die Affinity-Schaltpläne neben 220–240 V auch 208 V und 277 V abdecken; die früheren Smart-Heat-Link-Schaltpläne zeigten nur 220–240 V — Produktteam]]
 
-Laut den US-Angaben schalten die Steuergeräte 6 kW je Kanal bei 208–277 V, und 5-Kanal-Geräte gibt es in Drehstromausführungen, darunter 120/208 V.[^s5] Für das deutsche Netz mit 230 V, 50 Hz (Drehstrom 400 V) gelten die Angaben der jeweiligen Ausführung. [[VERIFY: Ausführungen und Kanallasten der Affinity-Steuergeräte für 230/400 V, 50 Hz in Deutschland — Mike Clifford]]
+Laut den US-Angaben schalten die Steuergeräte 6 kW je Kanal bei 208–277 V, und 5-Kanal-Geräte gibt es in Drehstromausführungen, darunter 120/208 V.[^s5] Für das deutsche Netz mit 230 V, 50 Hz (Drehstrom 400 V) gelten die Angaben der jeweiligen Ausführung. [[VERIFY: Ausführungen und Kanallasten der Affinity-Steuergeräte für 230/400 V, 50 Hz in Deutschland — Produktteam]]
 
 ## Und der Smart-Heat Link?
 
-Der Smart-Heat Link war ein RS232-Gateway, das über eine serielle Verbindung programmiert wurde. Er arbeitete mit den früheren Wireless On/Off- und Dimmer-Steuergeräten zusammen, nicht mit Affinity.[^s6][^s7] Neue Projekte nutzen Affinity-Steuergeräte und die Erweiterungsplatine. [[VERIFY: Status des Smart-Heat Link (eingestellt, nur Ersatzteile oder weiter unterstützt) und der Umstiegsweg für bestehende RS232-Anlagen — Mike Clifford]] Wer eine Anlage mit Smart-Heat Link besitzt, sollte sich vor jeder Änderung an den technischen Support von Bromic wenden.
+Der Smart-Heat Link war ein RS232-Gateway, das über eine serielle Verbindung programmiert wurde. Er arbeitete mit den früheren Wireless On/Off- und Dimmer-Steuergeräten zusammen, nicht mit Affinity.[^s6][^s7] Neue Projekte nutzen Affinity-Steuergeräte und die Erweiterungsplatine. [[VERIFY: Status des Smart-Heat Link (eingestellt, nur Ersatzteile oder weiter unterstützt) und der Umstiegsweg für bestehende RS232-Anlagen — Produktteam]] Wer eine Anlage mit Smart-Heat Link besitzt, sollte sich vor jeder Änderung an den technischen Support von Bromic wenden.
 
 ## Wer installiert?
 
-Ein Elektrofachbetrieb installiert Heizstrahler, Steuergeräte und Stromkreise, und ein qualifizierter Systemintegrator konfiguriert die Automationsseite.[^s6][^s7] In den USA folgt die Verdrahtung von Heizung und Steuerung NFPA 70, dem National Electrical Code,[^s8] in Deutschland der DIN VDE 0100. Klären Sie die Anforderungen vor Beginn der Arbeiten mit Ihrem örtlichen Bauamt und einem Elektrofachbetrieb. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Raffaele Marti]]
+Ein Elektrofachbetrieb installiert Heizstrahler, Steuergeräte und Stromkreise, und ein qualifizierter Systemintegrator konfiguriert die Automationsseite.[^s6][^s7] In den USA folgt die Verdrahtung von Heizung und Steuerung NFPA 70, dem National Electrical Code,[^s8] in Deutschland der DIN VDE 0100. Klären Sie die Anforderungen vor Beginn der Arbeiten mit Ihrem örtlichen Bauamt und einem Elektrofachbetrieb. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Partner Deutschland]]
 
 ## Häufige Fragen
 
@@ -143,6 +143,6 @@ Nein. Der GLT-Modus deaktiviert die App für dieses Steuergerät.[^s4]
 Ja, über ein Affinity On/Off-Steuergerät, bis zu 10 Gasheizstrahler je Kanal, ein- und ausgeschaltet.[^s5]
 
 ### Funktioniert mein Smart-Heat Link (RS232) mit Affinity?
-[[VERIFY: Kompatibilität zwischen Smart-Heat Link und Affinity-Steuergeräten — Mike Clifford]] Zur Einrichtung der App siehe [so nutzen Sie die Bromic Heizungs-App](https://www.bromic.de/); zum gesamten Sortiment die [Bromic-Seite zur Steuerung](https://www.bromic.de/).
+[[VERIFY: Kompatibilität zwischen Smart-Heat Link und Affinity-Steuergeräten — Produktteam]] Zur Einrichtung der App siehe [so nutzen Sie die Bromic Heizungs-App](https://www.bromic.de/); zum gesamten Sortiment die [Bromic-Seite zur Steuerung](https://www.bromic.de/).
 
 Die Schritte zu Verdrahtung und Inbetriebnahme stehen in den Installationsleitfäden.

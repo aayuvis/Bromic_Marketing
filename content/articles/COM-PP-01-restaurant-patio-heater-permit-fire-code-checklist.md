@@ -15,7 +15,7 @@ meta_description: "Do restaurant patio heaters need a permit? Often. The codes f
 cta: {label: "Download the permit and fire-code checklist", asset: A22}
 hero: l-016-131
 images: [p-014-066]
-owner_review: Shaughn Ritchie
+owner_review: Specification and compliance
 status: draft
 gated: false
 related: [COM-PP-KB1, COM-CO-01, COM-BY-01, COM-IN-01]
@@ -101,7 +101,7 @@ Four bodies of code, plus your city's outdoor dining rules.
 | Portable gas (propane) | International Fire Code 605.5 or NFPA 1, plus NFPA 58 for LP-gas[^s1][^s4] | Fire permit, where required | Fire marshal |
 | Any heater on public right-of-way | City outdoor dining or sidewalk café rules | Café licence or revocable consent | Transportation or licensing agency |
 
-Every heater should carry a certification mark — Intertek, UL or CSA.[^s7] Portable gas patio heaters are listed to ANSI Z83.26/CSA 2.37.[^s2]
+Every heater should carry a certification mark – Intertek, UL or CSA.[^s7] Portable gas patio heaters are listed to ANSI Z83.26/CSA 2.37.[^s2]
 
 ## What does the fire code say about portable gas heaters?
 
@@ -111,25 +111,25 @@ Under the 2021 International Fire Code, as adopted by many cities, portable outd
 - must stay at least 5 ft from buildings, from combustible overhangs, awnings and sunshades, and from exits and exit discharges;
 - must be listed and used per the listing and the manufacturer's instructions.
 
-Local amendments go further. California's version, as adopted by some cities, also bars them on rooftops.[^s9] [[VERIFY: confirm IFC 2021 §605.5 text against the ICC publication and note NFPA 1 equivalents for NFPA 1 states — Shaughn Ritchie]]
+Local amendments go further. California's version, as adopted by some cities, also bars them on rooftops.[^s9] [[VERIFY: confirm IFC 2021 §605.5 text against the ICC publication and note NFPA 1 equivalents for NFPA 1 states — Specification and compliance]]
 
 The 5 ft rule matters for layout: an awning-covered patio hard against the building often cannot take portable gas heaters at all, which is where fixed electric heaters come in.
 
 ## What about propane storage?
 
-NFPA 58 governs how LP-gas cylinders are stored outside buildings, including separation from doorways, and many fire codes require a permit above set quantities.[^s4] In practice that means a locked, ventilated cage or cabinet away from exits, a count of what you store, and a supplier who can deliver legally to your site. [[VERIFY: current NFPA 58 edition distances for cylinder storage outside buildings — Shaughn Ritchie]]
+NFPA 58 governs how LP-gas cylinders are stored outside buildings, including separation from doorways, and many fire codes require a permit above set quantities.[^s4] In practice that means a locked, ventilated cage or cabinet away from exits, a count of what you store, and a supplier who can deliver legally to your site. [[VERIFY: current NFPA 58 edition distances for cylinder storage outside buildings — Specification and compliance]]
 
 ## What are the rules in New York City?
 
-New York City is the strictest large market. Permission to use propane-fuelled heaters in outdoor dining areas was revoked from June 1, 2021.[^s5] Under the Department of Buildings' 2024 guidance for the Dining Out NYC programme, outdoor electric radiant heaters must comply with the NYC Electrical Code, and any gas work must be filed with the Department of Buildings.[^s6] See [are propane patio heaters allowed in NYC?](item:COM-PP-KB1) [[VERIFY: current FDNY and DOB position on propane and natural gas heaters in sidewalk and roadway cafés — Shaughn Ritchie]]
+New York City is the strictest large market. Permission to use propane-fuelled heaters in outdoor dining areas was revoked from June 1, 2021.[^s5] Under the Department of Buildings' 2024 guidance for the Dining Out NYC programme, outdoor electric radiant heaters must comply with the NYC Electrical Code, and any gas work must be filed with the Department of Buildings.[^s6] See [are propane patio heaters allowed in NYC?](item:COM-PP-KB1) [[VERIFY: current FDNY and DOB position on propane and natural gas heaters in sidewalk and roadway cafés — Specification and compliance]]
 
 ![Rooftop dining under a dark canopy at dusk](img:p-014-066)
 
 ## What does an electric install need?
 
-An electrical permit, a dedicated circuit sized by the electrician, and mounting heights per the manufacturer. Bromic's guidance for its electric heaters is at least 72 in above the floor on a wall and 96 in on a ceiling, with clearance to the ceiling varying by output.[^s7] Commercial supplies of 208V, 240V or 277V are common; confirm the right voltage for each model. [[VERIFY: current mounting heights and clearances per model from installation manuals — Mike Clifford]]
+An electrical permit, a dedicated circuit sized by the electrician, and mounting heights per the manufacturer. Bromic's guidance for its electric heaters is at least 72 in above the floor on a wall and 96 in on a ceiling, with clearance to the ceiling varying by output.[^s7] Commercial supplies of 208V, 240V or 277V are common; confirm the right voltage for each model. [[VERIFY: current mounting heights and clearances per model from installation manuals — Product team]]
 
-Controls are part of the install, not an add-on: Affinity Smart-Heat On/Off or Dimmer controller and a wall switch for Platinum and Tungsten Electric (Tungsten Coastal and Select coming soon); the Eclipse controller for Eclipse. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately.[^s8] Building-management integration — Control4, Crestron, Lutron — varies by system and may need extra hardware.
+Controls are part of the install, not an add-on: Affinity Smart-Heat On/Off or Dimmer controller and a wall switch for Platinum and Tungsten Electric (Tungsten Coastal and Select coming soon); the Eclipse controller for Eclipse. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately.[^s8] Building-management integration – Control4, Crestron, Lutron – varies by system and may need extra hardware.
 
 ## Planning checklist
 
@@ -141,7 +141,7 @@ Controls are part of the install, not an add-on: Affinity Smart-Heat On/Off or D
 6. **File permits.** Electrical, fuel-gas or fire as needed, by the licensed trade.
 7. **Plan storage.** Propane cage or cabinet location and quantities, if used.
 8. **Tell your insurer.** Some policies set their own conditions.
-9. **Inspect and train.** Final inspection, then a staff SOP — see [running a heated patio](item:COM-BY-01).
+9. **Inspect and train.** Final inspection, then a staff SOP – see [running a heated patio](item:COM-BY-01).
 
 Bromic's design service will produce a layout and coverage drawing to support the filing.[^s8]
 
@@ -175,7 +175,7 @@ At least 5 ft under the IFC as adopted in many cities, and from exits and combus
 
 Normally the licensed electrician or gas fitter doing the work. The operator supplies layout, product listings and landlord consent.
 
-Take the full list to your authority — download the permit and fire-code checklist.
+Take the full list to your authority – download the permit and fire-code checklist.
 
 [^s1]: International Code Council, 2021 International Fire Code, §605.5.
 [^s2]: Seattle Fire Department, permit conditions for portable outdoor LP-gas heaters.

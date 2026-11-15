@@ -17,8 +17,8 @@ ai_prompt: "How is outdoor product design changing for architects?"
 meta_description: "Podcast recap: StruXure and Bromic Group founders on productised outdoor rooms, integrated controls and early collaboration with architects."
 cta: {label: "Download the Trends 2026 report", asset: A01}
 hero: w-slc-bromic-heater-1-cropped
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false

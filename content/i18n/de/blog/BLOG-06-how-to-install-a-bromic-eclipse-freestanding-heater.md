@@ -15,8 +15,8 @@ meta_description: "Bromic Eclipse Freestanding aufbauen: Sockel und zehn Gewicht
 cta: {label: "Einrichtungsleitfaden für die Smart-Heat-Steuerung holen", asset: A09}
 hero: w-bromiceclipseheater-scottsdalehome-2
 images: [w-bromic-eclipse-portable-hotel-skansen-06-v02]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -25,7 +25,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLOG-06
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -73,7 +73,7 @@ sources:
 
 Einen Eclipse Freestanding Heizstrahler bauen zwei Personen mit Handwerkzeug auf: den Sockel dort abstellen, wo er stehen soll, die zehn Gewichte zu je 10 kg einlegen, Arme und Heizkopf anschrauben, den Kopf ausrichten und dann an eine passende Steckdose für 220–240 V anschließen[^s1]. Diese Steckdose installiert ein Elektrofachbetrieb. Das mitgelieferte Eclipse Dimmer-Steuergerät und die Fernbedienung stellen dann Wärme und Licht ein, und die Bromic App ergänzt Zeitpläne.
 
-*Folgen Sie der [Montageanleitung](https://pim.bromic.com/wp-content/uploads/2021/07/Bromic-Eclipse-Electric-Portable-Instruction-Manual-US.pdf) (US-Ausgabe, auf Englisch), die das Freestanding-Modell unter seinem früheren Namen Eclipse Portable behandelt[^s4]. Steckdose und Stromkreis muss ein Elektrofachbetrieb nach DIN VDE 0100 installieren; in den USA gilt dafür meist NFPA 70[^s6]. Klären Sie die Anforderungen mit dem zuständigen Bauamt.* [[VERIFY: deutsche Montageanleitung des Eclipse Freestanding und Link dazu — Raffaele Marti]]
+*Folgen Sie der [Montageanleitung](https://pim.bromic.com/wp-content/uploads/2021/07/Bromic-Eclipse-Electric-Portable-Instruction-Manual-US.pdf) (US-Ausgabe, auf Englisch), die das Freestanding-Modell unter seinem früheren Namen Eclipse Portable behandelt[^s4]. Steckdose und Stromkreis muss ein Elektrofachbetrieb nach DIN VDE 0100 installieren; in den USA gilt dafür meist NFPA 70[^s6]. Klären Sie die Anforderungen mit dem zuständigen Bauamt.* [[VERIFY: deutsche Montageanleitung des Eclipse Freestanding und Link dazu — Partner Deutschland]]
 
 ![Eclipse-Freestanding-Heizstrahler neben einer Lounge im Innenhof eines Hotels](img:w-bromic-eclipse-portable-hotel-skansen-06-v02)
 
@@ -81,14 +81,14 @@ Einen Eclipse Freestanding Heizstrahler bauen zwei Personen mit Handwerkzeug auf
 
 | Anforderung | Detail |
 |---|---|
-| Stromversorgung | Die US-Ausführung hat einen NEMA-6-20P-Stecker für eine Steckdose mit 220–240 V und 20 A[^s1] [[VERIFY: Stecker und Steckdose der Ausführung für Deutschland (Schuko oder CEE) und die nötige Absicherung — Mike Clifford]] |
+| Stromversorgung | Die US-Ausführung hat einen NEMA-6-20P-Stecker für eine Steckdose mit 220–240 V und 20 A[^s1] [[VERIFY: Stecker und Steckdose der Ausführung für Deutschland (Schuko oder CEE) und die nötige Absicherung — Produktteam]] |
 | Stromaufnahme | 11,4 A bei 220 V, 11,8 A bei 230 V, 12,1 A bei 240 V[^s2] |
 | Untergrund | Eben und waagerecht; an windigen Standorten den Sockel verschrauben[^s1] |
-| Höhe | Die Produktseite nennt einen Mindestabstand zum Boden von ca. 2,0 m[^s2] [[VERIFY: what the 79 in refers to — Mike Clifford]] |
+| Höhe | Die Produktseite nennt einen Mindestabstand zum Boden von ca. 2,0 m[^s2] [[VERIFY: what the 79 in refers to — Produktteam]] |
 | Abstände | Seitliche Abstände und Abstände nach oben stehen in der Anleitung[^s2][^s4] |
 | Wetter | Wassergeschützt, nicht wasserdicht: nicht dauerhaft der Witterung aussetzen[^s2] |
 
-Bei rund 12 A Stromaufnahme gehört der Heizstrahler an einen eigenen Stromkreis. Lassen Sie einen Elektrofachbetrieb einen eigenen Stromkreis und eine wettergeschützte Außensteckdose nahe dem Standort setzen und die Anforderungen an den Fehlerstromschutz prüfen ([braucht ein Heizstrahler im Freien einen FI-Schutzschalter?](item:BLD-BY-KB1)). Die Produktseite nennt keine Ausführung für 208 V [[VERIFY: 208 V operation — Mike Clifford]].
+Bei rund 12 A Stromaufnahme gehört der Heizstrahler an einen eigenen Stromkreis. Lassen Sie einen Elektrofachbetrieb einen eigenen Stromkreis und eine wettergeschützte Außensteckdose nahe dem Standort setzen und die Anforderungen an den Fehlerstromschutz prüfen ([braucht ein Heizstrahler im Freien einen FI-Schutzschalter?](item:BLD-BY-KB1)). Die Produktseite nennt keine Ausführung für 208 V [[VERIFY: 208 V operation — Produktteam]].
 
 ## Was brauche ich für den Aufbau?
 
@@ -131,8 +131,8 @@ Bei rund 12 A Stromaufnahme gehört der Heizstrahler an einen eigenen Stromkreis
 Stecker einstecken und die Steckdose einschalten. Der Sockel piept leise und das Licht blinkt etwa eine Sekunde; der Heizstrahler bleibt aus, bis Sie eine Einstellung wählen[^s1]. Dann:
 
 - **Eclipse Dimmer-Steuergerät und Fernbedienung (im Lieferumfang)**: Wärme auf 33, 66 oder 100 % Leistung stellen und das Licht dimmen, mit Voreinstellungen, die Sie ändern können[^s1][^s2].
-- **Bromic Smart-Heat App**: Zeitpläne, Timer und Zonen. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind[^s3]. Die Produktseite bezeichnet den Freestanding als app-fähig[^s2] [[VERIFY: whether the included controller connects to the app, or an Affinity Eclipse controller is needed — Mike Clifford]].
-- **Affinity Smart-Heat Eclipse-Steuergerät**: steuert einen Eclipse-Heizstrahler je Kanal, für alle, die mehrere Heizstrahler zusammenfassen[^s5] [[VERIFY: compatibility with the plug-in Freestanding — Mike Clifford]].
+- **Bromic Smart-Heat App**: Zeitpläne, Timer und Zonen. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind[^s3]. Die Produktseite bezeichnet den Freestanding als app-fähig[^s2] [[VERIFY: whether the included controller connects to the app, or an Affinity Eclipse controller is needed — Produktteam]].
+- **Affinity Smart-Heat Eclipse-Steuergerät**: steuert einen Eclipse-Heizstrahler je Kanal, für alle, die mehrere Heizstrahler zusammenfassen[^s5] [[VERIFY: compatibility with the plug-in Freestanding — Produktteam]].
 
 Der [Einrichtungsleitfaden für die Smart-Heat-Steuerung](item:RES-BY-01) führt durch Kopplung, Zonen und Zeitpläne.
 

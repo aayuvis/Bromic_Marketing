@@ -17,8 +17,8 @@ ai_prompt: "How are architects designing outdoor amenity spaces in multi-family 
 meta_description: "Sara Schneider of TCA Architects on multi-family outdoor amenities: indoor-outdoor design, year-round use, flexible spaces and where heat fits."
 cta: {label: "Get the architect spec kit", asset: A11}
 hero: w-img-3076
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false

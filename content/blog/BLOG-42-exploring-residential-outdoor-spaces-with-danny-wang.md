@@ -17,8 +17,8 @@ ai_prompt: "How do designers blend indoor and outdoor living in a custom home?"
 meta_description: "Danny Wang of DW Design & Build on custom homes where indoor and outdoor read as one, the amenities clients want, and heat that blends in."
 cta: {label: "Download Revit BIM and CAD files", asset: A13}
 hero: w-dorrington-homes-platinum-electric-1
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false

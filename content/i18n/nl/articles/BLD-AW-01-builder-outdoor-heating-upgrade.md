@@ -18,7 +18,7 @@ meta_description: "Terrassen staan bovenaan de wensenlijst van kopers. Zo maakt 
 cta: {label: "Vraag de gids voor het aannemersprogramma aan", asset: A15}
 hero: t-012-034
 images: [l-010-067]
-owner_review: Arvin Avaness
+owner_review: verkoop vakhandel
 status: draft
 gated: false
 related: [BLD-CO-01, BLD-IN-01, BLD-PP-01]
@@ -122,9 +122,9 @@ Stralingswarmte past bij de taak. Ze verwarmt mensen en oppervlakken, niet de lu
 
 ## Verdient buitenmeerwerk zich terug bij verkoop?
 
-Amerikaanse makelaars beoordelen buitenwerk positief. In het Remodeling Impact Report 2023 van NAR en NALP kostte een nieuw terras naar schatting $ 10.500 en kreeg het een Joy Score van 9,9 op 10[^s5]. De grafiek met kostenterugwinning in het rapport schat een nieuw terras op 95% [[VERIFY: de 95% kostenterugwinning voor een nieuw terras bevestigen op de pagina van het NAR-rapport — Megan Spies]][^s6]. Dit zijn Amerikaanse schattingen van makelaars voor verbouwingen, geen meerwerkprijzen in de nieuwbouw, dus gebruik ze als richting en niet als prijsmodel.
+Amerikaanse makelaars beoordelen buitenwerk positief. In het Remodeling Impact Report 2023 van NAR en NALP kostte een nieuw terras naar schatting $ 10.500 en kreeg het een Joy Score van 9,9 op 10[^s5]. De grafiek met kostenterugwinning in het rapport schat een nieuw terras op 95% [[VERIFY: de 95% kostenterugwinning voor een nieuw terras bevestigen op de pagina van het NAR-rapport — marketing]][^s6]. Dit zijn Amerikaanse schattingen van makelaars voor verbouwingen, geen meerwerkprijzen in de nieuwbouw, dus gebruik ze als richting en niet als prijsmodel.
 
-Over uw eigen marges: die publiceren wij niet. Meerwerkprijzen, staffels voor aannemers en levertijden komen uit het aannemersprogramma [[VERIFY: prijsstaffels en margestructuur voor aannemers — Arvin Avaness]].
+Over uw eigen marges: die publiceren wij niet. Meerwerkprijzen, staffels voor aannemers en levertijden komen uit het aannemersprogramma [[VERIFY: prijsstaffels en margestructuur voor aannemers — verkoop vakhandel]].
 
 ## Hoe ziet een pakket voor een verwarmd terras eruit?
 

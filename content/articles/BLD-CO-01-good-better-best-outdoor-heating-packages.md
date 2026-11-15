@@ -15,7 +15,7 @@ meta_description: "Package outdoor heating in three clear tiers: one zone, multi
 cta: {label: "Get the Good-Better-Best guide", asset: A15}
 hero: l-010-076
 images: [l-006-028, t-009-025]
-owner_review: Arvin Avaness
+owner_review: Trade sales
 status: draft
 gated: false
 related: [BLD-AW-01, BLD-IN-01, BLD-PP-01]
@@ -73,7 +73,7 @@ Products below are current Bromic models. Coverage is approximate and depends on
 | Heater facts | 2300, 3400 or 4500 W; approx. 65–143 ft² each[^s1] | As Good; Eclipse approx. 121 ft², 33/66/100% output, dimmable rim lighting[^s1] | As Good; Black or White; Classic or Marine[^s1] |
 | Controls (included) | Affinity Smart-Heat On/Off controller + manual wall switch | Affinity Smart-Heat Dimmer controller per zone (Eclipse controller for Eclipse) + wall switch | Affinity Smart-Heat controllers per zone + wall switch + Bromic Smart-Heat app; Alexa, Google Assistant, Control4, Crestron or Lutron integration |
 | Electrical | One dedicated circuit per heater | One dedicated circuit per heater, grouped by zone | As Better, plus recess-kit framing and low-voltage pathway to the AV/automation location |
-| Price | [[VERIFY: tier pricing — Arvin Avaness]] | [[VERIFY: tier pricing — Arvin Avaness]] | [[VERIFY: tier pricing — Arvin Avaness]] |
+| Price | [[VERIFY: tier pricing — Trade sales]] | [[VERIFY: tier pricing — Trade sales]] | [[VERIFY: tier pricing — Trade sales]] |
 
 App, schedules and voice control in Best need compatible Affinity Smart-Heat Controls, sold separately; smart-home integration varies by system and may need extra hardware or configuration[^s1]. Say this on the option sheet so nobody expects app control from the Good tier.
 
@@ -91,7 +91,7 @@ Design the pre-wire for Best and sell any tier. In practice:
 - Rough in a dedicated circuit to each position, sized by the electrician from the nameplate.
 - Put a box at the controller location, typically inside by the patio door.
 - Leave a pathway to the AV or automation location in case Best sells.
-- Frame for recess kits, which flush-mount Platinum and Tungsten Electric heaters in the ceiling cavity[^s4], where the soffit allows it [[VERIFY: recess kit framing dimensions per model — Mike Clifford]].
+- Frame for recess kits, which flush-mount Platinum and Tungsten Electric heaters in the ceiling cavity[^s4], where the soffit allows it [[VERIFY: recess kit framing dimensions per model — Product team]].
 
 If Good sells, unused positions are capped and labelled, and the buyer can step up later without opening finished work. The [rough-in checklist](item:BLD-IN-01) has the detail.
 

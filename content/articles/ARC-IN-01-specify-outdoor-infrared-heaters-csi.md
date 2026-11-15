@@ -15,7 +15,7 @@ meta_description: "Specify outdoor infrared heaters: MasterFormat section, 3-par
 cta: {label: "Download the spec kit", asset: A11}
 hero: l-005-022
 images: [l-010-067]
-owner_review: Shaughn Ritchie
+owner_review: Specification and compliance
 status: draft
 gated: false
 related: [ARC-BY-01, ARC-CO-01, ARC-IN-KB1, BLD-IN-01]
@@ -88,21 +88,21 @@ There is no MasterFormat title for "patio heaters". The closest fit, and the one
 | Division 26 | Electrical | Circuits, disconnects, raceway and wiring devices; not the heater |
 | Division 12 / site furnishings | Freestanding units, if the office files portable equipment there | Office preference |
 
-Sourcing: section numbers and titles from MasterFormat listings in the Blue Book and Dodge Sweets[^s1][^s2]. We could not open CSI's own text from here. [[VERIFY: confirm 23 83 33 / 23 83 26 numbers and titles against the current CSI MasterFormat edition — Shaughn Ritchie]][^s3]
+Sourcing: section numbers and titles from MasterFormat listings in the Blue Book and Dodge Sweets[^s1][^s2]. We could not open CSI's own text from here. [[VERIFY: confirm 23 83 33 / 23 83 26 numbers and titles against the current CSI MasterFormat edition — Specification and compliance]][^s3]
 
 ## What goes in Part 1, General?
 
 - **Summary and related sections.** Cross-reference Division 26 for branch circuits, disconnects and raceway, and the integration section if the heaters connect to a home automation or building control system.
-- **References.** NFPA 70 (National Electrical Code) for the electrical installation; the product must carry a recognised certification mark (Intertek, UL or CSA)[^s5]. [[VERIFY: listing standard(s) each Bromic electric model is certified to — Mike Clifford]]
+- **References.** NFPA 70 (National Electrical Code) for the electrical installation; the product must carry a recognised certification mark (Intertek, UL or CSA)[^s5]. [[VERIFY: listing standard(s) each Bromic electric model is certified to — Product team]]
 - **Submittals.** Product data, wiring diagrams, recess kit and mounting details, clearance data from the installation manual, controls schematic, coverage layout.
 - **Quality assurance.** Installer qualified for the manufacturer's products; licensed electrician for connections.
-- **Warranty.** State the manufacturer's standard warranty. [[VERIFY: warranty term per product — Mike Clifford]]
+- **Warranty.** State the manufacturer's standard warranty. [[VERIFY: warranty term per product — Product team]]
 
 ## What goes in Part 2, Products?
 
 Name a basis-of-design product and the attributes a substitute must match. Generic text ("outdoor infrared heater, 3 kW") is what gets value-engineered.
 
-- Manufacturer and model; wattage; supply voltage (commercial supply options listed by Bromic: 208V, 240V, 277V)[^s5]. [[VERIFY: voltage per model and amperage at each voltage — Mike Clifford]]
+- Manufacturer and model; wattage; supply voltage (commercial supply options listed by Bromic: 208V, 240V, 277V)[^s5]. [[VERIFY: voltage per model and amperage at each voltage — Product team]]
 - Finish and variant (for example Platinum Black or White, Classic or Marine)[^s4].
 - Mounting: recess kit, ceiling, wall or suspension pole, as an accessory with its own line[^s5].
 - Controls, as a required component: Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, manual wall switch, Bromic Smart-Heat app for zones, schedules and timers. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately[^s4].
@@ -113,8 +113,8 @@ Name a basis-of-design product and the attributes a substitute must match. Gener
 | Product | Output | Coverage (approx.) | Mounting | Status |
 |---|---|---|---|---|
 | Platinum Smart-Heat Electric | 2300W, 3400W, 4500W | 65–143 ft² | Recessed, ceiling, wall | Current |
-| Tungsten Smart-Heat Electric, Select | [[VERIFY: wattages — Mike Clifford]] | 64–144 ft² | Low-clearance recessed, ceiling, wall, single post | Coming soon |
-| Tungsten Smart-Heat Electric, Coastal (316 stainless) | [[VERIFY: wattages — Mike Clifford]] | 64–144 ft² | Marine-grade low-clearance recessed, ceiling, wall, single post | Coming soon |
+| Tungsten Smart-Heat Electric, Select | [[VERIFY: wattages — Product team]] | 64–144 ft² | Low-clearance recessed, ceiling, wall, single post | Coming soon |
+| Tungsten Smart-Heat Electric, Coastal (316 stainless) | [[VERIFY: wattages — Product team]] | 64–144 ft² | Marine-grade low-clearance recessed, ceiling, wall, single post | Coming soon |
 | Eclipse Smart-Heat Electric | 33 / 66 / 100% output | 121 ft² | Single pole 8, 24 or 48 in, double or curved pole | Current |
 | Eclipse Smart-Heat Freestanding Electric | 33 / 66 / 100% output | 121 ft² | Freestanding, wheeled, weighted base | Current |
 
@@ -124,7 +124,7 @@ Source: Lookbook 2026[^s4]. Coverage varies by model, mounting height, environme
 
 ## What goes in Part 3, Execution?
 
-- **Examination.** Verify ceiling or soffit framing, recess cavity depth and blocking before rough-in. [[VERIFY: recess kit cut-out and cavity dimensions per model — Mike Clifford]]
+- **Examination.** Verify ceiling or soffit framing, recess cavity depth and blocking before rough-in. [[VERIFY: recess kit cut-out and cavity dimensions per model — Product team]]
 - **Installation.** Per the manufacturer's installation manual. Minimum mounting heights per Bromic guidance: wall at least 72 in above floor, ceiling at least 96 in, varying with output[^s5]. Clearances to combustibles per the manual, not the spec writer's estimate.
 - **Electrical connections.** By Division 26, on circuits sized for the heater load; NEC fixed electric space-heating rules size branch-circuit conductors at not less than 125% of the load[^s7] (confirm the article and edition in force with the electrical engineer).
 - **Controls.** Mount controllers in a location protected as the manual requires; program zones and schedules; where the energy code applies, provide automatic shut-off. Washington's commercial code, for example, requires exterior heat to be radiant and controlled by occupancy sensor or timer[^s6].
@@ -161,6 +161,6 @@ Yes. Specify the Affinity controller, wall switch and app with the heater, and c
 Through Affinity Smart-Heat Controls, yes. Compatibility varies and may need extra integration hardware or configuration[^s4]. Assign the integration to a named trade.
 
 ### Where do I get a 3-part spec and details?
-In the Bromic Architect Spec Kit, which carries the 3-part spec, coverage tables and detail list. [[VERIFY: BIM/CAD object availability and format (asset A13) — Shaughn Ritchie]]
+In the Bromic Architect Spec Kit, which carries the 3-part spec, coverage tables and detail list. [[VERIFY: BIM/CAD object availability and format (asset A13) — Specification and compliance]]
 
 Download the spec kit for the editable 3-part section and coverage tables.

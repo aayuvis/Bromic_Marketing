@@ -17,8 +17,8 @@ ai_prompt: "Can I safely put a patio heater under my gazebo?"
 meta_description: "Yes, with the right heater and clearances. Electric infrared suits most gazebos; gas needs open sides. Heights, weights, voltages and controls by model."
 cta: {label: "Book a design consult", asset: A07}
 hero: w-gazebo-bromic
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -103,7 +103,7 @@ Under a partial roof, Bromic's Planning Guide notes a bonus: the cover traps a "
 
 1. **The structure.** Can the beams carry the heater and its bracket? Platinum Electric weighs 17–33 lb and Eclipse Electric 30 lb.[^s3][^s4] If the frame is light or fabric-roofed, a freestanding heater may be the better answer.[^s7]
 2. **The height.** Bromic minimums are 72 in on a wall and 96 in on a ceiling for Tungsten and Platinum Electric.[^s2][^s3] Many garden gazebos are lower than 8 ft at the beam: measure before you buy.
-3. **The roof above.** Keep the manual's clearance between the heater and timber, shingles or fabric. [[VERIFY: top and side clearances to combustible ceilings per model, from the manuals — Mike Clifford]]
+3. **The roof above.** Keep the manual's clearance between the heater and timber, shingles or fabric. [[VERIFY: top and side clearances to combustible ceilings per model, from the manuals — Product team]]
 4. **Combustibles around it.** Keep curtains, cushions, plants and string lights at least 3 feet clear, or further if the manual says so.[^s8]
 5. **The supply and the controls.** Plan where the cable or gas line and the controller go before the gazebo is finished.
 
@@ -118,7 +118,7 @@ Under a partial roof, Bromic's Planning Guide notes a bonus: the cover traps a "
 | Eclipse Smart-Heat Electric | 2900 W; about 121 ft² | 208–240 V | 96 in | Affinity Eclipse Controller or Eclipse Dimmer Controller[^s4] |
 | Platinum Gas | 23,600 or 39,800 BTU; about 160 or 215 ft² | Natural gas or propane | 96 in; deflector if under about 43 in above | Affinity On/Off, or wall switch[^s5] |
 | Eclipse Smart-Heat Freestanding | 2900 W; about 121 ft² | 220–240 V | 79 in clearance | Eclipse Dimmer Controller and remote included[^s4] |
-| Tungsten Smart-Heat Freestanding | About 215 ft² | Propane or natural gas | Open sides only | Manual controls on the unit [[VERIFY: Tungsten Freestanding control method — Mike Clifford]] |
+| Tungsten Smart-Heat Freestanding | About 215 ft² | Propane or natural gas | Open sides only | Manual controls on the unit [[VERIFY: Tungsten Freestanding control method — Product team]] |
 
 Tungsten Electric is rated IPX4, splash-protected from any direction.[^s2] Even so, mount every heater under the gazebo's roof, not on an exposed post. See [what IP ratings mean](item:BLOG-19).
 

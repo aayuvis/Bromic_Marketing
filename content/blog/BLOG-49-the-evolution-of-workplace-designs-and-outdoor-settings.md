@@ -20,8 +20,8 @@ meta_description: "Why offices add outdoor terraces and courtyards: 2026 occupan
 cta: {label: "Download the Trends 2026 report", asset: A01}
 hero: w-boardwalk-edits-49
 images: [w-boardwalk-edits-27, w-lumen-west-la-rooftop-los-angeles-ca-6-edite]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -108,7 +108,7 @@ Offices are adding terraces, courtyards and roof decks because the buildings tha
 
 Two readings for a design team. Demand is concentrating in the best buildings[^s1]. And offices run near full on a few days and part-empty on the rest[^s2], so shared spaces have to absorb peak days. A heated courtyard or terrace adds that capacity without adding floor area.
 
-[[VERIFY: Kastle's weekly figure changes every week; refresh the number and week before publishing — Brian Kim]]
+[[VERIFY: Kastle's weekly figure changes every week; refresh the number and week before publishing — Digital marketing]]
 
 ## How has workplace design changed?
 
@@ -141,7 +141,7 @@ The courtyard now carries meetings, brainstorming, individual work, meals from t
 
 ![Covered workplace dining deck with heaters on the beams and controller enclosures on the wall](img:w-boardwalk-edits-27)
 
-[[VERIFY: number of heaters, wattages and the controls installed at The Boardwalk — Mike Clifford]]
+[[VERIFY: number of heaters, wattages and the controls installed at The Boardwalk — Product team]]
 
 ## How should heat be specified on an office project?
 

@@ -14,8 +14,8 @@ ai_prompt: "Wie planen Architekten Außenwohnbereiche, die das ganze Jahr genutz
 meta_description: "Die drei Prüffragen von Architektin Yvonne Haber für Außenwohnbereiche: Proportion, Überdachung und Ausrichtung, dazu Wärme im Entwurf. Mit US-Daten von Houzz 2026."
 cta: {label: "Trendbericht 2026 herunterladen", asset: A01}
 hero: w-yvone-haber-bronte-house-1
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -24,7 +24,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLOG-44
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating

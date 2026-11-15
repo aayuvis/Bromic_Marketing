@@ -17,8 +17,8 @@ ai_prompt: "Why is radiant heat better than convection for outdoor spaces?"
 meta_description: "Convection fails outdoors because warm air leaves; radiant heat reaches people directly. Short, medium and long wave compared, with the design rules."
 cta: {label: "Download the Planning Guide (pro edition)", asset: A02}
 hero: w-smoque-n-bones-tungsten-electric-1
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -101,7 +101,7 @@ Wavelength follows element temperature. The hotter the element, the shorter the 
 
 Source: Bromic Planning Guide v1.2, heat-wave mapping[^s2]. These are the figures behind the "60 to 90%" range the earlier version of this post quoted without a source: 60% is medium wave, 90% short wave.
 
-The guide groups them by application. Direct heat, a mix of short and medium wave, gives the highest efficiency. Indirect heat, medium and long wave, is slower to warm and more exposed to wind[^s1]. Wavelength by model is set out in the specifier's guide, [radiant heat outdoors: short, medium and long wave](item:ARC-CO-01). [[VERIFY: wavelength band of each current Bromic model — Mike Clifford]]
+The guide groups them by application. Direct heat, a mix of short and medium wave, gives the highest efficiency. Indirect heat, medium and long wave, is slower to warm and more exposed to wind[^s1]. Wavelength by model is set out in the specifier's guide, [radiant heat outdoors: short, medium and long wave](item:ARC-CO-01). [[VERIFY: wavelength band of each current Bromic model — Product team]]
 
 ## What follows for the design?
 
@@ -121,7 +121,7 @@ The guide groups them by application. Direct heat, a mix of short and medium wav
 | Tungsten Smart-Heat Electric | 65–160 ft²[^s6] | Wall, ceiling, pole, recessed | Affinity On/Off or Dimmer controller, manual wall switch; two elements on 4,000 and 6,000 W[^s6] |
 | Eclipse Smart-Heat Electric | 121 ft²[^s4] | Single, twin or curved pole | Affinity Eclipse controller or Eclipse Dimmer, manual wall switch |
 
-Wi-Fi, app scheduling and zones need compatible Affinity Smart-Heat Controls, sold separately[^s4]. [[VERIFY: product-page values read from bromic.com; confirm against 2026 cut sheets — Mike Clifford]] Compare the [electric outdoor heaters](https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/) and [gas outdoor heaters](https://www.bromic.com/outdoor-heaters/outdoor-gas-heaters/), or send plans to Bromic's [Design Your Space](https://www.bromic.com/design-your-space/) team for coverage drawings.
+Wi-Fi, app scheduling and zones need compatible Affinity Smart-Heat Controls, sold separately[^s4]. [[VERIFY: product-page values read from bromic.com; confirm against 2026 cut sheets — Product team]] Compare the [electric outdoor heaters](https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/) and [gas outdoor heaters](https://www.bromic.com/outdoor-heaters/outdoor-gas-heaters/), or send plans to Bromic's [Design Your Space](https://www.bromic.com/design-your-space/) team for coverage drawings.
 
 ## Frequently asked
 

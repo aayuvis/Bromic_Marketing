@@ -12,7 +12,7 @@ cta: {label: "Book a design consult", asset: A07}
 hero: m-mein-schiff-4-1
 hero_caption: "Mein Schiff 4, from Bromic's marine presentation (2022)."
 images: ["m-mein-schiff-4-1", "m-mein-schiff-4-2"]
-owner_review: Josh Maingard
+owner_review: Marine team
 status: draft
 source_kind: web-find
 origin: web-search
@@ -41,7 +41,7 @@ sources:
 | Segment | Marine, cruise ship suites |
 | Products | Platinum Smart-Heat Electric Marine |
 | Spaces | Private suite terraces |
-| Controls | [[VERIFY: guest controls in the suites — Josh Maingard]] |
+| Controls | [[VERIFY: guest controls in the suites — Marine team]] |
 
 ## The space
 
@@ -51,7 +51,7 @@ The top-deck Himmel & Meer loft suites of TUI Cruises' Mein Schiff 4, each with 
 
 Platinum Smart-Heat Electric Marine heaters on the suite terraces, so guests can sit out and take in the views in cooler weather.
 
-**Controls.** [[VERIFY: which controls were installed, and how many zones — Josh Maingard]] A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+**Controls.** [[VERIFY: which controls were installed, and how many zones — Marine team]] A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
 ## Why it matters for sales
 
@@ -71,6 +71,6 @@ Both photographs come from Bromic's 2022 marine presentation. The licence for re
 
 ## To publish
 
-- Josh Maingard: confirm the number of suites and heaters, and whether other Mein Schiff ships followed.
+- Marine team: confirm the number of suites and heaters, and whether other Mein Schiff ships followed.
 - Ask TUI Cruises for approval to name and quote.
 - Work through the consent checklist in the [case-study template](item:CS-TEMPLATE): permission to name the venue or home, approved numbers and quotes, credits, and a photo licence.

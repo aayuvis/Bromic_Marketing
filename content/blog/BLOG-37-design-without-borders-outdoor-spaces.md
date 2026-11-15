@@ -17,8 +17,8 @@ ai_prompt: "What can architects learn from how cruise ship outdoor decks are des
 meta_description: "Helena Sawelin of Tillberg Design on designing cruise-ship decks for wind, salt and motion, and what it means for heating outdoor rooms on land."
 cta: {label: "Download Revit BIM and CAD files", asset: A13}
 hero: w-princess-sanctuary
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -68,7 +68,7 @@ On season two, episode two of Designing Outdoor Spaces, Helena Sawelin of Tillbe
 
 ## Who is Helena Sawelin?
 
-Helena Sawelin is a Partner and Design Director at Tillberg Design of Sweden, a studio that specialises in cruise ships and luxury yachts[^s1]. She has more than 20 years in the field and leads multidisciplinary teams from master planning down to interior and outdoor detail. The episode is hosted by Evan Troxel[^s3], co-host of Archispeak, and was released on 19 April 2025[^s2]. [[VERIFY: Helena Sawelin's current title, against Tillberg Design of Sweden — Megan Spies]]
+Helena Sawelin is a Partner and Design Director at Tillberg Design of Sweden, a studio that specialises in cruise ships and luxury yachts[^s1]. She has more than 20 years in the field and leads multidisciplinary teams from master planning down to interior and outdoor detail. The episode is hosted by Evan Troxel[^s3], co-host of Archispeak, and was released on 19 April 2025[^s2]. [[VERIFY: Helena Sawelin's current title, against Tillberg Design of Sweden — Marketing]]
 
 ## Designing for a space that moves
 
@@ -76,7 +76,7 @@ At sea, nothing stands still. Sawelin's team plans for wind, salt exposure, pass
 
 ## Outdoor decks as destinations
 
-Sawelin wants decks, lounges and pool areas to be places guests choose to linger. Lighting, layout and acoustics matter as they do on land, but her team also plans around the ship's motion, the changing view, sun orientation, wind patterns and the itinerary itself[^s1]. In her account, the outdoor spaces are often the heart of the guest experience. [[VERIFY: wording of this point against the episode — Megan Spies]]
+Sawelin wants decks, lounges and pool areas to be places guests choose to linger. Lighting, layout and acoustics matter as they do on land, but her team also plans around the ship's motion, the changing view, sun orientation, wind patterns and the itinerary itself[^s1]. In her account, the outdoor spaces are often the heart of the guest experience. [[VERIFY: wording of this point against the episode — Marketing]]
 
 ## Lessons for land-based designers
 

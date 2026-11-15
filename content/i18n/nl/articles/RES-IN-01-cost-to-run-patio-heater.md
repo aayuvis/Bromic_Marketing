@@ -14,7 +14,7 @@ meta_description: "Een elektrische terrasverwarmer van 3400 W verbruikt 3,4 kWh 
 cta: {label: "Download de planningsgids", asset: A02}
 hero: l-010-067
 images: [l-019-160]
-owner_review: Megan Spies
+owner_review: marketing
 status: draft
 gated: false
 related: [RES-CO-01, RES-PP-01, COM-CO-01, BLD-IN-01]
@@ -75,7 +75,7 @@ translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 ---
 
-Een ingebouwde elektrische terrasverwarmer verbruikt op vol vermogen 2,3 tot 4,5 kWh per uur, afhankelijk van het vermogen. Een gasverwarmer van 11,1 kW verbruikt per uur ongeveer 11 kWh aan aardgas, of ongeveer 0,8 kg propaan. Wat dat kost, bepaalt je eigen energierekening: hieronder staan de formules, vul je eigen tarief in en je hebt het bedrag. Ter vergelijking staat er een Amerikaans rekenvoorbeeld bij, met Amerikaanse gemiddelde tarieven: daar kost een elektrische verwarmer ongeveer $0,42–$0,82 per uur. [[VERIFY: 2026 rates — Brian Kim/Finance]]
+Een ingebouwde elektrische terrasverwarmer verbruikt op vol vermogen 2,3 tot 4,5 kWh per uur, afhankelijk van het vermogen. Een gasverwarmer van 11,1 kW verbruikt per uur ongeveer 11 kWh aan aardgas, of ongeveer 0,8 kg propaan. Wat dat kost, bepaalt je eigen energierekening: hieronder staan de formules, vul je eigen tarief in en je hebt het bedrag. Ter vergelijking staat er een Amerikaans rekenvoorbeeld bij, met Amerikaanse gemiddelde tarieven: daar kost een elektrische verwarmer ongeveer $0,42–$0,82 per uur. [[VERIFY: 2026 rates — financiën]]
 
 ## Wat verbruikt elke verwarmer per uur?
 
@@ -86,11 +86,11 @@ De gebruikskosten zijn de energie die per uur wordt verbruikt, maal de prijs van
 | Platinum Smart-Heat Electric 2300 W | 2,3 kW[^s6] | 2,3 kWh | 2,3 × je prijs per kWh |
 | Platinum Smart-Heat Electric 3400 W | 3,4 kW[^s6] | 3,4 kWh | 3,4 × je prijs per kWh |
 | Platinum Smart-Heat Electric 4500 W | 4,5 kW[^s6] | 4,5 kWh | 4,5 × je prijs per kWh |
-| Eclipse Smart-Heat Electric | [[VERIFY: wattage — Mike Clifford]] | kW × 1 uur | kW × je prijs per kWh |
+| Eclipse Smart-Heat Electric | [[VERIFY: wattage — productteam]] | kW × 1 uur | kW × je prijs per kWh |
 | Tungsten Smart-Heat Freestanding Gas, aardgas | ca. 11,1 kW[^s6] | ca. 11,1 kWh aan gas | kWh ÷ energie-inhoud per m³ × je prijs per m³ |
 | Tungsten Smart-Heat Freestanding Gas, propaan | ca. 11,1 kW[^s6] | ca. 0,8 kg (ca. 1,6 liter) | 0,8 × je prijs per kg |
 
-[[VERIFY: bevestigen dat 11,1 kW (38.000 BTU/h) de belasting is waarmee het brandstofverbruik wordt berekend — Mike Clifford]]
+[[VERIFY: bevestigen dat 11,1 kW (38.000 BTU/h) de belasting is waarmee het brandstofverbruik wordt berekend — productteam]]
 
 ### Amerikaans rekenvoorbeeld
 
@@ -118,11 +118,11 @@ Drie formules, één per energiebron.
 - 3400 W = 3,4 kW. Bij een prijs per kWh van P kost een uur dus 3,4 × P.
 
 **Aardgas:** kosten per uur = vermogen in kW ÷ energie-inhoud van je gas in kWh per m³ × je prijs per m³
-- Op een Nederlandse energierekening staat gas in m³. Reken het vermogen van de verwarmer eerst om naar m³ per uur met de energie-inhoud van het gas, en vermenigvuldig dan met je prijs per m³. [[VERIFY: omrekenfactor kWh per m³ voor Nederlands aardgas — Brian Kim/Finance]]
+- Op een Nederlandse energierekening staat gas in m³. Reken het vermogen van de verwarmer eerst om naar m³ per uur met de energie-inhoud van het gas, en vermenigvuldig dan met je prijs per m³. [[VERIFY: omrekenfactor kWh per m³ voor Nederlands aardgas — financiën]]
 - Een gasverwarmer van 11,1 kW verbruikt per uur ongeveer 11,1 kWh aan gas.
 
 **Propaan:** kosten per uur = vermogen in kW ÷ 14 kWh per kg × je prijs per kg
-- 11,1 ÷ 14 = ongeveer 0,8 kg per uur. Koop je propaan per fles, deel dan de flesprijs door het aantal kilo's in de fles. [[VERIFY: energie-inhoud van ongeveer 14 kWh per kg propaan, omgerekend uit de Amerikaanse bronnen — Mike Clifford]]
+- 11,1 ÷ 14 = ongeveer 0,8 kg per uur. Koop je propaan per fles, deel dan de flesprijs door het aantal kilo's in de fles. [[VERIFY: energie-inhoud van ongeveer 14 kWh per kg propaan, omgerekend uit de Amerikaanse bronnen — productteam]]
 
 ## Wat betekent dat over een seizoen?
 
@@ -136,7 +136,7 @@ Het aantal uren telt zwaarder dan het tarief. Neem een huishouden dat het terras
 
 Dit zijn cijfers voor vol vermogen, elke minuut. In de praktijk dalen de kosten wanneer de warmte op de behoefte wordt afgestemd:
 
-- **Zet hem lager.** De Eclipse werkt op 33%, 66% of 100% van het vermogen; met een Dimmer-regelaar laat je elektrische verwarmers onder vol vermogen werken.[^s6] [[VERIFY: power draw at reduced output is proportional to setting — Mike Clifford]]
+- **Zet hem lager.** De Eclipse werkt op 33%, 66% of 100% van het vermogen; met een Dimmer-regelaar laat je elektrische verwarmers onder vol vermogen werken.[^s6] [[VERIFY: power draw at reduced output is proportional to setting — productteam]]
 - **Plan hem in.** De Bromic Smart-Heat app stelt schema's en timers in, zodat de warmte alleen aanstaat als er mensen buiten zijn; daarvoor zijn compatibele Affinity Smart-Heat Controls nodig, die apart worden verkocht.[^s6]
 - **Werk met zones.** Verwarm de eethoek zonder de loungehoek.
 
@@ -148,9 +148,9 @@ Op de eerste dag zijn de gebruikskosten de kleinste post. Het advies in de plann
 
 | Post | Wat het bepaalt | Indicatie |
 |---|---|---|
-| Verwarmers | Model, vermogen, afwerking, aantal | [[VERIFY: adviesprijs 2026 per model voor Nederland — Brian Kim]] |
-| Bediening (verplicht) | Affinity On/Off-, Dimmer- of Eclipse-regelaar, of wandschakelaar; app en spraakbediening vragen compatibele Affinity-bediening, die apart wordt verkocht[^s6] | [[VERIFY: adviesprijs bediening — Brian Kim]] |
-| Montageaccessoires | Inbouwkits, pendels (elektrisch); warmtedeflectors, plafondpendels (gas)[^s7] | [[VERIFY: adviesprijs accessoires — Brian Kim]] |
+| Verwarmers | Model, vermogen, afwerking, aantal | [[VERIFY: adviesprijs 2026 per model voor Nederland — digitale marketing]] |
+| Bediening (verplicht) | Affinity On/Off-, Dimmer- of Eclipse-regelaar, of wandschakelaar; app en spraakbediening vragen compatibele Affinity-bediening, die apart wordt verkocht[^s6] | [[VERIFY: adviesprijs bediening — digitale marketing]] |
+| Montageaccessoires | Inbouwkits, pendels (elektrisch); warmtedeflectors, plafondpendels (gas)[^s7] | [[VERIFY: adviesprijs accessoires — digitale marketing]] |
 | Elektrisch werk | Nieuwe groepen, afstand tot de meterkast, capaciteit van de meterkast, open of afgewerkte plafonds | Offerte van een vakbekwaam elektrotechnisch installateur |
 | Gaswerk | Leidingtracé, fittingen, of propaanvoorziening | Offerte van een vakbekwaam gasinstallateur |
 | Vergunningen | Gemeente | Vraag na bij je gemeente |
@@ -182,7 +182,7 @@ Ongeveer 0,8 kg (ongeveer 1,6 liter) per uur op vol vermogen. In de VS kwam dat 
 Gasprijzen voor huishoudens verschillen per periode. In de VS lag het EIA-cijfer voor juli 2026 ($26,45 per Mcf) ruim boven dat van oktober 2025 ($19,61 per Mcf).[^s2][^s3] Gebruik het tarief dat geldt in het seizoen waarin je verwarmt.
 
 ### Bespaart het dimmen van een elektrische verwarmer geld?
-Een lager vermogen verbruikt minder energie. De Eclipse schakelt tussen 33%, 66% en 100%.[^s6] [[VERIFY: draw at each step — Mike Clifford]]
+Een lager vermogen verbruikt minder energie. De Eclipse schakelt tussen 33%, 66% en 100%.[^s6] [[VERIFY: draw at each step — productteam]]
 
 ### Kan ik de kosten inschatten voordat ik koop?
 Ja. De planningsgids van Bromic loopt stap voor stap door de dimensionering, de aansluitingen en een totaalbudget.

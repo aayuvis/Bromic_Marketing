@@ -14,7 +14,7 @@ meta_description: "Strahlungsheizer, eine Teilüberdachung und Windschutz halten
 cta: {label: "Ihre Wirtschaftlichkeitsbewertung anfordern", asset: A21}
 hero: l-013-111
 images: [p-003-006]
-owner_review: Blake Petty
+owner_review: Vertrieb Gastronomie
 status: draft
 gated: false
 related: [COM-IN-01, COM-CO-01, COM-PP-01, COM-IN-KB1]
@@ -51,13 +51,13 @@ sources:
 lang: de
 translation_of: COM-AW-01
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 Restaurants halten ihre Außengastronomie im Winter offen, indem sie den Gast wärmen, nicht die Luft. Strahlungsheizer (Infrarot) erwärmen Menschen und Tische direkt und wirken daher auch bei leichtem Wind; mit einer Teilüberdachung und etwas Windschutz kann eine Terrasse, die sonst im Oktober schließt, an den meisten kühlen Abenden Plätze verkaufen.[^s3] Es ist eine Umsatzentscheidung: Jeder beheizte Platz ist ein Platz, den Sie an einem Abend verkaufen können, an dem er sonst leer bliebe.
 
 ## Warum bleiben Terrassenplätze ein halbes Jahr leer?
 
-Weil den Gästen kalt wird, bevor die Küche schließt. Eine Terrasse macht oft einen großen Teil der Kapazität und des Umsatzes aus. In einer Umfrage der National Restaurant Association (USA) von 2021 boten 65 % der Betreiber Außengastronomie an, und 35 % davon sagten, sie mache mehr als 40 % des durchschnittlichen Tagesumsatzes aus – bei Restaurants mit Tischbedienung 41 %.[^s1] Die Nachfrage hält an: Der Branchenbericht des Verbands von 2023 ergab, dass 69 % der Erwachsenen in den USA die Möglichkeit schätzen, draußen zu essen.[^s2] [[VERIFY: die 69 % im NRA-Bericht State of the Restaurant Industry 2023 selbst bestätigen oder streichen — Megan Spies]]
+Weil den Gästen kalt wird, bevor die Küche schließt. Eine Terrasse macht oft einen großen Teil der Kapazität und des Umsatzes aus. In einer Umfrage der National Restaurant Association (USA) von 2021 boten 65 % der Betreiber Außengastronomie an, und 35 % davon sagten, sie mache mehr als 40 % des durchschnittlichen Tagesumsatzes aus – bei Restaurants mit Tischbedienung 41 %.[^s1] Die Nachfrage hält an: Der Branchenbericht des Verbands von 2023 ergab, dass 69 % der Erwachsenen in den USA die Möglichkeit schätzen, draußen zu essen.[^s2] [[VERIFY: die 69 % im NRA-Bericht State of the Restaurant Industry 2023 selbst bestätigen oder streichen — Marketing]]
 
 Wenn der Abend kühl wird, verdienen diese Plätze nichts mehr. Der Verlust ist leise: keine Beschwerde, nur ein Service, der Gäste nach drinnen lenkt, oder eine Terrasse, die für die Saison schließt.
 
@@ -93,8 +93,8 @@ Wählen Sie nach Konstruktion, vorhandener Energie und danach, wie oft sich die 
 |---|---|---|---|
 | Überdachte Terrasse, Wand oder Untersicht | Platinum Smart-Heat Electric (2300, 3400 oder 4500 W) | 6–13 m² | Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät, Wandschalter, App |
 | Pergola oder Markise, Wärme plus Licht | Eclipse Smart-Heat Electric (Stangenmontage) | ca. 11 m² | Eclipse-Steuergerät, Wandschalter, App |
-| Offene Bestuhlung, die sich jeden Abend ändert | Eclipse Smart-Heat Freestanding Electric | ca. 11 m², und nicht mehr als 4 Plätze je Heizstrahler | Eclipse-Steuergerät [[VERIFY: Zuordnung des Steuergeräts für den freistehenden Eclipse — Mike Clifford]] |
-| Große offene Fläche, Gas vor Ort | Tungsten Smart-Heat Freestanding Gas (ca. 11,1 kW, Erdgas oder Flüssiggas) | ca. 20 m², und nicht mehr als 4 Plätze je Heizstrahler | [[VERIFY: Affinity-Steuerungsoptionen für Tungsten Freestanding Gas — Mike Clifford]] |
+| Offene Bestuhlung, die sich jeden Abend ändert | Eclipse Smart-Heat Freestanding Electric | ca. 11 m², und nicht mehr als 4 Plätze je Heizstrahler | Eclipse-Steuergerät [[VERIFY: Zuordnung des Steuergeräts für den freistehenden Eclipse — Produktteam]] |
+| Große offene Fläche, Gas vor Ort | Tungsten Smart-Heat Freestanding Gas (ca. 11,1 kW, Erdgas oder Flüssiggas) | ca. 20 m², und nicht mehr als 4 Plätze je Heizstrahler | [[VERIFY: Affinity-Steuerungsoptionen für Tungsten Freestanding Gas — Produktteam]] |
 | Architektonischer Einbau | Tungsten Smart-Heat Electric, Coastal oder Select (demnächst erhältlich) | 6–13 m² | Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät, Wandschalter, App |
 
 Die Heizfläche hängt von Modell, Größe und Montagehöhe ab; kalte, exponierte Standorte brauchen für dieselbe Fläche mehr Geräte. Ein freistehender Heizstrahler versorgt unabhängig von seiner Heizfläche nicht mehr als vier Plätze, weil sitzende Gäste seine Strahlungswärme abschirmen: 40 Plätze brauchen mindestens zehn. WLAN- und App-Funktionen – Zonen, Zeitpläne und Timer in der Bromic Smart-Heat App – setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind.[^s4]
@@ -114,7 +114,7 @@ Auch die Wahl der Energie zählt. Flüssiggas ist günstig in der Anschaffung, a
 
 Geben Sie den leeren Abenden eine Zahl. Die Methode ist einfach: beheizte Plätze × Belegungen je Abend × durchschnittlicher Bon × zusätzliche Abende × der Anteil dieser Plätze, den Sie tatsächlich füllen. Stellen Sie das den Installations- und Betriebskosten gegenüber, und Sie haben eine Amortisation in Monaten. [Der Artikel zur Wirtschaftlichkeit](item:COM-IN-01) geht sie mit jeder Eingabe beschriftet durch.
 
-Prüfen Sie vor dem Kauf die Vorschriften. Gasheizstrahler in der Nähe von Gebäuden, Notausgängen und Markisen, die Lagerung von Flüssiggasflaschen und die Nutzung öffentlicher Gehwegflächen sind örtlich geregelt – siehe [die Checkliste zu Genehmigungen und Brandschutz](item:COM-PP-01). [[VERIFY: Genehmigungen für Außengastronomie und Heizstrahler auf öffentlichem Grund in Deutschland, einschließlich kommunaler Einschränkungen für Gasheizstrahler — Raffaele Marti]]
+Prüfen Sie vor dem Kauf die Vorschriften. Gasheizstrahler in der Nähe von Gebäuden, Notausgängen und Markisen, die Lagerung von Flüssiggasflaschen und die Nutzung öffentlicher Gehwegflächen sind örtlich geregelt – siehe [die Checkliste zu Genehmigungen und Brandschutz](item:COM-PP-01). [[VERIFY: Genehmigungen für Außengastronomie und Heizstrahler auf öffentlichem Grund in Deutschland, einschließlich kommunaler Einschränkungen für Gasheizstrahler — Partner Deutschland]]
 
 ## Das Wichtigste in Kürze
 
@@ -144,7 +144,7 @@ Für Heizstrahler über Kopf teilen Sie die Sitzfläche (ca. 1,9 m² je Platz) d
 
 ### Brauche ich eine Genehmigung für Terrassenheizstrahler?
 
-Oft ja. Fest angeschlossene Elektro-Heizstrahler installiert ein Elektrofachbetrieb nach DIN VDE 0100, Gasleitungen ein Gasinstallateur nach DVGW-TRGI (Erdgas) oder TRF (Flüssiggas), und für mobile Gasheizstrahler und Flaschen gelten Brandschutz- und Lagervorgaben. Klären Sie das mit Ihrem örtlichen Bauamt und der Brandschutzbehörde. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Raffaele Marti]]
+Oft ja. Fest angeschlossene Elektro-Heizstrahler installiert ein Elektrofachbetrieb nach DIN VDE 0100, Gasleitungen ein Gasinstallateur nach DVGW-TRGI (Erdgas) oder TRF (Flüssiggas), und für mobile Gasheizstrahler und Flaschen gelten Brandschutz- und Lagervorgaben. Klären Sie das mit Ihrem örtlichen Bauamt und der Brandschutzbehörde. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Partner Deutschland]]
 
 Finden Sie heraus, was Ihre leeren Plätze wert sind – fordern Sie Ihre Wirtschaftlichkeitsbewertung an.
 

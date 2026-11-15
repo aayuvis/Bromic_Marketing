@@ -14,8 +14,8 @@ ai_prompt: "Wie planen Gestalter Außenbereiche in der Gastronomie, die auch bei
 meta_description: "Liz Neuffer von Aria Group über Gastronomie im Freien: Einhausung, Sitzbereiche, Wetter, elektrische Wärme und Antworten auf die Kostenfragen der Kunden."
 cta: {label: "AIA-CE-Kurs zur Außenbeheizung buchen", asset: A14}
 hero: w-wrigleys-mansion-eclipse-portable-heater-4
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -24,7 +24,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLOG-40
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -109,4 +109,4 @@ Nach Neuffers Einschätzung kann er mit der richtigen Ausstattung und dem nötig
 
 <div class="newsletter">Newsletter-Anmeldung, eine Zeile (454 Creative bindet sie an das HubSpot-Newsletterformular an): „Jede neue Folge von Designing Outdoor Spaces per E-Mail erhalten.“</div>
 
-Sie möchten die Grundlagen für Ihr Team? Buchen Sie den einstündigen AIA-CE-Kurs von Bromic zur Außenbeheizung. [[VERIFY: AIA CE ist ein US-Weiterbildungsprogramm; gibt es ein deutsches Angebot (z. B. Architektenkammer-Fortbildung)? — Raffaele Marti]]
+Sie möchten die Grundlagen für Ihr Team? Buchen Sie den einstündigen AIA-CE-Kurs von Bromic zur Außenbeheizung. [[VERIFY: AIA CE ist ein US-Weiterbildungsprogramm; gibt es ein deutsches Angebot (z. B. Architektenkammer-Fortbildung)? — Partner Deutschland]]

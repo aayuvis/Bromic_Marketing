@@ -14,8 +14,8 @@ ai_prompt: "Hoe laten ontwerpers binnen en buiten samenvloeien in een maatwerkwo
 meta_description: "Danny Wang van DW Design & Build over maatwerkwoningen waar binnen en buiten één geheel zijn, de voorzieningen die klanten willen, en warmte die opgaat in het ontwerp."
 cta: {label: "Download Revit BIM- en CAD-bestanden", asset: A13}
 hero: w-dorrington-homes-platinum-electric-1
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false

@@ -15,8 +15,8 @@ meta_description: "Waarom kantoren buitenterrassen en binnenplaatsen toevoegen: 
 cta: {label: "Download het rapport Trends 2026", asset: A01}
 hero: w-boardwalk-edits-49
 images: [w-boardwalk-edits-27, w-lumen-west-la-rooftop-los-angeles-ca-6-edite]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -109,7 +109,7 @@ De cijfers hieronder gaan over de Amerikaanse kantorenmarkt.
 
 Voor een ontwerpteam betekent dat twee dingen. De vraag concentreert zich in de beste gebouwen[^s1]. En kantoren zitten een paar dagen bijna vol en zijn de rest van de week deels leeg[^s2], dus gedeelde ruimtes moeten de piekdagen opvangen. Een verwarmde binnenplaats of een terras voegt die capaciteit toe zonder extra vloeroppervlak.
 
-[[VERIFY: het weekcijfer van Kastle verandert elke week; werk het cijfer en de week bij vóór publicatie — Brian Kim]]
+[[VERIFY: het weekcijfer van Kastle verandert elke week; werk het cijfer en de week bij vóór publicatie — digitale marketing]]
 
 ## Hoe is het kantoorontwerp veranderd?
 
@@ -142,7 +142,7 @@ De binnenplaats wordt nu gebruikt voor vergaderingen, brainstorms, individueel w
 
 ![Overdekt eetterras op kantoor met verwarmers aan de balken en regelaarkasten aan de muur](img:w-boardwalk-edits-27)
 
-[[VERIFY: number of heaters, wattages and the controls installed at The Boardwalk — Mike Clifford]]
+[[VERIFY: number of heaters, wattages and the controls installed at The Boardwalk — productteam]]
 
 ## Hoe schrijf je verwarming voor in een kantoorproject?
 

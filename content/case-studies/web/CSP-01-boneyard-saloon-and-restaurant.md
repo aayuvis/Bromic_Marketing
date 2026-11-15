@@ -12,7 +12,7 @@ cta: {label: "Book a design consult", asset: A07}
 hero: l-002-008
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
 images: ["l-002-008"]
-owner_review: "Karl Tschauner"
+owner_review: "US field sales"
 status: draft
 source_kind: web-find
 origin: web-search
@@ -39,8 +39,8 @@ sources:
 | Project | Boneyard Saloon and Restaurant |
 | Location | Park City, Utah, USA |
 | Segment | restaurant |
-| Products | Bromic Heaters [[VERIFY: model, wattage and quantity — Karl Tschauner]] |
-| Controls | [[VERIFY: controls and zones — Karl Tschauner]] |
+| Products | Bromic Heaters [[VERIFY: model, wattage and quantity — US field sales]] |
+| Controls | [[VERIFY: controls and zones — US field sales]] |
 | Installer | StruXure Utah (pergola dealer; the post says the company will install the heaters) |
 | Heated area or seats | upper deck dining area |
 | Year | 2023 (post dated 13 Oct 2023; described as planned work) |

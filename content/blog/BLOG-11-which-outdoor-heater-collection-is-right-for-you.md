@@ -23,8 +23,8 @@ meta_description: "Choose a Bromic outdoor heater by space, fuel and mounting: e
 cta: {label: "Size your space", asset: A03}
 hero: w-bromic-ambiente-sedona
 images: [w-connecticut-privateresidence-tungstenelectri, w-dwellimage5]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -113,7 +113,7 @@ Radiant (infrared) heaters do, because they warm people and surfaces rather than
 | Heat and light over a table or lounge | Electric | Pole, pendant or wall | Eclipse Electric | Affinity Eclipse controller[^s6] |
 | Open terrace, no structure, power outlet | Electric | Freestanding | Eclipse Freestanding | Eclipse Dimmer Controller and remote, included[^s6] |
 | Large, well-ventilated space with a gas line | Natural gas or propane | Wall or ceiling | Platinum Gas, Tungsten Gas | Affinity On/Off controller; wall switch[^s7] |
-| Open ground, no power or gas line | Propane or natural gas | Freestanding | Tungsten Freestanding Gas | [[VERIFY: control options for Tungsten Freestanding Gas — Mike Clifford]] |
+| Open ground, no power or gas line | Propane or natural gas | Freestanding | Tungsten Freestanding Gas | [[VERIFY: control options for Tungsten Freestanding Gas — Product team]] |
 
 Not sure about electric or gas? Read [electric vs gas patio heaters](item:RES-CO-01).
 
@@ -131,7 +131,7 @@ Not sure about electric or gas? Read [electric vs gas patio heaters](item:RES-CO
 
 **Tungsten Coastal and Select (coming soon).** New Tungsten collections, about 64 to 144 ft²: Coastal in 316 marine-grade stainless steel, Select with extra finishes.[^s1]
 
-Controls for electric: Platinum, Tungsten and Cobalt run on an Affinity On/Off (full heat) or Dimmer (heat in 1% steps) controller, or a manual wall switch.[^s9] Eclipse Electric runs on the Affinity Eclipse controller, which sets heat and light together.[^s6] [[VERIFY: whether Eclipse Electric still ships with the Eclipse Dimmer Controller and remote as an alternative to the Affinity Eclipse controller — Mike Clifford]]
+Controls for electric: Platinum, Tungsten and Cobalt run on an Affinity On/Off (full heat) or Dimmer (heat in 1% steps) controller, or a manual wall switch.[^s9] Eclipse Electric runs on the Affinity Eclipse controller, which sets heat and light together.[^s6] [[VERIFY: whether Eclipse Electric still ships with the Eclipse Dimmer Controller and remote as an alternative to the Affinity Eclipse controller — Product team]]
 
 ![Recessed Tungsten Electric heaters in a porch ceiling](img:w-connecticut-privateresidence-tungstenelectri)
 
@@ -139,11 +139,11 @@ Controls for electric: Platinum, Tungsten and Cobalt run on an Affinity On/Off (
 
 **Platinum Gas.** Two sizes, 23,600 and 39,800 BTU, covering about 160 and 215 ft², on natural gas or propane, wall or ceiling mounted.[^s7]
 
-**Tungsten Gas.** Two sizes on a pivot arm for wall or ceiling. [[VERIFY: Tungsten Gas output and coverage per size, unpublished in content until confirmed — Mike Clifford]]
+**Tungsten Gas.** Two sizes on a pivot arm for wall or ceiling. [[VERIFY: Tungsten Gas output and coverage per size, unpublished in content until confirmed — Product team]]
 
-**Tungsten Freestanding Gas.** About 38,000 BTU and 215 ft², on propane or natural gas, with a tilting head, wheels and an anti-tilt design.[^s1] [[VERIFY: 38,000 BTU (Lookbook) vs 38,500 BTU (product page) — Mike Clifford]]
+**Tungsten Freestanding Gas.** About 38,000 BTU and 215 ft², on propane or natural gas, with a tilting head, wheels and an anti-tilt design.[^s1] [[VERIFY: 38,000 BTU (Lookbook) vs 38,500 BTU (product page) — Product team]]
 
-Gas heaters need open air around them. Bromic treats a space as outdoor when at least 30% of its perimeter is permanently open.[^s8] [[VERIFY: the merged post said 25%; confirm the current ventilation rule — Mike Clifford]] Gas heaters switch on and off; they do not dim. Run them from an Affinity On/Off controller, up to 10 heaters per channel, or a manual wall switch.[^s7] A licensed gas fitter installs fixed gas heaters; confirm clearances and ventilation with your local authority.
+Gas heaters need open air around them. Bromic treats a space as outdoor when at least 30% of its perimeter is permanently open.[^s8] [[VERIFY: the merged post said 25%; confirm the current ventilation rule — Product team]] Gas heaters switch on and off; they do not dim. Run them from an Affinity On/Off controller, up to 10 heaters per channel, or a manual wall switch.[^s7] A licensed gas fitter installs fixed gas heaters; confirm clearances and ventilation with your local authority.
 
 ## How many heaters do I need?
 

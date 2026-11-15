@@ -19,8 +19,8 @@ meta_description: "Bromic-verwarmers bedien je met Affinity Smart-Heat-regelaars
 cta: {label: "Boek een ontwerpadvies", asset: A07}
 hero: w-affinity-onoff
 images: [w-render-3]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -106,9 +106,9 @@ Kies op energiebron, op de vraag of je wilt dimmen, en op de belasting per kanaa
 | Affinity Dimmer | Platinum en Tungsten Electric; Cobalt volgens de FAQ van Bromic[^s3] | 1, 2 of 5 | 6 kW[^s3] | Warmte in stappen van 1%, plus app, stem en schema's[^s1] |
 | Affinity Eclipse-regelaar | Eclipse Electric[^s4] | 1 of 5 | Eén Eclipse-verwarmer; 4 kW bij 220–240 V op de uitvoering met 1 kanaal[^s4] | Warmte en randlicht vanuit één bediening |
 | Handmatige wandschakelaar | Tungsten en Platinum, gas of elektrisch[^s5] | Enkel of dubbel | 20 A, 120–277 V[^s5] | Aan en uit bij de muur; geen app |
-| Affinity-uitbreidingskaart | On/Off en Dimmer met 1 en 2 kanalen; ingebouwd in de uitvoering met 5 kanalen[^s6] | — | — | Ethernet en 0–10 V voor domotica of een gebouwbeheersysteem |
+| Affinity-uitbreidingskaart | On/Off en Dimmer met 1 en 2 kanalen; ingebouwd in de uitvoering met 5 kanalen[^s6] | – | – | Ethernet en 0–10 V voor domotica of een gebouwbeheersysteem |
 
-[[VERIFY: capaciteit van de regelaars en compatibiliteit met verwarmers, ook Cobalt en gas in de specificatietabel van de On/Off, en de capaciteit bij 230 V — Mike Clifford]]
+[[VERIFY: capaciteit van de regelaars en compatibiliteit met verwarmers, ook Cobalt en gas in de specificatietabel van de On/Off, en de capaciteit bij 230 V — productteam]]
 
 ## Hoeveel verwarmers per kanaal?
 
@@ -124,7 +124,7 @@ De compatibiliteitstabel van Bromic geeft deze aantallen per kanaal voor On/Off-
 | Platinum of Tungsten Gas (beide maten) | 10 (alleen On/Off) |
 | Eclipse Electric | 1 (Eclipse-regelaar) |
 
-Twee Platinum-verwarmers van 2300 W delen dus één kanaal; twee Tungsten-verwarmers van 6000 W hebben een regelaar met 2 kanalen nodig.[^s2] Op een On/Off-regelaar met 2 kanalen kun je de twee elementen van een Platinum van 4500 W of een Tungsten van 4000/6000 W apart schakelen.[^s2] [[VERIFY: aantallen per kanaal bij 230 V — Mike Clifford]]
+Twee Platinum-verwarmers van 2300 W delen dus één kanaal; twee Tungsten-verwarmers van 6000 W hebben een regelaar met 2 kanalen nodig.[^s2] Op een On/Off-regelaar met 2 kanalen kun je de twee elementen van een Platinum van 4500 W of een Tungsten van 4000/6000 W apart schakelen.[^s2] [[VERIFY: aantallen per kanaal bij 230 V — productteam]]
 
 <div class="diagram">Diagram: één Affinity Dimmer met 2 kanalen, kanaal 1 voedt twee Platinum-verwarmers van 2300 W boven de tafel, kanaal 2 voedt één Tungsten van 4000 W boven de lounge; wandschakelaar en telefoon als de twee manieren om te bedienen.</div>
 
@@ -140,9 +140,9 @@ Eerdere posts beschreven een assortiment met draadloze handafstandsbedieningen.[
 | Wireless Master Remote (zones over veel verwarmers) | Zones en scènes in de app |
 | Smart-Heat Link (RS232-gateway) | Uitbreidingskaart (Ethernet, 0–10 V), of Alexa en Google Home zonder kaart[^s6] |
 
-[[VERIFY: zijn de Wireless On/Off, Wireless Dimmer, Master Remote en Smart-Heat Link uit het assortiment of nog als reserveonderdeel leverbaar; is er een upgradepad — Mike Clifford]]
+[[VERIFY: zijn de Wireless On/Off, Wireless Dimmer, Master Remote en Smart-Heat Link uit het assortiment of nog als reserveonderdeel leverbaar; is er een upgradepad — productteam]]
 
-Eén uitzondering: de Eclipse Freestanding-verwarmer staat vermeld met een meegeleverde Eclipse Dimmer Controller en afstandsbediening.[^s8] [[VERIFY: wordt de Eclipse Freestanding geleverd met de eerdere Eclipse Dimmer en afstandsbediening of met Affinity; ondersteuning door de app — Mike Clifford]]
+Eén uitzondering: de Eclipse Freestanding-verwarmer staat vermeld met een meegeleverde Eclipse Dimmer Controller en afstandsbediening.[^s8] [[VERIFY: wordt de Eclipse Freestanding geleverd met de eerdere Eclipse Dimmer en afstandsbediening of met Affinity; ondersteuning door de app — productteam]]
 
 ## Waar komt de regelaar?
 

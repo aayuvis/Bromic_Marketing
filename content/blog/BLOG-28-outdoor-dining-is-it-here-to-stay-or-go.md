@@ -18,8 +18,8 @@ meta_description: "Outdoor dining is now licensed, permanent and in demand. The 
 cta: {label: "Get your ROI assessment", asset: A21}
 hero: w-wrigleys-mansion-eclipse-portable-heater-4
 images: [w-stellas-wine-bar-houston-tx-3]
-owner_review: Megan Spies + Blake Petty
-technical_reviewer: Mike Clifford
+owner_review: Marketing + Hospitality sales
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -131,7 +131,7 @@ Longer stays mean more drinks and desserts and fewer turns. Comfort is what limi
 
 ## Is outdoor seating a meaningful part of sales?
 
-For many operators, yes. In a National Restaurant Association survey, 35% of operators with outdoor seating said it accounted for more than 40% of average daily sales, 41% among full-service restaurants.[^s3] That survey is from 2021; [[VERIFY: a more recent operator figure for outdoor sales share — Blake Petty]]
+For many operators, yes. In a National Restaurant Association survey, 35% of operators with outdoor seating said it accounted for more than 40% of average daily sales, 41% among full-service restaurants.[^s3] That survey is from 2021; [[VERIFY: a more recent operator figure for outdoor sales share — Hospitality sales]]
 
 It matters more in a soft year. In the Association's 2026 report, 61% of full-service operators said traffic was lower in 2025 than in 2024, and 85% said building on-premises business will matter more in 2026.[^s4] A patio is on-premises capacity you already pay for.
 
@@ -159,10 +159,10 @@ Cover, heat and control it.
 
 - **Cover what you can.** A roof or awning holds warmth and allows fixed heaters overhead.
 - **Heat the seat, not the space.** Radiant heat warms guests, not air. Over tables, Platinum Smart-Heat Electric mounts in the soffit or on the wall; where nothing can be mounted, the Eclipse Smart-Heat Freestanding Electric or the Tungsten Smart-Heat Freestanding Gas moves with the layout.[^s10]
-- **Control it.** Platinum runs on an Affinity Smart-Heat On/Off or Dimmer controller and a wall switch; Eclipse on the Eclipse controller, stepping through 33, 66 and 100%. Zones and schedules come through the Bromic Smart-Heat app; Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately.[^s10] [[VERIFY: control options for Tungsten Freestanding Gas — Mike Clifford]]
+- **Control it.** Platinum runs on an Affinity Smart-Heat On/Off or Dimmer controller and a wall switch; Eclipse on the Eclipse controller, stepping through 33, 66 and 100%. Zones and schedules come through the Bromic Smart-Heat app; Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately.[^s10] [[VERIFY: control options for Tungsten Freestanding Gas — Product team]]
 - **Plan service.** A longer walk from kitchen and bar needs a stocked server station outside.
 
-Patio heaters are not waterproof. Ratings differ by model (Tungsten Smart-Heat Electric is IPX4; Platinum Electric Marine is IPX5), so check the model before it goes where rain reaches.[^s11] [[VERIFY: IP rating per model — Mike Clifford]]
+Patio heaters are not waterproof. Ratings differ by model (Tungsten Smart-Heat Electric is IPX4; Platinum Electric Marine is IPX5), so check the model before it goes where rain reaches.[^s11] [[VERIFY: IP rating per model — Product team]]
 
 ![Covered restaurant patio with Eclipse pendant heaters glowing above tables](img:w-stellas-wine-bar-houston-tx-3)
 
@@ -172,7 +172,7 @@ At [Hotel Skansen](https://www.bromic.com/case-study/hotel-skansen-elevates-outd
 
 Run the numbers on margin, not revenue. The method in [the patio heater ROI article](item:COM-IN-01): added revenue = heated seats × turns × average check × extra nights × share of seats filled; take your contribution margin, subtract running cost, and divide installed cost by the monthly result.
 
-Illustrative only, with that article's assumptions: 40 heated seats, 1.5 turns, $45 average check, 60 extra nights, 50% of seats filled and 30% margin give $81,000 added revenue and $24,300 added margin. Forty seats at 20 ft² a seat is 800 ft², which takes seven Platinum Electric 4500W heaters on a partly covered patio on cool evenings (800 ÷ (143 × 0.85) = 6.6), each with Affinity controls. Running cost is kW × hours × $/kWh: 7 × 4.5 × 5 × 60 = 9,450 kWh, about $1,330 at 14.07¢/kWh[^s9] (about $1,280 at the 13.54¢ May 2026 rate the five-year cost model uses[^s13]). Net gain is $22,970 a year; on a $35,000 installed cost (a placeholder: 7 × $5,000), payback is about 18 months. [[VERIFY: benchmarks — Blake Petty; align the 14.07¢ and 13.54¢ rates — Brian Kim/Finance]] Energy cost is a real concern for operators (82% of full-service operators call it a significant challenge),[^s4] which is why zoning and scheduling matter.
+Illustrative only, with that article's assumptions: 40 heated seats, 1.5 turns, $45 average check, 60 extra nights, 50% of seats filled and 30% margin give $81,000 added revenue and $24,300 added margin. Forty seats at 20 ft² a seat is 800 ft², which takes seven Platinum Electric 4500W heaters on a partly covered patio on cool evenings (800 ÷ (143 × 0.85) = 6.6), each with Affinity controls. Running cost is kW × hours × $/kWh: 7 × 4.5 × 5 × 60 = 9,450 kWh, about $1,330 at 14.07¢/kWh[^s9] (about $1,280 at the 13.54¢ May 2026 rate the five-year cost model uses[^s13]). Net gain is $22,970 a year; on a $35,000 installed cost (a placeholder: 7 × $5,000), payback is about 18 months. [[VERIFY: benchmarks — Hospitality sales; align the 14.07¢ and 13.54¢ rates — Finance]] Energy cost is a real concern for operators (82% of full-service operators call it a significant challenge),[^s4] which is why zoning and scheduling matter.
 
 ## Frequently asked
 

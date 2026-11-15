@@ -12,7 +12,7 @@ cta: {label: "Book a design consult", asset: A07}
 hero: m-scenic-eclipse-1
 hero_caption: "Scenic Eclipse, from Bromic's marine presentation (2022)."
 images: ["m-scenic-eclipse-1", "m-scenic-eclipse-2", "m-world-navigator-1", "m-sh-minerva-1"]
-owner_review: Josh Maingard
+owner_review: Marine team
 status: draft
 source_kind: web-find
 origin: web-search
@@ -46,7 +46,7 @@ sources:
 | Segment | Marine, expedition cruise |
 | Products | Platinum Smart-Heat Electric Marine |
 | Spaces | SH Minerva: top-deck bar, restaurant and suite balconies; others not stated |
-| Controls | [[VERIFY: controls and zoning on board — Josh Maingard]] |
+| Controls | [[VERIFY: controls and zoning on board — Marine team]] |
 
 ## The space
 
@@ -56,7 +56,7 @@ Ice-class expedition ships that take a few hundred guests to Antarctica and the 
 
 Platinum Smart-Heat Electric Marine heaters on all four ships. On SH Minerva, Bromic's presentation names the top-deck bar, the restaurant and the suite balconies; a 2024 trade feature names SH Vega, her sister.
 
-**Controls.** [[VERIFY: which controls were installed, and how many zones — Josh Maingard]] A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+**Controls.** [[VERIFY: which controls were installed, and how many zones — Marine team]] A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
 ## Why it matters for sales
 
@@ -80,6 +80,6 @@ All four photographs come from Bromic's 2022 marine presentation. The licence fo
 
 ## To publish
 
-- Josh Maingard: confirm decks and quantities per ship.
+- Marine team: confirm decks and quantities per ship.
 - Approach Tillberg Design of Sweden as a specifier story across several ships.
 - Work through the consent checklist in the [case-study template](item:CS-TEMPLATE): permission to name the venue or home, approved numbers and quotes, credits, and a photo licence.

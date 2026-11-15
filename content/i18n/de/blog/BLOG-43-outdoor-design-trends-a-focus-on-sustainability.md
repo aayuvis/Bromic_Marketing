@@ -14,8 +14,8 @@ ai_prompt: "Wie unterstützt die Gestaltung von Außenräumen nachhaltige Archit
 meta_description: "Thomas Ventura von Gensler über nachhaltige Außenraumgestaltung: frühe Zustimmung des Bauherrn, Tageslicht und Luft, langlebige Materialien und Wärme nach Maß."
 cta: {label: "Den Weiterbildungskurs zur Außenbeheizung buchen (AIA CE, US-Akkreditierung)", asset: A14}
 hero: w-gensler-project-images-3
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -60,7 +60,7 @@ sources:
 lang: de
 translation_of: BLOG-43
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 
 Der Außenraum ist Teil eines nachhaltigen Gebäudes, keine Dekoration drumherum. In Staffel eins, Folge fünf von Designing Outdoor Spaces vertritt Thomas Ventura von Gensler die These, dass gut geplante Außenräume mit Tageslicht und Luft die technische Gebäudelast senken, Menschen zusammenbringen und lange halten, wenn sie aus langlebigen Materialien gebaut sind – und dass nichts davon gelingt, wenn sich der Bauherr nicht von Anfang an zu diesen Zielen bekennt[^s1].
@@ -69,7 +69,7 @@ Der Außenraum ist Teil eines nachhaltigen Gebäudes, keine Dekoration drumherum
 
 ## Wer ist Thomas Ventura?
 
-Thomas Ventura ist Design-Verantwortlicher bei [Gensler](https://www.gensler.com/) mit mehr als 30 Jahren Branchenerfahrung, davon fast ein Jahrzehnt bei Gensler, mit Schwerpunkt auf gemischt genutzten Projekten, Mehrfamilienbau und Hotellerie[^s1]. [[VERIFY: Thomas Venturas aktuelle Funktion (auf der Seite zur Folge steht Associate Design Director) bei Gensler prüfen — Megan Spies]] Die Folge erschien am 10. Mai 2024[^s2] und wird von Archispeak moderiert.
+Thomas Ventura ist Design-Verantwortlicher bei [Gensler](https://www.gensler.com/) mit mehr als 30 Jahren Branchenerfahrung, davon fast ein Jahrzehnt bei Gensler, mit Schwerpunkt auf gemischt genutzten Projekten, Mehrfamilienbau und Hotellerie[^s1]. [[VERIFY: Thomas Venturas aktuelle Funktion (auf der Seite zur Folge steht Associate Design Director) bei Gensler prüfen — Marketing]] Die Folge erschien am 10. Mai 2024[^s2] und wird von Archispeak moderiert.
 
 ## Nachhaltigkeit beginnt beim Bauherrn
 
@@ -111,4 +111,4 @@ Nur belegte Zonen heizen, mit der nötigen Leistung und nach Zeitplan; Elektro-H
 
 <div class="newsletter">Newsletter-Anmeldung, eine Zeile (454 Creative bindet sie an das HubSpot-Newsletterformular an): „Erhalten Sie jede neue Folge von Designing Outdoor Spaces per E-Mail.“</div>
 
-Holen Sie die Wissenschaft der Außenbeheizung in Ihr Büro: Buchen Sie Bromics einstündigen Weiterbildungskurs (AIA CE, eine US-Akkreditierung). [[VERIFY: ob der Kurs in Deutschland angeboten und von einer Architektenkammer als Fortbildung anerkannt wird — Raffaele Marti]]
+Holen Sie die Wissenschaft der Außenbeheizung in Ihr Büro: Buchen Sie Bromics einstündigen Weiterbildungskurs (AIA CE, eine US-Akkreditierung). [[VERIFY: ob der Kurs in Deutschland angeboten und von einer Architektenkammer als Fortbildung anerkannt wird — Partner Deutschland]]

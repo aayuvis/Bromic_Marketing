@@ -18,8 +18,8 @@ ai_prompt: "Wat kunnen architecten leren van de manier waarop buitendekken van c
 meta_description: "Helena Sawelin van Tillberg Design over het ontwerpen van cruisedekken voor wind, zout en beweging, en wat dat betekent voor het verwarmen van buitenkamers op het land."
 cta: {label: "Download Revit BIM- en CAD-bestanden", asset: A13}
 hero: w-princess-sanctuary
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -69,7 +69,7 @@ In de tweede aflevering van het tweede seizoen van Designing Outdoor Spaces legt
 
 ## Wie is Helena Sawelin?
 
-Helena Sawelin is partner en design director bij Tillberg Design of Sweden, een studio die gespecialiseerd is in cruiseschepen en luxejachten[^s1]. Ze werkt al meer dan twintig jaar in het vak en leidt multidisciplinaire teams, van masterplan tot het detail van interieur en buitenruimte. De aflevering wordt gepresenteerd door Evan Troxel[^s3], medepresentator van Archispeak, en verscheen op 19 april 2025[^s2]. [[VERIFY: de huidige functietitel van Helena Sawelin, te controleren bij Tillberg Design of Sweden — Megan Spies]]
+Helena Sawelin is partner en design director bij Tillberg Design of Sweden, een studio die gespecialiseerd is in cruiseschepen en luxejachten[^s1]. Ze werkt al meer dan twintig jaar in het vak en leidt multidisciplinaire teams, van masterplan tot het detail van interieur en buitenruimte. De aflevering wordt gepresenteerd door Evan Troxel[^s3], medepresentator van Archispeak, en verscheen op 19 april 2025[^s2]. [[VERIFY: de huidige functietitel van Helena Sawelin, te controleren bij Tillberg Design of Sweden — marketing]]
 
 ## Ontwerpen voor een ruimte die beweegt
 
@@ -77,7 +77,7 @@ Op zee staat niets stil. Volgens de post plant het team van Sawelin vanaf het be
 
 ## Buitendekken als bestemming
 
-Sawelin wil dat dekken, lounges en zwembadzones plekken zijn waar gasten graag blijven hangen. Licht, indeling en akoestiek tellen net zo als op het land, maar haar team plant ook rond de beweging van het schip, het wisselende uitzicht, de stand van de zon, windpatronen en de reisroute zelf[^s1]. In haar verhaal zijn de buitenruimten vaak het hart van de gastbeleving. [[VERIFY: formulering van dit punt tegen de aflevering — Megan Spies]]
+Sawelin wil dat dekken, lounges en zwembadzones plekken zijn waar gasten graag blijven hangen. Licht, indeling en akoestiek tellen net zo als op het land, maar haar team plant ook rond de beweging van het schip, het wisselende uitzicht, de stand van de zon, windpatronen en de reisroute zelf[^s1]. In haar verhaal zijn de buitenruimten vaak het hart van de gastbeleving. [[VERIFY: formulering van dit punt tegen de aflevering — marketing]]
 
 ## Lessen voor ontwerpers op het land
 

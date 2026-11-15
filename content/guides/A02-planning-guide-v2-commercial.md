@@ -15,7 +15,7 @@ meta_description: "Operator's guide to patio heating: revenue case, five-year fu
 cta: {label: "Get your ROI assessment", asset: A21}
 hero: l-013-104
 images: [l-005-024, l-013-111, l-013-107, l-019-164, p-003-006]
-owner_review: Mike Clifford + 454 Creative
+owner_review: Product team + 454 Creative
 status: draft
 gated: true
 related: [COM-CO-01, COM-IN-01, ARC-CO-01]
@@ -235,7 +235,7 @@ Outdoor seating is mainstream: in a 2020 National Restaurant Association survey,
 
 **Payback (months) = all-in installed cost ÷ (added contribution per year ÷ 12)**
 
-Use contribution margin, not revenue, for payback. Count only nights the patio would not sell without heat. Turns and check come from your POS; extra nights from last year's weather closures. [[VERIFY: benchmark ranges for turns, check and season extension by climate — Blake Petty]] The [ROI calculator](asset:A21) runs it for your site.
+Use contribution margin, not revenue, for payback. Count only nights the patio would not sell without heat. Turns and check come from your POS; extra nights from last year's weather closures. [[VERIFY: benchmark ranges for turns, check and season extension by climate — Hospitality sales]] The [ROI calculator](asset:A21) runs it for your site.
 
 ## The nine steps
 
@@ -270,7 +270,7 @@ Outdoor means at least 30% of the perimeter permanently open; a partial roof or 
 
 **Energy per hour:** electric = kW × $/kWh · natural gas = Btu/h ÷ 100,000 × $/therm · propane = Btu/h ÷ 91,500[^s23] × $/gal.
 
-Rates used, the same as the [A20 TCO model](asset:A20): electricity 13.54¢/kWh (EIA, US commercial average, May 2026)[^s18]; natural gas $0.87 per therm (EIA, US commercial, January–May 2026 average)[^s19]; propane $2.674 per gallon (EIA, US residential, week of 30 March 2026; EIA publishes no commercial series)[^s20]. [[VERIFY: 2026 commercial rates, national and by state, and cylinder-exchange propane prices — Brian Kim/Finance]]
+Rates used, the same as the [A20 TCO model](asset:A20): electricity 13.54¢/kWh (EIA, US commercial average, May 2026)[^s18]; natural gas $0.87 per therm (EIA, US commercial, January–May 2026 average)[^s19]; propane $2.674 per gallon (EIA, US residential, week of 30 March 2026; EIA publishes no commercial series)[^s20]. [[VERIFY: 2026 commercial rates, national and by state, and cylinder-exchange propane prices — Finance]]
 
 | Heater at full output | Covers | Cost per hour |
 |---|---|---|
@@ -288,7 +288,7 @@ Rates used, the same as the [A20 TCO model](asset:A20): electricity 13.54¢/kWh 
 |---|---|---|---|---|
 | Tungsten Electric 6000 W | 600 ÷ (160 × 0.85 = 136) = 4.4 → 5 | 5 × 6 kW × 900 h × $0.1354 = $3,656 | $18,279 | 5-channel Affinity Dimmer, one heater per 6 kW channel (5 channels); wall switch; app |
 | Platinum Gas 39,800 Btu/h, natural gas | 600 ÷ (215 × 0.85 = 182.75) = 3.3 → 4 | 4 × 0.398 therm × 900 h × $0.87 = $1,247 | $6,233 | One Affinity On/Off channel (up to 10 gas heaters); wall switch; app |
-| Tungsten Freestanding Gas, propane | larger of 3.3 → 4 by area and 30 seats ÷ 4 = 7.5 → 8 | 8 × 0.4153 gal × 900 h × $2.674 = $7,996 | $39,979, plus handling | [[VERIFY: controls for Tungsten Freestanding Gas — Mike Clifford]] |
+| Tungsten Freestanding Gas, propane | larger of 3.3 → 4 by area and 30 seats ÷ 4 = 7.5 → 8 | 8 × 0.4153 gal × 900 h × $2.674 = $7,996 | $39,979, plus handling | [[VERIFY: controls for Tungsten Freestanding Gas — Product team]] |
 
 Energy only, at full output; your bill, schedules and dimming lower it. Propane adds about 2,990 gallons a year, about 636 swaps of a 4.7-gallon cylinder, to buy, swap and store. Run hardware, installation and handling in the [TCO model](asset:A20). The 2021 guide's per-hour figures used 2021 prices and are retired.
 
@@ -322,7 +322,7 @@ Energy only, at full output; your bill, schedules and dimming lower it. Propane 
 | Tungsten Electric Coastal (coming soon) | Waterfront venues; 316 stainless | [[VERIFY]][^s2] |
 | Tungsten Electric Select (coming soon) | Design-led venues; Black, White, Graphite | [[VERIFY]][^s2] |
 
-[[VERIFY: warranty terms for commercial use, and the Tungsten Freestanding Gas natural-gas warranty — Mike Clifford]]
+[[VERIFY: warranty terms for commercial use, and the Tungsten Freestanding Gas natural-gas warranty — Product team]]
 
 - [ ] One heater family per site type (canopy, wall, freestanding)
 - [ ] Coming-soon models carry an approved current alternate
@@ -331,7 +331,7 @@ Energy only, at full output; your bill, schedules and dimming lower it. Propane 
 
 ## Step 5. Size it
 
-Heaters per zone = zone ft² ÷ (coverage × cover factor × climate factor), rounded up. Cover: open 0.85, partly covered 1.0, covered 1.1. Climate: mild (above about 50°F) 1.0, cool (about 40–50°F) 0.85, cold (often below about 40°F) 0.7. Freestanding heaters also serve no more than 4 seats each, because guests block their radiant heat: take the larger of the two counts. Without a seat count, seats = ft² ÷ 20[^s28]. [[VERIFY: cover and climate factors — Mike Clifford]]
+Heaters per zone = zone ft² ÷ (coverage × cover factor × climate factor), rounded up. Cover: open 0.85, partly covered 1.0, covered 1.1. Climate: mild (above about 50°F) 1.0, cool (about 40–50°F) 0.85, cold (often below about 40°F) 0.7. Freestanding heaters also serve no more than 4 seats each, because guests block their radiant heat: take the larger of the two counts. Without a seat count, seats = ft² ÷ 20[^s28]. [[VERIFY: cover and climate factors — Product team]]
 
 | Heater | Coverage per heater |
 |---|---|
@@ -344,7 +344,7 @@ Heaters per zone = zone ft² ÷ (coverage × cover factor × climate factor), ro
 | Tungsten Freestanding Gas, 38,000 Btu/h | 215 ft²[^s2] |
 | Tungsten Electric Coastal and Select (coming soon) | 64–144 ft²[^s2] |
 
-Coverage is approximate and varies with mounting height, environment and installation[^s2]. [[VERIFY: Eclipse 2900 W vs 3000 W; Tungsten Freestanding Gas 38,000 vs 38,500 Btu/h; per-model coverage against the 2026 cut sheets — Mike Clifford]]
+Coverage is approximate and varies with mounting height, environment and installation[^s2]. [[VERIFY: Eclipse 2900 W vs 3000 W; Tungsten Freestanding Gas 38,000 vs 38,500 Btu/h; per-model coverage against the 2026 cut sheets — Product team]]
 
 - [ ] Count per zone; calculator run for each site
 
@@ -357,7 +357,7 @@ Coverage is approximate and varies with mounting height, environment and install
 | Cobalt Electric 4000 / 6000 W | 18.75 / 28.4 | 16.6 / 25[^s9] |
 | Tungsten Electric 4000 / 6000 W (calculated, W ÷ V) | 19.2 / 28.8 | 16.7 / 25.0 |
 
-Tungsten 4000 and 6000 W are also offered at 277 V[^s4]. [[VERIFY: Tungsten amps per model and voltage — Mike Clifford]] Built-in gas heaters need a gas line and a 110 V, 2 A supply[^s10][^s11]. Circuits are sized by a licensed electrician to NFPA 70[^s21]; gas by a licensed fitter to NFPA 54[^s22].
+Tungsten 4000 and 6000 W are also offered at 277 V[^s4]. [[VERIFY: Tungsten amps per model and voltage — Product team]] Built-in gas heaters need a gas line and a 110 V, 2 A supply[^s10][^s11]. Circuits are sized by a licensed electrician to NFPA 70[^s21]; gas by a licensed fitter to NFPA 54[^s22].
 
 - [ ] Panel capacity and circuits per zone
 - [ ] Gas load and shut-offs; 110 V at each built-in gas heater
@@ -376,7 +376,7 @@ Controls make the Step 3 numbers real. Without them, heat runs at full output un
 | On before service, off at close | Bromic Smart-Heat app: zones, schedules, timers | Through a compatible Affinity controller |
 | Venue-wide control | Expansion board: Ethernet and 0–10 V to a BMS (BMS mode disables the app) | Built into the 5-channel[^s17] |
 
-Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately. Control4, Crestron and Lutron compatibility varies and may need extra hardware or configuration[^s2]. [[VERIFY: multi-site or remote management in the app; Tungsten Freestanding Gas controls — Mike Clifford]]
+Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately. Control4, Crestron and Lutron compatibility varies and may need extra hardware or configuration[^s2]. [[VERIFY: multi-site or remote management in the app; Tungsten Freestanding Gas controls — Product team]]
 
 - [ ] Zone-to-channel schedule
 - [ ] Schedules tied to service hours; wall switch for the closing manager
@@ -399,7 +399,7 @@ Start with the fire marshal. Rules are adopted and amended locally.
 | Gas installation | NFPA 54[^s22] | Fixed supply, clearances, ventilation |
 | Certification | Intertek, UL or CSA mark | Required on gas and electrical appliances, including portable heaters[^s3] |
 
-[[VERIFY: current IFC 2024 text of 603.4 and 603.4.2 — Shaughn Ritchie]]
+[[VERIFY: current IFC 2024 text of 603.4 and 603.4.2 — Specification and compliance]]
 
 *This table points to primary sources; it is not legal advice. The locally adopted code and the AHJ's interpretation govern. Confirm with the local building and fire authority, and use a licensed electrician or gas fitter.*
 

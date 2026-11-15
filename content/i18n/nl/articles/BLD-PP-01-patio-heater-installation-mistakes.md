@@ -14,7 +14,7 @@ meta_description: "Terrasverwarmer niet warm genoeg? Meestal hangt hij te hoog, 
 cta: {label: "Vraag aannemersprijzen en levertijden aan", asset: A18}
 hero: l-010-074
 images: [l-010-066]
-owner_review: Arvin Avaness
+owner_review: verkoop vakhandel
 status: draft
 gated: false
 related: [BLD-IN-01, BLD-BY-01, BLD-IN-KB2]
@@ -67,7 +67,7 @@ Een terrasverwarmer die niet warm genoeg wordt, hangt meestal te hoog of te ver 
 
 Stralingswarmte neemt af met de afstand. Hangt een verwarmer hoger dan hij is ontworpen, dan voelen de mensen eronder weinig. Hangt hij te laag, dan worden hoofden heet en zit u mogelijk onder de voorgeschreven minimumhoogte.
 
-De richtlijn van Bromic is minstens 1,8 m boven de vloer voor wandmontage en minstens 2,4 m voor plafondmontage, waarbij de juiste hoogte afhangt van het vermogen[^s2]. Ook het verwarmd oppervlak verandert met de montagehoogte[^s1]. Neem de hoogte voor elk model over uit de installatiehandleiding [[VERIFY: aanbevolen montagehoogte per model en vermogen — Mike Clifford]], en gebruik bij hoge plafonds pendels om de verwarmer naar een effectieve hoogte te brengen[^s2].
+De richtlijn van Bromic is minstens 1,8 m boven de vloer voor wandmontage en minstens 2,4 m voor plafondmontage, waarbij de juiste hoogte afhangt van het vermogen[^s2]. Ook het verwarmd oppervlak verandert met de montagehoogte[^s1]. Neem de hoogte voor elk model over uit de installatiehandleiding [[VERIFY: aanbevolen montagehoogte per model en vermogen — productteam]], en gebruik bij hoge plafonds pendels om de verwarmer naar een effectieve hoogte te brengen[^s2].
 
 ## 2. Hoeveel verwarmers heeft een blootgesteld terras nodig?
 
@@ -83,7 +83,7 @@ Dimensioneer voor de koudste avond waarop de koper de ruimte gaat gebruiken, en 
 
 ## 3. Welke vrije afstanden worden vergeten?
 
-De afstanden die niemand heeft gemarkeerd voordat de platen erop gingen: de afstand tot het plafond boven een wandverwarmer, tot balken en ventilatoren naast een plafondverwarmer, en tot brandbare afwerking. De vrije ruimte tot het plafond hangt af van het vermogen[^s2]. Haal de tabel met vrije afstanden uit de installatiehandleiding van het exacte model [[VERIFY: tabel met vrije afstanden per model — Mike Clifford]] en markeer ze op het regelwerk. Een ventilator, lamp of luidspreker binnen de vrije afstand van een verwarmer betekent een nieuw ontwerp, geen reparatie.
+De afstanden die niemand heeft gemarkeerd voordat de platen erop gingen: de afstand tot het plafond boven een wandverwarmer, tot balken en ventilatoren naast een plafondverwarmer, en tot brandbare afwerking. De vrije ruimte tot het plafond hangt af van het vermogen[^s2]. Haal de tabel met vrije afstanden uit de installatiehandleiding van het exacte model [[VERIFY: tabel met vrije afstanden per model — productteam]] en markeer ze op het regelwerk. Een ventilator, lamp of luidspreker binnen de vrije afstand van een verwarmer betekent een nieuw ontwerp, geen reparatie.
 
 ## 4. Waarom slaat een verwarmer af, of voelt hij zwak?
 
@@ -91,7 +91,7 @@ Twee elektrische fouten veroorzaken de meeste van deze meldingen.
 
 **Te kleine groepen.** Een buitenverwarmer kan uren achter elkaar werken, dus behandel hem als continue belasting. De Amerikaanse NEC rekent een belasting als continu wanneer de verwachte stroom drie uur of langer loopt, en vraagt dan een groep van minstens 125% van de nominale stroom[^s3]; in Nederland dimensioneert de installateur de groep volgens NEN 1010. [[VERIFY: eisen van NEN 1010 voor groepen met continue belasting zoals buitenverwarmers — Bromic Benelux distributor]] Een verwarmer van 4500 W neemt bij 230 V ongeveer 19,6 A op (4500 ÷ 230): hij hoort op een eigen groep waarvan de beveiliging en de kabel op die stroom bij continu gebruik zijn berekend. Verwarmers die aan een gedeelde groep worden toegevoegd, laten die afslaan.
 
-**Verkeerde spanning.** Het vermogen van een elektrische verwarmer daalt met het kwadraat van de spanning. In de VS levert een verwarmer die is gebouwd voor 240 V op een voeding van 208 V daardoor ongeveer 75% van zijn nominale vermogen: een verwarmer die het 'doet', maar nooit goed aanvoelt. In Nederland is de netspanning 230 V, 50 Hz; controleer de spanning op de locatie en bestel de uitvoering die erbij past [[VERIFY: voltage options per model — Mike Clifford]].
+**Verkeerde spanning.** Het vermogen van een elektrische verwarmer daalt met het kwadraat van de spanning. In de VS levert een verwarmer die is gebouwd voor 240 V op een voeding van 208 V daardoor ongeveer 75% van zijn nominale vermogen: een verwarmer die het 'doet', maar nooit goed aanvoelt. In Nederland is de netspanning 230 V, 50 Hz; controleer de spanning op de locatie en bestel de uitvoering die erbij past [[VERIFY: voltage options per model — productteam]].
 
 Zie de [checklist voor de voorbekabeling](item:BLD-IN-01) en [verwarmers per groep](item:BLD-IN-KB2) voor de berekening.
 
@@ -103,7 +103,7 @@ Elke verwarmer heeft zijn bediening nodig: een Affinity Smart-Heat On/Off- of Di
 
 ## Hoe voorkomen aannemers dat de levering het zesde probleem wordt?
 
-Bestel verwarmers, inbouwkits en bediening samen, afgestemd op de datum van de voorbekabeling, niet op de afmontagedatum. Een inbouwkit die aankomt nadat het plafond is beplaat, is fout drie via een omweg. Levertijden komen uit het aannemersprogramma [[VERIFY: standaardlevertijden per product en regio — Arvin Avaness / Peter Abraham]].
+Bestel verwarmers, inbouwkits en bediening samen, afgestemd op de datum van de voorbekabeling, niet op de afmontagedatum. Een inbouwkit die aankomt nadat het plafond is beplaat, is fout drie via een omweg. Levertijden komen uit het aannemersprogramma [[VERIFY: standaardlevertijden per product en regio — verkoop vakhandel / verkoopoperaties]].
 
 ## Checklist voor de planning
 
@@ -130,7 +130,7 @@ Lichte wind heeft minder invloed op stralingswarmte dan op warmeluchtverwarming,
 Meestal is de groep te klein voor een continue belasting, of wordt hij gedeeld met andere verwarmers. Dimensioneer elke groep volgens NEN 1010 op de stroom van de verwarmer bij continu gebruik.
 
 ### Heb ik voor elke verwarmer een regelaar nodig?
-Elke verwarmer heeft een bediening nodig: een Affinity Smart-Heat-regelaar en een wandschakelaar. Hoeveel verwarmers één regelaar aankan, hangt af van de regelaar en zijn maximale belasting [[VERIFY: aantal verwarmers en maximale belasting per Affinity-regelaar — Mike Clifford]].
+Elke verwarmer heeft een bediening nodig: een Affinity Smart-Heat-regelaar en een wandschakelaar. Hoeveel verwarmers één regelaar aankan, hangt af van de regelaar en zijn maximale belasting [[VERIFY: aantal verwarmers en maximale belasting per Affinity-regelaar — productteam]].
 
 Plan de volgende bestelling rond de datum van de voorbekabeling. Vraag aannemersprijzen en levertijden aan.
 

@@ -17,8 +17,8 @@ ai_prompt: "What is the difference between an infrared heater and a radiant heat
 meta_description: "Infrared and radiant heaters are the same idea: radiant is how heat travels, infrared is what it is. What matters outdoors is wavelength and radiant share."
 cta: {label: "Download the Outdoor Living Trends 2026 report", asset: A01}
 hero: w-bromic-eclipse-portable-hotel-skansen-07
-owner_review: Brian Kim
-technical_reviewer: Mike Clifford
+owner_review: Digital marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -113,7 +113,7 @@ Radiant heating is the foundation of every Bromic heater[^s2]. The Planning Guid
 - **Directional heat.** Most of the output is pushed one way, toward the seating, rather than evenly in every direction[^s2].
 - **Placed for people.** Coverage is planned around where guests sit, not the floor area; it varies with model, mounting height, environment and installation[^s5].
 
-[[VERIFY: wavelength band (short / medium) of each current Bromic model, for a per-product row — Mike Clifford]]
+[[VERIFY: wavelength band (short / medium) of each current Bromic model, for a per-product row — Product team]]
 
 ## Can an infrared heater be electric or gas?
 
@@ -126,7 +126,7 @@ Yes. Infrared describes the output, not the fuel. Electric heaters suit covered 
 | Eclipse Smart-Heat Electric | Electric | 121 ft²[^s5] | Affinity Eclipse controller or Eclipse Dimmer, manual wall switch |
 | Platinum Smart-Heat Gas | Natural gas or propane | 160–215 ft² by model[^s6] | Affinity On/Off controller, manual wall switch |
 
-Every heater needs its control. The Smart-Heat app adds zones, schedules and timers; Wi-Fi and app features need compatible Affinity Smart-Heat Controls, sold separately[^s5]. Product-page values are awaiting sign-off. [[VERIFY: values read from bromic.com; confirm against 2026 cut sheets — Mike Clifford]]
+Every heater needs its control. The Smart-Heat app adds zones, schedules and timers; Wi-Fi and app features need compatible Affinity Smart-Heat Controls, sold separately[^s5]. Product-page values are awaiting sign-off. [[VERIFY: values read from bromic.com; confirm against 2026 cut sheets — Product team]]
 
 ## Frequently asked
 

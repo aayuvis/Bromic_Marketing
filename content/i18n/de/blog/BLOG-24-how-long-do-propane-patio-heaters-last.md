@@ -14,8 +14,8 @@ ai_prompt: "Wie lange reicht eine 11-kg-Gasflasche an einem Terrassenheizstrahle
 meta_description: "Eine volle 11-kg-Flüssiggasflasche betreibt einen Heizstrahler mit ca. 11,1 kW rund 14 Stunden bei voller Leistung, eine 5-kg-Flasche gut 6. Die Formel, Bromic-Laufzeiten und die Auswahl."
 cta: {label: "Fläche berechnen", asset: A03}
 hero: w-8
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -24,7 +24,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLOG-24
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: U.S. Energy Information Administration
@@ -99,7 +99,7 @@ Eine volle 11-kg-Flüssiggasflasche betreibt einen Terrassenheizstrahler mit ca.
 
 **Laufzeit (Stunden) = Flascheninhalt in kg × 14 kWh je kg ÷ Leistung des Heizstrahlers in kW**
 
-- **Inhalt der Flasche.** In Deutschland sind 5-kg- und 11-kg-Flaschen üblich; der Inhalt steht auf der Flasche. Wiegen Sie die Flasche und ziehen Sie das eingeprägte Leergewicht ab, um zu sehen, wie viel noch darin ist. [[VERIFY: welche Flaschengrößen der Tungsten Smart-Heat Freestanding in Deutschland aufnimmt — Mike Clifford]]
+- **Inhalt der Flasche.** In Deutschland sind 5-kg- und 11-kg-Flaschen üblich; der Inhalt steht auf der Flasche. Wiegen Sie die Flasche und ziehen Sie das eingeprägte Leergewicht ab, um zu sehen, wie viel noch darin ist. [[VERIFY: welche Flaschengrößen der Tungsten Smart-Heat Freestanding in Deutschland aufnimmt — Produktteam]]
 - **Energie je kg.** Die US-Energiebehörde EIA beziffert Propan mit rund 26,8 kWh je US-Gallone (91.452 BTU);[^s1] das US-Energieministerium DOE nennt einen nahezu gleichen Wert (91.420 BTU).[^s2] Bei rund 1,9 kg (4,2 lb) Propan je Gallone[^s3] sind das rund 14 kWh je kg.
 - **Die Nennleistung des Heizstrahlers** ist sein maximaler Verbrauch. Läuft er niedriger, hält die Flasche länger.
 
@@ -112,11 +112,11 @@ Rechenbeispiel: 11 kg × 14 kWh = 154 kWh in der Flasche. 154 ÷ 11,1 kW = 13,9 
 | Tungsten Smart-Heat Freestanding | ca. 11,1 kW[^s4] | 1,26 | ca. 6 | ca. 14 |
 | Platinum Gas, kleineres Modell | ca. 6,9 kW[^s6] | 2,0 | ca. 10 | ca. 22 |
 | Platinum Gas, größeres Modell | ca. 11,7 kW[^s6] | 1,2 | ca. 6 | ca. 13 |
-| Tungsten Gas (Wand oder Decke) | Noch nicht veröffentlicht | — | — | [[VERIFY: Tungsten Gas output, then run time — Mike Clifford]] |
+| Tungsten Gas (Wand oder Decke) | Noch nicht veröffentlicht | – | – | [[VERIFY: Tungsten Gas output, then run time — Produktteam]] |
 
 Alle Werte bei voller Leistung, berechnet mit der Formel oben. Wand- und Deckengeräte für Flüssiggas werden meist von einem Gasinstallateur aus einem größeren Behälter versorgt; für sie ist der Wert „Stunden je kg“ der nützliche.
 
-**Eine Korrektur.** Frühere Bromic-Beiträge nannten für ähnliche Flaschen 9–10 Stunden, 9 Stunden und 10–17 Stunden.[^s7] Die Rechnung oben ersetzt diese Angaben. Die Produktseite des Tungsten Freestanding nennt eine etwas höhere Leistung als das Lookbook (38.500 statt 38.000 BTU/h, also ca. 11,3 statt 11,1 kW); das verändert das Ergebnis um weniger als eine Viertelstunde.[^s5][^s4] [[VERIFY: Tungsten Freestanding output (38,000 or 38,500 BTU/h) and run time per cylinder — Mike Clifford]]
+**Eine Korrektur.** Frühere Bromic-Beiträge nannten für ähnliche Flaschen 9–10 Stunden, 9 Stunden und 10–17 Stunden.[^s7] Die Rechnung oben ersetzt diese Angaben. Die Produktseite des Tungsten Freestanding nennt eine etwas höhere Leistung als das Lookbook (38.500 statt 38.000 BTU/h, also ca. 11,3 statt 11,1 kW); das verändert das Ergebnis um weniger als eine Viertelstunde.[^s5][^s4] [[VERIFY: Tungsten Freestanding output (38,000 or 38,500 BTU/h) and run time per cylinder — Produktteam]]
 
 <div class="diagram">Diagramm: eine 11-kg-Flasche, die einen Heizstrahler versorgt, mit der Formel 11 × 14 ÷ 11,1 = 13,9 h und einem Balken, der die Laufzeit bei jeder Bromic-Leistung vergleicht</div>
 
@@ -128,14 +128,14 @@ Flüssiggas kommt dorthin, wo es keine Gasleitung und keinen leistungsstarken St
 
 1. **Fläche bemessen.** Tungsten Freestanding beheizt ca. 20 m², Platinum Gas ca. 15 oder 20 m².[^s4][^s6]
 2. **Montage wählen.** Freistehend, wo Sie nicht montieren können oder die Wärme umstellen wollen; an Wand oder Decke, um unter einer Überdachung Bodenfläche zu sparen.[^s7]
-3. **Wind prüfen.** Tungsten Freestanding ist für Wind bis ca. 13 km/h ausgelegt.[^s5] Platinum Gas wird an einer Stelle mit 20 km/h, an anderer mit ca. 19 km/h angegeben. [[VERIFY: Platinum Gas wind rating — Mike Clifford]]
+3. **Wind prüfen.** Tungsten Freestanding ist für Wind bis ca. 13 km/h ausgelegt.[^s5] Platinum Gas wird an einer Stelle mit 20 km/h, an anderer mit ca. 19 km/h angegeben. [[VERIFY: Platinum Gas wind rating — Produktteam]]
 4. **Steuerung planen.** Platinum Gas und Tungsten Gas werden über ein Affinity Smart-Heat On/Off-Steuergerät oder einen manuellen Wandschalter betrieben, mit einer Erweiterungsplatine für die Gebäudeleittechnik.[^s6] WLAN- und App-Funktionen erfordern kompatible Affinity-Steuergeräte, separat erhältlich.[^s4]
 
 ## Wie viel Belüftung braucht ein Flüssiggas-Heizstrahler?
 
-Propan verbrennt und erzeugt dabei Kohlenmonoxid; verwenden Sie es daher nur im Freien. Der Bromic-Planungsleitfaden betrachtet einen Bereich als Außenbereich, wenn mindestens 30 % seines Umfangs dauerhaft offen sind.[^s8] Die Angabe „75 % offene Wände“ aus dem früheren Kaufratgeber ist zurückgezogen.[^s7] Maßgeblich sind die Anleitung Ihres Geräts und die örtlichen Vorschriften. [[VERIFY: ventilation requirement in each propane heater's manual — Mike Clifford]]
+Propan verbrennt und erzeugt dabei Kohlenmonoxid; verwenden Sie es daher nur im Freien. Der Bromic-Planungsleitfaden betrachtet einen Bereich als Außenbereich, wenn mindestens 30 % seines Umfangs dauerhaft offen sind.[^s8] Die Angabe „75 % offene Wände“ aus dem früheren Kaufratgeber ist zurückgezogen.[^s7] Maßgeblich sind die Anleitung Ihres Geräts und die örtlichen Vorschriften. [[VERIFY: ventilation requirement in each propane heater's manual — Produktteam]]
 
-In Deutschland richten sich Gasinstallationen nach DVGW-TRGI (Erdgas) und Flüssiggasanlagen nach TRF; in den USA gelten ANSI Z223.1/NFPA 54 sowie NFPA 58 für Flaschen und Lagerung.[^s8][^s9] [[VERIFY: current VDE and DVGW rules for outdoor heaters — Raffaele Marti]] Klären Sie die Anforderungen mit Ihrem Bauamt und einem Gasinstallateur.
+In Deutschland richten sich Gasinstallationen nach DVGW-TRGI (Erdgas) und Flüssiggasanlagen nach TRF; in den USA gelten ANSI Z223.1/NFPA 54 sowie NFPA 58 für Flaschen und Lagerung.[^s8][^s9] [[VERIFY: current VDE and DVGW rules for outdoor heaters — Partner Deutschland]] Klären Sie die Anforderungen mit Ihrem Bauamt und einem Gasinstallateur.
 
 ## Häufige Fragen
 

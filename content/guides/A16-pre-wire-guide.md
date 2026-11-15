@@ -15,7 +15,7 @@ meta_description: "Rough-in guide for patio heaters: circuits and amps, 125% siz
 cta: {label: "Book a design consult", asset: A07}
 hero: g-rough-in
 images: [l-010-076, l-005-022, l-010-074, t-012-034]
-owner_review: Arvin Avaness
+owner_review: Trade sales
 status: draft
 gated: true
 related: [BLD-IN-01, BLD-CO-01, ARC-IN-01]
@@ -103,7 +103,7 @@ Fewer than one in four homeowners prioritize heating at planning[^s1]. The rest 
 | Platinum Smart-Heat Electric | 2300 / 3400 / 4500 W | Dedicated circuit(s) to controller; heater junction box | Recessed (recess kit), ceiling or wall; blocking |
 | Eclipse Smart-Heat Electric | [[VERIFY: wattage and supply]] | Circuit to controller; ceiling box at pole | Single pole 8", 24" or 48"; double or curved pole; blocking for pole |
 | Eclipse Smart-Heat Freestanding Electric | [[VERIFY: plug or hard-wire; receptacle rating]] | [[VERIFY: outdoor receptacle requirements]] | None; level surface |
-| Tungsten Smart-Heat Electric — Coastal / Select (coming soon) | [[VERIFY: wattages]] | As Platinum, pending install manual | Low-clearance recessing, ceiling, wall, single-post |
+| Tungsten Smart-Heat Electric – Coastal / Select (coming soon) | [[VERIFY: wattages]] | As Platinum, pending install manual | Low-clearance recessing, ceiling, wall, single-post |
 | Tungsten Gas (built-in), Platinum Gas | [[VERIFY: Btu/h — do not publish Tungsten built-in figure until confirmed]] | Gas stub-out and shut-off; [[VERIFY: any electrical supply for ignition/controls]] | Ceiling, wall; ceiling poles, heat deflectors |
 | Tungsten Smart-Heat Freestanding Gas | 38,000 Btu/h; natural gas or propane | Propane: none. Natural gas: [[VERIFY: quick-connect outlet requirement]] | None |
 
@@ -127,10 +127,10 @@ Rated wattage divided by voltage. A heater rated at 240 V draws less on 208 V; u
 
 **Worked example: three 3400 W heaters on 240 V.**
 - Per heater: 3400 ÷ 240 = 14.2 A; × 1.25 = 17.7 A.
-- All three on one controller output: 42.5 A; × 1.25 = 53.1 A minimum conductor ampacity — too much for one typical circuit, so split them.
+- All three on one controller output: 42.5 A; × 1.25 = 53.1 A minimum conductor ampacity – too much for one typical circuit, so split them.
 - Panel: add 10.2 kW to the load calculation.
 
-[[VERIFY: (1) whether Bromic electric heaters are classified under NEC Art. 424 or Art. 422 by most AHJs; (2) the breaker size and maximum heaters per circuit stated in each installation manual; (3) the Affinity controller's maximum load per channel and whether it sits between breaker and heaters — Arvin Avaness + licensed electrician]]
+[[VERIFY: (1) whether Bromic electric heaters are classified under NEC Art. 424 or Art. 422 by most AHJs; (2) the breaker size and maximum heaters per circuit stated in each installation manual; (3) the Affinity controller's maximum load per channel and whether it sits between breaker and heaters — Trade sales + licensed electrician]]
 
 [[DIAGRAM: Single-line diagram: panel → dedicated breakers → Affinity controller (one channel per zone) → junction boxes at heaters; wall switch and Wi-Fi shown; conductor sizes left blank for the electrician.]]
 
@@ -138,7 +138,7 @@ Rated wattage divided by voltage. A heater rated at 240 V draws less on 208 V; u
 
 | Item | Position | Note |
 |---|---|---|
-| Heater junction box | At each heater location, per manual | [[VERIFY: box type, offset from heater centreline, whether integral to recess kit — Mike Clifford]] |
+| Heater junction box | At each heater location, per manual | [[VERIFY: box type, offset from heater centreline, whether integral to recess kit — Product team]] |
 | Wall-mount height | Heater ≥ 72" above finished floor | Bromic guidance[^s3] |
 | Ceiling-mount height | Heater ≥ 96" above finished floor | Clearance to ceiling varies with output[^s3] |
 | Blocking | Solid blocking between joists at every heater, pole and bracket | Sized for heater and pole weight [[VERIFY: weights per model]] |
@@ -154,11 +154,11 @@ Recess kits flush-mount Platinum and Tungsten electric heaters into the ceiling 
 
 | Dimension | Value |
 |---|---|
-| Rough opening (L × W) | [[VERIFY dims: per model and size — Mike Clifford]] |
-| Minimum cavity depth | [[VERIFY dims: per model — Mike Clifford]] |
-| Clearance above kit to combustibles | [[VERIFY dims: per installation manual — Mike Clifford]] |
-| Low-clearance recessing (Tungsten Coastal / Select, coming soon) | [[VERIFY dims — Mike Clifford]] |
-| Ceiling finish thickness allowed | [[VERIFY dims — Mike Clifford]] |
+| Rough opening (L × W) | [[VERIFY dims: per model and size — Product team]] |
+| Minimum cavity depth | [[VERIFY dims: per model — Product team]] |
+| Clearance above kit to combustibles | [[VERIFY dims: per installation manual — Product team]] |
+| Low-clearance recessing (Tungsten Coastal / Select, coming soon) | [[VERIFY dims — Product team]] |
+| Ceiling finish thickness allowed | [[VERIFY dims — Product team]] |
 
 - Run joists or add headers to frame the opening square and level.
 - Keep insulation, vapour barriers and other services clear of the kit per the manual.
@@ -174,9 +174,9 @@ Controls are part of the system. Rough them in with the heater circuits.
 
 | Run | From → to | Note |
 |---|---|---|
-| Line voltage | Panel → Affinity controller → heaters | One controller channel per zone [[VERIFY: controller wiring topology — Mike Clifford]] |
-| Wall switch | Controller → switch box at the threshold | [[VERIFY: line-voltage or low-voltage switch leg; box size — Mike Clifford]] |
-| Controller location | Accessible, protected, within Wi-Fi range | [[VERIFY: indoor/outdoor rating and mounting — Mike Clifford]] |
+| Line voltage | Panel → Affinity controller → heaters | One controller channel per zone [[VERIFY: controller wiring topology — Product team]] |
+| Wall switch | Controller → switch box at the threshold | [[VERIFY: line-voltage or low-voltage switch leg; box size — Product team]] |
+| Controller location | Accessible, protected, within Wi-Fi range | [[VERIFY: indoor/outdoor rating and mounting — Product team]] |
 | Integration | Controller → home-automation panel | Control4, Crestron or Lutron; compatibility varies and may need extra hardware[^s2] |
 | Spare conduit | Heater zone → controller location | Allows later zones or integration without opening finishes |
 
@@ -185,7 +185,7 @@ Specify the matching control for every heater: an Affinity Smart-Heat On/Off or 
 ## Gas stub-outs for gas models
 
 - **Licensed gas fitter only.** Size, route and test the line to ANSI Z223.1/NFPA 54[^s6] and the local code.
-- **Size for the connected load.** Total Btu/h of all appliances on the line, run length and supply pressure. [[VERIFY: Btu/h input, inlet size and pressure for Platinum Gas and Tungsten Gas built-in — Mike Clifford]]
+- **Size for the connected load.** Total Btu/h of all appliances on the line, run length and supply pressure. [[VERIFY: Btu/h input, inlet size and pressure for Platinum Gas and Tungsten Gas built-in — Product team]]
 - **Stub out and cap** at each heater location; provide an accessible shut-off.
 - **Mount provisions:** heat deflectors reduce the clearance needed above gas heaters; ceiling poles mount two heaters back to back[^s3]. Allow for both in the framing.
 - **Fuel at order:** natural gas or propane, confirmed before the heater is ordered.

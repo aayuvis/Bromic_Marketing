@@ -15,7 +15,7 @@ meta_description: "Are gas patio heaters allowed under all-electric codes? NYC L
 cta: {label: "Download the electrification compliance guide", asset: A12}
 hero: l-009-061
 images: [l-010-073]
-owner_review: Shaughn Ritchie
+owner_review: Specification and compliance
 status: draft
 gated: false
 related: [ARC-IN-01, COM-PP-01, ARC-BY-01]
@@ -117,8 +117,8 @@ Mostly, the all-electric rules in force do not name patio heaters. They restrict
 
 | Jurisdiction | Rule | Status, Oct 2026 | What it means for an outdoor gas heater |
 |---|---|---|---|
-| New York City | Local Law 154 of 2021: no on-site combustion above 25 kg CO2/MMBtu in covered new buildings[^s1] | In force: under-7-storey buildings from 2024, taller from 2027[^s3][^s2]. Upheld by the Second Circuit, 30 June 2026[^s4] | A piped heater is outside the portable-device exception[^s1]. [[VERIFY: DOB position on piped exterior gas appliances on new buildings — Shaughn Ritchie / code counsel]] |
-| New York State | All-Electric Buildings Act | Enforcement paused by agreement in Nov 2025 pending appeal[^s5]; upheld on appeal 30 June 2026; stay set to lift 28 Oct 2026 unless a cert petition is filed[^s4] | [[VERIFY: whether a cert petition was filed and the new enforcement date — Shaughn Ritchie / counsel]] |
+| New York City | Local Law 154 of 2021: no on-site combustion above 25 kg CO2/MMBtu in covered new buildings[^s1] | In force: under-7-storey buildings from 2024, taller from 2027[^s3][^s2]. Upheld by the Second Circuit, 30 June 2026[^s4] | A piped heater is outside the portable-device exception[^s1]. [[VERIFY: DOB position on piped exterior gas appliances on new buildings — Specification and compliance / code counsel]] |
+| New York State | All-Electric Buildings Act | Enforcement paused by agreement in Nov 2025 pending appeal[^s5]; upheld on appeal 30 June 2026; stay set to lift 28 Oct 2026 unless a cert petition is filed[^s4] | [[VERIFY: whether a cert petition was filed and the new enforcement date — Specification and compliance / counsel]] |
 | New York City | Local Law 97 of 2019: emissions caps on most buildings over 25,000 ft², from 2024, tighter from 2030[^s11] | In force | Gas burned on site adds to a covered building's emissions. [[VERIFY: how exterior appliance gas on the building meter is counted under LL97 — code counsel]] |
 | California | 2025 Energy Code (Title 24, Part 6), effective 1 Jan 2026: heat pumps as baseline for space and water heating[^s8] | In force | Not a gas ban. It regulates the building's systems; it does not prohibit outdoor gas appliances as such |
 | Berkeley, CA | Ban on gas piping in new buildings | Struck down: EPCA preemption, Ninth Circuit, 17 April 2023[^s6]; rehearing denied 2 Jan 2024[^s7] | Cities in the Ninth Circuit cannot rely on a Berkeley-style piping ban. Local reach codes may still favour electric |
@@ -133,7 +133,7 @@ Not as a category, anywhere we found. What exists is narrower, and more of a des
 - **Fuel-use bans on new buildings** (NYC LL154, NYS AEBA) can catch a heater connected to the building's gas system[^s1][^s5].
 - **Emissions caps on existing large buildings** (NYC LL97) make every therm burned on site count against the owner[^s11].
 - **Energy codes** set how exterior heat is delivered and controlled (radiant, auto shut-off), regardless of fuel[^s10].
-- **Fire codes** separately govern portable propane cylinders in many cities. [[VERIFY: FDNY and other fire-code rules on portable propane heaters for commercial patios — Shaughn Ritchie]]
+- **Fire codes** separately govern portable propane cylinders in many cities. [[VERIFY: FDNY and other fire-code rules on portable propane heaters for commercial patios — Specification and compliance]]
 
 The legal ground is also unsettled. The Ninth Circuit read federal appliance law (EPCA) to preempt Berkeley's ban[^s6]; the Second Circuit read it the other way for New York[^s4]. Commentators expect Supreme Court review. A gas spec that is legal today may be redesigned before occupancy.
 

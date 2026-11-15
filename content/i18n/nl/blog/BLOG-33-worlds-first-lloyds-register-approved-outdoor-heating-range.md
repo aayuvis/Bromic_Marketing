@@ -19,8 +19,8 @@ meta_description: "Platinum Electric Marine: goedgekeurd door Lloyd's Register, 
 cta: {label: "Plan een ontwerpgesprek", asset: A07}
 hero: w-marine-grade-platinum-electric-white-lady-le
 images: [w-platinum-marine-ritz-carlton-evrima-jack-har-2, w-my-lel-4-lr]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -66,7 +66,7 @@ sources:
 
 Platinum Smart-Heat Electric Marine van Bromic is een buitenverwarmer die door Lloyd's Register is goedgekeurd voor gebruik op zee, gecertificeerd volgens de milieucategorie ENV5.[^s2] Volgens Bromic was het de eerste reeks buitenverwarmers die deze goedkeuring kreeg.[^s2] Hij is gemaakt van zeewaterbestendig AISI 316-roestvast staal, heeft beschermingsgraad IPX5 en is er in 2300, 3400 en 4500 W voor ongeveer 6 tot 13 m² dek, bediend met Affinity-bediening.[^s1]
 
-[[VERIFY: link hier het certificaat van Lloyd's Register (nummer, reikwijdte, vervaldatum); niet gevonden op bromic.com of via openbaar zoeken — Mike Clifford]]
+[[VERIFY: link hier het certificaat van Lloyd's Register (nummer, reikwijdte, vervaldatum); niet gevonden op bromic.com of via openbaar zoeken — productteam]]
 
 ![Lounge op het achterdek van een superjacht bij schemering met Platinum Electric Marine-verwarmers ingebouwd in het plafond](img:w-marine-grade-platinum-electric-white-lady-le)
 
@@ -87,7 +87,7 @@ Bromic ontwierp de Marine-reeks voor die omstandigheden: een behuizing die inter
 | Goedkeuring | Lloyd's Register (ENV5) |
 | Garantie | 5 jaar aan land, 3 jaar op schepen |
 
-Bronnen: productpagina[^s1] en de superjachtpagina.[^s2] De FAQ op de productpagina noemt "314"-roestvast staal en de superjachtpagina geeft "IPx55", wat geen geldige code is; wij gebruiken 316 en IPX5. [[VERIFY: staalsoort (316 of 314) en IP-klasse (IPX5 of IPx55) op de live pagina's — Mike Clifford]]
+Bronnen: productpagina[^s1] en de superjachtpagina.[^s2] De FAQ op de productpagina noemt "314"-roestvast staal en de superjachtpagina geeft "IPx55", wat geen geldige code is; wij gebruiken 316 en IPX5. [[VERIFY: staalsoort (316 of 314) en IP-klasse (IPX5 of IPx55) op de live pagina's — productteam]]
 
 ## Welke vermogens, en hoeveel dek verwarmen ze?
 
@@ -99,7 +99,7 @@ De versie van dit artikel uit 2020 noemde 2300 en 3400 W, tot ca. 10 m².[^s3] I
 | 3400 W | 10 m² | 10 kg |
 | 4500 W | 13 m² | 15 kg |
 
-Alle drie werken op 220–240 V of 208 V.[^s1] [[VERIFY: maritieme gegevens gelezen van bromic.com; controleer met het productblad van 2026 en de boordspanningen die Bromic ondersteunt — Mike Clifford]]
+Alle drie werken op 220–240 V of 208 V.[^s1] [[VERIFY: maritieme gegevens gelezen van bromic.com; controleer met het productblad van 2026 en de boordspanningen die Bromic ondersteunt — productteam]]
 
 ![Zwembadbar op een jacht onder witte Platinum Electric Marine-verwarmers ingebouwd in een gebogen plafond](img:w-platinum-marine-ritz-carlton-evrima-jack-har-2)
 
@@ -115,7 +115,7 @@ Affinity Smart-Heat On/Off- of Dimmer-regelaars, of een handmatige wandschakelaa
 
 ## Waar vaart hij al?
 
-Bromic heeft drie maritieme projecten gepubliceerd: [M/Y Lady Lene](https://www.bromic.com/case-study/m-y-lady-lene-superyacht/), [M/Y Coral Ocean](https://www.bromic.com/case-study/platinum-electric-marine-heaters-aboard-iconic-superyacht-m-y-coral-ocean/) en [Evrima](https://www.bromic.com/case-study/platinum-electric-marine-heaters-aboard-ritz-carlton-yacht-collections-evrima/) van Ritz-Carlton Yacht Collection. Het artikel dat dit vervangt citeerde Daniel Bruntsch, de maritieme specialist van Bromic, over ontwerpen voor het leven op zee; we laten zijn woorden weg tot ze zijn bevestigd. [[VERIFY: huidige functietitel van Daniel Bruntsch en de exacte tekst van zijn citaat — Megan Spies]]
+Bromic heeft drie maritieme projecten gepubliceerd: [M/Y Lady Lene](https://www.bromic.com/case-study/m-y-lady-lene-superyacht/), [M/Y Coral Ocean](https://www.bromic.com/case-study/platinum-electric-marine-heaters-aboard-iconic-superyacht-m-y-coral-ocean/) en [Evrima](https://www.bromic.com/case-study/platinum-electric-marine-heaters-aboard-ritz-carlton-yacht-collections-evrima/) van Ritz-Carlton Yacht Collection. Het artikel dat dit vervangt citeerde Daniel Bruntsch, de maritieme specialist van Bromic, over ontwerpen voor het leven op zee; we laten zijn woorden weg tot ze zijn bevestigd. [[VERIFY: huidige functietitel van Daniel Bruntsch en de exacte tekst van zijn citaat — marketing]]
 
 ## Veelgestelde vragen
 
@@ -129,7 +129,7 @@ Meestal ingebouwd in het dekplafond, al is montage op een wand of aan een plafon
 
 ### Wat betekent ENV5?
 
-Het is de milieucategorie van Lloyd's Register waarvoor de verwarmer is gecertificeerd.[^s2] [[VERIFY: definitie van ENV5 in gewone taal uit Lloyd's Register Test Specification Number 1 — Mike Clifford]]
+Het is de milieucategorie van Lloyd's Register waarvoor de verwarmer is gecertificeerd.[^s2] [[VERIFY: definitie van ENV5 in gewone taal uit Lloyd's Register Test Specification Number 1 — productteam]]
 
 ### Is de bediening inbegrepen?
 

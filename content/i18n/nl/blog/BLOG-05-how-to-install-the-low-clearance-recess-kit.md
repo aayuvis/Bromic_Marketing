@@ -15,8 +15,8 @@ meta_description: "De Platinum Electric Low Clearance Recess Kit installeren: ho
 cta: {label: "Download de reeks installatiegidsen", asset: A17}
 hero: w-bromic-shoot-may-11-2023-54
 images: [w-bromic-low-clearance-recess-kit]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -95,7 +95,7 @@ Met de Low Clearance Recess Kit bouwt u een Platinum Electric-verwarmer vlak in 
 
 Het is een geventileerde inbouwkast met een eigen afdekrand die tussen standaard plafondbalken past, zodat er geen brandwerende kast of extra regelwerk nodig is[^s2][^s3]. Hij is UL-gecertificeerd (een Amerikaans keurmerk) en bestaat in een standaard- en een marine-uitvoering voor Platinum Electric en Platinum Electric Marine[^s2][^s3]. [[VERIFY: CE-markering en Europese keuring van de kit — Bromic Benelux distributor]] Hij past bij renovatie en nieuwbouw, in lamellenpergola's en in plafonds met woonruimte erboven[^s2]. Vergelijk de kits in [waar u op let bij het inbouwen van elektrische verwarmers](item:BLOG-03).
 
-Op de productpagina van de kit staan 2300, 3400 en 4500 W[^s3]. Een ouder artikel noemde alleen 2300 en 3400 W [[VERIFY: geschiktheid voor 4500 W controleren tegen de huidige handleiding — Mike Clifford]]. De bewering in het productartikel over "tot 82%" minder holte en die over de beperkte looptijd bij concurrenten zijn verwijderd tot er een bron voor is.
+Op de productpagina van de kit staan 2300, 3400 en 4500 W[^s3]. Een ouder artikel noemde alleen 2300 en 3400 W [[VERIFY: geschiktheid voor 4500 W controleren tegen de huidige handleiding — productteam]]. De bewering in het productartikel over "tot 82%" minder holte en die over de beperkte looptijd bij concurrenten zijn verwijderd tot er een bron voor is.
 
 ## Hoe groot is de uitsparing en welke afstanden gelden?
 
@@ -103,11 +103,11 @@ Op de productpagina van de kit staan 2300, 3400 en 4500 W[^s3]. Een ouder artike
 |---|---|---|---|---|
 | Platinum 2300 W | ca. 996 × 239 × 180 mm | 800 mm | ca. 7,7 kg | ca. 10 A |
 | Platinum 3400 W | ca. 1430 × 239 × 180 mm | 1000 mm | ca. 10 kg | ca. 14,8 A |
-| Platinum 4500 W | ca. 1549 × 315 × 180 mm | [[VERIFY: kabellengte bij 4500 W — Mike Clifford]] | ca. 15 kg | ca. 19,6 A |
+| Platinum 4500 W | ca. 1549 × 315 × 180 mm | [[VERIFY: kabellengte bij 4500 W — productteam]] | ca. 15 kg | ca. 19,6 A |
 
-Bronnen: installatieartikel en productpagina[^s1][^s4]. De stroom is berekend als vermogen ÷ 230 V; de Amerikaanse bronnen geven waarden bij 240 en 208 V, die hier niet gelden. [[VERIFY: uitsparingsmaten in millimeters uit de handleiding (hier omgerekend uit inches) — Mike Clifford]] Het oude artikel gaf de eerste kabellengte voor een eenheid van "2400 W"; er bestaat geen Platinum van 2400 W, daarom staat ze hier bij 2300 W [[VERIFY — Mike Clifford]].
+Bronnen: installatieartikel en productpagina[^s1][^s4]. De stroom is berekend als vermogen ÷ 230 V; de Amerikaanse bronnen geven waarden bij 240 en 208 V, die hier niet gelden. [[VERIFY: uitsparingsmaten in millimeters uit de handleiding (hier omgerekend uit inches) — productteam]] Het oude artikel gaf de eerste kabellengte voor een eenheid van "2400 W"; er bestaat geen Platinum van 2400 W, daarom staat ze hier bij 2300 W [[VERIFY — productteam]].
 
-Afstanden: minstens 500 mm van een wand[^s1]. Volgens het installatieartikel hangt de verwarmer minstens ca. 2390 mm boven de afgewerkte vloer; de productpagina van Platinum noemt ca. 2440 mm voor elke plafondmontage[^s1][^s4]. Reken met ca. 2440 mm [[VERIFY: ca. 2390 mm tegenover ca. 2440 mm voor de ingebouwde verwarmer — Mike Clifford]].
+Afstanden: minstens 500 mm van een wand[^s1]. Volgens het installatieartikel hangt de verwarmer minstens ca. 2390 mm boven de afgewerkte vloer; de productpagina van Platinum noemt ca. 2440 mm voor elke plafondmontage[^s1][^s4]. Reken met ca. 2440 mm [[VERIFY: ca. 2390 mm tegenover ca. 2440 mm voor de ingebouwde verwarmer — productteam]].
 
 ## Wat hebt u nodig voordat u begint?
 

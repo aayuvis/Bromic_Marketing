@@ -17,8 +17,8 @@ ai_prompt: "What is the best outdoor heater for a home near the ocean?"
 meta_description: "Salt air corrodes ordinary heaters. Why 316 stainless matters, and what Platinum Smart-Heat Electric Marine offers coastal homes and vessels."
 cta: {label: "Size your space", asset: A03}
 hero: w-bromic-platinum-electric-marine-patio-heater
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -103,17 +103,17 @@ Salt carried on spray and onshore wind settles on metal and holds moisture again
 | 3400 W | 108 ft² | 22 lb |
 | 4500 W | 143 ft² | 33 lb |
 
-- **Body:** AISI 316 marine-grade stainless steel, fully enclosed.[^s1] One FAQ on the product page says "314"; the rest of the page says 316. [[VERIFY: correct the 314 typo on the product page — Mike Clifford]]
+- **Body:** AISI 316 marine-grade stainless steel, fully enclosed.[^s1] One FAQ on the product page says "314"; the rest of the page says 316. [[VERIFY: correct the 314 typo on the product page — Product team]]
 - **Water:** IPX5, protected against low-pressure water jets from any direction. See [what IP ratings mean](item:BLOG-19).[^s1]
 - **Supply:** 220–240 V or 208 V. Minimum mounting height 72 in on a wall, 96 in on a ceiling.[^s1]
-- **Marine approval:** Bromic describes it as the first outdoor heater series approved by Lloyd's Register for marine applications, certified to ENV5.[^s1][^s5] [[VERIFY: Lloyd's Register certificate number and the "first" claim — Mike Clifford]]
+- **Marine approval:** Bromic describes it as the first outdoor heater series approved by Lloyd's Register for marine applications, certified to ENV5.[^s1][^s5] [[VERIFY: Lloyd's Register certificate number and the "first" claim — Product team]]
 - **Finish:** Black or White. Mount it on a wall or ceiling, or recess it with the [Low Clearance Recess Kit](https://www.bromic.com/product/platinum-electric-low-clearance-recess-kit/).
 
 **Controls.** Each heater needs one; it is not included.[^s1] Choose an [Affinity Smart-Heat On/Off](https://www.bromic.com/product/affinity-smart-heat-on-off-controllers/) or [Dimmer controller](https://www.bromic.com/product/affinity-smart-heat-dimmer-controllers/), or a manual wall switch. Wi-Fi and Smart-Heat app features need compatible Affinity controls, sold separately.[^s6] Put the controller somewhere dry.
 
 ## What does the warranty cover on land and at sea?
 
-The [warranty page](https://www.bromic.com/warranty/) and the product page's spec table give 5 years for land-based installations and 3 years on marine vessels.[^s2][^s1] The product page's description says the 5-year warranty is for land use only and does not cover installations on vessels.[^s1] Those two statements conflict. Until Bromic confirms, a vessel owner should ask for the terms in writing. [[VERIFY: Marine warranty on vessels — 3 years, or not covered? Align the product page description with the warranty page — Mike Clifford]]
+The [warranty page](https://www.bromic.com/warranty/) and the product page's spec table give 5 years for land-based installations and 3 years on marine vessels.[^s2][^s1] The product page's description says the 5-year warranty is for land use only and does not cover installations on vessels.[^s1] Those two statements conflict. Until Bromic confirms, a vessel owner should ask for the terms in writing. [[VERIFY: Marine warranty on vessels — 3 years, or not covered? Align the product page description with the warranty page — Product team]]
 
 ## Tungsten Coastal (coming soon)
 
@@ -122,7 +122,7 @@ The Tungsten Smart-Heat Electric Coastal collection (coming soon) is being built
 ## How do you care for a heater near the sea?
 
 1. **Mount it under cover** where possible, out of direct spray.[^s4]
-2. **Rinse away the salt.** Bromic recommends wiping the housing at least every two weeks on the coast with a soft, damp cloth.[^s4] Sheltered surfaces need it most because rain never washes them.[^s3] [[VERIFY: cleaning interval matches the Marine installation manual — Mike Clifford]]
+2. **Rinse away the salt.** Bromic recommends wiping the housing at least every two weeks on the coast with a soft, damp cloth.[^s4] Sheltered surfaces need it most because rain never washes them.[^s3] [[VERIFY: cleaning interval matches the Marine installation manual — Product team]]
 3. **No abrasives.** Skip scourers and abrasive or corrosive cleaners, which can damage stainless steel.[^s4]
 4. **Power off and cool down** before cleaning. Never spray water into the heater.
 

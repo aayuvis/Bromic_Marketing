@@ -18,8 +18,8 @@ meta_description: "Set up the Bromic Smart-Heat app: pair an Affinity controller
 cta: {label: "Open the Smart-Heat setup guide", asset: A09}
 hero: w-eclipse-electric-w-bromic-heating-app
 images: [w-affinity-onoff]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -116,18 +116,18 @@ Yes, through compatible Affinity controls; link them from the Alexa or Google Ho
 
 ## What if the Wi-Fi drops?
 
-The controller switches to another available connection, or to Bluetooth, and returns to Wi-Fi or Ethernet when it is back.[^s2] If the controller loses power, the app shows its heaters as offline.[^s2] [[VERIFY: heater state after a power cut and whether a wall switch can override an Affinity controller — Mike Clifford]]
+The controller switches to another available connection, or to Bluetooth, and returns to Wi-Fi or Ethernet when it is back.[^s2] If the controller loses power, the app shows its heaters as offline.[^s2] [[VERIFY: heater state after a power cut and whether a wall switch can override an Affinity controller — Product team]]
 
 ## Frequently asked
 
 ### Does the app work with my older Bromic remote?
-No. The app is built for Affinity controls and is not backward compatible with Bromic's legacy remote controllers.[^s1][^s2] [[VERIFY: recommended replacement path for owners of wireless On/Off and Dimmer controllers — Mike Clifford]]
+No. The app is built for Affinity controls and is not backward compatible with Bromic's legacy remote controllers.[^s1][^s2] [[VERIFY: recommended replacement path for owners of wireless On/Off and Dimmer controllers — Product team]]
 
 ### Do Affinity controllers come with a remote?
 No. Affinity controls are app-based and ship without a physical remote.[^s3]
 
 ### Is the app free?
-[[VERIFY: app price and any subscription — Mike Clifford]] The controllers are sold separately; see the [Bromic controls range](https://www.bromic.com/controls/).
+[[VERIFY: app price and any subscription — Product team]] The controllers are sold separately; see the [Bromic controls range](https://www.bromic.com/controls/).
 
 ### Where do I get help?
 Bromic Technical Support at https://www.bromic.com/contact-technical-support/, or the [app page FAQ](https://www.bromic.com/affinity-smart-heat-app/).

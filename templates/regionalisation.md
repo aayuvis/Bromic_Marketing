@@ -29,7 +29,7 @@ Files: `content/i18n/<lang>/<same path as the English file>`, e.g. `content/i18n
 **Front matter:** copy every key of the English file. Translate `title`, `summary`, `meta_description`, `dek`, `cta.label`,
 `ai_prompt`, the FAQ questions and, where they are prose, `owner_review` notes may stay English. Keep `id`, `type`, `audience`,
 `stage`, `cell`, `asset`, `hero`, `images`, `sources`, `related`, `status`, `gated` exactly. Add:
-`lang: de` (or `nl`), `translation_of: <id>`, `translation_status: machine-draft`, `native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"`
+`lang: de` (or `nl`), `translation_of: <id>`, `translation_status: machine-draft`, `native_reviewer: "[[VERIFY: native reviewer — Germany partner]]"`
 (German) or `"[[VERIFY: native reviewer — Bromic Benelux distributor]]"` (Dutch). Do not translate `primary_keyword` or
 `secondary_keywords`: replace them with `primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"` and `secondary_keywords: []`.
 Drop `live_url`, `merges` and `slug` (they are US bromic.com URLs).

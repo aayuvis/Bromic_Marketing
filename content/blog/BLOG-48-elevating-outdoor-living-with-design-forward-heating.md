@@ -20,8 +20,8 @@ meta_description: "Make outdoor heaters part of the design: recessed, ceiling, w
 cta: {label: "Download the Trends 2026 report", asset: A01}
 hero: w-print-15
 images: [w-white-platinum-recessed, w-bromiceclipseheater-scottsdalehome-4]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false

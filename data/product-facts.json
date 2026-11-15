@@ -1,5 +1,5 @@
 {
- "_readme": "Only approved product facts. source = where the fact comes from; verified = confirmed by a named Bromic owner (all false until Mike Clifford signs off). Lookbook 2026 overrides Planning Guide 2021 on conflicts. bromic.com product pages were read on 29 Oct 2026 (field `site` per product): list prices, SKUs, coverage per wattage, controller capacity. Same rule: verified false until Mike Clifford signs off; the retired series numbers the site still uses are never repeated in content.",
+ "_readme": "Only approved product facts. source = where the fact comes from; verified = confirmed by a named Bromic owner (all false until Product team signs off). Lookbook 2026 overrides Planning Guide 2021 on conflicts. bromic.com product pages were read on 29 Oct 2026 (field `site` per product): list prices, SKUs, coverage per wattage, controller capacity. Same rule: verified false until Product team signs off; the retired series numbers the site still uses are never repeated in content.",
  "products": [
   {
    "id": "tungsten-coastal",
@@ -90,7 +90,7 @@
     "source": "https://www.bromic.com/product/tungsten-smart-heat-electric/",
     "read_on": "2026-10-29",
     "verified": false,
-    "verify": "[[VERIFY: values read from bromic.com through a summarising fetch; confirm against the 2026 cut sheet — Mike Clifford]]",
+    "verify": "[[VERIFY: values read from bromic.com through a summarising fetch; confirm against the 2026 cut sheet — Product team]]",
     "facts": {
      "list_price_usd": [
       798,
@@ -138,7 +138,7 @@
     "source": "https://www.bromic.com/product/platinum-smart-heat-electric/",
     "read_on": "2026-10-29",
     "verified": false,
-    "verify": "[[VERIFY: values read from bromic.com through a summarising fetch; confirm against the 2026 cut sheet — Mike Clifford]]",
+    "verify": "[[VERIFY: values read from bromic.com through a summarising fetch; confirm against the 2026 cut sheet — Product team]]",
     "facts": {
      "models": [
       {
@@ -223,7 +223,7 @@
     "source": "https://www.bromic.com/product/eclipse-smart-heat-electric/",
     "read_on": "2026-10-29",
     "verified": false,
-    "verify": "[[VERIFY: values read from bromic.com through a summarising fetch; confirm against the 2026 cut sheet — Mike Clifford]]",
+    "verify": "[[VERIFY: values read from bromic.com through a summarising fetch; confirm against the 2026 cut sheet — Product team]]",
     "facts": {
      "watts": 2900,
      "coverage_ft2": 121,
@@ -282,7 +282,7 @@
     "source": "https://www.bromic.com/product/eclipse-smart-heat-freestanding/",
     "read_on": "2026-10-29",
     "verified": false,
-    "verify": "[[VERIFY: values read from bromic.com through a summarising fetch; confirm against the 2026 cut sheet — Mike Clifford]]",
+    "verify": "[[VERIFY: values read from bromic.com through a summarising fetch; confirm against the 2026 cut sheet — Product team]]",
     "facts": {
      "watts": 2900,
      "coverage_ft2": 121,
@@ -336,7 +336,7 @@
     "source": "https://www.bromic.com/product/tungsten-smart-heat-freestanding/",
     "read_on": "2026-10-29",
     "verified": false,
-    "verify": "[[VERIFY: values read from bromic.com through a summarising fetch; confirm against the 2026 cut sheet — Mike Clifford]]",
+    "verify": "[[VERIFY: values read from bromic.com through a summarising fetch; confirm against the 2026 cut sheet — Product team]]",
     "facts": {
      "output_btu": 38500,
      "coverage_ft2": 215,
@@ -391,7 +391,7 @@
     ],
     "read_on": "2026-10-29",
     "verified": false,
-    "verify": "[[VERIFY: controller capacities and compatibility — Mike Clifford]]",
+    "verify": "[[VERIFY: controller capacities and compatibility — Product team]]",
     "facts": {
      "on_off": {
       "channels": [
@@ -462,7 +462,7 @@
    "fuel": "gas",
    "status": "current",
    "facts": {
-    "coverage_ft2": "[[VERIFY: current coverage — Mike Clifford]]"
+    "coverage_ft2": "[[VERIFY: current coverage — Product team]]"
    },
    "source": "bromic.com product page (read 29 Oct 2026; see site)",
    "verified": false,
@@ -470,7 +470,7 @@
     "source": "https://www.bromic.com/product/platinum-smart-heat-gas/",
     "read_on": "2026-10-29",
     "verified": false,
-    "verify": "[[VERIFY: values read from bromic.com through a summarising fetch; confirm against the 2026 cut sheet — Mike Clifford]]",
+    "verify": "[[VERIFY: values read from bromic.com through a summarising fetch; confirm against the 2026 cut sheet — Product team]]",
     "facts": {
      "models": [
       {
@@ -526,7 +526,7 @@
    "fuel": "gas",
    "status": "current",
    "facts": {
-    "output_btu": "[[VERIFY: 39,800 (Planning Guide 2021) vs 38,000 (Lookbook freestanding) — do not publish — Mike Clifford]]"
+    "output_btu": "[[VERIFY: 39,800 (Planning Guide 2021) vs 38,000 (Lookbook freestanding) — do not publish — Product team]]"
    },
    "source": "bromic.com product page (read 29 Oct 2026; see site)",
    "verified": false,
@@ -534,7 +534,7 @@
     "source": "https://www.bromic.com/product/tungsten-smart-heat-gas/",
     "read_on": "2026-10-29",
     "verified": false,
-    "verify": "[[VERIFY: values read from bromic.com through a summarising fetch; confirm against the 2026 cut sheet — Mike Clifford]]",
+    "verify": "[[VERIFY: values read from bromic.com through a summarising fetch; confirm against the 2026 cut sheet — Product team]]",
     "facts": {
      "models": [
       {
@@ -571,7 +571,7 @@
      ]
     },
     "conflicts": [
-     "The site publishes 26,000 and 43,000 BTU; the 2021 Planning Guide diagram said 39,800. Rule stands: no Tungsten gas BTU in content until Mike Clifford confirms",
+     "The site publishes 26,000 and 43,000 BTU; the 2021 Planning Guide diagram said 39,800. Rule stands: no Tungsten gas BTU in content until Product team confirms",
      "Site uses the retired series numbers"
     ]
    }
@@ -588,7 +588,7 @@
     "source": "https://www.bromic.com/product/platinum-smart-heat-electric-marine/",
     "read_on": "2026-10-29",
     "verified": false,
-    "verify": "[[VERIFY: values read from bromic.com through a summarising fetch; confirm against the 2026 cut sheet — Mike Clifford]]",
+    "verify": "[[VERIFY: values read from bromic.com through a summarising fetch; confirm against the 2026 cut sheet — Product team]]",
     "facts": {
      "models": [
       {
@@ -639,7 +639,7 @@
     "source": "https://www.bromic.com/product/cobalt-smart-heat-electric/",
     "read_on": "2026-10-29",
     "verified": false,
-    "verify": "[[VERIFY: values read from bromic.com through a summarising fetch; confirm against the 2026 cut sheet — Mike Clifford]]",
+    "verify": "[[VERIFY: values read from bromic.com through a summarising fetch; confirm against the 2026 cut sheet — Product team]]",
     "facts": {
      "models": [
       {
@@ -734,7 +734,7 @@
    "topic": "Tungsten Electric coverage",
    "old": "65–108 ft² (PG 2021)",
    "current": "64–144 ft² (Lookbook)",
-   "rule": "Use Lookbook; flag to Mike Clifford"
+   "rule": "Use Lookbook; flag to Product team"
   },
   {
    "topic": "Platinum Electric coverage",
@@ -770,7 +770,7 @@
    "topic": "Tungsten Freestanding Gas output",
    "old": "38,000 BTU (Lookbook 2026 p.39)",
    "current": "38,500 BTU (bromic.com product page)",
-   "rule": "Use 38,000 until Mike Clifford confirms; flag"
+   "rule": "Use 38,000 until Product team confirms; flag"
   },
   {
    "topic": "Tungsten Gas built-in output",

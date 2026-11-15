@@ -12,7 +12,7 @@ cta: {label: "Book a design consult", asset: A07}
 hero: l-002-005
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
 images: ["l-002-005"]
-owner_review: "Karl Tschauner"
+owner_review: "US field sales"
 status: draft
 source_kind: web-find
 origin: web-search
@@ -39,8 +39,8 @@ sources:
 | Project | The Trade Hotel (Marriott Autograph Collection) - lounge, suite patios and il cervo rooftop restaurant |
 | Location | Milwaukee, Wisconsin, USA |
 | Segment | hotel |
-| Products | Bromic electric patio heaters (models not named) [[VERIFY: model, wattage and quantity — Karl Tschauner]] |
-| Controls | [[VERIFY: controls and zones — Karl Tschauner]] |
+| Products | Bromic electric patio heaters (models not named) [[VERIFY: model, wattage and quantity — US field sales]] |
+| Controls | [[VERIFY: controls and zones — US field sales]] |
 | Installer | Butters Fetting (contractor); Gunn & Pegelow (Bromic's HVAC manufacturers' rep, design guidance) |
 | Builder or developer | NCG Hospitality (collaborated on the heat layout with Bromic's design staff) |
 | Heated area or seats | a lounge, suites with outdoor patios, and the 9th-floor rooftop restaurant il cervo |

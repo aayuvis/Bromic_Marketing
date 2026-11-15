@@ -15,7 +15,7 @@ meta_description: "Outdoor living design trends for 2026 from AIA and NAHB data,
 cta: {label: "Download the Trends 2026 report", asset: A01}
 hero: l-010-075
 images: [l-010-069, t-006-016]
-owner_review: Megan Spies
+owner_review: Marketing
 status: draft
 gated: false
 related: [ARC-CO-01, ARC-IN-01, BLD-IN-01]
@@ -96,7 +96,7 @@ The headline is steady demand from a high base, not a boom. Read the surveys tog
 | New single-family homes started with a patio (2025) | 60.5% (61.8% in 2024) | NAHB[^s4] |
 | Average new-home patio | about 320 ft² | NAHB / Home Innovation[^s5] |
 
-[[VERIFY: AIA reports "increasing minus decreasing" net shares; confirm whether the 10% is points or relative, and which quarter's question the 55%/40% come from, against the AIA PDFs — Megan Spies]]
+[[VERIFY: AIA reports "increasing minus decreasing" net shares; confirm whether the 10% is points or relative, and which quarter's question the 55%/40% come from, against the AIA PDFs — Marketing]]
 
 Two cautions for anyone quoting these. AIA figures are net shares of architects, not shares of homes. And NAHB's patio share has now dipped two years running[^s4], so "every new home has a patio" overstates it. The honest reading: most new homes get one, it averages a room-sized 320 ft², and architects still rank it as the space clients want most.
 

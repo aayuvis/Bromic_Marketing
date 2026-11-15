@@ -15,7 +15,7 @@ meta_description: "Key US outdoor living statistics for 2026: patio share and si
 cta: {label: "Download the Trends 2026 report", asset: A01}
 hero: t-001-000
 images: [t-005-013]
-owner_review: Megan Spies
+owner_review: Marketing
 status: draft
 gated: false
 related: [A01-corrections, BLD-AW-01]
@@ -187,8 +187,8 @@ Each figure on this page comes from a named public source: NAHB, the AIA, Harvar
 
 These figures appear in the Trends 2026 report but are not presented here as claims until they are checked. They are listed so reviewers can track them.
 
-- **67%, 94% and 23%** — Atomik Research survey of US homeowners, commissioned by Bromic Heating. Bromic's own releases give 94% in one and 92% in another for the same question. [[VERIFY: survey date, base n, question wording, and 94% or 92% — Megan Spies]]
-- **39% "increase in popularity" of infrared patio heaters (AIA)** — not found in any AIA release; AIA reports net scores, not increases. Recommended for removal.
-- **$522 billion (Harvard JCHS)** — not found in any Harvard release; replaced above by the current LIRA figure.
+- **67%, 94% and 23%** – Atomik Research survey of US homeowners, commissioned by Bromic Heating. Bromic's own releases give 94% in one and 92% in another for the same question. [[VERIFY: survey date, base n, question wording, and 94% or 92% — Marketing]]
+- **39% "increase in popularity" of infrared patio heaters (AIA)** – not found in any AIA release; AIA reports net scores, not increases. Recommended for removal.
+- **$522 billion (Harvard JCHS)** – not found in any Harvard release; replaced above by the current LIRA figure.
 
 The full 2026 trends, with what they mean for architects, builders and homeowners, are in the report.

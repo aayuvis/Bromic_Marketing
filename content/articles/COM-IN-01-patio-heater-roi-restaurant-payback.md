@@ -15,7 +15,7 @@ meta_description: "Patio heater ROI in three steps: added revenue, added margin 
 cta: {label: "Get your ROI assessment", asset: A21}
 hero: g-operator
 images: [l-013-100]
-owner_review: Blake Petty
+owner_review: Hospitality sales
 status: draft
 gated: false
 related: [COM-CO-01, COM-AW-01, COM-PP-01, COM-IN-KB1]
@@ -57,7 +57,7 @@ sources:
     verified: false
 ---
 
-Patio heater ROI is the margin from seats you could not sell before, minus what it costs to heat them, set against the installed cost. Calculate added revenue as heated seats × turns per night × average check × extra nights × share of seats filled; take your contribution margin, subtract running cost, and divide the installed cost by the monthly result. That gives payback in months — the number an owner, investor or landlord will actually sign.
+Patio heater ROI is the margin from seats you could not sell before, minus what it costs to heat them, set against the installed cost. Calculate added revenue as heated seats × turns per night × average check × extra nights × share of seats filled; take your contribution margin, subtract running cost, and divide the installed cost by the monthly result. That gives payback in months – the number an owner, investor or landlord will actually sign.
 
 ## What goes into a patio heater ROI?
 
@@ -83,13 +83,13 @@ Share of seats filled does the honest work. A heated patio on a cold Tuesday wil
 3. **Net annual gain** = added margin − annual running cost
 4. **Payback (months)** = installed cost ÷ (net annual gain ÷ 12)
 
-Extra nights is the simple case. If the heaters instead extend evenings you already open — keeping the patio full after 8 pm — use extra hours and covers per hour; the logic is the same.
+Extra nights is the simple case. If the heaters instead extend evenings you already open – keeping the patio full after 8 pm – use extra hours and covers per hour; the logic is the same.
 
 ## What does a worked example look like?
 
-Illustrative only. Every input is an assumption chosen to show the method, not a benchmark or a promise. [[VERIFY: benchmarks — Blake Petty]]
+Illustrative only. Every input is an assumption chosen to show the method, not a benchmark or a promise. [[VERIFY: benchmarks — Hospitality sales]]
 
-**Assumptions:** 40 heated seats; 1.5 turns a night; $45 average check; 60 extra nights a year; 50% of seats filled; 30% contribution margin; seven Platinum Smart-Heat Electric 4500W heaters with Affinity Smart-Heat On/Off or Dimmer controls and a wall switch, running 5 hours a night on those nights; electricity at 14.07¢/kWh, the US commercial average for January–May 2026[^s2]; installed cost $35,000 (7 × $5,000, a placeholder for a full quote including controls, wiring and permits, not a Bromic price). [[VERIFY: installed cost per heater — Blake Petty]]
+**Assumptions:** 40 heated seats; 1.5 turns a night; $45 average check; 60 extra nights a year; 50% of seats filled; 30% contribution margin; seven Platinum Smart-Heat Electric 4500W heaters with Affinity Smart-Heat On/Off or Dimmer controls and a wall switch, running 5 hours a night on those nights; electricity at 14.07¢/kWh, the US commercial average for January–May 2026[^s2]; installed cost $35,000 (7 × $5,000, a placeholder for a full quote including controls, wiring and permits, not a Bromic price). [[VERIFY: installed cost per heater — Hospitality sales]]
 
 Seven heaters is the sizing for 40 seats: 40 × 20 ft² a seat = 800 ft²[^s5], ÷ (143 ft² coverage[^s3] × 0.85 for a partly covered patio on cool evenings) = 6.6, rounded up to 7. See [how many heaters a 40-seat patio needs](item:COM-IN-KB1).
 
@@ -120,14 +120,14 @@ Show this table to whoever signs. A case that still pays back at the low end is 
 ## What do operators usually miss?
 
 - **The full installed cost.** Heaters are one line. Controls, circuits or gas line, mounting, permits and any storage for propane belong in it too; Bromic's guidance is to quote all-in.[^s4]
-- **Controls.** A heater needs its controls to work as a system: Affinity Smart-Heat On/Off or Dimmer controller and a wall switch for Platinum; the Eclipse controller for Eclipse. Wi-Fi and app features — zones, schedules, timers — require compatible Affinity Smart-Heat Controls, sold separately.[^s3]
+- **Controls.** A heater needs its controls to work as a system: Affinity Smart-Heat On/Off or Dimmer controller and a wall switch for Platinum; the Eclipse controller for Eclipse. Wi-Fi and app features – zones, schedules, timers – require compatible Affinity Smart-Heat Controls, sold separately.[^s3]
 - **Hours actually heated.** Zoning by section and scheduling to the book keeps running cost tied to covers.
 - **Fuel handling.** Propane adds cylinder labour and storage; see [the five-year cost comparison](item:COM-CO-01).
 - **Permits and lead time.** A heater that cannot be signed off by the season does not earn; see [the permit checklist](item:COM-PP-01).
 
 ## How do you present it to an owner or landlord?
 
-One page. Put the payback and the low-case payback at the top, the inputs and their sources underneath, and the quote attached. Patios carry weight in many restaurants' sales — in a 2021 National Restaurant Association survey, 35% of operators with outdoor seating said it accounted for more than 40% of average daily sales[^s1] — so frame the heaters as capacity, not décor. Landlords will also want the installation method, fuel and code sign-off, which belong in the same pack.
+One page. Put the payback and the low-case payback at the top, the inputs and their sources underneath, and the quote attached. Patios carry weight in many restaurants' sales – in a 2021 National Restaurant Association survey, 35% of operators with outdoor seating said it accounted for more than 40% of average daily sales[^s1] – so frame the heaters as capacity, not décor. Landlords will also want the installation method, fuel and code sign-off, which belong in the same pack.
 
 > Code and permit requirements vary by city and change over time. Confirm with your local building and fire authority, and use a licensed electrician or gas fitter.
 
@@ -155,13 +155,13 @@ Margin. Revenue overstates the return because food, drink and variable labour co
 
 ### What should installed cost include?
 
-Heaters, Affinity controls, wiring or gas supply, mounting hardware, permit fees and installation labour — plus storage for propane if you use it.
+Heaters, Affinity controls, wiring or gas supply, mounting hardware, permit fees and installation labour – plus storage for propane if you use it.
 
 ### Can Bromic check my numbers?
 
 Yes. An ROI assessment runs your inputs through the [ROI calculator](asset:A21) and pairs it with a heater layout and controls bundle.
 
-Put your own inputs in — get your ROI assessment.
+Put your own inputs in – get your ROI assessment.
 
 [^s1]: National Restaurant Association, operator survey, Sept 2021.
 [^s2]: U.S. EIA, Monthly Energy Review, commercial electricity price, Jan–May 2026.

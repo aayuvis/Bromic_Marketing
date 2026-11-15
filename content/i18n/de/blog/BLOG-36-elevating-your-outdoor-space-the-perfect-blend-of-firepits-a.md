@@ -15,8 +15,8 @@ meta_description: "Feuerstelle oder Heizstrahler? Das Feuer ist der Mittelpunkt,
 cta: {label: "Outdoor Living Trends 2026 herunterladen", asset: A01}
 hero: w-black-tungsten-electric-mounted-chicago
 images: [w-bromic-centrico-photos-8, w-dsc01860-bearbeitet]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -25,7 +25,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLOG-36
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -124,7 +124,7 @@ Jeder Heizstrahler braucht ein Steuergerät oder einen Wandschalter. Mit einem A
 
 ![Lounge in einem Holz-Gartenpavillon in der Abenddämmerung mit einem Eclipse-Heizstrahler an der Decke](img:w-dsc01860-bearbeitet)
 
-Mehr zu den Bauarten lesen Sie unter [Elektro- oder Gas-Heizstrahler für die Terrasse](item:RES-CO-01) und [wo Terrassenheizstrahler hingehören](item:RES-PP-01); alle Heizstrahler finden Sie auf [bromic.de](https://www.bromic.de/). Der [Planungsservice](https://www.bromic.de/) von Bromic zeichnet Ihnen kostenlos einen Wärmeplan rund um Ihre Feuerstelle. [[VERIFY: Planungsservice (Design Your Space) für Kunden in Deutschland über bromic.de verfügbar — Raffaele Marti]]
+Mehr zu den Bauarten lesen Sie unter [Elektro- oder Gas-Heizstrahler für die Terrasse](item:RES-CO-01) und [wo Terrassenheizstrahler hingehören](item:RES-PP-01); alle Heizstrahler finden Sie auf [bromic.de](https://www.bromic.de/). Der [Planungsservice](https://www.bromic.de/) von Bromic zeichnet Ihnen kostenlos einen Wärmeplan rund um Ihre Feuerstelle. [[VERIFY: Planungsservice (Design Your Space) für Kunden in Deutschland über bromic.de verfügbar — Partner Deutschland]]
 
 ## Häufige Fragen
 

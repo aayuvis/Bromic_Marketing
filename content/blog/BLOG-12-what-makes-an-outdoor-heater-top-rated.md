@@ -18,8 +18,8 @@ meta_description: "What makes an outdoor heater top rated: coverage, build, rati
 cta: {label: "Size your space", asset: A03}
 hero: w-eclispe-1
 images: [w-bromic-tungsten-electric-patio-heater]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -119,7 +119,7 @@ Because a heater you cannot adjust gets switched off. Affinity Dimmer controller
 
 ## Who rates Bromic?
 
-Bromic heaters appear in BBQGuys' top-rated patio heater list in the commercial, electric and gas categories.[^s1][^s7] [[VERIFY: the BBQGuys list, the categories and placements, and the date — Megan Spies]] A list is a starting point. The spec sheet, and a heater sized to your space, decide whether it works for you.
+Bromic heaters appear in BBQGuys' top-rated patio heater list in the commercial, electric and gas categories.[^s1][^s7] [[VERIFY: the BBQGuys list, the categories and placements, and the date — Marketing]] A list is a starting point. The spec sheet, and a heater sized to your space, decide whether it works for you.
 
 ## Frequently asked
 

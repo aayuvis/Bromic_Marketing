@@ -18,8 +18,8 @@ meta_description: "Bromic heaters are controlled by Affinity Smart-Heat controll
 cta: {label: "Book a design consult", asset: A07}
 hero: w-affinity-onoff
 images: [w-render-3]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -105,9 +105,9 @@ Choose by fuel, by whether you want to dim, and by the load on each channel. A c
 | Affinity Dimmer | Platinum and Tungsten Electric; Cobalt per Bromic's FAQ[^s3] | 1, 2 or 5 | 6 kW[^s3] | Heat in 1% steps, plus app, voice and schedules[^s1] |
 | Affinity Eclipse controller | Eclipse Electric[^s4] | 1 or 5 | One Eclipse heater; 4 kW at 220–240 V on the 1-channel[^s4] | Heat and rim lighting from one control |
 | Manual wall switch | Tungsten and Platinum, gas or electric[^s5] | Single or dual | 20 A, 120–277 V[^s5] | On and off at the wall; no app |
-| Affinity expansion board | 1- and 2-channel On/Off and Dimmer; built into 5-channel[^s6] | — | — | Ethernet and 0–10 V for home automation or a building management system |
+| Affinity expansion board | 1- and 2-channel On/Off and Dimmer; built into 5-channel[^s6] | – | – | Ethernet and 0–10 V for home automation or a building management system |
 
-[[VERIFY: controller capacities and heater compatibility, including Cobalt and gas on the On/Off spec table — Mike Clifford]]
+[[VERIFY: controller capacities and heater compatibility, including Cobalt and gas on the On/Off spec table — Product team]]
 
 ## How many heaters per channel?
 
@@ -123,7 +123,7 @@ Bromic's compatibility chart gives these per-channel counts for On/Off and Dimme
 | Platinum or Tungsten Gas (both sizes) | 10 (On/Off only) |
 | Eclipse Electric | 1 (Eclipse controller) |
 
-So two 2300 W Platinum heaters share one channel; two 6000 W Tungsten heaters need a 2-channel controller.[^s2] On a 2-channel On/Off, the two elements of a 4500 W Platinum or 4000/6000 W Tungsten can be switched separately.[^s2] [[VERIFY: per-channel counts at 208 V and 277 V — Mike Clifford]]
+So two 2300 W Platinum heaters share one channel; two 6000 W Tungsten heaters need a 2-channel controller.[^s2] On a 2-channel On/Off, the two elements of a 4500 W Platinum or 4000/6000 W Tungsten can be switched separately.[^s2] [[VERIFY: per-channel counts at 208 V and 277 V — Product team]]
 
 <div class="diagram">Diagram: one 2-channel Affinity Dimmer, channel 1 feeding two 2300 W Platinum heaters over the table, channel 2 feeding one 4000 W Tungsten over the lounge; wall switch and phone shown as the two ways in.</div>
 
@@ -139,9 +139,9 @@ Earlier posts described a range with handheld wireless remotes.[^s7] On the curr
 | Wireless Master Remote (zones across many heaters) | Zones and scenes in the app |
 | Smart-Heat Link (RS232 gateway) | Expansion board (Ethernet, 0–10 V), or Alexa and Google Home with no board[^s6] |
 
-[[VERIFY: are the Wireless On/Off, Wireless Dimmer, Master Remote and Smart-Heat Link discontinued or still supplied as spares; is there an upgrade path — Mike Clifford]]
+[[VERIFY: are the Wireless On/Off, Wireless Dimmer, Master Remote and Smart-Heat Link discontinued or still supplied as spares; is there an upgrade path — Product team]]
 
-One exception: the Eclipse Freestanding heater is listed with an Eclipse Dimmer Controller and remote included.[^s8] [[VERIFY: does Eclipse Freestanding ship with the earlier Eclipse Dimmer and remote or with Affinity; app support — Mike Clifford]]
+One exception: the Eclipse Freestanding heater is listed with an Eclipse Dimmer Controller and remote included.[^s8] [[VERIFY: does Eclipse Freestanding ship with the earlier Eclipse Dimmer and remote or with Affinity; app support — Product team]]
 
 ## Where does the controller go?
 

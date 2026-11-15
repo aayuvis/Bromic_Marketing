@@ -17,8 +17,8 @@ ai_prompt: "Is it safe to use a propane or electric patio heater in my garage?"
 meta_description: "Never run a gas or propane patio heater in a garage, door open or not. Electric can work if its manual allows, mounted high and wired by an electrician."
 cta: {label: "Size your space", asset: A03}
 hero: w-dsc05737-courtney-saib
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -97,7 +97,7 @@ Gas and propane heaters burn fuel and release carbon monoxide, which has no colo
 
 ## If you want electric heat in a garage, what does it take?
 
-Bromic heaters are designed and certified as outdoor heaters. Bromic's gallery shows a Cobalt Electric installed in a garage,[^s5] but check the installation manual for your model before you plan one indoors. [[VERIFY: whether Tungsten, Cobalt and Platinum Electric manuals permit installation in an enclosed garage, and any conditions — Mike Clifford]]
+Bromic heaters are designed and certified as outdoor heaters. Bromic's gallery shows a Cobalt Electric installed in a garage,[^s5] but check the installation manual for your model before you plan one indoors. [[VERIFY: whether Tungsten, Cobalt and Platinum Electric manuals permit installation in an enclosed garage, and any conditions — Product team]]
 
 - **Mount it high.** Cobalt needs at least 6 ft on a wall and 8 ft on a ceiling; Tungsten and Platinum Electric need 72 in and 96 in.[^s4][^s3] Up high, it sits above car roofs, ladders and storage.
 - **Keep it away from fuel and clutter.** Never aim a heater at gasoline cans, paint, solvents, cardboard or a car's fuel filler. Leave the manual's clearances free.
@@ -108,7 +108,7 @@ Bromic heaters are designed and certified as outdoor heaters. Bromic's gallery s
 
 ## What about storing a propane cylinder in the garage?
 
-Keep cylinders outdoors, upright and closed, away from heat and anything that burns. Propane storage is governed by NFPA 58 and your local fire code.[^s7] An earlier Bromic post named a detached garage or shed as a storage option; check the manual for your heater and your local fire authority before you rely on that. [[VERIFY: cylinder storage wording in the Tungsten Smart-Heat Freestanding manual — Mike Clifford]]
+Keep cylinders outdoors, upright and closed, away from heat and anything that burns. Propane storage is governed by NFPA 58 and your local fire code.[^s7] An earlier Bromic post named a detached garage or shed as a storage option; check the manual for your heater and your local fire authority before you rely on that. [[VERIFY: cylinder storage wording in the Tungsten Smart-Heat Freestanding manual — Product team]]
 
 ## Where do patio heaters belong?
 

@@ -35,7 +35,7 @@ meta_description: "<=155 chars"
 cta: {label: "Download the pre-wire guide", asset: A16}   # exactly one
 hero: l-010-067            # image id from images/library/manifest.json
 images: [l-005-022]        # optional extra image ids used in body as ![alt](img:ID)
-owner_review: Arvin Avaness
+owner_review: Trade sales
 status: draft              # draft | in-review | approved | published
 gated: false
 related: [BLD-PP-01, ARC-IN-01]   # 2–4 internal links (ids)

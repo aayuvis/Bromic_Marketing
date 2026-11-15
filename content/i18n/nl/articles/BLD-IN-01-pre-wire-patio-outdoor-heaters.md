@@ -18,7 +18,7 @@ meta_description: "Leg een eigen groep per terrasverwarmer aan, dozen en regelwe
 cta: {label: "Download de gids voor voorbekabeling", asset: A16}
 hero: g-rough-in
 images: [l-005-022]
-owner_review: Arvin Avaness
+owner_review: verkoop vakhandel
 status: draft
 gated: false
 related: [BLD-IN-KB1, BLD-IN-KB2, BLD-BY-01, BLD-CO-01]
@@ -96,7 +96,7 @@ Bekabel elk overdekt terras voor waar warmte te verkopen valt, ook als de koper 
 
 ## Welke spanning en groep heeft elke verwarmer nodig?
 
-Platinum Smart-Heat Electric is er in 2300, 3400 en 4500 W[^s1]. Voor de Amerikaanse markt noemt Bromic voedingsopties van 208, 240 en 277 V voor zakelijke projecten[^s2]; het Nederlandse net levert 230 V, 50 Hz. Controleer de spanning van het exacte bestelde model voordat u kabel trekt [[VERIFY: voedingsspanning per Platinum- en Tungsten Electric-model voor de Nederlandse markt, woning en zakelijk — Mike Clifford]].
+Platinum Smart-Heat Electric is er in 2300, 3400 en 4500 W[^s1]. Voor de Amerikaanse markt noemt Bromic voedingsopties van 208, 240 en 277 V voor zakelijke projecten[^s2]; het Nederlandse net levert 230 V, 50 Hz. Controleer de spanning van het exacte bestelde model voordat u kabel trekt [[VERIFY: voedingsspanning per Platinum- en Tungsten Electric-model voor de Nederlandse markt, woning en zakelijk — productteam]].
 
 Stroom is watt gedeeld door volt: **I = W ÷ V**. In de VS geldt een buitenverwarmer als continue belasting, door de NEC gedefinieerd als een belasting waarbij de maximale stroom naar verwachting drie uur of langer loopt[^s4]. Eindgroepen voor continue belastingen en voor vaste ruimteverwarming worden daar op ten minste 125% van de belasting gedimensioneerd[^s3][^s4]. In Nederland bepaalt de installateur geleider en beveiliging volgens NEN 1010. [[VERIFY: of NEN 1010 een vergelijkbare toeslag voor langdurige belasting vraagt — Bromic Benelux distributor]]
 
@@ -118,17 +118,17 @@ Dat kan, binnen grenzen, maar één verwarmer per groep is eenvoudiger in zones 
 
 ## Hebben groepen voor terrasverwarmers aardlekbeveiliging nodig?
 
-Houd er rekening mee en vraag het vroeg na. In de VS eist de NEC van 2023 aardlekbeveiliging (GFCI) voor buitenaansluitpunten bij woningen op enkelfasige groepen van ten hoogste 150 V ten opzichte van aarde en ten hoogste 50 A[^s5]; de editie van 2026 verhoogt die grens naar 60 A[^s6]. Of een vast aangesloten verwarmer daar als "outlet" onder 210.8(F) telt, wordt door verschillende instanties verschillend gelezen, en edities worden op verschillende momenten ingevoerd[^s7]. In Nederland heet de vergelijkbare beveiliging een aardlekschakelaar; welke eisen NEN 1010 hier stelt, bepaalt uw installateur. Leg het antwoord schriftelijk vast en controleer wat de installatiehandleiding voorschrijft [[VERIFY: eis in de installatiehandleiding van Bromic voor GFCI- of aardlekbeveiliging — Mike Clifford]]. Meer in [het antwoord over aardlekbeveiliging](item:BLD-BY-KB1).
+Houd er rekening mee en vraag het vroeg na. In de VS eist de NEC van 2023 aardlekbeveiliging (GFCI) voor buitenaansluitpunten bij woningen op enkelfasige groepen van ten hoogste 150 V ten opzichte van aarde en ten hoogste 50 A[^s5]; de editie van 2026 verhoogt die grens naar 60 A[^s6]. Of een vast aangesloten verwarmer daar als "outlet" onder 210.8(F) telt, wordt door verschillende instanties verschillend gelezen, en edities worden op verschillende momenten ingevoerd[^s7]. In Nederland heet de vergelijkbare beveiliging een aardlekschakelaar; welke eisen NEN 1010 hier stelt, bepaalt uw installateur. Leg het antwoord schriftelijk vast en controleer wat de installatiehandleiding voorschrijft [[VERIFY: eis in de installatiehandleiding van Bromic voor GFCI- of aardlekbeveiliging — productteam]]. Meer in [het antwoord over aardlekbeveiliging](item:BLD-BY-KB1).
 
 ## Wat komt er op elke positie van een verwarmer?
 
 | Onderdeel | Actie tijdens de ruwbouw |
 |---|---|
-| Doos | Weerbestendige aansluitdoos op elke positie, op de plek ten opzichte van de beugel die de handleiding aangeeft [[VERIFY: type doos en afstand per montagewijze — Mike Clifford]] |
-| Regelwerk | Massief regelwerk tussen balken of stijlen om beugel en verwarmer te dragen [[VERIFY: gewicht per model — Mike Clifford]] |
+| Doos | Weerbestendige aansluitdoos op elke positie, op de plek ten opzichte van de beugel die de handleiding aangeeft [[VERIFY: type doos en afstand per montagewijze — productteam]] |
+| Regelwerk | Massief regelwerk tussen balken of stijlen om beugel en verwarmer te dragen [[VERIFY: gewicht per model — productteam]] |
 | Hoogte | Muurmontage ten minste 1,83 m boven de vloer; plafondmontage ten minste 2,44 m, afhankelijk van het vermogen[^s2] |
-| Afstanden | Markeer afstanden tot muren, balken en brandbare materialen volgens de handleiding [[VERIFY: afstandentabel per model — Mike Clifford]] |
-| Inbouwset | Timmer de opening en de diepte van de plafondruimte voor de inbouwset voordat de platen erop gaan [[VERIFY: ruwe opening en diepte voor de inbouwset per model — Mike Clifford]] |
+| Afstanden | Markeer afstanden tot muren, balken en brandbare materialen volgens de handleiding [[VERIFY: afstandentabel per model — productteam]] |
+| Inbouwset | Timmer de opening en de diepte van de plafondruimte voor de inbouwset voordat de platen erop gaan [[VERIFY: ruwe opening en diepte voor de inbouwset per model — productteam]] |
 
 ![Verwarmer vlak ingebouwd in een wit plafond (Tungsten Coastal, binnenkort)](img:l-005-022)
 
@@ -140,7 +140,7 @@ Zet de regelaar waar het gezin staat als het warmte wil: meestal binnen, bij de 
 
 Tijdens de ruwbouw:
 
-- Plaats een diepe doos op de plek van de regelaar, op maat van de Affinity-regelaar [[VERIFY: doosmaat voor de Affinity-regelaar en of die in de groep op netspanning wordt opgenomen — Mike Clifford]].
+- Plaats een diepe doos op de plek van de regelaar, op maat van de Affinity-regelaar [[VERIFY: doosmaat voor de Affinity-regelaar en of die in de groep op netspanning wordt opgenomen — productteam]].
 - Leid elke groep van een verwarmer via die plek, of zoals het aansluitschema in de handleiding aangeeft.
 - Laat een route vrij, bijvoorbeeld een lege buis met trekdraad, naar de plek van de AV- of domotica-installatie als slimme bediening te verkopen valt.
 

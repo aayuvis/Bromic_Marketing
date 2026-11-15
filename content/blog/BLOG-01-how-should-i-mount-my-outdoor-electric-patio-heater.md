@@ -18,8 +18,8 @@ meta_description: "Ceiling, recessed or wall: how to mount a Bromic electric pat
 cta: {label: "Get the install guide series", asset: A17}
 hero: w-bromic-tungsten-electric-patio-heater
 images: [w-bromic-sep18th-3-1]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -116,7 +116,7 @@ Design the fixing and the circuit for the model in the box. The older figure of 
 | Platinum 2300 W | 72 in | 96 in | 17 lb | 9.6 A | 11.1 A |
 | Platinum 3400 W | 72 in | 96 in | 22 lb | 14.2 A | 16.3 A |
 | Platinum 4500 W | 72 in | 96 in | 33 lb | 18.8 A | 21.6 A |
-| Tungsten 2000–6000 W | 72 in | 96 in | [[VERIFY: per model — Mike Clifford]] | [[VERIFY: per model — Mike Clifford]] | [[VERIFY: per model — Mike Clifford]] |
+| Tungsten 2000–6000 W | 72 in | 96 in | [[VERIFY: per model — Product team]] | [[VERIFY: per model — Product team]] | [[VERIFY: per model — Product team]] |
 | Cobalt 4000 W | 6 ft | 8 ft | 19.8 lb | 16.6 A | 18.75 A |
 | Cobalt 6000 W | 6 ft | 8 ft | 22 lb | 25 A | 28.4 A |
 | Eclipse Electric 2900 W | Pole mount | 96 in | 30 lb | 12.1 A | 13.9 A |
@@ -131,7 +131,7 @@ Ceiling mounting suits covered spaces and is available across the electric range
 
 Recessing gives a flush ceiling and is available for Platinum, Platinum Marine and Tungsten Electric[^s1]. The cavity decides the kit:
 
-- Tungsten Electric recess kit: at least 21.1 in [[VERIFY: 21.1 in here vs 20 in in the recessing post — Mike Clifford]][^s1]
+- Tungsten Electric recess kit: at least 21.1 in [[VERIFY: 21.1 in here vs 20 in in the recessing post — Product team]][^s1]
 - Platinum standard recess kit: at least 10 in, varying by model[^s1]
 - Platinum Low Clearance Recess Kit: as little as 7.1 in, for new builds and retrofits[^s1]
 
@@ -144,7 +144,7 @@ Wall mounting suits patios with no ceiling, or a vaulted or angled one, and keep
 1. **Height.** At least 72 in to the heater on Platinum and Tungsten, 6 ft on Cobalt[^s3][^s5].
 2. **Structure.** The wall or beam must carry the heater's weight from the table above, fixed to blocking[^s2].
 3. **Aim.** Tilt the heater 15–45 degrees, by model, at the seating or dining area so heat is not wasted[^s1][^s2].
-4. **Combustibles.** Keep at least 36 in from combustibles: anything not rated for about 149°F above ambient, such as canvas, awnings, screens, vinyl, TVs, lights, fans, sprinklers and outlets[^s2]. Clearance above the heater varies by model and wattage [[VERIFY: electric top clearance — the live posts give 5 in, 6–12 in, 8–13 in and 5 ft; publish one figure per model from the manual — Mike Clifford]].
+4. **Combustibles.** Keep at least 36 in from combustibles: anything not rated for about 149°F above ambient, such as canvas, awnings, screens, vinyl, TVs, lights, fans, sprinklers and outlets[^s2]. Clearance above the heater varies by model and wattage [[VERIFY: electric top clearance — the live posts give 5 in, 6–12 in, 8–13 in and 5 ft; publish one figure per model from the manual — Product team]].
 
 Brackets: [Platinum](https://www.bromic.com/product/platinum-electric-wall-mounting-bracket/) and [Tungsten](https://www.bromic.com/product/tungsten-electric-wall-mounting-bracket/). See the range at [wall-mounted heaters](https://www.bromic.com/outdoor-heaters/wall-mounted/).
 

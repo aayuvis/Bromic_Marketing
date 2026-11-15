@@ -211,7 +211,7 @@
     try { await navigator.clipboard.writeText(text); toast(msg); }
     catch { const ta = document.createElement('textarea'); ta.value = text; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove(); toast(msg); }
   }
-  const FRAMED = !!window.HUB_FRAME;  // inside a Claude page: downloads and print are blocked, so copy instead
+  const FRAMED = !!window.HUB_FRAME;  // inside an embedded preview: downloads and print are blocked, so copy instead
   if (FRAMED) document.documentElement.classList.add('framed');
   function download(name, text, type = 'text/html') {
     if (FRAMED) { copy(text, 'Copied (downloads are blocked here)'); return; }
@@ -328,7 +328,7 @@
     <section class="hero fp-hero">${img('l-022-201', '', false)}
       <div class="hero-in"><span class="flame-rule"></span><span class="label">Bromic Content Hub · ${esc(STR(R().name))}</span>
         <h1>${esc(STR('Designed from the start, not added later.'))}</h1>
-        <p>${lang === 'en' ? 'Every piece of Bromic content that moves outdoor heating earlier: into the architect\'s drawing, the builder\'s pre-wire and the homeowner\'s first budget. Find it by who it is for, where they are in the decision, or what you need.' : esc(STR('HERO'))}</p>
+        <p>${lang === 'en' ? 'Every Bromic article, guide, calculator and case study in one place. Find what you need, see what it needs next, and share it with confidence.' : esc(STR('HERO'))}</p>
         <nav class="fp-ways" aria-label="What do you want to do?">
           <a href="#/library"><span>01</span>${esc(STR('Find something to share'))}</a>
           <a href="#/todo"><span>02</span>${esc(STR('Approve and chase'))}</a>
@@ -369,7 +369,7 @@
 
     <section class="fp-team" aria-labelledby="fp-team-h">
       <div class="fp-team-h"><h2 id="fp-team-h">For the content team</h2>
-        <p>Drafts are review-ready, not published. Here is where the work stands.</p></div>
+        <p>Drafts are ready for review. Nothing is published yet.</p></div>
       <div class="fp-team-stats">
         <a href="#/library"><b>${H.items.length}</b><span>pieces · ${gated} gated</span></a>
         <a href="#/review"><b>${inReview}</b><span>in review</span></a>
@@ -401,9 +401,10 @@
   const PLAIN = { draft: 'Draft', 'in-review': 'With reviewer', approved: 'Approved', published: 'Live', template: 'Template' };
   const personOf = (v) => {
     const seg = String(v).split(/ — /).pop().split(/\[\[|;/)[0];
-    const n = seg.split(/[\/+]/).map((x) => x.trim()).find((x) => /^[A-Z][a-z]+ [A-Z][a-z]+$|^Bromic (AU|UK|EU)$/.test(x));
+    const n = seg.split(/[\/+]/).map((x) => x.trim()).find((x) => ROLES.has(x) || /^Bromic (AU|UK|EU|Benelux)/.test(x));
     return n || '';
   };
+  const ROLES = new Set(Object.keys((H.roles && H.roles.roles) || {}).concat('454 Creative'));
   const people = (it) => [...new Set(it.verifies.map(personOf).filter(Boolean))];
   // One next step per item, from its status and what is still open.
   function nextStep(it) {
@@ -433,8 +434,8 @@
     const ready = all.filter((i) => nextStep(i).k === 'approve' && i.status === 'draft').length;
     const chase = all.filter((i) => nextStep(i).k === 'chase').length;
     const go = all.filter((i) => nextStep(i).k === 'go').length;
-    return `<div class="ph"><div><span class="label">Assets</span><h1>Everything we have, by where it goes</h1>
-      <p>Each shelf is a kind of asset and the channel it is for. Every row tells you its status and the one thing it needs next.</p></div>
+    return `<div class="ph"><div><span class="label">Assets</span><h1>Every Asset, Ready To Share</h1>
+      <p>Each shelf is a channel. Each row shows its status and its next step.</p></div>
       <a class="btn" href="#/todo">${ic.arrow}Open my to-do</a></div>
       <div class="todo-glance">
         <a href="#/todo#approve"><b>${ready}</b><span>ready to read and approve</span></a>
@@ -466,16 +467,16 @@
     const chaseItems = live.filter((i) => i.verifies.length && i.completeness !== 'partial');
     const byPerson = {};
     for (const it of chaseItems) for (const v of it.verifies) { const p = personOf(v) || 'Not assigned'; if (me && p !== me && it.owner_review !== me) continue; ((byPerson[p] ||= {})[it.id] ||= []).push(v); }
-    const everyone = [...new Set([...H.items.map((i) => i.owner_review).filter(Boolean).flatMap((o) => o.split(/ \+ /)), ...H.items.flatMap(people), '454 Creative'])].filter((x) => !/VERIFY/.test(x)).sort();
+    const everyone = [...new Set([...H.items.map((i) => i.owner_review).filter(Boolean).flatMap((o) => o.split(/ \+ /)), ...H.items.flatMap(people), '454 Creative'])].filter((x) => ROLES.has(x) || /^Bromic /.test(x)).filter((x) => !/VERIFY/.test(x)).sort();
     const steps = [['Draft', live.filter((i) => i.status === 'draft').length], ['Facts answered', live.filter((i) => i.status === 'draft' && nextStep(i).k === 'approve').length], ['Approved', live.filter((i) => i.status === 'approved').length], ['Laid out by 454 Creative', 0], ['Live on bromic.com', live.filter((i) => i.status === 'published').length]];
     const list = (its, empty) => (its.length ? `<div class="arows">${its.map(row).join('')}</div>` : `<div class="empty">${empty}</div>`);
-    return `<div class="ph"><div><span class="label">To do</span><h1>${me ? esc(me) + "'s to-do" : 'What needs a person next'}</h1>
-      <p>Nothing here is published until its owner approves it. Answer the open facts, approve the draft, then 454 Creative lays it out for bromic.com.</p></div>
-      <label class="who-pick"><span class="label">Show the to-do for</span><select id="me"><option value="">Everyone</option>${everyone.map((p) => `<option ${p === me ? 'selected' : ''}>${esc(p)}</option>`).join('')}</select></label></div>
+    return `<div class="ph"><div><span class="label">To do</span><h1>${me ? 'To do: ' + esc(me) : 'What Needs Your Sign-Off'}</h1>
+      <p>Answer the open facts. Approve the draft. 454 Creative lays it out for bromic.com.</p></div>
+      <label class="who-pick"><span class="label">Show the to-do for</span><select id="me"><option value="">Every team</option>${everyone.map((p) => `<option ${p === me ? 'selected' : ''}>${esc(p)}</option>`).join('')}</select></label></div>
       <ol class="flow">${steps.map(([t, n], k) => `<li><span class="flow-n">${k + 1}</span><b>${esc(t)}</b><span>${n}</span></li>`).join('')}</ol>
       <section class="todo-sec" id="approve"><div class="todo-h"><h2>Read and approve</h2><p>${approve.length} with no open facts. Open one, read it, and press <b>Approve</b> on the page.</p></div>${list(approve.slice(0, 40), 'Nothing waiting for approval.')}</section>
       <section class="todo-sec" id="go"><div class="todo-h"><h2>Approved: send to 454 Creative</h2><p>Approved drafts go to 454 Creative for layout, then WordPress.</p></div>${list(go, 'Nothing approved yet. Approve a draft above and it moves here.')}</section>
-      <section class="todo-sec" id="chase"><div class="todo-h"><h2>Facts to answer</h2><p>Each draft stays a draft until these are answered. Grouped by who can answer them; send each person their list.</p></div>
+      <section class="todo-sec" id="chase"><div class="todo-h"><h2>Facts to answer</h2><p>Each draft stays a draft until these are answered. Grouped by the team that can answer them; send each team its list.</p></div>
         ${Object.entries(byPerson).sort((a, b) => Object.values(b[1]).flat().length - Object.values(a[1]).flat().length).map(([p, its]) => {
           const n = Object.values(its).flat().length;
           return `<details class="chase"><summary><b>${esc(p)}</b><span class="muted">${n} ${n === 1 ? 'question' : 'questions'} across ${Object.keys(its).length} ${Object.keys(its).length === 1 ? 'asset' : 'assets'}</span></summary>
@@ -614,20 +615,20 @@
         <div><span class="label">MQL asset</span>
           <p style="margin:6px 0 18px"><a href="#/assets/${esc(c.mql_asset)}" class="t" style="font:400 19px var(--serif)">${esc(c.mql_asset)} · ${esc(a?.name || '')}</a></p>
           <span class="label">Content in this cell · ${its.length}</span>
-          <ul class="list" style="margin-top:6px">${its.map((i) => `<li><a href="#/item/${esc(i.id)}"><span class="t" style="font-size:15px">${esc(i.title)}</span><span class="chip">${esc(TYPES[i.type])}</span></a></li>`).join('') || '<li><span class="row gap">No content yet — the anchor article is the gap.</span></li>'}</ul>
+          <ul class="list" style="margin-top:6px">${its.map((i) => `<li><a href="#/item/${esc(i.id)}"><span class="t" style="font-size:15px">${esc(i.title)}</span><span class="chip">${esc(TYPES[i.type])}</span></a></li>`).join('') || '<li><span class="row gap">No content yet. The anchor article is the gap.</span></li>'}</ul>
         </div></section>`;
     }
     return `<div class="ph"><div><span class="label">Journey map</span><h1>Four audiences, five stages, twenty jobs</h1>
       <p>Each cell is a buyer moment: what hurts, what we can own, the question they ask an AI, and the asset that converts it. Select a cell.</p></div></div>
       ${matrixGrid(cellId)}${detail}
-      ${H.matrix.source === 'reconstructed' ? `<p class="muted" style="font-size:12px;margin-top:16px">Cells reconstructed from the handover brief — replace <code>data/journey-matrix.json</code> with the original when available. Keywords are directional, pending validation.</p>` : ''}`;
+      ${H.matrix.source === 'reconstructed' ? `<p class="muted" style="font-size:12px;margin-top:16px">Cells reconstructed from the handover brief. Replace <code>data/journey-matrix.json</code> with the original when available. Keywords are directional, pending validation.</p>` : ''}`;
   }
 
   function assets(id) {
     const rows = H.assets.map((a) => {
       const its = linked(a.id);
       return `<tr id="a-${a.id}" ${id === a.id ? 'style="background:var(--flame-wash)"' : ''}><td><b>${a.id}</b></td><td><span class="pri ${a.priority}">${a.priority}</span></td>
-        <td><b style="font:400 16px var(--serif)">${esc(a.name)}</b>${a.provenance === 'proposed' ? '<div class="prov">Proposed — not in the brief</div>' : ''}</td>
+        <td><b style="font:400 16px var(--serif)">${esc(a.name)}</b>${a.provenance === 'proposed' ? '<div class="prov">Proposed, not in the brief</div>' : ''}</td>
         <td>${esc(TYPES[a.type] || a.type)}</td><td>${a.audiences.join(' ')}</td><td>${a.stages.map((s) => STG[s]?.name || s).join(', ')}</td>
         <td>${a.gated ? 'Gated' : 'Open'}</td><td style="text-transform:capitalize">${esc(a.status)}</td><td>${esc(a.owner)}</td>
         <td>${its.length ? its.map((i) => `<a href="#/item/${esc(i.id)}">${esc(i.id)}</a>${hasPdf(i) ? ` · <a href="pdf/${esc(i.id)}.pdf" download="Bromic-${esc(i.id)}.pdf">PDF</a>` : ''}`).join('<br>') : '<span class="gap" style="color:var(--flame-ink)">—</span>'}</td></tr>`;
@@ -657,7 +658,7 @@
     const list = H.images.filter((i) => (!imgFilter.product || i.product.startsWith(imgFilter.product)) && (!imgFilter.aud || i.audiences.includes(imgFilter.aud) || i.audiences.includes('ALL')) && (!imgFilter.src || i.source === imgFilter.src));
     const sel = (k, opts, label) => `<label class="muted" style="font-size:13px">${label} <select data-imgf="${k}"><option value="">All</option>${opts.map((o) => `<option ${imgFilter[k] === o ? 'selected' : ''}>${esc(o)}</option>`).join('')}</select></label>`;
     return `<div class="ph"><div><span class="label">Image library</span><h1>Bromic photography, tagged for reuse</h1><p>bromic.com photography (case studies, gallery, product pages), the Lookbook 2026, Trends 2026 and the 2021 Planning Guide. Order of preference: bromic.com → Bromic asset library → Bromic publications → generated, labelled.</p></div></div>
-      <div class="callout"><b>bromic.com:</b> <code>python3 scripts/bromic_site_images.py fetch</code> pulls every image the site inventory names; <code>sheets</code> makes contact sheets to look at; <code>ingest</code> adds the kept ones with their page link. Rights stay [[VERIFY]] until Megan Spies confirms.</div>
+      <div class="callout"><b>bromic.com:</b> <code>python3 scripts/bromic_site_images.py fetch</code> pulls every image the site inventory names; <code>sheets</code> makes contact sheets to look at; <code>ingest</code> adds the kept ones with their page link. Rights stay [[VERIFY]] until Marketing confirms.</div>
       <div class="callout"><b>Add images:</b> drop files into <code>images/inbox/</code> in the Bromic_Marketing repo, then run <code>python3 scripts/ingest_images.py</code> — they are resized, tagged and appear here on the next build.</div>
       <div class="toolbar"><span class="muted">${list.length} images</span><span class="btns">${sel('product', prods, 'Product')}${sel('aud', AK, 'Audience')}${sel('src', srcs, 'Source')}</span></div>
       <div class="masonry">${list.map((i) => `<button class="tile" data-img="${i.id}"><img src="${i.thumb}" alt="${esc(i.alt)}" loading="lazy" width="${i.w}" height="${i.h}"><span class="cap"><span><b>${esc(i.product)}</b><br>${esc(i.setting)}</span><span>${(H.usage[i.id] || []).length ? (H.usage[i.id].length + '×') : ''}</span></span></button>`).join('')}</div>`;
@@ -876,9 +877,9 @@
         ${r.issues.length ? `<p class="label" style="margin-top:12px">Issues</p><ul>${r.issues.map((x) => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}</details>`).join('')}</div>`;
   }
 
-  // ---------- feedback: every element → a GitHub issue that Claude reads, implements and closes ----------
+  // ---------- feedback: every element → a GitHub issue the content team works through and closes ----------
   // The Hub is static, so feedback becomes an issue in the repo, marked "[Feedback]" with a machine-readable block naming the
-  // element. CLAUDE.md tells every session to read open feedback first, implement it, commit "Fixes #N" and redeploy.
+  // element. The project notes say to read open feedback first, implement it, commit "Fixes #N" and redeploy.
   const REPO = 'aayuvis/Bromic_Marketing';
   const FB_TYPES = ['Correction', 'Content', 'Design', 'Data or source', 'Idea'];
   let fbIssues = null; let fbLoading = false;
@@ -918,9 +919,9 @@
       <fieldset class="fb-types"><legend class="label">Kind</legend>${FB_TYPES.map((t, i) => `<label><input type="radio" name="fbt" value="${esc(t)}" ${i === (ctx.quote ? 0 : 1) ? 'checked' : ''}> ${esc(t)}</label>`).join('')}</fieldset>
       <label class="label" for="fb-text">What should change</label>
       <textarea id="fb-text" required placeholder="Be specific: what is wrong or missing, and what it should say or do instead."></textarea>
-      <label class="label" for="fb-who">Your name (optional)</label><input id="fb-who" type="text" placeholder="So Claude can credit or ask you">
+      <label class="label" for="fb-who">Your name (optional)</label><input id="fb-who" type="text" placeholder="So the content team can follow up">
       <div class="btns" style="margin-top:14px"><button class="btn primary" type="submit">${ic.ext}Send via GitHub</button><button class="btn" type="button" data-fbcopy>${ic.copy}Copy instead</button></div>
-      <p class="muted" style="font-size:12.5px;margin:10px 0 0">This opens a pre-filled issue on GitHub (sign in once). Claude reads open feedback at the start of every session, makes the change, and closes the issue with the commit. No GitHub account? Copy it and send it to marketing.</p></form>`;
+      <p class="muted" style="font-size:12.5px;margin:10px 0 0">This opens a pre-filled issue on GitHub (sign in once). The content team works through open feedback, makes the change and closes the issue with a note of what changed. No GitHub account? Copy it and send it to marketing.</p></form>`;
     const body = () => {
       const t = el.querySelector('input[name=fbt]:checked')?.value || 'Content';
       return `<!-- bromic-feedback v1 -->\nelement: ${ctx.element}\n${ctx.section ? `section: ${ctx.section}\n` : ''}type: ${t}\npage: ${location.href}\n${H.commit ? `commit: ${H.commit}\n` : ''}${el.querySelector('#fb-who').value ? `from: ${el.querySelector('#fb-who').value}\n` : ''}---\n\n${ctx.quote ? `> ${ctx.quote.replace(/\n+/g, ' ').slice(0, 600)}\n\n` : ''}${el.querySelector('#fb-text').value}\n`;
@@ -1013,7 +1014,7 @@
     const sc0 = e.target.closest('[data-scroll]'); if (sc0) { e.preventDefault(); document.getElementById(sc0.dataset.scroll)?.scrollIntoView({ behavior: 'smooth', block: 'center' }); return; }
     const cc0 = e.target.closest('[data-copy-chase]'); if (cc0) {
       const d = cc0.closest('details'), p = cc0.dataset.copyChase;
-      const body = `${p}, a few facts to confirm before these Bromic drafts can be approved:\n\n` + [...d.querySelectorAll('.chase-it')].map((x) => `${x.querySelector('a').textContent}\n${[...x.querySelectorAll('li')].map((l, n) => `  ${n + 1}. ${l.textContent}`).join('\n')}`).join('\n\n') + `\n\nEach one is open in the Content Hub: ${location.origin}${location.pathname}#/todo`;
+      const body = `For ${p}: a few facts to confirm before these Bromic drafts can be approved.\n\n` + [...d.querySelectorAll('.chase-it')].map((x) => `${x.querySelector('a').textContent}\n${[...x.querySelectorAll('li')].map((l, n) => `  ${n + 1}. ${l.textContent}`).join('\n')}`).join('\n\n') + `\n\nEach one is open in the Content Hub: ${location.origin}${location.pathname}#/todo`;
       navigator.clipboard?.writeText(body).then(() => toast('Copied: paste it into an email'), () => toast('Copy failed'));
       return;
     }

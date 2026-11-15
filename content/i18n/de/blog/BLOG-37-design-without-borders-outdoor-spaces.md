@@ -14,8 +14,8 @@ ai_prompt: "Was können Architekten von der Gestaltung offener Decks auf Kreuzfa
 meta_description: "Helena Sawelin von Tillberg Design über Kreuzfahrtdecks im Wind, im Salz und in Bewegung – und was das für die Beheizung von Außenräumen an Land bedeutet."
 cta: {label: "Revit-BIM- und CAD-Dateien herunterladen", asset: A13}
 hero: w-princess-sanctuary
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -60,7 +60,7 @@ sources:
 lang: de
 translation_of: BLOG-37
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 
 In Staffel zwei, Folge zwei von Designing Outdoor Spaces erklärt Helena Sawelin von Tillberg Design of Sweden, wie ihr Team offene Decks auf Kreuzfahrtschiffen gestaltet: Räume, die sich bewegen, Wind und Salz ausgesetzt sind und strenge Sicherheitsvorschriften erfüllen müssen[^s1]. Ihre Lehre für Planer an Land ist eindeutig: Erst für die Bedingungen planen, dann für den Moment – das Gästeerlebnis folgt daraus.
@@ -69,7 +69,7 @@ In Staffel zwei, Folge zwei von Designing Outdoor Spaces erklärt Helena Sawelin
 
 ## Wer ist Helena Sawelin?
 
-Helena Sawelin ist Partnerin und Design Director bei Tillberg Design of Sweden, einem Büro, das auf Kreuzfahrtschiffe und Luxusyachten spezialisiert ist[^s1]. Sie bringt mehr als 20 Jahre Erfahrung mit und leitet interdisziplinäre Teams vom Masterplan bis zum Detail in Innen- und Außenbereichen. Moderiert wird die Folge von Evan Troxel[^s3], Co-Host von Archispeak; sie erschien am 19. April 2025[^s2]. [[VERIFY: Helena Sawelins aktuelle Funktion bei Tillberg Design of Sweden prüfen — Megan Spies]]
+Helena Sawelin ist Partnerin und Design Director bei Tillberg Design of Sweden, einem Büro, das auf Kreuzfahrtschiffe und Luxusyachten spezialisiert ist[^s1]. Sie bringt mehr als 20 Jahre Erfahrung mit und leitet interdisziplinäre Teams vom Masterplan bis zum Detail in Innen- und Außenbereichen. Moderiert wird die Folge von Evan Troxel[^s3], Co-Host von Archispeak; sie erschien am 19. April 2025[^s2]. [[VERIFY: Helena Sawelins aktuelle Funktion bei Tillberg Design of Sweden prüfen — Marketing]]
 
 ## Planen für einen Raum, der sich bewegt
 
@@ -77,7 +77,7 @@ Auf See steht nichts still. Laut dem Beitrag plant Sawelins Team Wind, Salzbelas
 
 ## Außendecks als Ziel
 
-Sawelin möchte, dass Decks, Lounges und Poolbereiche Orte sind, an denen Gäste gern verweilen. Licht, Anordnung und Akustik zählen wie an Land, doch ihr Team plant zusätzlich die Bewegung des Schiffs, die wechselnde Aussicht, den Sonnenstand, die Windverhältnisse und die Reiseroute selbst ein[^s1]. Nach ihrer Darstellung sind die Außenbereiche oft das Herzstück des Gästeerlebnisses. [[VERIFY: Formulierung dieses Punkts mit der Folge abgleichen — Megan Spies]]
+Sawelin möchte, dass Decks, Lounges und Poolbereiche Orte sind, an denen Gäste gern verweilen. Licht, Anordnung und Akustik zählen wie an Land, doch ihr Team plant zusätzlich die Bewegung des Schiffs, die wechselnde Aussicht, den Sonnenstand, die Windverhältnisse und die Reiseroute selbst ein[^s1]. Nach ihrer Darstellung sind die Außenbereiche oft das Herzstück des Gästeerlebnisses. [[VERIFY: Formulierung dieses Punkts mit der Folge abgleichen — Marketing]]
 
 ## Lehren für Planer an Land
 

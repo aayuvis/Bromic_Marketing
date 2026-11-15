@@ -12,7 +12,7 @@ cta: {label: "Book a design consult", asset: A07}
 hero: w-bromic-tungsten-electric-black-recessed
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
 images: ["w-bromic-tungsten-electric-black-recessed"]
-owner_review: "Sean (West Canada) [[VERIFY: Canada lead]]"
+owner_review: "Canada sales [[VERIFY: Canada lead]]"
 status: draft
 source_kind: web-find
 origin: web-search
@@ -42,7 +42,7 @@ sources:
 
 | | |
 |---|---|
-| Project | Predator Ridge — Range Restaurant & Bar (Range Lounge & Grill) |
+| Project | Predator Ridge – Range Restaurant & Bar (Range Lounge & Grill) |
 | Location | Vernon, British Columbia, Canada |
 | Segment | club |
 | Products | Bromic 6000W electric heaters, 14 |

@@ -18,8 +18,8 @@ meta_description: "What to look for in a freestanding patio heater: radiant and 
 cta: {label: "Find out how many heaters you need", asset: A03}
 hero: w-eclipse-portable-hive-and-honey-1
 images: [w-bromic-eclipse-portable-hotel-skansen-01, l-019-163]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -87,10 +87,10 @@ Because most are built around a fuel tank, not around the people they warm. The 
 | Coverage | Sets how many you need | About 121 ft²[^s1] | About 215 ft²[^s1] |
 | Fuel | What your site can supply | Electric, 2900 W[^s2] | Propane (20 lb cylinder) or natural gas (quick-connect line)[^s3] |
 | Moving it | Layouts change by season | Wheels, weighted base[^s1] | Wheels, anti-tilt design[^s1] |
-| Control | Comfort and running cost | Output in steps of 33, 66 and 100%, dimmable light[^s1] | [[VERIFY: control options — Mike Clifford]] |
+| Control | Comfort and running cost | Output in steps of 33, 66 and 100%, dimmable light[^s1] | [[VERIFY: control options — Product team]] |
 | Looks | It stands in the middle of the space | Curved arm, light rim | Stainless steel column |
 
-[[VERIFY: Tungsten Freestanding Gas output, 38,000 BTU (Lookbook) vs 38,500 BTU (product page); 2900 W Eclipse vs 3000 W in the product FAQ — Mike Clifford]]
+[[VERIFY: Tungsten Freestanding Gas output, 38,000 BTU (Lookbook) vs 38,500 BTU (product page); 2900 W Eclipse vs 3000 W in the product FAQ — Product team]]
 
 ### Does wavelength matter?
 
@@ -100,17 +100,17 @@ Yes, especially in wind. Bromic's planning guide puts short-wave heat at about 9
 
 A curved arm on a weighted, wheeled base carries a round heater over a table or lounge, with a dimmable light around its rim, so one fixture sets the warmth and the mood.[^s1] It plugs in where there is no wall or ceiling to mount on, and moves when the furniture does. Keep at least 79 in. of clearance above it.[^s2]
 
-**Controls:** it ships with the Eclipse Dimmer Controller and remote, which step heat through 33, 66 and 100% and dim the light.[^s2] App control with zones and schedules needs a compatible Affinity Smart-Heat Eclipse controller; Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately.[^s1] [[VERIFY: what app control the Eclipse Freestanding needs beyond the included dimmer — Mike Clifford]]
+**Controls:** it ships with the Eclipse Dimmer Controller and remote, which step heat through 33, 66 and 100% and dim the light.[^s2] App control with zones and schedules needs a compatible Affinity Smart-Heat Eclipse controller; Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately.[^s1] [[VERIFY: what app control the Eclipse Freestanding needs beyond the included dimmer — Product team]]
 
 ![Arched freestanding Eclipse heater over a set dining table in a hotel courtyard at dusk](img:w-bromic-eclipse-portable-hotel-skansen-01)
 
-At [Hotel Skansen](https://www.bromic.com/case-study/hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-heat-freestanding-heaters/) in Sweden, two Eclipse freestanding heaters on the Eclipse Dimmer Controller keep the SAND restaurant terrace in use. In Scottsdale, AFT Construction used one on the patio of the [Desert Mirage](https://www.bromic.com/case-study/desert-mirage-blurring-the-lines-between-home-and-nature/) house. [[VERIFY: embed the AFT Construction reel the live post refers to, or remove the reference — Megan Spies]]
+At [Hotel Skansen](https://www.bromic.com/case-study/hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-heat-freestanding-heaters/) in Sweden, two Eclipse freestanding heaters on the Eclipse Dimmer Controller keep the SAND restaurant terrace in use. In Scottsdale, AFT Construction used one on the patio of the [Desert Mirage](https://www.bromic.com/case-study/desert-mirage-blurring-the-lines-between-home-and-nature/) house. [[VERIFY: embed the AFT Construction reel the live post refers to, or remove the reference — Marketing]]
 
 ## Tungsten Smart-Heat Freestanding Gas
 
 A stainless steel column with a tilting head and ceramic burners, built for open patios and restaurant terraces that need more coverage from one unit.[^s1] It runs on a 20 lb propane cylinder or on natural gas through a quick-connect line, rolls on wheels and is designed not to tip.[^s3] Bromic rates it for wind up to 8 mph.[^s3] A weatherproof [Tungsten Freestanding Cover](https://www.bromic.com/product/tungsten-freestanding-cover/) protects the head between uses.
 
-Run time per cylinder depends on output setting and fill. [[VERIFY: run time per 20 lb cylinder; the live post said up to 8 hours — Mike Clifford]] Propane brings code limits too: portable gas heaters need set distances from overhangs and exits. *Confirm with your local fire authority and a licensed gas fitter.* For a restaurant, [what a mushroom heater really costs](https://www.bromic.com/blog/why-mushroom-heaters-are-bad-for-business/) works the fuel and cylinder maths.
+Run time per cylinder depends on output setting and fill. [[VERIFY: run time per 20 lb cylinder; the live post said up to 8 hours — Product team]] Propane brings code limits too: portable gas heaters need set distances from overhangs and exits. *Confirm with your local fire authority and a licensed gas fitter.* For a restaurant, [what a mushroom heater really costs](https://www.bromic.com/blog/why-mushroom-heaters-are-bad-for-business/) works the fuel and cylinder maths.
 
 ![Tungsten freestanding gas heater in a stone courtyard at dusk](img:l-019-163)
 

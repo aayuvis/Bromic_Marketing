@@ -8,7 +8,7 @@ stage: [AW, CO, IN, PP, BY]
 cell: RES-CO
 asset: A24
 summary: "Every post on bromic.com/blog read on 29 Oct 2026, mapped to an audience and stage, checked against the hard rules (controls, legacy naming, sourced figures, code disclaimers) and given a call. Where a Hub draft covers the same topic, the plan updates the live URL instead of publishing a rival."
-owner_review: Brian Kim
+owner_review: Digital marketing
 status: in-review
 gated: false
 updated: 2026-10-29
@@ -71,7 +71,7 @@ duplicate topic and no lost links).
 | [How to use the new Bromic Heating app](https://www.bromic.com/blog/how-to-use-the-new-bromic-heating-app/) | RES-BY | Rewrite | Eight screenshots missing; drop "new"; say compatible Affinity controls are sold separately; align with RES-BY-01 |
 | [Are there remote controls for Bromic patio heaters?](https://www.bromic.com/blog/are-there-remote-controls-for-bromic-patio-heaters/) | RES-PP | Rewrite | Pre-Affinity; "Smart-Heat Connect" vs "Link"; "6 zones" vs "6 groups". Rewrite around Affinity On/Off, Dimmer, Eclipse controller, wall switch, app |
 | [How do I connect my outdoor radiant heater to my home automation system?](https://www.bromic.com/blog/how-do-i-connect-my-outdoor-radiant-heater-to-my-home-automation-system/) | RES-CO | Merge | Competes with the Smart-Heat Link post; dated 2020 "by 2025" forecast |
-| [How to integrate your Smart-Heat Link with home automation](https://www.bromic.com/blog/how-to-integrate-your-bromic-smart-heat-link-with-your-home-automation-system/) | BLD-BY | Keep (merge target) and rewrite | Check whether Smart-Heat Link is current with Affinity; add 208 V wiring (diagrams show 220–240 V only) [[VERIFY: Smart-Heat Link status vs Affinity — Mike Clifford]] |
+| [How to integrate your Smart-Heat Link with home automation](https://www.bromic.com/blog/how-to-integrate-your-bromic-smart-heat-link-with-your-home-automation-system/) | BLD-BY | Keep (merge target) and rewrite | Check whether Smart-Heat Link is current with Affinity; add 208 V wiring (diagrams show 220–240 V only) [[VERIFY: Smart-Heat Link status vs Affinity — Product team]] |
 | [Transforming outdoor spaces with smart technology](https://www.bromic.com/blog/transforming-outdoor-spaces-with-smart-technology/) | RES-AW | Keep and fix | Name the Affinity range; four images empty |
 
 ### Choosing a heater: one query, eight posts (RES · AW, CO)
@@ -101,9 +101,9 @@ buyer's guide (keep *Which outdoor heater collection is right for you?* as the U
 | [Heating people, not places: the fundamentals of heat transfer](https://www.bromic.com/blog/heating-people-not-places-the-fundamentals-of-heat-transfer/) | ARC-CO | Keep and fix | Source the 60–90% / 40% radiant figures (Planning Guide 2021); link ARC-CO-01 |
 | [Do outdoor heaters work in the winter?](https://www.bromic.com/blog/do-outdoor-heaters-work-in-the-winter/) | RES-AW | Keep and fix | Controls only in the summary box; three images empty; legacy dated link |
 | [Patio heaters in the rain](https://www.bromic.com/blog/patio-heaters-in-the-rain-what-you-need-to-know/) | RES-CO | Keep and fix | "Contact us" has no link; IEC defines IP codes, it does not accredit; reconcile IP claims |
-| [What is an IP rating and why is it important?](https://www.bromic.com/blog/what-is-an-ip-rating-and-why-is-it-important/) | ARC-CO | Rewrite (urgent) | Explains IP codes wrongly; blanket "IPX4" for every model [[VERIFY: IP rating per model — Mike Clifford]] |
+| [What is an IP rating and why is it important?](https://www.bromic.com/blog/what-is-an-ip-rating-and-why-is-it-important/) | ARC-CO | Rewrite (urgent) | Explains IP codes wrongly; blanket "IPX4" for every model [[VERIFY: IP rating per model — Product team]] |
 | [Combating corrosion: coastal environments](https://www.bromic.com/blog/combating-corrosion-outdoor-heating-in-coastal-environments/) | RES-CO | Merge with the coastal post below | Weak salt-air source (a metals vendor); does not name Platinum Electric Marine |
-| [Stylish and resilient coastal outdoor heaters](https://www.bromic.com/blog/stylish-resilient-coastal-outdoor-heaters/) | RES-CO | Keep (merge target), rewrite at Coastal launch | Tungsten Coastal is coming soon: rewrite on Mike Clifford's launch confirmation |
+| [Stylish and resilient coastal outdoor heaters](https://www.bromic.com/blog/stylish-resilient-coastal-outdoor-heaters/) | RES-CO | Keep (merge target), rewrite at Coastal launch | Tungsten Coastal is coming soon: rewrite on Product team's launch confirmation |
 | [Revolutionizing outdoor living in extreme climates](https://www.bromic.com/blog/revolutionizing-outdoor-living-in-extreme-climates/) | RES-AW | Convert to a case study | Reads as a case study but is not one; link it from /case-studies/ |
 
 ### Safety, propane and maintenance (RES, COM · CO, BY)
@@ -114,7 +114,7 @@ buyer's guide (keep *Which outdoor heater collection is right for you?* as the U
 | [Top tips for outdoor heater safety](https://www.bromic.com/blog/top-tips-for-outdoor-heaters-safety/) | RES-AW | Merge into the above | Metric "1 meter" clearance; COVID-era source |
 | [Is it safe to use a patio heater in a garage?](https://www.bromic.com/blog/patio-heater-in-a-garage/) | RES-AW | Keep and fix | Add the local-authority and installer disclaimer; "propane" link goes to the natural-gas page |
 | [Can you put a patio heater under a gazebo?](https://www.bromic.com/blog/can-you-put-a-patio-heater-under-a-gazebo/) | RES-PP | Keep and fix | IPX with no number; US voltage (208 V) missing; FAQ heading copied from another post; link RES-PP-KB1 |
-| [How long does a propane tank last on a patio heater?](https://www.bromic.com/blog/how-long-do-propane-patio-heaters-last/) | RES-CO | Keep and fix | retired series-number naming; run time conflicts (9–10 vs 10–17 h) [[VERIFY: run time per cylinder size — Mike Clifford]] |
+| [How long does a propane tank last on a patio heater?](https://www.bromic.com/blog/how-long-do-propane-patio-heaters-last/) | RES-CO | Keep and fix | retired series-number naming; run time conflicts (9–10 vs 10–17 h) [[VERIFY: run time per cylinder size — Product team]] |
 | [How to pick the right outdoor propane patio heater](https://www.bromic.com/blog/outdoor-propane-patio-heater-buying-guide/) | RES-CO | Merge into the propane tank post | Ventilation rule conflicts (75% open vs 25% minimum); CTA mislabelled |
 | [The power of portability: freestanding patio heaters](https://www.bromic.com/blog/the-power-of-freestanding-what-to-look-for-in-freestanding-patio-heaters/) | COM-CO | Merge into the post below | 2020 pandemic framing; 9 kg tank and MJ units on a US page |
 | [Freestanding heaters don't need to be clunky](https://www.bromic.com/blog/freestanding-heaters-dont-need-to-be-clunky/) | RES-CO | Keep (merge target) and fix | Reel embed missing; settle "Freestanding" vs "Portable" naming site-wide |
@@ -172,7 +172,7 @@ spec kit); add alt text. Name spellings to correct are listed in `data/site-inve
 | [New workplaces: driving occupancy with outdoor amenities](https://www.bromic.com/blog/new-workplaces-driving-occupancy-with-outdoor-amenities/) | COM-AW | Merge | Wakefield Research cited via a Google Drive file |
 | [Back to work: offices building a sense of home](https://www.bromic.com/blog/back-to-work-offices-building-a-sense-of-home-well-being/) | ARC-AW | Retire, 301 to the workplace post | "By the end of 2024" is past |
 | [Keeping patients warm: radiant heat and hypothermia](https://www.bromic.com/blog/keeping-patients-warm-how-radiant-heat-can-reduce-the-risk-of-hypothermia/) | COM-AW | Retire on US, 301 to the Clínica Las Condes case study | Medical claims need regulatory review; off the US funnel |
-| [What professionals are saying about Bromic Heating](https://www.bromic.com/blog/what-professionals-are-saying-about-bromic-heating/) | ARC-CO | Unpublish until verified | The three testimonials cannot be traced to a project or a person [[VERIFY: are these real, permissioned testimonials — Megan Spies]] |
+| [What professionals are saying about Bromic Heating](https://www.bromic.com/blog/what-professionals-are-saying-about-bromic-heating/) | ARC-CO | Unpublish until verified | The three testimonials cannot be traced to a project or a person [[VERIFY: are these real, permissioned testimonials — Marketing]] |
 
 ## Site-wide fixes for 454 Creative
 
@@ -201,4 +201,4 @@ spec kit); add alt text. Name spellings to correct are listed in `data/site-inve
 | /case-study/tungsten-electric-heaters-at-clinica-las-condes/ | keeping-patients-warm… |
 
 Net: 73 posts become about 55, and none of our Hub drafts goes live on a new URL that competes with an existing post.
-[[VERIFY: redirect plan and timing — Brian Kim with 454 Creative]]
+[[VERIFY: redirect plan and timing — Digital marketing with 454 Creative]]

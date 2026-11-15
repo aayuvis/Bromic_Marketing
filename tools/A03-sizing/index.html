@@ -7,10 +7,15 @@
 <meta name="description" content="Pick the shape of your space, choose a Bromic heater and see how many it needs, where they go and the controls that run them.">
 <style>
 /* @inline:begin ../_shared/brand.css */
+@font-face { font-family: "Helvetica Neue"; src: local("Helvetica Neue Light"), local("HelveticaNeue-Light"), url("../../fonts/arimo-latin.woff2") format("woff2"); font-weight: 300; font-display: swap; }
+@font-face { font-family: "Helvetica Neue"; src: local("Helvetica Neue"), local("HelveticaNeue"), url("../../fonts/arimo-latin.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Helvetica Neue"; src: local("Helvetica Neue Medium"), local("HelveticaNeue-Medium"), url("../../fonts/arimo-latin.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+@font-face { font-family: "Helvetica Neue"; src: local("Helvetica Neue Bold"), local("HelveticaNeue-Bold"), url("../../fonts/arimo-latin.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Bromic Didot"; src: local("Didot"), url("../../fonts/gfs-didot-latin.woff2") format("woff2"); font-weight: 400; font-display: swap; }
 /* Bromic tool styling — shared by A03, A20, A21. Inlined into each index.html by tools/build-config.mjs.
-   Flame is the only accent. Georgia headings, Helvetica/Arial body. Works from 320px up. */
+   Flame is the only accent. Didot headings (Lookbook 2026), Helvetica Neue Light body. Works from 320px up. */
 :root {
-  --paper: #F4F1EC;
+  --paper: #F5F5F4;
   --ink: #231F20;
   --flame: #EF4123;
   --flame-ink: #231F20;          /* small text stays ink: flame on paper is under 4.5:1, so flame marks borders and rules only */
@@ -18,7 +23,7 @@
   --steel-ink: #575C61;          /* steel darkened for small text on paper */
   --mist: #DDE0E2;
   --white: #FFFFFF;
-  --serif: Georgia, "Times New Roman", serif;
+  --serif: Didot, "Bromic Didot", "Bodoni 72", "Bodoni MT", serif;
   --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 * { box-sizing: border-box; }
@@ -114,7 +119,7 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
   .gate, .actions, .inputs { display: none !important; }
 }
 
-/* Inside a Claude page (?framed=1) print and downloads are blocked: hide those controls. */
+/* Inside an embedded preview (?framed=1) print and downloads are blocked: hide those controls. */
 .framed .no-frame { display: none !important; }
 /* @inline:end ../_shared/brand.css */
 </style>
@@ -378,7 +383,7 @@ input[type=range] { flex: 1; min-width: 0; accent-color: var(--flame); height: 2
 <script type="module">
 /* @inline:begin config.json */
 const CONFIG = {
-  "_readme": "Every assumption the A03 sizing calculator uses. An assumption is any object with a `value`: it must carry unit, source, verified and owner, and a [[VERIFY]] note while verified is false. Edit this file, then run `node tools/build-config.mjs` to regenerate config.js and re-inline it into index.html. Bromic product values mirror data/product-facts.json and stay verified:false until Mike Clifford signs off.",
+  "_readme": "Every assumption the A03 sizing calculator uses. An assumption is any object with a `value`: it must carry unit, source, verified and owner, and a [[VERIFY]] note while verified is false. Edit this file, then run `node tools/build-config.mjs` to regenerate config.js and re-inline it into index.html. Bromic product values mirror data/product-facts.json and stay verified:false until Product team signs off.",
   "tool": {
     "asset_id": "A03",
     "matrix_cell": "RES-CO",
@@ -403,24 +408,24 @@ const CONFIG = {
       "unit": "ft",
       "source": "Tool guard rail, not a product fact",
       "verified": false,
-      "verify": "[[VERIFY: smallest space the tool should size — Brian Kim]]",
-      "owner": "Brian Kim"
+      "verify": "[[VERIFY: smallest space the tool should size — Digital marketing]]",
+      "owner": "Digital marketing"
     },
     "max_side_ft": {
       "value": 200,
       "unit": "ft",
       "source": "Tool guard rail, not a product fact",
       "verified": false,
-      "verify": "[[VERIFY: largest side the tool should accept — Brian Kim]]",
-      "owner": "Brian Kim"
+      "verify": "[[VERIFY: largest side the tool should accept — Digital marketing]]",
+      "owner": "Digital marketing"
     },
     "large_space_ft2": {
       "value": 1500,
       "unit": "ft²",
       "source": "Tool guard rail: above this the result tells the visitor to use the design service",
       "verified": false,
-      "verify": "[[VERIFY: area above which we route to the design team — Shaughn Ritchie]]",
-      "owner": "Shaughn Ritchie"
+      "verify": "[[VERIFY: area above which we route to the design team — Specification and compliance]]",
+      "owner": "Specification and compliance"
     }
   },
   "outdoor_rule": {
@@ -429,8 +434,8 @@ const CONFIG = {
       "unit": "% of perimeter permanently open",
       "source": "Planning Guide v1.2 (2021) Step 01; data/product-facts.json principles.outdoor-definition",
       "verified": false,
-      "verify": "[[VERIFY: confirm the 30% open rule for 2026 — Mike Clifford]]",
-      "owner": "Mike Clifford"
+      "verify": "[[VERIFY: confirm the 30% open rule for 2026 — Product team]]",
+      "owner": "Product team"
     }
   },
   "enclosure": {
@@ -442,8 +447,8 @@ const CONFIG = {
         "unit": "× nominal coverage",
         "source": "Assumption: no overhead cover, so no 'heat cloud' and more wind exposure (Planning Guide v1.2 Step 01, qualitative only)",
         "verified": false,
-        "verify": "[[VERIFY: coverage derate for fully open spaces — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: coverage derate for fully open spaces — Product team]]",
+        "owner": "Product team"
       }
     },
     "partial": {
@@ -454,8 +459,8 @@ const CONFIG = {
         "unit": "× nominal coverage",
         "source": "Assumption: Lookbook coverage treated as the partially covered reference case",
         "verified": false,
-        "verify": "[[VERIFY: which setting the Lookbook coverage figures assume — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: which setting the Lookbook coverage figures assume — Product team]]",
+        "owner": "Product team"
       }
     },
     "covered": {
@@ -466,8 +471,8 @@ const CONFIG = {
         "unit": "× nominal coverage",
         "source": "Assumption: a cover traps a 'heat cloud' that adds a convective boost (Planning Guide v1.2 Step 01, qualitative only)",
         "verified": false,
-        "verify": "[[VERIFY: coverage uplift for covered spaces — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: coverage uplift for covered spaces — Product team]]",
+        "owner": "Product team"
       }
     }
   },
@@ -480,8 +485,8 @@ const CONFIG = {
         "unit": "× coverage",
         "source": "Assumption. Planning Guide v1.2 Step 05 says colder states may need more heaters for the same space (its example: 2 heaters in California, 3 in Massachusetts for 20 × 10 ft)",
         "verified": false,
-        "verify": "[[VERIFY: climate derate factors and the temperature bands that define them — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: climate derate factors and the temperature bands that define them — Product team]]",
+        "owner": "Product team"
       }
     },
     "cool": {
@@ -492,8 +497,8 @@ const CONFIG = {
         "unit": "× coverage",
         "source": "Assumption (see mild)",
         "verified": false,
-        "verify": "[[VERIFY: climate derate factors — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: climate derate factors — Product team]]",
+        "owner": "Product team"
       }
     },
     "cold": {
@@ -504,8 +509,8 @@ const CONFIG = {
         "unit": "× coverage",
         "source": "Assumption (see mild). Note: the Planning Guide's example (2 gas heaters for 200 ft² in California) implies a layout or overlap allowance this tool does not model",
         "verified": false,
-        "verify": "[[VERIFY: climate derate factors — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: climate derate factors — Product team]]",
+        "owner": "Product team"
       }
     }
   },
@@ -515,24 +520,24 @@ const CONFIG = {
       "unit": "in above floor",
       "source": "Planning Guide v1.2 (2021) Step 06; data/product-facts.json principles.codes-electric",
       "verified": false,
-      "verify": "[[VERIFY: 2026 minimum wall-mount height per model — Mike Clifford]]",
-      "owner": "Mike Clifford"
+      "verify": "[[VERIFY: 2026 minimum wall-mount height per model — Product team]]",
+      "owner": "Product team"
     },
     "min_ceiling_mount_in": {
       "value": 96,
       "unit": "in above floor",
       "source": "Planning Guide v1.2 (2021) Step 06 (varies with output)",
       "verified": false,
-      "verify": "[[VERIFY: 2026 minimum ceiling-mount height per model — Mike Clifford]]",
-      "owner": "Mike Clifford"
+      "verify": "[[VERIFY: 2026 minimum ceiling-mount height per model — Product team]]",
+      "owner": "Product team"
     },
     "default_height_ft": {
       "value": 9,
       "unit": "ft",
       "source": "Form default only",
       "verified": false,
-      "verify": "[[VERIFY: default mount height shown in the form — Brian Kim]]",
-      "owner": "Brian Kim"
+      "verify": "[[VERIFY: default mount height shown in the form — Digital marketing]]",
+      "owner": "Digital marketing"
     },
     "height_bands": {
       "value": [
@@ -552,16 +557,16 @@ const CONFIG = {
       "unit": "× coverage by mount height (built-in heaters only)",
       "source": "Assumption. Lookbook 2026 notes coverage varies with mounting height but publishes no curve",
       "verified": false,
-      "verify": "[[VERIFY: coverage by mount height per model — Mike Clifford]]",
-      "owner": "Mike Clifford"
+      "verify": "[[VERIFY: coverage by mount height per model — Product team]]",
+      "owner": "Product team"
     },
     "max_recommended_ft": {
       "value": 14,
       "unit": "ft",
       "source": "Assumption: above this the result suggests a suspension pole (Planning Guide v1.2 Step 07 lists suspension poles to bring units down in high ceilings)",
       "verified": false,
-      "verify": "[[VERIFY: height above which to suggest a suspension pole — Mike Clifford]]",
-      "owner": "Mike Clifford"
+      "verify": "[[VERIFY: height above which to suggest a suspension pole — Product team]]",
+      "owner": "Product team"
     }
   },
   "layout": {
@@ -570,8 +575,8 @@ const CONFIG = {
       "unit": "× effective coverage (1.0 = no allowance for overlap or awkward shapes)",
       "source": "Assumption. The Planning Guide v1.2 Step 05 example recommends 2 gas heaters for a 20 × 10 ft patio in California although one heater's nominal coverage exceeds 200 ft², which suggests an overlap or layout allowance",
       "verified": false,
-      "verify": "[[VERIFY: overlap / layout allowance to apply to nominal coverage — Mike Clifford]]",
-      "owner": "Mike Clifford"
+      "verify": "[[VERIFY: overlap / layout allowance to apply to nominal coverage — Product team]]",
+      "owner": "Product team"
     }
   },
   "products": [
@@ -588,16 +593,16 @@ const CONFIG = {
         "unit": "ft²",
         "source": "Lookbook 2026 p.21: range 65–143 ft² across 2300/3400/4500W; lowest wattage mapped to the low end",
         "verified": false,
-        "verify": "[[VERIFY: coverage of the 2300W model — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: coverage of the 2300W model — Product team]]",
+        "owner": "Product team"
       },
       "watts": {
         "value": 2300,
         "unit": "W",
         "source": "Lookbook 2026 p.21",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -613,16 +618,16 @@ const CONFIG = {
         "unit": "ft²",
         "source": "bromic.com product page https://www.bromic.com/product/platinum-smart-heat-electric/ (read 29 Oct 2026) spec table: 3400W, 108 ft²; replaces the 104 ft² interpolation",
         "verified": false,
-        "verify": "[[VERIFY: coverage of the 3400W model — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: coverage of the 3400W model — Product team]]",
+        "owner": "Product team"
       },
       "watts": {
         "value": 3400,
         "unit": "W",
         "source": "Lookbook 2026 p.21",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -638,16 +643,16 @@ const CONFIG = {
         "unit": "ft²",
         "source": "Lookbook 2026 p.21: highest wattage mapped to the high end of 65–143 ft²",
         "verified": false,
-        "verify": "[[VERIFY: coverage of the 4500W model — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: coverage of the 4500W model — Product team]]",
+        "owner": "Product team"
       },
       "watts": {
         "value": 4500,
         "unit": "W",
         "source": "Lookbook 2026 p.21",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -663,16 +668,16 @@ const CONFIG = {
         "unit": "ft²",
         "source": "Lookbook 2026 p.27",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       },
       "watts": {
         "value": null,
         "unit": "W",
         "source": "Not published in Lookbook 2026",
         "verified": false,
-        "verify": "[[VERIFY: Eclipse Electric wattage — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: Eclipse Electric wattage — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -688,16 +693,16 @@ const CONFIG = {
         "unit": "ft²",
         "source": "Lookbook 2026 p.33",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       },
       "watts": {
         "value": null,
         "unit": "W",
         "source": "Not published in Lookbook 2026",
         "verified": false,
-        "verify": "[[VERIFY: Eclipse Freestanding wattage and plug type — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: Eclipse Freestanding wattage and plug type — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -713,16 +718,16 @@ const CONFIG = {
         "unit": "ft²",
         "source": "Lookbook 2026 p.39",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       },
       "btu": {
         "value": 38000,
         "unit": "BTU/hr",
         "source": "Lookbook 2026 p.39 (freestanding only)",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -741,8 +746,8 @@ const CONFIG = {
         "unit": "ft² (range by model and size)",
         "source": "Lookbook 2026 pp.7, 15",
         "verified": false,
-        "verify": "[[VERIFY: launch date and per-model coverage — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: launch date and per-model coverage — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -761,8 +766,8 @@ const CONFIG = {
         "unit": "ft² (range by model and size)",
         "source": "Lookbook 2026 pp.11, 15",
         "verified": false,
-        "verify": "[[VERIFY: launch date and per-model coverage — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: launch date and per-model coverage — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -778,8 +783,8 @@ const CONFIG = {
         "unit": "ft²",
         "source": "bromic.com product page https://www.bromic.com/product/platinum-smart-heat-gas/ (read 29 Oct 2026) spec table: 160 ft²",
         "verified": false,
-        "verify": "[[VERIFY: Platinum Gas coverage per model — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: Platinum Gas coverage per model — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -795,8 +800,8 @@ const CONFIG = {
         "unit": "ft²",
         "source": "bromic.com product page https://www.bromic.com/product/platinum-smart-heat-gas/ (read 29 Oct 2026) spec table: 215 ft²",
         "verified": false,
-        "verify": "[[VERIFY: Platinum Gas coverage per model — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: Platinum Gas coverage per model — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -812,8 +817,8 @@ const CONFIG = {
         "unit": "ft²",
         "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-gas/ (read 29 Oct 2026) spec table: 160 ft². Output is not shown: Tungsten gas BTU stays unpublished until verified",
         "verified": false,
-        "verify": "[[VERIFY: Tungsten Gas built-in coverage and BTU — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: Tungsten Gas built-in coverage and BTU — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -829,8 +834,8 @@ const CONFIG = {
         "unit": "ft²",
         "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-gas/ (read 29 Oct 2026) spec table: 215 ft². Output is not shown: Tungsten gas BTU stays unpublished until verified",
         "verified": false,
-        "verify": "[[VERIFY: Tungsten Gas built-in coverage and BTU — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: Tungsten Gas built-in coverage and BTU — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -846,16 +851,16 @@ const CONFIG = {
         "unit": "ft²",
         "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026) spec table: 2000 W, 65 ft²",
         "verified": false,
-        "verify": "[[VERIFY: coverage of the Tungsten Smart-Heat Electric 2000W — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: coverage of the Tungsten Smart-Heat Electric 2000W — Product team]]",
+        "owner": "Product team"
       },
       "watts": {
         "value": 2000,
         "unit": "W",
         "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026)",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -871,16 +876,16 @@ const CONFIG = {
         "unit": "ft²",
         "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026) spec table: 3000 W, 100 ft²",
         "verified": false,
-        "verify": "[[VERIFY: coverage of the Tungsten Smart-Heat Electric 3000W — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: coverage of the Tungsten Smart-Heat Electric 3000W — Product team]]",
+        "owner": "Product team"
       },
       "watts": {
         "value": 3000,
         "unit": "W",
         "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026)",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -896,16 +901,16 @@ const CONFIG = {
         "unit": "ft²",
         "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026) spec table: 4000 W, 130 ft²",
         "verified": false,
-        "verify": "[[VERIFY: coverage of the Tungsten Smart-Heat Electric 4000W — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: coverage of the Tungsten Smart-Heat Electric 4000W — Product team]]",
+        "owner": "Product team"
       },
       "watts": {
         "value": 4000,
         "unit": "W",
         "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026)",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -921,16 +926,16 @@ const CONFIG = {
         "unit": "ft²",
         "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026) spec table: 6000 W, 160 ft²",
         "verified": false,
-        "verify": "[[VERIFY: coverage of the Tungsten Smart-Heat Electric 6000W — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: coverage of the Tungsten Smart-Heat Electric 6000W — Product team]]",
+        "owner": "Product team"
       },
       "watts": {
         "value": 6000,
         "unit": "W",
         "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026)",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -946,16 +951,16 @@ const CONFIG = {
         "unit": "ft²",
         "source": "bromic.com product page https://www.bromic.com/product/cobalt-smart-heat-electric/ (read 29 Oct 2026) spec table: 4000 W, 130 ft²",
         "verified": false,
-        "verify": "[[VERIFY: coverage of the Cobalt Smart-Heat Electric 4000W — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: coverage of the Cobalt Smart-Heat Electric 4000W — Product team]]",
+        "owner": "Product team"
       },
       "watts": {
         "value": 4000,
         "unit": "W",
         "source": "bromic.com product page https://www.bromic.com/product/cobalt-smart-heat-electric/ (read 29 Oct 2026)",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -971,16 +976,16 @@ const CONFIG = {
         "unit": "ft²",
         "source": "bromic.com product page https://www.bromic.com/product/cobalt-smart-heat-electric/ (read 29 Oct 2026) spec table: 6000 W, 160 ft²",
         "verified": false,
-        "verify": "[[VERIFY: coverage of the Cobalt Smart-Heat Electric 6000W — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: coverage of the Cobalt Smart-Heat Electric 6000W — Product team]]",
+        "owner": "Product team"
       },
       "watts": {
         "value": 6000,
         "unit": "W",
         "source": "bromic.com product page https://www.bromic.com/product/cobalt-smart-heat-electric/ (read 29 Oct 2026)",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       }
     }
   ],
@@ -1005,16 +1010,16 @@ const CONFIG = {
         "unit": "heaters (or kW) per controller",
         "source": "Worked out per model from max_kw_per_channel and the heater wattage (one channel per zone)",
         "verified": false,
-        "verify": "[[VERIFY: maximum heaters or load per Affinity channel — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: maximum heaters or load per Affinity channel — Product team]]",
+        "owner": "Product team"
       },
       "max_kw_per_channel": {
         "value": 6,
         "unit": "kW per controller channel at 208–277 V",
         "source": "bromic.com product page https://www.bromic.com/product/affinity-smart-heat-dimmer-controllers/ (read 29 Oct 2026); same on the On/Off page",
         "verified": false,
-        "verify": "[[VERIFY: Affinity capacity per channel at 208 V and 240 V — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: Affinity capacity per channel at 208 V and 240 V — Product team]]",
+        "owner": "Product team"
       }
     },
     "eclipse": {
@@ -1037,14 +1042,14 @@ const CONFIG = {
         "unit": "Eclipse heaters per controller channel",
         "source": "bromic.com product page https://www.bromic.com/product/affinity-smart-heat-eclipse-controllers/ (read 29 Oct 2026): one Eclipse heater per channel",
         "verified": false,
-        "verify": "[[VERIFY: heaters per Eclipse controller; whether Eclipse Freestanding uses the same controller — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: heaters per Eclipse controller; whether Eclipse Freestanding uses the same controller — Product team]]",
+        "owner": "Product team"
       }
     },
     "gas-freestanding": {
       "items": [
         {
-          "name": "Controls for Tungsten Smart-Heat Freestanding Gas — confirmed by the Bromic design team [[VERIFY: control options and Affinity compatibility for Tungsten Freestanding Gas — Mike Clifford]]",
+          "name": "Controls for Tungsten Smart-Heat Freestanding Gas — confirmed by the Bromic design team [[VERIFY: control options and Affinity compatibility for Tungsten Freestanding Gas — Product team]]",
           "per": "heater"
         }
       ],
@@ -1053,8 +1058,8 @@ const CONFIG = {
         "unit": "heaters per controller",
         "source": "Not published",
         "verified": false,
-        "verify": "[[VERIFY: control options for Tungsten Freestanding Gas — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: control options for Tungsten Freestanding Gas — Product team]]",
+        "owner": "Product team"
       }
     },
     "gas-builtin": {
@@ -1077,8 +1082,8 @@ const CONFIG = {
         "unit": "gas heaters per On/Off channel",
         "source": "bromic.com product page https://www.bromic.com/product/affinity-smart-heat-on-off-controllers/ (read 29 Oct 2026): up to 10 gas heaters (or 6,000 W) per channel; Platinum Gas FAQ: on/off only",
         "verified": false,
-        "verify": "[[VERIFY: On/Off control of Platinum Gas and Tungsten Gas built-in (the On/Off spec table lists only electric) — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: On/Off control of Platinum Gas and Tungsten Gas built-in (the On/Off spec table lists only electric) — Product team]]",
+        "owner": "Product team"
       }
     },
     "app_note": "Wi-Fi and app features require compatible Affinity Smart-Heat controls, sold separately.",
@@ -1195,15 +1200,15 @@ const CONFIG = {
       "unit": "ft² of heated patio a seat, aisles and breathing room included",
       "source": "NAFEM space-planning chart as published in the Restaurant Furniture seating capacity guide (https://www.restaurant-furniture.com/resources/guides/restaurant-seating-capacity-guide): full-service dining 12–15 ft² a seat, fine dining 18–20. The top of the range is used so tables are not crammed (owner, 30 Oct 2026)",
       "verified": false,
-      "verify": "[[VERIFY: open the NAFEM chart itself and confirm the 18–20 ft² fine-dining figure — Brian Kim]]",
-      "owner": "Brian Kim"
+      "verify": "[[VERIFY: open the NAFEM chart itself and confirm the 18–20 ft² fine-dining figure — Digital marketing]]",
+      "owner": "Digital marketing"
     },
     "freestanding_max_seats": {
       "value": 4,
       "unit": "seats a freestanding heater can warm",
-      "source": "Owner rule (Aayush Vishnoi, 30 Oct 2026): guests block the radiant heat of a freestanding heater (templates/calculation-model.md)",
+      "source": "Owner rule (Leadership, 30 Oct 2026): guests block the radiant heat of a freestanding heater (templates/calculation-model.md)",
       "verified": true,
-      "owner": "Aayush Vishnoi"
+      "owner": "Leadership"
     }
   }
 };
@@ -1447,11 +1452,11 @@ const IMAGES = {"w-platinum-black":"data:image/webp;base64,UklGRogDAABXRUJQVlA4I
 /* @inline:end images.json */
 
 /* @inline:begin ../../data/regions.json */
-const REGIONS = {"_readme":"The Hub's regions and languages (templates/regionalisation.md). A region sets units, currency, mains voltage, the codes an installer works to and the local Bromic site. Code names are the standard titles; every installation still goes to the local authority and a licensed installer, and the [[VERIFY]] notes ask a regional reviewer to confirm the current edition.","default":"us","regions":[{"id":"us","label":"US","name":"United States","langs":["en"],"units":"imperial","temp":"F","currency":"USD","symbol":"$","voltage":"120/240 V, 60 Hz","site":"https://www.bromic.com/","electrical_code":"NEC (NFPA 70)","gas_code":"NFPA 54 (natural gas) and NFPA 58 (propane)","installer":"a licensed electrician or gas fitter","authority":"your local building authority","propane":"20 lb exchange cylinders or a bulk tank","verify":null,"cylinder_kg":9.07},{"id":"ca","label":"Canada","name":"Canada","langs":["en"],"units":"metric","dual":true,"temp":"C","currency":"CAD","symbol":"C$","voltage":"120/240 V, 60 Hz","site":"https://www.bromic.ca/","electrical_code":"Canadian Electrical Code (CSA C22.1)","gas_code":"CSA B149.1 (natural gas and propane installation code)","installer":"a licensed electrician or a licensed gas technician","authority":"your provincial or municipal authority","propane":"20 lb cylinders or a bulk tank","verify":"[[VERIFY: current CEC and B149.1 editions and provincial amendments — Sean (West Canada)]]","cylinder_kg":9.07},{"id":"au","label":"AUS","name":"Australia","langs":["en"],"units":"metric","temp":"C","currency":"AUD","symbol":"A$","voltage":"230 V, 50 Hz","site":"https://www.bromic.com.au/","electrical_code":"AS/NZS 3000 (Wiring Rules)","gas_code":"AS/NZS 5601.1 (gas installations)","installer":"a licensed electrician or licensed gasfitter","authority":"your state or territory regulator and local council","propane":"LPG in 9 kg cylinders or larger bottles","verify":"[[VERIFY: current AS/NZS 3000 and 5601.1 editions — Bromic AU technical team]]","cylinder_kg":9},{"id":"nz","label":"NZ","name":"New Zealand","langs":["en"],"units":"metric","temp":"C","currency":"NZD","symbol":"NZ$","voltage":"230 V, 50 Hz","site":"https://www.bromic.com.au/","electrical_code":"AS/NZS 3000 (Wiring Rules), under the Electricity (Safety) Regulations 2010","gas_code":"AS/NZS 5601.1, under the Gas (Safety and Measurement) Regulations 2010","installer":"a registered electrician or registered gasfitter","authority":"your local council","propane":"LPG in 9 kg cylinders or larger bottles","verify":"[[VERIFY: New Zealand regulations, and whether NZ customers go to bromic.com.au or a NZ distributor — Bromic AU/NZ team]]","cylinder_kg":9},{"id":"uk","label":"UK","name":"United Kingdom","langs":["en"],"units":"metric","temp":"C","currency":"GBP","symbol":"£","voltage":"230 V, 50 Hz","site":"https://www.bromic.co.uk/","electrical_code":"BS 7671 (IET Wiring Regulations)","gas_code":"the Gas Safety (Installation and Use) Regulations 1998","installer":"a registered electrician or a Gas Safe registered engineer","authority":"your local authority building control","propane":"LPG (propane) in 13 kg or 19 kg cylinders","verify":"[[VERIFY: current BS 7671 amendment and Part P notification for outdoor circuits — Bromic UK]]","cylinder_kg":13},{"id":"benelux","label":"Benelux","name":"Belgium, Netherlands, Luxembourg","langs":["nl","en"],"units":"metric","temp":"C","currency":"EUR","symbol":"€","voltage":"230 V, 50 Hz","site":"https://www.bromic.nl/","sites":{"nl":"https://www.bromic.nl/","en":"https://www.bromic.nl/"},"electrical_code":"NEN 1010 (Netherlands); AREI/RGIE (Belgium)","gas_code":"NEN 1078 (Netherlands); NBN D 51-003 (Belgium)","installer":"a qualified electrician or gas installer (in Belgium, with an AREI/RGIE inspection)","authority":"your municipality","propane":"propane in 10.5 kg or 11 kg cylinders","verify":"[[VERIFY: current Dutch, Belgian and Luxembourg codes — Bromic Benelux distributor]]","langs_planned":["fr"],"note":"French (Belgium, Luxembourg) and Belgian-specific context are on hold (owner, 30 Oct 2026). Dutch is written for the Netherlands.","cylinder_kg":10.5},{"id":"de","label":"Germany","name":"Germany","langs":["de","en"],"units":"metric","temp":"C","currency":"EUR","symbol":"€","voltage":"230 V, 50 Hz","site":"https://www.bromic.de/","electrical_code":"DIN VDE 0100","gas_code":"DVGW-TRGI (natural gas) and TRF (LPG)","installer":"a registered electrician (Elektrofachbetrieb) or gas installer","authority":"your local building authority (Bauamt)","propane":"propane in 5 kg or 11 kg cylinders","verify":"[[VERIFY: current VDE and DVGW rules for outdoor heaters — Raffaele Marti]]","cylinder_kg":11}],"languages":{"en":"English","nl":"Nederlands","de":"Deutsch"},"conversions":{"ft_to_m":0.3048,"ft2_to_m2":0.09290304,"in_to_mm":25.4,"btu_h_to_kw":0.00029307107,"gal_us_to_l":3.785411784,"lb_to_kg":0.45359237,"therm_to_kwh":29.3071},"languages_planned":{"fr":"Français"},"cylinder_note":"cylinder_kg: the common patio-heater cylinder size per region (US/Canada 20 lb = 9.07 kg; AU/NZ 9 kg; UK 13 kg propane; Benelux 10.5 kg; Germany 11 kg), from the propane field above. Usable gallons = kg ÷ 1.923 kg a US gallon (4.24 lb, as in A20's config). [[VERIFY: regional cylinder sizes used by hospitality venues — regional teams]]"};
+const REGIONS = {"_readme":"The Hub's regions and languages (templates/regionalisation.md). A region sets units, currency, mains voltage, the codes an installer works to and the local Bromic site. Code names are the standard titles; every installation still goes to the local authority and a licensed installer, and the [[VERIFY]] notes ask a regional reviewer to confirm the current edition.","default":"us","regions":[{"id":"us","label":"US","name":"United States","langs":["en"],"units":"imperial","temp":"F","currency":"USD","symbol":"$","voltage":"120/240 V, 60 Hz","site":"https://www.bromic.com/","electrical_code":"NEC (NFPA 70)","gas_code":"NFPA 54 (natural gas) and NFPA 58 (propane)","installer":"a licensed electrician or gas fitter","authority":"your local building authority","propane":"20 lb exchange cylinders or a bulk tank","verify":null,"cylinder_kg":9.07},{"id":"ca","label":"Canada","name":"Canada","langs":["en"],"units":"metric","dual":true,"temp":"C","currency":"CAD","symbol":"C$","voltage":"120/240 V, 60 Hz","site":"https://www.bromic.ca/","electrical_code":"Canadian Electrical Code (CSA C22.1)","gas_code":"CSA B149.1 (natural gas and propane installation code)","installer":"a licensed electrician or a licensed gas technician","authority":"your provincial or municipal authority","propane":"20 lb cylinders or a bulk tank","verify":"[[VERIFY: current CEC and B149.1 editions and provincial amendments — Canada sales]]","cylinder_kg":9.07},{"id":"au","label":"AUS","name":"Australia","langs":["en"],"units":"metric","temp":"C","currency":"AUD","symbol":"A$","voltage":"230 V, 50 Hz","site":"https://www.bromic.com.au/","electrical_code":"AS/NZS 3000 (Wiring Rules)","gas_code":"AS/NZS 5601.1 (gas installations)","installer":"a licensed electrician or licensed gasfitter","authority":"your state or territory regulator and local council","propane":"LPG in 9 kg cylinders or larger bottles","verify":"[[VERIFY: current AS/NZS 3000 and 5601.1 editions — Bromic AU technical team]]","cylinder_kg":9},{"id":"nz","label":"NZ","name":"New Zealand","langs":["en"],"units":"metric","temp":"C","currency":"NZD","symbol":"NZ$","voltage":"230 V, 50 Hz","site":"https://www.bromic.com.au/","electrical_code":"AS/NZS 3000 (Wiring Rules), under the Electricity (Safety) Regulations 2010","gas_code":"AS/NZS 5601.1, under the Gas (Safety and Measurement) Regulations 2010","installer":"a registered electrician or registered gasfitter","authority":"your local council","propane":"LPG in 9 kg cylinders or larger bottles","verify":"[[VERIFY: New Zealand regulations, and whether NZ customers go to bromic.com.au or a NZ distributor — Bromic AU/NZ team]]","cylinder_kg":9},{"id":"uk","label":"UK","name":"United Kingdom","langs":["en"],"units":"metric","temp":"C","currency":"GBP","symbol":"£","voltage":"230 V, 50 Hz","site":"https://www.bromic.co.uk/","electrical_code":"BS 7671 (IET Wiring Regulations)","gas_code":"the Gas Safety (Installation and Use) Regulations 1998","installer":"a registered electrician or a Gas Safe registered engineer","authority":"your local authority building control","propane":"LPG (propane) in 13 kg or 19 kg cylinders","verify":"[[VERIFY: current BS 7671 amendment and Part P notification for outdoor circuits — Bromic UK]]","cylinder_kg":13},{"id":"benelux","label":"Benelux","name":"Belgium, Netherlands, Luxembourg","langs":["nl","en"],"units":"metric","temp":"C","currency":"EUR","symbol":"€","voltage":"230 V, 50 Hz","site":"https://www.bromic.nl/","sites":{"nl":"https://www.bromic.nl/","en":"https://www.bromic.nl/"},"electrical_code":"NEN 1010 (Netherlands); AREI/RGIE (Belgium)","gas_code":"NEN 1078 (Netherlands); NBN D 51-003 (Belgium)","installer":"a qualified electrician or gas installer (in Belgium, with an AREI/RGIE inspection)","authority":"your municipality","propane":"propane in 10.5 kg or 11 kg cylinders","verify":"[[VERIFY: current Dutch, Belgian and Luxembourg codes — Bromic Benelux distributor]]","langs_planned":["fr"],"note":"French (Belgium, Luxembourg) and Belgian-specific context are on hold (owner, 30 Oct 2026). Dutch is written for the Netherlands.","cylinder_kg":10.5},{"id":"de","label":"Germany","name":"Germany","langs":["de","en"],"units":"metric","temp":"C","currency":"EUR","symbol":"€","voltage":"230 V, 50 Hz","site":"https://www.bromic.de/","electrical_code":"DIN VDE 0100","gas_code":"DVGW-TRGI (natural gas) and TRF (LPG)","installer":"a registered electrician (Elektrofachbetrieb) or gas installer","authority":"your local building authority (Bauamt)","propane":"propane in 5 kg or 11 kg cylinders","verify":"[[VERIFY: current VDE and DVGW rules for outdoor heaters — Germany partner]]","cylinder_kg":11}],"languages":{"en":"English","nl":"Nederlands","de":"Deutsch"},"conversions":{"ft_to_m":0.3048,"ft2_to_m2":0.09290304,"in_to_mm":25.4,"btu_h_to_kw":0.00029307107,"gal_us_to_l":3.785411784,"lb_to_kg":0.45359237,"therm_to_kwh":29.3071},"languages_planned":{"fr":"Français"},"cylinder_note":"cylinder_kg: the common patio-heater cylinder size per region (US/Canada 20 lb = 9.07 kg; AU/NZ 9 kg; UK 13 kg propane; Benelux 10.5 kg; Germany 11 kg), from the propane field above. Usable gallons = kg ÷ 1.923 kg a US gallon (4.24 lb, as in A20's config). [[VERIFY: regional cylinder sizes used by hospitality venues — regional teams]]"};
 /* @inline:end ../../data/regions.json */
 
 /* @inline:begin ../_shared/strings.json */
-const STRINGS = {"_readme":"UI strings for the tools (English key → German, Dutch). Machine-drafted 30 Oct 2026; native review pending.","de":{"% of its perimeter is permanently open.":"% seines Umfangs dauerhaft offen sind.","% of the perimeter permanently open?":"% des Umfangs dauerhaft offen?",". A residential bulk price. Venues on exchange cylinders usually pay more per gallon: enter your own price.":". Ein Großabnehmerpreis für Privathaushalte. Betriebe mit Tauschflaschen zahlen pro Gallone meist mehr: Geben Sie Ihren eigenen Preis ein.","/ gal":"/ L","/ kWh":"/ kWh","/ therm":"/ Therm","/gal. EIA. Change them under \"Use your own numbers\".":"/Gallone. EIA. Ändern Sie die Werte unter „Eigene Werte verwenden“.","/kWh (EIA). Change it under \"Use your own numbers\".":"/kWh (EIA). Ändern Sie den Wert unter „Eigene Werte verwenden“.","/kWh · natural gas":"/kWh · Erdgas","/therm · propane":"/Therm · Flüssiggas (Propan)","A pergola, umbrella or part roof over some of the area.":"Eine Pergola, ein Schirm oder ein Teildach über einem Teil der Fläche.","Added revenue":"Zusätzlicher Umsatz","Affinity Smart-Heat Dimmer or On/Off controller channel":"Kanal am Affinity Smart-Heat Dimmer oder On/Off-Steuergerät","Alabama":"Alabama","Alaska":"Alaska","Also fits · tap to compare":"Passt auch · zum Vergleich antippen","Architect / designer":"Architekt / Planer","Areas you switch or dim on their own, such as dining and lounge.":"Bereiche, die Sie getrennt schalten oder dimmen, etwa Essbereich und Lounge.","Arizona":"Arizona","Arkansas":"Arkansas","Auto":"Auto","Average check a guest":"Durchschnittlicher Bon pro Gast","Balcony, bar":"Balkon, Bar","Bromic Smart-Heat app":"Bromic Smart-Heat app","Bromic treats a space as outdoor when at least":"Bromic behandelt einen Bereich als Außenbereich, wenn mindestens","Builder / installer":"Bauunternehmer / Installateur","Built-in":"Einbau","Built-in gas heat for larger terraces":"Gas-Einbauheizung für größere Terrassen","Built-in gas heat in matte black":"Gas-Einbauheizung in Mattschwarz","California":"California","Cash over three years":"Liquidität über drei Jahre","Choose one":"Bitte wählen","Climate":"Klima","Cobalt Electric":"Cobalt Electric","Cold":"Kalt","Colorado":"Colorado","Commercial operator":"Gewerblicher Betreiber","Company":"Unternehmen","Connecticut":"Connecticut","Contribution margin":"Deckungsbeitrag","Controls for a complete system":"Steuerung für ein komplettes System","Cool":"Kühl","Courtyard":"Innenhof","Cover and climate":"Überdachung und Klima","Covered":"Überdacht","Dealer":"Händler","Delaware":"Delaware","District of Columbia":"District of Columbia","Eclipse":"Eclipse","Eclipse Freestanding":"Eclipse Freestanding","Either":"Beides","Electric":"Elektrisch","Electric heat":"Elektrische Wärme","Electricity":"Strom","Electricity price, dollars per kWh":"Strompreis, Dollar pro kWh","Email":"E-Mail","Energy":"Energie","Evenings a year":"Abende pro Jahr","Evenings you would close or empty the patio without heat.":"Abende, an denen Sie die Terrasse ohne Heizung schließen würden oder sie leer bliebe.","Every model that fits, the controls bundle for each, the electrical load and the assumptions behind the numbers.":"Jedes passende Modell, das Steuerungspaket für jedes, die elektrische Last und die Annahmen hinter den Zahlen.","Extra evenings a year":"Zusätzliche Abende pro Jahr","Fire pit, terrace":"Feuerstelle, Terrasse","First name":"Vorname","Five-year cost model":"Kostenmodell über fünf Jahre","Florida":"Florida","Food, drink, labour":"Speisen, Getränke, Personal","Four quick answers: seats, cover, state and how much you heat. We size the heaters, fill in your state's energy prices, and compare electric, natural gas and propane on what you will pay: heaters, installation, fuel and the staff time it takes to swap cylinders.":"Vier kurze Angaben: Plätze, Überdachung, Bundesstaat und wie viel Sie heizen. Wir berechnen die Heizstrahler, setzen die Energiepreise Ihres Bundesstaats ein und vergleichen Strom, Erdgas und Flüssiggas (Propan) nach dem, was Sie zahlen: Heizstrahler, Installation, Energie und die Personalzeit für den Flaschenwechsel.","Freestanding":"Freistehend","Freestanding gas heat, no wiring":"Freistehende Gasheizung, ohne Verkabelung","Fuel":"Brennstoff","Gas":"Gas","Georgia":"Georgia","Get the full ROI report":"Vollständigen ROI-Bericht anfordern","Get the full five-year report":"Vollständigen Fünf-Jahres-Bericht anfordern","Get the full report":"Vollständigen Bericht anfordern","Hawaii":"Hawaii","Heat and light that moves with you":"Wärme und Licht, die mit Ihnen mitgehen","Heated hours an evening":"Beheizte Stunden pro Abend","Heated seats":"Beheizte Plätze","Heater, install and service prices are placeholders, not Bromic prices: set yours under \"Use your own numbers\". Every option needs its controls to run as a complete system. Wi-Fi and app features require compatible Affinity Smart-Heat controls, sold separately.":"Preise für Heizstrahler, Installation und Service sind Platzhalter, keine Bromic-Preise: Legen Sie Ihre eigenen unter „Eigene Werte verwenden“ fest. Jede Option braucht ihre Steuerung, um als komplettes System zu laufen. WLAN- und App-Funktionen erfordern eine kompatible Affinity Smart-Heat Steuerung, separat erhältlich.","Heater, its share of controls, wiring, mounting and permits.":"Heizstrahler, sein Anteil an Steuerung, Verkabelung, Montage und Genehmigungen.","Heaters":"Heizstrahler","Heaters, cost, hours, price":"Heizstrahler, Kosten, Stunden, Preis","Height and zones":"Höhe und Zonen","Help me choose":"Bei der Auswahl helfen","Homeowner":"Hausbesitzer","Hours an evening":"Stunden pro Abend","How cold are the evenings you heat?":"Wie kalt sind die Abende, an denen Sie heizen?","How many heated seats?":"Wie viele beheizte Plätze?","How many heaters does your space need?":"Wie viele Heizstrahler braucht Ihr Bereich?","How much you heat":"Wie viel Sie heizen","I am a…":"Ich bin…","Idaho":"Idaho","Illinois":"Illinois","Indiana":"Indiana","Install":"Installation","Install, each ($)":"Installation, je Stück ($)","Installed cost a heater is a placeholder, not a Bromic price: use your quote. Every default is a starting point, not a benchmark. The heaters run with Affinity Smart-Heat Dimmer or On/Off controller and a wall switch per zone; Bromic Smart-Heat app (zones, schedules, timers). Wi-Fi and app features require compatible Affinity Smart-Heat controls, sold separately.":"Die installierten Kosten pro Heizstrahler sind ein Platzhalter, kein Bromic-Preis: Verwenden Sie Ihr Angebot. Jeder Standardwert ist ein Ausgangspunkt, kein Richtwert. Die Heizstrahler laufen mit Affinity Smart-Heat Dimmer oder On/Off-Steuergerät und einem Wandschalter pro Zone; Bromic Smart-Heat app (Zonen, Zeitpläne, Timer). WLAN- und App-Funktionen erfordern eine kompatible Affinity Smart-Heat Steuerung, separat erhältlich.","Installed cost a heater, all in":"Installierte Kosten pro Heizstrahler, alles inklusive","Iowa":"Iowa","Is at least":"Sind mindestens","Its size":"Seine Größe","Kansas":"Kansas","Kentucky":"Kentucky","L-shape":"L-Form","Last name":"Nachname","Length":"Länge","Long and narrow":"Lang und schmal","Louisiana":"Louisiana","Lowest cost":"Niedrigste Kosten","Maine":"Maine","Manual wall switch":"Manueller Wandschalter","Margin kept":"Verbleibende Marge","Maryland":"Maryland","Massachusetts":"Massachusetts","Michigan":"Michigan","Mild":"Mild","Minnesota":"Minnesota","Mississippi":"Mississippi","Missouri":"Missouri","Montana":"Montana","Mount height":"Montagehöhe","Mount height slider":"Schieberegler Montagehöhe","Natural gas":"Erdgas","Natural gas price, dollars per therm":"Erdgaspreis, Dollar pro Therm","Nebraska":"Nebraska","Net a year":"Netto pro Jahr","Net gain a year":"Nettogewinn pro Jahr","Nevada":"Nevada","New Hampshire":"New Hampshire","New Jersey":"New Jersey","New Mexico":"New Mexico","New York":"New York","No":"Nein","No. of homes":"Anzahl Häuser","North Carolina":"North Carolina","North Dakota":"North Dakota","Ohio":"Ohio","Oklahoma":"Oklahoma","Open":"Offen","Oregon":"Oregon","Overhead cover":"Überdachung","Partially covered":"Teilweise überdacht","Patio revenue and payback":"Terrassenumsatz und Amortisation","Patio, deck":"Terrasse, Deck","Payback at other capture rates":"Amortisation bei anderen Auslastungen","Pennsylvania":"Pennsylvania","Pick the shape of your space, set its size and choose a heater. The plan shows how many you need, roughly where they go and the controls that run them. Designed from the start, not added later.":"Wählen Sie die Form Ihres Bereichs, legen Sie die Größe fest und wählen Sie einen Heizstrahler. Der Plan zeigt, wie viele Sie brauchen, ungefähr wo sie hingehören und die Steuerung, die sie betreibt. Von Anfang an mitgeplant, nicht nachträglich ergänzt.","Placeholder":"Platzhalter","Platinum Electric":"Platinum Electric","Platinum Gas":"Platinum Gas","Prices from the US Energy Information Administration:":"Preise der US Energy Information Administration (EIA):","Prices, heater counts, costs":"Preise, Anzahl Heizstrahler, Kosten","Project size (optional)":"Projektgröße (optional)","Project size unit":"Einheit der Projektgröße","Project timing":"Zeitplan des Projekts","Propane":"Flüssiggas (Propan)","Propane price, dollars per gallon":"Flüssiggaspreis, Dollar pro Liter","Purchase, each ($)":"Kauf, je Stück ($)","Rectangle":"Rechteck","Researching":"Informiere mich","Rhode Island":"Rhode Island","Round":"Rund","Round heat and light on a pole or pendant":"Runde Wärme und Licht an Mast oder Pendel","Running total":"Laufende Summe","Seats":"Plätze","Seats filled on those evenings":"An diesen Abenden belegte Plätze","See the costs":"Kosten anzeigen","See the full report":"Vollständigen Bericht ansehen","See the payback":"Amortisation anzeigen","See the plan":"Plan anzeigen","Show the best fit across the range":"Die beste Lösung aus dem gesamten Sortiment zeigen","Silver linear heat for walls and ceilings":"Silberne lineare Wärme für Wände und Decken","Sizing calculator":"Rechner zur Auslegung","Slim linear heat for walls, ceilings and flush recesses":"Schmale lineare Wärme für Wände, Decken und bündigen Einbau","South Carolina":"South Carolina","South Dakota":"South Dakota","Start low. A case that pays back at a modest fill is one that gets approved.":"Beginnen Sie niedrig. Ein Fall, der sich schon bei mäßiger Auslastung amortisiert, wird genehmigt.","State":"Bundesstaat","Style":"Stil","Tap a heater to size it":"Tippen Sie auf einen Heizstrahler, um ihn auszulegen","Tennessee":"Tennessee","Texas":"Texas","The evenings heat adds":"Die Abende, die Wärme hinzufügt","The full report below compares every model that fits and the controls each needs.":"Der vollständige Bericht unten vergleicht jedes passende Modell und die Steuerung, die es braucht.","The heater":"Der Heizstrahler","The patio":"Die Terrasse","The shape of the space":"Die Form des Bereichs","The working line by line, the low and high cases, the controls the heaters need and every assumption with its source. Ready to take to an owner or landlord.":"Die Rechnung Zeile für Zeile, der niedrige und der hohe Fall, die Steuerung, die die Heizstrahler brauchen, und jede Annahme mit ihrer Quelle. Bereit für Eigentümer oder Vermieter.","To pay back inside a year you need about":"Um sich innerhalb eines Jahres zu amortisieren, brauchen Sie etwa","Tungsten Electric":"Tungsten Electric","Tungsten Gas":"Tungsten Gas","Tungsten Portable":"Tungsten Portable","Turns a night":"Belegungen pro Abend","U-shape or courtyard":"U-Form oder Innenhof","US average commercial electricity:":"US-Durchschnitt Strom für Gewerbe:","US averages: electricity":"US-Durchschnitt: Strom","United States (average)":"Vereinigte Staaten (Durchschnitt)","Use your own numbers":"Eigene Werte verwenden","Utah":"Utah","Vermont":"Vermont","Virginia":"Virginia","Washington":"Washington","We use these details to send your report and, if you ask, to follow up. No spam. [[VERIFY: privacy line and policy link — Brian Kim]]":"Wir verwenden diese Angaben, um Ihnen Ihren Bericht zu senden und, wenn Sie es wünschen, nachzufassen. Kein Spam. [[VERIFY: Datenschutzhinweis und Link zur Datenschutzerklärung — Brian Kim]]","West Virginia":"West Virginia","What are heated seats worth, and when do the heaters pay for themselves?":"Was sind beheizte Plätze wert, und wann haben sich die Heizstrahler amortisiert?","What is left of each sale after food, drink and variable labour.":"Was von jedem Verkauf nach Speisen, Getränken und variablen Personalkosten bleibt.","What will patio heating cost you over five years?":"Was kostet Sie die Terrassenheizung über fünf Jahre?","Where built-in heaters would go, on the wall or ceiling.":"Wo Einbau-Heizstrahler hinkämen, an Wand oder Decke.","Where each added dollar goes":"Wohin jeder zusätzliche Dollar fließt","Where you are":"Ihr Standort","Wi-Fi and app features require compatible Affinity Smart-Heat controls, sold separately.":"WLAN- und App-Funktionen erfordern eine kompatible Affinity Smart-Heat Steuerung, separat erhältlich.","Width":"Breite","Wisconsin":"Wisconsin","With Affinity Smart-Heat Dimmer or On/Off controller and a wall switch per zone; Bromic Smart-Heat app (zones, schedules, timers)":"Mit Affinity Smart-Heat Dimmer oder On/Off-Steuergerät und einem Wandschalter pro Zone; Bromic Smart-Heat app (Zonen, Zeitpläne, Timer)","Wraps a corner":"Über Eck","Wyoming":"Wyoming","Year-by-year costs, fuel use, cylinder swaps, the controls each option needs and every assumption with its source.":"Kosten Jahr für Jahr, Energieverbrauch, Flaschenwechsel, die Steuerung, die jede Option braucht, und jede Annahme mit ihrer Quelle.","Yes":"Ja","Your five-year cost":"Ihre Kosten über fünf Jahre","Your heating plan":"Ihr Heizplan","Your patio":"Ihre Terrasse","Your payback":"Ihre Amortisation","Your seats, your average check and the evenings heat adds. See the margin those evenings bring in, what the heaters cost to run, and the month the installation has paid for itself.":"Ihre Plätze, Ihr durchschnittlicher Bon und die Abende, die Wärme hinzufügt. Sehen Sie die Marge dieser Abende, was der Betrieb der Heizstrahler kostet und den Monat, in dem sich die Installation amortisiert hat.","Your space":"Ihr Bereich","Your trade":"Ihr Beruf","ZIP / postal code":"Postleitzahl","Zones":"Zonen","Zones slider":"Schieberegler Zonen","ft²":"m²","ft² of patio":"m² Terrasse","heater hours a year":"Heizstunden pro Jahr","heaters":"Heizstrahler","of margin after running cost.":"Marge nach Betriebskosten.","of the heated seats filled.":"der beheizten Plätze belegt.","slider":"Schieberegler","to pay back, from":"bis zur Amortisation, aus","· Tungsten Smart-Heat Freestanding Gas (natural gas)":"· Tungsten Smart-Heat Freestanding Gas (Erdgas)","· Tungsten Smart-Heat Freestanding Gas (propane)":"· Tungsten Smart-Heat Freestanding Gas (Flüssiggas)","× Cobalt Electric":"× Cobalt Electric","× Platinum Gas":"× Platinum Gas","× Tungsten Electric":"× Tungsten Electric","× Tungsten Gas":"× Tungsten Gas"},"nl":{"% of its perimeter is permanently open.":"% van de omtrek permanent open is.","% of the perimeter permanently open?":"% van de omtrek permanent open?",". A residential bulk price. Venues on exchange cylinders usually pay more per gallon: enter your own price.":". Een bulkprijs voor particulieren. Zaken met wisselflessen betalen per gallon meestal meer: vul uw eigen prijs in.","/ gal":"/ L","/ kWh":"/ kWh","/ therm":"/ therm","/gal. EIA. Change them under \"Use your own numbers\".":"/gallon. EIA. Wijzig ze onder 'Eigen waarden gebruiken'.","/kWh (EIA). Change it under \"Use your own numbers\".":"/kWh (EIA). Wijzig deze onder 'Eigen waarden gebruiken'.","/kWh · natural gas":"/kWh · aardgas","/therm · propane":"/therm · propaan","A pergola, umbrella or part roof over some of the area.":"Een pergola, parasol of gedeeltelijk dak boven een deel van het oppervlak.","Added revenue":"Extra omzet","Affinity Smart-Heat Dimmer or On/Off controller channel":"Kanaal op Affinity Smart-Heat Dimmer- of On/Off-regelaar","Alabama":"Alabama","Alaska":"Alaska","Also fits · tap to compare":"Past ook · tik om te vergelijken","Architect / designer":"Architect / ontwerper","Areas you switch or dim on their own, such as dining and lounge.":"Delen die u apart schakelt of dimt, zoals eten en lounge.","Arizona":"Arizona","Arkansas":"Arkansas","Auto":"Auto","Average check a guest":"Gemiddelde besteding per gast","Balcony, bar":"Balkon, bar","Bromic Smart-Heat app":"Bromic Smart-Heat app","Bromic treats a space as outdoor when at least":"Bromic beschouwt een ruimte als buitenruimte wanneer ten minste","Builder / installer":"Aannemer / installateur","Built-in":"Inbouw","Built-in gas heat for larger terraces":"Ingebouwde gasverwarming voor grotere terrassen","Built-in gas heat in matte black":"Ingebouwde gasverwarming in matzwart","California":"California","Cash over three years":"Kasstroom over drie jaar","Choose one":"Kies er één","Climate":"Klimaat","Cobalt Electric":"Cobalt Electric","Cold":"Koud","Colorado":"Colorado","Commercial operator":"Horecaondernemer / exploitant","Company":"Bedrijf","Connecticut":"Connecticut","Contribution margin":"Dekkingsbijdrage","Controls for a complete system":"Bediening voor een compleet systeem","Cool":"Koel","Courtyard":"Binnenplaats","Cover and climate":"Overkapping en klimaat","Covered":"Overdekt","Dealer":"Dealer","Delaware":"Delaware","District of Columbia":"District of Columbia","Eclipse":"Eclipse","Eclipse Freestanding":"Eclipse Freestanding","Either":"Beide","Electric":"Elektrisch","Electric heat":"Elektrische warmte","Electricity":"Elektriciteit","Electricity price, dollars per kWh":"Elektriciteitsprijs, dollar per kWh","Email":"E-mail","Energy":"Energie","Evenings a year":"Avonden per jaar","Evenings you would close or empty the patio without heat.":"Avonden waarop u het terras zonder verwarming zou sluiten of het leeg zou blijven.","Every model that fits, the controls bundle for each, the electrical load and the assumptions behind the numbers.":"Elk passend model, het bedieningspakket voor elk, de elektrische belasting en de aannames achter de cijfers.","Extra evenings a year":"Extra avonden per jaar","Fire pit, terrace":"Vuurplaats, terras","First name":"Voornaam","Five-year cost model":"Kostenmodel over vijf jaar","Florida":"Florida","Food, drink, labour":"Eten, drinken, personeel","Four quick answers: seats, cover, state and how much you heat. We size the heaters, fill in your state's energy prices, and compare electric, natural gas and propane on what you will pay: heaters, installation, fuel and the staff time it takes to swap cylinders.":"Vier korte antwoorden: zitplaatsen, overkapping, staat en hoeveel u verwarmt. Wij berekenen de verwarmers, vullen de energieprijzen van uw staat in en vergelijken elektriciteit, aardgas en propaan op wat u betaalt: verwarmers, installatie, brandstof en de personeelstijd voor het wisselen van flessen.","Freestanding":"Vrijstaand","Freestanding gas heat, no wiring":"Vrijstaande gasverwarming, zonder bedrading","Fuel":"Brandstof","Gas":"Gas","Georgia":"Georgia","Get the full ROI report":"Volledig ROI-rapport ontvangen","Get the full five-year report":"Volledig vijfjarenrapport ontvangen","Get the full report":"Volledig rapport ontvangen","Hawaii":"Hawaii","Heat and light that moves with you":"Warmte en licht die met u meegaan","Heated hours an evening":"Verwarmde uren per avond","Heated seats":"Verwarmde plaatsen","Heater, install and service prices are placeholders, not Bromic prices: set yours under \"Use your own numbers\". Every option needs its controls to run as a complete system. Wi-Fi and app features require compatible Affinity Smart-Heat controls, sold separately.":"Prijzen voor verwarmers, installatie en service zijn plaatshouders, geen Bromic-prijzen: stel uw eigen prijzen in onder 'Eigen waarden gebruiken'. Elke optie heeft haar bediening nodig om als compleet systeem te werken. Wifi- en app-functies vereisen een compatibele Affinity Smart-Heat bediening, apart verkrijgbaar.","Heater, its share of controls, wiring, mounting and permits.":"Verwarmer, zijn aandeel in bediening, bedrading, montage en vergunningen.","Heaters":"Verwarmers","Heaters, cost, hours, price":"Verwarmers, kosten, uren, prijs","Height and zones":"Hoogte en zones","Help me choose":"Help mij kiezen","Homeowner":"Huiseigenaar","Hours an evening":"Uren per avond","How cold are the evenings you heat?":"Hoe koud zijn de avonden waarop u verwarmt?","How many heated seats?":"Hoeveel verwarmde plaatsen?","How many heaters does your space need?":"Hoeveel verwarmers heeft uw ruimte nodig?","How much you heat":"Hoeveel u verwarmt","I am a…":"Ik ben…","Idaho":"Idaho","Illinois":"Illinois","Indiana":"Indiana","Install":"Installatie","Install, each ($)":"Installatie, per stuk ($)","Installed cost a heater is a placeholder, not a Bromic price: use your quote. Every default is a starting point, not a benchmark. The heaters run with Affinity Smart-Heat Dimmer or On/Off controller and a wall switch per zone; Bromic Smart-Heat app (zones, schedules, timers). Wi-Fi and app features require compatible Affinity Smart-Heat controls, sold separately.":"De geïnstalleerde kosten per verwarmer zijn een plaatshouder, geen Bromic-prijs: gebruik uw offerte. Elke standaardwaarde is een vertrekpunt, geen maatstaf. De verwarmers werken met een Affinity Smart-Heat Dimmer- of On/Off-regelaar en een wandschakelaar per zone; Bromic Smart-Heat app (zones, schema's, timers). Wifi- en app-functies vereisen een compatibele Affinity Smart-Heat bediening, apart verkrijgbaar.","Installed cost a heater, all in":"Geïnstalleerde kosten per verwarmer, alles inbegrepen","Iowa":"Iowa","Is at least":"Is ten minste","Its size":"De afmetingen","Kansas":"Kansas","Kentucky":"Kentucky","L-shape":"L-vorm","Last name":"Achternaam","Length":"Lengte","Long and narrow":"Lang en smal","Louisiana":"Louisiana","Lowest cost":"Laagste kosten","Maine":"Maine","Manual wall switch":"Handmatige wandschakelaar","Margin kept":"Behouden marge","Maryland":"Maryland","Massachusetts":"Massachusetts","Michigan":"Michigan","Mild":"Mild","Minnesota":"Minnesota","Mississippi":"Mississippi","Missouri":"Missouri","Montana":"Montana","Mount height":"Montagehoogte","Mount height slider":"Schuifregelaar montagehoogte","Natural gas":"Aardgas","Natural gas price, dollars per therm":"Aardgasprijs, dollar per therm","Nebraska":"Nebraska","Net a year":"Netto per jaar","Net gain a year":"Nettowinst per jaar","Nevada":"Nevada","New Hampshire":"New Hampshire","New Jersey":"New Jersey","New Mexico":"New Mexico","New York":"New York","No":"Nee","No. of homes":"Aantal woningen","North Carolina":"North Carolina","North Dakota":"North Dakota","Ohio":"Ohio","Oklahoma":"Oklahoma","Open":"Open","Oregon":"Oregon","Overhead cover":"Overkapping","Partially covered":"Gedeeltelijk overdekt","Patio revenue and payback":"Terrasomzet en terugverdientijd","Patio, deck":"Terras, vlonder","Payback at other capture rates":"Terugverdientijd bij andere bezettingsgraden","Pennsylvania":"Pennsylvania","Pick the shape of your space, set its size and choose a heater. The plan shows how many you need, roughly where they go and the controls that run them. Designed from the start, not added later.":"Kies de vorm van uw ruimte, stel de afmetingen in en kies een verwarmer. Het plan toont hoeveel u er nodig hebt, ongeveer waar ze komen en de bediening die ze aanstuurt. Vanaf het begin ontworpen, niet achteraf toegevoegd.","Placeholder":"Plaatshouder","Platinum Electric":"Platinum Electric","Platinum Gas":"Platinum Gas","Prices from the US Energy Information Administration:":"Prijzen van de US Energy Information Administration (EIA):","Prices, heater counts, costs":"Prijzen, aantal verwarmers, kosten","Project size (optional)":"Projectomvang (optioneel)","Project size unit":"Eenheid projectomvang","Project timing":"Planning van het project","Propane":"Propaan","Propane price, dollars per gallon":"Propaanprijs, dollar per liter","Purchase, each ($)":"Aankoop, per stuk ($)","Rectangle":"Rechthoek","Researching":"Oriënterend","Rhode Island":"Rhode Island","Round":"Rond","Round heat and light on a pole or pendant":"Ronde warmte en licht aan paal of pendel","Running total":"Lopend totaal","Seats":"Zitplaatsen","Seats filled on those evenings":"Bezette plaatsen op die avonden","See the costs":"Kosten bekijken","See the full report":"Volledig rapport bekijken","See the payback":"Terugverdientijd bekijken","See the plan":"Plan bekijken","Show the best fit across the range":"Toon de beste keuze uit het hele assortiment","Silver linear heat for walls and ceilings":"Zilveren lineaire warmte voor wanden en plafonds","Sizing calculator":"Rekenhulp voor dimensionering","Slim linear heat for walls, ceilings and flush recesses":"Slanke lineaire warmte voor wanden, plafonds en verzonken inbouw","South Carolina":"South Carolina","South Dakota":"South Dakota","Start low. A case that pays back at a modest fill is one that gets approved.":"Begin laag. Een businesscase die bij een bescheiden bezetting terugverdiend wordt, wordt goedgekeurd.","State":"Staat","Style":"Stijl","Tap a heater to size it":"Tik op een verwarmer om deze te dimensioneren","Tennessee":"Tennessee","Texas":"Texas","The evenings heat adds":"De avonden die warmte toevoegt","The full report below compares every model that fits and the controls each needs.":"Het volledige rapport hieronder vergelijkt elk passend model en de bediening die het nodig heeft.","The heater":"De verwarmer","The patio":"Het terras","The shape of the space":"De vorm van de ruimte","The working line by line, the low and high cases, the controls the heaters need and every assumption with its source. Ready to take to an owner or landlord.":"De berekening regel voor regel, het lage en het hoge scenario, de bediening die de verwarmers nodig hebben en elke aanname met haar bron. Klaar om aan een eigenaar of verhuurder voor te leggen.","To pay back inside a year you need about":"Om binnen een jaar terug te verdienen hebt u ongeveer","Tungsten Electric":"Tungsten Electric","Tungsten Gas":"Tungsten Gas","Tungsten Portable":"Tungsten Portable","Turns a night":"Tafelwisselingen per avond","U-shape or courtyard":"U-vorm of binnenplaats","US average commercial electricity:":"Gemiddelde zakelijke elektriciteit in de VS:","US averages: electricity":"Gemiddelden in de VS: elektriciteit","United States (average)":"Verenigde Staten (gemiddelde)","Use your own numbers":"Eigen waarden gebruiken","Utah":"Utah","Vermont":"Vermont","Virginia":"Virginia","Washington":"Washington","We use these details to send your report and, if you ask, to follow up. No spam. [[VERIFY: privacy line and policy link — Brian Kim]]":"Wij gebruiken deze gegevens om u uw rapport te sturen en, als u dat wilt, contact op te nemen. Geen spam. [[VERIFY: privacyregel en link naar het privacybeleid — Brian Kim]]","West Virginia":"West Virginia","What are heated seats worth, and when do the heaters pay for themselves?":"Wat zijn verwarmde plaatsen waard, en wanneer hebben de verwarmers zich terugverdiend?","What is left of each sale after food, drink and variable labour.":"Wat er van elke verkoop overblijft na eten, drinken en variabele personeelskosten.","What will patio heating cost you over five years?":"Wat kost terrasverwarming u over vijf jaar?","Where built-in heaters would go, on the wall or ceiling.":"Waar inbouwverwarmers zouden komen, aan wand of plafond.","Where each added dollar goes":"Waar elke extra dollar naartoe gaat","Where you are":"Uw locatie","Wi-Fi and app features require compatible Affinity Smart-Heat controls, sold separately.":"Wifi- en app-functies vereisen een compatibele Affinity Smart-Heat bediening, apart verkrijgbaar.","Width":"Breedte","Wisconsin":"Wisconsin","With Affinity Smart-Heat Dimmer or On/Off controller and a wall switch per zone; Bromic Smart-Heat app (zones, schedules, timers)":"Met Affinity Smart-Heat Dimmer- of On/Off-regelaar en een wandschakelaar per zone; Bromic Smart-Heat app (zones, schema's, timers)","Wraps a corner":"Om een hoek","Wyoming":"Wyoming","Year-by-year costs, fuel use, cylinder swaps, the controls each option needs and every assumption with its source.":"Kosten per jaar, brandstofverbruik, flessenwissels, de bediening die elke optie nodig heeft en elke aanname met haar bron.","Yes":"Ja","Your five-year cost":"Uw kosten over vijf jaar","Your heating plan":"Uw verwarmingsplan","Your patio":"Uw terras","Your payback":"Uw terugverdientijd","Your seats, your average check and the evenings heat adds. See the margin those evenings bring in, what the heaters cost to run, and the month the installation has paid for itself.":"Uw zitplaatsen, uw gemiddelde besteding en de avonden die warmte toevoegt. Zie de marge die die avonden opleveren, wat de verwarmers kosten om te laten draaien en de maand waarin de installatie zich heeft terugverdiend.","Your space":"Uw ruimte","Your trade":"Uw vakgebied","ZIP / postal code":"Postcode","Zones":"Zones","Zones slider":"Schuifregelaar zones","ft²":"m²","ft² of patio":"m² terras","heater hours a year":"verwarmingsuren per jaar","heaters":"verwarmers","of margin after running cost.":"marge na bedrijfskosten.","of the heated seats filled.":"van de verwarmde plaatsen bezet nodig.","slider":"schuifregelaar","to pay back, from":"om terug te verdienen, uit","· Tungsten Smart-Heat Freestanding Gas (natural gas)":"· Tungsten Smart-Heat Freestanding Gas (aardgas)","· Tungsten Smart-Heat Freestanding Gas (propane)":"· Tungsten Smart-Heat Freestanding Gas (propaan)","× Cobalt Electric":"× Cobalt Electric","× Platinum Gas":"× Platinum Gas","× Tungsten Electric":"× Tungsten Electric","× Tungsten Gas":"× Tungsten Gas"}};
+const STRINGS = {"_readme":"UI strings for the tools (English key → German, Dutch). Machine-drafted 30 Oct 2026; native review pending.","de":{"% of its perimeter is permanently open.":"% seines Umfangs dauerhaft offen sind.","% of the perimeter permanently open?":"% des Umfangs dauerhaft offen?",". A residential bulk price. Venues on exchange cylinders usually pay more per gallon: enter your own price.":". Ein Großabnehmerpreis für Privathaushalte. Betriebe mit Tauschflaschen zahlen pro Gallone meist mehr: Geben Sie Ihren eigenen Preis ein.","/ gal":"/ L","/ kWh":"/ kWh","/ therm":"/ Therm","/gal. EIA. Change them under \"Use your own numbers\".":"/Gallone. EIA. Ändern Sie die Werte unter „Eigene Werte verwenden“.","/kWh (EIA). Change it under \"Use your own numbers\".":"/kWh (EIA). Ändern Sie den Wert unter „Eigene Werte verwenden“.","/kWh · natural gas":"/kWh · Erdgas","/therm · propane":"/Therm · Flüssiggas (Propan)","A pergola, umbrella or part roof over some of the area.":"Eine Pergola, ein Schirm oder ein Teildach über einem Teil der Fläche.","Added revenue":"Zusätzlicher Umsatz","Affinity Smart-Heat Dimmer or On/Off controller channel":"Kanal am Affinity Smart-Heat Dimmer oder On/Off-Steuergerät","Alabama":"Alabama","Alaska":"Alaska","Also fits · tap to compare":"Passt auch · zum Vergleich antippen","Architect / designer":"Architekt / Planer","Areas you switch or dim on their own, such as dining and lounge.":"Bereiche, die Sie getrennt schalten oder dimmen, etwa Essbereich und Lounge.","Arizona":"Arizona","Arkansas":"Arkansas","Auto":"Auto","Average check a guest":"Durchschnittlicher Bon pro Gast","Balcony, bar":"Balkon, Bar","Bromic Smart-Heat app":"Bromic Smart-Heat app","Bromic treats a space as outdoor when at least":"Bromic behandelt einen Bereich als Außenbereich, wenn mindestens","Builder / installer":"Bauunternehmer / Installateur","Built-in":"Einbau","Built-in gas heat for larger terraces":"Gas-Einbauheizung für größere Terrassen","Built-in gas heat in matte black":"Gas-Einbauheizung in Mattschwarz","California":"California","Cash over three years":"Liquidität über drei Jahre","Choose one":"Bitte wählen","Climate":"Klima","Cobalt Electric":"Cobalt Electric","Cold":"Kalt","Colorado":"Colorado","Commercial operator":"Gewerblicher Betreiber","Company":"Unternehmen","Connecticut":"Connecticut","Contribution margin":"Deckungsbeitrag","Controls for a complete system":"Steuerung für ein komplettes System","Cool":"Kühl","Courtyard":"Innenhof","Cover and climate":"Überdachung und Klima","Covered":"Überdacht","Dealer":"Händler","Delaware":"Delaware","District of Columbia":"District of Columbia","Eclipse":"Eclipse","Eclipse Freestanding":"Eclipse Freestanding","Either":"Beides","Electric":"Elektrisch","Electric heat":"Elektrische Wärme","Electricity":"Strom","Electricity price, dollars per kWh":"Strompreis, Dollar pro kWh","Email":"E-Mail","Energy":"Energie","Evenings a year":"Abende pro Jahr","Evenings you would close or empty the patio without heat.":"Abende, an denen Sie die Terrasse ohne Heizung schließen würden oder sie leer bliebe.","Every model that fits, the controls bundle for each, the electrical load and the assumptions behind the numbers.":"Jedes passende Modell, das Steuerungspaket für jedes, die elektrische Last und die Annahmen hinter den Zahlen.","Extra evenings a year":"Zusätzliche Abende pro Jahr","Fire pit, terrace":"Feuerstelle, Terrasse","First name":"Vorname","Five-year cost model":"Kostenmodell über fünf Jahre","Florida":"Florida","Food, drink, labour":"Speisen, Getränke, Personal","Four quick answers: seats, cover, state and how much you heat. We size the heaters, fill in your state's energy prices, and compare electric, natural gas and propane on what you will pay: heaters, installation, fuel and the staff time it takes to swap cylinders.":"Vier kurze Angaben: Plätze, Überdachung, Bundesstaat und wie viel Sie heizen. Wir berechnen die Heizstrahler, setzen die Energiepreise Ihres Bundesstaats ein und vergleichen Strom, Erdgas und Flüssiggas (Propan) nach dem, was Sie zahlen: Heizstrahler, Installation, Energie und die Personalzeit für den Flaschenwechsel.","Freestanding":"Freistehend","Freestanding gas heat, no wiring":"Freistehende Gasheizung, ohne Verkabelung","Fuel":"Brennstoff","Gas":"Gas","Georgia":"Georgia","Get the full ROI report":"Vollständigen ROI-Bericht anfordern","Get the full five-year report":"Vollständigen Fünf-Jahres-Bericht anfordern","Get the full report":"Vollständigen Bericht anfordern","Hawaii":"Hawaii","Heat and light that moves with you":"Wärme und Licht, die mit Ihnen mitgehen","Heated hours an evening":"Beheizte Stunden pro Abend","Heated seats":"Beheizte Plätze","Heater, install and service prices are placeholders, not Bromic prices: set yours under \"Use your own numbers\". Every option needs its controls to run as a complete system. Wi-Fi and app features require compatible Affinity Smart-Heat controls, sold separately.":"Preise für Heizstrahler, Installation und Service sind Platzhalter, keine Bromic-Preise: Legen Sie Ihre eigenen unter „Eigene Werte verwenden“ fest. Jede Option braucht ihre Steuerung, um als komplettes System zu laufen. WLAN- und App-Funktionen erfordern eine kompatible Affinity Smart-Heat Steuerung, separat erhältlich.","Heater, its share of controls, wiring, mounting and permits.":"Heizstrahler, sein Anteil an Steuerung, Verkabelung, Montage und Genehmigungen.","Heaters":"Heizstrahler","Heaters, cost, hours, price":"Heizstrahler, Kosten, Stunden, Preis","Height and zones":"Höhe und Zonen","Help me choose":"Bei der Auswahl helfen","Homeowner":"Hausbesitzer","Hours an evening":"Stunden pro Abend","How cold are the evenings you heat?":"Wie kalt sind die Abende, an denen Sie heizen?","How many heated seats?":"Wie viele beheizte Plätze?","How many heaters does your space need?":"Wie viele Heizstrahler braucht Ihr Bereich?","How much you heat":"Wie viel Sie heizen","I am a…":"Ich bin…","Idaho":"Idaho","Illinois":"Illinois","Indiana":"Indiana","Install":"Installation","Install, each ($)":"Installation, je Stück ($)","Installed cost a heater is a placeholder, not a Bromic price: use your quote. Every default is a starting point, not a benchmark. The heaters run with Affinity Smart-Heat Dimmer or On/Off controller and a wall switch per zone; Bromic Smart-Heat app (zones, schedules, timers). Wi-Fi and app features require compatible Affinity Smart-Heat controls, sold separately.":"Die installierten Kosten pro Heizstrahler sind ein Platzhalter, kein Bromic-Preis: Verwenden Sie Ihr Angebot. Jeder Standardwert ist ein Ausgangspunkt, kein Richtwert. Die Heizstrahler laufen mit Affinity Smart-Heat Dimmer oder On/Off-Steuergerät und einem Wandschalter pro Zone; Bromic Smart-Heat app (Zonen, Zeitpläne, Timer). WLAN- und App-Funktionen erfordern eine kompatible Affinity Smart-Heat Steuerung, separat erhältlich.","Installed cost a heater, all in":"Installierte Kosten pro Heizstrahler, alles inklusive","Iowa":"Iowa","Is at least":"Sind mindestens","Its size":"Seine Größe","Kansas":"Kansas","Kentucky":"Kentucky","L-shape":"L-Form","Last name":"Nachname","Length":"Länge","Long and narrow":"Lang und schmal","Louisiana":"Louisiana","Lowest cost":"Niedrigste Kosten","Maine":"Maine","Manual wall switch":"Manueller Wandschalter","Margin kept":"Verbleibende Marge","Maryland":"Maryland","Massachusetts":"Massachusetts","Michigan":"Michigan","Mild":"Mild","Minnesota":"Minnesota","Mississippi":"Mississippi","Missouri":"Missouri","Montana":"Montana","Mount height":"Montagehöhe","Mount height slider":"Schieberegler Montagehöhe","Natural gas":"Erdgas","Natural gas price, dollars per therm":"Erdgaspreis, Dollar pro Therm","Nebraska":"Nebraska","Net a year":"Netto pro Jahr","Net gain a year":"Nettogewinn pro Jahr","Nevada":"Nevada","New Hampshire":"New Hampshire","New Jersey":"New Jersey","New Mexico":"New Mexico","New York":"New York","No":"Nein","No. of homes":"Anzahl Häuser","North Carolina":"North Carolina","North Dakota":"North Dakota","Ohio":"Ohio","Oklahoma":"Oklahoma","Open":"Offen","Oregon":"Oregon","Overhead cover":"Überdachung","Partially covered":"Teilweise überdacht","Patio revenue and payback":"Terrassenumsatz und Amortisation","Patio, deck":"Terrasse, Deck","Payback at other capture rates":"Amortisation bei anderen Auslastungen","Pennsylvania":"Pennsylvania","Pick the shape of your space, set its size and choose a heater. The plan shows how many you need, roughly where they go and the controls that run them. Designed from the start, not added later.":"Wählen Sie die Form Ihres Bereichs, legen Sie die Größe fest und wählen Sie einen Heizstrahler. Der Plan zeigt, wie viele Sie brauchen, ungefähr wo sie hingehören und die Steuerung, die sie betreibt. Von Anfang an mitgeplant, nicht nachträglich ergänzt.","Placeholder":"Platzhalter","Platinum Electric":"Platinum Electric","Platinum Gas":"Platinum Gas","Prices from the US Energy Information Administration:":"Preise der US Energy Information Administration (EIA):","Prices, heater counts, costs":"Preise, Anzahl Heizstrahler, Kosten","Project size (optional)":"Projektgröße (optional)","Project size unit":"Einheit der Projektgröße","Project timing":"Zeitplan des Projekts","Propane":"Flüssiggas (Propan)","Propane price, dollars per gallon":"Flüssiggaspreis, Dollar pro Liter","Purchase, each ($)":"Kauf, je Stück ($)","Rectangle":"Rechteck","Researching":"Informiere mich","Rhode Island":"Rhode Island","Round":"Rund","Round heat and light on a pole or pendant":"Runde Wärme und Licht an Mast oder Pendel","Running total":"Laufende Summe","Seats":"Plätze","Seats filled on those evenings":"An diesen Abenden belegte Plätze","See the costs":"Kosten anzeigen","See the full report":"Vollständigen Bericht ansehen","See the payback":"Amortisation anzeigen","See the plan":"Plan anzeigen","Show the best fit across the range":"Die beste Lösung aus dem gesamten Sortiment zeigen","Silver linear heat for walls and ceilings":"Silberne lineare Wärme für Wände und Decken","Sizing calculator":"Rechner zur Auslegung","Slim linear heat for walls, ceilings and flush recesses":"Schmale lineare Wärme für Wände, Decken und bündigen Einbau","South Carolina":"South Carolina","South Dakota":"South Dakota","Start low. A case that pays back at a modest fill is one that gets approved.":"Beginnen Sie niedrig. Ein Fall, der sich schon bei mäßiger Auslastung amortisiert, wird genehmigt.","State":"Bundesstaat","Style":"Stil","Tap a heater to size it":"Tippen Sie auf einen Heizstrahler, um ihn auszulegen","Tennessee":"Tennessee","Texas":"Texas","The evenings heat adds":"Die Abende, die Wärme hinzufügt","The full report below compares every model that fits and the controls each needs.":"Der vollständige Bericht unten vergleicht jedes passende Modell und die Steuerung, die es braucht.","The heater":"Der Heizstrahler","The patio":"Die Terrasse","The shape of the space":"Die Form des Bereichs","The working line by line, the low and high cases, the controls the heaters need and every assumption with its source. Ready to take to an owner or landlord.":"Die Rechnung Zeile für Zeile, der niedrige und der hohe Fall, die Steuerung, die die Heizstrahler brauchen, und jede Annahme mit ihrer Quelle. Bereit für Eigentümer oder Vermieter.","To pay back inside a year you need about":"Um sich innerhalb eines Jahres zu amortisieren, brauchen Sie etwa","Tungsten Electric":"Tungsten Electric","Tungsten Gas":"Tungsten Gas","Tungsten Portable":"Tungsten Portable","Turns a night":"Belegungen pro Abend","U-shape or courtyard":"U-Form oder Innenhof","US average commercial electricity:":"US-Durchschnitt Strom für Gewerbe:","US averages: electricity":"US-Durchschnitt: Strom","United States (average)":"Vereinigte Staaten (Durchschnitt)","Use your own numbers":"Eigene Werte verwenden","Utah":"Utah","Vermont":"Vermont","Virginia":"Virginia","Washington":"Washington","We use these details to send your report and, if you ask, to follow up. No spam. [[VERIFY: privacy line and policy link — Digital marketing]]":"Wir verwenden diese Angaben, um Ihnen Ihren Bericht zu senden und, wenn Sie es wünschen, nachzufassen. Kein Spam. [[VERIFY: Datenschutzhinweis und Link zur Datenschutzerklärung — Digital marketing]]","West Virginia":"West Virginia","What are heated seats worth, and when do the heaters pay for themselves?":"Was sind beheizte Plätze wert, und wann haben sich die Heizstrahler amortisiert?","What is left of each sale after food, drink and variable labour.":"Was von jedem Verkauf nach Speisen, Getränken und variablen Personalkosten bleibt.","What will patio heating cost you over five years?":"Was kostet Sie die Terrassenheizung über fünf Jahre?","Where built-in heaters would go, on the wall or ceiling.":"Wo Einbau-Heizstrahler hinkämen, an Wand oder Decke.","Where each added dollar goes":"Wohin jeder zusätzliche Dollar fließt","Where you are":"Ihr Standort","Wi-Fi and app features require compatible Affinity Smart-Heat controls, sold separately.":"WLAN- und App-Funktionen erfordern eine kompatible Affinity Smart-Heat Steuerung, separat erhältlich.","Width":"Breite","Wisconsin":"Wisconsin","With Affinity Smart-Heat Dimmer or On/Off controller and a wall switch per zone; Bromic Smart-Heat app (zones, schedules, timers)":"Mit Affinity Smart-Heat Dimmer oder On/Off-Steuergerät und einem Wandschalter pro Zone; Bromic Smart-Heat app (Zonen, Zeitpläne, Timer)","Wraps a corner":"Über Eck","Wyoming":"Wyoming","Year-by-year costs, fuel use, cylinder swaps, the controls each option needs and every assumption with its source.":"Kosten Jahr für Jahr, Energieverbrauch, Flaschenwechsel, die Steuerung, die jede Option braucht, und jede Annahme mit ihrer Quelle.","Yes":"Ja","Your five-year cost":"Ihre Kosten über fünf Jahre","Your heating plan":"Ihr Heizplan","Your patio":"Ihre Terrasse","Your payback":"Ihre Amortisation","Your seats, your average check and the evenings heat adds. See the margin those evenings bring in, what the heaters cost to run, and the month the installation has paid for itself.":"Ihre Plätze, Ihr durchschnittlicher Bon und die Abende, die Wärme hinzufügt. Sehen Sie die Marge dieser Abende, was der Betrieb der Heizstrahler kostet und den Monat, in dem sich die Installation amortisiert hat.","Your space":"Ihr Bereich","Your trade":"Ihr Beruf","ZIP / postal code":"Postleitzahl","Zones":"Zonen","Zones slider":"Schieberegler Zonen","ft²":"m²","ft² of patio":"m² Terrasse","heater hours a year":"Heizstunden pro Jahr","heaters":"Heizstrahler","of margin after running cost.":"Marge nach Betriebskosten.","of the heated seats filled.":"der beheizten Plätze belegt.","slider":"Schieberegler","to pay back, from":"bis zur Amortisation, aus","· Tungsten Smart-Heat Freestanding Gas (natural gas)":"· Tungsten Smart-Heat Freestanding Gas (Erdgas)","· Tungsten Smart-Heat Freestanding Gas (propane)":"· Tungsten Smart-Heat Freestanding Gas (Flüssiggas)","× Cobalt Electric":"× Cobalt Electric","× Platinum Gas":"× Platinum Gas","× Tungsten Electric":"× Tungsten Electric","× Tungsten Gas":"× Tungsten Gas"},"nl":{"% of its perimeter is permanently open.":"% van de omtrek permanent open is.","% of the perimeter permanently open?":"% van de omtrek permanent open?",". A residential bulk price. Venues on exchange cylinders usually pay more per gallon: enter your own price.":". Een bulkprijs voor particulieren. Zaken met wisselflessen betalen per gallon meestal meer: vul uw eigen prijs in.","/ gal":"/ L","/ kWh":"/ kWh","/ therm":"/ therm","/gal. EIA. Change them under \"Use your own numbers\".":"/gallon. EIA. Wijzig ze onder 'Eigen waarden gebruiken'.","/kWh (EIA). Change it under \"Use your own numbers\".":"/kWh (EIA). Wijzig deze onder 'Eigen waarden gebruiken'.","/kWh · natural gas":"/kWh · aardgas","/therm · propane":"/therm · propaan","A pergola, umbrella or part roof over some of the area.":"Een pergola, parasol of gedeeltelijk dak boven een deel van het oppervlak.","Added revenue":"Extra omzet","Affinity Smart-Heat Dimmer or On/Off controller channel":"Kanaal op Affinity Smart-Heat Dimmer- of On/Off-regelaar","Alabama":"Alabama","Alaska":"Alaska","Also fits · tap to compare":"Past ook · tik om te vergelijken","Architect / designer":"Architect / ontwerper","Areas you switch or dim on their own, such as dining and lounge.":"Delen die u apart schakelt of dimt, zoals eten en lounge.","Arizona":"Arizona","Arkansas":"Arkansas","Auto":"Auto","Average check a guest":"Gemiddelde besteding per gast","Balcony, bar":"Balkon, bar","Bromic Smart-Heat app":"Bromic Smart-Heat app","Bromic treats a space as outdoor when at least":"Bromic beschouwt een ruimte als buitenruimte wanneer ten minste","Builder / installer":"Aannemer / installateur","Built-in":"Inbouw","Built-in gas heat for larger terraces":"Ingebouwde gasverwarming voor grotere terrassen","Built-in gas heat in matte black":"Ingebouwde gasverwarming in matzwart","California":"California","Cash over three years":"Kasstroom over drie jaar","Choose one":"Kies er één","Climate":"Klimaat","Cobalt Electric":"Cobalt Electric","Cold":"Koud","Colorado":"Colorado","Commercial operator":"Horecaondernemer / exploitant","Company":"Bedrijf","Connecticut":"Connecticut","Contribution margin":"Dekkingsbijdrage","Controls for a complete system":"Bediening voor een compleet systeem","Cool":"Koel","Courtyard":"Binnenplaats","Cover and climate":"Overkapping en klimaat","Covered":"Overdekt","Dealer":"Dealer","Delaware":"Delaware","District of Columbia":"District of Columbia","Eclipse":"Eclipse","Eclipse Freestanding":"Eclipse Freestanding","Either":"Beide","Electric":"Elektrisch","Electric heat":"Elektrische warmte","Electricity":"Elektriciteit","Electricity price, dollars per kWh":"Elektriciteitsprijs, dollar per kWh","Email":"E-mail","Energy":"Energie","Evenings a year":"Avonden per jaar","Evenings you would close or empty the patio without heat.":"Avonden waarop u het terras zonder verwarming zou sluiten of het leeg zou blijven.","Every model that fits, the controls bundle for each, the electrical load and the assumptions behind the numbers.":"Elk passend model, het bedieningspakket voor elk, de elektrische belasting en de aannames achter de cijfers.","Extra evenings a year":"Extra avonden per jaar","Fire pit, terrace":"Vuurplaats, terras","First name":"Voornaam","Five-year cost model":"Kostenmodel over vijf jaar","Florida":"Florida","Food, drink, labour":"Eten, drinken, personeel","Four quick answers: seats, cover, state and how much you heat. We size the heaters, fill in your state's energy prices, and compare electric, natural gas and propane on what you will pay: heaters, installation, fuel and the staff time it takes to swap cylinders.":"Vier korte antwoorden: zitplaatsen, overkapping, staat en hoeveel u verwarmt. Wij berekenen de verwarmers, vullen de energieprijzen van uw staat in en vergelijken elektriciteit, aardgas en propaan op wat u betaalt: verwarmers, installatie, brandstof en de personeelstijd voor het wisselen van flessen.","Freestanding":"Vrijstaand","Freestanding gas heat, no wiring":"Vrijstaande gasverwarming, zonder bedrading","Fuel":"Brandstof","Gas":"Gas","Georgia":"Georgia","Get the full ROI report":"Volledig ROI-rapport ontvangen","Get the full five-year report":"Volledig vijfjarenrapport ontvangen","Get the full report":"Volledig rapport ontvangen","Hawaii":"Hawaii","Heat and light that moves with you":"Warmte en licht die met u meegaan","Heated hours an evening":"Verwarmde uren per avond","Heated seats":"Verwarmde plaatsen","Heater, install and service prices are placeholders, not Bromic prices: set yours under \"Use your own numbers\". Every option needs its controls to run as a complete system. Wi-Fi and app features require compatible Affinity Smart-Heat controls, sold separately.":"Prijzen voor verwarmers, installatie en service zijn plaatshouders, geen Bromic-prijzen: stel uw eigen prijzen in onder 'Eigen waarden gebruiken'. Elke optie heeft haar bediening nodig om als compleet systeem te werken. Wifi- en app-functies vereisen een compatibele Affinity Smart-Heat bediening, apart verkrijgbaar.","Heater, its share of controls, wiring, mounting and permits.":"Verwarmer, zijn aandeel in bediening, bedrading, montage en vergunningen.","Heaters":"Verwarmers","Heaters, cost, hours, price":"Verwarmers, kosten, uren, prijs","Height and zones":"Hoogte en zones","Help me choose":"Help mij kiezen","Homeowner":"Huiseigenaar","Hours an evening":"Uren per avond","How cold are the evenings you heat?":"Hoe koud zijn de avonden waarop u verwarmt?","How many heated seats?":"Hoeveel verwarmde plaatsen?","How many heaters does your space need?":"Hoeveel verwarmers heeft uw ruimte nodig?","How much you heat":"Hoeveel u verwarmt","I am a…":"Ik ben…","Idaho":"Idaho","Illinois":"Illinois","Indiana":"Indiana","Install":"Installatie","Install, each ($)":"Installatie, per stuk ($)","Installed cost a heater is a placeholder, not a Bromic price: use your quote. Every default is a starting point, not a benchmark. The heaters run with Affinity Smart-Heat Dimmer or On/Off controller and a wall switch per zone; Bromic Smart-Heat app (zones, schedules, timers). Wi-Fi and app features require compatible Affinity Smart-Heat controls, sold separately.":"De geïnstalleerde kosten per verwarmer zijn een plaatshouder, geen Bromic-prijs: gebruik uw offerte. Elke standaardwaarde is een vertrekpunt, geen maatstaf. De verwarmers werken met een Affinity Smart-Heat Dimmer- of On/Off-regelaar en een wandschakelaar per zone; Bromic Smart-Heat app (zones, schema's, timers). Wifi- en app-functies vereisen een compatibele Affinity Smart-Heat bediening, apart verkrijgbaar.","Installed cost a heater, all in":"Geïnstalleerde kosten per verwarmer, alles inbegrepen","Iowa":"Iowa","Is at least":"Is ten minste","Its size":"De afmetingen","Kansas":"Kansas","Kentucky":"Kentucky","L-shape":"L-vorm","Last name":"Achternaam","Length":"Lengte","Long and narrow":"Lang en smal","Louisiana":"Louisiana","Lowest cost":"Laagste kosten","Maine":"Maine","Manual wall switch":"Handmatige wandschakelaar","Margin kept":"Behouden marge","Maryland":"Maryland","Massachusetts":"Massachusetts","Michigan":"Michigan","Mild":"Mild","Minnesota":"Minnesota","Mississippi":"Mississippi","Missouri":"Missouri","Montana":"Montana","Mount height":"Montagehoogte","Mount height slider":"Schuifregelaar montagehoogte","Natural gas":"Aardgas","Natural gas price, dollars per therm":"Aardgasprijs, dollar per therm","Nebraska":"Nebraska","Net a year":"Netto per jaar","Net gain a year":"Nettowinst per jaar","Nevada":"Nevada","New Hampshire":"New Hampshire","New Jersey":"New Jersey","New Mexico":"New Mexico","New York":"New York","No":"Nee","No. of homes":"Aantal woningen","North Carolina":"North Carolina","North Dakota":"North Dakota","Ohio":"Ohio","Oklahoma":"Oklahoma","Open":"Open","Oregon":"Oregon","Overhead cover":"Overkapping","Partially covered":"Gedeeltelijk overdekt","Patio revenue and payback":"Terrasomzet en terugverdientijd","Patio, deck":"Terras, vlonder","Payback at other capture rates":"Terugverdientijd bij andere bezettingsgraden","Pennsylvania":"Pennsylvania","Pick the shape of your space, set its size and choose a heater. The plan shows how many you need, roughly where they go and the controls that run them. Designed from the start, not added later.":"Kies de vorm van uw ruimte, stel de afmetingen in en kies een verwarmer. Het plan toont hoeveel u er nodig hebt, ongeveer waar ze komen en de bediening die ze aanstuurt. Vanaf het begin ontworpen, niet achteraf toegevoegd.","Placeholder":"Plaatshouder","Platinum Electric":"Platinum Electric","Platinum Gas":"Platinum Gas","Prices from the US Energy Information Administration:":"Prijzen van de US Energy Information Administration (EIA):","Prices, heater counts, costs":"Prijzen, aantal verwarmers, kosten","Project size (optional)":"Projectomvang (optioneel)","Project size unit":"Eenheid projectomvang","Project timing":"Planning van het project","Propane":"Propaan","Propane price, dollars per gallon":"Propaanprijs, dollar per liter","Purchase, each ($)":"Aankoop, per stuk ($)","Rectangle":"Rechthoek","Researching":"Oriënterend","Rhode Island":"Rhode Island","Round":"Rond","Round heat and light on a pole or pendant":"Ronde warmte en licht aan paal of pendel","Running total":"Lopend totaal","Seats":"Zitplaatsen","Seats filled on those evenings":"Bezette plaatsen op die avonden","See the costs":"Kosten bekijken","See the full report":"Volledig rapport bekijken","See the payback":"Terugverdientijd bekijken","See the plan":"Plan bekijken","Show the best fit across the range":"Toon de beste keuze uit het hele assortiment","Silver linear heat for walls and ceilings":"Zilveren lineaire warmte voor wanden en plafonds","Sizing calculator":"Rekenhulp voor dimensionering","Slim linear heat for walls, ceilings and flush recesses":"Slanke lineaire warmte voor wanden, plafonds en verzonken inbouw","South Carolina":"South Carolina","South Dakota":"South Dakota","Start low. A case that pays back at a modest fill is one that gets approved.":"Begin laag. Een businesscase die bij een bescheiden bezetting terugverdiend wordt, wordt goedgekeurd.","State":"Staat","Style":"Stijl","Tap a heater to size it":"Tik op een verwarmer om deze te dimensioneren","Tennessee":"Tennessee","Texas":"Texas","The evenings heat adds":"De avonden die warmte toevoegt","The full report below compares every model that fits and the controls each needs.":"Het volledige rapport hieronder vergelijkt elk passend model en de bediening die het nodig heeft.","The heater":"De verwarmer","The patio":"Het terras","The shape of the space":"De vorm van de ruimte","The working line by line, the low and high cases, the controls the heaters need and every assumption with its source. Ready to take to an owner or landlord.":"De berekening regel voor regel, het lage en het hoge scenario, de bediening die de verwarmers nodig hebben en elke aanname met haar bron. Klaar om aan een eigenaar of verhuurder voor te leggen.","To pay back inside a year you need about":"Om binnen een jaar terug te verdienen hebt u ongeveer","Tungsten Electric":"Tungsten Electric","Tungsten Gas":"Tungsten Gas","Tungsten Portable":"Tungsten Portable","Turns a night":"Tafelwisselingen per avond","U-shape or courtyard":"U-vorm of binnenplaats","US average commercial electricity:":"Gemiddelde zakelijke elektriciteit in de VS:","US averages: electricity":"Gemiddelden in de VS: elektriciteit","United States (average)":"Verenigde Staten (gemiddelde)","Use your own numbers":"Eigen waarden gebruiken","Utah":"Utah","Vermont":"Vermont","Virginia":"Virginia","Washington":"Washington","We use these details to send your report and, if you ask, to follow up. No spam. [[VERIFY: privacy line and policy link — Digital marketing]]":"Wij gebruiken deze gegevens om u uw rapport te sturen en, als u dat wilt, contact op te nemen. Geen spam. [[VERIFY: privacyregel en link naar het privacybeleid — Digital marketing]]","West Virginia":"West Virginia","What are heated seats worth, and when do the heaters pay for themselves?":"Wat zijn verwarmde plaatsen waard, en wanneer hebben de verwarmers zich terugverdiend?","What is left of each sale after food, drink and variable labour.":"Wat er van elke verkoop overblijft na eten, drinken en variabele personeelskosten.","What will patio heating cost you over five years?":"Wat kost terrasverwarming u over vijf jaar?","Where built-in heaters would go, on the wall or ceiling.":"Waar inbouwverwarmers zouden komen, aan wand of plafond.","Where each added dollar goes":"Waar elke extra dollar naartoe gaat","Where you are":"Uw locatie","Wi-Fi and app features require compatible Affinity Smart-Heat controls, sold separately.":"Wifi- en app-functies vereisen een compatibele Affinity Smart-Heat bediening, apart verkrijgbaar.","Width":"Breedte","Wisconsin":"Wisconsin","With Affinity Smart-Heat Dimmer or On/Off controller and a wall switch per zone; Bromic Smart-Heat app (zones, schedules, timers)":"Met Affinity Smart-Heat Dimmer- of On/Off-regelaar en een wandschakelaar per zone; Bromic Smart-Heat app (zones, schema's, timers)","Wraps a corner":"Om een hoek","Wyoming":"Wyoming","Year-by-year costs, fuel use, cylinder swaps, the controls each option needs and every assumption with its source.":"Kosten per jaar, brandstofverbruik, flessenwissels, de bediening die elke optie nodig heeft en elke aanname met haar bron.","Yes":"Ja","Your five-year cost":"Uw kosten over vijf jaar","Your heating plan":"Uw verwarmingsplan","Your patio":"Uw terras","Your payback":"Uw terugverdientijd","Your seats, your average check and the evenings heat adds. See the margin those evenings bring in, what the heaters cost to run, and the month the installation has paid for itself.":"Uw zitplaatsen, uw gemiddelde besteding en de avonden die warmte toevoegt. Zie de marge die die avonden opleveren, wat de verwarmers kosten om te laten draaien en de maand waarin de installatie zich heeft terugverdiend.","Your space":"Uw ruimte","Your trade":"Uw vakgebied","ZIP / postal code":"Postcode","Zones":"Zones","Zones slider":"Schuifregelaar zones","ft²":"m²","ft² of patio":"m² terras","heater hours a year":"verwarmingsuren per jaar","heaters":"verwarmers","of margin after running cost.":"marge na bedrijfskosten.","of the heated seats filled.":"van de verwarmde plaatsen bezet nodig.","slider":"schuifregelaar","to pay back, from":"om terug te verdienen, uit","· Tungsten Smart-Heat Freestanding Gas (natural gas)":"· Tungsten Smart-Heat Freestanding Gas (aardgas)","· Tungsten Smart-Heat Freestanding Gas (propane)":"· Tungsten Smart-Heat Freestanding Gas (propaan)","× Cobalt Electric":"× Cobalt Electric","× Platinum Gas":"× Platinum Gas","× Tungsten Electric":"× Tungsten Electric","× Tungsten Gas":"× Tungsten Gas"}};
 /* @inline:end ../_shared/strings.json */
 
 /* @inline:begin ../_shared/region.js */
@@ -1534,7 +1539,7 @@ return { current, nf, lenOut, lenIn, uLen, uArea, areaOut, fmtLen, fmtArea, mone
 
 /* @inline:begin ../_shared/lead.js */
 const Lead = (() => {
-// ?framed=1 (the Hub inside a Claude page): hide print and download controls.
+// ?framed=1 (the Hub inside an embedded preview): hide print and download controls.
 try { if (new URLSearchParams(location.search).get('framed')) document.body.classList.add('framed'); } catch {}
 // Shared lead gate for the Bromic tools (HANDOVER §9; spec in forms/hubspot-form-spec.md).
 // Inlined into each tool's index.html by tools/build-config.mjs. The pure functions at the top are
@@ -1660,7 +1665,7 @@ function formHtml(id, defaultSizeUnit) {
     <div class="actions">
       <button class="btn primary" type="submit">See the full report</button>
       <span class="note">We use these details to send your report and, if you ask, to follow up. No spam.
-      [[VERIFY: privacy line and policy link — Brian Kim]]</span>
+      [[VERIFY: privacy line and policy link — Digital marketing]]</span>
     </div>
   </form>`;
 }

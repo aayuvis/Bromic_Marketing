@@ -14,8 +14,8 @@ ai_prompt: "Wie funktioniert Hausautomation mit einer Heizung im Außenbereich?"
 meta_description: "Jeff Thomas (Snap One) und Michael Smith (Bromic) über Hausautomation im Außenbereich, frühe Planung, Kabel oder Funk und smarte Wärme draußen."
 cta: {label: "Den Report Outdoor Living Trends 2026 herunterladen", asset: A01}
 hero: w-mom-design-build-2-web
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -24,7 +24,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLOG-10
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating

@@ -14,8 +14,8 @@ ai_prompt: "Hoe werkt domotica samen met buitenverwarming?"
 meta_description: "Jeff Thomas van Snap One en Michael Smith van Bromic over domotica buiten, vroeg plannen, bedraad of draadloos, en slimme buitenverwarming."
 cta: {label: "Download het rapport Outdoor Living Trends 2026", asset: A01}
 hero: w-mom-design-build-2-web
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false

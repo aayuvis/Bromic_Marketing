@@ -14,7 +14,7 @@ meta_description: "Ja – Bromic Heizstrahler arbeiten über kompatible Affinity
 cta: {label: "Einrichtungsleitfaden für Smart-Heat öffnen", asset: A09}
 hero: t-009-025
 images: [l-013-106, l-021-180]
-owner_review: Megan Spies
+owner_review: Marketing
 status: draft
 gated: false
 related: [RES-PP-01, RES-IN-01, COM-BY-01]
@@ -22,7 +22,7 @@ updated: 2026-10-29
 lang: de
 translation_of: RES-BY-01
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -53,7 +53,7 @@ Drei Ebenen, von der Wand aufwärts.
 | Bromic Smart-Heat App | Smartphone-App, mit kompatiblen Affinity-Steuergeräten[^s1] | Wärme regeln, Timer und Zeitpläne setzen, Zonen von überall verwalten[^s1] |
 | Sprache und Smart Home | Amazon Alexa, Google Assistant, Control4, Crestron, Lutron[^s1] | Freihändige Bedienung und Steuerung im ganzen Haus; die Kompatibilität ist unterschiedlich und kann zusätzliche Hardware oder Konfiguration erfordern[^s1] |
 
-Ein manueller Wandschalter ist eine vollständige, funktionierende Steuerung. Er verbindet sich nicht mit der App oder mit Sprachassistenten. [[VERIFY: welche Affinity-Steuergeräte WLAN-fähig sind und welche Heizstrahler jedes Steuergerät unterstützt — Mike Clifford]]
+Ein manueller Wandschalter ist eine vollständige, funktionierende Steuerung. Er verbindet sich nicht mit der App oder mit Sprachassistenten. [[VERIFY: welche Affinity-Steuergeräte WLAN-fähig sind und welche Heizstrahler jedes Steuergerät unterstützt — Produktteam]]
 
 ## Wie richte ich Zonen ein?
 
@@ -65,7 +65,7 @@ Planen Sie Zonen danach, wie der Bereich genutzt wird, nicht nach dem Verlauf de
 - **Lange Flächen teilen.** Eine lange Terrasse mit Heizstrahlern an einer Seite kann zwei Zonen bilden, damit ein Paar an einem Ende nicht die ganze Länge beheizt.
 - **Windexponierte Ränder getrennt halten.** Dort möchten Sie die Leistung vielleicht erhöhen, wenn Wind aufkommt.
 
-Zonen hängen von den installierten Leitungen und Steuergeräten ab; legen Sie sie deshalb fest, bevor der Elektriker anfängt. [[VERIFY: Heizstrahler je Steuergerät und Zonen je App-Konto — Mike Clifford]] Siehe [wo Terrassenheizstrahler hingehören](item:RES-PP-01).
+Zonen hängen von den installierten Leitungen und Steuergeräten ab; legen Sie sie deshalb fest, bevor der Elektriker anfängt. [[VERIFY: Heizstrahler je Steuergerät und Zonen je App-Konto — Produktteam]] Siehe [wo Terrassenheizstrahler hingehören](item:RES-PP-01).
 
 ![Eclipse-Heizstrahler mit leuchtendem, dimmbarem Lichtring](img:l-013-106)
 
@@ -81,7 +81,7 @@ Bromic versteht Zeitpläne als Weg, die Wärme an Ihre Routine anzupassen und En
 
 ## Kann ich die Wärme dimmen?
 
-Bei Heizstrahlern, die über ein Dimmer- oder Eclipse-Steuergerät laufen, ja. Eclipse-Heizstrahler schalten zwischen 33 %, 66 % und 100 % Leistung, und ihr Lichtring lässt sich ebenfalls dimmen.[^s1] Ein On/Off-Steuergerät oder ein Wandschalter liefert volle Wärme oder keine. [[VERIFY: Leistungsstufen des Dimmer-Steuergeräts für Platinum und Tungsten Electric — Mike Clifford]]
+Bei Heizstrahlern, die über ein Dimmer- oder Eclipse-Steuergerät laufen, ja. Eclipse-Heizstrahler schalten zwischen 33 %, 66 % und 100 % Leistung, und ihr Lichtring lässt sich ebenfalls dimmen.[^s1] Ein On/Off-Steuergerät oder ein Wandschalter liefert volle Wärme oder keine. [[VERIFY: Leistungsstufen des Dimmer-Steuergeräts für Platinum und Tungsten Electric — Produktteam]]
 
 Das Dimmen ist wichtig, weil Wärme im Freien kein Thermostat hat: Es gibt keine Raumtemperatur, die zu halten wäre.[^s2] Sie stellen die Stufe passend zum Abend ein – niedrig an einem milden Abend, voll, wenn der Wind auffrischt.
 
@@ -89,12 +89,12 @@ Das Dimmen ist wichtig, weil Wärme im Freien kein Thermostat hat: Es gibt keine
 
 Das Lookbook bestätigt, dass Alexa und Google Assistant über kompatible Affinity Smart-Heat Controls mit Bromic Heizstrahlern zusammenarbeiten.[^s1] Die grundsätzliche Reihenfolge:
 
-1. Kompatible Affinity-Steuergeräte installieren und mit dem WLAN verbinden. [[VERIFY: Verbindungsart und Netzwerkanforderungen — Mike Clifford]]
+1. Kompatible Affinity-Steuergeräte installieren und mit dem WLAN verbinden. [[VERIFY: Verbindungsart und Netzwerkanforderungen — Produktteam]]
 2. Heizstrahler und Zonen in der Bromic Smart-Heat App einrichten.
-3. Die App in der App des Sprachassistenten mit Alexa oder Google Assistant verknüpfen. [[VERIFY: Name des Skills bzw. der Action und Schritte zur Verknüpfung — Mike Clifford]]
+3. Die App in der App des Sprachassistenten mit Alexa oder Google Assistant verknüpfen. [[VERIFY: Name des Skills bzw. der Action und Schritte zur Verknüpfung — Produktteam]]
 4. Zonen eindeutig benennen – „Heizstrahler Essbereich“, „Heizstrahler Lounge“ –, damit Sprachbefehle leichtfallen.
 
-[[VERIFY: unterstützte Sprachbefehle (Ein/Aus, Stufen, Zonen) — Mike Clifford]]
+[[VERIFY: unterstützte Sprachbefehle (Ein/Aus, Stufen, Zonen) — Produktteam]]
 
 ## Und Control4, Crestron oder Lutron?
 
@@ -134,12 +134,12 @@ Das Lookbook nennt Google Assistant als kompatibel, über dieselben Affinity-Ste
 Ja. Die Bromic Smart-Heat App setzt Timer und Zeitpläne, mit kompatiblen Affinity-Steuergeräten.[^s1]
 
 ### Kann ich die Heizstrahler steuern, wenn ich nicht zu Hause bin?
-Mit der App regeln Sie die Wärme und verwalten Zonen von überall.[^s1] [[VERIFY: Voraussetzungen für den Fernzugriff — Mike Clifford]]
+Mit der App regeln Sie die Wärme und verwalten Zonen von überall.[^s1] [[VERIFY: Voraussetzungen für den Fernzugriff — Produktteam]]
 
 ### Funktioniert der Wandschalter noch, wenn das WLAN ausfällt?
-[[VERIFY: Verhalten der manuellen Übersteuerung bei Affinity-Steuergeräten ohne Netzwerk — Mike Clifford]]
+[[VERIFY: Verhalten der manuellen Übersteuerung bei Affinity-Steuergeräten ohne Netzwerk — Produktteam]]
 
 ### Kann ich vorhandene Heizstrahler um eine App-Steuerung ergänzen?
-[[VERIFY: Nachrüstmöglichkeit für vorhandene Bromic Heizstrahler — Mike Clifford]]
+[[VERIFY: Nachrüstmöglichkeit für vorhandene Bromic Heizstrahler — Produktteam]]
 
 Kopplung, Zonen und Spracheinrichtung Schritt für Schritt finden Sie im Einrichtungsleitfaden für die Smart-Heat-Steuerung.

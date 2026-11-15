@@ -1,0 +1,18 @@
+{
+  "_readme": "The Hub and everything it generates name teams, never people (owner, 15 Nov 2026). Each role is who answers a [[VERIFY]] or reviews a piece. scripts/roles.py replaced the people's names with these roles across content, data and reviews; the person behind each role is kept off the site.",
+  "roles": {
+    "Product team":                   { "de": "Produktteam",                    "nl": "productteam",                 "covers": "specs, coverage, launches, certifications, warranty" },
+    "Marketing":                      { "de": "Marketing",                      "nl": "marketing",                   "covers": "editorial sign-off, imagery and rights, survey data" },
+    "Digital marketing":              { "de": "Digitales Marketing",            "nl": "digitale marketing",          "covers": "keywords, gating, calculators, analytics" },
+    "Finance":                        { "de": "Finanzen",                       "nl": "financiën",                   "covers": "energy prices and cost assumptions" },
+    "Hospitality sales":              { "de": "Vertrieb Gastronomie",           "nl": "verkoop horeca",              "covers": "restaurant and hotel benchmarks, commercial case studies" },
+    "Specification and compliance":   { "de": "Spezifikation und Compliance",   "nl": "specificatie en compliance",  "covers": "codes, CSI specifications, competitor claims" },
+    "Trade sales":                    { "de": "Fachhandelsvertrieb",            "nl": "verkoop vakhandel",           "covers": "builder and contractor programs, partner terms" },
+    "Sales operations":               { "de": "Vertriebssteuerung",             "nl": "verkoopoperaties",            "covers": "price tiers, lead times" },
+    "US field sales":                 { "de": "US-Außendienst",                 "nl": "buitendienst VS",             "covers": "installer practice, field costs" },
+    "Marine team":                    { "de": "Marine-Team",                    "nl": "marineteam",                  "covers": "marine and coastal projects" },
+    "Canada sales":                   { "de": "Vertrieb Kanada",                "nl": "verkoop Canada",              "covers": "Canadian codes and projects" },
+    "Germany partner":                { "de": "Partner Deutschland",            "nl": "partner Duitsland",           "covers": "German codes and projects" },
+    "Leadership":                     { "de": "Geschäftsleitung",               "nl": "directie",                    "covers": "final calls" }
+  }
+}

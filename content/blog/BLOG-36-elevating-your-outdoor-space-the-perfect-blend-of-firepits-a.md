@@ -18,8 +18,8 @@ meta_description: "Fire pit or patio heater? A fire is a focal point; radiant he
 cta: {label: "Download the Outdoor Living Trends 2026 report", asset: A01}
 hero: w-black-tungsten-electric-mounted-chicago
 images: [w-bromic-centrico-photos-8, w-dsc01860-bearbeitet]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false

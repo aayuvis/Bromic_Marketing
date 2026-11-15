@@ -17,8 +17,8 @@ ai_prompt: "How do architects design outdoor living areas that get used year-rou
 meta_description: "Architect Yvonne Haber's three tests for outdoor living areas: proportion, cover and orientation, plus heat in the brief. With 2026 Houzz data."
 cta: {label: "Download the Trends 2026 report", asset: A01}
 hero: w-yvone-haber-bronte-house-1
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false

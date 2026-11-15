@@ -14,8 +14,8 @@ ai_prompt: "Was müssen Architekten bei der Planung von Außengastronomie beacht
 meta_description: "Frank Cavanaugh von Aria Group über Ortsbezug, örtliche Vorschriften, Atmosphäre und Flexibilität in der Außengastronomie, und wo die Heizung in den Plan gehört."
 cta: {label: "Das Planer-Spezifikationspaket herunterladen", asset: A11}
 hero: w-stellas-wine-bar-houston-tx-3
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -67,7 +67,7 @@ sources:
 lang: de
 translation_of: BLOG-38
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 Außengastronomie gelingt, wenn Ort, Vorschriften und Stimmung gemeinsam geplant werden. Das ist der rote Faden der ersten Folge der zweiten Staffel von Designing Outdoor Spaces: Frank Cavanaugh, Principal bei Aria Group Architects, spricht mit Evan Troxel und Cormac Phalen von Archispeak darüber, wie man den Kontext liest, mit Satzungen und Vorgaben der Gesundheitsbehörden arbeitet und Flächen plant, die über die Jahreszeiten hinweg angenehm und nutzbar bleiben[^s1].
 
@@ -83,7 +83,7 @@ Vor jeder Zeichnung untersucht Cavanaugh die Umgebung: Blickbeziehungen, Fußgä
 
 ## Vorschriften als Planungsgrundlage verstehen
 
-Bebauungsplan, Bauordnung und Hygienevorschriften prägen Konstruktion, Sicherheitseinrichtungen und den Betrieb einer Fläche, so der Beitrag[^s1]. Wer sie ab der ersten Skizze mitdenkt, vermeidet spätere Umplanungen. Für die Heizung heißt das, die elektrischen oder gasseitigen Anforderungen früh zu klären: In den USA gilt für elektrische Heizstrahler NFPA 70, der National Electrical Code[^s5][^s6]; in Deutschland sind es DIN VDE 0100 sowie DVGW-TRGI für Erdgas und TRF für Flüssiggas. Die Anforderungen unterscheiden sich je nach Ort; stimmen Sie sie mit Ihrem örtlichen Bauamt und einem Elektrofachbetrieb oder Gasinstallateur ab. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Raffaele Marti]]
+Bebauungsplan, Bauordnung und Hygienevorschriften prägen Konstruktion, Sicherheitseinrichtungen und den Betrieb einer Fläche, so der Beitrag[^s1]. Wer sie ab der ersten Skizze mitdenkt, vermeidet spätere Umplanungen. Für die Heizung heißt das, die elektrischen oder gasseitigen Anforderungen früh zu klären: In den USA gilt für elektrische Heizstrahler NFPA 70, der National Electrical Code[^s5][^s6]; in Deutschland sind es DIN VDE 0100 sowie DVGW-TRGI für Erdgas und TRF für Flüssiggas. Die Anforderungen unterscheiden sich je nach Ort; stimmen Sie sie mit Ihrem örtlichen Bauamt und einem Elektrofachbetrieb oder Gasinstallateur ab. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Partner Deutschland]]
 
 ## Atmosphäre schaffen
 

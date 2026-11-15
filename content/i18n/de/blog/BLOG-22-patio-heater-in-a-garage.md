@@ -14,8 +14,8 @@ ai_prompt: "Darf ich einen Flüssiggas- oder Elektro-Terrassenheizstrahler in me
 meta_description: "Betreiben Sie nie einen Gas- oder Flüssiggas-Heizstrahler in der Garage, ob mit offenem Tor oder nicht. Elektro kann gehen, wenn die Anleitung es erlaubt, hoch montiert und vom Elektrofachbetrieb angeschlossen."
 cta: {label: "Fläche berechnen", asset: A03}
 hero: w-dsc05737-courtney-saib
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -24,7 +24,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLOG-22
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Centers for Disease Control and Prevention
@@ -99,7 +99,7 @@ Heizstrahler mit Erdgas oder Flüssiggas verbrennen Brennstoff und setzen Kohlen
 
 ## Was braucht ein Elektro-Heizstrahler in der Garage?
 
-Bromic Heizstrahler sind als Heizstrahler für den Außenbereich konstruiert und zertifiziert. Die Galerie von Bromic zeigt einen Cobalt Electric, der in einer Garage montiert ist,[^s5] aber prüfen Sie die Montageanleitung Ihres Modells, bevor Sie eine Installation in Innenräumen planen. [[VERIFY: ob die Anleitungen von Tungsten, Cobalt und Platinum Electric die Montage in einer geschlossenen Garage zulassen, und unter welchen Bedingungen — Mike Clifford]]
+Bromic Heizstrahler sind als Heizstrahler für den Außenbereich konstruiert und zertifiziert. Die Galerie von Bromic zeigt einen Cobalt Electric, der in einer Garage montiert ist,[^s5] aber prüfen Sie die Montageanleitung Ihres Modells, bevor Sie eine Installation in Innenräumen planen. [[VERIFY: ob die Anleitungen von Tungsten, Cobalt und Platinum Electric die Montage in einer geschlossenen Garage zulassen, und unter welchen Bedingungen — Produktteam]]
 
 - **Hoch montieren.** Cobalt braucht mindestens 1,8 m an der Wand und 2,4 m an der Decke; Tungsten und Platinum Electric brauchen 1,8 m und 2,4 m.[^s4][^s3] Weit oben hängt er über Autodächern, Leitern und Regalen.
 - **Von Kraftstoff und Gerümpel fernhalten.** Richten Sie einen Heizstrahler nie auf Benzinkanister, Farbe, Lösungsmittel, Karton oder den Tankdeckel eines Autos. Halten Sie die Abstände aus der Anleitung frei.
@@ -110,7 +110,7 @@ Bromic Heizstrahler sind als Heizstrahler für den Außenbereich konstruiert und
 
 ## Und eine Flüssiggasflasche in der Garage lagern?
 
-Lagern Sie Flaschen im Freien, aufrecht und geschlossen, fern von Wärme und allem, was brennt. In Deutschland regeln die TRF und örtliche Vorschriften den Umgang mit Flüssiggasflaschen; in den USA gilt NFPA 58 mit dem örtlichen Brandschutzrecht.[^s7] Ein früherer Bromic-Beitrag nannte eine freistehende Garage oder einen Schuppen als Lagerort; prüfen Sie die Anleitung Ihres Heizstrahlers und fragen Sie bei Ihrer Gemeinde nach, bevor Sie sich darauf verlassen. [[VERIFY: Formulierung zur Flaschenlagerung in der Anleitung des Tungsten Smart-Heat Freestanding — Mike Clifford]] [[VERIFY: Regeln für die Lagerung von Flüssiggasflaschen in Garagen in Deutschland — Raffaele Marti]]
+Lagern Sie Flaschen im Freien, aufrecht und geschlossen, fern von Wärme und allem, was brennt. In Deutschland regeln die TRF und örtliche Vorschriften den Umgang mit Flüssiggasflaschen; in den USA gilt NFPA 58 mit dem örtlichen Brandschutzrecht.[^s7] Ein früherer Bromic-Beitrag nannte eine freistehende Garage oder einen Schuppen als Lagerort; prüfen Sie die Anleitung Ihres Heizstrahlers und fragen Sie bei Ihrer Gemeinde nach, bevor Sie sich darauf verlassen. [[VERIFY: Formulierung zur Flaschenlagerung in der Anleitung des Tungsten Smart-Heat Freestanding — Produktteam]] [[VERIFY: Regeln für die Lagerung von Flüssiggasflaschen in Garagen in Deutschland — Partner Deutschland]]
 
 ## Wo gehören Terrassenheizstrahler hin?
 

@@ -15,8 +15,8 @@ meta_description: "Maak buitenverwarmers deel van het ontwerp: ingebouwd, aan pl
 cta: {label: "Download het rapport Trends 2026", asset: A01}
 hero: w-print-15
 images: [w-white-platinum-recessed, w-bromiceclipseheater-scottsdalehome-4]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false

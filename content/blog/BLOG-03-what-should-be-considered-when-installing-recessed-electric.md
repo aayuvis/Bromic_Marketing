@@ -18,8 +18,8 @@ meta_description: "Recessing an outdoor electric heater: ceiling 0.39–1.2 in t
 cta: {label: "Download the architect spec kit", asset: A11}
 hero: w-residential-belgium-brussels-medows-resid-3
 images: [w-dorrington-homes-platinum-electric-2]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -98,19 +98,19 @@ Before recessing an electric heater, confirm four things: a ceiling lining 0.39�
 
 | Heater | Kit | Minimum cavity | Notes |
 |---|---|---|---|
-| Tungsten Electric | [Tungsten recess kit](https://www.bromic.com/product/tungsten-electric-recess-kit/) | 20–21.1 in [[VERIFY: 20 in here vs 21.1 in in the mounting post — Mike Clifford]] | Two layers of 5/8 in fireproof insulation on every face of the ceiling box[^s1] |
+| Tungsten Electric | [Tungsten recess kit](https://www.bromic.com/product/tungsten-electric-recess-kit/) | 20–21.1 in [[VERIFY: 20 in here vs 21.1 in in the mounting post — Product team]] | Two layers of 5/8 in fireproof insulation on every face of the ceiling box[^s1] |
 | Platinum 2300 W, 3400 W | [Platinum standard recess kit](https://www.bromic.com/product/platinum-electric-recess-kit/) | 10 in | [^s1] |
 | Platinum 4500 W | Platinum standard recess kit | 13 in | [^s1] |
 | Platinum 2300, 3400, 4500 W | [Low Clearance Recess Kit](https://www.bromic.com/product/platinum-electric-low-clearance-recess-kit/) | 7.1 in | Built-in recess box, fan and vents; fits standard joists; UL certified[^s1][^s3] |
 
 Plan Tungsten at 21.1 in until the cut sheet settles it. The Tungsten kit is sold in pairs, one for 2000 and 4000 W and one for 3000 and 6000 W[^s5].
 
-The older version of this post listed the low-clearance kit for 2300 and 3400 W only. The kit's product page now lists 4500 W as well[^s3] [[VERIFY: 4500 W low-clearance compatibility against the current manual — Mike Clifford]]. Its step-by-step install is in [how to install the Low Clearance Recess Kit](https://www.bromic.com/blog/how-to-install-the-low-clearance-recess-kit/).
+The older version of this post listed the low-clearance kit for 2300 and 3400 W only. The kit's product page now lists 4500 W as well[^s3] [[VERIFY: 4500 W low-clearance compatibility against the current manual — Product team]]. Its step-by-step install is in [how to install the Low Clearance Recess Kit](https://www.bromic.com/blog/how-to-install-the-low-clearance-recess-kit/).
 
 ## What should the ceiling be made of?
 
 - **Lining thickness.** 0.39–1.2 in is the ideal range. A thicker ceiling needs a custom detail from [Bromic Technical Support](https://www.bromic.com/contact-technical-support/)[^s1].
-- **Structure.** Recessed heaters weigh 17 lb (Platinum 2300 W) to 33 lb (Platinum 4500 W)[^s4]; the older range of 16–38 lb included models not listed today [[VERIFY: heaviest recessed Tungsten weight — Mike Clifford]]. Frame and block to carry the heater and kit; reinforce weak joists.
+- **Structure.** Recessed heaters weigh 17 lb (Platinum 2300 W) to 33 lb (Platinum 4500 W)[^s4]; the older range of 16–38 lb included models not listed today [[VERIFY: heaviest recessed Tungsten weight — Product team]]. Frame and block to carry the heater and kit; reinforce weak joists.
 - **Water.** Shield the heater from water above; the ceiling must not leak onto it[^s1].
 - **Insulation.** Nothing in the cavity, insulation included, may cover the heater or kit[^s1].
 - **Combustibles.** Clearances to combustibles differ by model; take them from the manual for the exact heater[^s1]. Keep clear of ceiling lights and fans[^s2].

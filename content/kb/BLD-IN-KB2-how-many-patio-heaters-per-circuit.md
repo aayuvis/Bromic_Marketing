@@ -14,7 +14,7 @@ ai_prompt: "How many heaters per circuit?"
 meta_description: "At 240 V, a 20 A circuit carries one 2300 W or one 3400 W heater; a 30 A circuit, one 4500 W or two 2300 W. One per circuit is simplest."
 cta: {label: "Download the pre-wire guide", asset: A16}
 hero: l-010-070
-owner_review: Arvin Avaness
+owner_review: Trade sales
 status: draft
 gated: false
 related: [BLD-IN-01, BLD-IN-KB1, BLD-PP-01]
@@ -61,13 +61,13 @@ At 208 V the usable wattage falls by about 13%: a 30 A circuit gives about 4,990
 
 ## Is there a cap on shared heater circuits?
 
-Possibly. Practitioners read NEC 424.4(A) as limiting a branch circuit that feeds two or more fixed heating outlets to 30 A [[VERIFY: confirm 424.4(A) text in the adopted NEC edition and whether outdoor radiant heaters fall under Article 424 or 422 — licensed electrician / Mike Clifford]][^s3]. Do not plan a 40 A shared circuit without checking.
+Possibly. Practitioners read NEC 424.4(A) as limiting a branch circuit that feeds two or more fixed heating outlets to 30 A [[VERIFY: confirm 424.4(A) text in the adopted NEC edition and whether outdoor radiant heaters fall under Article 424 or 422 — licensed electrician / Product team]][^s3]. Do not plan a 40 A shared circuit without checking.
 
 ## Why is one heater per circuit usually better?
 
 - **Zoning.** Each heater, or each zone, gets its own Affinity Smart-Heat On/Off or Dimmer controller and wall switch.
 - **Fault-finding.** A trip affects one heater, not the whole patio.
-- **Controller load.** Each controller has a maximum load [[VERIFY: Affinity controller load rating — Mike Clifford]].
+- **Controller load.** Each controller has a maximum load [[VERIFY: Affinity controller load rating — Product team]].
 - **Upgrades.** A buyer stepping from one tier to the next adds a heater without re-wiring a shared run.
 
 App, schedule and voice control need compatible Affinity Smart-Heat Controls, sold separately[^s1].

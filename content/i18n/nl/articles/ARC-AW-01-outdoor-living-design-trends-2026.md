@@ -14,7 +14,7 @@ meta_description: "Ontwerptrends voor buitenleven in 2026 volgens Amerikaanse ci
 cta: {label: "Download het rapport Trends 2026", asset: A01}
 hero: l-010-075
 images: [l-010-069, t-006-016]
-owner_review: Megan Spies
+owner_review: marketing
 status: draft
 gated: false
 related: [ARC-CO-01, ARC-IN-01, BLD-IN-01]
@@ -99,7 +99,7 @@ De kern is een stabiele vraag vanaf een hoog niveau, geen hausse. Lees de onderz
 | Nieuwe eengezinswoningen in de VS waarvan de bouw in 2025 begon met een terras | 60,5% (61,8% in 2024) | NAHB[^s4] |
 | Gemiddeld terras bij een nieuwe woning in de VS | ca. 30 m² | NAHB / Home Innovation[^s5] |
 
-[[VERIFY: AIA reports "increasing minus decreasing" net shares; confirm whether the 10% is points or relative, and which quarter's question the 55%/40% come from, against the AIA PDFs — Megan Spies]]
+[[VERIFY: AIA reports "increasing minus decreasing" net shares; confirm whether the 10% is points or relative, and which quarter's question the 55%/40% come from, against the AIA PDFs — marketing]]
 
 Twee kanttekeningen voor wie deze cijfers citeert. De AIA-cijfers zijn nettopercentages van architecten, geen percentages van woningen. En het aandeel woningen met een terras volgens NAHB is nu twee jaar op rij gedaald[^s4], dus "elke nieuwe woning heeft een terras" is overdreven. De eerlijke lezing: de meeste nieuwe Amerikaanse woningen krijgen er een, gemiddeld zo groot als een kamer van ongeveer 30 m², en architecten noemen het nog steeds de ruimte die opdrachtgevers het meest willen.
 

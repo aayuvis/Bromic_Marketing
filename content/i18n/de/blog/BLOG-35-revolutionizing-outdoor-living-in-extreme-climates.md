@@ -14,8 +14,8 @@ ai_prompt: "Wie plant man einen Außenbereich, den man auch in kaltem Klima nutz
 meta_description: "Ein Musterhaus in Juneau, Alaska, plante seine Terrasse als beheizte Zonen mit Bromic Tungsten und Platinum Electric Heizstrahlern. Was die Planung leistete und was man daraus mitnimmt."
 cta: {label: "Den Bericht Outdoor Living Trends 2026 herunterladen", asset: A01}
 hero: w-dsc07397-1
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -67,13 +67,13 @@ sources:
 lang: de
 translation_of: BLOG-35
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 Ein kaltes Klima schließt das Leben im Freien nicht aus; es verändert nur die Planung. In einem Musterhaus in Juneau, Alaska, teilte Bauer/Clifton Interiors den Außenbereich in Zonen auf – Lounge, Essen, Geselligkeit und die Wege dazwischen – und gab jeder Zone die Wärme, die sie brauchte: Bromic Tungsten Electric über der Lounge, Platinum Electric über dem Esstisch, und alle Heizstrahler so platziert, dass sie weder Ausblick noch Wege versperren.[^s1]
 
 ![Holzverkleidetes Haus mit Lounge auf der Terrasse und Heizstrahlern an der Wand unter dem Dachvorsprung](img:w-dsc07397-1)
 
-[[VERIFY: ob dieses Titelfoto (aus dem ursprünglichen Beitrag) das Musterhaus in Juneau zeigt, und der Bildnachweis — Megan Spies]]
+[[VERIFY: ob dieses Titelfoto (aus dem ursprünglichen Beitrag) das Musterhaus in Juneau zeigt, und der Bildnachweis — Marketing]]
 
 ## Auf einen Blick
 
@@ -84,8 +84,8 @@ Ein kaltes Klima schließt das Leben im Freien nicht aus; es verändert nur die 
 | Planung | Bauer/Clifton Interiors |
 | Das Problem | Harte Winter, die die Monate verkürzen, in denen eine Terrasse nutzbar ist |
 | Heizstrahler | Tungsten Electric und Platinum Electric |
-| Anzahl der Heizstrahler | Nicht angegeben [[VERIFY: Anzahl und Leistung der Heizstrahler — Megan Spies]] |
-| Steuerung | Nicht angegeben [[VERIFY: im Projekt verwendete Steuerung — Megan Spies]] |
+| Anzahl der Heizstrahler | Nicht angegeben [[VERIFY: Anzahl und Leistung der Heizstrahler — Marketing]] |
+| Steuerung | Nicht angegeben [[VERIFY: im Projekt verwendete Steuerung — Marketing]] |
 | Vorgestellt in | Dwell[^s2] |
 
 Quelle: der ursprüngliche Beitrag, den dieser ersetzt.[^s1]
@@ -119,7 +119,7 @@ Wie man eine Terrasse für das ganze Jahr plant, lesen Sie unter [die Terrasse d
 
 ## Die vollständige Fallstudie
 
-Dieser Beitrag wird zu einer vollständigen Bromic-Fallstudie, sobald die Projektdetails mit dem Planungsbüro bestätigt sind: Anzahl und Leistung der Heizstrahler, die Steuerung, der Heizplan und gegebenenfalls Zitate des Teams, die nur mit schriftlicher Genehmigung verwendet werden. Sie folgt der [Vorlage für Fallstudien](item:CS-TEMPLATE) und erscheint bei den anderen auf [bromic.com/case-studies](https://www.bromic.com/case-studies/). [[VERIFY: Bauer/Clifton Interiors wegen Projektdetails und Genehmigung kontaktieren — Megan Spies]]
+Dieser Beitrag wird zu einer vollständigen Bromic-Fallstudie, sobald die Projektdetails mit dem Planungsbüro bestätigt sind: Anzahl und Leistung der Heizstrahler, die Steuerung, der Heizplan und gegebenenfalls Zitate des Teams, die nur mit schriftlicher Genehmigung verwendet werden. Sie folgt der [Vorlage für Fallstudien](item:CS-TEMPLATE) und erscheint bei den anderen auf [bromic.com/case-studies](https://www.bromic.com/case-studies/). [[VERIFY: Bauer/Clifton Interiors wegen Projektdetails und Genehmigung kontaktieren — Marketing]]
 
 ## Häufige Fragen
 

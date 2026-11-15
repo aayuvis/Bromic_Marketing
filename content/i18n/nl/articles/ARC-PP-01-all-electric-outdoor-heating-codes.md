@@ -14,7 +14,7 @@ meta_description: "Mogen gasterrasverwarmers onder volledig elektrische bouwrege
 cta: {label: "Download de gids over elektrificatie en regelgeving", asset: A12}
 hero: l-009-061
 images: [l-010-073]
-owner_review: Shaughn Ritchie
+owner_review: specificatie en compliance
 status: draft
 gated: false
 related: [ARC-IN-01, COM-PP-01, ARC-BY-01]
@@ -119,8 +119,8 @@ Meestal noemen de Amerikaanse regels voor volledig elektrische gebouwen terrasve
 
 | Rechtsgebied | Regel | Status, okt. 2026 | Wat het betekent voor een gasverwarmer buiten |
 |---|---|---|---|
-| New York City | Local Law 154 of 2021: geen verbranding ter plaatse boven 25 kg CO2/MMBtu in nieuwe gebouwen die eronder vallen[^s1] | Van kracht: gebouwen tot 7 verdiepingen vanaf 2024, hogere vanaf 2027[^s3][^s2]. Bekrachtigd door het Second Circuit, 30 juni 2026[^s4] | Een verwarmer met een vaste gasleiding valt buiten de uitzondering voor losse toestellen[^s1]. [[VERIFY: standpunt van het DOB over buitentoestellen met een vaste gasleiding op nieuwbouw — Shaughn Ritchie / juridisch adviseur]] |
-| Staat New York | All-Electric Buildings Act | Handhaving in nov. 2025 in onderling overleg opgeschort in afwachting van het hoger beroep[^s5]; in hoger beroep bekrachtigd op 30 juni 2026; de opschorting vervalt op 28 okt. 2026 tenzij een cert-verzoek bij het Supreme Court wordt ingediend[^s4] | [[VERIFY: of er een cert-verzoek is ingediend en wat de nieuwe handhavingsdatum is — Shaughn Ritchie / juridisch adviseur]] |
+| New York City | Local Law 154 of 2021: geen verbranding ter plaatse boven 25 kg CO2/MMBtu in nieuwe gebouwen die eronder vallen[^s1] | Van kracht: gebouwen tot 7 verdiepingen vanaf 2024, hogere vanaf 2027[^s3][^s2]. Bekrachtigd door het Second Circuit, 30 juni 2026[^s4] | Een verwarmer met een vaste gasleiding valt buiten de uitzondering voor losse toestellen[^s1]. [[VERIFY: standpunt van het DOB over buitentoestellen met een vaste gasleiding op nieuwbouw — specificatie en compliance / juridisch adviseur]] |
+| Staat New York | All-Electric Buildings Act | Handhaving in nov. 2025 in onderling overleg opgeschort in afwachting van het hoger beroep[^s5]; in hoger beroep bekrachtigd op 30 juni 2026; de opschorting vervalt op 28 okt. 2026 tenzij een cert-verzoek bij het Supreme Court wordt ingediend[^s4] | [[VERIFY: of er een cert-verzoek is ingediend en wat de nieuwe handhavingsdatum is — specificatie en compliance / juridisch adviseur]] |
 | New York City | Local Law 97 of 2019: emissieplafonds voor de meeste gebouwen boven 2.323 m², vanaf 2024, strenger vanaf 2030[^s11] | Van kracht | Gas dat ter plaatse wordt verbrand, telt mee voor de uitstoot van het gebouw. [[VERIFY: hoe gas voor buitentoestellen via de gasmeter van het gebouw onder LL97 wordt meegeteld — juridisch adviseur]] |
 | Californië | 2025 Energy Code (Title 24, Part 6), van kracht per 1 jan. 2026: warmtepompen als uitgangspunt voor ruimte- en tapwaterverwarming[^s8] | Van kracht | Geen gasverbod. De code regelt de installaties van het gebouw; gastoestellen buiten worden er niet als zodanig door verboden |
 | Berkeley, Californië | Verbod op gasleidingen in nieuwbouw | Vernietigd: voorrang van de federale EPCA, Ninth Circuit, 17 april 2023[^s6]; herbehandeling geweigerd op 2 jan. 2024[^s7] | Steden in het rechtsgebied van het Ninth Circuit kunnen niet op een leidingverbod zoals in Berkeley bouwen. Lokale aanvullende codes kunnen elektrisch nog steeds bevoordelen |
@@ -135,7 +135,7 @@ Niet als categorie, nergens waar wij hebben gezocht. Wat er wel is, is beperkter
 - **Verboden op brandstofgebruik in nieuwbouw** (NYC LL154, NYS AEBA) kunnen een verwarmer raken die op het gassysteem van het gebouw is aangesloten[^s1][^s5].
 - **Emissieplafonds voor bestaande grote gebouwen** (NYC LL97) laten elk beetje gas dat ter plaatse wordt verbrand meetellen ten laste van de eigenaar[^s11].
 - **Energiecodes** bepalen hoe buitenwarmte wordt geleverd en geregeld (stralingswarmte, automatische uitschakeling), ongeacht de energiebron[^s10].
-- **Brandveiligheidsregels** gelden in veel steden apart voor verplaatsbare propaanflessen. [[VERIFY: regels van de FDNY en andere brandweercodes voor verplaatsbare propaanverwarmers op horecaterrassen — Shaughn Ritchie]]
+- **Brandveiligheidsregels** gelden in veel steden apart voor verplaatsbare propaanflessen. [[VERIFY: regels van de FDNY en andere brandweercodes voor verplaatsbare propaanverwarmers op horecaterrassen — specificatie en compliance]]
 
 Ook juridisch staat het nog niet vast. Het Ninth Circuit las de federale wet op apparaten (EPCA) zo dat die het verbod van Berkeley opzij zet[^s6]; het Second Circuit las haar voor New York andersom[^s4]. Commentatoren verwachten dat het Supreme Court zich erover buigt. Een gasvoorschrift dat vandaag mag, kan vóór de oplevering opnieuw moeten worden ontworpen.
 

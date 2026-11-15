@@ -17,7 +17,7 @@ ai_prompt: "Hoe lang duurt het voordat een horecazaak terrasverwarmers heeft ter
 meta_description: "Schat hoeveel omzet verwarmde terrasplaatsen opleveren, welke marge ze verdienen en in hoeveel maanden terrasverwarmers zijn terugverdiend."
 cta: {label: "Boek een ontwerpadvies", asset: A07}
 hero: p-003-006
-owner_review: Blake Petty + Brian Kim
+owner_review: verkoop horeca + digitale marketing
 status: draft
 gated: true
 related: [COM-IN-01, COM-AW-01, COM-CO-01]
@@ -32,12 +32,12 @@ sources:
     verified: true
 ---
 
-**Wat de tool doet.** Een horecaondernemer ziet wat het verwarmen van het terras kan opleveren: de extra omzet van avonden waarop hij eerder niemand buiten kon plaatsen, de marge daarop, en in hoeveel maanden de installatiekosten zijn terugverdiend. Zeven invoervelden; de verwarmers worden bepaald op basis van het aantal zitplaatsen en de elektriciteitsprijs komt uit de regionale prijzen van de tool (voor Nederland een Eurostat-gemiddelde voor zakelijke afnemers; in de VS de staat, volgens de EIA). [[VERIFY: Nederlandse elektriciteitsprijs in data/regional-prices.json — Brian Kim/Finance]] De resultaatkaart toont een raster van zitplaatsen, waar elke extra euro naartoe gaat, de kaspositie per maand met het break-evenpunt, en de terugverdientijd bij andere bezettingsgraden.
+**Wat de tool doet.** Een horecaondernemer ziet wat het verwarmen van het terras kan opleveren: de extra omzet van avonden waarop hij eerder niemand buiten kon plaatsen, de marge daarop, en in hoeveel maanden de installatiekosten zijn terugverdiend. Zeven invoervelden; de verwarmers worden bepaald op basis van het aantal zitplaatsen en de elektriciteitsprijs komt uit de regionale prijzen van de tool (voor Nederland een Eurostat-gemiddelde voor zakelijke afnemers; in de VS de staat, volgens de EIA). [[VERIFY: Nederlandse elektriciteitsprijs in data/regional-prices.json — financiën]] De resultaatkaart toont een raster van zitplaatsen, waar elke extra euro naartoe gaat, de kaspositie per maand met het break-evenpunt, en de terugverdientijd bij andere bezettingsgraden.
 
 **Invoer.** Verwarmde zitplaatsen · gemiddelde besteding · tafelrondes per avond · dekkingsbijdrage in % · extra avonden per jaar · aandeel bezette zitplaatsen · regio (elektriciteitsprijs). Onder "Gebruik uw eigen cijfers": verwarmers (bepaald op basis van de zitplaatsen volgens templates/calculation-model.md), installatiekosten per verwarmer (voorlopige waarde), verwarmde uren per avond, elektriciteitsprijs.
 
 **Uitkomsten.** Op het scherm: extra omzet per jaar en terugverdientijd in maanden. Achter het formulier: marge, een gevoeligheidsanalyse en de verwarmers en bediening die de installatiekosten moeten dekken (Affinity Smart-Heat-regelaar, wandschakelaar, app).
 
-**Aannames.** Elke standaardwaarde is een illustratie, geen benchmark, gemarkeerd als [[VERIFY: benchmarks — Blake Petty]] in de configuratie. Het eerste testgeval is het rekenvoorbeeld in COM-IN-01[^s1]. Elke waarde, bron en eigenaar: `tools/A21-roi/README.md`.
+**Aannames.** Elke standaardwaarde is een illustratie, geen benchmark, gemarkeerd als [[VERIFY: benchmarks — verkoop horeca]] in de configuratie. Het eerste testgeval is het rekenvoorbeeld in COM-IN-01[^s1]. Elke waarde, bron en eigenaar: `tools/A21-roi/README.md`.
 
 **Waar de lead naartoe gaat.** Het HubSpot-formulier met `asset_id=A21`, `matrix_cell=COM-IN` en de invoer als `tool_inputs`. A21 is een intent-asset (+30). De volgende stap die wordt aangeboden is een ontwerpadvies (A07).

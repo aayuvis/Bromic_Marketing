@@ -19,8 +19,8 @@ meta_description: "Monteer een gasterrasverwarmer van Bromic op 2,44 m of hoger,
 cta: {label: "Download de reeks installatiegidsen", asset: A17}
 hero: w-bromic-centrico-photos-8
 images: [w-img-1450]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -118,7 +118,7 @@ De oudere post zei dat plafondmontage werkt bij "plafonds van elke hoogte". Ze w
 
 ## Hoe kies ik een ophangpaal?
 
-Gaspalen zijn er in zes lengtes: ongeveer 246, 346, 446, 646, 846 en 1046 mm[^s5] [[VERIFY: paallengtes en de hoogte van verwarmer plus beugel (ca. 422 mm) tegen het productblad van 2026 — Mike Clifford]]. Om er een te kiezen neem je de plafondhoogte, trek je de gewenste hoogte van de verwarmer (2,4–2,7 m) en de ca. 422 mm van verwarmer en beugel eraf[^s5]; de dichtstbijzijnde kortere paal is je lengte. De paal moet recht naar beneden hangen; het verstelpunt is alleen bedoeld voor een schuin plafond[^s5].
+Gaspalen zijn er in zes lengtes: ongeveer 246, 346, 446, 646, 846 en 1046 mm[^s5] [[VERIFY: paallengtes en de hoogte van verwarmer plus beugel (ca. 422 mm) tegen het productblad van 2026 — productteam]]. Om er een te kiezen neem je de plafondhoogte, trek je de gewenste hoogte van de verwarmer (2,4–2,7 m) en de ca. 422 mm van verwarmer en beugel eraf[^s5]; de dichtstbijzijnde kortere paal is je lengte. De paal moet recht naar beneden hangen; het verstelpunt is alleen bedoeld voor een schuin plafond[^s5].
 
 ## Welke vrije ruimte heeft een gasverwarmer nodig?
 
@@ -128,7 +128,7 @@ Gaspalen zijn er in zes lengtes: ongeveer 246, 346, 446, 646, 846 en 1046 mm[^s5
 | Boven de verwarmer (plafond, overstek, balk) | Ten minste 0,91 m | Ten minste 0,36 m |
 | Tot brandbare materialen | Ten minste 0,91 m | Ten minste 0,91 m |
 
-Bronnen: de post over muurmontage en de pagina's van de deflectors[^s1][^s2][^s5]. Onder brandbare materialen vallen ook stoffen, kunststoffen en gepoedercoate afwerkingen[^s1]. De deflectors voor [Platinum Gas](https://www.bromic.nl/) en [Tungsten Gas](https://www.bromic.nl/) zijn van dubbelwandig roestvast staal[^s5]. Bromic raadt er een aan waar de ruimte erboven krap is of de verwarmer onbeschut hangt: de productpagina's leggen die grens bij 1100 mm voor Platinum Gas en ca. 1070 mm voor Tungsten Gas[^s3][^s4] [[VERIFY: één grenswaarde voor de deflector, en of 0,91 m het minimum zonder deflector is — Mike Clifford]]. De 0,36 m hier en de 35 cm in de post over overdekte terrassen zijn dezelfde afstand, anders afgerond.
+Bronnen: de post over muurmontage en de pagina's van de deflectors[^s1][^s2][^s5]. Onder brandbare materialen vallen ook stoffen, kunststoffen en gepoedercoate afwerkingen[^s1]. De deflectors voor [Platinum Gas](https://www.bromic.nl/) en [Tungsten Gas](https://www.bromic.nl/) zijn van dubbelwandig roestvast staal[^s5]. Bromic raadt er een aan waar de ruimte erboven krap is of de verwarmer onbeschut hangt: de productpagina's leggen die grens bij 1100 mm voor Platinum Gas en ca. 1070 mm voor Tungsten Gas[^s3][^s4] [[VERIFY: één grenswaarde voor de deflector, en of 0,91 m het minimum zonder deflector is — productteam]]. De 0,36 m hier en de 35 cm in de post over overdekte terrassen zijn dezelfde afstand, anders afgerond.
 
 ## Hoeveel weegt elke verwarmer?
 
@@ -136,14 +136,14 @@ Bronnen: de post over muurmontage en de pagina's van de deflectors[^s1][^s2][^s5
 |---|---|---|---|
 | Platinum Gas, kleiner model | 6,9 kW | 14,9 m² | 15 kg |
 | Platinum Gas, groter model | 11,7 kW | 20,0 m² | 20 kg |
-| Tungsten Gas, kleiner model | [[VERIFY: vermogen niet publiceren tot het bevestigd is — Mike Clifford]] | 14,9 m² | 15 kg |
-| Tungsten Gas, groter model | [[VERIFY: vermogen niet publiceren tot het bevestigd is — Mike Clifford]] | 20,0 m² | 20 kg |
+| Tungsten Gas, kleiner model | [[VERIFY: vermogen niet publiceren tot het bevestigd is — productteam]] | 14,9 m² | 15 kg |
+| Tungsten Gas, groter model | [[VERIFY: vermogen niet publiceren tot het bevestigd is — productteam]] | 20,0 m² | 20 kg |
 
 Bronnen: productpagina's[^s3][^s4]. Bevestig beugels en palen aan een constructie die op de verwarmer berekend is, niet aan beplating. De Tungsten Gas heeft een zwenkarm van ±25° om te richten[^s4].
 
 ## Welke bediening en bekabeling heeft een gasverwarmer nodig?
 
-Gasverwarmers hebben ook elektriciteit nodig: elk krijgt een voeding voor ontsteking en bediening (in de VS 110 V, 2 A)[^s3][^s4]. Leg die groep samen met de gasleiding aan. [[VERIFY: voedingsspecificatie van de gasverwarmers bij 230 V — Mike Clifford]]
+Gasverwarmers hebben ook elektriciteit nodig: elk krijgt een voeding voor ontsteking en bediening (in de VS 110 V, 2 A)[^s3][^s4]. Leg die groep samen met de gasleiding aan. [[VERIFY: voedingsspecificatie van de gasverwarmers bij 230 V — productteam]]
 
 - **Affinity Smart-Heat On/Off-regelaar**: 1, 2 of 5 kanalen, tot 10 gasverwarmers per kanaal[^s6]. Gasverwarmers schakelen alleen aan en uit; ze dimmen niet[^s3].
 - **Handmatige wandschakelaar**: Amerikaanse uitvoering 20 A, 120–277 V, als set voor binnen of buiten[^s6].
@@ -154,7 +154,7 @@ Gasverwarmers hebben ook elektriciteit nodig: elk krijgt een voeding voor ontste
 
 ## Welke normen gelden?
 
-In Nederland worden gasverwarmers geïnstalleerd volgens NEN 1078 en de elektrische voeding volgens NEN 1010. In de VS gelden ANSI Z223.1/[NFPA 54](https://www.nfpa.org/codes-and-standards/nfpa-54-standard-development/54) voor gas en [NFPA 70](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70) voor elektra[^s8][^s9][^s10], met verwarmers die een Intertek-, UL- of CSA-markering dragen[^s8]. [[VERIFY: CE-markering en Europese keuringen van de gasverwarmers — Mike Clifford]] Een erkend gasinstallateur dimensioneert de gasleiding en plaatst de afsluiter; vraag bij je gemeente na of een vergunning nodig is.
+In Nederland worden gasverwarmers geïnstalleerd volgens NEN 1078 en de elektrische voeding volgens NEN 1010. In de VS gelden ANSI Z223.1/[NFPA 54](https://www.nfpa.org/codes-and-standards/nfpa-54-standard-development/54) voor gas en [NFPA 70](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70) voor elektra[^s8][^s9][^s10], met verwarmers die een Intertek-, UL- of CSA-markering dragen[^s8]. [[VERIFY: CE-markering en Europese keuringen van de gasverwarmers — productteam]] Een erkend gasinstallateur dimensioneert de gasleiding en plaatst de afsluiter; vraag bij je gemeente na of een vergunning nodig is.
 
 ## Veelgestelde vragen
 

@@ -15,7 +15,7 @@ meta_description: "Ten sourced 2026 trends for restaurant, bar and hotel terrace
 cta: {label: "Get your ROI assessment", asset: A21}
 hero: l-016-131
 images: [l-013-111, p-003-006, g-operator, p-007-030, p-002-001, p-014-066, t-006-016, p-010-044, t-003-005, l-013-107]
-owner_review: Blake Petty
+owner_review: Hospitality sales
 status: draft
 gated: true
 related: [COM-AW-01, COM-CO-01, COM-IN-01]
@@ -268,12 +268,12 @@ Outdoor seats are no longer a summer bonus. In 2026 they are part of how a resta
 > New buildings in New York City may not burn any fuel that emits **25 kg or more of CO2 per million Btu**; the law applies to new construction only, phased in from low-rise buildings, with exceptions that include commercial kitchens.[^s10]
 > *Source: NYC Department of Buildings, Local Law 154 of 2021.*
 
-> New York State's All-Electric Buildings Act follows for new buildings statewide, starting with buildings of seven stories or fewer.[^s11] [[VERIFY: current effective dates and status of the NY State All-Electric Buildings Act after litigation, from the statute or dos.ny.gov — Blake Petty]]
+> New York State's All-Electric Buildings Act follows for new buildings statewide, starting with buildings of seven stories or fewer.[^s11] [[VERIFY: current effective dates and status of the NY State All-Electric Buildings Act after litigation, from the statute or dos.ny.gov — Hospitality sales]]
 
 **What it means for an operator**
 - New hotels, mixed-use and multifamily projects are being designed without gas.
 - A kitchen exception does not cover the terrace by default.
-- Whether a law reaches outdoor heaters is a local question; ask before you specify. [[VERIFY: whether LL154 applies to outdoor gas patio heaters on new buildings — Blake Petty]]
+- Whether a law reaches outdoor heaters is a local question; ask before you specify. [[VERIFY: whether LL154 applies to outdoor gas patio heaters on new buildings — Hospitality sales]]
 
 **Bromic insight.** Specifying electric outdoor heat at design stage keeps a terrace consistent with an all-electric building, with no gas line to the roof.
 
@@ -374,4 +374,4 @@ Find out what your empty seats are worth: get your ROI assessment.
   - `p-` images show the 2021 range: use only as generic commercial scenes, never captioned with a product name.
 - **Page 13:** key takeaways and the code disclaimer, set in full.
 - **Page 14:** sources (footnotes s1–s15) and one CTA: "Get your ROI assessment" linking to A21.
-- **Before layout:** resolve both [[VERIFY]] items in trend 07; Blake Petty signs off; case-study project lines are summaries of bromic.com pages and should be checked against the live pages.
+- **Before layout:** resolve both [[VERIFY]] items in trend 07; Hospitality sales signs off; case-study project lines are summaries of bromic.com pages and should be checked against the live pages.

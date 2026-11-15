@@ -15,8 +15,8 @@ meta_description: "Bromic Eclipse verwarmt ongeveer 11 m² en verlicht het met e
 cta: {label: "Bereken je ruimte", asset: A03}
 hero: w-bromic-eclipse-pendant-light
 images: [w-dsc01890-hdr-bearbeitet, w-eclispe-freestanding]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -84,7 +84,7 @@ Twee armaturen worden er één, en dat telt op een klein terras of een druk plaf
 | Regelaar | Affinity Eclipse Controller of Eclipse Dimmer Controller, apart verkocht | Eclipse Dimmer Controller en afstandsbediening meegeleverd |
 | Geschikt voor | Overdekte terrassen, pergola's, poolhouses | Open gazons, gehuurde of wisselende indelingen, zaken die tafels verschuiven |
 
-Bronnen: productpagina's[^s2][^s3] en Lookbook 2026.[^s1] De pagina van Eclipse Electric noemt 2900 W in de specificatietabel en 3000 W in de veelgestelde vragen; wij gebruiken 2900 W. [[VERIFY: vermogen Eclipse 2900 W (specificatietabel) of 3000 W (FAQ) — Mike Clifford]]
+Bronnen: productpagina's[^s2][^s3] en Lookbook 2026.[^s1] De pagina van Eclipse Electric noemt 2900 W in de specificatietabel en 3000 W in de veelgestelde vragen; wij gebruiken 2900 W. [[VERIFY: vermogen Eclipse 2900 W (specificatietabel) of 3000 W (FAQ) — productteam]]
 
 ## Hoe wordt Eclipse Electric gemonteerd?
 
@@ -96,7 +96,7 @@ Aan een paal vanaf het plafond of een wand, minstens 2,44 m boven de vloer.[^s2]
 - [gebogen paal](https://www.bromic.com/product/eclipse-curved-pole/)
 - [paal voor wandmontage](https://www.bromic.com/product/eclipse-wall-mount-pole/)
 
-De versie van deze blog uit 2023 telde "zeven" mogelijkheden; de collectiepagina telt het vrijstaande model daar als een van mee. De palen opsommen is duidelijker dan een getal. [[VERIFY: aantal montagemogelijkheden van Eclipse (zes of zeven) — Mike Clifford]]
+De versie van deze blog uit 2023 telde "zeven" mogelijkheden; de collectiepagina telt het vrijstaande model daar als een van mee. De palen opsommen is duidelijker dan een getal. [[VERIFY: aantal montagemogelijkheden van Eclipse (zes of zeven) — productteam]]
 
 ![Lounge in een tuinpaviljoen tijdens het blauwe uur met een ronde Eclipse-verwarmer aan het plafond](img:w-dsc01890-hdr-bearbeitet)
 
@@ -110,7 +110,7 @@ Elke Eclipse heeft een regelaar nodig; die hoort bij de installatie, het is geen
 - **Eclipse Dimmer Controller met afstandsbediening.** Warmtestanden en dimmen van het licht met een handafstandsbediening. Wordt meegeleverd met Eclipse Freestanding.[^s3]
 - **Handmatige wandschakelaar.** Eenvoudig aan en uit aan de wand, voor Eclipse Electric.[^s2]
 
-Wifi- en appfuncties vragen om compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht.[^s4] De blog uit 2023 noemde een Eclipse Master Remote; het Affinity-assortiment doet dat werk nu. [[VERIFY: of de meegeleverde regelaar van Eclipse Freestanding appbediening geeft zonder Affinity-regelaar — Mike Clifford]] Voor het instellen, zie onze [gids over de bediening](item:RES-BY-01) en het [overzicht van de bediening](https://www.bromic.com/controls/). Laat Eclipse Electric aansluiten door een erkend installateur volgens NEN 1010.
+Wifi- en appfuncties vragen om compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht.[^s4] De blog uit 2023 noemde een Eclipse Master Remote; het Affinity-assortiment doet dat werk nu. [[VERIFY: of de meegeleverde regelaar van Eclipse Freestanding appbediening geeft zonder Affinity-regelaar — productteam]] Voor het instellen, zie onze [gids over de bediening](item:RES-BY-01) en het [overzicht van de bediening](https://www.bromic.com/controls/). Laat Eclipse Electric aansluiten door een erkend installateur volgens NEN 1010.
 
 ![Gebogen Eclipse Freestanding verwarmer boven een ronde tuinbank](img:w-eclispe-freestanding)
 

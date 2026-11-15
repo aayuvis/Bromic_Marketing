@@ -12,7 +12,7 @@ cta: {label: "Book a design consult", asset: A07}
 hero: w-23-03-12-bromic-heating-hyatt-dehradun-49
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
 images: ["w-23-03-12-bromic-heating-hyatt-dehradun-49"]
-owner_review: "Karl Tschauner"
+owner_review: "US field sales"
 status: draft
 source_kind: web-find
 origin: web-search

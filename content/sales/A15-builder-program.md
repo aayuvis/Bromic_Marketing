@@ -15,7 +15,7 @@ meta_description: "A Good–Better–Best outdoor heating package for home build
 cta: {label: "Book a design consult", asset: A07}
 hero: l-010-069
 images: [l-010-070, l-010-071, l-013-100]
-owner_review: Arvin Avaness
+owner_review: Trade sales
 status: draft
 gated: true
 related: [BLD-AW-01, BLD-CO-01, BLD-IN-01]
@@ -84,7 +84,7 @@ Pre-wired Bromic radiant heat in three ready packages, designed in at framing, n
 
 **2. Buyers ask for it.** 86% of recent and prospective buyers rate a patio essential or desirable, level with the laundry room as the most-wanted feature.[^s3]
 
-**3. Heat is the gap.** Only 23% of homeowners prioritise outdoor heating at the planning stage, yet 67% say heating extends how much they use their outdoor space.[^s4] [[VERIFY: survey base, sample size and fieldwork date for the Atomik Research figures — Megan Spies]] That gap is the upgrade.
+**3. Heat is the gap.** Only 23% of homeowners prioritise outdoor heating at the planning stage, yet 67% say heating extends how much they use their outdoor space.[^s4] [[VERIFY: survey base, sample size and fieldwork date for the Atomik Research figures — Marketing]] That gap is the upgrade.
 
 ### What the program gives you
 
@@ -95,19 +95,19 @@ Every item below is a proposal until confirmed. Nothing here is a price, margin 
 | Three ready packages | Good, Better, Best, each a complete system with heaters, controls and pre-wire scope | Draft (Part 2) |
 | Complimentary design service | Heater selection, placement and coverage drawings from your plans or photos[^s5] | Live |
 | Pre-wire and rough-in guide | One page your electrician can price from ([asset:A16](asset:A16)) | In development |
-| Builder pricing | Tiered trade pricing by volume | [[VERIFY: price tiers and qualifying volumes — Arvin Avaness / Peter Abraham]] |
-| Margin structure | Suggested option pricing for your sales sheet | [[VERIFY: margin guidance, if any — Arvin Avaness / Peter Abraham]] |
-| Supply and lead times | Stocking and delivery commitments | [[VERIFY: lead times by series and region — Arvin Avaness / Peter Abraham]] |
-| Model home support | Display units or demo programme | [[VERIFY: whether offered and on what terms — Arvin Avaness]] |
-| Sales training | Short session for design-centre staff | [[VERIFY: format and availability — Arvin Avaness]] |
+| Builder pricing | Tiered trade pricing by volume | [[VERIFY: price tiers and qualifying volumes — Trade sales / Sales operations]] |
+| Margin structure | Suggested option pricing for your sales sheet | [[VERIFY: margin guidance, if any — Trade sales / Sales operations]] |
+| Supply and lead times | Stocking and delivery commitments | [[VERIFY: lead times by series and region — Trade sales / Sales operations]] |
+| Model home support | Display units or demo programme | [[VERIFY: whether offered and on what terms — Trade sales]] |
+| Sales training | Short session for design-centre staff | [[VERIFY: format and availability — Trade sales]] |
 | Installer support | Technical line, 1-800-301-1293, Mon–Fri 9–4 PT[^s5] | Live |
-| Warranty | Manufacturer warranty per series | [[VERIFY: terms — Mike Clifford]] |
-| Co-marketing | Brochure inserts, imagery for your listings | [[VERIFY: what assets and usage rights — Megan Spies]] |
-| Program contact | Named regional contact | [[VERIFY: contact per region — Arvin Avaness]] |
+| Warranty | Manufacturer warranty per series | [[VERIFY: terms — Product team]] |
+| Co-marketing | Brochure inserts, imagery for your listings | [[VERIFY: what assets and usage rights — Marketing]] |
+| Program contact | Named regional contact | [[VERIFY: contact per region — Trade sales]] |
 
 ### Who it is for
 
-Production and semi-custom builders with an outdoor living package, custom builders who want a standard heating detail, and remodelers who add covered patios. [[VERIFY: eligibility criteria — Arvin Avaness]]
+Production and semi-custom builders with an outdoor living package, custom builders who want a standard heating detail, and remodelers who add covered patios. [[VERIFY: eligibility criteria — Trade sales]]
 
 ## Part 2: Good–Better–Best guide
 
@@ -125,11 +125,11 @@ Tiers are shown for one covered patio. Heater count depends on the patio's size,
 | Controls (required) | Affinity Smart-Heat On/Off controller + manual wall switch | Affinity Smart-Heat Dimmer controller + manual wall switch + Bromic Smart-Heat app (schedules, timers) | Affinity Dimmer controller (Platinum) + Affinity Eclipse controller + wall switches + app with zones; integration with Control4, Crestron or Lutron where the home has it (compatibility varies; may need extra integration hardware)[^s5] |
 | Zones | One | One or two | Two or more (dining, lounge) |
 | Pre-wire scope | Dedicated circuit(s), box at heater, box at switch | Dedicated circuits, recess framing and blocking, controller location, Wi-Fi coverage | As Better, plus pendant structure, extra zone circuits, integrator coordination |
-| Option price to buyer | [[VERIFY — Arvin Avaness / Peter Abraham]] | [[VERIFY — Arvin Avaness / Peter Abraham]] | [[VERIFY — Arvin Avaness / Peter Abraham]] |
-| Builder cost | [[VERIFY — Arvin Avaness / Peter Abraham]] | [[VERIFY — Arvin Avaness / Peter Abraham]] | [[VERIFY — Arvin Avaness / Peter Abraham]] |
-| Lead time | [[VERIFY — Arvin Avaness / Peter Abraham]] | [[VERIFY — Arvin Avaness / Peter Abraham]] | [[VERIFY — Arvin Avaness / Peter Abraham]] |
+| Option price to buyer | [[VERIFY — Trade sales / Sales operations]] | [[VERIFY — Trade sales / Sales operations]] | [[VERIFY — Trade sales / Sales operations]] |
+| Builder cost | [[VERIFY — Trade sales / Sales operations]] | [[VERIFY — Trade sales / Sales operations]] | [[VERIFY — Trade sales / Sales operations]] |
+| Lead time | [[VERIFY — Trade sales / Sales operations]] | [[VERIFY — Trade sales / Sales operations]] | [[VERIFY — Trade sales / Sales operations]] |
 
-[[VERIFY: Affinity controller compatibility with each Platinum wattage, and whether the On/Off controller supports the app — Mike Clifford]]
+[[VERIFY: Affinity controller compatibility with each Platinum wattage, and whether the On/Off controller supports the app — Product team]]
 
 ![Courtyard dining table with a black wall heater](img:l-010-070)
 
@@ -152,7 +152,7 @@ Recessed Platinum over the lounge, Eclipse pendants over the dining table for he
 ## How do you sell it?
 
 - **Show it lit.** A heated model-home patio at dusk does the selling.
-- **Price the pre-wire, even when buyers decline.** A rough-in at framing costs far less than opening a finished soffit later, and lets buyers add heat after closing. [[VERIFY: typical rough-in cost range from partner electricians — Arvin Avaness]]
+- **Price the pre-wire, even when buyers decline.** A rough-in at framing costs far less than opening a finished soffit later, and lets buyers add heat after closing. [[VERIFY: typical rough-in cost range from partner electricians — Trade sales]]
 - **Lead with the moment, then the tier.** "Dinner outside in October" sells better than a wattage.
 - **Keep controls in the price.** A heater without its controller is not a finished option.
 

@@ -15,8 +15,8 @@ meta_description: "Warum Büros Terrassen und Innenhöfe anlegen: US-Daten zu Be
 cta: {label: "Den Bericht Trends 2026 herunterladen", asset: A01}
 hero: w-boardwalk-edits-49
 images: [w-boardwalk-edits-27, w-lumen-west-la-rooftop-los-angeles-ca-6-edite]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -89,7 +89,7 @@ sources:
 lang: de
 translation_of: BLOG-49
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 Büros legen Terrassen, Innenhöfe und Dachterrassen an, weil sich die Gebäude füllen, für die sich der Weg lohnt. Der Büroleerstand in den USA lag im dritten Quartal 2026 bei 18,2 %, bei Spitzenobjekten aber bei 11,9 %, und dort sank er schneller[^s1]. Die Anwesenheit erreicht ihren Höhepunkt in der Wochenmitte, wenn die meisten da sind[^s2]. Außenflächen geben diesen Tagen einen Ort zum Treffen, Essen und Durchatmen, und Wärme hält sie morgens, abends und in den kühleren Monaten nutzbar.
 
@@ -106,7 +106,7 @@ Büros legen Terrassen, Innenhöfe und Dachterrassen an, weil sich die Gebäude 
 
 Zwei Erkenntnisse für ein Planungsteam, beide aus US-Daten. Die Nachfrage konzentriert sich auf die besten Gebäude[^s1]. Und Büros sind an wenigen Tagen fast voll und an den übrigen teilweise leer[^s2]; Gemeinschaftsflächen müssen also die Spitzentage auffangen. Ein beheizter Innenhof oder eine Terrasse schafft diese Kapazität, ohne Geschossfläche hinzuzufügen.
 
-[[VERIFY: Kastles Wochenwert ändert sich jede Woche; Wert und Woche vor der Veröffentlichung aktualisieren — Brian Kim]]
+[[VERIFY: Kastles Wochenwert ändert sich jede Woche; Wert und Woche vor der Veröffentlichung aktualisieren — Digitales Marketing]]
 
 ## Wie hat sich die Arbeitsplatzgestaltung verändert?
 
@@ -139,7 +139,7 @@ Der Innenhof dient heute für Besprechungen, Brainstorming, Einzelarbeit, Mahlze
 
 ![Überdachte Essterrasse an einem Arbeitsplatz mit Heizstrahlern an den Balken und Gehäusen der Steuergeräte an der Wand](img:w-boardwalk-edits-27)
 
-[[VERIFY: Anzahl der Heizstrahler, Leistungen und installierte Steuerung bei The Boardwalk — Mike Clifford]]
+[[VERIFY: Anzahl der Heizstrahler, Leistungen und installierte Steuerung bei The Boardwalk — Produktteam]]
 
 ## Wie sollte die Heizung in einem Büroprojekt spezifiziert werden?
 
@@ -147,7 +147,7 @@ Als Gebäudesystem, mit Zonen und Zeitplänen.
 
 - **Heizstrahler.** Platinum Smart-Heat Electric (2300, 3400 oder 4500 W, je ca. 6–13 m²) wird eingelassen, aufgesetzt oder an Stangen abgehängt[^s6] und läuft mit 208 V oder 220–240 V[^s9]; in Deutschland mit 230 V, 50 Hz.
 - **Steuerung.** Affinity Smart-Heat On/Off- oder Dimmer-Steuergeräte gibt es mit 1, 2 oder 5 Kanälen und bis zu 6 kW je Kanal[^s7], sodass jede Sitzgruppe ihre eigene Zone ist. Ergänzen Sie je Zone einen manuellen Wandschalter und die Bromic Smart-Heat App für Zeitpläne, die zu den Öffnungszeiten des Gebäudes passen. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind. Eine Anbindung an die Gebäudeleittechnik ist möglich; die Kompatibilität hängt vom System ab[^s6].
-- **Vorschriften.** In den USA werden Stromkreise für elektrische Heizstrahler nach NFPA 70, dem National Electrical Code, installiert[^s8]; in Deutschland gilt DIN VDE 0100. Klären Sie Stromkreise, Montagehöhen und Genehmigungen mit Ihrem örtlichen Bauamt und einem Elektrofachbetrieb. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Raffaele Marti]]
+- **Vorschriften.** In den USA werden Stromkreise für elektrische Heizstrahler nach NFPA 70, dem National Electrical Code, installiert[^s8]; in Deutschland gilt DIN VDE 0100. Klären Sie Stromkreise, Montagehöhen und Genehmigungen mit Ihrem örtlichen Bauamt und einem Elektrofachbetrieb. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Partner Deutschland]]
 
 Für einen Grundriss und Zeichnungen der Heizflächen nutzen Sie [Design Your Space](https://www.bromic.de/). Spezifikationsunterlagen finden Sie auf der Seite für [Architekten und Planer](https://www.bromic.de/).
 

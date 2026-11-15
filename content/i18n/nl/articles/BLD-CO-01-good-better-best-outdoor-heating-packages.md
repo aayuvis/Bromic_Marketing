@@ -18,7 +18,7 @@ meta_description: "Bied buitenverwarming aan in drie heldere niveaus: één zone
 cta: {label: "Vraag de Good-Better-Best-gids aan", asset: A15}
 hero: l-010-076
 images: [l-006-028, t-009-025]
-owner_review: Arvin Avaness
+owner_review: verkoop vakhandel
 status: draft
 gated: false
 related: [BLD-AW-01, BLD-IN-01, BLD-PP-01]
@@ -76,7 +76,7 @@ De producten hieronder zijn actuele Bromic-modellen. Het verwarmde oppervlak is 
 | Gegevens verwarmer | 2300, 3400 of 4500 W; elk ca. 6,0–13,3 m²[^s1] | Als Good; Eclipse ca. 11,2 m², 33/66/100% vermogen, dimbaar randlicht[^s1] | Als Good; zwart of wit; Classic of Marine[^s1] |
 | Bediening (inbegrepen) | Affinity Smart-Heat On/Off-regelaar + handmatige wandschakelaar | Affinity Smart-Heat Dimmer-regelaar per zone (Eclipse-regelaar voor Eclipse) + wandschakelaar | Affinity Smart-Heat-regelaars per zone + wandschakelaar + Bromic Smart-Heat-app; integratie met Alexa, Google Assistant, Control4, Crestron of Lutron |
 | Elektra | Eén eigen groep per verwarmer | Eén eigen groep per verwarmer, gegroepeerd per zone | Als Better, plus timmerwerk voor inbouwsets en een laagspanningsroute naar de plek van de AV-/domotica-installatie |
-| Prijs | [[VERIFY: prijs per niveau — Arvin Avaness]] | [[VERIFY: prijs per niveau — Arvin Avaness]] | [[VERIFY: prijs per niveau — Arvin Avaness]] |
+| Prijs | [[VERIFY: prijs per niveau — verkoop vakhandel]] | [[VERIFY: prijs per niveau — verkoop vakhandel]] | [[VERIFY: prijs per niveau — verkoop vakhandel]] |
 
 App, schema's en spraakbediening in Best vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht; integratie met het smart home verschilt per systeem en kan extra hardware of configuratie vragen[^s1]. Zet dit op de meerwerklijst, zodat niemand app-bediening verwacht bij het Good-niveau.
 
@@ -94,7 +94,7 @@ Ontwerp de voorbekabeling voor Best en verkoop elk niveau. In de praktijk:
 - Leg een eigen groep aan naar elke positie, door de installateur bepaald aan de hand van het typeplaatje en volgens NEN 1010.
 - Plaats een doos op de plek van de regelaar, meestal binnen bij de terrasdeur.
 - Laat een route vrij naar de plek van de AV- of domotica-installatie voor het geval Best verkocht wordt.
-- Timmer voor inbouwsets, waarmee Platinum- en Tungsten Electric-verwarmers vlak in de plafondruimte worden gemonteerd[^s4], waar het overstek dat toelaat [[VERIFY: timmermaten voor inbouwsets per model — Mike Clifford]].
+- Timmer voor inbouwsets, waarmee Platinum- en Tungsten Electric-verwarmers vlak in de plafondruimte worden gemonteerd[^s4], waar het overstek dat toelaat [[VERIFY: timmermaten voor inbouwsets per model — productteam]].
 
 Wordt Good verkocht, dan worden ongebruikte posities afgedopt en gelabeld, en kan de koper later een niveau omhoog zonder afgewerkt werk open te maken. De [checklist voor voorbekabeling](item:BLD-IN-01) geeft de details.
 

@@ -14,7 +14,7 @@ ai_prompt: "Is electric or propane patio heating cheaper for a restaurant over f
 meta_description: "Compare five-year costs of electric, natural gas and propane patio heaters for a restaurant: purchase, install, fuel and cylinder handling."
 cta: {label: "Get your ROI assessment", asset: A21}
 hero: l-013-111
-owner_review: Blake Petty + Brian Kim
+owner_review: Hospitality sales + Digital marketing
 status: draft
 gated: true
 related: [COM-CO-01, COM-CO-KB1, COM-IN-01]

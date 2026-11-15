@@ -18,7 +18,7 @@ meta_description: "Korte vs middellange vs lange golf infraroodverwarmers voor b
 cta: {label: "Download de Planning Guide (pro-editie)", asset: A02}
 hero: l-010-071
 images: [l-013-111, l-004-012]
-owner_review: Mike Clifford
+owner_review: productteam
 status: draft
 gated: false
 related: [ARC-IN-01, ARC-CO-KB1, ARC-AW-01]
@@ -81,7 +81,7 @@ Bron: overzicht van golflengtes in de Bromic Planning Guide v1.2[^s1]. De rij "i
 
 Het convectieaandeel telt buiten mee omdat warme lucht opstijgt en wegdrijft. Binnen blijft die lucht in de ruimte; buiten gaat ze verloren. Daarom is de Planning Guide er stellig over: buitenwarmte is niet met een thermostaat te regelen, en geforceerde lucht werkt niet in de open lucht[^s2].
 
-[[VERIFY: indeling naar golflengte (kort / middellang / lang, type element) voor elk huidig Bromic-model — Mike Clifford]]
+[[VERIFY: indeling naar golflengte (kort / middellang / lang, type element) voor elk huidig Bromic-model — productteam]]
 
 ## Waarom werkt stralingswarmte in de wind en geforceerde lucht niet?
 
@@ -114,7 +114,7 @@ De intensiteit neemt af met de afstand. Voor een bron die klein is ten opzichte 
 
 Twee gevolgen. Hang een verwarmer hoger en zijn bereik wordt breder terwijl de intensiteit op hoofdhoogte daalt, dus een hoog plafond kan meer verwarmers vragen, of een ophangstang om de toestellen lager te brengen. Hang hem lager en u stuit op de minimale hoogtes van Bromic: wandmontage minstens 1,8 m boven de vloer en plafondmontage minstens 2,4 m, afhankelijk van het vermogen[^s2]. De waarden voor het verwarmde oppervlak in het Lookbook gaan uit van een gangbare installatie; Bromic merkt op dat het verwarmde oppervlak afhangt van montagehoogte, omgeving en installatieomstandigheden[^s3].
 
-[[VERIFY: aanbevolen bereik van montagehoogtes per model en het verwarmde oppervlak bij elke hoogte — Mike Clifford]]
+[[VERIFY: aanbevolen bereik van montagehoogtes per model en het verwarmde oppervlak bij elke hoogte — productteam]]
 
 ## Welke Bromic-verwarmers passen bij welke situatie?
 
@@ -123,7 +123,7 @@ Twee gevolgen. Hang een verwarmer hoger en zijn bereik wordt breder terwijl de i
 | Platinum Smart-Heat Electric, 2300/3400/4500W | 6–13 m² | Inbouw, plafond, wand | Affinity On/Off of Dimmer, wandschakelaar, Smart-Heat app |
 | Tungsten Smart-Heat Electric, Select en Coastal (binnenkort) | 6–13 m² | Inbouw (lage vrije hoogte), plafond, wand, enkele paal | Affinity On/Off of Dimmer, wandschakelaar, Smart-Heat app |
 | Eclipse Smart-Heat Electric | 11 m² | Enkele, dubbele of gebogen paal | Eclipse-regelaar, wandschakelaar, Smart-Heat app |
-| Tungsten Smart-Heat Freestanding Gas | 20 m² | Vrijstaand | [[VERIFY: bedieningsopties voor Tungsten Freestanding Gas — Mike Clifford]] |
+| Tungsten Smart-Heat Freestanding Gas | 20 m² | Vrijstaand | [[VERIFY: bedieningsopties voor Tungsten Freestanding Gas — productteam]] |
 
 Bron: Lookbook 2026[^s3]. Wifi- en app-functies vragen om compatibele Affinity Smart-Heat Controls, apart verkrijgbaar.
 

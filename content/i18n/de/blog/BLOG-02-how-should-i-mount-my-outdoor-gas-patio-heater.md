@@ -15,8 +15,8 @@ meta_description: "Einen Bromic Gas-Heizstrahler in mindestens 2,44 m Höhe mont
 cta: {label: "Die Reihe der Installationsleitfäden anfordern", asset: A17}
 hero: w-bromic-centrico-photos-8
 images: [w-img-1450]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -96,7 +96,7 @@ sources:
 lang: de
 translation_of: BLOG-02
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 
 Montieren Sie einen Bromic Gasheizstrahler an der Decke, mit seiner Halterung oder an einer Abhängestange, oder an der Wand mit der mitgelieferten Wandhalterung. In beiden Fällen sitzt der Heizstrahler mindestens 2,44 m über dem Boden, mit mindestens 914 mm (ca. 0,9 m) Freiraum darüber (356 mm mit Hitzeschild) und 914 mm Abstand zu brennbaren Materialien[^s2][^s3]. Jeder Heizstrahler braucht außerdem einen Stromanschluss, ein Affinity Smart-Heat On/Off-Steuergerät und einen Wandschalter.
@@ -118,7 +118,7 @@ Der ältere Beitrag sagte, die Deckenmontage funktioniere mit „Decken jeder H�
 
 ## Wie wähle ich eine Abhängestange?
 
-Gas-Abhängestangen gibt es in sechs Längen: 246, 346, 446, 646, 846 und 1.046 mm[^s5] [[VERIFY: Stangenlängen und die Höhe von Heizstrahler und Halterung (422 mm) mit dem Datenblatt 2026 abgleichen — Mike Clifford]]. Zur Auswahl ziehen Sie von der Deckenhöhe die gewünschte Höhe des Heizstrahlers (2,44–2,74 m) und die 422 mm für Heizstrahler und Halterung ab[^s5]; die nächstkürzere Stange ist Ihre Länge. Die Stange muss senkrecht hängen; ihr Verstellpunkt ist nur für geneigte Decken gedacht[^s5].
+Gas-Abhängestangen gibt es in sechs Längen: 246, 346, 446, 646, 846 und 1.046 mm[^s5] [[VERIFY: Stangenlängen und die Höhe von Heizstrahler und Halterung (422 mm) mit dem Datenblatt 2026 abgleichen — Produktteam]]. Zur Auswahl ziehen Sie von der Deckenhöhe die gewünschte Höhe des Heizstrahlers (2,44–2,74 m) und die 422 mm für Heizstrahler und Halterung ab[^s5]; die nächstkürzere Stange ist Ihre Länge. Die Stange muss senkrecht hängen; ihr Verstellpunkt ist nur für geneigte Decken gedacht[^s5].
 
 ## Welche Abstände braucht ein Gasheizstrahler?
 
@@ -128,7 +128,7 @@ Gas-Abhängestangen gibt es in sechs Längen: 246, 346, 446, 646, 846 und 1.046 
 | Über dem Heizstrahler (Decke, Untersicht, Balken) | Mindestens 914 mm | Mindestens 356 mm |
 | Zu brennbaren Materialien | Mindestens 914 mm | Mindestens 914 mm |
 
-Quellen: Beitrag zur Wandmontage und Seiten zu den Hitzeschilden[^s1][^s2][^s5]. Zu den brennbaren Materialien zählen Stoffe, Kunststoffe und pulverbeschichtete Oberflächen[^s1]. Die Hitzeschilde für [Platinum Gas und Tungsten Gas](https://www.bromic.de/) bestehen aus zweilagigem Edelstahl[^s5]. Bromic empfiehlt einen Hitzeschild, wenn der Raum nach oben knapp ist oder der Heizstrahler ungeschützt hängt: Die Produktseiten setzen diese Grenze bei 1.100 mm für Platinum Gas und bei 1.067 mm für Tungsten Gas[^s3][^s4] [[VERIFY: eine einheitliche Grenze für den Hitzeschild, und ob 914 mm das Minimum ohne Hitzeschild sind — Mike Clifford]]. Die 356 mm entsprechen (gerundet) den 35 cm aus dem Beitrag zu überdachten Terrassen; es ist derselbe Abstand.
+Quellen: Beitrag zur Wandmontage und Seiten zu den Hitzeschilden[^s1][^s2][^s5]. Zu den brennbaren Materialien zählen Stoffe, Kunststoffe und pulverbeschichtete Oberflächen[^s1]. Die Hitzeschilde für [Platinum Gas und Tungsten Gas](https://www.bromic.de/) bestehen aus zweilagigem Edelstahl[^s5]. Bromic empfiehlt einen Hitzeschild, wenn der Raum nach oben knapp ist oder der Heizstrahler ungeschützt hängt: Die Produktseiten setzen diese Grenze bei 1.100 mm für Platinum Gas und bei 1.067 mm für Tungsten Gas[^s3][^s4] [[VERIFY: eine einheitliche Grenze für den Hitzeschild, und ob 914 mm das Minimum ohne Hitzeschild sind — Produktteam]]. Die 356 mm entsprechen (gerundet) den 35 cm aus dem Beitrag zu überdachten Terrassen; es ist derselbe Abstand.
 
 ## Wie viel wiegt jeder Heizstrahler?
 
@@ -136,14 +136,14 @@ Quellen: Beitrag zur Wandmontage und Seiten zu den Hitzeschilden[^s1][^s2][^s5].
 |---|---|---|---|
 | Platinum Gas, kleineres Modell | ca. 6,9 kW | ca. 15 m² | 15 kg |
 | Platinum Gas, größeres Modell | ca. 11,7 kW | ca. 20 m² | 20 kg |
-| Tungsten Gas, kleineres Modell | [[VERIFY: Leistung wird erst nach Bestätigung veröffentlicht — Mike Clifford]] | ca. 15 m² | 15 kg |
-| Tungsten Gas, größeres Modell | [[VERIFY: Leistung wird erst nach Bestätigung veröffentlicht — Mike Clifford]] | ca. 20 m² | 20 kg |
+| Tungsten Gas, kleineres Modell | [[VERIFY: Leistung wird erst nach Bestätigung veröffentlicht — Produktteam]] | ca. 15 m² | 15 kg |
+| Tungsten Gas, größeres Modell | [[VERIFY: Leistung wird erst nach Bestätigung veröffentlicht — Produktteam]] | ca. 20 m² | 20 kg |
 
 Quellen: Produktseiten[^s3][^s4]. Befestigen Sie Halterungen und Stangen an einem Tragwerk, das für den Heizstrahler ausgelegt ist, nicht an der Verkleidung. Tungsten Gas hat einen Schwenkarm mit ±25° zum Ausrichten[^s4].
 
 ## Welche Steuerung und Verkabelung braucht ein Gasheizstrahler?
 
-Auch Gasheizstrahler brauchen Strom: Die US-Produktseiten nennen je Gerät einen Anschluss mit 110 V und 2 A für Zündung und Steuerung[^s3][^s4] [[VERIFY: Versorgungsspannung und Stromaufnahme der Gasmodelle für 230 V in Deutschland — Mike Clifford]]. Verlegen Sie diesen Stromkreis zusammen mit der Gasleitung.
+Auch Gasheizstrahler brauchen Strom: Die US-Produktseiten nennen je Gerät einen Anschluss mit 110 V und 2 A für Zündung und Steuerung[^s3][^s4] [[VERIFY: Versorgungsspannung und Stromaufnahme der Gasmodelle für 230 V in Deutschland — Produktteam]]. Verlegen Sie diesen Stromkreis zusammen mit der Gasleitung.
 
 - **Affinity Smart-Heat On/Off-Steuergerät**: 1, 2 oder 5 Kanäle, bis zu 10 Gasheizstrahler je Kanal[^s6]. Gasheizstrahler kennen nur Ein und Aus; sie lassen sich nicht dimmen[^s3].
 - **Manueller Wandschalter**: 20 A, 120–277 V (US-Ausführung), als Innen- oder Außenset[^s6].
@@ -154,7 +154,7 @@ Auch Gasheizstrahler brauchen Strom: Die US-Produktseiten nennen je Gerät einen
 
 ## Welche Vorschriften gelten?
 
-In Deutschland werden Gasheizstrahler nach DVGW-TRGI (Erdgas) bzw. TRF (Flüssiggas) installiert, die Stromversorgung nach DIN VDE 0100. Zum Vergleich: In den USA gelten ANSI Z223.1/[NFPA 54](https://www.nfpa.org/codes-and-standards/nfpa-54-standard-development/54) für Gas und [NFPA 70](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70) für die Elektroinstallation[^s8][^s9][^s10], und die Geräte tragen dort ein Intertek-, UL- oder CSA-Zeichen[^s8]. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Freien und welche Gerätekennzeichnung für Deutschland zu nennen ist — Raffaele Marti]] Ein Gasinstallateur dimensioniert die Gasleitung und setzt die Absperreinrichtung; klären Sie Genehmigungen mit dem örtlichen Bauamt.
+In Deutschland werden Gasheizstrahler nach DVGW-TRGI (Erdgas) bzw. TRF (Flüssiggas) installiert, die Stromversorgung nach DIN VDE 0100. Zum Vergleich: In den USA gelten ANSI Z223.1/[NFPA 54](https://www.nfpa.org/codes-and-standards/nfpa-54-standard-development/54) für Gas und [NFPA 70](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70) für die Elektroinstallation[^s8][^s9][^s10], und die Geräte tragen dort ein Intertek-, UL- oder CSA-Zeichen[^s8]. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Freien und welche Gerätekennzeichnung für Deutschland zu nennen ist — Partner Deutschland]] Ein Gasinstallateur dimensioniert die Gasleitung und setzt die Absperreinrichtung; klären Sie Genehmigungen mit dem örtlichen Bauamt.
 
 ## Häufige Fragen
 

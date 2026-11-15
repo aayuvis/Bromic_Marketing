@@ -13,7 +13,7 @@ ai_prompt: "Hoeveel verwarmers per groep?"
 meta_description: "Bij 230 V trekt een verwarmer van 2300 W 10 A, 3400 W 14,8 A en 4500 W 19,6 A. De installateur dimensioneert de groep volgens NEN 1010; één verwarmer per groep is het eenvoudigst."
 cta: {label: "Download de gids voor voorbekabeling", asset: A16}
 hero: l-010-070
-owner_review: Arvin Avaness
+owner_review: verkoop vakhandel
 status: draft
 gated: false
 related: [BLD-IN-01, BLD-IN-KB1, BLD-PP-01]
@@ -59,17 +59,17 @@ Stroom = vermogen ÷ 230 V.
 | 3400 W | 14,8 A | 6800 W, 29,6 A |
 | 4500 W | 19,6 A | 9000 W, 39,1 A |
 
-Welke installatieautomaat en kabeldoorsnede daarbij horen, bepaalt de installateur volgens NEN 1010, met de lengte van de leiding, de manier van aanleggen en de spanningsval erbij. Neem geen Amerikaanse automaatwaarden (15, 20 of 30 A bij 240 V) over. [[VERIFY: stroom per model bij 230 V volgens de Europese specificaties — Mike Clifford]]
+Welke installatieautomaat en kabeldoorsnede daarbij horen, bepaalt de installateur volgens NEN 1010, met de lengte van de leiding, de manier van aanleggen en de spanningsval erbij. Neem geen Amerikaanse automaatwaarden (15, 20 of 30 A bij 240 V) over. [[VERIFY: stroom per model bij 230 V volgens de Europese specificaties — productteam]]
 
 ## Is er een grens aan gedeelde groepen voor verwarmers?
 
-In de VS lezen vakmensen artikel 424.4(A) van de NEC zo dat een eindgroep die twee of meer vaste verwarmingstoestellen voedt, beperkt is tot 30 A [[VERIFY: tekst van 424.4(A) in de toegepaste NEC-editie controleren en of buitenstralingsverwarmers onder artikel 424 of 422 vallen — erkend installateur / Mike Clifford]][^s3]. Voor Nederland bepaalt NEN 1010 wat mag; plan geen zware gedeelde groep zonder dat met de installateur te controleren.
+In de VS lezen vakmensen artikel 424.4(A) van de NEC zo dat een eindgroep die twee of meer vaste verwarmingstoestellen voedt, beperkt is tot 30 A [[VERIFY: tekst van 424.4(A) in de toegepaste NEC-editie controleren en of buitenstralingsverwarmers onder artikel 424 of 422 vallen — erkend installateur / productteam]][^s3]. Voor Nederland bepaalt NEN 1010 wat mag; plan geen zware gedeelde groep zonder dat met de installateur te controleren.
 
 ## Waarom is één verwarmer per groep meestal beter?
 
 - **Zones.** Elke verwarmer, of elke zone, krijgt een eigen Affinity Smart-Heat On/Off- of Dimmer-regelaar en wandschakelaar.
 - **Storingen zoeken.** Een uitval treft één verwarmer, niet het hele terras.
-- **Belasting van de regelaar.** Elke regelaar heeft een maximale belasting [[VERIFY: belastbaarheid van de Affinity-regelaar bij 230 V — Mike Clifford]].
+- **Belasting van de regelaar.** Elke regelaar heeft een maximale belasting [[VERIFY: belastbaarheid van de Affinity-regelaar bij 230 V — productteam]].
 - **Uitbreiden.** Een koper die een stap hoger gaat, voegt een verwarmer toe zonder een gedeelde leiding opnieuw te bekabelen.
 
 App-, schema- en spraakbediening vragen om compatibele Affinity Smart-Heat Controls, die apart worden verkocht[^s1].

@@ -23,8 +23,8 @@ moves heating earlier — into the drawing, the pre-wire, the first budget.
 4. **Every heater recommendation includes its controls** (Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, wall switch, app).
    Wi-Fi/app features need compatible Affinity controls, sold separately — say so. Controls are never "optional".
 5. **One CTA per asset**, mapped to the next-stage asset.
-6. **Competitors** (Infratech, Heatscope, Heatstrip): factual, sourced, `needs_approval: Shaughn Ritchie`. No disparagement.
-7. **Tungsten Coastal / Select are "Coming soon"** until Mike Clifford confirms launch.
+6. **Competitors** (Infratech, Heatscope, Heatstrip): factual, sourced, `needs_approval: Specification and compliance`. No disparagement.
+7. **Tungsten Coastal / Select are "Coming soon"** until the Product team confirms launch.
 8. **Code/permit content** carries the local-authority + licensed electrician/gas fitter disclaimer and links a primary source.
 9. Keyword volume tiers are directional, never in copy. Do not reproduce third-party text — paraphrase and cite.
 10. Nothing is published from here. Output is review-ready drafts; publishing (WordPress, 454 Creative) follows owner sign-off.
@@ -46,11 +46,18 @@ Every tool and every article that does arithmetic follows [templates/calculation
 price. A worked example in an article must match what the tool shows for the same inputs (the tools' tests check the articles'
 numbers). Tools ask only what moves the answer; everything else is a stated default in the full report.
 
-## Voice and look
+## Voice and look (owner, 15 Nov 2026: "learn from Bromic's way of writing"; nothing in the Hub may read or look like Claude)
 
-Direct, expert, calm. No hype, no exclamation marks, no emoji. Sentence case; UPPERCASE only for small labels. People and moments
-first, then the numbers. Phrases in use: "Extend the Moment", "Heat you can feel, not see", "Designed from the start, not added later."
-Flame `#EF4123` is the only accent on black, white, warm paper and steel. Georgia headings, Helvetica body.
+[templates/bromic-voice.md](templates/bromic-voice.md) is binding. Bromic's own lines set the tone ("Extend The Moment", "Durability
+meets power.", "You create beautiful spaces. We know how to heat them."): short display lines with every word capitalised, "you" and
+"we" in the body, en dashes not long dashes, no exclamation marks, no "not X, but Y" flourishes, no explaining what a page will do.
+Type is the Lookbook 2026's: **Didot** headlines (GFS Didot bundled in `app/src/fonts/`), **Helvetica Neue Light** body, white
+pages, ink and steel, flame `#EF4123` on small labels and rules only. Never Georgia, never an ivory page. The Hub, the tools and the PDFs
+share this system (`app/src/styles.css`, `tools/_shared/brand.css`, `app/scripts/pdf.mjs`). No screen, PDF, button or code comment
+shown to a user says "Claude": feedback and edits go "to the content team".
+**No people's names in the Hub or what it generates** (owner, 15 Nov 2026): owners, reviewers and `[[VERIFY: … — team]]` notes
+name a team from `data/team-roles.json` (`python3 scripts/roles.py` replaces names). Public spokespeople quoted in Bromic's own
+published posts keep their attribution; homeowners are never named.
 
 ## Images
 
@@ -73,7 +80,7 @@ bromic.co.uk, bromic.nl, bromic.be and bromic.de load, but carry translated copi
 Neumanns Restaurant, Hamburg (bromic.de). bromic.at, bromic.ch and bromicheating.co.uk redirect to bromic.com. Case studies:
 `python3 scripts/build_case_studies.py` → `data/case-studies.json` (tags in `case-study-taxonomy.json`, deck collections, whitespace targets).
 Figures in the inventory are leads to check on the live page, never sources. Product-page specs and list prices live in
-`data/product-facts.json` under `site` per product, `verified: false` until Mike Clifford signs off.
+`data/product-facts.json` under `site` per product, `verified: false` until the Product team signs off.
 
 Images: `python3 scripts/bromic_site_images.py fetch | sheets | ingest` → `images/_raw/bromic-com/` (gitignored) → contact sheets
 → the library as `w-` ids with `source_url` and `page_url`. Every image is looked at before ingest; rights stay `[[VERIFY]]`.
@@ -112,7 +119,7 @@ goes (`SHELVES` in app.js: website articles and answers, downloads that capture 
 studies, blog rewrites, working documents); filters appear only once a shelf or search is chosen. Every row and every item page
 carries ONE next step in plain words (`nextStep()`: read and approve, answer N open facts and who, call the venue, send to 454
 Creative, live). **To do** (`#/todo`) shows the flow Draft → Facts answered → Approved → 454 Creative → Live, can be filtered to one
-person, groups open `[[VERIFY]]` facts by the person named after the dash (copyable as an email), and lists partial case studies.
+team, groups open `[[VERIFY]]` facts by the team named after the dash (copyable as an email), and lists partial case studies.
 **Approve** on an item page (only when no facts are open) writes `status: approved` through the editor (GitHub token) or opens an
 `[Approve]` issue, which `scripts/feedback.mjs` lists with feedback and edits. Internal documents (audits, outlines, templates) sit on
 the Working documents shelf, never among assets to share. Jargon stays out of the chrome (no MQL/SAL in labels).
@@ -137,7 +144,7 @@ records its offsets (`it.blocks`), so a save rewrites only what changed. Two way
 - **Save to GitHub**: commits straight to the content file on `claude/dreamy-euler-xxi5g7` with the reviewer's own fine-grained
   token (Contents: read and write, this repo only; kept in their browser). `.github/workflows/publish-hub.yml` then runs the tests and
   republishes the Hub. A rule-breaking edit fails the tests and is not published: fix it in the next session.
-- **Send to Claude**: opens an `[Edit] …` issue with a JSON patch (`file`, `edits[{block, old, new}]`, `hero`, `title`, `summary`).
+- **Send to the content team**: opens an `[Edit] …` issue with a JSON patch (`file`, `edits[{block, old, new}]`, `hero`, `title`, `summary`).
   `node scripts/feedback.mjs` lists these with the feedback; apply each, run the tests, commit with `Fixes #N`, deploy, close.
 Commits titled "Hub edit: …" come from reviewers: pull before working (`git pull origin claude/dreamy-euler-xxi5g7`).
 

@@ -12,7 +12,7 @@ cta: {label: "Book a design consult", asset: A07}
 hero: l-002-006
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
 images: ["l-002-006"]
-owner_review: "Karl Tschauner"
+owner_review: "US field sales"
 status: draft
 source_kind: web-find
 origin: web-search
@@ -40,7 +40,7 @@ sources:
 | Location | Scottsdale, Arizona, USA |
 | Segment | residential |
 | Products | high-end Tungsten heaters (in-ceiling), 3 |
-| Controls | [[VERIFY: controls and zones — Karl Tschauner]] |
+| Controls | [[VERIFY: controls and zones — US field sales]] |
 | Builder or developer | Bordeaux Builders |
 | Heated area or seats | large covered patio |
 | Mounting | in-ceiling |

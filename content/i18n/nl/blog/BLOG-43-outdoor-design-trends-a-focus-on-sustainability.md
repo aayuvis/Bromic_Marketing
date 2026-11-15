@@ -18,8 +18,8 @@ ai_prompt: "Hoe draagt het ontwerp van buitenruimte bij aan duurzame architectuu
 meta_description: "Thomas Ventura van Gensler over duurzaam buitenontwerp: vroege instemming van de opdrachtgever, daglicht en lucht, duurzame materialen, en warmte afgestemd op de ruimte."
 cta: {label: "Boek de AIA CE-cursus over buitenverwarming", asset: A14}
 hero: w-gensler-project-images-3
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -69,7 +69,7 @@ Buitenruimte is onderdeel van een duurzaam gebouw, geen decoratie eromheen. In d
 
 ## Wie is Thomas Ventura?
 
-Thomas Ventura is ontwerpleider bij [Gensler](https://www.gensler.com/) met meer dan dertig jaar ervaring in de branche, waarvan bijna tien jaar bij Gensler, met de nadruk op projecten met gemengde functies, meergezinswoningen en hospitality[^s1]. [[VERIFY: de huidige functietitel van Thomas Ventura (de afleveringspagina noemt Associate Design Director), te controleren bij Gensler — Megan Spies]] De aflevering verscheen op 10 mei 2024[^s2] en wordt gepresenteerd door Archispeak.
+Thomas Ventura is ontwerpleider bij [Gensler](https://www.gensler.com/) met meer dan dertig jaar ervaring in de branche, waarvan bijna tien jaar bij Gensler, met de nadruk op projecten met gemengde functies, meergezinswoningen en hospitality[^s1]. [[VERIFY: de huidige functietitel van Thomas Ventura (de afleveringspagina noemt Associate Design Director), te controleren bij Gensler — marketing]] De aflevering verscheen op 10 mei 2024[^s2] en wordt gepresenteerd door Archispeak.
 
 ## Duurzaamheid begint bij de opdrachtgever
 

@@ -12,7 +12,7 @@ cta: {label: "Book a design consult", asset: A07}
 hero: l-001-000
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
 images: ["l-001-000"]
-owner_review: "Karl Tschauner"
+owner_review: "US field sales"
 status: draft
 source_kind: web-find
 origin: web-search
@@ -39,8 +39,8 @@ sources:
 | Project | Four Seasons Hotel Chicago |
 | Location | Chicago, Illinois, USA |
 | Segment | hotel |
-| Products | Tungsten Electric [[VERIFY: model, wattage and quantity — Karl Tschauner]] |
-| Controls | [[VERIFY: controls and zones — Karl Tschauner]] |
+| Products | Tungsten Electric [[VERIFY: model, wattage and quantity — US field sales]] |
+| Controls | [[VERIFY: controls and zones — US field sales]] |
 
 ## What the sources say
 

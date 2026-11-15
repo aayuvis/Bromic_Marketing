@@ -14,8 +14,8 @@ ai_prompt: "Kann ich meinen Terrassenheizstrahler im Regen benutzen?"
 meta_description: "Heizstrahler im Freien halten Regen im Rahmen ihrer IP-Schutzart stand: IPX4 gegen Spritzwasser, IPX5 gegen Strahlwasser. Die Schutzart jedes Bromic-Geräts und wie Sie es schützen."
 cta: {label: "Fläche berechnen", asset: A03}
 hero: w-connecticut-privateresidence-tungstenelectri
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -24,7 +24,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLOG-18
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Kiwa (testing laboratory)
@@ -77,7 +77,7 @@ Der IP-Code ist in der internationalen Norm IEC 60529 festgelegt. Die erste Ziff
 | IPX5 | Geschützt gegen Strahlwasser[^s1] | Exponiertere Standorte, Küste und maritime Umgebung |
 | IP54 | Staubgeschützt und geschützt gegen Spritzwasser[^s1] | Im Freien montierte Steuergeräte |
 
-Die Sicherheitszertifizierung ist etwas anderes. Die elektrischen Bromic-Heizstrahler tragen Intertek-ETL/cETL-Listungen, die die elektrische Sicherheit für den nordamerikanischen Markt betreffen[^s3]. [[VERIFY: whether Intertek also tested the IP ratings, and the test house for each — Mike Clifford]] [[VERIFY: CE-Kennzeichnung und europäische Prüfnachweise je Modell — Mike Clifford]]
+Die Sicherheitszertifizierung ist etwas anderes. Die elektrischen Bromic-Heizstrahler tragen Intertek-ETL/cETL-Listungen, die die elektrische Sicherheit für den nordamerikanischen Markt betreffen[^s3]. [[VERIFY: whether Intertek also tested the IP ratings, and the test house for each — Produktteam]] [[VERIFY: CE-Kennzeichnung und europäische Prüfnachweise je Modell — Produktteam]]
 
 ## Welche Schutzart hat welcher Bromic-Heizstrahler?
 
@@ -85,13 +85,13 @@ Die Sicherheitszertifizierung ist etwas anderes. Die elektrischen Bromic-Heizstr
 |---|---|---|---|
 | Tungsten Smart-Heat Electric | IPX4[^s3] | Intertek ETL/cETL | Affinity On/Off- oder Dimmer-Steuergerät, manueller Wandschalter |
 | Platinum Smart-Heat Electric Marine | IPX5[^s3] | Edelstahl 316 in Marinequalität; Zulassung von Lloyd's Register für den maritimen Einsatz | Affinity On/Off- oder Dimmer-Steuergerät, manueller Wandschalter |
-| Platinum Smart-Heat Electric (Classic) | [[VERIFY: IP rating — Mike Clifford]] | Gehäuse aus Edelstahl 304 | Affinity On/Off- oder Dimmer-Steuergerät, manueller Wandschalter |
+| Platinum Smart-Heat Electric (Classic) | [[VERIFY: IP rating — Produktteam]] | Gehäuse aus Edelstahl 304 | Affinity On/Off- oder Dimmer-Steuergerät, manueller Wandschalter |
 | Cobalt Electric | IPX4[^s3] | | Affinity On/Off- oder Dimmer-Steuergerät, manueller Wandschalter |
-| Eclipse Smart-Heat Electric und Freestanding | [[VERIFY: IP rating — Mike Clifford]] | | Affinity Eclipse-Steuergerät oder Eclipse Dimmer, manueller Wandschalter |
+| Eclipse Smart-Heat Electric und Freestanding | [[VERIFY: IP rating — Produktteam]] | | Affinity Eclipse-Steuergerät oder Eclipse Dimmer, manueller Wandschalter |
 | Platinum Smart-Heat Gas | Nicht als Zahl veröffentlicht[^s3] | Hitzeschild empfohlen, wo exponiert | Affinity On/Off-Steuergerät, manueller Wandschalter |
 | Affinity On/Off-Steuergerät | IP54[^s3] | | |
 
-Der Live-Beitrag gab für jeden Bromic-Heizstrahler „bis IPX5“ an. Nach den aktuell veröffentlichten Werten trifft das nur auf das Marine-Modell zu, daher nennt diese Seite die Schutzart Modell für Modell. WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Controls, separat erhältlich[^s4]. [[VERIFY: product-page values read from bromic.com; confirm against 2026 cut sheets — Mike Clifford]]
+Der Live-Beitrag gab für jeden Bromic-Heizstrahler „bis IPX5“ an. Nach den aktuell veröffentlichten Werten trifft das nur auf das Marine-Modell zu, daher nennt diese Seite die Schutzart Modell für Modell. WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Controls, separat erhältlich[^s4]. [[VERIFY: product-page values read from bromic.com; confirm against 2026 cut sheets — Produktteam]]
 
 ## Wie schützen Sie einen Heizstrahler vor Regen?
 
@@ -99,7 +99,7 @@ Der Live-Beitrag gab für jeden Bromic-Heizstrahler „bis IPX5“ an. Nach den 
 
 **Die Schutzart auf die Belastung abstimmen.** Die Nähe zu Wasser ist einer der ersten Standortfaktoren, die der Bromic-Planungsleitfaden nennt[^s5]. An der Küste, am Poolrand oder auf einem Boot wählen Sie das Marine-Modell; mehr dazu im Beitrag über Heizstrahler für Küstenlagen auf [bromic.de](https://www.bromic.de/).
 
-**Fachgerecht anschließen lassen.** Elektrische Heizstrahler werden fest nach den geltenden Elektrovorschriften angeschlossen, in Deutschland nach DIN VDE 0100, Gasgeräte nach DVGW-TRGI bzw. TRF[^s5]. [[VERIFY: current VDE and DVGW rules for outdoor heaters — Raffaele Marti]] Beauftragen Sie einen Elektrofachbetrieb oder Gasinstallateur und klären Sie die Anforderungen mit Ihrem Bauamt. Fragen zur Verkabelung im Freien beantwortet [braucht ein elektrischer Heizstrahler im Außenbereich einen Fehlerstromschutzschalter](item:BLD-BY-KB1).
+**Fachgerecht anschließen lassen.** Elektrische Heizstrahler werden fest nach den geltenden Elektrovorschriften angeschlossen, in Deutschland nach DIN VDE 0100, Gasgeräte nach DVGW-TRGI bzw. TRF[^s5]. [[VERIFY: current VDE and DVGW rules for outdoor heaters — Partner Deutschland]] Beauftragen Sie einen Elektrofachbetrieb oder Gasinstallateur und klären Sie die Anforderungen mit Ihrem Bauamt. Fragen zur Verkabelung im Freien beantwortet [braucht ein elektrischer Heizstrahler im Außenbereich einen Fehlerstromschutzschalter](item:BLD-BY-KB1).
 
 **Pflegen.** Halten Sie ihn sauber und frei von Schmutz, prüfen Sie ihn nach Unwettern und folgen Sie der Anleitung zu Abdeckungen und Lagerung außerhalb der Saison, besonders bei freistehenden Geräten. Mehr im Beitrag zu Reinigung und Wartung von Heizstrahlern im Außenbereich.
 

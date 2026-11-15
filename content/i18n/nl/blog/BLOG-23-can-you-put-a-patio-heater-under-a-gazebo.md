@@ -14,8 +14,8 @@ ai_prompt: "Kan ik veilig een terrasverwarmer onder mijn paviljoen of overkappin
 meta_description: "Ja, met de juiste verwarmer en vrije afstanden. Elektrisch infrarood past bij de meeste paviljoens; gas vraagt open zijden. Hoogtes, gewichten, spanning en bediening per model."
 cta: {label: "Plan een ontwerpgesprek", asset: A07}
 hero: w-gazebo-bromic
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -104,7 +104,7 @@ Onder een gedeeltelijk dak noemt de Planning Guide van Bromic een bonus: de over
 
 1. **De constructie.** Kunnen de balken de verwarmer en de beugel dragen? Platinum Electric weegt 7,7–15 kg en Eclipse Electric 13,6 kg.[^s3][^s4] Is het frame licht of het dak van doek, dan is een vrijstaande verwarmer misschien de betere keuze.[^s7]
 2. **De hoogte.** De minimumhoogtes van Bromic zijn 1,83 m aan de wand en 2,44 m aan het plafond voor Tungsten en Platinum Electric.[^s2][^s3] Veel tuinpaviljoens zijn bij de balk lager dan 2,4 m: meet dus voordat je koopt.
-3. **Het dak erboven.** Houd de vrije afstand uit de handleiding aan tussen de verwarmer en hout, dakshingles of doek. [[VERIFY: vrije afstanden boven en opzij tot brandbare plafonds per model, uit de handleidingen — Mike Clifford]]
+3. **Het dak erboven.** Houd de vrije afstand uit de handleiding aan tussen de verwarmer en hout, dakshingles of doek. [[VERIFY: vrije afstanden boven en opzij tot brandbare plafonds per model, uit de handleidingen — productteam]]
 4. **Brandbare spullen eromheen.** Houd gordijnen, kussens, planten en lichtsnoeren minstens 0,9 m vrij, of verder als de handleiding dat zegt.[^s8]
 5. **De aansluiting en de bediening.** Bepaal waar de kabel of gasleiding en de regelaar komen voordat het paviljoen af is.
 
@@ -119,7 +119,7 @@ Onder een gedeeltelijk dak noemt de Planning Guide van Bromic een bonus: de over
 | Eclipse Smart-Heat Electric | 2900 W; ca. 11 m² | 208–240 V | 2,44 m | Affinity Eclipse Controller of Eclipse Dimmer Controller[^s4] |
 | Platinum Gas | 6,9 of 11,7 kW; ca. 15 of 20 m² | Aardgas of propaan | 2,44 m; hittescherm als er minder dan ca. 1.100 mm ruimte boven is | Affinity On/Off, of wandschakelaar[^s5] |
 | Eclipse Smart-Heat Freestanding | 2900 W; ca. 11 m² | 220–240 V | 2,0 m vrije hoogte | Eclipse Dimmer Controller en afstandsbediening meegeleverd[^s4] |
-| Tungsten Smart-Heat Freestanding | Ca. 20 m² | Propaan of aardgas | Alleen bij open zijden | Handbediening op het toestel [[VERIFY: Tungsten Freestanding control method — Mike Clifford]] |
+| Tungsten Smart-Heat Freestanding | Ca. 20 m² | Propaan of aardgas | Alleen bij open zijden | Handbediening op het toestel [[VERIFY: Tungsten Freestanding control method — productteam]] |
 
 [[VERIFY: welke van deze modellen en uitvoeringen (gas, propaan) in Nederland leverbaar zijn — Bromic Benelux distributor]]
 

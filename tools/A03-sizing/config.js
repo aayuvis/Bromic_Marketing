@@ -1,6 +1,6 @@
 // Generated from config.json by tools/build-config.mjs — edit config.json, not this file.
 export default {
-  "_readme": "Every assumption the A03 sizing calculator uses. An assumption is any object with a `value`: it must carry unit, source, verified and owner, and a [[VERIFY]] note while verified is false. Edit this file, then run `node tools/build-config.mjs` to regenerate config.js and re-inline it into index.html. Bromic product values mirror data/product-facts.json and stay verified:false until Mike Clifford signs off.",
+  "_readme": "Every assumption the A03 sizing calculator uses. An assumption is any object with a `value`: it must carry unit, source, verified and owner, and a [[VERIFY]] note while verified is false. Edit this file, then run `node tools/build-config.mjs` to regenerate config.js and re-inline it into index.html. Bromic product values mirror data/product-facts.json and stay verified:false until Product team signs off.",
   "tool": {
     "asset_id": "A03",
     "matrix_cell": "RES-CO",
@@ -25,24 +25,24 @@ export default {
       "unit": "ft",
       "source": "Tool guard rail, not a product fact",
       "verified": false,
-      "verify": "[[VERIFY: smallest space the tool should size — Brian Kim]]",
-      "owner": "Brian Kim"
+      "verify": "[[VERIFY: smallest space the tool should size — Digital marketing]]",
+      "owner": "Digital marketing"
     },
     "max_side_ft": {
       "value": 200,
       "unit": "ft",
       "source": "Tool guard rail, not a product fact",
       "verified": false,
-      "verify": "[[VERIFY: largest side the tool should accept — Brian Kim]]",
-      "owner": "Brian Kim"
+      "verify": "[[VERIFY: largest side the tool should accept — Digital marketing]]",
+      "owner": "Digital marketing"
     },
     "large_space_ft2": {
       "value": 1500,
       "unit": "ft²",
       "source": "Tool guard rail: above this the result tells the visitor to use the design service",
       "verified": false,
-      "verify": "[[VERIFY: area above which we route to the design team — Shaughn Ritchie]]",
-      "owner": "Shaughn Ritchie"
+      "verify": "[[VERIFY: area above which we route to the design team — Specification and compliance]]",
+      "owner": "Specification and compliance"
     }
   },
   "outdoor_rule": {
@@ -51,8 +51,8 @@ export default {
       "unit": "% of perimeter permanently open",
       "source": "Planning Guide v1.2 (2021) Step 01; data/product-facts.json principles.outdoor-definition",
       "verified": false,
-      "verify": "[[VERIFY: confirm the 30% open rule for 2026 — Mike Clifford]]",
-      "owner": "Mike Clifford"
+      "verify": "[[VERIFY: confirm the 30% open rule for 2026 — Product team]]",
+      "owner": "Product team"
     }
   },
   "enclosure": {
@@ -64,8 +64,8 @@ export default {
         "unit": "× nominal coverage",
         "source": "Assumption: no overhead cover, so no 'heat cloud' and more wind exposure (Planning Guide v1.2 Step 01, qualitative only)",
         "verified": false,
-        "verify": "[[VERIFY: coverage derate for fully open spaces — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: coverage derate for fully open spaces — Product team]]",
+        "owner": "Product team"
       }
     },
     "partial": {
@@ -76,8 +76,8 @@ export default {
         "unit": "× nominal coverage",
         "source": "Assumption: Lookbook coverage treated as the partially covered reference case",
         "verified": false,
-        "verify": "[[VERIFY: which setting the Lookbook coverage figures assume — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: which setting the Lookbook coverage figures assume — Product team]]",
+        "owner": "Product team"
       }
     },
     "covered": {
@@ -88,8 +88,8 @@ export default {
         "unit": "× nominal coverage",
         "source": "Assumption: a cover traps a 'heat cloud' that adds a convective boost (Planning Guide v1.2 Step 01, qualitative only)",
         "verified": false,
-        "verify": "[[VERIFY: coverage uplift for covered spaces — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: coverage uplift for covered spaces — Product team]]",
+        "owner": "Product team"
       }
     }
   },
@@ -102,8 +102,8 @@ export default {
         "unit": "× coverage",
         "source": "Assumption. Planning Guide v1.2 Step 05 says colder states may need more heaters for the same space (its example: 2 heaters in California, 3 in Massachusetts for 20 × 10 ft)",
         "verified": false,
-        "verify": "[[VERIFY: climate derate factors and the temperature bands that define them — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: climate derate factors and the temperature bands that define them — Product team]]",
+        "owner": "Product team"
       }
     },
     "cool": {
@@ -114,8 +114,8 @@ export default {
         "unit": "× coverage",
         "source": "Assumption (see mild)",
         "verified": false,
-        "verify": "[[VERIFY: climate derate factors — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: climate derate factors — Product team]]",
+        "owner": "Product team"
       }
     },
     "cold": {
@@ -126,8 +126,8 @@ export default {
         "unit": "× coverage",
         "source": "Assumption (see mild). Note: the Planning Guide's example (2 gas heaters for 200 ft² in California) implies a layout or overlap allowance this tool does not model",
         "verified": false,
-        "verify": "[[VERIFY: climate derate factors — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: climate derate factors — Product team]]",
+        "owner": "Product team"
       }
     }
   },
@@ -137,24 +137,24 @@ export default {
       "unit": "in above floor",
       "source": "Planning Guide v1.2 (2021) Step 06; data/product-facts.json principles.codes-electric",
       "verified": false,
-      "verify": "[[VERIFY: 2026 minimum wall-mount height per model — Mike Clifford]]",
-      "owner": "Mike Clifford"
+      "verify": "[[VERIFY: 2026 minimum wall-mount height per model — Product team]]",
+      "owner": "Product team"
     },
     "min_ceiling_mount_in": {
       "value": 96,
       "unit": "in above floor",
       "source": "Planning Guide v1.2 (2021) Step 06 (varies with output)",
       "verified": false,
-      "verify": "[[VERIFY: 2026 minimum ceiling-mount height per model — Mike Clifford]]",
-      "owner": "Mike Clifford"
+      "verify": "[[VERIFY: 2026 minimum ceiling-mount height per model — Product team]]",
+      "owner": "Product team"
     },
     "default_height_ft": {
       "value": 9,
       "unit": "ft",
       "source": "Form default only",
       "verified": false,
-      "verify": "[[VERIFY: default mount height shown in the form — Brian Kim]]",
-      "owner": "Brian Kim"
+      "verify": "[[VERIFY: default mount height shown in the form — Digital marketing]]",
+      "owner": "Digital marketing"
     },
     "height_bands": {
       "value": [
@@ -174,16 +174,16 @@ export default {
       "unit": "× coverage by mount height (built-in heaters only)",
       "source": "Assumption. Lookbook 2026 notes coverage varies with mounting height but publishes no curve",
       "verified": false,
-      "verify": "[[VERIFY: coverage by mount height per model — Mike Clifford]]",
-      "owner": "Mike Clifford"
+      "verify": "[[VERIFY: coverage by mount height per model — Product team]]",
+      "owner": "Product team"
     },
     "max_recommended_ft": {
       "value": 14,
       "unit": "ft",
       "source": "Assumption: above this the result suggests a suspension pole (Planning Guide v1.2 Step 07 lists suspension poles to bring units down in high ceilings)",
       "verified": false,
-      "verify": "[[VERIFY: height above which to suggest a suspension pole — Mike Clifford]]",
-      "owner": "Mike Clifford"
+      "verify": "[[VERIFY: height above which to suggest a suspension pole — Product team]]",
+      "owner": "Product team"
     }
   },
   "layout": {
@@ -192,8 +192,8 @@ export default {
       "unit": "× effective coverage (1.0 = no allowance for overlap or awkward shapes)",
       "source": "Assumption. The Planning Guide v1.2 Step 05 example recommends 2 gas heaters for a 20 × 10 ft patio in California although one heater's nominal coverage exceeds 200 ft², which suggests an overlap or layout allowance",
       "verified": false,
-      "verify": "[[VERIFY: overlap / layout allowance to apply to nominal coverage — Mike Clifford]]",
-      "owner": "Mike Clifford"
+      "verify": "[[VERIFY: overlap / layout allowance to apply to nominal coverage — Product team]]",
+      "owner": "Product team"
     }
   },
   "products": [
@@ -210,16 +210,16 @@ export default {
         "unit": "ft²",
         "source": "Lookbook 2026 p.21: range 65–143 ft² across 2300/3400/4500W; lowest wattage mapped to the low end",
         "verified": false,
-        "verify": "[[VERIFY: coverage of the 2300W model — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: coverage of the 2300W model — Product team]]",
+        "owner": "Product team"
       },
       "watts": {
         "value": 2300,
         "unit": "W",
         "source": "Lookbook 2026 p.21",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -235,16 +235,16 @@ export default {
         "unit": "ft²",
         "source": "bromic.com product page https://www.bromic.com/product/platinum-smart-heat-electric/ (read 29 Oct 2026) spec table: 3400W, 108 ft²; replaces the 104 ft² interpolation",
         "verified": false,
-        "verify": "[[VERIFY: coverage of the 3400W model — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: coverage of the 3400W model — Product team]]",
+        "owner": "Product team"
       },
       "watts": {
         "value": 3400,
         "unit": "W",
         "source": "Lookbook 2026 p.21",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -260,16 +260,16 @@ export default {
         "unit": "ft²",
         "source": "Lookbook 2026 p.21: highest wattage mapped to the high end of 65–143 ft²",
         "verified": false,
-        "verify": "[[VERIFY: coverage of the 4500W model — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: coverage of the 4500W model — Product team]]",
+        "owner": "Product team"
       },
       "watts": {
         "value": 4500,
         "unit": "W",
         "source": "Lookbook 2026 p.21",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -285,16 +285,16 @@ export default {
         "unit": "ft²",
         "source": "Lookbook 2026 p.27",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       },
       "watts": {
         "value": null,
         "unit": "W",
         "source": "Not published in Lookbook 2026",
         "verified": false,
-        "verify": "[[VERIFY: Eclipse Electric wattage — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: Eclipse Electric wattage — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -310,16 +310,16 @@ export default {
         "unit": "ft²",
         "source": "Lookbook 2026 p.33",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       },
       "watts": {
         "value": null,
         "unit": "W",
         "source": "Not published in Lookbook 2026",
         "verified": false,
-        "verify": "[[VERIFY: Eclipse Freestanding wattage and plug type — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: Eclipse Freestanding wattage and plug type — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -335,16 +335,16 @@ export default {
         "unit": "ft²",
         "source": "Lookbook 2026 p.39",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       },
       "btu": {
         "value": 38000,
         "unit": "BTU/hr",
         "source": "Lookbook 2026 p.39 (freestanding only)",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -363,8 +363,8 @@ export default {
         "unit": "ft² (range by model and size)",
         "source": "Lookbook 2026 pp.7, 15",
         "verified": false,
-        "verify": "[[VERIFY: launch date and per-model coverage — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: launch date and per-model coverage — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -383,8 +383,8 @@ export default {
         "unit": "ft² (range by model and size)",
         "source": "Lookbook 2026 pp.11, 15",
         "verified": false,
-        "verify": "[[VERIFY: launch date and per-model coverage — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: launch date and per-model coverage — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -400,8 +400,8 @@ export default {
         "unit": "ft²",
         "source": "bromic.com product page https://www.bromic.com/product/platinum-smart-heat-gas/ (read 29 Oct 2026) spec table: 160 ft²",
         "verified": false,
-        "verify": "[[VERIFY: Platinum Gas coverage per model — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: Platinum Gas coverage per model — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -417,8 +417,8 @@ export default {
         "unit": "ft²",
         "source": "bromic.com product page https://www.bromic.com/product/platinum-smart-heat-gas/ (read 29 Oct 2026) spec table: 215 ft²",
         "verified": false,
-        "verify": "[[VERIFY: Platinum Gas coverage per model — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: Platinum Gas coverage per model — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -434,8 +434,8 @@ export default {
         "unit": "ft²",
         "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-gas/ (read 29 Oct 2026) spec table: 160 ft². Output is not shown: Tungsten gas BTU stays unpublished until verified",
         "verified": false,
-        "verify": "[[VERIFY: Tungsten Gas built-in coverage and BTU — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: Tungsten Gas built-in coverage and BTU — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -451,8 +451,8 @@ export default {
         "unit": "ft²",
         "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-gas/ (read 29 Oct 2026) spec table: 215 ft². Output is not shown: Tungsten gas BTU stays unpublished until verified",
         "verified": false,
-        "verify": "[[VERIFY: Tungsten Gas built-in coverage and BTU — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: Tungsten Gas built-in coverage and BTU — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -468,16 +468,16 @@ export default {
         "unit": "ft²",
         "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026) spec table: 2000 W, 65 ft²",
         "verified": false,
-        "verify": "[[VERIFY: coverage of the Tungsten Smart-Heat Electric 2000W — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: coverage of the Tungsten Smart-Heat Electric 2000W — Product team]]",
+        "owner": "Product team"
       },
       "watts": {
         "value": 2000,
         "unit": "W",
         "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026)",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -493,16 +493,16 @@ export default {
         "unit": "ft²",
         "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026) spec table: 3000 W, 100 ft²",
         "verified": false,
-        "verify": "[[VERIFY: coverage of the Tungsten Smart-Heat Electric 3000W — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: coverage of the Tungsten Smart-Heat Electric 3000W — Product team]]",
+        "owner": "Product team"
       },
       "watts": {
         "value": 3000,
         "unit": "W",
         "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026)",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -518,16 +518,16 @@ export default {
         "unit": "ft²",
         "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026) spec table: 4000 W, 130 ft²",
         "verified": false,
-        "verify": "[[VERIFY: coverage of the Tungsten Smart-Heat Electric 4000W — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: coverage of the Tungsten Smart-Heat Electric 4000W — Product team]]",
+        "owner": "Product team"
       },
       "watts": {
         "value": 4000,
         "unit": "W",
         "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026)",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -543,16 +543,16 @@ export default {
         "unit": "ft²",
         "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026) spec table: 6000 W, 160 ft²",
         "verified": false,
-        "verify": "[[VERIFY: coverage of the Tungsten Smart-Heat Electric 6000W — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: coverage of the Tungsten Smart-Heat Electric 6000W — Product team]]",
+        "owner": "Product team"
       },
       "watts": {
         "value": 6000,
         "unit": "W",
         "source": "bromic.com product page https://www.bromic.com/product/tungsten-smart-heat-electric/ (read 29 Oct 2026)",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -568,16 +568,16 @@ export default {
         "unit": "ft²",
         "source": "bromic.com product page https://www.bromic.com/product/cobalt-smart-heat-electric/ (read 29 Oct 2026) spec table: 4000 W, 130 ft²",
         "verified": false,
-        "verify": "[[VERIFY: coverage of the Cobalt Smart-Heat Electric 4000W — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: coverage of the Cobalt Smart-Heat Electric 4000W — Product team]]",
+        "owner": "Product team"
       },
       "watts": {
         "value": 4000,
         "unit": "W",
         "source": "bromic.com product page https://www.bromic.com/product/cobalt-smart-heat-electric/ (read 29 Oct 2026)",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       }
     },
     {
@@ -593,16 +593,16 @@ export default {
         "unit": "ft²",
         "source": "bromic.com product page https://www.bromic.com/product/cobalt-smart-heat-electric/ (read 29 Oct 2026) spec table: 6000 W, 160 ft²",
         "verified": false,
-        "verify": "[[VERIFY: coverage of the Cobalt Smart-Heat Electric 6000W — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: coverage of the Cobalt Smart-Heat Electric 6000W — Product team]]",
+        "owner": "Product team"
       },
       "watts": {
         "value": 6000,
         "unit": "W",
         "source": "bromic.com product page https://www.bromic.com/product/cobalt-smart-heat-electric/ (read 29 Oct 2026)",
         "verified": false,
-        "verify": "[[VERIFY: sign-off of product-facts.json — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
+        "owner": "Product team"
       }
     }
   ],
@@ -627,16 +627,16 @@ export default {
         "unit": "heaters (or kW) per controller",
         "source": "Worked out per model from max_kw_per_channel and the heater wattage (one channel per zone)",
         "verified": false,
-        "verify": "[[VERIFY: maximum heaters or load per Affinity channel — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: maximum heaters or load per Affinity channel — Product team]]",
+        "owner": "Product team"
       },
       "max_kw_per_channel": {
         "value": 6,
         "unit": "kW per controller channel at 208–277 V",
         "source": "bromic.com product page https://www.bromic.com/product/affinity-smart-heat-dimmer-controllers/ (read 29 Oct 2026); same on the On/Off page",
         "verified": false,
-        "verify": "[[VERIFY: Affinity capacity per channel at 208 V and 240 V — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: Affinity capacity per channel at 208 V and 240 V — Product team]]",
+        "owner": "Product team"
       }
     },
     "eclipse": {
@@ -659,14 +659,14 @@ export default {
         "unit": "Eclipse heaters per controller channel",
         "source": "bromic.com product page https://www.bromic.com/product/affinity-smart-heat-eclipse-controllers/ (read 29 Oct 2026): one Eclipse heater per channel",
         "verified": false,
-        "verify": "[[VERIFY: heaters per Eclipse controller; whether Eclipse Freestanding uses the same controller — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: heaters per Eclipse controller; whether Eclipse Freestanding uses the same controller — Product team]]",
+        "owner": "Product team"
       }
     },
     "gas-freestanding": {
       "items": [
         {
-          "name": "Controls for Tungsten Smart-Heat Freestanding Gas — confirmed by the Bromic design team [[VERIFY: control options and Affinity compatibility for Tungsten Freestanding Gas — Mike Clifford]]",
+          "name": "Controls for Tungsten Smart-Heat Freestanding Gas — confirmed by the Bromic design team [[VERIFY: control options and Affinity compatibility for Tungsten Freestanding Gas — Product team]]",
           "per": "heater"
         }
       ],
@@ -675,8 +675,8 @@ export default {
         "unit": "heaters per controller",
         "source": "Not published",
         "verified": false,
-        "verify": "[[VERIFY: control options for Tungsten Freestanding Gas — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: control options for Tungsten Freestanding Gas — Product team]]",
+        "owner": "Product team"
       }
     },
     "gas-builtin": {
@@ -699,8 +699,8 @@ export default {
         "unit": "gas heaters per On/Off channel",
         "source": "bromic.com product page https://www.bromic.com/product/affinity-smart-heat-on-off-controllers/ (read 29 Oct 2026): up to 10 gas heaters (or 6,000 W) per channel; Platinum Gas FAQ: on/off only",
         "verified": false,
-        "verify": "[[VERIFY: On/Off control of Platinum Gas and Tungsten Gas built-in (the On/Off spec table lists only electric) — Mike Clifford]]",
-        "owner": "Mike Clifford"
+        "verify": "[[VERIFY: On/Off control of Platinum Gas and Tungsten Gas built-in (the On/Off spec table lists only electric) — Product team]]",
+        "owner": "Product team"
       }
     },
     "app_note": "Wi-Fi and app features require compatible Affinity Smart-Heat controls, sold separately.",
@@ -817,15 +817,15 @@ export default {
       "unit": "ft² of heated patio a seat, aisles and breathing room included",
       "source": "NAFEM space-planning chart as published in the Restaurant Furniture seating capacity guide (https://www.restaurant-furniture.com/resources/guides/restaurant-seating-capacity-guide): full-service dining 12–15 ft² a seat, fine dining 18–20. The top of the range is used so tables are not crammed (owner, 30 Oct 2026)",
       "verified": false,
-      "verify": "[[VERIFY: open the NAFEM chart itself and confirm the 18–20 ft² fine-dining figure — Brian Kim]]",
-      "owner": "Brian Kim"
+      "verify": "[[VERIFY: open the NAFEM chart itself and confirm the 18–20 ft² fine-dining figure — Digital marketing]]",
+      "owner": "Digital marketing"
     },
     "freestanding_max_seats": {
       "value": 4,
       "unit": "seats a freestanding heater can warm",
-      "source": "Owner rule (Aayush Vishnoi, 30 Oct 2026): guests block the radiant heat of a freestanding heater (templates/calculation-model.md)",
+      "source": "Owner rule (Leadership, 30 Oct 2026): guests block the radiant heat of a freestanding heater (templates/calculation-model.md)",
       "verified": true,
-      "owner": "Aayush Vishnoi"
+      "owner": "Leadership"
     }
   }
 };

@@ -15,8 +15,8 @@ meta_description: "Außengastronomie ist heute genehmigt, dauerhaft und gefragt.
 cta: {label: "Ihre Wirtschaftlichkeitsbewertung anfordern", asset: A21}
 hero: w-wrigleys-mansion-eclipse-portable-heater-4
 images: [w-stellas-wine-bar-houston-tx-3]
-owner_review: Megan Spies + Blake Petty
-technical_reviewer: Mike Clifford
+owner_review: Marketing + Vertrieb Gastronomie
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -117,7 +117,7 @@ sources:
 lang: de
 translation_of: BLOG-28
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 Ja. Außengastronomie hat sich von einer Notlösung der Pandemie zu genehmigten, dauerhaften Plätzen entwickelt, die Gäste gezielt suchen: 55 % der US-Amerikaner sagen, dass sie bei schönem Wetter lieber draußen sitzen,[^s1] und das dauerhafte Programm von New York City zählte 2025 fast 2.450 Außenbereiche.[^s5] Ob eine Terrasse Geld verdient, entscheiden die kalten Monate. Eine überdachte, beheizte und gesteuerte Terrasse bleibt offen; eine unbeheizte schließt, sobald den Gästen kalt wird.
 
@@ -131,7 +131,7 @@ Längere Aufenthalte bedeuten mehr Getränke und Desserts und weniger Tischwechs
 
 ## Ist die Außengastronomie ein relevanter Teil des Umsatzes?
 
-Für viele Betreiber ja. In einer Umfrage der National Restaurant Association (USA) sagten 35 % der Betreiber mit Außenplätzen, diese machten mehr als 40 % des durchschnittlichen Tagesumsatzes aus, bei Restaurants mit Tischbedienung 41 %.[^s3] Die Umfrage stammt von 2021; [[VERIFY: eine aktuellere Betreiberzahl zum Umsatzanteil der Außengastronomie — Blake Petty]]
+Für viele Betreiber ja. In einer Umfrage der National Restaurant Association (USA) sagten 35 % der Betreiber mit Außenplätzen, diese machten mehr als 40 % des durchschnittlichen Tagesumsatzes aus, bei Restaurants mit Tischbedienung 41 %.[^s3] Die Umfrage stammt von 2021; [[VERIFY: eine aktuellere Betreiberzahl zum Umsatzanteil der Außengastronomie — Vertrieb Gastronomie]]
 
 In einem schwachen Jahr zählt das mehr. Im Bericht des Verbands von 2026 sagten 61 % der US-Betreiber mit Tischbedienung, die Gästezahl sei 2025 niedriger gewesen als 2024, und 85 % sagten, der Ausbau des Geschäfts vor Ort werde 2026 wichtiger.[^s4] Eine Terrasse ist Kapazität vor Ort, für die Sie bereits bezahlen.
 
@@ -151,7 +151,7 @@ Die großen haben sie dauerhaft gemacht, mit Regeln. Dining Out NYC erlaubt Auß
 
 Die Regeln bestimmen auch die Heizung. New York City hat Flüssiggas-Heizstrahler in der Außengastronomie ab dem 1. Juni 2021 nicht mehr zugelassen[^s7] und verlangt, dass elektrische Strahlungsheizer im Freien den NYC Electrical Code erfüllen.[^s8]
 
-*Die Regeln unterscheiden sich von Stadt zu Stadt und ändern sich oft. In Deutschland klären Sie mit Ihrer Gemeinde, Ihrem örtlichen Bauamt und Ihrem Elektrofachbetrieb oder Gasinstallateur, was gilt; maßgeblich sind DIN VDE 0100 sowie DVGW-TRGI (Erdgas) und TRF (Flüssiggas). Siehe [die Checkliste zu Genehmigungen](item:COM-PP-01).* [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich, und kommunale Regeln für Heizstrahler in der Außengastronomie — Raffaele Marti]]
+*Die Regeln unterscheiden sich von Stadt zu Stadt und ändern sich oft. In Deutschland klären Sie mit Ihrer Gemeinde, Ihrem örtlichen Bauamt und Ihrem Elektrofachbetrieb oder Gasinstallateur, was gilt; maßgeblich sind DIN VDE 0100 sowie DVGW-TRGI (Erdgas) und TRF (Flüssiggas). Siehe [die Checkliste zu Genehmigungen](item:COM-PP-01).* [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich, und kommunale Regeln für Heizstrahler in der Außengastronomie — Partner Deutschland]]
 
 ## Wie halten Restaurants die Terrasse offen, wenn es kalt ist?
 
@@ -159,10 +159,10 @@ Die Regeln bestimmen auch die Heizung. New York City hat Flüssiggas-Heizstrahle
 
 - **Überdachen, was möglich ist.** Ein Dach oder eine Markise hält die Wärme und erlaubt fest montierte Heizstrahler über Kopf.
 - **Den Platz heizen, nicht die Fläche.** Strahlungswärme wärmt Gäste, nicht Luft. Über Tischen wird Platinum Smart-Heat Electric in die Untersicht oder an die Wand montiert; wo nichts montiert werden kann, wandern Eclipse Smart-Heat Freestanding Electric oder Tungsten Smart-Heat Freestanding Gas mit der Bestuhlung mit.[^s10]
-- **Steuern.** Platinum läuft über ein Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät und einen Wandschalter, Eclipse über das Eclipse-Steuergerät in den Stufen 33, 66 und 100 %. Zonen und Zeitpläne kommen über die Bromic Smart-Heat App; WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind.[^s10] [[VERIFY: Steuerungsoptionen für Tungsten Freestanding Gas — Mike Clifford]]
+- **Steuern.** Platinum läuft über ein Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät und einen Wandschalter, Eclipse über das Eclipse-Steuergerät in den Stufen 33, 66 und 100 %. Zonen und Zeitpläne kommen über die Bromic Smart-Heat App; WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind.[^s10] [[VERIFY: Steuerungsoptionen für Tungsten Freestanding Gas — Produktteam]]
 - **Den Service planen.** Ein längerer Weg von Küche und Bar braucht eine bestückte Servicestation draußen.
 
-Terrassenheizstrahler sind nicht wasserdicht. Die Schutzarten unterscheiden sich je Modell (Tungsten Smart-Heat Electric hat IPX4, Platinum Electric Marine IPX5); prüfen Sie daher das Modell, bevor es dorthin kommt, wo Regen hinreicht.[^s11] [[VERIFY: IP-Schutzart je Modell — Mike Clifford]]
+Terrassenheizstrahler sind nicht wasserdicht. Die Schutzarten unterscheiden sich je Modell (Tungsten Smart-Heat Electric hat IPX4, Platinum Electric Marine IPX5); prüfen Sie daher das Modell, bevor es dorthin kommt, wo Regen hinreicht.[^s11] [[VERIFY: IP-Schutzart je Modell — Produktteam]]
 
 ![Überdachte Restaurantterrasse mit Eclipse Pendel-Heizstrahlern, die über den Tischen leuchten](img:w-stellas-wine-bar-houston-tx-3)
 
@@ -172,7 +172,7 @@ Im [Hotel Skansen](https://www.bromic.com/case-study/hotel-skansen-elevates-outd
 
 Rechnen Sie mit dem Deckungsbeitrag, nicht mit dem Umsatz. Die Methode aus [dem Artikel zur Wirtschaftlichkeit von Terrassenheizstrahlern](item:COM-IN-01): zusätzlicher Umsatz = beheizte Plätze × Belegungen je Abend × durchschnittlicher Bon × zusätzliche Abende × Anteil belegter Plätze; davon Ihren Deckungsbeitrag nehmen, die Betriebskosten abziehen und die Installationskosten durch das monatliche Ergebnis teilen.
 
-Ein reines US-Rechenbeispiel mit den Annahmen jenes Artikels, in US-Dollar und mit US-Strompreisen: 40 beheizte Plätze, 1,5 Belegungen, 45 US-$ durchschnittlicher Bon, 60 zusätzliche Abende, 50 % belegte Plätze und 30 % Marge ergeben 81.000 US-$ zusätzlichen Umsatz und 24.300 US-$ zusätzlichen Deckungsbeitrag. 40 Plätze mit ca. 1,9 m² je Platz sind ca. 74 m²; dafür braucht eine teilweise überdachte Terrasse an kühlen Abenden sieben Platinum Electric mit 4500 W (74 ÷ (13,3 × 0,85) = 6,6), jeweils mit Affinity-Steuerung. Betriebskosten = kW × Stunden × Preis je kWh: 7 × 4,5 × 5 × 60 = 9.450 kWh, in den USA ca. 1.330 US-$ bei 14,07 US-Cent/kWh[^s9] (ca. 1.280 US-$ bei den 13,54 US-Cent vom Mai 2026, mit denen das Fünf-Jahres-Kostenmodell rechnet[^s13]). Für Ihren Betrieb setzen Sie 9.450 kWh × Ihren Preis je kWh ein. Der Nettogewinn im US-Beispiel beträgt 22.970 US-$ im Jahr; bei 35.000 US-$ Installationskosten (ein Platzhalter: 7 × 5.000 US-$) amortisiert sich die Anlage in ca. 18 Monaten. [[VERIFY: Vergleichswerte — Blake Petty; die Preise 14,07 und 13,54 US-Cent angleichen — Brian Kim/Finance]] Energiekosten sind für Betreiber ein echtes Thema (82 % der US-Betreiber mit Tischbedienung nennen sie eine erhebliche Herausforderung),[^s4] und genau deshalb zählen Zonen und Zeitpläne.
+Ein reines US-Rechenbeispiel mit den Annahmen jenes Artikels, in US-Dollar und mit US-Strompreisen: 40 beheizte Plätze, 1,5 Belegungen, 45 US-$ durchschnittlicher Bon, 60 zusätzliche Abende, 50 % belegte Plätze und 30 % Marge ergeben 81.000 US-$ zusätzlichen Umsatz und 24.300 US-$ zusätzlichen Deckungsbeitrag. 40 Plätze mit ca. 1,9 m² je Platz sind ca. 74 m²; dafür braucht eine teilweise überdachte Terrasse an kühlen Abenden sieben Platinum Electric mit 4500 W (74 ÷ (13,3 × 0,85) = 6,6), jeweils mit Affinity-Steuerung. Betriebskosten = kW × Stunden × Preis je kWh: 7 × 4,5 × 5 × 60 = 9.450 kWh, in den USA ca. 1.330 US-$ bei 14,07 US-Cent/kWh[^s9] (ca. 1.280 US-$ bei den 13,54 US-Cent vom Mai 2026, mit denen das Fünf-Jahres-Kostenmodell rechnet[^s13]). Für Ihren Betrieb setzen Sie 9.450 kWh × Ihren Preis je kWh ein. Der Nettogewinn im US-Beispiel beträgt 22.970 US-$ im Jahr; bei 35.000 US-$ Installationskosten (ein Platzhalter: 7 × 5.000 US-$) amortisiert sich die Anlage in ca. 18 Monaten. [[VERIFY: Vergleichswerte — Vertrieb Gastronomie; die Preise 14,07 und 13,54 US-Cent angleichen — Finanzen]] Energiekosten sind für Betreiber ein echtes Thema (82 % der US-Betreiber mit Tischbedienung nennen sie eine erhebliche Herausforderung),[^s4] und genau deshalb zählen Zonen und Zeitpläne.
 
 ## Häufige Fragen
 

@@ -10,7 +10,7 @@ asset: A10
 summary: "Bromic already publishes 38 case studies across the US and Australian sites. This sheet ranks which to upgrade to the new template, which Australian projects to write up, and which kinds of project to source per audience. No names, numbers or quotes beyond what Bromic has published."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-013-099
-owner_review: Megan Spies
+owner_review: Marketing
 status: template
 gated: false
 related: [CS-TEMPLATE, COM-IN-01, R-BLOG-AUDIT]
@@ -98,5 +98,5 @@ team to confirm the project, the products and permission before drafting.
 | COM | A hotel rooftop or terrace replacing propane | Feeds A20 with real running costs | Cylinder swaps avoided; fuel cost per hour |
 | COM | A multi-site operator rolling out one standard (the London restaurateur, in the US) | Multi-site is the high-value commercial deal | One spec across sites; controls by zone and site |
 
-Owners: regional leads source; Megan Spies approves brand and consent; Mike Clifford checks products and controls.
-[[VERIFY: AU team contact for Barangaroo House, Sunbury, Untied and the gallery venues — Aayush Vishnoi]]
+Owners: regional leads source; Marketing approves brand and consent; Product team checks products and controls.
+[[VERIFY: AU team contact for Barangaroo House, Sunbury, Untied and the gallery venues — Leadership]]

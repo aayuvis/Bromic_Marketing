@@ -15,7 +15,7 @@ meta_description: "Propane is cheap to buy and costly to run. A five-year cost c
 cta: {label: "Run the five-year cost model", asset: A20}
 hero: l-019-164
 images: [l-010-067]
-owner_review: Blake Petty
+owner_review: Hospitality sales
 status: draft
 gated: false
 related: [COM-AW-01, COM-IN-01, COM-CO-KB1, COM-PP-01]
@@ -88,7 +88,7 @@ The formulas, from rates you can check on your own bill:
 - **Natural gas:** cost per hour = BTU/hr ÷ 100,000 × $/therm
 - **Propane:** cost per hour = BTU/hr ÷ 91,500 × $/gallon
 
-Rates used here: commercial electricity 14.07¢/kWh (US average, January–May 2026)[^s1]; commercial natural gas $10.45 per thousand cubic feet (US average, January–April 2025)[^s2], which at about 1,036 Btu per cubic foot is roughly $1.01 per therm[^s3]; propane $2.46 per gallon, EIA's residential winter forecast for 2025–26.[^s4] [[VERIFY: 2026 rates — Brian Kim/Finance; commercial propane delivered in exchange cylinders is typically priced well above bulk residential — confirm a supplier quote]]
+Rates used here: commercial electricity 14.07¢/kWh (US average, January–May 2026)[^s1]; commercial natural gas $10.45 per thousand cubic feet (US average, January–April 2025)[^s2], which at about 1,036 Btu per cubic foot is roughly $1.01 per therm[^s3]; propane $2.46 per gallon, EIA's residential winter forecast for 2025–26.[^s4] [[VERIFY: 2026 rates — Finance; commercial propane delivered in exchange cylinders is typically priced well above bulk residential — confirm a supplier quote]]
 
 | Heater | Input | Fuel cost per hour | Approx. coverage |
 |---|---|---|---|
@@ -97,7 +97,7 @@ Rates used here: commercial electricity 14.07¢/kWh (US average, January–May 2
 | Tungsten Smart-Heat Freestanding Gas, natural gas | 38,000 BTU/hr | $0.38 | about 215 ft² |
 | Tungsten Smart-Heat Freestanding Gas, propane | 38,000 BTU/hr | $1.02 | about 215 ft² |
 
-Coverage figures are Bromic's published ranges;[^s6] the per-model figure for each Platinum wattage needs Bromic's coverage table. [[VERIFY: coverage per Platinum wattage — Mike Clifford]] Natural gas is not one product here: a freestanding heater on natural gas needs a fixed gas connection. [[VERIFY: natural gas connection method for Tungsten Smart-Heat Freestanding Gas — Mike Clifford]]
+Coverage figures are Bromic's published ranges;[^s6] the per-model figure for each Platinum wattage needs Bromic's coverage table. [[VERIFY: coverage per Platinum wattage — Product team]] Natural gas is not one product here: a freestanding heater on natural gas needs a fixed gas connection. [[VERIFY: natural gas connection method for Tungsten Smart-Heat Freestanding Gas — Product team]]
 
 ## What is the hidden cost of propane?
 
@@ -105,7 +105,7 @@ Labour and storage. Propane heaters burn through cylinders on busy nights, and t
 
 - **Exchange labour:** someone collects empties, receives deliveries and swaps cylinders. Count it.
 - **Storage:** NFPA 58 sets how far stored cylinders must sit from doorways and other exposures, and many cities add their own limits or require a permit above set quantities.[^s5] Cage space is floor space you are not selling.
-- **Delivery rules:** some fire codes bar delivery of permit-level quantities to a site without a fire permit — New York City is one.
+- **Delivery rules:** some fire codes bar delivery of permit-level quantities to a site without a fire permit – New York City is one.
 - **Price:** exchange cylinders are usually priced well above bulk propane per gallon. The table above uses a bulk residential average, which flatters propane.
 
 ## What does five years look like?
@@ -120,8 +120,8 @@ Illustrative only. Every input below is an assumption for a worked example, not 
 
 | Five-year cost (illustrative) | Electric | Natural gas | Propane |
 |---|---|---|---|
-| Heaters and controls (purchase) | [[VERIFY: price list — Blake Petty]] | [[VERIFY: price list — Blake Petty]] | [[VERIFY: price list — Blake Petty]] |
-| Installation and permits | [[VERIFY: circuit and install cost — Blake Petty]] | [[VERIFY: gas line extension cost — Blake Petty]] | [[VERIFY: storage cage or cabinet cost — Blake Petty]] |
+| Heaters and controls (purchase) | [[VERIFY: price list — Hospitality sales]] | [[VERIFY: price list — Hospitality sales]] | [[VERIFY: price list — Hospitality sales]] |
+| Installation and permits | [[VERIFY: circuit and install cost — Hospitality sales]] | [[VERIFY: gas line extension cost — Hospitality sales]] | [[VERIFY: storage cage or cabinet cost — Hospitality sales]] |
 | Fuel, 5 years | $22,160 | $19,190 | $51,082 |
 | Cylinder handling labour, 5 years | none | none | $18,417 |
 | Fuel plus handling, 5 years | $22,160 | $19,190 | $69,499 |
@@ -135,11 +135,11 @@ On these assumptions, natural gas costs least to run if the line is there, elect
 | Site | Usually fits | Controls needed |
 |---|---|---|
 | Covered terrace, wall or soffit available | Platinum Smart-Heat Electric | Affinity Smart-Heat On/Off or Dimmer controller, wall switch, app |
-| Large open patio, gas line within reach | Tungsten Smart-Heat Freestanding Gas on natural gas | [[VERIFY: Affinity control options — Mike Clifford]] |
+| Large open patio, gas line within reach | Tungsten Smart-Heat Freestanding Gas on natural gas | [[VERIFY: Affinity control options — Product team]] |
 | Temporary or seasonal layout, no gas | Eclipse Smart-Heat Freestanding Electric | Eclipse controller |
 | Dense urban site with propane restrictions | Electric | Affinity Smart-Heat On/Off or Dimmer controller, wall switch, app |
 
-Wi-Fi and app features — zones, schedules and timers — require compatible Affinity Smart-Heat Controls, sold separately.[^s6] Zoning is the biggest running-cost lever of all: a heater that is off costs nothing.
+Wi-Fi and app features – zones, schedules and timers – require compatible Affinity Smart-Heat Controls, sold separately.[^s6] Zoning is the biggest running-cost lever of all: a heater that is off costs nothing.
 
 > Code and permit requirements vary by city and change over time. Confirm with your local building and fire authority, and use a licensed electrician or gas fitter.
 
@@ -174,7 +174,7 @@ Your own bills. Electricity in $/kWh including demand charges where they apply; 
 
 The [five-year cost model](asset:A20) takes purchase, install, fuel and propane handling, so the comparison is all-in.
 
-Compare your own numbers — run the five-year cost model.
+Compare your own numbers – run the five-year cost model.
 
 [^s1]: U.S. EIA, Monthly Energy Review, commercial electricity price, Jan–May 2026.
 [^s2]: U.S. EIA, Natural Gas Monthly, Table 21, Jan–Apr 2025.

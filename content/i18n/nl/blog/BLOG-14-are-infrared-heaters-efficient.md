@@ -14,8 +14,8 @@ ai_prompt: "Zijn infraroodverwarmers energiezuinig voor een terras?"
 meta_description: "Buiten is infrarood de zuinige keuze: het verwarmt mensen, niet de lucht. Hoe aandeel straling, richting, bediening en dimensionering het verbruik bepalen, met de kostenberekening."
 cta: {label: "Bereken je ruimte", asset: A03}
 hero: w-tungsten-electric-melrose-place-los-angeles-
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -87,9 +87,9 @@ Voor elektrisch vermenigvuldig je het vermogen van de verwarmer in kilowatt met 
 
 **kosten per uur = kW × je prijs per kWh**
 
-Een Platinum Smart-Heat Electric verwarmer van 3.400 W gebruikt op vol vermogen 3,4 kWh per uur; de kosten zijn dus 3,4 × je prijs per kWh. Lager gezet kost hij minder. Je eigen energierekening bepaalt het echte bedrag. Ter vergelijking, een Amerikaans voorbeeld: bij het gemiddelde Amerikaanse tarief voor huishoudens van ongeveer 18,3 dollarcent per kWh[^s3] kost dezelfde verwarmer in de VS ongeveer 3,4 × 0,183 = 0,62 dollar per uur. [[VERIFY: tarieven 2026 — Brian Kim/Finance]]
+Een Platinum Smart-Heat Electric verwarmer van 3.400 W gebruikt op vol vermogen 3,4 kWh per uur; de kosten zijn dus 3,4 × je prijs per kWh. Lager gezet kost hij minder. Je eigen energierekening bepaalt het echte bedrag. Ter vergelijking, een Amerikaans voorbeeld: bij het gemiddelde Amerikaanse tarief voor huishoudens van ongeveer 18,3 dollarcent per kWh[^s3] kost dezelfde verwarmer in de VS ongeveer 3,4 × 0,183 = 0,62 dollar per uur. [[VERIFY: tarieven 2026 — financiën]]
 
-Voor gas reken je met hetzelfde vermogen in kW: deel het verbruik in kWh per uur door de energie-inhoud van een kubieke meter aardgas of een kilo propaan die je leverancier opgeeft, en vermenigvuldig met je prijs per m³ of per kg. [[VERIFY: methode voor gaskosten in m³ en kg afstemmen op templates/calculation-model.md — Brian Kim/Finance]] De volledige berekening staat in [wat het kost om een buitenverwarmer te laten branden](item:RES-IN-01).
+Voor gas reken je met hetzelfde vermogen in kW: deel het verbruik in kWh per uur door de energie-inhoud van een kubieke meter aardgas of een kilo propaan die je leverancier opgeeft, en vermenigvuldig met je prijs per m³ of per kg. [[VERIFY: methode voor gaskosten in m³ en kg afstemmen op templates/calculation-model.md — financiën]] De volledige berekening staat in [wat het kost om een buitenverwarmer te laten branden](item:RES-IN-01).
 
 ## Vier manieren om minder warmte te verspillen
 
@@ -102,12 +102,12 @@ Voor gas reken je met hetzelfde vermogen in kW: deel het verbruik in kWh per uur
 
 | Verwarmer | Vermogen | Verwarmd oppervlak (ca.) | Waterdichtheid | Bediening |
 |---|---|---|---|---|
-| Platinum Smart-Heat Electric | 2.300 / 3.400 / 4.500 W | 6 / 10 / 13 m²[^s4][^s5] | [[VERIFY: IP-klasse — Mike Clifford]] | Affinity On/Off of Dimmer, handmatige wandschakelaar |
+| Platinum Smart-Heat Electric | 2.300 / 3.400 / 4.500 W | 6 / 10 / 13 m²[^s4][^s5] | [[VERIFY: IP-klasse — productteam]] | Affinity On/Off of Dimmer, handmatige wandschakelaar |
 | Platinum Smart-Heat Electric Marine | 2.300 / 3.400 / 4.500 W | 6 / 10 / 13 m²[^s5] | IPX5[^s5] | Affinity On/Off of Dimmer, handmatige wandschakelaar |
 | Tungsten Smart-Heat Electric | 2.000–6.000 W | 6–15 m²[^s5] | IPX4[^s5] | Affinity On/Off of Dimmer, handmatige wandschakelaar |
-| Eclipse Smart-Heat Electric | Stappen van 33 / 66 / 100% | 11 m²[^s4] | [[VERIFY: IP-klasse — Mike Clifford]] | Affinity Eclipse-regelaar of Eclipse Dimmer, handmatige wandschakelaar |
+| Eclipse Smart-Heat Electric | Stappen van 33 / 66 / 100% | 11 m²[^s4] | [[VERIFY: IP-klasse — productteam]] | Affinity Eclipse-regelaar of Eclipse Dimmer, handmatige wandschakelaar |
 
-Bediening hoort bij elke installatie. Wifi- en appfuncties vragen om compatibele Affinity Smart-Heat Controls, die apart worden verkocht[^s4]. Wat IP-klassen betekenen bij nat weer, lees je in [terrasverwarmers in de regen](https://www.bromic.com/blog/patio-heaters-in-the-rain-what-you-need-to-know/). [[VERIFY: waarden gelezen op de productpagina's van bromic.com; controleren aan de productbladen van 2026 — Mike Clifford]]
+Bediening hoort bij elke installatie. Wifi- en appfuncties vragen om compatibele Affinity Smart-Heat Controls, die apart worden verkocht[^s4]. Wat IP-klassen betekenen bij nat weer, lees je in [terrasverwarmers in de regen](https://www.bromic.com/blog/patio-heaters-in-the-rain-what-you-need-to-know/). [[VERIFY: waarden gelezen op de productpagina's van bromic.com; controleren aan de productbladen van 2026 — productteam]]
 
 Vergelijk de [elektrische buitenverwarmers](https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/) en de [gasbuitenverwarmers](https://www.bromic.com/outdoor-heaters/outdoor-gas-heaters/), of laat Bromic een indeling tekenen via [bromic.nl](https://www.bromic.nl/). Laat de aansluiting doen door een erkend installateur, volgens NEN 1010 (elektrisch) of NEN 1078 (gas).
 

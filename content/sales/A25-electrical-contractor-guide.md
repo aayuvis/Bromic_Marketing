@@ -15,8 +15,8 @@ meta_description: "For electrical contractors: code, controls, voltages and weat
 cta: {label: "Join the Bromic Partner Program", asset: A15}
 hero: d-tungsten-suspended-restaurant
 images: [d-installers-recessing, d-tungsten-louvre-detail, d-recessed-pavilion, d-tungsten-pole-rooftop-bar, d-eclipse-freestanding-lake, d-eclipse-pendant-dining, d-tungsten-gas-pool, t-009-025]
-owner_review: Karl Tschauner
-technical_reviewer: Mike Clifford
+owner_review: US field sales
+technical_reviewer: Product team
 status: draft
 gated: true
 related: [A16, BLD-IN-01, BLD-PP-01, A15]
@@ -160,7 +160,7 @@ Wi-Fi and app features need compatible Affinity Smart-Heat Controls, sold separa
 
 The 4000 W and 6000 W Tungsten heaters have two elements that can be controlled separately, so one heater can run at part output on a dimmer channel without a second circuit.[^s5]
 
-[[VERIFY: per-model compatibility of Affinity controllers with each Platinum and Tungsten wattage and voltage — Mike Clifford]]
+[[VERIFY: per-model compatibility of Affinity controllers with each Platinum and Tungsten wattage and voltage — Product team]]
 
 ![Heaters recessed in the roof of an open timber pavilion above a long dining table](img:d-recessed-pavilion)
 
@@ -194,7 +194,7 @@ Outdoor equipment lives in rain, salt air, wind and the swing between summer and
 | Tungsten Smart-Heat Electric | 2 years heater; 7 years elements |
 | Affinity Smart-Heat controllers | 1 year |
 
-[[VERIFY: warranty periods, the Platinum Marine land and vessel terms, and which products qualify for the Partner Program's extra year — Mike Clifford]]
+[[VERIFY: warranty periods, the Platinum Marine land and vessel terms, and which products qualify for the Partner Program's extra year — Product team]]
 
 Partners receive an additional year of warranty coverage on qualifying products (see the Partner Program below).[^s10] One manufacturer, one warranty process and one support line, rather than a different vendor for every part of the job.
 
@@ -206,7 +206,7 @@ Clients compare quotes, and most quotes look alike: a heater, a price, a date. M
 
 - **Send a heating plan with the quote.** A Bromic design plan shows where each heater goes and the space it warms. It turns a line item into a picture of the evening.[^s10]
 - **Quote the complete system.** Heaters, controllers, wall switch and app set-up in one price. A heater without its controls is not a finished job, and the client finds out on the first cold night.
-- **Offer the pre-wire on every patio.** Rough-in at framing costs far less than opening a finished soffit later, and it lets the owner add heat after they move in. [[VERIFY: typical rough-in cost range from partner electricians — Karl Tschauner]]
+- **Offer the pre-wire on every patio.** Rough-in at framing costs far less than opening a finished soffit later, and it lets the owner add heat after they move in. [[VERIFY: typical rough-in cost range from partner electricians — US field sales]]
 - **Talk about safety plainly.** Dedicated circuits, the right mounting height, outdoor-rated controls. Clients trust the contractor who explains why.
 - **Show it working.** A heated patio at dusk sells the next one. Ask to photograph the finished job; Bromic partners can have projects featured (below).
 
@@ -224,14 +224,14 @@ The Bromic Partner Program gives trade professionals who specify, design, build 
 
 | Benefit | What it means on your projects |
 |---|---|
-| **Exclusive partner pricing** | Trade pricing on Bromic heaters and controls. [[VERIFY: price tiers and qualifying volumes — Arvin Avaness / Peter Abraham]] |
+| **Exclusive partner pricing** | Trade pricing on Bromic heaters and controls. [[VERIFY: price tiers and qualifying volumes — Trade sales / Sales operations]] |
 | **Expert product recommendations** | The right heater, wattage, voltage and controls for each space, from people who know the range. |
 | **Free custom heating design plans** | Heater positions and coverage on your client's plan, with a parts and controls list to price from. |
 | **Extended warranty** | An additional year of warranty coverage on qualifying products. |
-| **Dedicated point of contact** | One named Bromic contact for your projects. [[VERIFY: contact per region — Arvin Avaness]] |
+| **Dedicated point of contact** | One named Bromic contact for your projects. [[VERIFY: contact per region — Trade sales]] |
 | **Project coverage and marketing spotlights** | Finished projects can be featured in Bromic case studies and marketing. |
 
-**Installer program.\*** Partners who install Bromic heaters can also join the Bromic installer program. [[VERIFY: installer program benefits and how to apply — Arvin Avaness]]
+**Installer program.\*** Partners who install Bromic heaters can also join the Bromic installer program. [[VERIFY: installer program benefits and how to apply — Trade sales]]
 
 **How to join.** Register your project and meet your Bromic rep at bromic.com/lp-builders, or call 1-800-301-1293.[^s10][^s7]
 

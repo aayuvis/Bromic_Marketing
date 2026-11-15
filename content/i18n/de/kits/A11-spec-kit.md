@@ -14,7 +14,7 @@ meta_description: "Muster-Ausschreibungstext für elektrische Infrarot-Heizstrah
 cta: {label: "Planungsgespräch vereinbaren", asset: A07}
 hero: l-010-075
 images: [t-006-016, l-005-022]
-owner_review: "Shaughn Ritchie + Mike Clifford"
+owner_review: "Spezifikation und Compliance + Produktteam"
 status: draft
 gated: true
 related: [ARC-IN-01, ARC-CO-01, ARC-PP-01]
@@ -22,7 +22,7 @@ updated: 2026-10-29
 lang: de
 translation_of: A11
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic
@@ -91,7 +91,7 @@ sources:
 
 # Planungspaket für Architekten: elektrische Infrarot-Heizstrahler für den Außenbereich
 
-Schreiben Sie die Außenheizung so in die Ausschreibung wie die Beleuchtung: eine eigene Position, ein benanntes Produkt, eine vorgeschriebene Steuerung, ein Detail in den Plänen. Dieses Paket enthält einen dreiteiligen Muster-Ausschreibungstext für elektrische Bromic Smart-Heat Infrarot-Heizstrahler, eine Tabelle zu Heizfläche und Auswahl, die zu zeichnenden Details und die anzufordernden CAD/BIM-Dateien. Die Gliederung folgt dem US-amerikanischen Standard MasterFormat (Abschnitt 23 83 33, Electric Radiant Heaters); für ein deutsches Leistungsverzeichnis übertragen Sie die Positionen in Ihre gewohnte Struktur. [[VERIFY: übliche Einordnung im deutschen Leistungsverzeichnis (z. B. STLB-Bau, Leistungsbereich nach VOB/C) — Raffaele Marti]] Passen Sie den Text in eckigen Klammern an, streichen Sie, was nicht zutrifft, und schicken Sie den Heizflächenplan vor dem Versand der Ausschreibung an das Bromic-Planungsteam.
+Schreiben Sie die Außenheizung so in die Ausschreibung wie die Beleuchtung: eine eigene Position, ein benanntes Produkt, eine vorgeschriebene Steuerung, ein Detail in den Plänen. Dieses Paket enthält einen dreiteiligen Muster-Ausschreibungstext für elektrische Bromic Smart-Heat Infrarot-Heizstrahler, eine Tabelle zu Heizfläche und Auswahl, die zu zeichnenden Details und die anzufordernden CAD/BIM-Dateien. Die Gliederung folgt dem US-amerikanischen Standard MasterFormat (Abschnitt 23 83 33, Electric Radiant Heaters); für ein deutsches Leistungsverzeichnis übertragen Sie die Positionen in Ihre gewohnte Struktur. [[VERIFY: übliche Einordnung im deutschen Leistungsverzeichnis (z. B. STLB-Bau, Leistungsbereich nach VOB/C) — Partner Deutschland]] Passen Sie den Text in eckigen Klammern an, streichen Sie, was nicht zutrifft, und schicken Sie den Heizflächenplan vor dem Versand der Ausschreibung an das Bromic-Planungsteam.
 
 ![Glaspavillon mit in die Decke eingelassenen Heizstrahlern](img:l-010-075)
 
@@ -102,8 +102,8 @@ Schreiben Sie die Außenheizung so in die Ausschreibung wie die Beleuchtung: ein
 | 1 | Dieses Verzeichnis und die Gebrauchsanleitung | Markdown → PDF | Entwurf |
 | 2 | Muster-Ausschreibungstext, Abschnitt 23 83 33 (dreiteiliges CSI-Format) | Bearbeitbare .docx aus diesem Text | Entwurf |
 | 3 | Tabelle zu Heizfläche und Auswahl | Tabelle unten; .xlsx auf Anfrage | Entwurf |
-| 4 | Detailliste (vier Standarddetails) | DWG / PDF | [[VERIFY: welche Details heute vorliegen — Mike Clifford]] |
-| 5 | CAD- und BIM-Dateiverzeichnis | DWG, RVT, PDF | [[VERIFY: welche Dateien vorliegen — Mike Clifford]] |
+| 4 | Detailliste (vier Standarddetails) | DWG / PDF | [[VERIFY: welche Details heute vorliegen — Produktteam]] |
+| 5 | CAD- und BIM-Dateiverzeichnis | DWG, RVT, PDF | [[VERIFY: welche Dateien vorliegen — Produktteam]] |
 | 6 | Anfrage Planungsgespräch (Heizflächenpläne) | Service, [asset:A07](asset:A07) | Verfügbar |
 
 ## In welchen MasterFormat-Abschnitt gehören Infrarot-Heizstrahler für den Außenbereich?
@@ -116,7 +116,7 @@ Wenn Ihr Projekt nach MasterFormat gegliedert ist, etwa bei internationalen Bauh
 - **Branchenpraxis.** Die Muster-Ausschreibungstexte anderer Hersteller für elektrische Heizstrahler im Außenbereich verwenden 23 83 33.[^s5] Manche Produktverzeichnisse führen Infrarotstrahler auch unter 23 82 39; das ist eine Gewohnheit der Verzeichnisse, kein Grund, ihr zu folgen.
 - **Angrenzende Abschnitte**, mit denen Sie abstimmen: 26 05 19 (Leitungen), 26 05 33 (Rohre und Dosen), 26 27 26 (Installationsgeräte), 26 28 16 (Trennschalter), 23 09 00 (Mess- und Regeltechnik), falls Gebäudeautomation zum Umfang gehört, sowie Division 06/09 für die Unterkonstruktion und Bekleidung der Untersicht bei eingelassenen Geräten.
 
-[[VERIFY: Abschnittsnummern und -titel mit der aktuellen MasterFormat-Ausgabe abgleichen, die das Büro verwendet — specifier / Shaughn Ritchie]]
+[[VERIFY: Abschnittsnummern und -titel mit der aktuellen MasterFormat-Ausgabe abgleichen, die das Büro verwendet — specifier / Spezifikation und Compliance]]
 
 ## Welcher Bromic-Heizstrahler passt zu welchem Bereich?
 
@@ -125,12 +125,12 @@ Zuerst die Menschen: Ein Esstisch braucht gleichmäßige Wärme auf Kopfhöhe im
 | Serie | Stand | Leistung | Oberflächen | Heizfläche je Gerät (ca.) | Montage | Geeignet für | Steuerung (vorgeschrieben) |
 |---|---|---|---|---|---|---|---|
 | Platinum Smart-Heat Electric | Aktuell | 2300 W, 3400 W, 4500 W | Schwarz, Weiß; Varianten Classic und Marine | 6–13 m² (je nach Modell und Größe) | Eingelassen, Decke, Wand | Überdachte Terrassen, Untersichten, Außenküchen, Küstenlagen (Marine) | Affinity On/Off- oder Dimmer-Steuergerät + manueller Wandschalter; App über kompatible Affinity-Steuerung |
-| Eclipse Smart-Heat Electric | Aktuell | Heizstufen 33 / 66 / 100 % [[VERIFY: Nennleistung und Spannung — Mike Clifford]] | Schwarz, dimmbare Randbeleuchtung | ca. 11 m² | Einzelstange 200 mm, 610 mm oder 1220 mm; Doppelstange; gebogene Stange | Esstische und Lounges, an denen Wärme und Licht aus einer Leuchte kommen | Affinity Eclipse-Steuergerät + manueller Wandschalter; App über kompatible Affinity-Steuerung |
-| Eclipse Smart-Heat Freestanding Electric | Aktuell | 33 / 66 / 100 % | Schwarz, dimmbare Randbeleuchtung | ca. 11 m² | Freistehend: integrierte Räder, beschwerter Fuß, gebogener Arm | Flexible Lounge- und Terrassenaufteilungen; Ausstattung (FF&E) statt Einbau | Affinity Eclipse-Steuergerät [[VERIFY: Steuerungsart der freistehenden Variante — Mike Clifford]] |
-| Tungsten Smart-Heat Electric, Coastal collection (demnächst erhältlich) | Demnächst erhältlich | [[VERIFY: Leistungen — Mike Clifford]] | Schwarz, Weiß; Edelstahl 316 in Marinequalität; Signature Diamond Pattern-Gitter | 6–13 m² (je nach Modell und Größe) | Eingelassen (Marine-Ausführung mit geringer Einbautiefe), Decke, Wand, Einzelpfosten | Lagen am Wasser und in Meeresnähe | Affinity-Steuerung wie bei Platinum [[VERIFY: Kompatibilität der Steuergeräte — Mike Clifford]] |
-| Tungsten Smart-Heat Electric, Select collection (demnächst erhältlich) | Demnächst erhältlich | [[VERIFY: Leistungen — Mike Clifford]] | Schwarz, Weiß, Graphit; erweiterte Blendenoptionen | 6–13 m² (je nach Modell und Größe) | Eingelassen (geringe Einbautiefe), Decke, Wand, Einzelpfosten | Gestaltungsorientierte Wohn- und Hotelprojekte | Affinity-Steuerung wie bei Platinum [[VERIFY: Kompatibilität der Steuergeräte — Mike Clifford]] |
+| Eclipse Smart-Heat Electric | Aktuell | Heizstufen 33 / 66 / 100 % [[VERIFY: Nennleistung und Spannung — Produktteam]] | Schwarz, dimmbare Randbeleuchtung | ca. 11 m² | Einzelstange 200 mm, 610 mm oder 1220 mm; Doppelstange; gebogene Stange | Esstische und Lounges, an denen Wärme und Licht aus einer Leuchte kommen | Affinity Eclipse-Steuergerät + manueller Wandschalter; App über kompatible Affinity-Steuerung |
+| Eclipse Smart-Heat Freestanding Electric | Aktuell | 33 / 66 / 100 % | Schwarz, dimmbare Randbeleuchtung | ca. 11 m² | Freistehend: integrierte Räder, beschwerter Fuß, gebogener Arm | Flexible Lounge- und Terrassenaufteilungen; Ausstattung (FF&E) statt Einbau | Affinity Eclipse-Steuergerät [[VERIFY: Steuerungsart der freistehenden Variante — Produktteam]] |
+| Tungsten Smart-Heat Electric, Coastal collection (demnächst erhältlich) | Demnächst erhältlich | [[VERIFY: Leistungen — Produktteam]] | Schwarz, Weiß; Edelstahl 316 in Marinequalität; Signature Diamond Pattern-Gitter | 6–13 m² (je nach Modell und Größe) | Eingelassen (Marine-Ausführung mit geringer Einbautiefe), Decke, Wand, Einzelpfosten | Lagen am Wasser und in Meeresnähe | Affinity-Steuerung wie bei Platinum [[VERIFY: Kompatibilität der Steuergeräte — Produktteam]] |
+| Tungsten Smart-Heat Electric, Select collection (demnächst erhältlich) | Demnächst erhältlich | [[VERIFY: Leistungen — Produktteam]] | Schwarz, Weiß, Graphit; erweiterte Blendenoptionen | 6–13 m² (je nach Modell und Größe) | Eingelassen (geringe Einbautiefe), Decke, Wand, Einzelpfosten | Gestaltungsorientierte Wohn- und Hotelprojekte | Affinity-Steuerung wie bei Platinum [[VERIFY: Kompatibilität der Steuergeräte — Produktteam]] |
 
-Die Heizfläche je Platinum-Leistungsstufe ist in diesem Paket noch nicht veröffentlicht. [[VERIFY: Heizfläche und Montagehöhe je Platinum-Leistung (2300 / 3400 / 4500 W) — Mike Clifford]]
+Die Heizfläche je Platinum-Leistungsstufe ist in diesem Paket noch nicht veröffentlicht. [[VERIFY: Heizfläche und Montagehöhe je Platinum-Leistung (2300 / 3400 / 4500 W) — Produktteam]]
 
 Ein Bereich gilt als Außenbereich, wenn mindestens 30 % seines Umfangs dauerhaft offen sind; ein Teildach hält eine „Wärmewolke“ zurück, die einen zusätzlichen konvektiven Effekt bringt.[^s2] Legen Sie die Anlage für den offenen Zustand aus und lassen Sie die Überdachung dann mithelfen.
 
@@ -157,9 +157,9 @@ B. Angrenzende Leistungen:
 
 **1.2 NORMEN UND REGELWERKE**
 
-A. DIN VDE 0100 (Errichten von Niederspannungsanlagen) in der gültigen Fassung, einschließlich der Teile für feuchte und nasse Bereiche sowie der Anforderungen an fest angeschlossene Heizgeräte. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Raffaele Marti]] Zum Vergleich: In den USA gilt NFPA 70 (NEC), Artikel 424.[^s8]
-B. Produktsicherheit: CE-Kennzeichnung nach den in der EU geltenden Richtlinien; in den USA werden Bromic-Geräte von einem anerkannten Prüflabor (UL, CSA oder Intertek/ETL) gelistet.[^s2] [[VERIFY: genaue Norm, nach der jeder elektrische Bromic-Heizstrahler gelistet bzw. geprüft ist (z. B. UL 499 oder UL 2021; CSA C22.2; für Europa EN 60335) und die Zertifikatsnummern — Mike Clifford]][^s9]
-C. Schutzart nach IEC 60529. [[VERIFY: IP-Schutzart je Serie — Mike Clifford]]
+A. DIN VDE 0100 (Errichten von Niederspannungsanlagen) in der gültigen Fassung, einschließlich der Teile für feuchte und nasse Bereiche sowie der Anforderungen an fest angeschlossene Heizgeräte. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Partner Deutschland]] Zum Vergleich: In den USA gilt NFPA 70 (NEC), Artikel 424.[^s8]
+B. Produktsicherheit: CE-Kennzeichnung nach den in der EU geltenden Richtlinien; in den USA werden Bromic-Geräte von einem anerkannten Prüflabor (UL, CSA oder Intertek/ETL) gelistet.[^s2] [[VERIFY: genaue Norm, nach der jeder elektrische Bromic-Heizstrahler gelistet bzw. geprüft ist (z. B. UL 499 oder UL 2021; CSA C22.2; für Europa EN 60335) und die Zertifikatsnummern — Produktteam]][^s9]
+C. Schutzart nach IEC 60529. [[VERIFY: IP-Schutzart je Serie — Produktteam]]
 D. Örtliche Bau-, Energie- und Brandschutzvorschriften in der Fassung, die das zuständige Bauamt anwendet. In manchen Märkten verlangen Energievorschriften, dass Außenheizungen als Strahlungsheizung ausgeführt und über Präsenzmelder oder Zeitschaltung gesteuert werden; siehe den [Leitfaden zur Elektrifizierung](asset:A12).
 
 **1.3 UNTERLAGEN ZUR FREIGABE**
@@ -185,17 +185,17 @@ A. Anlieferung in Originalverpackung, beschriftet mit Modell und Oberfläche. Bi
 
 **1.6 GEWÄHRLEISTUNG**
 
-A. Standardgarantie des Herstellers. [[VERIFY: Garantiebedingungen und -fristen je Serie, privat vs. gewerblich, sowie etwaige Bedingungen für Küsten- und Marinelagen; Verhältnis zur gesetzlichen Gewährleistung in Deutschland — Mike Clifford]]
+A. Standardgarantie des Herstellers. [[VERIFY: Garantiebedingungen und -fristen je Serie, privat vs. gewerblich, sowie etwaige Bedingungen für Küsten- und Marinelagen; Verhältnis zur gesetzlichen Gewährleistung in Deutschland — Produktteam]]
 
 ### TEIL 2 – PRODUKTE
 
 **2.1 HERSTELLER**
 
-A. Leitfabrikat: Bromic Heating, www.bromic.de.[^s1] [[VERIFY: Kontaktdaten des deutschen Vertriebspartners bzw. der deutschen Niederlassung (Anschrift, Telefon) — Raffaele Marti]]
+A. Leitfabrikat: Bromic Heating, www.bromic.de.[^s1] [[VERIFY: Kontaktdaten des deutschen Vertriebspartners bzw. der deutschen Niederlassung (Anschrift, Telefon) — Partner Deutschland]]
 
 B. Alternativprodukte: *[Eine Option wählen. Siehe „Produktvorgabe oder ‚oder gleichwertig‘?“ unten.]*
 1. [Option A – Produktvorgabe: Keine Alternativprodukte.]
-2. [Option B – Leitfabrikat mit Alternativen: Produkte anderer Hersteller werden nur berücksichtigt, wenn sie jede Leistungsanforderung in 2.2–2.4 erfüllen und mit einem Heizflächenplan für dieselbe Anordnung eingereicht werden.] *[Bei öffentlichen Vergaben in Deutschland die vergaberechtlichen Vorgaben zu Produktnennungen beachten.]* [[VERIFY: vergaberechtliche Formulierung für öffentliche Auftraggeber (VOB/A, § 7) — Raffaele Marti]]
+2. [Option B – Leitfabrikat mit Alternativen: Produkte anderer Hersteller werden nur berücksichtigt, wenn sie jede Leistungsanforderung in 2.2–2.4 erfüllen und mit einem Heizflächenplan für dieselbe Anordnung eingereicht werden.] *[Bei öffentlichen Vergaben in Deutschland die vergaberechtlichen Vorgaben zu Produktnennungen beachten.]* [[VERIFY: vergaberechtliche Formulierung für öffentliche Auftraggeber (VOB/A, § 7) — Partner Deutschland]]
 
 **2.2 ELEKTRISCHE INFRAROT-HEIZSTRAHLER**
 
@@ -203,7 +203,7 @@ A. Allgemein: elektrische Infrarot-Heizstrahler, für den Außeneinsatz am jewei
 
 B. **Platinum Smart-Heat Electric** (Leitfabrikat für eingelassene, Decken- und Wandmontage):
 1. Nennleistung: [2300 W] [3400 W] [4500 W].[^s1]
-2. Spannung und Phase: 230 V, 50 Hz. [[[VERIFY: für Deutschland verfügbare Spannungen je Leistung; in den USA historisch für Gewerbe mit 208 / 240 / 277 V angegeben — Mike Clifford]]][^s2]
+2. Spannung und Phase: 230 V, 50 Hz. [[[VERIFY: für Deutschland verfügbare Spannungen je Leistung; in den USA historisch für Gewerbe mit 208 / 240 / 277 V angegeben — Produktteam]]][^s2]
 3. Variante: [Classic] [Marine]. *[Marine für Küsten- und Poolbereiche.]*
 4. Oberfläche: [Schwarz] [Weiß].
 5. Montage: [eingelassen mit Einbaurahmen des Herstellers] [Deckenmontage] [Wandmontage].
@@ -215,27 +215,27 @@ C. **Eclipse Smart-Heat Electric** (Pendelleuchte mit Wärme und Licht):
 3. Oberfläche: Schwarz.
 4. Abhängung: [Einzelstange 200 mm] [Einzelstange 610 mm] [Einzelstange 1220 mm] [Doppelstange] [gebogene Stange].
 5. Heizfläche ca. 11 m² je Gerät, je nach Installation.
-6. Nennleistung und Spannung: [[VERIFY — Mike Clifford]].
+6. Nennleistung und Spannung: [[VERIFY — Produktteam]].
 
 D. **Eclipse Smart-Heat Freestanding Electric** *[in der Regel als Ausstattung (FF&E) ausgeschrieben; nur hier aufnehmen, wenn der Heizungsbauer liefert]*:
 1. Integrierte Räder, beschwerter Fuß, gebogener Arm, Wärme und dimmbares Licht in einem Gerät.[^s1]
 2. Heizstufen: 33 %, 66 %, 100 %. Heizfläche ca. 11 m².
-3. Stromversorgung: [[VERIFY: Stecker/Kabel und Steckdosenanforderungen — Mike Clifford]].
+3. Stromversorgung: [[VERIFY: Stecker/Kabel und Steckdosenanforderungen — Produktteam]].
 
 E. **Tungsten Smart-Heat Electric, Coastal collection (demnächst erhältlich)** *[erst ausschreiben, wenn Bromic die Verfügbarkeit für den Projektzeitplan bestätigt]*:
 1. Edelstahl 316 in Marinequalität; Signature Diamond Pattern-Gitter.[^s1]
 2. Oberfläche: [Schwarz] [Weiß].
 3. Montage: [eingelassen, Marine-Ausführung mit geringer Einbautiefe] [Decke] [Wand] [Einzelpfosten].
 4. Heizfläche ca. 6–13 m² je nach Modell und Größe.
-5. Leistung, Spannung, Abmessungen: [[VERIFY — Mike Clifford]].
+5. Leistung, Spannung, Abmessungen: [[VERIFY — Produktteam]].
 
 F. **Tungsten Smart-Heat Electric, Select collection (demnächst erhältlich)** *[wie oben]*:
 1. Oberfläche: [Schwarz] [Weiß] [Graphit]; erweiterte Blendenoptionen.[^s1]
 2. Montage: [eingelassen, geringe Einbautiefe] [Decke] [Wand] [Einzelpfosten].
 3. Heizfläche ca. 6–13 m² je nach Modell und Größe.
-4. Leistung, Spannung, Abmessungen: [[VERIFY — Mike Clifford]].
+4. Leistung, Spannung, Abmessungen: [[VERIFY — Produktteam]].
 
-G. Leistungsanforderungen (für Alternativprodukte nach Option B): [[VERIFY: von Bromic bevorzugte Leistungskriterien — z. B. Wellenlängenklasse, Art des Heizelements, IP-Schutzart, Prüfzeichen, Aufheizzeit, Blendung/sichtbares Licht — Mike Clifford + Shaughn Ritchie]]
+G. Leistungsanforderungen (für Alternativprodukte nach Option B): [[VERIFY: von Bromic bevorzugte Leistungskriterien — z. B. Wellenlängenklasse, Art des Heizelements, IP-Schutzart, Prüfzeichen, Aufheizzeit, Blendung/sichtbares Licht — Produktteam + Spezifikation und Compliance]]
 
 **2.3 STEUERUNG (VORGESCHRIEBEN)**
 
@@ -243,22 +243,22 @@ A. Jeder Heizstrahler ist über Affinity Smart-Heat Controls von Bromic Heating 
 
 B. Steuergeräte gemäß Plan:
 1. [Affinity Smart-Heat On/Off-Steuergerät] – Ein/Aus-Steuerung eines oder mehrerer Heizstrahler je Zone.
-2. [Affinity Smart-Heat Dimmer-Steuergerät] – stufenlose Leistung für Platinum- und Tungsten-Heizstrahler. [[VERIFY: Dimmer-Kompatibilität je Serie und Leistung — Mike Clifford]]
+2. [Affinity Smart-Heat Dimmer-Steuergerät] – stufenlose Leistung für Platinum- und Tungsten-Heizstrahler. [[VERIFY: Dimmer-Kompatibilität je Serie und Leistung — Produktteam]]
 3. [Affinity Smart-Heat Eclipse-Steuergerät] – Heizstufen und Randbeleuchtung für Eclipse-Heizstrahler.
 4. Manueller Wandschalter je Zone, Montagehöhe [__] mm über Oberkante Fertigfußboden, an einer Stelle mit Sicht auf den beheizten Bereich.
 
-C. App: Bromic Smart-Heat App für Zonen, Zeitpläne und Timer. WLAN-Anbindung und App-Funktionen erfordern kompatible Affinity Smart-Heat Controls, die separat erhältlich sind.[^s1] WLAN-Abdeckung an den Standorten der Steuergeräte vorsehen. [[VERIFY: Netzwerkanforderungen (Frequenzband, Signalstärke) — Mike Clifford]]
+C. App: Bromic Smart-Heat App für Zonen, Zeitpläne und Timer. WLAN-Anbindung und App-Funktionen erfordern kompatible Affinity Smart-Heat Controls, die separat erhältlich sind.[^s1] WLAN-Abdeckung an den Standorten der Steuergeräte vorsehen. [[VERIFY: Netzwerkanforderungen (Frequenzband, Signalstärke) — Produktteam]]
 
 D. Integrationen: wo vorgesehen, Anbindung an [Amazon Alexa] [Google Assistant] [Control4] [Crestron] [Lutron]. Die Kompatibilität hängt vom System ab; eine Integration erfordert kompatible Affinity-Steuergeräte und unter Umständen zusätzliche Hardware oder Konfiguration.[^s1] Vor der Rohinstallation mit dem Systemintegrator abstimmen.
 
-E. Energievorschriften: Wo örtliche Vorschriften verlangen, dass sich Außenheizungen bei Nichtbenutzung automatisch abschalten, ist eine Steuerung über [Präsenzmelder] [Zeitschaltuhr] vorzusehen. [[VERIFY: ob Zeitpläne/Timer von Affinity die Anforderung an eine Zeitschaltung erfüllen, und zugelassene Präsenzmelder-Schnittstelle — Mike Clifford]]
+E. Energievorschriften: Wo örtliche Vorschriften verlangen, dass sich Außenheizungen bei Nichtbenutzung automatisch abschalten, ist eine Steuerung über [Präsenzmelder] [Zeitschaltuhr] vorzusehen. [[VERIFY: ob Zeitpläne/Timer von Affinity die Anforderung an eine Zeitschaltung erfüllen, und zugelassene Präsenzmelder-Schnittstelle — Produktteam]]
 
 F. Zonierung: getrennte Zonen für Bereiche, die zu unterschiedlichen Zeiten genutzt werden (zum Beispiel Restaurant, Bar, Lounge).
 
 **2.4 ZUBEHÖR**
 
-A. Einbaurahmen: Einbaurahmen des Herstellers für den bündigen Einbau elektrischer Platinum- und Tungsten-Heizstrahler in Decken und Untersichten.[^s2] [[VERIFY: Artikelnummern der Einbaurahmen, Ausschnittmaße und Hohlraumtiefe je Modell — Mike Clifford]]
-B. Abhängestangen: Abhängestangen des Herstellers, um Heizstrahler unter hohen Decken auf die wirksame Höhe zu bringen.[^s2] [[VERIFY: verfügbare Längen — Mike Clifford]]
+A. Einbaurahmen: Einbaurahmen des Herstellers für den bündigen Einbau elektrischer Platinum- und Tungsten-Heizstrahler in Decken und Untersichten.[^s2] [[VERIFY: Artikelnummern der Einbaurahmen, Ausschnittmaße und Hohlraumtiefe je Modell — Produktteam]]
+B. Abhängestangen: Abhängestangen des Herstellers, um Heizstrahler unter hohen Decken auf die wirksame Höhe zu bringen.[^s2] [[VERIFY: verfügbare Längen — Produktteam]]
 C. Wand- und Deckenhalterungen: wie mit jedem Gerät geliefert.
 
 ### TEIL 3 – AUSFÜHRUNG
@@ -272,7 +272,7 @@ C. Vor der Montage die Abstände zu brennbaren Materialien, Sprinklerköpfen, Le
 **3.2 MONTAGE**
 
 A. Heizstrahler, Steuerung und Zubehör nach der aktuellen Montageanleitung des Herstellers und den freigegebenen Werkplänen montieren.
-B. Montagehöhen: nicht unter den Mindestwerten des Herstellers für Modell und Leistung. *[Die Planungshinweise von Bromic nannten bisher mindestens ca. 1,83 m über dem Boden bei Wandmontage und ca. 2,44 m bei Deckenmontage, je nach Leistung.[^s2] Für jedes Modell mit der aktuellen Montageanleitung abgleichen.]* [[VERIFY: aktuelle Mindestmontagehöhen und -abstände je Modell und Leistung — Mike Clifford]]
+B. Montagehöhen: nicht unter den Mindestwerten des Herstellers für Modell und Leistung. *[Die Planungshinweise von Bromic nannten bisher mindestens ca. 1,83 m über dem Boden bei Wandmontage und ca. 2,44 m bei Deckenmontage, je nach Leistung.[^s2] Für jedes Modell mit der aktuellen Montageanleitung abgleichen.]* [[VERIFY: aktuelle Mindestmontagehöhen und -abstände je Modell und Leistung — Produktteam]]
 C. Wandgeräte auf den Aufenthaltsbereich ausrichten, nicht auf Gehwege oder Verglasungen.
 D. Eingelassene Geräte: Einbaurahmen vor der Deckenbekleidung montieren; die Deckendurchdringung nach Herstellerangaben abdichten.
 
@@ -306,7 +306,7 @@ B. Betriebs- und Wartungsunterlagen, Garantieunterlagen und das Inbetriebnahmepr
 
 ## Produktvorgabe oder „oder gleichwertig“?
 
-*Hinweis zur Prüfung (Shaughn Ritchie):* Ziel dieses Pakets ist es, den Austausch des Produkts bei der Vergabe zu verhindern. Eine Produktvorgabe (Option A) leistet das und ist bei privaten Wohn- und Hotelprojekten üblich. Viele öffentliche und manche privaten Bauherren verlangen Wettbewerb; der Architekt muss dann Alternativen zulassen. In Deutschland kann das Vergaberecht öffentliche Auftraggeber zu einer produktneutralen Ausschreibung oder zum Zusatz „oder gleichwertig“ verpflichten. Option B behält Bromic als Leitfabrikat, legt aber Leistungskriterien fest und verlangt für jedes Alternativprodukt einen Heizflächenplan. Das hebt die Hürde, ohne Alternativen auszuschließen. Beide Optionen sind oben ausformuliert. [[VERIFY: von Bromic bevorzugte Standardoption (A oder B) und die Leistungskriterien für Option B — Shaughn Ritchie + Mike Clifford]]
+*Hinweis zur Prüfung (Spezifikation und Compliance):* Ziel dieses Pakets ist es, den Austausch des Produkts bei der Vergabe zu verhindern. Eine Produktvorgabe (Option A) leistet das und ist bei privaten Wohn- und Hotelprojekten üblich. Viele öffentliche und manche privaten Bauherren verlangen Wettbewerb; der Architekt muss dann Alternativen zulassen. In Deutschland kann das Vergaberecht öffentliche Auftraggeber zu einer produktneutralen Ausschreibung oder zum Zusatz „oder gleichwertig“ verpflichten. Option B behält Bromic als Leitfabrikat, legt aber Leistungskriterien fest und verlangt für jedes Alternativprodukt einen Heizflächenplan. Das hebt die Hürde, ohne Alternativen auszuschließen. Beide Optionen sind oben ausformuliert. [[VERIFY: von Bromic bevorzugte Standardoption (A oder B) und die Leistungskriterien für Option B — Spezifikation und Compliance + Produktteam]]
 
 ## Welche Details sollten die Pläne enthalten?
 
@@ -323,17 +323,17 @@ Vier Standarddetails decken die meisten Projekte ab. Jedes wird als Schnitt oder
 
 ## Welche CAD- und BIM-Dateien gibt es?
 
-[[VERIFY: welche Dateien vorliegen, ihre Formate, Detaillierungsgrad (LOD) und wo sie bereitgestellt werden (bromic.com, BIMobject, ARCAT, andere) — Mike Clifford]]
+[[VERIFY: welche Dateien vorliegen, ihre Formate, Detaillierungsgrad (LOD) und wo sie bereitgestellt werden (bromic.com, BIMobject, ARCAT, andere) — Produktteam]]
 
 | Datei | Format | Umfang | Stand |
 |---|---|---|---|
-| Revit-Familien, elektrische Heizstrahler | .rfa | Platinum (2300/3400/4500 W), Eclipse, Tungsten Coastal und Select (nach Markteinführung) | [[VERIFY — Mike Clifford]] |
-| Revit-Familien, Steuergeräte | .rfa | Affinity On/Off-, Dimmer- und Eclipse-Steuergeräte | [[VERIFY — Mike Clifford]] |
-| 2D-CAD-Blöcke | .dwg | Grundriss- und Ansichtsblöcke je Heizstrahler | [[VERIFY — Mike Clifford]] |
-| Standarddetails D1–D4 | .dwg / .pdf | Wie oben aufgeführt | [[VERIFY — Mike Clifford]] |
-| Datenblätter | .pdf | Je Modell: Abmessungen, Gewicht, Leistung, Spannung, Abstände | [[VERIFY — Mike Clifford]] |
-| Montageanleitungen | .pdf | Je Modell, aktuelle Ausgabe | [[VERIFY — Mike Clifford]] |
-| Prüf- und Konformitätsnachweise | .pdf | Je Modell | [[VERIFY — Mike Clifford]] |
+| Revit-Familien, elektrische Heizstrahler | .rfa | Platinum (2300/3400/4500 W), Eclipse, Tungsten Coastal und Select (nach Markteinführung) | [[VERIFY — Produktteam]] |
+| Revit-Familien, Steuergeräte | .rfa | Affinity On/Off-, Dimmer- und Eclipse-Steuergeräte | [[VERIFY — Produktteam]] |
+| 2D-CAD-Blöcke | .dwg | Grundriss- und Ansichtsblöcke je Heizstrahler | [[VERIFY — Produktteam]] |
+| Standarddetails D1–D4 | .dwg / .pdf | Wie oben aufgeführt | [[VERIFY — Produktteam]] |
+| Datenblätter | .pdf | Je Modell: Abmessungen, Gewicht, Leistung, Spannung, Abstände | [[VERIFY — Produktteam]] |
+| Montageanleitungen | .pdf | Je Modell, aktuelle Ausgabe | [[VERIFY — Produktteam]] |
+| Prüf- und Konformitätsnachweise | .pdf | Je Modell | [[VERIFY — Produktteam]] |
 | Dieser Muster-Ausschreibungstext | .docx | Abschnitt 23 83 33 | Entwurf (dieses Dokument) |
 
 ## Checkliste für die Planung

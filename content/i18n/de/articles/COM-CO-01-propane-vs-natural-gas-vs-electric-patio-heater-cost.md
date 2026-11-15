@@ -14,7 +14,7 @@ meta_description: "Flüssiggas ist günstig in der Anschaffung und teuer im Betr
 cta: {label: "Fünf-Jahres-Kostenmodell rechnen", asset: A20}
 hero: l-019-164
 images: [l-010-067]
-owner_review: Blake Petty
+owner_review: Vertrieb Gastronomie
 status: draft
 gated: false
 related: [COM-AW-01, COM-IN-01, COM-CO-KB1, COM-PP-01]
@@ -22,7 +22,7 @@ updated: 2026-10-30
 lang: de
 translation_of: COM-CO-01
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: U.S. Energy Information Administration
@@ -91,7 +91,7 @@ Die Formeln, mit Tarifen, die Sie auf Ihrer eigenen Rechnung prüfen können:
 - **Erdgas:** Kosten pro Stunde = kW × Preis je kWh Gas (in Deutschland wird Erdgas in kWh abgerechnet)
 - **Flüssiggas:** Kosten pro Stunde = kW ÷ 7,09 kWh je Liter × Preis je Liter
 
-US-Tarife im Beispiel: Strom für Gewerbekunden 14,07 US-Cent je kWh (US-Durchschnitt, Januar–Mai 2026)[^s1]; Erdgas für Gewerbekunden 10,45 $ je 1000 Kubikfuß (28,3 m³; US-Durchschnitt, Januar–April 2025)[^s2], bei rund 10,7 kWh je m³ (umgerechnet aus 1036 Btu je Kubikfuß) also etwa 1,01 $ je Therm oder 3,4 US-Cent je kWh[^s3]; Flüssiggas 2,46 $ je US-Gallone (3,785 L), die Winterprognose der EIA für Privathaushalte 2025–26.[^s4] [[VERIFY: Tarife 2026 — Brian Kim/Finance; Flüssiggas für Gewerbekunden in Tauschflaschen kostet meist deutlich mehr als lose Lieferung an Privathaushalte — Angebot eines Lieferanten einholen]] Diese US-Preise gelten nicht für Deutschland; setzen Sie Ihre eigenen ein.
+US-Tarife im Beispiel: Strom für Gewerbekunden 14,07 US-Cent je kWh (US-Durchschnitt, Januar–Mai 2026)[^s1]; Erdgas für Gewerbekunden 10,45 $ je 1000 Kubikfuß (28,3 m³; US-Durchschnitt, Januar–April 2025)[^s2], bei rund 10,7 kWh je m³ (umgerechnet aus 1036 Btu je Kubikfuß) also etwa 1,01 $ je Therm oder 3,4 US-Cent je kWh[^s3]; Flüssiggas 2,46 $ je US-Gallone (3,785 L), die Winterprognose der EIA für Privathaushalte 2025–26.[^s4] [[VERIFY: Tarife 2026 — Finanzen; Flüssiggas für Gewerbekunden in Tauschflaschen kostet meist deutlich mehr als lose Lieferung an Privathaushalte — Angebot eines Lieferanten einholen]] Diese US-Preise gelten nicht für Deutschland; setzen Sie Ihre eigenen ein.
 
 | Heizstrahler | Leistung | Verbrauch pro Stunde | US-Beispiel pro Stunde | Heizfläche (ca.) |
 |---|---|---|---|---|
@@ -100,14 +100,14 @@ US-Tarife im Beispiel: Strom für Gewerbekunden 14,07 US-Cent je kWh (US-Durchsc
 | Tungsten Smart-Heat Freestanding Gas, Erdgas | 11,1 kW | 11,1 kWh Gas | 0,38 $ | ca. 20 m² |
 | Tungsten Smart-Heat Freestanding Gas, Flüssiggas | 11,1 kW | 1,57 L | 1,02 $ | ca. 20 m² |
 
-Die Heizflächen sind die von Bromic veröffentlichten Bereiche;[^s6] den Wert je Platinum-Leistung liefert erst die Heizflächentabelle von Bromic. [[VERIFY: Heizfläche je Platinum-Leistung — Mike Clifford]] Erdgas ist hier kein Produkt für sich: Ein freistehender Heizstrahler mit Erdgas braucht einen festen Gasanschluss. [[VERIFY: Anschlussart für Erdgas beim Tungsten Smart-Heat Freestanding Gas — Mike Clifford]]
+Die Heizflächen sind die von Bromic veröffentlichten Bereiche;[^s6] den Wert je Platinum-Leistung liefert erst die Heizflächentabelle von Bromic. [[VERIFY: Heizfläche je Platinum-Leistung — Produktteam]] Erdgas ist hier kein Produkt für sich: Ein freistehender Heizstrahler mit Erdgas braucht einen festen Gasanschluss. [[VERIFY: Anschlussart für Erdgas beim Tungsten Smart-Heat Freestanding Gas — Produktteam]]
 
 ## Was sind die versteckten Kosten von Flüssiggas?
 
 Arbeitszeit und Lagerung. Flüssiggas-Heizstrahler leeren an vollen Abenden Flasche um Flasche, und der Wechsel fällt mitten in den Service.
 
 - **Arbeitszeit für den Tausch:** Jemand sammelt leere Flaschen ein, nimmt Lieferungen an und wechselt Flaschen. Rechnen Sie das mit.
-- **Lagerung:** In den USA legt NFPA 58 fest, wie weit gelagerte Flaschen von Türen und anderen gefährdeten Bereichen entfernt sein müssen, und viele Städte setzen eigene Grenzen oder verlangen ab bestimmten Mengen eine Genehmigung.[^s5] In Deutschland gelten die TRF und die Auflagen Ihrer Stadt. [[VERIFY: Regeln für die Lagerung von Flüssiggasflaschen in der Gastronomie in Deutschland — Raffaele Marti]] Platz für einen Flaschenschrank ist Fläche, die Sie nicht verkaufen.
+- **Lagerung:** In den USA legt NFPA 58 fest, wie weit gelagerte Flaschen von Türen und anderen gefährdeten Bereichen entfernt sein müssen, und viele Städte setzen eigene Grenzen oder verlangen ab bestimmten Mengen eine Genehmigung.[^s5] In Deutschland gelten die TRF und die Auflagen Ihrer Stadt. [[VERIFY: Regeln für die Lagerung von Flüssiggasflaschen in der Gastronomie in Deutschland — Partner Deutschland]] Platz für einen Flaschenschrank ist Fläche, die Sie nicht verkaufen.
 - **Lieferregeln:** Manche Brandschutzvorschriften untersagen die Lieferung genehmigungspflichtiger Mengen an einen Standort ohne Brandschutzgenehmigung – New York City ist ein Beispiel.
 - **Preis:** Tauschflaschen kosten je Liter meist deutlich mehr als lose geliefertes Flüssiggas. Die Tabelle oben verwendet einen Durchschnitt für lose Lieferung an Privathaushalte, der Flüssiggas günstiger aussehen lässt.
 
@@ -123,8 +123,8 @@ Nur zur Veranschaulichung. Jeder Eingangswert unten ist eine Annahme für ein Re
 
 | Kosten über fünf Jahre (zur Veranschaulichung, US-Beispiel) | Strom | Erdgas | Flüssiggas |
 |---|---|---|---|
-| Heizstrahler und Steuerung (Anschaffung) | [[VERIFY: Preisliste — Blake Petty]] | [[VERIFY: Preisliste — Blake Petty]] | [[VERIFY: Preisliste — Blake Petty]] |
-| Installation und Genehmigungen | [[VERIFY: Kosten für Stromkreis und Installation — Blake Petty]] | [[VERIFY: Kosten für die Verlängerung der Gasleitung — Blake Petty]] | [[VERIFY: Kosten für Flaschenkäfig oder -schrank — Blake Petty]] |
+| Heizstrahler und Steuerung (Anschaffung) | [[VERIFY: Preisliste — Vertrieb Gastronomie]] | [[VERIFY: Preisliste — Vertrieb Gastronomie]] | [[VERIFY: Preisliste — Vertrieb Gastronomie]] |
+| Installation und Genehmigungen | [[VERIFY: Kosten für Stromkreis und Installation — Vertrieb Gastronomie]] | [[VERIFY: Kosten für die Verlängerung der Gasleitung — Vertrieb Gastronomie]] | [[VERIFY: Kosten für Flaschenkäfig oder -schrank — Vertrieb Gastronomie]] |
 | Energie, 5 Jahre (Menge) | 157.500 kWh | ca. 557.000 kWh | ca. 78.600 L |
 | Energie, 5 Jahre (US-Preise) | 22.160 $ | 19.190 $ | 51.082 $ |
 | Arbeitszeit für Flaschenwechsel, 5 Jahre (US-Preise) | keine | keine | 18.417 $ |
@@ -139,7 +139,7 @@ Mit diesen US-Annahmen kostet Erdgas im Betrieb am wenigsten, wenn die Leitung v
 | Standort | Passt meist | Nötige Steuerung |
 |---|---|---|
 | Überdachte Terrasse, Wand oder Untersicht vorhanden | Platinum Smart-Heat Electric | Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät, Wandschalter, App |
-| Große offene Terrasse, Gasleitung in Reichweite | Tungsten Smart-Heat Freestanding Gas mit Erdgas | [[VERIFY: Affinity-Steuerungsmöglichkeiten — Mike Clifford]] |
+| Große offene Terrasse, Gasleitung in Reichweite | Tungsten Smart-Heat Freestanding Gas mit Erdgas | [[VERIFY: Affinity-Steuerungsmöglichkeiten — Produktteam]] |
 | Vorübergehende oder saisonale Anordnung, kein Gas | Eclipse Smart-Heat Freestanding Electric | Eclipse-Steuergerät |
 | Dicht bebauter Innenstadtstandort mit Einschränkungen für Flüssiggas | Elektro | Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät, Wandschalter, App |
 

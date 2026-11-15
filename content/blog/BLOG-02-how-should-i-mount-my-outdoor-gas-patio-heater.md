@@ -18,8 +18,8 @@ meta_description: "Mount a Bromic gas patio heater at 96 in or more, with 36 in 
 cta: {label: "Get the install guide series", asset: A17}
 hero: w-bromic-centrico-photos-8
 images: [w-img-1450]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -117,7 +117,7 @@ The older post said ceiling mounting works with "ceilings of any height". It wor
 
 ## How do I choose a drop pole?
 
-Gas poles come in six lengths: 9.69, 13.62, 17.56, 25.43, 33.31 and 41.18 in[^s5] [[VERIFY: pole lengths and the 16.6 in heater-and-bracket height against the 2026 cut sheet — Mike Clifford]]. To pick one, take the ceiling height, subtract the target heater height (8–9 ft) and the 16.6 in heater and bracket[^s5]; the nearest shorter pole is your length. The pole must hang straight down; its adjustment point is for a pitched ceiling only[^s5].
+Gas poles come in six lengths: 9.69, 13.62, 17.56, 25.43, 33.31 and 41.18 in[^s5] [[VERIFY: pole lengths and the 16.6 in heater-and-bracket height against the 2026 cut sheet — Product team]]. To pick one, take the ceiling height, subtract the target heater height (8–9 ft) and the 16.6 in heater and bracket[^s5]; the nearest shorter pole is your length. The pole must hang straight down; its adjustment point is for a pitched ceiling only[^s5].
 
 ## What clearances does a gas heater need?
 
@@ -127,7 +127,7 @@ Gas poles come in six lengths: 9.69, 13.62, 17.56, 25.43, 33.31 and 41.18 in[^s5
 | Above the heater (ceiling, soffit, beam) | At least 36 in | At least 14 in |
 | To combustibles | At least 36 in | At least 36 in |
 
-Sources: wall-mounting post and deflector pages[^s1][^s2][^s5]. Combustibles include fabrics, plastics and powder-coated finishes[^s1]. The [Platinum Gas](https://www.bromic.com/product/platinum-gas-heat-deflector/) and [Tungsten Gas](https://www.bromic.com/product/tungsten-gas-heat-deflector/) deflectors are dual-layer stainless steel[^s5]. Bromic recommends one where space above is tight or the heater is exposed: the product pages set that threshold at 1,100 mm (about 43 in) for Platinum Gas and 42 in for Tungsten Gas[^s3][^s4] [[VERIFY: one deflector threshold, and whether 36 in is the minimum without one — Mike Clifford]]. Fourteen inches and the 35 cm quoted in the covered-patio post are the same clearance in two units.
+Sources: wall-mounting post and deflector pages[^s1][^s2][^s5]. Combustibles include fabrics, plastics and powder-coated finishes[^s1]. The [Platinum Gas](https://www.bromic.com/product/platinum-gas-heat-deflector/) and [Tungsten Gas](https://www.bromic.com/product/tungsten-gas-heat-deflector/) deflectors are dual-layer stainless steel[^s5]. Bromic recommends one where space above is tight or the heater is exposed: the product pages set that threshold at 1,100 mm (about 43 in) for Platinum Gas and 42 in for Tungsten Gas[^s3][^s4] [[VERIFY: one deflector threshold, and whether 36 in is the minimum without one — Product team]]. Fourteen inches and the 35 cm quoted in the covered-patio post are the same clearance in two units.
 
 ## What does each heater weigh?
 
@@ -135,8 +135,8 @@ Sources: wall-mounting post and deflector pages[^s1][^s2][^s5]. Combustibles inc
 |---|---|---|---|
 | Platinum Gas, smaller model | 23,600 BTU/h | 160 ft² | 33 lb |
 | Platinum Gas, larger model | 39,800 BTU/h | 215 ft² | 44 lb |
-| Tungsten Gas, smaller model | [[VERIFY: output not published until confirmed — Mike Clifford]] | 160 ft² | 33 lb |
-| Tungsten Gas, larger model | [[VERIFY: output not published until confirmed — Mike Clifford]] | 215 ft² | 44 lb |
+| Tungsten Gas, smaller model | [[VERIFY: output not published until confirmed — Product team]] | 160 ft² | 33 lb |
+| Tungsten Gas, larger model | [[VERIFY: output not published until confirmed — Product team]] | 215 ft² | 44 lb |
 
 Sources: product pages[^s3][^s4]. Fix brackets and poles to structure rated for the heater, not to sheathing. Tungsten Gas has a pivot arm of ±25° for aiming[^s4].
 

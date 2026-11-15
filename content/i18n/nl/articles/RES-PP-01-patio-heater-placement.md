@@ -14,7 +14,7 @@ meta_description: "Richtlijn van Bromic: buitenverwarmers aan de wand minstens 1
 cta: {label: "Plan een ontwerpgesprek", asset: A07}
 hero: l-010-070
 images: [l-010-075, l-005-022]
-owner_review: Megan Spies
+owner_review: marketing
 status: draft
 gated: false
 related: [RES-CO-01, RES-BY-01, RES-PP-KB1, ARC-PP-01]
@@ -55,9 +55,9 @@ De richtlijn van Bromic is om een elektrische buitenverwarmer aan de wand minste
 |---|---|---|
 | Wand, elektrisch | 1,8 m[^s1] | Vermogen van de verwarmer; de installatiehandleiding van het model |
 | Plafond, elektrisch | 2,4 m[^s1] | Vermogen van de verwarmer; de vrije ruimte tot het plafond hangt af van het vermogen[^s1] |
-| Ingebouwd, elektrisch (Platinum, Tungsten Electric) | Volgens de installatiehandleiding [[VERIFY: montagehoogtes per model bij inbouw — Mike Clifford]] | Inbouwkit en plafondholte |
-| Eclipse aan een pendel | Volgens de installatiehandleiding [[VERIFY: montagehoogte van de Eclipse en keuze van de pendel — Mike Clifford]] | Pendel: enkel van ca. 200, 610 of 1220 mm, dubbel of gebogen[^s2] |
-| Tungsten Freestanding Gas | Vrijstaand; geen montagehoogte | Afstand tot brandbare materialen en vrije ruimte erboven, volgens de handleiding [[VERIFY — Mike Clifford]] |
+| Ingebouwd, elektrisch (Platinum, Tungsten Electric) | Volgens de installatiehandleiding [[VERIFY: montagehoogtes per model bij inbouw — productteam]] | Inbouwkit en plafondholte |
+| Eclipse aan een pendel | Volgens de installatiehandleiding [[VERIFY: montagehoogte van de Eclipse en keuze van de pendel — productteam]] | Pendel: enkel van ca. 200, 610 of 1220 mm, dubbel of gebogen[^s2] |
+| Tungsten Freestanding Gas | Vrijstaand; geen montagehoogte | Afstand tot brandbare materialen en vrije ruimte erboven, volgens de handleiding [[VERIFY — productteam]] |
 
 Hoger is niet vanzelf beter. Het verwarmd oppervlak hangt af van de montagehoogte, en ook van het model, de omgeving en de installatie.[^s2] Te hoog en er komt minder warmte bij de zitplekken; te laag en de verwarmer komt onder zijn minimum. Bij een hoog plafond brengen pendels Platinum- en Tungsten Electric-verwarmers naar een effectieve hoogte.[^s1]
 
@@ -86,19 +86,19 @@ Verdeel ze zo dat hun verwarmde oppervlakken boven de zitplekken op elkaar aansl
 | Eclipse Smart-Heat Electric / Freestanding Electric | 11 m² |
 | Tungsten Smart-Heat Freestanding Gas | 20 m² |
 
-Een rekenvoorbeeld: een eetterras van ca. 7,3 × 3 m is ca. 22 m². Reken het aantal verwarmers als oppervlak ÷ (verwarmd oppervlak × overkappingsfactor × klimaatfactor), naar boven afgerond; voor een gedeeltelijk overdekt terras op koele avonden komen de twee factoren uit op 1,0 × 0,85 = 0,85 (een open locatie is 0,85 voor de overkapping, een dicht dak 1,1; milde avonden 1,0, koude 0,7). [[VERIFY: factoren voor overkapping en klimaat — Mike Clifford]] Platinum 4500 W: 22 ÷ (13,3 × 0,85) = 2,0, dus twee; Platinum 3400 W: 22 ÷ (10 × 0,85) = 2,6, dus drie. Hang ze langs de lange zijde, elk gecentreerd boven een deel van de tafel, met overlappende randen, elk met een Affinity Smart-Heat On/Off- of Dimmer-regelaar en een wandschakelaar. Een vrijstaande verwarmer bedient hoogstens vier zitplaatsen, omdat gasten zijn stralingswarmte afschermen: bij ongeveer 1,9 m² per zitplaats is 22 m² goed voor 12 zitplaatsen, dus drie Tungsten Freestanding Gas-verwarmers. [[VERIFY: aanbevolen hart-op-hartafstand per model en montagehoogte — Mike Clifford]] [[DIAGRAM: bovenaanzicht van een terras van ca. 7,3 × 3 m met twee en drie wandverwarmers, met overlappend verwarmd oppervlak boven de tafel]]
+Een rekenvoorbeeld: een eetterras van ca. 7,3 × 3 m is ca. 22 m². Reken het aantal verwarmers als oppervlak ÷ (verwarmd oppervlak × overkappingsfactor × klimaatfactor), naar boven afgerond; voor een gedeeltelijk overdekt terras op koele avonden komen de twee factoren uit op 1,0 × 0,85 = 0,85 (een open locatie is 0,85 voor de overkapping, een dicht dak 1,1; milde avonden 1,0, koude 0,7). [[VERIFY: factoren voor overkapping en klimaat — productteam]] Platinum 4500 W: 22 ÷ (13,3 × 0,85) = 2,0, dus twee; Platinum 3400 W: 22 ÷ (10 × 0,85) = 2,6, dus drie. Hang ze langs de lange zijde, elk gecentreerd boven een deel van de tafel, met overlappende randen, elk met een Affinity Smart-Heat On/Off- of Dimmer-regelaar en een wandschakelaar. Een vrijstaande verwarmer bedient hoogstens vier zitplaatsen, omdat gasten zijn stralingswarmte afschermen: bij ongeveer 1,9 m² per zitplaats is 22 m² goed voor 12 zitplaatsen, dus drie Tungsten Freestanding Gas-verwarmers. [[VERIFY: aanbevolen hart-op-hartafstand per model en montagehoogte — productteam]] [[DIAGRAM: bovenaanzicht van een terras van ca. 7,3 × 3 m met twee en drie wandverwarmers, met overlappend verwarmd oppervlak boven de tafel]]
 
 Voor het exacte aantal geeft [elektrisch of gas](item:RES-CO-01) een snelle rekenmethode, en de Bromic-calculator verfijnt die.
 
 ## Wat is afstand tot brandbare materialen?
 
-De minimale afstand tussen een verwarmer en alles wat kan branden: houten plafonds, overstekken, pergolabalken, zonneschermen, gordijnen, kussens. De installatiehandleiding van elk model geeft de vrije afstanden boven, naast en voor de verwarmer; de vrije ruimte tot het plafond hangt af van het vermogen.[^s1] [[VERIFY: tabel met afstanden tot brandbare materialen per model — Mike Clifford]]
+De minimale afstand tussen een verwarmer en alles wat kan branden: houten plafonds, overstekken, pergolabalken, zonneschermen, gordijnen, kussens. De installatiehandleiding van elk model geeft de vrije afstanden boven, naast en voor de verwarmer; de vrije ruimte tot het plafond hangt af van het vermogen.[^s1] [[VERIFY: tabel met afstanden tot brandbare materialen per model — productteam]]
 
 Zo werk je erbinnen:
 
 - **Gasverwarmers:** dubbelwandige roestvaststalen warmtedeflectors verkleinen de benodigde vrije ruimte boven de verwarmer; met plafondpendels monteer je twee toestellen rug aan rug onder vlakke of schuine plafonds.[^s1]
 - **Elektrische verwarmers:** met inbouwkits worden Platinum en Tungsten Electric vlak in een dakholte gebouwd, volgens de inbouwafstanden in de handleiding.[^s1] De Tungsten-collecties die binnenkort beschikbaar zijn, voegen inbouw met geringe inbouwhoogte toe.[^s2]
-- **Textiel en kussens:** houd stoffen, parasols en kussens uit de stralingsrichting. Als algemene richtlijn voor verwarming in huis adviseert de Amerikaanse NFPA om alles wat kan branden minstens ongeveer 0,9 m van verwarmingstoestellen te houden.[^s3] [[VERIFY: formulering van de NFPA-tip; afstanden voor een specifieke verwarmer komen uit de handleiding — Megan Spies]]
+- **Textiel en kussens:** houd stoffen, parasols en kussens uit de stralingsrichting. Als algemene richtlijn voor verwarming in huis adviseert de Amerikaanse NFPA om alles wat kan branden minstens ongeveer 0,9 m van verwarmingstoestellen te houden.[^s3] [[VERIFY: formulering van de NFPA-tip; afstanden voor een specifieke verwarmer komen uit de handleiding — marketing]]
 
 ![Tungsten Coastal vlak ingebouwd in een wit plafond](img:l-005-022)
 

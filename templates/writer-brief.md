@@ -17,11 +17,11 @@ Voice: Bromic — direct, expert, calm, mature. Pithy: short sentences, no fille
 exclamation marks, no emoji. Sentence case headings. People and moments first, then numbers. Every product recommendation
 names the controls needed (Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, wall switch, Smart-Heat app; Wi-Fi/app
 features require compatible Affinity controls, sold separately). Tungsten Coastal/Select are always "(coming soon)". No legacy
-"500 series". No Tungsten built-in gas BTU. Competitors only if factual + sourced + `needs_approval: Shaughn Ritchie` in frontmatter.
+"500 series". No Tungsten built-in gas BTU. Competitors only if factual + sourced + `needs_approval: Specification and compliance` in frontmatter.
 Code/permit content: disclaimer to confirm with the local authority and a licensed electrician/gas fitter; link primary source.
 
 Running-cost maths: cost/hr = kW × $/kWh (electric); BTU/hr ÷ 100,000 × $/therm (natural gas); BTU/hr ÷ 91,500 × $/gal (propane).
-Use the latest EIA averages you can find, cite them, show the formula, mark [[VERIFY: 2026 rates — Brian Kim/Finance]].
+Use the latest EIA averages you can find, cite them, show the formula, mark [[VERIFY: 2026 rates — Finance]].
 
 Write ONLY in the folders you are assigned. Do not run git. Log every open question / [[VERIFY]] you create to
 reviews/open-questions/<your-agent-name>.md as a table: | item id | question | suggested owner |.

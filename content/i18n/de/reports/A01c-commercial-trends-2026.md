@@ -14,7 +14,7 @@ meta_description: "Zehn belegte Trends 2026 für Terrassen von Restaurants, Bars
 cta: {label: "Ihre ROI-Einschätzung anfordern", asset: A21}
 hero: l-016-131
 images: [l-013-111, p-003-006, g-operator, p-007-030, p-002-001, p-014-066, t-006-016, p-010-044, t-003-005, l-013-107]
-owner_review: Blake Petty
+owner_review: Vertrieb Gastronomie
 status: draft
 gated: true
 related: [COM-AW-01, COM-CO-01, COM-IN-01]
@@ -22,7 +22,7 @@ updated: 2026-10-29
 lang: de
 translation_of: A01c
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: National Restaurant Association
@@ -243,7 +243,7 @@ Plätze im Freien sind kein Sommerbonus mehr. 2026 gehören sie dazu, wenn ein R
 
 **Planungsschritt.** Planen Sie nach der Genehmigung: Wo nur bewegliche Möbel erlaubt sind, wählen Sie freistehende Elektro-Heizstrahler; wo eine Konstruktion erlaubt ist, montieren Sie die Wärme daran. New York verlangt, dass elektrische Strahlungsheizer im Freien dem NYC Electrical Code entsprechen.[^s9]
 
-*Die Regeln unterscheiden sich von Stadt zu Stadt und ändern sich oft. Klären Sie mit der zuständigen Behörde, was gilt, und beauftragen Sie einen eingetragenen Elektrofachbetrieb bzw. Gasinstallateur; in Deutschland gelten DIN VDE 0100, die DVGW-TRGI und die TRF sowie die Regeln Ihrer Gemeinde für die Außengastronomie.* [[VERIFY: current VDE and DVGW rules for outdoor heaters — Raffaele Marti]]
+*Die Regeln unterscheiden sich von Stadt zu Stadt und ändern sich oft. Klären Sie mit der zuständigen Behörde, was gilt, und beauftragen Sie einen eingetragenen Elektrofachbetrieb bzw. Gasinstallateur; in Deutschland gelten DIN VDE 0100, die DVGW-TRGI und die TRF sowie die Regeln Ihrer Gemeinde für die Außengastronomie.* [[VERIFY: current VDE and DVGW rules for outdoor heaters — Partner Deutschland]]
 
 ## 06 · Flüssiggas verlässt die Terrasse
 
@@ -271,12 +271,12 @@ Plätze im Freien sind kein Sommerbonus mehr. 2026 gehören sie dazu, wenn ein R
 > Neubauten in New York City dürfen keinen Brennstoff verbrennen, der ca. **85 g CO2 je kWh** oder mehr ausstößt (im Gesetz: 25 kg CO2 je Million Btu); das Gesetz gilt nur für Neubauten, wird ab niedrigen Gebäuden schrittweise eingeführt und hat Ausnahmen, unter anderem für gewerbliche Küchen.[^s10]
 > *Quelle: NYC Department of Buildings, Local Law 154 von 2021.*
 
-> Der All-Electric Buildings Act des Bundesstaats New York folgt für Neubauten im ganzen Bundesstaat, beginnend mit Gebäuden bis zu sieben Geschossen.[^s11] [[VERIFY: current effective dates and status of the NY State All-Electric Buildings Act after litigation, from the statute or dos.ny.gov — Blake Petty]]
+> Der All-Electric Buildings Act des Bundesstaats New York folgt für Neubauten im ganzen Bundesstaat, beginnend mit Gebäuden bis zu sieben Geschossen.[^s11] [[VERIFY: current effective dates and status of the NY State All-Electric Buildings Act after litigation, from the statute or dos.ny.gov — Vertrieb Gastronomie]]
 
 **Was es für Betreiber bedeutet**
 - Neue Hotels, gemischt genutzte Gebäude und Mehrfamilienhäuser werden in New York ohne Gas geplant.
 - Eine Ausnahme für die Küche gilt nicht automatisch für die Terrasse.
-- Ob ein Gesetz Heizstrahler im Freien erfasst, ist eine örtliche Frage; fragen Sie, bevor Sie planen. [[VERIFY: whether LL154 applies to outdoor gas patio heaters on new buildings — Blake Petty]]
+- Ob ein Gesetz Heizstrahler im Freien erfasst, ist eine örtliche Frage; fragen Sie, bevor Sie planen. [[VERIFY: whether LL154 applies to outdoor gas patio heaters on new buildings — Vertrieb Gastronomie]]
 
 **Einschätzung von Bromic.** Wer elektrische Außenheizung schon im Entwurf plant, hält die Terrasse im Einklang mit einem rein elektrischen Gebäude, ohne Gasleitung aufs Dach.
 
@@ -284,7 +284,7 @@ Plätze im Freien sind kein Sommerbonus mehr. 2026 gehören sie dazu, wenn ein R
 
 **Bromic-Projekt.** [The Industrie, Albany](https://www.bromic.com/case-study/albany-zero-emissions-multifamily-building/): Ein rein elektrisches Gebäude wählte für seine Dachterrasse mobile Eclipse-Heizstrahler statt Gas-Feuertischen.
 
-*Klären Sie die Anforderungen mit Ihrem Bauamt und einem eingetragenen Elektrofachbetrieb ab.* [[VERIFY: ob und wie deutsche Regeln (z. B. Gebäudeenergiegesetz, Landesrecht) Gas-Heizstrahler im Außenbereich betreffen — Raffaele Marti]]
+*Klären Sie die Anforderungen mit Ihrem Bauamt und einem eingetragenen Elektrofachbetrieb ab.* [[VERIFY: ob und wie deutsche Regeln (z. B. Gebäudeenergiegesetz, Landesrecht) Gas-Heizstrahler im Außenbereich betreffen — Partner Deutschland]]
 
 ## 08 · Gäste kommen für den Anlass
 
@@ -377,4 +377,4 @@ Finden Sie heraus, was Ihre leeren Plätze wert sind: Fordern Sie Ihre ROI-Einsc
   - `p-`-Bilder zeigen das Sortiment von 2021: nur als allgemeine gewerbliche Szenen verwenden, nie mit einem Produktnamen beschriften.
 - **Seite 13:** das Wichtigste in Kürze und der Vorschriftenhinweis, vollständig gesetzt.
 - **Seite 14:** Quellen (Fußnoten s1–s15) und ein CTA: „Ihre ROI-Einschätzung anfordern“, Link auf A21.
-- **Vor dem Layout:** beide [[VERIFY]]-Punkte in Trend 07 klären; Freigabe durch Blake Petty; die Projektzeilen fassen Seiten von bromic.com zusammen und sind an den Live-Seiten zu prüfen.
+- **Vor dem Layout:** beide [[VERIFY]]-Punkte in Trend 07 klären; Freigabe durch Vertrieb Gastronomie; die Projektzeilen fassen Seiten von bromic.com zusammen und sind an den Live-Seiten zu prüfen.

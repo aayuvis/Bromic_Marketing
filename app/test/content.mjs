@@ -7,6 +7,7 @@ const walk = (d) => !fs.existsSync(d) ? [] : fs.readdirSync(d, { withFileTypes: 
 const files = walk(path.join(ROOT, 'content')).filter((f) => f.endsWith('.md') && !f.includes(path.sep + 'i18n' + path.sep));  // translations: test/i18n.mjs
 const fails = [], warns = [];
 const fail = (f, m) => fails.push(`${path.relative(ROOT, f)}: ${m}`);
+const warn = (f, m) => warns.push(`${path.relative(ROOT, f)}: ${m}`);
 for (const f of files) {
   const raw = fs.readFileSync(f, 'utf8');
   const [, fmTxt, body] = raw.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/) || [];
@@ -21,6 +22,9 @@ for (const f of files) {
   // 3. legacy naming, built-in Tungsten gas BTU
   if (/500 series/i.test(prose)) fail(f, 'legacy "500 series" naming');
   if (/39,?800/.test(prose) && !/\[\[VERIFY|conflict|do not publish|removed|old figure|2021/i.test(prose)) fail(f, '39,800 BTU published as fact');
+  // voice (templates/bromic-voice.md): Bromic uses en dashes and no exclamation marks in body copy
+  if (/\S — \S/.test(prose.replace(/\[\[[\s\S]*?\]\]/g, ''))) warn(f, 'long dash in body copy (Bromic uses an en dash)');
+  if (/[a-z]!(\s|$)/m.test(prose.replace(/!\[[^\]]*\]\([^)]*\)/g, ''))) warn(f, 'exclamation mark in body copy');
   // 4. one CTA (gated assets and articles)
   if (['article', 'kb', 'blog', 'gated-guide', 'stats-page', 'spec-kit', 'sales-kit', 'tool'].includes(fm.type) && fm.status !== 'template' && !(fm.cta && fm.cta.label)) fail(f, 'missing cta');
   // 5. every source has a publisher and a url or file

@@ -17,8 +17,8 @@ ai_prompt: "How does home automation work with outdoor heating?"
 meta_description: "Snap One's Jeff Thomas and Bromic's Michael Smith on outdoor home automation, planning it early, wired vs wireless, and smart outdoor heat."
 cta: {label: "Download the Outdoor Living Trends 2026 report", asset: A01}
 hero: w-mom-design-build-2-web
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false

@@ -12,7 +12,7 @@ cta: {label: "Book a design consult", asset: A07}
 hero: w-juneau-showhome-1
 hero_caption: "Photograph published by Bromic."
 images: ["w-juneau-showhome-1"]
-owner_review: Megan Spies
+owner_review: Marketing
 status: draft
 source_kind: web-find
 origin: web-search
@@ -47,7 +47,7 @@ sources:
 | Segment | Single-family home, designer show home |
 | Designer | Bauer/Clifton Interiors |
 | Products | Platinum Electric (grilling zone); Tungsten Electric wall-mounted, matte black |
-| Controls | [[VERIFY: controls and zones — Megan Spies]] |
+| Controls | [[VERIFY: controls and zones — Marketing]] |
 | Heated area | Living, dining and grilling zones; grilling zone about 75 sq ft (per the feature) |
 | Photography | Published by Bromic; licence to confirm |
 
@@ -77,6 +77,6 @@ The photograph above was published by Bromic.
 
 ## To publish
 
-- Confirm with Megan Spies whether this is already an internal case under another name; reuse the Dwell interview.
+- Confirm with Marketing whether this is already an internal case under another name; reuse the Dwell interview.
 - Confirm controls and zones with the designer.
 - Work through the consent checklist in the [case-study template](item:CS-TEMPLATE): permission to name the venue or home, approved numbers and quotes, credits, and a photo licence.

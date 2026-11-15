@@ -15,7 +15,7 @@ meta_description: "CSI three-part guide spec for outdoor electric radiant heater
 cta: {label: "Book a design consult", asset: A07}
 hero: l-010-075
 images: [t-006-016, l-005-022]
-owner_review: "Shaughn Ritchie + Mike Clifford"
+owner_review: "Specification and compliance + Product team"
 status: draft
 gated: true
 related: [ARC-IN-01, ARC-CO-01, ARC-PP-01]
@@ -99,8 +99,8 @@ Write outdoor heat into the specification the same way you write lighting: a nam
 | 1 | This index and how to use it | Markdown → PDF | Draft |
 | 2 | Guide specification, Section 23 83 33 (three-part CSI format) | Editable .docx from this text | Draft |
 | 3 | Coverage and selection table | Table below; .xlsx on request | Draft |
-| 4 | Detail drawing list (four standard details) | DWG / PDF | [[VERIFY: which details exist today — Mike Clifford]] |
-| 5 | CAD and BIM file index | DWG, RVT, PDF | [[VERIFY: which files exist — Mike Clifford]] |
+| 4 | Detail drawing list (four standard details) | DWG / PDF | [[VERIFY: which details exist today — Product team]] |
+| 5 | CAD and BIM file index | DWG, RVT, PDF | [[VERIFY: which files exist — Product team]] |
 | 6 | Design consult request (coverage drawings) | Service, [asset:A07](asset:A07) | Live |
 
 ## Which MasterFormat section should outdoor infrared heaters go in?
@@ -113,7 +113,7 @@ Use **23 83 33 Electric Radiant Heaters**. The reasoning, so you can defend it i
 - **Industry precedent.** Other manufacturers' guide specifications for outdoor electric radiant heaters use 23 83 33.[^s5] Some product directories also tag infrared heaters under 23 82 39; treat that as a directory habit, not a reason to follow it.
 - **Related sections** you will coordinate: 26 05 19 (conductors), 26 05 33 (raceways and boxes), 26 27 26 (wiring devices), 26 28 16 (disconnects), 23 09 00 (HVAC instrumentation and control) if a building automation system is in scope, and Division 06/09 for the soffit framing and finish around recessed units.
 
-[[VERIFY: confirm section numbers and titles against the current CSI MasterFormat edition the practice uses — specifier / Shaughn Ritchie]]
+[[VERIFY: confirm section numbers and titles against the current CSI MasterFormat edition the practice uses — specifier / Specification and compliance]]
 
 ## Which Bromic heater suits which space?
 
@@ -122,12 +122,12 @@ People first: a dining table needs even heat at seated head height; a bar rail n
 | Series | Status | Output | Finishes | Approx. coverage per heater | Mounting | Best for | Controls (required) |
 |---|---|---|---|---|---|---|---|
 | Platinum Smart-Heat Electric | Current | 2300 W, 3400 W, 4500 W | Black, White; Classic and Marine variants | 65–143 ft² (by model and size) | Recessed, ceiling, wall | Covered terraces, soffits, outdoor kitchens, coastal (Marine) | Affinity On/Off or Dimmer controller + manual wall switch; app via compatible Affinity controls |
-| Eclipse Smart-Heat Electric | Current | Heat output 33 / 66 / 100% [[VERIFY: rated wattage and voltage — Mike Clifford]] | Black, dimmable rim lighting | 121 ft² | Single pole 8", 24" or 48"; double pole; curved pole | Dining tables and lounges where heat and light are one fixture | Affinity Eclipse controller + manual wall switch; app via compatible Affinity controls |
-| Eclipse Smart-Heat Freestanding Electric | Current | 33 / 66 / 100% | Black, dimmable rim lighting | 121 ft² | Freestanding: integrated wheels, weighted base, curved arm | Flexible lounge and terrace layouts; FF&E rather than built-in | Affinity Eclipse controller [[VERIFY: freestanding control method — Mike Clifford]] |
-| Tungsten Smart-Heat Electric, Coastal collection (coming soon) | Coming soon | [[VERIFY: wattages — Mike Clifford]] | Black, White; 316 marine-grade stainless; Signature Diamond Pattern grille | 64–144 ft² (by model and size) | Recessed (marine-grade low-clearance), ceiling, wall, single-post | Waterfront and marine environments | Affinity controls as for Platinum [[VERIFY: controller compatibility — Mike Clifford]] |
-| Tungsten Smart-Heat Electric, Select collection (coming soon) | Coming soon | [[VERIFY: wattages — Mike Clifford]] | Black, White, Graphite; expanded fascia options | 64–144 ft² (by model and size) | Recessed (low-clearance), ceiling, wall, single-post | Design-led residential and hospitality | Affinity controls as for Platinum [[VERIFY: controller compatibility — Mike Clifford]] |
+| Eclipse Smart-Heat Electric | Current | Heat output 33 / 66 / 100% [[VERIFY: rated wattage and voltage — Product team]] | Black, dimmable rim lighting | 121 ft² | Single pole 8", 24" or 48"; double pole; curved pole | Dining tables and lounges where heat and light are one fixture | Affinity Eclipse controller + manual wall switch; app via compatible Affinity controls |
+| Eclipse Smart-Heat Freestanding Electric | Current | 33 / 66 / 100% | Black, dimmable rim lighting | 121 ft² | Freestanding: integrated wheels, weighted base, curved arm | Flexible lounge and terrace layouts; FF&E rather than built-in | Affinity Eclipse controller [[VERIFY: freestanding control method — Product team]] |
+| Tungsten Smart-Heat Electric, Coastal collection (coming soon) | Coming soon | [[VERIFY: wattages — Product team]] | Black, White; 316 marine-grade stainless; Signature Diamond Pattern grille | 64–144 ft² (by model and size) | Recessed (marine-grade low-clearance), ceiling, wall, single-post | Waterfront and marine environments | Affinity controls as for Platinum [[VERIFY: controller compatibility — Product team]] |
+| Tungsten Smart-Heat Electric, Select collection (coming soon) | Coming soon | [[VERIFY: wattages — Product team]] | Black, White, Graphite; expanded fascia options | 64–144 ft² (by model and size) | Recessed (low-clearance), ceiling, wall, single-post | Design-led residential and hospitality | Affinity controls as for Platinum [[VERIFY: controller compatibility — Product team]] |
 
-Platinum coverage by individual wattage is not yet published in this kit. [[VERIFY: coverage and mounting height per Platinum wattage (2300 / 3400 / 4500 W) — Mike Clifford]]
+Platinum coverage by individual wattage is not yet published in this kit. [[VERIFY: coverage and mounting height per Platinum wattage (2300 / 3400 / 4500 W) — Product team]]
 
 A space counts as outdoor when at least 30% of its perimeter is permanently open; a partial roof traps a "heat cloud" that adds a convective boost.[^s2] Size for the open condition, then let the cover help.
 
@@ -155,8 +155,8 @@ B. Related requirements:
 **1.2 REFERENCES**
 
 A. NFPA 70, National Electrical Code (NEC), edition adopted by the authority having jurisdiction (AHJ), including Article 424, Fixed Electric Space-Heating Equipment.[^s8]
-B. Product safety listing by a Nationally Recognized Testing Laboratory (NRTL): UL, CSA or Intertek (ETL).[^s2] [[VERIFY: the exact standard each Bromic electric heater is listed to (for example UL 499 or UL 2021; CSA C22.2) and the listing file numbers — Mike Clifford]][^s9]
-C. Ingress protection rating per IEC 60529. [[VERIFY: IP rating per series — Mike Clifford]]
+B. Product safety listing by a Nationally Recognized Testing Laboratory (NRTL): UL, CSA or Intertek (ETL).[^s2] [[VERIFY: the exact standard each Bromic electric heater is listed to (for example UL 499 or UL 2021; CSA C22.2) and the listing file numbers — Product team]][^s9]
+C. Ingress protection rating per IEC 60529. [[VERIFY: IP rating per series — Product team]]
 D. Local building, energy and fire codes as adopted by the AHJ. Commercial energy codes may require outdoor heating to be radiant and controlled by an occupancy sensor or timer; see the [electrification guide](asset:A12).
 
 **1.3 SUBMITTALS**
@@ -182,7 +182,7 @@ A. Deliver in original packaging, labelled with model and finish. Store dry and 
 
 **1.6 WARRANTY**
 
-A. Manufacturer's standard limited warranty. [[VERIFY: warranty terms and periods per series, residential vs commercial, and any marine/coastal conditions — Mike Clifford]]
+A. Manufacturer's standard limited warranty. [[VERIFY: warranty terms and periods per series, residential vs commercial, and any marine/coastal conditions — Product team]]
 
 ### PART 2 – PRODUCTS
 
@@ -200,7 +200,7 @@ A. General: electric infrared radiant heaters, listed for outdoor use in the loc
 
 B. **Platinum Smart-Heat Electric** (basis of design for recessed, ceiling and wall applications):
 1. Rated output: [2300 W] [3400 W] [4500 W].[^s1]
-2. Voltage and phase: [[[VERIFY: available voltages per wattage; commercial options listed historically as 208 / 240 / 277 V — Mike Clifford]]][^s2]
+2. Voltage and phase: [[[VERIFY: available voltages per wattage; commercial options listed historically as 208 / 240 / 277 V — Product team]]][^s2]
 3. Variant: [Classic] [Marine]. *[Marine for coastal and poolside locations.]*
 4. Finish: [Black] [White].
 5. Mounting: [recessed with manufacturer's recess kit] [ceiling-mounted] [wall-mounted].
@@ -212,27 +212,27 @@ C. **Eclipse Smart-Heat Electric** (pendant heat and light):
 3. Finish: Black.
 4. Suspension: [single pole 8"] [single pole 24"] [single pole 48"] [double pole] [curved pole].
 5. Approximate coverage: 121 ft² per heater, depending on installation.
-6. Rated wattage and voltage: [[VERIFY — Mike Clifford]].
+6. Rated wattage and voltage: [[VERIFY — Product team]].
 
 D. **Eclipse Smart-Heat Freestanding Electric** *[usually specified as FF&E; include here only if the heating contractor supplies it]*:
 1. Integrated wheels, weighted base, curved arm, heat and dimmable light in one.[^s1]
 2. Heat output steps: 33%, 66%, 100%. Approximate coverage: 121 ft².
-3. Power supply: [[VERIFY: plug/cord and receptacle requirements — Mike Clifford]].
+3. Power supply: [[VERIFY: plug/cord and receptacle requirements — Product team]].
 
 E. **Tungsten Smart-Heat Electric, Coastal collection (coming soon)** *[specify only after Bromic confirms availability for the project schedule]*:
 1. 316 marine-grade stainless steel; Signature Diamond Pattern grille.[^s1]
 2. Finish: [Black] [White].
 3. Mounting: [marine-grade low-clearance recessed] [ceiling] [wall] [single-post].
 4. Approximate coverage: 64–144 ft² depending on model and size.
-5. Wattage, voltage, dimensions: [[VERIFY — Mike Clifford]].
+5. Wattage, voltage, dimensions: [[VERIFY — Product team]].
 
 F. **Tungsten Smart-Heat Electric, Select collection (coming soon)** *[as above]*:
 1. Finish: [Black] [White] [Graphite]; expanded fascia options.[^s1]
 2. Mounting: [low-clearance recessed] [ceiling] [wall] [single-post].
 3. Approximate coverage: 64–144 ft² depending on model and size.
-4. Wattage, voltage, dimensions: [[VERIFY — Mike Clifford]].
+4. Wattage, voltage, dimensions: [[VERIFY — Product team]].
 
-G. Performance requirements (for Option B substitutions): [[VERIFY: Bromic's preferred performance criteria — e.g. wavelength class, element type, IP rating, listing, warm-up time, glare/visible light — Mike Clifford + Shaughn Ritchie]]
+G. Performance requirements (for Option B substitutions): [[VERIFY: Bromic's preferred performance criteria — e.g. wavelength class, element type, IP rating, listing, warm-up time, glare/visible light — Product team + Specification and compliance]]
 
 **2.3 CONTROLS (REQUIRED)**
 
@@ -240,22 +240,22 @@ A. Every heater shall be controlled by Affinity Smart-Heat Controls by Bromic He
 
 B. Controllers, as scheduled on the drawings:
 1. [Affinity Smart-Heat On/Off controller] – on/off control of one or more heaters per zone.
-2. [Affinity Smart-Heat Dimmer controller] – variable output for Platinum and Tungsten heaters. [[VERIFY: dimmer compatibility per series and wattage — Mike Clifford]]
+2. [Affinity Smart-Heat Dimmer controller] – variable output for Platinum and Tungsten heaters. [[VERIFY: dimmer compatibility per series and wattage — Product team]]
 3. [Affinity Smart-Heat Eclipse controller] – heat steps and rim lighting for Eclipse heaters.
 4. Manual wall switch at each zone, mounted at [__] in AFF, in a location visible from the heated area.
 
-C. App: Bromic Smart-Heat app for zones, schedules and timers. Wi-Fi connectivity and app features require compatible Affinity Smart-Heat Controls, sold separately.[^s1] Provide Wi-Fi coverage at controller locations. [[VERIFY: network requirements (band, signal strength) — Mike Clifford]]
+C. App: Bromic Smart-Heat app for zones, schedules and timers. Wi-Fi connectivity and app features require compatible Affinity Smart-Heat Controls, sold separately.[^s1] Provide Wi-Fi coverage at controller locations. [[VERIFY: network requirements (band, signal strength) — Product team]]
 
 D. Integrations: where scheduled, interface with [Amazon Alexa] [Google Assistant] [Control4] [Crestron] [Lutron]. Compatibility varies by system; integration requires compatible Affinity controls and may require additional integration hardware or configuration.[^s1] Coordinate with the integrator before rough-in.
 
-E. Energy code compliance: where the AHJ requires outdoor heating to switch off automatically when unoccupied, provide [occupancy sensor] [time switch] control. [[VERIFY: whether Affinity schedules/timers satisfy the "timer switch" requirement, and approved occupancy-sensor interface — Mike Clifford]]
+E. Energy code compliance: where the AHJ requires outdoor heating to switch off automatically when unoccupied, provide [occupancy sensor] [time switch] control. [[VERIFY: whether Affinity schedules/timers satisfy the "timer switch" requirement, and approved occupancy-sensor interface — Product team]]
 
 F. Zoning: separate zones for areas used at different times (for example dining, bar, lounge).
 
 **2.4 ACCESSORIES**
 
-A. Recess kits: manufacturer's recess kit for flush mounting of Platinum and Tungsten electric heaters in ceiling and soffit cavities.[^s2] [[VERIFY: recess kit part numbers, cut-out sizes and cavity depth per model — Mike Clifford]]
-B. Suspension poles: manufacturer's suspension poles to bring heaters to effective height under high ceilings.[^s2] [[VERIFY: available lengths — Mike Clifford]]
+A. Recess kits: manufacturer's recess kit for flush mounting of Platinum and Tungsten electric heaters in ceiling and soffit cavities.[^s2] [[VERIFY: recess kit part numbers, cut-out sizes and cavity depth per model — Product team]]
+B. Suspension poles: manufacturer's suspension poles to bring heaters to effective height under high ceilings.[^s2] [[VERIFY: available lengths — Product team]]
 C. Wall and ceiling brackets: as supplied with each heater.
 
 ### PART 3 – EXECUTION
@@ -269,7 +269,7 @@ C. Verify clearances to combustible materials, sprinkler heads, lighting, fans, 
 **3.2 INSTALLATION**
 
 A. Install heaters, controls and accessories per the manufacturer's current installation instructions and the approved shop drawings.
-B. Mounting heights: not less than the manufacturer's minimums for the model and wattage. *[Bromic's planning guidance has been a minimum of 72 in above floor for wall mounting and 96 in for ceiling mounting, varying with output.[^s2] Confirm against the current installation manual for each model.]* [[VERIFY: current minimum mounting heights and clearances per model and wattage — Mike Clifford]]
+B. Mounting heights: not less than the manufacturer's minimums for the model and wattage. *[Bromic's planning guidance has been a minimum of 72 in above floor for wall mounting and 96 in for ceiling mounting, varying with output.[^s2] Confirm against the current installation manual for each model.]* [[VERIFY: current minimum mounting heights and clearances per model and wattage — Product team]]
 C. Aim wall-mounted heaters at the occupied zone, not at walkways or glazing.
 D. Recessed units: install recess kit before ceiling finish; seal the ceiling penetration per the manufacturer's instructions.
 
@@ -303,7 +303,7 @@ B. Hand over O&M manuals, warranty documents and the commissioning report.
 
 ## Proprietary or "or approved equal"?
 
-*Note for review (Shaughn Ritchie):* the goal of this kit is to stop substitution at bid. A proprietary specification (Option A) does that, and is common on private residential and hospitality work. Many public owners, and some private ones, require competition, so an architect may be required to allow substitutions. Option B keeps Bromic as basis of design but sets performance criteria and demands a coverage drawing for any substitute, which raises the bar without forbidding it. Both options are drafted above. [[VERIFY: Bromic's preferred default (A or B) and the performance criteria for Option B — Shaughn Ritchie + Mike Clifford]]
+*Note for review (Specification and compliance):* the goal of this kit is to stop substitution at bid. A proprietary specification (Option A) does that, and is common on private residential and hospitality work. Many public owners, and some private ones, require competition, so an architect may be required to allow substitutions. Option B keeps Bromic as basis of design but sets performance criteria and demands a coverage drawing for any substitute, which raises the bar without forbidding it. Both options are drafted above. [[VERIFY: Bromic's preferred default (A or B) and the performance criteria for Option B — Specification and compliance + Product team]]
 
 ## Which details should the drawings carry?
 
@@ -320,17 +320,17 @@ Four standard details cover most projects. Each is drawn as a section or plan wi
 
 ## Which CAD and BIM files are available?
 
-[[VERIFY: which files exist, their formats, LOD and where they are hosted (bromic.com, BIMobject, ARCAT, other) — Mike Clifford]]
+[[VERIFY: which files exist, their formats, LOD and where they are hosted (bromic.com, BIMobject, ARCAT, other) — Product team]]
 
 | File | Format | Covers | Status |
 |---|---|---|---|
-| Revit families, electric heaters | .rfa | Platinum (2300/3400/4500 W), Eclipse, Tungsten Coastal and Select (when launched) | [[VERIFY — Mike Clifford]] |
-| Revit families, controllers | .rfa | Affinity On/Off, Dimmer, Eclipse controllers | [[VERIFY — Mike Clifford]] |
-| 2D CAD blocks | .dwg | Plan and elevation blocks per heater | [[VERIFY — Mike Clifford]] |
-| Standard details D1–D4 | .dwg / .pdf | As listed above | [[VERIFY — Mike Clifford]] |
-| Specification sheets | .pdf | Per model: dimensions, weight, wattage, voltage, clearances | [[VERIFY — Mike Clifford]] |
-| Installation manuals | .pdf | Per model, current edition | [[VERIFY — Mike Clifford]] |
-| Listing certificates | .pdf | NRTL listing per model | [[VERIFY — Mike Clifford]] |
+| Revit families, electric heaters | .rfa | Platinum (2300/3400/4500 W), Eclipse, Tungsten Coastal and Select (when launched) | [[VERIFY — Product team]] |
+| Revit families, controllers | .rfa | Affinity On/Off, Dimmer, Eclipse controllers | [[VERIFY — Product team]] |
+| 2D CAD blocks | .dwg | Plan and elevation blocks per heater | [[VERIFY — Product team]] |
+| Standard details D1–D4 | .dwg / .pdf | As listed above | [[VERIFY — Product team]] |
+| Specification sheets | .pdf | Per model: dimensions, weight, wattage, voltage, clearances | [[VERIFY — Product team]] |
+| Installation manuals | .pdf | Per model, current edition | [[VERIFY — Product team]] |
+| Listing certificates | .pdf | NRTL listing per model | [[VERIFY — Product team]] |
 | This guide specification | .docx | Section 23 83 33 | Draft (this document) |
 
 ## Planning checklist

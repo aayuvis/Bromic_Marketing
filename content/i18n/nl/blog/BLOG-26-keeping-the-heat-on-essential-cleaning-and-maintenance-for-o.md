@@ -19,8 +19,8 @@ meta_description: "Buitenverwarmers veilig schoonmaken en onderhouden: voorzorge
 cta: {label: "Download het operationele draaiboek", asset: A23}
 hero: w-bromic-shoot-may-11-2023-54
 images: [w-tungsten-portable-cover-v3]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -79,7 +79,7 @@ De eigen richtlijnen van Bromic, in volgorde:[^s1]
 
 ## Hoe maak je een buitenverwarmer schoon?
 
-Voorzichtig. Neem stof en vuil van de behuizing af met een microvezeldoek. Vermijd agressieve chemicaliën en veel water; die kunnen roest en corrosie veroorzaken.[^s1] Spuit nooit water in een element of brander, en maak een gesloten toestel nooit open. Spoel op kustlocaties het zout van roestvaststalen oppervlakken zoals de handleiding van je model aangeeft. [[VERIFY: door Bromic aanbevolen schoonmaakmethode en -middelen per model, ook voor de kust — Mike Clifford]]
+Voorzichtig. Neem stof en vuil van de behuizing af met een microvezeldoek. Vermijd agressieve chemicaliën en veel water; die kunnen roest en corrosie veroorzaken.[^s1] Spuit nooit water in een element of brander, en maak een gesloten toestel nooit open. Spoel op kustlocaties het zout van roestvaststalen oppervlakken zoals de handleiding van je model aangeeft. [[VERIFY: door Bromic aanbevolen schoonmaakmethode en -middelen per model, ook voor de kust — productteam]]
 
 ## Wat staat er op de onderhoudschecklist?
 
@@ -96,7 +96,7 @@ Algemene richtlijnen; de installatie- en gebruikshandleiding van je model gaat v
 | Groepen en aansluitingen controleren | Erkend elektrotechnisch installateur | Volgens de handleiding |
 | Vrijstaande verwarmers afdekken of opbergen | Eigenaar of personeel | Eind van het seizoen |
 
-[[VERIFY: door Bromic aanbevolen onderhoudsintervallen per model — Mike Clifford]]
+[[VERIFY: door Bromic aanbevolen onderhoudsintervallen per model — productteam]]
 
 *Werk aan gas- en elektrische installaties is gereguleerd: in Nederland NEN 1078 voor gas en NEN 1010 voor elektra (in de VS NFPA 54 en NFPA 70).[^s5] Controleer de eisen bij je gemeente en schakel een erkend gasinstallateur of elektrotechnisch installateur in.* [[VERIFY: actuele Nederlandse normen voor onderhoud van gas- en elektrische installaties — Bromic Benelux distributor]]
 
@@ -126,7 +126,7 @@ De voorwaarden verschillen per product. De live post noemde 1 jaar garantie op o
 | Tungsten Smart-Heat Freestanding Gas | 1 jaar |
 | Affinity Smart-Heat-bediening | 1 jaar |
 
-[[VERIFY: garantievoorwaarden per product tegen het actuele beleid, ook voor Nederland; de live post en de productpagina's spreken elkaar tegen — Mike Clifford]]
+[[VERIFY: garantievoorwaarden per product tegen het actuele beleid, ook voor Nederland; de live post en de productpagina's spreken elkaar tegen — productteam]]
 
 ## Veelgestelde vragen
 

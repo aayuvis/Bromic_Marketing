@@ -18,8 +18,8 @@ meta_description: "Assemble a Bromic Eclipse Freestanding heater: base and ten w
 cta: {label: "Get the Smart-Heat controls setup guide", asset: A09}
 hero: w-bromiceclipseheater-scottsdalehome-2
 images: [w-bromic-eclipse-portable-hotel-skansen-06-v02]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -83,11 +83,11 @@ An Eclipse Freestanding heater goes together with two people and hand tools: set
 | Power | A 220–240 V, 20 A outlet for the heater's NEMA 6-20P plug[^s1] |
 | Current | 11.4 A at 220 V, 11.8 A at 230 V, 12.1 A at 240 V[^s2] |
 | Ground | Flat and level; bolt the base down in windy spots[^s1] |
-| Height | The product page lists a minimum floor clearance of 79 in[^s2] [[VERIFY: what the 79 in refers to — Mike Clifford]] |
+| Height | The product page lists a minimum floor clearance of 79 in[^s2] [[VERIFY: what the 79 in refers to — Product team]] |
 | Clearances | Side and overhead clearances are in the manual[^s2][^s4] |
 | Weather | Water-resistant, not waterproof: do not leave it out in the elements[^s2] |
 
-A 240 V outlet is not a standard patio socket. Ask a licensed electrician to add a dedicated 20 A circuit and a weather-rated NEMA 6-20R outlet near where the heater will stand, and to check GFCI requirements ([does an outdoor heater need GFCI?](item:BLD-BY-KB1)). The product page does not list a 208 V rating [[VERIFY: 208 V operation — Mike Clifford]].
+A 240 V outlet is not a standard patio socket. Ask a licensed electrician to add a dedicated 20 A circuit and a weather-rated NEMA 6-20R outlet near where the heater will stand, and to check GFCI requirements ([does an outdoor heater need GFCI?](item:BLD-BY-KB1)). The product page does not list a 208 V rating [[VERIFY: 208 V operation — Product team]].
 
 ## What do I need to assemble it?
 
@@ -130,8 +130,8 @@ A 240 V outlet is not a standard patio socket. Ask a licensed electrician to add
 Plug in and switch on the outlet. The base beeps softly and the light flashes for about a second; the heater stays off until you choose a setting[^s1]. Then:
 
 - **Eclipse Dimmer Controller and remote (included)**: set heat at 33, 66 or 100% output and dim the light, with presets you can change[^s1][^s2].
-- **Bromic Smart-Heat app**: schedules, timers and zones. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately[^s3]. The product page calls the Freestanding app-enabled[^s2] [[VERIFY: whether the included controller connects to the app, or an Affinity Eclipse controller is needed — Mike Clifford]].
-- **Affinity Smart-Heat Eclipse controller**: runs one Eclipse heater per channel, for owners grouping several heaters[^s5] [[VERIFY: compatibility with the plug-in Freestanding — Mike Clifford]].
+- **Bromic Smart-Heat app**: schedules, timers and zones. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately[^s3]. The product page calls the Freestanding app-enabled[^s2] [[VERIFY: whether the included controller connects to the app, or an Affinity Eclipse controller is needed — Product team]].
+- **Affinity Smart-Heat Eclipse controller**: runs one Eclipse heater per channel, for owners grouping several heaters[^s5] [[VERIFY: compatibility with the plug-in Freestanding — Product team]].
 
 The [Smart-Heat controls setup guide](item:RES-BY-01) walks through pairing, zones and schedules.
 

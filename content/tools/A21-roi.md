@@ -14,7 +14,7 @@ ai_prompt: "How long does it take a restaurant to pay back patio heaters?"
 meta_description: "Estimate the revenue heated patio seats add, the margin they earn and how many months patio heaters take to pay back."
 cta: {label: "Book a design consult", asset: A07}
 hero: p-003-006
-owner_review: Blake Petty + Brian Kim
+owner_review: Hospitality sales + Digital marketing
 status: draft
 gated: true
 related: [COM-IN-01, COM-AW-01, COM-CO-01]
@@ -41,7 +41,7 @@ cost a heater (placeholder), heated hours an evening, electricity price.
 **Outputs.** On screen: added revenue a year and payback in months. Behind the form: margin, a sensitivity view and the heaters and
 controls the installed cost should cover (Affinity Smart-Heat controller, wall switch, app).
 
-**Assumptions.** Every default is an illustration, not a benchmark, flagged [[VERIFY: benchmarks — Blake Petty]] in the config. The
+**Assumptions.** Every default is an illustration, not a benchmark, flagged [[VERIFY: benchmarks — Hospitality sales]] in the config. The
 first test case is the worked example in COM-IN-01[^s1]. Every value, source and owner: `tools/A21-roi/README.md`.
 
 **Where the lead goes.** The HubSpot form with `asset_id=A21`, `matrix_cell=COM-IN` and the inputs as `tool_inputs`. A21 is an

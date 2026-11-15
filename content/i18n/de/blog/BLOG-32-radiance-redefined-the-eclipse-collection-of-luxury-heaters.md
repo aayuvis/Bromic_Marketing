@@ -15,8 +15,8 @@ meta_description: "Bromic Eclipse beheizt ca. 11 m² und beleuchtet sie mit eine
 cta: {label: "Ihren Bereich berechnen", asset: A03}
 hero: w-bromic-eclipse-pendant-light
 images: [w-dsc01890-hdr-bearbeitet, w-eclispe-freestanding]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -25,7 +25,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLOG-32
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -85,7 +85,7 @@ Aus zwei Leuchten wird eine. Das zählt auf einer kleinen Terrasse oder an einer
 | Steuergerät | Affinity Eclipse Controller oder Eclipse Dimmer Controller, separat erhältlich | Eclipse Dimmer Controller und Fernbedienung im Lieferumfang |
 | Geeignet für | Überdachte Terrassen, Pergolen, Poolhäuser | Offene Rasenflächen, gemietete oder wechselnde Aufstellungen, Betriebe, die Tische umstellen |
 
-Quellen: Produktseiten[^s2][^s3] und Lookbook 2026.[^s1] Die Produktseite von Eclipse Electric nennt in der technischen Tabelle 2900 W und in den FAQ 3000 W; wir verwenden 2900 W. [[VERIFY: Eclipse output 2900 W (spec table) vs 3000 W (FAQ) — Mike Clifford]]
+Quellen: Produktseiten[^s2][^s3] und Lookbook 2026.[^s1] Die Produktseite von Eclipse Electric nennt in der technischen Tabelle 2900 W und in den FAQ 3000 W; wir verwenden 2900 W. [[VERIFY: Eclipse output 2900 W (spec table) vs 3000 W (FAQ) — Produktteam]]
 
 ## Wie wird Eclipse Electric montiert?
 
@@ -97,7 +97,7 @@ An einer Stange von der Decke oder an der Wand, mindestens 2,44 m über dem Bode
 - [Gebogene Stange](https://www.bromic.com/product/eclipse-curved-pole/)
 - [Wandstange](https://www.bromic.com/product/eclipse-wall-mount-pole/)
 
-Die Fassung dieses Beitrags von 2023 zählte „sieben“ Optionen; die Kollektionsseite rechnet das freistehende Modell als eine davon. Die Stangen aufzuführen ist klarer als eine Zahl. [[VERIFY: Eclipse mounting option count (six vs seven) — Mike Clifford]]
+Die Fassung dieses Beitrags von 2023 zählte „sieben“ Optionen; die Kollektionsseite rechnet das freistehende Modell als eine davon. Die Stangen aufzuführen ist klarer als eine Zahl. [[VERIFY: Eclipse mounting option count (six vs seven) — Produktteam]]
 
 ![Gartenpavillon zur blauen Stunde mit einem runden Eclipse-Heizstrahler an der Decke](img:w-dsc01890-hdr-bearbeitet)
 
@@ -111,13 +111,13 @@ Jeder Eclipse braucht ein Steuergerät; es ist Teil der Installation, kein Zubeh
 - **Eclipse Dimmer Controller mit Fernbedienung.** Heizstufen und Lichtdimmung über eine Handfernbedienung. Er gehört zum Lieferumfang von Eclipse Freestanding.[^s3]
 - **Manueller Wandschalter.** Einfaches Ein und Aus an der Wand, für Eclipse Electric.[^s2]
 
-WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat-Steuerungen voraus, die separat erhältlich sind.[^s4] Der Beitrag von 2023 nannte eine Eclipse Master Remote; diese Aufgabe übernimmt heute die Affinity-Reihe. [[VERIFY: whether Eclipse Freestanding's included controller gives app control without an Affinity controller — Mike Clifford]] Zur Einrichtung siehe unseren [Leitfaden zur Steuerung](item:RES-BY-01) und die [Übersicht der Steuerungen](https://www.bromic.de/).
+WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat-Steuerungen voraus, die separat erhältlich sind.[^s4] Der Beitrag von 2023 nannte eine Eclipse Master Remote; diese Aufgabe übernimmt heute die Affinity-Reihe. [[VERIFY: whether Eclipse Freestanding's included controller gives app control without an Affinity controller — Produktteam]] Zur Einrichtung siehe unseren [Leitfaden zur Steuerung](item:RES-BY-01) und die [Übersicht der Steuerungen](https://www.bromic.de/).
 
 ![Gebogener Eclipse Freestanding über einem geschwungenen Gartensofa](img:w-eclispe-freestanding)
 
 ## Wie viele Eclipse-Heizstrahler braucht ein Bereich?
 
-Rechnen Sie zunächst mit etwa einem Heizstrahler je 11 m² Sitzfläche und passen Sie dann für Wind, Deckenhöhe und Offenheit des Bereichs an.[^s1] Zur Platzierung siehe [wo Terrassenheizstrahler hingehören](item:RES-PP-01). Der Planungsservice von Bromic zeichnet Ihnen anhand eines Fotos oder Plans kostenlos einen Wärmeplan, und auf der Seite der Eclipse-Kollektion sind beide Modelle im Einsatz zu sehen ([bromic.de](https://www.bromic.de/)). [[VERIFY: ob der Planungsservice (Design Your Space) für Deutschland angeboten wird — Raffaele Marti]]
+Rechnen Sie zunächst mit etwa einem Heizstrahler je 11 m² Sitzfläche und passen Sie dann für Wind, Deckenhöhe und Offenheit des Bereichs an.[^s1] Zur Platzierung siehe [wo Terrassenheizstrahler hingehören](item:RES-PP-01). Der Planungsservice von Bromic zeichnet Ihnen anhand eines Fotos oder Plans kostenlos einen Wärmeplan, und auf der Seite der Eclipse-Kollektion sind beide Modelle im Einsatz zu sehen ([bromic.de](https://www.bromic.de/)). [[VERIFY: ob der Planungsservice (Design Your Space) für Deutschland angeboten wird — Partner Deutschland]]
 
 ## Häufige Fragen
 

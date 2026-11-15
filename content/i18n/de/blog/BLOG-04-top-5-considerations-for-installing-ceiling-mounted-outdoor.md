@@ -15,8 +15,8 @@ meta_description: "Heizstrahler an der Decke: 2,4–2,7 m hoch, die passende Sta
 cta: {label: "Montageanleitungen anfordern", asset: A17}
 hero: w-bromic-sep18th-9-1
 images: [w-bromic-sep18th-14]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -25,7 +25,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLOG-04
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -123,7 +123,7 @@ Der Heizstrahler hängt waagerecht und zeigt zum Boden. Bei einer geneigten Deck
 
 | Heizstrahler | Abstand nach oben |
 |---|---|
-| Elektrisch (Platinum, Tungsten, Cobalt, Eclipse) | Je nach Modell und Leistung [[VERIFY: per model from the manual; the live posts give ca. 127 mm, 152–305 mm and 203–330 mm — Mike Clifford]] |
+| Elektrisch (Platinum, Tungsten, Cobalt, Eclipse) | Je nach Modell und Leistung [[VERIFY: per model from the manual; the live posts give ca. 127 mm, 152–305 mm and 203–330 mm — Produktteam]] |
 | Gas mit Hitzeschild | ca. 360 mm[^s1] |
 | Gas ohne Hitzeschild | ca. 0,9 m[^s1] |
 
@@ -138,7 +138,7 @@ Befestigen Sie das Gerät an Balken, Trägern oder Aufdoppelungen, nie nur an de
 | Platinum Electric 2300 / 3400 / 4500 W | ca. 7,7 / 10,0 / 15,0 kg |
 | Cobalt Electric 4000 / 6000 W | ca. 9,0 / 10,0 kg |
 | Eclipse Electric | ca. 13,6 kg |
-| Tungsten Electric | [[VERIFY: per model — Mike Clifford]] |
+| Tungsten Electric | [[VERIFY: per model — Produktteam]] |
 | Platinum Gas und Tungsten Gas | ca. 15,0 kg (Modell mit ca. 15 m²), ca. 20,0 kg (Modell mit ca. 20 m²) |
 
 Rechnen Sie das Gewicht der Stange zur Last hinzu.
@@ -151,8 +151,8 @@ Halten Sie jeden Heizstrahler mindestens ca. 0,9 m von Vorhängen, Markisen, Son
 
 Jeder Deckenheizstrahler braucht ein Steuergerät und einen Schalter, vorbereitet zusammen mit dem Stromkreis:
 
-- **Elektro**: ein eigener Stromkreis je Heizstrahler oder Steuergerätekanal, für Dauerlast bemessen nach DIN VDE 0100, mit einem Affinity On/Off- oder Dimmer-Steuergerät (die US-Produktseiten nennen 6 kW je Kanal bei 208–277 V) und einem manuellen Wandschalter[^s5]. Eclipse Electric verwendet das Affinity Eclipse-Steuergerät, ein Heizstrahler je Kanal[^s5]. [[VERIFY: Kanalleistung der Steuergeräte und Wandschalter für 230 V — Mike Clifford]]
-- **Gas**: eine Stromversorgung für jedes Gerät (die US-Produktseiten nennen 110 V, 2 A), ein Affinity On/Off-Steuergerät (bis zu 10 Gasgeräte je Kanal) und ein Wandschalter[^s3][^s5]. [[VERIFY: Stromversorgung der Gasgeräte in Deutschland (230 V) — Mike Clifford]]
+- **Elektro**: ein eigener Stromkreis je Heizstrahler oder Steuergerätekanal, für Dauerlast bemessen nach DIN VDE 0100, mit einem Affinity On/Off- oder Dimmer-Steuergerät (die US-Produktseiten nennen 6 kW je Kanal bei 208–277 V) und einem manuellen Wandschalter[^s5]. Eclipse Electric verwendet das Affinity Eclipse-Steuergerät, ein Heizstrahler je Kanal[^s5]. [[VERIFY: Kanalleistung der Steuergeräte und Wandschalter für 230 V — Produktteam]]
+- **Gas**: eine Stromversorgung für jedes Gerät (die US-Produktseiten nennen 110 V, 2 A), ein Affinity On/Off-Steuergerät (bis zu 10 Gasgeräte je Kanal) und ein Wandschalter[^s3][^s5]. [[VERIFY: Stromversorgung der Gasgeräte in Deutschland (230 V) — Produktteam]]
 - **App**: Die Bromic Smart-Heat App legt Zonen, Zeitpläne und Timer fest. WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Controls, separat erhältlich[^s6].
 
 Lassen Sie die Anschlussdose zugänglich. Details zur Vorverkabelung finden Sie in [unserem Leitfaden zur Rohinstallation](item:BLD-IN-01).
@@ -161,7 +161,7 @@ Lassen Sie die Anschlussdose zugänglich. Details zur Vorverkabelung finden Sie 
 
 ## Welche Vorschriften gelten?
 
-In Deutschland richten sich elektrische Heizstrahler nach DIN VDE 0100 und Gasgeräte nach DVGW-TRGI (Erdgas) bzw. TRF (Flüssiggas)[^s7]. [[VERIFY: current VDE and DVGW rules for outdoor heaters — Raffaele Marti]] In den USA gelten [NFPA 70](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70) und ANSI Z223.1/[NFPA 54](https://www.nfpa.org/codes-and-standards/nfpa-54-standard-development/54)[^s8][^s9]. Lassen Sie die Montage von einem Elektrofachbetrieb oder Gasinstallateur nach der Anleitung ausführen und klären Sie die Anforderungen mit Ihrem Bauamt.
+In Deutschland richten sich elektrische Heizstrahler nach DIN VDE 0100 und Gasgeräte nach DVGW-TRGI (Erdgas) bzw. TRF (Flüssiggas)[^s7]. [[VERIFY: current VDE and DVGW rules for outdoor heaters — Partner Deutschland]] In den USA gelten [NFPA 70](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70) und ANSI Z223.1/[NFPA 54](https://www.nfpa.org/codes-and-standards/nfpa-54-standard-development/54)[^s8][^s9]. Lassen Sie die Montage von einem Elektrofachbetrieb oder Gasinstallateur nach der Anleitung ausführen und klären Sie die Anforderungen mit Ihrem Bauamt.
 
 ## Häufige Fragen
 

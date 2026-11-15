@@ -15,8 +15,8 @@ meta_description: "Zo verwarm je een pergola, cabana of lamellendak: welke verwa
 cta: {label: "Download het rapport Outdoor Living Trends 2026", asset: A01}
 hero: w-mountain-view-retreat-platinum-electric-rece
 images: [w-strx-230222-bromic-dc-8, w-platinumelectricflushmountedw-lowclearancere]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -85,7 +85,7 @@ Verwarm een buitenconstructie met stralingsverwarmers die eraan vastzitten: inge
 
 Een pergola, cabana of lamellendak voegt een kamer toe zonder het huis groter te maken. Het houdt zon en regen tegen. De kou houdt het niet tegen. Het dak is ook waar de beste plekken voor een verwarmer zitten, dus je tekent ze het best samen.
 
-Dat was de kern van de versie van deze blog uit 2023, geschreven met de Amerikaanse maker van lamellendaken StruXure: oprichter Scott Selzer stelde dat een ruimte die niemand comfortabel vindt ongebruikt blijft, en Michael Smith van Bromic noemde de combinatie van een constructie en verwarming een logische stap voor buitenleven.[^s6] [[VERIFY: huidige functietitel van Michael Smith (pagina's verschillen) en toestemming om beide uitspraken te houden — Megan Spies]]
+Dat was de kern van de versie van deze blog uit 2023, geschreven met de Amerikaanse maker van lamellendaken StruXure: oprichter Scott Selzer stelde dat een ruimte die niemand comfortabel vindt ongebruikt blijft, en Michael Smith van Bromic noemde de combinatie van een constructie en verwarming een logische stap voor buitenleven.[^s6] [[VERIFY: huidige functietitel van Michael Smith (pagina's verschillen) en toestemming om beide uitspraken te houden — marketing]]
 
 De overkapping helpt ook de verwarmer. Onder een gedeeltelijk dak verzamelt een deel van de warmte zich in een "warmtewolk" die de stralingswarmte aanvult.[^s1] Houd wel genoeg van de zijkanten open: de planningsgids van Bromic noemt een ruimte alleen een buitenruimte zolang ten minste 30% van de omtrek blijvend open is.[^s1] Een constructie aan alle kanten dichtmaken met schermen of glas kan veranderen hoe die wordt ingedeeld; vraag het je gemeente voordat je dat doet.
 

@@ -8,10 +8,15 @@
 <meta name="description" content="For Bromic sales and marketing: capture a project on site — the property, the people, the products and controls, the results, the photos — and track every approval before a case study is written.">
 <style>
 /* @inline:begin ../_shared/brand.css */
+@font-face { font-family: "Helvetica Neue"; src: local("Helvetica Neue Light"), local("HelveticaNeue-Light"), url("../../fonts/arimo-latin.woff2") format("woff2"); font-weight: 300; font-display: swap; }
+@font-face { font-family: "Helvetica Neue"; src: local("Helvetica Neue"), local("HelveticaNeue"), url("../../fonts/arimo-latin.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Helvetica Neue"; src: local("Helvetica Neue Medium"), local("HelveticaNeue-Medium"), url("../../fonts/arimo-latin.woff2") format("woff2"); font-weight: 500; font-display: swap; }
+@font-face { font-family: "Helvetica Neue"; src: local("Helvetica Neue Bold"), local("HelveticaNeue-Bold"), url("../../fonts/arimo-latin.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Bromic Didot"; src: local("Didot"), url("../../fonts/gfs-didot-latin.woff2") format("woff2"); font-weight: 400; font-display: swap; }
 /* Bromic tool styling — shared by A03, A20, A21. Inlined into each index.html by tools/build-config.mjs.
-   Flame is the only accent. Georgia headings, Helvetica/Arial body. Works from 320px up. */
+   Flame is the only accent. Didot headings (Lookbook 2026), Helvetica Neue Light body. Works from 320px up. */
 :root {
-  --paper: #F4F1EC;
+  --paper: #F5F5F4;
   --ink: #231F20;
   --flame: #EF4123;
   --flame-ink: #231F20;          /* small text stays ink: flame on paper is under 4.5:1, so flame marks borders and rules only */
@@ -19,7 +24,7 @@
   --steel-ink: #575C61;          /* steel darkened for small text on paper */
   --mist: #DDE0E2;
   --white: #FFFFFF;
-  --serif: Georgia, "Times New Roman", serif;
+  --serif: Didot, "Bromic Didot", "Bodoni 72", "Bodoni MT", serif;
   --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 * { box-sizing: border-box; }
@@ -115,7 +120,7 @@ td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
   .gate, .actions, .inputs { display: none !important; }
 }
 
-/* Inside a Claude page (?framed=1) print and downloads are blocked: hide those controls. */
+/* Inside an embedded preview (?framed=1) print and downloads are blocked: hide those controls. */
 .framed .no-frame { display: none !important; }
 /* @inline:end ../_shared/brand.css */
 .status { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: center; position: sticky; top: 0; z-index: 2; background: var(--paper); padding: 12px 0; border-bottom: 1px solid var(--mist); margin-bottom: 20px; }
@@ -205,8 +210,8 @@ const APPROVALS = [
   { id: 'consent_credits', label: 'Architect, designer, builder and installer agree to be credited (names and spelling)', gate: 'draft' },
   { id: 'privacy', label: 'Residential: nothing locates the home without the owner’s consent (not needed for commercial)', gate: 'draft' },
   { id: 'regional_lead', label: 'Regional lead checked the facts', gate: 'publish' },
-  { id: 'product_controls', label: 'Mike Clifford checked products, mounting and controls', gate: 'publish' },
-  { id: 'brand', label: 'Megan Spies approved brand and consent file', gate: 'publish' },
+  { id: 'product_controls', label: 'Product team checked products, mounting and controls', gate: 'publish' },
+  { id: 'brand', label: 'Marketing approved brand and consent file', gate: 'publish' },
   { id: 'final_customer', label: 'Customer approved the final draft (saved with the source files)', gate: 'publish' },
 ];
 
@@ -299,7 +304,7 @@ function toMarkdown(c, tax) {
   const aud = [...new Set(t.segment.flatMap((s) => (tax?.groups.segment.tags.find((x) => x.id === s)?.audience) || []))];
   let md = `---\nid: CS-${slug(c.project.name).toUpperCase().slice(0, 24)}\ntype: case-study\ntitle: "${(c.project.name || '').replace(/"/g, "'")}${c.project.city ? ', ' + c.project.city.replace(/"/g, "'") : ''}"\n`;
   md += `slug: ${slug(c.project.name)}\naudience: [${aud.join(', ') || 'COM'}]\nstage: [IN, PP]\nasset: A10\ncta: {label: "Book a design consult", asset: A07}\n`;
-  md += `owner_review: Megan Spies\nstatus: draft\ncapture_status: ${st.id}\ntags: ${JSON.stringify(t)}\n---\n\n`;
+  md += `owner_review: Marketing\nstatus: draft\ncapture_status: ${st.id}\ntags: ${JSON.stringify(t)}\n---\n\n`;
   md += `> Capture status: **${st.label}**.${st.todo.length ? ' Still open: ' + st.todo.join('; ') + '.' : ''} Draft only from approved facts.\n\n`;
   md += `## At a glance\n\n| | |\n|---|---|\n`;
   md += line('Project', c.project.name) + line('Location', [c.project.city, c.project.market].filter(Boolean).join(', ')) + line('Segment', t.segment.map((s) => name('segment', s)).join(', '));

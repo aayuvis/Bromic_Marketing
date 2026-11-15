@@ -14,7 +14,7 @@ meta_description: "Driedelige modelspecificatie voor elektrische stralingsverwar
 cta: {label: "Plan een ontwerpgesprek", asset: A07}
 hero: l-010-075
 images: [t-006-016, l-005-022]
-owner_review: "Shaughn Ritchie + Mike Clifford"
+owner_review: "specificatie en compliance + productteam"
 status: draft
 gated: true
 related: [ARC-IN-01, ARC-CO-01, ARC-PP-01]
@@ -104,8 +104,8 @@ Neem buitenwarmte op in het bestek zoals u verlichting opneemt: een eigen sectie
 | 1 | Deze index en hoe u hem gebruikt | Markdown → PDF | Concept |
 | 2 | Modelspecificatie, sectie 23 83 33 (driedelig CSI-formaat) | Bewerkbare .docx op basis van deze tekst | Concept |
 | 3 | Tabel voor verwarmd oppervlak en keuze | Tabel hieronder; .xlsx op aanvraag | Concept |
-| 4 | Lijst van detailtekeningen (vier standaarddetails) | DWG / PDF | [[VERIFY: welke details er nu bestaan — Mike Clifford]] |
-| 5 | Overzicht van CAD- en BIM-bestanden | DWG, RVT, PDF | [[VERIFY: welke bestanden er bestaan — Mike Clifford]] |
+| 4 | Lijst van detailtekeningen (vier standaarddetails) | DWG / PDF | [[VERIFY: welke details er nu bestaan — productteam]] |
+| 5 | Overzicht van CAD- en BIM-bestanden | DWG, RVT, PDF | [[VERIFY: welke bestanden er bestaan — productteam]] |
 | 6 | Aanvraag ontwerpgesprek (tekeningen van het verwarmd oppervlak) | Service, [asset:A07](asset:A07) | Beschikbaar |
 
 ## In welke MasterFormat-sectie horen infrarood buitenverwarmers?
@@ -118,7 +118,7 @@ Gebruik **23 83 33 Electric Radiant Heaters**. De onderbouwing, zodat u de keuze
 - **Gangbare praktijk.** De modelspecificaties van andere fabrikanten voor elektrische stralingsverwarmers voor buiten gebruiken 23 83 33.[^s5] Sommige productdatabanken zetten infraroodverwarmers onder 23 82 39; zie dat als een gewoonte van die databanken, niet als reden om het te volgen.
 - **Verwante secties** om op af te stemmen: 26 05 19 (geleiders), 26 05 33 (leidingen en dozen), 26 27 26 (installatiemateriaal), 26 28 16 (werkschakelaars), 23 09 00 (meet- en regeltechniek) als een gebouwbeheersysteem binnen de opdracht valt, en Division 06/09 voor het regelwerk en de afwerking van het overstek rond inbouwtoestellen.
 
-[[VERIFY: sectienummers en -titels controleren tegen de huidige editie van CSI MasterFormat die het bureau gebruikt — specifier / Shaughn Ritchie]]
+[[VERIFY: sectienummers en -titels controleren tegen de huidige editie van CSI MasterFormat die het bureau gebruikt — specifier / specificatie en compliance]]
 
 ## Welke Bromic-verwarmer past bij welke ruimte?
 
@@ -127,12 +127,12 @@ Eerst de mensen: een eettafel vraagt gelijkmatige warmte op hoofdhoogte van zitt
 | Serie | Status | Vermogen | Afwerking | Verwarmd oppervlak per verwarmer, ongeveer | Montage | Het meest geschikt voor | Bediening (verplicht) |
 |---|---|---|---|---|---|---|---|
 | Platinum Smart-Heat Electric | Leverbaar | 2300 W, 3400 W, 4500 W | Zwart, wit; Classic- en Marine-uitvoering | 6–13 m² (per model en maat) | Inbouw, plafond, wand | Overdekte terrassen, overstekken, buitenkeukens, kust (Marine) | Affinity On/Off- of Dimmer-regelaar + handmatige wandschakelaar; app via compatibele Affinity-bediening |
-| Eclipse Smart-Heat Electric | Leverbaar | Warmteafgifte 33 / 66 / 100% [[VERIFY: nominaal vermogen en spanning — Mike Clifford]] | Zwart, dimbare randverlichting | 11 m² | Enkele pendel van ca. 200, 610 of 1220 mm; dubbele pendel; gebogen pendel | Eettafels en loungehoeken waar warmte en licht één armatuur zijn | Affinity Eclipse-regelaar + handmatige wandschakelaar; app via compatibele Affinity-bediening |
-| Eclipse Smart-Heat Freestanding Electric | Leverbaar | 33 / 66 / 100% | Zwart, dimbare randverlichting | 11 m² | Vrijstaand: geïntegreerde wieltjes, verzwaarde voet, gebogen arm | Flexibele indelingen van lounge en terras; los meubilair in plaats van inbouw | Affinity Eclipse-regelaar [[VERIFY: bedieningswijze vrijstaande uitvoering — Mike Clifford]] |
-| Tungsten Smart-Heat Electric, Coastal-collectie (binnenkort beschikbaar) | Binnenkort beschikbaar | [[VERIFY: vermogens — Mike Clifford]] | Zwart, wit; maritiem roestvast staal 316; Signature Diamond Pattern-rooster | 6–13 m² (per model en maat) | Inbouw (maritieme uitvoering met geringe inbouwhoogte), plafond, wand, enkele paal | Locaties aan het water en maritieme omgevingen | Affinity-bediening zoals bij Platinum [[VERIFY: compatibiliteit regelaars — Mike Clifford]] |
-| Tungsten Smart-Heat Electric, Select-collectie (binnenkort beschikbaar) | Binnenkort beschikbaar | [[VERIFY: vermogens — Mike Clifford]] | Zwart, wit, grafiet; uitgebreide keuze in frontplaten | 6–13 m² (per model en maat) | Inbouw (geringe inbouwhoogte), plafond, wand, enkele paal | Woningen en horeca waar ontwerp voorop staat | Affinity-bediening zoals bij Platinum [[VERIFY: compatibiliteit regelaars — Mike Clifford]] |
+| Eclipse Smart-Heat Electric | Leverbaar | Warmteafgifte 33 / 66 / 100% [[VERIFY: nominaal vermogen en spanning — productteam]] | Zwart, dimbare randverlichting | 11 m² | Enkele pendel van ca. 200, 610 of 1220 mm; dubbele pendel; gebogen pendel | Eettafels en loungehoeken waar warmte en licht één armatuur zijn | Affinity Eclipse-regelaar + handmatige wandschakelaar; app via compatibele Affinity-bediening |
+| Eclipse Smart-Heat Freestanding Electric | Leverbaar | 33 / 66 / 100% | Zwart, dimbare randverlichting | 11 m² | Vrijstaand: geïntegreerde wieltjes, verzwaarde voet, gebogen arm | Flexibele indelingen van lounge en terras; los meubilair in plaats van inbouw | Affinity Eclipse-regelaar [[VERIFY: bedieningswijze vrijstaande uitvoering — productteam]] |
+| Tungsten Smart-Heat Electric, Coastal-collectie (binnenkort beschikbaar) | Binnenkort beschikbaar | [[VERIFY: vermogens — productteam]] | Zwart, wit; maritiem roestvast staal 316; Signature Diamond Pattern-rooster | 6–13 m² (per model en maat) | Inbouw (maritieme uitvoering met geringe inbouwhoogte), plafond, wand, enkele paal | Locaties aan het water en maritieme omgevingen | Affinity-bediening zoals bij Platinum [[VERIFY: compatibiliteit regelaars — productteam]] |
+| Tungsten Smart-Heat Electric, Select-collectie (binnenkort beschikbaar) | Binnenkort beschikbaar | [[VERIFY: vermogens — productteam]] | Zwart, wit, grafiet; uitgebreide keuze in frontplaten | 6–13 m² (per model en maat) | Inbouw (geringe inbouwhoogte), plafond, wand, enkele paal | Woningen en horeca waar ontwerp voorop staat | Affinity-bediening zoals bij Platinum [[VERIFY: compatibiliteit regelaars — productteam]] |
 
-Het verwarmd oppervlak per afzonderlijk Platinum-vermogen staat nog niet in deze kit. [[VERIFY: verwarmd oppervlak en montagehoogte per Platinum-vermogen (2300 / 3400 / 4500 W) — Mike Clifford]]
+Het verwarmd oppervlak per afzonderlijk Platinum-vermogen staat nog niet in deze kit. [[VERIFY: verwarmd oppervlak en montagehoogte per Platinum-vermogen (2300 / 3400 / 4500 W) — productteam]]
 
 Een ruimte geldt als buitenruimte wanneer minstens 30% van de omtrek permanent open is; een gedeeltelijk dak houdt een 'warmtewolk' vast die er een convectief extraatje bij geeft.[^s2] Dimensioneer voor de open situatie en laat de overkapping daarna meehelpen.
 
@@ -160,8 +160,8 @@ B. Verwante eisen:
 **1.2 REFERENTIES**
 
 A. In de VS: NFPA 70, National Electrical Code (NEC), in de editie die de bevoegde instantie (AHJ) heeft aangenomen, inclusief Article 424, Fixed Electric Space-Heating Equipment.[^s8] In Nederland: NEN 1010 in de geldende versie. [[VERIFY: relevante bepalingen van NEN 1010 voor vaste elektrische stralingsverwarmers buiten — Bromic Benelux distributor]]
-B. Productveiligheid: in de VS een keuring door een Nationally Recognized Testing Laboratory (NRTL): UL, CSA of Intertek (ETL).[^s2] In Europa: CE-markering. [[VERIFY: de exacte norm waarvoor elke elektrische Bromic-verwarmer is gekeurd (bijvoorbeeld UL 499 of UL 2021; CSA C22.2) en de dossiernummers van de keuring — Mike Clifford]][^s9] [[VERIFY: CE-markering en toegepaste Europese normen per model — Bromic Benelux distributor]]
-C. Beschermingsgraad (IP) volgens IEC 60529. [[VERIFY: IP-waarde per serie — Mike Clifford]]
+B. Productveiligheid: in de VS een keuring door een Nationally Recognized Testing Laboratory (NRTL): UL, CSA of Intertek (ETL).[^s2] In Europa: CE-markering. [[VERIFY: de exacte norm waarvoor elke elektrische Bromic-verwarmer is gekeurd (bijvoorbeeld UL 499 of UL 2021; CSA C22.2) en de dossiernummers van de keuring — productteam]][^s9] [[VERIFY: CE-markering en toegepaste Europese normen per model — Bromic Benelux distributor]]
+C. Beschermingsgraad (IP) volgens IEC 60529. [[VERIFY: IP-waarde per serie — productteam]]
 D. Lokale bouw-, energie- en brandveiligheidsvoorschriften. In de VS kunnen energievoorschriften voor utiliteitsbouw eisen dat buitenverwarming stralingsverwarming is en wordt geregeld met een aanwezigheidsdetector of tijdschakelaar; zie de [gids over elektrificatie](asset:A12).
 
 **1.3 IN TE DIENEN STUKKEN**
@@ -187,7 +187,7 @@ A. Leveren in de originele verpakking, voorzien van model en afwerking. Droog en
 
 **1.6 GARANTIE**
 
-A. De standaard beperkte garantie van de fabrikant. [[VERIFY: garantievoorwaarden en -termijnen per serie, woning tegenover zakelijk, en eventuele voorwaarden voor maritiem gebruik en kustlocaties — Mike Clifford]]
+A. De standaard beperkte garantie van de fabrikant. [[VERIFY: garantievoorwaarden en -termijnen per serie, woning tegenover zakelijk, en eventuele voorwaarden voor maritiem gebruik en kustlocaties — productteam]]
 
 ### DEEL 2 – PRODUCTEN
 
@@ -205,7 +205,7 @@ A. Algemeen: elektrische infraroodstralingsverwarmers, gekeurd voor buitengebrui
 
 B. **Platinum Smart-Heat Electric** (uitgangspunt van het ontwerp voor inbouw-, plafond- en wandtoepassingen):
 1. Nominaal vermogen: [2300 W] [3400 W] [4500 W].[^s1]
-2. Spanning en fasen: [[[VERIFY: beschikbare spanningen per vermogen; in Nederland 230 V, 50 Hz (Amerikaanse zakelijke opties werden eerder vermeld als 208 / 240 / 277 V) — Mike Clifford]]][^s2]
+2. Spanning en fasen: [[[VERIFY: beschikbare spanningen per vermogen; in Nederland 230 V, 50 Hz (Amerikaanse zakelijke opties werden eerder vermeld als 208 / 240 / 277 V) — productteam]]][^s2]
 3. Uitvoering: [Classic] [Marine]. *[Marine voor locaties aan de kust en bij zwembaden.]*
 4. Afwerking: [zwart] [wit].
 5. Montage: [ingebouwd met de inbouwkit van de fabrikant] [aan het plafond] [aan de wand].
@@ -217,27 +217,27 @@ C. **Eclipse Smart-Heat Electric** (hangende warmte en licht):
 3. Afwerking: zwart.
 4. Ophanging: [enkele pendel van ca. 200 mm] [enkele pendel van ca. 610 mm] [enkele pendel van ca. 1220 mm] [dubbele pendel] [gebogen pendel].
 5. Verwarmd oppervlak, ongeveer: 11 m² per verwarmer, afhankelijk van de installatie.
-6. Nominaal vermogen en spanning: [[VERIFY — Mike Clifford]].
+6. Nominaal vermogen en spanning: [[VERIFY — productteam]].
 
 D. **Eclipse Smart-Heat Freestanding Electric** *[wordt doorgaans omschreven als los meubilair; neem hem hier alleen op als de installateur van de verwarming hem levert]*:
 1. Geïntegreerde wieltjes, verzwaarde voet, gebogen arm, warmte en dimbaar licht in één.[^s1]
 2. Warmtestanden: 33%, 66%, 100%. Verwarmd oppervlak, ongeveer: 11 m².
-3. Voeding: [[VERIFY: eisen aan stekker, snoer en wandcontactdoos — Mike Clifford]].
+3. Voeding: [[VERIFY: eisen aan stekker, snoer en wandcontactdoos — productteam]].
 
 E. **Tungsten Smart-Heat Electric, Coastal-collectie (binnenkort beschikbaar)** *[alleen omschrijven nadat Bromic de beschikbaarheid voor de planning van het project heeft bevestigd]*:
 1. Maritiem roestvast staal 316; Signature Diamond Pattern-rooster.[^s1]
 2. Afwerking: [zwart] [wit].
 3. Montage: [maritieme inbouw met geringe inbouwhoogte] [plafond] [wand] [enkele paal].
 4. Verwarmd oppervlak, ongeveer: 6–13 m², afhankelijk van model en maat.
-5. Vermogen, spanning, afmetingen: [[VERIFY — Mike Clifford]].
+5. Vermogen, spanning, afmetingen: [[VERIFY — productteam]].
 
 F. **Tungsten Smart-Heat Electric, Select-collectie (binnenkort beschikbaar)** *[zoals hierboven]*:
 1. Afwerking: [zwart] [wit] [grafiet]; uitgebreide keuze in frontplaten.[^s1]
 2. Montage: [inbouw met geringe inbouwhoogte] [plafond] [wand] [enkele paal].
 3. Verwarmd oppervlak, ongeveer: 6–13 m², afhankelijk van model en maat.
-4. Vermogen, spanning, afmetingen: [[VERIFY — Mike Clifford]].
+4. Vermogen, spanning, afmetingen: [[VERIFY — productteam]].
 
-G. Prestatie-eisen (voor alternatieven onder optie B): [[VERIFY: de prestatiecriteria die Bromic de voorkeur geeft, bijvoorbeeld golflengteklasse, type element, IP-waarde, keuring, opwarmtijd, verblinding en zichtbaar licht — Mike Clifford + Shaughn Ritchie]]
+G. Prestatie-eisen (voor alternatieven onder optie B): [[VERIFY: de prestatiecriteria die Bromic de voorkeur geeft, bijvoorbeeld golflengteklasse, type element, IP-waarde, keuring, opwarmtijd, verblinding en zichtbaar licht — productteam + specificatie en compliance]]
 
 **2.3 BEDIENING (VERPLICHT)**
 
@@ -245,22 +245,22 @@ A. Elke verwarmer wordt bediend met Affinity Smart-Heat Controls van Bromic Heat
 
 B. Regelaars, zoals aangegeven op de tekeningen:
 1. [Affinity Smart-Heat On/Off-regelaar] – aan/uit-bediening van een of meer verwarmers per zone.
-2. [Affinity Smart-Heat Dimmer-regelaar] – regelbaar vermogen voor Platinum- en Tungsten-verwarmers. [[VERIFY: compatibiliteit van de dimmer per serie en vermogen — Mike Clifford]]
+2. [Affinity Smart-Heat Dimmer-regelaar] – regelbaar vermogen voor Platinum- en Tungsten-verwarmers. [[VERIFY: compatibiliteit van de dimmer per serie en vermogen — productteam]]
 3. [Affinity Smart-Heat Eclipse-regelaar] – warmtestanden en randverlichting voor Eclipse-verwarmers.
 4. Handmatige wandschakelaar per zone, gemonteerd op [__] mm boven de afgewerkte vloer, op een plek die zichtbaar is vanuit de verwarmde ruimte.
 
-C. App: de Bromic Smart-Heat app voor zones, schema's en timers. Voor wifi-verbinding en app-functies zijn compatibele Affinity Smart-Heat Controls nodig, die apart worden verkocht.[^s1] Zorg voor wifi-dekking op de plaatsen van de regelaars. [[VERIFY: netwerkeisen (frequentieband, signaalsterkte) — Mike Clifford]]
+C. App: de Bromic Smart-Heat app voor zones, schema's en timers. Voor wifi-verbinding en app-functies zijn compatibele Affinity Smart-Heat Controls nodig, die apart worden verkocht.[^s1] Zorg voor wifi-dekking op de plaatsen van de regelaars. [[VERIFY: netwerkeisen (frequentieband, signaalsterkte) — productteam]]
 
 D. Koppelingen: waar aangegeven, koppeling met [Amazon Alexa] [Google Assistant] [Control4] [Crestron] [Lutron]. De compatibiliteit verschilt per systeem; voor koppeling is compatibele Affinity-bediening nodig en mogelijk extra integratiehardware of configuratie.[^s1] Stem af met de systeemintegrator voordat de voorbekabeling wordt aangelegd.
 
-E. Energievoorschriften: waar de bevoegde instantie eist dat buitenverwarming automatisch uitschakelt als niemand aanwezig is, voorzie dan in bediening met een [aanwezigheidsdetector] [tijdschakelaar]. [[VERIFY: of de schema's en timers van Affinity voldoen aan de eis van een tijdschakelaar, en de goedgekeurde koppeling met een aanwezigheidsdetector — Mike Clifford]]
+E. Energievoorschriften: waar de bevoegde instantie eist dat buitenverwarming automatisch uitschakelt als niemand aanwezig is, voorzie dan in bediening met een [aanwezigheidsdetector] [tijdschakelaar]. [[VERIFY: of de schema's en timers van Affinity voldoen aan de eis van een tijdschakelaar, en de goedgekeurde koppeling met een aanwezigheidsdetector — productteam]]
 
 F. Zonering: aparte zones voor ruimtes die op verschillende momenten worden gebruikt (bijvoorbeeld eten, bar, lounge).
 
 **2.4 ACCESSOIRES**
 
-A. Inbouwkits: de inbouwkit van de fabrikant voor het vlak inbouwen van elektrische Platinum- en Tungsten-verwarmers in plafond- en overstekholtes.[^s2] [[VERIFY: artikelnummers van de inbouwkits, uitsparingsmaten en diepte van de holte per model — Mike Clifford]]
-B. Pendels: de pendels van de fabrikant om verwarmers onder hoge plafonds op een effectieve hoogte te brengen.[^s2] [[VERIFY: beschikbare lengtes — Mike Clifford]]
+A. Inbouwkits: de inbouwkit van de fabrikant voor het vlak inbouwen van elektrische Platinum- en Tungsten-verwarmers in plafond- en overstekholtes.[^s2] [[VERIFY: artikelnummers van de inbouwkits, uitsparingsmaten en diepte van de holte per model — productteam]]
+B. Pendels: de pendels van de fabrikant om verwarmers onder hoge plafonds op een effectieve hoogte te brengen.[^s2] [[VERIFY: beschikbare lengtes — productteam]]
 C. Wand- en plafondbeugels: zoals meegeleverd bij elke verwarmer.
 
 ### DEEL 3 – UITVOERING
@@ -274,7 +274,7 @@ C. Controleer voor de montage de afstanden tot brandbare materialen, sprinklerko
 **3.2 INSTALLATIE**
 
 A. Installeer verwarmers, bediening en accessoires volgens de geldende installatievoorschriften van de fabrikant en de goedgekeurde werktekeningen.
-B. Montagehoogtes: niet lager dan de minimumwaarden van de fabrikant voor het model en vermogen. *[De planningsrichtlijn van Bromic noemde tot nu toe een minimum van 1,8 m boven de vloer voor wandmontage en 2,4 m voor plafondmontage, afhankelijk van het vermogen.[^s2] Controleer dit tegen de huidige installatiehandleiding van elk model.]* [[VERIFY: huidige minimale montagehoogtes en vrije afstanden per model en vermogen — Mike Clifford]]
+B. Montagehoogtes: niet lager dan de minimumwaarden van de fabrikant voor het model en vermogen. *[De planningsrichtlijn van Bromic noemde tot nu toe een minimum van 1,8 m boven de vloer voor wandmontage en 2,4 m voor plafondmontage, afhankelijk van het vermogen.[^s2] Controleer dit tegen de huidige installatiehandleiding van elk model.]* [[VERIFY: huidige minimale montagehoogtes en vrije afstanden per model en vermogen — productteam]]
 C. Richt wandverwarmers op de zone waar mensen verblijven, niet op looproutes of glas.
 D. Inbouwtoestellen: plaats de inbouwkit voordat het plafond wordt afgewerkt; dicht de doorvoer in het plafond af volgens de instructies van de fabrikant.
 
@@ -308,7 +308,7 @@ B. Draag de handleidingen voor gebruik en onderhoud, de garantiedocumenten en he
 
 ## Merkgebonden of "of gelijkwaardig"?
 
-*Notitie voor beoordeling (Shaughn Ritchie):* het doel van deze kit is vervanging bij de aanbesteding te voorkomen. Een merkgebonden specificatie (optie A) doet dat, en is gebruikelijk bij particuliere woningbouw en horeca. Veel publieke opdrachtgevers, en ook sommige particuliere, eisen mededinging, zodat een architect alternatieven moet toestaan. Optie B houdt Bromic als uitgangspunt van het ontwerp, maar stelt prestatie-eisen en vraagt voor elk alternatief een tekening van het verwarmd oppervlak. Dat legt de lat hoger zonder alternatieven te verbieden. Beide opties staan hierboven uitgewerkt. [[VERIFY: de standaardkeuze die Bromic de voorkeur geeft (A of B) en de prestatie-eisen voor optie B — Shaughn Ritchie + Mike Clifford]] [[VERIFY: regels voor merkgebonden voorschrijven bij Nederlandse aanbestedingen — Bromic Benelux distributor]]
+*Notitie voor beoordeling (specificatie en compliance):* het doel van deze kit is vervanging bij de aanbesteding te voorkomen. Een merkgebonden specificatie (optie A) doet dat, en is gebruikelijk bij particuliere woningbouw en horeca. Veel publieke opdrachtgevers, en ook sommige particuliere, eisen mededinging, zodat een architect alternatieven moet toestaan. Optie B houdt Bromic als uitgangspunt van het ontwerp, maar stelt prestatie-eisen en vraagt voor elk alternatief een tekening van het verwarmd oppervlak. Dat legt de lat hoger zonder alternatieven te verbieden. Beide opties staan hierboven uitgewerkt. [[VERIFY: de standaardkeuze die Bromic de voorkeur geeft (A of B) en de prestatie-eisen voor optie B — specificatie en compliance + productteam]] [[VERIFY: regels voor merkgebonden voorschrijven bij Nederlandse aanbestedingen — Bromic Benelux distributor]]
 
 ## Welke details moeten op de tekeningen?
 
@@ -325,17 +325,17 @@ Vier standaarddetails dekken de meeste projecten. Elk is getekend als doorsnede 
 
 ## Welke CAD- en BIM-bestanden zijn er?
 
-[[VERIFY: welke bestanden er bestaan, hun formaten, LOD en waar ze worden gehost (bromic.com, BIMobject, ARCAT, andere) — Mike Clifford]]
+[[VERIFY: welke bestanden er bestaan, hun formaten, LOD en waar ze worden gehost (bromic.com, BIMobject, ARCAT, andere) — productteam]]
 
 | Bestand | Formaat | Omvat | Status |
 |---|---|---|---|
-| Revit-families, elektrische verwarmers | .rfa | Platinum (2300/3400/4500 W), Eclipse, Tungsten Coastal en Select (na de introductie) | [[VERIFY — Mike Clifford]] |
-| Revit-families, regelaars | .rfa | Affinity On/Off-, Dimmer- en Eclipse-regelaars | [[VERIFY — Mike Clifford]] |
-| 2D CAD-blokken | .dwg | Plattegrond- en aanzichtblokken per verwarmer | [[VERIFY — Mike Clifford]] |
-| Standaarddetails D1–D4 | .dwg / .pdf | Zoals hierboven vermeld | [[VERIFY — Mike Clifford]] |
-| Specificatiebladen | .pdf | Per model: afmetingen, gewicht, vermogen, spanning, vrije afstanden | [[VERIFY — Mike Clifford]] |
-| Installatiehandleidingen | .pdf | Per model, huidige editie | [[VERIFY — Mike Clifford]] |
-| Keuringscertificaten | .pdf | Keuring per model | [[VERIFY — Mike Clifford]] |
+| Revit-families, elektrische verwarmers | .rfa | Platinum (2300/3400/4500 W), Eclipse, Tungsten Coastal en Select (na de introductie) | [[VERIFY — productteam]] |
+| Revit-families, regelaars | .rfa | Affinity On/Off-, Dimmer- en Eclipse-regelaars | [[VERIFY — productteam]] |
+| 2D CAD-blokken | .dwg | Plattegrond- en aanzichtblokken per verwarmer | [[VERIFY — productteam]] |
+| Standaarddetails D1–D4 | .dwg / .pdf | Zoals hierboven vermeld | [[VERIFY — productteam]] |
+| Specificatiebladen | .pdf | Per model: afmetingen, gewicht, vermogen, spanning, vrije afstanden | [[VERIFY — productteam]] |
+| Installatiehandleidingen | .pdf | Per model, huidige editie | [[VERIFY — productteam]] |
+| Keuringscertificaten | .pdf | Keuring per model | [[VERIFY — productteam]] |
 | Deze modelspecificatie | .docx | Sectie 23 83 33 | Concept (dit document) |
 
 ## Checklist voor de planning

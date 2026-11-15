@@ -18,8 +18,8 @@ meta_description: "Lounges, outdoor kitchens, covered rooms and wellness spaces:
 cta: {label: "Download the Trends 2026 report", asset: A01}
 hero: w-bromiceclipseheater-scottsdalehome-10
 images: [w-tungsten-electric-new-york-residential]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false

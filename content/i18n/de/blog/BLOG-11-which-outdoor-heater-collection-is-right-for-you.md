@@ -15,8 +15,8 @@ meta_description: "Einen Bromic Heizstrahler nach Fläche, Energie und Montage w
 cta: {label: "Ihre Fläche berechnen", asset: A03}
 hero: w-bromic-ambiente-sedona
 images: [w-connecticut-privateresidence-tungstenelectri, w-dwellimage5]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -89,7 +89,7 @@ sources:
 lang: de
 translation_of: BLOG-11
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 Der richtige Bromic Heizstrahler hängt von drei Dingen ab: der Fläche (offen, überdacht oder teilweise geschlossen), der verfügbaren Energie (Strom oder Gas) und der gewünschten Montage (eingelassen, Decke, Wand oder freistehend). Elektro passt zu überdachten und teilweise geschlossenen Terrassen, Gas zu großen, gut belüfteten Flächen, freistehende Geräte zu offenem Gelände ohne Konstruktion. Jeder fest installierte Heizstrahler braucht seine Steuerung: ein Affinity Smart-Heat On/Off-, Dimmer- oder Eclipse-Steuergerät oder einen manuellen Wandschalter.[^s1]
 
@@ -108,7 +108,7 @@ Strahlungsheizer (Infrarot) ja, weil sie Menschen und Oberflächen erwärmen sta
 | Wärme und Licht über Tisch oder Lounge | Strom | Stange, Pendel oder Wand | Eclipse Electric | Affinity Eclipse-Steuergerät[^s6] |
 | Offene Terrasse ohne Konstruktion, mit Steckdose | Strom | Freistehend | Eclipse Freestanding | Eclipse Dimmer Controller und Fernbedienung, im Lieferumfang[^s6] |
 | Große, gut belüftete Fläche mit Gasleitung | Erdgas oder Flüssiggas | Wand oder Decke | Platinum Gas, Tungsten Gas | Affinity On/Off-Steuergerät; Wandschalter[^s7] |
-| Offenes Gelände ohne Strom- oder Gasleitung | Flüssiggas oder Erdgas | Freistehend | Tungsten Freestanding Gas | [[VERIFY: Steuerungsoptionen für Tungsten Freestanding Gas — Mike Clifford]] |
+| Offenes Gelände ohne Strom- oder Gasleitung | Flüssiggas oder Erdgas | Freistehend | Tungsten Freestanding Gas | [[VERIFY: Steuerungsoptionen für Tungsten Freestanding Gas — Produktteam]] |
 
 Unsicher zwischen Strom und Gas? Lesen Sie [Elektro- oder Gas-Terrassenheizstrahler](item:RES-CO-01).
 
@@ -126,7 +126,7 @@ Unsicher zwischen Strom und Gas? Lesen Sie [Elektro- oder Gas-Terrassenheizstrah
 
 **Tungsten Coastal und Select (demnächst erhältlich).** Neue Tungsten-Kollektionen für ca. 6 bis 13 m²: Coastal aus seewasserbeständigem Edelstahl 316, Select mit zusätzlichen Oberflächen.[^s1]
 
-Steuerung für Elektro: Platinum, Tungsten und Cobalt laufen über ein Affinity On/Off- (volle Leistung) oder Dimmer-Steuergerät (Leistung in 1-%-Schritten) oder einen manuellen Wandschalter.[^s9] Eclipse Electric läuft über das Affinity Eclipse-Steuergerät, das Wärme und Licht gemeinsam regelt.[^s6] [[VERIFY: ob Eclipse Electric weiterhin mit Eclipse Dimmer Controller und Fernbedienung als Alternative zum Affinity Eclipse-Steuergerät geliefert wird — Mike Clifford]]
+Steuerung für Elektro: Platinum, Tungsten und Cobalt laufen über ein Affinity On/Off- (volle Leistung) oder Dimmer-Steuergerät (Leistung in 1-%-Schritten) oder einen manuellen Wandschalter.[^s9] Eclipse Electric läuft über das Affinity Eclipse-Steuergerät, das Wärme und Licht gemeinsam regelt.[^s6] [[VERIFY: ob Eclipse Electric weiterhin mit Eclipse Dimmer Controller und Fernbedienung als Alternative zum Affinity Eclipse-Steuergerät geliefert wird — Produktteam]]
 
 ![Eingelassene Tungsten Electric Heizstrahler in einer Verandadecke](img:w-connecticut-privateresidence-tungstenelectri)
 
@@ -134,11 +134,11 @@ Steuerung für Elektro: Platinum, Tungsten und Cobalt laufen über ein Affinity 
 
 **Platinum Gas.** Zwei Größen mit ca. 6,9 und 11,7 kW für ca. 15 und 20 m², für Erdgas oder Flüssiggas, Wand- oder Deckenmontage.[^s7]
 
-**Tungsten Gas.** Zwei Größen an einem Schwenkarm für Wand oder Decke. [[VERIFY: Leistung und Heizfläche von Tungsten Gas je Größe, bis zur Bestätigung nicht in Inhalten veröffentlicht — Mike Clifford]]
+**Tungsten Gas.** Zwei Größen an einem Schwenkarm für Wand oder Decke. [[VERIFY: Leistung und Heizfläche von Tungsten Gas je Größe, bis zur Bestätigung nicht in Inhalten veröffentlicht — Produktteam]]
 
-**Tungsten Freestanding Gas.** Ca. 11,1 kW und ca. 20 m², für Flüssiggas oder Erdgas, mit neigbarem Kopf, Rollen und Kippschutz.[^s1] [[VERIFY: ca. 11,1 kW (Lookbook) gegenüber ca. 11,3 kW (Produktseite) — Mike Clifford]]
+**Tungsten Freestanding Gas.** Ca. 11,1 kW und ca. 20 m², für Flüssiggas oder Erdgas, mit neigbarem Kopf, Rollen und Kippschutz.[^s1] [[VERIFY: ca. 11,1 kW (Lookbook) gegenüber ca. 11,3 kW (Produktseite) — Produktteam]]
 
-Gasheizstrahler brauchen freie Luft um sich herum. Bromic behandelt eine Fläche als Außenbereich, wenn mindestens 30 % ihres Umfangs dauerhaft offen sind.[^s8] [[VERIFY: der zusammengeführte Beitrag nannte 25 %; die aktuelle Belüftungsregel bestätigen — Mike Clifford]] Gasheizstrahler schalten ein und aus; sie lassen sich nicht dimmen. Betreiben Sie sie über ein Affinity On/Off-Steuergerät, bis zu 10 Heizstrahler je Kanal, oder über einen manuellen Wandschalter.[^s7] Fest installierte Gasheizstrahler schließt ein Gasinstallateur nach DVGW-TRGI (Erdgas) oder TRF (Flüssiggas) an; klären Sie Abstände und Belüftung mit Ihrem örtlichen Bauamt. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Raffaele Marti]]
+Gasheizstrahler brauchen freie Luft um sich herum. Bromic behandelt eine Fläche als Außenbereich, wenn mindestens 30 % ihres Umfangs dauerhaft offen sind.[^s8] [[VERIFY: der zusammengeführte Beitrag nannte 25 %; die aktuelle Belüftungsregel bestätigen — Produktteam]] Gasheizstrahler schalten ein und aus; sie lassen sich nicht dimmen. Betreiben Sie sie über ein Affinity On/Off-Steuergerät, bis zu 10 Heizstrahler je Kanal, oder über einen manuellen Wandschalter.[^s7] Fest installierte Gasheizstrahler schließt ein Gasinstallateur nach DVGW-TRGI (Erdgas) oder TRF (Flüssiggas) an; klären Sie Abstände und Belüftung mit Ihrem örtlichen Bauamt. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Partner Deutschland]]
 
 ## Wie viele Heizstrahler brauche ich?
 

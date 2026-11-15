@@ -15,7 +15,7 @@ meta_description: "Can outdoor heaters be recessed into a soffit? Yes, with rece
 cta: {label: "Download the spec kit", asset: A11}
 hero: t-006-016
 images: []
-owner_review: Mike Clifford
+owner_review: Product team
 status: draft
 gated: false
 related: [ARC-IN-01, ARC-BY-01]
@@ -56,7 +56,7 @@ Source: Lookbook 2026 and Planning Guide[^s1][^s2].
 - [ ] Mounting height in section (ceiling mounts at least 96 in, varying with output)[^s1]
 - [ ] Controller and wall switch location
 
-[[VERIFY: recess kit cut-out, cavity depth and in-cavity clearance per model — Mike Clifford]]
+[[VERIFY: recess kit cut-out, cavity depth and in-cavity clearance per model — Product team]]
 
 Specify the controls with each recessed heater: an Affinity Smart-Heat On/Off or Dimmer controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately[^s2].
 

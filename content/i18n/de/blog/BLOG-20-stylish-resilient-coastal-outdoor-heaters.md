@@ -14,8 +14,8 @@ ai_prompt: "Welcher Heizstrahler eignet sich am besten für ein Haus am Meer?"
 meta_description: "Salzhaltige Luft lässt gewöhnliche Heizstrahler korrodieren. Warum Edelstahl 316 zählt und was Platinum Smart-Heat Electric Marine für Küstenhäuser und Schiffe bietet."
 cta: {label: "Ihre Fläche berechnen", asset: A03}
 hero: w-bromic-platinum-electric-marine-patio-heater
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -74,7 +74,7 @@ sources:
 lang: de
 translation_of: BLOG-20
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 
 Der beste Heizstrahler für ein Haus an der Küste besteht aus seewasserbeständigem Edelstahl 316, ist gegen Gischt abgedichtet und unter einer Überdachung montiert. Salzhaltige Luft lässt gewöhnliche Metalle schnell korrodieren. Bromics Antwort ist heute Platinum Smart-Heat Electric Marine: Edelstahl AISI 316, Schutzart IPX5 und eine Zulassung von Lloyd's Register für den maritimen Einsatz.[^s1] Tungsten Smart-Heat Electric Coastal (demnächst erhältlich) wird eine zweite Option in Edelstahl 316 bieten.[^s6]
@@ -104,17 +104,17 @@ Salz, das mit Gischt und auflandigem Wind herangetragen wird, setzt sich auf Met
 | 3400 W | 10 m² | 10 kg |
 | 4500 W | 13 m² | 15 kg |
 
-- **Gehäuse:** Seewasserbeständiger Edelstahl AISI 316, vollständig geschlossen.[^s1] Eine FAQ auf der Produktseite nennt „314“; der Rest der Seite nennt 316. [[VERIFY: Tippfehler 314 auf der Produktseite korrigieren — Mike Clifford]]
+- **Gehäuse:** Seewasserbeständiger Edelstahl AISI 316, vollständig geschlossen.[^s1] Eine FAQ auf der Produktseite nennt „314“; der Rest der Seite nennt 316. [[VERIFY: Tippfehler 314 auf der Produktseite korrigieren — Produktteam]]
 - **Wasser:** IPX5, geschützt gegen Strahlwasser mit niedrigem Druck aus allen Richtungen. Siehe [was IP-Schutzarten bedeuten](item:BLOG-19).[^s1]
 - **Anschluss:** 220–240 V oder 208 V; in Deutschland 230 V. Mindestmontagehöhe 1,83 m an der Wand, 2,44 m an der Decke.[^s1]
-- **Maritime Zulassung:** Bromic bezeichnet sie als erste Heizstrahlerserie für draußen, die von Lloyd's Register für den maritimen Einsatz zugelassen ist, zertifiziert nach ENV5.[^s1][^s5] [[VERIFY: Zertifikatsnummer von Lloyd's Register und die Aussage „erste“ — Mike Clifford]]
+- **Maritime Zulassung:** Bromic bezeichnet sie als erste Heizstrahlerserie für draußen, die von Lloyd's Register für den maritimen Einsatz zugelassen ist, zertifiziert nach ENV5.[^s1][^s5] [[VERIFY: Zertifikatsnummer von Lloyd's Register und die Aussage „erste“ — Produktteam]]
 - **Ausführung:** Schwarz oder Weiß. Montage an Wand oder Decke oder eingelassen mit dem [Low Clearance Recess Kit](https://www.bromic.de/).
 
 **Steuerung.** Jeder Heizstrahler braucht eine; sie ist nicht im Lieferumfang enthalten.[^s1] Wählen Sie ein [Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät](https://www.bromic.de/) oder einen manuellen Wandschalter. WLAN- und Smart-Heat-App-Funktionen erfordern kompatible Affinity-Steuerungen, die separat erhältlich sind.[^s6] Montieren Sie das Steuergerät an einem trockenen Ort.
 
 ## Was deckt die Garantie an Land und auf See ab?
 
-Die [Garantieseite](https://www.bromic.de/) und die Spezifikationstabelle der Produktseite nennen 5 Jahre für Installationen an Land und 3 Jahre auf Schiffen.[^s2][^s1] Die Beschreibung auf der Produktseite sagt dagegen, die 5-Jahres-Garantie gelte nur für den Einsatz an Land und decke Installationen auf Schiffen nicht ab.[^s1] Diese beiden Aussagen widersprechen sich. Bis Bromic dies klärt, sollten Schiffseigner sich die Bedingungen schriftlich geben lassen. [[VERIFY: Marine-Garantie auf Schiffen — 3 Jahre oder keine Deckung? Beschreibung der Produktseite mit der Garantieseite abgleichen — Mike Clifford]]
+Die [Garantieseite](https://www.bromic.de/) und die Spezifikationstabelle der Produktseite nennen 5 Jahre für Installationen an Land und 3 Jahre auf Schiffen.[^s2][^s1] Die Beschreibung auf der Produktseite sagt dagegen, die 5-Jahres-Garantie gelte nur für den Einsatz an Land und decke Installationen auf Schiffen nicht ab.[^s1] Diese beiden Aussagen widersprechen sich. Bis Bromic dies klärt, sollten Schiffseigner sich die Bedingungen schriftlich geben lassen. [[VERIFY: Marine-Garantie auf Schiffen — 3 Jahre oder keine Deckung? Beschreibung der Produktseite mit der Garantieseite abgleichen — Produktteam]]
 
 ## Tungsten Coastal (demnächst erhältlich)
 
@@ -123,7 +123,7 @@ Die Kollektion Tungsten Smart-Heat Electric Coastal (demnächst erhältlich) ent
 ## Wie pflegen Sie einen Heizstrahler am Meer?
 
 1. **Unter einer Überdachung montieren,** wo immer möglich, außerhalb der direkten Gischt.[^s4]
-2. **Das Salz entfernen.** Bromic empfiehlt, das Gehäuse an der Küste mindestens alle zwei Wochen mit einem weichen, feuchten Tuch abzuwischen.[^s4] Geschützte Flächen brauchen das am meisten, weil der Regen sie nie abspült.[^s3] [[VERIFY: Reinigungsintervall stimmt mit der Installationsanleitung der Marine-Serie überein — Mike Clifford]]
+2. **Das Salz entfernen.** Bromic empfiehlt, das Gehäuse an der Küste mindestens alle zwei Wochen mit einem weichen, feuchten Tuch abzuwischen.[^s4] Geschützte Flächen brauchen das am meisten, weil der Regen sie nie abspült.[^s3] [[VERIFY: Reinigungsintervall stimmt mit der Installationsanleitung der Marine-Serie überein — Produktteam]]
 3. **Keine Scheuermittel.** Verzichten Sie auf Scheuerschwämme und scheuernde oder ätzende Reiniger, die Edelstahl beschädigen können.[^s4]
 4. **Ausschalten und abkühlen lassen,** bevor Sie reinigen. Sprühen Sie nie Wasser in den Heizstrahler.
 

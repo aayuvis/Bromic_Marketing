@@ -19,8 +19,8 @@ meta_description: "Wat een paddenstoelverwarmer op propaan een horecazaak per uu
 cta: {label: "Reken het vijfjarige kostenmodel door", asset: A20}
 hero: w-power-of-portable
 images: [l-019-164]
-owner_review: Megan Spies + Blake Petty
-technical_reviewer: Mike Clifford
+owner_review: marketing + verkoop horeca
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -117,7 +117,7 @@ Vrijstaande terrasverwarmers op propaan draaien in de VS meestal op een fles van
 **Propaan per uur (liter) = vermogen (kW) ÷ 7,08 kWh per liter**\
 **Kosten per uur = liters per uur × jouw prijs per liter propaan**
 
-(7,08 kWh per liter is de omrekening van de 91.500 BTU per US gallon waarmee het kostenmodel rekent.) Als Amerikaans voorbeeld: tegen $2,674 per gallon (ca. $0,71 per liter), de prijs die het [vijfjarige kostenmodel](asset:A20) gebruikt (het Amerikaanse EIA-gemiddelde voor huishoudens; EIA publiceert geen reeks voor bedrijven),[^s2] kost een verwarmer van 11,7 kW ongeveer **$1,17 per uur** en een van 14,1 kW ongeveer **$1,40**. [[VERIFY: tarieven 2026 — Brian Kim/Finance; ruilflessen zijn meestal duidelijk duurder dan dit bulkgemiddelde]] Europese prijzen staan hier niet: vul je eigen prijzen in.
+(7,08 kWh per liter is de omrekening van de 91.500 BTU per US gallon waarmee het kostenmodel rekent.) Als Amerikaans voorbeeld: tegen $2,674 per gallon (ca. $0,71 per liter), de prijs die het [vijfjarige kostenmodel](asset:A20) gebruikt (het Amerikaanse EIA-gemiddelde voor huishoudens; EIA publiceert geen reeks voor bedrijven),[^s2] kost een verwarmer van 11,7 kW ongeveer **$1,17 per uur** en een van 14,1 kW ongeveer **$1,40**. [[VERIFY: tarieven 2026 — financiën; ruilflessen zijn meestal duidelijk duurder dan dit bulkgemiddelde]] Europese prijzen staan hier niet: vul je eigen prijzen in.
 
 | Verwarmer | Vermogen | Brandstof | Verbruik per uur | Kosten per uur, VS-voorbeeld |
 |---|---|---|---|---|
@@ -130,13 +130,13 @@ Amerikaanse tarieven: propaan $2,674 per gallon[^s2]; aardgas voor bedrijven ong
 
 ## Waarom verspilt een paddenstoelverwarmer warmte?
 
-Omdat hij in een cirkel verwarmt, van boven hoofdhoogte, en een groot deel van zijn vermogen warme lucht is die de wind meeneemt. Stralingswarmte verwarmt mensen en voorwerpen in plaats van lucht, en werkt daarom buiten; hoe korter de golflengte, hoe groter het stralingsaandeel en hoe minder de wind wegneemt.[^s10] Een gerichte verwarmer richt die stralingsenergie op de tafels. De Tungsten Smart-Heat Freestanding Gas heeft een kantelbare kop en keramische branders en wordt door Bromic opgegeven voor ongeveer 20 m².[^s6] [[VERIFY: vermogen Tungsten Freestanding Gas, 11,1 kW (38.000 BTU volgens het Lookbook) of 11,3 kW (38.500 BTU volgens de productpagina) — Mike Clifford]]
+Omdat hij in een cirkel verwarmt, van boven hoofdhoogte, en een groot deel van zijn vermogen warme lucht is die de wind meeneemt. Stralingswarmte verwarmt mensen en voorwerpen in plaats van lucht, en werkt daarom buiten; hoe korter de golflengte, hoe groter het stralingsaandeel en hoe minder de wind wegneemt.[^s10] Een gerichte verwarmer richt die stralingsenergie op de tafels. De Tungsten Smart-Heat Freestanding Gas heeft een kantelbare kop en keramische branders en wordt door Bromic opgegeven voor ongeveer 20 m².[^s6] [[VERIFY: vermogen Tungsten Freestanding Gas, 11,1 kW (38.000 BTU volgens het Lookbook) of 11,3 kW (38.500 BTU volgens de productpagina) — productteam]]
 
 Paddenstoelverwarmers worden niet op een vergelijkbare manier opgegeven voor verwarmd oppervlak, dus het getal dat je nodig hebt komt uit een warmteplan van je eigen indeling, niet uit een verhoudingsgetal. De claim "drie keer zo efficiënt" en de jaarlijkse besparing van $16.752 in de live post gaven geen methode of invoer en zijn daarom verwijderd.[^s11]
 
 ## Wat kost een seizoen per verwarmer?
 
-Ter illustratie, per verwarmer, met de standaardwaarden van het A20-model: 900 branduren per jaar (6 uur per avond, 150 avonden), vol vermogen, de tarieven hierboven, een Amerikaanse fles van 20 lb met ongeveer 17,8 liter (4,7 gallon) bruikbare inhoud, 10 minuten personeelstijd per wissel en $15,71 per uur.[^s5] [[VERIFY: uren, vulling van de fles en minuten per wissel voor je eigen locatie — Blake Petty]] In Nederland zijn flessen van 10,5 of 11 kg gangbaar; reken met je eigen vulling en loonkosten.
+Ter illustratie, per verwarmer, met de standaardwaarden van het A20-model: 900 branduren per jaar (6 uur per avond, 150 avonden), vol vermogen, de tarieven hierboven, een Amerikaanse fles van 20 lb met ongeveer 17,8 liter (4,7 gallon) bruikbare inhoud, 10 minuten personeelstijd per wissel en $15,71 per uur.[^s5] [[VERIFY: uren, vulling van de fles en minuten per wissel voor je eigen locatie — verkoop horeca]] In Nederland zijn flessen van 10,5 of 11 kg gangbaar; reken met je eigen vulling en loonkosten.
 
 | Per verwarmer, 900 uur | Brandstof per jaar | Flessenwissels | Arbeid wissels, VS-voorbeeld | Totaal, VS-voorbeeld |
 |---|---|---|---|---|
@@ -160,7 +160,7 @@ Per 10 m² opgegeven verwarmd oppervlak is dat in het VS-voorbeeld ongeveer $0,4
 
 | Locatie | Past meestal | Bediening |
 |---|---|---|
-| Open terras, wisselende opstelling | Tungsten Smart-Heat Freestanding Gas | [[VERIFY: bedieningsopties voor Tungsten Freestanding Gas — Mike Clifford]] |
+| Open terras, wisselende opstelling | Tungsten Smart-Heat Freestanding Gas | [[VERIFY: bedieningsopties voor Tungsten Freestanding Gas — productteam]] |
 | Gasleiding binnen bereik | Tungsten Freestanding Gas op aardgas | als hierboven |
 | Overdekt terras, overstek of wand | Platinum Smart-Heat Electric | Affinity Smart-Heat On/Off- of Dimmer-regelaar, wandschakelaar, app |
 | Propaan beperkt | Elektrisch | Affinity-bediening als hierboven |
@@ -179,7 +179,7 @@ Ze verbruiken ca. 11,7–14,1 kW (40.000–48.000 BTU/h)[^s1] en verwarmen van b
 
 ### Hoe lang gaat een propaanfles mee?
 
-Op vol vermogen gaat ongeveer 17,8 liter bruikbare inhoud bij 12,9 kW zo'n 9,8 uur mee (17,8 × 7,08 ÷ 12,9). Veel ruilflessen zijn lichter gevuld. [[VERIFY: bruikbare vulling van ruilflessen en de brandduur van Tungsten Freestanding per fles; de live post zei tot 8 uur — Mike Clifford]]
+Op vol vermogen gaat ongeveer 17,8 liter bruikbare inhoud bij 12,9 kW zo'n 9,8 uur mee (17,8 × 7,08 ÷ 12,9). Veel ruilflessen zijn lichter gevuld. [[VERIFY: bruikbare vulling van ruilflessen en de brandduur van Tungsten Freestanding per fles; de live post zei tot 8 uur — productteam]]
 
 ### Welke terrasverwarmer is voor een restaurant het goedkoopst in gebruik?
 

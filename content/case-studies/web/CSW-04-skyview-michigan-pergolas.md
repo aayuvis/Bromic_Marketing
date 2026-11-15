@@ -12,7 +12,7 @@ cta: {label: "Book a design consult", asset: A07}
 hero: w-louvered-pergola-with-recessed-platinum-elec
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
 images: ["w-louvered-pergola-with-recessed-platinum-elec"]
-owner_review: Karl Tschauner
+owner_review: US field sales
 status: draft
 source_kind: web-find
 origin: web-search
@@ -53,8 +53,8 @@ sources:
 | Segment | Single-family homes, pergola dealer |
 | Installer | Skyview (StruXure dealer, Detroit area) |
 | Structure | StruXure louvered pergolas with MagnaTrack motorized screens |
-| Products | Bromic radiant heaters built into the pergola [[VERIFY: model and quantity — Karl Tschauner]] |
-| Controls | [[VERIFY: controls and zones — Karl Tschauner]] |
+| Products | Bromic radiant heaters built into the pergola [[VERIFY: model and quantity — US field sales]] |
+| Controls | [[VERIFY: controls and zones — US field sales]] |
 | Size | About 720 sq ft (Livonia, fall 2025) and 420 sq ft (Chelsea, summer 2025) |
 
 ## The space
@@ -65,7 +65,7 @@ In Livonia, a roof-mounted StruXure louvered pergola attached to the house, with
 
 Bromic heaters built into the pergola structure in both homes, so the spaces stay usable as temperatures drop. Neither project page gives the model or count.
 
-**Controls.** [[VERIFY: which controls were installed, and how many zones — Karl Tschauner]] A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+**Controls.** [[VERIFY: which controls were installed, and how many zones — US field sales]] A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
 ## Why it matters for sales
 

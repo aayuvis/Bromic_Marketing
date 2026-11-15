@@ -15,8 +15,8 @@ meta_description: "Elektrischen Heizstrahler in die Decke einbauen: Bekleidung 1
 cta: {label: "Planungspaket für Architekten herunterladen", asset: A11}
 hero: w-residential-belgium-brussels-medows-resid-3
 images: [w-dorrington-homes-platinum-electric-2]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -25,7 +25,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLOG-03
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -87,7 +87,7 @@ sources:
 
 Bevor Sie einen elektrischen Heizstrahler in die Decke einbauen, klären Sie vier Dinge: eine Deckenbekleidung von 10–30 mm Stärke, einen Hohlraum, der tief genug für den Einbaurahmen ist (180 mm beim Platinum Low Clearance Kit, bis ca. 536 mm bei Tungsten), ein Tragwerk, das den Heizstrahler trägt und trocken bleibt, und einen eigenen Stromkreis mit Affinity Smart-Heat-Steuerung und Wandschalter. Ein Einbaustrahler wird geplant, nicht nachträglich ergänzt: Er gehört in die Pläne, bevor die Decke geschlossen wird.
 
-*Halten Sie sich an die Montageanleitung des genauen Modells und Einbaurahmens. Die Elektroarbeiten muss ein Elektrofachbetrieb nach den örtlich geltenden Vorschriften ausführen, in Deutschland nach DIN VDE 0100 (in den USA nach [NFPA 70](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70)[^s8]); klären Sie die Anforderungen mit Ihrem Bauamt.* [[VERIFY: current VDE and DVGW rules for outdoor heaters — Raffaele Marti]]
+*Halten Sie sich an die Montageanleitung des genauen Modells und Einbaurahmens. Die Elektroarbeiten muss ein Elektrofachbetrieb nach den örtlich geltenden Vorschriften ausführen, in Deutschland nach DIN VDE 0100 (in den USA nach [NFPA 70](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70)[^s8]); klären Sie die Anforderungen mit Ihrem Bauamt.* [[VERIFY: current VDE and DVGW rules for outdoor heaters — Partner Deutschland]]
 
 ![Platinum-Electric-Heizstrahler bündig in die Decke einer Außenküche eingelassen](img:w-dorrington-homes-platinum-electric-2)
 
@@ -99,19 +99,19 @@ Platinum Electric, Platinum Electric Marine und Tungsten Electric werden mit ein
 
 | Heizstrahler | Einbaurahmen | Mindesttiefe des Hohlraums | Hinweise |
 |---|---|---|---|
-| Tungsten Electric | Tungsten-Einbaurahmen | ca. 508–536 mm [[VERIFY: 20 in here vs 21.1 in in the mounting post — Mike Clifford]] | Zwei Lagen feuerfeste Dämmung von je ca. 16 mm an jeder Fläche des Deckenkastens[^s1] |
+| Tungsten Electric | Tungsten-Einbaurahmen | ca. 508–536 mm [[VERIFY: 20 in here vs 21.1 in in the mounting post — Produktteam]] | Zwei Lagen feuerfeste Dämmung von je ca. 16 mm an jeder Fläche des Deckenkastens[^s1] |
 | Platinum 2300 W, 3400 W | Platinum-Standard-Einbaurahmen | ca. 254 mm | [^s1] |
 | Platinum 4500 W | Platinum-Standard-Einbaurahmen | ca. 330 mm | [^s1] |
 | Platinum 2300, 3400, 4500 W | Low Clearance Recess Kit | 180 mm | Integrierter Einbaukasten, Lüfter und Lüftungsöffnungen; passt zwischen übliche Balken; UL-zertifiziert[^s1][^s3] |
 
 Planen Sie Tungsten mit ca. 536 mm, bis das Datenblatt es klärt. Der Tungsten-Einbaurahmen wird paarweise verkauft, einer für 2000 und 4000 W und einer für 3000 und 6000 W[^s5].
 
-Die ältere Fassung dieses Beitrags nannte den Low Clearance Kit nur für 2300 und 3400 W. Die Produktseite des Kits nennt inzwischen auch 4500 W[^s3] [[VERIFY: 4500 W low-clearance compatibility against the current manual — Mike Clifford]]. Den Einbau Schritt für Schritt beschreibt der Beitrag „So montieren Sie den Low Clearance Recess Kit“.
+Die ältere Fassung dieses Beitrags nannte den Low Clearance Kit nur für 2300 und 3400 W. Die Produktseite des Kits nennt inzwischen auch 4500 W[^s3] [[VERIFY: 4500 W low-clearance compatibility against the current manual — Produktteam]]. Den Einbau Schritt für Schritt beschreibt der Beitrag „So montieren Sie den Low Clearance Recess Kit“.
 
 ## Woraus sollte die Decke bestehen?
 
 - **Stärke der Bekleidung.** 10–30 mm ist der ideale Bereich. Eine stärkere Decke braucht ein Sonderdetail vom technischen Support von Bromic[^s1].
-- **Tragwerk.** Einbaustrahler wiegen ca. 7,7 kg (Platinum 2300 W) bis ca. 15,0 kg (Platinum 4500 W)[^s4]; die ältere Spanne von ca. 7,3–17,2 kg umfasste Modelle, die heute nicht mehr geführt werden [[VERIFY: heaviest recessed Tungsten weight — Mike Clifford]]. Planen Sie Unterkonstruktion und Aufdoppelungen so, dass sie Heizstrahler und Einbaurahmen tragen; verstärken Sie schwache Balken.
+- **Tragwerk.** Einbaustrahler wiegen ca. 7,7 kg (Platinum 2300 W) bis ca. 15,0 kg (Platinum 4500 W)[^s4]; die ältere Spanne von ca. 7,3–17,2 kg umfasste Modelle, die heute nicht mehr geführt werden [[VERIFY: heaviest recessed Tungsten weight — Produktteam]]. Planen Sie Unterkonstruktion und Aufdoppelungen so, dass sie Heizstrahler und Einbaurahmen tragen; verstärken Sie schwache Balken.
 - **Wasser.** Schützen Sie den Heizstrahler vor Wasser von oben; die Decke darf nicht auf ihn tropfen[^s1].
 - **Dämmung.** Nichts im Hohlraum, auch keine Dämmung, darf den Heizstrahler oder den Einbaurahmen bedecken[^s1].
 - **Brennbare Materialien.** Die Abstände zu brennbaren Materialien unterscheiden sich je Modell; entnehmen Sie sie der Anleitung des genauen Geräts[^s1]. Halten Sie Abstand zu Deckenleuchten und Ventilatoren[^s2].
@@ -123,8 +123,8 @@ Der Einbau legt den Heizstrahler dauerhaft fest, also legen Sie die Steuerung gl
 | Bauteil | Festlegen | Hinweis |
 |---|---|---|
 | Stromkreis | Eigener Stromkreis, für Dauerlast bemessen | Platinum nimmt bei 230 V rechnerisch ca. 10,0–19,6 A auf (die US-Produktseite nennt Werte bei 240 V und 208 V)[^s4]; Querschnitt und Absicherung legt der Elektrofachbetrieb nach DIN VDE 0100 fest, siehe [diese Antwort](item:BLD-IN-KB1) |
-| Steuergerät | Affinity On/Off oder Affinity Dimmer | 1, 2 oder 5 Kanäle; die US-Produktseiten nennen 6 kW je Kanal bei 208–277 V; Dimmer in 1-%-Schritten[^s6] [[VERIFY: Kanalleistung der Steuergeräte bei 230 V — Mike Clifford]] |
-| Wandschalter | Manueller Wandschalter | US-Ausführung 20 A, 120–277 V[^s6] [[VERIFY: Wandschalter für den deutschen Markt — Mike Clifford]] |
+| Steuergerät | Affinity On/Off oder Affinity Dimmer | 1, 2 oder 5 Kanäle; die US-Produktseiten nennen 6 kW je Kanal bei 208–277 V; Dimmer in 1-%-Schritten[^s6] [[VERIFY: Kanalleistung der Steuergeräte bei 230 V — Produktteam]] |
+| Wandschalter | Manueller Wandschalter | US-Ausführung 20 A, 120–277 V[^s6] [[VERIFY: Wandschalter für den deutschen Markt — Produktteam]] |
 | Lüfter des Low Clearance Kits | Eigene Versorgung | Der Lüfter des Kits braucht eine eigene Versorgung, getrennt vom Heizstrahler[^s3] |
 | Gebäudeleittechnik oder Hausautomation | Erweiterungsplatine (Expansion Board) | [^s6] |
 

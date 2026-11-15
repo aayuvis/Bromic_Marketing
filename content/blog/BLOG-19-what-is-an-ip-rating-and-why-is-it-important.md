@@ -17,8 +17,8 @@ ai_prompt: "What does an IP rating like IPX4 or IPX5 mean on an outdoor heater?"
 meta_description: "IP codes under IEC 60529 explained: the first digit is solids, the second water, X means not tested. What IPX4 and IPX5 mean for Bromic heaters."
 cta: {label: "Download the Planning Guide", asset: A02}
 hero: w-bromic-platinum-electric
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -102,7 +102,7 @@ The code is always "IP" followed by two characters, read separately, never as on
 |---|---|---|---|
 | First | Solid objects and dust | 0–6 | 5 = dust-protected; 6 = dust-tight |
 | Second | Water | 0–9 | 4 = splashing from any direction; 5 = low-pressure jets (12.5 L/min); 6 = powerful flow (100 L/min); 7 = immersion to 1 m; 8 = beyond IPX7, to conditions agreed with the maker |
-| X in either place | Not tested for that property | — | IPX4 says nothing about dust; it does not mean "zero" |
+| X in either place | Not tested for that property | – | IPX4 says nothing about dust; it does not mean "zero" |
 
 Source: IEC 60529 as summarised by TÜV Rheinland, a test and certification body.[^s1][^s2]
 
@@ -122,10 +122,10 @@ These are the ratings Bromic currently publishes, model by model. Where a page g
 |---|---|---|
 | Tungsten Smart-Heat Electric (2–6 kW) | IPX4[^s3] | Splash-protected |
 | Cobalt Smart-Heat Electric | IPX4[^s5] | Splash-protected |
-| Platinum Smart-Heat Electric Marine | IPX5[^s4] | Low-pressure jets; 316 stainless body. An earlier version of this post said IP55 [[VERIFY: Marine rating — IPX5 (product page) or IP55 (old blog post); is the first digit tested? — Mike Clifford]] |
-| Platinum Smart-Heat Electric | Not stated as a code[^s6] | Page says "IP certified for outdoor use" [[VERIFY: Platinum Electric IP code — Mike Clifford]] |
-| Eclipse Smart-Heat Electric and Freestanding | Not stated[^s6] | Bromic recommends mounting under cover [[VERIFY: Eclipse IP code — Mike Clifford]] |
-| Platinum Gas, Tungsten Gas, Tungsten Smart-Heat Freestanding | Not stated as a code | [[VERIFY: IP rating, if any, for each gas model — Mike Clifford]] |
+| Platinum Smart-Heat Electric Marine | IPX5[^s4] | Low-pressure jets; 316 stainless body. An earlier version of this post said IP55 [[VERIFY: Marine rating — IPX5 (product page) or IP55 (old blog post); is the first digit tested? — Product team]] |
+| Platinum Smart-Heat Electric | Not stated as a code[^s6] | Page says "IP certified for outdoor use" [[VERIFY: Platinum Electric IP code — Product team]] |
+| Eclipse Smart-Heat Electric and Freestanding | Not stated[^s6] | Bromic recommends mounting under cover [[VERIFY: Eclipse IP code — Product team]] |
+| Platinum Gas, Tungsten Gas, Tungsten Smart-Heat Freestanding | Not stated as a code | [[VERIFY: IP rating, if any, for each gas model — Product team]] |
 | Affinity Smart-Heat On/Off controller | IP54[^s7] | Dust-protected and splash-protected; check the manual for where the other controllers may be mounted |
 | Tungsten Smart-Heat Electric, Coastal collection (coming soon) | Not yet published[^s8] | 316 marine-grade stainless steel |
 
@@ -139,7 +139,7 @@ An electric heater has live parts behind its face. The second digit tells you ho
 - **Exposed to spray, near a pool or the sea, or washed down:** look for IPX5 and a marine-grade body, which is where Platinum Smart-Heat Electric Marine sits.[^s4]
 - **Never:** pressure-washing a heater, or mounting it where water can pool on it. No rating Bromic publishes covers immersion.
 
-<div class="diagram">Diagram: the IP code decoded — "IP", first digit (solids, 0–6), second digit (water, 0–9), with IPX4 and IPX5 shown as splash and low-pressure-jet icons, and X labelled "not tested"</div>
+<div class="diagram">Diagram: the IP code decoded – "IP", first digit (solids, 0–6), second digit (water, 0–9), with IPX4 and IPX5 shown as splash and low-pressure-jet icons, and X labelled "not tested"</div>
 
 ## The controls have a rating too
 
@@ -163,6 +163,6 @@ No. IP measures solids and water only. Near the sea, the material matters: Plati
 
 ### Does the IP rating affect the warranty?
 
-The warranty depends on the product line, not the IP code, and applies to the original owner.[^s9] Read the terms before an exposed install. [[VERIFY: whether installation outside the manual's conditions voids cover — Mike Clifford]]
+The warranty depends on the product line, not the IP code, and applies to the original owner.[^s9] Read the terms before an exposed install. [[VERIFY: whether installation outside the manual's conditions voids cover — Product team]]
 
 Our Planning Guide sets out ratings, clearances and controls for every model in one place.

@@ -17,7 +17,7 @@ ai_prompt: "Werken infraroodverwarmers bij wind?"
 meta_description: "Ja, bij lichte tot matige wind: infrarood verwarmt mensen, niet de lucht. Kortegolfverwarmers kunnen het best tegen wind; langegolf verwaait het makkelijkst."
 cta: {label: "Bereken je ruimte", asset: A03}
 hero: l-019-161
-owner_review: Megan Spies
+owner_review: marketing
 status: draft
 gated: false
 related: [RES-CO-01, RES-PP-01, RES-AW-01]
@@ -39,11 +39,11 @@ sources:
     verified: true
 ---
 
-Ja — bij lichte tot matige wind. Infraroodverwarmers verwarmen mensen en oppervlakken direct, zoals zonneschijn dat doet, in plaats van de lucht te verwarmen. Omdat wind lucht verplaatst en geen straling, houdt een goede stralingsverwarmer je warm op een winderige avond, waar de warmte van een convectieverwarmer gewoon zou wegwaaien.[^s1] Harde, aanhoudende wind onttrekt nog steeds warmte aan je huid, dus hoe je de ruimte plant, maakt verschil.
+Ja – bij lichte tot matige wind. Infraroodverwarmers verwarmen mensen en oppervlakken direct, zoals zonneschijn dat doet, in plaats van de lucht te verwarmen. Omdat wind lucht verplaatst en geen straling, houdt een goede stralingsverwarmer je warm op een winderige avond, waar de warmte van een convectieverwarmer gewoon zou wegwaaien.[^s1] Harde, aanhoudende wind onttrekt nog steeds warmte aan je huid, dus hoe je de ruimte plant, maakt verschil.
 
 ## Welke infraroodverwarmers kunnen het best tegen wind?
 
-Dat hangt af van de golflengte — hoeveel van het vermogen van de verwarmer straling is in plaats van warme lucht.[^s1]
+Dat hangt af van de golflengte – hoeveel van het vermogen van de verwarmer straling is in plaats van warme lucht.[^s1]
 
 | Golflengte | Aandeel straling | Gedrag bij wind | Opwarmtijd |
 |---|---|---|---|
@@ -58,7 +58,7 @@ Hoe hoger het aandeel straling, hoe minder er voor de wind overblijft om mee te 
 - **Breng eerst de wind in kaart.** De nabijheid van water en de overheersende windrichting staan op de planningschecklist van Bromic.[^s1]
 - **Zorg voor een windscherm.** Een scherm, muur of beplanting aan de windzijde laat de verwarmers veel meer voor je doen. Houd ten minste 30% van de omtrek open, zodat de ruimte een buitenruimte blijft.[^s1]
 - **Reken op meer warmte.** Het verwarmde oppervlak verschilt met omgeving en installatie; locaties aan de kust en onbeschutte plekken hebben vaak meer verwarmers of meer vermogen nodig dan een beschutte binnenplaats.[^s2]
-- **Gebruik de bediening om te reageren.** Met een Dimmer- of Eclipse-regelaar zet je het vermogen hoger als de wind aantrekt. Elke installatie heeft bediening nodig — een Affinity On/Off-, Dimmer- of Eclipse-regelaar, of een wandschakelaar; app-functies vereisen compatibele Affinity-bediening, die apart wordt verkocht.[^s2]
+- **Gebruik de bediening om te reageren.** Met een Dimmer- of Eclipse-regelaar zet je het vermogen hoger als de wind aantrekt. Elke installatie heeft bediening nodig – een Affinity On/Off-, Dimmer- of Eclipse-regelaar, of een wandschakelaar; app-functies vereisen compatibele Affinity-bediening, die apart wordt verkocht.[^s2]
 
 ## De belangrijkste punten
 

@@ -18,8 +18,8 @@ meta_description: "What a propane mushroom heater costs a restaurant per hour an
 cta: {label: "Run the five-year cost model", asset: A20}
 hero: w-power-of-portable
 images: [l-019-164]
-owner_review: Megan Spies + Blake Petty
-technical_reviewer: Mike Clifford
+owner_review: Marketing + Hospitality sales
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -115,7 +115,7 @@ Freestanding propane patio heaters typically run on a 20 lb cylinder and are rat
 
 **Propane cost per hour = BTU/hr ÷ 91,500 × $/gallon**
 
-At $2.674 a gallon, the price the [five-year cost model](asset:A20) uses (EIA's US residential average; EIA publishes no commercial series),[^s2] a 40,000 BTU heater costs about **$1.17 an hour** and a 48,000 BTU heater about **$1.40**. [[VERIFY: 2026 rates — Brian Kim/Finance; exchange cylinders are usually priced well above this bulk average]]
+At $2.674 a gallon, the price the [five-year cost model](asset:A20) uses (EIA's US residential average; EIA publishes no commercial series),[^s2] a 40,000 BTU heater costs about **$1.17 an hour** and a 48,000 BTU heater about **$1.40**. [[VERIFY: 2026 rates — Finance; exchange cylinders are usually priced well above this bulk average]]
 
 | Heater | Input | Fuel | Formula | Cost per hour |
 |---|---|---|---|---|
@@ -128,13 +128,13 @@ Rates: propane $2.674/gal[^s2]; commercial natural gas about $0.87 a therm[^s3];
 
 ## Why does a mushroom heater waste heat?
 
-Because it heats in a circle, from above head height, and much of its output is warm air that the wind carries off. Radiant heat warms people and objects rather than air, which is why it works outdoors; the shorter the wavelength, the larger the radiant share and the less the wind steals.[^s10] A directional heater aims that radiant energy at the tables. The Tungsten Smart-Heat Freestanding Gas has a tilting head and ceramic burners and is rated by Bromic for about 215 ft².[^s6] [[VERIFY: Tungsten Freestanding Gas output, 38,000 BTU (Lookbook) vs 38,500 BTU (product page) — Mike Clifford]]
+Because it heats in a circle, from above head height, and much of its output is warm air that the wind carries off. Radiant heat warms people and objects rather than air, which is why it works outdoors; the shorter the wavelength, the larger the radiant share and the less the wind steals.[^s10] A directional heater aims that radiant energy at the tables. The Tungsten Smart-Heat Freestanding Gas has a tilting head and ceramic burners and is rated by Bromic for about 215 ft².[^s6] [[VERIFY: Tungsten Freestanding Gas output, 38,000 BTU (Lookbook) vs 38,500 BTU (product page) — Product team]]
 
 Mushroom heaters are not rated on a comparable coverage basis, so the number you need comes from a heat plan of your layout, not from a ratio. The live post's "three times more efficient" and its $16,752 annual saving gave no method or inputs, so they have been removed.[^s11]
 
 ## What does a season cost per heater?
 
-Illustrative, per heater, using the A20 model's defaults: 900 heated hours a year (6 hours a night for 150 nights), full output, the rates above, a 20 lb cylinder holding about 4.7 usable gallons, 10 staff minutes a swap and $15.71 an hour.[^s5] [[VERIFY: hours, cylinder fill and minutes per swap for your site — Blake Petty]]
+Illustrative, per heater, using the A20 model's defaults: 900 heated hours a year (6 hours a night for 150 nights), full output, the rates above, a 20 lb cylinder holding about 4.7 usable gallons, 10 staff minutes a swap and $15.71 an hour.[^s5] [[VERIFY: hours, cylinder fill and minutes per swap for your site — Hospitality sales]]
 
 | Per heater, 900 hours | Fuel a year | Cylinder swaps | Swap labour | Total |
 |---|---|---|---|---|
@@ -158,7 +158,7 @@ Per 100 ft² of rated coverage, that is about $0.43 an hour for Platinum 4500W a
 
 | Site | Usually fits | Controls |
 |---|---|---|
-| Open patio, layout that moves | Tungsten Smart-Heat Freestanding Gas | [[VERIFY: control options for Tungsten Freestanding Gas — Mike Clifford]] |
+| Open patio, layout that moves | Tungsten Smart-Heat Freestanding Gas | [[VERIFY: control options for Tungsten Freestanding Gas — Product team]] |
 | Gas line within reach | Tungsten Freestanding Gas on natural gas | as above |
 | Covered patio, soffit or wall | Platinum Smart-Heat Electric | Affinity Smart-Heat On/Off or Dimmer controller, wall switch, app |
 | Propane restricted | Electric | Affinity controls as above |
@@ -177,7 +177,7 @@ They burn 40,000–48,000 BTU an hour[^s1] and heat in all directions from above
 
 ### How long does a propane cylinder last?
 
-At full output, about 4.7 usable gallons lasts roughly 9.8 hours at 44,000 BTU (4.7 × 91,500 ÷ 44,000). Many exchange cylinders are filled lighter. [[VERIFY: usable fill of exchange cylinders and Tungsten Freestanding run time per cylinder; the live post said up to 8 hours — Mike Clifford]]
+At full output, about 4.7 usable gallons lasts roughly 9.8 hours at 44,000 BTU (4.7 × 91,500 ÷ 44,000). Many exchange cylinders are filled lighter. [[VERIFY: usable fill of exchange cylinders and Tungsten Freestanding run time per cylinder; the live post said up to 8 hours — Product team]]
 
 ### What is the cheapest restaurant patio heater to run?
 

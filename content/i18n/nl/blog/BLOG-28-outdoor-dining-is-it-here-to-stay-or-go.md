@@ -15,8 +15,8 @@ meta_description: "Buiten eten is inmiddels vergund, blijvend en gewild. De cijf
 cta: {label: "Vraag je ROI-berekening aan", asset: A21}
 hero: w-wrigleys-mansion-eclipse-portable-heater-4
 images: [w-stellas-wine-bar-houston-tx-3]
-owner_review: Megan Spies + Blake Petty
-technical_reviewer: Mike Clifford
+owner_review: marketing + verkoop horeca
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -132,7 +132,7 @@ Langer blijven betekent meer drankjes en desserts en minder tafelwisselingen. Co
 
 ## Is het terras een serieus deel van de omzet?
 
-Voor veel horecaondernemers wel. In een enquête van de Amerikaanse National Restaurant Association zei 35% van de restaurants met een terras dat het terras goed was voor meer dan 40% van de gemiddelde dagomzet, en 41% van de restaurants met volledige bediening.[^s3] Die enquête is van 2021; [[VERIFY: een recenter cijfer van ondernemers over het aandeel van het terras in de omzet — Blake Petty]]
+Voor veel horecaondernemers wel. In een enquête van de Amerikaanse National Restaurant Association zei 35% van de restaurants met een terras dat het terras goed was voor meer dan 40% van de gemiddelde dagomzet, en 41% van de restaurants met volledige bediening.[^s3] Die enquête is van 2021; [[VERIFY: een recenter cijfer van ondernemers over het aandeel van het terras in de omzet — verkoop horeca]]
 
 In een mager jaar telt het zwaarder. In het rapport van de Association over 2026 zei 61% van de Amerikaanse restaurants met volledige bediening dat het aantal gasten in 2025 lager lag dan in 2024, en 85% dat het opbouwen van de omzet in de zaak zelf in 2026 belangrijker wordt.[^s4] Een terras is capaciteit in de zaak waar je al voor betaalt.
 
@@ -160,10 +160,10 @@ Overkappen, verwarmen en goed bedienen.
 
 - **Overkap wat je kunt.** Een dak of luifel houdt warmte vast en maakt vaste verwarmers boven de tafels mogelijk.
 - **Verwarm de stoel, niet de ruimte.** Stralingswarmte verwarmt gasten, geen lucht. Boven tafels monteer je Platinum Smart-Heat Electric in de overstek of aan de wand; waar niets gemonteerd kan worden, verplaatsen de Eclipse Smart-Heat Freestanding Electric of de Tungsten Smart-Heat Freestanding Gas mee met de opstelling.[^s10]
-- **Bedien het goed.** Platinum werkt met een Affinity Smart-Heat On/Off- of Dimmer-regelaar en een wandschakelaar; Eclipse met de Eclipse-regelaar, in standen van 33, 66 en 100%. Zones en tijdschema's stel je in met de Bromic Smart-Heat app; wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht.[^s10] [[VERIFY: control options for Tungsten Freestanding Gas — Mike Clifford]]
+- **Bedien het goed.** Platinum werkt met een Affinity Smart-Heat On/Off- of Dimmer-regelaar en een wandschakelaar; Eclipse met de Eclipse-regelaar, in standen van 33, 66 en 100%. Zones en tijdschema's stel je in met de Bromic Smart-Heat app; wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht.[^s10] [[VERIFY: control options for Tungsten Freestanding Gas — productteam]]
 - **Plan de bediening van gasten.** Een langere loop vanaf keuken en bar vraagt om een goed gevuld serveerstation buiten.
 
-Terrasverwarmers zijn niet waterdicht. De classificatie verschilt per model (Tungsten Smart-Heat Electric heeft IPX4; Platinum Electric Marine heeft IPX5), dus controleer het model voordat het ergens komt waar regen bij kan.[^s11] [[VERIFY: IP rating per model — Mike Clifford]]
+Terrasverwarmers zijn niet waterdicht. De classificatie verschilt per model (Tungsten Smart-Heat Electric heeft IPX4; Platinum Electric Marine heeft IPX5), dus controleer het model voordat het ergens komt waar regen bij kan.[^s11] [[VERIFY: IP rating per model — productteam]]
 
 ![Overdekt restaurantterras met Eclipse-pendelverwarmers die boven de tafels gloeien](img:w-stellas-wine-bar-houston-tx-3)
 
@@ -173,7 +173,7 @@ Bij [Hotel Skansen](https://www.bromic.com/case-study/hotel-skansen-elevates-out
 
 Reken met marge, niet met omzet. De methode uit [het artikel over de ROI van terrasverwarmers](item:COM-IN-01): extra omzet = verwarmde stoelen × tafelwisselingen × gemiddelde besteding × extra avonden × bezettingsgraad; neem je dekkingsbijdrage, trek de gebruikskosten af en deel de installatiekosten door het maandresultaat.
 
-Ter illustratie, met de aannames van dat artikel en in Amerikaanse bedragen (een Amerikaans rekenvoorbeeld, niet omgerekend): 40 verwarmde stoelen, 1,5 tafelwisseling, een gemiddelde besteding van $45, 60 extra avonden, 50% bezetting en 30% marge geven $81.000 extra omzet en $24.300 extra marge. Veertig stoelen à ongeveer 1,9 m² per stoel is ongeveer 74 m², en daarvoor zijn op een deels overdekt terras op koele avonden zeven Platinum Electric-verwarmers van 4500 W nodig (74 ÷ (13,3 × 0,85) = 6,6), elk met Affinity-bediening. Gebruikskosten zijn kW × uren × prijs per kWh: 7 × 4,5 × 5 × 60 = 9.450 kWh. Vermenigvuldig dat met jouw prijs per kWh. In het Amerikaanse voorbeeld is dat ongeveer $1.330 bij 14,07 dollarcent per kWh[^s9] (ongeveer $1.280 bij het tarief van 13,54 dollarcent uit mei 2026 dat het vijfjarige kostenmodel gebruikt[^s13]). De nettowinst is dan $22.970 per jaar; bij installatiekosten van $35.000 (een aanname: 7 × $5.000) is de terugverdientijd ongeveer 18 maanden. [[VERIFY: benchmarks — Blake Petty; align the 14.07¢ and 13.54¢ rates — Brian Kim/Finance]] Energiekosten zijn een reële zorg voor horecaondernemers (82% van de Amerikaanse restaurants met volledige bediening noemt ze een grote uitdaging),[^s4] en daarom doen zones en tijdschema's ertoe.
+Ter illustratie, met de aannames van dat artikel en in Amerikaanse bedragen (een Amerikaans rekenvoorbeeld, niet omgerekend): 40 verwarmde stoelen, 1,5 tafelwisseling, een gemiddelde besteding van $45, 60 extra avonden, 50% bezetting en 30% marge geven $81.000 extra omzet en $24.300 extra marge. Veertig stoelen à ongeveer 1,9 m² per stoel is ongeveer 74 m², en daarvoor zijn op een deels overdekt terras op koele avonden zeven Platinum Electric-verwarmers van 4500 W nodig (74 ÷ (13,3 × 0,85) = 6,6), elk met Affinity-bediening. Gebruikskosten zijn kW × uren × prijs per kWh: 7 × 4,5 × 5 × 60 = 9.450 kWh. Vermenigvuldig dat met jouw prijs per kWh. In het Amerikaanse voorbeeld is dat ongeveer $1.330 bij 14,07 dollarcent per kWh[^s9] (ongeveer $1.280 bij het tarief van 13,54 dollarcent uit mei 2026 dat het vijfjarige kostenmodel gebruikt[^s13]). De nettowinst is dan $22.970 per jaar; bij installatiekosten van $35.000 (een aanname: 7 × $5.000) is de terugverdientijd ongeveer 18 maanden. [[VERIFY: benchmarks — verkoop horeca; align the 14.07¢ and 13.54¢ rates — financiën]] Energiekosten zijn een reële zorg voor horecaondernemers (82% van de Amerikaanse restaurants met volledige bediening noemt ze een grote uitdaging),[^s4] en daarom doen zones en tijdschema's ertoe.
 
 ## Veelgestelde vragen
 

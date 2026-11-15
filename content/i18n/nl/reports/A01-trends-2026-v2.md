@@ -18,7 +18,7 @@ meta_description: "Tien trends in buitenleven voor 2026, elk met één cijfer me
 cta: {label: "Bereken uw ruimte", asset: A03}
 hero: t-001-000
 images: [t-003-005, l-013-108, t-005-013, t-006-016, t-007-019, t-008-022, t-009-025, t-010-028, t-011-031, t-012-034, t-013-037]
-owner_review: Megan Spies
+owner_review: marketing
 status: draft
 gated: true
 related: [A01-stats, A01-corrections, RES-AW-01, ARC-AW-01]
@@ -108,7 +108,7 @@ Het terras is nu een kamer voor het hele jaar. Kou na zonsondergang maakt het le
 ## 02 Buitenruimte wordt van 's ochtends tot 's avonds gebruikt
 
 **67%** van de Amerikaanse huiseigenaren zegt dat verwarming het meest zou doen om hun tijd buiten te verlengen.[^s2]\
-*Atomik Research voor Bromic Heating, 2025* [[VERIFY: datum van de enquête, steekproefgrootte n en vraagstelling tegen de topline van Atomik — Megan Spies]]
+*Atomik Research voor Bromic Heating, 2025* [[VERIFY: datum van de enquête, steekproefgrootte n en vraagstelling tegen de topline van Atomik — marketing]]
 
 - Koffie bij zonsopgang, eten bij schemering.
 - Kou maakt beide korter.
@@ -212,7 +212,7 @@ Het terras is nu een kamer voor het hele jaar. Kou na zonsondergang maakt het le
 ## 10 Verwarming gaat van toevoeging naar inbouw
 
 **23%** van de Amerikaanse huiseigenaren noemt buitenverwarming een topprioriteit bij het plannen.[^s3]\
-*Atomik Research voor Bromic Heating, 2025* [[VERIFY: datum van de enquête, steekproefgrootte n en vraagstelling tegen de topline van Atomik — Megan Spies]]
+*Atomik Research voor Bromic Heating, 2025* [[VERIFY: datum van de enquête, steekproefgrootte n en vraagstelling tegen de topline van Atomik — marketing]]
 
 - Grills werden ingebouwd. Verwarming is de volgende.
 - Ze wordt samen met de verlichting voorgeschreven.
@@ -242,7 +242,7 @@ Elke Bromic-verwarmer heeft een Affinity On/Off-, Dimmer- of Eclipse-regelaar, e
 | 9,9 | NAR en NALP, Remodeling Impact Report, 2023[^s7] |
 | 5, ca. 11 m² | Bromic Lookbook 2026[^s8] |
 
-Alle marktcijfers gaan over de Verenigde Staten. De AIA-cijfers zijn netto (stijgend min dalend). Bromic gaf opdracht tot de enquête onder huiseigenaren door Atomik. [[VERIFY: steekproefgrootte, veldwerkdata en foutmarge uit de topline van Atomik — Megan Spies]]
+Alle marktcijfers gaan over de Verenigde Staten. De AIA-cijfers zijn netto (stijgend min dalend). Bromic gaf opdracht tot de enquête onder huiseigenaren door Atomik. [[VERIFY: steekproefgrootte, veldwerkdata en foutmarge uit de topline van Atomik — marketing]]
 
 ---
 
@@ -251,8 +251,8 @@ Alle marktcijfers gaan over de Verenigde Staten. De AIA-cijfers zijn netto (stij
 *Deze noot beschrijft de Engelse master; de woordtellingen gelden voor de Engelse tekst.*
 
 - **Lengte.** Oorspronkelijke rapporttekst: 1.631 woorden (`sources/Bromic_Outdoor_Living_Trends_2026.txt`). Deze versie, van omslag tot bronnenpagina: 796 woorden, 51% korter. Alleen de rapporttekst, van omslag tot "Plan vanaf het begin": 727 woorden, 55% korter. Beide op dezelfde manier geteld: streepjes splitsen woorden; deze noot, de opmaaknotities, `[[VERIFY]]`-plaatshouders, voetnootmarkeringen en Markdown-syntaxis zijn niet meegeteld.
-- **Geschrapte cijfers.** 94% "zou meer gebruikt kunnen worden" (Bromics eigen persberichten noemen 94% en 92%; aangehouden tot Megan Spies er een kiest). 39% infraroodverwarmers (in geen enkel AIA-persbericht gevonden). $522 mld. (in geen enkel Harvard-persbericht; vervangen door $525 mld.). De jaartallen uit de jaren zeventig/2000/2010 voor apparaten (zonder bron). De terrasgrootte van ca. 30 m² en de 95% kostenterugwinning (gecontroleerd, maar één cijfer per trend). 43% "denkt niet na over verwarming" (niet gecontroleerd, niet nodig).
-- **Gewijzigde cijfers.** 61,8% (2024) bijgewerkt naar 60,5% (starts in 2025), volgens de aanbeveling in het correctiebestand; terugzetten als Megan Spies anders beslist. Bij 55% en 40% staat nu "netto aandeel" en het jaar. Bij 33% staan nu het juiste onderzoek, de juiste basis en het juiste jaar. "Tevredenheidsscore" is nu de Joy Score van NAR.
+- **Geschrapte cijfers.** 94% "zou meer gebruikt kunnen worden" (Bromics eigen persberichten noemen 94% en 92%; aangehouden tot marketing er een kiest). 39% infraroodverwarmers (in geen enkel AIA-persbericht gevonden). $522 mld. (in geen enkel Harvard-persbericht; vervangen door $525 mld.). De jaartallen uit de jaren zeventig/2000/2010 voor apparaten (zonder bron). De terrasgrootte van ca. 30 m² en de 95% kostenterugwinning (gecontroleerd, maar één cijfer per trend). 43% "denkt niet na over verwarming" (niet gecontroleerd, niet nodig).
+- **Gewijzigde cijfers.** 61,8% (2024) bijgewerkt naar 60,5% (starts in 2025), volgens de aanbeveling in het correctiebestand; terugzetten als marketing anders beslist. Bij 55% en 40% staat nu "netto aandeel" en het jaar. Bij 33% staan nu het juiste onderzoek, de juiste basis en het juiste jaar. "Tevredenheidsscore" is nu de Joy Score van NAR.
 - **Cijfers verplaatst zodat elke trend er één heeft.** 67% van trend 01 naar 02, 23% van 02 naar 10, 9,9 van 03 naar 08. Trends 07 en 09 hadden er in het origineel geen; elk heeft nu een productgegeven van Bromic uit het Lookbook, geen marktcijfer.
 - **Doorgevoerde correcties.** Alle 38 punten in [het correctiebestand](item:A01-corrections): "Studies", "radiant", "integration", "Multi-Use", "beginning"; de kapotte zin in trend 04 herschreven; het inzicht over slimme bediening van p.10 naar trend 07 verplaatst en trend 08 een inzicht over ontwerp gegeven; de 23% herschreven tot "noemt … een topprioriteit bij het plannen"; de kop met "="; losse spaties; één opmaak van een bronregel; een bronnenpagina toegevoegd.
 - **Regels.** Elke aanbeveling voor een verwarmer noemt de bediening; wifi- en app-functies staan vermeld als functies die compatibele Affinity-bediening vragen, apart verkrijgbaar. Geen verouderde serienamen, geen tekst over Tungsten Coastal of Select.

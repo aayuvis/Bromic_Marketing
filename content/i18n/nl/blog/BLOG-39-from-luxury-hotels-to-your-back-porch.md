@@ -7,15 +7,15 @@ audience: [BLD, RES]
 stage: [AW]
 cell: BLD-AW
 asset: A24
-summary: "Karl Tschauner, VP Sales Noord-Amerika bij Bromic, in gesprek met de verandabouwers van Design Builders: hoe stralingswarmte wordt meeontworpen in veranda's en terrassen, de drie collecties en wat de garanties echt dekken."
+summary: "buitendienst VS, VP Sales Noord-Amerika bij Bromic, in gesprek met de verandabouwers van Design Builders: hoe stralingswarmte wordt meeontworpen in veranda's en terrassen, de drie collecties en wat de garanties echt dekken."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe ontwerpen bouwers verwarming in een overdekte veranda of een terras?"
-meta_description: "Karl Tschauner van Bromic in de Design Builders-podcast: stralingswarmte ontwerpen in veranda's en terrassen, de drie collecties en de garantie per model."
+meta_description: "buitendienst VS van Bromic in de Design Builders-podcast: stralingswarmte ontwerpen in veranda's en terrassen, de drie collecties en de garantie per model."
 cta: {label: "Download de gids voor het bouwersprogramma", asset: A15}
 hero: w-hartleyhallplporchdeckdarnestownmd-0052
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -35,7 +35,7 @@ sources:
     verified: true
   - id: s2
     publisher: Design Builders
-    title: "Design Builders podcast episode with Karl Tschauner"
+    title: "Design Builders podcast episode with buitendienst VS"
     year: 2025
     url: https://www.designbuildersmd.com/8152437f-9b51-476b-9a89-9ce53f636b6b/9ab4fe8b-29f4-4a7d-8e54-f41d06d8c19d
     supports: "The episode itself"
@@ -70,17 +70,17 @@ sources:
     verified: true
 ---
 
-Een veranda is warm als de warmte erin is ontworpen, niet als die wordt toegevoegd nadat het plafond af is. In de Design Builders-podcast bespreken Karl Tschauner van Bromic en de presentatoren Tim Matkoski en James Moylan hoe stralingsverwarmers worden ingepland in overdekte veranda's en terrassen: afgestemd op de ruimte, gemonteerd naar wat het plafond toelaat en zo gekozen dat ze uit het zicht blijven[^s1].
+Een veranda is warm als de warmte erin is ontworpen, niet als die wordt toegevoegd nadat het plafond af is. In de Design Builders-podcast bespreken buitendienst VS van Bromic en de presentatoren Tim Matkoski en James Moylan hoe stralingsverwarmers worden ingepland in overdekte veranda's en terrassen: afgestemd op de ruimte, gemonteerd naar wat het plafond toelaat en zo gekozen dat ze uit het zicht blijven[^s1].
 
 ![Eethoek op een afgeschermde veranda met Platinum Electric-verwarmers verzonken in een plafond van cederhout](img:w-hartleyhallplporchdeckdarnestownmd-0052)
 
 ## Wie zaten er in de aflevering?
 
-Karl Tschauner is Vice President of Sales, North America, bij Bromic Heating. De presentatoren leiden Design Builders, een bedrijf dat terrassen, afgeschermde veranda's en buitenkeukens bouwt in Maryland en het noorden van Virginia in de VS[^s1]. De aflevering staat op de [website van Design Builders](https://www.designbuildersmd.com/8152437f-9b51-476b-9a89-9ce53f636b6b/9ab4fe8b-29f4-4a7d-8e54-f41d06d8c19d)[^s2].
+buitendienst VS is Vice President of Sales, North America, bij Bromic Heating. De presentatoren leiden Design Builders, een bedrijf dat terrassen, afgeschermde veranda's en buitenkeukens bouwt in Maryland en het noorden van Virginia in de VS[^s1]. De aflevering staat op de [website van Design Builders](https://www.designbuildersmd.com/8152437f-9b51-476b-9a89-9ce53f636b6b/9ab4fe8b-29f4-4a7d-8e54-f41d06d8c19d)[^s2].
 
 ## Waarom verandabouwers voor stralingswarmte kiezen
 
-De presentatoren vertelden dat ze infraroodverwarmers voor het eerst tegenkwamen in Californië en ze nu in 95% van hun verandaprojecten opnemen[^s1] [[VERIFY: het cijfer van 95% bij Design Builders checken vóór hergebruik — Megan Spies]]. Tschauner legde uit waarom het buiten werkt: infrarood verwarmt mensen en oppervlakken rechtstreeks, net als zonlicht, in plaats van lucht te verwarmen die de wind meeneemt[^s1][^s6].
+De presentatoren vertelden dat ze infraroodverwarmers voor het eerst tegenkwamen in Californië en ze nu in 95% van hun verandaprojecten opnemen[^s1] [[VERIFY: het cijfer van 95% bij Design Builders checken vóór hergebruik — marketing]]. Tschauner legde uit waarom het buiten werkt: infrarood verwarmt mensen en oppervlakken rechtstreeks, net als zonlicht, in plaats van lucht te verwarmen die de wind meeneemt[^s1][^s6].
 
 ## Warmte die niet concurreert met het ontwerp
 
@@ -100,7 +100,7 @@ Het artikel verwijst bouwers naar de gratis ontwerpservice van Bromic, [Design Y
 
 ## Wat de garanties dekken
 
-Het oorspronkelijke artikel sprak van "tot 7 jaar op bepaalde modellen". Per model, volgens de (Amerikaanse) productpagina's: Tungsten Electric heeft 2 jaar garantie op de verwarmer en 7 jaar op de elementen[^s3]; Eclipse Electric heeft 3 jaar[^s4]; Platinum Electric Marine heeft 5 jaar op land en 3 jaar op schepen[^s5]. [[VERIFY: garantievoorwaarden per model tegen het garantiedocument 2026, en of ze in Nederland gelijk zijn — Mike Clifford]]
+Het oorspronkelijke artikel sprak van "tot 7 jaar op bepaalde modellen". Per model, volgens de (Amerikaanse) productpagina's: Tungsten Electric heeft 2 jaar garantie op de verwarmer en 7 jaar op de elementen[^s3]; Eclipse Electric heeft 3 jaar[^s4]; Platinum Electric Marine heeft 5 jaar op land en 3 jaar op schepen[^s5]. [[VERIFY: garantievoorwaarden per model tegen het garantiedocument 2026, en of ze in Nederland gelijk zijn — productteam]]
 
 ## Veelgestelde vragen
 

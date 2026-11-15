@@ -18,8 +18,8 @@ ai_prompt: "Wat is de beste buitenverwarmer voor een huis vlak bij zee?"
 meta_description: "Zilte lucht laat gewone verwarmers corroderen. Waarom 316 roestvast staal telt, en wat Platinum Smart-Heat Electric Marine biedt voor huizen aan de kust en schepen."
 cta: {label: "Bereken je ruimte", asset: A03}
 hero: w-bromic-platinum-electric-marine-patio-heater
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -104,17 +104,17 @@ Zout dat met opspattend water en aanlandige wind meekomt, slaat neer op metaal e
 | 3400 W | 10,0 m² | 10,0 kg |
 | 4500 W | 13,3 m² | 15,0 kg |
 
-- **Behuizing:** AISI 316 roestvast staal van scheepskwaliteit, volledig gesloten.[^s1] Eén FAQ op de productpagina zegt "314"; de rest van de pagina zegt 316. [[VERIFY: de typefout 314 op de productpagina corrigeren — Mike Clifford]]
+- **Behuizing:** AISI 316 roestvast staal van scheepskwaliteit, volledig gesloten.[^s1] Eén FAQ op de productpagina zegt "314"; de rest van de pagina zegt 316. [[VERIFY: de typefout 314 op de productpagina corrigeren — productteam]]
 - **Water:** IPX5, beschermd tegen waterstralen onder lage druk uit elke richting. Zie [wat IP-classificaties betekenen](item:BLOG-19).[^s1]
 - **Voeding:** 220–240 V of 208 V. Minimale montagehoogte 1,83 m aan de muur, 2,44 m aan het plafond.[^s1]
-- **Maritieme goedkeuring:** Bromic omschrijft hem als de eerste serie buitenverwarmers die door Lloyd's Register is goedgekeurd voor maritieme toepassingen, gecertificeerd volgens ENV5.[^s1][^s5] [[VERIFY: certificaatnummer van Lloyd's Register en de claim "de eerste" — Mike Clifford]]
+- **Maritieme goedkeuring:** Bromic omschrijft hem als de eerste serie buitenverwarmers die door Lloyd's Register is goedgekeurd voor maritieme toepassingen, gecertificeerd volgens ENV5.[^s1][^s5] [[VERIFY: certificaatnummer van Lloyd's Register en de claim "de eerste" — productteam]]
 - **Afwerking:** zwart of wit. Monteer hem aan muur of plafond, of bouw hem in met de [Low Clearance Recess Kit](https://www.bromic.nl/).
 
 **Bediening.** Elke verwarmer heeft bediening nodig; die zit er niet bij.[^s1] Kies een [Affinity Smart-Heat On/Off-](https://www.bromic.nl/) of [Dimmer-regelaar](https://www.bromic.nl/), of een handmatige wandschakelaar. Wifi- en Smart-Heat-appfuncties vereisen compatibele Affinity-bediening, die apart wordt verkocht.[^s6] Zet de regelaar op een droge plek.
 
 ## Wat dekt de garantie op het land en op zee?
 
-De [garantiepagina](https://www.bromic.com/warranty/) en de specificatietabel op de productpagina noemen 5 jaar voor installaties op het land en 3 jaar op schepen.[^s2][^s1] De beschrijving op de productpagina zegt dat de garantie van 5 jaar alleen voor gebruik op het land geldt en installaties op schepen niet dekt.[^s1] Die twee uitspraken spreken elkaar tegen. Tot Bromic het bevestigt, kan een scheepseigenaar de voorwaarden het best schriftelijk opvragen. [[VERIFY: Marine-garantie op schepen — 3 jaar, of niet gedekt? De beschrijving op de productpagina gelijktrekken met de garantiepagina — Mike Clifford]] [[VERIFY: garantievoorwaarden in Nederland — Bromic Benelux distributor]]
+De [garantiepagina](https://www.bromic.com/warranty/) en de specificatietabel op de productpagina noemen 5 jaar voor installaties op het land en 3 jaar op schepen.[^s2][^s1] De beschrijving op de productpagina zegt dat de garantie van 5 jaar alleen voor gebruik op het land geldt en installaties op schepen niet dekt.[^s1] Die twee uitspraken spreken elkaar tegen. Tot Bromic het bevestigt, kan een scheepseigenaar de voorwaarden het best schriftelijk opvragen. [[VERIFY: Marine-garantie op schepen — 3 jaar, of niet gedekt? De beschrijving op de productpagina gelijktrekken met de garantiepagina — productteam]] [[VERIFY: garantievoorwaarden in Nederland — Bromic Benelux distributor]]
 
 ## Tungsten Coastal (binnenkort)
 
@@ -123,7 +123,7 @@ De collectie Tungsten Smart-Heat Electric Coastal (binnenkort) wordt gemaakt van
 ## Hoe onderhoud je een verwarmer bij zee?
 
 1. **Monteer hem onder een overkapping** waar dat kan, buiten het bereik van opspattend water.[^s4]
-2. **Spoel het zout weg.** Bromic raadt aan de behuizing aan de kust ten minste om de twee weken af te nemen met een zachte, vochtige doek.[^s4] Beschutte oppervlakken hebben dat het hardst nodig, omdat de regen ze nooit schoonspoelt.[^s3] [[VERIFY: schoonmaakinterval komt overeen met de installatiehandleiding van de Marine — Mike Clifford]]
+2. **Spoel het zout weg.** Bromic raadt aan de behuizing aan de kust ten minste om de twee weken af te nemen met een zachte, vochtige doek.[^s4] Beschutte oppervlakken hebben dat het hardst nodig, omdat de regen ze nooit schoonspoelt.[^s3] [[VERIFY: schoonmaakinterval komt overeen met de installatiehandleiding van de Marine — productteam]]
 3. **Geen schuurmiddelen.** Laat schuursponsjes en schurende of bijtende reinigers staan; die kunnen roestvast staal beschadigen.[^s4]
 4. **Stroom eraf en laten afkoelen** voordat je schoonmaakt. Spuit nooit water in de verwarmer.
 

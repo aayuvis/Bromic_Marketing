@@ -17,8 +17,8 @@ ai_prompt: "Are infrared outdoor patio heaters safe to use?"
 meta_description: "Infrared patio heaters are safe when certified, installed to code and kept clear of combustibles. Electric vs gas, ventilation and clearances by model."
 cta: {label: "Size your space", asset: A03}
 hero: w-tungsten-electric-white-recessed
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -96,7 +96,7 @@ An infrared heater warms people, furniture and floors directly, the way sunlight
 
 ## How open does a space need to be for gas?
 
-Bromic's Planning Guide treats an area as outdoor when at least 30% of its perimeter is permanently open.[^s1] Two older Bromic posts gave different figures, 25% open wall space and 75% open walls.[^s3] Both are withdrawn here. The rule that governs your patio is the heater's installation manual and NFPA 54 as your local authority applies it. [[VERIFY: the ventilation requirement stated in the Platinum Gas, Tungsten Gas and Tungsten Freestanding manuals — Mike Clifford]]
+Bromic's Planning Guide treats an area as outdoor when at least 30% of its perimeter is permanently open.[^s1] Two older Bromic posts gave different figures, 25% open wall space and 75% open walls.[^s3] Both are withdrawn here. The rule that governs your patio is the heater's installation manual and NFPA 54 as your local authority applies it. [[VERIFY: the ventilation requirement stated in the Platinum Gas, Tungsten Gas and Tungsten Freestanding manuals — Product team]]
 
 ## Mounting heights and clearances by model
 
@@ -111,11 +111,11 @@ Bromic's Planning Guide treats an area as outdoor when at least 30% of its perim
 | Tungsten Gas | 96 in | Fit a heat deflector if space above is under 42 in[^s2] |
 | Tungsten Smart-Heat Freestanding | Freestanding | Anti-tilt design; rated for winds to 8 mph[^s2] |
 
-Figures from Bromic product pages.[^s2] [[VERIFY: all heights against 2026 cut sheets, and add side and below clearances to combustibles per model from the manuals — Mike Clifford]] Keep anything that can burn, such as cushions, awnings, umbrellas and plants, at least 3 feet away, or further if the manual says so.[^s5] More on clearance: [heater clearance to combustibles](item:ARC-BY-KB1).
+Figures from Bromic product pages.[^s2] [[VERIFY: all heights against 2026 cut sheets, and add side and below clearances to combustibles per model from the manuals — Product team]] Keep anything that can burn, such as cushions, awnings, umbrellas and plants, at least 3 feet away, or further if the manual says so.[^s5] More on clearance: [heater clearance to combustibles](item:ARC-BY-KB1).
 
 ## Do infrared heaters give off fumes or UV?
 
-Electric models give off no fumes. Gas models produce carbon monoxide, which you cannot see or smell, so they belong in open air.[^s4] Infrared sits at longer wavelengths than visible light; ultraviolet sits at shorter ones. Bromic heaters are designed to emit infrared. [[VERIFY: any UV emission data for Bromic elements before claiming "no UV" — Mike Clifford]]
+Electric models give off no fumes. Gas models produce carbon monoxide, which you cannot see or smell, so they belong in open air.[^s4] Infrared sits at longer wavelengths than visible light; ultraviolet sits at shorter ones. Bromic heaters are designed to emit infrared. [[VERIFY: any UV emission data for Bromic elements before claiming "no UV" — Product team]]
 
 ## Everyday safety checklist
 

@@ -13,7 +13,7 @@ ai_prompt: "Hoeveel terrasverwarmers heb ik nodig voor een restaurantterras met 
 meta_description: "Voor een terras met 40 zitplaatsen bepaalt het oppervlak het aantal hangende verwarmers; bij vrijstaande nooit meer dan vier zitplaatsen per verwarmer. Uitgewerkt voorbeeld voor ca. 74 m²."
 cta: {label: "Plan een ontwerpgesprek", asset: A07}
 hero: p-002-001
-owner_review: Blake Petty
+owner_review: verkoop horeca
 status: draft
 gated: false
 related: [COM-IN-01, COM-AW-01]
@@ -59,7 +59,7 @@ Bij hangende verwarmers (aan plafond, wand of overkapping) hangt het af van het 
 | Gedeeltelijk overdekt (pergola, parasol, deels dak) | 1,0 | Koel (ongeveer 4–10 °C) | 0,85 |
 | Overdekt (dicht dak) | 1,1 | Koud (vaak onder ongeveer 4 °C) | 0,7 |
 
-De factoren zijn planningsaannames, geen gepubliceerde waarden. [[VERIFY: factoren voor overkapping en klimaat — Mike Clifford]] Ze volgen het eigen voorbeeld van Bromic uit de VS, waarin hetzelfde terras van ongeveer 19 m² in Californië twee verwarmers nodig heeft en in Massachusetts drie, en waarin een gedeeltelijke overkapping een 'warmtewolk' vasthoudt.[^s2]
+De factoren zijn planningsaannames, geen gepubliceerde waarden. [[VERIFY: factoren voor overkapping en klimaat — productteam]] Ze volgen het eigen voorbeeld van Bromic uit de VS, waarin hetzelfde terras van ongeveer 19 m² in Californië twee verwarmers nodig heeft en in Massachusetts drie, en waarin een gedeeltelijke overkapping een 'warmtewolk' vasthoudt.[^s2]
 
 ## Uitgewerkt voorbeeld
 
@@ -69,9 +69,9 @@ De factoren zijn planningsaannames, geen gepubliceerde waarden. [[VERIFY: factor
 |---|---|---|---|---|
 | Platinum Smart-Heat Electric 4500 W | ca. 13,3 m² | 74 ÷ (13,3 × 0,85) = 6,5 | 7 | Affinity On/Off- of Dimmer-regelaar, wandschakelaar |
 | Eclipse Smart-Heat Electric | ca. 11,2 m² | 74 ÷ (11,2 × 0,85) = 74 ÷ 9,52 = 7,8 | 8 | Eclipse-regelaar, wandschakelaar |
-| Tungsten Smart-Heat Freestanding Gas | ca. 20 m² | 74 ÷ (20 × 0,85) = 4,4, maar 40 zitplaatsen ÷ 4 = 10 | 10 | [[VERIFY: bedieningsopties — Mike Clifford]] |
+| Tungsten Smart-Heat Freestanding Gas | ca. 20 m² | 74 ÷ (20 × 0,85) = 4,4, maar 40 zitplaatsen ÷ 4 = 10 | 10 | [[VERIFY: bedieningsopties — productteam]] |
 
-Een open terras of koudere avonden verlagen de factor en verhogen het aantal hangende verwarmers; een dicht dak verhoogt de factor en verlaagt het aantal. Het aantal vrijstaande verwarmers blijft bij 40 zitplaatsen hoe dan ook tien. Kleinere Platinum-modellen verwarmen een kleiner oppervlak (3400 W ca. 10 m², 2300 W ca. 6 m²) en u hebt er dus meer nodig.[^s1] [[VERIFY: verwarmd oppervlak per Platinum-vermogen en montagehoogte — Mike Clifford]] Voor wifi- en app-functies (zones, schema's, timers) zijn compatibele Affinity Smart-Heat Controls nodig, die apart worden verkocht.[^s1]
+Een open terras of koudere avonden verlagen de factor en verhogen het aantal hangende verwarmers; een dicht dak verhoogt de factor en verlaagt het aantal. Het aantal vrijstaande verwarmers blijft bij 40 zitplaatsen hoe dan ook tien. Kleinere Platinum-modellen verwarmen een kleiner oppervlak (3400 W ca. 10 m², 2300 W ca. 6 m²) en u hebt er dus meer nodig.[^s1] [[VERIFY: verwarmd oppervlak per Platinum-vermogen en montagehoogte — productteam]] Voor wifi- en app-functies (zones, schema's, timers) zijn compatibele Affinity Smart-Heat Controls nodig, die apart worden verkocht.[^s1]
 
 ## Voordat u bestelt
 

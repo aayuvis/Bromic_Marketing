@@ -15,8 +15,8 @@ meta_description: "Bromic-verwarmers koppelen aan domotica of een GBS: Affinity-
 cta: {label: "Ontvang de reeks installatiegidsen", asset: A17}
 hero: w-expansion-board-2-1600x1600-1
 images: [w-expansion-board]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -98,7 +98,7 @@ Bromic-verwarmers worden onderdeel van een slim huis via Affinity Smart-Heat-reg
 | Gebouwbeheersysteem (GBS/BMS) | Affinity-regelaar plus uitbreidingsprint, in BMS-modus | Het GBS neemt de besturing over en de app wordt uitgeschakeld[^s1][^s4] |
 | Geen automatisering | Handbediende wandschakelaar | Aan en uit aan de muur; geen app of spraak |
 
-Bromic noemt daarnaast Domotica en Josh.ai als compatibele platforms.[^s2] [[VERIFY: geteste integraties, drivers of modules voor Control4, Crestron, Lutron, Domotica en Josh.ai, en of 0–10 V de enige interface is — Mike Clifford]]
+Bromic noemt daarnaast Domotica en Josh.ai als compatibele platforms.[^s2] [[VERIFY: geteste integraties, drivers of modules voor Control4, Crestron, Lutron, Domotica en Josh.ai, en of 0–10 V de enige interface is — productteam]]
 
 ## Wat doet de uitbreidingsprint?
 
@@ -107,7 +107,7 @@ Hij zit in een 1- of 2-kanaals On/Off- of Dimmer-regelaar, vastgezet met twee sc
 - **Ethernet**, een bedrade netwerkverbinding die op een groot terrein stabieler is dan wifi.
 - **Een 0–10 V-klemmenblok**, zodat het domoticasysteem elk kanaal kan schakelen of op een niveau kan zetten.
 
-De 5-kanaals On/Off- en Dimmer-regelaars hebben de print al aan boord.[^s5] [[VERIFY: werkt de Eclipse-regelaar met de uitbreidingsprint of met 0–10 V — Mike Clifford]]
+De 5-kanaals On/Off- en Dimmer-regelaars hebben de print al aan boord.[^s5] [[VERIFY: werkt de Eclipse-regelaar met de uitbreidingsprint of met 0–10 V — productteam]]
 
 <div class="diagram">Diagram: domoticaprocessor → 0–10 V-aderpaar en Ethernet → uitbreidingsprint in een Affinity 2-kanaals Dimmer → twee verwarmingsgroepen; een stippellijn van de router naar de regelaar voor de app, doorgestreept zodra de BMS-modus aan staat.</div>
 
@@ -118,15 +118,15 @@ De app en een GBS kunnen niet tegelijk werken. Zodra je de jumper op de print pl
 ## Wat heeft de integrator nodig?
 
 - **Het type regelaar en de kanaalindeling:** welk kanaal welke verwarmer voedt, en de belasting ervan.
-- **Het stuursignaal per kanaal:** aan/uit voor On/Off-regelaars en gasverwarmers; een niveau voor Dimmer-kanalen. [[VERIFY: 0–10 V-schaal ten opzichte van het verwarmingsvermogen op Dimmer-kanalen, en of On/Off-kanalen bij een drempelwaarde schakelen — Mike Clifford]]
+- **Het stuursignaal per kanaal:** aan/uit voor On/Off-regelaars en gasverwarmers; een niveau voor Dimmer-kanalen. [[VERIFY: 0–10 V-schaal ten opzichte van het verwarmingsvermogen op Dimmer-kanalen, en of On/Off-kanalen bij een drempelwaarde schakelen — productteam]]
 - **Een netwerkaansluiting** op de plek van de regelaar als je Ethernet gebruikt.
-- **De installatiehandleiding en aansluitschema's van Affinity** uit de technische documentatie van Bromic. [[VERIFY: Affinity wiring diagrams cover 208 V and 277 V as well as 220–240 V; the earlier Smart-Heat Link diagrams showed 220–240 V only — Mike Clifford]]
+- **De installatiehandleiding en aansluitschema's van Affinity** uit de technische documentatie van Bromic. [[VERIFY: Affinity wiring diagrams cover 208 V and 277 V as well as 220–240 V; the earlier Smart-Heat Link diagrams showed 220–240 V only — productteam]]
 
 De regelaars schakelen 6 kW per kanaal bij 208–277 V, dus ook bij het Nederlandse net van 230 V, 50 Hz; 5-kanaalsregelaars zijn er ook in driefasige uitvoeringen.[^s5] [[VERIFY: welke driefasige uitvoeringen voor het Nederlandse net (3 × 400 V) leverbaar zijn — Bromic Benelux distributor]]
 
 ## En de Smart-Heat Link?
 
-De Smart-Heat Link was een RS232-gateway die via een seriële verbinding werd geprogrammeerd. Hij werkte samen met de eerdere Wireless On/Off- en Dimmer-regelaars, niet met Affinity.[^s6][^s7] Nieuwe projecten gebruiken Affinity-regelaars en de uitbreidingsprint. [[VERIFY: Smart-Heat Link status (discontinued, spares only, or supported) and the upgrade path for existing RS232 installs — Mike Clifford]] Heb je een systeem met een Smart-Heat Link, neem dan contact op met de technische ondersteuning van Bromic voordat je iets verandert.
+De Smart-Heat Link was een RS232-gateway die via een seriële verbinding werd geprogrammeerd. Hij werkte samen met de eerdere Wireless On/Off- en Dimmer-regelaars, niet met Affinity.[^s6][^s7] Nieuwe projecten gebruiken Affinity-regelaars en de uitbreidingsprint. [[VERIFY: Smart-Heat Link status (discontinued, spares only, or supported) and the upgrade path for existing RS232 installs — productteam]] Heb je een systeem met een Smart-Heat Link, neem dan contact op met de technische ondersteuning van Bromic voordat je iets verandert.
 
 ## Wie installeert het?
 
@@ -144,6 +144,6 @@ Nee. In BMS-modus is de app voor die regelaar uitgeschakeld.[^s4]
 Ja, met een Affinity On/Off-regelaar, tot 10 gasverwarmers per kanaal, die aan en uit worden geschakeld.[^s5]
 
 ### Werkt mijn RS232 Smart-Heat Link met Affinity?
-[[VERIFY: compatibility between Smart-Heat Link and Affinity controllers — Mike Clifford]] Voor het instellen van de app, zie [zo gebruik je de Bromic-app](https://www.bromic.com/blog/how-to-use-the-new-bromic-heating-app/) (Engelstalig); voor het volledige assortiment bediening, [bromic.nl](https://www.bromic.nl/).
+[[VERIFY: compatibility between Smart-Heat Link and Affinity controllers — productteam]] Voor het instellen van de app, zie [zo gebruik je de Bromic-app](https://www.bromic.com/blog/how-to-use-the-new-bromic-heating-app/) (Engelstalig); voor het volledige assortiment bediening, [bromic.nl](https://www.bromic.nl/).
 
 De stappen voor bekabeling en inbedrijfstelling staan in de reeks installatiegidsen.

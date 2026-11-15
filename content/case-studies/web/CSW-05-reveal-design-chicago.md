@@ -12,7 +12,7 @@ cta: {label: "Book a design consult", asset: A07}
 hero: w-240619-yorba-linda-ca-dc-64
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
 images: ["w-240619-yorba-linda-ca-dc-64"]
-owner_review: Karl Tschauner
+owner_review: US field sales
 status: draft
 source_kind: web-find
 origin: web-search
@@ -53,8 +53,8 @@ sources:
 | Segment | Single-family homes, landscape design-build |
 | Designer and builder | Reveal Design LLC |
 | Structure | Pratic Brera (Glenview) and Apollo (North Center) louvered pergolas |
-| Products | Bromic electric heaters, hung from the pergola (Glenview) [[VERIFY: model and quantity — Karl Tschauner]] |
-| Controls | [[VERIFY: controls and zones — Karl Tschauner]] |
+| Products | Bromic electric heaters, hung from the pergola (Glenview) [[VERIFY: model and quantity — US field sales]] |
+| Controls | [[VERIFY: controls and zones — US field sales]] |
 
 ## The space
 
@@ -64,7 +64,7 @@ In Glenview, a suburban backyard with a composite deck, an opening louvered perg
 
 In Glenview, Bromic electric heaters hang from the aluminium pergola. For North Center, the firm's listing names Bromic heaters and the project page says the pergola is equipped with heaters.
 
-**Controls.** [[VERIFY: which controls were installed, and how many zones — Karl Tschauner]] A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+**Controls.** [[VERIFY: which controls were installed, and how many zones — US field sales]] A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
 ## Why it matters for sales
 

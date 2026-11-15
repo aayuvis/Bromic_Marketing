@@ -14,7 +14,7 @@ ai_prompt: "Do outdoor electric heaters need GFCI protection?"
 meta_description: "NEC 210.8(F) requires GFCI on dwelling outdoor outlets up to 150 V to ground. Whether a hard-wired patio heater counts is the inspector's call."
 cta: {label: "Get the install guide series", asset: A17}
 hero: l-010-066
-owner_review: Arvin Avaness
+owner_review: Trade sales
 status: draft
 gated: false
 related: [BLD-BY-01, BLD-IN-01]
@@ -65,7 +65,7 @@ The 2026 edition was issued in August 2025, but each state or city adopts editio
 
 ## Why is a hard-wired heater a grey area?
 
-The rule speaks of "outlets". Some authorities read a hard-wired connection point as an outlet; others do not. Plan for GFCI unless the inspector tells you otherwise in writing. Then check the installation manual, which may set its own requirement [[VERIFY: Bromic installation-manual GFCI/RCD requirement — Mike Clifford]].
+The rule speaks of "outlets". Some authorities read a hard-wired connection point as an outlet; others do not. Plan for GFCI unless the inspector tells you otherwise in writing. Then check the installation manual, which may set its own requirement [[VERIFY: Bromic installation-manual GFCI/RCD requirement — Product team]].
 
 ## How is GFCI provided on a 240 V heater circuit?
 

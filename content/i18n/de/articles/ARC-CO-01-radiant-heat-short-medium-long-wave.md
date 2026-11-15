@@ -14,7 +14,7 @@ meta_description: "Kurz-, mittel- und langwellige Infrarot-Heizstrahler für die
 cta: {label: "Planning Guide (Fachausgabe) herunterladen", asset: A02}
 hero: l-010-071
 images: [l-013-111, l-004-012]
-owner_review: Mike Clifford
+owner_review: Produktteam
 status: draft
 gated: false
 related: [ARC-IN-01, ARC-CO-KB1, ARC-AW-01]
@@ -22,7 +22,7 @@ updated: 2026-10-29
 lang: de
 translation_of: ARC-CO-01
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -81,7 +81,7 @@ Quelle: Zuordnung der Wellenbereiche im Bromic Planning Guide v1.2[^s1]. Die Zei
 
 Der konvektive Anteil zählt im Freien, weil warme Luft aufsteigt und abzieht. Drinnen bliebe diese Luft im Raum; draußen geht sie verloren. Deshalb ist der Planning Guide hier eindeutig: Wärme im Freien lässt sich nicht über ein Thermostat regeln, und Warmluftgebläse funktionieren im Freien nicht[^s2].
 
-[[VERIFY: Einordnung der Wellenlänge (kurz / mittel / lang, Art des Heizelements) für jedes aktuelle Bromic-Modell — Mike Clifford]]
+[[VERIFY: Einordnung der Wellenlänge (kurz / mittel / lang, Art des Heizelements) für jedes aktuelle Bromic-Modell — Produktteam]]
 
 ## Warum wirkt Strahlungswärme bei Wind, Warmluft aber nicht?
 
@@ -114,7 +114,7 @@ Die Intensität nimmt mit der Entfernung ab. Bei einer Quelle, die im Verhältni
 
 Zwei Folgen. Hängt ein Heizstrahler höher, wird sein Wärmefeld breiter, während die Intensität auf Kopfhöhe sinkt; eine hohe Decke braucht daher unter Umständen mehr Heizstrahler oder eine Abhängestange, um die Geräte tiefer zu bringen. Hängt er tiefer, stoßen Sie an die Mindestwerte von Bromic: Wandmontage mindestens 1,8 m und Deckenmontage mindestens 2,4 m über dem Boden, je nach Leistung höher[^s2]. Die Heizflächen im Lookbook gehen von einer typischen Montage aus; Bromic weist darauf hin, dass die Heizfläche von Montagehöhe, Umgebung und Einbaubedingungen abhängt[^s3].
 
-[[VERIFY: empfohlener Bereich der Montagehöhe je Modell und Heizfläche bei jeder Höhe — Mike Clifford]]
+[[VERIFY: empfohlener Bereich der Montagehöhe je Modell und Heizfläche bei jeder Höhe — Produktteam]]
 
 ## Welche Bromic Heizstrahler passen zu welchem Ort?
 
@@ -123,11 +123,11 @@ Zwei Folgen. Hängt ein Heizstrahler höher, wird sein Wärmefeld breiter, währ
 | Platinum Smart-Heat Electric, 2300/3400/4500W | 6–13 m² | Eingebaut, Decke, Wand | Affinity On/Off oder Dimmer, Wandschalter, Smart-Heat App |
 | Tungsten Smart-Heat Electric, Select und Coastal (demnächst erhältlich) | 6–13 m² | Eingebaut (geringer Deckenabstand), Decke, Wand, einzelner Mast | Affinity On/Off oder Dimmer, Wandschalter, Smart-Heat App |
 | Eclipse Smart-Heat Electric | 11 m² | Einfacher, doppelter oder gebogener Mast | Eclipse-Steuergerät, Wandschalter, Smart-Heat App |
-| Tungsten Smart-Heat Freestanding Gas | 20 m² | Freistehend | [[VERIFY: Steuerungsmöglichkeiten für Tungsten Freestanding Gas — Mike Clifford]] |
+| Tungsten Smart-Heat Freestanding Gas | 20 m² | Freistehend | [[VERIFY: Steuerungsmöglichkeiten für Tungsten Freestanding Gas — Produktteam]] |
 
 Quelle: Lookbook 2026[^s3]. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind.
 
-Die Steuerung ist kein Ausbaudetail, das man zum Schluss wählt. Energievorschriften für gewerbliche Gebäude verlangen sie zunehmend: Im US-Bundesstaat Washington etwa schreibt der Energiecode für Gewerbebauten vor, dass Wärme außerhalb eines Gebäudes als Strahlungswärme erzeugt und automatisch über Präsenzmelder oder Zeitschaltung abgeschaltet wird[^s5]. Prüfen Sie, welche Vorschriften für Ihr Projekt gelten. [[VERIFY: ob deutsche Vorschriften (z. B. GEG oder Landesrecht) Anforderungen an Heizstrahler im Freien stellen — Raffaele Marti]]
+Die Steuerung ist kein Ausbaudetail, das man zum Schluss wählt. Energievorschriften für gewerbliche Gebäude verlangen sie zunehmend: Im US-Bundesstaat Washington etwa schreibt der Energiecode für Gewerbebauten vor, dass Wärme außerhalb eines Gebäudes als Strahlungswärme erzeugt und automatisch über Präsenzmelder oder Zeitschaltung abgeschaltet wird[^s5]. Prüfen Sie, welche Vorschriften für Ihr Projekt gelten. [[VERIFY: ob deutsche Vorschriften (z. B. GEG oder Landesrecht) Anforderungen an Heizstrahler im Freien stellen — Partner Deutschland]]
 
 ## Das Wichtigste in Kürze
 

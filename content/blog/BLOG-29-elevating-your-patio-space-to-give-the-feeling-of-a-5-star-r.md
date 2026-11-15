@@ -18,8 +18,8 @@ meta_description: "Six moves for a resort-style patio: warmth where people sit, 
 cta: {label: "Get the Trends 2026 report", asset: A01}
 hero: w-bromic-eclipse-heater-scottsdale-home-6
 images: [w-bromiceclipseheater-scottsdalehome-10, w-wrigley-mansion-phoenix-arizona-22]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -80,7 +80,7 @@ Resorts heat the seat, not the sky. Radiant heat warms people and objects rather
 
 Where there is no wall or ceiling to mount on, the Eclipse Smart-Heat Freestanding Electric reaches over a table on a curved arm from a weighted, wheeled base, covering about 121 ft².[^s1] Where there is a soffit, a fixed heater on a pole or in the ceiling keeps the floor clear. Bromic's [complimentary design service](https://www.bromic.com/design-your-space/) works out how many heaters and where.
 
-The Eclipse was featured by The Wall Street Journal in a piece on turning a patio into a resort.[^s3] [[VERIFY: WSJ article date, headline and what it says about Eclipse — Megan Spies]]
+The Eclipse was featured by The Wall Street Journal in a piece on turning a patio into a resort.[^s3] [[VERIFY: WSJ article date, headline and what it says about Eclipse — Marketing]]
 
 ## 2. Layer the light
 
@@ -99,7 +99,7 @@ Resort patios use deep seating, mixed materials and pieces that survive the weat
 
 ## 4. Give the space a focal point
 
-A fire feature, water, a piece of art or a striking heater gives people somewhere to gather. The Eclipse's arched silhouette is often the piece people notice first. At [Christopher's at Wrigley Mansion](https://www.bromic.com/case-study/christophers-at-wrigley-mansion/) in Phoenix, architect Wendell Burnette chose Eclipse freestanding heaters so the restaurant could add a patio without spoiling the historic building's design; in the live post he describes guests remarking on them.[^s4] [[VERIFY: quote wording against the case study before any direct quote is used — Megan Spies]]
+A fire feature, water, a piece of art or a striking heater gives people somewhere to gather. The Eclipse's arched silhouette is often the piece people notice first. At [Christopher's at Wrigley Mansion](https://www.bromic.com/case-study/christophers-at-wrigley-mansion/) in Phoenix, architect Wendell Burnette chose Eclipse freestanding heaters so the restaurant could add a patio without spoiling the historic building's design; in the live post he describes guests remarking on them.[^s4] [[VERIFY: quote wording against the case study before any direct quote is used — Marketing]]
 
 ![Night terrace with glowing arched Eclipse freestanding heaters over diners, mountain beyond](img:w-wrigley-mansion-phoenix-arizona-22)
 
@@ -115,7 +115,7 @@ Luxury is not hunting for switches. The Eclipse Freestanding ships with the Ecli
 
 The house pictured is [Desert Mirage](https://www.bromic.com/case-study/desert-mirage-blurring-the-lines-between-home-and-nature/) in Scottsdale, by AFT Construction, Cosan Studio and Alisha Taylor Interiors, with an Eclipse freestanding heater on its patio.
 
-The live post called the Eclipse Freestanding "8 feet tall"; that height is not in Bromic's current product data, so it is left out until confirmed.[^s6] [[VERIFY: Eclipse Freestanding overall height — Mike Clifford]]
+The live post called the Eclipse Freestanding "8 feet tall"; that height is not in Bromic's current product data, so it is left out until confirmed.[^s6] [[VERIFY: Eclipse Freestanding overall height — Product team]]
 
 ## Frequently asked
 

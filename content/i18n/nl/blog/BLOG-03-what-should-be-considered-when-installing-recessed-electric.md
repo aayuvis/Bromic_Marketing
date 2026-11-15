@@ -15,8 +15,8 @@ meta_description: "Een elektrische buitenverwarmer inbouwen: plafondbeplating va
 cta: {label: "Download de specificatiekit voor architecten", asset: A11}
 hero: w-residential-belgium-brussels-medows-resid-3
 images: [w-dorrington-homes-platinum-electric-2]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -99,19 +99,19 @@ Platinum Electric, Platinum Electric Marine en Tungsten Electric worden ingebouw
 
 | Verwarmer | Kit | Minimale holte | Opmerkingen |
 |---|---|---|---|
-| Tungsten Electric | Tungsten-inbouwkit | 510–535 mm [[VERIFY: hier ca. 510 mm tegenover ca. 535 mm in het artikel over montage — Mike Clifford]] | Twee lagen brandwerende isolatie van ca. 16 mm op elke zijde van de plafondkast[^s1] |
+| Tungsten Electric | Tungsten-inbouwkit | 510–535 mm [[VERIFY: hier ca. 510 mm tegenover ca. 535 mm in het artikel over montage — productteam]] | Twee lagen brandwerende isolatie van ca. 16 mm op elke zijde van de plafondkast[^s1] |
 | Platinum 2300 W, 3400 W | Standaard Platinum-inbouwkit | ca. 255 mm | [^s1] |
 | Platinum 4500 W | Standaard Platinum-inbouwkit | ca. 330 mm | [^s1] |
 | Platinum 2300, 3400, 4500 W | Low Clearance Recess Kit | 180 mm | Ingebouwde inbouwkast, ventilator en ventilatieopeningen; past tussen standaard balken; UL-gecertificeerd (VS)[^s1][^s3] |
 
 Reken voor Tungsten met ongeveer 535 mm tot het specificatieblad uitsluitsel geeft. De Tungsten-kit wordt per paar verkocht, één voor 2000 en 4000 W en één voor 3000 en 6000 W[^s5].
 
-De oudere versie van dit artikel noemde de Low Clearance-kit alleen voor 2300 en 3400 W. Op de productpagina van de kit staat nu ook 4500 W[^s3] [[VERIFY: geschiktheid van de Low Clearance-kit voor 4500 W controleren tegen de huidige handleiding — Mike Clifford]]. De installatie stap voor stap staat in [zo installeert u de Low Clearance Recess Kit](item:BLOG-05).
+De oudere versie van dit artikel noemde de Low Clearance-kit alleen voor 2300 en 3400 W. Op de productpagina van de kit staat nu ook 4500 W[^s3] [[VERIFY: geschiktheid van de Low Clearance-kit voor 4500 W controleren tegen de huidige handleiding — productteam]]. De installatie stap voor stap staat in [zo installeert u de Low Clearance Recess Kit](item:BLOG-05).
 
 ## Waar moet het plafond van gemaakt zijn?
 
 - **Dikte van de beplating.** 10–30 mm is het ideale bereik. Een dikker plafond vraagt een speciaal detail van de technische ondersteuning van Bromic[^s1].
-- **Constructie.** Inbouwverwarmers wegen van ongeveer 7,7 kg (Platinum 2300 W) tot 15 kg (Platinum 4500 W)[^s4]; het oudere bereik van ongeveer 7–17 kg omvatte modellen die nu niet meer in het assortiment staan [[VERIFY: gewicht van de zwaarste inbouw-Tungsten — Mike Clifford]]. Breng regelwerk en klossen aan om verwarmer en kit te dragen; versterk zwakke balken.
+- **Constructie.** Inbouwverwarmers wegen van ongeveer 7,7 kg (Platinum 2300 W) tot 15 kg (Platinum 4500 W)[^s4]; het oudere bereik van ongeveer 7–17 kg omvatte modellen die nu niet meer in het assortiment staan [[VERIFY: gewicht van de zwaarste inbouw-Tungsten — productteam]]. Breng regelwerk en klossen aan om verwarmer en kit te dragen; versterk zwakke balken.
 - **Water.** Bescherm de verwarmer tegen water van boven; het plafond mag er niet op lekken[^s1].
 - **Isolatie.** Niets in de holte, ook isolatie niet, mag de verwarmer of de kit bedekken[^s1].
 - **Brandbare materialen.** De afstanden tot brandbare materialen verschillen per model; neem ze over uit de handleiding van de exacte verwarmer[^s1]. Houd afstand tot plafondlampen en -ventilatoren[^s2].

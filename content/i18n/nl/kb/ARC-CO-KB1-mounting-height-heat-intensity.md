@@ -14,7 +14,7 @@ meta_description: "Hoe de montagehoogte de intensiteit en het verwarmd oppervlak
 cta: {label: "Download de Planning Guide (editie voor professionals)", asset: A02}
 hero: l-004-012
 images: []
-owner_review: Mike Clifford
+owner_review: productteam
 status: draft
 gated: false
 related: [ARC-CO-01, ARC-IN-01]
@@ -60,7 +60,7 @@ Hoe hoger u een stralingsverwarmer monteert, hoe breder zijn bereik en hoe lager
 - **Meet tot de mensen.** Gebruik de hoofdhoogte zittend voor eet- en loungezones en staand voor bars.
 - **Het verwarmd oppervlak gaat uit van een gangbare montage.** Bromic vermeldt dat het verwarmd oppervlak varieert met montagehoogte, omgeving en installatie[^s2].
 
-[[VERIFY: aanbevolen maximale montagehoogte en tabel met verwarmd oppervlak per hoogte per model — Mike Clifford]]
+[[VERIFY: aanbevolen maximale montagehoogte en tabel met verwarmd oppervlak per hoogte per model — productteam]]
 
 Gebruik dimmen om bij te stellen wat de hoogte niet kan: een Affinity Smart-Heat Dimmer (of de Eclipse-regelaar voor de standen 33/66/100% van Eclipse), een wandschakelaar en de Smart-Heat app. Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht[^s2].
 

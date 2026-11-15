@@ -19,8 +19,8 @@ meta_description: "Loungeplekken, buitenkeukens, overdekte buitenkamers en welln
 cta: {label: "Download het Trends 2026-rapport", asset: A01}
 hero: w-bromiceclipseheater-scottsdalehome-10
 images: [w-tungsten-electric-new-york-residential]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false

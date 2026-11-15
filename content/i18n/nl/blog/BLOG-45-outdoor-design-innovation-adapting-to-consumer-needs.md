@@ -18,8 +18,8 @@ ai_prompt: "Hoe verandert het ontwerp van buitenproducten voor architecten?"
 meta_description: "Podcastsamenvatting: de oprichters van StruXure en Bromic Group over buitenkamers als product, geïntegreerde bediening en vroeg samenwerken met architecten."
 cta: {label: "Download het Trends 2026-rapport", asset: A01}
 hero: w-slc-bromic-heater-1-cropped
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false

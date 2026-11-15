@@ -15,8 +15,8 @@ meta_description: "Kies een Bromic-buitenverwarmer op ruimte, energiebron en mon
 cta: {label: "Bereken wat je ruimte nodig heeft", asset: A03}
 hero: w-bromic-ambiente-sedona
 images: [w-connecticut-privateresidence-tungstenelectri, w-dwellimage5]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -109,7 +109,7 @@ Stralingsverwarmers (infrarood) wel, omdat ze mensen en oppervlakken verwarmen i
 | Warmte en licht boven een tafel of lounge | Elektrisch | Stang, pendel of wand | Eclipse Electric | Affinity Eclipse-regelaar[^s6] |
 | Open terras, geen constructie, wel een stopcontact | Elektrisch | Vrijstaand | Eclipse Freestanding | Eclipse Dimmer Controller en afstandsbediening, meegeleverd[^s6] |
 | Grote, goed geventileerde ruimte met een gasleiding | Aardgas of propaan | Wand of plafond | Platinum Gas, Tungsten Gas | Affinity On/Off-regelaar; wandschakelaar[^s7] |
-| Open terrein, geen stroom of gasleiding | Propaan of aardgas | Vrijstaand | Tungsten Freestanding Gas | [[VERIFY: control options for Tungsten Freestanding Gas — Mike Clifford]] |
+| Open terrein, geen stroom of gasleiding | Propaan of aardgas | Vrijstaand | Tungsten Freestanding Gas | [[VERIFY: control options for Tungsten Freestanding Gas — productteam]] |
 
 [[VERIFY: welke van deze families en uitvoeringen (gas, propaan, Marine) in Nederland leverbaar zijn — Bromic Benelux distributor]]
 
@@ -129,7 +129,7 @@ Twijfel je tussen elektrisch en gas? Lees [elektrische of gasterrasverwarmers](i
 
 **Tungsten Coastal en Select (binnenkort leverbaar).** Nieuwe Tungsten-collecties, voor ongeveer 6 tot 13 m²: Coastal in zeewaterbestendig rvs 316, Select met extra afwerkingen.[^s1]
 
-Bediening voor elektrisch: Platinum, Tungsten en Cobalt werken met een Affinity On/Off-regelaar (volle warmte) of Dimmer-regelaar (warmte in stappen van 1%), of met een handbediende wandschakelaar.[^s9] Eclipse Electric werkt met de Affinity Eclipse-regelaar, die warmte en licht samen instelt.[^s6] [[VERIFY: whether Eclipse Electric still ships with the Eclipse Dimmer Controller and remote as an alternative to the Affinity Eclipse controller — Mike Clifford]]
+Bediening voor elektrisch: Platinum, Tungsten en Cobalt werken met een Affinity On/Off-regelaar (volle warmte) of Dimmer-regelaar (warmte in stappen van 1%), of met een handbediende wandschakelaar.[^s9] Eclipse Electric werkt met de Affinity Eclipse-regelaar, die warmte en licht samen instelt.[^s6] [[VERIFY: whether Eclipse Electric still ships with the Eclipse Dimmer Controller and remote as an alternative to the Affinity Eclipse controller — productteam]]
 
 ![Verzonken Tungsten Electric-verwarmers in een verandaplafond](img:w-connecticut-privateresidence-tungstenelectri)
 
@@ -137,11 +137,11 @@ Bediening voor elektrisch: Platinum, Tungsten en Cobalt werken met een Affinity 
 
 **Platinum Gas.** Twee formaten, 6,9 en 11,7 kW, voor ongeveer 15 en 20 m², op aardgas of propaan, aan de wand of het plafond.[^s7]
 
-**Tungsten Gas.** Twee formaten aan een draaiarm voor wand of plafond. [[VERIFY: Tungsten Gas output and coverage per size, unpublished in content until confirmed — Mike Clifford]]
+**Tungsten Gas.** Twee formaten aan een draaiarm voor wand of plafond. [[VERIFY: Tungsten Gas output and coverage per size, unpublished in content until confirmed — productteam]]
 
-**Tungsten Freestanding Gas.** Ongeveer 11,1 kW en 20 m², op propaan of aardgas, met een kantelbare kop, wieltjes en een ontwerp dat omvallen tegengaat.[^s1] [[VERIFY: 11,1 kW (38.000 BTU/h, Lookbook) of 11,3 kW (38.500 BTU/h, productpagina) — Mike Clifford]]
+**Tungsten Freestanding Gas.** Ongeveer 11,1 kW en 20 m², op propaan of aardgas, met een kantelbare kop, wieltjes en een ontwerp dat omvallen tegengaat.[^s1] [[VERIFY: 11,1 kW (38.000 BTU/h, Lookbook) of 11,3 kW (38.500 BTU/h, productpagina) — productteam]]
 
-Gasverwarmers hebben open lucht om zich heen nodig. Bromic beschouwt een ruimte als buitenruimte als minstens 30% van de omtrek permanent open is.[^s8] [[VERIFY: the merged post said 25%; confirm the current ventilation rule — Mike Clifford]] Gasverwarmers gaan aan en uit; ze dimmen niet. Bedien ze met een Affinity On/Off-regelaar, tot 10 verwarmers per kanaal, of met een handbediende wandschakelaar.[^s7] Een gekwalificeerde gasinstallateur sluit vaste gasverwarmers aan volgens NEN 1078; laat vrije afstanden en ventilatie controleren door je gemeente. [[VERIFY: current Dutch codes for outdoor heater installations — Bromic Benelux distributor]]
+Gasverwarmers hebben open lucht om zich heen nodig. Bromic beschouwt een ruimte als buitenruimte als minstens 30% van de omtrek permanent open is.[^s8] [[VERIFY: the merged post said 25%; confirm the current ventilation rule — productteam]] Gasverwarmers gaan aan en uit; ze dimmen niet. Bedien ze met een Affinity On/Off-regelaar, tot 10 verwarmers per kanaal, of met een handbediende wandschakelaar.[^s7] Een gekwalificeerde gasinstallateur sluit vaste gasverwarmers aan volgens NEN 1078; laat vrije afstanden en ventilatie controleren door je gemeente. [[VERIFY: current Dutch codes for outdoor heater installations — Bromic Benelux distributor]]
 
 ## Hoeveel verwarmers heb ik nodig?
 

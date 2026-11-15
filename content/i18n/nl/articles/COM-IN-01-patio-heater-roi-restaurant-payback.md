@@ -14,7 +14,7 @@ meta_description: "Het rendement van terrasverwarmers in drie stappen: extra omz
 cta: {label: "Vraag uw rendementsanalyse aan", asset: A21}
 hero: g-operator
 images: [l-013-100]
-owner_review: Blake Petty
+owner_review: verkoop horeca
 status: draft
 gated: false
 related: [COM-CO-01, COM-AW-01, COM-PP-01, COM-IN-KB1]
@@ -90,9 +90,9 @@ Extra avonden is het eenvoudige geval. Verlengen de verwarmers in plaats daarvan
 
 ## Hoe ziet een uitgewerkt voorbeeld eruit?
 
-Alleen ter illustratie, en in Amerikaanse dollars: het voorbeeld is gebaseerd op Amerikaanse gegevens en is niet omgerekend naar euro's. Elke invoer is een aanname die de methode laat zien, geen maatstaf en geen belofte. Vul voor Nederland uw eigen besteding, tarief en offerte in. [[VERIFY: benchmarks — Blake Petty]]
+Alleen ter illustratie, en in Amerikaanse dollars: het voorbeeld is gebaseerd op Amerikaanse gegevens en is niet omgerekend naar euro's. Elke invoer is een aanname die de methode laat zien, geen maatstaf en geen belofte. Vul voor Nederland uw eigen besteding, tarief en offerte in. [[VERIFY: benchmarks — verkoop horeca]]
 
-**Aannames:** 40 verwarmde zitplaatsen; 1,5 tafelwisselingen per avond; gemiddelde besteding $45; 60 extra avonden per jaar; 50% bezetting; 30% dekkingsbijdrage; zeven Platinum Smart-Heat Electric 4500 W-verwarmers met Affinity Smart-Heat On/Off- of Dimmer-bediening en een wandschakelaar, 5 uur per avond aan op die avonden; elektriciteit tegen 14,07 dollarcent per kWh, het Amerikaanse gemiddelde voor bedrijven over januari–mei 2026[^s2]; geïnstalleerde kosten $35.000 (7 × $5.000, een plaatshouder voor een volledige offerte inclusief bediening, bekabeling en vergunningen, geen prijs van Bromic). [[VERIFY: installed cost per heater — Blake Petty]]
+**Aannames:** 40 verwarmde zitplaatsen; 1,5 tafelwisselingen per avond; gemiddelde besteding $45; 60 extra avonden per jaar; 50% bezetting; 30% dekkingsbijdrage; zeven Platinum Smart-Heat Electric 4500 W-verwarmers met Affinity Smart-Heat On/Off- of Dimmer-bediening en een wandschakelaar, 5 uur per avond aan op die avonden; elektriciteit tegen 14,07 dollarcent per kWh, het Amerikaanse gemiddelde voor bedrijven over januari–mei 2026[^s2]; geïnstalleerde kosten $35.000 (7 × $5.000, een plaatshouder voor een volledige offerte inclusief bediening, bekabeling en vergunningen, geen prijs van Bromic). [[VERIFY: installed cost per heater — verkoop horeca]]
 
 Zeven verwarmers is de dimensionering voor 40 zitplaatsen: 40 × ongeveer 1,9 m² per zitplaats ≈ 74 m²[^s5], ÷ (ca. 13,3 m² verwarmd oppervlak[^s3] × 0,85 voor een gedeeltelijk overdekt terras op koele avonden) = 6,5, naar boven afgerond 7. Zie [hoeveel verwarmers een terras met 40 zitplaatsen nodig heeft](item:COM-IN-KB1).
 

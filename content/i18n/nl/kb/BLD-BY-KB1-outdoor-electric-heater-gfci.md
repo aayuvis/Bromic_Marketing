@@ -13,7 +13,7 @@ ai_prompt: "Heeft een elektrische terrasverwarmer een aardlekschakelaar nodig?"
 meta_description: "Aardlekbeveiliging voor elektrische terrasverwarmers: wat NEN 1010 vraagt, wat de Amerikaanse NEC als voorbeeld laat zien, en wat de installateur bij oplevering controleert."
 cta: {label: "Ontvang de reeks installatiegidsen", asset: A17}
 hero: l-010-066
-owner_review: Arvin Avaness
+owner_review: verkoop vakhandel
 status: draft
 gated: false
 related: [BLD-BY-01, BLD-IN-01]
@@ -70,7 +70,7 @@ In de VS verscheen de editie van 2026 in augustus 2025, maar elke staat of stad 
 
 ## Waarom is een vast aangesloten verwarmer een grijs gebied?
 
-De Amerikaanse regel spreekt over "outlets", aansluitpunten. Sommige instanties zien een vaste aansluiting als zo'n aansluitpunt, andere niet. Ga uit van aardlekbeveiliging, tenzij uw installateur of de keuring schriftelijk anders bepaalt. Kijk daarna in de installatiehandleiding, die een eigen eis kan stellen [[VERIFY: Bromic installation-manual GFCI/RCD requirement — Mike Clifford]].
+De Amerikaanse regel spreekt over "outlets", aansluitpunten. Sommige instanties zien een vaste aansluiting als zo'n aansluitpunt, andere niet. Ga uit van aardlekbeveiliging, tenzij uw installateur of de keuring schriftelijk anders bepaalt. Kijk daarna in de installatiehandleiding, die een eigen eis kan stellen [[VERIFY: Bromic installation-manual GFCI/RCD requirement — productteam]].
 
 ## Hoe wordt de aardlekbeveiliging uitgevoerd?
 

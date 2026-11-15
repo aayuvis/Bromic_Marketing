@@ -18,8 +18,8 @@ meta_description: "Connect Bromic heaters to home automation or a BMS: Affinity 
 cta: {label: "Get the install guide series", asset: A17}
 hero: w-expansion-board-2-1600x1600-1
 images: [w-expansion-board]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -97,7 +97,7 @@ Bromic heaters join a smart home through Affinity Smart-Heat controllers, sold s
 | Building management system (BMS) | Affinity controller plus expansion board, BMS mode | The BMS takes over and the app is disabled[^s1][^s4] |
 | No automation | Manual wall switch | On and off at the wall; no app or voice |
 
-Bromic also lists Domotica and Josh.ai as compatible platforms.[^s2] [[VERIFY: tested integrations, drivers or modules for Control4, Crestron, Lutron, Domotica and Josh.ai, and whether 0–10 V is the only interface — Mike Clifford]]
+Bromic also lists Domotica and Josh.ai as compatible platforms.[^s2] [[VERIFY: tested integrations, drivers or modules for Control4, Crestron, Lutron, Domotica and Josh.ai, and whether 0–10 V is the only interface — Product team]]
 
 ## What does the expansion board do?
 
@@ -106,7 +106,7 @@ It sits inside a 1- or 2-channel On/Off or Dimmer controller, fixed with two scr
 - **Ethernet**, a wired network link that is steadier than Wi-Fi across a large site.
 - **A 0–10 V terminal block**, so the automation system can switch or set the level of each channel.
 
-The 5-channel On/Off and Dimmer controllers include the board.[^s5] [[VERIFY: does the Eclipse controller accept the expansion board or 0–10 V — Mike Clifford]]
+The 5-channel On/Off and Dimmer controllers include the board.[^s5] [[VERIFY: does the Eclipse controller accept the expansion board or 0–10 V — Product team]]
 
 <div class="diagram">Diagram: automation processor → 0–10 V pair and Ethernet → expansion board inside an Affinity 2-channel Dimmer → two heater circuits; a dotted line from the router to the controller for the app, crossed out when BMS mode is on.</div>
 
@@ -117,15 +117,15 @@ The app and a BMS cannot run at the same time. Fitting the board's jumper hands 
 ## What does the integrator need?
 
 - **The controller model and channel map:** which channel feeds which heater, and its load.
-- **The control signal per channel:** on/off for On/Off controllers and gas heaters; level for Dimmer channels. [[VERIFY: 0–10 V scaling to heater output on Dimmer channels, and whether On/Off channels switch at a threshold — Mike Clifford]]
+- **The control signal per channel:** on/off for On/Off controllers and gas heaters; level for Dimmer channels. [[VERIFY: 0–10 V scaling to heater output on Dimmer channels, and whether On/Off channels switch at a threshold — Product team]]
 - **A network drop** to the controller location if Ethernet is used.
-- **The Affinity installation manual and wiring diagrams** from Bromic's technical resources. [[VERIFY: Affinity wiring diagrams cover 208 V and 277 V as well as 220–240 V; the earlier Smart-Heat Link diagrams showed 220–240 V only — Mike Clifford]]
+- **The Affinity installation manual and wiring diagrams** from Bromic's technical resources. [[VERIFY: Affinity wiring diagrams cover 208 V and 277 V as well as 220–240 V; the earlier Smart-Heat Link diagrams showed 220–240 V only — Product team]]
 
 Controllers handle 6 kW per channel at 208–277 V, and 5-channel units come in three-phase versions, including 120/208 V.[^s5]
 
 ## What about the Smart-Heat Link?
 
-The Smart-Heat Link was an RS232 gateway programmed over a serial connection. It paired with the earlier Wireless On/Off and Dimmer controllers, not with Affinity.[^s6][^s7] New projects use Affinity controllers and the expansion board. [[VERIFY: Smart-Heat Link status (discontinued, spares only, or supported) and the upgrade path for existing RS232 installs — Mike Clifford]] Owners of a Smart-Heat Link system should contact Bromic Technical Support before changing anything.
+The Smart-Heat Link was an RS232 gateway programmed over a serial connection. It paired with the earlier Wireless On/Off and Dimmer controllers, not with Affinity.[^s6][^s7] New projects use Affinity controllers and the expansion board. [[VERIFY: Smart-Heat Link status (discontinued, spares only, or supported) and the upgrade path for existing RS232 installs — Product team]] Owners of a Smart-Heat Link system should contact Bromic Technical Support before changing anything.
 
 ## Who installs it?
 
@@ -143,6 +143,6 @@ No. BMS mode disables the app for that controller.[^s4]
 Yes, on an Affinity On/Off controller, up to 10 gas heaters per channel, switched on and off.[^s5]
 
 ### Will my RS232 Smart-Heat Link work with Affinity?
-[[VERIFY: compatibility between Smart-Heat Link and Affinity controllers — Mike Clifford]] For app setup, see [how to use the Bromic heating app](https://www.bromic.com/blog/how-to-use-the-new-bromic-heating-app/); for the full range, the [Bromic controls page](https://www.bromic.com/controls/).
+[[VERIFY: compatibility between Smart-Heat Link and Affinity controllers — Product team]] For app setup, see [how to use the Bromic heating app](https://www.bromic.com/blog/how-to-use-the-new-bromic-heating-app/); for the full range, the [Bromic controls page](https://www.bromic.com/controls/).
 
 Wiring and commissioning steps are in the install guide series.

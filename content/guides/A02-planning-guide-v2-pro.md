@@ -15,7 +15,7 @@ meta_description: "Specifier's guide to outdoor radiant heat: wavelength, the cu
 cta: {label: "Download the spec kit", asset: A11}
 hero: l-010-075
 images: [l-007-034, l-010-076, l-005-022, t-006-016, l-013-106]
-owner_review: Mike Clifford + 454 Creative
+owner_review: Product team + 454 Creative
 status: draft
 gated: true
 related: [ARC-CO-01, ARC-IN-01, BLD-IN-01]
@@ -252,7 +252,7 @@ Outdoors, convected heat rises and disperses; forced air cannot hold an open spa
 | Wind | Lowest sensitivity | Limited | Highest |
 | Use | Exposed sites, higher mounting | Covered areas | Sheltered, low-exposure spaces |
 
-Source: Bromic Planning Guide 2021[^s3]. Directional heaters push most output toward the occupied zone, which puts the energy where people sit[^s3]. [[VERIFY: wavelength classification of each current model, and whether to republish the 2021 element temperatures — Mike Clifford]]
+Source: Bromic Planning Guide 2021[^s3]. Directional heaters push most output toward the occupied zone, which puts the energy where people sit[^s3]. [[VERIFY: wavelength classification of each current model, and whether to republish the 2021 element temperatures — Product team]]
 
 | | Electric | Gas |
 |---|---|---|
@@ -284,7 +284,7 @@ Jurisdictions restricting new gas: see the Electrification compliance guide ([A1
 
 SKUs, Platinum Electric: 2300 W BH0320003 black / BH0320007 white; 3400 W BH0320005 / BH0320008; 4500 W BH3622000 / BH3622001[^s5]. Platinum Gas: BH0110001-1 NG / -002-1 LPG (23,600 Btu/h); BH0110003-1 NG / BH0110004-1 LPG (39,800 Btu/h)[^s10]. Tungsten Gas built-in: BH0210001-1 NG / BH0210002-1 LPG (160 ft²); BH0210003-1 NG / BH0210004-1 LPG (215 ft²)[^s11].
 
-Product-page values read 29 October 2026; Lookbook 2026 governs where they differ[^s2]. Open conflicts: [[VERIFY: Eclipse 2900 W (spec table) vs 3000 W (FAQ); Tungsten Freestanding Gas 38,000 Btu/h (Lookbook, used here) vs 38,500 (site); Cobalt 130/160 ft² (spec table, used here) vs "up to 144 ft²" (features); whether current Tungsten Electric 6000 W (160 ft²) remains once Coastal and Select (64–144 ft²) launch; Platinum Electric Marine 316 vs 314 stainless (FAQ) — Mike Clifford]]. The Tungsten built-in gas output is withheld until confirmed.
+Product-page values read 29 October 2026; Lookbook 2026 governs where they differ[^s2]. Open conflicts: [[VERIFY: Eclipse 2900 W (spec table) vs 3000 W (FAQ); Tungsten Freestanding Gas 38,000 Btu/h (Lookbook, used here) vs 38,500 (site); Cobalt 130/160 ft² (spec table, used here) vs "up to 144 ft²" (features); whether current Tungsten Electric 6000 W (160 ft²) remains once Coastal and Select (64–144 ft²) launch; Platinum Electric Marine 316 vs 314 stainless (FAQ) — Product team]]. The Tungsten built-in gas output is withheld until confirmed.
 
 | Accessory | Fuel | Purpose |
 |---|---|---|
@@ -293,7 +293,7 @@ Product-page values read 29 October 2026; Lookbook 2026 governs where they diffe
 | Heat deflector | Gas (built-in) | Dual-layer stainless; reduces clearance above. Recommended when space above is under 1,100 mm (Platinum) or 42 in (Tungsten), or the unit is exposed[^s10][^s11] |
 | Ceiling pole | Gas (built-in) | Two heaters back to back under flat or pitched ceilings[^s3] |
 
-[[VERIFY: accessory part numbers, recess-kit cut-outs and compatibility, including Coastal and Select recessing — Mike Clifford]]
+[[VERIFY: accessory part numbers, recess-kit cut-outs and compatibility, including Coastal and Select recessing — Product team]]
 
 - [ ] Model, wattage or Btu/h, voltage, finish and SKU per tag
 - [ ] Coming-soon models carry an approved current alternate
@@ -303,7 +303,7 @@ Product-page values read 29 October 2026; Lookbook 2026 governs where they diffe
 
 ## 5. Size it
 
-Heaters per zone = zone area ÷ effective coverage per heater, rounded up. The [A03 calculator](asset:A03) applies its stated adjustments to the nominal coverage above: open space 0.85, partially covered 1.0, covered 1.1; mild 1.0, cool 0.85, cold 0.7; mounting to 10 ft 1.0, to 12 ft 0.9, above 12 ft 0.8 (built-in heaters). These are working assumptions awaiting Bromic sign-off, not published ratings. [[VERIFY: A03 enclosure, climate and height factors — Mike Clifford]] Freestanding heaters (Tungsten Freestanding Gas, Eclipse Freestanding) also serve no more than four seats each, because seated guests block their radiant heat: count max(area ÷ effective coverage, seats ÷ 4), allowing 20 ft² a seat where the seat count is unknown.
+Heaters per zone = zone area ÷ effective coverage per heater, rounded up. The [A03 calculator](asset:A03) applies its stated adjustments to the nominal coverage above: open space 0.85, partially covered 1.0, covered 1.1; mild 1.0, cool 0.85, cold 0.7; mounting to 10 ft 1.0, to 12 ft 0.9, above 12 ft 0.8 (built-in heaters). These are working assumptions awaiting Bromic sign-off, not published ratings. [[VERIFY: A03 enclosure, climate and height factors — Product team]] Freestanding heaters (Tungsten Freestanding Gas, Eclipse Freestanding) also serve no more than four seats each, because seated guests block their radiant heat: count max(area ÷ effective coverage, seats ÷ 4), allowing 20 ft² a seat where the seat count is unknown.
 
 **Example.** A 16 × 24 ft covered dining terrace, cool climate, 10 ft soffit: 384 ft². Tungsten Electric 6000 W: 160 × 1.1 × 0.85 × 1.0 = 150 ft² effective; 384 ÷ 150 = 2.6, so **three heaters**, each on its own Affinity Dimmer channel (a 5-channel controller), a wall switch and the app.
 
@@ -316,21 +316,21 @@ Heaters per zone = zone area ÷ effective coverage per heater, rounded up. The [
 
 | Heater | A at 208 V | × 1.25 | A at 240 V | × 1.25 | A at 277 V |
 |---|---|---|---|---|---|
-| Platinum 2300 W | 11.1 | 13.9 | 9.6 | 12.0 | — |
-| Platinum 3400 W | 16.3 | 20.4 | 14.2 | 17.8 | — |
-| Platinum 4500 W | 21.6 | 27.0 | 18.8 | 23.5 | — |
-| Eclipse 2900 W | 13.9 | 17.4 | 12.1 | 15.1 | — |
-| Eclipse Freestanding 2900 W | — | — | 12.1 | 15.1 | — |
-| Cobalt 4000 W | 18.75 | 23.4 | 16.6 | 20.8 | — |
-| Cobalt 6000 W | 28.4 | 35.5 | 25 | 31.3 | — |
-| Tungsten 2000 W (calc.) | 9.6 | 12.0 | 8.3 | 10.4 | — |
-| Tungsten 3000 W (calc.) | 14.4 | 18.0 | 12.5 | 15.6 | — |
+| Platinum 2300 W | 11.1 | 13.9 | 9.6 | 12.0 | – |
+| Platinum 3400 W | 16.3 | 20.4 | 14.2 | 17.8 | – |
+| Platinum 4500 W | 21.6 | 27.0 | 18.8 | 23.5 | – |
+| Eclipse 2900 W | 13.9 | 17.4 | 12.1 | 15.1 | – |
+| Eclipse Freestanding 2900 W | – | – | 12.1 | 15.1 | – |
+| Cobalt 4000 W | 18.75 | 23.4 | 16.6 | 20.8 | – |
+| Cobalt 6000 W | 28.4 | 35.5 | 25 | 31.3 | – |
+| Tungsten 2000 W (calc.) | 9.6 | 12.0 | 8.3 | 10.4 | – |
+| Tungsten 3000 W (calc.) | 14.4 | 18.0 | 12.5 | 15.6 | – |
 | Tungsten 4000 W (calc.) | 19.2 | 24.0 | 16.7 | 20.8 | 14.4 |
 | Tungsten 6000 W (calc.) | 28.8 | 36.1 | 25.0 | 31.3 | 21.7 |
 
-Published amps from the product pages[^s5][^s7][^s8][^s9]; Tungsten rows are W ÷ V because the page lists none. Cobalt's published 208 V figures sit below W ÷ 208 (19.2 and 28.8 A). [[VERIFY: Tungsten amps per model and voltage; Cobalt 208 V rating; breaker sizes per installation manual; Art. 424 vs 422 classification — Mike Clifford + Arvin Avaness]]
+Published amps from the product pages[^s5][^s7][^s8][^s9]; Tungsten rows are W ÷ V because the page lists none. Cobalt's published 208 V figures sit below W ÷ 208 (19.2 and 28.8 A). [[VERIFY: Tungsten amps per model and voltage; Cobalt 208 V rating; breaker sizes per installation manual; Art. 424 vs 422 classification — Product team + Trade sales]]
 
-**Gas.** Size piping for the total connected Btu/h, length and pressure to ANSI Z223.1/NFPA 54[^s22]. Built-in gas heaters also need 110 V, 2 A[^s10][^s11]. The Tungsten Freestanding Gas takes a 20 lb LPG cylinder or a 10 ft natural-gas quick-connect[^s12]. Do not carry a Tungsten built-in Btu/h into drawings until Bromic confirms it. [[VERIFY: inlet size and supply pressure per gas model — Mike Clifford]]
+**Gas.** Size piping for the total connected Btu/h, length and pressure to ANSI Z223.1/NFPA 54[^s22]. Built-in gas heaters also need 110 V, 2 A[^s10][^s11]. The Tungsten Freestanding Gas takes a 20 lb LPG cylinder or a 10 ft natural-gas quick-connect[^s12]. Do not carry a Tungsten built-in Btu/h into drawings until Bromic confirms it. [[VERIFY: inlet size and supply pressure per gas model — Product team]]
 
 Rough-in detail (boxes, blocking, control runs): Pre-wire guide ([A16](asset:A16)).
 
@@ -348,11 +348,11 @@ Every heater schedule carries a controls line. Specify the full bundle: controll
 | Affinity Smart-Heat Dimmer | 1, 2, 5 | 6 kW at 208–277 V; 1% steps | Tungsten and Platinum Electric[^s14] |
 | Affinity Smart-Heat Eclipse | 1, 5 | One Eclipse heater | Eclipse[^s15] |
 | Manual wall switch | Single or dual | 20 A, 120–277 V; indoor or outdoor kit | All[^s16] |
-| Expansion board | — | Ethernet and 0–10 V for BMS or home automation; built into the 5-channel; BMS mode disables the app | Integrated projects[^s17] |
+| Expansion board | – | Ethernet and 0–10 V for BMS or home automation; built into the 5-channel; BMS mode disables the app | Integrated projects[^s17] |
 
 **Heaters per 6 kW channel:** Tungsten 2000 W ×3, 3000 W ×2, 4000/6000 W ×1; Platinum 2300 W ×2, 3400/4500 W ×1; Cobalt ×1. Eclipse: one per Eclipse channel. Gas: up to 10 per On/Off channel[^s13]. The circuit rating can set a lower limit.
 
-Controllers: IP54, operating range −4 to 86 °F; 2.4 GHz Wi-Fi, Bluetooth about 30 ft, optional Ethernet; UL 60730-1, CAN/CSA E60730-1[^s13]. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately. Alexa and Google Home need no board; Control4, Crestron and Lutron compatibility varies and may need extra hardware or configuration[^s2][^s17]. [[VERIFY: controller capacities, Cobalt and gas compatibility (spec table vs FAQ), and Tungsten Freestanding Gas controls — Mike Clifford]]
+Controllers: IP54, operating range −4 to 86 °F; 2.4 GHz Wi-Fi, Bluetooth about 30 ft, optional Ethernet; UL 60730-1, CAN/CSA E60730-1[^s13]. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately. Alexa and Google Home need no board; Control4, Crestron and Lutron compatibility varies and may need extra hardware or configuration[^s2][^s17]. [[VERIFY: controller capacities, Cobalt and gas compatibility (spec table vs FAQ), and Tungsten Freestanding Gas controls — Product team]]
 
 - [ ] Controller, channel count and heater-to-channel schedule
 - [ ] Controller location: accessible, protected, within Wi-Fi range
@@ -377,7 +377,7 @@ Controllers: IP54, operating range −4 to 86 °F; 2.4 GHz Wi-Fi, Bluetooth abou
 | Gas | ANSI Z223.1/NFPA 54[^s22] | Where heaters may go, supply, ventilation, clearance to combustibles |
 | Certification | Intertek, UL or CSA mark | Required on gas and electrical appliances, including portable heaters[^s3] |
 
-Clearances to ceiling, sides and combustibles come from each model's installation manual and listing; do not interpolate between models. [[VERIFY: clearance table per model from current manuals — Mike Clifford]]
+Clearances to ceiling, sides and combustibles come from each model's installation manual and listing; do not interpolate between models. [[VERIFY: clearance table per model from current manuals — Product team]]
 
 *Indicative only. The adopted code edition and local amendments govern. Confirm with the local building authority, and have heaters installed by a licensed electrician or gas fitter to the manufacturer's instructions.*
 
@@ -389,7 +389,7 @@ Clearances to ceiling, sides and combustibles come from each model's installatio
 
 ## 9. Design service
 
-Send plans, sections or photos to the Bromic design service for heater selection, placement and coverage drawings, at no charge[^s2]. Running cost per heater: kW × $/kWh (electric); Btu/h ÷ 100,000 × $/therm (natural gas); Btu/h ÷ 91,500[^s23] × $/gal (propane). At the A20 model's rates (13.54¢/kWh, EIA commercial, May 2026[^s18]; $0.87/therm, EIA commercial, Jan–May 2026[^s19]; $2.674/gal, EIA residential propane, 30 Mar 2026[^s20]) a Tungsten 4000 W costs $0.54 an hour and a Platinum Gas 39,800 Btu/h $0.35 on natural gas or $1.16 on propane. [[VERIFY: 2026 rates — Brian Kim/Finance]]
+Send plans, sections or photos to the Bromic design service for heater selection, placement and coverage drawings, at no charge[^s2]. Running cost per heater: kW × $/kWh (electric); Btu/h ÷ 100,000 × $/therm (natural gas); Btu/h ÷ 91,500[^s23] × $/gal (propane). At the A20 model's rates (13.54¢/kWh, EIA commercial, May 2026[^s18]; $0.87/therm, EIA commercial, Jan–May 2026[^s19]; $2.674/gal, EIA residential propane, 30 Mar 2026[^s20]) a Tungsten 4000 W costs $0.54 an hour and a Platinum Gas 39,800 Btu/h $0.35 on natural gas or $1.16 on propane. [[VERIFY: 2026 rates — Finance]]
 
 - [ ] Drawings sent to the design service
 - [ ] Coverage drawing returned and coordinated

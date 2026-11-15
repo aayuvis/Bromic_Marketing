@@ -18,8 +18,8 @@ meta_description: "Specify outdoor heating at schematic design: circuits, blocki
 cta: {label: "Download the spec kit", asset: A11}
 hero: w-pilarshoots-hr-achtoptien-00-72
 images: [g-rough-in, g-plans]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -86,7 +86,7 @@ Specify outdoor heating at schematic design, because it decides things that are 
 Because nobody owns it at concept stage. Lighting sits with the electrical engineer, shade with the landscape architect, structure with the engineer. Heating falls between them, and clients rarely raise it.
 
 **23%** of homeowners rank outdoor heating a top planning priority.[^s1]\
-*Atomik Research for Bromic Heating, 2025* [[VERIFY: survey date, base n and question wording against the Atomik topline — Megan Spies]]
+*Atomik Research for Bromic Heating, 2025* [[VERIFY: survey date, base n and question wording against the Atomik topline — Marketing]]
 
 The patio gets drawn. The heat does not. Then the first cool evening arrives and the space the client paid for sits empty.
 
@@ -111,7 +111,7 @@ Designed from the start, not added later: every row above is a line on a drawing
 
 **Design development.** Fix the mounting type. Platinum Smart-Heat Electric (2300, 3400 or 4500 W) mounts recessed, on the ceiling or on the wall; recessing needs its kit and cavity drawn now, not at trim.[^s3] Hold Bromic's minimum mounting heights: at least 72 in. above the floor on a wall and at least 96 in. on a ceiling, varying with output.[^s2]
 
-**Construction documents.** Put a dedicated circuit to each position on the panel schedule. A 4500 W Platinum draws about 18.8 A at 240 V and 21.6 A at 208 V, so voltage has to be known before the electrician sizes the circuit.[^s4] [[VERIFY: amps and supply voltage per model against the 2026 cut sheet — Mike Clifford]] Write the heater into the specification as a basis-of-design product with its controls; [how to specify outdoor infrared heaters](item:ARC-IN-01) gives the 3-part section, and [the pre-wire checklist](item:BLD-IN-01) gives the rough-in.
+**Construction documents.** Put a dedicated circuit to each position on the panel schedule. A 4500 W Platinum draws about 18.8 A at 240 V and 21.6 A at 208 V, so voltage has to be known before the electrician sizes the circuit.[^s4] [[VERIFY: amps and supply voltage per model against the 2026 cut sheet — Product team]] Write the heater into the specification as a basis-of-design product with its controls; [how to specify outdoor infrared heaters](item:ARC-IN-01) gives the 3-part section, and [the pre-wire checklist](item:BLD-IN-01) gives the rough-in.
 
 ![Covered patio ceiling at rough-in with blocking, cable runs and junction boxes](img:g-rough-in)
 
@@ -137,7 +137,7 @@ It puts the code questions in front of the inspector while the design can still 
 
 **Commercial.** Heat is capacity. Count heated seats and the nights they add, plan zones that match service sections, and decide the fuel against local rules on propane before the permit set. Bromic's design team planned the heat for [Stella's Wine Bar at the Post Oak Hotel](https://www.bromic.com/case-study/eclipse-pendant-and-platinum-electric-at-stellas-wine-bar/), Houston, as a 2D heat plan with Eclipse pendants and Platinum Electric heaters on dimmers; at [The Industrie](https://www.bromic.com/case-study/albany-zero-emissions-multifamily-building/), Albany's all-electric multifamily building, the roof deck uses Eclipse heaters in place of gas fire tables.
 
-The live post's video with designer Danny Wang of DW Design & Build belongs here. [[VERIFY: embed the Danny Wang video and paraphrase only what he says on it — Megan Spies]][^s7]
+The live post's video with designer Danny Wang of DW Design & Build belongs here. [[VERIFY: embed the Danny Wang video and paraphrase only what he says on it — Marketing]][^s7]
 
 ## Frequently asked
 

@@ -14,7 +14,7 @@ meta_description: "Heizstrahler in der Gastronomie mit einer einfachen Routine w
 cta: {label: "Betriebshandbuch holen", asset: A23}
 hero: l-013-104
 images: [t-009-025]
-owner_review: Blake Petty
+owner_review: Vertrieb Gastronomie
 status: draft
 gated: false
 related: [COM-PP-01, COM-CO-01, COM-AW-01, COM-IN-KB1]
@@ -22,7 +22,7 @@ updated: 2026-10-29
 lang: de
 translation_of: COM-BY-01
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -84,7 +84,7 @@ Eine Seite, am Empfang und in der App.
 **Öffnen**
 1. Sichtprüfung: Heizstrahler unbeschädigt, Gitter frei, nichts daran oder in der Nähe aufgehängt.
 2. Abstände prüfen: Schirme, Banner und Deko gemäß Anleitung von den Heizstrahlern fernhalten.
-3. Mobile Gasgeräte: Heizstrahler aufrecht, Räder arretiert, Abstand zu Gebäuden, Markisen und Ausgängen gemäß Anleitung und örtlichen Vorschriften; in den USA verlangt der IFC, wo er gilt, mindestens 1,5 m.[^s3] [[VERIFY: Mindestabstände für mobile Flüssiggas-Heizstrahler in der Gastronomie in Deutschland (TRF, örtliche Auflagen) — Raffaele Marti]]
+3. Mobile Gasgeräte: Heizstrahler aufrecht, Räder arretiert, Abstand zu Gebäuden, Markisen und Ausgängen gemäß Anleitung und örtlichen Vorschriften; in den USA verlangt der IFC, wo er gilt, mindestens 1,5 m.[^s3] [[VERIFY: Mindestabstände für mobile Flüssiggas-Heizstrahler in der Gastronomie in Deutschland (TRF, örtliche Auflagen) — Partner Deutschland]]
 4. Zonen einschalten, wenn die Tische besetzt werden.
 
 **Während des Service**
@@ -98,7 +98,7 @@ Eine Seite, am Empfang und in der App.
 
 ## Was steht auf der Checkliste für Reinigung und Wartung?
 
-Allgemeine Hinweise; die Montage- und Bedienungsanleitung Ihres Modells hat Vorrang. [[VERIFY: von Bromic empfohlene Wartungsintervalle und Reinigungsmethode je Modell — Mike Clifford]]
+Allgemeine Hinweise; die Montage- und Bedienungsanleitung Ihres Modells hat Vorrang. [[VERIFY: von Bromic empfohlene Wartungsintervalle und Reinigungsmethode je Modell — Produktteam]]
 
 | Aufgabe | Wer | Häufigkeit (gemäß Anleitung) |
 |---|---|---|

@@ -14,8 +14,8 @@ ai_prompt: "Funktionieren Infrarot-Heizstrahler im Freien?"
 meta_description: "Ja. Infrarot-Heizstrahler erwärmen Menschen und Oberflächen, nicht die Luft – deshalb wirken sie im Freien und bei leichtem Wind. Was das Ergebnis beeinflusst und wie Sie wählen."
 cta: {label: "Den Report Outdoor Living Trends 2026 herunterladen", asset: A01}
 hero: w-tungsten-electric-new-york-residential
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -60,7 +60,7 @@ sources:
 lang: de
 translation_of: BLOG-13
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 
 Ja. Infrarot-Heizstrahler sind genau die Art von Heizung, die im Freien funktioniert. Sie erwärmen Menschen, Möbel und Böden direkt, so wie die Sonne, statt Luft zu heizen, die aufsteigt und davonweht. Deshalb halten sie eine Terrasse im Freien und bei leichtem bis mäßigem Wind behaglich, wo ein Heizlüfter fast nichts ausrichtet[^s1]. Wie gut ein Gerät wirkt, hängt von seinem Strahlungsanteil, vom Wind, von einer eventuellen Überdachung und von seiner Ausrichtung ab.
@@ -102,9 +102,9 @@ Ein elektrischer Widerstandsheizer wandelt den gesamten Strom, den er aufnimmt, 
 | Überdachte Terrasse, Veranda oder Pergola mit Stromanschluss | Fest installiert, elektrisch | Platinum Smart-Heat Electric (ca. 6–13 m²)[^s4], Tungsten Smart-Heat Electric (ca. 6–15 m²)[^s5] | Affinity On/Off- oder Dimmer-Steuergerät, manueller Wandschalter |
 | Designorientierte Terrasse, die Wärme und Licht will | Elektrisch mit integriertem Licht | Eclipse Smart-Heat Electric (ca. 11 m²)[^s4] | Affinity Eclipse Steuergerät oder Eclipse Dimmer, manueller Wandschalter |
 | Größere offene Fläche mit Gasanschluss | Gas | Siehe das [Gas-Sortiment](https://www.bromic.de/) | Affinity On/Off-Steuergerät, manueller Wandschalter |
-| Keine feste Installation oder eine wechselnde Nutzung | Freistehend | Eclipse Smart-Heat Freestanding (ca. 11 m²)[^s5]; Tungsten Smart-Heat Freestanding Gas (ca. 20 m², windbeständig)[^s4] | Eclipse: Dimmer-Steuergerät und Fernbedienung im Lieferumfang[^s5]. Tungsten Freestanding Gas: [[VERIFY: Steuerungsoptionen — Mike Clifford]] |
+| Keine feste Installation oder eine wechselnde Nutzung | Freistehend | Eclipse Smart-Heat Freestanding (ca. 11 m²)[^s5]; Tungsten Smart-Heat Freestanding Gas (ca. 20 m², windbeständig)[^s4] | Eclipse: Dimmer-Steuergerät und Fernbedienung im Lieferumfang[^s5]. Tungsten Freestanding Gas: [[VERIFY: Steuerungsoptionen — Produktteam]] |
 
-Jeder installierte Heizstrahler wird mit seiner Steuerung geplant. Die Smart-Heat App ergänzt Zonen, Zeitpläne und Timer; WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Steuerungen, die separat erhältlich sind[^s4]. Die beheizte Fläche hängt von Modell, Montagehöhe, Umgebung und Installation ab[^s4]. [[VERIFY: Werte von den Produktseiten auf bromic.com; mit den Datenblättern 2026 abgleichen — Mike Clifford]]
+Jeder installierte Heizstrahler wird mit seiner Steuerung geplant. Die Smart-Heat App ergänzt Zonen, Zeitpläne und Timer; WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Steuerungen, die separat erhältlich sind[^s4]. Die beheizte Fläche hängt von Modell, Montagehöhe, Umgebung und Installation ab[^s4]. [[VERIFY: Werte von den Produktseiten auf bromic.com; mit den Datenblättern 2026 abgleichen — Produktteam]]
 
 Sehen Sie sich die [Elektro-Heizstrahler, freistehenden Heizstrahler und alle Heizstrahler für draußen](https://www.bromic.de/) an.
 

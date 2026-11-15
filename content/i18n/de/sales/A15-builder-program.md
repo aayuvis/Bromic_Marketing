@@ -14,7 +14,7 @@ meta_description: "Ein Paket Gut-Besser-Premium für die Außenheizung im Wohnun
 cta: {label: "Planungsgespräch vereinbaren", asset: A07}
 hero: l-010-069
 images: [l-010-070, l-010-071, l-013-100]
-owner_review: Arvin Avaness
+owner_review: Fachhandelsvertrieb
 status: draft
 gated: true
 related: [BLD-AW-01, BLD-CO-01, BLD-IN-01]
@@ -65,7 +65,7 @@ sources:
 lang: de
 translation_of: A15
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 
 # Bromic Bauträgerprogramm
@@ -87,9 +87,9 @@ Vorverkabelte Bromic Strahlungswärme in drei fertigen Paketen, schon im Rohbau 
 
 **2. Käufer fragen danach.** 86 % der US-Käufer und Kaufinteressenten bewerten eine Terrasse als unverzichtbar oder wünschenswert, gleichauf mit dem Hauswirtschaftsraum als meistgewünschte Ausstattung.[^s3]
 
-**3. Wärme ist die Lücke.** Nur 23 % der US-Hausbesitzer geben der Außenheizung in der Planungsphase Priorität, doch 67 % sagen, dass eine Heizung die Nutzung ihres Außenbereichs verlängert.[^s4] [[VERIFY: Grundgesamtheit, Stichprobengröße und Erhebungszeitraum der Zahlen von Atomik Research — Megan Spies]] Diese Lücke ist der Sonderwunsch.
+**3. Wärme ist die Lücke.** Nur 23 % der US-Hausbesitzer geben der Außenheizung in der Planungsphase Priorität, doch 67 % sagen, dass eine Heizung die Nutzung ihres Außenbereichs verlängert.[^s4] [[VERIFY: Grundgesamtheit, Stichprobengröße und Erhebungszeitraum der Zahlen von Atomik Research — Marketing]] Diese Lücke ist der Sonderwunsch.
 
-[[VERIFY: vergleichbare Marktdaten für Deutschland, falls vorhanden; bis dahin sind alle Zahlen oben US-Daten — Raffaele Marti]]
+[[VERIFY: vergleichbare Marktdaten für Deutschland, falls vorhanden; bis dahin sind alle Zahlen oben US-Daten — Partner Deutschland]]
 
 ### Was das Programm Ihnen bietet
 
@@ -100,19 +100,19 @@ Jeder Punkt unten ist ein Vorschlag, bis er bestätigt ist. Nichts hier ist eine
 | Drei fertige Pakete | Gut, Besser, Premium, jeweils ein vollständiges System mit Heizstrahlern, Steuerung und Umfang der Vorverkabelung | Entwurf (Teil 2) |
 | Kostenloser Planungsservice | Auswahl der Heizstrahler, Platzierung und Pläne der beheizten Flächen aus Ihren Plänen oder Fotos[^s5] | Verfügbar |
 | Leitfaden zu Vorverkabelung und Rohinstallation | Eine Seite, nach der Ihr Elektriker kalkulieren kann ([asset:A16](asset:A16)) | In Arbeit |
-| Bauträgerkonditionen | Gestaffelte Händlerpreise nach Volumen | [[VERIFY: Preisstaffeln und Mindestvolumen — Arvin Avaness / Peter Abraham]] |
-| Margenstruktur | Vorgeschlagene Optionspreise für Ihr Verkaufsblatt | [[VERIFY: Margenempfehlung, falls vorhanden — Arvin Avaness / Peter Abraham]] |
-| Lieferung und Lieferzeiten | Lagerhaltung und Lieferzusagen | [[VERIFY: Lieferzeiten je Serie und Region — Arvin Avaness / Peter Abraham]] |
-| Unterstützung für Musterhäuser | Ausstellungsgeräte oder Vorführprogramm | [[VERIFY: ob angeboten und zu welchen Bedingungen — Arvin Avaness]] |
-| Vertriebsschulung | Kurze Schulung für die Mitarbeiter der Bemusterung | [[VERIFY: Format und Verfügbarkeit — Arvin Avaness]] |
-| Unterstützung für Installateure | Technische Hotline, in den USA 1-800-301-1293, Mo–Fr 9–16 Uhr pazifischer Zeit[^s5]; [[VERIFY: technischer Ansprechpartner für Deutschland — Raffaele Marti]] | Verfügbar (USA) |
-| Garantie | Herstellergarantie je Serie | [[VERIFY: Bedingungen — Mike Clifford]] |
-| Gemeinsames Marketing | Einleger für Prospekte, Bildmaterial für Ihre Exposés | [[VERIFY: welche Materialien und Nutzungsrechte — Megan Spies]] |
-| Ansprechpartner im Programm | Benannter regionaler Ansprechpartner | [[VERIFY: Ansprechpartner je Region — Arvin Avaness]] |
+| Bauträgerkonditionen | Gestaffelte Händlerpreise nach Volumen | [[VERIFY: Preisstaffeln und Mindestvolumen — Fachhandelsvertrieb / Vertriebssteuerung]] |
+| Margenstruktur | Vorgeschlagene Optionspreise für Ihr Verkaufsblatt | [[VERIFY: Margenempfehlung, falls vorhanden — Fachhandelsvertrieb / Vertriebssteuerung]] |
+| Lieferung und Lieferzeiten | Lagerhaltung und Lieferzusagen | [[VERIFY: Lieferzeiten je Serie und Region — Fachhandelsvertrieb / Vertriebssteuerung]] |
+| Unterstützung für Musterhäuser | Ausstellungsgeräte oder Vorführprogramm | [[VERIFY: ob angeboten und zu welchen Bedingungen — Fachhandelsvertrieb]] |
+| Vertriebsschulung | Kurze Schulung für die Mitarbeiter der Bemusterung | [[VERIFY: Format und Verfügbarkeit — Fachhandelsvertrieb]] |
+| Unterstützung für Installateure | Technische Hotline, in den USA 1-800-301-1293, Mo–Fr 9–16 Uhr pazifischer Zeit[^s5]; [[VERIFY: technischer Ansprechpartner für Deutschland — Partner Deutschland]] | Verfügbar (USA) |
+| Garantie | Herstellergarantie je Serie | [[VERIFY: Bedingungen — Produktteam]] |
+| Gemeinsames Marketing | Einleger für Prospekte, Bildmaterial für Ihre Exposés | [[VERIFY: welche Materialien und Nutzungsrechte — Marketing]] |
+| Ansprechpartner im Programm | Benannter regionaler Ansprechpartner | [[VERIFY: Ansprechpartner je Region — Fachhandelsvertrieb]] |
 
 ### Für wen es gedacht ist
 
-Bauträger mit Serien- und teilindividuellen Häusern, die ein Paket für den Außenbereich anbieten, Bauunternehmen für individuelle Häuser, die ein Standarddetail für die Heizung wollen, und Sanierer, die überdachte Terrassen ergänzen. [[VERIFY: Teilnahmekriterien — Arvin Avaness]]
+Bauträger mit Serien- und teilindividuellen Häusern, die ein Paket für den Außenbereich anbieten, Bauunternehmen für individuelle Häuser, die ein Standarddetail für die Heizung wollen, und Sanierer, die überdachte Terrassen ergänzen. [[VERIFY: Teilnahmekriterien — Fachhandelsvertrieb]]
 
 ## Teil 2: Leitfaden Gut-Besser-Premium
 
@@ -130,11 +130,11 @@ Die Stufen sind für eine überdachte Terrasse dargestellt. Die Zahl der Heizstr
 | Steuerung (erforderlich) | Affinity Smart-Heat On/Off-Steuergerät + manueller Wandschalter | Affinity Smart-Heat Dimmer-Steuergerät + manueller Wandschalter + Bromic Smart-Heat App (Zeitpläne, Timer) | Affinity Dimmer-Steuergerät (Platinum) + Affinity Eclipse Steuergerät + Wandschalter + App mit Zonen; Integration in Control4, Crestron oder Lutron, wo das Haus es hat (Kompatibilität unterschiedlich; ggf. zusätzliche Integrationshardware nötig)[^s5] |
 | Zonen | Eine | Eine oder zwei | Zwei oder mehr (Essen, Lounge) |
 | Umfang der Vorverkabelung | Eigene(r) Stromkreis(e), Dose am Heizstrahler, Dose am Schalter | Eigene Stromkreise, Unterkonstruktion und Auswechslung für den Einbau, Ort des Steuergeräts, WLAN-Abdeckung | Wie Besser, dazu Tragkonstruktion für die Pendel, zusätzliche Stromkreise für Zonen, Abstimmung mit dem Systemintegrator |
-| Optionspreis für den Käufer | [[VERIFY — Arvin Avaness / Peter Abraham]] | [[VERIFY — Arvin Avaness / Peter Abraham]] | [[VERIFY — Arvin Avaness / Peter Abraham]] |
-| Kosten für den Bauträger | [[VERIFY — Arvin Avaness / Peter Abraham]] | [[VERIFY — Arvin Avaness / Peter Abraham]] | [[VERIFY — Arvin Avaness / Peter Abraham]] |
-| Lieferzeit | [[VERIFY — Arvin Avaness / Peter Abraham]] | [[VERIFY — Arvin Avaness / Peter Abraham]] | [[VERIFY — Arvin Avaness / Peter Abraham]] |
+| Optionspreis für den Käufer | [[VERIFY — Fachhandelsvertrieb / Vertriebssteuerung]] | [[VERIFY — Fachhandelsvertrieb / Vertriebssteuerung]] | [[VERIFY — Fachhandelsvertrieb / Vertriebssteuerung]] |
+| Kosten für den Bauträger | [[VERIFY — Fachhandelsvertrieb / Vertriebssteuerung]] | [[VERIFY — Fachhandelsvertrieb / Vertriebssteuerung]] | [[VERIFY — Fachhandelsvertrieb / Vertriebssteuerung]] |
+| Lieferzeit | [[VERIFY — Fachhandelsvertrieb / Vertriebssteuerung]] | [[VERIFY — Fachhandelsvertrieb / Vertriebssteuerung]] | [[VERIFY — Fachhandelsvertrieb / Vertriebssteuerung]] |
 
-[[VERIFY: Kompatibilität der Affinity-Steuergeräte mit jeder Platinum-Leistungsstufe und ob das On/Off-Steuergerät die App unterstützt — Mike Clifford]]
+[[VERIFY: Kompatibilität der Affinity-Steuergeräte mit jeder Platinum-Leistungsstufe und ob das On/Off-Steuergerät die App unterstützt — Produktteam]]
 
 ![Essplatz im Innenhof mit einem schwarzen Wandheizstrahler](img:l-010-070)
 
@@ -157,7 +157,7 @@ Eingelassene Platinum über der Lounge, Eclipse Pendel über dem Esstisch für W
 ## Wie verkaufen Sie es?
 
 - **Zeigen Sie es eingeschaltet.** Eine beheizte Musterhausterrasse in der Abenddämmerung verkauft von selbst.
-- **Kalkulieren Sie die Vorverkabelung, auch wenn Käufer ablehnen.** Eine Rohinstallation im Rohbau kostet weit weniger, als später eine fertige Untersicht zu öffnen, und erlaubt Käufern, die Wärme nach der Übergabe nachzurüsten. [[VERIFY: typische Kostenspanne der Rohinstallation bei Partner-Elektrikern — Arvin Avaness]]
+- **Kalkulieren Sie die Vorverkabelung, auch wenn Käufer ablehnen.** Eine Rohinstallation im Rohbau kostet weit weniger, als später eine fertige Untersicht zu öffnen, und erlaubt Käufern, die Wärme nach der Übergabe nachzurüsten. [[VERIFY: typische Kostenspanne der Rohinstallation bei Partner-Elektrikern — Fachhandelsvertrieb]]
 - **Beginnen Sie mit dem Moment, dann mit der Stufe.** „Abendessen draußen im Oktober“ verkauft besser als eine Wattzahl.
 - **Lassen Sie die Steuerung im Preis.** Ein Heizstrahler ohne sein Steuergerät ist keine fertige Option.
 

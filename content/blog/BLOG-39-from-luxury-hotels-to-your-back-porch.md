@@ -10,15 +10,15 @@ audience: [BLD, RES]
 stage: [AW]
 cell: BLD-AW
 asset: A24
-summary: "Karl Tschauner, Bromic's VP of Sales for North America, with the porch builders at Design Builders: how radiant heat is designed into porches and decks, the three collections, and what the warranties actually cover."
+summary: "US field sales, Bromic's VP of Sales for North America, with the porch builders at Design Builders: how radiant heat is designed into porches and decks, the three collections, and what the warranties actually cover."
 primary_keyword: screened porch heater
 secondary_keywords: [porch heating, builder outdoor living upgrades, infrared porch heater]
 ai_prompt: "How do builders design heating into a screened porch or deck?"
-meta_description: "Bromic's Karl Tschauner on the Design Builders podcast: designing radiant heat into porches and decks, the three collections, and model warranties."
+meta_description: "Bromic's US field sales on the Design Builders podcast: designing radiant heat into porches and decks, the three collections, and model warranties."
 cta: {label: "Get the builder program guide", asset: A15}
 hero: w-hartleyhallplporchdeckdarnestownmd-0052
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -34,7 +34,7 @@ sources:
     verified: true
   - id: s2
     publisher: Design Builders
-    title: "Design Builders podcast episode with Karl Tschauner"
+    title: "Design Builders podcast episode with US field sales"
     year: 2025
     url: https://www.designbuildersmd.com/8152437f-9b51-476b-9a89-9ce53f636b6b/9ab4fe8b-29f4-4a7d-8e54-f41d06d8c19d
     supports: "The episode itself"
@@ -69,17 +69,17 @@ sources:
     verified: true
 ---
 
-A porch is warm when heat is designed into it, not added after the ceiling is finished. On the Design Builders podcast, Bromic's Karl Tschauner and hosts Tim Matkoski and James Moylan discuss how radiant heaters are planned into screened porches and decks: sized to the space, mounted to suit the ceiling, and chosen to stay out of sight[^s1].
+A porch is warm when heat is designed into it, not added after the ceiling is finished. On the Design Builders podcast, Bromic's US field sales and hosts Tim Matkoski and James Moylan discuss how radiant heaters are planned into screened porches and decks: sized to the space, mounted to suit the ceiling, and chosen to stay out of sight[^s1].
 
 ![Screened porch dining area with Platinum Electric heaters recessed in a cedar ceiling](img:w-hartleyhallplporchdeckdarnestownmd-0052)
 
 ## Who was on the episode?
 
-Karl Tschauner is Vice President of Sales, North America, at Bromic Heating. The hosts run Design Builders, a firm that builds decks, screened porches and outdoor kitchens in Maryland and northern Virginia[^s1]. The episode is on the [Design Builders site](https://www.designbuildersmd.com/8152437f-9b51-476b-9a89-9ce53f636b6b/9ab4fe8b-29f4-4a7d-8e54-f41d06d8c19d)[^s2].
+US field sales is Vice President of Sales, North America, at Bromic Heating. The hosts run Design Builders, a firm that builds decks, screened porches and outdoor kitchens in Maryland and northern Virginia[^s1]. The episode is on the [Design Builders site](https://www.designbuildersmd.com/8152437f-9b51-476b-9a89-9ce53f636b6b/9ab4fe8b-29f4-4a7d-8e54-f41d06d8c19d)[^s2].
 
 ## Why porch builders specify radiant heat
 
-The hosts said they first met infrared heaters in California and now include them in 95% of their porch projects[^s1] [[VERIFY: the 95% figure with Design Builders before reuse — Megan Spies]]. Tschauner explained the reason it works outdoors: infrared warms people and surfaces directly, much as sunlight does, rather than heating air that the wind carries away[^s1][^s6].
+The hosts said they first met infrared heaters in California and now include them in 95% of their porch projects[^s1] [[VERIFY: the 95% figure with Design Builders before reuse — Marketing]]. Tschauner explained the reason it works outdoors: infrared warms people and surfaces directly, much as sunlight does, rather than heating air that the wind carries away[^s1][^s6].
 
 ## Heat that does not compete with the design
 
@@ -99,7 +99,7 @@ The post points builders to Bromic's free [Design Your Space](https://www.bromic
 
 ## What the warranties cover
 
-The live post said "up to 7 years on certain models". By model, from the product pages: Tungsten Electric carries 2 years on the heater and 7 years on the elements[^s3]; Eclipse Electric carries 3 years[^s4]; Platinum Electric Marine carries 5 years on land and 3 years on vessels[^s5]. [[VERIFY: warranty terms per model against the 2026 warranty document — Mike Clifford]]
+The live post said "up to 7 years on certain models". By model, from the product pages: Tungsten Electric carries 2 years on the heater and 7 years on the elements[^s3]; Eclipse Electric carries 3 years[^s4]; Platinum Electric Marine carries 5 years on land and 3 years on vessels[^s5]. [[VERIFY: warranty terms per model against the 2026 warranty document — Product team]]
 
 ## Frequently asked
 

@@ -17,8 +17,8 @@ ai_prompt: "Do infrared heaters work outdoors?"
 meta_description: "Yes. Infrared heaters warm people and surfaces, not air, so they work in the open and in light wind. What changes the result, and how to choose one."
 cta: {label: "Download the Outdoor Living Trends 2026 report", asset: A01}
 hero: w-tungsten-electric-new-york-residential
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -101,9 +101,9 @@ An electric resistance heater turns all the electricity it uses into heat at the
 | Covered patio, porch or pergola with power | Built-in electric | Platinum Smart-Heat Electric (65–143 ft²)[^s4], Tungsten Smart-Heat Electric (65–160 ft²)[^s5] | Affinity On/Off or Dimmer controller, manual wall switch |
 | Design-led terrace wanting heat and light | Electric with integrated light | Eclipse Smart-Heat Electric (121 ft²)[^s4] | Affinity Eclipse controller or Eclipse Dimmer, manual wall switch |
 | Larger open area with a gas supply | Gas | See the [gas range](https://www.bromic.com/outdoor-heaters/outdoor-gas-heaters/) | Affinity On/Off controller, manual wall switch |
-| No fixed install, or a space that changes | Freestanding | Eclipse Smart-Heat Freestanding (121 ft²)[^s5]; Tungsten Smart-Heat Freestanding Gas (215 ft², wind resistant)[^s4] | Eclipse: Dimmer Controller and remote included[^s5]. Tungsten Freestanding Gas: [[VERIFY: control options — Mike Clifford]] |
+| No fixed install, or a space that changes | Freestanding | Eclipse Smart-Heat Freestanding (121 ft²)[^s5]; Tungsten Smart-Heat Freestanding Gas (215 ft², wind resistant)[^s4] | Eclipse: Dimmer Controller and remote included[^s5]. Tungsten Freestanding Gas: [[VERIFY: control options — Product team]] |
 
-Every installed heater is planned with its control. The Smart-Heat app adds zones, schedules and timers; Wi-Fi and app features need compatible Affinity Smart-Heat Controls, sold separately[^s4]. Coverage varies with model, mounting height, environment and installation[^s4]. [[VERIFY: product-page values read from bromic.com; confirm against 2026 cut sheets — Mike Clifford]]
+Every installed heater is planned with its control. The Smart-Heat app adds zones, schedules and timers; Wi-Fi and app features need compatible Affinity Smart-Heat Controls, sold separately[^s4]. Coverage varies with model, mounting height, environment and installation[^s4]. [[VERIFY: product-page values read from bromic.com; confirm against 2026 cut sheets — Product team]]
 
 Browse the [electric outdoor heaters](https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/), [freestanding heaters](https://www.bromic.com/outdoor-heaters/freestanding/) or [all outdoor heaters](https://www.bromic.com/outdoor-heaters/).
 

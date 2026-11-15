@@ -15,8 +15,8 @@ meta_description: "Heizstrahler für draußen sicher reinigen und warten: Vorsic
 cta: {label: "Das Betriebshandbuch anfordern", asset: A23}
 hero: w-bromic-shoot-may-11-2023-54
 images: [w-tungsten-portable-cover-v3]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -61,7 +61,7 @@ sources:
 lang: de
 translation_of: BLOG-26
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 
 Reinigen Sie einen Heizstrahler für draußen nur, wenn er ausgeschaltet und abgekühlt ist: Wischen Sie das Gehäuse mit einem weichen Mikrofasertuch ab, entfernen Sie Laub, Nester und Spinnweben und halten Sie Wasser und aggressive Reiniger von den Heizelementen fern. Prüfen Sie zu Beginn und am Ende jeder Saison Halterungen, Kabel und Steuerung; bei Gasheizstrahlern prüfen Sie die Anschlüsse auf Dichtheit und lassen die Gasversorgung mindestens einmal im Jahr von einem Gasinstallateur kontrollieren. Alles, was über die Oberflächenreinigung hinausgeht, gehört in die Hände eines Fachbetriebs.
@@ -79,7 +79,7 @@ Bromics eigene Hinweise, in dieser Reihenfolge:[^s1]
 
 ## Wie reinigen Sie einen Heizstrahler für draußen?
 
-Behutsam. Wischen Sie Staub und Schmutz mit einem Mikrofasertuch vom Gehäuse. Vermeiden Sie aggressive Chemikalien und zu viel Wasser, die Rost und Korrosion verursachen können.[^s1] Sprühen Sie nie Wasser in ein Heizelement oder einen Brenner und öffnen Sie nie ein versiegeltes Gerät. An der Küste spülen Sie Salz von Edelstahlflächen so ab, wie es die Anleitung Ihres Modells vorgibt. [[VERIFY: von Bromic empfohlene Reinigungsmethode und -mittel je Modell, einschließlich Pflege an der Küste — Mike Clifford]]
+Behutsam. Wischen Sie Staub und Schmutz mit einem Mikrofasertuch vom Gehäuse. Vermeiden Sie aggressive Chemikalien und zu viel Wasser, die Rost und Korrosion verursachen können.[^s1] Sprühen Sie nie Wasser in ein Heizelement oder einen Brenner und öffnen Sie nie ein versiegeltes Gerät. An der Küste spülen Sie Salz von Edelstahlflächen so ab, wie es die Anleitung Ihres Modells vorgibt. [[VERIFY: von Bromic empfohlene Reinigungsmethode und -mittel je Modell, einschließlich Pflege an der Küste — Produktteam]]
 
 ## Wie sieht die Wartungscheckliste aus?
 
@@ -96,9 +96,9 @@ Allgemeine Hinweise; die Installations- und Bedienungsanleitung Ihres Modells ha
 | Stromkreise und Anschlüsse prüfen | Elektrofachbetrieb | Laut Anleitung |
 | Freistehende Heizstrahler abdecken oder einlagern | Eigentümer oder Personal | Saisonende |
 
-[[VERIFY: von Bromic empfohlene Wartungsintervalle je Modell — Mike Clifford]]
+[[VERIFY: von Bromic empfohlene Wartungsintervalle je Modell — Produktteam]]
 
-*Gas- und Elektroarbeiten sind geregelt: In den USA gelten NFPA 54 für Gas und NFPA 70 für Elektroinstallationen;[^s5] in Deutschland DIN VDE 0100 für die Elektroinstallation sowie DVGW-TRGI für Erdgas und TRF für Flüssiggas. Klären Sie die Anforderungen mit Ihrem örtlichen Bauamt und beauftragen Sie einen Gasinstallateur oder Elektrofachbetrieb. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Freien — Raffaele Marti]]*
+*Gas- und Elektroarbeiten sind geregelt: In den USA gelten NFPA 54 für Gas und NFPA 70 für Elektroinstallationen;[^s5] in Deutschland DIN VDE 0100 für die Elektroinstallation sowie DVGW-TRGI für Erdgas und TRF für Flüssiggas. Klären Sie die Anforderungen mit Ihrem örtlichen Bauamt und beauftragen Sie einen Gasinstallateur oder Elektrofachbetrieb. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Freien — Partner Deutschland]]*
 
 ## Muss auch die Steuerung gewartet werden?
 
@@ -126,7 +126,7 @@ Die Bedingungen unterscheiden sich je Produkt. Der Originalbeitrag nannte für a
 | Tungsten Smart-Heat Freestanding Gas | 1 Jahr |
 | Affinity Smart-Heat Steuerungen | 1 Jahr |
 
-[[VERIFY: Garantiebedingungen je Produkt mit der aktuellen Richtlinie abgleichen; Originalbeitrag und Produktseiten widersprechen sich; Bedingungen in Deutschland — Mike Clifford]]
+[[VERIFY: Garantiebedingungen je Produkt mit der aktuellen Richtlinie abgleichen; Originalbeitrag und Produktseiten widersprechen sich; Bedingungen in Deutschland — Produktteam]]
 
 ## Häufige Fragen
 

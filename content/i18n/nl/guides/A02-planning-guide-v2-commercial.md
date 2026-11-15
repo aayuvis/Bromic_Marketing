@@ -14,7 +14,7 @@ meta_description: "Gids voor horecaondernemers over terrasverwarming: de omzetca
 cta: {label: "Vraag uw ROI-berekening aan", asset: A21}
 hero: l-013-104
 images: [l-005-024, l-013-111, l-013-107, l-019-164, p-003-006]
-owner_review: Mike Clifford + 454 Creative
+owner_review: productteam + 454 Creative
 status: draft
 gated: true
 related: [COM-CO-01, COM-IN-01, ARC-CO-01]
@@ -238,7 +238,7 @@ Buiten zitten is gemeengoed: in een enquête van de Amerikaanse National Restaur
 
 **Terugverdientijd (maanden) = totale installatiekosten ÷ (extra dekkingsbijdrage per jaar ÷ 12)**
 
-Reken voor de terugverdientijd met de dekkingsbijdrage, niet met de omzet. Tel alleen de avonden waarop het terras zonder warmte niet zou verkopen. Tafelwisselingen en besteding haalt u uit uw kassasysteem; extra avonden uit de sluitingen door het weer van vorig jaar. [[VERIFY: benchmark ranges for turns, check and season extension by climate — Blake Petty]] De [ROI-rekenhulp](asset:A21) rekent het door voor uw locatie.
+Reken voor de terugverdientijd met de dekkingsbijdrage, niet met de omzet. Tel alleen de avonden waarop het terras zonder warmte niet zou verkopen. Tafelwisselingen en besteding haalt u uit uw kassasysteem; extra avonden uit de sluitingen door het weer van vorig jaar. [[VERIFY: benchmark ranges for turns, check and season extension by climate — verkoop horeca]] De [ROI-rekenhulp](asset:A21) rekent het door voor uw locatie.
 
 ## De negen stappen
 
@@ -273,7 +273,7 @@ Buiten betekent dat minstens 30% van de omtrek permanent open is; een gedeelteli
 
 **Energie per uur:** elektrisch = kW × prijs per kWh · aardgas = kW × uw gasprijs per kWh (reken de prijs per m³ om met de calorische waarde op uw energierekening) · propaan = kW ÷ 7,08 kWh per liter[^s23] × prijs per liter.
 
-Het [TCO-model A20](asset:A20) rekent met Amerikaanse tarieven: elektriciteit 13,54 dollarcent per kWh (EIA, gemiddelde Amerikaanse utiliteit, mei 2026)[^s18]; aardgas $0,87 per therm (EIA, Amerikaanse utiliteit, gemiddelde januari–mei 2026)[^s19]; propaan $2,674 per gallon (EIA, Amerikaanse particulieren, week van 30 maart 2026; EIA publiceert geen reeks voor bedrijven)[^s20]. Vul voor een Nederlandse locatie uw eigen tarieven in; de dollarbedragen hieronder zijn een Amerikaans voorbeeld, niet omgerekend. [[VERIFY: 2026 commercial rates, national and by state, and cylinder-exchange propane prices — Brian Kim/Finance]]
+Het [TCO-model A20](asset:A20) rekent met Amerikaanse tarieven: elektriciteit 13,54 dollarcent per kWh (EIA, gemiddelde Amerikaanse utiliteit, mei 2026)[^s18]; aardgas $0,87 per therm (EIA, Amerikaanse utiliteit, gemiddelde januari–mei 2026)[^s19]; propaan $2,674 per gallon (EIA, Amerikaanse particulieren, week van 30 maart 2026; EIA publiceert geen reeks voor bedrijven)[^s20]. Vul voor een Nederlandse locatie uw eigen tarieven in; de dollarbedragen hieronder zijn een Amerikaans voorbeeld, niet omgerekend. [[VERIFY: 2026 commercial rates, national and by state, and cylinder-exchange propane prices — financiën]]
 
 | Verwarmer op vol vermogen | Verwarmt | Energie per uur | Kosten per uur (Amerikaans voorbeeld) |
 |---|---|---|---|
@@ -291,7 +291,7 @@ Het [TCO-model A20](asset:A20) rekent met Amerikaanse tarieven: elektriciteit 13
 |---|---|---|---|---|---|
 | Tungsten Electric 6000 W | 56 ÷ (15 × 0,85 = 12,6) = 4,4 → 5 | 5 × 6 kW × 900 h = 27.000 kWh | $3,656 | $18,279 | 5-kanaals Affinity Dimmer, één verwarmer per kanaal van 6 kW (5 kanalen); wandschakelaar; app |
 | Platinum Gas 11,7 kW, aardgas | 56 ÷ (20 × 0,85 = 17,0) = 3,3 → 4 | 4 × 11,7 kW × 900 h = ca. 42.000 kWh | $1,247 | $6,233 | Eén Affinity On/Off-kanaal (tot 10 gasverwarmers); wandschakelaar; app |
-| Tungsten Freestanding Gas, propaan | de grootste van 3,3 → 4 op oppervlak en 30 stoelen ÷ 4 = 7,5 → 8 | 8 × 1,57 L × 900 h = ca. 11.300 L | $7,996 | $39,979, plus het werk met flessen | [[VERIFY: controls for Tungsten Freestanding Gas — Mike Clifford]] |
+| Tungsten Freestanding Gas, propaan | de grootste van 3,3 → 4 op oppervlak en 30 stoelen ÷ 4 = 7,5 → 8 | 8 × 1,57 L × 900 h = ca. 11.300 L | $7,996 | $39,979, plus het werk met flessen | [[VERIFY: controls for Tungsten Freestanding Gas — productteam]] |
 
 Alleen energie, op vol vermogen; uw eigen verbruik, tijdschema's en dimmen maken het lager. Propaan betekent ongeveer 11.300 liter per jaar, in het Amerikaanse voorbeeld ongeveer 636 wissels van een fles van 17,8 liter, om in te kopen, te wisselen en op te slaan. Reken hardware, installatie en het werk met brandstof door in het [TCO-model](asset:A20). De bedragen per uur uit de gids van 2021 gingen uit van prijzen van 2021 en zijn vervallen.
 
@@ -325,7 +325,7 @@ Alleen energie, op vol vermogen; uw eigen verbruik, tijdschema's en dimmen maken
 | Tungsten Electric Coastal (binnenkort leverbaar) | Locaties aan het water; rvs 316 | [[VERIFY]][^s2] |
 | Tungsten Electric Select (binnenkort leverbaar) | Locaties waar het ontwerp leidend is; Black, White, Graphite | [[VERIFY]][^s2] |
 
-[[VERIFY: warranty terms for commercial use, and the Tungsten Freestanding Gas natural-gas warranty — Mike Clifford]] [[VERIFY: welke families en uitvoeringen (aardgas, propaan, Marine) in Nederland leverbaar zijn — Bromic Benelux distributor]]
+[[VERIFY: warranty terms for commercial use, and the Tungsten Freestanding Gas natural-gas warranty — productteam]] [[VERIFY: welke families en uitvoeringen (aardgas, propaan, Marine) in Nederland leverbaar zijn — Bromic Benelux distributor]]
 
 - [ ] Eén verwarmerfamilie per type locatie (luifel, wand, vrijstaand)
 - [ ] Modellen die binnenkort leverbaar zijn, hebben een goedgekeurd leverbaar alternatief
@@ -334,7 +334,7 @@ Alleen energie, op vol vermogen; uw eigen verbruik, tijdschema's en dimmen maken
 
 ## Stap 5. Dimensioneren
 
-Verwarmers per zone = m² van de zone ÷ (verwarmd oppervlak × overkappingsfactor × klimaatfactor), naar boven afgerond. Overkapping: open 0,85, deels overdekt 1,0, overdekt 1,1. Klimaat: mild (boven ca. 10 °C) 1,0, koel (ca. 4–10 °C) 0,85, koud (vaak onder ca. 4 °C) 0,7. Vrijstaande verwarmers bedienen bovendien niet meer dan 4 stoelen elk, omdat gasten hun stralingswarmte afschermen: neem het grootste van de twee aantallen. Zonder aantal stoelen geldt: stoelen = m² ÷ 1,9[^s28]. [[VERIFY: cover and climate factors — Mike Clifford]]
+Verwarmers per zone = m² van de zone ÷ (verwarmd oppervlak × overkappingsfactor × klimaatfactor), naar boven afgerond. Overkapping: open 0,85, deels overdekt 1,0, overdekt 1,1. Klimaat: mild (boven ca. 10 °C) 1,0, koel (ca. 4–10 °C) 0,85, koud (vaak onder ca. 4 °C) 0,7. Vrijstaande verwarmers bedienen bovendien niet meer dan 4 stoelen elk, omdat gasten hun stralingswarmte afschermen: neem het grootste van de twee aantallen. Zonder aantal stoelen geldt: stoelen = m² ÷ 1,9[^s28]. [[VERIFY: cover and climate factors — productteam]]
 
 | Verwarmer | Verwarmd oppervlak per verwarmer |
 |---|---|
@@ -347,7 +347,7 @@ Verwarmers per zone = m² van de zone ÷ (verwarmd oppervlak × overkappingsfact
 | Tungsten Freestanding Gas, 11,1 kW | 20 m²[^s2] |
 | Tungsten Electric Coastal en Select (binnenkort leverbaar) | 6–13 m²[^s2] |
 
-Het verwarmd oppervlak is bij benadering en varieert met montagehoogte, omgeving en installatie[^s2]. [[VERIFY: Eclipse 2900 W vs 3000 W; Tungsten Freestanding Gas 11,1 kW (38.000 BTU/h) vs 11,3 kW (38.500 BTU/h); per-model coverage against the 2026 cut sheets — Mike Clifford]]
+Het verwarmd oppervlak is bij benadering en varieert met montagehoogte, omgeving en installatie[^s2]. [[VERIFY: Eclipse 2900 W vs 3000 W; Tungsten Freestanding Gas 11,1 kW (38.000 BTU/h) vs 11,3 kW (38.500 BTU/h); per-model coverage against the 2026 cut sheets — productteam]]
 
 - [ ] Aantal per zone; rekenhulp gebruikt voor elke locatie
 
@@ -360,7 +360,7 @@ Het verwarmd oppervlak is bij benadering en varieert met montagehoogte, omgeving
 | Cobalt Electric 4000 / 6000 W | 17,4 / 26,1 A[^s9] |
 | Tungsten Electric 4000 / 6000 W | 17,4 / 26,1 A |
 
-De productpagina's geven alleen stromen bij de Amerikaanse spanningen van 208 en 240 V; Tungsten 4000 en 6000 W bestaan in de VS ook voor 277 V[^s4]. [[VERIFY: Tungsten amps per model and voltage — Mike Clifford]] Ingebouwde gasverwarmers hebben een gasleiding en een elektrische voeding nodig (in de VS 110 V, 2 A)[^s10][^s11]. [[VERIFY: voedingsspanning van ingebouwde gasverwarmers voor de Nederlandse markt — Bromic Benelux distributor]] Groepen worden gedimensioneerd door een gekwalificeerde elektrotechnisch installateur volgens NEN 1010 (in de VS NFPA 70[^s21]); gas door een gekwalificeerde gasinstallateur volgens NEN 1078 (in de VS NFPA 54[^s22]). Neem geen Amerikaanse automaatgroottes over.
+De productpagina's geven alleen stromen bij de Amerikaanse spanningen van 208 en 240 V; Tungsten 4000 en 6000 W bestaan in de VS ook voor 277 V[^s4]. [[VERIFY: Tungsten amps per model and voltage — productteam]] Ingebouwde gasverwarmers hebben een gasleiding en een elektrische voeding nodig (in de VS 110 V, 2 A)[^s10][^s11]. [[VERIFY: voedingsspanning van ingebouwde gasverwarmers voor de Nederlandse markt — Bromic Benelux distributor]] Groepen worden gedimensioneerd door een gekwalificeerde elektrotechnisch installateur volgens NEN 1010 (in de VS NFPA 70[^s21]); gas door een gekwalificeerde gasinstallateur volgens NEN 1078 (in de VS NFPA 54[^s22]). Neem geen Amerikaanse automaatgroottes over.
 
 - [ ] Capaciteit van de groepenkast en groepen per zone
 - [ ] Gasbelasting en afsluiters; elektrische voeding bij elke ingebouwde gasverwarmer
@@ -379,7 +379,7 @@ De bediening maakt de getallen uit stap 3 waar. Zonder bediening draait de warmt
 | Aan vóór de service, uit bij sluiting | Bromic Smart-Heat app: zones, tijdschema's, timers | Via een compatibele Affinity-regelaar |
 | Bediening van de hele locatie | Uitbreidingsprint: Ethernet en 0–10 V naar een GBS (in BMS-modus is de app uitgeschakeld) | Ingebouwd in de 5-kanaalsregelaar[^s17] |
 
-Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht. De compatibiliteit met Control4, Crestron en Lutron verschilt en kan extra hardware of configuratie vragen[^s2]. [[VERIFY: multi-site or remote management in the app; Tungsten Freestanding Gas controls — Mike Clifford]]
+Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht. De compatibiliteit met Control4, Crestron en Lutron verschilt en kan extra hardware of configuratie vragen[^s2]. [[VERIFY: multi-site or remote management in the app; Tungsten Freestanding Gas controls — productteam]]
 
 - [ ] Indeling van zones per kanaal
 - [ ] Tijdschema's gekoppeld aan de openingstijden; wandschakelaar voor de sluitende leidinggevende
@@ -402,7 +402,7 @@ Begin bij de gemeente en de brandweer. Regels worden lokaal vastgesteld en aange
 | Gasinstallatie | NFPA 54[^s22] (in Nederland NEN 1078) | Vaste aansluiting, vrije afstanden, ventilatie |
 | Certificering | Keurmerk van Intertek, UL of CSA | Vereist op gas- en elektrische toestellen, ook op verplaatsbare verwarmers[^s3] |
 
-[[VERIFY: current IFC 2024 text of 603.4 and 603.4.2 — Shaughn Ritchie]]
+[[VERIFY: current IFC 2024 text of 603.4 and 603.4.2 — specificatie en compliance]]
 
 *Deze tabel verwijst naar primaire bronnen; het is geen juridisch advies. De lokaal geldende regels en de interpretatie van het bevoegd gezag zijn bepalend. Stem af met uw gemeente en de brandweer, en werk met een gekwalificeerde elektrotechnisch installateur of gasinstallateur.*
 

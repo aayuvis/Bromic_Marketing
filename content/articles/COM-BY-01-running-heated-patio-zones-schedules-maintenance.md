@@ -15,7 +15,7 @@ meta_description: "Maintain commercial patio heaters with a simple routine: zone
 cta: {label: "Get the operations playbook", asset: A23}
 hero: l-013-104
 images: [t-009-025]
-owner_review: Blake Petty
+owner_review: Hospitality sales
 status: draft
 gated: false
 related: [COM-PP-01, COM-CO-01, COM-AW-01, COM-IN-KB1]
@@ -44,7 +44,7 @@ sources:
     verified: false
 ---
 
-Maintain commercial patio heaters with a short routine and the manufacturer's manual: keep the face and grille clean, check mounts, cords and gas connections on a schedule, and have a licensed electrician or gas fitter service anything beyond cleaning. The bigger win is operating them well — zones that match your sections, schedules that follow the book, and one SOP every shift uses, so heaters are never left on and every table gets the same warmth.
+Maintain commercial patio heaters with a short routine and the manufacturer's manual: keep the face and grille clean, check mounts, cords and gas connections on a schedule, and have a licensed electrician or gas fitter service anything beyond cleaning. The bigger win is operating them well – zones that match your sections, schedules that follow the book, and one SOP every shift uses, so heaters are never left on and every table gets the same warmth.
 
 ## Why do heated patios go wrong?
 
@@ -95,7 +95,7 @@ One page, at the host stand and in the app.
 
 ## What is the cleaning and maintenance checklist?
 
-Generic guidance; your model's installation and operating manual takes precedence. [[VERIFY: Bromic recommended maintenance intervals and cleaning method per model — Mike Clifford]]
+Generic guidance; your model's installation and operating manual takes precedence. [[VERIFY: Bromic recommended maintenance intervals and cleaning method per model — Product team]]
 
 | Task | Who | Frequency (per manual) |
 |---|---|---|
@@ -123,7 +123,7 @@ Make every site the same, so a manager who moves sites already knows the system.
 | Controller types | One training module |
 | Schedule templates by season | Head office sets, sites adjust |
 | SOP and maintenance log | Comparable records across the estate |
-| Permit pack | Repeatable filings for new sites — see [the permit checklist](item:COM-PP-01) |
+| Permit pack | Repeatable filings for new sites – see [the permit checklist](item:COM-PP-01) |
 
 Start the next site from the last one's layout and adjust for exposure. Bromic's design service will draw coverage for each new site.[^s1]
 
@@ -151,13 +151,13 @@ Yes, with compatible Affinity Smart-Heat Controls and the Bromic Smart-Heat app,
 
 ### How many zones does a restaurant patio need?
 
-Usually one per service area — bar, dining, edge, lounge — so heat follows covers. Small patios may need only two.
+Usually one per service area – bar, dining, edge, lounge – so heat follows covers. Small patios may need only two.
 
 ### Can heaters integrate with our building system?
 
 Affinity controls work with Control4, Crestron and Lutron, among others; compatibility varies and may need extra integration hardware.
 
-Run every site the same way — get the operations playbook.
+Run every site the same way – get the operations playbook.
 
 [^s1]: Bromic Heating, Lookbook 2026.
 [^s2]: Bromic Heating, Planning Guide US v1.2, 2021.

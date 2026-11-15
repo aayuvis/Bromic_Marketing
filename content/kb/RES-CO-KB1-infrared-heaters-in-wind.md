@@ -14,7 +14,7 @@ ai_prompt: "Do infrared heaters work in wind?"
 meta_description: "Yes, in light to mild wind: infrared warms people, not air. Short-wave heaters resist wind best; long-wave is most easily dispersed."
 cta: {label: "Size your space", asset: A03}
 hero: l-019-161
-owner_review: Megan Spies
+owner_review: Marketing
 status: draft
 gated: false
 related: [RES-CO-01, RES-PP-01, RES-AW-01]
@@ -36,11 +36,11 @@ sources:
     verified: true
 ---
 
-Yes — in light to mild wind. Infrared heaters warm people and surfaces directly, the way sunshine does, rather than heating the air. Because wind moves air, not radiation, a good radiant heater keeps you warm on a breezy evening where a convection heater's warmth would simply blow away.[^s1] Strong, steady wind still takes heat off your skin, so how you plan the space matters.
+Yes – in light to mild wind. Infrared heaters warm people and surfaces directly, the way sunshine does, rather than heating the air. Because wind moves air, not radiation, a good radiant heater keeps you warm on a breezy evening where a convection heater's warmth would simply blow away.[^s1] Strong, steady wind still takes heat off your skin, so how you plan the space matters.
 
 ## Which infrared heaters handle wind best?
 
-It depends on wavelength — how much of the heater's output is radiant rather than warm air.[^s1]
+It depends on wavelength – how much of the heater's output is radiant rather than warm air.[^s1]
 
 | Wavelength | Radiant share | Wind behaviour | Warm-up |
 |---|---|---|---|
@@ -55,7 +55,7 @@ The higher the radiant share, the less there is for the wind to carry off. Bromi
 - **Map the wind first.** Proximity to water and prevailing wind direction are part of Bromic's planning checklist.[^s1]
 - **Add a wind break.** A screen, wall or planting on the windward side lets heaters work far harder for you. Keep at least 30% of the perimeter open so the space stays outdoor.[^s1]
 - **Allow more heat.** Coverage varies with environment and installation; coastal and exposed sites often need more heaters or more output than a sheltered courtyard.[^s2]
-- **Use controls to respond.** A Dimmer or Eclipse controller lets you turn up output when the breeze rises. Every installation needs its control — Affinity On/Off, Dimmer or Eclipse controller, or a wall switch; app features need compatible Affinity controls, sold separately.[^s2]
+- **Use controls to respond.** A Dimmer or Eclipse controller lets you turn up output when the breeze rises. Every installation needs its control – Affinity On/Off, Dimmer or Eclipse controller, or a wall switch; app features need compatible Affinity controls, sold separately.[^s2]
 
 ## Key takeaways
 

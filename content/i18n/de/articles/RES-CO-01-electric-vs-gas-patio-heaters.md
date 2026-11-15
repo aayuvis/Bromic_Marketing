@@ -14,7 +14,7 @@ meta_description: "Elektro- oder Gasheizstrahler für die Terrasse? Fest montier
 cta: {label: "Fläche berechnen", asset: A03}
 hero: l-019-164
 images: [l-010-076]
-owner_review: Megan Spies
+owner_review: Marketing
 status: draft
 gated: false
 related: [RES-IN-01, RES-PP-01, RES-CO-KB1, ARC-CO-01]
@@ -22,7 +22,7 @@ updated: 2026-10-30
 lang: de
 translation_of: RES-CO-01
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -79,12 +79,12 @@ Im Freien wollen Sie möglichst viel Strahlungswärme. Bromic ordnet Heizstrahle
 | Energie und Anschluss | Eigener Stromkreis, installiert von einem Elektrofachbetrieb nach DIN VDE 0100[^s1] | Erdgas oder Flüssiggas (Propan); Gasarbeiten nach DVGW-TRGI bzw. TRF[^s1] |
 | Montage | Wand, Decke oder bündig eingelassen[^s2] | Fahrbar auf Rädern; der neigbare Kopf richtet die Wärme aus[^s2] |
 | Abgas und Umschließung | Keine Verbrennung, also kein Abgas | Verbrennt Brennstoff: braucht freie Luft; wer einen gasbeheizten Bereich umschließt, erhöht das Kohlenmonoxid-Risiko[^s4] |
-| Abstände | Wandmontage mindestens ca. 1,83 m, Decke mindestens ca. 2,44 m, je nach Leistung (Bromic-Richtwert; maßgeblich ist die Anleitung)[^s1] | Abstand zu brennbaren Materialien laut Montageanleitung [[VERIFY: Abstände Tungsten Freestanding Gas — Mike Clifford]] |
+| Abstände | Wandmontage mindestens ca. 1,83 m, Decke mindestens ca. 2,44 m, je nach Leistung (Bromic-Richtwert; maßgeblich ist die Anleitung)[^s1] | Abstand zu brennbaren Materialien laut Montageanleitung [[VERIFY: Abstände Tungsten Freestanding Gas — Produktteam]] |
 | Wirkung | Dezent; Eclipse ergänzt eine dimmbare Randbeleuchtung[^s2] | Sichtbares Glühen und ein freistehendes Möbelstück |
-| Steuerung | Affinity On/Off-, Dimmer- oder Eclipse-Steuergerät oder Wandschalter; App und Sprachsteuerung erfordern kompatible Affinity-Steuergeräte, separat erhältlich[^s2] | [[VERIFY: Steuerungsoptionen für Tungsten Freestanding Gas — Mike Clifford]] |
+| Steuerung | Affinity On/Off-, Dimmer- oder Eclipse-Steuergerät oder Wandschalter; App und Sprachsteuerung erfordern kompatible Affinity-Steuergeräte, separat erhältlich[^s2] | [[VERIFY: Steuerungsoptionen für Tungsten Freestanding Gas — Produktteam]] |
 | Betriebskosten | Kilowatt × Ihr Strompreis je kWh | Kilowatt × Ihr Gas- oder Flüssiggaspreis – siehe [was der Betrieb kostet](item:RES-IN-01) |
 
-In Deutschland gelten für Elektroarbeiten DIN VDE 0100 und für Gasarbeiten DVGW-TRGI (Erdgas) und TRF (Flüssiggas). [[VERIFY: current VDE and DVGW rules for outdoor heaters — Raffaele Marti]]
+In Deutschland gelten für Elektroarbeiten DIN VDE 0100 und für Gasarbeiten DVGW-TRGI (Erdgas) und TRF (Flüssiggas). [[VERIFY: current VDE and DVGW rules for outdoor heaters — Partner Deutschland]]
 
 ## Wann ist Elektro die bessere Wahl?
 
@@ -106,7 +106,7 @@ In Deutschland gelten für Elektroarbeiten DIN VDE 0100 und für Gasarbeiten DVG
 
 Eine schnelle Abschätzung für die Fläche, die warm sein soll – meist der Sitzbereich, nicht die ganze Terrasse:
 
-- **Fest montiert, elektrisch:** Heizstrahler = Fläche ÷ (Heizfläche × Überdachungsfaktor × Klimafaktor), aufgerundet. Überdachung: offen 0,85, teilweise überdacht 1,0, festes Dach 1,1. Klima an den Abenden, an denen Sie heizen: mild 1,0, kühl 0,85, kalt 0,7. [[VERIFY: cover and climate factors — Mike Clifford]] Die Tabelle rechnet mit teilweise überdacht und kühl, 1,0 × 0,85 = 0,85.
+- **Fest montiert, elektrisch:** Heizstrahler = Fläche ÷ (Heizfläche × Überdachungsfaktor × Klimafaktor), aufgerundet. Überdachung: offen 0,85, teilweise überdacht 1,0, festes Dach 1,1. Klima an den Abenden, an denen Sie heizen: mild 1,0, kühl 0,85, kalt 0,7. [[VERIFY: cover and climate factors — Produktteam]] Die Tabelle rechnet mit teilweise überdacht und kühl, 1,0 × 0,85 = 0,85.
 - **Freistehend, Gas:** dieselbe Flächenrechnung, aber nie mehr als vier Sitzplätze je Gerät, weil die Gäste die Strahlungswärme abschirmen. Ohne Platzzahl rechnen Sie mit ca. 1,9 m² je Sitzplatz. Maßgeblich ist das größere der beiden Ergebnisse.
 
 | Beispielfläche | Platinum Electric, 4500 W (13,3 m²) bis 2300 W (6 m²)[^s2] | Tungsten Freestanding Gas (20 m²)[^s2] |
@@ -115,7 +115,7 @@ Eine schnelle Abschätzung für die Fläche, die warm sein soll – meist der Si
 | Terrasse 6,1 m × 4,9 m (29,7 m², etwa der Durchschnitt bei US-Neubauten[^s3]; 16 Plätze) | 3–6 (29,7 ÷ 11,3 = 2,6; 29,7 ÷ 5,1 = 5,8) | 4 (16 Plätze ÷ 4) |
 | Terrasse 9,1 m × 6,1 m (55,7 m², 30 Plätze) | 5–11 (55,7 ÷ 11,3 = 4,9; 55,7 ÷ 5,1 = 10,9) | 8 (30 Plätze ÷ 4) |
 
-Jeder fest montierte Heizstrahler wird über ein Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät und einen Wandschalter betrieben. [[VERIFY: control options for Tungsten Freestanding Gas — Mike Clifford]] In jeder Zeile bestimmt die Vier-Plätze-Grenze, nicht die Heizfläche, die Zahl der Gasgeräte (55,7 ÷ (20 × 0,85) = 3,3 würde nur auf 4 aufrunden). Die Spanne bei Elektro ist groß, weil sie mehrere Leistungsstufen umfasst; die Heizfläche ändert sich außerdem mit Montagehöhe und Installation.[^s2] Ein offener Standort oder kalte Abende senken den Faktor und erhöhen die Zahl; ein festes Dach erhöht ihn, weil eine Überdachung eine „Wärmewolke“ hält.[^s1] Betrachten Sie das als Ausgangspunkt. Der [Flächenrechner](asset:A03) grenzt es in einer Minute ein, und die [Platzierung](item:RES-PP-01) entscheidet, ob die Wärme dort ankommt, wo Menschen sitzen.
+Jeder fest montierte Heizstrahler wird über ein Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät und einen Wandschalter betrieben. [[VERIFY: control options for Tungsten Freestanding Gas — Produktteam]] In jeder Zeile bestimmt die Vier-Plätze-Grenze, nicht die Heizfläche, die Zahl der Gasgeräte (55,7 ÷ (20 × 0,85) = 3,3 würde nur auf 4 aufrunden). Die Spanne bei Elektro ist groß, weil sie mehrere Leistungsstufen umfasst; die Heizfläche ändert sich außerdem mit Montagehöhe und Installation.[^s2] Ein offener Standort oder kalte Abende senken den Faktor und erhöhen die Zahl; ein festes Dach erhöht ihn, weil eine Überdachung eine „Wärmewolke“ hält.[^s1] Betrachten Sie das als Ausgangspunkt. Der [Flächenrechner](asset:A03) grenzt es in einer Minute ein, und die [Platzierung](item:RES-PP-01) entscheidet, ob die Wärme dort ankommt, wo Menschen sitzen.
 
 ## Das Wichtigste in Kürze
 

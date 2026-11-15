@@ -17,8 +17,8 @@ ai_prompt: "How do you design an outdoor space you can use in a cold climate?"
 meta_description: "A Juneau, Alaska show home planned its deck as heated zones with Bromic Tungsten and Platinum Electric heaters. What the design did and what to take from it."
 cta: {label: "Download the Outdoor Living Trends 2026 report", asset: A01}
 hero: w-dsc07397-1
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -69,11 +69,11 @@ sources:
     verified: true
 ---
 
-A cold climate does not rule out outdoor living; it changes how the space is planned. In a show home in Juneau, Alaska, Bauer/Clifton Interiors split the outdoor area into zones — lounging, dining, entertaining and the paths between — and gave each the heat it needed: Bromic Tungsten Electric over the lounge, Platinum Electric over the dining table, and heaters placed so they never block a view or a route.[^s1]
+A cold climate does not rule out outdoor living; it changes how the space is planned. In a show home in Juneau, Alaska, Bauer/Clifton Interiors split the outdoor area into zones – lounging, dining, entertaining and the paths between – and gave each the heat it needed: Bromic Tungsten Electric over the lounge, Platinum Electric over the dining table, and heaters placed so they never block a view or a route.[^s1]
 
 ![Timber-clad home with a deck lounge and heaters wall-mounted under the eaves](img:w-dsc07397-1)
 
-[[VERIFY: that this hero photo (from the live post) shows the Juneau show home, and the photo credit — Megan Spies]]
+[[VERIFY: that this hero photo (from the live post) shows the Juneau show home, and the photo credit — Marketing]]
 
 ## At a glance
 
@@ -84,8 +84,8 @@ A cold climate does not rule out outdoor living; it changes how the space is pla
 | Designer | Bauer/Clifton Interiors |
 | The problem | Harsh winters that cut short the months a deck can be used |
 | Heaters | Tungsten Electric and Platinum Electric |
-| Heater count | Not stated [[VERIFY: number and output of heaters — Megan Spies]] |
-| Controls | Not stated [[VERIFY: controls used on the project — Megan Spies]] |
+| Heater count | Not stated [[VERIFY: number and output of heaters — Marketing]] |
+| Controls | Not stated [[VERIFY: controls used on the project — Marketing]] |
 | Featured in | Dwell[^s2] |
 
 Source: the live post this replaces.[^s1]
@@ -105,7 +105,7 @@ Instead of heating one large deck evenly, the plan gave each activity its own zo
 | Entertainment | Modular furniture that moves | Directional heaters placed clear of movement and sightlines |
 | Transition | Paths linking the zones | Planned as part of the layout |
 
-<div class="diagram">Diagram: plan of the deck with the four zones outlined, heater positions marked, and each heater's footprint over its seating — a brief to redraw once the project's heater count and layout are confirmed.</div>
+<div class="diagram">Diagram: plan of the deck with the four zones outlined, heater positions marked, and each heater's footprint over its seating – a brief to redraw once the project's heater count and layout are confirmed.</div>
 
 ## What any cold-climate project can take from it
 
@@ -119,7 +119,7 @@ For how to plan heating into a year-round patio, see [how to use your patio year
 
 ## The full case study
 
-This post becomes a full Bromic case study once the project details are confirmed with the designer: heater count and outputs, the controls, the heat layout, and any words from the team, used only with written permission. It will follow the [case-study template](item:CS-TEMPLATE) and sit with the others on [bromic.com/case-studies](https://www.bromic.com/case-studies/). [[VERIFY: contact Bauer/Clifton Interiors for the project details and permission — Megan Spies]]
+This post becomes a full Bromic case study once the project details are confirmed with the designer: heater count and outputs, the controls, the heat layout, and any words from the team, used only with written permission. It will follow the [case-study template](item:CS-TEMPLATE) and sit with the others on [bromic.com/case-studies](https://www.bromic.com/case-studies/). [[VERIFY: contact Bauer/Clifton Interiors for the project details and permission — Marketing]]
 
 ## Frequently asked
 

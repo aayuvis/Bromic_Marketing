@@ -17,8 +17,8 @@ ai_prompt: "How long will a 20 lb propane tank last on a patio heater?"
 meta_description: "A full 20 lb propane cylinder runs a 38,000 BTU patio heater about 11 hours at full output. The formula, Bromic run times and how to choose a heater."
 cta: {label: "Size your space", asset: A03}
 hero: w-8
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -98,7 +98,7 @@ A full 20 lb propane cylinder runs a 38,000 BTU patio heater for about 11 hours 
 
 **Run time (hours) = cylinder gallons × 91,500 ÷ heater BTU per hour**
 
-- **Gallons in the cylinder.** A full 20 lb cylinder holds about 4.7 gallons.[^s3] Many exchange cylinders are filled with less, so weigh yours against the tare weight stamped on the collar. [[VERIFY: typical exchange-cylinder fill — Brian Kim]]
+- **Gallons in the cylinder.** A full 20 lb cylinder holds about 4.7 gallons.[^s3] Many exchange cylinders are filled with less, so weigh yours against the tare weight stamped on the collar. [[VERIFY: typical exchange-cylinder fill — Digital marketing]]
 - **BTU per gallon.** The EIA puts propane at 91,452 BTU per gallon;[^s1] DOE gives 91,420.[^s2] We round to 91,500.
 - **The heater's rating** is its maximum input. Run it lower and the cylinder lasts longer.
 
@@ -111,11 +111,11 @@ Worked example: 4.7 × 91,500 = 430,050 BTU in the cylinder. 430,050 ÷ 38,000 =
 | Tungsten Smart-Heat Freestanding | 38,000 BTU[^s4] | 2.4 | About 11 |
 | Platinum Gas, smaller model | 23,600 BTU[^s6] | 3.9 | About 18 |
 | Platinum Gas, larger model | 39,800 BTU[^s6] | 2.3 | About 11 |
-| Tungsten Gas (wall or ceiling) | Not yet published | — | [[VERIFY: Tungsten Gas output, then run time — Mike Clifford]] |
+| Tungsten Gas (wall or ceiling) | Not yet published | – | [[VERIFY: Tungsten Gas output, then run time — Product team]] |
 
 All at full output, calculated from the formula above. Wall- and ceiling-mounted heaters on propane are usually piped from a larger tank by a gas fitter, so hours per gallon is the useful figure for them.
 
-**A correction.** Earlier Bromic posts gave 9–10 hours, 9 hours and 10–17 hours for similar cylinders.[^s7] The calculation above replaces them. The Tungsten Freestanding product page lists 38,500 BTU against 38,000 in the Lookbook, which changes the result by less than a quarter of an hour.[^s5][^s4] [[VERIFY: Tungsten Freestanding output (38,000 or 38,500 BTU) and run time on a 20 lb cylinder — Mike Clifford]]
+**A correction.** Earlier Bromic posts gave 9–10 hours, 9 hours and 10–17 hours for similar cylinders.[^s7] The calculation above replaces them. The Tungsten Freestanding product page lists 38,500 BTU against 38,000 in the Lookbook, which changes the result by less than a quarter of an hour.[^s5][^s4] [[VERIFY: Tungsten Freestanding output (38,000 or 38,500 BTU) and run time on a 20 lb cylinder — Product team]]
 
 <div class="diagram">Diagram: a 20 lb cylinder (4.7 gal) feeding a heater, with the formula 4.7 × 91,500 ÷ 38,000 = 11.3 h and a bar comparing run time at each Bromic output</div>
 
@@ -127,12 +127,12 @@ Propane goes where there is no gas line or heavy-duty circuit: a freestanding he
 
 1. **Size the area.** Tungsten Freestanding covers about 215 ft²; Platinum Gas about 160 or 215 ft².[^s4][^s6]
 2. **Choose the mounting.** Freestanding where you cannot mount, or want to move heat around; wall or ceiling to save floor space under a cover.[^s7]
-3. **Check the wind.** Tungsten Freestanding is rated for winds up to 8 mph.[^s5] Platinum Gas is listed at 20 km/h in one place and 12 mph in another. [[VERIFY: Platinum Gas wind rating — Mike Clifford]]
+3. **Check the wind.** Tungsten Freestanding is rated for winds up to 8 mph.[^s5] Platinum Gas is listed at 20 km/h in one place and 12 mph in another. [[VERIFY: Platinum Gas wind rating — Product team]]
 4. **Plan the controls.** Platinum Gas and Tungsten Gas run from an Affinity Smart-Heat On/Off controller or a manual wall switch, with an expansion board for building management systems.[^s6] Wi-Fi and app features need compatible Affinity controls, sold separately.[^s4]
 
 ## How much ventilation does a propane heater need?
 
-Propane burns and makes carbon monoxide, so use it only in open air. Bromic's Planning Guide treats an area as outdoor when at least 30% of its perimeter is permanently open.[^s8] The earlier buying guide's "75% open walls" figure is withdrawn.[^s7] Your heater's manual and local code set the rule. [[VERIFY: ventilation requirement in each propane heater's manual — Mike Clifford]]
+Propane burns and makes carbon monoxide, so use it only in open air. Bromic's Planning Guide treats an area as outdoor when at least 30% of its perimeter is permanently open.[^s8] The earlier buying guide's "75% open walls" figure is withdrawn.[^s7] Your heater's manual and local code set the rule. [[VERIFY: ventilation requirement in each propane heater's manual — Product team]]
 
 Gas installations follow ANSI Z223.1/NFPA 54, and cylinders and storage NFPA 58.[^s8][^s9] Confirm yours with your local building authority and a licensed gas fitter.
 

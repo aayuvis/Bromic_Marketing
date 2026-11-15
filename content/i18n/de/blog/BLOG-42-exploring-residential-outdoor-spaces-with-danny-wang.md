@@ -14,8 +14,8 @@ ai_prompt: "Wie verbinden Planer Wohnen innen und außen in einem individuell ge
 meta_description: "Danny Wang von DW Design & Build über Häuser, in denen innen und außen eins sind, die Ausstattung, die Kunden wünschen, und Wärme, die sich einfügt."
 cta: {label: "Revit-BIM- und CAD-Dateien herunterladen", asset: A13}
 hero: w-dorrington-homes-platinum-electric-1
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -24,7 +24,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLOG-42
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -93,7 +93,7 @@ Wang sieht, dass bessere Materialien die Integration erleichtern, allen voran Fe
 | Weniger, dafür bessere Elemente | Eclipse: Wärme und dimmbares LED-Licht aus einer Scheibe, ca. 11 m²[^s4] |
 | Anpassung an das Klima | In kalten Regionen die Wärme ab den ersten Zeichnungen einplanen |
 
-Jeder wird über die Affinity Smart-Heat-Steuerung betrieben: ein On/Off- oder Dimmer-Steuergerät für Platinum Electric, das Eclipse-Steuergerät für Eclipse, jeweils mit Wandschalter. Zeitpläne über die Smart-Heat-App setzen kompatible Affinity-Steuerungen voraus, die separat erhältlich sind. Mehr zur [Außenheizung für Wohnhäuser](https://www.bromic.de/) oder einen kostenlosen Planungsvorschlag erhalten Sie bei Bromic über den Planungsservice. [[VERIFY: ob Design Your Space für Deutschland angeboten wird und unter welcher Adresse — Raffaele Marti]]
+Jeder wird über die Affinity Smart-Heat-Steuerung betrieben: ein On/Off- oder Dimmer-Steuergerät für Platinum Electric, das Eclipse-Steuergerät für Eclipse, jeweils mit Wandschalter. Zeitpläne über die Smart-Heat-App setzen kompatible Affinity-Steuerungen voraus, die separat erhältlich sind. Mehr zur [Außenheizung für Wohnhäuser](https://www.bromic.de/) oder einen kostenlosen Planungsvorschlag erhalten Sie bei Bromic über den Planungsservice. [[VERIFY: ob Design Your Space für Deutschland angeboten wird und unter welcher Adresse — Partner Deutschland]]
 
 ## Häufige Fragen
 

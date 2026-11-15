@@ -14,7 +14,7 @@ meta_description: "Wichtige US-Zahlen zum Wohnen im Freien 2026: Anteil und Grö
 cta: {label: "Den Report Trends 2026 herunterladen", asset: A01}
 hero: t-001-000
 images: [t-005-013]
-owner_review: Megan Spies
+owner_review: Marketing
 status: draft
 gated: false
 related: [A01-corrections, BLD-AW-01]
@@ -22,7 +22,7 @@ updated: 2026-10-29
 lang: de
 translation_of: A01-stats
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: National Association of Home Builders (Eye on Housing)
@@ -190,7 +190,7 @@ Jeder Wert auf dieser Seite stammt aus einer benannten öffentlichen Quelle: NAH
 
 Diese Zahlen stehen im Report Trends 2026, werden hier aber erst als Aussage verwendet, wenn sie geprüft sind. Sie sind aufgeführt, damit die Prüfer sie verfolgen können.
 
-- **67 %, 94 % und 23 %** – Umfrage von Atomik Research unter US-Hausbesitzern im Auftrag von Bromic Heating. Die eigenen Pressemitteilungen von Bromic nennen für dieselbe Frage einmal 94 % und einmal 92 %. [[VERIFY: survey date, base n, question wording, and 94% or 92% — Megan Spies]]
+- **67 %, 94 % und 23 %** – Umfrage von Atomik Research unter US-Hausbesitzern im Auftrag von Bromic Heating. Die eigenen Pressemitteilungen von Bromic nennen für dieselbe Frage einmal 94 % und einmal 92 %. [[VERIFY: survey date, base n, question wording, and 94% or 92% — Marketing]]
 - **39 % „Zunahme der Beliebtheit“ von Infrarot-Terrassenheizstrahlern (AIA)** – in keiner AIA-Veröffentlichung gefunden; das AIA meldet Nettowerte, keine Zuwächse. Zur Streichung empfohlen.
 - **522 Milliarden US-Dollar (Harvard JCHS)** – in keiner Harvard-Veröffentlichung gefunden; oben durch den aktuellen LIRA-Wert ersetzt.
 

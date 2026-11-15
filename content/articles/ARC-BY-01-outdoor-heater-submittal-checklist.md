@@ -15,7 +15,7 @@ meta_description: "Outdoor heater submittal checklist for architects: product da
 cta: {label: "Book a design consult", asset: A07}
 hero: l-010-076
 images: [l-007-035]
-owner_review: Shaughn Ritchie
+owner_review: Specification and compliance
 status: draft
 gated: false
 related: [ARC-IN-01, BLD-IN-01, ARC-IN-KB1, ARC-BY-KB1]
@@ -68,7 +68,7 @@ A complete outdoor heater submittal holds product data and the installation manu
 | Certification | Intertek, UL or CSA mark on each unit[^s1] | AHJ |
 | Warranty and O&M | Terms, cleaning, app set-up | Owner |
 
-[[VERIFY: per-model electrical data (amps at 208/240/277V), recess kit dimensions and clearance tables to attach to submittals — Mike Clifford]]
+[[VERIFY: per-model electrical data (amps at 208/240/277V), recess kit dimensions and clearance tables to attach to submittals — Product team]]
 
 ## How should heater circuits be coordinated?
 
@@ -76,7 +76,7 @@ Treat each fixed electric heater as a continuous load. The NEC's fixed electric 
 
 Points that generate RFIs when left open:
 
-- **Voltage.** Bromic lists 208V, 240V and 277V supply options for commercial sites[^s1]. Confirm the building service and the model voltage together; a 240V heater on a 208V service delivers less output. [[VERIFY: output and coverage derating at 208V per model — Mike Clifford]]
+- **Voltage.** Bromic lists 208V, 240V and 277V supply options for commercial sites[^s1]. Confirm the building service and the model voltage together; a 240V heater on a 208V service delivers less output. [[VERIFY: output and coverage derating at 208V per model — Product team]]
 - **Dedicated breakers.** Show one circuit per heater, or a grouping the manual permits, with breaker size on the schedule.
 - **Disconnect.** Locate the disconnecting means where the code and the manual require it, visible on the drawings. [[VERIFY: NEC disconnect requirements for fixed space heaters in the adopted edition — electrical engineer]]
 - **Conduit and boxes.** Route conduit into the soffit or beam before the ceiling closes. Use wiring methods and boxes rated for damp or wet locations as the exposure requires.

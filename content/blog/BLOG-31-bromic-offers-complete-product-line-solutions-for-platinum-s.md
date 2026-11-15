@@ -18,8 +18,8 @@ meta_description: "Platinum Smart-Heat Electric in 2300, 3400 and 4500 W: covera
 cta: {label: "Download the spec kit", asset: A11}
 hero: w-bromic-platinum-electric-4500w
 images: [w-bromic-shoot-may-11-2023-54, w-australia-sydney-greenwich-residence-2]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Product team
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -83,7 +83,7 @@ The Platinum Smart-Heat Electric is a slim, sealed radiant heater in three outpu
 
 ## Which output does each space need?
 
-Choose by the area you want warm, then check the circuit. The figures below are from the current bromic.com spec table.[^s2] [[VERIFY: values read from bromic.com; confirm against the 2026 cut sheet — Mike Clifford]]
+Choose by the area you want warm, then check the circuit. The figures below are from the current bromic.com spec table.[^s2] [[VERIFY: values read from bromic.com; confirm against the 2026 cut sheet — Product team]]
 
 | Model | Coverage (approx.) | Current at 240 V | Current at 208 V | Weight |
 |---|---|---|---|---|
@@ -101,11 +101,11 @@ Three ways, all with the 304 stainless steel chassis and a ceramic glass face.[^
 - **Ceiling.** At least 96 in above the floor, on the 8 in stainless pole that comes in the box, or a longer [mounting pole](https://www.bromic.com/product/platinum-electric-mounting-poles/) sold separately.[^s2]
 - **Recessed.** Flush with the ceiling, with the standard [Recess Kit](https://www.bromic.com/product/platinum-electric-recess-kit/)[^s4] or the [Low-Clearance Recess Kit](https://www.bromic.com/product/platinum-electric-low-clearance-recess-kit/)[^s3] where the cavity is shallow.
 
-<div class="diagram">Diagram: the three mounting positions in section — wall bracket at 72 in minimum, ceiling pole at 96 in minimum, and flush recess in a soffit, with the Low-Clearance kit's 7.1 in cavity marked.</div>
+<div class="diagram">Diagram: the three mounting positions in section – wall bracket at 72 in minimum, ceiling pole at 96 in minimum, and flush recess in a soffit, with the Low-Clearance kit's 7.1 in cavity marked.</div>
 
 ## Does the Low-Clearance Recess Kit fit the 4500 W?
 
-The current product page says yes: it lists all three outputs, in both Platinum and Platinum Marine, in black or white.[^s3] The 2023 version of this post said 2300 and 3400 W only.[^s6] [[VERIFY: Low-Clearance Recess Kit compatibility with 4500 W (product page says yes; 2023 post said no) — Mike Clifford]]
+The current product page says yes: it lists all three outputs, in both Platinum and Platinum Marine, in black or white.[^s3] The 2023 version of this post said 2300 and 3400 W only.[^s6] [[VERIFY: Low-Clearance Recess Kit compatibility with 4500 W (product page says yes; 2023 post said no) — Product team]]
 
 What the kit changes:
 

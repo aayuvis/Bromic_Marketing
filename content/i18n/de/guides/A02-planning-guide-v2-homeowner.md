@@ -14,7 +14,7 @@ meta_description: "Die Terrassenheizung in neun Schritten planen: messen, Energi
 cta: {label: "Planungsgespräch vereinbaren", asset: A07}
 hero: l-010-071
 images: [l-007-035, l-019-163, l-013-102, t-009-025, l-010-067]
-owner_review: Mike Clifford + 454 Creative
+owner_review: Produktteam + 454 Creative
 status: draft
 gated: true
 related: [RES-IN-01, RES-CO-01, BLD-IN-01]
@@ -23,7 +23,7 @@ version: "2.0 draft, revision 2 (replaces Planning Guide US v1.2, 10/2021)"
 lang: de
 translation_of: A02-homeowner
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating / Atomik Research
@@ -262,7 +262,7 @@ Quelle: Bromic Planungsleitfaden 2021[^s3]. Eine Feuerstelle ist ein Blickfang, 
 - **Erdgas:** Kosten pro Stunde = Nennwärmebelastung in kW × Preis je kWh Gas
 - **Flüssiggas:** Kosten pro Stunde = Nennwärmebelastung in kW ÷ ca. 7,1 kWh je Liter[^s23] × Preis je Liter
 
-Setzen Sie Ihre eigenen Preise aus Ihrer Strom- bzw. Gasrechnung ein. Zum Vergleich die Werte, mit denen die US-Ausgabe rechnet (US-Durchschnitte): Strom 13,54 US-Cent/kWh (EIA, Gewerbe, Mai 2026)[^s18]; Erdgas 0,87 US-$ je Therm, das sind ca. 29,3 kWh (EIA, Gewerbe, Durchschnitt Januar–Mai 2026)[^s19]; Propan 2,674 US-$ je US-Gallone (3,785 L) (EIA, Privathaushalte, Woche vom 30. März 2026)[^s20]. [[VERIFY: Tarife für Privathaushalte 2026, die neben den Gewerbetarifen veröffentlicht werden sollen — Brian Kim/Finance]]
+Setzen Sie Ihre eigenen Preise aus Ihrer Strom- bzw. Gasrechnung ein. Zum Vergleich die Werte, mit denen die US-Ausgabe rechnet (US-Durchschnitte): Strom 13,54 US-Cent/kWh (EIA, Gewerbe, Mai 2026)[^s18]; Erdgas 0,87 US-$ je Therm, das sind ca. 29,3 kWh (EIA, Gewerbe, Durchschnitt Januar–Mai 2026)[^s19]; Propan 2,674 US-$ je US-Gallone (3,785 L) (EIA, Privathaushalte, Woche vom 30. März 2026)[^s20]. [[VERIFY: Tarife für Privathaushalte 2026, die neben den Gewerbetarifen veröffentlicht werden sollen — Finanzen]]
 
 | Heizstrahler bei voller Leistung | Energie pro Stunde | Kosten pro Stunde (US-Beispiel) |
 |---|---|---|
@@ -314,7 +314,7 @@ Benötigte Heizstrahler = Fläche ÷ (Heizfläche je Heizstrahler × Überdachun
 | Teilweise überdacht (Pergola, Schirm, Teildach) | 1,0 | Kühl (ca. 4–10 °C) | 0,85 |
 | Überdacht (festes Dach) | 1,1 | Kalt (oft unter ca. 4 °C) | 0,7 |
 
-[[VERIFY: Überdachungs- und Klimafaktoren — Mike Clifford]] Unsicher? Nehmen Sie teilweise überdacht und kühl: 1,0 × 0,85 = 0,85. Messen Sie die Sitzplätze, nicht die ganze Terrasse; kennen Sie die Zahl der Plätze statt der Fläche, rechnen Sie mit ca. 1,9 m² je Platz.
+[[VERIFY: Überdachungs- und Klimafaktoren — Produktteam]] Unsicher? Nehmen Sie teilweise überdacht und kühl: 1,0 × 0,85 = 0,85. Messen Sie die Sitzplätze, nicht die ganze Terrasse; kennen Sie die Zahl der Plätze statt der Fläche, rechnen Sie mit ca. 1,9 m² je Platz.
 
 **Freistehende Heizstrahler** (Tungsten Freestanding Gas, Eclipse Freestanding) versorgen höchstens vier Plätze je Gerät, weil die Gäste selbst die Strahlungswärme abschirmen. Rechnen Sie auf beide Arten und nehmen Sie den größeren Wert: Fläche ÷ (Heizfläche × Faktoren) oder Plätze ÷ 4.
 
@@ -329,7 +329,7 @@ Benötigte Heizstrahler = Fläche ÷ (Heizfläche je Heizstrahler × Überdachun
 | Tungsten Freestanding Gas, ca. 11,1 kW | 20 m²[^s2] |
 | Tungsten Electric Coastal und Select (demnächst erhältlich) | 6–13 m² je nach Modell[^s2] |
 
-Die Heizfläche ist ein Näherungswert und hängt von Montagehöhe, Wind und Installation ab[^s2]. Werte von den Produktseiten, gelesen am 29. Oktober 2026. [[VERIFY: Heizfläche und Leistung je Modell mit den Datenblättern 2026 abgleichen; Eclipse 2900 W (Spezifikationstabelle) gegenüber 3000 W (FAQ); Tungsten Freestanding Gas ca. 11,1 kW (Lookbook) gegenüber ca. 11,3 kW (Website) — Mike Clifford]]
+Die Heizfläche ist ein Näherungswert und hängt von Montagehöhe, Wind und Installation ab[^s2]. Werte von den Produktseiten, gelesen am 29. Oktober 2026. [[VERIFY: Heizfläche und Leistung je Modell mit den Datenblättern 2026 abgleichen; Eclipse 2900 W (Spezifikationstabelle) gegenüber 3000 W (FAQ); Tungsten Freestanding Gas ca. 11,1 kW (Lookbook) gegenüber ca. 11,3 kW (Website) — Produktteam]]
 
 Der kostenlose [Rechner „Wie viele Heizstrahler?“](asset:A03) erledigt das für Sie, mit denselben Überdachungs- und Klimafaktoren.
 
@@ -359,7 +359,7 @@ Elektro-Heizstrahler werden fest angeschlossen. Ihr Elektrofachbetrieb bemisst j
 | Cobalt Electric 4000 / 6000 W[^s9] | 17,4 / 26,1 |
 | Tungsten Electric 2000 / 3000 / 4000 / 6000 W | 8,7 / 13,0 / 17,4 / 26,1 |
 
-Die Werte sind als Watt ÷ 230 V berechnet; die US-Produktseiten nennen die Stromaufnahme bei 208 und 240 V. [[VERIFY: Stromaufnahme je Tungsten Electric Modell und Nennspannung der in Deutschland gelieferten Modelle — Mike Clifford]]
+Die Werte sind als Watt ÷ 230 V berechnet; die US-Produktseiten nennen die Stromaufnahme bei 208 und 240 V. [[VERIFY: Stromaufnahme je Tungsten Electric Modell und Nennspannung der in Deutschland gelieferten Modelle — Produktteam]]
 
 Fest installierte Gasheizstrahler brauchen eine Gasleitung vom Gasinstallateur und einen Stromanschluss; die US-Produktseiten nennen 110 V, 2 A[^s10][^s11]. Der Tungsten Freestanding Gas läuft laut US-Produktseite mit einer Propanflasche von ca. 9 kg (20 lb) oder mit Erdgas über eine Schnellanschlussleitung von ca. 3 m[^s12]; in Deutschland sind 5-kg- und 11-kg-Flaschen üblich.
 
@@ -380,9 +380,9 @@ Ein Heizstrahler ohne Steuerung ist kein fertiges System. Jede Planung braucht a
 | Manueller Wandschalter | Ein/aus an der Tür | US-Ausführung: 20 A, 120–277 V[^s16] |
 | Bromic Smart-Heat App | Zonen, Zeitpläne, Timer | Funktioniert über ein kompatibles Affinity Steuergerät |
 
-**Heizstrahler je 6-kW-Kanal:** Tungsten 2000 W: 3 · 3000 W: 2 · 4000 oder 6000 W: 1 · Platinum 2300 W: 2 · 3400 oder 4500 W: 1 · Cobalt: 1 · Eclipse: 1 (an einem Eclipse Steuergerät). Rechnung auf Basis der 6 kW; der Stromkreis kann eine niedrigere Grenze setzen. [[VERIFY: Kapazitäten und Kompatibilität der Steuergeräte — Mike Clifford]]
+**Heizstrahler je 6-kW-Kanal:** Tungsten 2000 W: 3 · 3000 W: 2 · 4000 oder 6000 W: 1 · Platinum 2300 W: 2 · 3400 oder 4500 W: 1 · Cobalt: 1 · Eclipse: 1 (an einem Eclipse Steuergerät). Rechnung auf Basis der 6 kW; der Stromkreis kann eine niedrigere Grenze setzen. [[VERIFY: Kapazitäten und Kompatibilität der Steuergeräte — Produktteam]]
 
-Der Eclipse Freestanding wird mit Eclipse Dimmer-Steuergerät und Fernbedienung geliefert[^s8]. Fest installiertes Gas schaltet nur ein und aus; es lässt sich nicht dimmen[^s10]. [[VERIFY: welche Steuerung der Tungsten Freestanding Gas verwendet — Mike Clifford]]
+Der Eclipse Freestanding wird mit Eclipse Dimmer-Steuergerät und Fernbedienung geliefert[^s8]. Fest installiertes Gas schaltet nur ein und aus; es lässt sich nicht dimmen[^s10]. [[VERIFY: welche Steuerung der Tungsten Freestanding Gas verwendet — Produktteam]]
 
 WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Steuerungen, die separat erhältlich sind. Die App funktioniert auch mit Amazon Alexa, Google Assistant, Control4, Crestron und Lutron; die Kompatibilität ist unterschiedlich und kann zusätzliche Hardware oder Einrichtung erfordern[^s2].
 
@@ -403,7 +403,7 @@ WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Steuerungen, d
 | Eclipse Freestanding | ca. 2,0 m Freiraum[^s8] |
 | Platinum Gas und Tungsten Gas fest installiert | 2,44 m[^s10][^s11] |
 
-Abstände zur Decke und zu allem Brennbaren legt die Installationsanleitung des jeweiligen Modells fest. Ein Hitzeschild verringert den Raum, den ein Gasheizstrahler über sich braucht[^s3]. In Deutschland werden Elektro-Heizstrahler nach DIN VDE 0100 und Gasheizstrahler nach DVGW-TRGI (Erdgas) bzw. TRF (Flüssiggas) installiert. In den USA gelten dafür ANSI/NFPA 70[^s21] und ANSI Z223.1/NFPA 54[^s22]. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Freien — Raffaele Marti]]
+Abstände zur Decke und zu allem Brennbaren legt die Installationsanleitung des jeweiligen Modells fest. Ein Hitzeschild verringert den Raum, den ein Gasheizstrahler über sich braucht[^s3]. In Deutschland werden Elektro-Heizstrahler nach DIN VDE 0100 und Gasheizstrahler nach DVGW-TRGI (Erdgas) bzw. TRF (Flüssiggas) installiert. In den USA gelten dafür ANSI/NFPA 70[^s21] und ANSI Z223.1/NFPA 54[^s22]. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Freien — Partner Deutschland]]
 
 *Dies ist eine allgemeine Hilfe, keine Auslegung von Vorschriften. Klären Sie die Anforderungen mit Ihrem örtlichen Bauamt und lassen Sie Heizstrahler von einem Elektrofachbetrieb oder Gasinstallateur nach den Anweisungen des Herstellers installieren.*
 
@@ -420,7 +420,7 @@ Abstände zur Decke und zu allem Brennbaren legt die Installationsanleitung des 
 | Tungsten Freestanding Gas | 1 Jahr (Propanmodell)[^s12] |
 | Affinity Smart-Heat Steuerungen | 1 Jahr[^s13] |
 
-[[VERIFY: Garantiebedingungen je Modell, einschließlich des Erdgasmodells des Tungsten Freestanding Gas; Bedingungen in Deutschland — Mike Clifford]]
+[[VERIFY: Garantiebedingungen je Modell, einschließlich des Erdgasmodells des Tungsten Freestanding Gas; Bedingungen in Deutschland — Produktteam]]
 
 - [ ] Montagehöhen erfüllen die Mindestwerte
 - [ ] Abstände aus der jeweiligen Installationsanleitung
@@ -432,7 +432,7 @@ Abstände zur Decke und zu allem Brennbaren legt die Installationsanleitung des 
 
 Bromics Planungsspezialisten prüfen Ihre Fotos, Pläne oder Zeichnungen und empfehlen Heizstrahler, Platzierung und Steuerung, mit Plänen der beheizten Flächen, kostenlos[^s2].
 
-Ein vollständiges Angebot hat fünf Positionen: Heizstrahler und Montagesets; Steuerung; Installation; Genehmigungen; Betriebskosten. Die US-Listenpreise auf bromic.com (29. Oktober 2026) beginnen bei 798 US-$ für einen Tungsten Electric Heizstrahler und 370 US-$ für ein Affinity On/Off-Steuergerät[^s4][^s13]; Preise für Deutschland erhalten Sie über [bromic.de](https://www.bromic.de/). [[VERIFY: zu veröffentlichende Listenpreise — Mike Clifford]]
+Ein vollständiges Angebot hat fünf Positionen: Heizstrahler und Montagesets; Steuerung; Installation; Genehmigungen; Betriebskosten. Die US-Listenpreise auf bromic.com (29. Oktober 2026) beginnen bei 798 US-$ für einen Tungsten Electric Heizstrahler und 370 US-$ für ein Affinity On/Off-Steuergerät[^s4][^s13]; Preise für Deutschland erhalten Sie über [bromic.de](https://www.bromic.de/). [[VERIFY: zu veröffentlichende Listenpreise — Produktteam]]
 
 - [ ] Checklisten aus den Schritten 1–8 ausgefüllt
 - [ ] Fotos oder Pläne bereit

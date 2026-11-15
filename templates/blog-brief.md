@@ -48,8 +48,8 @@ ai_prompt: "The question as someone would ask an AI assistant"
 meta_description: "<=155 chars"
 cta: {label: "...", asset: A07}   # exactly one, the next-stage asset for the cell (data/journey-matrix.json)
 hero: w-...                       # image id from images/library/manifest.json
-owner_review: Megan Spies         # editorial; Brian Kim for SEO-led posts
-technical_reviewer: Mike Clifford # product/engineering check (AEO template)
+owner_review: Marketing         # editorial; Digital marketing for SEO-led posts
+technical_reviewer: Product team # product/engineering check (AEO template)
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -64,9 +64,9 @@ sources: [...]                    # every number and every bromic.com page used;
 Controls named whenever a heater is recommended, never "optional"; Tungsten Coastal and Select "(coming soon)"; never the retired
 "300/500 series" numbers (name gas heaters by size or output); no Tungsten gas BTU; no exclamation marks, no emoji; code or
 permit content carries the local-authority and licensed electrician/gas fitter line with a primary source; competitors only with
-`needs_approval: Shaughn Ritchie`. **Podcast and interview posts:** never put words in a guest's mouth. Paraphrase what the live
+`needs_approval: Specification and compliance`. **Podcast and interview posts:** never put words in a guest's mouth. Paraphrase what the live
 post says they said; a direct quote only if WebFetch returned it word for word, and then add `[[VERIFY: quote wording against
-the episode — Megan Spies]]`. Unverified testimonials are not used.
+the episode — Marketing]]`. Unverified testimonials are not used.
 
 Write ONLY your assigned files in content/blog/ (file name `<id>-<slug-shortened-to-60-chars>.md`) and your open-questions log
 reviews/open-questions/blog-<batch>.md (| item id | question | suggested owner |). Do not run git.

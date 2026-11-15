@@ -248,7 +248,8 @@ for (const it of items) {
 
 let commit = ''; try { commit = (await import('node:child_process')).execSync('git rev-parse --short HEAD', { cwd: ROOT }).toString().trim(); } catch {}
 const repo = { owner: 'aayuvis', name: 'Bromic_Marketing', branch: process.env.HUB_BRANCH || 'claude/dreamy-euler-xxi5g7' };
-const HUB = { built: new Date().toISOString(), commit, repo, regions, langsAvailable: Object.fromEntries(Object.entries(tr).map(([l, m]) => [l, Object.keys(m).length])), matrix, assets, facts, images, usage, tools, site, cs, blogPlan, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
+const roles = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'team-roles.json'), 'utf8'));
+const HUB = { built: new Date().toISOString(), commit, repo, regions, roles, langsAvailable: Object.fromEntries(Object.entries(tr).map(([l, m]) => [l, Object.keys(m).length])), matrix, assets, facts, images, usage, tools, site, cs, blogPlan, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
 
 console.log(`items ${items.length} · tools ${tools.length} · images ${images.length} · site pages ${site.length} · errors ${errors.length} · warnings ${warn.length}`);
 warn.forEach((w) => console.log('  warn  ' + w));
@@ -259,6 +260,7 @@ if (CHECK) process.exit(errors.length ? 1 : 0);
 fs.rmSync(DIST, { recursive: true, force: true });
 fs.mkdirSync(DIST, { recursive: true });
 for (const f of ['index.html', 'styles.css', 'app.js', 'editor.js']) fs.copyFileSync(path.join(APP, 'src', f), path.join(DIST, f));
+fs.cpSync(path.join(APP, 'src', 'fonts'), path.join(DIST, 'fonts'), { recursive: true });
 fs.mkdirSync(path.join(DIST, 'vendor'), { recursive: true });
 fs.copyFileSync(path.join(APP, 'node_modules', 'marked', 'marked.min.js'), path.join(DIST, 'vendor', 'marked.min.js'));  // the editor's preview
 // cache-busting: a new deploy always loads its own script, data and styles (GitHub Pages lets browsers cache for 10 minutes)

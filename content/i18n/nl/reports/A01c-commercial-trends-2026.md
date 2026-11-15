@@ -14,7 +14,7 @@ meta_description: "Tien onderbouwde trends voor 2026 voor terrassen van restaura
 cta: {label: "Vraag uw ROI-analyse aan", asset: A21}
 hero: l-016-131
 images: [l-013-111, p-003-006, g-operator, p-007-030, p-002-001, p-014-066, t-006-016, p-010-044, t-003-005, l-013-107]
-owner_review: Blake Petty
+owner_review: verkoop horeca
 status: draft
 gated: true
 related: [COM-AW-01, COM-CO-01, COM-IN-01]
@@ -270,12 +270,12 @@ Buitenplaatsen zijn geen zomerbonus meer. In 2026 horen ze bij hoe een restauran
 > Nieuwe gebouwen in New York City mogen geen brandstof verbranden die **25 kg CO2 of meer per miljoen Btu** uitstoot; de wet geldt alleen voor nieuwbouw, wordt ingevoerd te beginnen bij laagbouw en kent uitzonderingen, onder meer voor bedrijfskeukens.[^s10]
 > *Bron: NYC Department of Buildings, Local Law 154 of 2021. (Btu is de Amerikaanse wettelijke eenheid; een miljoen Btu is ongeveer 293 kWh.)*
 
-> De All-Electric Buildings Act van de staat New York volgt voor nieuwbouw in de hele staat, te beginnen bij gebouwen van zeven verdiepingen of minder.[^s11] [[VERIFY: huidige ingangsdata en status van de NY State All-Electric Buildings Act na de rechtszaken, uit de wettekst of dos.ny.gov — Blake Petty]]
+> De All-Electric Buildings Act van de staat New York volgt voor nieuwbouw in de hele staat, te beginnen bij gebouwen van zeven verdiepingen of minder.[^s11] [[VERIFY: huidige ingangsdata en status van de NY State All-Electric Buildings Act na de rechtszaken, uit de wettekst of dos.ny.gov — verkoop horeca]]
 
 **Wat het betekent voor een ondernemer**
 - Nieuwe hotels, gemengde projecten en appartementengebouwen worden zonder gas ontworpen.
 - Een uitzondering voor de keuken geldt niet vanzelf voor het terras.
-- Of een wet ook terrasverwarmers raakt, is een lokale vraag; stel die voordat u voorschrijft. [[VERIFY: of LL154 van toepassing is op gasterrasverwarmers bij nieuwbouw — Blake Petty]]
+- Of een wet ook terrasverwarmers raakt, is een lokale vraag; stel die voordat u voorschrijft. [[VERIFY: of LL154 van toepassing is op gasterrasverwarmers bij nieuwbouw — verkoop horeca]]
 
 **Inzicht van Bromic.** Wie elektrische buitenverwarming al in de ontwerpfase voorschrijft, houdt het terras in lijn met een volledig elektrisch gebouw, zonder gasleiding naar het dak. [[VERIFY: of en hoe de Nederlandse regels voor gasloze nieuwbouw gasterrasverwarming raken — Bromic Benelux distributor]]
 
@@ -376,4 +376,4 @@ Ontdek wat uw lege plaatsen waard zijn: vraag uw ROI-analyse aan.
   - `p-`-afbeeldingen tonen het assortiment van 2021: alleen gebruiken als algemene horecascènes, nooit met een productnaam als onderschrift.
 - **Pagina 13:** belangrijkste punten en de disclaimer over regelgeving, volledig gezet.
 - **Pagina 14:** bronnen (voetnoten s1–s15) en één CTA: "Vraag uw ROI-analyse aan", met een link naar A21.
-- **Vóór de opmaak:** beide [[VERIFY]]-punten in trend 07 oplossen, evenals de Nederlandse [[VERIFY]]-punten; Blake Petty en een Nederlandse reviewer tekenen af; de projectregels zijn samenvattingen van pagina's op bromic.com en moeten worden gecontroleerd aan de live pagina's.
+- **Vóór de opmaak:** beide [[VERIFY]]-punten in trend 07 oplossen, evenals de Nederlandse [[VERIFY]]-punten; verkoop horeca en een Nederlandse reviewer tekenen af; de projectregels zijn samenvattingen van pagina's op bromic.com en moeten worden gecontroleerd aan de live pagina's.

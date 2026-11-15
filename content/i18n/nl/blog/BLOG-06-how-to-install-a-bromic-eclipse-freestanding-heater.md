@@ -19,8 +19,8 @@ meta_description: "Zet een Bromic Eclipse Freestanding-verwarmer in elkaar: voet
 cta: {label: "Download de installatiegids voor de Smart-Heat-bediening", asset: A09}
 hero: w-bromiceclipseheater-scottsdalehome-2
 images: [w-bromic-eclipse-portable-hotel-skansen-06-v02]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -73,7 +73,7 @@ sources:
 
 Een Eclipse Freestanding-verwarmer zet je met twee personen en handgereedschap in elkaar: zet de voet neer waar hij komt te staan, leg de tien gewichten van elk 10 kg erin, bout de armen en de verwarmingskop vast, stel de kop waterpas en sluit hem aan op het stroomnet. De Amerikaanse uitvoering heeft een stekker voor een contactdoos van 220–240 V, 20 A[^s1]. Een erkende installateur legt die aansluiting aan. Daarna stel je met de meegeleverde Eclipse Dimmer Controller en de afstandsbediening warmte en licht in, en voegt de Bromic-app schema's toe.
 
-[[VERIFY: stekkertype, aansluitwaarde en handleiding van de Europese uitvoering van Eclipse Freestanding — Mike Clifford]]
+[[VERIFY: stekkertype, aansluitwaarde en handleiding van de Europese uitvoering van Eclipse Freestanding — productteam]]
 
 *Volg de [installatiehandleiding](https://pim.bromic.com/wp-content/uploads/2021/07/Bromic-Eclipse-Electric-Portable-Instruction-Manual-US.pdf) (Engelstalig, Amerikaanse uitvoering), die het Freestanding-model behandelt onder de vroegere naam Eclipse Portable[^s4]. De contactdoos en de groep moeten worden aangelegd door een erkende installateur volgens NEN 1010; in de VS geldt hiervoor [NFPA 70](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70)[^s6]. Stem de eisen af met je gemeente.*
 
@@ -86,11 +86,11 @@ Een Eclipse Freestanding-verwarmer zet je met twee personen en handgereedschap i
 | Voeding | In de VS een contactdoos van 220–240 V, 20 A voor de NEMA 6-20P-stekker van de verwarmer[^s1]; in Nederland een aansluiting op 230 V volgens NEN 1010 |
 | Stroom | 11,4 A bij 220 V, 11,8 A bij 230 V, 12,1 A bij 240 V[^s2] |
 | Ondergrond | Vlak en waterpas; bout de voet vast op winderige plekken[^s1] |
-| Hoogte | De productpagina noemt een minimale vrije hoogte boven de vloer van ca. 2,0 m[^s2] [[VERIFY: waar de 2,0 m (79 inch) op slaat — Mike Clifford]] |
+| Hoogte | De productpagina noemt een minimale vrije hoogte boven de vloer van ca. 2,0 m[^s2] [[VERIFY: waar de 2,0 m (79 inch) op slaat — productteam]] |
 | Afstanden | De afstanden opzij en naar boven staan in de handleiding[^s2][^s4] |
 | Weer | Waterbestendig, niet waterdicht: laat hem niet buiten staan in weer en wind[^s2] |
 
-Bij 230 V trekt de verwarmer 11,8 A. Laat een erkende installateur bepalen of een eigen groep nodig is, een weerbestendige buitencontactdoos plaatsen bij de plek waar de verwarmer komt te staan, en de aardlekbeveiliging controleren ([heeft een buitenverwarmer een aardlekschakelaar nodig?](item:BLD-BY-KB1)). De productpagina noemt geen uitvoering voor 208 V [[VERIFY: werking op 208 V — Mike Clifford]].
+Bij 230 V trekt de verwarmer 11,8 A. Laat een erkende installateur bepalen of een eigen groep nodig is, een weerbestendige buitencontactdoos plaatsen bij de plek waar de verwarmer komt te staan, en de aardlekbeveiliging controleren ([heeft een buitenverwarmer een aardlekschakelaar nodig?](item:BLD-BY-KB1)). De productpagina noemt geen uitvoering voor 208 V [[VERIFY: werking op 208 V — productteam]].
 
 ## Wat heb ik nodig om hem in elkaar te zetten?
 
@@ -133,8 +133,8 @@ Bij 230 V trekt de verwarmer 11,8 A. Laat een erkende installateur bepalen of ee
 Steek de stekker in het stopcontact en zet de contactdoos aan. De voet piept zachtjes en het licht knippert ongeveer een seconde; de verwarmer blijft uit tot je een stand kiest[^s1]. Daarna:
 
 - **Eclipse Dimmer Controller en afstandsbediening (meegeleverd)**: stel de warmte in op 33, 66 of 100% vermogen en dim het licht, met voorinstellingen die je kunt aanpassen[^s1][^s2].
-- **Bromic Smart-Heat app**: schema's, timers en zones. Wifi- en app-functies vragen om compatibele Affinity Smart-Heat Controls, apart verkrijgbaar[^s3]. De productpagina noemt de Freestanding geschikt voor de app[^s2] [[VERIFY: of de meegeleverde regelaar met de app verbindt, of dat een Affinity Eclipse-regelaar nodig is — Mike Clifford]].
-- **Affinity Smart-Heat Eclipse-regelaar**: stuurt één Eclipse-verwarmer per kanaal aan, voor wie meerdere verwarmers wil groeperen[^s5] [[VERIFY: compatibiliteit met de Freestanding met stekker — Mike Clifford]].
+- **Bromic Smart-Heat app**: schema's, timers en zones. Wifi- en app-functies vragen om compatibele Affinity Smart-Heat Controls, apart verkrijgbaar[^s3]. De productpagina noemt de Freestanding geschikt voor de app[^s2] [[VERIFY: of de meegeleverde regelaar met de app verbindt, of dat een Affinity Eclipse-regelaar nodig is — productteam]].
+- **Affinity Smart-Heat Eclipse-regelaar**: stuurt één Eclipse-verwarmer per kanaal aan, voor wie meerdere verwarmers wil groeperen[^s5] [[VERIFY: compatibiliteit met de Freestanding met stekker — productteam]].
 
 De [installatiegids voor de Smart-Heat-bediening](item:RES-BY-01) loopt koppelen, zones en schema's met je door.
 

@@ -2,7 +2,7 @@
    A reviewer rewrites any block of a page (as Markdown), retitles it, rewrites its summary, or switches its hero or any
    inline image for one from the library. Changes are kept in this browser until saved, then either
    (a) committed straight to the content file on GitHub with the reviewer's own token (kept only in this browser), or
-   (b) sent as a GitHub issue that Claude applies at the start of the next session (CLAUDE.md "Feedback loop").
+   (b) sent as a GitHub issue that the content team applies (project notes, "Feedback loop").
    Every block maps to exact offsets in the file (it.blocks, built by scripts/build.mjs), so a save rewrites only what changed. */
 (() => {
   'use strict';
@@ -106,7 +106,7 @@
     if (editing !== it.id && !n && !s) { el.hidden = true; document.body.classList.remove('ed-on'); return; }
     el.hidden = false; document.body.classList.add('ed-on');
     el.innerHTML = `<div class="ed-bar-in">
-      <span class="ed-state">${editing === it.id ? '<b>Editing</b>' : ''}${n ? ` ${n} unsaved ${n === 1 ? 'change' : 'changes'}` : editing === it.id ? ' Click any block, the title or summary, or Switch image' : ''}${s ? ` <span class="ed-saved">Saved ${esc(s.how === 'issue' ? 'to Claude' : 'to GitHub')}${s.sha ? ' · ' + esc(s.sha.slice(0, 7)) : ''}: live after the next build</span>` : ''}</span>
+      <span class="ed-state">${editing === it.id ? '<b>Editing</b>' : ''}${n ? ` ${n} unsaved ${n === 1 ? 'change' : 'changes'}` : editing === it.id ? ' Click any block, the title or summary, or Switch image' : ''}${s ? ` <span class="ed-saved">Saved ${esc(s.how === 'issue' ? 'to the content team' : 'to GitHub')}${s.sha ? ' · ' + esc(s.sha.slice(0, 7)) : ''}: live after the next build</span>` : ''}</span>
       <span class="ed-actions">
         ${n ? '<button type="button" class="btn" data-ed-review>Review</button><button type="button" class="btn" data-ed-discard>Discard</button><button type="button" class="btn primary" data-ed-save>Save</button>' : ''}
         <button type="button" class="btn" data-ed-toggle>${editing === it.id ? 'Stop editing' : 'Edit'}</button>
@@ -238,9 +238,9 @@
             <p class="muted" style="font-size:12.5px;margin:6px 0">Create a <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">fine-grained token</a>: repository access <b>only ${esc(C.H.repo.owner)}/${esc(C.H.repo.name)}</b>, permission <b>Contents: Read and write</b>. It stays in this browser and is sent only to GitHub.</p>
             <label style="font-size:13px"><input type="checkbox" id="ed-remember" checked> Remember on this device</label>`}
           <button type="button" class="btn primary" data-ed-commit style="margin-top:10px">Save to GitHub</button></div>
-        <div class="ed-path"><h4>Or send it to Claude</h4>
-          <p>Opens a GitHub issue holding the exact change. Claude applies it, checks it against the content rules, and closes the issue. Needs only a GitHub account.</p>
-          <button type="button" class="btn" data-ed-issue>Send to Claude</button></div>
+        <div class="ed-path"><h4>Or send it to the content team</h4>
+          <p>Opens a GitHub issue holding the exact change. The content team applies it, checks it against the content rules and closes the issue. Needs only a GitHub account.</p>
+          <button type="button" class="btn" data-ed-issue>Send to the content team</button></div>
       </div>`}
       <p class="ed-msg" id="ed-msg" role="status"></p>`);
   }
@@ -283,13 +283,13 @@
       const who = document.getElementById('ed-who')?.value.trim() || ''; store(WHO, who);
       issue(it, who);
       saved[K(it)] = { at: new Date().toISOString(), how: 'issue', edits: edits[K(it)] }; store(SAVED, saved);
-      delete edits[K(it)]; persist(); close(); editing = ''; C.rerender(); C.toast('Sent to Claude as a GitHub issue'); return;
+      delete edits[K(it)]; persist(); close(); editing = ''; C.rerender(); C.toast('Sent to the content team as a GitHub issue'); return;
     }
     if (q('data-ed-commit')) {
       const who = document.getElementById('ed-who')?.value.trim() || ''; store(WHO, who);
       let tok = load(TOK, null);
       const inp = document.getElementById('ed-tok');
-      if (!tok && inp) { tok = inp.value.trim(); if (!tok) { document.getElementById('ed-msg').textContent = 'Paste a token first, or send the change to Claude.'; return; }
+      if (!tok && inp) { tok = inp.value.trim(); if (!tok) { document.getElementById('ed-msg').textContent = 'Paste a token first, or send the change to the content team.'; return; }
         if (document.getElementById('ed-remember')?.checked) localStorage.setItem(TOK, JSON.stringify(tok)); else sessionStorage.setItem(TOK, JSON.stringify(tok)); }
       const msg = document.getElementById('ed-msg'); msg.textContent = 'Saving to GitHub…';
       t.closest('button').disabled = true;

@@ -13,7 +13,7 @@ ai_prompt: "Funktionieren Infrarot-Heizstrahler bei Wind?"
 meta_description: "Ja, bei leichtem bis mäßigem Wind: Infrarot wärmt Menschen, nicht die Luft. Kurzwellige Heizstrahler sind am windfestesten, langwellige Wärme wird am leichtesten verweht."
 cta: {label: "Ihre Fläche berechnen", asset: A03}
 hero: l-019-161
-owner_review: Megan Spies
+owner_review: Marketing
 status: draft
 gated: false
 related: [RES-CO-01, RES-PP-01, RES-AW-01]
@@ -36,7 +36,7 @@ sources:
 lang: de
 translation_of: RES-CO-KB1
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 
 Ja – bei leichtem bis mäßigem Wind. Infrarot-Heizstrahler wärmen Menschen und Oberflächen direkt, so wie die Sonne, statt die Luft zu erwärmen. Weil Wind Luft bewegt, aber keine Strahlung, hält ein guter Strahlungsheizer Sie auch an einem windigen Abend warm, an dem die Wärme eines Konvektionsheizers einfach davongeweht würde.[^s1] Starker, anhaltender Wind entzieht der Haut trotzdem Wärme – deshalb kommt es auf die Planung des Bereichs an.

@@ -12,7 +12,7 @@ cta: {label: "Book a design consult", asset: A07}
 hero: l-016-134
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
 images: ["l-016-134"]
-owner_review: "Sean (West Canada) [[VERIFY: Canada lead]]"
+owner_review: "Canada sales [[VERIFY: Canada lead]]"
 status: draft
 source_kind: web-find
 origin: web-search

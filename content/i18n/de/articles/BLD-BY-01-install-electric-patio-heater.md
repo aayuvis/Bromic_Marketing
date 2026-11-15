@@ -14,7 +14,7 @@ meta_description: "Elektrische Terrassenheizstrahler beim ersten Mal richtig ins
 cta: {label: "Die Installationsleitfäden anfordern", asset: A17}
 hero: g-electrician
 images: [t-006-016]
-owner_review: Arvin Avaness
+owner_review: Fachhandelsvertrieb
 status: draft
 gated: false
 related: [BLD-IN-01, BLD-PP-01, BLD-BY-KB1]
@@ -22,7 +22,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLD-BY-01
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -49,7 +49,7 @@ sources:
 
 Ein elektrischer Terrassenheizstrahler wird in sechs Schritten installiert: prüfen, ob die Vorverkabelung zum Heizstrahler vor Ort passt; die Halterung an der Hinterfütterung in der Höhe und mit den Abständen laut Installationsanleitung befestigen; den elektrischen Anschluss im spannungsfreien Zustand herstellen; Heizstrahler und gegebenenfalls Einbaurahmen einsetzen; die Affinity-Steuerung koppeln und testen; dann in Betrieb nehmen und übergeben. Maßgeblich ist bei jedem Schritt die Anleitung des jeweiligen Modells. Dieser Artikel beschreibt den Ablauf und die Prüfungen, die Nacharbeiten vermeiden.
 
-*Halten Sie sich an die Installationsanleitung des Produkts. Elektroarbeiten muss ein eingetragener Elektrofachbetrieb nach DIN VDE 0100 ausführen; klären Sie die Anforderungen mit Ihrem Bauamt ab. [[VERIFY: current VDE and DVGW rules for outdoor heaters — Raffaele Marti]]*
+*Halten Sie sich an die Installationsanleitung des Produkts. Elektroarbeiten muss ein eingetragener Elektrofachbetrieb nach DIN VDE 0100 ausführen; klären Sie die Anforderungen mit Ihrem Bauamt ab. [[VERIFY: current VDE and DVGW rules for outdoor heaters — Partner Deutschland]]*
 
 ![Überdachte Außenküche mit Bar und bündig eingelassenen Deckenheizstrahlern](img:l-010-067)
 
@@ -61,11 +61,11 @@ Prüfen Sie die Vorverkabelung gegen den Heizstrahler, der tatsächlich geliefer
 |---|---|---|
 | Modell, Leistung, Spannung auf dem Typenschild | Spannung des Stromkreises an der Dose (230 V) | Anhalten. Ein Gerät für eine andere Nennspannung erreicht seine Nennleistung nicht |
 | Absicherung | Höchstwert auf dem Typenschild und Auslegung für Dauerlast nach DIN VDE 0100 | Vor dem Einschalten neu auslegen |
-| Prüfzeichen | Am Gerät; der US-Planungsleitfaden nennt Intertek, UL oder CSA[^s2] [[VERIFY: welche Prüf- und Konformitätszeichen in Deutschland erforderlich sind (z. B. CE) — Mike Clifford]] | Nicht installieren |
+| Prüfzeichen | Am Gerät; der US-Planungsleitfaden nennt Intertek, UL oder CSA[^s2] [[VERIFY: welche Prüf- und Konformitätszeichen in Deutschland erforderlich sind (z. B. CE) — Produktteam]] | Nicht installieren |
 | Lage von Dose und Hinterfütterung | Position der Halterung laut Anleitung | Die Halterung versetzen, nicht die Regel |
 | Montagehöhe | Anleitung; mindestens 1,83 m an der Wand, 2,44 m an der Decke[^s2] | Bei hohen Decken eine Abhängestange verwenden[^s2] |
-| Abstände | Abstandstabelle der Anleitung [[VERIFY: per model — Mike Clifford]] | Vor der Befestigung umplanen |
-| Einbauöffnung | Maße des Einbaurahmens [[VERIFY: per model — Mike Clifford]] | Öffnung neu rahmen, bevor der Heizstrahler kommt |
+| Abstände | Abstandstabelle der Anleitung [[VERIFY: per model — Produktteam]] | Vor der Befestigung umplanen |
+| Einbauöffnung | Maße des Einbaurahmens [[VERIFY: per model — Produktteam]] | Öffnung neu rahmen, bevor der Heizstrahler kommt |
 
 ## Wie wird der Heizstrahler montiert?
 
@@ -84,7 +84,7 @@ Die Reihenfolge ist bei Wand-, Decken- und Einbaumontage gleich; nur die Halteru
 Nach dem Anschlussplan der Installationsanleitung, durch einen eingetragenen Elektrofachbetrieb. Vor Ort:
 
 - Den eigenen Stromkreis mit witterungsbeständigen Verschraubungen zum Anschlusspunkt des Heizstrahlers führen.
-- Den Stromkreis so über das Affinity-Steuergerät führen, wie der Plan es zeigt [[VERIFY: Affinity controller wiring topology and terminal layout — Mike Clifford]].
+- Den Stromkreis so über das Affinity-Steuergerät führen, wie der Plan es zeigt [[VERIFY: Affinity controller wiring topology and terminal layout — Produktteam]].
 - Den manuellen Wandschalter dort setzen, wo der Plan ihn vorsieht.
 - Fehlerstromschutz (FI/RCD) vorsehen, wo DIN VDE 0100 oder der Netzbetreiber ihn verlangt. Zum Vergleich: In den USA verlangt der NEC 2023 ihn für Außensteckdosen an Wohngebäuden bis 150 V gegen Erde und bis 50 A[^s3]. Siehe [die Antwort zum FI-Schutz](item:BLD-BY-KB1).
 
@@ -99,7 +99,7 @@ Die Inbetriebnahme beweist, dass das System so funktioniert, wie es verkauft wur
 3. **App koppeln**, wenn der Kunde sie gekauft hat. Die Bromic Smart-Heat App steuert Zonen, Zeitpläne und Timer und setzt kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind[^s1]. Benennen Sie jede Zone so, wie die Familie spricht: „Essplatz“, „Lounge“.
 4. **Integrationen verbinden**, wenn verkauft: Amazon Alexa, Google Assistant, Control4, Crestron oder Lutron. Die Kompatibilität ist unterschiedlich und kann zusätzliche Hardware oder Konfiguration erfordern[^s1]. Stimmen Sie sich mit dem Medientechnik-Installateur ab.
 5. **Fehlerstromschutzschalter testen** mit ihrer Prüftaste, wo vorhanden.
-6. **Dokumentieren**: Modell, Seriennummer, Stromkreis, Absicherung, Steuergerät und App-Konto im Montagebericht [[VERIFY: warranty registration process — Mike Clifford]].
+6. **Dokumentieren**: Modell, Seriennummer, Stromkreis, Absicherung, Steuergerät und App-Konto im Montagebericht [[VERIFY: warranty registration process — Produktteam]].
 
 ## Was gehört zu einer guten Übergabe?
 
@@ -108,7 +108,7 @@ Fünf Minuten mit dem Hausbesitzer ersparen den Anruf „Wie schalte ich das ein
 - Wandschalter, Steuergerät und, falls vorhanden, die App zeigen.
 - Erklären, dass Wärme im Freien von Hand oder per Zeitplan gesteuert wird, nicht über einen Thermostat[^s2].
 - Auf die Abstandszone hinweisen: keine Hängepflanzen oder Dekorationen in der Nähe des Heizstrahlers.
-- Anleitung, Montagebericht und Pflegehinweise übergeben [[VERIFY: cleaning and care guidance per finish — Mike Clifford]].
+- Anleitung, Montagebericht und Pflegehinweise übergeben [[VERIFY: cleaning and care guidance per finish — Produktteam]].
 
 ## Planungs-Checkliste
 

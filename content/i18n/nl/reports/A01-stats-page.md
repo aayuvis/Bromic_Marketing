@@ -14,7 +14,7 @@ meta_description: "De belangrijkste Amerikaanse cijfers over buitenleven in 2026
 cta: {label: "Download het rapport Trends 2026", asset: A01}
 hero: t-001-000
 images: [t-005-013]
-owner_review: Megan Spies
+owner_review: marketing
 status: draft
 gated: false
 related: [A01-corrections, BLD-AW-01]
@@ -189,7 +189,7 @@ Elk cijfer op deze pagina komt uit een openbare Amerikaanse bron met naam: de NA
 
 Deze cijfers staan in het rapport Trends 2026, maar worden hier pas als feit gebracht wanneer ze zijn gecontroleerd. Ze staan hier zodat reviewers ze kunnen volgen.
 
-- **67%, 94% en 23%**: onderzoek van Atomik Research onder Amerikaanse huiseigenaren, in opdracht van Bromic Heating. De eigen persberichten van Bromic noemen voor dezelfde vraag in het ene 94% en in het andere 92%. [[VERIFY: datum van het onderzoek, aantal respondenten, vraagstelling, en 94% of 92% — Megan Spies]]
+- **67%, 94% en 23%**: onderzoek van Atomik Research onder Amerikaanse huiseigenaren, in opdracht van Bromic Heating. De eigen persberichten van Bromic noemen voor dezelfde vraag in het ene 94% en in het andere 92%. [[VERIFY: datum van het onderzoek, aantal respondenten, vraagstelling, en 94% of 92% — marketing]]
 - **39% "stijging in populariteit" van infrarood terrasverwarmers (AIA)**: in geen enkele publicatie van het AIA gevonden; het AIA publiceert nettoscores, geen stijgingen. Advies: schrappen.
 - **522 miljard dollar (Harvard JCHS)**: in geen enkele publicatie van Harvard gevonden; hierboven vervangen door het actuele LIRA-cijfer.
 

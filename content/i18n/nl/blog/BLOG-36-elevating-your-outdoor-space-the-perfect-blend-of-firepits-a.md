@@ -19,8 +19,8 @@ meta_description: "Vuurschaal of terrasverwarmer? Een vuur is een middelpunt; st
 cta: {label: "Download het rapport Outdoor Living Trends 2026", asset: A01}
 hero: w-black-tungsten-electric-mounted-chicago
 images: [w-bromic-centrico-photos-8, w-dsc01860-bearbeitet]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: marketing
+technical_reviewer: productteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false

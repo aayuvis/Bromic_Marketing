@@ -15,8 +15,8 @@ meta_description: "Ja. Strahlungsheizer wärmen Menschen, nicht die kalte Luft, 
 cta: {label: "Outdoor Living Trends 2026 herunterladen", asset: A01}
 hero: w-dsc05737-courtney-saib
 images: [w-tungsten-electric-wall-mount-canada]
-owner_review: Megan Spies
-technical_reviewer: Mike Clifford
+owner_review: Marketing
+technical_reviewer: Produktteam
 last_reviewed: 2026-10-29
 status: draft
 gated: false
@@ -25,7 +25,7 @@ updated: 2026-10-29
 lang: de
 translation_of: BLOG-17
 translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Raffaele Marti]]"
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -104,7 +104,7 @@ Die mit dem höchsten Strahlungsanteil. Kurzwellige Heizstrahler geben rund 90 %
 
 **4. Passend zum Standort wählen.** An der Küste ist Platinum Smart-Heat Electric Marine aus seewasserbeständigem Edelstahl 316 gebaut und nach IPX5 geschützt[^s6]. Für andere Modelle und nasses Wetter siehe den Beitrag zu Heizstrahlern im Regen auf [bromic.de](https://www.bromic.de/).
 
-**5. Vor der Kälte planen.** Nur 23 % der Hausbesitzer in den USA setzen die Beheizung im Freien bei der Planung eines Außenbereichs ganz oben auf die Liste[^s4]. [[VERIFY: Erhebungszeitraum, Stichprobe und Wortlaut der Frage — Megan Spies]] Leitungen, Gasanschlüsse und Einbausätze lassen sich am einfachsten einbauen, bevor die Decke geschlossen wird: von Anfang an geplant, nicht nachträglich ergänzt.
+**5. Vor der Kälte planen.** Nur 23 % der Hausbesitzer in den USA setzen die Beheizung im Freien bei der Planung eines Außenbereichs ganz oben auf die Liste[^s4]. [[VERIFY: Erhebungszeitraum, Stichprobe und Wortlaut der Frage — Marketing]] Leitungen, Gasanschlüsse und Einbausätze lassen sich am einfachsten einbauen, bevor die Decke geschlossen wird: von Anfang an geplant, nicht nachträglich ergänzt.
 
 ## Welche Bromic Heizstrahler, mit welcher Steuerung?
 
@@ -113,9 +113,9 @@ Die mit dem höchsten Strahlungsanteil. Kurzwellige Heizstrahler geben rund 90 %
 | Überdachte Terrasse oder Veranda | Platinum Smart-Heat Electric | 6–13 m²[^s5] | Affinity On/Off- oder Dimmer-Steuergerät, manueller Wandschalter |
 | Überdachte Terrasse, Pergola oder Deck | Tungsten Smart-Heat Electric | 6–15 m²[^s6] | Affinity On/Off- oder Dimmer-Steuergerät, manueller Wandschalter |
 | Terrasse, die Wärme und Licht braucht | Eclipse Smart-Heat Electric | 11 m²[^s5] | Affinity Eclipse-Steuergerät oder Eclipse Dimmer, manueller Wandschalter |
-| Offene Fläche, keine feste Installation | Tungsten Smart-Heat Freestanding Gas | 20 m², windbeständig[^s5] | [[VERIFY: Steuerungsmöglichkeiten — Mike Clifford]] |
+| Offene Fläche, keine feste Installation | Tungsten Smart-Heat Freestanding Gas | 20 m², windbeständig[^s5] | [[VERIFY: Steuerungsmöglichkeiten — Produktteam]] |
 
-Im Winter zählt die Steuerung mehr, nicht weniger. Mit dem Dimmer drehen Sie die Wärme hoch, wenn der Abend kühler wird, und Zeitpläne und Timer der Smart-Heat App sorgen dafür, dass der Bereich warm ist, wenn Sie hinaustreten[^s5]. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind. Ist ein im Freien montiertes Steuergerät geplant, prüfen Sie seine Einsatzgrenzen: Das Affinity On/Off-Steuergerät ist für −20 °C bis 30 °C angegeben[^s6]. [[VERIFY: Werte der Produktseiten, einschließlich Betriebsbereich des Steuergeräts, mit den Datenblättern 2026 abgleichen — Mike Clifford]]
+Im Winter zählt die Steuerung mehr, nicht weniger. Mit dem Dimmer drehen Sie die Wärme hoch, wenn der Abend kühler wird, und Zeitpläne und Timer der Smart-Heat App sorgen dafür, dass der Bereich warm ist, wenn Sie hinaustreten[^s5]. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind. Ist ein im Freien montiertes Steuergerät geplant, prüfen Sie seine Einsatzgrenzen: Das Affinity On/Off-Steuergerät ist für −20 °C bis 30 °C angegeben[^s6]. [[VERIFY: Werte der Produktseiten, einschließlich Betriebsbereich des Steuergeräts, mit den Datenblättern 2026 abgleichen — Produktteam]]
 
 Alle Heizstrahler und Ideen für Außenbereiche am Haus finden Sie auf [bromic.de](https://www.bromic.de/).
 

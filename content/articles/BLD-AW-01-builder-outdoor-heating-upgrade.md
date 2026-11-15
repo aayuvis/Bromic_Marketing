@@ -15,7 +15,7 @@ meta_description: "Patios top new-home wish lists. How builders turn a covered p
 cta: {label: "Get the builder program guide", asset: A15}
 hero: t-012-034
 images: [l-010-067]
-owner_review: Arvin Avaness
+owner_review: Trade sales
 status: draft
 gated: false
 related: [BLD-CO-01, BLD-IN-01, BLD-PP-01]
@@ -119,9 +119,9 @@ Radiant heat suits the job. It warms people and surfaces, not the air, so it kee
 
 ## Does an outdoor upgrade pay back at resale?
 
-Realtors rate outdoor work well. In the 2023 NAR and NALP Remodeling Impact Report, a new patio carried an estimated cost of $10,500 and a Joy Score of 9.9 out of 10[^s5]. The report's cost-recovery chart puts a new patio at an estimated 95% [[VERIFY: confirm the 95% new-patio cost recovery on the NAR report page — Megan Spies]][^s6]. Those are Realtor estimates for remodels, not new-build option pricing, so use them as direction, not as a pricing model.
+Realtors rate outdoor work well. In the 2023 NAR and NALP Remodeling Impact Report, a new patio carried an estimated cost of $10,500 and a Joy Score of 9.9 out of 10[^s5]. The report's cost-recovery chart puts a new patio at an estimated 95% [[VERIFY: confirm the 95% new-patio cost recovery on the NAR report page — Marketing]][^s6]. Those are Realtor estimates for remodels, not new-build option pricing, so use them as direction, not as a pricing model.
 
-On your own margins: we do not publish them. Option pricing, builder tiers and lead times come from the builder program [[VERIFY: builder price tiers and margin structure — Arvin Avaness]].
+On your own margins: we do not publish them. Option pricing, builder tiers and lead times come from the builder program [[VERIFY: builder price tiers and margin structure — Trade sales]].
 
 ## What does a heated patio package look like?
 

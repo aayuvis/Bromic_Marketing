@@ -12,7 +12,7 @@ cta: {label: "Book a design consult", asset: A07}
 hero: m-wonder-of-the-seas-1
 hero_caption: "Photograph from Bromic's marine presentation (2022)."
 images: ["m-wonder-of-the-seas-1", "m-wonder-of-the-seas-2"]
-owner_review: Josh Maingard
+owner_review: Marine team
 status: draft
 source_kind: web-find
 origin: web-search
@@ -53,7 +53,7 @@ sources:
 | Segment | Marine, cruise ship |
 | Products | Platinum Smart-Heat Electric Marine |
 | Quantity | More than 100 (trade press) |
-| Controls | [[VERIFY: controls and zoning on board — Josh Maingard]] |
+| Controls | [[VERIFY: controls and zoning on board — Marine team]] |
 | Spaces | Restaurants, bars, pool decks and balconies (trade press) |
 
 ## The space
@@ -64,7 +64,7 @@ Royal Caribbean's Wonder of the Seas, described at launch as the world's biggest
 
 More than a hundred Platinum Smart-Heat Electric Marine heaters warming restaurants, bars, pool decks and balconies so passengers can stay outdoors in cooler weather.
 
-**Controls.** [[VERIFY: which controls were installed, and how many zones — Josh Maingard]] A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+**Controls.** [[VERIFY: which controls were installed, and how many zones — Marine team]] A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
 ## Why it matters for sales
 
@@ -84,6 +84,6 @@ Both photographs come from Bromic's 2022 marine presentation. The licence for re
 
 ## To publish
 
-- Josh Maingard: confirm quantities by deck, controls, and whether sister ships followed.
+- Marine team: confirm quantities by deck, controls, and whether sister ships followed.
 - Ask Royal Caribbean for approval to name and quote.
 - Work through the consent checklist in the [case-study template](item:CS-TEMPLATE): permission to name the venue or home, approved numbers and quotes, credits, and a photo licence.

@@ -42,7 +42,7 @@
       "installer": "a licensed electrician or a licensed gas technician",
       "authority": "your provincial or municipal authority",
       "propane": "20 lb cylinders or a bulk tank",
-      "verify": "[[VERIFY: current CEC and B149.1 editions and provincial amendments — Sean (West Canada)]]",
+      "verify": "[[VERIFY: current CEC and B149.1 editions and provincial amendments — Canada sales]]",
       "cylinder_kg": 9.07
     },
     {
@@ -157,7 +157,7 @@
       "installer": "a registered electrician (Elektrofachbetrieb) or gas installer",
       "authority": "your local building authority (Bauamt)",
       "propane": "propane in 5 kg or 11 kg cylinders",
-      "verify": "[[VERIFY: current VDE and DVGW rules for outdoor heaters — Raffaele Marti]]",
+      "verify": "[[VERIFY: current VDE and DVGW rules for outdoor heaters — Germany partner]]",
       "cylinder_kg": 11
     }
   ],
