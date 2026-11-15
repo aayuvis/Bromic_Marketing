@@ -1,6 +1,6 @@
 # Handover — finish the Bromic Content Hub (for a new chat)
 
-**Prepared:** 29 Oct 2026 · **Sponsor:** Aayush Vishnoi, President, Global Heating
+**Prepared:** 29 Oct 2026 · **Sponsor:** Leadership, President, Global Heating
 **Repo:** `aayuvis/Bromic_Marketing` · **Branch:** `claude/cool-noether-3ivd0z` (develop and push here)
 **Preview of the app (private):** https://claude.ai/artifact/DL4yWhz2KcMoxMHoLhLd8i — republish to this URL with `url`
 
@@ -100,7 +100,7 @@ is the natural first test case).
 
 Same file set and pattern. Inputs: heated seats, average check, turns per night, extra operating nights/yr, capture rate,
 gross margin %, installed cost. Outputs: added revenue/yr, added margin/yr, payback months. Every default is an assumption with
-`[[VERIFY: benchmarks — Blake Petty]]`. First test case: `content/articles/COM-IN-01-*.md` worked example
+`[[VERIFY: benchmarks — Hospitality sales]]`. First test case: `content/articles/COM-IN-01-*.md` worked example
 (40 seats × 1.5 turns × $45 × 60 nights × 50% capture = $81,000; ≈15.5 months on $30,000 installed — check margin basis).
 
 **All three tools:** single self-contained page after inlining (no external calls, no CDNs); Bromic styling via
@@ -115,7 +115,7 @@ heaters are recommended. `node app/test/tools.mjs` must pass.
 
 Frontmatter per `templates/content-schema.md`: `type: tool`, `id`/`asset` = A03/A20/A21, audience and stage from
 `data/assets.json`, `hero` image id from `images/library/manifest.json`, `summary`, `cta`, `sources` (for the rates used),
-`owner_review` (A03 Brian Kim + 454 Creative; A20/A21 Blake Petty + Brian Kim). Body: what it does, inputs, outputs,
+`owner_review` (A03 Digital marketing + 454 Creative; A20/A21 Hospitality sales + Digital marketing). Body: what it does, inputs, outputs,
 assumptions, where the lead goes. The Hub's Tools tab matches a card to a tool folder by `asset` prefix.
 
 ### A5. Forms — `forms/hubspot-form-spec.md` and `forms/lead-scoring.md`
@@ -123,7 +123,7 @@ assumptions, where the lead goes. The Hub's Tools tab matches a card to a tool f
 From HANDOVER §9, fleshed out: field internal names, required/optional, picklist values, progressive-profiling plan (what is asked
 on the 2nd and 3rd conversion), hidden fields, routing rules by "I am a…" and ZIP, the scoring table (+5 awareness download,
 +15 consideration asset or calculator, +30 intent asset A11/A16/BIM/A21, +50 design request → route to sales, +20 timing 0–3
-months, +10 professional role), SAL/SQL thresholds as `[[VERIFY: Brian Kim]]`. Do not configure HubSpot.
+months, +10 professional role), SAL/SQL thresholds as `[[VERIFY: Digital marketing]]`. Do not configure HubSpot.
 
 ### A6. Case studies — `content/case-studies/`
 
@@ -167,7 +167,7 @@ python3 scripts/ingest_images.py            # inbox → images/library (status n
 
 1. **Product facts.** From product pages, update `data/product-facts.json` (Platinum Gas, Tungsten Gas built-in, Platinum Electric
    Marine, Cobalt Electric, Eclipse wattage, coverage per wattage, voltages, clearances, warranty, accessories, controls
-   compatibility). `source` = page URL; `verified: false` until Mike Clifford signs off. Then search content for `[[VERIFY]]`
+   compatibility). `source` = page URL; `verified: false` until Product team signs off. Then search content for `[[VERIFY]]`
    flags the site now answers and clear them.
 2. **Images.** Tag every `needs-tagging` image in `images/library/manifest.json` (product, setting, audiences, alt, rights).
    Re-point heroes to bromic.com photography where it shows current product correctly installed; prefer it over the 2021 `p-*` set.
@@ -185,16 +185,16 @@ python3 scripts/ingest_images.py            # inbox → images/library (status n
 
 | # | Question | Owner |
 |---|---|---|
-| 1 | Coverage, wattage, voltage, BTU per current SKU; Tungsten built-in gas BTU (39,800 vs 38,000) | Mike Clifford |
-| 2 | 2026 utility rates by region; delivered commercial propane price | Brian Kim / Finance |
-| 3 | ROI benchmarks: check, turns, extra nights, capture rate, margin; typical installed cost | Blake Petty |
-| 4 | Atomik survey date, base n, wording; 94% vs 92% topline | Megan Spies |
-| 5 | NEC Article 422 vs 424; GFCI in the install manual; breaker sizes; Affinity load per channel | Mike Clifford + licensed electrician |
-| 6 | Builder price tiers, margins, lead times (A15, A18) | Arvin Avaness / Peter Abraham |
-| 7 | Tungsten Coastal and Select launch dates | Mike Clifford |
-| 8 | Original `journey-matrix.json` and `assets.json` | Aayush Vishnoi |
+| 1 | Coverage, wattage, voltage, BTU per current SKU; Tungsten built-in gas BTU (39,800 vs 38,000) | Product team |
+| 2 | 2026 utility rates by region; delivered commercial propane price | Finance |
+| 3 | ROI benchmarks: check, turns, extra nights, capture rate, margin; typical installed cost | Hospitality sales |
+| 4 | Atomik survey date, base n, wording; 94% vs 92% topline | Marketing |
+| 5 | NEC Article 422 vs 424; GFCI in the install manual; breaker sizes; Affinity load per channel | Product team + licensed electrician |
+| 6 | Builder price tiers, margins, lead times (A15, A18) | Trade sales / Sales operations |
+| 7 | Tungsten Coastal and Select launch dates | Product team |
+| 8 | Original `journey-matrix.json` and `assets.json` | Leadership |
 | 9 | Case-study candidates with permission to publish numbers | Regional leads |
-| 10 | Validated keyword volumes and the 40-term priority list | Brian Kim |
+| 10 | Validated keyword volumes and the 40-term priority list | Digital marketing |
 
 ## 4. How the repo works (short)
 

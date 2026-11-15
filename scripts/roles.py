@@ -9,7 +9,7 @@ NAMES = [  # longest first
   ('Arvin Avaness', 'Trade sales'), ('Peter Abraham', 'Sales operations'), ('Karl Tschauner', 'US field sales'),
   ('Josh Maingard', 'Marine team'), ('Sean (West Canada)', 'Canada sales'), ('Raffaele Marti', 'Germany partner'), ('Aayush Vishnoi', 'Leadership'),
 ]
-DIRS = ['content', 'data', 'reviews', 'templates', 'tools']
+DIRS = ['content', 'data', 'reviews', 'templates', 'tools', 'images/library', 'docs']
 SKIP = re.compile(r'(node_modules|/_raw/|team-roles\.json|\.webp$|\.png$|\.jpe?g$|\.pdf$)')
 dry = '--dry-run' in sys.argv; n_files = n_subs = 0
 for d in DIRS:
