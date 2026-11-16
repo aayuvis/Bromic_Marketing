@@ -1,16 +1,16 @@
 ---
 id: ARC-IN-KB1
 type: kb
-title: "Lassen sich Heizstrahler in eine Dachuntersicht einbauen?"
+title: "Einbau-Heizstrahler: Kann ein Heizstrahler bündig in einer Dachuntersicht sitzen?"
 audience: [ARC]
 stage: [IN]
 cell: ARC-IN
 asset: A24
-summary: "Ja: Bromic Elektro-Heizstrahler lassen sich mit Einbausätzen bündig einbauen. Was Sie zeichnen und klären müssen, damit der Einbau funktioniert."
+summary: "Bromic Elektro-Heizstrahler sitzen mit einem Einbausatz bündig in einer Dachuntersicht. Was Sie zeichnen und klären, damit Einbau, Hohlraum und Stromkreis bereit sind, bevor die Decke geschlossen wird."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Lassen sich Terrassenheizstrahler in eine Dachuntersicht einbauen?"
-meta_description: "Lassen sich Heizstrahler in eine Dachuntersicht einbauen? Ja, mit Einbausätzen. Was Architekten für einen bündigen Heizstrahler zeichnen und klären sollten."
+meta_description: "Einbau-Heizstrahler: Bromic Elektro-Heizstrahler sitzen mit Einbausatz bündig in der Dachuntersicht. Was Architekten zeichnen und klären sollten."
 cta: {label: "Spezifikationspaket herunterladen", asset: A11}
 hero: t-006-016
 images: []
@@ -18,7 +18,7 @@ owner_review: Produktteam
 status: draft
 gated: false
 related: [ARC-IN-01, ARC-BY-01]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: de
 translation_of: ARC-IN-KB1
 translation_status: machine-draft
@@ -40,7 +40,7 @@ sources:
     verified: true
 ---
 
-Ja. Bromic Elektro-Heizstrahler lassen sich mit einem Bromic Einbausatz bündig in eine Dachuntersicht oder einen Deckenhohlraum einbauen; der Einbausatz passt zu den Platinum- und Tungsten-Electric-Heizstrahlern[^s1]. Der Einbau muss geplant werden: Öffnung, Hohlraum und Stromkreis gehören in die Zeichnungen, bevor die Decke geschlossen wird.
+Das geht, und ein bündig eingebauter Heizstrahler ist eine der elegantesten Arten, Wärme in einen überdachten Außenbereich zu bringen. Bromic Elektro-Heizstrahler lassen sich mit einem Bromic Einbausatz in eine Dachuntersicht oder einen Deckenhohlraum einbauen; der Einbausatz passt zu den Platinum- und Tungsten-Electric-Heizstrahlern[^s1]. Der Einbau wird zusammen mit der Decke geplant, deshalb gehören Öffnung, Hohlraum und Stromkreis in die Zeichnungen, bevor die Decke geschlossen wird.
 
 | Heizstrahler | Einbau | Heizfläche (ca.) |
 |---|---|---|
@@ -50,7 +50,7 @@ Ja. Bromic Elektro-Heizstrahler lassen sich mit einem Bromic Einbausatz bündig 
 
 Quelle: Lookbook 2026 und Planning Guide[^s1][^s2].
 
-## Was Sie zeichnen und klären sollten
+## Einen Einbau zeichnen, der in der Decke verschwindet
 
 - [ ] Größe und Lage des Ausschnitts im Deckenspiegel
 - [ ] Tiefe des Hohlraums, Unterkonstruktion, Wechsel und Hinterlegung

@@ -1,16 +1,16 @@
 ---
 id: A16
 type: gated-guide
-title: "Vorverkabelung für Außenwärme: der Leitfaden zur Rohinstallation für Bauträger"
+title: "Vorverkabelung für Außenwärme: der Leitfaden zur Rohinstallation für Bauträger, damit die Wärme vom ersten Tag an bereit ist"
 audience: [BLD]
 stage: [IN]
 cell: BLD-IN
 asset: A16
-summary: "Was vor dem Rohbau entschieden und was für jeden Bromic Heizstrahlertyp in der Rohinstallation vorbereitet werden muss: Stromkreise und Stromstärken, Abzweigdosen und Unterkonstruktion, Einbauöffnungen, Steuerleitungen und Gasanschlüsse, mit einer Checkliste zum Ausdrucken und einem Übergabeblatt für den Elektriker."
+summary: "Alles, was vor dem Rohbau zu entscheiden und für jeden Bromic Heizstrahlertyp in der Rohinstallation vorzubereiten ist, damit die Terrasse am Tag des Einzugs für Wärme bereit ist: Stromkreise und Stromstärken, Dosen und Unterkonstruktion, Einbauöffnungen, Steuerleitungen und Gasanschlüsse, mit einer Checkliste zum Ausdrucken und einem Übergabeblatt für den Elektriker."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Welche Leitungen sollte ich für Terrassenheizstrahler in der Rohinstallation vorbereiten?"
-meta_description: "Leitfaden zur Rohinstallation von Terrassenheizstrahlern: Stromkreise und Stromstärken bei 230 V, Abzweigdosen, Unterkonstruktion, Einbaurahmen, Steuerleitungen und Gasanschlüsse."
+meta_description: "Vorverkabelung für Außenwärme: Leitfaden zur Rohinstallation von Terrassenheizstrahlern, von Stromkreisen bei 230 V bis zu Dosen, Einbaurahmen und Gas."
 cta: {label: "Planungsgespräch vereinbaren", asset: A07}
 hero: g-rough-in
 images: [l-010-076, l-005-022, l-010-074, t-012-034]
@@ -18,7 +18,7 @@ owner_review: Fachhandelsvertrieb
 status: draft
 gated: true
 related: [BLD-IN-01, BLD-CO-01, ARC-IN-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating / Atomik Research
@@ -70,15 +70,15 @@ native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 
 # Vorverkabelung für Außenwärme
 
-*Der Leitfaden zur Rohinstallation für Bauträger. Von Anfang an geplant, nicht später nachgerüstet.*
+*Der Leitfaden zur Rohinstallation für Bauträger, für Wärme, die von der ersten Zeichnung an eingeplant ist.*
 
-Ziehen Sie in der Rohinstallation für jeden Elektro-Heizstrahler (oder jede Heizstrahlergruppe, je nach Steuergerät) einen eigenen Stromkreis, bemessen aus I = W ÷ V als Dauerlast; setzen Sie eine Abzweigdose und eine tragfähige Unterkonstruktion an jede Position von Heizstrahler, Stange oder Einbaurahmen; führen Sie von jedem Heizstrahler eine Leitung zum Ort des Steuergeräts; setzen Sie eine Dose für den Wandschalter; und für fest installiertes Gas eine herausgeführte, verschlossene Leitung mit zugänglicher Absperreinrichtung. Entscheiden Sie das alles vor dem Rohbau, solange die Decke offen ist.
+Eine Terrasse, die vom ersten Abend an warm ist, beginnt mit der Rohinstallation. Ziehen Sie für jeden Elektro-Heizstrahler (oder jede Heizstrahlergruppe, je nach Steuergerät) einen eigenen Stromkreis, bemessen aus I = W ÷ V als Dauerlast (in den USA mit Leitungen für mindestens 125 % der Last[^s5]). Setzen Sie eine Abzweigdose und eine tragfähige Unterkonstruktion an jede Position von Heizstrahler, Stange oder Einbaurahmen, führen Sie von jedem Heizstrahler eine Leitung zum Ort des Steuergeräts, setzen Sie eine Dose für den Wandschalter und sehen Sie für fest installiertes Gas eine herausgeführte, verschlossene Leitung mit zugänglicher Absperreinrichtung vor. Klären Sie das alles vor dem Rohbau, solange die Decke noch offen ist.
 
-![Überdachte Außenküche mit Bar und bündig eingelassenen Deckenheizstrahlern](img:l-010-067)
+![Überdachte Außenküche mit Bar, gewärmt von bündig in die Decke eingelassenen Heizstrahlern](img:l-010-067)
 
-## Warum vor dem Rohbau entscheiden?
+## Warum der beste Zeitpunkt vor dem Rohbau liegt
 
-In einer US-Umfrage gab weniger als jeder vierte Hausbesitzer der Heizung in der Planungsphase Priorität[^s1]. Die anderen fragen danach, wenn Trockenbau, Untersichten und Natursteinarbeiten fertig sind. Das heißt: eine fertige Decke öffnen, Aufputz-Installationsrohre, ein Heizstrahler dort, wo die Leitung hinreicht statt dort, wo der Tisch steht – und eine Reklamation.
+In einer US-Umfrage gab weniger als jeder vierte Hausbesitzer der Heizung in der Planungsphase Priorität[^s1]. Viele der anderen fragen danach, wenn Trockenbau, Untersichten und Natursteinarbeiten fertig sind, und dann heißt das: eine fertige Decke öffnen, Installationsrohre auf Putz verlegen, den Heizstrahler dort setzen, wo die Leitung hinreicht statt über den Tisch – und eine Reklamation.
 
 | Entschieden bei | Was es kostet |
 |---|---|
@@ -86,9 +86,9 @@ In einer US-Umfrage gab weniger als jeder vierte Hausbesitzer der Heizung in der
 | Nach dem Rohbau, vor dem Schließen | Ein Nachtrag; eine zusätzliche Anfahrt des Elektrikers |
 | Nach dem Ausbau | Geöffnete Decken oder Wände, Spachteln, Neuanstrich, Aufputz-Installationsrohre, oft keine Einbauoption mehr |
 
-**Verkaufen Sie es in der Bemusterung.** Ein Vorverkabelungspaket (Stromkreise, Dosen, Unterkonstruktion, Schalterdose) lässt sich auch dann anbieten, wenn die Heizstrahler später gekauft werden. Siehe das Bauträgerprogramm und den Leitfaden Gut-Besser-Premium ([A15](asset:A15)).
+**Bieten Sie es in der Bemusterung an.** Ein Vorverkabelungspaket aus Stromkreisen, Dosen, Unterkonstruktion und Schalterdose lässt sich auch dann anbieten, wenn die Heizstrahler später gekauft werden, und gibt Ihren Käufern einen Außenbereich, der für Wärme bereit ist, wann immer sie sich dafür entscheiden. Siehe das Bauträgerprogramm und den Leitfaden Gut-Besser-Premium ([A15](asset:A15)).
 
-## Der Zeitplan der Entscheidungen
+## Wann welche Entscheidung fällt
 
 | Phase | Entscheiden | Wer |
 |---|---|---|
@@ -99,7 +99,7 @@ In einer US-Umfrage gab weniger als jeder vierte Hausbesitzer der Heizung in der
 | Prüfung vor dem Schließen | Prüfung, bevor Decken und Wände geschlossen werden | Zuständige Stelle bzw. Fachbetrieb |
 | Endmontage | Heizstrahler, Einbaurahmen, Steuergeräte, Inbetriebnahme | Elektrofachbetrieb, Gasinstallateur |
 
-## Was je Produkt vorbereitet werden muss
+## Was für jedes Produkt vorbereitet wird
 
 | Produkt | Energie / Leistung | Rohinstallation | Vorkehrungen für die Montage |
 |---|---|---|---|
@@ -110,15 +110,15 @@ In einer US-Umfrage gab weniger als jeder vierte Hausbesitzer der Heizung in der
 | Tungsten Gas (fest installiert), Platinum Gas | [[VERIFY: Nennwärmebelastung — den Wert für Tungsten fest installiert erst nach Bestätigung veröffentlichen]] | Gasanschlussstelle und Absperreinrichtung; [[VERIFY: eventuelle Stromversorgung für Zündung/Steuerung]] | Decke, Wand; Deckenstangen, Hitzeschilde |
 | Tungsten Smart-Heat Freestanding Gas | Ca. 11,1 kW; Erdgas oder Flüssiggas | Flüssiggas: keine. Erdgas: [[VERIFY: Anforderung an die Schnellanschlussdose]] | Keine |
 
-Produktangaben: Bromic Lookbook 2026[^s2] und Planungsleitfaden 2021[^s3]. Bauen Sie immer nach der aktuellen Installationsanleitung des Modells.
+Die Produktangaben stammen aus dem Bromic Lookbook 2026[^s2] und dem Planungsleitfaden 2021[^s3]. Bauen Sie immer nach der aktuellen Installationsanleitung des Modells.
 
-## Wie viele Ampere? Die Rechnung
+## Die Stromstärke berechnen
 
-**Schritt 1. Strom je Heizstrahler.** I = W ÷ V, in Deutschland bei 230 V.
+**Schritt 1. Den Strom je Heizstrahler ermitteln.** I = W ÷ V, in Deutschland bei 230 V.
 
-**Schritt 2. Dauerlast.** Fest installierte elektrische Raumheizungen gelten als Dauerlast. In den USA verlangt NEC Artikel 424, dass die Leitungen dafür mit mindestens 125 % der Last bemessen werden, im Einklang mit den Regeln für Dauerlasten in 210.19(A)(1) und 210.20(A)[^s5][^s4]. In Deutschland bemisst der Elektrofachbetrieb nach DIN VDE 0100. [[VERIFY: aktuelle VDE-Regeln für die Bemessung von Stromkreisen für Heizstrahler im Freien — Partner Deutschland]]
+**Schritt 2. Die Dauerlast berücksichtigen.** Fest installierte elektrische Raumheizungen gelten als Dauerlast. In den USA verlangt NEC Artikel 424, dass die Leitungen dafür mit mindestens 125 % der Last bemessen werden, im Einklang mit den Regeln für Dauerlasten in 210.19(A)(1) und 210.20(A)[^s5][^s4]. In Deutschland bemisst der Elektrofachbetrieb nach DIN VDE 0100. [[VERIFY: aktuelle VDE-Regeln für die Bemessung von Stromkreisen für Heizstrahler im Freien — Partner Deutschland]]
 
-**Schritt 3. Stromkreis und Schutzorgan.** Der Elektrofachbetrieb wählt Leitung und Überstromschutz anhand des Ergebnisses, der Installationsanleitung und der DIN VDE 0100.
+**Schritt 3. Stromkreis und Schutzorgan wählen.** Der Elektrofachbetrieb wählt Leitung und Überstromschutz anhand des Ergebnisses, der Installationsanleitung und der DIN VDE 0100.
 
 | Heizstrahler | Strom bei 230 V |
 |---|---|
@@ -126,18 +126,18 @@ Produktangaben: Bromic Lookbook 2026[^s2] und Planungsleitfaden 2021[^s3]. Bauen
 | 3400 W | 14,8 A |
 | 4500 W | 19,6 A |
 
-Nennleistung geteilt durch Spannung. Ein Heizstrahler an einer niedrigeren Spannung als seiner Nennspannung nimmt weniger Strom auf und gibt weniger Leistung ab; verwenden Sie die Daten des geplanten Modells. Bromic nennt für gewerbliche US-Standorte auch 208, 240 und 277 V[^s3].
+Jeder Wert ist die Nennleistung geteilt durch die Spannung. Ein Heizstrahler an einer niedrigeren Spannung als seiner Nennspannung nimmt weniger Strom auf und gibt weniger Leistung ab, verwenden Sie also die Daten des geplanten Modells. Bromic nennt für gewerbliche US-Standorte auch 208, 240 und 277 V[^s3].
 
-**Rechenbeispiel: drei Heizstrahler mit je 3400 W an 230 V.**
+**Rechenbeispiel, drei Heizstrahler mit je 3400 W an 230 V.**
 - Je Heizstrahler: 3400 ÷ 230 = 14,8 A.
-- Alle drei an einem Ausgang des Steuergeräts: 44,3 A – zu viel für einen üblichen Stromkreis, also aufteilen.
+- Alle drei an einem Ausgang des Steuergeräts: 44,3 A – mehr, als ein üblicher Stromkreis trägt, also aufteilen.
 - Verteilung: 10,2 kW zur Leistungsbilanz des Gebäudes addieren.
 
 [[VERIFY: (1) wie die Bromic Elektro-Heizstrahler nach DIN VDE 0100 einzuordnen sind (in den USA: NEC Art. 424 oder Art. 422); (2) die Absicherung und die maximale Zahl der Heizstrahler je Stromkreis laut Installationsanleitung; (3) die maximale Last je Kanal des Affinity Steuergeräts und ob es zwischen Schutzorgan und Heizstrahlern sitzt — Fachhandelsvertrieb + Elektrofachbetrieb]]
 
 [[DIAGRAM: Übersichtsschaltplan: Verteilung → eigene Schutzorgane → Affinity Steuergerät (ein Kanal je Zone) → Abzweigdosen an den Heizstrahlern; Wandschalter und WLAN eingezeichnet; Leitungsquerschnitte für den Elektriker frei gelassen.]]
 
-## Wohin kommen Dosen und Unterkonstruktion?
+## Dosen und Unterkonstruktion platzieren
 
 | Element | Position | Hinweis |
 |---|---|---|
@@ -149,11 +149,11 @@ Nennleistung geteilt durch Spannung. Ein Heizstrahler an einer niedrigeren Spann
 | Abstände | Zu brennbaren Materialien, zur Decke und seitlich, laut Anleitung | Nicht zwischen Modellen interpolieren |
 | Ausrichtung | Über die Sitzplätze, nicht auf die Mitte der Fläche | Mit dem Möblierungsplan abstimmen |
 
-![Weißer Heizstrahler zwischen den Lamellen einer Pergola](img:l-010-076)
+![Weißer Heizstrahler, sauber zwischen die Lamellen einer Pergola gesetzt](img:l-010-076)
 
-## Wie wird für einen Einbaurahmen konstruiert?
+## Die Unterkonstruktion für einen Einbaurahmen
 
-Mit Einbaurahmen werden Platinum und Tungsten Elektro-Heizstrahler bündig in den Deckenhohlraum gesetzt[^s3]. Sie müssen im Plan der Unterkonstruktion stehen.
+Mit Einbaurahmen sitzen Platinum und Tungsten Elektro-Heizstrahler bündig im Deckenhohlraum[^s3], sodass der Heizstrahler als Teil der Architektur wirkt. Sie brauchen einen Platz im Plan der Unterkonstruktion.
 
 | Maß | Wert |
 |---|---|
@@ -169,11 +169,11 @@ Mit Einbaurahmen werden Platinum und Tungsten Elektro-Heizstrahler bündig in de
 
 [[DIAGRAM: Deckenspiegel und Schnitt einer Öffnung für den Einbaurahmen zwischen den Balken: Wechsel, Unterkonstruktion, Abzweigdose, Hohlraumtiefe und Abstandsmaße als Beschriftungen, die auf bestätigte Werte warten.]]
 
-![Tungsten Coastal bündig in eine weiße Decke eingelassen](img:l-005-022)
+![Tungsten Coastal (demnächst erhältlich) bündig in eine weiße Decke eingelassen](img:l-005-022)
 
-## Steuerung: was zu Schalter und Steuergerät geführt wird
+## Die Steuerleitungen zu Schalter und Steuergerät führen
 
-Die Steuerung ist Teil des Systems. Bereiten Sie sie zusammen mit den Stromkreisen der Heizstrahler vor.
+Mit den Affinity Smart-Heat® Controls genießen Ihre Käufer die Wärme genau dort und dann, wann sie sie möchten; bereiten Sie sie deshalb zusammen mit den Stromkreisen der Heizstrahler vor.
 
 | Leitung | Von → nach | Hinweis |
 |---|---|---|
@@ -187,13 +187,13 @@ Legen Sie für jeden Heizstrahler die passende Steuerung fest: ein Affinity Smar
 
 ## Gasanschlüsse für Gasmodelle
 
-- **Nur durch einen Gasinstallateur.** Leitung nach DVGW-TRGI (Erdgas) bzw. TRF (Flüssiggas) und den örtlichen Vorgaben dimensionieren, verlegen und prüfen. In den USA gilt dafür ANSI Z223.1/NFPA 54[^s6]. [[VERIFY: aktuelle DVGW-Regeln für fest installierte Gasheizstrahler im Freien — Partner Deutschland]]
-- **Nach der angeschlossenen Last dimensionieren.** Gesamte Nennwärmebelastung aller Geräte an der Leitung, Leitungslänge und Versorgungsdruck. [[VERIFY: Nennwärmebelastung, Anschlussgröße und Druck für Platinum Gas und Tungsten Gas fest installiert — Produktteam]]
-- **Herausführen und verschließen** an jeder Heizstrahler-Position; eine zugängliche Absperreinrichtung vorsehen.
-- **Vorkehrungen für die Montage:** Hitzeschilde verringern den nötigen Abstand über Gasheizstrahlern; an Deckenstangen lassen sich zwei Heizstrahler Rücken an Rücken montieren[^s3]. Berücksichtigen Sie beides in der Unterkonstruktion.
-- **Energieart bei der Bestellung:** Erdgas oder Flüssiggas, bestätigt, bevor der Heizstrahler bestellt wird.
+- **Ein eingetragener Gasinstallateur dimensioniert, verlegt und prüft die Leitung** nach DVGW-TRGI (Erdgas) bzw. TRF (Flüssiggas) und den örtlichen Vorgaben. In den USA gilt dafür ANSI Z223.1/NFPA 54[^s6]. [[VERIFY: aktuelle DVGW-Regeln für fest installierte Gasheizstrahler im Freien — Partner Deutschland]]
+- **Nach der angeschlossenen Last dimensionieren**, anhand der gesamten Nennwärmebelastung aller Geräte an der Leitung, Leitungslänge und Versorgungsdruck. [[VERIFY: Nennwärmebelastung, Anschlussgröße und Druck für Platinum Gas und Tungsten Gas fest installiert — Produktteam]]
+- **Herausführen und verschließen** an jeder Heizstrahler-Position, mit einer zugänglichen Absperreinrichtung.
+- **Vorkehrungen für die Montage einplanen.** Hitzeschilde verringern den nötigen Abstand über Gasheizstrahlern; an Deckenstangen lassen sich zwei Heizstrahler Rücken an Rücken montieren[^s3]. Berücksichtigen Sie beides in der Unterkonstruktion.
+- **Die Energieart bestätigen**, Erdgas oder Flüssiggas, bevor der Heizstrahler bestellt wird.
 
-## Was wird vor dem Schließen geprüft?
+## Worauf die Prüfung vor dem Schließen achtet
 
 - [ ] Erforderliche Genehmigungen für Elektro- und Gasarbeiten liegen vor
 - [ ] Stromkreise entsprechen dem freigegebenen Plan und der Leistungsbilanz
@@ -206,7 +206,7 @@ Legen Sie für jeden Heizstrahler die passende Steuerung fest: ein Affinity Smar
 
 *Dieser Leitfaden ist eine allgemeine Hilfe, keine technische oder rechtliche Festlegung. Klären Sie die Anforderungen mit dem örtlichen Bauamt. Elektroarbeiten durch einen Elektrofachbetrieb nach DIN VDE 0100 (in den USA nach NFPA 70[^s4]); Gasarbeiten durch einen Gasinstallateur nach DVGW-TRGI bzw. TRF (in den USA nach ANSI Z223.1/NFPA 54[^s6]); beides nach der Installationsanleitung des Herstellers.*
 
-![Schwarzer Heizstrahler an der Holzwand einer Cabana in der Abenddämmerung](img:l-010-074)
+![Schwarzer Heizstrahler, der in der Abenddämmerung die Holzwand einer Cabana wärmt](img:l-010-074)
 
 ## Checkliste zur Rohinstallation zum Ausdrucken
 
@@ -266,6 +266,6 @@ Legen Sie für jeden Heizstrahler die passende Steuerung fest: ein Affinity Smar
 | Gasanschlüsse (falls vorhanden) | |
 | Installationsanleitungen beigefügt | J / N |
 
-![Große Pergola-Terrasse mit Außenküche und Essbereich](img:t-012-034)
+![Große Pergola-Terrasse mit Außenküche und Esstisch](img:t-012-034)
 
 Vereinbaren Sie ein Planungsgespräch und erhalten Sie Anordnung, Heizstrahlerliste und das Steuerungspaket vor dem Rohbau.

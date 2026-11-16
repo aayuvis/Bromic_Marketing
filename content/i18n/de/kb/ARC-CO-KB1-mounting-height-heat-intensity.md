@@ -1,16 +1,16 @@
 ---
 id: ARC-CO-KB1
 type: kb
-title: "Wie verändert die Montagehöhe die Wärmeintensität?"
+title: "Wie die Montagehöhe eines Heizstrahlers die Wärme verändert, die Ihre Gäste spüren"
 audience: [ARC]
 stage: [CO]
 cell: ARC-CO
 asset: A24
-summary: "Eine höhere Montage verteilt die Strahlungswärme auf eine größere Fläche, aber mit geringerer Intensität; das Abstandsquadratgesetz und die Mindesthöhen von Bromic erklären den Zielkonflikt."
+summary: "Höher montiert, erreicht die Strahlungswärme eine größere Fläche mit sanfterer Intensität. Das Abstandsquadratgesetz und die Mindesthöhen von Bromic zeigen, welches Gleichgewicht Sie planen."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie verändert die Montagehöhe eines Heizstrahlers die Wärmeintensität?"
-meta_description: "Wie die Montagehöhe Intensität und Heizfläche eines Infrarot-Heizstrahlers im Außenbereich verändert, mit den Mindesthöhen von Bromic für Wand- und Deckenmontage."
+meta_description: "Wie die Montagehöhe Intensität und Heizfläche von Infrarot-Heizstrahlern im Außenbereich prägt, mit den Bromic-Mindesthöhen für Wand und Decke."
 cta: {label: "Planungsleitfaden herunterladen (Ausgabe für Fachplaner)", asset: A02}
 hero: l-004-012
 images: []
@@ -18,7 +18,7 @@ owner_review: Produktteam
 status: draft
 gated: false
 related: [ARC-CO-01, ARC-IN-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -46,21 +46,21 @@ translation_of: ARC-CO-KB1
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
-Wer einen Strahlungsheizer höher montiert, vergrößert die beheizte Fläche und senkt die Intensität, die Menschen spüren. Bei einer Quelle, die im Verhältnis zum Abstand klein ist, nimmt die Intensität mit dem Quadrat des Abstands ab: doppelter Abstand, ein Viertel der Wärme[^s3]. Lineare Heizstrahler fallen im Nahbereich weniger steil ab. Verstehen Sie die Regel daher als Richtung, nicht als Bemessungswert.
+Montieren Sie einen Strahlungsheizstrahler höher, verteilt sich seine Wärme über eine größere Fläche, und jeder Gast spürt sie ein wenig sanfter. Bei einer Quelle, die im Verhältnis zum Abstand klein ist, nimmt die Intensität mit dem Quadrat des Abstands ab; doppelter Abstand bringt also etwa ein Viertel der Wärme[^s3]. Lineare Heizstrahler fallen im Nahbereich weniger steil ab. Lesen Sie die Regel daher als Richtung für die Planung, und nehmen Sie Bemessungswerte aus den Daten des jeweiligen Modells.
 
 | Abstand zum Gast (relativ) | 1,0× | 1,25× | 1,5× | 2,0× |
 |---|---|---|---|---|
 | Relative Intensität, ideale Punktquelle | 100 % | 64 % | 44 % | 25 % |
 
-## Was bedeutet das für die Planung?
+## Die richtige Höhe in der Planung finden
 
-- **Mindesthöhen einhalten.** Die Bromic-Empfehlung: Wandmontage mindestens ca. 1,83 m über dem Boden, Deckenmontage mindestens ca. 2,44 m, je nach Leistung unterschiedlich[^s1]. Prüfen Sie jedes Modell anhand seiner Installationsanleitung.
-- **Hohe Decken.** Oberhalb der sinnvollen Höhe lieber weitere Heizstrahler vorsehen oder sie an Abhängestangen tiefer setzen, statt sich auf ein größeres Gerät zu verlassen.
-- **Bis zu den Menschen messen.** Für Essbereiche und Lounges gilt die Kopfhöhe im Sitzen, für Bars die Kopfhöhe im Stehen.
-- **Angaben zur Heizfläche setzen eine übliche Montage voraus.** Bromic weist darauf hin, dass die Heizfläche mit Montagehöhe, Umgebung und Installation variiert[^s2].
+- Gehen Sie von den Bromic-Mindesthöhen aus: Wandmontage mindestens ca. 1,83 m über dem Boden, Deckenmontage mindestens ca. 2,44 m, je nach Leistung unterschiedlich[^s1]. Prüfen Sie jedes Modell anhand seiner Installationsanleitung.
+- Wo eine Decke über die sinnvolle Höhe hinausragt, sehen Sie weitere Heizstrahler vor oder setzen sie an Abhängestangen tiefer, damit die Wärme nah am Tisch bleibt, statt sich auf ein einzelnes größeres Gerät zu verlassen.
+- Messen Sie bis zu den Menschen, die dort sitzen werden: Kopfhöhe im Sitzen für Essbereiche und Lounges, Kopfhöhe im Stehen für Bars.
+- Veröffentlichte Angaben zur Heizfläche setzen eine übliche Montage voraus, und Bromic weist darauf hin, dass die Heizfläche mit Montagehöhe, Umgebung und Installation variiert[^s2].
 
 [[VERIFY: empfohlene maximale Montagehöhe und Tabelle der Heizfläche je Höhe für jedes Modell — Produktteam]]
 
-Was die Höhe nicht leisten kann, regelt die Dimmung: ein Affinity Smart-Heat Dimmer (oder das Eclipse-Steuergerät für die Stufen 33/66/100 % des Eclipse), ein Wandschalter und die Bromic Smart-Heat App. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind[^s2].
+Die Dimmung verfeinert, was die Höhe allein nicht kann, und lässt Sie die Wärme auf den Abend abstimmen: ein Affinity Smart-Heat Dimmer (oder das Eclipse-Steuergerät für die Stufen 33/66/100 % des Eclipse), ein Wandschalter und die Bromic Smart-Heat App. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind[^s2].
 
 *Montagehöhen und Abstände legen die Installationsanleitung und die örtlichen Vorschriften fest (in Deutschland u. a. DIN VDE 0100). Stimmen Sie die Installation mit Ihrem örtlichen Bauamt und einem Elektrofachbetrieb ab.* [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Partner Deutschland]]

@@ -1,16 +1,16 @@
 ---
 id: ARC-CO-KB1
 type: kb
-title: "Hoe verandert de montagehoogte de warmte-intensiteit?"
+title: "Hoe de montagehoogte van een verwarmer de warmte verandert die uw gasten voelen"
 audience: [ARC]
 stage: [CO]
 cell: ARC-CO
 asset: A24
-summary: "Hoger monteren verspreidt stralingswarmte over een groter oppervlak met een lagere intensiteit; de kwadratenwet en de minimale montagehoogtes van Bromic verklaren de afweging."
+summary: "Hoger gemonteerd bereikt stralingswarmte een groter oppervlak met een zachtere intensiteit. De kwadratenwet en de minimale hoogtes van Bromic laten zien welk evenwicht u intekent."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe verandert de montagehoogte de warmte-intensiteit van een infraroodverwarmer?"
-meta_description: "Hoe de montagehoogte de intensiteit en het verwarmd oppervlak van een infrarood buitenverwarmer verandert, met de minimale wand- en plafondhoogtes van Bromic."
+meta_description: "Hoe de montagehoogte de intensiteit en het verwarmd oppervlak van infrarood buitenverwarmers bepaalt, met de minimale wand- en plafondhoogtes van Bromic."
 cta: {label: "Download de Planning Guide (editie voor professionals)", asset: A02}
 hero: l-004-012
 images: []
@@ -18,7 +18,7 @@ owner_review: productteam
 status: draft
 gated: false
 related: [ARC-CO-01, ARC-IN-01]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: nl
 translation_of: ARC-CO-KB1
 translation_status: machine-draft
@@ -47,21 +47,21 @@ sources:
     verified: false
 ---
 
-Hoe hoger u een stralingsverwarmer monteert, hoe breder zijn bereik en hoe lager de intensiteit die mensen voelen. Voor een bron die klein is ten opzichte van de afstand neemt de intensiteit af met het kwadraat van de afstand: twee keer zo ver weg geeft een kwart van de warmte[^s3]. Lineaire verwarmers nemen dichtbij minder sterk af; gebruik de regel dus als richting, niet als ontwerpwaarde.
+Monteert u een stralingsverwarmer hoger, dan spreidt zijn warmte zich over een groter oppervlak en voelt elke gast haar iets zachter. Voor een bron die klein is ten opzichte van de afstand neemt de intensiteit af met het kwadraat van de afstand; twee keer zo ver weg levert dus ongeveer een kwart van de warmte[^s3]. Lineaire verwarmers nemen dichtbij minder sterk af. Lees de regel daarom als richting voor de planning en neem ontwerpwaarden uit de gegevens van elk model.
 
 | Afstand tot de gast (relatief) | 1,0× | 1,25× | 1,5× | 2,0× |
 |---|---|---|---|---|
 | Relatieve intensiteit, ideale puntbron | 100% | 64% | 44% | 25% |
 
-## Wat betekent dit voor de tekening?
+## De juiste hoogte vinden op de tekening
 
-- **Houd de minimumhoogtes aan.** Richtlijn van Bromic: wandmontage minimaal 1,83 m boven de vloer, plafondmontage minimaal 2,44 m, afhankelijk van het vermogen[^s1]. Controleer elk model in de installatiehandleiding.
-- **Hoge plafonds.** Boven de nuttige hoogte voegt u verwarmers toe of laat u ze zakken aan pendelstangen, in plaats van op een groter toestel te vertrouwen.
-- **Meet tot de mensen.** Gebruik de hoofdhoogte zittend voor eet- en loungezones en staand voor bars.
-- **Het verwarmd oppervlak gaat uit van een gangbare montage.** Bromic vermeldt dat het verwarmd oppervlak varieert met montagehoogte, omgeving en installatie[^s2].
+- Ga uit van de minimumhoogtes van Bromic: wandmontage minimaal 1,83 m boven de vloer en plafondmontage minimaal 2,44 m, afhankelijk van het vermogen[^s1]. Controleer elk model in de installatiehandleiding.
+- Waar een plafond boven de nuttige hoogte uitkomt, voegt u verwarmers toe of laat u ze zakken aan pendelstangen, zodat de warmte dicht bij de tafel blijft in plaats van op één groter toestel te vertrouwen.
+- Meet tot de mensen die er zullen zitten: hoofdhoogte zittend voor eet- en loungezones, staand voor bars.
+- Gepubliceerde waarden voor het verwarmd oppervlak gaan uit van een gangbare montage, en Bromic vermeldt dat het verwarmd oppervlak varieert met montagehoogte, omgeving en installatie[^s2].
 
 [[VERIFY: aanbevolen maximale montagehoogte en tabel met verwarmd oppervlak per hoogte per model — productteam]]
 
-Gebruik dimmen om bij te stellen wat de hoogte niet kan: een Affinity Smart-Heat Dimmer (of de Eclipse-regelaar voor de standen 33/66/100% van Eclipse), een wandschakelaar en de Smart-Heat app. Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht[^s2].
+Dimmen verfijnt wat de hoogte alleen niet kan, zodat u de warmte op de avond afstemt: een Affinity Smart-Heat Dimmer (of de Eclipse-regelaar voor de standen 33/66/100% van Eclipse), een wandschakelaar en de Smart-Heat app. Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht[^s2].
 
 *Montagehoogtes en vrije afstanden volgen uit de installatiehandleiding en de geldende voorschriften (NEN 1010). Stem af met uw gemeente en een gekwalificeerde elektrotechnisch installateur.* [[VERIFY: current Dutch codes for outdoor heater installations — Bromic Benelux distributor]]

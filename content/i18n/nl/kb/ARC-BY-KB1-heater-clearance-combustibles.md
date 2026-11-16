@@ -1,16 +1,16 @@
 ---
 id: ARC-BY-KB1
 type: kb
-title: "Hoeveel afstand moet een infrarood buitenverwarmer houden tot brandbare materialen?"
+title: "Vrije afstand van terrasverwarmers: hoeveel ruimte een infrarood buitenverwarmer nodig heeft tot brandbare materialen"
 audience: [ARC]
 stage: [BY]
 cell: ARC-BY
 asset: A24
-summary: "Vrije afstanden worden per model bepaald door de installatiehandleiding en de certificering, niet door een vuistregel. Waar u ze vindt en hoe u ze tekent."
+summary: "Elke verwarmer legt zijn eigen vrije afstanden vast in de installatiehandleiding en de certificering. Waar u de waarden vindt en hoe u ze tekent, zodat de verwarmer mooi in de architectuur opgaat."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoeveel afstand moet een infrarood buitenverwarmer houden tot brandbare materialen?"
-meta_description: "Afstand van een infrarood buitenverwarmer tot brandbare materialen: waar de waarden vandaan komen, wat u tekent, en de minimale montagehoogtes van Bromic."
+meta_description: "Vrije afstand van terrasverwarmers tot brandbare materialen: waarden uit handleiding en certificering per model, wat u tekent en de minimale hoogtes."
 cta: {label: "Plan een ontwerpgesprek", asset: A07}
 hero: l-010-070
 images: []
@@ -18,7 +18,7 @@ owner_review: productteam
 status: draft
 gated: false
 related: [ARC-BY-01, ARC-IN-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -39,7 +39,9 @@ translation_of: ARC-BY-KB1
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 ---
-Dat hangt af van het model en het vermogen. De vrije afstand tot brandbare materialen wordt bepaald door de installatiehandleiding en de certificering van elke verwarmer; neem de waarden dus over uit de handleiding van het exacte model en de spanning die op de tekeningen staan. Er bestaat geen veilig getal dat overal geldt. De algemene richtlijn van Bromic geeft minimale montagehoogtes van 1,83 m boven de vloer bij wandmontage en 2,44 m bij plafondmontage, en merkt op dat de afstand tot het plafond afhangt van het vermogen[^s1].
+Elke verwarmer legt zijn eigen vrije afstanden vast. De juiste waarden komen daarom uit de installatiehandleiding en de certificering van precies het model en de spanning op uw tekeningen – één getal dat voor elke verwarmer geldt, bestaat niet. Als algemene richtlijn hanteert Bromic minimale montagehoogtes van 1,83 m boven de vloer bij wandmontage en 2,44 m bij plafondmontage; de afstand tot het plafond hangt af van het vermogen[^s1].
+
+Wie die afstanden vanaf het begin intekent, laat een verwarmer rustig opgaan in een houten overstek of een pergola. Hij verwarmt de tafel eronder, terwijl de architectuur haar lijnen behoudt.
 
 [[VERIFY: tabel met vrije afstanden tot brandbare materialen (boven, opzij, voor, onder) per huidig model — productteam]]
 
@@ -51,7 +53,9 @@ Dat hangt af van het model en het vermogen. De vrije afstand tot brandbare mater
 | Montagehoogte boven de vloer | Handleiding; minimum van Bromic 1,83 m aan de wand, 2,44 m aan het plafond[^s1] |
 | Gasverwarmers | Handleiding en NEN 1078 (in de VS NFPA 54); warmtedeflectors kunnen de afstand boven verkleinen[^s1] |
 
-## Wat u tekent
+## De zone met vrije afstand tekenen
+
+Toon de vrije afstanden van elke verwarmer op de tekeningen, zodat elke vakman ziet hoeveel ruimte de warmte om zich heen nodig heeft.
 
 - [ ] De zone met vrije afstand rond elke verwarmer op de plafondplattegrond en in de doorsneden
 - [ ] Houten overstekken, balken, pergolalatten en gevelbekleding binnen of vlak bij die zone
