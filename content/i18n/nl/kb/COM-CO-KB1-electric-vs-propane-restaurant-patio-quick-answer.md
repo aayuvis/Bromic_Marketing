@@ -10,18 +10,18 @@ audience: [COM]
 stage: [CO]
 cell: COM-CO
 asset: A20
-summary: "Wat is goedkoper in gebruik op een horecaterras, elektrische of propaanverwarmers — de berekening per uur en de kosten van het flessenwerk die propaan verbergt."
+summary: "Wat is goedkoper in gebruik op een horecaterras, elektrische of propaanverwarmers, met de berekening per uur en de kosten van het flessenwerk die propaan ongemerkt toevoegt."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Elektrische of propaanterrasverwarmers voor een restaurant?"
-meta_description: "Elektrische of propaanterrasverwarmers voor de horeca: gebruikskosten per uur, het wisselen van flessen en de regels, met de formules om met uw eigen tarieven door te rekenen."
+meta_description: "Elektrische of propaanterrasverwarmers voor de horeca: kosten per uur, flessen wisselen en de regels, met formules voor uw eigen tarieven."
 cta: {label: "Gebruik het kostenmodel over vijf jaar", asset: A20}
 hero: l-005-024
 owner_review: verkoop horeca
 status: draft
 gated: false
 related: [COM-CO-01, COM-PP-KB1]
-updated: 2026-10-30
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: U.S. Energy Information Administration
@@ -46,9 +46,9 @@ sources:
     verified: true
 ---
 
-Voor de meeste horecazaken: elektrisch. Een vrijstaande propaanverwarmer bedient niet meer dan 4 zitplaatsen, omdat de gasten zijn stralingswarmte tegenhouden, dus een terras met 40 zitplaatsen heeft er 10 nodig tegenover 7 elektrische verwarmers boven het terras, en elk daarvan verbruikt per uur duurdere brandstof. Daarbij komen bij propaan het wisselen van flessen, opslag en, in sommige gemeenten, regelrechte beperkingen. Propaan past waar er geen stroom op het terras is en de opstelling elke avond verandert.
+Voor de meeste horecazaken is elektrische warmte de betere keuze. Een vrijstaande propaanverwarmer bedient niet meer dan 4 zitplaatsen, omdat de gasten zijn stralingswarmte tegenhouden. Een terras met 40 zitplaatsen heeft er dus 10 nodig tegenover 7 elektrische verwarmers boven het terras, en elk daarvan verbruikt per uur duurdere brandstof. Propaan brengt bovendien het wisselen van flessen, opslag en, in sommige gemeenten, regelrechte beperkingen met zich mee. Het blijft op zijn plaats waar er geen stroom op het terras is en de opstelling elke avond verandert.
 
-## De cijfers
+## Zo verhouden de gebruikskosten zich
 
 Formules: elektrisch = kW × uw prijs per kWh; propaan = vermogen in kW ÷ ongeveer 7,1 kWh per liter × uw prijs per liter. Wij rekenen niet met Nederlandse prijzen. De bedragen hieronder zijn een Amerikaans voorbeeld met Amerikaanse tarieven: 14,07 dollarcent per kWh zakelijke elektriciteit, Amerikaans gemiddelde januari–mei 2026;[^s1] $ 2,46 per gallon propaan, de winterprognose voor huishoudens 2025–26 van de EIA.[^s2] [[VERIFY: tarieven 2026 en een prijs per afgeleverde fles — financiën]] [[VERIFY: Nederlandse tarieven voor zakelijke elektriciteit en propaan in flessen — Bromic Benelux distributor]]
 
@@ -62,13 +62,13 @@ Formules: elektrisch = kW × uw prijs per kWh; propaan = vermogen in kW ÷ ongev
 | Brandstofbeheer | geen | flessen wisselen, opslag, leveringen |
 | Regelgeving | elektrische installatie volgens NEN 1010 | afstanden voor brandveiligheid, opslagregels |
 
-In het Amerikaanse voorbeeld betekent die hoeveelheid propaan, in flessen met 17,8 l bruikbare inhoud, 884 keer wisselen per jaar; bij 10 minuten per keer en $ 25 per uur nog eens $ 3.683. Propaan in flessen is meestal duurder dan het bulkgemiddelde dat hier is gebruikt, wat het argument voor propaan nog verder verzwakt. [[VERIFY: bruikbare inhoud van de in Nederland gangbare propaanflessen (10,5 of 11 kg) en het aantal wissels — Bromic Benelux distributor]]
+In het Amerikaanse voorbeeld komt die hoeveelheid propaan, in flessen met 17,8 l bruikbare inhoud, neer op 884 keer wisselen per jaar, en bij 10 minuten per keer en $ 25 per uur is dat nog eens $ 3.683 aan personeelstijd. Propaan in flessen is meestal duurder dan het bulkgemiddelde dat hier is gebruikt, wat het argument voor propaan nog verder verzwakt. [[VERIFY: bruikbare inhoud van de in Nederland gangbare propaanflessen (10,5 of 11 kg) en het aantal wissels — Bromic Benelux distributor]]
 
-## Wat kiest u
+## De juiste keuze voor uw terras
 
-- **Overdekt terras, muur of overstek:** Platinum Smart-Heat Electric met een Affinity Smart-Heat On/Off- of Dimmer-regelaar en een wandschakelaar.
-- **Open opstelling, stroom in de buurt:** Eclipse Smart-Heat Freestanding Electric met de Eclipse-regelaar.
-- **Geen stroom, flexibele opstelling, propaan toegestaan:** Tungsten Smart-Heat Freestanding Gas. [[VERIFY: Affinity-bediening voor de vrijstaande Tungsten-gasverwarmer — productteam]]
+- Op een overdekt terras met een muur of overstek om aan te monteren: Platinum Smart-Heat Electric met een Affinity Smart-Heat On/Off- of Dimmer-regelaar en een wandschakelaar.
+- Bij een open opstelling met stroom in de buurt: Eclipse Smart-Heat Freestanding Electric met de Eclipse-regelaar.
+- Waar geen stroom is, de opstelling flexibel is en propaan is toegestaan: Tungsten Smart-Heat Freestanding Gas. [[VERIFY: Affinity-bediening voor de vrijstaande Tungsten-gasverwarmer — productteam]]
 
 Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht.[^s3] Voor aardgas en een blik over vijf jaar, zie [de volledige vergelijking](item:COM-CO-01).
 

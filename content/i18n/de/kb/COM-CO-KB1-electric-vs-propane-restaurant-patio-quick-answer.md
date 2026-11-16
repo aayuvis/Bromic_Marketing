@@ -6,18 +6,18 @@ audience: [COM]
 stage: [CO]
 cell: COM-CO
 asset: A20
-summary: "Was auf einer Restaurantterrasse im Betrieb günstiger ist, Elektro- oder Flüssiggas-Heizstrahler – die Rechnung pro Stunde und der Aufwand, den Flüssiggas verschweigt."
+summary: "Was auf einer Restaurantterrasse im Betrieb günstiger ist, Elektro- oder Flüssiggas-Heizstrahler, mit der Rechnung pro Stunde und dem Aufwand, den Flüssiggas still mitbringt."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Elektro- oder Flüssiggas-Heizstrahler für ein Restaurant?"
-meta_description: "Elektro- oder Flüssiggas-Heizstrahler für die Gastronomie: Betriebskosten pro Stunde, Flaschenwechsel und Vorschriften, mit den Formeln für Ihre eigenen Preise."
+meta_description: "Elektro- oder Flüssiggas-Heizstrahler für die Gastronomie: Kosten pro Stunde, Flaschenwechsel und Vorschriften, mit Formeln für Ihre Preise."
 cta: {label: "Fünf-Jahres-Kostenmodell berechnen", asset: A20}
 hero: l-005-024
 owner_review: Vertrieb Gastronomie
 status: draft
 gated: false
 related: [COM-CO-01, COM-PP-KB1]
-updated: 2026-10-30
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: U.S. Energy Information Administration
@@ -46,9 +46,9 @@ translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 
-Für die meisten Restaurants: Elektro. Ein freistehender Flüssiggas-Heizstrahler versorgt höchstens 4 Plätze, weil die Gäste seine Strahlungswärme abschirmen. Eine Terrasse mit 40 Plätzen braucht also 10 davon gegenüber 7 Elektro-Heizstrahlern über Kopf – und jeder verbrennt pro Stunde teureren Brennstoff. Dazu kommen beim Flüssiggas Flaschenwechsel, Lagerung und in manchen Städten sogar Verbote. Flüssiggas passt dort, wo es auf der Terrasse keinen Strom gibt und sich die Aufstellung jeden Abend ändert.
+Für die meisten Restaurants ist elektrische Wärme die bessere Wahl. Ein freistehender Flüssiggas-Heizstrahler versorgt höchstens 4 Plätze, weil die Gäste seine Strahlungswärme abschirmen. Eine Terrasse mit 40 Plätzen braucht also 10 davon gegenüber 7 Elektro-Heizstrahlern über Kopf, und jeder verbrennt pro Stunde teureren Brennstoff. Flüssiggas bringt außerdem Flaschenwechsel, Lagerung und in manchen Städten sogar Verbote mit sich. Seinen Platz behält es dort, wo es auf der Terrasse keinen Strom gibt und sich die Aufstellung jeden Abend ändert.
 
-## Die Zahlen
+## Wie sich die Betriebskosten vergleichen
 
 Formeln: Elektro = kW × Preis je kWh; Flüssiggas = Leistung in kW ÷ Heizwert je Liter × Preis je Liter. Das folgende Rechenbeispiel verwendet US-Preise und ist als US-Beispiel zu lesen: 14,07 US-Cent/kWh für Gewerbestrom, US-Durchschnitt Januar bis Mai 2026;[^s1] 2,46 US-$ je US-Gallone (3,785 L) Propan, die Winterprognose der EIA für US-Privathaushalte 2025–26.[^s2] Der Rechnung liegt ein Heizwert von rund 7,1 kWh je Liter zugrunde (91.500 BTU je US-Gallone). Für Deutschland setzen Sie Ihren eigenen Strompreis je kWh und Ihren Flüssiggaspreis ein. [[VERIFY: Preise 2026 und ein Preis für gelieferte Flaschen — Finanzen]]
 
@@ -61,13 +61,13 @@ Formeln: Elektro = kW × Preis je kWh; Flüssiggas = Leistung in kW ÷ Heizwert 
 | Brennstofflogistik | keine | Wechsel, Lagerung, Anlieferung |
 | Vorschriften | Elektroinstallation nach DIN VDE 0100 | Flüssiggas nach TRF: Abstände, Aufstellungs- und Lagerregeln |
 
-Im US-Beispiel bedeuten rund 15.700 Liter in Flaschen mit je ca. 17,8 Litern (4,7 US-Gallonen) 884 Flaschenwechsel im Jahr; bei 10 Minuten je Wechsel und 25 US-$ Stundenlohn kommen weitere 3.683 US-$ hinzu. In Deutschland sind 5-kg- und 11-kg-Flaschen üblich; rechnen Sie mit Ihrer Flaschengröße und Ihrem Lohnsatz. Flüssiggas in Flaschen ist meist teurer als der hier verwendete Durchschnittspreis, was die Rechnung für Flüssiggas weiter verschlechtert.
+Im US-Beispiel summieren sich rund 15.700 Liter in Flaschen mit je ca. 17,8 Litern (4,7 US-Gallonen) auf 884 Flaschenwechsel im Jahr, und bei 10 Minuten je Wechsel und 25 US-$ Stundenlohn sind das weitere 3.683 US-$ an Arbeitszeit. In Deutschland sind 5-kg- und 11-kg-Flaschen üblich; rechnen Sie mit Ihrer Flaschengröße und Ihrem Lohnsatz. Flüssiggas in Flaschen ist meist teurer als der hier verwendete Durchschnittspreis, was die Rechnung für Flüssiggas weiter verschlechtert.
 
-## Was Sie wählen sollten
+## Die richtige Wahl für Ihre Terrasse
 
-- **Überdachte Terrasse, Wand- oder Deckenmontage:** Platinum Smart-Heat Electric mit einem Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät und einem Wandschalter.
-- **Offene Aufstellung, Strom in der Nähe:** Eclipse Smart-Heat Freestanding Electric mit dem Eclipse Steuergerät.
-- **Kein Strom, flexible Aufstellung, Flüssiggas zulässig:** Tungsten Smart-Heat Freestanding Gas. [[VERIFY: Affinity-Steuerungsoptionen für Tungsten Freestanding Gas — Produktteam]]
+- Auf einer überdachten Terrasse mit Wand oder Decke für die Montage: Platinum Smart-Heat Electric mit einem Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät und einem Wandschalter.
+- Bei offener Aufstellung mit Strom in der Nähe: Eclipse Smart-Heat Freestanding Electric mit dem Eclipse Steuergerät.
+- Wo es keinen Strom gibt, die Aufstellung flexibel ist und Flüssiggas zulässig ist: Tungsten Smart-Heat Freestanding Gas. [[VERIFY: Affinity-Steuerungsoptionen für Tungsten Freestanding Gas — Produktteam]]
 
 WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Steuerungen, die separat erhältlich sind.[^s3] Erdgas und die Fünf-Jahres-Betrachtung finden Sie im [ausführlichen Vergleich](item:COM-CO-01).
 

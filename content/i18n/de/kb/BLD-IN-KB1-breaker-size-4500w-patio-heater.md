@@ -1,23 +1,23 @@
 ---
 id: BLD-IN-KB1
 type: kb
-title: "Wie wird ein 4500-W-Terrassenheizstrahler abgesichert?"
+title: "Welche Absicherung braucht ein 4500-W-Terrassenheizstrahler?"
 audience: [BLD]
 stage: [IN]
 cell: BLD-IN
 asset: A16
-summary: "Die Stromberechnung für einen 4500-W-Elektro-Heizstrahler an 230 V, was die Absicherung in Deutschland bestimmt und warum das Typenschild die Grenze setzt."
+summary: "Der Strom hinter einem 4500-W-Elektro-Heizstrahler an 230 V, was die Absicherung in Deutschland bestimmt und warum das Typenschild die Grenze setzt – damit der Stromkreis von Anfang an stimmt."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Welche Absicherung braucht ein 4500-W-Terrassenheizstrahler?"
-meta_description: "Ein 4500-W-Heizstrahler zieht an 230 V rund 19,6 A. Leitung und Sicherung legt der Elektrofachbetrieb nach DIN VDE 0100 aus, innerhalb der Angaben auf dem Typenschild."
+meta_description: "Ein 4500-W-Terrassenheizstrahler zieht an 230 V rund 19,6 A. Absicherung und Leitung legt der Elektrofachbetrieb nach DIN VDE 0100 fest."
 cta: {label: "Leitfaden zur Vorverkabelung herunterladen", asset: A16}
 hero: t-006-016
 owner_review: Fachhandelsvertrieb
 status: draft
 gated: false
 related: [BLD-IN-01, BLD-IN-KB2]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: de
 translation_of: BLD-IN-KB1
 translation_status: machine-draft
@@ -46,40 +46,40 @@ sources:
     verified: true
 ---
 
-Ein 4500-W-Terrassenheizstrahler zieht an 230 V rund 19,6 A. Ein Heizstrahler läuft oft drei Stunden und länger am Stück und ist damit eine Dauerlast; Leitung und Schutzorgan müssen dafür ausgelegt sein. In Deutschland bemisst der Elektrofachbetrieb beides nach DIN VDE 0100, nicht nach US-Faustregeln. In jedem Fall darf die Absicherung den auf dem Typenschild des Heizstrahlers angegebenen Höchstwert nicht überschreiten[^s2].
+Ein 4500-W-Terrassenheizstrahler zieht an 230 V rund 19,6 A. Weil ein Heizstrahler einen ganzen Abend von drei Stunden und länger durchlaufen kann, gilt er als Dauerlast, und Leitung wie Schutzorgan müssen dafür ausgelegt sein. In Deutschland bemisst der Elektrofachbetrieb beides nach DIN VDE 0100, nicht nach US-Faustregeln. In jedem Fall muss die Absicherung innerhalb des Höchstwerts bleiben, der auf dem Typenschild des Heizstrahlers angegeben ist[^s2].
 
 *Nur eine Planungshilfe. Klären Sie die Ausführung mit einem Elektrofachbetrieb, anhand der Montageanleitung und mit dem zuständigen Bauamt.*
 
 [[VERIFY: aktuelle VDE-Regeln für Stromkreise von Heizstrahlern im Freien, insbesondere Absicherung und Leitungsquerschnitt bei 4500 W einphasig — Partner Deutschland]]
 
-## Wie wird gerechnet?
+## So ermitteln Sie die Absicherung
 
-Strom = Leistung ÷ Spannung.
+Teilen Sie die Leistung des Heizstrahlers durch die Netzspannung, dann kennen Sie seinen Strom.
 
 | 4500-W-Heizstrahler | Strom |
 |---|---|
 | Ausgelegt für 230 V, betrieben an 230 V | ca. 19,6 A |
 
-Wie die nächste Absicherung und der Leitungsquerschnitt gewählt werden, hängt von der Verlegeart, der Leitungslänge, der Umgebungstemperatur und den übrigen Verbrauchern am Stromkreis ab. Das legt der Elektrofachbetrieb nach DIN VDE 0100 fest.
+Welche Absicherung und welcher Leitungsquerschnitt daraus folgen, hängt von der Verlegeart, der Leitungslänge, der Umgebungstemperatur und den übrigen Verbrauchern am Stromkreis ab. Das legt der Elektrofachbetrieb nach DIN VDE 0100 fest.
 
-**Zum Vergleich, die US-Regel:** In den USA gilt ein Heizstrahler, der drei Stunden oder länger läuft, nach dem National Electrical Code als Dauerlast; Stromkreis und Leitungsschutz werden dort mit mindestens 125 % des Bemessungsstroms ausgelegt[^s2][^s3]. Diese Rechnung und die US-Sicherungsgrößen gelten nicht für Deutschland.
+**Zum Vergleich die US-Regel:** In den USA gilt ein Heizstrahler, der drei Stunden oder länger läuft, nach dem National Electrical Code als Dauerlast; Stromkreis und Leitungsschutz werden dort mit mindestens 125 % des Bemessungsstroms ausgelegt[^s2][^s3]. Diese Rechnung und die US-Sicherungsgrößen gelten nicht für Deutschland.
 
-## Was, wenn die Netzspannung nicht zum Gerät passt?
+## Wenn die Spannung vor Ort abweicht
 
-Bestellen Sie einen Heizstrahler, der für die Spannung vor Ort ausgelegt ist. Im US-Markt gibt es Anschlüsse mit 208 V, für die eigene Ausführungen nötig sind [[VERIFY: 208 V availability for Platinum 4500 W — Produktteam]]. Ein Heizstrahler an zu niedriger Spannung zieht weniger Strom, liefert aber auch deutlich weniger Leistung: Ein 240-V-Gerät an 208 V bringt nur rund 75 % seiner Leistung, etwa 3380 W. So entsteht leicht ein Heizstrahler, der sich nie warm genug anfühlt.
+Bestellen Sie einen Heizstrahler, der für die Spannung vor Ort ausgelegt ist. Im US-Markt gibt es Anschlüsse mit 208 V, für die eigene Ausführungen nötig sind [[VERIFY: 208 V availability for Platinum 4500 W — Produktteam]]. Ein Heizstrahler an zu niedriger Spannung zieht weniger Strom, liefert aber auch deutlich weniger Leistung: Ein 240-V-Gerät an 208 V bringt nur rund 75 % seiner Leistung, etwa 3380 W. So bleibt eine Terrasse an einem kühlen Abend leicht spürbar zu kühl.
 
-## Was bestimmt die Auslegung noch?
+## Was den Stromkreis außerdem prägt
 
-- **Höchstwert auf dem Typenschild.** Die Absicherung darf ihn nicht überschreiten.
-- **Leitungslänge.** Lange Leitungen brauchen wegen des Spannungsfalls unter Umständen einen größeren Querschnitt.
-- **Gemeinsame Stromkreise.** Rechnen Sie den Strom aller Heizstrahler am Stromkreis zusammen. Ein Heizstrahler je Stromkreis ist einfacher.
-- **Steuerung.** Der Stromkreis läuft über das zugehörige Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät und einen Wandschalter[^s1]; prüfen Sie die zulässige Last des Steuergeräts [[VERIFY: Affinity controller maximum load — Produktteam]].
+- Die Absicherung darf den Höchstwert auf dem Typenschild des Heizstrahlers nie überschreiten.
+- Lange Leitungen brauchen wegen des Spannungsfalls unter Umständen einen größeren Querschnitt.
+- An einem gemeinsamen Stromkreis rechnen Sie den Strom aller Heizstrahler zusammen; ein Heizstrahler je Stromkreis hält die Planung einfacher.
+- Der Stromkreis läuft über das zugehörige Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät und einen Wandschalter[^s1]. Prüfen Sie deshalb die zulässige Last des Steuergeräts [[VERIFY: Affinity controller maximum load — Produktteam]].
 
-## Checkliste
+## Bevor die Leitungen verlegt werden
 
 - Leistung und Spannung laut Typenschild bestätigt.
 - Strom bei 230 V berechnet.
-- Absicherung und Leitungsquerschnitt vom Elektrofachbetrieb nach DIN VDE 0100 festgelegt.
+- Absicherung und Leitungsquerschnitt vom Elektrofachbetrieb nach DIN VDE 0100 festgelegt, für Belastbarkeit und Leitungslänge.
 - Absicherung innerhalb des Höchstwerts auf dem Typenschild.
 - Steuergerät und Wandschalter im Stromlaufplan eingetragen.
 

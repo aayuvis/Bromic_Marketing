@@ -6,18 +6,18 @@ audience: [RES]
 stage: [PP]
 cell: RES-PP
 asset: null
-summary: "Ja, mit dem richtigen Heizstrahler und den richtigen Abständen. Was „im Freien“ bedeutet, warum Elektro zu überdachten Flächen passt und was ein Gas-Heizstrahler unter einem Dach braucht."
+summary: "Ja, mit dem richtigen Heizstrahler und den richtigen Abständen. Wann eine überdachte Fläche als „im Freien“ gilt, warum Elektro-Wärme so gut unter ein Dach passt und was ein Gas-Heizstrahler unter einem Dach braucht."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Darf ich einen Terrassenheizstrahler unter einer überdachten Terrasse betreiben?"
-meta_description: "Ja. Elektro-Heizstrahler an der Decke passen zu überdachten Terrassen; lassen Sie 30 % des Umfangs offen und halten Sie die Abstände der Anleitung ein. Gas verlangt mehr Sorgfalt."
+meta_description: "Ein Heizstrahler unter der überdachten Terrasse wirkt am schönsten als Elektro-Deckengerät. Lassen Sie 30 % des Umfangs offen und folgen Sie der Anleitung."
 cta: {label: "Planungsgespräch vereinbaren", asset: A07}
 hero: l-010-071
 owner_review: Marketing
 status: draft
 gated: false
 related: [RES-PP-01, RES-CO-01, RES-CO-KB2]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: de
 translation_of: RES-PP-KB1
 translation_status: machine-draft
@@ -46,7 +46,7 @@ sources:
     verified: true
 ---
 
-Ja. Eine überdachte Terrasse ist einer der besten Orte für einen Heizstrahler, sofern die Fläche weiterhin als „im Freien“ gilt – mindestens 30 % ihres Umfangs dauerhaft offen – und der Heizstrahler die Abstände aus seiner Montageanleitung einhält.[^s1] Üblich sind fest eingebaute Elektro-Heizstrahler, an der Decke montiert oder in sie eingelassen. Eine Teilüberdachung hilft sogar: Sie hält eine „Wärmewolke“ über dem Sitzbereich, die zusätzlich konvektive Wärme liefert.[^s1]
+Das dürfen Sie, und eine überdachte Terrasse ist einer der schönsten Orte für zusätzliche Wärme – sofern die Fläche weiterhin als „im Freien“ gilt, also mindestens 30 % ihres Umfangs dauerhaft offen sind, und der Heizstrahler die Abstände aus seiner Montageanleitung einhält.[^s1] Üblich sind fest eingebaute Elektro-Heizstrahler, an der Decke montiert oder in sie eingelassen. Eine Teilüberdachung hilft sogar, denn sie hält eine „Wärmewolke“ über dem Sitzbereich, die zusätzlich konvektive Wärme liefert.[^s1]
 
 ## Elektro oder Gas unter einem Dach?
 
@@ -57,12 +57,12 @@ Ja. Eine überdachte Terrasse ist einer der besten Orte für einen Heizstrahler,
 | Höhe | Decke ≥ 2,4 m, Wand ≥ 1,8 m über dem Boden (Bromic-Empfehlung)[^s1] | Abstand nach oben gemäß Anleitung [[VERIFY: Abstand nach oben beim Tungsten Freestanding Gas — Produktteam]] |
 | Möglichkeiten, Abstände einzuhalten | Einbausätze; Abhängestangen für hohe Decken; Einbau bei geringem Deckenabstand beim Tungsten (demnächst erhältlich)[^s1][^s2] | Wärmeabweiser verringern den nötigen Abstand über fest eingebauten Gas-Heizstrahlern[^s1] |
 
-## Was prüfe ich vor der Montage?
+## So bereiten Sie Ihre überdachte Terrasse vor
 
-- **Offenheit.** Mindestens 30 % des Umfangs offen. Wird die Fläche weiter geschlossen – Glaswände, herablassbare Screens –, gilt sie unter Umständen nicht mehr als „im Freien“.[^s1] Die meisten Hersteller sagen, dass Gas-Heizstrahler niemals in geschlossenen Räumen betrieben werden dürfen.[^s3]
-- **Deckenhöhe und Material.** Zuerst die Mindestmontagehöhen, dann der Abstand zur Decke, der von der Leistung abhängt.[^s1] Bei Holz gilt der Abstand zu brennbaren Materialien. [[VERIFY: Abstandstabelle je Modell — Produktteam]]
+- **Offenheit.** Lassen Sie mindestens 30 % des Umfangs offen. Schließen Sie die Fläche mit Glaswänden oder herablassbaren Screens weiter, gilt sie unter Umständen nicht mehr als „im Freien“.[^s1] Die meisten Hersteller sagen, dass Gas-Heizstrahler niemals in geschlossenen Räumen betrieben werden dürfen.[^s3]
+- **Deckenhöhe und Material.** Beginnen Sie mit den Mindestmontagehöhen, dann folgt der Abstand zur Decke, der von der Leistung abhängt.[^s1] Eine Holzdecke braucht ihren Abstand zu brennbaren Materialien. [[VERIFY: Abstandstabelle je Modell — Produktteam]]
 - **Steuerung.** Jeder Heizstrahler braucht eine: ein Affinity On/Off-, Dimmer- oder Eclipse-Steuergerät oder einen Wandschalter. Zonen und Zeitpläne in der App setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind.[^s2]
-- **Vorschriften.** Elektroinstallation nach DIN VDE 0100, Gasinstallation nach DVGW-TRGI (Erdgas) bzw. TRF (Flüssiggas). Klären Sie die Ausführung mit Ihrem Bauamt und einem Elektrofachbetrieb oder Gasinstallateur. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Freien — Partner Deutschland]]
+- **Vorschriften.** Die Elektroinstallation folgt DIN VDE 0100, die Gasinstallation DVGW-TRGI (Erdgas) bzw. TRF (Flüssiggas). Klären Sie die Ausführung mit Ihrem Bauamt und einem Elektrofachbetrieb oder Gasinstallateur. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Freien — Partner Deutschland]]
 
 Abstände und Ausrichtung finden Sie unter [wo Terrassenheizstrahler hingehören](item:RES-PP-01).
 

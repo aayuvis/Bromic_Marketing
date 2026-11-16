@@ -10,18 +10,18 @@ audience: [RES]
 stage: [CO]
 cell: RES-CO
 asset: null
-summary: "Waarom stralingswarmte blijft werken bij lichte tot matige wind, welke golflengtes het best tegen wind kunnen, en hoe je een winderig terras plant."
+summary: "Waarom stralingswarmte je comfortabel houdt bij lichte tot matige wind, welke golflengtes het best tegen wind kunnen, en hoe je een terras plant dat uitnodigend blijft als de wind aantrekt."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Werken infraroodverwarmers bij wind?"
-meta_description: "Ja, bij lichte tot matige wind: infrarood verwarmt mensen, niet de lucht. Kortegolfverwarmers kunnen het best tegen wind; langegolf verwaait het makkelijkst."
+meta_description: "Werken infraroodverwarmers bij wind? Ja, bij lichte tot matige wind, omdat infrarood mensen direct verwarmt. Kortegolf kan het best tegen wind."
 cta: {label: "Bereken je ruimte", asset: A03}
 hero: l-019-161
 owner_review: marketing
 status: draft
 gated: false
 related: [RES-CO-01, RES-PP-01, RES-AW-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -39,11 +39,11 @@ sources:
     verified: true
 ---
 
-Ja – bij lichte tot matige wind. Infraroodverwarmers verwarmen mensen en oppervlakken direct, zoals zonneschijn dat doet, in plaats van de lucht te verwarmen. Omdat wind lucht verplaatst en geen straling, houdt een goede stralingsverwarmer je warm op een winderige avond, waar de warmte van een convectieverwarmer gewoon zou wegwaaien.[^s1] Harde, aanhoudende wind onttrekt nog steeds warmte aan je huid, dus hoe je de ruimte plant, maakt verschil.
+Ja – bij lichte tot matige wind. Infraroodverwarmers verwarmen mensen en oppervlakken direct, net zoals zonneschijn dat doet, in plaats van de lucht om hen heen. Wind verplaatst lucht, maar stralingswarmte gaat er recht doorheen. Daarom houdt een goede stralingsverwarmer je comfortabel op een winderige avond, waar de warmte van een convectieverwarmer gewoon zou wegdrijven.[^s1] Harde, aanhoudende wind onttrekt nog steeds warmte aan je huid, en daarom maakt het verschil hoe je de ruimte plant.
 
 ## Welke infraroodverwarmers kunnen het best tegen wind?
 
-Dat hangt af van de golflengte – hoeveel van het vermogen van de verwarmer straling is in plaats van warme lucht.[^s1]
+Het komt neer op de golflengte – hoeveel van het vermogen van de verwarmer je bereikt als stralingswarmte in plaats van warme lucht.[^s1]
 
 | Golflengte | Aandeel straling | Gedrag bij wind | Opwarmtijd |
 |---|---|---|---|
@@ -53,16 +53,16 @@ Dat hangt af van de golflengte – hoeveel van het vermogen van de verwarmer str
 
 Hoe hoger het aandeel straling, hoe minder er voor de wind overblijft om mee te nemen. Bromic omschrijft zijn Tungsten Smart-Heat Freestanding Gas als windbestendig.[^s2]
 
-## Hoe plan ik warmte voor een winderig terras?
+## Een terras plannen dat warm blijft in de wind
 
-- **Breng eerst de wind in kaart.** De nabijheid van water en de overheersende windrichting staan op de planningschecklist van Bromic.[^s1]
-- **Zorg voor een windscherm.** Een scherm, muur of beplanting aan de windzijde laat de verwarmers veel meer voor je doen. Houd ten minste 30% van de omtrek open, zodat de ruimte een buitenruimte blijft.[^s1]
-- **Reken op meer warmte.** Het verwarmde oppervlak verschilt met omgeving en installatie; locaties aan de kust en onbeschutte plekken hebben vaak meer verwarmers of meer vermogen nodig dan een beschutte binnenplaats.[^s2]
-- **Gebruik de bediening om te reageren.** Met een Dimmer- of Eclipse-regelaar zet je het vermogen hoger als de wind aantrekt. Elke installatie heeft bediening nodig – een Affinity On/Off-, Dimmer- of Eclipse-regelaar, of een wandschakelaar; app-functies vereisen compatibele Affinity-bediening, die apart wordt verkocht.[^s2]
+- Begin met het in kaart brengen van de wind. De nabijheid van water en de overheersende windrichting staan op de planningschecklist van Bromic.[^s1]
+- Een scherm, muur of beplanting aan de windzijde laat je verwarmers veel meer voor je doen. Houd ten minste 30% van de omtrek open, zodat de ruimte een buitenruimte blijft.[^s1]
+- Reken op een onbeschutte plek op wat meer warmte. Het verwarmde oppervlak verschilt met omgeving en installatie; locaties aan de kust en onbeschutte plekken hebben vaak meer verwarmers of meer vermogen nodig dan een beschutte binnenplaats.[^s2]
+- Laat de bediening meebewegen met de avond. Met een Dimmer- of Eclipse-regelaar zet je het vermogen hoger als de wind aantrekt. Elke installatie heeft bediening nodig – een Affinity On/Off-, Dimmer- of Eclipse-regelaar, of een wandschakelaar; app-functies vereisen compatibele Affinity-bediening, die apart wordt verkocht.[^s2]
 
 ## De belangrijkste punten
 
-- Infrarood werkt bij lichte tot matige wind, omdat het mensen verwarmt en niet de lucht.[^s1]
+- Infrarood werkt bij lichte tot matige wind, omdat het mensen direct verwarmt.[^s1]
 - Kortegolf en middengolf kunnen het best tegen wind; langegolf heeft er het meest last van.[^s1]
 - Combineer op onbeschutte plekken een windscherm met extra verwarmd oppervlak.
 

@@ -10,18 +10,18 @@ audience: [RES]
 stage: [PP]
 cell: RES-PP
 asset: null
-summary: "Ja, met de juiste verwarmer en de juiste afstanden. Wat 'buiten' betekent, waarom elektrisch past onder een overkapping en wat een gasverwarmer onder een dak nodig heeft."
+summary: "Ja, met de juiste verwarmer en de juiste afstanden. Wanneer een overdekte ruimte als buiten telt, waarom elektrische warmte zo goed onder een dak past en wat een gasverwarmer onder een dak nodig heeft."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Kan ik een terrasverwarmer onder een overdekt terras hangen?"
-meta_description: "Ja. Elektrische plafondverwarmers passen onder een overdekt terras; houd 30% van de omtrek open en volg de afstanden uit de handleiding. Gas vraagt meer zorg."
+meta_description: "Een terrasverwarmer onder een overdekt terras werkt prachtig met elektrische plafondverwarming. Houd 30% van de omtrek open en volg de handleiding."
 cta: {label: "Plan een ontwerpgesprek", asset: A07}
 hero: l-010-071
 owner_review: marketing
 status: draft
 gated: false
 related: [RES-PP-01, RES-CO-01, RES-CO-KB2]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -46,7 +46,7 @@ sources:
     verified: true
 ---
 
-Ja. Een overdekt terras is een van de beste plekken voor een verwarmer, zolang de ruimte nog als buiten telt – minstens 30% van de omtrek blijvend open – en de verwarmer de afstanden houdt die de installatiehandleiding voorschrijft.[^s1] Ingebouwde elektrische verwarmers, aan het plafond of erin weggewerkt, zijn de gebruikelijke keuze. Een gedeeltelijke overkapping helpt zelfs: die houdt een 'warmtewolk' boven de zitplekken vast die er een beetje convectiewarmte bij geeft.[^s1]
+Dat kan, en een overdekt terras is een van de mooiste plekken om warmte toe te voegen – zolang de ruimte nog als buiten telt, met minstens 30% van de omtrek blijvend open, en de verwarmer de afstanden houdt die de installatiehandleiding voorschrijft.[^s1] Ingebouwde elektrische verwarmers, aan het plafond of erin weggewerkt, zijn de gebruikelijke keuze. Een gedeeltelijke overkapping helpt zelfs, want die houdt een 'warmtewolk' boven de zitplekken vast die er wat convectiewarmte bij geeft.[^s1]
 
 ## Elektrisch of gas onder een dak?
 
@@ -57,12 +57,12 @@ Ja. Een overdekt terras is een van de beste plekken voor een verwarmer, zolang d
 | Hoogte | Plafond ≥ 2,4 m, wand ≥ 1,8 m boven de vloer (richtlijn van Bromic)[^s1] | Vrije hoogte volgens de handleiding [[VERIFY: vrije hoogte boven Tungsten Freestanding Gas — productteam]] |
 | Zo los je de vrije hoogte op | Inbouwsets; ophangstangen bij hoge plafonds; inbouw met lage vrije hoogte bij Tungsten (binnenkort)[^s1][^s2] | Hitteschermen verkleinen de benodigde ruimte boven ingebouwde gasverwarmers[^s1] |
 
-## Wat controleer ik voor de installatie?
+## Je overdekte terras klaarmaken
 
-- **Openheid.** Minstens 30% van de omtrek open. Sluit je het verder af – glazen wanden, neerlaatbare schermen – dan telt het misschien niet meer als buiten.[^s1] De meeste fabrikanten zeggen dat gasverwarmers nooit in een afgesloten ruimte mogen branden.[^s3]
-- **Plafondhoogte en materiaal.** Eerst de minimale montagehoogte, dan de afstand tot het plafond, die afhangt van het vermogen.[^s1] Hout vraagt zijn afstand tot brandbaar materiaal. [[VERIFY: afstandentabel per model — productteam]]
-- **Bediening.** Elke verwarmer heeft er een nodig: een Affinity On/Off-, Dimmer- of Eclipse-regelaar, of een wandschakelaar. Zones en schema's in de app vragen om compatibele Affinity Smart-Heat Controls, apart verkrijgbaar.[^s2]
-- **Normen.** De Planning Guide noemt de Amerikaanse normen voor elektra en gas.[^s1] In Nederland gelden NEN 1010 voor de elektrische installatie en NEN 1078 voor gas. Overleg met je gemeente en een erkende installateur of gasinstallateur. [[VERIFY: huidige edities NEN 1010 en NEN 1078 — Bromic Benelux distributor]]
+- **Openheid.** Houd minstens 30% van de omtrek open. Sluit je het verder af met glazen wanden of neerlaatbare schermen, dan telt het misschien niet meer als buiten.[^s1] De meeste fabrikanten zeggen dat gasverwarmers nooit in een afgesloten ruimte mogen branden.[^s3]
+- **Plafondhoogte en materiaal.** Begin met de minimale montagehoogte, daarna de afstand tot het plafond, die afhangt van het vermogen.[^s1] Een houten plafond vraagt zijn afstand tot brandbaar materiaal. [[VERIFY: afstandentabel per model — productteam]]
+- **Bediening.** Elke verwarmer heeft er een nodig: een Affinity On/Off-, Dimmer- of Eclipse-regelaar, of een wandschakelaar. Zones en schema's in de app vragen om compatibele Affinity Smart-Heat Controls, die apart verkrijgbaar zijn.[^s2]
+- **Normen.** De Planning Guide noemt de Amerikaanse normen voor elektra en gas.[^s1] In Nederland volgt de elektrische installatie NEN 1010 en de gasinstallatie NEN 1078. Overleg met je gemeente en een erkende installateur of gasinstallateur. [[VERIFY: huidige edities NEN 1010 en NEN 1078 — Bromic Benelux distributor]]
 
 Lees [waar je terrasverwarmers plaatst](item:RES-PP-01) voor onderlinge afstanden en richting.
 

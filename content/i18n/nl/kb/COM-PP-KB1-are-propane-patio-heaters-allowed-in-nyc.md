@@ -6,18 +6,18 @@ audience: [COM]
 stage: [PP]
 cell: COM-PP
 asset: A22
-summary: "Kort antwoord over terrasverwarmers op propaan, aardgas en elektriciteit voor buitenterrassen in New York City, met de primaire bronnen om na te gaan. Een Amerikaans voorbeeld; in Nederland gelden andere regels."
+summary: "Het korte antwoord over terrasverwarmers op propaan, aardgas en elektriciteit voor buitenterrassen in New York City, met de primaire bronnen om na te gaan vóór uw eerste winterservice. Een Amerikaans voorbeeld; in Nederland gelden andere regels."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Zijn terrasverwarmers op propaan toegestaan in New York?"
-meta_description: "New York trok per 1 juni 2021 de toestemming in voor propaanverwarmers op buitenterrassen. Wat dat betekent voor horeca, en wat elektrische en gasverwarmers nodig hebben."
+meta_description: "Zijn propaanverwarmers toegestaan in New York? Op buitenterrassen is de toestemming per 1 juni 2021 ingetrokken. Wat de horeca nu gebruikt."
 cta: {label: "Download de checklist voor vergunningen en brandveiligheid", asset: A22}
 hero: l-013-107
 owner_review: specificatie en compliance
 status: draft
 gated: false
 related: [COM-PP-01, COM-CO-KB1]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: City of New York, Office of the Mayor
@@ -48,11 +48,11 @@ native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 
 Dit artikel gaat over New York City, in de VS. Voor een terras in Nederland gelden andere regels: de gemeente, NEN 1010 voor elektrische installaties en NEN 1078 voor gasinstallaties. [[VERIFY: geldende Nederlandse regels voor propaan- en gasverwarmers op horecaterrassen — Bromic Benelux distributor]]
 
-Volgens de meest recente primaire bronnen die we konden vinden: nee, niet op buitenterrassen. New York City trok per 1 juni 2021 de toestemming in om op buitenterrassen verwarmers op propaan te gebruiken, en eiste dat de gasflessen voor buitenverwarming werden verwijderd.[^s1] Elektrische stralingsverwarmers blijven daar de eenvoudige keuze. [[VERIFY: bevestigen dat geen latere order of wijziging van de Fire Code propaanverwarmers weer heeft toegestaan — specificatie en compliance]]
+Volgens de meest recente primaire bronnen die we konden vinden is het antwoord nee – in elk geval niet op buitenterrassen. New York City trok per 1 juni 2021 de toestemming in om op buitenterrassen verwarmers op propaan te gebruiken, en eiste dat de gasflessen voor buitenverwarming werden verwijderd.[^s1] Elektrische stralingsverwarmers blijven de eenvoudige manier om een terras in New York warm te houden. [[VERIFY: bevestigen dat geen latere order of wijziging van de Fire Code propaanverwarmers weer heeft toegestaan — specificatie en compliance]]
 
 > **Disclaimer.** Alleen informatie voor de planning, geen juridisch advies. In New York: raadpleeg de FDNY (brandweer) en het NYC Department of Buildings en werk met een erkende elektricien of erkende gasinstallateur. In Nederland: raadpleeg uw gemeente en laat het werk uitvoeren door een vakbekwame elektrotechnisch installateur of gasinstallateur.
 
-## Wat kan een restaurant in New York in plaats daarvan gebruiken?
+## Wat een restaurant in New York in plaats daarvan kan gebruiken
 
 | Verwarmer | Status op buitenterrassen | Wat er nodig is |
 |---|---|---|
@@ -62,18 +62,18 @@ Volgens de meest recente primaire bronnen die we konden vinden: nee, niet op bui
 
 Ook de levering van propaan is gereguleerd: de Fire Code verbiedt het leveren van vergunningsplichtige hoeveelheden aan een locatie zonder FDNY-vergunning.[^s3]
 
-## Welke Bromic-verwarmers passen bij een terras in New York?
+## Bromic-verwarmers voor een terras in New York
 
-Elektrische. Platinum Smart-Heat Electric (2300, 3400 of 4500 W, een verwarmd oppervlak van ongeveer 6–13 m²) wordt gemonteerd aan een wand, een overstek of het frame van een zonnescherm, met een Affinity Smart-Heat On/Off- of Dimmer-regelaar en een wandschakelaar. Eclipse Smart-Heat Electric (ongeveer 11 m²) geeft warmte én licht op een paal, met de Eclipse-regelaar. Voor wifi- en app-functies (zones, schema's, timers) zijn compatibele Affinity Smart-Heat Controls nodig, die apart worden verkocht.
+Elektrische warmte past het best bij New York. Platinum Smart-Heat Electric (2300, 3400 of 4500 W, een verwarmd oppervlak van ongeveer 6–13 m²) wordt gemonteerd aan een wand, een overstek of het frame van een zonnescherm, met een Affinity Smart-Heat On/Off- of Dimmer-regelaar en een wandschakelaar. Eclipse Smart-Heat Electric (ongeveer 11 m²) brengt warmte en licht samen op een paal, met de Eclipse-regelaar. Voor wifi- en app-functies – zones, schema's, timers – zijn compatibele Affinity Smart-Heat Controls nodig, die apart worden verkocht.
 
-## Checklist
+## Voordat u de aanvraag indient
 
 - Ga na wat het huidige standpunt van de FDNY en het DOB is voor uw type terras.
 - Laat een erkende elektricien de elektrische aansluiting dimensioneren.
 - Houd keuringsgegevens en specificatiebladen bij de hand voor de aanvraag.
 - Zie [de volledige checklist voor vergunningen en brandveiligheid](item:COM-PP-01).
 
-Neem het mee naar uw aanvraag: download de checklist voor vergunningen en brandveiligheid.
+Neem het mee naar uw aanvraag – download de checklist voor vergunningen en brandveiligheid.
 
 [^s1]: City of New York, Emergency Executive Order No. 200, 2021.
 [^s2]: NYC Department of Buildings, Buildings Bulletin 2024-005.

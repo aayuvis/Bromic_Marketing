@@ -6,18 +6,18 @@ audience: [RES]
 stage: [CO]
 cell: RES-CO
 asset: null
-summary: "Was einen Heizstrahler im Außenbereich im Familienhaushalt sicherer macht: Montagehöhe, Zertifizierung, Umschließung und Aufsicht – nur mit belegten Aussagen."
+summary: "Was einen Heizstrahler zur sichereren Wahl für eine Familienterrasse macht – Montagehöhe, Zertifizierung, Umschließung und Aufsicht –, ausschließlich mit belegten Empfehlungen."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Sind Infrarot-Heizstrahler im Freien sicher für Kinder und Haustiere?"
-meta_description: "Hoch montierte, fachgerecht installierte Infrarot-Heizstrahler passen zu Familienterrassen. Halten Sie um freistehende Geräte eine kinderfreie Zone von ca. 0,9 m und beaufsichtigen Sie."
+meta_description: "Hoch montierte, fachgerecht installierte Infrarot-Heizstrahler passen zu Familienterrassen. Um freistehende Geräte ca. 0,9 m kinderfrei halten."
 cta: {label: "Fläche berechnen", asset: A03}
 hero: t-011-031
 owner_review: Marketing
 status: draft
 gated: false
 related: [RES-CO-01, RES-PP-01, RES-PP-KB1]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: de
 translation_of: RES-CO-KB2
 translation_status: machine-draft
@@ -53,9 +53,9 @@ sources:
     verified: true
 ---
 
-Ja, wenn es die richtige Art von Heizstrahler ist, er vorschriftsgemäß installiert ist und außer Reichweite hängt. Ein fest montierter elektrischer Heizstrahler an der Wand in mindestens ca. 1,83 m Höhe oder an der Decke in mindestens ca. 2,44 m Höhe hängt über dem Spielbereich und verbrennt keinen Brennstoff.[^s1] Freistehende Heizstrahler brauchen mehr Sorgfalt: Halten Sie Kinder und Haustiere aus einer Zone von ca. 0,9 m um das Gerät fern und beaufsichtigen Sie, solange es läuft.[^s3] [[VERIFY: NFPA tip wording read on nfpa.org — Marketing]]
+Das können sie sein, wenn der Heizstrahler die richtige Bauart hat, vorschriftsgemäß installiert ist und außer Reichweite bleibt. Ein fest montierter elektrischer Heizstrahler an der Wand in mindestens ca. 1,83 m Höhe oder an der Decke in mindestens ca. 2,44 m Höhe hängt weit über dem Spielbereich und verbrennt keinen Brennstoff.[^s1] Freistehende Heizstrahler verlangen etwas mehr Sorgfalt: Halten Sie Kinder und Haustiere aus einer Zone von ca. 0,9 m um das Gerät fern und beaufsichtigen Sie, solange es läuft.[^s3] [[VERIFY: Wortlaut des NFPA-Tipps auf nfpa.org geprüft — Marketing]]
 
-## Was macht eine Lösung sicherer als eine andere?
+## Was eine Lösung sicherer macht als eine andere
 
 | Kriterium | Sicherere Wahl | Warum |
 |---|---|---|
@@ -63,14 +63,14 @@ Ja, wenn es die richtige Art von Heizstrahler ist, er vorschriftsgemäß install
 | Energieart in der Nähe umschlossener Bereiche | Elektro | Keine Verbrennung; Gas oder Flüssiggas in einem umschlossenen Bereich birgt ein Kohlenmonoxid-Risiko[^s4] |
 | Zertifizierung | Ein anerkanntes Prüfzeichen; in Nordamerika Intertek, UL oder CSA, in Europa die CE-Kennzeichnung | In Nordamerika für Gas- und Elektrogeräte vorgeschrieben, auch für tragbare Heizgeräte[^s1] [[VERIFY: CE-Kennzeichnung und europäische Prüfnachweise je Modell — Produktteam]] |
 | Standfestigkeit freistehender Geräte | Kippschutz oder beschwerter Fuß | Tungsten Freestanding Gas hat einen Kippschutz, Eclipse Freestanding einen beschwerten Fuß[^s2] |
-| Installation | Elektrofachbetrieb oder Gasinstallateur, nach DIN VDE 0100 bzw. DVGW-TRGI und TRF | Die Regelwerke betreffen Aufstellung, Versorgung und Abstand zu brennbaren Materialien[^s1] [[VERIFY: current VDE and DVGW rules for outdoor heaters — Partner Deutschland]] |
+| Installation | Elektrofachbetrieb oder Gasinstallateur, nach DIN VDE 0100 bzw. DVGW-TRGI und TRF | Die Regelwerke betreffen Aufstellung, Versorgung und Abstand zu brennbaren Materialien[^s1] [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Freien — Partner Deutschland]] |
 
-## Worauf sollten Familien achten?
+## Entspannte Abende mit der ganzen Familie
 
-- **Heiße Oberflächen.** Heizelemente arbeiten mit sehr hohen Temperaturen – ein Kurzwellenelement ist im Bromic-Leitfaden mit rund 2200 °C angegeben.[^s1] Niemand sollte die Front eines Heizstrahlers berühren, weder im Betrieb noch kurz nach dem Ausschalten. [[VERIFY: cool-down time and housing surface temperatures by model — Produktteam]]
-- **Kinderfreie Zone.** Die US-Brandschutzorganisation NFPA empfiehlt eine kinderfreie Zone von ca. 0,9 m um Heizgeräte und offene Feuer und rät, Brennbares – Kissen, Spielzeug, Decken – mindestens ca. 0,9 m entfernt zu halten.[^s3]
-- **Haustiere.** Halten Sie Körbe und Näpfe aus dem Wärmeweg, damit Tiere der Wärme ausweichen können. [[VERIFY: any Bromic manual guidance on pets — Produktteam]]
-- **Ausschalten.** Zeitpläne und Timer in der Bromic Smart-Heat App beenden die Wärme mit dem Abend; sie erfordern kompatible Affinity Smart-Heat Controls, separat erhältlich. Jede Anlage hat eine Steuerung – ein Affinity On/Off-, Dimmer- oder Eclipse-Steuergerät oder einen Wandschalter.[^s2]
+- **Heiße Oberflächen.** Heizelemente arbeiten mit sehr hohen Temperaturen – ein Kurzwellenelement ist im Bromic-Leitfaden mit rund 2200 °C angegeben.[^s1] Niemand sollte die Front eines Heizstrahlers berühren, weder im Betrieb noch kurz nach dem Ausschalten. [[VERIFY: Abkühlzeit und Oberflächentemperaturen des Gehäuses je Modell — Produktteam]]
+- **Eine kinderfreie Zone.** Die US-Brandschutzorganisation NFPA empfiehlt eine kinderfreie Zone von ca. 0,9 m um Heizgeräte und offene Feuer und rät, Brennbares – Kissen, Spielzeug, Decken – mindestens ca. 0,9 m entfernt zu halten.[^s3]
+- **Haustiere.** Halten Sie Körbe und Näpfe aus dem Wärmeweg, damit Tiere der Wärme jederzeit ausweichen können, wenn sie möchten. [[VERIFY: Hinweise zu Haustieren in den Bromic-Anleitungen — Produktteam]]
+- **Ausschalten.** Zeitpläne und Timer in der Bromic Smart-Heat App beenden die Wärme, wenn der Abend endet; sie erfordern kompatible Affinity Smart-Heat Controls, die separat erhältlich sind. Jede Anlage hat eine Steuerung – ein Affinity On/Off-, Dimmer- oder Eclipse-Steuergerät oder einen Wandschalter.[^s2]
 
 Klären Sie die Anforderungen an die Installation mit Ihrem Bauamt und einem Elektrofachbetrieb oder Gasinstallateur.
 

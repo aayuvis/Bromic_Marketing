@@ -6,18 +6,18 @@ audience: [BLD]
 stage: [IN]
 cell: BLD-IN
 asset: A16
-summary: "Welchen Strom 2300-, 3400- und 4500-W-Heizstrahler bei 230 V ziehen, wie der Elektrofachbetrieb den Stromkreis nach DIN VDE 0100 auslegt und warum ein Heizstrahler je Stromkreis meist die bessere Wahl ist."
+summary: "Welchen Strom 2300-, 3400- und 4500-W-Heizstrahler bei 230 V ziehen, wie der Elektrofachbetrieb den Stromkreis nach DIN VDE 0100 auslegt und warum ein eigener Stromkreis je Heizstrahler einem Projekt meist am besten dient."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie viele Heizstrahler passen auf einen Stromkreis?"
-meta_description: "Bei 230 V zieht ein 2300-W-Heizstrahler rund 10 A, ein 3400-W-Gerät rund 15 A, ein 4500-W-Gerät rund 20 A. Ein Heizstrahler je Stromkreis ist am einfachsten."
+meta_description: "Heizstrahler je Stromkreis bei 230 V: 2300 W zieht rund 10 A, 3400 W rund 15 A, 4500 W rund 20 A. Ein Gerät je Kreis ist am klarsten."
 cta: {label: "Leitfaden zur Vorverkabelung herunterladen", asset: A16}
 hero: l-010-070
 owner_review: Fachhandelsvertrieb
 status: draft
 gated: false
 related: [BLD-IN-01, BLD-IN-KB1, BLD-PP-01]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: de
 translation_of: BLD-IN-KB2
 translation_status: machine-draft
@@ -46,11 +46,11 @@ sources:
     verified: false
 ---
 
-Ein Heizstrahler ist eine Dauerlast: Er läuft oft über Stunden mit voller Leistung. Bei 230 V zieht ein 2300-W-Gerät rund 10 A, ein 3400-W-Gerät rund 15 A und ein 4500-W-Gerät rund 20 A (Strom = Watt ÷ 230)[^s1]. Wie viele Geräte ein Stromkreis trägt, legt der Elektrofachbetrieb nach DIN VDE 0100 fest: Absicherung, Leitungsquerschnitt, Verlegeart und Leitungslänge gehören zusammen. Für die meisten Bauvorhaben ist ein Heizstrahler je Stromkreis die bessere Lösung.
+Ein Heizstrahler ist eine Dauerlast, denn er läuft oft über Stunden mit voller Leistung. Bei 230 V zieht ein 2300-W-Gerät rund 10 A, ein 3400-W-Gerät rund 15 A und ein 4500-W-Gerät rund 20 A (Strom = Watt ÷ 230)[^s1]. Wie viele Geräte ein Stromkreis trägt, legt der Elektrofachbetrieb nach DIN VDE 0100 fest, wobei Absicherung, Leitungsquerschnitt, Verlegeart und Leitungslänge zusammengehören. Für die meisten Bauvorhaben ist ein eigener Stromkreis je Heizstrahler die klarere Wahl, und sie hält jede Zone einfach steuerbar.
 
-*Nur eine Planungshilfe. Klären Sie die Auslegung mit einem eingetragenen Elektrofachbetrieb, der Installationsanleitung und Ihrer zuständigen Baubehörde (Bauamt) ab. [[VERIFY: current VDE and DVGW rules for outdoor heaters — Partner Deutschland]]*
+*Nur eine Planungshilfe. Klären Sie die Auslegung mit einem eingetragenen Elektrofachbetrieb, der Installationsanleitung und Ihrer zuständigen Baubehörde (Bauamt) ab. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Freien — Partner Deutschland]]*
 
-## Welchen Strom ziehen die Heizstrahler bei 230 V?
+## Was ein Stromkreis bei 230 V trägt
 
 Strom = Summe der Watt auf dem Stromkreis ÷ 230 V.
 
@@ -62,29 +62,29 @@ Strom = Summe der Watt auf dem Stromkreis ÷ 230 V.
 | Zwei 2300-W-Geräte (4600 W) | ca. 20,0 A |
 | Ein 2300-W- und ein 3400-W-Gerät (5700 W) | ca. 24,8 A |
 
-Welche Absicherung und welcher Querschnitt zu diesen Strömen passen, hängt von der Dauerlast, der Verlegeart, der Umgebungstemperatur und der Leitungslänge ab. Das bemisst der Elektrofachbetrieb nach DIN VDE 0100, nicht eine Tabelle in einem Leitfaden. [[VERIFY: Auslegung von Stromkreisen für ortsfeste Heizgeräte im Außenbereich nach DIN VDE 0100 (Absicherung, Dauerlast, Fehlerstromschutz) — Partner Deutschland]]
+Welche Absicherung und welcher Querschnitt zu diesen Strömen passen, hängt von der Dauerlast, der Verlegeart, der Umgebungstemperatur und der Leitungslänge ab. Das bemisst der Elektrofachbetrieb nach DIN VDE 0100 und nicht eine Tabelle in einem Leitfaden. [[VERIFY: Auslegung von Stromkreisen für ortsfeste Heizgeräte im Außenbereich nach DIN VDE 0100 (Absicherung, Dauerlast, Fehlerstromschutz) — Partner Deutschland]]
 
-Zum Vergleich: In den USA wird eine Dauerlast nach dem National Electrical Code mit 125 % angesetzt, sodass ein Stromkreis nur zu 80 % seines Nennwerts belastet wird[^s2]. Diese US-Regel gilt in Deutschland nicht unmittelbar; sie zeigt aber, warum ein Stromkreis für Heizstrahler Reserve braucht.
+Zum Vergleich: In den USA wird eine Dauerlast nach dem National Electrical Code mit 125 % angesetzt, sodass ein Stromkreis nur zu 80 % seines Nennwerts belastet wird[^s2]. Diese US-Regel gilt in Deutschland nicht unmittelbar, sie zeigt aber, warum ein Stromkreis für Heizstrahler Reserve braucht.
 
-## Gibt es eine Grenze für gemeinsam genutzte Heizstromkreise?
+## Gibt es eine Grenze für gemeinsame Heizstromkreise?
 
-In den USA lesen Praktiker den NEC so, dass ein Stromkreis, der zwei oder mehr ortsfeste Heizgeräte versorgt, auf 30 A begrenzt ist [[VERIFY: confirm 424.4(A) text in the adopted NEC edition and whether outdoor radiant heaters fall under Article 424 or 422 — licensed electrician / Produktteam]][^s3]. Für Deutschland gilt DIN VDE 0100. Planen Sie keinen gemeinsamen Stromkreis für mehrere Geräte, ohne das mit dem Elektrofachbetrieb abzustimmen.
+Das kann sein. In den USA lesen Praktiker den NEC so, dass ein Stromkreis, der zwei oder mehr ortsfeste Heizgeräte versorgt, auf 30 A begrenzt ist [[VERIFY: Text von 424.4(A) in der angewandten NEC-Ausgabe bestätigen und klären, ob Infrarot-Heizstrahler im Freien unter Article 424 oder 422 fallen — Elektrofachbetrieb / Produktteam]][^s3]. Für Deutschland gilt DIN VDE 0100, deshalb stimmen Sie einen gemeinsamen Stromkreis für mehrere Geräte vorher mit dem Elektrofachbetrieb ab.
 
-## Warum ist ein Heizstrahler je Stromkreis meist besser?
+## Warum ein Heizstrahler je Stromkreis meist am besten passt
 
-- **Zonen.** Jeder Heizstrahler oder jede Zone erhält ein eigenes Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät und einen Wandschalter.
-- **Fehlersuche.** Löst eine Sicherung aus, ist nur ein Heizstrahler betroffen, nicht die ganze Terrasse.
-- **Last am Steuergerät.** Jedes Steuergerät hat eine Höchstlast [[VERIFY: Affinity controller load rating — Produktteam]].
-- **Erweiterungen.** Wer später aufrüstet, ergänzt einen Heizstrahler, ohne eine gemeinsame Leitung neu zu verlegen.
+- Jeder Heizstrahler oder jede Zone erhält ein eigenes Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät und einen Wandschalter, sodass sich jeder Bereich für sich wärmen lässt.
+- Löst eine Sicherung aus, ist nur ein Heizstrahler betroffen, und der Rest der Terrasse bleibt warm, während der Fehler gesucht wird.
+- Jedes Steuergerät hat eine Höchstlast [[VERIFY: Lastangabe der Affinity-Steuergeräte — Produktteam]], die sich mit getrennten Stromkreisen einfach einhalten lässt.
+- Wer später eine Stufe höher geht, ergänzt einen Heizstrahler, ohne eine gemeinsame Leitung neu zu verlegen.
 
 App-, Zeitplan- und Sprachsteuerung setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind[^s1].
 
-## Checkliste
+## Bevor die Leitungen verlegt werden
 
 - Die Watt aller Heizstrahler auf dem Stromkreis addieren und durch 230 V teilen.
-- Absicherung und Querschnitt vom Elektrofachbetrieb nach DIN VDE 0100 für Dauerlast auslegen lassen; die Höchstwerte auf jedem Typenschild einhalten.
+- Absicherung und Querschnitt vom Elektrofachbetrieb nach DIN VDE 0100 für Dauerlast auslegen lassen und die Höchstwerte auf jedem Typenschild einhalten.
 - Die Lastangaben der Steuergeräte prüfen.
-- Standardmäßig ein Heizstrahler je Stromkreis.
+- Grundsätzlich ein Heizstrahler je Stromkreis.
 
 [^s1]: Bromic, Lookbook 2026.
 [^s2]: EC&M, NEC-Anforderungen an Geräte (Article 422; Article 100, Dauerlast) – US-Vorschrift.

@@ -6,18 +6,18 @@ audience: [COM]
 stage: [IN]
 cell: COM-IN
 asset: A07
-summary: "Hoeveel terrasverwarmers een terras met 40 zitplaatsen nodig heeft: plafond- en wandverwarmers op basis van oppervlak, gecorrigeerd voor overkapping en klimaat; vrijstaande verwarmers nooit meer dan vier zitplaatsen per stuk. Met een uitgewerkt voorbeeld voor 40 zitplaatsen."
+summary: "Hoeveel terrasverwarmers een terras met 40 zitplaatsen warm houden: hangende verwarmers op basis van oppervlak, gecorrigeerd voor overkapping en klimaat, en vrijstaande verwarmers voor hooguit vier zitplaatsen per stuk, met een uitgewerkt voorbeeld."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoeveel terrasverwarmers heb ik nodig voor een restaurantterras met 40 zitplaatsen?"
-meta_description: "Voor een terras met 40 zitplaatsen bepaalt het oppervlak het aantal hangende verwarmers; bij vrijstaande nooit meer dan vier zitplaatsen per verwarmer. Uitgewerkt voorbeeld voor ca. 74 m²."
+meta_description: "Verwarmers voor 40 zitplaatsen: hangend op oppervlak, overkapping en klimaat; vrijstaand hooguit vier per stuk. Voorbeeld voor ca. 74 m²."
 cta: {label: "Plan een ontwerpgesprek", asset: A07}
 hero: p-002-001
 owner_review: verkoop horeca
 status: draft
 gated: false
 related: [COM-IN-01, COM-AW-01]
-updated: 2026-10-30
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -45,13 +45,13 @@ translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 ---
 
-Bij hangende verwarmers (aan plafond, wand of overkapping) hangt het af van het oppervlak; bij vrijstaande verwarmers geldt: nooit meer dan vier zitplaatsen per verwarmer. Met ongeveer 1,9 m² per zitplaats nemen 40 zitplaatsen zo'n 74 m² in beslag.[^s3] Deel dat door het verwarmd oppervlak van elke hangende verwarmer, gecorrigeerd voor overkapping en klimaat, en rond naar boven af: zeven Platinum 4500 W (met Affinity On/Off- of Dimmer-bediening en een wandschakelaar) of acht Eclipse (met de Eclipse-regelaar) op een gedeeltelijk overdekt terras op koele avonden. Vrijstaande verwarmers: minstens tien, één per vier zitplaatsen.
+Hangende verwarmers (aan plafond, wand of overkapping) telt u op basis van het oppervlak, en elke vrijstaande verwarmer verwarmt hooguit vier zitplaatsen. Met ongeveer 1,9 m² per zitplaats nemen 40 zitplaatsen zo'n 74 m² in beslag.[^s3] Deel dat door het verwarmd oppervlak van elke hangende verwarmer, gecorrigeerd voor overkapping en klimaat, en rond naar boven af: op een gedeeltelijk overdekt terras op koele avonden zijn dat zeven Platinum 4500 W (met Affinity On/Off- of Dimmer-bediening en een wandschakelaar) of acht Eclipse (met de Eclipse-regelaar). Vrijstaande verwarmers: minstens tien.
 
-## De methode
+## Verwarmers tellen voor uw zitplaatsen
 
-1. **Meet** het zitgedeelte dat u warm wilt hebben: de tafels en stoelen, niet de plantenbakken. Werkt u vanuit een aantal zitplaatsen, reken dan ongeveer 1,9 m² per zitplaats, gangpaden inbegrepen. Dat is de bovenkant van de NAFEM-bandbreedte, zodat de tafels niet op elkaar staan.[^s3]
+1. **Meet** het zitgedeelte dat u warm wilt hebben – de tafels en stoelen, zonder de plantenbakken. Werkt u vanuit een aantal zitplaatsen, reken dan ongeveer 1,9 m² per zitplaats, gangpaden inbegrepen. Dat is de bovenkant van de NAFEM-bandbreedte, zodat uw gasten ruimte hebben aan tafel.[^s3]
 2. **Hangende en inbouwverwarmers:** aantal = oppervlak ÷ (verwarmd oppervlak × overkappingsfactor × klimaatfactor), naar boven afgerond. Het verwarmd oppervlak is het door Bromic gepubliceerde cijfer.[^s1]
-3. **Vrijstaande verwarmers:** dezelfde som, maar nooit meer dan vier zitplaatsen per verwarmer, omdat zittende gasten de stralingswarmte van een vrijstaand toestel afschermen. Neem de grootste van oppervlak ÷ effectief verwarmd oppervlak en zitplaatsen ÷ 4.
+3. **Vrijstaande verwarmers:** dezelfde som, met hooguit vier zitplaatsen per verwarmer, omdat zittende gasten de stralingswarmte van een vrijstaand toestel afschermen. Neem de grootste van oppervlak ÷ effectief verwarmd oppervlak en zitplaatsen ÷ 4.
 
 | Overkapping | Factor | Klimaat (avonden dat u verwarmt) | Factor |
 |---|---|---|---|
@@ -59,7 +59,7 @@ Bij hangende verwarmers (aan plafond, wand of overkapping) hangt het af van het 
 | Gedeeltelijk overdekt (pergola, parasol, deels dak) | 1,0 | Koel (ongeveer 4–10 °C) | 0,85 |
 | Overdekt (dicht dak) | 1,1 | Koud (vaak onder ongeveer 4 °C) | 0,7 |
 
-De factoren zijn planningsaannames, geen gepubliceerde waarden. [[VERIFY: factoren voor overkapping en klimaat — productteam]] Ze volgen het eigen voorbeeld van Bromic uit de VS, waarin hetzelfde terras van ongeveer 19 m² in Californië twee verwarmers nodig heeft en in Massachusetts drie, en waarin een gedeeltelijke overkapping een 'warmtewolk' vasthoudt.[^s2]
+De factoren zijn planningsaannames en geen gepubliceerde waarden. [[VERIFY: factoren voor overkapping en klimaat — productteam]] Ze volgen het eigen voorbeeld van Bromic uit de VS, waarin hetzelfde terras van ongeveer 19 m² in Californië twee verwarmers nodig heeft en in Massachusetts drie, en waarin een gedeeltelijke overkapping een 'warmtewolk' vasthoudt.[^s2]
 
 ## Uitgewerkt voorbeeld
 
@@ -71,17 +71,17 @@ De factoren zijn planningsaannames, geen gepubliceerde waarden. [[VERIFY: factor
 | Eclipse Smart-Heat Electric | ca. 11,2 m² | 74 ÷ (11,2 × 0,85) = 74 ÷ 9,52 = 7,8 | 8 | Eclipse-regelaar, wandschakelaar |
 | Tungsten Smart-Heat Freestanding Gas | ca. 20 m² | 74 ÷ (20 × 0,85) = 4,4, maar 40 zitplaatsen ÷ 4 = 10 | 10 | [[VERIFY: bedieningsopties — productteam]] |
 
-Een open terras of koudere avonden verlagen de factor en verhogen het aantal hangende verwarmers; een dicht dak verhoogt de factor en verlaagt het aantal. Het aantal vrijstaande verwarmers blijft bij 40 zitplaatsen hoe dan ook tien. Kleinere Platinum-modellen verwarmen een kleiner oppervlak (3400 W ca. 10 m², 2300 W ca. 6 m²) en u hebt er dus meer nodig.[^s1] [[VERIFY: verwarmd oppervlak per Platinum-vermogen en montagehoogte — productteam]] Voor wifi- en app-functies (zones, schema's, timers) zijn compatibele Affinity Smart-Heat Controls nodig, die apart worden verkocht.[^s1]
+Een open terras of koudere avonden verlagen de factor en verhogen het aantal hangende verwarmers; een dicht dak verhoogt de factor en verlaagt het aantal. Het aantal vrijstaande verwarmers blijft bij 40 zitplaatsen hoe dan ook tien. Kleinere Platinum-modellen verwarmen een kleiner oppervlak (3400 W ca. 10 m², 2300 W ca. 6 m²) en u hebt er dus meer nodig.[^s1] [[VERIFY: verwarmd oppervlak per Platinum-vermogen en montagehoogte — productteam]] Voor wifi- en app-functies – zones, schema's, timers – zijn compatibele Affinity Smart-Heat Controls nodig, die apart worden verkocht.[^s1]
 
 ## Voordat u bestelt
 
-- Verdeel de verwarmers in zones die aansluiten op de indeling van uw terras.
+- Groepeer de verwarmers in zones die aansluiten op de manier waarop u uw terras indeelt.
 - Controleer afstanden en montagehoogtes aan de hand van de handleiding en de geldende voorschriften (NEN 1010 voor de elektrische installatie, NEN 1078 voor gas, en uw gemeente).
-- Vraag een tekening van het verwarmd oppervlak aan: de ontwerpservice van Bromic plant de verwarmers in op basis van foto's of tekeningen.
+- Vraag een tekening van het verwarmd oppervlak aan: de ontwerpservice van Bromic plant de verwarmers in op basis van uw foto's of tekeningen.
 
-Gebruik die indeling daarna in [de rendementsberekening](item:COM-IN-01).
+Neem die indeling daarna mee in [de rendementsberekening](item:COM-IN-01).
 
-Laat een indeling voor uw terras maken: plan een ontwerpgesprek.
+Laat een indeling voor uw terras maken – plan een ontwerpgesprek.
 
 [^s1]: Bromic Heating, Lookbook 2026.
 [^s2]: Bromic Heating, Planning Guide US v1.2, 2021.

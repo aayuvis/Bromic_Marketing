@@ -6,18 +6,18 @@ audience: [COM]
 stage: [IN]
 cell: COM-IN
 asset: A07
-summary: "Wie viele Heizstrahler eine Terrasse mit 40 Plätzen braucht: Deckenheizstrahler nach Fläche, angepasst an Überdachung und Klima; freistehende Heizstrahler nie für mehr als vier Plätze. Ein Rechenbeispiel für 40 Plätze."
+summary: "Wie viele Heizstrahler eine Terrasse mit 40 Plätzen warm halten: Deckenheizstrahler nach Fläche, angepasst an Überdachung und Klima, und freistehende Heizstrahler für höchstens vier Plätze je Gerät, mit einem Rechenbeispiel."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie viele Heizstrahler brauche ich für eine Restaurantterrasse mit 40 Plätzen?"
-meta_description: "Die Zahl der Heizstrahler für 40 Plätze hängt bei Deckengeräten von der Fläche ab; bei freistehenden Geräten nie mehr als vier Plätze je Gerät. Rechenbeispiel mit ca. 74 m²."
+meta_description: "Heizstrahler für 40 Plätze: Deckengeräte nach Fläche, Überdachung und Klima; freistehend höchstens vier Plätze je Gerät. Beispiel mit ca. 74 m²."
 cta: {label: "Planungsgespräch vereinbaren", asset: A07}
 hero: p-002-001
 owner_review: Vertrieb Gastronomie
 status: draft
 gated: false
 related: [COM-IN-01, COM-AW-01]
-updated: 2026-10-30
+updated: 2026-11-16
 lang: de
 translation_of: COM-IN-KB1
 translation_status: machine-draft
@@ -45,13 +45,13 @@ sources:
     verified: false
 ---
 
-Bei Deckenheizstrahlern hängt es von der Fläche ab; bei freistehenden Heizstrahlern gilt: nie mehr als vier Plätze je Gerät. Bei ca. 1,9 m² je Platz brauchen 40 Plätze rund 74 m².[^s3] Teilen Sie das durch die Heizfläche jedes Deckengeräts, angepasst an Überdachung und Klima, und runden Sie auf: sieben Platinum 4500 W (mit Affinity On/Off- oder Dimmer-Steuerung und einem Wandschalter) oder acht Eclipse (mit dem Eclipse-Steuergerät) auf einer teilweise überdachten Terrasse an kühlen Abenden. Freistehende Heizstrahler brauchen mindestens zehn, einen je vier Plätze.
+Deckenheizstrahler werden nach der Fläche gezählt, und jeder freistehende Heizstrahler wärmt höchstens vier Plätze. Bei ca. 1,9 m² je Platz brauchen 40 Plätze rund 74 m².[^s3] Teilen Sie das durch die Heizfläche jedes Deckengeräts, angepasst an Überdachung und Klima, und runden Sie auf: Auf einer teilweise überdachten Terrasse an kühlen Abenden sind das sieben Platinum 4500 W (mit Affinity On/Off- oder Dimmer-Steuerung und einem Wandschalter) oder acht Eclipse (mit dem Eclipse-Steuergerät). Freistehende Heizstrahler brauchen mindestens zehn.
 
-## Die Methode
+## Heizstrahler passend zu Ihrer Bestuhlung zählen
 
-1. **Messen** Sie den Sitzbereich, der warm sein soll – Tische und Stühle, nicht die Pflanzkübel. Ausgehend von der Platzzahl rechnen Sie mit ca. 1,9 m² je Platz, Gänge eingeschlossen: das obere Ende der NAFEM-Spanne, damit die Tische nicht gedrängt stehen.[^s3]
+1. **Messen** Sie den Sitzbereich, der warm sein soll – die Tische und Stühle, ohne die Pflanzkübel. Ausgehend von der Platzzahl rechnen Sie mit ca. 1,9 m² je Platz, Gänge eingeschlossen: das obere Ende der NAFEM-Spanne, damit Ihre Gäste am Tisch Platz haben.[^s3]
 2. **Decken- und Einbauheizstrahler:** Heizstrahler = Fläche ÷ (Heizfläche × Überdachungsfaktor × Klimafaktor), aufgerundet. Die Heizfläche ist der von Bromic veröffentlichte Wert.[^s1]
-3. **Freistehende Heizstrahler:** dieselbe Rechnung, aber nie mehr als vier Plätze je Gerät, weil sitzende Gäste die Strahlungswärme eines freistehenden Geräts abschirmen. Maßgeblich ist der größere Wert aus Fläche ÷ wirksame Heizfläche und Plätze ÷ 4.
+3. **Freistehende Heizstrahler:** dieselbe Rechnung, mit höchstens vier Plätzen je Gerät, weil sitzende Gäste die Strahlungswärme eines freistehenden Geräts abschirmen. Maßgeblich ist der größere Wert aus Fläche ÷ wirksame Heizfläche und Plätze ÷ 4.
 
 | Überdachung | Faktor | Klima (Abende, an denen Sie heizen) | Faktor |
 |---|---|---|---|
@@ -59,7 +59,7 @@ Bei Deckenheizstrahlern hängt es von der Fläche ab; bei freistehenden Heizstra
 | Teilweise überdacht (Pergola, Schirm, Teildach) | 1,0 | Kühl (ca. 4–10 °C) | 0,85 |
 | Überdacht (festes Dach) | 1,1 | Kalt (oft unter ca. 4 °C) | 0,7 |
 
-Die Faktoren sind Planungsannahmen, keine veröffentlichten Kennwerte. [[VERIFY: cover and climate factors — Produktteam]] Sie folgen dem Beispiel von Bromic, in dem dieselbe Terrasse von ca. 19 m² in Kalifornien zwei und in Massachusetts drei Heizstrahler braucht und eine Teilüberdachung eine Wärmewolke bildet.[^s2]
+Die Faktoren sind Planungsannahmen und keine veröffentlichten Kennwerte. [[VERIFY: Faktoren für Überdachung und Klima — Produktteam]] Sie folgen dem Beispiel von Bromic, in dem dieselbe Terrasse von ca. 19 m² in Kalifornien zwei und in Massachusetts drei Heizstrahler braucht und eine Teilüberdachung eine Wärmewolke bildet.[^s2]
 
 ## Rechenbeispiel
 
@@ -69,15 +69,15 @@ Die Faktoren sind Planungsannahmen, keine veröffentlichten Kennwerte. [[VERIFY:
 |---|---|---|---|---|
 | Platinum Smart-Heat Electric 4500 W | 13,3 m² | 74,3 ÷ (13,3 × 0,85) = 6,6 | 7 | Affinity On/Off- oder Dimmer-Steuergerät, Wandschalter |
 | Eclipse Smart-Heat Electric | ca. 11,2 m² | 74,3 ÷ (11,2 × 0,85) = 74,3 ÷ 9,52 = 7,8 | 8 | Eclipse-Steuergerät, Wandschalter |
-| Tungsten Smart-Heat Freestanding Gas | ca. 20 m² | 74,3 ÷ (20 × 0,85) = 4,4, aber 40 Plätze ÷ 4 = 10 | 10 | [[VERIFY: control options — Produktteam]] |
+| Tungsten Smart-Heat Freestanding Gas | ca. 20 m² | 74,3 ÷ (20 × 0,85) = 4,4, aber 40 Plätze ÷ 4 = 10 | 10 | [[VERIFY: Steuerungsoptionen — Produktteam]] |
 
-Eine offene Terrasse oder kältere Abende senken den Faktor und erhöhen die Zahl der Deckengeräte; ein festes Dach erhöht ihn und senkt die Zahl. Die Zahl der freistehenden Geräte bleibt bei 40 Plätzen in jedem Fall bei zehn. Kleinere Platinum-Modelle beheizen weniger (3400 W ca. 10 m², 2300 W ca. 6 m²) und brauchen mehr Geräte.[^s1] [[VERIFY: coverage per Platinum wattage and mounting height — Produktteam]] WLAN- und App-Funktionen – Zonen, Zeitpläne, Timer – erfordern kompatible Affinity Smart-Heat Controls, separat erhältlich.[^s1]
+Eine offene Terrasse oder kältere Abende senken den Faktor und erhöhen die Zahl der Deckengeräte; ein festes Dach erhöht ihn und senkt die Zahl. Die Zahl der freistehenden Geräte bleibt bei 40 Plätzen in jedem Fall bei zehn. Kleinere Platinum-Modelle beheizen weniger (3400 W ca. 10 m², 2300 W ca. 6 m²) und brauchen mehr Geräte.[^s1] [[VERIFY: Heizfläche je Platinum-Leistung und Montagehöhe — Produktteam]] WLAN- und App-Funktionen – Zonen, Zeitpläne, Timer – erfordern kompatible Affinity Smart-Heat Controls, die separat erhältlich sind.[^s1]
 
-## Vor der Bestellung
+## Bevor Sie bestellen
 
-- Teilen Sie die Heizstrahler in Zonen auf, die zu Ihren Bereichen passen.
+- Fassen Sie die Heizstrahler zu Zonen zusammen, die zur Aufteilung Ihrer Gästebereiche passen.
 - Prüfen Sie Abstände und Montagehöhen anhand der Anleitung und der örtlichen Vorschriften; den Anschluss führt ein Elektrofachbetrieb nach DIN VDE 0100 aus.
-- Lassen Sie einen Heizflächenplan erstellen: Der Planungsservice von Bromic ordnet die Heizstrahler anhand von Fotos oder Grundrissen an.
+- Fragen Sie nach einem Heizflächenplan: Der Planungsservice von Bromic ordnet die Heizstrahler anhand Ihrer Fotos oder Grundrisse an.
 
 Übertragen Sie die Anordnung dann in [die Renditerechnung](item:COM-IN-01).
 
