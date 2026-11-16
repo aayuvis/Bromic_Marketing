@@ -5,17 +5,17 @@ translation_of: BLOG-17
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 type: blog
-title: "Werken buitenverwarmers ook in de winter?"
+title: "Werken buitenverwarmers in de winter? Warme avonden buiten, in elk seizoen"
 action: keep-fix
 audience: [RES]
 stage: [AW]
 cell: RES-AW
 asset: A24
-summary: "Stralingsverwarmers blijven in de winter werken omdat ze mensen verwarmen, niet de koude lucht eromheen. Wat kou en wind veranderen, en de vijf dingen die een winterterras bruikbaar maken."
+summary: "Stralingsverwarmers blijven de hele winter werken omdat ze mensen verwarmen in plaats van de koude lucht eromheen – wat kou en wind veranderen, en vijf dingen die van een winterterras een plek maken waar je graag bent."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Werken terrasverwarmers in de winter?"
-meta_description: "Ja. Stralingsverwarmers verwarmen mensen, niet de koude lucht, dus ze werken in de winter. Wat kou en wind doen, en hoe je een terras plant dat je het hele jaar gebruikt."
+meta_description: "Werken buitenverwarmers in de winter? Ja, stralingsverwarmers verwarmen mensen, niet de koude lucht. Wat kou en wind doen, en hoe je een terras voor het hele jaar plant."
 cta: {label: "Download het rapport Outdoor Living Trends 2026", asset: A01}
 hero: w-dsc05737-courtney-saib
 images: [w-tungsten-electric-wall-mount-canada]
@@ -25,7 +25,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-AW-01, RES-CO-KB1, RES-PP-01, RES-BY-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -71,42 +71,42 @@ sources:
     verified: false
 ---
 
-Ja. Stralingsverwarmers voor buiten werken in de winter omdat ze niet proberen de koude lucht te verwarmen. Ze sturen infraroodwarmte rechtstreeks naar mensen, meubels en vloeren, zoals een lage winterzon op een koude dag nog steeds je gezicht verwarmt[^s1]. Koude lucht en wind halen die warmte sneller van je huid, dus een winterterras vraagt om de juiste verwarmer, gericht op de zitplekken, met beschutting tegen de wind en waar het kan een overkapping erboven.
+Ja – stralingsverwarmers voor buiten blijven de hele winter werken, omdat ze nooit proberen de koude lucht te verwarmen. Ze sturen infraroodwarmte rechtstreeks naar mensen, meubels en vloeren, net zoals de lage winterzon op een frisse dag nog steeds je gezicht verwarmt[^s1]. Koude lucht en wind halen die warmte sneller van je huid, dus een winterterras vraagt om de juiste verwarmer, gericht op de zitplekken, met beschutting tegen de wind en waar het kan een dak erboven.
 
-![Afgeschermde veranda met een houten spitsplafond, een open haard en twee zwarte verwarmers aan pendelstangen](img:w-dsc05737-courtney-saib)
+![Een veranda met horren, een gewelfd houten plafond, een open haard en twee zwarte verwarmers aan hangstangen](img:w-dsc05737-courtney-saib)
 
-## Waarom werken stralingsverwarmers ook als het koud is?
+## Waarom stralingswarmte standhoudt in de kou
 
-Een verwarmer die lucht verwarmt, maakt buiten in de winter geen kans: de warme lucht stijgt op en verdwijnt, en elk briesje neemt haar nog sneller mee[^s1]. Een stralingsverwarmer slaat de lucht over. Zijn warmte wordt opgenomen door alles wat ze bereikt, zodat je haar voelt, ook als de lucht om je heen koud blijft[^s1].
+Een verwarmer die de lucht verwarmt, maakt buiten in de winter weinig kans, want de warme lucht stijgt op en verdwijnt, en elk briesje voert haar nog sneller weg[^s1]. Een stralingsverwarmer slaat de lucht helemaal over. Zijn warmte wordt opgenomen door alles wat ze bereikt, zodat je haar voelt terwijl de lucht om je heen koud blijft[^s1].
 
-Wat de kou wel verandert, is hoe snel je die warmte weer kwijtraakt. Bewegende lucht onttrekt warmte aan onbedekte huid; daarom voelt het kouder aan dan de thermometer aangeeft[^s3]. De verwarmer blijft leveren; de ruimte en het plan bepalen of hij het bijhoudt.
+Wat de kou wel verandert, is hoe snel je die warmte weer verliest. Bewegende lucht onttrekt warmte aan blote huid, en daarom kan het kouder aanvoelen dan de thermometer aangeeft[^s3]. De verwarmer blijft leveren, en je ruimte en je plan bepalen of hij het bijhoudt.
 
-| Winterfactor | Wat het doet | Wat je eraan doet |
+| Winterfactor | Wat het doet | Wat je doet |
 |---|---|---|
-| Lage luchttemperatuur | De huid verliest sneller warmte | Plan meer verwarmd oppervlak boven de zitplekken; zit binnen het stralingsbereik |
-| Wind | Voert warmte af van de huid en verspreidt warme lucht[^s3] | Scherm de windzijde af; kies de verwarmer met het hoogste stralingsaandeel |
-| Open hemel | Niets houdt warme lucht boven je vast | Voeg een dak of overstek toe om een warmtewolk vast te houden[^s1] |
-| Vochtige lucht of kustlucht | Zwaarder voor afwerking en bevestigingen | Kies materialen en een waterdichtheidsklasse die bij de locatie passen |
+| Lage luchttemperatuur | De huid verliest sneller warmte | Plan meer verwarmd oppervlak boven de zitplekken; zit binnen het stralingspatroon |
+| Wind | Voert warmte van de huid af en verspreidt warme lucht[^s3] | Scherm de windkant af; kies de meest stralende verwarmer |
+| Open hemel | Niets houdt warme lucht boven je vast | Voeg een dak of overstek toe dat een warmtewolk vasthoudt[^s1] |
+| Vochtige of zilte lucht | Zwaarder voor afwerking en bevestigingen | Kies materialen en IP-waarde passend bij de plek |
 
-## Welke verwarmers kunnen het best tegen de winter?
+## De verwarmers die schitteren op een winteravond
 
-Die met het hoogste stralingsaandeel. Korte golf is ongeveer 90% straling en verwarmt direct; lange golf is ongeveer 40% straling, heeft zo'n vijf minuten nodig en wordt het makkelijkst door de wind verspreid[^s2]. Op een koude avond is dat verschil het hele resultaat. De golflengtes worden uitgelegd in [infrarood- vs stralingsverwarmers](https://www.bromic.com/blog/what-is-the-difference-between-an-infrared-heater-and-a-radiant-heater/) (Engelstalig).
+De meest stralende verwarmers doen het het best. Korte golf is voor ongeveer 90% straling en verwarmt direct, terwijl lange golf voor ongeveer 40% straling is, zo'n vijf minuten nodig heeft en het makkelijkst door de wind wordt verspreid[^s2]. Op een koude avond bepaalt dat verschil de hele beleving. De golflengtes worden uitgelegd in [infrarood- vs stralingsverwarmers](https://www.bromic.com/blog/what-is-the-difference-between-an-infrared-heater-and-a-radiant-heater/).
 
-![Besneeuwd overdekt terras met een brandende open haard en gloeiende Tungsten Electric-verwarmers op de balken](img:w-tungsten-electric-wall-mount-canada)
+![Een besneeuwd overdekt terras met een brandende open haard en gloeiende Tungsten Electric-verwarmers aan de balken](img:w-tungsten-electric-wall-mount-canada)
 
-## Vijf dingen die een winterterras laten werken
+## Vijf manieren om de hele winter van je terras te genieten
 
-**1. Zet er een dak boven.** Een overstek, dak of gesloten pergola houdt een laag warme lucht vast, de warmtewolk, die de stralingswarmte eronder aanvult. Houd minstens 30% van de omtrek blijvend open, zodat het een buitenruimte blijft[^s1].
+**1. Zorg voor een dak erboven.** Een overstek, dak of gesloten pergola houdt een laag warme lucht vast, de warmtewolk, die de stralingswarmte eronder aanvult. Houd minstens 30% van de omtrek blijvend open, zodat het een buitenruimte blijft[^s1].
 
-**2. Houd de wind tegen.** Glazen schermen, uitrolbare zijschermen, muren en beplanting aan de windzijde helpen allemaal. De windrichting is een van de eerste dingen waar de planningsgids van Bromic naar vraagt[^s1]. Zie [werken infraroodverwarmers buiten](https://www.bromic.com/blog/do-infrared-heaters-work-outdoors/) (Engelstalig) voor wind.
+**2. Beschut tegen de wind.** Glazen schermen, uitrolbare zijschermen, muren en beplanting aan de windkant helpen allemaal, en de windrichting is een van de eerste dingen waar het planningshandboek van Bromic naar vraagt[^s1]. Meer over wind lees je in [werken infraroodverwarmers buiten](https://www.bromic.com/blog/do-infrared-heaters-work-outdoors/).
 
-**3. Verwarm de zitplekken, niet de vloer.** Richt gerichte verwarmers op waar mensen zitten en laat de verwarmde oppervlakken overlappen waar ze het langst blijven. Het verwarmde oppervlak hangt af van model, montagehoogte, omgeving en installatie[^s5], dus laat de gratis [Design Your Space](https://www.bromic.com/design-your-space/)-service van Bromic de indeling tekenen.
+**3. Verwarm de plekken waar mensen samenkomen.** Richt gerichte verwarmers op de plekken waar mensen zitten en laat het verwarmd oppervlak overlappen waar ze het langst blijven. Het verwarmd oppervlak verschilt per model, montagehoogte, omgeving en installatie[^s5], dus laat onze gratis ontwerpservice [Design Your Space](https://www.bromic.com/design-your-space/) de indeling voor je tekenen.
 
-**4. Kies voor de locatie.** Aan de kust is Platinum Smart-Heat Electric Marine gemaakt van zeewaterbestendig 316-roestvast staal met beschermingsgraad IPX5[^s6]. Voor andere modellen en nat weer, zie [terrasverwarmers in de regen](https://www.bromic.com/blog/patio-heaters-in-the-rain-what-you-need-to-know/) (Engelstalig).
+**4. Kies voor je plek.** Aan de kust is de Platinum Smart-Heat Electric Marine gemaakt van maritiem roestvast staal 316 en heeft hij IPX5[^s6]. Voor andere modellen en nat weer, zie [terrasverwarmers in de regen](https://www.bromic.com/blog/patio-heaters-in-the-rain-what-you-need-to-know/).
 
-**5. Plan het voor de kou.** Maar 23% van de Amerikaanse huiseigenaren noemt buitenverwarming een topprioriteit bij het plannen van een buitenruimte[^s4]. [[VERIFY: datum, steekproef en vraagstelling van de enquête — marketing]] Bekabeling, gasleidingen en inbouwsets zijn het eenvoudigst voordat het plafond dichtgaat: vanaf het begin ontworpen, niet achteraf toegevoegd.
+**5. Plan de warmte voordat de kou komt.** Maar 23% van de Amerikaanse huiseigenaren noemt buitenverwarming een topprioriteit bij het plannen van een buitenruimte[^s4]. [[VERIFY: datum, steekproef en vraagstelling van de enquête — marketing]] Bekabeling, gasleidingen en inbouwkits plaats je het eenvoudigst voordat het plafond dichtgaat, met de verwarming al in de eerste tekening meegenomen.
 
-## Welke Bromic-verwarmers, met welke bediening?
+## Bromic-verwarmers en de bediening die erbij hoort
 
 | Ruimte | Verwarmer | Verwarmd oppervlak (ca.) | Bediening |
 |---|---|---|---|
@@ -115,22 +115,22 @@ Die met het hoogste stralingsaandeel. Korte golf is ongeveer 90% straling en ver
 | Terras dat warmte en licht wil | Eclipse Smart-Heat Electric | 11 m²[^s5] | Affinity Eclipse-regelaar of Eclipse Dimmer, handmatige wandschakelaar |
 | Open ruimte, geen vaste installatie | Tungsten Smart-Heat Freestanding Gas | 20 m², windbestendig[^s5] | [[VERIFY: bedieningsopties — productteam]] |
 
-Bediening wordt in de winter belangrijker, niet minder belangrijk. Met dimmen zet je de warmte hoger als de avond afkoelt, en met de schema's en timers van de Smart-Heat app kan de ruimte warm zijn als je naar buiten stapt[^s5]. Wifi- en app-functies vragen om compatibele Affinity Smart-Heat Controls, apart verkrijgbaar. Plan je een regelaar buiten te monteren, controleer dan de specificaties: de Affinity On/Off-regelaar is opgegeven voor -20 °C tot 30 °C[^s6]. [[VERIFY: waarden van de productpagina, waaronder het werkbereik van de regelaar, tegen de productbladen van 2026 — productteam]]
+In de winter telt de bediening des te meer. Met dimmen zet je de warmte hoger als de avond afkoelt, en met de schema's en timers van de Smart-Heat-app staat de ruimte al warm klaar als je naar buiten stapt[^s5]. Wifi- en app-functies vragen om compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht. Wil je een regelaar buiten monteren, controleer dan de specificaties, want de Affinity On/Off-regelaar is opgegeven voor -20 °C tot 30 °C[^s6]. [[VERIFY: waarden van de productpagina, waaronder het werkbereik van de regelaar, tegen de productbladen van 2026 — productteam]]
 
-Bekijk [alle buitenverwarmers](https://www.bromic.nl/) of ideeën voor [buitenruimtes bij woningen](https://www.bromic.com/residential/) (Engelstalig).
+Bekijk [alle buitenverwarmers](https://www.bromic.nl/) of ideeën voor [buitenruimtes bij woningen](https://www.bromic.com/residential/).
 
 ## Veelgestelde vragen
 
-### Kan ik een buitenverwarmer in de sneeuw gebruiken?
-Verwarmers die geschikt zijn voor buitengebruik kunnen in winterweer branden, maar volg de handleiding van het model voor afstanden, afdekkingen en waterdichtheid, en houd sneeuw van en weg bij de verwarmer. Tips voor onderhoud staan in [reiniging en onderhoud van buitenverwarmers](https://www.bromic.com/blog/keeping-the-heat-on-essential-cleaning-and-maintenance-for-outdoor-heaters/) (Engelstalig).
+### Kan ik een buitenverwarmer gebruiken in de sneeuw?
+Verwarmers die geschikt zijn voor buiten kunnen in winterweer branden, maar volg de handleiding van het model voor afstanden, afdekking en IP-waarde, en houd sneeuw van en uit de buurt van de verwarmer. Tips voor onderhoud staan in [reiniging en onderhoud van buitenverwarmers](https://www.bromic.com/blog/keeping-the-heat-on-essential-cleaning-and-maintenance-for-outdoor-heaters/).
 
 ### Kan een thermostaat mijn terras op een vaste temperatuur houden?
-Nee. Buitenlucht is niet op een ingestelde temperatuur te houden[^s1]. Regel in plaats daarvan het vermogen van de verwarmer met een Affinity-regelaar.
+Nee, want buitenlucht laat zich niet op een ingestelde waarde houden[^s1]. Regel in plaats daarvan het vermogen van de verwarmer met een Affinity-regelaar.
 
 ### Hoeveel verwarmers heb ik nodig voor de winter?
-Meer dan voor een zachte avond op hetzelfde terras, omdat blootstelling en kou de benodigde warmte verhogen. Begin bij het verwarmde oppervlak per verwarmer en laat een indeling het bevestigen.
+Meer dan voor een zachte avond op hetzelfde terras, want blootstelling en kou verhogen de benodigde warmte. Begin bij het verwarmd oppervlak per verwarmer en laat een indeling dat bevestigen.
 
-### Doet een vuurschaal hetzelfde werk?
-Een vuurschaal verwarmt de mensen die het dichtstbij zitten. Stralingsverwarmers boven je hoofd bestrijken alle zitplekken; veel terrassen gebruiken allebei.
+### Doet een vuurschaal hetzelfde?
+Een vuurschaal verwarmt de mensen die er het dichtst bij zitten, terwijl stralingsverwarmers boven je het hele zitgedeelte bestrijken. Op veel terrassen genieten mensen van allebei.
 
-Lees in het Trends-rapport hoe huiseigenaren buitenkamers plannen die ze het hele jaar gebruiken.
+Wil je zien hoe huiseigenaren buitenkamers voor het hele jaar plannen, ontdek dan het Trends-rapport.

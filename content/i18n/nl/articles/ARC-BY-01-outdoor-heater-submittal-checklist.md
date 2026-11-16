@@ -5,16 +5,16 @@ translation_of: ARC-BY-01
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 type: article
-title: "Indieningsstukken voor buitenverwarmers: een coördinatiechecklist voor architecten"
+title: "Checklist voor indieningsstukken van terrasverwarmers: buitenverwarming met zekerheid afstemmen"
 audience: [ARC]
 stage: [BY]
 cell: ARC-BY
 asset: A24
-summary: "Wat een volledig pakket indieningsstukken voor buitenverwarmers bevat, en de afstemming van groepen, timmerwerk, afstanden en bediening die vragen en meerwerk van de bouwplaats houdt."
+summary: "Alles wat een volledig pakket indieningsstukken voor buitenverwarmers moet bevatten, en de afstemming van groepen, timmerwerk, afstanden en bediening die het project soepel laat verlopen, van de tekeningen tot de eerste warme avond."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wat hoort er in een pakket indieningsstukken voor buitenverwarmers?"
-meta_description: "Checklist voor architecten bij buitenverwarmers: productgegevens, groepen, beveiliging, leidingen, inbouwopeningen, afstanden, bekabeling van de bediening en afstemming met NEN 1010."
+meta_description: "Checklist voor terrasverwarmers: productgegevens, groepen, beveiliging, inbouwopeningen, afstanden, bekabeling van de bediening en NEN 1010."
 cta: {label: "Boek een ontwerpadvies", asset: A07}
 hero: l-010-076
 images: [l-007-035]
@@ -22,7 +22,7 @@ owner_review: specificatie en compliance
 status: draft
 gated: false
 related: [ARC-IN-01, BLD-IN-01, ARC-IN-KB1, ARC-BY-KB1]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -53,12 +53,11 @@ sources:
     supports: "Primary code text for Articles 422 and 424"
     verified: false
 ---
+Een volledig pakket indieningsstukken voor buitenverwarmers brengt productgegevens en de installatiehandleiding samen, een indeling van het verwarmde oppervlak, de elektrische belasting per verwarmer met een overzicht van groepen en beveiliging, inbouw- of montagedetails met timmermaten, afstandsgegevens, een bedieningsschema dat laat zien wie wat bekabelt, en de keurmerken. Bij het beoordelen wegen drie vragen het zwaarst: of elke verwarmer een eigen, goed gedimensioneerde groep heeft, of de opening en het regelwerk in de constructietekeningen staan, en of elk bedieningsonderdeel een kabel, een plek en een verantwoordelijke heeft.
 
-Een volledig pakket indieningsstukken voor buitenverwarmers bevat productgegevens en de installatiehandleiding, een indeling van het verwarmde oppervlak, de elektrische belasting per verwarmer met een overzicht van groepen en beveiliging, inbouw- of montagedetails met timmermaten, afstandsgegevens, een bedieningsschema dat laat zien wie wat bekabelt, en keurmerken. Toets het aan drie vragen: heeft elke verwarmer een eigen, goed gedimensioneerde groep; staan de opening en het regelwerk in de constructietekeningen; en heeft elk bedieningsonderdeel een kabel, een plek en een verantwoordelijke.
+![Witte verwarmer, netjes tussen de lamellen van een pergola geplaatst](img:l-010-076)
 
-![Witte verwarmer tussen de lamellen van een pergola](img:l-010-076)
-
-## Wat hoort er in een pakket indieningsstukken voor buitenverwarmers?
+## Wat een volledig pakket indieningsstukken bevat
 
 | Onderdeel | Wat u controleert | Afstemmen met |
 |---|---|---|
@@ -73,41 +72,41 @@ Een volledig pakket indieningsstukken voor buitenverwarmers bevat productgegeven
 
 [[VERIFY: elektrische gegevens per model (stroom bij 230 V voor de Europese uitvoering), maten van de inbouwsets en afstandentabellen om bij de indieningsstukken te voegen — productteam]] [[VERIFY: CE-markering en Europese keuringen per model — productteam]]
 
-## Hoe stemt u de groepen voor de verwarmers af?
+## De groepen voor de verwarmers afstemmen
 
-In de VS geldt elke vast aangesloten elektrische verwarmer als continue belasting: de NEC-regels voor vaste elektrische ruimteverwarming dimensioneren de geleiders van de eindgroep op ten minste 125% van de belasting[^s3], en de elektrotechnisch adviseur bepaalt daar welk artikel van toepassing is (Article 424 voor vaste ruimteverwarming of Article 422 voor toestellen)[^s3][^s4]. In Nederland legt de elektrotechnisch adviseur de groepen vast volgens NEN 1010 en neemt ze op in de groepenverklaring. [[VERIFY: hoe NEN 1010 vaste buitenverwarming behandelt — Bromic Benelux distributor]]
+Elke vast aangesloten elektrische verwarmer kunt u het best als continue belasting behandelen. In de VS dimensioneren de NEC-regels voor vaste elektrische ruimteverwarming de geleiders van de eindgroep op ten minste 125% van de belasting[^s3], en bepaalt de elektrotechnisch adviseur welk artikel van toepassing is (Article 424 voor vaste ruimteverwarming of Article 422 voor toestellen) onder de editie die daar geldt[^s3][^s4]. In Nederland legt de elektrotechnisch adviseur de groepen vast volgens NEN 1010 en neemt ze op in de groepenverklaring. [[VERIFY: hoe NEN 1010 vaste buitenverwarming behandelt — Bromic Benelux distributor]]
 
-Punten die vragen van de aannemer opleveren als ze open blijven:
+Een paar punten leveren vaak vragen van de aannemer op als ze open blijven:
 
-- **Spanning.** Voor zakelijke projecten in de VS noemt Bromic voedingsopties van 208 V, 240 V en 277 V[^s1]; in Nederland is de netspanning 230 V. Bevestig de aansluiting van het gebouw en de spanning van het model samen; een verwarmer die voor een hogere spanning is gebouwd, levert op een lagere spanning minder vermogen. [[VERIFY: vermogen en verwarmd oppervlak per model bij 230 V — productteam]]
+- **Spanning.** Voor zakelijke projecten in de VS noemt Bromic voedingsopties van 208 V, 240 V en 277 V[^s1]; in Nederland is de netspanning 230 V. Bevestig de aansluiting van het gebouw en de spanning van het model samen, want een verwarmer die voor een hogere spanning is gebouwd, levert op een lagere spanning minder vermogen. [[VERIFY: vermogen en verwarmd oppervlak per model bij 230 V — productteam]]
 - **Eigen beveiliging.** Toon één groep per verwarmer, of een groepering die de handleiding toestaat, met de waarde van de beveiliging in het overzicht.
-- **Werkschakelaar.** Plaats de scheidingsvoorziening waar de norm en de handleiding dat voorschrijven, zichtbaar op de tekeningen. [[VERIFY: eisen aan de scheidingsvoorziening voor vaste ruimteverwarming onder NEN 1010 — elektrotechnisch adviseur]]
-- **Leidingen en dozen.** Leg de leidingen in het overstek of de balk voordat het plafond dichtgaat. Gebruik leidingsystemen en dozen die geschikt zijn voor vochtige of natte ruimten, afhankelijk van de blootstelling.
+- **Werkschakelaar.** Plaats de scheidingsvoorziening waar de norm en de handleiding dat voorschrijven, en maak haar zichtbaar op de tekeningen. [[VERIFY: eisen aan de scheidingsvoorziening voor vaste ruimteverwarming onder NEN 1010 — elektrotechnisch adviseur]]
+- **Leidingen en dozen.** Leg de leidingen in het overstek of de balk voordat het plafond dichtgaat, met leidingsystemen en dozen die geschikt zijn voor vochtige of natte ruimten, afhankelijk van de blootstelling.
 - **Aardlekbeveiliging.** Bevestig de eisen voor aardlekbeveiliging volgens NEN 1010. [[VERIFY: eisen aan aardlekbeveiliging voor vast aangesloten buitenverwarmers volgens NEN 1010 — elektrotechnisch adviseur]]
 
-## Welk timmerwerk vraagt een ingebouwde verwarmer?
+## Timmerwerk voor een naadloos ingebouwde verwarmer
 
-Met inbouwsets worden Platinum- en Tungsten Electric-verwarmers vlak in dak- of plafondruimten gemonteerd[^s1]. De opening, de raveelbalken en de diepte van de plafondruimte moeten op de constructietekeningen staan, niet pas door de monteur worden ontdekt. Met ophangpalen hangen verwarmers lager onder hoge plafonds; detailleer de bevestiging aan de constructie erboven[^s1].
+Met inbouwsets worden Platinum- en Tungsten Electric-verwarmers vlak in dak- of plafondruimten gemonteerd[^s1], en het resultaat is maar zo strak als het timmerwerk erachter. De opening, de raveelbalken en de diepte van de plafondruimte horen op de constructietekeningen, zodat de monteur ze klaar aantreft in plaats van ze op de bouwplaats uit te zoeken. Onder hoge plafonds brengen ophangpalen de verwarmers dichter bij de mensen eronder; detailleer de bevestiging aan de constructie erboven[^s1].
 
-Controles bij de indieningsstukken: de maten van de uitsparing komen overeen met de set; de diepte van de plafondruimte en eventuele ventilatie of afstanden in de inbouwruimte komen overeen met de handleiding; de plafondafwerking sluit netjes aan op de afwerkrand van de set; de constructie draagt het gewicht van de verwarmer. De collecties Tungsten Select en Coastal (binnenkort) zijn ontworpen voor inbouw met lage inbouwhoogte; bevestig de maten voordat u detailleert[^s2].
+Controleer bij de indieningsstukken of de maten van de uitsparing overeenkomen met de set, of de diepte van de plafondruimte en eventuele ventilatie of afstanden in de inbouwruimte overeenkomen met de handleiding, of de plafondafwerking netjes aansluit op de afwerkrand van de set, en of de constructie het gewicht van de verwarmer draagt. De collecties Tungsten Select en Coastal (binnenkort leverbaar) zijn ontworpen voor inbouw met weinig inbouwdiepte; bevestig daarom hun maten voordat u detailleert[^s2].
 
-![Zwarte plafondverwarmer boven een lounge bij kaarslicht](img:l-007-035)
+![Zwarte plafondverwarmer die een lounge bij kaarslicht verwarmt](img:l-007-035)
 
-## Welke afstanden gelden?
+## Afstanden die elke installatie goed maken
 
-De richtlijn van Bromic noemt minimale montagehoogtes van 1,83 m boven de vloer voor muurmontage en 2,44 m voor plafondmontage, afhankelijk van het vermogen[^s1]. Afstanden tot brandbare materialen, muren en het plafond komen uit de installatiehandleiding van elk model. Neem ze niet over uit een bestekssjabloon of van een ander product. Teken de afstandszone op het plafondplan en in doorsneden door pergola's, zonneschermen, parasols en beplanting.
+De richtlijn van Bromic noemt minimale montagehoogtes van 1,83 m boven de vloer voor muurmontage en 2,44 m voor plafondmontage, afhankelijk van het vermogen[^s1]. Afstanden tot brandbare materialen, muren en het plafond komen uit de installatiehandleiding van elk model, en horen altijd uit die handleiding te komen, nooit uit een bestekssjabloon of van een ander product. Teken de afstandszone op het plafondplan en in doorsneden door pergola's, zonneschermen, parasols en beplanting.
 
-## Hoe stemt u de bediening af?
+## De bediening afstemmen
 
-Bediening hoort bij de verwarmer en is geen extraatje. Elke verwarmer op de tekeningen heeft nodig:
+Elke Bromic-verwarmer komt met Affinity Smart-Heat®-bediening, en die bediening hoort in de indieningsstukken als onderdeel van de verwarmer zelf. Elke verwarmer op de tekeningen heeft nodig:
 
-- Een Affinity Smart-Heat-regelaar (On/Off, Dimmer, of de Eclipse-regelaar voor Eclipse-verwarmers).
+- Een Affinity Smart-Heat®-regelaar (On/Off, Dimmer, of de Eclipse-regelaar voor Eclipse-verwarmers).
 - Een handmatige wandschakelaar.
 - De Bromic Smart-Heat-app voor zones, schema's en timers. Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht[^s2].
 
-Bij Control4, Crestron of Lutron verschilt de compatibiliteit per systeem en kan extra integratiehardware of configuratie nodig zijn[^s2]. Leg vast wie de interface levert, wie de programmering schrijft en wie de netwerkaansluiting bij de regelaar verzorgt. Toon de plek van de regelaar op de elektrotekening, beschut zoals de handleiding vraagt, en de koppeling tussen groepen en zones in het overzicht.
+Bij Control4, Crestron of Lutron verschilt de compatibiliteit per systeem en kan extra integratiehardware of configuratie nodig zijn[^s2]. Leg vast wie de interface levert, wie de programmering schrijft en wie de netwerkaansluiting bij de regelaar verzorgt. Toon de plek van de regelaar op de elektrotekening, beschut zoals de handleiding vraagt, samen met de koppeling tussen groepen en zones in het overzicht.
 
-## Checklist voor de planning
+## Uw checklist voor de planning
 
 - [ ] Productgegevens en actuele installatiehandleiding per model
 - [ ] Indeling verwarmd oppervlak met montagehoogtes in doorsnede
@@ -127,15 +126,15 @@ Bij Control4, Crestron of Lutron verschilt de compatibiliteit per systeem en kan
 Productgegevens, installatiehandleiding, indeling van het verwarmde oppervlak, elektrisch overzicht, montage- of inbouwdetails, bedieningsschema, keurmerken en garantie.
 
 ### Hebben elektrische buitenverwarmers een eigen groep nodig?
-Ga daarvan uit. In de VS gelden vaste elektrische ruimteverwarmers als continue belasting en worden ze op 125% gedimensioneerd[^s3]. In Nederland bepalen de handleiding en de elektrotechnisch adviseur de definitieve groepsindeling volgens NEN 1010.
+Het is verstandig er een in te plannen. In de VS gelden vaste elektrische ruimteverwarmers als continue belasting en worden ze op 125% gedimensioneerd[^s3]; in Nederland bepalen de handleiding en de elektrotechnisch adviseur de definitieve groepsindeling volgens NEN 1010.
 
 ### Welke norm geldt voor infraroodverwarmers buiten?
-In Nederland NEN 1010 voor de elektrische installatie. In de VS is dat meestal NEC Article 424 voor vaste elektrische ruimteverwarming[^s3]. De elektrotechnisch adviseur toetst aan de geldende editie en de keuring van het toestel.
+In Nederland NEN 1010 voor de elektrische installatie. In de VS is dat meestal NEC Article 424 voor vaste elektrische ruimteverwarming[^s3]. De elektrotechnisch adviseur bevestigt dat aan de hand van de geldende editie en de keuring van het toestel.
 
 ### Wie bekabelt de bediening?
-De installateur legt de aansluitingen op netspanning en de regelaars aan; een integrator verzorgt de programmering van Control4, Crestron of Lutron. Wijs beide toe op de tekeningen.
+De installateur legt de aansluitingen op netspanning en de regelaars aan, en een integrator verzorgt de programmering van Control4, Crestron of Lutron. Wijs beide toe op de tekeningen, zodat niets aan het toeval wordt overgelaten.
 
 ### Kan Bromic een indeling bekijken vóór de indiening?
-Ja. De kosteloze ontwerpservice maakt een keuze van verwarmers, plaatsing en tekeningen van het verwarmde oppervlak op basis van foto's, plannen of tekeningen[^s2].
+Ja. Onze kosteloze ontwerpservice maakt op basis van uw foto's, plannen of tekeningen een keuze van verwarmers, de plaatsing en tekeningen van het verwarmde oppervlak[^s2].
 
-Boek een ontwerpadvies en laat Bromic de indeling en de materiaallijst controleren vóór de indiening.
+Boek een ontwerpadvies, dan controleren we samen met u de indeling en de materiaallijst vóór de indiening.

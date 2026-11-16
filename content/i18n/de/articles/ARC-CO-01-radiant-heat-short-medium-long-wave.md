@@ -1,16 +1,16 @@
 ---
 id: ARC-CO-01
 type: article
-title: "Strahlungswärme im Freien: ein Leitfaden für Planer zu Kurz-, Mittel- und Langwelle"
+title: "Strahlungswärme im Freien planen: Kurz-, Mittel- und Langwelle für Planer"
 audience: [ARC]
 stage: [CO]
 cell: ARC-CO
 asset: A24
-summary: "Kurz-, mittel- und langwellige Infrarotstrahler im Vergleich nach Strahlungsanteil, Aufheizzeit und Windverhalten – und wie Einhausung, Montagehöhe und die Wärmewolke verändern, was Sie spezifizieren."
+summary: "Wie sich kurz-, mittel- und langwellige Infrarotstrahler bei Strahlungswärme, Aufheizzeit und Wind unterscheiden – und wie Einhausung, Montagehöhe und die Wärmewolke den Heizstrahler prägen, den Sie für einen Außenraum spezifizieren."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Was ist der Unterschied zwischen kurzwelligen und langwelligen Infrarot-Heizstrahlern?"
-meta_description: "Kurz-, mittel- und langwellige Infrarot-Heizstrahler für die Außenraumplanung: Strahlungsanteil, Aufheizzeit, Wind, Montagehöhe und die Regel von 30 % offenem Umfang."
+meta_description: "Strahlungswärme im Freien planen: Kurz-, Mittel- und Langwelle im Vergleich nach Strahlungsanteil, Aufheizzeit, Wind, Montagehöhe und der 30-%-Regel."
 cta: {label: "Planning Guide (Fachausgabe) herunterladen", asset: A02}
 hero: l-010-071
 images: [l-013-111, l-004-012]
@@ -18,7 +18,7 @@ owner_review: Produktteam
 status: draft
 gated: false
 related: [ARC-IN-01, ARC-CO-KB1, ARC-AW-01]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: de
 translation_of: ARC-CO-01
 translation_status: machine-draft
@@ -60,14 +60,13 @@ sources:
     supports: "Heat provided outside a building must be radiant and controlled by an occupancy sensor or timer switch"
     verified: true
 ---
+Kurzwellige Infrarotstrahler arbeiten am heißesten und geben rund 90 % ihrer Energie als Strahlung ab; sie wärmen Menschen daher fast sofort und halten sich bei Wind am besten. Langwellige arbeiten am kühlsten, haben nur rund 40 % Strahlungsanteil, brauchen etwa fünf Minuten zum Aufheizen und verlieren bei einer Brise einen großen Teil ihrer Wirkung. Mittelwellige liegen dazwischen, mit rund 60 % Strahlungsanteil und einer Aufheizzeit von etwa 30 Sekunden[^s1]. Spezifizieren Sie für offene Außenbereiche die Quelle mit dem höchsten Strahlungsanteil, die der Ort zulässt, und platzieren Sie sie dort, wo Menschen zusammenkommen, statt sie gleichmäßig über die Grundfläche zu verteilen.
 
-Kurzwellige Infrarotstrahler arbeiten am heißesten und geben rund 90 % ihrer Energie als Strahlung ab; sie wärmen Menschen daher fast sofort und halten sich bei Wind am besten. Langwellige arbeiten am kühlsten, haben nur rund 40 % Strahlungsanteil, brauchen etwa fünf Minuten zum Aufheizen und verlieren bei Wind einen großen Teil ihrer Wirkung. Mittelwellige liegen dazwischen: rund 60 % Strahlungsanteil bei einer Aufheizzeit von etwa 30 Sekunden[^s1]. Spezifizieren Sie für offene Außenbereiche die Quelle mit dem höchsten Strahlungsanteil, die der Ort zulässt, und platzieren Sie sie für die Menschen, nicht für die Grundfläche.
+![Wohnbereich im Freien mit Meerblick und nahtlos in die Decke eingelassenen Heizstrahlern](img:l-010-071)
 
-![Wohnbereich im Freien mit Meerblick und in die Decke eingebauten Heizstrahlern](img:l-010-071)
+## Wie sich Kurz-, Mittel- und Langwelle unterscheiden
 
-## Was unterscheidet kurz-, mittel- und langwellige Infrarotstrahler?
-
-Die Wellenlänge folgt der Temperatur des Heizelements. Je heißer der Strahler, desto kürzer die Welle und desto größer der Anteil der Energie, der als Strahlung statt als warme Luft abgegeben wird.
+Die Wellenlänge folgt der Temperatur des Heizelements. Je heißer der Strahler, desto kürzer die Welle und desto größer der Anteil der Energie, der als Strahlungswärme statt als warme Luft abgegeben wird.
 
 | | Kurzwelle | Mittelwelle | Langwelle |
 |---|---|---|---|
@@ -77,81 +76,81 @@ Die Wellenlänge folgt der Temperatur des Heizelements. Je heißer der Strahler,
 | Wind | Wärmt Menschen und Gegenstände direkt | Begrenzt windanfällig | Wird leicht verweht |
 | Typischer Einsatz | Offen, exponiert, windig | Überdacht, teilweise geschützt | Geschützt, umschlossen |
 
-Quelle: Zuordnung der Wellenbereiche im Bromic Planning Guide v1.2[^s1]. Die Zeile „Typischer Einsatz“ ist unsere Lesart dieser Eigenschaften, keine veröffentlichte Regel.
+Quelle: Zuordnung der Wellenbereiche im Bromic Planning Guide v1.2[^s1]. Die Zeile „Typischer Einsatz“ ist unsere eigene Lesart dieser Eigenschaften und als Orientierung gedacht, da der Planning Guide sie nicht als Regel veröffentlicht.
 
-Der konvektive Anteil zählt im Freien, weil warme Luft aufsteigt und abzieht. Drinnen bliebe diese Luft im Raum; draußen geht sie verloren. Deshalb ist der Planning Guide hier eindeutig: Wärme im Freien lässt sich nicht über ein Thermostat regeln, und Warmluftgebläse funktionieren im Freien nicht[^s2].
+Der konvektive Anteil zählt im Freien, weil warme Luft aufsteigt und abzieht. Drinnen bliebe diese Luft im Raum; draußen geht sie einfach verloren. Deshalb ist der Planning Guide so eindeutig: Wärme im Freien lässt sich nicht über ein Thermostat regeln, und Warmluft funktioniert im Freien nicht[^s2].
 
 [[VERIFY: Einordnung der Wellenlänge (kurz / mittel / lang, Art des Heizelements) für jedes aktuelle Bromic-Modell — Produktteam]]
 
-## Warum wirkt Strahlungswärme bei Wind, Warmluft aber nicht?
+## Warum Strahlungswärme auch bei Wind wirkt
 
-Strahlungsenergie breitet sich geradlinig aus und wird von den Oberflächen aufgenommen, auf die sie trifft: Haut, Kleidung, Möbel, Stein. Sie braucht die Luft nicht als Träger, deshalb bewegt ein Lufthauch zwar die Luft, nicht aber die schon übertragene Wärme. Warmluft dagegen ist die Luft selbst und zieht mit dem Wind davon[^s2].
+Strahlungsenergie breitet sich geradlinig aus und wird von den Oberflächen aufgenommen, auf die sie trifft – Haut, Kleidung, Möbel und Stein. Weil sie die Luft nicht als Träger braucht, kann eine Brise die Luft um Ihre Gäste bewegen, ohne ihnen die Wärme zu nehmen, die sie schon empfangen haben. Warmluft dagegen zieht mit dem Wind davon[^s2].
 
-Die praktische Regel: Je exponierter der Bereich, desto höher muss der Strahlungsanteil der Quelle sein. Ein langwelliges Gerät auf einer windigen Dachterrasse ist eine Lampe, die zufällig warm ist.
+Als Faustregel gilt: Je exponierter der Raum, desto höher muss der Strahlungsanteil der Quelle sein. Auf einer windigen Dachterrasse fühlt sich ein langwelliges Gerät aus der Nähe vielleicht warm an, trägt aber wenig dazu bei, dass sich jemand am Tisch wohlfühlt.
 
-![Eclipse-Heizstrahler an Wandarmen über einer Restaurantterrasse unter einer Markise](img:l-013-111)
+![Eclipse-Heizstrahler an Wandarmen, die eine Restaurantterrasse unter einer Markise wärmen](img:l-013-111)
 
-## Wie verändert die Einhausung die Spezifikation?
+## Wie die Einhausung Ihre Spezifikation prägt
 
-Bromic betrachtet eine Fläche als „im Freien“, wenn mindestens 30 % ihres horizontalen Umfangs dauerhaft offen sind[^s2]. Darunter verhält sie sich zunehmend wie ein Raum, und es können Regeln für Lüftung und Geräte in Innenräumen gelten; klären Sie das mit dem zuständigen Bauamt.
+Bromic betrachtet eine Fläche als Außenbereich, wenn mindestens 30 % ihres horizontalen Umfangs dauerhaft offen sind[^s2]. Unterhalb dieser Schwelle verhält sie sich zunehmend wie ein Raum, und es können Regeln für Lüftung und Geräte in Innenräumen gelten; klären Sie das daher mit dem zuständigen Bauamt.
 
-Innerhalb des Außenbereichs zählt die Überdachung. Ein Dach oder ein tiefer Überstand hält eine Schicht warmer Luft, die „Wärmewolke“, die die Strahlungsleistung um einen konvektiven Anteil ergänzt[^s2]. Derselbe Heizstrahler leistet unter einer Untersicht mehr als auf einem offenen Deck. Planen Sie für den Bemessungsfall: Eine überdachte Terrasse mit einer offenen Seite verhält sich anders als eine Pergola mit geöffneten Lamellen.
+Innerhalb des Außenbereichs macht die Überdachung einen echten Unterschied. Ein Dach oder ein tiefer Überstand hält eine Schicht warmer Luft, die „Wärmewolke“, die die Strahlungsleistung um einen konvektiven Anteil ergänzt[^s2]. Derselbe Heizstrahler leistet unter einer Untersicht mehr als auf einem offenen Deck, deshalb lohnt es sich, für die tatsächliche Situation zu planen – eine überdachte Terrasse mit einer offenen Seite verhält sich ganz anders als eine Pergola mit geöffneten Lamellen.
 
 | Bedingung | Auswirkung auf die Planung |
 |---|---|
 | Ganz offen, keine Überdachung | Nur Strahlung; Kurzwelle bevorzugen, engere Abstände |
 | Teilüberdachung (Untersicht, Auskragung, geschlossene Pergola) | Die Wärmewolke bringt konvektiven Gewinn; an der Untersicht montieren |
 | Geöffnete Lamellen oder Lattendach | Kaum Wärmewolke; bei der Bemessung wie offen behandeln |
-| Weniger als 30 % des Umfangs offen | Nach Bromic nicht „im Freien“; örtliche Vorschriften prüfen |
+| Weniger als 30 % des Umfangs offen | Nach Bromic kein Außenbereich; örtliche Vorschriften prüfen |
 
-## Wie verändert die Montagehöhe die Wärmeintensität?
+## Wie die Montagehöhe die spürbare Wärme verändert
 
-Die Intensität nimmt mit der Entfernung ab. Bei einer Quelle, die im Verhältnis zur Entfernung klein ist, folgt die Bestrahlungsstärke dem Abstandsquadratgesetz: Bei doppelter Entfernung sinkt die empfangene Wärme auf ein Viertel[^s4]. Linienstrahler fallen im Nahbereich weniger steil ab; verstehen Sie die Tabelle daher als Richtung, nicht als Bemessungswert.
+Die Intensität nimmt mit der Entfernung ab. Bei einer Quelle, die im Verhältnis zur Entfernung klein ist, folgt die Bestrahlungsstärke dem Abstandsquadratgesetz: Bei doppelter Entfernung sinkt die empfangene Wärme auf ein Viertel[^s4]. Linienstrahler fallen im Nahbereich weniger steil ab; lesen Sie die Tabelle daher als Richtung und halten Sie sich bei Bemessungswerten an die Heizflächendaten.
 
 | Entfernung zum Heizstrahler (relativ) | 1,0× | 1,25× | 1,5× | 2,0× |
 |---|---|---|---|---|
 | Relative Intensität, ideale Punktquelle | 100 % | 64 % | 44 % | 25 % |
 
-Zwei Folgen. Hängt ein Heizstrahler höher, wird sein Wärmefeld breiter, während die Intensität auf Kopfhöhe sinkt; eine hohe Decke braucht daher unter Umständen mehr Heizstrahler oder eine Abhängestange, um die Geräte tiefer zu bringen. Hängt er tiefer, stoßen Sie an die Mindestwerte von Bromic: Wandmontage mindestens 1,8 m und Deckenmontage mindestens 2,4 m über dem Boden, je nach Leistung höher[^s2]. Die Heizflächen im Lookbook gehen von einer typischen Montage aus; Bromic weist darauf hin, dass die Heizfläche von Montagehöhe, Umgebung und Einbaubedingungen abhängt[^s3].
+Das wirkt in zwei Richtungen. Hängt ein Heizstrahler höher, wird sein Wärmefeld breiter, während die Intensität auf Kopfhöhe sinkt; eine hohe Decke braucht daher unter Umständen mehr Heizstrahler oder eine Abhängestange, die sie näher an die Menschen darunter bringt. Hängt er tiefer, erreichen Sie die Mindestwerte von Bromic: Wandmontage mindestens 1,8 m und Deckenmontage mindestens 2,4 m über dem Boden, je nach Leistung abweichend[^s2]. Die Heizflächen im Lookbook gehen von einer typischen Montage aus, und Bromic weist darauf hin, dass die Heizfläche von Montagehöhe, Umgebung und Einbaubedingungen abhängt[^s3].
 
 [[VERIFY: empfohlener Bereich der Montagehöhe je Modell und Heizfläche bei jeder Höhe — Produktteam]]
 
-## Welche Bromic Heizstrahler passen zu welchem Ort?
+## Bromic Heizstrahler passend zum Ort
 
 | Heizstrahler | Heizfläche (ca.) | Montage | Zu spezifizierende Steuerung |
 |---|---|---|---|
 | Platinum Smart-Heat Electric, 2300/3400/4500W | 6–13 m² | Eingebaut, Decke, Wand | Affinity On/Off oder Dimmer, Wandschalter, Smart-Heat App |
-| Tungsten Smart-Heat Electric, Select und Coastal (demnächst erhältlich) | 6–13 m² | Eingebaut (geringer Deckenabstand), Decke, Wand, einzelner Mast | Affinity On/Off oder Dimmer, Wandschalter, Smart-Heat App |
+| Tungsten Smart-Heat Electric, Select und Coastal (demnächst erhältlich) | 6–13 m² | Eingebaut (geringe Einbautiefe), Decke, Wand, einzelner Mast | Affinity On/Off oder Dimmer, Wandschalter, Smart-Heat App |
 | Eclipse Smart-Heat Electric | 11 m² | Einfacher, doppelter oder gebogener Mast | Eclipse-Steuergerät, Wandschalter, Smart-Heat App |
 | Tungsten Smart-Heat Freestanding Gas | 20 m² | Freistehend | [[VERIFY: Steuerungsmöglichkeiten für Tungsten Freestanding Gas — Produktteam]] |
 
 Quelle: Lookbook 2026[^s3]. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind.
 
-Die Steuerung ist kein Ausbaudetail, das man zum Schluss wählt. Energievorschriften für gewerbliche Gebäude verlangen sie zunehmend: Im US-Bundesstaat Washington etwa schreibt der Energiecode für Gewerbebauten vor, dass Wärme außerhalb eines Gebäudes als Strahlungswärme erzeugt und automatisch über Präsenzmelder oder Zeitschaltung abgeschaltet wird[^s5]. Prüfen Sie, welche Vorschriften für Ihr Projekt gelten. [[VERIFY: ob deutsche Vorschriften (z. B. GEG oder Landesrecht) Anforderungen an Heizstrahler im Freien stellen — Partner Deutschland]]
+Jeder Bromic Heizstrahler wird von Anfang an mit seiner Affinity Smart-Heat® Steuerung spezifiziert, und Energievorschriften für gewerbliche Gebäude verlangen sie zunehmend ebenfalls. Im US-Bundesstaat Washington etwa schreibt der Energiecode für Gewerbebauten vor, dass Wärme außerhalb eines Gebäudes als Strahlungswärme erzeugt und automatisch über Präsenzmelder oder Zeitschaltung abgeschaltet wird[^s5]. Prüfen Sie, welche Vorschriften für Ihr Projekt gelten. [[VERIFY: ob deutsche Vorschriften (z. B. GEG oder Landesrecht) Anforderungen an Heizstrahler im Freien stellen — Partner Deutschland]]
 
 ## Das Wichtigste in Kürze
 
-- Kurzwelle: ~90 % Strahlung, sofort warm, am besten bei Wind. Langwelle: ~40 % Strahlung, ~5 min, am windempfindlichsten[^s1].
-- „Im Freien“ heißt: 30 % oder mehr des Umfangs dauerhaft offen; Überdachungen erzeugen eine Wärmewolke[^s2].
-- Die Intensität sinkt mit der Entfernung; halten Sie die Mindesthöhen von 1,8 m an der Wand und 2,4 m an der Decke ein und prüfen Sie sie je Modell[^s2].
-- Von der Heizfläche im Lookbook ausgehen, dann an Exposition, Höhe und Überdachung anpassen[^s3].
-- Zu jedem Heizstrahler die Steuerung spezifizieren.
+- Kurzwelle hat ~90 % Strahlungsanteil, wärmt sofort und hält sich bei Wind am besten; Langwelle hat ~40 % Strahlungsanteil, braucht ~5 min und ist am windempfindlichsten[^s1].
+- Ein Raum gilt als Außenbereich, wenn 30 % oder mehr des Umfangs dauerhaft offen sind, und eine Überdachung ergänzt eine Wärmewolke[^s2].
+- Die Intensität sinkt mit der Entfernung; halten Sie daher die Mindesthöhen von 1,8 m an der Wand und 2,4 m an der Decke ein und bestätigen Sie sie je Modell[^s2].
+- Gehen Sie von der Heizfläche im Lookbook aus und passen Sie sie dann an Exposition, Höhe und Überdachung an[^s3].
+- Spezifizieren Sie zu jedem Heizstrahler die Affinity Smart-Heat® Steuerung.
 
 ## FAQ
 
 ### Ist Kurzwelle oder Langwelle besser für eine Terrasse?
-Für offene oder windige Terrassen die Kurzwelle: Rund 90 % ihrer Leistung sind Strahlung, und sie wärmt sofort. Langwelle passt zu geschützten Bereichen, in denen ihr größerer konvektiver Anteil nicht weggeweht wird[^s1].
+Für offene oder windige Terrassen die Kurzwelle, da rund 90 % ihrer Leistung Strahlung sind und sie sofort wärmt. Langwelle passt zu geschützten Bereichen, in denen ihr größerer konvektiver Anteil nicht weggeweht wird[^s1].
 
 ### Funktionieren Infrarot-Heizstrahler bei Wind?
-Strahlungswärme hält bei leichtem bis mäßigem Wind, weil sie Menschen und Oberflächen wärmt, nicht die Luft[^s2]. Starker, anhaltender Wind mindert bei jedem Heizstrahler die Behaglichkeit; ergänzen Sie einen Windschutz auf der Windseite.
+Strahlungswärme hält bei leichtem bis mäßigem Wind, weil sie Menschen und Oberflächen wärmt statt der Luft[^s2]. Starker, anhaltender Wind mindert bei jedem Heizstrahler die Behaglichkeit; ergänzen Sie daher einen Windschutz auf der Windseite.
 
 ### Braucht eine überdachte Terrasse weniger Heizstrahler?
-Oft ja, weil die Überdachung eine Wärmewolke hält, die konvektive Wärme ergänzt[^s2]. Bestätigen Sie das mit einem Plan des Bromic-Planungsteams.
+Oft ja, weil die Überdachung eine Wärmewolke hält, die konvektive Wärme ergänzt[^s2]. Unser Planungsteam kann die Anzahl mit einem Plan bestätigen.
 
 ### Wie hoch sollte ein Heizstrahler im Freien montiert werden?
-Nicht tiefer als die Bromic-Mindestwerte von 1,8 m bei Wandmontage und 2,4 m bei Deckenmontage, die je nach Leistung variieren[^s2]. Eine höhere Montage verteilt die Wärme breiter, senkt aber die Intensität. Prüfen Sie die Montageanleitung jedes Modells.
+Nicht tiefer als die Bromic-Mindestwerte von 1,8 m bei Wandmontage und 2,4 m bei Deckenmontage, die je nach Leistung variieren[^s2]. Eine höhere Montage verteilt die Wärme breiter, senkt aber ihre Intensität; prüfen Sie daher die Installationsanleitung jedes Modells.
 
 ### Kann ich Wärme im Freien mit einem Thermostat regeln?
-Nicht sinnvoll. Im Freien ist die Lufttemperatur nicht die Größe, die Sie regeln[^s2]. Nutzen Sie Ein/Aus, Dimmer oder Zeitsteuerung über Affinity Smart-Heat Controls.
+Nicht sinnvoll, denn im Freien ist die Lufttemperatur nicht die Größe, die Sie regeln[^s2]. Nutzen Sie Ein/Aus, Dimmer oder Zeitsteuerung über Affinity Smart-Heat Controls.
 
 Die Fachausgabe des Planning Guide enthält die vollständige Bemessungsmethode.

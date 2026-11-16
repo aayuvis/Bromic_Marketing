@@ -1,16 +1,16 @@
 ---
 id: ARC-AW-01
 type: article
-title: "Buitenkamers ontwerpen voor het hele jaar: wat de cijfers van 2026 zeggen"
+title: "Ontwerptrends voor buitenleven in 2026: buitenkamers voor elk seizoen"
 audience: [ARC]
 stage: [AW]
 cell: ARC-AW
 asset: A24
-summary: "De onderzoekscijfers over buitenleven in 2026, gelezen voor architecten: waar opdrachtgevers om vragen, waarom verwarming nog steeds tot het laatst blijft liggen, en hoe u haar in het programma van eisen opneemt."
+summary: "Wat de onderzoekscijfers van 2026 architecten vertellen over de buitenkamers die opdrachtgevers willen, waarom warmte nog altijd als laatste wordt gepland, en hoe u haar vanaf de eerste schets in het programma van eisen opneemt."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wat zijn de ontwerptrends voor buitenleven in 2026?"
-meta_description: "Ontwerptrends voor buitenleven in 2026 volgens Amerikaanse cijfers van AIA en NAHB, en hoe architecten buitenkamers ontwerpen voor het hele jaar, met verwarming in het programma van eisen."
+meta_description: "Ontwerptrends voor buitenleven 2026 uit Amerikaanse AIA- en NAHB-cijfers, en hoe architecten stralingswarmte in buitenkamers voor elk seizoen opnemen."
 cta: {label: "Download het rapport Trends 2026", asset: A01}
 hero: l-010-075
 images: [l-010-069, t-006-016]
@@ -18,7 +18,7 @@ owner_review: marketing
 status: draft
 gated: false
 related: [ARC-CO-01, ARC-IN-01, BLD-IN-01]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: nl
 translation_of: ARC-AW-01
 translation_status: machine-draft
@@ -81,14 +81,13 @@ sources:
     supports: "Platinum Smart-Heat Electric 65–143 ft²; recessed, ceiling or wall mount; Affinity controls and integrations"
     verified: true
 ---
+De buitenkamer is nog altijd de ruimte waar uw opdrachtgevers als eerste om vragen. In de Home Design Trends Survey 2026 van het American Institute of Architects (AIA) stonden buitenruimtes bovenaan de ruimtes met een speciale functie, en het AIA meldt dat de vraag ernaar met 10% steeg ten opzichte van 2025[^s1][^s2]. Achter dat cijfer zit een stillere verandering in wat mensen voor zich zien. Ze denken niet meer aan een terras naast het huis, maar aan een buitenkamer die ze ook op een koele avond kunnen gebruiken, met stroom, constructie, verlichting en warmte die vanaf het allereerste begin in het ontwerp zijn meegenomen. De cijfers in dit artikel komen uit de Amerikaanse markt.
 
-Buitenleven is nog altijd de ruimte waar opdrachtgevers als eerste om vragen. In de Home Design Trends Survey 2026 van het American Institute of Architects (AIA) stonden buitenruimtes bovenaan de ruimtes met een speciale functie, en het AIA meldt dat de vraag ernaar met 10% steeg ten opzichte van 2025[^s1][^s2]. De ontwerpverschuiving achter dat cijfer: opdrachtgevers willen geen terras meer naast het huis. Ze willen een buitenkamer die op een koude avond werkt, met stroom, constructie, verlichting en warmte vanaf het begin ingetekend. De cijfers in dit artikel komen uit de Amerikaanse markt.
+![Minimalistisch glazen paviljoen met verwarmers naadloos verzonken in het plafond](img:l-010-075)
 
-![Minimalistisch glazen paviljoen met verwarmers verzonken in het plafond](img:l-010-075)
+## Wat de cijfers van 2026 ons vertellen over buitenleven
 
-## Wat zeggen de cijfers van 2026 over buitenleven?
-
-De kern is een stabiele vraag vanaf een hoog niveau, geen hausse. Lees de onderzoeken samen en drie dingen blijven overeind.
+Samen gelezen beschrijven de onderzoeken een stabiele vraag vanaf een hoog niveau, geen plotselinge hausse.
 
 | Maatstaf | Cijfer | Bron |
 |---|---|---|
@@ -99,66 +98,66 @@ De kern is een stabiele vraag vanaf een hoog niveau, geen hausse. Lees de onderz
 | Nieuwe eengezinswoningen in de VS waarvan de bouw in 2025 begon met een terras | 60,5% (61,8% in 2024) | NAHB[^s4] |
 | Gemiddeld terras bij een nieuwe woning in de VS | ca. 30 m² | NAHB / Home Innovation[^s5] |
 
-[[VERIFY: AIA reports "increasing minus decreasing" net shares; confirm whether the 10% is points or relative, and which quarter's question the 55%/40% come from, against the AIA PDFs — marketing]]
+[[VERIFY: het AIA rapporteert nettopercentages ("stijgend min dalend"); bevestig aan de hand van de AIA-pdf's of de 10% procentpunten of relatief is, en uit welke kwartaalvraag de 55%/40% komen — marketing]]
 
-Twee kanttekeningen voor wie deze cijfers citeert. De AIA-cijfers zijn nettopercentages van architecten, geen percentages van woningen. En het aandeel woningen met een terras volgens NAHB is nu twee jaar op rij gedaald[^s4], dus "elke nieuwe woning heeft een terras" is overdreven. De eerlijke lezing: de meeste nieuwe Amerikaanse woningen krijgen er een, gemiddeld zo groot als een kamer van ongeveer 30 m², en architecten noemen het nog steeds de ruimte die opdrachtgevers het meest willen.
+Twee kanttekeningen zijn goed om in gedachten te houden voordat u deze cijfers aanhaalt. De AIA-cijfers zijn nettopercentages van architecten; ze beschrijven dus wat bureaus zien, niet het aandeel gebouwde woningen. En het aandeel nieuwe woningen met een terras volgens NAHB is nu twee jaar op rij gedaald[^s4], zodat het overdreven zou zijn te zeggen dat elke nieuwe woning een terras heeft. Een eerlijker beeld: de meeste nieuwe Amerikaanse woningen krijgen er een, gemiddeld een royale ca. 30 m² – zo groot als een kamer – en architecten noemen het nog steeds de ruimte die hun opdrachtgevers het liefst willen.
 
-## Waar vragen opdrachtgevers architecten echt om?
+## De buitenkamers waar opdrachtgevers om vragen
 
-Kamers, geen vlonders. De wensen die in de trendverslagen terugkomen zijn overdekte terrassen, buitenkeukens, pergola's met geïntegreerde verlichting en audio, en glazen puien die de woonkamer naar het terras openvouwen. Elk daarvan maakt van de buitenruimte een verlengstuk van de plattegrond, en daarmee gelden dezelfde verwachtingen als voor de plattegrond: de ruimte moet comfortabel zijn wanneer mensen haar willen gebruiken.
+De wensen die in de trendverslagen terugkomen beschrijven eerder kamers dan vlonders: overdekte terrassen, buitenkeukens, pergola's met geïntegreerde verlichting en audio, en glazen puien die de woonkamer naar het terras openvouwen. Elk daarvan maakt van de buitenruimte een verlengstuk van de plattegrond, en daarmee komt dezelfde verwachting die opdrachtgevers van elke andere kamer in huis hebben – dat die comfortabel is wanneer ze haar maar willen gebruiken.
 
-Huiseigenaren zeggen hetzelfde in hun eigen woorden. In het onderzoek van Bromic onder Amerikaanse huiseigenaren in 2026 zei 94% dat hun buitenruimte meer gebruikt zou kunnen worden, en 67% dat verwarming het buitengebruik verlengt[^s6].
+Huiseigenaren zeggen ongeveer hetzelfde in hun eigen woorden. In het onderzoek van Bromic onder Amerikaanse huiseigenaren in 2026 zei 94% dat hun buitenruimte meer gebruikt zou kunnen worden, en 67% dat verwarming het buitengebruik verlengt[^s6].
 
-## Waarom blijft verwarming nog steeds tot het laatst liggen?
+## Waarom warmte nog altijd als laatste wordt gepland
 
-Omdat niemand er in de conceptfase eigenaar van is. Verlichting ligt bij de installatieadviseur, schaduw bij de landschapsarchitect, constructie bij de constructeur. Verwarming valt daartussen. Slechts 23% van de huiseigenaren geeft buitenverwarming prioriteit in de planfase[^s6].
+In de conceptfase heeft verwarming zelden een eigenaar. Verlichting ligt bij de installatieadviseur, schaduw bij de landschapsarchitect en constructie bij de constructeur, terwijl verwarming vaak tussen hen in valt. Slechts 23% van de huiseigenaren geeft buitenverwarming prioriteit in de planfase[^s6].
 
-Wat het kost om het laat te doen, is zichtbaar. Een achteraf geplaatste verwarmer wordt tegen de voorkant van de overstek geschroefd die de architect zo zorgvuldig detailleerde, met opbouwleidingen naar de dichtstbijzijnde lasdoos en een schakelaar waar toevallig plek is. Dezelfde verwarmer, meeontworpen, ligt vlak in een inbouwset, op een eigen groep, en wordt samen met de verlichting bediend.
+Wat het kost om haar laat op te pakken, ziet u in de afgewerkte ruimte. Een achteraf geplaatste verwarmer wordt tegen de voorkant van de overstek geschroefd die u zo zorgvuldig detailleerde, gevoed via opbouwleidingen vanaf de dichtstbijzijnde lasdoos, met een schakelaar waar toevallig plek is. Dezelfde verwarmer, vanaf het begin meeontworpen, ligt vlak in een inbouwset, op een eigen groep, en wordt samen met de verlichting bediend.
 
 ![Modern poolhouse met verwarmers onder de uitkraging](img:l-010-069)
 
-## Wat maakt een buitenkamer het hele jaar bruikbaar?
+## Een buitenkamer ontwerpen voor elk seizoen
 
-Vier ontwerpbeslissingen, allemaal vroeg genomen.
+Een ruimte die mensen het hele jaar verwelkomt, komt voort uit vier beslissingen, elk vroeg in het ontwerp genomen.
 
-1. **Omsluiting.** De planningsregel van Bromic beschouwt een ruimte als buitenruimte als minstens 30% van de omtrek permanent open is. Een gedeeltelijke overkapping houdt een "warmtewolk" vast die een convectieve bijdrage levert[^s7]. Weet aan welke kant van die grens het ontwerp zit voordat u apparatuur kiest.
-2. **Soort warmte.** Buiten kunt u de lucht niet verwarmen; die stijgt op en waait weg. Stralingswarmte (infrarood) verwarmt mensen en oppervlakken direct en houdt stand bij een lichte wind[^s7]. Hete lucht werkt buiten niet.
-3. **Montagevlak.** Pergolabalken, overstekken en uitkragingen zijn de natuurlijke montagevlakken. Beslis of verwarmers worden ingebouwd, opgebouwd of gehangen, zodat de constructie en de plafondopbouw daarop zijn afgestemd.
-4. **Stroom en bediening.** Groepen, schakeling en integratie met verlichting en domotica horen op de elektrotechnische tekeningen, niet in een meerwerkopdracht.
+1. **Hoe open de ruimte is.** De planningsregel van Bromic beschouwt een ruimte als buitenruimte als minstens 30% van de omtrek permanent open is, en een gedeeltelijke overkapping houdt een "warmtewolk" vast die een convectieve bijdrage levert[^s7]. Aan welke kant van die grens uw ontwerp zit, bepaalt elke apparatuurkeuze die volgt.
+2. **De soort warmte.** Buiten stijgt warme lucht gewoon op en waait weg. Stralingswarmte (infrarood) verwarmt mensen en oppervlakken direct en houdt stand bij een lichte wind[^s7]; daarom heeft hete lucht het buiten moeilijk en doet infrarood het werk.
+3. **Waar de verwarmers komen.** Pergolabalken, overstekken en uitkragingen zijn de natuurlijke montagevlakken. Als vroeg vaststaat of verwarmers worden ingebouwd, opgebouwd of gehangen, kunnen de constructie en de plafondopbouw er ruimte voor maken.
+4. **Stroom en bediening.** Groepen, schakeling en integratie met verlichting en domotica horen vanaf het begin op de elektrotechnische tekeningen, in plaats van later als meerwerkopdracht.
 
-## Hoe ontwerpt u verwarming in de overstek, in plaats van erop?
+## Warmte in de overstek ontwerpen
 
-Behandel de verwarmer als een plafondelement, net als een inbouwspot. Bij een overdekt terras houdt een verzonken elektrische verwarmer het plafondvlak strak. Platinum Smart-Heat Electric (2300 W, 3400 W of 4500 W) verwarmt ca. 6–13 m², afhankelijk van model en installatie, en kan worden ingebouwd of aan plafond of wand gemonteerd[^s8]. De nieuwe collecties Tungsten Smart-Heat Electric Select en Coastal (binnenkort leverbaar) voegen inbouw met weinig inbouwdiepte toe en verwarmen ca. 6–13 m²[^s8].
+De meest verfijnde installaties behandelen de verwarmer als een plafondelement, net zoals u een inbouwspot zou doen. Boven een overdekt terras houdt een verzonken elektrische verwarmer het plafondvlak strak en laat hij de architectuur spreken. Platinum Smart-Heat® Electric (2300 W, 3400 W of 4500 W) verwarmt ca. 6–13 m², afhankelijk van model en installatie, en kan worden ingebouwd of aan plafond of wand gemonteerd[^s8]. De nieuwe collecties Tungsten Smart-Heat® Electric Select en Coastal (binnenkort leverbaar) voegen inbouw met weinig inbouwdiepte toe en verwarmen ca. 6–13 m²[^s8].
 
-Schrijf de bediening altijd samen met de verwarmer voor: een Affinity Smart-Heat On/Off- of Dimmer-regelaar, een wandschakelaar en de Bromic Smart-Heat app voor zones en tijdschema's. Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht. Integratie met Control4, Crestron of Lutron is mogelijk, maar de compatibiliteit verschilt per systeem en kan extra integratiehardware vragen[^s8].
+Elke verwarmer die u voorschrijft, komt met zijn bediening: een Affinity Smart-Heat® On/Off- of Dimmer-regelaar, een wandschakelaar en de Bromic Smart-Heat app voor zones en tijdschema's. Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht. Integratie met Control4, Crestron of Lutron is mogelijk, al verschilt de compatibiliteit per systeem en kan extra integratiehardware nodig zijn[^s8].
 
-De elektrische installatie volgt in Nederland NEN 1010; stem haar af met de gemeente en een gekwalificeerde elektrotechnisch installateur. [[VERIFY: current Dutch codes for outdoor heater installations — Bromic Benelux distributor]]
+De elektrische installatie volgt in Nederland NEN 1010; stem haar af met de gemeente en een gekwalificeerde elektrotechnisch installateur. [[VERIFY: huidige Nederlandse normen voor de installatie van buitenverwarmers — Bromic Benelux distributor]]
 
-![Stedelijk dakterras met een verwarmer verzonken in een houten overstek](img:t-006-016)
+![Stedelijk dakterras met een verwarmer verzonken in een warme houten overstek](img:t-006-016)
 
 ## De belangrijkste punten
 
 - Buitenleven blijft volgens de AIA-cijfers van 2026 de ruimte met een speciale functie waar Amerikaanse architecten het vaakst om gevraagd worden[^s2].
-- Ongeveer zes op de tien nieuwe Amerikaanse woningen krijgen een terras, gemiddeld ongeveer 30 m²[^s4][^s5]. Dat is een kamer, en die verdient de installaties van een kamer.
-- Verwarming is de installatie die in de planfase het vaakst wordt vergeten: 23% van de huiseigenaren geeft haar prioriteit[^s6].
-- Leg omsluiting (de 30%-regel), soort warmte, montagevlak en bediening vast in het schetsontwerp.
-- Elke verwarmer op de tekeningen komt met zijn bediening.
+- Ongeveer zes op de tien nieuwe Amerikaanse woningen krijgen een terras, gemiddeld ca. 30 m²[^s4][^s5] – zo groot als een kamer, en het waard om met de installaties van een kamer te ontwerpen.
+- Verwarming is de installatie die in de planfase het vaakst wordt gemist: 23% van de huiseigenaren geeft haar prioriteit[^s6].
+- Leg in het schetsontwerp vast hoe open de ruimte is (de 30%-regel), de soort warmte, het montagevlak en de bediening.
+- Elke verwarmer op de tekeningen komt met zijn Affinity Smart-Heat®-bediening.
 
 ## FAQ
 
 ### Wat zijn de belangrijkste ontwerptrends voor buitenleven in 2026?
-Buitenkamers in plaats van terrassen: overdekte terrassen, buitenkeukens, pergola's met geïntegreerde verlichting, audio en warmte, en glazen puien tussen binnen en buiten. Het AIA-onderzoek van 2026 zet buitenleven bovenaan de ruimtes met een speciale functie[^s2].
+Opdrachtgevers vragen eerder om buitenkamers dan om terrassen: overdekte terrassen, buitenkeukens, pergola's met geïntegreerde verlichting, audio en warmte, en glazen puien die het huis naar het terras openen. Het AIA-onderzoek van 2026 zet buitenleven bovenaan de ruimtes met een speciale functie[^s2].
 
 ### Groeit de vraag naar buitenleven nog?
-Het AIA meldt dat de vraag naar buitenruimtes 10% hoger ligt dan in 2025[^s1]. NAHB laat een kleine daling zien in het aandeel nieuwe Amerikaanse woningen met een terras, naar 60,5% in 2025[^s4]. De vraag is hoog en stabiel, niet overal versnellend.
+Het AIA meldt dat de vraag naar buitenruimtes 10% hoger ligt dan in 2025[^s1], terwijl NAHB een kleine daling laat zien in het aandeel nieuwe Amerikaanse woningen met een terras, naar 60,5% in 2025[^s4]. De vraag is hoog en stabiel, al versnelt ze niet overal.
 
 ### Wanneer hoort verwarming in het ontwerp?
-In het schetsontwerp, samen met verlichting en constructie. Dan kosten de inbouwopening, de groep en de plek van de bediening het minst.
+In het schetsontwerp, samen met verlichting en constructie. Dan zijn de inbouwopening, de groep en de plek van de bediening het eenvoudigst en het voordeligst mee te nemen.
 
 ### Welke verwarming werkt in een buitenkamer met open zijden?
-Stralingswarmte (infrarood). Die verwarmt mensen en oppervlakken in plaats van lucht en houdt dus stand bij een lichte wind, waar hete lucht faalt[^s7].
+Stralingswarmte (infrarood). Omdat die mensen en oppervlakken verwarmt in plaats van de lucht, houdt ze stand bij een lichte wind, waar hete lucht tekortschiet[^s7].
 
 ### Kunnen buitenverwarmers worden gekoppeld aan domotica?
-Ja, via Affinity Smart-Heat-bediening, die onder meer met Control4, Crestron en Lutron werkt. De compatibiliteit verschilt en kan extra integratiehardware vragen; stem af met de integrator[^s8].
+Ja, via Affinity Smart-Heat-bediening, die onder meer met Control4, Crestron en Lutron werkt. De compatibiliteit verschilt en kan extra integratiehardware vragen; stem de details daarom af met uw integrator[^s8].
 
-Lees de volledige cijfers van 2026 in het Trends-rapport.
+Ontdek alle bevindingen van 2026 in het Trends-rapport.

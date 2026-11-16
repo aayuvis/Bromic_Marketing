@@ -1,16 +1,16 @@
 ---
 id: RES-AW-01
 type: article
-title: "Die Terrasse das ganze Jahr nutzen: was wirklich funktioniert"
+title: "Die Terrasse für das ganze Jahr: mehr Abende draußen, zu jeder Jahreszeit"
 audience: [RES]
 stage: [AW]
 cell: RES-AW
 asset: A24
-summary: "Was eine Terrasse an kalten Abenden und in der Übergangszeit behaglich hält: Schutz, Licht und Strahlungswärme, von Anfang an mitgeplant, nicht später ergänzt."
+summary: "Was eine Terrasse an kühlen Abenden und in der Übergangszeit behaglich hält: Schutz vor dem Wind, etwas über dem Kopf und Strahlungswärme, die von der ersten Zeichnung an mitgeplant ist."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie kann ich meine Terrasse nutzen, wenn es kalt ist?"
-meta_description: "Die Terrasse auch bei Kälte nutzen: Wind abhalten, teilweise überdachen und Strahlungswärme auf die Sitzplätze richten. Was funktioniert, was nicht, und warum."
+meta_description: "Die Terrasse das ganze Jahr nutzen: vor Wind schützen, teilweise überdachen und Strahlungswärme auf die Sitzplätze richten, für längere Abende draußen."
 cta: {label: "Den Report Outdoor Living Trends 2026 herunterladen", asset: A01}
 hero: l-013-099
 images: [l-007-037, l-016-135]
@@ -18,7 +18,7 @@ owner_review: Marketing
 status: draft
 gated: false
 related: [RES-CO-01, RES-PP-01, RES-CO-KB1, BLD-AW-01]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: de
 translation_of: RES-AW-01
 translation_status: machine-draft
@@ -61,62 +61,62 @@ sources:
     verified: true
 ---
 
-Wer die Terrasse auch bei Kälte nutzen will, braucht drei Dinge: den Wind abhalten, etwas über den Kopf bringen und die Menschen wärmen statt der Luft. Das Letzte übernehmen Strahlungsheizer (Infrarot): Sie wärmen Haut und Möbel so, wie die Sonne es tut, und funktionieren deshalb auch in einem offenen Bereich, in dem warme Luft einfach davonwehen würde.[^s4] Planen Sie alle drei zusammen, und ein Abend draußen dauert Stunden länger, vom Herbst bis ins Frühjahr.
+Damit Sie Ihre Terrasse auch genießen können, wenn die Luft kühler wird, schützen Sie sie vor dem Wind, bringen etwas über die Sitzplätze und wärmen die Menschen direkt. Diesen letzten Teil übernehmen Strahlungsheizstrahler (Infrarot): Sie wärmen Haut und Möbel so, wie es die Sonne tut, und wirken deshalb auch in einem offenen Bereich, in dem warme Luft einfach davonziehen würde.[^s4] Planen Sie alle drei zusammen, und ein Abend draußen dauert Stunden länger, vom Herbst bis weit ins Frühjahr.
 
-## Warum bleiben so viele Terrassen nach Einbruch der Dunkelheit leer?
+## Warum so viele Terrassen nach Sonnenuntergang still werden
 
-Weil die Terrasse gebaut wurde und die Wärme nicht. In den USA haben die meisten Neubauten inzwischen eine: 60,5 % der 2025 begonnenen Einfamilienhäuser hatten eine Terrasse, und die durchschnittliche Terrasse eines US-Neubaus misst etwa 30 m².[^s1][^s2] Dennoch sagten in der US-Hausbesitzerumfrage von Bromic 94 %, ihr Außenbereich könnte mehr genutzt werden, und weniger als jeder Vierte (23 %) plante die Heizung von Anfang an ein.[^s3] [[VERIFY: survey base, fieldwork dates and question wording for the 94% and 23% figures — Marketing]]
+In den USA haben die meisten Neubauten inzwischen eine Terrasse, doch weit weniger bringen die Wärme mit, um sie nach Sonnenuntergang zu genießen. 60,5 % der 2025 begonnenen US-Einfamilienhäuser hatten eine Terrasse, und die durchschnittliche Terrasse eines US-Neubaus misst etwa 30 m².[^s1][^s2] Dennoch sagten in der eigenen US-Hausbesitzerumfrage von Bromic 94 %, ihr Außenbereich könnte mehr genutzt werden, und weniger als jeder Vierte (23 %) plante die Heizung von Anfang an ein.[^s3] [[VERIFY: Stichprobe, Erhebungszeitraum und Fragewortlaut für die Werte von 94 % und 23 % — Marketing]]
 
-Das Ergebnis kennt man. Das Abendessen zieht bei Sonnenuntergang nach drinnen. Die Loungemöbel werden im Juli genutzt und im Oktober abgedeckt. Die Lösung sind nicht mehr Möbel, sondern Behaglichkeit, die hält, wenn die Temperatur sinkt.
+Vielleicht kennen Sie das gut. Das Abendessen zieht bei Sonnenuntergang nach drinnen, und die Loungegruppe, die im Juli so einladend war, ist im Oktober abgedeckt. Was das ändert, ist Behaglichkeit, die auch bei sinkenden Temperaturen hält – weit mehr als ein weiteres Möbelstück.
 
-## Was hält eine Terrasse wirklich warm?
+## Behaglichkeit in Ebenen für Ihren Außenbereich
 
-Jede Ebene erfüllt eine andere Aufgabe. Die Tabelle ordnet sie nach dem, was sie bewirken.
+Jede Ebene hat ihre eigene Aufgabe, und die Tabelle ordnet sie nach dem, was sie jeweils verändert.
 
-| Ebene | Was sie bewirkt | Funktioniert bei Wind? | Hinweise |
+| Ebene | Was sie bewirkt | Wirkt bei Wind? | Hinweise |
 |---|---|---|---|
-| Windschutz (Screen, Wand, Bepflanzung) | Verhindert, dass bewegte Luft der Haut die Wärme entzieht | Ja – das ist seine Aufgabe | Der Bereich bleibt Außenbereich: mindestens 30 % des Umfangs dauerhaft offen[^s4] |
-| Überdachung (Pergola, Dach, Lamellen) | Hält eine „Wärmewolke“ über den Sitzplätzen und ergänzt sie durch Konvektion[^s4] | Teilweise | Bietet auch eine Montagefläche für eingebaute Heizstrahler |
-| Strahlungsheizer, kurz- oder mittelwellig | Wärmt Menschen und Gegenstände direkt | Ja, bei leichtem bis mäßigem Wind[^s4] | Kurzwellig wärmt fast sofort, mittelwellig nach etwa 30 Sekunden[^s4] |
+| Windschutz (Sichtschutz, Wand, Bepflanzung) | Verhindert, dass bewegte Luft der Haut die Wärme entzieht | Ja – dafür ist er da | Der Bereich bleibt ein Außenbereich: mindestens 30 % des Umfangs dauerhaft offen[^s4] |
+| Überdachung (Pergola, Dach, Lamellen) | Hält eine „Wärmewolke“ über den Sitzplätzen und gibt einen zusätzlichen Schub durch Konvektion[^s4] | Teilweise | Bietet zugleich eine Montagefläche für eingebaute Heizstrahler |
+| Strahlungsheizstrahler, kurz- oder mittelwellig | Wärmt Menschen und Gegenstände direkt | Ja, bei leichtem bis mäßigem Wind[^s4] | Kurzwellig wärmt fast sofort, mittelwellig in etwa 30 Sekunden[^s4] |
 | Feuerschale oder Kamin | Atmosphäre und ein örtlicher Wärmepunkt | Schlecht | Wärmt, wer davor sitzt; der Rauch folgt dem Wind |
 | Warmluft- oder Konvektionsheizer | Erwärmt Luft | Nein | Hinweis von Bromic: Warmluft funktioniert im Freien nicht[^s4] |
-| Decken, Kissen, warmes Licht | Behaglichkeit an den Rändern | entfällt | Am besten zusätzlich zur Wärme, nicht statt ihrer |
+| Decken, Kissen, warmes Licht | Behaglichkeit an den Rändern | entfällt | Am besten zusammen mit Wärme, nicht an ihrer Stelle |
 
-![Steinerner Außenraum mit Kamin und einem Deckenheizstrahler, dahinter Wald](img:l-007-037)
+![Ein steinerner Außenraum mit Kamin und einem Deckenheizstrahler, dahinter der Wald](img:l-007-037)
 
-## Warum ist Strahlungswärme für draußen die richtige?
+## Wärme, die sich wie Sonnenlicht anfühlt
 
-Draußen gibt es keinen geschlossenen Luftraum, den man erwärmen könnte. Alles, was Luft erwärmt, verliert sie an die erste Brise. Infrarotwärme breitet sich als Strahlung aus und wird von dem aufgenommen, was sie erreicht – Ihren Schultern, dem Tisch, dem Steinboden –, das dann warm bleibt.[^s4]
+Draußen gibt es keinen Raum voller Luft, der die Wärme hält, also verliert alles, was die Luft erwärmt, seine Wärme an die erste Brise. Infrarotwärme breitet sich als Strahlung aus und wird von allem aufgenommen, was sie erreicht – Ihren Schultern, dem Tisch, dem Steinboden –, das dann angenehm warm bleibt.[^s4]
 
-Infrarot ist nicht gleich Infrarot. Der Planungsleitfaden von Bromic unterscheidet nach Wellenlänge: Kurzwellig hat etwa 90 % Strahlungsanteil und wärmt sofort; mittelwellig etwa 60 % mit rund 30 Sekunden Aufheizzeit; langwellig nur etwa 40 %, braucht rund fünf Minuten und ist am stärksten windanfällig.[^s4] Für eine Terrasse, die man spontan nutzt, zählt die Aufheizzeit.
+Infrarot gibt es in verschiedenen Wellenlängen, und der Planungsleitfaden von Bromic stellt sie dar: Kurzwellig ist zu etwa 90 % Strahlung und wärmt sofort; mittelwellig zu etwa 60 %, mit rund 30 Sekunden Aufheizzeit; langwellig nur zu etwa 40 %, braucht rund fünf Minuten zum Aufheizen und reagiert am stärksten auf Wind.[^s4] Auf einer Terrasse, auf die Sie spontan hinaustreten, macht diese Aufheizzeit den ganzen Unterschied.
 
-## Welche Heizstrahler passen zu welcher Terrasse?
+## Heizstrahler, die zu Ihrer Terrasse passen
 
-Gehen Sie davon aus, wie der Bereich gebaut ist.
+Beginnen Sie damit, wie Ihr Außenbereich gebaut ist.
 
-- **Eine überdachte Terrasse, Pergola oder Außenküche.** Eingebaute elektrische Heizstrahler an Wand oder Decke oder bündig in die Decke eingelassen. Platinum Smart-Heat Electric gibt es mit 2300 W, 3400 W und 4500 W; er beheizt ca. 6–13 m² je Gerät. Die Kollektionen Tungsten Smart-Heat Electric Coastal und Select (demnächst erhältlich) beheizen ca. 6–13 m².[^s5]
-- **Eine offene Essterrasse.** Die Pendelleuchte Eclipse Smart-Heat Electric – Wärme und dimmbares Ringlicht in einem, ca. 11 m², mit Leistungsstufen von 33/66/100 %.[^s5]
-- **Ein Deck oder Rasen, den Sie umstellen.** Eclipse Smart-Heat Freestanding Electric (ca. 11 m², Rollen, beschwerter Fuß) oder Tungsten Smart-Heat Freestanding Gas (ca. 20 m², ca. 11,1 kW, Erdgas oder Flüssiggas, neigbarer Kopf, Kippschutz).[^s5]
+- **Eine überdachte Terrasse, eine Pergola oder eine Außenküche.** Eingebaute elektrische Heizstrahler an Wand oder Decke, oder bündig in die Decke eingelassen. Platinum Smart-Heat® Electric gibt es mit 2300 W, 3400 W und 4500 W; er beheizt ca. 6–13 m² je Gerät. Die Kollektionen Tungsten Smart-Heat® Electric Coastal und Select (demnächst erhältlich) beheizen ca. 6–13 m².[^s5]
+- **Eine offene Essterrasse.** Die Pendelleuchte Eclipse Smart-Heat® Electric vereint Wärme und dimmbares Ringlicht, beheizt ca. 11 m² und hat Leistungsstufen von 33/66/100 %.[^s5]
+- **Ein Deck oder Rasen, den Sie gern umstellen.** Eclipse Smart-Heat® Freestanding Electric (ca. 11 m², Rollen, beschwerter Fuß) oder Tungsten Smart-Heat® Freestanding Gas (ca. 20 m², ca. 11,1 kW, Erdgas oder Flüssiggas, neigbarer Kopf, Kippschutz).[^s5]
 
-Jedes eingebaute System braucht seine Steuerung, um als Ganzes zu funktionieren: ein Affinity Smart-Heat On/Off-, Dimmer- oder Eclipse-Steuergerät oder einen manuellen Wandschalter. Zeitpläne in der App, Zonen und Sprachsteuerung über Amazon Alexa oder Google Assistant setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind.[^s5] Freistehende Heizstrahler werden nach der Anleitung des Produkts bedient [[VERIFY: controls for Eclipse Freestanding and Tungsten Freestanding Gas — Produktteam]].
+Jedes eingebaute System ist mit seiner Steuerung komplett: einem Affinity Smart-Heat® On/Off-, Dimmer- oder Eclipse-Steuergerät oder einem manuellen Wandschalter. Zeitpläne in der App, Zonen und Sprachsteuerung über Amazon Alexa oder Google Assistant setzen kompatible Affinity Smart-Heat® Controls voraus, die separat erhältlich sind.[^s5] Freistehende Heizstrahler werden nach der Anleitung des Produkts bedient [[VERIFY: Steuerung für Eclipse Freestanding und Tungsten Freestanding Gas — Produktteam]].
 
-![Freistehender Eclipse-Heizstrahler neben der Terrasse einer Waldhütte](img:l-016-135)
+![Ein freistehender Eclipse-Heizstrahler wärmt die Terrasse einer Waldhütte](img:l-016-135)
 
-## Wann gehört die Wärme in die Planung?
+## Die Wärme früh in die Planung holen
 
-Bevor irgendetwas gebaut wird. Wärme ist am günstigsten und sieht am besten aus, wenn sie von Anfang an mitgeplant wird, nicht später ergänzt:
+Der beste Zeitpunkt ist, bevor irgendetwas gebaut wird. Wärme, die von der ersten Zeichnung an mitgeplant ist, kostet weniger und fügt sich schöner in den fertigen Außenbereich ein:
 
-- **Strom- und Gasleitungen** lassen sich am einfachsten verlegen, solange Wände und Decken offen sind. Später kann das bedeuten, Stein zu schlitzen oder eine fertige Untersicht auszubessern.
-- **Eingelassene Heizstrahler** brauchen einen in der Decke eingeplanten Hohlraum; Einbaurahmen setzen elektrische Geräte bündig hinein.[^s4]
+- **Strom- und Gasleitungen** lassen sich am einfachsten verlegen, solange Wände und Decken offen sind. Später kann das bedeuten, Stein zu schlitzen oder eine fertige Deckenuntersicht auszubessern.
+- **Eingelassene Heizstrahler** brauchen einen in der Decke eingeplanten Hohlraum, in dem Einbaurahmen elektrische Geräte bündig aufnehmen.[^s4]
 - **Montagehöhen** bestimmen, wo Heizstrahler hinkönnen. Hinweise von Bromic: Wandmontage mindestens 1,83 m über dem Boden, Deckenmontage mindestens 2,44 m, je nach Leistung – maßgeblich ist die Installationsanleitung.[^s4]
 
-Siehe [wo Terrassenheizstrahler hingehören](item:RES-PP-01) für die Regeln zur Platzierung und [Elektro oder Gas](item:RES-CO-01) für die Wahl des Energieträgers.
+Lesen Sie [wo Terrassenheizstrahler hingehören](item:RES-PP-01) für die Platzierung und [Elektro oder Gas](item:RES-CO-01) für die Wahl des Energieträgers.
 
-## Das Wichtigste in Kürze
+## Was Sie mitnehmen sollten
 
-- Behaglichkeit im Freien entsteht in Ebenen: Windschutz, Überdachung, dann Strahlungswärme, die auf Menschen gerichtet ist.
-- Strahlungswärme wärmt Menschen, nicht Luft, und funktioniert deshalb auch bei leichtem Wind; Warmluft nicht.[^s4]
-- Kurz- und mittelwellige Heizstrahler wärmen in Sekunden – richtig für eine Terrasse, die man spontan nutzt.
+- Behaglichkeit im Freien entsteht in Ebenen: Windschutz, Überdachung, dann Strahlungswärme, die auf die Menschen gerichtet ist.
+- Strahlungswärme wärmt Menschen direkt und wirkt deshalb auch bei leichtem Wind, wo Warmluft an ihre Grenzen kommt.[^s4]
+- Kurz- und mittelwellige Heizstrahler wärmen in Sekunden – genau richtig für eine Terrasse, auf die Sie spontan hinaustreten.
 - Planen Sie die Wärme mit Pergola und Beleuchtung im ersten Budget, damit Leitungen und Einbauöffnungen gleich mitgebaut werden.
 - Jede Empfehlung für einen Heizstrahler schließt seine Steuerung ein; App- und Sprachfunktionen setzen kompatible Affinity-Steuerungen voraus, die separat erhältlich sind.
 
@@ -126,15 +126,15 @@ Siehe [wo Terrassenheizstrahler hingehören](item:RES-PP-01) für die Regeln zur
 Ja, in den meisten Klimazonen, wenn die Sitzplätze vor Wind geschützt sind und mit Strahlungswärme gewärmt werden. In kälteren Regionen braucht dieselbe Fläche unter Umständen mehr Heizstrahler; die Heizfläche hängt von Montagehöhe, Umgebung und Einbau ab.[^s5]
 
 ### Funktionieren Terrassenheizstrahler bei Wind?
-Strahlungsheizer schon, bei leichtem bis mäßigem Wind, weil sie Menschen und Oberflächen direkt wärmen. Langwellige Heizstrahler sind am windanfälligsten.[^s4] Siehe [Funktionieren Infrarot-Heizstrahler bei Wind?](item:RES-CO-KB1).
+Strahlungsheizstrahler schon, bei leichtem bis mäßigem Wind, weil sie Menschen und Oberflächen direkt wärmen. Langwellige Heizstrahler reagieren am stärksten auf Wind.[^s4] Siehe [Funktionieren Infrarot-Heizstrahler bei Wind?](item:RES-CO-KB1).
 
 ### Reicht eine Feuerschale, um eine Terrasse warm zu halten?
-Für die Personen davor, für kurze Zeit. Eine Feuerschale ist Atmosphäre; Strahlungsheizer, die auf die Sitzplätze gerichtet sind, halten alle den ganzen Abend warm.
+Für die Personen davor, eine Weile lang. Eine Feuerschale schafft Atmosphäre, und Strahlungsheizstrahler, die auf die Sitzplätze gerichtet sind, halten alle den ganzen Abend über warm.
 
 ### Braucht eine überdachte Terrasse weniger Heizstrahler?
-Oft hilft das: Eine teilweise Überdachung hält eine Wärmewolke über dem Bereich. Der Bereich muss mindestens zu 30 % offen bleiben, um als Außenbereich zu gelten.[^s4]
+Oft hilft sie, weil eine teilweise Überdachung eine Wärmewolke über dem Bereich hält. Der Bereich muss mindestens zu 30 % offen bleiben, um als Außenbereich zu gelten.[^s4]
 
 ### Was plane ich zuerst, die Terrasse oder die Wärme?
-Beides zusammen. Strom- und Gasleitungen und Einbauöffnungen gelingen am einfachsten, solange die Konstruktion offen ist.
+Planen Sie beides zusammen. Strom- und Gasleitungen und Einbauöffnungen lassen sich am einfachsten platzieren, solange die Konstruktion offen ist.
 
-Wie andere Hausbesitzer ihre Abende draußen verlängern, lesen Sie im Bromic-Report Outdoor Living Trends 2026.
+Wie andere Hausbesitzer ihre Abende draußen verlängern, erfahren Sie im Bromic-Report Outdoor Living Trends 2026.

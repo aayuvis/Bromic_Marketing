@@ -1,18 +1,18 @@
 ---
 id: BLOG-14
 type: blog
-title: "Sind Infrarot-Heizstrahler effizient?"
+title: "Sind Infrarot-Heizstrahler effizient? Wärme, die dort ankommt, wo Sie sitzen"
 action: keep-fix
 audience: [RES]
 stage: [CO]
 cell: RES-CO
 asset: A24
-summary: "Was Effizienz bei einem Heizstrahler für draußen bedeutet: wie viel Energie bei den Menschen ankommt statt in der Luft, wie Sie die Kosten pro Stunde berechnen und welche vier Entscheidungen am wenigsten verschwenden."
+summary: "Was Effizienz bei einem Heizstrahler für draußen wirklich bedeutet: wie viel seiner Energie bei den Menschen am Tisch ankommt, wie Sie die Kosten pro Stunde berechnen und vier Entscheidungen, die am wenigsten verschwenden."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Sind Infrarot-Heizstrahler für die Terrasse energieeffizient?"
-meta_description: "Draußen ist Infrarot die effiziente Wahl: Es wärmt Menschen, nicht die Luft. Wie Strahlungsanteil, Ausrichtung, Steuerung und Auslegung den Verbrauch bestimmen, mit Kostenrechnung."
-cta: {label: "Ihren Bereich berechnen", asset: A03}
+meta_description: "Sind Infrarot-Heizstrahler effizient? Im Freien sind sie die effiziente Wahl, weil sie Menschen statt Luft wärmen. Was Strahlungsanteil, Ausrichtung und Steuerung bewirken."
+cta: {label: "Fläche berechnen", asset: A03}
 hero: w-tungsten-electric-melrose-place-los-angeles-
 owner_review: Marketing
 technical_reviewer: Produktteam
@@ -20,7 +20,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-IN-01, RES-CO-01, ARC-CO-01, RES-BY-01]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: de
 translation_of: BLOG-14
 translation_status: machine-draft
@@ -63,15 +63,15 @@ sources:
     verified: false
 ---
 
-Ja. Draußen ist Infrarot die effiziente Art zu heizen, weil es Menschen und Oberflächen wärmt statt Luft, die aufsteigt und weggeweht wird[^s2]. Ein elektrischer Heizstrahler wandelt den gesamten Strom, den er aufnimmt, in Wärme um[^s1]; der Unterschied zwischen Heizstrahlern liegt darin, wie viel dieser Wärme bei den Menschen ankommt, die Sie wärmen wollen. Das hängt davon ab, wie hoch der Strahlungsanteil ist, wohin das Gerät ausgerichtet ist, wie es gesteuert wird und ob es zur Fläche passt.
+Ja – im Freien ist Infrarot die effiziente Art, Menschen warm zu halten, weil es Menschen und Oberflächen wärmt statt Luft, die aufsteigt und davonzieht[^s2]. Ein elektrischer Heizstrahler wandelt den gesamten Strom, den er aufnimmt, in Wärme um[^s1]. Was einen Heizstrahler vom anderen unterscheidet, ist also, wie viel dieser Wärme bei den Menschen am Tisch ankommt. Das hängt davon ab, wie hoch sein Strahlungsanteil ist, wohin er ausgerichtet ist, wie er gesteuert wird und ob er für Ihren Außenbereich richtig ausgelegt ist.
 
-![Dachterrassenbar mit Tungsten-Electric-Heizstrahlern, schräg nach unten auf die Barhocker gerichtet](img:w-tungsten-electric-melrose-place-los-angeles-)
+![Eine Dachterrassenbar mit Tungsten-Electric-Heizstrahlern, schräg nach unten auf die Barhocker gerichtet](img:w-tungsten-electric-melrose-place-los-angeles-)
 
-## Was bedeutet „effizient“ bei einem Heizstrahler für draußen?
+## Was Effizienz unter offenem Himmel bedeutet
 
-Drinnen wärmt eine Heizung die Raumluft, und die Wände halten sie. Draußen entweicht die warme Luft[^s2]. Das sinnvolle Maß ist deshalb nicht, wie viel Energie zu Wärme wird – bei einer elektrischen Widerstandsheizung ist es alles[^s1] –, sondern wie viel dort ankommt, wo Menschen sitzen.
+Drinnen erwärmt eine Heizung die Raumluft, und die Wände halten sie dort. Draußen entweicht diese warme Luft bald[^s2]. Im Freien zählt deshalb, wie viel Wärme dort ankommt, wo Menschen sitzen, denn bei einer elektrischen Widerstandsheizung wird ohnehin die gesamte Energie zu Wärme[^s1].
 
-Darauf antwortet der Strahlungsanteil. Der Planungsleitfaden von Bromic bewertet kurzwellige Strahler mit etwa 90 % Strahlungsanteil als die effizientesten und langwellige mit etwa 40 % als die am wenigsten effizienten; der Rest geht als warme Luft verloren[^s2].
+Genau das verrät der Strahlungsanteil. Der Planungsleitfaden von Bromic bewertet Kurzwelle mit etwa 90 % Strahlungsanteil als die effizienteste und Langwelle mit etwa 40 % als die am wenigsten effiziente Bauart; der Rest geht als warme Luft verloren[^s2].
 
 | Entscheidung | Verschwendet mehr | Verschwendet weniger |
 |---|---|---|
@@ -80,50 +80,50 @@ Darauf antwortet der Strahlungsanteil. Der Planungsleitfaden von Bromic bewertet
 | Steuerung | Nur ein oder aus, läuft einfach weiter | Dimmen, Zonen und Zeitpläne |
 | Auslegung | Zu wenige Geräte auf Volllast oder zu viele | Heizfläche passend zu den Sitzplätzen |
 
-Die Live-Fassung dieses Beitrags nannte eine Energieeinsparung von 30 Prozent gegenüber herkömmlicher Heizung. Wir konnten keine Quelle für diese Zahl finden, deshalb ist sie entfernt.
+Die Live-Fassung dieses Beitrags nannte eine Energieeinsparung von 30 Prozent gegenüber herkömmlicher Heizung. Wir konnten keine Quelle für diese Zahl finden, deshalb wurde sie entfernt.
 
-## Was kostet der Betrieb eines Infrarot-Heizstrahlers?
+## Was ein warmer Abend im Betrieb kostet
 
-Bei Elektro multiplizieren Sie die Leistung des Heizstrahlers in Kilowatt mit Ihrem Strompreis:
+Bei Elektro-Heizstrahlern multiplizieren Sie die Leistung des Heizstrahlers in Kilowatt mit Ihrem Strompreis:
 
 **Kosten pro Stunde = kW × Preis je kWh**
 
-Ein Platinum Smart-Heat Electric mit 3400 W verbraucht bei voller Leistung 3,4 kWh pro Stunde; die Kosten sind also 3,4 × Ihr Preis je kWh. Gedimmt kostet er weniger. Ihre eigene Stromrechnung bestimmt die tatsächliche Zahl. Als US-Beispiel: Beim US-Durchschnittspreis für Haushaltsstrom von etwa 18,3 US-Cent je kWh[^s3] kostet derselbe Heizstrahler dort rund 0,62 US-Dollar pro Stunde. [[VERIFY: 2026 rates — Finanzen]]
+Ein Platinum Smart-Heat Electric mit 3400 W verbraucht bei voller Leistung 3,4 kWh pro Stunde; die Kosten betragen also 3,4 × Ihr Preis je kWh, und gedimmt noch weniger. Ihre eigene Stromrechnung bestimmt die tatsächliche Zahl. Als US-Beispiel: Beim US-Durchschnittspreis für Haushaltsstrom von etwa 18,3 US-Cent je kWh[^s3] kostet derselbe Heizstrahler dort rund 3,4 × 0,183 = 0,62 US-Dollar pro Stunde. [[VERIFY: Tarife 2026 — Finanzen]]
 
-Bei Erdgas multiplizieren Sie die Nennwärmebelastung des Heizstrahlers in kW mit Ihrem Gaspreis je kWh; bei Flüssiggas teilen Sie die kW durch ca. 7,1 kWh je Liter und multiplizieren mit Ihrem Preis je Liter. Die vollständige Rechnung steht in [Was kostet der Betrieb eines Heizstrahlers für draußen?](item:RES-IN-01).
+Bei Erdgas multiplizieren Sie die Nennwärmebelastung des Heizstrahlers in kW mit Ihrem Gaspreis je kWh; bei Flüssiggas teilen Sie die kW durch ca. 7,1 kWh je Liter und multiplizieren mit Ihrem Preis je Liter. Die vollständige Rechnung finden Sie im Beitrag [Was kostet der Betrieb eines Heizstrahlers für draußen?](item:RES-IN-01).
 
-## Vier Wege, weniger Wärme zu verschwenden
+## Vier Wege, jedes Watt zur Geltung zu bringen
 
-1. **Wählen Sie einen hohen Strahlungsanteil.** Kurz- und mittelwellige Strahler geben den größten Teil ihrer Energie als Strahlung ab; langwellige verlieren das meiste an die Luft[^s2].
-2. **Richten Sie ihn aus.** Gerichtete Heizstrahler schicken die Wärme in eine Richtung, zu den Gästen, und vermeiden es, die nächstsitzenden Personen zu überhitzen[^s2]. Montieren und neigen Sie sie auf die Sitzplätze, nicht auf die Mitte der Fläche.
-3. **Steuern Sie die Leistung, nicht die Lufttemperatur.** Wärme im Freien lässt sich nicht über einen Thermostat regeln[^s2]. Affinity Smart-Heat Dimmer-Steuergeräte dimmen kompatible elektrische Heizstrahler in 1-%-Schritten[^s5], Eclipse schaltet zwischen 33, 66 und 100 %[^s4], und Tungsten Electric mit 4000 und 6000 W hat zwei getrennt steuerbare Heizelemente[^s5]. Die Smart-Heat App ergänzt Zonen, Zeitpläne und Timer, sodass die Wärme nur dort und dann läuft, wo und wann Menschen da sind[^s4].
-4. **Legen Sie ihn richtig aus.** Die Heizfläche je Gerät hängt von Modell, Montagehöhe, Umgebung und Einbau ab[^s4]. Ein Plan, der zu den Sitzplätzen passt, vermeidet kalte Stellen ebenso wie Heizstrahler, die leere Ecken wärmen.
+1. **Wählen Sie einen hohen Strahlungsanteil.** Kurz- und Mittelwelle geben den größten Teil ihrer Energie als Strahlung ab, während Langwelle das meiste an die Luft verliert[^s2].
+2. **Richten Sie die Wärme aus.** Gerichtete Heizstrahler senden die Wärme in eine Richtung, zu Ihren Gästen, und vermeiden es, die Nächstsitzenden zu überhitzen[^s2]. Montieren und neigen Sie sie auf die Sitzplätze statt auf die Mitte der Fläche.
+3. **Steuern Sie die Leistung.** Wärme im Freien lässt sich nicht über ein Thermostat regeln[^s2], also stimmen Sie den Heizstrahler selbst ab. Affinity Smart-Heat-Dimmer-Steuergeräte dimmen kompatible elektrische Heizstrahler in 1-%-Schritten[^s5], Eclipse schaltet zwischen 33, 66 und 100 %[^s4], und Tungsten Electric mit 4000 und 6000 W hat zwei getrennt steuerbare Heizelemente[^s5]. Die Smart-Heat-App ergänzt Zonen, Zeitpläne und Timer, sodass die Wärme nur dort und dann läuft, wo und wann Menschen zusammenkommen[^s4].
+4. **Legen Sie ihn auf Ihren Außenbereich aus.** Die Heizfläche je Gerät hängt von Modell, Montagehöhe, Umgebung und Installation ab[^s4]. Ein Plan, der zu den Sitzplätzen passt, vermeidet kalte Stellen ebenso wie Heizstrahler, die leere Ecken wärmen.
 
-## Welche Bromic-Heizstrahler, mit welcher Steuerung?
+## Bromic-Heizstrahler und die Steuerung, die sie betreibt
 
 | Heizstrahler | Leistung | Heizfläche (ca.) | Wasserschutz | Steuerung |
 |---|---|---|---|---|
-| Platinum Smart-Heat Electric | 2300 / 3400 / 4500 W | 6 / 10 / 13 m²[^s4][^s5] | [[VERIFY: IP rating — Produktteam]] | Affinity On/Off oder Dimmer, manueller Wandschalter |
+| Platinum Smart-Heat Electric | 2300 / 3400 / 4500 W | 6 / 10 / 13 m²[^s4][^s5] | [[VERIFY: IP-Schutzart — Produktteam]] | Affinity On/Off oder Dimmer, manueller Wandschalter |
 | Platinum Smart-Heat Electric Marine | 2300 / 3400 / 4500 W | 6 / 10 / 13 m²[^s5] | IPX5[^s5] | Affinity On/Off oder Dimmer, manueller Wandschalter |
 | Tungsten Smart-Heat Electric | 2000–6000 W | 6–15 m²[^s5] | IPX4[^s5] | Affinity On/Off oder Dimmer, manueller Wandschalter |
-| Eclipse Smart-Heat Electric | Stufen 33 / 66 / 100 % | 11 m²[^s4] | [[VERIFY: IP rating — Produktteam]] | Affinity Eclipse-Steuergerät oder Eclipse Dimmer, manueller Wandschalter |
+| Eclipse Smart-Heat Electric | Stufen 33 / 66 / 100 % | 11 m²[^s4] | [[VERIFY: IP-Schutzart — Produktteam]] | Affinity Eclipse-Steuergerät oder Eclipse Dimmer, manueller Wandschalter |
 
-Die Steuerung gehört zu jeder Installation. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind[^s4]. Was IP-Schutzarten bei nassem Wetter bedeuten, lesen Sie in [Heizstrahler bei Regen (auf Englisch)](https://www.bromic.com/blog/patio-heaters-in-the-rain-what-you-need-to-know/). [[VERIFY: product-page values read from bromic.com; confirm against 2026 cut sheets — Produktteam]]
+Die Steuerung gehört zu jeder Installation, und WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat-Steuerungen voraus, die separat erhältlich sind[^s4]. Was IP-Schutzarten bei nassem Wetter bedeuten, lesen Sie im Beitrag [Heizstrahler bei Regen (auf Englisch)](https://www.bromic.com/blog/patio-heaters-in-the-rain-what-you-need-to-know/). [[VERIFY: Werte von den Produktseiten auf bromic.com; mit den Datenblättern 2026 abgleichen — Produktteam]]
 
-Vergleichen Sie die elektrischen und die Gas-Heizstrahler auf [bromic.de](https://www.bromic.de/) oder lassen Sie Bromic über den Planungsservice einen Plan zeichnen. [[VERIFY: ob Design Your Space für Deutschland angeboten wird — Partner Deutschland]]
+Vergleichen Sie die elektrischen und die Gas-Heizstrahler auf [bromic.de](https://www.bromic.de/), oder lassen Sie uns über den Planungsservice einen Plan für Sie zeichnen. [[VERIFY: ob Design Your Space für Deutschland angeboten wird — Partner Deutschland]]
 
 ## Häufige Fragen
 
 ### Verbrauchen Infrarot-Heizstrahler viel Strom?
-Bei voller Leistung verbrauchen sie genau ihre Nennleistung: Ein 3400-W-Heizstrahler braucht 3,4 kWh pro Stunde. Dimmen und Zeitpläne senken das. Multiplizieren Sie mit Ihrem Strompreis, um die Kosten zu erhalten.
+Bei voller Leistung verbrauchen sie genau ihre Nennleistung, ein 3400-W-Heizstrahler also 3,4 kWh pro Stunde. Dimmen und Zeitpläne senken das; multiplizieren Sie mit Ihrem Strompreis, um die Kosten zu erhalten.
 
 ### Ist elektrisches oder Gas-Infrarot effizienter?
-Beides kann Infrarot sein. Elektro wandelt seine gesamte Energie am Gerät in Wärme um[^s1] und eignet sich für überdachte Bereiche; Gas eignet sich für größere offene Flächen. Die Betriebskosten hängen von den örtlichen Energiepreisen ab; siehe [Gas oder Elektro (auf Englisch)](https://www.bromic.com/blog/gas-or-electric-patio-heaters-which-one-is-right-for-me/).
+Beides kann Infrarot sein. Elektro wandelt seine gesamte Energie am Gerät in Wärme um[^s1] und eignet sich für überdachte Bereiche, Gas dagegen für größere offene Flächen. Die Betriebskosten hängen von den örtlichen Energiepreisen ab; siehe [Gas oder Elektro (auf Englisch)](https://www.bromic.com/blog/gas-or-electric-patio-heaters-which-one-is-right-for-me/).
 
 ### Wie beheizt man eine Terrasse am effizientesten?
 Mit einem gerichteten Strahlungsheizer, der auf die Sitzplätze zielt, zur Fläche passt und über Dimmung oder Zeitpläne betrieben wird[^s2].
 
-### Kann ich einen Heizstrahler für draußen an einen Thermostat anschließen?
-Nicht sinnvoll. Die Außenluft lässt sich nicht auf einer Temperatur halten[^s2]; steuern Sie stattdessen die Leistung mit einem Affinity-Steuergerät.
+### Kann ich einen Heizstrahler für draußen an ein Thermostat anschließen?
+Nicht sinnvoll, denn die Außenluft lässt sich nicht auf einer Temperatur halten[^s2]. Steuern Sie stattdessen die Leistung mit einem Affinity-Steuergerät.
 
-Mit dem Flächenrechner finden Sie heraus, wie viele Heizstrahler Ihr Bereich braucht, und welche.
+Mit dem Flächenrechner finden Sie heraus, wie viele Heizstrahler Ihr Außenbereich braucht, und welche.

@@ -1,16 +1,16 @@
 ---
 id: ARC-IN-01
 type: article
-title: "Infrarot-Heizstrahler für den Außenbereich ausschreiben: eine Checkliste nach CSI MasterFormat"
+title: "Heizstrahler für den Außenbereich ausschreiben: ein Leitfaden nach CSI MasterFormat für Infrarotwärme"
 audience: [ARC]
 stage: [IN]
 cell: ARC-IN
 asset: A24
-summary: "Wo elektrische Infrarot-Heizstrahler für den Außenbereich in MasterFormat stehen, was jeder Teil einer dreiteiligen Spezifikation enthalten muss, eine Tabelle der Heizflächen je Produkt und wie die Steuerung formuliert wird, damit die Ausschreibung die Vergabe übersteht."
+summary: "Wo elektrische Infrarot-Heizstrahler für den Außenbereich in MasterFormat stehen, was jeder Teil einer dreiteiligen Spezifikation enthalten sollte, die Heizfläche je Produkt und wie Sie die Steuerung so formulieren, dass Ihre Entwurfsabsicht die Vergabe übersteht."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie schreibe ich Infrarot-Heizstrahler für den Außenbereich aus?"
-meta_description: "Infrarot-Heizstrahler für draußen ausschreiben: MasterFormat-Abschnitt, Checkliste für die dreiteilige Spezifikation, Heizfläche je Produkt und Formulierungen zur Steuerung, die die Vergabe überstehen."
+meta_description: "Heizstrahler für den Außenbereich ausschreiben: MasterFormat-Abschnitt, dreiteilige Spezifikation, Heizfläche je Produkt und Steuerung für die Vergabe."
 cta: {label: "Das Spezifikationspaket herunterladen", asset: A11}
 hero: l-005-022
 images: [l-010-067]
@@ -18,7 +18,7 @@ owner_review: Spezifikation und Compliance
 status: draft
 gated: false
 related: [ARC-BY-01, ARC-CO-01, ARC-IN-KB1, BLD-IN-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: The Blue Book Building & Construction Network (MasterFormat listing)
@@ -76,11 +76,11 @@ native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 *Hinweis für Deutschland: Diese Checkliste folgt der US-Gliederung CSI MasterFormat, auf der das Spezifikationspaket von Bromic aufbaut, und eignet sich für internationale Projekte und Planer, die danach arbeiten. In Deutschland wird üblicherweise ein Leistungsverzeichnis nach VOB geschrieben; die Inhalte unten (Produkt, Zubehör, Steuerung, Ausführung) lassen sich in LV-Positionen übertragen.* [[VERIFY: ob es einen deutschen Ausschreibungstext (z. B. als LV-Positionen) für Bromic Heizstrahler gibt — Partner Deutschland]]
 
-Elektrische Infrarot-Heizstrahler für den Außenbereich gehören in MasterFormat in Abschnitt 23 83 33, Electric Radiant Heaters, unter 23 83 00 Radiant Heating Units[^s1][^s2]. Schreiben Sie ihn als dreiteiligen Abschnitt: Teil 1 legt Bezugsdokumente, einzureichende Unterlagen und Garantie fest; Teil 2 nennt ein Leitprodukt mit Leistung, Spannung, Oberfläche, Montagezubehör und Steuerung; Teil 3 regelt Installation, Abstände, Abstimmung mit der Elektroplanung und Inbetriebnahme der Steuerung. Machen Sie Steuerung und Einbaudetail zu Leistungsanforderungen, sonst wird der Heizstrahler bei der Vergabe ausgetauscht.
+Elektrische Infrarot-Heizstrahler für den Außenbereich werden in MasterFormat in Abschnitt 23 83 33, Electric Radiant Heaters, unter 23 83 00 Radiant Heating Units spezifiziert[^s1][^s2]. Schreiben Sie ihn als dreiteiligen Abschnitt: Teil 1 legt Bezugsdokumente, einzureichende Unterlagen und Garantie fest, Teil 2 nennt ein Leitprodukt mit Leistung, Spannung, Oberfläche, Montagezubehör und Steuerung, und Teil 3 regelt Installation, Abstände, Abstimmung mit der Elektroplanung und Inbetriebnahme der Steuerung. Wenn Steuerung und Einbaudetail als Leistungsanforderungen formuliert sind, ist die Wahrscheinlichkeit weit größer, dass der Heizstrahler, um den herum Sie entworfen haben, auch eingebaut wird.
 
-![Heizstrahler, bündig in eine weiße Decke eingelassen](img:l-005-022)
+![Heizstrahler, bündig in eine klare weiße Decke eingelassen](img:l-005-022)
 
-## Welcher Abschnitt in CSI MasterFormat gilt für Infrarot-Heizstrahler im Außenbereich?
+## Den richtigen MasterFormat-Abschnitt finden
 
 Einen MasterFormat-Titel für „Terrassenheizstrahler“ gibt es nicht. Am besten passt, und das empfehlen wir, 23 83 33 Electric Radiant Heaters, weil das Produkt ein fest installierter elektrischer Strahlungsheizer ist[^s1].
 
@@ -92,27 +92,27 @@ Einen MasterFormat-Titel für „Terrassenheizstrahler“ gibt es nicht. Am best
 | Division 26 | Electrical | Stromkreise, Trennschalter, Leitungsführung und Installationsgeräte; nicht der Heizstrahler |
 | Division 12 / Außenmöblierung | Freistehende Geräte, wenn das Büro mobile Ausstattung dort ablegt | Nach Vorgabe des Büros |
 
-Quellen: Abschnittsnummern und Titel aus MasterFormat-Verzeichnissen im Blue Book und bei Dodge Sweets[^s1][^s2]. Den Originaltext von CSI konnten wir von hier aus nicht einsehen. [[VERIFY: Nummern und Titel 23 83 33 / 23 83 26 mit der aktuellen Ausgabe von CSI MasterFormat abgleichen — Spezifikation und Compliance]][^s3]
+Abschnittsnummern und Titel stammen aus MasterFormat-Verzeichnissen im Blue Book und bei Dodge Sweets[^s1][^s2]; den Originaltext von CSI konnten wir von hier aus nicht einsehen. [[VERIFY: Nummern und Titel 23 83 33 / 23 83 26 mit der aktuellen Ausgabe von CSI MasterFormat abgleichen — Spezifikation und Compliance]][^s3]
 
-## Was gehört in Teil 1, Allgemeines?
+## Teil 1, Allgemeines
 
 - **Übersicht und verwandte Abschnitte.** Verweisen Sie auf Division 26 für Endstromkreise, Trennschalter und Leitungsführung und auf den Abschnitt zur Systemintegration, wenn die Heizstrahler an eine Hausautomation oder Gebäudeleittechnik angebunden werden.
-- **Bezugsdokumente.** In den USA NFPA 70 (National Electrical Code) für die Elektroinstallation; das Produkt muss ein anerkanntes Prüfzeichen tragen (Intertek, UL oder CSA)[^s5]. In Deutschland gilt für die Elektroinstallation DIN VDE 0100. [[VERIFY: nach welchen Normen jedes elektrische Bromic-Modell zertifiziert ist, auch für den deutschen Markt — Produktteam]]
-- **Einzureichende Unterlagen.** Produktdaten, Schaltpläne, Einbausatz und Montagedetails, Abstandsangaben aus der Installationsanleitung, Steuerungsschema, Plan der Heizflächen.
-- **Qualitätssicherung.** Ein für die Produkte des Herstellers qualifizierter Installateur; Anschluss durch einen Elektrofachbetrieb.
+- **Bezugsdokumente.** In den USA regelt NFPA 70 (National Electrical Code) die Elektroinstallation, und das Produkt muss ein anerkanntes Prüfzeichen tragen (Intertek, UL oder CSA)[^s5]. In Deutschland gilt für die Elektroinstallation DIN VDE 0100. [[VERIFY: nach welchen Normen jedes elektrische Bromic-Modell zertifiziert ist, auch für den deutschen Markt — Produktteam]]
+- **Einzureichende Unterlagen.** Produktdaten, Schaltpläne, Einbausatz und Montagedetails, Abstandsangaben aus der Installationsanleitung, das Steuerungsschema und ein Plan der Heizflächen.
+- **Qualitätssicherung.** Ein für die Produkte des Herstellers qualifizierter Installateur und ein Elektrofachbetrieb für die Anschlüsse.
 - **Garantie.** Nennen Sie die Standardgarantie des Herstellers. [[VERIFY: Garantiedauer je Produkt — Produktteam]]
 
-## Was gehört in Teil 2, Produkte?
+## Teil 2, Produkte
 
-Nennen Sie ein Leitprodukt und die Eigenschaften, die ein Ersatzprodukt erfüllen muss. Allgemeiner Text („Infrarot-Heizstrahler für außen, 3 kW“) ist genau das, was bei der Vergabe weggespart wird.
+Nennen Sie ein Leitprodukt und die Eigenschaften, die ein Ersatzprodukt erfüllen muss. Allgemeiner Text wie „Infrarot-Heizstrahler für außen, 3 kW“ ist genau die Art, die bei der Vergabe gern weggespart wird.
 
-- Hersteller und Modell; Leistung; Versorgungsspannung (von Bromic für gewerbliche Anschlüsse in den USA genannt: 208 V, 240 V, 277 V; in Deutschland ist das Netz 230 V, 50 Hz)[^s5]. [[VERIFY: Spannung je Modell und Stromaufnahme bei jeder Spannung — Produktteam]]
-- Oberfläche und Ausführung (zum Beispiel Platinum Schwarz oder Weiß, Classic oder Marine)[^s4].
-- Montage: Einbausatz, Decke, Wand oder Abhängestange, als Zubehör mit eigener Position[^s5].
-- Steuerung als Pflichtbestandteil: Affinity Smart-Heat On/Off-, Dimmer- oder Eclipse-Steuergerät, manueller Wandschalter, Bromic Smart-Heat App für Zonen, Zeitpläne und Timer. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind[^s4].
-- Systemintegration, wo nötig: kompatibel mit Control4, Crestron und Lutron, die Kompatibilität hängt aber vom System ab und kann zusätzliche Integrationshardware oder Konfiguration erfordern[^s4]. Benennen Sie in der Spezifikation, wer für die Integration verantwortlich ist.
+- Hersteller und Modell, Leistung und Versorgungsspannung (Bromic nennt für gewerbliche Anschlüsse in den USA 208 V, 240 V und 277 V; in Deutschland ist das Netz 230 V, 50 Hz)[^s5]. [[VERIFY: Spannung je Modell und Stromaufnahme bei jeder Spannung — Produktteam]]
+- Oberfläche und Ausführung, zum Beispiel Platinum Schwarz oder Weiß, Classic oder Marine[^s4].
+- Montage – Einbausatz, Decke, Wand oder Abhängestange – als Zubehör mit eigener Position[^s5].
+- Steuerung, als Pflichtbestandteil formuliert: Affinity Smart-Heat® On/Off-, Dimmer- oder Eclipse-Steuergerät, ein manueller Wandschalter und die Bromic Smart-Heat App für Zonen, Zeitpläne und Timer. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind[^s4].
+- Systemintegration, wo nötig. Die Heizstrahler sind mit Control4, Crestron und Lutron kompatibel, die Kompatibilität hängt jedoch vom System ab und kann zusätzliche Integrationshardware oder Konfiguration erfordern[^s4]. Benennen Sie in der Spezifikation, wer für die Integration verantwortlich ist.
 
-## Welche Fläche beheizt jeder Heizstrahler?
+## Welche Fläche jeder Heizstrahler beheizt
 
 | Produkt | Leistung | Heizfläche (ca.) | Montage | Status |
 |---|---|---|---|---|
@@ -122,23 +122,23 @@ Nennen Sie ein Leitprodukt und die Eigenschaften, die ein Ersatzprodukt erfülle
 | Eclipse Smart-Heat Electric | 33 / 66 / 100 % Leistung | 11 m² | Einzelstange ca. 200, 610 oder 1220 mm, Doppel- oder gebogene Stange | Aktuell |
 | Eclipse Smart-Heat Freestanding Electric | 33 / 66 / 100 % Leistung | 11 m² | Freistehend, auf Rollen, beschwerter Fuß | Aktuell |
 
-Quelle: Lookbook 2026[^s4]. Die Heizfläche hängt von Modell, Montagehöhe, Umgebung und Installationsbedingungen ab. Nutzen Sie die Werte für die Planung und bestätigen Sie sie dann mit einem Bromic-Plan.
+Quelle: Lookbook 2026[^s4]. Die Heizfläche hängt von Modell, Montagehöhe, Umgebung und Installationsbedingungen ab; nutzen Sie die Werte daher für die Planung und bestätigen Sie sie anschließend mit einem Bromic-Plan.
 
-![Überdachte Außenküche mit bündig eingelassenen Deckenheizstrahlern](img:l-010-067)
+![Überdachte Außenküche, gewärmt von bündig eingelassenen Deckenheizstrahlern](img:l-010-067)
 
-## Was gehört in Teil 3, Ausführung?
+## Teil 3, Ausführung
 
 - **Prüfung.** Vor der Vorverkabelung Deckenkonstruktion oder Untersicht, Hohlraumtiefe für den Einbau und Unterkonstruktion prüfen. [[VERIFY: Ausschnitt- und Hohlraummaße des Einbausatzes je Modell — Produktteam]]
-- **Installation.** Nach der Installationsanleitung des Herstellers. Mindestmontagehöhen laut Bromic: Wand mindestens ca. 1,83 m über dem Boden, Decke mindestens ca. 2,44 m, je nach Leistung unterschiedlich[^s5]. Abstände zu brennbaren Materialien nach Anleitung, nicht nach Schätzung des Verfassers der Spezifikation.
-- **Elektrische Anschlüsse.** Durch das Gewerk Elektro, an Stromkreisen, die für die Last der Heizstrahler bemessen sind. Der US-amerikanische NEC verlangt für fest installierte elektrische Raumheizungen, Leiter von Endstromkreisen auf mindestens 125 % der Last zu bemessen[^s7]; in Deutschland bemisst der Elektroplaner Leitungen und Schutzorgane nach DIN VDE 0100. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Partner Deutschland]]
-- **Steuerung.** Steuergeräte an einem Ort montieren, der so geschützt ist, wie die Anleitung es verlangt; Zonen und Zeitpläne programmieren; wo Energievorschriften gelten, eine automatische Abschaltung vorsehen. In den USA verlangt zum Beispiel die Energievorschrift für Gewerbebauten im Bundesstaat Washington, dass Wärme im Außenbereich als Strahlung erzeugt und über Präsenzmelder oder Zeitschaltung gesteuert wird[^s6].
-- **Qualitätskontrolle vor Ort und Einweisung.** Jede Zone prüfen; dem Bauherrn App, Wandschalter und Zeitpläne vorführen.
+- **Installation.** Nach der Installationsanleitung des Herstellers. Bromics Hinweise setzen Mindestmontagehöhen von wenigstens ca. 1,83 m über dem Boden für die Wandmontage und wenigstens ca. 2,44 m für die Deckenmontage, je nach Leistung abweichend[^s5]. Übernehmen Sie Abstände zu brennbaren Materialien aus der Anleitung selbst, nicht aus einer Schätzung in der Spezifikation.
+- **Elektrische Anschlüsse.** Durch das Gewerk Elektro, an Stromkreisen, die für die Last der Heizstrahler bemessen sind. Die US-Regeln des NEC für fest installierte elektrische Raumheizungen bemessen die Leiter von Endstromkreisen mit mindestens 125 % der Last[^s7]; in Deutschland bemisst der Elektroplaner Leitungen und Schutzorgane nach DIN VDE 0100 und bestätigt die geltenden Regeln. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Partner Deutschland]]
+- **Steuerung.** Steuergeräte an einem Ort montieren, der so geschützt ist, wie die Anleitung es verlangt, Zonen und Zeitpläne programmieren und dort, wo Energievorschriften gelten, eine automatische Abschaltung vorsehen. Im US-Bundesstaat Washington etwa verlangt die Energievorschrift für Gewerbebauten, dass Wärme im Außenbereich als Strahlung erzeugt und über Präsenzmelder oder Zeitschaltung gesteuert wird[^s6].
+- **Qualitätskontrolle vor Ort und Einweisung.** Jede Zone prüfen und dem Bauherrn anschließend App, Wandschalter und Zeitpläne zeigen.
 
-## Wie verhindert man den Austausch bei der Vergabe?
+## Ihre Entwurfsabsicht durch die Vergabe tragen
 
-Schreiben Sie die Leistung in die Punkte, die ein Ersatzprodukt am wenigsten erfüllt: Einbau bei geringer Einbautiefe, die Oberfläche, die Stufen- oder Dimmsteuerung, Zeitpläne über die App und die Anforderung an die Systemintegration. Verlangen Sie, dass Anträge auf Ersatzprodukte einen Plan der Heizflächen für denselben Grundriss und dieselbe Montagehöhe enthalten. Zeichnen Sie den Einbausatz im Deckenspiegel ein, damit die Öffnung selbst auf das spezifizierte Produkt hin gezeichnet ist.
+Schreiben Sie die Leistung in die Punkte, die ein Ersatzprodukt am wenigsten erfüllen kann: Einbau bei geringer Einbautiefe, die Oberfläche, die Stufen- oder Dimmsteuerung, Zeitpläne über die App und die Anforderung an die Systemintegration. Verlangen Sie, dass Anträge auf Ersatzprodukte einen Plan der Heizflächen für denselben Grundriss bei derselben Montagehöhe enthalten. Wenn Sie den Einbausatz im Deckenspiegel detaillieren, ist schon die Öffnung selbst auf das spezifizierte Produkt hin gezeichnet.
 
-## Checkliste für die Planung
+## Ihre Checkliste für die Spezifikation
 
 - [ ] Abschnitt 23 83 33 (Elektro) oder 23 83 26 (Gas), mit Verweis auf Division 26 (in Deutschland: LV-Positionen für Heizstrahler und Gewerk Elektro)
 - [ ] Leitprodukt mit Modell, Leistung, Spannung, Oberfläche, Ausführung
@@ -156,15 +156,15 @@ Schreiben Sie die Leistung in die Punkte, die ein Ersatzprodukt am wenigsten erf
 Wir empfehlen 23 83 33 Electric Radiant Heaters für fest installierte Elektrogeräte und 23 83 26 für gasbetriebene Strahlungsheizer[^s1][^s2]. Gleichen Sie das mit der MasterFormat-Ausgabe Ihres Büros ab.
 
 ### Passt 23 82 39 Unit Heaters?
-Nein. Unit Heaters sind Geräte mit Gebläse und Konvektion. Im Freien steigt warme Luft auf und wird fortgeweht; das Produkt, das Sie spezifizieren, ist ein Strahlungsheizer.
+Nein. Unit Heaters sind Geräte mit Gebläse und Konvektion, und im Freien steigt die warme Luft, die sie erzeugen, auf und wird fortgeweht, während das Produkt, das Sie spezifizieren, ein Strahlungsheizer ist.
 
 ### Sollte die Steuerung im Abschnitt des Heizstrahlers spezifiziert werden?
 Ja. Spezifizieren Sie Affinity-Steuergerät, Wandschalter und App mit dem Heizstrahler und stimmen Sie die Verdrahtung mit dem Gewerk Elektro ab. Eine Steuerung, die „durch Dritte“ erfolgen soll, ist die häufigste Lücke bei der Übergabe.
 
 ### Lassen sich Heizstrahler an Crestron, Control4 oder Lutron anbinden?
-Über Affinity Smart-Heat Controls, ja. Die Kompatibilität ist unterschiedlich und kann zusätzliche Integrationshardware oder Konfiguration erfordern[^s4]. Weisen Sie die Integration einem benannten Gewerk zu.
+Ja, über Affinity Smart-Heat Controls. Die Kompatibilität ist unterschiedlich und kann zusätzliche Integrationshardware oder Konfiguration erfordern[^s4]; weisen Sie die Integration daher einem benannten Gewerk zu.
 
 ### Wo bekomme ich eine dreiteilige Spezifikation und Details?
-Im Bromic-Spezifikationspaket für Planer, das die dreiteilige Spezifikation, Tabellen der Heizflächen und eine Detailliste enthält. [[VERIFY: Verfügbarkeit und Format von BIM-/CAD-Objekten (Asset A13) — Spezifikation und Compliance]]
+Das Bromic-Spezifikationspaket für Planer enthält die dreiteilige Spezifikation, Tabellen der Heizflächen und eine Detailliste. [[VERIFY: Verfügbarkeit und Format von BIM-/CAD-Objekten (Asset A13) — Spezifikation und Compliance]]
 
 Laden Sie das Spezifikationspaket herunter, mit dem bearbeitbaren dreiteiligen Abschnitt und den Tabellen der Heizflächen.

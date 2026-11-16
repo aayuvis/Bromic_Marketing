@@ -5,16 +5,16 @@ translation_of: ARC-CO-01
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 type: article
-title: "Stralingswarmte buiten: een gids voor voorschrijvers over korte, middellange en lange golf"
+title: "Stralingswarmte buiten ontwerpen: korte, middellange en lange golf infrarood voor voorschrijvers"
 audience: [ARC]
 stage: [CO]
 cell: ARC-CO
 asset: A24
-summary: "Korte, middellange en lange golf infrarood vergeleken op stralingsaandeel, opwarmtijd en wind, plus hoe omsluiting, montagehoogte en de warmtewolk bepalen wat u voorschrijft."
+summary: "Hoe korte, middellange en lange golf infrarood zich verhouden op stralingswarmte, opwarmtijd en wind, en hoe omsluiting, montagehoogte en de warmtewolk de verwarmer bepalen die u voor een buitenruimte voorschrijft."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wat is het verschil tussen kortegolf- en langegolf-infraroodverwarmers?"
-meta_description: "Korte vs middellange vs lange golf infraroodverwarmers voor buitenontwerp: stralingsaandeel, opwarmtijd, wind, montagehoogte en de regel van 30% open omtrek."
+meta_description: "Stralingswarmte buiten ontwerpen: korte, middellange en lange golf infrarood vergeleken op straling, opwarmtijd, wind, montagehoogte en de 30%-regel."
 cta: {label: "Download de Planning Guide (pro-editie)", asset: A02}
 hero: l-010-071
 images: [l-013-111, l-004-012]
@@ -22,7 +22,7 @@ owner_review: productteam
 status: draft
 gated: false
 related: [ARC-IN-01, ARC-CO-KB1, ARC-AW-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -60,14 +60,13 @@ sources:
     supports: "Heat provided outside a building must be radiant and controlled by an occupancy sensor or timer switch"
     verified: true
 ---
+Korte golf infrarood is het heetst en voor ongeveer 90% straling, zodat het mensen vrijwel direct verwarmt en het best standhoudt in de wind. Lange golf is het koelst, voor maar ongeveer 40% straling, heeft zo'n vijf minuten nodig om op te warmen en verliest veel van zijn effect aan een briesje. Middellange golf zit ertussen, met ongeveer 60% straling en een opwarmtijd van zo'n 30 seconden[^s1]. Schrijf voor open buitenruimtes de bron met het hoogste stralingsaandeel voor die de situatie toelaat, en plaats die waar mensen samenkomen in plaats van haar gelijkmatig over het vloeroppervlak te verdelen.
 
-Korte golf infrarood is het heetst en voor ongeveer 90% straling, zodat het mensen vrijwel direct verwarmt en het best standhoudt in de wind. Lange golf is het koelst, voor maar ongeveer 40% straling, heeft zo'n vijf minuten nodig om op te warmen en verliest veel van zijn effect aan de wind. Middellange golf zit ertussen: ongeveer 60% straling met een opwarmtijd van zo'n 30 seconden[^s1]. Schrijf voor open buitenruimtes de bron met het hoogste stralingsaandeel voor die de situatie toelaat, en plaats die voor de mensen, niet voor het vloeroppervlak.
+![Buitenwoonkamer met zeezicht en verwarmers naadloos ingebouwd in het plafond](img:l-010-071)
 
-![Buitenwoonkamer met zeezicht en verwarmers ingebouwd in het plafond](img:l-010-071)
+## Hoe korte, middellange en lange golf infrarood verschillen
 
-## Wat is het verschil tussen korte, middellange en lange golf infrarood?
-
-De golflengte volgt de temperatuur van het element. Hoe heter de straler, hoe korter de golf en hoe groter het deel van de energie dat als straling vertrekt in plaats van als warme lucht.
+De golflengte volgt de temperatuur van het element. Hoe heter de straler, hoe korter de golf en hoe groter het deel van de energie dat vrijkomt als stralingswarmte in plaats van als warme lucht.
 
 | | Korte golf | Middellange golf | Lange golf |
 |---|---|---|---|
@@ -77,81 +76,81 @@ De golflengte volgt de temperatuur van het element. Hoe heter de straler, hoe ko
 | Wind | Verwarmt mensen en voorwerpen direct | Beperkt gevoelig | Gevoelig voor verwaaien |
 | Indicatieve toepassing | Open, blootgesteld, winderig | Overdekt, half beschut | Beschut, omsloten |
 
-Bron: overzicht van golflengtes in de Bromic Planning Guide v1.2[^s1]. De rij "indicatieve toepassing" is onze lezing van die eigenschappen, geen gepubliceerde regel.
+Bron: indeling van de golflengtes in de Bromic Planning Guide v1.2[^s1]. De rij "indicatieve toepassing" is onze eigen lezing van die eigenschappen en is bedoeld als richtlijn, omdat de Planning Guide haar niet als regel publiceert.
 
-Het convectieaandeel telt buiten mee omdat warme lucht opstijgt en wegdrijft. Binnen blijft die lucht in de ruimte; buiten gaat ze verloren. Daarom is de Planning Guide er stellig over: buitenwarmte is niet met een thermostaat te regelen, en geforceerde lucht werkt niet in de open lucht[^s2].
+Het convectieve aandeel telt buiten mee omdat warme lucht opstijgt en wegdrijft. Binnen zou die lucht in de ruimte blijven; buiten gaat ze gewoon verloren. Daarom is de Planning Guide zo duidelijk dat warmte buiten niet met een thermostaat te regelen is, en dat hete lucht in de open lucht niet werkt[^s2].
 
 [[VERIFY: indeling naar golflengte (kort / middellang / lang, type element) voor elk huidig Bromic-model — productteam]]
 
-## Waarom werkt stralingswarmte in de wind en geforceerde lucht niet?
+## Waarom stralingswarmte standhoudt in de wind
 
-Stralingsenergie gaat in rechte lijnen en wordt opgenomen door de oppervlakken die ze raakt: huid, kleding, meubels, steen. Ze heeft de lucht niet nodig als drager, dus een briesje verplaatst de lucht zonder de al geleverde warmte mee te nemen. Geforceerde lucht ís de lucht, en gaat met de wind mee[^s2].
+Stralingsenergie verplaatst zich in rechte lijnen en wordt opgenomen door de oppervlakken die ze bereikt – huid, kleding, meubels en steen. Omdat ze de lucht niet nodig heeft als drager, kan een briesje de lucht rond uw gasten bewegen zonder de warmte weg te nemen die ze al hebben ontvangen. Hete lucht daarentegen wordt met de wind meegevoerd[^s2].
 
-De vuistregel: hoe blootgestelder de ruimte, hoe hoger het stralingsaandeel van de bron moet zijn. Een langegolftoestel op een winderig dakterras is een lamp die toevallig warm is.
+Als vuistregel geldt: hoe blootgestelder de ruimte, hoe hoger het stralingsaandeel van de bron moet zijn. Op een winderig dakterras voelt een langegolftoestel van dichtbij misschien warm, terwijl het weinig doet om iemand aan tafel comfortabel te houden.
 
-![Eclipse-verwarmers aan wandarmen boven een restaurantterras onder een luifel](img:l-013-111)
+![Eclipse-verwarmers aan wandarmen die een restaurantterras onder een zonnescherm verwarmen](img:l-013-111)
 
-## Hoe verandert de omsluiting het bestek?
+## Hoe de omsluiting uw specificatie bepaalt
 
-Bromic beschouwt een ruimte als buiten wanneer minstens 30% van de horizontale omtrek blijvend open is[^s2]. Daaronder gaat ze zich als een kamer gedragen, en kunnen binnenregels voor ventilatie en toestellen gelden; stem af met het bevoegd gezag (meestal de gemeente).
+Bromic beschouwt een ruimte als buitenruimte als minstens 30% van de horizontale omtrek permanent open is[^s2]. Onder die grens gaat ze zich als een kamer gedragen en kunnen regels voor ventilatie en toestellen binnenshuis gelden; stem dat daarom af met het bevoegd gezag.
 
-Binnen het buitenbereik maakt de overkapping uit. Een dak of diep overstek houdt een laag warme lucht vast, de "warmtewolk", die bovenop de stralingswarmte een convectieve bijdrage levert[^s2]. Dezelfde verwarmer doet meer onder een overstek dan op een open vlonder. Ontwerp voor de maatgevende situatie: een overdekt terras met één open zijde gedraagt zich anders dan een pergola met open lamellen.
+Binnen het buitenbereik maakt de overkapping een echt verschil. Een dak of diep overstek houdt een laag warme lucht vast, de "warmtewolk", die bovenop de stralingsopbrengst een convectieve bijdrage levert[^s2]. Dezelfde verwarmer doet onder een overstek meer dan op een open vlonder, dus het loont om te ontwerpen voor de werkelijke situatie – een overdekt terras met één open zijde gedraagt zich heel anders dan een pergola met open lamellen.
 
 | Situatie | Effect op het ontwerp |
 |---|---|
 | Volledig open, geen overkapping | Alleen straling; geef voorrang aan korte golf en een kleinere onderlinge afstand |
 | Gedeeltelijke overkapping (overstek, uitkraging, gesloten pergola) | De warmtewolk geeft convectieve winst; monteer aan het overstek |
 | Open lamellen of lattendak | Weinig warmtewolk; reken als open bij het dimensioneren |
-| Minder dan 30% van de omtrek open | Voor Bromic geen "buiten"; controleer de lokale regelgeving |
+| Minder dan 30% van de omtrek open | Voor Bromic geen buitenruimte; controleer de lokale regelgeving |
 
-## Hoe verandert de montagehoogte de warmte-intensiteit?
+## Hoe de montagehoogte de voelbare warmte verandert
 
-De intensiteit neemt af met de afstand. Voor een bron die klein is ten opzichte van de afstand volgt de bestralingssterkte de kwadratenwet: verdubbel de afstand en de ontvangen warmte daalt tot een kwart[^s4]. Lineaire verwarmers vallen dichtbij minder steil af, dus lees de tabel als een richting, niet als een ontwerpwaarde.
+De intensiteit neemt af met de afstand. Bij een bron die klein is ten opzichte van de afstand volgt de bestralingssterkte de kwadratenwet: bij een verdubbeling van de afstand daalt de ontvangen warmte tot een kwart[^s4]. Lijnvormige verwarmers vallen op korte afstand minder steil af; lees de tabel daarom als een richting en houd voor ontwerpwaarden de gegevens over het verwarmde oppervlak aan.
 
 | Afstand tot de verwarmer (relatief) | 1,0× | 1,25× | 1,5× | 2,0× |
 |---|---|---|---|---|
 | Relatieve intensiteit, ideale puntbron | 100% | 64% | 44% | 25% |
 
-Twee gevolgen. Hang een verwarmer hoger en zijn bereik wordt breder terwijl de intensiteit op hoofdhoogte daalt, dus een hoog plafond kan meer verwarmers vragen, of een ophangstang om de toestellen lager te brengen. Hang hem lager en u stuit op de minimale hoogtes van Bromic: wandmontage minstens 1,8 m boven de vloer en plafondmontage minstens 2,4 m, afhankelijk van het vermogen[^s2]. De waarden voor het verwarmde oppervlak in het Lookbook gaan uit van een gangbare installatie; Bromic merkt op dat het verwarmde oppervlak afhangt van montagehoogte, omgeving en installatieomstandigheden[^s3].
+Dat werkt twee kanten op. Hang een verwarmer hoger en zijn bereik wordt breder terwijl de intensiteit op hoofdhoogte daalt, zodat een hoog plafond meer verwarmers kan vragen, of een ophangstang die ze dichter bij de mensen eronder brengt. Hang hem lager en u bereikt de minimale hoogtes van Bromic: wandmontage minstens 1,8 m boven de vloer en plafondmontage minstens 2,4 m, afhankelijk van het vermogen[^s2]. De waarden voor het verwarmde oppervlak in het Lookbook gaan uit van een gangbare installatie, en Bromic merkt op dat het verwarmde oppervlak afhangt van montagehoogte, omgeving en installatieomstandigheden[^s3].
 
 [[VERIFY: aanbevolen bereik van montagehoogtes per model en het verwarmde oppervlak bij elke hoogte — productteam]]
 
-## Welke Bromic-verwarmers passen bij welke situatie?
+## Bromic-verwarmers afgestemd op de situatie
 
 | Verwarmer | Verwarmd oppervlak (ca.) | Montage | Voor te schrijven bediening |
 |---|---|---|---|
 | Platinum Smart-Heat Electric, 2300/3400/4500W | 6–13 m² | Inbouw, plafond, wand | Affinity On/Off of Dimmer, wandschakelaar, Smart-Heat app |
-| Tungsten Smart-Heat Electric, Select en Coastal (binnenkort) | 6–13 m² | Inbouw (lage vrije hoogte), plafond, wand, enkele paal | Affinity On/Off of Dimmer, wandschakelaar, Smart-Heat app |
+| Tungsten Smart-Heat Electric, Select en Coastal (binnenkort leverbaar) | 6–13 m² | Inbouw (weinig inbouwdiepte), plafond, wand, enkele paal | Affinity On/Off of Dimmer, wandschakelaar, Smart-Heat app |
 | Eclipse Smart-Heat Electric | 11 m² | Enkele, dubbele of gebogen paal | Eclipse-regelaar, wandschakelaar, Smart-Heat app |
 | Tungsten Smart-Heat Freestanding Gas | 20 m² | Vrijstaand | [[VERIFY: bedieningsopties voor Tungsten Freestanding Gas — productteam]] |
 
-Bron: Lookbook 2026[^s3]. Wifi- en app-functies vragen om compatibele Affinity Smart-Heat Controls, apart verkrijgbaar.
+Bron: Lookbook 2026[^s3]. Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht.
 
-Bediening is geen afwerkingsdetail. Energievoorschriften voor utiliteitsbouw eisen haar steeds vaker: de energiecode voor utiliteitsbouw van de Amerikaanse staat Washington bijvoorbeeld eist dat verwarming buiten een gebouw stralingswarmte is en automatisch uitschakelt via een aanwezigheidssensor of timer[^s5]. Controleer welke regels voor uw project gelden. [[VERIFY: of Nederlandse regelgeving (Bbl, NEN 1010) eisen stelt aan de bediening van buitenverwarming — Bromic Benelux distributor]]
+Elke Bromic-verwarmer wordt vanaf het begin voorgeschreven met zijn Affinity Smart-Heat®-bediening, en energievoorschriften voor utiliteitsbouw vragen daar ook steeds vaker om. De energiecode voor utiliteitsbouw van de Amerikaanse staat Washington bijvoorbeeld eist dat verwarming buiten een gebouw stralingswarmte is en automatisch uitschakelt via een aanwezigheidssensor of timer[^s5]. Controleer welke regels voor uw project gelden. [[VERIFY: of Nederlandse regelgeving (Bbl, NEN 1010) eisen stelt aan de bediening van buitenverwarming — Bromic Benelux distributor]]
 
-## Belangrijkste punten
+## De belangrijkste punten
 
-- Korte golf: ~90% straling, direct warm, het best in de wind. Lange golf: ~40% straling, ~5 min, het gevoeligst voor wind[^s1].
-- Buiten betekent 30% of meer van de omtrek blijvend open; een overkapping voegt een warmtewolk toe[^s2].
-- De intensiteit daalt met de afstand; houd de minimale hoogtes van 1,8 m op een wand en 2,4 m aan een plafond aan en controleer per model[^s2].
-- Dimensioneer op basis van het verwarmde oppervlak in het Lookbook en pas aan voor blootstelling, hoogte en overkapping[^s3].
-- Schrijf bij elke verwarmer de bediening voor.
+- Korte golf is voor ~90% straling, direct warm en het best in de wind; lange golf is voor ~40% straling, heeft ~5 min nodig en is het gevoeligst voor wind[^s1].
+- Een ruimte geldt als buitenruimte als 30% of meer van de omtrek permanent open is, en een overkapping voegt een warmtewolk toe[^s2].
+- De intensiteit daalt met de afstand; houd daarom de minimale hoogtes van 1,8 m op een wand en 2,4 m aan een plafond aan en bevestig ze per model[^s2].
+- Ga uit van het verwarmde oppervlak in het Lookbook en pas dat aan voor blootstelling, hoogte en overkapping[^s3].
+- Schrijf bij elke verwarmer de Affinity Smart-Heat®-bediening voor.
 
 ## FAQ
 
-### Is korte of lange golf beter voor een terras?
-Voor open of winderige terrassen korte golf: ongeveer 90% van het vermogen is straling en hij verwarmt direct. Lange golf past bij beschutte ruimtes, waar het grotere convectieaandeel niet wegwaait[^s1].
+### Is korte golf of lange golf beter voor een terras?
+Voor open of winderige terrassen korte golf, omdat ongeveer 90% van de opbrengst straling is en ze direct verwarmt. Lange golf past bij beschutte ruimtes, waar het grotere convectieve aandeel niet wordt weggeblazen[^s1].
 
 ### Werken infraroodverwarmers in de wind?
-Stralingswarmte houdt stand bij een lichte tot matige wind, omdat ze mensen en oppervlakken verwarmt, geen lucht[^s2]. Harde, aanhoudende wind vermindert het comfort bij elke verwarmer; plaats afscherming aan de windzijde.
+Stralingswarmte houdt stand bij een lichte tot matige wind, omdat ze mensen en oppervlakken verwarmt in plaats van de lucht[^s2]. Harde, aanhoudende wind vermindert bij elke verwarmer het comfort; voeg daarom aan de windzijde een windscherm toe.
 
 ### Heeft een overdekt terras minder verwarmers nodig?
-Vaak wel, omdat de overkapping een warmtewolk vasthoudt die convectieve warmte toevoegt[^s2]. Laat het bevestigen met een indeling van het ontwerpteam van Bromic.
+Vaak wel, omdat de overkapping een warmtewolk vasthoudt die convectieve warmte toevoegt[^s2]. Ons ontwerpteam kan het aantal met een indeling bevestigen.
 
-### Hoe hoog moet een buitenverwarmer hangen?
-Niet lager dan de minimale hoogtes van Bromic: 1,8 m bij wandmontage en 2,4 m bij plafondmontage, afhankelijk van het vermogen[^s2]. Hoger hangen spreidt de warmte maar verlaagt de intensiteit. Raadpleeg de installatiehandleiding van elk model.
+### Hoe hoog moet een buitenverwarmer worden gemonteerd?
+Niet lager dan de minimale hoogtes van Bromic: 1,8 m bij wandmontage en 2,4 m bij plafondmontage, afhankelijk van het vermogen[^s2]. Hoger hangen spreidt de warmte maar verlaagt de intensiteit; raadpleeg daarom de installatiehandleiding van elk model.
 
 ### Kan ik buitenwarmte met een thermostaat regelen?
-Niet zinvol. Buiten is de luchttemperatuur niet de grootheid die u regelt[^s2]. Gebruik aan/uit, dimmen of schema's via Affinity Smart-Heat Controls.
+Niet zinvol, omdat buiten de luchttemperatuur niet de grootheid is die u regelt[^s2]. Gebruik aan/uit, dimmen of tijdschema's via Affinity Smart-Heat-bediening.
 
 De pro-editie van de Planning Guide bevat de volledige dimensioneringsmethode.

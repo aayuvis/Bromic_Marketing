@@ -1,17 +1,17 @@
 ---
 id: BLOG-14
 type: blog
-title: "Zijn infraroodverwarmers zuinig?"
+title: "Zijn infraroodverwarmers zuinig? Warmte die terechtkomt waar je zit"
 action: keep-fix
 audience: [RES]
 stage: [CO]
 cell: RES-CO
 asset: A24
-summary: "Wat zuinig betekent voor een buitenverwarmer: hoeveel energie bij mensen aankomt in plaats van in de lucht, hoe je de kosten per uur berekent, en de vier keuzes die het minst verspillen."
+summary: "Wat zuinig echt betekent voor een buitenverwarmer: hoeveel van zijn energie de mensen rond de tafel bereikt, hoe je de kosten per uur berekent, en vier keuzes die het minst verspillen."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Zijn infraroodverwarmers energiezuinig voor een terras?"
-meta_description: "Buiten is infrarood de zuinige keuze: het verwarmt mensen, niet de lucht. Hoe aandeel straling, richting, bediening en dimensionering het verbruik bepalen, met de kostenberekening."
+meta_description: "Zijn infraroodverwarmers zuinig? Buiten zijn ze de zuinige keuze: ze verwarmen mensen in plaats van lucht. Wat stralingsaandeel, richting, bediening en maatvoering doen."
 cta: {label: "Bereken je ruimte", asset: A03}
 hero: w-tungsten-electric-melrose-place-los-angeles-
 owner_review: marketing
@@ -20,7 +20,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-IN-01, RES-CO-01, ARC-CO-01, RES-BY-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: U.S. Department of Energy, Energy Saver
@@ -62,43 +62,44 @@ translation_of: BLOG-14
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 ---
-Ja. Buiten is infrarood de zuinige manier van verwarmen, omdat het mensen en oppervlakken verwarmt in plaats van lucht die opstijgt en wegwaait[^s2]. Een elektrische verwarmer zet alle elektriciteit die hij gebruikt om in warmte[^s1]; het verschil tussen verwarmers is hoeveel van die warmte de mensen bereikt die je wilt verwarmen. Dat hangt af van hoeveel straling de verwarmer geeft, waar hij op gericht is, hoe hij wordt bediend en of hij past bij de ruimte.
 
-![Dakbar met Tungsten Electric verwarmers die schuin naar beneden boven de barkrukken hangen](img:w-tungsten-electric-melrose-place-los-angeles-)
+Ja – buiten is infrarood de zuinige manier om mensen warm te houden, omdat het mensen en oppervlakken verwarmt in plaats van lucht die opstijgt en wegdrijft[^s2]. Een elektrische verwarmer zet alle elektriciteit die hij opneemt om in warmte[^s1], dus wat de ene verwarmer van de andere onderscheidt, is hoeveel van die warmte de mensen rond de tafel bereikt. Dat hangt af van hoe stralend de verwarmer is, waar hij op gericht is, hoe hij wordt bediend en of hij op je ruimte is afgestemd.
 
-## Wat betekent "zuinig" voor een buitenverwarmer?
+![Een dakterrasbar met Tungsten Electric-verwarmers die schuin omlaag op de barkrukken zijn gericht](img:w-tungsten-electric-melrose-place-los-angeles-)
 
-Binnen verwarmt een verwarmer de lucht in een kamer en houden de muren die vast. Buiten verdwijnt die warme lucht[^s2]. De nuttige maat is dus niet hoeveel energie warmte wordt, want bij een elektrische weerstandsverwarmer is dat alles[^s1], maar hoeveel er aankomt waar mensen zitten.
+## Wat zuinig betekent onder de open hemel
 
-Het aandeel straling geeft daar antwoord op. De planningsgids van Bromic noemt kortegolf het zuinigst, met ongeveer 90% straling, en langegolf het minst zuinig, met ongeveer 40%; de rest verdwijnt als warme lucht[^s2].
+Binnen verwarmt een verwarmer de lucht in een kamer, en de muren houden die vast. Buiten verdwijnt die warme lucht al snel[^s2]. Wat buiten telt, is hoeveel warmte aankomt waar mensen zitten, want bij een elektrische weerstandsverwarmer wordt alle energie toch al warmte[^s1].
+
+Het stralingsaandeel vertelt je dat. Het planningshandboek van Bromic noemt de korte golf het zuinigst, met ongeveer 90% straling, en de lange golf het minst zuinig, met ongeveer 40%; de rest gaat verloren als warme lucht[^s2].
 
 | Keuze | Verspilt meer | Verspilt minder |
 |---|---|---|
-| Golflengte | Langegolf, ongeveer 40% straling[^s2] | Korte- of middengolf, 90% of 60% straling[^s2] |
-| Richting | Warmte gelijk naar alle kanten | Gerichte warmte op de zitplekken[^s2] |
-| Bediening | Alleen aan of uit, en blijft aanstaan | Dimmen, zones en schema's |
-| Dimensionering | Te weinig verwarmers op vol vermogen, of te veel | Verwarmd oppervlak afgestemd op waar mensen zitten |
+| Golflengte | Lange golf, ongeveer 40% straling[^s2] | Korte of middengolf, 90% of 60% straling[^s2] |
+| Richting | Warmte gelijk in alle richtingen | Gerichte warmte op de zitplekken[^s2] |
+| Bediening | Alleen aan of uit, blijft branden | Dimmen, zones en schema's |
+| Maatvoering | Te weinig verwarmers op vol vermogen, of te veel | Verwarmd oppervlak afgestemd op waar mensen zitten |
 
-De live versie van deze blog noemde een energiebesparing van 30 procent ten opzichte van traditionele verwarming. We konden geen bron voor dat cijfer vinden, dus het is geschrapt.
+De live versie van dit artikel noemde een energiebesparing van 30 procent ten opzichte van traditionele verwarming. We konden geen bron voor dat getal vinden, dus het is verwijderd.
 
-## Wat kost een infraroodverwarmer per uur?
+## Wat een warme avond kost
 
-Voor elektrisch vermenigvuldig je het vermogen van de verwarmer in kilowatt met je stroomprijs:
+Voor elektrische verwarmers vermenigvuldig je het vermogen van de verwarmer in kilowatt met je stroomprijs:
 
 **kosten per uur = kW × je prijs per kWh**
 
-Een Platinum Smart-Heat Electric verwarmer van 3.400 W gebruikt op vol vermogen 3,4 kWh per uur; de kosten zijn dus 3,4 × je prijs per kWh. Lager gezet kost hij minder. Je eigen energierekening bepaalt het echte bedrag. Ter vergelijking, een Amerikaans voorbeeld: bij het gemiddelde Amerikaanse tarief voor huishoudens van ongeveer 18,3 dollarcent per kWh[^s3] kost dezelfde verwarmer in de VS ongeveer 3,4 × 0,183 = 0,62 dollar per uur. [[VERIFY: tarieven 2026 — financiën]]
+Een Platinum Smart-Heat Electric verwarmer van 3.400 W gebruikt op vol vermogen 3,4 kWh per uur; de kosten zijn dus 3,4 × je prijs per kWh, en lager gezet nog minder. Je eigen energierekening bepaalt het echte bedrag. Ter vergelijking, een Amerikaans voorbeeld: bij het gemiddelde Amerikaanse tarief voor huishoudens van ongeveer 18,3 dollarcent per kWh[^s3] kost dezelfde verwarmer in de VS ongeveer 3,4 × 0,183 = 0,62 dollar per uur. [[VERIFY: tarieven 2026 — financiën]]
 
 Voor gas reken je met hetzelfde vermogen in kW: deel het verbruik in kWh per uur door de energie-inhoud van een kubieke meter aardgas of een kilo propaan die je leverancier opgeeft, en vermenigvuldig met je prijs per m³ of per kg. [[VERIFY: methode voor gaskosten in m³ en kg afstemmen op templates/calculation-model.md — financiën]] De volledige berekening staat in [wat het kost om een buitenverwarmer te laten branden](item:RES-IN-01).
 
-## Vier manieren om minder warmte te verspillen
+## Vier manieren om elke watt te laten tellen
 
-1. **Kies een hoog aandeel straling.** Kortegolf en middengolf stoppen het meeste van hun energie in straling; langegolf verliest het meeste aan de lucht[^s2].
-2. **Richt hem.** Gerichte verwarmers sturen warmte één kant op, naar de gasten, en voorkomen dat de mensen die het dichtst bij zitten het te warm krijgen[^s2]. Monteer en richt op de zitplekken, niet op het midden van de vloer.
-3. **Regel het vermogen, niet de luchttemperatuur.** Buitenwarmte laat zich niet op een thermostaat regelen[^s2]. Affinity Smart-Heat Dimmer-regelaars dimmen compatibele elektrische verwarmers in stappen van 1%[^s5], Eclipse schakelt tussen 33, 66 en 100%[^s4], en de Tungsten Electric van 4.000 en 6.000 W heeft twee afzonderlijk te schakelen elementen[^s5]. De Smart-Heat app voegt zones, schema's en timers toe, zodat er alleen warmte is waar en wanneer er mensen zijn[^s4].
-4. **Dimensioneer goed.** Het verwarmde oppervlak per verwarmer hangt af van het model, de montagehoogte, de omgeving en de installatie[^s4]. Een indeling die past bij de zitplekken voorkomt zowel koude plekken als verwarmers die lege hoeken verwarmen.
+1. **Kies een hoog stralingsaandeel.** Korte en middengolf zetten het grootste deel van hun energie om in straling, terwijl lange golf het meeste verliest aan de lucht[^s2].
+2. **Richt de warmte.** Gerichte verwarmers sturen warmte één kant op, naar je gasten, en voorkomen dat de mensen het dichtstbij het te warm krijgen[^s2]. Monteer en kantel ze richting de zitplekken in plaats van het midden van de vloer.
+3. **Regel het vermogen.** Warmte buiten laat zich niet met een thermostaat regelen[^s2], dus stem je de verwarmer zelf af. Affinity Smart-Heat Dimmer-regelaars dimmen compatibele elektrische verwarmers in stappen van 1%[^s5], Eclipse schakelt tussen 33, 66 en 100%[^s4], en de Tungsten Electric van 4.000 en 6.000 W heeft twee apart te bedienen elementen[^s5]. De Smart-Heat-app voegt zones, schema's en timers toe, zodat de warmte alleen brandt waar en wanneer mensen samenkomen[^s4].
+4. **Stem hem af op je ruimte.** Het verwarmd oppervlak per verwarmer verschilt per model, montagehoogte, omgeving en installatie[^s4]. Een indeling die bij de zitplekken past, voorkomt koude plekken en ook verwarmers die lege hoeken warm stoken.
 
-## Welke verwarmers van Bromic, met welke bediening?
+## Bromic-verwarmers en de bediening die erbij hoort
 
 | Verwarmer | Vermogen | Verwarmd oppervlak (ca.) | Waterdichtheid | Bediening |
 |---|---|---|---|---|
@@ -107,22 +108,22 @@ Voor gas reken je met hetzelfde vermogen in kW: deel het verbruik in kWh per uur
 | Tungsten Smart-Heat Electric | 2.000–6.000 W | 6–15 m²[^s5] | IPX4[^s5] | Affinity On/Off of Dimmer, handmatige wandschakelaar |
 | Eclipse Smart-Heat Electric | Stappen van 33 / 66 / 100% | 11 m²[^s4] | [[VERIFY: IP-klasse — productteam]] | Affinity Eclipse-regelaar of Eclipse Dimmer, handmatige wandschakelaar |
 
-Bediening hoort bij elke installatie. Wifi- en appfuncties vragen om compatibele Affinity Smart-Heat Controls, die apart worden verkocht[^s4]. Wat IP-klassen betekenen bij nat weer, lees je in [terrasverwarmers in de regen](https://www.bromic.com/blog/patio-heaters-in-the-rain-what-you-need-to-know/). [[VERIFY: waarden gelezen op de productpagina's van bromic.com; controleren aan de productbladen van 2026 — productteam]]
+Bediening hoort bij elke installatie, en wifi- en appfuncties vragen om compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht[^s4]. Wat IP-klassen betekenen bij nat weer, lees je in [terrasverwarmers in de regen](https://www.bromic.com/blog/patio-heaters-in-the-rain-what-you-need-to-know/). [[VERIFY: waarden gelezen op de productpagina's van bromic.com; controleren aan de productbladen van 2026 — productteam]]
 
-Vergelijk de [elektrische buitenverwarmers](https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/) en de [gasbuitenverwarmers](https://www.bromic.com/outdoor-heaters/outdoor-gas-heaters/), of laat Bromic een indeling tekenen via [bromic.nl](https://www.bromic.nl/). Laat de aansluiting doen door een erkend installateur, volgens NEN 1010 (elektrisch) of NEN 1078 (gas).
+Vergelijk de [elektrische buitenverwarmers](https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/) en de [gasbuitenverwarmers](https://www.bromic.com/outdoor-heaters/outdoor-gas-heaters/), of laat ons een indeling voor je tekenen via [bromic.nl](https://www.bromic.nl/). Laat de aansluiting doen door een erkend installateur, volgens NEN 1010 (elektrisch) of NEN 1078 (gas).
 
 ## Veelgestelde vragen
 
 ### Gebruiken infraroodverwarmers veel stroom?
-Op vol vermogen gebruiken ze precies hun nominale vermogen: een verwarmer van 3.400 W gebruikt 3,4 kWh per uur. Dimmen en schema's verlagen dat. Vermenigvuldig met je tarief voor de kosten.
+Op vol vermogen gebruiken ze precies hun nominale vermogen, dus een verwarmer van 3.400 W gebruikt 3,4 kWh per uur. Dimmen en schema's verlagen dat; vermenigvuldig met je tarief voor de kosten.
 
 ### Is infrarood op stroom of op gas zuiniger?
-Beide kunnen infrarood zijn. Elektrisch zet alle energie in de verwarmer om in warmte[^s1] en past bij overdekte ruimtes; gas past bij grotere open ruimtes. De gebruikskosten hangen af van de energieprijzen waar je woont; zie [gas of elektrisch](https://www.bromic.com/blog/gas-or-electric-patio-heaters-which-one-is-right-for-me/).
+Beide kunnen infrarood zijn. Elektrisch zet alle energie in de verwarmer om in warmte[^s1] en past bij overdekte ruimtes, terwijl gas past bij grotere open ruimtes. De gebruikskosten hangen af van de energieprijzen waar je woont; zie [gas of elektrisch](https://www.bromic.com/blog/gas-or-electric-patio-heaters-which-one-is-right-for-me/).
 
 ### Wat is de zuinigste manier om een terras te verwarmen?
-Een gerichte stralingsverwarmer die op de zitplekken is gericht, past bij de ruimte en wordt bediend met dimmen of schema's[^s2].
+Een gerichte stralingsverwarmer die op de zitplekken is gericht, op de ruimte is afgestemd en wordt bediend met dimmen of schema's[^s2].
 
 ### Kan ik een buitenverwarmer op een thermostaat aansluiten?
-Niet zinvol. De luchttemperatuur buiten laat zich niet vasthouden[^s2]; regel in plaats daarvan het vermogen met een Affinity-regelaar.
+Niet zinvol, want de luchttemperatuur buiten laat zich niet vasthouden[^s2]. Regel in plaats daarvan het vermogen met een Affinity-regelaar.
 
 Ontdek met de calculator hoeveel verwarmers je ruimte nodig heeft, en welke.

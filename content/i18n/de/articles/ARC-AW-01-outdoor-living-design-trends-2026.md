@@ -1,16 +1,16 @@
 ---
 id: ARC-AW-01
 type: article
-title: "Außenräume für die ganzjährige Nutzung planen: was die Daten von 2026 sagen"
+title: "Trends 2026 für das Leben im Freien: Außenräume für jede Jahreszeit gestalten"
 audience: [ARC]
 stage: [AW]
 cell: ARC-AW
 asset: A24
-summary: "Die Umfragedaten von 2026 zum Leben im Freien, gelesen für Architekten: was Bauherren verlangen, warum die Heizung immer noch zuletzt kommt und wie man sie in die Aufgabenstellung schreibt."
+summary: "Was die Umfragedaten von 2026 Architekten über die Außenräume sagen, die sich Bauherren wünschen, warum die Wärme noch immer zuletzt geplant wird und wie sie schon mit der ersten Skizze in die Aufgabenstellung findet."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Welche Trends gibt es 2026 bei der Gestaltung von Außenbereichen?"
-meta_description: "Trends 2026 bei der Gestaltung von Außenbereichen nach Daten von AIA und NAHB (USA), und wie Architekten ganzjährig nutzbare Außenräume mit Heizung in der Aufgabenstellung planen."
+meta_description: "Trends 2026 für das Leben im Freien nach AIA- und NAHB-Daten (USA) – und wie Architekten Strahlungswärme für ganzjährig genutzte Außenräume früh einplanen."
 cta: {label: "Den Bericht Trends 2026 herunterladen", asset: A01}
 hero: l-010-075
 images: [l-010-069, t-006-016]
@@ -18,7 +18,7 @@ owner_review: Marketing
 status: draft
 gated: false
 related: [ARC-CO-01, ARC-IN-01, BLD-IN-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: American Institute of Architects
@@ -81,81 +81,81 @@ translation_of: ARC-AW-01
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
-Der Außenbereich ist immer noch der Raum, nach dem Bauherren zuerst fragen. In der Home Design Trends Survey 2026 des American Institute of Architects (AIA), einer Umfrage unter US-Architekten, lagen Außenwohnbereiche unter den Räumen mit besonderer Funktion auf Platz eins, und laut AIA stieg die Nachfrage danach gegenüber 2025 um 10 %[^s1][^s2]. Die Veränderung hinter der Zahl: Bauherren wollen keine Terrasse mehr neben dem Haus. Sie wollen einen Außenraum, der auch an einem kalten Abend funktioniert, mit Strom, Konstruktion, Licht und Wärme von Anfang an eingeplant.
+Der Außenraum ist noch immer der Raum, nach dem Ihre Bauherren zuerst fragen. In der Home Design Trends Survey 2026 des American Institute of Architects (AIA), einer Umfrage unter US-Architekten, lagen Außenwohnbereiche unter den Räumen mit besonderer Funktion auf Platz eins, und laut AIA stieg die Nachfrage danach gegenüber 2025 um 10 %[^s1][^s2]. Hinter dieser Zahl steht ein leiserer Wandel in dem, was Menschen sich vorstellen. Sie denken nicht mehr an eine Terrasse neben dem Haus, sondern an einen Außenraum, den sie auch an einem kühlen Abend nutzen können – mit Strom, Konstruktion, Licht und Wärme, die von Anfang an in den Entwurf einfließen.
 
-![Minimalistischer Glaspavillon mit in die Decke eingelassenen Heizstrahlern](img:l-010-075)
+![Minimalistischer Glaspavillon mit nahtlos in die Decke eingelassenen Heizstrahlern](img:l-010-075)
 
-## Was sagen die Daten von 2026 zum Leben im Freien?
+## Was die Daten von 2026 über das Leben im Freien verraten
 
-Die Kernaussage ist eine stabile Nachfrage auf hohem Niveau, kein Boom. Liest man die (US-)Umfragen zusammen, gelten drei Dinge.
+Zusammen gelesen beschreiben die (US-)Umfragen eine stabile Nachfrage auf hohem Niveau und keinen plötzlichen Boom.
 
 | Kennzahl | Wert | Quelle |
 |---|---|---|
 | Rang des Außenwohnbereichs unter den Räumen mit besonderer Funktion (AIA, USA, 2026) | Platz 1, 20 % netto | AIA[^s2] |
 | Veränderung der Nachfrage nach Außenwohnbereichen, 2026 gegenüber 2025 (AIA, USA) | +10 % | AIA[^s1] |
 | Architekten, die steigende Beliebtheit von Außenwohnbereichen melden (AIA, USA, 2025, netto) | 55 % (60 % im Jahr 2024) | AIA über Qualified Remodeler[^s3] |
-| Architekten, die steigende Nachfrage nach fließenden Übergängen zwischen innen und außen melden (AIA, USA, 2025, netto) | 40 % (51 % im Jahr 2024) | AIA über Qualified Remodeler[^s3] |
+| Architekten, die steigende Beliebtheit fließender Übergänge zwischen innen und außen melden (AIA, USA, 2025, netto) | 40 % (51 % im Jahr 2024) | AIA über Qualified Remodeler[^s3] |
 | Neue Einfamilienhäuser in den USA, die mit Terrasse begonnen wurden (2025) | 60,5 % (61,8 % im Jahr 2024) | NAHB[^s4] |
 | Durchschnittliche Terrasse eines US-Neubaus | ca. 30 m² | NAHB / Home Innovation[^s5] |
 
 [[VERIFY: Die AIA meldet Nettoanteile („steigend minus fallend“); anhand der AIA-PDFs bestätigen, ob die 10 % Prozentpunkte oder relativ sind und aus welcher Quartalsfrage die 55 %/40 % stammen — Marketing]]
 
-Zwei Vorbehalte für alle, die diese Zahlen zitieren. Die AIA-Werte sind Nettoanteile von Architekten, nicht Anteile von Häusern. Und der Anteil der US-Neubauten mit Terrasse laut NAHB ist inzwischen zwei Jahre in Folge gesunken[^s4]; „jeder Neubau hat eine Terrasse“ ist also übertrieben. Die ehrliche Lesart: Die meisten US-Neubauten bekommen eine, sie ist im Schnitt mit ca. 30 m² so groß wie ein Zimmer, und Architekten nennen sie weiterhin als den Raum, den Bauherren am meisten wollen.
+Zwei Hinweise sollten Sie im Blick behalten, bevor Sie diese Zahlen zitieren. Die AIA-Werte sind Nettoanteile von Architekten; sie beschreiben also, was Büros beobachten, und nicht den Anteil gebauter Häuser. Und der Anteil der US-Neubauten mit Terrasse laut NAHB ist inzwischen zwei Jahre in Folge gesunken[^s4], die Aussage, jeder Neubau habe eine Terrasse, wäre daher übertrieben. Ein faireres Bild: Die meisten US-Neubauten bekommen eine, sie ist im Schnitt großzügige ca. 30 m² groß – so groß wie ein Zimmer –, und Architekten nennen sie weiterhin als den Raum, den sich ihre Bauherren am meisten wünschen.
 
-## Was verlangen Bauherren tatsächlich von Architekten?
+## Die Außenräume, die sich Bauherren wünschen
 
-Räume, keine Holzdecks. Die Wünsche, die in der Trendberichterstattung immer wiederkehren, sind überdachte Terrassen, Außenküchen, Pergolen mit integriertem Licht und Ton und Verglasungen, die das Wohnzimmer zur Terrasse hin öffnen. Jeder dieser Wünsche macht den Außenbereich zur Erweiterung des Grundrisses, und damit gelten für ihn dieselben Erwartungen wie für den Grundriss: Er soll behaglich sein, wenn Menschen ihn nutzen wollen.
+Die Wünsche, die in der Trendberichterstattung immer wiederkehren, beschreiben eher Räume als Holzdecks: überdachte Terrassen, Außenküchen, Pergolen mit integriertem Licht und Ton und Verglasungen, die das Wohnzimmer zur Terrasse hin öffnen. Jeder dieser Wünsche macht den Außenbereich zu einer Erweiterung des Grundrisses, und damit kommt dieselbe Erwartung, die Bauherren an jeden anderen Raum im Haus haben – dass er behaglich ist, wann immer sie ihn nutzen möchten.
 
-Hausbesitzer sagen dasselbe mit eigenen Worten. In der Bromic-Umfrage 2026 unter US-Hausbesitzern gaben 94 % an, ihr Außenbereich könnte stärker genutzt werden, und 67 % sagten, eine Heizung verlängere die Nutzung im Freien[^s6].
+Hausbesitzer sagen es ganz ähnlich mit eigenen Worten. In der Bromic-Umfrage 2026 unter US-Hausbesitzern gaben 94 % an, ihr Außenbereich könnte stärker genutzt werden, und 67 % sagten, eine Heizung verlängere die Nutzung im Freien[^s6].
 
-## Warum kommt die Heizung immer noch zuletzt?
+## Warum die Wärme noch immer zuletzt geplant wird
 
-Weil sie in der Konzeptphase niemandem gehört. Das Licht liegt beim Elektroplaner, die Verschattung beim Landschaftsarchitekten, die Konstruktion beim Tragwerksplaner. Die Heizung fällt dazwischen durch. Nur 23 % der US-Hausbesitzer setzen in der Planungsphase Priorität auf eine Heizung im Außenbereich[^s6].
+In der Konzeptphase ist für die Heizung selten jemand zuständig. Das Licht liegt beim Elektroplaner, die Verschattung beim Landschaftsarchitekten und die Konstruktion beim Tragwerksplaner, während die Heizung oft dazwischen durchfällt. Nur 23 % der US-Hausbesitzer setzen in der Planungsphase Priorität auf eine Heizung im Außenbereich[^s6].
 
-Was es kostet, sie spät anzugehen, ist sichtbar. Ein nachgerüsteter Heizstrahler wird auf die Untersicht geschraubt, die der Architekt detailliert hat, mit Aufputz-Installationsrohr zur nächsten Abzweigdose und einem Schalter, wo eben Platz ist. Derselbe Heizstrahler, von Anfang an eingeplant, sitzt bündig in einem Einbausatz, an einem eigenen Stromkreis, gesteuert zusammen mit dem Licht.
+Was es kostet, sie spät anzugehen, sieht man im fertigen Raum. Ein nachgerüsteter Heizstrahler wird auf die Untersicht geschraubt, die Sie so sorgfältig detailliert haben, versorgt über ein Aufputzrohr von der nächsten Abzweigdose und mit einem Schalter dort, wo gerade Platz ist. Derselbe Heizstrahler, von Anfang an eingeplant, sitzt bündig in einem Einbausatz, an einem eigenen Stromkreis und wird zusammen mit dem Licht gesteuert.
 
 ![Modernes Poolhaus mit Heizstrahlern unter der auskragenden Decke](img:l-010-069)
 
-## Was macht einen Außenraum ganzjährig nutzbar?
+## Einen Außenraum für jede Jahreszeit gestalten
 
-Vier Planungsentscheidungen, alle früh getroffen.
+Ein Raum, der Menschen das ganze Jahr über willkommen heißt, entsteht aus vier Entscheidungen, jede früh im Entwurf getroffen.
 
-1. **Einhausung.** Die Bromic-Planungsregel behandelt eine Fläche als Außenbereich, wenn mindestens 30 % ihres Umfangs dauerhaft offen sind. Eine Teilüberdachung hält eine „Wärmewolke“, die einen konvektiven Zusatz liefert[^s7]. Klären Sie, auf welcher Seite dieser Grenze der Entwurf liegt, bevor Sie Geräte wählen.
-2. **Art der Wärme.** Im Freien lässt sich die Luft nicht heizen; sie steigt auf und wird fortgeweht. Strahlungswärme (Infrarot) erwärmt Menschen und Oberflächen direkt und hält leichtem Wind stand[^s7]. Warmluft funktioniert draußen nicht.
-3. **Montagefläche.** Pergolabalken, Untersichten und Auskragungen sind die natürlichen Montageebenen. Entscheiden Sie, ob Heizstrahler eingelassen, aufgesetzt oder abgehängt werden, damit Konstruktion und Deckenaufbau das zulassen.
-4. **Strom und Steuerung.** Stromkreise, Schaltung und Einbindung in Licht und Hausautomation gehören in die Elektropläne, nicht in einen Nachtrag.
+1. **Wie offen der Raum ist.** Die Bromic-Planungsregel behandelt eine Fläche als Außenbereich, wenn mindestens 30 % ihres Umfangs dauerhaft offen sind, und eine Teilüberdachung hält eine „Wärmewolke“, die einen konvektiven Zusatz liefert[^s7]. Auf welcher Seite dieser Grenze Ihr Entwurf liegt, prägt jede Gerätewahl, die folgt.
+2. **Die Art der Wärme.** Im Freien steigt warme Luft einfach auf und wird fortgetragen. Strahlungswärme (Infrarot) erwärmt Menschen und Oberflächen direkt und hält leichtem Wind stand[^s7]; deshalb tut sich Warmluft draußen schwer, und Infrarot übernimmt die Arbeit.
+3. **Wo die Heizstrahler sitzen.** Pergolabalken, Untersichten und Auskragungen sind die natürlichen Montageebenen. Wenn früh feststeht, ob Heizstrahler eingelassen, aufgesetzt oder abgehängt werden, können Konstruktion und Deckenaufbau Platz für sie schaffen.
+4. **Strom und Steuerung.** Stromkreise, Schaltung und die Einbindung in Licht und Hausautomation gehören von Anfang an in die Elektropläne, statt später als Nachtrag zu kommen.
 
-## Wie plant man die Heizung in die Untersicht statt auf sie?
+## Wärme in die Untersicht entwerfen
 
-Behandeln Sie den Heizstrahler als Deckenelement, wie einen Downlight. Bei einer überdachten Terrasse hält ein eingelassener Elektro-Heizstrahler die Deckenebene ruhig. Platinum Smart-Heat Electric (2300 W, 3400 W oder 4500 W) beheizt je nach Modell und Installation ca. 6–13 m² und lässt sich einlassen, an der Decke oder an der Wand montieren[^s8]. Die neuen Kollektionen Tungsten Smart-Heat Electric Select und Coastal (demnächst erhältlich) ergänzen den Einbau bei geringer Einbautiefe und eine Heizfläche von ca. 6–13 m²[^s8].
+Die feinsten Installationen behandeln den Heizstrahler als Deckenelement, ganz wie eine Einbauleuchte. Über einer überdachten Terrasse hält ein eingelassener Elektro-Heizstrahler die Deckenebene ruhig und lässt die Architektur sprechen. Platinum Smart-Heat® Electric (2300 W, 3400 W oder 4500 W) beheizt je nach Modell und Installation ca. 6–13 m² und lässt sich einlassen, an der Decke oder an der Wand montieren[^s8]. Die neuen Kollektionen Tungsten Smart-Heat® Electric Select und Coastal (demnächst erhältlich) ergänzen den Einbau bei geringer Einbautiefe und eine Heizfläche von ca. 6–13 m²[^s8].
 
-Spezifizieren Sie die Steuerung jedes Mal mit dem Heizstrahler: ein Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät, einen Wandschalter und die Bromic Smart-Heat App für Zonen und Zeitpläne. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind. Eine Einbindung in Control4, Crestron oder Lutron ist möglich, die Kompatibilität hängt aber vom System ab und kann zusätzliche Integrationshardware erfordern[^s8].
+Jeder Heizstrahler, den Sie spezifizieren, kommt mit seiner Steuerung: einem Affinity Smart-Heat® On/Off- oder Dimmer-Steuergerät, einem Wandschalter und der Bromic Smart-Heat App für Zonen und Zeitpläne. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind. Eine Einbindung in Control4, Crestron oder Lutron ist möglich, die Kompatibilität hängt jedoch vom System ab und kann zusätzliche Integrationshardware erfordern[^s8].
 
-![Dachterrasse in der Stadt mit einem in eine Holzuntersicht eingelassenen Heizstrahler](img:t-006-016)
+![Dachterrasse in der Stadt mit einem in eine warme Holzuntersicht eingelassenen Heizstrahler](img:t-006-016)
 
 ## Das Wichtigste in Kürze
 
 - Der Außenwohnbereich bleibt in den AIA-Daten von 2026 der von Architekten meistgefragte Raum mit besonderer Funktion (USA)[^s2].
-- Rund sechs von zehn US-Neubauten bekommen eine Terrasse, im Schnitt ca. 30 m²[^s4][^s5]. Das ist ein Raum, und er verdient die Haustechnik eines Raums.
+- Rund sechs von zehn US-Neubauten bekommen eine Terrasse, im Schnitt ca. 30 m²[^s4][^s5] – so groß wie ein Zimmer und es wert, mit der Haustechnik eines Zimmers geplant zu werden.
 - Die Heizung ist das System, das in der Planung am häufigsten fehlt: 23 % der US-Hausbesitzer setzen darauf Priorität[^s6].
-- Entscheiden Sie Einhausung (die 30-%-Regel), Art der Wärme, Montageebene und Steuerung im Vorentwurf.
-- Jeder Heizstrahler in den Plänen kommt mit seiner Steuerung.
+- Klären Sie im Vorentwurf, wie offen der Raum ist (die 30-%-Regel), die Art der Wärme, die Montageebene und die Steuerung.
+- Jeder Heizstrahler in den Plänen kommt mit seiner Affinity Smart-Heat® Steuerung.
 
 ## FAQ
 
 ### Was sind die wichtigsten Trends bei der Gestaltung von Außenbereichen 2026?
-Außenräume statt Terrassen: überdachte Terrassen, Außenküchen, Pergolen mit integriertem Licht, Ton und Wärme sowie Verglasungen zwischen innen und außen. Die AIA-Umfrage 2026 unter US-Architekten setzt den Außenwohnbereich unter den Räumen mit besonderer Funktion auf Platz eins[^s2].
+Bauherren wünschen sich eher Außenräume als Terrassen: überdachte Terrassen, Außenküchen, Pergolen mit integriertem Licht, Ton und Wärme sowie Verglasungen, die das Haus zur Terrasse hin öffnen. Die AIA-Umfrage 2026 unter US-Architekten setzt den Außenwohnbereich unter den Räumen mit besonderer Funktion auf Platz eins[^s2].
 
 ### Wächst die Nachfrage nach Außenwohnbereichen noch?
-Die AIA meldet für die USA eine um 10 % höhere Nachfrage nach Außenwohnbereichen als 2025[^s1]. Die NAHB zeigt einen leichten Rückgang des Anteils der US-Neubauten mit Terrasse, auf 60,5 % im Jahr 2025[^s4]. Die Nachfrage ist hoch und stabil, beschleunigt sich aber nicht überall.
+Die AIA meldet für die USA eine um 10 % höhere Nachfrage nach Außenwohnbereichen als 2025[^s1], während die NAHB einen leichten Rückgang des Anteils der US-Neubauten mit Terrasse zeigt, auf 60,5 % im Jahr 2025[^s4]. Die Nachfrage ist hoch und stabil, beschleunigt sich aber nicht überall.
 
 ### Wann sollte die Heizung in die Planung einfließen?
-Im Vorentwurf, zusammen mit Licht und Konstruktion. Dann kosten Einbauöffnung, Stromkreis und Ort der Steuerung am wenigsten.
+Im Vorentwurf, zusammen mit Licht und Konstruktion. Dann lassen sich Einbauöffnung, Stromkreis und Ort der Steuerung am einfachsten und günstigsten berücksichtigen.
 
 ### Welche Heizung funktioniert in einem seitlich offenen Außenraum?
-Strahlungswärme (Infrarot). Sie erwärmt Menschen und Oberflächen statt Luft und hält daher leichtem Wind stand, wo Warmluft versagt[^s7].
+Strahlungswärme (Infrarot). Weil sie Menschen und Oberflächen statt der Luft erwärmt, hält sie leichtem Wind stand, wo Warmluft nicht ausreicht[^s7].
 
 ### Lassen sich Heizstrahler in die Hausautomation einbinden?
-Ja, über Affinity Smart-Heat Controls, die unter anderem mit Control4, Crestron und Lutron zusammenarbeiten. Die Kompatibilität ist unterschiedlich und kann zusätzliche Integrationshardware erfordern; klären Sie das mit dem Systemintegrator[^s8].
+Ja, über Affinity Smart-Heat Controls, die unter anderem mit Control4, Crestron und Lutron zusammenarbeiten. Die Kompatibilität ist unterschiedlich und kann zusätzliche Integrationshardware erfordern; klären Sie die Details daher mit Ihrem Systemintegrator[^s8].
 
-Lesen Sie die vollständigen Daten von 2026 im Trendbericht.
+Entdecken Sie alle Ergebnisse von 2026 im Trendbericht.

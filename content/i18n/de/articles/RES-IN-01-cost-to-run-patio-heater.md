@@ -1,16 +1,16 @@
 ---
 id: RES-IN-01
 type: article
-title: "Was kostet der Betrieb eines Heizstrahlers im Außenbereich? Verbrauch pro Stunde bei Strom, Erdgas und Flüssiggas"
+title: "Was kostet der Betrieb eines Terrassenheizstrahlers? Was ein warmer Abend mit Strom, Erdgas und Flüssiggas kostet"
 audience: [RES]
 stage: [IN]
 cell: RES-IN
 asset: A24
-summary: "Der stündliche Energieverbrauch elektrischer und gasbetriebener Bromic-Heizstrahler, die Formeln, um die Kosten mit Ihrem eigenen Tarif zu berechnen, ein US-Rechenbeispiel zu Durchschnittspreisen – und die übrigen Posten eines Gesamtbudgets."
+summary: "Was ein warmer Abend mit elektrischen und gasbetriebenen Bromic-Heizstrahlern wirklich verbraucht, die einfachen Formeln, um es mit Ihrem eigenen Tarif zu rechnen, ein US-Rechenbeispiel zu Durchschnittspreisen und alles, was sonst in ein vollständiges Budget für die Terrassenheizung gehört."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Was kostet der Betrieb eines Terrassenheizstrahlers pro Stunde?"
-meta_description: "Ein 3400-W-Heizstrahler verbraucht 3,4 kWh pro Stunde, ein Gasheizstrahler mit ca. 11,1 kW rund 11,1 kWh Erdgas oder ca. 1,6 l Flüssiggas. So rechnen Sie mit Ihrem Tarif."
+meta_description: "Betriebskosten eines Terrassenheizstrahlers: 3400 W brauchen 3,4 kWh pro Stunde, ein Gasgerät mit ca. 11,1 kW rund 11,1 kWh Erdgas. So rechnen Sie nach."
 cta: {label: "Planungsleitfaden herunterladen", asset: A02}
 hero: l-010-067
 images: [l-019-160]
@@ -18,7 +18,7 @@ owner_review: Marketing
 status: draft
 gated: false
 related: [RES-CO-01, RES-PP-01, COM-CO-01, BLD-IN-01]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: de
 translation_of: RES-IN-01
 translation_status: machine-draft
@@ -75,30 +75,30 @@ sources:
     verified: true
 ---
 
-Ein fest montierter elektrischer Terrassenheizstrahler verbraucht bei voller Leistung je nach Modell 2,3 bis 4,5 kWh Strom pro Stunde. Ein Gasheizstrahler mit ca. 11,1 kW verbraucht rund 11,1 kWh Erdgas oder ca. 1,6 Liter Flüssiggas pro Stunde. Multiplizieren Sie diese Mengen mit dem Preis auf Ihrer Rechnung, und Sie haben die Kosten. Zur Einordnung zeigen wir außerdem ein Rechenbeispiel zu US-Durchschnittspreisen; Euro-Preise rechnen wir bewusst nicht um. [[VERIFY: 2026 rates — Finanzen]]
+Ein fest montierter elektrischer Terrassenheizstrahler verbraucht bei voller Leistung je nach Modell 2,3 bis 4,5 kWh Strom pro Stunde. Ein Gasheizstrahler mit ca. 11,1 kW verbraucht rund 11,1 kWh Erdgas oder ca. 1,6 Liter Flüssiggas pro Stunde. Was das kostet, bestimmt Ihre eigene Rechnung, deshalb finden Sie unten die einfachen Formeln – setzen Sie Ihren Preis ein, und Sie wissen genau, was ein Abend draußen kostet. Zur Einordnung zeigen wir außerdem ein Rechenbeispiel zu US-Durchschnittspreisen; Euro-Preise rechnen wir bewusst nicht um. [[VERIFY: Tarife 2026 — Finanzen]]
 
-## Wie viel Energie verbraucht jedes Gerät pro Stunde?
+## Was eine Stunde Wärme verbraucht, Gerät für Gerät
 
-Die Betriebskosten sind der Energieverbrauch pro Stunde mal dem Preis dieser Energie. Den Preis kennen Sie aus Ihrer Strom- und Gasrechnung; Strom und Erdgas werden in Deutschland üblicherweise je kWh abgerechnet, Flüssiggas je Liter oder je Flasche.
+Gleich welche Energieart: Die Kosten einer Stunde draußen ergeben sich aus der Energie, die ein Heizstrahler in dieser Stunde verbraucht, multipliziert mit dem Preis, den Sie dafür zahlen. Den Preis kennen Sie aus Ihrer Strom- und Gasrechnung; Strom und Erdgas werden in Deutschland üblicherweise je kWh abgerechnet, Flüssiggas je Liter oder je Flasche.
 
 | Heizstrahler | Verbrauch pro Stunde (volle Leistung) | Kosten pro Stunde |
 |---|---|---|
 | Platinum Smart-Heat Electric 2300 W | 2,3 kWh Strom[^s6] | 2,3 × Ihr Strompreis je kWh |
 | Platinum Smart-Heat Electric 3400 W | 3,4 kWh Strom[^s6] | 3,4 × Ihr Strompreis je kWh |
 | Platinum Smart-Heat Electric 4500 W | 4,5 kWh Strom[^s6] | 4,5 × Ihr Strompreis je kWh |
-| Eclipse Smart-Heat Electric | [[VERIFY: wattage — Produktteam]] | kW × Ihr Strompreis je kWh |
+| Eclipse Smart-Heat Electric | [[VERIFY: Leistung in Watt — Produktteam]] | kW × Ihr Strompreis je kWh |
 | Tungsten Smart-Heat Freestanding Gas, Erdgas | ca. 11,1 kWh Erdgas[^s6] | 11,1 × Ihr Gaspreis je kWh |
 | Tungsten Smart-Heat Freestanding Gas, Flüssiggas | ca. 1,57 l Flüssiggas (ca. 0,8 kg)[^s6] | 1,57 × Ihr Preis je Liter |
 
-[[VERIFY: confirm the 11.1 kW (38,000 BTU/h) input rating used for fuel maths — Produktteam]] [[VERIFY: Umrechnung Liter → kg Flüssiggas (Dichte ca. 0,51 kg/l) und Hinweis auf 5- und 11-kg-Flaschen — Produktteam]] Bei ca. 0,8 kg pro Stunde reicht eine 11-kg-Flasche rechnerisch für knapp 14 Stunden volle Leistung, eine 5-kg-Flasche für gut 6 Stunden.
+[[VERIFY: bestätigen, dass 11,1 kW (38.000 BTU/h) die Anschlussleistung ist, mit der der Brennstoffverbrauch gerechnet wird — Produktteam]] [[VERIFY: Umrechnung Liter → kg Flüssiggas (Dichte ca. 0,51 kg/l) und Hinweis auf 5- und 11-kg-Flaschen — Produktteam]] Bei ca. 0,8 kg pro Stunde reicht eine 11-kg-Flasche rechnerisch für knapp 14 Stunden volle Leistung, eine 5-kg-Flasche für gut 6 Stunden.
 
 ## Ein Rechenbeispiel zu US-Preisen
 
-Zur Einordnung, nicht als Euro-Richtwert: die jüngsten US-Durchschnittspreise, die wir belegen konnten.
+Zur Einordnung und nicht als Euro-Richtwert: die jüngsten US-Durchschnittspreise, die wir belegen konnten.
 
-- **Strom:** 18,3 US-Cent/kWh, US-Durchschnitt für Privathaushalte im Juli 2026.[^s1]
-- **Erdgas:** 19,61 US-$ je tausend Kubikfuß (Mcf) im Oktober 2025, einem Monat der Übergangszeit, und 26,45 US-$/Mcf im Juli 2026.[^s3][^s2] Die Gaspreise für Haushalte schwanken in den USA mit der Jahreszeit, daher zeigen wir beide.
-- **Flüssiggas:** 2,67 US-$ je US-Gallone (3,785 l), US-Durchschnitt für Haushalte in der Woche vom 30. März 2026.[^s5]
+- **Strom** kostete US-Haushalte im Juli 2026 durchschnittlich 18,3 US-Cent/kWh.[^s1]
+- **Erdgas** lag im Oktober 2025, einem Monat der Übergangszeit, bei 19,61 US-$ je tausend Kubikfuß (Mcf) und im Juli 2026 bei 26,45 US-$/Mcf.[^s3][^s2] Die Gaspreise für Haushalte schwanken in den USA mit der Jahreszeit, daher zeigen wir beide.
+- **Flüssiggas** kostete US-Haushalte in der Woche vom 30. März 2026 durchschnittlich 2,67 US-$ je US-Gallone (3,785 l).[^s5]
 
 | Heizstrahler | US-Preis | US-Kosten pro Stunde (volle Leistung) |
 |---|---|---|
@@ -108,25 +108,25 @@ Zur Einordnung, nicht als Euro-Richtwert: die jüngsten US-Durchschnittspreise, 
 | Tungsten Freestanding Gas, Erdgas | 1,89–2,55 US-$/therm | **0,72–0,97 US-$** |
 | Tungsten Freestanding Gas, Flüssiggas | 2,67 US-$/Gallone | **1,11 US-$** |
 
-Die US-Behörde EIA meldet Gaspreise je Mcf; ein Mcf entspricht etwa 10,37 therm (1 therm ≈ 29,3 kWh).[^s4] So ergeben sich 19,61 ÷ 10,37 = 1,891 US-$/therm und 26,45 ÷ 10,37 = 2,551 US-$/therm. Das sind US-Landesdurchschnitte; Preise nach Bundesstaat und Versorger weichen stark ab.
+Die US-Behörde EIA meldet Gaspreise für Haushalte je Mcf, und ein Mcf entspricht etwa 10,37 therm (1 therm ≈ 29,3 kWh).[^s4] So ergeben sich 19,61 ÷ 10,37 = 1,891 US-$/therm und 26,45 ÷ 10,37 = 2,551 US-$/therm. Das sind US-Landesdurchschnitte, und die Preise nach Bundesstaat und Versorger weichen stark davon ab.
 
-## Wie berechne ich es mit meiner eigenen Rechnung?
+## So rechnen Sie es für Ihr eigenes Zuhause
 
-Drei Formeln, eine je Energieart.
+Jede Energieart hat ihre eigene kurze Formel, und mit Ihrer letzten Rechnung zur Hand dauert jede weniger als eine Minute.
 
-**Strom:** Kosten pro Stunde = kW × Preis je kWh
-- 3400 W = 3,4 kW. Kosten pro Stunde = 3,4 × Ihr Strompreis je kWh.
+**Für elektrische Heizstrahler** gilt: Kosten pro Stunde = kW × Preis je kWh
+- Ein 3400-W-Heizstrahler nimmt 3,4 kW auf, die Kosten pro Stunde sind also 3,4 × Ihr Strompreis je kWh.
 
-**Erdgas:** Kosten pro Stunde = Leistung in kW × Gaspreis je kWh
-- Der Tungsten Freestanding Gas hat eine Anschlussleistung von ca. 11,1 kW, verbraucht also ca. 11,1 kWh Gas pro Stunde.
+**Für Erdgas** gilt: Kosten pro Stunde = Leistung in kW × Gaspreis je kWh
+- Der Tungsten Freestanding Gas hat eine Anschlussleistung von ca. 11,1 kW und verbraucht damit ca. 11,1 kWh Gas pro Stunde.
 - Steht auf Ihrer Rechnung ein Preis je m³, rechnen Sie ihn mit dem Brennwert und der Zustandszahl Ihres Versorgers in kWh um; beide stehen auf der Gasrechnung.
 
-**Flüssiggas:** Kosten pro Stunde = Liter pro Stunde × Preis je Liter
+**Für Flüssiggas** gilt: Kosten pro Stunde = Liter pro Stunde × Preis je Liter
 - Ca. 11,1 kW entsprechen rund 1,57 Litern Flüssiggas pro Stunde. Kaufen Sie Flaschen, teilen Sie den Flaschenpreis durch die Kilogramm in der Flasche und multiplizieren Sie mit ca. 0,8 kg pro Stunde.
 
-## Was bedeutet das über eine Saison?
+## Über eine ganze Saison voller Abende draußen
 
-Die Stunden zählen mehr als der Tarif. Nehmen Sie einen Haushalt, der die Terrasse an 100 Abenden im Jahr je drei Stunden beheizt – 300 Stunden.
+Die Stunden, die Sie draußen verbringen, prägen die Kosten einer Saison weit stärker als der Tarif. Stellen Sie sich einen Haushalt vor, der die Terrasse an 100 Abenden im Jahr je drei Stunden genießt, zusammen 300 Stunden Wärme.
 
 | Ausstattung | Verbrauch in der Saison | Kosten | Zum Vergleich: US-Beispiel |
 |---|---|---|---|
@@ -134,57 +134,57 @@ Die Stunden zählen mehr als der Tarif. Nehmen Sie einen Haushalt, der die Terra
 | Ein Tungsten Freestanding Gas, Erdgas | 11,1 kW × 300 h = ca. 3.330 kWh Gas | 3.330 × Ihr Gaspreis je kWh | ca. 216 US-$ |
 | Ein Tungsten Freestanding Gas, Flüssiggas | 1,57 l × 300 h = ca. 471 l (ca. 240 kg) | 471 × Ihr Preis je Liter | ca. 333 US-$ |
 
-Das sind Werte für volle Leistung, jede Minute. In der Praxis sinken die Kosten, wenn die Wärme dem Bedarf folgt:
+Diese Werte gehen davon aus, dass jeder Heizstrahler jede Minute mit voller Leistung läuft. In der Praxis sinken die Kosten, sobald die Wärme zum Abend passt:
 
-- **Leistung reduzieren.** Eclipse läuft mit 33 %, 66 % oder 100 % Leistung; ein Dimmer-Steuergerät stellt elektrische Heizstrahler unterhalb der vollen Leistung ein.[^s6] [[VERIFY: power draw at reduced output is proportional to setting — Produktteam]]
-- **Zeitpläne nutzen.** Die Bromic Smart-Heat App legt Zeitpläne und Timer fest, sodass nur geheizt wird, wenn jemand draußen ist; sie erfordert kompatible Affinity Smart-Heat Controls, separat erhältlich.[^s6]
-- **Zonen bilden.** Heizen Sie den Essbereich, ohne die Lounge mitzuheizen.
+- **Die Leistung auf den Abend einstellen.** Eclipse läuft mit 33 %, 66 % oder 100 % Leistung, und ein Dimmer-Steuergerät stellt elektrische Heizstrahler unterhalb der vollen Leistung ein.[^s6] [[VERIFY: Leistungsaufnahme bei reduzierter Leistung proportional zur Stufe — Produktteam]]
+- **Einen Zeitplan arbeiten lassen.** Die Bromic Smart-Heat App legt Zeitpläne und Timer fest, sodass die Wärme nur läuft, solange jemand draußen ist; sie setzt kompatible Affinity Smart-Heat® Controls voraus, die separat erhältlich sind.[^s6]
+- **Nur die Zone wärmen, die Sie nutzen.** Wärmen Sie den Essbereich der Terrasse, während die Lounge ruht.
 
-![Überdachtes Pooldeck bei Nacht mit freistehendem Gasheizstrahler](img:l-019-160)
+![Ein überdachtes Pooldeck bei Nacht, gewärmt von einem freistehenden Gasheizstrahler](img:l-019-160)
 
-## Was gehört noch in die Gesamtkosten?
+## Alles, was in ein vollständiges Budget gehört
 
-Am ersten Tag sind die Betriebskosten der kleinste Posten. Bromic empfiehlt, das ganze Vorhaben im Voraus zu kalkulieren: Geräte, Anschlüsse, Genehmigungsgebühren und Montage.[^s7]
+Am ersten Tag sind die Betriebskosten der kleinste Posten im Budget. Bromic empfiehlt, das ganze Vorhaben im Voraus zu kalkulieren, von Geräten und Anschlüssen bis zu Genehmigungsgebühren und Montage.[^s7]
 
 | Posten | Was ihn bestimmt | Richtwert |
 |---|---|---|
-| Heizstrahler | Modell, Leistung, Oberfläche, Anzahl | [[VERIFY: 2026 US MSRP per model — Digitales Marketing]] |
-| Steuerung (vorgeschrieben) | Affinity On/Off-, Dimmer- oder Eclipse-Steuergerät oder Wandschalter; App und Sprachsteuerung erfordern kompatible Affinity-Steuergeräte, separat erhältlich[^s6] | [[VERIFY: controls MSRP — Digitales Marketing]] |
-| Montagezubehör | Einbaurahmen, Abhängestangen (Elektro); Hitzeschilde, Deckenstangen (Gas)[^s7] | [[VERIFY: accessory MSRP — Digitales Marketing]] |
+| Heizstrahler | Modell, Leistung, Oberfläche, Anzahl | [[VERIFY: US-Listenpreise 2026 je Modell — Digitales Marketing]] |
+| Steuerung (vorgeschrieben) | Affinity On/Off-, Dimmer- oder Eclipse-Steuergerät oder Wandschalter; App und Sprachsteuerung setzen kompatible Affinity-Steuergeräte voraus, separat erhältlich[^s6] | [[VERIFY: Listenpreise Steuerung — Digitales Marketing]] |
+| Montagezubehör | Einbaurahmen, Abhängestangen (Elektro); Hitzeschilde, Deckenstangen (Gas)[^s7] | [[VERIFY: Listenpreise Zubehör — Digitales Marketing]] |
 | Elektroarbeiten | Neue Stromkreise, Entfernung zum Verteiler, Kapazität des Verteilers, offene oder fertige Decken | Angebot eines Elektrofachbetriebs |
 | Gasarbeiten | Leitungsweg, Armaturen oder Flüssiggasversorgung | Angebot eines Gasinstallateurs |
 | Genehmigungen | Gemeinde oder Kreis | Beim Bauamt erfragen |
 | Betriebskosten | Stunden × Leistung × Tarif | Tabellen oben |
 
-Elektro- und Gasarbeiten, die erledigt werden, solange Wände und Decken offen sind, kosten weniger als die Nachrüstung eines fertigen Bereichs. Das ist das stärkste Argument, die Wärme ins erste Budget aufzunehmen – von Anfang an geplant, nicht nachträglich ergänzt.
+Elektro- und Gasarbeiten, die erledigt werden, solange Wände und Decken noch offen sind, kosten weniger als die Nachrüstung eines fertigen Bereichs. Das ist der stärkste Grund, der Wärme schon im allerersten Budget einen Platz zu geben, damit sie von Anfang an in Ihren Außenbereich hineingeplant ist.
 
-## Checkliste für die Planung
+## Bevor Sie Ihre Planung abschließen
 
 - Entnehmen Sie Ihre Preise der letzten Rechnung: Strom je kWh, Erdgas je kWh, Flüssiggas je Liter oder je Flasche.
-- Legen Sie fest, wie viele Stunden Sie wirklich heizen: Abende im Jahr × Stunden pro Abend.
-- Legen Sie die Heizstrahler für den Sitzbereich aus ([Elektro oder Gas](item:RES-CO-01) zeigt eine schnelle Methode).
-- Rechnen Sie die Steuerung zu den Geräten – sie gehört zu einer funktionierenden Anlage.
-- Holen Sie Angebote für Elektro, Gas und Genehmigungen ein, bevor Sie die Terrassenplanung abschließen.
-- Klären Sie die Anforderungen mit Ihrem Bauamt und einem Elektrofachbetrieb (DIN VDE 0100) oder Gasinstallateur (DVGW-TRGI, TRF). [[VERIFY: current VDE and DVGW rules for outdoor heaters — Partner Deutschland]]
+- Überlegen Sie ehrlich, wie oft Sie draußen sein werden, in Abenden im Jahr und Stunden pro Abend.
+- Legen Sie die Heizstrahler für Ihren Sitzbereich aus; unser Ratgeber [Elektro oder Gas](item:RES-CO-01) zeigt eine schnelle Methode.
+- Rechnen Sie die Steuerung zu den Geräten, denn sie gehört zu jeder funktionierenden Anlage.
+- Holen Sie Angebote für Elektro, Gas und Genehmigungen ein, bevor Sie die Gestaltung der Terrasse festlegen.
+- Klären Sie die Anforderungen mit Ihrem Bauamt und einem Elektrofachbetrieb (DIN VDE 0100) oder Gasinstallateur (DVGW-TRGI, TRF). [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Partner Deutschland]]
 
 ## FAQ
 
 ### Ist ein elektrischer oder ein Gas-Terrassenheizstrahler günstiger im Betrieb?
-Das hängt von Ihren Tarifen ab: Ein 3400-W-Elektrogerät verbraucht 3,4 kWh Strom pro Stunde, das Gasgerät rund 11,1 kWh Gas. Im US-Beispiel kostet das Elektrogerät 0,62 US-$ pro Stunde, das Gasgerät 0,72–0,97 US-$ mit Erdgas und 1,11 US-$ mit Flüssiggas. Ein Gasgerät beheizt jedoch ca. 20 m², ein Platinum ca. 6–13 m²; vergleichen Sie also die Kosten, Ihren Sitzbereich zu wärmen, nicht ein einzelnes Gerät.[^s6] Nutzen Sie die Formeln mit Ihren eigenen Preisen.
+Das hängt von Ihren Tarifen ab: Ein 3400-W-Elektrogerät verbraucht 3,4 kWh Strom pro Stunde, das Gasgerät rund 11,1 kWh Gas. Im US-Beispiel kostet das Elektrogerät Stunde für Stunde 0,62 US-$, das Gasgerät 0,72–0,97 US-$ mit Erdgas und 1,11 US-$ mit Flüssiggas. Ein Gasgerät beheizt jedoch ca. 20 m², ein Platinum ca. 6–13 m², daher ist der fairere Vergleich, was es kostet, Ihren ganzen Sitzbereich zu wärmen.[^s6] Die Formeln oben geben Ihnen mit Ihren eigenen Preisen die Antwort für Ihr Zuhause.
 
 ### Was kostet ein 3400-W-Terrassenheizstrahler pro Stunde?
-3,4 kWh × Ihr Strompreis je kWh. Zum US-Durchschnittspreis für Haushalte im Juli 2026 von 18,3 US-Cent/kWh sind das rund 0,62 US-$.[^s1]
+3,4 kWh × Ihr Strompreis je kWh. Zum US-Durchschnittspreis für Haushalte im Juli 2026 von 18,3 US-Cent/kWh sind das rund 0,62 US-$, denn 3,4 kW × 0,183 US-$ = 0,62 US-$.[^s1]
 
 ### Wie viel Flüssiggas verbraucht ein Gasheizstrahler mit ca. 11,1 kW?
 Rund 1,57 Liter (ca. 0,8 kg) pro Stunde bei voller Leistung. Zum US-Durchschnittspreis von 2,67 US-$ je Gallone wären das rund 1,11 US-$ pro Stunde.[^s5]
 
 ### Warum schwankt der Gaspreis so stark?
-Gaspreise für Haushalte ändern sich mit Markt und Tarif. In den USA lag der EIA-Wert für Juli 2026 (26,45 US-$/Mcf) deutlich über dem von Oktober 2025 (19,61 US-$/Mcf).[^s2][^s3] Rechnen Sie mit dem Preis, der in der Saison gilt, in der Sie heizen.
+Gaspreise für Haushalte ändern sich von Monat zu Monat, und in den USA lag der EIA-Wert für Juli 2026 (26,45 US-$/Mcf) deutlich über dem von Oktober 2025 (19,61 US-$/Mcf).[^s2][^s3] Rechnen Sie mit dem Preis der Saison, in der Sie heizen möchten.
 
 ### Spart das Dimmen eines elektrischen Heizstrahlers Geld?
-Geringere Leistung verbraucht weniger Energie. Eclipse schaltet zwischen 33 %, 66 % und 100 %.[^s6] [[VERIFY: draw at each step — Produktteam]]
+Geringere Leistung verbraucht weniger Energie, und Eclipse schaltet zwischen 33 %, 66 % und 100 %.[^s6] [[VERIFY: Leistungsaufnahme je Stufe — Produktteam]]
 
 ### Kann ich die Kosten vor dem Kauf abschätzen?
-Ja. Der Bromic-Planungsleitfaden führt Schritt für Schritt durch Auslegung, Anschlüsse und ein Gesamtbudget.
+Ja. Der Bromic-Planungsleitfaden führt Sie Schritt für Schritt durch Auslegung, Anschlüsse und ein vollständiges Budget.
 
-Verschaffen Sie sich das ganze Budget, bevor Sie mit einem Händler sprechen – laden Sie den Bromic-Planungsleitfaden herunter.
+Sehen Sie das ganze Budget, bevor Sie mit einem Händler sprechen, und laden Sie den Bromic-Planungsleitfaden herunter.

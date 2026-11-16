@@ -1,17 +1,17 @@
 ---
 id: BLOG-16
 type: blog
-title: "Mensen verwarmen, geen plekken: de basis van warmteoverdracht buiten"
+title: "Mensen verwarmen, geen plekken: stralingswarmte en convectie buiten"
 action: keep-fix
 audience: [ARC]
 stage: [CO]
 cell: ARC-CO
 asset: A24
-summary: "Waarom convectie buiten tekortschiet en straling werkt, wat korte, middellange en lange golf betekenen voor het stralingsaandeel, de opwarmtijd en de wind, en welke ontwerpkeuzes daaruit volgen: overkapping, richting, hoogte en bediening."
+summary: "Waarom warme lucht buiten wegglipt terwijl stralingswarmte elke gast bereikt, wat korte, middellange en lange golf betekenen voor het stralingsaandeel, de opwarmtijd en de wind, en welke ontwerpkeuzes daaruit volgen – overkapping, richting, hoogte en bediening."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Waarom is stralingswarmte buiten beter dan convectiewarmte?"
-meta_description: "Convectie werkt buiten niet omdat warme lucht wegtrekt; stralingswarmte bereikt mensen direct. Korte, middellange en lange golf vergeleken, met de ontwerpregels."
+meta_description: "Stralingswarmte of convectie buiten: warme lucht trekt weg, stralingswarmte bereikt mensen direct. Korte, middellange en lange golf vergeleken, met ontwerpregels."
 cta: {label: "Download de Planning Guide (editie voor professionals)", asset: A02}
 hero: w-smoque-n-bones-tungsten-electric-1
 owner_review: marketing
@@ -20,7 +20,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-CO-01, ARC-CO-KB1, ARC-IN-01, ARC-PP-01]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: nl
 translation_of: BLOG-16
 translation_status: machine-draft
@@ -70,51 +70,51 @@ sources:
     verified: false
 ---
 
-Buiten moet warmte zich verplaatsen door straling. Convectie werkt door lucht te verwarmen, en in de open lucht stijgt die lucht op en drijft weg voordat ze iemand bereikt; het kleinste briesje doet de rest[^s1]. Stralingswarmte (infrarood) gaat door de lucht heen en wordt opgenomen door mensen, meubels en vloeren, zoals zonlicht. Ontwerp daarop: kies de meest stralende bron die de situatie toelaat, richt die op de plek waar mensen zitten, en regel het vermogen, niet de luchttemperatuur.
+Buiten moet warmte zich verplaatsen als straling. Convectie werkt door de lucht te verwarmen, en in de open lucht stijgt die lucht op en drijft weg voordat ze iemand bereikt, terwijl het kleinste briesje haar nog verder meevoert[^s1]. Stralingswarmte (infrarood) gaat door de lucht heen en wordt opgenomen door mensen, meubels en vloeren, net zoals zonlicht. Ontwerp daarop: kies de meest stralende bron die de situatie toelaat, richt die op de plek waar mensen zitten en regel het vermogen, want de luchttemperatuur zelf laat zich niet vasthouden.
 
 ![Tungsten Electric-verwarmers die schuin naar beneden gericht zijn vanaf de balken van een restaurantpergola](img:w-smoque-n-bones-tungsten-electric-1)
 
-## Hoe verplaatst warmte zich, en welke manier werkt buiten?
+## Hoe warmte zich verplaatst onder de open hemel
 
-Warmte verplaatst zich op drie manieren. Geleiding vraagt contact en speelt dus geen rol bij het verwarmen van een zittende gast. Convectie voert warmte mee in bewegende lucht. Straling brengt warmte als infrarood, in rechte lijnen, naar elk oppervlak dat ze raakt[^s1].
+Warmte verplaatst zich op drie manieren. Geleiding vraagt om contact en speelt dus geen rol bij het verwarmen van een zittende gast. Convectie draagt warmte mee in bewegende lucht, en straling brengt haar als infrarood in rechte lijnen naar elk oppervlak dat ze raakt[^s1].
 
 | | Convectie | Straling (infrarood) |
 |---|---|---|
-| Wat het verwarmt | De lucht, die daarna mensen verwarmt | Mensen en oppervlakken direct |
+| Wat ze verwarmt | De lucht, die vervolgens mensen verwarmt | Mensen en oppervlakken direct |
 | Gedrag buiten | Warme lucht stijgt op en verdwijnt; wind voert haar af | Komt aan door bewegende lucht heen; lichte wind heeft weinig effect |
 | Reactie | Traag; heeft een besloten ruimte nodig om op te bouwen | Voelbaar zodra het element heet is |
-| Regeling | Thermostaat, binnen | Vermogen: aan/uit, dimmen, zones, tijdschema's |
+| Regeling | Thermostaat, binnen | Vermogen: aan/uit, dimmen, zones, schema's |
 
-De Planning Guide van Bromic vat het samen in één zin: buitenverwarming kun je niet met een thermostaat regelen[^s1]. Er is geen luchtvolume dat je op een ingestelde temperatuur kunt houden.
+Het planningshandboek van Bromic vat het samen in één zin: buitenverwarming laat zich niet met een thermostaat regelen[^s1]. In de open lucht is er geen luchtvolume dat je op een ingestelde waarde kunt houden.
 
 <div class="diagram">Diagram: doorsnede van een overdekt terras. Linkerhelft: een convectieverwarmer waarvan de pijlen met warme lucht opstijgen naar de overstek en met de wind aan de open zijde naar buiten stromen. Rechterhelft: een stralingsverwarmer aan de wand waarvan de rechte pijlen op zittende mensen, de tafel en de vloer vallen; een gearceerde band onder de overstek heet "warmtewolk". Vermeld de regel van 30% open omtrek en de minimumhoogtes van 1,83 m aan de wand en 2,44 m aan het plafond[^s1][^s3].</div>
 
-## Wat betekenen korte, middellange en lange golf?
+## Korte, middellange en lange golf begrijpen
 
-De golflengte volgt de temperatuur van het element. Hoe heter het element, hoe korter de golf en hoe meer van de energie als straling vertrekt in plaats van als warme lucht[^s2]:
+De golflengte volgt de temperatuur van het element. Hoe heter het element, hoe korter de golf en hoe meer van zijn energie vrijkomt als straling in plaats van als warme lucht[^s2]:
 
 | | Korte golf | Middellange golf | Lange golf |
 |---|---|---|---|
-| Temperatuur van het element | 2200 °C | 900 °C | 300 °C |
+| Temperatuur van het element | 2.200 °C | 900 °C | 300 °C |
 | Straling / convectie | 90 / 10 | 60 / 40 | 40 / 60 |
-| Opwarmtijd | Direct | Ca. 30 s | Ca. 5 min |
-| Wind | Verwarmt mensen en voorwerpen direct | Beperkt gevoelig | Gevoelig voor verwaaien |
+| Opwarmtijd | Direct | Ongeveer 30 s | Ongeveer 5 min |
+| Wind | Verwarmt mensen en voorwerpen direct | Beperkt gevoelig | Gevoelig voor verspreiding |
 
-Bron: Bromic Planning Guide v1.2, heat-wave mapping[^s2]. Dit zijn de cijfers achter de bandbreedte van "60 tot 90%" die de eerdere versie van dit artikel zonder bron noemde: 60% is middellange golf, 90% korte golf.
+Bron: Bromic Planning Guide v1.2, indeling van de warmtegolven[^s2]. Dit zijn de cijfers achter de bandbreedte van "60 tot 90%" die de eerdere versie van dit artikel zonder bron noemde, waarbij 60% middellange golf is en 90% korte golf.
 
-De gids deelt ze in naar toepassing. Directe warmte, een mix van korte en middellange golf, geeft het hoogste rendement. Indirecte warmte, middellange en lange golf, warmt langzamer op en is gevoeliger voor wind[^s1]. De golflengte per model staat in de gids voor voorschrijvers, [stralingswarmte buiten: korte, middellange en lange golf](item:ARC-CO-01). [[VERIFY: wavelength band of each current Bromic model — productteam]]
+Het handboek groepeert de banden naar toepassing. Directe warmte, een mix van korte en middellange golf, geeft het hoogste rendement, terwijl indirecte warmte, middellange en lange golf, trager opwarmt en meer aan wind blootstaat[^s1]. De golflengte per model staat in de gids voor voorschrijvers, [stralingswarmte buiten: korte, middellange en lange golf](item:ARC-CO-01). [[VERIFY: golflengteband van elk huidig Bromic-model — productteam]]
 
-## Wat volgt daaruit voor het ontwerp?
+## De ruimte ontwerpen rond stralingswarmte
 
-**Richting.** Een gerichte verwarmer stuurt het grootste deel van zijn vermogen één kant op, naar de plek waar mensen zitten; een niet-gerichte verwarmer verspreidt het gelijkmatig in alle richtingen, ook waar niemand zit[^s1]. Schrijf gerichte toestellen voor en richt ze op de zitplaatsen.
+**Richting.** Een gerichte verwarmer stuurt het grootste deel van zijn vermogen één kant op, naar de plek waar mensen zitten, terwijl een ongerichte het gelijk in alle richtingen verspreidt, ook waar niemand zit[^s1]. Schrijf gerichte toestellen voor en richt ze op de zitplekken.
 
-**Overkapping.** Bromic beschouwt een ruimte als buitenruimte als minstens 30% van de horizontale omtrek permanent open is. Een overstek of dicht dak boven de rest houdt een warmtewolk vast die een extra convectieve bijdrage levert; open lamellen houden weinig vast[^s1].
+**Overkapping.** Bromic beschouwt een ruimte als buitenruimte wanneer minstens 30% van de horizontale omtrek blijvend open is. Een overstek of gesloten dak boven de rest houdt een warmtewolk vast die een convectieve extra geeft, terwijl open lamellen heel weinig vasthouden[^s1].
 
-**Hoogte.** Wandmontage niet lager dan 1,83 m en plafondmontage niet lager dan 2,44 m, afhankelijk van het vermogen[^s3]. Hoger monteren spreidt het stralingspatroon en verlaagt de intensiteit bij de gast; zie [montagehoogte en warmte-intensiteit](item:ARC-CO-KB1). Het verwarmd oppervlak varieert met model, montagehoogte, omgeving en installatie[^s4].
+**Hoogte.** Wandmontage niet lager dan 1,83 m en plafondmontage niet lager dan 2,44 m, afhankelijk van het vermogen[^s3]. Hoger monteren spreidt het stralingspatroon en verzacht de intensiteit bij de gast; zie [montagehoogte en warmte-intensiteit](item:ARC-CO-KB1). Het verwarmd oppervlak varieert met model, montagehoogte, omgeving en installatie[^s4].
 
-**Licht.** Hetere elementen gloeien. Waar die gloed telt in het ontwerp, bespreek je hem met de lichtontwerper, niet pas na de installatie.
+**Licht.** Hetere elementen gloeien. Waar die gloed telt in het ontwerp, bespreek je hem ruim voor de installatie samen met het lichtontwerp.
 
-**Bediening.** Schrijf de bediening voor samen met de verwarmer. Sommige energievoorschriften eisen dat inmiddels: de energiecode voor utiliteitsbouw van de Amerikaanse staat Washington eist dat warmte buiten een gebouw stralingswarmte is, geschakeld door een aanwezigheidssensor of tijdschakelaar[^s5]. In Nederland gelden NEN 1010 voor de elektrische installatie en NEN 1078 voor gas; laat de geldende eisen bevestigen door de gemeente, en laat de groep of gasaansluiting ontwerpen door een gekwalificeerde elektrotechnisch installateur of gasinstallateur. [[VERIFY: current Dutch codes for outdoor heater installations, and whether any Dutch energy rule addresses outdoor heating controls — Bromic Benelux distributor]]
+**Bediening.** Schrijf de bediening voor samen met de verwarmer. Sommige energievoorschriften eisen dat inmiddels: de energiecode voor utiliteitsbouw van de Amerikaanse staat Washington eist dat warmte buiten een gebouw stralingswarmte is, geschakeld door een aanwezigheidssensor of tijdschakelaar[^s5]. In Nederland gelden NEN 1010 voor de elektrische installatie en NEN 1078 voor gas; laat de geldende eisen bevestigen door de gemeente, en laat de groep of gasaansluiting ontwerpen door een gekwalificeerde elektrotechnisch installateur of gasinstallateur. [[VERIFY: huidige Nederlandse normen voor de installatie van buitenverwarmers, en of een Nederlandse energieregel iets zegt over de bediening van buitenverwarming — Bromic Benelux distributor]]
 
 | Verwarmer | Verwarmd oppervlak (ca.) | Montage | Voor te schrijven bediening |
 |---|---|---|---|
@@ -122,20 +122,20 @@ De gids deelt ze in naar toepassing. Directe warmte, een mix van korte en middel
 | Tungsten Smart-Heat Electric | 6–15 m²[^s6] | Wand, plafond, stang, verzonken | Affinity On/Off- of Dimmer-regelaar, handbediende wandschakelaar; twee elementen bij 4000 en 6000 W[^s6] |
 | Eclipse Smart-Heat Electric | 11 m²[^s4] | Enkele, dubbele of gebogen stang | Affinity Eclipse-regelaar of Eclipse Dimmer, handbediende wandschakelaar |
 
-Wifi, tijdschema's in de app en zones vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht[^s4]. [[VERIFY: product-page values read from bromic.com; confirm against 2026 cut sheets — productteam]] Vergelijk de elektrische en gasverwarmers op [bromic.nl](https://www.bromic.nl/), of stuur je plannen naar het team van [Design Your Space](https://www.bromic.nl/) voor tekeningen met het verwarmd oppervlak.
+Wifi, tijdschema's in de app en zones vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht[^s4]. [[VERIFY: waarden van de productpagina's op bromic.com; controleren aan de productbladen van 2026 — productteam]] Vergelijk de elektrische en gasverwarmers op [bromic.nl](https://www.bromic.nl/), of stuur je plannen naar ons team van [Design Your Space](https://www.bromic.nl/) voor tekeningen met het verwarmd oppervlak.
 
 ## Veelgestelde vragen
 
 ### Waarom werken heteluchtverwarmers buiten niet?
-Ze verwarmen lucht, en buitenlucht stijgt op en verdwijnt, bij elk briesje nog sneller[^s1].
+Ze verwarmen de lucht, en buitenlucht stijgt op en verdwijnt, bij elk briesje nog sneller[^s1].
 
 ### Welke golflengte schrijf ik voor op een onbeschutte plek?
-De meest stralende die de situatie toelaat: korte golf is ongeveer 90% straling en direct warm; lange golf ongeveer 40% en het gevoeligst voor wind[^s2].
+De meest stralende die de situatie toelaat. Korte golf is ongeveer 90% straling en direct warm, terwijl lange golf ongeveer 40% is en het gevoeligst voor wind[^s2].
 
 ### Heeft een overdekt terras minder warmte nodig?
 Vaak wel, omdat de overkapping een warmtewolk vasthoudt die bij de stralingswarmte optelt[^s1]. Houd 30% van de omtrek open.
 
 ### Wat is het verschil tussen infrarood en straling?
-In de praktijk geen: straling is de manier waarop de warmte reist, infrarood is de straling zelf. Zie [infrarood- en stralingsverwarmers](https://www.bromic.com/blog/what-is-the-difference-between-an-infrared-heater-and-a-radiant-heater/) (Engelstalig).
+In de praktijk geen, want straling is de manier waarop de warmte reist en infrarood is de straling zelf. Zie [infrarood- en stralingsverwarmers](https://www.bromic.com/blog/what-is-the-difference-between-an-infrared-heater-and-a-radiant-heater/) (Engelstalig).
 
 De editie voor professionals van de Planning Guide bevat de volledige methode voor dimensioneren en voorschrijven.

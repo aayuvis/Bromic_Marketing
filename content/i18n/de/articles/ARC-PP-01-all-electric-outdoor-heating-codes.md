@@ -1,16 +1,16 @@
 ---
 id: ARC-PP-01
 type: article
-title: "Rein elektrische Außenheizung: was Elektrifizierungsvorschriften in den USA für Terrassen bedeuten"
+title: "Elektrische Heizstrahler und Vorschriften: was rein elektrische Regeln in den USA für Ihre Terrassenentwürfe bedeuten"
 audience: [ARC]
 stage: [PP]
 cell: ARC-PP
 asset: A24
-summary: "Die Elektrifizierungsregeln in den USA im Jahr 2026 aus Sicht der Planung (New York City, Bundesstaat New York, Kalifornien, Washington, die EPCA-Verfahren) und was sie für Gas-Terrassenheizstrahler bedeuten und was nicht."
+summary: "Die Elektrifizierungslandschaft in den USA im Jahr 2026 aus Sicht der Planung – New York City, Bundesstaat New York, Kalifornien, Washington und die EPCA-Verfahren – und was sie für Gas-Terrassenheizstrahler in Ihren Projekten bedeutet und was nicht."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Sind Gas-Terrassenheizstrahler unter Vorschriften für rein elektrische Gebäude erlaubt?"
-meta_description: "Sind Gas-Terrassenheizstrahler unter US-Vorschriften für rein elektrische Gebäude erlaubt? NYC LL154, Bundesstaat New York, California Title 24, Washington und die EPCA-Verfahren, für Architekten gelesen."
+meta_description: "Elektrische Heizstrahler und US-Vorschriften: NYC LL154, New York, Kalifornien Title 24, Washington, die EPCA-Verfahren und was sie für Gas bedeuten."
 cta: {label: "Den Leitfaden zur Elektrifizierung herunterladen", asset: A12}
 hero: l-009-061
 images: [l-010-073]
@@ -18,7 +18,7 @@ owner_review: Spezifikation und Compliance
 status: draft
 gated: false
 related: [ARC-IN-01, COM-PP-01, ARC-BY-01]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: de
 translation_of: ARC-PP-01
 translation_status: machine-draft
@@ -109,67 +109,66 @@ sources:
     supports: "Product coverage and controls; gas follows ANSI Z223.1/NFPA 54, electric NFPA 70"
     verified: true
 ---
-
 *Dieser Artikel ist eine allgemeine Information für Planungsteams, Stand 29. Oktober 2026. Er ist keine Rechtsberatung. Er beschreibt die Rechtslage in den USA; für Projekte in Deutschland gelten deutsche Vorschriften, die er nicht behandelt. Elektrifizierungsregeln ändern sich schnell und sind Gegenstand laufender Gerichtsverfahren. Klären Sie jedes Projekt mit der zuständigen Behörde, Ihrem Fachplaner für Vorschriften und einem zugelassenen Elektro- bzw. Gasinstallateur ab; in Deutschland sind das Bauamt, ein eingetragener Elektrofachbetrieb (DIN VDE 0100) und ein Gasinstallateur (DVGW-TRGI, TRF).* [[VERIFY: ob und wie deutsche Regeln (z. B. Gebäudeenergiegesetz, Landesrecht) Gas-Heizstrahler im Außenbereich betreffen — Partner Deutschland]]
 
-In den meisten Fällen nennen die geltenden US-Regeln für rein elektrische Gebäude Terrassenheizstrahler gar nicht. Sie beschränken die Verbrennung von Brennstoffen in erfassten Neubauten, und ein Gas-Heizstrahler, der an die Gasversorgung des Gebäudes angeschlossen ist, kann davon erfasst werden. Local Law 154 der Stadt New York ist der deutlichste Fall: Seine Ausnahme gilt nur für ein Gerät ohne Verbindung zur Gasversorgung des Gebäudes, das nur zeitweise genutzt wird und das Gebäude nicht beheizt[^s1]. Ein fest angeschlossener Gas-Terrassenheizstrahler an einem Neubau in New York ist deshalb angreifbar. Elektrische Strahlungswärme umgeht die Frage.
+Größtenteils nennen die geltenden US-Regeln für rein elektrische Gebäude Terrassenheizstrahler gar nicht. Sie beschränken die Verbrennung von Brennstoffen in erfassten Neubauten, und ein Gas-Heizstrahler, der an die Gasversorgung des Gebäudes angeschlossen ist, kann davon erfasst werden. Local Law 154 der Stadt New York ist der deutlichste Fall, denn seine Ausnahme gilt nur für ein Gerät ohne Verbindung zur Gasversorgung des Gebäudes, das nur zeitweise genutzt wird und das Gebäude nicht beheizt[^s1]. Ein fest angeschlossener Gas-Terrassenheizstrahler an einem Neubau in New York ist deshalb angreifbar, während Sie die Terrasse mit elektrischer Strahlungswärme so planen können, dass sich die Frage gar nicht erst stellt.
 
-![Terrasse mit Infinity-Pool und abgesenkter Lounge mit Blick aufs Meer](img:l-009-061)
+![Terrasse mit Infinity-Pool und abgesenkter Lounge mit Blick aufs Meer in der Abenddämmerung](img:l-009-061)
 
-## Welche Elektrifizierungsregeln zählen 2026 in den USA für die Außenheizung?
+## Die Elektrifizierungsregeln, die 2026 die Außenheizung in den USA prägen
 
 | Zuständigkeit | Regel | Stand Oktober 2026 | Was sie für einen Gas-Heizstrahler im Freien bedeutet |
 |---|---|---|---|
-| New York City | Local Law 154 von 2021: keine Verbrennung vor Ort über ca. 85 g CO2 je kWh Brennstoffenergie (im Gesetz: 25 kg CO2/MMBtu) in erfassten Neubauten[^s1] | In Kraft: Gebäude unter 7 Geschossen ab 2024, höhere ab 2027[^s3][^s2]. Vom Second Circuit am 30. Juni 2026 bestätigt[^s4] | Ein fest angeschlossener Heizstrahler fällt nicht unter die Ausnahme für mobile Geräte[^s1]. [[VERIFY: DOB position on piped exterior gas appliances on new buildings — Spezifikation und Compliance / code counsel]] |
-| Bundesstaat New York | All-Electric Buildings Act | Vollzug im November 2025 durch Vereinbarung bis zur Berufungsentscheidung ausgesetzt[^s5]; in der Berufung am 30. Juni 2026 bestätigt; die Aussetzung endet am 28. Oktober 2026, sofern kein Antrag beim Supreme Court gestellt wird[^s4] | [[VERIFY: whether a cert petition was filed and the new enforcement date — Spezifikation und Compliance / counsel]] |
-| New York City | Local Law 97 von 2019: Emissionsobergrenzen für die meisten Gebäude über ca. 2300 m², ab 2024, strenger ab 2030[^s11] | In Kraft | Vor Ort verbranntes Gas zählt zu den Emissionen eines erfassten Gebäudes. [[VERIFY: how exterior appliance gas on the building meter is counted under LL97 — code counsel]] |
+| New York City | Local Law 154 von 2021: keine Verbrennung vor Ort über ca. 85 g CO2 je kWh Brennstoffenergie (im Gesetz: 25 kg CO2/MMBtu) in erfassten Neubauten[^s1] | In Kraft: Gebäude unter 7 Geschossen ab 2024, höhere ab 2027[^s3][^s2]. Vom Second Circuit am 30. Juni 2026 bestätigt[^s4] | Ein fest angeschlossener Heizstrahler fällt nicht unter die Ausnahme für mobile Geräte[^s1]. [[VERIFY: Haltung des DOB zu fest angeschlossenen Gasgeräten im Außenbereich an Neubauten — Spezifikation und Compliance / Rechtsberatung]] |
+| Bundesstaat New York | All-Electric Buildings Act | Vollzug im November 2025 durch Vereinbarung bis zur Berufungsentscheidung ausgesetzt[^s5]; in der Berufung am 30. Juni 2026 bestätigt; die Aussetzung endet am 28. Oktober 2026, sofern kein Antrag beim Supreme Court gestellt wird[^s4] | [[VERIFY: ob ein Antrag beim Supreme Court gestellt wurde und ab wann neu vollzogen wird — Spezifikation und Compliance / Rechtsberatung]] |
+| New York City | Local Law 97 von 2019: Emissionsobergrenzen für die meisten Gebäude über ca. 2300 m², ab 2024, strenger ab 2030[^s11] | In Kraft | Vor Ort verbranntes Gas zählt zu den Emissionen eines erfassten Gebäudes. [[VERIFY: wie Gas für Außengeräte über den Gaszähler des Gebäudes unter LL97 angerechnet wird — Rechtsberatung]] |
 | Kalifornien | Energy Code 2025 (Title 24, Part 6), gültig ab 1. Januar 2026: Wärmepumpen als Standard für Raumheizung und Warmwasser[^s8] | In Kraft | Kein Gasverbot. Er regelt die Anlagen des Gebäudes; Gasgeräte im Freien verbietet er als solche nicht |
 | Berkeley, Kalifornien | Verbot von Gasleitungen in Neubauten | Aufgehoben: Vorrang des Bundesrechts (EPCA), Ninth Circuit, 17. April 2023[^s6]; erneute Verhandlung am 2. Januar 2024 abgelehnt[^s7] | Städte im Bezirk des Ninth Circuit können sich nicht auf ein Leitungsverbot nach Berkeleys Muster stützen. Örtliche Zusatzvorschriften können Elektro dennoch bevorzugen |
 | Südkalifornien (SCAQMD) | Null-NOx-Regeln für große Gas-Warmwasserbereiter und Kessel | Vom Ninth Circuit am 2. Juli 2026 bestätigt[^s4] | Keine Regel für Terrassenheizstrahler, zeigt aber, dass der Weg über Luftreinhaltebehörden weiter offensteht |
 | Washington | Initiative 2066 (sollte die Gasnutzung schützen) | Vom Washington Supreme Court am 17. September 2026 vollständig aufgehoben[^s9] | Die Politik des Bundesstaats zum Ausstieg aus Gas läuft weiter |
 | Washington | State Energy Code (gewerblich) C403.11.1 | In Kraft | Wärme im Freien muss Strahlungswärme sein und über Präsenzmelder oder Zeitschaltung abschalten[^s10]. Gilt für Gas und Elektro |
 
-## Sind Gas-Terrassenheizstrahler verboten?
+## Wo Gas-Terrassenheizstrahler heute stehen
 
-Als Kategorie nirgends, wo wir gesucht haben. Was es gibt, ist enger gefasst und eher ein Planungsrisiko als ein Verbot:
+Wir haben nirgends eine Regel gefunden, die Gas-Terrassenheizstrahler als Kategorie verbietet. Was es gibt, ist enger gefasst und lässt sich besser als Planungsrisiko denn als Verbot verstehen:
 
 - **Verbote der Brennstoffnutzung in Neubauten** (NYC LL154, NYS AEBA) können einen Heizstrahler erfassen, der an das Gassystem des Gebäudes angeschlossen ist[^s1][^s5].
 - **Emissionsobergrenzen für bestehende große Gebäude** (NYC LL97) rechnen jede vor Ort verbrannte Kilowattstunde Gas dem Eigentümer an[^s11].
-- **Energievorschriften** legen fest, wie Wärme im Freien abgegeben und gesteuert wird (Strahlung, automatische Abschaltung), unabhängig vom Energieträger[^s10].
-- **Brandschutzvorschriften** regeln in vielen Städten gesondert mobile Propanflaschen. [[VERIFY: FDNY and other fire-code rules on portable propane heaters for commercial patios — Spezifikation und Compliance]]
+- **Energievorschriften** legen fest, wie Wärme im Freien abgegeben und gesteuert wird (Strahlung, mit automatischer Abschaltung), unabhängig vom Energieträger[^s10].
+- **Brandschutzvorschriften** regeln in vielen Städten gesondert mobile Propanflaschen. [[VERIFY: Regeln der FDNY und anderer Brandschutzvorschriften für mobile Propan-Heizstrahler auf gewerblichen Terrassen — Spezifikation und Compliance]]
 
-Auch die Rechtslage ist ungeklärt. Der Ninth Circuit las das Bundesgesetz über Geräte (EPCA) so, dass es Berkeleys Verbot verdrängt[^s6]; der Second Circuit las es für New York umgekehrt[^s4]. Fachkommentatoren erwarten eine Überprüfung durch den Supreme Court. Eine Gasplanung, die heute zulässig ist, muss womöglich vor der Fertigstellung umgeplant werden.
+Auch der rechtliche Boden ist noch in Bewegung. Der Ninth Circuit las das Bundesgesetz über Geräte (EPCA) so, dass es Berkeleys Verbot verdrängt[^s6], während der Second Circuit es für New York umgekehrt las[^s4], und Fachkommentatoren erwarten eine Überprüfung durch den Supreme Court. Eine Gasplanung, die heute zulässig ist, muss womöglich vor der Fertigstellung dennoch umgeplant werden.
 
-## Was bedeutet das für das Planungsteam?
+## Von der ersten Skizze an sicher planen
 
-Das Risiko ist nicht der Heizstrahler, sondern die späte Erkenntnis: Gas wird im Vorentwurf geplant und dann von der Behörde, einer ESG-Auflage der Bank oder dem eigenen Klimaziel des Bauherrn gestoppt. Gasleitung, Zählerkapazität und Montagedetails ändern sich dann in der Ausführungsplanung oder, schlimmer, danach.
+Für das Planungsteam liegt das eigentliche Risiko darin, das Problem spät zu entdecken. Gas, das im Vorentwurf geplant wird, kann von der Behörde, einer ESG-Auflage der finanzierenden Bank oder dem eigenen Klimaziel des Bauherrn gestoppt werden, und Gasleitung, Zählerkapazität und Montagedetails ändern sich dann in der Ausführungsplanung oder erst danach.
 
-![Weiße Veranda-Lounge mit weißen Heizstrahlern und Meerblick](img:l-010-073)
+![Weiße Veranda-Lounge mit weißen Heizstrahlern und ruhigem Meerblick](img:l-010-073)
 
-Elektrische Strahlungswärme beseitigt diese Abhängigkeit. Sie läuft über die Stromkreise, die ein rein elektrisches Gebäude ohnehin hat, sie ist Strahlungswärme, wie es Energievorschriften für die Wärme im Freien verlangen, und ihre Steuerung bietet die automatische Abschaltung, die diese Vorschriften fordern[^s10].
+Elektrische Strahlungswärme beseitigt diese Abhängigkeit. Sie läuft über die Stromkreise, die ein rein elektrisches Gebäude ohnehin hat, sie liefert die Strahlungswärme, die Energievorschriften für die Wärme im Freien verlangen, und ihre Steuerung bietet die automatische Abschaltung, die diese Vorschriften fordern[^s10].
 
 | | Elektrische Strahlungswärme (Bromic) | Fest angeschlossenes Gas |
 |---|---|---|
 | Regeln für rein elektrische Neubauten (NYC, NYS) | Von vornherein konform | Angreifbar, sofern keine Ausnahme greift[^s1] |
-| Emissionen vor Ort unter Obergrenzen (NYC LL97) | Keine Verbrennung vor Ort; Strom wird mit dem Netzfaktor der Stadt angerechnet [[VERIFY: LL97 electricity coefficient applies — code counsel]] | Wird angerechnet[^s11] |
+| Emissionen vor Ort unter Obergrenzen (NYC LL97) | Keine Verbrennung vor Ort; Strom wird mit dem Netzfaktor der Stadt angerechnet [[VERIFY: ob der LL97-Koeffizient für Strom gilt — Rechtsberatung]] | Wird angerechnet[^s11] |
 | Steuerung nach Energievorschrift | Affinity-Steuerung mit Zeitplänen und Timern | Braucht eigenen Timer oder Melder |
 | Abzustimmende Gewerke | Stromkreise, Steuerung | Gasleitungen, Zählerkapazität, Abstände nach NFPA 54 (USA)[^s12] |
 
-## Welche Bromic-Produkte machen Elektro zum Standard?
+## Bromic Elektro-Heizstrahler für jeden Ort
 
-- **Überdachte Terrassen und Untersichten:** Platinum Smart-Heat Electric, 2300 W, 3400 W oder 4500 W, ca. 6–13 m², eingelassen, an Decke oder Wand[^s12].
-- **Architektonischer Einbau, Küstenlagen:** Tungsten Smart-Heat Electric Select und Coastal (demnächst erhältlich), ca. 6–13 m², Einbau bei geringer Einbautiefe[^s12].
-- **Offene Terrassen und Pergolen:** Eclipse Smart-Heat Electric, ca. 11 m², an der Stange montiert, mit dimmbarem Ringlicht; Eclipse Freestanding, wo sich nichts befestigen lässt[^s12].
+- **Überdachte Terrassen und Untersichten.** Platinum Smart-Heat® Electric, 2300 W, 3400 W oder 4500 W, ca. 6–13 m², eingelassen, an Decke oder Wand[^s12].
+- **Architektonischer Einbau und Küstenlagen.** Tungsten Smart-Heat® Electric Select und Coastal (demnächst erhältlich), ca. 6–13 m², mit Einbau bei geringer Einbautiefe[^s12].
+- **Offene Terrassen und Pergolen.** Eclipse Smart-Heat® Electric, ca. 11 m², an der Stange montiert, mit dimmbarem Ringlicht, und Eclipse Freestanding, wo sich nichts befestigen lässt[^s12].
 
-Jedes Produkt braucht seine Steuerung: ein Affinity Smart-Heat On/Off-, Dimmer- oder Eclipse-Steuergerät, einen Wandschalter und die Bromic Smart-Heat App für Zeitpläne und Timer. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind[^s12].
+Jeder kommt mit seiner Affinity Smart-Heat® Steuerung: einem On/Off-, Dimmer- oder Eclipse-Steuergerät, einem Wandschalter und der Bromic Smart-Heat App für Zeitpläne und Timer. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind[^s12].
 
 ## Das Wichtigste in Kürze
 
-- Keine Regel, die wir gefunden haben, verbietet Gas-Terrassenheizstrahler namentlich. Verbote der Brennstoffnutzung in Neubauten können einen fest angeschlossenen Heizstrahler trotzdem erfassen[^s1].
-- NYC LL154 ist in Kraft und wurde am 30. Juni 2026 in der Berufung bestätigt[^s4]. Der Starttermin für den Bundesstaat New York steht noch aus[^s5].
-- Kaliforniens Vorschrift von 2025 bevorzugt Wärmepumpen, ist aber kein Gasverbot[^s8]; Berkeleys Leitungsverbot scheiterte am EPCA[^s6].
+- Keine Regel, die wir gefunden haben, verbietet Gas-Terrassenheizstrahler namentlich, doch Verbote der Brennstoffnutzung in Neubauten können einen fest angeschlossenen Heizstrahler trotzdem erfassen[^s1].
+- NYC LL154 ist in Kraft und wurde am 30. Juni 2026 in der Berufung bestätigt[^s4], während der Starttermin für den Bundesstaat New York noch aussteht[^s5].
+- Kaliforniens Vorschrift von 2025 bevorzugt Wärmepumpen, ohne Gas zu verbieten[^s8], und Berkeleys Leitungsverbot scheiterte am EPCA[^s6].
 - Washington verlangt, dass Wärme im Freien Strahlungswärme mit automatischer Abschaltung ist[^s10].
-- Wer elektrische Strahlungswärme schon im Vorentwurf plant, beseitigt ein Umplanungsrisiko.
+- Wer elektrische Strahlungswärme schon im Vorentwurf spezifiziert, beseitigt ein Umplanungsrisiko.
 
 ## FAQ
 
@@ -177,7 +176,7 @@ Jedes Produkt braucht seine Steuerung: ein Affinity Smart-Heat On/Off-, Dimmer- 
 In den USA oft nicht, wenn sie in einem erfassten Neubau an die Gasversorgung des Gebäudes angeschlossen sind. Die Ausnahme in NYC LL154 gilt nur für nicht angeschlossene, zeitweise genutzte Geräte, die das Gebäude nicht beheizen[^s1]. Klären Sie das mit der zuständigen Behörde ab.
 
 ### Verbietet Kalifornien Gas-Terrassenheizstrahler?
-Der Energy Code 2025 nicht. Er setzt Wärmepumpen als Standard für Raumheizung und Warmwasser in Neubauten[^s8]. Manche Städte erlassen Zusatzvorschriften; prüfen Sie das vor Ort.
+Der Energy Code 2025 nicht. Er setzt Wärmepumpen als Standard für Raumheizung und Warmwasser in Neubauten[^s8], und manche Städte erlassen Zusatzvorschriften; prüfen Sie das daher vor Ort.
 
 ### Was wurde aus Berkeleys Gasverbot?
 Der Ninth Circuit entschied 2023, dass der EPCA es verdrängt, und lehnte 2024 eine erneute Verhandlung ab[^s6][^s7]. Der Second Circuit kam 2026 für New York zum gegenteiligen Ergebnis[^s4].

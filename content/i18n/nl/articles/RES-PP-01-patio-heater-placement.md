@@ -1,16 +1,16 @@
 ---
 id: RES-PP-01
 type: article
-title: "Waar plaats je terrasverwarmers: hoogte, onderlinge afstand en vrije ruimte"
+title: "Terrasverwarmers plaatsen: hoogte, onderlinge afstand en vrije ruimte voor warmte waar je gasten zitten"
 audience: [RES]
 stage: [PP]
 cell: RES-PP
 asset: A24
-summary: "Hoe hoog je een buitenverwarmer monteert, hoe je er meerdere zo verdeelt dat hun verwarmd oppervlak boven de zitplekken overlapt, en wat afstand tot brandbare materialen betekent, voordat de boor tevoorschijn komt."
+summary: "Hoe hoog je een buitenverwarmer monteert, hoe je er meerdere zo verdeelt dat hun warmte boven elke stoel samenkomt, en wat afstand tot brandbare materialen betekent voor je ontwerp, allemaal geregeld voordat het eerste gat wordt geboord."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe hoog moet ik een buitenverwarmer monteren?"
-meta_description: "Richtlijn van Bromic: buitenverwarmers aan de wand minstens 1,8 m boven de vloer, aan het plafond minstens 2,4 m. Zo verdeel, richt en plaats je ze met voldoende vrije ruimte."
+meta_description: "Terrasverwarmers plaatsen volgens Bromic: aan de wand minstens 1,8 m hoog, aan het plafond minstens 2,4 m, verdeeld en gericht zodat elke stoel warm is."
 cta: {label: "Plan een ontwerpgesprek", asset: A07}
 hero: l-010-070
 images: [l-010-075, l-005-022]
@@ -18,7 +18,7 @@ owner_review: marketing
 status: draft
 gated: false
 related: [RES-CO-01, RES-BY-01, RES-PP-KB1, ARC-PP-01]
-updated: 2026-10-30
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -47,9 +47,9 @@ translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 ---
 
-De richtlijn van Bromic is om een elektrische buitenverwarmer aan de wand minstens 1,8 m boven de vloer te monteren, en aan het plafond minstens 2,4 m.[^s1] Dat zijn minimumwaarden; de juiste hoogte voor jouw verwarmer hangt af van het vermogen. De installatiehandleiding van je model geeft het exacte cijfer, samen met de vrije ruimte die hij nodig heeft tot het plafond en tot alles wat kan branden.[^s1] Binnen die grenzen plaats je de verwarmers zo dat de warmte terechtkomt op de mensen die zitten, niet op de vloer voor hen.
+De richtlijn van Bromic is om een elektrische buitenverwarmer aan de wand minstens 1,8 m boven de vloer te monteren, en aan het plafond minstens 2,4 m.[^s1] Dat zijn minimumwaarden. De juiste hoogte voor je verwarmer hangt af van het vermogen, en de installatiehandleiding van je model geeft het exacte cijfer, samen met de vrije ruimte die hij nodig heeft tot het plafond en tot alles wat kan branden.[^s1] Binnen die grenzen plaats je elke verwarmer zo dat de warmte valt op de mensen rond de tafel, en niet op de vloer voor hen.
 
-## Hoe hoog moet ik een buitenverwarmer monteren?
+## De juiste hoogte vinden
 
 | Montage | Minimum volgens Bromic (vloer tot verwarmer) | Wat het verandert |
 |---|---|---|
@@ -59,81 +59,81 @@ De richtlijn van Bromic is om een elektrische buitenverwarmer aan de wand minste
 | Eclipse aan een pendel | Volgens de installatiehandleiding [[VERIFY: montagehoogte van de Eclipse en keuze van de pendel — productteam]] | Pendel: enkel van ca. 200, 610 of 1220 mm, dubbel of gebogen[^s2] |
 | Tungsten Freestanding Gas | Vrijstaand; geen montagehoogte | Afstand tot brandbare materialen en vrije ruimte erboven, volgens de handleiding [[VERIFY — productteam]] |
 
-Hoger is niet vanzelf beter. Het verwarmd oppervlak hangt af van de montagehoogte, en ook van het model, de omgeving en de installatie.[^s2] Te hoog en er komt minder warmte bij de zitplekken; te laag en de verwarmer komt onder zijn minimum. Bij een hoog plafond brengen pendels Platinum- en Tungsten Electric-verwarmers naar een effectieve hoogte.[^s1]
+Een hoger gemonteerde verwarmer is niet altijd een warmere. Het verwarmd oppervlak hangt af van de montagehoogte, en ook van het model, de omgeving en de installatie.[^s2] Hang hem te hoog en er komt minder warmte bij je zitplekken; hang hem te laag en hij komt onder zijn minimum. Bij een hoog plafond brengen pendels Platinum- en Tungsten Electric-verwarmers naar een effectieve hoogte.[^s1]
 
-In Nederland volgt de elektrische installatie NEN 1010 en de gasinstallatie NEN 1078; de richtlijn van Bromic verwijst naar de Amerikaanse tegenhangers, ANSI/NFPA 70 en ANSI Z223.1/NFPA 54.[^s1] De eisen kunnen per gemeente verschillen: vraag ze na bij je gemeente en laat het werk doen door een vakbekwaam elektrotechnisch installateur of gasinstallateur.
+In Nederland volgt de elektrische installatie NEN 1010 en de gasinstallatie NEN 1078; de richtlijn van Bromic verwijst naar de Amerikaanse tegenhangers, ANSI/NFPA 70 en ANSI Z223.1/NFPA 54.[^s1] De eisen kunnen per gemeente verschillen, dus vraag ze na bij je gemeente en laat het werk doen door een vakbekwaam elektrotechnisch installateur of gasinstallateur.
 
-![In het plafond ingebouwde verwarmers in een minimalistisch glazen paviljoen](img:l-010-075)
+![In het plafond ingebouwde verwarmers verwarmen een minimalistisch glazen paviljoen](img:l-010-075)
 
-## Waar moeten verwarmers op gericht zijn?
+## De warmte op je gasten richten
 
-Op de zitplekken. Bromic-verwarmers zijn gericht: het grootste deel van hun warmte gaat één kant op.[^s1] Drie regels:
+Elke Bromic-verwarmer is gericht en stuurt het grootste deel van zijn warmte één kant op, dus hij moet altijd naar de zitplekken wijzen.[^s1] Een paar principes houden iedereen comfortabel:
 
-- **Richt op schouders en schoot**, niet op het tafelblad of het midden van de vloer.
-- **Houd het zicht vrij.** Infrarood gaat in rechte lijnen; een parasol, balk of plantenbak tussen verwarmer en gast werpt een koude schaduw.
-- **Verwarm van twee kanten** bij lange tafels of brede loungehoeken, zodat niemand een koude rug heeft.
+- **Richt op schouders en schoot**, in plaats van op het tafelblad of het midden van de vloer.
+- **Houd het zicht vrij.** Infrarood gaat in rechte lijnen, dus een parasol, balk of plantenbak tussen verwarmer en gast werpt een koude schaduw.
+- **Verwarm lange tafels en brede loungehoeken van twee kanten**, zodat niemand met een koude rug blijft zitten.
 
-Wandverwarmers stralen schuin naar beneden over de ruimte; plafond- en inbouwverwarmers stralen recht naar beneden. Kies de montage die de zitplekken bereikt, en pas daarna de uitstraling.
+Wandverwarmers sturen hun warmte schuin naar beneden over de ruimte, terwijl plafond- en inbouwverwarmers haar van bovenaf over de zitplekken laten neerdalen. Kies eerst de montage die je gasten bereikt, en daarna de uitstraling die bij je buitenruimte past.
 
-## Hoe ver moeten terrasverwarmers uit elkaar hangen?
+## Verwarmers zo verdelen dat elke stoel warm is
 
-Verdeel ze zo dat hun verwarmde oppervlakken boven de zitplekken op elkaar aansluiten en een beetje overlappen: geen koude naden tussen de stoelen. Begin bij het verwarmd oppervlak van elke verwarmer:
+Verdeel je verwarmers zo dat hun verwarmde oppervlakken boven de zitplekken op elkaar aansluiten en een beetje overlappen, zonder koude naden tussen de stoelen. Het verwarmd oppervlak van elke verwarmer is je beginpunt:
 
 | Verwarmer | Verwarmd oppervlak per verwarmer, ongeveer[^s2] |
 |---|---|
 | Platinum Smart-Heat Electric (2300/3400/4500 W) | 6–13 m² |
-| Tungsten Smart-Heat Electric, Coastal en Select (binnenkort beschikbaar) | 6–13 m² |
+| Tungsten Smart-Heat Electric, Coastal en Select (binnenkort leverbaar) | 6–13 m² |
 | Eclipse Smart-Heat Electric / Freestanding Electric | 11 m² |
 | Tungsten Smart-Heat Freestanding Gas | 20 m² |
 
-Een rekenvoorbeeld: een eetterras van ca. 7,3 × 3 m is ca. 22 m². Reken het aantal verwarmers als oppervlak ÷ (verwarmd oppervlak × overkappingsfactor × klimaatfactor), naar boven afgerond; voor een gedeeltelijk overdekt terras op koele avonden komen de twee factoren uit op 1,0 × 0,85 = 0,85 (een open locatie is 0,85 voor de overkapping, een dicht dak 1,1; milde avonden 1,0, koude 0,7). [[VERIFY: factoren voor overkapping en klimaat — productteam]] Platinum 4500 W: 22 ÷ (13,3 × 0,85) = 2,0, dus twee; Platinum 3400 W: 22 ÷ (10 × 0,85) = 2,6, dus drie. Hang ze langs de lange zijde, elk gecentreerd boven een deel van de tafel, met overlappende randen, elk met een Affinity Smart-Heat On/Off- of Dimmer-regelaar en een wandschakelaar. Een vrijstaande verwarmer bedient hoogstens vier zitplaatsen, omdat gasten zijn stralingswarmte afschermen: bij ongeveer 1,9 m² per zitplaats is 22 m² goed voor 12 zitplaatsen, dus drie Tungsten Freestanding Gas-verwarmers. [[VERIFY: aanbevolen hart-op-hartafstand per model en montagehoogte — productteam]] [[DIAGRAM: bovenaanzicht van een terras van ca. 7,3 × 3 m met twee en drie wandverwarmers, met overlappend verwarmd oppervlak boven de tafel]]
+Neem als rekenvoorbeeld een eetterras van ca. 7,3 × 3 m, ongeveer 22 m². Reken het aantal verwarmers als oppervlak ÷ (verwarmd oppervlak × overkappingsfactor × klimaatfactor), naar boven afgerond; voor een gedeeltelijk overdekt terras op koele avonden komen de twee factoren uit op 1,0 × 0,85 = 0,85 (een open locatie is 0,85 voor de overkapping, een dicht dak 1,1; milde avonden 1,0, koude 0,7). [[VERIFY: factoren voor overkapping en klimaat — productteam]] Met Platinum 4500 W geeft 22 ÷ (13,3 × 0,85) = 2,0, dus plan je er twee; met Platinum 3400 W geeft 22 ÷ (10 × 0,85) = 2,6, dus drie. Hang ze langs de lange zijde, elk gecentreerd boven zijn eigen deel van de tafel met overlappende randen, en geef elk zijn Affinity Smart-Heat® On/Off- of Dimmer-regelaar en een wandschakelaar. Een vrijstaande verwarmer bedient hoogstens vier zitplaatsen, omdat gasten zijn stralingswarmte afschermen. Bij ongeveer 1,9 m² per zitplaats biedt 22 m² plek aan 12 mensen, en dat vraagt om drie Tungsten Freestanding Gas-verwarmers. [[VERIFY: aanbevolen hart-op-hartafstand per model en montagehoogte — productteam]] [[DIAGRAM: bovenaanzicht van een terras van ca. 7,3 × 3 m met twee en drie wandverwarmers, met overlappend verwarmd oppervlak boven de tafel]]
 
-Voor het exacte aantal geeft [elektrisch of gas](item:RES-CO-01) een snelle rekenmethode, en de Bromic-calculator verfijnt die.
+Voor het exacte aantal biedt onze gids over [elektrisch of gas](item:RES-CO-01) een snelle rekenmethode, en de calculator van Bromic verfijnt die voor jouw ruimte.
 
-## Wat is afstand tot brandbare materialen?
+## Afstand tot brandbare materialen begrijpen
 
-De minimale afstand tussen een verwarmer en alles wat kan branden: houten plafonds, overstekken, pergolabalken, zonneschermen, gordijnen, kussens. De installatiehandleiding van elk model geeft de vrije afstanden boven, naast en voor de verwarmer; de vrije ruimte tot het plafond hangt af van het vermogen.[^s1] [[VERIFY: tabel met afstanden tot brandbare materialen per model — productteam]]
+Afstand tot brandbare materialen is de minimale afstand tussen een verwarmer en alles wat kan branden, van houten plafonds, overstekken en pergolabalken tot zonneschermen, gordijnen en kussens. De installatiehandleiding van elk model geeft de vrije afstanden boven, naast en voor de verwarmer, en de vrije ruimte tot het plafond hangt af van het vermogen.[^s1] [[VERIFY: tabel met afstanden tot brandbare materialen per model — productteam]]
 
-Zo werk je erbinnen:
+Er zijn verschillende elegante manieren om daarbinnen te ontwerpen:
 
-- **Gasverwarmers:** dubbelwandige roestvaststalen warmtedeflectors verkleinen de benodigde vrije ruimte boven de verwarmer; met plafondpendels monteer je twee toestellen rug aan rug onder vlakke of schuine plafonds.[^s1]
-- **Elektrische verwarmers:** met inbouwkits worden Platinum en Tungsten Electric vlak in een dakholte gebouwd, volgens de inbouwafstanden in de handleiding.[^s1] De Tungsten-collecties die binnenkort beschikbaar zijn, voegen inbouw met geringe inbouwhoogte toe.[^s2]
-- **Textiel en kussens:** houd stoffen, parasols en kussens uit de stralingsrichting. Als algemene richtlijn voor verwarming in huis adviseert de Amerikaanse NFPA om alles wat kan branden minstens ongeveer 0,9 m van verwarmingstoestellen te houden.[^s3] [[VERIFY: formulering van de NFPA-tip; afstanden voor een specifieke verwarmer komen uit de handleiding — marketing]]
+- **Bij gasverwarmers** verkleinen dubbelwandige roestvaststalen warmtedeflectors de benodigde vrije ruimte boven de verwarmer, en met plafondpendels monteer je twee toestellen rug aan rug onder vlakke of schuine plafonds.[^s1]
+- **Bij elektrische verwarmers** bouwen inbouwkits Platinum en Tungsten Electric vlak in een dakholte in, volgens de inbouwafstanden in de handleiding.[^s1] De Tungsten-collecties die binnenkort leverbaar zijn, voegen inbouw met weinig vrije ruimte toe.[^s2]
+- **Rond textiel en kussens** houd je stoffen, parasols en kussens uit de stralingsrichting. Als algemene richtlijn voor verwarming in huis adviseert de Amerikaanse NFPA om alles wat kan branden minstens ongeveer 0,9 m van verwarmingstoestellen te houden.[^s3] [[VERIFY: formulering van de NFPA-tip; afstanden voor een specifieke verwarmer komen uit de handleiding — marketing]]
 
-![Tungsten Coastal vlak ingebouwd in een wit plafond](img:l-005-022)
+![Tungsten Coastal (binnenkort leverbaar), vlak ingebouwd in een wit plafond](img:l-005-022)
 
-## Verandert een overdekt terras de plaatsing?
+## Hoe een overdekt terras helpt
 
-Het helpt. Een gedeeltelijke overkapping houdt een 'warmtewolk' boven de zitplekken vast die er een convectief extraatje bij geeft.[^s1] De ruimte moet nog wel als buitenruimte gelden (minstens 30% van de omtrek permanent open) en de verwarmer moet de afstand tot het plafond aanhouden die zijn handleiding voorschrijft.[^s1] Zie [mag een terrasverwarmer onder een overkapping](item:RES-PP-KB1).
+Een gedeeltelijke overkapping werkt in je voordeel: ze houdt een "warmtewolk" boven de zitplekken vast die er een zacht convectief extraatje bij geeft.[^s1] De ruimte moet nog wel als buitenruimte gelden, met minstens 30% van de omtrek permanent open, en de verwarmer moet de afstand tot het plafond aanhouden die zijn handleiding voorschrijft.[^s1] Ons antwoord op [mag een terrasverwarmer onder een overkapping](item:RES-PP-KB1) legt meer uit.
 
-## Checklist voor de planning
+## Voordat het eerste gat wordt geboord
 
-- Markeer waar mensen gaan zitten; daar moet de warmte naartoe.
-- Bepaal het montagevlak: wand, plafond, inbouwholte of pendel.
-- Controleer de minimale hoogtes: 1,8 m aan de wand, 2,4 m aan het plafond (richtlijn van Bromic), en daarna de handleiding van het model.[^s1]
+- Markeer waar mensen gaan zitten, want daar moet de warmte terechtkomen.
+- Bepaal het montagevlak, of dat nu een wand, plafond, inbouwholte of pendel is.
+- Controleer de minimale hoogtes van 1,8 m aan de wand en 2,4 m aan het plafond (richtlijn van Bromic), en daarna de handleiding van het model.[^s1]
 - Controleer in de handleiding de afstanden tot plafonds, balken, zonneschermen en stoffen.
-- Verdeel de verwarmers zo dat het verwarmd oppervlak boven de zitplekken overlapt.
-- Plan de bediening samen met de bekabeling: een Affinity Smart-Heat On/Off-, Dimmer- of Eclipse-regelaar, of een wandschakelaar; zones en schema's in de app vragen compatibele Affinity-bediening, die apart wordt verkocht.[^s2] Zie [Smart-Heat-bediening instellen](item:RES-BY-01).
+- Verdeel de verwarmers zo dat hun verwarmd oppervlak boven de zitplekken overlapt.
+- Plan de bediening samen met de bekabeling, met een Affinity Smart-Heat® On/Off-, Dimmer- of Eclipse-regelaar, of een wandschakelaar; zones en schema's in de app vragen om compatibele Affinity-bediening, die apart wordt verkocht.[^s2] Onze gids over [de Smart-Heat-bediening instellen](item:RES-BY-01) neemt je erdoorheen.
 - Vraag de eisen na bij je gemeente en bij een vakbekwaam elektrotechnisch installateur of gasinstallateur.
 
-## FAQ
+## Veelgestelde vragen
 
 ### Wat is de minimale hoogte voor een terrasverwarmer aan de wand?
-Volgens de richtlijn van Bromic minstens 1,8 m boven de vloer; de installatiehandleiding van het model geeft het exacte cijfer voor het vermogen.[^s1]
+Volgens de richtlijn van Bromic minstens 1,8 m boven de vloer, en de installatiehandleiding van het model geeft het exacte cijfer voor het vermogen.[^s1]
 
 ### Hoe hoog moet een terrasverwarmer aan het plafond hangen?
 Minstens 2,4 m boven de vloer, met een vrije ruimte tot het plafond die afhangt van het vermogen.[^s1]
 
 ### Kan ik een terrasverwarmer onder een houten pergola monteren?
-Vaak wel, als de verwarmer de afstand tot brandbare materialen haalt. Inbouwkits, pendels en (bij gas) warmtedeflectors helpen; de handleiding is leidend.[^s1]
+Vaak wel, mits de verwarmer de afstand tot brandbare materialen haalt. Inbouwkits, pendels en bij gas ook warmtedeflectors helpen, en de handleiding is altijd leidend.[^s1]
 
 ### Hoeveel verwarmers voor een terras van 6 × 3,7 m?
-Ca. 22 m², gedeeltelijk overdekt, koele avonden: twee Platinum 4500 W-verwarmers (22 ÷ (13,3 × 0,85) = 2,0) of drie van 3400 W (22 ÷ (10 × 0,85) = 2,6), met Affinity Smart-Heat On/Off- of Dimmer-bediening en een wandschakelaar.[^s2] Bij vrijstaand gas bepalen de zitplaatsen het aantal, niet het oppervlak: bij ongeveer 1,9 m² per zitplaats zijn dat 12 zitplaatsen, en met hoogstens vier zitplaatsen per verwarmer drie Tungsten Freestanding Gas-verwarmers. Een open, winderige of koudere plek kan één hangende verwarmer extra nodig hebben.
+Voor ongeveer 22 m², gedeeltelijk overdekt en gebruikt op koele avonden, plan je twee Platinum 4500 W-verwarmers (22 ÷ (13,3 × 0,85) = 2,0) of drie van 3400 W (22 ÷ (10 × 0,85) = 2,6), elk met Affinity Smart-Heat On/Off- of Dimmer-bediening en een wandschakelaar.[^s2] Vrijstaand gas reken je op zitplaatsen in plaats van op oppervlak. Bij ongeveer 1,9 m² per zitplaats biedt het terras 12 zitplaatsen, en met hoogstens vier zitplaatsen per verwarmer betekent dat drie Tungsten Freestanding Gas-verwarmers. Een open, winderige of koudere plek kan één hangende verwarmer extra nodig hebben.
 
 ### Moeten verwarmers naar elkaar toe gericht zijn?
-Bij brede ruimtes houdt verwarmen van twee kanten iedereen warm. Laat het verwarmd oppervlak boven de zitplekken overlappen in plaats van het op één plek te verdubbelen.
+Bij brede ruimtes houdt verwarmen van twee kanten iedereen comfortabel. Laat het verwarmd oppervlak boven de zitplekken overlappen, in plaats van het op één plek te verdubbelen.
 
 ### Kan Bromic de indeling voor me maken?
-Ja. De gratis ontwerpservice adviseert over verwarmers, plaatsing en verwarmd oppervlak op basis van je foto's, plattegronden of tekeningen.[^s2] [[VERIFY: of de ontwerpservice in Nederland gratis is — Bromic Benelux distributor]]
+Ja. Onze gratis ontwerpservice adviseert over verwarmers, plaatsing en verwarmd oppervlak op basis van je foto's, plattegronden of tekeningen.[^s2] [[VERIFY: of de ontwerpservice in Nederland gratis is — Bromic Benelux distributor]]
 
-Stuur je plattegrond op en krijg een indeling van een ontwerpspecialist van Bromic: plan een ontwerpgesprek.
+Deel je plannen met een ontwerpspecialist van Bromic en ontvang een indeling van verwarmers die is afgestemd op jouw ruimte – plan een ontwerpgesprek.

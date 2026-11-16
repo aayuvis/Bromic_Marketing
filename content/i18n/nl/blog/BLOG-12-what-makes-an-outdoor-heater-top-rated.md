@@ -7,11 +7,11 @@ audience: [RES]
 stage: [CO]
 cell: RES-CO
 asset: A24
-summary: "Zeven dingen die een topklasse buitenverwarmer onderscheiden van een hete doos aan een beugel, wat je per punt op het specificatieblad controleert, en hoe het Bromic-assortiment met de Affinity-bediening scoort."
+summary: "De zeven eigenschappen die een topklasse buitenverwarmer onderscheiden, wat je per punt op het specificatieblad controleert, en hoe het Bromic-assortiment en de Affinity-bediening daarop zijn ontworpen."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
-ai_prompt: "Waar moet ik op letten bij een goed beoordeelde buitenverwarmer?"
-meta_description: "Wat een buitenverwarmer topklasse maakt: verwarmd oppervlak, bouwkwaliteit, keurmerken, garantie, montage, bediening en ontwerp. Wat je op het specificatieblad controleert."
+ai_prompt: "Waar moet ik op letten bij een topklasse buitenverwarmer?"
+meta_description: "Wat een buitenverwarmer topklasse maakt: verwarmd oppervlak, bouwkwaliteit, keurmerken, garantie, montage, bediening en ontwerp – en wat je op het specificatieblad controleert."
 cta: {label: "Bereken je ruimte", asset: A03}
 hero: w-eclispe-1
 images: [w-bromic-tungsten-electric-patio-heater]
@@ -21,7 +21,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-CO-01, RES-CO-KB1, RES-PP-01, A03]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -78,11 +78,11 @@ translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 ---
 
-Een topklasse buitenverwarmer geeft bruikbare warmte over de plek waar mensen zitten, niet alleen een hoog vermogen op papier. Let op stralingswarmte met een gepubliceerd verwarmd oppervlak per model, een afgedichte behuizing met een opgegeven IP-waarde, onafhankelijke veiligheidskeuring, een echte garantie, een montagewijze die bij je ruimte past, en een bediening waarmee je kunt zoneren, dimmen en plannen. Bromic-verwarmers zijn op elk van deze punten gebouwd en gedocumenteerd, en elk model werkt met de Affinity Smart-Heat-bediening.[^s1][^s5]
+Een topklasse buitenverwarmer zorgt dat iedereen het comfortabel heeft over de hele plek waar je zit, en dat zegt veel meer dan een hoog vermogen op papier. Let op stralingswarmte met een gepubliceerd verwarmd oppervlak per model, een afgedichte behuizing met een opgegeven IP-waarde, een onafhankelijke veiligheidskeuring, een garantie die iets betekent, een montagewijze die bij je buitenruimte past, en een bediening waarmee je kunt zoneren, dimmen en plannen. Bromic-verwarmers zijn op elk van deze punten zorgvuldig ontworpen en gedocumenteerd, en elk model werkt met de Affinity Smart-Heat-bediening.[^s1][^s5]
 
-![Eclipse Freestanding-verwarmers op een terras bij het vuur](img:w-eclispe-1)
+![Eclipse Freestanding-verwarmers gloeien op een terras naast het vuur](img:w-eclispe-1)
 
-## Zeven punten om te controleren
+## Zeven eigenschappen om op te letten
 
 | Criterium | Wat je op het specificatieblad controleert | Voorbeeld bij Bromic |
 |---|---|---|
@@ -94,46 +94,46 @@ Een topklasse buitenverwarmer geeft bruikbare warmte over de plek waar mensen zi
 | Bediening | Zoneren, dimmen, schema's, spraak; wat apart wordt verkocht | Affinity On/Off-, Dimmer- of Eclipse-regelaar, of een wandschakelaar[^s5] |
 | Ontwerp | Verblinding, afwerking, profiel, of hij ook licht geeft | Eclipse heeft dimbare randverlichting[^s6] |
 
-## Waarom is verwarmd oppervlak belangrijker dan vermogen?
+## Waarom verwarmd oppervlak meer zegt dan vermogen
 
-Het vermogen zegt hoeveel energie een verwarmer gebruikt; het verwarmd oppervlak zegt hoeveel van je terras hij warm maakt. Stralingswarmte verwarmt mensen en oppervlakken in plaats van lucht, en houdt dus stand in een licht briesje waar luchtverwarming tekortschiet.[^s2] Kortegolfelementen stralen het meest en geven vrijwel meteen warmte; langegolfelementen zijn het traagst en het gevoeligst voor wind.[^s2] Een verwarmer met een gepubliceerd verwarmd oppervlak per model laat je een ruimte goed berekenen in plaats van gokken.
+Het vermogen vertelt je hoeveel energie een verwarmer opneemt, het verwarmd oppervlak hoeveel van je terras hij warm houdt. Stralingswarmte verwarmt mensen en oppervlakken in plaats van de lucht, en blijft daardoor voelbaar in een licht briesje, waar verwarmers die de lucht opwarmen het moeilijk krijgen.[^s2] Kortegolfelementen stralen het meest en verwarmen je vrijwel meteen; langegolfelementen hebben de meeste tijd nodig en zijn het gevoeligst voor wind.[^s2] Als een fabrikant voor elk model het verwarmd oppervlak publiceert, kun je je buitenruimte met vertrouwen berekenen in plaats van te gokken.
 
-![Gloeiend Tungsten Electric-element onder een glazen overkapping](img:w-bromic-tungsten-electric-patio-heater)
+![Een Tungsten Electric-element gloeit onder een glazen overkapping](img:w-bromic-tungsten-electric-patio-heater)
 
-## Waarom gaat de ene verwarmer langer mee dan de andere?
+## Gebouwd om seizoen na seizoen mee te gaan
 
-Materiaal, afdichting en testen. Platinum Electric heeft een chassis van 304 roestvast staal; de Marine-uitvoering gebruikt AISI 316 roestvast staal, heeft IPX5 en is door Lloyd's Register goedgekeurd voor maritiem gebruik.[^s4] Kijk hoe de garantie is verdeeld: een langere garantie op het element dan op de verwarmer laat zien dat de fabrikant vertrouwt op het onderdeel dat het werk doet.[^s3]
+Een lange levensduur komt voort uit het materiaal, de afdichting en de tests die erachter zitten. Platinum Electric is gebouwd op een chassis van 304 roestvast staal; de Marine-uitvoering gebruikt AISI 316 roestvast staal, heeft IPX5 en is door Lloyd's Register goedgekeurd voor maritiem gebruik.[^s4] Lees ook hoe de garantie is verdeeld: een langere garantie op het element dan op de verwarmer laat zien hoeveel vertrouwen de fabrikant heeft in het onderdeel dat het werk doet.[^s3]
 
-## Past de verwarmer bij de plek?
+## Een verwarmer die bij zijn plek past
 
-Het oorspronkelijke artikel benadrukt dat een topklasse verwarmer bij zijn omgeving past:[^s1]
+Zoals het oorspronkelijke artikel het zegt: een topklasse verwarmer hoort bij zijn omgeving.[^s1]
 
-- **Platinum** voor ruimtes waar ontwerp voorop staat, waar weinig verblinding en een strak plafond tellen.
+- **Platinum** voor ruimtes waar ontwerp voorop staat en weinig verblinding en een strak plafond tellen.
 - **Tungsten** voor intensief gebruikte woon- en zakelijke ruimtes, waar duurzaamheid en een constant vermogen tellen.
-- **Eclipse** waar licht en sfeer bij de opdracht horen.
+- **Eclipse** waar licht en sfeer bij het ontwerp horen.
 
-Aan de kust is maritiem roestvast staal nodig; Tungsten Coastal (binnenkort beschikbaar) voegt een maritieme uitvoering toe aan Tungsten.[^s6] Voor het hele assortiment per ruimte en energiebron, zie [welke collectie buitenverwarmers bij je past](item:BLOG-11).
+Woningen aan de kust vragen om roestvast staal van maritieme kwaliteit, en Tungsten Coastal (binnenkort beschikbaar) voegt een maritieme uitvoering toe aan de Tungsten-familie.[^s6] Voor het hele assortiment per ruimte en energiebron, lees [welke collectie buitenverwarmers bij je past](item:BLOG-11).
 
-## Waarom telt de bediening mee in een beoordeling?
+## Waarom de bediening in elke beoordeling hoort
 
-Omdat een verwarmer die je niet kunt regelen, uit blijft. Affinity Dimmer-regelaars stellen het vermogen van Platinum en Tungsten Electric in stappen van 1% in; On/Off-regelaars laten gas- en elektrische verwarmers op vol vermogen werken; de Eclipse-regelaar stelt warmte en licht samen in; een handmatige wandschakelaar dekt de basis.[^s5] Zones, schema's en Alexa of Google Home lopen via de Bromic-app, waarvoor compatibele Affinity-bediening nodig is, die apart wordt verkocht.[^s5][^s6] Zie het bedieningsassortiment op [bromic.nl](https://www.bromic.nl/).
+Een verwarmer die je op de avond kunt afstemmen, blijf je ook gebruiken. Affinity Dimmer-regelaars stellen het vermogen van Platinum en Tungsten Electric in stappen van 1% in, On/Off-regelaars laten gas- en elektrische verwarmers op vol vermogen werken, de Eclipse-regelaar stelt warmte en licht samen in, en een handmatige wandschakelaar dekt de basis.[^s5] Zones, schema's en Alexa of Google Home lopen via de Bromic-app, waarvoor compatibele Affinity-bediening nodig is, die apart wordt verkocht.[^s5][^s6] Bekijk het bedieningsassortiment op [bromic.nl](https://www.bromic.nl/).
 
-## Wie beoordeelt Bromic?
+## Erkend door wie beoordeelt
 
-Bromic-verwarmers staan op de lijst van best beoordeelde terrasverwarmers van de Amerikaanse retailer BBQGuys, in de categorieën zakelijk, elektrisch en gas.[^s1][^s7] [[VERIFY: de BBQGuys-lijst, de categorieën en plaatsingen, en de datum — marketing]] Een lijst is een beginpunt. Het specificatieblad, en een verwarmer die op je ruimte is afgestemd, bepalen of hij voor jou werkt.
+Bromic-verwarmers staan op de lijst van best beoordeelde terrasverwarmers van de Amerikaanse retailer BBQGuys, in de categorieën zakelijk, elektrisch en gas.[^s1][^s7] [[VERIFY: de BBQGuys-lijst, de categorieën en plaatsingen, en de datum — marketing]] Een lijst is een prima beginpunt, maar het specificatieblad, en een verwarmer die op je ruimte is afgestemd, bepalen of hij voor jou echt mooi werkt.
 
 ## Veelgestelde vragen
 
 ### Is een hoger vermogen altijd beter?
-Nee. Stem het verwarmd oppervlak af op het zitgedeelte en de montagehoogte; een te zware verwarmer die te laag hangt is onaangenaam, een te lichte laat koude randen over.
+Nee. Stem het verwarmd oppervlak af op je zitgedeelte en de montagehoogte, want een te zware verwarmer die te laag hangt voelt onaangenaam, en een te lichte laat koude randen over.
 
 ### Zijn infraroodverwarmers de beste buitenverwarmers?
-Voor open en half-open ruimtes is infrarood stralingswarmte het type dat werkt, omdat het niet afhankelijk is van het verwarmen van lucht.[^s2]
+Voor open en half-open ruimtes is infrarood stralingswarmte het type dat werkt, omdat het niet afhankelijk is van het verwarmen van de lucht.[^s2]
 
 ### Welke garantie mag ik verwachten?
-Lees de voorwaarden voor de verwarmer en voor de elementen apart. Tungsten Electric: 2 jaar op de verwarmer, 7 op de elementen.[^s3]
+Lees de voorwaarden voor de verwarmer en voor de elementen apart. Tungsten Electric heeft 2 jaar op de verwarmer en 7 op de elementen.[^s3]
 
-### Waar vergelijk ik modellen?
+### Waar kan ik modellen vergelijken?
 Op [bromic.nl](https://www.bromic.nl/), of vraag de ontwerpservice van Bromic om een indeling met verwarmers en bediening.
 
 Ontdek in een minuut hoeveel verwarmers je ruimte nodig heeft.

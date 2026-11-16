@@ -1,17 +1,17 @@
 ---
 id: BLOG-16
 type: blog
-title: "Menschen wärmen, nicht Orte: die Grundlagen der Wärmeübertragung im Freien"
+title: "Menschen wärmen, nicht Orte: Strahlungswärme und Konvektion im Freien"
 action: keep-fix
 audience: [ARC]
 stage: [CO]
 cell: ARC-CO
 asset: A24
-summary: "Warum Konvektion im Freien versagt und Strahlung funktioniert, was kurz-, mittel- und langwellig für Strahlungsanteil, Aufheizzeit und Wind bedeutet, und welche Planungsentscheidungen daraus folgen: Überdachung, Ausrichtung, Höhe und Steuerung."
+summary: "Warum warme Luft im Freien entweicht, während Strahlungswärme jeden Gast erreicht, was kurz-, mittel- und langwellig für Strahlungsanteil, Aufheizzeit und Wind bedeutet, und welche Planungsentscheidungen daraus folgen – Überdachung, Ausrichtung, Höhe und Steuerung."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Warum ist Strahlungswärme im Freien besser als Konvektion?"
-meta_description: "Konvektion versagt im Freien, weil warme Luft entweicht; Strahlungswärme erreicht Menschen direkt. Kurz-, mittel- und langwellig im Vergleich, mit den Planungsregeln."
+meta_description: "Strahlungswärme oder Konvektion im Freien: Warme Luft entweicht, Strahlungswärme erreicht Menschen direkt. Kurz-, mittel- und langwellig im Vergleich, mit Planungsregeln."
 cta: {label: "Planungsleitfaden herunterladen (Ausgabe für Fachplaner)", asset: A02}
 hero: w-smoque-n-bones-tungsten-electric-1
 owner_review: Marketing
@@ -20,7 +20,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-CO-01, ARC-CO-KB1, ARC-IN-01, ARC-PP-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -69,13 +69,14 @@ translation_of: BLOG-16
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
-Im Freien muss Wärme als Strahlung übertragen werden. Konvektion wirkt, indem sie Luft erwärmt, und im Freien steigt diese Luft auf und zieht ab, bevor sie jemanden erreicht; der leiseste Luftzug erledigt den Rest[^s1]. Strahlungswärme (Infrarotwärme) durchquert die Luft und wird von Menschen, Möbeln und Böden aufgenommen, wie Sonnenlicht. Planen Sie danach: Wählen Sie die Quelle mit dem höchsten Strahlungsanteil, den die Situation zulässt, richten Sie sie auf den Aufenthaltsbereich und steuern Sie ihre Leistung, nicht die Lufttemperatur.
 
-![Tungsten Electric Heizstrahler, von den Balken einer Restaurantpergola schräg nach unten gerichtet](img:w-smoque-n-bones-tungsten-electric-1)
+Im Freien muss Wärme als Strahlung reisen. Konvektion wirkt, indem sie die Luft erwärmt, und unter offenem Himmel steigt diese Luft auf und zieht davon, bevor sie jemanden erreicht, während schon die leiseste Brise sie noch weiter trägt[^s1]. Strahlungswärme (Infrarotwärme) durchquert die Luft und wird von Menschen, Möbeln und Böden aufgenommen, ganz ähnlich wie Sonnenlicht. Planen Sie danach: Wählen Sie die Quelle mit dem höchsten Strahlungsanteil, den die Situation zulässt, richten Sie sie auf den Aufenthaltsbereich und steuern Sie ihre Leistung, denn die Lufttemperatur selbst lässt sich nicht halten.
 
-## Wie bewegt sich Wärme, und welcher Weg funktioniert im Freien?
+![Tungsten-Electric-Heizstrahler, von den Balken einer Restaurantpergola schräg nach unten gerichtet](img:w-smoque-n-bones-tungsten-electric-1)
 
-Wärme bewegt sich auf drei Wegen. Wärmeleitung braucht Kontakt und spielt daher beim Wärmen eines sitzenden Gastes keine Rolle. Konvektion transportiert Wärme mit bewegter Luft. Strahlung transportiert sie als Infrarot, geradlinig, zu jeder Oberfläche, auf die sie trifft[^s1].
+## Wie Wärme sich unter offenem Himmel bewegt
+
+Wärme bewegt sich auf drei Wegen. Wärmeleitung braucht Kontakt und spielt daher beim Wärmen eines sitzenden Gastes keine Rolle. Konvektion transportiert Wärme mit bewegter Luft, und Strahlung trägt sie als Infrarot geradlinig zu jeder Oberfläche, auf die sie trifft[^s1].
 
 | | Konvektion | Strahlung (Infrarot) |
 |---|---|---|
@@ -84,11 +85,11 @@ Wärme bewegt sich auf drei Wegen. Wärmeleitung braucht Kontakt und spielt dahe
 | Reaktion | Langsam; braucht einen geschlossenen Raum, um sich aufzubauen | Spürbar, sobald das Heizelement heiß ist |
 | Steuerung | Thermostat, im Innenraum | Leistung: Ein/Aus, Dimmung, Zonen, Zeitpläne |
 
-Der Bromic-Planungsleitfaden fasst es in einem Satz zusammen: Eine Heizung im Freien lässt sich nicht über ein Thermostat regeln[^s1]. Es gibt kein Luftvolumen, das auf einem Sollwert gehalten werden könnte.
+Der Bromic-Planungsleitfaden fasst es in einem einzigen Satz zusammen: Eine Heizung im Freien lässt sich nicht über ein Thermostat regeln[^s1]. Unter offenem Himmel gibt es kein Luftvolumen, das sich auf einem Sollwert halten ließe.
 
 <div class="diagram">Diagramm: Schnitt durch eine überdachte Terrasse. Linke Hälfte: ein Konvektionsheizer, dessen Warmluftpfeile zur Untersicht aufsteigen und mit dem Wind über die offene Seite entweichen. Rechte Hälfte: ein an der Wand montierter Strahlungsheizer, dessen gerade Pfeile auf sitzende Menschen, Tisch und Boden treffen; ein schattiertes Band unter der Untersicht ist mit „Wärmewolke“ beschriftet. Hinweis auf die Regel von 30 % offenem Umfang und die Mindesthöhen von ca. 1,83 m an der Wand und ca. 2,44 m an der Decke[^s1][^s3].</div>
 
-## Was bedeuten kurz-, mittel- und langwellig?
+## Kurz-, mittel- und langwellig verstehen
 
 Die Wellenlänge folgt der Temperatur des Heizelements. Je heißer das Element, desto kürzer die Welle und desto mehr seiner Energie verlässt es als Strahlung statt als warme Luft[^s2]:
 
@@ -99,21 +100,21 @@ Die Wellenlänge folgt der Temperatur des Heizelements. Je heißer das Element, 
 | Aufheizzeit | Sofort | Ca. 30 s | Ca. 5 min |
 | Wind | Wärmt Menschen und Gegenstände direkt | Begrenzt windempfindlich | Wird leicht verweht |
 
-Quelle: Bromic-Planungsleitfaden v1.2, Zuordnung der Wellenlängen[^s2]. Das sind die Werte hinter der Spanne „60 bis 90 %“, die die frühere Fassung dieses Beitrags ohne Quelle nannte: 60 % ist mittelwellig, 90 % kurzwellig.
+Quelle: Bromic-Planungsleitfaden v1.2, Zuordnung der Wärmewellen[^s2]. Das sind die Werte hinter der Spanne „60 bis 90 %“, die die frühere Fassung dieses Beitrags ohne Quelle nannte, wobei 60 % für mittelwellig und 90 % für kurzwellig stehen.
 
-Der Leitfaden ordnet sie nach Anwendung. Direkte Wärme, eine Mischung aus kurz- und mittelwellig, erreicht den höchsten Wirkungsgrad. Indirekte Wärme, mittel- und langwellig, heizt langsamer auf und ist dem Wind stärker ausgesetzt[^s1]. Die Wellenlänge je Modell steht im Leitfaden für Planer, [Strahlungswärme im Freien: kurz-, mittel- und langwellig](item:ARC-CO-01). [[VERIFY: Wellenlängenbereich jedes aktuellen Bromic-Modells — Produktteam]]
+Der Leitfaden ordnet die Bereiche nach Anwendung. Direkte Wärme, eine Mischung aus kurz- und mittelwellig, erreicht den höchsten Wirkungsgrad, während indirekte Wärme, mittel- und langwellig, langsamer aufheizt und dem Wind stärker ausgesetzt ist[^s1]. Die Wellenlänge je Modell steht im Leitfaden für Planer, [Strahlungswärme im Freien: kurz-, mittel- und langwellig](item:ARC-CO-01). [[VERIFY: Wellenlängenbereich jedes aktuellen Bromic-Modells — Produktteam]]
 
-## Was folgt daraus für die Planung?
+## Den Außenbereich um die Strahlungswärme herum planen
 
-**Ausrichtung.** Ein gerichteter Heizstrahler gibt den größten Teil seiner Leistung in eine Richtung ab, zum Aufenthaltsbereich hin; ein ungerichteter verteilt sie gleichmäßig in alle Richtungen, auch dorthin, wo niemand sitzt[^s1]. Spezifizieren Sie gerichtete Geräte und richten Sie sie auf die Sitzplätze.
+**Ausrichtung.** Ein gerichteter Heizstrahler gibt den größten Teil seiner Leistung in eine Richtung ab, zum Aufenthaltsbereich hin, während ein ungerichteter sie gleichmäßig in alle Richtungen verteilt, auch dorthin, wo niemand sitzt[^s1]. Spezifizieren Sie gerichtete Geräte und richten Sie sie auf die Sitzplätze.
 
-**Überdachung.** Bromic behandelt eine Fläche als Außenbereich, wenn mindestens 30 % ihres horizontalen Umfangs dauerhaft offen sind. Eine Untersicht oder ein geschlossenes Dach über dem Rest hält eine Wärmewolke, die einen konvektiven Zusatz liefert; offene Lamellen halten wenig[^s1].
+**Überdachung.** Bromic behandelt eine Fläche als Außenbereich, wenn mindestens 30 % ihres horizontalen Umfangs dauerhaft offen sind. Eine Untersicht oder ein geschlossenes Dach über dem Rest hält eine Wärmewolke, die einen konvektiven Zusatz liefert, während offene Lamellen kaum Wärme halten[^s1].
 
-**Höhe.** Wandmontage nicht tiefer als ca. 1,83 m und Deckenmontage nicht tiefer als ca. 2,44 m, je nach Leistung unterschiedlich[^s3]. Höher vergrößert das Wärmefeld und senkt die Intensität beim Gast; siehe [Montagehöhe und Wärmeintensität](item:ARC-CO-KB1). Die Angaben zur Heizfläche hängen von Modell, Montagehöhe, Umgebung und Installation ab[^s4].
+**Höhe.** Wandmontage nicht tiefer als ca. 1,83 m und Deckenmontage nicht tiefer als ca. 2,44 m, je nach Leistung unterschiedlich[^s3]. Eine höhere Montage vergrößert das Wärmefeld und mildert die Intensität beim Gast; siehe [Montagehöhe und Wärmeintensität](item:ARC-CO-KB1). Die Angaben zur Heizfläche hängen von Modell, Montagehöhe, Umgebung und Installation ab[^s4].
 
-**Licht.** Heißere Heizelemente glühen. Wo das Glühen für das Gestaltungskonzept wichtig ist, stimmen Sie es mit der Lichtplanung ab, nicht erst nach der Installation.
+**Licht.** Heißere Heizelemente glühen. Wo dieses Glühen für das Gestaltungskonzept wichtig ist, stimmen Sie es rechtzeitig vor der Installation mit der Lichtplanung ab.
 
-**Steuerung.** Spezifizieren Sie die Steuerung zusammen mit dem Heizstrahler. Manche Energievorschriften verlangen sie inzwischen: In den USA schreibt etwa die Energievorschrift für Gewerbebauten im Bundesstaat Washington vor, dass Wärme außerhalb eines Gebäudes als Strahlung erzeugt und über einen Präsenzmelder oder eine Zeitschaltung geschaltet wird[^s5]. Welche Vorgaben in Deutschland gelten, klären Sie mit Ihrem örtlichen Bauamt; Stromkreis oder Gasversorgung plant ein Elektrofachbetrieb oder Gasinstallateur nach DIN VDE 0100 bzw. DVGW-TRGI und TRF. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Partner Deutschland]]
+**Steuerung.** Spezifizieren Sie die Steuerung zusammen mit dem Heizstrahler. Manche Energievorschriften verlangen das inzwischen: In den USA schreibt etwa die Energievorschrift für Gewerbebauten im Bundesstaat Washington vor, dass Wärme außerhalb eines Gebäudes als Strahlung erzeugt und über einen Präsenzmelder oder eine Zeitschaltung geschaltet wird[^s5]. Welche Vorgaben in Deutschland gelten, klären Sie mit Ihrem örtlichen Bauamt; Stromkreis oder Gasversorgung plant ein Elektrofachbetrieb oder Gasinstallateur nach DIN VDE 0100 bzw. DVGW-TRGI und TRF. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Partner Deutschland]]
 
 | Heizstrahler | Heizfläche (ca.) | Montage | Zu spezifizierende Steuerung |
 |---|---|---|---|
@@ -121,20 +122,20 @@ Der Leitfaden ordnet sie nach Anwendung. Direkte Wärme, eine Mischung aus kurz-
 | Tungsten Smart-Heat Electric | 6–15 m²[^s6] | Wand, Decke, Stange, eingelassen | Affinity On/Off- oder Dimmer-Steuergerät, manueller Wandschalter; zwei Heizelemente bei 4000 und 6000 W[^s6] |
 | Eclipse Smart-Heat Electric | 11 m²[^s4] | Einzel-, Doppel- oder gebogene Stange | Affinity Eclipse-Steuergerät oder Eclipse Dimmer, manueller Wandschalter |
 
-WLAN, Zeitpläne in der App und Zonen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind[^s4]. [[VERIFY: Werte der Produktseiten von bromic.com übernommen; mit den Datenblättern 2026 abgleichen — Produktteam]] Vergleichen Sie die [elektrischen Heizstrahler](https://www.bromic.de/) und die [Gasheizstrahler](https://www.bromic.de/), oder senden Sie Pläne an das Team von [Design Your Space](https://www.bromic.de/) für Zeichnungen der Heizflächen.
+WLAN, Zeitpläne in der App und Zonen setzen kompatible Affinity Smart-Heat-Steuerungen voraus, die separat erhältlich sind[^s4]. [[VERIFY: Werte der Produktseiten von bromic.com übernommen; mit den Datenblättern 2026 abgleichen — Produktteam]] Vergleichen Sie die [elektrischen Heizstrahler](https://www.bromic.de/) und die [Gasheizstrahler](https://www.bromic.de/), oder senden Sie Ihre Pläne an unser Team von [Design Your Space](https://www.bromic.de/) für Zeichnungen der Heizflächen.
 
 ## Häufige Fragen
 
 ### Warum funktionieren Warmluftheizer im Freien nicht?
-Sie erwärmen Luft, und Luft steigt im Freien auf und zieht ab, bei jedem Luftzug schneller[^s1].
+Sie erwärmen die Luft, und Luft steigt im Freien auf und zieht ab, bei jeder Brise noch schneller[^s1].
 
 ### Welche Wellenlänge sollte ich für einen exponierten Standort spezifizieren?
-Die mit dem höchsten Strahlungsanteil, den die Situation zulässt: Kurzwellig strahlt zu ca. 90 % und wärmt sofort; langwellig zu ca. 40 % und ist am windempfindlichsten[^s2].
+Die mit dem höchsten Strahlungsanteil, den die Situation zulässt. Kurzwellig strahlt zu ca. 90 % und wärmt sofort, langwellig zu ca. 40 % und ist am windempfindlichsten[^s2].
 
 ### Braucht eine überdachte Terrasse weniger Wärme?
 Oft ja, weil die Überdachung eine Wärmewolke hält, die die Strahlungsleistung ergänzt[^s1]. Halten Sie 30 % des Umfangs offen.
 
 ### Was ist der Unterschied zwischen Infrarot und Strahlung?
-In der Praxis keiner: Strahlung beschreibt, wie die Wärme übertragen wird, Infrarot ist die Strahlung selbst. Siehe [Infrarot- und Strahlungsheizer im Vergleich](https://www.bromic.de/).
+In der Praxis keiner, denn Strahlung beschreibt, wie die Wärme reist, und Infrarot ist die Strahlung selbst. Siehe [Infrarot- und Strahlungsheizer im Vergleich](https://www.bromic.de/).
 
 Die Ausgabe des Planungsleitfadens für Fachplaner enthält das vollständige Verfahren zur Dimensionierung und Spezifikation.

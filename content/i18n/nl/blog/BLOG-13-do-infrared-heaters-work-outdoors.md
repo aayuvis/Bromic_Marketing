@@ -11,11 +11,11 @@ audience: [RES]
 stage: [AW]
 cell: RES-AW
 asset: A24
-summary: "Ja, en het is het enige soort dat buiten echt werkt: waarom infrarood mensen in de open lucht warm houdt, wat wind en overkapping veranderen, en hoe je kiest tussen elektrisch, gas en vrijstaand."
+summary: "Ja – infrarood is de warmte die buiten echt werkt: waarom het mensen in de open lucht warm houdt, wat wind en een overkapping veranderen, en hoe je kiest tussen elektrisch, gas en vrijstaand."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Werken infraroodverwarmers buiten?"
-meta_description: "Ja. Infraroodverwarmers verwarmen mensen en oppervlakken, niet de lucht, en werken dus in de open lucht en bij lichte wind. Wat het resultaat bepaalt, en hoe je er een kiest."
+meta_description: "Ja. Infraroodverwarmers verwarmen mensen en oppervlakken in plaats van de lucht, en werken dus in de open lucht en bij lichte wind. Wat telt, en hoe je kiest."
 cta: {label: "Download het rapport Outdoor Living Trends 2026", asset: A01}
 hero: w-tungsten-electric-new-york-residential
 owner_review: marketing
@@ -24,7 +24,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-CO-KB1, ARC-CO-01, RES-CO-01, RES-CO-KB2]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -63,67 +63,67 @@ sources:
     verified: false
 ---
 
-Ja. Infraroodverwarmers zijn het soort verwarmer dat buiten werkt. Ze verwarmen mensen, meubels en vloeren direct, zoals zonneschijn dat doet, in plaats van lucht die opstijgt en wegwaait. Daarom houden ze een terras behaaglijk in de open lucht en bij lichte tot matige wind, waar een heteluchtverwarmer bijna niets uithaalt[^s1]. Hoe goed er een werkt, hangt af van het aandeel straling, de wind, een eventuele overkapping en waar hij op gericht is.
+Ja – infrarood is de warmte die buiten echt werkt. Het verwarmt mensen, meubels en vloeren direct, net zoals de zon, in plaats van lucht te verwarmen die opstijgt en wegdrijft. Daardoor blijft een terras comfortabel in de open lucht en bij lichte tot matige wind, waar een heteluchtkachel vrijwel niets doet[^s1]. Hoe goed een verwarmer het in jouw ruimte doet, hangt af van zijn stralingsaandeel, de wind, een eventuele overkapping en de richting waarin hij is gericht.
 
-![Dakterras in de stad met een houten pergola en een Tungsten Electric-verwarmer](img:w-tungsten-electric-new-york-residential)
+![Een dakterras in de stad onder een houten pergola, verwarmd door een Tungsten Electric-verwarmer](img:w-tungsten-electric-new-york-residential)
 
-## Waarom werken infraroodverwarmers buiten en andere niet?
+## Waarom infrarood werkt waar andere verwarmers tekortschieten
 
-Buiten zijn er geen muren of plafond die warme lucht vasthouden. Ze stijgt op, verspreidt zich en drijft weg met het kleinste briesje, dus een verwarmer die werkt door lucht te verwarmen, kan het niet bijhouden[^s1]. Infraroodwarmte is niet van de lucht afhankelijk. Ze gaat in rechte lijnen en wordt opgenomen door de huid, kleding en oppervlakken die ze bereikt[^s1].
+Buiten zijn er geen muren of plafond die warme lucht vasthouden. Die stijgt op, verspreidt zich en glipt weg bij het kleinste briesje, zodat een verwarmer die op warme lucht vertrouwt het simpelweg niet bijhoudt[^s1]. Infraroodwarmte heeft de lucht helemaal niet nodig. Ze verplaatst zich in rechte lijnen en wordt opgenomen door de huid, kleding en oppervlakken die ze bereikt[^s1].
 
-Om dezelfde reden kun je buitenwarmte niet met een thermostaat instellen. Je regelt het vermogen van de verwarmer, niet de temperatuur van de lucht[^s1].
+Om dezelfde reden stel je warmte buiten nooit in met een thermostaat. Je regelt het vermogen van de verwarmer zelf, want de temperatuur van de open lucht ligt buiten ieders bereik[^s1].
 
-## Werken infraroodverwarmers bij wind?
+## Warm blijven als de wind aantrekt
 
-Bij lichte tot matige wind wel[^s1]. Wind verplaatst lucht, geen straling, dus de warmte die je al hebt ontvangen, blijft bij je. Harde, aanhoudende wind koelt de huid nog steeds af, dus de ligging bepaalt hoeveel verwarmers je nodig hebt en waar ze komen.
+Bij lichte tot matige wind houdt infrarood je comfortabel[^s1]. Wind verplaatst lucht, en stralingswarmte die je al hebt ontvangen, blijft bij je. Een sterke, aanhoudende wind koelt de huid nog steeds af, dus hoe beschut je ruimte ligt, bepaalt hoeveel verwarmers je nodig hebt en waar ze horen.
 
-Hier telt de golflengte het meest[^s2]:
+De golflengte maakt hier het grootste verschil[^s2]:
 
-| Golflengte | Aandeel straling | Opwarmtijd | Bij wind |
+| Golflengte | Stralingsaandeel | Opwarmtijd | Bij wind |
 |---|---|---|---|
-| Kortegolf | Ongeveer 90% | Direct | Verwarmt mensen en voorwerpen direct |
+| Korte golf | Ongeveer 90% | Direct | Verwarmt mensen en voorwerpen direct |
 | Middengolf | Ongeveer 60% | Ongeveer 30 s | Beperkt gevoelig |
-| Langegolf | Ongeveer 40% | Ongeveer 5 min | Het snelst verspreid |
+| Lange golf | Ongeveer 40% | Ongeveer 5 min | Het makkelijkst verspreid |
 
-Kies voor een open terras of dakterras de verwarmer met het hoogste aandeel straling dat de situatie toelaat, scherm de windzijde af en reken op extra verwarmd oppervlak. De golflengtes worden uitgelegd in [infrarood- tegenover stralingsverwarmers](https://www.bromic.com/blog/what-is-the-difference-between-an-infrared-heater-and-a-radiant-heater/) (Engelstalig).
+Kies voor een open vlonder of dakterras de meest stralende verwarmer die je plek toelaat, scherm de windkant af en reken op wat extra verwarmd oppervlak. De golflengtes worden uitgebreider uitgelegd in [infrarood- tegenover stralingsverwarmers](https://www.bromic.com/blog/what-is-the-difference-between-an-infrared-heater-and-a-radiant-heater/).
 
-## Helpt een overkapping?
+## Hoe een dak de warmte versterkt
 
-Ja. Een dak, overstek of gesloten pergola houdt een laag warme lucht vast, die Bromic de warmtewolk noemt, en die geeft de stralingswarmte eronder een extra zetje via convectie[^s1]. Houd ten minste 30% van de omtrek permanent open en de ruimte telt nog steeds als buitenruimte[^s1]. Open lamellen houden weinig vast; plan die als open lucht.
+Een dak, overstek of gesloten pergola houdt een laag warme lucht vast, die wij de warmtewolk noemen, en geeft de stralingswarmte eronder een zachte extra duw door convectie[^s1]. Houd minstens 30% van de omtrek blijvend open, dan geldt de ruimte nog als buitenruimte[^s1]. Open lamellen houden heel weinig warmte vast, dus plan ze als open hemel.
 
-## Zijn infraroodverwarmers buiten efficiënt?
+## Efficiënte warmte, gericht op waar je zit
 
-Een elektrische weerstandsverwarmer zet alle elektriciteit die hij gebruikt ter plekke om in warmte[^s3]. Buiten is de vraag waar die warmte terechtkomt. Een verwarmer die vooral straalt, stuurt het grootste deel van zijn energie naar mensen; een verwarmer die vooral convectiewarmte geeft, besteedt die aan lucht die verdwijnt[^s2]. Gerichte verwarmers die op de zitplekken zijn gericht, verspillen nog minder[^s1]. Meer in [zijn infraroodverwarmers efficiënt](https://www.bromic.com/blog/are-infrared-heaters-efficient/) (Engelstalig).
+Een elektrische weerstandsverwarmer zet alle elektriciteit die hij gebruikt op de plek zelf om in warmte[^s3]. Buiten telt waar die warmte terechtkomt. Een verwarmer met een hoog stralingsaandeel stuurt het grootste deel van zijn energie naar mensen, terwijl een verwarmer die vooral convectie geeft die besteedt aan lucht die al snel verdwijnt[^s2]. Gerichte verwarmers die op de zitplekken mikken, verspillen nog minder[^s1]. Lees meer in [zijn infraroodverwarmers efficiënt](https://www.bromic.com/blog/are-infrared-heaters-efficient/).
 
-## Welke infraroodverwarmer past bij jouw ruimte?
+## De juiste infraroodverwarmer voor je ruimte
 
-| Jouw ruimte | Meestal geschikt | Bromic-verwarmers | Bediening |
+| Je ruimte | Past meestal | Bromic-verwarmers | Bediening |
 |---|---|---|---|
 | Overdekt terras, veranda of pergola met stroom | Ingebouwd elektrisch | Platinum Smart-Heat Electric (6,0–13,3 m²)[^s4], Tungsten Smart-Heat Electric (6,0–14,9 m²)[^s5] | Affinity On/Off- of Dimmer-regelaar, handmatige wandschakelaar |
 | Terras waar het ontwerp voorop staat, met warmte en licht | Elektrisch met geïntegreerd licht | Eclipse Smart-Heat Electric (11,2 m²)[^s4] | Affinity Eclipse-regelaar of Eclipse Dimmer, handmatige wandschakelaar |
-| Groter open oppervlak met gasaansluiting | Gas | Zie het [gasassortiment](https://www.bromic.nl/) | Affinity On/Off-regelaar, handmatige wandschakelaar |
+| Grotere open ruimte met een gasaansluiting | Gas | Zie het [gasassortiment](https://www.bromic.nl/) | Affinity On/Off-regelaar, handmatige wandschakelaar |
 | Geen vaste installatie, of een ruimte die verandert | Vrijstaand | Eclipse Smart-Heat Freestanding (11,2 m²)[^s5]; Tungsten Smart-Heat Freestanding Gas (20,0 m², windbestendig)[^s4] | Eclipse: Dimmer Controller en afstandsbediening meegeleverd[^s5]. Tungsten Freestanding Gas: [[VERIFY: bedieningsmogelijkheden — productteam]] |
 
-Elke vaste verwarmer wordt gepland met de bijbehorende bediening. De Smart-Heat-app voegt zones, schema's en timers toe; wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht[^s4]. Het verwarmde oppervlak verschilt per model, montagehoogte, omgeving en installatie[^s4]. [[VERIFY: waarden van de productpagina's op bromic.com, omgerekend naar m²; controleren tegen de productbladen van 2026 — productteam]]
+Elke vaste verwarmer wordt samen met de bijbehorende bediening gepland. De Smart-Heat-app voegt zones, schema's en timers toe, en wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht[^s4]. Het verwarmd oppervlak verschilt per model, montagehoogte, omgeving en installatie[^s4]. [[VERIFY: waarden van de productpagina's op bromic.com, omgerekend naar m²; controleren tegen de productbladen van 2026 — productteam]]
 
-Bekijk de [elektrische buitenverwarmers](https://www.bromic.nl/), de [vrijstaande verwarmers](https://www.bromic.nl/) of [alle buitenverwarmers](https://www.bromic.nl/).
+Bekijk de [elektrische buitenverwarmers](https://www.bromic.nl/), [vrijstaande verwarmers](https://www.bromic.nl/) of [alle buitenverwarmers](https://www.bromic.nl/).
 
-## Hoe voorkom je koude plekken?
+## Warmte op elke stoel, zonder koude plekken
 
-Plan de warmte rond de zitplekken, niet rond het vloeroppervlak. Breng de wind in kaart en noteer of er water in de buurt is; de planningsgids van Bromic noemt beide als factoren[^s1]. Laat het verwarmde oppervlak overlappen waar mensen het langst zitten. De kosteloze service [Design Your Space](https://www.bromic.nl/) van Bromic maakt van foto's of plannen een indeling met verwarmers en een productlijst[^s4].
+Plan de warmte rond de plekken waar mensen zitten, want die tellen veel meer dan het totale vloeroppervlak. Breng de wind in kaart en noteer water in de buurt, die het planningshandboek van Bromic allebei als factor noemt[^s1], en laat het verwarmd oppervlak overlappen waar gasten het langst blijven hangen. Onze gratis ontwerpservice [Design Your Space](https://www.bromic.nl/) maakt van je foto's of plattegronden een indeling met verwarmers en een productlijst[^s4].
 
 ## Veelgestelde vragen
 
 ### Verwarmen infraroodverwarmers de lucht?
-Heel weinig. Ze verwarmen mensen en oppervlakken, en daarom passen ze bij ruimten waar warme lucht zou ontsnappen[^s1].
+Heel weinig. Ze verwarmen mensen en oppervlakken, en juist daarom passen ze bij ruimtes waar warme lucht zou ontsnappen[^s1].
 
 ### Zijn infraroodverwarmers voor buiten veilig?
-Ja, als ze volgens de handleiding zijn geïnstalleerd en worden gebruikt zoals bedoeld. Lees [zijn infraroodverwarmers voor buiten veilig](https://www.bromic.com/blog/are-infrared-outdoor-heaters-safe/) (Engelstalig) over afstanden, kinderen en huisdieren.
+Geïnstalleerd volgens de handleiding en gebruikt zoals bedoeld: ja. Lees [zijn infraroodverwarmers voor buiten veilig](https://www.bromic.com/blog/are-infrared-outdoor-heaters-safe/) over afstanden, kinderen en huisdieren.
 
 ### Is infrarood beter dan een gasterrasverwarmer?
-Het is geen of-of: gasverwarmers kunnen ook infrarood zijn. Kies op basis van ruimte, overkapping en energievoorziening. Zie [gas of elektrisch](https://www.bromic.com/blog/gas-or-electric-patio-heaters-which-one-is-right-for-me/) (Engelstalig).
+Ook gasverwarmers kunnen infrarood zijn, dus je hoeft niet tussen die twee te kiezen. Kies op basis van je ruimte, de overkapping en je energiebron, en lees [gas of elektrisch](https://www.bromic.com/blog/gas-or-electric-patio-heaters-which-one-is-right-for-me/).
 
-### Hoe snel word je warm van een infraroodverwarmer?
-Kortegolf werkt direct; middengolf duurt ongeveer 30 seconden; langegolf ongeveer vijf minuten[^s2].
+### Hoe snel verwarmen infraroodverwarmers je?
+Korte golf direct, middengolf na ongeveer 30 seconden en lange golf na ongeveer vijf minuten[^s2].
 
-Wil je zien wat Amerikaanse huiseigenaren dit jaar in hun buitenkamers plannen, lees dan het Trends-rapport.
+Wil je zien wat huiseigenaren dit jaar voor hun buitenkamer plannen, ontdek dan het Trends-rapport.
