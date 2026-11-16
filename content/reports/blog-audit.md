@@ -133,7 +133,7 @@ buyer's guide (keep *Which outdoor heater collection is right for you?* as the U
 
 | Post | Cell | Call | Why, and what to change |
 |---|---|---|---|
-| [Why it's important to specify outdoor heating early](https://www.bromic.com/blog/why-its-important-to-specify-outdoor-heating-early/) | ARC-IN | Rewrite (priority) | The nearest live page to our thesis ("designed from the start, not added later") but it omits controls, the code disclaimer and the 23% stat; link ARC-IN-01 and A11 |
+| [Why it's important to specify outdoor heating early](https://www.bromic.com/blog/why-its-important-to-specify-outdoor-heating-early/) | ARC-IN | Rewrite (priority) | The nearest live page to our thesis (heating planned in from the first drawing) but it omits controls, the code disclaimer and the 23% stat; link ARC-IN-01 and A11 |
 | [Complete product line solutions for Platinum Smart-Heat Electric](https://www.bromic.com/blog/bromic-offers-complete-product-line-solutions-for-platinum-smart-heat-electric-series/) | ARC-IN | Keep and fix | "Newly released" 4500W is dated; source "patented" and "only" claims; state recess-kit compatibility |
 | [Radiance redefined: the Eclipse collection](https://www.bromic.com/blog/radiance-redefined-the-eclipse-collection-of-luxury-heaters/) | RES-CO | Keep and fix | Three vs four heat settings; check the Eclipse controller against Affinity |
 | [World's first Lloyd's Register approved marine heater](https://www.bromic.com/blog/worlds-first-lloyds-register-approved-outdoor-heating-range-for-marine-applications/) | COM-CO | Keep and fix | Strong proof point: link the certificate; coverage 108 vs 143 ft²; "wireless dimmer" naming |
