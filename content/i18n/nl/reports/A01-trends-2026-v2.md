@@ -5,16 +5,16 @@ translation_of: A01-v2
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 type: report
-title: "Outdoor Living Trends 2026: tien verschuivingen, en waarvoor u ontwerpt"
+title: "Outdoor Living Trends 2026: tien manieren waarop we nu buiten leven"
 audience: [RES, ARC, BLD]
 stage: [AW, CO]
 cell: RES-AW
 asset: A01
-summary: "Tien verschuivingen in hoe Amerikanen buiten leven, elk met één gecontroleerd cijfer, wat het betekent voor de ruimte en één ontwerpstap om te zetten."
+summary: "Tien manieren waarop Amerikanen meer van hun leven naar buiten brengen, elk verteld met één gecontroleerd cijfer, wat het betekent voor de ruimte en één doordachte ontwerpstap om die het hele jaar te laten werken."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wat zijn de trends in buitenleven voor 2026?"
-meta_description: "Tien trends in buitenleven voor 2026, elk met één cijfer met bron en één ontwerpstap voor architecten, aannemers en huiseigenaren."
+meta_description: "Tien trends in buitenleven voor 2026, elk met een cijfer met bron en een ontwerpstap waarmee architecten, aannemers en huiseigenaren voor het hele jaar plannen."
 cta: {label: "Bereken uw ruimte", asset: A03}
 hero: t-001-000
 images: [t-003-005, l-013-108, t-005-013, t-006-016, t-007-019, t-008-022, t-009-025, t-010-028, t-011-031, t-012-034, t-013-037]
@@ -22,7 +22,7 @@ owner_review: marketing
 status: draft
 gated: true
 related: [A01-stats, A01-corrections, RES-AW-01, ARC-AW-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: American Institute of Architects
@@ -86,149 +86,149 @@ sources:
 
 ## Trends in buitenleven 2026
 
-Voor architecten, aannemers en huiseigenaren. Met cijfers uit de Verenigde Staten.
+Voor de architecten, aannemers en huiseigenaren die bepalen hoe we buiten leven. Met cijfers uit de Verenigde Staten.
 
-## De verschuiving
+## Een kamer voor elk seizoen
 
-Het terras is nu een kamer voor het hele jaar. Kou na zonsondergang maakt het leeg, en verwarming wordt als laatste gepland.
+Het terras is een kamer geworden die mensen het hele jaar willen gebruiken. Maar zodra de avond afkoelt, loopt het leeg, omdat verwarming zo vaak als laatste wordt gepland.
 
 ## 01 Buitenleven is het hart van het huis
 
 **55%** netto aandeel Amerikaanse architecten dat buitenruimtes populairder ziet worden.[^s1]\
 *AIA, Home Design Trends Survey, Q2 2025*
 
-- Gezinnen komen buiten samen en eten er.
-- Overdekte terrassen worden als kamers gepland.
-- Comfort bepaalt het gebruik.
+- Gezinnen komen nu buiten samen, eten er en ontspannen er.
+- Overdekte terrassen worden met dezelfde zorg gepland als elke kamer.
+- Comfort is wat iedereen daar houdt.
 
-**Bromic-inzicht** Stralingswarmte maakt het terras na zonsondergang deel van het huis.
+**Bromic-inzicht** Stralingswarmte maakt het terras deel van het huis, tot lang na zonsondergang.
 
-**Ontwerpstap** Teken het terras als een kamer, met warmte en stroom.
+**Ontwerpstap** Teken het terras vanaf de eerste schets als een kamer, met warmte en stroom op hun plek.
 
-## 02 Buitenruimte wordt van 's ochtends tot 's avonds gebruikt
+## 02 Van de eerste koffie tot het laatste gesprek
 
 **67%** van de Amerikaanse huiseigenaren zegt dat verwarming het meest zou doen om hun tijd buiten te verlengen.[^s2]\
 *Atomik Research voor Bromic Heating, 2025* [[VERIFY: datum van de enquête, steekproefgrootte n en vraagstelling tegen de topline van Atomik — marketing]]
 
-- Koffie bij zonsopgang, eten bij schemering.
-- Kou maakt beide korter.
+- Koffie bij zonsopgang en eten bij schemering zijn de momenten die mensen koesteren.
+- Een koele ochtend of avond kan beide korter maken.
 - Juist die uren willen mensen het liefst.
 
-**Bromic-inzicht** Stralingswarmte voegt comfortabele uren toe. Extend the moment.
+**Bromic-inzicht** Stralingswarmte voegt aan beide kanten van de dag comfortabele uren toe, zodat je het moment kunt verlengen.
 
-**Ontwerpstap** Deel de warmte in zones in naar het tijdstip van de dag.
+**Ontwerpstap** Deel de warmte in zones in naar hoe de ruimte door de dag heen wordt gebruikt.
 
-## 03 Terrassen zijn basisinfrastructuur
+## 03 Het terras hoort nu bij het plan
 
 **60,5%** van de nieuwe vrijstaande woningen die in 2025 in de VS werden gestart, kreeg een terras.[^s4]\
 *NAHB, op basis van de Census Survey of Construction, 2025*
 
-- Terrassen worden ingebouwd, niet toegevoegd.
-- Installaties worden meegepland.
-- Een terras voor dagelijks gebruik verdient zijn plek.
+- Terrassen worden vanaf het begin ingebouwd.
+- Installaties worden er meteen bij gepland.
+- Een terras dat elke dag wordt gebruikt, verdient zijn plek in het huis.
 
-**Bromic-inzicht** Verwarming maakt van een terras voor af en toe een kamer voor elke dag.
+**Bromic-inzicht** Verwarming maakt van een terras voor af en toe een kamer waarin je elke dag leeft.
 
 **Ontwerpstap** Leg groepen of gas voor verwarmers aan tijdens het regelwerk.
 
-## 04 Uitgaven aan renovatie blijven stabiel
+## 04 Huiseigenaren blijven investeren in hun huis
 
 **$525 mld.** verwachte jaarlijkse uitgaven van Amerikaanse huiseigenaren aan verbeteringen en reparaties, tot en met Q3 2027.[^s5]\
 *Harvard Joint Center for Housing Studies, LIRA, okt. 2026*
 
-- Eigenaren verbouwen liever dan te verhuizen.
-- Verbeteringen draaien om buitenleven.
-- Veel ervan verdienen zich bij verkoop grotendeels terug.
+- Veel eigenaren kiezen ervoor het huis te verbeteren waar ze van houden.
+- Buitenleven staat centraal in hun verbeteringen.
+- Veel van hen verdienen bij verkoop het grootste deel van de kosten terug.
 
-**Bromic-inzicht** Een kleine toevoeging die verandert hoe vaak een ruimte wordt gebruikt.
+**Bromic-inzicht** Een bescheiden toevoeging kan veranderen hoe vaak er van een ruimte wordt genoten.
 
 **Ontwerpstap** Begroot verwarming samen met de pergola en de verlichting.
 
-## 05 Binnen en buiten zijn één ruimte
+## 05 Binnen en buiten worden één
 
 **40%** netto aandeel Amerikaanse architecten dat in elkaar overlopende binnen- en buitenruimtes populairder ziet worden.[^s1]\
 *AIA, Home Design Trends Survey, Q2 2025*
 
-- Glazen wanden schuiven weg.
-- Vloeren en plafonds lopen door.
-- Het terras hoort bij de woonplattegrond.
+- Glazen wanden schuiven weg en openen de kamer.
+- Vloeren en plafonds lopen naadloos door van binnen naar buiten.
+- Het terras wordt deel van de woonplattegrond.
 
-**Bromic-inzicht** Stralingswarmte verwarmt mensen, geen lucht, en werkt dus ook met de wanden open.
+**Bromic-inzicht** Stralingswarmte verwarmt mensen en oppervlakken in plaats van de lucht, en blijft dus werken met de wanden open.
 
-**Ontwerpstap** Laat het plafond doorlopen naar buiten; bouw de verwarmers in.
+**Ontwerpstap** Laat het plafond doorlopen naar buiten en bouw de verwarmers erin in.
 
-## 06 Pergola's maken buitenkamers
+## 06 Pergola's geven de buitenkamer vorm
 
 **33%** van de Amerikaanse huiseigenaren die buiten verbouwen, doet dat om hun woonruimte uit te breiden.[^s6]\
 *Houzz, U.S. Outdoor Trends Study, 2024*
 
-- Pergola's bakenen zones af.
-- Ze worden meeontworpen.
-- Ze dragen licht, geluid en warmte.
+- Pergola's bakenen plekken af om te eten, te loungen en samen te komen.
+- Ze worden vanaf het begin in het huis meeontworpen.
+- Ze dragen moeiteloos licht, geluid en warmte.
 
-**Bromic-inzicht** Pergola's zijn ideale bevestigingspunten voor geïntegreerde stralingswarmte.
+**Bromic-inzicht** Een pergola is een ideaal bevestigingspunt voor geïntegreerde stralingswarmte.
 
-**Ontwerpstap** Bekabel pergola's voor verwarmers, Affinity-bediening en een wandschakelaar.
+**Ontwerpstap** Bekabel elke pergola voor zijn verwarmers, Affinity-bediening en wandschakelaar.
 
-## 07 Slim buitenleven wordt standaard
+## 07 Slim buitenleven wordt vanzelfsprekend
 
 **5** smarthomeplatforms werken met Affinity Smart-Heat Controls.[^s8]\
 *Bromic Lookbook 2026; compatibiliteit verschilt*
 
-- Eén platform voor licht, warmte en geluid.
-- Bediening via een app wordt verwacht.
-- Ruimtes reageren op het tijdstip.
+- Licht, warmte en geluid leven nu op één platform.
+- Huiseigenaren verwachten de sfeer vanuit een app in te stellen.
+- De ruimte reageert soepel op het tijdstip.
 
-**Bromic-inzicht** Affinity-bediening verbindt verwarmers met de Smart-Heat app en spraakassistenten. Wifi- en app-functies vragen om compatibele Affinity-bediening, apart verkrijgbaar.
+**Bromic-inzicht** Affinity-bediening verbindt je verwarmers met de Smart-Heat app en spraakassistenten. Wifi- en app-functies vragen om compatibele Affinity-bediening, apart verkrijgbaar.
 
 **Ontwerpstap** Schrijf elke verwarmer voor met zijn regelaar, wandschakelaar en app.
 
-## 08 Producten met ontwerp vervangen gebruiksproducten
+## 08 Ontwerp geeft de toon aan
 
 **9,9** op 10: de Joy Score van Amerikaanse huiseigenaren voor een nieuw terras.[^s7]\
 *NAR en NALP, Remodeling Impact Report, 2023*
 
-- Uitstraling telt evenveel als functie.
-- Vlakke inbouw vervangt zichtbare hardware.
-- De ruimte leest als één geheel met het huis.
+- Hoe een ruimte eruitziet, telt evenveel als hoe ze werkt.
+- Vlakke inbouw neemt de plaats in van zichtbare hardware.
+- De buitenkamer leest als één geheel met het huis.
 
-**Bromic-inzicht** Ingebouwde verwarmers verdwijnen. Heat you can feel, not see.
+**Bromic-inzicht** Ingebouwde verwarmers verdwijnen in de architectuur. Warmte die je voelt, maar niet ziet.
 
-**Ontwerpstap** Detailleer inbouwsets, regelaar en wandschakelaar vroeg.
+**Ontwerpstap** Detailleer inbouwsets, regelaar en wandschakelaar vroeg in de tekeningen.
 
-## 09 Kleine ruimtes, volledig gebruikt
+## 09 Kleine ruimtes, mooi benut
 
 **ca. 11 m²** verwarmd door één Eclipse Smart-Heat Freestanding-verwarmer.[^s8]\
 *Bromic Lookbook 2026*
 
-- Kleinere kavels vragen om zones.
-- Eén oppervlak, meerdere functies.
-- Geen rommel.
+- Kleinere kavels belonen een doordachte zonering.
+- Eén oppervlak kan veel momenten dienen.
+- Elk element verdient zijn plek, zodat de ruimte rustig blijft.
 
-**Bromic-inzicht** Stralingswarmte richt zich op mensen, niet op lucht, en past dus bij compacte ruimtes.
+**Bromic-inzicht** Stralingswarmte wordt gericht op de mensen in de ruimte, en past daardoor vanzelf bij compacte terrassen en binnenplaatsen.
 
-**Ontwerpstap** Verwarm elke zone, met zijn Eclipse-regelaar en de app.
+**Ontwerpstap** Verwarm elke zone met zijn eigen Eclipse-regelaar en de app.
 
-## 10 Verwarming gaat van toevoeging naar inbouw
+## 10 Verwarming hoort vanaf dag één bij het plan
 
 **23%** van de Amerikaanse huiseigenaren noemt buitenverwarming een topprioriteit bij het plannen.[^s3]\
 *Atomik Research voor Bromic Heating, 2025* [[VERIFY: datum van de enquête, steekproefgrootte n en vraagstelling tegen de topline van Atomik — marketing]]
 
-- Grills werden ingebouwd. Verwarming is de volgende.
+- Grills werden ingebouwde voorzieningen, en verwarming volgt.
 - Ze wordt samen met de verlichting voorgeschreven.
-- Ingebouwde warmte betekent betrouwbaar gebruik.
+- Ingebouwde warmte betekent warmte waarop je elke avond kunt rekenen.
 
-**Bromic-inzicht** Verwarming met ontwerp wordt vanaf het begin geïntegreerd.
+**Bromic-inzicht** Verwarming met ontwerp wordt vanaf het allereerste begin geïntegreerd.
 
 **Ontwerpstap** Zet verwarmers, groepen en bediening op de eerste tekeningen.
 
 ## Plan vanaf het begin
 
-Gebruik het hele jaar door begint in de architectuurfase. Later toegevoegd worden stroom, montage en bediening beperkingen.
+Het hele jaar buiten leven begint in de architectuurfase. Komt de verwarming later, dan worden stroom, montage en bediening beperkingen waar je omheen moet werken.
 
-Elke Bromic-verwarmer heeft een Affinity On/Off-, Dimmer- of Eclipse-regelaar, een wandschakelaar en de Smart-Heat app nodig. Wifi- en app-functies vragen om compatibele Affinity-bediening, apart verkrijgbaar.
+Elke Bromic-verwarmer wordt gecombineerd met een Affinity On/Off-, Dimmer- of Eclipse-regelaar, een wandschakelaar en de Smart-Heat app. Wifi- en app-functies vragen om compatibele Affinity-bediening, apart verkrijgbaar.
 
-**Designed from the start, not added later.** Vanaf het begin ontworpen, niet achteraf toegevoegd.
+**Meegenomen vanaf de allereerste tekening.**
 
 ## Bronnen en methode
 
@@ -244,16 +244,15 @@ Elke Bromic-verwarmer heeft een Affinity On/Off-, Dimmer- of Eclipse-regelaar, e
 
 Alle marktcijfers gaan over de Verenigde Staten. De AIA-cijfers zijn netto (stijgend min dalend). Bromic gaf opdracht tot de enquête onder huiseigenaren door Atomik. [[VERIFY: steekproefgrootte, veldwerkdata en foutmarge uit de topline van Atomik — marketing]]
 
----
 
 ## Noot van de redactie
 
 *Deze noot beschrijft de Engelse master; de woordtellingen gelden voor de Engelse tekst.*
 
-- **Lengte.** Oorspronkelijke rapporttekst: 1.631 woorden (`sources/Bromic_Outdoor_Living_Trends_2026.txt`). Deze versie, van omslag tot bronnenpagina: 796 woorden, 51% korter. Alleen de rapporttekst, van omslag tot "Plan vanaf het begin": 727 woorden, 55% korter. Beide op dezelfde manier geteld: streepjes splitsen woorden; deze noot, de opmaaknotities, `[[VERIFY]]`-plaatshouders, voetnootmarkeringen en Markdown-syntaxis zijn niet meegeteld.
+- **Lengte.** Oorspronkelijke rapporttekst: 1.631 woorden (`sources/Bromic_Outdoor_Living_Trends_2026.txt`). Deze versie, van omslag tot bronnenpagina: 978 woorden, 40% korter. Alleen de rapporttekst, van omslag tot "Plan vanaf het begin": 909 woorden, 44% korter (opnieuw geteld na de herschrijving in de Bromic-stem van 16 nov. 2026). Beide op dezelfde manier geteld: streepjes splitsen woorden; deze noot, de opmaaknotities, `[[VERIFY]]`-plaatshouders, voetnootmarkeringen en Markdown-syntaxis zijn niet meegeteld.
 - **Geschrapte cijfers.** 94% "zou meer gebruikt kunnen worden" (Bromics eigen persberichten noemen 94% en 92%; aangehouden tot marketing er een kiest). 39% infraroodverwarmers (in geen enkel AIA-persbericht gevonden). $522 mld. (in geen enkel Harvard-persbericht; vervangen door $525 mld.). De jaartallen uit de jaren zeventig/2000/2010 voor apparaten (zonder bron). De terrasgrootte van ca. 30 m² en de 95% kostenterugwinning (gecontroleerd, maar één cijfer per trend). 43% "denkt niet na over verwarming" (niet gecontroleerd, niet nodig).
 - **Gewijzigde cijfers.** 61,8% (2024) bijgewerkt naar 60,5% (starts in 2025), volgens de aanbeveling in het correctiebestand; terugzetten als marketing anders beslist. Bij 55% en 40% staat nu "netto aandeel" en het jaar. Bij 33% staan nu het juiste onderzoek, de juiste basis en het juiste jaar. "Tevredenheidsscore" is nu de Joy Score van NAR.
-- **Cijfers verplaatst zodat elke trend er één heeft.** 67% van trend 01 naar 02, 23% van 02 naar 10, 9,9 van 03 naar 08. Trends 07 en 09 hadden er in het origineel geen; elk heeft nu een productgegeven van Bromic uit het Lookbook, geen marktcijfer.
+- **Cijfers verplaatst zodat elke trend er één heeft.** 67% van trend 01 naar 02, 23% van 02 naar 10, 9,9 van 03 naar 08. Trends 07 en 09 hadden er in het origineel geen; elk heeft nu een productgegeven van Bromic uit het Lookbook in plaats van een marktcijfer.
 - **Doorgevoerde correcties.** Alle 38 punten in [het correctiebestand](item:A01-corrections): "Studies", "radiant", "integration", "Multi-Use", "beginning"; de kapotte zin in trend 04 herschreven; het inzicht over slimme bediening van p.10 naar trend 07 verplaatst en trend 08 een inzicht over ontwerp gegeven; de 23% herschreven tot "noemt … een topprioriteit bij het plannen"; de kop met "="; losse spaties; één opmaak van een bronregel; een bronnenpagina toegevoegd.
 - **Regels.** Elke aanbeveling voor een verwarmer noemt de bediening; wifi- en app-functies staan vermeld als functies die compatibele Affinity-bediening vragen, apart verkrijgbaar. Geen verouderde serienamen, geen tekst over Tungsten Coastal of Select.
 
@@ -262,7 +261,7 @@ Alle marktcijfers gaan over de Verenigde Staten. De AIA-cijfers zijn netto (stij
 - **Formaat.** US Letter in de Engelse master, 24 pagina's, geniet (een veelvoud van vier). [[VERIFY: A4-formaat voor de Nederlandse versie — 454 Creative]]
 - **Paginaplan.**
   - p.1 Omslag: "Trends in buitenleven 2026", hoofdbeeld `t-001-000`.
-  - p.2 De verschuiving. Geen cijfers op deze pagina.
+  - p.2 Een kamer voor elk seizoen (de openingspagina). Geen cijfers op deze pagina.
   - pp.3–22 Tien spreads, één trend per spread: aflopende foto op de linkerpagina, de tekst van de trend op de rechterpagina.
   - p.23 Plan vanaf het begin, beeld `t-013-037`.
   - p.24 Bronnen en methode (achterkant).

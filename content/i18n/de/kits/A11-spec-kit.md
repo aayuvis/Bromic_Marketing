@@ -1,16 +1,16 @@
 ---
 id: A11
 type: spec-kit
-title: "Planungspaket für Architekten: elektrische Infrarot-Heizstrahler für den Außenbereich (Ausschreibungstext)"
+title: "Planungspaket für Architekten: So schreiben Sie Heizstrahler für den Außenbereich aus, Abschnitt 23 83 33"
 audience: [ARC]
 stage: [IN]
 cell: ARC-IN
 asset: A11
-summary: "Ein dreiteiliger Muster-Ausschreibungstext für elektrische Bromic Smart-Heat Infrarot-Heizstrahler und Affinity-Steuerungen, mit Tabelle zu Heizfläche und Auswahl, Detailliste und CAD/BIM-Verzeichnis."
+summary: "Alles, was Sie brauchen, um präzise gerichtete Wärme in Ihre Pläne zu schreiben: ein dreiteiliger CSI-Muster-Ausschreibungstext für elektrische Bromic Smart-Heat Infrarot-Heizstrahler und Affinity-Steuerungen, mit Tabelle zu Heizfläche und Auswahl, den zu zeichnenden Details und einem CAD/BIM-Verzeichnis."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie schreibe ich einen Ausschreibungstext für Infrarot-Heizstrahler im Außenbereich?"
-meta_description: "Muster-Ausschreibungstext für elektrische Infrarot-Heizstrahler im Außenbereich: Produkte, Steuerung, Abstände, Heizflächen-Tabelle und Detailliste."
+meta_description: "So schreiben Sie Heizstrahler für den Außenbereich aus: dreiteiliger Muster-Ausschreibungstext für elektrische Infrarotstrahler, Abschnitt 23 83 33, mit Steuerung und Abständen."
 cta: {label: "Planungsgespräch vereinbaren", asset: A07}
 hero: l-010-075
 images: [t-006-016, l-005-022]
@@ -18,7 +18,7 @@ owner_review: "Spezifikation und Compliance + Produktteam"
 status: draft
 gated: true
 related: [ARC-IN-01, ARC-CO-01, ARC-PP-01]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: de
 translation_of: A11
 translation_status: machine-draft
@@ -91,11 +91,13 @@ sources:
 
 # Planungspaket für Architekten: elektrische Infrarot-Heizstrahler für den Außenbereich
 
-Schreiben Sie die Außenheizung so in die Ausschreibung wie die Beleuchtung: eine eigene Position, ein benanntes Produkt, eine vorgeschriebene Steuerung, ein Detail in den Plänen. Dieses Paket enthält einen dreiteiligen Muster-Ausschreibungstext für elektrische Bromic Smart-Heat Infrarot-Heizstrahler, eine Tabelle zu Heizfläche und Auswahl, die zu zeichnenden Details und die anzufordernden CAD/BIM-Dateien. Die Gliederung folgt dem US-amerikanischen Standard MasterFormat (Abschnitt 23 83 33, Electric Radiant Heaters); für ein deutsches Leistungsverzeichnis übertragen Sie die Positionen in Ihre gewohnte Struktur. [[VERIFY: übliche Einordnung im deutschen Leistungsverzeichnis (z. B. STLB-Bau, Leistungsbereich nach VOB/C) — Partner Deutschland]] Passen Sie den Text in eckigen Klammern an, streichen Sie, was nicht zutrifft, und schicken Sie den Heizflächenplan vor dem Versand der Ausschreibung an das Bromic-Planungsteam.
+Die Außenräume, die Sie entwerfen, sollen noch lange nach Sonnenuntergang gelebt werden, und die Wärme, die das möglich macht, verdient in der Ausschreibung dieselbe Sorgfalt wie die Beleuchtung. Hat die Wärme eine eigene Position, ein benanntes Produkt, ihre vorgeschriebene Steuerung und ein Detail in den Plänen, kommt sie auf der Baustelle genau so an, wie Sie es beabsichtigt haben.
+
+Dieses Paket vereint einen dreiteiligen CSI-Muster-Ausschreibungstext für elektrische Bromic Smart-Heat Infrarot-Heizstrahler, eine Tabelle zu Heizfläche und Auswahl, die zu zeichnenden Details und die anzufordernden CAD/BIM-Dateien. Die Gliederung folgt dem US-amerikanischen Standard MasterFormat (Abschnitt 23 83 33, Electric Radiant Heaters); für ein deutsches Leistungsverzeichnis übertragen Sie die Positionen in Ihre gewohnte Struktur. [[VERIFY: übliche Einordnung im deutschen Leistungsverzeichnis (z. B. STLB-Bau, Leistungsbereich nach VOB/C) — Partner Deutschland]] Passen Sie den Text in eckigen Klammern an, streichen Sie, was nicht zutrifft, und schicken Sie den Heizflächenplan vor dem Versand der Ausschreibung an das Bromic-Planungsteam.
 
 ![Glaspavillon mit in die Decke eingelassenen Heizstrahlern](img:l-010-075)
 
-## Was enthält dieses Paket?
+## Was dieses Paket enthält
 
 | Teil | Inhalt | Format | Stand |
 |---|---|---|---|
@@ -106,21 +108,21 @@ Schreiben Sie die Außenheizung so in die Ausschreibung wie die Beleuchtung: ein
 | 5 | CAD- und BIM-Dateiverzeichnis | DWG, RVT, PDF | [[VERIFY: welche Dateien vorliegen — Produktteam]] |
 | 6 | Anfrage Planungsgespräch (Heizflächenpläne) | Service, [asset:A07](asset:A07) | Verfügbar |
 
-## In welchen MasterFormat-Abschnitt gehören Infrarot-Heizstrahler für den Außenbereich?
+## Wo Infrarot-Heizstrahler für den Außenbereich in MasterFormat hingehören
 
-Wenn Ihr Projekt nach MasterFormat gegliedert ist, etwa bei internationalen Bauherren: **23 83 33 Electric Radiant Heaters**. Die Begründung, damit Sie sie in einer Prüfung vertreten können:
+Wenn Ihr Projekt nach MasterFormat gegliedert ist, etwa bei internationalen Bauherren, empfehlen wir **23 83 33 Electric Radiant Heaters**. Die Begründung unten hilft Ihnen, diese Wahl in einer Prüfung zu vertreten.
 
-- **Division 23 (HVAC), 23 83 00 Radiant Heating Units** ist in MasterFormat der Platz für Geräte, die durch Strahlung heizen.[^s3] Die Unterabschnitte der dritten Ebene sind 23 83 13 (elektrische Heizkabel und -matten), 23 83 23 (elektrische Heizpaneele) und **23 83 33 (elektrische Heizstrahler)**.[^s4] Ein Bromic-Heizstrahler ist ein eigenständiger elektrischer Infrarotstrahler, kein Kabel, keine Matte und kein Paneel, daher passt 23 83 33 am besten.
-- **Nicht 23 82 39 Unit Heaters.** Dieser Abschnitt umfasst Konvektionsgeräte (Truhen-, Propeller-, Wand- und Deckenlufterhitzer), die warme Luft bewegen.[^s7] Im Freien steigt warme Luft auf und wird vom Wind fortgetragen; Strahlungswärme erwärmt dagegen Menschen und Oberflächen.[^s2]
-- **Nicht 23 55 23 Gas-Fired Radiant Heaters.** Dort gehören gasbetriebene Strahler hin.[^s6] Setzt ein Projekt zusätzlich Bromic-Gasheizstrahler ein, schreiben Sie diese dort in einem eigenen Abschnitt aus.
-- **Branchenpraxis.** Die Muster-Ausschreibungstexte anderer Hersteller für elektrische Heizstrahler im Außenbereich verwenden 23 83 33.[^s5] Manche Produktverzeichnisse führen Infrarotstrahler auch unter 23 82 39; das ist eine Gewohnheit der Verzeichnisse, kein Grund, ihr zu folgen.
+- **Division 23 (HVAC), 23 83 00 Radiant Heating Units** ist in MasterFormat der Platz für Geräte, die durch Strahlung heizen.[^s3] Die Unterabschnitte der dritten Ebene sind 23 83 13 (elektrische Heizkabel und -matten), 23 83 23 (elektrische Heizpaneele) und **23 83 33 (elektrische Heizstrahler)**.[^s4] Ein Bromic-Heizstrahler ist ein eigenständiger elektrischer Infrarotstrahler und gehört damit ganz natürlich in 23 83 33 statt zu Kabeln, Matten oder Paneelen.
+- **23 82 39 Unit Heaters** umfasst Konvektionsgeräte (Truhen-, Propeller-, Wand- und Deckenlufterhitzer), die warme Luft bewegen.[^s7] Im Freien steigt warme Luft auf und wird vom Wind fortgetragen, während Strahlungswärme Menschen und Oberflächen direkt erwärmt,[^s2] daher passt dieser Abschnitt schlecht.
+- **23 55 23 Gas-Fired Radiant Heaters** ist der Platz für gasbetriebene Strahler.[^s6] Setzt ein Projekt zusätzlich Bromic-Gasheizstrahler ein, schreiben Sie diese dort in einem eigenen Abschnitt aus.
+- **Branchenpraxis.** Die Muster-Ausschreibungstexte anderer Hersteller für elektrische Heizstrahler im Außenbereich verwenden 23 83 33.[^s5] Manche Produktverzeichnisse führen Infrarotstrahler auch unter 23 82 39; eine Konvention der Verzeichnisse, die Ihre Ausschreibung nicht bestimmen muss.
 - **Angrenzende Abschnitte**, mit denen Sie abstimmen: 26 05 19 (Leitungen), 26 05 33 (Rohre und Dosen), 26 27 26 (Installationsgeräte), 26 28 16 (Trennschalter), 23 09 00 (Mess- und Regeltechnik), falls Gebäudeautomation zum Umfang gehört, sowie Division 06/09 für die Unterkonstruktion und Bekleidung der Untersicht bei eingelassenen Geräten.
 
 [[VERIFY: Abschnittsnummern und -titel mit der aktuellen MasterFormat-Ausgabe abgleichen, die das Büro verwendet — specifier / Spezifikation und Compliance]]
 
-## Welcher Bromic-Heizstrahler passt zu welchem Bereich?
+## Der richtige Heizstrahler für jeden Bereich
 
-Zuerst die Menschen: Ein Esstisch braucht gleichmäßige Wärme auf Kopfhöhe im Sitzen, ein Bartresen Wärme dort, wo man steht, eine Lounge Wärme, die nicht blendet. Dann die Zahlen. Die Heizflächen sind Richtwerte und hängen von Modell, Montagehöhe, Umgebung und Installation ab.[^s1]
+Beginnen Sie mit den Menschen, die den Bereich nutzen werden. Ein Esstisch verlangt gleichmäßige Wärme auf Kopfhöhe im Sitzen, ein Bartresen Wärme dort, wo die Gäste stehen, und eine Lounge sanfte Wärme ohne Blendung. Die Zahlen ergeben sich daraus. Die Heizflächen sind Richtwerte und hängen von Modell, Montagehöhe, Umgebung und Installation ab.[^s1]
 
 | Serie | Stand | Leistung | Oberflächen | Heizfläche je Gerät (ca.) | Montage | Geeignet für | Steuerung (vorgeschrieben) |
 |---|---|---|---|---|---|---|---|
@@ -132,7 +134,7 @@ Zuerst die Menschen: Ein Esstisch braucht gleichmäßige Wärme auf Kopfhöhe im
 
 Die Heizfläche je Platinum-Leistungsstufe ist in diesem Paket noch nicht veröffentlicht. [[VERIFY: Heizfläche und Montagehöhe je Platinum-Leistung (2300 / 3400 / 4500 W) — Produktteam]]
 
-Ein Bereich gilt als Außenbereich, wenn mindestens 30 % seines Umfangs dauerhaft offen sind; ein Teildach hält eine „Wärmewolke“ zurück, die einen zusätzlichen konvektiven Effekt bringt.[^s2] Legen Sie die Anlage für den offenen Zustand aus und lassen Sie die Überdachung dann mithelfen.
+Ein Bereich gilt als Außenbereich, wenn mindestens 30 % seines Umfangs dauerhaft offen sind; ein Teildach hält eine „Wärmewolke“ zurück, die einen zusätzlichen konvektiven Effekt bringt.[^s2] Legen Sie die Anlage für den offenen Zustand aus, und die Überdachung trägt zusätzlich zur Behaglichkeit bei.
 
 ![Eingelassener Heizstrahler in einer Holzuntersicht auf einer Dachterrasse in der Stadt](img:t-006-016)
 
@@ -306,9 +308,9 @@ B. Betriebs- und Wartungsunterlagen, Garantieunterlagen und das Inbetriebnahmepr
 
 ## Produktvorgabe oder „oder gleichwertig“?
 
-*Hinweis zur Prüfung (Spezifikation und Compliance):* Ziel dieses Pakets ist es, den Austausch des Produkts bei der Vergabe zu verhindern. Eine Produktvorgabe (Option A) leistet das und ist bei privaten Wohn- und Hotelprojekten üblich. Viele öffentliche und manche privaten Bauherren verlangen Wettbewerb; der Architekt muss dann Alternativen zulassen. In Deutschland kann das Vergaberecht öffentliche Auftraggeber zu einer produktneutralen Ausschreibung oder zum Zusatz „oder gleichwertig“ verpflichten. Option B behält Bromic als Leitfabrikat, legt aber Leistungskriterien fest und verlangt für jedes Alternativprodukt einen Heizflächenplan. Das hebt die Hürde, ohne Alternativen auszuschließen. Beide Optionen sind oben ausformuliert. [[VERIFY: von Bromic bevorzugte Standardoption (A oder B) und die Leistungskriterien für Option B — Spezifikation und Compliance + Produktteam]]
+*Hinweis zur Prüfung (Spezifikation und Compliance):* Dieses Paket ist so geschrieben, dass es die Planungsabsicht bis zur Vergabe schützt, indem es den Austausch des Produkts begrenzt. Eine Produktvorgabe (Option A) leistet das und ist bei privaten Wohn- und Hotelprojekten üblich. Viele öffentliche und manche privaten Bauherren verlangen Wettbewerb; der Architekt muss dann Alternativen zulassen. In Deutschland kann das Vergaberecht öffentliche Auftraggeber zu einer produktneutralen Ausschreibung oder zum Zusatz „oder gleichwertig“ verpflichten. Option B behält Bromic als Leitfabrikat, legt aber Leistungskriterien fest und verlangt für jedes Alternativprodukt einen Heizflächenplan. Das hebt den Maßstab und lässt dennoch Alternativen zu. Beide Optionen sind oben ausformuliert. [[VERIFY: von Bromic bevorzugte Standardoption (A oder B) und die Leistungskriterien für Option B — Spezifikation und Compliance + Produktteam]]
 
-## Welche Details sollten die Pläne enthalten?
+## Die Details, die Ihre Pläne enthalten sollten
 
 Vier Standarddetails decken die meisten Projekte ab. Jedes wird als Schnitt oder Grundriss gezeichnet, die Maße bleiben als Platzhalter für das gewählte Modell.
 
@@ -321,7 +323,7 @@ Vier Standarddetails decken die meisten Projekte ab. Jedes wird als Schnitt oder
 
 ![Eingelassener Heizstrahler in einer weißen Decke an der Küste](img:l-005-022)
 
-## Welche CAD- und BIM-Dateien gibt es?
+## CAD- und BIM-Dateien für Ihr Modell
 
 [[VERIFY: welche Dateien vorliegen, ihre Formate, Detaillierungsgrad (LOD) und wo sie bereitgestellt werden (bromic.com, BIMobject, ARCAT, andere) — Produktteam]]
 
@@ -336,13 +338,13 @@ Vier Standarddetails decken die meisten Projekte ab. Jedes wird als Schnitt oder
 | Prüf- und Konformitätsnachweise | .pdf | Je Modell | [[VERIFY — Produktteam]] |
 | Dieser Muster-Ausschreibungstext | .docx | Abschnitt 23 83 33 | Entwurf (dieses Dokument) |
 
-## Checkliste für die Planung
+## Ihre Checkliste für die Planung
 
 - [ ] Bereich als Außenbereich bestätigt (mindestens 30 % des Umfangs dauerhaft offen).[^s2]
 - [ ] Serie nach Nutzung gewählt: Sitzen, Stehen, Lounge; Küstenlage vermerkt.
 - [ ] Heizflächenplan (D4) über dem Möblierungsplan gezeichnet und vom Bromic-Planungsteam geprüft.
 - [ ] Steuerung für jede Zone festgelegt: Art des Steuergeräts, Wandschalter, App, etwaige Integration.
-- [ ] Montagehöhen und Abstände aus der aktuellen Montageanleitung übernommen, nicht aus dem Gedächtnis.
+- [ ] Montagehöhen und Abstände für jedes Modell aus der aktuellen Montageanleitung übernommen.
 - [ ] Einbauhohlräume und Unterkonstruktion in den Architekturschnitten dargestellt (D1).
 - [ ] Stromkreise, Spannung (230 V) und Trennvorrichtungen mit dem Elektroplaner abgestimmt.
 - [ ] Vorschriften geprüft: Verlangt das zuständige Bauamt eine Präsenz- oder Zeitsteuerung für Außenheizungen?
@@ -351,6 +353,6 @@ Vier Standarddetails decken die meisten Projekte ab. Jedes wird als Schnitt oder
 
 ## Haftungsausschluss
 
-Dieser Muster-Ausschreibungstext ist ein Ausgangspunkt und ersetzt kein fachliches Urteil. Vorschriften, Prüfzeichen und Herstelleranforderungen ändern sich. Klären Sie jede Anforderung mit dem zuständigen Bauamt und einem eingetragenen Elektrofachbetrieb ab und verwenden Sie die aktuelle Montageanleitung des ausgeschriebenen Modells. Die Bilder dienen der gestalterischen Anregung; Größe und Anordnung der Produkte können von den tatsächlichen Angaben abweichen.[^s1]
+Dieser Muster-Ausschreibungstext ist ein Ausgangspunkt, der Ihr fachliches Urteil unterstützt und es nie ersetzt. Vorschriften, Prüfzeichen und Herstelleranforderungen ändern sich. Klären Sie jede Anforderung mit dem zuständigen Bauamt und einem eingetragenen Elektrofachbetrieb ab und verwenden Sie die aktuelle Montageanleitung des ausgeschriebenen Modells. Die Bilder dienen der gestalterischen Anregung; Größe und Anordnung der Produkte können von den tatsächlichen Angaben abweichen.[^s1]
 
-Schicken Sie uns den Grundriss, und wir senden Ihnen einen Heizflächenplan für Ihre Ausschreibung zurück.
+Schicken Sie uns Ihren Grundriss, und wir senden Ihnen einen Heizflächenplan zurück, der auf Ihre Ausschreibung zugeschnitten ist.

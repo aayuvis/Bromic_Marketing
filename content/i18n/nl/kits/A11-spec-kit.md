@@ -1,16 +1,16 @@
 ---
 id: A11
 type: spec-kit
-title: "Specificatiekit voor architecten: elektrische stralingsverwarmers voor buiten (sectie 23 83 33)"
+title: "Specificatiekit voor architecten: zo schrijft u buitenverwarmers voor, sectie 23 83 33"
 audience: [ARC]
 stage: [IN]
 cell: ARC-IN
 asset: A11
-summary: "Een driedelige modelspecificatie volgens de Amerikaanse CSI-systematiek voor elektrische stralingsverwarmers van Bromic Smart-Heat en de Affinity-bediening, met een tabel voor verwarmd oppervlak en keuze, een detaillijst en een overzicht van CAD- en BIM-bestanden."
+summary: "Alles wat u nodig hebt om precieze, gerichte warmte in uw tekeningen op te nemen: een driedelige modelspecificatie volgens de Amerikaanse CSI-systematiek voor elektrische stralingsverwarmers van Bromic Smart-Heat en de Affinity-bediening, met een tabel voor verwarmd oppervlak en keuze, de te tekenen details en een overzicht van CAD- en BIM-bestanden."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe schrijf ik een bestekomschrijving voor infrarood buitenverwarmers?"
-meta_description: "Driedelige modelspecificatie voor elektrische stralingsverwarmers voor buiten, sectie 23 83 33: producten, bediening, vrije afstanden, tabel voor verwarmd oppervlak en detaillijst."
+meta_description: "Zo schrijft u buitenverwarmers voor: een driedelige modelspecificatie voor elektrische stralingsverwarmers, sectie 23 83 33, met bediening, vrije afstanden en verwarmd oppervlak."
 cta: {label: "Plan een ontwerpgesprek", asset: A07}
 hero: l-010-075
 images: [t-006-016, l-005-022]
@@ -18,7 +18,7 @@ owner_review: "specificatie en compliance + productteam"
 status: draft
 gated: true
 related: [ARC-IN-01, ARC-CO-01, ARC-PP-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic
@@ -91,13 +91,15 @@ native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 
 # Specificatiekit voor architecten: elektrische stralingsverwarmers voor buiten
 
-Neem buitenwarmte op in het bestek zoals u verlichting opneemt: een eigen sectie, een gekeurd product, een verplichte bediening, een detail op de tekeningen. Deze kit geeft u een driedelige modelspecificatie volgens de CSI-systematiek voor elektrische stralingsverwarmers van Bromic Smart-Heat onder **MasterFormat 23 83 33, Electric Radiant Heaters**, een tabel voor verwarmd oppervlak en keuze, de te tekenen details en de CAD- en BIM-bestanden die u kunt opvragen. Pas de tekst tussen haken aan, schrap wat niet van toepassing is, en stuur het plan met het verwarmd oppervlak naar het ontwerpteam van Bromic voordat u aanbesteedt.
+De buitenkamers die u ontwerpt, zijn bedoeld om tot lang na zonsondergang in te leven, en de warmte die dat mogelijk maakt, verdient in het bestek dezelfde zorg als de verlichting. Krijgt de warmte een eigen sectie, een gekeurd product, de verplichte bediening en een detail op de tekeningen, dan komt ze op de bouwplaats precies zo aan als u bedoelde.
+
+Deze kit brengt een driedelige modelspecificatie volgens de CSI-systematiek voor elektrische stralingsverwarmers van Bromic Smart-Heat onder **MasterFormat 23 83 33, Electric Radiant Heaters**, een tabel voor verwarmd oppervlak en keuze, de te tekenen details en de CAD- en BIM-bestanden die u kunt opvragen samen. Pas de tekst tussen haken aan, schrap wat niet van toepassing is, en stuur het plan met het verwarmd oppervlak naar het ontwerpteam van Bromic voordat u aanbesteedt.
 
 *Let op: deze kit volgt de Amerikaanse CSI MasterFormat-indeling en Amerikaanse referenties (NEC, NRTL-keuring). In Nederland wordt een bestek doorgaans opgesteld volgens de eigen Nederlandse systematiek, en gelden NEN 1010 voor de elektrische installatie en de CE-markering voor het product. Gebruik de inhoud van de secties als basis en zet die over naar uw eigen bestekssystematiek.* [[VERIFY: gangbare Nederlandse bestekssystematiek (bijvoorbeeld STABU) en het bijbehorende hoofdstuk voor elektrische stralingsverwarmers — Bromic Benelux distributor]]
 
 ![Glazen paviljoen met in het plafond ingebouwde verwarmers](img:l-010-075)
 
-## Wat zit er in deze kit?
+## Wat er in deze kit zit
 
 | Deel | Wat het is | Formaat | Status |
 |---|---|---|---|
@@ -108,21 +110,21 @@ Neem buitenwarmte op in het bestek zoals u verlichting opneemt: een eigen sectie
 | 5 | Overzicht van CAD- en BIM-bestanden | DWG, RVT, PDF | [[VERIFY: welke bestanden er bestaan — productteam]] |
 | 6 | Aanvraag ontwerpgesprek (tekeningen van het verwarmd oppervlak) | Service, [asset:A07](asset:A07) | Beschikbaar |
 
-## In welke MasterFormat-sectie horen infrarood buitenverwarmers?
+## Waar infrarood buitenverwarmers in MasterFormat thuishoren
 
-Gebruik **23 83 33 Electric Radiant Heaters**. De onderbouwing, zodat u de keuze bij een bestekbespreking kunt verdedigen:
+Wij adviseren **23 83 33 Electric Radiant Heaters**, en de onderbouwing hieronder helpt u die keuze bij een bestekbespreking te verdedigen.
 
-- **Division 23 (HVAC), 23 83 00 Radiant Heating Units** is in MasterFormat de plek voor apparatuur die door straling verwarmt.[^s3] De onderliggende secties op niveau 3 zijn 23 83 13 (elektrische verwarmingskabels en -matten), 23 83 23 (elektrische stralingspanelen) en **23 83 33 (elektrische stralingsverwarmers)**.[^s4] Een Bromic-verwarmer is een op zichzelf staande elektrische infraroodstraler, geen kabel, mat of paneel, dus 23 83 33 sluit het best aan.
-- **Niet 23 82 39 Unit Heaters.** Die sectie gaat over convectietoestellen (kast-, propeller-, wand- en plafondluchtverwarmers) die warme lucht verplaatsen.[^s7] Buiten stijgt warme lucht op en waait weg met de wind; stralingswarmte verwarmt in plaats daarvan mensen en oppervlakken.[^s2]
-- **Niet 23 55 23 Gas-Fired Radiant Heaters.** Daar hoort stralingsapparatuur op gas.[^s6] Gebruikt een project ook gasverwarmers van Bromic, omschrijf die dan daar in een aparte sectie.
-- **Gangbare praktijk.** De modelspecificaties van andere fabrikanten voor elektrische stralingsverwarmers voor buiten gebruiken 23 83 33.[^s5] Sommige productdatabanken zetten infraroodverwarmers onder 23 82 39; zie dat als een gewoonte van die databanken, niet als reden om het te volgen.
+- **Division 23 (HVAC), 23 83 00 Radiant Heating Units** is in MasterFormat de plek voor apparatuur die door straling verwarmt.[^s3] De onderliggende secties op niveau 3 zijn 23 83 13 (elektrische verwarmingskabels en -matten), 23 83 23 (elektrische stralingspanelen) en **23 83 33 (elektrische stralingsverwarmers)**.[^s4] Een Bromic-verwarmer is een op zichzelf staande elektrische infraroodstraler en hoort daarmee het meest vanzelfsprekend in 23 83 33, eerder dan bij kabels, matten of panelen.
+- **23 82 39 Unit Heaters** gaat over convectietoestellen (kast-, propeller-, wand- en plafondluchtverwarmers) die warme lucht verplaatsen.[^s7] Buiten stijgt warme lucht op en waait weg met de wind, terwijl stralingswarmte mensen en oppervlakken direct verwarmt,[^s2] dus deze sectie past slecht.
+- **23 55 23 Gas-Fired Radiant Heaters** is de plek voor stralingsapparatuur op gas.[^s6] Gebruikt een project ook gasverwarmers van Bromic, omschrijf die dan daar in een aparte sectie.
+- **Gangbare praktijk.** De modelspecificaties van andere fabrikanten voor elektrische stralingsverwarmers voor buiten gebruiken 23 83 33.[^s5] Sommige productdatabanken zetten infraroodverwarmers onder 23 82 39; een gewoonte van die databanken die uw specificatie niet hoeft te bepalen.
 - **Verwante secties** om op af te stemmen: 26 05 19 (geleiders), 26 05 33 (leidingen en dozen), 26 27 26 (installatiemateriaal), 26 28 16 (werkschakelaars), 23 09 00 (meet- en regeltechniek) als een gebouwbeheersysteem binnen de opdracht valt, en Division 06/09 voor het regelwerk en de afwerking van het overstek rond inbouwtoestellen.
 
 [[VERIFY: sectienummers en -titels controleren tegen de huidige editie van CSI MasterFormat die het bureau gebruikt — specifier / specificatie en compliance]]
 
-## Welke Bromic-verwarmer past bij welke ruimte?
+## De juiste verwarmer voor elke ruimte
 
-Eerst de mensen: een eettafel vraagt gelijkmatige warmte op hoofdhoogte van zittende gasten; een bar vraagt warmte waar mensen staan; een loungehoek vraagt warmte die niet verblindt. Dan de cijfers. Het verwarmd oppervlak is een benadering en verschilt met model, montagehoogte, omgeving en installatie.[^s1]
+Begin bij de mensen die de ruimte gaan gebruiken. Een eettafel vraagt om gelijkmatige warmte op hoofdhoogte van zittende gasten, een bar om warmte waar de gasten staan, en een loungehoek om zachte warmte zonder verblinding. De cijfers volgen daaruit. Het verwarmd oppervlak is een benadering en verschilt met model, montagehoogte, omgeving en installatie.[^s1]
 
 | Serie | Status | Vermogen | Afwerking | Verwarmd oppervlak per verwarmer, ongeveer | Montage | Het meest geschikt voor | Bediening (verplicht) |
 |---|---|---|---|---|---|---|---|
@@ -134,7 +136,7 @@ Eerst de mensen: een eettafel vraagt gelijkmatige warmte op hoofdhoogte van zitt
 
 Het verwarmd oppervlak per afzonderlijk Platinum-vermogen staat nog niet in deze kit. [[VERIFY: verwarmd oppervlak en montagehoogte per Platinum-vermogen (2300 / 3400 / 4500 W) — productteam]]
 
-Een ruimte geldt als buitenruimte wanneer minstens 30% van de omtrek permanent open is; een gedeeltelijk dak houdt een 'warmtewolk' vast die er een convectief extraatje bij geeft.[^s2] Dimensioneer voor de open situatie en laat de overkapping daarna meehelpen.
+Een ruimte geldt als buitenruimte wanneer minstens 30% van de omtrek permanent open is; een gedeeltelijk dak houdt een 'warmtewolk' vast die er een convectief extraatje bij geeft.[^s2] Dimensioneer voor de open situatie, en de overkapping draagt extra bij aan het comfort.
 
 ![Ingebouwde verwarmer in een houten overstek op een dakterras in de stad](img:t-006-016)
 
@@ -308,9 +310,9 @@ B. Draag de handleidingen voor gebruik en onderhoud, de garantiedocumenten en he
 
 ## Merkgebonden of "of gelijkwaardig"?
 
-*Notitie voor beoordeling (specificatie en compliance):* het doel van deze kit is vervanging bij de aanbesteding te voorkomen. Een merkgebonden specificatie (optie A) doet dat, en is gebruikelijk bij particuliere woningbouw en horeca. Veel publieke opdrachtgevers, en ook sommige particuliere, eisen mededinging, zodat een architect alternatieven moet toestaan. Optie B houdt Bromic als uitgangspunt van het ontwerp, maar stelt prestatie-eisen en vraagt voor elk alternatief een tekening van het verwarmd oppervlak. Dat legt de lat hoger zonder alternatieven te verbieden. Beide opties staan hierboven uitgewerkt. [[VERIFY: de standaardkeuze die Bromic de voorkeur geeft (A of B) en de prestatie-eisen voor optie B — specificatie en compliance + productteam]] [[VERIFY: regels voor merkgebonden voorschrijven bij Nederlandse aanbestedingen — Bromic Benelux distributor]]
+*Notitie voor beoordeling (specificatie en compliance):* deze kit is zo geschreven dat hij de ontwerpintentie tot en met de aanbesteding beschermt door vervanging te beperken. Een merkgebonden specificatie (optie A) doet dat, en is gebruikelijk bij particuliere woningbouw en horeca. Veel publieke opdrachtgevers, en ook sommige particuliere, eisen mededinging, zodat een architect alternatieven moet toestaan. Optie B houdt Bromic als uitgangspunt van het ontwerp, maar stelt prestatie-eisen en vraagt voor elk alternatief een tekening van het verwarmd oppervlak. Dat legt de lat hoger en laat toch alternatieven toe. Beide opties staan hierboven uitgewerkt. [[VERIFY: de standaardkeuze die Bromic de voorkeur geeft (A of B) en de prestatie-eisen voor optie B — specificatie en compliance + productteam]] [[VERIFY: regels voor merkgebonden voorschrijven bij Nederlandse aanbestedingen — Bromic Benelux distributor]]
 
-## Welke details moeten op de tekeningen?
+## De details die op uw tekeningen horen
 
 Vier standaarddetails dekken de meeste projecten. Elk is getekend als doorsnede of plattegrond, met maten als labels voor het gekozen model.
 
@@ -323,7 +325,7 @@ Vier standaarddetails dekken de meeste projecten. Elk is getekend als doorsnede 
 
 ![Ingebouwde verwarmer in een wit plafond aan de kust](img:l-005-022)
 
-## Welke CAD- en BIM-bestanden zijn er?
+## CAD- en BIM-bestanden voor uw model
 
 [[VERIFY: welke bestanden er bestaan, hun formaten, LOD en waar ze worden gehost (bromic.com, BIMobject, ARCAT, andere) — productteam]]
 
@@ -338,13 +340,13 @@ Vier standaarddetails dekken de meeste projecten. Elk is getekend als doorsnede 
 | Keuringscertificaten | .pdf | Keuring per model | [[VERIFY — productteam]] |
 | Deze modelspecificatie | .docx | Sectie 23 83 33 | Concept (dit document) |
 
-## Checklist voor de planning
+## Uw checklist voor de planning
 
 - [ ] Ruimte bevestigd als buitenruimte (minstens 30% van de omtrek permanent open).[^s2]
 - [ ] Serie gekozen op gebruik: zittend, staand, lounge; blootstelling aan kustklimaat genoteerd.
 - [ ] Plan van het verwarmd oppervlak (D4) getekend over de meubelopstelling en gecontroleerd door het ontwerpteam van Bromic.
 - [ ] Bediening aangegeven voor elke zone: type regelaar, wandschakelaar, app, eventuele koppeling.
-- [ ] Montagehoogtes en vrije afstanden overgenomen uit de huidige installatiehandleiding, niet uit het geheugen.
+- [ ] Montagehoogtes en vrije afstanden voor elk model overgenomen uit de huidige installatiehandleiding.
 - [ ] Inbouwholtes en klossen aangegeven op de bouwkundige doorsneden (D1).
 - [ ] Groepen, spanning (230 V, 50 Hz) en werkschakelaars afgestemd met de installatieadviseur.
 - [ ] Controle op energievoorschriften: eist de bevoegde instantie bediening met aanwezigheidsdetectie of een timer voor buitenwarmte?
@@ -353,6 +355,6 @@ Vier standaarddetails dekken de meeste projecten. Elk is getekend als doorsnede 
 
 ## Disclaimer
 
-Deze modelspecificatie is een beginpunt, geen vervanging voor professioneel oordeel. Voorschriften, keuringen en eisen van de fabrikant veranderen. Controleer elke eis bij de bevoegde instantie (in Nederland uw gemeente) en een vakbekwaam elektrotechnisch installateur, en gebruik de geldende installatievoorschriften van de fabrikant voor het voorgeschreven model. De beelden dienen als inspiratie voor het ontwerp; schaal en plaatsing van het product kunnen afwijken van de werkelijke specificaties.[^s1]
+Deze modelspecificatie is een beginpunt dat uw professionele oordeel ondersteunt en nooit vervangt. Voorschriften, keuringen en eisen van de fabrikant veranderen. Controleer elke eis bij de bevoegde instantie (in Nederland uw gemeente) en een vakbekwaam elektrotechnisch installateur, en gebruik de geldende installatievoorschriften van de fabrikant voor het voorgeschreven model. De beelden dienen als inspiratie voor het ontwerp; schaal en plaatsing van het product kunnen afwijken van de werkelijke specificaties.[^s1]
 
-Stuur ons de plattegrond, dan sturen wij een tekening van het verwarmd oppervlak terug voor uw specificatie.
+Stuur ons uw plattegrond, en wij sturen een tekening van het verwarmd oppervlak terug die is afgestemd op uw specificatie.

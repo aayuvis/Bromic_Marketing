@@ -5,16 +5,16 @@ translation_of: A15
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 type: sales-kit
-title: "Bromic-programma voor aannemers: one-pager en Good–Better–Best-gids voor buitenverwarming"
+title: "Het Bromic-programma voor aannemers: pakketten buitenverwarming in drie niveaus"
 audience: [BLD]
 stage: [AW, CO]
 cell: BLD-CO
 asset: A15
-summary: "Een one-pager voor woningbouwers plus een buitenverwarmingspakket in drie niveaus, Good–Better–Best, elk niveau een compleet systeem met verwarmers, bediening en voorbekabeling."
+summary: "Een one-pager voor woningbouwers en een Good–Better–Best-pakket buitenverwarming – elk niveau een compleet, voorbekabeld systeem van verwarmers en bediening, waarmee uw kopers nog lang na zonsondergang van het terras genieten."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe kunnen aannemers buitenverwarming als meerwerkoptie aanbieden?"
-meta_description: "Een Good–Better–Best-pakket buitenverwarming voor woningbouwers: drie complete niveaus met verwarmers, bediening en voorbekabeling, plus het Bromic-programma voor aannemers."
+meta_description: "Pakketten buitenverwarming voor woningbouwers: drie complete Good–Better–Best-niveaus met verwarmers, bediening en voorbekabeling uit het Bromic-programma voor aannemers."
 cta: {label: "Boek een ontwerpadvies", asset: A07}
 hero: l-010-069
 images: [l-010-070, l-010-071, l-013-100]
@@ -22,7 +22,7 @@ owner_review: verkoop vakhandel
 status: draft
 gated: true
 related: [BLD-AW-01, BLD-CO-01, BLD-IN-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: National Association of Home Builders (Eye on Housing)
@@ -68,9 +68,9 @@ sources:
     verified: true
 ---
 
-# Bromic-programma voor aannemers
+# Het Bromic-programma voor aannemers
 
-Uw kopers staan al op het terras en zien de avonden voor zich. Warmte is wat hen buiten laat blijven als de zon ondergaat. De meeste pakketten houden op bij de terrasvloer en de pergola; dit pakket voegt een complete, voorbekabelde optie voor buitenverwarming toe in drie prijsklassen, zodat uw verkoopteam warmte verkoopt zoals het keukens verkoopt.
+Uw kopers staan al op het terras en zien de avonden voor zich die ze daar zullen doorbrengen. Stralingswarmte laat hen buiten blijven, lang nadat de zon is ondergegaan. De meeste pakketten houden op bij de terrasvloer en de pergola, daarom hebben we een complete, voorbekabelde optie voor buitenverwarming gemaakt in drie prijsklassen, die uw verkoopteam net zo vanzelfsprekend kan presenteren als de keuken.
 
 ![Modern poolhouse met verwarmers onder de uitkraging](img:l-010-069)
 
@@ -78,20 +78,20 @@ Uw kopers staan al op het terras en zien de avonden voor zich. Warmte is wat hen
 
 ### Kop
 
-**Verkoop de avond, niet alleen het terras.**
-Voorbekabelde stralingswarmte van Bromic in drie kant-en-klare pakketten, meegenomen bij het timmerwerk, niet achteraf toegevoegd.
+**Verkoop de avond samen met het terras.**
+Voorbekabelde stralingswarmte van Bromic in drie kant-en-klare pakketten, meegenomen bij het timmerwerk vanaf de allereerste tekening.
 
 ### Waarom warmte op de meerwerklijst hoort
 
-**1. Het terras is standaard.** In de VS kreeg 60,5% van de eengezinswoningen waarvan de bouw in 2025 begon een terras.[^s1] Het gemiddelde terras bij een Amerikaanse nieuwbouwwoning is ongeveer 30 m².[^s2]
+**1. De meeste nieuwe woningen krijgen tegenwoordig een terras.** In de VS kreeg 60,5% van de eengezinswoningen waarvan de bouw in 2025 begon een terras.[^s1] Het gemiddelde terras bij een Amerikaanse nieuwbouwwoning is ongeveer 30 m².[^s2]
 
 **2. Kopers vragen erom.** 86% van de recente en toekomstige Amerikaanse kopers noemt een terras essentieel of wenselijk, gelijk met de wasruimte als meest gewilde voorziening.[^s3]
 
-**3. Warmte is het gat.** Slechts 23% van de Amerikaanse huiseigenaren geeft buitenverwarming prioriteit in de planningsfase, terwijl 67% zegt dat verwarming het gebruik van hun buitenruimte verlengt.[^s4] [[VERIFY: onderzoeksbasis, steekproefgrootte en veldwerkdatum van de cijfers van Atomik Research — marketing]] Dat gat is het meerwerk. [[VERIFY: vergelijkbare Nederlandse cijfers over terrassen in de nieuwbouw, of de Amerikaanse cijfers zo laten — Bromic Benelux distributor]]
+**3. Weinig woningen krijgen de warmte om ervan te genieten.** Slechts 23% van de Amerikaanse huiseigenaren geeft buitenverwarming prioriteit in de planningsfase, terwijl 67% zegt dat verwarming het gebruik van hun buitenruimte verlengt.[^s4] [[VERIFY: onderzoeksbasis, steekproefgrootte en veldwerkdatum van de cijfers van Atomik Research — marketing]] In de afstand tussen die twee getallen zit uw meerwerk. [[VERIFY: vergelijkbare Nederlandse cijfers over terrassen in de nieuwbouw, of de Amerikaanse cijfers zo laten — Bromic Benelux distributor]]
 
-### Wat het programma u biedt
+### Wat het programma uw team biedt
 
-Alles hieronder is een voorstel tot het is bevestigd. Niets hier is een toezegging over prijs, marge of levertijd.
+Alles hieronder is een voorstel tot het is bevestigd, en niets ervan is al een toezegging over prijs, marge of levertijd.
 
 | Voordeel | Wat het betekent voor uw team | Status |
 |---|---|---|
@@ -114,7 +114,7 @@ Projectontwikkelaars en aannemers met een pakket voor buitenleven, bouwers van v
 
 ## Deel 2: de Good–Better–Best-gids
 
-Elk niveau is een complete, werkende oplossing: verwarmers, de bediening om ze te sturen, montage, en de voorbekabeling die uw installateur tijdens het timmerwerk aanlegt. Bediening hoort bij elk niveau en is nooit een extraatje. Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht; ze is in het niveau inbegrepen waar dat staat vermeld.[^s5]
+Elk niveau is een complete, werkende oplossing die de verwarmers samenbrengt met de bediening die ze aanstuurt, de montage en de voorbekabeling die uw installateur tijdens het timmerwerk aanlegt. Bediening hoort bij elk niveau als onderdeel van het systeem. Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht; ze is in het niveau inbegrepen waar dat staat vermeld.[^s5]
 
 De niveaus gelden voor één overdekt terras. Het aantal verwarmers hangt af van de grootte, de hoogte en de ligging van het terras; het verwarmde oppervlak per verwarmer is een benadering en verschilt per model, montagehoogte, omgeving en installatie.[^s5] Het ontwerpteam van Bromic bevestigt aantal en posities voor elk plan.
 
@@ -136,30 +136,30 @@ De niveaus gelden voor één overdekt terras. Het aantal verwarmers hangt af van
 
 ![Eettafel op een binnenplaats met een zwarte wandverwarmer](img:l-010-070)
 
-### Good: warmte waar mensen zitten
+### Good: warmte waar iedereen zit
 
-Een Platinum-verwarmer aan muur of plafond, gericht op de tafel. Eén zone, één schakelaar, één regelaar. De eenvoudigste voorbekabeling en de makkelijkste regel op de meerwerklijst. Marine-uitvoeringen passen bij kavels aan de kust.[^s5]
+Een Platinum-verwarmer aan muur of plafond is op de tafel gericht en werkt op één zone met één schakelaar en één regelaar. Het is de eenvoudigste voorbekabeling en de makkelijkste regel om aan de meerwerklijst toe te voegen. Marine-uitvoeringen passen bij kavels aan de kust.[^s5]
 
-### Better: warmte die je voelt, niet ziet
+### Better: warmte die je voelt, maar niet ziet
 
-Platinum vlak ingebouwd in het overstek met de inbouwset van Bromic, zodat het plafond strak blijft.[^s6] Met de Affinity Dimmer-regelaar zetten bewoners de warmte lager op zachte avonden, en de Smart-Heat-app stelt schema's en timers in. Dit is het niveau voor de modelwoning.
+Platinum zit met de inbouwset van Bromic vlak ingebouwd in het overstek, zodat het plafond strak en rustig blijft.[^s6] Met de Affinity Dimmer-regelaar zetten bewoners de warmte lager op zachte avonden, en de Smart-Heat-app stelt schema's en timers in. Dit is het niveau om in uw modelwoning te laten zien.
 
 ![Buitenwoonkamer met zeezicht en inbouwverwarmers](img:l-010-071)
 
-### Best: een buitenkamer
+### Best: een complete buitenkamer
 
-Ingebouwde Platinum boven de lounge, Eclipse-hangers boven de eettafel voor warmte en licht in één, aparte zones, en integratie met het domoticasysteem van de woning als dat er is. Voor kopers die het nieuwste ontwerp willen: bied Tungsten Select of Coastal (binnenkort) aan als ingebouwde verwarmer zodra Bromic de beschikbaarheid bevestigt.
+Ingebouwde Platinum-verwarmers verwarmen de lounge, terwijl Eclipse-hangers boven de eettafel warmte en licht samenbrengen, elk op een eigen zone en gekoppeld aan het domoticasysteem van de woning als dat er is. Voor kopers die het nieuwste ontwerp willen, biedt u Tungsten Select of Coastal (binnenkort) aan als ingebouwde verwarmer zodra Bromic de beschikbaarheid bevestigt.
 
 ![Eclipse-hangers boven een lange eettafel bij kaarslicht](img:l-013-100)
 
-## Hoe verkoopt u het?
+## Zo bereikt het uw kopers
 
-- **Laat het branden.** Een verwarmd terras bij de modelwoning in de schemering doet het verkoopwerk.
-- **Prijs de voorbekabeling, ook als kopers afzien.** Voorbekabeling tijdens het timmerwerk kost veel minder dan later een afgewerkt overstek openmaken, en kopers kunnen na de oplevering alsnog warmte toevoegen. [[VERIFY: gangbare kosten voor voorbekabeling bij partnerinstallateurs — verkoop vakhandel]]
+- **Laat het branden.** Een verwarmd terras bij de modelwoning in de schemering vertelt het verhaal beter dan welke brochure ook.
+- **Prijs de voorbekabeling, ook als kopers ervan afzien.** Voorbekabeling tijdens het timmerwerk kost veel minder dan later een afgewerkt overstek openmaken, en kopers kunnen na de oplevering alsnog warmte toevoegen. [[VERIFY: gangbare kosten voor voorbekabeling bij partnerinstallateurs — verkoop vakhandel]]
 - **Begin met het moment, dan het niveau.** "In oktober buiten eten" verkoopt beter dan een wattage.
-- **Houd de bediening in de prijs.** Een verwarmer zonder regelaar is geen afgeronde optie.
+- **Houd de bediening in de prijs.** Een verwarmer wordt een afgeronde optie zodra de regelaar erbij hoort.
 
-## Checklist voor de planning
+## Uw checklist voor de planning
 
 - [ ] Kies welke woningtypen het programma krijgen; markeer op elk het terras.
 - [ ] Stuur de plannen naar het ontwerpteam van Bromic voor aantallen en posities per niveau.

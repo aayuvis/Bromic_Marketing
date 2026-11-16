@@ -1,23 +1,23 @@
 ---
 id: A03
 type: tool
-title: "Wie viele Heizstrahler braucht Ihre Fläche? Der Bedarfsrechner"
+title: "Wie viele Heizstrahler braucht meine Terrasse? Planen Sie Ihre Fläche mit unserem Bedarfsrechner"
 audience: [RES]
 stage: [CO]
 cell: RES-CO
 asset: A03
-summary: "Form, Größe, Überdachung, Klima und ein angetipptes Heizstrahler-Bild rein; ein maßstäblicher Plan, die Anzahl der Heizstrahler, das passende Modell und die zugehörige Steuerung raus. Der vollständige Bericht liegt hinter dem Kontaktformular."
+summary: "Skizzieren Sie Ihren Außenbereich, sagen Sie uns, wie stark er überdacht ist und wie kühl Ihre Abende werden, und sehen Sie ihn maßstäblich gezeichnet – mit der Wärme jedes Heizstrahlers, dem passenden Modell und der Steuerung, die es bedient. Den vollständigen Bericht erhalten Sie, sobald Sie Ihre Kontaktdaten teilen."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie viele Heizstrahler brauche ich für meine Terrasse?"
-meta_description: "Geben Sie Größe, Überdachung und Klima Ihrer Terrasse ein. Sehen Sie, wie viele Bromic-Heizstrahler sie braucht, welche Modelle passen und welche Steuerung sie bedient."
+meta_description: "Wie viele Heizstrahler braucht Ihre Terrasse? Geben Sie Fläche, Überdachung und Klima ein und sehen Sie die passenden Bromic-Heizstrahler maßstäblich, mit Steuerung."
 cta: {label: "Planungsgespräch buchen", asset: A07}
 hero: l-010-067
 owner_review: Digitales Marketing + 454 Creative
 status: draft
 gated: true
 related: [RES-PP-01, COM-IN-KB1, RES-CO-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -38,24 +38,43 @@ translation_of: A03
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
-**Was der Rechner leistet.** Hausbesitzer wählen die Form der Fläche (Rechteck, L, U oder Innenhof, lang und schmal, rund), geben ihre Größe ein,
-wie stark sie überdacht ist und wie kühl ihre Abende werden, und tippen dann auf ein Heizstrahler-Bild (oder „Hilfe bei der Auswahl“). Jede Heizstrahler-Karte zeigt ihre eigene
-Anzahl live an. Als Antwort zeigt die Seite einen maßstäblichen Plan der Fläche, auf dem die Reichweite jedes Heizstrahlers als Lichtschein erscheint, die Anzahl der Heizstrahler, das am besten passende Modell und die Steuerung,
-die es bedient: ein Affinity Smart-Heat On/Off, ein Dimmer oder das Eclipse-Steuergerät, ein Wandschalter und die Bromic Smart-Heat App. WLAN- und App-Funktionen
-setzen kompatible Affinity-Steuerungen voraus, die separat erhältlich sind.
 
-**Eingaben.** Form · Seitenlängen oder Durchmesser (m) · Heizstrahler-Familie (Bildkarten) · Überdachung: offen, teilweise überdacht, überdacht · Klima: mild, kühl, kalt · Energie: Strom, Gas,
+## So nehmen Ihre Abende Gestalt an
+
+Denken Sie an den Tisch, an dem nach dem Essen alle noch sitzen bleiben, und erzählen Sie uns dann von der Fläche drumherum. Sie
+wählen ihre Form – Rechteck, L, U oder Innenhof, lang und schmal oder rund –, legen ihre Größe fest, wie stark sie überdacht ist und
+wie kühl Ihre Abende werden, und tippen dann auf das Heizstrahler-Bild, das Sie anspricht (oder wählen „Hilfe bei der Auswahl“).
+Jede Heizstrahler-Karte zeigt dabei laufend ihre eigene Anzahl.
+
+Im Gegenzug sehen Sie Ihre Fläche maßstäblich gezeichnet, die Reichweite jedes Heizstrahlers als sanften Lichtschein, dazu die
+Anzahl der Heizstrahler, das am besten passende Modell und die Steuerung, die es bedient: ein Affinity Smart-Heat On/Off, ein Dimmer
+oder das Eclipse-Steuergerät, ein Wandschalter und die Bromic Smart-Heat App. WLAN- und App-Funktionen setzen kompatible
+Affinity-Steuerungen voraus, die separat erhältlich sind.
+
+## Was Sie uns sagen
+
+Form · Seitenlängen oder Durchmesser (m) · Heizstrahler-Familie (Bildkarten) · Überdachung: offen, teilweise überdacht, überdacht · Klima: mild, kühl, kalt · Energie: Strom, Gas,
 beides · Bauform: Einbau, freistehend, beides · Montagehöhe (m) · Zonen.
 
-**Ergebnisse.** Auf dem Bildschirm: die Anzahl, das empfohlene Modell und sein Steuerungspaket. Hinter dem Formular: jedes passende Modell, die Steuerung für
-jedes, die elektrische Last und die Annahmen.
+## Was Sie erfahren
 
-**Annahmen.** Die Heizflächen stammen aus dem Lookbook 2026[^s1]. Die Faktoren für Überdachung, Klima und Höhe sind die Bromic-Empfehlungen von 2021,
-in Zahlen übersetzt[^s2], und warten auf die Freigabe durch Produktteam. Eine Fläche, deren Umfang zu weniger als 30 % offen ist, geht an das Planungs-
-team. Tungsten Coastal und Tungsten Select sind demnächst erhältlich und zeigen eine Spanne, nie eine einzelne Anzahl. Jeder Wert, seine Quelle und sein Verantwortlicher: `tools/A03-sizing/README.md`.
+Auf dem Bildschirm sehen Sie die Anzahl, das empfohlene Modell und sein Steuerungspaket. Wenn Sie Ihre Kontaktdaten teilen, ergänzt
+der vollständige Bericht jedes passende Modell, die Steuerung für jedes, die elektrische Last und die Annahmen hinter dem Plan.
 
-**Wohin der Kontakt geht.** Das HubSpot-Formular (`forms/hubspot-form-spec.md`) mit `asset_id=A03`, `matrix_cell=RES-CO`, den UTM-Feldern
-und den Eingaben des Rechners als `tool_inputs`. Ein abgeschlossener Rechnerdurchlauf zählt +15 Punkte. Als nächster Schritt wird ein Planungsgespräch angeboten (A07).
+## Die Überlegungen hinter den Zahlen
 
-Dies ist eine erste Schätzung, keine Planung. Stimmen Sie jede Installation mit Ihrem örtlichen Bauamt und einem Elektrofachbetrieb
-oder Gasinstallateur ab; maßgeblich sind DIN VDE 0100 sowie DVGW-TRGI (Erdgas) und TRF (Flüssiggas).
+Die Heizflächen stammen aus dem Lookbook 2026[^s1]. Die Faktoren für Überdachung, Klima und Höhe sind die Bromic-Empfehlungen von
+2021, in Zahlen übersetzt[^s2], und warten auf die Freigabe durch das Produktteam. Eine Fläche, deren Umfang zu weniger als 30 % offen
+ist, geht an unser Planungsteam, das sie gemeinsam mit Ihnen plant. Tungsten Coastal und Tungsten Select sind demnächst erhältlich
+und zeigen eine Spanne, nie eine einzelne Anzahl. Jeder Wert, seine Quelle und sein Verantwortlicher stehen in
+`tools/A03-sizing/README.md`.
+
+## Wohin Ihre Anfrage geht
+
+Fertige Pläne kommen über das HubSpot-Formular (`forms/hubspot-form-spec.md`) mit `asset_id=A03`, `matrix_cell=RES-CO`, den
+UTM-Feldern und den Eingaben des Rechners als `tool_inputs` an. Ein abgeschlossener Rechnerdurchlauf zählt +15 Punkte, und als
+nächsten Schritt bieten wir ein Planungsgespräch an (A07).
+
+Dieser Plan ist eine erste Schätzung, und ein Planungsgespräch macht daraus eine Planung. Stimmen Sie jede Installation mit Ihrem
+örtlichen Bauamt und einem Elektrofachbetrieb oder Gasinstallateur ab; maßgeblich sind DIN VDE 0100 sowie DVGW-TRGI (Erdgas) und
+TRF (Flüssiggas).
