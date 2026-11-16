@@ -1,13 +1,13 @@
 ---
 id: CSW-11
 type: case-study
-title: "Chiswick, Woollahra: Tungsten Gas for Matt Moran's terrace"
+title: "Chiswick, Woollahra: Tungsten Gas warmth on a Sydney restaurant terrace"
 slug: csw-11
 audience: ["COM"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "Chef Matt Moran's Chiswick restaurant in Woollahra, Sydney, uses Tungsten Smart-Heat Gas heaters to keep diners comfortable across its terrace and outdoor seating."
+summary: "At Chiswick in Woollahra, Sydney, Tungsten Smart-Heat Gas heaters keep diners comfortable on the terrace and in the shaded outdoor seating, wherever they choose to sit."
 cta: {label: "Book a design consult", asset: A07}
 hero: w-gasceilingmountpole246mm-lifestyle2-1
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: bromic-listing
 completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "ArchiExpo Trends (Bromic Heating's project listing)"
@@ -42,19 +42,19 @@ sources:
 | Products | Tungsten Smart-Heat Gas [[VERIFY: quantity and mounting — Bromic AU]] |
 | Controls | [[VERIFY: controls — Bromic AU]] |
 
-## The space
+## A Restaurant That Opens To The Outdoors
 
-A casual dining restaurant from chef Matt Moran with indoor and terrace dining, a bar, a communal table and shaded outdoor seating. [^s1]
+Chiswick in Woollahra is a relaxed Sydney restaurant from a well-known chef, with dining inside and out on the terrace, a bar, a long communal table and shaded outdoor seating. [^s1]
 
-## What was installed
+## Warmth At Every Table
 
-Tungsten Smart-Heat Gas heaters, chosen to keep diners comfortable wherever they sit, the terrace included.
+Tungsten Smart-Heat Gas heaters were chosen to keep diners comfortable wherever they sit, the terrace included, so a table outside feels just as inviting on a cool evening as one indoors.
 
-**Controls.** None A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+**Controls.** The sources do not say which controls were fitted. Every complete Bromic installation is paired with its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app, so the warmth is there exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why This Story Travels
 
-A well-known chef and restaurant: a credible hospitality name for Australian and international decks.
+A well-known chef and restaurant give Australian and international presentations a hospitality name that people recognise and trust.
 
 ## Photos
 

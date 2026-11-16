@@ -1,13 +1,13 @@
 ---
 id: CSW-21
 type: case-study
-title: "Catch the Wave Swim School - covered patio, South Beloit"
+title: "Catch the Wave Swim School, South Beloit: a covered patio warmed to a Bromic layout"
 slug: csw-21
 audience: ["COM"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "A swim school added Bromic Tungsten electric heaters to its 40 by 20 ft covered patio, positioned to a Bromic layout. Each heater has its own dimmer, so staff can set output anywhere from 0 to 100%."
+summary: "A swim school in South Beloit warms its 40 by 20 ft covered patio with Bromic Tungsten electric heaters placed to a Bromic layout, each on its own dimmer from 0 to 100%."
 cta: {label: "Book a design consult", asset: A07}
 hero: w-23-03-12-bromic-heating-hyatt-dehradun-52
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: page-read
 completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Gunn & Pegelow"
@@ -49,13 +49,13 @@ sources:
 
 ## What the sources say
 
-A swim school added Bromic Tungsten electric heaters to its 40 by 20 ft covered patio, positioned to a Bromic layout. Each heater has its own dimmer, so staff can set output anywhere from 0 to 100%. [^s1]
+At Catch the Wave Swim School in South Beloit, a 40 by 20 ft covered patio is now warmed by Bromic Tungsten electric heaters, each placed to a Bromic layout. Every heater has its own dimmer, so staff can set the output anywhere from 0 to 100% and match the warmth to the day. [^s1]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+**Controls.** Every complete Bromic installation is paired with its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app, so the warmth is there exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why This Story Travels
 
-Outside hospitality (a leisure/education business), but a tidy small-commercial example with area and per-heater dimming stated.
+Beyond hospitality, in leisure and education, this is a tidy small-commercial example with the area and per-heater dimming both stated.
 
 ## Photos
 

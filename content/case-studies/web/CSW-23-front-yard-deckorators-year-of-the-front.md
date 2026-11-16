@@ -1,13 +1,13 @@
 ---
 id: CSW-23
 type: case-study
-title: "Front yard, Deckorators 'Year of the Front Yard' (New Jersey), USA"
+title: "A New Jersey front yard for every season: Deckorators' Year of the Front Yard"
 slug: csw-23
 audience: ["RES", "ARC", "BLD"]
 stage: [IN, PP]
 cell: RES-IN
 asset: A19
-summary: "A Deckorators press release presents a front-of-home redesign at a New Jersey farmhouse-style home owned by contractor the homeowner's. It includes an all-season lounge with Bromic Platinum Electric heaters built in, alongside a custom Deckorators swing bed."
+summary: "In a Deckorators front-yard redesign at a New Jersey farmhouse-style home, an all-season lounge with built-in Bromic Platinum Electric heaters sits beside a custom Deckorators swing bed."
 cta: {label: "Book a design consult", asset: A07}
 hero: w-26-bromic-morningcoffee-0251-opt
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: page-read
 completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "PR Newswire (Deckorators)"
@@ -48,13 +48,13 @@ sources:
 
 ## What the sources say
 
-A Deckorators press release presents a front-of-home redesign at a New Jersey farmhouse-style home owned by contractor the homeowner's. It includes an all-season lounge with Bromic Platinum Electric heaters built in, alongside a custom Deckorators swing bed. [^s1]
+A Deckorators press release presents a front-of-home redesign at a New Jersey farmhouse-style home belonging to the owner of Premier Outdoor Living. At its heart is an all-season lounge with Bromic Platinum Electric heaters built in, beside a custom Deckorators swing bed. [^s1]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+**Controls.** Every complete Bromic installation is paired with its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app, so the warmth is there exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why This Story Travels
 
-A US residential front-yard project backed by a national decking brand and a certified contractor: a co-marketing angle (Deckorators) and an example of heat planned into the design, which is the Hub's thesis.
+A US front-yard project backed by a national decking brand and a certified contractor offers a co-marketing angle with Deckorators, and shows warmth planned in from the first drawing, the idea behind everything in the Hub.
 
 ## Photos
 

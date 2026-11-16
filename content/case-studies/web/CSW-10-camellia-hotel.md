@@ -1,13 +1,13 @@
 ---
 id: CSW-10
 type: case-study
-title: "The Camellia Hotel, Rosehill: pub heat run on rooftop solar"
+title: "The Camellia Hotel, Rosehill: warmth for a Sydney pub, powered by its own rooftop solar"
 slug: csw-10
 audience: ["COM"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "Sydney pub The Camellia Hotel chose Bromic heaters that are discreet, variable and recessed, powered by the venue's rooftop solar, according to Australian Hotelier (2022)."
+summary: "Through a cold 2022 winter, The Camellia Hotel in Rosehill chose Bromic heaters that stay discreet, adjust to the evening and recess into the ceiling, reportedly run on the pub's rooftop solar (Australian Hotelier, 2022)."
 cta: {label: "Book a design consult", asset: A07}
 hero: w-platinum-electric-black-ceiling-mounted-sydn
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: snippet-only
 completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Australian Hotelier (The Intermedia Group), August 2022"
@@ -50,19 +50,19 @@ sources:
 | Controls | [[VERIFY: controls and zones — Bromic AU]] |
 | Energy | Run alongside the venue's rooftop solar (as reported) |
 
-## The space
+## A Local Pub Ready For Winter
 
-A suburban Sydney pub that, during a cold 2022 winter, wanted heating that was discreet, gave variable heat, could be recessed and matched the decor. [^s1][^s2]
+Through a cold Sydney winter in 2022, The Camellia Hotel in Rosehill wanted its guests to stay comfortable without the heating ever stealing the show. The brief was heat that stays discreet, adjusts to the evening, recesses neatly into the ceiling and sits in harmony with the pub's decor. [^s1][^s2]
 
-## What was installed
+## Warmth That Starts On The Roof
 
-Bromic heaters, with the owner reported as running them on the venue's rooftop solar.
+The pub chose Bromic heaters, and the owner is reported to run them on the venue's rooftop solar, so the warmth guests feel overhead begins with the sun on the roof.
 
-**Controls.** None A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+**Controls.** The sources do not say which controls were fitted. Every complete Bromic installation is paired with its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app, so the warmth is there exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why This Story Travels
 
-Electric heat on solar at a pub: a sustainability story for hospitality groups and a counter to gas heaters on running cost and emissions.
+Electric heat running on solar gives hospitality groups a sustainability story they can share with their guests, and a clear alternative to gas heaters on running cost and emissions.
 
 ## Photos
 

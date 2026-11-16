@@ -1,13 +1,13 @@
 ---
 id: CSW-14
 type: case-study
-title: "Expedition ships in polar waters: Platinum Electric Marine to Antarctica"
+title: "Expedition ships in polar waters: Platinum Electric Marine warmth all the way to Antarctica"
 slug: csw-14
 audience: ["COM", "ARC"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "Four expedition cruise ships that sail to polar waters carry Bromic Platinum Electric Marine heaters: Scenic Eclipse, World Navigator, and Swan Hellenic's SH Minerva and SH Vega."
+summary: "Four expedition cruise ships that sail polar waters keep their decks warm with Bromic Platinum Electric Marine heaters: Scenic Eclipse, World Navigator, and Swan Hellenic's SH Minerva and SH Vega."
 cta: {label: "Book a design consult", asset: A07}
 hero: m-scenic-eclipse-1
 hero_caption: "Scenic Eclipse, from Bromic's marine presentation (2022)."
@@ -20,7 +20,7 @@ evidence: bromic-publication
 completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Bromic Heating (Marine presentation PDF, 2022)"
@@ -48,19 +48,19 @@ sources:
 | Spaces | SH Minerva: top-deck bar, restaurant and suite balconies; others not stated |
 | Controls | [[VERIFY: controls and zoning on board — Marine team]] |
 
-## The space
+## Out On Deck At The Edge Of The World
 
-Ice-class expedition ships that take a few hundred guests to Antarctica and the Arctic, where outdoor decks are part of the experience and the air is cold. [^s1][^s2]
+Ice-class expedition ships carry a few hundred guests at a time to Antarctica and the Arctic. Out there the open decks are a treasured part of the journey, and the air is cold. [^s1][^s2]
 
-## What was installed
+## Warmth Wherever The Voyage Goes
 
-Platinum Smart-Heat Electric Marine heaters on all four ships. On SH Minerva, Bromic's presentation names the top-deck bar, the restaurant and the suite balconies; a 2024 trade feature names SH Vega, her sister.
+All four ships carry Platinum Smart-Heat Electric Marine heaters. On SH Minerva, Bromic's presentation names the top-deck bar, the restaurant and the suite balconies, and a 2024 trade feature names her sister ship, SH Vega.
 
-**Controls.** [[VERIFY: which controls were installed, and how many zones — Marine team]] A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+**Controls.** [[VERIFY: which controls were installed, and how many zones — Marine team]] Every complete Bromic installation is paired with its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app, so the warmth is there exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why This Story Travels
 
-The coldest possible proof of performance, and a repeat specifier: Tillberg Design of Sweden designed SH Minerva and also Evrima and Crystal Endeavor, which are already Bromic case studies.
+Few settings prove performance as convincingly as polar waters. The story also follows a repeat specifier: Tillberg Design of Sweden designed SH Minerva, as well as Evrima and Crystal Endeavor, which are already Bromic case studies.
 
 ## Photos
 

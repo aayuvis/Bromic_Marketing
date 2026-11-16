@@ -1,13 +1,13 @@
 ---
 id: CSW-18
 type: case-study
-title: "Greenwood Restaurant, Highwood"
+title: "Greenwood Restaurant, Highwood: Platinum Gas warmth on a design-led patio"
 slug: csw-18
 audience: ["COM"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "Greenwood's mid-century modern and rustic interior carries out onto its patio. The team chose the Bromic Platinum gas heater for its looks and output, and Gunn & Pegelow worked the heaters into the patio's table layout, traffic paths and heat requirements"
+summary: "Greenwood's mid-century modern and rustic character carries out onto its Highwood patio, where Bromic Platinum gas heaters, chosen for their looks and output, are placed around the tables and paths."
 cta: {label: "Book a design consult", asset: A07}
 hero: w-1
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: page-read
 completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Gunn & Pegelow"
@@ -53,13 +53,13 @@ sources:
 
 ## What the sources say
 
-Greenwood's mid-century modern and rustic interior carries out onto its patio. The team chose the Bromic Platinum gas heater for its looks and output, and Gunn & Pegelow worked the heaters into the patio's table layout, traffic paths and heat requirements with WT Engineering. [^s1][^s2]
+Greenwood's interior pairs mid-century modern lines with rustic warmth, and that character carries straight out onto the patio. The team chose the Bromic Platinum gas heater for both its looks and its output, and Gunn & Pegelow worked with WT Engineering to fit each heater around the patio's table layout, traffic paths and heat requirements. [^s1][^s2]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+**Controls.** Every complete Bromic installation is paired with its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app, so the warmth is there exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why This Story Travels
 
-An independent design-led restaurant in Chicago's North Shore with a heat layout drawing available - a good Platinum Gas restaurant-patio story for the cold Midwest.
+An independent, design-led restaurant on Chicago's North Shore, with a heat layout drawing available, makes a fine Platinum Gas patio story for the cold Midwest.
 
 ## Photos
 

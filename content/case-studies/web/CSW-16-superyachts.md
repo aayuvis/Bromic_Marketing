@@ -1,13 +1,13 @@
 ---
 id: CSW-16
 type: case-study
-title: "Seven superyachts: Platinum Electric Marine from Feadship to Benetti"
+title: "Seven superyachts: Platinum Electric Marine warmth from Feadship to Benetti"
 slug: csw-16
 audience: ["COM", "ARC"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "Seven superyachts carry Bromic Platinum Electric Marine heaters, from two to nine heaters each, on yachts built by Feadship, Abeking & Rasmussen, Benetti, Turquoise, Amels and Ocean Alexander."
+summary: "From the Mediterranean to the polar regions, seven superyachts built by Feadship, Abeking & Rasmussen, Benetti, Turquoise, Amels and Ocean Alexander carry two to nine Bromic Platinum Electric Marine heaters each."
 cta: {label: "Book a design consult", asset: A07}
 hero: m-cloudbreak-1
 hero_caption: "M/Y Cloudbreak, from Bromic's marine presentation (2022)."
@@ -20,7 +20,7 @@ evidence: bromic-publication
 completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Bromic Heating (Marine presentation PDF, 2022)"
@@ -43,19 +43,19 @@ sources:
 | Installer | Arrow Services Monaco (Just B) |
 | Controls | [[VERIFY: controls and zoning per yacht — Marine team]] |
 
-## The space
+## Decks Enjoyed In Every Season
 
-Owners and guests on these yachts use outdoor decks in all seasons and latitudes, from the Mediterranean to the polar regions. [^s1]
+On these yachts, owners and guests enjoy their outdoor decks in every season and at every latitude, from the Mediterranean to the polar regions. [^s1]
 
-## What was installed
+## Heat Tailored To Each Yacht
 
-Platinum Smart-Heat Electric Marine heaters on every yacht, from two on the OA100 production motor yacht to nine across three decks and the bridge on the 63 m Benetti Metis. On Emocean, a 2022 World Superyacht Award winner, four heaters are recessed into the deck heads; on Lady Charlotte, six serve the outdoor dining area.
+Every yacht carries Platinum Smart-Heat Electric Marine heaters, from two on the OA100 production motor yacht to nine across three decks and the bridge on the 63 m Benetti Metis. On Emocean, a 2022 World Superyacht Award winner, four heaters are recessed into the deck heads, while on Lady Charlotte six warm the outdoor dining area.
 
-**Controls.** [[VERIFY: which controls were installed, and how many zones — Marine team]] A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+**Controls.** [[VERIFY: which controls were installed, and how many zones — Marine team]] Every complete Bromic installation is paired with its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app, so the warmth is there exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why This Story Travels
 
-A dense set of named yachts, yards and designers for marine outreach, with an installer contact (Arrow Services Monaco) who could become a partner.
+Seven named yachts, with their yards and designers, give marine outreach a rich set of references, along with an installer contact, Arrow Services Monaco, who could become a partner.
 
 ## Photos
 

@@ -1,13 +1,13 @@
 ---
 id: CSW-12
 type: case-study
-title: "Azotea del Círculo, Madrid: Platinum Electric on a 360-degree rooftop"
+title: "Azotea del Círculo, Madrid: Platinum Electric warmth on a 360-degree rooftop"
 slug: csw-12
 audience: ["COM", "ARC"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "The 7th-floor rooftop bar and restaurant of Madrid's Círculo de Bellas Artes, known for its city view, is warmed by Platinum Smart-Heat Electric heaters."
+summary: "Seven floors above Madrid, the rooftop bar and restaurant of the Círculo de Bellas Artes, celebrated for its view across the city, is warmed by Platinum Smart-Heat Electric heaters."
 cta: {label: "Get the architect spec kit", asset: A11}
 hero: t-006-016
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: page-read
 completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "ArchiExpo e-Magazine (Product Trends; Bromic-supplied project listing)"
@@ -48,19 +48,19 @@ sources:
 | Products | Platinum Smart-Heat Electric [[VERIFY: quantity and mounting — Bromic EU]] |
 | Controls | [[VERIFY: controls — Bromic EU]] |
 
-## The space
+## Madrid Laid Out Below
 
-The 7th-floor rooftop of Madrid's Círculo de Bellas Artes cultural centre, a bar and restaurant known for its 360-degree view of the city. [^s1][^s2]
+Seven floors above the city, the rooftop of Madrid's Círculo de Bellas Artes cultural centre is a bar and restaurant celebrated for its 360-degree view across Madrid. [^s1][^s2]
 
-## What was installed
+## Warmth Without Losing The View
 
-Platinum Smart-Heat Electric heaters warming the rooftop, per a Bromic trade listing. The venue's own page does not mention heaters.
+According to a Bromic trade listing, Platinum Smart-Heat Electric heaters warm the rooftop, so guests can stay out with the skyline as the evening cools. The venue's own page does not mention the heaters.
 
-**Controls.** None A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+**Controls.** The sources do not say which controls were fitted. Every complete Bromic installation is paired with its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app, so the warmth is there exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why This Story Travels
 
-A landmark European rooftop: a reference for rooftop bars and cultural venues in Europe, where Bromic has few published stories.
+A landmark European rooftop makes a fine reference for rooftop bars and cultural venues across Europe, where Bromic has few published stories so far.
 
 ## Photos
 

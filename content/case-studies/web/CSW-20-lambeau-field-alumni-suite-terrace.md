@@ -1,13 +1,13 @@
 ---
 id: CSW-20
 type: case-study
-title: "Lambeau Field - Alumni Suite Terrace, Green Bay"
+title: "Lambeau Field Alumni Suite Terrace, Green Bay: warmth for late-season games"
 slug: csw-20
 audience: ["COM"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "The Alumni Suite at the Green Bay Packers' stadium has an 800 sq ft outdoor terrace. Gunn & Pegelow and Somerville Architects specified six black Tungsten 4 kW 277V electric heaters with dimmer controls so each can be turned up or down, keeping the terrace"
+summary: "On the 800 sq ft terrace of the Alumni Suite at the Green Bay Packers' stadium, six black Tungsten 4 kW 277V electric heaters, each on its own dimmer, keep fans comfortable through late-season games."
 cta: {label: "Book a design consult", asset: A07}
 hero: w-23-03-12-bromic-heating-hyatt-dehradun-49
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: page-read
 completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Gunn & Pegelow"
@@ -49,13 +49,13 @@ sources:
 
 ## What the sources say
 
-The Alumni Suite at the Green Bay Packers' stadium has an 800 sq ft outdoor terrace. Gunn & Pegelow and Somerville Architects specified six black Tungsten 4 kW 277V electric heaters with dimmer controls so each can be turned up or down, keeping the terrace usable for late-season games. [^s1]
+At the home of the Green Bay Packers, the Alumni Suite opens onto an 800 sq ft outdoor terrace in one of the coldest markets in the US. Gunn & Pegelow and Somerville Architects specified six black Tungsten 4 kW 277V electric heaters with dimmer controls, so each can be turned up or down and the terrace stays welcoming for late-season games. [^s1]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+**Controls.** Every complete Bromic installation is paired with its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app, so the warmth is there exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why This Story Travels
 
-A famous NFL stadium hospitality terrace in one of the coldest US markets, with quantity, voltage, controls and area all stated - rare complete data and a headline brand name (would need NFL/Packers consent).
+A famous NFL stadium terrace in one of the coldest US markets, with quantity, voltage, controls and area all stated, offers rare, complete data and a headline name, which would need consent from the NFL and the Packers.
 
 ## Photos
 

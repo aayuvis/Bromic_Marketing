@@ -1,13 +1,13 @@
 ---
 id: CSW-17
 type: case-study
-title: "Taberna Puertalsol (rooftop restaurant), Madrid"
+title: "Taberna Puertalsol, Madrid: rooftop warmth above the Puerta del Sol"
 slug: csw-17
 audience: ["COM"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "A rooftop restaurant looking over Madrid's Puerta del Sol, linked in the listing to chef Alberto Chicote. A Bromic-supplied trade listing says white 6000W Tungsten Smart-Heat Electric heaters were chosen to suit the restaurant's clean look and to spread heat"
+summary: "High above Madrid's Puerta del Sol, Taberna Puertalsol's rooftop restaurant chose white 6000W Tungsten Smart-Heat Electric heaters to suit its clean look and spread warmth across the seating, a Bromic listing says."
 cta: {label: "Book a design consult", asset: A07}
 hero: w-23-03-12-bromic-heating-hyatt-dehradun-14
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: bromic-listing
 completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "ArchiExpo e-Magazine (Product Trends; Bromic-supplied project listing)"
@@ -44,13 +44,13 @@ sources:
 
 ## What the sources say
 
-A rooftop restaurant looking over Madrid's Puerta del Sol, linked in the listing to chef Alberto Chicote. A Bromic-supplied trade listing says white 6000W Tungsten Smart-Heat Electric heaters were chosen to suit the restaurant's clean look and to spread heat across the seating. [^s1]
+High above Plaza Puerta del Sol, this rooftop restaurant looks out over the heart of Madrid, and the listing links it to a well-known television chef. According to a Bromic-supplied trade listing, white 6000W Tungsten Smart-Heat Electric heaters were chosen to complement the restaurant's clean look and to spread warmth across the seating. [^s1]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+**Controls.** Every complete Bromic installation is paired with its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app, so the warmth is there exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why This Story Travels
 
-This is a second Madrid rooftop alongside the Círculo de Bellas Artes, on the city's best-known square and tied to a TV-chef name, so it is good for Spanish and EU hospitality. It is also an electric install in white on a rooftop that sees a lot of sun. Check the product (electric, or electric and gas) with Bromic Europe.
+A second Madrid rooftop alongside the Círculo de Bellas Artes, on the city's best-known square and tied to a television chef, makes a strong story for Spanish and wider European hospitality. It also shows electric heat in white on a rooftop that sees plenty of sun. Confirm the product with Bromic Europe, electric alone or electric and gas.
 
 ## Photos
 

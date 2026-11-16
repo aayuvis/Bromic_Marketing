@@ -1,13 +1,13 @@
 ---
 id: CSW-13
 type: case-study
-title: "Wonder of the Seas: more than 100 Platinum Electric Marine heaters on the world's biggest cruise ship"
+title: "Wonder of the Seas: more than 100 Platinum Electric Marine heaters warming life on deck"
 slug: csw-13
 audience: ["COM", "ARC"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "Royal Caribbean fitted more than 100 Bromic Platinum Smart-Heat Electric Marine heaters to Wonder of the Seas, warming restaurants, bars, pool decks and balconies."
+summary: "On Wonder of the Seas, more than 100 Bromic Platinum Smart-Heat Electric Marine heaters let Royal Caribbean's guests linger outdoors in restaurants, bars, pool decks and balconies as the air cools."
 cta: {label: "Book a design consult", asset: A07}
 hero: m-wonder-of-the-seas-1
 hero_caption: "Photograph from Bromic's marine presentation (2022)."
@@ -20,7 +20,7 @@ evidence: bromic-publication
 completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Cruise & Ferry (25 Aug 2022)"
@@ -56,19 +56,19 @@ sources:
 | Controls | [[VERIFY: controls and zoning on board — Marine team]] |
 | Spaces | Restaurants, bars, pool decks and balconies (trade press) |
 
-## The space
+## A Floating Resort Made For Life On Deck
 
-Royal Caribbean's Wonder of the Seas, described at launch as the world's biggest cruise ship. [^s1][^s2][^s3]
+When Royal Caribbean launched Wonder of the Seas, she was described as the world's biggest cruise ship, a floating resort where so much of the voyage is lived outdoors. [^s1][^s2][^s3]
 
-## What was installed
+## Warmth From The Restaurant To The Balcony
 
-More than a hundred Platinum Smart-Heat Electric Marine heaters warming restaurants, bars, pool decks and balconies so passengers can stay outdoors in cooler weather.
+More than a hundred Platinum Smart-Heat Electric Marine heaters warm the restaurants, bars, pool decks and balconies, so passengers can stay outside over dinner or a drink when the weather turns cool.
 
-**Controls.** [[VERIFY: which controls were installed, and how many zones — Marine team]] A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+**Controls.** [[VERIFY: which controls were installed, and how many zones — Marine team]] Every complete Bromic installation is paired with its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app, so the warmth is there exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why This Story Travels
 
-The largest single Bromic marine reference, with independent trade press: the anchor for cruise and marine outreach.
+Backed by independent trade press, this is the largest single Bromic marine reference and the natural anchor for cruise and marine outreach.
 
 ## Photos
 

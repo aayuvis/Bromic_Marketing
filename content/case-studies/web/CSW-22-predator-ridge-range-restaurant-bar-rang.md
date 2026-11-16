@@ -1,13 +1,13 @@
 ---
 id: CSW-22
 type: case-study
-title: "Predator Ridge — Range Restaurant & Bar (Range Lounge & Grill), Vernon"
+title: "Predator Ridge Range Restaurant & Bar, Vernon: a three-season patio under a retractable roof"
 slug: csw-22
 audience: ["COM"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "The restaurant at the Predator Ridge golf resort added a retractable-roof pergola over a steel platform to turn its patio into a three-season dining room. Fourteen 6000W Bromic electric heaters, LED lighting and screens let it run in most weather."
+summary: "At the Predator Ridge golf resort, a retractable-roof pergola with fourteen 6000W Bromic electric heaters, LED lighting and screens turned the Range restaurant's patio into a three-season dining room."
 cta: {label: "Book a design consult", asset: A07}
 hero: w-bromic-tungsten-electric-black-recessed
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: page-read
 completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Bella Outdoor Living"
@@ -55,13 +55,13 @@ sources:
 
 ## What the sources say
 
-The restaurant at the Predator Ridge golf resort added a retractable-roof pergola over a steel platform to turn its patio into a three-season dining room. Fourteen 6000W Bromic electric heaters, LED lighting and screens let it run in most weather. [^s1][^s2]
+At the Predator Ridge golf resort, the Range restaurant and bar wanted its patio to welcome guests well beyond the summer. A retractable-roof pergola over a steel platform turned it into a three-season dining room, where fourteen 6000W Bromic electric heaters, LED lighting and screens keep it open in most weather. [^s1][^s2]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+**Controls.** Every complete Bromic installation is paired with its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app, so the warmth is there exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why This Story Travels
 
-A Canadian golf-resort club with 14 heaters in a retractable pergola, a large count that shows the pergola-dealer route in Canada. Note that '6000W' fits Tungsten Electric, but the model needs confirming.
+Fourteen heaters in a retractable pergola at a Canadian golf-resort club make a large count and show the pergola-dealer route in Canada. The figure of 6000W fits Tungsten Electric, but the model still needs confirming.
 
 ## Photos
 

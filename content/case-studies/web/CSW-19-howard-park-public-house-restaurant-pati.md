@@ -1,13 +1,13 @@
 ---
 id: CSW-19
 type: case-study
-title: "Howard Park Public House (restaurant patio and ice-skating rental shop, Howard Park), South Bend"
+title: "Howard Park Public House, South Bend: winter warmth beside the ice rink"
 slug: csw-19
 audience: ["COM"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "Howard Park, a city park with a year-round bar and restaurant and a skating rink, heats its restaurant patio and skate-rental area with Bromic Tungsten gas heaters set around the building's perimeter, so people stay comfortable outside in the colder months."
+summary: "In South Bend's Howard Park, Bromic Tungsten gas heaters around the building keep the year-round restaurant's patio and the skate-rental area comfortable through the colder months."
 cta: {label: "Book a design consult", asset: A07}
 hero: w-gasceilingmountpole246mm-lifestyle2-1
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: page-read
 completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Gunn & Pegelow"
@@ -55,13 +55,13 @@ sources:
 
 ## What the sources say
 
-Howard Park, a city park with a year-round bar and restaurant and a skating rink, heats its restaurant patio and skate-rental area with Bromic Tungsten gas heaters set around the building's perimeter, so people stay comfortable outside in the colder months. [^s1][^s2]
+Howard Park is a city park in South Bend with a year-round bar and restaurant beside its skating rink. Bromic Tungsten gas heaters set around the building's perimeter warm the restaurant patio and the skate-rental area, so skaters and diners stay comfortable outside through the colder months. [^s1][^s2]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+**Controls.** Every complete Bromic installation is paired with its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app, so the warmth is there exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why This Story Travels
 
-Public-park restaurant beside an ice rink - winter use in a snow-belt city is a strong cold-climate proof for Tungsten Gas, and a municipal client is a new segment.
+A public-park restaurant beside an ice rink, used through winter in a snow-belt city, is strong cold-climate proof for Tungsten Gas, and a municipal client opens a new segment.
 
 ## Photos
 

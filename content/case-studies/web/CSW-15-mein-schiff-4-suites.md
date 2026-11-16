@@ -1,13 +1,13 @@
 ---
 id: CSW-15
 type: case-study
-title: "Mein Schiff 4: heated loft-suite terraces"
+title: "Mein Schiff 4: warm private terraces for the top-deck loft suites"
 slug: csw-15
 audience: ["COM", "ARC"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "As part of an upgrade, TUI Cruises fitted Bromic Platinum Electric Marine heaters to the private terraces of Mein Schiff 4's top-deck Himmel & Meer loft suites."
+summary: "As part of an upgrade, TUI Cruises fitted Bromic Platinum Electric Marine heaters to the private terraces of Mein Schiff 4's Himmel & Meer loft suites, so guests can enjoy the view in cooler weather."
 cta: {label: "Book a design consult", asset: A07}
 hero: m-mein-schiff-4-1
 hero_caption: "Mein Schiff 4, from Bromic's marine presentation (2022)."
@@ -20,7 +20,7 @@ evidence: bromic-publication
 completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Bromic Heating (Marine presentation PDF, 2022)"
@@ -43,19 +43,19 @@ sources:
 | Spaces | Private suite terraces |
 | Controls | [[VERIFY: guest controls in the suites — Marine team]] |
 
-## The space
+## A Private Terrace At The Top Of The Ship
 
-The top-deck Himmel & Meer loft suites of TUI Cruises' Mein Schiff 4, each with a private terrace. [^s1]
+The Himmel & Meer loft suites sit on the top deck of TUI Cruises' Mein Schiff 4, and each one opens onto its own private terrace. [^s1]
 
-## What was installed
+## The View, In Comfort
 
-Platinum Smart-Heat Electric Marine heaters on the suite terraces, so guests can sit out and take in the views in cooler weather.
+As part of an upgrade, Platinum Smart-Heat Electric Marine heaters were fitted to the suite terraces, so guests can sit out and take in the view whenever the air turns cool.
 
-**Controls.** [[VERIFY: which controls were installed, and how many zones — Marine team]] A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+**Controls.** [[VERIFY: which controls were installed, and how many zones — Marine team]] Every complete Bromic installation is paired with its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app, so the warmth is there exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why This Story Travels
 
-Premium-suite upgrades are a repeatable cruise sale, and the German operator makes this a reference for the German and Benelux markets.
+Premium-suite upgrades are a sale that can repeat across a fleet, and a German operator makes this a natural reference for the German and Benelux markets.
 
 ## Photos
 
