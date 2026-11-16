@@ -1,13 +1,13 @@
 ---
 id: CSP-09
 type: case-study
-title: "Criniti's Darling Harbour, Sydney (Darling Harbour)"
+title: "Criniti's Darling Harbour, Sydney: a restaurant group to get to know"
 slug: csp-09
 audience: ["COM"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "Named on the same US dealer page as a Sydney venue with Bromic commercial heaters. No install detail."
+summary: "Criniti's at Darling Harbour is named on the same US dealer page as a Sydney venue with Bromic commercial heaters. The installation is still to be confirmed."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-010-070
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: page-read
 completeness: partial
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Radiant Patio Heater / Rasmussen Gas Logs & Grills (US dealer)"
@@ -42,15 +42,15 @@ sources:
 | Products | Bromic Heating commercial patio heaters [[VERIFY: model, wattage and quantity — Bromic AU [[VERIFY: AU regional lead]]]] |
 | Controls | [[VERIFY: controls and zones — Bromic AU [[VERIFY: AU regional lead]]]] |
 
-## What the sources say
+## The story so far
 
-Named on the same US dealer page as a Sydney venue with Bromic commercial heaters. No install detail. [^s1]
+Criniti's at Darling Harbour is named on the same US dealer page as a Sydney venue with Bromic commercial heaters, though the page gives no detail of the installation. [^s1]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-A multi-site Italian restaurant group: a possible multi-venue rollout story. A secondhand lead that needs verification.
+Criniti's is a multi-site Italian restaurant group, which opens the possibility of a story told across several venues. It is a secondhand lead that needs verifying first.
 
 ## Photos
 

@@ -1,7 +1,7 @@
 ---
 id: BLOG-16
 type: blog
-title: "Heating people, not places: the fundamentals of heat transfer outdoors"
+title: "Heating People, Not Places: Radiant Heat Vs Convection Heat Outdoors"
 slug: heating-people-not-places-the-fundamentals-of-heat-transfer
 live_url: https://www.bromic.com/blog/heating-people-not-places-the-fundamentals-of-heat-transfer/
 action: keep-fix
@@ -10,11 +10,11 @@ audience: [ARC]
 stage: [CO]
 cell: ARC-CO
 asset: A24
-summary: "Why convection fails outdoors and radiation works, what short, medium and long wave mean for radiant share, warm-up and wind, and the design moves that follow: cover, direction, height and control."
+summary: "Why warm air slips away outdoors while radiant warmth reaches every guest, what short, medium and long wave mean for radiant share, warm-up and wind, and the design decisions that follow – cover, direction, height and control."
 primary_keyword: radiant heat vs convection heat outdoor
 secondary_keywords: [heat transfer outdoor heating, short medium long wave infrared, radiant heater outdoor design, directional heat]
 ai_prompt: "Why is radiant heat better than convection for outdoor spaces?"
-meta_description: "Convection fails outdoors because warm air leaves; radiant heat reaches people directly. Short, medium and long wave compared, with the design rules."
+meta_description: "Radiant heat vs convection heat outdoors: warm air leaves, radiant warmth reaches people directly. Short, medium and long wave compared, with design rules."
 cta: {label: "Download the Planning Guide (pro edition)", asset: A02}
 hero: w-smoque-n-bones-tungsten-electric-1
 owner_review: Marketing
@@ -23,7 +23,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-CO-01, ARC-CO-KB1, ARC-IN-01, ARC-PP-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -69,13 +69,13 @@ sources:
     verified: false
 ---
 
-Outdoors, heat has to travel by radiation. Convection works by warming air, and in the open that air rises and drifts away before it reaches anyone; the slightest breeze finishes the job[^s1]. Radiant (infrared) heat crosses the air and is absorbed by people, furniture and floors, the way sunlight is. Design for that: choose the most radiant source the setting allows, aim it at the occupied zone, and control its output, not the air temperature.
+Outdoors, warmth has to travel by radiation. Convection works by warming the air, and in the open that air rises and drifts away before it reaches anyone, with the slightest breeze carrying it further[^s1]. Radiant (infrared) heat crosses the air and is absorbed by people, furniture and floors, much as sunlight is. Design for that: choose the most radiant source the setting allows, aim it at the occupied zone and control its output, since the air temperature itself cannot be held.
 
 ![Tungsten Electric heaters angled down from the beams of a restaurant pergola](img:w-smoque-n-bones-tungsten-electric-1)
 
-## How does heat move, and which way works outdoors?
+## How Warmth Travels Under The Open Sky
 
-Heat moves three ways. Conduction needs contact, so it plays no part in warming a seated guest. Convection carries heat in moving air. Radiation carries it as infrared, in straight lines, to whatever surface it strikes[^s1].
+Heat moves in three ways. Conduction needs contact, so it plays no part in warming a seated guest. Convection carries heat in moving air, and radiation carries it as infrared, in straight lines, to whatever surface it strikes[^s1].
 
 | | Convection | Radiation (infrared) |
 |---|---|---|
@@ -84,13 +84,13 @@ Heat moves three ways. Conduction needs contact, so it plays no part in warming 
 | Response | Slow; needs an enclosure to accumulate | Felt as soon as the element is hot |
 | Control | Thermostat, indoors | Output: on/off, dimming, zones, schedules |
 
-Bromic's Planning Guide puts it in one line: you cannot thermostatically control outdoor heating[^s1]. There is no air volume to hold at a set point.
+Bromic's Planning Guide captures it in a single line: you cannot thermostatically control outdoor heating[^s1]. In the open there is no volume of air to hold at a set point.
 
 <div class="diagram">Diagram: section through a covered terrace. Left half: a convection heater whose warm-air arrows rise to the soffit and spill out of the open side with the wind. Right half: a wall-mounted radiant heater whose straight arrows land on seated people, the table and the floor; a shaded band under the soffit is labelled "heat cloud". Note the 30% open-perimeter rule and the 72 in wall / 96 in ceiling minimums[^s1][^s3].</div>
 
-## What do short, medium and long wave mean?
+## Understanding Short, Medium And Long Wave
 
-Wavelength follows element temperature. The hotter the element, the shorter the wave and the more of its energy leaves as radiation rather than warm air[^s2]:
+Wavelength follows element temperature. The hotter the element, the shorter the wave and the more of its energy leaves as radiation instead of warm air[^s2]:
 
 | | Short wave | Medium wave | Long wave |
 |---|---|---|---|
@@ -99,21 +99,21 @@ Wavelength follows element temperature. The hotter the element, the shorter the 
 | Warm-up | Instant | About 30 s | About 5 min |
 | Wind | Warms people and objects directly | Limited susceptibility | Susceptible to dispersal |
 
-Source: Bromic Planning Guide v1.2, heat-wave mapping[^s2]. These are the figures behind the "60 to 90%" range the earlier version of this post quoted without a source: 60% is medium wave, 90% short wave.
+Source: Bromic Planning Guide v1.2, heat-wave mapping[^s2]. These are the figures behind the "60 to 90%" range the earlier version of this post quoted without a source, with 60% being medium wave and 90% short wave.
 
-The guide groups them by application. Direct heat, a mix of short and medium wave, gives the highest efficiency. Indirect heat, medium and long wave, is slower to warm and more exposed to wind[^s1]. Wavelength by model is set out in the specifier's guide, [radiant heat outdoors: short, medium and long wave](item:ARC-CO-01). [[VERIFY: wavelength band of each current Bromic model — Product team]]
+The guide groups the bands by application. Direct heat, a blend of short and medium wave, gives the highest efficiency, while indirect heat, medium and long wave, is slower to warm and more exposed to wind[^s1]. Wavelength by model is set out in the specifier's guide, [radiant heat outdoors: short, medium and long wave](item:ARC-CO-01). [[VERIFY: wavelength band of each current Bromic model — Product team]]
 
-## What follows for the design?
+## Designing The Space Around Radiant Warmth
 
-**Direction.** A directional heater pushes most of its output one way, toward the occupied zone; a non-directional one spreads it evenly in all directions, including where nobody sits[^s1]. Specify directional units and aim them at the seating.
+**Direction.** A directional heater sends most of its output one way, toward the occupied zone, whereas a non-directional one spreads it evenly in all directions, including where nobody sits[^s1]. Specify directional units and aim them at the seating.
 
-**Cover.** Bromic treats a space as outdoor when at least 30% of its horizontal perimeter is permanently open. A soffit or closed roof over the rest traps a heat cloud that adds a convective boost; open louvres trap little[^s1].
+**Cover.** Bromic treats a space as outdoor when at least 30% of its horizontal perimeter is permanently open. A soffit or closed roof over the rest holds a heat cloud that adds a convective boost, while open louvres hold very little[^s1].
 
-**Height.** Wall mounts no lower than 72 in and ceiling mounts no lower than 96 in, varying with output[^s3]. Higher spreads the pattern and lowers intensity at the guest; see [mounting height and heat intensity](item:ARC-CO-KB1). Coverage figures vary with model, mounting height, environment and installation[^s4].
+**Height.** Wall mounts sit no lower than 72 in and ceiling mounts no lower than 96 in, varying with output[^s3]. Mounting higher spreads the pattern and softens the intensity at the guest; see [mounting height and heat intensity](item:ARC-CO-KB1). Coverage figures vary with model, mounting height, environment and installation[^s4].
 
-**Light.** Hotter elements glow. Where the glow matters to the scheme, review it with the lighting design, not after installation.
+**Light.** Hotter elements glow. Where that glow matters to the scheme, review it alongside the lighting design well before installation.
 
-**Control.** Specify the control with the heater. Some energy codes now require it: Washington's commercial energy code requires heat outside a building to be radiant and switched by an occupancy sensor or timer[^s5]. Confirm the code in force with the local authority having jurisdiction, and have a licensed electrician or gas fitter design the circuit or supply.
+**Control.** Specify the control together with the heater. Some energy codes now require it: Washington's commercial energy code requires heat outside a building to be radiant and switched by an occupancy sensor or timer[^s5]. Confirm the code in force with the local authority having jurisdiction, and have a licensed electrician or gas fitter design the circuit or supply.
 
 | Heater | Coverage (approx.) | Mounting | Controls to specify |
 |---|---|---|---|
@@ -121,20 +121,20 @@ The guide groups them by application. Direct heat, a mix of short and medium wav
 | Tungsten Smart-Heat Electric | 65–160 ft²[^s6] | Wall, ceiling, pole, recessed | Affinity On/Off or Dimmer controller, manual wall switch; two elements on 4,000 and 6,000 W[^s6] |
 | Eclipse Smart-Heat Electric | 121 ft²[^s4] | Single, twin or curved pole | Affinity Eclipse controller or Eclipse Dimmer, manual wall switch |
 
-Wi-Fi, app scheduling and zones need compatible Affinity Smart-Heat Controls, sold separately[^s4]. [[VERIFY: product-page values read from bromic.com; confirm against 2026 cut sheets — Product team]] Compare the [electric outdoor heaters](https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/) and [gas outdoor heaters](https://www.bromic.com/outdoor-heaters/outdoor-gas-heaters/), or send plans to Bromic's [Design Your Space](https://www.bromic.com/design-your-space/) team for coverage drawings.
+Wi-Fi, app scheduling and zones need compatible Affinity Smart-Heat Controls, sold separately[^s4]. [[VERIFY: product-page values read from bromic.com; confirm against 2026 cut sheets — Product team]] Compare the [electric outdoor heaters](https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/) and [gas outdoor heaters](https://www.bromic.com/outdoor-heaters/outdoor-gas-heaters/), or send your plans to our [Design Your Space](https://www.bromic.com/design-your-space/) team for coverage drawings.
 
-## Frequently asked
+## Frequently Asked
 
 ### Why don't forced-air heaters work outdoors?
-They heat air, and outdoor air rises and leaves, faster in any breeze[^s1].
+They heat the air, and outdoor air rises and leaves, faster still in any breeze[^s1].
 
 ### Which wavelength should I specify for an exposed site?
-The most radiant the setting allows: short wave is about 90% radiant and instant; long wave about 40% and the most wind-sensitive[^s2].
+The most radiant the setting allows. Short wave is about 90% radiant and instant, while long wave is about 40% and the most sensitive to wind[^s2].
 
 ### Does a covered terrace need less heat?
-Often, because the cover holds a heat cloud that adds to the radiant output[^s1]. Keep 30% of the perimeter open.
+Often it does, because the cover holds a heat cloud that adds to the radiant output[^s1]. Keep 30% of the perimeter open.
 
 ### What is the difference between infrared and radiant?
-None in practice: radiant is how the heat travels, infrared is the radiation. See [infrared vs radiant heaters](https://www.bromic.com/blog/what-is-the-difference-between-an-infrared-heater-and-a-radiant-heater/).
+In practice there is none, since radiant is how the heat travels and infrared is the radiation itself. See [infrared vs radiant heaters](https://www.bromic.com/blog/what-is-the-difference-between-an-infrared-heater-and-a-radiant-heater/).
 
 The pro edition of the Planning Guide carries the full sizing and specification method.

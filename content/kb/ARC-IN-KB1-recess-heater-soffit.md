@@ -1,17 +1,17 @@
 ---
 id: ARC-IN-KB1
 type: kb
-title: "Can outdoor heaters be recessed into a soffit?"
+title: "Recessed patio heaters: can an outdoor heater sit flush in a soffit?"
 slug: recess-outdoor-heater-soffit
 audience: [ARC]
 stage: [IN]
 cell: ARC-IN
 asset: A24
-summary: "Yes: Bromic electric heaters can be flush-mounted with recess kits. What to draw and confirm so the recess works."
+summary: "Bromic electric heaters can sit flush in a soffit with a recess kit. What to draw and confirm so the recess, the cavity and the circuit are ready before the ceiling closes."
 primary_keyword: recessed patio heater
 secondary_keywords: [flush mount outdoor heater, soffit heater recess]
 ai_prompt: "Can outdoor heaters be recessed into a soffit?"
-meta_description: "Can outdoor heaters be recessed into a soffit? Yes, with recess kits. What architects should draw and confirm for a flush heater."
+meta_description: "Recessed patio heaters: Bromic electric heaters sit flush in a soffit with a recess kit. What architects should draw and confirm for a flush heater."
 cta: {label: "Download the spec kit", asset: A11}
 hero: t-006-016
 images: []
@@ -19,7 +19,7 @@ owner_review: Product team
 status: draft
 gated: false
 related: [ARC-IN-01, ARC-BY-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -37,7 +37,7 @@ sources:
     verified: true
 ---
 
-Yes. Bromic electric heaters can be recessed flush into a soffit or ceiling cavity using a Bromic recess kit, which fits Platinum and Tungsten Electric heaters[^s1]. The recess has to be designed: the opening, the cavity and the circuit belong on the drawings before the ceiling closes.
+They can, and a flush heater is one of the most refined ways to bring warmth to a covered outdoor space. Bromic electric heaters recess into a soffit or ceiling cavity with a Bromic recess kit, which fits Platinum and Tungsten Electric heaters[^s1]. The recess is designed with the ceiling, so the opening, the cavity and the circuit belong on the drawings before the ceiling closes.
 
 | Heater | Recessing | Coverage (approx.) |
 |---|---|---|
@@ -47,7 +47,7 @@ Yes. Bromic electric heaters can be recessed flush into a soffit or ceiling cavi
 
 Source: Lookbook 2026 and Planning Guide[^s1][^s2].
 
-## What to draw and confirm
+## Drawing a recess that disappears into the ceiling
 
 - [ ] Cut-out size and position on the reflected ceiling plan
 - [ ] Cavity depth, framing, trimmers and blocking

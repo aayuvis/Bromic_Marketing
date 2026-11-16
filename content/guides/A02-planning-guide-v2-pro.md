@@ -1,17 +1,17 @@
 ---
 id: A02-pro
 type: gated-guide
-title: "The outdoor heating planning guide: professional edition"
+title: "Radiant heater outdoor design: the professional outdoor heating planning guide"
 slug: outdoor-heating-planning-guide-professional
 audience: [ARC, BLD]
 stage: [CO, IN]
 cell: ARC-CO
 asset: A02
-summary: "The technical sequence for specifiers and builders: qualify the space, choose fuel and wavelength, schedule the current range by model, size it, carry amps at 208/240/277 V or gas into the drawings, specify the controls by channel, and check clearances and code."
+summary: "For architects, designers and builders who want warmth to feel part of the architecture. The full sequence, in the order your drawing set needs it: qualifying the space, fuel and wavelength, the current range by model, sizing, amps at 208/240/277 V or gas, controls by channel, clearances and code."
 primary_keyword: radiant heater outdoor design
 secondary_keywords: [short wave infrared heater, infrared heater wavelength, patio heater specification, outdoor heater electrical requirements]
 ai_prompt: "What is the difference between short wave and long wave infrared heaters?"
-meta_description: "Specifier's guide to outdoor radiant heat: wavelength, the current range by model, amps at 208/240 V, controller channels, clearances and code."
+meta_description: "Radiant heater outdoor design for specifiers: wavelength, the current Bromic range by model, amps at 208/240 V, controller channels, clearances and code."
 cta: {label: "Download the spec kit", asset: A11}
 hero: l-010-075
 images: [l-007-034, l-010-076, l-005-022, t-006-016, l-013-106]
@@ -19,7 +19,7 @@ owner_review: Product team + 454 Creative
 status: draft
 gated: true
 related: [ARC-CO-01, ARC-IN-01, BLD-IN-01]
-updated: 2026-10-29
+updated: 2026-11-16
 version: "2.0 draft, revision 2 (replaces Planning Guide US v1.2, 10/2021)"
 sources:
   - id: s1
@@ -194,15 +194,15 @@ sources:
 
 # The outdoor heating planning guide
 
-*Professional edition, for architects, designers and builders. Designed from the start, not added later.*
+*Professional edition, for architects, designers and builders who plan warmth in from the very first drawing.*
 
-Short wave heaters deliver about 90% of their output as radiant heat and warm instantly; medium wave about 60% with a 30-second warm-up; long wave about 40% with a 5-minute warm-up and the most sensitivity to wind[^s3]. That choice, made with the fuel, the mounting and the load, belongs in schematic design. This edition runs the sequence in the order a drawing set needs it, with the data per model.
+The best outdoor spaces hold their guests long after the sun has gone, and the warmth that keeps them there is chosen early. Short wave heaters deliver about 90% of their output as radiant heat and warm instantly; medium wave about 60% with a 30-second warm-up; long wave about 40% with a 5-minute warm-up and the most sensitivity to wind[^s3]. That choice, made together with the fuel, the mounting and the load, belongs in schematic design, and this edition follows the sequence in the order your drawing set needs it, with the data for each model.
 
-Fewer than one in four homeowners prioritize heating at planning[^s1]. Late heat arrives as surface conduit, a mismatched ceiling and a substitution at bid. Heat in the set from schematic design is a line item, a circuit and a recess, and it stays.
+Fewer than one in four homeowners prioritize heating at planning[^s1]. When heat arrives late, it tends to arrive as surface conduit, a ceiling that no longer matches and a substitution at bid. Drawn into the set from schematic design, the same heater becomes a line item, a circuit and a recess that stay exactly as you specified them.
 
-![Minimal glass pavilion with ceiling-recessed heaters](img:l-010-075)
+![Minimal glass pavilion at dusk, heaters recessed flush into the ceiling](img:l-010-075)
 
-## The sequence
+## Your sequence, step by step
 
 | Step | Output for the drawings |
 |---|---|
@@ -216,9 +216,9 @@ Fewer than one in four homeowners prioritize heating at planning[^s1]. Late heat
 | 8 Clearances and code | Heights, clearances, certification, permit path |
 | 9 Design service | Layout and coverage drawing from Bromic ([A07](asset:A07)) |
 
-## 1. Is it outdoor?
+## 1. Is the space outdoor?
 
-An area is outdoor for heating design when at least 30% of its horizontal perimeter is permanently open. A partial overhead cover holds a heat cloud that adds a convective contribution; size on radiant coverage regardless[^s3].
+For heating design, a space counts as outdoor when at least 30% of its horizontal perimeter is permanently open. A partial overhead cover holds a gentle heat cloud that adds a convective contribution, though sizing always rests on radiant coverage[^s3].
 
 | Configuration | Qualifies | Design note |
 |---|---|---|
@@ -234,16 +234,16 @@ Rules per the 2021 guide[^s3].
 - [ ] Open perimeter ______% (permanent openings only)[^s3]
 - [ ] Future enclosure noted on the drawings
 
-## 2. Measure
+## 2. Measuring the heated zones
 
 - [ ] Heated zones drawn over seating and bar rails, not circulation; ft² per zone
 - [ ] Mounting surfaces: soffit, beam, wall, post; finished heights AFF
 - [ ] Ceiling build-up and cavity depth where recessing
 - [ ] Exposure: prevailing wind, water, altitude
 
-## 3. Choose fuel
+## 3. Choosing fuel and wavelength
 
-Outdoors, convected heat rises and disperses; forced air cannot hold an open space at temperature and outdoor heat cannot be thermostatically controlled[^s3].
+In the open air, convected heat rises and disperses. Forced air cannot hold an open space at temperature, and outdoor heat cannot be thermostatically controlled, which is why radiant warmth aimed at people is the foundation of every outdoor scheme[^s3].
 
 | | Short wave | Medium wave | Long wave |
 |---|---|---|---|
@@ -252,7 +252,7 @@ Outdoors, convected heat rises and disperses; forced air cannot hold an open spa
 | Wind | Lowest sensitivity | Limited | Highest |
 | Use | Exposed sites, higher mounting | Covered areas | Sheltered, low-exposure spaces |
 
-Source: Bromic Planning Guide 2021[^s3]. Directional heaters push most output toward the occupied zone, which puts the energy where people sit[^s3]. [[VERIFY: wavelength classification of each current model, and whether to republish the 2021 element temperatures — Product team]]
+Source: Bromic Planning Guide 2021[^s3]. Directional heaters send most of their output toward the occupied zone, so the energy reaches the people sitting beneath them[^s3]. [[VERIFY: wavelength classification of each current model, and whether to republish the 2021 element temperatures — Product team]]
 
 | | Electric | Gas |
 |---|---|---|
@@ -262,11 +262,11 @@ Source: Bromic Planning Guide 2021[^s3]. Directional heaters push most output to
 | Control | On/off or 1% dimming, zones, schedules, app, BMS | On/off, zones, schedules, app, BMS |
 | Trade | Licensed electrician | Licensed gas fitter and electrician |
 
-Jurisdictions restricting new gas: see the Electrification compliance guide ([A12](asset:A12)).
+Where a jurisdiction restricts new gas, the Electrification compliance guide ([A12](asset:A12)) sets out what applies.
 
-![Urban roof terrace, timber soffit with recessed heater](img:t-006-016)
+![Urban roof terrace with a heater recessed into a warm timber soffit](img:t-006-016)
 
-## 4. Style and mounting: the current range
+## 4. Style and mounting across the current range
 
 | Model | Rating | Coverage | Mount | IP / certification | Warranty |
 |---|---|---|---|---|---|
@@ -284,7 +284,7 @@ Jurisdictions restricting new gas: see the Electrification compliance guide ([A1
 
 SKUs, Platinum Electric: 2300 W BH0320003 black / BH0320007 white; 3400 W BH0320005 / BH0320008; 4500 W BH3622000 / BH3622001[^s5]. Platinum Gas: BH0110001-1 NG / -002-1 LPG (23,600 Btu/h); BH0110003-1 NG / BH0110004-1 LPG (39,800 Btu/h)[^s10]. Tungsten Gas built-in: BH0210001-1 NG / BH0210002-1 LPG (160 ft²); BH0210003-1 NG / BH0210004-1 LPG (215 ft²)[^s11].
 
-Product-page values read 29 October 2026; Lookbook 2026 governs where they differ[^s2]. Open conflicts: [[VERIFY: Eclipse 2900 W (spec table) vs 3000 W (FAQ); Tungsten Freestanding Gas 38,000 Btu/h (Lookbook, used here) vs 38,500 (site); Cobalt 130/160 ft² (spec table, used here) vs "up to 144 ft²" (features); whether current Tungsten Electric 6000 W (160 ft²) remains once Coastal and Select (64–144 ft²) launch; Platinum Electric Marine 316 vs 314 stainless (FAQ) — Product team]]. The Tungsten built-in gas output is withheld until confirmed.
+Product-page values were read on 29 October 2026, and the Lookbook 2026 governs wherever they differ[^s2]. Open conflicts are listed for confirmation: [[VERIFY: Eclipse 2900 W (spec table) vs 3000 W (FAQ); Tungsten Freestanding Gas 38,000 Btu/h (Lookbook, used here) vs 38,500 (site); Cobalt 130/160 ft² (spec table, used here) vs "up to 144 ft²" (features); whether current Tungsten Electric 6000 W (160 ft²) remains once Coastal and Select (64–144 ft²) launch; Platinum Electric Marine 316 vs 314 stainless (FAQ) — Product team]]. The Tungsten built-in gas output is withheld until it is confirmed.
 
 | Accessory | Fuel | Purpose |
 |---|---|---|
@@ -299,20 +299,20 @@ Product-page values read 29 October 2026; Lookbook 2026 governs where they diffe
 - [ ] Coming-soon models carry an approved current alternate
 - [ ] Recess kits, poles, deflectors scheduled
 
-![Black Tungsten Select grille glowing, macro detail](img:l-007-034)
+![Close detail of a black Tungsten Select grille glowing warm](img:l-007-034)
 
-## 5. Size it
+## 5. Sizing each zone
 
-Heaters per zone = zone area ÷ effective coverage per heater, rounded up. The [A03 calculator](asset:A03) applies its stated adjustments to the nominal coverage above: open space 0.85, partially covered 1.0, covered 1.1; mild 1.0, cool 0.85, cold 0.7; mounting to 10 ft 1.0, to 12 ft 0.9, above 12 ft 0.8 (built-in heaters). These are working assumptions awaiting Bromic sign-off, not published ratings. [[VERIFY: A03 enclosure, climate and height factors — Product team]] Freestanding heaters (Tungsten Freestanding Gas, Eclipse Freestanding) also serve no more than four seats each, because seated guests block their radiant heat: count max(area ÷ effective coverage, seats ÷ 4), allowing 20 ft² a seat where the seat count is unknown.
+Heaters per zone = zone area ÷ effective coverage per heater, rounded up. The [A03 calculator](asset:A03) applies its stated adjustments to the nominal coverage above, namely open space 0.85, partially covered 1.0, covered 1.1; mild 1.0, cool 0.85, cold 0.7; mounting to 10 ft 1.0, to 12 ft 0.9, above 12 ft 0.8 (built-in heaters). These are working assumptions awaiting Bromic sign-off rather than published ratings. [[VERIFY: A03 enclosure, climate and height factors — Product team]] Freestanding heaters (Tungsten Freestanding Gas, Eclipse Freestanding) also serve no more than four seats each, because seated guests block their radiant heat, so count max(area ÷ effective coverage, seats ÷ 4), allowing 20 ft² a seat where the seat count is unknown.
 
-**Example.** A 16 × 24 ft covered dining terrace, cool climate, 10 ft soffit: 384 ft². Tungsten Electric 6000 W: 160 × 1.1 × 0.85 × 1.0 = 150 ft² effective; 384 ÷ 150 = 2.6, so **three heaters**, each on its own Affinity Dimmer channel (a 5-channel controller), a wall switch and the app.
+**Worked example.** Picture a 16 × 24 ft covered dining terrace in a cool climate, with a 10 ft soffit: 384 ft². Tungsten Electric 6000 W: 160 × 1.1 × 0.85 × 1.0 = 150 ft² effective; 384 ÷ 150 = 2.6, so **three heaters**, each on its own Affinity Dimmer channel (a 5-channel controller), a wall switch and the app.
 
 - [ ] Count per zone with factors stated
 - [ ] Heat blooms laid over seating
 
-## 6. Power or gas
+## 6. Bringing power or gas to each heater
 
-**Current: I = W ÷ V.** Fixed electric space-heating loads are treated as continuous, so branch-circuit conductors and overcurrent devices are sized at not less than 125% of the load (NEC 424 with 210.19(A)(1) and 210.20(A))[^s24][^s21]. Feeders and services follow Article 220.
+**Current is I = W ÷ V.** Fixed electric space-heating loads are treated as continuous, so branch-circuit conductors and overcurrent devices are sized at not less than 125% of the load (NEC 424 with 210.19(A)(1) and 210.20(A))[^s24][^s21]. Feeders and services follow Article 220.
 
 | Heater | A at 208 V | × 1.25 | A at 240 V | × 1.25 | A at 277 V |
 |---|---|---|---|---|---|
@@ -330,17 +330,17 @@ Heaters per zone = zone area ÷ effective coverage per heater, rounded up. The [
 
 Published amps from the product pages[^s5][^s7][^s8][^s9]; Tungsten rows are W ÷ V because the page lists none. Cobalt's published 208 V figures sit below W ÷ 208 (19.2 and 28.8 A). [[VERIFY: Tungsten amps per model and voltage; Cobalt 208 V rating; breaker sizes per installation manual; Art. 424 vs 422 classification — Product team + Trade sales]]
 
-**Gas.** Size piping for the total connected Btu/h, length and pressure to ANSI Z223.1/NFPA 54[^s22]. Built-in gas heaters also need 110 V, 2 A[^s10][^s11]. The Tungsten Freestanding Gas takes a 20 lb LPG cylinder or a 10 ft natural-gas quick-connect[^s12]. Do not carry a Tungsten built-in Btu/h into drawings until Bromic confirms it. [[VERIFY: inlet size and supply pressure per gas model — Product team]]
+**Gas supply.** Size piping for the total connected Btu/h, length and pressure to ANSI Z223.1/NFPA 54[^s22]. Built-in gas heaters also need 110 V, 2 A[^s10][^s11]. The Tungsten Freestanding Gas takes a 20 lb LPG cylinder or a 10 ft natural-gas quick-connect[^s12]. Please hold any Tungsten built-in Btu/h out of the drawings until Bromic confirms it. [[VERIFY: inlet size and supply pressure per gas model — Product team]]
 
-Rough-in detail (boxes, blocking, control runs): Pre-wire guide ([A16](asset:A16)).
+For rough-in detail, including boxes, blocking and control runs, see the Pre-wire guide ([A16](asset:A16)).
 
 - [ ] Amps per heater at the specified voltage; conductors and OCPD at 125% or more[^s24]
 - [ ] Panel capacity; junction boxes dimensioned
 - [ ] Gas load, pipe size, shut-offs; 110 V at each built-in gas heater
 
-## 7. Controls (required)
+## 7. Controls, specified with every heater
 
-Every heater schedule carries a controls line. Specify the full bundle: controller and channels, wall switch, app or BMS.
+Affinity Smart-Heat® Controls are what let a space be warmed exactly where, and when, it is used, so every heater schedule carries a controls line. Specify the full bundle of controller and channels, wall switch, and app or BMS.
 
 | Item | Channels | Capacity per channel | Specify with |
 |---|---|---|---|
@@ -350,18 +350,18 @@ Every heater schedule carries a controls line. Specify the full bundle: controll
 | Manual wall switch | Single or dual | 20 A, 120–277 V; indoor or outdoor kit | All[^s16] |
 | Expansion board | – | Ethernet and 0–10 V for BMS or home automation; built into the 5-channel; BMS mode disables the app | Integrated projects[^s17] |
 
-**Heaters per 6 kW channel:** Tungsten 2000 W ×3, 3000 W ×2, 4000/6000 W ×1; Platinum 2300 W ×2, 3400/4500 W ×1; Cobalt ×1. Eclipse: one per Eclipse channel. Gas: up to 10 per On/Off channel[^s13]. The circuit rating can set a lower limit.
+**Heaters per 6 kW channel:** Tungsten 2000 W ×3, 3000 W ×2, 4000/6000 W ×1; Platinum 2300 W ×2, 3400/4500 W ×1; Cobalt ×1. Eclipse: one per Eclipse channel. Gas: up to 10 per On/Off channel[^s13]. The circuit rating can set a lower limit still.
 
-Controllers: IP54, operating range −4 to 86 °F; 2.4 GHz Wi-Fi, Bluetooth about 30 ft, optional Ethernet; UL 60730-1, CAN/CSA E60730-1[^s13]. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately. Alexa and Google Home need no board; Control4, Crestron and Lutron compatibility varies and may need extra hardware or configuration[^s2][^s17]. [[VERIFY: controller capacities, Cobalt and gas compatibility (spec table vs FAQ), and Tungsten Freestanding Gas controls — Product team]]
+The controllers are rated IP54, with an operating range of −4 to 86 °F; 2.4 GHz Wi-Fi, Bluetooth about 30 ft, optional Ethernet; UL 60730-1, CAN/CSA E60730-1[^s13]. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately. Alexa and Google Home need no board; Control4, Crestron and Lutron compatibility varies and may need extra hardware or configuration[^s2][^s17]. [[VERIFY: controller capacities, Cobalt and gas compatibility (spec table vs FAQ), and Tungsten Freestanding Gas controls — Product team]]
 
 - [ ] Controller, channel count and heater-to-channel schedule
 - [ ] Controller location: accessible, protected, within Wi-Fi range
 - [ ] Wall-switch box at the threshold
 - [ ] App or BMS; integrator named
 
-![Eclipse with dimmable rim lighting glowing](img:l-013-106)
+![Eclipse heater glowing softly with its dimmable rim lighting](img:l-013-106)
 
-## 8. Clearances and code
+## 8. Clearances and code, confirmed early
 
 | Mount | Minimum AFF |
 |---|---|
@@ -377,7 +377,7 @@ Controllers: IP54, operating range −4 to 86 °F; 2.4 GHz Wi-Fi, Bluetooth abou
 | Gas | ANSI Z223.1/NFPA 54[^s22] | Where heaters may go, supply, ventilation, clearance to combustibles |
 | Certification | Intertek, UL or CSA mark | Required on gas and electrical appliances, including portable heaters[^s3] |
 
-Clearances to ceiling, sides and combustibles come from each model's installation manual and listing; do not interpolate between models. [[VERIFY: clearance table per model from current manuals — Product team]]
+Clearances to ceiling, sides and combustibles come from each model's installation manual and listing, and each model is read on its own, without interpolating between them. [[VERIFY: clearance table per model from current manuals — Product team]]
 
 *Indicative only. The adopted code edition and local amendments govern. Confirm with the local building authority, and have heaters installed by a licensed electrician or gas fitter to the manufacturer's instructions.*
 
@@ -385,15 +385,15 @@ Clearances to ceiling, sides and combustibles come from each model's installatio
 - [ ] Per-model clearances on the drawings
 - [ ] Certification mark per model; permits and AHJ path identified
 
-![White heater between pergola louvres](img:l-010-076)
+![White heater set neatly between pergola louvres](img:l-010-076)
 
-## 9. Design service
+## 9. Working with the Bromic design service
 
-Send plans, sections or photos to the Bromic design service for heater selection, placement and coverage drawings, at no charge[^s2]. Running cost per heater: kW × $/kWh (electric); Btu/h ÷ 100,000 × $/therm (natural gas); Btu/h ÷ 91,500[^s23] × $/gal (propane). At the A20 model's rates (13.54¢/kWh, EIA commercial, May 2026[^s18]; $0.87/therm, EIA commercial, Jan–May 2026[^s19]; $2.674/gal, EIA residential propane, 30 Mar 2026[^s20]) a Tungsten 4000 W costs $0.54 an hour and a Platinum Gas 39,800 Btu/h $0.35 on natural gas or $1.16 on propane. [[VERIFY: 2026 rates — Finance]]
+Send plans, sections or photos to the Bromic design service and our team will return heater selection, placement and coverage drawings, at no charge[^s2]. Running cost per heater is kW × $/kWh (electric); Btu/h ÷ 100,000 × $/therm (natural gas); Btu/h ÷ 91,500[^s23] × $/gal (propane). At the A20 model's rates (13.54¢/kWh, EIA commercial, May 2026[^s18]; $0.87/therm, EIA commercial, Jan–May 2026[^s19]; $2.674/gal, EIA residential propane, 30 Mar 2026[^s20]) a Tungsten 4000 W costs $0.54 an hour and a Platinum Gas 39,800 Btu/h $0.35 on natural gas or $1.16 on propane. [[VERIFY: 2026 rates — Finance]]
 
 - [ ] Drawings sent to the design service
 - [ ] Coverage drawing returned and coordinated
 
 ![Tungsten Coastal (coming soon) recessed flush into a white ceiling](img:l-005-022)
 
-Download the spec kit for CSI sections, details and coverage tables.
+Download the spec kit for CSI sections, details and coverage tables, ready for your set.

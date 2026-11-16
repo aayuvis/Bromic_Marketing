@@ -7,7 +7,7 @@ audience: ["COM"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "Harbour-view Café Sydney, on the roof of Customs House, chose Platinum Smart-Heat gas heaters for its large outdoor terrace after seeing them at another venue, valuing that they recede when off."
+summary: "On the roof of Customs House, harbour-view Café Sydney chose Platinum Smart-Heat gas heaters for its large outdoor terrace after seeing them at another venue, valuing the way they recede when off."
 cta: {label: "Book a design consult", asset: A07}
 hero: w-20-twenty-westin-carlsbad-6-1024x576-1
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: bromic-listing
 completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Venue (venue.net.au)"
@@ -55,19 +55,19 @@ sources:
 | Controls | [[VERIFY: controls — Bromic AU]] |
 | Installed | By 2013 (date of the press item) |
 
-## The space
+## The setting
 
-A harbour-view restaurant on top of Customs House, with a large outdoor dining terrace. [^s1][^s2][^s3]
+Café Sydney looks out over the harbour from the top of Customs House, with a large outdoor dining terrace. [^s1][^s2][^s3]
 
-## What was installed
+## Bringing in the warmth
 
-Platinum Smart-Heat gas heaters, chosen by the manager after seeing them at another venue, because they visually recede when off. A Bromic customer video exists.
+The manager chose Platinum Smart-Heat gas heaters after seeing them at another venue, because they visually recede when they are off. A Bromic customer video exists.
 
-**Controls.** None A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+The sources do not name the controls used here. Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-An iconic Sydney venue and an existing Bromic customer video: worth refreshing as a long-term customer story, if the heaters are still in place.
+An iconic Sydney venue with an existing Bromic customer video is well worth refreshing as a long-term customer story, if the heaters are still in place.
 
 ## Photos
 

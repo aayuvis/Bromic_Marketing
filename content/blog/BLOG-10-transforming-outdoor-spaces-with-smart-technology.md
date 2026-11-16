@@ -1,7 +1,7 @@
 ---
 id: BLOG-10
 type: blog
-title: "The future of home automation: smart technology for outdoor spaces"
+title: "The Future Of Home Automation: Smart Outdoor Heater Technology For Your Space"
 slug: transforming-outdoor-spaces-with-smart-technology
 live_url: https://www.bromic.com/blog/transforming-outdoor-spaces-with-smart-technology/
 action: keep-fix
@@ -10,11 +10,11 @@ audience: [RES, ARC]
 stage: [AW]
 cell: RES-AW
 asset: A24
-summary: "Podcast write-up: Snap One's Jeff Thomas and Bromic's Michael Smith on bringing automation outdoors, planning it early, and wired versus wireless, with the Affinity controls that put outdoor heat on the home network."
+summary: "Snap One's Jeff Thomas and Bromic's Michael Smith on bringing the comfort of a connected home out onto the patio – planning it early, choosing wired or wireless, and the Affinity controls that bring outdoor heat onto the home network."
 primary_keyword: smart outdoor heater
 secondary_keywords: [outdoor home automation, smart patio, outdoor living technology]
 ai_prompt: "How does home automation work with outdoor heating?"
-meta_description: "Snap One's Jeff Thomas and Bromic's Michael Smith on outdoor home automation, planning it early, wired vs wireless, and smart outdoor heat."
+meta_description: "Snap One's Jeff Thomas and Bromic's Michael Smith on outdoor home automation, planning early, wired vs wireless, and the smart outdoor heater."
 cta: {label: "Download the Outdoor Living Trends 2026 report", asset: A01}
 hero: w-mom-design-build-2-web
 owner_review: Marketing
@@ -23,7 +23,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-AW-01, RES-BY-01, ARC-IN-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -48,42 +48,42 @@ sources:
     verified: true
 ---
 
-Home automation now reaches the patio. In this episode of the Designing Outdoor Spaces podcast, Jeff Thomas of Snap One and Michael Smith of Bromic Heating discuss bringing lighting, climate and heat outdoors, why integrators and designers should be in the room early, and when a wired connection beats wireless.[^s1] For heating, that means Affinity Smart-Heat controls, sold separately, which put Bromic heaters on the same network as the house.[^s2]
+The lights dim, the music follows you outside and the heaters glow as the evening cools – the connected home now reaches all the way to the patio. In this episode of the Designing Outdoor Spaces podcast, Jeff Thomas of Snap One and Michael Smith of Bromic Heating talk about bringing lighting, climate and heat outdoors, why integrators and designers belong in the conversation early, and when a wired connection is the better choice over wireless.[^s1] For heating, that conversation leads to Affinity Smart-Heat controls, sold separately, which bring Bromic heaters onto the same network as the rest of the house.[^s2]
 
 [Listen to the full episode](https://www.bromic.com/podcast/the-future-of-home-automation).
 
-## Who is on the episode?
+## Meet The Guests
 
 | Guest | Role | Focus |
 |---|---|---|
 | Jeff Thomas | Senior Director of Product Management, Snap One | More than 15 years in smart home, product development and lighting design[^s1] |
 | Michael Smith | Global VP, Bromic Heating | Growing the smart outdoor heating market; background in chemical engineering and business development[^s1] |
 
-## Why plan automation early?
+## Why Planning Early Makes All The Difference
 
-Thomas traces how home automation has developed over the past five years and argues that the best results come when integrators and designers are involved from the start, so technology is part of the design rather than fitted around it.[^s1] Specifiers are being asked for outdoor rooms that look striking and also run lighting and climate as well as the rooms inside.[^s1]
+Thomas traces how home automation has developed over the past five years, and he makes the case that the most rewarding projects bring integrators and designers into the conversation at the first sketch, so the technology is woven into the design itself.[^s1] Specifiers are now being asked for outdoor rooms that look striking and run their lighting and climate as effortlessly as the rooms inside.[^s1]
 
-For heat, early means the drawing: heater positions, circuits, and where the controller and its network connection sit. That is the point at which outdoor heating is designed from the start, not added later.
+For heat, planning early means planning on the drawing: where each heater sits, how the circuits run, and where the controller and its network connection will live. That is the moment warmth is planned in from the first drawing, woven into the space alongside the lighting and the climate inside.
 
-## What does smart outdoor heat look like?
+## What Smart Outdoor Heat Feels Like
 
-As the post summarises him, Smith sees outdoor space as no longer an afterthought, and smart heaters and controls as a way to keep it as connected, efficient and well designed as the interior.[^s1] Homeowners increasingly expect heat, lighting and security to work with the systems they already have.[^s1]
+As the post summarises him, Smith sees the outdoor space as no longer an afterthought, with smart heaters and controls keeping it as connected, efficient and well designed as the interior.[^s1] Homeowners increasingly expect heat, lighting and security to work seamlessly with the systems they already live with.[^s1]
 
-At Bromic, that is the Affinity Smart-Heat range:[^s2]
+At Bromic, that experience comes through the Affinity Smart-Heat range:[^s2]
 
-- **On/Off, Dimmer or Eclipse controller**, or a manual wall switch, for every installed heater.
+- **An On/Off, Dimmer or Eclipse controller**, or a manual wall switch, with every installed heater.
 - **The Bromic app** for zones, schedules and timers.
 - **Alexa and Google Assistant**, with no extra hardware.[^s3]
 - **Control4, Crestron and Lutron** through the Affinity expansion board's Ethernet and 0–10 V connection; compatibility varies by system.[^s2][^s3]
 
-Wi-Fi and app features need compatible Affinity controls, sold separately.[^s2] See [setting up Smart-Heat controls](item:RES-BY-01) and [connecting heaters to home automation](https://www.bromic.com/blog/how-to-integrate-your-bromic-smart-heat-link-with-your-home-automation-system/).
+Wi-Fi and app features need compatible Affinity controls, sold separately.[^s2] To go further, see [setting up Smart-Heat controls](item:RES-BY-01) and [connecting heaters to home automation](https://www.bromic.com/blog/how-to-integrate-your-bromic-smart-heat-link-with-your-home-automation-system/).
 
-## Wired or wireless?
+## Choosing Between Wired And Wireless
 
-Thomas notes that wireless systems have improved, but wired connections still win on reliability in large spaces or where the signal is weak.[^s1] Affinity controllers offer both: Wi-Fi for most homes, and Ethernet through the expansion board where a steady link matters.[^s3] Run the network cable when the heater circuits go in.
+Thomas notes that wireless systems have come a long way, though a wired connection still offers the most dependable link across large spaces or wherever the signal is weak.[^s1] Affinity controllers give you both, with Wi-Fi for most homes and Ethernet through the expansion board where a steady connection matters most.[^s3] The simplest moment to run that network cable is when the heater circuits go in.
 
-## What comes next?
+## Where Outdoor Living Goes Next
 
-The post closes on a simple point: as automation becomes easier to buy, a well-integrated outdoor space is what sets a project apart.[^s1] Browse [Bromic outdoor heaters](https://www.bromic.com/outdoor-heaters/) or the [controls range](https://www.bromic.com/controls/).
+The post closes on a thought worth holding onto: as automation becomes easier to buy, it is the well-integrated outdoor space that sets a project apart.[^s1] Browse [Bromic outdoor heaters](https://www.bromic.com/outdoor-heaters/) or explore the [controls range](https://www.bromic.com/controls/).
 
-How homeowners plan outdoor living this year is in the Trends 2026 report.
+To see how homeowners are planning their outdoor living this year, explore the Trends 2026 report.

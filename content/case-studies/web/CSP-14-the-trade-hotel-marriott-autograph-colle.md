@@ -1,13 +1,13 @@
 ---
 id: CSP-14
 type: case-study
-title: "The Trade Hotel (Marriott Autograph Collection) - lounge, suite patios and il cervo rooftop restaurant, Milwaukee"
+title: "The Trade Hotel, Milwaukee: warmth from the suite patios to the il cervo rooftop"
 slug: csp-14
 audience: ["COM"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "The Trade is an Autograph Collection hotel beside Fiserv Forum and the Deer District. Its outdoor spaces - a lounge, suite patios and the ninth-floor rooftop restaurant il cervo - were heated with Bromic electric patio heaters, laid out by NCG with Bromic's"
+summary: "At The Trade, an Autograph Collection hotel beside Fiserv Forum, Bromic electric patio heaters warm the lounge, the suite patios and il cervo, the ninth-floor rooftop restaurant, laid out by NCG with Bromic's design team."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-002-005
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: page-read
 completeness: partial
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Gunn & Pegelow (HVAC manufacturers' representative)"
@@ -46,15 +46,15 @@ sources:
 | Heated area or seats | a lounge, suites with outdoor patios, and the 9th-floor rooftop restaurant il cervo |
 | Mounting | several mounting types chosen per space, including custom mounting solutions |
 
-## What the sources say
+## The story so far
 
-The Trade is an Autograph Collection hotel beside Fiserv Forum and the Deer District. Its outdoor spaces - a lounge, suite patios and the ninth-floor rooftop restaurant il cervo - were heated with Bromic electric patio heaters, laid out by NCG with Bromic's design team to give an even temperature across the spaces. The contractor used several mounting methods, some custom, to suit each area. [^s1]
+The Trade is an Autograph Collection hotel beside Fiserv Forum and the Deer District. Its outdoor spaces, from the lounge and the suite patios to il cervo, the ninth-floor rooftop restaurant, were heated with Bromic electric patio heaters, laid out by NCG with Bromic's design team to give an even temperature across every space. The contractor used several mounting methods, some of them custom, to suit each area. [^s1]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-A branded Marriott hotel rooftop restaurant in a cold Midwest city, with a named contractor and developer - fills the cold-climate US hotel rooftop gap and shows electric heat across several outdoor zones.
+A branded Marriott hotel rooftop restaurant in a cold Midwest city, with a named contractor and developer, fills the gap for a cold-climate US hotel rooftop story and shows electric heat working across several outdoor zones.
 
 ## Photos
 

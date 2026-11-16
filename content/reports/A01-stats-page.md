@@ -1,17 +1,17 @@
 ---
 id: A01-stats
 type: stats-page
-title: "Outdoor living statistics 2026: patios, demand and spending"
+title: "Outdoor Living Statistics 2026: How America Lives Outdoors"
 slug: outdoor-living-statistics-2026
 audience: [RES, ARC, BLD]
 stage: [AW]
 cell: RES-AW
 asset: A01
-summary: "The key US outdoor living numbers for 2026: how many new homes have patios, how big they are, what architects report, what homeowners spend and what a patio returns, each with its primary source."
+summary: "The numbers behind the evenings Americans spend outdoors: how many new homes come with a patio and how large they have grown, what architects are seeing, what homeowners invest and what a patio gives back, each with its primary source."
 primary_keyword: outdoor living statistics 2026
 secondary_keywords: [patio statistics, outdoor living trends 2026, new home patio size, patio return on investment]
 ai_prompt: "What are the key outdoor living statistics for 2026?"
-meta_description: "Key US outdoor living statistics for 2026: patio share and size in new homes, architect demand, remodeling spend and patio cost recovery, all sourced."
+meta_description: "Outdoor living statistics 2026: how many new US homes have a patio, how big it is, what architects see and what a patio returns at resale, all sourced."
 cta: {label: "Download the Trends 2026 report", asset: A01}
 hero: t-001-000
 images: [t-005-013]
@@ -19,7 +19,7 @@ owner_review: Marketing
 status: draft
 gated: false
 related: [A01-corrections, BLD-AW-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: National Association of Home Builders (Eye on Housing)
@@ -79,65 +79,65 @@ sources:
     verified: true
 ---
 
-# Outdoor living statistics 2026
+# Outdoor Living Statistics 2026
 
 Six in ten new US single-family homes now come with a patio, and the average one is about 320 square feet.[^s1][^s3] Architects still rank outdoor living as the most popular exterior feature, though demand cooled in 2025.[^s4] Homeowners spend around $525 billion a year improving and repairing the homes they own,[^s5] and a new patio recovers about 95% of its cost at resale.[^s8]
 
-Behind every number is the same evening: a table outside, people who want to stay, and the cold that sends them in. These are the figures that show how much of the home now lives outdoors.
+Every one of these numbers comes back to the same evening: a table set outside, friends who would happily stay another hour, and the chill that eventually calls everyone in. Together they show how much of the American home now lives beneath the open sky.
 
-![A modern timber house with its deck lit at dusk](img:t-001-000)
+![A modern timber house with its deck glowing at dusk](img:t-001-000)
 
-## What share of new US homes are built with a patio?
+## How Many New US Homes Come With A Patio?
 
-60.5% of the roughly 940,000 single-family homes started in 2025 came with a patio.[^s1] That is down from 61.8% in 2024, the first fall in fifteen years, and the lowest share since 2019.[^s1][^s2] Region decides a lot: more than 80% of new homes in the West South Central states have one, against 14% in New England.[^s2]
+60.5% of the roughly 940,000 single-family homes started in 2025 came with a patio.[^s1] That is down from 61.8% in 2024, the first fall in fifteen years, and the lowest share since 2019.[^s1][^s2] Where you build makes a real difference: more than 80% of new homes in the West South Central states have one, compared with 14% in New England.[^s2]
 
 Source: National Association of Home Builders, analysis of the US Census Bureau Survey of Construction, 2025 starts (published September 2026).
 
-## How big is the average new-home patio?
+## How Large Has The New-Home Patio Grown?
 
-About 320 square feet, for homes built in 2024, up from about 290 square feet the year before.[^s3] The spread is wide: over 400 square feet in the East North Central and East South Central divisions, under 200 in the West South Central.[^s3] At that size, a patio is a room, and needs planning like one.
+The average patio on a home built in 2024 is about 320 square feet, up from about 290 square feet the year before.[^s3] The range across the country is wide, from over 400 square feet in the East North Central and East South Central divisions to under 200 in the West South Central.[^s3] At that size a patio has become a true outdoor room, and it deserves the same thoughtful planning as any room inside.
 
 Source: National Association of Home Builders, Builder Practices Survey 2025 (homes built in 2024).
 
-## Do architects still see rising demand for outdoor living?
+## Are Architects Still Seeing Rising Demand For Outdoor Living?
 
-Yes, though less than a year earlier. In AIA's Q2 2025 survey, outdoor living spaces scored a net 55%, down from 60% in 2024, and remained the most popular exterior feature.[^s4] The score is a net figure: the share of architects reporting rising popularity minus the share reporting a fall.
-
-Source: American Institute of Architects, Home Design Trends Survey, Q2 2025.
-
-## Is demand for indoor-outdoor living still growing?
-
-It is still positive, but slowing. Blended indoor/outdoor spaces, such as kitchens that open to a terrace or glass walls that slide away, scored a net 40% in Q2 2025, down from 51% in 2024.[^s4] More architects still see this demand rising than falling.
+They are, though a little less than a year earlier. In AIA's Q2 2025 survey, outdoor living spaces scored a net 55%, down from 60% in 2024, and remained the most popular exterior feature.[^s4] The score is a net figure: the share of architects reporting rising popularity minus the share reporting a fall.
 
 Source: American Institute of Architects, Home Design Trends Survey, Q2 2025.
 
-## How much do US homeowners spend on home improvement?
+## Is Indoor-Outdoor Living Still Growing?
 
-About $525 billion a year. Harvard's Joint Center for Housing Studies expects annual spending on improvements and repairs to owner-occupied homes to hold near that level through the third quarter of 2027.[^s5] Growth is slow, so money is going to projects homeowners value most.
+Demand remains positive while the pace eases. Blended indoor/outdoor spaces, such as kitchens that open onto a terrace or glass walls that slide away, scored a net 40% in Q2 2025, down from 51% in 2024.[^s4] More architects still see this demand rising than falling.
+
+Source: American Institute of Architects, Home Design Trends Survey, Q2 2025.
+
+## How Much Do US Homeowners Invest In Their Homes?
+
+Homeowners spend about $525 billion a year, and Harvard's Joint Center for Housing Studies expects annual spending on improvements and repairs to owner-occupied homes to hold near that level through the third quarter of 2027.[^s5] With growth this steady, homeowners are choosing carefully and putting their money into the projects they value most.
 
 Source: Harvard Joint Center for Housing Studies, Leading Indicator of Remodeling Activity (LIRA), October 2026 release.
 
-## Why do homeowners upgrade their outdoor space?
+## Why Do Homeowners Upgrade Their Outdoor Space?
 
-Often, for more room to live in. Among homeowners upgrading outdoor areas, 33% said the goal was to extend their living space.[^s6] The motive is strongest among Gen X (41%) and millennials (38%), and weaker among baby boomers (28%).[^s6]
+Very often they want more room to live in. Among homeowners upgrading outdoor areas, 33% said the goal was to extend their living space.[^s6] That wish is strongest among Gen X (41%) and millennials (38%), and gentler among baby boomers (28%).[^s6]
 
 Source: Houzz, 2024 U.S. Houzz Outdoor Trends Study (1,100+ homeowners planning, in the middle of, or recently finished an outdoor renovation; fielded May 2024).
 
-## Does a new patio pay back at resale?
+## Does A New Patio Pay Back At Resale?
 
-Mostly. Realtors estimate a new patio, at a typical cost of $10,500, recovers about 95% of that cost when the home sells.[^s7][^s8] Actual returns depend on design, materials, location and the home's condition.
-
-Source: National Association of Realtors and National Association of Landscape Professionals, 2023 Remodeling Impact Report: Outdoor Features.
-
-## How happy are homeowners with a new patio?
-
-Very. Homeowners gave a new patio a Joy Score of 9.9 out of 10, third only to an in-ground pool and landscape lighting, both at 10.[^s7] The people who build one use it, and are glad they did.
+For the most part, yes. Realtors estimate that a new patio, at a typical cost of $10,500, recovers about 95% of that cost when the home sells.[^s7][^s8] Actual returns depend on design, materials, location and the home's condition.
 
 Source: National Association of Realtors and National Association of Landscape Professionals, 2023 Remodeling Impact Report: Outdoor Features.
 
-![A couple by an outdoor fireplace under a covered patio](img:t-005-013)
+## How Much Joy Does A New Patio Bring?
 
-## Summary table
+A great deal. Homeowners gave a new patio a Joy Score of 9.9 out of 10, third only to an in-ground pool and landscape lighting, both at 10.[^s7] The people who build one use it often, and they are glad they did.
+
+Source: National Association of Realtors and National Association of Landscape Professionals, 2023 Remodeling Impact Report: Outdoor Features.
+
+![A couple relaxing by an outdoor fireplace beneath a covered patio](img:t-005-013)
+
+## The Year At A Glance
 
 | Statistic | Figure | Source | Year |
 |---|---|---|---|
@@ -150,12 +150,12 @@ Source: National Association of Realtors and National Association of Landscape P
 | New patio cost recovered at resale | About 95% (of $10,500) | NAR and NALP Remodeling Impact Report[^s8] | 2023 |
 | New patio Joy Score | 9.9 out of 10 | NAR and NALP Remodeling Impact Report[^s7] | 2023 |
 
-## Key takeaways
+## What These Numbers Tell Us
 
-- The patio is standard in most new US homes, and it is getting bigger.[^s1][^s3]
-- Architects still put outdoor living at the top of exterior features, even as demand cooled in 2025.[^s4]
-- A new patio is close to cost-neutral at resale and scores near the top for homeowner joy.[^s7][^s8]
-- What a patio does after dark, and in the colder months, is decided at planning: power, mounting and controls go in the drawing, not after it.
+- Most new US homes now come with a patio, and the patio keeps growing.[^s1][^s3]
+- Architects still place outdoor living at the top of exterior features, even as demand cooled in 2025.[^s4]
+- A new patio comes close to paying for itself at resale and scores near the top for homeowner joy.[^s7][^s8]
+- How a patio feels after dark and through the cooler months is decided at the planning stage, when power, mounting and controls can be drawn into the design from the very beginning.
 
 ## FAQ
 
@@ -165,30 +165,30 @@ Source: National Association of Realtors and National Association of Landscape P
 
 ### How big is a typical new-home patio in the US?
 
-About 320 square feet on average for homes built in 2024, according to NAHB's Builder Practices Survey. Regional averages run from under 200 to over 400 square feet.[^s3]
+Homes built in 2024 have a patio of about 320 square feet on average, according to NAHB's Builder Practices Survey. Regional averages run from under 200 to over 400 square feet.[^s3]
 
 ### Is outdoor living still a design trend in 2026?
 
-Yes. AIA's Q2 2025 survey found outdoor living spaces were still the most popular exterior feature, with a net 55% of architects reporting rising popularity, down from 60% a year earlier.[^s4]
+It is. AIA's Q2 2025 survey found outdoor living spaces were still the most popular exterior feature, with a net 55% of architects reporting rising popularity, down from 60% a year earlier.[^s4]
 
 ### Is a new patio a good investment?
 
-On resale value alone, close to break-even: Realtors estimate a new patio recovers about 95% of its cost. Homeowners also rate it 9.9 out of 10 for joy.[^s7][^s8]
+On resale value alone it comes close to break-even, with Realtors estimating that a new patio recovers about 95% of its cost. Homeowners also rate it 9.9 out of 10 for joy.[^s7][^s8]
 
 ### How much do Americans spend on home improvement each year?
 
-About $525 billion a year on improvements and repairs to owner-occupied homes, according to Harvard's Leading Indicator of Remodeling Activity, released October 2026.[^s5]
+Americans spend about $525 billion a year on improvements and repairs to owner-occupied homes, according to Harvard's Leading Indicator of Remodeling Activity, released October 2026.[^s5]
 
 ### Where do these numbers come from?
 
-Each figure on this page comes from a named public source: NAHB, the AIA, Harvard's Joint Center for Housing Studies, Houzz, and the NAR with the NALP. The source line under each answer names the study and year.
+Each figure on this page comes from a named public source: NAHB, the AIA, Harvard's Joint Center for Housing Studies, Houzz, and the NAR with the NALP. The source line beneath each answer names the study and year.
 
-## Pending verification
+## Awaiting Verification
 
-These figures appear in the Trends 2026 report but are not presented here as claims until they are checked. They are listed so reviewers can track them.
+These figures appear in the Trends 2026 report and are held back from this page until they are checked. They are listed so reviewers can follow them through.
 
 - **67%, 94% and 23%** – Atomik Research survey of US homeowners, commissioned by Bromic Heating. Bromic's own releases give 94% in one and 92% in another for the same question. [[VERIFY: survey date, base n, question wording, and 94% or 92% — Marketing]]
-- **39% "increase in popularity" of infrared patio heaters (AIA)** – not found in any AIA release; AIA reports net scores, not increases. Recommended for removal.
+- **39% "increase in popularity" of infrared patio heaters (AIA)** – not found in any AIA release; AIA reports net scores rather than increases. Recommended for removal.
 - **$522 billion (Harvard JCHS)** – not found in any Harvard release; replaced above by the current LIRA figure.
 
-The full 2026 trends, with what they mean for architects, builders and homeowners, are in the report.
+You will find the full 2026 trends, and what they mean for architects, builders and homeowners, in the report.

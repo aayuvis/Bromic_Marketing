@@ -1,13 +1,13 @@
 ---
 id: CSP-07
 type: case-study
-title: "The Establishment (Merivale), Sydney CBD"
+title: "The Establishment, Sydney CBD: among Sydney's A-list venues"
 slug: csp-07
 audience: ["COM"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "A US dealer's commercial-heating page says Bromic commercial patio heaters are installed in 'A-list venues around Sydney', naming The Establishment. The wording looks reused from older Bromic marketing, and no detail of the install is given."
+summary: "A US dealer's page names Merivale's The Establishment among the 'A-list venues around Sydney' warmed by Bromic commercial patio heaters. The wording looks borrowed from older Bromic marketing, so the story needs confirming."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-010-067
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: page-read
 completeness: partial
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Radiant Patio Heater / Rasmussen Gas Logs & Grills (US dealer)"
@@ -42,15 +42,15 @@ sources:
 | Products | Bromic Heating commercial patio heaters (copy also lists the Platinum range) [[VERIFY: model, wattage and quantity — Bromic AU [[VERIFY: AU regional lead]]]] |
 | Controls | [[VERIFY: controls and zones — Bromic AU [[VERIFY: AU regional lead]]]] |
 
-## What the sources say
+## The story so far
 
-A US dealer's commercial-heating page says Bromic commercial patio heaters are installed in 'A-list venues around Sydney', naming The Establishment. The wording looks reused from older Bromic marketing, and no detail of the install is given. [^s1]
+A US dealer's commercial-heating page says Bromic commercial patio heaters are installed in 'A-list venues around Sydney', and The Establishment is one of the venues it names. The wording looks reused from older Bromic marketing, and the page gives no detail of the installation. [^s1]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-Flagship Merivale venue. The lead is weak (secondhand list, likely an old install), so confirm with Bromic AU sales history before approaching. The Ivy from the same list is already a known case study.
+The Establishment is a flagship Merivale venue, which makes it worth the effort, though the lead itself is weak, coming from a secondhand list and most likely an older installation. Check Bromic AU sales history before approaching the venue. The Ivy, from the same list, is already a known case study.
 
 ## Photos
 

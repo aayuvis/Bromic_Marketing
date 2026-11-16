@@ -1,17 +1,17 @@
 ---
 id: BLD-AW-01
 type: article
-title: "Outdoor heating as a builder upgrade: what buyers will pay for"
+title: "Builder outdoor living upgrades: the heated patio buyers will value"
 slug: builder-outdoor-heating-upgrade
 audience: [BLD]
 stage: [AW]
 cell: BLD-AW
 asset: A24
-summary: "Why the covered patio is the natural place for a builder's next upgrade, what the buyer data says, and how built-in radiant heat turns a slab into a room people use after dark."
+summary: "Why the covered patio is the natural home for your next upgrade, what the buyer data says, and how built-in radiant heat turns a slab into a room families enjoy long after dark."
 primary_keyword: builder outdoor living upgrades
 secondary_keywords: [new home upgrades, outdoor living package]
 ai_prompt: "What outdoor upgrades add the most value to a new home?"
-meta_description: "Patios top new-home wish lists. How builders turn a covered patio into a heated outdoor room buyers use year-round, without adding callbacks."
+meta_description: "Builder outdoor living upgrades start with the patio. How a heated, covered patio becomes an outdoor room buyers enjoy year-round, without callbacks."
 cta: {label: "Get the builder program guide", asset: A15}
 hero: t-012-034
 images: [l-010-067]
@@ -19,7 +19,7 @@ owner_review: Trade sales
 status: draft
 gated: false
 related: [BLD-CO-01, BLD-IN-01, BLD-PP-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: National Association of Home Builders (Eye on Housing)
@@ -86,13 +86,13 @@ sources:
     verified: true
 ---
 
-The outdoor upgrades buyers value most start with the patio, and the one that makes a patio earn its keep is heat. In NAHB's 2024 buyer survey, a patio was rated essential or desirable by 86% of buyers, level with the laundry room at the top of the list[^s1]. Built-in radiant heat, pre-wired at rough-in and finished with its controls, turns that patio from a summer slab into a room the family uses on a cold evening.
+The outdoor upgrades buyers value most begin with the patio, and the one that brings a patio to life is warmth. In NAHB's 2024 buyer survey, a patio was rated essential or desirable by 86% of buyers, level with the laundry room at the top of the list[^s1]. Built-in radiant heat, pre-wired at rough-in and finished with its controls, turns that patio from a summer slab into a room the family gathers in on a cool evening.
 
-![Covered outdoor kitchen and bar with flush ceiling heaters](img:l-010-067)
+![Covered outdoor kitchen and bar warmed by flush ceiling heaters](img:l-010-067)
 
-## Which outdoor features do new-home buyers actually want?
+## The Outdoor Features New-Home Buyers Want
 
-The buyer data is consistent. Outdoor space ranks with the basics, not the extras.
+The buyer data is remarkably consistent, with outdoor space ranking alongside the basics rather than among the extras.
 
 | Feature (NAHB, What Home Buyers Really Want, 2024) | Buyers rating it essential or desirable |
 |---|---|
@@ -101,31 +101,29 @@ The buyer data is consistent. Outdoor space ranks with the basics, not the extra
 | Front porch | 81%[^s1] |
 | Landscaping | 80%[^s1] |
 
-Outdoor kitchens and outdoor fireplaces are not on the most-wanted list yet, but NAHB names both among the features that grew most in popularity over the past decade[^s2]. Fire was also the upgrade of choice for 21% of homeowners improving outdoor space in Houzz's 2024 study[^s7]. Buyers want warmth outside. Most builders still deliver it as a fire feature, or not at all.
+Outdoor kitchens and outdoor fireplaces have yet to reach the most-wanted list, though NAHB names both among the features that grew most in popularity over the past decade[^s2]. Fire was also the upgrade of choice for 21% of homeowners improving their outdoor space in Houzz's 2024 study[^s7]. Buyers clearly want warmth outside, and yet most builders still deliver it as a fire feature, if they offer it at all.
 
-## How many new homes already have a patio?
+## Most New Homes Already Have The Patio
 
-Most of them. NAHB's tabulation of Census data puts patios on 61.8% of single-family homes started in 2024[^s3] and 60.5% in 2025[^s4]. The share swings by region: above 80% in the West South Central states and about 14% in New England in 2024[^s3].
+NAHB's tabulation of Census data puts patios on 61.8% of single-family homes started in 2024[^s3] and 60.5% in 2025[^s4]. The share varies widely by region, from above 80% in the West South Central states to about 14% in New England in 2024[^s3].
 
-That matters for the upgrade case. The slab, the cover and often the pergola are already in the plan. Heat is the smallest step from "a patio" to "an outdoor room".
+For your upgrade case, that is good news. The slab, the cover and often the pergola are already in the plan, so warmth is the smallest step between a patio and an outdoor room.
 
-## Why is heating the upgrade that changes how the space is used?
+## Warmth Changes How The Whole Space Is Used
 
-Because most outdoor space sits idle when it is cool. In Bromic's 2026 homeowner survey with Atomik Research, 94% of homeowners said their outdoor space could be used more and 67% said heating extends outdoor use. Only 23% prioritised heating at the planning stage[^s8].
+Most outdoor space sits quiet once the evening turns cool. In Bromic's 2026 homeowner survey with Atomik Research, 94% of homeowners said their outdoor space could be used more and 67% said heating extends outdoor use, yet only 23% prioritised heating at the planning stage[^s8]. That gap is your opening as a builder: your buyers want those evenings outside, and many simply have not been asked about heat at the design centre.
 
-That 23% is the builder's opening. The buyer wants the evenings outside; they just have not been asked at the design centre.
+Radiant heat suits the job beautifully. It warms people and surfaces rather than the air, so it keeps working in a light breeze where forced air cannot. A covered patio with at least 30% of its perimeter permanently open also holds a little warmth beneath the roof, which adds a little more comfort.
 
-Radiant heat suits the job. It warms people and surfaces, not the air, so it keeps working in a light breeze where forced air cannot. A covered patio with at least 30% of its perimeter permanently open also holds a little warmth under the roof, which helps.
+## How Outdoor Upgrades Hold Their Value
 
-## Does an outdoor upgrade pay back at resale?
+Realtors rate outdoor work highly. In the 2023 NAR and NALP Remodeling Impact Report, a new patio carried an estimated cost of $10,500 and a Joy Score of 9.9 out of 10[^s5]. The report's cost-recovery chart puts a new patio at an estimated 95% [[VERIFY: confirm the 95% new-patio cost recovery on the NAR report page — Marketing]][^s6]. These are Realtor estimates for remodels rather than new-build option pricing, so treat them as a sense of direction and keep your pricing model separate.
 
-Realtors rate outdoor work well. In the 2023 NAR and NALP Remodeling Impact Report, a new patio carried an estimated cost of $10,500 and a Joy Score of 9.9 out of 10[^s5]. The report's cost-recovery chart puts a new patio at an estimated 95% [[VERIFY: confirm the 95% new-patio cost recovery on the NAR report page — Marketing]][^s6]. Those are Realtor estimates for remodels, not new-build option pricing, so use them as direction, not as a pricing model.
+We do not publish figures for your own margins. Option pricing, builder tiers and lead times come from the builder program [[VERIFY: builder price tiers and margin structure — Trade sales]].
 
-On your own margins: we do not publish them. Option pricing, builder tiers and lead times come from the builder program [[VERIFY: builder price tiers and margin structure — Trade sales]].
+## A Heated Patio Package Your Buyers Will Understand
 
-## What does a heated patio package look like?
-
-Keep it to one decision for the buyer and one line on the electrical plan.
+The most successful packages ask the buyer for one decision and add one line to the electrical plan.
 
 | Package element | What it means on site | Notes |
 |---|---|---|
@@ -135,44 +133,44 @@ Keep it to one decision for the buyer and one line on the electrical plan.
 | Electrical | Dedicated circuit per heater or zone, roughed in before drywall or soffit | See the [rough-in checklist](item:BLD-IN-01) |
 | Mounting | Recess kits for flush soffits; wall mounts at least 72" above the floor, ceiling mounts at least 96" (varies with output) | Confirm with the product manual and the local building authority |
 
-Selling it is easier tiered. A one-zone On/Off package, a two-zone dimmable package and a recessed, app-controlled package give the sales team three clear answers. The [Good, better, best guide](item:BLD-CO-01) sets them out.
+Tiers make the package easier to sell. A one-zone On/Off package, a two-zone dimmable package and a recessed, app-controlled package give your sales team clear answers for every buyer, and the [Good, better, best guide](item:BLD-CO-01) sets them out.
 
-## What stops builders adding heat today?
+## Getting Heat Onto Every Plan
 
-Three things, all fixable at the plan stage:
+The usual obstacles are all easily solved at the plan stage.
 
-- **It is decided too late.** Once the soffit is closed, heat means opening finished work. Rough-in is where it costs least.
-- **Nobody owns the controls.** A heater with no planned switch location is a callback. Put the controller on the electrical plan with the heater.
-- **The sizing is guessed.** Too few heaters, or heaters mounted too high, read as "not warm enough". See [five install mistakes that cause callbacks](item:BLD-PP-01).
+- **Deciding late.** Once the soffit is closed, adding heat means opening finished work, so rough-in is where it costs least.
+- **Leaving the controls without an owner.** A heater with no planned switch location tends to become a callback. Place the Affinity Smart-Heat® controller on the electrical plan alongside the heater.
+- **Guessing the sizing.** Too few heaters, or heaters mounted too high, leave buyers feeling the patio is not warm enough. See [five install mistakes that cause callbacks](item:BLD-PP-01).
 
-## Planning checklist
+## Your Planning Checklist
 
 - Offer heat on every plan that already includes a covered patio, pergola or outdoor kitchen.
-- Price it as a package: heaters, controls, circuit and mounting together.
+- Price it as a package, with heaters, controls, circuit and mounting together.
 - Fix the heater positions and the controller location before electrical rough-in.
-- Run a dedicated circuit per heater or zone; size it with the electrician from the nameplate.
-- Specify recess kits where the buyer will see the soffit.
+- Run a dedicated circuit per heater or zone, sized with the electrician from the nameplate.
+- Specify recess kits wherever the buyer will see the soffit.
 - Use Bromic's complimentary design service for coverage drawings on model homes.
 - Confirm mounting heights and clearances with the product manual and the local building authority.
 
 ## FAQ
 
 ### What outdoor upgrade adds the most value to a new home?
-The patio is the most-wanted outdoor feature, rated essential or desirable by 86% of buyers in NAHB's 2024 survey[^s1]. Heat, lighting and a covered structure make that patio usable more of the year.
+The patio is the most-wanted outdoor feature, rated essential or desirable by 86% of buyers in NAHB's 2024 survey[^s1]. Heat, lighting and a covered structure let families enjoy that patio through more of the year.
 
 ### Is outdoor heating a standard feature or an upgrade?
-In most new homes it is still an upgrade. Builders who pre-wire every covered patio can sell the heaters as an option without reopening finished work.
+In most new homes it is still an upgrade. Builders who pre-wire every covered patio can offer the heaters as an option without reopening finished work.
 
 ### Electric or gas for a builder package?
-Electric is the simpler package for most covered patios: no venting, no gas line, a dedicated circuit and a wall controller. Gas suits larger, more open spaces where a gas supply already exists; Bromic's design service can size either.
+Electric is the simpler package for most covered patios, with no venting and no gas line, just a dedicated circuit and a wall controller. Gas suits larger, more open spaces where a gas supply already exists, and Bromic's design service can size either.
 
 ### What controls does a heated patio need?
 At minimum an Affinity Smart-Heat On/Off or Dimmer controller and a wall switch. App control, schedules and voice control need compatible Affinity controls, sold separately.
 
 ### Does heating add resale value?
-No study isolates patio heating. Realtors estimate high cost recovery and satisfaction for new patios[^s5], and heat is what lets the space be used in more months.
+No study isolates patio heating. Realtors estimate high cost recovery and satisfaction for new patios[^s5], and heat is what lets the space be enjoyed in more months of the year.
 
-Ready to add heat to your option sheet? Get the builder program guide.
+Ready to add warmth to your option sheet? Get the builder program guide.
 
 [^s1]: NAHB, What Home Buyers Really Want, 2024 edition (Eye on Housing summary).
 [^s2]: NAHB, Eye on Housing, 2024.

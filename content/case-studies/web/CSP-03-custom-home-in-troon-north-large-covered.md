@@ -1,13 +1,13 @@
 ---
 id: CSP-03
 type: case-study
-title: "Custom home in Troon North, large covered patio, Scottsdale"
+title: "A custom home in Troon North, Scottsdale: warmth built into the patio ceiling"
 slug: csp-03
 audience: ["RES", "ARC", "BLD"]
 stage: [IN, PP]
 cell: RES-IN
 asset: A19
-summary: "A Scottsdale custom builder's blog post on a Troon North home where three high-end Tungsten heaters were built into the ceiling of a large covered patio to keep the residents warm. The post names the Tungsten line but not the Bromic brand; electric is assumed"
+summary: "On a Troon North custom home in Scottsdale, the builder set three high-end Tungsten heaters into the ceiling of a large covered patio, so the residents can stay warm outdoors."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-002-006
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: page-read
 completeness: partial
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Bordeaux Builders"
@@ -46,15 +46,15 @@ sources:
 | Mounting | in-ceiling |
 | Year | 2020 (post dated 11 Feb 2020) |
 
-## What the sources say
+## The story so far
 
-A Scottsdale custom builder's blog post on a Troon North home where three high-end Tungsten heaters were built into the ceiling of a large covered patio to keep the residents warm. The post names the Tungsten line but not the Bromic brand; electric is assumed from in-ceiling mounting and should be checked. [^s1]
+Beneath the large covered patio of this Troon North home, a Scottsdale custom builder built three high-end Tungsten heaters into the ceiling to keep the residents warm, as its blog post describes. The post names the Tungsten line but not the Bromic brand. We have assumed electric from the in-ceiling mounting, and that should be checked. [^s1]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-Desert custom-home builder designing heat into the ceiling at build stage, which fits the 'designed from the start' thesis. Confirm the brand with the builder before use.
+A desert custom-home builder designing heat into the ceiling at build stage tells the story of warmth planned from the very beginning. Confirm the brand with the builder before the story is used.
 
 ## Photos
 

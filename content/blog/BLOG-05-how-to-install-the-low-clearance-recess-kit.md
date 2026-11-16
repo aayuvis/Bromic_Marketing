@@ -1,7 +1,7 @@
 ---
 id: BLOG-05
 type: blog
-title: "How to install the Low Clearance Recess Kit"
+title: "How To Install The Low Clearance Recess Kit"
 slug: how-to-install-the-low-clearance-recess-kit
 live_url: https://www.bromic.com/blog/how-to-install-the-low-clearance-recess-kit/
 action: merge-target
@@ -10,11 +10,11 @@ audience: [BLD, ARC]
 stage: [BY]
 cell: BLD-BY
 asset: A24
-summary: "What the Platinum Electric Low Clearance Recess Kit is, where it fits, the cut-out per wattage, the clearances, the fan supply and Affinity controls to wire, and the install sequence step by step. Absorbs the kit's feature post."
+summary: "How the Platinum Electric Low Clearance Recess Kit brings flush, seamless warmth to even a shallow ceiling, with where it fits, the cut-out per wattage, the clearances, the fan supply and Affinity controls to wire, and the installation step by step. Absorbs the kit's feature post."
 primary_keyword: low clearance recess kit
 secondary_keywords: [recessed patio heater installation, Platinum Electric recess kit, shallow ceiling patio heater, flush mount heater cut out]
 ai_prompt: "How do I install a recessed patio heater in a shallow ceiling?"
-meta_description: "Install the Platinum Electric Low Clearance Recess Kit: 7.1 in cavity, cut-outs per wattage, clearances, the fan supply, Affinity controls, step by step."
+meta_description: "Install the Low Clearance Recess Kit for flush Platinum warmth in a 7.1 in cavity: cut-outs, clearances, fan supply and Affinity controls, step by step."
 cta: {label: "Get the install guide series", asset: A17}
 hero: w-bromic-shoot-may-11-2023-54
 images: [w-bromic-low-clearance-recess-kit]
@@ -24,7 +24,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-IN-KB1, BLD-BY-01, BLD-IN-KB1, BLD-BY-KB1]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -84,19 +84,19 @@ sources:
     verified: true
 ---
 
-The Low Clearance Recess Kit flush-mounts a Platinum Electric heater into a ceiling cavity as shallow as 7.1 in, between standard joists. Cut the opening for the wattage, fix the recess box to the joists, fit the trim, connect the heater cable and the separate fan supply in the terminal box, hook the heater into the box and tighten it flush. Wire it with an Affinity Smart-Heat controller and a wall switch.
+The Low Clearance Recess Kit sets a Platinum Electric heater flush into a ceiling cavity as shallow as 7.1 in, between standard joists. You cut the opening for the wattage, fix the recess box to the joists, fit the trim, connect the heater cable and the separate fan supply in the terminal box, then hook the heater into the box and tighten it flush. It is wired with an Affinity Smart-Heat controller and a wall switch.
 
 *This is a summary. The [installation manual](https://pim.bromic.com/wp-content/uploads/2021/08/Platinum-Electric-Low-Clearance-Ceiling-Recess-Instruction-Manual-REV3.pdf) governs every step[^s7]. A licensed electrician must do the electrical work to the code adopted locally, [NFPA 70](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70) in most of the US[^s8]; confirm requirements with the local building authority.*
 
-![Platinum Electric heater recessed flush in a covered front porch ceiling](img:w-bromic-low-clearance-recess-kit)
+![A Platinum Electric heater recessed flush into the ceiling of a covered front porch](img:w-bromic-low-clearance-recess-kit)
 
-## What is the Low Clearance Recess Kit and where does it fit?
+## Flush Warmth For Even A Shallow Ceiling
 
-It is a ventilated recess box with its own trim that sits between standard ceiling joists, so no fire-resistant box or extra framing is needed[^s2][^s3]. It is UL certified and comes in standard and marine versions for Platinum Electric and Platinum Electric Marine[^s2][^s3]. It suits retrofits and new builds, louvered pergolas and ceilings with living space above[^s2]. Compare kits in [what to consider when recessing electric heaters](https://www.bromic.com/blog/what-should-be-considered-when-installing-recessed-electric-outdoor-heaters/).
+The kit is a ventilated recess box with its own trim, designed to sit between standard ceiling joists, so no fire-resistant box or extra framing is needed[^s2][^s3]. It is UL certified and comes in standard and marine versions for Platinum Electric and Platinum Electric Marine[^s2][^s3]. That makes it a graceful answer for retrofits and new builds alike, for louvered pergolas, and for ceilings with living space above[^s2]. You can compare kits in [what to consider when recessing electric heaters](https://www.bromic.com/blog/what-should-be-considered-when-installing-recessed-electric-outdoor-heaters/).
 
-The kit's product page lists 2300, 3400 and 4500 W[^s3]. An older post listed 2300 and 3400 W only [[VERIFY: 4500 W compatibility against the current manual — Product team]]. The feature post's "up to 82%" cavity saving and its claim about competitors' run-time limits are removed until they are sourced.
+The kit's product page lists 2300, 3400 and 4500 W[^s3], while an older post listed 2300 and 3400 W only [[VERIFY: 4500 W compatibility against the current manual — Product team]]. The feature post's "up to 82%" cavity saving and its claim about competitors' run-time limits have been removed until they are sourced.
 
-## What size is the cut-out and what clearances apply?
+## Cut-Out Sizes And Clearances
 
 | Heater | Cut-out (L × W × H) | Cable cut length from gland | Weight | Amps 240 V / 208 V |
 |---|---|---|---|---|
@@ -104,20 +104,20 @@ The kit's product page lists 2300, 3400 and 4500 W[^s3]. An older post listed 23
 | Platinum 3400 W | 56.3 × 9.4 × 7.1 in | 39.3 in (1000 mm) | 22 lb | 14.2 / 16.3 A |
 | Platinum 4500 W | 61.0 × 12.4 × 7.1 in | [[VERIFY: 4500 W cable length — Product team]] | 33 lb | 18.8 / 21.6 A |
 
-Sources: install post and product page[^s1][^s4]. The old post gave the first cable length for a "2400 W" unit; there is no 2400 W Platinum, so it is shown here against 2300 W [[VERIFY — Product team]].
+Sources: install post and product page[^s1][^s4]. The old post gave the first cable length for a "2400 W" unit, and as there is no 2400 W Platinum, it is shown here against 2300 W [[VERIFY — Product team]].
 
-Clearances: at least 19.7 in from a wall[^s1]. The install post puts the heater at least 94 in above the finished floor; the Platinum product page sets 96 in for any ceiling mount[^s1][^s4]. Plan 96 in [[VERIFY: 94 in vs 96 in for the recessed heater — Product team]].
+The heater should sit at least 19.7 in from a wall[^s1]. The install post places it at least 94 in above the finished floor, while the Platinum product page sets 96 in for any ceiling mount[^s1][^s4], so plan for 96 in [[VERIFY: 94 in vs 96 in for the recessed heater — Product team]].
 
-## What do I need before starting?
+## What To Have Ready Before You Begin
 
 - Two people for the lift
 - 20 mm (13/16 in) spanner for the M16 cable gland; 8 mm (5/16 in) spanner for the mounting-tab bolts
 - The M6 × 10 mm screw for the IP bracket, supplied
 - Fixings for the joists (not supplied)
 - A microfiber cloth
-- Power isolated, the heater circuit and the fan supply roughed in to the opening, control cables if the design uses them[^s1][^s3]
+- Power isolated, the heater circuit and the fan supply roughed in to the opening, and control cables if the design uses them[^s1][^s3]
 
-## How do I install it, step by step?
+## The Installation, Step By Step
 
 **Prepare the ceiling**
 
@@ -132,7 +132,7 @@ Clearances: at least 19.7 in from a wall[^s1]. The install post puts the heater 
 
 **Prepare the heater**
 
-6. Remove the rear cable housing and the four rear-bracket screws; keep the screws.
+6. Remove the rear cable housing and the four rear-bracket screws, keeping the screws.
 7. Thread the heater cable through the trim, seat the trim on the heater and fix it with the saved screws.
 8. Pass the cable through the IP cover and gland, fit the IP bracket, and tighten the M16 gland.
 9. Cut the cable to length, measured from the gland.
@@ -145,15 +145,15 @@ Clearances: at least 19.7 in from a wall[^s1]. The install post puts the heater 
 13. Close the terminal box, slide it into its slot at the end of the box and screw it in.
 14. Lift the terminal end and hook the remaining tabs.
 15. Push the heater up and tighten the tab bolts until it sits flush with the trim.
-16. Wipe the face clean.
+16. Wipe the face clean, ready for its first evening.
 
 Sequence paraphrased from the live post[^s1].
 
 <div class="diagram">Diagram: exploded view of joists, recess box, trim with vent covers, heater and terminal box, with the 7.1 in cavity, the cut-out length and width, and the heater and fan supplies entering the box</div>
 
-## Which controls and circuits does it need?
+## The Controls And Supplies It Is Wired With
 
-Two supplies and a controller:
+Each kit is installed with two supplies and an Affinity Smart-Heat controller:
 
 | Item | Specify |
 |---|---|
@@ -162,13 +162,13 @@ Two supplies and a controller:
 | Controller | [Affinity On/Off](https://www.bromic.com/product/affinity-smart-heat-on-off-controllers/) or [Affinity Dimmer](https://www.bromic.com/product/affinity-smart-heat-dimmer-controllers/): 1, 2 or 5 channels, 6 kW per channel at 208–277 V[^s5] |
 | Switch | [Manual wall switch](https://www.bromic.com/product/manual-wall-switch/), 20 A, 120–277 V[^s5] |
 
-The Bromic Smart-Heat app adds zones, schedules and timers; Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately[^s6]. A wiring guide for the kit with Affinity is on the [kit's product page](https://www.bromic.com/product/platinum-electric-low-clearance-recess-kit/)[^s3]. For help, call [Bromic Technical Support](https://www.bromic.com/contact-technical-support/).
+The Bromic Smart-Heat app adds zones, schedules and timers; Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately[^s6]. A wiring guide for the kit with Affinity is on the [kit's product page](https://www.bromic.com/product/platinum-electric-low-clearance-recess-kit/)[^s3], and [Bromic Technical Support](https://www.bromic.com/contact-technical-support/) is always glad to help.
 
 ## Frequently asked
 
 ### How shallow a ceiling can a Platinum heater recess into?
 
-7.1 in, with the Low Clearance Recess Kit[^s3].
+As shallow as 7.1 in, with the Low Clearance Recess Kit[^s3].
 
 ### Does the kit need its own power?
 
@@ -182,4 +182,4 @@ Yes. It fits standard joists with no extra framing, so it suits retrofits as wel
 
 A licensed electrician, following the installation manual and the local code[^s1].
 
-Planning a recessed ceiling? [Design Your Space](https://www.bromic.com/design-your-space/) checks the cavity and layout.
+Planning a recessed ceiling? [Design Your Space](https://www.bromic.com/design-your-space/) and we will check the cavity and layout with you.

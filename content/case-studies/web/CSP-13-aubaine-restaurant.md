@@ -1,13 +1,13 @@
 ---
 id: CSP-13
 type: case-study
-title: "Aubaine (restaurant), London"
+title: "Aubaine, London: a French-style restaurant group to follow up"
 slug: csp-13
 audience: ["COM"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "Aubaine is a London French-style restaurant group. On ArchiExpo, Bromic's listing that launched the all-new Platinum Smart-Heat Electric shows an Aubaine restaurant as an example or associated project. It is not clear which branch it is, or whether that"
+summary: "Bromic's ArchiExpo listing for the all-new Platinum Smart-Heat Electric shows an Aubaine restaurant, part of a London French-style group. Which branch it is, and what is installed there, is still to be confirmed."
 cta: {label: "Book a design consult", asset: A07}
 hero: w-045
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: bromic-listing
 completeness: partial
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "ArchiExpo e-Magazine (Product Trends; Bromic-supplied listing)"
@@ -42,15 +42,15 @@ sources:
 | Products | Platinum Smart-Heat Electric (only by association: the restaurant is named on the listing that launched this product) [[VERIFY: model, wattage and quantity — Bromic UK [[VERIFY: UK regional lead]]]] |
 | Controls | [[VERIFY: controls and zones — Bromic UK [[VERIFY: UK regional lead]]]] |
 
-## What the sources say
+## The story so far
 
-Aubaine is a London French-style restaurant group. On ArchiExpo, Bromic's listing that launched the all-new Platinum Smart-Heat Electric shows an Aubaine restaurant as an example or associated project. It is not clear which branch it is, or whether that product (or another Bromic product) is installed there. [^s1]
+Aubaine is a London French-style restaurant group. On ArchiExpo, the Bromic listing that launched the all-new Platinum Smart-Heat Electric shows an Aubaine restaurant as an example or associated project. It is not yet clear which branch it is, or whether that product (or another Bromic product) is installed there. [^s1]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-This is a weak lead. If Bromic UK (or Smart Fire UK, the former UK distributor) confirms the branch and product, it would give a London all-day café-restaurant chain reference, which is a multi-site segment. Do not use it before that confirmation.
+For now this is a weak lead. If Bromic UK (or Smart Fire UK, the former UK distributor) confirms the branch and the product, it would give us a reference with a London all-day café-restaurant chain, a multi-site segment. It should not be used before that confirmation.
 
 ## Photos
 

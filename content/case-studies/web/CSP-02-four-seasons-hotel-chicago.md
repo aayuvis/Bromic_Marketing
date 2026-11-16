@@ -1,13 +1,13 @@
 ---
 id: CSP-02
 type: case-study
-title: "Four Seasons Hotel Chicago, Chicago"
+title: "Four Seasons Hotel Chicago: a lead from Bromic's own gallery"
 slug: csp-02
 audience: ["COM"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "A search summary said a gallery caption on Bromic's US hotels page names a Tungsten Electric heater at the Four Seasons Chicago. No third-party page confirming the install was found, and the bromic.com page was not opened (it sits behind Cloudflare)."
+summary: "A gallery caption on Bromic's US hotels page is reported to show a Tungsten Electric heater at the Four Seasons Chicago, a promising start for a cold-city hotel story that is still waiting to be confirmed."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-001-000
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: snippet-only
 completeness: partial
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Bromic Heating (own site, gallery caption — not a case study)"
@@ -42,15 +42,15 @@ sources:
 | Products | Tungsten Electric [[VERIFY: model, wattage and quantity — US field sales]] |
 | Controls | [[VERIFY: controls and zones — US field sales]] |
 
-## What the sources say
+## The story so far
 
-A search summary said a gallery caption on Bromic's US hotels page names a Tungsten Electric heater at the Four Seasons Chicago. No third-party page confirming the install was found, and the bromic.com page was not opened (it sits behind Cloudflare). [^s1]
+A search summary reports that a gallery caption on Bromic's US hotels page names a Tungsten Electric heater at the Four Seasons Chicago. We have not yet found a third-party page confirming the installation, and the bromic.com page itself was not opened, as it sits behind Cloudflare. [^s1]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-A five-star global hotel brand in a cold Midwest city, which fills a climate gap left by the California, Arizona and Texas hospitality case studies. This is a lead from Bromic's own gallery only: find the property contact and the story behind it before writing it up.
+A five-star global hotel brand in a cold Midwest city would bring a new climate to a hospitality collection that leans on California, Arizona and Texas. For now it is a lead from Bromic's own gallery, so the next step is to find the property contact and the story behind the heater before writing it up.
 
 ## Photos
 

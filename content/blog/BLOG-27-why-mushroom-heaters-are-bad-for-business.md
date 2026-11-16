@@ -1,7 +1,7 @@
 ---
 id: BLOG-27
 type: blog
-title: "Are mushroom heaters bad for business? What they really cost a restaurant patio"
+title: "Are mushroom heaters bad for business? The true cost of heating a restaurant patio"
 slug: why-mushroom-heaters-are-bad-for-business
 live_url: https://www.bromic.com/blog/why-mushroom-heaters-are-bad-for-business/
 action: rewrite
@@ -10,11 +10,11 @@ audience: [COM]
 stage: [CO]
 cell: COM-CO
 asset: A24
-summary: "What a propane mushroom heater costs a restaurant per hour and per season, worked from shown EIA fuel prices, set against directional freestanding gas and fixed electric heat, with the cylinder labour and code limits the fuel price leaves out."
+summary: "A mushroom heater looks like a bargain until the season's invoices arrive. What a propane mushroom heater really costs a restaurant per hour and per season, worked from shown EIA fuel prices, beside directional freestanding gas and fixed electric heat – with the cylinder labour and code limits the fuel price leaves out."
 primary_keyword: mushroom patio heater cost
 secondary_keywords: [commercial patio heater fuel cost, propane patio heater running cost, restaurant patio heater]
 ai_prompt: "Are mushroom patio heaters worth it for a restaurant?"
-meta_description: "What a propane mushroom heater costs a restaurant per hour and per season, from EIA fuel prices, with cylinder labour and the code limits included."
+meta_description: "What a propane mushroom heater really costs a restaurant patio per hour and per season, from EIA fuel prices, with cylinder labour and code limits added."
 cta: {label: "Run the five-year cost model", asset: A20}
 hero: w-power-of-portable
 images: [l-019-164]
@@ -24,7 +24,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [COM-CO-01, COM-IN-01, COM-PP-01, A20]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Fire Pit Surplus (retailer buying guide)
@@ -104,14 +104,13 @@ sources:
     supports: "The claims this rewrite replaces: up to three times more efficient; about $16,752 a year saved on 1,000 ft² heated 4 hours a day, inputs not stated"
     verified: true
 ---
+A propane mushroom heater is inexpensive to buy and costly to keep. It burns about as much fuel per hour as any large gas heater, sends much of its warmth upward and outward, and brings cylinder swaps, storage and code limits that the purchase price never shows. For a restaurant that wants guests to linger over dessert on a cool evening, directional freestanding gas or fixed electric radiant heat usually costs less per heated seat and is permitted in more places.
 
-A propane mushroom heater is cheap to buy and expensive to keep. It burns about as much fuel per hour as any large gas heater, throws much of its heat upward and outward, and adds cylinder swaps, storage and code limits that the purchase price never shows. For a restaurant, directional freestanding gas or fixed electric radiant heat usually costs less per heated seat and stays legal in more places.
+![Hotel courtyard dining with black Tungsten freestanding gas heaters standing between the tables](img:w-power-of-portable)
 
-![Hotel courtyard dining with black Tungsten freestanding gas heaters between tables](img:w-power-of-portable)
+## What A Mushroom Heater Costs To Run Each Hour
 
-## What does a mushroom heater cost to run per hour?
-
-Freestanding propane patio heaters typically run on a 20 lb cylinder and are rated at 40,000 to 48,000 BTU per hour.[^s1] The cost per hour is a formula you can check against your own invoice:
+Freestanding propane patio heaters typically run on a 20 lb cylinder and are rated at 40,000 to 48,000 BTU per hour.[^s1] The cost per hour comes from a formula you can check against your own invoice:
 
 **Propane cost per hour = BTU/hr ÷ 91,500 × $/gallon**
 
@@ -124,17 +123,17 @@ At $2.674 a gallon, the price the [five-year cost model](asset:A20) uses (EIA's 
 | Tungsten Smart-Heat Freestanding Gas | 38,000 BTU/hr | Natural gas | ÷ 100,000 × $0.87/therm | $0.33 |
 | Platinum Smart-Heat Electric 4500W | 4.5 kW | Electric | × $0.1354/kWh | $0.61 |
 
-Rates: propane $2.674/gal[^s2]; commercial natural gas about $0.87 a therm[^s3]; commercial electricity 13.54¢/kWh.[^s4] Heater ratings from Bromic.[^s6] At full output, fuel per hour is close between a mushroom heater and any propane heater. The difference is in where the heat goes and what else the fuel costs you.
+The rates used are propane at $2.674/gal,[^s2] commercial natural gas at about $0.87 a therm[^s3] and commercial electricity at 13.54¢/kWh,[^s4] with heater ratings from Bromic.[^s6] At full output, the fuel burned each hour is close between a mushroom heater and any propane heater. What sets them apart is where the warmth goes, and what else the fuel costs you.
 
-## Why does a mushroom heater waste heat?
+## Where A Mushroom Heater's Warmth Goes
 
-Because it heats in a circle, from above head height, and much of its output is warm air that the wind carries off. Radiant heat warms people and objects rather than air, which is why it works outdoors; the shorter the wavelength, the larger the radiant share and the less the wind steals.[^s10] A directional heater aims that radiant energy at the tables. The Tungsten Smart-Heat Freestanding Gas has a tilting head and ceramic burners and is rated by Bromic for about 215 ft².[^s6] [[VERIFY: Tungsten Freestanding Gas output, 38,000 BTU (Lookbook) vs 38,500 BTU (product page) — Product team]]
+A mushroom heater warms in a circle from above head height, and much of its output is warm air that the wind soon carries away. Radiant heat warms people and objects directly, which is why it works so well outdoors, and the shorter the wavelength, the larger the radiant share and the less the breeze can take.[^s10] A directional heater aims that radiant energy at the tables where your guests sit. The Tungsten Smart-Heat Freestanding Gas has a tilting head and ceramic burners, and we rate it for about 215 ft².[^s6] [[VERIFY: Tungsten Freestanding Gas output, 38,000 BTU (Lookbook) vs 38,500 BTU (product page) — Product team]]
 
-Mushroom heaters are not rated on a comparable coverage basis, so the number you need comes from a heat plan of your layout, not from a ratio. The live post's "three times more efficient" and its $16,752 annual saving gave no method or inputs, so they have been removed.[^s11]
+Mushroom heaters are not rated on a comparable coverage basis, so the number you need comes from a heat plan drawn for your own layout. The live post's "three times more efficient" and its $16,752 annual saving gave no method or inputs, so we have removed them.[^s11]
 
-## What does a season cost per heater?
+## A Season Of Heat, Heater By Heater
 
-Illustrative, per heater, using the A20 model's defaults: 900 heated hours a year (6 hours a night for 150 nights), full output, the rates above, a 20 lb cylinder holding about 4.7 usable gallons, 10 staff minutes a swap and $15.71 an hour.[^s5] [[VERIFY: hours, cylinder fill and minutes per swap for your site — Hospitality sales]]
+These figures are illustrative, per heater, using the A20 model's defaults: 900 heated hours a year (6 hours a night for 150 nights), full output, the rates above, a 20 lb cylinder holding about 4.7 usable gallons, 10 staff minutes a swap and $15.71 an hour.[^s5] [[VERIFY: hours, cylinder fill and minutes per swap for your site — Hospitality sales]]
 
 | Per heater, 900 hours | Fuel a year | Cylinder swaps | Swap labour | Total |
 |---|---|---|---|---|
@@ -143,18 +142,18 @@ Illustrative, per heater, using the A20 model's defaults: 900 heated hours a yea
 | Tungsten Freestanding Gas, natural gas | 342 therms × $0.87 = $298 | none | none | **$298** |
 | Platinum Electric 4500W | 4,050 kWh × $0.1354 = $548 | none | none | **$548** |
 
-Per 100 ft² of rated coverage, that is about $0.43 an hour for Platinum 4500W at 143 ft²[^s7] and $0.15 for Tungsten Freestanding on natural gas at 215 ft². Purchase, installation and permits are not in this table; Bromic's guidance is to quote all-in.[^s10] The [five-year comparison](item:COM-CO-01) adds them.
+Per 100 ft² of rated coverage, that comes to about $0.43 an hour for Platinum 4500W at 143 ft²[^s7] and $0.15 for Tungsten Freestanding on natural gas at 215 ft². Purchase, installation and permits sit outside this table, and our guidance is always to quote all-in.[^s10] The [five-year comparison](item:COM-CO-01) adds them.
 
-## What do the fuel figures leave out?
+## The Costs Behind The Fuel Bill
 
-- **Labour.** At 900 hours, every propane heater means dozens of swaps a season, usually mid-service.
-- **Storage.** Spare cylinders need a compliant cage, which takes space you could seat.
-- **Placement.** Under fire codes as adopted locally, portable gas heaters may not stand beneath or within 5 ft of combustible overhangs and awnings, or within 5 ft of exits.[^s9] Many covered patios rule them out.
-- **Bans.** New York City revoked permission for propane heaters in outdoor dining from 1 June 2021.[^s8] Check your city before you buy.
+- **Labour.** At 900 hours, every propane heater means dozens of swaps a season, usually in the middle of service.
+- **Storage.** Spare cylinders need a compliant cage, and that cage takes space you could otherwise seat.
+- **Placement.** Under fire codes as adopted locally, portable gas heaters may not stand beneath or within 5 ft of combustible overhangs and awnings, or within 5 ft of exits.[^s9] Many covered patios rule them out altogether.
+- **Bans.** New York City revoked permission for propane heaters in outdoor dining from 1 June 2021.[^s8] Check the rules in your city before you buy.
 
 *Code and permit rules vary by city and change often. Confirm with your local fire marshal or authority having jurisdiction, and use a licensed gas fitter or electrician. See [the permit checklist](item:COM-PP-01).*
 
-## What should replace a mushroom heater?
+## A Better Way To Warm Your Patio
 
 | Site | Usually fits | Controls |
 |---|---|---|
@@ -163,17 +162,17 @@ Per 100 ft² of rated coverage, that is about $0.43 an hour for Platinum 4500W a
 | Covered patio, soffit or wall | Platinum Smart-Heat Electric | Affinity Smart-Heat On/Off or Dimmer controller, wall switch, app |
 | Propane restricted | Electric | Affinity controls as above |
 
-Fixed electric heat on Affinity controls can be zoned to sections and scheduled to the book, so a heater that is off costs nothing. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately.[^s6] See [restaurant heating](https://www.bromic.com/restaurants/) and [freestanding heaters](https://www.bromic.com/outdoor-heaters/freestanding/).
+Fixed electric heat on Affinity controls can be zoned by section and scheduled to your bookings, so a heater that is switched off costs nothing at all. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately.[^s6] Explore [restaurant heating](https://www.bromic.com/restaurants/) and our [freestanding heaters](https://www.bromic.com/outdoor-heaters/freestanding/).
 
-![Tungsten freestanding gas heater beside a set dining table](img:l-019-164)
+![Tungsten freestanding gas heater beside a set dining table, ready for evening service](img:l-019-164)
 
-London's [HIDE](https://www.bromic.com/case-study/hide-restaurant/) moved dining onto the street with Tungsten freestanding gas heaters; [Rare Society](https://www.bromic.com/case-study/the-modern-heating-solution-for-vintage-upscale-dining/) in San Clemente heats semi-enclosed patios with Platinum Electric heaters on hardwired switches.
+In London, [HIDE](https://www.bromic.com/case-study/hide-restaurant/) brought dining out onto the street with Tungsten freestanding gas heaters, while [Rare Society](https://www.bromic.com/case-study/the-modern-heating-solution-for-vintage-upscale-dining/) in San Clemente warms its semi-enclosed patios with Platinum Electric heaters on hardwired switches.
 
 ## Frequently asked
 
 ### Are mushroom heaters efficient?
 
-They burn 40,000–48,000 BTU an hour[^s1] and heat in all directions from above, so much of the output warms air the wind removes. Directional radiant heat puts more of it on the guests.
+They burn 40,000–48,000 BTU an hour[^s1] and heat in all directions from above, so much of their output warms air that the wind removes. Directional radiant heat puts far more of that warmth on your guests.
 
 ### How long does a propane cylinder last?
 
@@ -181,13 +180,13 @@ At full output, about 4.7 usable gallons lasts roughly 9.8 hours at 44,000 BTU (
 
 ### What is the cheapest restaurant patio heater to run?
 
-Per hour, natural gas, where a line reaches the patio. Over a season, electric often beats propane once cylinder labour is counted.
+Hour for hour, natural gas, wherever a line reaches the patio. Over a whole season, electric often costs less than propane once cylinder labour is counted.
 
 ### Can Bromic plan the layout?
 
-Yes. The [complimentary design service](https://www.bromic.com/design-your-space/) draws heater count and coverage for your patio.
+Yes. Our [complimentary design service](https://www.bromic.com/design-your-space/) draws the heater count and coverage for your patio.
 
-Put your own fuel prices and hours in: run the five-year cost model.
+Bring your own fuel prices and hours, and run the five-year cost model for your patio.
 
 [^s1]: Fire Pit Surplus, propane patio heater buying guide, read 29 Oct 2026.
 [^s2]: U.S. EIA, Heating Oil and Propane Update, week of 30 Mar 2026.

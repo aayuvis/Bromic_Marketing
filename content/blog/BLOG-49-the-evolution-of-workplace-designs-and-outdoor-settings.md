@@ -1,7 +1,7 @@
 ---
 id: BLOG-49
 type: blog
-title: "Outdoor space in the workplace: how offices are using it to bring people in"
+title: "Outdoor workplace design: how terraces and courtyards are drawing people back to the office"
 slug: the-evolution-of-workplace-designs-and-outdoor-settings
 live_url: https://www.bromic.com/blog/the-evolution-of-workplace-designs-and-outdoor-settings/
 action: merge-target
@@ -12,11 +12,11 @@ audience: [ARC, COM]
 stage: [AW]
 cell: ARC-AW
 asset: A24
-summary: "Why outdoor terraces, courtyards and roof decks have become part of workplace design, what current occupancy and vacancy data says, Primo Orpilla's view of outdoor space as culture, and The Boardwalk in Irvine as a worked example."
+summary: "Why terraces, courtyards and roof decks have become part of the way offices are designed, what the latest occupancy and vacancy data shows, Primo Orpilla's view of outdoor space as culture, and how The Boardwalk in Irvine brought its courtyard to life."
 primary_keyword: outdoor workplace design
 secondary_keywords: [office outdoor amenities, outdoor workspace, office courtyard design]
 ai_prompt: "Why are offices adding outdoor workspaces and amenities?"
-meta_description: "Why offices add outdoor terraces and courtyards: 2026 occupancy and vacancy data, workplace design thinking and The Boardwalk, Irvine."
+meta_description: "Outdoor workplace design in 2026: how heated terraces and courtyards draw people back, with occupancy data and The Boardwalk in Irvine."
 cta: {label: "Download the Trends 2026 report", asset: A01}
 hero: w-boardwalk-edits-49
 images: [w-boardwalk-edits-27, w-lumen-west-la-rooftop-los-angeles-ca-6-edite]
@@ -26,7 +26,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-AW-01, COM-AW-01, COM-BY-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: CBRE
@@ -93,11 +93,11 @@ sources:
     verified: false
 ---
 
-Offices are adding terraces, courtyards and roof decks because the buildings that fill up are the ones worth the trip. US office vacancy stood at 18.2% in Q3 2026, but prime space was at 11.9% and falling faster[^s1]. Attendance peaks mid-week, when most people are in[^s2]. Outdoor space gives those days somewhere to meet, eat and reset, and heat keeps it usable in the morning, the evening and the cooler months.
+Offices are adding terraces, courtyards and roof decks because the buildings people choose to come back to are the ones worth the trip. US office vacancy stood at 18.2% in Q3 2026, while prime space sat at 11.9% and was falling faster[^s1]. Attendance peaks mid-week, when most people are in[^s2], and outdoor space gives those busy days somewhere to gather over lunch or step outside between meetings. Radiant heat keeps it inviting in the early morning, the evening and the cooler months.
 
 ![Two heaters glowing on a pergola beam above a long outdoor dining table at The Boardwalk](img:w-boardwalk-edits-49)
 
-## What does the 2026 data say about office use?
+## What does the 2026 data tell us about the office?
 
 | Measure | Figure | Source |
 |---|---|---|
@@ -106,21 +106,21 @@ Offices are adding terraces, courtyards and roof decks because the buildings tha
 | Weekly office occupancy, 10-city average (week to 21 Oct 2026) | 56.1% | Kastle[^s2] |
 | Peak day that week (Tuesday) | 66.1% | Kastle[^s2] |
 
-Two readings for a design team. Demand is concentrating in the best buildings[^s1]. And offices run near full on a few days and part-empty on the rest[^s2], so shared spaces have to absorb peak days. A heated courtyard or terrace adds that capacity without adding floor area.
+For a design team, the numbers point in two directions at once. Demand is gathering in the best buildings[^s1], while offices run close to full on a few days and part-empty on the rest[^s2], so the shared spaces have to carry the busiest days with ease. A heated courtyard or terrace gives a building that extra room to breathe without adding floor area.
 
 [[VERIFY: Kastle's weekly figure changes every week; refresh the number and week before publishing — Digital marketing]]
 
 ## How has workplace design changed?
 
-From rows of desks to a range of settings. Primo Orpilla, co-founder of San Francisco studio Studio O+A, described the shift on Archispeak's Designing Outdoor Spaces podcast[^s3][^s4]. His points, paraphrased:
+The workplace has moved on from rows of desks to a range of settings, each suited to a different kind of work. Primo Orpilla, co-founder of San Francisco studio Studio O+A, described the shift on Archispeak's Designing Outdoor Spaces podcast[^s3][^s4]. Paraphrased, his thinking runs like this:
 
 - **Design for the person.** Workplaces are now planned around the people who use them, with spaces that adapt to different tasks and moods.
-- **Agility means a room can change use.** A shared couch can host an informal chat or a scheduled meeting.
+- **Agility means a room can change its use.** A shared couch can host an informal chat as easily as a scheduled meeting.
 - **Transition spaces matter.** A few minutes outside between the desk and the conference room helps people reset.
-- **Outdoor is another setting.** With Wi-Fi, power and comfortable seating, a garden or a quiet nook works as well as a meeting room.
-- **Culture is designed.** A company's values should be visible in its spaces, and shared spaces build community and mentoring.
+- **Outdoor is another setting.** With Wi-Fi, power and comfortable seating, a garden or a quiet nook works as well as any meeting room.
+- **Culture is designed.** A company's values should be visible in its spaces, and shared spaces are where community and mentoring grow.
 
-## Which outdoor spaces work in an office?
+## Which outdoor spaces work best in an office?
 
 | Space | Use | Heating approach |
 |---|---|---|
@@ -129,15 +129,15 @@ From rows of desks to a range of settings. Primo Orpilla, co-founder of San Fran
 | Café or dining terrace | Breakfast, lunch, after-work | Heat over tables, scheduled to service hours |
 | Garden nook | One-to-ones, calls, breaks | A single heater with its own switch |
 
-Every one needs power and data for laptops, shade for midday and radiant heat for the shoulder hours. Radiant heat warms people rather than air, so it works in open-sided spaces where forced air cannot[^s8].
+Each of these spaces needs power and data for laptops and shade at midday, and radiant heat carries it comfortably through the shoulder hours. Because radiant heat warms people rather than the air around them, it works in open-sided spaces where forced air cannot[^s8].
 
 ![Black linear heater glowing on a rooftop workplace pergola](img:w-lumen-west-la-rooftop-los-angeles-ca-6-edite)
 
 ## What did The Boardwalk in Irvine do?
 
-The Boardwalk is an office campus in Irvine, California, managed by CBRE. Its two-acre courtyard was designed as an extension of the office, with pergolas over the meeting and seating areas[^s5]. Platinum Smart-Heat Electric heaters hang in the pergolas on Platinum Electric mounting poles, chosen for durability and to suit the modern design[^s5].
+The Boardwalk is an office campus in Irvine, California, managed by CBRE. Its two-acre courtyard was designed as an extension of the office, with pergolas sheltering the meeting and seating areas[^s5]. Platinum Smart-Heat Electric heaters hang within the pergolas on Platinum Electric mounting poles, chosen for their durability and for the way they suit the modern design[^s5].
 
-The courtyard now carries meetings, brainstorming, individual work, meals from the on-site restaurant and café, and breaks taken outside[^s5]. Read the full [Boardwalk case study](https://www.bromic.com/case-study/enhancing-work-life-balance-with-year-round-outdoor-comfort-at-the-boardwalk/).
+Today the courtyard hosts meetings and brainstorming sessions, quiet individual work, meals from the on-site restaurant and café, and breaks taken in the open air[^s5]. Read the full [Boardwalk case study](https://www.bromic.com/case-study/enhancing-work-life-balance-with-year-round-outdoor-comfort-at-the-boardwalk/).
 
 ![Covered workplace dining deck with heaters on the beams and controller enclosures on the wall](img:w-boardwalk-edits-27)
 
@@ -145,23 +145,23 @@ The courtyard now carries meetings, brainstorming, individual work, meals from t
 
 ## How should heat be specified on an office project?
 
-As a building system, with zones and schedules.
+Heat serves an office best when it is treated as a building system, planned with zones and schedules from the first drawing.
 
-- **Heaters.** Platinum Smart-Heat Electric (2300, 3400 or 4500 W, approx. 65–143 ft² each) recesses, surface-mounts or hangs from poles[^s6], and runs on 208 V or 220–240 V supplies[^s9].
-- **Controls.** Affinity Smart-Heat On/Off or Dimmer controllers come in 1, 2 or 5 channels at up to 6 kW per channel[^s7], so each seating group is its own zone. Add a manual wall switch per zone and the Bromic Smart-Heat app for schedules that match building hours. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately. Integration with a building's control system is possible; compatibility varies by system[^s6].
+- **Heaters.** Platinum Smart-Heat Electric (2300, 3400 or 4500 W, approx. 65–143 ft² each) can be recessed, surface-mounted or hung from poles[^s6], and runs on 208 V or 220–240 V supplies[^s9].
+- **Controls.** Affinity Smart-Heat On/Off or Dimmer controllers come in 1, 2 or 5 channels at up to 6 kW per channel[^s7], so each seating group becomes its own zone. A manual wall switch per zone and the Bromic Smart-Heat app complete the system, with schedules that follow building hours. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately. Integration with a building's control system is possible; compatibility varies by system[^s6].
 - **Code.** US electric heater circuits are installed to NFPA 70, the National Electrical Code[^s8]. Confirm circuits, mounting heights and permits with the local building authority and a licensed electrician.
 
-For a layout and coverage drawings, use [Design Your Space](https://www.bromic.com/design-your-space/). Specification files are on the [architects and designers](https://www.bromic.com/architects-designers/) page.
+For a layout and coverage drawings, start with [Design Your Space](https://www.bromic.com/design-your-space/). Specification files are on the [architects and designers](https://www.bromic.com/architects-designers/) page.
 
 ## Frequently asked
 
 ### Why are offices adding outdoor space?
-Tenants are concentrating in the best buildings, and attendance peaks mid-week. Outdoor terraces and courtyards add meeting, dining and break space for those days without adding floor area[^s1][^s2].
+Tenants are gathering in the best buildings, and attendance peaks mid-week. Outdoor terraces and courtyards add room to meet, dine and take a break on those busy days, without adding floor area[^s1][^s2].
 
 ### Can people work outdoors year-round?
-In many US climates, yes, with cover, power and radiant heat. Heat extends use into mornings, evenings and cooler months.
+In many US climates they can, given cover, power and radiant heat. Heat extends the use of an outdoor space into mornings, evenings and the cooler months.
 
 ### How are office heaters controlled?
-By zone and schedule, through Affinity Smart-Heat controllers, a wall switch per zone and the Smart-Heat app. Wi-Fi and app features require compatible Affinity controls, sold separately.
+By zone and by schedule, through Affinity Smart-Heat controllers, a wall switch for each zone and the Smart-Heat app. Wi-Fi and app features require compatible Affinity controls, sold separately.
 
-Read the 2026 outdoor living data in the Trends report.
+Explore the full 2026 outdoor living data in the Trends report.

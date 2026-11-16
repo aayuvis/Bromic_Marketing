@@ -7,18 +7,18 @@ audience: [RES]
 stage: [CO]
 cell: RES-CO
 asset: null
-summary: "Why radiant heat keeps working in light to mild wind, which wavelengths cope best, and how to plan a breezy patio."
+summary: "Why radiant warmth keeps you comfortable in a light to mild breeze, which wavelengths hold up best, and how to plan a patio that stays inviting when the wind picks up."
 primary_keyword: do infrared heaters work in wind
 secondary_keywords: [infrared patio heater, windy patio heating]
 ai_prompt: "Do infrared heaters work in wind?"
-meta_description: "Yes, in light to mild wind: infrared warms people, not air. Short-wave heaters resist wind best; long-wave is most easily dispersed."
+meta_description: "Do infrared heaters work in wind? Yes, in light to mild wind, because infrared warms people directly. Short-wave heaters resist wind best."
 cta: {label: "Size your space", asset: A03}
 hero: l-019-161
 owner_review: Marketing
 status: draft
 gated: false
 related: [RES-CO-01, RES-PP-01, RES-AW-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -36,11 +36,11 @@ sources:
     verified: true
 ---
 
-Yes – in light to mild wind. Infrared heaters warm people and surfaces directly, the way sunshine does, rather than heating the air. Because wind moves air, not radiation, a good radiant heater keeps you warm on a breezy evening where a convection heater's warmth would simply blow away.[^s1] Strong, steady wind still takes heat off your skin, so how you plan the space matters.
+Yes – in light to mild wind. Infrared heaters warm people and surfaces directly, much as sunshine does, instead of heating the air around them. Wind moves air, and radiant warmth travels straight through it, so a good radiant heater keeps you comfortable on a breezy evening when a convection heater's warmth would simply drift away.[^s1] Strong, steady wind still draws heat from your skin, which is why the way you plan the space matters.
 
 ## Which infrared heaters handle wind best?
 
-It depends on wavelength – how much of the heater's output is radiant rather than warm air.[^s1]
+It comes down to wavelength – how much of the heater's output reaches you as radiant heat rather than warm air.[^s1]
 
 | Wavelength | Radiant share | Wind behaviour | Warm-up |
 |---|---|---|---|
@@ -50,17 +50,17 @@ It depends on wavelength – how much of the heater's output is radiant rather t
 
 The higher the radiant share, the less there is for the wind to carry off. Bromic describes its Tungsten Smart-Heat Freestanding Gas as wind resistant.[^s2]
 
-## How do I plan heat for a windy patio?
+## Planning a patio that stays warm in a breeze
 
-- **Map the wind first.** Proximity to water and prevailing wind direction are part of Bromic's planning checklist.[^s1]
-- **Add a wind break.** A screen, wall or planting on the windward side lets heaters work far harder for you. Keep at least 30% of the perimeter open so the space stays outdoor.[^s1]
-- **Allow more heat.** Coverage varies with environment and installation; coastal and exposed sites often need more heaters or more output than a sheltered courtyard.[^s2]
-- **Use controls to respond.** A Dimmer or Eclipse controller lets you turn up output when the breeze rises. Every installation needs its control – Affinity On/Off, Dimmer or Eclipse controller, or a wall switch; app features need compatible Affinity controls, sold separately.[^s2]
+- Start by mapping the wind. Proximity to water and prevailing wind direction are part of Bromic's planning checklist.[^s1]
+- A screen, wall or planting on the windward side lets your heaters work far harder for you. Keep at least 30% of the perimeter open so the space stays outdoor.[^s1]
+- Allow a little more heat on exposed ground. Coverage varies with environment and installation, and coastal and exposed sites often need more heaters or more output than a sheltered courtyard.[^s2]
+- Let the controls respond to the evening. A Dimmer or Eclipse controller lets you turn up output when the breeze rises. Every installation needs its control – Affinity On/Off, Dimmer or Eclipse controller, or a wall switch; app features need compatible Affinity controls, sold separately.[^s2]
 
 ## Key takeaways
 
-- Infrared works in light to mild wind because it heats people, not air.[^s1]
+- Infrared works in light to mild wind because it warms people directly.[^s1]
 - Short and medium wave resist wind best; long wave is most affected.[^s1]
-- In exposed sites, combine a wind break with extra coverage.
+- On an exposed site, pair a wind break with extra coverage.
 
 A windy site changes the heater count. Size your space with the Bromic calculator.

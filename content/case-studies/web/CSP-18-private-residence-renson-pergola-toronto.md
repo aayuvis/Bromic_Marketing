@@ -1,7 +1,7 @@
 ---
 id: CSP-18
 type: case-study
-title: "Private residence with a Renson pergola, Toronto"
+title: "A Toronto home with a Renson pergola: a new deck, warmed by Bromic"
 slug: csp-18
 audience: ["RES", "ARC", "BLD"]
 stage: [IN, PP]
@@ -20,7 +20,7 @@ evidence: page-read
 completeness: partial
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Gallagher's Patio Structures"
@@ -46,15 +46,15 @@ sources:
 | Mounting | with a Renson louvred pergola over a new deck |
 | Year | not stated (review about three years old) |
 
-## What the sources say
+## The story so far
 
-A Toronto homeowner's review says Gallagher's supplied a Renson pergola and Bromic electric heaters for a new deck, and that they fitted it perfectly. [^s1]
+In a review, a Toronto homeowner says Gallagher's supplied a Renson pergola and Bromic electric heaters for their new deck, and that they fitted it perfectly. [^s1]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-A weak lead (named only by first name and initial), but it confirms a Toronto pergola dealer pairing Renson and Bromic that could provide named projects.
+The lead itself is weak, as the reviewer is named only by a first name and initial, but it confirms a Toronto pergola dealer pairing Renson and Bromic that could lead us to named projects.
 
 ## Photos
 

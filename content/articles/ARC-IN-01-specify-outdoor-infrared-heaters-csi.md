@@ -1,17 +1,17 @@
 ---
 id: ARC-IN-01
 type: article
-title: "How to specify outdoor infrared heaters: a CSI-ready checklist"
+title: "How to specify outdoor heaters: a CSI-ready guide to infrared heating"
 slug: specify-outdoor-infrared-heaters-csi
 audience: [ARC]
 stage: [IN]
 cell: ARC-IN
 asset: A24
-summary: "Where outdoor electric infrared heaters sit in MasterFormat, what each part of a 3-part spec must hold, a coverage table by product, and how to write controls so the spec survives bid."
+summary: "Where outdoor electric infrared heaters sit in MasterFormat, what each part of a 3-part spec should hold, coverage by product, and how to write the controls so your design intent carries through bid."
 primary_keyword: specify outdoor heater
 secondary_keywords: [patio heater specification, infrared heater CSI section]
 ai_prompt: "How do I write a specification for outdoor infrared heaters?"
-meta_description: "Specify outdoor infrared heaters: MasterFormat section, 3-part spec checklist, coverage by product and controls language that survives bid."
+meta_description: "How to specify outdoor heater systems: the MasterFormat section, a 3-part spec checklist, coverage by product and controls language that holds through bid."
 cta: {label: "Download the spec kit", asset: A11}
 hero: l-005-022
 images: [l-010-067]
@@ -19,7 +19,7 @@ owner_review: Specification and compliance
 status: draft
 gated: false
 related: [ARC-BY-01, ARC-CO-01, ARC-IN-KB1, BLD-IN-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: The Blue Book Building & Construction Network (MasterFormat listing)
@@ -72,13 +72,13 @@ sources:
     verified: true
 ---
 
-Specify outdoor electric infrared heaters in MasterFormat Section 23 83 33, Electric Radiant Heaters, under 23 83 00 Radiant Heating Units[^s1][^s2]. Write it as a 3-part section: Part 1 sets references, submittals and warranty; Part 2 names a basis-of-design product with its wattage, voltage, finish, mounting accessory and controls; Part 3 fixes installation, clearances, electrical coordination and controls commissioning. Make the controls and the recess detail performance requirements, or the heater will be substituted at bid.
+Outdoor electric infrared heaters are specified in MasterFormat Section 23 83 33, Electric Radiant Heaters, under 23 83 00 Radiant Heating Units[^s1][^s2]. Write it as a 3-part section, with Part 1 setting references, submittals and warranty, Part 2 naming a basis-of-design product with its wattage, voltage, finish, mounting accessory and controls, and Part 3 fixing installation, clearances, electrical coordination and controls commissioning. When the controls and the recess detail are written as performance requirements, the heater you designed around is far more likely to be the one that is installed.
 
-![Heater recessed flush into a white ceiling](img:l-005-022)
+![Heater recessed flush into a clean white ceiling](img:l-005-022)
 
-## Which CSI MasterFormat section covers outdoor infrared heaters?
+## Finding The Right MasterFormat Section
 
-There is no MasterFormat title for "patio heaters". The closest fit, and the one we recommend, is 23 83 33 Electric Radiant Heaters, because the product is a fixed electric radiant heater[^s1].
+MasterFormat has no title for "patio heaters". The closest fit, and the one we recommend, is 23 83 33 Electric Radiant Heaters, because the product is a fixed electric radiant heater[^s1].
 
 | Section | Title | Use for outdoor heaters? |
 |---|---|---|
@@ -88,27 +88,27 @@ There is no MasterFormat title for "patio heaters". The closest fit, and the one
 | Division 26 | Electrical | Circuits, disconnects, raceway and wiring devices; not the heater |
 | Division 12 / site furnishings | Freestanding units, if the office files portable equipment there | Office preference |
 
-Sourcing: section numbers and titles from MasterFormat listings in the Blue Book and Dodge Sweets[^s1][^s2]. We could not open CSI's own text from here. [[VERIFY: confirm 23 83 33 / 23 83 26 numbers and titles against the current CSI MasterFormat edition — Specification and compliance]][^s3]
+The section numbers and titles come from MasterFormat listings in the Blue Book and Dodge Sweets[^s1][^s2]; we could not open CSI's own text from here. [[VERIFY: confirm 23 83 33 / 23 83 26 numbers and titles against the current CSI MasterFormat edition — Specification and compliance]][^s3]
 
-## What goes in Part 1, General?
+## Part 1, General
 
 - **Summary and related sections.** Cross-reference Division 26 for branch circuits, disconnects and raceway, and the integration section if the heaters connect to a home automation or building control system.
-- **References.** NFPA 70 (National Electrical Code) for the electrical installation; the product must carry a recognised certification mark (Intertek, UL or CSA)[^s5]. [[VERIFY: listing standard(s) each Bromic electric model is certified to — Product team]]
-- **Submittals.** Product data, wiring diagrams, recess kit and mounting details, clearance data from the installation manual, controls schematic, coverage layout.
-- **Quality assurance.** Installer qualified for the manufacturer's products; licensed electrician for connections.
+- **References.** NFPA 70 (National Electrical Code) governs the electrical installation, and the product must carry a recognised certification mark (Intertek, UL or CSA)[^s5]. [[VERIFY: listing standard(s) each Bromic electric model is certified to — Product team]]
+- **Submittals.** Product data, wiring diagrams, recess kit and mounting details, clearance data from the installation manual, the controls schematic and a coverage layout.
+- **Quality assurance.** An installer qualified for the manufacturer's products, and a licensed electrician for connections.
 - **Warranty.** State the manufacturer's standard warranty. [[VERIFY: warranty term per product — Product team]]
 
-## What goes in Part 2, Products?
+## Part 2, Products
 
-Name a basis-of-design product and the attributes a substitute must match. Generic text ("outdoor infrared heater, 3 kW") is what gets value-engineered.
+Name a basis-of-design product and the attributes a substitute must match. Generic text such as "outdoor infrared heater, 3 kW" is the kind that tends to be value-engineered away.
 
-- Manufacturer and model; wattage; supply voltage (commercial supply options listed by Bromic: 208V, 240V, 277V)[^s5]. [[VERIFY: voltage per model and amperage at each voltage — Product team]]
-- Finish and variant (for example Platinum Black or White, Classic or Marine)[^s4].
-- Mounting: recess kit, ceiling, wall or suspension pole, as an accessory with its own line[^s5].
-- Controls, as a required component: Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, manual wall switch, Bromic Smart-Heat app for zones, schedules and timers. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately[^s4].
-- Integration, where needed: compatible with Control4, Crestron and Lutron, but compatibility varies by system and may need additional integration hardware or configuration[^s4]. Name the integrator's responsibility in the spec.
+- Manufacturer and model, wattage and supply voltage (Bromic lists commercial supply options of 208V, 240V and 277V)[^s5]. [[VERIFY: voltage per model and amperage at each voltage — Product team]]
+- Finish and variant, for example Platinum Black or White, Classic or Marine[^s4].
+- Mounting – recess kit, ceiling, wall or suspension pole – as an accessory with its own line[^s5].
+- Controls, written as a required component: Affinity Smart-Heat® On/Off, Dimmer or Eclipse controller, a manual wall switch, and the Bromic Smart-Heat app for zones, schedules and timers. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately[^s4].
+- Integration, where needed. The heaters are compatible with Control4, Crestron and Lutron, though compatibility varies by system and may need additional integration hardware or configuration[^s4]. Name the integrator's responsibility in the spec.
 
-## How much area does each heater cover?
+## How Much Each Heater Covers
 
 | Product | Output | Coverage (approx.) | Mounting | Status |
 |---|---|---|---|---|
@@ -118,23 +118,23 @@ Name a basis-of-design product and the attributes a substitute must match. Gener
 | Eclipse Smart-Heat Electric | 33 / 66 / 100% output | 121 ft² | Single pole 8, 24 or 48 in, double or curved pole | Current |
 | Eclipse Smart-Heat Freestanding Electric | 33 / 66 / 100% output | 121 ft² | Freestanding, wheeled, weighted base | Current |
 
-Source: Lookbook 2026[^s4]. Coverage varies by model, mounting height, environment and installation conditions. Use these for planning, then confirm with a Bromic layout.
+Source: Lookbook 2026[^s4]. Coverage varies by model, mounting height, environment and installation conditions, so use these figures for planning and then confirm them with a Bromic layout.
 
-![Covered outdoor kitchen with flush ceiling heaters](img:l-010-067)
+![Covered outdoor kitchen warmed by flush ceiling heaters](img:l-010-067)
 
-## What goes in Part 3, Execution?
+## Part 3, Execution
 
 - **Examination.** Verify ceiling or soffit framing, recess cavity depth and blocking before rough-in. [[VERIFY: recess kit cut-out and cavity dimensions per model — Product team]]
-- **Installation.** Per the manufacturer's installation manual. Minimum mounting heights per Bromic guidance: wall at least 72 in above floor, ceiling at least 96 in, varying with output[^s5]. Clearances to combustibles per the manual, not the spec writer's estimate.
-- **Electrical connections.** By Division 26, on circuits sized for the heater load; NEC fixed electric space-heating rules size branch-circuit conductors at not less than 125% of the load[^s7] (confirm the article and edition in force with the electrical engineer).
-- **Controls.** Mount controllers in a location protected as the manual requires; program zones and schedules; where the energy code applies, provide automatic shut-off. Washington's commercial code, for example, requires exterior heat to be radiant and controlled by occupancy sensor or timer[^s6].
-- **Field quality control and demonstration.** Test each zone; demonstrate app, wall switch and schedules to the owner.
+- **Installation.** Follow the manufacturer's installation manual. Bromic's guidance sets minimum mounting heights of at least 72 in above floor for wall mounts and at least 96 in for ceiling mounts, varying with output[^s5]. Take clearances to combustibles from the manual itself rather than from an estimate in the spec.
+- **Electrical connections.** By Division 26, on circuits sized for the heater load. NEC fixed electric space-heating rules size branch-circuit conductors at not less than 125% of the load[^s7]; confirm the article and edition in force with the electrical engineer.
+- **Controls.** Mount controllers in a location protected as the manual requires, program zones and schedules, and provide automatic shut-off where the energy code applies. Washington's commercial code, for example, requires exterior heat to be radiant and controlled by occupancy sensor or timer[^s6].
+- **Field quality control and demonstration.** Test each zone, then walk the owner through the app, the wall switch and the schedules.
 
-## How do you stop substitution at bid?
+## Keeping Your Design Intent Through Bid
 
-Write performance into the clauses a substitute is least likely to meet: recessed low-clearance installation, the finish, the step or dimming control, app scheduling, and the integration requirement. Require substitution requests to include a coverage layout for the same plan and the same mounting height. Detail the recess kit on the reflected ceiling plan, so the opening itself is drawn to the specified product.
+Write performance into the clauses a substitute is least likely to meet: recessed low-clearance installation, the finish, the step or dimming control, app scheduling and the integration requirement. Ask that substitution requests include a coverage layout for the same plan at the same mounting height. Detailing the recess kit on the reflected ceiling plan means the opening itself is drawn to the specified product.
 
-## Planning checklist
+## Your Specification Checklist
 
 - [ ] Section 23 83 33 (electric) or 23 83 26 (gas), cross-referenced to Division 26
 - [ ] Basis-of-design model, wattage, voltage, finish, variant
@@ -152,15 +152,15 @@ Write performance into the clauses a substitute is least likely to meet: recesse
 We recommend 23 83 33 Electric Radiant Heaters for fixed electric units and 23 83 26 for gas-fired radiant heaters[^s1][^s2]. Confirm against your office's MasterFormat edition.
 
 ### Is 23 82 39 Unit Heaters a good fit?
-No. Unit heaters are fan-forced convective equipment. Outdoors, warm air rises and blows away; the product you are specifying is radiant.
+It is not. Unit heaters are fan-forced convective equipment, and outdoors the warm air they produce rises and blows away, whereas the product you are specifying is radiant.
 
 ### Should controls be specified in the heater section?
-Yes. Specify the Affinity controller, wall switch and app with the heater, and coordinate wiring in Division 26. Controls left to "by others" are the most common gap at handover.
+Yes. Specify the Affinity controller, wall switch and app with the heater, and coordinate the wiring in Division 26. Controls left to "by others" are the most common gap at handover.
 
 ### Can outdoor heaters connect to Crestron, Control4 or Lutron?
-Through Affinity Smart-Heat Controls, yes. Compatibility varies and may need extra integration hardware or configuration[^s4]. Assign the integration to a named trade.
+Yes, through Affinity Smart-Heat Controls. Compatibility varies and may need extra integration hardware or configuration[^s4], so assign the integration to a named trade.
 
 ### Where do I get a 3-part spec and details?
-In the Bromic Architect Spec Kit, which carries the 3-part spec, coverage tables and detail list. [[VERIFY: BIM/CAD object availability and format (asset A13) — Specification and compliance]]
+The Bromic Architect Spec Kit carries the 3-part spec, coverage tables and detail list. [[VERIFY: BIM/CAD object availability and format (asset A13) — Specification and compliance]]
 
 Download the spec kit for the editable 3-part section and coverage tables.

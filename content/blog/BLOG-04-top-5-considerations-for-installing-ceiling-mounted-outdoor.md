@@ -1,7 +1,7 @@
 ---
 id: BLOG-04
 type: blog
-title: "Top 5 considerations for installing ceiling-mounted outdoor heaters"
+title: "Top 5 Considerations For Installing Ceiling-Mounted Outdoor Heaters"
 slug: top-5-considerations-for-installing-ceiling-mounted-outdoor-heaters
 live_url: https://www.bromic.com/blog/top-5-considerations-for-installing-ceiling-mounted-outdoor-heaters/
 action: keep-fix
@@ -10,11 +10,11 @@ audience: [BLD, RES, ARC]
 stage: [PP]
 cell: BLD-PP
 asset: A24
-summary: "Height, poles, top clearance, structure and combustibles for ceiling-mounted Bromic electric and gas heaters, with weights per model, the pole for each collection, and the controls and circuit to rough in."
+summary: "The five details that let a ceiling-mounted Bromic heater warm the table evenly from above, from height and poles to top clearance, structure and combustibles, with weights per model and the controls and circuit to rough in."
 primary_keyword: ceiling mounted outdoor heater
 secondary_keywords: [ceiling mounted patio heater height, patio heater ceiling clearance, outdoor heater mounting pole, hanging patio heater]
 ai_prompt: "How high should a ceiling-mounted outdoor heater be and how much clearance does it need?"
-meta_description: "Ceiling-mounted outdoor heaters: 8–9 ft high, the right pole per collection, top clearance, weights per model, 36 in to combustibles, and the controls."
+meta_description: "Installing a ceiling mounted outdoor heater: 8–9 ft high, the right pole per collection, top clearance, weights, 36 in to combustibles and the controls."
 cta: {label: "Get the install guide series", asset: A17}
 hero: w-bromic-sep18th-9-1
 images: [w-bromic-sep18th-14]
@@ -24,7 +24,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-BY-KB1, BLD-PP-01, ARC-CO-KB1, BLD-BY-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -91,23 +91,23 @@ sources:
     verified: true
 ---
 
-Mount a ceiling heater 8–9 ft above the floor, never below 96 in, and use a pole when the ceiling is higher than about 9 ft. Leave the top clearance the manual sets (14 in for gas with a heat deflector, 36 in without), fix to structure rated for the heater's weight, and keep 36 in from combustibles. Then wire it with an Affinity Smart-Heat controller and a wall switch.
+A ceiling heater gives its best warmth 8–9 ft above the floor, never below 96 in, with a pole wherever the ceiling rises above about 9 ft. Leave the top clearance the manual sets (14 in for gas with a heat deflector, 36 in without), fix to structure rated for the heater's weight and keep 36 in from combustibles. Each heater is then wired with an Affinity Smart-Heat controller and a wall switch.
 
 *Follow the installation manual for the exact model. Electrical work must be done by a licensed electrician and gas work by a licensed gas fitter, to the codes adopted locally; confirm requirements with the local building authority.*
 
 ![Tungsten Electric heaters ceiling mounted on poles above a hotel bar](img:w-bromic-sep18th-14)
 
-## Why mount on the ceiling?
+## The Quiet Advantages Of Warmth From Above
 
-A ceiling mount keeps the floor and walkways clear, which helps a restaurant use more of its patio. It sends heat down evenly over the seating, and keeps the heater away from splashes and dust[^s1]. See the range at [ceiling-mounted heaters](https://www.bromic.com/outdoor-heaters/ceiling-mounted/).
+A ceiling mount keeps the floor and walkways open, which helps a restaurant make more of its patio. Its warmth falls evenly over the seating, and the heater stays well away from splashes and dust[^s1]. You can explore the range at [ceiling-mounted heaters](https://www.bromic.com/outdoor-heaters/ceiling-mounted/).
 
-## 1. How high should the heater be?
+## 1. Setting The Height For Comfort At The Table
 
-Between 8 and 9 ft above the floor, for electric and gas[^s1]. That is the height the coverage figures assume. The minimum is 96 in for Platinum, Tungsten and Eclipse Electric and for Platinum and Tungsten Gas; 8 ft for Cobalt[^s2][^s3].
+For both electric and gas, the heater belongs between 8 and 9 ft above the floor, the height the coverage figures assume[^s1]. The minimum is 96 in for Platinum, Tungsten and Eclipse Electric and for Platinum and Tungsten Gas, and 8 ft for Cobalt[^s2][^s3].
 
-## 2. Which pole for a high ceiling?
+## 2. Bringing The Warmth Down From A High Ceiling
 
-Above about 9 ft, drop the heater on a pole[^s1].
+Above about 9 ft, a pole brings the heater down to where your guests sit[^s1].
 
 | Collection | Poles |
 |---|---|
@@ -116,9 +116,9 @@ Above about 9 ft, drop the heater on a pole[^s1].
 | [Tungsten Electric](https://www.bromic.com/product/tungsten-electric-mounting-poles/) | 3 ft pole[^s1] |
 | [Platinum and Tungsten Gas](https://www.bromic.com/product/gas-mounting-poles/) | Six lengths from 9.69 in to 41.18 in; must hang vertical[^s4] |
 
-The heater hangs level, facing the floor. On a pitched ceiling the pole's adjustment point takes up the angle[^s4].
+The heater hangs level, facing the floor, and on a pitched ceiling the pole's adjustment point takes up the angle[^s4].
 
-## 3. How much clearance above the heater?
+## 3. Leaving Room Above The Heater
 
 | Heater | Top clearance |
 |---|---|
@@ -126,11 +126,11 @@ The heater hangs level, facing the floor. On a pitched ceiling the pole's adjust
 | Gas with heat deflector | 14 in[^s1] |
 | Gas without heat deflector | 36 in[^s1] |
 
-Bromic's planning guide notes that ceiling clearance varies with energy output[^s7], so take the figure for the exact model and voltage from its manual at [technical resources](https://www.bromic.com/technical-resources/).
+Bromic's planning guide notes that ceiling clearance varies with energy output[^s7], so take the figure for your exact model and voltage from its manual at [technical resources](https://www.bromic.com/technical-resources/).
 
-## 4. Can the ceiling carry it?
+## 4. Making Sure The Ceiling Can Carry It
 
-Fix to joists, beams or blocking, never to the lining alone. The older post gave 16–22 lb for every electric heater; current models run higher[^s2][^s3].
+Fix every heater to joists, beams or blocking, and never to the lining alone. The older post gave 16–22 lb for every electric heater, and today's models run heavier[^s2][^s3].
 
 | Heater | Weight |
 |---|---|
@@ -140,25 +140,25 @@ Fix to joists, beams or blocking, never to the lining alone. The older post gave
 | Tungsten Electric | [[VERIFY: per model — Product team]] |
 | Platinum Gas and Tungsten Gas | 33 lb (160 ft² model), 44 lb (215 ft² model) |
 
-Add the pole's weight to the load.
+Remember to add the pole's weight to the load.
 
-## 5. What counts as a combustible?
+## 5. Keeping Combustibles At A Comfortable Distance
 
-Keep every heater at least 36 in from curtains, awnings, umbrellas, lights and fans[^s1]. Remember things that move: a retracted awning or a pulled curtain can swing into range.
+Keep every heater at least 36 in from curtains, awnings, umbrellas, lights and fans[^s1]. It is worth picturing the space in use, too, since a retracted awning or a drawn curtain can swing into range.
 
-## Which controls and circuits go in before the ceiling closes?
+## Controls And Circuits, Roughed In Before The Ceiling Closes
 
-Every ceiling heater needs a controller and a switch, roughed in with the circuit:
+Every ceiling heater is paired with a controller and a switch, roughed in alongside its circuit:
 
-- **Electric**: a dedicated circuit per heater or controller channel, sized for continuous load, with an [Affinity On/Off](https://www.bromic.com/product/affinity-smart-heat-on-off-controllers/) or [Dimmer](https://www.bromic.com/product/affinity-smart-heat-dimmer-controllers/) controller (6 kW per channel at 208–277 V) and a [manual wall switch](https://www.bromic.com/product/manual-wall-switch/)[^s5]. Eclipse Electric uses the [Affinity Eclipse controller](https://www.bromic.com/product/affinity-smart-heat-eclipse-controllers/), one heater per channel[^s5].
-- **Gas**: a 110 V, 2 A supply for each heater, an Affinity On/Off controller (up to 10 gas heaters per channel) and a wall switch[^s3][^s5].
-- **App**: the Bromic Smart-Heat app sets zones, schedules and timers. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately[^s6].
+- **For electric heaters**, run a dedicated circuit per heater or controller channel, sized for continuous load, with an [Affinity On/Off](https://www.bromic.com/product/affinity-smart-heat-on-off-controllers/) or [Dimmer](https://www.bromic.com/product/affinity-smart-heat-dimmer-controllers/) controller (6 kW per channel at 208–277 V) and a [manual wall switch](https://www.bromic.com/product/manual-wall-switch/)[^s5]. Eclipse Electric uses the [Affinity Eclipse controller](https://www.bromic.com/product/affinity-smart-heat-eclipse-controllers/), one heater per channel[^s5].
+- **For gas heaters**, provide a 110 V, 2 A supply for each heater, an Affinity On/Off controller (up to 10 gas heaters per channel) and a wall switch[^s3][^s5].
+- **With the app**, the Bromic Smart-Heat app sets zones, schedules and timers. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately[^s6].
 
-Leave the junction box accessible. Pre-wire detail is in [our rough-in guide](item:BLD-IN-01).
+Leave the junction box accessible. The pre-wire detail is in [our rough-in guide](item:BLD-IN-01).
 
 <div class="diagram">Diagram: section of a covered patio with a pole-mounted heater at 8–9 ft, top clearance above the head, 36 in combustibles radius, the junction box at the pole top and the circuit to an Affinity controller and wall switch</div>
 
-## Which codes apply?
+## The Codes Behind A Safe Installation
 
 In the US, electric heaters follow [NFPA 70](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70) and gas heaters ANSI Z223.1/[NFPA 54](https://www.nfpa.org/codes-and-standards/nfpa-54-standard-development/54)[^s7][^s8][^s9]. Have a licensed electrician or gas fitter install to the manual, and check with the local building authority.
 
@@ -170,7 +170,7 @@ In the US, electric heaters follow [NFPA 70](https://www.nfpa.org/codes-and-stan
 
 ### My ceiling is 12 ft. What do I do?
 
-Use a pole to bring the heater to 8–9 ft. Platinum offers 2 ft and 4 ft poles; gas heaters have poles up to 41.18 in[^s1][^s4].
+A pole brings the heater down to 8–9 ft. Platinum offers 2 ft and 4 ft poles, and gas heaters have poles up to 41.18 in[^s1][^s4].
 
 ### How much clearance does a gas heater need above it?
 
@@ -178,6 +178,6 @@ Use a pole to bring the heater to 8–9 ft. Platinum offers 2 ft and 4 ft poles;
 
 ### Can I hang a heater from a pergola?
 
-Yes, if the beam is rated for the heater and pole and the top clearance and combustibles distance are met. Fabric shades count as combustibles; check the rating of louvres and timber within the clearance zone.
+Yes, provided the beam is rated for the heater and pole, and the top clearance and combustibles distance are met. Fabric shades count as combustibles, so check the rating of any louvres and timber within the clearance zone.
 
-For a ceiling plan with heights and poles worked out, use [Design Your Space](https://www.bromic.com/design-your-space/).
+For a ceiling plan with the heights and poles worked out for you, [Design Your Space](https://www.bromic.com/design-your-space/) with us.

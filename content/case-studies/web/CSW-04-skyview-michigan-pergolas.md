@@ -7,7 +7,7 @@ audience: ["RES", "BLD"]
 stage: [IN, PP]
 cell: BLD-IN
 asset: A19
-summary: "Skyview built Bromic heaters into StruXure louvered pergolas with motorized screens in Livonia (720 sq ft) and Chelsea (420 sq ft), Michigan, to turn patios into four-season rooms."
+summary: "In Livonia (720 sq ft) and Chelsea (420 sq ft), Michigan, Skyview built Bromic heaters into StruXure louvered pergolas with motorized screens, turning two patios into four-season rooms."
 cta: {label: "Book a design consult", asset: A07}
 hero: w-louvered-pergola-with-recessed-platinum-elec
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: page-read
 completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Skyview (StruXure dealer, Detroit)"
@@ -57,19 +57,19 @@ sources:
 | Controls | [[VERIFY: controls and zones — US field sales]] |
 | Size | About 720 sq ft (Livonia, fall 2025) and 420 sq ft (Chelsea, summer 2025) |
 
-## The space
+## The setting
 
-In Livonia, a roof-mounted StruXure louvered pergola attached to the house, with motorized louvers and solar screens round the perimeter. In Chelsea, a new elevated patio under a three-zone pergola with screens, an outdoor kitchen and bi-fold doors that open the house onto it. [^s1][^s2][^s3]
+In Livonia, a roof-mounted StruXure louvered pergola is attached to the house, with motorized louvers and solar screens around the perimeter. In Chelsea, a new elevated patio sits beneath a three-zone pergola with screens and an outdoor kitchen, and bi-fold doors open the house onto it. [^s1][^s2][^s3]
 
-## What was installed
+## Bringing in the warmth
 
-Bromic heaters built into the pergola structure in both homes, so the spaces stay usable as temperatures drop. Neither project page gives the model or count.
+In both homes, Bromic heaters are built into the pergola structure, so the spaces stay inviting as temperatures drop. Neither project page gives the model or the count.
 
-**Controls.** [[VERIFY: which controls were installed, and how many zones — US field sales]] A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+[[VERIFY: which controls were installed, and how many zones — US field sales]] Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-Pergola dealers are a growing channel. Two projects from one StruXure dealer show the pairing (louvered roof, screens, built-in heat) that sells a four-season room in a cold state.
+Pergola dealers are a growing channel, and two projects from one StruXure dealer show the pairing of louvered roof, screens and built-in heat that sells a four-season room in a cold state.
 
 ## Photos
 

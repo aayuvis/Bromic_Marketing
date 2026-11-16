@@ -1,13 +1,13 @@
 ---
 id: CSP-21
 type: case-study
-title: "Lillies (rooftop wine bar and restaurant above the Olympia development), London"
+title: "Lillies, London: a rooftop above Olympia, warmed by Platinum"
 slug: csp-21
 audience: ["COM"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "A rooftop wine bar and restaurant above the redeveloped Olympia in west London, designed by Studio Found. Bromic staff LinkedIn posts say Platinum heaters were specified so they sit within the architecture and extend the outdoor season."
+summary: "Above the redeveloped Olympia in west London, Lillies is a rooftop wine bar and restaurant designed by Studio Found, where Platinum heaters were specified to sit within the architecture and extend the outdoor season."
 cta: {label: "Book a design consult", asset: A07}
 hero: t-003-005
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: bromic-listing
 completeness: partial
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "LinkedIn (US field sales, Bromic Heating)"
@@ -50,15 +50,15 @@ sources:
 | Architect or designer | Studio Found |
 | Builder or developer | Olympia development |
 
-## What the sources say
+## The story so far
 
-A rooftop wine bar and restaurant above the redeveloped Olympia in west London, designed by Studio Found. Bromic staff LinkedIn posts say Platinum heaters were specified so they sit within the architecture and extend the outdoor season. [^s1][^s2]
+High above the redeveloped Olympia in west London, Lillies is a rooftop wine bar and restaurant designed by Studio Found. LinkedIn posts by Bromic staff say Platinum heaters were specified so that they sit within the architecture and extend the outdoor season. [^s1][^s2]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-A new London rooftop with a named design studio: an architect-led UK reference. Confirm the venue name, the Platinum variant (gas or electric) and the count with the UK team before use.
+A new London rooftop with a named design studio gives us an architect-led UK reference. Confirm the venue name, the Platinum variant (gas or electric) and the count with the UK team before use.
 
 ## Photos
 

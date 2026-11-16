@@ -1,13 +1,13 @@
 ---
 id: CSP-11
 type: case-study
-title: "A Home Built for Family: Mangawhai Beach House, Mangawhai"
+title: "A family beach house in Mangawhai: an outdoor room beneath an opening roof"
 slug: csp-11
 audience: ["RES", "ARC", "BLD"]
 stage: [IN, PP]
 cell: RES-IN
 asset: A10
-summary: "A family beach house at Mangawhai with a Louvretec outdoor room. The listing names its parts: a 220/35 slimline opening roof, built-in LED lighting, Bromic heaters and a 165 Hi-Span motorised panel. Louvretec, Bromic's NZ distributor, recommends the Platinum"
+summary: "A family beach house in Mangawhai gathers around a Louvretec outdoor room, with a slimline opening roof, built-in LED lighting, a motorised panel and Bromic heaters to keep it warm."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-016-133
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: snippet-only
 completeness: partial
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "ArchiPro NZ (project listing by Louvretec New Zealand)"
@@ -57,15 +57,15 @@ sources:
 | Mounting | under a Louvretec 220/35 slimline opening roof (from the feature list) |
 | Year | listed in Louvretec NZ's 2026 look book |
 
-## What the sources say
+## The story so far
 
-A family beach house at Mangawhai with a Louvretec outdoor room. The listing names its parts: a 220/35 slimline opening roof, built-in LED lighting, Bromic heaters and a 165 Hi-Span motorised panel. Louvretec, Bromic's NZ distributor, recommends the Platinum Smart-Heat Electric for use under its opening roofs, but the model used here is not stated. [^s1][^s2][^s3]
+This family beach house in Mangawhai opens onto a Louvretec outdoor room, and the listing names each of its parts: a 220/35 slimline opening roof, built-in LED lighting, Bromic heaters and a 165 Hi-Span motorised panel. Louvretec, Bromic's New Zealand distributor, recommends the Platinum Smart-Heat Electric for use under its opening roofs, though the model used here is not stated. [^s1][^s2][^s3]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-A New Zealand coastal home: NZ is thin in the case-study set, and this shows Bromic with an opening-roof outdoor room through the national distributor. Louvretec could supply photos, the model and the homeowner contact.
+New Zealand is thin in our case studies, and this coastal home shows Bromic in an opening-roof outdoor room, delivered through the national distributor. Louvretec could supply the photographs, the model and the homeowner contact.
 
 ## Photos
 

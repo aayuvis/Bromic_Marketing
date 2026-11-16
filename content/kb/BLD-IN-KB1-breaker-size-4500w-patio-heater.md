@@ -7,18 +7,18 @@ audience: [BLD]
 stage: [IN]
 cell: BLD-IN
 asset: A16
-summary: "The amperage maths for a 4500 W electric patio heater at 240 V and 208 V, the 125% continuous-load rule, and the nameplate limit."
+summary: "The amperage behind a 4500 W electric patio heater at 240 V and 208 V, the 125% continuous-load rule and the nameplate limit, so the circuit is right the first time."
 primary_keyword: 4500w patio heater breaker size
 secondary_keywords: [patio heater wiring, outdoor heater rough in]
 ai_prompt: "What size breaker does a 4500W patio heater need?"
-meta_description: "A 4500 W heater at 240 V draws 18.75 A; at 125% that is 23.4 A, so a 25 A breaker minimum, often 30 A on 10 AWG, within the nameplate maximum."
+meta_description: "A 4500W patio heater at 240 V draws 18.75 A; at 125% that is 23.4 A, so a 25 A breaker minimum, often 30 A on 10 AWG, within the nameplate maximum."
 cta: {label: "Download the pre-wire guide", asset: A16}
 hero: t-006-016
 owner_review: Trade sales
 status: draft
 gated: false
 related: [BLD-IN-01, BLD-IN-KB2]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -43,13 +43,13 @@ sources:
     verified: true
 ---
 
-A 4500 W patio heater on 240 V draws 18.75 A. Size the circuit at 125% of that, 23.4 A, because a heater can run for three hours or more and counts as a continuous load[^s2][^s3]. The next standard breaker is 25 A; many electricians use 30 A with 10 AWG copper. Either way, the breaker must not exceed the maximum marked on the heater's nameplate[^s2].
+A 4500 W patio heater on 240 V draws 18.75 A. Because a heater can run through a three-hour evening or longer, it counts as a continuous load, so size the circuit at 125% of that current, 23.4 A[^s2][^s3]. The next standard breaker is 25 A, and many electricians choose 30 A with 10 AWG copper. Either way, the breaker must stay within the maximum marked on the heater's nameplate[^s2].
 
 *Planning guidance only. Confirm with a licensed electrician, the installation manual and the local building authority.*
 
-## How is it calculated?
+## Working out the breaker size
 
-Current = watts ÷ volts. Then multiply by 1.25.
+Divide the heater's watts by the supply voltage to find its current, then multiply by 1.25.
 
 | 4500 W heater | Current | × 125% | Minimum standard breaker | Typical copper conductor |
 |---|---|---|---|---|
@@ -58,18 +58,18 @@ Current = watts ÷ volts. Then multiply by 1.25.
 
 A 20 A breaker is too small in both cases.
 
-## What if the site is 208 V?
+## When the site is 208 V
 
-Order a heater rated for 208 V [[VERIFY: 208 V availability for Platinum 4500 W — Product team]]. A 240 V heater on 208 V draws less current (about 16.2 A) but delivers only about 75% of its output, roughly 3,380 W. It is an easy way to end up with a heater that never feels warm enough.
+Order a heater rated for 208 V [[VERIFY: 208 V availability for Platinum 4500 W — Product team]]. A 240 V heater on 208 V draws less current (about 16.2 A) but delivers only about 75% of its output, roughly 3,380 W, which can leave a patio that never quite feels warm enough on a cool evening.
 
-## What else sets the size?
+## Everything else that shapes the circuit
 
-- **Nameplate maximum.** The breaker cannot exceed it.
-- **Run length.** Long runs may need a larger conductor for voltage drop.
-- **Shared circuits.** Add every heater's current before applying 125%. One heater per circuit is simpler.
-- **Controls.** The circuit runs through its Affinity Smart-Heat On/Off or Dimmer controller and a manual wall switch[^s1]; check the controller's load rating [[VERIFY: Affinity controller maximum load — Product team]].
+- The breaker can never exceed the maximum on the heater's nameplate.
+- Long runs may need a larger conductor to manage voltage drop.
+- On a shared circuit, add every heater's current before applying 125%; one heater per circuit keeps things simpler.
+- The circuit runs through its Affinity Smart-Heat On/Off or Dimmer controller and a manual wall switch[^s1], so check the controller's load rating [[VERIFY: Affinity controller maximum load — Product team]].
 
-## Checklist
+## Before you rough in
 
 - Nameplate watts and volts confirmed.
 - Current × 1.25 calculated; next standard breaker chosen.

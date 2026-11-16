@@ -10,11 +10,11 @@ audience: [RES]
 stage: [PP]
 cell: RES-PP
 asset: A24
-summary: "Yes, with the right heater, height and clearances. Why electric infrared suits most gazebos, what a gas heater needs, the mounting height and weight per Bromic model, US voltages, and the controls to plan in."
+summary: "Yes – with the right heater, height and clearances, a gazebo becomes a place you can enjoy long after sunset. Why electric infrared suits most gazebos, what a gas heater needs, mounting heights and weights by Bromic model, US voltages and the controls to plan in."
 primary_keyword: patio heater under gazebo
 secondary_keywords: [gazebo heater, can you put a heater under a gazebo, pergola heater, ceiling mounted gazebo heater]
 ai_prompt: "Can I safely put a patio heater under my gazebo?"
-meta_description: "Yes, with the right heater and clearances. Electric infrared suits most gazebos; gas needs open sides. Heights, weights, voltages and controls by model."
+meta_description: "A patio heater can go under a gazebo with the right heater and clearances. Electric suits most; gas needs open sides. Heights and controls by model."
 cta: {label: "Book a design consult", asset: A07}
 hero: w-gazebo-bromic
 owner_review: Marketing
@@ -23,7 +23,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-PP-KB1, RES-PP-01, RES-CO-KB2, ARC-BY-KB1]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -82,12 +82,11 @@ sources:
     supports: "Keep anything that can burn at least 3 feet from heating equipment"
     verified: false
 ---
+Yes, with the right heater and clearances, your gazebo can stay warm and welcoming well into the evening. An electric infrared heater mounted on the frame is the simplest choice: it has no flame and no fumes, and it sends warmth straight to where people sit. A gas heater can work under a gazebo with open sides, at Bromic's minimum heights and with the manual's clearance to the roof. Check first that the structure can carry the heater, and have it installed by a licensed professional.[^s1][^s7]
 
-Yes, with the right heater and clearances. An electric infrared heater mounted on the gazebo's frame is the simplest choice: no flame, no fumes, and it puts the heat where people sit. A gas heater can work under a gazebo with open sides, at Bromic's minimum heights and with the manual's clearance to the roof. Check first that the structure can carry the heater, and have it installed by a licensed professional.[^s1][^s7]
+![White louvered pergola over a patio lounge, with Tungsten Electric heaters mounted on the beams above the seating](img:w-gazebo-bromic)
 
-![White louvered pergola over a patio lounge with Tungsten Electric heaters mounted on the beams](img:w-gazebo-bromic)
-
-## Electric or gas under a gazebo?
+## Choosing Between Electric And Gas For Your Gazebo
 
 | | Electric infrared | Gas infrared |
 |---|---|---|
@@ -97,19 +96,19 @@ Yes, with the right heater and clearances. An electric infrared heater mounted o
 | Supply | A dedicated circuit, run by an electrician | A gas line or cylinder, run by a gas fitter |
 | Code (US) | ANSI/NFPA 70[^s1] | ANSI Z223.1/NFPA 54[^s1] |
 
-Under a partial roof, Bromic's Planning Guide notes a bonus: the cover traps a "heat cloud" that adds warmth.[^s1] For gas, the same guide treats a space as outdoor only when at least 30% of its perimeter is permanently open.[^s1] More on roofs and covers: [heaters under a covered patio](item:RES-PP-KB1).
+A partial roof brings a welcome bonus, as our Planning Guide notes: the cover holds a "heat cloud" that adds to the warmth beneath it.[^s1] For gas, the same guide treats a space as outdoor only when at least 30% of its perimeter is permanently open.[^s1] You can read more about roofs and covers in [heaters under a covered patio](item:RES-PP-KB1).
 
-## What should you check before you mount a heater?
+## Before You Mount A Heater
 
-1. **The structure.** Can the beams carry the heater and its bracket? Platinum Electric weighs 17–33 lb and Eclipse Electric 30 lb.[^s3][^s4] If the frame is light or fabric-roofed, a freestanding heater may be the better answer.[^s7]
-2. **The height.** Bromic minimums are 72 in on a wall and 96 in on a ceiling for Tungsten and Platinum Electric.[^s2][^s3] Many garden gazebos are lower than 8 ft at the beam: measure before you buy.
+1. **The structure.** Make sure the beams can carry the heater and its bracket. Platinum Electric weighs 17–33 lb and Eclipse Electric 30 lb.[^s3][^s4] Where the frame is light or the roof is fabric, a freestanding heater may suit your gazebo better.[^s7]
+2. **The height.** Bromic minimums are 72 in on a wall and 96 in on a ceiling for Tungsten and Platinum Electric.[^s2][^s3] Many garden gazebos sit lower than 8 ft at the beam, so measure before you choose.
 3. **The roof above.** Keep the manual's clearance between the heater and timber, shingles or fabric. [[VERIFY: top and side clearances to combustible ceilings per model, from the manuals — Product team]]
-4. **Combustibles around it.** Keep curtains, cushions, plants and string lights at least 3 feet clear, or further if the manual says so.[^s8]
-5. **The supply and the controls.** Plan where the cable or gas line and the controller go before the gazebo is finished.
+4. **The furnishings around it.** Keep curtains, cushions, plants and string lights at least 3 feet clear, or further if the manual says so.[^s8]
+5. **The supply and the controls.** Decide where the cable or gas line and the controller will go before the gazebo is finished, so everything sits neatly out of sight.
 
 <div class="diagram">Diagram: a gazebo in section, heater on the beam at 96 in or higher, the manual's clearance to the roof marked, a 3 ft clear zone, and the controller on a post at the entry</div>
 
-## Which Bromic heaters suit a gazebo?
+## Bromic Heaters That Suit A Gazebo
 
 | Heater | Output and coverage | US voltage | Minimum height | Controls |
 |---|---|---|---|---|
@@ -120,9 +119,9 @@ Under a partial roof, Bromic's Planning Guide notes a bonus: the cover traps a "
 | Eclipse Smart-Heat Freestanding | 2900 W; about 121 ft² | 220–240 V | 79 in clearance | Eclipse Dimmer Controller and remote included[^s4] |
 | Tungsten Smart-Heat Freestanding | About 215 ft² | Propane or natural gas | Open sides only | Manual controls on the unit [[VERIFY: Tungsten Freestanding control method — Product team]] |
 
-Tungsten Electric is rated IPX4, splash-protected from any direction.[^s2] Even so, mount every heater under the gazebo's roof, not on an exposed post. See [what IP ratings mean](item:BLOG-19).
+Tungsten Electric is rated IPX4, splash-protected from any direction.[^s2] Even so, every heater is best mounted beneath the gazebo's roof, where it stays sheltered from the weather. Learn more about [what IP ratings mean](item:BLOG-19).
 
-**Controls.** Every mounted heater needs its controller, sold separately. The Smart-Heat app adds zones, schedules and timers; Wi-Fi and app features need compatible Affinity controls, sold separately.[^s6]
+**Controls.** Every mounted heater is paired with its controller, sold separately. The Smart-Heat app adds zones, schedules and timers, so the warmth comes on as your guests arrive; Wi-Fi and app features need compatible Affinity controls, sold separately.[^s6]
 
 Codes cover where heaters can go, ventilation, supply and clearance to combustibles.[^s1] Confirm the installation with your local building authority and a licensed electrician or gas fitter.
 
@@ -130,7 +129,7 @@ Codes cover where heaters can go, ventilation, supply and clearance to combustib
 
 ### Can I use a gas patio heater under a gazebo?
 
-Yes, if the gazebo stays open to fresh air, the heater is at or above its minimum height and the roof clearance in the manual is kept.[^s1][^s5] Electric is simpler under a solid or low roof.
+Yes, as long as the gazebo stays open to fresh air, the heater sits at or above its minimum height and the roof clearance in the manual is kept.[^s1][^s5] Under a solid or low roof, electric is the simpler choice.
 
 ### Is it safe to put a heater under a wooden gazebo?
 
@@ -138,10 +137,10 @@ Yes, with an electric infrared heater mounted to its manual's clearances and wir
 
 ### Can I leave a gazebo heater on all night?
 
-No. Switch it off when you go in; an app schedule can do it for you with compatible Affinity controls.[^s6]
+No. Switch it off when you head inside, or let an app schedule do it for you with compatible Affinity controls.[^s6]
 
 ### How many heaters does a gazebo need?
 
-It depends on the area and height. A 10 × 12 ft gazebo is 120 ft², roughly one Eclipse or one 4000 W Tungsten Electric.[^s4][^s2] Exposure and wind change the count.
+That depends on the area and the height. A 10 × 12 ft gazebo is 120 ft², roughly one Eclipse or one 4000 W Tungsten Electric.[^s4][^s2] Exposure and wind can change the count.
 
-Want a layout for your gazebo? Book a free design consult.
+Would you like a layout made for your gazebo? Book a free design consult with our team.

@@ -7,7 +7,7 @@ audience: ["RES", "BLD"]
 stage: [IN, PP]
 cell: BLD-IN
 asset: A19
-summary: "Texas Custom Patios built a roughly 550 sq ft outdoor living area with an outdoor kitchen in Houston's Memorial area and installed Bromic heaters for year-round use."
+summary: "In Houston's Memorial area, Texas Custom Patios built an outdoor living area of roughly 550 sq ft with an outdoor kitchen, and installed Bromic heaters so it can be enjoyed all year."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-010-076
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: snippet-only
 completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Texas Custom Patios"
@@ -44,19 +44,19 @@ sources:
 | Controls | [[VERIFY: controls and zones — US field sales]] |
 | Size | About 550 sq ft (per the builder) |
 
-## The space
+## The setting
 
-A roughly 550 sq ft outdoor living space with an outdoor kitchen, built by a Houston patio builder. [^s1]
+A Houston patio builder created this outdoor living space of roughly 550 sq ft, complete with an outdoor kitchen. [^s1]
 
-## What was installed
+## Bringing in the warmth
 
-Bromic heaters installed so the space is comfortable all year. The project page has since been taken down; details come from the search listing.
+Bromic heaters were installed so the space stays comfortable all year. The project page has since been taken down, and the details come from the search listing.
 
-**Controls.** None A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+The sources do not name the controls used here. Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-A warm-climate market where heat is about the few cold evenings and the full-year use of an expensive outdoor room: useful for builders who assume the South does not need heaters.
+In a warm-climate market, heat is about the few cold evenings and the full-year use of a valuable outdoor room, a useful story for builders who assume the South does not need heaters.
 
 ## Photos
 

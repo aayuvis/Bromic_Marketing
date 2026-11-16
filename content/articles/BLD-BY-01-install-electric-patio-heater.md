@@ -1,17 +1,17 @@
 ---
 id: BLD-BY-01
 type: article
-title: "Installing electric patio heaters: mounting, clearance and commissioning"
+title: "How to install electric patio heaters: mounting, clearance and commissioning done right"
 slug: install-electric-patio-heater
 audience: [BLD]
 stage: [BY]
 cell: BLD-BY
 asset: A24
-summary: "The install sequence for a built-in electric patio heater, from checking the rough-in to handing over the controls, with what to verify at each step. The product installation manual governs every step."
+summary: "The install sequence for a built-in electric patio heater, from checking the rough-in to handing over the controls, with what to confirm at each step. The product installation manual governs every step."
 primary_keyword: install electric patio heater
 secondary_keywords: [mount infrared heater, patio heater installation]
 ai_prompt: "How do you install an electric patio heater?"
-meta_description: "Install an electric patio heater right first time: check the rough-in, mount at the manual's height and clearance, wire, pair controls, commission, hand over."
+meta_description: "Install an electric patio heater right the first time: check the rough-in, mount at the manual's height and clearance, wire, pair controls, commission."
 cta: {label: "Get the install guide series", asset: A17}
 hero: g-electrician
 images: [t-006-016]
@@ -19,7 +19,7 @@ owner_review: Trade sales
 status: draft
 gated: false
 related: [BLD-IN-01, BLD-PP-01, BLD-BY-KB1]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -44,15 +44,15 @@ sources:
     verified: true
 ---
 
-Install an electric patio heater in six steps: confirm the rough-in matches the heater on site, fix the bracket to blocking at the height and clearances in the installation manual, make the electrical connection with the power isolated, fit the heater and any recess kit, pair and test the Affinity controls, then commission and hand over. The manual for the exact model governs every step. This article is the sequence and the checks that stop callbacks.
+Installing an electric patio heater comes down to six steps. Confirm the rough-in matches the heater on site, fix the bracket to blocking at the height and clearances in the installation manual, make the electrical connection with the power isolated, fit the heater and any recess kit, pair and test the Affinity Smart-Heat® Controls, then commission and hand over. The manual for the exact model governs every step, and the sequence and checks below are the ones that help you get it right the first time.
 
 *Follow the product installation manual. Electrical work must be done by a licensed electrician to the code adopted locally; confirm requirements with the local building authority.*
 
-![Covered outdoor kitchen and bar with flush ceiling heaters](img:l-010-067)
+![Covered outdoor kitchen and bar warmed by flush ceiling heaters](img:l-010-067)
 
-## What should be checked before the heater goes up?
+## Before The Heater Goes Up
 
-Check the rough-in against the heater in the box, not the one on the drawing.
+Check the rough-in against the heater that has arrived in the box, since it may differ from the one on the drawing.
 
 | Check | Against | If it does not match |
 |---|---|---|
@@ -64,50 +64,50 @@ Check the rough-in against the heater in the box, not the one on the drawing.
 | Clearances | Manual's clearance table [[VERIFY: per model — Product team]] | Relocate before fixing |
 | Recess opening | Recess kit dimensions [[VERIFY: per model — Product team]] | Re-frame before the heater arrives |
 
-## How is the heater mounted?
+## Mounting The Heater
 
-The order is the same for wall, ceiling and recessed mounts; the brackets differ.
+The order is the same for wall, ceiling and recessed mounts, with only the brackets changing.
 
 1. **Isolate the circuit** at the panel and lock or tag it.
 2. **Fix the bracket** to the blocking with the fixings the manual specifies, level and at the manual's height.
-3. **Set the angle** for wall mounts so the heat falls on the seating, as the manual allows.
-4. **Recessed heaters**: fit the recess kit to the framed opening first, then the heater into the kit. Recess kits flush-mount Platinum and Tungsten Electric heaters into the ceiling cavity[^s2].
-5. **Pole-mounted Eclipse**: Eclipse comes on a single 8, 24 or 48 in. pole, a double pole or a curved pole[^s1]; fix the pole to structure rated for it.
+3. **Set the angle** on wall mounts so the warmth falls across the seating, as the manual allows.
+4. **For recessed heaters**, fit the recess kit to the framed opening first, then set the heater into the kit. Recess kits flush-mount Platinum and Tungsten Electric heaters into the ceiling cavity[^s2] for a seamless finish.
+5. **For pole-mounted Eclipse**, choose from a single 8, 24 or 48 in. pole, a double pole or a curved pole[^s1], and fix the pole to structure rated for it.
 
 [[DIAGRAM: side section of wall, ceiling and recessed mounts showing bracket, blocking, minimum heights and clearance zones]]
 
-## How is it wired?
+## Wiring The Heater
 
-To the installation manual's wiring diagram, by a licensed electrician. On site:
+A licensed electrician wires each heater to the installation manual's wiring diagram. On site, that means:
 
-- Bring the dedicated circuit into the heater's connection point using weather-rated fittings.
-- Route the circuit through the Affinity controller as the diagram shows [[VERIFY: Affinity controller wiring topology and terminal layout — Product team]].
-- Fit the manual wall switch where the plan puts it.
-- Provide GFCI protection where the adopted code or the inspector requires it. The 2023 NEC requires it for dwelling outdoor outlets of 150 V or less to ground and 50 A or less[^s3]; whether a hard-wired heater is an "outlet" is a local reading. See [the GFCI answer](item:BLD-BY-KB1).
+- Bringing the dedicated circuit into the heater's connection point using weather-rated fittings.
+- Routing the circuit through the Affinity controller as the diagram shows [[VERIFY: Affinity controller wiring topology and terminal layout — Product team]].
+- Fitting the manual wall switch where the plan places it.
+- Providing GFCI protection where the adopted code or the inspector requires it. The 2023 NEC requires it for dwelling outdoor outlets of 150 V or less to ground and 50 A or less[^s3], and whether a hard-wired heater counts as an "outlet" is a local reading. See [the GFCI answer](item:BLD-BY-KB1).
 
-![Urban roof terrace, timber soffit with recessed heater](img:t-006-016)
+![Urban roof terrace with a heater recessed into a warm timber soffit](img:t-006-016)
 
-## How do you commission the heater and controls?
+## Commissioning The Heater And Its Controls
 
-Commissioning proves the system works the way it was sold.
+Commissioning is where you confirm the system delivers everything the homeowner was promised.
 
-1. **Energise and test** each heater on its wall switch. Compare warm-up with what the manual describes for that model; a heater slow to warm points back to voltage.
-2. **Check every level.** On a Dimmer controller, step through the settings; on Eclipse, check 33, 66 and 100% output and the dimmable rim lighting[^s1].
-3. **Pair the app** if the buyer bought it. The Bromic Smart-Heat app runs zones, schedules and timers, and needs compatible Affinity Smart-Heat Controls, sold separately[^s1]. Name each zone the way the family talks: "Dining", "Lounge".
-4. **Connect integrations** if sold: Amazon Alexa, Google Assistant, Control4, Crestron or Lutron. Compatibility varies and may need extra integration hardware or configuration[^s1]. Coordinate with the AV contractor.
+1. **Energise and test** each heater on its wall switch. Compare its warm-up with what the manual describes for that model, since a heater slow to warm usually points back to voltage.
+2. **Check every level.** On a Dimmer controller, step through each setting, and on Eclipse, check 33, 66 and 100% output along with the dimmable rim lighting[^s1].
+3. **Pair the app** if the homeowner chose it. The Bromic Smart-Heat app runs zones, schedules and timers, and needs compatible Affinity Smart-Heat Controls, sold separately[^s1]. Name each zone the way the family talks about the space, such as "Dining" or "Lounge".
+4. **Connect integrations** if they were sold – Amazon Alexa, Google Assistant, Control4, Crestron or Lutron. Compatibility varies and may need extra integration hardware or configuration[^s1], so coordinate with the AV contractor.
 5. **Test GFCI devices** with their test button, where fitted.
-6. **Record** model, serial, circuit, breaker, controller and app account details on the job sheet [[VERIFY: warranty registration process — Product team]].
+6. **Record** the model, serial, circuit, breaker, controller and app account details on the job sheet [[VERIFY: warranty registration process — Product team]].
 
-## What does a good handover cover?
+## A Handover That Leaves Homeowners Confident
 
-Five minutes with the homeowner saves the "how do I turn it on" call.
+Five minutes with the homeowner at handover saves the "how do I turn it on" call later.
 
-- Show the wall switch, the controller and, if fitted, the app.
-- Explain that outdoor heat is controlled by hand or schedule, not a thermostat[^s2].
-- Point out the clearance zone: no hanging plants or decorations near the heater.
+- Show them the wall switch, the controller and, if fitted, the app.
+- Explain that outdoor heat is controlled by hand or by schedule, since a thermostat has no meaningful role outdoors[^s2].
+- Point out the clearance zone, and suggest keeping hanging plants and decorations well away from the heater.
 - Leave the manual, the job sheet and the care instructions [[VERIFY: cleaning and care guidance per finish — Product team]].
 
-## Planning checklist
+## Your Installation Checklist
 
 - Nameplate model, wattage and voltage match the circuit.
 - Breaker sized at 125% and within the nameplate maximum.
@@ -122,21 +122,21 @@ Five minutes with the homeowner saves the "how do I turn it on" call.
 ## FAQ
 
 ### How do you install an electric patio heater?
-Confirm the circuit matches the nameplate, fix the bracket to blocking at the manual's height and clearances, wire through the Affinity controller and wall switch with power isolated, fit the heater, then test every setting and hand over.
+Confirm the circuit matches the nameplate, fix the bracket to blocking at the manual's height and clearances, wire through the Affinity controller and wall switch with the power isolated, fit the heater, then test every setting and hand over.
 
 ### Can I install a patio heater myself?
 Mounting is carpentry, but the electrical connection should be made by a licensed electrician to the code adopted locally, often with a permit and inspection.
 
 ### How high do you mount an infrared heater?
-At least 72 in. for wall mounts and 96 in. for ceiling mounts per Bromic's guidance, with the exact height for each model and wattage in its installation manual.
+At least 72 in. for wall mounts and 96 in. for ceiling mounts per Bromic's guidance, with the exact height for each model and wattage given in its installation manual.
 
 ### Does the heater need a controller?
-Yes. Every Bromic heater is installed with its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller and a manual wall switch.
+Yes. Every Bromic heater is installed with its controls, an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller and a manual wall switch.
 
 ### Why won't the app connect?
-App and Wi-Fi features need compatible Affinity Smart-Heat Controls, sold separately. Check that a compatible controller is installed before troubleshooting the network.
+App and Wi-Fi features need compatible Affinity Smart-Heat Controls, sold separately, so check that a compatible controller is installed before troubleshooting the network.
 
-For model-by-model steps, get the install guide series.
+For model-by-model steps, explore the install guide series.
 
 [^s1]: Bromic, Lookbook 2026.
 [^s2]: Bromic, Outdoor Heating Planning Guide US v1.2, 2021.

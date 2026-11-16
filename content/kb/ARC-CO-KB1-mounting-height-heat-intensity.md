@@ -1,17 +1,17 @@
 ---
 id: ARC-CO-KB1
 type: kb
-title: "How does mounting height change heat intensity?"
+title: "How heater mounting height changes the warmth your guests feel"
 slug: mounting-height-heat-intensity
 audience: [ARC]
 stage: [CO]
 cell: ARC-CO
 asset: A24
-summary: "Higher mounting spreads radiant heat over a wider area at lower intensity; the inverse-square rule and Bromic's minimum heights explain the trade-off."
+summary: "Mounted higher, radiant heat reaches a wider area at a gentler intensity. The inverse-square rule and Bromic's minimum heights explain the balance to draw for."
 primary_keyword: heater mounting height
 secondary_keywords: [infrared heater mounting height, patio heater height]
 ai_prompt: "How does mounting height change heat intensity?"
-meta_description: "How mounting height changes outdoor infrared heater intensity and coverage, with Bromic's minimum wall and ceiling heights."
+meta_description: "How heater mounting height shapes the intensity and coverage of outdoor infrared heat, with Bromic's minimum wall and ceiling heights."
 cta: {label: "Download the Planning Guide (pro edition)", asset: A02}
 hero: l-004-012
 images: []
@@ -19,7 +19,7 @@ owner_review: Product team
 status: draft
 gated: false
 related: [ARC-CO-01, ARC-IN-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -44,21 +44,21 @@ sources:
     verified: false
 ---
 
-Raising a radiant heater widens its footprint and lowers the intensity people feel. For a source that is small relative to the distance, intensity falls with the square of distance: twice as far, a quarter of the heat[^s3]. Linear heaters fall off less steeply close in, so treat the rule as direction, not a design value.
+Mount a radiant heater higher and its warmth spreads across a wider area, while each guest feels it a little more gently. For a source that is small compared with the distance, intensity falls with the square of distance, so twice as far delivers about a quarter of the heat[^s3]. Linear heaters fall off less steeply close in, so read the rule as a sense of direction for planning, and take design values from each model's data.
 
 | Distance to the guest (relative) | 1.0× | 1.25× | 1.5× | 2.0× |
 |---|---|---|---|---|
 | Relative intensity, ideal point source | 100% | 64% | 44% | 25% |
 
-## What does this mean for the drawing?
+## Finding the right height on the drawing
 
-- **Respect the minimums.** Bromic guidance: wall mounts at least 72 in above floor, ceiling mounts at least 96 in, varying with output[^s1]. Confirm each model in its installation manual.
-- **High ceilings.** Above the useful height, add heaters or bring them down on suspension poles rather than relying on a larger unit.
-- **Measure to the people.** Use seated head height for dining and lounge zones, standing height for bars.
-- **Coverage figures assume typical mounting.** Bromic notes coverage varies with mounting height, environment and installation[^s2].
+- Start from Bromic's minimums: wall mounts at least 72 in above the floor and ceiling mounts at least 96 in, varying with output[^s1]. Confirm each model in its installation manual.
+- Where a ceiling rises above the useful height, add heaters or bring them down on suspension poles, so the warmth stays close to the table instead of relying on a single larger unit.
+- Measure to the people who will sit there: seated head height for dining and lounge zones, standing height for bars.
+- Published coverage figures assume typical mounting, and Bromic notes coverage varies with mounting height, environment and installation[^s2].
 
 [[VERIFY: recommended maximum mounting height and coverage-at-height table per model — Product team]]
 
-Use dimming to fine-tune what height cannot: an Affinity Smart-Heat Dimmer (or the Eclipse controller for Eclipse's 33/66/100% steps), a wall switch and the Smart-Heat app. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately[^s2].
+Dimming refines what height alone cannot, letting you set the warmth to the evening: an Affinity Smart-Heat Dimmer (or the Eclipse controller for Eclipse's 33/66/100% steps), a wall switch and the Smart-Heat app. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately[^s2].
 
 *Mounting heights and clearances are set by the installation manual and local code. Confirm with the authority having jurisdiction and a licensed electrician.*

@@ -1,13 +1,13 @@
 ---
 id: CSP-12
 type: case-study
-title: "Bistro Guillaume, Crown Melbourne, Melbourne (Southbank)"
+title: "Bistro Guillaume, Crown Melbourne: French dining beside the Yarra"
 slug: csp-12
 audience: ["COM"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "A French bistro at the Crown entertainment complex on the Yarra. A Melbourne awning and outdoor-heating firm's Bromic product page lists Bistro Guillaume at Crown as a project using the Bromic range. No detail on the heaters or the space; the venue may have"
+summary: "A Melbourne awning and outdoor-heating firm lists Bistro Guillaume, the French bistro at Crown on the Yarra, as a project using the Bromic range. The heaters, the space and the venue's current status are still to be confirmed."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-013-100
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: snippet-only
 completeness: partial
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Melbourne Awning Centre"
@@ -44,15 +44,15 @@ sources:
 | Installer | Melbourne Awning Centre (implied by their product page listing the project; not confirmed) |
 | Year | page is several years old (about 1,700 days per search index) |
 
-## What the sources say
+## The story so far
 
-A French bistro at the Crown entertainment complex on the Yarra. A Melbourne awning and outdoor-heating firm's Bromic product page lists Bistro Guillaume at Crown as a project using the Bromic range. No detail on the heaters or the space; the venue may have changed since. [^s1]
+Bistro Guillaume is a French bistro at the Crown entertainment complex on the Yarra. A Melbourne awning and outdoor-heating firm's Bromic product page lists Bistro Guillaume at Crown as a project using the Bromic range. The page gives no detail of the heaters or the space, and the venue may have changed since. [^s1]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-A well-known Melbourne fine-dining brand inside Crown; if it's still current it would be a strong Victorian hospitality reference. Needs confirmation with the installer and the venue (Bistro Guillaume's Crown status should be checked).
+Bistro Guillaume is a well-known Melbourne fine-dining brand inside Crown, and if it is still current it would be a strong Victorian hospitality reference. It needs confirming with the installer and the venue, including whether Bistro Guillaume is still at Crown.
 
 ## Photos
 

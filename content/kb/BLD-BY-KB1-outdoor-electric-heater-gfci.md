@@ -7,18 +7,18 @@ audience: [BLD]
 stage: [BY]
 cell: BLD-BY
 asset: A17
-summary: "What NEC 210.8(F) says about GFCI protection for dwelling outdoor outlets, how the 2026 edition changed it, and why a hard-wired heater is a question for the inspector."
+summary: "What NEC 210.8(F) says about GFCI protection for outdoor outlets at homes, how the 2026 edition changed it, and why a hard-wired heater is a conversation to have with your inspector."
 primary_keyword: outdoor heater gfci
 secondary_keywords: [patio heater installation, install electric patio heater]
 ai_prompt: "Do outdoor electric heaters need GFCI protection?"
-meta_description: "NEC 210.8(F) requires GFCI on dwelling outdoor outlets up to 150 V to ground. Whether a hard-wired patio heater counts is the inspector's call."
+meta_description: "Do outdoor electric heaters need GFCI? NEC 210.8(F) covers dwelling outdoor outlets up to 150 V to ground; a hard-wired heater is the inspector's call."
 cta: {label: "Get the install guide series", asset: A17}
 hero: l-010-066
 owner_review: Trade sales
 status: draft
 gated: false
 related: [BLD-BY-01, BLD-IN-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Eaton
@@ -50,32 +50,32 @@ sources:
     verified: true
 ---
 
-Often, yes. The NEC requires GFCI protection for outdoor outlets at dwellings on single-phase circuits of 150 V or less to ground, 50 A or less in the 2023 edition[^s1] and 60 A or less in the 2026 edition[^s2]. A residential 240 V heater circuit is 120 V to ground, so it is inside that range. Whether a hard-wired heater counts as an "outlet" is read differently by different inspectors, so get the local answer before rough-in.
+In most homes, plan on it. The NEC requires GFCI protection for outdoor outlets at dwellings on single-phase circuits of 150 V or less to ground, 50 A or less in the 2023 edition[^s1] and 60 A or less in the 2026 edition[^s2]. A residential 240 V heater circuit is 120 V to ground, so it sits inside that range. Inspectors read differently whether a hard-wired heater counts as an "outlet", so settle the local answer before rough-in.
 
 *Confirm with the local building authority, a licensed electrician and the product installation manual.*
 
-## What does the code cover?
+## What the code covers
 
 | Edition | Scope of 210.8(F) at dwellings | Patio heater circuit (240 V, 120 V to ground) |
 |---|---|---|
 | 2023 NEC | Outdoor outlets, single-phase, ≤150 V to ground, ≤50 A[^s1] | Within range up to a 50 A circuit |
 | 2026 NEC | Same, threshold raised to ≤60 A[^s2] | Within range up to a 60 A circuit |
 
-The 2026 edition was issued in August 2025, but each state or city adopts editions on its own timetable[^s3]. Check which edition applies on your permit.
+The 2026 edition was issued in August 2025, and each state or city adopts editions on its own timetable[^s3], so check which edition applies on your permit.
 
-## Why is a hard-wired heater a grey area?
+## Why a hard-wired heater is a grey area
 
-The rule speaks of "outlets". Some authorities read a hard-wired connection point as an outlet; others do not. Plan for GFCI unless the inspector tells you otherwise in writing. Then check the installation manual, which may set its own requirement [[VERIFY: Bromic installation-manual GFCI/RCD requirement — Product team]].
+The rule speaks of "outlets". Some authorities read a hard-wired connection point as an outlet and others do not, so the safest plan is to allow for GFCI unless the inspector tells you otherwise in writing. Then check the installation manual, which may set its own requirement [[VERIFY: Bromic installation-manual GFCI/RCD requirement — Product team]].
 
-## How is GFCI provided on a 240 V heater circuit?
+## How GFCI is provided on a 240 V heater circuit
 
-Usually with a two-pole GFCI breaker at the panel, sized as the circuit requires. Fit it before the Affinity Smart-Heat controller and wall switch[^s4], as the wiring diagram shows.
+Usually with a two-pole GFCI breaker at the panel, sized as the circuit requires. It sits ahead of the Affinity Smart-Heat controller and wall switch[^s4], as the wiring diagram shows.
 
-## What should the installer check at commissioning?
+## Signing off at commissioning
 
-- GFCI device fitted where required; trip-tested with its test button.
-- If a GFCI trips repeatedly, isolate and inspect connections and seals before resetting; do not swap in a non-GFCI breaker.
-- Edition and inspector's ruling noted on the job sheet.
+- Confirm the GFCI device is fitted where required and trip-test it with its test button.
+- If a GFCI trips repeatedly, isolate the circuit and inspect connections and seals before resetting, and keep the GFCI breaker in place.
+- Note the code edition and the inspector's ruling on the job sheet.
 
 [^s1]: Eaton, 2023 NEC 210.8(F) outdoor outlets.
 [^s2]: Minnesota DLI, 2026 NEC change summary.

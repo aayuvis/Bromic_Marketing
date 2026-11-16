@@ -1,13 +1,13 @@
 ---
 id: CSP-05
 type: case-study
-title: "Picknicka Restaurant, Tauranga"
+title: "Picknicka Restaurant, Tauranga: Eclipse pendants in New Zealand"
 slug: csp-05
 audience: ["COM"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "Tauranga restaurant listed as in-service history for the Eclipse Smart-Heat Electric Pendant on New Zealand's building-product library. No detail on the space, quantity or install date in what was seen."
+summary: "New Zealand's building-product library lists Picknicka in Tauranga as in-service history for the Eclipse Smart-Heat Electric Pendant. The space, the quantity and the install date are still to be discovered."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-013-099
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: bromic-listing
 completeness: partial
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "EBOSS (NZ building product library)"
@@ -43,15 +43,15 @@ sources:
 | Controls | [[VERIFY: controls and zones — Bromic AU [[VERIFY: AU regional lead]]]] |
 | Mounting | pendant |
 
-## What the sources say
+## The story so far
 
-Tauranga restaurant listed as in-service history for the Eclipse Smart-Heat Electric Pendant on New Zealand's building-product library. No detail on the space, quantity or install date in what was seen. [^s1]
+On New Zealand's building-product library, Picknicka, a restaurant in Tauranga, is listed as in-service history for the Eclipse Smart-Heat Electric Pendant. What we saw gives no detail of the space, the number of heaters or when they were installed. [^s1]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-The only named NZ hospitality install found, in a regional city outside Auckland. It would fill the NZ gap, but the venue's current status and the details need a call first.
+This is the only named New Zealand hospitality installation we found, and it sits in a regional city outside Auckland, where it would fill a real gap in our stories. A call first will confirm the venue's current status and the details.
 
 ## Photos
 

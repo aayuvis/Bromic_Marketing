@@ -1,13 +1,13 @@
 ---
 id: CSP-08
 type: case-study
-title: "Cruise Bar (Overseas Passenger Terminal), Sydney (Circular Quay)"
+title: "Cruise Bar, Circular Quay: a harbour bar on Sydney's waterfront"
 slug: csp-08
 audience: ["COM"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "Named on the same US dealer page as one of the Sydney venues with Bromic commercial heaters. No install detail."
+summary: "The same US dealer page names Cruise Bar at the Overseas Passenger Terminal among the Sydney venues with Bromic commercial heaters. The installation itself is still to be confirmed."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-013-107
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: page-read
 completeness: partial
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Radiant Patio Heater / Rasmussen Gas Logs & Grills (US dealer)"
@@ -42,15 +42,15 @@ sources:
 | Products | Bromic Heating commercial patio heaters [[VERIFY: model, wattage and quantity — Bromic AU [[VERIFY: AU regional lead]]]] |
 | Controls | [[VERIFY: controls and zones — Bromic AU [[VERIFY: AU regional lead]]]] |
 
-## What the sources say
+## The story so far
 
-Named on the same US dealer page as one of the Sydney venues with Bromic commercial heaters. No install detail. [^s1]
+Cruise Bar, at the Overseas Passenger Terminal on Circular Quay, is named on the same US dealer page as one of the Sydney venues with Bromic commercial heaters. The page gives no detail of the installation. [^s1]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-Waterfront bar on the Harbour, exposed to wind: a good gas and wind-resistance story if it is confirmed. A secondhand lead that needs verification.
+A waterfront bar on the Harbour, open to the wind, could tell a strong story about gas heat and wind resistance once the installation is confirmed. For now it is a secondhand lead that needs verifying.
 
 ## Photos
 

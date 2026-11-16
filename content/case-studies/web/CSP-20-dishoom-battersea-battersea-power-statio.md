@@ -1,13 +1,13 @@
 ---
 id: CSP-20
 type: case-study
-title: "Dishoom Battersea (Battersea Power Station), London"
+title: "Dishoom Battersea: Eclipse heat at Battersea Power Station"
 slug: csp-20
 audience: ["COM"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "Dishoom's 235-seat restaurant at Battersea Power Station, opened 2023. The same Bromic staff LinkedIn posts that name Sticks'n'Sushi say Bromic Eclipse heaters are installed here too."
+summary: "Dishoom's 235-seat restaurant at Battersea Power Station opened in 2023, and the same Bromic staff LinkedIn posts that name Sticks'n'Sushi say Bromic Eclipse heaters are installed here too."
 cta: {label: "Book a design consult", asset: A07}
 hero: w-au
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: bromic-listing
 completeness: partial
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "LinkedIn (Jody Santamaria, Bromic Heating)"
@@ -55,15 +55,15 @@ sources:
 | Controls | [[VERIFY: controls and zones — Bromic UK [[VERIFY: UK regional lead]]]] |
 | Builder or developer | Battersea Power Station development |
 
-## What the sources say
+## The story so far
 
-Dishoom's 235-seat restaurant at Battersea Power Station, opened 2023. The same Bromic staff LinkedIn posts that name Sticks'n'Sushi say Bromic Eclipse heaters are installed here too. [^s1][^s2][^s3]
+Dishoom opened its 235-seat restaurant at Battersea Power Station in 2023. The same Bromic staff LinkedIn posts that name Sticks'n'Sushi say Bromic Eclipse heaters are installed here too. [^s1][^s2][^s3]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-Dishoom is a nationally known UK brand; pairing it with Sticks'n'Sushi would make a 'Battersea Power Station' multi-venue story for the UK site.
+Dishoom is a nationally known UK brand, and together with Sticks'n'Sushi it would make a Battersea Power Station story across several venues for the UK site.
 
 ## Photos
 

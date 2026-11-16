@@ -1,13 +1,13 @@
 ---
 id: CSP-19
 type: case-study
-title: "Sticks'n'Sushi Battersea (6 Electric Boulevard, Battersea Power Station), London"
+title: "Sticks'n'Sushi Battersea: Eclipse heaters on Electric Boulevard"
 slug: csp-19
 audience: ["COM"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "A Japanese restaurant on the pedestrian Electric Boulevard at Battersea Power Station, opened late 2024. LinkedIn posts by Bromic Heating staff describing a London site visit with the UK business development contact say Bromic Eclipse heaters are installed at"
+summary: "On the pedestrian Electric Boulevard at Battersea Power Station, Sticks'n'Sushi opened in late 2024, and LinkedIn posts by Bromic Heating staff say Bromic Eclipse heaters are installed there."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-013-111
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: bromic-listing
 completeness: partial
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "LinkedIn (Jody Santamaria, Bromic Heating)"
@@ -55,15 +55,15 @@ sources:
 | Controls | [[VERIFY: controls and zones — Bromic UK [[VERIFY: UK regional lead]]]] |
 | Builder or developer | Battersea Power Station development |
 
-## What the sources say
+## The story so far
 
-A Japanese restaurant on the pedestrian Electric Boulevard at Battersea Power Station, opened late 2024. LinkedIn posts by Bromic Heating staff describing a London site visit with the UK business development contact say Bromic Eclipse heaters are installed at this restaurant. [^s1][^s2][^s3]
+Sticks'n'Sushi is a Japanese restaurant on the pedestrian Electric Boulevard at Battersea Power Station, opened in late 2024. LinkedIn posts by Bromic Heating staff, describing a London site visit with the UK business development contact, say Bromic Eclipse heaters are installed at the restaurant. [^s1][^s2][^s3]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-A high-profile London regeneration scheme with two well-known restaurant brands side by side; a UK Eclipse reference in a dense, design-led retail street. Venue and landlord consent needed.
+Battersea Power Station is a high-profile London regeneration scheme, and here two well-known restaurant brands sit side by side, giving a UK Eclipse reference on a dense, design-led retail street. Venue and landlord consent are needed.
 
 ## Photos
 

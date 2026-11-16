@@ -1,13 +1,13 @@
 ---
 id: CSP-17
 type: case-study
-title: "Private boathouse, Muskoka (Dana Smart Homes client project), Muskoka"
+title: "A private boathouse in Muskoka: Platinum heat on the home's own touchscreens"
 slug: csp-17
 audience: ["RES", "ARC", "BLD"]
 stage: [IN, PP]
 cell: RES-IN
 asset: A10
-summary: "An automation integrator wired several Platinum electric heaters at a Muskoka boathouse into the owner's Control4 system through 0-10V dimming modules. The heat runs from the same touchscreens, remotes and schedules as the lighting, audio and motorised shades."
+summary: "At a Muskoka boathouse, an automation integrator wired several Platinum electric heaters into the owner's Control4 system, so the warmth answers to the same touchscreens, remotes and schedules as the lighting, audio and shades."
 cta: {label: "Book a design consult", asset: A07}
 hero: w-06-hr-grosveldvandervelde-nl1-2021
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: page-read
 completeness: partial
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Dana Smart Homes"
@@ -46,15 +46,15 @@ sources:
 | Mounting | not stated |
 | Year | not stated (post dated July 2025) |
 
-## What the sources say
+## The story so far
 
-An automation integrator wired several Platinum electric heaters at a Muskoka boathouse into the owner's Control4 system through 0-10V dimming modules. The heat runs from the same touchscreens, remotes and schedules as the lighting, audio and motorised shades. [^s1]
+At this Muskoka boathouse, an automation integrator wired several Platinum electric heaters into the owner's Control4 system through 0-10V dimming modules. The heat now runs from the same touchscreens, remotes and schedules as the lighting, the audio and the motorised shades. [^s1]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-The owner is unnamed, so this is a lead only. It is the clearest third-party example of integrating Bromic with Control4 at 0-10V, which suits a smart-home and integrator piece (check the controls wording against the Affinity rule).
+The owner is unnamed, so this remains a lead only. It is the clearest third-party example we have of Bromic integrated with Control4 at 0-10V, which suits a smart-home and integrator story (check the controls wording against the Affinity rule).
 
 ## Photos
 

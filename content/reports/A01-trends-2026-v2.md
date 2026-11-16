@@ -1,17 +1,17 @@
 ---
 id: A01-v2
 type: report
-title: "Outdoor Living Trends 2026: ten shifts, and what to design for"
+title: "Outdoor Living Trends 2026: Ten Ways We Live Outdoors Now"
 slug: outdoor-living-trends-2026
 audience: [RES, ARC, BLD]
 stage: [AW, CO]
 cell: RES-AW
 asset: A01
-summary: "Ten shifts in how Americans live outdoors, each with one checked statistic, what it means for the space, and one design move to make."
+summary: "Ten ways Americans are bringing more of life outdoors, each told through one checked statistic, what it means for the space and one thoughtful design move to make it last all year."
 primary_keyword: outdoor living trends 2026
 secondary_keywords: [outdoor living statistics 2026, year round patio, outdoor heating trends]
 ai_prompt: "What are the outdoor living trends for 2026?"
-meta_description: "Ten outdoor living trends for 2026, each with one sourced statistic and one design move for architects, builders and homeowners."
+meta_description: "Ten outdoor living trends for 2026, each with a sourced statistic and a design move that helps architects, builders and homeowners plan for year-round use."
 cta: {label: "Size your space", asset: A03}
 hero: t-001-000
 images: [t-003-005, l-013-108, t-005-013, t-006-016, t-007-019, t-008-022, t-009-025, t-010-028, t-011-031, t-012-034, t-013-037]
@@ -19,7 +19,7 @@ owner_review: Marketing
 status: draft
 gated: true
 related: [A01-stats, A01-corrections, RES-AW-01, ARC-AW-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: American Institute of Architects
@@ -81,153 +81,153 @@ sources:
 
 <!-- Report copy for 454 Creative. Each "##" below is one page. Copy is final wording except [[VERIFY]] items. -->
 
-## Outdoor living trends 2026
+## Outdoor Living Trends 2026
 
-For architects, builders and homeowners.
+For the architects, builders and homeowners shaping how we live outdoors.
 
-## The shift
+## A Room For Every Season
 
-The patio is now a room for all year. Cold after dark empties it, and heating is planned last.
+The patio has become a room people want to use all year. Yet when the evening cools, it empties, because heating is so often the last thing planned.
 
-## 01 Outdoor living is the heart of the home
+## 01 Outdoor Living Is The Heart Of The Home
 
 **55%** net share of architects see outdoor living spaces rising in popularity.[^s1]\
 *AIA, Home Design Trends Survey, Q2 2025*
 
-- Families gather and dine outside.
-- Covered patios are planned as rooms.
-- Comfort decides use.
+- Families now gather, dine and unwind outside.
+- Covered patios are planned with the care of any room.
+- Comfort is what keeps everyone there.
 
-**Bromic insight** Radiant heat makes the patio part of the house after sunset.
+**Bromic insight** Radiant warmth makes the patio part of the house long after sunset.
 
-**Design move** Draw the patio as a room, with heat and power.
+**Design move** Draw the patio as a room from the first sketch, with heat and power in place.
 
-## 02 Outdoor space is used morning to night
+## 02 From The First Coffee To The Last Conversation
 
 **67%** say heating would do most to extend their outdoor time.[^s2]\
 *Atomik Research for Bromic Heating, 2025* [[VERIFY: survey date, base n and question wording against the Atomik topline — Marketing]]
 
-- Coffee at dawn, dinner at dusk.
-- Cold cuts both short.
-- Those are the hours people want most.
+- Coffee at dawn and dinner at dusk are the moments people treasure.
+- A cool morning or evening can cut either short.
+- Those are the very hours people want most.
 
-**Bromic insight** Radiant heat adds comfortable hours. Extend the moment.
+**Bromic insight** Radiant heat adds comfortable hours at both ends of the day, so you can extend the moment.
 
-**Design move** Zone heat by time of day.
+**Design move** Zone the heat around how the space is used through the day.
 
-## 03 Patios are core infrastructure
+## 03 The Patio Is Now Part Of The Plan
 
 **60.5%** of new single-family homes started in 2025 came with a patio.[^s4]\
 *NAHB, from Census Survey of Construction, 2025*
 
-- Patios are built in, not added on.
-- Services are planned in.
-- A daily-use patio earns its place.
+- Patios are built in from the outset.
+- Services are planned alongside them.
+- A patio used every day earns its place in the home.
 
-**Bromic insight** Heating turns an occasional patio into an everyday room.
+**Bromic insight** Heating turns an occasional patio into a room you live in every day.
 
 **Design move** Rough in heater circuits or gas at framing.
 
-## 04 Renovation spending holds steady
+## 04 Homeowners Keep Investing In Home
 
 **$525B** projected yearly US homeowner spending on improvements and repairs, through Q3 2027.[^s5]\
 *Harvard Joint Center for Housing Studies, LIRA, Oct 2026*
 
-- Owners improve rather than move.
-- Upgrades center on outdoor living.
+- Many owners are choosing to improve the home they love.
+- Outdoor living sits at the center of their upgrades.
 - Many recover most of their cost at resale.
 
-**Bromic insight** A small addition that changes how often a space is used.
+**Bromic insight** A modest addition can change how often a space is enjoyed.
 
-**Design move** Budget heating with the pergola and lighting.
+**Design move** Budget heating together with the pergola and lighting.
 
-## 05 Indoor and outdoor are one space
+## 05 Indoors And Outdoors Become One
 
 **40%** net share of architects see blended indoor-outdoor spaces rising in popularity.[^s1]\
 *AIA, Home Design Trends Survey, Q2 2025*
 
-- Glass walls retract.
-- Floors and ceilings run straight through.
-- The terrace belongs to the living plan.
+- Glass walls slide away to open the room.
+- Floors and ceilings run seamlessly from inside to out.
+- The terrace becomes part of the living plan.
 
-**Bromic insight** Radiant heat warms people, not air, so it works with the walls open.
+**Bromic insight** Radiant heat warms people and surfaces rather than the air, so it keeps working with the walls open.
 
-**Design move** Carry the ceiling outside; recess the heaters.
+**Design move** Carry the ceiling outside and recess the heaters within it.
 
-## 06 Pergolas define outdoor rooms
+## 06 Pergolas Shape The Outdoor Room
 
 **33%** of homeowners upgrading outdoors do it to extend their living space.[^s6]\
 *Houzz, U.S. Outdoor Trends Study, 2024*
 
-- Pergolas mark out zones.
-- They are designed in.
-- They carry light, sound and heat.
+- Pergolas mark out places to dine, lounge and gather.
+- They are designed into the home from the start.
+- They carry light, sound and heat with ease.
 
-**Bromic insight** Pergolas make ideal mounts for integrated radiant heat.
+**Bromic insight** A pergola makes an ideal mount for integrated radiant heat.
 
-**Design move** Wire pergolas for heaters, Affinity controls and wall switch.
+**Design move** Wire each pergola for its heaters, Affinity controls and wall switch.
 
-## 07 Smart outdoor living is becoming standard
+## 07 Smart Outdoor Living Becomes Second Nature
 
 **5** smart-home platforms work with Affinity Smart-Heat Controls.[^s8]\
 *Bromic Lookbook 2026; compatibility varies*
 
-- One platform for light, heat and sound.
-- App control is expected.
-- Rooms respond to the hour.
+- Light, heat and sound now live on one platform.
+- Homeowners expect to set the mood from an app.
+- The space responds gracefully to the hour.
 
-**Bromic insight** Affinity controls link heaters to the Smart-Heat app and voice assistants. Wi-Fi and app features need compatible Affinity controls, sold separately.
+**Bromic insight** Affinity controls link your heaters to the Smart-Heat app and voice assistants. Wi-Fi and app features need compatible Affinity controls, sold separately.
 
 **Design move** Specify each heater with its controller, wall switch and app.
 
-## 08 Design-led products replace utility products
+## 08 Design Leads The Way
 
 **9.9** out of 10: homeowners' Joy Score for a new patio.[^s7]\
 *NAR and NALP, Remodeling Impact Report, 2023*
 
-- Looks matter as much as function.
-- Flush fittings replace visible hardware.
-- Space reads as one with the house.
+- How a space looks matters as much as how it works.
+- Flush fittings take the place of visible hardware.
+- The outdoor room reads as one with the house.
 
-**Bromic insight** Recessed heaters vanish. Heat you can feel, not see.
+**Bromic insight** Recessed heaters disappear into the architecture. Heat You Can Feel, Not See.
 
-**Design move** Detail recess kits, controller and wall switch early.
+**Design move** Detail recess kits, controller and wall switch early in the drawings.
 
-## 09 Small spaces, full use
+## 09 Small Spaces, Beautifully Used
 
 **121 ft²** approx. heated by one Eclipse Smart-Heat Freestanding heater.[^s8]\
 *Bromic Lookbook 2026*
 
-- Smaller lots need zoning.
-- One footprint, several uses.
-- No clutter.
+- Smaller lots reward thoughtful zoning.
+- A single footprint can serve many moments.
+- Every element earns its place, keeping the space uncluttered.
 
-**Bromic insight** Radiant heat targets people, not air, so it suits compact spaces.
+**Bromic insight** Radiant heat is directed to the people in the space, which makes it a natural fit for compact terraces and courtyards.
 
-**Design move** Heat each zone, on its Eclipse controller and the app.
+**Design move** Heat each zone on its own Eclipse controller and the app.
 
-## 10 Heating moves from add-on to built-in
+## 10 Heating Joins The Plan From Day One
 
 **23%** of homeowners rank outdoor heating a top planning priority.[^s3]\
 *Atomik Research for Bromic Heating, 2025* [[VERIFY: survey date, base n and question wording against the Atomik topline — Marketing]]
 
-- Grills went built-in. Heating is next.
-- It is specified with lighting.
-- Built-in heat means reliable use.
+- Grills became built-in features, and heating is following.
+- It is specified together with the lighting.
+- Built-in heat means warmth you can rely on every evening.
 
-**Bromic insight** Design-led heat is integrated from the beginning.
+**Bromic insight** Design-led heat is integrated from the very beginning.
 
 **Design move** Put heaters, circuits and controls on the first drawings.
 
-## Plan from the start
+## Plan From The Start
 
-Year-round use begins at the architectural stage. Added later, power, mounting and controls become constraints.
+Year-round outdoor living begins at the architectural stage. When heating arrives later, power, mounting and controls become constraints to work around.
 
-Every Bromic heater needs an Affinity On/Off, Dimmer or Eclipse controller, a wall switch and the Smart-Heat app. Wi-Fi and app features need compatible Affinity controls, sold separately.
+Every Bromic heater is paired with an Affinity On/Off, Dimmer or Eclipse controller, a wall switch and the Smart-Heat app. Wi-Fi and app features need compatible Affinity controls, sold separately.
 
-**Designed from the start, not added later.**
+**Designed In From The Very First Drawing.**
 
-## Sources and method
+## Sources And Method
 
 | Stat | Source |
 |---|---|
@@ -245,7 +245,7 @@ AIA figures are net (rising minus falling). Bromic commissioned the Atomik homeo
 
 ## Editor's note
 
-- **Length.** Original report text: 1,631 words (`sources/Bromic_Outdoor_Living_Trends_2026.txt`). This version, cover to sources page: 796 words, a 51% cut. Report copy alone, cover to "Plan from the start": 727 words, a 55% cut. Both counted the same way: dashes split words; this note, the layout notes, `[[VERIFY]]` placeholders, footnote markers and Markdown syntax are excluded.
+- **Length.** Original report text: 1,631 words (`sources/Bromic_Outdoor_Living_Trends_2026.txt`). This version, cover to sources page: 978 words, a 40% cut. Report copy alone, cover to "Plan from the start": 909 words, a 44% cut (recounted after the 16 Nov 2026 voice rewrite). Both counted the same way: dashes split words; this note, the layout notes, `[[VERIFY]]` placeholders, footnote markers and Markdown syntax are excluded.
 - **Stats cut.** 94% "could be used more" (Bromic's own releases say 94% and 92%; held until Marketing picks one). 39% infrared heaters (not found in any AIA release). $522B (not in any Harvard release; replaced by $525B). The 1970s/2000s/2010s appliance dates (unsourced). The 320 sq ft patio size and 95% cost recovery (verified, but one stat per trend). 43% "do not think about heating" (unverified, not needed).
 - **Stats changed.** 61.8% (2024) updated to 60.5% (2025 starts), per the corrections file's recommendation; switch back if Marketing decides otherwise. 55% and 40% now say "net share" and give the year. 33% now has the right study, base and year. "Satisfaction score" is now NAR's Joy Score.
 - **Stats moved so each trend carries one.** 67% from trend 01 to 02, 23% from 02 to 10, 9.9 from 03 to 08. Trends 07 and 09 had none in the original; each now carries a Bromic product fact from the Lookbook, not a market statistic.
@@ -257,7 +257,7 @@ AIA figures are net (rising minus falling). Bromic commissioned the Atomik homeo
 - **Format.** US letter, 24 pages, saddle-stitch (a multiple of four).
 - **Page plan.**
   - p.1 Cover: "Outdoor living trends 2026", hero `t-001-000`.
-  - p.2 The shift. No statistics on this page.
+  - p.2 A Room For Every Season (the opening page). No statistics on this page.
   - pp.3–22 Ten spreads, one trend per spread: full-bleed image on the left page, trend copy on the right.
   - p.23 Plan from the start, image `t-013-037`.
   - p.24 Sources and method (back cover).

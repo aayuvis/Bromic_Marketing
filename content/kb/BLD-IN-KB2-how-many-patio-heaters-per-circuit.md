@@ -7,18 +7,18 @@ audience: [BLD]
 stage: [IN]
 cell: BLD-IN
 asset: A16
-summary: "How many 2300, 3400 or 4500 W electric heaters fit on a 15, 20 or 30 A 240 V circuit, using the 125% continuous-load rule, and why one per circuit is usually better."
+summary: "How many 2300, 3400 or 4500 W electric heaters fit on a 15, 20 or 30 A 240 V circuit under the 125% continuous-load rule, and why giving each heater its own circuit usually serves a project best."
 primary_keyword: patio heaters per circuit
 secondary_keywords: [patio heater wiring, outdoor heater rough in]
 ai_prompt: "How many heaters per circuit?"
-meta_description: "At 240 V, a 20 A circuit carries one 2300 W or one 3400 W heater; a 30 A circuit, one 4500 W or two 2300 W. One per circuit is simplest."
+meta_description: "How many patio heaters per circuit at 240 V: a 20 A circuit carries one 2300 W or 3400 W heater; a 30 A circuit, one 4500 W or two 2300 W."
 cta: {label: "Download the pre-wire guide", asset: A16}
 hero: l-010-070
 owner_review: Trade sales
 status: draft
 gated: false
 related: [BLD-IN-01, BLD-IN-KB1, BLD-PP-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -43,11 +43,11 @@ sources:
     verified: false
 ---
 
-On a 240 V circuit, a heater load can use up to 80% of the breaker rating, because a continuous load is sized at 125%[^s2]. That means a 20 A circuit carries one 2300 W or one 3400 W heater, and a 30 A circuit carries one 4500 W heater or two 2300 W heaters. For most builds, one heater per circuit is the better answer.
+On a 240 V circuit, a heater load can use up to 80% of the breaker rating, because a continuous load is sized at 125%[^s2]. A 20 A circuit therefore carries one 2300 W or one 3400 W heater, and a 30 A circuit carries one 4500 W heater or two 2300 W heaters. For most builds, giving each heater its own circuit is the cleaner choice, and the one that keeps every zone easy to control.
 
 *Planning guidance only. Confirm with a licensed electrician, the installation manual and the local building authority.*
 
-## What fits on each circuit at 240 V?
+## What fits on each circuit at 240 V
 
 Usable load = breaker × 0.8 × 240 V.
 
@@ -61,18 +61,18 @@ At 208 V the usable wattage falls by about 13%: a 30 A circuit gives about 4,990
 
 ## Is there a cap on shared heater circuits?
 
-Possibly. Practitioners read NEC 424.4(A) as limiting a branch circuit that feeds two or more fixed heating outlets to 30 A [[VERIFY: confirm 424.4(A) text in the adopted NEC edition and whether outdoor radiant heaters fall under Article 424 or 422 — licensed electrician / Product team]][^s3]. Do not plan a 40 A shared circuit without checking.
+There may be. Practitioners read NEC 424.4(A) as limiting a branch circuit that feeds two or more fixed heating outlets to 30 A [[VERIFY: confirm 424.4(A) text in the adopted NEC edition and whether outdoor radiant heaters fall under Article 424 or 422 — licensed electrician / Product team]][^s3], so check before planning a 40 A shared circuit.
 
-## Why is one heater per circuit usually better?
+## Why one heater per circuit usually serves you best
 
-- **Zoning.** Each heater, or each zone, gets its own Affinity Smart-Heat On/Off or Dimmer controller and wall switch.
-- **Fault-finding.** A trip affects one heater, not the whole patio.
-- **Controller load.** Each controller has a maximum load [[VERIFY: Affinity controller load rating — Product team]].
-- **Upgrades.** A buyer stepping from one tier to the next adds a heater without re-wiring a shared run.
+- Each heater, or each zone, gets its own Affinity Smart-Heat On/Off or Dimmer controller and wall switch, so every part of the space can be warmed on its own.
+- A trip affects one heater, and the rest of the patio stays warm while the fault is found.
+- Each controller has a maximum load [[VERIFY: Affinity controller load rating — Product team]], which separate circuits keep simple to respect.
+- A buyer stepping from one tier to the next can add a heater without re-wiring a shared run.
 
 App, schedule and voice control need compatible Affinity Smart-Heat Controls, sold separately[^s1].
 
-## Checklist
+## Before you rough in
 
 - Add every heater's watts on the circuit; divide by volts; × 1.25.
 - Stay within 80% of the breaker and within each nameplate maximum.

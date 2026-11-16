@@ -1,24 +1,24 @@
 ---
 id: A03
 type: tool
-title: "How many heaters does your space need? Sizing calculator"
+title: "How Many Patio Heaters Do I Need? Plan Your Space With Our Sizing Calculator"
 slug: outdoor-heater-sizing-calculator
 audience: [RES]
 stage: [CO]
 cell: RES-CO
 asset: A03
-summary: "Shape, size, cover, climate and a tapped heater picture in; a to-scale plan, a heater count, the model that fits and the controls that run it out. The full report sits behind the lead form."
+summary: "Sketch your outdoor space, tell us how covered it is and how cool your evenings get, and see it drawn to scale with the warmth of each heater, the model that suits it and the controls that run it. The full report follows when you share your details."
 primary_keyword: how many patio heaters do i need
 secondary_keywords: [patio heater calculator, outdoor heater sizing]
 ai_prompt: "How many outdoor heaters do I need for my patio?"
-meta_description: "Enter your patio's size, cover and climate. See how many Bromic heaters it needs, which models fit and the controls that run them."
+meta_description: "How many patio heaters do I need? Enter your space, cover and climate to see the Bromic heaters that fit, drawn to scale, with the controls that run them."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-010-067
 owner_review: Digital marketing + 454 Creative
 status: draft
 gated: true
 related: [RES-PP-01, COM-IN-KB1, RES-CO-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -36,24 +36,38 @@ sources:
     verified: true
 ---
 
-**What it does.** A homeowner picks the shape of the space (rectangle, L, U or courtyard, long and narrow, round), sets its size,
-how covered it is and how cold their evenings get, then taps a heater picture (or "Help me choose"). Each heater card shows its own
-live count. The page answers with a to-scale plan of the space showing each heater's reach as a glow, a heater count, the model that fits best and the controls that
-run it: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app
-features need compatible Affinity controls, sold separately.
+## See Your Evenings Take Shape
 
-**Inputs.** Shape · its sides or diameter (ft) · heater family (picture cards) · enclosure: open, partially covered, covered · climate: mild, cool, cold · fuel: electric, gas,
+Picture the table where everyone lingers after dinner, then tell us about the space around it. You choose its shape – rectangle,
+L, U or courtyard, long and narrow, or round – set its size, how covered it is and how cold your evenings get, then tap the heater
+picture that speaks to you (or choose "Help me choose"). Each heater card keeps its own live count as you go.
+
+In return you see your space drawn to scale, with each heater's reach shown as a soft glow, along with the heater count, the model
+that fits best and the controls that run it: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the
+Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity controls, sold separately.
+
+## What You Tell Us
+
+Shape · its sides or diameter (ft) · heater family (picture cards) · enclosure: open, partially covered, covered · climate: mild, cool, cold · fuel: electric, gas,
 either · style: built-in, freestanding, either · mount height (ft) · zones.
 
-**Outputs.** On screen: the count, the lead model, its controls bundle. Behind the form: every model that fits, the controls for
-each, the electrical load and the assumptions.
+## What You Discover
 
-**Assumptions.** Coverage comes from the Lookbook 2026[^s1]. The enclosure, climate and height factors are Bromic's 2021 guidance
-turned into numbers[^s2] and wait for Product team's sign-off. A space with less than 30% of its perimeter open goes to the design
-team. Tungsten Coastal and Tungsten Select are coming soon and show a range, never a single count. Every value, its source and owner: `tools/A03-sizing/README.md`.
+On screen you see the count, the lead model and its controls bundle. When you share your details, the full report adds every model
+that fits, the controls for each, the electrical load and the assumptions behind the plan.
 
-**Where the lead goes.** The HubSpot form (`forms/hubspot-form-spec.md`) with `asset_id=A03`, `matrix_cell=RES-CO`, the UTM fields
-and the calculator inputs as `tool_inputs`. A calculator completion scores +15. The next step offered is a design consult (A07).
+## The Thinking Behind The Numbers
 
-This is a first estimate, not a design. Confirm every installation with your local building authority and a licensed electrician
-or gas fitter.
+Coverage comes from the Lookbook 2026[^s1]. The enclosure, climate and height factors are Bromic's 2021 guidance turned into
+numbers[^s2], and they wait for the Product team's sign-off. A space with less than 30% of its perimeter open goes to our design
+team, who plan it with you. Tungsten Coastal and Tungsten Select are coming soon and show a range, never a single count. Every
+value, its source and owner sits in `tools/A03-sizing/README.md`.
+
+## Where Your Enquiry Goes
+
+Completed plans arrive through the HubSpot form (`forms/hubspot-form-spec.md`) with `asset_id=A03`, `matrix_cell=RES-CO`, the UTM
+fields and the calculator inputs as `tool_inputs`. A calculator completion scores +15, and the next step we offer is a design
+consult (A07).
+
+This plan is a first estimate, and a design consult turns it into a design. Confirm every installation with your local building
+authority and a licensed electrician or gas fitter.

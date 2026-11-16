@@ -1,17 +1,17 @@
 ---
 id: A25
 type: sales-kit
-title: "How electrical contractors win more outdoor heating work"
+title: "Electrical Contractor Patio Heater Installation: Growing Your Outdoor Heating Work"
 slug: electrical-contractor-outdoor-heating-guide
 audience: [BLD]
 stage: [CO, IN]
 cell: BLD-CO
 asset: A25
-summary: "A guide for electrical contractors who install outdoor heat: get the code right, connect Bromic heaters and controls to any system, build for the weather, and stand out on every quote, with the Bromic Partner Program behind you."
+summary: "For the electrical contractors who bring warmth to outdoor rooms: getting the code right, connecting Bromic heaters and controls to the systems your clients already have, building for the weather and standing out on every quote, with the Bromic Partner Program beside you."
 primary_keyword: electrical contractor patio heater installation
 secondary_keywords: [outdoor heater electrician, patio heater wiring contractor, outdoor heating installer program, Bromic partner program]
 ai_prompt: "How can an electrical contractor grow an outdoor heating business?"
-meta_description: "For electrical contractors: code, controls, voltages and weather ratings for Bromic outdoor heaters, and how the Bromic Partner Program supports your projects."
+meta_description: "Electrical contractor patio heater installation: code, controls, voltages and weather ratings for Bromic heaters, and how the Bromic Partner Program supports you."
 cta: {label: "Join the Bromic Partner Program", asset: A15}
 hero: d-tungsten-suspended-restaurant
 images: [d-installers-recessing, d-tungsten-louvre-detail, d-recessed-pavilion, d-tungsten-pole-rooftop-bar, d-eclipse-freestanding-lake, d-eclipse-pendant-dining, d-tungsten-gas-pool, t-009-025]
@@ -20,7 +20,7 @@ technical_reviewer: Product team
 status: draft
 gated: true
 related: [A16, BLD-IN-01, BLD-PP-01, A15]
-updated: 2026-11-12
+updated: 2026-11-16
 based_on: "Patio Heat and Shade, 'How heating system contractors can enhance efficiency and profitability' (dealer brochure supplied by the owner, 12 Nov 2026). Structure followed; every line rewritten for Bromic; no text reproduced."
 sources:
   - id: s1
@@ -102,50 +102,56 @@ sources:
     verified: true
 ---
 
-# How electrical contractors win more outdoor heating work
+# Growing Your Outdoor Heating Work
 
-Outdoor rooms have become part of the house, and the people who live in them want to stay out after dark. Heat is what lets them. The contractor who can design the circuit, connect the controls and hand over a system that works first time becomes the person every builder, designer and homeowner calls back.
+Outdoor rooms have become part of the home, and the people who live in them want to stay out long after dark. Radiant warmth is what makes those evenings possible. The contractor who can design the circuit, connect the controls and hand over a system that works beautifully the first time becomes the one every builder, designer and homeowner calls again.
 
-![Black Tungsten heater on suspension poles over a restaurant dining room that opens to the outdoors](img:d-tungsten-suspended-restaurant)
+![A black Tungsten heater on suspension poles above a restaurant dining room that opens to the outdoors](img:d-tungsten-suspended-restaurant)
 
-## The work is already on the plan
+## The Work Is Already On The Plan
 
-The patio is standard. 60.5% of single-family homes started in 2025 came with one.[^s1] Buyers want it: 86% rate a patio essential or desirable.[^s2] Heat is the gap: only 23% of homeowners prioritise outdoor heating when they plan the space.[^s3] That gap is your opening. Raise heat at the first site walk, price the pre-wire with the patio, and the job is yours before anyone else is asked.
+Most new homes now come with a patio, and 60.5% of single-family homes started in 2025 came with one.[^s1] Buyers want it too, with 86% rating a patio essential or desirable.[^s2] Far fewer homes come with the warmth to enjoy it once the sun goes down, because only 23% of homeowners prioritise outdoor heating when they plan the space.[^s3] That is your opening. Raise heat at the first site walk, price the pre-wire with the patio, and the job is yours before anyone else is asked.
 
-Your part of the job is clear: design the electrical system that powers the space, install it safely, and make sure it runs efficiently for years. Bromic's part is to make that easy: the right heater for the space, the controls to run it, and people who answer the phone when you have a question on site.
+You design the electrical system that powers the space, install it safely and make sure it runs efficiently for years. We make that easier, with the right heater for the space, the controls to run it and people who answer the phone when you have a question on site.
 
 ![Two installers fitting a recessed heater into a timber-lined ceiling](img:d-installers-recessing)
 
-## 1. Get the code right first
+## 1. Getting The Code Right From The Start
 
-Every outdoor heating job starts and ends with the code. Bromic electric heaters are installed to ANSI/NFPA 70, the National Electrical Code, as your state and city adopt it.[^s4][^s11] A job that misses it costs you twice: in red tags, stop-work orders and repeat visits, and in the referral you do not get.
+Every outdoor heating job begins and ends with the code. Bromic electric heaters are installed to ANSI/NFPA 70, the National Electrical Code, as your state and city adopt it.[^s4][^s11] A job that misses it costs you twice, first in red tags, stop-work orders and repeat visits, and then in the referral that never comes.
 
-**What we see go wrong on outdoor jobs**
+**Getting It Right The First Time**
 
-- Heaters fed from a shared circuit instead of their own, so the breaker trips the first cold night.
-- Cable runs left unprotected where a patio will be used hard.
+These are the details we most often see trip up an outdoor job:
+
+- Heaters fed from a shared circuit rather than their own, so the breaker trips on the first cold night.
+- Cable runs left unprotected where a patio will see heavy use.
 - Heaters mounted below the minimum height. Bromic's guidance is at least 72 in above the floor for a wall mount and at least 96 in for a ceiling mount; it varies with output, so take the figure from the installation manual for the model.[^s4]
-- Supply voltage not checked against the heater. A 240 V heater on a 208 V supply gives less heat than the client was promised.
-- Controls left to the end, with no box or cable run planned for them.
+- Supply voltage left unchecked against the heater. A 240 V heater on a 208 V supply gives less heat than the client was promised.
+- Controls left until the end, with no box or cable run planned for them.
 
-**How Bromic helps you get it right**
+**How We Help You Get It Right**
 
-- **A free heating design plan** for every project: heater selection and positions on the client's plan, coverage, and a parts and controls list you can price from.[^s7][^s10]
+- **A free heating design plan** for every project, with heater selection and positions on the client's plan, coverage, and a parts and controls list you can price from.[^s7][^s10]
 - **Installation manuals and CAD and Revit/BIM files** for every heater, from the technical resources page.[^s10]
-- **Technical support** from people who know the products: 1-800-301-1293, Monday to Friday, 9 am to 4 pm Pacific.[^s7]
-- **The pre-wire guide** ([asset:A16](asset:A16)): circuits, boxes, blocking, recess openings and control runs for every heater type, with a hand-off sheet.
+- **Technical support** from people who know the products, on 1-800-301-1293, Monday to Friday, 9 am to 4 pm Pacific.[^s7]
+- **The pre-wire guide** ([asset:A16](asset:A16)), covering circuits, boxes, blocking, recess openings and control runs for every heater type, with a hand-off sheet.
 
 Codes vary by location. Confirm every installation with the local building authority and the authority having jurisdiction; electrical work must be carried out by a licensed electrician. The primary source is NFPA 70 as adopted locally.[^s11]
 
-![Black Tungsten heater glowing under a louvred pergola roof](img:d-tungsten-louvre-detail)
+![A black Tungsten heater glowing beneath a louvred pergola roof](img:d-tungsten-louvre-detail)
 
-## 2. Connect to any system
+## 2. Connecting To The Systems Your Clients Already Have
 
-The hardest part of most outdoor jobs is not the heater. It is fitting new equipment into the electrical system and the smart home the client already has. Bromic heaters and Affinity Smart-Heat Controls are built to make that part simple.
+On most outdoor jobs, the real craft lies in fitting new equipment seamlessly into the electrical system and the smart home the client already has. Bromic heaters and Affinity Smart-Heat Controls are engineered to make that part straightforward.
 
-**Voltage.** Tungsten Electric runs on 220–240 V and 208 V, and the 4000 W and 6000 W models also on 277 V, the commercial supply many restaurants and hotels have.[^s5] Commercial projects can choose 208 V, 240 V or 277 V supply.[^s7] Match the heater to the supply at the design stage, not on the day of install.
+**Engineered For The Supply You Have**
 
-**Controls are part of every heater.** A Bromic heater is a complete system only with its controls. Every recommendation in this guide includes them.
+Tungsten Smart-Heat® Electric is engineered for the supply you already have. It runs on 220–240 V and 208 V, and the 4000 W and 6000 W models also run on 277 V, the commercial supply many restaurants and hotels have.[^s5] Commercial projects can choose 208 V, 240 V or 277 V supply.[^s7] Match the heater to the supply at the design stage, well before the day of install.
+
+**Recommended Controls & Accessories**
+
+Every Bromic heater is paired with Affinity Smart-Heat® Controls, so the warmth is always exactly where, and when, your client wants it. A Bromic heater becomes a complete system with its controls, and every recommendation in this guide includes them.
 
 | Control | What it does | What to plan for |
 |---|---|---|
@@ -164,7 +170,7 @@ The 4000 W and 6000 W Tungsten heaters have two elements that can be controlled 
 
 ![Heaters recessed in the roof of an open timber pavilion above a long dining table](img:d-recessed-pavilion)
 
-**Your checklist before rough-in**
+**Your Checklist Before Rough-In**
 
 - [ ] Supply voltage confirmed for every heater (208, 240 or 277 V).
 - [ ] One dedicated circuit per heater or per controller channel, sized from the installation manual and the code.
@@ -173,18 +179,20 @@ The 4000 W and 6000 W Tungsten heaters have two elements that can be controlled 
 - [ ] Recess framing or suspension pole fixing agreed with the builder.[^s4]
 - [ ] Integration with the home or building system confirmed with the integrator.
 
-## 3. Build for the weather
+## 3. Built For The Weather, Season After Season
 
-Outdoor equipment lives in rain, salt air, wind and the swing between summer and winter. A heater that fails in its second season costs you a callback and a client.
+Outdoor equipment lives with rain, salt air, wind and the long swing from summer to winter. A heater that fails in its second season costs you a callback and a client, so we build ours to last.
 
 - **Tungsten Electric** is rated IPX4 against splashing water.[^s5]
-- **Platinum Smart-Heat Electric Marine** is built in AISI 316 marine-grade stainless steel, rated IPX5, and carries Lloyd's Register approval for marine use: the heater to specify within reach of the coast.[^s8]
+- **Platinum Smart-Heat Electric Marine** is built in AISI 316 marine-grade stainless steel, rated IPX5, and carries Lloyd's Register approval for marine use, which makes it the heater to specify within reach of the coast.[^s8]
 - **Tungsten Coastal** and **Tungsten Select** are coming soon. Ask your Bromic contact before you specify them.
 - **The Affinity On/Off controller** has an IP54 enclosure.[^s6]
 
-![Pole-mounted Tungsten heaters over high bar tables on a rooftop at night](img:d-tungsten-pole-rooftop-bar)
+![Pole-mounted Tungsten heaters above high bar tables on a rooftop at night](img:d-tungsten-pole-rooftop-bar)
 
-**Warranty you can quote.** Bromic publishes its warranty by product line:[^s9]
+**A Warranty You Can Quote With Confidence**
+
+Bromic publishes its warranty by product line:[^s9]
 
 | Product | Warranty |
 |---|---|
@@ -196,40 +204,55 @@ Outdoor equipment lives in rain, salt air, wind and the swing between summer and
 
 [[VERIFY: warranty periods, the Platinum Marine land and vessel terms, and which products qualify for the Partner Program's extra year — Product team]]
 
-Partners receive an additional year of warranty coverage on qualifying products (see the Partner Program below).[^s10] One manufacturer, one warranty process and one support line, rather than a different vendor for every part of the job.
+Partners receive an additional year of warranty coverage on qualifying products (see the Partner Program below).[^s10] Your clients deal with one manufacturer, one warranty process and one support line for the whole job.
 
-![Eclipse freestanding heater arcing over a sofa on a lakeside terrace](img:d-eclipse-freestanding-lake)
+![An Eclipse freestanding heater arcing over a sofa on a lakeside terrace](img:d-eclipse-freestanding-lake)
 
-## 4. Stand out from the next contractor
+## 4. Making Your Quote The One They Remember
 
-Clients compare quotes, and most quotes look alike: a heater, a price, a date. Make yours the one they remember.
+Clients compare quotes, and most of them look alike, with a heater, a price and a date. With a little more care, yours can be the one that stays in their mind.
 
-- **Send a heating plan with the quote.** A Bromic design plan shows where each heater goes and the space it warms. It turns a line item into a picture of the evening.[^s10]
-- **Quote the complete system.** Heaters, controllers, wall switch and app set-up in one price. A heater without its controls is not a finished job, and the client finds out on the first cold night.
+- **Send a heating plan with the quote.** A Bromic design plan shows where each heater goes and the space it warms, turning a line item into a picture of the evening ahead.[^s10]
+- **Quote the complete system.** Heaters, controllers, wall switch and app set-up belong in one price, because a heater is a finished job once its controls are in, and the client feels the difference on the first cold night.
 - **Offer the pre-wire on every patio.** Rough-in at framing costs far less than opening a finished soffit later, and it lets the owner add heat after they move in. [[VERIFY: typical rough-in cost range from partner electricians — US field sales]]
-- **Talk about safety plainly.** Dedicated circuits, the right mounting height, outdoor-rated controls. Clients trust the contractor who explains why.
-- **Show it working.** A heated patio at dusk sells the next one. Ask to photograph the finished job; Bromic partners can have projects featured (below).
+- **Talk about safety plainly.** Dedicated circuits, the right mounting height and outdoor-rated controls all build confidence, and clients trust the contractor who explains why.
+- **Show it working.** A heated patio at dusk sells the next one. Ask to photograph the finished job, and as a Bromic partner you can have projects featured (below).
 
-![Two Eclipse pendant heaters over an outdoor dining table at dusk](img:d-eclipse-pendant-dining)
+![Two Eclipse pendant heaters above an outdoor dining table at dusk](img:d-eclipse-pendant-dining)
 
-Whether your business is new homes, remodels, commercial fit-outs, smart-home installs or service work, outdoor heat is a line you can add to every job you already do.
+Whether your business is new homes, remodels, commercial fit-outs, smart-home installs or service work, outdoor heat is a line you can add to the work you already do.
 
-![Tungsten freestanding gas heater beside a poolside sofa](img:d-tungsten-gas-pool)
+![A Tungsten freestanding gas heater beside a poolside sofa](img:d-tungsten-gas-pool)
 
 ## The Bromic Partner Program
 
-You create great outdoor spaces. We know how to heat them. Together, your clients enjoy them all season long.
+You create beautiful spaces. We know how to heat them. Together, we help your clients enjoy them all season long.
 
 The Bromic Partner Program gives trade professionals who specify, design, build or install outdoor spaces exclusive benefits and dedicated support.[^s10]
 
-| Benefit | What it means on your projects |
-|---|---|
-| **Exclusive partner pricing** | Trade pricing on Bromic heaters and controls. [[VERIFY: price tiers and qualifying volumes — Trade sales / Sales operations]] |
-| **Expert product recommendations** | The right heater, wattage, voltage and controls for each space, from people who know the range. |
-| **Free custom heating design plans** | Heater positions and coverage on your client's plan, with a parts and controls list to price from. |
-| **Extended warranty** | An additional year of warranty coverage on qualifying products. |
-| **Dedicated point of contact** | One named Bromic contact for your projects. [[VERIFY: contact per region — Trade sales]] |
-| **Project coverage and marketing spotlights** | Finished projects can be featured in Bromic case studies and marketing. |
+### Exclusive Partner Pricing
+
+Trade pricing on Bromic heaters and controls. [[VERIFY: price tiers and qualifying volumes — Trade sales / Sales operations]]
+
+### Expert Product Recommendations
+
+The right heater, wattage, voltage and controls for each space, from people who know the range inside out.
+
+### Free Custom Heating Design Plans
+
+Heater positions and coverage drawn on your client's plan, with a parts and controls list to price from.
+
+### Extended Warranty
+
+An additional year of warranty coverage on qualifying products.
+
+### Dedicated Point of Contact
+
+One named Bromic contact for your projects. [[VERIFY: contact per region — Trade sales]]
+
+### Project Coverage & Marketing Spotlights
+
+Your finished projects can be featured in Bromic case studies and marketing.
 
 **Installer program.\*** Partners who install Bromic heaters can also join the Bromic installer program. [[VERIFY: installer program benefits and how to apply — Trade sales]]
 
@@ -237,6 +260,6 @@ The Bromic Partner Program gives trade professionals who specify, design, build 
 
 \* A reseller certificate is required to join the Bromic installer program.
 
-![A hand holding a tablet to control the heat at an outdoor table](img:t-009-025)
+![A hand holding a tablet to set the warmth at an outdoor table](img:t-009-025)
 
-Join the Bromic Partner Program, register your next project, and we will send you a heating design plan for it.
+Join the Bromic Partner Program and register your next project, and we will send you a heating design plan for it.

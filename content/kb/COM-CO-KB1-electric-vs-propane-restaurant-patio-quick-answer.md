@@ -1,24 +1,24 @@
 ---
 id: COM-CO-KB1
 type: kb
-title: "Electric vs propane for restaurant patios: quick answer"
+title: "Electric vs propane for restaurant patios: the quick answer"
 slug: electric-vs-propane-restaurant-patio-quick-answer
 audience: [COM]
 stage: [CO]
 cell: COM-CO
 asset: A20
-summary: "Which costs less to run on a restaurant patio, electric or propane heaters — the per-hour maths and the handling cost propane hides."
+summary: "Which costs less to run on a restaurant patio, electric or propane heaters, with the per-hour sums and the handling cost that propane quietly adds."
 primary_keyword: propane vs electric patio heater
 secondary_keywords: [commercial patio heater cost, restaurant patio heaters]
 ai_prompt: "Electric or propane patio heaters for a restaurant?"
-meta_description: "Electric vs propane patio heaters for restaurants: per-hour running cost, cylinder handling and code limits, with the formulas to rerun on your own rates."
+meta_description: "Electric vs propane patio heaters for restaurants: running cost per hour, cylinder handling and code limits, with formulas to rerun on your own rates."
 cta: {label: "Run the five-year cost model", asset: A20}
 hero: l-005-024
 owner_review: Hospitality sales
 status: draft
 gated: false
 related: [COM-CO-01, COM-PP-KB1]
-updated: 2026-10-30
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: U.S. Energy Information Administration
@@ -43,9 +43,9 @@ sources:
     verified: true
 ---
 
-For most restaurants, electric. A freestanding propane heater serves no more than 4 seats, because guests block its radiant heat, so a 40-seat patio needs 10 of them against 7 overhead electric heaters, and each burns dearer fuel per hour. Propane then adds cylinder swaps, storage and, in some cities, outright restrictions. Propane fits where there is no power to the patio and the layout changes nightly.
+For most restaurants, electric heat is the better choice. A freestanding propane heater serves no more than 4 seats, because guests block its radiant heat, so a 40-seat patio needs 10 of them against 7 overhead electric heaters, and each burns dearer fuel per hour. Propane also brings cylinder swaps, storage and, in some cities, outright restrictions. It still earns its place where there is no power to the patio and the layout changes nightly.
 
-## The numbers
+## How the running costs compare
 
 Formulas: electric = kW × $/kWh; propane = BTU/hr ÷ 91,500 × $/gal. Rates: 14.07¢/kWh commercial electricity, January–May 2026 US average;[^s1] $2.46/gal propane, EIA's residential winter forecast for 2025–26.[^s2] [[VERIFY: 2026 rates and a delivered cylinder price — Finance]]
 
@@ -58,13 +58,13 @@ Formulas: electric = kW × $/kWh; propane = BTU/hr ÷ 91,500 × $/gal. Rates: 14
 | Fuel handling | none | swaps, storage, deliveries |
 | Code exposure | electrical permit | fire code clearances, storage rules |
 
-Swapping 4,153 gallons through 4.7-gallon cylinders is 884 swaps a year; at 10 minutes each and $25 an hour, another $3,683. Cylinder propane is usually priced above the bulk average used here, which narrows propane's case further.
+Swapping 4,153 gallons through 4.7-gallon cylinders adds up to 884 swaps a year, and at 10 minutes each and $25 an hour that is another $3,683 of staff time. Cylinder propane is usually priced above the bulk average used here, which narrows propane's case further.
 
-## Which to choose
+## Choosing for your patio
 
-- **Covered terrace, wall or soffit:** Platinum Smart-Heat Electric with an Affinity Smart-Heat On/Off or Dimmer controller and a wall switch.
-- **Open layout, power nearby:** Eclipse Smart-Heat Freestanding Electric with the Eclipse controller.
-- **No power, flexible layout, propane permitted:** Tungsten Smart-Heat Freestanding Gas. [[VERIFY: Affinity control options for Tungsten freestanding gas — Product team]]
+- On a covered terrace with a wall or soffit to mount to, Platinum Smart-Heat Electric with an Affinity Smart-Heat On/Off or Dimmer controller and a wall switch.
+- On an open layout with power nearby, Eclipse Smart-Heat Freestanding Electric with the Eclipse controller.
+- Where there is no power, the layout is flexible and propane is permitted, Tungsten Smart-Heat Freestanding Gas. [[VERIFY: Affinity control options for Tungsten freestanding gas — Product team]]
 
 Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately.[^s3] For natural gas and a five-year view, see [the full comparison](item:COM-CO-01).
 

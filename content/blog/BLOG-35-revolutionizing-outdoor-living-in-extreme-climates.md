@@ -1,7 +1,7 @@
 ---
 id: BLOG-35
 type: blog
-title: "A show home in Juneau, Alaska: outdoor living planned in zones for a hard winter"
+title: "Outdoor Heating For A Cold Climate: A Juneau, Alaska Show Home Planned In Warm Zones"
 slug: revolutionizing-outdoor-living-in-extreme-climates
 live_url: https://www.bromic.com/blog/revolutionizing-outdoor-living-in-extreme-climates/
 action: convert
@@ -10,11 +10,11 @@ audience: [RES, ARC]
 stage: [AW]
 cell: RES-AW
 asset: A24
-summary: "How Bauer/Clifton Interiors planned the outdoor spaces of a Juneau show home as heated zones, which Bromic heaters went where, and what any cold-climate project can take from it. A full case study follows the Bromic case-study template once the details are confirmed."
+summary: "How Bauer/Clifton Interiors planned the outdoor spaces of a Juneau show home as heated zones, which Bromic heaters went where, and what any cold-climate home can take from it. A full case study will follow the Bromic template once the details are confirmed."
 primary_keyword: outdoor heating cold climate
 secondary_keywords: [heated deck alaska, outdoor living cold weather, patio heater zones, juneau show home]
 ai_prompt: "How do you design an outdoor space you can use in a cold climate?"
-meta_description: "A Juneau, Alaska show home planned its deck as heated zones with Bromic Tungsten and Platinum Electric heaters. What the design did and what to take from it."
+meta_description: "Outdoor heating in a cold climate: a Juneau, Alaska show home planned its deck in warm zones with Bromic Tungsten and Platinum Electric heaters."
 cta: {label: "Download the Outdoor Living Trends 2026 report", asset: A01}
 hero: w-dsc07397-1
 owner_review: Marketing
@@ -23,7 +23,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES, RES-AW-01, RES-PP-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -69,9 +69,9 @@ sources:
     verified: true
 ---
 
-A cold climate does not rule out outdoor living; it changes how the space is planned. In a show home in Juneau, Alaska, Bauer/Clifton Interiors split the outdoor area into zones – lounging, dining, entertaining and the paths between – and gave each the heat it needed: Bromic Tungsten Electric over the lounge, Platinum Electric over the dining table, and heaters placed so they never block a view or a route.[^s1]
+A cold climate is no reason to give up on outdoor living; it simply asks for a more thoughtful plan. In a show home in Juneau, Alaska, Bauer/Clifton Interiors divided the outdoor area into zones for lounging, dining, entertaining and the paths between, and gave each the warmth it needed: Bromic Tungsten Electric over the lounge, Platinum Electric over the dining table, and every heater placed so it never interrupts a view or a route.[^s1]
 
-![Timber-clad home with a deck lounge and heaters wall-mounted under the eaves](img:w-dsc07397-1)
+![Timber-clad home with a deck lounge and heaters wall-mounted beneath the eaves](img:w-dsc07397-1)
 
 [[VERIFY: that this hero photo (from the live post) shows the Juneau show home, and the photo credit — Marketing]]
 
@@ -90,13 +90,13 @@ A cold climate does not rule out outdoor living; it changes how the space is pla
 
 Source: the live post this replaces.[^s1]
 
-## The brief
+## A Deck Made For Every Season
 
-Juneau's winters are long and hard. The designers wanted the outdoor spaces to be used through the year, not only in summer.[^s1]
+Winters in Juneau are long and demanding. The designers wanted the family to enjoy the outdoor spaces right through the year, long after the summer evenings had passed.[^s1]
 
-## The design: heat by zone
+## Warmth Shaped Around The Way The Family Lives
 
-Instead of heating one large deck evenly, the plan gave each activity its own zone, and each zone the heat that suited it.[^s1]
+Rather than heating one large deck evenly, the plan gave each activity its own zone, and each zone the warmth that suited it.[^s1]
 
 | Zone | What happens there | Heat |
 |---|---|---|
@@ -107,32 +107,32 @@ Instead of heating one large deck evenly, the plan gave each activity its own zo
 
 <div class="diagram">Diagram: plan of the deck with the four zones outlined, heater positions marked, and each heater's footprint over its seating – a brief to redraw once the project's heater count and layout are confirmed.</div>
 
-## What any cold-climate project can take from it
+## Lessons For Any Cold-Climate Home
 
-- **Plan zones, not square footage.** Heat where people sit, eat and stand. A path needs light and a clear route more than it needs a heater.
+- **Plan around the moments.** Bring warmth to where people sit, eat and stand; a path is better served by light and a clear route than by a heater of its own.
 - **Match the heater to the zone.** Tungsten Electric runs 2000–6000 W for about 65–160 ft²;[^s3] Platinum Electric runs 2300–4500 W for about 65–143 ft² and sits slim or recessed overhead.[^s4]
-- **Keep heaters out of the way.** Mount them on walls, beams or ceilings so furniture can move and views stay open.[^s1]
-- **Radiant suits the cold.** It warms people and surfaces rather than air, so it still works in a light wind.[^s6]
-- **Give every zone its own control.** An Affinity Smart-Heat On/Off or Dimmer controller, or a manual wall switch, lets a family heat the dining table without heating an empty lounge.[^s3][^s4] Zones, schedules and timers run in the Bromic Smart-Heat app; Wi-Fi and app features need compatible Affinity controls, sold separately.[^s5]
+- **Keep heaters gracefully out of the way.** Mounting them on walls, beams or ceilings lets furniture move freely and keeps every view open.[^s1]
+- **Radiant warmth suits the cold.** It warms people and surfaces rather than the air, so it keeps working in a light wind.[^s6]
+- **Give every zone its own control.** An Affinity Smart-Heat On/Off or Dimmer controller, or a manual wall switch, lets a family warm the dining table while an empty lounge stays off.[^s3][^s4] Zones, schedules and timers run in the Bromic Smart-Heat app; Wi-Fi and app features need compatible Affinity controls, sold separately.[^s5]
 
-For how to plan heating into a year-round patio, see [how to use your patio year-round](item:RES-AW-01) and [where to place patio heaters](item:RES-PP-01). Browse the [Tungsten collection](https://www.bromic.com/tungsten-collection/), the [Platinum collection](https://www.bromic.com/platinum-collection/), or ask Bromic's [design service](https://www.bromic.com/design-your-space/) for a free heat layout.
+To plan warmth into a patio you can enjoy all year, see [how to use your patio year-round](item:RES-AW-01) and [where to place patio heaters](item:RES-PP-01). Browse the [Tungsten collection](https://www.bromic.com/tungsten-collection/) and the [Platinum collection](https://www.bromic.com/platinum-collection/), or ask our [design service](https://www.bromic.com/design-your-space/) for a free heat layout.
 
-## The full case study
+## The Full Story To Come
 
-This post becomes a full Bromic case study once the project details are confirmed with the designer: heater count and outputs, the controls, the heat layout, and any words from the team, used only with written permission. It will follow the [case-study template](item:CS-TEMPLATE) and sit with the others on [bromic.com/case-studies](https://www.bromic.com/case-studies/). [[VERIFY: contact Bauer/Clifton Interiors for the project details and permission — Marketing]]
+Once the project details are confirmed with the designer, this post will grow into a full Bromic case study, with the heater count and outputs, the controls, the heat layout and any words from the team, used only with their written permission. It will follow the [case-study template](item:CS-TEMPLATE) and sit alongside the others on [bromic.com/case-studies](https://www.bromic.com/case-studies/). [[VERIFY: contact Bauer/Clifton Interiors for the project details and permission — Marketing]]
 
 ## Frequently asked
 
 ### Can you use a deck in an Alaskan winter?
 
-This Juneau show home was designed for it: separate zones for lounging, dining and entertaining, each with heaters that suit it.[^s1]
+This Juneau show home was designed to do exactly that, with separate zones for lounging, dining and entertaining, each warmed by heaters chosen to suit it.[^s1]
 
 ### Which Bromic heaters were used?
 
-Tungsten Electric in the lounge zone and Platinum Electric over the dining table.[^s1]
+Tungsten Electric warms the lounge zone and Platinum Electric sits over the dining table.[^s1]
 
 ### How many heaters does a zone need?
 
-It depends on the area, the cover and the exposure. Platinum Electric 4500 W covers about 143 ft²;[^s4] Tungsten Electric 6000 W about 160 ft².[^s3]
+That depends on the area, the cover and how exposed the space is. Platinum Electric 4500 W covers about 143 ft²,[^s4] and Tungsten Electric 6000 W about 160 ft².[^s3]
 
-The 2026 trends data shows how homeowners are planning for year-round outdoor living.
+To see how homeowners are planning for year-round outdoor living, explore the 2026 trends data.

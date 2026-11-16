@@ -1,7 +1,7 @@
 ---
 id: BLOG-03
 type: blog
-title: "What should be considered when installing recessed electric outdoor heaters?"
+title: "What Should Be Considered When Installing Recessed Electric Outdoor Heaters?"
 slug: what-should-be-considered-when-installing-recessed-electric-outdoor-heaters
 live_url: https://www.bromic.com/blog/what-should-be-considered-when-installing-recessed-electric-outdoor-heaters/
 action: keep-fix
@@ -10,11 +10,11 @@ audience: [ARC, BLD]
 stage: [IN]
 cell: ARC-IN
 asset: A24
-summary: "The design checklist for flush-mounting Platinum and Tungsten Electric heaters: ceiling thickness, cavity depth per recess kit, weight, water and insulation, the circuit and the Affinity controls, and what to put on the drawings."
+summary: "Everything to design in before a Platinum or Tungsten Electric heater disappears flush into the ceiling, from lining thickness, cavity depth per kit, weight, water and insulation to the circuit, the Affinity controls and the drawings."
 primary_keyword: recessed outdoor heater
 secondary_keywords: [flush mount patio heater, recessed patio heater cavity depth, recess kit outdoor heater, built-in electric patio heater]
 ai_prompt: "What do I need to know before recessing an electric outdoor heater into a ceiling?"
-meta_description: "Recessing an outdoor electric heater: ceiling 0.39–1.2 in thick, cavity 7.1 in to 21.1 in by kit, a dedicated circuit and Affinity controls."
+meta_description: "Designing in a recessed outdoor heater: a ceiling lining 0.39–1.2 in thick, a 7.1 in to 21.1 in cavity by kit, a dedicated circuit and Affinity controls."
 cta: {label: "Download the architect spec kit", asset: A11}
 hero: w-residential-belgium-brussels-medows-resid-3
 images: [w-dorrington-homes-platinum-electric-2]
@@ -24,7 +24,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-IN-KB1, ARC-IN-01, ARC-BY-KB1, BLD-IN-KB1]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -84,17 +84,17 @@ sources:
     verified: true
 ---
 
-Before recessing an electric heater, confirm four things: a ceiling lining 0.39–1.2 in thick, a cavity deep enough for the recess kit (7.1 in for the Platinum Low Clearance kit, up to 21.1 in for Tungsten), structure that carries the heater and stays dry, and a dedicated circuit with Affinity Smart-Heat controls and a wall switch. Recessing is designed, not added later: it belongs on the drawings before the ceiling closes.
+A recessed heater begins with four checks: a ceiling lining 0.39–1.2 in thick, a cavity deep enough for the recess kit (7.1 in for the Platinum Low Clearance kit, up to 21.1 in for Tungsten), structure that carries the heater and stays dry, and a dedicated circuit with Affinity Smart-Heat controls and a wall switch. Each belongs on the drawings well before the ceiling closes.
 
 *Follow the installation manual for the exact model and kit. Electrical work must be done by a licensed electrician to the code adopted locally, [NFPA 70](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70) in most of the US[^s8]; confirm requirements with the local building authority.*
 
-![Platinum Electric heaters recessed flush in an alfresco kitchen ceiling](img:w-dorrington-homes-platinum-electric-2)
+![Platinum Electric heaters recessed flush into the ceiling of an alfresco kitchen](img:w-dorrington-homes-platinum-electric-2)
 
-## Which heaters can be recessed?
+## The Heaters Designed To Disappear Into Your Ceiling
 
-[Platinum Electric](https://www.bromic.com/product/platinum-smart-heat-electric/), [Platinum Electric Marine](https://www.bromic.com/product/platinum-smart-heat-electric-marine/) and [Tungsten Electric](https://www.bromic.com/product/tungsten-smart-heat-electric/) recess with a Bromic kit[^s1]. Gas heaters do not recess. See the range at [flush-mounted heaters](https://www.bromic.com/outdoor-heaters/flush-mounted/).
+[Platinum Electric](https://www.bromic.com/product/platinum-smart-heat-electric/), [Platinum Electric Marine](https://www.bromic.com/product/platinum-smart-heat-electric-marine/) and [Tungsten Electric](https://www.bromic.com/product/tungsten-smart-heat-electric/) all recess with a Bromic kit, leaving warmth that is felt rather than seen[^s1]. Gas heaters do not recess. You can explore the range at [flush-mounted heaters](https://www.bromic.com/outdoor-heaters/flush-mounted/).
 
-## How deep does the ceiling cavity need to be?
+## How Deep The Ceiling Cavity Needs To Be
 
 | Heater | Kit | Minimum cavity | Notes |
 |---|---|---|---|
@@ -103,21 +103,21 @@ Before recessing an electric heater, confirm four things: a ceiling lining 0.39�
 | Platinum 4500 W | Platinum standard recess kit | 13 in | [^s1] |
 | Platinum 2300, 3400, 4500 W | [Low Clearance Recess Kit](https://www.bromic.com/product/platinum-electric-low-clearance-recess-kit/) | 7.1 in | Built-in recess box, fan and vents; fits standard joists; UL certified[^s1][^s3] |
 
-Plan Tungsten at 21.1 in until the cut sheet settles it. The Tungsten kit is sold in pairs, one for 2000 and 4000 W and one for 3000 and 6000 W[^s5].
+Plan Tungsten at 21.1 in until the cut sheet settles the figure. The Tungsten kit is sold in two versions, one for 2000 and 4000 W and one for 3000 and 6000 W[^s5].
 
-The older version of this post listed the low-clearance kit for 2300 and 3400 W only. The kit's product page now lists 4500 W as well[^s3] [[VERIFY: 4500 W low-clearance compatibility against the current manual — Product team]]. Its step-by-step install is in [how to install the Low Clearance Recess Kit](https://www.bromic.com/blog/how-to-install-the-low-clearance-recess-kit/).
+An earlier version of this post listed the low-clearance kit for 2300 and 3400 W only, and the kit's product page now lists 4500 W as well[^s3] [[VERIFY: 4500 W low-clearance compatibility against the current manual — Product team]]. Its step-by-step installation is in [how to install the Low Clearance Recess Kit](https://www.bromic.com/blog/how-to-install-the-low-clearance-recess-kit/).
 
-## What should the ceiling be made of?
+## Preparing The Ceiling Itself
 
-- **Lining thickness.** 0.39–1.2 in is the ideal range. A thicker ceiling needs a custom detail from [Bromic Technical Support](https://www.bromic.com/contact-technical-support/)[^s1].
-- **Structure.** Recessed heaters weigh 17 lb (Platinum 2300 W) to 33 lb (Platinum 4500 W)[^s4]; the older range of 16–38 lb included models not listed today [[VERIFY: heaviest recessed Tungsten weight — Product team]]. Frame and block to carry the heater and kit; reinforce weak joists.
-- **Water.** Shield the heater from water above; the ceiling must not leak onto it[^s1].
-- **Insulation.** Nothing in the cavity, insulation included, may cover the heater or kit[^s1].
-- **Combustibles.** Clearances to combustibles differ by model; take them from the manual for the exact heater[^s1]. Keep clear of ceiling lights and fans[^s2].
+- **Lining thickness** is ideally 0.39–1.2 in. A thicker ceiling needs a custom detail from [Bromic Technical Support](https://www.bromic.com/contact-technical-support/)[^s1].
+- **The structure** must carry recessed heaters weighing from 17 lb (Platinum 2300 W) to 33 lb (Platinum 4500 W)[^s4]; the older range of 16–38 lb included models no longer listed [[VERIFY: heaviest recessed Tungsten weight — Product team]]. Frame and block to carry the heater and kit, and reinforce any weak joists.
+- **Water** must be kept away from the heater, so the ceiling above should never leak onto it[^s1].
+- **Insulation**, like everything else in the cavity, must never cover the heater or kit[^s1].
+- **Clearances to combustibles** differ by model, so take them from the manual for the exact heater[^s1], and keep clear of ceiling lights and fans[^s2].
 
-## How is a recessed heater wired and controlled?
+## Wiring And Controls, Planned Together
 
-Recessing fixes the heater for good, so fix the controls at the same time. Each heater needs:
+Once a heater is recessed, it is part of the architecture for good, so the controls deserve the same care at the same moment. Each heater needs:
 
 | Item | Specify | Note |
 |---|---|---|
@@ -127,11 +127,11 @@ Recessing fixes the heater for good, so fix the controls at the same time. Each 
 | Low Clearance kit fan | Its own supply | The kit's cooling fan needs a dedicated supply separate from the heater[^s3] |
 | BMS or home automation | [Expansion board](https://www.bromic.com/product/affinity-smart-heat-expansion-board/) | [^s6] |
 
-The Bromic Smart-Heat app adds zones, schedules and timers. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately[^s7]. Place the controller where it is serviceable after the ceiling closes.
+The Bromic Smart-Heat app adds zones, schedules and timers. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately[^s7]. Place the controller where it can still be serviced once the ceiling is closed.
 
 <div class="diagram">Diagram: ceiling section through a recessed Platinum heater showing lining thickness, cavity depth per kit, joists and blocking, the heater circuit and the separate fan supply to the Low Clearance kit, and the Affinity controller and wall switch on the wall</div>
 
-## What goes on the drawings?
+## What Belongs On The Drawings
 
 - [ ] Cut-out size and position on the reflected ceiling plan
 - [ ] Cavity depth, kit type, framing and blocking in section
@@ -140,24 +140,24 @@ The Bromic Smart-Heat app adds zones, schedules and timers. Wi-Fi and app featur
 - [ ] Circuit, conduit route and junction box; the fan supply for a low-clearance kit
 - [ ] Affinity controller, wall switch and expansion board locations
 
-More on detailing a soffit in [can a heater be recessed into a soffit?](item:ARC-IN-KB1)
+For detailing a soffit, see [can a heater be recessed into a soffit?](item:ARC-IN-KB1)
 
 ## Frequently asked
 
 ### How deep a ceiling cavity does a recessed patio heater need?
 
-From 7.1 in with the Platinum Low Clearance Recess Kit to 10–13 in with the Platinum standard kit and about 21 in for Tungsten Electric[^s1][^s3].
+Anywhere from 7.1 in with the Platinum Low Clearance Recess Kit, to 10–13 in with the Platinum standard kit, to about 21 in for Tungsten Electric[^s1][^s3].
 
 ### Can I recess a heater in an existing ceiling?
 
-Often, yes. The Low Clearance kit fits standard joists in retrofits and new builds[^s1][^s3]. Check the lining thickness and that a circuit can reach it.
+Often, yes. The Low Clearance kit fits standard joists in retrofits as well as new builds[^s1][^s3]. Check the lining thickness, and that a circuit can reach the heater's position.
 
 ### Does a recessed heater need special controls?
 
-The same as any Bromic electric heater: an Affinity On/Off or Dimmer controller and a manual wall switch[^s4]. A low-clearance kit also needs a supply for its fan[^s3].
+It uses the same controls as any Bromic electric heater, an Affinity On/Off or Dimmer controller and a manual wall switch[^s4]. A low-clearance kit also needs a supply for its fan[^s3].
 
 ### Can insulation touch a recessed heater?
 
 No. Nothing in the cavity may cover the heater[^s1].
 
-To check a ceiling before it is built, send the drawings to [Design Your Space](https://www.bromic.com/design-your-space/).
+To check a ceiling before it is built, share your drawings with us through [Design Your Space](https://www.bromic.com/design-your-space/).

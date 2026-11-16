@@ -1,17 +1,17 @@
 ---
 id: ARC-AW-01
 type: article
-title: "Designing outdoor rooms for year-round use: what the 2026 data says"
+title: "Outdoor living design trends 2026: designing outdoor rooms for every season"
 slug: outdoor-living-design-trends-2026
 audience: [ARC]
 stage: [AW]
 cell: ARC-AW
 asset: A24
-summary: "The 2026 survey data on outdoor living, read for architects: what clients are asking for, why heating still gets left to the end, and how to write it into the brief."
+summary: "What the 2026 survey data tells architects about the outdoor rooms clients want, why warmth is still the last thing planned, and how to bring it into the brief from the first sketch."
 primary_keyword: outdoor living design trends
 secondary_keywords: [indoor outdoor living design, outdoor room design]
 ai_prompt: "What are the outdoor living design trends for 2026?"
-meta_description: "Outdoor living design trends for 2026 from AIA and NAHB data, and how architects design year-round outdoor rooms with heating in the brief."
+meta_description: "Outdoor living design trends for 2026 from AIA and NAHB data, and how architects bring radiant heating into the brief for outdoor rooms used year-round."
 cta: {label: "Download the Trends 2026 report", asset: A01}
 hero: l-010-075
 images: [l-010-069, t-006-016]
@@ -19,7 +19,7 @@ owner_review: Marketing
 status: draft
 gated: false
 related: [ARC-CO-01, ARC-IN-01, BLD-IN-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: American Institute of Architects
@@ -79,13 +79,13 @@ sources:
     verified: true
 ---
 
-Outdoor living is still the room clients ask for first. In the American Institute of Architects' 2026 Home Design Trends Survey, outdoor living areas ranked first among special-function rooms, and the AIA reports demand for them rose 10% on 2025[^s1][^s2]. The design shift underneath the number: clients no longer want a patio beside the house. They want an outdoor room that works on a cold evening, with power, structure, lighting and heat drawn in from the start.
+The outdoor room is still the space your clients ask for first. In the American Institute of Architects' 2026 Home Design Trends Survey, outdoor living areas ranked first among special-function rooms, and the AIA reports demand for them rose 10% on 2025[^s1][^s2]. Behind that number sits a quieter change in what people picture. They no longer imagine a patio beside the house; they imagine an outdoor room they can use on a cool evening, with power, structure, lighting and warmth drawn into the design from the very beginning.
 
-![Minimal glass pavilion with heaters recessed into the ceiling](img:l-010-075)
+![Minimal glass pavilion with radiant heaters recessed seamlessly into the ceiling](img:l-010-075)
 
-## What does the 2026 data say about outdoor living?
+## What The 2026 Data Tells Us About Outdoor Living
 
-The headline is steady demand from a high base, not a boom. Read the surveys together and three things hold.
+Read together, the surveys describe steady demand from a high base rather than a sudden boom.
 
 | Measure | Figure | Source |
 |---|---|---|
@@ -98,62 +98,62 @@ The headline is steady demand from a high base, not a boom. Read the surveys tog
 
 [[VERIFY: AIA reports "increasing minus decreasing" net shares; confirm whether the 10% is points or relative, and which quarter's question the 55%/40% come from, against the AIA PDFs — Marketing]]
 
-Two cautions for anyone quoting these. AIA figures are net shares of architects, not shares of homes. And NAHB's patio share has now dipped two years running[^s4], so "every new home has a patio" overstates it. The honest reading: most new homes get one, it averages a room-sized 320 ft², and architects still rank it as the space clients want most.
+Two notes are worth keeping in mind before you quote these figures. The AIA numbers are net shares of architects, so they describe what practices are seeing rather than the share of homes built. And NAHB's patio share has now dipped two years running[^s4], so it would overstate things to say every new home has a patio. The fairer picture is that most new homes get one, it averages a generous, room-sized 320 ft², and architects still rank it as the space their clients want most.
 
-## What are clients actually asking architects for?
+## The Outdoor Rooms Clients Are Asking For
 
-Rooms, not decks. The requests that recur in the trend coverage are covered terraces, outdoor kitchens, pergolas with integrated lighting and audio, and glazing that folds the living room onto the terrace. Each one turns the outdoor space into an extension of the plan, which makes it subject to the same expectations as the plan: it should be comfortable when people want to use it.
+The requests that recur in the trend coverage describe rooms more than decks: covered terraces, outdoor kitchens, pergolas with integrated lighting and audio, and glazing that folds the living room out onto the terrace. Each one turns the outdoor space into an extension of the plan, and with that comes the same expectation clients have of every other room in the house – that it will be comfortable whenever they want to use it.
 
-Homeowners say the same thing in their own words. In Bromic's 2026 US homeowner survey, 94% said their outdoor space could be used more and 67% said heating extends outdoor use[^s6].
+Homeowners say much the same in their own words. In Bromic's 2026 US homeowner survey, 94% said their outdoor space could be used more and 67% said heating extends outdoor use[^s6].
 
-## Why does heating still get left to the end?
+## Why Warmth Is Still The Last Thing Planned
 
-Because nobody owns it at concept stage. Lighting sits with the electrical engineer, shade with the landscape architect, structure with the engineer. Heating falls between them. Only 23% of homeowners prioritize outdoor heating at the planning phase[^s6].
+At concept stage, heating rarely has an owner. Lighting sits with the electrical engineer, shade with the landscape architect and structure with the engineer, while heating tends to fall between them. Only 23% of homeowners prioritize outdoor heating at the planning phase[^s6].
 
-The cost of leaving it late is visible. A retrofit heater bolts to the face of the soffit the architect detailed, with surface conduit to the nearest junction box and a switch wherever there is space. The same heater designed in sits flush in a recess kit, on a dedicated circuit, controlled with the lights.
+You can see the cost of leaving it late in the finished space. A retrofit heater is bolted to the face of the soffit you detailed so carefully, fed by surface conduit from the nearest junction box, with a switch wherever there happens to be room. The same heater designed in from the start sits flush in a recess kit, on its own dedicated circuit, controlled alongside the lights.
 
-![Modern pool house with heaters under the cantilever](img:l-010-069)
+![Modern pool house with heaters set beneath the cantilever](img:l-010-069)
 
-## What makes an outdoor room usable year-round?
+## Designing An Outdoor Room For Every Season
 
-Four design decisions, all made early.
+A space that welcomes people year-round comes from four decisions, each made early in the design.
 
-1. **Enclosure.** Bromic's planning rule treats a space as outdoor when at least 30% of its perimeter is permanently open. A partial cover traps a "heat cloud" that adds a convective boost[^s7]. Know which side of that line the design sits on before choosing equipment.
-2. **Heat type.** Outdoors you cannot heat the air; it rises and blows away. Radiant (infrared) heat warms people and surfaces directly and holds up in light wind[^s7]. Forced air does not work outside.
-3. **Mounting surface.** Pergola beams, soffits and cantilevers are the natural mounting planes. Decide whether heaters recess, surface-mount or hang, so the structure and ceiling build-up allow for it.
-4. **Power and control.** Circuits, switching and integration with lighting and home automation belong on the electrical drawings, not a change order.
+1. **How open the space is.** Bromic's planning rule treats a space as outdoor when at least 30% of its perimeter is permanently open, and a partial cover traps a "heat cloud" that adds a convective boost[^s7]. Knowing which side of that line your design sits on shapes every equipment choice that follows.
+2. **The kind of heat.** Outdoors, warm air simply rises and drifts away. Radiant (infrared) heat warms people and surfaces directly and holds up in light wind[^s7], which is why forced air struggles outside and infrared does the work.
+3. **Where the heaters mount.** Pergola beams, soffits and cantilevers are the natural mounting planes. Deciding early whether heaters will recess, surface-mount or hang lets the structure and ceiling build-up make room for them.
+4. **Power and control.** Circuits, switching and integration with lighting and home automation belong on the electrical drawings from the start, rather than arriving later as a change order.
 
-## How do you design heating into the soffit, not onto it?
+## Designing Heat Into The Soffit
 
-Treat the heater as a ceiling element, like a downlight. For a covered terrace, a recessed electric heater keeps the ceiling plane clean. Platinum Smart-Heat Electric (2300W, 3400W or 4500W) covers approx. 65–143 ft² depending on model and installation, and can be recessed, ceiling- or wall-mounted[^s8]. The new Tungsten Smart-Heat Electric Select and Coastal collections (coming soon) add low-clearance recessing and approx. 64–144 ft² coverage[^s8].
+The most refined installations treat the heater as a ceiling element, much as you would a downlight. Over a covered terrace, a recessed electric heater keeps the ceiling plane clean and lets the architecture speak. Platinum Smart-Heat® Electric (2300W, 3400W or 4500W) covers approx. 65–143 ft² depending on model and installation, and can be recessed, ceiling- or wall-mounted[^s8]. The new Tungsten Smart-Heat® Electric Select and Coastal collections (coming soon) add low-clearance recessing and approx. 64–144 ft² coverage[^s8].
 
-Specify the controls with the heater, every time: an Affinity Smart-Heat On/Off or Dimmer controller, a wall switch, and the Bromic Smart-Heat app for zones and schedules. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately. Integration with Control4, Crestron or Lutron is possible, but compatibility varies by system and may need extra integration hardware[^s8].
+Every heater you specify is paired with its controls: an Affinity Smart-Heat® On/Off or Dimmer controller, a wall switch, and the Bromic Smart-Heat app for zones and schedules. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately. Integration with Control4, Crestron or Lutron is possible, though compatibility varies by system and may need extra integration hardware[^s8].
 
-![Urban roof terrace with a heater recessed into a timber soffit](img:t-006-016)
+![Urban roof terrace with a heater recessed into a warm timber soffit](img:t-006-016)
 
-## Key takeaways
+## Key Takeaways
 
 - Outdoor living remains architects' most-requested special-function room in the AIA's 2026 data[^s2].
-- About six in ten new homes get a patio, averaging about 320 ft²[^s4][^s5]. That is a room, and it deserves room-level services.
-- Heating is the system most often missed at planning: 23% of homeowners prioritize it[^s6].
-- Decide enclosure (the 30% rule), heat type, mounting plane and controls at schematic design.
-- Every heater on the drawings comes with its controls.
+- About six in ten new homes get a patio, averaging about 320 ft²[^s4][^s5] – the size of a room, and worth designing with room-level services.
+- Heating is the system most often missed at planning, with 23% of homeowners prioritizing it[^s6].
+- Settle how open the space is (the 30% rule), the kind of heat, the mounting plane and the controls at schematic design.
+- Every heater on the drawings comes with its Affinity Smart-Heat® Controls.
 
 ## FAQ
 
 ### What are the top outdoor living design trends for 2026?
-Outdoor rooms rather than patios: covered terraces, outdoor kitchens, pergolas with integrated lighting, audio and heat, and indoor-outdoor glazing. AIA's 2026 survey ranks outdoor living first among special-function rooms[^s2].
+Clients are asking for outdoor rooms more than patios: covered terraces, outdoor kitchens, pergolas with integrated lighting, audio and heat, and glazing that opens the house to the terrace. The AIA's 2026 survey ranks outdoor living first among special-function rooms[^s2].
 
 ### Is demand for outdoor living still growing?
-The AIA reports demand for outdoor living spaces up 10% on 2025[^s1]. NAHB shows a small dip in the share of new homes with patios, to 60.5% in 2025[^s4]. Demand is high and steady rather than accelerating everywhere.
+The AIA reports demand for outdoor living spaces up 10% on 2025[^s1], while NAHB shows a small dip in the share of new homes with patios, to 60.5% in 2025[^s4]. Demand is high and steady, though it is not accelerating everywhere.
 
 ### When should heating enter the design?
-At schematic design, with lighting and structure. That is when the recess, the circuit and the control location cost least to include.
+At schematic design, alongside lighting and structure. That is when the recess, the circuit and the control location are easiest and least costly to include.
 
 ### What heating works in an open-sided outdoor room?
-Radiant (infrared) heat. It warms people and surfaces rather than air, so it holds up in light wind where forced air fails[^s7].
+Radiant (infrared) heat. Because it warms people and surfaces rather than the air, it holds up in light wind where forced air falls short[^s7].
 
 ### Can outdoor heaters be integrated with home automation?
-Yes, through Affinity Smart-Heat Controls, which work with Control4, Crestron and Lutron among others. Compatibility varies and may need additional integration hardware; confirm with the integrator[^s8].
+Yes, through Affinity Smart-Heat Controls, which work with Control4, Crestron and Lutron among others. Compatibility varies and may need additional integration hardware, so confirm the details with your integrator[^s8].
 
-Read the full 2026 data in the Trends report.
+Explore the full 2026 findings in the Trends report.

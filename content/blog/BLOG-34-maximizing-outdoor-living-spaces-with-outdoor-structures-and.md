@@ -1,7 +1,7 @@
 ---
 id: BLOG-34
 type: blog
-title: "Pergolas, cabanas and louvered roofs: how to heat an outdoor structure"
+title: "Pergolas, Cabanas And Louvered Roofs: Bringing Warmth To Your Outdoor Structure"
 slug: maximizing-outdoor-living-spaces-with-outdoor-structures-and-heating-solutions
 live_url: https://www.bromic.com/blog/maximizing-outdoor-living-spaces-with-outdoor-structures-and-heating-solutions/
 action: keep-fix
@@ -10,11 +10,11 @@ audience: [ARC, RES, BLD]
 stage: [AW]
 cell: ARC-AW
 asset: A24
-summary: "Why a roof and radiant heat belong in the same drawing, which heater suits a pergola beam, a louvered roof or an open lawn, and what to plan before the structure goes up."
+summary: "Why the roof over your outdoor room and the radiant warmth beneath it belong in the same drawing, which pergola heater suits each structure, and what to plan before it goes up."
 primary_keyword: pergola heater
 secondary_keywords: [heater for louvered pergola, outdoor structure heating, cabana heater, recessed heater pergola]
 ai_prompt: "What is the best way to heat a pergola or louvered roof?"
-meta_description: "How to heat a pergola, cabana or louvered roof: which Bromic heater suits each structure, how it mounts, the controls it needs and what to pre-wire."
+meta_description: "Turn a pergola, cabana or louvered roof into a year-round room: the pergola heater for each structure, how it mounts, its controls and what to pre-wire."
 cta: {label: "Download the Outdoor Living Trends 2026 report", asset: A01}
 hero: w-mountain-view-retreat-platinum-electric-rece
 images: [w-strx-230222-bromic-dc-8, w-platinumelectricflushmountedw-lowclearancere]
@@ -24,7 +24,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-AW-01, ARC-IN-KB1, BLD-IN-01, RES-PP-KB1]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -77,19 +77,19 @@ sources:
     verified: false
 ---
 
-Heat an outdoor structure with radiant heaters fixed to it: recessed into a louvered roof or soffit, mounted on a pergola beam, or on a wall. Radiant heat warms the people under the roof, not the air, and a partial cover holds some of that warmth in.[^s1] Choose the heater by the structure, plan its circuit and controls before the roof goes on, and the space works on cold evenings as well as warm ones.
+The best way to warm an outdoor structure is with radiant heaters fixed to it, recessed into a louvered roof or soffit, mounted on a pergola beam or set on a wall. Radiant heat warms the people beneath the roof rather than the air, and a partial cover holds some of that warmth in.[^s1] Choose the heater to suit the structure and plan its circuit and controls before the roof goes on, and your space will welcome you on cold evenings as well as warm ones.
 
-![Platinum Electric heater recessed in a louvered pergola roof above an outdoor kitchen](img:w-mountain-view-retreat-platinum-electric-rece)
+![Platinum Electric heater recessed into a louvered pergola roof, warming an outdoor kitchen](img:w-mountain-view-retreat-platinum-electric-rece)
 
-## Why do structures and heating belong together?
+## Designed Together, From The First Sketch
 
-A pergola, cabana or louvered roof adds a room without adding to the house. It keeps off sun and rain. It does not keep off the cold. The roof is also where the best heater positions are, so the two are best drawn together.
+A pergola, cabana or louvered roof adds a room to your home without adding to the house. It shelters you from sun and rain, though on its own it does little against the evening chill. The roof also offers the finest positions for a heater, which is why the two are best drawn together from the start.
 
-That was the point of the 2023 version of this post, written with the louvered-roof maker StruXure: its founder Scott Selzer argued that a space nobody finds comfortable goes unused, and Bromic's Michael Smith called the pairing of a structure and heating a natural fit for outdoor living.[^s6] [[VERIFY: Michael Smith's current title (pages differ) and permission to keep both comments — Marketing]]
+That idea shaped the 2023 version of this post, written with the louvered-roof maker StruXure. Its founder Scott Selzer argued that a space nobody finds comfortable goes unused, and Bromic's Michael Smith described the pairing of a structure and heating as a natural fit for outdoor living.[^s6] [[VERIFY: Michael Smith's current title (pages differ) and permission to keep both comments — Marketing]]
 
-The cover helps the heater too. Under a partial roof, some of the warmth gathers into a "heat cloud" that adds to the radiant heat.[^s1] Keep enough of the sides open, though: Bromic's planning guide treats a space as outdoor only while at least 30% of its perimeter is permanently open.[^s1] Closing a structure on all sides with screens or glass can change how it is classed; ask the local building authority before you do.
+The cover helps the heater as well. Beneath a partial roof, some of the warmth gathers into a "heat cloud" that adds to the radiant heat.[^s1] Keep enough of the sides open, though, because Bromic's planning guide treats a space as outdoor only while at least 30% of its perimeter is permanently open.[^s1] Enclosing a structure on every side with screens or glass can change how it is classed, so ask the local building authority before you do.
 
-## Which heater suits which structure?
+## The Right Heater For Every Structure
 
 | Structure | Best fit | Mounting | Controls |
 |---|---|---|---|
@@ -98,41 +98,41 @@ The cover helps the heater too. Under a partial roof, some of the warmth gathers
 | Cabana or pavilion wall | Platinum or Tungsten Electric | Wall mount, at least 72 in above the floor | Affinity On/Off or Dimmer, or a wall switch |
 | Lawn or deck beside the structure | Eclipse Freestanding | On its weighted base, on wheels | Eclipse Dimmer Controller and remote, included |
 
-Sources: product pages[^s2][^s3][^s5][^s7] and Lookbook 2026.[^s4] Coverage is about 65–143 ft² for Platinum Electric,[^s2] 65–160 ft² for Tungsten Electric[^s3] and 121 ft² for Eclipse Freestanding.[^s4]
+These recommendations draw on our product pages[^s2][^s3][^s5][^s7] and the Lookbook 2026.[^s4] Coverage is about 65–143 ft² for Platinum Electric,[^s2] 65–160 ft² for Tungsten Electric[^s3] and 121 ft² for Eclipse Freestanding.[^s4]
 
-![Platinum Electric heater flush in a white boarded patio ceiling with a Low-Clearance Recess Kit](img:w-platinumelectricflushmountedw-lowclearancere)
+![Platinum Electric heater sitting flush in a white boarded patio ceiling with a Low-Clearance Recess Kit](img:w-platinumelectricflushmountedw-lowclearancere)
 
-## How do you recess a heater in a louvered roof?
+## A Seamless Fit In A Louvered Roof
 
-Louvered roofs and pergola frames have shallow cavities. The [Low-Clearance Recess Kit](https://www.bromic.com/product/platinum-electric-low-clearance-recess-kit/) sets a Platinum Electric flush in a cavity as shallow as 7.1 in.[^s5] Its built-in cooling fan needs its own power supply, separate from the heater's, so show both feeds on the drawing.[^s5] Agree the heater positions with the structure's maker so the frame carries the kit and the louvers clear the heater. For the soffit detail, see [recessing a heater in a soffit](item:ARC-IN-KB1).
+Louvered roofs and pergola frames tend to have shallow cavities. The [Low-Clearance Recess Kit](https://www.bromic.com/product/platinum-electric-low-clearance-recess-kit/) sets a Platinum Electric flush in a cavity as shallow as 7.1 in.[^s5] Its built-in cooling fan needs its own power supply, separate from the heater's, so show both feeds on the drawing.[^s5] Agree the heater positions with the structure's maker, so the frame carries the kit and the louvers clear the heater as they turn. For the soffit detail, see [recessing a heater in a soffit](item:ARC-IN-KB1).
 
 <div class="diagram">Diagram: a louvered pergola in section with a Platinum Electric recessed in the perimeter beam, the 7.1 in cavity, the separate heater and fan feeds, and the heat footprint over the seating.</div>
 
-## Which controls should a structure have?
+## Controls Planned Alongside The Roof
 
-Plan them with the roof. An Affinity Smart-Heat On/Off or Dimmer controller runs electric heaters by zone, with schedules and timers in the Bromic Smart-Heat app; a manual wall switch is the simplest option.[^s2][^s3] Wi-Fi and app features need compatible Affinity controls, sold separately.[^s4] Where the structure's lights and louvers run on a home automation system, the Affinity expansion board connects the heaters to it. See the [controls overview](https://www.bromic.com/controls/).
+Your controls deserve a place in the plan from the beginning. An Affinity Smart-Heat On/Off or Dimmer controller runs electric heaters by zone, with schedules and timers in the Bromic Smart-Heat app, while a manual wall switch is the simplest choice.[^s2][^s3] Wi-Fi and app features need compatible Affinity controls, sold separately.[^s4] Where the structure's lights and louvers already run on a home automation system, the Affinity expansion board connects the heaters to it as well. Explore the [controls overview](https://www.bromic.com/controls/) for the full range.
 
-## What to settle before the structure is built
+## Before The Structure Goes Up
 
 - Heater positions on the structure's drawings, checked against coverage.
 - Cavity depth at each recessed position.
 - A circuit for each heater, plus the recess kit's fan supply, roughed in before the ceiling closes. See [pre-wiring a patio](item:BLD-IN-01).
 - The controller and the wall switch location.
 
-US electric heaters follow the NEC (ANSI/NFPA 70);[^s1] confirm circuits, clearances and heights with the local building authority and a licensed electrician. Bromic's [design service](https://www.bromic.com/design-your-space/) will draw a free heat layout from your plans.
+US electric heaters follow the NEC (ANSI/NFPA 70);[^s1] confirm circuits, clearances and heights with the local building authority and a licensed electrician. Our [design service](https://www.bromic.com/design-your-space/) will draw a free heat layout from your plans.
 
 ## Frequently asked
 
 ### Can I add heaters to a pergola I already have?
 
-Yes. Beam or wall mounting works on most existing structures; recessing is easiest before the roof is finished.[^s2][^s3]
+Yes. Beam or wall mounting suits most existing structures, and recessing is easiest before the roof is finished.[^s2][^s3]
 
 ### Will heat escape through open louvers?
 
-Radiant heat warms the people beneath it, not the air, so it still works with louvers open; a closed roof holds a little more warmth.[^s1]
+Radiant heat warms the people beneath it rather than the air, so it keeps you comfortable with the louvers open, and a closed roof holds in a little more warmth.[^s1]
 
 ### Do I need a pole under a pergola beam?
 
-Not always. A heater can sit on a bracket on the beam, or on a pole to bring it to the right height above the seating.[^s2]
+Not always. A heater can sit on a bracket fixed to the beam, or on a pole that brings it to the right height above your seating.[^s2]
 
-The 2026 trends data shows where outdoor rooms are heading.
+To see where outdoor rooms are heading next, explore the 2026 trends data.

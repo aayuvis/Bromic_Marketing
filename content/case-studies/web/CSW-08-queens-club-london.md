@@ -7,7 +7,7 @@ audience: ["COM", "ARC"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "The Queen's Club in London opened its renovated terrace to about 100 more restaurant and bar guests and fitted white Tungsten Smart-Heat Electric heaters to keep members outside in spring and late autumn."
+summary: "The Queen's Club in London opened its renovated terrace to about 100 more restaurant and bar guests, with white Tungsten Smart-Heat Electric heaters that keep members outside in spring and late autumn."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-001-000
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: bromic-listing
 completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "ArchiExpo e-Magazine (Bromic Heating project page)"
@@ -43,19 +43,19 @@ sources:
 | Controls | [[VERIFY: controls and zones — Bromic UK]] |
 | Capacity | Terrace opened to about 100 more restaurant and bar guests (per the listing) |
 
-## The space
+## The setting
 
-The club renovated its outdoor terrace and opened it to about 100 more restaurant and bar guests. [^s1]
+The Queen's Club renovated its outdoor terrace and opened it to about 100 more restaurant and bar guests. [^s1]
 
-## What was installed
+## Bringing in the warmth
 
-White Tungsten Smart-Heat Electric heaters, chosen to suit the decor and the tennis theme, so members can dine outside in spring and late autumn.
+White Tungsten Smart-Heat Electric heaters were chosen to suit the decor and the club's tennis theme, so members can dine outside in spring and late autumn.
 
-**Controls.** None A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+The sources do not name the controls used here. Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-A prestige UK sports club with a measurable capacity gain: a reference for clubs, stadium hospitality and members' venues, a segment with few Bromic stories.
+A prestige UK sports club with a measurable gain in capacity gives us a reference for clubs, stadium hospitality and members' venues, a segment with few Bromic stories.
 
 ## Photos
 

@@ -10,11 +10,11 @@ audience: [RES]
 stage: [AW]
 cell: RES-AW
 asset: A24
-summary: "Never a gas or propane patio heater: a garage traps carbon monoxide, open door or not. An electric heater can be an option where its manual allows, mounted high, wired by a licensed electrician and kept away from fuel and clutter. Where patio heaters belong instead."
+summary: "A garage is no place for a gas or propane patio heater – it traps carbon monoxide, whether the door is open or closed. Where its manual allows, an electric infrared heater can warm a workshop, mounted high and wired by a licensed electrician. And where your patio heater truly belongs."
 primary_keyword: patio heater in garage
 secondary_keywords: [propane heater in garage, electric heater for garage, is it safe to use a patio heater indoors, garage heater carbon monoxide]
 ai_prompt: "Is it safe to use a propane or electric patio heater in my garage?"
-meta_description: "Never run a gas or propane patio heater in a garage, door open or not. Electric can work if its manual allows, mounted high and wired by an electrician."
+meta_description: "A gas or propane patio heater in a garage is never safe, door open or not. Electric can work if the manual allows, mounted high, wired by an electrician."
 cta: {label: "Size your space", asset: A03}
 hero: w-dsc05737-courtney-saib
 owner_review: Marketing
@@ -23,7 +23,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-CO-KB2, BLD-BY-KB1, BLD-IN-KB1, RES-PP-KB1]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Centers for Disease Control and Prevention
@@ -75,18 +75,17 @@ sources:
     supports: "Primary code sources for electrical installation and propane cylinder storage"
     verified: false
 ---
+A gas or propane patio heater should never be used in a garage. Every flame makes carbon monoxide, and a garage holds on to it, which is why the CDC advises against using propane or natural gas devices inside a garage at all.[^s1] Opening the door does not change that. Electric infrared heat burns nothing, so it can be an option, but only where its manual allows the space and it is mounted high and wired by a licensed electrician.[^s2]
 
-Never use a gas or propane patio heater in a garage. Burning fuel makes carbon monoxide, and a garage traps it; the CDC advises against using propane or natural gas devices inside a garage at all.[^s1] An open door does not make it safe. An electric infrared heater burns nothing, so it can be an option, but only if its manual allows the space, it is mounted high and wired by a licensed electrician.[^s2]
+![Screened porch with a vaulted timber ceiling, a fireplace and two black Tungsten Electric heaters on drop poles, warming the seating below](img:w-dsc05737-courtney-saib)
 
-![Screened porch with a vaulted timber ceiling, a fireplace and two black Tungsten Electric heaters on drop poles](img:w-dsc05737-courtney-saib)
+## Why Gas Has No Place In A Garage
 
-## Why is gas never safe in a garage?
+Gas and propane heaters burn fuel and release carbon monoxide, a gas you can neither see nor smell, and in the closed volume of a garage it builds up quickly. The CDC's guidance is clear: do not use propane, natural gas or gasoline-burning devices inside a home, basement or garage, or near a window.[^s1]
 
-Gas and propane heaters burn fuel and release carbon monoxide, which has no colour or smell. In a garage it builds up fast. The CDC's guidance is plain: do not use propane, natural gas or gasoline-burning devices inside a home, basement or garage, or near a window.[^s1]
+**Can I use it with the garage door open?** Not with a gas heater. An open door was never designed as ventilation, and a gust of wind can carry fumes back inside and on into the house. Bromic does not recommend gas heaters in any enclosed or semi-enclosed space.[^s2] For context, our Planning Guide treats a space as outdoor only when at least 30% of its perimeter is permanently open, and a garage with one door falls well short of that.[^s3]
 
-**Can I use it with the garage door open?** Not a gas heater. An open door is not a ventilation design, and wind can push fumes back in and into the house. Bromic does not recommend gas heaters in any enclosed or semi-enclosed space.[^s2] For context, Bromic's Planning Guide treats a space as outdoor only when at least 30% of its perimeter is permanently open, which a garage with one door is not.[^s3]
-
-## Electric or gas: the garage at a glance
+## Electric And Gas In The Garage, Side By Side
 
 | | Electric infrared | Gas or propane |
 |---|---|---|
@@ -95,24 +94,24 @@ Gas and propane heaters burn fuel and release carbon monoxide, which has no colo
 | Main risks | Hot element near stored items, overloaded circuit | Carbon monoxide; fuel stored beside a flame |
 | Code (US) | NFPA 70, the National Electrical Code[^s3] | NFPA 54 and, for cylinders, NFPA 58[^s3][^s7] |
 
-## If you want electric heat in a garage, what does it take?
+## Bringing Electric Warmth Into A Garage
 
-Bromic heaters are designed and certified as outdoor heaters. Bromic's gallery shows a Cobalt Electric installed in a garage,[^s5] but check the installation manual for your model before you plan one indoors. [[VERIFY: whether Tungsten, Cobalt and Platinum Electric manuals permit installation in an enclosed garage, and any conditions — Product team]]
+Bromic heaters are designed and certified as outdoor heaters. Our gallery shows a Cobalt Electric installed in a garage,[^s5] yet the installation manual for your model should always be your first read before you plan a heater indoors. [[VERIFY: whether Tungsten, Cobalt and Platinum Electric manuals permit installation in an enclosed garage, and any conditions — Product team]]
 
-- **Mount it high.** Cobalt needs at least 6 ft on a wall and 8 ft on a ceiling; Tungsten and Platinum Electric need 72 in and 96 in.[^s4][^s3] Up high, it sits above car roofs, ladders and storage.
-- **Keep it away from fuel and clutter.** Never aim a heater at gasoline cans, paint, solvents, cardboard or a car's fuel filler. Leave the manual's clearances free.
-- **Use a dedicated circuit.** A Cobalt 6000 W draws 25 A at 240 V; a Tungsten 2000 W far less.[^s4] A licensed electrician sizes the circuit and protection: see [breaker size](item:BLD-IN-KB1) and [GFCI](item:BLD-BY-KB1).
-- **Pick the controls.** Every heater runs from a control: an Affinity Smart-Heat On/Off or Dimmer controller, or a manual wall switch.[^s4] App timers and schedules make sure it switches off; Wi-Fi and app features need compatible Affinity controls, sold separately.[^s6]
+- **Mount it high.** Cobalt needs at least 6 ft on a wall and 8 ft on a ceiling; Tungsten and Platinum Electric need 72 in and 96 in.[^s4][^s3] Set up high, the heater sits well above car roofs, ladders and storage.
+- **Keep it clear of fuel and clutter.** Never aim a heater at gasoline cans, paint, solvents, cardboard or a car's fuel filler, and keep the clearances in the manual free.
+- **Give it a dedicated circuit.** A Cobalt 6000 W draws 25 A at 240 V, while a Tungsten 2000 W draws far less.[^s4] A licensed electrician sizes the circuit and its protection – see [breaker size](item:BLD-IN-KB1) and [GFCI](item:BLD-BY-KB1).
+- **Plan the controls with the heater.** Every heater runs from a control: an Affinity Smart-Heat On/Off or Dimmer controller, or a manual wall switch.[^s4] App timers and schedules make sure the warmth switches off when you are done; Wi-Fi and app features need compatible Affinity controls, sold separately.[^s6]
 
 <div class="diagram">Diagram: a garage in section, electric heater on the wall above 72 in, angled at the work bench, a 3 ft clear zone below it, and a no-go zone round the fuel and paint shelf</div>
 
-## What about storing a propane cylinder in the garage?
+## Storing A Propane Cylinder Safely
 
-Keep cylinders outdoors, upright and closed, away from heat and anything that burns. Propane storage is governed by NFPA 58 and your local fire code.[^s7] An earlier Bromic post named a detached garage or shed as a storage option; check the manual for your heater and your local fire authority before you rely on that. [[VERIFY: cylinder storage wording in the Tungsten Smart-Heat Freestanding manual — Product team]]
+Keep cylinders outdoors, upright and closed, away from heat and anything that can burn. Propane storage is governed by NFPA 58 and your local fire code.[^s7] An earlier Bromic post named a detached garage or shed as a storage option; check the manual for your heater and your local fire authority before you rely on that. [[VERIFY: cylinder storage wording in the Tungsten Smart-Heat Freestanding manual — Product team]]
 
-## Where do patio heaters belong?
+## Where Your Patio Heater Truly Shines
 
-Outdoor heaters are designed for open and semi-open spaces.[^s2]
+Outdoor heaters are designed for open and semi-open spaces – a covered patio or a terrace by the pool – where the evening air carries fumes away and radiant warmth reaches everyone at the table.[^s2]
 
 | Space | Electric | Gas or propane |
 |---|---|---|
@@ -122,9 +121,9 @@ Outdoor heaters are designed for open and semi-open spaces.[^s2]
 | Screened porch | Usually; check the manual | Treat with care: check the manual and code |
 | Garage, shed, closed room | Only if the manual allows | No |
 
-Browse [electric outdoor heaters](https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/) or [gas and propane heaters](https://www.bromic.com/outdoor-heaters/outdoor-gas-heaters/) for open spaces.
+Explore our [electric outdoor heaters](https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/) or [gas and propane heaters](https://www.bromic.com/outdoor-heaters/outdoor-gas-heaters/) for open spaces.
 
-Codes and fuel rules vary by city. Confirm any installation with your local building authority and a licensed electrician or gas fitter, and download the [installation manual](https://www.bromic.com/technical-resources/) for your model.
+Codes and fuel rules vary from city to city. Confirm any installation with your local building authority and a licensed electrician or gas fitter, and download the [installation manual](https://www.bromic.com/technical-resources/) for your model.
 
 ## Frequently asked
 
@@ -134,10 +133,10 @@ No. The CDC advises against using propane or natural gas devices inside a garage
 
 ### Is an electric patio heater safe in a garage?
 
-It produces no carbon monoxide,[^s2] so it can be, if the manual allows it, it is mounted high, kept clear of fuel and stored items, and wired by a licensed electrician.
+An electric heater produces no carbon monoxide,[^s2] so it can be safe where the manual allows it, mounted high, kept clear of fuel and stored items, and wired by a licensed electrician.
 
 ### What size electric heater does a garage need?
 
-It depends on the area you want warm, not the whole garage. Tungsten Electric covers about 65–160 ft² from 2000 to 6000 W.[^s4]
+That depends on the area you want to keep warm, which is usually the bench or the corner where you work rather than the whole garage. Tungsten Electric covers about 65–160 ft² from 2000 to 6000 W.[^s4]
 
-Not sure what fits? Size your space with the Bromic calculator.
+Wondering what will suit your space? Size it in a few minutes with the Bromic calculator.

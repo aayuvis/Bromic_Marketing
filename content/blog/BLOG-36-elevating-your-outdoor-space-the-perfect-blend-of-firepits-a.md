@@ -1,7 +1,7 @@
 ---
 id: BLOG-36
 type: blog
-title: "Fire pits and radiant heaters: why the best patios use both"
+title: "Fire Pit vs Patio Heater: Why The Most Inviting Patios Use Both"
 slug: elevating-your-outdoor-space-the-perfect-blend-of-firepits-and-radiant-outdoor-heaters
 live_url: https://www.bromic.com/blog/elevating-your-outdoor-space-the-perfect-blend-of-firepits-and-radiant-outdoor-heaters/
 action: keep-fix
@@ -10,11 +10,11 @@ audience: [RES]
 stage: [AW]
 cell: RES-AW
 asset: A24
-summary: "What a fire pit does well, what a radiant heater does well, and how to plan a patio where the fire is the focal point and the heaters keep every seat warm."
+summary: "What a fire pit brings to an evening outdoors, what radiant heaters bring, and how to plan a patio where the fire is the focal point and the heaters keep every seat warm."
 primary_keyword: fire pit vs patio heater
 secondary_keywords: [fire pit and patio heater, radiant outdoor heater, outdoor fire feature, patio heating ideas]
 ai_prompt: "Is a fire pit or a patio heater better for keeping warm outside?"
-meta_description: "Fire pit or patio heater? A fire is a focal point; radiant heaters warm every seat. How to plan a patio with both, and the controls the heaters need."
+meta_description: "Fire pit vs patio heater: the fire is the focal point, radiant heaters warm every seat. How to plan a patio with both, and the controls the heaters need."
 cta: {label: "Download the Outdoor Living Trends 2026 report", asset: A01}
 hero: w-black-tungsten-electric-mounted-chicago
 images: [w-bromic-centrico-photos-8, w-dsc01860-bearbeitet]
@@ -24,7 +24,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-AW-01, RES-CO-01, RES-PP-01, RES-CO-KB2]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -70,27 +70,27 @@ sources:
     verified: true
 ---
 
-Use both. A fire pit is the focal point: flame, a place to gather, a reason to stay out. It warms the people closest to it and leaves the rest of the patio cold. Radiant heaters warm every seat evenly, from above or from a wall, and work in a light breeze.[^s1] Plan the fire as the centre of the space and the heaters as the comfort around it.
+The most inviting patios use both. A fire pit becomes the heart of the evening, with a flame to gather around and a reason to stay out a little longer, though it warms only the people closest to it. Radiant heaters bring even warmth to every seat, from above or from a wall, and keep working in a light breeze.[^s1] Plan the fire as the centre of your space and the heaters as the comfort that surrounds it.
 
-![Electric heater on a brick house wall seen past a pergola and a gas fire pit](img:w-black-tungsten-electric-mounted-chicago)
+![Electric heater on a brick house wall, seen past a pergola and a gas fire pit](img:w-black-tungsten-electric-mounted-chicago)
 
-## What does a fire pit do well, and what doesn't it?
+## The Magic Of An Open Flame
 
-A fire pit gives what no heater can: a flame to look at and a reason to pull chairs into a circle.[^s6] It is the room's fireplace.
+A fire pit offers something no heater can: a flame to watch and a reason to pull the chairs into a circle.[^s6] It is the fireplace of your outdoor room.
 
-Its warmth is uneven. The front of you is warm, your back is not, and the seats at the edge of the patio get little. Smoke follows the wind. A wood fire takes time to light and to put out.
+Its warmth, though, is uneven. You feel it on your face while your back stays cool, and the seats at the edge of the patio feel very little of it. The smoke drifts wherever the wind takes it, and a wood fire takes time both to light and to put out.
 
 Fire features come in three kinds:[^s6]
 
-- **Wood-burning.** The crackle and smell of a real fire, and it can cook. Needs tending; smoke moves with the wind.
+- **Wood-burning.** The crackle and scent of a real fire, and you can cook over it. It needs tending, and its smoke moves with the wind.
 - **Gas.** Lights at a switch, with a flame you can turn up or down.
-- **Electric.** Low upkeep, with a flame effect rather than a flame.
+- **Electric.** Low upkeep, with a flame effect in place of a real flame.
 
-Local rules on open burning vary. Check with the local fire authority before you build a wood-burning pit.
+Local rules on open burning vary, so check with the local fire authority before you build a wood-burning pit.
 
-## What does a radiant heater do well?
+## Even Warmth For Every Seat
 
-Radiant (infrared) heat warms people and surfaces directly, not the air between them, so it still works when there is a breeze.[^s1] Short-wave heaters are warm within moments of switching on.[^s1] Mounted overhead or on a wall, they cover the dining table, the lounge and the bar, not just the circle by the fire, and there is no smoke.
+Radiant (infrared) heat warms people and surfaces directly rather than the air between them, so it keeps you comfortable when a breeze picks up.[^s1] Short-wave heaters are warm within moments of switching on.[^s1] Mounted overhead or on a wall, they reach the dining table, the lounge and the bar as well as the circle by the fire, all without smoke.
 
 | | Fire pit | Radiant heater |
 |---|---|---|
@@ -100,18 +100,18 @@ Radiant (infrared) heat warms people and surfaces directly, not the air between 
 | Where it sits | On the ground, at the centre | Ceiling, wall, pole or freestanding |
 | Control | Light it and tend it, or a gas valve | Switch, dimmer or app, by zone |
 
-## How do you plan a patio with both?
+## Bringing Fire And Radiant Warmth Together
 
-1. **Put the fire where people gather.** Usually the lounge, with seating around it.
-2. **Heat the seats the fire cannot reach.** The dining table, the bar and the far side of the lounge.
-3. **Keep heaters clear of the flame and smoke.** Mount them over seating, not over the fire. Follow each heater's clearances.
-4. **Give each area its own control,** so the dining heaters can run while the fire burns down.
+1. **Place the fire where people gather.** This is usually the lounge, with seating arranged around it.
+2. **Warm the seats the fire cannot reach.** Think of the dining table, the bar and the far side of the lounge.
+3. **Keep heaters clear of the flame and smoke.** Mount them over the seating rather than over the fire, and follow each heater's clearances.
+4. **Give each area its own control,** so the dining heaters can keep running while the fire burns down to embers.
 
 <div class="diagram">Diagram: a patio plan with a fire pit at the centre of the lounge, its warm circle drawn, and radiant heater footprints over the dining table and the outer seats.</div>
 
 ![Fire bowl and lounge chairs before a circular pergola bar with heaters on the ring beam](img:w-bromic-centrico-photos-8)
 
-## Which Bromic heater suits a patio with a fire pit?
+## Choosing A Bromic Heater To Sit Alongside Your Fire
 
 | Heater | Suits | Controls |
 |---|---|---|
@@ -119,24 +119,24 @@ Radiant (infrared) heat warms people and surfaces directly, not the air between 
 | Platinum Electric | A slim heater recessed or mounted on a ceiling or wall, about 65–143 ft²[^s2] | Affinity On/Off or Dimmer, or a manual wall switch[^s5] |
 | Tungsten Electric | A strong heater for a wall or beam, about 65–160 ft²[^s3] | Affinity On/Off or Dimmer, or a manual wall switch[^s3] |
 
-Every heater needs a controller or a wall switch. With an Affinity controller, the Bromic Smart-Heat app runs zones, schedules and timers; Wi-Fi and app features need compatible Affinity controls, sold separately.[^s2] See the [controls overview](https://www.bromic.com/controls/).
+Every heater is paired with a controller or a wall switch. With an Affinity controller, the Bromic Smart-Heat app runs zones, schedules and timers; Wi-Fi and app features need compatible Affinity controls, sold separately.[^s2] Explore the [controls overview](https://www.bromic.com/controls/) to find the right one.
 
-![Timber garden pavilion lounge at dusk with an Eclipse heater on the ceiling](img:w-dsc01860-bearbeitet)
+![Timber garden pavilion lounge at dusk, warmed by an Eclipse heater on the ceiling](img:w-dsc01860-bearbeitet)
 
-For more on heater types, see [electric vs gas patio heaters](item:RES-CO-01) and [where to place patio heaters](item:RES-PP-01), or browse [all outdoor heaters](https://www.bromic.com/outdoor-heaters/). Bromic's [design service](https://www.bromic.com/design-your-space/) will draw a free heat layout around your fire feature.
+To learn more about heater types, see [electric vs gas patio heaters](item:RES-CO-01) and [where to place patio heaters](item:RES-PP-01), or browse [all outdoor heaters](https://www.bromic.com/outdoor-heaters/). Our [design service](https://www.bromic.com/design-your-space/) will draw a free heat layout around your fire feature.
 
 ## Frequently asked
 
 ### Is a fire pit enough to heat a patio?
 
-Usually not. It warms the people nearest it; radiant heaters warm the rest of the seating.
+Usually it is not. A fire pit warms the people nearest to it, and radiant heaters bring that comfort to the rest of the seating.
 
 ### Can a heater go above a fire pit?
 
-Place heaters over seating, not over the fire, and follow each heater's clearances. Confirm the layout with your installer.
+Place your heaters over the seating rather than over the fire, and follow each heater's clearances. Confirm the layout with your installer.
 
 ### Do radiant heaters work in wind?
 
-In a light wind, yes: they warm people, not air.[^s1] See [do infrared heaters work in wind](item:RES-CO-KB1).
+In a light wind, yes, because they warm people rather than the air.[^s1] See [do infrared heaters work in wind](item:RES-CO-KB1).
 
-The 2026 trends data shows how homeowners are planning their outdoor rooms.
+To see how homeowners are planning their outdoor rooms, explore the 2026 trends data.

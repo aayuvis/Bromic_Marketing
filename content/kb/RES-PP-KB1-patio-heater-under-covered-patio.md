@@ -7,18 +7,18 @@ audience: [RES]
 stage: [PP]
 cell: RES-PP
 asset: null
-summary: "Yes, with the right heater and clearances. What 'outdoor' means, why electric suits covered spaces, and what a gas heater under a roof needs."
+summary: "Yes, with the right heater and clearances. What makes a covered space count as outdoor, why electric heat suits a roof so well, and what a gas heater under cover needs."
 primary_keyword: patio heater under covered patio
 secondary_keywords: [ceiling mounted patio heater, covered patio heater]
 ai_prompt: "Can I put a patio heater under a covered patio?"
-meta_description: "Yes. Ceiling-mounted electric heaters suit covered patios; keep 30% of the perimeter open and follow the manual's clearances. Gas needs more care."
+meta_description: "A patio heater under a covered patio works beautifully with ceiling-mounted electric heat. Keep 30% of the perimeter open and follow the manual."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-010-071
 owner_review: Marketing
 status: draft
 gated: false
 related: [RES-PP-01, RES-CO-01, RES-CO-KB2]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -43,7 +43,7 @@ sources:
     verified: true
 ---
 
-Yes. A covered patio is one of the best places for a heater, provided the space still counts as outdoor – at least 30% of its perimeter permanently open – and the heater keeps the clearances its installation manual sets.[^s1] Built-in electric heaters, mounted on the ceiling or recessed into it, are the usual choice. A partial cover even helps: it holds a "heat cloud" over the seating that adds a convective boost.[^s1]
+You can, and a covered patio is one of the loveliest places to add warmth, provided the space still counts as outdoor – at least 30% of its perimeter permanently open – and the heater keeps the clearances its installation manual sets.[^s1] Built-in electric heaters, mounted on the ceiling or recessed into it, are the usual choice. A partial cover even helps, holding a "heat cloud" over the seating that adds a convective boost.[^s1]
 
 ## Electric or gas under a roof?
 
@@ -54,12 +54,12 @@ Yes. A covered patio is one of the best places for a heater, provided the space 
 | Height | Ceiling ≥96", wall ≥72" above floor (Bromic guidance)[^s1] | Overhead clearance per manual [[VERIFY: Tungsten Freestanding Gas overhead clearance — Product team]] |
 | Ways to manage clearance | Recess kits; suspension poles for tall ceilings; low-clearance recessing on Tungsten (coming soon)[^s1][^s2] | Heat deflectors reduce clearance above built-in gas heaters[^s1] |
 
-## What do I check before installing?
+## Getting your covered patio ready
 
-- **Openness.** At least 30% of the perimeter open. Close it in further – glass walls, drop-down screens – and it may no longer count as outdoor.[^s1] Most manufacturers say gas heaters should never run in an enclosed area.[^s3]
-- **Ceiling height and material.** Minimum mounting heights, then clearance from the ceiling, which varies with output.[^s1] Timber needs its clearance to combustibles. [[VERIFY: clearance table by model — Product team]]
+- **Openness.** Keep at least 30% of the perimeter open. Close it in further with glass walls or drop-down screens and it may no longer count as outdoor.[^s1] Most manufacturers say gas heaters should never run in an enclosed area.[^s3]
+- **Ceiling height and material.** Start with the minimum mounting heights, then the clearance from the ceiling, which varies with output.[^s1] A timber ceiling needs its clearance to combustibles. [[VERIFY: clearance table by model — Product team]]
 - **Controls.** Every heater needs one: an Affinity On/Off, Dimmer or Eclipse controller, or a wall switch. App zones and schedules need compatible Affinity Smart-Heat Controls, sold separately.[^s2]
-- **Code.** Electric work to ANSI/NFPA 70, gas to ANSI Z223.1/NFPA 54.[^s1] Confirm with your local building authority and a licensed electrician or gas fitter.
+- **Code.** Electric work follows ANSI/NFPA 70 and gas work ANSI Z223.1/NFPA 54.[^s1] Confirm with your local building authority and a licensed electrician or gas fitter.
 
 See [where to place patio heaters](item:RES-PP-01) for spacing and aim.
 

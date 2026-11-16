@@ -1,13 +1,13 @@
 ---
 id: CSW-06
 type: case-study
-title: "Sammamish, Washington: heat and fans under a cedar patio cover"
+title: "Sammamish, Washington: warmth and airflow under a cedar patio cover"
 slug: csw-06
 audience: ["RES", "BLD"]
 stage: [IN, PP]
 cell: BLD-IN
 asset: A19
-summary: "PCF Group built a cedar gable-roof patio cover with skylights over a new deck in Sammamish, Washington, and fitted Bromic outdoor heaters with ceiling fans for year-round comfort."
+summary: "Over a new deck in Sammamish, Washington, PCF Group built a cedar gable-roof patio cover with skylights and fitted Bromic outdoor heaters with ceiling fans for year-round comfort."
 cta: {label: "Book a design consult", asset: A07}
 hero: w-ar-homes-4118-opt
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: snippet-only
 completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "PCF Group"
@@ -49,19 +49,19 @@ sources:
 | Products | Bromic outdoor heaters [[VERIFY: model and quantity — US field sales]] |
 | Controls | [[VERIFY: controls; a 2025 Washington permit for this contractor lists two 30 A Bromic heaters on timers, possibly this job — US field sales]] |
 
-## The space
+## The setting
 
-A cedar gable-roof patio cover with skylights over a new custom deck, built for chilly Pacific Northwest evenings. [^s1][^s2]
+Built for chilly Pacific Northwest evenings, a cedar gable-roof patio cover with skylights shelters a new custom deck. [^s1][^s2]
 
-## What was installed
+## Bringing in the warmth
 
-Bromic outdoor heaters fitted with ceiling fans to manage temperature and airflow through the year.
+Bromic outdoor heaters were fitted together with ceiling fans, so temperature and airflow can be tuned through the year.
 
-**Controls.** None A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+The sources do not name the controls used here. Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-Rainy, cool climate; a covered-patio contractor pairing heat with fans: a typical Pacific Northwest buyer and a builder-channel story.
+A rainy, cool climate and a covered-patio contractor pairing heat with fans make this a story for the typical Pacific Northwest buyer and for the builder channel.
 
 ## Photos
 

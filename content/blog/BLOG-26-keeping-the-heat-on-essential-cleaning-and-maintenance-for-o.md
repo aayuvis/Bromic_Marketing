@@ -1,7 +1,7 @@
 ---
 id: BLOG-26
 type: blog
-title: "How to clean and maintain an outdoor heater: a seasonal checklist"
+title: "Patio heater maintenance through the seasons: caring for your outdoor heater"
 slug: keeping-the-heat-on-essential-cleaning-and-maintenance-for-outdoor-heaters
 live_url: https://www.bromic.com/blog/keeping-the-heat-on-essential-cleaning-and-maintenance-for-outdoor-heaters/
 action: keep-fix
@@ -10,11 +10,11 @@ audience: [COM, RES]
 stage: [BY]
 cell: COM-BY
 asset: A24
-summary: "A safe routine for Bromic gas and electric outdoor heaters: what to do before you touch one, what to clean and how often, the season-start and season-end checks, storage, controls, and where warranty terms live."
+summary: "A little care keeps your Bromic gas or electric heater ready for every evening outdoors. What to do before you touch one, what to clean and how often, the checks at the start and end of each season, storage, controls, and where to find warranty terms."
 primary_keyword: patio heater maintenance
 secondary_keywords: [how to clean outdoor heater, outdoor heater maintenance checklist, patio heater storage]
 ai_prompt: "How do I clean and maintain my outdoor heater?"
-meta_description: "Clean and maintain outdoor heaters safely: precautions, a cleaning routine, season-start and season-end checks, storage and controls, gas and electric."
+meta_description: "Patio heater maintenance made simple: safe cleaning, season-start and season-end checks, storage and controls for Bromic gas and electric outdoor heaters."
 cta: {label: "Get the operations playbook", asset: A23}
 hero: w-bromic-shoot-may-11-2023-54
 images: [w-tungsten-portable-cover-v3]
@@ -24,7 +24,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [COM-BY-01, RES-BY-01, BLD-BY-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -62,27 +62,26 @@ sources:
     supports: "US electric heaters follow NFPA 70, gas heaters NFPA 54; check with the local building authority"
     verified: true
 ---
+Caring for an outdoor heater is simple when you do it with the heater switched off and cool. Wipe the housing with a soft microfiber cloth, clear away leaves, nests and cobwebs, and keep water and harsh cleaners away from the elements. At the start and end of each season, check the mounts, cords and controls; on gas heaters, leak-test the connections and have a licensed gas fitter inspect the supply at least once a year. Anything beyond surface cleaning belongs with a licensed trade.
 
-Clean an outdoor heater only when it is off and cool: wipe the housing with a soft microfiber cloth, clear leaves, nests and cobwebs, and keep water and harsh cleaners away from the elements. At the start and end of each season, check mounts, cords and controls; on gas heaters, leak-test the connections and have a licensed gas fitter inspect the supply at least once a year. Anything beyond surface cleaning goes to a licensed trade.
+![Platinum Electric heater recessed flush in a timber-lined ceiling with stainless trim, ready for the evening](img:w-bromic-shoot-may-11-2023-54)
 
-![Platinum Electric heater recessed flush in a timber-lined ceiling with stainless trim](img:w-bromic-shoot-may-11-2023-54)
+## Before You Clean Or Service A Heater
 
-## What should you do before cleaning or servicing?
+Our own guidance, in order:[^s1]
 
-Bromic's own guidance, in order:[^s1]
-
-1. **Switch off and let it cool.** Isolate an electric heater at its wall switch or breaker; close the gas supply on a gas heater.
+1. **Switch off and let it cool.** Isolate an electric heater at its wall switch or breaker, and close the gas supply on a gas heater.
 2. **Clear the area.** Remove anything flammable and any debris, nests or fallen leaves around and above the heater.
 3. **Ventilate.** Gas heaters need open air to disperse exhaust.
-4. **Check gas connections for leaks** by brushing a soapy water solution over them. Bubbles mean a leak: shut off the gas and call a professional at once.
+4. **Check gas connections for leaks** by brushing a soapy water solution over them. Bubbles mean a leak, so shut off the gas and call a professional straight away.
 
-## How should you clean an outdoor heater?
+## Cleaning Your Heater With Care
 
-Gently. Wipe dust and debris from the housing with a microfiber cloth. Avoid harsh chemicals and excess water, which can cause rust and corrosion.[^s1] Never spray water into an element or burner, and never open a sealed unit. On coastal sites, rinse salt from stainless surfaces as your model's manual directs. [[VERIFY: Bromic recommended cleaning method and products per model, including coastal care — Product team]]
+A gentle touch is all your heater asks for. Wipe dust and debris from the housing with a microfiber cloth, and avoid harsh chemicals and excess water, which can cause rust and corrosion.[^s1] Never spray water into an element or burner, and never open a sealed unit. On coastal sites, rinse salt from stainless surfaces as your model's manual directs. [[VERIFY: Bromic recommended cleaning method and products per model, including coastal care — Product team]]
 
-## What is the maintenance checklist?
+## Your Seasonal Maintenance Checklist
 
-Generic guidance; your model's installation and operating manual takes precedence. Manuals are on [technical resources](https://www.bromic.com/technical-resources/).
+This is general guidance, and your model's installation and operating manual always takes precedence. You will find every manual on our [technical resources](https://www.bromic.com/technical-resources/) page.
 
 | Task | Who | When |
 |---|---|---|
@@ -97,23 +96,23 @@ Generic guidance; your model's installation and operating manual takes precedenc
 
 [[VERIFY: Bromic recommended maintenance intervals per model — Product team]]
 
-*Gas and electrical work is regulated: in the US, NFPA 54 for gas and NFPA 70 for electric installations.[^s5] Confirm requirements with your local building authority and use a licensed gas fitter or electrician.*
+*Gas and electrical work is regulated: in the US, NFPA 54 covers gas and NFPA 70 covers electric installations.[^s5] Confirm requirements with your local building authority and use a licensed gas fitter or electrician.*
 
-## Do the controls need maintenance too?
+## Keeping Your Controls In Tune
 
-They need checking, because they decide how the heaters run. At season start, test each zone from its Affinity Smart-Heat On/Off or Dimmer controller, the Eclipse controller and the manual wall switch, then reset the app's schedules and timers for the new season.[^s2] Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately. A schedule left from summer is how heaters end up on over an empty patio. More on zones and schedules for venues: [running a heated patio](item:COM-BY-01); for homes: [setting up Smart-Heat controls](item:RES-BY-01).
+Your controls decide how and when the heaters run, so they deserve a check of their own. At the start of each season, test every zone from its Affinity Smart-Heat On/Off or Dimmer controller, the Eclipse controller and the manual wall switch, then reset the app's schedules and timers for the months ahead.[^s2] Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately. A schedule left over from summer can leave heaters warming an empty patio. For more on zones and schedules, venues can read [running a heated patio](item:COM-BY-01), and homeowners [setting up Smart-Heat controls](item:RES-BY-01).
 
-## How should you store outdoor heaters?
+## Storing Your Heaters Between Seasons
 
-- **Freestanding heaters:** store in a dry, sheltered place such as a garage or shed, or fit a cover against dust and debris.[^s1] The [Tungsten Freestanding Cover](https://www.bromic.com/product/tungsten-freestanding-cover/) fastens over the heater head.
-- **Fixed heaters:** a heater mounted under a roof or soffit lasts longer than one fully exposed.[^s1]
-- **Exposed heaters:** inspect thoroughly before the first use of the season.[^s1]
+- **Freestanding heaters:** store in a dry, sheltered place such as a garage or shed, or fit a cover against dust and debris.[^s1] The [Tungsten Freestanding Cover](https://www.bromic.com/product/tungsten-freestanding-cover/) fastens neatly over the heater head.
+- **Fixed heaters:** a heater mounted under a roof or soffit lasts longer than one that is fully exposed.[^s1]
+- **Exposed heaters:** inspect thoroughly before the first evening of the season.[^s1]
 
-![Bromic cover fitted over the head of a Tungsten freestanding heater](img:w-tungsten-portable-cover-v3)
+![Bromic cover fitted over the head of a Tungsten freestanding heater, protecting it between uses](img:w-tungsten-portable-cover-v3)
 
-## What does the warranty cover?
+## Your Warranty
 
-Terms differ by product. The live post gave a 1-year parts warranty for all heaters; Bromic's product pages now list longer terms for several models.[^s3] Check the current [warranty terms](https://www.bromic.com/warranty/) before relying on any of these.[^s4]
+Terms differ from product to product. The live post gave a 1-year parts warranty for all heaters, and our product pages now list longer terms for several models.[^s3] Please check the current [warranty terms](https://www.bromic.com/warranty/) before relying on any of these.[^s4]
 
 | Product | Warranty listed on the product page |
 |---|---|
@@ -131,17 +130,17 @@ Terms differ by product. The live post gave a 1-year parts warranty for all heat
 
 ### How often should I clean my patio heater?
 
-Wipe and clear debris regularly while it is in use, and do a full check at the start and end of each season. Gas heaters also need a professional inspection at least once a year.[^s1]
+Wipe it and clear away debris regularly while it is in use, and give it a full check at the start and end of each season. Gas heaters also need a professional inspection at least once a year.[^s1]
 
 ### Can I hose down an outdoor heater?
 
-No. Excess water can cause rust and corrosion and should never be sprayed into an element or burner.[^s1]
+No. Excess water can cause rust and corrosion, and it should never be sprayed into an element or burner.[^s1]
 
 ### What if my heater will not ignite or heats unevenly?
 
 Stop using it and contact [Bromic technical support](https://www.bromic.com/contact-technical-support/) or a licensed trade.
 
-For venues, the operations playbook puts this routine into one shift-by-shift SOP.
+For venues, our operations playbook brings this routine together in one shift-by-shift SOP.
 
 [^s1]: Bromic Heating, live post, read 29 Oct 2026.
 [^s2]: Bromic Heating, Lookbook 2026.

@@ -1,17 +1,17 @@
 ---
 id: ARC-BY-KB1
 type: kb
-title: "What clearance does an outdoor infrared heater need from combustibles?"
+title: "Patio heater clearance: how much space an outdoor infrared heater needs from combustibles"
 slug: outdoor-heater-clearance-combustibles
 audience: [ARC]
 stage: [BY]
 cell: ARC-BY
 asset: A24
-summary: "Clearances are set per model by the installation manual and the listing, not by a rule of thumb. Where to find them and how to draw them."
+summary: "Each heater sets its own clearances in its installation manual and listing. Where to find the numbers and how to draw them, so the heater sits beautifully in the architecture."
 primary_keyword: patio heater clearance
 secondary_keywords: [infrared heater clearance to combustibles, outdoor heater ceiling clearance]
 ai_prompt: "What clearance does an outdoor infrared heater need from combustibles?"
-meta_description: "Outdoor infrared heater clearance to combustibles: where the numbers come from, what to draw, and Bromic's minimum mounting heights."
+meta_description: "Patio heater clearance to combustibles comes from each model's manual and listing. Where to find the numbers, what to draw and Bromic's minimum heights."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-010-070
 images: []
@@ -19,7 +19,7 @@ owner_review: Product team
 status: draft
 gated: false
 related: [ARC-BY-01, ARC-IN-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -37,7 +37,9 @@ sources:
     verified: true
 ---
 
-It depends on the model and its output. Clearance to combustibles is set by each heater's installation manual and its certification listing, so take the figures from the manual for the exact model and voltage on the drawings. There is no safe universal number. Bromic's general guidance gives minimum mounting heights of 72 in above floor for wall mounts and 96 in for ceiling mounts, and notes that ceiling clearance varies with energy output[^s1].
+Each heater sets its own clearances, so the right numbers come from the installation manual and certification listing for the exact model and voltage on your drawings – there is no universal figure that holds for every heater. As a general guide, Bromic sets minimum mounting heights of 72 in above the floor for wall mounts and 96 in for ceiling mounts, and ceiling clearance varies with energy output[^s1].
+
+Drawn in from the start, those clearances let a heater sit quietly within a timber soffit or a pergola, warming the table below while the architecture keeps its lines.
 
 [[VERIFY: clearance-to-combustibles table (top, sides, front, below) per current model — Product team]]
 
@@ -49,7 +51,9 @@ It depends on the model and its output. Clearance to combustibles is set by each
 | Mounting height above floor | Manual; Bromic minimums 72 in wall, 96 in ceiling[^s1] |
 | Gas heaters | Manual and NFPA 54; heat deflectors can reduce top clearance[^s1] |
 
-## What to draw
+## Drawing the clearance envelope
+
+Show each heater's clearances on the set so every trade can see the space the warmth needs around it.
 
 - [ ] The clearance envelope around each heater on the RCP and sections
 - [ ] Timber soffits, beams, pergola slats and cladding inside or near the envelope

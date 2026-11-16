@@ -7,7 +7,7 @@ audience: ["RES", "ARC", "BLD"]
 stage: [IN, PP]
 cell: RES-IN
 asset: A10
-summary: "A new-build mountain estate in Breckenridge, Colorado, listed at about $25M, whose outdoor terraces combine a Hestan outdoor kitchen with Bromic heaters."
+summary: "In Breckenridge, Colorado, a new-build mountain estate listed at about $25M brings a Hestan outdoor kitchen and Bromic heaters together on its terraces."
 cta: {label: "Book a design consult", asset: A07}
 hero: w-mountain-view-retreat-platinum-electric-rece
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: page-read
 completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Breckenridge Associates (listing office Engel & Volkers Denver/Breckenridge), MLS S1068575"
@@ -50,19 +50,19 @@ sources:
 | Controls | [[VERIFY: controls and zones — US field sales]] |
 | Completed | 2026 (year built, per the listing) |
 
-## The space
+## The setting
 
-A newly built mountain estate of about 10,250 sq ft, listed at about $25M. The listing describes resort-level outdoor spaces with heated terraces, a full Hestan outdoor kitchen and Bromic heaters, finished in charred-wood cladding. [^s1][^s2]
+High in the mountains of Breckenridge, this newly built estate of about 10,250 sq ft was listed at about $25M. The listing describes resort-level outdoor spaces with heated terraces, a full Hestan outdoor kitchen and Bromic heaters, all finished in charred-wood cladding. [^s1][^s2]
 
-## What was installed
+## Bringing in the warmth
 
-Bromic heaters on the heated terraces beside the outdoor kitchen. The model, mounting and number are not stated.
+Bromic heaters warm the terraces beside the outdoor kitchen. The model, the mounting and the number of heaters are not stated.
 
-**Controls.** None A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+The sources do not name the controls used here. Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-A cold-climate, top-of-market residential story in the Mountain West, where outdoor living depends on heat: a strong reference for architects and luxury builders in ski markets.
+In the Mountain West, outdoor living depends on heat, and this cold-climate, top-of-market home makes a strong reference for architects and luxury builders in ski markets.
 
 ## Photos
 

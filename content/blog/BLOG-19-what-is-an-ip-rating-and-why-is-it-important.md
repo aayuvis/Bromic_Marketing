@@ -1,7 +1,7 @@
 ---
 id: BLOG-19
 type: blog
-title: "What is an IP rating, and what does it mean for an outdoor heater?"
+title: "What Is An IP Rating, And What Does It Mean For Your Outdoor Heater?"
 slug: what-is-an-ip-rating-and-why-is-it-important
 live_url: https://www.bromic.com/blog/what-is-an-ip-rating-and-why-is-it-important/
 action: rewrite
@@ -10,11 +10,11 @@ audience: [ARC, RES, BLD]
 stage: [CO]
 cell: ARC-CO
 asset: A24
-summary: "How the IP code in IEC 60529 actually works (two digits: solids, then water; X means not tested), what IPX4 and IPX5 do and do not promise, and the published rating of each Bromic heater, with the gaps and conflicts flagged."
+summary: "How the IP code in IEC 60529 works – two digits, solids then water, with X meaning not tested – what IPX4 and IPX5 promise for a heater that lives outdoors, and the published rating of each Bromic heater, with the gaps and conflicts flagged."
 primary_keyword: ip rating outdoor heater
 secondary_keywords: [what does ipx4 mean, ipx5 heater, ip rating explained, iec 60529, weatherproof patio heater]
 ai_prompt: "What does an IP rating like IPX4 or IPX5 mean on an outdoor heater?"
-meta_description: "IP codes under IEC 60529 explained: the first digit is solids, the second water, X means not tested. What IPX4 and IPX5 mean for Bromic heaters."
+meta_description: "What an IP rating means for an outdoor heater under IEC 60529: the first digit is solids, the second water, X means not tested. IPX4 and IPX5 at Bromic."
 cta: {label: "Download the Planning Guide", asset: A02}
 hero: w-bromic-platinum-electric
 owner_review: Marketing
@@ -23,7 +23,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-CO-01, RES-PP-KB1, ARC-BY-KB1, RES-CO-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: International Electrotechnical Commission
@@ -90,13 +90,13 @@ sources:
     verified: true
 ---
 
-An IP rating is a two-digit code from the international standard IEC 60529 that says how well an enclosure keeps out solids and water.[^s1] The first digit covers solids and dust (0–6), the second covers water (0–9). An X means that property was not tested. So IPX4 means "protected against splashing water from any direction, solids not rated", and IPX5 adds protection against low-pressure water jets.[^s2]
+An IP rating is a two-digit code from the international standard IEC 60529 that tells you how well an enclosure keeps out solids and water.[^s1] The first digit covers solids and dust (0–6) and the second covers water (0–9), while an X means that property was not tested. IPX4 therefore means "protected against splashing water from any direction, solids not rated", and IPX5 adds protection against low-pressure water jets.[^s2]
 
-![Platinum Electric heater recessed in a timber-batten ceiling over an ocean-view outdoor kitchen](img:w-bromic-platinum-electric)
+![A Platinum Electric heater recessed into a timber-batten ceiling over an ocean-view outdoor kitchen](img:w-bromic-platinum-electric)
 
-## What do the two digits mean?
+## Reading The Two Digits
 
-The code is always "IP" followed by two characters, read separately, never as one number.[^s2] IEC 60529 names it the IP Code; most people read it as "ingress protection".[^s1]
+The code is always "IP" followed by two characters, each read on its own and never as a single number.[^s2] IEC 60529 calls it the IP Code, and most people read it as "ingress protection".[^s1]
 
 | Digit | Covers | Range | The values that matter outdoors |
 |---|---|---|---|
@@ -106,17 +106,17 @@ The code is always "IP" followed by two characters, read separately, never as on
 
 Source: IEC 60529 as summarised by TÜV Rheinland, a test and certification body.[^s1][^s2]
 
-## What the old version of this page got wrong
+## Setting The Record Straight
 
-Three corrections, so nothing on bromic.com contradicts the standard:
+The earlier version of this page needed three corrections, so that nothing on bromic.com contradicts the standard:
 
-- **Submersion is IPX7 or IPX8, not IPX6.** IPX6 is a test against powerful water flow. Immersion starts at 7 (one metre) and goes beyond at 8.[^s2]
-- **IP covers solids and water only.** It is not a test of temperature, impact or corrosion. A salt-air rating is a material question (see 316 stainless below), not an IP digit.
-- **"Weather-resistant" is not "fit for any weather".** IPX4 means the heater passed a splash test. It is not a licence to leave a heater in driving rain or to hose it down.
+- **Submersion begins at IPX7.** IPX6 is a test against powerful water flow, while immersion starts at 7 (one metre) and goes further at 8.[^s2]
+- **IP covers solids and water only.** It does not test temperature, impact or corrosion, so resistance to salt air is a question of material (see 316 stainless below) and sits outside the IP digits.
+- **"Weather-resistant" has its limits.** IPX4 means the heater passed a splash test, which is no invitation to leave it in driving rain or to hose it down.
 
-## What rating does each Bromic heater carry?
+## How Each Bromic Heater Is Rated
 
-These are the ratings Bromic currently publishes, model by model. Where a page gives no code, we say so rather than borrow one from another model.
+These are the ratings Bromic currently publishes, model by model. Where a page gives no code, we say so instead of borrowing one from another model.
 
 | Heater | Published IP rating | Notes |
 |---|---|---|
@@ -129,25 +129,25 @@ These are the ratings Bromic currently publishes, model by model. Where a page g
 | Affinity Smart-Heat On/Off controller | IP54[^s7] | Dust-protected and splash-protected; check the manual for where the other controllers may be mounted |
 | Tungsten Smart-Heat Electric, Coastal collection (coming soon) | Not yet published[^s8] | 316 marine-grade stainless steel |
 
-The live post's blanket line that every Bromic heater is IPX4 is withdrawn: the Marine model is rated higher, and several models carry no published code yet.
+The live post's blanket line that every Bromic heater is IPX4 has been withdrawn, since the Marine model is rated higher and several models carry no published code yet.
 
-## Why does it matter for an outdoor heater?
+## Why The Rating Matters For Your Outdoor Heater
 
-An electric heater has live parts behind its face. The second digit tells you how much water the enclosure has been shown to keep away from them.[^s2] That points to where it belongs:
+An electric heater has live parts behind its face, and the second digit tells you how much water the enclosure has been shown to keep away from them.[^s2] That points to where each heater belongs:
 
-- **Under a roof or pergola, out of direct rain:** IPX4 is the expected baseline for Tungsten and Cobalt Electric.[^s3][^s5] Bromic still recommends a covered position for the best life, as its Eclipse page says.[^s6]
-- **Exposed to spray, near a pool or the sea, or washed down:** look for IPX5 and a marine-grade body, which is where Platinum Smart-Heat Electric Marine sits.[^s4]
-- **Never:** pressure-washing a heater, or mounting it where water can pool on it. No rating Bromic publishes covers immersion.
+- **Under a roof or pergola, out of direct rain:** IPX4 is the expected baseline for Tungsten and Cobalt Electric.[^s3][^s5] Bromic still recommends a covered position for the longest life, as its Eclipse page says.[^s6]
+- **Exposed to spray, near a pool or the sea, or washed down:** look for IPX5 and a marine-grade body, which is exactly where Platinum Smart-Heat Electric Marine sits.[^s4]
+- **Never:** pressure-wash a heater, or mount it where water can pool on it. No rating Bromic publishes covers immersion.
 
 <div class="diagram">Diagram: the IP code decoded – "IP", first digit (solids, 0–6), second digit (water, 0–9), with IPX4 and IPX5 shown as splash and low-pressure-jet icons, and X labelled "not tested"</div>
 
-## The controls have a rating too
+## Your Controls Carry A Rating Too
 
-Every heater runs from a controller: an Affinity Smart-Heat On/Off or Dimmer controller, the Eclipse controller for Eclipse, or a manual wall switch.[^s7] Wi-Fi and Smart-Heat app features need compatible Affinity Smart-Heat Controls, sold separately.[^s8] Plan where the controller goes as carefully as the heater: the On/Off controller is rated IP54,[^s7] so mount it where the manual allows, not where it will be soaked.
+Every heater runs from its controller – an Affinity Smart-Heat On/Off or Dimmer controller, the Eclipse controller for Eclipse, or a manual wall switch.[^s7] Wi-Fi and Smart-Heat app features need compatible Affinity Smart-Heat Controls, sold separately.[^s8] Plan where the controller goes as carefully as the heater itself. The On/Off controller is rated IP54,[^s7] so mount it where the manual allows and well away from anywhere it could be soaked.
 
-Ratings are a starting point, not an installation instruction. Follow the installation manual for each model, and confirm the installation with your local building authority and a licensed electrician.
+A rating is the place to begin, and the installation manual for each model sets out the rest. Follow it, and confirm the installation with your local building authority and a licensed electrician.
 
-## Frequently asked
+## Frequently Asked
 
 ### Are Bromic heaters safe in the rain?
 
@@ -155,14 +155,14 @@ Tungsten and Cobalt Electric are rated IPX4, splash-protected from any direction
 
 ### Is IPX5 better than IP55?
 
-Not necessarily. Both promise the same water protection; IP55 also states dust protection, while the X in IPX5 means dust was not rated.[^s2]
+Not necessarily. Both promise the same water protection, and IP55 also states dust protection, while the X in IPX5 means dust was not rated.[^s2]
 
 ### Does a higher IP number mean better corrosion resistance?
 
-No. IP measures solids and water only. Near the sea, the material matters: Platinum Electric Marine uses AISI 316 marine-grade stainless steel.[^s4]
+No. IP measures solids and water only, so near the sea it is the material that matters, and Platinum Electric Marine uses AISI 316 marine-grade stainless steel.[^s4]
 
 ### Does the IP rating affect the warranty?
 
-The warranty depends on the product line, not the IP code, and applies to the original owner.[^s9] Read the terms before an exposed install. [[VERIFY: whether installation outside the manual's conditions voids cover — Product team]]
+The warranty depends on the product line instead of the IP code, and applies to the original owner.[^s9] Read the terms before an exposed installation. [[VERIFY: whether installation outside the manual's conditions voids cover — Product team]]
 
-Our Planning Guide sets out ratings, clearances and controls for every model in one place.
+Our Planning Guide brings the ratings, clearances and controls for every model together in one place.

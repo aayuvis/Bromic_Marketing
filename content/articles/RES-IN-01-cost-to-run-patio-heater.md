@@ -1,17 +1,17 @@
 ---
 id: RES-IN-01
 type: article
-title: "How much does it cost to run an outdoor heater? Per-hour costs for electric, natural gas and propane"
+title: "How Much Does It Cost To Run A Patio Heater? What An Evening Of Warmth Costs On Electric, Natural Gas And Propane"
 slug: cost-to-run-patio-heater
 audience: [RES]
 stage: [IN]
 cell: RES-IN
 asset: A24
-summary: "Per-hour running costs for Bromic electric and gas heaters at current US average utility rates, with the formulas to recompute them for your own bill — plus the other lines in an all-in budget."
+summary: "What an evening of warmth really costs with Bromic electric and gas heaters at current US average rates, the simple sums to check it against your own bill, and everything else that belongs in a complete outdoor heating budget."
 primary_keyword: cost to run patio heater
 secondary_keywords: [electric patio heater cost per hour, propane heater running cost]
 ai_prompt: "How much does it cost to run a patio heater per hour?"
-meta_description: "At US average rates, a 3400 W electric patio heater costs about $0.62 an hour; a 38,000 BTU gas heater $0.72–$0.97 on natural gas, $1.11 on propane."
+meta_description: "The cost to run a patio heater at US average rates: about $0.62 an hour for 3400 W electric, $0.72–$0.97 for 38,000 BTU natural gas, $1.11 propane."
 cta: {label: "Download the Planning Guide", asset: A02}
 hero: l-010-067
 images: [l-019-160]
@@ -19,7 +19,7 @@ owner_review: Marketing
 status: draft
 gated: false
 related: [RES-CO-01, RES-PP-01, COM-CO-01, BLD-IN-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: U.S. Energy Information Administration
@@ -72,15 +72,15 @@ sources:
     verified: true
 ---
 
-At current US average rates, a built-in electric patio heater costs about $0.42–$0.82 an hour to run at full output, depending on wattage. A 38,000 BTU gas heater costs about $0.72–$0.97 an hour on natural gas and about $1.11 an hour on propane. Your own bill decides the real number, so the formulas are below – plug in your rate and you have it. [[VERIFY: 2026 rates — Finance]]
+At current US average rates, a built-in electric patio heater costs about $0.42–$0.82 an hour to run at full output, depending on its wattage. A 38,000 BTU gas heater costs about $0.72–$0.97 an hour on natural gas and about $1.11 an hour on propane. Your own bill sets the true figure, so we have shared the simple formulas below – add your rate and you will know exactly what an evening outdoors costs. [[VERIFY: 2026 rates — Finance]]
 
-## What does each heater cost per hour?
+## What An Hour Of Warmth Costs, Heater By Heater
 
-Running cost is energy used per hour times the price of that energy. The rates used here are the latest US averages we could source:
+Whatever the fuel, the cost of an hour outside comes down to the energy a heater uses in that hour multiplied by what you pay for it. These are the latest US averages we could source:
 
-- **Electricity:** 18.3 ¢/kWh, US residential average for July 2026.[^s1]
-- **Natural gas:** $19.61 per thousand cubic feet (Mcf) in October 2025, a shoulder-season month, and $26.45/Mcf in July 2026.[^s3][^s2] Residential gas prices swing with the season, so we show both.
-- **Propane:** $2.67 per gallon, US residential average, week of 30 March 2026.[^s5]
+- **Electricity** averaged 18.3 ¢/kWh for US homes in July 2026.[^s1]
+- **Natural gas** was $19.61 per thousand cubic feet (Mcf) in October 2025, a shoulder-season month, and $26.45/Mcf in July 2026.[^s3][^s2] Residential gas prices move with the seasons, so we show both.
+- **Propane** averaged $2.67 per gallon for US homes in the week of 30 March 2026.[^s5]
 
 | Heater | Energy input | Rate | Cost per hour (full output) |
 |---|---|---|---|
@@ -91,27 +91,27 @@ Running cost is energy used per hour times the price of that energy. The rates u
 | Tungsten Smart-Heat Freestanding Gas, natural gas | 38,000 BTU/h = 0.38 therm/h[^s6] | $1.89–$2.55/therm | **$0.72–$0.97** |
 | Tungsten Smart-Heat Freestanding Gas, propane | 38,000 BTU/h = 0.415 gal/h[^s6] | $2.67/gal | **$1.11** |
 
-Rates: national averages; state and utility rates vary widely. [[VERIFY: confirm 38,000 BTU is the input rating used for fuel maths — Product team]]
+These rates are national averages, and state and utility rates vary widely. [[VERIFY: confirm 38,000 BTU is the input rating used for fuel maths — Product team]]
 
-## How do I calculate it for my own bill?
+## Working It Out For Your Own Home
 
-Three formulas, one per fuel.
+Each fuel has its own short formula, and each takes less than a minute with your latest bill in hand.
 
-**Electric:** cost per hour = kW × $/kWh
-- 3400 W = 3.4 kW. 3.4 × $0.183 = $0.622 → about $0.62.
+**For electric heaters**, cost per hour = kW × $/kWh
+- A 3400 W heater draws 3.4 kW, and 3.4 × $0.183 = $0.622, or about $0.62 an hour.
 
-**Natural gas:** cost per hour = BTU/h ÷ 100,000 × $/therm
-- First convert your price. EIA reports residential gas in $/Mcf; one Mcf is about 10.37 therms, so $/therm = $/Mcf ÷ 10.37.[^s4]
-- $19.61 ÷ 10.37 = $1.891/therm. 38,000 ÷ 100,000 × $1.891 = $0.719 → about $0.72.
-- $26.45 ÷ 10.37 = $2.551/therm. 0.38 × $2.551 = $0.969 → about $0.97.
-- If your bill already shows $/therm, skip the conversion.
+**For natural gas**, cost per hour = BTU/h ÷ 100,000 × $/therm
+- Start by converting your price. EIA reports residential gas in $/Mcf, and one Mcf holds about 10.37 therms, so $/therm = $/Mcf ÷ 10.37.[^s4]
+- At $19.61 ÷ 10.37 = $1.891/therm, the heater costs 38,000 ÷ 100,000 × $1.891 = $0.719, or about $0.72 an hour.
+- At $26.45 ÷ 10.37 = $2.551/therm, it costs 0.38 × $2.551 = $0.969, or about $0.97 an hour.
+- If your bill already shows a price per therm, you can skip the conversion.
 
-**Propane:** cost per hour = BTU/h ÷ 91,500 × $/gallon
-- 38,000 ÷ 91,500 = 0.415 gallons an hour. 0.415 × $2.67 = $1.109 → about $1.11.
+**For propane**, cost per hour = BTU/h ÷ 91,500 × $/gallon
+- 38,000 ÷ 91,500 = 0.415 gallons an hour, and 0.415 × $2.67 = $1.109, or about $1.11 an hour.
 
-## What does that mean over a season?
+## Across A Whole Season Of Evenings Outside
 
-Hours matter more than rates. Take a household that heats the patio three hours a night, 100 nights a year – 300 hours.
+The hours you spend outside shape the season's cost far more than the rate does. Picture a household that enjoys the patio for three hours a night, 100 nights a year, which adds up to 300 hours of warmth.
 
 | Setup | Calculation | Season cost |
 |---|---|---|
@@ -119,17 +119,17 @@ Hours matter more than rates. Take a household that heats the patio three hours 
 | One Tungsten Freestanding Gas, natural gas | 300 h × $0.72 | about $216 |
 | One Tungsten Freestanding Gas, propane | 300 h × 0.415 gal × $2.67 | about $333 |
 
-These are full-output, every-minute figures. In practice cost falls when heat is matched to need:
+These figures assume every heater runs at full output for every minute. In practice the cost falls once the warmth is matched to the evening:
 
-- **Dial it down.** Eclipse runs at 33%, 66% or 100% output; a Dimmer controller sets electric heaters below full.[^s6] [[VERIFY: power draw at reduced output is proportional to setting — Product team]]
-- **Schedule it.** The Bromic Smart-Heat app sets schedules and timers so heat is on only when people are out there; it needs compatible Affinity Smart-Heat Controls, sold separately.[^s6]
-- **Zone it.** Heat the dining end without the lounge end.
+- **Set the output to the night.** Eclipse runs at 33%, 66% or 100% output, and a Dimmer controller sets electric heaters below full.[^s6] [[VERIFY: power draw at reduced output is proportional to setting — Product team]]
+- **Let a schedule do the work.** The Bromic Smart-Heat app sets schedules and timers so the heat is on only while people are outside; it needs compatible Affinity Smart-Heat Controls, sold separately.[^s6]
+- **Warm only the zone you are using.** Heat the dining end of the patio while the lounge end rests.
 
-![Covered pool deck at night with a freestanding gas heater](img:l-019-160)
+![A covered pool deck at night, warmed by a freestanding gas heater](img:l-019-160)
 
-## What else goes into the all-in cost?
+## Everything That Belongs In The Complete Budget
 
-Running cost is the smallest line on day one. Bromic's planning guidance is to price the whole job up front: hardware, utilities, permit fees and installation.[^s7]
+On day one, running cost is the smallest line in the budget. Bromic's planning guidance is to price the whole project up front, from hardware and utilities to permit fees and installation.[^s7]
 
 | Line | What drives it | Typical figure |
 |---|---|---|
@@ -141,35 +141,35 @@ Running cost is the smallest line on day one. Bromic's planning guidance is to p
 | Permits | City or county | Confirm with your local building authority |
 | Running cost | Hours × output × rate | Table above |
 
-Electrical and gas work done while walls and ceilings are open costs less than retrofitting a finished space. That is the strongest argument for putting heat in the first budget – designed from the start, not added later.
+Electrical and gas work carried out while walls and ceilings are still open costs less than retrofitting a finished space. It is the strongest reason to give heating a place in the very first budget, so the warmth is designed into your outdoor space from the beginning.
 
-## Planning checklist
+## Before You Finalize Your Plans
 
-- Find your rates on your last utility bill: ¢/kWh, $/therm (or $/Mcf ÷ 10.37), $/gallon.
-- Decide the hours you will really use it: nights a year × hours a night.
-- Size the heaters to the seating ([electric vs gas](item:RES-CO-01) has a quick method).
-- Include controls in the hardware line – they are part of a working system.
-- Get electrical, gas and permit quotes before you finalise the patio design.
+- Find your rates on your last utility bill: ¢/kWh, $/therm (or $/Mcf ÷ 10.37) and $/gallon.
+- Think honestly about how often you will be outside, in nights a year and hours a night.
+- Size the heaters to your seating; our guide to [electric vs gas](item:RES-CO-01) has a quick method.
+- Include the controls in the hardware line, because they are part of every working system.
+- Gather electrical, gas and permit quotes before you settle the patio design.
 - Confirm requirements with your local building authority and a licensed electrician or gas fitter.
 
 ## FAQ
 
 ### Is it cheaper to run an electric or gas patio heater?
-Per heater-hour, a 3400 W electric heater ($0.62) costs less than the gas heater ($0.72–$0.97 on natural gas, $1.11 on propane). But one gas heater covers approx. 215 ft² against approx. 65–143 ft² for one Platinum, so compare the cost of warming your seating area, not one heater.[^s6] Use the formulas with your own rates.
+Hour for hour, a 3400 W electric heater ($0.62) costs less to run than the gas heater ($0.72–$0.97 on natural gas, $1.11 on propane). One gas heater covers approx. 215 ft², though, against approx. 65–143 ft² for one Platinum, so the fairer comparison is the cost of warming your whole seating area.[^s6] The formulas above, with your own rates, will give you the answer for your home.
 
 ### How much does a 3400 W patio heater cost per hour?
-About $0.62 at the July 2026 US residential average of 18.3 ¢/kWh: 3.4 kW × $0.183.[^s1]
+About $0.62 an hour at the July 2026 US residential average of 18.3 ¢/kWh, since 3.4 kW × $0.183 = $0.62.[^s1]
 
 ### How much propane does a 38,000 BTU heater use?
-About 0.415 gallons an hour at full output (38,000 ÷ 91,500). At $2.67 a gallon that is about $1.11 an hour.[^s5]
+About 0.415 gallons an hour at full output (38,000 ÷ 91,500). At $2.67 a gallon, that comes to about $1.11 an hour.[^s5]
 
 ### Why does my natural gas price change so much?
-Residential gas prices vary by month: EIA's figure for July 2026 ($26.45/Mcf) was well above October 2025 ($19.61/Mcf).[^s2][^s3] Use the rate from the season you will heat in.
+Residential gas prices vary from month to month, and EIA's figure for July 2026 ($26.45/Mcf) was well above October 2025 ($19.61/Mcf).[^s2][^s3] Use the rate from the season you plan to heat in.
 
 ### Does dimming an electric heater save money?
-Lower output uses less energy. Eclipse steps between 33%, 66% and 100%.[^s6] [[VERIFY: draw at each step — Product team]]
+Lower output uses less energy, and Eclipse steps between 33%, 66% and 100%.[^s6] [[VERIFY: draw at each step — Product team]]
 
 ### Can I estimate cost before I buy?
-Yes. The Bromic Planning Guide walks through sizing, utilities and an all-in budget step by step.
+Yes. The Bromic Planning Guide takes you through sizing, utilities and a complete budget step by step.
 
-Get the full budget picture before you talk to a dealer – download the Bromic Planning Guide.
+See the full budget picture before you speak with a dealer, and download the Bromic Planning Guide.

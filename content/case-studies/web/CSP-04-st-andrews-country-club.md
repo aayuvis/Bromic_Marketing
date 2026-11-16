@@ -1,13 +1,13 @@
 ---
 id: CSP-04
 type: case-study
-title: "St Andrews Country Club, Boca Raton"
+title: "St Andrews Country Club, Boca Raton: a named installer worth a call"
 slug: csp-04
 audience: ["COM"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "Installer Outdoor Elements has a page titled as a Bromic heater system installation at St Andrews Country Club in Boca Raton. The page itself did not load for reading, so the scope and products are unknown."
+summary: "Installer Outdoor Elements lists a Bromic heater system installation at St Andrews Country Club in Boca Raton. The page would not open for reading, so the scope and the products are still to be learned."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-002-004
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: snippet-only
 completeness: partial
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Outdoor Elements (installer)"
@@ -43,15 +43,15 @@ sources:
 | Controls | [[VERIFY: controls and zones — US field sales]] |
 | Installer | Outdoor Elements |
 
-## What the sources say
+## The story so far
 
-Installer Outdoor Elements has a page titled as a Bromic heater system installation at St Andrews Country Club in Boca Raton. The page itself did not load for reading, so the scope and products are unknown. [^s1]
+Outdoor Elements, a US installer, has a page titled as a Bromic heater system installation at St Andrews Country Club in Boca Raton. The page itself would not load for reading, so the scope of the work and the products used are not yet known. [^s1]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-Private country club in warm-climate Florida with a named US installer; worth a call to Outdoor Elements to confirm. Treat as a thin lead.
+A private country club in warm-climate Florida, with a named US installer behind it, is well worth a call to Outdoor Elements. Until that call, it remains a thin lead.
 
 ## Photos
 

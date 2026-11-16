@@ -1,13 +1,13 @@
 ---
 id: CSP-22
 type: case-study
-title: "Lightfields (at The Vineyard Hotel), not stated in source (verify)"
+title: "Lightfields at The Vineyard Hotel: Tungsten Freestanding heat (location to verify)"
 slug: csp-22
 audience: ["COM"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "A LinkedIn post by a Bromic Group staff member says Bromic supplied Tungsten Freestanding heaters for Lightfields at The Vineyard Hotel. One search summary describes it as a Zenith Hotels activation. Location and dates were not in the snippet."
+summary: "A LinkedIn post by a Bromic Group staff member says Bromic supplied Tungsten Freestanding heaters for Lightfields at The Vineyard Hotel. The location, the dates and the nature of the installation are still to be confirmed."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-018-151
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: bromic-listing
 completeness: partial
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "LinkedIn (Andrew Payne, Bromic Group)"
@@ -43,15 +43,15 @@ sources:
 | Controls | [[VERIFY: controls and zones — Bromic EU [[VERIFY: regional lead]]]] |
 | Mounting | freestanding |
 
-## What the sources say
+## The story so far
 
-A LinkedIn post by a Bromic Group staff member says Bromic supplied Tungsten Freestanding heaters for Lightfields at The Vineyard Hotel. One search summary describes it as a Zenith Hotels activation. Location and dates were not in the snippet. [^s1]
+A LinkedIn post by a Bromic Group staff member says Bromic supplied Tungsten Freestanding heaters for Lightfields at The Vineyard Hotel. One search summary describes it as a Zenith Hotels activation. The snippet did not give the location or the dates. [^s1]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-A hotel or event use of the freestanding range, which is thin in the case-study set. The location and whether it was a permanent install or a one-off activation must be confirmed first.
+This is a hotel or event use of the freestanding range, which is thin in our case studies. The location, and whether it was a permanent installation or a one-off activation, must be confirmed first.
 
 ## Photos
 

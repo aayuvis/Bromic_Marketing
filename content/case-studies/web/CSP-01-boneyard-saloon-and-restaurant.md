@@ -1,13 +1,13 @@
 ---
 id: CSP-01
 type: case-study
-title: "Boneyard Saloon and Restaurant, Park City"
+title: "Boneyard Saloon and Restaurant, Park City: an upper deck made for colder evenings"
 slug: csp-01
 audience: ["COM"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "A Park City tavern whose upper deck had only been usable in warm months. StruXure Utah posted that it would add a StruXure pergola with Bromic heaters, MistAmerica misting, AspectLED dimmable lighting and Progressive MagnaTrack vinyl screens, so the screens"
+summary: "The Boneyard Saloon's upper deck in Park City had been a warm-weather space. StruXure Utah posted plans to change that, pairing a StruXure pergola and Bromic heaters with screens that hold the warmth in and keep the mountain view."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-002-008
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: page-read
 completeness: partial
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "StruXure Utah (Flickr account StruXureUT)"
@@ -45,15 +45,15 @@ sources:
 | Heated area or seats | upper deck dining area |
 | Year | 2023 (post dated 13 Oct 2023; described as planned work) |
 
-## What the sources say
+## The story so far
 
-A Park City tavern whose upper deck had only been usable in warm months. StruXure Utah posted that it would add a StruXure pergola with Bromic heaters, MistAmerica misting, AspectLED dimmable lighting and Progressive MagnaTrack vinyl screens, so the screens hold the heat in and block wind while keeping the mountain view. The post describes the plan; it does not confirm the work was finished. [^s1]
+From the Boneyard Saloon's upper deck, guests look out over the mountains, yet until now the space could only be enjoyed in the warmer months. StruXure Utah posted a plan to carry it into the colder season, with a StruXure pergola overhead, Bromic heaters, MistAmerica misting, AspectLED dimmable lighting and Progressive MagnaTrack vinyl screens that block the wind and hold the warmth in while keeping the mountain view. The post describes the work as planned and does not confirm it was finished. [^s1]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-A mountain-resort town with cold winters, plus a pergola-partner channel (StruXure), which suits a 'designed from the start' story. First confirm the install was finished and which products were used, with StruXure Utah or the venue.
+Park City is a mountain-resort town with cold winters, and this project comes through a pergola partner, StruXure, which makes it a natural story of heat designed in from the start. Before it is written up, confirm with StruXure Utah or the venue that the work was finished and which products were used.
 
 ## Photos
 

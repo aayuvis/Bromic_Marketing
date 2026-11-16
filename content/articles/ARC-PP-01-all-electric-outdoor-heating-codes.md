@@ -1,17 +1,17 @@
 ---
 id: ARC-PP-01
 type: article
-title: "All-electric outdoor heating: what electrification codes mean for patios"
+title: "Electric outdoor heater code guide: what all-electric rules mean for your patio designs"
 slug: all-electric-outdoor-heating-codes
 audience: [ARC]
 stage: [PP]
 cell: ARC-PP
 asset: A24
-summary: "A specifier's read of the 2026 electrification landscape (NYC, New York State, California, Washington, the EPCA cases) and what it does and does not mean for gas patio heaters."
+summary: "A specifier's reading of the 2026 electrification landscape – NYC, New York State, California, Washington and the EPCA cases – and what it does and does not mean for gas patio heaters on your projects."
 primary_keyword: electric outdoor heater code
 secondary_keywords: [all electric building code, gas ban patio heater]
 ai_prompt: "Are gas patio heaters allowed under all-electric building codes?"
-meta_description: "Are gas patio heaters allowed under all-electric codes? NYC LL154, New York State, California Title 24, Washington and the EPCA cases, read for architects."
+meta_description: "Electric outdoor heater code guide for architects: NYC LL154, New York State, California Title 24, Washington and the EPCA cases, and what they mean for gas."
 cta: {label: "Download the electrification compliance guide", asset: A12}
 hero: l-009-061
 images: [l-010-073]
@@ -19,7 +19,7 @@ owner_review: Specification and compliance
 status: draft
 gated: false
 related: [ARC-IN-01, COM-PP-01, ARC-BY-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: New York City (Administrative Code, via American Legal Publishing)
@@ -109,11 +109,11 @@ sources:
 
 *This article is general information for design teams, current to 29 October 2026. It is not legal advice. Electrification rules are changing quickly and are in active litigation. Confirm every project with the authority having jurisdiction, your code consultant, and a licensed electrician or gas fitter.*
 
-Mostly, the all-electric rules in force do not name patio heaters. They restrict burning fuel in covered new buildings, and a gas heater piped from the building's gas service can be caught by that. New York City's Local Law 154 is the clearest case: its exception covers only a device with no connection to the building's gas supply, used intermittently and not heating the building[^s1]. A fixed, piped gas patio heater on a new NYC building is therefore exposed. Electric radiant heat avoids the question.
+For the most part, the all-electric rules in force do not name patio heaters. They restrict burning fuel in covered new buildings, and a gas heater piped from the building's gas service can be caught by that. New York City's Local Law 154 is the clearest case, since its exception covers only a device with no connection to the building's gas supply, used intermittently and not heating the building[^s1]. A fixed, piped gas patio heater on a new NYC building is therefore exposed, while electric radiant heat lets you design the terrace without the question arising at all.
 
-![Infinity-edge terrace and sunken lounge facing the sea](img:l-009-061)
+![Infinity-edge terrace and sunken lounge facing the sea at dusk](img:l-009-061)
 
-## Which electrification rules matter for outdoor heating in 2026?
+## The Electrification Rules Shaping Outdoor Heating In 2026
 
 | Jurisdiction | Rule | Status, Oct 2026 | What it means for an outdoor gas heater |
 |---|---|---|---|
@@ -126,24 +126,24 @@ Mostly, the all-electric rules in force do not name patio heaters. They restrict
 | Washington | Initiative 2066 (sought to protect gas use) | Struck down in full, Washington Supreme Court, 17 Sept 2026[^s9] | State policy to move off gas resumes |
 | Washington | State Energy Code (commercial) C403.11.1 | In force | Exterior heat must be radiant and switch off by occupancy sensor or timer[^s10]. Applies to gas and electric |
 
-## Are gas patio heaters banned?
+## Where Gas Patio Heaters Stand Today
 
-Not as a category, anywhere we found. What exists is narrower, and more of a design risk than a ban:
+We found no rule anywhere that bans gas patio heaters as a category. What does exist is narrower, and it is better understood as a design risk than as a ban:
 
 - **Fuel-use bans on new buildings** (NYC LL154, NYS AEBA) can catch a heater connected to the building's gas system[^s1][^s5].
 - **Emissions caps on existing large buildings** (NYC LL97) make every therm burned on site count against the owner[^s11].
-- **Energy codes** set how exterior heat is delivered and controlled (radiant, auto shut-off), regardless of fuel[^s10].
+- **Energy codes** set how exterior heat is delivered and controlled (radiant, with automatic shut-off), regardless of fuel[^s10].
 - **Fire codes** separately govern portable propane cylinders in many cities. [[VERIFY: FDNY and other fire-code rules on portable propane heaters for commercial patios — Specification and compliance]]
 
-The legal ground is also unsettled. The Ninth Circuit read federal appliance law (EPCA) to preempt Berkeley's ban[^s6]; the Second Circuit read it the other way for New York[^s4]. Commentators expect Supreme Court review. A gas spec that is legal today may be redesigned before occupancy.
+The legal ground is still moving as well. The Ninth Circuit read federal appliance law (EPCA) to preempt Berkeley's ban[^s6], while the Second Circuit read it the other way for New York[^s4], and commentators expect Supreme Court review. A gas specification that is lawful today may still need redesigning before occupancy.
 
-## What does this mean for the design team?
+## Designing With Confidence From The First Sketch
 
-The risk is not the heater. It is the late discovery: gas specified at schematic design, then blocked by the AHJ, a lender's ESG covenant or the client's own climate target. The gas line, the meter capacity and the mounting details then change during construction documents or, worse, after.
+For the design team, the real exposure lies in discovering the problem late. Gas specified at schematic design can be blocked by the AHJ, a lender's ESG covenant or the client's own climate target, and the gas line, meter capacity and mounting details then change during construction documents, or after them.
 
-![White porch lounge with white heaters and a sea view](img:l-010-073)
+![White porch lounge with white heaters and a quiet sea view](img:l-010-073)
 
-Electric radiant heat removes that dependency. It runs on the circuits an all-electric building already has, it is radiant as energy codes require for exterior heat, and its controls provide the automatic shut-off those codes ask for[^s10].
+Electric radiant heat removes that dependency. It runs on the circuits an all-electric building already has, it delivers the radiant warmth energy codes require for exterior heat, and its controls provide the automatic shut-off those codes ask for[^s10].
 
 | | Electric radiant (Bromic) | Piped gas |
 |---|---|---|
@@ -152,29 +152,29 @@ Electric radiant heat removes that dependency. It runs on the circuits an all-el
 | Energy-code controls | Affinity controls with schedules and timers | Needs separate timer or sensor |
 | Services to coordinate | Branch circuits, controls | Gas piping, meter capacity, clearances under NFPA 54[^s12] |
 
-## Which Bromic products make electric the default?
+## Bromic Electric Heaters For Every Setting
 
-- **Covered terraces and soffits:** Platinum Smart-Heat Electric, 2300W, 3400W or 4500W, approx. 65–143 ft², recessed, ceiling or wall mount[^s12].
-- **Architectural recessing, marine settings:** Tungsten Smart-Heat Electric Select and Coastal (coming soon), approx. 64–144 ft², low-clearance recessing[^s12].
-- **Open terraces and pergolas:** Eclipse Smart-Heat Electric, approx. 121 ft², pole mounted with dimmable rim lighting; Eclipse Freestanding where nothing can be fixed[^s12].
+- **Covered terraces and soffits.** Platinum Smart-Heat® Electric, 2300W, 3400W or 4500W, approx. 65–143 ft², recessed, ceiling or wall mount[^s12].
+- **Architectural recessing and marine settings.** Tungsten Smart-Heat® Electric Select and Coastal (coming soon), approx. 64–144 ft², with low-clearance recessing[^s12].
+- **Open terraces and pergolas.** Eclipse Smart-Heat® Electric, approx. 121 ft², pole mounted with dimmable rim lighting, and Eclipse Freestanding where nothing can be fixed[^s12].
 
-Each needs its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app for schedules and timers. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately[^s12].
+Each is paired with its Affinity Smart-Heat® Controls: an On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app for schedules and timers. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately[^s12].
 
-## Key takeaways
+## Key Takeaways
 
-- No rule we found bans gas patio heaters by name. Fuel bans on new buildings can still catch a piped heater[^s1].
-- NYC LL154 is in force and was upheld on appeal on 30 June 2026[^s4]. New York State's start date is pending[^s5].
-- California's 2025 code favours heat pumps but is not a gas ban[^s8]; Berkeley's piping ban fell to EPCA[^s6].
+- No rule we found bans gas patio heaters by name, though fuel bans on new buildings can still catch a piped heater[^s1].
+- NYC LL154 is in force and was upheld on appeal on 30 June 2026[^s4], while New York State's start date is pending[^s5].
+- California's 2025 code favours heat pumps without banning gas[^s8], and Berkeley's piping ban fell to EPCA[^s6].
 - Washington requires exterior heat to be radiant with automatic shut-off[^s10].
 - Specifying electric radiant heat at schematic design removes a redesign risk.
 
 ## FAQ
 
 ### Are gas patio heaters allowed under all-electric building codes?
-Often not when they are piped from the building's gas service in a covered new building. NYC's LL154 exception covers only unconnected, intermittent devices that do not heat the building[^s1]. Confirm with the AHJ.
+Often not, when they are piped from the building's gas service in a covered new building. NYC's LL154 exception covers only unconnected, intermittent devices that do not heat the building[^s1]. Confirm with the AHJ.
 
 ### Does California ban gas patio heaters?
-The 2025 Energy Code does not. It sets heat pumps as the baseline for space and water heating in new buildings[^s8]. Some cities add reach codes; check locally.
+The 2025 Energy Code does not. It sets heat pumps as the baseline for space and water heating in new buildings[^s8], and some cities add reach codes, so check locally.
 
 ### What happened to Berkeley's gas ban?
 The Ninth Circuit held in 2023 that EPCA preempts it, and declined rehearing in 2024[^s6][^s7]. The Second Circuit reached the opposite view for New York in 2026[^s4].

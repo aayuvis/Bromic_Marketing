@@ -10,11 +10,11 @@ audience: [RES, COM]
 stage: [CO]
 cell: RES-CO
 asset: A24
-summary: "Run time is cylinder gallons times 91,500 BTU per gallon, divided by the heater's BTU per hour. A full 20 lb cylinder on a 38,000 BTU Tungsten Smart-Heat Freestanding lasts about 11 hours at full output. The formula, the figures per Bromic propane heater, and how to choose one."
+summary: "A full 20 lb cylinder keeps a 38,000 BTU Tungsten Smart-Heat Freestanding glowing for about 11 hours at full output – cylinder gallons times 91,500 BTU per gallon, divided by the heater's BTU per hour. The simple sum, the run time for each Bromic propane heater, and how to choose yours."
 primary_keyword: how long does a propane tank last on a patio heater
 secondary_keywords: [propane patio heater run time, 20 lb propane tank patio heater hours, propane patio heater buying guide, best propane patio heater]
 ai_prompt: "How long will a 20 lb propane tank last on a patio heater?"
-meta_description: "A full 20 lb propane cylinder runs a 38,000 BTU patio heater about 11 hours at full output. The formula, Bromic run times and how to choose a heater."
+meta_description: "How long does a propane tank last on a patio heater? A full 20 lb cylinder gives a 38,000 BTU heater about 11 hours at full output. Bromic run times."
 cta: {label: "Size your space", asset: A03}
 hero: w-8
 owner_review: Marketing
@@ -23,7 +23,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-IN-01, COM-CO-01, RES-CO-01, RES-CO-KB2]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: U.S. Energy Information Administration
@@ -89,22 +89,21 @@ sources:
     supports: "Primary code source for propane cylinders and installations"
     verified: false
 ---
+A full 20 lb propane cylinder keeps a 38,000 BTU patio heater running for about 11 hours at full output, enough for several long evenings outdoors. The sum behind it is simple: a 20 lb cylinder holds about 4.7 gallons,[^s3] each gallon carries about 91,500 BTU,[^s1] and the heater uses its rated BTU every hour. A cylinder that is only partly full, a larger heater or a higher setting will shorten the run.
 
-A full 20 lb propane cylinder runs a 38,000 BTU patio heater for about 11 hours at full output. The sum is simple: a 20 lb cylinder holds about 4.7 gallons,[^s3] each gallon carries about 91,500 BTU,[^s1] and the heater burns its rated BTU every hour. A partly filled cylinder, a larger heater or a higher setting shortens the run.
+![Tungsten Smart-Heat Freestanding propane heater warming wicker lounge furniture on a wooded lakeside deck](img:w-8)
 
-![Tungsten Smart-Heat Freestanding propane heater on a wooded lakeside deck with wicker lounge furniture](img:w-8)
-
-## How do you work out propane run time?
+## Working Out Your Propane Run Time
 
 **Run time (hours) = cylinder gallons × 91,500 ÷ heater BTU per hour**
 
-- **Gallons in the cylinder.** A full 20 lb cylinder holds about 4.7 gallons.[^s3] Many exchange cylinders are filled with less, so weigh yours against the tare weight stamped on the collar. [[VERIFY: typical exchange-cylinder fill — Digital marketing]]
-- **BTU per gallon.** The EIA puts propane at 91,452 BTU per gallon;[^s1] DOE gives 91,420.[^s2] We round to 91,500.
-- **The heater's rating** is its maximum input. Run it lower and the cylinder lasts longer.
+- **Gallons in the cylinder.** A full 20 lb cylinder holds about 4.7 gallons.[^s3] Many exchange cylinders are filled with less, so it is worth weighing yours against the tare weight stamped on the collar. [[VERIFY: typical exchange-cylinder fill — Digital marketing]]
+- **BTU per gallon.** The EIA puts propane at 91,452 BTU per gallon,[^s1] and the DOE gives 91,420.[^s2] We round to 91,500.
+- **The heater's rating** is its maximum input, so the cylinder lasts longer whenever you run the heater lower.
 
 Worked example: 4.7 × 91,500 = 430,050 BTU in the cylinder. 430,050 ÷ 38,000 = 11.3 hours.
 
-## How long does each Bromic propane heater run?
+## How Long Each Bromic Propane Heater Runs
 
 | Heater (propane) | Rated output | Hours per gallon | Hours on a full 20 lb cylinder |
 |---|---|---|---|
@@ -113,28 +112,28 @@ Worked example: 4.7 × 91,500 = 430,050 BTU in the cylinder. 430,050 ÷ 38,000 =
 | Platinum Gas, larger model | 39,800 BTU[^s6] | 2.3 | About 11 |
 | Tungsten Gas (wall or ceiling) | Not yet published | – | [[VERIFY: Tungsten Gas output, then run time — Product team]] |
 
-All at full output, calculated from the formula above. Wall- and ceiling-mounted heaters on propane are usually piped from a larger tank by a gas fitter, so hours per gallon is the useful figure for them.
+Every figure is at full output, calculated from the formula above. Wall- and ceiling-mounted heaters on propane are usually piped from a larger tank by a gas fitter, so hours per gallon is the more useful measure for them.
 
-**A correction.** Earlier Bromic posts gave 9–10 hours, 9 hours and 10–17 hours for similar cylinders.[^s7] The calculation above replaces them. The Tungsten Freestanding product page lists 38,500 BTU against 38,000 in the Lookbook, which changes the result by less than a quarter of an hour.[^s5][^s4] [[VERIFY: Tungsten Freestanding output (38,000 or 38,500 BTU) and run time on a 20 lb cylinder — Product team]]
+**A correction to our earlier posts.** They gave 9–10 hours, 9 hours and 10–17 hours for similar cylinders,[^s7] and the calculation above now replaces those figures. The Tungsten Freestanding product page lists 38,500 BTU against 38,000 in the Lookbook, a difference of less than a quarter of an hour in run time.[^s5][^s4] [[VERIFY: Tungsten Freestanding output (38,000 or 38,500 BTU) and run time on a 20 lb cylinder — Product team]]
 
 <div class="diagram">Diagram: a 20 lb cylinder (4.7 gal) feeding a heater, with the formula 4.7 × 91,500 ÷ 38,000 = 11.3 h and a bar comparing run time at each Bromic output</div>
 
-## Why choose propane?
+## The Freedom Of Propane
 
-Propane goes where there is no gas line or heavy-duty circuit: a freestanding heater rolls to the table, and a cylinder swaps in minutes. Bromic's earlier buying guide called it the highest-cost of the three fuels,[^s7] so for heat used most nights, compare it with natural gas and electric at your own prices. See the [running-cost comparison](item:RES-IN-01): cost per hour = BTU per hour ÷ 91,500 × your price per gallon.
+Propane brings warmth to places a gas line or heavy-duty circuit cannot reach. A freestanding heater rolls easily to wherever the table is set, and a fresh cylinder swaps in within minutes. Our earlier buying guide called propane the highest-cost of the three fuels,[^s7] so if you plan to enjoy the heat most nights, compare it with natural gas and electric at your own local prices. The [running-cost comparison](item:RES-IN-01) shows how: cost per hour = BTU per hour ÷ 91,500 × your price per gallon.
 
-## How do you choose a propane patio heater?
+## Choosing The Right Propane Patio Heater
 
-1. **Size the area.** Tungsten Freestanding covers about 215 ft²; Platinum Gas about 160 or 215 ft².[^s4][^s6]
-2. **Choose the mounting.** Freestanding where you cannot mount, or want to move heat around; wall or ceiling to save floor space under a cover.[^s7]
-3. **Check the wind.** Tungsten Freestanding is rated for winds up to 8 mph.[^s5] Platinum Gas is listed at 20 km/h in one place and 12 mph in another. [[VERIFY: Platinum Gas wind rating — Product team]]
+1. **Size the area.** Tungsten Freestanding covers about 215 ft², and Platinum Gas about 160 or 215 ft².[^s4][^s6]
+2. **Choose the mounting.** A freestanding heater suits spaces where you cannot mount one, or where you like to move the warmth around; a wall or ceiling heater keeps the floor clear under a cover.[^s7]
+3. **Consider the wind.** Tungsten Freestanding is rated for winds up to 8 mph.[^s5] Platinum Gas is listed at 20 km/h in one place and 12 mph in another. [[VERIFY: Platinum Gas wind rating — Product team]]
 4. **Plan the controls.** Platinum Gas and Tungsten Gas run from an Affinity Smart-Heat On/Off controller or a manual wall switch, with an expansion board for building management systems.[^s6] Wi-Fi and app features need compatible Affinity controls, sold separately.[^s4]
 
-## How much ventilation does a propane heater need?
+## Giving A Propane Heater The Fresh Air It Needs
 
-Propane burns and makes carbon monoxide, so use it only in open air. Bromic's Planning Guide treats an area as outdoor when at least 30% of its perimeter is permanently open.[^s8] The earlier buying guide's "75% open walls" figure is withdrawn.[^s7] Your heater's manual and local code set the rule. [[VERIFY: ventilation requirement in each propane heater's manual — Product team]]
+Propane burns and makes carbon monoxide, so it belongs in the open air. Our Planning Guide treats an area as outdoor when at least 30% of its perimeter is permanently open.[^s8] The "75% open walls" figure from our earlier buying guide is withdrawn.[^s7] Your heater's manual and local code set the rule. [[VERIFY: ventilation requirement in each propane heater's manual — Product team]]
 
-Gas installations follow ANSI Z223.1/NFPA 54, and cylinders and storage NFPA 58.[^s8][^s9] Confirm yours with your local building authority and a licensed gas fitter.
+Gas installations follow ANSI Z223.1/NFPA 54, and cylinders and storage follow NFPA 58.[^s8][^s9] Confirm your installation with your local building authority and a licensed gas fitter.
 
 ## Frequently asked
 
@@ -148,10 +147,10 @@ Weigh the cylinder and subtract the tare weight stamped on its collar. Each poun
 
 ### Can a propane heater be left out in the rain?
 
-Install mounted heaters under cover, and store a freestanding heater under its cover or indoors with the cylinder disconnected and kept outside. A [Tungsten Freestanding cover](https://www.bromic.com/product/tungsten-freestanding-cover/) is available.
+Install mounted heaters under cover. Store a freestanding heater under its cover or indoors, with the cylinder disconnected and kept outside. A [Tungsten Freestanding cover](https://www.bromic.com/product/tungsten-freestanding-cover/) is available.
 
 ### Are propane heaters safe under a covered patio?
 
-Only if the space stays open to fresh air and the manual's roof clearance is kept.[^s8] See [are infrared heaters safe](item:BLOG-21).
+Only if the space stays open to fresh air and the manual's roof clearance is kept.[^s8] Read more in [are infrared heaters safe](item:BLOG-21).
 
-Not sure which heater fits? Size your space with the Bromic calculator.
+Wondering which heater will suit your space? Size it in a few minutes with the Bromic calculator.

@@ -7,18 +7,18 @@ audience: [COM]
 stage: [IN]
 cell: COM-IN
 asset: A07
-summary: "How many heaters a 40-seat patio needs: overhead heaters by area, adjusted for cover and climate; freestanding heaters never more than four seats each. A worked 40-seat example."
+summary: "How many heaters keep a 40-seat patio warm: overhead heaters by area, adjusted for cover and climate, and freestanding heaters at no more than four seats each, with a worked example."
 primary_keyword: how many patio heaters do i need
 secondary_keywords: [restaurant patio heaters, patio heater coverage]
 ai_prompt: "How many heaters do I need for a 40-seat restaurant patio?"
-meta_description: "Heaters for a 40-seat patio depend on area for overhead heaters; for freestanding, never more than four seats a heater. Worked 800 ft² example."
+meta_description: "Heaters for a 40-seat patio: overhead heaters by area, adjusted for cover and climate; freestanding, no more than four seats each. Worked 800 ft² example."
 cta: {label: "Book a design consult", asset: A07}
 hero: p-002-001
 owner_review: Hospitality sales
 status: draft
 gated: false
 related: [COM-IN-01, COM-AW-01]
-updated: 2026-10-30
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -42,13 +42,13 @@ sources:
     verified: false
 ---
 
-For overhead heaters it depends on the area; for freestanding heaters, never more than four seats a heater. At 20 ft² a seat, 40 seats take about 800 ft².[^s3] Divide that by each overhead heater's coverage, adjusted for cover and climate, and round up: seven Platinum 4500W (with Affinity On/Off or Dimmer controls and a wall switch) or eight Eclipse (with the Eclipse controller) on a partly covered patio on cool evenings. Freestanding heaters need at least ten, one for every four seats.
+For overhead heaters the count follows the area; for freestanding heaters, plan on no more than four seats a heater. At 20 ft² a seat, 40 seats take about 800 ft².[^s3] Divide that by each overhead heater's coverage, adjusted for cover and climate, and round up: on a partly covered patio on cool evenings, seven Platinum 4500W (with Affinity On/Off or Dimmer controls and a wall switch) or eight Eclipse (with the Eclipse controller). Freestanding heaters need at least ten, one for every four seats.
 
-## The method
+## Counting heaters for your seating
 
-1. **Measure** the seating you want warm – the tables and chairs, not the planters. From a seat count, allow 20 ft² a seat, aisles included: the top of the NAFEM range, so tables are not crammed.[^s3]
+1. **Measure** the seating you want warm – the tables and chairs, leaving out the planters. From a seat count, allow 20 ft² a seat, aisles included: the top of the NAFEM range, so guests have room at the table.[^s3]
 2. **Overhead and built-in heaters:** heaters = area ÷ (coverage × cover factor × climate factor), rounded up. Coverage is Bromic's published figure.[^s1]
-3. **Freestanding heaters:** the same sum, but never more than four seats a heater, because seated guests block the radiant heat of a freestanding unit. Take the larger of area ÷ effective coverage and seats ÷ 4.
+3. **Freestanding heaters:** the same sum, with no more than four seats a heater, because seated guests block the radiant heat of a freestanding unit. Take the larger of area ÷ effective coverage and seats ÷ 4.
 
 | Cover | Factor | Climate (evenings you heat) | Factor |
 |---|---|---|---|
@@ -56,7 +56,7 @@ For overhead heaters it depends on the area; for freestanding heaters, never mor
 | Partly covered (pergola, umbrella, part roof) | 1.0 | Cool (about 40–50°F) | 0.85 |
 | Covered (solid roof) | 1.1 | Cold (often below about 40°F) | 0.7 |
 
-The factors are planning assumptions, not published ratings. [[VERIFY: cover and climate factors — Product team]] They follow Bromic's own example, in which the same 200 ft² patio takes two heaters in California and three in Massachusetts, and a partial cover adds a heat cloud.[^s2]
+The factors are planning assumptions rather than published ratings. [[VERIFY: cover and climate factors — Product team]] They follow Bromic's own example, in which the same 200 ft² patio takes two heaters in California and three in Massachusetts, and a partial cover adds a heat cloud.[^s2]
 
 ## Worked example
 
@@ -72,11 +72,11 @@ An open patio or colder evenings lower the factor and raise the overhead count; 
 
 ## Before you order
 
-- Split the heaters into zones that match your sections.
+- Group the heaters into zones that match the way you seat your sections.
 - Check clearances and mounting heights against the manual and local code.
-- Get a coverage drawing: Bromic's design service lays out heaters from photos or plans.
+- Ask for a coverage drawing: Bromic's design service lays out heaters from your photos or plans.
 
-Then put the layout into [the ROI case](item:COM-IN-01).
+Then carry the layout into [the ROI case](item:COM-IN-01).
 
 Get a layout for your patio – book a design consult.
 

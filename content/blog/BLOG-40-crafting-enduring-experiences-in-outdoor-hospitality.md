@@ -1,7 +1,7 @@
 ---
 id: BLOG-40
 type: blog
-title: "Crafting enduring experiences in outdoor hospitality, with Liz Neuffer of Aria Group"
+title: "Crafting Enduring Experiences In Outdoor Hospitality Design, With Liz Neuffer Of Aria Group"
 slug: crafting-enduring-experiences-in-outdoor-hospitality
 live_url: https://www.bromic.com/blog/crafting-enduring-experiences-in-outdoor-hospitality/
 action: keep-fix
@@ -10,11 +10,11 @@ audience: [COM, ARC]
 stage: [AW]
 cell: COM-AW
 asset: A24
-summary: "Project designer Liz Neuffer of Aria Group on designing restaurant and bar terraces that draw guests and survive the weather: early enclosure decisions, varied seating, electric heat and how to answer a client's cost questions."
+summary: "Project designer Liz Neuffer of Aria Group on creating restaurant and bar terraces that draw guests in and stand up to the weather: early enclosure decisions, varied seating, electric heat and a clear answer to a client's cost questions."
 primary_keyword: outdoor hospitality design
 secondary_keywords: [restaurant patio design, outdoor dining design, designing outdoor spaces podcast]
 ai_prompt: "How do designers plan outdoor dining spaces that work in cold or changeable weather?"
-meta_description: "Liz Neuffer of Aria Group on outdoor hospitality design: enclosure, seating, weather, electric heat and answering client cost questions."
+meta_description: "Liz Neuffer of Aria Group on outdoor hospitality design: enclosure, seating, weather, electric heat and how to answer a client's questions about cost."
 cta: {label: "Book the AIA CE course on outdoor heating", asset: A14}
 hero: w-wrigleys-mansion-eclipse-portable-heater-4
 owner_review: Marketing
@@ -23,7 +23,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [COM-AW-01, COM-CO-01, ARC-AW-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -62,29 +62,29 @@ sources:
     verified: false
 ---
 
-Outdoor hospitality spaces earn their keep when guests can see them, sit in them and stay warm in them. In the first episode of Designing Outdoor Spaces, Liz Neuffer, Project Designer at Aria Group, explains how she plans restaurant and bar terraces: decide on enclosure early, vary the seating, budget for weather protection and heat, and give clients a clear case for the cost[^s1].
+The outdoor hospitality spaces that thrive are the ones guests can see from the street, settle into and stay warm in. In the first episode of Designing Outdoor Spaces, Liz Neuffer, Project Designer at Aria Group, shares how she plans restaurant and bar terraces: decide on enclosure early, vary the seating, budget for weather protection and heat, and give clients a clear case for the cost[^s1].
 
-![Dusk terrace below a white mansion with two arched Eclipse freestanding heaters glowing](img:w-wrigleys-mansion-eclipse-portable-heater-4)
+![Dusk terrace below a white mansion, warmed by two arched Eclipse freestanding heaters](img:w-wrigleys-mansion-eclipse-portable-heater-4)
 
-## Who is Liz Neuffer?
+## Meet Liz Neuffer
 
-Elizabeth (Liz) Neuffer is a Project Designer at [Aria Group](https://www.ariainc.com/), a firm known for hospitality work[^s3]. She joined Archispeak host Cormac Phalen[^s4] for season one, episode one of the series[^s2].
+Elizabeth (Liz) Neuffer is a Project Designer at [Aria Group](https://www.ariainc.com/), a firm known for its hospitality work[^s3]. She joined Archispeak host Cormac Phalen[^s4] for season one, episode one of the series[^s2].
 
-## The essence of outdoor space design
+## Why Outdoor Space Has Become An Investment
 
-Neuffer sees clients now treating outdoor space as an investment in its own right, and a wider product market (lighting, heaters, wind protection) making it easier to deliver[^s1]. She also notes that some clients avoid sites where landlords or local rules limit outdoor extensions. And diners who can be seen outside draw more guests in[^s1].
+Neuffer sees clients now treating outdoor space as an investment in its own right, with a wider choice of lighting, heaters and wind protection making it easier to deliver[^s1]. She also notes that some clients steer away from sites where landlords or local rules limit outdoor extensions, and that diners seen enjoying themselves outside draw more guests in[^s1].
 
-## Designing for the guest
+## Designing Around The Guest
 
-Decide early whether a structure will enclose the space, because that sets how far it can be conditioned. Mix dining, bar and lounge zones; offer intimate nooks alongside standard tables; choose furniture that survives weather and stays comfortable[^s1]. Phalen added that clients are more willing to use rooftops once liability concerns are answered[^s1].
+Decide early whether a structure will enclose the space, because that choice sets how far it can be conditioned. Blend dining, bar and lounge zones, offer intimate nooks alongside standard tables, and choose furniture that weathers well and stays comfortable[^s1]. Phalen added that clients become more willing to use rooftops once their liability concerns are answered[^s1].
 
-## Battling the elements
+## Welcoming Guests Whatever The Weather
 
-In changeable climates such as Chicago, Neuffer's view is that full year-round climate control may not be realistic, but a space can succeed if the designer specifies the right equipment and the client budgets for it[^s1].
+In changeable climates such as Chicago, Neuffer feels that full year-round climate control may not be realistic, though a space can still succeed when the designer specifies the right equipment and the client budgets for it[^s1].
 
-## Sustainability, aesthetics and function
+## Where Sustainability Meets Beautiful Design
 
-Neuffer describes electric heaters replacing natural gas and propane units as architects focus on sustainability, and propane tank heaters falling out of favour because of their upkeep[^s1]. She singles out the Eclipse as a slim disc that gives both heat and light, so heating is neither an afterthought nor an eyesore[^s1].
+Neuffer describes electric heaters replacing natural gas and propane units as architects focus on sustainability, with propane tank heaters falling out of favour because of their upkeep[^s1]. She singles out the Eclipse, a slim disc that offers both heat and light, as a way to make heating a considered part of the design that sits beautifully in the space[^s1].
 
 | Client question | How the episode answers it |
 |---|---|
@@ -93,19 +93,19 @@ Neuffer describes electric heaters replacing natural gas and propane units as ar
 | Gas, propane or electric? | Electric is easier to install and maintain than tank units |
 | Will heaters spoil the look? | Choose slim fixtures that double as lighting |
 
-For a terrace like the one above, the [Eclipse](https://www.bromic.com/eclipse-collection/) freestanding heater covers about 121 ft² and ships with the Eclipse Dimmer Controller and a remote[^s5]; fixed Eclipse and Platinum Electric heaters run from an Affinity Smart-Heat controller (Eclipse controller, or On/Off or Dimmer) with a wall switch. App scheduling needs compatible Affinity controls, sold separately. For fuel choices, see [outdoor electric heaters](https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/) and [outdoor gas heaters](https://www.bromic.com/outdoor-heaters/outdoor-gas-heaters/).
+For a terrace like the one above, the [Eclipse](https://www.bromic.com/eclipse-collection/) freestanding heater covers about 121 ft² and ships with the Eclipse Dimmer Controller and a remote[^s5]. Fixed Eclipse and Platinum Electric heaters run from an Affinity Smart-Heat controller (the Eclipse controller, or On/Off or Dimmer) with a wall switch. App scheduling needs compatible Affinity controls, sold separately. To weigh up fuel choices, explore [outdoor electric heaters](https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/) and [outdoor gas heaters](https://www.bromic.com/outdoor-heaters/outdoor-gas-heaters/).
 
 ## Frequently asked
 
 ### Where can I hear the episode?
-On the [episode page](https://www.bromic.com/podcast/hospitality-and-outdoor-spaces/), with a transcript.
+You will find it on the [episode page](https://www.bromic.com/podcast/hospitality-and-outdoor-spaces/), along with a transcript.
 
 ### What do restaurant clients worry about most?
-Upfront cost, maintenance and running cost, weighed against added seating and a longer useful life for the business.
+Upfront cost, maintenance and running cost, which they weigh against the added seating and a longer useful life for the business.
 
 ### Can an outdoor dining space be used all year?
-Neuffer's view is that it can succeed with the right equipment and the budget for it, though full year-round climate control may not be realistic.
+Neuffer's view is that it can succeed with the right equipment and the budget to match, though full year-round climate control may not be realistic.
 
 <div class="newsletter">Newsletter sign-up, one line (454 Creative to wire to the HubSpot newsletter form): "Get each new episode of Designing Outdoor Spaces by email."</div>
 
-Want the science behind it for your team? Book Bromic's one-hour AIA CE course on outdoor heating.
+Want to share the science behind it with your team? Book Bromic's one-hour AIA CE course on outdoor heating.

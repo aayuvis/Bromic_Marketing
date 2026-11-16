@@ -1,13 +1,13 @@
 ---
 id: CSP-10
 type: case-study
-title: "Family home for sale, Baulkham Hills (Manor Real Estate listing), Baulkham Hills (north-west Sydney)"
+title: "A family home in Baulkham Hills: an alfresco room for every season"
 slug: csp-10
 audience: ["RES", "ARC", "BLD"]
 stage: [IN, PP]
 cell: RES-IN
 asset: A10
-summary: "A five-bedroom family home whose covered alfresco room has a built-in Wolf barbecue, sink, TV, ceiling fans, surround sound and Bromic heaters, looking over a heated pool. The agent's listing calls out the Bromic heaters as what makes the alfresco usable for"
+summary: "In a Baulkham Hills family home, the covered alfresco room looks out over a heated pool, and the agent's listing names its Bromic heaters as what makes it a space for entertaining all year."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-010-076
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: page-read
 completeness: partial
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Manor Real Estate (agents Jay Bacani, Kevin Buchanan)"
@@ -44,15 +44,15 @@ sources:
 | Heated area or seats | covered alfresco area beside the pool |
 | Year | listing current Nov 2026 (open inspection Sat 14 Nov) |
 
-## What the sources say
+## The story so far
 
-A five-bedroom family home whose covered alfresco room has a built-in Wolf barbecue, sink, TV, ceiling fans, surround sound and Bromic heaters, looking over a heated pool. The agent's listing calls out the Bromic heaters as what makes the alfresco usable for entertaining all year. [^s1]
+This five-bedroom family home has a covered alfresco room made for entertaining, with a built-in Wolf barbecue, sink, TV, ceiling fans, surround sound and Bromic heaters, all looking out over a heated pool. The agent's listing singles out the Bromic heaters as what makes the alfresco usable for entertaining all year. [^s1]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-A premium Sydney suburban home where an agent uses Bromic as a selling point next to Wolf appliances: evidence for the 'heating adds resale value' message to builders and homeowners. Owner contact only through the agent; listing will go stale once sold.
+Here an agent presents Bromic as a selling point beside Wolf appliances in a premium Sydney suburban home, which supports the message to builders and homeowners that heating adds resale value. The owner can be reached only through the agent, and the listing will go stale once the home sells.
 
 ## Photos
 

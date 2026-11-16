@@ -1,13 +1,13 @@
 ---
 id: CSP-06
 type: case-study
-title: "Builder display home, Marmion (builder not named), Marmion, Perth"
+title: "A builder's display home in Marmion, Perth: white Platinum from the start"
 slug: csp-06
 audience: ["RES", "ARC", "BLD"]
 stage: [IN, PP]
 cell: RES-IN
 asset: A19
-summary: "A builder's testimonial says it chose white Platinum Smart-Heat Electric heaters for its display home in Marmion and has relied on Bromic across many projects. The builder is not named in the snippet seen."
+summary: "For its display home in Marmion, Perth, a builder chose white Platinum Smart-Heat Electric heaters, and its testimonial says it has relied on Bromic across many projects."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-010-073
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: snippet-only
 completeness: partial
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Bromic Australia (builders landing page, not a case study)"
@@ -43,15 +43,15 @@ sources:
 | Controls | [[VERIFY: controls and zones — Bromic AU [[VERIFY: AU regional lead]]]] |
 | Builder or developer | unnamed WA builder (testimonial) |
 
-## What the sources say
+## The story so far
 
-A builder's testimonial says it chose white Platinum Smart-Heat Electric heaters for its display home in Marmion and has relied on Bromic across many projects. The builder is not named in the snippet seen. [^s1]
+In a testimonial, a Perth builder says it chose white Platinum Smart-Heat Electric heaters for its display home in Marmion, and that it has relied on Bromic across many of its projects. The snippet we saw does not name the builder. [^s1]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-A volume-builder display home in Perth: the builder channel and specification at display-home stage, which fits the 'designed in from the start' thesis. Bromic AU marketing will know the builder's name.
+A volume builder's display home shows heat specified at the very first stage a buyer walks through, which is the heart of designing warmth in from the start. Bromic AU marketing will know the builder's name.
 
 ## Photos
 

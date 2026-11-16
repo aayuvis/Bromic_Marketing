@@ -1,13 +1,13 @@
 ---
 id: CSP-16
 type: case-study
-title: "Turtle Bay Pub at Wood Lake, Lake Country"
+title: "Turtle Bay Pub at Wood Lake, Lake Country: about 50 more seats by the lake"
 slug: csp-16
 audience: ["COM"]
 stage: [IN, PP]
 cell: COM-IN
 asset: A23
-summary: "A lakeside pub added a 13 ft high, 1,240 sq ft freestanding louvred pergola with motorised privacy screens over its patio, adding about 50 seats for three seasons. Bromic gas heaters were part of the package."
+summary: "Beside Wood Lake, the Turtle Bay Pub added a 13 ft high, 1,240 sq ft freestanding louvred pergola with motorised privacy screens over its patio, with Bromic gas heaters, adding about 50 seats for three seasons."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-016-131
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: page-read
 completeness: partial
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Bella Outdoor Living"
@@ -46,15 +46,15 @@ sources:
 | Mounting | with a freestanding louvred-roof pergola (method not stated) |
 | Year | 2025 (completed July 2025) |
 
-## What the sources say
+## The story so far
 
-A lakeside pub added a 13 ft high, 1,240 sq ft freestanding louvred pergola with motorised privacy screens over its patio, adding about 50 seats for three seasons. Bromic gas heaters were part of the package. [^s1]
+On the shore of Wood Lake, the Turtle Bay Pub added a 13 ft high, 1,240 sq ft freestanding louvred pergola with motorised privacy screens over its patio, adding about 50 seats for three seasons. Bromic gas heaters were part of the package. [^s1]
 
-**Controls.** A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-A recent (2025) Canadian pub with a clear revenue result (about 50 extra seats). It shows gas heat outside a louvred roof, a pattern Canadian dealers can repeat.
+A recent (2025) Canadian pub with a clear revenue result, about 50 extra seats, shows gas heat working beneath a louvred roof, a pattern Canadian dealers can repeat.
 
 ## Photos
 

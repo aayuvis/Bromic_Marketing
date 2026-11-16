@@ -1,7 +1,7 @@
 ---
 id: BLOG-06
 type: blog
-title: "How to install a Bromic Eclipse Freestanding heater"
+title: "How To Install A Bromic Eclipse Freestanding Heater"
 slug: how-to-install-a-bromic-eclipse-freestanding-heater
 live_url: https://www.bromic.com/blog/how-to-install-a-bromic-eclipse-freestanding-heater/
 action: keep-fix
@@ -10,11 +10,11 @@ audience: [RES, BLD]
 stage: [BY]
 cell: RES-BY
 asset: A24
-summary: "Assembling the Eclipse Smart-Heat Freestanding heater: tools, the ten base weights, the arm and head, levelling, the 240 V outlet it plugs into, and setting heat and light with the included controller and the app."
+summary: "Bringing an Eclipse Smart-Heat Freestanding heater to life on your patio, from the tools, the ten base weights, the arms, head and levelling to the 240 V outlet it plugs into and setting heat and light with the included controller and the app."
 primary_keyword: eclipse freestanding heater installation
 secondary_keywords: [freestanding patio heater assembly, electric freestanding patio heater outlet, Eclipse Smart-Heat Freestanding, 240v patio heater plug]
 ai_prompt: "How do I set up a Bromic Eclipse Freestanding patio heater?"
-meta_description: "Assemble a Bromic Eclipse Freestanding heater: base and ten weights, arms, head, levelling, a 240 V 20 A outlet by a licensed electrician, then the controls."
+meta_description: "Eclipse Freestanding heater installation: the base and ten weights, arms, head and levelling, a 240 V 20 A outlet by a licensed electrician, then the controls."
 cta: {label: "Get the Smart-Heat controls setup guide", asset: A09}
 hero: w-bromiceclipseheater-scottsdalehome-2
 images: [w-bromic-eclipse-portable-hotel-skansen-06-v02]
@@ -24,7 +24,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-BY-01, BLD-BY-KB1, RES-CO-KB2]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -70,13 +70,13 @@ sources:
     verified: true
 ---
 
-An Eclipse Freestanding heater goes together with two people and hand tools: set the base where it will stand, load its ten 22 lb weights, bolt on the arms and heater head, level the head, then plug into a 220–240 V, 20 A outlet[^s1]. A licensed electrician installs that outlet. The included Eclipse Dimmer Controller and remote then set heat and light, and the Bromic app adds schedules.
+An Eclipse Freestanding heater comes together with two people and hand tools. You set the base where it will stand, load its ten 22 lb weights, bolt on the arms and heater head, level the head, then plug it into a 220–240 V, 20 A outlet[^s1] installed by a licensed electrician. The included Eclipse Dimmer Controller and remote set the heat and light, and the Bromic app adds schedules.
 
 *Follow the [installation manual](https://pim.bromic.com/wp-content/uploads/2021/07/Bromic-Eclipse-Electric-Portable-Instruction-Manual-US.pdf), which covers the Freestanding model under its earlier name, Eclipse Portable[^s4]. The outlet and circuit must be installed by a licensed electrician to the code adopted locally, [NFPA 70](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70) in most of the US[^s6]; confirm requirements with the local building authority.*
 
-![Eclipse Freestanding heaters beside a hotel courtyard lounge](img:w-bromic-eclipse-portable-hotel-skansen-06-v02)
+![Eclipse Freestanding heaters glowing beside a hotel courtyard lounge](img:w-bromic-eclipse-portable-hotel-skansen-06-v02)
 
-## What does the heater need on site?
+## Preparing The Spot Where It Will Stand
 
 | Need | Detail |
 |---|---|
@@ -87,16 +87,16 @@ An Eclipse Freestanding heater goes together with two people and hand tools: set
 | Clearances | Side and overhead clearances are in the manual[^s2][^s4] |
 | Weather | Water-resistant, not waterproof: do not leave it out in the elements[^s2] |
 
-A 240 V outlet is not a standard patio socket. Ask a licensed electrician to add a dedicated 20 A circuit and a weather-rated NEMA 6-20R outlet near where the heater will stand, and to check GFCI requirements ([does an outdoor heater need GFCI?](item:BLD-BY-KB1)). The product page does not list a 208 V rating [[VERIFY: 208 V operation — Product team]].
+A 240 V outlet differs from a standard patio socket, so ask a licensed electrician to add a dedicated 20 A circuit and a weather-rated NEMA 6-20R outlet near where the heater will stand, and to check GFCI requirements ([does an outdoor heater need GFCI?](item:BLD-BY-KB1)). The product page does not list a 208 V rating [[VERIFY: 208 V operation — Product team]].
 
-## What do I need to assemble it?
+## What To Have On Hand
 
 - Phillips and flat-head screwdrivers
 - A small step ladder and a spirit level
 - Bolts for fixing the base to the ground, if you will bolt it (not supplied)
 - Two strong people[^s1]
 
-## How do I assemble it, step by step?
+## Assembling Your Heater, Step By Step
 
 **Base**
 
@@ -125,15 +125,15 @@ A 240 V outlet is not a standard patio socket. Ask a licensed electrician to add
 
 <div class="diagram">Diagram: exploded view of the Eclipse Freestanding showing base with ten weights and five bolt holes, lower, middle and top arms with O-rings, heater head, connector box and the plug to a 240 V outlet</div>
 
-## How do I turn it on and control it?
+## Your First Evening Of Warmth And Light
 
-Plug in and switch on the outlet. The base beeps softly and the light flashes for about a second; the heater stays off until you choose a setting[^s1]. Then:
+Plug in and switch on the outlet. The base gives a soft beep and the light flashes for about a second, and the heater then rests, off, until you choose a setting[^s1]. From there you can shape the evening with its controls:
 
-- **Eclipse Dimmer Controller and remote (included)**: set heat at 33, 66 or 100% output and dim the light, with presets you can change[^s1][^s2].
-- **Bromic Smart-Heat app**: schedules, timers and zones. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately[^s3]. The product page calls the Freestanding app-enabled[^s2] [[VERIFY: whether the included controller connects to the app, or an Affinity Eclipse controller is needed — Product team]].
-- **Affinity Smart-Heat Eclipse controller**: runs one Eclipse heater per channel, for owners grouping several heaters[^s5] [[VERIFY: compatibility with the plug-in Freestanding — Product team]].
+- **The Eclipse Dimmer Controller and remote, included**, set the heat at 33, 66 or 100% output and dim the light, with presets you can change[^s1][^s2].
+- **The Bromic Smart-Heat app** adds schedules, timers and zones. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately[^s3]. The product page calls the Freestanding app-enabled[^s2] [[VERIFY: whether the included controller connects to the app, or an Affinity Eclipse controller is needed — Product team]].
+- **The Affinity Smart-Heat Eclipse controller** runs one Eclipse heater per channel, for owners grouping several heaters[^s5] [[VERIFY: compatibility with the plug-in Freestanding — Product team]].
 
-The [Smart-Heat controls setup guide](item:RES-BY-01) walks through pairing, zones and schedules.
+Our [Smart-Heat controls setup guide](item:RES-BY-01) walks you through pairing, zones and schedules.
 
 ## Frequently asked
 
@@ -143,14 +143,14 @@ No. It has a NEMA 6-20P plug for a 220–240 V, 20 A outlet, which a licensed el
 
 ### Does the Eclipse Freestanding need to be bolted down?
 
-Its weighted base holds it in normal use. In windy spots, bolt it down through the five holes in the base[^s1].
+Its weighted base holds it steady in normal use. In windy spots, bolt it down through the five holes in the base[^s1].
 
 ### Can it stay outside all year?
 
-It is water-resistant, not waterproof; Bromic advises not leaving it out in the elements[^s2].
+The heater is water-resistant, though not waterproof, and Bromic advises against leaving it out in the elements[^s2].
 
 ### How much area does it heat?
 
 About 121 ft²[^s2].
 
-See where it fits among [freestanding heaters](https://www.bromic.com/outdoor-heaters/freestanding/), or plan the layout with [Design Your Space](https://www.bromic.com/design-your-space/).
+See where it fits among our [freestanding heaters](https://www.bromic.com/outdoor-heaters/freestanding/), or plan your layout with [Design Your Space](https://www.bromic.com/design-your-space/).

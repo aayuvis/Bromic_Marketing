@@ -1,13 +1,13 @@
 ---
 id: CSW-01
 type: case-study
-title: "The Luna, Wilmington NC: recessed heat on a pool porch in a Parade of Homes winner"
+title: "The Luna, Wilmington NC: recessed warmth on a pool porch in a Parade of Homes winner"
 slug: csw-01
 audience: ["RES", "BLD", "ARC"]
 stage: [IN, PP]
 cell: BLD-IN
 asset: A19
-summary: "A fully custom coastal home by Hardison Building with custom recessed Bromic heaters on the porch over the pool, Gold for Best Outdoor Living in the Wilmington Parade of Homes."
+summary: "On a fully custom coastal home by Hardison Building, custom recessed Bromic heaters warm the porch above the pool, a home that took Gold for Best Outdoor Living in the Wilmington Parade of Homes."
 cta: {label: "Book a design consult", asset: A07}
 hero: w-hartleyhallplporchdeckdarnestownmd-0052
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: page-read
 completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Wilmington Parade of Homes (WCHBA)"
@@ -46,19 +46,19 @@ sources:
 | Heated area | The porch overlooking the pool |
 | Recognition | Gold award, Best Outdoor Living (per the Parade listing) |
 
-## The space
+## The setting
 
-A custom coastal home built by Hardison Building for the Wilmington Parade of Homes, with a gunite pool and hot tub, exotic-wood porch ceilings and an outdoor kitchen. The listing names custom recessed Bromic heaters on the porch that overlooks the pool, and records a Gold award for Best Outdoor Living. [^s1]
+The Luna is a custom coastal home built by Hardison Building for the Wilmington Parade of Homes, with a gunite pool and hot tub, exotic-wood porch ceilings and an outdoor kitchen. The listing names custom recessed Bromic heaters on the porch that overlooks the pool, and records a Gold award for Best Outdoor Living. [^s1]
 
-## What was installed
+## Bringing in the warmth
 
-Custom recessed Bromic heaters in the porch ceiling over the pool terrace. The listing does not give the model or the number of heaters.
+Custom recessed Bromic heaters are set into the porch ceiling above the pool terrace. The listing does not give the model or the number of heaters.
 
-**Controls.** None A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+The sources do not name the controls used here. Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-A builder show home that won on outdoor living, with heat recessed into the ceiling from the start: the clearest proof of "designed from the start, not added later" for the builder channel, in a Southeast market where Bromic has few stories.
+A builder show home that won on outdoor living, with heat recessed into the ceiling from the start, is the clearest proof we have for the builder channel that heat belongs in the design from day one, and it comes from a Southeast market where Bromic has few stories.
 
 ## Photos
 

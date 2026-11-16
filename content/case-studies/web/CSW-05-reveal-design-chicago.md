@@ -1,13 +1,13 @@
 ---
 id: CSW-05
 type: case-study
-title: "Chicago backyards by Reveal Design: heat hung from louvered pergolas"
+title: "Chicago backyards by Reveal Design: warmth hung from louvered pergolas"
 slug: csw-05
 audience: ["RES", "ARC", "BLD"]
 stage: [IN, PP]
 cell: ARC-IN
 asset: A19
-summary: "Chicago landscape design-build firm Reveal Design lists Bromic heaters on louvered-pergola projects in Glenview and North Center, Chicago."
+summary: "Chicago landscape design-build firm Reveal Design lists Bromic heaters on its louvered-pergola projects in Glenview and in North Center, Chicago."
 cta: {label: "Book a design consult", asset: A07}
 hero: w-240619-yorba-linda-ca-dc-64
 hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
@@ -20,7 +20,7 @@ evidence: page-read
 completeness: full-draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-12
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: "Reveal Design LLC"
@@ -56,19 +56,19 @@ sources:
 | Products | Bromic electric heaters, hung from the pergola (Glenview) [[VERIFY: model and quantity — US field sales]] |
 | Controls | [[VERIFY: controls and zones — US field sales]] |
 
-## The space
+## The setting
 
-In Glenview, a suburban backyard with a composite deck, an opening louvered pergola, a custom outdoor kitchen, a fire table and privacy planting. In North Center, a city backyard with a louvered pergola beside a garage with a party door, a deck, a paver walk and a fire table. [^s1][^s2][^s3]
+In Glenview, a suburban backyard brings together a composite deck, an opening louvered pergola, a custom outdoor kitchen, a fire table and privacy planting. In North Center, a city backyard pairs a louvered pergola with a garage and its party door, a deck, a paver walk and a fire table. [^s1][^s2][^s3]
 
-## What was installed
+## Bringing in the warmth
 
 In Glenview, Bromic electric heaters hang from the aluminium pergola. For North Center, the firm's listing names Bromic heaters and the project page says the pergola is equipped with heaters.
 
-**Controls.** [[VERIFY: which controls were installed, and how many zones — US field sales]] A complete Bromic installation runs on its controls: an Affinity Smart-Heat On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
+[[VERIFY: which controls were installed, and how many zones — US field sales]] Every Bromic installation is completed by Affinity Smart-Heat® Controls, an On/Off, Dimmer or Eclipse controller with a wall switch and the Bromic Smart-Heat app, so the warmth is always exactly where, and when, it is wanted. Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.
 
-## Why it matters for sales
+## Why this story matters
 
-A landscape architect and design-build firm in a cold city that specifies Bromic into its pergola work: a designer reference for the Midwest, and a model for the specifier channel.
+A landscape architect and design-build firm in a cold city that specifies Bromic into its pergola work gives us a designer reference for the Midwest, and a model for the specifier channel.
 
 ## Photos
 

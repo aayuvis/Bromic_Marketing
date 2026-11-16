@@ -1,17 +1,17 @@
 ---
 id: A15
 type: sales-kit
-title: "Bromic builder program: one-pager and Good–Better–Best outdoor heating guide"
+title: "The Bromic Builder Program: Outdoor Heater Package Options In Three Tiers"
 slug: builder-program
 audience: [BLD]
 stage: [AW, CO]
 cell: BLD-CO
 asset: A15
-summary: "Trade one-pager for home builders plus a three-tier Good–Better–Best outdoor heating package, each tier a complete system with heaters, controls and pre-wire."
+summary: "A trade one-pager for home builders and a Good–Better–Best outdoor heating package, each tier a complete, pre-wired system of heaters and controls that lets your buyers enjoy the patio long after sunset."
 primary_keyword: outdoor heater package options
 secondary_keywords: [builder outdoor living upgrades, outdoor living package, patio heater upgrade options, new home upgrades]
 ai_prompt: "How should builders package outdoor heating options?"
-meta_description: "A Good–Better–Best outdoor heating package for home builders: three complete tiers with heaters, controls and pre-wire, plus the Bromic builder program."
+meta_description: "Outdoor heater package options for home builders: three complete Good–Better–Best tiers with heaters, controls and pre-wire, from the Bromic builder program."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-010-069
 images: [l-010-070, l-010-071, l-013-100]
@@ -19,7 +19,7 @@ owner_review: Trade sales
 status: draft
 gated: true
 related: [BLD-AW-01, BLD-CO-01, BLD-IN-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: National Association of Home Builders (Eye on Housing)
@@ -65,30 +65,30 @@ sources:
     verified: true
 ---
 
-# Bromic builder program
+# The Bromic Builder Program
 
-Your buyers already stand on the patio and picture the evenings. Heat is what lets them stay out after the sun goes down. Most packages stop at the slab and the pergola; this one adds a complete, pre-wired outdoor heating option at three price points, so your sales team sells heat the same way it sells cabinets.
+Your buyers already stand on the patio and picture the evenings they will spend there. Radiant warmth is what lets them stay out long after the sun goes down. Most packages finish at the slab and the pergola, so we created a complete, pre-wired outdoor heating option at three price points that your sales team can present as naturally as cabinetry.
 
-![Modern pool house with heaters under the cantilever](img:l-010-069)
+![A modern pool house with heaters set beneath the cantilever](img:l-010-069)
 
-## Part 1: The one-pager
+## Part 1: The One-Pager
 
 ### Headline
 
-**Sell the evening, not just the patio.**
-Pre-wired Bromic radiant heat in three ready packages, designed in at framing, not added later.
+**Sell The Evening Along With The Patio.**
+Pre-wired Bromic radiant heat in three ready packages, planned in at framing from the very first drawing.
 
-### Why heat belongs in the options sheet
+### Why Heat Belongs On The Options Sheet
 
-**1. The patio is standard.** 60.5% of single-family homes started in 2025 came with a patio.[^s1] The average new-home patio is about 320 ft².[^s2]
+**1. Most new homes now come with a patio.** 60.5% of single-family homes started in 2025 came with a patio.[^s1] The average new-home patio is about 320 ft².[^s2]
 
-**2. Buyers ask for it.** 86% of recent and prospective buyers rate a patio essential or desirable, level with the laundry room as the most-wanted feature.[^s3]
+**2. Buyers are asking for it.** 86% of recent and prospective buyers rate a patio essential or desirable, level with the laundry room as the most-wanted feature.[^s3]
 
-**3. Heat is the gap.** Only 23% of homeowners prioritise outdoor heating at the planning stage, yet 67% say heating extends how much they use their outdoor space.[^s4] [[VERIFY: survey base, sample size and fieldwork date for the Atomik Research figures — Marketing]] That gap is the upgrade.
+**3. Few homes come with the warmth to enjoy it.** Only 23% of homeowners prioritise outdoor heating at the planning stage, yet 67% say heating extends how much they use their outdoor space.[^s4] [[VERIFY: survey base, sample size and fieldwork date for the Atomik Research figures — Marketing]] The distance between those two numbers is where your upgrade lives.
 
-### What the program gives you
+### What The Program Brings Your Team
 
-Every item below is a proposal until confirmed. Nothing here is a price, margin or lead-time commitment.
+Every item below is a proposal until confirmed, and none of it is yet a price, margin or lead-time commitment.
 
 | Benefit | What it means for your team | Status |
 |---|---|---|
@@ -105,13 +105,13 @@ Every item below is a proposal until confirmed. Nothing here is a price, margin 
 | Co-marketing | Brochure inserts, imagery for your listings | [[VERIFY: what assets and usage rights — Marketing]] |
 | Program contact | Named regional contact | [[VERIFY: contact per region — Trade sales]] |
 
-### Who it is for
+### Who It Is For
 
 Production and semi-custom builders with an outdoor living package, custom builders who want a standard heating detail, and remodelers who add covered patios. [[VERIFY: eligibility criteria — Trade sales]]
 
-## Part 2: Good–Better–Best guide
+## Part 2: The Good–Better–Best Guide
 
-Each tier is a complete working solution: heaters, the controls to run them, mounting, and the rough-in your electrician installs at framing. Controls are part of every tier, never an add-on. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately; they are included in the tier where listed.[^s5]
+Each tier is a complete working solution, bringing together the heaters, the controls that run them, the mounting and the rough-in your electrician installs at framing. Controls come with every tier as part of the system. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately; they are included in the tier where listed.[^s5]
 
 Tiers are shown for one covered patio. Heater count depends on the patio's size, height and exposure; coverage per heater is approximate and varies with model, mounting height, environment and installation.[^s5] Bromic's design team confirms the count and positions for each plan.
 
@@ -131,32 +131,32 @@ Tiers are shown for one covered patio. Heater count depends on the patio's size,
 
 [[VERIFY: Affinity controller compatibility with each Platinum wattage, and whether the On/Off controller supports the app — Product team]]
 
-![Courtyard dining table with a black wall heater](img:l-010-070)
+![A courtyard dining table warmed by a black wall heater](img:l-010-070)
 
-### Good: heat where people sit
+### Good: Warmth Where Everyone Sits
 
-A wall- or ceiling-mounted Platinum heater aimed at the table. One zone, one switch, one controller. The simplest pre-wire and the easiest line on the options sheet. Marine variants suit coastal lots.[^s5]
+A wall- or ceiling-mounted Platinum heater is aimed at the table, running on one zone with one switch and one controller. It is the simplest pre-wire and the easiest line to add to the options sheet. Marine variants suit coastal lots.[^s5]
 
-### Better: heat you can feel, not see
+### Better: Heat You Can Feel, Not See
 
-Platinum recessed flush into the soffit with Bromic's recess kit, so the ceiling stays clean.[^s6] The Affinity Dimmer controller lets owners turn the heat down on mild nights, and the Smart-Heat app sets schedules and timers. This is the tier to show in the model home.
+Platinum sits recessed flush into the soffit with Bromic's recess kit, so the ceiling stays clean and uncluttered.[^s6] The Affinity Dimmer controller lets owners soften the heat on mild nights, and the Smart-Heat app sets schedules and timers. This is the tier to show in your model home.
 
-![Ocean-view outdoor living room with recessed heaters](img:l-010-071)
+![An ocean-view outdoor living room with recessed heaters](img:l-010-071)
 
-### Best: an outdoor room
+### Best: A Complete Outdoor Room
 
-Recessed Platinum over the lounge, Eclipse pendants over the dining table for heat and light in one, separate zones, and integration with the home's automation system where it has one. For buyers who want the newest design, offer Tungsten Select or Coastal (coming soon) as the recessed heater once Bromic confirms availability.
+Recessed Platinum warms the lounge while Eclipse pendants bring heat and light together over the dining table, each on separate zones and integrated with the home's automation system where it has one. For buyers who want the newest design, offer Tungsten Select or Coastal (coming soon) as the recessed heater once Bromic confirms availability.
 
-![Eclipse pendants above a long candlelit dining table](img:l-013-100)
+![Eclipse pendants glowing above a long candlelit dining table](img:l-013-100)
 
-## How do you sell it?
+## Bringing It To Your Buyers
 
-- **Show it lit.** A heated model-home patio at dusk does the selling.
-- **Price the pre-wire, even when buyers decline.** A rough-in at framing costs far less than opening a finished soffit later, and lets buyers add heat after closing. [[VERIFY: typical rough-in cost range from partner electricians — Trade sales]]
+- **Show it lit.** A heated model-home patio at dusk tells the story better than any brochure.
+- **Price the pre-wire, even when buyers decline it.** A rough-in at framing costs far less than opening a finished soffit later, and it lets buyers add heat after closing. [[VERIFY: typical rough-in cost range from partner electricians — Trade sales]]
 - **Lead with the moment, then the tier.** "Dinner outside in October" sells better than a wattage.
-- **Keep controls in the price.** A heater without its controller is not a finished option.
+- **Keep controls in the price.** A heater becomes a finished option once its controller is included.
 
-## Planning checklist
+## Your Planning Checklist
 
 - [ ] Choose which plans get the program; mark the patio on each.
 - [ ] Send plans to Bromic's design team for heater counts and positions per tier.
@@ -165,4 +165,4 @@ Recessed Platinum over the lounge, Eclipse pendants over the dining table for he
 - [ ] Brief the design-centre team; install the Better tier in the model home.
 - [ ] Electrical work by a licensed electrician to NFPA 70 as adopted locally; confirm with the local building authority.[^s6]
 
-Book a design consult and we will size all three tiers for your lead plan.
+Book a design consult, and we will size all three tiers for your lead plan.
