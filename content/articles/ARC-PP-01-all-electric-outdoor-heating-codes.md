@@ -11,7 +11,7 @@ summary: "A specifier's reading of the 2026 electrification landscape – NYC, N
 primary_keyword: electric outdoor heater code
 secondary_keywords: [all electric building code, gas ban patio heater]
 ai_prompt: "Are gas patio heaters allowed under all-electric building codes?"
-meta_description: "Electric outdoor heater code guide for architects: NYC LL154, New York State, California Title 24, Washington and the EPCA cases, and what they mean for gas."
+meta_description: "Electric outdoor heater code guide for architects: NYC LL154, New York State, California Title 24, Washington, the EPCA cases and what they mean for gas."
 cta: {label: "Download the electrification compliance guide", asset: A12}
 hero: l-009-061
 images: [l-010-073]

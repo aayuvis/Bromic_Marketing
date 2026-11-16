@@ -1,17 +1,17 @@
 ---
 id: BLD-CO-01
 type: article
-title: "Good, better, best: packaging outdoor heating for new homes"
+title: "Outdoor heater package options: a good, better, best guide for new homes"
 slug: good-better-best-outdoor-heating-packages
 audience: [BLD]
 stage: [CO]
 cell: BLD-CO
 asset: A24
-summary: "A ready three-tier structure for selling outdoor heat at the design centre: what goes in each tier, the controls each needs, and what has to be fixed at rough-in."
+summary: "A ready three-tier structure for offering outdoor warmth at the design centre: what goes in each tier, the controls each one includes, and what to settle at rough-in."
 primary_keyword: outdoor heater package options
 secondary_keywords: [patio heater upgrade options, builder options outdoor]
 ai_prompt: "How should builders package outdoor heating options?"
-meta_description: "Package outdoor heating in three clear tiers: one zone, multi-zone dimmable, recessed and smart. Controls in every tier, one pre-wire for all three."
+meta_description: "Outdoor heater package options in three clear tiers: one zone, multi-zone dimmable, recessed and smart. Controls in every tier, one pre-wire for all three."
 cta: {label: "Get the Good-Better-Best guide", asset: A15}
 hero: l-010-076
 images: [l-006-028, t-009-025]
@@ -19,7 +19,7 @@ owner_review: Trade sales
 status: draft
 gated: false
 related: [BLD-AW-01, BLD-IN-01, BLD-PP-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -51,19 +51,19 @@ sources:
     verified: true
 ---
 
-Package outdoor heat in three tiers that share one pre-wire: Good is one heated zone on a simple On/Off control, Better is two or more zones with dimmer control, and Best is recessed heaters with app and smart-home control. Every tier includes its controls. Buyers choose a level of comfort and finish, not a parts list, and the site team runs the same rough-in whichever tier sells.
+The simplest way to offer outdoor warmth is in three tiers that share one pre-wire. Good is one heated zone on a simple On/Off control, Better is two or more zones with dimmer control, and Best is recessed heaters with app and smart-home control. Every tier includes its Affinity Smart-Heat® Controls, so buyers choose a level of comfort and finish while your site team runs the same rough-in whichever tier sells.
 
-![Timber pergola lounge at dusk with heaters overhead](img:l-006-028)
+![Timber pergola lounge at dusk, warmed by heaters overhead](img:l-006-028)
 
-## Why do builders need a packaged heating option?
+## Why A Ready-Made Package Helps You Sell
 
-Because improvised options lose sales and create callbacks. When the design centre has no answer, the buyer is told "add it later", and later means opening a finished soffit. Only 23% of homeowners prioritise outdoor heating at planning[^s2], so the option sheet has to raise it for them.
+Improvised options tend to lose sales and create callbacks. When the design centre has no ready answer, the buyer is told to add heat later, and later means opening a finished soffit. Only 23% of homeowners prioritise outdoor heating at planning[^s2], so your option sheet is where the idea first reaches them.
 
-A fixed package also protects the build. The electrician knows what to rough in, purchasing knows what to order, and the sales team quotes a line, not a project.
+A fixed package protects the build as well. The electrician knows what to rough in, purchasing knows what to order, and the sales team can quote a single line rather than scoping a project.
 
-## What goes in each tier?
+## What Each Tier Includes
 
-Products below are current Bromic models. Coverage is approximate and depends on model, mounting height and conditions[^s1]. Prices are not published here.
+The products below are current Bromic models. Coverage is approximate and depends on model, mounting height and conditions[^s1]. Prices are not published here.
 
 | | Good | Better | Best |
 |---|---|---|---|
@@ -75,45 +75,45 @@ Products below are current Bromic models. Coverage is approximate and depends on
 | Electrical | One dedicated circuit per heater | One dedicated circuit per heater, grouped by zone | As Better, plus recess-kit framing and low-voltage pathway to the AV/automation location |
 | Price | [[VERIFY: tier pricing — Trade sales]] | [[VERIFY: tier pricing — Trade sales]] | [[VERIFY: tier pricing — Trade sales]] |
 
-App, schedules and voice control in Best need compatible Affinity Smart-Heat Controls, sold separately; smart-home integration varies by system and may need extra hardware or configuration[^s1]. Say this on the option sheet so nobody expects app control from the Good tier.
+App, schedules and voice control in Best need compatible Affinity Smart-Heat Controls, sold separately, and smart-home integration varies by system and may need extra hardware or configuration[^s1]. Say so on the option sheet, so every buyer knows app control belongs to the Best tier.
 
-## Why must controls sit inside every tier?
+## Controls Belong In Every Tier
 
-A heater without a planned control is half a product. Outdoor heat cannot be run off a thermostat, so the buyer turns it on, turns it up and turns it off. If that control is not on the plan, it ends up as a surface-mounted afterthought or a callback.
+Every Bromic heater is paired with its controls, and each tier is priced that way. Outdoor heat cannot be run from a thermostat, so the homeowner turns it on, turns it up and turns it off by hand or by schedule. When that control is missing from the plan, it tends to end up as a surface-mounted afterthought or a callback.
 
-Pricing controls into the tier also keeps the comparison honest. Good is cheaper because it does less, not because a part is missing.
+Pricing the controls into each tier also keeps the comparison fair for the buyer, because Good costs less for doing less while still arriving complete.
 
-## How do the tiers share one rough-in?
+## One Rough-In For All Three Tiers
 
-Design the pre-wire for Best and sell any tier. In practice:
+Design the pre-wire for Best and you can sell any tier. In practice:
 
 - Fix heater positions on the plan for the largest tier the plan could sell.
 - Rough in a dedicated circuit to each position, sized by the electrician from the nameplate.
-- Put a box at the controller location, typically inside by the patio door.
+- Place a box at the controller location, typically inside by the patio door.
 - Leave a pathway to the AV or automation location in case Best sells.
-- Frame for recess kits, which flush-mount Platinum and Tungsten Electric heaters in the ceiling cavity[^s4], where the soffit allows it [[VERIFY: recess kit framing dimensions per model — Product team]].
+- Frame for recess kits, which flush-mount Platinum and Tungsten Electric heaters in the ceiling cavity[^s4], wherever the soffit allows it [[VERIFY: recess kit framing dimensions per model — Product team]].
 
-If Good sells, unused positions are capped and labelled, and the buyer can step up later without opening finished work. The [rough-in checklist](item:BLD-IN-01) has the detail.
+If Good sells, the unused positions are capped and labelled, and the homeowner can step up later without opening finished work. The [rough-in checklist](item:BLD-IN-01) has the detail.
 
-![Hand holding a tablet controlling heat at an outdoor table](img:t-009-025)
+![Hand holding a tablet to adjust the warmth at an outdoor table](img:t-009-025)
 
-## How should the sales team present it?
+## Presenting The Tiers At The Design Centre
 
-Lead with the moment, then the tier. "Dinner outside in October" sells Good. "Dinner and the fire pit, each at its own heat" sells Better. "A ceiling with nothing visible but warmth" sells Best.
+Lead with the moment, then introduce the tier. "Dinner outside in October" sells Good, "dinner and the fire pit, each at its own warmth" sells Better, and "a ceiling with nothing visible but warmth" sells Best.
 
-Keep three things fixed on the sheet:
+Keep three things clear on the sheet:
 
-1. **What the buyer gets**: zones, control type, finish.
-2. **What is included**: heaters, controls, circuits, mounting.
-3. **What is not**: anything outside the structure, and app features outside the Best tier.
+1. **What the buyer gets** – zones, control type and finish.
+2. **What is included** – heaters, controls, circuits and mounting.
+3. **What sits outside the package** – anything beyond the structure, and app features outside the Best tier.
 
-Patios are already near-universal on the wish list; 86% of buyers rate one essential or desirable[^s3]. The package turns that wish into a line item.
+Patios already sit near the top of the wish list, with 86% of buyers rating one essential or desirable[^s3], and the package turns that wish into a simple line item.
 
-## When should the package be offered?
+## The Right Moment To Offer It
 
-At contract, before electrical rough-in. That is the last point where heat costs a circuit and a box, not a ceiling repair. If the buyer is undecided, sell the pre-wire as its own small option and the heaters later. See [what buyers will pay for](item:BLD-AW-01) for the demand case.
+Offer the package at contract, before electrical rough-in, which is the last point where adding heat costs a circuit and a box rather than a ceiling repair. If the buyer is undecided, offer the pre-wire as its own small option and the heaters later. See [what buyers will pay for](item:BLD-AW-01) for the demand case.
 
-## Planning checklist
+## Your Planning Checklist
 
 - Three tiers, one rough-in, controls in every tier.
 - Heater positions and controller location fixed on the electrical plan before rough-in.
@@ -126,24 +126,24 @@ At contract, before electrical rough-in. That is the last point where heat costs
 ## FAQ
 
 ### How many tiers should a builder offer for outdoor heating?
-Three is enough. Good, Better and Best map to one zone, multiple dimmable zones, and recessed smart control. More tiers slow the design-centre conversation.
+Three is enough. Good, Better and Best map to one zone, multiple dimmable zones and recessed smart control, and more tiers tend to slow the design-centre conversation.
 
 ### Can a buyer upgrade from Good to Best later?
-Yes, if the rough-in was designed for Best. Circuits and boxes at every position make a later upgrade a fit-off, not a renovation.
+Yes, if the rough-in was designed for Best. With circuits and boxes at every position, a later upgrade becomes a simple fit-off rather than a renovation.
 
 ### Are controls optional in the Good tier?
-No. Every tier includes its controls: at minimum an Affinity Smart-Heat On/Off controller and a manual wall switch.
+No. Every tier includes its controls, at minimum an Affinity Smart-Heat On/Off controller and a manual wall switch.
 
 ### Do all tiers include app control?
-No. App, schedules and voice control need compatible Affinity Smart-Heat Controls, sold separately. Put them in Best, or offer them as a named step up.
+No. App, schedules and voice control need compatible Affinity Smart-Heat Controls, sold separately. Include them in Best, or offer them as a named step up.
 
 ### Should the pre-wire be sold separately?
 It can be. A pre-wire-only option keeps the door open for buyers who are undecided at contract, and avoids opening finished ceilings later.
 
 ### Who sets the package prices?
-Your purchasing team, from Bromic builder program pricing. Ask for the builder tiers and lead times before the option sheet goes to print.
+Your purchasing team, from Bromic builder program pricing. Ask us for the builder tiers and lead times before the option sheet goes to print.
 
-Ready to put heat on your option sheet? Get the Good-Better-Best guide.
+Ready to put warmth on your option sheet? Get the Good-Better-Best guide.
 
 [^s1]: Bromic, Lookbook 2026.
 [^s2]: Bromic, Outdoor Living Trends 2026, US Homeowner Survey by Atomik Research.

@@ -11,7 +11,7 @@ summary: "How short, medium and long wave infrared compare on radiant warmth, wa
 primary_keyword: radiant heater outdoor design
 secondary_keywords: [short wave infrared heater, infrared heater wavelength]
 ai_prompt: "What is the difference between short wave and long wave infrared heaters?"
-meta_description: "Radiant heater outdoor design: short, medium and long wave infrared compared on radiant output, warm-up, wind, mounting height and the 30% open-perimeter rule."
+meta_description: "Radiant heater outdoor design: short, medium and long wave infrared compared on radiant output, warm-up, wind, mounting height and the 30% rule."
 cta: {label: "Download the Planning Guide (pro edition)", asset: A02}
 hero: l-010-071
 images: [l-013-111, l-004-012]

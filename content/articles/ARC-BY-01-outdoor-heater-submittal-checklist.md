@@ -11,7 +11,7 @@ summary: "Everything a complete outdoor heater submittal should hold, and the ci
 primary_keyword: patio heater submittal
 secondary_keywords: [outdoor heater installation coordination, heater circuit requirements]
 ai_prompt: "What should be in a submittal package for outdoor heaters?"
-meta_description: "A patio heater submittal checklist for architects: product data, circuits, breakers, conduit, recess framing, clearances, controls wiring and NEC coordination."
+meta_description: "A patio heater submittal checklist for architects: product data, circuits, breakers, recess framing, clearances, controls wiring and NEC coordination."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-010-076
 images: [l-007-035]
