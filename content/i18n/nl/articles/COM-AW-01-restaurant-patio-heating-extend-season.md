@@ -1,16 +1,16 @@
 ---
 id: COM-AW-01
 type: article
-title: "Hoe restaurants het terrasseizoen verlengen met stralingswarmte"
+title: "Meer avonden op het terras: hoe terrasverwarming het seizoen van uw restaurant verlengt"
 audience: [COM]
 stage: [AW]
 cell: COM-AW
 asset: A24
-summary: "Waarom terrasstoelen maandenlang leeg blijven, hoe stralingswarmte ze terugbrengt in het voor- en naseizoen en 's avonds, en hoe u beoordeelt of het rendeert."
+summary: "Waarom terrastafels maandenlang stil blijven, hoe stralingswarmte gasten in het voor- en naseizoen en 's avonds weer naar buiten brengt, en hoe u beoordeelt of het rendeert."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe kunnen restaurants hun terras in de winter openhouden?"
-meta_description: "Stralingsverwarmers, een gedeeltelijke overkapping en windafscherming houden terrasstoelen verkoopbaar tot in herfst en winter. Hoe horecaondernemers het seizoen verlengen en het rendement bepalen."
+meta_description: "Stralingswarmte, een gedeeltelijke overkapping en windafscherming houden uw terras tot in de winter vol. Zo verlengt u het seizoen en berekent u de winst."
 cta: {label: "Vraag uw ROI-berekening aan", asset: A21}
 hero: l-013-111
 images: [p-003-006]
@@ -18,7 +18,7 @@ owner_review: verkoop horeca
 status: draft
 gated: false
 related: [COM-IN-01, COM-CO-01, COM-PP-01, COM-IN-KB1]
-updated: 2026-10-30
+updated: 2026-11-16
 lang: nl
 translation_of: COM-AW-01
 translation_status: machine-draft
@@ -54,19 +54,19 @@ sources:
     verified: true
 ---
 
-Restaurants houden hun terras in de winter open door de gast te verwarmen, niet de lucht. Stralingsverwarmers (infrarood) verwarmen mensen en tafels direct en blijven dus werken bij een licht briesje; voeg een gedeeltelijke overkapping en wat windafscherming toe, en een terras dat in oktober sluit, kan op de meeste koele avonden stoelen verkopen.[^s3] Het is een omzetbeslissing: elke verwarmde stoel is een stoel die u kunt verkopen op een avond dat hij anders leeg zou blijven.
+Restaurants houden hun terras in de winter open door de gast direct te verwarmen. Stralingsverwarmers (infrarood) brengen hun warmte op mensen en tafels en blijven dus werken bij een licht briesje; voeg een gedeeltelijke overkapping en wat windafscherming toe, en een terras dat vroeger in oktober sloot, kan op de meeste koele avonden gasten ontvangen.[^s3] Het is een omzetbeslissing, want elke verwarmde stoel is een tafel die u kunt vullen op een avond dat hij anders leeg zou blijven.
 
-## Waarom blijven terrasstoelen een half jaar leeg?
+## Waarom terrastafels een half jaar stil blijven
 
-Omdat gasten het koud krijgen voordat de keuken sluit. Een terras is vaak een groot deel van de capaciteit en van de inkomsten. In een enquête van de Amerikaanse National Restaurant Association uit 2021 had 65% van de restaurants een terras, en 35% daarvan zei dat het terras goed was voor meer dan 40% van de gemiddelde dagomzet – 41% bij restaurants met volledige bediening.[^s1] De vraag is gebleven: volgens het brancherapport van de Association over 2023 vindt 69% van de Amerikaanse volwassenen het fijn om buiten te kunnen eten.[^s2] [[VERIFY: het cijfer van 69% bevestigen in het NRA-rapport State of the Restaurant Industry 2023 zelf, of schrappen — marketing]]
+Gasten voelen de kou al lang voordat de keuken sluit. Voor veel restaurants is het terras een groot deel van de capaciteit en van de inkomsten. In een enquête van de Amerikaanse National Restaurant Association uit 2021 had 65% van de restaurants een terras, en 35% daarvan zei dat het terras goed was voor meer dan 40% van de gemiddelde dagomzet – 41% bij restaurants met volledige bediening.[^s1] Ook de vraag is gebleven: volgens het brancherapport van de Association over 2023 vindt 69% van de Amerikaanse volwassenen het fijn om buiten te kunnen eten.[^s2] [[VERIFY: het cijfer van 69% bevestigen in het NRA-rapport State of the Restaurant Industry 2023 zelf, of schrappen — marketing]]
 
-Als de avond omslaat, verdienen die stoelen niets meer. Het verlies is stil: geen klacht, alleen een gastheer die gasten naar binnen leidt, of een terras dat voor het seizoen dichtgaat.
+Als de avond afkoelt, verdienen die stoelen niets meer, en dat verlies gaat stilletjes. Niemand klaagt; de gastheer leidt gasten gewoon naar binnen, of het terras gaat dicht voor het seizoen.
 
-## Wat houdt een gast buiten echt warm?
+## Wat een gast onder de open hemel warm houdt
 
-Buiten stijgt warme lucht op en waait weg. Heteluchtverwarming kan in een open ruimte geen temperatuur vasthouden, en een thermostaat heeft niets om te meten. Stralingswarmte gedraagt zich als zonneschijn: ze valt op mensen en oppervlakken.[^s3]
+Buiten stijgt warme lucht op en drijft weg op de wind. Heteluchtverwarming kan in een open ruimte geen temperatuur vasthouden, en een thermostaat vindt niets stabiels om te meten. Stralingswarmte gedraagt zich zoals zonneschijn en legt zich op mensen en oppervlakken.[^s3]
 
-Niet alle stralingswarmte is gelijk. De planningsrichtlijnen van Bromic delen haar in naar golflengte:[^s3]
+Stralingswarmte bestaat in verschillende golflengten, en de planningsrichtlijnen van Bromic delen haar zo in:[^s3]
 
 | Warmtebron | Aandeel straling | Opwarmtijd | Wind |
 |---|---|---|---|
@@ -74,72 +74,72 @@ Niet alle stralingswarmte is gelijk. De planningsrichtlijnen van Bromic delen ha
 | Middellange golf | ca. 60% | ca. 30 seconden | beperkt gevoelig |
 | Lange golf | ca. 40% | ca. 5 minuten | verwaait het makkelijkst |
 
-Voor de bediening telt de opwarmtijd. Een verwarmer die warm is zodra een tafel gaat zitten, kunt u per zone schakelen in plaats van hem de hele avond te laten branden.
+Tijdens de service telt de opwarmtijd. Een verwarmer die warm is zodra een tafel gaat zitten, kunt u in de loop van de avond zone voor zone inschakelen, in plaats van hem van opening tot sluiting te laten branden.
 
-## Welke terrassen zijn goed te verwarmen?
+## De ruimte vormgeven voor warmte
 
-De meeste, als het ontwerp klopt. Bromic beschouwt een ruimte als buitenruimte als minstens 30% van de omtrek permanent open is. Een gedeeltelijke overkapping – een luifel, pergola of overstek – houdt een "warmtewolk" vast die bovenop de stralingswarmte een convectieve bijdrage levert.[^s3]
+De meeste terrassen zijn prachtig te verwarmen als het ontwerp klopt. Bromic beschouwt een ruimte als buitenruimte als minstens 30% van de omtrek permanent open is. Een gedeeltelijke overkapping – een luifel, pergola of overstek – houdt een "warmtewolk" vast die bovenop de stralingswarmte een convectieve bijdrage levert.[^s3]
 
-- **Overdekte terrassen en luifels:** monteer elektrische verwarmers aan de wand of in de overstek, uit de weg van de bediening.
+- **Overdekte terrassen en luifels:** monteer elektrische verwarmers aan de wand of in de overstek, uit de looproute van uw bediening.
 - **Open binnenplaatsen en stoepterrassen:** vrijstaande verwarmers verhuizen mee met de opstelling; reken op één per vier stoelen.
-- **Dakterrassen:** wind is de vijand; scherm de windzijde af en kies bij voorkeur kortegolfwarmte.
+- **Dakterrassen:** hoog boven de straat heeft de wind het meest te zeggen, dus scherm de windzijde af en kies bij voorkeur kortegolfwarmte.
 
-![Gasten die eten op een verwarmd restaurantterras](img:p-003-006)
+![Gasten die nog even blijven tafelen op een warm verwarmd restaurantterras](img:p-003-006)
 
-## Welke verwarmers passen bij een restaurantterras?
+## De juiste verwarmers voor uw terras
 
-Kies op basis van de constructie, de energie die ter plaatse beschikbaar is en hoe vaak de opstelling verandert. Elke optie hieronder is pas een complete oplossing met de bijbehorende bediening.[^s4]
+Kies op basis van de constructie, de energie ter plaatse en hoe vaak de opstelling verandert. Elke optie hieronder wordt met de bijbehorende bediening een complete oplossing.[^s4]
 
 | Situatie | Verwarmer | Verwarmd oppervlak (ca.) | Benodigde bediening |
 |---|---|---|---|
 | Overdekt terras, wand of overstek | Platinum Smart-Heat Electric (2300, 3400 of 4500 W) | 6–13 m² | Affinity Smart-Heat On/Off- of Dimmer-regelaar, wandschakelaar, app |
 | Pergola of luifel, warmte plus licht | Eclipse Smart-Heat Electric (aan een stang) | ca. 11 m² | Eclipse-regelaar, wandschakelaar, app |
-| Open opstelling die elke avond verandert | Eclipse Smart-Heat Freestanding Electric | ca. 11 m², en niet meer dan 4 stoelen per verwarmer | Eclipse-regelaar [[VERIFY: controller pairing for the freestanding Eclipse — productteam]] |
-| Groot open terrein, gas ter plaatse | Tungsten Smart-Heat Freestanding Gas (11,1 kW, aardgas of propaan) | ca. 20 m², en niet meer dan 4 stoelen per verwarmer | [[VERIFY: Affinity control options for Tungsten freestanding gas — productteam]] |
+| Open opstelling die elke avond verandert | Eclipse Smart-Heat Freestanding Electric | ca. 11 m², en niet meer dan 4 stoelen per verwarmer | Eclipse-regelaar [[VERIFY: koppeling van de regelaar voor de vrijstaande Eclipse — productteam]] |
+| Groot open terrein, gas ter plaatse | Tungsten Smart-Heat Freestanding Gas (11,1 kW, aardgas of propaan) | ca. 20 m², en niet meer dan 4 stoelen per verwarmer | [[VERIFY: Affinity-bedieningsopties voor Tungsten Freestanding Gas — productteam]] |
 | Architectonische inbouw | Tungsten Smart-Heat Electric, Coastal of Select (binnenkort leverbaar) | 6–13 m² | Affinity Smart-Heat On/Off- of Dimmer-regelaar, wandschakelaar, app |
 
 [[VERIFY: welke van deze modellen en uitvoeringen (gas, propaan) in Nederland leverbaar zijn — Bromic Benelux distributor]]
 
-Het verwarmd oppervlak varieert met model, formaat en montagehoogte; koude, onbeschutte plekken hebben voor hetzelfde oppervlak meer toestellen nodig. Een vrijstaande verwarmer bedient niet meer dan vier stoelen, wat zijn verwarmd oppervlak ook is, omdat zittende gasten zijn stralingswarmte afschermen: 40 stoelen vragen er minstens tien. Wifi- en app-functies – zones, tijdschema's en timers in de Bromic Smart-Heat app – vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht.[^s4]
+Het verwarmd oppervlak varieert met model, formaat en montagehoogte, en koude, onbeschutte plekken hebben voor hetzelfde oppervlak meer toestellen nodig. Een vrijstaande verwarmer bedient niet meer dan vier stoelen, wat zijn verwarmd oppervlak ook is, omdat zittende gasten zijn stralingswarmte afschermen; 40 stoelen vragen er dus minstens tien. Wifi- en app-functies – zones, tijdschema's en timers in de Bromic Smart-Heat app – vereisen compatibele Affinity Smart-Heat®-bediening, die apart wordt verkocht.[^s4]
 
-## Hoe houden horecaondernemers de gebruikskosten in de hand?
+## Gebruikskosten die meebewegen met uw gasten
 
-Door alleen de stoelen te verwarmen die bezet zijn. Buitenverwarming kunt u niet met een thermostaat regelen, dus de bediening is de knop waarmee u de kosten stuurt:[^s3]
+U beheerst de gebruikskosten het best door alleen de stoelen te verwarmen die bezet zijn. Buitenverwarming kunt u niet met een thermostaat regelen, dus uw bediening wordt de hendel die ertoe doet:[^s3]
 
-1. Verdeel het terras in zones die passen bij de secties en de bediening.
-2. Stel de zones in op het reserveringsboek, niet op de klok.
-3. Gebruik vermogensstanden – Eclipse werkt op 33, 66 of 100% – om aan te sluiten op de avond.[^s4]
-4. Schakel een zone uit als de laatste tafel vertrekt.
+1. Verdeel het terras in zones die uw secties en uw bediening volgen.
+2. Stem elke zone af op het reserveringsboek in plaats van op de klok.
+3. Gebruik vermogensstanden – Eclipse werkt op 33, 66 of 100% – die bij de avond passen.[^s4]
+4. Schakel een zone uit zodra de laatste tafel vertrekt.
 
-Ook de keuze van de energiebron telt. Propaan is goedkoop om mee te beginnen, maar duur in gebruik en bewerkelijk in de omgang; aardgas en elektrisch maken een andere afweging. Zie [de kostenvergelijking over vijf jaar](item:COM-CO-01).
+Ook de keuze van de energiebron bepaalt de kosten. Propaan is goedkoop om mee te beginnen, maar duur in gebruik en in de omgang, terwijl aardgas en elektrisch een andere balans hebben. [De kostenvergelijking over vijf jaar](item:COM-CO-01) zet ze naast elkaar.
 
-## Hoe weet u dat het rendeert?
+## Weten dat het rendeert
 
-Zet een getal op de lege avonden. De methode is eenvoudig: verwarmde stoelen × tafelwisselingen × gemiddelde besteding × extra avonden × het deel van die stoelen dat u echt vult. Zet dat af tegen de installatiekosten en de gebruikskosten, en u hebt een terugverdientijd in maanden. [Het ROI-artikel](item:COM-IN-01) loopt het stap voor stap door, met elke invoer benoemd.
+Zet eerst een getal op de lege avonden. De methode is eenvoudig: verwarmde stoelen × tafelwisselingen × gemiddelde besteding × extra avonden × het deel van die stoelen dat u echt vult. Zet dat af tegen de installatiekosten en de gebruikskosten, en u hebt een terugverdientijd in maanden. [Het ROI-artikel](item:COM-IN-01) loopt het door, met elke invoer benoemd.
 
-Controleer vóór de aankoop de regels. Gasverwarmers bij gebouwen, nooduitgangen en luifels, de opslag van propaan en de terrasvergunning worden lokaal geregeld; in Nederland gelden daarnaast NEN 1010 voor elektrische en NEN 1078 voor gasinstallaties – zie [de checklist voor vergunningen en brandveiligheid](item:COM-PP-01). [[VERIFY: current Dutch codes and municipal terrace rules for outdoor heaters — Bromic Benelux distributor]]
+Controleer vóór de aankoop de lokale regels. Gasverwarmers bij gebouwen, nooduitgangen en luifels, de opslag van propaan en de terrasvergunning worden lokaal geregeld; in Nederland gelden daarnaast NEN 1010 voor elektrische en NEN 1078 voor gasinstallaties. [De checklist voor vergunningen en brandveiligheid](item:COM-PP-01) behandelt elk punt. [[VERIFY: actuele Nederlandse normen en gemeentelijke terrasregels voor buitenverwarmers — Bromic Benelux distributor]]
 
-## De belangrijkste punten
+## Wat u meeneemt
 
-- Stralingswarmte verwarmt gasten, geen lucht, en werkt dus waar hete lucht dat niet doet.
+- Stralingswarmte verwarmt gasten direct en werkt dus in open ruimtes waar hete lucht tekortschiet.
 - Een gedeeltelijke overkapping en windafscherming vermenigvuldigen wat elke verwarmer levert.
 - Terrassen leveren echte omzet op: voor een derde van de Amerikaanse restaurants met een terras is het meer dan 40% van de dagomzet.[^s1]
-- Zones en tijdschema's, via compatibele Affinity-bediening, koppelen de gebruikskosten aan het aantal gasten.
-- Onderbouw de investering met cijfers vóór het seizoen, niet erna.
+- Zones en tijdschema's, via compatibele Affinity-bediening, houden de gebruikskosten gekoppeld aan het aantal gasten.
+- Onderbouw de investering met cijfers voordat het seizoen begint.
 
 ## FAQ
 
 ### Kan een restaurantterras de hele winter openblijven?
 
-Op veel avonden wel, met stralingswarmte, een gedeeltelijke overkapping en windafscherming. In zeer koude of winderige klimaten is de verlenging korter en plant u meer verwarmers per vierkante meter. De ontwerpservice van Bromic kan uw locatie doorrekenen.
+Op veel avonden wel, met stralingswarmte, een gedeeltelijke overkapping en windafscherming. In zeer koude of winderige klimaten is de verlenging korter en plant u meer verwarmers per vierkante meter. De ontwerpservice van Bromic kan uw locatie voor u doorrekenen.
 
 ### Werken terrasverwarmers bij wind?
 
-Stralingsverwarmers wel, binnen grenzen, omdat ze mensen verwarmen in plaats van lucht. Kortegolfwarmte heeft er het minst last van, langegolfwarmte het meest.[^s3] Afscherming aan de windzijde helpt elke verwarmer.
+Stralingsverwarmers wel, binnen grenzen, omdat ze mensen direct verwarmen. Kortegolfwarmte heeft er het minst last van, langegolfwarmte het meest.[^s3] Afscherming aan de windzijde helpt elke verwarmer.
 
 ### Elektrisch of gas voor een restaurantterras?
 
-Elektrisch past bij overdekte, vaste installaties en voorkomt het werk met brandstof; gas past bij grote open ruimtes met een gasaansluiting. Propaan brengt opslag van flessen en het werk van wisselen met zich mee. Vergelijk de kosten over vijf jaar, niet de aanschafprijs.
+Elektrisch past bij overdekte, vaste installaties en voorkomt het werk met brandstof, terwijl gas past bij grote open ruimtes met een gasaansluiting. Propaan brengt opslag van flessen en het werk van wisselen met zich mee. Vergelijk de kosten over vijf jaar naast de aanschafprijs.
 
 ### Hoeveel verwarmers heeft een terras nodig?
 
@@ -147,7 +147,7 @@ Voor verwarmers boven de tafels deelt u het zitoppervlak (ongeveer 1,9 m² per s
 
 ### Heb ik een vergunning nodig voor terrasverwarmers?
 
-Vaak wel. Vast aangesloten elektrische verwarmers, gasleidingen en verplaatsbare gasverwarmers vallen onder installatie- en brandveiligheidseisen, en de terrasvergunning loopt via de gemeente. Laat bevestigen door uw gemeente en de brandweer wat geldt, en laat het werk uitvoeren door een gekwalificeerde elektrotechnisch installateur of gasinstallateur.
+Vaak wel. Vast aangesloten elektrische verwarmers vallen onder NEN 1010, gasleidingen onder NEN 1078, en verplaatsbare gasverwarmers moeten voldoen aan de brandveiligheidseisen; de terrasvergunning loopt via de gemeente. Laat door uw gemeente en de brandweer bevestigen wat geldt, en laat het werk uitvoeren door een gekwalificeerde elektrotechnisch installateur of gasinstallateur.
 
 Ontdek wat uw lege stoelen waard zijn – vraag uw ROI-berekening aan.
 

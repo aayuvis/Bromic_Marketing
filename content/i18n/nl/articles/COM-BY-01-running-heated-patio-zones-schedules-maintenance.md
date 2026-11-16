@@ -5,16 +5,16 @@ translation_of: COM-BY-01
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 type: article
-title: "Een verwarmd terras runnen: zones, schema's en onderhoud voor exploitanten"
+title: "Warmte die loopt als uw service: zones, schema's en onderhoud van terrasverwarmers"
 audience: [COM]
 stage: [BY]
 cell: COM-BY
 asset: A24
-summary: "Hoe u terrasverwarmers goed laat draaien op één vestiging of vijftig: zones, schema's, een dienstprocedure, een checklist voor reiniging en onderhoud, en wat u standaardiseert bij een uitrol over meerdere vestigingen."
+summary: "Hoe u terrasverwarmers soepel laat draaien op één vestiging of vijftig, met zones die uw secties volgen, schema's die het reserveringsboek volgen, een dienstroutine, een checklist voor reiniging en onderhoud en wat u standaardiseert als u groeit."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe onderhoud ik commerciële terrasverwarmers?"
-meta_description: "Onderhoud commerciële terrasverwarmers met een eenvoudige routine: zones, schema's, een dienstprocedure en een reinigingschecklist — plus wat u over vestigingen standaardiseert."
+meta_description: "Onderhoud van terrasverwarmers voor restaurants: zones, schema's, een dienstroutine en een schoonmaakchecklist, plus standaarden voor nieuwe vestigingen."
 cta: {label: "Vraag het operationele draaiboek aan", asset: A23}
 hero: l-013-104
 images: [t-009-025]
@@ -22,7 +22,7 @@ owner_review: verkoop horeca
 status: draft
 gated: false
 related: [COM-PP-01, COM-CO-01, COM-AW-01, COM-IN-KB1]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -47,120 +47,120 @@ sources:
     verified: false
 ---
 
-Onderhoud commerciële terrasverwarmers met een korte routine en de handleiding van de fabrikant: houd het front en het rooster schoon, controleer volgens een schema de bevestigingen, snoeren en gasaansluitingen, en laat alles wat verder gaat dan schoonmaken over aan een erkende installateur of gasinstallateur. De grotere winst zit in het goed bedienen ervan – zones die passen bij uw secties, schema's die de reserveringen volgen en één dienstprocedure die elke ploeg gebruikt, zodat verwarmers nooit blijven aanstaan en elke tafel dezelfde warmte krijgt.
+De zorg voor commerciële terrasverwarmers vraagt een korte routine en de handleiding van de fabrikant: houd het front en het rooster schoon, controleer volgens een schema de bevestigingen, snoeren en gasaansluitingen, en laat alles wat verder gaat dan schoonmaken over aan een erkende installateur of gasinstallateur. De grootste winst zit in het goed laten draaien ervan – met zones die bij uw secties passen, schema's die het reserveringsboek volgen en één routine die elke ploeg deelt –, zodat elke tafel dezelfde warmte geniet en geen verwarmer na sluitingstijd blijft gloeien.
 
-## Waarom gaat het mis met verwarmde terrassen?
+## Waar een verwarmd terras zijn weg kwijtraakt
 
-Drie redenen, alle drie operationeel: verwarmers die na sluitingstijd blijven branden, medewerkers die niet weten welke schakelaar welk deel bedient, en gasten aan de ene tafel die het te warm hebben terwijl het aan de volgende koud is. Buitenwarmte is niet met een thermostaat te regelen,[^s2] dus het bedieningssysteem en de mensen die het gebruiken doen het werk dat binnen een thermostaat doet.
+Het probleem zit bijna altijd in de bedrijfsvoering. Verwarmers blijven na sluitingstijd aan, het personeel weet niet zeker welke schakelaar welk deel bedient, en de ene tafel is te warm terwijl de volgende het koud heeft. Buitenwarmte kunt u niet met een thermostaat regelen,[^s2] dus uw bedieningssysteem en het team dat ermee werkt nemen het werk over dat binnen een thermostaat doet.
 
-## Hoe deelt u een terras in zones in?
+## Zones rond de manier waarop u bedient
 
-Deel in naar hoe u bedient, niet naar waar de bekabeling loopt.
+Teken uw zones rond de manier waarop de vloer wordt bediend, en laat de bekabeling volgen.
 
-| Zone | Gebruikelijk gebied | Waarom apart |
+| Zone | Typisch gebied | Waarom apart |
 |---|---|---|
-| Bar en statafels | Langs de bar of toonbank | Vroeg druk, laat leeg |
-| Hoofdterras | Het centrale deel met tafels | Volgt de reserveringen |
-| Rand en overloop | De buitenrand en de windzijde | Gaat alleen open als het druk is of waait |
-| Lounge of wachtruimte | Loungezitjes, ontvangstbalie | Korte verblijfsduur, lager vermogen |
-| Evenement of besloten | Afhuurgedeelte | Draait op een eigen schema |
+| Bar en staanplaatsen | Langs de bar of toonbank | Vroeg druk, laat leeg |
+| Hoofdrestaurant | Centrale tafelsectie | Volgt de reserveringen |
+| Rand en uitloop | Buitenrand en windzijde | Alleen open als het druk of winderig is |
+| Lounge of wachtruimte | Loungemeubels, ontvangst | Kort verblijf, lager vermogen |
+| Evenement of besloten | Ruimte voor besloten gezelschappen | Draait op een eigen schema |
 
-Elke zone heeft een eigen regelaar nodig. Voor Platinum en Tungsten Electric is dat een Affinity Smart-Heat On/Off- of Dimmer-regelaar plus een wandschakelaar; voor Eclipse de Eclipse-regelaar (Tungsten Coastal en Select komen binnenkort). De Bromic Smart-Heat app voegt zones, schema's en timers toe. Wifi- en app-functies vragen om compatibele Affinity Smart-Heat Controls, apart verkrijgbaar.[^s1] Vestigingen met een gebouwbeheersysteem kunnen koppelen met Control4, Crestron of Lutron; de compatibiliteit verschilt en er kan extra hardware nodig zijn.[^s1]
+Elke zone heeft een eigen regelaar. Voor Platinum en Tungsten Electric is dat een Affinity Smart-Heat® On/Off- of Dimmer-regelaar met een wandschakelaar, en voor Eclipse de Eclipse-regelaar (Tungsten Coastal en Select komen binnenkort). De Bromic Smart-Heat app voegt zones, schema's en timers toe. Wifi- en app-functies vragen om compatibele Affinity Smart-Heat® Controls, apart verkrijgbaar.[^s1] Vestigingen met een gebouwbeheersysteem kunnen koppelen met Control4, Crestron of Lutron; de compatibiliteit verschilt en er kan extra hardware nodig zijn.[^s1]
 
-## Hoe plant u verwarmers in?
+## Warmte inplannen op het ritme van uw gasten
 
-Koppel de warmte aan het aantal gasten.
+Laat de warmte meestijgen en -dalen met de reserveringen van de avond.
 
-- **Voor opening:** kortegolf- en middengolfverwarmers zijn binnen seconden warm,[^s2] dus zet zones aan zodra de eerste tafels bezet zijn, niet een uur van tevoren.
-- **Tijdens de service:** laat het hoofdterras de reserveringen volgen; zet randzones pas aan als daar gasten zitten.
-- **Vermogen in stappen:** gebruik dimmen of de standen 33/66/100% van Eclipse op zachtere avonden.[^s1]
-- **Laatste tafel:** timers zetten elke zone een vaste tijd na de laatste gast in die zone uit.
-- **Sluiting:** een vast schema zet bij sluitingstijd alles uit, wat het personeel zich ook herinnert.
+- **Voor de opening:** kortegolf- en middengolfverwarmers zijn in seconden warm,[^s2] dus schakel zones in wanneer de eerste tafels gaan zitten, in plaats van een uur van tevoren.
+- **Tijdens de service:** laat het hoofdrestaurant de reserveringscurve volgen, en schakel randzones in zodra daar gasten zitten.
+- **Op mildere avonden:** dim of gebruik de standen 33/66/100% van Eclipse om het vermogen zachter te maken.[^s1]
+- **Na de laatste tafel:** timers schakelen elke zone een vaste tijd na de laatste gast uit.
+- **Bij sluiting:** een vast schema zet bij sluitingstijd alles uit, zodat aan het eind van een lange avond niets van het geheugen afhangt.
 
-## Wat staat er in de dienstprocedure?
+## Een dienstroutine die iedereen kan volgen
 
-Eén pagina, bij de ontvangstbalie en in de app.
+Houd hem op één pagina, bij de ontvangst en in de app.
 
-**Opening**
-1. Visuele controle: verwarmers onbeschadigd, roosters vrij, niets aan of vlak bij de verwarmers opgehangen.
-2. Afstanden controleren: parasols, banners en decoratie op de afstand die de handleiding voorschrijft.
-3. Mobiele gasverwarmers: rechtop, wielen geblokkeerd, en op afstand van gebouwen, luifels en uitgangen. In de VS schrijft de IFC minstens 1,5 m voor;[^s3] in Nederland volgt u de handleiding en de regels van uw gemeente. [[VERIFY: Nederlandse eisen voor mobiele gasverwarmers op horecaterrassen — Bromic Benelux distributor]]
-4. Zet de zones aan naarmate tafels bezet raken.
+**Openen**
+1. Visuele controle: verwarmers onbeschadigd, roosters vrij, niets eraan of ernaast gehangen.
+2. Afstanden controleren: parasols, banners en decoratie volgens de handleiding uit de buurt van verwarmers.
+3. Mobiele gasverwarmers: rechtop, wielen geblokkeerd, en op afstand van gebouwen, luifels en uitgangen. In de VS schrijft de IFC, waar die geldt, minstens 1,5 m voor;[^s3] in Nederland volgt u de handleiding en de regels van uw gemeente. [[VERIFY: Nederlandse eisen voor mobiele gasverwarmers op horecaterrassen — Bromic Benelux distributor]]
+4. Zones inschakelen wanneer tafels gaan zitten.
 
 **Tijdens de service**
-5. Regel het vermogen per zone, niet door gasten te verplaatsen.
-6. Meld elke geur, flikkering, uitgeschakelde groep of schade aan de leidinggevende; zet dat toestel uit.
+5. Het vermogen per zone aanpassen, zodat gasten kunnen blijven zitten waar ze zijn geplaatst.
+6. Geur, flikkering, een uitgeschakelde groep of schade melden aan de leidinggevende, en dat toestel uitschakelen.
 
-**Sluiting**
-7. Controleer in de app of bij de wandschakelaar dat alle zones uit staan.
-8. Mobiele gasverwarmers: draai de kraan van de fles dicht en sla hem op volgens uw locatieplan.
-9. Noteer storingen voor de onderhoudsdienst.
+**Sluiten**
+7. Bevestigen dat alle zones uit staan in de app of op de wandschakelaar.
+8. Mobiele gasverwarmers: de flesafsluiter dichtdraaien en opslaan volgens het plan van uw vestiging.
+9. Storingen noteren voor het onderhoudsbedrijf.
 
-## Wat staat er op de checklist voor reiniging en onderhoud?
+## Zorg voor uw verwarmers, seizoen na seizoen
 
-Algemene richtlijn; de installatie- en gebruikshandleiding van uw model gaat voor. [[VERIFY: door Bromic aanbevolen onderhoudsintervallen en reinigingsmethode per model — productteam]]
+Dit is een algemene richtlijn, en de installatie- en gebruikshandleiding van uw model gaat altijd voor. [[VERIFY: door Bromic aanbevolen onderhoudsintervallen en reinigingsmethode per model — productteam]]
 
 | Taak | Wie | Frequentie (volgens handleiding) |
 |---|---|---|
 | Behuizing en front afnemen als ze koud zijn | Personeel | Wekelijks in het seizoen |
-| Rooster en element controleren op vuil, spinrag en nesten | Personeel | Wekelijks in het seizoen |
+| Rooster en elementzone controleren op vuil, spinnenwebben, nesten | Personeel | Wekelijks in het seizoen |
 | Beugels, palen en bevestigingsmiddelen inspecteren | Leidinggevende | Maandelijks |
-| Snoeren, wandschakelaars en regelaars controleren op schade | Leidinggevende | Maandelijks |
+| Snoeren, wandschakelaars en regelaars op schade controleren | Leidinggevende | Maandelijks |
 | Gas: slangen, drukregelaar en aansluitingen controleren | Erkende gasinstallateur | Volgens handleiding, en aan het begin van het seizoen |
 | Elektra: groepen en aansluitingen controleren | Erkende installateur | Volgens handleiding, en aan het begin van het seizoen |
-| Locaties aan de kust: zout van roestvaststalen oppervlakken spoelen | Personeel | Volgens handleiding |
-| Buiten het seizoen: mobiele toestellen afdekken of opslaan | Personeel | Eind van het seizoen |
+| Locaties aan de kust: zout van roestvrijstalen oppervlakken spoelen | Personeel | Volgens handleiding |
+| Buiten het seizoen: mobiele toestellen afdekken of opslaan | Personeel | Einde seizoen |
 
-Reinig nooit een hete verwarmer, spuit nooit water in een element en open nooit een afgesloten toestel. Alles wat verder gaat dan oppervlakkig schoonmaken is voor een erkend vakbedrijf.
+Laat een verwarmer altijd afkoelen voordat u hem schoonmaakt, houd water uit de buurt van het element en laat verzegelde toestellen dicht. Alles wat verder gaat dan oppervlakkig schoonmaken hoort bij een erkend vakbedrijf.
 
-![Hand met een tablet die de warmte aan een buitentafel regelt](img:t-009-025)
+![Een hand met een tablet die de warmte bij een buitentafel instelt](img:t-009-025)
 
-## Hoe standaardiseert u over vestigingen heen?
+## Dezelfde beleving op elke vestiging
 
-Maak elke vestiging gelijk, zodat een manager die van vestiging wisselt het systeem al kent.
+Als elke vestiging op dezelfde manier is ingericht, kent een leidinggevende die tussen vestigingen wisselt het systeem al op de eerste dag.
 
 | Standaardiseren | Waarom |
 |---|---|
 | Productfamilie en afwerking per type vestiging | Eén onderdelenlijst, één uitstraling |
-| Zonenamen (Bar, Terras, Rand, Lounge, Evenement) | Dezelfde woorden in elke app en procedure |
+| Zonenamen (Bar, Restaurant, Rand, Lounge, Evenement) | Dezelfde woorden in elke app en werkinstructie |
 | Typen regelaars | Eén trainingsmodule |
-| Schemasjablonen per seizoen | Het hoofdkantoor stelt ze op, vestigingen passen aan |
-| Procedure en onderhoudslogboek | Vergelijkbare gegevens over alle vestigingen |
-| Vergunningsdossier | Herhaalbare aanvragen voor nieuwe vestigingen – zie [de vergunningschecklist](item:COM-PP-01) |
+| Schemasjablonen per seizoen | Het hoofdkantoor stelt in, vestigingen passen aan |
+| Werkinstructie en onderhoudslogboek | Vergelijkbare gegevens over alle vestigingen |
+| Vergunningsdossier | Herhaalbare aanvragen voor nieuwe vestigingen – zie [de vergunningenchecklist](item:COM-PP-01) |
 
-Begin de volgende vestiging met de indeling van de vorige en pas aan voor de blootstelling. De ontwerpservice van Bromic tekent het verwarmde oppervlak voor elke nieuwe vestiging.[^s1]
+Begin elke nieuwe vestiging met de indeling van de vorige en pas die aan op de ligging. De ontwerpservice van Bromic tekent het verwarmd oppervlak voor elke nieuwe locatie.[^s1]
 
-## Belangrijkste punten
+## Wat u meeneemt
 
-- Deel zones in per servicegebied; één regelaar per zone.
-- Schema's en timers doen buiten wat een thermostaat niet kan.
-- Eén procedure van één pagina voor opening, service en sluiting.
-- Wekelijks reinigen in het seizoen; vakmensen onderhouden gas en elektra volgens de handleiding.
-- Standaardiseer producten, zonenamen en procedures over elke vestiging.
+- Deel in zones per servicegebied in, met één regelaar per zone.
+- Schema's en timers doen buiten het werk dat binnen een thermostaat doet.
+- Een routine van één pagina draagt elke ploeg door opening, service en sluiting.
+- Maak in het seizoen wekelijks schoon en laat gas en elektra volgens de handleiding onderhouden door erkende vakbedrijven.
+- Houd producten, zonenamen en routines op elke vestiging gelijk.
 
 ## FAQ
 
 ### Hoe onderhoud ik commerciële terrasverwarmers?
 
-Reinig behuizingen en roosters als ze koud zijn, inspecteer bevestigingen, snoeren en aansluitingen volgens een schema, en laat ze onderhouden door een erkende installateur of gasinstallateur volgens de handleiding van de fabrikant.
+Reinig behuizingen en roosters zodra ze koud zijn, inspecteer bevestigingen, snoeren en aansluitingen volgens een schema, en laat ze onderhouden door een erkende installateur of gasinstallateur volgens de handleiding van de fabrikant.
 
 ### Hoe vaak moeten terrasverwarmers worden onderhouden?
 
-Volg de handleiding van uw model. Als minimum: een inspectie door een vakman aan het begin van elk seizoen en een wekelijkse controle door het personeel zolang ze in gebruik zijn.
+Volg de handleiding van uw model. Plan minimaal een inspectie door een vakbedrijf aan het begin van elk seizoen en een wekelijkse controle door het personeel zolang de verwarmers in gebruik zijn.
 
 ### Kan ik terrasverwarmers automatisch inplannen?
 
 Ja, met compatibele Affinity Smart-Heat Controls en de Bromic Smart-Heat app, die zones, schema's en timers biedt. Wifi- en app-functies vragen om die bediening, apart verkrijgbaar.
 
-### Hoeveel zones heeft een horecaterras nodig?
+### Hoeveel zones heeft een restaurantterras nodig?
 
-Meestal één per servicegebied – bar, terras, rand, lounge – zodat de warmte de gasten volgt. Kleine terrassen hebben er soms maar twee nodig.
+Meestal één per servicegebied – bar, restaurant, rand, lounge –, zodat de warmte uw gasten volgt. Een klein terras heeft er misschien maar twee nodig.
 
-### Kunnen verwarmers koppelen met ons gebouwbeheersysteem?
+### Kunnen verwarmers worden gekoppeld aan ons gebouwsysteem?
 
-Affinity-bediening werkt onder meer met Control4, Crestron en Lutron; de compatibiliteit verschilt en er kan extra koppelhardware nodig zijn.
+Affinity-bediening werkt onder meer met Control4, Crestron en Lutron; de compatibiliteit verschilt en er kan extra koppelingshardware nodig zijn.
 
-Laat elke vestiging op dezelfde manier draaien – vraag het operationele draaiboek aan.
+Breng hetzelfde gemak naar elke vestiging – vraag het operationele draaiboek aan.
 
 [^s1]: Bromic Heating, Lookbook 2026.
 [^s2]: Bromic Heating, Planning Guide US v1.2, 2021.

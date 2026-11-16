@@ -1,16 +1,16 @@
 ---
 id: COM-CO-01
 type: article
-title: "Flüssiggas, Erdgas oder Strom: Heizstrahler-Kosten über fünf Jahre für Gastronomen"
+title: "Flüssiggas, Erdgas oder Strom: die Kosten gewerblicher Terrassenheizstrahler über fünf Jahre"
 audience: [COM]
 stage: [CO]
 cell: COM-CO
 asset: A24
-summary: "Ein durchgerechneter Fünf-Jahres-Kostenvergleich von Flüssiggas, Erdgas und Strom für eine Restaurantterrasse mit 40 Plätzen – Anzahl der Heizstrahler, Energieverbrauch und Flaschenwechsel – mit allen Formeln, damit Sie mit Ihren eigenen Preisen rechnen können."
+summary: "Ein durchgerechneter Fünf-Jahres-Vergleich von Terrassenheizung mit Flüssiggas, Erdgas und Strom für eine Restaurantterrasse mit 40 Plätzen – Zahl der Heizstrahler, Energie und Flaschenwechsel –, mit jeder Formel, damit Sie ihn für Ihre eigene Terrasse rechnen können."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Ist Flüssiggas oder Strom für Heizstrahler auf Restaurantterrassen günstiger?"
-meta_description: "Flüssiggas ist günstig in der Anschaffung und teuer im Betrieb. Fünf-Jahres-Kostenvergleich von Flüssiggas-, Erdgas- und Elektro-Heizstrahlern für Restaurants, mit allen Formeln."
+meta_description: "Kosten gewerblicher Terrassenheizstrahler über fünf Jahre: Flüssiggas, Erdgas und Strom für eine Restaurantterrasse mit 40 Plätzen, mit jeder Formel."
 cta: {label: "Fünf-Jahres-Kostenmodell rechnen", asset: A20}
 hero: l-019-164
 images: [l-010-067]
@@ -18,7 +18,7 @@ owner_review: Vertrieb Gastronomie
 status: draft
 gated: false
 related: [COM-AW-01, COM-IN-01, COM-CO-KB1, COM-PP-01]
-updated: 2026-10-30
+updated: 2026-11-16
 lang: de
 translation_of: COM-CO-01
 translation_status: machine-draft
@@ -81,17 +81,17 @@ sources:
     verified: false
 ---
 
-Eine Terrasse mit 40 Plätzen braucht elektrisch 7 Heizstrahler und rund 31.500 kWh Strom im Jahr; mit freistehenden Gas-Heizstrahlern sind es 10 Geräte und rund 111.400 kWh Erdgas oder rund 15.700 Liter Flüssiggas. Freistehende Gas-Heizstrahler müssen nach Plätzen und nicht nur nach Fläche bemessen werden, deshalb braucht eine Flüssiggas-Terrasse mehr Heizstrahler als eine elektrische – und jemand muss die Flaschen kaufen, tragen, wechseln und lagern. Welche Rechnung am niedrigsten ist, entscheidet Ihr Preis je kWh und je Liter. Im US-Beispiel unten hat Erdgas die niedrigste Energierechnung, Strom liegt knapp dahinter, und Flüssiggas kostet mit den Flaschenwechseln mehr als beide zusammen. Erdgas gewinnt dort beim Brennstoff nur, wo bereits eine Gasleitung bis zur Terrasse reicht.
+Eine Terrasse mit 40 Plätzen braucht elektrisch 7 Heizstrahler und rund 31.500 kWh Strom im Jahr; mit freistehenden Gas-Heizstrahlern sind es 10 Geräte und rund 111.400 kWh Erdgas oder rund 15.700 Liter Flüssiggas. Freistehende Gas-Heizstrahler werden nach Plätzen und nach Fläche bemessen, deshalb braucht eine Flüssiggas-Terrasse mehr Heizstrahler als eine elektrische, von denen jeder den teuersten Brennstoff je Wärmeeinheit verbrennt, und jemand aus Ihrem Team muss die Flaschen kaufen, tragen, wechseln und lagern. Welche Rechnung am niedrigsten ausfällt, entscheiden Ihre Preise je kWh und je Liter. Im US-Beispiel unten hat Erdgas die niedrigste Energierechnung, Strom folgt knapp dahinter, und Flüssiggas kostet mit den Flaschenwechseln mehr als beide zusammen. Beim Brennstoff liegt Erdgas überall dort vorn, wo bereits eine Gasleitung bis zur Terrasse reicht.
 
-## Was kostet jeder Energieträger pro Stunde?
+## Was jeder Energieträger pro Stunde kostet
 
-Die Formeln, mit Tarifen, die Sie auf Ihrer eigenen Rechnung prüfen können:
+Jede Formel nutzt Tarife, die Sie auf Ihrer eigenen Rechnung prüfen können:
 
 - **Strom:** Kosten pro Stunde = kW × Preis je kWh Strom
 - **Erdgas:** Kosten pro Stunde = kW × Preis je kWh Gas (in Deutschland wird Erdgas in kWh abgerechnet)
 - **Flüssiggas:** Kosten pro Stunde = kW ÷ 7,09 kWh je Liter × Preis je Liter
 
-US-Tarife im Beispiel: Strom für Gewerbekunden 14,07 US-Cent je kWh (US-Durchschnitt, Januar–Mai 2026)[^s1]; Erdgas für Gewerbekunden 10,45 $ je 1000 Kubikfuß (28,3 m³; US-Durchschnitt, Januar–April 2025)[^s2], bei rund 10,7 kWh je m³ (umgerechnet aus 1036 Btu je Kubikfuß) also etwa 1,01 $ je Therm oder 3,4 US-Cent je kWh[^s3]; Flüssiggas 2,46 $ je US-Gallone (3,785 L), die Winterprognose der EIA für Privathaushalte 2025–26.[^s4] [[VERIFY: Tarife 2026 — Finanzen; Flüssiggas für Gewerbekunden in Tauschflaschen kostet meist deutlich mehr als lose Lieferung an Privathaushalte — Angebot eines Lieferanten einholen]] Diese US-Preise gelten nicht für Deutschland; setzen Sie Ihre eigenen ein.
+Die US-Tarife im Beispiel: Strom für Gewerbekunden 14,07 US-Cent je kWh (US-Durchschnitt, Januar–Mai 2026)[^s1]; Erdgas für Gewerbekunden 10,45 $ je 1000 Kubikfuß (28,3 m³; US-Durchschnitt, Januar–April 2025)[^s2], bei rund 10,7 kWh je m³ (umgerechnet aus 1036 Btu je Kubikfuß) also etwa 1,01 $ je Therm oder 3,4 US-Cent je kWh[^s3]; Flüssiggas 2,46 $ je US-Gallone (3,785 L), die Winterprognose der EIA für Privathaushalte 2025–26.[^s4] [[VERIFY: Tarife 2026 — Finanzen; Flüssiggas für Gewerbekunden in Tauschflaschen kostet meist deutlich mehr als lose Lieferung an Privathaushalte — Angebot eines Lieferanten einholen]] Diese US-Preise gelten nicht für Deutschland; setzen Sie Ihre eigenen ein.
 
 | Heizstrahler | Leistung | Verbrauch pro Stunde | US-Beispiel pro Stunde | Heizfläche (ca.) |
 |---|---|---|---|---|
@@ -100,25 +100,25 @@ US-Tarife im Beispiel: Strom für Gewerbekunden 14,07 US-Cent je kWh (US-Durchsc
 | Tungsten Smart-Heat Freestanding Gas, Erdgas | 11,1 kW | 11,1 kWh Gas | 0,38 $ | ca. 20 m² |
 | Tungsten Smart-Heat Freestanding Gas, Flüssiggas | 11,1 kW | 1,57 L | 1,02 $ | ca. 20 m² |
 
-Die Heizflächen sind die von Bromic veröffentlichten Bereiche;[^s6] den Wert je Platinum-Leistung liefert erst die Heizflächentabelle von Bromic. [[VERIFY: Heizfläche je Platinum-Leistung — Produktteam]] Erdgas ist hier kein Produkt für sich: Ein freistehender Heizstrahler mit Erdgas braucht einen festen Gasanschluss. [[VERIFY: Anschlussart für Erdgas beim Tungsten Smart-Heat Freestanding Gas — Produktteam]]
+Die Heizflächen sind die von Bromic veröffentlichten Bereiche;[^s6] der Wert für jede einzelne Platinum-Leistung stammt aus der Heizflächentabelle von Bromic. [[VERIFY: Heizfläche je Platinum-Leistung — Produktteam]] Ein freistehender Heizstrahler mit Erdgas braucht außerdem einen festen Gasanschluss, der bestimmt, wo er stehen kann. [[VERIFY: Anschlussart für Erdgas beim Tungsten Smart-Heat Freestanding Gas — Produktteam]]
 
-## Was sind die versteckten Kosten von Flüssiggas?
+## Was Flüssiggas kostet, ohne auf der Rechnung zu stehen
 
-Arbeitszeit und Lagerung. Flüssiggas-Heizstrahler leeren an vollen Abenden Flasche um Flasche, und der Wechsel fällt mitten in den Service.
+Flüssiggas bringt neben dem Brennstoff selbst Arbeits- und Lagerkosten mit sich. An vollen Abenden leeren die Heizstrahler Flasche um Flasche, und der Wechsel fällt meist mitten in den Service.
 
-- **Arbeitszeit für den Tausch:** Jemand sammelt leere Flaschen ein, nimmt Lieferungen an und wechselt Flaschen. Rechnen Sie das mit.
-- **Lagerung:** In den USA legt NFPA 58 fest, wie weit gelagerte Flaschen von Türen und anderen gefährdeten Bereichen entfernt sein müssen, und viele Städte setzen eigene Grenzen oder verlangen ab bestimmten Mengen eine Genehmigung.[^s5] In Deutschland gelten die TRF und die Auflagen Ihrer Stadt. [[VERIFY: Regeln für die Lagerung von Flüssiggasflaschen in der Gastronomie in Deutschland — Partner Deutschland]] Platz für einen Flaschenschrank ist Fläche, die Sie nicht verkaufen.
+- **Arbeitszeit für den Tausch:** Jemand sammelt leere Flaschen ein, nimmt Lieferungen an und wechselt Flaschen, und diese Zeit gehört in die Rechnung.
+- **Lagerung:** In den USA legt NFPA 58 fest, wie weit gelagerte Flaschen von Türen und anderen gefährdeten Bereichen entfernt sein müssen, und viele Städte setzen eigene Grenzen oder verlangen ab bestimmten Mengen eine Genehmigung.[^s5] In Deutschland gelten die TRF und die Auflagen Ihrer Stadt. [[VERIFY: Regeln für die Lagerung von Flüssiggasflaschen in der Gastronomie in Deutschland — Partner Deutschland]] Platz für einen Flaschenschrank ist Fläche, die Sie nicht mehr verkaufen.
 - **Lieferregeln:** Manche Brandschutzvorschriften untersagen die Lieferung genehmigungspflichtiger Mengen an einen Standort ohne Brandschutzgenehmigung – New York City ist ein Beispiel.
 - **Preis:** Tauschflaschen kosten je Liter meist deutlich mehr als lose geliefertes Flüssiggas. Die Tabelle oben verwendet einen Durchschnitt für lose Lieferung an Privathaushalte, der Flüssiggas günstiger aussehen lässt.
 
-## Wie sehen fünf Jahre aus?
+## Fünf Jahre auf einer Terrasse
 
-Nur zur Veranschaulichung. Jeder Eingangswert unten ist eine Annahme für ein Rechenbeispiel, kein Angebot und kein Richtwert. Rechnen Sie Ihren eigenen Fall im [Fünf-Jahres-Kostenmodell](asset:A20).
+Dies ist eine Veranschaulichung auf Grundlage von Annahmen für ein Rechenbeispiel, weder ein Angebot noch ein Richtwert. Rechnen Sie Ihre eigenen Zahlen im [Fünf-Jahres-Kostenmodell](asset:A20).
 
-**Annahmen:** 40 Plätze mit je 1,9 m² = 74 m²,[^s8] teilweise überdacht, kühle Abende (ein kombinierter Faktor von 0,85); 1000 Betriebsstunden je Heizstrahler und Jahr (zum Beispiel 5 Stunden pro Abend an 200 Abenden); die Tarife oben, fünf Jahre lang unverändert; Flüssiggas in Flaschen mit rund 17,8 nutzbaren Litern, 10 Minuten je Wechsel, im US-Beispiel 25 $ Arbeitskosten pro Stunde inklusive Nebenkosten. Ihre Tarife, Zonen und das Dimmen senken jede Zahl unten.
+**Annahmen:** 40 Plätze mit je 1,9 m² = 74 m²,[^s8] teilweise überdacht, kühle Abende (ein kombinierter Faktor von 0,85); 1000 Betriebsstunden je Heizstrahler und Jahr (zum Beispiel 5 Stunden pro Abend an 200 Abenden); die Tarife oben, fünf Jahre lang unverändert; Flüssiggas in Flaschen mit rund 17,8 nutzbaren Litern, 10 Minuten je Wechsel, im US-Beispiel 25 $ Arbeitskosten pro Stunde inklusive Nebenkosten. Ihre eigene Rechnung, Zonen und das Dimmen senken jede Zahl unten.
 
-- **Strom:** 74 ÷ (13,3 × 0,85) = 6,6 → 7 × Platinum 4500W, mit Affinity Smart-Heat On/Off- oder Dimmer-Steuerung und einem Wandschalter. 31,5 kW × 1000 h = **31.500 kWh im Jahr**; im US-Beispiel × 0,1407 $ = **4.432 $ im Jahr**.
-- **Erdgas:** 10 × Tungsten Freestanding Gas. Nach Fläche wären es 74 ÷ (20 × 0,85) = 4,4, also 5, aber Gäste verdecken die Strahlungswärme eines freistehenden Heizstrahlers, deshalb versorgt er höchstens 4 Plätze: 40 ÷ 4 = 10. 10 × 11,1 kW × 1000 h = **rund 111.400 kWh im Jahr**; im US-Beispiel 3800 Therm × 1,01 $ = **3.838 $ im Jahr**.
+- **Strom:** 74 ÷ (13,3 × 0,85) = 6,6 → 7 × Platinum 4500W, mit Affinity Smart-Heat® On/Off- oder Dimmer-Steuerung und einem Wandschalter. 31,5 kW × 1000 h = **31.500 kWh im Jahr**; im US-Beispiel × 0,1407 $ = **4.432 $ im Jahr**.
+- **Erdgas:** 10 × Tungsten Freestanding Gas. Nach Fläche würden 74 ÷ (20 × 0,85) = 4,4 auf 5 aufgerundet, aber sitzende Gäste verdecken die Strahlungswärme eines freistehenden Heizstrahlers, deshalb versorgt jeder höchstens 4 Plätze: 40 ÷ 4 = 10. 10 × 11,1 kW × 1000 h = **rund 111.400 kWh im Jahr**; im US-Beispiel 3800 Therm × 1,01 $ = **3.838 $ im Jahr**.
 - **Flüssiggas:** dieselben 10 Heizstrahler. 10 × 1,572 L × 1000 h = **rund 15.720 Liter im Jahr**; im US-Beispiel 4153 Gallonen × 2,46 $ = **10.216 $ im Jahr**, dazu 15.720 ÷ 17,8 = 884 Flaschenwechsel × 10 min = 147 Stunden, im US-Beispiel × 25 $ = **3.683 $ im Jahr** an Arbeitskosten.
 
 | Kosten über fünf Jahre (zur Veranschaulichung, US-Beispiel) | Strom | Erdgas | Flüssiggas |
@@ -130,30 +130,30 @@ Nur zur Veranschaulichung. Jeder Eingangswert unten ist eine Annahme für ein Re
 | Arbeitszeit für Flaschenwechsel, 5 Jahre (US-Preise) | keine | keine | 18.417 $ |
 | Energie plus Flaschenwechsel, 5 Jahre (US-Preise) | 22.160 $ | 19.190 $ | 69.499 $ |
 
-Mit diesen US-Annahmen kostet Erdgas im Betrieb am wenigsten, wenn die Leitung vorhanden ist, Strom kostet rund 15 % mehr, und Flüssiggas kostet mehr als das Dreifache von Strom, bevor Anschaffung und Installation überhaupt gezählt sind. Mit Ihren Tarifen kann die Reihenfolge anders aussehen: Strom braucht hier weniger als ein Drittel der Energiemenge von Erdgas, also entscheidet das Verhältnis Ihres Strompreises zu Ihrem Gaspreis je kWh. Eine Gasleitung quer über die Terrasse oder ein neuer Stromkreis können die Antwort ebenfalls ändern; deshalb empfiehlt Bromic, alles zusammen anzubieten: Geräte, Versorgung, Genehmigungsgebühren und Installation.[^s7]
+Mit diesen US-Annahmen kostet Erdgas im Betrieb am wenigsten, wo die Leitung bereits liegt, Strom kostet rund 15 % mehr, und Flüssiggas kostet mehr als das Dreifache von Strom, bevor Anschaffung und Installation gezählt sind. Mit Ihren Tarifen kann die Reihenfolge anders aussehen: Strom braucht hier weniger als ein Drittel der Energiemenge von Erdgas, also entscheidet das Verhältnis Ihres Strompreises zu Ihrem Gaspreis je kWh. Eine Gasleitung quer über die Terrasse oder ein neuer Stromkreis können das Ergebnis ebenfalls verändern; deshalb empfiehlt Bromic ein Gesamtangebot, das Geräte, Versorgung, Genehmigungsgebühren und Installation umfasst.[^s7]
 
-![Überdachte Außenküche mit Bar und bündig in die Decke eingebauten Heizstrahlern](img:l-010-067)
+![Eine überdachte Außenküche mit Bar, gewärmt von bündig in die Decke eingebauten Heizstrahlern](img:l-010-067)
 
-## Welcher Energieträger passt zu welchem Standort?
+## Der passende Energieträger für Ihren Standort
 
-| Standort | Passt meist | Nötige Steuerung |
+| Standort | Passt meist | Benötigte Steuerung |
 |---|---|---|
 | Überdachte Terrasse, Wand oder Untersicht vorhanden | Platinum Smart-Heat Electric | Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät, Wandschalter, App |
 | Große offene Terrasse, Gasleitung in Reichweite | Tungsten Smart-Heat Freestanding Gas mit Erdgas | [[VERIFY: Affinity-Steuerungsmöglichkeiten — Produktteam]] |
 | Vorübergehende oder saisonale Anordnung, kein Gas | Eclipse Smart-Heat Freestanding Electric | Eclipse-Steuergerät |
 | Dicht bebauter Innenstadtstandort mit Einschränkungen für Flüssiggas | Elektro | Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät, Wandschalter, App |
 
-WLAN- und App-Funktionen – Zonen, Zeitpläne und Timer – setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind.[^s6] Zonen sind der größte Hebel bei den Betriebskosten überhaupt: Ein Heizstrahler, der aus ist, kostet nichts.
+WLAN- und App-Funktionen – Zonen, Zeitpläne und Timer – setzen kompatible Affinity Smart-Heat® Controls voraus, die separat erhältlich sind.[^s6] Zonen sind der stärkste Hebel bei den Betriebskosten überhaupt, denn ein Heizstrahler, der ausgeschaltet ist, kostet nichts.
 
 > Vorschriften und Genehmigungen unterscheiden sich von Stadt zu Stadt und ändern sich mit der Zeit. Klären Sie sie mit Ihrem Bauamt und der zuständigen Brandschutzbehörde, und beauftragen Sie einen Elektrofachbetrieb (DIN VDE 0100) oder einen eingetragenen Gasinstallateur (DVGW-TRGI, TRF bei Flüssiggas).
 
-## Das Wichtigste in Kürze
+## Das Wichtigste zum Mitnehmen
 
-- Vergleichen Sie die Kosten über fünf Jahre, nicht den Kaufpreis.
+- Wägen Sie die Kosten über fünf Jahre gemeinsam mit dem Kaufpreis ab.
 - Rechnen Sie mit den Energiemengen und Ihren eigenen Preisen je kWh und je Liter.
-- Erdgas braucht eine Leitung bis zur Terrasse; im US-Beispiel hat es die niedrigste Energierechnung.
-- Strom kommt ohne Brennstofflogistik aus und braucht hier die geringste Energiemenge.
-- Bemessen Sie freistehende Heizstrahler auch nach Plätzen: höchstens 4 Plätze je Heizstrahler.
+- Erdgas hat überall dort, wo eine Leitung bis zur Terrasse reicht, die niedrigste Energierechnung im US-Beispiel.
+- Strom folgt knapp hinter Erdgas, ganz ohne Brennstofflogistik.
+- Bemessen Sie freistehende Heizstrahler nach Plätzen und nach Fläche, mit höchstens 4 Plätzen je Heizstrahler.
 - Flüssiggas kostet im Betrieb am meisten und bringt Arbeitszeit, Lagerung und Auflagen mit sich, die der Brennstoffpreis nicht zeigt.
 - Zonen und Zeitpläne über kompatible Affinity-Steuergeräte senken die Rechnung bei jedem Energieträger.
 
@@ -161,25 +161,25 @@ WLAN- und App-Funktionen – Zonen, Zeitpläne und Timer – setzen kompatible A
 
 ### Ist Flüssiggas oder Strom für Heizstrahler auf Restaurantterrassen günstiger?
 
-Im US-Beispiel ist Strom deutlich günstiger. Für 40 Plätze verbrauchen 7 Elektro-Heizstrahler 31.500 kWh im Jahr, zu US-Preisen 4.432 $; die 10 freistehenden Flüssiggas-Heizstrahler, die dieselben Plätze brauchen, verbrauchen rund 15.720 Liter, zu US-Preisen 10.216 $, plus 3.683 $ für Flaschenwechsel. Rechnen Sie mit Ihren Tarifen nach.
+Strom, mit deutlichem Abstand. Für 40 Plätze verbrauchen 7 Elektro-Heizstrahler 31.500 kWh im Jahr, zu US-Preisen 4.432 $; die 10 freistehenden Flüssiggas-Heizstrahler, die dieselben Plätze brauchen, verbrauchen rund 15.720 Liter, zu US-Preisen 10.216 $, plus 3.683 $ für Flaschenwechsel. Rechnen Sie mit Ihren eigenen Tarifen nach.
 
 ### Ist Erdgas die günstigste Lösung?
 
-Im Betrieb im US-Beispiel ja: 3.838 $ im Jahr gegenüber 4.432 $ für Strom. Mit Ihren Tarifen hängt es vom Verhältnis Ihres Strompreises zum Gaspreis je kWh ab. Ob Erdgas insgesamt am günstigsten ist, hängt außerdem davon ab, was eine Gasleitung bis zur Terrasse und die zugehörigen Genehmigungen kosten.
+Im Betrieb ja: im US-Beispiel oben 3.838 $ im Jahr gegenüber 4.432 $ für Strom. Mit Ihren Tarifen hängt es vom Verhältnis Ihres Strompreises zum Gaspreis je kWh ab. Ob Erdgas insgesamt am günstigsten ist, hängt außerdem davon ab, was eine Gasleitung bis zur Terrasse und die zugehörigen Genehmigungen kosten.
 
 ### Was kostet ein gewerblicher Terrassenheizstrahler pro Stunde?
 
-Leistung mal Preis: Ein Platinum Electric verbraucht 2,3–4,5 kWh Strom pro Stunde, ein Gas-Heizstrahler mit 11,1 kW rund 11,1 kWh Erdgas oder 1,57 Liter Flüssiggas. Zu den US-Tarifen oben sind das etwa 0,32–0,63 $, 0,38 $ bzw. 1,02 $. Setzen Sie Ihren eigenen Tarif ein.
+Ein Platinum Electric verbraucht 2,3–4,5 kWh Strom pro Stunde, ein Gas-Heizstrahler mit 11,1 kW rund 11,1 kWh Erdgas oder 1,57 Liter Flüssiggas. Zu den US-Tarifen oben sind das etwa 0,32–0,63 $, 0,38 $ bzw. 1,02 $. Setzen Sie für Ihren Standort Ihren eigenen Tarif ein.
 
 ### Mit welchen Tarifen soll ich rechnen?
 
-Mit Ihren eigenen Rechnungen. Strom in Preis je kWh, einschließlich Leistungspreis, wo er anfällt; Erdgas in Preis je kWh; Flüssiggas zu Ihrem Lieferpreis für Flaschen, nicht zu einem Durchschnitt für lose Lieferung.
+Mit Ihren eigenen Rechnungen: Strom in Preis je kWh, einschließlich Leistungspreis, wo er anfällt, Erdgas in Preis je kWh und Flüssiggas zu Ihrem Lieferpreis für Flaschen statt zu einem Durchschnitt für lose Lieferung.
 
 ### Enthält das Kostenmodell die Installation?
 
 Das [Fünf-Jahres-Kostenmodell](asset:A20) erfasst Anschaffung, Installation, Energie und Flaschenlogistik, sodass der Vergleich alles umfasst.
 
-Vergleichen Sie Ihre eigenen Zahlen – rechnen Sie das Fünf-Jahres-Kostenmodell.
+Sehen Sie, wie die Zahlen für Ihre eigene Terrasse ausfallen – rechnen Sie das Fünf-Jahres-Kostenmodell.
 
 [^s1]: U.S. EIA, Monthly Energy Review, Strompreis für Gewerbekunden, Jan.–Mai 2026.
 [^s2]: U.S. EIA, Natural Gas Monthly, Table 21, Jan.–Apr. 2025.
