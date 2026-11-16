@@ -1,17 +1,17 @@
 ---
 id: A11
 type: spec-kit
-title: "Architect Spec Kit: outdoor electric radiant heaters (Section 23 83 33)"
+title: "Architect Spec Kit: How To Specify Outdoor Heaters, Section 23 83 33"
 slug: spec-kit
 audience: [ARC]
 stage: [IN]
 cell: ARC-IN
 asset: A11
-summary: "A CSI three-part guide specification for Bromic Smart-Heat electric radiant heaters and Affinity controls, with a coverage and selection table, detail list and CAD/BIM index."
+summary: "Everything you need to write precise directional heat into your drawings: a CSI three-part guide specification for Bromic Smart-Heat electric radiant heaters and Affinity controls, with a coverage and selection table, the details to draw and a CAD/BIM index."
 primary_keyword: specify outdoor heater
 secondary_keywords: [patio heater specification, infrared heater CSI section, outdoor radiant heater spec]
 ai_prompt: "How do I write a specification for outdoor infrared heaters?"
-meta_description: "CSI three-part guide spec for outdoor electric radiant heaters, Section 23 83 33: products, controls, clearances, coverage table and detail list."
+meta_description: "How to specify outdoor heaters: a CSI three-part guide spec for electric radiant heaters, Section 23 83 33, with controls, clearances and coverage."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-010-075
 images: [t-006-016, l-005-022]
@@ -19,7 +19,7 @@ owner_review: "Specification and compliance + Product team"
 status: draft
 gated: true
 related: [ARC-IN-01, ARC-CO-01, ARC-PP-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic
@@ -86,13 +86,15 @@ sources:
     verified: true
 ---
 
-# Architect Spec Kit: outdoor electric radiant heaters
+# Architect Spec Kit: Outdoor Electric Radiant Heaters
 
-Write outdoor heat into the specification the same way you write lighting: a named section, a listed product, a required control, a detail on the drawings. This kit gives you a CSI three-part guide specification for Bromic Smart-Heat electric radiant heaters under **MasterFormat 23 83 33, Electric Radiant Heaters**, a coverage and selection table, the details to draw and the CAD/BIM files to request. Edit the bracketed text, delete what does not apply, and send the coverage plan to the Bromic design team before you issue for bid.
+The outdoor rooms you design are meant to be lived in well after sunset, and the warmth that makes that possible deserves the same care in the specification as the lighting. When heat has its own named section, a listed product, its required controls and a detail on the drawings, it arrives on site exactly as you intended.
 
-![Glass pavilion with ceiling-recessed heaters](img:l-010-075)
+This kit brings together a CSI three-part guide specification for Bromic Smart-Heat electric radiant heaters under **MasterFormat 23 83 33, Electric Radiant Heaters**, a coverage and selection table, the details to draw and the CAD/BIM files to request. Edit the bracketed text, remove what does not apply, and send the coverage plan to the Bromic design team before you issue for bid.
 
-## What is in this kit?
+![A glass pavilion warmed by ceiling-recessed heaters](img:l-010-075)
+
+## Inside This Kit
 
 | Part | What it is | Format | Status |
 |---|---|---|---|
@@ -103,21 +105,21 @@ Write outdoor heat into the specification the same way you write lighting: a nam
 | 5 | CAD and BIM file index | DWG, RVT, PDF | [[VERIFY: which files exist — Product team]] |
 | 6 | Design consult request (coverage drawings) | Service, [asset:A07](asset:A07) | Live |
 
-## Which MasterFormat section should outdoor infrared heaters go in?
+## Where Outdoor Infrared Heaters Belong In MasterFormat
 
-Use **23 83 33 Electric Radiant Heaters**. The reasoning, so you can defend it in a spec review:
+We recommend **23 83 33 Electric Radiant Heaters**, and the reasoning below will help you support that choice in a spec review.
 
-- **Division 23 (HVAC), 23 83 00 Radiant Heating Units** is MasterFormat's home for equipment that heats by radiation.[^s3] Its level-3 children are 23 83 13 (radiant heating electric cables and mats), 23 83 23 (radiant heating electric panels) and **23 83 33 (electric radiant heaters)**.[^s4] A Bromic heater is a self-contained electric infrared emitter, not a cable, mat or panel, so 23 83 33 is the closest fit.
-- **Not 23 82 39 Unit Heaters.** That section covers convection units (cabinet, propeller, wall and ceiling unit heaters) that move warm air.[^s7] Outdoors, warm air rises and is carried off by the breeze; radiant heat warms people and surfaces instead.[^s2]
-- **Not 23 55 23 Gas-Fired Radiant Heaters.** That is the home for gas radiant equipment.[^s6] If a project also uses Bromic gas heaters, write them there as a separate section.
-- **Industry precedent.** Other manufacturers' guide specifications for outdoor electric radiant heaters use 23 83 33.[^s5] Some product directories also tag infrared heaters under 23 82 39; treat that as a directory habit, not a reason to follow it.
+- **Division 23 (HVAC), 23 83 00 Radiant Heating Units** is MasterFormat's home for equipment that heats by radiation.[^s3] Its level-3 children are 23 83 13 (radiant heating electric cables and mats), 23 83 23 (radiant heating electric panels) and **23 83 33 (electric radiant heaters)**.[^s4] A Bromic heater is a self-contained electric infrared emitter, which places it most naturally in 23 83 33 rather than among cables, mats or panels.
+- **23 82 39 Unit Heaters** covers convection units (cabinet, propeller, wall and ceiling unit heaters) that move warm air.[^s7] Outdoors, warm air rises and drifts away on the breeze, while radiant heat warms people and surfaces directly,[^s2] so this section is a poor match.
+- **23 55 23 Gas-Fired Radiant Heaters** is the home for gas radiant equipment.[^s6] If a project also uses Bromic gas heaters, write them there as a separate section.
+- **Industry precedent.** Other manufacturers' guide specifications for outdoor electric radiant heaters use 23 83 33.[^s5] Some product directories also tag infrared heaters under 23 82 39, a directory convention that need not shape your specification.
 - **Related sections** you will coordinate: 26 05 19 (conductors), 26 05 33 (raceways and boxes), 26 27 26 (wiring devices), 26 28 16 (disconnects), 23 09 00 (HVAC instrumentation and control) if a building automation system is in scope, and Division 06/09 for the soffit framing and finish around recessed units.
 
 [[VERIFY: confirm section numbers and titles against the current CSI MasterFormat edition the practice uses — specifier / Specification and compliance]]
 
-## Which Bromic heater suits which space?
+## Choosing The Right Heater For Each Space
 
-People first: a dining table needs even heat at seated head height; a bar rail needs heat where people stand; a lounge needs heat that does not glare. Then the numbers. Coverage is approximate and varies with model, mounting height, environment and installation.[^s1]
+Begin with the people who will use the space. A dining table calls for even warmth at seated head height, a bar rail for heat where guests stand, and a lounge for gentle warmth without glare. The numbers follow from there. Coverage is approximate and varies with model, mounting height, environment and installation.[^s1]
 
 | Series | Status | Output | Finishes | Approx. coverage per heater | Mounting | Best for | Controls (required) |
 |---|---|---|---|---|---|---|---|
@@ -129,11 +131,11 @@ People first: a dining table needs even heat at seated head height; a bar rail n
 
 Platinum coverage by individual wattage is not yet published in this kit. [[VERIFY: coverage and mounting height per Platinum wattage (2300 / 3400 / 4500 W) — Product team]]
 
-A space counts as outdoor when at least 30% of its perimeter is permanently open; a partial roof traps a "heat cloud" that adds a convective boost.[^s2] Size for the open condition, then let the cover help.
+A space counts as outdoor when at least 30% of its perimeter is permanently open; a partial roof traps a "heat cloud" that adds a convective boost.[^s2] Size for the open condition, and the cover will add to the comfort.
 
-![Recessed heater in a timber soffit on a city roof terrace](img:t-006-016)
+![A heater recessed into a timber soffit on a city roof terrace](img:t-006-016)
 
-## Guide specification: Section 23 83 33 Electric Radiant Heaters
+## Guide Specification: Section 23 83 33 Electric Radiant Heaters
 
 > **Notes to specifier** are in italics in square brackets. Delete them before issue. Bracketed options [ ] are choices.
 
@@ -301,13 +303,13 @@ B. Hand over O&M manuals, warranty documents and the commissioning report.
 
 **END OF SECTION 23 83 33**
 
-## Proprietary or "or approved equal"?
+## Proprietary Or "Or Approved Equal"
 
-*Note for review (Specification and compliance):* the goal of this kit is to stop substitution at bid. A proprietary specification (Option A) does that, and is common on private residential and hospitality work. Many public owners, and some private ones, require competition, so an architect may be required to allow substitutions. Option B keeps Bromic as basis of design but sets performance criteria and demands a coverage drawing for any substitute, which raises the bar without forbidding it. Both options are drafted above. [[VERIFY: Bromic's preferred default (A or B) and the performance criteria for Option B — Specification and compliance + Product team]]
+*Note for review (Specification and compliance):* this kit is written to protect the design intent through bid by limiting substitution. A proprietary specification (Option A) achieves that, and it is common on private residential and hospitality work. Many public owners, and some private ones, require competition, so an architect may need to allow substitutions. Option B keeps Bromic as basis of design while setting performance criteria and asking for a coverage drawing for any substitute, which raises the standard while still allowing alternatives. Both options are drafted above. [[VERIFY: Bromic's preferred default (A or B) and the performance criteria for Option B — Specification and compliance + Product team]]
 
-## Which details should the drawings carry?
+## The Details Your Drawings Should Carry
 
-Four standard details cover most projects. Each is drawn as a section or plan with dimensions left as tags for the model chosen.
+Four standard details cover most projects. Each is drawn as a section or plan, with dimensions left as tags for the model you choose.
 
 | No. | Detail | Shows | Diagram |
 |---|---|---|---|
@@ -316,9 +318,9 @@ Four standard details cover most projects. Each is drawn as a section or plan wi
 | D3 | Pole suspension | Suspension pole or Eclipse single/double/curved pole, effective heater height, structural fixing | [[DIAGRAM: section under a high or pitched ceiling showing a suspension pole bringing a heater to effective height; second view of an Eclipse pendant on single and double poles]] |
 | D4 | Coverage plan | Heater positions with approximate coverage footprints over the furniture plan, zones, circuits, controller and switch locations | [[DIAGRAM: plan of a dining terrace with furniture, heater symbols, approximate coverage footprints, zone boundaries, circuit tags and Affinity controller / wall switch locations]] |
 
-![Recessed heater in a white coastal ceiling](img:l-005-022)
+![A heater recessed into a white coastal ceiling](img:l-005-022)
 
-## Which CAD and BIM files are available?
+## CAD And BIM Files For Your Model
 
 [[VERIFY: which files exist, their formats, LOD and where they are hosted (bromic.com, BIMobject, ARCAT, other) — Product team]]
 
@@ -333,13 +335,13 @@ Four standard details cover most projects. Each is drawn as a section or plan wi
 | Listing certificates | .pdf | NRTL listing per model | [[VERIFY — Product team]] |
 | This guide specification | .docx | Section 23 83 33 | Draft (this document) |
 
-## Planning checklist
+## Your Planning Checklist
 
 - [ ] Space confirmed as outdoor (at least 30% of the perimeter permanently open).[^s2]
 - [ ] Heater series chosen by use: seated, standing, lounge; coastal exposure noted.
 - [ ] Coverage plan (D4) drawn over the furniture layout and checked by Bromic's design team.
 - [ ] Controls scheduled for every zone: controller type, wall switch, app, any integration.
-- [ ] Mounting heights and clearances taken from the current installation manual, not from memory.
+- [ ] Mounting heights and clearances taken from the current installation manual for each model.
 - [ ] Recess cavities and blocking shown on the architectural sections (D1).
 - [ ] Circuits, voltage and disconnects coordinated with the electrical engineer.
 - [ ] Energy code check: does the AHJ require occupancy or timer control for outdoor heat?
@@ -348,6 +350,6 @@ Four standard details cover most projects. Each is drawn as a section or plan wi
 
 ## Disclaimer
 
-This guide specification is a starting point, not a substitute for professional judgement. Codes, listings and manufacturer requirements change. Confirm every requirement with the authority having jurisdiction and a licensed electrician, and use the manufacturer's current installation instructions for the model specified. Imagery is for design inspiration; product scale and placement may vary from actual specifications.[^s1]
+This guide specification is a starting point that supports, and never replaces, your professional judgement. Codes, listings and manufacturer requirements change. Confirm every requirement with the authority having jurisdiction and a licensed electrician, and use the manufacturer's current installation instructions for the model specified. Imagery is for design inspiration; product scale and placement may vary from actual specifications.[^s1]
 
-Send us the plan and we will return a coverage drawing for your specification.
+Send us your plan, and we will return a coverage drawing tailored to your specification.

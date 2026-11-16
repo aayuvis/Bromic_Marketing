@@ -11,7 +11,7 @@ summary: "The commercial companion to our Trends 2026 report: ten sourced shifts
 primary_keyword: outdoor hospitality trends 2026
 secondary_keywords: [restaurant outdoor dining trends, hotel terrace trends, commercial patio heating trends]
 ai_prompt: "What are the outdoor dining and hospitality trends for 2026?"
-meta_description: "Outdoor hospitality trends 2026 for restaurant, bar and hotel terraces: guest demand, soft traffic, energy costs, permanent outdoor dining and life after propane."
+meta_description: "Outdoor hospitality trends 2026 for restaurant, bar and hotel terraces: guest demand, energy costs, permanent outdoor dining and life after propane."
 cta: {label: "Get your ROI assessment", asset: A21}
 hero: l-016-131
 images: [l-013-111, p-003-006, g-operator, p-007-030, p-002-001, p-014-066, t-006-016, p-010-044, t-003-005, l-013-107]

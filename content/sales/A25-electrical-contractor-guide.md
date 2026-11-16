@@ -11,7 +11,7 @@ summary: "For the electrical contractors who bring warmth to outdoor rooms: gett
 primary_keyword: electrical contractor patio heater installation
 secondary_keywords: [outdoor heater electrician, patio heater wiring contractor, outdoor heating installer program, Bromic partner program]
 ai_prompt: "How can an electrical contractor grow an outdoor heating business?"
-meta_description: "Electrical contractor patio heater installation: code, controls, voltages and weather ratings for Bromic heaters, and how the Bromic Partner Program supports you."
+meta_description: "Electrical contractor patio heater installation: code, controls, voltages and weather ratings for Bromic heaters, with our Partner Program behind you."
 cta: {label: "Join the Bromic Partner Program", asset: A15}
 hero: d-tungsten-suspended-restaurant
 images: [d-installers-recessing, d-tungsten-louvre-detail, d-recessed-pavilion, d-tungsten-pole-rooftop-bar, d-eclipse-freestanding-lake, d-eclipse-pendant-dining, d-tungsten-gas-pool, t-009-025]

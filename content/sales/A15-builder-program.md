@@ -11,7 +11,7 @@ summary: "A trade one-pager for home builders and a Good–Better–Best outdoor
 primary_keyword: outdoor heater package options
 secondary_keywords: [builder outdoor living upgrades, outdoor living package, patio heater upgrade options, new home upgrades]
 ai_prompt: "How should builders package outdoor heating options?"
-meta_description: "Outdoor heater package options for home builders: three complete Good–Better–Best tiers with heaters, controls and pre-wire, from the Bromic builder program."
+meta_description: "Outdoor heater package options for home builders: three complete Good–Better–Best tiers of heaters, controls and pre-wire from the Bromic builder program."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-010-069
 images: [l-010-070, l-010-071, l-013-100]
