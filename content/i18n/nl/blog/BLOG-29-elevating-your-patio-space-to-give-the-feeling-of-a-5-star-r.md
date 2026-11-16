@@ -1,17 +1,17 @@
 ---
 id: BLOG-29
 type: blog
-title: "Zo voelt je terras als een vijfsterrenresort"
+title: "Een terras in resortstijl dat aanvoelt als vijf sterren"
 action: keep-fix
 audience: [RES]
 stage: [AW]
 cell: RES-AW
 asset: A24
-summary: "Zes stappen waarmee een terras thuis voelt als het terras van een resort (warmte waar mensen zitten, gelaagd licht, meubels die lang meegaan, een blikvanger, zones en rustige bediening), opgebouwd rond warmte die je voelt, maar niet ziet."
+summary: "Zes manieren om je terras thuis het gevoel van een vijfsterrenresort te geven – warmte waar mensen zitten, gelaagd licht, meubels die blijven, een blikvanger, zones en moeiteloze bediening –, allemaal rond warmte die je voelt, maar niet ziet."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe geef ik mijn terras de sfeer van een luxeresort?"
-meta_description: "Zes stappen naar een terras met resortgevoel: warmte waar je zit, gelaagd licht, duurzame meubels, een blikvanger en bediening die met één aanraking de sfeer zet."
+meta_description: "Zes manieren naar een terras in resortstijl: warmte waar je zit, gelaagd licht, duurzame meubels, een blikvanger en sfeer met één aanraking."
 cta: {label: "Download het Trends 2026-rapport", asset: A01}
 hero: w-bromic-eclipse-heater-scottsdale-home-6
 images: [w-bromiceclipseheater-scottsdalehome-10, w-wrigley-mansion-phoenix-arizona-22]
@@ -21,7 +21,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-AW-01, RES-PP-01, RES-BY-01, A01-v2]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -70,22 +70,21 @@ translation_of: BLOG-29
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 ---
-
-Een terras voelt als een resort wanneer het warm is waar je zit, zacht verlicht na het donker, ingericht om lang mee te gaan en opgebouwd rond één ding dat het bekijken waard is. Begin met warmte die je voelt, maar niet ziet: stralingswarmte boven de loungehoek of de eettafel, zodat de avond niet eindigt als de zon ondergaat. Breng daarna lagen licht aan, kies weerbestendige materialen, geef de ruimte een blikvanger en bedien alles vanaf één plek.
+Een terras voelt als een resort wanneer het warm is waar je zit, zacht verlicht na het donker, ingericht om lang mee te gaan en opgebouwd rond iets moois om naar te kijken. Begin met warmte die je voelt, maar niet ziet: stralingswarmte boven de loungehoek of de eettafel, zodat de avond doorgaat lang nadat de zon is ondergegaan. Breng van daaruit lagen licht aan, kies weerbestendige materialen, geef de ruimte een blikvanger en breng alles samen onder één bediening.
 
 ![Gebogen vrijstaande Eclipse-verwarmer boven een loungehoek op een overdekt terras dat uitkomt op de keuken](img:w-bromic-eclipse-heater-scottsdale-home-6)
 
-## 1. Zorg voor warmte waar mensen zitten
+## 1. Breng warmte naar waar mensen zitten
 
-Resorts verwarmen de stoel, niet de lucht erboven. Stralingswarmte verwarmt mensen en voorwerpen in plaats van lucht, en werkt daardoor buiten; onder een gedeeltelijke overkapping vormt ze ook een kleine warmtezone.[^s5] Hang de warmte recht boven de tafel of de bank, niet aan de rand van de ruimte.
+De mooiste resorts richten hun warmte op de plekken waar gasten ontspannen. Stralingswarmte verwarmt mensen en voorwerpen in plaats van lucht, en werkt daardoor zo goed buiten; onder een gedeeltelijke overkapping vormt ze bovendien een zachte warmtezone.[^s5] Hang de warmte recht boven de tafel of de bank, waar iedereen haar voelt, in plaats van aan de rand van de ruimte.
 
-Waar geen wand of plafond is om op te monteren, reikt de Eclipse Smart-Heat Freestanding Electric met een gebogen arm vanaf een verzwaarde voet op wieltjes over een tafel, en verwarmt ongeveer 11 m².[^s1] Waar een overstek is, houdt een vaste verwarmer op een paal of in het plafond de vloer vrij. De [gratis ontwerpservice](https://www.bromic.nl/) van Bromic berekent hoeveel verwarmers je nodig hebt en waar ze moeten komen. [[VERIFY: of de ontwerpservice in Nederland gratis is — Bromic Benelux distributor]]
+Waar geen wand of plafond is om op te monteren, reikt de Eclipse Smart-Heat Freestanding Electric met een gebogen arm vanaf een verzwaarde voet op wieltjes over een tafel, en verwarmt ongeveer 11 m².[^s1] Waar een overstek is, houdt een vaste verwarmer op een paal of in het plafond de vloer prachtig vrij. Onze [gratis ontwerpservice](https://www.bromic.nl/) berekent hoeveel verwarmers je nodig hebt en waar elke verwarmer thuishoort. [[VERIFY: of de ontwerpservice in Nederland gratis is — Bromic Benelux distributor]]
 
 De Eclipse stond in The Wall Street Journal, in een artikel over hoe je van een terras een resort maakt.[^s3] [[VERIFY: datum en kop van het WSJ-artikel en wat het over de Eclipse zegt — marketing]]
 
 ## 2. Werk met lagen licht
 
-Gebruik drie soorten: basislicht om bij te zien, werklicht waar je kookt of inschenkt, en accentlicht op planten, water of textuur. De Eclipse-verwarmer heeft dimbare verlichting rond de rand, zodat één armatuur warmte én een zachte gloed boven de tafel geeft.[^s1]
+Gebruik drie soorten licht: basislicht om bij te zien, werklicht waar je kookt of inschenkt, en accentlicht op planten, water of textuur. De Eclipse-verwarmer heeft dimbare verlichting rond de rand, zodat één armatuur zowel warmte als een zachte gloed naar de tafel brengt.[^s1]
 
 | Laag | Wat het doet | Voorbeeld |
 |---|---|---|
@@ -96,43 +95,43 @@ Gebruik drie soorten: basislicht om bij te zien, werklicht waar je kookt of insc
 
 ## 3. Kies meubels die lang meegaan
 
-Resortterrassen hebben diepe zitmeubels, gemengde materialen en stukken die tegen het weer kunnen. Kies roestvast staal, teak en weerbestendige stoffen, leg buitenkleden neer, voeg kussens en plaids toe, en gebruik grote plantenbakken om de eethoek van de loungehoek te scheiden. Een barkarretje of een buitenkeuken maakt het makkelijk om gasten te ontvangen.
+Resortterrassen zijn ingericht met diepe zitmeubels, een mix van materialen en stukken die de seizoenen gracieus doorstaan. Kies roestvast staal, teak en weerbestendige stoffen, leg buitenkleden neer, voeg kussens en plaids toe, en scheid de eethoek van de loungehoek met grote plantenbakken. Een barkarretje of een buitenkeuken maakt gasten ontvangen een genoegen.
 
 ## 4. Geef de ruimte een blikvanger
 
-Een vuurelement, water, een kunstwerk of een opvallende verwarmer geeft mensen een plek om samen te komen. Het gebogen silhouet van de Eclipse is vaak het eerste wat mensen opvalt. Bij [Christopher's at Wrigley Mansion](https://www.bromic.com/case-study/christophers-at-wrigley-mansion/) in Phoenix koos architect Wendell Burnette voor vrijstaande Eclipse-verwarmers, zodat het restaurant een terras kon toevoegen zonder het ontwerp van het historische gebouw aan te tasten; in het oorspronkelijke artikel vertelt hij dat gasten er opmerkingen over maken.[^s4] [[VERIFY: formulering van het citaat controleren tegen de case study voordat een letterlijk citaat wordt gebruikt — marketing]]
+Een vuurelement, water, een kunstwerk of een opvallende verwarmer geeft mensen een natuurlijke plek om samen te komen. Het gebogen silhouet van de Eclipse is vaak het eerste wat gasten opvalt. Bij [Christopher's at Wrigley Mansion](https://www.bromic.com/case-study/christophers-at-wrigley-mansion/) in Phoenix koos architect Wendell Burnette voor vrijstaande Eclipse-verwarmers, zodat het restaurant een terras kon toevoegen en het ontwerp van het historische gebouw toch behouden bleef; in het oorspronkelijke artikel vertelt hij dat gasten er opmerkingen over maken.[^s4] [[VERIFY: formulering van het citaat controleren tegen de case study voordat een letterlijk citaat wordt gebruikt — marketing]]
 
 ![Terras bij nacht met gloeiende, gebogen vrijstaande Eclipse-verwarmers boven gasten, bergen op de achtergrond](img:w-wrigley-mansion-phoenix-arizona-22)
 
-## 5. Plan zones, niet één grote ruimte
+## 5. Ontworpen rond hoe je buiten leeft
 
-Eten, loungen en koken vragen elk om hun eigen warmte en licht. Deel de verwarming daarop in, zodat alleen het deel dat je gebruikt aanstaat. Vrijstaande verwarmers verhuizen mee met de meubels; vaste verwarmers passen bij zones die blijven waar ze zijn. Zie [waar je terrasverwarmers plaatst](item:RES-PP-01).
+Eten, loungen en koken verdienen elk hun eigen warmte en licht. Deel de verwarming daarop in zones in, zodat alleen het deel van het terras dat je gebruikt aanstaat. Vrijstaande verwarmers verhuizen mee met de meubels, terwijl vaste verwarmers passen bij zones die blijven waar ze zijn. Lees meer over [waar je terrasverwarmers plaatst](item:RES-PP-01).
 
-## 6. Maak het makkelijk om de sfeer te zetten
+## 6. Zet de sfeer met één aanraking
 
-Luxe is niet zoeken naar schakelaars. De Eclipse Freestanding wordt geleverd met de Eclipse Dimmer Controller en afstandsbediening, waarmee je de warmte in stappen van 33, 66 en 100% instelt en het licht dimt vanaf je stoel.[^s1][^s2] Vaste Platinum- of Tungsten Electric-verwarmers werken met een Affinity Smart-Heat On/Off- of Dimmer-regelaar en een wandschakelaar. Zones, schema's en spraakbediening lopen via de Bromic Smart-Heat app; voor wifi- en app-functies zijn compatibele Affinity Smart-Heat Controls nodig, die apart worden verkocht.[^s1] Instellen: [Smart-Heat-bediening](item:RES-BY-01).
+Echte luxe betekent dat je de sfeer vanaf je stoel bepaalt. De Eclipse Freestanding wordt geleverd met de Eclipse Dimmer Controller en afstandsbediening, waarmee je de warmte in stappen van 33, 66 en 100% instelt en het licht dimt zonder op te staan.[^s1][^s2] Vaste Platinum- of Tungsten Electric-verwarmers werken met een Affinity Smart-Heat On/Off- of Dimmer-regelaar en een wandschakelaar. Zones, schema's en spraakbediening lopen via de Bromic Smart-Heat app; voor wifi- en app-functies zijn compatibele Affinity Smart-Heat Controls nodig, die apart worden verkocht.[^s1] Om te beginnen: [Smart-Heat-bediening](item:RES-BY-01).
 
 ![Gebogen Eclipse-verwarmer boven loungestoelen op een terras met uitzicht over een vallei bij zonsondergang](img:w-bromiceclipseheater-scottsdalehome-10)
 
-Het huis op de foto is [Desert Mirage](https://www.bromic.com/case-study/desert-mirage-blurring-the-lines-between-home-and-nature/) in Scottsdale (Arizona), van AFT Construction, Cosan Studio en Alisha Taylor Interiors, met een vrijstaande Eclipse-verwarmer op het terras.
+Het huis op de foto is [Desert Mirage](https://www.bromic.com/case-study/desert-mirage-blurring-the-lines-between-home-and-nature/) in Scottsdale (Arizona), van AFT Construction, Cosan Studio en Alisha Taylor Interiors, met een vrijstaande Eclipse-verwarmer die het terras verwarmt.
 
-Het oorspronkelijke artikel noemde de Eclipse Freestanding "2,4 meter hoog" (8 voet); die hoogte staat niet in de huidige productgegevens van Bromic en is daarom weggelaten tot ze is bevestigd.[^s6] [[VERIFY: totale hoogte van de Eclipse Freestanding — productteam]]
+Het oorspronkelijke artikel noemde de Eclipse Freestanding "2,4 meter hoog" (8 voet); die hoogte staat niet in onze huidige productgegevens, dus laten we haar weg tot ze is bevestigd.[^s6] [[VERIFY: totale hoogte van de Eclipse Freestanding — productteam]]
 
 ## Veelgestelde vragen
 
 ### Waardoor voelt een terras luxueus?
 
-Comfort dat je niet opmerkt: warmte waar je zit, zacht gelaagd licht, goede materialen en één opvallende blikvanger.
+Comfort dat je nauwelijks opmerkt: warmte waar je zit, zacht gelaagd licht, mooie materialen en één opvallende blikvanger.
 
 ### Kan een terrasverwarmer een designelement zijn?
 
-Ja. Een verwarmer die ook de tafel verlicht, zoals de Eclipse, kan de blikvanger zijn in plaats van iets wat je wegwerkt.
+Ja. Een verwarmer die ook de tafel verlicht, zoals de Eclipse, kan de blikvanger van de ruimte worden en een stuk dat je met trots laat zien.
 
 ### Heb ik een wand of plafond nodig voor een verwarmer?
 
 Nee. Een vrijstaande verwarmer staat op zijn eigen voet en heeft alleen stroom nodig en minstens ongeveer 2 meter vrije ruimte erboven.[^s2]
 
-Meer over buitenverwarming voor woningen en de Eclipse-collectie vind je op [bromic.nl](https://www.bromic.nl/). Wil je weten wat buitenleven dit jaar bepaalt? Download het Trends 2026-rapport.
+Ontdek meer over buitenverwarming voor woningen en de Eclipse-collectie op [bromic.nl](https://www.bromic.nl/). Voor de ideeën die buitenleven dit jaar bepalen, download je het Trends 2026-rapport.
 
 [^s1]: Bromic Heating, Lookbook 2026.
 [^s2]: Bromic Heating, productpagina Eclipse Smart-Heat Freestanding, gelezen op 29 okt 2026.

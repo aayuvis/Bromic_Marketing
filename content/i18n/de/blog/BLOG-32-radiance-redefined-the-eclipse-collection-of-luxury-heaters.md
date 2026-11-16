@@ -1,17 +1,17 @@
 ---
 id: BLOG-32
 type: blog
-title: "Die Eclipse-Kollektion: Strahlungswärme und Licht in einer Leuchte"
+title: "Der Eclipse Heizstrahler für draußen: Strahlungswärme und sanftes Licht in einer Leuchte"
 action: keep-fix
 audience: [RES, ARC]
 stage: [CO]
 cell: RES-CO
 asset: A24
-summary: "Was der Eclipse-Heizstrahler ist, wie viel Fläche er beheizt, wie er montiert wird, welche Heizstufen er hat und welches Steuergerät Wärme und Licht regelt."
+summary: "Eclipse bringt Strahlungswärme und einen sanften, dimmbaren Schein in einer einzigen Leuchte an den Tisch. Was er ist, wie viel Fläche er beheizt, wie er montiert wird, seine Heizstufen und das Steuergerät, das Wärme und Licht regelt."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Gibt es einen Heizstrahler für draußen, der auch Licht gibt?"
-meta_description: "Bromic Eclipse beheizt ca. 11 m² und beleuchtet sie mit einem dimmbaren LED-Ring. Montagearten, Heizstufen und das Steuergerät, das jedes Modell braucht."
+meta_description: "Der Bromic Eclipse Heizstrahler wärmt ca. 11 m² und beleuchtet sie mit einem dimmbaren LED-Ring. Montage, Heizstufen und das Steuergerät für jedes Modell."
 cta: {label: "Ihren Bereich berechnen", asset: A03}
 hero: w-bromic-eclipse-pendant-light
 images: [w-dsc01890-hdr-bearbeitet, w-eclispe-freestanding]
@@ -21,7 +21,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-CO-01, RES-BY-01, RES-PP-01]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: de
 translation_of: BLOG-32
 translation_status: machine-draft
@@ -63,18 +63,17 @@ sources:
     supports: "The post this replaces: 'seven' installation options, Eclipse Portable naming, Eclipse Master Remote"
     verified: true
 ---
+Ja. Bromic Eclipse ist ein elektrischer Strahlungsheizer mit einem dimmbaren LED-Ring um die Front, sodass eine einzige Leuchte denselben Tisch wärmt und beleuchtet, während der Abend hereinbricht. Jeder Eclipse beheizt ca. 11 m², mit 33, 66 oder 100 % Leistung.[^s1] Es gibt ihn als Eclipse Electric, an einer Wand- oder Deckenstange montiert, oder als Eclipse Freestanding, der dorthin rollt, wo er gebraucht wird. Beide werden über ein Eclipse-Steuergerät betrieben und lassen sich an der Wand schalten.[^s2][^s3]
 
-Ja. Bromic Eclipse ist ein elektrischer Strahlungsheizer mit einem dimmbaren LED-Ring um die Front, sodass eine einzige Leuchte denselben Tisch wärmt und beleuchtet. Jeder Eclipse beheizt ca. 11 m², mit 33, 66 oder 100 % Leistung.[^s1] Es gibt ihn als Eclipse Electric, an einer Wand- oder Deckenstange montiert, oder als Eclipse Freestanding, der dorthin rollt, wo er gebraucht wird. Beide werden über ein Eclipse-Steuergerät betrieben und lassen sich am Wandschalter schalten.[^s2][^s3]
+![Eclipse Heizstrahler, der in der Dämmerung in seinem LED-Ring leuchtet](img:w-bromic-eclipse-pendant-light)
 
-![Eclipse-Heizstrahler, der in der Dämmerung in seinem LED-Ring leuchtet](img:w-bromic-eclipse-pendant-light)
+## Wärme und Licht, schön vereint
 
-## Was unterscheidet Eclipse von anderen Heizstrahlern?
+Wo die meisten Heizstrahler für draußen eine einzige Aufgabe erfüllen, vereint Eclipse Wärme und Licht. Seine runde Front aus Glaskeramik strahlt Wärme auf die Menschen ab, die sich darunter versammeln, während der LED-Ring darum einen warmen Schein wirft, der sich passend zur Stimmung dimmen lässt.[^s1] An Sommerabenden leuchtet das Licht auch allein, sodass die Leuchte das ganze Jahr über ihren Platz verdient.
 
-Die meisten Heizstrahler für draußen erfüllen eine Aufgabe. Eclipse erfüllt zwei. Die runde Front aus Keramikglas strahlt Wärme auf die Menschen darunter ab; der LED-Ring darum gibt warmes, dimmbares Licht.[^s1] Im Sommer funktioniert das Licht allein, sodass die Leuchte das ganze Jahr ihren Platz verdient.
+Wenn aus zwei Leuchten eine wird, macht das auf einer kleinen Terrasse oder an einer vollen Decke einen echten Unterschied: eine Stange, ein Kabel und eine elegante Form, auf der das Auge ruht.
 
-Aus zwei Leuchten wird eine. Das zählt auf einer kleinen Terrasse oder an einer vollen Decke: eine Stange, ein Kabel, ein Element, auf dem das Auge ruht.
-
-## Eclipse Electric oder Eclipse Freestanding?
+## Eclipse Electric oder Eclipse Freestanding
 
 | | Eclipse Electric | Eclipse Freestanding |
 |---|---|---|
@@ -85,11 +84,11 @@ Aus zwei Leuchten wird eine. Das zählt auf einer kleinen Terrasse oder an einer
 | Steuergerät | Affinity Eclipse Controller oder Eclipse Dimmer Controller, separat erhältlich | Eclipse Dimmer Controller und Fernbedienung im Lieferumfang |
 | Geeignet für | Überdachte Terrassen, Pergolen, Poolhäuser | Offene Rasenflächen, gemietete oder wechselnde Aufstellungen, Betriebe, die Tische umstellen |
 
-Quellen: Produktseiten[^s2][^s3] und Lookbook 2026.[^s1] Die Produktseite von Eclipse Electric nennt in der technischen Tabelle 2900 W und in den FAQ 3000 W; wir verwenden 2900 W. [[VERIFY: Eclipse output 2900 W (spec table) vs 3000 W (FAQ) — Produktteam]]
+Quellen: Produktseiten[^s2][^s3] und Lookbook 2026.[^s1] Die Produktseite von Eclipse Electric nennt in der technischen Tabelle 2900 W und in den FAQ 3000 W; wir verwenden 2900 W. [[VERIFY: Eclipse-Leistung 2900 W (technische Tabelle) oder 3000 W (FAQ) — Produktteam]]
 
-## Wie wird Eclipse Electric montiert?
+## Eclipse Electric montieren
 
-An einer Stange von der Decke oder an der Wand, mindestens 2,44 m über dem Boden.[^s2] Serienmäßig wird eine Doppelstange mit ca. 610 mm Länge mitgeliefert. Optionale Stangen verändern Abhängung und Optik:[^s2]
+Eclipse Electric hängt an einer Stange von der Decke oder an der Wand, mindestens 2,44 m über dem Boden.[^s2] Serienmäßig wird eine Doppelstange mit ca. 610 mm Länge mitgeliefert, und mit optionalen Stangen passen Sie Abhängung und Optik an Ihren Raum an:[^s2]
 
 - [Gerade Stange, ca. 200 mm](https://www.bromic.com/product/eclipse-8-inch-straight-pole/), für niedrige Decken
 - [Gerade Stange, ca. 610 mm](https://www.bromic.com/product/eclipse-24-inch-straight-pole/)
@@ -97,33 +96,33 @@ An einer Stange von der Decke oder an der Wand, mindestens 2,44 m über dem Bode
 - [Gebogene Stange](https://www.bromic.com/product/eclipse-curved-pole/)
 - [Wandstange](https://www.bromic.com/product/eclipse-wall-mount-pole/)
 
-Die Fassung dieses Beitrags von 2023 zählte „sieben“ Optionen; die Kollektionsseite rechnet das freistehende Modell als eine davon. Die Stangen aufzuführen ist klarer als eine Zahl. [[VERIFY: Eclipse mounting option count (six vs seven) — Produktteam]]
+Die Fassung dieses Beitrags von 2023 zählte „sieben“ Optionen, und die Kollektionsseite rechnet das freistehende Modell als eine davon. Die Stangen selbst aufzuführen ist klarer als eine Zahl. [[VERIFY: Anzahl der Montageoptionen für Eclipse (sechs oder sieben) — Produktteam]]
 
-![Gartenpavillon zur blauen Stunde mit einem runden Eclipse-Heizstrahler an der Decke](img:w-dsc01890-hdr-bearbeitet)
+![Gartenpavillon zur blauen Stunde mit einem runden Eclipse Heizstrahler, der an der Decke leuchtet](img:w-dsc01890-hdr-bearbeitet)
 
 <div class="diagram">Diagramm: Eclipse Electric an jeder Stangenlänge, von der Decke und von der Wand, mit eingezeichneter Mindesthöhe von 2,44 m und der beheizten Fläche von ca. 11 m² auf dem Boden.</div>
 
-## Welches Steuergerät regelt Wärme und Licht?
+## Das Steuergerät für Wärme und Licht
 
-Jeder Eclipse braucht ein Steuergerät; es ist Teil der Installation, kein Zubehör.
+Jeder Eclipse wird mit einem Steuergerät kombiniert, das zusammen mit dem Heizstrahler selbst in die Installation eingeplant wird.
 
 - **Affinity Smart-Heat Eclipse Controller.** Stellt die Wärme auf 0, 33, 66 oder 100 % und dimmt das Licht, je Zone, und verbindet sich mit der Bromic Smart-Heat App für Zeitpläne und Timer.[^s2][^s4]
-- **Eclipse Dimmer Controller mit Fernbedienung.** Heizstufen und Lichtdimmung über eine Handfernbedienung. Er gehört zum Lieferumfang von Eclipse Freestanding.[^s3]
+- **Eclipse Dimmer Controller mit Fernbedienung.** Heizstufen und Lichtdimmung über eine Handfernbedienung, im Lieferumfang von Eclipse Freestanding.[^s3]
 - **Manueller Wandschalter.** Einfaches Ein und Aus an der Wand, für Eclipse Electric.[^s2]
 
-WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat-Steuerungen voraus, die separat erhältlich sind.[^s4] Der Beitrag von 2023 nannte eine Eclipse Master Remote; diese Aufgabe übernimmt heute die Affinity-Reihe. [[VERIFY: whether Eclipse Freestanding's included controller gives app control without an Affinity controller — Produktteam]] Zur Einrichtung siehe unseren [Leitfaden zur Steuerung](item:RES-BY-01) und die [Übersicht der Steuerungen](https://www.bromic.de/).
+WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat-Steuerungen voraus, die separat erhältlich sind.[^s4] Der Beitrag von 2023 nannte eine Eclipse Master Remote, deren Aufgabe heute die Affinity-Reihe übernimmt. [[VERIFY: ob das mitgelieferte Steuergerät von Eclipse Freestanding ohne Affinity-Steuergerät eine App-Steuerung ermöglicht — Produktteam]] Zur Einrichtung siehe unseren [Leitfaden zur Steuerung](item:RES-BY-01) und die [Übersicht der Steuerungen](https://www.bromic.de/). Lassen Sie Eclipse Electric von einem Elektrofachbetrieb nach DIN VDE 0100 anschließen.
 
-![Gebogener Eclipse Freestanding über einem geschwungenen Gartensofa](img:w-eclispe-freestanding)
+![Gebogener Eclipse Freestanding über einem geschwungenen Gartensofa, bereit für einen Abend im Freien](img:w-eclispe-freestanding)
 
-## Wie viele Eclipse-Heizstrahler braucht ein Bereich?
+## Wie viele Eclipse Heizstrahler Ihr Bereich braucht
 
-Rechnen Sie zunächst mit etwa einem Heizstrahler je 11 m² Sitzfläche und passen Sie dann für Wind, Deckenhöhe und Offenheit des Bereichs an.[^s1] Zur Platzierung siehe [wo Terrassenheizstrahler hingehören](item:RES-PP-01). Der Planungsservice von Bromic zeichnet Ihnen anhand eines Fotos oder Plans kostenlos einen Wärmeplan, und auf der Seite der Eclipse-Kollektion sind beide Modelle im Einsatz zu sehen ([bromic.de](https://www.bromic.de/)). [[VERIFY: ob der Planungsservice (Design Your Space) für Deutschland angeboten wird — Partner Deutschland]]
+Rechnen Sie zunächst mit etwa einem Heizstrahler je 11 m² Sitzfläche und passen Sie dann für Wind, Deckenhöhe und Offenheit des Bereichs an.[^s1] Zur Platzierung siehe [wo Terrassenheizstrahler hingehören](item:RES-PP-01). Unser Planungsservice zeichnet Ihnen anhand eines Fotos oder Plans kostenlos einen Wärmeplan, und die Seite der Eclipse-Kollektion zeigt beide Modelle in schönen Umgebungen ([bromic.de](https://www.bromic.de/)). [[VERIFY: ob der Planungsservice (Design Your Space) für Deutschland angeboten wird — Partner Deutschland]]
 
 ## Häufige Fragen
 
 ### Lässt sich das Licht des Eclipse ohne die Wärme nutzen?
 
-Ja. Wärme und Licht werden getrennt eingestellt, sodass das Licht an Sommerabenden allein laufen kann.[^s1][^s2]
+Ja. Wärme und Licht werden getrennt eingestellt, sodass das Licht an Sommerabenden allein leuchten kann.[^s1][^s2]
 
 ### Wie viel Fläche beheizt ein Eclipse?
 
@@ -135,6 +134,6 @@ Nein. Beide Eclipse-Modelle sind elektrisch.[^s2]
 
 ### Lässt sich Eclipse Freestanding verschieben?
 
-Ja. Er hat einen beschwerten Fuß und integrierte Rollen.[^s1]
+Ja. Er hat einen beschwerten Fuß und integrierte Rollen, sodass er den Möbeln folgt, wo immer Sie zusammenkommen.[^s1]
 
-Wie viele Heizstrahler Ihr Bereich braucht, berechnen Sie in einer Minute.
+Entdecken Sie, wie viele Heizstrahler Ihr Bereich braucht, und berechnen Sie ihn in einer Minute.

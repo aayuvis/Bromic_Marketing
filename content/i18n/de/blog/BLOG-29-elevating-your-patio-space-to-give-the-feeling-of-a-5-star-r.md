@@ -1,17 +1,17 @@
 ---
 id: BLOG-29
 type: blog
-title: "So fühlt sich Ihre Terrasse an wie ein Fünf-Sterne-Resort"
+title: "Terrasse im Resort-Stil: So fühlt sich Ihr Zuhause an wie fünf Sterne"
 action: keep-fix
 audience: [RES]
 stage: [AW]
 cell: RES-AW
 asset: A24
-summary: "Sechs Schritte, mit denen sich eine Terrasse zu Hause wie die Terrasse eines Resorts anfühlt (Wärme dort, wo man sitzt, Licht in Schichten, langlebige Möbel, ein Blickfang, Zonen und eine ruhige Steuerung), aufgebaut auf Wärme, die man spürt, aber nicht sieht."
+summary: "Sechs Wege, wie Ihre Terrasse zu Hause das Gefühl einer Fünf-Sterne-Resortterrasse bekommt – Wärme dort, wo man sitzt, Licht in Schichten, Möbel, die bleiben, ein Blickfang, Zonen und eine mühelose Steuerung –, alles rund um Wärme, die man spürt, aber nicht sieht."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
-ai_prompt: "Wie lasse ich meine Terrasse wie ein Luxusresort wirken?"
-meta_description: "Sechs Schritte zur Terrasse im Resort-Stil: Wärme, wo man sitzt, Licht in Schichten, langlebige Möbel, ein Blickfang und eine Steuerung, die die Stimmung mit einem Handgriff setzt."
+ai_prompt: "Wie gebe ich meiner Terrasse das Gefühl eines Luxusresorts?"
+meta_description: "Sechs Wege zur Terrasse im Resort-Stil: Wärme, wo Sie sitzen, Licht in Schichten, langlebige Möbel, ein Blickfang und Stimmung auf Knopfdruck."
 cta: {label: "Trendbericht 2026 anfordern", asset: A01}
 hero: w-bromic-eclipse-heater-scottsdale-home-6
 images: [w-bromiceclipseheater-scottsdalehome-10, w-wrigley-mansion-phoenix-arizona-22]
@@ -21,7 +21,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-AW-01, RES-PP-01, RES-BY-01, A01-v2]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: de
 translation_of: BLOG-29
 translation_status: machine-draft
@@ -70,22 +70,21 @@ sources:
     supports: "The original styling tips, the WSJ badge and link, the Wendell Burnette testimonial and the '8-foot-tall' height claim this rewrite removes"
     verified: true
 ---
+Eine Terrasse fühlt sich wie ein Resort an, wenn es dort warm ist, wo Sie sitzen, wenn sie nach Einbruch der Dunkelheit sanft beleuchtet ist, wenn die Möbel lange halten und alles um etwas Schönes zum Anschauen angelegt ist. Beginnen Sie mit Wärme, die man spürt, aber nicht sieht: Strahlungswärme über der Lounge oder dem Esstisch, damit der Abend weitergeht, lange nachdem die Sonne untergegangen ist. Von dort aus schichten Sie das Licht, wählen wetterfeste Materialien, geben dem Bereich einen Blickfang und führen alles unter einer Steuerung zusammen.
 
-Eine Terrasse fühlt sich wie ein Resort an, wenn es dort warm ist, wo man sitzt, wenn sie nach Einbruch der Dunkelheit sanft beleuchtet ist, wenn die Möbel lange halten und alles um einen Blickfang herum angelegt ist. Beginnen Sie mit Wärme, die man spürt, aber nicht sieht: Strahlungswärme über der Lounge oder dem Esstisch, damit der Abend nicht mit dem Sonnenuntergang endet. Dann schichten Sie das Licht, wählen wetterfeste Materialien, geben dem Bereich einen Blickfang und steuern alles von einer Stelle aus.
+![Freistehender Eclipse Heizstrahler mit Bogenarm über einer Lounge auf einer überdachten Terrasse, die sich zur Küche öffnet](img:w-bromic-eclipse-heater-scottsdale-home-6)
 
-![Freistehender Eclipse-Heizstrahler mit Bogenarm über einer Lounge auf einer überdachten Terrasse, die sich zur Küche öffnet](img:w-bromic-eclipse-heater-scottsdale-home-6)
+## 1. Wärme dorthin bringen, wo man sitzt
 
-## 1. Wärme dorthin bringen, wo Menschen sitzen
+Die besten Resorts richten ihre Wärme auf die Plätze, an denen die Gäste entspannen. Strahlungswärme erwärmt Menschen und Gegenstände statt der Luft und wirkt deshalb so gut im Freien; unter einer Teilüberdachung entsteht zudem eine sanfte Wärmezone.[^s5] Setzen Sie die Wärme direkt über den Tisch oder das Sofa, wo jeder sie spürt, statt an den Rand des Bereichs.
 
-Resorts heizen den Sitzplatz, nicht den Himmel. Strahlungswärme erwärmt Menschen und Gegenstände statt der Luft und funktioniert deshalb im Freien; unter einer Teilüberdachung bildet sie zudem eine kleine Wärmezone.[^s5] Setzen Sie die Wärme direkt über den Tisch oder das Sofa, nicht an den Rand des Bereichs.
+Wo es weder Wand noch Decke zur Montage gibt, reicht der Eclipse Smart-Heat Freestanding Electric mit seinem gebogenen Arm von einem beschwerten, fahrbaren Fuß aus über einen Tisch und beheizt rund 11 m².[^s1] Gibt es eine Untersicht, hält ein fest montierter Heizstrahler an einer Stange oder in der Decke den Boden elegant frei. Unser kostenloser Planungsservice auf [bromic.de](https://www.bromic.de/) ermittelt, wie viele Heizstrahler Sie brauchen und wohin jeder gehört.
 
-Wo es weder Wand noch Decke zur Montage gibt, reicht der Eclipse Smart-Heat Freestanding Electric mit seinem gebogenen Arm von einem beschwerten, fahrbaren Fuß aus über einen Tisch und beheizt rund 11 m².[^s1] Gibt es eine Untersicht, hält ein fest montierter Heizstrahler an einer Stange oder in der Decke den Boden frei. Der kostenlose Planungsservice von Bromic auf [bromic.de](https://www.bromic.de/) ermittelt, wie viele Heizstrahler wo hingehören.
+Das Wall Street Journal stellte den Eclipse in einem Beitrag darüber vor, wie man eine Terrasse in ein Resort verwandelt.[^s3] [[VERIFY: Datum und Überschrift des WSJ-Artikels und was er über den Eclipse sagt — Marketing]]
 
-Der Eclipse wurde im Wall Street Journal in einem Beitrag darüber vorgestellt, wie man eine Terrasse in ein Resort verwandelt.[^s3] [[VERIFY: WSJ article date, headline and what it says about Eclipse — Marketing]]
+## 2. Das Licht in Schichten setzen
 
-## 2. Das Licht schichten
-
-Nutzen Sie drei Arten: Grundlicht, um zu sehen, Arbeitslicht dort, wo Sie kochen oder einschenken, und Akzentlicht auf Pflanzen, Wasser oder Oberflächen. Der Eclipse-Heizstrahler hat am Rand ein dimmbares Licht, sodass eine Leuchte Wärme und sanftes Licht über den Tisch bringt.[^s1]
+Nutzen Sie drei Arten von Licht: Grundlicht, um zu sehen, Arbeitslicht dort, wo Sie kochen oder einschenken, und Akzentlicht auf Pflanzen, Wasser oder Oberflächen. Der Eclipse Heizstrahler trägt ein dimmbares Licht an seinem Rand, sodass eine einzige Leuchte Wärme und sanften Schein an den Tisch bringt.[^s1]
 
 | Schicht | Wirkung | Beispiel |
 |---|---|---|
@@ -94,49 +93,49 @@ Nutzen Sie drei Arten: Grundlicht, um zu sehen, Arbeitslicht dort, wo Sie kochen
 | Akzentlicht | Schafft Tiefe | Von unten beleuchtete Pflanzen, beleuchtetes Wasser |
 | Wärme und Licht | Wärme und Schein in einem | Eclipse-Randbeleuchtung, dimmbar |
 
-## 3. Möbel wählen, die lange halten
+## 3. Möbel, die lange Freude machen
 
-Resortterrassen setzen auf tiefe Sitzmöbel, gemischte Materialien und Stücke, die dem Wetter standhalten. Wählen Sie Edelstahl, Teak und wetterfeste Stoffe, ergänzen Sie Outdoor-Teppiche, Kissen und Decken und trennen Sie Essbereich und Lounge mit großen Pflanzkübeln. Ein Barwagen oder eine Außenküche machen es leicht, Gäste zu bewirten.
+Resortterrassen sind mit tiefen Sitzmöbeln eingerichtet, mit einer Mischung aus Materialien und mit Stücken, die die Jahreszeiten mit Würde überstehen. Setzen Sie auf Edelstahl, Teak und wetterfeste Stoffe, ergänzen Sie Outdoor-Teppiche, Kissen und Decken und trennen Sie Essbereich und Lounge mit großen Pflanzkübeln. Ein Barwagen oder eine Außenküche machen das Bewirten zum Vergnügen.
 
-## 4. Einen Blickfang schaffen
+## 4. Ein Blickfang für den Raum
 
-Eine Feuerstelle, Wasser, ein Kunstwerk oder ein markanter Heizstrahler gibt den Menschen einen Ort, an dem sie zusammenkommen. Die Bogenform des Eclipse ist oft das Erste, was auffällt. Bei Christopher's at Wrigley Mansion in Phoenix wählte der Architekt Wendell Burnette freistehende Eclipse-Heizstrahler, damit das Restaurant eine Terrasse ergänzen konnte, ohne die Gestaltung des historischen Gebäudes zu stören; im Live-Beitrag beschreibt er, wie Gäste sie ansprechen.[^s4] [[VERIFY: quote wording against the case study before any direct quote is used — Marketing]]
+Eine Feuerstelle, Wasser, ein Kunstwerk oder ein markanter Heizstrahler gibt den Menschen einen natürlichen Ort, an dem sie zusammenkommen. Die Bogenform des Eclipse ist oft das Erste, was Gästen auffällt. Bei [Christopher's at Wrigley Mansion](https://www.bromic.com/case-study/christophers-at-wrigley-mansion/) in Phoenix wählte der Architekt Wendell Burnette freistehende Eclipse Heizstrahler, damit das Restaurant eine Terrasse ergänzen und dabei die Gestaltung des historischen Gebäudes bewahren konnte; im ursprünglichen Beitrag beschreibt er, wie Gäste sie ansprechen.[^s4] [[VERIFY: Wortlaut des Zitats mit der Fallstudie abgleichen, bevor ein direktes Zitat verwendet wird — Marketing]]
 
-![Terrasse bei Nacht mit leuchtenden freistehenden Eclipse-Heizstrahlern über den Gästen, dahinter ein Berg](img:w-wrigley-mansion-phoenix-arizona-22)
+![Terrasse bei Nacht mit leuchtenden, gebogenen freistehenden Eclipse Heizstrahlern über den Gästen, dahinter ein Berg](img:w-wrigley-mansion-phoenix-arizona-22)
 
-## 5. In Zonen planen, nicht in einer großen Fläche
+## 5. Gestaltet nach der Art, wie Sie draußen leben
 
-Essen, Entspannen und Kochen brauchen jeweils eigene Wärme und eigenes Licht. Teilen Sie die Wärme entsprechend in Zonen auf, sodass nur der Teil läuft, den Sie gerade nutzen. Freistehende Heizstrahler wandern mit den Möbeln; fest montierte passen zu Zonen, die bleiben, wo sie sind. Siehe [wohin mit dem Terrassenheizstrahler](item:RES-PP-01).
+Essen, Entspannen und Kochen verdienen jeweils eigene Wärme und eigenes Licht. Teilen Sie die Wärme passend in Zonen auf, sodass nur der Teil der Terrasse läuft, den Sie gerade nutzen. Freistehende Heizstrahler wandern mit den Möbeln, fest montierte passen zu Zonen, die bleiben, wo sie sind. Mehr dazu, [wo Terrassenheizstrahler hingehören](item:RES-PP-01).
 
-## 6. Die Stimmung leicht einstellen
+## 6. Die Stimmung mit einem Handgriff
 
-Luxus heißt, nicht nach Schaltern suchen zu müssen. Der Eclipse Freestanding wird mit dem Eclipse Dimmer Controller und einer Fernbedienung geliefert, die die Wärme in den Stufen 33, 66 und 100 % schalten und das Licht vom Sitzplatz aus dimmen.[^s1][^s2] Fest montierte Platinum- oder Tungsten-Electric-Heizstrahler laufen über ein Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät und einen Wandschalter. Zonen, Zeitpläne und Sprachsteuerung kommen über die Bromic Smart-Heat App; WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Controls, separat erhältlich.[^s1] Zur Einrichtung: [Smart-Heat-Steuerung](item:RES-BY-01).
+Wahrer Luxus heißt, die Stimmung vom eigenen Platz aus zu setzen. Der Eclipse Freestanding wird mit dem Eclipse Dimmer Controller und einer Fernbedienung geliefert, die die Wärme in den Stufen 33, 66 und 100 % schalten und das Licht dimmen, ohne dass Sie aufstehen müssen.[^s1][^s2] Fest montierte Platinum- oder Tungsten-Electric-Heizstrahler laufen über ein Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät und einen Wandschalter. Zonen, Zeitpläne und Sprachsteuerung kommen über die Bromic Smart-Heat App; WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind.[^s1] Für den Einstieg: [Smart-Heat-Steuerung](item:RES-BY-01).
 
-![Eclipse-Heizstrahler mit Bogenarm über Loungesesseln auf einer Terrasse mit Blick über ein Tal bei Sonnenuntergang](img:w-bromiceclipseheater-scottsdalehome-10)
+![Eclipse Heizstrahler mit Bogenarm über Loungesesseln auf einer Terrasse mit Blick über ein Tal bei Sonnenuntergang](img:w-bromiceclipseheater-scottsdalehome-10)
 
-Das abgebildete Haus ist Desert Mirage in Scottsdale (USA), von AFT Construction, Cosan Studio und Alisha Taylor Interiors, mit einem freistehenden Eclipse-Heizstrahler auf der Terrasse.
+Das abgebildete Haus ist [Desert Mirage](https://www.bromic.com/case-study/desert-mirage-blurring-the-lines-between-home-and-nature/) in Scottsdale (USA), von AFT Construction, Cosan Studio und Alisha Taylor Interiors, mit einem freistehenden Eclipse Heizstrahler, der die Terrasse wärmt. (Fallstudie englischsprachig.)
 
-Der Live-Beitrag nannte den Eclipse Freestanding „8 Fuß hoch“ (ca. 2,4 m); diese Höhe steht nicht in den aktuellen Produktdaten von Bromic und bleibt deshalb weg, bis sie bestätigt ist.[^s6] [[VERIFY: Eclipse Freestanding overall height — Produktteam]]
+Der ursprüngliche Beitrag nannte den Eclipse Freestanding „8 Fuß hoch“ (ca. 2,4 m); diese Höhe steht nicht in unseren aktuellen Produktdaten, daher lassen wir sie weg, bis sie bestätigt ist.[^s6] [[VERIFY: Gesamthöhe des Eclipse Freestanding — Produktteam]]
 
 ## Häufige Fragen
 
 ### Was lässt eine Terrasse luxuriös wirken?
 
-Komfort, den man nicht bemerkt: Wärme, wo man sitzt, sanftes Licht in Schichten, gute Materialien und ein markanter Blickfang.
+Komfort, den man kaum bemerkt: Wärme, wo man sitzt, sanftes Licht in Schichten, schöne Materialien und ein markanter Blickfang.
 
 ### Kann ein Terrassenheizstrahler ein Gestaltungselement sein?
 
-Ja. Ein Heizstrahler, der zugleich den Tisch beleuchtet, wie der Eclipse, kann der Blickfang sein statt etwas, das man versteckt.
+Ja. Ein Heizstrahler, der zugleich den Tisch beleuchtet, wie der Eclipse, kann zum Blickfang des Raums werden und zu einem Stück, das Sie gern zeigen.
 
 ### Brauche ich eine Wand oder Decke für einen Heizstrahler?
 
 Nein. Ein freistehender Heizstrahler steht auf seinem eigenen Fuß und braucht nur Strom und mindestens ca. 2,0 m Freiraum nach oben.[^s2]
 
-Mehr zu Heizstrahlern für Zuhause und zur Eclipse-Kollektion finden Sie auf [bromic.de](https://www.bromic.de/). Was das Leben im Freien in diesem Jahr prägt, lesen Sie im Trendbericht 2026.
+Entdecken Sie mehr über Heizstrahler für Zuhause und die Eclipse-Kollektion auf [bromic.de](https://www.bromic.de/). Welche Ideen das Leben im Freien in diesem Jahr prägen, lesen Sie im Trendbericht 2026.
 
 [^s1]: Bromic Heating, Lookbook 2026.
 [^s2]: Bromic Heating, Produktseite Eclipse Smart-Heat Freestanding, gelesen am 29. Okt. 2026.
-[^s3]: The Wall Street Journal (im Live-Beitrag verlinkt; nicht gelesen).
+[^s3]: The Wall Street Journal (im ursprünglichen Beitrag verlinkt; nicht gelesen).
 [^s4]: Bromic Heating, Fallstudie Christopher's at Wrigley Mansion.
 [^s5]: Bromic Heating, Planning Guide US v1.2, 2021.
-[^s6]: Bromic Heating, Live-Beitrag, gelesen am 29. Okt. 2026.
+[^s6]: Bromic Heating, ursprünglicher Beitrag, gelesen am 29. Okt. 2026.

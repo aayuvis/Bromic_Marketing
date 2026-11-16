@@ -1,17 +1,17 @@
 ---
 id: BLOG-30
 type: blog
-title: "Warum die Außenbeheizung früh geplant werden muss: von Anfang an geplant, nicht nachträglich ergänzt"
+title: "Warum die Außenbeheizung früh spezifiziert wird: Wärme, geplant ab der ersten Zeichnung"
 action: rewrite
 audience: [ARC, BLD, RES, COM]
 stage: [IN]
 cell: ARC-IN
 asset: A24
-summary: "Warum die Beheizung im Freien in die ersten Zeichnungen gehört: was sie festlegt (Stromkreise oder Gas, Hinterlegung, Einbauöffnungen, Steuerung, Abnahme), was schiefgeht, wenn sie nachträglich kommt, und was in jeder Leistungsphase in die Zeichnungen gehört."
+summary: "Die schönsten beheizten Bereiche haben ihre Wärme ab der ersten Zeichnung eingeplant. Was eine frühe Spezifikation festlegt – Stromkreise oder Gas, Hinterlegung, Einbauöffnungen, Steuerung und Abnahme –, was späte Ergänzungen kosten und was in jeder Planungsphase in die Zeichnungen gehört."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Warum sollte die Außenbeheizung früh im Planungsprozess spezifiziert werden?"
-meta_description: "Planen Sie die Außenbeheizung in der Vorplanung: Stromkreise, Hinterlegung, Einbauöffnungen, Steuerung und Abnahme einmal entschieden statt nachgerüstet."
+meta_description: "Spezifizieren Sie die Außenbeheizung früh, in der Vorplanung: Stromkreise, Hinterlegung, Einbauöffnungen, Steuerung und Abnahme ab der ersten Zeichnung."
 cta: {label: "Spezifikationspaket herunterladen", asset: A11}
 hero: w-pilarshoots-hr-achtoptien-00-72
 images: [g-rough-in, g-plans]
@@ -21,7 +21,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-IN-01, A11, BLD-IN-01, ARC-PP-01]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: de
 translation_of: BLOG-30
 translation_status: machine-draft
@@ -77,21 +77,20 @@ sources:
     supports: "The original post's topics (cost, residential and commercial planning, infrastructure, code, aesthetics) and its Danny Wang video reference"
     verified: true
 ---
+Spezifizieren Sie die Außenbeheizung schon in der Vorplanung, denn sie prägt Entscheidungen, die sich nach dem Bau nur schwer ändern lassen: einen eigenen Stromkreis oder eine Gasleitung zu jeder Position, Hinterlegungen und Einbauöffnungen in der Untersicht, den Ort der Steuerung und den Weg der Installation zur Abnahme. Früh geplant, verschwindet die Wärme elegant in der Architektur. Bleibt sie bis zum Schluss liegen, kann das heißen, eine fertige Decke zu öffnen, sich mit einem aufgesetzten Kompromiss zu begnügen oder mit einem Heizstrahler zu leben, den niemand eingeplant hat.
 
-Planen Sie die Außenbeheizung schon in der Vorplanung, denn sie legt Dinge fest, die sich nach dem Bau nur schwer ändern lassen: einen eigenen Stromkreis oder eine Gasleitung zu jeder Position, Hinterlegungen und Einbauöffnungen in der Untersicht, den Ort der Steuerung und den Weg zur Abnahme. Früh entschieden, verschwindet die Wärme in der Architektur. Später ergänzt, heißt das: eine fertige Decke öffnen, ein aufgesetzter Kompromiss oder ein Heizstrahler, den niemand eingeplant hat.
+![Überdachte Terrasse mit schlanken, bündig in eine weiße Decke eingebauten Heizstrahlern, die Wärme als Teil der Architektur](img:w-pilarshoots-hr-achtoptien-00-72)
 
-![Überdachte Terrasse mit schlanken, bündig in eine weiße Decke eingebauten Heizstrahlern](img:w-pilarshoots-hr-achtoptien-00-72)
+## Warum die Beheizung so oft zuletzt kommt
 
-## Warum kommt die Beheizung zuletzt?
-
-Weil sie in der Konzeptphase niemandem gehört. Die Beleuchtung liegt beim Elektroplaner, die Beschattung beim Landschaftsarchitekten, die Konstruktion beim Tragwerksplaner. Die Beheizung fällt dazwischen durch, und Bauherren sprechen sie selten an.
+In der Konzeptphase hat die Beheizung selten einen Verantwortlichen. Die Beleuchtung liegt beim Elektroplaner, die Beschattung beim Landschaftsarchitekten und die Konstruktion beim Tragwerksplaner, also fällt die Beheizung dazwischen, und Bauherren denken selten daran, sie anzusprechen.
 
 **23 %** der Hausbesitzer in den USA setzen die Beheizung im Freien bei der Planung ganz oben auf die Liste.[^s1]\
 *Atomik Research für Bromic Heating, 2025 (US-Umfrage)* [[VERIFY: Erhebungszeitraum, Stichprobe n und Wortlaut der Frage gegen die Atomik-Topline prüfen — Marketing]]
 
-Die Terrasse wird gezeichnet. Die Wärme nicht. Dann kommt der erste kühle Abend, und der Bereich, für den der Bauherr bezahlt hat, bleibt leer.
+Die Terrasse kommt in die Zeichnungen, die Wärme, mit der man sie genießt, bleibt draußen. Dann kommt der erste kühle Abend, und der Bereich, in den Ihr Bauherr investiert hat, bleibt leer, gerade wenn er voller Menschen sein sollte.
 
-## Was entscheidet eine frühe Spezifikation tatsächlich?
+## Was eine frühe Spezifikation entscheidet
 
 | Entscheidung | Wann sie wenig kostet | Was sie kostet, wenn sie spät kommt |
 |---|---|---|
@@ -102,43 +101,43 @@ Die Terrasse wird gezeichnet. Die Wärme nicht. Dann kommt der erste kühle Aben
 | Steuerung und ihr Ort | Elektroplanung | Ein Schalter, wo niemand steht, oder gar keine Zonen |
 | Weg zu Genehmigung und Abnahme | Genehmigungsplanung | Eine nicht bestandene Abnahme oder keine Wärme in dieser Saison |
 
-Von Anfang an geplant, nicht nachträglich ergänzt: Jede Zeile oben ist entweder ein Strich in einer Zeichnung oder ein Loch in einer fertigen Decke.
+Wird die Beheizung ab der ersten Zeichnung eingeplant, ist jede Zeile oben einfach ein Strich in einem Plan; bleibt sie bis zum Schluss liegen, kann daraus ein Loch in einer fertigen Decke werden.
 
 [[DIAGRAM: Schnitt durch eine überdachte Terrasse mit eingebautem Heizstrahler, Hinterlegung, Abzweigdose, eigenem Stromkreis zurück zum Verteiler und dem Steuergerät an der Tür, mit eingetragener Mindesthöhe von 2,4 m für die Deckenmontage]]
 
-## Was gehört wann in die Zeichnungen?
+## Was in jeder Phase in die Zeichnungen gehört
 
-**Vorplanung.** Festlegen, welche Bereiche beheizt werden, Strom oder Gas wählen und die Positionen der Heizstrahler im Deckenspiegel zeigen. Bromic definiert eine Fläche als „im Freien“, wenn mindestens 30 % ihres Umfangs dauerhaft offen sind; eine Teilüberdachung hält etwas Wärme und hilft.[^s2]
+**Vorplanung.** Legen Sie fest, welche Bereiche beheizt werden, wählen Sie Strom oder Gas und zeigen Sie die Positionen der Heizstrahler im Deckenspiegel. Bromic definiert einen Bereich als „im Freien“, wenn mindestens 30 % seines Umfangs dauerhaft offen sind, und eine Teilüberdachung hält hilfreich etwas Wärme.[^s2]
 
-**Entwurfsplanung.** Die Montageart festlegen. Platinum Smart-Heat Electric (2300, 3400 oder 4500 W) wird eingebaut, an der Decke oder an der Wand montiert; für den Einbau müssen Einbausatz und Hohlraum jetzt gezeichnet werden, nicht erst beim Ausbau.[^s3] Halten Sie die Mindestmontagehöhen von Bromic ein: an der Wand mindestens 1,8 m über dem Boden und an der Decke mindestens 2,4 m, je nach Leistung höher.[^s2]
+**Entwurfsplanung.** Legen Sie die Montageart fest. Platinum Smart-Heat Electric (2300, 3400 oder 4500 W) wird eingebaut, an der Decke oder an der Wand montiert; für den Einbau gehören Einbausatz und Hohlraum schon in dieser Phase in die Zeichnung, lange vor dem Ausbau.[^s3] Halten Sie unsere Mindestmontagehöhen ein: an der Wand mindestens 1,8 m über dem Boden und an der Decke mindestens 2,4 m, je nach Leistung höher.[^s2]
 
-**Ausführungsplanung.** Für jede Position einen eigenen Stromkreis in den Verteilerplan aufnehmen. Ein Platinum mit 4500 W zieht an 230 V rund 19,6 A (4500 W ÷ 230 V; die US-Produktseite nennt Werte für 240 V und 208 V[^s4]); Leitung und Absicherung legt der Elektrofachbetrieb nach DIN VDE 0100 fest. [[VERIFY: Stromaufnahme und Versorgungsspannung je Modell gegen das Datenblatt 2026 prüfen — Produktteam]] Schreiben Sie den Heizstrahler als Leitprodukt mit seiner Steuerung in die Leistungsbeschreibung; [Infrarot-Heizstrahler für den Außenbereich ausschreiben](item:ARC-IN-01) liefert den Ausschreibungstext und [die Checkliste zur Vorverkabelung](item:BLD-IN-01) die Rohinstallation.
+**Ausführungsplanung.** Nehmen Sie für jede Position einen eigenen Stromkreis in den Verteilerplan auf. Ein Platinum mit 4500 W zieht an 230 V rund 19,6 A (4500 W ÷ 230 V; die US-Produktseite nennt Werte für 240 V und 208 V[^s4]); Leitung und Absicherung legt der Elektrofachbetrieb nach DIN VDE 0100 fest. [[VERIFY: Stromaufnahme und Versorgungsspannung je Modell gegen das Datenblatt 2026 prüfen — Produktteam]] Schreiben Sie den Heizstrahler als Leitprodukt mit seiner Steuerung in die Leistungsbeschreibung; [Infrarot-Heizstrahler für den Außenbereich ausschreiben](item:ARC-IN-01) liefert den Ausschreibungstext und [die Checkliste zur Vorverkabelung](item:BLD-IN-01) die Rohinstallation.
 
 ![Decke einer überdachten Terrasse im Rohbau mit Hinterlegung, Leitungen und Abzweigdosen](img:g-rough-in)
 
-## Warum muss die Steuerung mit dem Heizstrahler spezifiziert werden?
+## Die Steuerung mit dem Heizstrahler spezifizieren
 
-Weil sich Wärme im Freien nicht über ein Thermostat halten lässt; die Steuerung ist also die Art, wie sie genutzt wird.[^s2] Jeder Heizstrahler braucht eine:
+Wärme im Freien lässt sich nicht über ein Thermostat halten, also ist die Steuerung die Art, wie Ihr Bauherr sie jeden Abend genießt.[^s2] Jeder Heizstrahler wird mit seinem Steuergerät kombiniert:
 
 - **Platinum und Tungsten Smart-Heat Electric:** ein Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät und ein manueller Wandschalter.
 - **Eclipse:** das Affinity Smart-Heat Eclipse-Steuergerät, das die Leistung in den Stufen 33, 66 und 100 % schaltet und den Lichtring dimmt.[^s3]
 - **Die App:** Zonen, Zeitpläne und Timer über die Bromic Smart-Heat App. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind.[^s3]
 
-Beim Platinum Electric ist die Steuerung nicht im Lieferumfang und wird separat bestellt; sie gehört deshalb von Anfang an in die Leistungsbeschreibung und ins Budget.[^s4] Zeichnen Sie das Steuergerät dort ein, wo Menschen stehen, wenn sie Wärme wollen, meist innen an der Tür, und führen Sie seine Leitungen mit den Stromkreisen der Heizstrahler. Mehr zur Steuerung auf [bromic.de](https://www.bromic.de/).
+Beim Platinum Electric ist die Steuerung nicht im Lieferumfang und wird separat bestellt; sie gehört deshalb von der allerersten Ausgabe an in die Leistungsbeschreibung und ins Budget.[^s4] Zeichnen Sie das Steuergerät dort ein, wo Menschen ganz natürlich stehen, wenn sie Wärme möchten, meist innen an der Tür, und führen Sie seine Leitungen mit den Stromkreisen der Heizstrahler. Entdecken Sie die Bromic Steuerung auf [bromic.de](https://www.bromic.de/).
 
-## Wie hilft frühe Planung bei Genehmigung und Abnahme?
+## Frühe Planung macht die Abnahme leichter
 
-Sie legt die Fragen nach den Vorschriften auf den Tisch, solange sich der Entwurf noch ändern lässt. In Deutschland werden Elektro-Heizstrahler nach DIN VDE 0100 installiert, Gas-Heizstrahler nach DVGW-TRGI (Erdgas) bzw. TRF (Flüssiggas); in den USA gelten dafür NFPA 70, der National Electrical Code[^s5], und NFPA 54, der National Fuel Gas Code.[^s6] Bei Gas kommen Abstände zu brennbaren Materialien hinzu und, unter einer niedrigen Decke, ein Wärmeabweiser.[^s2] In den USA verändern neue Gesetze für rein elektrische Gebäude, welcher Energieträger in einem Projekt überhaupt zulässig ist; siehe [Vorschriften für rein elektrische Außenbeheizung](item:ARC-PP-01). [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Freien — Partner Deutschland]]
+Wer früh plant, legt die Fragen nach den Vorschriften auf den Tisch, solange sich der Entwurf noch ändern lässt. In Deutschland werden Elektro-Heizstrahler nach DIN VDE 0100 installiert, Gas-Heizstrahler nach DVGW-TRGI (Erdgas) bzw. TRF (Flüssiggas); in den USA gelten dafür NFPA 70, der National Electrical Code[^s5], und NFPA 54, der National Fuel Gas Code.[^s6] Bei Gas kommen Abstände zu brennbaren Materialien hinzu und, unter einer niedrigen Decke, ein Wärmeabweiser.[^s2] In den USA verändern neue Gesetze für rein elektrische Gebäude, welcher Energieträger in einem Projekt überhaupt zulässig ist; mehr dazu in [Vorschriften für rein elektrische Außenbeheizung](item:ARC-PP-01). [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Freien — Partner Deutschland]]
 
-*Dies ist eine Planungshilfe, keine Rechtsberatung. Vorschriften unterscheiden sich nach Ort und Ausgabe. Klären Sie jede Anforderung mit Ihrem Bauamt und einem Elektrofachbetrieb oder Gasinstallateur, und folgen Sie der Montageanleitung des Produkts.*
+*Dies ist eine Planungshilfe und keine Beratung zu Vorschriften. Vorschriften unterscheiden sich nach Ort und Ausgabe. Klären Sie jede Anforderung mit Ihrem Bauamt und einem Elektrofachbetrieb oder Gasinstallateur, und folgen Sie der Montageanleitung des Produkts.*
 
-## Wohnbau oder Gewerbe: was ändert sich?
+## Wohnhäuser und Gastronomieprojekte
 
-**Wohnbau.** Die Entscheidung liegt meist beim Hausbesitzer, den niemand gefragt hat. Setzen Sie die Wärme gleich auf die erste Optionsliste neben Pergola und Beleuchtung, und verkabeln Sie jede überdachte Terrasse vor, die einen Heizstrahler aufnehmen könnte.
+**Wohnbau.** Die Entscheidung liegt meist bei einem Hausbesitzer, den nie jemand gefragt hat. Setzen Sie die Wärme gleich auf die erste Optionsliste neben Pergola und Beleuchtung, und verkabeln Sie jede überdachte Terrasse vor, die einen Heizstrahler aufnehmen könnte.
 
-**Gewerbe.** Wärme ist Kapazität. Zählen Sie die beheizten Plätze und die Abende, die sie hinzugewinnen, planen Sie Zonen passend zu den Servicebereichen und entscheiden Sie über den Energieträger anhand der örtlichen Regeln für Flüssiggas, bevor die Genehmigungsplanung steht. Das Planungsteam von Bromic hat die Wärme für [Stella's Wine Bar im Post Oak Hotel](https://www.bromic.com/case-study/eclipse-pendant-and-platinum-electric-at-stellas-wine-bar/) in Houston geplant (Projektbericht auf Englisch), als 2D-Wärmeplan mit Eclipse-Pendelleuchten und Platinum-Electric-Heizstrahlern an Dimmern; bei [The Industrie](https://www.bromic.com/case-study/albany-zero-emissions-multifamily-building/), einem rein elektrischen Mehrfamilienhaus in Albany, ersetzen Eclipse-Heizstrahler auf der Dachterrasse die Gas-Feuertische.
+**Gewerbe.** Für einen Gastronomiebetrieb ist Wärme Kapazität. Zählen Sie die beheizten Plätze und die Abende, die sie hinzugewinnen, planen Sie Zonen passend zu den Servicebereichen und entscheiden Sie über den Energieträger anhand der örtlichen Regeln für Flüssiggas, bevor die Genehmigungsplanung steht. Unser Planungsteam hat die Wärme für [Stella's Wine Bar im Post Oak Hotel](https://www.bromic.com/case-study/eclipse-pendant-and-platinum-electric-at-stellas-wine-bar/) in Houston geplant, als 2D-Wärmeplan mit Eclipse Pendel-Heizstrahlern und Platinum Electric Heizstrahlern an Dimmern. Bei [The Industrie](https://www.bromic.com/case-study/albany-zero-emissions-multifamily-building/), einem rein elektrischen Mehrfamilienhaus in Albany, nutzt die Dachterrasse Eclipse Heizstrahler anstelle von Gas-Feuertischen. (Fallstudien englischsprachig.)
 
-Das Video aus dem Live-Beitrag mit Designer Danny Wang von DW Design & Build gehört hierher. [[VERIFY: Danny-Wang-Video einbetten und nur sinngemäß wiedergeben, was er darin sagt — Marketing]][^s7]
+Das Video aus dem ursprünglichen Beitrag mit Designer Danny Wang von DW Design & Build gehört hierher. [[VERIFY: Danny-Wang-Video einbetten und nur sinngemäß wiedergeben, was er darin sagt — Marketing]][^s7]
 
 ## Häufige Fragen
 
@@ -148,17 +147,17 @@ In der Vorplanung, wenn Bereiche und Haustechnik festgelegt werden. Bis zur Ausf
 
 ### Was kostet es, die Außenbeheizung später nachzurüsten?
 
-Das hängt vom Gebäude ab, deshalb sollte es früh kalkuliert werden. Späte Ergänzungen bedeuten meist, fertige Untersichten oder Wände zu öffnen und zu flicken; Bromic empfiehlt, alles zusammen anzubieten: Geräte, Versorgung, Genehmigungsgebühren und Installation.[^s2]
+Das hängt vom Gebäude ab, und genau deshalb lohnt es sich, früh zu kalkulieren. Späte Ergänzungen bedeuten meist, fertige Untersichten oder Wände zu öffnen und zu flicken; wir empfehlen ein Komplettangebot mit Geräten, Versorgung, Genehmigungsgebühren und Installation.[^s2]
 
 ### Muss ich die Steuerung separat spezifizieren?
 
-Ja. Platinum und Tungsten Electric brauchen ein Affinity On/Off- oder Dimmer-Steuergerät und einen Wandschalter; Eclipse braucht das Eclipse-Steuergerät. App-Funktionen setzen kompatible Affinity-Steuergeräte voraus, die separat erhältlich sind.
+Ja. Platinum und Tungsten Electric brauchen ein Affinity On/Off- oder Dimmer-Steuergerät und einen Wandschalter, Eclipse braucht das Eclipse-Steuergerät. App-Funktionen setzen kompatible Affinity-Steuergeräte voraus, die separat erhältlich sind.
 
 ### Kann Bromic bei der Anordnung helfen?
 
-Ja. Der kostenlose Planungsservice von Bromic macht aus Fotos, Plänen oder Zeichnungen eine Auswahl der Heizstrahler, ihre Anordnung und eine Zeichnung der Heizflächen.[^s3] Mehr für Planer und Architekten auf [bromic.de](https://www.bromic.de/).
+Ja. Unser kostenloser Planungsservice macht aus Fotos, Plänen oder Zeichnungen eine Auswahl der Heizstrahler, ihre Anordnung und eine Zeichnung der Heizflächen.[^s3] Mehr für Planer und Architekten finden Sie auf [bromic.de](https://www.bromic.de/).
 
-Schreiben Sie die Wärme in die Zeichnungen: Laden Sie das Spezifikationspaket herunter.
+Schreiben Sie die Wärme mit dem Bromic Spezifikationspaket in Ihre Zeichnungen.
 
 [^s1]: Atomik Research für Bromic Heating (Pressemitteilung, Februar 2026).
 [^s2]: Bromic Heating, Planning Guide US v1.2, 2021.
@@ -166,4 +165,4 @@ Schreiben Sie die Wärme in die Zeichnungen: Laden Sie das Spezifikationspaket h
 [^s4]: Bromic Heating, Produktseite Platinum Smart-Heat Electric, gelesen am 29. Okt. 2026.
 [^s5]: NFPA 70, National Electrical Code (US-Vorschrift).
 [^s6]: NFPA 54, National Fuel Gas Code (US-Vorschrift).
-[^s7]: Bromic Heating, Live-Beitrag, gelesen am 29. Okt. 2026.
+[^s7]: Bromic Heating, ursprünglicher Beitrag, gelesen am 29. Okt. 2026.

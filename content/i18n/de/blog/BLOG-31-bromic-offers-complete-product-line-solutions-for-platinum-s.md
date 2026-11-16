@@ -1,17 +1,17 @@
 ---
 id: BLOG-31
 type: blog
-title: "Platinum Smart-Heat Electric: drei Leistungen, drei Montagearten und die Steuerung dazu"
+title: "Platinum Smart-Heat Electric Heizstrahler: Leistungen, Montage und die passende Steuerung"
 action: keep-fix
 audience: [ARC, RES]
 stage: [IN]
 cell: ARC-IN
 asset: A24
-summary: "Die Baureihe Platinum Smart-Heat Electric für Planer auf einen Blick: 2300, 3400 und 4500 W mit Heizfläche und Stromaufnahme, Wand-, Decken- und Einbaumontage, beide Einbausätze und die Affinity-Steuerung, die jeder Heizstrahler braucht."
+summary: "Die Baureihe Platinum Smart-Heat Electric für Planer an einem Ort – 2300, 3400 und 4500 W mit Heizfläche und Stromaufnahme, Wand-, Decken- und Einbaumontage, beide Einbausätze und die Affinity-Steuerung, mit der jeder Heizstrahler kombiniert wird."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "In welchen Größen gibt es den Bromic Platinum Elektro-Heizstrahler und wie wird er montiert?"
-meta_description: "Platinum Smart-Heat Electric mit 2300, 3400 und 4500 W: Heizfläche, Stromaufnahme, Wand-, Decken- und Einbaumontage, Einbausätze und die passende Steuerung."
+meta_description: "Platinum Elektro-Heizstrahler mit 2300, 3400 und 4500 W: Heizfläche, Stromaufnahme, Wand-, Decken- und Einbaumontage, Einbausätze und die Steuerung."
 cta: {label: "Das Spezifikationspaket herunterladen", asset: A11}
 hero: w-bromic-platinum-electric-4500w
 images: [w-bromic-shoot-may-11-2023-54, w-australia-sydney-greenwich-residence-2]
@@ -21,7 +21,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-IN-01, ARC-IN-KB1, BLD-IN-KB1, RES-BY-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -77,13 +77,13 @@ translation_of: BLOG-31
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
-Der Platinum Smart-Heat Electric ist ein flacher, geschlossener Strahlungsheizer in drei Leistungen: 2300 W für ca. 6 m², 3400 W für ca. 10 m² und 4500 W für ca. 13 m².[^s2] Es gibt ihn in Schwarz oder Weiß, in der Classic-Ausführung oder in seewasserbeständigem Edelstahl, und er wird an der Wand, an einer Deckenstange oder mit einem von zwei Einbausätzen bündig eingelassen montiert.[^s1] Jede Installation braucht zusätzlich ein Affinity-Steuergerät oder einen manuellen Wandschalter, die separat erhältlich sind.[^s2]
+Platinum Smart-Heat Electric ist ein flacher, geschlossener Strahlungsheizer, der Ihren Entwürfen eine feine, gezielte Wärme gibt, in drei Leistungen: 2300 W für ca. 6 m², 3400 W für ca. 10 m² und 4500 W für ca. 13 m².[^s2] Es gibt ihn in Schwarz oder Weiß, in der Classic-Ausführung oder in seewasserbeständigem Edelstahl, und er wird an der Wand, an einer Deckenstange oder mit einem von zwei Einbausätzen bündig eingelassen montiert.[^s1] Jede Installation wird mit einem Affinity-Steuergerät oder einem manuellen Wandschalter kombiniert, die separat erhältlich sind.[^s2]
 
-![Platinum Electric Heizstrahler, bündig in eine holzverkleidete Decke eingelassen](img:w-bromic-shoot-may-11-2023-54)
+![Platinum Electric Heizstrahler, bündig in eine holzverkleidete Decke eingelassen, fast unsichtbar, bis er leuchtet](img:w-bromic-shoot-may-11-2023-54)
 
-## Welche Leistung braucht welche Fläche?
+## Die richtige Leistung für jeden Bereich
 
-Wählen Sie nach der Fläche, die warm werden soll, und prüfen Sie dann den Stromkreis. Die Werte unten stammen aus der aktuellen Datentabelle auf bromic.com; die Stromaufnahme ist für das deutsche Netz mit 230 V neu berechnet (A = W ÷ 230).[^s2] [[VERIFY: Werte von bromic.com übernommen; mit dem Datenblatt 2026 abgleichen — Produktteam]]
+Wählen Sie nach der Fläche, die Sie warm halten möchten, und prüfen Sie dann den Stromkreis. Die Werte unten stammen aus der aktuellen Datentabelle auf bromic.com; die Stromaufnahme ist für das deutsche Netz mit 230 V neu berechnet (A = W ÷ 230).[^s2] [[VERIFY: Werte von bromic.com übernommen; mit dem Datenblatt 2026 abgleichen — Produktteam]]
 
 | Modell | Heizfläche (ca.) | Stromaufnahme bei 230 V | Gewicht |
 |---|---|---|---|
@@ -93,43 +93,43 @@ Wählen Sie nach der Fläche, die warm werden soll, und prüfen Sie dann den Str
 
 Absicherung und Leitungsquerschnitt legt der Elektrofachbetrieb nach DIN VDE 0100 fest.
 
-Das Modell mit 4500 W kam 2023 hinzu und vervollständigte die Baureihe.[^s6] Es ist das längste der drei; prüfen Sie daher die Länge von Untersicht oder Balken, bevor Sie sich festlegen. Für eine ganze Fläche plant der kostenlose Planungsservice die Heizstrahler anhand Ihrer Zeichnungen: [Design Your Space](https://www.bromic.de/).
+Das Modell mit 4500 W kam 2023 hinzu und vervollständigte die Familie.[^s6] Es ist das längste der drei; prüfen Sie daher die Länge von Untersicht oder Balken, bevor Sie sich festlegen. Für einen ganzen Bereich plant unser kostenloser Planungsservice die Heizstrahler anhand Ihrer Zeichnungen: [Design Your Space](https://www.bromic.de/).
 
-## Wie lässt sich Platinum montieren?
+## Platinum passend zur Architektur montieren
 
-Auf drei Arten, immer mit dem Gehäuse aus Edelstahl 304 und einer Front aus Glaskeramik.[^s2]
+Platinum lässt sich auf drei Arten montieren, immer mit dem Gehäuse aus Edelstahl 304 und einer Front aus Glaskeramik.[^s2]
 
 - **Wand.** Mindestens ca. 1,83 m über dem Boden, an der Wandhalterung.[^s2]
 - **Decke.** Mindestens ca. 2,44 m über dem Boden, an der mitgelieferten Edelstahlstange von ca. 200 mm oder an einer längeren, separat erhältlichen [Montagestange](https://www.bromic.de/).[^s2]
-- **Eingelassen.** Bündig mit der Decke, mit dem Standard-[Einbausatz](https://www.bromic.de/)[^s4] oder, bei geringer Hohlraumtiefe, mit dem [Einbausatz für geringe Einbautiefe (Low-Clearance Recess Kit)](https://www.bromic.de/)[^s3].
+- **Eingelassen.** Bündig mit der Decke, mit dem Standard-[Einbausatz](https://www.bromic.de/)[^s4] oder, bei geringer Hohlraumtiefe, mit dem [Einbausatz für geringe Einbautiefe (Low-Clearance Recess Kit)](https://www.bromic.de/).[^s3]
 
 <div class="diagram">Diagramm: die drei Montagearten im Schnitt – Wandhalterung mit mindestens ca. 1,83 m, Deckenstange mit mindestens ca. 2,44 m und bündiger Einbau in eine Untersicht, mit der Hohlraumtiefe von ca. 180 mm des Low-Clearance-Einbausatzes.</div>
 
-## Passt der Low-Clearance-Einbausatz zum 4500-W-Modell?
+## Der Low-Clearance-Einbausatz und das 4500-W-Modell
 
-Laut aktueller Produktseite ja: Sie nennt alle drei Leistungen, für Platinum und Platinum Marine, in Schwarz oder Weiß.[^s3] Die Fassung dieses Beitrags von 2023 nannte nur 2300 und 3400 W.[^s6] [[VERIFY: Kompatibilität des Low-Clearance-Einbausatzes mit 4500 W (Produktseite sagt ja, Beitrag von 2023 sagte nein) — Produktteam]]
+Laut aktueller Produktseite passt der Einbausatz zu allen drei Leistungen, für Platinum und Platinum Marine, in Schwarz oder Weiß.[^s3] Die Fassung dieses Beitrags von 2023 nannte nur 2300 und 3400 W.[^s6] [[VERIFY: Kompatibilität des Low-Clearance-Einbausatzes mit 4500 W (Produktseite sagt ja, Beitrag von 2023 sagte nein) — Produktteam]]
 
-Was der Einbausatz ändert:
+Der Einbausatz erschließt Bereiche, die ein tieferer Kasten nicht erreicht:
 
 - Hohlraumtiefe ab ca. 180 mm, für Pergolen, Verandadecken und Untersichten, die keinen tieferen Kasten aufnehmen.[^s3]
 - Ein integrierter Lüfter, der eine eigene Stromversorgung braucht, getrennt von der Zuleitung des Heizstrahlers. Zeigen Sie beide in den Elektroplänen.[^s3]
 
-Details zum Einbau in eine Untersicht finden Sie unter [Heizstrahler in eine Untersicht einlassen](item:ARC-IN-KB1).
+Mehr Details finden Sie unter [Heizstrahler in eine Untersicht einlassen](item:ARC-IN-KB1).
 
-![Platinum Electric Heizstrahler, eingelassen in eine weiße Decke über einem langen Esstisch](img:w-australia-sydney-greenwich-residence-2)
+![Platinum Electric Heizstrahler, eingelassen in eine weiße Decke über einem langen, für Gäste gedeckten Esstisch](img:w-australia-sydney-greenwich-residence-2)
 
-## Welche Steuerung braucht Platinum?
+## Die Steuerung, die jeder Platinum braucht
 
-Die Steuerung ist nicht im Lieferumfang und nie ein Extra: Ein Heizstrahler ohne Steuerung lässt sich nicht schalten. Sehen Sie bei jeder Installation von Platinum Electric eine der folgenden vor:[^s2][^s5]
+Die Steuerung ist nicht im Lieferumfang des Heizstrahlers, und jede Installation braucht eine, denn ein Heizstrahler ohne Steuerung lässt sich nicht schalten. Sehen Sie bei jeder Installation von Platinum Electric eine der folgenden vor:[^s2][^s5]
 
 | Steuerung | Was sie leistet | Hinweis |
 |---|---|---|
 | Affinity Smart-Heat On/Off | Schaltet Heizstrahler zonenweise ein und aus | App, Zeitpläne und Timer über die Bromic Smart-Heat App |
-| Affinity Smart-Heat Dimmer | Stellt die Leistung zonenweise in Stufen ein | Die übliche Wahl, wo die Fläche an milden Abenden sanftere Wärme braucht |
+| Affinity Smart-Heat Dimmer | Stellt die Leistung zonenweise in Stufen ein | Die übliche Wahl, wo der Bereich an milden Abenden sanftere Wärme braucht |
 | Manueller Wandschalter | Einfaches Ein und Aus an der Wand | Keine App, keine Zeitpläne |
 | Affinity-Erweiterungsplatine | Anbindung an Gebäudeleittechnik oder Hausautomation | Zusammen mit einem Affinity-Steuergerät |
 
-WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Steuerungen voraus, die separat erhältlich sind.[^s5] Der ursprüngliche Beitrag nannte ältere Steuergeräte (einen Funk-Dimmer, eine Master-Fernbedienung und ein Hausautomations-Modul); die Affinity-Reihe ersetzt sie. Unsere [Anleitung zur Einrichtung der Steuerung](item:RES-BY-01) behandelt Zonen und Zeitpläne, und die [Übersicht zur Steuerung](https://www.bromic.de/) enthält die Kompatibilitätstabelle.
+WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Steuerungen voraus, die separat erhältlich sind.[^s5] Der ursprüngliche Beitrag nannte ältere Steuergeräte (einen Funk-Dimmer, eine Master-Fernbedienung und ein Hausautomations-Modul), die heute durch die Affinity-Reihe ersetzt sind. Unsere [Anleitung zur Einrichtung der Steuerung](item:RES-BY-01) behandelt Zonen und Zeitpläne, und die [Übersicht zur Steuerung](https://www.bromic.de/) enthält die Kompatibilitätstabelle.
 
 ## Was in die Pläne gehört
 
@@ -148,7 +148,7 @@ Ca. 13 m². Das Modell mit 3400 W beheizt ca. 10 m², das mit 2300 W ca. 6 m².[
 
 ### Lässt sich Platinum Electric in Küstennähe einsetzen?
 
-Ja, in der Marine-Ausführung aus Edelstahl AISI 316. Siehe die Seite zu [Platinum Electric Marine](https://www.bromic.de/).
+Ja, in der Marine-Ausführung, gefertigt aus Edelstahl AISI 316. Mehr dazu auf der Seite zu [Platinum Electric Marine](https://www.bromic.de/).
 
 ### Ist die Steuerung im Lieferumfang des Heizstrahlers enthalten?
 
@@ -158,4 +158,4 @@ Nein. Affinity-Steuergeräte und der manuelle Wandschalter sind separat erhältl
 
 Mit 220–240 V oder 208 V.[^s2] In Deutschland ist das Netz 230 V, 50 Hz; 208 V ist eine nordamerikanische Netzspannung.
 
-Die vollständige Spezifikation, die Tabellen zur Heizfläche und die Details stehen im Spezifikationspaket für Planer.
+Die vollständige Spezifikation, die Tabellen zur Heizfläche und alle Details finden Sie im Spezifikationspaket für Planer.
