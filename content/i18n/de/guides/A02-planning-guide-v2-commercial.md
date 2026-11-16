@@ -1,16 +1,16 @@
 ---
 id: A02-commercial
 type: gated-guide
-title: "Der Planungsleitfaden für Heizung im Außenbereich: Ausgabe für Betreiber"
+title: "Der Planungsleitfaden für die Außenheizung in Gastronomie und Hotellerie: Kosten der Terrassenheizung, Platz für Platz"
 audience: [COM]
 stage: [CO, IN]
 cell: COM-CO
 asset: A02
-summary: "Für Betreiber von Restaurants, Hotels und Veranstaltungsorten: die Umsatzrechnung, dann neun kurze Schritte, von der Einordnung der Terrasse über die Wahl der Energie nach Fünf-Jahres-Kosten und die Steuerung in Zonen je Kanal bis zu Brandschutz und Einführung an mehreren Standorten."
+summary: "Für Restaurants, Hotels und Veranstaltungsorte, die ihre Gäste länger im Jahr draußen bewirten möchten: was ein beheizter Platz wert ist, dann neun Schritte durch Energiekosten über fünf Jahre, Steuerung in Zonen, Brandschutz und Einführung an mehreren Standorten."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Ist Flüssiggas oder Strom für Restaurant-Terrassenheizstrahler günstiger?"
-meta_description: "Leitfaden für Betreiber zur Terrassenheizung: Umsatzrechnung, Energiekosten über fünf Jahre mit Formel, Steuerung je Kanal, Hinweise zum Brandschutz und Einführung an mehreren Standorten."
+meta_description: "Kosten der Terrassenheizung in der Gastronomie, sorgfältig geplant: Wert eines beheizten Platzes, Energiekosten über fünf Jahre, Zonen, Brandschutz, Einführung."
 cta: {label: "Ihre Wirtschaftlichkeitsbewertung anfordern", asset: A21}
 hero: l-013-104
 images: [l-005-024, l-013-111, l-013-107, l-019-164, p-003-006]
@@ -18,7 +18,7 @@ owner_review: Produktteam + 454 Creative
 status: draft
 gated: true
 related: [COM-CO-01, COM-IN-01, ARC-CO-01]
-updated: 2026-10-29
+updated: 2026-11-16
 version: "2.0 Entwurf, Revision 2 (ersetzt Planning Guide US v1.2, 10/2021)"
 sources:
   - id: s1
@@ -223,23 +223,23 @@ native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 # Der Planungsleitfaden für Heizung im Außenbereich
 
-*Ausgabe für Betreiber, für Restaurants, Hotels, Bars und Veranstaltungsorte. Extend the Moment.*
+*Ausgabe für Betreiber, für Restaurants, Hotels, Bars und Veranstaltungsorte. Extend The Moment.*
 
-Zu US-Durchschnittspreisen 2026 ist Erdgas je beheiztem Quadratmeter die günstigste Energie und Flüssiggas die teuerste, Strom liegt dazwischen. In einem US-Beispiel mit 30 Plätzen und ca. 56 m² kostet Flüssiggas über fünf Jahre mehr als doppelt so viel wie Strom, noch vor dem Flaschenhandling, weil ein freistehender Heizstrahler nicht mehr als 4 Plätze versorgt; Strom kostet etwa das Dreifache von Erdgas. Mit Ihren eigenen Preisen kann das Verhältnis anders ausfallen; Formel und Rechenbeispiel stehen in Schritt 3. Der Kaufpreis ist die kleinste Zahl in der Entscheidung; Energie, Handling, Steuerung und Brandschutz entscheiden.
+Eine warme Terrasse hält Gäste für einen weiteren Gang am Tisch und füllt Plätze an Abenden, die sonst leer blieben. Wie Sie sie beheizen, ist eine langfristige Entscheidung, und zu US-Durchschnittspreisen 2026 ist Erdgas je beheiztem Quadratmeter die günstigste Energie und Flüssiggas die teuerste, mit Strom dazwischen. In einem US-Beispiel mit 30 Plätzen und ca. 56 m² kostet Flüssiggas über fünf Jahre mehr als doppelt so viel wie Strom, noch vor dem Flaschenhandling, weil ein freistehender Heizstrahler nicht mehr als 4 Plätze versorgt, während Strom etwa das Dreifache von Erdgas kostet. Mit Ihren eigenen Preisen kann das Verhältnis anders ausfallen; Schritt 3 führt durch die Formel und das Rechenbeispiel. Der Kaufpreis erweist sich als die kleinste Zahl in der Entscheidung, und Energie, Handling, Steuerung und Brandschutz wiegen weit schwerer.
 
-Außengastronomie ist Standard: In einer Umfrage der National Restaurant Association (USA) von 2020 boten 74 % der Betreiber mit Tischbedienung sie an, und 49 % verlängerten die Saison im Freien, unter anderem mit Zelten oder Terrassenheizstrahlern[^s1].
+Essen im Freien gehört heute zu dem, was Gäste erwarten. In einer Umfrage der National Restaurant Association (USA) von 2020 boten 74 % der Betreiber mit Tischbedienung Außenplätze an, und 49 % verlängerten die Saison im Freien, unter anderem mit Zelten oder Terrassenheizstrahlern[^s1].
 
 ![Loggia eines Resorts mit Eclipse Pendelleuchten in der Abenddämmerung](img:l-013-104)
 
-## Zuerst: Was ist ein beheizter Platz wert?
+## Was ein beheizter Platz für Ihren Betrieb wert ist
 
 **Zusätzlicher Umsatz = beheizte Plätze × Belegungen je Abend × durchschnittlicher Bon × zusätzliche Öffnungsabende im Jahr × Auslastung**
 
 **Amortisation (Monate) = gesamte Installationskosten ÷ (zusätzlicher Deckungsbeitrag pro Jahr ÷ 12)**
 
-Rechnen Sie die Amortisation mit dem Deckungsbeitrag, nicht mit dem Umsatz. Zählen Sie nur Abende, an denen die Terrasse ohne Wärme nicht verkaufen würde. Belegungen und Bon kommen aus Ihrem Kassensystem, zusätzliche Abende aus den wetterbedingten Schließungen des Vorjahres. [[VERIFY: Vergleichsspannen für Belegungen, Bon und Saisonverlängerung je Klima — Vertrieb Gastronomie]] Der [Wirtschaftlichkeitsrechner](asset:A21) rechnet es für Ihren Standort.
+Rechnen Sie die Amortisation mit dem Deckungsbeitrag statt mit dem Umsatz, und zählen Sie nur die Abende, an denen die Terrasse ohne Wärme leer bliebe. Ihr Kassensystem liefert Belegungen und durchschnittlichen Bon, und die wetterbedingten Schließungen des Vorjahres liefern die zusätzlichen Abende. [[VERIFY: Vergleichsspannen für Belegungen, Bon und Saisonverlängerung je Klima — Vertrieb Gastronomie]] Der [Wirtschaftlichkeitsrechner](asset:A21) rechnet die Zahlen für Ihren Standort durch.
 
-## Die neun Schritte
+## Neun Schritte zu einer Terrasse, auf der Gäste bleiben
 
 | Schritt | Entscheidung | Werkzeug |
 |---|---|---|
@@ -253,20 +253,24 @@ Rechnen Sie die Amortisation mit dem Deckungsbeitrag, nicht mit dem Umsatz. Zäh
 | 8 | Abstände, Brandschutz und Genehmigungen | Örtliches Bauamt und Brandschutzbehörde |
 | 9 | Planungsservice und Einführung | Planungsservice von Bromic ([A07](asset:A07)) |
 
-## Schritt 1. Ist es ein Außenbereich?
+## Schritt 1. Bestätigen, dass der Bereich als Außenbereich gilt
 
-Außenbereich heißt: mindestens 30 % des Umfangs dauerhaft offen; ein Teildach oder eine Markise hält eine Wärmewolke, die zur Strahlungswärme hinzukommt[^s3]. Wände, Verglasung oder Seitenwände aus Kunststoff können sowohl die Heizungsplanung als auch das ändern, was der Brandschutz erlaubt (Schritt 8). Strahlungswärme wärmt Gäste und Oberflächen, nicht Luft, und funktioniert daher bei leichtem Wind; Warmluft funktioniert im Freien nicht[^s3].
+Ein Bereich gilt als Außenbereich, wenn mindestens 30 % seines Umfangs dauerhaft offen sind, und ein Teildach oder eine Markise hält eine Wärmewolke, die zur Strahlungswärme hinzukommt[^s3]. Wände, Verglasung oder Seitenwände aus Kunststoff können sowohl die Heizungsplanung als auch das ändern, was der Brandschutz erlaubt (Schritt 8). Strahlungswärme wärmt Gäste und Oberflächen direkt statt der umgebenden Luft und wirkt daher auch bei leichtem Wind, wo Warmluft versagt[^s3].
 
 - [ ] Offener Umfang 30 % oder mehr[^s3]; Pläne für eine Einhausung vermerkt
 - [ ] Überdacht, teilweise überdacht oder offen
 
-## Schritt 2. Plätze und Zonen aufmessen
+## Schritt 2. Plätze und Zonen erfassen
+
+Zeichnen Sie die Fläche so, wie Ihr Team den Service führt, damit jeder Bereich beheizt wird, wenn er öffnet, und ruht, wenn er schließt.
 
 - [ ] Beheizte Plätze, Tische und Bartresen eingezeichnet; Servicegänge ausgenommen
 - [ ] Eine Zone je Bereich, der eigenständig öffnet und schließt; m² je Zone
 - [ ] Höhen von Decke, Überdachung oder Wand; Versorgungsspannung (in Deutschland 230 V; die US-Angaben nennen 208, 240 oder 277 V)[^s3]; Gas vor Ort
 
 ## Schritt 3. Energie nach Fünf-Jahres-Kosten wählen
+
+Ein fairer Vergleich betrachtet alles, was die Heizstrahler über fünf Jahre Betrieb kosten, vom Tag der Installation an.
 
 **Gesamtkosten über 5 Jahre = Geräte + Steuerung + Installation + Genehmigungen + 5 × (Energie + Handling + Wartung)**
 
@@ -282,7 +286,7 @@ Im US-Beispiel verwendete Preise, dieselben wie im [Gesamtkostenmodell A20](asse
 | Platinum Gas ca. 11,7 kW, Erdgas / Flüssiggas | ca. 20 m² | ca. 11,7 kWh / ca. 1,65 L | 0,35 / 1,16 US-$ |
 | Tungsten Freestanding Gas ca. 11,1 kW, Erdgas / Flüssiggas | ca. 20 m² | ca. 11,1 kWh / ca. 1,57 L | 0,33 / 1,11 US-$ |
 
-### Rechenbeispiel: 30 Plätze, ca. 56 m², 900 Heizstunden im Jahr
+### Ein Rechenbeispiel: 30 Plätze, ca. 56 m², 900 Heizstunden im Jahr
 
 30 Plätze × ca. 1,9 m² = ca. 56 m²[^s28], teilweise überdacht, kühl (Faktor 0,85; Schritt 5). 900 Stunden (6 Stunden × 150 Abende) sind der Platzhalter des Modells A20, kein Vergleichswert.
 
@@ -292,7 +296,7 @@ Im US-Beispiel verwendete Preise, dieselben wie im [Gesamtkostenmodell A20](asse
 | Platinum Gas ca. 11,7 kW, Erdgas | 56 ÷ (20,0 × 0,85 = 17,0) = 3,3 → 4 | 4 × ca. 11,7 kW × 900 h = ca. 42.000 kWh Erdgas; im US-Beispiel 4 × 0,398 Therm × 900 h × 0,87 US-$ = 1.247 US-$ | 6.233 US-$ | Ein Affinity On/Off-Kanal (bis zu 10 Gasheizstrahler); Wandschalter; App |
 | Tungsten Freestanding Gas, Flüssiggas | das Größere aus 3,3 → 4 nach Fläche und 30 Plätze ÷ 4 = 7,5 → 8 | 8 × ca. 1,57 L × 900 h = ca. 11.300 L; im US-Beispiel 8 × 0,4153 Gallonen × 900 h × 2,674 US-$ = 7.996 US-$ | 39.979 US-$, plus Handling | [[VERIFY: Steuerung für Tungsten Freestanding Gas — Produktteam]] |
 
-Nur Energie, bei voller Leistung; Ihre tatsächliche Rechnung, Zeitpläne und Dimmung senken sie. Für Ihren Betrieb: Verbrauch × Ihr Preis je kWh oder Liter. Flüssiggas bedeutet ca. 11.300 Liter im Jahr, im US-Beispiel ca. 636 Wechsel einer Flasche mit ca. 17,8 L, die gekauft, getauscht und gelagert werden müssen. Rechnen Sie Geräte, Installation und Handling im [Gesamtkostenmodell](asset:A20). Die Stundenwerte des Leitfadens von 2021 beruhten auf Preisen von 2021 und gelten nicht mehr.
+Diese Werte umfassen nur die Energie bei voller Leistung, und Ihr eigener Tarif, Zeitpläne und Dimmung senken sie. Für Ihren Betrieb: Verbrauch × Ihr Preis je kWh oder Liter. Flüssiggas bedeutet außerdem ca. 11.300 Liter im Jahr, im US-Beispiel ca. 636 Wechsel einer Flasche mit ca. 17,8 L, die gekauft, getauscht und gelagert werden müssen. Ergänzen Sie Geräte, Installation und Handling im [Gesamtkostenmodell](asset:A20). Die Stundenwerte des Leitfadens von 2021 beruhten auf Preisen von 2021 und wurden zurückgezogen.
 
 | | Strom | Erdgas | Flüssiggas |
 |---|---|---|---|
@@ -308,7 +312,7 @@ Nur Energie, bei voller Leistung; Ihre tatsächliche Rechnung, Zeitpläne und Di
 
 ![Bar am Jachthafen mit Heizstrahlern unter einem Vordach](img:l-005-024)
 
-## Schritt 4. Bauform und Montage wählen
+## Schritt 4. Eine Bauform wählen, die zu Ihrem Haus passt
 
 | Familie | Bester gewerblicher Einsatz | Garantie |
 |---|---|---|
@@ -331,9 +335,9 @@ Nur Energie, bei voller Leistung; Ihre tatsächliche Rechnung, Zeitpläne und Di
 
 ![Eclipse Heizstrahler an Wandauslegern über einer Restaurantterrasse](img:l-013-111)
 
-## Schritt 5. Dimensionieren
+## Schritt 5. Die Wärme auf jede Zone abstimmen
 
-Heizstrahler je Zone = m² der Zone ÷ (Heizfläche × Faktor Überdachung × Faktor Klima), aufgerundet. Überdachung: offen 0,85, teilweise überdacht 1,0, überdacht 1,1. Klima: mild (über ca. 10 °C) 1,0, kühl (ca. 4–10 °C) 0,85, kalt (oft unter ca. 4 °C) 0,7. Freistehende Heizstrahler versorgen außerdem jeweils nicht mehr als 4 Plätze, weil Gäste ihre Strahlungswärme abschirmen: Nehmen Sie die größere der beiden Zahlen. Ohne Platzzahl gilt: Plätze = m² ÷ 1,9[^s28]. [[VERIFY: Faktoren für Überdachung und Klima — Produktteam]]
+Heizstrahler je Zone = m² der Zone ÷ (Heizfläche × Faktor Überdachung × Faktor Klima), aufgerundet. Der Faktor Überdachung beträgt 0,85 für offen, 1,0 für teilweise überdacht und 1,1 für überdacht, der Faktor Klima 1,0 für mild (über ca. 10 °C), 0,85 für kühl (ca. 4–10 °C) und 0,7 für kalt (oft unter ca. 4 °C). Freistehende Heizstrahler versorgen außerdem jeweils nicht mehr als 4 Plätze, weil Gäste einen Teil ihrer Strahlungswärme abschirmen; nehmen Sie daher die größere der beiden Zahlen. Ohne Platzzahl gilt: Plätze = m² ÷ 1,9[^s28]. [[VERIFY: Faktoren für Überdachung und Klima — Produktteam]]
 
 | Heizstrahler | Heizfläche je Heizstrahler |
 |---|---|
@@ -364,9 +368,9 @@ Die Produktseiten veröffentlichen Stromwerte nur für die US-Spannungen 208 und
 - [ ] Kapazität des Verteilers und Stromkreise je Zone
 - [ ] Gaslast und Absperrungen; Hilfsenergie an jedem Einbau-Gasheizstrahler
 
-## Schritt 7. Steuerung: Zonen und Zeitpläne (Pflicht)
+## Schritt 7. Zonen und Zeitpläne mit Affinity Steuerung (Pflicht)
 
-Die Steuerung macht die Zahlen aus Schritt 3 erst real. Ohne sie läuft die Wärme mit voller Leistung, bis jemand sie abschaltet.
+Jeder Bromic Heizstrahler wird mit Affinity Smart-Heat® Controls kombiniert, die die Zahlen aus Schritt 3 Wirklichkeit werden lassen: Jeder Bereich wird nur beheizt, wenn er geöffnet ist, und nur so stark, wie der Abend es verlangt. Ohne sie läuft die Wärme mit voller Leistung, bis jemand daran denkt, sie abzuschalten.
 
 | Bedarf | Steuerung | Kapazität |
 |---|---|---|
@@ -388,7 +392,7 @@ WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, 
 
 ## Schritt 8. Abstände, Brandschutz und Genehmigungen
 
-Beginnen Sie mit der Brandschutzbehörde und dem Bauamt. Die Regeln werden örtlich festgelegt und ergänzt. Die folgende Tabelle zeigt die US-Quellen, auf denen die Originalausgabe beruht; für Deutschland gelten DIN VDE 0100, DVGW-TRGI (Erdgas) und TRF (Flüssiggas) sowie die örtlichen Brandschutz- und Gaststättenvorgaben. [[VERIFY: deutsche Vorgaben für mobile Gasheizstrahler in der Gastronomie, Abstände zu Gebäuden und Ausgängen sowie Lagerung von Flüssiggasflaschen — Partner Deutschland]]
+Beginnen Sie an jedem Standort mit einem Gespräch mit der Brandschutzbehörde und dem Bauamt, denn die Regeln werden örtlich festgelegt und ergänzt. Die folgende Tabelle zeigt die US-Quellen, auf denen die Originalausgabe beruht; für Deutschland gelten DIN VDE 0100, DVGW-TRGI (Erdgas) und TRF (Flüssiggas) sowie die örtlichen Brandschutz- und Gaststättenvorgaben. [[VERIFY: deutsche Vorgaben für mobile Gasheizstrahler in der Gastronomie, Abstände zu Gebäuden und Ausgängen sowie Lagerung von Flüssiggasflaschen — Partner Deutschland]]
 
 | Thema | Primärquelle (USA) | Hinweis |
 |---|---|---|
@@ -408,9 +412,9 @@ Beginnen Sie mit der Brandschutzbehörde und dem Bauamt. Die Regeln werden örtl
 - [ ] Weg über Brandschutzbehörde und Baugenehmigung je Standort geklärt
 - [ ] Abstände laut Installationsanleitung
 
-## Schritt 9. Planungsservice und Einführung
+## Schritt 9. Mit uns planen und ausrollen
 
-Der Planungsservice von Bromic macht aus Fotos, Grundrissen oder Zeichnungen kostenlos eine Auswahl, Platzierung und Pläne der Heizflächen[^s2].
+Senden Sie uns Ihre Fotos, Grundrisse oder Zeichnungen, und der Planungsservice von Bromic liefert für jeden Standort kostenlos die Auswahl der Heizstrahler, ihre Platzierung und Pläne der Heizflächen[^s2].
 
 1. **Das Paket standardisieren:** eine Heizstrahlerfamilie, eine Konfiguration der Steuerung, ein Montagedetail je Standorttyp.
 2. **Jeden Standort gleich aufnehmen:** Checklisten der Schritte 1–8.
@@ -425,4 +429,4 @@ Der Planungsservice von Bromic macht aus Fotos, Grundrissen oder Zeichnungen kos
 
 ![Gäste beim Essen auf einer beheizten Restaurantterrasse](img:p-003-006)
 
-Fordern Sie Ihre Wirtschaftlichkeitsbewertung an und sehen Sie, was beheizte Plätze an Ihrem Standort wert sind.
+Fordern Sie Ihre Wirtschaftlichkeitsbewertung an und sehen Sie, was eine warme, volle Terrasse für Ihren Betrieb wert sein kann.

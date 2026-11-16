@@ -1,16 +1,16 @@
 ---
 id: A02-homeowner
 type: gated-guide
-title: "Der Planungsleitfaden für die Außenheizung: Ausgabe für Hausbesitzer"
+title: "Der Planungsleitfaden für die Außenheizung an Ihrem Zuhause: Wärme, eingeplant ab der ersten Zeichnung"
 audience: [RES]
 stage: [CO, IN]
 cell: RES-IN
 asset: A02
-summary: "Neun kurze Schritte von der leeren zur beheizten Terrasse: prüfen, ob es ein Außenbereich ist, messen, Energieart, Stil und Größe wählen, Strom, Steuerung und Vorschriften planen und dann ein kostenloses Planungsgespräch buchen."
+summary: "Neun ruhige Schritte, die Ihre Terrasse vom Sommerplatz zum ganzjährigen Wohnraum im Freien machen, mit Energieart, Stil, Größe, Strom, Steuerung und Vorschriften, eingeplant, bevor die Decke geschlossen wird."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie plane ich die Außenheizung für meine Terrasse?"
-meta_description: "Die Terrassenheizung in neun Schritten planen: messen, Energieart und Stil wählen, bemessen, Strom, Steuerung und Vorschriften planen, mit Betriebskostenrechnung und Checklisten."
+meta_description: "Ihr Planungsleitfaden für die Außenheizung: neun Schritte zur Terrasse, die Sie das ganze Jahr genießen, mit Bemessung, Betriebskosten, Steuerung und Checklisten."
 cta: {label: "Planungsgespräch vereinbaren", asset: A07}
 hero: l-010-071
 images: [l-007-035, l-019-163, l-013-102, t-009-025, l-010-067]
@@ -18,7 +18,7 @@ owner_review: Produktteam + 454 Creative
 status: draft
 gated: true
 related: [RES-IN-01, RES-CO-01, BLD-IN-01]
-updated: 2026-10-30
+updated: 2026-11-16
 version: "2.0 draft, revision 2 (replaces Planning Guide US v1.2, 10/2021)"
 lang: de
 translation_of: A02-homeowner
@@ -190,15 +190,15 @@ sources:
 
 # Der Planungsleitfaden für die Außenheizung
 
-*Ausgabe für Hausbesitzer. Von Anfang an geplant, nicht später nachgerüstet.*
+*Ausgabe für Hausbesitzer. Wärme, eingeplant ab der ersten Zeichnung.*
 
-Planen Sie die Wärme in derselben Reihenfolge wie die Terrasse: Bestätigen Sie, dass der Bereich als Außenbereich gilt, messen Sie ihn, wählen Sie Elektro oder Gas, wählen Sie einen Stil, bemessen Sie die Heizung und planen Sie dann Strom, Steuerung und Vorschriften, bevor die Decke geschlossen wird. Wer früh entscheidet, verlegt Leitung oder Gasanschluss nur einmal – genau dort, wo er gebraucht wird.
+Die schönsten Abende im Freien sind die, die länger dauern: Aus dem Abendessen wird das Dessert, das Gespräch geht weiter, und niemand greift nach einer Jacke. Planen Sie die Wärme in derselben Reihenfolge wie die Terrasse – von der Prüfung, ob der Bereich als Außenbereich gilt, bis zur Bemessung der Heizstrahler und der Klärung von Strom, Steuerung und Vorschriften, bevor die Decke geschlossen wird. Wer früh entscheidet, verlegt Leitung oder Gasanschluss nur einmal, genau dort, wo Sie sie haben möchten.
 
-In einer US-Umfrage gaben nur 23 % der Hausbesitzer der Außenheizung in der Planungsphase Priorität[^s1]. Die anderen rüsten später nach – mit geöffneten Decken, Aufputz-Installationsrohren und Heizstrahlern dort, wo die Leitung zufällig lag.
+In einer US-Umfrage gaben nur 23 % der Hausbesitzer der Außenheizung in der Planungsphase Priorität[^s1]. Viele der übrigen kommen später darauf zurück, und dann kann das geöffnete Decken bedeuten, Aufputz-Installationsrohre und Heizstrahler dort, wo die Leitung zufällig verlief.
 
 ![Wohnraum im Freien mit Meerblick und eingelassenen Heizstrahlern](img:l-010-071)
 
-## Die neun Schritte
+## Neun Schritte zu einem wärmeren Wohnraum im Freien
 
 | Schritt | Entscheidung | Was Sie brauchen |
 |---|---|---|
@@ -212,13 +212,13 @@ In einer US-Umfrage gaben nur 23 % der Hausbesitzer der Außenheizung in der Pla
 | 8 | Abstände und Vorschriften | Ihr örtliches Bauamt |
 | 9 | Planungsgespräch vereinbaren | Fotos oder Pläne |
 
-Jeder Schritt endet mit seiner Checkliste. Zusammen ergeben sie die Aufgabenstellung für Ihren Planer.
+Jeder Schritt schließt mit einer kurzen Checkliste, und zusammen ergeben sie die Aufgabenstellung, die Sie Ihrem Planer übergeben.
 
-## Schritt 1. Ist es ein Außenbereich?
+## Schritt 1. Prüfen Sie, ob Ihr Bereich als Außenbereich gilt
 
-Ein Bereich gilt als Außenbereich, wenn mindestens 30 % seines Umfangs dauerhaft offen sind[^s3]. Die meisten Terrassen, Veranden, Pergolen, Loggien und überdachten Terrassen erfüllen das. Wird der Bereich mit Glas oder Screens weiter geschlossen, ändert sich die Planung: Sprechen Sie zuerst mit einem Planer.
+Ein Bereich gilt als Außenbereich, wenn mindestens 30 % seines Umfangs dauerhaft offen sind[^s3], und die meisten Terrassen, Veranden, Pergolen, Loggien und überdachten Terrassen erfüllen das. Wenn Sie überlegen, den Bereich mit Glas oder Screens weiter zu schließen, sprechen Sie zuerst mit einem Planer, denn das verändert die Planung.
 
-Ein Dach hilft. Warme Luft, die unter einer Überdachung gehalten wird, bildet eine „Wärmewolke“, die die Strahlungswärme sanft verstärkt[^s3].
+Ein Dach arbeitet für Sie. Warme Luft sammelt sich unter einer Überdachung und bildet eine „Wärmewolke“, die die Strahlungswärme sanft verstärkt[^s3].
 
 [[DIAGRAM: Grundriss- und Schnittskizzen geeigneter Bereiche: offener Innenhof mit einer Öffnung auf Bodenniveau; überdachter Bereich mit zwei offenen Seiten; drei Wände mit 30 % oder mehr offenem Umfang; die Wärmewolke als weich schattierte Zone unter der Überdachung. Regel nach dem Leitfaden von 2021[^s3].]]
 
@@ -226,18 +226,20 @@ Ein Dach hilft. Warme Luft, die unter einer Überdachung gehalten wird, bildet e
 - [ ] Offen, teilweise überdacht oder überdacht: ______
 - [ ] Pläne für Glas, Screens oder Rollos: ______
 
-## Schritt 2. Messen
+## Schritt 2. Messen Sie den Raum, in dem Sie leben
+
+Messen Sie die Fläche, auf der Sie und Ihre Gäste tatsächlich sitzen, und notieren Sie, wie und wann Sie sie gern nutzen.
 
 - [ ] Länge × Breite der Fläche, die warm werden soll = ______ m² (über den Sitzplätzen messen, nicht die ganze Terrasse)
 - [ ] Höhe von Decke oder Balken ______ m; Deckenmaterial ______
 - [ ] Windseite ______; in der Nähe von Wasser? J / N
 - [ ] Monate und Uhrzeiten der Nutzung ______
 
-## Schritt 3. Energieart wählen
+## Schritt 3. Elektro oder Gas wählen
 
-### Warum Strahlungswärme
+### Warum sich Strahlungswärme wie Sonnenschein anfühlt
 
-Im Freien steigt warme Luft auf und weht davon; Warmluftgeräte und Thermostate können eine offene Terrasse deshalb nicht auf einer bestimmten Temperatur halten[^s3]. Strahlungswärme (Infrarot) erwärmt Menschen, Möbel und Böden direkt, wie die Sonne auf der Haut, und wirkt deshalb auch bei leichtem Wind. Wärme, die man spürt, nicht sieht.
+Im Freien steigt warme Luft auf und zieht davon; Warmluftgeräte und Thermostate können eine offene Terrasse deshalb nicht auf einer bestimmten Temperatur halten[^s3]. Strahlungswärme (Infrarot) erwärmt Menschen, Möbel und Böden direkt, ganz wie die Sonne auf der Haut, sodass Sie es auch bei einer leichten Brise behaglich haben. Wärme, die man spürt, nicht sieht.
 
 | Wellenlänge | Strahlungsanteil | Aufheizzeit | Bei Wind |
 |---|---|---|---|
@@ -245,9 +247,9 @@ Im Freien steigt warme Luft auf und weht davon; Warmluftgeräte und Thermostate 
 | Mittelwelle | ca. 60 % | ca. 30 Sekunden | Geringe Empfindlichkeit |
 | Langwelle | ca. 40 % | ca. 5 Minuten | Am stärksten betroffen |
 
-Quelle: Bromic Planungsleitfaden 2021[^s3]. Eine Feuerstelle ist ein Blickfang, kein Heizkonzept.
+Quelle: Bromic Planungsleitfaden 2021[^s3]. Eine Feuerstelle ist ein schöner Blickfang, hält aber allein selten einen ganzen Sitzbereich warm.
 
-### Elektro oder Gas
+### Elektro oder Gas für Ihr Zuhause
 
 | | Elektro | Gas (Erdgas oder Flüssiggas) |
 |---|---|---|
@@ -256,7 +258,9 @@ Quelle: Bromic Planungsleitfaden 2021[^s3]. Eine Feuerstelle ist ein Blickfang, 
 | Steuerung | Ein/aus oder dimmen, Zonen, Zeitpläne, App | Ein/aus, Wandschalter, Zeitpläne |
 | Heizfläche je Heizstrahler | ca. 6–15 m² | ca. 15–20 m² |
 
-### Was der Betrieb kostet
+### Was ein warmer Abend kostet
+
+Die Betriebskosten lassen sich leicht aus der Leistung des Heizstrahlers und Ihrem eigenen Energiepreis berechnen.
 
 - **Elektro:** Kosten pro Stunde = kW × Preis je kWh
 - **Erdgas:** Kosten pro Stunde = Nennwärmebelastung in kW × Preis je kWh Gas
@@ -273,14 +277,14 @@ Setzen Sie Ihre eigenen Preise aus Ihrer Strom- bzw. Gasrechnung ein. Zum Vergle
 | Platinum Gas ca. 6,9 kW, Erdgas / Flüssiggas | ca. 6,9 kWh Gas / ca. 1,0 L | 0,21 / 0,69 US-$ |
 | Tungsten Freestanding Gas ca. 11,1 kW, Erdgas / Flüssiggas | ca. 11,1 kWh Gas / ca. 1,6 L | 0,33 / 1,11 US-$ |
 
-Dimmen oder ein Eclipse auf 33 % oder 66 %[^s7] verbraucht weniger. Diese Werte ersetzen die Zahlen des Leitfadens von 2021, die mit Preisen von 2021 rechneten.
+Dimmen oder ein Eclipse auf 33 % oder 66 %[^s7] verbraucht noch weniger. Diese Werte ersetzen die Zahlen des Leitfadens von 2021, die mit Preisen von 2021 rechneten.
 
 - [ ] Elektro / Erdgas / Flüssiggas: ______
 - [ ] Ihr Preis laut Rechnung: ______ je kWh bzw. Liter
 
 ![Freistehender Tungsten Gasheizstrahler in einem Steinhof in der Abenddämmerung](img:l-019-163)
 
-## Schritt 4. Stil und Montage wählen
+## Schritt 4. Eine Optik wählen, die zu Ihrem Zuhause passt
 
 | Serie | Optik | Montage | Ausführungen |
 |---|---|---|---|
@@ -296,7 +300,7 @@ Dimmen oder ein Eclipse auf 33 % oder 66 %[^s7] verbraucht weniger. Diese Werte 
 | Tungsten Smart-Heat Electric, Kollektion Coastal (demnächst erhältlich) | Seewasserbeständiger Edelstahl 316; Signature-Diamond-Pattern-Gitter | Eingelassen (geringer Abstand), Decke, Wand, Einzelmast | Schwarz oder Weiß[^s2] |
 | Tungsten Smart-Heat Electric, Kollektion Select (demnächst erhältlich) | Erweiterte Blendenoptionen | Eingelassen (geringer Abstand), Decke, Wand, Einzelmast | Schwarz, Weiß oder Graphit[^s2] |
 
-Eine bündige, eingelassene Optik braucht einen Einbaurahmen und muss entschieden werden, bevor die Decke gebaut wird.
+Wenn Ihnen die klare, bündige Optik eines eingelassenen Heizstrahlers gefällt, entscheiden Sie sich dafür, bevor die Decke gebaut wird, denn dafür ist ein Einbaurahmen nötig.
 
 - [ ] Serie und Ausführung: ______
 - [ ] Montage: eingelassen / Decke / Wand / Stange / freistehend
@@ -304,9 +308,9 @@ Eine bündige, eingelassene Optik braucht einen Einbaurahmen und muss entschiede
 
 ![Schwarzer Deckenheizstrahler über einer Lounge im Kerzenlicht](img:l-007-035)
 
-## Schritt 5. Bemessen
+## Schritt 5. Die Wärme auf Ihren Raum abstimmen
 
-Benötigte Heizstrahler = Fläche ÷ (Heizfläche je Heizstrahler × Überdachungsfaktor × Klimafaktor), aufgerundet. Ein kälterer oder offenerer Standort braucht für dieselbe Fläche mehr Wärme[^s3]; die beiden Faktoren bringen das in die Rechnung:
+Benötigte Heizstrahler = Fläche ÷ (Heizfläche je Heizstrahler × Überdachungsfaktor × Klimafaktor), aufgerundet. Ein kälterer oder offenerer Bereich braucht für dieselbe Fläche mehr Wärme[^s3], und die beiden Faktoren bringen das in die Rechnung.
 
 | Überdachung | Faktor | Klima (Abende, an denen Sie heizen) | Faktor |
 |---|---|---|---|
@@ -314,9 +318,9 @@ Benötigte Heizstrahler = Fläche ÷ (Heizfläche je Heizstrahler × Überdachun
 | Teilweise überdacht (Pergola, Schirm, Teildach) | 1,0 | Kühl (ca. 4–10 °C) | 0,85 |
 | Überdacht (festes Dach) | 1,1 | Kalt (oft unter ca. 4 °C) | 0,7 |
 
-[[VERIFY: Überdachungs- und Klimafaktoren — Produktteam]] Unsicher? Nehmen Sie teilweise überdacht und kühl: 1,0 × 0,85 = 0,85. Messen Sie die Sitzplätze, nicht die ganze Terrasse; kennen Sie die Zahl der Plätze statt der Fläche, rechnen Sie mit ca. 1,9 m² je Platz.
+[[VERIFY: Überdachungs- und Klimafaktoren — Produktteam]] Wenn Sie unsicher sind, nehmen Sie teilweise überdacht und kühl, das ergibt 1,0 × 0,85 = 0,85. Messen Sie die Fläche, auf der gesessen wird, statt der ganzen Terrasse, und wenn Sie die Zahl der Plätze statt der Fläche kennen, rechnen Sie mit ca. 1,9 m² je Platz.
 
-**Freistehende Heizstrahler** (Tungsten Freestanding Gas, Eclipse Freestanding) versorgen höchstens vier Plätze je Gerät, weil die Gäste selbst die Strahlungswärme abschirmen. Rechnen Sie auf beide Arten und nehmen Sie den größeren Wert: Fläche ÷ (Heizfläche × Faktoren) oder Plätze ÷ 4.
+**Freistehende Heizstrahler** (Tungsten Freestanding Gas, Eclipse Freestanding) versorgen höchstens vier Plätze je Gerät, weil die Gäste selbst einen Teil der Strahlungswärme abschirmen. Rechnen Sie auf beide Arten und nehmen Sie den größeren Wert aus Fläche ÷ (Heizfläche × Faktoren) und Plätze ÷ 4.
 
 | Heizstrahler | Heizfläche je Heizstrahler (ca.) |
 |---|---|
@@ -331,9 +335,9 @@ Benötigte Heizstrahler = Fläche ÷ (Heizfläche je Heizstrahler × Überdachun
 
 Die Heizfläche ist ein Näherungswert und hängt von Montagehöhe, Wind und Installation ab[^s2]. Werte von den Produktseiten, gelesen am 29. Oktober 2026. [[VERIFY: Heizfläche und Leistung je Modell mit den Datenblättern 2026 abgleichen; Eclipse 2900 W (Spezifikationstabelle) gegenüber 3000 W (FAQ); Tungsten Freestanding Gas ca. 11,1 kW (Lookbook) gegenüber ca. 11,3 kW (Website) — Produktteam]]
 
-Der kostenlose [Rechner „Wie viele Heizstrahler?“](asset:A03) erledigt das für Sie, mit denselben Überdachungs- und Klimafaktoren.
+Der kostenlose [Rechner „Wie viele Heizstrahler?“](asset:A03) übernimmt die Rechnung für Sie, mit denselben Überdachungs- und Klimafaktoren.
 
-### Rechenbeispiel: eine überdachte Terrasse von 6,1 × 3,7 m
+### Ein Rechenbeispiel: eine überdachte Terrasse von 6,1 × 3,7 m
 
 1. **Fläche:** 6,1 × 3,7 m ≈ 22,3 m². Überdacht, mit einer offenen Längsseite und einer offenen Stirnseite: deutlich mehr als 30 % offen[^s3].
 2. **Faktoren:** überdacht 1,1 × kühle Abende 0,85 = 0,935.
@@ -349,7 +353,7 @@ Der kostenlose [Rechner „Wie viele Heizstrahler?“](asset:A03) erledigt das f
 
 ## Schritt 6. Strom oder Gas planen
 
-Elektro-Heizstrahler werden fest angeschlossen. Ihr Elektrofachbetrieb bemisst jeden Stromkreis nach der Stromaufnahme des Heizstrahlers und nach DIN VDE 0100. In Deutschland beträgt die Netzspannung 230 V; die Stromaufnahme ist Leistung ÷ 230 V:
+Elektro-Heizstrahler werden fest angeschlossen, und Ihr Elektrofachbetrieb bemisst jeden Stromkreis nach der Stromaufnahme des Heizstrahlers und nach DIN VDE 0100. In Deutschland beträgt die Netzspannung 230 V; die Stromaufnahme ist Leistung ÷ 230 V:
 
 | Heizstrahler | Ampere bei 230 V |
 |---|---|
@@ -368,9 +372,9 @@ Fest installierte Gasheizstrahler brauchen eine Gasleitung vom Gasinstallateur u
 - [ ] Gasleitung und Absperreinrichtung festgelegt (Gas)
 - [ ] Rohinstallation erledigt, bevor die Decke geschlossen wird
 
-## Schritt 7. Steuerung wählen (erforderlich)
+## Schritt 7. Die Steuerung wählen, die alles mühelos macht (erforderlich)
 
-Ein Heizstrahler ohne Steuerung ist kein fertiges System. Jede Planung braucht alle vier Teile:
+Jeder Bromic Heizstrahler wird mit Affinity Smart-Heat® Controls kombiniert, damit die Wärme immer genau dort ist, wo und wann Sie sie möchten. Ein vollständiges System vereint alle diese Teile.
 
 | Teil | Was es tut | Kapazität |
 |---|---|---|
@@ -403,7 +407,7 @@ WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Steuerungen, d
 | Eclipse Freestanding | ca. 2,0 m Freiraum[^s8] |
 | Platinum Gas und Tungsten Gas fest installiert | 2,44 m[^s10][^s11] |
 
-Abstände zur Decke und zu allem Brennbaren legt die Installationsanleitung des jeweiligen Modells fest. Ein Hitzeschild verringert den Raum, den ein Gasheizstrahler über sich braucht[^s3]. In Deutschland werden Elektro-Heizstrahler nach DIN VDE 0100 und Gasheizstrahler nach DVGW-TRGI (Erdgas) bzw. TRF (Flüssiggas) installiert. In den USA gelten dafür ANSI/NFPA 70[^s21] und ANSI Z223.1/NFPA 54[^s22]. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Freien — Partner Deutschland]]
+Die Installationsanleitung jedes Modells legt die Abstände zur Decke und zu allem Brennbaren fest. Ein Hitzeschild verringert den Raum, den ein Gasheizstrahler über sich braucht[^s3]. In Deutschland werden Elektro-Heizstrahler nach DIN VDE 0100 und Gasheizstrahler nach DVGW-TRGI (Erdgas) bzw. TRF (Flüssiggas) installiert. In den USA gelten dafür ANSI/NFPA 70[^s21] und ANSI Z223.1/NFPA 54[^s22]. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Freien — Partner Deutschland]]
 
 *Dies ist eine allgemeine Hilfe, keine Auslegung von Vorschriften. Klären Sie die Anforderungen mit Ihrem örtlichen Bauamt und lassen Sie Heizstrahler von einem Elektrofachbetrieb oder Gasinstallateur nach den Anweisungen des Herstellers installieren.*
 
@@ -428,11 +432,11 @@ Abstände zur Decke und zu allem Brennbaren legt die Installationsanleitung des 
 
 ![Eclipse Pendel über einer Loggia am Pool zur blauen Stunde](img:l-013-102)
 
-## Schritt 9. Planungsgespräch vereinbaren
+## Schritt 9. Lassen Sie uns gemeinsam mit Ihnen planen
 
-Bromics Planungsspezialisten prüfen Ihre Fotos, Pläne oder Zeichnungen und empfehlen Heizstrahler, Platzierung und Steuerung, mit Plänen der beheizten Flächen, kostenlos[^s2].
+Senden Sie uns Ihre Fotos, Pläne oder Zeichnungen, und die Planungsspezialisten von Bromic empfehlen kostenlos Heizstrahler, Platzierung und Steuerung für Ihren Bereich, mit Plänen der beheizten Flächen[^s2].
 
-Ein vollständiges Angebot hat fünf Positionen: Heizstrahler und Montagesets; Steuerung; Installation; Genehmigungen; Betriebskosten. Die US-Listenpreise auf bromic.com (29. Oktober 2026) beginnen bei 798 US-$ für einen Tungsten Electric Heizstrahler und 370 US-$ für ein Affinity On/Off-Steuergerät[^s4][^s13]; Preise für Deutschland erhalten Sie über [bromic.de](https://www.bromic.de/). [[VERIFY: zu veröffentlichende Listenpreise — Produktteam]]
+Ein vollständiges Angebot umfasst Heizstrahler und Montagesets, Steuerung, Installation, Genehmigungen und Betriebskosten. Die US-Listenpreise auf bromic.com (29. Oktober 2026) beginnen bei 798 US-$ für einen Tungsten Electric Heizstrahler und 370 US-$ für ein Affinity On/Off-Steuergerät[^s4][^s13]; Preise für Deutschland erhalten Sie über [bromic.de](https://www.bromic.de/). [[VERIFY: zu veröffentlichende Listenpreise — Produktteam]]
 
 - [ ] Checklisten aus den Schritten 1–8 ausgefüllt
 - [ ] Fotos oder Pläne bereit
@@ -440,4 +444,4 @@ Ein vollständiges Angebot hat fünf Positionen: Heizstrahler und Montagesets; S
 
 ![Überdachte Außenküche mit Bar und bündig eingelassenen Deckenheizstrahlern](img:l-010-067)
 
-Vereinbaren Sie ein Planungsgespräch und erhalten Sie eine Anordnung für Ihren Außenbereich.
+Vereinbaren Sie Ihr Planungsgespräch, und wir planen die Wärme rund um die Art, wie Sie gern draußen leben.

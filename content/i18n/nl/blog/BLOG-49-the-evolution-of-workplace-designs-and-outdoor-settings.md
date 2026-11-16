@@ -1,17 +1,17 @@
 ---
 id: BLOG-49
 type: blog
-title: "Buitenruimte op kantoor: hoe werkgevers er mensen mee terughalen"
+title: "Buitenruimte op kantoor: hoe terrassen en binnenplaatsen mensen terugbrengen naar kantoor"
 action: merge-target
 audience: [ARC, COM]
 stage: [AW]
 cell: ARC-AW
 asset: A24
-summary: "Waarom buitenterrassen, binnenplaatsen en dakterrassen onderdeel zijn geworden van het kantoorontwerp, wat de actuele cijfers over bezetting en leegstand zeggen, hoe Primo Orpilla buitenruimte als cultuur ziet, en The Boardwalk in Irvine als uitgewerkt voorbeeld."
+summary: "Waarom terrassen, binnenplaatsen en dakterrassen onderdeel zijn geworden van het kantoorontwerp, wat de nieuwste Amerikaanse cijfers over bezetting en leegstand laten zien, hoe Primo Orpilla buitenruimte als cultuur ziet, en hoe The Boardwalk in Irvine zijn binnenplaats tot leven bracht."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Waarom voegen kantoren buitenwerkplekken en buitenvoorzieningen toe?"
-meta_description: "Waarom kantoren buitenterrassen en binnenplaatsen toevoegen: Amerikaanse cijfers over bezetting en leegstand in 2026, denken over kantoorontwerp en The Boardwalk, Irvine."
+meta_description: "Buitenruimte op kantoor in 2026: hoe verwarmde terrassen en binnenplaatsen mensen terugbrengen, met Amerikaanse bezettingscijfers en The Boardwalk in Irvine."
 cta: {label: "Download het rapport Trends 2026", asset: A01}
 hero: w-boardwalk-edits-49
 images: [w-boardwalk-edits-27, w-lumen-west-la-rooftop-los-angeles-ca-6-edite]
@@ -21,7 +21,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-AW-01, COM-AW-01, COM-BY-01]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: nl
 translation_of: BLOG-49
 translation_status: machine-draft
@@ -92,11 +92,11 @@ sources:
     verified: false
 ---
 
-Kantoren krijgen terrassen, binnenplaatsen en dakterrassen omdat de gebouwen die vollopen de gebouwen zijn waar de reis de moeite waard is. In de VS stond de kantoorleegstand in het derde kwartaal van 2026 op 18,2%, maar in toplocaties op 11,9%, en daar daalde ze sneller[^s1]. De bezetting piekt midden in de week, als de meeste mensen er zijn[^s2]. Buitenruimte geeft die dagen een plek om af te spreken, te eten en even op te laden, en warmte houdt die plek bruikbaar in de ochtend, de avond en de koelere maanden.
+Kantoren krijgen terrassen, binnenplaatsen en dakterrassen omdat mensen terugkeren naar de gebouwen waar de reis de moeite waard is. In de VS stond de kantoorleegstand in het derde kwartaal van 2026 op 18,2%, terwijl die in toplocaties op 11,9% lag en sneller daalde[^s1]. De bezetting piekt midden in de week, als de meeste mensen er zijn[^s2], en buitenruimte geeft die drukke dagen een plek om samen te lunchen of tussen twee vergaderingen even naar buiten te stappen. Stralingswarmte houdt die plek uitnodigend in de vroege ochtend, de avond en de koelere maanden.
 
 ![Twee verwarmers die gloeien aan een pergolabalk boven een lange buitentafel bij The Boardwalk](img:w-boardwalk-edits-49)
 
-## Wat zeggen de cijfers van 2026 over kantoorgebruik?
+## Wat vertellen de cijfers van 2026 ons over het kantoor?
 
 De cijfers hieronder gaan over de Amerikaanse kantorenmarkt.
 
@@ -107,21 +107,21 @@ De cijfers hieronder gaan over de Amerikaanse kantorenmarkt.
 | Wekelijkse kantoorbezetting, gemiddelde van 10 Amerikaanse steden (week tot 21 okt. 2026) | 56,1% | Kastle[^s2] |
 | Piekdag in die week (dinsdag) | 66,1% | Kastle[^s2] |
 
-Voor een ontwerpteam betekent dat twee dingen. De vraag concentreert zich in de beste gebouwen[^s1]. En kantoren zitten een paar dagen bijna vol en zijn de rest van de week deels leeg[^s2], dus gedeelde ruimtes moeten de piekdagen opvangen. Een verwarmde binnenplaats of een terras voegt die capaciteit toe zonder extra vloeroppervlak.
+Voor een ontwerpteam wijzen de cijfers tegelijk twee kanten op. De vraag verzamelt zich in de beste gebouwen[^s1], terwijl kantoren een paar dagen bijna vol zitten en de rest van de week deels leeg zijn[^s2], dus de gedeelde ruimtes moeten de drukste dagen met gemak dragen. Een verwarmde binnenplaats of een terras geeft een gebouw die extra ademruimte zonder extra vloeroppervlak.
 
 [[VERIFY: het weekcijfer van Kastle verandert elke week; werk het cijfer en de week bij vóór publicatie — digitale marketing]]
 
 ## Hoe is het kantoorontwerp veranderd?
 
-Van rijen bureaus naar een reeks verschillende werkplekken. Primo Orpilla, medeoprichter van Studio O+A in San Francisco, beschreef die verschuiving in de podcast Designing Outdoor Spaces van Archispeak[^s3][^s4]. Zijn punten, in onze woorden:
+De werkplek is van rijen bureaus naar een reeks verschillende plekken gegaan, elk geschikt voor een ander soort werk. Primo Orpilla, medeoprichter van Studio O+A in San Francisco, beschreef die verschuiving in de podcast Designing Outdoor Spaces van Archispeak[^s3][^s4]. In onze woorden komt zijn denken hierop neer:
 
 - **Ontwerp voor de mens.** Werkplekken worden nu gepland rond de mensen die ze gebruiken, met ruimtes die zich aanpassen aan verschillende taken en stemmingen.
-- **Wendbaar betekent dat een ruimte van functie kan wisselen.** Een gedeelde bank kan dienen voor een informeel gesprek of een geplande vergadering.
+- **Wendbaar betekent dat een ruimte van functie kan wisselen.** Een gedeelde bank leent zich even goed voor een informeel gesprek als voor een geplande vergadering.
 - **Overgangsruimtes doen ertoe.** Een paar minuten buiten tussen bureau en vergaderzaal helpt mensen om te schakelen.
-- **Buiten is gewoon een andere werkplek.** Met wifi, stroom en comfortabele zitplaatsen werkt een tuin of een rustig hoekje net zo goed als een vergaderruimte.
-- **Cultuur wordt ontworpen.** De waarden van een bedrijf horen zichtbaar te zijn in zijn ruimtes, en gedeelde ruimtes bouwen aan gemeenschap en mentorschap.
+- **Buiten is een andere werkplek.** Met wifi, stroom en comfortabele zitplaatsen werkt een tuin of een rustig hoekje net zo goed als elke vergaderruimte.
+- **Cultuur wordt ontworpen.** De waarden van een bedrijf horen zichtbaar te zijn in zijn ruimtes, en in gedeelde ruimtes groeien gemeenschap en mentorschap.
 
-## Welke buitenruimtes werken op kantoor?
+## Welke buitenruimtes werken het best op kantoor?
 
 | Ruimte | Gebruik | Aanpak verwarming |
 |---|---|---|
@@ -130,39 +130,39 @@ Van rijen bureaus naar een reeks verschillende werkplekken. Primo Orpilla, medeo
 | Café- of eetterras | Ontbijt, lunch, borrel | Warmte boven de tafels, met een tijdschema voor de openingstijden |
 | Tuinhoek | Eén-op-eengesprekken, bellen, pauzes | Eén verwarmer met een eigen schakelaar |
 
-Elke ruimte heeft stroom en data voor laptops nodig, schaduw voor het middaguur en stralingswarmte voor de koelere uren aan begin en eind van de dag. Stralingswarmte verwarmt mensen in plaats van lucht, dus ze werkt in ruimtes met open zijden, waar luchtverwarming tekortschiet[^s8].
+Elk van deze ruimtes heeft stroom en data voor laptops en schaduw rond het middaguur nodig, en stralingswarmte draagt ze comfortabel door de koelere uren aan begin en eind van de dag. Omdat stralingswarmte mensen verwarmt in plaats van de lucht eromheen, werkt ze in ruimtes met open zijden, waar luchtverwarming tekortschiet[^s8].
 
 ![Zwarte lineaire verwarmer die gloeit aan een pergola op een kantoordakterras](img:w-lumen-west-la-rooftop-los-angeles-ca-6-edite)
 
 ## Wat deed The Boardwalk in Irvine?
 
-The Boardwalk is een kantorencampus in Irvine, Californië, beheerd door CBRE. De binnenplaats van ongeveer 8.100 m² is ontworpen als verlengstuk van het kantoor, met pergola's boven de vergader- en zitplekken[^s5]. Platinum Smart-Heat Electric-verwarmers hangen in de pergola's aan Platinum Electric-montagestangen, gekozen omdat ze duurzaam zijn en bij het moderne ontwerp passen[^s5].
+The Boardwalk is een kantorencampus in Irvine, Californië, beheerd door CBRE. De binnenplaats van ongeveer 8.100 m² is ontworpen als verlengstuk van het kantoor, met pergola's die de vergader- en zitplekken beschutten[^s5]. Platinum Smart-Heat Electric-verwarmers hangen in de pergola's aan Platinum Electric-montagestangen, gekozen om hun duurzaamheid en omdat ze zo goed bij het moderne ontwerp passen[^s5].
 
-De binnenplaats wordt nu gebruikt voor vergaderingen, brainstorms, individueel werk, maaltijden uit het restaurant en café op de campus, en pauzes buiten[^s5]. Lees de volledige [case study over The Boardwalk](https://www.bromic.com/case-study/enhancing-work-life-balance-with-year-round-outdoor-comfort-at-the-boardwalk/) (Engelstalig).
+Vandaag biedt de binnenplaats plaats aan vergaderingen en brainstorms, rustig individueel werk, maaltijden uit het restaurant en café op de campus, en pauzes in de buitenlucht[^s5]. Lees de volledige [case study over The Boardwalk](https://www.bromic.com/case-study/enhancing-work-life-balance-with-year-round-outdoor-comfort-at-the-boardwalk/) (Engelstalig).
 
 ![Overdekt eetterras op kantoor met verwarmers aan de balken en regelaarkasten aan de muur](img:w-boardwalk-edits-27)
 
-[[VERIFY: number of heaters, wattages and the controls installed at The Boardwalk — productteam]]
+[[VERIFY: aantal verwarmers, vermogens en de geïnstalleerde bediening bij The Boardwalk — productteam]]
 
 ## Hoe schrijf je verwarming voor in een kantoorproject?
 
-Als gebouwinstallatie, met zones en tijdschema's.
+Warmte dient een kantoor het best als ze als gebouwinstallatie wordt behandeld, vanaf de eerste tekening gepland met zones en tijdschema's.
 
 - **Verwarmers.** Platinum Smart-Heat Electric (2300, 3400 of 4500 W, elk ca. 6–13 m²) kan worden ingebouwd, opgebouwd of aan stangen gehangen[^s6], en werkt op 220–240 V, dus op het Nederlandse net van 230 V, 50 Hz[^s9].
-- **Bediening.** Affinity Smart-Heat On/Off- of Dimmer-regelaars zijn er met 1, 2 of 5 kanalen, tot 6 kW per kanaal[^s7], zodat elke zitgroep een eigen zone wordt. Voeg per zone een handbediende wandschakelaar toe en gebruik de Bromic Smart-Heat app voor tijdschema's die aansluiten op de openingstijden van het gebouw. Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht. Koppeling met het gebouwbeheersysteem is mogelijk; de compatibiliteit verschilt per systeem[^s6].
-- **Voorschriften.** In de VS worden groepen voor elektrische verwarmers aangelegd volgens NFPA 70, de National Electrical Code[^s8]; in Nederland volgens NEN 1010. Stem groepen, montagehoogtes en vergunningen af met de gemeente en een gekwalificeerde elektrotechnisch installateur. [[VERIFY: current Dutch codes for outdoor heater installations — Bromic Benelux distributor]]
+- **Bediening.** Affinity Smart-Heat On/Off- of Dimmer-regelaars zijn er met 1, 2 of 5 kanalen, tot 6 kW per kanaal[^s7], zodat elke zitgroep een eigen zone wordt. Een handbediende wandschakelaar per zone en de Bromic Smart-Heat app maken het systeem compleet, met tijdschema's die de openingstijden van het gebouw volgen. Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht. Koppeling met het gebouwbeheersysteem is mogelijk; de compatibiliteit verschilt per systeem[^s6].
+- **Voorschriften.** In de VS worden groepen voor elektrische verwarmers aangelegd volgens NFPA 70, de National Electrical Code[^s8]; in Nederland volgens NEN 1010. Stem groepen, montagehoogtes en vergunningen af met de gemeente en een erkend elektrotechnisch installateur. [[VERIFY: actuele Nederlandse voorschriften voor de installatie van buitenverwarmers — Bromic Benelux distributor]]
 
-Voor een indeling en tekeningen met het verwarmd oppervlak gebruik je de ontwerpservice [Design Your Space](https://www.bromic.nl/). Specificatiebestanden vind je op [bromic.nl](https://www.bromic.nl/).
+Voor een indeling en tekeningen van het verwarmde oppervlak begin je met de ontwerpservice [Design Your Space](https://www.bromic.nl/). Specificatiebestanden vind je op [bromic.nl](https://www.bromic.nl/).
 
 ## Veelgestelde vragen
 
 ### Waarom voegen kantoren buitenruimte toe?
-Huurders concentreren zich in de beste gebouwen, en de bezetting piekt midden in de week. Buitenterrassen en binnenplaatsen voegen voor die dagen ruimte toe om te vergaderen, te eten en pauze te houden, zonder extra vloeroppervlak. Dat laten de Amerikaanse cijfers zien[^s1][^s2].
+Huurders verzamelen zich in de beste gebouwen, en de bezetting piekt midden in de week. Terrassen en binnenplaatsen voegen op die drukke dagen ruimte toe om te vergaderen, te eten en pauze te nemen, zonder extra vloeroppervlak. Dat laten de Amerikaanse cijfers zien[^s1][^s2].
 
 ### Kun je het hele jaar buiten werken?
-In veel Amerikaanse klimaten wel, met overkapping, stroom en stralingswarmte. Warmte verlengt het gebruik naar de ochtend, de avond en de koelere maanden.
+In veel Amerikaanse klimaten wel, met overkapping, stroom en stralingswarmte. Warmte verlengt het gebruik van een buitenruimte naar de ochtend, de avond en de koelere maanden.
 
 ### Hoe worden kantoorverwarmers bediend?
-Per zone en met tijdschema's, via Affinity Smart-Heat-regelaars, een wandschakelaar per zone en de Smart-Heat app. Wifi- en app-functies vereisen compatibele Affinity-bediening, die apart wordt verkocht.
+Per zone en met tijdschema's, via Affinity Smart-Heat-regelaars, een wandschakelaar per zone en de Bromic Smart-Heat app. Wifi- en app-functies vereisen compatibele Affinity-bediening, die apart wordt verkocht.
 
-Lees de cijfers over buitenleven in 2026 in het Trends-rapport.
+Ontdek alle cijfers over buitenleven in 2026 in het Trends-rapport.

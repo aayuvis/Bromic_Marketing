@@ -5,16 +5,16 @@ translation_of: A02-homeowner
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 type: gated-guide
-title: "De planningsgids voor buitenverwarming: editie voor huiseigenaren"
+title: "De planningsgids voor buitenverwarming bij je huis: warmte ingepland vanaf de eerste tekening"
 audience: [RES]
 stage: [CO, IN]
 cell: RES-IN
 asset: A02
-summary: "Negen korte stappen van een leeg terras naar een verwarmd terras: controleer of het buiten is, meet op, kies de energiebron, de stijl en het aantal, plan de stroom, de bediening en de regels, en boek dan een gratis ontwerpadvies."
+summary: "Negen rustige stappen die je terras van een zomerplek veranderen in een buitenkamer voor het hele jaar, met de energiebron, de stijl, het aantal, de stroom, de bediening en de regels ingepland voordat het plafond dichtgaat."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe plan ik buitenverwarming voor mijn terras?"
-meta_description: "Plan terrasverwarming in negen stappen: opmeten, energiebron en stijl kiezen, aantal bepalen, stroom, bediening en regels plannen, met rekenvoorbeelden en checklists."
+meta_description: "Je planningsgids voor buitenverwarming: negen stappen naar een terras waar je het hele jaar van geniet, met aantal, gebruikskosten, bediening en checklists."
 cta: {label: "Boek een ontwerpadvies", asset: A07}
 hero: l-010-071
 images: [l-007-035, l-019-163, l-013-102, t-009-025, l-010-067]
@@ -22,7 +22,7 @@ owner_review: productteam + 454 Creative
 status: draft
 gated: true
 related: [RES-IN-01, RES-CO-01, BLD-IN-01]
-updated: 2026-10-30
+updated: 2026-11-16
 version: "2.0 draft, revision 2 (replaces Planning Guide US v1.2, 10/2021)"
 sources:
   - id: s1
@@ -190,15 +190,15 @@ sources:
 
 # De planningsgids voor buitenverwarming
 
-*Editie voor huiseigenaren. Vanaf het begin ontworpen, niet achteraf toegevoegd.*
+*Editie voor huiseigenaren. Warmte ingepland vanaf de eerste tekening.*
 
-Plan de warmte in dezelfde volgorde als het terras: controleer of de ruimte als buitenruimte telt, meet op, kies elektrisch of gas, kies een stijl, bepaal het aantal, en plan dan de stroom, de bediening en de regels voordat het plafond dichtgaat. Beslis je vroeg, dan gaan de bekabeling of de gasleiding er één keer in, precies waar je ze wilt hebben.
+De mooiste avonden buiten zijn de avonden die uitlopen: het diner gaat over in het dessert, het gesprek gaat door en niemand pakt een jas. Plan de warmte in dezelfde volgorde als het terras, van nagaan of de ruimte als buitenruimte telt tot het bepalen van het aantal verwarmers en het regelen van stroom, bediening en regels voordat het plafond dichtgaat. Beslis je vroeg, dan gaan de bekabeling of de gasleiding er één keer in, precies waar je ze wilt hebben.
 
-In een Amerikaans onderzoek gaf slechts 23% van de huiseigenaren buitenverwarming prioriteit in de planningsfase[^s1]. De rest voegt haar later toe, met opengebroken plafonds, opbouwleidingen en verwarmers op de plek waar de bekabeling toevallig uitkwam.
+In een Amerikaans onderzoek gaf slechts 23% van de huiseigenaren buitenverwarming prioriteit in de planningsfase[^s1]. Velen van de rest komen er later op terug, en dan kan het opengebroken plafonds betekenen, opbouwleidingen en verwarmers op de plek waar de bekabeling toevallig liep.
 
 ![Buitenwoonkamer met zeezicht en inbouwverwarmers](img:l-010-071)
 
-## De negen stappen
+## Negen stappen naar een warmere buitenkamer
 
 | Stap | Beslissing | Wat je nodig hebt |
 |---|---|---|
@@ -212,13 +212,13 @@ In een Amerikaans onderzoek gaf slechts 23% van de huiseigenaren buitenverwarmin
 | 8 | Afstanden en regels | Je gemeente en installateur |
 | 9 | Een ontwerpadvies boeken | Foto's of tekeningen |
 
-Elke stap eindigt met een checklist. Samen vormen ze de briefing voor je ontwerper.
+Elke stap sluit af met een korte checklist, en samen vormen ze de briefing die je aan je ontwerper geeft.
 
-## Stap 1. Is het buiten?
+## Stap 1. Ga na of je ruimte als buitenruimte telt
 
-Een ruimte telt als buitenruimte wanneer ten minste 30% van de omtrek permanent open is[^s3]. De meeste terrassen, veranda's, pergola's, loggia's en overdekte terrassen voldoen daaraan. Sluit je de ruimte verder af met glas of schermen, dan verandert het ontwerp: overleg dan eerst met een ontwerper.
+Een ruimte telt als buitenruimte wanneer ten minste 30% van de omtrek permanent open is[^s3], en de meeste terrassen, veranda's, pergola's, loggia's en overdekte terrassen voldoen daaraan. Denk je erover de ruimte verder af te sluiten met glas of schermen, overleg dan eerst met een ontwerper, want dat verandert het ontwerp.
 
-Een dak helpt. Warme lucht die onder een overkapping blijft hangen vormt een "warmtewolk" die de stralingswarmte een zacht extra zetje geeft[^s3].
+Een dak werkt in je voordeel. Warme lucht verzamelt zich onder een overkapping en vormt een "warmtewolk" die de stralingswarmte een zacht extra zetje geeft[^s3].
 
 [[DIAGRAM: Schetsen in plattegrond en doorsnede van ruimten die voldoen: open binnenplaats met één opening op maaiveldniveau; overdekte ruimte met twee open zijden; drie muren met 30% of meer van de omtrek open; de warmtewolk als zacht gearceerde zone onder de overkapping. Regel volgens de gids van 2021[^s3].]]
 
@@ -226,18 +226,20 @@ Een dak helpt. Warme lucht die onder een overkapping blijft hangen vormt een "wa
 - [ ] Open, deels overdekt of overdekt: ______
 - [ ] Plannen om glas, schermen of zonwering toe te voegen: ______
 
-## Stap 2. Opmeten
+## Stap 2. Meet de ruimte waarin je leeft
+
+Meet het deel waar jij en je gasten echt zitten, en noteer hoe en wanneer je de ruimte graag gebruikt.
 
 - [ ] Lengte × breedte van het deel dat warm moet worden = ______ m² (meet de zitplekken, niet het hele terras)
 - [ ] Hoogte van plafond of balk ______ m; plafondmateriaal ______
 - [ ] Windzijde ______; vlak bij water? J / N
 - [ ] Maanden en tijden van gebruik ______
 
-## Stap 3. De energiebron kiezen
+## Stap 3. Kies elektrisch of gas
 
-### Waarom stralingswarmte
+### Waarom stralingswarmte voelt als zonneschijn
 
-Buiten stijgt warme lucht op en waait ze weg, dus heteluchtverwarming en thermostaten kunnen een open terras niet op een vaste temperatuur houden[^s3]. Stralingswarmte (infrarood) verwarmt mensen, meubels en vloeren direct, zoals de zon op je huid, en blijft daardoor werken bij een lichte bries. Warmte die je voelt, niet ziet.
+Buiten stijgt warme lucht op en drijft ze weg, dus heteluchtverwarming en thermostaten kunnen een open terras niet op een vaste temperatuur houden[^s3]. Stralingswarmte (infrarood) verwarmt mensen, meubels en vloeren direct, net als de zon op je huid, zodat je het ook bij een lichte bries comfortabel hebt. Warmte die je voelt, niet ziet.
 
 | Golflengte | Aandeel straling | Opwarmtijd | Bij wind |
 |---|---|---|---|
@@ -245,9 +247,9 @@ Buiten stijgt warme lucht op en waait ze weg, dus heteluchtverwarming en thermos
 | Middengolf | ongeveer 60% | ongeveer 30 seconden | Beperkt gevoelig |
 | Langegolf | ongeveer 40% | ongeveer 5 minuten | Het meest gevoelig |
 
-Bron: Bromic Planning Guide 2021[^s3]. Een vuurkorf is een blikvanger, geen verwarmingsplan.
+Bron: Bromic Planning Guide 2021[^s3]. Een vuurkorf is een prachtige blikvanger, al houdt hij zelden in z'n eentje een hele zithoek warm.
 
-### Elektrisch of gas
+### Elektrisch of gas voor je huis
 
 | | Elektrisch | Gas (aardgas of propaan) |
 |---|---|---|
@@ -258,7 +260,9 @@ Bron: Bromic Planning Guide 2021[^s3]. Een vuurkorf is een blikvanger, geen verw
 
 [[VERIFY: voedingsspecificatie (230 V) van de gasverwarmers voor de Nederlandse markt — productteam]]
 
-### Wat het kost om te stoken
+### Wat een warme avond kost
+
+De gebruikskosten reken je eenvoudig uit met het vermogen van de verwarmer en je eigen energieprijs.
 
 - **Elektrisch:** kosten per uur = kW × je prijs per kWh
 - **Aardgas:** kosten per uur = vermogen in kW ÷ de energie-inhoud van een m³ gas (in kWh) × je prijs per m³
@@ -275,14 +279,14 @@ Wij rekenen hier niet met Nederlandse energieprijzen: vul de prijs van je eigen 
 | Platinum Gas 6,9 kW, aardgas / propaan | 6,9 kWh gas / ca. 1,0 l propaan | × je prijs per m³ of per liter |
 | Tungsten Freestanding Gas 11,1 kW, aardgas / propaan | 11,1 kWh gas / ca. 1,6 l propaan | × je prijs per m³ of per liter |
 
-Dimmen, of een Eclipse laten draaien op 33% of 66%[^s7], verbruikt minder. Deze cijfers vervangen die uit de gids van 2021.
+Dimmen, of een Eclipse laten draaien op 33% of 66%[^s7], verbruikt nog minder. Deze cijfers vervangen die uit de gids van 2021, die met prijzen van 2021 rekende.
 
 - [ ] Elektrisch / aardgas / propaan: ______
 - [ ] Je tarief van je eigen rekening: ______ per kWh, m³ of liter
 
 ![Vrijstaande Tungsten-gasverwarmer op een stenen binnenplaats in de schemering](img:l-019-163)
 
-## Stap 4. Stijl en montage kiezen
+## Stap 4. Kies een uitstraling die bij je huis past
 
 | Familie | Uitstraling | Montage | Afwerking |
 |---|---|---|---|
@@ -298,7 +302,7 @@ Dimmen, of een Eclipse laten draaien op 33% of 66%[^s7], verbruikt minder. Deze 
 | Tungsten Smart-Heat Electric, Coastal-collectie (binnenkort) | 316 roestvast staal van scheepskwaliteit; Signature Diamond Pattern-rooster | Inbouw (lage inbouwhoogte), plafond, muur, enkele paal | Zwart of wit[^s2] |
 | Tungsten Smart-Heat Electric, Select-collectie (binnenkort) | Meer keuze in frontafwerking | Inbouw (lage inbouwhoogte), plafond, muur, enkele paal | Zwart, wit of grafiet[^s2] |
 
-Een vlakke, ingebouwde uitstraling vraagt een inbouwset en moet beslist zijn voordat het plafond gebouwd wordt.
+Houd je van de strakke, vlakke uitstraling van een ingebouwde verwarmer, beslis dan voordat het plafond gebouwd wordt, want daarvoor is een inbouwset nodig.
 
 - [ ] Familie en afwerking: ______
 - [ ] Montage: inbouw / plafond / muur / paal / vrijstaand
@@ -306,9 +310,9 @@ Een vlakke, ingebouwde uitstraling vraagt een inbouwset en moet beslist zijn voo
 
 ![Zwarte plafondverwarmer boven een lounge bij kaarslicht](img:l-007-035)
 
-## Stap 5. Het aantal bepalen
+## Stap 5. Stem de warmte af op je ruimte
 
-Benodigde verwarmers = oppervlak ÷ (verwarmd oppervlak per verwarmer × overkappingsfactor × klimaatfactor), naar boven afgerond. Een koudere of opener plek vraagt meer warmte voor hetzelfde oppervlak[^s3]; de twee factoren nemen dat mee in de som:
+Benodigde verwarmers = oppervlak ÷ (verwarmd oppervlak per verwarmer × overkappingsfactor × klimaatfactor), naar boven afgerond. Een koudere of opener ruimte vraagt meer warmte voor hetzelfde oppervlak[^s3], en de twee factoren nemen dat mee in de som.
 
 | Overkapping | Factor | Klimaat (avonden dat je verwarmt) | Factor |
 |---|---|---|---|
@@ -316,9 +320,9 @@ Benodigde verwarmers = oppervlak ÷ (verwarmd oppervlak per verwarmer × overkap
 | Deels overdekt (pergola, parasol, gedeeltelijk dak) | 1,0 | Koel (ongeveer 4–10 °C) | 0,85 |
 | Overdekt (dicht dak) | 1,1 | Koud (vaak onder ongeveer 4 °C) | 0,7 |
 
-[[VERIFY: overkappings- en klimaatfactoren — productteam]] Twijfel je? Reken met deels overdekt en koel: 1,0 × 0,85 = 0,85. Meet de zitplekken, niet het hele terras; weet je het aantal zitplaatsen in plaats van het oppervlak, reken dan ongeveer 1,9 m² per zitplaats.
+[[VERIFY: overkappings- en klimaatfactoren — productteam]] Twijfel je, reken dan met deels overdekt en koel, wat 1,0 × 0,85 = 0,85 geeft. Meet het deel waar mensen zitten in plaats van het hele terras, en weet je het aantal zitplaatsen in plaats van het oppervlak, reken dan ongeveer 1,9 m² per zitplaats.
 
-**Vrijstaande verwarmers** (Tungsten Freestanding Gas, Eclipse Freestanding) bedienen elk niet meer dan vier zitplaatsen, omdat de gasten zelf de stralingswarmte tegenhouden. Reken het op twee manieren uit en neem de hoogste uitkomst: oppervlak ÷ (verwarmd oppervlak × factoren), of zitplaatsen ÷ 4.
+**Vrijstaande verwarmers** (Tungsten Freestanding Gas, Eclipse Freestanding) bedienen elk niet meer dan vier zitplaatsen, omdat de gasten zelf een deel van de stralingswarmte tegenhouden. Reken het op twee manieren uit en neem de hoogste uitkomst van oppervlak ÷ (verwarmd oppervlak × factoren) en zitplaatsen ÷ 4.
 
 | Verwarmer | Verwarmd oppervlak per verwarmer (ca.) |
 |---|---|
@@ -333,9 +337,9 @@ Benodigde verwarmers = oppervlak ÷ (verwarmd oppervlak per verwarmer × overkap
 
 Het verwarmde oppervlak is een benadering en hangt af van montagehoogte, wind en installatie[^s2]. Waarden van de Amerikaanse productpagina's, gelezen op 29 oktober 2026 en omgerekend naar m². [[VERIFY: verwarmd oppervlak en vermogen per model tegen de productbladen van 2026; Eclipse 2900 W (specificatietabel) tegenover 3000 W (FAQ); Tungsten Freestanding Gas 11,1 kW (Lookbook) tegenover 11,3 kW (website) — productteam]]
 
-De gratis [calculator Hoeveel verwarmers?](asset:A03) doet dit voor je, met dezelfde overkappings- en klimaatfactoren.
+De gratis [calculator Hoeveel verwarmers?](asset:A03) maakt de som voor je, met dezelfde overkappings- en klimaatfactoren.
 
-### Rekenvoorbeeld: een overdekt terras van 6,1 × 3,7 m
+### Een rekenvoorbeeld: een overdekt terras van 6,1 × 3,7 m
 
 1. **Oppervlak:** 6,1 × 3,7 m = ca. 22,3 m². Overdekt, met één lange zijde en één kopse kant open: ruim meer dan 30% open[^s3].
 2. **Factoren:** overdekt 1,1 × koele avonden 0,85 = 0,935.
@@ -349,9 +353,9 @@ De gratis [calculator Hoeveel verwarmers?](asset:A03) doet dit voor je, met deze
 - [ ] Oppervlak ÷ (verwarmd oppervlak × overkapping × klimaat) = ______, naar boven afgerond = ______ verwarmers (vrijstaand: minstens zitplaatsen ÷ 4)
 - [ ] Calculator gebruikt; uitkomst bewaard
 
-## Stap 6. Stroom of gas plannen
+## Stap 6. Plan de stroom of het gas
 
-Elektrische verwarmers worden vast aangesloten. Je installateur bepaalt elke groep aan de hand van de stroom die de verwarmer trekt. Bij 230 V (A = W ÷ 230):
+Elektrische verwarmers worden vast aangesloten, en je installateur bepaalt elke groep aan de hand van de stroom die de verwarmer trekt. Bij 230 V (A = W ÷ 230):
 
 | Verwarmer | Stroom bij 230 V |
 |---|---|
@@ -370,9 +374,9 @@ Inbouwgasverwarmers hebben een gasleiding nodig, aangelegd door een erkend gasin
 - [ ] Gasleiding en afsluiter bepaald (gas)
 - [ ] Voorbekabeling aangelegd voordat het plafond dichtgaat
 
-## Stap 7. De bediening kiezen (verplicht)
+## Stap 7. Kies de bediening die alles moeiteloos maakt (verplicht)
 
-Een verwarmer zonder bediening is geen af systeem. Elk plan heeft alle vier de onderdelen nodig:
+Elke Bromic-verwarmer hoort bij Affinity Smart-Heat® Controls, zodat de warmte altijd precies daar is, en precies dan, wanneer je haar wilt. Een compleet systeem brengt al deze onderdelen samen.
 
 | Onderdeel | Wat het doet | Capaciteit |
 |---|---|---|
@@ -405,7 +409,7 @@ Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die ap
 | Eclipse Freestanding | 2,01 m vrije hoogte[^s8] |
 | Platinum Gas en Tungsten Gas inbouw | 2,44 m[^s10][^s11] |
 
-De afstanden tot het plafond en tot alles wat brandbaar is staan in de installatiehandleiding van elk model. Een warmtedeflector verkleint de ruimte die een gasverwarmer boven zich nodig heeft[^s3]. In de VS worden elektrische verwarmers geïnstalleerd volgens ANSI/NFPA 70[^s21] en gasverwarmers volgens ANSI Z223.1/NFPA 54[^s22]. In Nederland werkt je installateur volgens NEN 1010 (elektrische installaties) en NEN 1078 (gasinstallaties). [[VERIFY: actuele Nederlandse normen en edities — Bromic Benelux distributor]]
+De installatiehandleiding van elk model legt de afstanden tot het plafond en tot alles wat brandbaar is vast. Een warmtedeflector verkleint de ruimte die een gasverwarmer boven zich nodig heeft[^s3]. In de VS worden elektrische verwarmers geïnstalleerd volgens ANSI/NFPA 70[^s21] en gasverwarmers volgens ANSI Z223.1/NFPA 54[^s22]. In Nederland werkt je installateur volgens NEN 1010 (elektrische installaties) en NEN 1078 (gasinstallaties). [[VERIFY: actuele Nederlandse normen en edities — Bromic Benelux distributor]]
 
 *Dit is algemene informatie, geen uitspraak over wat de regels in jouw situatie eisen. Controleer de eisen bij je gemeente en laat verwarmers installeren door een erkend elektrotechnisch installateur of gasinstallateur, volgens de instructies van de fabrikant.*
 
@@ -430,11 +434,11 @@ De afstanden tot het plafond en tot alles wat brandbaar is staan in de installat
 
 ![Eclipse-hangers boven een loggia aan het zwembad tijdens het blauwe uur](img:l-013-102)
 
-## Stap 9. Een ontwerpadvies boeken
+## Stap 9. Laat ons met je meeontwerpen
 
-De ontwerpspecialisten van Bromic bekijken je foto's, plannen of tekeningen en adviseren kosteloos over verwarmers, plaatsing en bediening, met tekeningen van het verwarmde oppervlak[^s2].
+Deel je foto's, plannen of tekeningen, en de ontwerpspecialisten van Bromic adviseren kosteloos over de verwarmers, plaatsing en bediening voor jouw ruimte, met tekeningen van het verwarmde oppervlak[^s2].
 
-Een volledige offerte heeft vijf regels: verwarmers en montagesets; bediening; installatie; vergunningen; gebruikskosten. De Amerikaanse catalogusprijzen op bromic.com (29 oktober 2026) beginnen bij $ 798 voor een Tungsten Electric-verwarmer en $ 370 voor een Affinity On/Off-regelaar[^s4][^s13]; dat zijn Amerikaanse prijzen, geen Nederlandse. [[VERIFY: te publiceren prijzen, ook voor Nederland — productteam]]
+Een volledige offerte omvat verwarmers en montagesets, bediening, installatie, vergunningen en gebruikskosten. De Amerikaanse catalogusprijzen op bromic.com (29 oktober 2026) beginnen bij $ 798 voor een Tungsten Electric-verwarmer en $ 370 voor een Affinity On/Off-regelaar[^s4][^s13]; dat zijn Amerikaanse prijzen, geen Nederlandse. [[VERIFY: te publiceren prijzen, ook voor Nederland — productteam]]
 
 - [ ] Checklists van stap 1–8 ingevuld
 - [ ] Foto's of plannen klaar
@@ -442,4 +446,4 @@ Een volledige offerte heeft vijf regels: verwarmers en montagesets; bediening; i
 
 ![Overdekte buitenkeuken en bar met vlakke plafondverwarmers](img:l-010-067)
 
-Boek een ontwerpadvies en krijg een indeling voor jouw ruimte.
+Boek je ontwerpadvies, dan plannen wij de warmte rond de manier waarop jij graag buiten leeft.

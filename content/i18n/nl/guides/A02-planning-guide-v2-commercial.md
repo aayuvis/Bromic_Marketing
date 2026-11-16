@@ -1,16 +1,16 @@
 ---
 id: A02-commercial
 type: gated-guide
-title: "De planningsgids voor buitenverwarming: editie voor horecaondernemers"
+title: "De planningsgids voor buitenverwarming in de horeca: wat terrasverwarming kost, stoel voor stoel"
 audience: [COM]
 stage: [CO, IN]
 cell: COM-CO
 asset: A02
-summary: "Voor exploitanten van restaurants, hotels en evenementlocaties: eerst de omzetcase, daarna negen korte stappen, van het toetsen van het terras tot het kiezen van de energiebron op kosten over vijf jaar, de bediening per kanaal in zones verdelen, de brandveiligheidseisen en de uitrol over meerdere locaties."
+summary: "Voor restaurants, hotels en evenementlocaties die hun gasten een groter deel van het jaar buiten willen ontvangen: wat een verwarmde stoel waard is, daarna negen stappen door de energiekosten over vijf jaar, bediening in zones, de brandveiligheidseisen en de uitrol over meerdere locaties."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Zijn terrasverwarmers op propaan of elektrisch goedkoper voor een restaurant?"
-meta_description: "Gids voor horecaondernemers over terrasverwarming: de omzetcase, energiekosten over vijf jaar met de formule, bediening per kanaal, brandveiligheid en uitrol over meerdere locaties."
+meta_description: "Wat terrasverwarming in de horeca kost, zorgvuldig gepland: de waarde van een verwarmde stoel, energiekosten over vijf jaar, zones, brandveiligheid en uitrol."
 cta: {label: "Vraag uw ROI-berekening aan", asset: A21}
 hero: l-013-104
 images: [l-005-024, l-013-111, l-013-107, l-019-164, p-003-006]
@@ -18,7 +18,7 @@ owner_review: productteam + 454 Creative
 status: draft
 gated: true
 related: [COM-CO-01, COM-IN-01, ARC-CO-01]
-updated: 2026-10-29
+updated: 2026-11-16
 version: "2.0 concept, revisie 2 (vervangt Planning Guide US v1.2, 10/2021)"
 lang: nl
 translation_of: A02-commercial
@@ -224,23 +224,23 @@ sources:
 
 # De planningsgids voor buitenverwarming
 
-*Editie voor horecaondernemers: restaurants, hotels, bars en evenementlocaties. Extend the Moment.*
+*Editie voor horecaondernemers: restaurants, hotels, bars en evenementlocaties. Extend The Moment.*
 
-Bij de gemiddelde Amerikaanse prijzen van 2026 is aardgas de goedkoopste energiebron per verwarmde vierkante meter en propaan de duurste, met elektrisch daartussen. In een voorbeeld met 30 stoelen en ongeveer 56 m² kost propaan over vijf jaar meer dan twee keer zoveel als elektrisch, nog vóór het wisselen van flessen, omdat een vrijstaande verwarmer niet meer dan 4 stoelen bedient; elektrisch kost ongeveer drie keer zoveel als aardgas. Met uw eigen tarieven kan die volgorde anders uitvallen. De formule en het uitgewerkte voorbeeld staan in stap 3. De aanschafprijs is het kleinste getal in de beslissing; energie, het werk met brandstof, de bediening en de brandveiligheidseisen geven de doorslag.
+Een warm terras houdt gasten aan tafel voor nog een gang en vult stoelen op avonden die anders leeg zouden blijven. Hoe u het verwarmt, is een beslissing voor de lange termijn, en bij de gemiddelde Amerikaanse prijzen van 2026 is aardgas de goedkoopste energiebron per verwarmde vierkante meter en propaan de duurste, met elektrisch daartussen. In een voorbeeld met 30 stoelen en ongeveer 56 m² kost propaan over vijf jaar meer dan twee keer zoveel als elektrisch, nog vóór het wisselen van flessen, omdat een vrijstaande verwarmer niet meer dan 4 stoelen bedient, terwijl elektrisch ongeveer drie keer zoveel kost als aardgas. Met uw eigen tarieven kan die volgorde anders uitvallen. Stap 3 loopt de formule en het uitgewerkte voorbeeld met u door. De aanschafprijs blijkt het kleinste getal in de beslissing, en energie, het werk met brandstof, de bediening en de brandveiligheidseisen wegen veel zwaarder.
 
-Buiten zitten is gemeengoed: in een enquête van de Amerikaanse National Restaurant Association uit 2020 bood 74% van de restaurants met volledige bediening een terras aan, en 49% was bezig het buitenseizoen te verlengen, onder meer met tenten of terrasverwarmers[^s1].
+Buiten eten is onderdeel geworden van wat gasten verwachten. In een enquête van de Amerikaanse National Restaurant Association uit 2020 bood 74% van de restaurants met volledige bediening een terras aan, en 49% was bezig het buitenseizoen te verlengen, onder meer met tenten of terrasverwarmers[^s1].
 
 ![Loggia van een resort met Eclipse-pendels in de schemering](img:l-013-104)
 
-## Eerst: wat is een verwarmde stoel waard?
+## Wat een verwarmde stoel waard is voor uw zaak
 
 **Extra omzet = verwarmde stoelen × tafelwisselingen per avond × gemiddelde besteding × extra openingsavonden per jaar × bezettingsgraad**
 
 **Terugverdientijd (maanden) = totale installatiekosten ÷ (extra dekkingsbijdrage per jaar ÷ 12)**
 
-Reken voor de terugverdientijd met de dekkingsbijdrage, niet met de omzet. Tel alleen de avonden waarop het terras zonder warmte niet zou verkopen. Tafelwisselingen en besteding haalt u uit uw kassasysteem; extra avonden uit de sluitingen door het weer van vorig jaar. [[VERIFY: benchmark ranges for turns, check and season extension by climate — verkoop horeca]] De [ROI-rekenhulp](asset:A21) rekent het door voor uw locatie.
+Reken de terugverdientijd uit op de dekkingsbijdrage in plaats van de omzet, en tel alleen de avonden waarop het terras zonder warmte leeg zou blijven. Uw kassasysteem geeft u de tafelwisselingen en de gemiddelde besteding, en de sluitingen door het weer van vorig jaar geven u de extra avonden. [[VERIFY: richtwaarden voor tafelwisselingen, besteding en seizoensverlenging per klimaat — verkoop horeca]] De [ROI-rekenhulp](asset:A21) rekent de cijfers door voor uw locatie.
 
-## De negen stappen
+## Negen stappen naar een terras waar gasten blijven
 
 | Stap | Beslissing | Hulpmiddel |
 |---|---|---|
@@ -254,26 +254,30 @@ Reken voor de terugverdientijd met de dekkingsbijdrage, niet met de omzet. Tel a
 | 8 | Vrije afstanden, brandveiligheid en vergunningen | Gemeente en brandweer |
 | 9 | Ontwerpservice en uitrol | Ontwerpservice van Bromic ([A07](asset:A07)) |
 
-## Stap 1. Is het buiten?
+## Stap 1. Ga na of de ruimte als buitenruimte telt
 
-Buiten betekent dat minstens 30% van de omtrek permanent open is; een gedeeltelijk dak of een luifel houdt een warmtewolk vast die bij de stralingswarmte optelt[^s3]. Wanden, glas of plastic zijwanden kunnen zowel het verwarmingsontwerp veranderen als wat de brandveiligheidsregels toestaan (stap 8). Stralingswarmte verwarmt gasten en oppervlakken, geen lucht, en werkt dus bij een licht briesje; hete lucht werkt buiten niet[^s3].
+Een ruimte telt als buitenruimte wanneer minstens 30% van de omtrek permanent open is, en een gedeeltelijk dak of een luifel houdt een warmtewolk vast die bij de stralingswarmte optelt[^s3]. Wanden, glas of plastic zijwanden kunnen zowel het verwarmingsontwerp veranderen als wat de brandveiligheidsregels toestaan (stap 8). Stralingswarmte verwarmt gasten en oppervlakken direct in plaats van de lucht eromheen, en blijft dus werken bij een licht briesje, waar hete lucht dat niet kan[^s3].
 
 - [ ] Open omtrek 30% of meer[^s3]; plannen voor omsluiting genoteerd
 - [ ] Overdekt, deels overdekt of open
 
-## Stap 2. Stoelen en zones opmeten
+## Stap 2. Breng uw stoelen en zones in kaart
+
+Teken de vloer zoals uw team de service draait, zodat elke sectie wordt verwarmd als ze opengaat en rust als ze sluit.
 
 - [ ] Verwarmde stoelen, tafels en bar ingetekend; looppaden voor de bediening buiten beschouwing
 - [ ] Eén zone per sectie die zelfstandig open en dicht gaat; m² per zone
 - [ ] Hoogtes van plafond, luifel of wand; netspanning (in Nederland 230 V; Bromic noemt voor de VS 208, 240 of 277 V)[^s3]; gas ter plaatse
 
-## Stap 3. De energiebron kiezen op kosten over vijf jaar
+## Stap 3. Kies de energiebron op kosten over vijf jaar
+
+Een eerlijke vergelijking kijkt naar alles wat de verwarmers over vijf jaar gebruik kosten, vanaf de dag van installatie.
 
 **Totale kosten over 5 jaar = hardware + bediening + installatie + vergunningen + 5 × (energie + werk met brandstof + onderhoud)**
 
 **Energie per uur:** elektrisch = kW × prijs per kWh · aardgas = kW × uw gasprijs per kWh (reken de prijs per m³ om met de calorische waarde op uw energierekening) · propaan = kW ÷ 7,08 kWh per liter[^s23] × prijs per liter.
 
-Het [TCO-model A20](asset:A20) rekent met Amerikaanse tarieven: elektriciteit 13,54 dollarcent per kWh (EIA, gemiddelde Amerikaanse utiliteit, mei 2026)[^s18]; aardgas $0,87 per therm (EIA, Amerikaanse utiliteit, gemiddelde januari–mei 2026)[^s19]; propaan $2,674 per gallon (EIA, Amerikaanse particulieren, week van 30 maart 2026; EIA publiceert geen reeks voor bedrijven)[^s20]. Vul voor een Nederlandse locatie uw eigen tarieven in; de dollarbedragen hieronder zijn een Amerikaans voorbeeld, niet omgerekend. [[VERIFY: 2026 commercial rates, national and by state, and cylinder-exchange propane prices — financiën]]
+Het [TCO-model A20](asset:A20) rekent met Amerikaanse tarieven: elektriciteit 13,54 dollarcent per kWh (EIA, gemiddelde Amerikaanse utiliteit, mei 2026)[^s18]; aardgas $0,87 per therm (EIA, Amerikaanse utiliteit, gemiddelde januari–mei 2026)[^s19]; propaan $2,674 per gallon (EIA, Amerikaanse particulieren, week van 30 maart 2026; EIA publiceert geen reeks voor bedrijven)[^s20]. Vul voor een Nederlandse locatie uw eigen tarieven in; de dollarbedragen hieronder zijn een Amerikaans voorbeeld, niet omgerekend. [[VERIFY: zakelijke tarieven 2026, landelijk en per staat, en propaanprijzen bij flessenruil — financiën]]
 
 | Verwarmer op vol vermogen | Verwarmt | Energie per uur | Kosten per uur (Amerikaans voorbeeld) |
 |---|---|---|---|
@@ -283,7 +287,7 @@ Het [TCO-model A20](asset:A20) rekent met Amerikaanse tarieven: elektriciteit 13
 | Platinum Gas 11,7 kW, aardgas / propaan | 20 m² | 11,7 kWh / 1,65 L | $0.35 / $1.16 |
 | Tungsten Freestanding Gas 11,1 kW, aardgas / propaan | 20 m² | 11,1 kWh / 1,57 L | $0.33 / $1.11 |
 
-### Uitgewerkt voorbeeld: 30 stoelen, ca. 56 m², 900 branduren per jaar
+### Een uitgewerkt voorbeeld: 30 stoelen, ca. 56 m², 900 branduren per jaar
 
 30 stoelen × ca. 1,9 m² = ca. 56 m²[^s28], deels overdekt, koel (factor 0,85; stap 5). 900 uur (6 uur × 150 avonden) is de aanname van het A20-model, geen benchmark.
 
@@ -293,7 +297,7 @@ Het [TCO-model A20](asset:A20) rekent met Amerikaanse tarieven: elektriciteit 13
 | Platinum Gas 11,7 kW, aardgas | 56 ÷ (20 × 0,85 = 17,0) = 3,3 → 4 | 4 × 11,7 kW × 900 h = ca. 42.000 kWh | $1,247 | $6,233 | Eén Affinity On/Off-kanaal (tot 10 gasverwarmers); wandschakelaar; app |
 | Tungsten Freestanding Gas, propaan | de grootste van 3,3 → 4 op oppervlak en 30 stoelen ÷ 4 = 7,5 → 8 | 8 × 1,57 L × 900 h = ca. 11.300 L | $7,996 | $39,979, plus het werk met flessen | [[VERIFY: controls for Tungsten Freestanding Gas — productteam]] |
 
-Alleen energie, op vol vermogen; uw eigen verbruik, tijdschema's en dimmen maken het lager. Propaan betekent ongeveer 11.300 liter per jaar, in het Amerikaanse voorbeeld ongeveer 636 wissels van een fles van 17,8 liter, om in te kopen, te wisselen en op te slaan. Reken hardware, installatie en het werk met brandstof door in het [TCO-model](asset:A20). De bedragen per uur uit de gids van 2021 gingen uit van prijzen van 2021 en zijn vervallen.
+Deze cijfers gaan alleen over energie, op vol vermogen, en uw eigen tarief, tijdschema's en dimmen maken ze lager. Propaan betekent daarnaast ongeveer 11.300 liter per jaar, in het Amerikaanse voorbeeld ongeveer 636 wissels van een fles van 17,8 liter, om in te kopen, te wisselen en op te slaan. Voeg hardware, installatie en het werk met brandstof toe in het [TCO-model](asset:A20). De bedragen per uur uit de gids van 2021 gingen uit van prijzen van 2021 en zijn ingetrokken.
 
 | | Elektrisch | Aardgas | Propaan |
 |---|---|---|---|
@@ -309,7 +313,7 @@ Alleen energie, op vol vermogen; uw eigen verbruik, tijdschema's en dimmen maken
 
 ![Bar aan de jachthaven met verwarmers onder een luifel](img:l-005-024)
 
-## Stap 4. Stijl en montage kiezen
+## Stap 4. Kies een stijl die bij uw zaak past
 
 | Familie | Beste toepassing in de horeca | Garantie |
 |---|---|---|
@@ -325,16 +329,16 @@ Alleen energie, op vol vermogen; uw eigen verbruik, tijdschema's en dimmen maken
 | Tungsten Electric Coastal (binnenkort leverbaar) | Locaties aan het water; rvs 316 | [[VERIFY]][^s2] |
 | Tungsten Electric Select (binnenkort leverbaar) | Locaties waar het ontwerp leidend is; Black, White, Graphite | [[VERIFY]][^s2] |
 
-[[VERIFY: warranty terms for commercial use, and the Tungsten Freestanding Gas natural-gas warranty — productteam]] [[VERIFY: welke families en uitvoeringen (aardgas, propaan, Marine) in Nederland leverbaar zijn — Bromic Benelux distributor]]
+[[VERIFY: garantievoorwaarden bij zakelijk gebruik, en de garantie op het aardgasmodel van de Tungsten Freestanding Gas — productteam]] [[VERIFY: welke families en uitvoeringen (aardgas, propaan, Marine) in Nederland leverbaar zijn — Bromic Benelux distributor]]
 
 - [ ] Eén verwarmerfamilie per type locatie (luifel, wand, vrijstaand)
 - [ ] Modellen die binnenkort leverbaar zijn, hebben een goedgekeurd leverbaar alternatief
 
 ![Eclipse-verwarmers aan wandarmen boven een restaurantterras](img:l-013-111)
 
-## Stap 5. Dimensioneren
+## Stap 5. Stem de warmte af op elke zone
 
-Verwarmers per zone = m² van de zone ÷ (verwarmd oppervlak × overkappingsfactor × klimaatfactor), naar boven afgerond. Overkapping: open 0,85, deels overdekt 1,0, overdekt 1,1. Klimaat: mild (boven ca. 10 °C) 1,0, koel (ca. 4–10 °C) 0,85, koud (vaak onder ca. 4 °C) 0,7. Vrijstaande verwarmers bedienen bovendien niet meer dan 4 stoelen elk, omdat gasten hun stralingswarmte afschermen: neem het grootste van de twee aantallen. Zonder aantal stoelen geldt: stoelen = m² ÷ 1,9[^s28]. [[VERIFY: cover and climate factors — productteam]]
+Verwarmers per zone = m² van de zone ÷ (verwarmd oppervlak × overkappingsfactor × klimaatfactor), naar boven afgerond. De overkappingsfactor is 0,85 voor open, 1,0 voor deels overdekt en 1,1 voor overdekt, en de klimaatfactor is 1,0 voor mild (boven ca. 10 °C), 0,85 voor koel (ca. 4–10 °C) en 0,7 voor koud (vaak onder ca. 4 °C). Vrijstaande verwarmers bedienen bovendien niet meer dan 4 stoelen elk, omdat gasten een deel van hun stralingswarmte afschermen, dus neem het grootste van de twee aantallen. Zonder aantal stoelen geldt: stoelen = m² ÷ 1,9[^s28]. [[VERIFY: overkappings- en klimaatfactoren — productteam]]
 
 | Verwarmer | Verwarmd oppervlak per verwarmer |
 |---|---|
@@ -347,11 +351,11 @@ Verwarmers per zone = m² van de zone ÷ (verwarmd oppervlak × overkappingsfact
 | Tungsten Freestanding Gas, 11,1 kW | 20 m²[^s2] |
 | Tungsten Electric Coastal en Select (binnenkort leverbaar) | 6–13 m²[^s2] |
 
-Het verwarmd oppervlak is bij benadering en varieert met montagehoogte, omgeving en installatie[^s2]. [[VERIFY: Eclipse 2900 W vs 3000 W; Tungsten Freestanding Gas 11,1 kW (38.000 BTU/h) vs 11,3 kW (38.500 BTU/h); per-model coverage against the 2026 cut sheets — productteam]]
+Het verwarmd oppervlak is bij benadering en varieert met montagehoogte, omgeving en installatie[^s2]. [[VERIFY: Eclipse 2900 W tegenover 3000 W; Tungsten Freestanding Gas 11,1 kW tegenover 11,3 kW; verwarmd oppervlak per model tegen de productbladen van 2026 — productteam]]
 
 - [ ] Aantal per zone; rekenhulp gebruikt voor elke locatie
 
-## Stap 6. Stroom of gas plannen
+## Stap 6. Plan de stroom of het gas
 
 | Verwarmer | Stroom bij 230 V (berekend, vermogen ÷ 230) |
 |---|---|
@@ -360,14 +364,14 @@ Het verwarmd oppervlak is bij benadering en varieert met montagehoogte, omgeving
 | Cobalt Electric 4000 / 6000 W | 17,4 / 26,1 A[^s9] |
 | Tungsten Electric 4000 / 6000 W | 17,4 / 26,1 A |
 
-De productpagina's geven alleen stromen bij de Amerikaanse spanningen van 208 en 240 V; Tungsten 4000 en 6000 W bestaan in de VS ook voor 277 V[^s4]. [[VERIFY: Tungsten amps per model and voltage — productteam]] Ingebouwde gasverwarmers hebben een gasleiding en een elektrische voeding nodig (in de VS 110 V, 2 A)[^s10][^s11]. [[VERIFY: voedingsspanning van ingebouwde gasverwarmers voor de Nederlandse markt — Bromic Benelux distributor]] Groepen worden gedimensioneerd door een gekwalificeerde elektrotechnisch installateur volgens NEN 1010 (in de VS NFPA 70[^s21]); gas door een gekwalificeerde gasinstallateur volgens NEN 1078 (in de VS NFPA 54[^s22]). Neem geen Amerikaanse automaatgroottes over.
+De productpagina's geven alleen stromen bij de Amerikaanse spanningen van 208 en 240 V; Tungsten 4000 en 6000 W bestaan in de VS ook voor 277 V[^s4]. [[VERIFY: stroom van Tungsten per model en spanning — productteam]] Ingebouwde gasverwarmers hebben een gasleiding en een elektrische voeding nodig (in de VS 110 V, 2 A)[^s10][^s11]. [[VERIFY: voedingsspanning van ingebouwde gasverwarmers voor de Nederlandse markt — Bromic Benelux distributor]] Groepen worden gedimensioneerd door een gekwalificeerde elektrotechnisch installateur volgens NEN 1010 (in de VS NFPA 70[^s21]); gas door een gekwalificeerde gasinstallateur volgens NEN 1078 (in de VS NFPA 54[^s22]). Neem geen Amerikaanse automaatgroottes over.
 
 - [ ] Capaciteit van de groepenkast en groepen per zone
 - [ ] Gasbelasting en afsluiters; elektrische voeding bij elke ingebouwde gasverwarmer
 
-## Stap 7. Bediening: zones en tijdschema's (verplicht)
+## Stap 7. Zones en tijdschema's met Affinity-bediening (verplicht)
 
-De bediening maakt de getallen uit stap 3 waar. Zonder bediening draait de warmte op vol vermogen tot iemand haar uitzet.
+Elke Bromic-verwarmer hoort bij Affinity Smart-Heat® Controls, die de getallen uit stap 3 waarmaken door elke sectie alleen te verwarmen als ze open is, en alleen zoveel als de avond vraagt. Zonder bediening draait de warmte op vol vermogen tot iemand eraan denkt haar uit te zetten.
 
 | Behoefte | Bediening | Capaciteit |
 |---|---|---|
@@ -379,7 +383,7 @@ De bediening maakt de getallen uit stap 3 waar. Zonder bediening draait de warmt
 | Aan vóór de service, uit bij sluiting | Bromic Smart-Heat app: zones, tijdschema's, timers | Via een compatibele Affinity-regelaar |
 | Bediening van de hele locatie | Uitbreidingsprint: Ethernet en 0–10 V naar een GBS (in BMS-modus is de app uitgeschakeld) | Ingebouwd in de 5-kanaalsregelaar[^s17] |
 
-Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht. De compatibiliteit met Control4, Crestron en Lutron verschilt en kan extra hardware of configuratie vragen[^s2]. [[VERIFY: multi-site or remote management in the app; Tungsten Freestanding Gas controls — productteam]]
+Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht. De compatibiliteit met Control4, Crestron en Lutron verschilt en kan extra hardware of configuratie vragen[^s2]. [[VERIFY: beheer van meerdere locaties of op afstand in de app; bediening van de Tungsten Freestanding Gas — productteam]]
 
 - [ ] Indeling van zones per kanaal
 - [ ] Tijdschema's gekoppeld aan de openingstijden; wandschakelaar voor de sluitende leidinggevende
@@ -389,7 +393,7 @@ Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die ap
 
 ## Stap 8. Vrije afstanden, brandveiligheid en vergunningen
 
-Begin bij de gemeente en de brandweer. Regels worden lokaal vastgesteld en aangevuld. In Nederland gelden NEN 1010 voor de elektrische installatie en NEN 1078 voor gasinstallaties, en de terrasvergunning loopt via de gemeente. [[VERIFY: Dutch fire-safety rules for portable and fixed gas heaters on terraces and under awnings, and the current Dutch codes — Bromic Benelux distributor]] De tabel hieronder noemt de Amerikaanse primaire bronnen die de Engelse versie gebruikt; ze laten zien welke onderwerpen u lokaal moet afstemmen.
+Begin op elke locatie met een gesprek met de gemeente en de brandweer, want de regels worden lokaal vastgesteld en aangevuld. In Nederland gelden NEN 1010 voor de elektrische installatie en NEN 1078 voor gasinstallaties, en de terrasvergunning loopt via de gemeente. [[VERIFY: Nederlandse brandveiligheidsregels voor verplaatsbare en vaste gasverwarmers op terrassen en onder luifels, en de actuele Nederlandse voorschriften — Bromic Benelux distributor]] De tabel hieronder noemt de Amerikaanse primaire bronnen die de Engelse versie gebruikt; ze laten zien welke onderwerpen u lokaal moet afstemmen.
 
 | Onderwerp | Primaire bron (VS) | Aanwijzing |
 |---|---|---|
@@ -402,16 +406,16 @@ Begin bij de gemeente en de brandweer. Regels worden lokaal vastgesteld en aange
 | Gasinstallatie | NFPA 54[^s22] (in Nederland NEN 1078) | Vaste aansluiting, vrije afstanden, ventilatie |
 | Certificering | Keurmerk van Intertek, UL of CSA | Vereist op gas- en elektrische toestellen, ook op verplaatsbare verwarmers[^s3] |
 
-[[VERIFY: current IFC 2024 text of 603.4 and 603.4.2 — specificatie en compliance]]
+[[VERIFY: actuele tekst van IFC 2024, 603.4 en 603.4.2 — specificatie en compliance]]
 
 *Deze tabel verwijst naar primaire bronnen; het is geen juridisch advies. De lokaal geldende regels en de interpretatie van het bevoegd gezag zijn bepalend. Stem af met uw gemeente en de brandweer, en werk met een gekwalificeerde elektrotechnisch installateur of gasinstallateur.*
 
 - [ ] Traject met brandweer en omgevingsvergunning per locatie bevestigd
 - [ ] Vrije afstanden volgens de installatiehandleiding
 
-## Stap 9. Ontwerpservice en uitrol
+## Stap 9. Ontwerp het met ons en rol het uit
 
-De ontwerpservice van Bromic maakt van foto's, plattegronden of tekeningen een keuze van verwarmers, de plaatsing en tekeningen met het verwarmd oppervlak, kosteloos[^s2].
+Deel uw foto's, plattegronden of tekeningen, en de ontwerpservice van Bromic levert voor elke locatie kosteloos de keuze van verwarmers, de plaatsing en tekeningen met het verwarmd oppervlak[^s2].
 
 1. **Standaardiseer het pakket:** één verwarmerfamilie, één opzet van de bediening, één montagedetail per type locatie.
 2. **Neem elke locatie op dezelfde manier op:** de checklists van stap 1–8.
@@ -426,4 +430,4 @@ De ontwerpservice van Bromic maakt van foto's, plattegronden of tekeningen een k
 
 ![Gasten die eten op een verwarmd restaurantterras](img:p-003-006)
 
-Vraag uw ROI-berekening aan en zie wat verwarmde stoelen op uw locatie waard zijn.
+Vraag uw ROI-berekening aan en zie wat een warm, vol terras voor uw zaak waard kan zijn.
