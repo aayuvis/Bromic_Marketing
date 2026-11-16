@@ -1,7 +1,7 @@
 ---
 id: BLOG-30
 type: blog
-title: "Why specify outdoor heating early: designed from the start, not added later"
+title: "Why specify outdoor heating early: warmth planned in from the first drawing"
 slug: why-its-important-to-specify-outdoor-heating-early
 live_url: https://www.bromic.com/blog/why-its-important-to-specify-outdoor-heating-early/
 action: rewrite
@@ -10,11 +10,11 @@ audience: [ARC, BLD, RES, COM]
 stage: [IN]
 cell: ARC-IN
 asset: A24
-summary: "Why outdoor heating belongs in the first drawings: what it decides (circuits or gas, blocking, recess openings, controls, code sign-off), what goes wrong when it is added later, and what to put on the drawings at each stage."
+summary: "The most beautiful heated spaces have their warmth planned in from the first drawing. What early specification decides – circuits or gas, blocking, recess openings, controls and code sign-off – what late additions cost, and what belongs on the drawings at each stage."
 primary_keyword: specify outdoor heating early
 secondary_keywords: [specify outdoor heater, outdoor heater specification, plan patio heating, design outdoor heating]
 ai_prompt: "Why should outdoor heating be specified early in a design project?"
-meta_description: "Specify outdoor heating at schematic design: circuits, blocking, recess openings, controls and code sign-off decided once, not retrofitted."
+meta_description: "Specify outdoor heating early, at schematic design, so circuits, blocking, recess openings, controls and code sign-off are planned from the first drawing."
 cta: {label: "Download the spec kit", asset: A11}
 hero: w-pilarshoots-hr-achtoptien-00-72
 images: [g-rough-in, g-plans]
@@ -24,7 +24,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-IN-01, A11, BLD-IN-01, ARC-PP-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating (press release, syndicated)
@@ -76,21 +76,20 @@ sources:
     supports: "The original post's topics (cost, residential and commercial planning, infrastructure, code, aesthetics) and its Danny Wang video reference"
     verified: true
 ---
+Specify outdoor heating at schematic design, because it shapes decisions that are hard to change once the space is built: a dedicated circuit or gas line to each position, blocking and recess openings in the soffit, the place for the controls, and the path the installation takes through inspection. Planned early, the heat disappears gracefully into the architecture. Left until the end, it can mean opening a finished ceiling, settling for a surface-mounted compromise or living with a heater nobody planned for.
 
-Specify outdoor heating at schematic design, because it decides things that are hard to change once the space is built: a dedicated circuit or gas line to each position, blocking and recess openings in the soffit, where the controls go, and how the installation will pass inspection. Decided early, heat disappears into the architecture. Added later, it means opening a finished ceiling, a surface-mounted compromise or a heater nobody planned for.
+![Covered terrace with slim heaters recessed flush in a white ceiling, the warmth part of the architecture](img:w-pilarshoots-hr-achtoptien-00-72)
 
-![Covered terrace with slim heaters recessed flush in a white ceiling](img:w-pilarshoots-hr-achtoptien-00-72)
+## Why Heating So Often Comes Last
 
-## Why does heating get left until last?
-
-Because nobody owns it at concept stage. Lighting sits with the electrical engineer, shade with the landscape architect, structure with the engineer. Heating falls between them, and clients rarely raise it.
+At concept stage, heating rarely has an owner. Lighting sits with the electrical engineer, shade with the landscape architect and structure with the engineer, so heating falls between them, and clients seldom think to raise it.
 
 **23%** of homeowners rank outdoor heating a top planning priority.[^s1]\
 *Atomik Research for Bromic Heating, 2025* [[VERIFY: survey date, base n and question wording against the Atomik topline — Marketing]]
 
-The patio gets drawn. The heat does not. Then the first cool evening arrives and the space the client paid for sits empty.
+The patio makes it onto the drawings while the warmth to enjoy it is left off. Then the first cool evening arrives, and the space your client invested in sits empty just when it should be full of people.
 
-## What does early specification actually decide?
+## What Early Specification Decides
 
 | Decision | When it is cheap | What it costs if left late |
 |---|---|---|
@@ -101,41 +100,41 @@ The patio gets drawn. The heat does not. Then the first cool evening arrives and
 | Controls and their location | Electrical design | A switch where nobody stands, or no zoning at all |
 | Code path and sign-off | Permit set | A failed inspection, or no heat this season |
 
-Designed from the start, not added later: every row above is a line on a drawing, or a hole in a finished ceiling.
+When heating is planned in from the first drawing, each row above is simply a line on a plan; left until the end, it can become a hole in a finished ceiling.
 
 [[DIAGRAM: Section through a covered terrace showing a recessed heater, blocking, junction box, dedicated circuit back to the panel and the controller by the door, with the 96 in. minimum ceiling mount marked]]
 
-## What should be on the drawings, and when?
+## What Belongs On The Drawings, Stage By Stage
 
-**Schematic design.** Decide which spaces are heated, choose electric or gas, and show heater positions on the reflected ceiling plan. Bromic defines a space as outdoor when at least 30% of its perimeter is permanently open; a partial cover holds a little warmth and helps.[^s2]
+**Schematic design.** Decide which spaces are heated, choose electric or gas, and show heater positions on the reflected ceiling plan. Bromic defines a space as outdoor when at least 30% of its perimeter is permanently open, and a partial cover helpfully holds in a little warmth.[^s2]
 
-**Design development.** Fix the mounting type. Platinum Smart-Heat Electric (2300, 3400 or 4500 W) mounts recessed, on the ceiling or on the wall; recessing needs its kit and cavity drawn now, not at trim.[^s3] Hold Bromic's minimum mounting heights: at least 72 in. above the floor on a wall and at least 96 in. on a ceiling, varying with output.[^s2]
+**Design development.** Fix the mounting type. Platinum Smart-Heat Electric (2300, 3400 or 4500 W) mounts recessed, on the ceiling or on the wall, and recessing needs its kit and cavity drawn at this stage, well before trim.[^s3] Hold our minimum mounting heights: at least 72 in. above the floor on a wall and at least 96 in. on a ceiling, varying with output.[^s2]
 
-**Construction documents.** Put a dedicated circuit to each position on the panel schedule. A 4500 W Platinum draws about 18.8 A at 240 V and 21.6 A at 208 V, so voltage has to be known before the electrician sizes the circuit.[^s4] [[VERIFY: amps and supply voltage per model against the 2026 cut sheet — Product team]] Write the heater into the specification as a basis-of-design product with its controls; [how to specify outdoor infrared heaters](item:ARC-IN-01) gives the 3-part section, and [the pre-wire checklist](item:BLD-IN-01) gives the rough-in.
+**Construction documents.** Put a dedicated circuit to each position on the panel schedule. A 4500 W Platinum draws about 18.8 A at 240 V and 21.6 A at 208 V, so the voltage has to be known before the electrician sizes the circuit.[^s4] [[VERIFY: amps and supply voltage per model against the 2026 cut sheet — Product team]] Write the heater into the specification as a basis-of-design product with its controls; [how to specify outdoor infrared heaters](item:ARC-IN-01) gives the 3-part section, and [the pre-wire checklist](item:BLD-IN-01) covers the rough-in.
 
-![Covered patio ceiling at rough-in with blocking, cable runs and junction boxes](img:g-rough-in)
+![Covered patio ceiling at rough-in with blocking, cable runs and junction boxes in place](img:g-rough-in)
 
-## Why do the controls have to be specified with the heater?
+## Specifying The Controls With The Heater
 
-Because outdoor heat cannot be held by a thermostat, so the controls are how it is used.[^s2] Every heater needs one:
+Outdoor heat cannot be held by a thermostat, so the controls are how your client will enjoy it every evening.[^s2] Every heater is paired with its controller:
 
 - **Platinum and Tungsten Smart-Heat Electric:** an Affinity Smart-Heat On/Off or Dimmer controller and a manual wall switch.
 - **Eclipse:** the Affinity Smart-Heat Eclipse controller, which steps output through 33, 66 and 100% and dims the rim lighting.[^s3]
 - **The app:** zones, schedules and timers through the Bromic Smart-Heat app. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately.[^s3]
 
-Controls are not included with Platinum Electric and are ordered separately, so they belong in the specification and the budget from the start.[^s4] Draw the controller where people stand when they want heat, usually inside by the door, and run its wiring with the heater circuits. See [Bromic controls](https://www.bromic.com/controls/).
+Controls are not included with Platinum Electric and are ordered separately, so they belong in the specification and the budget from the very first issue.[^s4] Draw the controller where people naturally stand when they want warmth, usually inside by the door, and run its wiring with the heater circuits. Explore [Bromic controls](https://www.bromic.com/controls/).
 
-## How does early planning help code sign-off?
+## Early Planning Makes Code Sign-Off Smoother
 
-It puts the code questions in front of the inspector while the design can still change. In the US, electric heaters are installed to NFPA 70, the National Electrical Code[^s5], and gas heaters to NFPA 54, the National Fuel Gas Code.[^s6] Gas adds clearances to combustibles and, under a low ceiling, a heat deflector.[^s2] New all-electric building laws are changing which fuel a project can use at all; see [all-electric outdoor heating codes](item:ARC-PP-01).
+Planning early brings the code questions before the inspector while the design can still change. In the US, electric heaters are installed to NFPA 70, the National Electrical Code[^s5], and gas heaters to NFPA 54, the National Fuel Gas Code.[^s6] Gas adds clearances to combustibles and, under a low ceiling, a heat deflector.[^s2] New all-electric building laws are changing which fuel a project can use at all; read more in [all-electric outdoor heating codes](item:ARC-PP-01).
 
-*This is planning guidance, not code advice. Codes vary by jurisdiction and edition. Confirm every requirement with your local building authority and a licensed electrician or gas fitter, and follow the product installation manual.*
+*This is planning guidance and should not be read as code advice. Codes vary by jurisdiction and edition. Confirm every requirement with your local building authority and a licensed electrician or gas fitter, and follow the product installation manual.*
 
-## Residential or commercial: what changes?
+## Homes And Hospitality Projects
 
-**Residential.** The decision usually sits with the homeowner, who has not been asked. Put heat on the first option sheet beside the pergola and the lighting, and pre-wire every covered patio that could take it.
+**Residential.** The decision usually rests with a homeowner who has never been asked. Put heat on the first option sheet beside the pergola and the lighting, and pre-wire every covered patio that could take it.
 
-**Commercial.** Heat is capacity. Count heated seats and the nights they add, plan zones that match service sections, and decide the fuel against local rules on propane before the permit set. Bromic's design team planned the heat for [Stella's Wine Bar at the Post Oak Hotel](https://www.bromic.com/case-study/eclipse-pendant-and-platinum-electric-at-stellas-wine-bar/), Houston, as a 2D heat plan with Eclipse pendants and Platinum Electric heaters on dimmers; at [The Industrie](https://www.bromic.com/case-study/albany-zero-emissions-multifamily-building/), Albany's all-electric multifamily building, the roof deck uses Eclipse heaters in place of gas fire tables.
+**Commercial.** For a venue, heat is capacity. Count the heated seats and the nights they add, plan zones that follow the service sections, and settle the fuel against local rules on propane before the permit set. Our design team planned the heat for [Stella's Wine Bar at the Post Oak Hotel](https://www.bromic.com/case-study/eclipse-pendant-and-platinum-electric-at-stellas-wine-bar/), Houston, as a 2D heat plan with Eclipse pendants and Platinum Electric heaters on dimmers. At [The Industrie](https://www.bromic.com/case-study/albany-zero-emissions-multifamily-building/), Albany's all-electric multifamily building, the roof deck uses Eclipse heaters in place of gas fire tables.
 
 The live post's video with designer Danny Wang of DW Design & Build belongs here. [[VERIFY: embed the Danny Wang video and paraphrase only what he says on it — Marketing]][^s7]
 
@@ -143,21 +142,21 @@ The live post's video with designer Danny Wang of DW Design & Build belongs here
 
 ### When should outdoor heaters be specified?
 
-At schematic design, when spaces and services are being set. By construction documents the heater, its circuit or gas supply, its mount and its controls should all be on the drawings.
+At schematic design, while spaces and services are being set. By construction documents, the heater, its circuit or gas supply, its mount and its controls should all be on the drawings.
 
 ### What does it cost to add outdoor heating later?
 
-It depends on the building, which is why it should be priced early. Late additions typically mean opening finished soffits or walls and patching them; Bromic's guidance is to quote all-in: hardware, utilities, permit fees and installation.[^s2]
+That depends on the building, which is exactly why it is worth pricing early. Late additions typically mean opening finished soffits or walls and patching them; our guidance is to quote all-in, covering hardware, utilities, permit fees and installation.[^s2]
 
 ### Do I need to specify controls separately?
 
-Yes. Platinum and Tungsten Electric need an Affinity On/Off or Dimmer controller and a wall switch; Eclipse needs the Eclipse controller. App features need compatible Affinity controls, sold separately.
+Yes. Platinum and Tungsten Electric need an Affinity On/Off or Dimmer controller and a wall switch, and Eclipse needs the Eclipse controller. App features need compatible Affinity controls, sold separately.
 
 ### Can Bromic help with the layout?
 
-Yes. Bromic's [complimentary design service](https://www.bromic.com/design-your-space/) turns photos, plans or drawings into a heater selection, placement and coverage drawing.[^s3] More for specifiers: [architects and designers](https://www.bromic.com/architects-designers/).
+Yes. Our [complimentary design service](https://www.bromic.com/design-your-space/) turns photos, plans or drawings into a heater selection, placement and coverage drawing.[^s3] There is more for specifiers on our [architects and designers](https://www.bromic.com/architects-designers/) page.
 
-Write heat into the drawings: download the spec kit.
+Write the warmth into your drawings with the Bromic spec kit.
 
 [^s1]: Atomik Research for Bromic Heating (press release, February 2026).
 [^s2]: Bromic Heating, Planning Guide US v1.2, 2021.

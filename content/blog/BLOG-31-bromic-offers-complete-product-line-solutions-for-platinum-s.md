@@ -1,7 +1,7 @@
 ---
 id: BLOG-31
 type: blog
-title: "Platinum Smart-Heat Electric: three outputs, three ways to mount, and the controls that run them"
+title: "Platinum Smart-Heat Electric heater: outputs, mounting and the controls that run them"
 slug: bromic-offers-complete-product-line-solutions-for-platinum-smart-heat-electric-series
 live_url: https://www.bromic.com/blog/bromic-offers-complete-product-line-solutions-for-platinum-smart-heat-electric-series/
 action: keep-fix
@@ -10,11 +10,11 @@ audience: [ARC, RES]
 stage: [IN]
 cell: ARC-IN
 asset: A24
-summary: "The Platinum Smart-Heat Electric range in one place for specifiers: 2300, 3400 and 4500 W with their coverage and current draw, wall, ceiling and recessed mounting, both recess kits, and the Affinity controls each heater needs."
+summary: "The Platinum Smart-Heat Electric range, gathered in one place for specifiers – 2300, 3400 and 4500 W with their coverage and current draw, wall, ceiling and recessed mounting, both recess kits, and the Affinity controls each heater is paired with."
 primary_keyword: platinum electric heater
 secondary_keywords: [recessed electric patio heater, 4500w outdoor heater, platinum smart-heat electric specs, low clearance recess kit]
 ai_prompt: "What sizes does the Bromic Platinum electric heater come in and how is it mounted?"
-meta_description: "Platinum Smart-Heat Electric in 2300, 3400 and 4500 W: coverage, amps, wall, ceiling and recessed mounting, recess kits and the controls to specify."
+meta_description: "The Platinum electric heater in 2300, 3400 and 4500 W: coverage, amps, wall, ceiling and recessed mounting, recess kits and the controls to specify."
 cta: {label: "Download the spec kit", asset: A11}
 hero: w-bromic-platinum-electric-4500w
 images: [w-bromic-shoot-may-11-2023-54, w-australia-sydney-greenwich-residence-2]
@@ -24,7 +24,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-IN-01, ARC-IN-KB1, BLD-IN-KB1, RES-BY-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -76,14 +76,13 @@ sources:
     supports: "US electric heaters follow ANSI/NFPA 70 (NEC); check with the local building authority"
     verified: true
 ---
+Platinum Smart-Heat Electric is a slim, sealed radiant heater that brings refined warmth to the spaces you design, in three outputs: 2300 W for about 65 ft², 3400 W for about 108 ft² and 4500 W for about 143 ft².[^s2] It comes in black or white, in Classic or marine-grade stainless, and mounts on a wall, on a ceiling pole or recessed flush with one of two recess kits.[^s1] Every installation is paired with an Affinity controller or a manual wall switch, sold separately.[^s2]
 
-The Platinum Smart-Heat Electric is a slim, sealed radiant heater in three outputs: 2300 W for about 65 ft², 3400 W for about 108 ft² and 4500 W for about 143 ft².[^s2] It comes in black or white, in Classic or marine-grade stainless, and mounts on a wall, on a ceiling pole or recessed flush with one of two recess kits.[^s1] Every installation also needs an Affinity controller or a manual wall switch, sold separately.[^s2]
+![Platinum Electric heater recessed flush in a timber-lined ceiling, almost invisible until it glows](img:w-bromic-shoot-may-11-2023-54)
 
-![Platinum Electric heater recessed flush in a timber-lined ceiling](img:w-bromic-shoot-may-11-2023-54)
+## Choosing The Output For Each Space
 
-## Which output does each space need?
-
-Choose by the area you want warm, then check the circuit. The figures below are from the current bromic.com spec table.[^s2] [[VERIFY: values read from bromic.com; confirm against the 2026 cut sheet — Product team]]
+Choose by the area you want to keep warm, then check the circuit. The figures below come from the current bromic.com spec table.[^s2] [[VERIFY: values read from bromic.com; confirm against the 2026 cut sheet — Product team]]
 
 | Model | Coverage (approx.) | Current at 240 V | Current at 208 V | Weight |
 |---|---|---|---|---|
@@ -91,34 +90,34 @@ Choose by the area you want warm, then check the circuit. The figures below are 
 | Platinum Electric 3400 W | 108 ft² | 14.2 A | 16.3 A | 22 lb |
 | Platinum Electric 4500 W | 143 ft² | 18.8 A | 21.6 A | 33 lb |
 
-The 4500 W model joined the range in 2023, completing it.[^s6] It is the longest of the three, so check the run of soffit or beam before you commit to it. For a whole space, the free design service lays the heaters out from your drawings: [Design Your Space](https://www.bromic.com/design-your-space/).
+The 4500 W model joined the range in 2023, completing the family.[^s6] It is the longest of the three, so check the run of soffit or beam before you commit to it. For a whole space, our free design service lays out the heaters from your drawings: [Design Your Space](https://www.bromic.com/design-your-space/).
 
-## How can Platinum be mounted?
+## Mounting Platinum To Suit The Architecture
 
-Three ways, all with the 304 stainless steel chassis and a ceramic glass face.[^s2]
+Platinum mounts in three ways, each with the 304 stainless steel chassis and a ceramic glass face.[^s2]
 
 - **Wall.** At least 72 in above the floor, on the wall bracket.[^s2]
-- **Ceiling.** At least 96 in above the floor, on the 8 in stainless pole that comes in the box, or a longer [mounting pole](https://www.bromic.com/product/platinum-electric-mounting-poles/) sold separately.[^s2]
-- **Recessed.** Flush with the ceiling, with the standard [Recess Kit](https://www.bromic.com/product/platinum-electric-recess-kit/)[^s4] or the [Low-Clearance Recess Kit](https://www.bromic.com/product/platinum-electric-low-clearance-recess-kit/)[^s3] where the cavity is shallow.
+- **Ceiling.** At least 96 in above the floor, on the 8 in stainless pole supplied in the box, or on a longer [mounting pole](https://www.bromic.com/product/platinum-electric-mounting-poles/) sold separately.[^s2]
+- **Recessed.** Flush with the ceiling, with the standard [Recess Kit](https://www.bromic.com/product/platinum-electric-recess-kit/)[^s4] or, where the cavity is shallow, the [Low-Clearance Recess Kit](https://www.bromic.com/product/platinum-electric-low-clearance-recess-kit/).[^s3]
 
 <div class="diagram">Diagram: the three mounting positions in section – wall bracket at 72 in minimum, ceiling pole at 96 in minimum, and flush recess in a soffit, with the Low-Clearance kit's 7.1 in cavity marked.</div>
 
-## Does the Low-Clearance Recess Kit fit the 4500 W?
+## The Low-Clearance Recess Kit And The 4500 W
 
-The current product page says yes: it lists all three outputs, in both Platinum and Platinum Marine, in black or white.[^s3] The 2023 version of this post said 2300 and 3400 W only.[^s6] [[VERIFY: Low-Clearance Recess Kit compatibility with 4500 W (product page says yes; 2023 post said no) — Product team]]
+According to the current product page, the kit fits all three outputs, in both Platinum and Platinum Marine, in black or white.[^s3] The 2023 version of this post listed 2300 and 3400 W only.[^s6] [[VERIFY: Low-Clearance Recess Kit compatibility with 4500 W (product page says yes; 2023 post said no) — Product team]]
 
-What the kit changes:
+The kit opens up spaces a deeper box cannot reach:
 
 - Cavity depth as shallow as 7.1 in, for pergolas, porch ceilings and soffits that cannot take a deeper box.[^s3]
 - An integrated cooling fan that needs its own power supply, separate from the heater feed. Show both on the electrical drawings.[^s3]
 
-For detail on recessing in a soffit, see [recessing a heater in a soffit](item:ARC-IN-KB1).
+For more detail, see [recessing a heater in a soffit](item:ARC-IN-KB1).
 
-![Platinum Electric heaters recessed in a white ceiling above a long dining table](img:w-australia-sydney-greenwich-residence-2)
+![Platinum Electric heaters recessed in a white ceiling above a long dining table set for guests](img:w-australia-sydney-greenwich-residence-2)
 
-## Which controls does Platinum need?
+## The Controls Every Platinum Heater Needs
 
-Controls are not included and are never an extra: a heater without one cannot be switched. Specify one of these with every Platinum Electric installation:[^s2][^s5]
+Controls are not included with the heater, and every installation needs one, because a heater without a control cannot be switched. Specify one of these with every Platinum Electric installation:[^s2][^s5]
 
 | Control | What it does | Note |
 |---|---|---|
@@ -127,14 +126,14 @@ Controls are not included and are never an extra: a heater without one cannot be
 | Manual wall switch | Simple on/off at the wall | No app or scheduling |
 | Affinity expansion board | Connects to a building management or home automation system | Used with an Affinity controller |
 
-Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.[^s5] The live post named older controllers (a wireless dimmer, a master remote and a home-automation plug-in); the Affinity range replaces them. Our [controls setup guide](item:RES-BY-01) covers zones and schedules, and the [controls overview](https://www.bromic.com/controls/) has the compatibility chart.
+Wi-Fi and app features need compatible Affinity Smart-Heat controls, sold separately.[^s5] The live post named older controllers (a wireless dimmer, a master remote and a home-automation plug-in), which the Affinity range now replaces. Our [controls setup guide](item:RES-BY-01) covers zones and schedules, and the [controls overview](https://www.bromic.com/controls/) has the compatibility chart.
 
-## What to put on the drawings
+## What To Show On The Drawings
 
 - Model and output for each zone, with coverage checked against the plan.
 - Mounting method and, for recessed units, which kit and the cavity depth.
 - A dedicated circuit sized for each heater's current, plus the fan supply for a Low-Clearance kit. See [breaker size for a 4500 W heater](item:BLD-IN-KB1).
-- The controller and where the wall switch or keypad sits.
+- The controller, and where the wall switch or keypad sits.
 
 US electric heaters are installed to ANSI/NFPA 70 (the NEC).[^s7] Confirm circuits, mounting heights and clearances with the local building authority and a licensed electrician.
 
@@ -146,7 +145,7 @@ About 143 ft². The 3400 W covers about 108 ft² and the 2300 W about 65 ft².[^
 
 ### Can Platinum Electric be used near the coast?
 
-Yes, in its Marine version, built in AISI 316 stainless steel. See the [Platinum Electric Marine](https://www.bromic.com/product/platinum-smart-heat-electric-marine/) page.
+Yes, in its Marine version, crafted in AISI 316 stainless steel. Discover more on the [Platinum Electric Marine](https://www.bromic.com/product/platinum-smart-heat-electric-marine/) page.
 
 ### Are controls included with the heater?
 
@@ -156,4 +155,4 @@ No. Affinity controllers and the manual wall switch are sold separately, and eve
 
 220–240 V or 208 V.[^s2]
 
-The full specification, coverage tables and details are in the Architect Spec Kit.
+You will find the full specification, coverage tables and details in the Architect Spec Kit.

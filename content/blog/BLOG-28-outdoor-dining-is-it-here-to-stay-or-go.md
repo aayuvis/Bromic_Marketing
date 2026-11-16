@@ -1,7 +1,7 @@
 ---
 id: BLOG-28
 type: blog
-title: "Is outdoor dining here to stay? What the 2025–26 numbers say for restaurants"
+title: "Is outdoor dining here to stay? What the 2025–26 numbers mean for outdoor dining in winter"
 slug: outdoor-dining-is-it-here-to-stay-or-go
 live_url: https://www.bromic.com/blog/outdoor-dining-is-it-here-to-stay-or-go/
 action: rewrite
@@ -10,11 +10,11 @@ audience: [COM]
 stage: [AW]
 cell: COM-AW
 asset: A24
-summary: "Sourced evidence that outdoor dining is now permanent (guest preference, sales share, city licensing programmes), what that means for keeping a patio open in the cold months, and how to put a heated patio into a revenue model."
+summary: "Outdoor dining has become a permanent, much-loved part of how people eat out. The sourced evidence – guest preference, sales share and city licensing – what it means for keeping your patio welcoming through the cold months, and how to bring a heated patio into your revenue model."
 primary_keyword: outdoor dining in winter
 secondary_keywords: [is outdoor dining here to stay, restaurant outdoor seating trends, keep patio open in winter]
 ai_prompt: "Is outdoor dining here to stay for restaurants?"
-meta_description: "Outdoor dining is now licensed, permanent and in demand. The sourced numbers, and how restaurants keep the patio open and earning in cold months."
+meta_description: "Outdoor dining is here to stay, licensed and in demand. The sourced numbers, and how restaurants keep outdoor dining in winter warm, open and earning."
 cta: {label: "Get your ROI assessment", asset: A21}
 hero: w-wrigleys-mansion-eclipse-portable-heater-4
 images: [w-stellas-wine-bar-houston-tx-3]
@@ -24,7 +24,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [A01c, COM-IN-01, COM-AW-01, COM-PP-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: OpenTable (press release, syndicated by Perishable News)
@@ -118,22 +118,21 @@ sources:
     supports: "US commercial electricity 13.54 cents/kWh, May 2026"
     verified: false
 ---
+Yes. Outdoor dining has grown from a pandemic workaround into licensed, permanent seating that guests actively seek out: 55% of Americans say they prefer to sit outside when the weather is nice,[^s1] and New York City's permanent programme had nearly 2,450 setups in 2025.[^s5] Whether a patio earns its keep is decided in the cold months. A covered, heated and well-controlled patio stays open and full, while an unheated one empties as soon as guests feel the chill.
 
-Yes. Outdoor dining has moved from a pandemic workaround to licensed, permanent seating that guests seek out: 55% of Americans say they prefer to sit outside when the weather is nice,[^s1] and New York City's permanent programme had nearly 2,450 setups in 2025.[^s5] What decides whether a patio earns is the cold months. A covered, heated, controlled patio stays open; an unheated one closes when guests feel the chill.
+![Dusk terrace below a Spanish-style mansion, with two glowing arched Eclipse freestanding heaters warming the tables](img:w-wrigleys-mansion-eclipse-portable-heater-4)
 
-![Dusk terrace below a Spanish-style mansion with two glowing arched Eclipse freestanding heaters](img:w-wrigleys-mansion-eclipse-portable-heater-4)
+## Guests Love A Table Outside
 
-## Do guests still want to eat outside?
+Guests still want to eat outdoors, and they stay longer when they are comfortable. In an OpenTable survey of 2,000 US adults in April 2025, 55% preferred an outdoor table in good weather and 34% would rather brave unexpected weather than give it up.[^s1] OpenTable's Canadian data for March 2025 to February 2026 shows outdoor dining up 24% year over year, with outdoor diners at the table for 127 minutes on average, 20% longer than the overall average.[^s2]
 
-They do, and they stay longer when they can. In an OpenTable survey of 2,000 US adults in April 2025, 55% preferred an outdoor table in good weather and 34% would rather brave unexpected weather than give it up.[^s1] OpenTable's Canadian data for March 2025 to February 2026 shows outdoor dining up 24% year over year, with outdoor diners at the table for 127 minutes on average, 20% longer than the overall average.[^s2]
+A longer stay brings more drinks and desserts, with fewer turns. Comfort is what sets the limit, because a guest who feels cold will leave early.
 
-Longer stays mean more drinks and desserts and fewer turns. Comfort is what limits them: a guest who gets cold leaves early.
+## A Meaningful Share Of Sales
 
-## Is outdoor seating a meaningful part of sales?
+For many operators, outdoor seating carries real weight. In a National Restaurant Association survey, 35% of operators with outdoor seating said it accounted for more than 40% of average daily sales, rising to 41% among full-service restaurants.[^s3] That survey is from 2021; [[VERIFY: a more recent operator figure for outdoor sales share — Hospitality sales]]
 
-For many operators, yes. In a National Restaurant Association survey, 35% of operators with outdoor seating said it accounted for more than 40% of average daily sales, 41% among full-service restaurants.[^s3] That survey is from 2021; [[VERIFY: a more recent operator figure for outdoor sales share — Hospitality sales]]
-
-It matters more in a soft year. In the Association's 2026 report, 61% of full-service operators said traffic was lower in 2025 than in 2024, and 85% said building on-premises business will matter more in 2026.[^s4] A patio is on-premises capacity you already pay for.
+It matters even more in a softer year. In the Association's 2026 report, 61% of full-service operators said traffic was lower in 2025 than in 2024, and 85% said building on-premises business will matter more in 2026.[^s4] Your patio is on-premises capacity you are already paying for.
 
 | Signal | Figure | Source |
 |---|---|---|
@@ -143,36 +142,36 @@ It matters more in a soft year. In the Association's 2026 report, 61% of full-se
 | Full-service operators with lower traffic in 2025 | 61% | NRA, 2026[^s4] |
 | Setups in Dining Out NYC | nearly 2,450 | NYC, 2025[^s5] |
 
-The live post's 70%, 69%, 90% and 19% figures had no source or year, so they have been replaced.[^s12]
+The live post's 70%, 69%, 90% and 19% figures had no source or year, so we have replaced them.[^s12]
 
-## Are cities keeping outdoor dining?
+## Cities Are Making Outdoor Dining Permanent
 
-The large ones have made it permanent, with rules. Dining Out NYC lets sidewalk setups operate year-round and roadway setups from 1 April to 29 November, and is more than two and a half times the size of the pre-COVID sidewalk cafe programme.[^s5] England made pavement licences permanent from 31 March 2024, for up to two years, and lists heaters among permitted furniture.[^s6]
+The largest cities have made outdoor dining permanent, with clear rules. Dining Out NYC lets sidewalk setups operate year-round and roadway setups from 1 April to 29 November, and is more than two and a half times the size of the pre-COVID sidewalk cafe programme.[^s5] England made pavement licences permanent from 31 March 2024, for up to two years, and lists heaters among permitted furniture.[^s6]
 
-Rules also shape the heat. New York City revoked permission for propane heaters in outdoor dining from 1 June 2021,[^s7] and requires outdoor electric radiant heaters to meet the NYC Electrical Code.[^s8]
+Those rules shape the heat as well. New York City revoked permission for propane heaters in outdoor dining from 1 June 2021,[^s7] and requires outdoor electric radiant heaters to meet the NYC Electrical Code.[^s8]
 
 *Rules vary by city and change often. Confirm what applies with your local authority having jurisdiction, and use a licensed electrician or gas fitter. See [the permit checklist](item:COM-PP-01).*
 
-## How do restaurants keep the patio open when it is cold?
+## Keeping The Patio Inviting When The Weather Turns
 
-Cover, heat and control it.
+The restaurants that keep their patios full through the cooler months plan the cover and the warmth together, with controls that follow the evening.
 
-- **Cover what you can.** A roof or awning holds warmth and allows fixed heaters overhead.
-- **Heat the seat, not the space.** Radiant heat warms guests, not air. Over tables, Platinum Smart-Heat Electric mounts in the soffit or on the wall; where nothing can be mounted, the Eclipse Smart-Heat Freestanding Electric or the Tungsten Smart-Heat Freestanding Gas moves with the layout.[^s10]
-- **Control it.** Platinum runs on an Affinity Smart-Heat On/Off or Dimmer controller and a wall switch; Eclipse on the Eclipse controller, stepping through 33, 66 and 100%. Zones and schedules come through the Bromic Smart-Heat app; Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately.[^s10] [[VERIFY: control options for Tungsten Freestanding Gas — Product team]]
-- **Plan service.** A longer walk from kitchen and bar needs a stocked server station outside.
+- **Cover what you can.** A roof or awning holds the warmth in and allows fixed heaters overhead.
+- **Warm the guests where they sit.** Radiant heat warms people directly, without heating the air around them. Over tables, Platinum Smart-Heat Electric mounts in the soffit or on the wall; where nothing can be mounted, the Eclipse Smart-Heat Freestanding Electric or the Tungsten Smart-Heat Freestanding Gas moves with the layout.[^s10]
+- **Control it precisely.** Platinum runs on an Affinity Smart-Heat On/Off or Dimmer controller and a wall switch, and Eclipse on the Eclipse controller, stepping through 33, 66 and 100%. Zones and schedules come through the Bromic Smart-Heat app; Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately.[^s10] [[VERIFY: control options for Tungsten Freestanding Gas — Product team]]
+- **Plan the service.** A longer walk from the kitchen and bar calls for a stocked server station outside.
 
-Patio heaters are not waterproof. Ratings differ by model (Tungsten Smart-Heat Electric is IPX4; Platinum Electric Marine is IPX5), so check the model before it goes where rain reaches.[^s11] [[VERIFY: IP rating per model — Product team]]
+Patio heaters are not waterproof. Ratings differ by model (Tungsten Smart-Heat Electric is IPX4; Platinum Electric Marine is IPX5), so check the model before it goes anywhere the rain can reach.[^s11] [[VERIFY: IP rating per model — Product team]]
 
-![Covered restaurant patio with Eclipse pendant heaters glowing above tables](img:w-stellas-wine-bar-houston-tx-3)
+![Covered restaurant patio with Eclipse pendant heaters glowing softly above the tables](img:w-stellas-wine-bar-houston-tx-3)
 
-At [Hotel Skansen](https://www.bromic.com/case-study/hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-heat-freestanding-heaters/) in Sweden, Eclipse freestanding heaters with the Eclipse Dimmer Controller keep the SAND restaurant terrace in use. [Christopher's at Wrigley Mansion](https://www.bromic.com/case-study/christophers-at-wrigley-mansion/), Phoenix, added a patio with Eclipse freestanding heaters chosen not to spoil a historic design. [Del Frisco's](https://www.bromic.com/case-study/del-friscos-double-eagle-steakhouse/) at Westfield Century City added Platinum Electric heaters on a wireless controller and dimmer for year-round patio dining.
+At [Hotel Skansen](https://www.bromic.com/case-study/hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-heat-freestanding-heaters/) in Sweden, Eclipse freestanding heaters with the Eclipse Dimmer Controller keep guests on the SAND restaurant terrace. [Christopher's at Wrigley Mansion](https://www.bromic.com/case-study/christophers-at-wrigley-mansion/), Phoenix, added a patio with Eclipse freestanding heaters, chosen to sit gracefully within a historic design. [Del Frisco's](https://www.bromic.com/case-study/del-friscos-double-eagle-steakhouse/) at Westfield Century City added Platinum Electric heaters on a wireless controller and dimmer for year-round patio dining.
 
-## Is a heated patio worth the investment?
+## What A Heated Patio Can Return
 
-Run the numbers on margin, not revenue. The method in [the patio heater ROI article](item:COM-IN-01): added revenue = heated seats × turns × average check × extra nights × share of seats filled; take your contribution margin, subtract running cost, and divide installed cost by the monthly result.
+Work the numbers on margin rather than revenue. The method in [the patio heater ROI article](item:COM-IN-01) is added revenue = heated seats × turns × average check × extra nights × share of seats filled; take your contribution margin, subtract running cost, and divide installed cost by the monthly result.
 
-Illustrative only, with that article's assumptions: 40 heated seats, 1.5 turns, $45 average check, 60 extra nights, 50% of seats filled and 30% margin give $81,000 added revenue and $24,300 added margin. Forty seats at 20 ft² a seat is 800 ft², which takes seven Platinum Electric 4500W heaters on a partly covered patio on cool evenings (800 ÷ (143 × 0.85) = 6.6), each with Affinity controls. Running cost is kW × hours × $/kWh: 7 × 4.5 × 5 × 60 = 9,450 kWh, about $1,330 at 14.07¢/kWh[^s9] (about $1,280 at the 13.54¢ May 2026 rate the five-year cost model uses[^s13]). Net gain is $22,970 a year; on a $35,000 installed cost (a placeholder: 7 × $5,000), payback is about 18 months. [[VERIFY: benchmarks — Hospitality sales; align the 14.07¢ and 13.54¢ rates — Finance]] Energy cost is a real concern for operators (82% of full-service operators call it a significant challenge),[^s4] which is why zoning and scheduling matter.
+Illustrative only, with that article's assumptions: 40 heated seats, 1.5 turns, $45 average check, 60 extra nights, 50% of seats filled and 30% margin give $81,000 added revenue and $24,300 added margin. Forty seats at 20 ft² a seat is 800 ft², which takes seven Platinum Electric 4500W heaters on a partly covered patio on cool evenings (800 ÷ (143 × 0.85) = 6.6), each with Affinity controls. Running cost is kW × hours × $/kWh: 7 × 4.5 × 5 × 60 = 9,450 kWh, about $1,330 at 14.07¢/kWh[^s9] (about $1,280 at the 13.54¢ May 2026 rate the five-year cost model uses[^s13]). Net gain is $22,970 a year; on a $35,000 installed cost (a placeholder: 7 × $5,000), payback is about 18 months. [[VERIFY: benchmarks — Hospitality sales; align the 14.07¢ and 13.54¢ rates — Finance]] Energy cost is a real concern for operators (82% of full-service operators call it a significant challenge),[^s4] which is why zoning and scheduling matter so much.
 
 ## Frequently asked
 
@@ -182,13 +181,13 @@ Yes. 55% of Americans prefer to dine outdoors in good weather,[^s1] and major ci
 
 ### Should a restaurant choose electric or gas heaters?
 
-It depends on fuel access and local rules. Where propane is restricted or there is no gas line, electric radiant heat is usually the answer; see [restaurant heating](https://www.bromic.com/restaurants/).
+That depends on your fuel access and local rules. Where propane is restricted or there is no gas line, electric radiant heat is usually the right choice; explore [restaurant heating](https://www.bromic.com/restaurants/).
 
 ### Can Bromic plan a patio?
 
-Yes. The [complimentary design service](https://www.bromic.com/design-your-space/) draws heater selection, placement and coverage from your plans or photos.
+Yes. Our [complimentary design service](https://www.bromic.com/design-your-space/) works out heater selection, placement and coverage from your plans or photos.
 
-For the wider picture, see the [outdoor hospitality trends](item:A01c). Find out what your empty seats are worth: get your ROI assessment.
+For the wider picture, read the [outdoor hospitality trends](item:A01c). Then discover what your empty seats could be worth with your own ROI assessment.
 
 [^s1]: OpenTable, US consumer survey (Walr), April 2025.
 [^s2]: OpenTable, Canada diner data, March 2025 – February 2026.
