@@ -1,17 +1,17 @@
 ---
 id: BLOG-34
 type: blog
-title: "Pergolen, Cabanas und Lamellendächer: wie Sie eine Außenkonstruktion beheizen"
+title: "Pergolen, Cabanas und Lamellendächer: Wärme für Ihre Außenkonstruktion"
 action: keep-fix
 audience: [ARC, RES, BLD]
 stage: [AW]
 cell: ARC-AW
 asset: A24
-summary: "Warum Dach und Strahlungswärme in dieselbe Zeichnung gehören, welcher Heizstrahler zu einem Pergolabalken, einem Lamellendach oder einer offenen Rasenfläche passt und was vor dem Bau der Konstruktion zu planen ist."
+summary: "Warum das Dach über Ihrem Außenraum und die Strahlungswärme darunter in dieselbe Zeichnung gehören, welcher Heizstrahler zu welcher Konstruktion passt und was Sie planen sollten, bevor sie gebaut wird."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie beheizt man eine Pergola oder ein Lamellendach am besten?"
-meta_description: "Pergola, Cabana oder Lamellendach beheizen: welcher Bromic-Heizstrahler zu welcher Konstruktion passt, wie er montiert wird, welche Steuerung er braucht und was vorverkabelt werden muss."
+meta_description: "Machen Sie Pergola, Cabana oder Lamellendach zum Raum fürs ganze Jahr: der passende Heizstrahler, Montage, Steuerung und was vorverkabelt wird."
 cta: {label: "Den Report Outdoor Living Trends 2026 herunterladen", asset: A01}
 hero: w-mountain-view-retreat-platinum-electric-rece
 images: [w-strx-230222-bromic-dc-8, w-platinumelectricflushmountedw-lowclearancere]
@@ -21,7 +21,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-AW-01, ARC-IN-KB1, BLD-IN-01, RES-PP-KB1]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: de
 translation_of: BLOG-34
 translation_status: machine-draft
@@ -78,19 +78,19 @@ sources:
     verified: false
 ---
 
-Beheizen Sie eine Außenkonstruktion mit Strahlungsheizern, die an ihr befestigt sind: in ein Lamellendach oder eine Untersicht eingelassen, an einem Pergolabalken oder an einer Wand montiert. Strahlungswärme wärmt die Menschen unter dem Dach, nicht die Luft, und eine teilweise Überdachung hält einen Teil dieser Wärme zurück.[^s1] Wählen Sie den Heizstrahler passend zur Konstruktion, planen Sie Stromkreis und Steuerung, bevor das Dach geschlossen wird, und der Bereich funktioniert an kalten Abenden ebenso wie an warmen.
+Am schönsten wärmen Sie eine Außenkonstruktion mit Strahlungsheizern, die an ihr befestigt sind: eingelassen in ein Lamellendach oder eine Untersicht, montiert an einem Pergolabalken oder an einer Wand. Strahlungswärme wärmt die Menschen unter dem Dach statt der Luft, und eine teilweise Überdachung hält einen Teil dieser Wärme zurück.[^s1] Wählen Sie den Heizstrahler passend zur Konstruktion, planen Sie Stromkreis und Steuerung, bevor das Dach geschlossen wird, und Ihr Außenraum empfängt Sie an kalten Abenden ebenso wie an warmen.
 
-![Platinum-Electric-Heizstrahler, eingelassen in ein Lamellendach über einer Außenküche](img:w-mountain-view-retreat-platinum-electric-rece)
+![Platinum-Electric-Heizstrahler, eingelassen in ein Lamellendach, wärmt eine Außenküche](img:w-mountain-view-retreat-platinum-electric-rece)
 
-## Warum gehören Konstruktion und Heizung zusammen?
+## Gemeinsam geplant, von der ersten Skizze an
 
-Eine Pergola, eine Cabana oder ein Lamellendach schafft einen Raum, ohne das Haus zu vergrößern. Sie halten Sonne und Regen ab, aber nicht die Kälte. Das Dach ist zugleich der Ort, an dem die besten Positionen für Heizstrahler liegen, deshalb zeichnet man beides am besten zusammen.
+Eine Pergola, eine Cabana oder ein Lamellendach schenkt Ihrem Zuhause einen weiteren Raum, ohne das Haus zu vergrößern. Sie schützt vor Sonne und Regen, gegen die abendliche Kühle allein aber kaum. Zugleich bietet das Dach die besten Positionen für einen Heizstrahler, deshalb zeichnet man beides am besten von Anfang an zusammen.
 
-Darum ging es in der Fassung dieses Beitrags von 2023, entstanden mit dem Lamellendach-Hersteller StruXure: Dessen Gründer Scott Selzer argumentierte, dass ein Bereich, in dem sich niemand wohlfühlt, ungenutzt bleibt, und Michael Smith von Bromic nannte die Verbindung von Konstruktion und Heizung eine naheliegende Ergänzung für das Leben im Freien.[^s6] [[VERIFY: Michael Smith's current title (pages differ) and permission to keep both comments — Marketing]]
+Dieser Gedanke prägte die Fassung dieses Beitrags von 2023, entstanden mit dem Lamellendach-Hersteller StruXure. Dessen Gründer Scott Selzer argumentierte, dass ein Bereich, in dem sich niemand wohlfühlt, ungenutzt bleibt, und Michael Smith von Bromic beschrieb die Verbindung von Konstruktion und Heizung als naheliegende Ergänzung für das Leben im Freien.[^s6] [[VERIFY: aktuelle Funktionsbezeichnung von Michael Smith (die Seiten weichen ab) und Erlaubnis, beide Aussagen zu behalten — Marketing]]
 
-Die Überdachung hilft auch dem Heizstrahler. Unter einem teilweise geschlossenen Dach sammelt sich ein Teil der Wärme zu einer „Wärmewolke“, die die Strahlungswärme ergänzt.[^s1] Lassen Sie aber genug Seiten offen: Der Planungsleitfaden von Bromic behandelt einen Bereich nur dann als Außenbereich, wenn mindestens 30 % seines Umfangs dauerhaft offen sind.[^s1] Wer eine Konstruktion mit Screens oder Glas rundum schließt, kann ändern, wie sie eingestuft wird; fragen Sie vorher bei Ihrem Bauamt nach.
+Auch dem Heizstrahler hilft die Überdachung. Unter einem teilweise geschlossenen Dach sammelt sich ein Teil der Wärme zu einer „Wärmewolke“, die die Strahlungswärme ergänzt.[^s1] Lassen Sie dennoch genug Seiten offen, denn der Planungsleitfaden von Bromic behandelt einen Bereich nur so lange als Außenbereich, wie mindestens 30 % seines Umfangs dauerhaft offen sind.[^s1] Wer eine Konstruktion mit Screens oder Glas rundum schließt, kann ändern, wie sie eingestuft wird; fragen Sie vorher bei Ihrem Bauamt nach.
 
-## Welcher Heizstrahler passt zu welcher Konstruktion?
+## Der passende Heizstrahler für jede Konstruktion
 
 | Konstruktion | Beste Wahl | Montage | Steuerung |
 |---|---|---|---|
@@ -99,41 +99,41 @@ Die Überdachung hilft auch dem Heizstrahler. Unter einem teilweise geschlossene
 | Wand einer Cabana oder eines Pavillons | Platinum oder Tungsten Electric | Wandmontage, mindestens 1,83 m über dem Boden | Affinity On/Off oder Dimmer oder ein Wandschalter |
 | Rasen oder Deck neben der Konstruktion | Eclipse Freestanding | Auf beschwertem Fuß, auf Rollen | Eclipse Dimmer Controller und Fernbedienung, im Lieferumfang |
 
-Quellen: Produktseiten[^s2][^s3][^s5][^s7] und Lookbook 2026.[^s4] Die Heizfläche beträgt ca. 6–13 m² bei Platinum Electric,[^s2] 6–15 m² bei Tungsten Electric[^s3] und 11 m² bei Eclipse Freestanding.[^s4]
+Diese Empfehlungen stützen sich auf unsere Produktseiten[^s2][^s3][^s5][^s7] und das Lookbook 2026.[^s4] Die Heizfläche beträgt ca. 6–13 m² bei Platinum Electric,[^s2] 6–15 m² bei Tungsten Electric[^s3] und 11 m² bei Eclipse Freestanding.[^s4]
 
-![Platinum-Electric-Heizstrahler, bündig in eine weiße Holzdecke eingelassen, mit Low-Clearance Recess Kit](img:w-platinumelectricflushmountedw-lowclearancere)
+![Platinum-Electric-Heizstrahler, mit dem Low-Clearance Recess Kit bündig in eine weiße Holzdecke über der Terrasse eingelassen](img:w-platinumelectricflushmountedw-lowclearancere)
 
-## Wie lässt man einen Heizstrahler in ein Lamellendach ein?
+## Nahtlos eingefügt in ein Lamellendach
 
-Lamellendächer und Pergolarahmen haben flache Hohlräume. Das [Low-Clearance Recess Kit](https://www.bromic.com/product/platinum-electric-low-clearance-recess-kit/) setzt einen Platinum Electric bündig in einen Hohlraum von nur ca. 180 mm Tiefe.[^s5] Sein eingebauter Lüfter braucht eine eigene Stromversorgung, getrennt von der des Heizstrahlers; zeigen Sie deshalb beide Zuleitungen in der Zeichnung.[^s5] Stimmen Sie die Positionen der Heizstrahler mit dem Hersteller der Konstruktion ab, damit der Rahmen den Einbaurahmen trägt und die Lamellen am Heizstrahler vorbeigehen. Zum Detail in der Untersicht siehe [Heizstrahler in eine Untersicht einlassen](item:ARC-IN-KB1).
+Lamellendächer und Pergolarahmen haben meist flache Hohlräume. Das [Low-Clearance Recess Kit](https://www.bromic.com/product/platinum-electric-low-clearance-recess-kit/) setzt einen Platinum Electric bündig in einen Hohlraum von nur ca. 180 mm Tiefe.[^s5] Sein eingebauter Lüfter braucht eine eigene Stromversorgung, getrennt von der des Heizstrahlers; zeigen Sie deshalb beide Zuleitungen in der Zeichnung.[^s5] Stimmen Sie die Positionen der Heizstrahler mit dem Hersteller der Konstruktion ab, damit der Rahmen den Einbausatz trägt und die Lamellen beim Drehen am Heizstrahler vorbeigehen. Zum Detail in der Untersicht lesen Sie [Heizstrahler in eine Untersicht einlassen](item:ARC-IN-KB1).
 
 <div class="diagram">Diagramm: Lamellenpergola im Schnitt mit einem Platinum Electric im Randbalken, dem Hohlraum von ca. 180 mm, den getrennten Zuleitungen für Heizstrahler und Lüfter und der beheizten Fläche über den Sitzplätzen.</div>
 
-## Welche Steuerung braucht eine Konstruktion?
+## Eine Steuerung, geplant zusammen mit dem Dach
 
-Planen Sie sie zusammen mit dem Dach. Ein Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät betreibt elektrische Heizstrahler nach Zonen, mit Zeitplänen und Timern in der Bromic Smart-Heat App; ein manueller Wandschalter ist die einfachste Lösung.[^s2][^s3] WLAN- und App-Funktionen setzen kompatible Affinity-Steuerungen voraus, die separat erhältlich sind.[^s4] Laufen Licht und Lamellen der Konstruktion über ein Hausautomationssystem, bindet die Affinity-Erweiterungsplatine die Heizstrahler dort ein. Siehe die [Übersicht der Steuerungen](https://www.bromic.de/).
+Ihre Steuerung verdient von Anfang an einen Platz im Plan. Ein Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät betreibt elektrische Heizstrahler nach Zonen, mit Zeitplänen und Timern in der Bromic Smart-Heat App, während ein manueller Wandschalter die einfachste Wahl ist.[^s2][^s3] WLAN- und App-Funktionen setzen kompatible Affinity-Steuergeräte voraus, die separat erhältlich sind.[^s4] Laufen Licht und Lamellen der Konstruktion bereits über ein Hausautomationssystem, bindet die Affinity-Erweiterungsplatine auch die Heizstrahler dort ein. In der [Übersicht zur Steuerung](https://www.bromic.com/controls/) (auf Englisch) finden Sie die gesamte Serie.
 
-## Was vor dem Bau der Konstruktion zu klären ist
+## Bevor die Konstruktion gebaut wird
 
 - Positionen der Heizstrahler in den Zeichnungen der Konstruktion, abgeglichen mit der Heizfläche.
 - Hohlraumtiefe an jeder Einbauposition.
-- Ein Stromkreis je Heizstrahler, dazu die Versorgung des Lüfters im Einbaurahmen, vorverlegt, bevor die Decke geschlossen wird. Siehe [Vorverkabelung einer Terrasse](item:BLD-IN-01).
+- Ein Stromkreis je Heizstrahler, dazu die Versorgung des Lüfters im Einbausatz, vorverlegt, bevor die Decke geschlossen wird. Siehe [Vorverkabelung einer Terrasse](item:BLD-IN-01).
 - Standort von Steuergerät und Wandschalter.
 
-Elektrische Heizstrahler werden in Deutschland nach DIN VDE 0100 angeschlossen; klären Sie Stromkreise, Abstände und Höhen mit Ihrem Bauamt und einem eingetragenen Elektrofachbetrieb ab. [[VERIFY: current VDE and DVGW rules for outdoor heaters — Partner Deutschland]] Der Planungsservice von Bromic zeichnet Ihnen anhand Ihrer Pläne kostenlos einen Wärmeplan ([bromic.de](https://www.bromic.de/)).
+In den USA folgen elektrische Heizstrahler dem NEC (ANSI/NFPA 70);[^s1] in Deutschland werden sie nach DIN VDE 0100 angeschlossen. Klären Sie Stromkreise, Abstände und Höhen mit Ihrem Bauamt und einem eingetragenen Elektrofachbetrieb ab. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Partner Deutschland]] Unser [Planungsservice](https://www.bromic.com/design-your-space/) zeichnet Ihnen anhand Ihrer Pläne kostenlos einen Wärmeplan; in Deutschland erreichen Sie uns über [bromic.de](https://www.bromic.de/).
 
 ## Häufige Fragen
 
 ### Kann ich eine bestehende Pergola mit Heizstrahlern nachrüsten?
 
-Ja. Balken- oder Wandmontage funktioniert an den meisten bestehenden Konstruktionen; der Einbau ins Dach gelingt am einfachsten, bevor das Dach fertig ist.[^s2][^s3]
+Ja. Balken- oder Wandmontage passt zu den meisten bestehenden Konstruktionen, und der Einbau ins Dach gelingt am einfachsten, bevor das Dach fertig ist.[^s2][^s3]
 
 ### Entweicht die Wärme durch offene Lamellen?
 
-Strahlungswärme wärmt die Menschen darunter, nicht die Luft, deshalb funktioniert sie auch bei offenen Lamellen; ein geschlossenes Dach hält etwas mehr Wärme zurück.[^s1]
+Strahlungswärme wärmt die Menschen darunter statt der Luft, deshalb bleibt es auch bei offenen Lamellen behaglich, und ein geschlossenes Dach hält etwas mehr Wärme zurück.[^s1]
 
 ### Brauche ich eine Stange unter einem Pergolabalken?
 
-Nicht immer. Ein Heizstrahler kann an einer Halterung am Balken sitzen oder an einer Stange, die ihn auf die richtige Höhe über den Sitzplätzen bringt.[^s2]
+Nicht immer. Ein Heizstrahler kann an einer Halterung am Balken sitzen oder an einer Stange, die ihn auf die richtige Höhe über Ihren Sitzplätzen bringt.[^s2]
 
-Die Trenddaten für 2026 zeigen, wohin sich Außenräume entwickeln.
+Wohin sich Außenräume als Nächstes entwickeln, zeigen Ihnen die Trenddaten für 2026.

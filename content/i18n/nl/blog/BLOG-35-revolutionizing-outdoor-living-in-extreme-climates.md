@@ -1,17 +1,17 @@
 ---
 id: BLOG-35
 type: blog
-title: "Een modelwoning in Juneau, Alaska: buitenleven in zones gepland voor een strenge winter"
+title: "Buitenverwarming in een koud klimaat: een modelwoning in Juneau, Alaska, gepland in warme zones"
 action: convert
 audience: [RES, ARC]
 stage: [AW]
 cell: RES-AW
 asset: A24
-summary: "Hoe Bauer/Clifton Interiors de buitenruimtes van een modelwoning in Juneau als verwarmde zones plande, welke Bromic-verwarmers waar kwamen, en wat elk project in een koud klimaat ervan kan leren. Een volledige case study volgt volgens het Bromic-sjabloon zodra de details bevestigd zijn."
+summary: "Hoe Bauer/Clifton Interiors de buitenruimtes van een modelwoning in Juneau plande als verwarmde zones, welke Bromic-verwarmers waar kwamen en wat elke woning in een koud klimaat ervan kan meenemen. Een volledige case study volgens het Bromic-sjabloon volgt zodra de details zijn bevestigd."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
-ai_prompt: "Hoe ontwerp je een buitenruimte die je in een koud klimaat kunt gebruiken?"
-meta_description: "Een modelwoning in Juneau, Alaska plande het terras als verwarmde zones met Bromic Tungsten en Platinum Electric. Wat het ontwerp deed en wat je ervan kunt leren."
+ai_prompt: "Hoe ontwerp je een buitenruimte die je ook in een koud klimaat kunt gebruiken?"
+meta_description: "Buitenverwarming in een koud klimaat: een modelwoning in Juneau, Alaska, plande het terras in warme zones met Bromic Tungsten en Platinum Electric."
 cta: {label: "Download het rapport Outdoor Living Trends 2026", asset: A01}
 hero: w-dsc07397-1
 owner_review: marketing
@@ -20,7 +20,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES, RES-AW-01, RES-PP-01]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: nl
 translation_of: BLOG-35
 translation_status: machine-draft
@@ -70,7 +70,7 @@ sources:
     verified: true
 ---
 
-Een koud klimaat sluit buitenleven niet uit; het verandert alleen hoe je de ruimte plant. In een modelwoning in Juneau, Alaska verdeelde Bauer/Clifton Interiors de buitenruimte in zones – loungen, eten, ontvangen en de looproutes daartussen – en gaf elke zone de warmte die ze nodig had: Bromic Tungsten Electric boven de lounge, Platinum Electric boven de eettafel, en verwarmers zo geplaatst dat ze nooit een uitzicht of een looproute blokkeren.[^s1]
+Een koud klimaat is geen reden om buitenleven op te geven; het vraagt alleen om een doordachter plan. In een modelwoning in Juneau, Alaska, verdeelde Bauer/Clifton Interiors de buitenruimte in zones om te loungen, te eten, te ontvangen en de looproutes daartussen, en gaf elke zone de warmte die ze nodig had: Bromic Tungsten Electric boven de lounge, Platinum Electric boven de eettafel, en elke verwarmer zo geplaatst dat hij nooit een uitzicht of een looproute onderbreekt.[^s1]
 
 ![Woning met houten gevelbekleding, een loungeplek op het terras en verwarmers aan de muur onder de dakrand](img:w-dsc07397-1)
 
@@ -91,13 +91,13 @@ Een koud klimaat sluit buitenleven niet uit; het verandert alleen hoe je de ruim
 
 Bron: het oorspronkelijke artikel dat dit stuk vervangt.[^s1]
 
-## De opdracht
+## Een terras voor elk seizoen
 
-De winters in Juneau zijn lang en streng. De ontwerpers wilden dat de buitenruimtes het hele jaar gebruikt werden, niet alleen in de zomer.[^s1]
+De winters in Juneau zijn lang en veeleisend. De ontwerpers wilden dat het gezin het hele jaar van de buitenruimtes zou genieten, lang nadat de zomeravonden voorbij waren.[^s1]
 
-## Het ontwerp: warmte per zone
+## Warmte afgestemd op hoe het gezin leeft
 
-In plaats van één groot terras gelijkmatig te verwarmen, kreeg elke activiteit in het plan een eigen zone, en elke zone de warmte die erbij paste.[^s1]
+In plaats van één groot terras gelijkmatig te verwarmen, gaf het plan elke activiteit een eigen zone, en elke zone de warmte die erbij paste.[^s1]
 
 | Zone | Wat er gebeurt | Warmte |
 |---|---|---|
@@ -108,32 +108,32 @@ In plaats van één groot terras gelijkmatig te verwarmen, kreeg elke activiteit
 
 <div class="diagram">Diagram: plattegrond van het terras met de vier zones omlijnd, de posities van de verwarmers gemarkeerd en het bereik van elke verwarmer over de zitplaatsen – een opdracht om opnieuw te tekenen zodra het aantal verwarmers en de indeling van het project bevestigd zijn.</div>
 
-## Wat elk project in een koud klimaat ervan kan leren
+## Lessen voor elke woning in een koud klimaat
 
-- **Plan zones, geen vierkante meters.** Verwarm waar mensen zitten, eten en staan. Een pad heeft meer aan licht en een vrije route dan aan een verwarmer.
+- **Plan rond de momenten.** Breng warmte naar waar mensen zitten, eten en staan; een pad is beter gediend met licht en een vrije route dan met een eigen verwarmer.
 - **Kies de verwarmer bij de zone.** Tungsten Electric levert 2000–6000 W voor ongeveer 6–15 m²;[^s3] Platinum Electric levert 2300–4500 W voor ongeveer 6–13 m² en hangt slank of verzonken boven je hoofd.[^s4]
-- **Houd verwarmers uit de weg.** Monteer ze aan muren, balken of plafonds, zodat meubels kunnen schuiven en het uitzicht open blijft.[^s1]
-- **Stralingswarmte past bij de kou.** Ze verwarmt mensen en oppervlakken in plaats van lucht, dus ze werkt ook bij een lichte wind.[^s6]
-- **Geef elke zone een eigen bediening.** Met een Affinity Smart-Heat On/Off- of Dimmer-regelaar, of een handbediende wandschakelaar, verwarm je de eettafel zonder een lege lounge mee te verwarmen.[^s3][^s4] Zones, tijdschema's en timers stel je in met de Bromic Smart-Heat app; wifi- en app-functies vereisen compatibele Affinity-bediening, die apart wordt verkocht.[^s5]
+- **Houd verwarmers elegant uit de weg.** Gemonteerd aan muren, balken of plafonds laten ze meubels vrij bewegen en houden ze elk uitzicht open.[^s1]
+- **Stralingswarmte past bij de kou.** Ze verwarmt mensen en oppervlakken in plaats van de lucht, en blijft dus werken bij een lichte wind.[^s6]
+- **Geef elke zone een eigen bediening.** Met een Affinity Smart-Heat On/Off- of Dimmer-regelaar, of een handmatige wandschakelaar, verwarmt een gezin de eettafel terwijl een lege lounge uit blijft.[^s3][^s4] Zones, schema's en timers stel je in met de Bromic Smart-Heat app; wifi- en app-functies vereisen compatibele Affinity-bediening, die apart wordt verkocht.[^s5]
 
-Lees hoe je verwarming plant voor een terras dat je het hele jaar gebruikt in [zo gebruik je je terras het hele jaar](item:RES-AW-01) en [waar je terrasverwarmers plaatst](item:RES-PP-01). Bekijk de collecties Tungsten en Platinum op [bromic.nl](https://www.bromic.nl/), of vraag de [ontwerpservice](https://www.bromic.nl/) van Bromic om een gratis warmte-indeling.
+Lees hoe je warmte inplant voor een terras dat je het hele jaar gebruikt in [zo gebruik je je terras het hele jaar](item:RES-AW-01) en [waar je terrasverwarmers plaatst](item:RES-PP-01). Bekijk de [Tungsten-collectie](https://www.bromic.com/tungsten-collection/) en de [Platinum-collectie](https://www.bromic.com/platinum-collection/) (Engelstalig), of vraag onze [ontwerpservice](https://www.bromic.com/design-your-space/) om een gratis warmte-indeling; in Nederland bereik je ons via [bromic.nl](https://www.bromic.nl/).
 
-## De volledige case study
+## Het volledige verhaal volgt
 
-Dit artikel wordt een volledige Bromic-case study zodra de projectgegevens met de ontwerper zijn bevestigd: aantal verwarmers en vermogens, de bediening, de warmte-indeling en eventuele uitspraken van het team, alleen gebruikt met schriftelijke toestemming. Het volgt het [sjabloon voor case studies](item:CS-TEMPLATE) en komt bij de andere te staan op [bromic.com/case-studies](https://www.bromic.com/case-studies/). [[VERIFY: neem contact op met Bauer/Clifton Interiors voor de projectgegevens en toestemming — marketing]]
+Zodra de projectgegevens met de ontwerper zijn bevestigd, groeit dit artikel uit tot een volledige Bromic-case study, met het aantal verwarmers en hun vermogens, de bediening, de warmte-indeling en eventuele woorden van het team, alleen gebruikt met hun schriftelijke toestemming. Het volgt het [sjabloon voor case studies](item:CS-TEMPLATE) en komt naast de andere te staan op [bromic.com/case-studies](https://www.bromic.com/case-studies/). [[VERIFY: neem contact op met Bauer/Clifton Interiors voor de projectgegevens en toestemming — marketing]]
 
 ## Veelgestelde vragen
 
 ### Kun je een terras gebruiken in een winter in Alaska?
 
-Deze modelwoning in Juneau is ervoor ontworpen: aparte zones om te loungen, te eten en te ontvangen, elk met verwarmers die erbij passen.[^s1]
+Deze modelwoning in Juneau is precies daarvoor ontworpen, met aparte zones om te loungen, te eten en te ontvangen, elk verwarmd door verwarmers die erbij passen.[^s1]
 
 ### Welke Bromic-verwarmers zijn er gebruikt?
 
-Tungsten Electric in de loungezone en Platinum Electric boven de eettafel.[^s1]
+Tungsten Electric verwarmt de loungezone en Platinum Electric hangt boven de eettafel.[^s1]
 
 ### Hoeveel verwarmers heeft een zone nodig?
 
-Dat hangt af van het oppervlak, de overkapping en hoe open de plek ligt. Platinum Electric 4500 W verwarmt ongeveer 13 m²;[^s4] Tungsten Electric 6000 W ongeveer 15 m².[^s3]
+Dat hangt af van het oppervlak, de overkapping en hoe open de plek ligt. Platinum Electric 4500 W verwarmt ongeveer 13 m²,[^s4] en Tungsten Electric 6000 W ongeveer 15 m².[^s3]
 
-De trendcijfers van 2026 laten zien hoe huiseigenaren plannen voor buitenleven het hele jaar door.
+Wil je zien hoe huiseigenaren plannen voor buitenleven het hele jaar door, ontdek dan de trendcijfers van 2026.

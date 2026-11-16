@@ -1,17 +1,17 @@
 ---
 id: BLOG-38
 type: blog
-title: "De kunst en wetenschap van het ontwerpen van buitenruimtes, met Frank Cavanaugh van Aria Group"
+title: "De kunst en wetenschap van buitenruimteontwerp, met Frank Cavanaugh van Aria Group"
 action: keep-fix
 audience: [ARC, COM]
 stage: [AW]
 cell: ARC-AW
 asset: A24
-summary: "Architect Frank Cavanaugh van Aria Group over het lezen van de locatie, werken met regelgeving en hygiëne-eisen, sfeer creëren en buitenterrassen plannen die in elk seizoen presteren."
+summary: "Architect Frank Cavanaugh van Aria Group over het lezen van de locatie, werken met regelgeving en hygiëne-eisen, sfeer creëren en buitenterrassen plannen die gasten in elk seizoen verwelkomen."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Waar moeten architecten op letten bij het ontwerpen van een buitenterras voor de horeca?"
-meta_description: "Frank Cavanaugh van Aria Group over context, lokale regels, sfeer en flexibiliteit bij het ontwerpen van horecaterrassen, en waar verwarming in het plan hoort."
+meta_description: "Buitenruimteontwerp met Frank Cavanaugh van Aria Group: locatie, lokale regels, sfeer en flexibiliteit, en waar verwarming in het plan thuishoort."
 cta: {label: "Download de specificatiekit voor architecten", asset: A11}
 hero: w-stellas-wine-bar-houston-tx-3
 owner_review: marketing
@@ -20,7 +20,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-AW-01, ARC-IN-01, COM-AW-01, A11]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: nl
 translation_of: BLOG-38
 translation_status: machine-draft
@@ -70,31 +70,31 @@ sources:
     verified: false
 ---
 
-Een buitenterras slaagt als de locatie, de regels en de sfeer samen worden ontworpen. Dat is de rode draad van de eerste aflevering van het tweede seizoen van Designing Outdoor Spaces, waarin Frank Cavanaugh, Principal bij Aria Group Architects, met Evan Troxel en Cormac Phalen van Archispeak praat over het lezen van de context, werken met regelgeving en hygiëne-eisen, en ruimtes plannen die het hele jaar comfortabel en bruikbaar blijven[^s1].
+De buitenterrassen die bijblijven, ontstaan wanneer de locatie, de regels en de sfeer samen worden ontworpen. Dat idee loopt door de eerste aflevering van het tweede seizoen van Designing Outdoor Spaces, waarin Frank Cavanaugh, Principal bij Aria Group Architects, met Evan Troxel en Cormac Phalen van Archispeak praat over het lezen van de context, werken met regelgeving en hygiëne-eisen, en ruimtes plannen die in elk seizoen comfortabel en uitnodigend blijven[^s1].
 
-![Overdekt restaurantterras met ronde Eclipse-verwarmers die boven de tafels gloeien](img:w-stellas-wine-bar-houston-tx-3)
+![Overdekt restaurantterras met ronde Eclipse-verwarmers die zacht boven de tafels gloeien](img:w-stellas-wine-bar-houston-tx-3)
 
-## Wie is Frank Cavanaugh?
+## Maak kennis met Frank Cavanaugh
 
-Frank Cavanaugh is Principal bij [Aria Group](https://www.ariainc.com/)[^s3][^s4], een Amerikaans bureau voor architectuur en interieur dat bekendstaat om werk voor hotels, horeca, entertainment en bedrijven. Het oorspronkelijke artikel beschrijft tientallen jaren praktijk en de gewoonte om esthetiek en functie in evenwicht te brengen, zodat een ruimte werkt voor gasten én voor de exploitant[^s1]. De aflevering verscheen op 4 februari 2025[^s2].
+Frank Cavanaugh is Principal bij [Aria Group](https://www.ariainc.com/)[^s3][^s4], een Amerikaans bureau voor architectuur en interieur dat bekendstaat om werk voor hotels, horeca, entertainment en bedrijven. Het oorspronkelijke artikel beschrijft tientallen jaren praktijk en een talent om esthetiek en functie in evenwicht te brengen, zodat een ruimte prachtig werkt voor gasten en voor de exploitant[^s1]. De aflevering verscheen op 4 februari 2025[^s2].
 
-## Begin bij de context
+## Het begint bij de omgeving
 
-Vóór er ook maar iets getekend wordt, bestudeert Cavanaugh de omgeving: uitzicht, voetgangers- en verkeersstromen, omgevingsgeluid, klimaat, zonnestand en de heersende wind[^s1]. Een ruimte die bij haar omgeving past, is makkelijker comfortabel te maken, en dezelfde analyse vertelt je waar schaduw, afscherming en warmte nodig zijn.
+Voordat hij een lijn trekt, bestudeert Cavanaugh de omgeving: het uitzicht, voetgangers- en verkeersstromen, omgevingsgeluid, klimaat, de stand van de zon en de heersende wind[^s1]. Een ruimte die in harmonie is met haar omgeving is veel makkelijker comfortabel te maken, en dezelfde zorgvuldige analyse laat zien waar schaduw, afscherming en warmte nodig zijn.
 
-## Behandel de regels als ontwerpinput
+## Laat de regels het ontwerp vormen
 
-Bestemmingsplan, bouwregels en hygiëne-eisen bepalen de constructie, de veiligheidsvoorzieningen en hoe de ruimte functioneert, aldus het artikel[^s1]. Wie ze vanaf de eerste schets meeneemt, hoeft later niet opnieuw te ontwerpen. Voor verwarming betekent dat: leg de eisen voor elektra of gas vroeg vast. In de VS volgen elektrische verwarmers NFPA 70, de National Electrical Code[^s5][^s6]; in Nederland gelden NEN 1010 voor elektrische installaties en NEN 1078 voor gasinstallaties. De eisen verschillen per situatie; stem ze af met je gemeente en een gekwalificeerde elektrotechnisch installateur of gasinstallateur. [[VERIFY: current Dutch codes for outdoor heater installations — Bromic Benelux distributor]]
+Zoals het artikel vertelt, bepalen bestemmingsplan, bouwregels en hygiëne-eisen de constructie, de veiligheidsvoorzieningen en hoe de ruimte functioneert[^s1]. Wie ze vanaf de eerste schets meeneemt, bespaart het project later een herontwerp. Voor verwarming betekent dat: leg de eisen voor elektra of gas vroeg vast. In de VS volgen elektrische verwarmers NFPA 70, de National Electrical Code[^s5][^s6]; in Nederland gelden NEN 1010 voor elektrische installaties en NEN 1078 voor gasinstallaties. De eisen verschillen per situatie; stem ze af met je gemeente en een erkend elektrotechnisch installateur of gasinstallateur. [[VERIFY: huidige Nederlandse normen voor de installatie van buitenverwarmers — Bromic Benelux distributor]]
 
-## Creëer de sfeer
+## Een sfeer die gasten bijblijft
 
-Voor Cavanaugh is sfeer de kern van succes: verlichting, beplanting, waterelementen, en materialen en kleuren die passen bij de gewenste stemming, zodat gasten zich op hun gemak voelen en willen blijven[^s1].
+Voor Cavanaugh is sfeer de kern van het succes van een ruimte, met verlichting, beplanting, waterelementen, en materialen en kleuren gekozen voor de gewenste stemming, zodat gasten zich op hun gemak voelen en willen blijven[^s1].
 
-## Plan voor flexibiliteit en slijtage
+## Ruimtes die zich aanpassen en blijven
 
-Ruimtes moeten zich aanpassen aan het weer en aan verschillend gebruik, met verstelbare afscheidingen, verwarming en flexibele zitplaatsen, en ze moeten duurzame materialen en indelingen hebben die looproutes en bediening ondersteunen[^s1].
+Hij ontwerpt ruimtes die zich aanpassen aan het weer en aan verschillend gebruik, met verstelbare afscheidingen, verwarming en flexibele zitplaatsen, en die lang meegaan, met duurzame materialen en indelingen die looproutes en bediening ondersteunen[^s1].
 
-## Wat het betekent voor warmte in het plan
+## Waar warmte in het plan thuishoort
 
 | Idee uit de aflevering | Beslissing over verwarming |
 |---|---|
@@ -103,19 +103,19 @@ Ruimtes moeten zich aanpassen aan het weer en aan verschillend gebruik, met vers
 | Sfeer telt | Kies verwarmers die in het plafond verdwijnen of ook als verlichting dienen |
 | Flexibel in elk seizoen | Deel verwarmers in zones in, zodat een half vol terras niet volledig wordt verwarmd |
 
-Voor een overdekt terras zoals hierboven geven Eclipse-verwarmers aan pendelstangen warmte en dimbaar licht uit één armatuur, en liggen verzonken Platinum Electric-verwarmers vlak in de overstek. Elk wordt aangestuurd met Affinity Smart-Heat-bediening: de Eclipse-regelaar voor Eclipse, een On/Off- of Dimmer-regelaar voor Platinum, met een wandschakelaar. Tijdschema's via de app vereisen compatibele Affinity-bediening, die apart wordt verkocht. Kijk op [bromic.nl](https://www.bromic.nl/) of vraag een gratis indeling aan via de ontwerpservice [Design Your Space](https://www.bromic.nl/).
+Voor een overdekt terras zoals hierboven geven Eclipse-verwarmers aan pendelstangen warmte en dimbaar licht uit één armatuur, terwijl ingebouwde Platinum Electric-verwarmers vlak in de overstek liggen. Elk wordt bediend met Affinity Smart-Heat-bediening, met de Eclipse-regelaar voor Eclipse en een On/Off- of Dimmer-regelaar voor Platinum, naast een wandschakelaar. Schema's via de app vragen om compatibele Affinity-bediening, die apart wordt verkocht. Bekijk de [pagina over verwarming voor restaurants](https://www.bromic.com/restaurants/) (Engelstalig) of vraag een gratis indeling aan via [Design Your Space](https://www.bromic.com/design-your-space/); in Nederland bereik je ons via [bromic.nl](https://www.bromic.nl/).
 
 ## Veelgestelde vragen
 
 ### Waar kan ik de aflevering beluisteren?
-Op de [afleveringspagina](https://www.bromic.com/podcast/mastering-outdoor-design/) (Engelstalig), met audiolinks en een transcript.
+Je vindt haar op de [afleveringspagina](https://www.bromic.com/podcast/mastering-outdoor-design/) (Engelstalig), met audiolinks en een transcript.
 
 ### Wie presenteren Designing Outdoor Spaces?
-De architecten Evan Troxel en Cormac Phalen van Archispeak, in samenwerking met Bromic Heating.
+De architecten Evan Troxel en Cormac Phalen van Archispeak presenteren de serie in samenwerking met Bromic Heating.
 
 ### Wanneer hoort verwarming in het ontwerp van een buitenterras?
-Tegelijk met de constructie en de installaties, zodat groepen, montage en bediening getekend worden in plaats van achteraf toegevoegd.
+Breng haar in op hetzelfde moment als de constructie en de installaties, zodat groepen, montage en bediening vanaf het begin getekend worden in plaats van achteraf toegevoegd.
 
 <div class="newsletter">Inschrijving voor de nieuwsbrief, één regel (454 Creative koppelt dit aan het HubSpot-nieuwsbriefformulier): "Ontvang elke nieuwe aflevering van Designing Outdoor Spaces per e-mail."</div>
 
-Klaar om warmte in de tekeningen op te nemen? Download de specificatiekit voor architecten: een driedelige specificatie, details en een tabel met verwarmd oppervlak.
+Klaar om warmte in de tekeningen op te nemen? Download de specificatiekit voor architecten, met een driedelige specificatie, details en een tabel met verwarmd oppervlak.

@@ -1,17 +1,17 @@
 ---
 id: BLOG-33
 type: blog
-title: "Platinum Electric Marine: der von Lloyd's Register zugelassene Heizstrahler für offene Decks"
+title: "Platinum Electric Marine: von Lloyd's Register zugelassene Wärme für offene Decks"
 action: keep-fix
 audience: [COM, ARC]
 stage: [CO]
 cell: COM-CO
 asset: A24
-summary: "Was die Zulassung durch Lloyd's Register für die Decks von Superyachten und Kreuzfahrtschiffen bedeutet, woraus Platinum Electric Marine gebaut ist, seine drei Leistungsstufen und Heizflächen, wie er montiert wird und welche Steuerung er braucht."
+summary: "Wie Platinum Electric Marine Strahlungswärme auf die Decks von Superyachten und Kreuzfahrtschiffen bringt: was die Zulassung durch Lloyd's Register bedeutet, wie er gebaut und montiert wird, seine drei Leistungsstufen und die Affinity-Steuerung, mit der er arbeitet."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Welche Heizstrahler sind für den Einsatz auf Yachten und Kreuzfahrtschiffen zugelassen?"
-meta_description: "Platinum Electric Marine: von Lloyd's Register zugelassen, Edelstahl AISI 316, IPX5, 2300–4500 W für 6–13 m² offenes Deck, mit Affinity-Steuerung."
+meta_description: "Platinum Electric Marine: von Lloyd's Register zugelassener Heizstrahler aus Edelstahl AISI 316, IPX5, 2300–4500 W für ca. 6–13 m² Deck."
 cta: {label: "Planungsgespräch vereinbaren", asset: A07}
 hero: w-marine-grade-platinum-electric-white-lady-le
 images: [w-platinum-marine-ritz-carlton-evrima-jack-har-2, w-my-lel-4-lr]
@@ -21,7 +21,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [COM-CO-01, RES-CO-KB1, RES-BY-01, CS-CANDIDATES]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: de
 translation_of: BLOG-33
 translation_status: machine-draft
@@ -64,19 +64,19 @@ sources:
     verified: true
 ---
 
-Der Platinum Smart-Heat Electric Marine von Bromic ist ein Heizstrahler, den Lloyd's Register für den Einsatz auf See zugelassen hat, zertifiziert nach der Umweltkategorie ENV5.[^s2] Nach Angaben von Bromic war es die erste Heizstrahler-Serie für den Außenbereich mit dieser Zulassung.[^s2] Er ist aus seewasserbeständigem Edelstahl AISI 316 gebaut, nach IPX5 geschützt und in 2300, 3400 und 4500 W für ca. 6 bis 13 m² Deck erhältlich, gesteuert über Affinity-Steuergeräte.[^s1]
+Wenn der Anker fällt und die Sonne hinter dem Horizont versinkt, hält der Platinum Smart-Heat Electric Marine von Bromic das Deck so warm, dass Sie zum Abendessen draußen bleiben können. Er ist von Lloyd's Register für den Einsatz auf See zugelassen und nach der Umweltkategorie ENV5 zertifiziert,[^s2] und nach Angaben von Bromic war er die erste Heizstrahler-Serie für den Außenbereich mit dieser Zulassung.[^s2] Gebaut aus seewasserbeständigem Edelstahl AISI 316 und nach IPX5 geschützt, gibt es ihn mit 2300, 3400 und 4500 W für ca. 6 bis 13 m² Deck, gesteuert über Affinity-Steuergeräte.[^s1]
 
 [[VERIFY: hier das Zertifikat von Lloyd's Register verlinken (Nummer, Geltungsbereich, Ablaufdatum); weder auf bromic.com noch in einer öffentlichen Suche gefunden — Produktteam]]
 
-![Lounge auf dem Achterdeck einer Superyacht in der Abenddämmerung mit Platinum-Electric-Marine-Heizstrahlern, in die Decke eingebaut](img:w-marine-grade-platinum-electric-white-lady-le)
+![Lounge auf dem Achterdeck einer Superyacht in der Abenddämmerung, gewärmt von Platinum-Electric-Marine-Heizstrahlern, die in die Decke eingebaut sind](img:w-marine-grade-platinum-electric-white-lady-le)
 
-## Was bedeutet die Zulassung durch Lloyd's Register für einen Deck-Heizstrahler?
+## Was die Zulassung durch Lloyd's Register an Deck bedeutet
 
-Lloyd's Register ist eine Klassifikationsgesellschaft. Ihre Typzulassung bestätigt, dass ein Produkt unter den Bedingungen geprüft wurde, denen es an Bord ausgesetzt ist. Für ein offenes Deck heißt das: Salzsprühnebel und schwere See.[^s3] Für eine Werft, einen Schiffsarchitekten oder das Team eines Eigners ist ein zugelassenes Produkt ein Punkt weniger, der bei der Besichtigung begründet werden muss.
+Lloyd's Register ist eine Klassifikationsgesellschaft, und ihre Typzulassung zeigt Ihnen, dass ein Produkt unter den Bedingungen geprüft wurde, denen es an Bord begegnet. Auf einem offenen Deck sind das Salzsprühnebel und schwere See.[^s3] Für eine Werft, einen Schiffsarchitekten oder das Team eines Eigners ist ein zugelassener Heizstrahler ein Punkt weniger, der bei der Besichtigung begründet werden muss.
 
-Bromic hat die Marine-Serie für diese Bedingungen konstruiert: ein Gehäuse, das Bewegungen im Inneren begrenzt, damit der Heizstrahler auch bei Seegang weiterarbeitet, und eine versiegelte Front aus Glaskeramik, die die Wärme gleichmäßig verteilt und kaum sichtbares Licht abgibt.[^s3] Strahlungswärme passt auch deshalb zu Decks, weil sie Menschen und Oberflächen wärmt statt der Luft, sodass ein Lufthauch sie nicht so schnell davonträgt.[^s5] Siehe [funktionieren Infrarot-Heizstrahler bei Wind](item:RES-CO-KB1).
+Wir haben die Marine-Serie für das Leben auf See konstruiert. Ihr Gehäuse begrenzt Bewegungen im Inneren, damit der Heizstrahler auch bei Seegang zuverlässig arbeitet, und eine versiegelte Front aus Glaskeramik verteilt die Wärme gleichmäßig und gibt dabei kaum sichtbares Licht ab.[^s3] Strahlungswärme eignet sich zudem gut für Decks, weil sie Menschen und Oberflächen wärmt statt der Luft um sie herum, sodass eine vorbeiziehende Brise viel weniger davon mitnimmt.[^s5] Mehr dazu lesen Sie unter [funktionieren Infrarot-Heizstrahler bei Wind](item:RES-CO-KB1).
 
-## Woraus ist er gebaut?
+## Gefertigt für Salzluft und offenes Wasser
 
 | | Platinum Electric Marine |
 |---|---|
@@ -87,11 +87,11 @@ Bromic hat die Marine-Serie für diese Bedingungen konstruiert: ein Gehäuse, da
 | Zulassung | Lloyd's Register (ENV5) |
 | Garantie | 5 Jahre an Land, 3 Jahre auf Schiffen |
 
-Quellen: Produktseite[^s1] und die Superyacht-Seite.[^s2] In den FAQ der Produktseite steht Edelstahl „314“, und die Superyacht-Seite nennt „IPx55“, was keine gültige Schutzart ist; wir verwenden 316 und IPX5. [[VERIFY: Stahlsorte (316 oder 314) und Schutzart (IPX5 oder IPx55) auf den Live-Seiten — Produktteam]]
+Diese Angaben stammen von der Produktseite[^s1] und unserer Superyacht-Seite.[^s2] In den FAQ der Produktseite steht Edelstahl „314“, und die Superyacht-Seite nennt „IPx55“, was keine gültige Schutzart ist; deshalb verwenden wir hier 316 und IPX5. [[VERIFY: Stahlsorte (316 oder 314) und Schutzart (IPX5 oder IPx55) auf den Live-Seiten — Produktteam]]
 
-## Welche Leistungen, und wie viel Deck beheizen sie?
+## Die richtige Leistung für Ihr Deck
 
-Die Fassung dieses Beitrags von 2020 nannte 2300 und 3400 W für bis zu 10 m².[^s3] Inzwischen gehört auch 4500 W zur Serie.[^s1]
+Als dieser Beitrag 2020 erschien, umfasste die Serie 2300 und 3400 W für bis zu ca. 10 m².[^s3] Inzwischen ist ein Modell mit 4500 W hinzugekommen.[^s1]
 
 | Leistung | Heizfläche (ca.) | Gewicht |
 |---|---|---|
@@ -103,36 +103,36 @@ Alle drei laufen an 220–240 V oder 208 V.[^s1] [[VERIFY: Marine-Daten von brom
 
 ![Poolbar einer Yacht unter weißen Platinum-Electric-Marine-Heizstrahlern, eingebaut in eine geschwungene Decke](img:w-platinum-marine-ritz-carlton-evrima-jack-har-2)
 
-## Wie wird er auf einem Schiff montiert?
+## Eine Montage, die im Design verschwindet
 
-An der Wand, an einer Deckenabhängung oder bündig in die Decke eingebaut, wo er fast verschwindet.[^s1][^s2] Beide Platinum-Einbausätze passen auch für die Marine-Ausführung: der Standard-Einbausatz (Recess Kit) und der Einbausatz für geringe Deckenhöhen (Low-Clearance Recess Kit) für flache Deckenhohlräume. Mehr dazu auf [bromic.de](https://www.bromic.de/). An Land gelten Mindesthöhen von 1,8 m an der Wand und 2,4 m an der Decke;[^s1] an Bord legen die Klassenvorschriften des Schiffs und die Werft fest, was gilt.
+Platinum Electric Marine lässt sich an der Wand montieren, an einer Deckenabhängung befestigen oder bündig in die Decke einbauen, wo er fast ganz in den Linien des Schiffs aufgeht.[^s1][^s2] Beide Platinum-Einbausätze passen auch für die Marine-Ausführung: der Standard-[Recess Kit](https://www.bromic.com/product/platinum-electric-recess-kit/) und der [Low-Clearance Recess Kit](https://www.bromic.com/product/platinum-electric-low-clearance-recess-kit/) für flache Deckenhohlräume (Seiten auf Englisch). An Land gelten Mindesthöhen von 1,8 m an der Wand und 2,4 m an der Decke;[^s1] an Bord legen die Klassenvorschriften des Schiffs und die Werft fest, was gilt.
 
 <div class="diagram">Diagramm: ein Schnitt durch ein Achterdeck mit Marine-Heizstrahlern, die über den Sitzplätzen in die Decke eingebaut sind, der beheizten Fläche auf dem Deck sowie Steuergerät und Wandschalter am angrenzenden Schott.</div>
 
-## Welche Steuerung braucht er?
+## Wärme genau dort, wo sich die Gäste versammeln
 
-Affinity Smart-Heat On/Off- oder Dimmer-Steuergeräte oder einen manuellen Wandschalter, separat erhältlich.[^s1] Jede Installation braucht eines davon. Der Dimmer regelt die Leistung in Stufen für milde Abende; mit Zonen kann die Crew den Esstisch wärmen, ohne eine leere Lounge zu beheizen. WLAN- und App-Funktionen setzen kompatible Affinity-Steuergeräte voraus, die separat erhältlich sind,[^s4] und die Anbindung an eine Gebäudeleittechnik erfolgt über die Affinity-Erweiterungsplatine. Der Beitrag von 2020 nannte einen „wireless dimmer“; die Affinity-Serie ersetzt ihn. Einen Überblick über die Steuerung finden Sie auf [bromic.de](https://www.bromic.de/).
+Jede Installation wird mit Affinity Smart-Heat On/Off- oder Dimmer-Steuergeräten oder einem manuellen Wandschalter kombiniert, jeweils separat erhältlich.[^s1] Der Dimmer regelt die Leistung für mildere Abende in Stufen herunter, und mit Zonen kann die Crew den Esstisch wärmen, während eine leere Lounge ausgeschaltet bleibt. WLAN- und App-Funktionen setzen kompatible Affinity-Steuergeräte voraus, die separat erhältlich sind,[^s4] und die Anbindung an eine Gebäudeleittechnik erfolgt über die Affinity-Erweiterungsplatine. Der Beitrag von 2020 nannte einen „wireless dimmer“; heute tritt die Affinity-Serie an seine Stelle. In der [Übersicht zur Steuerung](https://www.bromic.com/controls/) (auf Englisch) sehen Sie die gesamte Serie.
 
-## Wo ist er schon auf See im Einsatz?
+## Schon heute auf Decks in aller Welt
 
-Bromic hat drei Marine-Projekte veröffentlicht (auf Englisch): [M/Y Lady Lene](https://www.bromic.com/case-study/m-y-lady-lene-superyacht/), [M/Y Coral Ocean](https://www.bromic.com/case-study/platinum-electric-marine-heaters-aboard-iconic-superyacht-m-y-coral-ocean/) und die [Evrima](https://www.bromic.com/case-study/platinum-electric-marine-heaters-aboard-ritz-carlton-yacht-collections-evrima/) der Ritz-Carlton Yacht Collection. Der Beitrag, den dieser ersetzt, zitierte Daniel Bruntsch, Marine-Verantwortlicher bei Bromic, zum Konstruieren für das Leben auf See; wir lassen sein Zitat weg, bis es bestätigt ist. [[VERIFY: aktuelle Funktionsbezeichnung von Daniel Bruntsch und Wortlaut seines Zitats — Marketing]]
+Wir haben drei Marine-Projekte veröffentlicht (auf Englisch): [M/Y Lady Lene](https://www.bromic.com/case-study/m-y-lady-lene-superyacht/), [M/Y Coral Ocean](https://www.bromic.com/case-study/platinum-electric-marine-heaters-aboard-iconic-superyacht-m-y-coral-ocean/) und die [Evrima](https://www.bromic.com/case-study/platinum-electric-marine-heaters-aboard-ritz-carlton-yacht-collections-evrima/) der Ritz-Carlton Yacht Collection. Die frühere Fassung dieses Beitrags zitierte Daniel Bruntsch, den Marine-Verantwortlichen von Bromic, zum Konstruieren für das Leben auf See; seine Worte nehmen wir wieder auf, sobald sie bestätigt sind. [[VERIFY: aktuelle Funktionsbezeichnung von Daniel Bruntsch und Wortlaut seines Zitats — Marketing]]
 
 ## Häufige Fragen
 
 ### Eignet sich Platinum Electric Marine für ein Haus an der Küste?
 
-Ja. Die Garantie beträgt bei Installationen an Land fünf Jahre.[^s1] Für Terrassen an der Küste ist er die Wahl innerhalb der Platinum-Serie; siehe die Marine-Produktseite auf [bromic.de](https://www.bromic.de/).
+Ja. Bei Installationen an Land gilt eine Garantie von fünf Jahren,[^s1] was ihn zur naheliegenden Platinum-Wahl für eine Terrasse am Meer macht. Mehr dazu auf der [Marine-Produktseite](https://www.bromic.com/product/platinum-smart-heat-electric-marine/) (auf Englisch).
 
 ### Wird er auf Yachten eingebaut oder aufgesetzt?
 
-Meist bündig in die Decke eingebaut, Wand- und Deckenabhängung sind aber möglich.[^s2]
+Meist wird er für einen nahtlosen Abschluss bündig in die Decke eingebaut, Wandmontage und Deckenabhängung sind aber ebenfalls möglich.[^s2]
 
 ### Was bedeutet ENV5?
 
-Das ist die Umweltkategorie von Lloyd's Register, nach der der Heizstrahler zertifiziert ist.[^s2] [[VERIFY: allgemeinverständliche Definition von ENV5 aus der Lloyd's Register Test Specification Number 1 — Produktteam]]
+ENV5 ist die Umweltkategorie von Lloyd's Register, nach der der Heizstrahler zertifiziert ist.[^s2] [[VERIFY: allgemeinverständliche Definition von ENV5 aus der Lloyd's Register Test Specification Number 1 — Produktteam]]
 
 ### Ist die Steuerung im Lieferumfang?
 
-Nein. Affinity-Steuergeräte und der manuelle Wandschalter sind separat erhältlich.[^s1]
+Affinity-Steuergeräte und der manuelle Wandschalter sind separat erhältlich,[^s1] und jede Installation braucht eines davon.
 
-Für einen Deck-Plan, gezeichnet vom Bromic-Team, vereinbaren Sie ein Planungsgespräch.
+Wenn Sie Ihr Deck planen möchten, zeichnet unser Team einen Entwurf für Sie. Vereinbaren Sie dazu ein Planungsgespräch.

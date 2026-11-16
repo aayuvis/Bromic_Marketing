@@ -1,17 +1,17 @@
 ---
 id: BLOG-39
 type: blog
-title: "Van luxehotels tot je eigen veranda: Bromic in de Design Builders-podcast"
+title: "Van luxehotel naar je eigen veranda: de verandaverwarmer vanaf het begin inplannen"
 action: keep-fix
 audience: [BLD, RES]
 stage: [AW]
 cell: BLD-AW
 asset: A24
-summary: "buitendienst VS, VP Sales Noord-Amerika bij Bromic, in gesprek met de verandabouwers van Design Builders: hoe stralingswarmte wordt meeontworpen in veranda's en terrassen, de drie collecties en wat de garanties echt dekken."
+summary: "De buitendienst VS van Bromic schuift aan bij de verandabouwers van Design Builders om te praten over stralingswarmte in veranda's en terrassen, de drie collecties en wat elke garantie dekt."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
-ai_prompt: "Hoe ontwerpen bouwers verwarming in een overdekte veranda of een terras?"
-meta_description: "buitendienst VS van Bromic in de Design Builders-podcast: stralingswarmte ontwerpen in veranda's en terrassen, de drie collecties en de garantie per model."
+ai_prompt: "Hoe plannen bouwers verwarming in een afgeschermde veranda of een terras?"
+meta_description: "Bromic in de Design Builders-podcast: een verandaverwarmer vanaf het begin inplannen, de drie collecties en de garanties per model."
 cta: {label: "Download de gids voor het bouwersprogramma", asset: A15}
 hero: w-hartleyhallplporchdeckdarnestownmd-0052
 owner_review: marketing
@@ -20,7 +20,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [BLD-AW-01, BLD-IN-01, RES-AW-01]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: nl
 translation_of: BLOG-39
 translation_status: machine-draft
@@ -70,48 +70,48 @@ sources:
     verified: true
 ---
 
-Een veranda is warm als de warmte erin is ontworpen, niet als die wordt toegevoegd nadat het plafond af is. In de Design Builders-podcast bespreken buitendienst VS van Bromic en de presentatoren Tim Matkoski en James Moylan hoe stralingsverwarmers worden ingepland in overdekte veranda's en terrassen: afgestemd op de ruimte, gemonteerd naar wat het plafond toelaat en zo gekozen dat ze uit het zicht blijven[^s1].
+De warmste veranda's zijn die waar warmte al deel van het plan was, lang voordat het plafond af was. In de Design Builders-podcast bespreken de buitendienst VS van Bromic en de presentatoren Tim Matkoski en James Moylan hoe stralingsverwarmers worden ingepland in afgeschermde veranda's en terrassen, afgestemd op de ruimte, gemonteerd naar wat het plafond toelaat en zo gekozen dat ze rustig uit het zicht blijven[^s1].
 
-![Eethoek op een afgeschermde veranda met Platinum Electric-verwarmers verzonken in een plafond van cederhout](img:w-hartleyhallplporchdeckdarnestownmd-0052)
+![Eethoek op een afgeschermde veranda, verwarmd door Platinum Electric-verwarmers verzonken in een plafond van cederhout](img:w-hartleyhallplporchdeckdarnestownmd-0052)
 
-## Wie zaten er in de aflevering?
+## Aan tafel in deze aflevering
 
-buitendienst VS is Vice President of Sales, North America, bij Bromic Heating. De presentatoren leiden Design Builders, een bedrijf dat terrassen, afgeschermde veranda's en buitenkeukens bouwt in Maryland en het noorden van Virginia in de VS[^s1]. De aflevering staat op de [website van Design Builders](https://www.designbuildersmd.com/8152437f-9b51-476b-9a89-9ce53f636b6b/9ab4fe8b-29f4-4a7d-8e54-f41d06d8c19d)[^s2].
+De buitendienst VS is Vice President of Sales, North America, bij Bromic Heating. De presentatoren leiden Design Builders, een bedrijf dat terrassen, afgeschermde veranda's en buitenkeukens bouwt in Maryland en het noorden van Virginia in de VS[^s1]. Je kunt de aflevering beluisteren op de [website van Design Builders](https://www.designbuildersmd.com/8152437f-9b51-476b-9a89-9ce53f636b6b/9ab4fe8b-29f4-4a7d-8e54-f41d06d8c19d) (Engelstalig)[^s2].
 
 ## Waarom verandabouwers voor stralingswarmte kiezen
 
-De presentatoren vertelden dat ze infraroodverwarmers voor het eerst tegenkwamen in Californië en ze nu in 95% van hun verandaprojecten opnemen[^s1] [[VERIFY: het cijfer van 95% bij Design Builders checken vóór hergebruik — marketing]]. Tschauner legde uit waarom het buiten werkt: infrarood verwarmt mensen en oppervlakken rechtstreeks, net als zonlicht, in plaats van lucht te verwarmen die de wind meeneemt[^s1][^s6].
+De presentatoren kwamen infraroodverwarmers voor het eerst tegen in Californië en nemen ze nu op in 95% van hun verandaprojecten[^s1] [[VERIFY: het cijfer van 95% bij Design Builders checken vóór hergebruik — marketing]]. Tschauner legde uit waarom het buiten zo goed werkt: infrarood verwarmt mensen en oppervlakken rechtstreeks, net zoals zonlicht, in plaats van lucht te verwarmen die de wind zou meenemen[^s1][^s6].
 
-## Warmte die niet concurreert met het ontwerp
+## Warmte die het ontwerp laat stralen
 
-Het doel van Bromic, zei Tschauner, is dat verwarmers opgaan in het ontwerp in plaats van de blikvanger te worden[^s1]. Het gesprek ging over de drie collecties:
+Het doel van Bromic, zei Tschauner, is dat verwarmers elegant opgaan in de ruimte terwijl de architectuur de hoofdrol speelt[^s1]. Het gesprek ging langs de drie collecties:
 
 | Collectie | Wat het is | Waar het past op een veranda |
 |---|---|---|
-| [Eclipse](https://www.bromic.nl/) | Elektrische verwarmer met dimbare LED-rand[^s4] | Lounge- en eethoeken die warmte en licht uit één armatuur willen |
-| [Platinum](https://www.bromic.nl/) | Elektrische en gasmodellen, plus een elektrische versie voor maritieme omstandigheden | Vlak verzonken in een afgewerkt plafond, of aan de kust |
-| [Tungsten](https://www.bromic.nl/) | Elektrische en gasverwarmers met een hoger vermogen en flexibele montage | Grotere terrassen en veranda's, hoge en schuine plafonds |
+| [Eclipse](https://www.bromic.com/eclipse-collection/) | Elektrische verwarmer met dimbare LED-rand[^s4] | Lounge- en eethoeken die warmte en licht uit één armatuur willen |
+| [Platinum](https://www.bromic.com/platinum-collection/) | Elektrische en gasmodellen, plus een elektrische versie voor maritieme omstandigheden | Vlak verzonken in een afgewerkt plafond, of aan de kust |
+| [Tungsten](https://www.bromic.com/tungsten-collection/) | Elektrische en gasverwarmers met een hoger vermogen en flexibele montage | Grotere terrassen en veranda's, hoge en schuine plafonds |
 
-Elke elektrische verwarmer wordt aangestuurd met Affinity Smart-Heat-bediening: een On/Off- of Dimmer-regelaar voor Platinum en Tungsten, de Eclipse-regelaar voor Eclipse, plus een wandschakelaar. Tijdschema's en zones via de Smart-Heat app vereisen compatibele Affinity-bediening, die apart wordt verkocht. Bouwers prijzen de bediening daarom samen met de verwarmers en nemen haar mee in de voorbekabeling.
+Elke elektrische verwarmer hoort bij Affinity Smart-Heat-bediening: een On/Off- of Dimmer-regelaar voor Platinum en Tungsten, de Eclipse-regelaar voor Eclipse, samen met een wandschakelaar. Schema's en zones via de Smart-Heat app vereisen compatibele Affinity-bediening, die apart wordt verkocht. Bouwers prijzen de bediening daarom samen met de verwarmers en nemen haar mee in de voorbekabeling.
 
-## Dimensionering en plaatsing
+## Afgestemd en geplaatst voor gelijkmatig comfort
 
-Het artikel verwijst bouwers naar de gratis ontwerpservice van Bromic, [Design Your Space](https://www.bromic.nl/), die afmetingen, plafondhoogte en gebruik bekijkt en model, formaat en plaatsing adviseert voor een gelijkmatig verwarmd oppervlak[^s1].
+Het artikel verwijst bouwers naar onze gratis service [Design Your Space](https://www.bromic.com/design-your-space/), die afmetingen, plafondhoogte en het gebruik van de ruimte bekijkt en model, formaat en plaatsing adviseert voor een gelijkmatig verwarmd oppervlak[^s1]; in Nederland bereik je ons via [bromic.nl](https://www.bromic.nl/).
 
-## Wat de garanties dekken
+## De garantie achter elke collectie
 
-Het oorspronkelijke artikel sprak van "tot 7 jaar op bepaalde modellen". Per model, volgens de (Amerikaanse) productpagina's: Tungsten Electric heeft 2 jaar garantie op de verwarmer en 7 jaar op de elementen[^s3]; Eclipse Electric heeft 3 jaar[^s4]; Platinum Electric Marine heeft 5 jaar op land en 3 jaar op schepen[^s5]. [[VERIFY: garantievoorwaarden per model tegen het garantiedocument 2026, en of ze in Nederland gelijk zijn — productteam]]
+Het oorspronkelijke artikel sprak van "tot 7 jaar op bepaalde modellen". Per model geven de (Amerikaanse) productpagina's deze voorwaarden: Tungsten Electric heeft 2 jaar garantie op de verwarmer en 7 jaar op de elementen[^s3]; Eclipse Electric heeft 3 jaar[^s4]; Platinum Electric Marine heeft 5 jaar op land en 3 jaar op schepen[^s5]. [[VERIFY: garantievoorwaarden per model tegen het garantiedocument 2026, en of ze in Nederland gelijk zijn — productteam]]
 
 ## Veelgestelde vragen
 
 ### Werken infraroodverwarmers in een afgeschermde veranda?
-Ja. Stralingswarmte verwarmt mensen en oppervlakken in plaats van lucht, en dat past bij een veranda die aan meerdere kanten open is.
+Ja. Stralingswarmte verwarmt mensen en oppervlakken in plaats van de lucht, en past daardoor vanzelf bij een veranda die aan meerdere kanten open is.
 
 ### Kun je verwarmers in een verandaplafond verzinken?
 Ja. Voor Platinum Electric en Tungsten Electric zijn inbouwsets beschikbaar; controleer de plafondholte en de vrije afstanden al tijdens het timmerwerk.
 
 ### Wie installeert ze?
-Een gekwalificeerde elektrotechnisch installateur, volgens de instructies van de fabrikant en NEN 1010. Stem de installatie af met je gemeente.
+Een erkend elektrotechnisch installateur, volgens de instructies van de fabrikant, NEN 1010 en de lokale eisen. Stem de installatie waar nodig af met je gemeente.
 
 <div class="newsletter">Inschrijving voor de nieuwsbrief, één regel (454 Creative koppelt dit aan het HubSpot-nieuwsbriefformulier): "Ontvang het nieuws van Bromic voor bouwers en ontwerpers per e-mail."</div>
 

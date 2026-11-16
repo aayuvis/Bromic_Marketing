@@ -5,17 +5,17 @@ translation_of: BLOG-37
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 type: blog
-title: "Ontwerpen zonder grenzen: wat dekken van cruiseschepen leren over het ontwerp van buitenkamers"
+title: "Design zonder grenzen: wat het ontwerp van cruisedekken buitenkamers op het land leert"
 action: keep-fix
 audience: [ARC, COM]
 stage: [AW]
 cell: ARC-AW
 asset: A24
-summary: "Helena Sawelin van Tillberg Design of Sweden over het ontwerpen van open dekken op cruiseschepen, en wat ontwerpers op het land kunnen leren van ruimten die bewegen, wind en zout vangen, en toch comfortabel moeten blijven."
+summary: "Helena Sawelin van Tillberg Design of Sweden over het ontwerpen van open dekken op cruiseschepen, en wat ontwerpers op het land kunnen leren van ruimtes die bewegen, wind en zout trotseren en voor elke gast comfortabel moeten blijven."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
-ai_prompt: "Wat kunnen architecten leren van de manier waarop buitendekken van cruiseschepen worden ontworpen?"
-meta_description: "Helena Sawelin van Tillberg Design over het ontwerpen van cruisedekken voor wind, zout en beweging, en wat dat betekent voor het verwarmen van buitenkamers op het land."
+ai_prompt: "Wat kunnen architecten leren van hoe de buitendekken van cruiseschepen worden ontworpen?"
+meta_description: "Buitendekken van cruiseschepen ontwerpen met Helena Sawelin van Tillberg Design: wind, zout en beweging, en wat dat betekent voor verwarming op het land."
 cta: {label: "Download Revit BIM- en CAD-bestanden", asset: A13}
 hero: w-princess-sanctuary
 owner_review: marketing
@@ -24,7 +24,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-AW-01, ARC-CO-01, A11]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -63,27 +63,27 @@ sources:
     verified: true
 ---
 
-In de tweede aflevering van het tweede seizoen van Designing Outdoor Spaces legt Helena Sawelin van Tillberg Design of Sweden uit hoe haar team open dekken op cruiseschepen ontwerpt: ruimten die bewegen, wind en zout vangen, en aan strenge veiligheidsregels moeten voldoen[^s1]. Haar les voor ontwerpers op het land is helder: ontwerp eerst voor de omstandigheden, dan voor het moment, en de gastbeleving volgt vanzelf.
+In de tweede aflevering van het tweede seizoen van Designing Outdoor Spaces vertelt Helena Sawelin van Tillberg Design of Sweden hoe haar team de open dekken van cruiseschepen ontwerpt, ruimtes die meebewegen met de zee, wind en zout trotseren en aan strenge veiligheidsregels moeten voldoen[^s1]. Haar les voor ontwerpers op het land is helder: ontwerp eerst voor de omstandigheden, dan voor het moment, en een gastbeleving die bijblijft volgt vanzelf.
 
 ![Zwembaddek van een cruiseschip met ligbedden en plantenbakken onder een witte, gebogen pergola](img:w-princess-sanctuary)
 
-## Wie is Helena Sawelin?
+## Maak kennis met Helena Sawelin
 
-Helena Sawelin is partner en design director bij Tillberg Design of Sweden, een studio die gespecialiseerd is in cruiseschepen en luxejachten[^s1]. Ze werkt al meer dan twintig jaar in het vak en leidt multidisciplinaire teams, van masterplan tot het detail van interieur en buitenruimte. De aflevering wordt gepresenteerd door Evan Troxel[^s3], medepresentator van Archispeak, en verscheen op 19 april 2025[^s2]. [[VERIFY: de huidige functietitel van Helena Sawelin, te controleren bij Tillberg Design of Sweden — marketing]]
+Helena Sawelin is partner en design director bij Tillberg Design of Sweden, een studio die gespecialiseerd is in cruiseschepen en luxejachten[^s1]. Met meer dan twintig jaar ervaring in het vak leidt ze multidisciplinaire teams, van het masterplan tot in het detail van interieur en buitenruimte. De aflevering wordt gepresenteerd door Evan Troxel[^s3], medepresentator van Archispeak, en verscheen op 19 april 2025[^s2]. [[VERIFY: de huidige functietitel van Helena Sawelin, te controleren bij Tillberg Design of Sweden — marketing]]
 
 ## Ontwerpen voor een ruimte die beweegt
 
-Op zee staat niets stil. Volgens de post plant het team van Sawelin vanaf het begin rekening met wind, blootstelling aan zout, de stroom van passagiers en veiligheidsregels, en kiest het materialen die zware maritieme omstandigheden doorstaan[^s1]. De plaatsing van meubilair moet blijven werken als het weer omslaat of er een menigte samenkomt. Het doel dat ze beschrijft is comfort, veiligheid en een beleving die bijblijft, niet alleen een mooi beeld.
+Op zee staat niets stil. Zoals de post vertelt, houdt het team van Sawelin vanaf het allereerste begin rekening met wind, blootstelling aan zout, de stroom van passagiers en veiligheidsregels, en kiest het materialen die zware maritieme omstandigheden doorstaan[^s1]. De plaatsing van meubilair moet blijven werken als het weer omslaat of er een menigte samenkomt. Het doel dat ze beschrijft reikt veel verder dan het beeld alleen, naar comfort, veiligheid en een beleving die gasten bijblijft.
 
-## Buitendekken als bestemming
+## Dekken waar gasten graag blijven
 
-Sawelin wil dat dekken, lounges en zwembadzones plekken zijn waar gasten graag blijven hangen. Licht, indeling en akoestiek tellen net zo als op het land, maar haar team plant ook rond de beweging van het schip, het wisselende uitzicht, de stand van de zon, windpatronen en de reisroute zelf[^s1]. In haar verhaal zijn de buitenruimten vaak het hart van de gastbeleving. [[VERIFY: formulering van dit punt tegen de aflevering — marketing]]
+Sawelin wil dat dekken, lounges en zwembadzones plekken zijn waar gasten graag blijven. Licht, indeling en akoestiek tellen er net zo zwaar als op het land, en haar team plant daarnaast rond de beweging van het schip, het wisselende uitzicht, de stand van de zon, windpatronen en de reisroute zelf[^s1]. In haar verhaal zijn de buitenruimtes vaak het hart van de gastbeleving. [[VERIFY: formulering van dit punt tegen de aflevering — marketing]]
 
-## Lessen voor ontwerpers op het land
+## Lessen die ontwerpers mee aan land nemen
 
-De post trekt drie lessen voor projecten op het land: haal het meeste uit beperkte ruimte, bouw bewust aan sfeer, en behandel regelgeving als ontwerpinput in plaats van als een late beperking[^s1].
+De post trekt een paar lessen voor projecten op het land: haal het meeste uit beperkte ruimte, bouw bewust aan sfeer, en neem regelgeving vanaf het begin mee in het ontwerp, zodat die de ruimte al vroeg vormgeeft[^s1].
 
-## Wat het betekent voor het verwarmen van een buitenkamer
+## Die lessen naar je buitenkamer brengen
 
 | Op een schip | Op het land | De keuze voor verwarming |
 |---|---|---|
@@ -92,20 +92,20 @@ De post trekt drie lessen voor projecten op het land: haal het meeste uit beperk
 | Weinig ruimte op het dek | Balkons, kleine terrassen | Ingebouwde of plafondverwarmers houden de vloer vrij |
 | Gebruik verandert door de dag | Terrassen van hotels en resorts | Verdeel de verwarmers in zones en stel het vermogen per zone in |
 
-Voor omgevingen met zilte lucht is [Platinum Electric Marine](https://www.bromic.com/super-yacht-cruise-ships/) het gespecificeerde toestel, bediend met een Affinity Smart-Heat On/Off- of Dimmer-regelaar en een wandschakelaar. Schema's en zones via de Smart-Heat-app vereisen compatibele Affinity-bediening, die apart wordt verkocht. Plan de bediening samen met de verwarmers; ze hoort bij het ontwerp en is geen extraatje.
+Voor plekken aan zee is [Platinum Electric Marine](https://www.bromic.com/super-yacht-cruise-ships/) (Engelstalig) de verwarmer om te specificeren, bediend met een Affinity Smart-Heat On/Off- of Dimmer-regelaar en een wandschakelaar. Schema's en zones via de Smart-Heat app vragen om compatibele Affinity-bediening, die apart wordt verkocht. Plan de bediening vanaf de eerste tekening samen met de verwarmers, want ze is een wezenlijk onderdeel van het ontwerp.
 
 <div class="diagram">Diagram: doorsnede van een overdekt terras met de windrichting, het stralingsbereik van een ingebouwde verwarmer boven de zitplekken, en het scherm dat het beschermt.</div>
 
 ## Veelgestelde vragen
 
 ### Welke aflevering is dit?
-De tweede aflevering van het tweede seizoen van Designing Outdoor Spaces, verschenen op 19 april 2025. De [afleveringspagina](https://www.bromic.com/podcast/outdoor-design-trends-on-cruise-ships/) heeft de audio en een transcript (Engelstalig).
+Het is de tweede aflevering van het tweede seizoen van Designing Outdoor Spaces, verschenen op 19 april 2025. De [afleveringspagina](https://www.bromic.com/podcast/outdoor-design-trends-on-cruise-ships/) heeft de audio en een transcript (Engelstalig).
 
 ### Gelden de lessen van cruiseschepen ook voor woningen?
-Ja, overal waar een ruimte blootstaat aan wind, zout of ruimtegebrek. Woningen aan het water en dakterrassen hebben met dezelfde beperkingen te maken, in mildere vorm.
+Ja, overal waar een ruimte blootstaat aan wind of zout, of weinig plek biedt. Woningen aan het water en dakterrassen krijgen met dezelfde omstandigheden te maken, in mildere vorm.
 
 ### Maakt Bromic verwarmers voor jachten en schepen?
-Ja. Platinum Electric Marine is gemaakt voor maritiem gebruik; zie [verwarmers voor superjachten en cruiseschepen](https://www.bromic.com/super-yacht-cruise-ships/).
+Ja. Platinum Electric Marine is gebouwd voor het leven op zee; zie [verwarmers voor superjachten en cruiseschepen](https://www.bromic.com/super-yacht-cruise-ships/) (Engelstalig).
 
 <div class="newsletter">Aanmelding voor de nieuwsbrief, één regel (454 Creative koppelt deze aan het HubSpot-nieuwsbriefformulier): "Ontvang elke nieuwe aflevering van Designing Outdoor Spaces per e-mail."</div>
 

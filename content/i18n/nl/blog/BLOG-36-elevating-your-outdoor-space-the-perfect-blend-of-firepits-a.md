@@ -5,17 +5,17 @@ translation_of: BLOG-36
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 type: blog
-title: "Vuurschalen en stralingsverwarmers: waarom de beste terrassen allebei hebben"
+title: "Vuurschaal of terrasverwarmer: waarom de gezelligste terrassen allebei hebben"
 action: keep-fix
 audience: [RES]
 stage: [AW]
 cell: RES-AW
 asset: A24
-summary: "Waar een vuurschaal goed in is, waar een stralingsverwarmer goed in is, en hoe je een terras plant waarop het vuur het middelpunt is en de verwarmers elke zitplek warm houden."
+summary: "Wat een vuurschaal een avond buiten geeft, wat stralingsverwarmers toevoegen en hoe je een terras plant waar het vuur het middelpunt is en de verwarmers elke zitplek warm houden."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
-ai_prompt: "Is een vuurschaal of een terrasverwarmer beter om buiten warm te blijven?"
-meta_description: "Vuurschaal of terrasverwarmer? Een vuur is een middelpunt; stralingsverwarmers verwarmen elke zitplek. Zo plan je een terras met allebei, en de bediening die de verwarmers nodig hebben."
+ai_prompt: "Wat houdt je buiten beter warm, een vuurschaal of een terrasverwarmer?"
+meta_description: "Vuurschaal of terrasverwarmer: het vuur is het middelpunt, stralingswarmte verwarmt elke zitplek. Zo plan je allebei, met de juiste bediening."
 cta: {label: "Download het rapport Outdoor Living Trends 2026", asset: A01}
 hero: w-black-tungsten-electric-mounted-chicago
 images: [w-bromic-centrico-photos-8, w-dsc01860-bearbeitet]
@@ -25,7 +25,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-AW-01, RES-CO-01, RES-PP-01, RES-CO-KB2]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -71,27 +71,27 @@ sources:
     verified: true
 ---
 
-Gebruik allebei. Een vuurschaal is het middelpunt: vlammen, een plek om samen te komen, een reden om buiten te blijven. Ze verwarmt de mensen die het dichtstbij zitten en laat de rest van het terras koud. Stralingsverwarmers verwarmen elke zitplek gelijkmatig, van bovenaf of vanaf een wand, en werken bij een licht briesje.[^s1] Plan het vuur als het hart van de ruimte en de verwarmers als het comfort eromheen.
+De gezelligste terrassen hebben allebei. Een vuurschaal wordt het hart van de avond, met een vlam om omheen te zitten en een reden om nog wat langer buiten te blijven, al verwarmt ze alleen de mensen die er het dichtstbij zitten. Stralingsverwarmers brengen gelijkmatige warmte naar elke zitplek, van bovenaf of vanaf een wand, en blijven werken bij een licht briesje.[^s1] Plan het vuur als het middelpunt van je buitenruimte en de verwarmers als het comfort eromheen.
 
 ![Elektrische verwarmer op een bakstenen gevel, gezien langs een pergola en een gasvuurschaal](img:w-black-tungsten-electric-mounted-chicago)
 
-## Waar is een vuurschaal goed in, en waar niet?
+## De magie van een open vlam
 
-Een vuurschaal geeft wat geen verwarmer kan: een vlam om naar te kijken en een reden om de stoelen in een kring te zetten.[^s6] Het is de open haard van de buitenkamer.
+Een vuurschaal geeft iets wat geen verwarmer kan: een vlam om naar te kijken en een reden om de stoelen in een kring te zetten.[^s6] Het is de open haard van je buitenkamer.
 
-De warmte is ongelijk. Je voorkant is warm, je rug niet, en de stoelen aan de rand van het terras krijgen weinig. Rook gaat met de wind mee. Een houtvuur heeft tijd nodig om aan te gaan en om te doven.
+De warmte is wel ongelijk. Je voelt haar op je gezicht terwijl je rug koel blijft, en de stoelen aan de rand van het terras merken er weinig van. De rook drijft waar de wind hem heen blaast, en een houtvuur heeft tijd nodig om aan te gaan en om te doven.
 
 Er zijn drie soorten vuurelementen:[^s6]
 
-- **Houtgestookt.** Het knetteren en de geur van een echt vuur, en je kunt erop koken. Het vraagt aandacht; de rook waait mee met de wind.
+- **Houtgestookt.** Het knetteren en de geur van een echt vuur, en je kunt erop koken. Het vraagt aandacht, en de rook waait mee met de wind.
 - **Gas.** Gaat aan met een schakelaar, met een vlam die je hoger of lager zet.
-- **Elektrisch.** Weinig onderhoud, met een vlameffect in plaats van een vlam.
+- **Elektrisch.** Weinig onderhoud, met een vlameffect in plaats van een echte vlam.
 
-De lokale regels voor open vuur verschillen. Vraag het na bij je gemeente voordat je een houtgestookte vuurplaats bouwt.
+De lokale regels voor open vuur verschillen, dus vraag het na bij je gemeente voordat je een houtgestookte vuurplaats bouwt.
 
-## Waar is een stralingsverwarmer goed in?
+## Gelijkmatige warmte voor elke zitplek
 
-Stralingswarmte (infrarood) verwarmt mensen en oppervlakken direct, niet de lucht ertussen, en werkt dus ook als het waait.[^s1] Kortegolfverwarmers geven al binnen enkele ogenblikken na het aanzetten warmte.[^s1] Boven je hoofd of aan een wand verwarmen ze de eettafel, de lounge en de bar, niet alleen de kring rond het vuur, en er is geen rook.
+Stralingswarmte (infrarood) verwarmt mensen en oppervlakken direct in plaats van de lucht ertussen, en houdt je dus comfortabel als er een briesje opsteekt.[^s1] Kortegolfverwarmers geven al binnen enkele ogenblikken na het aanzetten warmte.[^s1] Boven je hoofd of aan een wand bereiken ze de eettafel, de lounge en de bar net zo goed als de kring rond het vuur, en dat helemaal zonder rook.
 
 | | Vuurschaal | Stralingsverwarmer |
 |---|---|---|
@@ -101,18 +101,18 @@ Stralingswarmte (infrarood) verwarmt mensen en oppervlakken direct, niet de luch
 | Waar hij staat | Op de grond, in het midden | Plafond, wand, paal of vrijstaand |
 | Bediening | Aansteken en bijhouden, of een gaskraan | Schakelaar, dimmer of app, per zone |
 
-## Hoe plan je een terras met allebei?
+## Vuur en stralingswarmte samenbrengen
 
-1. **Zet het vuur waar mensen samenkomen.** Meestal de lounge, met zitplekken eromheen.
-2. **Verwarm de plekken die het vuur niet bereikt.** De eettafel, de bar en de verre kant van de lounge.
-3. **Houd verwarmers weg van vlammen en rook.** Monteer ze boven de zitplekken, niet boven het vuur. Volg de afstanden van elke verwarmer.
-4. **Geef elke zone een eigen bediening,** zodat de verwarmers bij de eettafel kunnen blijven branden terwijl het vuur uitdooft.
+1. **Zet het vuur waar mensen samenkomen.** Meestal is dat de lounge, met zitplekken eromheen.
+2. **Verwarm de plekken die het vuur niet bereikt.** Denk aan de eettafel, de bar en de verre kant van de lounge.
+3. **Houd verwarmers weg van vlammen en rook.** Monteer ze boven de zitplekken in plaats van boven het vuur, en volg de afstanden van elke verwarmer.
+4. **Geef elke zone een eigen bediening,** zodat de verwarmers bij de eettafel kunnen blijven branden terwijl het vuur uitdooft tot gloeiende sintels.
 
 <div class="diagram">Diagram: een plattegrond van een terras met een vuurschaal in het midden van de lounge en de warme cirkel eromheen getekend, en de verwarmde oppervlakken van stralingsverwarmers boven de eettafel en de buitenste zitplekken.</div>
 
 ![Vuurschaal en loungestoelen voor een ronde pergolabar met verwarmers op de ringbalk](img:w-bromic-centrico-photos-8)
 
-## Welke Bromic-verwarmer past bij een terras met een vuurschaal?
+## De juiste Bromic-verwarmer naast je vuur
 
 | Verwarmer | Geschikt voor | Bediening |
 |---|---|---|
@@ -120,24 +120,24 @@ Stralingswarmte (infrarood) verwarmt mensen en oppervlakken direct, niet de luch
 | Platinum Electric | Een slanke verwarmer, ingebouwd of op plafond of wand gemonteerd, ca. 6–13 m²[^s2] | Affinity On/Off of Dimmer, of een handmatige wandschakelaar[^s5] |
 | Tungsten Electric | Een krachtige verwarmer voor een wand of balk, ca. 6–15 m²[^s3] | Affinity On/Off of Dimmer, of een handmatige wandschakelaar[^s3] |
 
-Elke verwarmer heeft een regelaar of een wandschakelaar nodig. Met een Affinity-regelaar stuurt de Bromic Smart-Heat app zones, schema's en timers aan; wifi- en app-functies vragen om compatibele Affinity-bediening, apart verkrijgbaar.[^s2] Zie het [overzicht van de bediening](https://www.bromic.com/controls/) (Engelstalig).
+Elke verwarmer hoort bij een regelaar of een wandschakelaar. Met een Affinity-regelaar stuurt de Bromic Smart-Heat app zones, schema's en timers aan; wifi- en app-functies vragen om compatibele Affinity-bediening, apart verkrijgbaar.[^s2] Bekijk het [overzicht van de bediening](https://www.bromic.com/controls/) (Engelstalig) om de juiste te vinden.
 
-![Houten tuinpaviljoen met lounge bij schemering en een Eclipse-verwarmer aan het plafond](img:w-dsc01860-bearbeitet)
+![Houten tuinpaviljoen met lounge bij schemering, verwarmd door een Eclipse-verwarmer aan het plafond](img:w-dsc01860-bearbeitet)
 
-Meer over soorten verwarmers lees je in [elektrische of gasterrasverwarmers](item:RES-CO-01) en [waar je terrasverwarmers plaatst](item:RES-PP-01), of bekijk [alle buitenverwarmers](https://www.bromic.nl/). De [ontwerpservice](https://www.bromic.com/design-your-space/) van Bromic tekent gratis een warmte-indeling rond je vuurelement.
+Meer over soorten verwarmers lees je in [elektrische of gasterrasverwarmers](item:RES-CO-01) en [waar je terrasverwarmers plaatst](item:RES-PP-01), of bekijk [alle buitenverwarmers](https://www.bromic.com/outdoor-heaters/) (Engelstalig). Onze [ontwerpservice](https://www.bromic.com/design-your-space/) tekent gratis een warmte-indeling rond je vuurelement; in Nederland bereik je ons via [bromic.nl](https://www.bromic.nl/).
 
 ## Veelgestelde vragen
 
 ### Is een vuurschaal genoeg om een terras te verwarmen?
 
-Meestal niet. Ze verwarmt de mensen die het dichtstbij zitten; stralingsverwarmers verwarmen de rest van de zitplekken.
+Meestal niet. Een vuurschaal verwarmt de mensen die er het dichtstbij zitten, en stralingsverwarmers brengen dat comfort naar de rest van de zitplekken.
 
 ### Mag een verwarmer boven een vuurschaal hangen?
 
-Plaats verwarmers boven zitplekken, niet boven het vuur, en volg de afstanden van elke verwarmer. Laat de indeling bevestigen door je installateur.
+Plaats je verwarmers boven de zitplekken in plaats van boven het vuur, en volg de afstanden van elke verwarmer. Laat de indeling bevestigen door je installateur.
 
 ### Werken stralingsverwarmers als het waait?
 
-Bij een lichte wind wel: ze verwarmen mensen, geen lucht.[^s1] Lees [werken infraroodverwarmers in de wind](item:RES-CO-KB1).
+Bij een lichte wind wel, omdat ze mensen verwarmen in plaats van de lucht.[^s1] Lees [werken infraroodverwarmers in de wind](item:RES-CO-KB1).
 
-De trendcijfers van 2026 laten zien hoe huiseigenaren hun buitenkamers plannen.
+Wil je zien hoe huiseigenaren hun buitenkamers plannen, ontdek dan de trendcijfers van 2026.
