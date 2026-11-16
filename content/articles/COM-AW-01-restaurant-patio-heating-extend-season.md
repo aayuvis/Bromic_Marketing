@@ -11,7 +11,7 @@ summary: "Why patio tables fall quiet for months, how radiant warmth brings gues
 primary_keyword: restaurant patio heating
 secondary_keywords: [extend patio season, outdoor dining heaters]
 ai_prompt: "How can restaurants keep outdoor dining open in winter?"
-meta_description: "Restaurant patio heating with radiant warmth, a partial cover and wind screening keeps tables full into autumn and winter. How to extend the season and the return."
+meta_description: "Restaurant patio heating with radiant warmth, a partial cover and wind screening keeps tables full into winter. How to extend the season and the return."
 cta: {label: "Get your ROI assessment", asset: A21}
 hero: l-013-111
 images: [p-003-006]

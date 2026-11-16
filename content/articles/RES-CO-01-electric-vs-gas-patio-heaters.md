@@ -1,17 +1,17 @@
 ---
 id: RES-CO-01
 type: article
-title: "Electric vs gas patio heaters: which suits your space"
+title: "Electric vs gas patio heaters: choosing the warmth that suits your space"
 slug: electric-vs-gas-patio-heaters
 audience: [RES]
 stage: [CO]
 cell: RES-CO
 asset: A24
-summary: "Radiant versus convective heat in plain terms, the real trade-offs between electric and gas, and a quick way to estimate how many heaters a space needs."
+summary: "Radiant and convective heat in plain terms, the real trade-offs between electric and gas, and a simple way to estimate how many heaters your outdoor space needs."
 primary_keyword: electric vs gas patio heater
 secondary_keywords: [infrared patio heater, best outdoor heater]
 ai_prompt: "Are electric or gas patio heaters better?"
-meta_description: "Electric or gas patio heater? Built-in electric suits covered patios; freestanding gas suits open space. Compare install, cost, wind and look."
+meta_description: "Electric vs gas patio heater: built-in electric suits covered patios, freestanding gas suits open spaces. Compare installation, cost, wind and the look."
 cta: {label: "Size your space", asset: A03}
 hero: l-019-164
 images: [l-010-076]
@@ -19,7 +19,7 @@ owner_review: Marketing
 status: draft
 gated: false
 related: [RES-IN-01, RES-PP-01, RES-CO-KB1, ARC-CO-01]
-updated: 2026-10-30
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -51,13 +51,13 @@ sources:
     verified: true
 ---
 
-Neither fuel is better everywhere. Built-in electric infrared suits covered patios, pergolas and outdoor kitchens: it mounts on the wall or ceiling, needs no gas line or venting, and switches on instantly. Freestanding gas suits open, larger spaces with nothing to mount to. One Tungsten Smart-Heat Freestanding Gas heater covers approx. 215 ft² against approx. 65–143 ft² for one Platinum Smart-Heat Electric,[^s2] but guests block the radiant heat of a freestanding unit, so each one serves no more than four seats – and for a seated space that usually sets the count. The right answer depends on the structure, the utilities you have, and how you will use the space.
+Each fuel shines in its own setting. Built-in electric infrared suits covered patios, pergolas and outdoor kitchens, mounting on the wall or ceiling with no gas line or venting and warming the moment you switch it on. Freestanding gas suits larger, open spaces with nothing to mount to. One Tungsten Smart-Heat® Freestanding Gas heater covers approx. 215 ft² against approx. 65–143 ft² for one Platinum Smart-Heat® Electric,[^s2] yet guests block the radiant heat of a freestanding unit, so each serves no more than four seats, which usually sets the count for a seated space. The right choice rests on your structure, the utilities you have and how you plan to enjoy the space.
 
-## What is the difference between radiant and convective heat?
+## Radiant And Convective Heat, Simply Explained
 
-Think of standing in sunshine on a cold day. The air is cold, but your face is warm. That is radiant heat: infrared energy travels to you and warms whatever it lands on. Convective heat warms the air, and the air warms you – which works in a closed room and fails on an open patio, where the warm air drifts away.[^s1]
+Picture standing in sunshine on a crisp winter day: the air is cold, and your face is warm. That is radiant heat, infrared energy that travels to you and warms whatever it lands on. Convective heat warms the air, which then warms you; it works well in a closed room and struggles on an open patio, where the warm air drifts away.[^s1]
 
-Outdoors, you want as much radiant heat as possible. Bromic's guidance sorts heaters by wavelength:[^s1]
+Outdoors, you want as much radiant heat as possible, and Bromic's guidance sorts heaters by wavelength:[^s1]
 
 | Wavelength | Radiant share | Warm-up | Wind |
 |---|---|---|---|
@@ -65,9 +65,9 @@ Outdoors, you want as much radiant heat as possible. Bromic's guidance sorts hea
 | Medium wave | ~60% | ~30 seconds | Limited sensitivity |
 | Long wave | ~40% | ~5 minutes | Most easily dispersed |
 
-"Infrared patio heater" describes all three, so ask which wavelength you are buying.
+"Infrared patio heater" describes all three, so it is worth asking which wavelength you are choosing.
 
-## Electric or gas: how do they compare?
+## Electric And Gas, Side By Side
 
 | Factor | Built-in electric (Platinum, Tungsten Electric) | Freestanding gas (Tungsten Smart-Heat Freestanding Gas) |
 |---|---|---|
@@ -81,28 +81,28 @@ Outdoors, you want as much radiant heat as possible. Bromic's guidance sorts hea
 | Controls | Affinity On/Off, Dimmer or Eclipse controller, or wall switch; app and voice need compatible Affinity controls, sold separately[^s2] | [[VERIFY: control options for Tungsten Freestanding Gas — Product team]] |
 | Running cost | Watts × electricity rate | BTU × gas or propane rate – see [what it costs to run](item:RES-IN-01) |
 
-## When is electric the better choice?
+## Where Electric Comes Into Its Own
 
-- **The space has a roof, soffit or pergola.** Electric heaters mount to it or recess into it, and nothing has to sit on the floor.
-- **You want it to look built in.** Recess kits flush-mount Platinum and Tungsten Electric heaters into a ceiling cavity.[^s1]
-- **The space is partly enclosed.** No combustion means no exhaust to manage – the reason WorkSafeBC, a Canadian workplace-safety regulator, points to electric heaters as the way to lower carbon monoxide risk in enclosed patios.[^s4] It still has to meet the outdoor definition: at least 30% of the perimeter permanently open.[^s1]
-- **You want zones and schedules.** Affinity Smart-Heat Controls run built-in heaters through the Bromic Smart-Heat app – zones, schedules, timers – and work with Amazon Alexa and Google Assistant. App and Wi-Fi features need compatible Affinity controls, sold separately.[^s2]
+- **Your space has a roof, soffit or pergola.** Electric heaters mount to it or recess into it, leaving the floor completely clear.
+- **You want the heat to feel built in.** Recess kits flush-mount Platinum and Tungsten Electric heaters into a ceiling cavity.[^s1]
+- **Your space is partly enclosed.** With no combustion there is no exhaust to manage, which is why WorkSafeBC, a Canadian workplace-safety regulator, points to electric heaters as the way to lower carbon monoxide risk in enclosed patios.[^s4] The space still has to meet the outdoor definition, with at least 30% of the perimeter permanently open.[^s1]
+- **You would like zones and schedules.** Affinity Smart-Heat® Controls run built-in heaters through the Bromic Smart-Heat app, with zones, schedules and timers, and work with Amazon Alexa and Google Assistant. App and Wi-Fi features need compatible Affinity controls, sold separately.[^s2]
 
-![White heater set between pergola louvres](img:l-010-076)
+![A white heater set seamlessly between pergola louvres](img:l-010-076)
 
-## When is gas the better choice?
+## Where Gas Comes Into Its Own
 
-- **The space is open and large.** One freestanding gas heater covers more ground than one electric heater,[^s2] though around seated guests the four-seats-a-heater limit usually decides how many you need.
-- **There is nothing to mount to.** A lawn, a pool deck, a terrace with open sky.
-- **You want to move the heat.** Wheels and an anti-tilt design let you reposition it with the furniture.[^s2]
-- **Natural gas is already on site**, or a propane supply suits you. Propane is portable but has to be refilled.
+- **Your space is open and generous.** One freestanding gas heater covers more ground than one electric heater,[^s2] though around seated guests the four-seats-a-heater limit usually decides how many you need.
+- **There is nothing to mount to,** such as a lawn, a pool deck or a terrace under open sky.
+- **You like to move the warmth around.** Wheels and an anti-tilt design let you reposition it along with the furniture.[^s2]
+- **Natural gas is already on site**, or a propane supply suits you. Propane is portable and needs refilling from time to time.
 
-## How many heaters does my space need?
+## Estimating How Many Heaters You Need
 
-A quick estimate, for the area you want warm – usually the seating, not the whole slab:
+This quick estimate is for the area you want warm, which is usually the seating rather than the whole slab:
 
 - **Built-in electric:** heaters = area ÷ (coverage × cover factor × climate factor), rounded up. Cover: open 0.85, partly covered 1.0, solid roof 1.1. Climate on the evenings you heat: mild 1.0, cool 0.85, cold 0.7. [[VERIFY: cover and climate factors — Product team]] The table uses partly covered and cool, 1.0 × 0.85 = 0.85.
-- **Freestanding gas:** the same area sum, but never more than four seats a heater, because guests block its radiant heat. Without a seat count, allow 20 ft² a seat. Take the larger of the two answers.
+- **Freestanding gas:** the same area sum, with never more than four seats a heater, because guests block its radiant heat. Without a seat count, allow 20 ft² a seat, and take the larger of the two answers.
 
 | Example area | Platinum Electric, 4500 W (143 ft²) to 2300 W (65 ft²)[^s2] | Tungsten Freestanding Gas (215 ft²)[^s2] |
 |---|---|---|
@@ -110,31 +110,31 @@ A quick estimate, for the area you want warm – usually the seating, not the wh
 | 20' × 16' patio (320 ft², about the new-home average[^s3]; 16 seats) | 3–6 (320 ÷ 121.6 = 2.6; 320 ÷ 55.3 = 5.8) | 4 (16 seats ÷ 4) |
 | 30' × 20' terrace (600 ft², 30 seats) | 5–11 (600 ÷ 121.6 = 4.9; 600 ÷ 55.3 = 10.9) | 8 (30 seats ÷ 4) |
 
-Each built-in heater runs from an Affinity Smart-Heat On/Off or Dimmer controller and a wall switch. [[VERIFY: control options for Tungsten Freestanding Gas — Product team]] In every row the four-seat limit, not coverage, sets the gas count (600 ÷ (215 × 0.85) = 3.3 would round up to only 4). The electric range is wide because it spans wattages; coverage also changes with mounting height and installation.[^s2] An open site or cold evenings lower the factor and raise the count; a solid roof raises it, because a cover holds a "heat cloud".[^s1] Treat this as a starting point. The [sizing calculator](asset:A03) narrows it in a minute, and [placement](item:RES-PP-01) decides whether the heat lands where people sit.
+Each built-in heater runs from an Affinity Smart-Heat® On/Off or Dimmer controller and a wall switch. [[VERIFY: control options for Tungsten Freestanding Gas — Product team]] In every row the four-seat limit sets the gas count ahead of coverage (600 ÷ (215 × 0.85) = 3.3 would round up to only 4). The electric range is wide because it spans wattages, and coverage also changes with mounting height and installation.[^s2] An open site or cold evenings lower the factor and raise the count, while a solid roof raises the factor, because a cover holds a "heat cloud".[^s1] Treat this as your starting point. The [sizing calculator](asset:A03) narrows it in a minute, and [placement](item:RES-PP-01) makes sure the warmth lands where people sit.
 
-## Key takeaways
+## What To Take Away
 
-- Outdoors, radiant heat is the kind that works; short and medium wave warm fastest and resist wind best.[^s1]
-- Choose electric for covered, built-in or partly enclosed spaces; choose gas for open, larger or movable layouts.
-- Size the seating, not the slab: built-in heaters by area, adjusted for cover and climate; freestanding heaters at no more than four seats each.
-- Electric work is for a licensed electrician; gas work for a licensed gas fitter. Confirm requirements with your local building authority.[^s1]
-- Every heater needs its controls: an Affinity On/Off, Dimmer or Eclipse controller, or wall switch; app and voice features need compatible Affinity controls, sold separately.
+- Outdoors, radiant heat is the kind that works, and short and medium wave warm fastest and hold up best in wind.[^s1]
+- Choose electric for covered, built-in or partly enclosed spaces, and gas for open, larger or movable layouts.
+- Size for the seating: built-in heaters by area, adjusted for cover and climate, and freestanding heaters at no more than four seats each.
+- Electric work is for a licensed electrician and gas work for a licensed gas fitter. Confirm requirements with your local building authority.[^s1]
+- Every heater is paired with its controls, an Affinity On/Off, Dimmer or Eclipse controller, or wall switch, and app and voice features need compatible Affinity controls, sold separately.
 
 ## FAQ
 
 ### Are electric patio heaters as warm as gas?
-Per heater, gas covers more area (approx. 215 ft² vs approx. 65–143 ft² for Platinum).[^s2] Around a table, though, guests block a freestanding heater's radiant heat, so each serves no more than four seats; for a seated patio that limit usually means more freestanding gas heaters than Platinum 4500W ones (four against three for a 320 ft² patio, in the table above). Sized correctly, both keep people comfortable.
+Per heater, gas covers more area (approx. 215 ft² vs approx. 65–143 ft² for Platinum).[^s2] Around a table, though, guests block a freestanding heater's radiant heat, so each serves no more than four seats; for a seated patio that limit usually means more freestanding gas heaters than Platinum 4500W ones (four against three for a 320 ft² patio, in the table above). Sized correctly, both keep everyone comfortable.
 
 ### What is the best outdoor heater for a covered patio?
 Usually built-in electric infrared, wall- or ceiling-mounted or recessed, because it needs no venting and keeps the floor clear. See [can I put a patio heater under a covered patio](item:RES-PP-KB1).
 
 ### Is an infrared patio heater the same as an electric one?
-No. Infrared describes the heat, not the fuel. Gas and electric heaters both emit infrared; what matters is the wavelength.[^s1]
+No. Infrared describes the heat, and the fuel is a separate choice. Gas and electric heaters both emit infrared, and what matters is the wavelength.[^s1]
 
 ### Do I need a permit?
-Often, for hardwired electric or plumbed gas. Requirements vary by city and county; confirm with your local building authority and a licensed electrician or gas fitter.[^s1]
+Often, for hardwired electric or plumbed gas. Requirements vary by city and county, so confirm with your local building authority and a licensed electrician or gas fitter.[^s1]
 
 ### Can I mix electric and gas?
-Yes. A common pattern is built-in electric under the cover and a freestanding gas heater for the open lawn or pool edge.
+Yes. A lovely pattern is built-in electric under the cover and a freestanding gas heater for the open lawn or pool edge.
 
 Not sure how many you need? Size your space with the Bromic calculator.
