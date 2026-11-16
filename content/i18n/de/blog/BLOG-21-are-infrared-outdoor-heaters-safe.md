@@ -1,17 +1,17 @@
 ---
 id: BLOG-21
 type: blog
-title: "Sind Infrarot-Heizstrahler für draußen sicher? Was Sie prüfen sollten, Modell für Modell"
+title: "Sind Infrarot-Heizstrahler sicher? Ein gutes Gefühl für jeden Abend im Freien, Modell für Modell"
 action: merge-target
 audience: [RES, COM]
 stage: [CO]
 cell: RES-CO
 asset: A24
-summary: "Infrarot-Heizstrahler sind sicher, wenn der Typ zum Bereich passt, das Gerät geprüft ist, vorschriftsgemäß installiert wird und nichts Brennbares in der Nähe ist. Elektro oder Gas, Belüftung, Montagehöhen und Abstände je Bromic-Modell und die Sicherheits-Checkliste für den Alltag."
+summary: "Infrarot-Heizstrahler sind sicher, wenn der Typ zum Bereich passt und das Gerät geprüft, vorschriftsgemäß installiert und von allem Brennbaren ferngehalten wird. Elektro und Gas im Vergleich, Belüftung, Montagehöhen und Abstände je Bromic-Modell und eine Sicherheits-Checkliste für den Alltag."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Sind Infrarot-Terrassenheizstrahler für draußen sicher?"
-meta_description: "Infrarot-Terrassenheizstrahler sind sicher, wenn sie geprüft, vorschriftsgemäß installiert und von Brennbarem ferngehalten werden. Elektro oder Gas, Belüftung und Abstände je Modell."
+meta_description: "Sind Infrarot-Heizstrahler im Freien sicher? Ja, wenn geprüft, vorschriftsgemäß installiert und fern von Brennbarem. Elektro oder Gas, Belüftung, Abstände."
 cta: {label: "Ihren Bereich berechnen", asset: A03}
 hero: w-tungsten-electric-white-recessed
 owner_review: Marketing
@@ -20,7 +20,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-CO-KB2, RES-PP-KB1, ARC-BY-KB1, RES-BY-01]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: de
 translation_of: BLOG-21
 translation_status: machine-draft
@@ -77,15 +77,15 @@ sources:
     verified: true
 ---
 
-Ja. Infrarot-Heizstrahler für draußen sind sicher, wenn der Typ zum Bereich passt, das Gerät geprüft ist, nach Vorschrift und Anleitung installiert wird und nichts Brennbares in der Nähe ist. Elektrisches Infrarot verbrennt keinen Brennstoff, erzeugt daher kein Kohlenmonoxid und eignet sich für überdachte Terrassen. Gas-Infrarot braucht freie Luft. Montieren Sie Heizstrahler mindestens in den von Bromic angegebenen Höhen und lassen Sie sie nie unbeaufsichtigt laufen.[^s1][^s3]
+Ja – Infrarot-Heizstrahler für draußen sind sicher, wenn der Typ zu Ihrem Bereich passt, das Gerät geprüft ist, es nach Vorschrift und Anleitung installiert wird und alles Brennbare gut auf Abstand bleibt. Elektrisches Infrarot verbrennt keinen Brennstoff, erzeugt daher kein Kohlenmonoxid und ist auf überdachten Terrassen zu Hause, während Gas-Infrarot freie Luft braucht. Montieren Sie jeden Heizstrahler mindestens in den von Bromic angegebenen Höhen und lassen Sie ihn nie unbeaufsichtigt laufen.[^s1][^s3]
 
 ![Drei weiße Tungsten-Electric-Heizstrahler, eingelassen in eine Holzpaneeldecke über Korbsesseln auf einer Veranda](img:w-tungsten-electric-white-recessed)
 
-## Wie funktioniert Infrarotwärme?
+## Wie Infrarotwärme Sie erreicht
 
-Ein Infrarot-Heizstrahler wärmt Menschen, Möbel und Böden direkt, wie Sonnenlicht, statt die Luft zu erwärmen.[^s1] Deshalb funktioniert er im Freien, wo warme Luft davonweht. Das Heizelement wird heiß; die Sicherheitsfragen betreffen deshalb Platzierung, Energieträger und Abstand, nicht die Wärme selbst.
+Ein Infrarot-Heizstrahler wärmt Menschen, Möbel und Böden direkt, ähnlich wie Sonnenlicht, statt die Luft zu erwärmen.[^s1] Deshalb funktioniert er im Freien so gut, wo warme Luft einfach davonweht. Das Heizelement wird heiß, darum hängt die Sicherheit von Platzierung, Energieträger und Abstand ab.
 
-## Elektro oder Gas: was ist wo sicherer?
+## Elektro oder Gas – und wohin welcher gehört
 
 | | Elektrisches Infrarot | Gas-Infrarot (Erdgas oder Flüssiggas) |
 |---|---|---|
@@ -95,13 +95,13 @@ Ein Infrarot-Heizstrahler wärmt Menschen, Möbel und Böden direkt, wie Sonnenl
 | Vorschriften (Deutschland) | DIN VDE 0100 | DVGW-TRGI (Erdgas) bzw. TRF (Flüssiggas) |
 | Installation | Eingetragener Elektrofachbetrieb | Gasinstallateur (eingetragenes Installationsunternehmen) |
 
-In den USA gelten dafür der National Electrical Code (NFPA 70) sowie für Gas ANSI Z223.1/NFPA 54 und für Propanflaschen NFPA 58[^s1][^s6]; in Deutschland treten DIN VDE 0100, die DVGW-TRGI und die TRF an ihre Stelle. [[VERIFY: current VDE and DVGW rules for outdoor heaters — Partner Deutschland]]
+In den USA gelten dafür der National Electrical Code (ANSI/NFPA 70) sowie für Gas ANSI Z223.1/NFPA 54 und für Propanflaschen zusätzlich NFPA 58[^s1][^s6]; in Deutschland treten DIN VDE 0100, die DVGW-TRGI und die TRF an ihre Stelle. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Freien — Partner Deutschland]]
 
-## Wie offen muss ein Bereich für Gas sein?
+## Wie offen ein Bereich für Gas sein muss
 
-Der Planungsleitfaden von Bromic behandelt einen Bereich als Außenbereich, wenn mindestens 30 % seines Umfangs dauerhaft offen sind.[^s1] Zwei ältere Bromic-Beiträge nannten andere Werte, 25 % offene Wandfläche und 75 % offene Wände.[^s3] Beide werden hier zurückgezogen. Maßgeblich für Ihre Terrasse sind die Installationsanleitung des Heizstrahlers und die DVGW-TRGI bzw. TRF, so wie Ihre zuständige Behörde sie anwendet. [[VERIFY: the ventilation requirement stated in the Platinum Gas, Tungsten Gas and Tungsten Freestanding manuals — Produktteam]]
+Der Planungsleitfaden von Bromic behandelt einen Bereich als Außenbereich, wenn mindestens 30 % seines Umfangs dauerhaft offen sind.[^s1] Zwei ältere Bromic-Beiträge nannten andere Werte, 25 % offene Wandfläche und 75 % offene Wände,[^s3] und beide werden hier zurückgezogen. Maßgeblich für Ihre Terrasse ist die Installationsanleitung des Heizstrahlers, zusammen mit der DVGW-TRGI bzw. TRF, so wie Ihre zuständige Behörde sie anwendet. [[VERIFY: die Belüftungsanforderung in den Anleitungen von Platinum Gas, Tungsten Gas und Tungsten Freestanding — Produktteam]]
 
-## Montagehöhen und Abstände je Modell
+## Montagehöhen und Abstände für jedes Modell
 
 | Heizstrahler | Mindestmontagehöhe | Hinweise zu Abständen |
 |---|---|---|
@@ -114,33 +114,33 @@ Der Planungsleitfaden von Bromic behandelt einen Bereich als Außenbereich, wenn
 | Tungsten Gas | 2,44 m | Hitzeschild anbringen, wenn darüber weniger als ca. 1070 mm frei sind[^s2] |
 | Tungsten Smart-Heat Freestanding | Freistehend | Kippschutz; ausgelegt für Wind bis ca. 13 km/h[^s2] |
 
-Werte von den Bromic-Produktseiten.[^s2] [[VERIFY: all heights against 2026 cut sheets, and add side and below clearances to combustibles per model from the manuals — Produktteam]] Halten Sie alles Brennbare, etwa Kissen, Markisen, Sonnenschirme und Pflanzen, mindestens ca. 0,9 m entfernt, wie es die US-Brandschutzorganisation NFPA empfiehlt, oder weiter, wenn die Anleitung das verlangt.[^s5] Mehr zu Abständen: [Abstand von Heizstrahlern zu brennbaren Materialien](item:ARC-BY-KB1).
+Werte von den Bromic-Produktseiten.[^s2] [[VERIFY: alle Höhen mit den Datenblättern 2026 abgleichen und je Modell die seitlichen und unteren Abstände zu brennbaren Materialien aus den Anleitungen ergänzen — Produktteam]] Halten Sie alles Brennbare, etwa Kissen, Markisen, Sonnenschirme und Pflanzen, mindestens ca. 0,9 m entfernt, wie es die US-Brandschutzorganisation NFPA empfiehlt, oder weiter, wenn die Anleitung das verlangt.[^s5] Mehr zu Abständen lesen Sie unter [Abstand von Heizstrahlern zu brennbaren Materialien](item:ARC-BY-KB1).
 
-## Geben Infrarot-Heizstrahler Abgase oder UV-Strahlung ab?
+## Abgase, UV und was Infrarot abgibt
 
-Elektrische Modelle geben keine Abgase ab. Gasmodelle erzeugen Kohlenmonoxid, das man weder sehen noch riechen kann; sie gehören deshalb ins Freie.[^s4] Infrarot liegt bei längeren Wellenlängen als sichtbares Licht, Ultraviolett bei kürzeren. Bromic-Heizstrahler sind dafür ausgelegt, Infrarot abzugeben. [[VERIFY: any UV emission data for Bromic elements before claiming "no UV" — Produktteam]]
+Elektrische Modelle geben keine Abgase ab. Gasmodelle erzeugen Kohlenmonoxid, das man weder sehen noch riechen kann, deshalb gehören sie ins Freie.[^s4] Infrarot liegt bei längeren Wellenlängen als sichtbares Licht, Ultraviolett bei kürzeren. Bromic-Heizstrahler sind dafür ausgelegt, Infrarot abzugeben. [[VERIFY: etwaige Daten zur UV-Abgabe der Bromic-Heizelemente, bevor „kein UV“ behauptet wird — Produktteam]]
 
-## Sicherheits-Checkliste für den Alltag
+## Ihre Sicherheits-Checkliste für den Alltag
 
 1. **Geprüft und fachgerecht installiert.** Achten Sie auf ein Prüfzeichen; der US-Planungsleitfaden nennt Intertek, UL oder CSA.[^s1] [[VERIFY: welche Prüf- und Konformitätszeichen Bromic-Geräte in Deutschland tragen (z. B. CE) — Produktteam]]
-2. **Eben und standsicher.** Stellen Sie freistehende Heizstrahler auf festen, ebenen Untergrund. Tungsten Freestanding hat einen Kippschutz; Eclipse Freestanding hat einen beschwerten Fuß.[^s7]
+2. **Eben und standsicher.** Stellen Sie freistehende Heizstrahler auf festen, ebenen Untergrund. Tungsten Freestanding hat einen Kippschutz, Eclipse Freestanding einen beschwerten Fuß.[^s7]
 3. **Nie unbeaufsichtigt, nie über Nacht.** Schalten Sie Heizstrahler aus, wenn alle gehen.[^s5] Bei Gas schließen Sie die Zufuhr vollständig.[^s3]
-4. **Flüssiggasflaschen.** Halten Sie sie aufrecht und geschlossen. Lagern Sie sie im Freien, belüftet, fern von Wärme und allem Brennbaren, und nie im Haus.[^s3][^s6]
-5. **Dichtheitsprüfung.** Streichen Sie Seifenwasser auf die Gasanschlüsse; Blasen bedeuten ein Leck. Drehen Sie das Gas ab und rufen Sie einen Gasinstallateur.[^s3]
+4. **Flüssiggasflaschen.** Halten Sie sie aufrecht und geschlossen und lagern Sie sie im Freien an einem belüfteten Ort, fern von Wärme und allem Brennbaren – nie im Haus.[^s3][^s6]
+5. **Dichtheitsprüfung.** Streichen Sie Seifenwasser auf die Gasanschlüsse, denn Blasen bedeuten ein Leck. Finden Sie eines, drehen Sie das Gas ab und rufen Sie einen Gasinstallateur.[^s3]
 6. **Sauber halten.** Halten Sie Brenner- und Luftwege bei Gasmodellen frei und die Fronten elektrischer Geräte frei von Schmutz.[^s3] Lassen Sie das Gerät einmal im Jahr von einer Fachkraft warten.[^s3]
 7. **Kinder und Haustiere.** Halten Sie um jeden freistehenden Heizstrahler eine kinderfreie Zone von ca. 0,9 m ein.[^s5] Siehe [Sicherheit mit Kindern und Haustieren](item:RES-CO-KB2).
 
-## Die Steuerung gehört zur Sicherheit
+## Die Steuerung, Teil jeder sicheren Installation
 
-Jedes System wird über eine Steuerung betrieben: ein [Affinity Smart-Heat](https://www.bromic.de/) On/Off- oder Dimmer-Steuergerät, das Eclipse-Steuergerät für Eclipse oder einen manuellen Wandschalter.[^s7] Zeitpläne und Timer in der Smart-Heat App schalten die Wärme ab, wenn der Abend endet; WLAN- und App-Funktionen setzen kompatible Affinity-Steuerungen voraus, die separat erhältlich sind.[^s7]
+Jedes System läuft über seine Steuerung – ein [Affinity Smart-Heat](https://www.bromic.de/) On/Off- oder Dimmer-Steuergerät, das Eclipse-Steuergerät für Eclipse oder einen manuellen Wandschalter.[^s7] Zeitpläne und Timer in der Smart-Heat App schalten die Wärme ab, wenn der Abend endet, und WLAN- und App-Funktionen setzen kompatible Affinity-Steuerungen voraus, die separat erhältlich sind.[^s7]
 
-Vorschriften regeln Aufstellung, Versorgung, Belüftung und Abstände.[^s1] Klären Sie jede Installation mit Ihrem Bauamt und einem eingetragenen Elektrofachbetrieb bzw. Gasinstallateur ab und lesen Sie die [Installationsanleitung](https://www.bromic.com/technical-resources/) Ihres Modells.
+Vorschriften regeln Aufstellung, Versorgung, Belüftung und Abstände.[^s1] Klären Sie jede Installation mit Ihrem örtlichen Bauamt und einem eingetragenen Elektrofachbetrieb bzw. Gasinstallateur ab und lesen Sie die [Installationsanleitung](https://www.bromic.com/technical-resources/) Ihres Modells.
 
 ## Häufige Fragen
 
 ### Dürfen Infrarot-Terrassenheizstrahler die ganze Nacht laufen?
 
-Nein. Schalten Sie Heizstrahler aus, wenn Sie gehen oder schlafen gehen.[^s5] Mit kompatiblen Affinity-Steuerungen kann ein Zeitplan in der App das für Sie übernehmen.[^s7]
+Nein. Schalten Sie Heizstrahler aus, wenn Sie gehen oder schlafen gehen.[^s5] Mit kompatiblen Affinity-Steuerungen übernimmt das ein Zeitplan in der App für Sie.[^s7]
 
 ### Ist ein elektrischer Infrarot-Heizstrahler unter einer überdachten Terrasse sicher?
 
@@ -152,6 +152,6 @@ Nein. Heizgeräte, die Brennstoff verbrennen, erzeugen Kohlenmonoxid und gehöre
 
 ### Wie weit sollte ein Terrassenheizstrahler von brennbaren Materialien entfernt sein?
 
-Als allgemeine Regel mindestens ca. 0,9 m, und mehr, wenn die Anleitung des Modells das vorgibt.[^s5]
+Als allgemeine Regel mindestens ca. 0,9 m, oder so viel, wie die Anleitung des Modells vorgibt, wenn das mehr ist.[^s5]
 
-Planen Sie die sichere Platzierung von Anfang an: Berechnen Sie Ihren Bereich mit dem Bromic-Rechner.
+Planen Sie die sichere Platzierung von der allerersten Skizze an und berechnen Sie Ihren Bereich mit dem Bromic-Rechner.

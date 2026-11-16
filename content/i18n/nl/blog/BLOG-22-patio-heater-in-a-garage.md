@@ -11,11 +11,11 @@ audience: [RES]
 stage: [AW]
 cell: RES-AW
 asset: A24
-summary: "Nooit een terrasverwarmer op gas of propaan: een garage houdt koolmonoxide vast, met de deur open of dicht. Een elektrische verwarmer kan een optie zijn als de handleiding dat toestaat, hoog gemonteerd, aangesloten door een erkende installateur en uit de buurt van brandstof en spullen. En waar terrasverwarmers wel thuishoren."
+summary: "Een garage is geen plek voor een terrasverwarmer op gas of propaan – hij houdt koolmonoxide vast, met de deur open of dicht. Waar de handleiding het toestaat, kan een elektrische infraroodverwarmer een werkplaats verwarmen, hoog gemonteerd en aangesloten door een erkende installateur. En waar je terrasverwarmer echt thuishoort."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Is het veilig om een terrasverwarmer op propaan of elektriciteit in mijn garage te gebruiken?"
-meta_description: "Gebruik nooit een terrasverwarmer op gas of propaan in een garage, ook niet met de deur open. Elektrisch kan als de handleiding het toestaat, hoog gemonteerd en aangesloten door een installateur."
+meta_description: "Een terrasverwarmer op gas of propaan in een garage is nooit veilig, deur open of niet. Elektrisch kan als de handleiding het toestaat, hoog gemonteerd."
 cta: {label: "Bereken je ruimte", asset: A03}
 hero: w-dsc05737-courtney-saib
 owner_review: marketing
@@ -24,7 +24,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-CO-KB2, BLD-BY-KB1, BLD-IN-KB1, RES-PP-KB1]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Centers for Disease Control and Prevention
@@ -77,17 +77,17 @@ sources:
     verified: false
 ---
 
-Gebruik nooit een terrasverwarmer op gas of propaan in een garage. Bij verbranding ontstaat koolmonoxide, en een garage houdt dat vast; de Amerikaanse gezondheidsautoriteit CDC raadt af om apparaten op propaan of aardgas überhaupt in een garage te gebruiken.[^s1] Een open deur maakt het niet veilig. Een elektrische infraroodverwarmer verbrandt niets en kan dus een optie zijn, maar alleen als de handleiding de ruimte toestaat, hij hoog hangt en is aangesloten door een erkende installateur.[^s2]
+Een terrasverwarmer op gas of propaan hoort nooit in een garage. Elke vlam maakt koolmonoxide, en een garage houdt dat vast, daarom raadt de Amerikaanse gezondheidsautoriteit CDC af om apparaten op propaan of aardgas überhaupt in een garage te gebruiken.[^s1] Een open deur verandert daar niets aan. Elektrische infraroodwarmte verbrandt niets en kan dus een optie zijn, maar alleen als de handleiding de ruimte toestaat en de verwarmer hoog hangt en is aangesloten door een erkende installateur.[^s2]
 
-![Afgeschermde veranda met een houten spitsplafond, een open haard en twee zwarte Tungsten Electric-verwarmers aan pendelstangen](img:w-dsc05737-courtney-saib)
+![Afgeschermde veranda met een houten spitsplafond, een open haard en twee zwarte Tungsten Electric-verwarmers aan pendelstangen, die de zithoek eronder verwarmen](img:w-dsc05737-courtney-saib)
 
-## Waarom is gas in een garage nooit veilig?
+## Waarom gas niet in een garage hoort
 
-Verwarmers op gas en propaan verbranden brandstof en geven koolmonoxide af, een gas zonder kleur of geur. In een garage hoopt het zich snel op. Het advies van de CDC is duidelijk: gebruik geen apparaten op propaan, aardgas of benzine in een woning, kelder of garage, of bij een raam.[^s1]
+Verwarmers op gas en propaan verbranden brandstof en geven koolmonoxide af, een gas dat je niet kunt zien of ruiken, en in de afgesloten ruimte van een garage hoopt het zich snel op. Het advies van de CDC is duidelijk: gebruik geen apparaten op propaan, aardgas of benzine in een woning, kelder of garage, of bij een raam.[^s1]
 
-**Kan ik hem gebruiken met de garagedeur open?** Een gasverwarmer niet. Een open deur is geen ventilatieontwerp, en de wind kan de verbrandingsgassen terugblazen, ook het huis in. Bromic raadt gasverwarmers af in elke afgesloten of half afgesloten ruimte.[^s2] Ter vergelijking: de Planning Guide van Bromic beschouwt een ruimte pas als buiten wanneer minstens 30% van de omtrek blijvend open is, en een garage met één deur is dat niet.[^s3]
+**Kan ik hem gebruiken met de garagedeur open?** Een gasverwarmer niet. Een open deur is nooit bedoeld als ventilatie, en een windvlaag kan de verbrandingsgassen terugblazen, de garage in en verder het huis in. Bromic raadt gasverwarmers af in elke afgesloten of half afgesloten ruimte.[^s2] Ter vergelijking: onze Planning Guide beschouwt een ruimte pas als buiten wanneer minstens 30% van de omtrek blijvend open is, en een garage met één deur blijft daar ver onder.[^s3]
 
-## Elektrisch of gas: de garage in één oogopslag
+## Elektrisch en gas in de garage, naast elkaar
 
 | | Elektrisch infrarood | Gas of propaan |
 |---|---|---|
@@ -97,24 +97,24 @@ Verwarmers op gas en propaan verbranden brandstof en geven koolmonoxide af, een 
 | Normen (VS, in de bronnen) | NFPA 70, de National Electrical Code[^s3] | NFPA 54 en, voor flessen, NFPA 58[^s3][^s7] |
 | Normen (Nederland) | NEN 1010 | NEN 1078 |
 
-## Wil je elektrische warmte in een garage, wat is er dan nodig?
+## Elektrische warmte in je garage
 
-Bromic-verwarmers zijn ontworpen en gecertificeerd als buitenverwarmers. De galerij van Bromic toont een Cobalt Electric die in een garage is geïnstalleerd,[^s5] maar raadpleeg de installatiehandleiding van jouw model voordat je er een binnen plant. [[VERIFY: of de handleidingen van Tungsten, Cobalt en Platinum Electric installatie in een afgesloten garage toestaan, en onder welke voorwaarden — productteam]]
+Bromic-verwarmers zijn ontworpen en gecertificeerd als buitenverwarmers. Onze galerij toont een Cobalt Electric die in een garage is geïnstalleerd,[^s5] maar de installatiehandleiding van jouw model is altijd het eerste wat je leest voordat je een verwarmer binnen plant. [[VERIFY: of de handleidingen van Tungsten, Cobalt en Platinum Electric installatie in een afgesloten garage toestaan, en onder welke voorwaarden — productteam]]
 
-- **Monteer hem hoog.** Cobalt vraagt minstens 1,8 m op een wand en 2,4 m aan een plafond; Tungsten en Platinum Electric vragen 1,8 m en 2,4 m.[^s4][^s3] Zo hangt hij boven autodaken, ladders en opslag.
-- **Houd hem weg van brandstof en rommel.** Richt een verwarmer nooit op jerrycans, verf, oplosmiddelen, karton of de tankdop van een auto. Houd de afstanden uit de handleiding vrij.
-- **Gebruik een eigen groep.** Een Cobalt van 6000 W trekt op 230 V ongeveer 26 A; een Tungsten van 2000 W veel minder, ongeveer 9 A.[^s4] Een erkende installateur bepaalt de groep en de beveiliging volgens NEN 1010: zie [welke groep en installatieautomaat](item:BLD-IN-KB1) en [aardlekbeveiliging](item:BLD-BY-KB1).
-- **Kies de bediening.** Elke verwarmer werkt via een bediening: een Affinity Smart-Heat On/Off- of Dimmer-regelaar, of een handmatige wandschakelaar.[^s4] Timers en schema's in de app zorgen dat hij uitgaat; wifi- en app-functies vragen om compatibele Affinity-bediening, apart verkrijgbaar.[^s6]
+- **Monteer hem hoog.** Cobalt vraagt minstens 1,8 m op een wand en 2,4 m aan een plafond; Tungsten en Platinum Electric vragen 1,83 m en 2,44 m.[^s4][^s3] Zo hoog gemonteerd hangt de verwarmer ruim boven autodaken, ladders en opslag.
+- **Houd hem weg van brandstof en rommel.** Richt een verwarmer nooit op jerrycans, verf, oplosmiddelen, karton of de tankdop van een auto, en houd de afstanden uit de handleiding vrij.
+- **Gebruik een eigen groep.** Een Cobalt van 6000 W trekt op 230 V ongeveer 26 A, een Tungsten van 2000 W veel minder, ongeveer 9 A.[^s4] Een erkende installateur bepaalt de groep en de beveiliging volgens NEN 1010 – zie [welke groep en installatieautomaat](item:BLD-IN-KB1) en [aardlekbeveiliging](item:BLD-BY-KB1).
+- **Plan de bediening samen met de verwarmer.** Elke verwarmer werkt via een bediening: een Affinity Smart-Heat On/Off- of Dimmer-regelaar, of een handmatige wandschakelaar.[^s4] Timers en schema's in de app zorgen dat de warmte uitgaat als je klaar bent; wifi- en app-functies vragen om compatibele Affinity-bediening, apart verkrijgbaar.[^s6]
 
-<div class="diagram">Diagram: een garage in doorsnede, elektrische verwarmer op de wand hoger dan 1,8 m, gericht op de werkbank, een vrije zone van ca. 1 m eronder, en een verboden zone rond de plank met brandstof en verf</div>
+<div class="diagram">Diagram: een garage in doorsnede, elektrische verwarmer op de wand hoger dan 1,83 m, gericht op de werkbank, een vrije zone van ca. 1 m eronder, en een verboden zone rond de plank met brandstof en verf</div>
 
-## En een propaanfles in de garage bewaren?
+## Een propaanfles veilig bewaren
 
 Bewaar flessen buiten, rechtop en dicht, weg van warmte en van alles wat kan branden. In de VS regelen NFPA 58 en de lokale brandweervoorschriften de opslag van propaan;[^s7] in Nederland vraag je het na bij je gemeente. Een eerder artikel van Bromic noemde een vrijstaande garage of schuur als opslagplek; raadpleeg de handleiding van je verwarmer en je gemeente of de brandweer voordat je daarop vertrouwt. [[VERIFY: tekst over flesopslag in de handleiding van Tungsten Smart-Heat Freestanding — productteam]] [[VERIFY: Nederlandse regels voor de opslag van propaanflessen bij woningen — Bromic Benelux distributor]]
 
-## Waar horen terrasverwarmers wel?
+## Waar je terrasverwarmer echt tot zijn recht komt
 
-Buitenverwarmers zijn ontworpen voor open en half open ruimtes.[^s2]
+Buitenverwarmers zijn ontworpen voor open en half open ruimtes – een overdekt terras of een plek bij het zwembad – waar de avondlucht de verbrandingsgassen meeneemt en de stralingswarmte iedereen aan tafel bereikt.[^s2]
 
 | Ruimte | Elektrisch | Gas of propaan |
 |---|---|---|
@@ -124,7 +124,7 @@ Buitenverwarmers zijn ontworpen voor open en half open ruimtes.[^s2]
 | Afgeschermde veranda | Meestal; raadpleeg de handleiding | Wees voorzichtig: raadpleeg de handleiding en de normen |
 | Garage, schuur, gesloten kamer | Alleen als de handleiding het toestaat | Nee |
 
-Bekijk het assortiment buitenverwarmers voor open ruimtes op [bromic.nl](https://www.bromic.nl/), of de Engelstalige pagina's over [elektrische buitenverwarmers](https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/) en [verwarmers op gas en propaan](https://www.bromic.com/outdoor-heaters/outdoor-gas-heaters/).
+Ontdek ons assortiment buitenverwarmers voor open ruimtes op [bromic.nl](https://www.bromic.nl/), of de Engelstalige pagina's over [elektrische buitenverwarmers](https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/) en [verwarmers op gas en propaan](https://www.bromic.com/outdoor-heaters/outdoor-gas-heaters/).
 
 Regels voor installaties en brandstof verschillen per gemeente. Laat elke installatie bevestigen door je gemeente en een erkende installateur of gasinstallateur (elektra volgens NEN 1010, gas volgens NEN 1078), en download de [installatiehandleiding](https://www.bromic.com/technical-resources/) van jouw model. [[VERIFY: huidige edities NEN 1010 en NEN 1078 — Bromic Benelux distributor]]
 
@@ -136,10 +136,10 @@ Nee. De Amerikaanse CDC raadt af om apparaten op propaan of aardgas in een garag
 
 ### Is een elektrische terrasverwarmer veilig in een garage?
 
-Hij maakt geen koolmonoxide,[^s2] dus dat kan, als de handleiding het toestaat, hij hoog hangt, vrij blijft van brandstof en opgeslagen spullen, en is aangesloten door een erkende installateur.
+Een elektrische verwarmer maakt geen koolmonoxide,[^s2] dus hij kan veilig zijn waar de handleiding het toestaat, hoog gemonteerd, vrij van brandstof en opgeslagen spullen, en aangesloten door een erkende installateur.
 
 ### Hoe zwaar moet een elektrische verwarmer voor een garage zijn?
 
-Dat hangt af van het oppervlak dat je warm wilt hebben, niet van de hele garage. Tungsten Electric verwarmt ongeveer 6–15 m², van 2000 tot 6000 W.[^s4]
+Dat hangt af van het oppervlak dat je warm wilt houden, meestal de werkbank of de hoek waar je werkt in plaats van de hele garage. Tungsten Electric verwarmt ongeveer 6–15 m², van 2000 tot 6000 W.[^s4]
 
-Twijfel je wat past? Bereken je ruimte met de calculator van Bromic.
+Benieuwd wat bij je ruimte past? Bereken het in een paar minuten met de calculator van Bromic.
