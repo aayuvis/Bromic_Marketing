@@ -1,17 +1,17 @@
 ---
 id: BLOG-40
 type: blog
-title: "Gastronomie im Freien, die bleibt: im Gespräch mit Liz Neuffer von Aria Group"
+title: "Gastlichkeit im Freien, die bleibt: im Gespräch mit Liz Neuffer von Aria Group"
 action: keep-fix
 audience: [COM, ARC]
 stage: [AW]
 cell: COM-AW
 asset: A24
-summary: "Projektdesignerin Liz Neuffer von Aria Group darüber, wie Restaurant- und Barterrassen Gäste anziehen und dem Wetter standhalten: frühe Entscheidungen zur Einhausung, abwechslungsreiche Sitzbereiche, elektrische Wärme und Antworten auf die Kostenfragen der Kunden."
+summary: "Projektdesignerin Liz Neuffer von Aria Group über Restaurant- und Barterrassen, die Gäste anziehen und dem Wetter standhalten: frühe Entscheidungen zur Einhausung, abwechslungsreiche Sitzbereiche, elektrische Wärme und eine klare Antwort auf die Kostenfragen der Kunden."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie planen Gestalter Außenbereiche in der Gastronomie, die auch bei kaltem oder wechselhaftem Wetter funktionieren?"
-meta_description: "Liz Neuffer von Aria Group über Gastronomie im Freien: Einhausung, Sitzbereiche, Wetter, elektrische Wärme und Antworten auf die Kostenfragen der Kunden."
+meta_description: "Liz Neuffer von Aria Group über Gastronomie im Freien: Einhausung, Sitzbereiche, Wetter, elektrische Wärme und klare Antworten auf Kostenfragen."
 cta: {label: "AIA-CE-Kurs zur Außenbeheizung buchen", asset: A14}
 hero: w-wrigleys-mansion-eclipse-portable-heater-4
 owner_review: Marketing
@@ -20,7 +20,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [COM-AW-01, COM-CO-01, ARC-AW-01]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: de
 translation_of: BLOG-40
 translation_status: machine-draft
@@ -63,50 +63,50 @@ sources:
     verified: false
 ---
 
-Außenbereiche in der Gastronomie rechnen sich, wenn Gäste sie sehen, dort sitzen und dabei warm bleiben. In der ersten Folge von Designing Outdoor Spaces erklärt Liz Neuffer, Project Designer bei Aria Group, wie sie Restaurant- und Barterrassen plant: früh über die Einhausung entscheiden, die Sitzbereiche variieren, Wetterschutz und Wärme einplanen und dem Kunden die Kosten klar begründen[^s1].
+Die Außenbereiche in der Gastronomie, die aufblühen, sind die, die Gäste schon von der Straße aus sehen, in denen sie sich niederlassen und in denen sie warm bleiben. In der ersten Folge von Designing Outdoor Spaces erzählt Liz Neuffer, Project Designer bei Aria Group, wie sie Restaurant- und Barterrassen plant: früh über die Einhausung entscheiden, die Sitzbereiche variieren, Wetterschutz und Wärme budgetieren und dem Kunden die Kosten klar begründen[^s1].
 
-![Terrasse in der Abenddämmerung unter einem weißen Herrenhaus mit zwei leuchtenden, gebogenen Eclipse-Standheizstrahlern](img:w-wrigleys-mansion-eclipse-portable-heater-4)
+![Terrasse in der Abenddämmerung unter einem weißen Herrenhaus, gewärmt von zwei gebogenen Eclipse-Standheizstrahlern](img:w-wrigleys-mansion-eclipse-portable-heater-4)
 
-## Wer ist Liz Neuffer?
+## Liz Neuffer im Porträt
 
-Elizabeth (Liz) Neuffer ist Project Designer bei [Aria Group](https://www.ariainc.com/), einem Büro, das für seine Arbeiten in der Gastronomie bekannt ist[^s3]. Sie war bei Archispeak-Moderator Cormac Phalen[^s4] zu Gast, in der ersten Folge der ersten Staffel der Reihe[^s2].
+Elizabeth (Liz) Neuffer ist Project Designer bei [Aria Group](https://www.ariainc.com/), einem Büro, das für seine Arbeiten in der Gastronomie bekannt ist[^s3]. Für die erste Folge der ersten Staffel war sie bei Archispeak-Moderator Cormac Phalen[^s4] zu Gast[^s2].
 
-## Worauf es bei der Gestaltung von Außenbereichen ankommt
+## Warum der Außenbereich zur Investition geworden ist
 
-Neuffer beobachtet, dass Kunden den Außenbereich heute als eigenständige Investition sehen und ein breiteres Produktangebot (Beleuchtung, Heizstrahler, Windschutz) die Umsetzung erleichtert[^s1]. Sie merkt auch an, dass manche Kunden Standorte meiden, an denen Vermieter oder örtliche Vorschriften Außenflächen einschränken. Und Gäste, die man draußen sitzen sieht, ziehen weitere Gäste an[^s1].
+Neuffer erlebt, dass Kunden den Außenbereich heute als eigenständige Investition betrachten, und eine größere Auswahl an Beleuchtung, Heizstrahlern und Windschutz macht die Umsetzung leichter[^s1]. Sie beobachtet auch, dass manche Kunden Standorte meiden, an denen Vermieter oder örtliche Vorschriften Außenflächen begrenzen, und dass Gäste, die man draußen genießen sieht, weitere Gäste anziehen[^s1].
 
-## Planen für den Gast
+## Rund um den Gast geplant
 
-Entscheiden Sie früh, ob eine Konstruktion den Bereich einhausen soll, denn davon hängt ab, wie weit er sich klimatisieren lässt. Mischen Sie Restaurant-, Bar- und Lounge-Zonen; bieten Sie neben normalen Tischen auch geschützte Nischen an; wählen Sie Möbel, die dem Wetter standhalten und bequem bleiben[^s1]. Phalen ergänzte, dass Kunden eher bereit sind, Dachflächen zu nutzen, wenn Haftungsfragen geklärt sind[^s1].
+Entscheiden Sie früh, ob eine Konstruktion den Bereich einhausen soll, denn davon hängt ab, wie weit er sich klimatisieren lässt. Verbinden Sie Restaurant-, Bar- und Lounge-Zonen, bieten Sie neben normalen Tischen auch geschützte Nischen an und wählen Sie Möbel, die dem Wetter standhalten und bequem bleiben[^s1]. Phalen ergänzte, dass Kunden Dachflächen eher nutzen, sobald ihre Haftungsfragen geklärt sind[^s1].
 
-## Dem Wetter trotzen
+## Gäste willkommen heißen, bei jedem Wetter
 
-In wechselhaftem Klima wie in Chicago ist eine ganzjährige Vollklimatisierung nach Neuffers Einschätzung möglicherweise nicht realistisch. Ein Außenbereich kann aber erfolgreich sein, wenn der Planer die richtige Ausstattung vorsieht und der Kunde sie budgetiert[^s1].
+In wechselhaftem Klima wie in Chicago hält Neuffer eine vollständige ganzjährige Klimatisierung für möglicherweise nicht realistisch. Ein Außenbereich kann dennoch erfolgreich sein, wenn der Planer die richtige Ausstattung vorsieht und der Kunde sie budgetiert[^s1].
 
-## Nachhaltigkeit, Ästhetik und Funktion
+## Wo Nachhaltigkeit auf schönes Design trifft
 
-Neuffer beschreibt, wie elektrische Heizstrahler Geräte mit Erdgas und Flüssiggas ablösen, weil Architekten auf Nachhaltigkeit achten, und wie Flaschengas-Heizstrahler wegen ihres Wartungsaufwands an Beliebtheit verlieren[^s1]. Besonders hebt sie den Eclipse hervor, eine schlanke Scheibe, die Wärme und Licht zugleich liefert, sodass die Heizung weder ein nachträglicher Einfall noch ein Störfaktor ist[^s1].
+Neuffer beschreibt, wie elektrische Heizstrahler Geräte mit Erdgas und Flüssiggas ablösen, weil Architekten auf Nachhaltigkeit achten, und wie Flaschengas-Heizstrahler wegen ihres Wartungsaufwands an Beliebtheit verlieren[^s1]. Besonders hebt sie den Eclipse hervor, eine schlanke Scheibe, die Wärme und Licht zugleich spendet und die Beheizung zu einem durchdachten Teil der Gestaltung macht, der sich schön in den Raum fügt[^s1].
 
 | Frage des Kunden | Die Antwort aus der Folge |
 |---|---|
 | Warum draußen investieren? | Mehr Plätze und eine längere Nutzungsdauer für das Restaurant |
 | Funktioniert das bei schlechtem Wetter? | Nur mit Wärme, Windschutz und dem passenden Budget |
 | Erdgas, Flüssiggas oder Strom? | Elektrisch ist einfacher zu installieren und zu warten als Flaschengeräte |
-| Stören die Heizstrahler die Optik? | Wählen Sie schlanke Leuchten, die zugleich Licht spenden |
+| Stören die Heizstrahler die Optik? | Wählen Sie schlanke Geräte, die zugleich Licht spenden |
 
-Für eine Terrasse wie die oben gezeigte beheizt der [Eclipse](https://www.bromic.de/) Standheizstrahler ca. 11 m² und wird mit dem Eclipse Dimmer Controller und einer Fernbedienung geliefert[^s5]; fest montierte Eclipse- und Platinum-Electric-Heizstrahler laufen über ein Affinity Smart-Heat Steuergerät (Eclipse-Steuergerät oder On/Off bzw. Dimmer) mit Wandschalter. Zeitpläne in der App setzen kompatible Affinity-Steuergeräte voraus, die separat erhältlich sind. Zur Wahl der Energieart finden Sie Elektro- und Gas-Heizstrahler auf [bromic.de](https://www.bromic.de/).
+Für eine Terrasse wie die oben gezeigte beheizt der [Eclipse](https://www.bromic.de/) Standheizstrahler ca. 11 m² und wird mit dem Eclipse Dimmer Controller und einer Fernbedienung geliefert[^s5]. Fest montierte Eclipse- und Platinum-Electric-Heizstrahler laufen über ein Affinity Smart-Heat Steuergerät (das Eclipse-Steuergerät oder On/Off bzw. Dimmer) mit Wandschalter. Zeitpläne in der App setzen kompatible Affinity-Steuergeräte voraus, die separat erhältlich sind. Um die Energieart abzuwägen, finden Sie Elektro- und Gas-Heizstrahler auf [bromic.de](https://www.bromic.de/).
 
 ## Häufige Fragen
 
 ### Wo kann ich die Folge hören?
-Auf der [Seite zur Folge](https://www.bromic.com/podcast/hospitality-and-outdoor-spaces/) (auf Englisch), mit Transkript.
+Auf der [Seite zur Folge](https://www.bromic.com/podcast/hospitality-and-outdoor-spaces/) (auf Englisch), zusammen mit einem Transkript.
 
 ### Was beschäftigt Gastronomen am meisten?
-Anschaffungskosten, Wartung und Betriebskosten, abgewogen gegen zusätzliche Plätze und eine längere Nutzungsdauer des Betriebs.
+Anschaffungskosten, Wartung und Betriebskosten, die sie gegen zusätzliche Plätze und eine längere Nutzungsdauer des Betriebs abwägen.
 
 ### Lässt sich ein Außenbereich in der Gastronomie das ganze Jahr nutzen?
-Nach Neuffers Einschätzung kann er mit der richtigen Ausstattung und dem nötigen Budget erfolgreich sein, auch wenn eine ganzjährige Vollklimatisierung möglicherweise nicht realistisch ist.
+Nach Neuffers Einschätzung kann er mit der richtigen Ausstattung und dem passenden Budget erfolgreich sein, auch wenn eine vollständige ganzjährige Klimatisierung möglicherweise nicht realistisch ist.
 
 <div class="newsletter">Newsletter-Anmeldung, eine Zeile (454 Creative bindet sie an das HubSpot-Newsletterformular an): „Jede neue Folge von Designing Outdoor Spaces per E-Mail erhalten.“</div>
 
-Sie möchten die Grundlagen für Ihr Team? Buchen Sie den einstündigen AIA-CE-Kurs von Bromic zur Außenbeheizung. [[VERIFY: AIA CE ist ein US-Weiterbildungsprogramm; gibt es ein deutsches Angebot (z. B. Architektenkammer-Fortbildung)? — Partner Deutschland]]
+Sie möchten die Wissenschaft dahinter mit Ihrem Team teilen? Buchen Sie den einstündigen AIA-CE-Kurs von Bromic zur Außenbeheizung. [[VERIFY: AIA CE ist ein US-Weiterbildungsprogramm; gibt es ein deutsches Angebot (z. B. Architektenkammer-Fortbildung)? — Partner Deutschland]]

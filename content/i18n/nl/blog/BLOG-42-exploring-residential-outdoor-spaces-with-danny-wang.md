@@ -1,17 +1,17 @@
 ---
 id: BLOG-42
 type: blog
-title: "Buitenruimtes bij woningen, met Danny Wang van DW Design & Build"
+title: "Wonen tussen binnen en buiten, met Danny Wang van DW Design & Build"
 action: keep-fix
 audience: [RES, ARC]
 stage: [AW]
 cell: RES-AW
 asset: A24
-summary: "Ontwerper en bouwer Danny Wang over maatwerkwoningen waar binnen en buiten als één geheel aanvoelen: gedeelde materialen, de voorzieningen waar klanten nu om vragen, aanpassen aan het klimaat en de producten die het makkelijker maken."
+summary: "Ontwerper en bouwer Danny Wang over maatwerkwoningen waarin binnen en buiten als één geheel samenvloeien: doorlopende materialen, de voorzieningen waar klanten nu om vragen, aanpassen aan het klimaat en de producten die het moeiteloos maken."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe laten ontwerpers binnen en buiten samenvloeien in een maatwerkwoning?"
-meta_description: "Danny Wang van DW Design & Build over maatwerkwoningen waar binnen en buiten één geheel zijn, de voorzieningen die klanten willen, en warmte die opgaat in het ontwerp."
+meta_description: "Wonen tussen binnen en buiten met Danny Wang van DW Design & Build: woningen uit één stuk, gewilde voorzieningen en warmte die opgaat in het ontwerp."
 cta: {label: "Download Revit BIM- en CAD-bestanden", asset: A13}
 hero: w-dorrington-homes-platinum-electric-1
 owner_review: marketing
@@ -20,7 +20,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-AW-01, ARC-AW-01, ARC-IN-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -62,29 +62,30 @@ translation_of: BLOG-42
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 ---
-Een maatwerkwoning leest tegenwoordig als één ontwerp, van de woonkamer tot de verste rand van het terras. In seizoen één, aflevering twee van de Engelstalige podcast Designing Outdoor Spaces vertelt ontwerper en bouwer Danny Wang hoe hij binnen en buiten in elkaar laat overlopen, om welke voorzieningen zijn klanten nu vragen, hoe hij zich aanpast aan verschillende klimaten, en waarom verwarming die opgaat in het ontwerp ertoe doet[^s1].
 
-![Open woonruimte die uitkomt op een buitenruimte met een verwarmer ingebouwd in het houten plafond](img:w-dorrington-homes-platinum-electric-1)
+In een maatwerkwoning loopt het ontwerp tegenwoordig als één geheel door, van de woonkamer tot de verste rand van het terras. In seizoen één, aflevering twee van de Engelstalige podcast Designing Outdoor Spaces vertelt ontwerper en bouwer Danny Wang hoe hij binnen en buiten samenbrengt, om welke voorzieningen zijn klanten nu vragen, hoe hij zich aanpast aan verschillende klimaten, en waarom verwarming die opgaat in de ruimte zoveel uitmaakt[^s1].
 
-## Wie is Danny Wang?
+![Open woonruimte die uitkomt op een buitenruimte, met een verwarmer ingebouwd in het houten plafond](img:w-dorrington-homes-platinum-electric-1)
 
-Danny Wang is hoofdontwerper van [DW Design & Build](https://www.dannywang.com/)[^s3], een Amerikaans bureau dat sleutelklare woningen in het hogere segment ontwerpt en bouwt. Hij begon als aannemer en ging zelf ontwerpen toen de ontwerpers met wie hij werkte hun ideeën niet snel genoeg konden uitwerken voor zijn klanten; hij leerde zichzelf 3D-ontwerpen en merkte dat klanten de gedurfdere concepten waardeerden[^s1]. Hij sprak met Evan Troxel en Cormac Phalen van Archispeak; de aflevering verscheen op 17 januari 2024[^s2].
+## Maak kennis met Danny Wang
+
+Danny Wang is hoofdontwerper van [DW Design & Build](https://www.dannywang.com/)[^s3], een Amerikaans bureau dat sleutelklare woningen in het hogere segment ontwerpt en bouwt. Hij begon als aannemer en ging zelf ontwerpen toen de ontwerpers met wie hij werkte hun ideeën niet snel genoeg konden uitwerken voor zijn klanten. Hij leerde zichzelf 3D-ontwerpen en merkte dat klanten dol waren op de gedurfdere concepten[^s1]. Hij sprak met Evan Troxel en Cormac Phalen van Archispeak, en de aflevering verscheen op 17 januari 2024[^s2].
 
 ## Eén uitstraling, binnen en buiten
 
-Wang begon met interieurs en merkte dat klanten ontevreden waren als de buitenruimtes er niet bij pasten. Nu ontwerpt hij beide als één visueel systeem: grote deuren en ramen, materialen, meubels en verlichting die doorlopen, vaak dezelfde tegel binnen en buiten, zodat de ruimte groter aanvoelt en de overgang vanzelf gaat[^s1].
+Wang begon met interieurs en merkte dat klanten ontevreden waren als de buitenruimtes er niet bij pasten. Nu ontwerpt hij beide als één visueel systeem, met grote deuren en ramen en met materialen, meubels en verlichting die doorlopen, vaak dezelfde tegel binnen en buiten, zodat de ruimte groter aanvoelt en de overgang vanzelf gaat[^s1].
 
-## Waar klanten om vragen
+## De voorzieningen waar klanten nu om vragen
 
-Wang verbindt de verschuiving naar buiten met thuiswerken, hoge huizenprijzen en aandacht voor welzijn, die de vraag naar poolhouses, thuiskantoren, fitnessruimtes en thuisbioscopen aanjagen. Pickleballbanen staan bovenaan de wensen van zijn klanten, gevolgd door koudwaterbaden, sauna's, stoomcabines, buitenkeukens, buitenverwarming en zwembaden op maat met bijvoorbeeld verzonken zitplekken en een bar in het water[^s1].
+Wang verbindt de verschuiving naar buiten met thuiswerken, hoge huizenprijzen en aandacht voor welzijn, die samen de vraag naar poolhouses, thuiskantoren, fitnessruimtes en thuisbioscopen aanjagen. Pickleballbanen staan bovenaan de wensen van zijn klanten, gevolgd door koudwaterbaden, sauna's, stoomcabines, buitenkeukens, buitenverwarming en zwembaden op maat met bijvoorbeeld verzonken zitplekken en een bar in het water[^s1].
 
-## Aanpassen aan het klimaat
+## Ontwerpen voor elk klimaat
 
-Hij werkt in regio's met verschillende bouwgewoonten, energiebronnen en weersomstandigheden, en zijn advies is om lokale experts te vragen hoe het daar gaat. Waar het weer een probleem is, past hij het plan aan: een binnenzwembad waar het extreem hard waait, buitenverwarmers in koude klimaten, verwarmde opritten, wanden die helemaal openschuiven[^s1].
+Hij werkt in regio's met hun eigen bouwgewoonten, energiebronnen en weersomstandigheden, en zijn advies is om lokale experts te vragen hoe het daar gaat. Waar het weer een uitdaging is, past hij het plan aan, met een binnenzwembad waar het extreem hard waait, buitenverwarmers in koude klimaten, verwarmde opritten of wanden die helemaal openschuiven[^s1].
 
-## Producten die opgaan in het ontwerp
+## Producten die verdwijnen in het ontwerp
 
-Wang ziet dat betere materialen de integratie makkelijker maken, vooral keramische tegels, samen met betere verwarmers, verlichting, audio en domotica. Hij noemde de verwarmers van Bromic vanwege hun strakke, slanke uiterlijk en ingebouwde ledverlichting, en waardeerde producten die in een project verdwijnen[^s1].
+Wang ziet dat betere materialen de integratie makkelijker maken, vooral keramische tegels, samen met betere verwarmers, verlichting, audio en domotica. Hij noemde de verwarmers van Bromic vanwege hun strakke, slanke uiterlijk en ingebouwde ledverlichting, en hij waardeert producten die in een project verdwijnen[^s1].
 
 | Het principe van Wang | Verwarming die erbij past |
 |---|---|
@@ -92,12 +93,12 @@ Wang ziet dat betere materialen de integratie makkelijker maken, vooral keramisc
 | Minder, maar betere armaturen | Eclipse: warmte en dimbaar ledlicht uit één schijf, ongeveer 11 m²[^s4] |
 | Aanpassen aan het klimaat | Plan warmte in koude streken vanaf de eerste tekeningen |
 
-Elk werkt met Affinity Smart-Heat-bediening: een On/Off- of Dimmer-regelaar voor Platinum Electric, de Eclipse-regelaar voor Eclipse, met een wandschakelaar. Schema's via de Smart-Heat app vragen om compatibele Affinity-bediening, die apart wordt verkocht. Laat de aansluiting doen door een erkend installateur volgens NEN 1010. Zie [buitenverwarming voor woningen](https://www.bromic.com/residential/) of vraag een gratis indeling aan via [bromic.nl](https://www.bromic.nl/).
+Elke verwarmer hoort bij Affinity Smart-Heat-bediening, met een On/Off- of Dimmer-regelaar voor Platinum Electric en de Eclipse-regelaar voor Eclipse, samen met een wandschakelaar. Schema's via de Smart-Heat app vragen om compatibele Affinity-bediening, die apart wordt verkocht. Laat de aansluiting doen door een erkend installateur volgens NEN 1010. Ontdek [buitenverwarming voor woningen](https://www.bromic.com/residential/) of vraag een gratis indeling aan via [bromic.nl](https://www.bromic.nl/).
 
 ## Veelgestelde vragen
 
 ### Waar kan ik de aflevering beluisteren?
-Op de [pagina van de aflevering](https://www.bromic.com/podcast/residential-outdoor-spaces/), met een (Engelse) transcriptie.
+Je vindt haar op de [pagina van de aflevering](https://www.bromic.com/podcast/residential-outdoor-spaces/), samen met een (Engelse) transcriptie.
 
 ### Hoe laat je binnen- en buitenruimtes als één geheel aanvoelen?
 Wang laat dezelfde materialen, dezelfde meubelstijl en dezelfde verlichting doorlopen door grote openingen, vaak met dezelfde tegel aan beide kanten.

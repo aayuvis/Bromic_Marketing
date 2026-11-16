@@ -5,17 +5,17 @@ translation_of: BLOG-45
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 type: blog
-title: "Innovatie in buitenontwerp: hoe producten meebewegen met de manier waarop mensen buiten leven"
+title: "Innovatie in buitenproducten: inspelen op hoe mensen buiten leven"
 action: keep-fix
 audience: [ARC]
 stage: [AW]
 cell: ARC-AW
 asset: A24
-summary: "Een samenvatting van de aflevering van Designing Outdoor Spaces met Scott Selzer van StruXure en Scott Smith van Bromic Group: buitenkamers als product, geïntegreerde bediening, nieuwe markten en waarom vroeg samenwerken architecten tijd bespaart."
+summary: "Hoogtepunten uit de aflevering van Designing Outdoor Spaces met Scott Selzer van StruXure en Scott Smith van Bromic Group: buitenkamers als geëngineerde bouwpakketten, geïntegreerde bediening, nieuwe markten en de tijd die vroeg samenwerken architecten bespaart."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe verandert het ontwerp van buitenproducten voor architecten?"
-meta_description: "Podcastsamenvatting: de oprichters van StruXure en Bromic Group over buitenkamers als product, geïntegreerde bediening en vroeg samenwerken met architecten."
+meta_description: "Innovatie in buitenproducten: de oprichters van StruXure en Bromic Group over buitenkamers als bouwpakket, geïntegreerde bediening en vroeg samenwerken."
 cta: {label: "Download het Trends 2026-rapport", asset: A01}
 hero: w-slc-bromic-heater-1-cropped
 owner_review: marketing
@@ -24,7 +24,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-AW-01, RES-BY-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -56,18 +56,18 @@ sources:
     verified: true
 ---
 
-Buitenproducten worden systemen. Pergola's komen als geëngineerde bouwpakketten, verwarming en verlichting lopen via dezelfde bediening, en een overdekt terras wordt voorgeschreven als een binnenruimte. Dat was de gedeelde visie van Scott Selzer, oprichter van StruXure, en Scott Smith, medeoprichter en CEO van Bromic Group, in de podcast Designing Outdoor Spaces van Archispeak[^s1][^s2]. Het praktische punt voor architecten: haal deze leveranciers vroeg in het project binnen.
+Buitenproducten groeien samen tot complete systemen. Pergola's komen nu als geëngineerde bouwpakketten, verwarming en verlichting lopen via dezelfde bediening, en een overdekt terras wordt voorgeschreven met de zorg van een binnenruimte. Dat was de gedeelde visie van Scott Selzer, oprichter van StruXure, en Scott Smith, medeoprichter en CEO van Bromic Group, in de podcast Designing Outdoor Spaces van Archispeak[^s1][^s2]. Voor architecten volgt daaruit dat ze deze leveranciers vroeg in het project betrekken.
 
 ![Twee ronde verwarmers met verlichte halo-ringen onder een lamellenpergola bij avond](img:w-slc-bromic-heater-1-cropped)
 
-## Wie zaten er in de aflevering?
+## De oprichters aan de microfoon
 
 De presentatoren Evan Troxel en Cormac Phalen spraken met twee oprichters[^s1]:
 
-- **Scott Selzer** werd opgeleid als leraar en werkte als docent, stapte in 2008 voltijds over naar bouwproducten en richtte StruXure op, een maker van modulaire aluminium pergola's. AZEK Building Products nam StruXure in 2021 over[^s1].
+- **Scott Selzer** werd opgeleid als leraar en werkte als docent, voordat hij in 2008 voltijds overstapte naar bouwproducten en StruXure oprichtte, een maker van modulaire aluminium pergola's. AZEK Building Products nam StruXure in 2021 over[^s1].
 - **Scott Smith** is ingenieur en medeoprichter van Bromic Group. Bromic Group werd in 1978 in Australië opgericht; Bromic Heating startte in 2008 in Sydney en opende in 2010 zijn Amerikaanse hoofdkantoor in Irvine, Californië[^s3].
 
-## Welke veranderingen zagen zij?
+## Hoe het buitenleven verandert
 
 | Verschuiving | Wat het betekent voor het ontwerpteam |
 |---|---|
@@ -77,15 +77,15 @@ De presentatoren Evan Troxel en Cormac Phalen spraken met twee oprichters[^s1]:
 | **Nieuwe markten** | Warmte en schaduw duiken nu op aan boord van schepen en in de zorg, zoals revalidatie en ouderenzorg. |
 | **Materiaalkeuze** | Beide gasten noemden duurzaamheid en gerecyclede of recyclebare materialen als onderdeel van het bestek. |
 
-Selzers toets voor elk product was comfort: als mensen het comfortabel hebben, blijven ze langer buiten. Smith omschreef het doel van verwarming als comfort dat geleverd wordt zonder de aandacht op zichzelf te vestigen[^s1].
+Voor Selzer kwam elk product terug op comfort, want als mensen het comfortabel hebben, blijven ze langer buiten. Smith omschreef het doel van verwarming als comfort dat stil zijn werk doet, zonder de aandacht op zichzelf te vestigen[^s1].
 
-## Waarom is vroeg samenwerken belangrijk?
+## De waarde van vroeg samenwerken
 
-Omdat de constructie, de groep en de bediening samen worden bepaald. Beide bedrijven bieden ontwerphulp en kennissessies voor architecten, die volgens de gasten tijd besparen en tot beter onderbouwde oplossingen leiden[^s1].
+De constructie, de groep en de bediening worden het best samen bepaald. Beide bedrijven bieden ontwerphulp en kennissessies voor architecten, die volgens de gasten tijd besparen en tot beter onderbouwde oplossingen leiden[^s1].
 
-In de praktijk betekent dat: het montagevlak van de verwarmer, de inbouwdiepte en de voedingskabel staan op de tekeningen voordat de pergola wordt besteld. Het betekent ook dat de bediening samen met de verwarmer wordt gekozen: een Affinity Smart-Heat On/Off- of Dimmer-regelaar, een wandschakelaar en de Bromic Smart-Heat app voor zones, schema's en timers. Wifi- en app-functies vragen om compatibele Affinity Smart-Heat Controls, apart verkrijgbaar. Koppeling met Control4, Crestron of Lutron is mogelijk, maar de compatibiliteit verschilt per systeem[^s4].
+In een echt project betekent dat dat het montagevlak van de verwarmer, de inbouwdiepte en de voedingskabel op de tekeningen staan voordat de pergola wordt besteld, en dat de bediening samen met de verwarmer wordt gekozen: een Affinity Smart-Heat On/Off- of Dimmer-regelaar, een wandschakelaar en de Bromic Smart-Heat app voor zones, schema's en timers. Wifi- en app-functies vragen om compatibele Affinity Smart-Heat Controls, apart verkrijgbaar. Koppeling met Control4, Crestron of Lutron is mogelijk, maar de compatibiliteit verschilt per systeem[^s4].
 
-De Engelstalige pagina voor [architecten en ontwerpers](https://www.bromic.com/architects-designers/) bevat BIM-bestanden en specificatiebladen, en [Design Your Space](https://www.bromic.com/design-your-space/) levert een indeling met tekeningen van het verwarmde oppervlak. Voor Nederland: [bromic.nl](https://www.bromic.nl/).
+Onze Engelstalige pagina voor [architecten en ontwerpers](https://www.bromic.com/architects-designers/) bevat BIM-bestanden en specificatiebladen, en [Design Your Space](https://www.bromic.com/design-your-space/) levert een indeling op maat met tekeningen van het verwarmde oppervlak. Voor Nederland: [bromic.nl](https://www.bromic.nl/).
 
 ## Veelgestelde vragen
 
@@ -96,6 +96,6 @@ Een buitenconstructie die je koopt als geëngineerd bouwpakket, zoals een modula
 Ja, via Affinity Smart-Heat Controls, die met verschillende domoticasystemen samenwerken. De compatibiliteit verschilt en er kan extra hardware nodig zijn.
 
 ### Wanneer moet een leverancier van verwarming bij het project komen?
-In de ontwerpfase, voordat de constructie wordt besteld, zodat montage, voeding en bediening worden ingetekend.
+In de ontwerpfase, voordat de constructie wordt besteld, zodat montage, voeding en bediening vanaf het begin worden ingetekend.
 
-Lees de cijfers over buitenkamers in 2026 in het Trends-rapport.
+Ontdek de cijfers over buitenkamers in 2026 in het Trends-rapport.

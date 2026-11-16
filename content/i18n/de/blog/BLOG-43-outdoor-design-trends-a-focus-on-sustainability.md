@@ -1,17 +1,17 @@
 ---
 id: BLOG-43
 type: blog
-title: "Trends in der Außenraumgestaltung: Schwerpunkt Nachhaltigkeit, mit Thomas Ventura von Gensler"
+title: "Nachhaltige Gestaltung von Außenräumen, mit Thomas Ventura von Gensler"
 action: keep-fix
 audience: [ARC]
 stage: [AW]
 cell: ARC-AW
 asset: A24
-summary: "Thomas Ventura von Gensler darüber, warum der Außenraum zu einem nachhaltigen Gebäude gehört: frühe Zustimmung des Bauherrn, Tageslicht und Luft statt technischer Last, langlebige Materialien und Außenräume, die für ihr Mikroklima gebaut sind."
+summary: "Thomas Ventura von Gensler darüber, warum der Außenraum ins Herz eines nachhaltigen Gebäudes gehört: früher Rückhalt beim Bauherrn, Tageslicht und frische Luft zur Entlastung der Gebäudetechnik, langlebige Materialien und Außenräume, die auf ihr Mikroklima abgestimmt sind."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie unterstützt die Gestaltung von Außenräumen nachhaltige Architektur?"
-meta_description: "Thomas Ventura von Gensler über nachhaltige Außenraumgestaltung: frühe Zustimmung des Bauherrn, Tageslicht und Luft, langlebige Materialien und Wärme nach Maß."
+meta_description: "Nachhaltige Gestaltung von Außenräumen mit Thomas Ventura von Gensler: früher Rückhalt beim Bauherrn, Tageslicht, langlebige Materialien, passende Wärme."
 cta: {label: "Den Weiterbildungskurs zur Außenbeheizung buchen (AIA CE, US-Akkreditierung)", asset: A14}
 hero: w-gensler-project-images-3
 owner_review: Marketing
@@ -20,7 +20,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-AW-01, ARC-CO-01, A12]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -63,52 +63,52 @@ translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 
-Der Außenraum ist Teil eines nachhaltigen Gebäudes, keine Dekoration drumherum. In Staffel eins, Folge fünf von Designing Outdoor Spaces vertritt Thomas Ventura von Gensler die These, dass gut geplante Außenräume mit Tageslicht und Luft die technische Gebäudelast senken, Menschen zusammenbringen und lange halten, wenn sie aus langlebigen Materialien gebaut sind – und dass nichts davon gelingt, wenn sich der Bauherr nicht von Anfang an zu diesen Zielen bekennt[^s1].
+Ein durchdacht geplanter Außenraum bildet das Herz eines nachhaltigen Gebäudes. In Staffel eins, Folge fünf von Designing Outdoor Spaces erklärt Thomas Ventura von Gensler, wie gut geplante Außenräume mit Tageslicht und frischer Luft die technische Gebäudelast senken, Menschen zusammenbringen und lange bestehen, wenn sie aus langlebigen Materialien gebaut sind, und warum all das davon abhängt, dass der Bauherr die Ziele von Anfang an mitträgt[^s1].
 
-![Innenhof eines gemischt genutzten Wohngebäudes mit Loungemöbeln und Bewohnern in der Sonne](img:w-gensler-project-images-3)
+![Innenhof eines gemischt genutzten Wohngebäudes mit Loungemöbeln und Bewohnern, die die Sonne genießen](img:w-gensler-project-images-3)
 
-## Wer ist Thomas Ventura?
+## Thomas Ventura im Porträt
 
 Thomas Ventura ist Design-Verantwortlicher bei [Gensler](https://www.gensler.com/) mit mehr als 30 Jahren Branchenerfahrung, davon fast ein Jahrzehnt bei Gensler, mit Schwerpunkt auf gemischt genutzten Projekten, Mehrfamilienbau und Hotellerie[^s1]. [[VERIFY: Thomas Venturas aktuelle Funktion (auf der Seite zur Folge steht Associate Design Director) bei Gensler prüfen — Marketing]] Die Folge erschien am 10. Mai 2024[^s2] und wird von Archispeak moderiert.
 
-## Nachhaltigkeit beginnt beim Bauherrn
+## Alles beginnt beim Bauherrn
 
-Venturas erster Punkt betrifft den Prozess. Wenn sich ein Bauherr von Anfang an zu Zielen für Nachhaltigkeit und Resilienz bekennt, wird er zum Partner, und das Projekt ist weitgehend auf Kurs[^s1]. Innerhalb von Gensler setzt er sich für kooperatives Entwerfen ein, um unterschiedliche Perspektiven in dieses frühe Gespräch zu bringen.
+Venturas erster Punkt betrifft den Prozess. Wenn ein Bauherr Ziele für Nachhaltigkeit und Resilienz von Anfang an mitträgt, wird er zum Partner, und das Projekt ist weitgehend auf Kurs[^s1]. Innerhalb von Gensler setzt er sich für kooperatives Entwerfen ein und bringt unterschiedliche Perspektiven in dieses frühe Gespräch.
 
-## Außenräume entlasten das Gebäude
+## Außenräume, die das Gebäude entlasten
 
-Der Wunsch nach Verbindung zur Natur treibt die Nachfrage nach gut gestalteten Außenräumen, sagt Ventura. Richtig eingesetzt bringen sie Tageslicht und Luft ins Gebäude, die künstliche Beleuchtung und technische Kühlung reduzieren, sie stärken die Gemeinschaft und schaffen durch ständige Belebung Sicherheit. Er beschreibt das Gebäude als eine Art Organismus, der sich öffnet und schließt, wenn sich die Bedingungen ändern[^s1].
+Der Wunsch nach Verbindung zur Natur treibt die Nachfrage nach gut gestalteten Außenräumen, sagt Ventura. Richtig eingesetzt bringen sie Tageslicht und Luft ins Gebäude, die künstliche Beleuchtung und technische Kühlung reduzieren, sie stärken das Gemeinschaftsgefühl und schaffen durch ständige Belebung mehr Sicherheit. Er beschreibt das Gebäude als eine Art lebenden Organismus, der sich öffnet und schließt, wenn sich die Bedingungen ändern[^s1].
 
-## Langlebige Materialien und Klimaziele
+## Materialien, die bleiben
 
-In stark frequentierten Bereichen reduzieren langlebige Materialien den Austausch, senken die Betriebskosten und tragen die Marke. Ventura verbindet das mit Genslers Ziel, sein Portfolio bis 2030 klimaneutral zu machen[^s1][^s3], und benennt die Schwierigkeit: Hochwertigere Materialien können in der Anschaffung teurer sein, deshalb muss man die Argumente dem Bauherrn früh vorlegen.
+In stark frequentierten Bereichen reduzieren langlebige Materialien den Austausch, senken die Betriebskosten und tragen die Marke. Ventura verbindet das mit Genslers Ziel, sein Portfolio bis 2030 klimaneutral zu machen[^s1][^s3], und spricht die Herausforderung offen an: Hochwertigere Materialien können in der Anschaffung mehr kosten, deshalb sollte man die Argumente dem Bauherrn früh vorlegen.
 
-## Komfort in jedem Klima
+## Behaglichkeit in jedem Klima
 
-Außenräume können so behaglich sein wie Innenräume, wenn sie für ihren Zweck und ihr Mikroklima geplant sind, mit Ausblick, Wasser und Konnektivität. Ventura berichtet von Nachfrage in jedem Klima, in dem Gensler tätig ist, und flexible Außenräume mit mehreren Nutzungen erweitern die nutzbare Fläche eines Gebäudes über die Jahreszeiten hinweg[^s1].
+Außenräume können so behaglich sein wie Innenräume, wenn sie rund um ihren Zweck und ihr Mikroklima gestaltet sind, mit Ausblick, Wasser und Konnektivität. Ventura berichtet von Nachfrage in jedem Klima, in dem Gensler tätig ist, und flexible Außenräume mit mehreren Nutzungen erweitern die nutzbare Fläche eines Gebäudes über die Jahreszeiten hinweg[^s1].
 
-## Was das für die Beheizung von Außenräumen bedeutet
+## Wärme für nachhaltige Außenräume
 
 | Venturas Grundsatz | Die Entscheidung zur Beheizung |
 |---|---|
 | Für das Mikroklima planen | Sonne, Schatten und Wind erfassen, bevor Heizstrahler platziert werden |
-| Den Energiebedarf senken | Strahlungswärme wärmt Menschen, nicht die Luft – also nur dort heizen, wo Menschen sitzen[^s4] |
+| Den Energiebedarf senken | Strahlungswärme wärmt Menschen, nicht die Luft, also nur dort heizen, wo Menschen sitzen[^s4] |
 | Langlebige Materialien | Heizstrahler wählen, die für die jeweilige Exposition ausgelegt sind, und sie in die Planung einzeichnen, damit sie nicht durch Behelfsgeräte ersetzt werden |
 | Flexible, mehrfach genutzte Räume | Heizstrahler in Zonen aufteilen und nach Belegung zeitlich steuern |
 
-Wärme im Freien lässt sich nicht über ein Thermostat regeln[^s4], deshalb spart man Energie über die Steuerung. Elektro-Heizstrahler wie Platinum Electric und Tungsten Electric werden über ein Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät mit Wandschalter betrieben; die Smart-Heat App ergänzt Zonen, Zeitpläne und Timer[^s5] und erfordert kompatible Affinity-Steuerungen, die separat erhältlich sind. Bromics [Leitfaden zu nachhaltigen Gestaltungsprinzipien (auf Englisch)](https://www.bromic.com/sustainable-design-principles/) behandelt den Rest.
+Wärme im Freien lässt sich nicht über ein Thermostat regeln[^s4], deshalb ist eine durchdachte Steuerung der Schlüssel zum Energiesparen. Elektro-Heizstrahler wie Platinum Electric und Tungsten Electric werden mit einem Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät und einem Wandschalter kombiniert, und die Smart-Heat App ergänzt Zonen, Zeitpläne und Timer[^s5]. Diese Funktionen erfordern kompatible Affinity-Steuerungen, die separat erhältlich sind. Unser [Leitfaden zu nachhaltigen Gestaltungsprinzipien (auf Englisch)](https://www.bromic.com/sustainable-design-principles/) vertieft das Thema.
 
 ## Häufige Fragen
 
 ### Wo kann ich die Folge hören?
-Auf der [Seite zur Folge](https://www.bromic.com/podcast/sustainable-outdoor-spaces/), mit Audio-Links und einem Transkript (auf Englisch).
+Sie finden sie auf der [Seite zur Folge](https://www.bromic.com/podcast/sustainable-outdoor-spaces/), mit Audio-Links und einem Transkript (auf Englisch).
 
 ### Wie machen Außenräume ein Gebäude nachhaltiger?
-Indem sie Tageslicht und natürliche Luft nutzen, um Beleuchtung und Kühlung zu reduzieren, und indem sie die nutzbare Fläche erweitern, ohne sie einzuhausen und zu klimatisieren.
+Sie nutzen Tageslicht und natürliche Luft, um Beleuchtung und Kühlung zu reduzieren, und erweitern die nutzbare Fläche eines Gebäudes, ohne sie einzuhausen und zu klimatisieren.
 
 ### Wie passt eine Außenbeheizung zu einem CO₂-armen Projekt?
-Nur belegte Zonen heizen, mit der nötigen Leistung und nach Zeitplan; Elektro-Heizstrahler können mit dem erneuerbaren Strom des Gebäudes betrieben werden.
+Beheizen Sie nur belegte Zonen, mit der nötigen Leistung und nach Zeitplan. Elektro-Heizstrahler können zudem mit dem erneuerbaren Strom des Gebäudes betrieben werden.
 
 <div class="newsletter">Newsletter-Anmeldung, eine Zeile (454 Creative bindet sie an das HubSpot-Newsletterformular an): „Erhalten Sie jede neue Folge von Designing Outdoor Spaces per E-Mail.“</div>
 
-Holen Sie die Wissenschaft der Außenbeheizung in Ihr Büro: Buchen Sie Bromics einstündigen Weiterbildungskurs (AIA CE, eine US-Akkreditierung). [[VERIFY: ob der Kurs in Deutschland angeboten und von einer Architektenkammer als Fortbildung anerkannt wird — Partner Deutschland]]
+Holen Sie die Wissenschaft der Außenwärme in Ihr Büro und buchen Sie Bromics einstündigen Weiterbildungskurs (AIA CE, eine US-Akkreditierung). [[VERIFY: ob der Kurs in Deutschland angeboten und von einer Architektenkammer als Fortbildung anerkannt wird — Partner Deutschland]]

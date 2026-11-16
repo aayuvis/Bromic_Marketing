@@ -1,17 +1,17 @@
 ---
 id: BLOG-44
 type: blog
-title: "Architect in beeld: Yvonne Haber over buitenkamers die echt worden gebruikt"
+title: "Architect in beeld: Yvonne Haber over buitenleefruimtes die echt gebruikt worden"
 action: keep-fix
 audience: [ARC]
 stage: [AW]
 cell: ARC-AW
 asset: A24
-summary: "De drie toetsen van architect Yvonne Haber voor een buitenleefruimte, gelegd naast de Houzz-cijfers van 2026 over wat Amerikaanse huiseigenaren buiten bouwen, en de plek van verwarming in het programma van eisen."
+summary: "De drie toetsen van woningarchitect Yvonne Haber voor een buitenleefruimte, gelezen naast de Houzz-cijfers van 2026 over wat Amerikaanse huiseigenaren buiten bouwen, en waar warmte in de opdracht thuishoort."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe ontwerpen architecten buitenleefruimtes die het hele jaar worden gebruikt?"
-meta_description: "De drie toetsen van architect Yvonne Haber voor buitenleefruimtes: maatvoering, overkapping en oriëntatie, plus warmte in het ontwerp. Met Houzz-cijfers uit 2026."
+meta_description: "Buitenleefruimtes volgens architect Yvonne Haber: maat, overkapping, oriëntatie en warmte in de opdracht. Gelezen met de Houzz-cijfers van 2026 uit de VS."
 cta: {label: "Download het Trends 2026-rapport", asset: A01}
 hero: w-yvone-haber-bronte-house-1
 owner_review: marketing
@@ -20,7 +20,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-AW-01, ARC-IN-01, A01-stats]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -63,17 +63,17 @@ translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 ---
 
-Ontwerp de buitenleefruimte als een kamer: stem de maat af op wat er gebeurt, geef haar een overkapping en draai haar naar het uitzicht en de zon. Dat is de werkwijze van Yvonne Haber, een Australische architect van woningen die sinds 1994 een eigen bureau heeft en doceert aan UNSW[^s1]. Zij ziet warmte als vast onderdeel van het ontwerp, niet als extraatje, omdat warmte de kamer ook na zonsondergang en buiten het seizoen in gebruik houdt.
+De buitenleefruimtes waar gezinnen van houden, zijn ontworpen als kamers: op maat van wat er gebeurt, met een overkapping en gedraaid naar het uitzicht en de zon. Dat is de werkwijze van Yvonne Haber, een Australische architect van woningen die sinds 1994 een eigen bureau heeft en doceert aan UNSW[^s1]. Ze neemt warmte standaard op in haar ontwerpen, omdat warmte de kamer ook na zonsondergang en in de koelere maanden in gebruik houdt.
 
 ![Achterzijde van een gerenoveerde woning met open schuifpuien en een zwarte Tungsten Electric-verwarmer op het terras](img:w-yvone-haber-bronte-house-1)
 
-## Wie is Yvonne Haber?
+## Maak kennis met Yvonne Haber
 
-Haber ontwerpt gezinswoningen: appartementen, rijtjeshuizen, twee-onder-een-kapwoningen en vrijstaande huizen. Haar werk draait om open plattegronden, daglicht, dwarsventilatie en bergruimte. Ze begint bij hoe een huishouden leeft, ook bij gewoontes die opdrachtgevers zelf niet opmerken, en leidt daar de ruimtelijke verbanden uit af[^s1].
+Haber ontwerpt gezinswoningen, van appartementen en rijtjeshuizen tot twee-onder-een-kapwoningen en vrijstaande huizen. Haar werk draait om open plattegronden, daglicht, dwarsventilatie en bergruimte. Ze begint bij hoe een huishouden leeft, ook bij gewoontes die opdrachtgevers bij zichzelf niet opmerken, en vormt de ruimtelijke verbanden daaromheen[^s1].
 
-Haar bureau zit in Australië, maar de opdracht die ze beschrijft, horen architecten nu ook elders. Buitenruimtes worden gebruikt als woonkamer, overdag en tot laat op de avond[^s1].
+Haar bureau zit in Australië, maar de opdracht die ze beschrijft, horen architecten nu ook elders, met buitenruimtes die overdag en tot laat op de avond als woonkamer worden gebruikt[^s1].
 
-## Wat zijn haar drie toetsen voor een buitenleefruimte?
+## Drie toetsen voor een buitenkamer
 
 | Habers toets | Wat het in een project betekent |
 |---|---|
@@ -81,21 +81,21 @@ Haar bureau zit in Australië, maar de opdracht die ze beschrijft, horen archite
 | **De mogelijkheid van overkapping** | Een dak, pergola of uitkraging boven een deel van de ruimte. Dat geeft verwarmers ook een montagevlak. |
 | **Oriëntatie en uitzicht** | Draai de kamer naar de zon en het uitzicht, en weg van de overheersende wind. |
 
-Daaruit volgen haar vaste onderdelen: een verharde ondergrond of vlonder voor het meubilair, een vorm van buitenverwarming, en groen voor het uitzicht[^s1].
+Haar vaste onderdelen volgen uit deze toetsen: een verharde ondergrond of vlonder voor het meubilair, een vorm van buitenverwarming, en groen dat het uitzicht omlijst[^s1].
 
-## Wat bouwen Amerikaanse huiseigenaren buiten?
+## Wat Amerikaanse huiseigenaren buiten creëren
 
-Dezelfde kamers. In de 2026 U.S. Houzz Outdoor Trends Study heeft 83% van de gerenoveerde buitenruimtes in de VS een lounge- of zithoek[^s2]. Eethoeken komen voor in 55% en buitenkeukens in 48%[^s3].
+Amerikaanse huiseigenaren bouwen heel vergelijkbare kamers. In de 2026 U.S. Houzz Outdoor Trends Study heeft 83% van de gerenoveerde buitenruimtes in de VS een lounge- of zithoek[^s2], terwijl eethoeken voorkomen in 55% en buitenkeukens in 48%[^s3].
 
-Eén cijfer laat een architect zien waar verwarming staat. Van de loungehoeken heeft 48% een buitenhaard of vuurschaal en 66% verlichting[^s3]. Een vuurschaal zet de sfeer, maar verwarmt alleen wie er het dichtst bij zit. Stralingswarmte boven de zitplekken houdt de hele groep comfortabel.
+Eén cijfer laat een architect zien waar verwarming staat. Van de loungehoeken heeft 48% een buitenhaard of vuurschaal en 66% verlichting[^s3]. Een vuurschaal zet een prachtige sfeer, al verwarmt hij alleen wie er het dichtst bij zit, en stralingswarmte boven de zitplekken houdt de hele groep comfortabel.
 
-## Waar hoort warmte in het ontwerp?
+## Warmte intekenen samen met de verlichting
 
-Op de tekeningen, samen met de verlichting. In een van Habers woningen hangt een Tungsten Smart-Heat Electric-verwarmer op het terras[^s1]. De huidige Tungsten Electric-serie loopt van 2000 tot 6000 W en verwarmt ongeveer 6–15 m², afhankelijk van model en installatie[^s4].
+Verwarming hoort naast de verlichting op de tekeningen. In een van Habers woningen hangt een Tungsten Smart-Heat Electric-verwarmer op het terras[^s1]. De huidige Tungsten Electric-serie loopt van 2000 tot 6000 W en verwarmt ongeveer 6–15 m², afhankelijk van model en installatie[^s4].
 
-Schrijf de bediening er meteen bij voor: een Affinity Smart-Heat On/Off- of Dimmer-regelaar, een wandschakelaar en de Bromic Smart-Heat app voor zones en schema's. Voor wifi- en app-functies zijn compatibele Affinity Smart-Heat Controls nodig, die apart worden verkocht[^s5]. Leg de groep en de plaats van de schakelaar in de ontwerpfase vast, zodat er later niets in opbouw hoeft te worden weggewerkt. De installatie volgt NEN 1010 en wordt uitgevoerd door een vakbekwaam elektrotechnisch installateur.
+Schrijf de bediening samen met de verwarmer voor: een Affinity Smart-Heat On/Off- of Dimmer-regelaar, een wandschakelaar en de Bromic Smart-Heat app voor zones en schema's. Voor wifi- en app-functies zijn compatibele Affinity Smart-Heat Controls nodig, die apart worden verkocht[^s5]. Leg de groep en de plaats van de schakelaar in de ontwerpfase vast, zodat elke kabel netjes verborgen blijft. De installatie volgt NEN 1010 en wordt uitgevoerd door een vakbekwaam elektrotechnisch installateur.
 
-Voor indelingen en tekeningen van het verwarmd oppervlak werkt de ontwerpservice van Bromic vanuit tekeningen of foto's; het assortiment staat op [bromic.nl](https://www.bromic.nl/).
+Voor indelingen en tekeningen van het verwarmd oppervlak werkt onze ontwerpservice vanuit je tekeningen of foto's, en het volledige assortiment ontdek je op [bromic.nl](https://www.bromic.nl/).
 
 ## Veelgestelde vragen
 
@@ -103,9 +103,9 @@ Voor indelingen en tekeningen van het verwarmd oppervlak werkt de ontwerpservice
 Maten die bij het meubilair passen, een overkapping boven minstens een deel van de ruimte, een oriëntatie die past bij zon en uitzicht, en warmte voor de avonden en koelere maanden.
 
 ### Is een vuurschaal genoeg om een buitenkamer te verwarmen?
-Een vuurschaal geeft sfeer, maar verwarmt alleen de mensen die er dichtbij zitten. Stralingsverwarmers boven de zitplekken verwarmen de hele groep.
+Een vuurschaal geeft sfeer, maar verwarmt alleen de mensen die er dichtbij zitten. Stralingsverwarmers boven de zitplekken houden de hele groep warm.
 
 ### Wanneer moet verwarming worden voorgeschreven?
-In de ontwerpfase, samen met verlichting en constructie, zodat de groep, de montage en de bediening op de tekeningen staan.
+In de ontwerpfase, samen met verlichting en constructie, zodat de groep, de montage en de bediening allemaal op de tekeningen staan.
 
-Lees de cijfers van 2026 over buitenkamers in het Trends-rapport.
+Ontdek de cijfers van 2026 over buitenkamers in het Trends-rapport.

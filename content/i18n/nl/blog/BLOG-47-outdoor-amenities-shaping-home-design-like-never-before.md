@@ -11,11 +11,11 @@ audience: [RES]
 stage: [AW]
 cell: RES-AW
 asset: A24
-summary: "Wat Amerikaanse huiseigenaren in 2026 buiten bouwen, van loungeplekken en buitenkeukens tot wellnessruimtes, met de cijfers van NAHB, AIA en Houzz erachter, en hoe warmte elke ruimte ook na zonsondergang bruikbaar houdt."
+summary: "Wat Amerikaanse huiseigenaren in 2026 buiten creëren, van loungeplekken en buitenkeukens tot wellnessruimtes, met de cijfers van NAHB, AIA en Houzz erachter, en hoe warmte elke ruimte tot lang na zonsondergang bruikbaar houdt."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Welke buitenvoorzieningen zijn populair in nieuwe woningen in 2026?"
-meta_description: "Loungeplekken, buitenkeukens, overdekte buitenkamers en wellness: de buitenvoorzieningen die Amerikaanse woningen in 2026 vormgeven, met cijfers van NAHB, AIA en Houzz."
+meta_description: "De buitenvoorzieningen die het woningontwerp in 2026 bepalen: lounges, buitenkeukens, overdekte kamers en wellness, met cijfers van NAHB, AIA en Houzz (VS)."
 cta: {label: "Download het Trends 2026-rapport", asset: A01}
 hero: w-bromiceclipseheater-scottsdalehome-10
 images: [w-tungsten-electric-new-york-residential]
@@ -25,7 +25,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-AW-01, ARC-AW-01, A01-stats]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: National Association of Home Builders (Eye on Housing)
@@ -85,13 +85,13 @@ sources:
     verified: true
 ---
 
-De voorzieningen die Amerikaanse woningen in 2026 vormgeven, zijn buitenkamers: een loungeplek, een eettafel, een buitenkeuken, vaak een overdekte constructie en steeds vaker een wellnesshoek. Zes op de tien nieuwe vrijstaande woningen in de VS krijgen nu vanaf de start een terras, gemiddeld ongeveer 30 m²[^s1], en Amerikaanse architecten zetten buitenleven op de eerste plaats van de ruimtes met een speciale functie[^s2]. Of die ruimtes op koele avonden worden gebruikt, hangt af van warmte, en maar 23% van de Amerikaanse huiseigenaren plant daar vanaf het begin voor[^s5].
+De voorzieningen die Amerikaanse woningen in 2026 vormgeven, zijn buitenkamers: een loungeplek, een eettafel, een buitenkeuken, vaak een overdekte constructie en steeds vaker een wellnesshoek. Zes op de tien nieuwe vrijstaande woningen in de VS krijgen nu vanaf de start een terras, gemiddeld ongeveer 30 m²[^s1], en Amerikaanse architecten zetten buitenleven op de eerste plaats van de ruimtes met een speciale functie[^s2]. Warmte zorgt ervoor dat die kamers je ook op koele avonden verwelkomen, maar slechts 23% van de Amerikaanse huiseigenaren plant daar vanaf het begin voor[^s5].
 
 ![Gebogen verwarmer boven loungestoelen op een terras met uitzicht over een vallei bij zonsondergang](img:w-bromiceclipseheater-scottsdalehome-10)
 
-## Wat bouwen huiseigenaren buiten?
+## Buitenkamers die de kamers binnen weerspiegelen
 
-Kamers die de binnenkamers weerspiegelen. In de Amerikaanse Houzz Outdoor Trends Study 2026 heeft 83% van de vernieuwde buitenruimtes een loungeplek of zithoek[^s3]. Een eetplek komt voor in 55% en een buitenkookplek in 48%[^s4].
+Huiseigenaren creëren buiten de kamers waar ze binnen van houden. In de Amerikaanse Houzz Outdoor Trends Study 2026 heeft 83% van de vernieuwde buitenruimtes een loungeplek of zithoek[^s3], terwijl een eetplek voorkomt in 55% en een buitenkookplek in 48%[^s4].
 
 | Voorziening | Hoe vaak (VS, 2026) | Wat haar na zonsondergang bruikbaar houdt |
 |---|---|---|
@@ -101,44 +101,44 @@ Kamers die de binnenkamers weerspiegelen. In de Amerikaanse Houzz Outdoor Trends
 | Haard of vuurschaal | 48% van de loungeplekken[^s4] | Sfeer; combineer met stralingswarmte voor de hele groep |
 | Terras bij nieuwbouw | 60,5% van de gestarte woningen in 2025, gemiddeld ca. 30 m²[^s1] | Een ruimte zo groot als een kamer, die voorzieningen als een kamer nodig heeft |
 
-## Waarom is een buitenkeuken een beslissing over verwarming?
+## De buitenkeuken, het ideale moment om warmte te plannen
 
-Omdat de vakmensen er al zijn. In het Houzz-onderzoek staat in 85% van de buitenkeukens een grill, en 68% van de buitenkeukenprojecten omvat infrastructuurwerk zoals leidingwerk, elektra of verwarming[^s4]. Als de installateur toch groepen trekt voor koeling en verlichting, kost een groep voor een verwarmer met zijn schakelaar het minst.
+Als de buitenkeuken wordt aangelegd, zijn de vakmensen al ter plaatse. In het Houzz-onderzoek staat in 85% van de buitenkeukens een grill, en 68% van de buitenkeukenprojecten omvat infrastructuurwerk zoals leidingwerk, elektra of verwarming[^s4]. Terwijl de installateur groepen trekt voor koeling en verlichting, kost een groep voor een verwarmer met zijn schakelaar het minst.
 
-## Welke rol spelen overdekte constructies?
+## Overdekte constructies die van een terras een kamer maken
 
-Pergola's, daken, uitschuifbare overkappingen en glazen schuifwanden maken van een terras een kamer. Ze geven verwarmers ook een plek. Ontwerper Danny Wang zei het in de oorspronkelijke versie van dit artikel: een constructie geeft overdag schaduw en 's avonds bevestigingspunten voor verwarmers[^s8].
+Pergola's, daken, uitschuifbare overkappingen en glazen schuifwanden maken van een terras een echte kamer, en ze geven verwarmers ook een natuurlijke plek. Ontwerper Danny Wang zei het in de oorspronkelijke versie van dit artikel, toen hij beschreef hoe een constructie overdag schaduw geeft en 's avonds bevestigingspunten voor verwarmers biedt[^s8].
 
-Onder een overkapping kan een verwarmer uit het zicht worden ingebouwd of aan het plafond worden gemonteerd. Platinum Smart-Heat Electric kan worden ingebouwd of aan plafond of wand worden gemonteerd en verwarmt ca. 6–13 m², afhankelijk van model en installatie[^s7].
+Onder een overkapping kan een verwarmer worden ingebouwd of aan het plafond worden gemonteerd, discreet uit het zicht. Platinum Smart-Heat Electric kan worden ingebouwd of aan plafond of wand worden gemonteerd en verwarmt ca. 6–13 m², afhankelijk van model en installatie[^s7].
 
 ![Zwarte lineaire verwarmer op een dakterras in de stad](img:w-tungsten-electric-new-york-residential)
 
-## Is een vuurschaal genoeg?
+## De vuurschaal en de warmte eromheen
 
-Nee. Een vuurschaal geeft een middelpunt en sfeer, en bijna de helft van de buitenloungeplekken heeft er nu een[^s4]. Ze verwarmt de mensen die het dichtst bij het vuur zitten. Stralingswarmte verwarmt mensen en oppervlakken direct en houdt stand bij een lichte wind[^s6], dus een verwarmer boven de zitplekken houdt iedereen comfortabel. De meeste buitenkamers die echt gebruikt worden, hebben allebei.
+Een vuurschaal alleen houdt zelden iedereen warm. Ze geeft een middelpunt en sfeer, en bijna de helft van de buitenloungeplekken heeft er nu een[^s4], al bereikt haar warmte vooral de mensen die het dichtst bij het vuur zitten. Stralingswarmte verwarmt mensen en oppervlakken direct en houdt stand bij een lichte wind[^s6], dus een verwarmer boven de zitplekken houdt de hele groep comfortabel. De meeste geliefde buitenkamers hebben allebei.
 
-## En wellnessruimtes?
+## Wellness verhuist naar buiten
 
-Sauna's, koudwaterbaden en hottubs verhuizen naar buiten. Ze worden juist bij koel weer gebruikt, vaak aan het begin of het eind van de dag. Warmte boven de omkleed- en zitplek maakt de tijd tussen het bad en de handdoek comfortabel. Kies verwarmers en montageposities die bij het vocht passen, en controleer de beschermingsgraad en de afstanden van het product met de installateur.
+Sauna's, koudwaterbaden en hottubs vinden hun weg naar buiten. Je geniet er juist bij koel weer van, vaak aan het begin of het eind van de dag, en warmte boven de omkleed- en zitplek maakt de momenten tussen het bad en de handdoek veel comfortabeler. Kies verwarmers en montageposities met het vocht in gedachten, en controleer de beschermingsgraad en de afstanden van het product met je installateur.
 
-## Welke verwarming past bij welke ruimte?
+## De juiste warmte voor elke ruimte
 
-- **Overdekte lounge of eetkamer:** een ingebouwde of aan het plafond gemonteerde elektrische verwarmer, zoals Platinum Smart-Heat Electric[^s7].
-- **Pergola of open terras waar ook licht telt:** Eclipse Smart-Heat Electric combineert warmte met dimbaar licht en verwarmt ca. 11 m²[^s7].
+- **Voor een overdekte lounge of eetkamer** een ingebouwde of aan het plafond gemonteerde elektrische verwarmer, zoals Platinum Smart-Heat Electric[^s7].
+- **Voor een pergola of open terras waar ook licht telt** Eclipse Smart-Heat Electric, die warmte combineert met dimbaar licht en ca. 11 m² verwarmt[^s7].
 
-Elke verwarmer heeft zijn bediening nodig: een Affinity Smart-Heat On/Off-, Dimmer- of Eclipse-regelaar, een wandschakelaar en de Bromic Smart-Heat app voor zones en schema's. Wifi- en app-functies vragen om compatibele Affinity Smart-Heat Controls, apart verkrijgbaar[^s7].
+Elke verwarmer hoort bij zijn bediening: een Affinity Smart-Heat On/Off-, Dimmer- of Eclipse-regelaar, een wandschakelaar en de Bromic Smart-Heat app voor zones en schema's. Wifi- en app-functies vragen om compatibele Affinity Smart-Heat Controls, apart verkrijgbaar[^s7].
 
-Bekijk het hele assortiment op [bromic.nl](https://www.bromic.nl/), of vraag een gratis indeling aan via [Design Your Space](https://www.bromic.com/design-your-space/) (Engelstalig).
+Ontdek het volledige assortiment op [bromic.nl](https://www.bromic.nl/), of vraag een gratis indeling aan via [Design Your Space](https://www.bromic.com/design-your-space/) (Engelstalig).
 
 ## Veelgestelde vragen
 
 ### Wat is in 2026 de populairste buitenvoorziening?
-Een loungeplek of zithoek. Houzz vond er een in 83% van de vernieuwde buitenruimtes in de VS[^s3].
+Een loungeplek of zithoek, die Houzz vond in 83% van de vernieuwde buitenruimtes in de VS[^s3].
 
 ### Hoeveel nieuwe woningen hebben een terras?
-In de VS ongeveer zes op de tien: 60,5% van de vrijstaande woningen die in 2025 werden gestart, volgens de analyse van Census-gegevens door NAHB[^s1].
+In de VS ongeveer zes op de tien, ofwel 60,5% van de vrijstaande woningen die in 2025 werden gestart, volgens de analyse van Census-gegevens door NAHB[^s1].
 
 ### Wanneer plan je buitenverwarming?
-Samen met het terras, de keuken en de constructie, zodat de groep, de montage en de bediening in één keer worden aangelegd. Maar 23% van de Amerikaanse huiseigenaren geeft verwarming prioriteit in de planfase[^s5].
+Plan haar samen met het terras, de keuken en de constructie, zodat de groep, de montage en de bediening in één keer worden aangelegd. Slechts 23% van de Amerikaanse huiseigenaren geeft verwarming prioriteit in de planfase[^s5].
 
-Lees alle cijfers over buitenleven in 2026 in het Trends-rapport.
+Ontdek alle cijfers over buitenleven in 2026 in het Trends-rapport.

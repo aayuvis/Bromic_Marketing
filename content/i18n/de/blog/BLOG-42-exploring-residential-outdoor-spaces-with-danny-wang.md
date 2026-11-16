@@ -1,17 +1,17 @@
 ---
 id: BLOG-42
 type: blog
-title: "Wohnen im Außenbereich: mit Danny Wang von DW Design & Build"
+title: "Wohnen zwischen innen und außen, mit Danny Wang von DW Design & Build"
 action: keep-fix
 audience: [RES, ARC]
 stage: [AW]
 cell: RES-AW
 asset: A24
-summary: "Planer und Bauunternehmer Danny Wang über individuelle Häuser, in denen innen und außen eins sind: durchgehende Materialien, die Ausstattung, die Kunden heute wünschen, Anpassung an das Klima und Produkte, die das erleichtern."
+summary: "Planer und Bauunternehmer Danny Wang über individuelle Häuser, in denen innen und außen ineinanderfließen: durchgehende Materialien, die Ausstattung, die Kunden heute wünschen, die Anpassung an das Klima und Produkte, die alles mühelos wirken lassen."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie verbinden Planer Wohnen innen und außen in einem individuell geplanten Haus?"
-meta_description: "Danny Wang von DW Design & Build über Häuser, in denen innen und außen eins sind, die Ausstattung, die Kunden wünschen, und Wärme, die sich einfügt."
+meta_description: "Wohnen zwischen innen und außen mit Danny Wang von DW Design & Build: Häuser aus einem Guss, gefragte Ausstattung und Wärme, die sich einfügt."
 cta: {label: "Revit-BIM- und CAD-Dateien herunterladen", asset: A13}
 hero: w-dorrington-homes-platinum-electric-1
 owner_review: Marketing
@@ -20,7 +20,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-AW-01, ARC-AW-01, ARC-IN-01]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: de
 translation_of: BLOG-42
 translation_status: machine-draft
@@ -63,29 +63,29 @@ sources:
     verified: false
 ---
 
-Ein individuell geplantes Haus ist heute ein einziger Entwurf, vom Wohnzimmer bis zum äußersten Rand der Terrasse. In Staffel 1, Folge 2 von Designing Outdoor Spaces erklärt der Planer und Bauunternehmer Danny Wang, wie er innen und außen ineinander übergehen lässt, welche Ausstattung seine Kunden heute wünschen, wie er sich auf unterschiedliche Klimazonen einstellt und warum eine Heizung, die sich einfügt, wichtig ist[^s1].
+In einem individuell geplanten Haus fließt die Gestaltung heute in einem Zug vom Wohnzimmer bis zum äußersten Rand der Terrasse. In Staffel 1, Folge 2 von Designing Outdoor Spaces erzählt der Planer und Bauunternehmer Danny Wang, wie er innen und außen zusammenführt, welche Ausstattung seine Kunden heute wünschen, wie er sich auf unterschiedliche Klimazonen einstellt und warum eine Heizung, die sich in den Raum einfügt, so viel ausmacht[^s1].
 
 ![Offener Wohnbereich mit Übergang in einen Außenbereich, Heizstrahler in die Holzdecke eingelassen](img:w-dorrington-homes-platinum-electric-1)
 
-## Wer ist Danny Wang?
+## Danny Wang im Porträt
 
-Danny Wang ist Principal Designer von [DW Design & Build](https://www.dannywang.com/)[^s3], einem Planungs- und Baubüro, das hochwertige Häuser schlüsselfertig realisiert. Er begann als Generalunternehmer und wechselte in die Planung, als die Planer, mit denen er arbeitete, Ideen nicht schnell genug für seine Kunden umsetzen konnten. Er brachte sich 3D-Planung selbst bei und stellte fest, dass seine Kunden die mutigeren Entwürfe mochten[^s1]. Er sprach mit Evan Troxel und Cormac Phalen von Archispeak; die Folge erschien am 17. Januar 2024[^s2].
+Danny Wang ist Principal Designer von [DW Design & Build](https://www.dannywang.com/)[^s3], einem Planungs- und Baubüro, das hochwertige Häuser schlüsselfertig realisiert. Er begann als Generalunternehmer und wechselte in die Planung, als die Planer, mit denen er arbeitete, Ideen nicht schnell genug für seine Kunden umsetzen konnten. Er brachte sich 3D-Planung selbst bei und stellte fest, dass seine Kunden die mutigeren Entwürfe liebten[^s1]. Er sprach mit Evan Troxel und Cormac Phalen von Archispeak, und die Folge erschien am 17. Januar 2024[^s2].
 
 ## Eine Gestaltung, innen wie außen
 
-Wang begann mit Innenräumen und merkte, dass Kunden unzufrieden waren, wenn die Außenbereiche nicht dazu passten. Heute plant er beides als ein gestalterisches System: große Türen und Fenster, Materialien, Möbel und Licht, die sich durchziehen, oft dieselben Fliesen innen und außen. So wirkt der Raum größer und der Übergang natürlich[^s1].
+Wang begann mit Innenräumen und merkte, dass Kunden unzufrieden waren, wenn die Außenbereiche nicht dazu passten. Heute gestaltet er beides als ein visuelles System, mit großen Türen und Fenstern und mit Materialien, Möbeln und Licht, die sich durchziehen, oft mit denselben Fliesen innen und außen, sodass der Raum größer wirkt und der Übergang natürlich[^s1].
 
-## Was Kunden sich wünschen
+## Die Ausstattung, die Kunden heute wünschen
 
-Wang führt den Zug nach draußen auf das Arbeiten von zu Hause, hohe Immobilienpreise und den Fokus auf Wohlbefinden zurück. Das treibt die Nachfrage nach Poolhäusern, Homeoffices, Fitnessräumen und Heimkinos. Ganz oben auf der Wunschliste seiner Kunden stehen Pickleball-Plätze, gefolgt von Eisbecken, Saunen, Dampfbädern, Außenküchen, Außenheizung und individuellen Pool-Elementen wie abgesenkten Sitzbereichen und Poolbars[^s1].
+Wang führt den Zug nach draußen auf das Arbeiten von zu Hause, hohe Immobilienpreise und den Fokus auf Wohlbefinden zurück, die gemeinsam die Nachfrage nach Poolhäusern, Homeoffices, Fitnessräumen und Heimkinos antreiben. Ganz oben auf der Wunschliste seiner Kunden stehen Pickleball-Plätze, gefolgt von Eisbecken, Saunen, Dampfbädern, Außenküchen, Außenheizung und individuellen Pool-Elementen wie abgesenkten Sitzbereichen und Poolbars[^s1].
 
-## Anpassung an das Klima
+## Planen für jedes Klima
 
-Wang arbeitet in Regionen mit unterschiedlichen Bauweisen, Energieträgern und Wetterbedingungen. Sein Rat: Fragen Sie örtliche Fachleute, wie man es dort macht. Wo das Wetter ein Problem ist, ändert er den Plan: ein Hallenbad bei extremem Wind, Heizstrahler in kalten Regionen, beheizte Einfahrten, versenkbare Wände[^s1].
+Wang arbeitet in Regionen mit eigenen Bauweisen, Energieträgern und Wetterbedingungen und rät, örtliche Fachleute zu fragen, wie man es dort macht. Wo das Wetter eine Herausforderung ist, passt er den Plan an, mit einem Hallenbad bei extremem Wind, Heizstrahlern in kalten Regionen, beheizten Einfahrten oder versenkbaren Wänden[^s1].
 
-## Produkte, die sich einfügen
+## Produkte, die im Entwurf verschwinden
 
-Wang sieht, dass bessere Materialien die Integration erleichtern, allen voran Feinsteinzeug, dazu verbesserte Heizstrahler, Beleuchtung, Audio- und Smart-Home-Systeme. Bromic-Heizstrahler hob er für ihre klare, schlanke Form und die integrierte LED-Beleuchtung hervor; ihm sind Produkte wichtig, die in einem Projekt verschwinden[^s1].
+Wang sieht, dass bessere Materialien die Integration erleichtern, allen voran Feinsteinzeug, dazu verbesserte Heizstrahler, Beleuchtung, Audio- und Smart-Home-Systeme. Bromic-Heizstrahler hob er für ihre klare, schlanke Form und die integrierte LED-Beleuchtung hervor, und er schätzt Produkte, die in einem Projekt verschwinden[^s1].
 
 | Wangs Prinzip | Die passende Heizung |
 |---|---|
@@ -93,12 +93,12 @@ Wang sieht, dass bessere Materialien die Integration erleichtern, allen voran Fe
 | Weniger, dafür bessere Elemente | Eclipse: Wärme und dimmbares LED-Licht aus einer Scheibe, ca. 11 m²[^s4] |
 | Anpassung an das Klima | In kalten Regionen die Wärme ab den ersten Zeichnungen einplanen |
 
-Jeder wird über die Affinity Smart-Heat-Steuerung betrieben: ein On/Off- oder Dimmer-Steuergerät für Platinum Electric, das Eclipse-Steuergerät für Eclipse, jeweils mit Wandschalter. Zeitpläne über die Smart-Heat-App setzen kompatible Affinity-Steuerungen voraus, die separat erhältlich sind. Mehr zur [Außenheizung für Wohnhäuser](https://www.bromic.de/) oder einen kostenlosen Planungsvorschlag erhalten Sie bei Bromic über den Planungsservice. [[VERIFY: ob Design Your Space für Deutschland angeboten wird und unter welcher Adresse — Partner Deutschland]]
+Jeder Heizstrahler wird mit einer Affinity Smart-Heat-Steuerung kombiniert, mit einem On/Off- oder Dimmer-Steuergerät für Platinum Electric und dem Eclipse-Steuergerät für Eclipse, jeweils mit Wandschalter. Zeitpläne über die Smart-Heat-App setzen kompatible Affinity-Steuerungen voraus, die separat erhältlich sind. Entdecken Sie die [Außenheizung für Wohnhäuser](https://www.bromic.de/) oder fordern Sie bei Bromic über den Planungsservice einen kostenlosen Planungsvorschlag an. [[VERIFY: ob Design Your Space für Deutschland angeboten wird und unter welcher Adresse — Partner Deutschland]]
 
 ## Häufige Fragen
 
 ### Wo kann ich die Folge hören?
-Auf der [Seite zur Folge](https://www.bromic.com/podcast/residential-outdoor-spaces/), mit Transkript (auf Englisch).
+Sie finden sie auf der [Seite zur Folge](https://www.bromic.com/podcast/residential-outdoor-spaces/), zusammen mit einem Transkript (auf Englisch).
 
 ### Wie wirken Innen- und Außenbereich wie ein Raum?
 Wang zieht dieselben Materialien, dieselbe Möbelsprache und dasselbe Licht durch große Öffnungen hindurch, oft mit denselben Fliesen auf beiden Seiten.

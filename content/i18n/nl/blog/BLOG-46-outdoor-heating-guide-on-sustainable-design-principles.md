@@ -1,13 +1,13 @@
 ---
 id: BLOG-46
 type: blog
-title: "Duurzame buitenverwarming: ontwerpprincipes toegepast op het terras"
+title: "Duurzame buitenverwarming: doordachte ontwerpprincipes voor het terras"
 action: rewrite
 audience: [ARC]
 stage: [CO]
 cell: ARC-CO
 asset: A24
-summary: "Hoe een voorschrijver het energiegebruik van buitenverwarming laag houdt: stralingswarmte gericht op mensen, zones en schema's zodat er alleen warmte is als een ruimte in gebruik is, volledig elektrische opties en duurzame materialen, gelegd naast de doelen van de Amerikaanse GSA voor hoogwaardige gebouwen."
+summary: "Hoe een voorschrijver het energiegebruik van buitenverwarming laag houdt, met stralingswarmte gericht op mensen, zones en schema's die volgen hoe een ruimte wordt gebruikt, volledig elektrische opties en duurzame materialen, gelezen naast de doelen van de GSA voor hoogwaardige gebouwen."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe kan buitenverwarming onderdeel zijn van een duurzaam gebouwontwerp?"
@@ -21,7 +21,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-PP-01, ARC-CO-01, A12]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: US General Services Administration
@@ -78,19 +78,19 @@ translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 ---
 
-Buitenverwarming gebruikt altijd energie, dus de duurzame keuze is minder verwarmen: alleen de mensen, alleen de zone die in gebruik is, alleen de uren dat ze wordt gebruikt. Stralingswarmte maakt dat mogelijk, omdat ze mensen en oppervlakken verwarmt in plaats van lucht[^s2]. Deel de verwarming in zones met eigen bediening, zet haar op schema's, kies elektrisch waar het gebouw volledig elektrisch is, en schrijf materialen voor die lang meegaan. Die keuzes sluiten direct aan op de doelen die de Amerikaanse federale overheid stelt aan hoogwaardige gebouwen[^s1].
+Elke buitenverwarmer gebruikt energie, dus het meest duurzame ontwerp verwarmt alleen de mensen, alleen de bezette zone en alleen de uren dat er van de ruimte wordt genoten. Stralingswarmte maakt dat mogelijk, omdat ze mensen en oppervlakken verwarmt in plaats van lucht[^s2]. Deel de verwarming in zones met eigen bediening, zet haar op schema's, kies elektrisch waar het gebouw volledig elektrisch is, en schrijf materialen voor die lang meegaan. Elk van die keuzes sluit direct aan op de doelen die de Amerikaanse federale overheid stelt aan hoogwaardige gebouwen[^s1].
 
 ![Gloeiende verwarmer ingebouwd in het lamellendak van een pergola boven een buitenkeuken](img:w-mountain-view-retreat-platinum-electric-rece)
 
-## Waarom is stralingswarmte buiten de efficiënte keuze?
+## Waarom stralingswarmte buiten de efficiënte keuze is
 
-Omdat u buiten geen warme lucht kunt vasthouden. Die stijgt op en waait weg, en daarom werkt verwarming met geforceerde luchtstroming buiten niet[^s2]. Stralingswarmte (infrarood) gaat in een rechte lijn naar de mensen en oppervlakken die ze bereikt en verwarmt die direct. Ze houdt stand bij een lichte wind, en onder een gedeeltelijke overkapping vormt ze ook een bescheiden warmtewolk die er een convectief extraatje bij geeft[^s2].
+Buiten kunt u warme lucht niet vasthouden. Die stijgt op en drijft weg op de wind, en daarom werkt verwarming met geforceerde luchtstroming buiten niet[^s2]. Stralingswarmte (infrarood) gaat in een rechte lijn naar de mensen en oppervlakken die ze bereikt en verwarmt die direct. Ze houdt goed stand bij een lichte wind, en onder een gedeeltelijke overkapping vormt ze ook een zachte warmtewolk die er een convectief extraatje bij geeft[^s2].
 
-Het gevolg voor het ontwerp: richt de warmte. Een verwarmer die op maat is gekozen en boven de zitplekken hangt, doet meer nuttig werk dan een grotere die lege vloer verwarmt.
+Voor de ontwerper betekent dit dat u de warmte zorgvuldig richt. Een verwarmer die op maat is gekozen en boven de zitplekken hangt, doet meer nuttig werk dan een grotere die lege vloer verwarmt.
 
-## Hoe passen de doelen van de GSA voor hoogwaardige gebouwen op een terras?
+## De doelen van de GSA voor hoogwaardige gebouwen op het terras
 
-De US General Services Administration, de Amerikaanse federale gebouwendienst, stelt zes doelen voor een integrale ontwerpaanpak over de hele levenscyclus[^s1]. Vijf daarvan bepalen mede een specificatie voor buitenverwarming.
+De US General Services Administration, de Amerikaanse federale gebouwendienst, stelt zes doelen voor een integrale ontwerpaanpak over de hele levenscyclus[^s1], en vijf daarvan bepalen mede een specificatie voor buitenverwarming.
 
 | Doel van de GSA | Wat het betekent voor buitenverwarming |
 |---|---|
@@ -100,20 +100,20 @@ De US General Services Administration, de Amerikaanse federale gebouwendienst, s
 | **Verbeter de binnenluchtkwaliteit** | Binnen-buitenkamers met grote openingen blijven alleen in gebruik als het buiten comfortabel is; elektrische verwarmers verbranden ter plaatse geen brandstof. |
 | **Zorg voor verstandig beheer en onderhoud** | Bediening die het beheerteam kan plannen en bewaken; producten met duidelijke garanties en servicemogelijkheden. |
 
-Waterbesparing, het zesde doel, is niet van toepassing op verwarming.
+Het zesde doel, waterbesparing, is niet van toepassing op verwarming.
 
-## Hoe verlaagt bediening het energiegebruik?
+## Bediening die elke watt laat tellen
 
-Bediening maakt van een verwarmer met alleen aan of uit een beheerde belasting. Schrijf haar voor bij elke verwarmer, nooit als bijzaak.
+Bediening maakt van een verwarmer een zorgvuldig beheerde belasting, en daarom hoort ze vanaf de allereerste tekening bij elke verwarmer in de specificatie.
 
-- **Zones.** Affinity Smart-Heat On/Off- en Dimmer-regelaars zijn er met 1, 2 of 5 kanalen, zodat een eetterras, een lounge en een bar los van elkaar kunnen werken[^s6].
-- **Vermogen.** Dimmer-regelaars stellen het vermogen in stappen van 1% in[^s6]. Op een zachte avond werken de verwarmers op deellast.
-- **Tijd.** De Bromic Smart-Heat app stelt schema's en timers per zone in[^s3]. De warmte volgt de openingstijden of de avonden van het huishouden, niet een schakelaar die is blijven aanstaan.
-- **Integratie.** Affinity-bediening koppelt onder meer met Control4, Crestron en Lutron. De compatibiliteit verschilt per systeem en er kan extra integratiehardware nodig zijn[^s3].
+- **Warmte in zones.** Affinity Smart-Heat On/Off- en Dimmer-regelaars zijn er met 1, 2 of 5 kanalen, zodat een eetterras, een lounge en een bar elk los van elkaar kunnen werken[^s6].
+- **Zacht vermogen.** Dimmer-regelaars stellen het vermogen in stappen van 1% in[^s6], zodat de verwarmers op een zachte avond op deellast kunnen werken.
+- **Warmte volgens schema.** De Bromic Smart-Heat app stelt schema's en timers per zone in[^s3], zodat de warmte de openingstijden of de avonden van het huishouden volgt en nooit blijft aanstaan door een vergeten schakelaar.
+- **Naadloze integratie.** Affinity-bediening koppelt onder meer met Control4, Crestron en Lutron. De compatibiliteit verschilt per systeem en er kan extra integratiehardware nodig zijn[^s3].
 
 Voor wifi- en app-functies zijn compatibele Affinity Smart-Heat Controls nodig, die apart worden verkocht[^s3]. In elke zone hoort ook een handmatige wandschakelaar.
 
-## Elektrisch of gas in een koolstofarm gebouw?
+## Elektrisch of gas in een koolstofarm gebouw
 
 In een volledig elektrisch gebouw blijft het terras met elektrische stralingsverwarmers op dezelfde voeding als de rest, zonder gasleiding naar buiten. Platinum Smart-Heat Electric is er in 2300, 3400 en 4500 W en verwarmt ongeveer 6–13 m², afhankelijk van model en installatie[^s3]. Waar de regels verbranding in nieuwbouw beperken, leest u eerst [de regels voor volledig elektrische buitenverwarming](item:ARC-PP-01) voordat u voor gas kiest.
 
@@ -121,24 +121,24 @@ In de VS worden groepen voor elektrische verwarmers aangelegd volgens NFPA 70, d
 
 ![Glazen paviljoen met een uitkragend dak tussen herfstbomen, slanke verwarmers in het overstek](img:w-residential-us-pavillion-du-lac-1)
 
-## Welke materialen gaan lang mee?
+## Materialen die seizoen na seizoen meegaan
 
-Levensduur is de betrouwbaarste duurzaamheidsclaim die een product kan maken: de verwarmer die u niet vervangt, heeft geen nieuwe materiaalimpact. Platinum Smart-Heat Electric heeft een chassis van roestvast staal 304 met 3 jaar garantie[^s4]. Voor locaties aan de kust gebruikt Platinum Smart-Heat Electric Marine maritiem roestvast staal AISI 316 en heeft het IPX5[^s5]. Kies de staalsoort die bij de omgeving past, in plaats van later een gecorrodeerde verwarmer te vervangen.
+Levensduur is de betrouwbaarste duurzaamheidsclaim die een product kan maken, want de verwarmer die u nooit vervangt, voegt geen nieuwe materiaalimpact toe. Platinum Smart-Heat Electric heeft een chassis van roestvast staal 304 met 3 jaar garantie[^s4]. Voor locaties aan de kust gebruikt Platinum Smart-Heat Electric Marine maritiem roestvast staal AISI 316 en heeft het IPX5[^s5]. Wie de staalsoort vanaf het begin op de omgeving afstemt, bespaart zich later een gecorrodeerde verwarmer.
 
 <div class="diagram">Diagram: plattegrond van een terras verdeeld in drie verwarmde zones (eten, lounge, bar), elk op een eigen kanaal van de regelaar met een eigen schema, met de warmte gericht op de zitplekken en niet op lege vloer.</div>
 
 ## Veelgestelde vragen
 
 ### Zijn buitenverwarmers duurzaam?
-Elke verwarmer gebruikt energie. Stralingswarmte die op mensen is gericht en per zone en volgens schema werkt, gebruikt minder energie dan warmte die een hele avond over een heel oppervlak aanstaat. Duurzame materialen beperken vervanging.
+Elke verwarmer gebruikt energie. Stralingswarmte die op mensen is gericht en per zone en volgens schema werkt, gebruikt er minder van dan warmte die een hele avond over een heel oppervlak aanstaat, en duurzame materialen beperken vervanging.
 
 ### Is elektrisch of gas beter voor een duurzaam gebouw?
 In een volledig elektrisch gebouw voorkomen elektrische stralingsverwarmers een gasaansluiting op het terras. Ga de lokale regels voor elektrificatie na voordat u gas voorschrijft.
 
 ### Welke bediening bespaart de meeste energie?
-Zoneren per kanaal, dimmen naar deellast en schema's in de app. Voor wifi- en app-functies zijn compatibele Affinity Smart-Heat Controls nodig, die apart worden verkocht.
+Zoneren per kanaal, dimmen naar deellast en schema's in de app besparen het meest. Voor wifi- en app-functies zijn compatibele Affinity Smart-Heat Controls nodig, die apart worden verkocht.
 
 ### Biedt Bromic hulp bij het ontwerp?
-Ja. De ontwerpservice van Bromic levert een indeling van de verwarmers en tekeningen van het verwarmd oppervlak. Het volledige assortiment staat op [bromic.nl](https://www.bromic.nl/).
+Ja. De ontwerpservice van Bromic levert een indeling van de verwarmers op maat en tekeningen van het verwarmd oppervlak, en het volledige assortiment ontdekt u op [bromic.nl](https://www.bromic.nl/).
 
 Plan zones, verwarmd oppervlak en bediening met de editie voor professionals van de planningsgids.

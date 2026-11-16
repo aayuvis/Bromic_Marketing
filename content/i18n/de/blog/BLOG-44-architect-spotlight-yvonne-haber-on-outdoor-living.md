@@ -1,17 +1,17 @@
 ---
 id: BLOG-44
 type: blog
-title: "Im Gespräch: Architektin Yvonne Haber über Außenräume, die wirklich genutzt werden"
+title: "Architektin im Porträt: Yvonne Haber über Außenwohnbereiche, die wirklich genutzt werden"
 action: keep-fix
 audience: [ARC]
 stage: [AW]
 cell: ARC-AW
 asset: A24
-summary: "Die drei Prüffragen der Wohnhausarchitektin Yvonne Haber für einen Außenwohnbereich, gelesen neben den Houzz-Daten 2026 dazu, was US-Hausbesitzer im Freien bauen, und wo die Heizung in den Entwurf gehört."
+summary: "Die drei Prüffragen der Wohnhausarchitektin Yvonne Haber für einen Außenwohnbereich, gelesen neben den Houzz-Daten 2026 dazu, was US-Hausbesitzer im Freien bauen, und wo die Wärme in den Entwurf gehört."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie planen Architekten Außenwohnbereiche, die das ganze Jahr genutzt werden?"
-meta_description: "Die drei Prüffragen von Architektin Yvonne Haber für Außenwohnbereiche: Proportion, Überdachung und Ausrichtung, dazu Wärme im Entwurf. Mit US-Daten von Houzz 2026."
+meta_description: "Außenwohnbereiche nach Architektin Yvonne Haber: Proportion, Überdachung, Ausrichtung und Wärme im Entwurf. Gelesen mit den Houzz-Daten 2026 aus den USA."
 cta: {label: "Trendbericht 2026 herunterladen", asset: A01}
 hero: w-yvone-haber-bronte-house-1
 owner_review: Marketing
@@ -20,7 +20,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-AW-01, ARC-IN-01, A01-stats]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: de
 translation_of: BLOG-44
 translation_status: machine-draft
@@ -63,17 +63,17 @@ sources:
     verified: true
 ---
 
-Planen Sie den Außenwohnbereich als Raum: bemessen Sie ihn für das, was dort geschieht, geben Sie ihm eine Überdachung und richten Sie ihn auf Aussicht und Sonne aus. So arbeitet Yvonne Haber, eine australische Wohnhausarchitektin, die seit 1994 ihr eigenes Büro führt und an der UNSW lehrt[^s1]. Sie behandelt Wärme zudem als Standard, nicht als Extra, denn erst sie hält den Raum nach Einbruch der Dunkelheit und außerhalb der Saison in Gebrauch.
+Die Außenwohnbereiche, die Familien lieben, sind als Räume gestaltet: bemessen für das, was dort geschieht, mit einer Überdachung versehen und zur Aussicht und zur Sonne ausgerichtet. So arbeitet Yvonne Haber, eine australische Wohnhausarchitektin, die seit 1994 ihr eigenes Büro führt und an der UNSW lehrt[^s1]. Wärme gehört bei ihr zur Standardausstattung, denn sie hält den Raum nach Einbruch der Dunkelheit und in den kühleren Monaten in Gebrauch.
 
 ![Rückseite eines renovierten Hauses mit offenen Schiebetüren und einem schwarzen Tungsten-Electric-Heizstrahler auf der Terrasse](img:w-yvone-haber-bronte-house-1)
 
-## Wer ist Yvonne Haber?
+## Yvonne Haber im Porträt
 
-Haber plant Familienhäuser: Wohnungen, Reihenhäuser, Doppelhaushälften und freistehende Häuser. Im Mittelpunkt ihrer Arbeit stehen offene Grundrisse, Tageslicht, Querlüftung und Stauraum. Sie beginnt damit, wie ein Haushalt lebt, einschließlich der Gewohnheiten, die den Bauherren selbst nicht auffallen, und entwickelt daraus die räumlichen Beziehungen[^s1].
+Haber plant Familienhäuser, von Wohnungen und Reihenhäusern bis zu Doppelhaushälften und freistehenden Häusern. Im Mittelpunkt ihrer Arbeit stehen offene Grundrisse, Tageslicht, Querlüftung und Stauraum. Sie beginnt damit, wie ein Haushalt lebt, einschließlich der Gewohnheiten, die den Bauherren an sich selbst nicht auffallen, und gestaltet die räumlichen Beziehungen darum herum[^s1].
 
-Ihr Büro ist in Australien, doch der Auftrag, den sie beschreibt, ist derselbe, den Architekten heute vielerorts hören: Außenbereiche werden als Wohnzimmer genutzt, tagsüber und bis spät in den Abend[^s1].
+Ihr Büro ist in Australien, doch der Auftrag, den sie beschreibt, ist derselbe, den Architekten heute vielerorts hören, mit Außenbereichen, die tagsüber und bis spät in den Abend als Wohnzimmer genutzt werden[^s1].
 
-## Welche drei Prüffragen stellt sie an einen Außenwohnbereich?
+## Drei Prüffragen für einen Außenraum
 
 | Habers Prüffrage | Bedeutung im Projekt |
 |---|---|
@@ -81,21 +81,21 @@ Ihr Büro ist in Australien, doch der Auftrag, den sie beschreibt, ist derselbe,
 | **Die Möglichkeit einer Überdachung** | Ein Dach, eine Pergola oder eine Auskragung über einem Teil des Bereichs. Sie bietet Heizstrahlern zugleich eine Montagefläche. |
 | **Ausrichtung und Ausblick** | Den Raum zur Sonne und zur Aussicht drehen und von der Hauptwindrichtung abwenden. |
 
-Daraus folgt ihre Standardausstattung: ein fester Belag oder ein Deck für die Möbel, eine Form von Außenheizung und eine Bepflanzung für den Ausblick[^s1].
+Ihre Standardausstattung ergibt sich aus diesen Prüffragen: ein fester Belag oder ein Deck für die Möbel, eine Form von Außenheizung und eine Bepflanzung, die den Ausblick rahmt[^s1].
 
-## Was bauen US-Hausbesitzer im Freien?
+## Was US-Hausbesitzer im Freien gestalten
 
-Dieselben Räume. In der US-Studie „2026 U.S. Houzz Outdoor Trends Study“ haben 83 % der renovierten Außenbereiche eine Lounge oder einen Sitzbereich[^s2]. Essbereiche finden sich in 55 %, Außenküchen in 48 %[^s3].
+Amerikanische Hausbesitzer bauen sehr ähnliche Räume. In der US-Studie „2026 U.S. Houzz Outdoor Trends Study“ haben 83 % der renovierten Außenbereiche eine Lounge oder einen Sitzbereich[^s2], Essbereiche finden sich in 55 % und Außenküchen in 48 %[^s3].
 
-Eine Zahl zeigt Architekten, wo die Heizung steht. Von den Loungebereichen haben 48 % einen Kamin oder eine Feuerstelle und 66 % eine Beleuchtung[^s3]. Eine Feuerstelle schafft Stimmung, wärmt aber nur die, die ihr am nächsten sitzen. Strahlungswärme über den Sitzplätzen hält die ganze Gruppe warm.
+Eine Zahl zeigt Architekten, wo die Heizung steht. Von den Loungebereichen haben 48 % einen Kamin oder eine Feuerstelle und 66 % eine Beleuchtung[^s3]. Eine Feuerstelle schafft eine wunderbare Stimmung, wärmt aber nur die, die ihr am nächsten sitzen, während Strahlungswärme über den Sitzplätzen die ganze Gruppe behaglich hält.
 
-## Wohin gehört die Wärme im Entwurf?
+## Die Wärme zusammen mit dem Licht einplanen
 
-In die Pläne, zusammen mit der Beleuchtung. In einem von Habers Häusern hängt ein Tungsten Smart-Heat Electric auf der Terrasse[^s1]. Das aktuelle Tungsten-Electric-Sortiment reicht von 2.000 bis 6.000 W und beheizt je nach Modell und Installation ca. 6–15 m²[^s4].
+Die Heizung gehört neben die Beleuchtung in die Pläne. In einem von Habers Häusern hängt ein Tungsten Smart-Heat Electric Heizstrahler auf der Terrasse[^s1]. Das aktuelle Tungsten-Electric-Sortiment reicht von 2.000 bis 6.000 W und beheizt je nach Modell und Installation ca. 6–15 m²[^s4].
 
-Schreiben Sie die Steuerung gleich mit aus: ein Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät, einen Wandschalter und die Bromic Smart-Heat App für Zonen und Zeitpläne. WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Controls, separat erhältlich[^s5]. Legen Sie Stromkreis und Schalterposition in der Entwurfsphase fest, damit später nichts auf Putz verlegt werden muss. Den Anschluss führt ein Elektrofachbetrieb nach DIN VDE 0100 aus.
+Schreiben Sie die Steuerung zusammen mit dem Heizstrahler aus: ein Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät, einen Wandschalter und die Bromic Smart-Heat App für Zonen und Zeitpläne. WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Controls, die separat erhältlich sind[^s5]. Legen Sie Stromkreis und Schalterposition in der Entwurfsphase fest, damit jedes Kabel sauber verdeckt bleibt. Den Anschluss führt ein Elektrofachbetrieb nach DIN VDE 0100 aus.
 
-Für Anordnungen und Heizflächenpläne arbeitet der Planungsservice von Bromic mit Grundrissen oder Fotos; Service und Sortiment finden Sie auf [bromic.de](https://www.bromic.de/).
+Für Anordnungen und Heizflächenpläne arbeitet unser Planungsservice mit Ihren Grundrissen oder Fotos, und das gesamte Sortiment entdecken Sie auf [bromic.de](https://www.bromic.de/).
 
 ## Häufige Fragen
 
@@ -103,9 +103,9 @@ Für Anordnungen und Heizflächenpläne arbeitet der Planungsservice von Bromic 
 Proportionen, die zu den Möbeln passen, eine Überdachung über zumindest einem Teil des Bereichs, eine Ausrichtung passend zu Sonne und Aussicht und Wärme für die Abende und die kühleren Monate.
 
 ### Reicht eine Feuerstelle, um einen Außenraum zu heizen?
-Eine Feuerstelle schafft Atmosphäre, wärmt aber nur die, die in ihrer Nähe sitzen. Über den Sitzplätzen montierte Infrarot-Heizstrahler wärmen die ganze Gruppe.
+Eine Feuerstelle schafft Atmosphäre, wärmt aber nur die, die in ihrer Nähe sitzen. Über den Sitzplätzen montierte Infrarot-Heizstrahler halten die ganze Gruppe warm.
 
 ### Wann sollte die Heizung ausgeschrieben werden?
 In der Entwurfsphase, zusammen mit Beleuchtung und Tragwerk, damit Stromkreis, Montage und Steuerung in den Plänen stehen.
 
-Lesen Sie die Daten 2026 zu Außenräumen im Trendbericht.
+Entdecken Sie die Daten 2026 zu Außenräumen im Trendbericht.

@@ -1,17 +1,17 @@
 ---
 id: BLOG-46
 type: blog
-title: "Nachhaltig heizen im Freien: Gestaltungsprinzipien für die Terrasse"
+title: "Nachhaltige Außenheizung: durchdachte Gestaltungsprinzipien für die Terrasse"
 action: rewrite
 audience: [ARC]
 stage: [CO]
 cell: ARC-CO
 asset: A24
-summary: "Wie Planer den Energieverbrauch von Außenheizungen niedrig halten: Strahlungswärme, die auf Menschen gerichtet ist, Zonen und Zeitpläne, damit nur bei Nutzung geheizt wird, vollelektrische Lösungen und langlebige Materialien, abgeglichen mit den Zielen der US-Bundesbauverwaltung GSA für Hochleistungsgebäude."
+summary: "Wie Planer den Energieverbrauch einer Außenheizung niedrig halten, mit Strahlungswärme, die auf Menschen gerichtet ist, Zonen und Zeitplänen, die der Nutzung eines Raums folgen, vollelektrischen Lösungen und langlebigen Materialien, gelesen vor den Zielen der GSA für Hochleistungsgebäude."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie kann eine Außenheizung Teil einer nachhaltigen Gebäudeplanung sein?"
-meta_description: "Nachhaltig heizen im Freien, für Architekten: auf Menschen gerichtete Strahlungswärme, Zonen und Zeitpläne, vollelektrische Lösungen und langlebige Materialien."
+meta_description: "Nachhaltige Außenheizung für Architekten: Strahlungswärme für Menschen, Zonen und Zeitpläne, vollelektrische Lösungen und langlebige Materialien."
 cta: {label: "Planungsleitfaden (Ausgabe für Fachleute) anfordern", asset: A02}
 hero: w-mountain-view-retreat-platinum-electric-rece
 images: [w-residential-us-pavillion-du-lac-1]
@@ -21,7 +21,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-PP-01, ARC-CO-01, A12]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: de
 translation_of: BLOG-46
 translation_status: machine-draft
@@ -78,19 +78,19 @@ sources:
     verified: false
 ---
 
-Eine Außenheizung verbraucht immer Energie. Die nachhaltige Entscheidung ist deshalb, weniger zu heizen: nur die Menschen, nur die genutzte Zone, nur in den Stunden, in denen sie genutzt wird. Strahlungswärme macht das möglich, weil sie Menschen und Oberflächen erwärmt statt der Luft[^s2]. Teilen Sie sie mit eigener Steuerung in Zonen auf, legen Sie Zeitpläne fest, wählen Sie Elektro, wo das Gebäude vollelektrisch ist, und schreiben Sie langlebige Materialien aus. Diese Entscheidungen lassen sich direkt den Zielen zuordnen, die die US-Bundesverwaltung für Hochleistungsgebäude festlegt[^s1].
+Jeder Heizstrahler im Freien verbraucht Energie. Die nachhaltigste Gestaltung wärmt deshalb nur die Menschen, nur die genutzte Zone und nur in den Stunden, in denen der Raum genossen wird. Strahlungswärme macht das möglich, weil sie Menschen und Oberflächen erwärmt statt der Luft[^s2]. Teilen Sie sie mit eigener Steuerung in Zonen auf, legen Sie Zeitpläne fest, wählen Sie Elektro, wo das Gebäude vollelektrisch ist, und schreiben Sie langlebige Materialien aus. Jede dieser Entscheidungen lässt sich direkt den Zielen zuordnen, die die US-Bundesverwaltung für Hochleistungsgebäude festlegt[^s1].
 
 ![Leuchtender Heizstrahler, eingelassen in das Dach einer Lamellenpergola über einer Außenküche](img:w-mountain-view-retreat-platinum-electric-rece)
 
-## Warum ist Strahlungswärme im Freien die effiziente Wahl?
+## Warum Strahlungswärme im Freien die effiziente Wahl ist
 
-Weil sich warme Luft im Freien nicht halten lässt. Sie steigt auf und wird fortgeweht; deshalb funktionieren Warmluftheizungen draußen nicht[^s2]. Strahlungswärme (Infrarot) breitet sich geradlinig zu den Menschen und Oberflächen aus, die sie erreicht, und erwärmt sie direkt. Sie hält bei leichtem Wind stand und bildet unter einer Teilüberdachung zusätzlich eine bescheidene Wärmewolke, die einen konvektiven Effekt bringt[^s2].
+Warme Luft lässt sich im Freien nicht halten. Sie steigt auf und treibt mit dem Wind davon, und deshalb funktionieren Warmluftheizungen draußen nicht[^s2]. Strahlungswärme (Infrarot) breitet sich geradlinig zu den Menschen und Oberflächen aus, die sie erreicht, und erwärmt sie direkt. Sie hält bei leichtem Wind gut stand und bildet unter einer Teilüberdachung zusätzlich eine sanfte Wärmewolke, die einen konvektiven Effekt hinzufügt[^s2].
 
-Die Konsequenz für die Planung: Richten Sie die Wärme aus. Ein Heizstrahler, der über den Sitzplätzen richtig bemessen und platziert ist, leistet mehr nützliche Arbeit als ein größerer, der freie Bodenfläche beheizt.
+Für die Planung bedeutet das, die Wärme mit Sorgfalt auszurichten. Ein Heizstrahler, der über den Sitzplätzen richtig bemessen und platziert ist, leistet mehr nützliche Arbeit als ein größerer, der freie Bodenfläche beheizt.
 
-## Wie lassen sich die Hochleistungsziele der GSA auf eine Terrasse übertragen?
+## Die Hochleistungsziele der GSA auf die Terrasse übertragen
 
-Die US General Services Administration (GSA), die Bau- und Liegenschaftsverwaltung der US-Bundesregierung, nennt sechs Ziele für einen integrierten Planungsansatz über den gesamten Lebenszyklus[^s1]. Fünf davon prägen die Ausschreibung einer Außenheizung.
+Die US General Services Administration (GSA), die Bau- und Liegenschaftsverwaltung der US-Bundesregierung, nennt sechs Ziele für einen integrierten Planungsansatz über den gesamten Lebenszyklus[^s1], und fünf davon prägen die Ausschreibung einer Außenheizung.
 
 | GSA-Ziel | Bedeutung für die Außenheizung |
 |---|---|
@@ -100,45 +100,45 @@ Die US General Services Administration (GSA), die Bau- und Liegenschaftsverwaltu
 | **Raumluftqualität verbessern** | Räume zwischen innen und außen mit großen Öffnungen bleiben nur in Gebrauch, wenn es draußen behaglich ist; elektrische Heizstrahler verbrennen am Einsatzort keinen Brennstoff. |
 | **Betrieb und Wartung umsichtig gestalten** | Steuerung, die das Facility Management planen und überwachen kann; Produkte mit klarer Garantie und klaren Servicewegen. |
 
-Wasser sparen, das sechste Ziel, betrifft die Heizung nicht.
+Das sechste Ziel, Wasser zu sparen, betrifft die Heizung nicht.
 
-## Wie senkt die Steuerung den Energieverbrauch?
+## Steuerung, die jedes Watt zählen lässt
 
-Die Steuerung macht aus einem Heizstrahler, der nur an oder aus ist, eine gesteuerte Last. Schreiben Sie sie mit jedem Heizstrahler aus, nie nachträglich.
+Die Steuerung macht aus einem Heizstrahler eine sorgfältig gesteuerte Last, und deshalb gehört sie mit jedem Heizstrahler ab der allerersten Zeichnung in die Ausschreibung.
 
-- **Zonen.** Affinity Smart-Heat On/Off- und Dimmer-Steuergeräte gibt es mit 1, 2 oder 5 Kanälen, sodass Restaurantterrasse, Lounge und Bar getrennt laufen können[^s6].
-- **Leistung.** Dimmer-Steuergeräte regeln die Leistung in 1-%-Schritten[^s6]. An einem milden Abend laufen die Heizstrahler in Teillast.
-- **Zeit.** Die Bromic Smart-Heat App legt Zeitpläne und Timer je Zone fest[^s3]. Die Wärme folgt den Öffnungszeiten oder den Abenden des Haushalts, nicht einem vergessenen Schalter.
-- **Integration.** Affinity-Steuergeräte lassen sich unter anderem mit Control4, Crestron und Lutron verbinden. Die Kompatibilität hängt vom System ab und kann zusätzliche Integrationshardware erfordern[^s3].
+- **Wärme in Zonen.** Affinity Smart-Heat On/Off- und Dimmer-Steuergeräte gibt es mit 1, 2 oder 5 Kanälen, sodass Restaurantterrasse, Lounge und Bar jeweils für sich laufen können[^s6].
+- **Sanfte Leistung.** Dimmer-Steuergeräte regeln die Leistung in 1-%-Schritten[^s6], sodass die Heizstrahler an einem milden Abend in Teillast laufen können.
+- **Wärme nach Zeitplan.** Die Bromic Smart-Heat App legt Zeitpläne und Timer je Zone fest[^s3], sodass die Wärme den Öffnungszeiten oder den Abenden des Haushalts folgt und nie wegen eines vergessenen Schalters weiterläuft.
+- **Nahtlose Integration.** Affinity-Steuergeräte lassen sich unter anderem mit Control4, Crestron und Lutron verbinden. Die Kompatibilität hängt vom System ab und kann zusätzliche Integrationshardware erfordern[^s3].
 
-WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Controls, separat erhältlich[^s3]. Ein manueller Wandschalter gehört ebenfalls in jede Zone.
+WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Controls, die separat erhältlich sind[^s3]. Ein manueller Wandschalter gehört ebenfalls in jede Zone.
 
-## Elektro oder Gas in einem CO₂-armen Gebäude?
+## Elektro oder Gas in einem CO₂-armen Gebäude
 
-In einem vollelektrischen Gebäude hängen elektrische Infrarot-Heizstrahler die Terrasse an dieselbe Versorgung wie alles andere, ohne Gasleitung zur Terrasse. Platinum Smart-Heat Electric gibt es mit 2300, 3400 und 4500 W; je nach Modell und Installation beheizt ein Gerät ca. 6–13 m²[^s3]. Wo örtliche Vorschriften Verbrennung in Neubauten einschränken, lesen Sie [Vorschriften zur vollelektrischen Außenheizung](item:ARC-PP-01), bevor Sie Gas wählen.
+In einem vollelektrischen Gebäude hängen elektrische Infrarot-Heizstrahler die Terrasse an dieselbe Versorgung wie alles andere, ohne Gasleitung zur Terrasse. Platinum Smart-Heat Electric gibt es mit 2300, 3400 und 4500 W, und je nach Modell und Installation beheizt ein Gerät ca. 6–13 m²[^s3]. Wo örtliche Vorschriften Verbrennung in Neubauten einschränken, lesen Sie [Vorschriften zur vollelektrischen Außenheizung](item:ARC-PP-01), bevor Sie Gas wählen.
 
 Die Stromkreise elektrischer Heizstrahler werden in Deutschland nach DIN VDE 0100 errichtet; in den USA gilt NFPA 70, der National Electrical Code[^s7]. [[VERIFY: current VDE and DVGW rules for outdoor heaters — Partner Deutschland]] Klären Sie Stromkreise, Montagehöhen und Genehmigungen mit dem zuständigen Bauamt und einem Elektrofachbetrieb; die Mindestmontagehöhen je Modell nennt Bromic in seinen eigenen Planungshinweisen[^s2].
 
 ![Glaspavillon mit auskragendem Dach zwischen herbstlichen Bäumen, schlanke Heizstrahler in der Untersicht](img:w-residential-us-pavillion-du-lac-1)
 
-## Welche Materialien halten?
+## Materialien, die Saison für Saison bestehen
 
-Langlebigkeit ist die verlässlichste Nachhaltigkeitsaussage, die ein Produkt machen kann: Der Heizstrahler, den Sie nicht ersetzen, verursacht keine neue graue Energie. Platinum Smart-Heat Electric hat ein Gehäuse aus Edelstahl 304 mit 3 Jahren Garantie[^s4]. Für Küstenstandorte verwendet Platinum Smart-Heat Electric Marine Edelstahl AISI 316 in Marinequalität und erreicht die Schutzart IPX5[^s5]. Wählen Sie die Güte passend zur Umgebung, statt später einen korrodierten Heizstrahler zu ersetzen. [[VERIFY: Garantiebedingungen für den deutschen Markt — Produktteam]]
+Langlebigkeit ist die verlässlichste Nachhaltigkeitsaussage, die ein Produkt machen kann, denn der Heizstrahler, den Sie nie ersetzen, verursacht keine neue graue Energie. Platinum Smart-Heat Electric hat ein Gehäuse aus Edelstahl 304 mit 3 Jahren Garantie[^s4]. Für Küstenstandorte verwendet Platinum Smart-Heat Electric Marine Edelstahl AISI 316 in Marinequalität und erreicht die Schutzart IPX5[^s5]. Wer die Güte von Anfang an auf die Umgebung abstimmt, erspart sich später einen korrodierten Heizstrahler. [[VERIFY: Garantiebedingungen für den deutschen Markt — Produktteam]]
 
 <div class="diagram">Diagramm: Grundriss einer Terrasse, aufgeteilt in drei beheizte Zonen (Essen, Lounge, Bar), jede an einem eigenen Kanal des Steuergeräts mit eigenem Zeitplan; die Wärme ist auf die Sitzplätze gerichtet, nicht auf freie Bodenfläche.</div>
 
 ## Häufige Fragen
 
 ### Sind Heizstrahler im Freien nachhaltig?
-Jedes Heizgerät verbraucht Energie. Strahlungswärme, die auf Menschen gerichtet ist und nach Zonen und Zeitplänen läuft, verbraucht weniger als Wärme, die einen ganzen Abend über eine ganze Fläche läuft. Langlebige Materialien verringern den Austausch.
+Jedes Heizgerät verbraucht Energie. Strahlungswärme, die auf Menschen gerichtet ist und nach Zonen und Zeitplänen läuft, verbraucht weniger davon als Wärme, die einen ganzen Abend über eine ganze Fläche läuft, und langlebige Materialien verringern den Austausch.
 
 ### Ist Elektro oder Gas besser für ein nachhaltiges Gebäude?
 In einem vollelektrischen Gebäude ersparen elektrische Infrarot-Heizstrahler den Gasanschluss zur Terrasse. Prüfen Sie örtliche Vorgaben zur Elektrifizierung, bevor Sie Gas ausschreiben.
 
 ### Welche Steuerung spart am meisten Energie?
-Zonen über Kanäle, Dimmen auf Teillast und Zeitpläne in der App. WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Controls, separat erhältlich.
+Am meisten sparen Zonen über Kanäle, Dimmen auf Teillast und Zeitpläne in der App. WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Controls, die separat erhältlich sind.
 
 ### Bietet Bromic Planungshilfe an?
-Ja. Der Planungsservice auf [bromic.de](https://www.bromic.de/) liefert eine Heizstrahler-Anordnung und Heizflächenpläne; dort finden Sie auch das ganze Sortiment.
+Ja. Der Planungsservice auf [bromic.de](https://www.bromic.de/) liefert eine maßgeschneiderte Heizstrahler-Anordnung und Heizflächenpläne, und dort entdecken Sie auch das gesamte Sortiment.
 
 Planen Sie Zonen, Heizflächen und Steuerung mit der Ausgabe des Planungsleitfadens für Fachleute.
