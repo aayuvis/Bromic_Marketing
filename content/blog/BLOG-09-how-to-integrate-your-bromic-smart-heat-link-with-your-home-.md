@@ -1,7 +1,7 @@
 ---
 id: BLOG-09
 type: blog
-title: "How to connect Bromic heaters to a home automation or building management system"
+title: "How To Connect Outdoor Heaters To Your Home Automation Or Building Management System"
 slug: how-to-integrate-your-bromic-smart-heat-link-with-your-home-automation-system
 live_url: https://www.bromic.com/blog/how-to-integrate-your-bromic-smart-heat-link-with-your-home-automation-system/
 action: merge-target
@@ -10,11 +10,11 @@ audience: [BLD, RES]
 stage: [BY]
 cell: BLD-BY
 asset: A24
-summary: "How Bromic heaters connect to Alexa, Google Home, Control4, Crestron, Lutron or a building management system today: Affinity controllers, the expansion board's Ethernet and 0–10 V, what the integrator needs, and what replaced the Smart-Heat Link."
+summary: "How Bromic heaters become part of a smart home or building today, through Alexa, Google Home, Control4, Crestron, Lutron or a building management system, with Affinity controllers, the expansion board's Ethernet and 0–10 V, what the integrator needs, and what replaced the Smart-Heat Link."
 primary_keyword: outdoor heater home automation
 secondary_keywords: [patio heater control4, patio heater crestron, outdoor heater bms, 0-10v heater control, smart-heat link]
 ai_prompt: "How do I connect my outdoor heater to Control4, Crestron or Lutron?"
-meta_description: "Connect Bromic heaters to home automation or a BMS: Affinity controllers, the expansion board's Ethernet and 0-10 V, and what the integrator needs."
+meta_description: "Bring outdoor heater home automation into your project: Affinity controllers, the expansion board's Ethernet and 0-10 V, and what your integrator needs."
 cta: {label: "Get the install guide series", asset: A17}
 hero: w-expansion-board-2-1600x1600-1
 images: [w-expansion-board]
@@ -24,7 +24,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [BLD-BY-01, RES-BY-01, COM-BY-01, BLD-IN-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -84,11 +84,11 @@ sources:
     verified: false
 ---
 
-Bromic heaters join a smart home through Affinity Smart-Heat controllers, sold separately. Alexa and Google Home link straight to the Bromic app with no extra hardware. Control4, Crestron, Lutron and building management systems connect through the Affinity expansion board, which adds Ethernet and a 0–10 V control input; it is built into 5-channel controllers and added to 1- and 2-channel ones.[^s1][^s2] This replaces the older RS232 Smart-Heat Link route.
+Bromic heaters join a smart home through Affinity Smart-Heat controllers, sold separately. Alexa and Google Home link straight to the Bromic app with no extra hardware, while Control4, Crestron, Lutron and building management systems connect through the Affinity expansion board, which adds Ethernet and a 0–10 V control input; it is built into 5-channel controllers and added to 1- and 2-channel ones.[^s1][^s2] This route replaces the older RS232 Smart-Heat Link.
 
-![Affinity expansion board in its clear housing](img:w-expansion-board-2-1600x1600-1)
+![The Affinity expansion board in its clear housing](img:w-expansion-board-2-1600x1600-1)
 
-## Which route fits the project?
+## The Right Route For Your Project
 
 | Goal | What to install | Notes |
 |---|---|---|
@@ -99,37 +99,37 @@ Bromic heaters join a smart home through Affinity Smart-Heat controllers, sold s
 
 Bromic also lists Domotica and Josh.ai as compatible platforms.[^s2] [[VERIFY: tested integrations, drivers or modules for Control4, Crestron, Lutron, Domotica and Josh.ai, and whether 0–10 V is the only interface — Product team]]
 
-## What does the expansion board do?
+## How The Expansion Board Connects Everything
 
-It sits inside a 1- or 2-channel On/Off or Dimmer controller, fixed with two screws and powered by the controller, and adds two things:[^s1]
+The board sits neatly inside a 1- or 2-channel On/Off or Dimmer controller, fixed with two screws and powered by the controller itself, and it adds two connections:[^s1]
 
-- **Ethernet**, a wired network link that is steadier than Wi-Fi across a large site.
-- **A 0–10 V terminal block**, so the automation system can switch or set the level of each channel.
+- **Ethernet** gives a wired network link that stays steadier than Wi-Fi across a large site.
+- **A 0–10 V terminal block** lets the automation system switch each channel or set its level.
 
 The 5-channel On/Off and Dimmer controllers include the board.[^s5] [[VERIFY: does the Eclipse controller accept the expansion board or 0–10 V — Product team]]
 
 <div class="diagram">Diagram: automation processor → 0–10 V pair and Ethernet → expansion board inside an Affinity 2-channel Dimmer → two heater circuits; a dotted line from the router to the controller for the app, crossed out when BMS mode is on.</div>
 
-## What happens to the app in BMS mode?
+## Choosing Between The App And BMS Mode
 
-The app and a BMS cannot run at the same time. Fitting the board's jumper hands control to the BMS, and the app stops working for that controller; voice control stops too.[^s1][^s4] Decide with the owner which system will be the single point of control before commissioning. A restaurant group running heat from its building system will choose BMS; most homeowners keep the app and voice.
+The app and a BMS cannot run at the same time. Fitting the board's jumper hands control to the BMS, and both the app and voice control then stop working for that controller.[^s1][^s4] Agree with the owner which system will be the single point of control before commissioning. A restaurant group running its heat from the building system will usually choose BMS, while most homeowners keep the app and voice.
 
-## What does the integrator need?
+## What Your Integrator Will Need
 
-- **The controller model and channel map:** which channel feeds which heater, and its load.
-- **The control signal per channel:** on/off for On/Off controllers and gas heaters; level for Dimmer channels. [[VERIFY: 0–10 V scaling to heater output on Dimmer channels, and whether On/Off channels switch at a threshold — Product team]]
+- **The controller model and channel map**, showing which channel feeds which heater, and its load.
+- **The control signal per channel**, on/off for On/Off controllers and gas heaters, and level for Dimmer channels. [[VERIFY: 0–10 V scaling to heater output on Dimmer channels, and whether On/Off channels switch at a threshold — Product team]]
 - **A network drop** to the controller location if Ethernet is used.
 - **The Affinity installation manual and wiring diagrams** from Bromic's technical resources. [[VERIFY: Affinity wiring diagrams cover 208 V and 277 V as well as 220–240 V; the earlier Smart-Heat Link diagrams showed 220–240 V only — Product team]]
 
 Controllers handle 6 kW per channel at 208–277 V, and 5-channel units come in three-phase versions, including 120/208 V.[^s5]
 
-## What about the Smart-Heat Link?
+## What Became Of The Smart-Heat Link
 
-The Smart-Heat Link was an RS232 gateway programmed over a serial connection. It paired with the earlier Wireless On/Off and Dimmer controllers, not with Affinity.[^s6][^s7] New projects use Affinity controllers and the expansion board. [[VERIFY: Smart-Heat Link status (discontinued, spares only, or supported) and the upgrade path for existing RS232 installs — Product team]] Owners of a Smart-Heat Link system should contact Bromic Technical Support before changing anything.
+The Smart-Heat Link was an RS232 gateway programmed over a serial connection, and it paired only with the earlier Wireless On/Off and Dimmer controllers, never with Affinity.[^s6][^s7] New projects use Affinity controllers and the expansion board. [[VERIFY: Smart-Heat Link status (discontinued, spares only, or supported) and the upgrade path for existing RS232 installs — Product team]] If you own a Smart-Heat Link system, please contact Bromic Technical Support before changing anything.
 
-## Who installs it?
+## The Team Behind The Installation
 
-A licensed electrician installs the heaters, controllers and circuits, and a qualified system integrator configures the automation side.[^s6][^s7] Heater and control wiring in the US follows NFPA 70, the National Electrical Code,[^s8] as adopted locally: confirm requirements with your local authority having jurisdiction and a licensed electrician before work starts.
+A licensed electrician installs the heaters, controllers and circuits, and a qualified system integrator configures the automation side.[^s6][^s7] Heater and control wiring in the US follows NFPA 70, the National Electrical Code,[^s8] as adopted locally, so confirm requirements with your local authority having jurisdiction and a licensed electrician before work begins.
 
 ## Frequently asked
 
@@ -140,9 +140,9 @@ No. Alexa and Google Home link through the Bromic app without it.[^s1]
 No. BMS mode disables the app for that controller.[^s4]
 
 ### Can gas heaters be automated?
-Yes, on an Affinity On/Off controller, up to 10 gas heaters per channel, switched on and off.[^s5]
+Yes. An Affinity On/Off controller switches up to 10 gas heaters per channel on and off.[^s5]
 
 ### Will my RS232 Smart-Heat Link work with Affinity?
-[[VERIFY: compatibility between Smart-Heat Link and Affinity controllers — Product team]] For app setup, see [how to use the Bromic heating app](https://www.bromic.com/blog/how-to-use-the-new-bromic-heating-app/); for the full range, the [Bromic controls page](https://www.bromic.com/controls/).
+[[VERIFY: compatibility between Smart-Heat Link and Affinity controllers — Product team]] For app setup, see [how to use the Bromic heating app](https://www.bromic.com/blog/how-to-use-the-new-bromic-heating-app/), and for the full range, the [Bromic controls page](https://www.bromic.com/controls/).
 
-Wiring and commissioning steps are in the install guide series.
+The install guide series takes you through wiring and commissioning step by step.

@@ -1,7 +1,7 @@
 ---
 id: BLOG-08
 type: blog
-title: "Are there remote controls for Bromic patio heaters?"
+title: "Are There Remote Controls For Bromic Patio Heaters?"
 slug: are-there-remote-controls-for-bromic-patio-heaters
 live_url: https://www.bromic.com/blog/are-there-remote-controls-for-bromic-patio-heaters/
 action: rewrite
@@ -10,11 +10,11 @@ audience: [RES, BLD]
 stage: [PP]
 cell: RES-PP
 asset: A24
-summary: "The current way to control Bromic heaters remotely: Affinity Smart-Heat On/Off, Dimmer and Eclipse controllers run from the app, with a manual wall switch and an expansion board, and which older controllers they replace."
+summary: "How you control Bromic heaters from anywhere today, with Affinity Smart-Heat On/Off, Dimmer and Eclipse controllers run from the app, a manual wall switch and an expansion board, and the earlier controllers they replace."
 primary_keyword: patio heater remote control
 secondary_keywords: [bromic controller, outdoor heater dimmer, patio heater app, affinity smart-heat]
 ai_prompt: "Can I control my Bromic patio heater with a remote?"
-meta_description: "Bromic heaters are controlled by Affinity Smart-Heat controllers and the app, not a handheld remote. Which controller fits which heater, and how many."
+meta_description: "Patio heater remote control, Bromic style: Affinity Smart-Heat controllers run from your phone, voice or a wall switch. Which controller fits each heater."
 cta: {label: "Book a design consult", asset: A07}
 hero: w-affinity-onoff
 images: [w-render-3]
@@ -24,7 +24,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-BY-01, RES-PP-01, BLD-IN-KB2]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -91,13 +91,13 @@ sources:
     verified: true
 ---
 
-Not in the old sense. Bromic's current controls are the Affinity Smart-Heat range: On/Off, Dimmer and Eclipse controllers that you run from the Bromic app on your phone, by voice through Alexa or Google Home, or from a manual wall switch.[^s1] Affinity controllers ship without a handheld remote; the app is the remote.[^s1] Every installed heater needs one of these controls, sold separately, chosen by heater type and load.
+Today your phone is the remote. Bromic's current controls are the Affinity Smart-Heat range of On/Off, Dimmer and Eclipse controllers, which you run from the Bromic app, by voice through Alexa or Google Home, or from a manual wall switch.[^s1] Affinity controllers ship without a handheld remote, since the app takes its place.[^s1] Every installed heater is paired with one of these controls, sold separately and chosen by heater type and load.
 
-![Affinity On/Off controller with the Bromic app](img:w-affinity-onoff)
+![The Affinity On/Off controller alongside the Bromic app](img:w-affinity-onoff)
 
-## Which controller do I need?
+## Choosing The Controller For Your Heaters
 
-Choose by fuel, by whether you want to dim, and by the load on each channel. A channel is one switched circuit: one heater, or a group of heaters that always run together.
+Your choice comes down to the fuel, whether you would like to dim the warmth, and the load on each channel. A channel is one switched circuit, serving either a single heater or a group of heaters that always run together.
 
 | Controller | Works with | Channels | Capacity per channel | What it gives you |
 |---|---|---|---|---|
@@ -109,7 +109,7 @@ Choose by fuel, by whether you want to dim, and by the load on each channel. A c
 
 [[VERIFY: controller capacities and heater compatibility, including Cobalt and gas on the On/Off spec table — Product team]]
 
-## How many heaters per channel?
+## How Many Heaters Share A Channel
 
 Bromic's compatibility chart gives these per-channel counts for On/Off and Dimmer controllers.[^s1]
 
@@ -123,13 +123,13 @@ Bromic's compatibility chart gives these per-channel counts for On/Off and Dimme
 | Platinum or Tungsten Gas (both sizes) | 10 (On/Off only) |
 | Eclipse Electric | 1 (Eclipse controller) |
 
-So two 2300 W Platinum heaters share one channel; two 6000 W Tungsten heaters need a 2-channel controller.[^s2] On a 2-channel On/Off, the two elements of a 4500 W Platinum or 4000/6000 W Tungsten can be switched separately.[^s2] [[VERIFY: per-channel counts at 208 V and 277 V — Product team]]
+Two 2300 W Platinum heaters can therefore share one channel, while two 6000 W Tungsten heaters need a 2-channel controller.[^s2] On a 2-channel On/Off, the two elements of a 4500 W Platinum or 4000/6000 W Tungsten can be switched separately.[^s2] [[VERIFY: per-channel counts at 208 V and 277 V — Product team]]
 
 <div class="diagram">Diagram: one 2-channel Affinity Dimmer, channel 1 feeding two 2300 W Platinum heaters over the table, channel 2 feeding one 4000 W Tungsten over the lounge; wall switch and phone shown as the two ways in.</div>
 
-## Which older controllers does Affinity replace?
+## The Earlier Controllers Affinity Replaces
 
-Earlier posts described a range with handheld wireless remotes.[^s7] On the current site, Affinity takes their place. The mapping below is our reading of the two ranges and needs Bromic's confirmation.
+Earlier posts described a range with handheld wireless remotes,[^s7] and on the current site Affinity takes their place. The mapping below is our reading of the two ranges and awaits Bromic's confirmation.
 
 | Earlier control | Current equivalent |
 |---|---|
@@ -141,24 +141,24 @@ Earlier posts described a range with handheld wireless remotes.[^s7] On the curr
 
 [[VERIFY: are the Wireless On/Off, Wireless Dimmer, Master Remote and Smart-Heat Link discontinued or still supplied as spares; is there an upgrade path — Product team]]
 
-One exception: the Eclipse Freestanding heater is listed with an Eclipse Dimmer Controller and remote included.[^s8] [[VERIFY: does Eclipse Freestanding ship with the earlier Eclipse Dimmer and remote or with Affinity; app support — Product team]]
+The Eclipse Freestanding heater is the one exception, listed with an Eclipse Dimmer Controller and remote included.[^s8] [[VERIFY: does Eclipse Freestanding ship with the earlier Eclipse Dimmer and remote or with Affinity; app support — Product team]]
 
-## Where does the controller go?
+## Finding A Home For The Controller
 
-Affinity controllers are rated IP54 and operate from −4 to 86 °F, so they can be mounted indoors or outdoors in a ventilated spot, within Bluetooth range of where you set it up.[^s1][^s2] Plan the controller and its circuits with the heaters, before walls are closed; a licensed electrician installs both. See [how many heaters fit on one circuit](item:BLD-IN-KB2).
+Affinity controllers are rated IP54 and operate from −4 to 86 °F, so they can be mounted indoors or outdoors in a ventilated spot, within Bluetooth range of where you set them up.[^s1][^s2] Plan the controller and its circuits alongside the heaters, before the walls are closed, with a licensed electrician installing both. Our answer on [how many heaters fit on one circuit](item:BLD-IN-KB2) explains the sums.
 
 ## Frequently asked
 
 ### Can I still buy a handheld remote?
-Affinity controls are app-based and have no physical remote.[^s1] Use the app, a voice assistant or a wall switch.
+Affinity controls are app-based and have no physical remote.[^s1] You can use the app, a voice assistant or a wall switch instead.
 
 ### Do I need Wi-Fi?
-Setup runs over Bluetooth within 30 ft; remote control, schedules and voice need 2.4 GHz Wi-Fi or Ethernet.[^s2] See [how to use the Bromic heating app](https://www.bromic.com/blog/how-to-use-the-new-bromic-heating-app/).
+Setup runs over Bluetooth within 30 ft, while remote control, schedules and voice need 2.4 GHz Wi-Fi or Ethernet.[^s2] Our guide on [how to use the Bromic heating app](https://www.bromic.com/blog/how-to-use-the-new-bromic-heating-app/) walks you through it.
 
 ### Can gas heaters be dimmed?
-No. Gas heaters run on the On/Off controller or a wall switch: full heat or off.[^s2][^s3]
+No. Gas heaters run on the On/Off controller or a wall switch, at full heat or off.[^s2][^s3]
 
 ### Can one app run every controller I own?
 Yes. Bromic sets no limit on heaters per site or sites per account.[^s9]
 
-Not sure which controller fits your layout? The design team specifies heaters and controls together.
+Not sure which controller suits your layout? Our design team specifies your heaters and controls together.

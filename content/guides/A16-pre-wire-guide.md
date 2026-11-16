@@ -1,17 +1,17 @@
 ---
 id: A16
 type: gated-guide
-title: "Pre-wire for outdoor heat: the builder's rough-in guide"
+title: "Pre-wire for outdoor heat: the builder's rough-in guide to warmth that is ready from day one"
 slug: pre-wire-patio-heaters-rough-in-guide
 audience: [BLD]
 stage: [IN]
 cell: BLD-IN
 asset: A16
-summary: "What to decide before framing and what to rough in for every Bromic heater type: circuits and amps, junction boxes and blocking, recess openings, control runs and gas stub-outs, with a printable checklist and an electrician hand-off sheet."
+summary: "Everything to decide before framing and rough in for each Bromic heater type, so the patio is ready for warmth the day the homeowners move in: circuits and amps, boxes and blocking, recess openings, control runs and gas stub-outs, with a printable checklist and an electrician hand-off sheet."
 primary_keyword: pre wire patio heater
 secondary_keywords: [patio heater wiring, outdoor heater rough in, outdoor heater electrical requirements, patio heater circuit]
 ai_prompt: "What wiring should I rough in for patio heaters?"
-meta_description: "Rough-in guide for patio heaters: circuits and amps, 125% sizing, junction boxes, blocking, recess framing, control runs and gas stub-outs."
+meta_description: "Pre-wire for outdoor heat: a builder's rough-in guide for patio heaters, from circuits, amps and 125% sizing to boxes, blocking, recess framing and gas."
 cta: {label: "Book a design consult", asset: A07}
 hero: g-rough-in
 images: [l-010-076, l-005-022, l-010-074, t-012-034]
@@ -19,7 +19,7 @@ owner_review: Trade sales
 status: draft
 gated: true
 related: [BLD-IN-01, BLD-CO-01, ARC-IN-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating / Atomik Research
@@ -67,15 +67,15 @@ sources:
 
 # Pre-wire for outdoor heat
 
-*The builder's rough-in guide. Designed from the start, not added later.*
+*The builder's rough-in guide, for warmth planned in from the first drawing.*
 
-Rough in a dedicated branch circuit for each electric heater (or heater group, per the controller), sized from I = W ÷ V with conductors at 125% of the load; a junction box and solid blocking at every heater, pole or recess location; a home run from each heater to the controller location; a box at the wall switch; and, for built-in gas, a stubbed and capped line with an accessible shut-off. Decide all of it before framing, while the ceiling is open.
+A patio that is warm from the first evening starts at rough-in. Run a dedicated branch circuit for each electric heater (or heater group, per the controller), sized from I = W ÷ V with conductors at 125% of the load[^s5]. Add a junction box and solid blocking at every heater, pole or recess location, a home run from each heater to the controller location and a box at the wall switch, and for built-in gas, a stubbed and capped line with an accessible shut-off. Settle all of it before framing, while the ceiling is still open.
 
-![Covered outdoor kitchen and bar with flush ceiling heaters](img:l-010-067)
+![Covered outdoor kitchen and bar warmed by heaters set flush into the ceiling](img:l-010-067)
 
-## Why decide before framing?
+## Why the best time is before framing
 
-Fewer than one in four homeowners prioritize heating at planning[^s1]. The rest ask for it after drywall, soffits and stone are done. That means opening a finished ceiling, surface conduit, a heater placed where the wire reaches rather than where the table sits, and a callback.
+Fewer than one in four homeowners prioritize heating at planning[^s1]. Many of the rest ask for it once the drywall, soffits and stone are finished, and by then it means opening a finished ceiling, running surface conduit, placing the heater where the wire reaches instead of over the table, and a callback.
 
 | Decided at | What it costs |
 |---|---|
@@ -83,9 +83,9 @@ Fewer than one in four homeowners prioritize heating at planning[^s1]. The rest 
 | After framing, before close-in | A change order; extra trip for the electrician |
 | After finish | Opened ceilings or walls, patching, repainting, surface conduit, often no recess option |
 
-**Sell it at the options stage.** A pre-wire package (circuits, boxes, blocking, switch box) can be offered even when the heaters are bought later. See the builder programme and Good–Better–Best guide ([A15](asset:A15)).
+**Offer it at the options stage.** A pre-wire package of circuits, boxes, blocking and a switch box can be offered even when the heaters are bought later, giving your buyers an outdoor space that is ready for warmth whenever they choose. See the builder programme and Good–Better–Best guide ([A15](asset:A15)).
 
-## The decision timeline
+## When each decision is made
 
 | Stage | Decide | Who |
 |---|---|---|
@@ -96,7 +96,7 @@ Fewer than one in four homeowners prioritize heating at planning[^s1]. The rest 
 | Rough inspection | Inspect before close-in | AHJ |
 | Trim-out | Heaters, recess kits, controllers, commissioning | Electrician, gas fitter |
 
-## What to rough in, by product
+## What to rough in for each product
 
 | Product | Fuel / rating | Rough-in | Mount provisions |
 |---|---|---|---|
@@ -107,15 +107,15 @@ Fewer than one in four homeowners prioritize heating at planning[^s1]. The rest 
 | Tungsten Gas (built-in), Platinum Gas | [[VERIFY: Btu/h — do not publish Tungsten built-in figure until confirmed]] | Gas stub-out and shut-off; [[VERIFY: any electrical supply for ignition/controls]] | Ceiling, wall; ceiling poles, heat deflectors |
 | Tungsten Smart-Heat Freestanding Gas | 38,000 Btu/h; natural gas or propane | Propane: none. Natural gas: [[VERIFY: quick-connect outlet requirement]] | None |
 
-Product facts: Bromic Lookbook 2026[^s2] and Planning Guide 2021[^s3]. Always build to the current installation manual for the model.
+Product facts come from the Bromic Lookbook 2026[^s2] and Planning Guide 2021[^s3]. Always build to the current installation manual for the model.
 
-## How many amps? The maths
+## Working out the amps
 
-**Step 1. Current per heater.** I = W ÷ V.
+**Step 1. Find the current per heater.** I = W ÷ V.
 
-**Step 2. Continuous load.** Fixed electric space-heating equipment is treated as a continuous load. NEC Article 424 requires branch-circuit conductors for it to be sized at not less than 125% of the load, consistent with the continuous-load rules in 210.19(A)(1) and 210.20(A)[^s5][^s4]. Feeder and service calculations follow Article 220.
+**Step 2. Allow for continuous load.** Fixed electric space-heating equipment is treated as a continuous load. NEC Article 424 requires branch-circuit conductors for it to be sized at not less than 125% of the load, consistent with the continuous-load rules in 210.19(A)(1) and 210.20(A)[^s5][^s4]. Feeder and service calculations follow Article 220.
 
-**Step 3. Circuit and breaker.** The electrician selects conductor and overcurrent device from the result, the installation manual and the adopted NEC.
+**Step 3. Choose the circuit and breaker.** The electrician selects conductor and overcurrent device from the result, the installation manual and the adopted NEC.
 
 | Heater | Amps at 208 V | × 1.25 | Amps at 240 V | × 1.25 |
 |---|---|---|---|---|
@@ -123,18 +123,18 @@ Product facts: Bromic Lookbook 2026[^s2] and Planning Guide 2021[^s3]. Always bu
 | 3400 W | 16.3 | 20.4 | 14.2 | 17.7 |
 | 4500 W | 21.6 | 27.0 | 18.8 | 23.4 |
 
-Rated wattage divided by voltage. A heater rated at 240 V draws less on 208 V; use the rating of the model specified. Commercial sites may also be offered 277 V[^s3].
+Each figure is rated wattage divided by voltage. A heater rated at 240 V draws less on 208 V, so use the rating of the model specified. Commercial sites may also be offered 277 V[^s3].
 
-**Worked example: three 3400 W heaters on 240 V.**
+**Worked example, three 3400 W heaters on 240 V.**
 - Per heater: 3400 ÷ 240 = 14.2 A; × 1.25 = 17.7 A.
-- All three on one controller output: 42.5 A; × 1.25 = 53.1 A minimum conductor ampacity – too much for one typical circuit, so split them.
+- All three on one controller output: 42.5 A; × 1.25 = 53.1 A minimum conductor ampacity – more than one typical circuit carries, so split them.
 - Panel: add 10.2 kW to the load calculation.
 
 [[VERIFY: (1) whether Bromic electric heaters are classified under NEC Art. 424 or Art. 422 by most AHJs; (2) the breaker size and maximum heaters per circuit stated in each installation manual; (3) the Affinity controller's maximum load per channel and whether it sits between breaker and heaters — Trade sales + licensed electrician]]
 
 [[DIAGRAM: Single-line diagram: panel → dedicated breakers → Affinity controller (one channel per zone) → junction boxes at heaters; wall switch and Wi-Fi shown; conductor sizes left blank for the electrician.]]
 
-## Where do the boxes and blocking go?
+## Placing the boxes and blocking
 
 | Item | Position | Note |
 |---|---|---|
@@ -146,11 +146,11 @@ Rated wattage divided by voltage. A heater rated at 240 V draws less on 208 V; u
 | Clearances | To combustibles, ceiling and sides, per manual | Do not interpolate between models |
 | Aim | Over seating, not the floor centre | Coordinate with furniture plan |
 
-![White heater between pergola louvres](img:l-010-076)
+![White heater set neatly between pergola louvres](img:l-010-076)
 
-## How do I frame for a recess kit?
+## Framing for a recess kit
 
-Recess kits flush-mount Platinum and Tungsten electric heaters into the ceiling cavity[^s3]. They need to be in the framing plan.
+Recess kits let Platinum and Tungsten electric heaters sit flush within the ceiling cavity[^s3], so the heater reads as part of the architecture. They need a place in the framing plan.
 
 | Dimension | Value |
 |---|---|
@@ -166,11 +166,11 @@ Recess kits flush-mount Platinum and Tungsten electric heaters into the ceiling 
 
 [[DIAGRAM: Reflected ceiling plan and section of a recess-kit opening between joists: header, blocking, junction box, cavity depth and clearance dimensions shown as callouts awaiting verified values.]]
 
-![Tungsten Coastal recessed flush into a white ceiling](img:l-005-022)
+![Tungsten Coastal (coming soon) recessed flush into a white ceiling](img:l-005-022)
 
-## Controls: what to run to the switch and controller
+## Running the controls to the switch and controller
 
-Controls are part of the system. Rough them in with the heater circuits.
+Affinity Smart-Heat® Controls are what let your buyers enjoy warmth exactly where, and when, they want it, so rough them in together with the heater circuits.
 
 | Run | From → to | Note |
 |---|---|---|
@@ -180,17 +180,17 @@ Controls are part of the system. Rough them in with the heater circuits.
 | Integration | Controller → home-automation panel | Control4, Crestron or Lutron; compatibility varies and may need extra hardware[^s2] |
 | Spare conduit | Heater zone → controller location | Allows later zones or integration without opening finishes |
 
-Specify the matching control for every heater: an Affinity Smart-Heat On/Off or Dimmer controller (Platinum, Tungsten electric) or Eclipse controller (Eclipse), plus a wall switch. Wi-Fi and Bromic Smart-Heat app features require compatible Affinity Smart-Heat Controls, sold separately[^s2]. Check Wi-Fi signal at the controller location before close-in.
+Specify the matching control for every heater: an Affinity Smart-Heat On/Off or Dimmer controller (Platinum, Tungsten electric) or Eclipse controller (Eclipse), plus a wall switch. Wi-Fi and Bromic Smart-Heat app features require compatible Affinity Smart-Heat Controls, sold separately[^s2]. Check the Wi-Fi signal at the controller location before close-in.
 
 ## Gas stub-outs for gas models
 
-- **Licensed gas fitter only.** Size, route and test the line to ANSI Z223.1/NFPA 54[^s6] and the local code.
-- **Size for the connected load.** Total Btu/h of all appliances on the line, run length and supply pressure. [[VERIFY: Btu/h input, inlet size and pressure for Platinum Gas and Tungsten Gas built-in — Product team]]
-- **Stub out and cap** at each heater location; provide an accessible shut-off.
-- **Mount provisions:** heat deflectors reduce the clearance needed above gas heaters; ceiling poles mount two heaters back to back[^s3]. Allow for both in the framing.
-- **Fuel at order:** natural gas or propane, confirmed before the heater is ordered.
+- **A licensed gas fitter sizes, routes and tests the line** to ANSI Z223.1/NFPA 54[^s6] and the local code.
+- **Size for the connected load**, using the total Btu/h of all appliances on the line, run length and supply pressure. [[VERIFY: Btu/h input, inlet size and pressure for Platinum Gas and Tungsten Gas built-in — Product team]]
+- **Stub out and cap** at each heater location, with an accessible shut-off.
+- **Allow for mount provisions.** Heat deflectors reduce the clearance needed above gas heaters; ceiling poles mount two heaters back to back[^s3]. Allow for both in the framing.
+- **Confirm the fuel**, natural gas or propane, before the heater is ordered.
 
-## What will the inspector check?
+## What the inspector will look for
 
 - [ ] Permits pulled for electrical and gas work
 - [ ] Circuits match the approved plan and load calculation
@@ -203,7 +203,7 @@ Specify the matching control for every heater: an Affinity Smart-Heat On/Off or 
 
 *This guide is general guidance, not an engineering or code determination. Confirm requirements with the local building authority. Electrical work by a licensed electrician to the adopted NFPA 70[^s4]; gas work by a licensed gas fitter to ANSI Z223.1/NFPA 54[^s6]; both to the manufacturer's installation instructions.*
 
-![Black heater on a timber cabana wall at dusk](img:l-010-074)
+![Black heater warming a timber cabana wall at dusk](img:l-010-074)
 
 ## Printable rough-in checklist
 
@@ -263,6 +263,6 @@ Specify the matching control for every heater: an Affinity Smart-Heat On/Off or 
 | Gas stub-outs (if any) | |
 | Installation manuals attached | Y / N |
 
-![Large pergola patio with outdoor kitchen and dining](img:t-012-034)
+![Large pergola patio with an outdoor kitchen and dining table](img:t-012-034)
 
-Book a design consult and get the layout, heater schedule and controls bundle before framing.
+Book a design consult and receive the layout, heater schedule and controls bundle before framing.

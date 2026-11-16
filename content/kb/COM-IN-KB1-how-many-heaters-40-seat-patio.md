@@ -42,7 +42,7 @@ sources:
     verified: false
 ---
 
-For overhead heaters the count follows the area; for freestanding heaters, plan on no more than four seats a heater. At 20 ft² a seat, 40 seats take about 800 ft².[^s3] Divide that by each overhead heater's coverage, adjusted for cover and climate, and round up: on a partly covered patio on cool evenings, seven Platinum 4500W (with Affinity On/Off or Dimmer controls and a wall switch) or eight Eclipse (with the Eclipse controller). Freestanding heaters need at least ten, one for every four seats.
+Overhead heaters are counted by area, and each freestanding heater warms no more than four seats. At 20 ft² a seat, 40 seats take about 800 ft².[^s3] Divide that by each overhead heater's coverage, adjusted for cover and climate, and round up: on a partly covered patio on cool evenings, seven Platinum 4500W (with Affinity On/Off or Dimmer controls and a wall switch) or eight Eclipse (with the Eclipse controller). Freestanding heaters need at least ten.
 
 ## Counting heaters for your seating
 
