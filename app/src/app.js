@@ -126,16 +126,16 @@
       'Overview': 'Übersicht', 'Library': 'Bibliothek', 'Blog': 'Blog', 'Downloads': 'Downloads', 'Journey': 'Customer Journey', 'Backlog': 'Backlog', 'Tools': 'Tools',
       'Case studies': 'Referenzen', 'Images': 'Bilder', 'Sources': 'Quellen', 'bromic.com': 'bromic.com', 'Review': 'Review',
       'Search content, keywords, sources': 'Inhalte, Stichwörter, Quellen suchen',
-      'Bromic Content Hub': 'Bromic Content Hub', 'Designed from the start, not added later.': 'Von Anfang an geplant, nicht nachträglich ergänzt.',
+      'Bromic Content Hub': 'Bromic Content Hub', 'Designed From The Start, Not Added Later.': 'Von Anfang an geplant, nicht nachträglich ergänzt.',
       'HERO': 'Alle Bromic-Inhalte, die Terrassenheizung früher ins Projekt bringen: in die Planung des Architekten, die Vorverkabelung des Bauunternehmers und das erste Budget des Bauherrn. Finden Sie sie nach Zielgruppe, nach Phase der Entscheidung oder nach Bedarf.',
-      'Start': 'Start', 'Assets': 'Inhalte', 'To do': 'Aufgaben', 'Find something to share': 'Inhalte zum Teilen finden', 'Approve and chase': 'Freigeben und nachfassen', 'Get a case study': 'Fallstudie finden', 'Find an image': 'Bild finden', 'This week': 'Diese Woche', 'What needs a person': 'Was jemanden braucht', 'ready to read and approve': 'bereit zum Lesen und Freigeben', 'waiting on a fact or a call': 'warten auf eine Angabe oder einen Anruf', 'approved, ready for 454 Creative': 'freigegeben, bereit für 454 Creative', 'PDFs ready to share': 'PDFs zum Teilen',
+      'Start': 'Start', 'Assets': 'Inhalte', 'To do': 'Aufgaben', 'Find something to share': 'Inhalte zum Teilen finden', 'Approve and chase': 'Freigeben und nachfassen', 'Get a case study': 'Fallstudie finden', 'Find an image': 'Bild finden', 'This week': 'Diese Woche', 'Ready For Your Review': 'Bereit zur Prüfung', 'ready to read and approve': 'bereit zum Lesen und Freigeben', 'waiting on a fact or a call': 'warten auf eine Angabe oder einen Anruf', 'approved, ready for 454 Creative': 'freigegeben, bereit für 454 Creative', 'PDFs ready to share': 'PDFs zum Teilen',
       'Who it is for': 'Für wen', 'Where they are': 'Wo sie stehen', 'What you need': 'Was Sie brauchen',
-      '01 · Who it is for': '01 · Für wen', 'Four audiences, four different questions': 'Vier Zielgruppen, vier verschiedene Fragen',
-      'Each audience gets content written for its job, not one brochure for everyone.': 'Jede Zielgruppe bekommt Inhalte für ihre Aufgabe, keine Einheitsbroschüre.',
-      '02 · Where they are': '02 · Wo sie stehen', 'From first idea to a working system': 'Von der ersten Idee bis zur laufenden Anlage',
-      'Every piece has one job at one stage, and one next step that moves the reader on.': 'Jeder Inhalt hat eine Aufgabe in einer Phase und einen nächsten Schritt.',
-      '03 · What you need': '03 · Was Sie brauchen', 'Read, download, use, prove': 'Lesen, herunterladen, nutzen, belegen',
-      'Start here': 'Hier beginnen', 'The flagship pieces': 'Die wichtigsten Inhalte', 'For the content team': 'Für das Content-Team',
+      '01 · Who it is for': '01 · Für wen', 'Made For Everyone Who Shapes The Outdoors': 'Für alle, die Außenräume gestalten',
+      'Homeowners, architects, builders and hospitality operators each find stories and guides written for the way they work.': 'Hausbesitzer, Architekten, Bauunternehmen und Gastronomen finden Geschichten und Ratgeber, die zu ihrer Arbeit passen.',
+      '02 · Where they are': '02 · Wo sie stehen', 'From First Sketch To First Warm Evening': 'Von der ersten Skizze bis zum ersten warmen Abend',
+      'Inspiration when the space is still an idea, and precise guidance as it comes to life.': 'Inspiration, solange der Raum noch eine Idee ist, und präzise Beratung, wenn er Gestalt annimmt.',
+      '03 · What you need': '03 · Was Sie brauchen', 'Everything You Need To Tell The Story': 'Alles, um die Geschichte zu erzählen',
+      'Start here': 'Hier beginnen', 'Signature Pieces': 'Unsere Highlights', 'For the content team': 'Für das Content-Team',
       'See the full map: every audience at every stage, with the question each piece answers': 'Die ganze Übersicht: jede Zielgruppe in jeder Phase, mit der Frage, die jeder Inhalt beantwortet',
       'Read and answer': 'Lesen und Antworten', 'Download': 'Herunterladen', 'Try a tool': 'Tool nutzen', 'Prove it': 'Belegen',
       'NEED_READ': 'Artikel, Antworten und Blogbeiträge, die gefunden und von KI-Suchen zitiert werden.',
@@ -163,16 +163,16 @@
       'Overview': 'Overzicht', 'Library': 'Bibliotheek', 'Blog': 'Blog', 'Downloads': 'Downloads', 'Journey': 'Klantreis', 'Backlog': 'Backlog', 'Tools': 'Tools',
       'Case studies': 'Referenties', 'Images': 'Beelden', 'Sources': 'Bronnen', 'bromic.com': 'bromic.com', 'Review': 'Review',
       'Search content, keywords, sources': 'Zoek content, trefwoorden, bronnen',
-      'Bromic Content Hub': 'Bromic Content Hub', 'Designed from the start, not added later.': 'Vanaf het begin ontworpen, niet achteraf toegevoegd.',
+      'Bromic Content Hub': 'Bromic Content Hub', 'Designed From The Start, Not Added Later.': 'Vanaf het begin ontworpen, niet achteraf toegevoegd.',
       'HERO': 'Alle Bromic-content die buitenverwarming eerder in het project brengt: in de tekening van de architect, de voorbekabeling van de aannemer en het eerste budget van de huiseigenaar. Zoek op doelgroep, op fase van de beslissing of op wat je nodig hebt.',
-      'Start': 'Start', 'Assets': 'Content', 'To do': 'Te doen', 'Find something to share': 'Iets vinden om te delen', 'Approve and chase': 'Goedkeuren en navragen', 'Get a case study': 'Een case study vinden', 'Find an image': 'Een beeld vinden', 'This week': 'Deze week', 'What needs a person': 'Wat iemand nodig heeft', 'ready to read and approve': 'klaar om te lezen en goed te keuren', 'waiting on a fact or a call': 'wacht op een gegeven of een telefoontje', 'approved, ready for 454 Creative': 'goedgekeurd, klaar voor 454 Creative', 'PDFs ready to share': "pdf's klaar om te delen",
+      'Start': 'Start', 'Assets': 'Content', 'To do': 'Te doen', 'Find something to share': 'Iets vinden om te delen', 'Approve and chase': 'Goedkeuren en navragen', 'Get a case study': 'Een case study vinden', 'Find an image': 'Een beeld vinden', 'This week': 'Deze week', 'Ready For Your Review': 'Klaar voor uw beoordeling', 'ready to read and approve': 'klaar om te lezen en goed te keuren', 'waiting on a fact or a call': 'wacht op een gegeven of een telefoontje', 'approved, ready for 454 Creative': 'goedgekeurd, klaar voor 454 Creative', 'PDFs ready to share': "pdf's klaar om te delen",
       'Who it is for': 'Voor wie', 'Where they are': 'Waar ze staan', 'What you need': 'Wat je nodig hebt',
-      '01 · Who it is for': '01 · Voor wie', 'Four audiences, four different questions': 'Vier doelgroepen, vier verschillende vragen',
-      'Each audience gets content written for its job, not one brochure for everyone.': 'Elke doelgroep krijgt content voor zijn eigen taak, geen brochure voor iedereen.',
-      '02 · Where they are': '02 · Waar ze staan', 'From first idea to a working system': 'Van eerste idee tot werkend systeem',
-      'Every piece has one job at one stage, and one next step that moves the reader on.': 'Elk stuk heeft één taak in één fase en één volgende stap.',
-      '03 · What you need': '03 · Wat je nodig hebt', 'Read, download, use, prove': 'Lezen, downloaden, gebruiken, bewijzen',
-      'Start here': 'Begin hier', 'The flagship pieces': 'De belangrijkste stukken', 'For the content team': 'Voor het contentteam',
+      '01 · Who it is for': '01 · Voor wie', 'Made For Everyone Who Shapes The Outdoors': 'Voor iedereen die buitenruimtes vormgeeft',
+      'Homeowners, architects, builders and hospitality operators each find stories and guides written for the way they work.': 'Huiseigenaren, architecten, bouwers en horecaondernemers vinden verhalen en gidsen die passen bij hun werk.',
+      '02 · Where they are': '02 · Waar ze staan', 'From First Sketch To First Warm Evening': 'Van eerste schets tot eerste warme avond',
+      'Inspiration when the space is still an idea, and precise guidance as it comes to life.': 'Inspiratie zolang de ruimte nog een idee is, en heldere begeleiding wanneer ze vorm krijgt.',
+      '03 · What you need': '03 · Wat je nodig hebt', 'Everything You Need To Tell The Story': 'Alles om het verhaal te vertellen',
+      'Start here': 'Begin hier', 'Signature Pieces': 'Onze hoogtepunten', 'For the content team': 'Voor het contentteam',
       'See the full map: every audience at every stage, with the question each piece answers': 'Bekijk het volledige overzicht: elke doelgroep in elke fase, met de vraag die elk stuk beantwoordt',
       'Read and answer': 'Lezen en antwoorden', 'Download': 'Downloaden', 'Try a tool': 'Probeer een tool', 'Prove it': 'Bewijs het',
       'NEED_READ': 'Artikelen, antwoorden en blogs die gevonden en door AI-zoekmachines geciteerd worden.',
@@ -327,7 +327,7 @@
     return `
     <section class="hero fp-hero">${img('l-022-201', '', false)}
       <div class="hero-in"><span class="flame-rule"></span><span class="label">Bromic Content Hub · ${esc(STR(R().name))}</span>
-        <h1>${esc(STR('Designed from the start, not added later.'))}</h1>
+        <h1>${esc(STR('Designed From The Start, Not Added Later.'))}</h1>
         <p>${lang === 'en' ? 'Every Bromic article, guide, calculator and case study in one place. Find what you need, see what it needs next, and share it with confidence.' : esc(STR('HERO'))}</p>
         <nav class="fp-ways" aria-label="What do you want to do?">
           <a href="#/library"><span>01</span>${esc(STR('Find something to share'))}</a>
@@ -337,7 +337,7 @@
         </nav></div>
     </section>
 
-    <section class="fp-sec fp-todo"><div class="fp-h"><span class="fp-k">${esc(STR('This week'))}</span><h2>${esc(STR('What needs a person'))}</h2></div>
+    <section class="fp-sec fp-todo"><div class="fp-h"><span class="fp-k">${esc(STR('This week'))}</span><h2>${esc(STR('Ready For Your Review'))}</h2></div>
       <div class="todo-glance">
         <a href="#/todo#approve"><b>${H.items.filter((i) => nextStep(i).k === 'approve' && i.status === 'draft').length}</b><span>${esc(STR('ready to read and approve'))}</span></a>
         <a href="#/todo#chase"><b>${H.items.filter((i) => nextStep(i).k === 'chase').length}</b><span>${esc(STR('waiting on a fact or a call'))}</span></a>
@@ -345,31 +345,31 @@
         <a href="#/downloads"><b>${pdfList().length}</b><span>${esc(STR('PDFs ready to share'))}</span></a>
       </div></section>
     <section id="fp-who" class="fp-sec">
-      <div class="fp-h"><span class="fp-k">${esc(STR('01 · Who it is for'))}</span><h2>${esc(STR('Four audiences, four different questions'))}</h2>
-        <p>${esc(STR('Each audience gets content written for its job, not one brochure for everyone.'))}</p></div>
+      <div class="fp-h"><span class="fp-k">${esc(STR('01 · Who it is for'))}</span><h2>${esc(STR('Made For Everyone Who Shapes The Outdoors'))}</h2>
+        <p>${esc(STR('Homeowners, architects, builders and hospitality operators each find stories and guides written for the way they work.'))}</p></div>
       <div class="fp-auds">${audCards}</div>
     </section>
 
     <section id="fp-where" class="fp-sec">
-      <div class="fp-h"><span class="fp-k">${esc(STR('02 · Where they are'))}</span><h2>${esc(STR('From first idea to a working system'))}</h2>
-        <p>${esc(STR('Every piece has one job at one stage, and one next step that moves the reader on.'))}</p></div>
+      <div class="fp-h"><span class="fp-k">${esc(STR('02 · Where they are'))}</span><h2>${esc(STR('From First Sketch To First Warm Evening'))}</h2>
+        <p>${esc(STR('Inspiration when the space is still an idea, and precise guidance as it comes to life.'))}</p></div>
       <div class="fp-journey">${stages}</div>
       <p class="fp-note"><a href="#/journey">${esc(STR('See the full map: every audience at every stage, with the question each piece answers'))} ${ic.arrow}</a></p>
     </section>
 
     <section id="fp-what" class="fp-sec">
-      <div class="fp-h"><span class="fp-k">${esc(STR('03 · What you need'))}</span><h2>${esc(STR('Read, download, use, prove'))}</h2></div>
+      <div class="fp-h"><span class="fp-k">${esc(STR('03 · What you need'))}</span><h2>${esc(STR('Everything You Need To Tell The Story'))}</h2></div>
       <div class="fp-needs">${needCards}</div>
     </section>
 
     <section class="fp-sec">
-      <div class="fp-h"><span class="fp-k">${esc(STR('Start here'))}</span><h2>${esc(STR('The flagship pieces'))}</h2></div>
+      <div class="fp-h"><span class="fp-k">${esc(STR('Start here'))}</span><h2>${esc(STR('Signature Pieces'))}</h2></div>
       <div class="grid">${flag.map(card).join('')}</div>
     </section>
 
     <section class="fp-team" aria-labelledby="fp-team-h">
       <div class="fp-team-h"><h2 id="fp-team-h">For the content team</h2>
-        <p>Drafts are ready for review. Nothing is published yet.</p></div>
+        <p>Every draft is ready for review, and nothing goes live until its team has signed off.</p></div>
       <div class="fp-team-stats">
         <a href="#/library"><b>${H.items.length}</b><span>pieces · ${gated} gated</span></a>
         <a href="#/review"><b>${inReview}</b><span>in review</span></a>
@@ -388,13 +388,13 @@
   // Every item sits on one shelf named for where it goes, and carries one next step in plain words.
   const INTERNAL = new Set(['A02-outline', 'A01-corrections', 'R-BLOG-AUDIT', 'R-SEO-AEO', 'CS-CANDIDATES', 'CS-TEMPLATE']);
   const SHELVES = [
-    { id: 'web', name: 'Website articles and answers', use: 'Pages for bromic.com that answer what people search for and ask AI assistants.', how: 'Publish on bromic.com', types: ['article', 'kb'] },
-    { id: 'lead', name: 'Downloads that capture leads', use: 'Reports and guides offered behind a form. Each has a finished PDF.', how: 'Put behind a form; share the PDF', types: ['report', 'gated-guide', 'stats-page'] },
-    { id: 'trade', name: 'Sales and trade kits', use: 'For reps, builders, contractors and specifiers: one-pagers, spec kits and program guides.', how: 'Hand to sales and the trade', types: ['sales-kit', 'spec-kit'] },
-    { id: 'tools', name: 'Calculators', use: 'Interactive tools that size a space, compare running costs or show the revenue case.', how: 'Embed on bromic.com', types: ['tool'] },
-    { id: 'proof', name: 'Case studies', use: 'Real installations: published stories, drafts to finish and web finds to confirm.', how: 'Complete, get consent, publish', types: ['case-study'] },
-    { id: 'blog', name: 'Blog rewrites', use: 'Rewrites of the posts already live on bromic.com/blog, each kept on its existing URL.', how: 'Replace the live post', types: ['blog'] },
-    { id: 'internal', name: 'Working documents', use: 'Audits, outlines, corrections and templates for the content team. Not for sharing.', how: 'Read for context', types: [] },
+    { id: 'web', name: 'Articles And Answers', use: 'Helpful, beautifully written answers to the questions people ask before they warm their outdoor space.', how: 'Publish on bromic.com', types: ['article', 'kb'] },
+    { id: 'lead', name: 'Guides And Reports', use: 'Trend reports and planning guides worth signing up for, each ready as a finished PDF.', how: 'Put behind a form; share the PDF', types: ['report', 'gated-guide', 'stats-page'] },
+    { id: 'trade', name: 'For Our Trade Partners', use: 'Everything our partners need, from builder programs and contractor guides to specification kits.', how: 'Hand to sales and the trade', types: ['sales-kit', 'spec-kit'] },
+    { id: 'tools', name: 'Design Tools', use: 'Interactive tools that size a space, compare running costs and show what a warmer patio is worth.', how: 'Embed on bromic.com', types: ['tool'] },
+    { id: 'proof', name: 'Project Stories', use: 'Real places, warmed by Bromic, told as stories your clients will recognise.', how: 'Complete, get consent, publish', types: ['case-study'] },
+    { id: 'blog', name: 'The Bromic Blog', use: 'Fresh versions of the stories already on bromic.com/blog, each staying at its familiar address.', how: 'Replace the live post', types: ['blog'] },
+    { id: 'internal', name: 'Behind The Scenes', use: 'Audits, outlines, corrections and templates for the content team. Not for sharing.', how: 'Read for context', types: [] },
   ];
   const SHELF = Object.fromEntries(SHELVES.map((x) => [x.id, x]));
   const shelfOf = (it) => (INTERNAL.has(it.id) || it.status === 'template' ? 'internal' : (SHELVES.find((x) => x.types.includes(it.type)) || SHELVES[0]).id);
@@ -434,8 +434,8 @@
     const ready = all.filter((i) => nextStep(i).k === 'approve' && i.status === 'draft').length;
     const chase = all.filter((i) => nextStep(i).k === 'chase').length;
     const go = all.filter((i) => nextStep(i).k === 'go').length;
-    return `<div class="ph"><div><span class="label">Assets</span><h1>Every Asset, Ready To Share</h1>
-      <p>Each shelf is a channel. Each row shows its status and its next step.</p></div>
+    return `<div class="ph"><div><span class="label">Assets</span><h1>Everything You Need, Beautifully Organized</h1>
+      <p>Every guide, story and tool in its place, with a clear next step for each one.</p></div>
       <a class="btn" href="#/todo">${ic.arrow}Open my to-do</a></div>
       <div class="todo-glance">
         <a href="#/todo#approve"><b>${ready}</b><span>ready to read and approve</span></a>
@@ -470,8 +470,8 @@
     const everyone = [...new Set([...H.items.map((i) => i.owner_review).filter(Boolean).flatMap((o) => o.split(/ \+ /)), ...H.items.flatMap(people), '454 Creative'])].filter((x) => ROLES.has(x) || /^Bromic /.test(x)).filter((x) => !/VERIFY/.test(x)).sort();
     const steps = [['Draft', live.filter((i) => i.status === 'draft').length], ['Facts answered', live.filter((i) => i.status === 'draft' && nextStep(i).k === 'approve').length], ['Approved', live.filter((i) => i.status === 'approved').length], ['Laid out by 454 Creative', 0], ['Live on bromic.com', live.filter((i) => i.status === 'published').length]];
     const list = (its, empty) => (its.length ? `<div class="arows">${its.map(row).join('')}</div>` : `<div class="empty">${empty}</div>`);
-    return `<div class="ph"><div><span class="label">To do</span><h1>${me ? 'To do: ' + esc(me) : 'What Needs Your Sign-Off'}</h1>
-      <p>Answer the open facts. Approve the draft. 454 Creative lays it out for bromic.com.</p></div>
+    return `<div class="ph"><div><span class="label">To do</span><h1>${me ? 'To do: ' + esc(me) : 'Ready For Your Review'}</h1>
+      <p>Once the open facts are answered and a draft is approved, 454 Creative brings it to life on bromic.com.</p></div>
       <label class="who-pick"><span class="label">Show the to-do for</span><select id="me"><option value="">Every team</option>${everyone.map((p) => `<option ${p === me ? 'selected' : ''}>${esc(p)}</option>`).join('')}</select></label></div>
       <ol class="flow">${steps.map(([t, n], k) => `<li><span class="flow-n">${k + 1}</span><b>${esc(t)}</b><span>${n}</span></li>`).join('')}</ol>
       <section class="todo-sec" id="approve"><div class="todo-h"><h2>Read and approve</h2><p>${approve.length} with no open facts. Open one, read it, and press <b>Approve</b> on the page.</p></div>${list(approve.slice(0, 40), 'Nothing waiting for approval.')}</section>
@@ -618,7 +618,7 @@
           <ul class="list" style="margin-top:6px">${its.map((i) => `<li><a href="#/item/${esc(i.id)}"><span class="t" style="font-size:15px">${esc(i.title)}</span><span class="chip">${esc(TYPES[i.type])}</span></a></li>`).join('') || '<li><span class="row gap">No content yet. The anchor article is the gap.</span></li>'}</ul>
         </div></section>`;
     }
-    return `<div class="ph"><div><span class="label">Journey map</span><h1>Four audiences, five stages, twenty jobs</h1>
+    return `<div class="ph"><div><span class="label">Journey map</span><h1>The Journey To A Warmer Evening</h1>
       <p>Each cell is a buyer moment: what hurts, what we can own, the question they ask an AI, and the asset that converts it. Select a cell.</p></div></div>
       ${matrixGrid(cellId)}${detail}
       ${H.matrix.source === 'reconstructed' ? `<p class="muted" style="font-size:12px;margin-top:16px">Cells reconstructed from the handover brief. Replace <code>data/journey-matrix.json</code> with the original when available. Keywords are directional, pending validation.</p>` : ''}`;
@@ -634,13 +634,13 @@
         <td>${its.length ? its.map((i) => `<a href="#/item/${esc(i.id)}">${esc(i.id)}</a>${hasPdf(i) ? ` · <a href="pdf/${esc(i.id)}.pdf" download="Bromic-${esc(i.id)}.pdf">PDF</a>` : ''}`).join('<br>') : '<span class="gap" style="color:var(--flame-ink)">—</span>'}</td></tr>`;
     }).join('');
     setTimeout(() => id && document.getElementById('a-' + id)?.scrollIntoView({ block: 'center' }), 30);
-    return `<div class="ph"><div><span class="label">Build backlog</span><h1>A01–A24</h1><p>Priority 1 first. Draft content is linked; a dash is a gap.</p></div></div>
+    return `<div class="ph"><div><span class="label">Build backlog</span><h1>The Asset Plan</h1><p>Priority 1 first. Draft content is linked; a dash is a gap.</p></div></div>
       <div class="tbl-wrap"><table class="data"><thead><tr><th>ID</th><th>Pri</th><th>Asset</th><th>Type</th><th>Audience</th><th>Lifecycle</th><th>Access</th><th>Status</th><th>Reviewer</th><th>Content</th></tr></thead><tbody>${rows}</tbody></table></div>`;
   }
 
   function tools() {
     const cards = H.items.filter((i) => i.type === 'tool');
-    return `<div class="ph"><div><span class="label">Tools</span><h1>Calculators that qualify the lead</h1><p>Result on screen as a teaser; the full report sits behind the lead form. Every assumption lives in the tool's <code>config.json</code>.</p></div></div>
+    return `<div class="ph"><div><span class="label">Tools</span><h1>Plan Your Space</h1><p>Result on screen as a teaser; the full report sits behind the lead form. Every assumption lives in the tool's <code>config.json</code>.</p></div></div>
     <div class="grid">${H.tools.map((t) => { const c = cards.find((i) => t.startsWith(i.asset || '#')) || {}; return `<a class="card" href="#/tool/${esc(t)}"><div class="ph-img">${img(c.hero || 't-009-025')}</div><div class="body"><span class="label">Tool · ${esc(t.split('-')[0])}</span><h3>${esc(c.title || t)}</h3>${c.summary ? `<p>${esc(c.summary)}</p>` : ''}<div class="meta"><span>Open ${ic.arrow.replace('<svg', '<svg width="12" height="12" style="fill:none;stroke:currentColor;stroke-width:1.8;vertical-align:-1px"')}</span></div></div></a>`; }).join('') || '<div class="empty">No tools built yet.</div>'}</div>`;
   }
   function tool(t) {
@@ -657,7 +657,7 @@
     const srcs = [...new Set(H.images.map((i) => i.source))];
     const list = H.images.filter((i) => (!imgFilter.product || i.product.startsWith(imgFilter.product)) && (!imgFilter.aud || i.audiences.includes(imgFilter.aud) || i.audiences.includes('ALL')) && (!imgFilter.src || i.source === imgFilter.src));
     const sel = (k, opts, label) => `<label class="muted" style="font-size:13px">${label} <select data-imgf="${k}"><option value="">All</option>${opts.map((o) => `<option ${imgFilter[k] === o ? 'selected' : ''}>${esc(o)}</option>`).join('')}</select></label>`;
-    return `<div class="ph"><div><span class="label">Image library</span><h1>Bromic photography, tagged for reuse</h1><p>bromic.com photography (case studies, gallery, product pages), the Lookbook 2026, Trends 2026 and the 2021 Planning Guide. Order of preference: bromic.com → Bromic asset library → Bromic publications → generated, labelled.</p></div></div>
+    return `<div class="ph"><div><span class="label">Image library</span><h1>The Bromic Image Library</h1><p>bromic.com photography (case studies, gallery, product pages), the Lookbook 2026, Trends 2026 and the 2021 Planning Guide. Order of preference: bromic.com → Bromic asset library → Bromic publications → generated, labelled.</p></div></div>
       <div class="callout"><b>bromic.com:</b> <code>python3 scripts/bromic_site_images.py fetch</code> pulls every image the site inventory names; <code>sheets</code> makes contact sheets to look at; <code>ingest</code> adds the kept ones with their page link. Rights stay [[VERIFY]] until Marketing confirms.</div>
       <div class="callout"><b>Add images:</b> drop files into <code>images/inbox/</code> in the Bromic_Marketing repo, then run <code>python3 scripts/ingest_images.py</code> — they are resized, tagged and appear here on the next build.</div>
       <div class="toolbar"><span class="muted">${list.length} images</span><span class="btns">${sel('product', prods, 'Product')}${sel('aud', AK, 'Audience')}${sel('src', srcs, 'Source')}</span></div>
@@ -688,7 +688,7 @@
     }
     const list = [...map.values()].filter((s) => !searchTerm || (s.publisher + s.title + s.supports).toLowerCase().includes(searchTerm)).sort((a, b) => b.by.length - a.by.length || String(a.publisher).localeCompare(b.publisher));
     const v = list.filter((s) => s.verified).length;
-    return `<div class="ph"><div><span class="label">Sources</span><h1>Every claim, mapped to where it came from</h1><p>${list.length} distinct sources · ${v} verified · ${list.length - v} awaiting a reviewer. A statistic without a verified source does not ship.</p></div></div>
+    return `<div class="ph"><div><span class="label">Sources</span><h1>Our Sources</h1><p>${list.length} distinct sources · ${v} verified · ${list.length - v} awaiting a reviewer. A statistic without a verified source does not ship.</p></div></div>
       <div class="tbl-wrap"><table class="data"><thead><tr><th>Publisher</th><th>Source</th><th>Year</th><th>Supports</th><th>Status</th><th>Cited by</th></tr></thead><tbody>
       ${list.map((s) => `<tr><td><b>${esc(s.publisher)}</b></td><td>${s.url && /^https?:/.test(s.url) ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title || s.url)}</a>` : esc(s.title || s.url || '')}</td><td>${esc(s.year || '')}</td><td style="max-width:320px">${esc(s.supports || '')}</td><td>${s.verified ? '<span class="chip ok">Verified</span>' : '<span class="chip warn">Verify</span>'}</td><td>${[...new Set(s.by)].map((b) => `<a href="#/item/${esc(b)}">${esc(b)}</a>`).join(' ')}</td></tr>`).join('')}
       </tbody></table></div>`;
@@ -699,7 +699,7 @@
     const byOwner = {};
     for (const it of H.items) (byOwner[it.owner_review || 'Unassigned'] ||= []).push(it);
     const top = [...H.items].filter((i) => i.verifies.length || unverified(i)).sort((a, b) => (b.verifies.length + unverified(b)) - (a.verifies.length + unverified(a)));
-    return `<div class="ph"><div><span class="label">Review</span><h1>What needs a human before it ships</h1><p>Nothing here is published. Owners sign off; 454 Creative lays out; WordPress follows.</p></div></div>
+    return `<div class="ph"><div><span class="label">Review</span><h1>Review At A Glance</h1><p>Each draft is signed off by its team, laid out by 454 Creative and then published on bromic.com.</p></div></div>
       <div class="kanban">${STATUSES.map((s) => `<a class="col" href="${libHref({ status: s })}" style="text-decoration:none"><span class="label">${s.replace('-', ' ')}</span><b>${col(s)}</b></a>`).join('')}</div>
       <div class="two"><div><div class="sec-h"><h2>By reviewer</h2></div><ul class="list">${Object.entries(byOwner).sort((a, b) => b[1].length - a[1].length).map(([o, its]) => `<li><span class="row"><span class="t" style="font-size:16px">${esc(o)}</span><span class="muted">${its.length} items · ${its.reduce((n, i) => n + i.verifies.length, 0)} flags</span></span></li>`).join('')}</ul></div>
       <div><div class="sec-h"><h2>Most to verify</h2></div><ul class="list">${top.slice(0, 12).map((i) => `<li><a href="#/item/${esc(i.id)}"><span class="t" style="font-size:15px">${esc(i.title)}</span><span class="vcount" style="font-size:13px;white-space:nowrap">${i.verifies.length} flags · ${unverified(i)} sources</span></a></li>`).join('')}</ul></div></div>
@@ -714,7 +714,7 @@
   const pdfBtn = (it, label = 'Download PDF') => `<a class="btn primary" href="${pdfHref(it)}" download="Bromic-${esc(it.id)}${it.tr && it.lang !== 'en' ? '-' + it.lang : ''}.pdf">${ic.down}${label}</a>`;
   function downloadsPage() {
     const L = pdfList();
-    return `<div class="ph"><div><span class="label">Downloads</span><h1>Reports, guides and kits as PDFs</h1><p>${L.length} documents, rebuilt from the latest content at every update. Each opens with a cover and carries its sources and one next step.</p></div></div>
+    return `<div class="ph"><div><span class="label">Downloads</span><h1>Guides, Reports And Kits To Share</h1><p>${L.length} documents, rebuilt from the latest content at every update. Each opens with a cover and carries its sources and one next step.</p></div></div>
       <div class="dl-grid">${L.map((it) => `<article class="dl-card"><a class="dl-cover" href="#/item/${esc(it.id)}">${img(it.hero)}</a>
         <div class="dl-body"><span class="label">${esc(TYPES[it.type] || it.type)} · ${it.audience.map((a) => esc(AUD[a]?.name || a)).join(', ')}</span>
         <h3><a href="#/item/${esc(it.id)}">${esc(it.title)}</a></h3>${it.meta_description || it.summary ? `<p>${esc(it.meta_description || it.summary)}</p>` : ''}
@@ -733,7 +733,7 @@
     const pill = { post: '<span class="chip solid">New post</span>', merged: '<span class="chip">Merged, 301</span>', article: '<span class="chip ok">Hub article</span>', retired: '<span class="chip warn">Retire / unpublish</span>', todo: '<span class="chip warn">Not yet written</span>' };
     const tgt = (r) => { const id = r.post || r.into || r.article; const it = id && ITEM[id]; return it ? `<a href="#/item/${esc(id)}">${esc(id)} · ${esc(it.title)}</a>${r.into ? ' <span class="muted">(merged into)</span>' : ''}<br><span class="muted" style="font-size:12.5px">${esc(it.status)} · ${it.words.toLocaleString()} words${it.verifies.length ? ` · <span class="vcount">${it.verifies.length} to verify</span>` : ''}</span>` : `<span class="muted">${esc(r.why).slice(0, 140)}</span>`; };
     const words = posts.reduce((a, i) => a + i.words, 0);
-    return `<div class="ph"><div><span class="label">Blog</span><h1>bromic.com/blog, rewritten post by post</h1><p>${P.length} live posts become ${after}: each keeps its URL (the SEO plan recovers existing pages rather than adding new ones), merged posts redirect into the strongest one, and every rewrite follows the answer-first template with its controls, sources and one next step.</p></div></div>
+    return `<div class="ph"><div><span class="label">Blog</span><h1>The Bromic Blog, Renewed</h1><p>${P.length} live posts become ${after}: each keeps its URL (the SEO plan recovers existing pages rather than adding new ones), merged posts redirect into the strongest one, and every rewrite follows the answer-first template with its controls, sources and one next step.</p></div></div>
       <div class="stats"><div class="stat"><span class="label">Live today</span><b>${P.length}</b><span class="sub">posts on bromic.com/blog</span></div>
         <div class="stat"><span class="label">New posts written</span><b>${n('post')}</b><span class="sub">${words.toLocaleString()} words, drafts for review</span></div>
         <div class="stat"><span class="label">Merged</span><b>${n('merged')}</b><span class="sub">301 into a stronger post</span></div>
@@ -777,7 +777,7 @@
     const list = csList();
     const groupSel = (g) => `<label class="muted" style="font-size:13px">${esc(CS.tax.groups[g].label)} <select data-csf="${g}"><option value="">All</option>${CS.tax.groups[g].tags.filter((t) => CS.records.some((r) => (r.tags[g] || []).includes(t.id))).map((t) => `<option value="${t.id}" ${(csF[g] || [])[0] === t.id ? 'selected' : ''}>${esc(t.label)}</option>`).join('')}</select></label>`;
     const nW = CS.records.filter((r) => r.kind === 'case-study').length, nP = CS.records.filter((r) => r.kind === 'project' && !r.written_as).length, nWeb = CS.records.filter((r) => r.kind === 'web-find').length;
-    return `<div class="ph"><div><span class="label">Case studies</span><h1>Every Bromic project, tagged the way sales sells it</h1><p>${nW} written case studies (US, Australia, Europe, marine) and ${nP} photographed projects never written up, from bromic.com, bromic.com.au and bromic.ca, plus ${nWeb} installations found on the open web (venues, installers, press), each with its sources. Tag by segment, space, install, product, controls, theme, market and proof; the collections are the sales deck's.</p></div></div>
+    return `<div class="ph"><div><span class="label">Case studies</span><h1>Spaces We've Brought To Life</h1><p>Rooftop bars in London, harbourside restaurants in Sydney, superyachts, mountain lodges and family homes – ${nW} stories told, ${nP} beautifully photographed projects still waiting for their story, and ${nWeb} more discovered across the web. Find the space that looks most like your client's next project, and let it do the persuading.</p></div></div>
       ${csTabs('')}
       <div class="sec-h"><h2>Collections</h2></div><div class="cs-colls">${CS.collections.map((c) => { const n = CS.records.filter((r) => matchQ(r, c.query) || (c.named || []).includes(r.id)).length; const r0 = CS.records.find((r) => ((c.named || []).includes(r.id) || matchQ(r, c.query)) && r.images?.length); const im = r0 && IMG[r0.images[0]];
         return `<button class="cs-coll ${csColl === c.id ? 'on' : ''}" data-cscoll="${c.id}">${im ? `<img src="${im.thumb}" alt="" loading="lazy">` : ''}<span><b>${esc(c.title)}</b><br><i>${esc(c.place)}</i><br><span class="muted">${n} on the sites${(c.deck_only || []).length ? ` · ${c.deck_only.length} deck-only to capture` : ''}</span></span></button>`; }).join('')}</div>
@@ -807,7 +807,7 @@
       return `<td class="ws ${cls} ${c.target ? 't-' + c.target.priority : ''}"><button data-ws="${sg.id}|${m}" aria-label="${esc(sg.label)}, ${esc(m)}: ${c.written.length} written, ${c.photos.length} photo-only${c.target ? ', ' + c.target.priority + ' target' : ''}">${lab}</button></td>`; }).join('')}</tr>`).join('');
     const fsel = (g) => `<label class="muted" style="font-size:13px">${esc(CS.tax.groups[g].label)} <select data-wsf="${g}"><option value="">Any</option>${CS.tax.groups[g].tags.map((t) => `<option value="${t.id}" ${wsF[g] === t.id ? 'selected' : ''}>${esc(t.label)}</option>`).join('')}</select></label>`;
     const owner = CS.targets.filter((t) => t.priority === 'owner'), sugg = CS.targets.filter((t) => t.priority !== 'owner');
-    return `<div class="ph"><div><span class="label">Case-study whitespace</span><h1>What sales can't show a prospect yet</h1><p>${covered} of ${total} segment × market cells have a written case study. Dark: written · mid: photos only, never written up · outlined: priority to fill. Filter by product, space or install to find narrower gaps ("no pergola story in Australia").</p></div>
+    return `<div class="ph"><div><span class="label">Case-study whitespace</span><h1>Stories Still To Tell</h1><p>${covered} of ${total} segment × market cells have a written case study. Dark: written · mid: photos only, never written up · outlined: priority to fill. Filter by product, space or install to find narrower gaps ("no pergola story in Australia").</p></div>
       <div class="btns"><button class="btn" data-wscsv>${FRAMED ? ic.copy + 'Copy CSV' : ic.down + 'Download CSV'}</button></div></div>
       ${csTabs('whitespace')}
       <div class="toolbar"><span class="muted">Click a cell for what exists or the outreach brief.</span><span class="btns">${fsel('product')}${fsel('space')}${fsel('install')}</span></div>
@@ -838,7 +838,7 @@
   function casesPage(sub) {
     const [k, qs] = (location.hash.split('/cases/')[1] || '').split('?');
     if (k === 'whitespace') return csWhitespace();
-    if (k === 'capture') return `<div class="ph"><div><span class="label">Case studies</span><h1>Capture a project</h1><p>For sales and marketing on site: the property, the people, products and controls, results, photos and every approval. It saves in your browser until you download the record.</p></div>
+    if (k === 'capture') return `<div class="ph"><div><span class="label">Case studies</span><h1>Share A Project With Us</h1><p>Standing in a space that Bromic warms? Capture the place, the people, the heaters and controls, the photographs and the approvals while it is all in front of you. It saves as you go, until you download the record.</p></div>
       <div class="btns"><a class="btn" href="tools/CS-capture/index.html?${FRAMED ? 'framed=1&' : ''}${qs || ''}" target="_blank" rel="noopener">${ic.ext}Open full page</a></div></div>${csTabs('capture')}
       <iframe class="tool-frame" style="min-height:1400px" src="tools/CS-capture/index.html?embed=1${FRAMED ? '&framed=1' : ''}${qs ? '&' + qs : ''}" title="Case-study capture"></iframe>`;
     return csLibrary();
@@ -858,7 +858,7 @@
     const kinds = Object.keys(KINDS).filter((k) => S.some((r) => r.kind === k));
     const sel = (k, opts, label, names = {}) => `<label class="muted" style="font-size:13px">${label} <select data-sitef="${k}"><option value="">All</option>${opts.map((o) => `<option value="${esc(o)}" ${siteF[k] === o ? 'selected' : ''}>${esc(names[o] || o)}</option>`).join('')}</select></label>`;
     const nIssues = words.reduce((n, r) => n + r.issues.length, 0);
-    return `<div class="ph"><div><span class="label">bromic.com</span><h1>What the live site already says</h1><p>${words.length} pages and ${S.length - words.length} gallery photos read on 29 Oct 2026, summarised in our words, mapped to audience and stage. ${nIssues} issues logged. Figures quoted here are leads to check on the live page, not sources.</p></div></div>
+    return `<div class="ph"><div><span class="label">bromic.com</span><h1>bromic.com Today</h1><p>${words.length} pages and ${S.length - words.length} gallery photos read on 29 Oct 2026, summarised in our words, mapped to audience and stage. ${nIssues} issues logged. Figures quoted here are leads to check on the live page, not sources.</p></div></div>
       <div class="two"><div><div class="sec-h"><h2>Coverage by journey cell</h2></div>
       <div class="tbl-wrap"><table class="data heat"><thead><tr><th></th>${SK.map((s) => `<th>${esc(STG[s].name)}</th>`).join('')}</tr></thead><tbody>
       ${AK.map((a) => `<tr><th>${esc(AUD[a].name)}</th>${SK.map((s) => { const n = cnt(a, s); return `<td><button class="cellbtn" data-sitecell="${a}|${s}" style="background:rgba(239,65,35,${(n / max * 0.55).toFixed(2)})">${n}</button></td>`; }).join('')}</tr>`).join('')}

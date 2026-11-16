@@ -31,5 +31,34 @@ earlier "sentence case, Georgia" rule.
 - **Colour:** white pages, ink #231F20, steel greys, flame #EF4123 for small labels and rules only. Photographs full-bleed and warm.
 - **People:** the Hub names teams (data/team-roles.json), never staff.
 
+
+## The dry voice we are replacing (owner, 16 Nov 2026)
+
+The owner's example of what has to go: "Every Bromic project, tagged the way sales sells it." It is accurate, clipped and cold: a
+list of facts told to a colleague. Bromic writes to a person about an evening outdoors, and only then about the engineering.
+
+| Not this (dry, mechanical) | Write this (Bromic) |
+|---|---|
+| Every Bromic project, tagged the way sales sells it | Spaces We've Brought To Life |
+| The patio is standard. Heat is the gap. | Most new homes now come with a patio. Far fewer come with the warmth to enjoy it once the sun goes down. |
+| Heat is what lets them stay out. | Radiant warmth turns a cool evening into one more hour around the table. |
+| Voltage. Tungsten runs on 208 V and 240 V. | Tungsten Smart-Heat® Electric is engineered for the supply you already have, from 208 V and 240 V homes to 277 V commercial buildings. |
+| Controls are part of every heater. | Every Bromic heater is paired with Affinity Smart-Heat® Controls, so the warmth is always exactly where, and when, you want it. |
+| What we see go wrong on outdoor jobs | Getting It Right The First Time |
+| Calculators that qualify the lead | Plan Your Space |
+
+**Write like this**
+- **Open with the moment, then the proof.** The evening, the table, the view, the guests staying longer; then the product, the number and the source.
+- **Warm, confident, polished.** Premium design language: crafted, engineered, seamless, refined, effortless, precise directional heat, year-round, season after season, your outdoor space, outdoor living. Use them where they are true; never stack them.
+- **Let sentences breathe.** Mix one short display line with sentences of 15–30 words. Not a string of five-word statements.
+- **Speak to the reader.** "You" and "your space"; "we" for Bromic. Never "the reader", "content", "asset", "piece" or "lead" in reader-facing copy.
+- **Headings are invitations, not labels:** "Designed Around The Way You Entertain", not "Placement rules".
+- **Avoid the machine tells:** "X, not Y" antitheses; triplets for rhythm; one-word sentences ("Simple."); colon openers ("Voltage. …", "The fix: …"); "Here is…", "In short", "That's the gap"; rhetorical questions answered at once; long dashes.
+
+**What never changes when the voice changes**
+Every fact, number, product name, `[^sN]` citation, `[[VERIFY: …]]` note, image line `![…](img:…)`, link, table value, FAQ answer,
+controls statement and disclaimer stays, with the same meaning. A table stays a table. Front matter stays, except `title`, `summary`,
+`dek` and `meta_description`, which follow the new voice (meta 155 characters at most; keep the primary keyword in title and meta).
+
 ## Checks
 `app/test/content.mjs` warns on a long dash in body copy and on an exclamation mark. Fix the line; do not silence the warning.
