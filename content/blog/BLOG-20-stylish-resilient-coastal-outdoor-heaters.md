@@ -1,7 +1,7 @@
 ---
 id: BLOG-20
 type: blog
-title: "Outdoor heaters for coastal homes: what survives salt air"
+title: "Built For Life By The Water: Choosing A Coastal Outdoor Heater"
 slug: stylish-resilient-coastal-outdoor-heaters
 live_url: https://www.bromic.com/blog/stylish-resilient-coastal-outdoor-heaters/
 action: merge-target
@@ -10,11 +10,11 @@ audience: [RES, ARC]
 stage: [CO]
 cell: RES-CO
 asset: A24
-summary: "Why salt air attacks ordinary heaters, why 316 stainless steel resists it better than 304, and what Platinum Smart-Heat Electric Marine offers a coastal home or a vessel: 316 stainless, IPX5, Lloyd's Register approval, and a warranty that differs on land and at sea. Tungsten Coastal is coming soon."
+summary: "Why salt air is so hard on ordinary heaters, why 316 stainless steel resists it better than 304, and what Platinum Smart-Heat Electric Marine brings to a coastal home or a vessel: 316 stainless, IPX5, Lloyd's Register approval and a warranty that differs on land and at sea. Tungsten Coastal is coming soon."
 primary_keyword: coastal outdoor heater
 secondary_keywords: [marine grade patio heater, 316 stainless steel heater, outdoor heater salt air, corrosion resistant patio heater]
 ai_prompt: "What is the best outdoor heater for a home near the ocean?"
-meta_description: "Salt air corrodes ordinary heaters. Why 316 stainless matters, and what Platinum Smart-Heat Electric Marine offers coastal homes and vessels."
+meta_description: "Salt air corrodes ordinary heaters. Why 316 stainless matters in a coastal outdoor heater, and what Platinum Smart-Heat Electric Marine offers by the sea."
 cta: {label: "Size your space", asset: A03}
 hero: w-bromic-platinum-electric-marine-patio-heater
 owner_review: Marketing
@@ -23,7 +23,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [BLOG-19, RES-CO-01, RES-PP-KB1, RES-CO-KB1]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -76,15 +76,15 @@ sources:
     verified: true
 ---
 
-The best outdoor heater for a coastal home is one built from marine-grade 316 stainless steel, sealed against spray and mounted under cover. Salt air corrodes ordinary metals fast. Bromic's answer today is Platinum Smart-Heat Electric Marine: AISI 316 stainless, an IPX5 rating and Lloyd's Register approval for marine use.[^s1] Tungsten Smart-Heat Electric Coastal (coming soon) will add a second option in 316 stainless.[^s6]
+Evenings by the sea deserve warmth that lasts as long as the view, and the coastal outdoor heater that delivers it is crafted from marine-grade 316 stainless steel, sealed against spray and mounted under cover. Salt air corrodes ordinary metals quickly. Bromic's answer today is Platinum Smart-Heat Electric Marine, with AISI 316 stainless, an IPX5 rating and Lloyd's Register approval for marine use.[^s1] Tungsten Smart-Heat Electric Coastal (coming soon) will add a second option in 316 stainless.[^s6]
 
-![Open living pavilion facing a harbour with six white Platinum Electric Marine heaters recessed in a ceiling tray](img:w-bromic-platinum-electric-marine-patio-heater)
+![An open living pavilion facing a harbour, with six white Platinum Electric Marine heaters recessed in a ceiling tray](img:w-bromic-platinum-electric-marine-patio-heater)
 
-## Why does salt air ruin ordinary heaters?
+## Why Salt Air Is So Hard On Ordinary Heaters
 
-Salt carried on spray and onshore wind settles on metal and holds moisture against it. On ordinary steel, and even on lower grades of stainless, that leads to rust spots and the brown film known as tea staining.[^s3] Surfaces under a roof are protected from spray but are never rinsed by rain, so salt builds up there unless someone wipes it off.[^s3] Exposure varies with wind, surf and climate, so treat any home within sight or smell of the sea as a coastal site. Bromic's Planning Guide lists proximity to water as one of the first things to plan around.[^s7]
+Salt carried on spray and onshore wind settles on metal and holds moisture against it. On ordinary steel, and even on lower grades of stainless, that leads to rust spots and the brown film known as tea staining.[^s3] Surfaces under a roof are sheltered from spray yet never rinsed by rain, so salt builds up there unless someone wipes it away.[^s3] Exposure varies with wind, surf and climate, so treat any home within sight or smell of the sea as a coastal site. Bromic's Planning Guide lists proximity to water among the first things to plan around.[^s7]
 
-## 304 or 316 stainless: what is the difference?
+## Choosing Between 304 And 316 Stainless
 
 | | 304 stainless | 316 stainless |
 |---|---|---|
@@ -93,9 +93,9 @@ Salt carried on spray and onshore wind settles on metal and holds moisture again
 | Where it fits | Inland and sheltered sites | Coastal homes, marinas, vessels |
 | Bromic heaters | Platinum Smart-Heat Electric (304 chassis) | Platinum Smart-Heat Electric Marine; Tungsten Coastal (coming soon)[^s1][^s6] |
 
-316 is more resistant, not immune. It still needs cleaning.
+316 is far more resistant to salt, though like any fine metal it still asks for regular cleaning.
 
-## Platinum Smart-Heat Electric Marine at a glance
+## Platinum Smart-Heat Electric Marine At A Glance
 
 | Output | Coverage (approx.) | Weight |
 |---|---|---|
@@ -103,45 +103,45 @@ Salt carried on spray and onshore wind settles on metal and holds moisture again
 | 3400 W | 108 ft² | 22 lb |
 | 4500 W | 143 ft² | 33 lb |
 
-- **Body:** AISI 316 marine-grade stainless steel, fully enclosed.[^s1] One FAQ on the product page says "314"; the rest of the page says 316. [[VERIFY: correct the 314 typo on the product page — Product team]]
+- **Body:** AISI 316 marine-grade stainless steel, fully enclosed.[^s1] One FAQ on the product page says "314", while the rest of the page says 316. [[VERIFY: correct the 314 typo on the product page — Product team]]
 - **Water:** IPX5, protected against low-pressure water jets from any direction. See [what IP ratings mean](item:BLOG-19).[^s1]
-- **Supply:** 220–240 V or 208 V. Minimum mounting height 72 in on a wall, 96 in on a ceiling.[^s1]
+- **Supply:** 220–240 V or 208 V, with a minimum mounting height of 72 in on a wall and 96 in on a ceiling.[^s1]
 - **Marine approval:** Bromic describes it as the first outdoor heater series approved by Lloyd's Register for marine applications, certified to ENV5.[^s1][^s5] [[VERIFY: Lloyd's Register certificate number and the "first" claim — Product team]]
 - **Finish:** Black or White. Mount it on a wall or ceiling, or recess it with the [Low Clearance Recess Kit](https://www.bromic.com/product/platinum-electric-low-clearance-recess-kit/).
 
-**Controls.** Each heater needs one; it is not included.[^s1] Choose an [Affinity Smart-Heat On/Off](https://www.bromic.com/product/affinity-smart-heat-on-off-controllers/) or [Dimmer controller](https://www.bromic.com/product/affinity-smart-heat-dimmer-controllers/), or a manual wall switch. Wi-Fi and Smart-Heat app features need compatible Affinity controls, sold separately.[^s6] Put the controller somewhere dry.
+**Controls.** Every heater is paired with its own controller, which is sold separately and not included in the box.[^s1] Choose an [Affinity Smart-Heat On/Off](https://www.bromic.com/product/affinity-smart-heat-on-off-controllers/) or [Dimmer controller](https://www.bromic.com/product/affinity-smart-heat-dimmer-controllers/), or a manual wall switch. Wi-Fi and Smart-Heat app features need compatible Affinity controls, sold separately.[^s6] Place the controller somewhere dry.
 
-## What does the warranty cover on land and at sea?
+## Warranty On Land And At Sea
 
-The [warranty page](https://www.bromic.com/warranty/) and the product page's spec table give 5 years for land-based installations and 3 years on marine vessels.[^s2][^s1] The product page's description says the 5-year warranty is for land use only and does not cover installations on vessels.[^s1] Those two statements conflict. Until Bromic confirms, a vessel owner should ask for the terms in writing. [[VERIFY: Marine warranty on vessels — 3 years, or not covered? Align the product page description with the warranty page — Product team]]
+The [warranty page](https://www.bromic.com/warranty/) and the product page's spec table give 5 years for land-based installations and 3 years on marine vessels.[^s2][^s1] The product page's description, however, says the 5-year warranty is for land use only and does not cover installations on vessels.[^s1] Those two statements conflict, so until Bromic confirms, a vessel owner should ask for the terms in writing. [[VERIFY: Marine warranty on vessels — 3 years, or not covered? Align the product page description with the warranty page — Product team]]
 
-## Tungsten Coastal (coming soon)
+## Tungsten Coastal, Coming Soon
 
-The Tungsten Smart-Heat Electric Coastal collection (coming soon) is being built in 316 marine-grade stainless steel, in Black or White, with the Signature Diamond Pattern grille. It is planned for marine-grade low-clearance recessing, ceiling, wall and single-post mounting, covering about 64–144 ft² depending on model.[^s6] Ratings, wattages and warranty will be published at launch.
+The Tungsten Smart-Heat Electric Coastal collection (coming soon) is being crafted in 316 marine-grade stainless steel, in Black or White, with the Signature Diamond Pattern grille. It is planned for marine-grade low-clearance recessing, ceiling, wall and single-post mounting, covering about 64–144 ft² depending on model.[^s6] Ratings, wattages and warranty will be published at launch.
 
-## How do you care for a heater near the sea?
+## Caring For A Heater By The Sea
 
-1. **Mount it under cover** where possible, out of direct spray.[^s4]
-2. **Rinse away the salt.** Bromic recommends wiping the housing at least every two weeks on the coast with a soft, damp cloth.[^s4] Sheltered surfaces need it most because rain never washes them.[^s3] [[VERIFY: cleaning interval matches the Marine installation manual — Product team]]
-3. **No abrasives.** Skip scourers and abrasive or corrosive cleaners, which can damage stainless steel.[^s4]
-4. **Power off and cool down** before cleaning. Never spray water into the heater.
+1. **Mount it under cover** wherever possible, out of direct spray.[^s4]
+2. **Rinse away the salt.** Bromic recommends wiping the housing at least every two weeks on the coast with a soft, damp cloth.[^s4] Sheltered surfaces need it most, because rain never washes them.[^s3] [[VERIFY: cleaning interval matches the Marine installation manual — Product team]]
+3. **Keep to gentle cleaners.** Avoid scourers and abrasive or corrosive cleaners, which can damage stainless steel.[^s4]
+4. **Power off and let it cool** before cleaning, and never spray water into the heater.
 
 <div class="diagram">Diagram: a coastal pavilion in section, showing the heater recessed under the roof, spray stopping at the open edge, and the controller mounted inside a dry wall</div>
 
-Gas heaters can suit large, fully open coastal terraces, but electric is the simpler choice under a cover.[^s4] Either way, have the installation checked against local requirements: confirm with your local building authority and a licensed electrician.[^s7] Bromic's [design service](https://www.bromic.com/design-your-space/) can lay out a coastal space from photos or plans.
+Gas heaters can suit large, fully open coastal terraces, though electric is the simpler choice under a cover.[^s4] Whichever you choose, have the installation checked against local requirements with your local building authority and a licensed electrician.[^s7] Our [design service](https://www.bromic.com/design-your-space/) can lay out your coastal space from photos or plans.
 
-## Frequently asked
+## Frequently Asked
 
 ### Can I use a standard outdoor heater by the ocean?
 
-You can, but expect corrosion and tea staining sooner. 316 stainless resists chlorides better than 304.[^s3] For a site exposed to spray, choose Platinum Smart-Heat Electric Marine.
+You can, though you should expect corrosion and tea staining sooner. 316 stainless resists chlorides better than 304,[^s3] so for a site exposed to spray, choose Platinum Smart-Heat Electric Marine.
 
 ### Is Platinum Electric Marine only for boats?
 
-No. It is approved for marine use, and it also suits coastal homes, marinas and waterfront restaurants. On land it carries the longer warranty.[^s2]
+No. It is approved for marine use and is equally at home in coastal homes, marinas and waterfront restaurants, and on land it carries the longer warranty.[^s2]
 
 ### When will Tungsten Coastal be available?
 
-It is coming soon. Bromic will publish its specifications at launch.[^s6]
+It is coming soon, and Bromic will publish its specifications at launch.[^s6]
 
 Size your coastal space with the Bromic heater calculator.

@@ -48,7 +48,7 @@ sources:
     verified: true
 ---
 
-The lights dim, the music follows you outside and the heaters glow as the evening cools – the connected home now reaches all the way to the patio. In this episode of the Designing Outdoor Spaces podcast, Jeff Thomas of Snap One and Michael Smith of Bromic Heating talk about bringing lighting, climate and heat outdoors, why integrators and designers belong in the conversation early, and when a wired connection is the better choice over wireless.[^s1] For heating, that conversation leads to Affinity Smart-Heat controls, sold separately, which bring Bromic heaters onto the same network as the rest of the house.[^s2]
+As the evening cools and the heaters glow, the connected home now reaches all the way to the patio. On the Designing Outdoor Spaces podcast, Jeff Thomas of Snap One and Michael Smith of Bromic Heating talk about bringing lighting, climate and heat outdoors, involving integrators and designers early, and when wired beats wireless.[^s1] For heating, that leads to Affinity Smart-Heat controls, sold separately, which bring Bromic heaters onto the home's network.[^s2]
 
 [Listen to the full episode](https://www.bromic.com/podcast/the-future-of-home-automation).
 

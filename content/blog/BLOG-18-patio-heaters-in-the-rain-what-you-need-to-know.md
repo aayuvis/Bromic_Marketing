@@ -14,7 +14,7 @@ summary: "What an IP rating tells you about rain, the published rating of each B
 primary_keyword: patio heater in the rain
 secondary_keywords: [can patio heaters get wet, outdoor heater IP rating, waterproof patio heater, IPX4 vs IPX5]
 ai_prompt: "Can I use my patio heater in the rain?"
-meta_description: "Can a patio heater run in the rain? To the level of its IP rating: IPX4 resists splashing, IPX5 water jets. Each Bromic heater's rating, and how to protect it."
+meta_description: "Using a patio heater in the rain: IPX4 resists splashing and IPX5 water jets. Each Bromic heater's rating, and how to protect it."
 cta: {label: "Size your space", asset: A03}
 hero: w-connecticut-privateresidence-tungstenelectri
 owner_review: Marketing
