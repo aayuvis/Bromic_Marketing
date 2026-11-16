@@ -1,7 +1,7 @@
 ---
 id: BLOG-45
 type: blog
-title: "Outdoor design innovation: how products are adapting to the way people live outside"
+title: "Outdoor Product Design Innovation: Adapting To The Way People Live Outside"
 slug: outdoor-design-innovation-adapting-to-consumer-needs
 live_url: https://www.bromic.com/blog/outdoor-design-innovation-adapting-to-consumer-needs/
 action: keep-fix
@@ -10,11 +10,11 @@ audience: [ARC]
 stage: [AW]
 cell: ARC-AW
 asset: A24
-summary: "A recap of the Designing Outdoor Spaces episode with StruXure's Scott Selzer and Bromic Group's Scott Smith: productised outdoor rooms, integrated controls, new markets and why early collaboration saves architects time."
+summary: "Highlights from the Designing Outdoor Spaces episode with StruXure's Scott Selzer and Bromic Group's Scott Smith: outdoor rooms as engineered kits, integrated controls, new markets and the time early collaboration saves architects."
 primary_keyword: outdoor product design innovation
 secondary_keywords: [outdoor living product trends, pergola and heater integration, outdoor room technology]
 ai_prompt: "How is outdoor product design changing for architects?"
-meta_description: "Podcast recap: StruXure and Bromic Group founders on productised outdoor rooms, integrated controls and early collaboration with architects."
+meta_description: "Outdoor product design innovation: StruXure and Bromic Group founders on outdoor rooms as engineered kits, integrated controls and early collaboration."
 cta: {label: "Download the Trends 2026 report", asset: A01}
 hero: w-slc-bromic-heater-1-cropped
 owner_review: Marketing
@@ -23,7 +23,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-AW-01, RES-BY-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -55,18 +55,18 @@ sources:
     verified: true
 ---
 
-Outdoor products are becoming systems. Pergolas arrive as engineered kits, heaters and lights run from the same controls, and a covered terrace is specified like an interior room. That was the shared view of Scott Selzer, founder of StruXure, and Scott Smith, co-founder and CEO of Bromic Group, on Archispeak's Designing Outdoor Spaces podcast[^s1][^s2]. For architects, the practical point is to bring these suppliers in early.
+Outdoor products are coming together as complete systems. Pergolas now arrive as engineered kits, heaters and lights run from the same controls, and a covered terrace is specified with the care of an interior room. That was the shared view of Scott Selzer, founder of StruXure, and Scott Smith, co-founder and CEO of Bromic Group, on Archispeak's Designing Outdoor Spaces podcast[^s1][^s2]. For architects, the takeaway is to bring these suppliers in early.
 
-![Two round heaters with lit halo rings hanging under a louvred pergola at night](img:w-slc-bromic-heater-1-cropped)
+![Two round heaters with glowing halo rings hanging beneath a louvred pergola at night](img:w-slc-bromic-heater-1-cropped)
 
-## Who was on the episode?
+## The Founders Around The Microphone
 
 Hosts Evan Troxel and Cormac Phalen spoke with two founders[^s1]:
 
-- **Scott Selzer** trained and worked as a teacher, moved into building products full time in 2008 and founded StruXure, a maker of modular aluminum pergolas. AZEK Building Products acquired StruXure in 2021[^s1].
+- **Scott Selzer** trained and worked as a teacher before moving into building products full time in 2008 and founding StruXure, a maker of modular aluminum pergolas. AZEK Building Products acquired StruXure in 2021[^s1].
 - **Scott Smith** is an engineer and co-founder of Bromic Group. Bromic Group was founded in Australia in 1978; Bromic Heating began operating in Sydney in 2008 and set up its US headquarters in Irvine, California, in 2010[^s3].
 
-## What did they see changing?
+## How Outdoor Living Is Changing
 
 | Shift | What it means for the design team |
 |---|---|
@@ -76,25 +76,25 @@ Hosts Evan Troxel and Cormac Phalen spoke with two founders[^s1]:
 | **New markets** | Heat and shade now appear on ships and in healthcare settings such as rehabilitation and aged care. |
 | **Material choices** | Both guests framed durability and recycled or recyclable materials as part of the specification. |
 
-Selzer's test for every product was comfort: if people are comfortable, they stay outside longer. Smith described the aim of heating as comfort delivered without drawing attention to itself[^s1].
+For Selzer, every product came back to comfort, because when people are comfortable they stay outside longer. Smith described the aim of heating as comfort that arrives quietly, without drawing attention to itself[^s1].
 
-## Why does early collaboration matter?
+## The Value Of Working Together Early
 
-Because the structure, the circuit and the controls are decided together. Both companies offer design help and education sessions for architects, which the guests said save time and lead to better-informed solutions[^s1].
+The structure, the circuit and the controls are best decided together. Both companies offer design help and education sessions for architects, which the guests said save time and lead to better-informed solutions[^s1].
 
-In practice, that means the heater's mounting plane, recess depth and power run are on the drawings before the pergola is ordered. It also means the controls are chosen with the heater: an Affinity Smart-Heat On/Off or Dimmer controller, a wall switch, and the Bromic Smart-Heat app for zones, schedules and timers. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately. Integration with Control4, Crestron or Lutron is possible, but compatibility varies by system[^s4].
+On a real project, that means the heater's mounting plane, recess depth and power run are on the drawings before the pergola is ordered, and the controls are chosen alongside the heater: an Affinity Smart-Heat On/Off or Dimmer controller, a wall switch, and the Bromic Smart-Heat app for zones, schedules and timers. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately. Integration with Control4, Crestron or Lutron is possible, though compatibility varies by system[^s4].
 
-Bromic's [architects and designers](https://www.bromic.com/architects-designers/) page holds BIM files and spec sheets, and [Design Your Space](https://www.bromic.com/design-your-space/) returns a layout with coverage drawings.
+Our [architects and designers](https://www.bromic.com/architects-designers/) page holds BIM files and spec sheets, and [Design Your Space](https://www.bromic.com/design-your-space/) returns a tailored layout with coverage drawings.
 
 ## Frequently asked
 
 ### What is a productised outdoor room?
-An outdoor structure bought as an engineered kit, such as a modular pergola, designed to take integrated lighting, heating and controls.
+It is an outdoor structure bought as an engineered kit, such as a modular pergola, designed to take integrated lighting, heating and controls.
 
 ### Can outdoor heaters be controlled with the pergola's lights?
 Yes, through Affinity Smart-Heat Controls, which integrate with several home automation systems. Compatibility varies and may need extra hardware.
 
 ### When should a heating supplier join the project?
-At design stage, before the structure is ordered, so mounting, power and controls are drawn in.
+At design stage, before the structure is ordered, so mounting, power and controls are drawn in from the start.
 
-Read the 2026 data on outdoor rooms in the Trends report.
+Explore the 2026 data on outdoor rooms in the Trends report.

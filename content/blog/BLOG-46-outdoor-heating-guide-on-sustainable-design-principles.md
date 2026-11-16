@@ -1,7 +1,7 @@
 ---
 id: BLOG-46
 type: blog
-title: "Sustainable outdoor heating: applying design principles to the patio"
+title: "Sustainable Outdoor Heating: Bringing Thoughtful Design Principles To The Patio"
 slug: outdoor-heating-guide-on-sustainable-design-principles
 live_url: https://www.bromic.com/blog/outdoor-heating-guide-on-sustainable-design-principles/
 action: rewrite
@@ -10,11 +10,11 @@ audience: [ARC]
 stage: [CO]
 cell: ARC-CO
 asset: A24
-summary: "How a specifier keeps outdoor heating's energy use low: radiant heat aimed at people, zones and schedules so heat runs only when a space is occupied, all-electric options, and durable materials, mapped against GSA's high-performance building goals."
+summary: "How a specifier keeps the energy use of outdoor heating low, with radiant warmth aimed at people, zones and schedules that follow how a space is used, all-electric options and durable materials, read against GSA's high-performance building goals."
 primary_keyword: sustainable outdoor heating
 secondary_keywords: [energy efficient patio heater, sustainable outdoor design, all-electric patio heating]
 ai_prompt: "How can outdoor heating be part of a sustainable building design?"
-meta_description: "Sustainable outdoor heating for architects: radiant heat aimed at people, zoning and schedules, all-electric options and durable materials."
+meta_description: "Sustainable outdoor heating for architects: radiant warmth aimed at people, zones and schedules, all-electric options and materials made to last."
 cta: {label: "Get the Planning Guide (pro edition)", asset: A02}
 hero: w-mountain-view-retreat-platinum-electric-rece
 images: [w-residential-us-pavillion-du-lac-1]
@@ -24,7 +24,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-PP-01, ARC-CO-01, A12]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: US General Services Administration
@@ -77,19 +77,19 @@ sources:
     verified: false
 ---
 
-Outdoor heating always uses energy, so the sustainable choice is to heat less: only the people, only the occupied zone, only for the hours it is used. Radiant heat makes that possible because it warms people and surfaces rather than air[^s2]. Zone it with dedicated controls, put it on schedules, choose electric where the building is all-electric, and specify materials that last. Those decisions map directly onto the federal government's goals for high-performance buildings[^s1].
+Every outdoor heater uses energy, so the most sustainable design warms only the people, only the occupied zone and only for the hours the space is enjoyed. Radiant heat makes that possible, because it warms people and surfaces rather than the air[^s2]. Zone it with dedicated controls, set it on schedules, choose electric where the building is all-electric, and specify materials that last. Each of those decisions maps directly onto the federal government's goals for high-performance buildings[^s1].
 
 ![Glowing heater recessed in a louvered pergola roof above an outdoor kitchen](img:w-mountain-view-retreat-platinum-electric-rece)
 
-## Why is radiant heat the efficient choice outdoors?
+## Why Radiant Warmth Is The Efficient Choice Outdoors
 
-Because outdoors you cannot hold warm air. It rises and blows away, which is why forced-air heating does not work outside[^s2]. Radiant (infrared) heat travels in a line to the people and surfaces it reaches and warms them directly. It holds up in light wind, and under a partial cover it also builds a modest heat cloud that adds a convective boost[^s2].
+Warm air cannot be held outdoors. It rises and drifts away on the breeze, which is why forced-air heating does not work outside[^s2]. Radiant (infrared) heat travels in a line to the people and surfaces it reaches and warms them directly. It holds up well in a light wind, and under a partial cover it also builds a gentle heat cloud that adds a convective boost[^s2].
 
-The design consequence: aim the heat. A heater sized and placed over the seating does more useful work than a larger one heating open floor.
+For the designer, this means aiming the warmth with care. A heater sized and placed over the seating does more useful work than a larger one warming open floor.
 
-## How do GSA's high-performance goals apply to a patio?
+## Applying GSA's High-Performance Goals To The Patio
 
-The US General Services Administration sets six goals for an integrated, whole-life-cycle design approach[^s1]. Five of them shape an outdoor heating specification.
+The US General Services Administration sets six goals for an integrated, whole-life-cycle design approach[^s1], and five of them shape an outdoor heating specification.
 
 | GSA goal | What it means for outdoor heating |
 |---|---|
@@ -99,20 +99,20 @@ The US General Services Administration sets six goals for an integrated, whole-l
 | **Improve indoor air quality** | Indoor-outdoor rooms with large openings rely on outdoor comfort to stay in use; electric heaters burn no fuel at the point of use. |
 | **Implement prudent operation and maintenance** | Controls that the facility team can schedule and monitor; products with clear warranties and service paths. |
 
-Water conservation, the sixth goal, does not apply to heating.
+The sixth goal, water conservation, does not apply to heating.
 
-## How do controls cut energy use?
+## Controls That Make Every Watt Count
 
-Controls turn a heater from on-or-off into a managed load. Specify them with every heater, never as an afterthought.
+Controls turn a heater into a carefully managed load, which is why they belong in the specification with every heater from the very first drawing.
 
-- **Zones.** Affinity Smart-Heat On/Off and Dimmer controllers come in 1, 2 or 5 channels, so a dining terrace, a lounge and a bar can run separately[^s6].
-- **Output.** Dimmer controllers adjust output in 1% steps[^s6]. On a mild evening, heaters run at part load.
-- **Time.** The Bromic Smart-Heat app sets schedules and timers by zone[^s3]. Heat follows opening hours or the household's evenings, not a switch left on.
-- **Integration.** Affinity controls connect with Control4, Crestron and Lutron, among others. Compatibility varies by system and may need additional integration hardware[^s3].
+- **Zoned warmth.** Affinity Smart-Heat On/Off and Dimmer controllers come in 1, 2 or 5 channels, so a dining terrace, a lounge and a bar can each run on their own[^s6].
+- **Gentle output.** Dimmer controllers adjust output in 1% steps[^s6], so on a mild evening the heaters can run at part load.
+- **Warmth on a schedule.** The Bromic Smart-Heat app sets schedules and timers by zone[^s3], so warmth follows opening hours or the household's evenings and is never left running by a forgotten switch.
+- **Seamless integration.** Affinity controls connect with Control4, Crestron and Lutron, among others. Compatibility varies by system and may need additional integration hardware[^s3].
 
 Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately[^s3]. A manual wall switch belongs in every zone as well.
 
-## Electric or gas in a low-carbon building?
+## Electric Or Gas In A Low-Carbon Building
 
 In an all-electric building, electric radiant heaters keep the patio on the same supply as everything else, with no gas line to the terrace. Platinum Smart-Heat Electric comes in 2300, 3400 and 4500 W and covers approx. 65–143 ft² depending on model and installation[^s3]. Where local codes restrict combustion in new buildings, read [all-electric outdoor heating codes](item:ARC-PP-01) before choosing gas.
 
@@ -120,24 +120,24 @@ Electric heater circuits are installed to NFPA 70, the National Electrical Code[
 
 ![Glass pavilion with a cantilevered roof among autumn trees, slim heaters in the soffit](img:w-residential-us-pavillion-du-lac-1)
 
-## Which materials last?
+## Materials Made To Last Season After Season
 
-Longevity is the most reliable sustainability claim a product can make: the heater you do not replace has no new embodied impact. Platinum Smart-Heat Electric uses a 304 stainless steel chassis with a 3-year warranty[^s4]. For coastal sites, Platinum Smart-Heat Electric Marine uses AISI 316 marine-grade stainless steel and is rated IPX5[^s5]. Match the grade to the environment rather than replacing a corroded heater later.
+Longevity is the most reliable sustainability claim a product can make, since the heater you never replace adds no new embodied impact. Platinum Smart-Heat Electric uses a 304 stainless steel chassis with a 3-year warranty[^s4]. For coastal sites, Platinum Smart-Heat Electric Marine uses AISI 316 marine-grade stainless steel and is rated IPX5[^s5]. Matching the grade to the environment from the start spares you a corroded heater later.
 
 <div class="diagram">Diagram: plan of a terrace split into three heated zones (dining, lounge, bar), each on its own controller channel with its own schedule, showing heat aimed at seating, not open floor.</div>
 
 ## Frequently asked
 
 ### Are outdoor heaters sustainable?
-Any heater uses energy. Radiant heat aimed at people, run by zone and on schedules, uses less energy than heat left on over a whole area for a whole evening. Durable materials reduce replacement.
+Every heater uses energy. Radiant heat aimed at people, run by zone and on schedules, uses less of it than heat left on over a whole area for a whole evening, and durable materials reduce replacement.
 
 ### Is electric or gas better for a sustainable building?
 In an all-electric building, electric radiant heaters avoid a gas connection to the terrace. Check local electrification rules before specifying gas.
 
 ### What controls save the most energy?
-Zoning by channel, dimming to part load and app schedules. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately.
+Zoning by channel, dimming to part load and app schedules save the most. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately.
 
 ### Does Bromic offer design help?
-Yes. [Design Your Space](https://www.bromic.com/design-your-space/) returns a heater layout and coverage drawings. The full range is on the [outdoor heaters](https://www.bromic.com/outdoor-heaters/) page.
+Yes. [Design Your Space](https://www.bromic.com/design-your-space/) returns a tailored heater layout and coverage drawings, and you can explore the full range on the [outdoor heaters](https://www.bromic.com/outdoor-heaters/) page.
 
-Plan zones, coverage and controls with the pro edition of the Planning Guide.
+Plan your zones, coverage and controls with the pro edition of the Planning Guide.
