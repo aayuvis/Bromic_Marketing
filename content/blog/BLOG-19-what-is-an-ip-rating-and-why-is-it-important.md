@@ -110,7 +110,7 @@ Source: IEC 60529 as summarised by TÜV Rheinland, a test and certification body
 
 The earlier version of this page needed three corrections, so that nothing on bromic.com contradicts the standard:
 
-- **Submersion begins at IPX7.** IPX6 is a test against powerful water flow, while immersion starts at 7 (one metre) and goes further at 8.[^s2]
+- **Submersion is rated IPX7 or IPX8, a step beyond IPX6.** IPX6 is a test against powerful water flow, while immersion starts at 7 (one metre) and goes further at 8.[^s2]
 - **IP covers solids and water only.** It does not test temperature, impact or corrosion, so resistance to salt air is a question of material (see 316 stainless below) and sits outside the IP digits.
 - **"Weather-resistant" has its limits.** IPX4 means the heater passed a splash test, which is no invitation to leave it in driving rain or to hose it down.
 
