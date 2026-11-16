@@ -5,16 +5,16 @@ translation_of: BLD-IN-01
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 type: article
-title: "Een terras voorbekabelen voor buitenverwarmers: checklist voor aannemers"
+title: "Een terrasverwarmer voorbekabelen: de checklist voor de ruwbouw voor aannemers"
 audience: [BLD]
 stage: [IN]
 cell: BLD-IN
 asset: A24
-summary: "Wat u aanlegt voordat het overstek dichtgaat: een eigen groep per verwarmer, de stroomberekening bij 230 V, de vraag naar aardlekbeveiliging voor de installateur, dozen en regelwerk, en een leidingroute voor de bediening."
+summary: "Wat u aanlegt voordat het overstek dichtgaat: een eigen groep per verwarmer, de stroomberekening bij 230 V, de dimensionering op continubelasting, vragen over aardlekbeveiliging, dozen en regelwerk, en een route voor de bediening."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
-ai_prompt: "Welke bekabeling moet ik voorbereiden voor terrasverwarmers?"
-meta_description: "Leg een eigen groep per terrasverwarmer aan, dozen en regelwerk op elke positie, en een plek voor de bediening. Met de stroomberekening bij 230 V."
+ai_prompt: "Welke bekabeling moet ik tijdens de ruwbouw aanleggen voor terrasverwarmers?"
+meta_description: "Een terrasverwarmer goed voorbekabelen: een eigen groep per verwarmer, dozen en regelwerk, een plek voor de bediening, en de stroomberekening bij 230 V."
 cta: {label: "Download de gids voor voorbekabeling", asset: A16}
 hero: g-rough-in
 images: [l-005-022]
@@ -22,7 +22,7 @@ owner_review: verkoop vakhandel
 status: draft
 gated: false
 related: [BLD-IN-KB1, BLD-IN-KB2, BLD-BY-01, BLD-CO-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -82,23 +82,23 @@ sources:
     verified: false
 ---
 
-Leg naar elke positie van een verwarmer een eigen groep aan, bepaald aan de hand van het typeplaatje van de verwarmer, plus een doos en massief regelwerk op elke positie en een doos op de plek van de regelaar. Doe dat voordat de gipsplaat, het overstek of de plafondplaten erop gaan. Dat is het hele werk: een groep, een doos, regelwerk en een bedieningspunt, één keer beslist, zodat niemand later een afgewerkt plafond hoeft open te maken.
+Leg naar elke positie van een verwarmer een eigen groep aan, bepaald aan de hand van het typeplaatje van de verwarmer en gedimensioneerd op continubelasting, met een doos en massief regelwerk op elke positie en een doos op de plek van de regelaar. Dat alles gebeurt voordat de gipsplaat, het overstek of de plafondplaten erop gaan, zodat over groep, doos, regelwerk en bedieningspunt één keer wordt beslist en het afgewerkte plafond later nooit open hoeft.
 
 *Dit is planningsinformatie, geen advies over de regelgeving. Normen verschillen per land en per editie. Controleer elke eis bij uw gemeente en een erkend elektrotechnisch installateur, en volg de installatiehandleiding van het product. In Nederland is NEN 1010 de norm voor elektrische installaties.* [[VERIFY: actuele editie van NEN 1010 — Bromic Benelux distributor]]
 
-![Minimalistisch glazen paviljoen met in het plafond ingebouwde verwarmers](img:l-010-075)
+![Minimalistisch glazen paviljoen met naadloos in het plafond ingebouwde verwarmers](img:l-010-075)
 
-## Waarom voorbekabelen tijdens de ruwbouw?
+## Waarom de ruwbouw het moment is voor warmte
 
-Omdat warmte waartoe na het timmerwerk wordt besloten een renovatieklus wordt. Een groep door een afgewerkt overstek trekken betekent zagen, herstellen en overschilderen, en de terugkomafspraak komt bij de aannemer terecht. Tijdens de ruwbouw is het gewoon één groep extra in de groepenverklaring.
+Warmte waartoe na het timmerwerk wordt besloten, wordt een renovatieklus. Een groep door een afgewerkt overstek trekken betekent zagen, herstellen en overschilderen, en de terugkomafspraak komt bij de aannemer terecht, terwijl het tijdens de ruwbouw gewoon één groep extra in de groepenverklaring is.
 
-Bekabel elk overdekt terras voor waar warmte te verkopen valt, ook als de koper er nog niet voor heeft gekozen. Dop ongebruikte posities af en label ze.
+Bekabel elk overdekt terras voor waar warmte te verkopen valt, ook als de koper er nog niet voor heeft gekozen, en dop ongebruikte posities af en label ze.
 
-## Welke spanning en groep heeft elke verwarmer nodig?
+## De spanning en de groep die elke verwarmer nodig heeft
 
-Platinum Smart-Heat Electric is er in 2300, 3400 en 4500 W[^s1]. Voor de Amerikaanse markt noemt Bromic voedingsopties van 208, 240 en 277 V voor zakelijke projecten[^s2]; het Nederlandse net levert 230 V, 50 Hz. Controleer de spanning van het exacte bestelde model voordat u kabel trekt [[VERIFY: voedingsspanning per Platinum- en Tungsten Electric-model voor de Nederlandse markt, woning en zakelijk — productteam]].
+Platinum Smart-Heat® Electric is er in 2300, 3400 en 4500 W[^s1]. Voor de Amerikaanse markt noemt Bromic voedingsopties van 208, 240 en 277 V voor zakelijke projecten[^s2]; het Nederlandse net levert 230 V, 50 Hz. Controleer de spanning van het exacte bestelde model voordat u kabel trekt [[VERIFY: voedingsspanning per Platinum- en Tungsten Electric-model voor de Nederlandse markt, woning en zakelijk — productteam]].
 
-Stroom is watt gedeeld door volt: **I = W ÷ V**. In de VS geldt een buitenverwarmer als continue belasting, door de NEC gedefinieerd als een belasting waarbij de maximale stroom naar verwachting drie uur of langer loopt[^s4]. Eindgroepen voor continue belastingen en voor vaste ruimteverwarming worden daar op ten minste 125% van de belasting gedimensioneerd[^s3][^s4]. In Nederland bepaalt de installateur geleider en beveiliging volgens NEN 1010. [[VERIFY: of NEN 1010 een vergelijkbare toeslag voor langdurige belasting vraagt — Bromic Benelux distributor]]
+Stroom is watt gedeeld door volt, **I = W ÷ V**. Behandel een buitenverwarmer als continue belasting; de Amerikaanse NEC definieert die als een belasting waarbij de maximale stroom naar verwachting drie uur of langer loopt[^s4]. Eindgroepen voor continue belastingen en voor vaste ruimteverwarming worden daar op ten minste 125% van de belasting gedimensioneerd[^s3][^s4]. In Nederland bepaalt de installateur geleider en beveiliging volgens NEN 1010. [[VERIFY: of NEN 1010 een vergelijkbare toeslag voor langdurige belasting vraagt — Bromic Benelux distributor]]
 
 | Verwarmer | Spanning | Stroom (W ÷ V) |
 |---|---|---|
@@ -106,21 +106,21 @@ Stroom is watt gedeeld door volt: **I = W ÷ V**. In de VS geldt een buitenverwa
 | 3400 W | 230 V | 14,8 A |
 | 4500 W | 230 V | 19,6 A |
 
-Beveiliging en geleiderdoorsnede kiest de installateur volgens NEN 1010, de installatiehandleiding en het maximum op het typeplaatje; wij noemen hier bewust geen Amerikaanse automaatwaarden of draaddiktes. Eén voorzichtigheid uit dezelfde berekening:
+Beveiliging en geleiderdoorsnede kiest de installateur volgens NEN 1010, de installatiehandleiding en het maximum op het typeplaatje; Amerikaanse automaatwaarden en draaddiktes nemen we hier bewust niet over. Dezelfde berekening laat één punt zien dat aandacht verdient:
 
-- **Een verwarmer die voor een andere spanning is gebouwd** levert minder of meer dan zijn nominale vermogen, want het vermogen schaalt met het kwadraat van de spanning. Een verwarmer voor 240 V op 230 V levert (230 ÷ 240)², ongeveer 92% van zijn nominale vermogen. Bestel het model dat bij de netspanning past.
+- **Een verwarmer die voor een andere spanning is gebouwd** levert minder of meer dan zijn nominale vermogen, want het vermogen schaalt met het kwadraat van de spanning. Een verwarmer voor 240 V op 230 V levert (230 ÷ 240)², ongeveer 92% van zijn nominale vermogen, en in de VS levert een verwarmer voor 240 V op 208 V ongeveer 75%. Bestel het model dat bij de netspanning past.
 
 De beveiliging mag ook niet hoger zijn dan het maximum op het typeplaatje van de verwarmer[^s4]. De installateur controleert de stroombelastbaarheid, de aansluitklemmen, het spanningsverlies en de vulling van de buizen. De Amerikaanse NEC-tekst is gratis online te lezen bij NFPA[^s8].
 
-## Kunnen verwarmers een groep delen?
+## Een groep delen
 
-Dat kan, binnen grenzen, maar één verwarmer per groep is eenvoudiger in zones te verdelen en bij storing te zoeken. Zie [hoeveel verwarmers per groep](item:BLD-IN-KB2).
+Verwarmers kunnen binnen grenzen een groep delen, maar één verwarmer per groep is eenvoudiger in zones te verdelen en bij storing te zoeken. Zie [hoeveel verwarmers per groep](item:BLD-IN-KB2).
 
-## Hebben groepen voor terrasverwarmers aardlekbeveiliging nodig?
+## Aardlekbeveiliging voor groepen van terrasverwarmers
 
-Houd er rekening mee en vraag het vroeg na. In de VS eist de NEC van 2023 aardlekbeveiliging (GFCI) voor buitenaansluitpunten bij woningen op enkelfasige groepen van ten hoogste 150 V ten opzichte van aarde en ten hoogste 50 A[^s5]; de editie van 2026 verhoogt die grens naar 60 A[^s6]. Of een vast aangesloten verwarmer daar als "outlet" onder 210.8(F) telt, wordt door verschillende instanties verschillend gelezen, en edities worden op verschillende momenten ingevoerd[^s7]. In Nederland heet de vergelijkbare beveiliging een aardlekschakelaar; welke eisen NEN 1010 hier stelt, bepaalt uw installateur. Leg het antwoord schriftelijk vast en controleer wat de installatiehandleiding voorschrijft [[VERIFY: eis in de installatiehandleiding van Bromic voor GFCI- of aardlekbeveiliging — productteam]]. Meer in [het antwoord over aardlekbeveiliging](item:BLD-BY-KB1).
+Houd er rekening mee en vraag het vroeg na. In Nederland heet de vergelijkbare beveiliging een aardlekschakelaar; welke eisen NEN 1010 hier stelt, bepaalt uw installateur. Ter vergelijking: in de VS eist de NEC van 2023 aardlekbeveiliging (GFCI) voor buitenaansluitpunten bij woningen op enkelfasige groepen van ten hoogste 150 V ten opzichte van aarde en ten hoogste 50 A[^s5], en de editie van 2026 verhoogt die grens naar 60 A[^s6]. Of een vast aangesloten verwarmer daar als "outlet" onder 210.8(F) telt, wordt door verschillende instanties verschillend gelezen, en edities worden op verschillende momenten ingevoerd[^s7]. Leg het antwoord schriftelijk vast en controleer wat de installatiehandleiding voorschrijft [[VERIFY: eis in de installatiehandleiding van Bromic voor GFCI- of aardlekbeveiliging — productteam]]. Meer in [het antwoord over aardlekbeveiliging](item:BLD-BY-KB1).
 
-## Wat komt er op elke positie van een verwarmer?
+## Wat er op elke positie van een verwarmer komt
 
 | Onderdeel | Actie tijdens de ruwbouw |
 |---|---|
@@ -132,11 +132,11 @@ Houd er rekening mee en vraag het vroeg na. In de VS eist de NEC van 2023 aardle
 
 ![Verwarmer vlak ingebouwd in een wit plafond (Tungsten Coastal, binnenkort)](img:l-005-022)
 
-Met inbouwsets zitten Platinum- en Tungsten Electric-verwarmers vlak in de plafondruimte[^s2]. Over de set moet tijdens het timmerwerk worden beslist, niet bij de afwerking.
+Met inbouwsets zitten Platinum- en Tungsten Electric-verwarmers vlak in de plafondruimte[^s2], voor een strakke, naadloze afwerking. Omdat de set het timmerwerk bepaalt, moet hij al tijdens het timmerwerk worden gekozen, ruim voor de afwerking.
 
-## Waar komt de bediening?
+## De bediening waar het gezin haar gebruikt
 
-Zet de regelaar waar het gezin staat als het warmte wil: meestal binnen, bij de terrasdeur. Elke verwarmer heeft bediening nodig: een Affinity Smart-Heat On/Off- of Dimmer-regelaar (een Eclipse-regelaar voor Eclipse-verwarmers) en een handmatige wandschakelaar[^s1].
+Zet de regelaar waar het gezin staat als het warmte wil, meestal binnen bij de terrasdeur. Elke verwarmer van Bromic wordt gecombineerd met zijn bediening, een Affinity Smart-Heat® On/Off- of Dimmer-regelaar (de Eclipse-regelaar voor Eclipse-verwarmers) en een handmatige wandschakelaar[^s1].
 
 Tijdens de ruwbouw:
 
@@ -144,13 +144,13 @@ Tijdens de ruwbouw:
 - Leid elke groep van een verwarmer via die plek, of zoals het aansluitschema in de handleiding aangeeft.
 - Laat een route vrij, bijvoorbeeld een lege buis met trekdraad, naar de plek van de AV- of domotica-installatie als slimme bediening te verkopen valt.
 
-App, schema's en spraakbediening vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht. Integratie met Control4, Crestron en Lutron kan extra hardware of configuratie vragen[^s1].
+App, schema's en spraakbediening vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht, en integratie met Control4, Crestron en Lutron kan extra hardware of configuratie vragen[^s1].
 
-## Wat moet worden vastgelegd?
+## Elke positie vastleggen
 
-Fotografeer elke positie voordat ze wordt afgedekt: doos, regelwerk, kabellabel en een rolmaat die de hoogte laat zien. Bewaar de foto's bij de groepenverklaring, zodat de installateur de doos meteen vindt.
+Fotografeer elke positie voordat ze wordt afgedekt, met de doos, het regelwerk, het kabellabel en een rolmaat die de hoogte laat zien. Bewaar de foto's bij de groepenverklaring, zodat de installateur elke doos meteen vindt.
 
-## Checklist voor de planning
+## Uw checklist voor de ruwbouw
 
 - Model, vermogen en spanning van de verwarmer bevestigd vóór de ruwbouw.
 - Eén eigen groep per verwarmer; beveiliging en kabel volgens NEN 1010 en binnen het maximum op het typeplaatje.
@@ -164,10 +164,10 @@ Fotografeer elke positie voordat ze wordt afgedekt: doos, regelwerk, kabellabel 
 ## FAQ
 
 ### Welke bekabeling hebben terrasverwarmers nodig?
-Een eigen eindgroep per verwarmer op de nominale spanning van de verwarmer, uitkomend in een doos op de positie van de verwarmer, met een bedieningspunt in de groep. Geleider en beveiliging volgens NEN 1010. Stem het af met een erkend installateur.
+Een eigen eindgroep per verwarmer op de nominale spanning van de verwarmer, gedimensioneerd op continubelasting en uitkomend in een doos op de positie van de verwarmer, met een bedieningspunt in de groep. Stem de details af met een erkend installateur, volgens NEN 1010.
 
 ### Welke groep heeft een verwarmer van 4500 W bij 230 V nodig?
-Hij trekt 19,6 A. De installateur kiest beveiliging en geleider volgens NEN 1010 en binnen het maximum op het typeplaatje. Zie [beveiliging voor een verwarmer van 4500 W](item:BLD-IN-KB1).
+Hij trekt 19,6 A. De installateur kiest beveiliging en geleider volgens NEN 1010 en binnen het maximum op het typeplaatje. Ter vergelijking: in de VS geeft de 125%-regel bij 240 V (18,75 A) 23,4 A. Zie [beveiliging voor een verwarmer van 4500 W](item:BLD-IN-KB1).
 
 ### Werken deze verwarmers op het Nederlandse net?
 Het Nederlandse net levert 230 V, 50 Hz. Bestel het model dat voor die spanning is bedoeld; een verwarmer van 2300 W trekt dan 10,0 A.
@@ -176,7 +176,7 @@ Het Nederlandse net levert 230 V, 50 Hz. Bestel het model dat voor die spanning 
 Ja. Een afgedopte, gelabelde groep kost weinig tijdens de ruwbouw en voorkomt dat later een afgewerkt overstek open moet.
 
 ### Heb ik aardlekbeveiliging nodig?
-Waarschijnlijk wel een vorm ervan, maar welke, hangt af van NEN 1010 en de installatiehandleiding. Vraag het na vóór de ruwbouw.
+Waarschijnlijk wel een vorm ervan, afhankelijk van NEN 1010 en de installatiehandleiding, dus vraag het na vóór de ruwbouw.
 
 Download de gids voor voorbekabeling voordat het volgende project wordt getimmerd.
 

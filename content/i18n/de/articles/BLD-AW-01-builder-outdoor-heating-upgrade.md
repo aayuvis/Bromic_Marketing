@@ -1,16 +1,16 @@
 ---
 id: BLD-AW-01
 type: article
-title: "Außenheizung als Sonderwunsch für Bauträger: wofür Käufer bezahlen"
+title: "Sonderwünsche für Bauträger: die beheizte Terrasse, die Käufer schätzen"
 audience: [BLD]
 stage: [AW]
 cell: BLD-AW
 asset: A24
-summary: "Warum die überdachte Terrasse der naheliegende Ort für den nächsten Sonderwunsch eines Bauträgers ist, was die Käuferdaten sagen und wie eingebaute Strahlungswärme aus einer Bodenplatte einen Raum macht, den man auch nach Einbruch der Dunkelheit nutzt."
+summary: "Warum die überdachte Terrasse der natürliche Ort für Ihren nächsten Sonderwunsch ist, was die Käuferdaten zeigen und wie eingebaute Strahlungswärme aus einer Bodenplatte einen Raum macht, den Familien lange nach Einbruch der Dunkelheit genießen."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Welche Ausstattung im Außenbereich steigert den Wert eines Neubaus am meisten?"
-meta_description: "Terrassen stehen auf der Wunschliste für Neubauten ganz oben. Wie Bauträger aus einer überdachten Terrasse einen beheizten Außenraum machen, den Käufer das ganze Jahr nutzen, ohne Reklamationen."
+meta_description: "Sonderwünsche für Bauträger beginnen mit der Terrasse. Wie eine beheizte, überdachte Terrasse zum Außenraum wird, den Käufer ganzjährig genießen."
 cta: {label: "Den Leitfaden zum Bauträgerprogramm anfordern", asset: A15}
 hero: t-012-034
 images: [l-010-067]
@@ -18,7 +18,7 @@ owner_review: Fachhandelsvertrieb
 status: draft
 gated: false
 related: [BLD-CO-01, BLD-IN-01, BLD-PP-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: National Association of Home Builders (Eye on Housing)
@@ -89,13 +89,13 @@ translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 
-Die Ausstattung im Freien, die Käufer am meisten schätzen, beginnt mit der Terrasse – und was eine Terrasse wirklich nutzbar macht, ist Wärme. In der Käuferumfrage 2024 des US-Bauträgerverbands NAHB bewerteten 86 % der US-Käufer eine Terrasse als unverzichtbar oder wünschenswert, gleichauf mit dem Hauswirtschaftsraum an der Spitze der Liste[^s1]. Eingebaute Strahlungswärme, bei der Rohinstallation vorverkabelt und mit ihrer Steuerung fertiggestellt, macht aus dieser Terrasse statt einer Sommer-Bodenplatte einen Raum, den die Familie auch an einem kalten Abend nutzt.
+Die Ausstattung im Freien, die Käufer am meisten schätzen, beginnt mit der Terrasse – und was eine Terrasse zum Leben erweckt, ist Wärme. In der Käuferumfrage 2024 des US-Bauträgerverbands NAHB bewerteten 86 % der US-Käufer eine Terrasse als unverzichtbar oder wünschenswert, gleichauf mit dem Hauswirtschaftsraum an der Spitze der Liste[^s1]. Eingebaute Strahlungswärme, in der Rohinstallation vorverkabelt und mit ihrer Steuerung fertiggestellt, verwandelt diese Terrasse von einer Bodenplatte für den Sommer in einen Raum, in dem die Familie auch an einem kühlen Abend zusammenkommt.
 
-![Überdachte Außenküche mit Bar und bündig eingelassenen Deckenheizstrahlern](img:l-010-067)
+![Überdachte Außenküche mit Bar, erwärmt von bündig eingelassenen Deckenheizstrahlern](img:l-010-067)
 
-## Welche Ausstattung im Freien wollen Käufer von Neubauten wirklich?
+## Die Ausstattung im Freien, die sich Käufer von Neubauten wünschen
 
-Die Käuferdaten aus den USA sind eindeutig. Der Außenbereich zählt zur Grundausstattung, nicht zu den Extras.
+Die Käuferdaten aus den USA sind bemerkenswert einheitlich: Der Außenbereich steht neben der Grundausstattung, nicht bei den Extras.
 
 | Ausstattung (NAHB, What Home Buyers Really Want, 2024, US-Daten) | Anteil der Käufer, die sie als unverzichtbar oder wünschenswert bewerten |
 |---|---|
@@ -104,31 +104,29 @@ Die Käuferdaten aus den USA sind eindeutig. Der Außenbereich zählt zur Grunda
 | Vordach am Eingang | 81 %[^s1] |
 | Gartengestaltung | 80 %[^s1] |
 
-Außenküchen und Außenkamine stehen noch nicht auf der Liste der meistgewünschten Ausstattung, doch die NAHB nennt beide unter den Merkmalen, deren Beliebtheit im letzten Jahrzehnt am stärksten gewachsen ist[^s2]. Feuer war auch die bevorzugte Aufwertung für 21 % der US-Hausbesitzer, die laut der Houzz-Studie 2024 ihren Außenbereich verbesserten[^s7]. Käufer wollen Wärme im Freien. Die meisten Bauträger liefern sie noch als Feuerstelle – oder gar nicht.
+Außenküchen und Außenkamine haben die Liste der meistgewünschten Ausstattung noch nicht erreicht, doch die NAHB nennt beide unter den Merkmalen, deren Beliebtheit im letzten Jahrzehnt am stärksten gewachsen ist[^s2]. Feuer war auch die bevorzugte Aufwertung für 21 % der US-Hausbesitzer, die laut der Houzz-Studie 2024 ihren Außenbereich verbesserten[^s7]. Käufer wünschen sich Wärme im Freien, und doch liefern die meisten Bauträger sie noch als Feuerstelle, wenn sie sie überhaupt anbieten.
 
-## Wie viele Neubauten haben bereits eine Terrasse?
+## Die meisten Neubauten haben die Terrasse bereits
 
-In den USA die meisten. Die Auswertung der US-Zensusdaten durch die NAHB weist Terrassen bei 61,8 % der 2024 begonnenen Einfamilienhäuser aus[^s3] und bei 60,5 % im Jahr 2025[^s4]. Der Anteil schwankt je nach Region: über 80 % in den Bundesstaaten der Region West South Central und rund 14 % in Neuengland im Jahr 2024[^s3]. [[VERIFY: vergleichbare Daten für Deutschland, falls vorhanden — Partner Deutschland]]
+Die Auswertung der US-Zensusdaten durch die NAHB weist Terrassen bei 61,8 % der 2024 begonnenen Einfamilienhäuser aus[^s3] und bei 60,5 % im Jahr 2025[^s4]. Der Anteil schwankt stark nach Region, von über 80 % in den Bundesstaaten der Region West South Central bis zu rund 14 % in Neuengland im Jahr 2024[^s3]. [[VERIFY: vergleichbare Daten für Deutschland, falls vorhanden — Partner Deutschland]]
 
-Das ist für den Sonderwunsch entscheidend. Bodenplatte, Überdachung und oft die Pergola sind bereits im Plan. Wärme ist der kleinste Schritt von „einer Terrasse“ zu „einem Außenraum“.
+Für Ihren Sonderwunsch ist das eine gute Nachricht. Bodenplatte, Überdachung und oft die Pergola sind bereits im Plan, und so ist Wärme der kleinste Schritt zwischen einer Terrasse und einem Außenraum.
 
-## Warum verändert gerade die Heizung, wie der Raum genutzt wird?
+## Wärme verändert, wie der ganze Raum genutzt wird
 
-Weil die meisten Außenbereiche leer stehen, sobald es kühl wird. In Bromics US-Hausbesitzerumfrage 2026 mit Atomik Research sagten 94 % der Befragten, ihr Außenbereich könnte stärker genutzt werden, und 67 %, dass eine Heizung die Nutzung im Freien verlängert. Nur 23 % gaben der Heizung in der Planungsphase Priorität[^s8].
+Die meisten Außenbereiche werden still, sobald der Abend kühl wird. In Bromics US-Hausbesitzerumfrage 2026 mit Atomik Research sagten 94 % der Befragten, ihr Außenbereich könnte stärker genutzt werden, und 67 %, dass eine Heizung die Nutzung im Freien verlängert – doch nur 23 % gaben der Heizung in der Planungsphase Priorität[^s8]. Genau hier liegt Ihre Chance als Bauträger: Ihre Käufer wünschen sich diese Abende draußen, und viele wurden in der Bemusterung schlicht nie nach Wärme gefragt.
 
-Diese 23 % sind die Chance des Bauträgers. Der Käufer will die Abende draußen; er wurde nur in der Bemusterung nicht danach gefragt.
+Strahlungswärme passt wunderbar zu dieser Aufgabe. Sie wärmt Menschen und Oberflächen statt der Luft und wirkt deshalb auch bei leichtem Wind, wo Warmluft versagt. Eine überdachte Terrasse, deren Umfang zu mindestens 30 % dauerhaft offen ist, hält zudem unter dem Dach etwas Wärme, was noch ein wenig mehr Behaglichkeit bringt.
 
-Strahlungswärme passt zu dieser Aufgabe. Sie wärmt Menschen und Oberflächen, nicht die Luft, und wirkt deshalb auch bei leichtem Wind, wo Warmluft versagt. Eine überdachte Terrasse, deren Umfang zu mindestens 30 % dauerhaft offen ist, hält zudem unter dem Dach etwas Wärme, was hilft.
+## Wie Aufwertungen im Freien ihren Wert halten
 
-## Rechnet sich eine Aufwertung im Freien beim Wiederverkauf?
+US-Immobilienmakler bewerten Arbeiten im Außenbereich hoch. Im Remodeling Impact Report 2023 von NAR und NALP (US-Daten) wurden für eine neue Terrasse geschätzte Kosten von 10.500 US-$ und ein Joy Score von 9,9 von 10 angegeben[^s5]. Die Grafik zur Kostendeckung im Bericht setzt eine neue Terrasse auf geschätzte 95 % [[VERIFY: die 95 % Kostendeckung für eine neue Terrasse auf der Seite des NAR-Berichts bestätigen — Marketing]][^s6]. Das sind Schätzungen von US-Maklern für Umbauten und keine Preise für Sonderwünsche im Neubau; nehmen Sie sie als Orientierung und halten Sie Ihr Kalkulationsmodell davon getrennt.
 
-US-Immobilienmakler bewerten Arbeiten im Außenbereich positiv. Im Remodeling Impact Report 2023 von NAR und NALP (US-Daten) wurden für eine neue Terrasse geschätzte Kosten von 10.500 US-$ und ein Joy Score von 9,9 von 10 angegeben[^s5]. Die Grafik zur Kostendeckung im Bericht setzt eine neue Terrasse auf geschätzte 95 % [[VERIFY: die 95 % Kostendeckung für eine neue Terrasse auf der Seite des NAR-Berichts bestätigen — Marketing]][^s6]. Das sind Schätzungen von US-Maklern für Umbauten, keine Preise für Sonderwünsche im Neubau – nutzen Sie sie als Richtung, nicht als Kalkulationsmodell.
+Zahlen zu Ihren eigenen Margen veröffentlichen wir nicht. Preise für Sonderwünsche, Bauträger-Staffeln und Lieferzeiten kommen aus dem Bauträgerprogramm [[VERIFY: Preisstaffeln und Margenstruktur für Bauträger — Fachhandelsvertrieb]].
 
-Zu Ihren eigenen Margen: Die veröffentlichen wir nicht. Preise für Sonderwünsche, Bauträger-Staffeln und Lieferzeiten kommen aus dem Bauträgerprogramm [[VERIFY: Preisstaffeln und Margenstruktur für Bauträger — Fachhandelsvertrieb]].
+## Ein Paket für die beheizte Terrasse, das Ihre Käufer verstehen
 
-## Wie sieht ein Paket für eine beheizte Terrasse aus?
-
-Halten Sie es bei einer Entscheidung für den Käufer und einer Zeile im Elektroplan.
+Die erfolgreichsten Pakete verlangen vom Käufer eine einzige Entscheidung und fügen dem Elektroplan eine einzige Zeile hinzu.
 
 | Paketbestandteil | Was es auf der Baustelle bedeutet | Hinweise |
 |---|---|---|
@@ -138,42 +136,42 @@ Halten Sie es bei einer Entscheidung für den Käufer und einer Zeile im Elektro
 | Elektro | Eigener Stromkreis je Heizstrahler oder Zone, in der Rohinstallation vor dem Trockenbau oder dem Schließen der Untersicht vorbereitet | Siehe die [Checkliste zur Rohinstallation](item:BLD-IN-01) |
 | Montage | Einbaurahmen für bündige Untersichten; Wandmontage mindestens 1,83 m über dem Boden, Deckenmontage mindestens 2,44 m (je nach Leistung) | Mit der Produktanleitung und dem örtlichen Bauamt abstimmen |
 
-In Stufen verkauft es sich leichter. Ein Paket mit einer Zone und On/Off, ein Paket mit zwei dimmbaren Zonen und ein eingelassenes, per App gesteuertes Paket geben dem Vertrieb drei klare Antworten. Der [Leitfaden Gut, Besser, Premium](item:BLD-CO-01) stellt sie vor.
+Stufen machen das Paket leichter verkäuflich. Ein Paket mit einer Zone und On/Off, ein Paket mit zwei dimmbaren Zonen und ein eingelassenes, per App gesteuertes Paket geben Ihrem Vertrieb klare Antworten für jeden Käufer, und der [Leitfaden Gut, Besser, Premium](item:BLD-CO-01) stellt sie vor.
 
-## Was hält Bauträger heute davon ab, Wärme anzubieten?
+## Wärme auf jeden Plan bringen
 
-Drei Dinge, die sich alle in der Planungsphase beheben lassen:
+Die üblichen Hürden lassen sich alle mühelos in der Planungsphase lösen.
 
-- **Die Entscheidung fällt zu spät.** Ist die Untersicht geschlossen, heißt Wärme, fertige Bauteile zu öffnen. In der Rohinstallation kostet sie am wenigsten.
-- **Niemand ist für die Steuerung zuständig.** Ein Heizstrahler ohne geplanten Schalterort wird zur Reklamation. Setzen Sie das Steuergerät zusammen mit dem Heizstrahler in den Elektroplan.
-- **Die Bemessung wird geschätzt.** Zu wenige Heizstrahler oder zu hoch montierte Geräte gelten als „nicht warm genug“. Siehe [fünf Installationsfehler, die zu Reklamationen führen](item:BLD-PP-01).
+- **Die Entscheidung fällt spät.** Ist die Untersicht erst geschlossen, heißt Wärme nachrüsten, fertige Bauteile zu öffnen – in der Rohinstallation kostet sie am wenigsten.
+- **Für die Steuerung ist niemand zuständig.** Ein Heizstrahler ohne geplanten Schalterort wird leicht zur Reklamation. Setzen Sie das Affinity Smart-Heat® Steuergerät zusammen mit dem Heizstrahler in den Elektroplan.
+- **Die Bemessung wird geschätzt.** Zu wenige Heizstrahler oder zu hoch montierte Geräte lassen Käufer spüren, dass die Terrasse nicht warm genug ist. Siehe [fünf Installationsfehler, die zu Reklamationen führen](item:BLD-PP-01).
 
-## Planungscheckliste
+## Ihre Planungscheckliste
 
 - Bieten Sie Wärme bei jedem Grundriss an, der bereits eine überdachte Terrasse, Pergola oder Außenküche enthält.
-- Kalkulieren Sie sie als Paket: Heizstrahler, Steuerung, Stromkreis und Montage zusammen.
+- Kalkulieren Sie sie als Paket, mit Heizstrahlern, Steuerung, Stromkreis und Montage zusammen.
 - Legen Sie die Positionen der Heizstrahler und den Ort des Steuergeräts vor der Elektro-Rohinstallation fest.
-- Ziehen Sie einen eigenen Stromkreis je Heizstrahler oder Zone; bemessen Sie ihn mit dem Elektrofachbetrieb nach dem Typenschild und DIN VDE 0100.
-- Sehen Sie Einbaurahmen vor, wo der Käufer auf die Untersicht schaut.
+- Ziehen Sie einen eigenen Stromkreis je Heizstrahler oder Zone, bemessen mit dem Elektrofachbetrieb nach dem Typenschild und nach DIN VDE 0100.
+- Sehen Sie Einbaurahmen überall dort vor, wo der Käufer die Untersicht sieht.
 - Nutzen Sie Bromics kostenlosen Planungsservice für Pläne der beheizten Flächen in Musterhäusern.
 - Klären Sie Montagehöhen und Abstände mit der Produktanleitung und dem örtlichen Bauamt.
 
 ## FAQ
 
 ### Welche Ausstattung im Freien steigert den Wert eines Neubaus am meisten?
-Die Terrasse ist die meistgewünschte Ausstattung im Freien; in der NAHB-Umfrage 2024 bewerteten sie 86 % der US-Käufer als unverzichtbar oder wünschenswert[^s1]. Wärme, Beleuchtung und eine Überdachung machen diese Terrasse für einen größeren Teil des Jahres nutzbar.
+Die Terrasse ist die meistgewünschte Ausstattung im Freien; in der NAHB-Umfrage 2024 bewerteten sie 86 % der US-Käufer als unverzichtbar oder wünschenswert[^s1]. Wärme, Beleuchtung und eine Überdachung lassen Familien diese Terrasse über einen größeren Teil des Jahres genießen.
 
 ### Ist eine Außenheizung Standard oder ein Sonderwunsch?
-In den meisten Neubauten ist sie noch ein Sonderwunsch. Bauträger, die jede überdachte Terrasse vorverkabeln, können die Heizstrahler als Option verkaufen, ohne fertige Bauteile wieder zu öffnen.
+In den meisten Neubauten ist sie noch ein Sonderwunsch. Bauträger, die jede überdachte Terrasse vorverkabeln, können die Heizstrahler als Option anbieten, ohne fertige Bauteile wieder zu öffnen.
 
 ### Elektro oder Gas für ein Bauträgerpaket?
-Elektro ist für die meisten überdachten Terrassen das einfachere Paket: keine Abgasführung, keine Gasleitung, ein eigener Stromkreis und ein Steuergerät an der Wand. Gas passt zu größeren, offeneren Flächen, an denen bereits ein Gasanschluss liegt; Bromics Planungsservice kann beides bemessen.
+Elektro ist für die meisten überdachten Terrassen das einfachere Paket, ohne Abgasführung und ohne Gasleitung, nur mit einem eigenen Stromkreis und einem Steuergerät an der Wand. Gas passt zu größeren, offeneren Flächen, an denen bereits ein Gasanschluss liegt, und Bromics Planungsservice kann beides bemessen.
 
 ### Welche Steuerung braucht eine beheizte Terrasse?
 Mindestens ein Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät und einen Wandschalter. App-Steuerung, Zeitpläne und Sprachsteuerung erfordern kompatible Affinity-Steuerungen, die separat erhältlich sind.
 
 ### Steigert eine Heizung den Wiederverkaufswert?
-Keine Studie betrachtet die Terrassenheizung für sich. US-Makler schätzen Kostendeckung und Zufriedenheit bei neuen Terrassen hoch ein[^s5], und die Wärme ist es, die den Raum in mehr Monaten nutzbar macht.
+Keine Studie betrachtet die Terrassenheizung für sich. US-Makler schätzen Kostendeckung und Zufriedenheit bei neuen Terrassen hoch ein[^s5], und die Wärme ist es, die den Raum in mehr Monaten des Jahres genießen lässt.
 
 Bereit, Wärme auf Ihr Optionsblatt zu setzen? Fordern Sie den Leitfaden zum Bauträgerprogramm an.
 

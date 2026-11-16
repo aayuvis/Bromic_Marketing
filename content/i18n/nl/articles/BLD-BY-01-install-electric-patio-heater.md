@@ -1,16 +1,16 @@
 ---
 id: BLD-BY-01
 type: article
-title: "Elektrische terrasverwarmers installeren: montage, vrije afstanden en inbedrijfstelling"
+title: "Elektrische terrasverwarmers installeren: montage, vrije afstanden en inbedrijfstelling in één keer goed"
 audience: [BLD]
 stage: [BY]
 cell: BLD-BY
 asset: A24
-summary: "De volgorde van installatie voor een ingebouwde elektrische terrasverwarmer, van het controleren van de voorbekabeling tot het overdragen van de bediening, met wat u bij elke stap controleert. De installatiehandleiding van het product is bij elke stap leidend."
+summary: "De installatievolgorde voor een ingebouwde elektrische terrasverwarmer, van het controleren van de voorbekabeling tot het overdragen van de bediening, met wat u bij elke stap bevestigt. De installatiehandleiding van het product is bij elke stap leidend."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe installeer je een elektrische terrasverwarmer?"
-meta_description: "Installeer een elektrische terrasverwarmer in één keer goed: controleer de voorbekabeling, monteer op de hoogte en afstand uit de handleiding, sluit aan, koppel de bediening, test en draag over."
+meta_description: "Installeer een elektrische terrasverwarmer in één keer goed: check de voorbekabeling, monteer volgens de handleiding, sluit aan, koppel de bediening."
 cta: {label: "Download de reeks installatiegidsen", asset: A17}
 hero: g-electrician
 images: [t-006-016]
@@ -18,7 +18,7 @@ owner_review: verkoop vakhandel
 status: draft
 gated: false
 related: [BLD-IN-01, BLD-PP-01, BLD-BY-KB1]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -46,15 +46,16 @@ translation_of: BLD-BY-01
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 ---
-Een elektrische terrasverwarmer installeert u in zes stappen: controleer of de voorbekabeling past bij de verwarmer die op de bouwplaats staat, bevestig de beugel op achterhout op de hoogte en met de vrije afstanden uit de installatiehandleiding, maak de elektrische aansluiting met de spanning eraf, plaats de verwarmer en een eventuele inbouwset, koppel en test de Affinity-bediening, en stel daarna in bedrijf en draag over. De handleiding van het exacte model is bij elke stap leidend. Dit artikel geeft de volgorde en de controles die terugkomen op de klus voorkomen.
+
+Een elektrische terrasverwarmer installeert u in zes stappen. Controleer of de voorbekabeling past bij de verwarmer op de bouwplaats, bevestig de beugel op achterhout op de hoogte en met de vrije afstanden uit de installatiehandleiding, maak de elektrische aansluiting met de spanning eraf, plaats de verwarmer en een eventuele inbouwset, koppel en test de Affinity Smart-Heat®-bediening, en stel daarna in bedrijf en draag over. De handleiding van het exacte model is bij elke stap leidend, en de volgorde en controles hieronder helpen u om het in één keer goed te doen.
 
 *Volg de installatiehandleiding van het product. Elektrisch werk moet worden uitgevoerd door een erkend elektrotechnisch installateur volgens NEN 1010; vraag bij de gemeente na welke eisen gelden. [[VERIFY: huidige editie van NEN 1010 en eisen voor buitengroepen — Bromic Benelux distributor]]*
 
-![Overdekte buitenkeuken en bar met vlak ingebouwde plafondverwarmers](img:l-010-067)
+![Overdekte buitenkeuken en bar, verwarmd door vlak ingebouwde plafondverwarmers](img:l-010-067)
 
-## Wat controleert u voordat de verwarmer wordt opgehangen?
+## Voordat de verwarmer wordt opgehangen
 
-Controleer de voorbekabeling aan de hand van de verwarmer in de doos, niet die op de tekening.
+Controleer de voorbekabeling aan de hand van de verwarmer die in de doos is geleverd, want die kan afwijken van de verwarmer op de tekening.
 
 | Controle | Waartegen | Als het niet klopt |
 |---|---|---|
@@ -66,50 +67,50 @@ Controleer de voorbekabeling aan de hand van de verwarmer in de doos, niet die o
 | Vrije afstanden | Tabel met vrije afstanden in de handleiding [[VERIFY: per model — productteam]] | Verplaats voordat u bevestigt |
 | Inbouwopening | Afmetingen van de inbouwset [[VERIFY: per model — productteam]] | Pas de sparing aan voordat de verwarmer komt |
 
-## Hoe wordt de verwarmer gemonteerd?
+## De verwarmer monteren
 
-De volgorde is gelijk voor wand-, plafond- en inbouwmontage; de beugels verschillen.
+De volgorde is gelijk voor wand-, plafond- en inbouwmontage; alleen de beugels verschillen.
 
 1. **Schakel de groep vrij** in de groepenkast en beveilig of label hem.
 2. **Bevestig de beugel** op het achterhout met de bevestigingsmiddelen uit de handleiding, waterpas en op de hoogte uit de handleiding.
-3. **Stel de hoek in** bij wandmontage zodat de warmte op de zitplekken valt, binnen wat de handleiding toestaat.
-4. **Inbouwverwarmers**: plaats eerst de inbouwset in de sparing, daarna de verwarmer in de set. Met inbouwsets worden Platinum en Tungsten Electric verwarmers vlak in de holle ruimte van het plafond gemonteerd[^s2].
-5. **Eclipse op een paal**: Eclipse wordt geleverd op een enkele paal van 20, 61 of 122 cm, een dubbele paal of een gebogen paal[^s1]; bevestig de paal aan een constructie die ervoor geschikt is.
+3. **Stel de hoek in** bij wandmontage zodat de warmte over de zitplekken valt, binnen wat de handleiding toestaat.
+4. **Bij inbouwverwarmers** plaatst u eerst de inbouwset in de sparing en daarna de verwarmer in de set. Met inbouwsets worden Platinum en Tungsten Electric verwarmers vlak in de holle ruimte van het plafond gemonteerd[^s2], voor een naadloze afwerking.
+5. **Bij Eclipse op een paal** kiest u uit een enkele paal van 20, 61 of 122 cm, een dubbele paal of een gebogen paal[^s1], en bevestigt u de paal aan een constructie die ervoor geschikt is.
 
 [[DIAGRAM: zijdoorsnede van wand-, plafond- en inbouwmontage met beugel, achterhout, minimale hoogtes en zones met vrije afstand]]
 
-## Hoe wordt hij aangesloten?
+## De verwarmer aansluiten
 
-Volgens het aansluitschema in de installatiehandleiding, door een erkend elektrotechnisch installateur. Op de bouwplaats:
+Een erkend elektrotechnisch installateur sluit elke verwarmer aan volgens het aansluitschema in de installatiehandleiding. Op de bouwplaats betekent dat:
 
-- Breng de eigen groep naar het aansluitpunt van de verwarmer met weerbestendige materialen.
-- Voer de groep via de Affinity-regelaar zoals het schema aangeeft [[VERIFY: aansluitschema en klemmenindeling van de Affinity-regelaar — productteam]].
-- Plaats de handmatige wandschakelaar waar het plan hem tekent.
-- Pas aardlekbeveiliging toe zoals NEN 1010 voorschrijft. In de VS eist de NEC van 2023 die voor buitencontactdozen bij woningen tot 150 V ten opzichte van aarde en tot 50 A[^s3]; of een vast aangesloten verwarmer daaronder valt, is daar een lokale interpretatie. [[VERIFY: eisen van NEN 1010 voor aardlekbeveiliging van vast aangesloten buitentoestellen — Bromic Benelux distributor]] Zie [het antwoord over aardlekbeveiliging](item:BLD-BY-KB1).
+- De eigen groep naar het aansluitpunt van de verwarmer brengen met weerbestendige materialen.
+- De groep via de Affinity-regelaar voeren zoals het schema aangeeft [[VERIFY: aansluitschema en klemmenindeling van de Affinity-regelaar — productteam]].
+- De handmatige wandschakelaar plaatsen waar het plan hem tekent.
+- Aardlekbeveiliging toepassen zoals NEN 1010 voorschrijft. In de VS eist de NEC van 2023 die voor buitencontactdozen bij woningen tot 150 V ten opzichte van aarde en tot 50 A[^s3], en of een vast aangesloten verwarmer daar als "contactdoos" geldt, is een lokale interpretatie. [[VERIFY: eisen van NEN 1010 voor aardlekbeveiliging van vast aangesloten buitentoestellen — Bromic Benelux distributor]] Zie [het antwoord over aardlekbeveiliging](item:BLD-BY-KB1).
 
-![Stedelijk dakterras, houten plafond met inbouwverwarmer](img:t-006-016)
+![Stedelijk dakterras met een verwarmer ingebouwd in een warm houten plafond](img:t-006-016)
 
-## Hoe stelt u de verwarmer en de bediening in bedrijf?
+## De verwarmer en de bediening in bedrijf stellen
 
-Inbedrijfstelling bewijst dat het systeem werkt zoals het is verkocht.
+Bij de inbedrijfstelling bevestigt u dat het systeem alles levert wat de bewoner is beloofd.
 
-1. **Zet spanning en test** elke verwarmer op zijn wandschakelaar. Vergelijk de opwarmtijd met wat de handleiding voor dat model beschrijft; een verwarmer die traag opwarmt, wijst terug naar de spanning.
-2. **Controleer elke stand.** Loop op een Dimmer-regelaar alle standen door; controleer bij Eclipse 33, 66 en 100% vermogen en de dimbare randverlichting[^s1].
-3. **Koppel de app** als de klant die heeft gekocht. De Bromic Smart-Heat app regelt zones, schema's en timers en vraagt om compatibele Affinity Smart-Heat Controls, die apart worden verkocht[^s1]. Geef elke zone de naam die het gezin gebruikt: "Eettafel", "Lounge".
-4. **Koppel integraties** als die zijn verkocht: Amazon Alexa, Google Assistant, Control4, Crestron of Lutron. De compatibiliteit verschilt en kan extra integratiehardware of configuratie vragen[^s1]. Stem af met de installateur van de audio- en domoticasystemen.
+1. **Zet spanning en test** elke verwarmer op zijn wandschakelaar. Vergelijk de opwarmtijd met wat de handleiding voor dat model beschrijft, want een verwarmer die traag opwarmt, wijst meestal terug naar de spanning.
+2. **Controleer elke stand.** Loop op een Dimmer-regelaar alle standen door, en controleer bij Eclipse 33, 66 en 100% vermogen en de dimbare randverlichting[^s1].
+3. **Koppel de app** als de bewoner daarvoor heeft gekozen. De Bromic Smart-Heat-app regelt zones, schema's en timers en vraagt om compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht[^s1]. Geef elke zone de naam die het gezin voor de ruimte gebruikt, zoals "Eettafel" of "Lounge".
+4. **Koppel integraties** als die zijn verkocht – Amazon Alexa, Google Assistant, Control4, Crestron of Lutron. De compatibiliteit verschilt en kan extra integratiehardware of configuratie vragen[^s1], dus stem af met de installateur van de audio- en domoticasystemen.
 5. **Test de aardlekschakelaars** met hun testknop, waar aanwezig.
 6. **Leg vast** op de werkbon: model, serienummer, groep, installatieautomaat, regelaar en gegevens van het app-account [[VERIFY: procedure voor garantieregistratie — productteam]].
 
-## Wat hoort bij een goede overdracht?
+## Een overdracht die bewoners vertrouwen geeft
 
-Vijf minuten met de bewoner voorkomen het telefoontje "hoe zet ik hem aan".
+Vijf minuten met de bewoner bij de overdracht voorkomen later het telefoontje "hoe zet ik hem aan".
 
 - Laat de wandschakelaar, de regelaar en, als die er is, de app zien.
-- Leg uit dat buitenwarmte met de hand of via een schema wordt geregeld, niet met een thermostaat[^s2].
-- Wijs de zone met vrije afstand aan: geen hangplanten of decoratie in de buurt van de verwarmer.
+- Leg uit dat buitenwarmte met de hand of via een schema wordt geregeld, omdat een thermostaat buiten geen zinvolle rol heeft[^s2].
+- Wijs de zone met vrije afstand aan, en raad aan hangplanten en decoratie ruim uit de buurt van de verwarmer te houden.
 - Laat de handleiding, de werkbon en de onderhoudsinstructies achter [[VERIFY: richtlijnen voor reiniging en onderhoud per afwerking — productteam]].
 
-## Checklist voor de planning
+## Uw installatiechecklist
 
 - Model, vermogen en spanning op het typeplaatje passen bij de groep.
 - Installatieautomaat gedimensioneerd op continubelasting volgens NEN 1010 en binnen het maximum op het typeplaatje.
@@ -130,13 +131,13 @@ Controleer of de groep past bij het typeplaatje, bevestig de beugel op achterhou
 De montage is timmerwerk, maar de elektrische aansluiting hoort te worden gemaakt door een erkend elektrotechnisch installateur volgens NEN 1010.
 
 ### Hoe hoog monteer je een infraroodverwarmer?
-Volgens de richtlijn van Bromic minstens 1,83 m bij wandmontage en 2,44 m bij plafondmontage; de exacte hoogte per model en vermogen staat in de installatiehandleiding.
+Volgens de richtlijn van Bromic minstens 1,83 m bij wandmontage en 2,44 m bij plafondmontage, met de exacte hoogte per model en vermogen in de bijbehorende installatiehandleiding.
 
 ### Heeft de verwarmer een regelaar nodig?
-Ja. Elke verwarmer van Bromic wordt geïnstalleerd met zijn bediening: een Affinity Smart-Heat On/Off-, Dimmer- of Eclipse-regelaar en een handmatige wandschakelaar.
+Ja. Elke verwarmer van Bromic wordt geïnstalleerd met zijn bediening, een Affinity Smart-Heat On/Off-, Dimmer- of Eclipse-regelaar en een handmatige wandschakelaar.
 
 ### Waarom maakt de app geen verbinding?
-App- en wififuncties vragen om compatibele Affinity Smart-Heat Controls, die apart worden verkocht. Controleer of er een compatibele regelaar is geïnstalleerd voordat u het netwerk gaat onderzoeken.
+App- en wififuncties vragen om compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht, dus controleer of er een compatibele regelaar is geïnstalleerd voordat u het netwerk gaat onderzoeken.
 
 Download de reeks installatiegidsen voor de stappen per model.
 
