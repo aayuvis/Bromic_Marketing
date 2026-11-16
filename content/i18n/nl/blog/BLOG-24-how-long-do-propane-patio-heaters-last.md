@@ -7,11 +7,11 @@ audience: [RES, COM]
 stage: [CO]
 cell: RES-CO
 asset: A24
-summary: "Looptijd is kilo's propaan maal ongeveer 14 kWh per kg, gedeeld door het vermogen van de verwarmer in kW. Een volle fles van 9 kg (de Amerikaanse 20 lb-fles) op een Tungsten Smart-Heat Freestanding van 11,1 kW gaat op vol vermogen ongeveer 11 uur mee; een Nederlandse fles van 10,5 kg ongeveer 13 uur. De formule, de cijfers per Bromic-propaanverwarmer en hoe je er een kiest."
+summary: "Een volle Nederlandse fles van 10,5 kg laat een Tungsten Smart-Heat Freestanding van 11,1 kW op vol vermogen ongeveer 13 uur gloeien; de Amerikaanse fles van 20 lb (ongeveer 9 kg) ongeveer 11 uur – kilo's propaan maal ongeveer 14 kWh per kg, gedeeld door het vermogen in kW. De eenvoudige som, de looptijd per Bromic-propaanverwarmer en hoe je de jouwe kiest."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe lang gaat een propaanfles van 10,5 kg mee op een terrasverwarmer?"
-meta_description: "Een volle propaanfles van 10,5 kg laat een terrasverwarmer van 11,1 kW op vol vermogen ongeveer 13 uur branden. De formule, looptijden per Bromic-verwarmer en hoe je kiest."
+meta_description: "Hoe lang gaat een propaanfles mee op een terrasverwarmer? Een volle fles van 10,5 kg geeft een verwarmer van 11,1 kW ongeveer 13 uur. Bromic-looptijden."
 cta: {label: "Bereken je ruimte", asset: A03}
 hero: w-8
 owner_review: marketing
@@ -20,7 +20,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-IN-01, COM-CO-01, RES-CO-01, RES-CO-KB2]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: U.S. Energy Information Administration
@@ -90,22 +90,21 @@ translation_of: BLOG-24
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 ---
+Een volle Amerikaanse propaanfles van 20 lb (ongeveer 9 kg) laat een terrasverwarmer van 11,1 kW op vol vermogen ongeveer 11 uur branden, genoeg voor een paar lange avonden buiten. De som erachter is eenvoudig: zo'n fles bevat ongeveer 17,8 liter,[^s3] elke liter bevat ongeveer 7,1 kWh,[^s1] en de verwarmer verbruikt elk uur zijn nominale vermogen. Met de in Nederland gangbare flessen van 10,5 of 11 kg kom je op dezelfde verwarmer op ongeveer 13 à 14 uur. Een gedeeltelijk gevulde fles, een zwaardere verwarmer of een hogere stand maakt de looptijd korter.
 
-Een volle Amerikaanse propaanfles van 20 lb (ongeveer 9 kg) laat een terrasverwarmer van 11,1 kW op vol vermogen ongeveer 11 uur branden. De som is eenvoudig: zo'n fles bevat ongeveer 17,8 liter,[^s3] elke liter bevat ongeveer 7,1 kWh,[^s1] en de verwarmer verbruikt elk uur zijn nominale vermogen. Met de in Nederland gangbare flessen van 10,5 of 11 kg kom je op dezelfde verwarmer op ongeveer 13 à 14 uur. Een gedeeltelijk gevulde fles, een zwaardere verwarmer of een hogere stand maakt de looptijd korter.
+![Tungsten Smart-Heat Freestanding-propaanverwarmer die rieten loungemeubels verwarmt op een houten vlonder aan een bosmeer](img:w-8)
 
-![Tungsten Smart-Heat Freestanding-propaanverwarmer op een houten vlonder aan een bosmeer, met rieten loungemeubels](img:w-8)
-
-## Hoe bereken je de looptijd op propaan?
+## Zo bereken je je looptijd op propaan
 
 **Looptijd (uur) = kg propaan in de fles × 14 kWh ÷ vermogen van de verwarmer in kW**
 
-- **Kilo's in de fles.** Een fles van 10,5 kg bevat 10,5 kg propaan wanneer hij vol is. Een kilo propaan is ongeveer 2 liter.[^s3] Weeg je fles en trek het leeggewicht (tarra) af dat op de kraag staat. [[VERIFY: gebruikelijke vulling van ruilflessen in Nederland — digitale marketing]]
+- **Kilo's in de fles.** Een fles van 10,5 kg bevat 10,5 kg propaan wanneer hij vol is. Een kilo propaan is ongeveer 2 liter.[^s3] Het loont om je fles te wegen en het leeggewicht (tarra) af te trekken dat op de kraag staat. [[VERIFY: gebruikelijke vulling van ruilflessen in Nederland — digitale marketing]]
 - **Energie per kg.** De Amerikaanse EIA geeft voor propaan ongeveer 7,1 kWh per liter (91.452 BTU per US-gallon);[^s1] het Amerikaanse DOE vrijwel hetzelfde (91.420 BTU per gallon).[^s2] Met ongeveer 2 liter per kg is dat ongeveer 14 kWh per kg.
-- **Het vermogen van de verwarmer** is zijn maximale belasting. Laat je hem lager branden, dan gaat de fles langer mee.
+- **Het vermogen van de verwarmer** is zijn maximale belasting, dus de fles gaat langer mee zodra je hem lager laat branden.
 
 Rekenvoorbeeld voor een Amerikaanse fles van 9 kg: 9 × 14 = 126 kWh in de fles. 126 ÷ 11,1 = 11,3 uur. Voor een fles van 10,5 kg: 10,5 × 14 = 147 kWh, en 147 ÷ 11,1 = 13,2 uur.
 
-## Hoe lang brandt elke Bromic-propaanverwarmer?
+## Zo lang brandt elke Bromic-propaanverwarmer
 
 | Verwarmer (propaan) | Nominaal vermogen | Uur per kg | Uur op een volle fles van 9 kg (VS, 20 lb) | Uur op een volle fles van 10,5 kg |
 |---|---|---|---|---|
@@ -114,28 +113,28 @@ Rekenvoorbeeld voor een Amerikaanse fles van 9 kg: 9 × 14 = 126 kWh in de fles.
 | Platinum Gas, groter model | ca. 11,7 kW[^s6] | 1,2 | Ongeveer 11 | Ongeveer 12,5 |
 | Tungsten Gas (wand of plafond) | Nog niet gepubliceerd | – | [[VERIFY: vermogen van Tungsten Gas, daarna de looptijd — productteam]] | – |
 
-Alles op vol vermogen, berekend met de formule hierboven. Verwarmers aan wand of plafond op propaan worden meestal door een gasinstallateur vanuit een grotere tank aangesloten, dus voor die toestellen is het aantal uur per kg het bruikbare getal. [[VERIFY: looptijden op Nederlandse flessen van 10,5 en 11 kg, berekend uit de Amerikaanse bronnen — productteam]]
+Alle cijfers gelden op vol vermogen en zijn berekend met de formule hierboven. Verwarmers aan wand of plafond op propaan worden meestal door een gasinstallateur vanuit een grotere tank aangesloten, dus voor die toestellen is het aantal uur per kg het bruikbaarste getal. [[VERIFY: looptijden op Nederlandse flessen van 10,5 en 11 kg, berekend uit de Amerikaanse bronnen — productteam]]
 
-**Een correctie.** Eerdere Bromic-artikelen gaven 9–10 uur, 9 uur en 10–17 uur voor vergelijkbare flessen.[^s7] De berekening hierboven vervangt die cijfers. Op de productpagina van de Tungsten Freestanding staat ongeveer 11,3 kW, tegenover 11,1 kW in het Lookbook; dat verandert de uitkomst met minder dan een kwartier.[^s5][^s4] [[VERIFY: vermogen van de Tungsten Freestanding (11,1 of 11,3 kW) en looptijd op een fles van 9 kg — productteam]]
+**Een correctie op onze eerdere artikelen.** Daarin stonden 9–10 uur, 9 uur en 10–17 uur voor vergelijkbare flessen,[^s7] en de berekening hierboven vervangt die cijfers nu. Op de productpagina van de Tungsten Freestanding staat ongeveer 11,3 kW, tegenover 11,1 kW in het Lookbook, een verschil van minder dan een kwartier in looptijd.[^s5][^s4] [[VERIFY: vermogen van de Tungsten Freestanding (11,1 of 11,3 kW) en looptijd op een fles van 9 kg — productteam]]
 
 <div class="diagram">Diagram: een propaanfles van 10,5 kg die een verwarmer voedt, met de formule 10,5 × 14 ÷ 11,1 = 13,2 uur en een staafdiagram dat de looptijd bij elk Bromic-vermogen vergelijkt</div>
 
-## Waarom kiezen voor propaan?
+## De vrijheid van propaan
 
-Propaan werkt waar geen gasleiding of zware elektrische groep is: een vrijstaande verwarmer rol je naar de tafel en een fles wissel je in een paar minuten. In een eerdere koopgids noemde Bromic het de duurste van de drie energiebronnen,[^s7] dus voor warmte die je bijna elke avond gebruikt, vergelijk je het met aardgas en elektriciteit tegen je eigen prijzen. Zie de [vergelijking van de gebruikskosten](item:RES-IN-01): kosten per uur = vermogen in kW ÷ 14 × je prijs per kg propaan.
+Propaan brengt warmte naar plekken die een gasleiding of zware elektrische groep niet bereikt. Een vrijstaande verwarmer rol je moeiteloos naar de plek waar de tafel gedekt is, en een volle fles wissel je in een paar minuten. In onze eerdere koopgids noemden we propaan de duurste van de drie energiebronnen;[^s7] wil je bijna elke avond van de warmte genieten, vergelijk het dan met aardgas en elektriciteit tegen je eigen prijzen. De [vergelijking van de gebruikskosten](item:RES-IN-01) laat zien hoe: kosten per uur = vermogen in kW ÷ 14 × je prijs per kg propaan.
 
-## Hoe kies je een terrasverwarmer op propaan?
+## De juiste terrasverwarmer op propaan kiezen
 
-1. **Bepaal het oppervlak.** Tungsten Freestanding verwarmt ongeveer 20 m²; Platinum Gas ongeveer 15 of 20 m².[^s4][^s6]
-2. **Kies de montage.** Vrijstaand waar je niet kunt monteren of de warmte wilt kunnen verplaatsen; aan wand of plafond om vloerruimte te sparen onder een overkapping.[^s7]
-3. **Let op de wind.** Tungsten Freestanding is geschikt voor windsnelheden tot ongeveer 13 km/u.[^s5] Platinum Gas staat op de ene plek vermeld met 20 km/u en op een andere met ongeveer 19 km/u. [[VERIFY: windwaarde van Platinum Gas — productteam]]
+1. **Bepaal het oppervlak.** Tungsten Freestanding verwarmt ongeveer 20 m², Platinum Gas ongeveer 15 of 20 m².[^s4][^s6]
+2. **Kies de montage.** Een vrijstaande verwarmer past waar je niet kunt monteren, of waar je de warmte graag verplaatst; een verwarmer aan wand of plafond houdt de vloer onder een overkapping vrij.[^s7]
+3. **Denk aan de wind.** Tungsten Freestanding is geschikt voor windsnelheden tot ongeveer 13 km/u.[^s5] Platinum Gas staat op de ene plek vermeld met 20 km/u en op een andere met ongeveer 19 km/u. [[VERIFY: windwaarde van Platinum Gas — productteam]]
 4. **Plan de bediening.** Platinum Gas en Tungsten Gas werken met een Affinity Smart-Heat On/Off-regelaar of een handmatige wandschakelaar, met een uitbreidingskaart voor gebouwbeheersystemen.[^s6] Voor wifi- en app-functies is compatibele Affinity-bediening nodig, die apart wordt verkocht.[^s4]
 
-## Hoeveel ventilatie heeft een propaanverwarmer nodig?
+## De frisse lucht die een propaanverwarmer nodig heeft
 
-Propaan verbrandt en vormt daarbij koolmonoxide, dus gebruik het alleen in de open lucht. De planningsgids van Bromic beschouwt een ruimte als buitenruimte wanneer minstens 30% van de omtrek permanent open is.[^s8] Het cijfer "75% open wanden" uit de eerdere koopgids is ingetrokken.[^s7] De handleiding van je verwarmer en de geldende voorschriften bepalen de regel. [[VERIFY: ventilatie-eis in de handleiding van elke propaanverwarmer — productteam]]
+Propaan verbrandt en vormt daarbij koolmonoxide, dus het hoort in de open lucht. Onze planningsgids beschouwt een ruimte als buitenruimte wanneer minstens 30% van de omtrek permanent open is.[^s8] Het cijfer "75% open wanden" uit onze eerdere koopgids is ingetrokken.[^s7] De handleiding van je verwarmer en de geldende voorschriften bepalen de regel. [[VERIFY: ventilatie-eis in de handleiding van elke propaanverwarmer — productteam]]
 
-In de VS volgen gasinstallaties ANSI Z223.1/NFPA 54, en flessen en opslag NFPA 58.[^s8][^s9] In Nederland is NEN 1078 de norm voor gasinstallaties. [[VERIFY: Nederlandse regels voor propaanflessen en hun opslag bij woningen en horeca — Bromic Benelux distributor]] Vraag bij je gemeente na wat voor jouw situatie geldt en laat het werk doen door een vakbekwaam gasinstallateur.
+In de VS volgen gasinstallaties ANSI Z223.1/NFPA 54, en flessen en opslag NFPA 58.[^s8][^s9] In Nederland is NEN 1078 de norm voor gasinstallaties. [[VERIFY: Nederlandse regels voor propaanflessen en hun opslag bij woningen en horeca — Bromic Benelux distributor]] Laat je installatie controleren door je gemeente en een vakbekwaam gasinstallateur.
 
 ## Veelgestelde vragen
 
@@ -149,10 +148,10 @@ Weeg de fles en trek het leeggewicht (tarra) af dat op de kraag staat. Wat overb
 
 ### Kan een propaanverwarmer buiten in de regen blijven staan?
 
-Monteer vaste verwarmers onder een overkapping, en berg een vrijstaande verwarmer op onder zijn hoes of binnen, met de fles losgekoppeld en buiten bewaard. Voor de Tungsten Freestanding is een [hoes](https://www.bromic.nl/) verkrijgbaar. [[VERIFY: leverbaarheid van de Tungsten Freestanding-hoes in Nederland — Bromic Benelux distributor]]
+Monteer vaste verwarmers onder een overkapping. Berg een vrijstaande verwarmer op onder zijn hoes of binnen, met de fles losgekoppeld en buiten bewaard. Voor de Tungsten Freestanding is een [hoes](https://www.bromic.nl/) verkrijgbaar. [[VERIFY: leverbaarheid van de Tungsten Freestanding-hoes in Nederland — Bromic Benelux distributor]]
 
 ### Zijn propaanverwarmers veilig onder een overdekt terras?
 
-Alleen als de ruimte open blijft voor verse lucht en de afstand tot het dak uit de handleiding wordt aangehouden.[^s8] Zie [zijn infraroodverwarmers veilig](item:BLOG-21).
+Alleen als de ruimte open blijft voor frisse lucht en de afstand tot het dak uit de handleiding wordt aangehouden.[^s8] Lees meer in [zijn infraroodverwarmers veilig](item:BLOG-21).
 
-Weet je niet zeker welke verwarmer past? Bereken je ruimte met de Bromic-calculator.
+Benieuwd welke verwarmer bij je buitenruimte past? Bereken het in een paar minuten met de Bromic-calculator.

@@ -5,17 +5,17 @@ translation_of: BLOG-27
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 type: blog
-title: "Zijn paddenstoelverwarmers slecht voor je zaak? Wat ze een horecaterras echt kosten"
+title: "Zijn paddenstoelverwarmers slecht voor je zaak? Wat het verwarmen van een horecaterras echt kost"
 action: rewrite
 audience: [COM]
 stage: [CO]
 cell: COM-CO
 asset: A24
-summary: "Wat een paddenstoelverwarmer op propaan een horecazaak per uur en per seizoen kost, uitgewerkt met de getoonde Amerikaanse EIA-brandstofprijzen als voorbeeld, afgezet tegen gerichte vrijstaande gasverwarming en vaste elektrische warmte, met de arbeid voor flessenwissels en de regels die de brandstofprijs niet laat zien."
+summary: "Een paddenstoelverwarmer lijkt een koopje tot de rekeningen van het seizoen binnenkomen. Wat een paddenstoelverwarmer op propaan een horecazaak per uur en per seizoen echt kost, uitgewerkt met de getoonde Amerikaanse EIA-brandstofprijzen als voorbeeld, afgezet tegen gerichte vrijstaande gasverwarming en vaste elektrische warmte – met de arbeid voor flessenwissels en de regels die de brandstofprijs niet laat zien."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Zijn paddenstoelverwarmers op propaan de moeite waard voor een restaurant?"
-meta_description: "Wat een paddenstoelverwarmer op propaan een horecazaak per uur en per seizoen kost: de rekenmethode in kW en liters, een Amerikaans prijsvoorbeeld, flessenwissels en regelgeving."
+meta_description: "Wat een paddenstoelverwarmer een horecaterras per uur en per seizoen echt kost: de rekenmethode in kW en liters, een VS-prijsvoorbeeld, flessen en regels."
 cta: {label: "Reken het vijfjarige kostenmodel door", asset: A20}
 hero: w-power-of-portable
 images: [l-019-164]
@@ -25,7 +25,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [COM-CO-01, COM-IN-01, COM-PP-01, A20]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Fire Pit Surplus (retailer buying guide)
@@ -105,14 +105,13 @@ sources:
     supports: "The claims this rewrite replaces: up to three times more efficient; about $16,752 a year saved on 1,000 ft² heated 4 hours a day, inputs not stated"
     verified: true
 ---
+Een paddenstoelverwarmer op propaan is goedkoop in aanschaf en duur in gebruik. Hij verbruikt per uur ongeveer evenveel brandstof als elke grote gasverwarmer, stuurt een groot deel van zijn warmte omhoog en opzij, en brengt flessenwissels, opslag en regels met zich mee die de aanschafprijs nooit laat zien. Voor een horecazaak die wil dat gasten op een koele avond nog even blijven hangen bij het dessert, kost gerichte vrijstaande gasverwarming of vaste elektrische stralingswarmte meestal minder per verwarmde zitplaats, en is ze op meer plekken toegestaan.
 
-Een paddenstoelverwarmer op propaan is goedkoop in aanschaf en duur in gebruik. Hij verbruikt per uur ongeveer evenveel brandstof als elke grote gasverwarmer, stuurt een groot deel van zijn warmte omhoog en opzij, en brengt flessenwissels, opslag en regels met zich mee die de aanschafprijs nooit laat zien. Voor een horecazaak kost gerichte vrijstaande gasverwarming of vaste elektrische stralingswarmte meestal minder per verwarmde zitplaats, en is ze op meer plekken toegestaan.
+![Binnenplaats van een hotel met gedekte tafels en zwarte vrijstaande Tungsten-gasverwarmers tussen de tafels](img:w-power-of-portable)
 
-![Binnenplaats van een hotel met diners tussen zwarte vrijstaande Tungsten-gasverwarmers](img:w-power-of-portable)
+## Wat een paddenstoelverwarmer per uur kost
 
-## Wat kost een paddenstoelverwarmer per uur?
-
-Vrijstaande terrasverwarmers op propaan draaien in de VS meestal op een fles van 20 lb (ca. 9 kg) en hebben een vermogen van ca. 11,7 tot 14,1 kW (40.000 tot 48.000 BTU/h).[^s1] Het verbruik per uur is een formule die je met je eigen factuur kunt controleren:
+Vrijstaande terrasverwarmers op propaan draaien in de VS meestal op een fles van 20 lb (ca. 9 kg) en hebben een vermogen van ca. 11,7 tot 14,1 kW (40.000 tot 48.000 BTU/h).[^s1] De kosten per uur volgen uit een formule die je met je eigen factuur kunt controleren:
 
 **Propaan per uur (liter) = vermogen (kW) ÷ 7,08 kWh per liter**\
 **Kosten per uur = liters per uur × jouw prijs per liter propaan**
@@ -126,17 +125,17 @@ Vrijstaande terrasverwarmers op propaan draaien in de VS meestal op een fles van
 | Tungsten Smart-Heat Freestanding Gas | 11,1 kW | Aardgas | 11,1 kWh gas | $0,33 |
 | Platinum Smart-Heat Electric 4500W | 4,5 kW | Elektrisch | 4,5 kWh | $0,61 |
 
-Amerikaanse tarieven: propaan $2,674 per gallon[^s2]; aardgas voor bedrijven ongeveer $0,87 per therm (ca. $0,030 per kWh)[^s3]; elektriciteit voor bedrijven 13,54 dollarcent per kWh.[^s4] Vermogens van Bromic.[^s6] Op vol vermogen ligt het brandstofverbruik per uur van een paddenstoelverwarmer dicht bij dat van elke andere propaanverwarmer. Het verschil zit in waar de warmte naartoe gaat en wat de brandstof je verder kost.
+De gebruikte Amerikaanse tarieven zijn propaan tegen $2,674 per gallon,[^s2] aardgas voor bedrijven tegen ongeveer $0,87 per therm (ca. $0,030 per kWh)[^s3] en elektriciteit voor bedrijven tegen 13,54 dollarcent per kWh,[^s4] met de vermogens van Bromic.[^s6] Op vol vermogen ligt het brandstofverbruik per uur van een paddenstoelverwarmer dicht bij dat van elke andere propaanverwarmer. Wat ze onderscheidt, is waar de warmte naartoe gaat en wat de brandstof je verder kost.
 
-## Waarom verspilt een paddenstoelverwarmer warmte?
+## Waar de warmte van een paddenstoelverwarmer naartoe gaat
 
-Omdat hij in een cirkel verwarmt, van boven hoofdhoogte, en een groot deel van zijn vermogen warme lucht is die de wind meeneemt. Stralingswarmte verwarmt mensen en voorwerpen in plaats van lucht, en werkt daarom buiten; hoe korter de golflengte, hoe groter het stralingsaandeel en hoe minder de wind wegneemt.[^s10] Een gerichte verwarmer richt die stralingsenergie op de tafels. De Tungsten Smart-Heat Freestanding Gas heeft een kantelbare kop en keramische branders en wordt door Bromic opgegeven voor ongeveer 20 m².[^s6] [[VERIFY: vermogen Tungsten Freestanding Gas, 11,1 kW (38.000 BTU volgens het Lookbook) of 11,3 kW (38.500 BTU volgens de productpagina) — productteam]]
+Een paddenstoelverwarmer verwarmt in een cirkel, van boven hoofdhoogte, en een groot deel van zijn vermogen is warme lucht die de wind al snel meeneemt. Stralingswarmte verwarmt mensen en voorwerpen rechtstreeks, en werkt daarom zo goed buiten; hoe korter de golflengte, hoe groter het stralingsaandeel en hoe minder de wind kan meenemen.[^s10] Een gerichte verwarmer richt die stralingsenergie op de tafels waar je gasten zitten. De Tungsten Smart-Heat Freestanding Gas heeft een kantelbare kop en keramische branders, en wij geven hem op voor ongeveer 20 m².[^s6] [[VERIFY: vermogen Tungsten Freestanding Gas, 11,1 kW (38.000 BTU volgens het Lookbook) of 11,3 kW (38.500 BTU volgens de productpagina) — productteam]]
 
-Paddenstoelverwarmers worden niet op een vergelijkbare manier opgegeven voor verwarmd oppervlak, dus het getal dat je nodig hebt komt uit een warmteplan van je eigen indeling, niet uit een verhoudingsgetal. De claim "drie keer zo efficiënt" en de jaarlijkse besparing van $16.752 in de live post gaven geen methode of invoer en zijn daarom verwijderd.[^s11]
+Paddenstoelverwarmers worden niet op een vergelijkbare manier opgegeven voor verwarmd oppervlak, dus het getal dat je nodig hebt komt uit een warmteplan voor je eigen indeling. De claim "drie keer zo efficiënt" en de jaarlijkse besparing van $16.752 in de live post gaven geen methode of invoer, dus hebben we ze verwijderd.[^s11]
 
-## Wat kost een seizoen per verwarmer?
+## Een seizoen warmte, verwarmer voor verwarmer
 
-Ter illustratie, per verwarmer, met de standaardwaarden van het A20-model: 900 branduren per jaar (6 uur per avond, 150 avonden), vol vermogen, de tarieven hierboven, een Amerikaanse fles van 20 lb met ongeveer 17,8 liter (4,7 gallon) bruikbare inhoud, 10 minuten personeelstijd per wissel en $15,71 per uur.[^s5] [[VERIFY: uren, vulling van de fles en minuten per wissel voor je eigen locatie — verkoop horeca]] In Nederland zijn flessen van 10,5 of 11 kg gangbaar; reken met je eigen vulling en loonkosten.
+Deze cijfers zijn ter illustratie, per verwarmer, met de standaardwaarden van het A20-model: 900 branduren per jaar (6 uur per avond, 150 avonden), vol vermogen, de tarieven hierboven, een Amerikaanse fles van 20 lb met ongeveer 17,8 liter (4,7 gallon) bruikbare inhoud, 10 minuten personeelstijd per wissel en $15,71 per uur.[^s5] [[VERIFY: uren, vulling van de fles en minuten per wissel voor je eigen locatie — verkoop horeca]] In Nederland zijn flessen van 10,5 of 11 kg gangbaar; reken met je eigen vulling en loonkosten.
 
 | Per verwarmer, 900 uur | Brandstof per jaar | Flessenwissels | Arbeid wissels, VS-voorbeeld | Totaal, VS-voorbeeld |
 |---|---|---|---|---|
@@ -145,18 +144,18 @@ Ter illustratie, per verwarmer, met de standaardwaarden van het A20-model: 900 b
 | Tungsten Freestanding Gas, aardgas | ca. 10.000 kWh gas; $298 | geen | geen | **$298** |
 | Platinum Electric 4500W | 4.050 kWh; $548 | geen | geen | **$548** |
 
-Per 10 m² opgegeven verwarmd oppervlak is dat in het VS-voorbeeld ongeveer $0,46 per uur voor Platinum 4500W bij ca. 13 m²[^s7] en $0,17 voor Tungsten Freestanding op aardgas bij ca. 20 m². Aanschaf, installatie en vergunningen staan niet in deze tabel; de richtlijn van Bromic is alles-in te offreren.[^s10] De [vijfjarige vergelijking](item:COM-CO-01) telt ze mee.
+Per 10 m² opgegeven verwarmd oppervlak is dat in het VS-voorbeeld ongeveer $0,46 per uur voor Platinum 4500W bij ca. 13 m²[^s7] en $0,17 voor Tungsten Freestanding op aardgas bij ca. 20 m². Aanschaf, installatie en vergunningen staan niet in deze tabel, en ons advies is altijd alles-in te offreren.[^s10] De [vijfjarige vergelijking](item:COM-CO-01) telt ze mee.
 
-## Wat laten de brandstofcijfers buiten beschouwing?
+## De kosten achter de brandstofrekening
 
 - **Arbeid.** Bij 900 uur betekent elke propaanverwarmer tientallen wissels per seizoen, meestal midden in de service.
-- **Opslag.** Reserveflessen vragen een opslagkooi die aan de regels voldoet, en die neemt ruimte in waar je gasten had kunnen zetten.
-- **Plaatsing.** Volgens de Amerikaanse brandweervoorschriften, zoals lokaal overgenomen, mogen mobiele gasverwarmers niet onder of binnen 1,5 m van brandbare overkappingen en luifels staan, of binnen 1,5 m van uitgangen.[^s9] Op veel overdekte terrassen vallen ze daardoor af. In Nederland bepalen je gemeente en de brandweer wat op een terras is toegestaan. [[VERIFY: Nederlandse regels voor mobiele gasverwarmers op horecaterrassen (APV, brandveiligheid) — Bromic Benelux distributor]]
+- **Opslag.** Reserveflessen vragen een opslagkooi die aan de regels voldoet, en die kooi neemt ruimte in waar je anders gasten had kunnen zetten.
+- **Plaatsing.** Volgens de Amerikaanse brandweervoorschriften, zoals lokaal overgenomen, mogen mobiele gasverwarmers niet onder of binnen 1,5 m van brandbare overkappingen en luifels staan, of binnen 1,5 m van uitgangen.[^s9] Op veel overdekte terrassen vallen ze daardoor helemaal af. In Nederland bepalen je gemeente en de brandweer wat op een terras is toegestaan. [[VERIFY: Nederlandse regels voor mobiele gasverwarmers op horecaterrassen (APV, brandveiligheid) — Bromic Benelux distributor]]
 - **Verboden.** New York City trok met ingang van 1 juni 2021 de toestemming voor propaanverwarmers bij buitenhoreca in.[^s8] Controleer de regels van je gemeente voordat je koopt.
 
 *Regels voor normen en vergunningen verschillen per gemeente en veranderen vaak. Stem af met je gemeente en de brandweer, en werk met een erkende gasinstallateur of installateur (gas volgens NEN 1078, elektra volgens NEN 1010). Zie [de vergunningschecklist](item:COM-PP-01).*
 
-## Wat vervangt een paddenstoelverwarmer?
+## Een betere manier om je terras te verwarmen
 
 | Locatie | Past meestal | Bediening |
 |---|---|---|
@@ -165,17 +164,17 @@ Per 10 m² opgegeven verwarmd oppervlak is dat in het VS-voorbeeld ongeveer $0,4
 | Overdekt terras, overstek of wand | Platinum Smart-Heat Electric | Affinity Smart-Heat On/Off- of Dimmer-regelaar, wandschakelaar, app |
 | Propaan beperkt | Elektrisch | Affinity-bediening als hierboven |
 
-Vaste elektrische warmte met Affinity-bediening kan per sectie in zones worden verdeeld en op de reserveringen worden ingepland, zodat een verwarmer die uit staat niets kost. Wifi- en app-functies vragen om compatibele Affinity Smart-Heat Controls, apart verkrijgbaar.[^s6] Zie [verwarming voor restaurants](https://www.bromic.com/restaurants/) en [vrijstaande verwarmers](https://www.bromic.com/outdoor-heaters/freestanding/) (Engelstalig), of [bromic.nl](https://www.bromic.nl/).
+Vaste elektrische warmte met Affinity-bediening kan per sectie in zones worden verdeeld en op je reserveringen worden ingepland, zodat een verwarmer die uit staat helemaal niets kost. Wifi- en app-functies vragen om compatibele Affinity Smart-Heat Controls, apart verkrijgbaar.[^s6] Ontdek [verwarming voor restaurants](https://www.bromic.com/restaurants/) en onze [vrijstaande verwarmers](https://www.bromic.com/outdoor-heaters/freestanding/) (Engelstalig), of kijk op [bromic.nl](https://www.bromic.nl/).
 
-![Vrijstaande Tungsten-gasverwarmer naast een gedekte tafel](img:l-019-164)
+![Vrijstaande Tungsten-gasverwarmer naast een gedekte tafel, klaar voor de avondservice](img:l-019-164)
 
-[HIDE](https://www.bromic.com/case-study/hide-restaurant/) in Londen verplaatste het diner naar de straat met vrijstaande Tungsten-gasverwarmers; [Rare Society](https://www.bromic.com/case-study/the-modern-heating-solution-for-vintage-upscale-dining/) in San Clemente verwarmt half overdekte terrassen met Platinum Electric-verwarmers op vast bedrade schakelaars.
+In Londen bracht [HIDE](https://www.bromic.com/case-study/hide-restaurant/) het diner naar de straat met vrijstaande Tungsten-gasverwarmers, terwijl [Rare Society](https://www.bromic.com/case-study/the-modern-heating-solution-for-vintage-upscale-dining/) in San Clemente zijn half overdekte terrassen verwarmt met Platinum Electric-verwarmers op vast bedrade schakelaars.
 
 ## Veelgestelde vragen
 
 ### Zijn paddenstoelverwarmers efficiënt?
 
-Ze verbruiken ca. 11,7–14,1 kW (40.000–48.000 BTU/h)[^s1] en verwarmen van bovenaf in alle richtingen, dus een groot deel van het vermogen verwarmt lucht die de wind meeneemt. Gerichte stralingswarmte brengt meer ervan bij de gasten.
+Ze verbruiken ca. 11,7–14,1 kW (40.000–48.000 BTU/h)[^s1] en verwarmen van bovenaf in alle richtingen, dus een groot deel van hun vermogen verwarmt lucht die de wind meeneemt. Gerichte stralingswarmte brengt veel meer van die warmte bij je gasten.
 
 ### Hoe lang gaat een propaanfles mee?
 
@@ -183,13 +182,13 @@ Op vol vermogen gaat ongeveer 17,8 liter bruikbare inhoud bij 12,9 kW zo'n 9,8 u
 
 ### Welke terrasverwarmer is voor een restaurant het goedkoopst in gebruik?
 
-In het Amerikaanse voorbeeld per uur aardgas, waar een leiding het terras bereikt. Over een seizoen is elektrisch vaak goedkoper dan propaan zodra de arbeid voor flessenwissels wordt meegeteld. Reken het na met je eigen prijzen.
+In het Amerikaanse voorbeeld is dat uur voor uur aardgas, overal waar een leiding het terras bereikt. Over een heel seizoen is elektrisch vaak goedkoper dan propaan zodra de arbeid voor flessenwissels wordt meegeteld. Reken het na met je eigen prijzen.
 
 ### Kan Bromic de indeling plannen?
 
-Ja. De [gratis ontwerpservice](https://www.bromic.com/design-your-space/) tekent het aantal verwarmers en het verwarmde oppervlak voor je terras.
+Ja. Onze [gratis ontwerpservice](https://www.bromic.com/design-your-space/) tekent het aantal verwarmers en het verwarmde oppervlak voor je terras.
 
-Vul je eigen brandstofprijzen en uren in: reken het vijfjarige kostenmodel door.
+Neem je eigen brandstofprijzen en uren erbij en reken het vijfjarige kostenmodel door voor je terras.
 
 [^s1]: Fire Pit Surplus, koopgids voor terrasverwarmers op propaan, gelezen op 29 okt. 2026.
 [^s2]: U.S. EIA, Heating Oil and Propane Update, week van 30 mrt. 2026.

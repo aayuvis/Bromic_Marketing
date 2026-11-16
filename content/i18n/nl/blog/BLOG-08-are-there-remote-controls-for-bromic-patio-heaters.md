@@ -11,11 +11,11 @@ audience: [RES, BLD]
 stage: [PP]
 cell: RES-PP
 asset: A24
-summary: "De huidige manier om Bromic-verwarmers op afstand te bedienen: Affinity Smart-Heat On/Off-, Dimmer- en Eclipse-regelaars die je via de app bedient, met een handmatige wandschakelaar en een uitbreidingskaart, en welke oudere regelaars ze vervangen."
+summary: "Zo bedien je Bromic-verwarmers vandaag vanaf elke plek: met Affinity Smart-Heat On/Off-, Dimmer- en Eclipse-regelaars via de app, een handmatige wandschakelaar en een uitbreidingskaart, en de eerdere regelaars die ze vervangen."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Kan ik mijn Bromic-terrasverwarmer met een afstandsbediening bedienen?"
-meta_description: "Bromic-verwarmers bedien je met Affinity Smart-Heat-regelaars en de app, niet met een losse afstandsbediening. Welke regelaar bij welke verwarmer past, en hoeveel."
+meta_description: "Afstandsbediening voor je terrasverwarmer: Affinity Smart-Heat-regelaars via je telefoon, je stem of een wandschakelaar, en welke bij welke verwarmer past."
 cta: {label: "Boek een ontwerpadvies", asset: A07}
 hero: w-affinity-onoff
 images: [w-render-3]
@@ -25,7 +25,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-BY-01, RES-PP-01, BLD-IN-KB2]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -92,13 +92,13 @@ sources:
     verified: true
 ---
 
-Niet in de oude betekenis. De huidige bediening van Bromic is het Affinity Smart-Heat-assortiment: On/Off-, Dimmer- en Eclipse-regelaars die je bedient met de Bromic-app op je telefoon, met je stem via Alexa of Google Home, of met een handmatige wandschakelaar.[^s1] Affinity-regelaars worden geleverd zonder losse afstandsbediening; de app is de afstandsbediening.[^s1] Elke vaste verwarmer heeft een van deze bedieningen nodig, apart verkocht en gekozen op type verwarmer en belasting.
+Vandaag is je telefoon de afstandsbediening. De huidige bediening van Bromic is het Affinity Smart-Heat-assortiment met On/Off-, Dimmer- en Eclipse-regelaars, die je bedient met de Bromic-app, met je stem via Alexa of Google Home, of met een handmatige wandschakelaar.[^s1] Affinity-regelaars worden geleverd zonder losse afstandsbediening, omdat de app die rol overneemt.[^s1] Elke geïnstalleerde verwarmer krijgt een van deze bedieningen, apart verkocht en gekozen op type verwarmer en belasting.
 
-![Affinity On/Off-regelaar met de Bromic-app](img:w-affinity-onoff)
+![De Affinity On/Off-regelaar naast de Bromic-app](img:w-affinity-onoff)
 
-## Welke regelaar heb ik nodig?
+## De regelaar kiezen voor jouw verwarmers
 
-Kies op energiebron, op de vraag of je wilt dimmen, en op de belasting per kanaal. Een kanaal is één geschakelde groep: één verwarmer, of een groep verwarmers die altijd samen aan gaan.
+Je keuze hangt af van de energiebron, of je de warmte wilt kunnen dimmen, en de belasting per kanaal. Een kanaal is één geschakelde groep, voor één verwarmer of een groep verwarmers die altijd samen aan gaan.
 
 | Regelaar | Werkt met | Kanalen | Capaciteit per kanaal | Wat je ermee krijgt |
 |---|---|---|---|---|
@@ -110,7 +110,7 @@ Kies op energiebron, op de vraag of je wilt dimmen, en op de belasting per kanaa
 
 [[VERIFY: capaciteit van de regelaars en compatibiliteit met verwarmers, ook Cobalt en gas in de specificatietabel van de On/Off, en de capaciteit bij 230 V — productteam]]
 
-## Hoeveel verwarmers per kanaal?
+## Hoeveel verwarmers een kanaal delen
 
 De compatibiliteitstabel van Bromic geeft deze aantallen per kanaal voor On/Off- en Dimmer-regelaars.[^s1]
 
@@ -124,13 +124,13 @@ De compatibiliteitstabel van Bromic geeft deze aantallen per kanaal voor On/Off-
 | Platinum of Tungsten Gas (beide maten) | 10 (alleen On/Off) |
 | Eclipse Electric | 1 (Eclipse-regelaar) |
 
-Twee Platinum-verwarmers van 2300 W delen dus één kanaal; twee Tungsten-verwarmers van 6000 W hebben een regelaar met 2 kanalen nodig.[^s2] Op een On/Off-regelaar met 2 kanalen kun je de twee elementen van een Platinum van 4500 W of een Tungsten van 4000/6000 W apart schakelen.[^s2] [[VERIFY: aantallen per kanaal bij 230 V — productteam]]
+Twee Platinum-verwarmers van 2300 W kunnen dus één kanaal delen, terwijl twee Tungsten-verwarmers van 6000 W een regelaar met 2 kanalen nodig hebben.[^s2] Op een On/Off-regelaar met 2 kanalen kun je de twee elementen van een Platinum van 4500 W of een Tungsten van 4000/6000 W apart schakelen.[^s2] [[VERIFY: aantallen per kanaal bij 230 V — productteam]]
 
 <div class="diagram">Diagram: één Affinity Dimmer met 2 kanalen, kanaal 1 voedt twee Platinum-verwarmers van 2300 W boven de tafel, kanaal 2 voedt één Tungsten van 4000 W boven de lounge; wandschakelaar en telefoon als de twee manieren om te bedienen.</div>
 
-## Welke oudere regelaars vervangt Affinity?
+## De eerdere regelaars die Affinity vervangt
 
-Eerdere posts beschreven een assortiment met draadloze handafstandsbedieningen.[^s7] Op de huidige website neemt Affinity hun plaats in. De koppeling hieronder is onze lezing van de twee assortimenten en moet nog door Bromic worden bevestigd.
+Eerdere posts beschreven een assortiment met draadloze handafstandsbedieningen,[^s7] en op de huidige website neemt Affinity hun plaats in. De koppeling hieronder is onze lezing van de twee assortimenten en wacht nog op bevestiging door Bromic.
 
 | Eerdere bediening | Huidige tegenhanger |
 |---|---|
@@ -142,24 +142,24 @@ Eerdere posts beschreven een assortiment met draadloze handafstandsbedieningen.[
 
 [[VERIFY: zijn de Wireless On/Off, Wireless Dimmer, Master Remote en Smart-Heat Link uit het assortiment of nog als reserveonderdeel leverbaar; is er een upgradepad — productteam]]
 
-Eén uitzondering: de Eclipse Freestanding-verwarmer staat vermeld met een meegeleverde Eclipse Dimmer Controller en afstandsbediening.[^s8] [[VERIFY: wordt de Eclipse Freestanding geleverd met de eerdere Eclipse Dimmer en afstandsbediening of met Affinity; ondersteuning door de app — productteam]]
+De enige uitzondering is de Eclipse Freestanding-verwarmer, die vermeld staat met een meegeleverde Eclipse Dimmer Controller en afstandsbediening.[^s8] [[VERIFY: wordt de Eclipse Freestanding geleverd met de eerdere Eclipse Dimmer en afstandsbediening of met Affinity; ondersteuning door de app — productteam]]
 
-## Waar komt de regelaar?
+## Een plek voor de regelaar
 
-Affinity-regelaars hebben een IP54-classificatie en werken van −20 tot 30 °C, dus je kunt ze binnen of buiten monteren op een geventileerde plek, binnen Bluetooth-bereik van de plek waar je ze instelt.[^s1][^s2] Plan de regelaar en de groepen samen met de verwarmers, voordat de muren dicht gaan; een erkend installateur installeert beide, in Nederland volgens NEN 1010. Zie [hoeveel verwarmers er op één groep passen](item:BLD-IN-KB2).
+Affinity-regelaars hebben een IP54-classificatie en werken van −20 tot 30 °C, dus je kunt ze binnen of buiten monteren op een geventileerde plek, binnen Bluetooth-bereik van waar je ze instelt.[^s1][^s2] Plan de regelaar en de groepen samen met de verwarmers, voordat de muren dicht gaan; een erkend installateur installeert beide, in Nederland volgens NEN 1010. Ons antwoord op [hoeveel verwarmers er op één groep passen](item:BLD-IN-KB2) legt de rekensom uit.
 
 ## Veelgestelde vragen
 
 ### Kan ik nog een losse afstandsbediening kopen?
-Affinity-bediening werkt via de app en heeft geen fysieke afstandsbediening.[^s1] Gebruik de app, een spraakassistent of een wandschakelaar.
+Affinity-bediening werkt via de app en heeft geen fysieke afstandsbediening.[^s1] In plaats daarvan gebruik je de app, een spraakassistent of een wandschakelaar.
 
 ### Heb ik wifi nodig?
-Het instellen gaat via Bluetooth binnen ongeveer 9 m; bediening op afstand, schema's en spraak vragen wifi op 2,4 GHz of Ethernet.[^s2] Zie [de verwarmingsapp van Bromic gebruiken](https://www.bromic.com/blog/how-to-use-the-new-bromic-heating-app/) (Engelstalig).
+Het instellen gaat via Bluetooth binnen ongeveer 9 m, terwijl bediening op afstand, schema's en spraak wifi op 2,4 GHz of Ethernet vragen.[^s2] Onze gids over [de verwarmingsapp van Bromic gebruiken](https://www.bromic.com/blog/how-to-use-the-new-bromic-heating-app/) (Engelstalig) neemt je erdoorheen.
 
 ### Kunnen gasverwarmers worden gedimd?
-Nee. Gasverwarmers werken op de On/Off-regelaar of een wandschakelaar: volle warmte of uit.[^s2][^s3]
+Nee. Gasverwarmers werken op de On/Off-regelaar of een wandschakelaar, op volle warmte of uit.[^s2][^s3]
 
 ### Kan één app al mijn regelaars bedienen?
 Ja. Bromic stelt geen grens aan het aantal verwarmers per locatie of locaties per account.[^s9]
 
-Weet je niet zeker welke regelaar bij jouw indeling past? Het ontwerpteam specificeert verwarmers en bediening samen.
+Weet je niet zeker welke regelaar bij jouw indeling past? Ons ontwerpteam specificeert je verwarmers en bediening samen.

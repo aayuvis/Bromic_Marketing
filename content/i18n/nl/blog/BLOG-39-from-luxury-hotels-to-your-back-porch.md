@@ -7,7 +7,7 @@ audience: [BLD, RES]
 stage: [AW]
 cell: BLD-AW
 asset: A24
-summary: "De buitendienst VS van Bromic schuift aan bij de verandabouwers van Design Builders om te praten over stralingswarmte in veranda's en terrassen, de drie collecties en wat elke garantie dekt."
+summary: "De Vice President of Sales, North America, van Bromic schuift aan bij de verandabouwers van Design Builders om te praten over stralingswarmte in veranda's en terrassen, de drie collecties en wat elke garantie dekt."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe plannen bouwers verwarming in een afgeschermde veranda of een terras?"
@@ -35,7 +35,7 @@ sources:
     verified: true
   - id: s2
     publisher: Design Builders
-    title: "Design Builders podcast episode with buitendienst VS"
+    title: "Design Builders podcast episode with Bromic's Vice President of Sales, North America"
     year: 2025
     url: https://www.designbuildersmd.com/8152437f-9b51-476b-9a89-9ce53f636b6b/9ab4fe8b-29f4-4a7d-8e54-f41d06d8c19d
     supports: "The episode itself"
@@ -70,21 +70,21 @@ sources:
     verified: true
 ---
 
-De warmste veranda's zijn die waar warmte al deel van het plan was, lang voordat het plafond af was. In de Design Builders-podcast bespreken de buitendienst VS van Bromic en de presentatoren Tim Matkoski en James Moylan hoe stralingsverwarmers worden ingepland in afgeschermde veranda's en terrassen, afgestemd op de ruimte, gemonteerd naar wat het plafond toelaat en zo gekozen dat ze rustig uit het zicht blijven[^s1].
+De warmste veranda's zijn die waar warmte al deel van het plan was, lang voordat het plafond af was. In de Design Builders-podcast bespreken de Vice President of Sales, North America, van Bromic en de presentatoren Tim Matkoski en James Moylan hoe stralingsverwarmers worden ingepland in afgeschermde veranda's en terrassen, afgestemd op de ruimte, gemonteerd naar wat het plafond toelaat en zo gekozen dat ze rustig uit het zicht blijven[^s1].
 
 ![Eethoek op een afgeschermde veranda, verwarmd door Platinum Electric-verwarmers verzonken in een plafond van cederhout](img:w-hartleyhallplporchdeckdarnestownmd-0052)
 
 ## Aan tafel in deze aflevering
 
-De buitendienst VS is Vice President of Sales, North America, bij Bromic Heating. De presentatoren leiden Design Builders, een bedrijf dat terrassen, afgeschermde veranda's en buitenkeukens bouwt in Maryland en het noorden van Virginia in de VS[^s1]. Je kunt de aflevering beluisteren op de [website van Design Builders](https://www.designbuildersmd.com/8152437f-9b51-476b-9a89-9ce53f636b6b/9ab4fe8b-29f4-4a7d-8e54-f41d06d8c19d) (Engelstalig)[^s2].
+Onze gast leidt de verkoop van Bromic Heating in Noord-Amerika. De presentatoren leiden Design Builders, een bedrijf dat terrassen, afgeschermde veranda's en buitenkeukens bouwt in Maryland en het noorden van Virginia in de VS[^s1]. Je kunt de aflevering beluisteren op de [website van Design Builders](https://www.designbuildersmd.com/8152437f-9b51-476b-9a89-9ce53f636b6b/9ab4fe8b-29f4-4a7d-8e54-f41d06d8c19d) (Engelstalig)[^s2].
 
 ## Waarom verandabouwers voor stralingswarmte kiezen
 
-De presentatoren kwamen infraroodverwarmers voor het eerst tegen in Californië en nemen ze nu op in 95% van hun verandaprojecten[^s1] [[VERIFY: het cijfer van 95% bij Design Builders checken vóór hergebruik — marketing]]. Tschauner legde uit waarom het buiten zo goed werkt: infrarood verwarmt mensen en oppervlakken rechtstreeks, net zoals zonlicht, in plaats van lucht te verwarmen die de wind zou meenemen[^s1][^s6].
+De presentatoren kwamen infraroodverwarmers voor het eerst tegen in Californië en nemen ze nu op in 95% van hun verandaprojecten[^s1] [[VERIFY: het cijfer van 95% bij Design Builders checken vóór hergebruik — marketing]]. Onze gast legde uit waarom het buiten zo goed werkt: infrarood verwarmt mensen en oppervlakken rechtstreeks, net zoals zonlicht, in plaats van lucht te verwarmen die de wind zou meenemen[^s1][^s6].
 
 ## Warmte die het ontwerp laat stralen
 
-Het doel van Bromic, zei Tschauner, is dat verwarmers elegant opgaan in de ruimte terwijl de architectuur de hoofdrol speelt[^s1]. Het gesprek ging langs de drie collecties:
+Het doel van Bromic, zei onze gast, is dat verwarmers elegant opgaan in de ruimte terwijl de architectuur de hoofdrol speelt[^s1]. Het gesprek ging langs de drie collecties:
 
 | Collectie | Wat het is | Waar het past op een veranda |
 |---|---|---|

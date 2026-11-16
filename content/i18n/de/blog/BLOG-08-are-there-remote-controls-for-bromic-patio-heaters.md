@@ -7,11 +7,11 @@ audience: [RES, BLD]
 stage: [PP]
 cell: RES-PP
 asset: A24
-summary: "So steuern Sie Bromic Heizstrahler heute aus der Ferne: Affinity Smart-Heat On/Off-, Dimmer- und Eclipse-Steuergeräte, bedient über die App, mit manuellem Wandschalter und Erweiterungsplatine – und welche älteren Steuergeräte sie ersetzen."
+summary: "So steuern Sie Bromic Heizstrahler heute von überall: mit Affinity Smart-Heat On/Off-, Dimmer- und Eclipse-Steuergeräten, bedient über die App, mit einem manuellen Wandschalter und einer Erweiterungsplatine, dazu die früheren Steuergeräte, die sie ersetzen."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Kann ich meinen Bromic Terrassenheizstrahler mit einer Fernbedienung steuern?"
-meta_description: "Bromic Heizstrahler werden über Affinity Smart-Heat Steuergeräte und die App gesteuert, nicht über eine Handfernbedienung. Welches Steuergerät zu welchem Heizstrahler passt und wie viele Sie brauchen."
+meta_description: "Fernbedienung für Terrassenheizstrahler: Affinity Smart-Heat Steuergeräte per Smartphone, Sprache oder Wandschalter, und welches zu welchem Gerät passt."
 cta: {label: "Planungsgespräch vereinbaren", asset: A07}
 hero: w-affinity-onoff
 images: [w-render-3]
@@ -21,7 +21,11 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-BY-01, RES-PP-01, BLD-IN-KB2]
-updated: 2026-10-29
+updated: 2026-11-16
+lang: de
+translation_of: BLOG-08
+translation_status: machine-draft
+native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -86,19 +90,15 @@ sources:
     url: https://www.bromic.com/affinity-smart-heat-app/
     supports: "No limit on heaters per site or sites per account"
     verified: true
-lang: de
-translation_of: BLOG-08
-translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 
-Nicht im herkömmlichen Sinn. Bromics aktuelle Steuerung ist die Affinity Smart-Heat Serie: On/Off-, Dimmer- und Eclipse-Steuergeräte, die Sie über die Bromic App auf dem Smartphone, per Sprache über Alexa oder Google Home oder über einen manuellen Wandschalter bedienen.[^s1] Affinity-Steuergeräte werden ohne Handfernbedienung geliefert; die App ist die Fernbedienung.[^s1] Jeder installierte Heizstrahler braucht eine dieser Steuerungen, die separat erhältlich sind und nach Heizstrahlertyp und Last ausgewählt werden.
+Heute ist Ihr Smartphone die Fernbedienung. Bromics aktuelle Steuerung ist die Affinity Smart-Heat Serie mit On/Off-, Dimmer- und Eclipse-Steuergeräten, die Sie über die Bromic App, per Sprache über Alexa oder Google Home oder über einen manuellen Wandschalter bedienen.[^s1] Affinity-Steuergeräte werden ohne Handfernbedienung geliefert, denn die App tritt an ihre Stelle.[^s1] Jeder installierte Heizstrahler wird mit einer dieser Steuerungen kombiniert, die separat erhältlich sind und nach Heizstrahlertyp und Last ausgewählt werden.
 
-![Affinity On/Off-Steuergerät mit der Bromic App](img:w-affinity-onoff)
+![Das Affinity On/Off-Steuergerät neben der Bromic App](img:w-affinity-onoff)
 
-## Welches Steuergerät brauche ich?
+## Das passende Steuergerät für Ihre Heizstrahler
 
-Wählen Sie nach Energieart, danach, ob Sie dimmen möchten, und nach der Last je Kanal. Ein Kanal ist ein geschalteter Stromkreis: ein Heizstrahler oder eine Gruppe von Heizstrahlern, die immer gemeinsam laufen.
+Ihre Wahl hängt von der Energieart ab, davon, ob Sie die Wärme dimmen möchten, und von der Last je Kanal. Ein Kanal ist ein geschalteter Stromkreis, der entweder einen einzelnen Heizstrahler oder eine Gruppe von Heizstrahlern versorgt, die immer gemeinsam laufen.
 
 | Steuergerät | Geeignet für | Kanäle | Kapazität je Kanal | Was es Ihnen bietet |
 |---|---|---|---|---|
@@ -110,7 +110,7 @@ Wählen Sie nach Energieart, danach, ob Sie dimmen möchten, und nach der Last j
 
 [[VERIFY: Kapazitäten der Steuergeräte und Kompatibilität der Heizstrahler, einschließlich Cobalt und Gas in der Spezifikationstabelle des On/Off; Ausführung des Wandschalters für 230 V in Deutschland — Produktteam]]
 
-## Wie viele Heizstrahler je Kanal?
+## Wie viele Heizstrahler sich einen Kanal teilen
 
 Bromics Kompatibilitätstabelle nennt diese Anzahl je Kanal für On/Off- und Dimmer-Steuergeräte.[^s1]
 
@@ -124,13 +124,13 @@ Bromics Kompatibilitätstabelle nennt diese Anzahl je Kanal für On/Off- und Dim
 | Platinum oder Tungsten Gas (beide Größen) | 10 (nur On/Off) |
 | Eclipse Electric | 1 (Eclipse Steuergerät) |
 
-Zwei Platinum Heizstrahler mit 2300 W teilen sich also einen Kanal; zwei Tungsten mit 6000 W brauchen ein 2-Kanal-Steuergerät.[^s2] Bei einem 2-Kanal-On/Off lassen sich die beiden Heizelemente eines Platinum mit 4500 W oder eines Tungsten mit 4000/6000 W getrennt schalten.[^s2] [[VERIFY: Anzahl je Kanal bei 230 V (die US-Angaben gelten für 208 V und 277 V) — Produktteam]]
+Zwei Platinum Heizstrahler mit 2300 W können sich also einen Kanal teilen, während zwei Tungsten mit 6000 W ein 2-Kanal-Steuergerät brauchen.[^s2] Bei einem 2-Kanal-On/Off lassen sich die beiden Heizelemente eines Platinum mit 4500 W oder eines Tungsten mit 4000/6000 W getrennt schalten.[^s2] [[VERIFY: Anzahl je Kanal bei 230 V (die US-Angaben gelten für 208 V und 277 V) — Produktteam]]
 
 <div class="diagram">Diagramm: ein 2-Kanal Affinity Dimmer; Kanal 1 versorgt zwei Platinum Heizstrahler mit 2300 W über dem Tisch, Kanal 2 einen Tungsten mit 4000 W über der Lounge; Wandschalter und Smartphone als die beiden Bedienwege.</div>
 
-## Welche älteren Steuergeräte ersetzt Affinity?
+## Die früheren Steuergeräte, die Affinity ersetzt
 
-Frühere Beiträge beschrieben eine Serie mit kabellosen Handfernbedienungen.[^s7] Auf der aktuellen Website tritt Affinity an ihre Stelle. Die folgende Zuordnung ist unsere Lesart der beiden Serien und muss von Bromic bestätigt werden.
+Frühere Beiträge beschrieben eine Serie mit kabellosen Handfernbedienungen,[^s7] und auf der aktuellen Website tritt Affinity an ihre Stelle. Die folgende Zuordnung ist unsere Lesart der beiden Serien und wartet noch auf die Bestätigung durch Bromic.
 
 | Frühere Steuerung | Heutige Entsprechung |
 |---|---|
@@ -142,24 +142,24 @@ Frühere Beiträge beschrieben eine Serie mit kabellosen Handfernbedienungen.[^s
 
 [[VERIFY: Sind Wireless On/Off, Wireless Dimmer, Master Remote und Smart-Heat Link eingestellt oder noch als Ersatzteile erhältlich; gibt es einen Umrüstweg — Produktteam]]
 
-Eine Ausnahme: Der Eclipse Freestanding Heizstrahler wird mit Eclipse Dimmer-Steuergerät und Fernbedienung im Lieferumfang geführt.[^s8] [[VERIFY: Wird Eclipse Freestanding mit dem früheren Eclipse Dimmer und Fernbedienung oder mit Affinity geliefert; App-Unterstützung — Produktteam]]
+Die einzige Ausnahme ist der Eclipse Freestanding Heizstrahler, der mit Eclipse Dimmer-Steuergerät und Fernbedienung im Lieferumfang geführt wird.[^s8] [[VERIFY: Wird Eclipse Freestanding mit dem früheren Eclipse Dimmer und Fernbedienung oder mit Affinity geliefert; App-Unterstützung — Produktteam]]
 
-## Wo wird das Steuergerät montiert?
+## Ein Platz für das Steuergerät
 
-Affinity-Steuergeräte haben die Schutzart IP54 und arbeiten von −20 bis 30 °C. Sie können also innen oder außen an einer belüfteten Stelle montiert werden, in Bluetooth-Reichweite des Ortes, an dem Sie sie einrichten.[^s1][^s2] Planen Sie das Steuergerät und seine Stromkreise zusammen mit den Heizstrahlern, bevor die Wände geschlossen werden; beides installiert ein Elektrofachbetrieb nach DIN VDE 0100. Siehe [wie viele Heizstrahler an einen Stromkreis passen](item:BLD-IN-KB2).
+Affinity-Steuergeräte haben die Schutzart IP54 und arbeiten von −20 bis 30 °C, sodass sie innen oder außen an einer belüfteten Stelle montiert werden können, in Bluetooth-Reichweite des Ortes, an dem Sie sie einrichten.[^s1][^s2] Planen Sie das Steuergerät und seine Stromkreise zusammen mit den Heizstrahlern, bevor die Wände geschlossen werden; beides installiert ein Elektrofachbetrieb nach DIN VDE 0100. Unsere Antwort darauf, [wie viele Heizstrahler an einen Stromkreis passen](item:BLD-IN-KB2), erklärt die Rechnung.
 
 ## Häufige Fragen
 
 ### Kann ich noch eine Handfernbedienung kaufen?
-Affinity-Steuerungen sind App-basiert und haben keine physische Fernbedienung.[^s1] Nutzen Sie die App, einen Sprachassistenten oder einen Wandschalter.
+Affinity-Steuerungen sind App-basiert und haben keine physische Fernbedienung.[^s1] Stattdessen nutzen Sie die App, einen Sprachassistenten oder einen Wandschalter.
 
 ### Brauche ich WLAN?
-Die Einrichtung läuft über Bluetooth in bis zu ca. 9 m Entfernung; Fernsteuerung, Zeitpläne und Sprachsteuerung brauchen 2,4-GHz-WLAN oder Ethernet.[^s2] Siehe [So nutzen Sie die Bromic Heating App (auf Englisch)](https://www.bromic.com/blog/how-to-use-the-new-bromic-heating-app/).
+Die Einrichtung läuft über Bluetooth in bis zu ca. 9 m Entfernung, während Fernsteuerung, Zeitpläne und Sprachsteuerung 2,4-GHz-WLAN oder Ethernet brauchen.[^s2] Unser Beitrag [So nutzen Sie die Bromic Heating App (auf Englisch)](https://www.bromic.com/blog/how-to-use-the-new-bromic-heating-app/) führt Sie hindurch.
 
 ### Lassen sich Gasheizstrahler dimmen?
-Nein. Gasheizstrahler laufen am On/Off-Steuergerät oder an einem Wandschalter: volle Leistung oder aus.[^s2][^s3]
+Nein. Gasheizstrahler laufen am On/Off-Steuergerät oder an einem Wandschalter, mit voller Leistung oder aus.[^s2][^s3]
 
 ### Kann eine App alle meine Steuergeräte bedienen?
 Ja. Bromic begrenzt weder die Zahl der Heizstrahler je Standort noch die Zahl der Standorte je Konto.[^s9]
 
-Sie sind nicht sicher, welches Steuergerät zu Ihrer Anordnung passt? Das Planungsteam legt Heizstrahler und Steuerung gemeinsam fest.
+Sie sind nicht sicher, welches Steuergerät zu Ihrer Anordnung passt? Unser Planungsteam legt Ihre Heizstrahler und die Steuerung gemeinsam fest.

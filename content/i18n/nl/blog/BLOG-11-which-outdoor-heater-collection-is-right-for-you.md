@@ -1,17 +1,17 @@
 ---
 id: BLOG-11
 type: blog
-title: "Welke collectie buitenverwarmers past bij jou? Een koopgids voor het Bromic-assortiment"
+title: "Welke collectie buitenverwarmers past bij jou? De beste buitenverwarmer in het Bromic-assortiment vinden"
 action: merge-target
 audience: [RES]
 stage: [CO]
 cell: RES-CO
 asset: A24
-summary: "Eén koopgids voor elke Bromic-productfamilie: een keuzetabel op ruimte, energiebron en montage, daarna Tungsten, Platinum, Cobalt en Eclipse, elektrisch en gas, elk met het verwarmd oppervlak en de bediening die erbij hoort."
+summary: "Een koopgids voor elke Bromic-productfamilie, van Tungsten, Platinum en Cobalt tot Eclipse, elektrisch en gas – afgestemd op je ruimte, je energiebron en hoe je hem wilt monteren, elk met het verwarmd oppervlak en de bediening die erbij hoort."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Welke buitenverwarmer moet ik kopen voor mijn terras?"
-meta_description: "Kies een Bromic-buitenverwarmer op ruimte, energiebron en montage: elke collectie, het verwarmd oppervlak en de Affinity-bediening die erbij hoort, in één tabel."
+meta_description: "Vind de beste buitenverwarmer voor je ruimte: elke Bromic-collectie op ruimte, energiebron en montage, met verwarmd oppervlak en Affinity-bediening."
 cta: {label: "Bereken wat je ruimte nodig heeft", asset: A03}
 hero: w-bromic-ambiente-sedona
 images: [w-connecticut-privateresidence-tungstenelectri, w-dwellimage5]
@@ -21,7 +21,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-CO-01, RES-PP-01, A03, RES-CO-KB1]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: nl
 translation_of: BLOG-11
 translation_status: machine-draft
@@ -92,13 +92,13 @@ sources:
     verified: true
 ---
 
-De juiste Bromic-verwarmer hangt af van drie dingen: de ruimte (open, overdekt of half besloten), de energiebron die je hebt (elektrisch of gas) en hoe je hem wilt monteren (verzonken, aan het plafond, aan de wand of vrijstaand). Elektrisch past bij overdekte en half besloten terrassen; gas bij grote, goed geventileerde ruimtes; vrijstaand bij open terrein zonder constructie. Elke vast gemonteerde verwarmer heeft zijn bediening nodig: een Affinity Smart-Heat On/Off-, Dimmer- of Eclipse-regelaar, of een handbediende wandschakelaar.[^s1]
+De juiste Bromic-verwarmer begint met drie vragen over je buitenruimte: hoe open die is (open, overdekt of half besloten), welke energiebron je hebt (elektrisch of gas) en hoe je de warmte wilt laten hangen of staan (verzonken, aan het plafond, aan de wand of vrijstaand). Elektrisch is op zijn plek op overdekte en half besloten terrassen, gas in grote, goed geventileerde ruimtes, en vrijstaand op open terrein zonder constructie erboven. Elke geïnstalleerde verwarmer krijgt zijn bediening – een Affinity Smart-Heat On/Off-, Dimmer- of Eclipse-regelaar, of een handbediende wandschakelaar.[^s1]
 
 ## Werken terrasverwarmers buiten echt?
 
-Stralingsverwarmers (infrarood) wel, omdat ze mensen en oppervlakken verwarmen in plaats van de lucht, zodat een licht briesje de warmte niet meeneemt.[^s8] Ventilatorkachels en convectorkachels verwarmen lucht, en die drijft buiten gewoon weg. Bromic maakt alleen stralingsverwarmers, elektrisch en op gas. Hoe goed ze werken, hangt af van vermogen, montagehoogte en plaatsing; daarom is goed dimensioneren belangrijker dan het merk.
+Stralingsverwarmers (infrarood) wel, omdat ze de mensen en oppervlakken om zich heen verwarmen in plaats van de lucht, zodat een licht briesje het comfort niet meeneemt.[^s8] Ventilatorkachels en convectorkachels verwarmen de lucht, en die drijft buiten gewoon weg in de avond. Bromic maakt alleen stralingsverwarmers, elektrisch en op gas. Hoe goed een verwarmer presteert, hangt af van vermogen, montagehoogte en plaatsing, en daarom telt zorgvuldig dimensioneren meer dan de naam op het apparaat.
 
-## De keuzetabel
+## Een verwarmer die past bij je ruimte
 
 | Je ruimte | Energiebron | Montage | Families om te bekijken | Bediening |
 |---|---|---|---|---|
@@ -109,56 +109,56 @@ Stralingsverwarmers (infrarood) wel, omdat ze mensen en oppervlakken verwarmen i
 | Warmte en licht boven een tafel of lounge | Elektrisch | Stang, pendel of wand | Eclipse Electric | Affinity Eclipse-regelaar[^s6] |
 | Open terras, geen constructie, wel een stopcontact | Elektrisch | Vrijstaand | Eclipse Freestanding | Eclipse Dimmer Controller en afstandsbediening, meegeleverd[^s6] |
 | Grote, goed geventileerde ruimte met een gasleiding | Aardgas of propaan | Wand of plafond | Platinum Gas, Tungsten Gas | Affinity On/Off-regelaar; wandschakelaar[^s7] |
-| Open terrein, geen stroom of gasleiding | Propaan of aardgas | Vrijstaand | Tungsten Freestanding Gas | [[VERIFY: control options for Tungsten Freestanding Gas — productteam]] |
+| Open terrein, geen stroom of gasleiding | Propaan of aardgas | Vrijstaand | Tungsten Freestanding Gas | [[VERIFY: bedieningsopties voor Tungsten Freestanding Gas — productteam]] |
 
 [[VERIFY: welke van deze families en uitvoeringen (gas, propaan, Marine) in Nederland leverbaar zijn — Bromic Benelux distributor]]
 
-Twijfel je tussen elektrisch en gas? Lees [elektrische of gasterrasverwarmers](item:RES-CO-01).
+Twijfel je nog tussen elektrisch en gas? Lees [elektrische of gasterrasverwarmers](item:RES-CO-01).
 
-## De elektrische families
+## De elektrische collecties
 
-**Tungsten Electric.** Het werkpaard: 2000, 3000, 4000 en 6000 W, voor ongeveer 6, 9, 12 en 15 m², in zwart (en in wit bij 4000 en 6000 W). Wand, plafond of verzonken. De twee grootste formaten hebben twee elementen die je los kunt bedienen. Garantie: 2 jaar op de verwarmer, 7 jaar op de elementen.[^s2]
+**Tungsten Electric** is de betrouwbare allrounder van het assortiment, in 2000, 3000, 4000 en 6000 W voor ongeveer 6, 9, 12 en 15 m², in zwart (en in wit bij 4000 en 6000 W). Hij komt aan de wand of het plafond, of netjes verzonken erin, en de twee grootste formaten hebben twee elementen die je los kunt bedienen. Je krijgt 2 jaar garantie op de verwarmer en 7 jaar op de elementen.[^s2]
 
-**Platinum Electric.** Slank, met weinig verblinding en ontworpen om in een plafond te verdwijnen: 2300, 3400 en 4500 W, voor ongeveer 6, 10 en 13 m², in zwart of wit, met een inbouwset en een Low-Clearance-inbouwset. Garantie: 3 jaar.[^s3] De **Marine**-uitvoering is van rvs AISI 316, heeft IPX5 en is goedgekeurd door Lloyd's Register voor maritiem gebruik; garantie 5 jaar op land, 3 jaar op schepen.[^s4]
+**Platinum Electric** is slank, geeft weinig verblinding en is ontworpen om in een plafond te verdwijnen, in 2300, 3400 en 4500 W voor ongeveer 6, 10 en 13 m², in zwart of wit, met een inbouwset en een Low-Clearance-inbouwset en 3 jaar garantie.[^s3] De **Marine**-uitvoering is vervaardigd uit rvs AISI 316, heeft IPX5 en is goedgekeurd door Lloyd's Register voor maritiem gebruik, met 5 jaar garantie op land en 3 jaar op schepen.[^s4]
 
-**Cobalt Electric.** Een voordeliger keuze in 4000 en 6000 W, voor ongeveer 12 en 15 m².[^s5]
+**Cobalt Electric** brengt waar voor je geld in grotere ruimtes, in 4000 en 6000 W voor ongeveer 12 en 15 m².[^s5]
 
-**Eclipse Electric.** Warmte en een dimbare lichtrand in één schijf: 2900 W, ongeveer 11 m², in standen van 33, 66 en 100 procent vermogen.[^s1][^s6] Gemonteerd aan een rechte, gebogen, dubbele of wandstang.
+**Eclipse Electric** brengt warmte en een dimbare lichtrand samen in één verfijnde schijf – 2900 W voor ongeveer 11 m², die rustig schakelt tussen 33, 66 en 100 procent vermogen.[^s1][^s6] Hij komt aan een rechte, gebogen, dubbele of wandstang.
 
-**Eclipse Freestanding.** Dezelfde schijf aan een gebogen arm op een verzwaarde voet met wieltjes. Je steekt de stekker in het stopcontact, dus behalve een geschikt stopcontact hoeft er niets geïnstalleerd te worden.[^s1]
+**Eclipse Freestanding** zet dezelfde schijf op een gebogen arm met een verzwaarde voet en wieltjes. Je steekt de stekker in het stopcontact, dus het enige wat hij van je ruimte vraagt, is een geschikt stopcontact.[^s1]
 
-**Tungsten Coastal en Select (binnenkort leverbaar).** Nieuwe Tungsten-collecties, voor ongeveer 6 tot 13 m²: Coastal in zeewaterbestendig rvs 316, Select met extra afwerkingen.[^s1]
+**Tungsten Coastal en Select (binnenkort leverbaar)** zijn nieuwe Tungsten-collecties voor ongeveer 6 tot 13 m², met Coastal vervaardigd uit zeewaterbestendig rvs 316 en Select met extra afwerkingen.[^s1]
 
-Bediening voor elektrisch: Platinum, Tungsten en Cobalt werken met een Affinity On/Off-regelaar (volle warmte) of Dimmer-regelaar (warmte in stappen van 1%), of met een handbediende wandschakelaar.[^s9] Eclipse Electric werkt met de Affinity Eclipse-regelaar, die warmte en licht samen instelt.[^s6] [[VERIFY: whether Eclipse Electric still ships with the Eclipse Dimmer Controller and remote as an alternative to the Affinity Eclipse controller — productteam]]
+Bij de elektrische collecties werken Platinum, Tungsten en Cobalt met een Affinity On/Off-regelaar (volle warmte) of Dimmer-regelaar (warmte in stappen van 1%), of met een handbediende wandschakelaar.[^s9] Eclipse Electric werkt met de Affinity Eclipse-regelaar, die warmte en licht samen instelt.[^s6] [[VERIFY: of Eclipse Electric nog wordt geleverd met de Eclipse Dimmer Controller en afstandsbediening als alternatief voor de Affinity Eclipse-regelaar — productteam]]
 
 ![Verzonken Tungsten Electric-verwarmers in een verandaplafond](img:w-connecticut-privateresidence-tungstenelectri)
 
-## De gasfamilies
+## De gascollecties
 
-**Platinum Gas.** Twee formaten, 6,9 en 11,7 kW, voor ongeveer 15 en 20 m², op aardgas of propaan, aan de wand of het plafond.[^s7]
+**Platinum Gas** is er in twee formaten, 6,9 en 11,7 kW, voor ongeveer 15 en 20 m² op aardgas of propaan, aan de wand of het plafond.[^s7]
 
-**Tungsten Gas.** Twee formaten aan een draaiarm voor wand of plafond. [[VERIFY: Tungsten Gas output and coverage per size, unpublished in content until confirmed — productteam]]
+**Tungsten Gas** biedt twee formaten aan een draaiarm voor wand- of plafondmontage. [[VERIFY: vermogen en verwarmd oppervlak van Tungsten Gas per formaat, niet gepubliceerd tot bevestiging — productteam]]
 
-**Tungsten Freestanding Gas.** Ongeveer 11,1 kW en 20 m², op propaan of aardgas, met een kantelbare kop, wieltjes en een ontwerp dat omvallen tegengaat.[^s1] [[VERIFY: 11,1 kW (38.000 BTU/h, Lookbook) of 11,3 kW (38.500 BTU/h, productpagina) — productteam]]
+**Tungsten Freestanding Gas** levert ongeveer 11,1 kW over 20 m², op propaan of aardgas, met een kantelbare kop, wieltjes en een ontwerp dat omvallen tegengaat.[^s1] [[VERIFY: 11,1 kW (Lookbook) of 11,3 kW (productpagina) — productteam]]
 
-Gasverwarmers hebben open lucht om zich heen nodig. Bromic beschouwt een ruimte als buitenruimte als minstens 30% van de omtrek permanent open is.[^s8] [[VERIFY: the merged post said 25%; confirm the current ventilation rule — productteam]] Gasverwarmers gaan aan en uit; ze dimmen niet. Bedien ze met een Affinity On/Off-regelaar, tot 10 verwarmers per kanaal, of met een handbediende wandschakelaar.[^s7] Een gekwalificeerde gasinstallateur sluit vaste gasverwarmers aan volgens NEN 1078; laat vrije afstanden en ventilatie controleren door je gemeente. [[VERIFY: current Dutch codes for outdoor heater installations — Bromic Benelux distributor]]
+Gasverwarmers hebben open lucht om zich heen nodig, en Bromic beschouwt een ruimte als buitenruimte als minstens 30% van de omtrek permanent open is.[^s8] [[VERIFY: de samengevoegde post noemde 25%; bevestig de huidige ventilatieregel — productteam]] Gasverwarmers gaan aan en uit en dimmen niet, dus ze werken met een Affinity On/Off-regelaar, tot 10 verwarmers per kanaal, of met een handbediende wandschakelaar.[^s7] Een gekwalificeerde gasinstallateur sluit vaste gasverwarmers aan volgens NEN 1078; laat vrije afstanden en ventilatie controleren door je gemeente. [[VERIFY: actuele Nederlandse normen voor de installatie van buitenverwarmers — Bromic Benelux distributor]]
 
-## Hoeveel verwarmers heb ik nodig?
+## Hoeveel verwarmers heeft je ruimte nodig?
 
-Reken met het verwarmd oppervlak van elke verwarmer, niet met een vuistregel. Een overdekte eethoek van 3,7 × 6,1 m (ongeveer 22 m²) kan toe met twee Tungsten Electric-verwarmers van 4000 W, of met een mix van zones met verschillende vermogens. Montagehoogte en wind veranderen het antwoord, dus gebruik de [rekenhulp](item:A03) of de gratis ontwerpservice van Bromic, [Design Your Space](https://www.bromic.nl/), die verwarmers en bediening intekent op basis van je foto's of plattegrond. Over plaatsing lees je meer in [waar je terrasverwarmers plaatst](item:RES-PP-01).
+Het verwarmd oppervlak van elke verwarmer is de zekerste gids, veel betrouwbaarder dan een vuistregel. Een overdekte eethoek van 3,7 × 6,1 m (ongeveer 22 m²) kan toe met twee Tungsten Electric-verwarmers van 4000 W, of met een mix van zones met verschillende vermogens. Montagehoogte en wind bepalen allebei het antwoord, dus probeer de [rekenhulp](item:A03) of de gratis ontwerpservice van Bromic, [Design Your Space](https://www.bromic.nl/), waarbij wij je verwarmers en bediening intekenen op basis van je foto's of plattegrond. Over plaatsing lees je meer in [waar je terrasverwarmers plaatst](item:RES-PP-01).
 
-![Eclipse Freestanding-verwarmer op een terras in de woestijn](img:w-dwellimage5)
+![Eclipse Freestanding-verwarmer verwarmt een terras in de woestijn](img:w-dwellimage5)
 
 ## Veelgestelde vragen
 
 ### Wat is het beste type buitenverwarmer?
-Stralingswarmte (infrarood). Die verwarmt mensen direct en kan tegen een lichte wind.[^s8] Kies elektrisch of gas op basis van wat er op de plek beschikbaar is en hoe open die is.
+Stralingswarmte (infrarood), die mensen direct verwarmt en goed standhoudt bij een lichte wind.[^s8] Kies elektrisch of gas op basis van wat je plek te bieden heeft en hoe open die is.
 
 ### Kan ik collecties combineren?
 Ja. Veel projecten combineren verzonken elektrische verwarmers boven de eettafel met een Eclipse boven de lounge, elk met een eigen zone en regelaar.
 
 ### Heb ik bediening nodig?
-Ja. Elke vaste verwarmer heeft een Affinity-regelaar of een handbediende wandschakelaar nodig. App, tijdschema's en spraakbesturing vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht.[^s1] Zie het assortiment bediening op [bromic.nl](https://www.bromic.nl/).
+Ja. Elke vaste verwarmer heeft een Affinity-regelaar of een handbediende wandschakelaar nodig, en de app, schema's en spraakbesturing vragen om compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht.[^s1] Bekijk het assortiment bediening op [bromic.nl](https://www.bromic.nl/).
 
 ### Waar zie ik het hele assortiment?
 Op [bromic.nl](https://www.bromic.nl/), waar je ook op energiebron kunt filteren: elektrisch en gas.

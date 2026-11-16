@@ -1,13 +1,13 @@
 ---
 id: BLOG-10
 type: blog
-title: "De toekomst van domotica: slimme technologie voor buitenruimtes"
+title: "De toekomst van domotica: slimme buitenverwarming voor jouw ruimte"
 action: keep-fix
 audience: [RES, ARC]
 stage: [AW]
 cell: RES-AW
 asset: A24
-summary: "Verslag van een podcast: Jeff Thomas van Snap One en Michael Smith van Bromic over domotica naar buiten brengen, dat vroeg plannen, en bedraad tegenover draadloos, met de Affinity-bediening die buitenwarmte op het thuisnetwerk zet."
+summary: "Jeff Thomas van Snap One en Michael Smith van Bromic over het comfort van een verbonden huis naar het terras brengen: vroeg plannen, kiezen tussen bedraad en draadloos, en de Affinity-bediening die buitenwarmte op het thuisnetwerk zet."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe werkt domotica samen met buitenverwarming?"
@@ -20,7 +20,11 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-AW-01, RES-BY-01, ARC-IN-01]
-updated: 2026-10-29
+updated: 2026-11-16
+lang: nl
+translation_of: BLOG-10
+translation_status: machine-draft
+native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -43,47 +47,44 @@ sources:
     url: https://www.bromic.com/product/affinity-smart-heat-expansion-board/
     supports: "Ethernet and 0–10 V for home automation and BMS; Alexa and Google Home need no board"
     verified: true
-lang: nl
-translation_of: BLOG-10
-translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 ---
-Domotica reikt nu tot op het terras. In deze aflevering van de Engelstalige podcast Designing Outdoor Spaces bespreken Jeff Thomas van Snap One en Michael Smith van Bromic Heating hoe je verlichting, klimaat en warmte naar buiten brengt, waarom systeemintegratoren en ontwerpers vroeg aan tafel moeten zitten, en wanneer een bedrade verbinding beter is dan draadloos.[^s1] Voor verwarming betekent dat Affinity Smart-Heat-bediening, apart verkocht, die verwarmers van Bromic op hetzelfde netwerk zet als het huis.[^s2]
+
+Als de avond afkoelt en de verwarmers gaan gloeien, reikt het verbonden huis nu tot op het terras. In de Engelstalige podcast Designing Outdoor Spaces bespreken Jeff Thomas van Snap One en Michael Smith van Bromic Heating hoe je verlichting, klimaat en warmte naar buiten brengt, waarom je systeemintegratoren en ontwerpers vroeg betrekt, en wanneer bedraad beter is dan draadloos.[^s1] Voor verwarming leidt dat naar Affinity Smart-Heat-bediening, apart verkocht, die verwarmers van Bromic op het netwerk van het huis zet.[^s2]
 
 [Beluister de volledige aflevering](https://www.bromic.com/podcast/the-future-of-home-automation).
 
-## Wie zijn de gasten?
+## Maak kennis met de gasten
 
 | Gast | Functie | Aandachtsgebied |
 |---|---|---|
 | Jeff Thomas | Senior Director of Product Management, Snap One | Meer dan 15 jaar in slimme woningen, productontwikkeling en lichtontwerp[^s1] |
 | Michael Smith | Global VP, Bromic Heating | De markt voor slimme buitenverwarming laten groeien; achtergrond in chemische technologie en business development[^s1] |
 
-## Waarom domotica vroeg plannen?
+## Waarom vroeg plannen het verschil maakt
 
-Thomas schetst hoe domotica zich de afgelopen vijf jaar heeft ontwikkeld en stelt dat de beste resultaten ontstaan als systeemintegratoren en ontwerpers vanaf het begin betrokken zijn, zodat technologie deel is van het ontwerp in plaats van eromheen te worden gepast.[^s1] Voorschrijvers krijgen de vraag naar buitenkamers die er indrukwekkend uitzien en ook verlichting en klimaat net zo goed regelen als de kamers binnen.[^s1]
+Thomas schetst hoe domotica zich de afgelopen vijf jaar heeft ontwikkeld, en hij pleit ervoor systeemintegratoren en ontwerpers al bij de eerste schets aan tafel te halen, zodat de technologie in het ontwerp zelf wordt verweven.[^s1] Voorschrijvers krijgen nu de vraag naar buitenkamers die er indrukwekkend uitzien en hun verlichting en klimaat net zo moeiteloos regelen als de kamers binnen.[^s1]
 
-Voor warmte betekent vroeg: in de tekening. De plaats van de verwarmers, de groepen, en waar de regelaar en zijn netwerkaansluiting komen. Dat is het moment waarop buitenverwarming vanaf het begin wordt ontworpen, niet later toegevoegd.
+Voor warmte betekent vroeg plannen: plannen in de tekening, met waar elke verwarmer komt, hoe de groepen lopen en waar de regelaar en zijn netwerkaansluiting een plek krijgen. Dat is het moment waarop warmte vanaf de eerste tekening wordt meegenomen, verweven in de ruimte samen met de verlichting en het klimaat binnen.
 
-## Hoe ziet slimme buitenverwarming eruit?
+## Hoe slimme buitenwarmte voelt
 
-Zoals de blog hem samenvat, ziet Smith de buitenruimte niet langer als bijzaak, en slimme verwarmers en bediening als een manier om die net zo verbonden, efficiënt en goed ontworpen te houden als het interieur.[^s1] Huiseigenaren verwachten steeds vaker dat warmte, verlichting en beveiliging samenwerken met de systemen die ze al hebben.[^s1]
+Zoals de blog hem samenvat, ziet Smith de buitenruimte niet langer als bijzaak, met slimme verwarmers en bediening die haar net zo verbonden, efficiënt en goed ontworpen houden als het interieur.[^s1] Huiseigenaren verwachten steeds vaker dat warmte, verlichting en beveiliging naadloos samenwerken met de systemen waarmee ze al leven.[^s1]
 
-Bij Bromic is dat het Affinity Smart-Heat-assortiment:[^s2]
+Bij Bromic beleef je dat met het Affinity Smart-Heat-assortiment:[^s2]
 
-- **On/Off-, Dimmer- of Eclipse-regelaar**, of een handmatige wandschakelaar, voor elke geïnstalleerde verwarmer.
+- **Een On/Off-, Dimmer- of Eclipse-regelaar**, of een handmatige wandschakelaar, bij elke geïnstalleerde verwarmer.
 - **De app van Bromic** voor zones, schema's en timers.
 - **Alexa en Google Assistant**, zonder extra hardware.[^s3]
 - **Control4, Crestron en Lutron** via de ethernet- en 0–10 V-aansluiting van de Affinity-uitbreidingskaart; de compatibiliteit verschilt per systeem.[^s2][^s3]
 
-Wifi- en appfuncties vragen om compatibele Affinity-bediening, die apart wordt verkocht.[^s2] Zie [Smart-Heat-bediening instellen](item:RES-BY-01) en [verwarmers koppelen aan domotica](https://www.bromic.com/blog/how-to-integrate-your-bromic-smart-heat-link-with-your-home-automation-system/).
+Wifi- en appfuncties vragen om compatibele Affinity-bediening, die apart wordt verkocht.[^s2] Wil je verder, lees dan over [Smart-Heat-bediening instellen](item:RES-BY-01) en [verwarmers koppelen aan domotica](https://www.bromic.com/blog/how-to-integrate-your-bromic-smart-heat-link-with-your-home-automation-system/) (Engelstalig).
 
-## Bedraad of draadloos?
+## Kiezen tussen bedraad en draadloos
 
-Thomas merkt op dat draadloze systemen beter zijn geworden, maar dat bedrade verbindingen nog steeds betrouwbaarder zijn in grote ruimtes of waar het signaal zwak is.[^s1] Affinity-regelaars bieden beide: wifi voor de meeste woningen, en ethernet via de uitbreidingskaart waar een stabiele verbinding telt.[^s3] Leg de netwerkkabel aan op het moment dat de groepen voor de verwarmers worden aangelegd; je installateur werkt daarbij volgens NEN 1010.
+Thomas merkt op dat draadloze systemen een lange weg hebben afgelegd, al blijft een bedrade verbinding de betrouwbaarste in grote ruimtes of waar het signaal zwak is.[^s1] Affinity-regelaars geven je beide, met wifi voor de meeste woningen en ethernet via de uitbreidingskaart waar een stabiele verbinding het meest telt.[^s3] Het eenvoudigste moment om die netwerkkabel te trekken is wanneer de groepen voor de verwarmers worden aangelegd; je installateur werkt daarbij volgens NEN 1010.
 
-## Wat komt er hierna?
+## Waar buitenleven naartoe gaat
 
-De blog sluit af met een eenvoudig punt: nu domotica steeds makkelijker te koop is, maakt een goed geïntegreerde buitenruimte het verschil in een project.[^s1] Bekijk de [buitenverwarmers van Bromic](https://www.bromic.com/outdoor-heaters/) of het [assortiment bediening](https://www.bromic.com/controls/), of neem contact op via [bromic.nl](https://www.bromic.nl/).
+De blog sluit af met een gedachte om vast te houden: nu domotica steeds makkelijker te koop is, maakt juist een goed geïntegreerde buitenruimte het verschil in een project.[^s1] Bekijk de [buitenverwarmers van Bromic](https://www.bromic.com/outdoor-heaters/) of ontdek het [assortiment bediening](https://www.bromic.com/controls/), of neem contact op via [bromic.nl](https://www.bromic.nl/).
 
-Hoe huiseigenaren dit jaar hun buitenleven plannen, lees je in het rapport Trends 2026.
+Hoe huiseigenaren dit jaar hun buitenleven plannen, ontdek je in het rapport Trends 2026.

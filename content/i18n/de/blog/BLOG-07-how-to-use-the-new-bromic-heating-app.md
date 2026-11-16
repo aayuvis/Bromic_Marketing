@@ -1,17 +1,17 @@
 ---
 id: BLOG-07
 type: blog
-title: "So nutzen Sie die Bromic-Heizungs-App mit der Affinity Smart-Heat-Steuerung"
+title: "So nutzen Sie die Bromic Heizungs-App mit der Affinity Smart-Heat-Steuerung"
 action: rewrite
 audience: [RES, BLD]
 stage: [BY]
 cell: RES-BY
 asset: A24
-summary: "Die Bromic Smart-Heat App Schritt für Schritt einrichten: was Sie brauchen, ein Affinity-Steuergerät koppeln, Heizstrahler, Zonen, Szenen, Benutzer und Sprachsteuerung – und was die App nicht kann."
+summary: "So richten Sie die Bromic Smart-Heat App ein, damit die Wärme bereitsteht, sobald Sie hinaustreten: vom Koppeln eines Affinity-Steuergeräts über das Benennen der Heizstrahler, Zonen und Szenen bis zu weiteren Benutzern und Sprachsteuerung, dazu, was die App nicht kann."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
-ai_prompt: "Wie richte ich die Bromic-Heizungs-App ein und wie nutze ich sie?"
-meta_description: "Die Bromic Smart-Heat App einrichten: Affinity-Steuergerät koppeln, Heizstrahler benennen, Zonen und Szenen anlegen, Benutzer einladen, Alexa oder Google Home hinzufügen."
+ai_prompt: "Wie richte ich die Bromic Heizungs-App ein und wie nutze ich sie?"
+meta_description: "Die Bromic Heizungs-App einrichten: Steuergerät koppeln, Heizstrahler benennen, Zonen und Szenen anlegen, Familie einladen, Alexa oder Google Home."
 cta: {label: "Den Smart-Heat-Einrichtungsleitfaden öffnen", asset: A09}
 hero: w-eclipse-electric-w-bromic-heating-app
 images: [w-affinity-onoff]
@@ -21,7 +21,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-BY-01, RES-PP-01, COM-BY-01]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: de
 translation_of: BLOG-07
 translation_status: machine-draft
@@ -64,11 +64,11 @@ sources:
     verified: false
 ---
 
-Die Bromic-Heizungs-App, in den Stores als Bromic Smart-Heat geführt, steuert Bromic-Heizstrahler vom Smartphone aus, sobald kompatible Affinity Smart-Heat-Steuerungen installiert sind.[^s1] Sie koppeln das Steuergerät per Bluetooth aus höchstens ca. 9 m Entfernung, bringen es ins WLAN oder ans Ethernet, benennen dann die Heizstrahler, fassen sie zu Zonen zusammen und legen Szenen mit einem Wochenplan an. Affinity-Steuerungen sind separat erhältlich, und die App funktioniert nicht mit älteren Bromic-Fernbedienungen.[^s1][^s2]
+Mit der Bromic Heizungs-App, in den Stores als Bromic Smart-Heat geführt, steuern Sie Ihre Bromic Heizstrahler vom Smartphone aus, sobald kompatible Affinity Smart-Heat-Steuerungen installiert sind.[^s1] Sie koppeln das Steuergerät per Bluetooth aus höchstens ca. 9 m Entfernung, bringen es ins WLAN oder ans Ethernet und benennen dann Ihre Heizstrahler, fassen sie zu Zonen zusammen und legen Szenen mit einem Wochenplan an. Affinity-Steuerungen sind separat erhältlich, und die App funktioniert nicht mit älteren Bromic-Fernbedienungen.[^s1][^s2]
 
-![Bromic-App auf einem Smartphone neben einem Eclipse-Heizstrahler](img:w-eclipse-electric-w-bromic-heating-app)
+![Die Bromic App auf einem Smartphone neben einem leuchtenden Eclipse Heizstrahler](img:w-eclipse-electric-w-bromic-heating-app)
 
-## Was brauche ich, bevor ich beginne?
+## Was Sie vor dem Start brauchen
 
 | Sie brauchen | Warum |
 |---|---|
@@ -81,56 +81,56 @@ Die Bromic-Heizungs-App, in den Stores als Bromic Smart-Heat geführt, steuert B
 
 Ein manueller Wandschalter ist für sich eine vollständige Steuerung, verbindet sich aber nicht mit der App.[^s2]
 
-## Wie richte ich die App ein?
+## Die App einrichten
 
 1. **Installieren Sie die App** aus dem App Store oder Google Play und legen Sie ein Konto mit der E-Mail-Adresse des Eigentümers an.[^s1][^s5]
 2. **Legen Sie einen Standort an** und geben Sie ihm einen einfachen Namen, etwa „Terrasse“ oder „Garten“.[^s1]
-3. **Stellen Sie sich höchstens ca. 9 m vom Steuerkasten entfernt hin.** In der Liste erscheinen nur Steuergeräte in Bluetooth-Reichweite und im Suchmodus.[^s1]
+3. **Stellen Sie sich höchstens ca. 9 m vom Steuerkasten entfernt hin**, denn in der Liste erscheinen nur Steuergeräte in Bluetooth-Reichweite und im Suchmodus.[^s1]
 4. **Gleichen Sie die Seriennummer** in der App mit dem Etikett am Kasten ab und wählen Sie dann das Steuergerät aus.[^s1]
-5. **Konfigurieren Sie jeden Kanal**, einen je Heizstromkreis, und benennen Sie ihn nach dem Bereich, den er beheizt.[^s1]
-6. **Verbinden Sie das Steuergerät mit WLAN oder Ethernet.** Steuergeräte starten über Bluetooth; eine Netzwerkverbindung ist stabiler und ermöglicht die Steuerung auch, wenn Sie nicht auf der Terrasse sind. Die Netzwerkeinstellungen erhalten Sie von Ihrem Installateur oder vom technischen Support von Bromic.[^s1]
+5. **Konfigurieren Sie jeden Kanal**, einen je Heizstromkreis, und benennen Sie ihn nach dem Bereich, den er wärmt.[^s1]
+6. **Verbinden Sie das Steuergerät mit WLAN oder Ethernet.** Steuergeräte starten über Bluetooth, und eine Netzwerkverbindung ist stabiler und lässt Sie die Wärme auch dann steuern, wenn Sie nicht auf der Terrasse sind. Bei den Netzwerkeinstellungen helfen Ihnen Ihr Installateur oder der technische Support von Bromic.[^s1]
 7. **Fügen Sie weitere Steuergeräte oder Benutzer hinzu** oder schließen Sie die Einrichtung des Standorts ab, um zum Startbildschirm zu gelangen.[^s1]
 
 <div class="diagram">Diagramm: Smartphone → Bluetooth (Einrichtung, bis ca. 9 m) → Affinity-Steuergerät → WLAN oder Ethernet → App von überall; jeder Kanal des Steuergeräts versorgt einen oder mehrere Heizstrahler.</div>
 
-## Was kann ich auf dem Startbildschirm tun?
+## Alles griffbereit auf dem Startbildschirm
 
-Der Startbildschirm listet Ihre Heizstrahler („Geräte“), Zonen und Szenen auf, mit einem Symbol, das zeigt, wie jedes Steuergerät verbunden ist: Bluetooth, WLAN oder Ethernet.[^s1]
+Der Startbildschirm versammelt Ihre Heizstrahler („Geräte“), Zonen und Szenen an einem Ort, mit einem Symbol, das zeigt, wie jedes Steuergerät verbunden ist, ob per Bluetooth, WLAN oder Ethernet.[^s1]
 
-- **Ein und aus.** Ein Schalter je Heizstrahler.
-- **Heizstufe.** Heizstrahler an einem Dimmer- oder Eclipse-Steuergerät zeigen einen Schieberegler von 0 bis 100 Prozent.[^s1] Eclipse-Heizstrahler dimmen über dasselbe Steuergerät auch ihr Licht.[^s3]
-- **Timer.** Öffnen Sie einen Heizstrahler, um ihn umzubenennen oder einen Timer zu stellen. Jedes Steuergerät hat außerdem eine voreingestellte automatische Abschaltung nach vier Stunden, einstellbar auf 2, 4, 6, 8 oder 12 Stunden. Bromic rät davon ab, sie zu deaktivieren.[^s2]
+- **Ein- und Ausschalten** braucht nur einen Schalter je Heizstrahler.
+- **Die Heizstufe** stellen Sie bei Heizstrahlern an einem Dimmer- oder Eclipse-Steuergerät bequem mit einem Schieberegler von 0 bis 100 Prozent ein.[^s1] Eclipse Heizstrahler dimmen über dasselbe Steuergerät auch ihr Licht.[^s3]
+- **Timer** finden Sie im jeweiligen Heizstrahler, wo Sie ihn auch umbenennen können. Jedes Steuergerät hat außerdem eine voreingestellte automatische Abschaltung nach vier Stunden, einstellbar auf 2, 4, 6, 8 oder 12 Stunden, und Bromic rät, sie eingeschaltet zu lassen.[^s2]
 
-## Wie funktionieren Zonen und Szenen?
+## Zonen und Szenen für Ihr Leben im Freien
 
-Eine **Zone** fasst Heizstrahler zusammen, die Sie gemeinsam nutzen, etwa am Esstisch oder in der Lounge. So schaltet ein Befehl sie ein, stellt eine gemeinsame Heizstufe ein oder plant ihre Abschaltung.[^s1] Planen Sie Zonen danach, wie Sie den Bereich nutzen, und zwar vor der Verkabelung: siehe [wo Terrassenheizstrahler hingehören](item:RES-PP-01).
+Eine **Zone** fasst die Heizstrahler zusammen, die Sie gemeinsam nutzen, etwa über dem Esstisch oder in der Lounge, sodass ein einziger Befehl sie einschaltet, auf eine gemeinsame Heizstufe stellt oder ihre Abschaltung plant.[^s1] Planen Sie Ihre Zonen danach, wie Sie den Bereich genießen, noch bevor die Leitungen verlegt werden; unser Beitrag dazu, [wo Terrassenheizstrahler hingehören](item:RES-PP-01), hilft Ihnen dabei.
 
-Eine **Szene** automatisiert einen Ablauf nach einem Wochenplan: Wärme an Werktagen bei Einbruch der Dunkelheit an, nach einer Veranstaltung aus.[^s1] Die zeitplanbasierte Abschaltung funktioniert nur bei Steuergeräten, die per WLAN verbunden sind.[^s4]
+Eine **Szene** automatisiert einen Ablauf nach einem Wochenplan, etwa Wärme an Werktagen bei Einbruch der Dunkelheit an und nach einer Veranstaltung aus.[^s1] Die zeitplanbasierte Abschaltung funktioniert nur bei Steuergeräten, die per WLAN verbunden sind.[^s4]
 
-## Können andere Personen die App nutzen?
+## Die Steuerung mit Familie und Personal teilen
 
-Ja. Der Admin lädt Personen per E-Mail über Einstellungen, Benutzer verwalten ein. Admins können die Einrichtung des Standorts ändern; Benutzer können nur die Heizstrahler bedienen.[^s1][^s2] Für Einladungen muss das Steuergerät im WLAN sein.[^s1] Die Zahl der Heizstrahler je Standort und der Standorte je Konto ist nicht begrenzt.[^s2]
+Der Admin lädt andere per E-Mail über Einstellungen, Benutzer verwalten ein. Admins können die Einrichtung des Standorts ändern, Benutzer bedienen die Heizstrahler.[^s1][^s2] Für Einladungen muss das Steuergerät im WLAN sein.[^s1] Die Zahl der Heizstrahler je Standort und der Standorte je Konto ist nicht begrenzt.[^s2]
 
-## Funktioniert sie mit Alexa oder Google Home?
+## Sprachsteuerung mit Alexa oder Google Home
 
-Ja, über kompatible Affinity-Steuerungen; verknüpfen Sie sie in der Alexa- oder Google-Home-App. Apple Home wird derzeit nicht unterstützt.[^s2][^s3] Für die Sprachsteuerung muss das Steuergerät in einem Netzwerk sein: Über Bluetooth allein funktioniert sie nicht, ebenso wenig, wenn das Steuergerät über eine Gebäudeleittechnik läuft.[^s2] Für Systeme im ganzen Haus siehe [Bromic-Heizstrahler in die Hausautomation einbinden (auf Englisch)](https://www.bromic.com/blog/how-to-integrate-your-bromic-smart-heat-link-with-your-home-automation-system/).
+Über kompatible Affinity-Steuerungen können Sie die App in der Alexa- oder Google-Home-App verknüpfen. Apple Home wird derzeit nicht unterstützt.[^s2][^s3] Für die Sprachsteuerung muss das Steuergerät in einem Netzwerk sein; über Bluetooth allein funktioniert sie daher nicht, ebenso wenig, wenn das Steuergerät über eine Gebäudeleittechnik läuft.[^s2] Für Systeme im ganzen Haus lesen Sie [Bromic Heizstrahler in die Hausautomation einbinden (auf Englisch)](https://www.bromic.com/blog/how-to-integrate-your-bromic-smart-heat-link-with-your-home-automation-system/).
 
-## Was passiert, wenn das WLAN ausfällt?
+## Wenn das WLAN ausfällt
 
-Das Steuergerät wechselt auf eine andere verfügbare Verbindung oder auf Bluetooth und kehrt zu WLAN oder Ethernet zurück, sobald diese wieder da sind.[^s2] Verliert das Steuergerät die Stromversorgung, zeigt die App seine Heizstrahler als offline an.[^s2] [[VERIFY: heater state after a power cut and whether a wall switch can override an Affinity controller — Produktteam]]
+Das Steuergerät wechselt auf eine andere verfügbare Verbindung oder auf Bluetooth und kehrt zu WLAN oder Ethernet zurück, sobald diese wieder da sind.[^s2] Verliert das Steuergerät die Stromversorgung, zeigt die App seine Heizstrahler als offline an.[^s2] [[VERIFY: Zustand der Heizstrahler nach einem Stromausfall und ob ein Wandschalter ein Affinity-Steuergerät übersteuern kann — Produktteam]]
 
 ## Häufige Fragen
 
 ### Funktioniert die App mit meiner älteren Bromic-Fernbedienung?
-Nein. Die App ist für Affinity-Steuerungen gebaut und nicht abwärtskompatibel mit den älteren Fernbedienungen von Bromic.[^s1][^s2] [[VERIFY: recommended replacement path for owners of wireless On/Off and Dimmer controllers — Produktteam]]
+Nein. Die App ist für Affinity-Steuerungen gebaut und nicht abwärtskompatibel mit den älteren Fernbedienungen von Bromic.[^s1][^s2] [[VERIFY: empfohlener Umstiegsweg für Besitzer der kabellosen On/Off- und Dimmer-Steuergeräte — Produktteam]]
 
 ### Wird zu Affinity-Steuergeräten eine Fernbedienung mitgeliefert?
-Nein. Affinity-Steuerungen werden über die App bedient und ohne physische Fernbedienung geliefert.[^s3]
+Nein. Affinity-Steuerungen werden über die App bedient und ohne physische Fernbedienung geliefert, sodass Ihr Smartphone zur Steuerung wird.[^s3]
 
 ### Ist die App kostenlos?
-[[VERIFY: app price and any subscription — Produktteam]] Die Steuergeräte sind separat erhältlich; siehe die [Bromic-Steuerungen](https://www.bromic.de/).
+[[VERIFY: Preis der App und ein mögliches Abonnement — Produktteam]] Die Steuergeräte sind separat erhältlich; entdecken Sie die [Bromic Steuerungen](https://www.bromic.de/).
 
 ### Wo bekomme ich Hilfe?
-Beim technischen Support von Bromic über [bromic.de](https://www.bromic.de/) oder in den [FAQ zur App (auf Englisch)](https://www.bromic.com/affinity-smart-heat-app/). [[VERIFY: Kontakt des technischen Supports für Deutschland — Partner Deutschland]]
+Beim technischen Support von Bromic über [bromic.de](https://www.bromic.de/); Antworten auf häufige Fragen finden Sie in den [FAQ zur App (auf Englisch)](https://www.bromic.com/affinity-smart-heat-app/). [[VERIFY: Kontakt des technischen Supports für Deutschland — Partner Deutschland]]
 
-Der Einrichtungsleitfaden erklärt Zonen, Szenen und Sprachsteuerung Schritt für Schritt an einem Ort.
+Unser Einrichtungsleitfaden bringt Zonen, Szenen und Sprachsteuerung Schritt für Schritt an einem Ort zusammen.

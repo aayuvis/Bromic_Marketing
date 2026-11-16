@@ -1,17 +1,17 @@
 ---
 id: BLOG-26
 type: blog
-title: "Heizstrahler für draußen reinigen und warten: eine Checkliste für die Saison"
+title: "Heizstrahler für draußen durch die Jahreszeiten pflegen und warten"
 action: keep-fix
 audience: [COM, RES]
 stage: [BY]
 cell: COM-BY
 asset: A24
-summary: "Eine sichere Routine für Bromic Gas- und Elektro-Heizstrahler: was Sie tun, bevor Sie ein Gerät anfassen, was Sie wie oft reinigen, die Prüfungen zu Saisonbeginn und -ende, Lagerung, Steuerung und wo die Garantiebedingungen stehen."
+summary: "Mit ein wenig Pflege ist Ihr Bromic Gas- oder Elektro-Heizstrahler für jeden Abend im Freien bereit. Was Sie tun, bevor Sie ein Gerät anfassen, was Sie wie oft reinigen, die Prüfungen zu Beginn und Ende jeder Saison, Lagerung, Steuerung und wo Sie die Garantiebedingungen finden."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie reinige und warte ich meinen Heizstrahler für draußen?"
-meta_description: "Heizstrahler für draußen sicher reinigen und warten: Vorsichtsmaßnahmen, Reinigung, Prüfungen zu Saisonbeginn und -ende, Lagerung und Steuerung, für Gas und Elektro."
+meta_description: "Heizstrahler für draußen einfach pflegen: sichere Reinigung, Prüfungen zu Saisonbeginn und -ende, Lagerung und Steuerung für Bromic Gas und Elektro."
 cta: {label: "Das Betriebshandbuch anfordern", asset: A23}
 hero: w-bromic-shoot-may-11-2023-54
 images: [w-tungsten-portable-cover-v3]
@@ -21,7 +21,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [COM-BY-01, RES-BY-01, BLD-BY-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -63,27 +63,26 @@ translation_of: BLOG-26
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
+Die Pflege eines Heizstrahlers für draußen ist einfach, wenn das Gerät ausgeschaltet und abgekühlt ist. Wischen Sie das Gehäuse mit einem weichen Mikrofasertuch ab, entfernen Sie Laub, Nester und Spinnweben und halten Sie Wasser und aggressive Reiniger von den Heizelementen fern. Prüfen Sie zu Beginn und am Ende jeder Saison Halterungen, Kabel und Steuerung; bei Gasheizstrahlern prüfen Sie die Anschlüsse auf Dichtheit und lassen die Gasversorgung mindestens einmal im Jahr von einem Gasinstallateur kontrollieren. Alles, was über die Oberflächenreinigung hinausgeht, gehört in die Hände eines Fachbetriebs.
 
-Reinigen Sie einen Heizstrahler für draußen nur, wenn er ausgeschaltet und abgekühlt ist: Wischen Sie das Gehäuse mit einem weichen Mikrofasertuch ab, entfernen Sie Laub, Nester und Spinnweben und halten Sie Wasser und aggressive Reiniger von den Heizelementen fern. Prüfen Sie zu Beginn und am Ende jeder Saison Halterungen, Kabel und Steuerung; bei Gasheizstrahlern prüfen Sie die Anschlüsse auf Dichtheit und lassen die Gasversorgung mindestens einmal im Jahr von einem Gasinstallateur kontrollieren. Alles, was über die Oberflächenreinigung hinausgeht, gehört in die Hände eines Fachbetriebs.
+![Platinum Electric Heizstrahler, bündig in eine Holzdecke mit Edelstahlrahmen eingelassen, bereit für den Abend](img:w-bromic-shoot-may-11-2023-54)
 
-![Platinum Electric Heizstrahler, bündig in eine Holzdecke mit Edelstahlrahmen eingelassen](img:w-bromic-shoot-may-11-2023-54)
+## Bevor Sie einen Heizstrahler reinigen oder warten
 
-## Was sollten Sie vor dem Reinigen oder Warten tun?
+Unsere eigenen Hinweise, in dieser Reihenfolge:[^s1]
 
-Bromics eigene Hinweise, in dieser Reihenfolge:[^s1]
-
-1. **Ausschalten und abkühlen lassen.** Trennen Sie einen Elektro-Heizstrahler am Wandschalter oder Leitungsschutzschalter vom Netz; schließen Sie bei einem Gasheizstrahler die Gaszufuhr.
+1. **Ausschalten und abkühlen lassen.** Trennen Sie einen Elektro-Heizstrahler am Wandschalter oder Leitungsschutzschalter vom Netz und schließen Sie bei einem Gasheizstrahler die Gaszufuhr.
 2. **Den Bereich freiräumen.** Entfernen Sie alles Brennbare sowie Schmutz, Nester und Laub um den Heizstrahler herum und darüber.
 3. **Lüften.** Gasheizstrahler brauchen freie Luft, damit sich die Abgase verteilen.
-4. **Gasanschlüsse auf Dichtheit prüfen,** indem Sie Seifenlauge darauf auftragen. Blasen bedeuten ein Leck: Gas sofort absperren und umgehend einen Fachbetrieb rufen.
+4. **Gasanschlüsse auf Dichtheit prüfen,** indem Sie Seifenlauge darauf auftragen. Blasen bedeuten ein Leck – sperren Sie dann das Gas ab und rufen Sie umgehend einen Fachbetrieb.
 
-## Wie reinigen Sie einen Heizstrahler für draußen?
+## Ihren Heizstrahler behutsam reinigen
 
-Behutsam. Wischen Sie Staub und Schmutz mit einem Mikrofasertuch vom Gehäuse. Vermeiden Sie aggressive Chemikalien und zu viel Wasser, die Rost und Korrosion verursachen können.[^s1] Sprühen Sie nie Wasser in ein Heizelement oder einen Brenner und öffnen Sie nie ein versiegeltes Gerät. An der Küste spülen Sie Salz von Edelstahlflächen so ab, wie es die Anleitung Ihres Modells vorgibt. [[VERIFY: von Bromic empfohlene Reinigungsmethode und -mittel je Modell, einschließlich Pflege an der Küste — Produktteam]]
+Ihr Heizstrahler braucht nur eine sanfte Hand. Wischen Sie Staub und Schmutz mit einem Mikrofasertuch vom Gehäuse und vermeiden Sie aggressive Chemikalien und zu viel Wasser, die Rost und Korrosion verursachen können.[^s1] Sprühen Sie nie Wasser in ein Heizelement oder einen Brenner, und öffnen Sie nie ein versiegeltes Gerät. An der Küste spülen Sie Salz von Edelstahlflächen so ab, wie es die Anleitung Ihres Modells vorgibt. [[VERIFY: von Bromic empfohlene Reinigungsmethode und -mittel je Modell, einschließlich Pflege an der Küste — Produktteam]]
 
-## Wie sieht die Wartungscheckliste aus?
+## Ihre Wartungscheckliste für die Saison
 
-Allgemeine Hinweise; die Installations- und Bedienungsanleitung Ihres Modells hat Vorrang. Die Anleitungen finden Sie unter [technische Unterlagen](https://www.bromic.de/).
+Dies sind allgemeine Hinweise; die Installations- und Bedienungsanleitung Ihres Modells hat immer Vorrang. Alle Anleitungen finden Sie unter unseren [technischen Unterlagen](https://www.bromic.de/).
 
 | Aufgabe | Wer | Wann |
 |---|---|---|
@@ -100,21 +99,21 @@ Allgemeine Hinweise; die Installations- und Bedienungsanleitung Ihres Modells ha
 
 *Gas- und Elektroarbeiten sind geregelt: In den USA gelten NFPA 54 für Gas und NFPA 70 für Elektroinstallationen;[^s5] in Deutschland DIN VDE 0100 für die Elektroinstallation sowie DVGW-TRGI für Erdgas und TRF für Flüssiggas. Klären Sie die Anforderungen mit Ihrem örtlichen Bauamt und beauftragen Sie einen Gasinstallateur oder Elektrofachbetrieb. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Freien — Partner Deutschland]]*
 
-## Muss auch die Steuerung gewartet werden?
+## Damit Ihre Steuerung im Takt bleibt
 
-Sie muss geprüft werden, denn sie bestimmt, wie die Heizstrahler laufen. Testen Sie zu Saisonbeginn jede Zone an ihrem Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät, am Eclipse Steuergerät und am manuellen Wandschalter, und stellen Sie dann die Zeitpläne und Timer in der App für die neue Saison neu ein.[^s2] WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Steuerungen, die separat erhältlich sind. Ein vom Sommer übrig gebliebener Zeitplan ist der Grund, warum Heizstrahler über einer leeren Terrasse laufen. Mehr zu Zonen und Zeitplänen für Betriebe: [eine beheizte Terrasse betreiben](item:COM-BY-01); für Wohnhäuser: [Smart-Heat Steuerung einrichten](item:RES-BY-01).
+Ihre Steuerung bestimmt, wie und wann die Heizstrahler laufen, deshalb verdient sie eine eigene Prüfung. Testen Sie zu Beginn jeder Saison jede Zone an ihrem Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät, am Eclipse Steuergerät und am manuellen Wandschalter, und stellen Sie dann die Zeitpläne und Timer in der App für die kommenden Monate neu ein.[^s2] WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Steuerungen voraus, die separat erhältlich sind. Ein vom Sommer übrig gebliebener Zeitplan kann Heizstrahler über einer leeren Terrasse laufen lassen. Mehr zu Zonen und Zeitplänen lesen Betriebe unter [eine beheizte Terrasse betreiben](item:COM-BY-01) und Hausbesitzer unter [Smart-Heat Steuerung einrichten](item:RES-BY-01).
 
-## Wie lagern Sie Heizstrahler für draußen?
+## Ihre Heizstrahler zwischen den Saisons lagern
 
-- **Freistehende Heizstrahler:** an einem trockenen, geschützten Ort wie Garage oder Gartenhaus lagern oder mit einer Abdeckung gegen Staub und Schmutz schützen.[^s1] Die [Tungsten Freestanding Cover](https://www.bromic.de/) wird über dem Kopf des Heizstrahlers befestigt.
+- **Freistehende Heizstrahler:** an einem trockenen, geschützten Ort wie Garage oder Gartenhaus lagern oder mit einer Abdeckung gegen Staub und Schmutz schützen.[^s1] Die [Tungsten Freestanding Cover](https://www.bromic.de/) lässt sich sauber über dem Kopf des Heizstrahlers befestigen.
 - **Fest installierte Heizstrahler:** Ein Gerät unter einem Dach oder einer Untersicht hält länger als eines, das voll der Witterung ausgesetzt ist.[^s1]
-- **Ungeschützte Heizstrahler:** vor dem ersten Einsatz der Saison gründlich prüfen.[^s1]
+- **Ungeschützte Heizstrahler:** vor dem ersten Abend der Saison gründlich prüfen.[^s1]
 
-![Bromic Abdeckung über dem Kopf eines freistehenden Tungsten Heizstrahlers](img:w-tungsten-portable-cover-v3)
+![Bromic Abdeckung über dem Kopf eines freistehenden Tungsten Heizstrahlers, die ihn zwischen den Einsätzen schützt](img:w-tungsten-portable-cover-v3)
 
-## Was deckt die Garantie ab?
+## Ihre Garantie
 
-Die Bedingungen unterscheiden sich je Produkt. Der Originalbeitrag nannte für alle Heizstrahler 1 Jahr Garantie auf Teile; Bromics Produktseiten nennen inzwischen für mehrere Modelle längere Fristen.[^s3] Prüfen Sie die aktuellen [Garantiebedingungen](https://www.bromic.de/), bevor Sie sich auf eine dieser Angaben verlassen.[^s4]
+Die Bedingungen unterscheiden sich von Produkt zu Produkt. Der Originalbeitrag nannte für alle Heizstrahler 1 Jahr Garantie auf Teile, und unsere Produktseiten nennen inzwischen für mehrere Modelle längere Fristen.[^s3] Bitte prüfen Sie die aktuellen [Garantiebedingungen](https://www.bromic.de/), bevor Sie sich auf eine dieser Angaben verlassen.[^s4]
 
 | Produkt | Garantie laut Produktseite (bromic.com) |
 |---|---|
@@ -132,7 +131,7 @@ Die Bedingungen unterscheiden sich je Produkt. Der Originalbeitrag nannte für a
 
 ### Wie oft sollte ich meinen Terrassenheizstrahler reinigen?
 
-Während der Nutzung regelmäßig abwischen und von Schmutz befreien, dazu eine vollständige Prüfung zu Beginn und am Ende jeder Saison. Gasheizstrahler brauchen außerdem mindestens einmal im Jahr eine fachkundige Prüfung.[^s1]
+Wischen Sie ihn während der Nutzung regelmäßig ab und entfernen Sie Schmutz, und prüfen Sie ihn zu Beginn und am Ende jeder Saison vollständig. Gasheizstrahler brauchen außerdem mindestens einmal im Jahr eine fachkundige Prüfung.[^s1]
 
 ### Darf ich einen Heizstrahler mit dem Schlauch abspritzen?
 
@@ -142,7 +141,7 @@ Nein. Zu viel Wasser kann Rost und Korrosion verursachen und darf nie in ein Hei
 
 Nehmen Sie ihn außer Betrieb und wenden Sie sich an den [technischen Support von Bromic](https://www.bromic.de/) oder einen Fachbetrieb.
 
-Für Betriebe fasst das Betriebshandbuch diese Routine in einer Arbeitsanweisung Schicht für Schicht zusammen.
+Für Betriebe fasst unser Betriebshandbuch diese Routine in einer Arbeitsanweisung Schicht für Schicht zusammen.
 
 [^s1]: Bromic Heating, Originalbeitrag, gelesen am 29. Okt. 2026.
 [^s2]: Bromic Heating, Lookbook 2026.

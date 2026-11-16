@@ -7,11 +7,11 @@ audience: [RES]
 stage: [PP]
 cell: RES-PP
 asset: A24
-summary: "Ja, mit dem richtigen Heizstrahler, der richtigen Höhe und den richtigen Abständen. Warum elektrische Infrarotwärme zu den meisten Pavillons passt, was ein Gasheizstrahler braucht, Montagehöhe und Gewicht je Bromic-Modell, die Spannungen und die Steuerung, die mit eingeplant werden muss."
+summary: "Ja – mit dem richtigen Heizstrahler, der richtigen Höhe und den richtigen Abständen wird Ihr Pavillon zu einem Ort, den Sie lange nach Sonnenuntergang genießen. Warum elektrische Infrarotwärme zu den meisten Pavillons passt, was ein Gasheizstrahler braucht, Montagehöhen und Gewichte je Bromic-Modell, die Spannungen und die Steuerung, die Sie mit einplanen."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Kann ich einen Terrassenheizstrahler sicher unter meinem Pavillon betreiben?"
-meta_description: "Ja, mit dem richtigen Heizstrahler und den richtigen Abständen. Elektrische Infrarotwärme passt zu den meisten Pavillons; Gas braucht offene Seiten. Höhen, Gewichte, Spannungen und Steuerung je Modell."
+meta_description: "Ein Heizstrahler passt unter einen Pavillon, mit dem richtigen Gerät und Abstand. Elektro für die meisten, Gas mit offenen Seiten. Höhen je Modell."
 cta: {label: "Planungsgespräch buchen", asset: A07}
 hero: w-gazebo-bromic
 owner_review: Marketing
@@ -20,7 +20,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-PP-KB1, RES-PP-01, RES-CO-KB2, ARC-BY-KB1]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -83,11 +83,11 @@ translation_of: BLOG-23
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
-Ja, mit dem richtigen Heizstrahler und den richtigen Abständen. Ein elektrischer Infrarot-Heizstrahler am Rahmen des Pavillons ist die einfachste Lösung: keine Flamme, keine Abgase, und die Wärme kommt dort an, wo Menschen sitzen. Ein Gasheizstrahler kann unter einem Pavillon mit offenen Seiten funktionieren, in den Mindesthöhen von Bromic und mit dem Abstand zum Dach laut Anleitung. Prüfen Sie zuerst, ob die Konstruktion den Heizstrahler tragen kann, und lassen Sie ihn von einem Fachbetrieb installieren.[^s1][^s7]
+Ja, mit dem richtigen Heizstrahler und den richtigen Abständen bleibt Ihr Pavillon bis weit in den Abend warm und einladend. Ein elektrischer Infrarot-Heizstrahler am Rahmen ist die einfachste Wahl: Er arbeitet ohne Flamme und ohne Abgase und schickt die Wärme direkt dorthin, wo Sie sitzen. Ein Gasheizstrahler kann unter einem Pavillon mit offenen Seiten funktionieren, in den Mindesthöhen von Bromic und mit dem Abstand zum Dach laut Anleitung. Prüfen Sie zuerst, ob die Konstruktion den Heizstrahler tragen kann, und lassen Sie ihn von einem Fachbetrieb installieren.[^s1][^s7]
 
-![Weiße Lamellenpergola über einer Lounge auf der Terrasse, mit Tungsten Electric Heizstrahlern an den Balken](img:w-gazebo-bromic)
+![Weiße Lamellenpergola über einer Lounge auf der Terrasse, mit Tungsten Electric Heizstrahlern an den Balken über den Sitzplätzen](img:w-gazebo-bromic)
 
-## Elektro oder Gas unter dem Pavillon?
+## Elektro oder Gas – die richtige Wahl für Ihren Pavillon
 
 | | Elektrische Infrarotwärme | Gas-Infrarotwärme |
 |---|---|---|
@@ -97,19 +97,19 @@ Ja, mit dem richtigen Heizstrahler und den richtigen Abständen. Ein elektrische
 | Versorgung | Ein eigener Stromkreis, verlegt vom Elektrofachbetrieb | Eine Gasleitung oder Flasche, angeschlossen vom Gasinstallateur |
 | Vorschriften | USA: ANSI/NFPA 70[^s1]; Deutschland: DIN VDE 0100 | USA: ANSI Z223.1/NFPA 54[^s1]; Deutschland: DVGW-TRGI (Erdgas), TRF (Flüssiggas) |
 
-Unter einem Teildach nennt der Bromic-Planungsleitfaden einen Vorteil: Die Abdeckung hält eine „Wärmewolke“, die zusätzlich wärmt.[^s1] Bei Gas behandelt derselbe Leitfaden eine Fläche nur dann als Außenbereich, wenn mindestens 30 % ihres Umfangs dauerhaft offen sind.[^s1] Mehr zu Dächern und Überdachungen: [Heizstrahler unter einer überdachten Terrasse](item:RES-PP-KB1).
+Ein Teildach bringt einen willkommenen Vorteil mit, wie unser Planungsleitfaden beschreibt: Die Abdeckung hält eine „Wärmewolke“, die die Wärme darunter verstärkt.[^s1] Bei Gas behandelt derselbe Leitfaden eine Fläche nur dann als Außenbereich, wenn mindestens 30 % ihres Umfangs dauerhaft offen sind.[^s1] Mehr zu Dächern und Überdachungen lesen Sie unter [Heizstrahler unter einer überdachten Terrasse](item:RES-PP-KB1).
 
-## Was sollten Sie vor der Montage prüfen?
+## Bevor Sie einen Heizstrahler montieren
 
-1. **Die Konstruktion.** Tragen die Balken den Heizstrahler und seine Halterung? Platinum Electric wiegt ca. 7,7–15 kg, Eclipse Electric ca. 13,6 kg.[^s3][^s4] Ist der Rahmen leicht oder das Dach aus Stoff, ist ein freistehender Heizstrahler oft die bessere Lösung.[^s7]
-2. **Die Höhe.** Die Bromic-Mindesthöhen für Tungsten und Platinum Electric sind ca. 1,83 m an der Wand und ca. 2,44 m an der Decke.[^s2][^s3] Viele Gartenpavillons sind am Balken niedriger als ca. 2,44 m: Messen Sie vor dem Kauf.
+1. **Die Konstruktion.** Stellen Sie sicher, dass die Balken den Heizstrahler und seine Halterung tragen. Platinum Electric wiegt ca. 7,7–15 kg, Eclipse Electric ca. 13,6 kg.[^s3][^s4] Ist der Rahmen leicht oder das Dach aus Stoff, passt ein freistehender Heizstrahler womöglich besser zu Ihrem Pavillon.[^s7]
+2. **Die Höhe.** Die Bromic-Mindesthöhen für Tungsten und Platinum Electric betragen ca. 1,83 m an der Wand und ca. 2,44 m an der Decke.[^s2][^s3] Viele Gartenpavillons sind am Balken niedriger als ca. 2,44 m, messen Sie deshalb nach, bevor Sie sich entscheiden.
 3. **Das Dach darüber.** Halten Sie den Abstand laut Anleitung zwischen Heizstrahler und Holz, Schindeln oder Stoff ein. [[VERIFY: Abstände nach oben und zur Seite zu brennbaren Decken je Modell, aus den Anleitungen — Produktteam]]
-4. **Brennbares in der Nähe.** Halten Sie Vorhänge, Kissen, Pflanzen und Lichterketten mindestens ca. 0,9 m entfernt, oder weiter, wenn die Anleitung es verlangt.[^s8]
-5. **Versorgung und Steuerung.** Legen Sie fest, wo Kabel oder Gasleitung und das Steuergerät hinkommen, bevor der Pavillon fertig ist.
+4. **Die Einrichtung ringsum.** Halten Sie Vorhänge, Kissen, Pflanzen und Lichterketten mindestens ca. 0,9 m entfernt, oder weiter, wenn die Anleitung es verlangt.[^s8]
+5. **Versorgung und Steuerung.** Legen Sie fest, wo Kabel oder Gasleitung und das Steuergerät hinkommen, bevor der Pavillon fertig ist – so verschwindet alles sauber aus dem Blickfeld.
 
 <div class="diagram">Diagramm: ein Pavillon im Schnitt, der Heizstrahler am Balken in ca. 2,44 m Höhe oder höher, der Abstand zum Dach laut Anleitung markiert, eine freie Zone von ca. 0,9 m und das Steuergerät an einem Pfosten am Eingang</div>
 
-## Welche Bromic Heizstrahler passen zu einem Pavillon?
+## Bromic Heizstrahler, die zu einem Pavillon passen
 
 | Heizstrahler | Leistung und Heizfläche | Spannung (laut US-Angaben) | Mindesthöhe | Steuerung |
 |---|---|---|---|---|
@@ -122,9 +122,9 @@ Unter einem Teildach nennt der Bromic-Planungsleitfaden einen Vorteil: Die Abdec
 
 In Deutschland ist das Netz 230 V, 50 Hz; 208 V und 277 V sind nordamerikanische Spannungen. Flüssiggas gibt es hier üblicherweise in Flaschen mit 5 oder 11 kg.
 
-Tungsten Electric hat die Schutzart IPX4, geschützt gegen Spritzwasser aus allen Richtungen.[^s2] Montieren Sie trotzdem jeden Heizstrahler unter dem Dach des Pavillons, nicht an einem freistehenden Pfosten im Wetter. Siehe [was IP-Schutzarten bedeuten](item:BLOG-19).
+Tungsten Electric hat die Schutzart IPX4 und ist gegen Spritzwasser aus allen Richtungen geschützt.[^s2] Trotzdem ist jeder Heizstrahler unter dem Dach des Pavillons am besten aufgehoben, wo er vor dem Wetter geschützt bleibt. Mehr dazu, [was IP-Schutzarten bedeuten](item:BLOG-19).
 
-**Steuerung.** Jeder montierte Heizstrahler braucht sein Steuergerät, das separat erhältlich ist. Die Bromic Smart-Heat App ergänzt Zonen, Zeitpläne und Timer; WLAN- und App-Funktionen setzen kompatible Affinity-Steuerungen voraus, die separat erhältlich sind.[^s6]
+**Steuerung.** Jeder montierte Heizstrahler wird mit seinem Steuergerät kombiniert, das separat erhältlich ist. Die Smart-Heat App ergänzt Zonen, Zeitpläne und Timer, sodass die Wärme einsetzt, wenn Ihre Gäste ankommen; WLAN- und App-Funktionen setzen kompatible Affinity-Steuerungen voraus, die separat erhältlich sind.[^s6]
 
 Vorschriften regeln, wo Heizstrahler hin dürfen, die Belüftung, die Versorgung und den Abstand zu brennbaren Materialien.[^s1] Stimmen Sie die Installation mit Ihrem örtlichen Bauamt und einem Elektrofachbetrieb oder Gasinstallateur ab. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Partner Deutschland]]
 
@@ -132,18 +132,18 @@ Vorschriften regeln, wo Heizstrahler hin dürfen, die Belüftung, die Versorgung
 
 ### Kann ich einen Gas-Terrassenheizstrahler unter einem Pavillon verwenden?
 
-Ja, wenn der Pavillon zur Frischluft hin offen bleibt, der Heizstrahler mindestens in seiner Mindesthöhe hängt und der Abstand zum Dach laut Anleitung eingehalten wird.[^s1][^s5] Unter einem geschlossenen oder niedrigen Dach ist Elektro die einfachere Lösung.
+Ja, solange der Pavillon zur Frischluft hin offen bleibt, der Heizstrahler mindestens in seiner Mindesthöhe hängt und der Abstand zum Dach laut Anleitung eingehalten wird.[^s1][^s5] Unter einem geschlossenen oder niedrigen Dach ist Elektro die einfachere Wahl.
 
 ### Ist ein Heizstrahler unter einem Holzpavillon sicher?
 
-Ja, mit einem elektrischen Infrarot-Heizstrahler, der mit den Abständen laut Anleitung montiert und von einem Elektrofachbetrieb angeschlossen wird. Holz ist brennbar; der Abstand zum Dach ist daher am wichtigsten.[^s1]
+Ja, mit einem elektrischen Infrarot-Heizstrahler, der mit den Abständen laut Anleitung montiert und von einem Elektrofachbetrieb angeschlossen wird. Holz ist brennbar, deshalb kommt es vor allem auf den Abstand zum Dach an.[^s1]
 
 ### Kann der Heizstrahler im Pavillon die ganze Nacht laufen?
 
-Nein. Schalten Sie ihn aus, wenn Sie hineingehen; mit kompatiblen Affinity-Steuerungen kann ein Zeitplan in der App das für Sie übernehmen.[^s6]
+Nein. Schalten Sie ihn aus, wenn Sie hineingehen, oder überlassen Sie das mit kompatiblen Affinity-Steuerungen einem Zeitplan in der App.[^s6]
 
 ### Wie viele Heizstrahler braucht ein Pavillon?
 
-Das hängt von Fläche und Höhe ab. Ein Pavillon von ca. 3,0 × 3,7 m hat ca. 11 m², grob ein Eclipse oder ein Tungsten Electric mit 4000 W.[^s4][^s2] Lage und Wind ändern die Anzahl.
+Das hängt von Fläche und Höhe ab. Ein Pavillon von ca. 3,0 × 3,7 m hat ca. 11 m², grob ein Eclipse oder ein Tungsten Electric mit 4000 W.[^s4][^s2] Lage und Wind können die Anzahl verändern.
 
-Sie möchten einen Plan für Ihren Pavillon? Buchen Sie ein kostenloses Planungsgespräch.
+Hätten Sie gern einen Plan für Ihren Pavillon? Buchen Sie ein kostenloses Planungsgespräch mit unserem Team.

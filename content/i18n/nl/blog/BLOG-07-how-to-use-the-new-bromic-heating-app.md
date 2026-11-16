@@ -7,11 +7,11 @@ audience: [RES, BLD]
 stage: [BY]
 cell: RES-BY
 asset: A24
-summary: "De Bromic Smart-Heat app stap voor stap instellen: wat je nodig hebt, een Affinity-regelaar koppelen, verwarmers, zones, scènes, gebruikers en spraakbediening, en wat de app niet kan."
+summary: "Zo stel je de Bromic Smart-Heat app in, zodat de warmte klaarstaat zodra je naar buiten stapt: van een Affinity-regelaar koppelen tot verwarmers een naam geven, zones en scènes maken, gebruikers uitnodigen en spraak toevoegen, en wat de app niet doet."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe stel ik de app van Bromic in en hoe gebruik ik die?"
-meta_description: "Stel de Bromic Smart-Heat app in: koppel een Affinity-regelaar, geef verwarmers een naam, maak zones en scènes, nodig gebruikers uit en voeg Alexa of Google Home toe."
+meta_description: "Stel de app van Bromic in: koppel een Affinity-regelaar, geef verwarmers een naam, maak zones en scènes, nodig je gezin uit en voeg Alexa of Google toe."
 cta: {label: "Open de installatiegids voor Smart-Heat", asset: A09}
 hero: w-eclipse-electric-w-bromic-heating-app
 images: [w-affinity-onoff]
@@ -21,7 +21,11 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-BY-01, RES-PP-01, COM-BY-01]
-updated: 2026-10-29
+updated: 2026-11-16
+lang: nl
+translation_of: BLOG-07
+translation_status: machine-draft
+native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -58,16 +62,13 @@ sources:
     url: https://apps.apple.com/us/app/bromic-smart-heat/id6457416824
     supports: "App store listing name; linked from bromic.com"
     verified: false
-lang: nl
-translation_of: BLOG-07
-translation_status: machine-draft
-native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 ---
-De verwarmingsapp van Bromic, in de appwinkels te vinden als Bromic Smart-Heat, bedient verwarmers van Bromic vanaf je telefoon zodra er compatibele Affinity Smart-Heat-bediening is geïnstalleerd.[^s1] Je koppelt de regelaar via Bluetooth binnen ongeveer 9 m, zet hem daarna over op wifi of ethernet, en geeft vervolgens verwarmers een naam, groepeert ze in zones en stelt scènes in op een weekschema. Affinity-bediening wordt apart verkocht, en de app werkt niet met oudere afstandsbedieningen van Bromic.[^s1][^s2]
 
-![De app van Bromic op een telefoon naast een Eclipse-verwarmer](img:w-eclipse-electric-w-bromic-heating-app)
+Met de verwarmingsapp van Bromic, in de appwinkels te vinden als Bromic Smart-Heat, bedien je je verwarmers van Bromic vanaf je telefoon zodra er compatibele Affinity Smart-Heat-bediening is geïnstalleerd.[^s1] Je koppelt de regelaar via Bluetooth binnen ongeveer 9 m, zet hem over op wifi of ethernet, en geeft daarna je verwarmers een naam, groepeert ze in zones en stelt scènes in op een weekschema. Affinity-bediening wordt apart verkocht, en de app werkt niet met oudere afstandsbedieningen van Bromic.[^s1][^s2]
 
-## Wat heb ik nodig voordat ik begin?
+![De app van Bromic op een telefoon naast een gloeiende Eclipse-verwarmer](img:w-eclipse-electric-w-bromic-heating-app)
+
+## Wat je nodig hebt voordat je begint
 
 | Je hebt nodig | Waarom |
 |---|---|
@@ -78,45 +79,45 @@ De verwarmingsapp van Bromic, in de appwinkels te vinden als Bromic Smart-Heat, 
 | Een wifinetwerk op 2,4 GHz, of ethernet | Bediening op afstand, schema's en spraak hebben een netwerkverbinding nodig[^s2][^s4] |
 | Eén e-mailadres voor de eigenaar van de locatie | Daaraan hangen het account en de rol Admin[^s1] |
 
-Een handmatige wandschakelaar is op zichzelf een volledige bediening, maar is niet met de app verbonden.[^s2]
+Een handmatige wandschakelaar is op zichzelf een volledige bediening, al is hij niet met de app verbonden.[^s2]
 
-## Hoe stel ik de app in?
+## De app instellen
 
 1. **Installeer de app** uit de App Store of Google Play en maak een account aan met het e-mailadres van de eigenaar.[^s1][^s5]
 2. **Maak een locatie aan** en geef die een eenvoudige naam, zoals "Terras" of "Tuin".[^s1]
-3. **Ga binnen 9 m van de regelkast staan.** Alleen regelaars binnen Bluetooth-bereik en in koppelmodus verschijnen in de lijst.[^s1]
+3. **Ga binnen 9 m van de regelkast staan**, want alleen regelaars binnen Bluetooth-bereik en in koppelmodus verschijnen in de lijst.[^s1]
 4. **Controleer het serienummer** in de app aan de hand van het label op de kast, en kies dan de regelaar.[^s1]
 5. **Stel elk kanaal in**, één per groep met verwarmers, en geef het de naam van de plek die het verwarmt.[^s1]
-6. **Verbind de regelaar met wifi of ethernet.** Regelaars starten op Bluetooth; een netwerkverbinding is stabieler en laat je de warmte ook bedienen als je niet op het terras bent. Vraag je installateur of de technische ondersteuning van Bromic om de netwerkinstellingen.[^s1]
+6. **Verbind de regelaar met wifi of ethernet.** Regelaars starten op Bluetooth, en een netwerkverbinding is stabieler en laat je de warmte ook bedienen als je niet op het terras bent. Je installateur of de technische ondersteuning van Bromic helpt je met de netwerkinstellingen.[^s1]
 7. **Voeg meer regelaars of gebruikers toe**, of rond het aanmaken van de locatie af om naar het startscherm te gaan.[^s1]
 
 <div class="diagram">Schema: telefoon → Bluetooth (instellen, binnen 9 m) → Affinity-regelaar → wifi of ethernet → app vanaf elke plek; elk kanaal van de regelaar voedt een of meer verwarmers.</div>
 
-## Wat kan ik vanaf het startscherm doen?
+## Alles binnen handbereik op het startscherm
 
-Het startscherm toont je verwarmers ("appliances"), zones en scènes, met een pictogram dat laat zien hoe elke regelaar verbonden is: Bluetooth, wifi of ethernet.[^s1]
+Het startscherm brengt je verwarmers ("appliances"), zones en scènes samen op één plek, met een pictogram dat laat zien hoe elke regelaar verbonden is, via Bluetooth, wifi of ethernet.[^s1]
 
-- **Aan en uit.** Een schakelaar per verwarmer.
-- **Warmteniveau.** Verwarmers op een Dimmer- of Eclipse-regelaar tonen een schuifregelaar van 0 tot 100 procent.[^s1] Eclipse-verwarmers dimmen met dezelfde regelaar ook hun verlichting.[^s3]
-- **Timers.** Open een verwarmer om hem een andere naam te geven of een timer in te stellen. Elke regelaar heeft ook een standaard uitschakeltimer van vier uur, in te stellen op 2, 4, 6, 8 of 12 uur. Bromic raadt af om die uit te zetten.[^s2]
+- **Aan- en uitzetten** gaat met één schakelaar per verwarmer.
+- **Het warmteniveau** stel je bij verwarmers met een Dimmer- of Eclipse-regelaar eenvoudig in met een schuifregelaar van 0 tot 100 procent.[^s1] Eclipse-verwarmers dimmen met dezelfde regelaar ook hun verlichting.[^s3]
+- **Timers** vind je in elke verwarmer, waar je hem ook een andere naam kunt geven. Elke regelaar heeft daarnaast een standaard uitschakeltimer van vier uur, in te stellen op 2, 4, 6, 8 of 12 uur, en Bromic raadt aan die aan te laten staan.[^s2]
 
-## Hoe werken zones en scènes?
+## Zones en scènes voor hoe jij buiten leeft
 
-Een **zone** groepeert verwarmers die je samen gebruikt, zoals bij de eettafel of de lounge, zodat één opdracht ze aanzet, op één warmteniveau zet of op een schema uitschakelt.[^s1] Plan zones rond hoe je de ruimte gebruikt, vóór de bekabeling: zie [waar je terrasverwarmers plaatst](item:RES-PP-01).
+Een **zone** brengt de verwarmers samen die je tegelijk gebruikt, zoals die boven de eettafel of bij de lounge, zodat één opdracht ze aanzet, op één warmteniveau zet of op een schema uitschakelt.[^s1] Plan je zones rond hoe je van de ruimte geniet, nog voordat de bekabeling erin gaat; onze gids over [waar je terrasverwarmers plaatst](item:RES-PP-01) helpt je daarbij.
 
-Een **scène** automatiseert een vaste gewoonte op een weekschema: warmte aan bij schemering op doordeweekse avonden, uit na een feestje.[^s1] Uitschakelen op schema werkt alleen bij regelaars die via wifi verbonden zijn.[^s4]
+Een **scène** automatiseert een vaste gewoonte op een weekschema, zoals warmte aan bij schemering op doordeweekse avonden en uit na een feestje.[^s1] Uitschakelen op schema werkt alleen bij regelaars die via wifi verbonden zijn.[^s4]
 
-## Kunnen anderen de app ook gebruiken?
+## De bediening delen met gezin en personeel
 
-Ja. De Admin nodigt mensen per e-mail uit via Settings, Manage Users. Admins kunnen de instellingen van de locatie wijzigen; Users kunnen alleen de verwarmers bedienen.[^s1][^s2] Voor uitnodigingen moet de regelaar op wifi zijn aangesloten.[^s1] Er is geen grens aan het aantal verwarmers per locatie of locaties per account.[^s2] [[VERIFY: of de app in het Nederlands beschikbaar is en hoe de menu's dan heten — productteam]]
+De Admin nodigt anderen per e-mail uit via Settings, Manage Users. Admins kunnen de instellingen van de locatie wijzigen, Users bedienen de verwarmers.[^s1][^s2] Voor uitnodigingen moet de regelaar op wifi zijn aangesloten.[^s1] Er is geen grens aan het aantal verwarmers per locatie of locaties per account.[^s2] [[VERIFY: of de app in het Nederlands beschikbaar is en hoe de menu's dan heten — productteam]]
 
-## Werkt de app met Alexa of Google Home?
+## Spraakbediening met Alexa of Google Home
 
-Ja, via compatibele Affinity-bediening; koppel ze vanuit de app van Alexa of Google Home. Apple Home wordt op dit moment niet ondersteund.[^s2][^s3] Spraakbediening vraagt om een regelaar op een netwerk: ze werkt niet alleen via Bluetooth, en niet als de regelaar via een gebouwbeheersysteem wordt aangestuurd.[^s2] Voor domoticasystemen in het hele huis, zie [verwarmers van Bromic koppelen aan je domotica](https://www.bromic.com/blog/how-to-integrate-your-bromic-smart-heat-link-with-your-home-automation-system/).
+Via compatibele Affinity-bediening koppel je de app vanuit de app van Alexa of Google Home. Apple Home wordt op dit moment niet ondersteund.[^s2][^s3] Spraakbediening vraagt om een regelaar op een netwerk, dus ze werkt niet alleen via Bluetooth, en ook niet als de regelaar via een gebouwbeheersysteem wordt aangestuurd.[^s2] Voor domoticasystemen in het hele huis, zie [verwarmers van Bromic koppelen aan je domotica](https://www.bromic.com/blog/how-to-integrate-your-bromic-smart-heat-link-with-your-home-automation-system/) (Engelstalig).
 
-## Wat als de wifi wegvalt?
+## Als de wifi wegvalt
 
-De regelaar schakelt over op een andere beschikbare verbinding, of op Bluetooth, en gaat terug naar wifi of ethernet zodra die er weer is.[^s2] Valt de stroom van de regelaar weg, dan toont de app de verwarmers als offline.[^s2] [[VERIFY: stand van de verwarmers na een stroomstoring en of een wandschakelaar een Affinity-regelaar kan overrulen — productteam]]
+De regelaar schakelt over op een andere beschikbare verbinding, of op Bluetooth, en gaat terug naar wifi of ethernet zodra die er weer is.[^s2] Valt de stroom van de regelaar weg, dan toont de app zijn verwarmers als offline.[^s2] [[VERIFY: stand van de verwarmers na een stroomstoring en of een wandschakelaar een Affinity-regelaar kan overrulen — productteam]]
 
 ## Veelgestelde vragen
 
@@ -124,12 +125,12 @@ De regelaar schakelt over op een andere beschikbare verbinding, of op Bluetooth,
 Nee. De app is gemaakt voor Affinity-bediening en is niet achterwaarts compatibel met de oudere afstandsbedieningen van Bromic.[^s1][^s2] [[VERIFY: aanbevolen vervangingsroute voor eigenaren van draadloze On/Off- en Dimmer-regelaars — productteam]]
 
 ### Wordt er bij Affinity-regelaars een afstandsbediening geleverd?
-Nee. Affinity-bediening werkt via de app en wordt geleverd zonder fysieke afstandsbediening.[^s3]
+Nee. Affinity-bediening werkt via de app en wordt geleverd zonder fysieke afstandsbediening, dus je telefoon wordt de bediening.[^s3]
 
 ### Is de app gratis?
-[[VERIFY: prijs van de app en eventueel abonnement — productteam]] De regelaars worden apart verkocht; zie het [assortiment bediening van Bromic](https://www.bromic.com/controls/).
+[[VERIFY: prijs van de app en eventueel abonnement — productteam]] De regelaars worden apart verkocht, en je kunt het [assortiment bediening van Bromic](https://www.bromic.com/controls/) bekijken.
 
 ### Waar krijg ik hulp?
-Bij de technische ondersteuning van Bromic via https://www.bromic.com/contact-technical-support/, of in de [veelgestelde vragen op de app-pagina](https://www.bromic.com/affinity-smart-heat-app/). In Nederland kun je ook terecht via [bromic.nl](https://www.bromic.nl/).
+Bij de technische ondersteuning van Bromic via https://www.bromic.com/contact-technical-support/; antwoorden op veelgestelde vragen staan op de [app-pagina](https://www.bromic.com/affinity-smart-heat-app/). In Nederland kun je ook terecht via [bromic.nl](https://www.bromic.nl/).
 
-De stapsgewijze installatiegids behandelt zones, scènes en spraak op één plek.
+Onze stapsgewijze installatiegids brengt zones, scènes en spraak samen op één plek.

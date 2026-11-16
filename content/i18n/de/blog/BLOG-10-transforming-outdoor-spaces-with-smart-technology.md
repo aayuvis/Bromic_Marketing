@@ -1,17 +1,17 @@
 ---
 id: BLOG-10
 type: blog
-title: "Die Zukunft der Hausautomation: smarte Technik für den Außenbereich"
+title: "Die Zukunft der Hausautomation: smarte Heizstrahler für Ihren Außenbereich"
 action: keep-fix
 audience: [RES, ARC]
 stage: [AW]
 cell: RES-AW
 asset: A24
-summary: "Podcast-Zusammenfassung: Jeff Thomas von Snap One und Michael Smith von Bromic darüber, wie Automation nach draußen kommt, warum man sie früh plant, Kabel oder Funk – und mit welcher Affinity-Steuerung Wärme im Außenbereich ins Hausnetz kommt."
+summary: "Jeff Thomas von Snap One und Michael Smith von Bromic darüber, wie der Komfort eines vernetzten Zuhauses auf die Terrasse kommt: früh geplant, mit Kabel oder Funk, und mit der Affinity-Steuerung, die Wärme im Außenbereich ins Hausnetz bringt."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie funktioniert Hausautomation mit einer Heizung im Außenbereich?"
-meta_description: "Jeff Thomas (Snap One) und Michael Smith (Bromic) über Hausautomation im Außenbereich, frühe Planung, Kabel oder Funk und smarte Wärme draußen."
+meta_description: "Jeff Thomas (Snap One) und Michael Smith (Bromic) über Hausautomation im Außenbereich, frühe Planung, Kabel oder Funk und smarte Heizstrahler."
 cta: {label: "Den Report Outdoor Living Trends 2026 herunterladen", asset: A01}
 hero: w-mom-design-build-2-web
 owner_review: Marketing
@@ -20,7 +20,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-AW-01, RES-BY-01, ARC-IN-01]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: de
 translation_of: BLOG-10
 translation_status: machine-draft
@@ -49,42 +49,42 @@ sources:
     verified: true
 ---
 
-Die Hausautomation reicht inzwischen bis auf die Terrasse. In dieser Folge des Podcasts Designing Outdoor Spaces sprechen Jeff Thomas von Snap One und Michael Smith von Bromic Heating darüber, wie Licht, Klima und Wärme nach draußen kommen, warum Systemintegratoren und Planer früh mit am Tisch sitzen sollten und wann eine Kabelverbindung besser ist als Funk.[^s1] Für die Heizung heißt das: Affinity Smart-Heat-Steuerung, separat erhältlich, die Bromic-Heizstrahler in dasselbe Netzwerk bringt wie das Haus.[^s2]
+Wenn der Abend kühler wird und die Heizstrahler zu glühen beginnen, reicht das vernetzte Zuhause heute bis auf die Terrasse. Im Podcast Designing Outdoor Spaces sprechen Jeff Thomas von Snap One und Michael Smith von Bromic Heating darüber, wie Licht, Klima und Wärme nach draußen kommen, warum Systemintegratoren und Planer früh dabei sein sollten und wann eine Kabelverbindung besser ist als Funk.[^s1] Für die Wärme führt das zur Affinity Smart-Heat-Steuerung, separat erhältlich, die Bromic Heizstrahler in das Netzwerk des Hauses bringt.[^s2]
 
 [Die ganze Folge anhören (auf Englisch)](https://www.bromic.com/podcast/the-future-of-home-automation).
 
-## Wer ist in der Folge zu Gast?
+## Die Gäste
 
 | Gast | Funktion | Schwerpunkt |
 |---|---|---|
 | Jeff Thomas | Senior Director of Product Management, Snap One | Mehr als 15 Jahre in Smart Home, Produktentwicklung und Lichtplanung[^s1] |
 | Michael Smith | Global VP, Bromic Heating | Ausbau des Markts für smarte Außenheizung; Hintergrund in Verfahrenstechnik und Geschäftsentwicklung[^s1] |
 
-## Warum Automation früh planen?
+## Warum frühe Planung den Unterschied macht
 
-Thomas zeichnet nach, wie sich die Hausautomation in den letzten fünf Jahren entwickelt hat. Die besten Ergebnisse entstehen seiner Ansicht nach, wenn Systemintegratoren und Planer von Anfang an beteiligt sind, damit die Technik Teil des Entwurfs ist und nicht nachträglich eingepasst wird.[^s1] Von Planern werden heute Außenräume verlangt, die eindrucksvoll aussehen und Licht und Klima genauso gut steuern wie die Räume drinnen.[^s1]
+Thomas zeichnet nach, wie sich die Hausautomation in den letzten fünf Jahren entwickelt hat, und er wirbt dafür, Systemintegratoren und Planer schon bei der ersten Skizze einzubeziehen, damit die Technik in den Entwurf selbst eingewoben wird.[^s1] Von Planern werden heute Außenräume verlangt, die eindrucksvoll aussehen und Licht und Klima so mühelos steuern wie die Räume drinnen.[^s1]
 
-Für die Wärme heißt früh: in der Zeichnung. Positionen der Heizstrahler, Stromkreise und der Ort von Steuergerät und Netzwerkanschluss. An diesem Punkt wird die Außenheizung von Anfang an mitgeplant, nicht später ergänzt.
+Für die Wärme bedeutet frühe Planung, in der Zeichnung zu planen: wo jeder Heizstrahler sitzt, wie die Stromkreise verlaufen und wo Steuergerät und Netzwerkanschluss ihren Platz finden. In diesem Moment wird Wärme von der ersten Zeichnung an mitgedacht, eingebunden in den Raum zusammen mit dem Licht und dem Klima im Inneren.
 
-## Wie sieht smarte Wärme im Außenbereich aus?
+## Wie sich smarte Wärme im Freien anfühlt
 
-So wie der Beitrag ihn zusammenfasst, ist der Außenbereich für Smith kein Nebenschauplatz mehr. Smarte Heizstrahler und Steuerungen sind für ihn ein Weg, ihn ebenso vernetzt, effizient und gut gestaltet zu halten wie das Innere.[^s1] Hausbesitzer erwarten zunehmend, dass Wärme, Licht und Sicherheitstechnik mit den Systemen zusammenarbeiten, die sie bereits haben.[^s1]
+So wie der Beitrag ihn zusammenfasst, ist der Außenbereich für Smith kein Nebenschauplatz mehr, und smarte Heizstrahler und Steuerungen halten ihn ebenso vernetzt, effizient und gut gestaltet wie das Innere.[^s1] Hausbesitzer erwarten zunehmend, dass Wärme, Licht und Sicherheitstechnik nahtlos mit den Systemen zusammenarbeiten, mit denen sie bereits leben.[^s1]
 
-Bei Bromic ist das die Affinity Smart-Heat-Reihe:[^s2]
+Bei Bromic erleben Sie das mit der Affinity Smart-Heat-Reihe:[^s2]
 
-- **On/Off-, Dimmer- oder Eclipse-Steuergerät** oder ein manueller Wandschalter für jeden installierten Heizstrahler.
-- **Die Bromic-App** für Zonen, Zeitpläne und Timer.
+- **Ein On/Off-, Dimmer- oder Eclipse-Steuergerät** oder ein manueller Wandschalter zu jedem installierten Heizstrahler.
+- **Die Bromic App** für Zonen, Zeitpläne und Timer.
 - **Alexa und Google Assistant**, ohne zusätzliche Hardware.[^s3]
 - **Control4, Crestron und Lutron** über den Ethernet- und 0–10-V-Anschluss der Affinity-Erweiterungsplatine; die Kompatibilität hängt vom jeweiligen System ab.[^s2][^s3]
 
-WLAN- und App-Funktionen setzen kompatible Affinity-Steuerungen voraus, die separat erhältlich sind.[^s2] Siehe [Smart-Heat-Steuerung einrichten](item:RES-BY-01) und [Heizstrahler mit der Hausautomation verbinden (auf Englisch)](https://www.bromic.com/blog/how-to-integrate-your-bromic-smart-heat-link-with-your-home-automation-system/).
+WLAN- und App-Funktionen setzen kompatible Affinity-Steuerungen voraus, die separat erhältlich sind.[^s2] Mehr dazu lesen Sie unter [Smart-Heat-Steuerung einrichten](item:RES-BY-01) und [Heizstrahler mit der Hausautomation verbinden (auf Englisch)](https://www.bromic.com/blog/how-to-integrate-your-bromic-smart-heat-link-with-your-home-automation-system/).
 
-## Kabel oder Funk?
+## Kabel oder Funk: die Wahl
 
-Thomas stellt fest, dass Funksysteme besser geworden sind, Kabelverbindungen aber in großen Räumen oder bei schwachem Signal nach wie vor zuverlässiger sind.[^s1] Affinity-Steuergeräte bieten beides: WLAN für die meisten Häuser und Ethernet über die Erweiterungsplatine, wo eine stabile Verbindung zählt.[^s3] Verlegen Sie das Netzwerkkabel, wenn die Stromkreise für die Heizstrahler gezogen werden.
+Thomas stellt fest, dass Funksysteme große Fortschritte gemacht haben, eine Kabelverbindung aber in großen Räumen oder bei schwachem Signal weiterhin die zuverlässigste bleibt.[^s1] Affinity-Steuergeräte bieten Ihnen beides, WLAN für die meisten Häuser und Ethernet über die Erweiterungsplatine, wo eine stabile Verbindung am meisten zählt.[^s3] Am einfachsten verlegen Sie dieses Netzwerkkabel, wenn die Stromkreise für die Heizstrahler gezogen werden; der Elektrofachbetrieb arbeitet dabei nach DIN VDE 0100.
 
-## Wie geht es weiter?
+## Wohin sich das Leben im Freien entwickelt
 
-Der Beitrag endet mit einem einfachen Gedanken: Je leichter Automation zu kaufen ist, desto mehr hebt ein gut integrierter Außenbereich ein Projekt hervor.[^s1] Sehen Sie sich die [Bromic-Heizstrahler und die Steuerungen](https://www.bromic.de/) an.
+Der Beitrag schließt mit einem Gedanken, der bleibt: Je leichter Automation zu kaufen ist, desto mehr hebt ein gut integrierter Außenbereich ein Projekt hervor.[^s1] Entdecken Sie die [Bromic Heizstrahler und Steuerungen](https://www.bromic.de/).
 
-Wie Hausbesitzer ihren Außenbereich in diesem Jahr planen, steht im Report Trends 2026.
+Wie Hausbesitzer ihr Leben im Freien in diesem Jahr planen, zeigt Ihnen der Report Trends 2026.

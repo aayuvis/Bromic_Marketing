@@ -10,7 +10,7 @@ audience: [BLD, RES]
 stage: [AW]
 cell: BLD-AW
 asset: A24
-summary: "Bromic's US field sales joins the porch builders at Design Builders to talk about designing radiant warmth into porches and decks, the three collections, and what each warranty covers."
+summary: "Bromic's Vice President of Sales, North America, joins the porch builders at Design Builders to talk about designing radiant warmth into porches and decks, the three collections, and what each warranty covers."
 primary_keyword: screened porch heater
 secondary_keywords: [porch heating, builder outdoor living upgrades, infrared porch heater]
 ai_prompt: "How do builders design heating into a screened porch or deck?"
@@ -34,7 +34,7 @@ sources:
     verified: true
   - id: s2
     publisher: Design Builders
-    title: "Design Builders podcast episode with US field sales"
+    title: "Design Builders podcast episode with Bromic's Vice President of Sales, North America"
     year: 2025
     url: https://www.designbuildersmd.com/8152437f-9b51-476b-9a89-9ce53f636b6b/9ab4fe8b-29f4-4a7d-8e54-f41d06d8c19d
     supports: "The episode itself"
@@ -69,21 +69,21 @@ sources:
     verified: true
 ---
 
-The warmest porches are the ones where heat was part of the plan long before the ceiling was finished. On the Design Builders podcast, Bromic's US field sales and hosts Tim Matkoski and James Moylan talk through how radiant heaters are planned into screened porches and decks, sized to the space, mounted to suit the ceiling and chosen to sit quietly out of sight[^s1].
+The warmest porches are the ones where heat was part of the plan long before the ceiling was finished. On the Design Builders podcast, Bromic's Vice President of Sales, North America, and hosts Tim Matkoski and James Moylan talk through how radiant heaters are planned into screened porches and decks, sized to the space, mounted to suit the ceiling and chosen to sit quietly out of sight[^s1].
 
 ![Screened porch dining area warmed by Platinum Electric heaters recessed in a cedar ceiling](img:w-hartleyhallplporchdeckdarnestownmd-0052)
 
 ## Around The Table On This Episode
 
-US field sales is Vice President of Sales, North America, at Bromic Heating. The hosts run Design Builders, a firm that builds decks, screened porches and outdoor kitchens in Maryland and northern Virginia[^s1]. You can listen to the episode on the [Design Builders site](https://www.designbuildersmd.com/8152437f-9b51-476b-9a89-9ce53f636b6b/9ab4fe8b-29f4-4a7d-8e54-f41d06d8c19d)[^s2].
+Our guest leads sales across North America for Bromic Heating. The hosts run Design Builders, a firm that builds decks, screened porches and outdoor kitchens in Maryland and northern Virginia[^s1]. You can listen to the episode on the [Design Builders site](https://www.designbuildersmd.com/8152437f-9b51-476b-9a89-9ce53f636b6b/9ab4fe8b-29f4-4a7d-8e54-f41d06d8c19d)[^s2].
 
 ## Why Porch Builders Choose Radiant Heat
 
-The hosts first came across infrared heaters in California, and they now include them in 95% of their porch projects[^s1] [[VERIFY: the 95% figure with Design Builders before reuse — Marketing]]. Tschauner explained why it works so well outdoors: infrared warms people and surfaces directly, much as sunlight does, rather than heating air that the wind would carry away[^s1][^s6].
+The hosts first came across infrared heaters in California, and they now include them in 95% of their porch projects[^s1] [[VERIFY: the 95% figure with Design Builders before reuse — Marketing]]. He explained why it works so well outdoors: infrared warms people and surfaces directly, much as sunlight does, rather than heating air that the wind would carry away[^s1][^s6].
 
 ## Warmth That Lets The Design Shine
 
-Bromic's aim, Tschauner said, is for heaters to blend gracefully into the space while the architecture takes centre stage[^s1]. The conversation explored the three collections:
+Bromic's aim, he said, is for heaters to blend gracefully into the space while the architecture takes centre stage[^s1]. The conversation explored the three collections:
 
 | Collection | What it is | Where it fits on a porch |
 |---|---|---|

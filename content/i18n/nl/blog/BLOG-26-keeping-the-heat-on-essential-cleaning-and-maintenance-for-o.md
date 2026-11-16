@@ -5,17 +5,17 @@ translation_of: BLOG-26
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 type: blog
-title: "Een buitenverwarmer schoonmaken en onderhouden: een checklist per seizoen"
+title: "Je buitenverwarmer onderhouden, seizoen na seizoen"
 action: keep-fix
 audience: [COM, RES]
 stage: [BY]
 cell: COM-BY
 asset: A24
-summary: "Een veilige routine voor gas- en elektrische buitenverwarmers van Bromic: wat je doet voordat je er een aanraakt, wat je schoonmaakt en hoe vaak, de controles aan het begin en eind van het seizoen, opslag, bediening, en waar je de garantievoorwaarden vindt."
+summary: "Met een beetje zorg staat je Bromic-verwarmer op gas of elektriciteit klaar voor elke avond buiten. Wat je doet voordat je er een aanraakt, wat je schoonmaakt en hoe vaak, de controles aan het begin en eind van elk seizoen, opslag, bediening, en waar je de garantievoorwaarden vindt."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe maak ik mijn buitenverwarmer schoon en hoe onderhoud ik hem?"
-meta_description: "Buitenverwarmers veilig schoonmaken en onderhouden: voorzorgen, een schoonmaakroutine, controles aan het begin en eind van het seizoen, opslag en bediening, gas en elektrisch."
+meta_description: "Je terrasverwarmer eenvoudig onderhouden: veilig schoonmaken, controles aan begin en eind van het seizoen, opslag en bediening, Bromic gas en elektrisch."
 cta: {label: "Download het operationele draaiboek", asset: A23}
 hero: w-bromic-shoot-may-11-2023-54
 images: [w-tungsten-portable-cover-v3]
@@ -25,7 +25,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [COM-BY-01, RES-BY-01, BLD-BY-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -63,27 +63,26 @@ sources:
     supports: "US electric heaters follow NFPA 70, gas heaters NFPA 54; check with the local building authority"
     verified: true
 ---
+Een buitenverwarmer verzorgen is eenvoudig als je het doet terwijl hij uit en afgekoeld is. Neem de behuizing af met een zachte microvezeldoek, verwijder bladeren, nesten en spinnenwebben, en houd water en agressieve reinigers weg van de elementen. Controleer aan het begin en eind van elk seizoen de bevestiging, snoeren en bediening; test bij gasverwarmers de aansluitingen op lekkage en laat de gastoevoer ten minste één keer per jaar nakijken door een erkend gasinstallateur. Alles wat verder gaat dan schoonmaken aan de buitenkant is werk voor een erkend vakman.
 
-Maak een buitenverwarmer alleen schoon als hij uit en afgekoeld is: neem de behuizing af met een zachte microvezeldoek, verwijder bladeren, nesten en spinnenwebben, en houd water en agressieve reinigers weg van de elementen. Controleer aan het begin en eind van elk seizoen de bevestiging, snoeren en bediening; test bij gasverwarmers de aansluitingen op lekkage en laat de gastoevoer ten minste één keer per jaar nakijken door een erkend gasinstallateur. Alles wat verder gaat dan schoonmaken aan de buitenkant is werk voor een erkend vakman.
+![Platinum Electric-verwarmer vlak ingebouwd in een plafond met houten bekleding en roestvaststalen rand, klaar voor de avond](img:w-bromic-shoot-may-11-2023-54)
 
-![Platinum Electric-verwarmer vlak ingebouwd in een plafond met houten bekleding en roestvaststalen rand](img:w-bromic-shoot-may-11-2023-54)
+## Voordat je een verwarmer schoonmaakt of onderhoudt
 
-## Wat doe je voordat je schoonmaakt of onderhoud pleegt?
+Onze eigen richtlijnen, in volgorde:[^s1]
 
-De eigen richtlijnen van Bromic, in volgorde:[^s1]
-
-1. **Uitschakelen en laten afkoelen.** Schakel een elektrische verwarmer af met de wandschakelaar of de installatieautomaat; draai bij een gasverwarmer de gastoevoer dicht.
+1. **Uitschakelen en laten afkoelen.** Schakel een elektrische verwarmer af met de wandschakelaar of de installatieautomaat, en draai bij een gasverwarmer de gastoevoer dicht.
 2. **Maak de omgeving vrij.** Haal alles weg wat brandbaar is, en vuil, nesten of afgevallen bladeren rond en boven de verwarmer.
 3. **Ventileer.** Gasverwarmers hebben open lucht nodig om rookgassen af te voeren.
-4. **Controleer gasaansluitingen op lekkage** door er een sopje van water en zeep overheen te kwasten. Bellen betekenen een lek: draai het gas dicht en bel meteen een vakman.
+4. **Controleer gasaansluitingen op lekkage** door er een sopje van water en zeep overheen te kwasten. Bellen betekenen een lek, dus draai het gas dicht en bel meteen een vakman.
 
-## Hoe maak je een buitenverwarmer schoon?
+## Je verwarmer met zorg schoonmaken
 
-Voorzichtig. Neem stof en vuil van de behuizing af met een microvezeldoek. Vermijd agressieve chemicaliën en veel water; die kunnen roest en corrosie veroorzaken.[^s1] Spuit nooit water in een element of brander, en maak een gesloten toestel nooit open. Spoel op kustlocaties het zout van roestvaststalen oppervlakken zoals de handleiding van je model aangeeft. [[VERIFY: door Bromic aanbevolen schoonmaakmethode en -middelen per model, ook voor de kust — productteam]]
+Je verwarmer vraagt alleen om een zachte hand. Neem stof en vuil van de behuizing af met een microvezeldoek, en vermijd agressieve chemicaliën en veel water, die roest en corrosie kunnen veroorzaken.[^s1] Spuit nooit water in een element of brander, en maak een gesloten toestel nooit open. Spoel op kustlocaties het zout van roestvaststalen oppervlakken zoals de handleiding van je model aangeeft. [[VERIFY: door Bromic aanbevolen schoonmaakmethode en -middelen per model, ook voor de kust — productteam]]
 
-## Wat staat er op de onderhoudschecklist?
+## Je onderhoudschecklist per seizoen
 
-Algemene richtlijnen; de installatie- en gebruikshandleiding van je model gaat voor. De handleidingen staan bij de [technische documentatie](https://www.bromic.nl/).
+Dit zijn algemene richtlijnen; de installatie- en gebruikshandleiding van je model gaat altijd voor. Alle handleidingen vind je bij onze [technische documentatie](https://www.bromic.nl/).
 
 | Taak | Wie | Wanneer |
 |---|---|---|
@@ -100,21 +99,21 @@ Algemene richtlijnen; de installatie- en gebruikshandleiding van je model gaat v
 
 *Werk aan gas- en elektrische installaties is gereguleerd: in Nederland NEN 1078 voor gas en NEN 1010 voor elektra (in de VS NFPA 54 en NFPA 70).[^s5] Controleer de eisen bij je gemeente en schakel een erkend gasinstallateur of elektrotechnisch installateur in.* [[VERIFY: actuele Nederlandse normen voor onderhoud van gas- en elektrische installaties — Bromic Benelux distributor]]
 
-## Heeft de bediening ook onderhoud nodig?
+## Je bediening goed afgestemd houden
 
-Ze moet worden gecontroleerd, want ze bepaalt hoe de verwarmers werken. Test aan het begin van het seizoen elke zone vanaf de Affinity Smart-Heat On/Off- of Dimmer-regelaar, de Eclipse-regelaar en de handmatige wandschakelaar, en zet daarna de schema's en timers in de app opnieuw voor het nieuwe seizoen.[^s2] Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht. Een schema dat nog van de zomer staat, is de manier waarop verwarmers boven een leeg terras blijven branden. Meer over zones en schema's voor horeca: [een verwarmd terras runnen](item:COM-BY-01); voor woningen: [Smart-Heat-bediening instellen](item:RES-BY-01).
+Je bediening bepaalt hoe en wanneer de verwarmers branden, dus die verdient een eigen controle. Test aan het begin van elk seizoen elke zone vanaf de Affinity Smart-Heat On/Off- of Dimmer-regelaar, de Eclipse-regelaar en de handmatige wandschakelaar, en zet daarna de schema's en timers in de app opnieuw voor de komende maanden.[^s2] Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht. Een schema dat nog van de zomer staat, kan verwarmers boven een leeg terras laten branden. Meer over zones en schema's lees je als horecazaak in [een verwarmd terras runnen](item:COM-BY-01), en als huiseigenaar in [Smart-Heat-bediening instellen](item:RES-BY-01).
 
-## Hoe berg je buitenverwarmers op?
+## Je verwarmers opbergen tussen de seizoenen
 
-- **Vrijstaande verwarmers:** zet ze op een droge, beschutte plek, zoals een garage of schuur, of gebruik een hoes tegen stof en vuil.[^s1] De [Tungsten Freestanding Cover](https://www.bromic.nl/) gaat over de kop van de verwarmer.
+- **Vrijstaande verwarmers:** zet ze op een droge, beschutte plek, zoals een garage of schuur, of gebruik een hoes tegen stof en vuil.[^s1] De [Tungsten Freestanding Cover](https://www.bromic.nl/) sluit netjes over de kop van de verwarmer.
 - **Vaste verwarmers:** een verwarmer onder een dak of overstek gaat langer mee dan een die volledig onbeschut hangt.[^s1]
-- **Onbeschutte verwarmers:** inspecteer ze grondig voor het eerste gebruik van het seizoen.[^s1]
+- **Onbeschutte verwarmers:** inspecteer ze grondig voor de eerste avond van het seizoen.[^s1]
 
-![Bromic-hoes over de kop van een vrijstaande Tungsten-verwarmer](img:w-tungsten-portable-cover-v3)
+![Bromic-hoes over de kop van een vrijstaande Tungsten-verwarmer, die hem beschermt tussen de keren gebruik](img:w-tungsten-portable-cover-v3)
 
-## Wat dekt de garantie?
+## Je garantie
 
-De voorwaarden verschillen per product. De live post noemde 1 jaar garantie op onderdelen voor alle verwarmers; de productpagina's van Bromic noemen nu voor verschillende modellen langere termijnen.[^s3] Controleer de actuele [garantievoorwaarden](https://www.bromic.com/warranty/) voordat je op een van deze termijnen vertrouwt.[^s4] De onderstaande termijnen komen van de Amerikaanse productpagina's.
+De voorwaarden verschillen per product. De live post noemde 1 jaar garantie op onderdelen voor alle verwarmers, en onze productpagina's noemen nu voor verschillende modellen langere termijnen.[^s3] Controleer de actuele [garantievoorwaarden](https://www.bromic.com/warranty/) voordat je op een van deze termijnen vertrouwt.[^s4] De onderstaande termijnen komen van de Amerikaanse productpagina's.
 
 | Product | Garantie volgens de productpagina |
 |---|---|
@@ -132,7 +131,7 @@ De voorwaarden verschillen per product. De live post noemde 1 jaar garantie op o
 
 ### Hoe vaak moet ik mijn terrasverwarmer schoonmaken?
 
-Neem hem regelmatig af en haal vuil weg zolang hij in gebruik is, en doe aan het begin en eind van elk seizoen een volledige controle. Gasverwarmers hebben daarnaast ten minste één keer per jaar een inspectie door een vakman nodig.[^s1]
+Neem hem regelmatig af en haal vuil weg zolang hij in gebruik is, en geef hem aan het begin en eind van elk seizoen een volledige controle. Gasverwarmers hebben daarnaast ten minste één keer per jaar een inspectie door een vakman nodig.[^s1]
 
 ### Mag ik een buitenverwarmer met de tuinslang afspuiten?
 
@@ -142,7 +141,7 @@ Nee. Veel water kan roest en corrosie veroorzaken en mag nooit in een element of
 
 Gebruik hem niet meer en neem contact op met de [technische ondersteuning van Bromic](https://www.bromic.nl/) of een erkend vakman.
 
-Voor horecazaken zet het operationele draaiboek deze routine om in één werkinstructie per dienst.
+Voor horecazaken brengt ons operationele draaiboek deze routine samen in één werkinstructie per dienst.
 
 [^s1]: Bromic Heating, live post, gelezen op 29 okt. 2026.
 [^s2]: Bromic Heating, Lookbook 2026.

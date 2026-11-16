@@ -5,17 +5,17 @@ translation_of: BLOG-25
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 type: blog
-title: "Vrijstaande terrasverwarmers die er niet log uitzien: waar je op let"
+title: "Vrijstaande terrasverwarmers die er net zo goed uitzien als ze aanvoelen"
 action: merge-target
 audience: [RES, COM]
 stage: [CO]
 cell: RES-CO
 asset: A24
-summary: "Wat een goede vrijstaande terrasverwarmer onderscheidt van een paddenstoelverwarmer (straling of lucht, gericht of rondom, golflengte, energiebron, stabiliteit, bediening), en hoe de twee vrijstaande verwarmers van Bromic, Eclipse elektrisch en Tungsten gas, zich tot elkaar verhouden."
+summary: "Een mooie vrijstaande terrasverwarmer verwarmt de mensen aan tafel en past vanzelf in je buitenruimte. Wat hem onderscheidt van een paddenstoelverwarmer – stralingswarmte, gerichte warmte, golflengte, energiebron, stabiliteit en bediening – en hoe de vrijstaande verwarmers Eclipse elektrisch en Tungsten gas van Bromic zich tot elkaar verhouden."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Waar moet ik op letten bij een vrijstaande terrasverwarmer?"
-meta_description: "Waar je op let bij een vrijstaande terrasverwarmer: gerichte stralingswarmte, energiebron, stabiliteit en bediening, met de Eclipse en de Tungsten van Bromic vergeleken."
+meta_description: "Waar je op let bij een vrijstaande terrasverwarmer die er net zo goed uitziet als hij aanvoelt: gerichte straling, energiebron, stabiliteit, bediening."
 cta: {label: "Bereken hoeveel verwarmers je nodig hebt", asset: A03}
 hero: w-eclipse-portable-hive-and-honey-1
 images: [w-bromic-eclipse-portable-hotel-skansen-01, l-019-163]
@@ -25,7 +25,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-CO-01, COM-CO-01, RES-PP-01, A03]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -70,16 +70,15 @@ sources:
     supports: "The claims this merge replaces: 3x more efficient or more heating power; twice the area; 9 kg tank and 30–40 MJ; $30 refill and $45 a day saved; up to 8 hours per tank; a 2020 New York 5 ft rule"
     verified: true
 ---
+De juiste vrijstaande verwarmer verwarmt de mensen rond je tafel en stuurt stralingswarmte precies naar de plek waar ze zitten, in plaats van alle kanten op te gloeien vanuit een paddenstoelkap. Kijk daarna welke energiebron je kunt gebruiken, hoe stabiel hij in de wind staat, hoeveel oppervlak hij verwarmt, hoe je hem bedient en of hij eruitziet alsof hij erbij hoort. Bromic maakt er twee: de Eclipse Smart-Heat Freestanding Electric, met warmte en licht in één sierlijke boog, en de Tungsten Smart-Heat Freestanding Gas, op propaan of aardgas.
 
-Kies een vrijstaande verwarmer die mensen verwarmt, niet de lucht: stralingswarmte die op de tafel is gericht in plaats van een paddenstoelkap die alle kanten op gloeit. Kijk daarna welke energiebron je kunt gebruiken, hoe stabiel hij in de wind staat, hoeveel oppervlak hij verwarmt, hoe je hem bedient en of hij eruitziet alsof hij erbij hoort. Bromic maakt er twee: de Eclipse Smart-Heat Freestanding Electric, warmte en licht in één boog, en de Tungsten Smart-Heat Freestanding Gas, op propaan of aardgas.
+![Dakterrasrestaurant met gebogen vrijstaande verwarmers en wandverwarmers boven de eettafels](img:w-eclipse-portable-hive-and-honey-1)
 
-![Dakterrasrestaurant met gebogen vrijstaande verwarmers en wandverwarmers](img:w-eclipse-portable-hive-and-honey-1)
+## Waarom zoveel vrijstaande verwarmers log aanvoelen
 
-## Waarom zijn zoveel vrijstaande verwarmers log?
+De meeste vrijstaande verwarmers zijn eerst rond een gasfles gebouwd, en pas daarna rond de mensen die ze verwarmen. De bekende paddenstoelverwarmer zet een brander en een reflectorkap op een paal boven een gasfles en heeft doorgaans een vermogen van 11,7 tot 14,1 kW.[^s5] Hij verwarmt in een cirkel vanaf boven hoofdhoogte, en veel van wat hij produceert is warme lucht die de wind al snel meeneemt. Piramide- en vlammenbuistorens voegen een zichtbare vlam toe, maar verliezen hun warmte op vrijwel dezelfde manier aan de wind.
 
-Omdat de meeste zijn gebouwd rond een gasfles, niet rond de mensen die ze moeten verwarmen. De bekende paddenstoelverwarmer zet een brander en een reflectorkap op een paal boven een gasfles en heeft doorgaans een vermogen van 11,7 tot 14,1 kW.[^s5] Hij verwarmt in een cirkel vanaf boven hoofdhoogte, en veel van wat hij produceert is warme lucht die de wind meeneemt. Piramide- en vlammenbuistorens voegen een zichtbare vlam toe, maar hebben hetzelfde probleem.
-
-## Waar let je op?
+## Waar je op let bij een vrijstaande verwarmer
 
 | Wat je controleert | Waarom het telt | Eclipse Freestanding Electric | Tungsten Freestanding Gas |
 |---|---|---|---|
@@ -95,31 +94,31 @@ Omdat de meeste zijn gebouwd rond een gasfles, niet rond de mensen die ze moeten
 
 ### Maakt de golflengte uit?
 
-Ja, vooral bij wind. Volgens de planningsgids van Bromic is kortegolfwarmte voor ongeveer 90% straling en direct merkbaar, middengolf voor ongeveer 60% met een korte opwarmtijd, en langegolf voor ongeveer 40%, de traagste en het gevoeligst voor wind.[^s4] Op een open terras kies je de kortere golflengte.
+Ja, vooral als de wind aantrekt. Volgens onze planningsgids is kortegolfwarmte voor ongeveer 90% straling en direct merkbaar, middengolf voor ongeveer 60% met een korte opwarmtijd, en langegolf voor ongeveer 40%, de traagste en het gevoeligst voor wind.[^s4] Op een open terras houdt de kortere golflengte je gasten comfortabel.
 
 ## Eclipse Smart-Heat Freestanding Electric
 
-Een gebogen arm op een verzwaarde voet met wielen draagt een ronde verwarmer boven een tafel of lounge, met een dimbaar licht rond de rand, zodat één armatuur zowel de warmte als de sfeer bepaalt.[^s1] Hij gaat in het stopcontact waar geen muur of plafond is om iets aan te monteren, en verhuist mee als het meubilair verschuift. Houd boven de verwarmer ten minste 2,01 m vrije hoogte aan.[^s2]
+Een gebogen arm op een verzwaarde voet met wielen draagt een ronde verwarmer boven een tafel of lounge, met een dimbaar licht rond de rand, zodat één armatuur zowel de warmte als de sfeer van de avond bepaalt.[^s1] Hij gaat in het stopcontact waar geen muur of plafond is om iets aan te monteren, en verhuist moeiteloos mee als het meubilair verschuift. Houd boven de verwarmer ten minste 2,01 m vrije hoogte aan.[^s2]
 
-**Bediening:** hij wordt geleverd met de Eclipse Dimmer Controller en afstandsbediening, waarmee je de warmte in standen van 33, 66 en 100% zet en het licht dimt.[^s2] Bediening via de app met zones en schema's vraagt een compatibele Affinity Smart-Heat Eclipse-regelaar; wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht.[^s1] [[VERIFY: welke app-bediening de Eclipse Freestanding nodig heeft naast de meegeleverde dimmer — productteam]]
+**Aanbevolen bediening en accessoires.** De Eclipse Freestanding wordt geleverd met de Eclipse Dimmer Controller en afstandsbediening, waarmee je de warmte in standen van 33, 66 en 100% zet en het licht dimt.[^s2] Bediening via de app met zones en schema's vraagt een compatibele Affinity Smart-Heat Eclipse-regelaar; wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht.[^s1] [[VERIFY: welke app-bediening de Eclipse Freestanding nodig heeft naast de meegeleverde dimmer — productteam]]
 
 ![Gebogen vrijstaande Eclipse-verwarmer boven een gedekte tafel op de binnenplaats van een hotel in de schemering](img:w-bromic-eclipse-portable-hotel-skansen-01)
 
-Bij [Hotel Skansen](https://www.bromic.com/case-study/hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-heat-freestanding-heaters/) in Zweden houden twee vrijstaande Eclipse-verwarmers op de Eclipse Dimmer Controller het terras van restaurant SAND in gebruik. In Scottsdale (VS) zette AFT Construction er een op het terras van het huis [Desert Mirage](https://www.bromic.com/case-study/desert-mirage-blurring-the-lines-between-home-and-nature/). [[VERIFY: de reel van AFT Construction waarnaar de live post verwijst insluiten, of de verwijzing weghalen — marketing]]
+Bij [Hotel Skansen](https://www.bromic.com/case-study/hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-heat-freestanding-heaters/) in Zweden zorgen twee vrijstaande Eclipse-verwarmers op de Eclipse Dimmer Controller ervoor dat gasten langer blijven zitten op het terras van restaurant SAND. In Scottsdale (VS) koos AFT Construction er een voor het terras van het huis [Desert Mirage](https://www.bromic.com/case-study/desert-mirage-blurring-the-lines-between-home-and-nature/). [[VERIFY: de reel van AFT Construction waarnaar de live post verwijst insluiten, of de verwijzing weghalen — marketing]]
 
 ## Tungsten Smart-Heat Freestanding Gas
 
-Een kolom van roestvast staal met een kantelbare kop en keramische branders, gemaakt voor open terrassen en horecaterrassen die meer verwarmd oppervlak uit één toestel nodig hebben.[^s1] Hij werkt op een propaanfles of op aardgas via een slang met snelkoppeling, rijdt op wielen en is zo ontworpen dat hij niet omvalt.[^s3] Bromic geeft hem een windbestendigheid tot 13 km/u.[^s3] Een weerbestendige [Tungsten Freestanding Cover](https://www.bromic.nl/) beschermt de kop als hij niet wordt gebruikt.
+Een kolom van roestvast staal met een kantelbare kop en keramische branders: de Tungsten Freestanding is gemaakt voor open terrassen en horecaterrassen die meer verwarmd oppervlak uit één toestel willen.[^s1] Hij werkt op een propaanfles of op aardgas via een slang met snelkoppeling, rijdt op wielen en is zo ontworpen dat hij niet omvalt.[^s3] Wij geven hem een windbestendigheid tot 13 km/u.[^s3] Een weerbestendige [Tungsten Freestanding Cover](https://www.bromic.nl/) beschermt de kop tussen de avonden door.
 
-Hoe lang een fles meegaat hangt af van de stand en de vulling. [[VERIFY: brandduur per gasfles; de live post noemde tot 8 uur bij een Amerikaanse fles van 9 kg — productteam]] Propaan brengt ook regels mee: verplaatsbare gasverwarmers moeten vaste afstanden houden tot overkappingen en uitgangen. *Controleer dit bij je gemeente en de brandweer, en laat een erkend gasinstallateur meekijken.* Voor de horeca rekent [wat een paddenstoelverwarmer echt kost](https://www.bromic.com/blog/why-mushroom-heaters-are-bad-for-business/) de brandstof- en flessenkosten door (Engelstalig, met Amerikaanse prijzen).
+Hoe lang een fles meegaat hangt af van de stand en de vulling. [[VERIFY: brandduur per gasfles; de live post noemde tot 8 uur bij een Amerikaanse fles van 9 kg — productteam]] Propaan brengt ook regels mee, want verplaatsbare gasverwarmers moeten vaste afstanden houden tot overkappingen en uitgangen. *Controleer dit bij je gemeente en de brandweer, en laat een erkend gasinstallateur meekijken.* Voor de horeca rekent [wat een paddenstoelverwarmer echt kost](https://www.bromic.com/blog/why-mushroom-heaters-are-bad-for-business/) de brandstof- en flessenkosten door (Engelstalig, met Amerikaanse prijzen).
 
-![Vrijstaande Tungsten-gasverwarmer op een stenen binnenplaats in de schemering](img:l-019-163)
+![Vrijstaande Tungsten-gasverwarmer die gloeit op een stenen binnenplaats in de schemering](img:l-019-163)
 
-## Welke kies je?
+## De verwarmer die bij je ruimte past
 
-- **Geen gas, een tafel of lounge om te verlichten en te verwarmen:** Eclipse Freestanding Electric.
-- **Open terras, groter oppervlak, propaan of een gasaansluiting:** Tungsten Freestanding Gas.
-- **Een overdekt terras met een overstek of muur:** een vaste verwarmer past meestal beter; zie de [elektrische buitenverwarmers](https://www.bromic.nl/).
+- **Geen gas, en een tafel of lounge die je wilt verlichten en verwarmen:** Eclipse Freestanding Electric.
+- **Een open terras, een groter oppervlak, en propaan of een gasaansluiting:** Tungsten Freestanding Gas.
+- **Een overdekt terras met een overstek of muur:** een vaste verwarmer past meestal beter – ontdek onze [elektrische buitenverwarmers](https://www.bromic.nl/).
 
 Eerdere posts beweerden dat een vrijstaande verwarmer van Bromic tot drie keer efficiënter was dan een paddenstoelverwarmer, met besparingen op basis van een fles van 9 kg en navullingen van $ 30. Geen van die cijfers had een methode of bron, dus herhalen we ze hier niet.[^s6]
 
@@ -127,17 +126,17 @@ Eerdere posts beweerden dat een vrijstaande verwarmer van Bromic tot drie keer e
 
 ### Is een vrijstaande terrasverwarmer hetzelfde als een verplaatsbare?
 
-Bromic noemt ze nu vrijstaand; op sommige oudere pagina's staat verplaatsbaar (portable). Beide betekenen een verwarmer op een eigen voet die je kunt verplaatsen, niet vast aan een muur of plafond.
+Ja. Bromic noemt ze nu vrijstaand, terwijl op sommige oudere pagina's verplaatsbaar (portable) staat. Beide betekenen een verwarmer op een eigen voet die je kunt verplaatsen, in plaats van een die vast aan een muur of plafond zit.
 
 ### Hoeveel vrijstaande verwarmers heb ik nodig?
 
-Deel het oppervlak dat warm moet worden door het verwarmde oppervlak per verwarmer, ongeveer 11,2 m² voor de Eclipse en 20,0 m² voor de Tungsten,[^s1] en controleer daarna de opstelling. De [calculator](asset:A03) of de [ontwerpservice](https://www.bromic.nl/) doet het voor je.
+Deel het oppervlak dat je warm wilt houden door het verwarmde oppervlak per verwarmer, ongeveer 11,2 m² voor de Eclipse en 20,0 m² voor de Tungsten,[^s1] en controleer daarna de opstelling. De [calculator](asset:A03) of onze [ontwerpservice](https://www.bromic.nl/) doet het voor je.
 
 ### Kan ik een vrijstaande verwarmer onder een overkapping gebruiken?
 
-Een elektrische wel, binnen de voorgeschreven afstanden. Vrijstaande gasverwarmers hebben open lucht nodig en vaste afstanden tot overkappingen; kijk in de handleiding en vraag het na bij je gemeente.
+Een elektrische kun je onder een overkapping gebruiken, binnen de voorgeschreven afstanden. Vrijstaande gasverwarmers hebben open lucht nodig en vaste afstanden tot overkappingen, dus kijk in de handleiding en vraag het na bij je gemeente.
 
-Bekijk alle [vrijstaande verwarmers](https://www.bromic.nl/). Bereken hoeveel verwarmers jouw ruimte nodig heeft.
+Ontdek al onze [vrijstaande verwarmers](https://www.bromic.nl/) en bereken hoeveel jouw ruimte er nodig heeft.
 
 [^s1]: Bromic Heating, Lookbook 2026.
 [^s2]: Bromic Heating, productpagina Eclipse Smart-Heat Freestanding, gelezen op 29 okt. 2026.

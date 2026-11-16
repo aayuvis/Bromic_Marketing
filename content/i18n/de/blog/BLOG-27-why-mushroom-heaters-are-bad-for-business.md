@@ -1,17 +1,17 @@
 ---
 id: BLOG-27
 type: blog
-title: "Sind Heizpilze schlecht fürs Geschäft? Was sie eine Restaurantterrasse wirklich kosten"
+title: "Sind Heizpilze schlecht fürs Geschäft? Was die Wärme einer Restaurantterrasse wirklich kostet"
 action: rewrite
 audience: [COM]
 stage: [CO]
 cell: COM-CO
 asset: A24
-summary: "Was ein Heizpilz mit Flüssiggas ein Restaurant pro Stunde und pro Saison kostet, nachvollziehbar gerechnet und als US-Beispiel mit offengelegten EIA-Energiepreisen, im Vergleich zu gerichteten freistehenden Gas-Heizstrahlern und fest installierter elektrischer Wärme – samt Flaschenwechsel und Vorschriften, die im Brennstoffpreis nicht stehen."
+summary: "Ein Heizpilz wirkt wie ein Schnäppchen, bis die Rechnungen der Saison eintreffen. Was ein Heizpilz mit Flüssiggas ein Restaurant pro Stunde und pro Saison wirklich kostet, nachvollziehbar gerechnet und als US-Beispiel mit offengelegten EIA-Energiepreisen, im Vergleich zu gerichteten freistehenden Gas-Heizstrahlern und fest installierter elektrischer Wärme – samt Flaschenwechsel und Vorschriften, die im Brennstoffpreis nicht stehen."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Lohnen sich Heizpilze für ein Restaurant?"
-meta_description: "Was ein Heizpilz ein Restaurant pro Stunde und pro Saison kostet: die Rechnung zum Nachrechnen mit Ihren Preisen, dazu Flaschenwechsel und Vorschriften."
+meta_description: "Was ein Heizpilz eine Restaurantterrasse pro Stunde und Saison wirklich kostet: die Rechnung mit Ihren Preisen, dazu Flaschenwechsel und Vorschriften."
 cta: {label: "Fünf-Jahres-Kostenmodell rechnen", asset: A20}
 hero: w-power-of-portable
 images: [l-019-164]
@@ -21,7 +21,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [COM-CO-01, COM-IN-01, COM-PP-01, A20]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: de
 translation_of: BLOG-27
 translation_status: machine-draft
@@ -105,12 +105,11 @@ sources:
     supports: "The claims this rewrite replaces: up to three times more efficient; about $16,752 a year saved on 1,000 ft² heated 4 hours a day, inputs not stated"
     verified: true
 ---
+Ein Heizpilz mit Flüssiggas ist günstig in der Anschaffung und teuer im Unterhalt. Er verbrennt pro Stunde etwa so viel Brennstoff wie jeder große Gas-Heizstrahler, schickt einen großen Teil seiner Wärme nach oben und zur Seite und bringt Flaschenwechsel, Lagerung und Auflagen mit sich, die der Kaufpreis nie zeigt. Für ein Restaurant, dessen Gäste an einem kühlen Abend noch beim Dessert verweilen sollen, kosten gerichtete freistehende Gas-Heizstrahler oder fest installierte elektrische Strahlungswärme meist weniger je beheiztem Platz und sind an mehr Orten zulässig.
 
-Ein Heizpilz mit Flüssiggas ist günstig in der Anschaffung und teuer im Unterhalt. Er verbrennt pro Stunde etwa so viel Brennstoff wie jeder große Gas-Heizstrahler, gibt einen großen Teil seiner Wärme nach oben und zur Seite ab und bringt Flaschenwechsel, Lagerung und Auflagen mit sich, die der Kaufpreis nicht zeigt. Für ein Restaurant kosten gerichtete freistehende Gas-Heizstrahler oder fest installierte elektrische Strahlungswärme meist weniger je beheiztem Platz und sind an mehr Orten zulässig.
+![Hotelinnenhof mit gedeckten Tischen und schwarzen freistehenden Tungsten-Gas-Heizstrahlern zwischen den Tischen](img:w-power-of-portable)
 
-![Hotelinnenhof mit Tischen und schwarzen freistehenden Tungsten-Gas-Heizstrahlern dazwischen](img:w-power-of-portable)
-
-## Was kostet ein Heizpilz pro Stunde?
+## Was ein Heizpilz pro Stunde im Betrieb kostet
 
 Freistehende Flüssiggas-Heizstrahler laufen in den USA typischerweise mit einer Flasche von rund 9 kg und haben eine Nennleistung von 11,7 bis 14,1 kW.[^s1] Die Kosten pro Stunde ergeben sich aus einer Formel, die Sie mit Ihrer eigenen Rechnung abgleichen können:
 
@@ -126,17 +125,17 @@ Ein Heizpilz mit 11,7 kW verbraucht damit rund 1,65 Liter pro Stunde, einer mit 
 | Tungsten Smart-Heat Freestanding Gas | 11,1 kW | Erdgas | 11,1 kWh | × Preis je kWh Gas | 0,33 $ |
 | Platinum Smart-Heat Electric 4500W | 4,5 kW | Strom | 4,5 kWh | × Preis je kWh Strom | 0,61 $ |
 
-US-Tarife im Beispiel: Flüssiggas 2,674 $ je US-Gallone[^s2]; Erdgas für Gewerbekunden rund 0,87 $ je Therm (29,3 kWh)[^s3]; Strom für Gewerbekunden 13,54 US-Cent je kWh.[^s4] Nennleistungen der Heizstrahler von Bromic.[^s6] Bei voller Leistung liegen ein Heizpilz und jeder andere Flüssiggas-Heizstrahler beim Brennstoff pro Stunde nah beieinander. Der Unterschied liegt darin, wohin die Wärme geht und was der Brennstoff sonst noch kostet.
+Die US-Tarife im Beispiel sind Flüssiggas zu 2,674 $ je US-Gallone,[^s2] Erdgas für Gewerbekunden zu rund 0,87 $ je Therm (29,3 kWh)[^s3] und Strom für Gewerbekunden zu 13,54 US-Cent je kWh,[^s4] mit den Nennleistungen der Heizstrahler von Bromic.[^s6] Bei voller Leistung liegen ein Heizpilz und jeder andere Flüssiggas-Heizstrahler beim Brennstoff pro Stunde nah beieinander. Was sie unterscheidet, ist, wohin die Wärme geht und was der Brennstoff Sie sonst noch kostet.
 
-## Warum verschwendet ein Heizpilz Wärme?
+## Wohin die Wärme eines Heizpilzes geht
 
-Weil er im Kreis heizt, von oberhalb der Kopfhöhe, und ein großer Teil seiner Leistung warme Luft ist, die der Wind davonträgt. Strahlungswärme wärmt Menschen und Gegenstände statt der Luft, deshalb funktioniert sie im Freien; je kürzer die Wellenlänge, desto größer der Strahlungsanteil und desto weniger nimmt der Wind mit.[^s10] Ein gerichteter Heizstrahler lenkt diese Strahlungsenergie auf die Tische. Der Tungsten Smart-Heat Freestanding Gas hat einen neigbaren Kopf und Keramikbrenner und ist von Bromic für ca. 20 m² ausgelegt.[^s6] [[VERIFY: Leistung des Tungsten Freestanding Gas, 11,1 kW (38.000 BTU) laut Lookbook gegenüber 11,3 kW (38.500 BTU) laut Produktseite — Produktteam]]
+Ein Heizpilz heizt im Kreis, von oberhalb der Kopfhöhe, und ein großer Teil seiner Leistung ist warme Luft, die der Wind bald davonträgt. Strahlungswärme wärmt Menschen und Gegenstände direkt, deshalb funktioniert sie im Freien so gut; je kürzer die Wellenlänge, desto größer der Strahlungsanteil und desto weniger kann der Wind mitnehmen.[^s10] Ein gerichteter Heizstrahler lenkt diese Strahlungsenergie auf die Tische, an denen Ihre Gäste sitzen. Der Tungsten Smart-Heat Freestanding Gas hat einen neigbaren Kopf und Keramikbrenner, und wir geben ihn für ca. 20 m² an.[^s6] [[VERIFY: Leistung des Tungsten Freestanding Gas, 11,1 kW (38.000 BTU) laut Lookbook gegenüber 11,3 kW (38.500 BTU) laut Produktseite — Produktteam]]
 
-Für Heizpilze gibt es keine vergleichbar ermittelte Heizfläche; die Zahl, die Sie brauchen, ergibt sich daher aus einem Wärmeplan für Ihre Anordnung, nicht aus einem Verhältnis. Die Aussagen „dreimal effizienter“ und eine jährliche Ersparnis von 16.752 $ aus dem Live-Beitrag nannten weder Methode noch Eingangswerte und wurden deshalb gestrichen.[^s11]
+Für Heizpilze gibt es keine vergleichbar ermittelte Heizfläche, deshalb ergibt sich die Zahl, die Sie brauchen, aus einem Wärmeplan für Ihre eigene Anordnung. Die Aussagen „dreimal effizienter“ und eine jährliche Ersparnis von 16.752 $ aus dem Live-Beitrag nannten weder Methode noch Eingangswerte, deshalb haben wir sie entfernt.[^s11]
 
-## Was kostet eine Saison je Heizstrahler?
+## Eine Saison Wärme, Heizstrahler für Heizstrahler
 
-Zur Veranschaulichung, je Heizstrahler, mit den Standardwerten des Modells A20: 900 Heizstunden im Jahr (6 Stunden pro Abend an 150 Abenden), volle Leistung, die Tarife oben, eine Flasche von rund 9 kg mit etwa 17,8 nutzbaren Litern, 10 Minuten Personalzeit je Wechsel und ein US-Stundenlohn von 15,71 $.[^s5] [[VERIFY: Stunden, Füllmenge der Flasche und Minuten je Wechsel für Ihren Standort — Vertrieb Gastronomie]] Die Mengen gelten überall; die Dollarbeträge sind US-Werte.
+Diese Werte dienen der Veranschaulichung, je Heizstrahler, mit den Standardwerten des Modells A20: 900 Heizstunden im Jahr (6 Stunden pro Abend an 150 Abenden), volle Leistung, die Tarife oben, eine Flasche von rund 9 kg mit etwa 17,8 nutzbaren Litern, 10 Minuten Personalzeit je Wechsel und ein US-Stundenlohn von 15,71 $.[^s5] [[VERIFY: Stunden, Füllmenge der Flasche und Minuten je Wechsel für Ihren Standort — Vertrieb Gastronomie]] Die Mengen gelten überall; die Dollarbeträge sind US-Werte.
 
 | Je Heizstrahler, 900 Stunden | Verbrauch im Jahr | Flaschenwechsel | US-Beispiel: Brennstoff | US-Beispiel: Personal für Wechsel | US-Beispiel: gesamt |
 |---|---|---|---|---|---|
@@ -145,18 +144,18 @@ Zur Veranschaulichung, je Heizstrahler, mit den Standardwerten des Modells A20: 
 | Tungsten Freestanding Gas, Erdgas | ca. 10.020 kWh | keine | 298 $ | keine | **298 $** |
 | Platinum Electric 4500W | 4050 kWh | keine | 548 $ | keine | **548 $** |
 
-Für Ihren Betrieb multiplizieren Sie den Jahresverbrauch mit Ihrem Preis je Liter oder kWh und ergänzen die Personalzeit für die Flaschenwechsel. Je Quadratmeter Heizfläche braucht der Platinum 4500W bei ca. 13 m²[^s7] rund 0,34 kW, der Tungsten Freestanding auf Erdgas bei ca. 20 m² rund 0,56 kW Gas; im US-Beispiel sind das rund 4,6 bzw. 1,7 US-Cent je m² und Stunde, weil Erdgas in den USA je kWh deutlich günstiger ist als Strom. Kauf, Installation und Genehmigungen sind in dieser Tabelle nicht enthalten; Bromic empfiehlt, alles zusammen anzubieten.[^s10] Der [Fünf-Jahres-Vergleich](item:COM-CO-01) rechnet sie ein.
+Für Ihren Betrieb multiplizieren Sie den Jahresverbrauch mit Ihrem Preis je Liter oder kWh und ergänzen die Personalzeit für die Flaschenwechsel. Je Quadratmeter Heizfläche braucht der Platinum 4500W bei ca. 13 m²[^s7] rund 0,34 kW, der Tungsten Freestanding auf Erdgas bei ca. 20 m² rund 0,56 kW Gas; im US-Beispiel sind das rund 4,6 bzw. 1,7 US-Cent je m² und Stunde, weil Erdgas in den USA je kWh deutlich günstiger ist als Strom. Kauf, Installation und Genehmigungen sind in dieser Tabelle nicht enthalten, und wir empfehlen stets ein Komplettangebot.[^s10] Der [Fünf-Jahres-Vergleich](item:COM-CO-01) rechnet sie ein.
 
-## Was fehlt in den Brennstoffzahlen?
+## Die Kosten hinter der Brennstoffrechnung
 
 - **Personal.** Bei 900 Stunden bedeutet jeder Flüssiggas-Heizstrahler Dutzende Flaschenwechsel pro Saison, meist mitten im Service.
-- **Lagerung.** Ersatzflaschen brauchen einen vorschriftsmäßigen Flaschenschrank oder -käfig, der Platz kostet, an dem Gäste sitzen könnten.
-- **Aufstellung.** In den USA dürfen mobile Gas-Heizstrahler nach den örtlich übernommenen Brandschutzvorschriften nicht unter oder im Abstand von 1,5 m zu brennbaren Überständen und Markisen und nicht im Abstand von 1,5 m zu Ausgängen stehen.[^s9] Viele überdachte Terrassen scheiden damit aus. In Deutschland gelten die TRF, die Anleitung und die Auflagen Ihrer Stadt. [[VERIFY: Aufstellregeln für mobile Flüssiggas-Heizstrahler in der Außengastronomie in Deutschland — Partner Deutschland]]
-- **Verbote.** New York City hat die Genehmigung für Flüssiggas-Heizstrahler in der Außengastronomie zum 1. Juni 2021 widerrufen.[^s8] Auch in Deutschland regeln Städte Heizpilze in der Außengastronomie unterschiedlich. Fragen Sie bei Ihrer Stadt nach, bevor Sie kaufen. [[VERIFY: aktuelle Regeln und Verbote für Heizpilze in der Außengastronomie deutscher Städte — Partner Deutschland]]
+- **Lagerung.** Ersatzflaschen brauchen einen vorschriftsmäßigen Flaschenschrank oder -käfig, und der belegt Platz, an dem sonst Gäste sitzen könnten.
+- **Aufstellung.** In den USA dürfen mobile Gas-Heizstrahler nach den örtlich übernommenen Brandschutzvorschriften nicht unter oder im Abstand von 1,5 m zu brennbaren Überständen und Markisen und nicht im Abstand von 1,5 m zu Ausgängen stehen.[^s9] Viele überdachte Terrassen scheiden damit ganz aus. In Deutschland gelten die TRF, die Anleitung und die Auflagen Ihrer Stadt. [[VERIFY: Aufstellregeln für mobile Flüssiggas-Heizstrahler in der Außengastronomie in Deutschland — Partner Deutschland]]
+- **Verbote.** New York City hat die Genehmigung für Flüssiggas-Heizstrahler in der Außengastronomie zum 1. Juni 2021 widerrufen.[^s8] Auch in Deutschland regeln Städte Heizpilze in der Außengastronomie unterschiedlich. Prüfen Sie die Regeln Ihrer Stadt, bevor Sie kaufen. [[VERIFY: aktuelle Regeln und Verbote für Heizpilze in der Außengastronomie deutscher Städte — Partner Deutschland]]
 
 *Vorschriften und Genehmigungsregeln unterscheiden sich von Stadt zu Stadt und ändern sich oft. Klären Sie sie mit Ihrem Bauamt, Ordnungsamt oder der zuständigen Behörde, und beauftragen Sie einen eingetragenen Gasinstallateur oder einen Elektrofachbetrieb (Gas nach DVGW-TRGI bzw. TRF, Elektro nach DIN VDE 0100). Siehe [die Checkliste für Genehmigungen](item:COM-PP-01).*
 
-## Was sollte einen Heizpilz ersetzen?
+## Ein besserer Weg, Ihre Terrasse zu wärmen
 
 | Standort | Passt meist | Steuerung |
 |---|---|---|
@@ -165,17 +164,17 @@ Für Ihren Betrieb multiplizieren Sie den Jahresverbrauch mit Ihrem Preis je Lit
 | Überdachte Terrasse, Untersicht oder Wand | Platinum Smart-Heat Electric | Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät, Wandschalter, App |
 | Flüssiggas eingeschränkt | Elektro | Affinity-Steuergeräte wie oben |
 
-Fest installierte elektrische Wärme mit Affinity-Steuerung lässt sich nach Bereichen in Zonen teilen und nach dem Reservierungsbuch zeitlich steuern; ein Heizstrahler, der aus ist, kostet nichts. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind.[^s6] Heizstrahler für die Gastronomie und freistehende Heizstrahler finden Sie auf [bromic.de](https://www.bromic.de/).
+Fest installierte elektrische Wärme mit Affinity-Steuerung lässt sich nach Bereichen in Zonen teilen und auf Ihre Reservierungen abstimmen, sodass ein ausgeschalteter Heizstrahler überhaupt nichts kostet. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind.[^s6] Entdecken Sie Heizstrahler für die Gastronomie und unsere freistehenden Heizstrahler auf [bromic.de](https://www.bromic.de/).
 
-![Freistehender Tungsten-Gas-Heizstrahler neben einem gedeckten Tisch](img:l-019-164)
+![Freistehender Tungsten-Gas-Heizstrahler neben einem gedeckten Tisch, bereit für den Abendservice](img:l-019-164)
 
-Das Londoner [HIDE](https://www.bromic.com/case-study/hide-restaurant/) (Projektbericht auf Englisch) hat seinen Gastraum mit freistehenden Tungsten-Gas-Heizstrahlern auf die Straße erweitert; [Rare Society](https://www.bromic.com/case-study/the-modern-heating-solution-for-vintage-upscale-dining/) in San Clemente beheizt teilweise geschlossene Terrassen mit Platinum-Electric-Heizstrahlern an fest verdrahteten Schaltern.
+In London hat [HIDE](https://www.bromic.com/case-study/hide-restaurant/) (Projektbericht auf Englisch) mit freistehenden Tungsten-Gas-Heizstrahlern das Speisen auf die Straße gebracht, während [Rare Society](https://www.bromic.com/case-study/the-modern-heating-solution-for-vintage-upscale-dining/) in San Clemente seine teilweise geschlossenen Terrassen mit Platinum-Electric-Heizstrahlern an fest verdrahteten Schaltern wärmt.
 
 ## Häufige Fragen
 
 ### Sind Heizpilze effizient?
 
-Sie verbrennen 11,7–14,1 kW[^s1] und heizen von oben in alle Richtungen, sodass ein großer Teil der Leistung Luft erwärmt, die der Wind fortträgt. Gerichtete Strahlungswärme bringt mehr davon bei den Gästen an.
+Sie verbrennen 11,7–14,1 kW[^s1] und heizen von oben in alle Richtungen, sodass ein großer Teil ihrer Leistung Luft erwärmt, die der Wind fortträgt. Gerichtete Strahlungswärme bringt weit mehr dieser Wärme bei Ihren Gästen an.
 
 ### Wie lange hält eine Flüssiggasflasche?
 
@@ -183,13 +182,13 @@ Bei voller Leistung reichen rund 17,8 nutzbare Liter bei 12,9 kW etwa 9,8 Stunde
 
 ### Welcher Terrassenheizstrahler ist im Restaurant am günstigsten im Betrieb?
 
-Das hängt von Ihren Preisen je kWh ab. In den USA ist es pro Stunde Erdgas, wo eine Leitung bis zur Terrasse reicht; über eine Saison schlägt Strom dort Flüssiggas oft, sobald die Arbeitszeit für die Flaschenwechsel mitgerechnet wird. Rechnen Sie mit Ihren eigenen Tarifen nach.
+Das hängt von Ihren Preisen je kWh ab. In den USA ist es Stunde für Stunde Erdgas, wo immer eine Leitung bis zur Terrasse reicht; über eine ganze Saison kostet Strom dort oft weniger als Flüssiggas, sobald die Arbeitszeit für die Flaschenwechsel mitgerechnet wird. Rechnen Sie mit Ihren eigenen Tarifen nach.
 
 ### Kann Bromic die Anordnung planen?
 
-Ja. Der kostenlose Planungsservice zeichnet Anzahl und Heizflächen der Heizstrahler für Ihre Terrasse; anfragen können Sie ihn über [bromic.de](https://www.bromic.de/).
+Ja. Unser kostenloser Planungsservice zeichnet Anzahl und Heizflächen der Heizstrahler für Ihre Terrasse; anfragen können Sie ihn über [bromic.de](https://www.bromic.de/).
 
-Setzen Sie Ihre eigenen Energiepreise und Stunden ein: Rechnen Sie das Fünf-Jahres-Kostenmodell.
+Bringen Sie Ihre eigenen Energiepreise und Stunden mit und rechnen Sie das Fünf-Jahres-Kostenmodell für Ihre Terrasse.
 
 [^s1]: Fire Pit Surplus, Kaufberatung für Flüssiggas-Terrassenheizstrahler (USA), gelesen am 29. Okt. 2026.
 [^s2]: U.S. EIA, Heating Oil and Propane Update, Woche vom 30. März 2026.

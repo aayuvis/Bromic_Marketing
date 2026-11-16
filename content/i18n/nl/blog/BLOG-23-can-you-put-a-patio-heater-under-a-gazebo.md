@@ -7,11 +7,11 @@ audience: [RES]
 stage: [PP]
 cell: RES-PP
 asset: A24
-summary: "Ja, met de juiste verwarmer, hoogte en vrije afstanden. Waarom elektrisch infrarood bij de meeste paviljoens past, wat een gasverwarmer nodig heeft, de montagehoogte en het gewicht per Bromic-model, de spanning en de bediening die je meeplant."
+summary: "Ja – met de juiste verwarmer, hoogte en vrije afstanden wordt je paviljoen een plek waar je nog lang na zonsondergang van geniet. Waarom elektrisch infrarood bij de meeste paviljoens past, wat een gasverwarmer nodig heeft, montagehoogtes en gewichten per Bromic-model, de spanning en de bediening die je meeplant."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Kan ik veilig een terrasverwarmer onder mijn paviljoen of overkapping zetten?"
-meta_description: "Ja, met de juiste verwarmer en vrije afstanden. Elektrisch infrarood past bij de meeste paviljoens; gas vraagt open zijden. Hoogtes, gewichten, spanning en bediening per model."
+meta_description: "Een terrasverwarmer kan onder een paviljoen, met de juiste verwarmer en afstanden. Elektrisch past meestal; gas vraagt open zijden. Hoogtes per model."
 cta: {label: "Plan een ontwerpgesprek", asset: A07}
 hero: w-gazebo-bromic
 owner_review: marketing
@@ -20,7 +20,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [RES-PP-KB1, RES-PP-01, RES-CO-KB2, ARC-BY-KB1]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: nl
 translation_of: BLOG-23
 translation_status: machine-draft
@@ -83,12 +83,11 @@ sources:
     supports: "Keep anything that can burn at least 3 feet from heating equipment"
     verified: false
 ---
+Ja, met de juiste verwarmer en vrije afstanden blijft je paviljoen tot diep in de avond warm en uitnodigend. Een elektrische infraroodverwarmer op het frame is de eenvoudigste keuze: hij werkt zonder vlam en zonder uitlaatgassen, en stuurt de warmte rechtstreeks naar de plek waar je zit. Een gasverwarmer kan werken onder een paviljoen met open zijden, op de minimale hoogte van Bromic en met de vrije afstand tot het dak uit de handleiding. Controleer eerst of de constructie de verwarmer kan dragen, en laat hem installeren door een gekwalificeerde vakman.[^s1][^s7]
 
-Ja, met de juiste verwarmer en vrije afstanden. Een elektrische infraroodverwarmer op het frame van het paviljoen is de eenvoudigste keuze: geen vlam, geen uitlaatgassen, en de warmte komt waar mensen zitten. Een gasverwarmer kan werken onder een paviljoen met open zijden, op de minimale hoogte van Bromic en met de vrije afstand tot het dak uit de handleiding. Controleer eerst of de constructie de verwarmer kan dragen, en laat hem installeren door een gekwalificeerde vakman.[^s1][^s7]
+![Witte lamellenpergola boven een loungehoek op het terras, met Tungsten Electric-verwarmers op de balken boven de zitplekken](img:w-gazebo-bromic)
 
-![Witte lamellenpergola boven een loungehoek op het terras, met Tungsten Electric-verwarmers op de balken](img:w-gazebo-bromic)
-
-## Elektrisch of gas onder een paviljoen?
+## Elektrisch of gas: de juiste keuze voor je paviljoen
 
 | | Elektrisch infrarood | Infrarood op gas |
 |---|---|---|
@@ -98,19 +97,19 @@ Ja, met de juiste verwarmer en vrije afstanden. Een elektrische infraroodverwarm
 | Aansluiting | Een eigen groep, aangelegd door een elektrotechnisch installateur | Een gasleiding of propaanfles, aangesloten door een gasinstallateur |
 | Voorschriften | NEN 1010 in Nederland (VS: ANSI/NFPA 70[^s1]) | NEN 1078 in Nederland (VS: ANSI Z223.1/NFPA 54[^s1]) |
 
-Onder een gedeeltelijk dak noemt de Planning Guide van Bromic een bonus: de overkapping houdt een "warmtewolk" vast die extra warmte geeft.[^s1] Voor gas beschouwt dezelfde gids een ruimte pas als buitenruimte als minstens 30% van de omtrek permanent open is.[^s1] Meer over daken en overkappingen: [verwarmers onder een overdekt terras](item:RES-PP-KB1).
+Een gedeeltelijk dak geeft een welkome bonus, zoals onze Planning Guide beschrijft: de overkapping houdt een "warmtewolk" vast die de warmte eronder versterkt.[^s1] Voor gas beschouwt dezelfde gids een ruimte pas als buitenruimte als minstens 30% van de omtrek permanent open is.[^s1] Meer over daken en overkappingen lees je in [verwarmers onder een overdekt terras](item:RES-PP-KB1).
 
-## Wat controleer je voordat je een verwarmer monteert?
+## Voordat je een verwarmer monteert
 
-1. **De constructie.** Kunnen de balken de verwarmer en de beugel dragen? Platinum Electric weegt 7,7–15 kg en Eclipse Electric 13,6 kg.[^s3][^s4] Is het frame licht of het dak van doek, dan is een vrijstaande verwarmer misschien de betere keuze.[^s7]
-2. **De hoogte.** De minimumhoogtes van Bromic zijn 1,83 m aan de wand en 2,44 m aan het plafond voor Tungsten en Platinum Electric.[^s2][^s3] Veel tuinpaviljoens zijn bij de balk lager dan 2,4 m: meet dus voordat je koopt.
+1. **De constructie.** Zorg dat de balken de verwarmer en de beugel kunnen dragen. Platinum Electric weegt 7,7–15 kg en Eclipse Electric 13,6 kg.[^s3][^s4] Is het frame licht of het dak van doek, dan past een vrijstaande verwarmer misschien beter bij je paviljoen.[^s7]
+2. **De hoogte.** De minimumhoogtes van Bromic zijn 1,83 m aan de wand en 2,44 m aan het plafond voor Tungsten en Platinum Electric.[^s2][^s3] Veel tuinpaviljoens zijn bij de balk lager dan 2,4 m, dus meet na voordat je kiest.
 3. **Het dak erboven.** Houd de vrije afstand uit de handleiding aan tussen de verwarmer en hout, dakshingles of doek. [[VERIFY: vrije afstanden boven en opzij tot brandbare plafonds per model, uit de handleidingen — productteam]]
-4. **Brandbare spullen eromheen.** Houd gordijnen, kussens, planten en lichtsnoeren minstens 0,9 m vrij, of verder als de handleiding dat zegt.[^s8]
-5. **De aansluiting en de bediening.** Bepaal waar de kabel of gasleiding en de regelaar komen voordat het paviljoen af is.
+4. **De inrichting eromheen.** Houd gordijnen, kussens, planten en lichtsnoeren minstens 0,9 m vrij, of verder als de handleiding dat zegt.[^s8]
+5. **De aansluiting en de bediening.** Bepaal waar de kabel of gasleiding en de regelaar komen voordat het paviljoen af is, zodat alles netjes uit het zicht blijft.
 
 <div class="diagram">Diagram: een paviljoen in doorsnede, verwarmer op de balk op 2,44 m of hoger, de vrije afstand tot het dak uit de handleiding aangegeven, een vrije zone van 0,9 m, en de regelaar op een paal bij de ingang</div>
 
-## Welke Bromic-verwarmers passen bij een paviljoen?
+## Bromic-verwarmers die bij een paviljoen passen
 
 | Verwarmer | Vermogen en verwarmd oppervlak | Spanning / energiebron | Minimale hoogte | Bediening |
 |---|---|---|---|---|
@@ -119,32 +118,32 @@ Onder een gedeeltelijk dak noemt de Planning Guide van Bromic een bonus: de over
 | Eclipse Smart-Heat Electric | 2900 W; ca. 11 m² | 208–240 V | 2,44 m | Affinity Eclipse Controller of Eclipse Dimmer Controller[^s4] |
 | Platinum Gas | 6,9 of 11,7 kW; ca. 15 of 20 m² | Aardgas of propaan | 2,44 m; hittescherm als er minder dan ca. 1.100 mm ruimte boven is | Affinity On/Off, of wandschakelaar[^s5] |
 | Eclipse Smart-Heat Freestanding | 2900 W; ca. 11 m² | 220–240 V | 2,0 m vrije hoogte | Eclipse Dimmer Controller en afstandsbediening meegeleverd[^s4] |
-| Tungsten Smart-Heat Freestanding | Ca. 20 m² | Propaan of aardgas | Alleen bij open zijden | Handbediening op het toestel [[VERIFY: Tungsten Freestanding control method — productteam]] |
+| Tungsten Smart-Heat Freestanding | Ca. 20 m² | Propaan of aardgas | Alleen bij open zijden | Handbediening op het toestel [[VERIFY: bedieningswijze van de Tungsten Freestanding — productteam]] |
 
 [[VERIFY: welke van deze modellen en uitvoeringen (gas, propaan) in Nederland leverbaar zijn — Bromic Benelux distributor]]
 
-Tungsten Electric heeft beschermingsgraad IPX4: beschermd tegen spatwater uit elke richting.[^s2] Monteer toch elke verwarmer onder het dak van het paviljoen, niet op een onbeschutte paal. Zie [wat IP-classificaties betekenen](item:BLOG-19).
+Tungsten Electric heeft beschermingsgraad IPX4 en is beschermd tegen spatwater uit elke richting.[^s2] Toch hangt elke verwarmer het best onder het dak van het paviljoen, waar hij beschut blijft tegen het weer. Lees meer over [wat IP-classificaties betekenen](item:BLOG-19).
 
-**Bediening.** Elke gemonteerde verwarmer heeft zijn eigen regelaar nodig, die apart wordt verkocht. De Smart-Heat app voegt zones, tijdschema's en timers toe; wifi- en app-functies vereisen compatibele Affinity-bediening, die apart wordt verkocht.[^s6]
+**Bediening.** Elke gemonteerde verwarmer hoort bij zijn eigen regelaar, die apart wordt verkocht. De Smart-Heat app voegt zones, tijdschema's en timers toe, zodat de warmte aangaat wanneer je gasten aankomen; wifi- en app-functies vereisen compatibele Affinity-bediening, die apart wordt verkocht.[^s6]
 
-Voorschriften bepalen waar verwarmers mogen hangen, de ventilatie, de aansluiting en de afstand tot brandbare materialen.[^s1] Laat de installatie controleren door je gemeente en een gekwalificeerde elektrotechnisch installateur of gasinstallateur. [[VERIFY: current Dutch codes for outdoor heater installations — Bromic Benelux distributor]]
+Voorschriften bepalen waar verwarmers mogen hangen, de ventilatie, de aansluiting en de afstand tot brandbare materialen.[^s1] Laat de installatie controleren door je gemeente en een gekwalificeerde elektrotechnisch installateur of gasinstallateur. [[VERIFY: huidige Nederlandse voorschriften voor de installatie van buitenverwarmers — Bromic Benelux distributor]]
 
 ## Veelgestelde vragen
 
 ### Kan ik een terrasverwarmer op gas onder een paviljoen gebruiken?
 
-Ja, als het paviljoen open blijft voor frisse lucht, de verwarmer op of boven zijn minimale hoogte hangt en de vrije afstand tot het dak uit de handleiding wordt aangehouden.[^s1][^s5] Onder een dicht of laag dak is elektrisch eenvoudiger.
+Ja, zolang het paviljoen open blijft voor frisse lucht, de verwarmer op of boven zijn minimale hoogte hangt en de vrije afstand tot het dak uit de handleiding wordt aangehouden.[^s1][^s5] Onder een dicht of laag dak is elektrisch de eenvoudigere keuze.
 
 ### Is het veilig om een verwarmer onder een houten paviljoen te hangen?
 
-Ja, met een elektrische infraroodverwarmer die volgens de vrije afstanden uit de handleiding is gemonteerd en door een installateur is aangesloten. Hout is brandbaar, dus de afstand tot het dak is het belangrijkst.[^s1]
+Ja, met een elektrische infraroodverwarmer die volgens de vrije afstanden uit de handleiding is gemonteerd en door een installateur is aangesloten. Hout is brandbaar, dus de afstand tot het dak telt het zwaarst.[^s1]
 
 ### Kan ik een verwarmer in het paviljoen de hele nacht aan laten staan?
 
-Nee. Zet hem uit als je naar binnen gaat; met compatibele Affinity-bediening kan een tijdschema in de app dat voor je doen.[^s6]
+Nee. Zet hem uit als je naar binnen gaat, of laat een tijdschema in de app dat voor je doen met compatibele Affinity-bediening.[^s6]
 
 ### Hoeveel verwarmers heeft een paviljoen nodig?
 
-Dat hangt af van het oppervlak en de hoogte. Een paviljoen van 3 × 3,7 m is ongeveer 11 m², grofweg één Eclipse of één Tungsten Electric van 4000 W.[^s4][^s2] Hoe open de plek ligt en de wind veranderen het aantal.
+Dat hangt af van het oppervlak en de hoogte. Een paviljoen van 3 × 3,7 m is ongeveer 11 m², grofweg één Eclipse of één Tungsten Electric van 4000 W.[^s4][^s2] Hoe open de plek ligt en de wind kunnen het aantal veranderen.
 
-Wil je een indeling voor je paviljoen? Plan een gratis ontwerpgesprek.
+Wil je een indeling op maat van je paviljoen? Plan een gratis ontwerpgesprek met ons team.
