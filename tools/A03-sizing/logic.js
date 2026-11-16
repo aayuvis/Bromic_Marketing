@@ -25,13 +25,64 @@ export function shapeGeometry(i) {
   if (i.shape === 'l') parts = [{ x: 0, y: 0, w: aW, h: W + aL }, { x: aW, y: 0, w: L - aW, h: W }];
   if (i.shape === 'u') parts = [{ x: 0, y: 0, w: aW, h: W + aL }, { x: aW, y: 0, w: L - 2 * aW, h: W }, { x: L - aW, y: 0, w: aW, h: W + aL }];
   parts = parts.filter((r) => r.w > 0 && r.h > 0);
-  return { rects, parts, circle: null, bbox: { w: L, h: W + (i.shape === 'l' || i.shape === 'u' ? aL : 0) }, area };
+  return { shape: i.shape, rects, parts, circle: null, bbox: { w: L, h: W + (i.shape === 'l' || i.shape === 'u' ? aL : 0) }, area };
 }
 const round1 = (n) => Math.round(n * 10) / 10;
 
-// Spread n heaters over the space: each rectangle gets a share by area, then a grid that follows its proportions.
-// A circle gets a ring (and a centre heater from seven up). Positions are in feet, for the plan drawing only.
-export function placeHeaters(geom, n) {
+// Heaters sit in even, symmetric layouts (owner, 16 Nov 2026: "why would we install heaters that are not symmetric").
+//   recessed / ceiling: an exact grid of rows × columns, every row full, cells no longer than 2.5:1; when the count from the
+//   area cannot sit that way, it is rounded up (at most +3) and the result says so.
+//   wall (rectangles): matched pairs on the two long walls, facing in. A U's two arms always carry the same number.
+//   A circle: an even ring (and a centre heater from seven up).
+export const MOUNTS = ['recessed', 'ceiling', 'wall'];
+const ASPECT_OK = Math.log(2.5);
+function bestGrid(w, h, k) {
+  let best = null;
+  for (let r = 1; r <= k; r++) {
+    if (k % r) continue;
+    const c = k / r, dev = Math.abs(Math.log((w / c) / (h / r)));
+    if (!best || dev < best.dev - 1e-9) best = { r, c, dev };
+  }
+  return best;
+}
+function gridCount(w, h, n) {
+  if (n <= 2) return n;   // one or two heaters always sit on the centre line
+  for (let k = n; k <= n + 3; k++) if (bestGrid(w, h, k).dev <= ASPECT_OK) return k;
+  let b = n, bd = Infinity;
+  for (let k = n; k <= n + 3; k++) { const d = bestGrid(w, h, k).dev; if (d < bd - 1e-9) { bd = d; b = k; } }
+  return b;
+}
+function gridPts(q, k) {
+  const g = bestGrid(q.w, q.h, k), pts = [];
+  for (let i = 0; i < g.r; i++) for (let j = 0; j < g.c; j++) pts.push({ x: round1(q.x + q.w * (j + 0.5) / g.c), y: round1(q.y + q.h * (i + 0.5) / g.r) });
+  return pts;
+}
+function partCounts(parts, n, shape) {
+  if (parts.length === 1) return [gridCount(parts[0].w, parts[0].h, n)];
+  const big = parts.reduce((bi, q, i) => (q.w * q.h > parts[bi].w * parts[bi].h ? i : bi), 0);
+  let counts;
+  if (n < parts.length) {
+    counts = parts.map(() => 0);
+    if (shape === 'u') { if (n === 1) counts[1] = 1; else { counts[0] = 1; counts[2] = 1; } } else counts[big] = n;
+  } else {
+    const total = parts.reduce((a, q) => a + q.w * q.h, 0);
+    counts = parts.map((q) => Math.max(1, Math.round((q.w * q.h) / total * n)));
+    if (shape === 'u') counts[0] = counts[2] = Math.max(counts[0], counts[2]);
+    while (counts.reduce((a, b) => a + b, 0) < n) { if (shape === 'u' && big !== 1) { counts[0]++; counts[2]++; } else counts[big]++; }
+  }
+  counts = counts.map((c, i) => (c ? gridCount(parts[i].w, parts[i].h, c) : 0));
+  if (shape === 'u') counts[0] = counts[2] = Math.max(counts[0], counts[2]);
+  return counts;
+}
+function wallPts(q, n) {
+  const k = n === 1 ? 1 : n + (n % 2), inset = Math.min(0.75, q.h / 6);
+  if (k === 1) return [{ x: round1(q.x + q.w / 2), y: round1(q.y + inset) }];
+  const m = k / 2, pts = [];
+  for (const y of [q.y + inset, q.y + q.h - inset]) for (let j = 0; j < m; j++) pts.push({ x: round1(q.x + q.w * (j + 0.5) / m), y: round1(y), wall: true });
+  return pts;
+}
+// Where n heaters (from the area) go; returns at least n points, in a symmetric layout.
+export function placeHeaters(geom, n, mount = 'recessed') {
   if (!n || n < 1) return [];
   if (geom.circle) {
     const { cx, cy, r } = geom.circle;
@@ -41,30 +92,17 @@ export function placeHeaters(geom, n) {
     return centre ? [{ x: cx, y: cy }, ...pts] : pts;
   }
   const parts = geom.parts || geom.rects;
-  const total = parts.reduce((a, r) => a + r.w * r.h, 0);
-  const share = parts.map((r) => (r.w * r.h) / total * n);
-  // with enough heaters, every part gets at least one
-  const counts = share.map((x) => (n >= parts.length ? Math.max(1, Math.floor(x)) : Math.floor(x)));
-  while (counts.reduce((a, b) => a + b, 0) > n) { const i = counts.indexOf(Math.max(...counts)); counts[i]--; }
-  let left = n - counts.reduce((a, b) => a + b, 0);
-  share.map((x, i) => [x - Math.floor(x), i]).sort((a, b) => b[0] - a[0]).forEach(([, i]) => { if (left > 0) { counts[i]++; left--; } });
-  const pts = [];
-  parts.forEach((r, i) => {
-    const k = counts[i]; if (!k) return;
-    const cols = Math.max(1, Math.min(k, Math.round(Math.sqrt(k * r.w / r.h)))); const rows = Math.ceil(k / cols);
-    for (let j = 0; j < k; j++) {
-      const row = Math.floor(j / cols); const inRow = row === rows - 1 ? k - cols * (rows - 1) : cols; const col = j % cols;
-      pts.push({ x: round1(r.x + r.w * (col + 0.5) / inRow), y: round1(r.y + r.h * (row + 0.5) / rows) });
-    }
-  });
-  return pts;
+  if (mount === 'wall' && parts.length === 1) return wallPts(parts[0], n);
+  const counts = partCounts(parts, n, geom.shape);
+  return parts.flatMap((q, i) => (counts[i] ? gridPts(q, counts[i]) : []));
 }
+export const layoutCount = (geom, n, mount) => placeHeaters(geom, n, mount).length;
 
 export function defaults(cfg) {
   return {
     shape: 'rect', length_ft: 20, width_ft: 12, arm_l_ft: 10, arm_w_ft: 8, diameter_ft: 16, family: 'any',
     enclosure: 'partial', open_30: true, climate: 'cool',
-    mount_height_ft: val(cfg.mounting.default_height_ft), fuel: 'any', style: 'any', zones: 1,
+    mount: 'recessed', mount_height_ft: val(cfg.mounting.default_height_ft), fuel: 'any', style: 'any', zones: 1,
   };
 }
 
@@ -83,6 +121,7 @@ export function normalise(raw, cfg) {
     enclosure: ENCLOSURES.includes(raw.enclosure) ? raw.enclosure : 'partial',
     open_30: raw.open_30 === true || raw.open_30 === 'yes',
     climate: CLIMATES.includes(raw.climate) ? raw.climate : 'cool',
+    mount: MOUNTS.includes(raw.mount) ? raw.mount : 'recessed',
     mount_height_ft: num('mount_height_ft'),
     fuel: FUELS.includes(raw.fuel) ? raw.fuel : 'any',
     style: STYLES.includes(raw.style) ? raw.style : 'any',
@@ -134,6 +173,14 @@ export function controlsBundle(controlsKey, count, zonesWanted, cfg, watts = nul
     integration_note: cfg.controls.integration_note,
     capacity_verified: !!perController,
   };
+}
+
+// How this heater would be mounted for the chosen mount: recessed by default; a heater that cannot recess goes on the ceiling.
+export function mountFor(p, input) {
+  if (p.style === 'freestanding') return 'freestanding';
+  const m = p.mounts || ['ceiling', 'wall'];
+  if (m.includes('pole')) return 'pole';
+  return m.includes(input.mount) ? input.mount : 'ceiling';
 }
 
 function matches(p, input) {
@@ -204,6 +251,12 @@ export function size(rawInput, cfg) {
       opt.load_kw = w ? Math.round(opt.count * w / 100) / 10 : null;
       opt.btu_each = val(p.btu) ?? null;
     }
+    opt.mount = mountFor(p, input);
+    opt.mount_matches = opt.mount === input.mount;   // the chosen mount (recessed by default) leads the ranking
+    if (opt.count != null) {
+      const lc = layoutCount(geom, opt.count, opt.mount);
+      if (lc > opt.count) { opt.count_area = opt.count; opt.count = lc; const w = val(p.watts); opt.load_kw = w ? Math.round(lc * w / 100) / 10 : null; }
+    }
     const n = opt.count ?? (opt.count_range ? opt.count_range[1] : 1);
     opt.controls = controlsBundle(p.controls, n, input.zones, cfg, val(p.watts) ?? null);
     options.push(opt);
@@ -211,6 +264,7 @@ export function size(rawInput, cfg) {
 
   const rank = { current: 0, 'coming-soon': 1, unverified: 2 };
   options.sort((a, b) => rank[a.status] - rank[b.status]
+    || (b.mount_matches - a.mount_matches)
     || (a.count ?? 1e9) - (b.count ?? 1e9)
     || (a.coverage_effective ?? 0) - (b.coverage_effective ?? 0));
   // Same count: the smaller heater first, so the lead option is the closest fit (e.g. the lowest Platinum wattage
@@ -219,7 +273,7 @@ export function size(rawInput, cfg) {
 
   return {
     ok: true, input, area, geom, outdoor: true, factors: { ...factors, height: hf }, options, recommended, warnings,
-    placement: recommended ? placeHeaters(geom, recommended.count) : [],
+    placement: recommended ? placeHeaters(geom, recommended.count, recommended.mount) : [],
     radius_ft: recommended && recommended.coverage_effective ? Math.round(Math.sqrt(recommended.coverage_effective / Math.PI) * 10) / 10 : null,
     message: recommended ? null : 'No current model with confirmed coverage matches this preference yet. The Bromic design team will size it for you.',
   };

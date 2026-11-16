@@ -19,8 +19,8 @@ test('1. 20 × 12 ft, partially covered, mild, any heater: counts per model, clo
   assert.equal(byId['eclipse-electric'].count, 2);
   assert.equal(byId['platinum-electric-3400'].count, 3);
   assert.equal(byId['platinum-electric-2300'].count, 4);
-  // Ties at 2: the closest fit (smallest heater) leads.
-  assert.equal(r.recommended.id, 'eclipse-electric');
+  // Recessed is the default mount, so a recessable heater leads; ties at 2: the closest fit (smallest heater) leads.
+  assert.equal(r.recommended.id, 'platinum-electric-4500');
   assert.equal(byId['platinum-electric-4500'].load_kw, 9);
 });
 
@@ -88,7 +88,13 @@ test('6. Shapes: areas, and placement puts every heater inside the space (every 
     const geom = g({ shape, length_ft: 28, arm_w_ft: 9 });
     for (let n = 1; n <= 9; n++) {
       const pts = placeHeaters(geom, n);
-      assert.equal(pts.length, n, `${shape} ${n}`);
+      assert.ok(pts.length >= n && pts.length <= n + 3, `${shape} ${n}: ${pts.length}`);
+      if (n <= 2) assert.equal(pts.length, n, `${shape} ${n}: one or two heaters are never rounded up`);
+      // symmetric: every heater has a mirror image across the space's centre line (an L has no mirror axis)
+      if (shape !== 'l') {
+        const W = geom.circle ? geom.circle.r * 2 : geom.bbox.w;
+        for (const p of pts) assert.ok(pts.some((q) => Math.abs(q.x - (W - p.x)) < 0.15 && Math.abs(q.y - p.y) < 0.15), `${shape} ${n}: heater at ${p.x},${p.y} has no mirror`);
+      }
       for (const p of pts) {
         const inside = geom.circle ? Math.hypot(p.x - geom.circle.cx, p.y - geom.circle.cy) <= geom.circle.r
           : geom.rects.some((q) => p.x >= q.x && p.x <= q.x + q.w && p.y >= q.y && p.y <= q.y + q.h);
@@ -98,6 +104,31 @@ test('6. Shapes: areas, and placement puts every heater inside the space (every 
   }
   const u = placeHeaters(g({ shape: 'u', length_ft: 28, arm_w_ft: 9 }), 3);
   assert.ok(u.some((p) => p.x < 9) && u.some((p) => p.x > 19), 'both arms of the U get a heater');
+});
+
+test('8. Rows stay even: 3 heaters in 20 × 12 ft sit in one row, 7 in 40 × 20 ft become 2 rows of 4, wall mount pairs', () => {
+  const g = shapeGeometry({ shape: 'rect', length_ft: 20, width_ft: 12 });
+  const three = placeHeaters(g, 3);
+  assert.equal(new Set(three.map((p) => p.y)).size, 1, 'one row');
+  const big = placeHeaters(shapeGeometry({ shape: 'rect', length_ft: 40, width_ft: 20 }), 7);
+  assert.equal(big.length, 8);
+  const ys = [...new Set(big.map((p) => p.y))]; assert.equal(ys.length, 2);
+  assert.equal(big.filter((p) => p.y === ys[0]).length, 4);
+  const wall = placeHeaters(g, 3, 'wall');
+  assert.equal(wall.length, 4); assert.equal(new Set(wall.map((p) => p.y)).size, 2);
+});
+
+test('9. Recessed by default, Affinity Dimmer for electric, On/Off for gas', () => {
+  const r = size(base, cfg);
+  assert.equal(r.input.mount, 'recessed');
+  assert.equal(r.recommended.mount, 'recessed');
+  assert.match(r.recommended.family, /platinum-electric/);
+  assert.ok(r.recommended.controls.items.some((i) => /Dimmer/.test(i.name)));
+  const wall = size({ ...base, mount: 'wall' }, cfg);
+  assert.equal(wall.recommended.mount, 'wall');
+  const gas = size({ ...base, fuel: 'gas', style: 'built-in' }, cfg);
+  assert.equal(gas.recommended.mount, 'ceiling', 'gas does not recess');
+  assert.ok(gas.recommended.controls.items.every((i) => !/Dimmer/.test(i.name)));
 });
 
 test('7. A chosen heater family sizes only that family, and the result carries the plan', () => {

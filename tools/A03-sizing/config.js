@@ -220,7 +220,12 @@ export default {
         "verified": false,
         "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
         "owner": "Product team"
-      }
+      },
+      "mounts": [
+        "recessed",
+        "ceiling",
+        "wall"
+      ]
     },
     {
       "id": "platinum-electric-3400",
@@ -245,7 +250,12 @@ export default {
         "verified": false,
         "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
         "owner": "Product team"
-      }
+      },
+      "mounts": [
+        "recessed",
+        "ceiling",
+        "wall"
+      ]
     },
     {
       "id": "platinum-electric-4500",
@@ -270,7 +280,12 @@ export default {
         "verified": false,
         "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
         "owner": "Product team"
-      }
+      },
+      "mounts": [
+        "recessed",
+        "ceiling",
+        "wall"
+      ]
     },
     {
       "id": "eclipse-electric",
@@ -295,7 +310,10 @@ export default {
         "verified": false,
         "verify": "[[VERIFY: Eclipse Electric wattage — Product team]]",
         "owner": "Product team"
-      }
+      },
+      "mounts": [
+        "pole"
+      ]
     },
     {
       "id": "eclipse-freestanding",
@@ -365,7 +383,12 @@ export default {
         "verified": false,
         "verify": "[[VERIFY: launch date and per-model coverage — Product team]]",
         "owner": "Product team"
-      }
+      },
+      "mounts": [
+        "recessed",
+        "ceiling",
+        "wall"
+      ]
     },
     {
       "id": "tungsten-electric-select",
@@ -385,7 +408,12 @@ export default {
         "verified": false,
         "verify": "[[VERIFY: launch date and per-model coverage — Product team]]",
         "owner": "Product team"
-      }
+      },
+      "mounts": [
+        "recessed",
+        "ceiling",
+        "wall"
+      ]
     },
     {
       "id": "platinum-gas-s",
@@ -402,7 +430,11 @@ export default {
         "verified": false,
         "verify": "[[VERIFY: Platinum Gas coverage per model — Product team]]",
         "owner": "Product team"
-      }
+      },
+      "mounts": [
+        "ceiling",
+        "wall"
+      ]
     },
     {
       "id": "platinum-gas-l",
@@ -419,7 +451,11 @@ export default {
         "verified": false,
         "verify": "[[VERIFY: Platinum Gas coverage per model — Product team]]",
         "owner": "Product team"
-      }
+      },
+      "mounts": [
+        "ceiling",
+        "wall"
+      ]
     },
     {
       "id": "tungsten-gas-builtin-s",
@@ -436,7 +472,11 @@ export default {
         "verified": false,
         "verify": "[[VERIFY: Tungsten Gas built-in coverage and BTU — Product team]]",
         "owner": "Product team"
-      }
+      },
+      "mounts": [
+        "ceiling",
+        "wall"
+      ]
     },
     {
       "id": "tungsten-gas-builtin-l",
@@ -453,7 +493,11 @@ export default {
         "verified": false,
         "verify": "[[VERIFY: Tungsten Gas built-in coverage and BTU — Product team]]",
         "owner": "Product team"
-      }
+      },
+      "mounts": [
+        "ceiling",
+        "wall"
+      ]
     },
     {
       "id": "tungsten-electric-2000",
@@ -478,7 +522,11 @@ export default {
         "verified": false,
         "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
         "owner": "Product team"
-      }
+      },
+      "mounts": [
+        "ceiling",
+        "wall"
+      ]
     },
     {
       "id": "tungsten-electric-3000",
@@ -503,7 +551,11 @@ export default {
         "verified": false,
         "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
         "owner": "Product team"
-      }
+      },
+      "mounts": [
+        "ceiling",
+        "wall"
+      ]
     },
     {
       "id": "tungsten-electric-4000",
@@ -528,7 +580,11 @@ export default {
         "verified": false,
         "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
         "owner": "Product team"
-      }
+      },
+      "mounts": [
+        "ceiling",
+        "wall"
+      ]
     },
     {
       "id": "tungsten-electric-6000",
@@ -553,7 +609,11 @@ export default {
         "verified": false,
         "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
         "owner": "Product team"
-      }
+      },
+      "mounts": [
+        "ceiling",
+        "wall"
+      ]
     },
     {
       "id": "cobalt-4000",
@@ -578,7 +638,11 @@ export default {
         "verified": false,
         "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
         "owner": "Product team"
-      }
+      },
+      "mounts": [
+        "ceiling",
+        "wall"
+      ]
     },
     {
       "id": "cobalt-6000",
@@ -603,14 +667,18 @@ export default {
         "verified": false,
         "verify": "[[VERIFY: sign-off of product-facts.json — Product team]]",
         "owner": "Product team"
-      }
+      },
+      "mounts": [
+        "ceiling",
+        "wall"
+      ]
     }
   ],
   "controls": {
     "affinity": {
       "items": [
         {
-          "name": "Affinity Smart-Heat Dimmer or On/Off controller channel (controllers come in 1, 2 or 5 channels)",
+          "name": "Affinity Smart-Heat Dimmer controller channel (controllers come in 1, 2 or 5 channels; an On/Off controller is available where dimming is not wanted)",
           "per": "zone"
         },
         {
@@ -637,12 +705,13 @@ export default {
         "verified": false,
         "verify": "[[VERIFY: Affinity capacity per channel at 208 V and 240 V — Product team]]",
         "owner": "Product team"
-      }
+      },
+      "default_controller": "Affinity Smart-Heat Dimmer (owner, 16 Nov 2026: the default for every electric heater; gas runs on On/Off)"
     },
     "eclipse": {
       "items": [
         {
-          "name": "Affinity Smart-Heat Eclipse controller channel (1 or 5 channels) or the Eclipse Dimmer Controller",
+          "name": "Affinity Smart-Heat Eclipse Dimmer Controller channel (1 or 5 channels; heat and rim lighting dimmed together)",
           "per": "zone"
         },
         {
@@ -827,5 +896,29 @@ export default {
       "verified": true,
       "owner": "Leadership"
     }
+  },
+  "mounts": {
+    "_readme": "How a built-in heater is mounted (owner, 16 Nov 2026: recessed by default unless wall or ceiling is chosen). Which models recess: data/product-facts.json (Platinum Electric: recessed, ceiling, wall; Tungsten Coastal and Select: recessed low-clearance). A model that cannot recess is shown on the ceiling.",
+    "recessed": {
+      "label": "Recessed",
+      "note": "Flush in the ceiling with the Bromic recess kit, sold separately."
+    },
+    "ceiling": {
+      "label": "Ceiling mount",
+      "note": "On the ceiling or a beam, on its bracket or a suspension pole."
+    },
+    "wall": {
+      "label": "Wall mount",
+      "note": "In matched pairs on facing walls, angled towards the seating."
+    },
+    "pole": {
+      "label": "Pendant on a pole",
+      "note": "Hung from the ceiling on a straight, double or curved pole."
+    },
+    "freestanding": {
+      "label": "Freestanding",
+      "note": "Placed among the seating; moves with the furniture."
+    },
+    "verify": "[[VERIFY: which Tungsten Electric and Cobalt models recess, and the recess kit per model — Product team]]"
   }
 };
