@@ -126,7 +126,7 @@
       'Overview': 'Übersicht', 'Library': 'Bibliothek', 'Blog': 'Blog', 'Downloads': 'Downloads', 'Journey': 'Customer Journey', 'Backlog': 'Backlog', 'Tools': 'Tools',
       'Case studies': 'Referenzen', 'Images': 'Bilder', 'Sources': 'Quellen', 'bromic.com': 'bromic.com', 'Review': 'Review',
       'Search content, keywords, sources': 'Inhalte, Stichwörter, Quellen suchen',
-      'Bromic Content Hub': 'Bromic Content Hub', 'Designed From The Start, Not Added Later.': 'Von Anfang an geplant, nicht nachträglich ergänzt.',
+      'Bromic Content Hub': 'Bromic Content Hub', 'Extend The Moment': 'Den Moment verlängern',
       'HERO': 'Alle Bromic-Inhalte, die Terrassenheizung früher ins Projekt bringen: in die Planung des Architekten, die Vorverkabelung des Bauunternehmers und das erste Budget des Bauherrn. Finden Sie sie nach Zielgruppe, nach Phase der Entscheidung oder nach Bedarf.',
       'Start': 'Start', 'Assets': 'Inhalte', 'To do': 'Aufgaben', 'Find something to share': 'Inhalte zum Teilen finden', 'Approve and chase': 'Freigeben und nachfassen', 'Get a case study': 'Fallstudie finden', 'Find an image': 'Bild finden', 'This week': 'Diese Woche', 'Ready For Your Review': 'Bereit zur Prüfung', 'ready to read and approve': 'bereit zum Lesen und Freigeben', 'waiting on a fact or a call': 'warten auf eine Angabe oder einen Anruf', 'approved, ready for 454 Creative': 'freigegeben, bereit für 454 Creative', 'PDFs ready to share': 'PDFs zum Teilen',
       'Who it is for': 'Für wen', 'Where they are': 'Wo sie stehen', 'What you need': 'Was Sie brauchen',
@@ -163,7 +163,7 @@
       'Overview': 'Overzicht', 'Library': 'Bibliotheek', 'Blog': 'Blog', 'Downloads': 'Downloads', 'Journey': 'Klantreis', 'Backlog': 'Backlog', 'Tools': 'Tools',
       'Case studies': 'Referenties', 'Images': 'Beelden', 'Sources': 'Bronnen', 'bromic.com': 'bromic.com', 'Review': 'Review',
       'Search content, keywords, sources': 'Zoek content, trefwoorden, bronnen',
-      'Bromic Content Hub': 'Bromic Content Hub', 'Designed From The Start, Not Added Later.': 'Vanaf het begin ontworpen, niet achteraf toegevoegd.',
+      'Bromic Content Hub': 'Bromic Content Hub', 'Extend The Moment': 'Verleng het moment',
       'HERO': 'Alle Bromic-content die buitenverwarming eerder in het project brengt: in de tekening van de architect, de voorbekabeling van de aannemer en het eerste budget van de huiseigenaar. Zoek op doelgroep, op fase van de beslissing of op wat je nodig hebt.',
       'Start': 'Start', 'Assets': 'Content', 'To do': 'Te doen', 'Find something to share': 'Iets vinden om te delen', 'Approve and chase': 'Goedkeuren en navragen', 'Get a case study': 'Een case study vinden', 'Find an image': 'Een beeld vinden', 'This week': 'Deze week', 'Ready For Your Review': 'Klaar voor uw beoordeling', 'ready to read and approve': 'klaar om te lezen en goed te keuren', 'waiting on a fact or a call': 'wacht op een gegeven of een telefoontje', 'approved, ready for 454 Creative': 'goedgekeurd, klaar voor 454 Creative', 'PDFs ready to share': "pdf's klaar om te delen",
       'Who it is for': 'Voor wie', 'Where they are': 'Waar ze staan', 'What you need': 'Wat je nodig hebt',
@@ -327,7 +327,7 @@
     return `
     <section class="hero fp-hero">${img('l-022-201', '', false)}
       <div class="hero-in"><span class="flame-rule"></span><span class="label">Bromic Content Hub · ${esc(STR(R().name))}</span>
-        <h1>${esc(STR('Designed From The Start, Not Added Later.'))}</h1>
+        <h1>${esc(STR('Extend The Moment'))}</h1>
         <p>${lang === 'en' ? 'Every Bromic article, guide, calculator and case study in one place. Find what you need, see what it needs next, and share it with confidence.' : esc(STR('HERO'))}</p>
         <nav class="fp-ways" aria-label="What do you want to do?">
           <a href="#/library"><span>01</span>${esc(STR('Find something to share'))}</a>

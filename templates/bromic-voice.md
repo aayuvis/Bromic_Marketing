@@ -53,6 +53,7 @@ list of facts told to a colleague. Bromic writes to a person about an evening ou
 - **Let sentences breathe.** Mix one short display line with sentences of 15–30 words. Not a string of five-word statements.
 - **Speak to the reader.** "You" and "your space"; "we" for Bromic. Never "the reader", "content", "asset", "piece" or "lead" in reader-facing copy.
 - **Headings are invitations, not labels:** "Designed Around The Way You Entertain", not "Placement rules".
+- **Retired lines (owner, 16 Nov 2026):** never "Designed from the start, not added later" or variants. The Hub opens on Bromic's own "Extend The Moment".
 - **Avoid the machine tells:** "X, not Y" antitheses; triplets for rhythm; one-word sentences ("Simple."); colon openers ("Voltage. …", "The fix: …"); "Here is…", "In short", "That's the gap"; rhetorical questions answered at once; long dashes.
 
 **What never changes when the voice changes**
