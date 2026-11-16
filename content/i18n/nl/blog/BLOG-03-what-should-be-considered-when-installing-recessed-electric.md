@@ -7,11 +7,11 @@ audience: [ARC, BLD]
 stage: [IN]
 cell: ARC-IN
 asset: A24
-summary: "De ontwerpchecklist voor het vlak inbouwen van Platinum en Tungsten Electric-verwarmers: plafonddikte, diepte van de holte per inbouwkit, gewicht, water en isolatie, de groep en de Affinity-bediening, en wat er op de tekeningen moet."
+summary: "Alles wat u inplant voordat een Platinum of Tungsten Electric-verwarmer vlak in het plafond verdwijnt: van de dikte van de beplating, de diepte van de holte per kit, gewicht, water en isolatie tot de groep, de Affinity-bediening en de tekeningen."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wat moet ik weten voordat ik een elektrische buitenverwarmer in een plafond inbouw?"
-meta_description: "Een elektrische buitenverwarmer inbouwen: plafondbeplating van 10–30 mm, een holte van 180 tot 535 mm afhankelijk van de kit, een aparte groep en Affinity-bediening."
+meta_description: "Een inbouwverwarmer voor buiten inplannen: plafondbeplating van 10–30 mm, een holte van 180 tot 535 mm per kit, een aparte groep en Affinity-bediening."
 cta: {label: "Download de specificatiekit voor architecten", asset: A11}
 hero: w-residential-belgium-brussels-medows-resid-3
 images: [w-dorrington-homes-platinum-electric-2]
@@ -21,7 +21,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-IN-KB1, ARC-IN-01, ARC-BY-KB1, BLD-IN-KB1]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -85,17 +85,17 @@ translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 ---
 
-Controleer vier dingen voordat u een elektrische verwarmer inbouwt: een plafondbeplating van 10–30 mm dik, een holte die diep genoeg is voor de inbouwkit (180 mm voor de Platinum Low Clearance-kit, tot ongeveer 535 mm voor Tungsten), een constructie die de verwarmer draagt en droog blijft, en een aparte groep met Affinity Smart-Heat-bediening en een wandschakelaar. Inbouw wordt ontworpen, niet later toegevoegd: het hoort op de tekeningen voordat het plafond dichtgaat.
+Een inbouwverwarmer begint met vier controles: een plafondbeplating van 10–30 mm dik, een holte die diep genoeg is voor de inbouwkit (180 mm voor de Platinum Low Clearance-kit, tot ongeveer 535 mm voor Tungsten), een constructie die de verwarmer draagt en droog blijft, en een aparte groep met Affinity Smart-Heat-bediening en een wandschakelaar. Elk daarvan hoort op de tekeningen, ruim voordat het plafond dichtgaat.
 
 *Volg de installatiehandleiding van het exacte model en de exacte kit. Elektrisch werk moet worden uitgevoerd door een vakbekwaam elektrotechnisch installateur volgens de geldende voorschriften: in Nederland NEN 1010, in de VS doorgaans [NFPA 70](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70)[^s8]. Stem de eisen af met uw gemeente.*
 
-![Platinum Electric-verwarmers vlak ingebouwd in het plafond van een buitenkeuken](img:w-dorrington-homes-platinum-electric-2)
+![Platinum Electric-verwarmers, vlak ingebouwd in het plafond van een buitenkeuken](img:w-dorrington-homes-platinum-electric-2)
 
-## Welke verwarmers kunnen worden ingebouwd?
+## Verwarmers die in uw plafond verdwijnen
 
-Platinum Electric, Platinum Electric Marine en Tungsten Electric worden ingebouwd met een Bromic-kit[^s1]. Gasverwarmers worden niet ingebouwd. Het assortiment inbouwverwarmers staat op [bromic.nl](https://www.bromic.nl/).
+Platinum Electric, Platinum Electric Marine en Tungsten Electric worden alle drie ingebouwd met een Bromic-kit, zodat u de warmte voelt zonder de verwarmer te zien[^s1]. Gasverwarmers worden niet ingebouwd. Het assortiment inbouwverwarmers staat op [bromic.nl](https://www.bromic.nl/).
 
-## Hoe diep moet de plafondholte zijn?
+## Hoe diep de plafondholte moet zijn
 
 | Verwarmer | Kit | Minimale holte | Opmerkingen |
 |---|---|---|---|
@@ -104,21 +104,21 @@ Platinum Electric, Platinum Electric Marine en Tungsten Electric worden ingebouw
 | Platinum 4500 W | Standaard Platinum-inbouwkit | ca. 330 mm | [^s1] |
 | Platinum 2300, 3400, 4500 W | Low Clearance Recess Kit | 180 mm | Ingebouwde inbouwkast, ventilator en ventilatieopeningen; past tussen standaard balken; UL-gecertificeerd (VS)[^s1][^s3] |
 
-Reken voor Tungsten met ongeveer 535 mm tot het specificatieblad uitsluitsel geeft. De Tungsten-kit wordt per paar verkocht, één voor 2000 en 4000 W en één voor 3000 en 6000 W[^s5].
+Reken voor Tungsten met ongeveer 535 mm tot het specificatieblad de maat vastlegt. De Tungsten-kit bestaat in twee uitvoeringen, één voor 2000 en 4000 W en één voor 3000 en 6000 W[^s5].
 
-De oudere versie van dit artikel noemde de Low Clearance-kit alleen voor 2300 en 3400 W. Op de productpagina van de kit staat nu ook 4500 W[^s3] [[VERIFY: geschiktheid van de Low Clearance-kit voor 4500 W controleren tegen de huidige handleiding — productteam]]. De installatie stap voor stap staat in [zo installeert u de Low Clearance Recess Kit](item:BLOG-05).
+Een eerdere versie van dit artikel noemde de Low Clearance-kit alleen voor 2300 en 3400 W, en op de productpagina van de kit staat nu ook 4500 W[^s3] [[VERIFY: geschiktheid van de Low Clearance-kit voor 4500 W controleren tegen de huidige handleiding — productteam]]. De installatie stap voor stap staat in [zo installeert u de Low Clearance Recess Kit](item:BLOG-05).
 
-## Waar moet het plafond van gemaakt zijn?
+## Het plafond zelf voorbereiden
 
-- **Dikte van de beplating.** 10–30 mm is het ideale bereik. Een dikker plafond vraagt een speciaal detail van de technische ondersteuning van Bromic[^s1].
-- **Constructie.** Inbouwverwarmers wegen van ongeveer 7,7 kg (Platinum 2300 W) tot 15 kg (Platinum 4500 W)[^s4]; het oudere bereik van ongeveer 7–17 kg omvatte modellen die nu niet meer in het assortiment staan [[VERIFY: gewicht van de zwaarste inbouw-Tungsten — productteam]]. Breng regelwerk en klossen aan om verwarmer en kit te dragen; versterk zwakke balken.
-- **Water.** Bescherm de verwarmer tegen water van boven; het plafond mag er niet op lekken[^s1].
-- **Isolatie.** Niets in de holte, ook isolatie niet, mag de verwarmer of de kit bedekken[^s1].
-- **Brandbare materialen.** De afstanden tot brandbare materialen verschillen per model; neem ze over uit de handleiding van de exacte verwarmer[^s1]. Houd afstand tot plafondlampen en -ventilatoren[^s2].
+- **De dikte van de beplating** ligt bij voorkeur tussen 10 en 30 mm. Een dikker plafond vraagt een speciaal detail van de technische ondersteuning van Bromic[^s1].
+- **De constructie** moet inbouwverwarmers dragen van ongeveer 7,7 kg (Platinum 2300 W) tot 15 kg (Platinum 4500 W)[^s4]; het oudere bereik van ongeveer 7–17 kg omvatte modellen die niet meer in het assortiment staan [[VERIFY: gewicht van de zwaarste inbouw-Tungsten — productteam]]. Breng regelwerk en klossen aan om verwarmer en kit te dragen, en versterk zwakke balken.
+- **Water** moet uit de buurt van de verwarmer blijven, dus het plafond erboven mag er nooit op lekken[^s1].
+- **Isolatie** mag, net als al het andere in de holte, de verwarmer of de kit nooit bedekken[^s1].
+- **De afstanden tot brandbare materialen** verschillen per model, dus neem ze over uit de handleiding van de exacte verwarmer[^s1], en houd afstand tot plafondlampen en -ventilatoren[^s2].
 
-## Hoe wordt een inbouwverwarmer aangesloten en bediend?
+## Aansluiting en bediening, samen gepland
 
-Met inbouw ligt de verwarmer definitief vast, dus leg de bediening tegelijk vast. Elke verwarmer heeft nodig:
+Eenmaal ingebouwd hoort de verwarmer voorgoed bij de architectuur, dus de bediening verdient op hetzelfde moment dezelfde zorg. Elke verwarmer heeft nodig:
 
 | Onderdeel | Voorschrijven | Opmerking |
 |---|---|---|
@@ -128,11 +128,11 @@ Met inbouw ligt de verwarmer definitief vast, dus leg de bediening tegelijk vast
 | Ventilator van de Low Clearance-kit | Eigen voeding | De koelventilator van de kit heeft een eigen voeding nodig, los van de aansluiting van de verwarmer[^s3] |
 | Gebouwbeheer of domotica | Uitbreidingskaart | [^s6] |
 
-De Bromic Smart-Heat app voegt zones, schema's en timers toe. Voor wifi- en app-functies zijn compatibele Affinity Smart-Heat Controls nodig, die apart worden verkocht[^s7]. Plaats de regelaar zo dat hij na het sluiten van het plafond bereikbaar blijft voor onderhoud.
+De Bromic Smart-Heat app voegt zones, schema's en timers toe. Voor wifi- en app-functies zijn compatibele Affinity Smart-Heat Controls nodig, die apart worden verkocht[^s7]. Plaats de regelaar zo dat hij ook na het sluiten van het plafond nog bereikbaar is voor onderhoud.
 
 <div class="diagram">Diagram: plafonddoorsnede door een ingebouwde Platinum-verwarmer met de dikte van de beplating, de diepte van de holte per kit, balken en klossen, de groep van de verwarmer en de aparte voeding van de ventilator van de Low Clearance-kit, en de Affinity-regelaar en wandschakelaar aan de wand</div>
 
-## Wat moet er op de tekeningen?
+## Wat er op de tekeningen hoort
 
 - [ ] Maat en positie van de uitsparing op de plafondplattegrond
 - [ ] Diepte van de holte, type kit, regelwerk en klossen in doorsnede
@@ -141,24 +141,24 @@ De Bromic Smart-Heat app voegt zones, schema's en timers toe. Voor wifi- en app-
 - [ ] Groep, leidingtracé en aansluitdoos; de voeding van de ventilator bij een Low Clearance-kit
 - [ ] Plaats van de Affinity-regelaar, de wandschakelaar en de uitbreidingskaart
 
-Meer over het detailleren van een overstek in [kan een verwarmer in een overstek worden ingebouwd?](item:ARC-IN-KB1)
+Voor het detailleren van een overstek, zie [kan een verwarmer in een overstek worden ingebouwd?](item:ARC-IN-KB1)
 
 ## Veelgestelde vragen
 
 ### Hoe diep moet de plafondholte voor een ingebouwde terrasverwarmer zijn?
 
-Van 180 mm met de Platinum Low Clearance Recess Kit, via ongeveer 255–330 mm met de standaard Platinum-kit, tot ongeveer 535 mm voor Tungsten Electric[^s1][^s3].
+Afhankelijk van de kit tussen 180 mm met de Platinum Low Clearance Recess Kit, ongeveer 255–330 mm met de standaard Platinum-kit en ongeveer 535 mm voor Tungsten Electric[^s1][^s3].
 
 ### Kan ik een verwarmer in een bestaand plafond inbouwen?
 
-Vaak wel. De Low Clearance-kit past tussen standaard balken, bij renovatie en nieuwbouw[^s1][^s3]. Controleer de dikte van de beplating en of er een groep naartoe kan.
+Vaak wel. De Low Clearance-kit past tussen standaard balken, bij renovatie net zo goed als bij nieuwbouw[^s1][^s3]. Controleer de dikte van de beplating, en of er een groep naar de plek van de verwarmer kan.
 
 ### Heeft een inbouwverwarmer speciale bediening nodig?
 
-Dezelfde als elke elektrische Bromic-verwarmer: een Affinity On/Off- of Dimmer-regelaar en een handmatige wandschakelaar[^s4]. Een Low Clearance-kit heeft daarnaast een voeding voor de ventilator nodig[^s3].
+Hij gebruikt dezelfde bediening als elke elektrische Bromic-verwarmer, een Affinity On/Off- of Dimmer-regelaar en een handmatige wandschakelaar[^s4]. Een Low Clearance-kit heeft daarnaast een voeding voor de ventilator nodig[^s3].
 
 ### Mag isolatie een inbouwverwarmer raken?
 
 Nee. Niets in de holte mag de verwarmer bedekken[^s1].
 
-Wilt u een plafond laten controleren voordat het wordt gebouwd? Stuur de tekeningen naar de ontwerpservice van Bromic via [bromic.nl](https://www.bromic.nl/).
+Wilt u een plafond laten controleren voordat het wordt gebouwd? Deel uw tekeningen met ons via de ontwerpservice van Bromic op [bromic.nl](https://www.bromic.nl/).

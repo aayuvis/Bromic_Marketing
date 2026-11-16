@@ -7,11 +7,11 @@ audience: [BLD, ARC]
 stage: [BY]
 cell: BLD-BY
 asset: A24
-summary: "Wat de Platinum Electric Low Clearance Recess Kit is, waar hij past, de uitsparing per vermogen, de vrije afstanden, de voeding van de ventilator en de Affinity-bediening die u aansluit, en de installatie stap voor stap. Neemt het productartikel over de kit in zich op."
+summary: "Hoe de Platinum Electric Low Clearance Recess Kit zelfs een ondiep plafond vlakke, naadloze warmte geeft: waar hij past, de uitsparing per vermogen, de vrije afstanden, de voeding van de ventilator en de Affinity-bediening die u aansluit, en de installatie stap voor stap. Neemt het productartikel over de kit in zich op."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe installeer ik een inbouw-terrasverwarmer in een ondiep plafond?"
-meta_description: "De Platinum Electric Low Clearance Recess Kit installeren: holte van 180 mm, uitsparingen per vermogen, vrije afstanden, voeding van de ventilator, Affinity-bediening, stap voor stap."
+meta_description: "De Low Clearance Recess Kit installeren: vlakke Platinum-warmte in een holte van 180 mm, met uitsparingen, afstanden, ventilator en Affinity-bediening."
 cta: {label: "Download de reeks installatiegidsen", asset: A17}
 hero: w-bromic-shoot-may-11-2023-54
 images: [w-bromic-low-clearance-recess-kit]
@@ -21,7 +21,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-IN-KB1, BLD-BY-01, BLD-IN-KB1, BLD-BY-KB1]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -85,19 +85,19 @@ translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 ---
 
-Met de Low Clearance Recess Kit bouwt u een Platinum Electric-verwarmer vlak in een plafondholte van slechts 180 mm diep, tussen standaard balken. Zaag de opening op maat voor het vermogen, bevestig de inbouwkast aan de balken, monteer de afdekrand, sluit de kabel van de verwarmer en de aparte voeding van de ventilator aan in de aansluitkast, haak de verwarmer in de kast en draai hem vlak aan. Sluit hem aan met een Affinity Smart-Heat-regelaar en een wandschakelaar.
+De Low Clearance Recess Kit plaatst een Platinum Electric-verwarmer vlak in een plafondholte van slechts 180 mm diep, tussen standaard balken. U zaagt de opening op maat voor het vermogen, bevestigt de inbouwkast aan de balken, monteert de afdekrand, sluit de kabel van de verwarmer en de aparte voeding van de ventilator aan in de aansluitkast, en haakt daarna de verwarmer in de kast en draait hem vlak aan. Hij wordt aangesloten met een Affinity Smart-Heat-regelaar en een wandschakelaar.
 
 *Dit is een samenvatting. De [installatiehandleiding](https://pim.bromic.com/wp-content/uploads/2021/08/Platinum-Electric-Low-Clearance-Ceiling-Recess-Instruction-Manual-REV3.pdf) is voor elke stap leidend[^s7]. Het elektrische werk moet worden uitgevoerd door een vakbekwaam elektrotechnisch installateur volgens de geldende voorschriften: in Nederland NEN 1010, in de VS doorgaans [NFPA 70](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70)[^s8]. Stem de eisen af met uw gemeente.*
 
-![Platinum Electric-verwarmer vlak ingebouwd in het plafond van een overdekte veranda aan de voorzijde](img:w-bromic-low-clearance-recess-kit)
+![Een Platinum Electric-verwarmer, vlak ingebouwd in het plafond van een overdekte veranda aan de voorzijde](img:w-bromic-low-clearance-recess-kit)
 
-## Wat is de Low Clearance Recess Kit en waar past hij?
+## Vlakke warmte voor zelfs een ondiep plafond
 
-Het is een geventileerde inbouwkast met een eigen afdekrand die tussen standaard plafondbalken past, zodat er geen brandwerende kast of extra regelwerk nodig is[^s2][^s3]. Hij is UL-gecertificeerd (een Amerikaans keurmerk) en bestaat in een standaard- en een marine-uitvoering voor Platinum Electric en Platinum Electric Marine[^s2][^s3]. [[VERIFY: CE-markering en Europese keuring van de kit — Bromic Benelux distributor]] Hij past bij renovatie en nieuwbouw, in lamellenpergola's en in plafonds met woonruimte erboven[^s2]. Vergelijk de kits in [waar u op let bij het inbouwen van elektrische verwarmers](item:BLOG-03).
+De kit is een geventileerde inbouwkast met een eigen afdekrand, ontworpen om tussen standaard plafondbalken te passen, zodat er geen brandwerende kast of extra regelwerk nodig is[^s2][^s3]. Hij is UL-gecertificeerd (een Amerikaans keurmerk) en bestaat in een standaard- en een marine-uitvoering voor Platinum Electric en Platinum Electric Marine[^s2][^s3]. [[VERIFY: CE-markering en Europese keuring van de kit — Bromic Benelux distributor]] Daarmee is hij een elegante oplossing voor renovatie en nieuwbouw, voor lamellenpergola's en voor plafonds met woonruimte erboven[^s2]. U kunt de kits vergelijken in [waar u op let bij het inbouwen van elektrische verwarmers](item:BLOG-03).
 
-Op de productpagina van de kit staan 2300, 3400 en 4500 W[^s3]. Een ouder artikel noemde alleen 2300 en 3400 W [[VERIFY: geschiktheid voor 4500 W controleren tegen de huidige handleiding — productteam]]. De bewering in het productartikel over "tot 82%" minder holte en die over de beperkte looptijd bij concurrenten zijn verwijderd tot er een bron voor is.
+Op de productpagina van de kit staan 2300, 3400 en 4500 W[^s3], terwijl een ouder artikel alleen 2300 en 3400 W noemde [[VERIFY: geschiktheid voor 4500 W controleren tegen de huidige handleiding — productteam]]. De bewering in het productartikel over "tot 82%" minder holte en die over de beperkte looptijd bij concurrenten zijn verwijderd tot er een bron voor is.
 
-## Hoe groot is de uitsparing en welke afstanden gelden?
+## Uitsparingsmaten en vrije afstanden
 
 | Verwarmer | Uitsparing (L × B × H) | Kabellengte vanaf de wartel | Gewicht | Stroom bij 230 V |
 |---|---|---|---|---|
@@ -105,11 +105,11 @@ Op de productpagina van de kit staan 2300, 3400 en 4500 W[^s3]. Een ouder artike
 | Platinum 3400 W | ca. 1430 × 239 × 180 mm | 1000 mm | ca. 10 kg | ca. 14,8 A |
 | Platinum 4500 W | ca. 1549 × 315 × 180 mm | [[VERIFY: kabellengte bij 4500 W — productteam]] | ca. 15 kg | ca. 19,6 A |
 
-Bronnen: installatieartikel en productpagina[^s1][^s4]. De stroom is berekend als vermogen ÷ 230 V; de Amerikaanse bronnen geven waarden bij 240 en 208 V, die hier niet gelden. [[VERIFY: uitsparingsmaten in millimeters uit de handleiding (hier omgerekend uit inches) — productteam]] Het oude artikel gaf de eerste kabellengte voor een eenheid van "2400 W"; er bestaat geen Platinum van 2400 W, daarom staat ze hier bij 2300 W [[VERIFY — productteam]].
+Bronnen: installatieartikel en productpagina[^s1][^s4]. De stroom is berekend als vermogen ÷ 230 V; de Amerikaanse bronnen geven waarden bij 240 en 208 V, die hier niet gelden. [[VERIFY: uitsparingsmaten in millimeters uit de handleiding (hier omgerekend uit inches) — productteam]] Het oude artikel gaf de eerste kabellengte voor een eenheid van "2400 W", en omdat er geen Platinum van 2400 W bestaat, staat ze hier bij 2300 W [[VERIFY — productteam]].
 
-Afstanden: minstens 500 mm van een wand[^s1]. Volgens het installatieartikel hangt de verwarmer minstens ca. 2390 mm boven de afgewerkte vloer; de productpagina van Platinum noemt ca. 2440 mm voor elke plafondmontage[^s1][^s4]. Reken met ca. 2440 mm [[VERIFY: ca. 2390 mm tegenover ca. 2440 mm voor de ingebouwde verwarmer — productteam]].
+De verwarmer hoort minstens 500 mm van een wand te zitten[^s1]. Volgens het installatieartikel hangt hij minstens ca. 2390 mm boven de afgewerkte vloer, terwijl de productpagina van Platinum ca. 2440 mm noemt voor elke plafondmontage[^s1][^s4], dus reken met ca. 2440 mm [[VERIFY: ca. 2390 mm tegenover ca. 2440 mm voor de ingebouwde verwarmer — productteam]].
 
-## Wat hebt u nodig voordat u begint?
+## Wat u klaar hebt voordat u begint
 
 - Twee personen om te tillen
 - Steeksleutel 20 mm voor de M16-kabelwartel; steeksleutel 8 mm voor de bouten van de montagelippen
@@ -118,7 +118,7 @@ Afstanden: minstens 500 mm van een wand[^s1]. Volgens het installatieartikel han
 - Een microvezeldoek
 - Spanning eraf, de groep van de verwarmer en de voeding van de ventilator voorbekabeld tot aan de opening, en stuurkabels als het ontwerp die gebruikt[^s1][^s3]
 
-## Hoe installeert u hem, stap voor stap?
+## De installatie, stap voor stap
 
 **Het plafond voorbereiden**
 
@@ -133,7 +133,7 @@ Afstanden: minstens 500 mm van een wand[^s1]. Volgens het installatieartikel han
 
 **De verwarmer voorbereiden**
 
-6. Verwijder de kabelbehuizing aan de achterkant en de vier schroeven van de achterste beugel; bewaar de schroeven.
+6. Verwijder de kabelbehuizing aan de achterkant en de vier schroeven van de achterste beugel, en bewaar de schroeven.
 7. Voer de kabel van de verwarmer door de afdekrand, zet de afdekrand op de verwarmer en bevestig hem met de bewaarde schroeven.
 8. Voer de kabel door de IP-kap en de wartel, monteer de IP-beugel en draai de M16-wartel vast.
 9. Kort de kabel in op lengte, gemeten vanaf de wartel.
@@ -146,15 +146,15 @@ Afstanden: minstens 500 mm van een wand[^s1]. Volgens het installatieartikel han
 13. Sluit de aansluitkast, schuif hem in zijn sleuf aan het uiteinde van de kast en schroef hem vast.
 14. Til het uiteinde met de aansluitkast op en haak de overige lippen in.
 15. Duw de verwarmer omhoog en draai de bouten van de lippen aan tot hij vlak met de afdekrand ligt.
-16. Veeg de voorkant schoon.
+16. Veeg de voorkant schoon, klaar voor zijn eerste avond.
 
 Volgorde vrij weergegeven uit het oorspronkelijke artikel[^s1].
 
 <div class="diagram">Diagram: opengewerkte weergave van balken, inbouwkast, afdekrand met ventilatieroosters, verwarmer en aansluitkast, met de holte van 180 mm, de lengte en breedte van de uitsparing, en de voeding van verwarmer en ventilator die de kast binnenkomen</div>
 
-## Welke bediening en groepen zijn er nodig?
+## De bediening en voedingen waarmee hij wordt aangesloten
 
-Twee voedingen en een regelaar:
+Elke kit wordt geïnstalleerd met twee voedingen en een Affinity Smart-Heat-regelaar:
 
 | Onderdeel | Voorschrijven |
 |---|---|
@@ -163,13 +163,13 @@ Twee voedingen en een regelaar:
 | Regelaar | Affinity On/Off of Affinity Dimmer: 1, 2 of 5 kanalen, 6 kW per kanaal (de Amerikaanse productpagina noemt 208–277 V)[^s5] [[VERIFY: uitvoering en kanaalbelasting van de Affinity-regelaars bij 230 V — Bromic Benelux distributor]] |
 | Schakelaar | Handmatige wandschakelaar, 20 A, 120–277 V[^s5] |
 
-De Bromic Smart-Heat app voegt zones, schema's en timers toe; voor wifi- en app-functies zijn compatibele Affinity Smart-Heat Controls nodig, die apart worden verkocht[^s6]. Een aansluitschema voor de kit met Affinity staat op de productpagina van de kit[^s3]. Voor hulp kunt u terecht bij de technische ondersteuning van Bromic via [bromic.nl](https://www.bromic.nl/).
+De Bromic Smart-Heat app voegt zones, schema's en timers toe; voor wifi- en app-functies zijn compatibele Affinity Smart-Heat Controls nodig, die apart worden verkocht[^s6]. Een aansluitschema voor de kit met Affinity staat op de productpagina van de kit[^s3], en de technische ondersteuning van Bromic helpt u altijd graag verder via [bromic.nl](https://www.bromic.nl/).
 
 ## Veelgestelde vragen
 
 ### In hoe ondiep een plafond kan een Platinum-verwarmer worden ingebouwd?
 
-180 mm, met de Low Clearance Recess Kit[^s3].
+Al vanaf 180 mm, met de Low Clearance Recess Kit[^s3].
 
 ### Heeft de kit een eigen voeding nodig?
 
@@ -183,4 +183,4 @@ Ja. Hij past tussen standaard balken zonder extra regelwerk, dus hij is geschikt
 
 Een vakbekwaam elektrotechnisch installateur, volgens de installatiehandleiding en de geldende voorschriften[^s1].
 
-Plant u een plafond met inbouwverwarmers? De ontwerpservice van Bromic, via [bromic.nl](https://www.bromic.nl/), controleert de holte en de indeling.
+Plant u een plafond met inbouwverwarmers? Via de ontwerpservice van Bromic op [bromic.nl](https://www.bromic.nl/) controleren we samen met u de holte en de indeling.

@@ -7,11 +7,11 @@ audience: [BLD, ARC]
 stage: [BY]
 cell: BLD-BY
 asset: A24
-summary: "Was der Platinum Electric Low Clearance Recess Kit ist, wo er passt, der Deckenausschnitt je Leistung, die Abstände, die Versorgung des Lüfters und die zu verdrahtende Affinity-Steuerung sowie der Einbau Schritt für Schritt. Fasst den Produktbeitrag zum Kit mit ein."
+summary: "Wie der Platinum Electric Low Clearance Recess Kit selbst einer flachen Decke bündige, nahtlose Wärme bringt: wo er passt, der Deckenausschnitt je Leistung, die Abstände, die Versorgung des Lüfters und die zu verdrahtende Affinity-Steuerung sowie der Einbau Schritt für Schritt. Fasst den Produktbeitrag zum Kit mit ein."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie baue ich einen Terrassenheizstrahler in eine flache Decke ein?"
-meta_description: "Platinum Electric Low Clearance Recess Kit montieren: 180 mm Hohlraum, Ausschnitte je Leistung, Abstände, Lüfterversorgung, Affinity-Steuerung, Schritt für Schritt."
+meta_description: "Low Clearance Recess Kit montieren: bündige Platinum-Wärme in 180 mm Hohlraum, mit Ausschnitten, Abständen, Lüfter und Affinity-Steuerung."
 cta: {label: "Montageanleitungen anfordern", asset: A17}
 hero: w-bromic-shoot-may-11-2023-54
 images: [w-bromic-low-clearance-recess-kit]
@@ -21,7 +21,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-IN-KB1, BLD-BY-01, BLD-IN-KB1, BLD-BY-KB1]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: de
 translation_of: BLOG-05
 translation_status: machine-draft
@@ -85,19 +85,19 @@ sources:
     verified: true
 ---
 
-Mit dem Low Clearance Recess Kit wird ein Platinum-Electric-Heizstrahler bündig in einen Deckenhohlraum von nur 180 mm Tiefe zwischen üblichen Deckenbalken eingebaut. Schneiden Sie die Öffnung passend zur Leistung aus, befestigen Sie den Einbaukasten an den Balken, setzen Sie die Blende ein, schließen Sie das Gerätekabel und die getrennte Lüfterversorgung im Anschlusskasten an, hängen Sie den Heizstrahler in den Kasten ein und ziehen Sie ihn bündig fest. Verdrahten Sie ihn mit einem Affinity Smart-Heat-Steuergerät und einem Wandschalter.
+Der Low Clearance Recess Kit setzt einen Platinum-Electric-Heizstrahler bündig in einen Deckenhohlraum von nur 180 mm Tiefe zwischen üblichen Deckenbalken. Sie schneiden die Öffnung passend zur Leistung aus, befestigen den Einbaukasten an den Balken, setzen die Blende ein, schließen das Gerätekabel und die getrennte Lüfterversorgung im Anschlusskasten an, hängen den Heizstrahler dann in den Kasten ein und ziehen ihn bündig fest. Verdrahtet wird er mit einem Affinity Smart-Heat-Steuergerät und einem Wandschalter.
 
 *Dies ist eine Zusammenfassung. Maßgeblich für jeden Schritt ist die [Montageanleitung](https://pim.bromic.com/wp-content/uploads/2021/08/Platinum-Electric-Low-Clearance-Ceiling-Recess-Instruction-Manual-REV3.pdf)[^s7]. Die Elektroarbeiten muss ein Elektrofachbetrieb nach den örtlich geltenden Vorschriften ausführen, in Deutschland nach DIN VDE 0100 (in den USA nach [NFPA 70](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70)[^s8]); klären Sie die Anforderungen mit Ihrem Bauamt.* [[VERIFY: current VDE and DVGW rules for outdoor heaters — Partner Deutschland]]
 
-![Platinum-Electric-Heizstrahler bündig in die Decke einer überdachten Veranda eingelassen](img:w-bromic-low-clearance-recess-kit)
+![Ein Platinum-Electric-Heizstrahler, bündig in die Decke einer überdachten Veranda eingelassen](img:w-bromic-low-clearance-recess-kit)
 
-## Was ist der Low Clearance Recess Kit und wo passt er?
+## Bündige Wärme selbst für eine flache Decke
 
-Ein belüfteter Einbaukasten mit eigener Blende, der zwischen üblichen Deckenbalken sitzt, sodass weder ein feuerbeständiger Kasten noch eine zusätzliche Unterkonstruktion nötig ist[^s2][^s3]. Er ist UL-zertifiziert und in einer Standard- und einer Marine-Ausführung für Platinum Electric und Platinum Electric Marine erhältlich[^s2][^s3]. Er eignet sich für Nachrüstung und Neubau, für Lamellenpergolen und für Decken mit Wohnraum darüber[^s2]. Einen Vergleich der Einbaurahmen finden Sie im Beitrag „Was beim Einbau elektrischer Heizstrahler in die Decke zu beachten ist“ auf [bromic.de](https://www.bromic.de/).
+Der Kit ist ein belüfteter Einbaukasten mit eigener Blende, der zwischen übliche Deckenbalken passt, sodass weder ein feuerbeständiger Kasten noch eine zusätzliche Unterkonstruktion nötig ist[^s2][^s3]. Er ist UL-zertifiziert und in einer Standard- und einer Marine-Ausführung für Platinum Electric und Platinum Electric Marine erhältlich[^s2][^s3]. Damit ist er eine elegante Lösung für Nachrüstung wie Neubau, für Lamellenpergolen und für Decken mit Wohnraum darüber[^s2]. Einen Vergleich der Einbaurahmen finden Sie im Beitrag „Was beim Einbau elektrischer Heizstrahler in die Decke zu beachten ist“ auf [bromic.de](https://www.bromic.de/).
 
-Die Produktseite des Kits nennt 2300, 3400 und 4500 W[^s3]. Ein älterer Beitrag nannte nur 2300 und 3400 W [[VERIFY: 4500 W compatibility against the current manual — Produktteam]]. Die Angabe „bis zu 82 %“ geringere Einbautiefe aus dem Produktbeitrag und seine Aussage zu Laufzeitgrenzen bei Wettbewerbern sind entfernt, bis sie belegt sind.
+Die Produktseite des Kits nennt 2300, 3400 und 4500 W[^s3], während ein älterer Beitrag nur 2300 und 3400 W nannte [[VERIFY: 4500 W compatibility against the current manual — Produktteam]]. Die Angabe „bis zu 82 %“ geringere Einbautiefe aus dem Produktbeitrag und seine Aussage zu Laufzeitgrenzen bei Wettbewerbern wurden entfernt, bis sie belegt sind.
 
-## Wie groß ist der Ausschnitt und welche Abstände gelten?
+## Ausschnittmaße und Abstände
 
 | Heizstrahler | Ausschnitt (L × B × H) | Kabellänge ab Verschraubung | Gewicht | Stromaufnahme bei 230 V (rechnerisch) |
 |---|---|---|---|---|
@@ -105,20 +105,20 @@ Die Produktseite des Kits nennt 2300, 3400 und 4500 W[^s3]. Ein älterer Beitrag
 | Platinum 3400 W | 1430 × 239 × 180 mm | 1000 mm | ca. 10,0 kg | ca. 14,8 A |
 | Platinum 4500 W | 1549 × 315 × 180 mm | [[VERIFY: 4500 W cable length — Produktteam]] | ca. 15,0 kg | ca. 19,6 A |
 
-Quellen: Montagebeitrag und Produktseite[^s1][^s4]. Die Stromaufnahme ist aus der Leistung bei 230 V berechnet (A = W ÷ 230); die US-Produktseite nennt Werte bei 240 V und 208 V. Der alte Beitrag nannte die erste Kabellänge für ein Gerät mit „2400 W“; ein Platinum mit 2400 W gibt es nicht, deshalb steht der Wert hier bei 2300 W [[VERIFY — Produktteam]].
+Quellen: Montagebeitrag und Produktseite[^s1][^s4]. Die Stromaufnahme ist aus der Leistung bei 230 V berechnet (A = W ÷ 230); die US-Produktseite nennt Werte bei 240 V und 208 V. Der alte Beitrag nannte die erste Kabellänge für ein Gerät mit „2400 W“, und da es keinen Platinum mit 2400 W gibt, steht der Wert hier bei 2300 W [[VERIFY — Produktteam]].
 
-Abstände: mindestens 500 mm zu einer Wand[^s1]. Der Montagebeitrag setzt das Gerät mindestens ca. 2,39 m über den Fertigfußboden; die Platinum-Produktseite nennt ca. 2,44 m für jede Deckenmontage[^s1][^s4]. Planen Sie mit ca. 2,44 m [[VERIFY: 94 in vs 96 in for the recessed heater — Produktteam]].
+Der Heizstrahler sollte mindestens 500 mm von einer Wand entfernt sitzen[^s1]. Der Montagebeitrag setzt ihn mindestens ca. 2,39 m über den Fertigfußboden, während die Platinum-Produktseite ca. 2,44 m für jede Deckenmontage nennt[^s1][^s4], planen Sie also mit ca. 2,44 m [[VERIFY: 94 in vs 96 in for the recessed heater — Produktteam]].
 
-## Was brauche ich vor Beginn?
+## Was Sie bereithalten sollten, bevor Sie beginnen
 
 - Zwei Personen zum Anheben
 - Schlüssel SW 20 für die Kabelverschraubung M16; Schlüssel SW 8 für die Schrauben der Befestigungslaschen
 - Die Schraube M6 × 10 mm für den IP-Halter, im Lieferumfang
 - Befestigungsmaterial für die Balken (nicht im Lieferumfang)
 - Ein Mikrofasertuch
-- Spannung freigeschaltet, Stromkreis des Heizstrahlers und Lüfterversorgung bis zur Öffnung vorinstalliert, Steuerleitungen, falls die Planung sie vorsieht[^s1][^s3]
+- Spannung freigeschaltet, Stromkreis des Heizstrahlers und Lüfterversorgung bis zur Öffnung vorinstalliert, und Steuerleitungen, falls die Planung sie vorsieht[^s1][^s3]
 
-## Wie baue ich ihn ein, Schritt für Schritt?
+## Der Einbau, Schritt für Schritt
 
 **Decke vorbereiten**
 
@@ -133,7 +133,7 @@ Abstände: mindestens 500 mm zu einer Wand[^s1]. Der Montagebeitrag setzt das Ge
 
 **Heizstrahler vorbereiten**
 
-6. Entfernen Sie das hintere Kabelgehäuse und die vier Schrauben des hinteren Halters; bewahren Sie die Schrauben auf.
+6. Entfernen Sie das hintere Kabelgehäuse und die vier Schrauben des hinteren Halters und bewahren Sie die Schrauben auf.
 7. Führen Sie das Gerätekabel durch die Blende, setzen Sie die Blende auf den Heizstrahler und befestigen Sie sie mit den aufbewahrten Schrauben.
 8. Führen Sie das Kabel durch IP-Abdeckung und Verschraubung, setzen Sie den IP-Halter ein und ziehen Sie die Verschraubung M16 fest.
 9. Kürzen Sie das Kabel, gemessen ab der Verschraubung.
@@ -146,15 +146,15 @@ Abstände: mindestens 500 mm zu einer Wand[^s1]. Der Montagebeitrag setzt das Ge
 13. Schließen Sie den Anschlusskasten, schieben Sie ihn in seine Aufnahme am Ende des Kastens und schrauben Sie ihn fest.
 14. Heben Sie die Anschlussseite an und hängen Sie die übrigen Laschen ein.
 15. Drücken Sie den Heizstrahler nach oben und ziehen Sie die Laschenschrauben an, bis er bündig mit der Blende abschließt.
-16. Wischen Sie die Front sauber.
+16. Wischen Sie die Front sauber, bereit für seinen ersten Abend.
 
 Ablauf sinngemäß nach dem Live-Beitrag[^s1].
 
 <div class="diagram">Diagramm: Explosionszeichnung von Balken, Einbaukasten, Blende mit Lüftungsabdeckungen, Heizstrahler und Anschlusskasten, mit 180 mm Hohlraum, Länge und Breite des Ausschnitts sowie den Zuleitungen für Heizstrahler und Lüfter, die in den Kasten führen</div>
 
-## Welche Steuerung und welche Stromkreise braucht er?
+## Die Steuerung und Versorgung, mit der er verdrahtet wird
 
-Zwei Zuleitungen und ein Steuergerät:
+Jeder Kit wird mit zwei Zuleitungen und einem Affinity Smart-Heat-Steuergerät installiert:
 
 | Bauteil | Festlegen |
 |---|---|
@@ -163,13 +163,13 @@ Zwei Zuleitungen und ein Steuergerät:
 | Steuergerät | Affinity On/Off oder Affinity Dimmer: 1, 2 oder 5 Kanäle; die US-Produktseiten nennen 6 kW je Kanal bei 208–277 V[^s5] [[VERIFY: Kanalleistung und Ausführung der Steuergeräte für 230 V — Produktteam]] |
 | Schalter | Manueller Wandschalter; die US-Ausführung ist für 20 A, 120–277 V ausgelegt[^s5] [[VERIFY: Wandschalter für den deutschen Markt — Produktteam]] |
 
-Die Bromic Smart-Heat App ergänzt Zonen, Zeitpläne und Timer; WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Controls, separat erhältlich[^s6]. Ein Schaltplan für das Kit mit Affinity steht auf der Produktseite des Kits[^s3]. Hilfe erhalten Sie beim technischen Support von Bromic über [bromic.de](https://www.bromic.de/).
+Die Bromic Smart-Heat App ergänzt Zonen, Zeitpläne und Timer; WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Controls, separat erhältlich[^s6]. Ein Schaltplan für das Kit mit Affinity steht auf der Produktseite des Kits[^s3], und der technische Support von Bromic hilft Ihnen jederzeit gern weiter, erreichbar über [bromic.de](https://www.bromic.de/).
 
 ## Häufige Fragen
 
 ### In wie flache Decken lässt sich ein Platinum-Heizstrahler einbauen?
 
-In 180 mm, mit dem Low Clearance Recess Kit[^s3].
+In Decken mit nur 180 mm Hohlraum, mit dem Low Clearance Recess Kit[^s3].
 
 ### Braucht das Kit eine eigene Stromversorgung?
 
@@ -183,4 +183,4 @@ Ja. Es passt zwischen übliche Balken ohne zusätzliche Unterkonstruktion und ei
 
 Ein Elektrofachbetrieb, nach der Montageanleitung und den örtlichen Vorschriften[^s1].
 
-Sie planen eine Decke mit Einbaustrahlern? Der Planungsservice auf [bromic.de](https://www.bromic.de/) prüft Hohlraum und Anordnung.
+Sie planen eine Decke mit Einbaustrahlern? Mit dem Planungsservice auf [bromic.de](https://www.bromic.de/) prüfen wir Hohlraum und Anordnung gemeinsam mit Ihnen.

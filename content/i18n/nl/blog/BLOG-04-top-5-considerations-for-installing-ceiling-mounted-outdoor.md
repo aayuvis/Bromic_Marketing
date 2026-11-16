@@ -7,11 +7,11 @@ audience: [BLD, RES, ARC]
 stage: [PP]
 cell: BLD-PP
 asset: A24
-summary: "Hoogte, pendels, vrije ruimte boven de verwarmer, constructie en brandbare materialen bij elektrische en gasverwarmers van Bromic aan het plafond, met gewichten per model, de pendel per collectie, en de bediening en groep die u vooraf aanlegt."
+summary: "De vijf details waarmee een Bromic-verwarmer aan het plafond de tafel gelijkmatig van bovenaf verwarmt, van hoogte en pendels tot vrije ruimte erboven, constructie en brandbare materialen, met gewichten per model en de bediening en groep die u vooraf aanlegt."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe hoog moet een buitenverwarmer aan het plafond hangen en hoeveel vrije ruimte heeft hij nodig?"
-meta_description: "Buitenverwarmers aan het plafond: 2,4–2,7 m hoog, de juiste pendel per collectie, vrije ruimte erboven, gewichten per model, 0,9 m tot brandbare materialen, en de bediening."
+meta_description: "Een buitenverwarmer aan het plafond monteren: 2,4–2,7 m hoog, de juiste pendel, vrije ruimte erboven, gewichten, 0,9 m tot brandbaar en de bediening."
 cta: {label: "Download de reeks installatiegidsen", asset: A17}
 hero: w-bromic-sep18th-9-1
 images: [w-bromic-sep18th-14]
@@ -21,7 +21,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-BY-KB1, BLD-PP-01, ARC-CO-KB1, BLD-BY-01]
-updated: 2026-10-29
+updated: 2026-11-16
 sources:
   - id: s1
     publisher: Bromic Heating
@@ -92,23 +92,23 @@ translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 ---
 
-Monteer een plafondverwarmer op 2,4–2,7 m boven de vloer, nooit lager dan 2,4 m, en gebruik een pendel als het plafond hoger is dan ongeveer 2,7 m. Houd boven de verwarmer de vrije ruimte aan die de handleiding voorschrijft (ongeveer 360 mm voor gas met een warmtedeflector, ongeveer 0,9 m zonder), bevestig hem aan een constructie die op het gewicht van de verwarmer is berekend, en houd 0,9 m afstand tot brandbare materialen. Sluit hem daarna aan met een Affinity Smart-Heat-regelaar en een wandschakelaar.
+Een plafondverwarmer geeft zijn beste warmte op 2,4–2,7 m boven de vloer, nooit lager dan 2,4 m, met een pendel overal waar het plafond hoger komt dan ongeveer 2,7 m. Houd boven de verwarmer de vrije ruimte aan die de handleiding voorschrijft (ongeveer 360 mm voor gas met een warmtedeflector, ongeveer 0,9 m zonder), bevestig hem aan een constructie die op het gewicht van de verwarmer is berekend, en houd 0,9 m afstand tot brandbare materialen. Elke verwarmer wordt daarna aangesloten met een Affinity Smart-Heat-regelaar en een wandschakelaar.
 
 *Volg de installatiehandleiding van het exacte model. Elektrisch werk moet worden uitgevoerd door een vakbekwaam elektrotechnisch installateur en gaswerk door een vakbekwaam gasinstallateur, volgens de geldende voorschriften (in Nederland NEN 1010 en NEN 1078); stem de eisen af met uw gemeente.*
 
 ![Tungsten Electric-verwarmers aan pendels aan het plafond boven een hotelbar](img:w-bromic-sep18th-14)
 
-## Waarom aan het plafond monteren?
+## De stille voordelen van warmte van bovenaf
 
-Een plafondmontage houdt de vloer en looppaden vrij, waardoor een restaurant meer van zijn terras kan benutten. De warmte valt gelijkmatig naar beneden over de zitplekken, en de verwarmer blijft uit de buurt van spatwater en stof[^s1]. Het assortiment plafondverwarmers staat op [bromic.nl](https://www.bromic.nl/).
+Een plafondmontage houdt de vloer en looppaden open, waardoor een restaurant meer uit zijn terras haalt. De warmte valt gelijkmatig over de zitplekken, en de verwarmer blijft ruim uit de buurt van spatwater en stof[^s1]. Het assortiment plafondverwarmers staat op [bromic.nl](https://www.bromic.nl/).
 
-## 1. Hoe hoog moet de verwarmer hangen?
+## 1. De hoogte voor comfort aan tafel
 
-Tussen 2,4 en 2,7 m boven de vloer, voor elektrisch en gas[^s1]. Van die hoogte gaan de cijfers voor het verwarmd oppervlak uit. Het minimum is 2,4 m voor Platinum, Tungsten en Eclipse Electric en voor Platinum en Tungsten Gas; ook 2,4 m voor Cobalt[^s2][^s3].
+Voor elektrisch en gas hoort de verwarmer tussen 2,4 en 2,7 m boven de vloer, de hoogte waar de cijfers voor het verwarmd oppervlak van uitgaan[^s1]. Het minimum is 2,4 m voor Platinum, Tungsten en Eclipse Electric en voor Platinum en Tungsten Gas, en ook 2,4 m voor Cobalt[^s2][^s3].
 
-## 2. Welke pendel bij een hoog plafond?
+## 2. De warmte omlaag halen onder een hoog plafond
 
-Boven ongeveer 2,7 m laat u de verwarmer aan een pendel zakken[^s1].
+Boven ongeveer 2,7 m brengt een pendel de verwarmer omlaag naar waar uw gasten zitten[^s1].
 
 | Collectie | Pendels |
 |---|---|
@@ -117,9 +117,9 @@ Boven ongeveer 2,7 m laat u de verwarmer aan een pendel zakken[^s1].
 | Tungsten Electric | Pendel van ca. 915 mm[^s1] |
 | Platinum en Tungsten Gas | Zes lengtes van ca. 246 mm tot 1046 mm; moeten verticaal hangen[^s4] |
 
-De verwarmer hangt waterpas, met de voorkant naar de vloer. Bij een schuin plafond vangt het verstelpunt van de pendel de hoek op[^s4].
+De verwarmer hangt waterpas, met de voorkant naar de vloer, en bij een schuin plafond vangt het verstelpunt van de pendel de hoek op[^s4].
 
-## 3. Hoeveel vrije ruimte boven de verwarmer?
+## 3. Ruimte laten boven de verwarmer
 
 | Verwarmer | Vrije ruimte erboven |
 |---|---|
@@ -127,11 +127,11 @@ De verwarmer hangt waterpas, met de voorkant naar de vloer. Bij een schuin plafo
 | Gas met warmtedeflector | ca. 360 mm[^s1] |
 | Gas zonder warmtedeflector | ca. 0,9 m[^s1] |
 
-De planningsgids van Bromic merkt op dat de vrije ruimte tot het plafond afhangt van het vermogen[^s7]; neem het cijfer voor het exacte model en de exacte spanning dus over uit de handleiding, te vinden via [bromic.nl](https://www.bromic.nl/).
+De planningsgids van Bromic merkt op dat de vrije ruimte tot het plafond afhangt van het vermogen[^s7]; neem het cijfer voor uw exacte model en spanning dus over uit de handleiding, te vinden via [bromic.nl](https://www.bromic.nl/).
 
-## 4. Kan het plafond hem dragen?
+## 4. Zorgen dat het plafond hem kan dragen
 
-Bevestig aan balken, liggers of klossen, nooit alleen aan de beplating. Het oudere artikel noemde ongeveer 7–10 kg voor elke elektrische verwarmer; de huidige modellen zijn zwaarder[^s2][^s3].
+Bevestig elke verwarmer aan balken, liggers of klossen, en nooit alleen aan de beplating. Het oudere artikel noemde ongeveer 7–10 kg voor elke elektrische verwarmer, en de huidige modellen zijn zwaarder[^s2][^s3].
 
 | Verwarmer | Gewicht |
 |---|---|
@@ -141,25 +141,25 @@ Bevestig aan balken, liggers of klossen, nooit alleen aan de beplating. Het oude
 | Tungsten Electric | [[VERIFY: per model — productteam]] |
 | Platinum Gas en Tungsten Gas | ca. 15 kg (model voor ca. 15 m²), ca. 20 kg (model voor ca. 20 m²) |
 
-Tel het gewicht van de pendel op bij de belasting.
+Vergeet niet het gewicht van de pendel bij de belasting op te tellen.
 
-## 5. Wat telt als brandbaar materiaal?
+## 5. Brandbare materialen op een veilige afstand
 
-Houd elke verwarmer minstens 0,9 m van gordijnen, zonneschermen, parasols, lampen en ventilatoren[^s1]. Denk aan dingen die bewegen: een opgerold zonnescherm of een dichtgetrokken gordijn kan binnen bereik komen.
+Houd elke verwarmer minstens 0,9 m van gordijnen, zonneschermen, parasols, lampen en ventilatoren[^s1]. Stel u ook de ruimte in gebruik voor, want een opgerold zonnescherm of een dichtgetrokken gordijn kan binnen bereik komen.
 
-## Welke bediening en groepen moeten erin voordat het plafond dichtgaat?
+## Bediening en groepen, aangelegd voordat het plafond dichtgaat
 
-Elke plafondverwarmer heeft een regelaar en een schakelaar nodig, aangelegd samen met de groep:
+Elke plafondverwarmer krijgt een regelaar en een schakelaar, aangelegd samen met zijn groep:
 
-- **Elektrisch**: een aparte groep per verwarmer of per kanaal van de regelaar, gedimensioneerd voor continue belasting volgens NEN 1010, met een Affinity On/Off- of Dimmer-regelaar (6 kW per kanaal; de Amerikaanse productpagina noemt 208–277 V) en een handmatige wandschakelaar[^s5]. Eclipse Electric gebruikt de Affinity Eclipse-regelaar, één verwarmer per kanaal[^s5]. [[VERIFY: uitvoering en kanaalbelasting van de Affinity-regelaars bij 230 V — Bromic Benelux distributor]]
-- **Gas**: een elektrische voeding per verwarmer (de Amerikaanse uitvoering vraagt 110 V, 2 A), een Affinity On/Off-regelaar (tot 10 gasverwarmers per kanaal) en een wandschakelaar[^s3][^s5]. [[VERIFY: voedingsspanning en stroom van de gasverwarmers in de Europese uitvoering — Bromic Benelux distributor]]
-- **App**: de Bromic Smart-Heat app stelt zones, schema's en timers in. Voor wifi- en app-functies zijn compatibele Affinity Smart-Heat Controls nodig, die apart worden verkocht[^s6].
+- **Voor elektrische verwarmers** legt u een aparte groep aan per verwarmer of per kanaal van de regelaar, gedimensioneerd voor continue belasting volgens NEN 1010, met een Affinity On/Off- of Dimmer-regelaar (6 kW per kanaal; de Amerikaanse productpagina noemt 208–277 V) en een handmatige wandschakelaar[^s5]. Eclipse Electric gebruikt de Affinity Eclipse-regelaar, één verwarmer per kanaal[^s5]. [[VERIFY: uitvoering en kanaalbelasting van de Affinity-regelaars bij 230 V — Bromic Benelux distributor]]
+- **Voor gasverwarmers** voorziet u een elektrische voeding per verwarmer (de Amerikaanse uitvoering vraagt 110 V, 2 A), een Affinity On/Off-regelaar (tot 10 gasverwarmers per kanaal) en een wandschakelaar[^s3][^s5]. [[VERIFY: voedingsspanning en stroom van de gasverwarmers in de Europese uitvoering — Bromic Benelux distributor]]
+- **Met de app** stelt u via de Bromic Smart-Heat app zones, schema's en timers in. Voor wifi- en app-functies zijn compatibele Affinity Smart-Heat Controls nodig, die apart worden verkocht[^s6].
 
-Houd de aansluitdoos bereikbaar. Details over de voorbekabeling staan in [onze gids voor de voorbekabeling](item:BLD-IN-01).
+Houd de aansluitdoos bereikbaar. De details van de voorbekabeling staan in [onze gids voor de voorbekabeling](item:BLD-IN-01).
 
 <div class="diagram">Diagram: doorsnede van een overdekt terras met een verwarmer aan een pendel op 2,4–2,7 m, de vrije ruimte boven de kop, een straal van 0,9 m tot brandbare materialen, de aansluitdoos boven aan de pendel en de groep naar een Affinity-regelaar en wandschakelaar</div>
 
-## Welke voorschriften gelden?
+## De voorschriften achter een veilige installatie
 
 In Nederland vallen elektrische verwarmers onder NEN 1010 en gasverwarmers onder NEN 1078. In de VS volgen elektrische verwarmers [NFPA 70](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70) en gasverwarmers ANSI Z223.1/[NFPA 54](https://www.nfpa.org/codes-and-standards/nfpa-54-standard-development/54)[^s7][^s8][^s9]. Laat een vakbekwaam elektrotechnisch installateur of gasinstallateur volgens de handleiding installeren, en vraag bij uw gemeente na wat geldt. [[VERIFY: geldende Nederlandse voorschriften voor buitenverwarmers aan het plafond — Bromic Benelux distributor]]
 
@@ -171,7 +171,7 @@ In Nederland vallen elektrische verwarmers onder NEN 1010 en gasverwarmers onder
 
 ### Mijn plafond is 3,7 m hoog. Wat nu?
 
-Gebruik een pendel om de verwarmer op 2,4–2,7 m te brengen. Voor Platinum zijn er pendels van ca. 610 mm en 1220 mm; voor gasverwarmers pendels tot ca. 1046 mm[^s1][^s4].
+Een pendel brengt de verwarmer op 2,4–2,7 m. Voor Platinum zijn er pendels van ca. 610 mm en 1220 mm, en voor gasverwarmers pendels tot ca. 1046 mm[^s1][^s4].
 
 ### Hoeveel vrije ruimte heeft een gasverwarmer erboven nodig?
 
@@ -179,6 +179,6 @@ Ongeveer 0,9 m, of ongeveer 360 mm met een warmtedeflector[^s1].
 
 ### Kan ik een verwarmer aan een pergola hangen?
 
-Ja, als de balk berekend is op de verwarmer en de pendel, en de vrije ruimte erboven en de afstand tot brandbare materialen worden aangehouden. Stoffen schaduwdoeken tellen als brandbaar materiaal; controleer de geschiktheid van lamellen en hout binnen de vrijhoudzone.
+Ja, mits de balk berekend is op de verwarmer en de pendel, en de vrije ruimte erboven en de afstand tot brandbare materialen worden aangehouden. Stoffen schaduwdoeken tellen als brandbaar materiaal, dus controleer de geschiktheid van lamellen en hout binnen de vrijhoudzone.
 
-Voor een plafondplan met uitgewerkte hoogtes en pendels kunt u terecht bij de ontwerpservice van Bromic via [bromic.nl](https://www.bromic.nl/).
+Voor een plafondplan waarin we de hoogtes en pendels voor u uitwerken, kunt u samen met ons terecht bij de ontwerpservice van Bromic via [bromic.nl](https://www.bromic.nl/).

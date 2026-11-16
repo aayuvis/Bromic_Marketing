@@ -7,11 +7,11 @@ audience: [BLD, RES, ARC]
 stage: [PP]
 cell: BLD-PP
 asset: A24
-summary: "Höhe, Stangen, Abstand nach oben, Tragwerk und brennbare Materialien bei an der Decke montierten elektrischen und gasbetriebenen Bromic-Heizstrahlern, mit Gewichten je Modell, der Stange für jede Kollektion sowie der vorzubereitenden Steuerung und Stromversorgung."
+summary: "Die fünf Details, mit denen ein an der Decke montierter Bromic-Heizstrahler den Tisch gleichmäßig von oben wärmt, von Höhe und Stangen über den Abstand nach oben bis zu Tragwerk und brennbaren Materialien, mit Gewichten je Modell sowie der vorzubereitenden Steuerung und Stromversorgung."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie hoch sollte ein Heizstrahler an der Decke hängen und welchen Abstand braucht er?"
-meta_description: "Heizstrahler an der Decke: 2,4–2,7 m hoch, die passende Stange je Kollektion, Abstand nach oben, Gewichte je Modell, ca. 0,9 m zu brennbaren Materialien und die Steuerung."
+meta_description: "Heizstrahler an der Decke montieren: 2,4–2,7 m hoch, die passende Stange, Abstand nach oben, Gewichte, ca. 0,9 m zu Brennbarem und die Steuerung."
 cta: {label: "Montageanleitungen anfordern", asset: A17}
 hero: w-bromic-sep18th-9-1
 images: [w-bromic-sep18th-14]
@@ -21,7 +21,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-BY-KB1, BLD-PP-01, ARC-CO-KB1, BLD-BY-01]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: de
 translation_of: BLOG-04
 translation_status: machine-draft
@@ -92,23 +92,23 @@ sources:
     verified: true
 ---
 
-Montieren Sie einen Deckenheizstrahler 2,4–2,7 m über dem Boden, nie unter ca. 2,44 m, und verwenden Sie eine Stange, wenn die Decke höher als etwa 2,7 m ist. Halten Sie den Abstand nach oben ein, den die Anleitung vorgibt (bei Gas ca. 360 mm mit Hitzeschild, ca. 0,9 m ohne), befestigen Sie das Gerät an einem Tragwerk, das für sein Gewicht ausgelegt ist, und halten Sie ca. 0,9 m Abstand zu brennbaren Materialien. Schließen Sie es dann mit einem Affinity Smart-Heat-Steuergerät und einem Wandschalter an.
+Ein Deckenheizstrahler gibt seine beste Wärme in 2,4–2,7 m über dem Boden ab, nie unter ca. 2,44 m, mit einer Stange überall dort, wo die Decke höher als etwa 2,7 m ist. Halten Sie den Abstand nach oben ein, den die Anleitung vorgibt (bei Gas ca. 360 mm mit Hitzeschild, ca. 0,9 m ohne), befestigen Sie das Gerät an einem Tragwerk, das für sein Gewicht ausgelegt ist, und halten Sie ca. 0,9 m Abstand zu brennbaren Materialien. Jeder Heizstrahler wird dann mit einem Affinity Smart-Heat-Steuergerät und einem Wandschalter verdrahtet.
 
 *Halten Sie sich an die Montageanleitung des genauen Modells. Elektroarbeiten muss ein Elektrofachbetrieb ausführen, Gasarbeiten ein Gasinstallateur, jeweils nach den örtlich geltenden Vorschriften; klären Sie die Anforderungen mit Ihrem Bauamt.*
 
 ![Tungsten-Electric-Heizstrahler an Stangen von der Decke über einer Hotelbar](img:w-bromic-sep18th-14)
 
-## Warum an der Decke montieren?
+## Die stillen Vorzüge der Wärme von oben
 
-Eine Deckenmontage hält Boden und Wege frei; ein Restaurant kann so mehr von seiner Terrasse nutzen. Sie verteilt die Wärme gleichmäßig von oben auf die Sitzplätze und hält das Gerät von Spritzwasser und Staub fern[^s1]. Das Sortiment der Deckenheizstrahler finden Sie auf [bromic.de](https://www.bromic.de/).
+Eine Deckenmontage hält Boden und Wege offen, sodass ein Restaurant mehr aus seiner Terrasse machen kann. Ihre Wärme fällt gleichmäßig auf die Sitzplätze, und das Gerät bleibt gut geschützt vor Spritzwasser und Staub[^s1]. Das Sortiment der Deckenheizstrahler finden Sie auf [bromic.de](https://www.bromic.de/).
 
-## 1. Wie hoch sollte der Heizstrahler hängen?
+## 1. Die Höhe für behagliche Wärme am Tisch
 
-Zwischen 2,4 und 2,7 m über dem Boden, bei Elektro und Gas[^s1]. Von dieser Höhe gehen die Angaben zur Heizfläche aus. Der Mindestwert liegt bei ca. 2,44 m für Platinum, Tungsten und Eclipse Electric sowie für Platinum und Tungsten Gas; für Cobalt nennt die Produktseite ebenfalls ca. 2,44 m[^s2][^s3].
+Bei Elektro wie bei Gas gehört der Heizstrahler zwischen 2,4 und 2,7 m über den Boden, die Höhe, von der die Angaben zur Heizfläche ausgehen[^s1]. Der Mindestwert liegt bei ca. 2,44 m für Platinum, Tungsten und Eclipse Electric sowie für Platinum und Tungsten Gas, und für Cobalt nennt die Produktseite ebenfalls ca. 2,44 m[^s2][^s3].
 
-## 2. Welche Stange bei einer hohen Decke?
+## 2. Die Wärme von einer hohen Decke herunterholen
 
-Ab etwa 2,7 m Deckenhöhe hängen Sie den Heizstrahler an einer Stange ab[^s1].
+Ab etwa 2,7 m Deckenhöhe bringt eine Stange den Heizstrahler dorthin, wo Ihre Gäste sitzen[^s1].
 
 | Kollektion | Stangen |
 |---|---|
@@ -117,9 +117,9 @@ Ab etwa 2,7 m Deckenhöhe hängen Sie den Heizstrahler an einer Stange ab[^s1].
 | Tungsten Electric | Stange ca. 915 mm[^s1] |
 | Platinum und Tungsten Gas | Sechs Längen von ca. 246 mm bis ca. 1046 mm; müssen senkrecht hängen[^s4] |
 
-Der Heizstrahler hängt waagerecht und zeigt zum Boden. Bei einer geneigten Decke gleicht der Verstellpunkt der Stange den Winkel aus[^s4].
+Der Heizstrahler hängt waagerecht und zeigt zum Boden, und bei einer geneigten Decke gleicht der Verstellpunkt der Stange den Winkel aus[^s4].
 
-## 3. Wie viel Abstand braucht es über dem Heizstrahler?
+## 3. Raum über dem Heizstrahler lassen
 
 | Heizstrahler | Abstand nach oben |
 |---|---|
@@ -127,11 +127,11 @@ Der Heizstrahler hängt waagerecht und zeigt zum Boden. Bei einer geneigten Deck
 | Gas mit Hitzeschild | ca. 360 mm[^s1] |
 | Gas ohne Hitzeschild | ca. 0,9 m[^s1] |
 
-Der Bromic-Planungsleitfaden weist darauf hin, dass der Deckenabstand von der Leistung abhängt[^s7]. Entnehmen Sie den Wert für das genaue Modell und die Spannung daher seiner Anleitung; die technischen Unterlagen finden Sie über [bromic.de](https://www.bromic.de/).
+Der Bromic-Planungsleitfaden weist darauf hin, dass der Deckenabstand von der Leistung abhängt[^s7]. Entnehmen Sie den Wert für Ihr genaues Modell und die Spannung daher seiner Anleitung; die technischen Unterlagen finden Sie über [bromic.de](https://www.bromic.de/).
 
-## 4. Kann die Decke das Gewicht tragen?
+## 4. Sicherstellen, dass die Decke das Gewicht trägt
 
-Befestigen Sie das Gerät an Balken, Trägern oder Aufdoppelungen, nie nur an der Bekleidung. Der ältere Beitrag nannte ca. 7,3–10,0 kg für jeden elektrischen Heizstrahler; die aktuellen Modelle sind schwerer[^s2][^s3].
+Befestigen Sie jeden Heizstrahler an Balken, Trägern oder Aufdoppelungen und nie nur an der Bekleidung. Der ältere Beitrag nannte ca. 7,3–10,0 kg für jeden elektrischen Heizstrahler, und die heutigen Modelle sind schwerer[^s2][^s3].
 
 | Heizstrahler | Gewicht |
 |---|---|
@@ -141,25 +141,25 @@ Befestigen Sie das Gerät an Balken, Trägern oder Aufdoppelungen, nie nur an de
 | Tungsten Electric | [[VERIFY: per model — Produktteam]] |
 | Platinum Gas und Tungsten Gas | ca. 15,0 kg (Modell mit ca. 15 m²), ca. 20,0 kg (Modell mit ca. 20 m²) |
 
-Rechnen Sie das Gewicht der Stange zur Last hinzu.
+Denken Sie daran, das Gewicht der Stange zur Last hinzuzurechnen.
 
-## 5. Was zählt als brennbares Material?
+## 5. Brennbares auf angenehmem Abstand halten
 
-Halten Sie jeden Heizstrahler mindestens ca. 0,9 m von Vorhängen, Markisen, Sonnenschirmen, Leuchten und Ventilatoren entfernt[^s1]. Denken Sie an Bewegliches: Eine eingefahrene Markise oder ein zugezogener Vorhang kann in den Wärmebereich schwingen.
+Halten Sie jeden Heizstrahler mindestens ca. 0,9 m von Vorhängen, Markisen, Sonnenschirmen, Leuchten und Ventilatoren entfernt[^s1]. Es lohnt sich auch, sich den Bereich in Benutzung vorzustellen, denn eine eingefahrene Markise oder ein zugezogener Vorhang kann in den Wärmebereich schwingen.
 
-## Welche Steuerung und welche Stromkreise kommen hinein, bevor die Decke geschlossen wird?
+## Steuerung und Stromkreise, vorbereitet bevor die Decke geschlossen wird
 
-Jeder Deckenheizstrahler braucht ein Steuergerät und einen Schalter, vorbereitet zusammen mit dem Stromkreis:
+Jeder Deckenheizstrahler wird mit einem Steuergerät und einem Schalter kombiniert, vorbereitet zusammen mit seinem Stromkreis:
 
-- **Elektro**: ein eigener Stromkreis je Heizstrahler oder Steuergerätekanal, für Dauerlast bemessen nach DIN VDE 0100, mit einem Affinity On/Off- oder Dimmer-Steuergerät (die US-Produktseiten nennen 6 kW je Kanal bei 208–277 V) und einem manuellen Wandschalter[^s5]. Eclipse Electric verwendet das Affinity Eclipse-Steuergerät, ein Heizstrahler je Kanal[^s5]. [[VERIFY: Kanalleistung der Steuergeräte und Wandschalter für 230 V — Produktteam]]
-- **Gas**: eine Stromversorgung für jedes Gerät (die US-Produktseiten nennen 110 V, 2 A), ein Affinity On/Off-Steuergerät (bis zu 10 Gasgeräte je Kanal) und ein Wandschalter[^s3][^s5]. [[VERIFY: Stromversorgung der Gasgeräte in Deutschland (230 V) — Produktteam]]
-- **App**: Die Bromic Smart-Heat App legt Zonen, Zeitpläne und Timer fest. WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Controls, separat erhältlich[^s6].
+- **Für elektrische Heizstrahler** legen Sie einen eigenen Stromkreis je Heizstrahler oder Steuergerätekanal, für Dauerlast bemessen nach DIN VDE 0100, mit einem Affinity On/Off- oder Dimmer-Steuergerät (die US-Produktseiten nennen 6 kW je Kanal bei 208–277 V) und einem manuellen Wandschalter[^s5]. Eclipse Electric verwendet das Affinity Eclipse-Steuergerät, ein Heizstrahler je Kanal[^s5]. [[VERIFY: Kanalleistung der Steuergeräte und Wandschalter für 230 V — Produktteam]]
+- **Für Gasheizstrahler** sehen Sie eine Stromversorgung für jedes Gerät vor (die US-Produktseiten nennen 110 V, 2 A), dazu ein Affinity On/Off-Steuergerät (bis zu 10 Gasgeräte je Kanal) und einen Wandschalter[^s3][^s5]. [[VERIFY: Stromversorgung der Gasgeräte in Deutschland (230 V) — Produktteam]]
+- **Mit der App** legt die Bromic Smart-Heat App Zonen, Zeitpläne und Timer fest. WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Controls, separat erhältlich[^s6].
 
 Lassen Sie die Anschlussdose zugänglich. Details zur Vorverkabelung finden Sie in [unserem Leitfaden zur Rohinstallation](item:BLD-IN-01).
 
 <div class="diagram">Diagramm: Schnitt durch eine überdachte Terrasse mit an einer Stange montiertem Heizstrahler auf 2,4–2,7 m, Abstand über dem Kopf, Radius von ca. 0,9 m zu brennbaren Materialien, Anschlussdose am oberen Ende der Stange und Stromkreis zu Affinity-Steuergerät und Wandschalter</div>
 
-## Welche Vorschriften gelten?
+## Die Vorschriften für eine sichere Installation
 
 In Deutschland richten sich elektrische Heizstrahler nach DIN VDE 0100 und Gasgeräte nach DVGW-TRGI (Erdgas) bzw. TRF (Flüssiggas)[^s7]. [[VERIFY: current VDE and DVGW rules for outdoor heaters — Partner Deutschland]] In den USA gelten [NFPA 70](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70) und ANSI Z223.1/[NFPA 54](https://www.nfpa.org/codes-and-standards/nfpa-54-standard-development/54)[^s8][^s9]. Lassen Sie die Montage von einem Elektrofachbetrieb oder Gasinstallateur nach der Anleitung ausführen und klären Sie die Anforderungen mit Ihrem Bauamt.
 
@@ -171,7 +171,7 @@ In Deutschland richten sich elektrische Heizstrahler nach DIN VDE 0100 und Gasge
 
 ### Meine Decke ist 3,66 m hoch. Was tun?
 
-Bringen Sie den Heizstrahler mit einer Stange auf 2,4–2,7 m. Für Platinum gibt es Stangen mit ca. 610 mm und ca. 1220 mm; für Gasgeräte Stangen bis ca. 1046 mm[^s1][^s4].
+Eine Stange bringt den Heizstrahler auf 2,4–2,7 m. Für Platinum gibt es Stangen mit ca. 610 mm und ca. 1220 mm, für Gasgeräte Stangen bis ca. 1046 mm[^s1][^s4].
 
 ### Wie viel Abstand braucht ein Gasheizstrahler nach oben?
 
@@ -179,6 +179,6 @@ Ca. 0,9 m, oder ca. 360 mm mit Hitzeschild[^s1].
 
 ### Kann ich einen Heizstrahler an eine Pergola hängen?
 
-Ja, wenn der Balken für Heizstrahler und Stange ausgelegt ist und der Abstand nach oben sowie der Abstand zu brennbaren Materialien eingehalten werden. Stoffbeschattungen zählen als brennbar; prüfen Sie die Eignung von Lamellen und Holz innerhalb des Abstandsbereichs.
+Ja, sofern der Balken für Heizstrahler und Stange ausgelegt ist und der Abstand nach oben sowie der Abstand zu brennbaren Materialien eingehalten werden. Stoffbeschattungen zählen als brennbar, prüfen Sie daher die Eignung von Lamellen und Holz innerhalb des Abstandsbereichs.
 
-Für einen Deckenplan mit ausgearbeiteten Höhen und Stangen nutzen Sie den Planungsservice auf [bromic.de](https://www.bromic.de/).
+Für einen Deckenplan, bei dem wir Höhen und Stangen für Sie ausarbeiten, nutzen Sie gemeinsam mit uns den Planungsservice auf [bromic.de](https://www.bromic.de/).

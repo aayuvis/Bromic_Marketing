@@ -7,11 +7,11 @@ audience: [ARC, BLD]
 stage: [IN]
 cell: ARC-IN
 asset: A24
-summary: "Die Planungs-Checkliste für den bündigen Einbau von Platinum- und Tungsten-Electric-Heizstrahlern: Stärke der Deckenbekleidung, Hohlraumtiefe je Einbaurahmen, Gewicht, Wasser und Dämmung, Stromkreis und Affinity-Steuerung und was in die Pläne gehört."
+summary: "Alles, was Sie einplanen sollten, bevor ein Platinum- oder Tungsten-Electric-Heizstrahler bündig in der Decke verschwindet: von der Stärke der Bekleidung, der Hohlraumtiefe je Einbaurahmen, Gewicht, Wasser und Dämmung bis zu Stromkreis, Affinity-Steuerung und Plänen."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Was muss ich wissen, bevor ich einen elektrischen Heizstrahler in eine Decke einbaue?"
-meta_description: "Elektrischen Heizstrahler in die Decke einbauen: Bekleidung 10–30 mm stark, Hohlraum 180 mm bis ca. 540 mm je Einbaurahmen, eigener Stromkreis und Affinity-Steuerung."
+meta_description: "Einbau-Heizstrahler planen: Deckenbekleidung 10–30 mm stark, Hohlraum 180 mm bis ca. 540 mm je Einbaurahmen, eigener Stromkreis und Affinity-Steuerung."
 cta: {label: "Planungspaket für Architekten herunterladen", asset: A11}
 hero: w-residential-belgium-brussels-medows-resid-3
 images: [w-dorrington-homes-platinum-electric-2]
@@ -21,7 +21,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-IN-KB1, ARC-IN-01, ARC-BY-KB1, BLD-IN-KB1]
-updated: 2026-10-29
+updated: 2026-11-16
 lang: de
 translation_of: BLOG-03
 translation_status: machine-draft
@@ -85,17 +85,17 @@ sources:
     verified: true
 ---
 
-Bevor Sie einen elektrischen Heizstrahler in die Decke einbauen, klären Sie vier Dinge: eine Deckenbekleidung von 10–30 mm Stärke, einen Hohlraum, der tief genug für den Einbaurahmen ist (180 mm beim Platinum Low Clearance Kit, bis ca. 536 mm bei Tungsten), ein Tragwerk, das den Heizstrahler trägt und trocken bleibt, und einen eigenen Stromkreis mit Affinity Smart-Heat-Steuerung und Wandschalter. Ein Einbaustrahler wird geplant, nicht nachträglich ergänzt: Er gehört in die Pläne, bevor die Decke geschlossen wird.
+Ein Einbau-Heizstrahler beginnt mit vier Prüfungen: einer Deckenbekleidung von 10–30 mm Stärke, einem Hohlraum, der tief genug für den Einbaurahmen ist (180 mm beim Platinum Low Clearance Kit, bis ca. 536 mm bei Tungsten), einem Tragwerk, das den Heizstrahler trägt und trocken bleibt, und einem eigenen Stromkreis mit Affinity Smart-Heat-Steuerung und Wandschalter. Jede davon gehört in die Pläne, lange bevor die Decke geschlossen wird.
 
 *Halten Sie sich an die Montageanleitung des genauen Modells und Einbaurahmens. Die Elektroarbeiten muss ein Elektrofachbetrieb nach den örtlich geltenden Vorschriften ausführen, in Deutschland nach DIN VDE 0100 (in den USA nach [NFPA 70](https://www.nfpa.org/codes-and-standards/nfpa-70-standard-development/70)[^s8]); klären Sie die Anforderungen mit Ihrem Bauamt.* [[VERIFY: current VDE and DVGW rules for outdoor heaters — Partner Deutschland]]
 
-![Platinum-Electric-Heizstrahler bündig in die Decke einer Außenküche eingelassen](img:w-dorrington-homes-platinum-electric-2)
+![Platinum-Electric-Heizstrahler, bündig in die Decke einer Außenküche eingelassen](img:w-dorrington-homes-platinum-electric-2)
 
-## Welche Heizstrahler lassen sich einbauen?
+## Heizstrahler, die in Ihrer Decke verschwinden
 
-Platinum Electric, Platinum Electric Marine und Tungsten Electric werden mit einem Bromic-Einbaurahmen eingebaut[^s1]. Gasheizstrahler lassen sich nicht einbauen. Das Sortiment der Einbaustrahler finden Sie auf [bromic.de](https://www.bromic.de/).
+Platinum Electric, Platinum Electric Marine und Tungsten Electric lassen sich alle mit einem Bromic-Einbaurahmen einbauen, und ihre Wärme ist dann zu spüren, ohne dass man das Gerät sieht[^s1]. Gasheizstrahler lassen sich nicht einbauen. Das Sortiment der Einbaustrahler finden Sie auf [bromic.de](https://www.bromic.de/).
 
-## Wie tief muss der Deckenhohlraum sein?
+## Wie tief der Deckenhohlraum sein muss
 
 | Heizstrahler | Einbaurahmen | Mindesttiefe des Hohlraums | Hinweise |
 |---|---|---|---|
@@ -104,21 +104,21 @@ Platinum Electric, Platinum Electric Marine und Tungsten Electric werden mit ein
 | Platinum 4500 W | Platinum-Standard-Einbaurahmen | ca. 330 mm | [^s1] |
 | Platinum 2300, 3400, 4500 W | Low Clearance Recess Kit | 180 mm | Integrierter Einbaukasten, Lüfter und Lüftungsöffnungen; passt zwischen übliche Balken; UL-zertifiziert[^s1][^s3] |
 
-Planen Sie Tungsten mit ca. 536 mm, bis das Datenblatt es klärt. Der Tungsten-Einbaurahmen wird paarweise verkauft, einer für 2000 und 4000 W und einer für 3000 und 6000 W[^s5].
+Planen Sie Tungsten mit ca. 536 mm, bis das Datenblatt den Wert klärt. Den Tungsten-Einbaurahmen gibt es in zwei Ausführungen, eine für 2000 und 4000 W und eine für 3000 und 6000 W[^s5].
 
-Die ältere Fassung dieses Beitrags nannte den Low Clearance Kit nur für 2300 und 3400 W. Die Produktseite des Kits nennt inzwischen auch 4500 W[^s3] [[VERIFY: 4500 W low-clearance compatibility against the current manual — Produktteam]]. Den Einbau Schritt für Schritt beschreibt der Beitrag „So montieren Sie den Low Clearance Recess Kit“.
+Eine frühere Fassung dieses Beitrags nannte den Low Clearance Kit nur für 2300 und 3400 W, und die Produktseite des Kits nennt inzwischen auch 4500 W[^s3] [[VERIFY: 4500 W low-clearance compatibility against the current manual — Produktteam]]. Den Einbau Schritt für Schritt beschreibt der Beitrag „So montieren Sie den Low Clearance Recess Kit“.
 
-## Woraus sollte die Decke bestehen?
+## Die Decke selbst vorbereiten
 
-- **Stärke der Bekleidung.** 10–30 mm ist der ideale Bereich. Eine stärkere Decke braucht ein Sonderdetail vom technischen Support von Bromic[^s1].
-- **Tragwerk.** Einbaustrahler wiegen ca. 7,7 kg (Platinum 2300 W) bis ca. 15,0 kg (Platinum 4500 W)[^s4]; die ältere Spanne von ca. 7,3–17,2 kg umfasste Modelle, die heute nicht mehr geführt werden [[VERIFY: heaviest recessed Tungsten weight — Produktteam]]. Planen Sie Unterkonstruktion und Aufdoppelungen so, dass sie Heizstrahler und Einbaurahmen tragen; verstärken Sie schwache Balken.
-- **Wasser.** Schützen Sie den Heizstrahler vor Wasser von oben; die Decke darf nicht auf ihn tropfen[^s1].
-- **Dämmung.** Nichts im Hohlraum, auch keine Dämmung, darf den Heizstrahler oder den Einbaurahmen bedecken[^s1].
-- **Brennbare Materialien.** Die Abstände zu brennbaren Materialien unterscheiden sich je Modell; entnehmen Sie sie der Anleitung des genauen Geräts[^s1]. Halten Sie Abstand zu Deckenleuchten und Ventilatoren[^s2].
+- **Die Stärke der Bekleidung** liegt idealerweise bei 10–30 mm. Eine stärkere Decke braucht ein Sonderdetail vom technischen Support von Bromic[^s1].
+- **Das Tragwerk** muss Einbaustrahler von ca. 7,7 kg (Platinum 2300 W) bis ca. 15,0 kg (Platinum 4500 W) tragen[^s4]; die ältere Spanne von ca. 7,3–17,2 kg umfasste Modelle, die nicht mehr geführt werden [[VERIFY: heaviest recessed Tungsten weight — Produktteam]]. Planen Sie Unterkonstruktion und Aufdoppelungen so, dass sie Heizstrahler und Einbaurahmen tragen, und verstärken Sie schwache Balken.
+- **Wasser** muss vom Heizstrahler ferngehalten werden, die Decke darüber darf also nie auf ihn tropfen[^s1].
+- **Dämmung** darf, wie alles andere im Hohlraum, den Heizstrahler oder den Einbaurahmen nie bedecken[^s1].
+- **Die Abstände zu brennbaren Materialien** unterscheiden sich je Modell, entnehmen Sie sie deshalb der Anleitung des genauen Geräts[^s1], und halten Sie Abstand zu Deckenleuchten und Ventilatoren[^s2].
 
-## Wie wird ein Einbaustrahler angeschlossen und gesteuert?
+## Verkabelung und Steuerung, gemeinsam geplant
 
-Der Einbau legt den Heizstrahler dauerhaft fest, also legen Sie die Steuerung gleich mit fest. Jeder Heizstrahler braucht:
+Ist ein Heizstrahler einmal eingebaut, gehört er dauerhaft zur Architektur, und die Steuerung verdient im selben Moment dieselbe Sorgfalt. Jeder Heizstrahler braucht:
 
 | Bauteil | Festlegen | Hinweis |
 |---|---|---|
@@ -128,11 +128,11 @@ Der Einbau legt den Heizstrahler dauerhaft fest, also legen Sie die Steuerung gl
 | Lüfter des Low Clearance Kits | Eigene Versorgung | Der Lüfter des Kits braucht eine eigene Versorgung, getrennt vom Heizstrahler[^s3] |
 | Gebäudeleittechnik oder Hausautomation | Erweiterungsplatine (Expansion Board) | [^s6] |
 
-Die Bromic Smart-Heat App ergänzt Zonen, Zeitpläne und Timer. WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Controls, separat erhältlich[^s7]. Setzen Sie das Steuergerät dorthin, wo es nach dem Schließen der Decke zugänglich bleibt.
+Die Bromic Smart-Heat App ergänzt Zonen, Zeitpläne und Timer. WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Controls, separat erhältlich[^s7]. Setzen Sie das Steuergerät dorthin, wo es auch nach dem Schließen der Decke noch gewartet werden kann.
 
 <div class="diagram">Diagramm: Deckenschnitt durch einen eingelassenen Platinum-Heizstrahler mit Stärke der Bekleidung, Hohlraumtiefe je Einbaurahmen, Balken und Aufdoppelungen, dem Stromkreis des Heizstrahlers und der getrennten Lüfterversorgung des Low Clearance Kits sowie Affinity-Steuergerät und Wandschalter an der Wand</div>
 
-## Was gehört in die Pläne?
+## Was in die Pläne gehört
 
 - [ ] Größe und Lage des Ausschnitts im Deckenspiegel
 - [ ] Hohlraumtiefe, Art des Einbaurahmens, Unterkonstruktion und Aufdoppelungen im Schnitt
@@ -141,24 +141,24 @@ Die Bromic Smart-Heat App ergänzt Zonen, Zeitpläne und Timer. WLAN- und App-Fu
 - [ ] Stromkreis, Leitungsweg und Anschlussdose; die Lüfterversorgung bei einem Low Clearance Kit
 - [ ] Lage von Affinity-Steuergerät, Wandschalter und Erweiterungsplatine
 
-Mehr zur Detaillierung einer Untersicht unter [kann ein Heizstrahler in eine Untersicht eingebaut werden?](item:ARC-IN-KB1)
+Zur Detaillierung einer Untersicht siehe [kann ein Heizstrahler in eine Untersicht eingebaut werden?](item:ARC-IN-KB1)
 
 ## Häufige Fragen
 
 ### Wie tief muss der Deckenhohlraum für einen Einbaustrahler sein?
 
-Von 180 mm mit dem Platinum Low Clearance Recess Kit über ca. 254–330 mm mit dem Platinum-Standard-Einbaurahmen bis rund 530 mm bei Tungsten Electric[^s1][^s3].
+Je nach Einbaurahmen zwischen 180 mm mit dem Platinum Low Clearance Recess Kit, ca. 254–330 mm mit dem Platinum-Standard-Einbaurahmen und rund 530 mm bei Tungsten Electric[^s1][^s3].
 
 ### Kann ich einen Heizstrahler in eine bestehende Decke einbauen?
 
-Oft ja. Der Low Clearance Kit passt bei Nachrüstung und Neubau zwischen übliche Balken[^s1][^s3]. Prüfen Sie die Stärke der Bekleidung und ob ein Stromkreis dorthin geführt werden kann.
+Oft ja. Der Low Clearance Kit passt bei Nachrüstungen ebenso wie im Neubau zwischen übliche Balken[^s1][^s3]. Prüfen Sie die Stärke der Bekleidung und ob ein Stromkreis die Position des Heizstrahlers erreichen kann.
 
 ### Braucht ein Einbaustrahler eine besondere Steuerung?
 
-Dieselbe wie jeder elektrische Bromic-Heizstrahler: ein Affinity On/Off- oder Dimmer-Steuergerät und einen manuellen Wandschalter[^s4]. Ein Low Clearance Kit braucht außerdem eine Versorgung für seinen Lüfter[^s3].
+Er nutzt dieselbe Steuerung wie jeder elektrische Bromic-Heizstrahler, ein Affinity On/Off- oder Dimmer-Steuergerät und einen manuellen Wandschalter[^s4]. Ein Low Clearance Kit braucht außerdem eine Versorgung für seinen Lüfter[^s3].
 
 ### Darf Dämmung einen Einbaustrahler berühren?
 
 Nein. Nichts im Hohlraum darf den Heizstrahler bedecken[^s1].
 
-Um eine Decke vor dem Bau prüfen zu lassen, schicken Sie die Pläne an den Planungsservice auf [bromic.de](https://www.bromic.de/).
+Um eine Decke vor dem Bau prüfen zu lassen, teilen Sie Ihre Pläne mit uns über den Planungsservice auf [bromic.de](https://www.bromic.de/).
