@@ -97,7 +97,7 @@ def C_fsrot(x):  # Eclipse Freestanding, mirrored and turned a quarter: disc at 
 def C_fsbig(x):
   w,_=put(P['efs'],0,0,h=HL*1.08); LAY.pop(); put(P['efs'],x+w/2,(T+BS)/2-HL*0.04,h=HL*1.08,flipx=True); return x+w
 OPTIONS=[
- ('6','The Original Sketch',[(B_halves,{}),(R_half,{}),(O_face,{}),(M_lin,{}),(I_port,{}),(C_fsrot,{})]),
+ ('6','The Original Sketch',[(B_halves,{}),(R_half,{}),(O_face,{}),(M_lin,{}),(I_port,{}),(C_open,{})]),
  ('1','Eclipse Rounds',[(B_eclipses,{}),(R_eclipse,{}),(O_face,{}),(M_lin,{}),(I_port,{}),(C_half,{})]),
  ('2','The Freestanding Pair',[(B_fs,{}),(R_fs,{}),(O_face,{}),(M_towers,{}),(I_lin,{}),(C_open,{})]),
  ('3','Glass And Light',[(B_eclipses,{'kind':'platinum'}),(R_eclipse,{'kind':'platinum','leg':'tungsten'}),(O_tilt,{}),(M_lin,{'kind':'platinum'}),(I_lin,{'kind':'platinum'}),(C_half,{})]),
