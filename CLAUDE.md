@@ -44,8 +44,8 @@ The Hub's **Product marketing** tab (`#/pm`, `pmPage()` in app.js) holds one fra
 first **Tungsten Smart-Heat® Electric Series II** (launch deck, July 2026: Select and Coastal launched Oct 2026, Classic Jan 2027;
 Series I sells through; Cobalt discontinued). The owner's ten benefit fields are the core (heat performance, installation
 flexibility, ease of installation, recess ability, safety and peace of mind, design aesthetics, design flexibility, ease of
-controls, warranty, heating multiple outdoor areas); four more are marked `proposed` (coastal durability, electrical flexibility,
-choice and value, specification and support). Six buyers: homeowners, builders, installers, commercial and corporate users,
+controls, warranty, heating multiple outdoor areas); three more are marked `proposed` (coastal durability, choice and value,
+specification and support; electrical flexibility removed by the owner, 18 Nov 2026: voltage is parity, not a criterion). Six buyers: homeowners, builders, installers, commercial and corporate users,
 architects, designers. **Matrix 1** weights each benefit per buyer (3/2/1) with the claim that resonates; **matrix 2** compares
 Series II with Series I (bromic.com, cut sheet, manual, warranty); **matrix 3** compares with Infratech (factual, sourced, each row an
 edge: bromic · parity · infratech · unknown; `needs_approval: Specification and compliance`). Claims add no facts; open facts are

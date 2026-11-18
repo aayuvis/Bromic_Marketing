@@ -178,12 +178,6 @@
    "proposed": true
   },
   {
-   "id": "power",
-   "name": "Electrical flexibility",
-   "what": "Wattages and supply voltages for homes and commercial buildings",
-   "proposed": true
-  },
-  {
    "id": "value",
    "name": "Choice and value",
    "what": "Good, Better, Best tiers and price points",
@@ -242,10 +236,6 @@
     "w": 2,
     "claim": "By the sea, Tungsten Coastal protects twice over: 316 marine-grade stainless steel and a protective coating."
    },
-   "power": {
-    "w": 1,
-    "claim": "Made for the 240 V or 208 V supply your home already has."
-   },
    "value": {
     "w": 2,
     "claim": "Good, Better, Best: premium Bromic warmth at the level your project calls for."
@@ -299,10 +289,6 @@
    "coastal": {
     "w": 2,
     "claim": "Coastal developments get 316 stainless plus a protective coating as standard, not an upgrade."
-   },
-   "power": {
-    "w": 2,
-    "claim": "208 V for multifamily, 240 V for single-family and 277 V on the 4 and 6 kW models for mixed use."
    },
    "value": {
     "w": 3,
@@ -358,10 +344,6 @@
     "w": 2,
     "claim": "Coastal jobs: 316 marine-grade stainless with a protective coating, and a marine-grade low-clearance recess kit."
    },
-   "power": {
-    "w": 3,
-    "claim": "220–240 V and 208 V, with 277 V on the 4 and 6 kW models; size circuits from the manual (Series I 6 kW: 25 A at 240 V)."
-   },
    "value": {
     "w": 2,
     "claim": "Three tiers on every quote: Classic $643–$921, Select $923–$1,170, Coastal $1,195–$1,321 list."
@@ -415,10 +397,6 @@
    "coastal": {
     "w": 3,
     "claim": "Waterfront venues get double corrosion protection: 316 marine-grade stainless plus a protective coating."
-   },
-   "power": {
-    "w": 3,
-    "claim": "277 V on the 4 and 6 kW models matches the supply most commercial buildings already have."
    },
    "value": {
     "w": 2,
@@ -474,10 +452,6 @@
     "w": 2,
     "claim": "Specify 316 marine-grade stainless with a protective coating, and a marine-grade recess kit, for coastal sites."
    },
-   "power": {
-    "w": 2,
-    "claim": "208, 240 and 277 V options cover residential, multifamily and commercial projects."
-   },
    "value": {
     "w": 1,
     "claim": "Good, Better, Best for value engineering without changing the detail."
@@ -531,10 +505,6 @@
    "coastal": {
     "w": 1,
     "claim": "Coastal finishes that keep their looks by the sea."
-   },
-   "power": {
-    "w": 1,
-    "claim": "Works on the supply the space already has."
    },
    "value": {
     "w": 2,
@@ -623,13 +593,6 @@
    "s1": "Not rated for marine use: Bromic advises mounting under cover, away from rain, snow and salt mist; stainless grade not published.",
    "s2": "Tungsten Coastal: 316 marine-grade stainless steel with a protective coating (dual corrosion protection), and a marine-grade low-clearance recess kit. [[VERIFY: name and specification of the Coastal coating — Product team]]",
    "so_what": "Tungsten can now be sold to coastal homes and waterfront venues, a market Series I could not serve."
-  },
-  {
-   "benefit": "power",
-   "change": "same",
-   "s1": "220–240 V, 208 V and 277 V options; rated 8.3 to 25 A at 240 V.",
-   "s2": "Same voltage options across Classic, Select and Coastal.",
-   "so_what": "No re-design of circuits: Series II drops into existing electrical plans."
   },
   {
    "benefit": "value",
@@ -999,38 +962,6 @@
      "DES": {
       "w": 1,
       "claim": "Coastal finishes protected twice over, so they keep their looks by the sea."
-     }
-    }
-   },
-   {
-    "benefit": "power",
-    "edge": "infratech",
-    "infratech": "120, 208, 240, 277 and 480 V; 1.5 to 6 kW.",
-    "bromic": "220–240 V, 208 V and 277 V options; 2 to 6 kW.",
-    "users": {
-     "RES": {
-      "w": 1,
-      "claim": "Standard home supply is covered."
-     },
-     "BLD": {
-      "w": 2,
-      "claim": "208 and 240 V cover most residential plans."
-     },
-     "INS": {
-      "w": 3,
-      "claim": "Check projects needing 120 V or 480 V early."
-     },
-     "COM": {
-      "w": 3,
-      "claim": "277 V covers most commercial buildings."
-     },
-     "ARC": {
-      "w": 2,
-      "claim": "Confirm the supply voltage at design stage."
-     },
-     "DES": {
-      "w": 1,
-      "claim": "Works with the supply the space already has."
      }
     }
    },
