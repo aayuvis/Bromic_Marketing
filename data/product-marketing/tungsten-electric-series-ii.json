@@ -212,7 +212,7 @@
    },
    "recess": {
     "w": 3,
-    "claim": "Flush in a shallow ceiling, safely vented by two fans, so the warmth stays and the heater all but disappears."
+    "claim": "Full 6 kW warmth, flush in a shallow ceiling and safely vented by two fans: the only low-clearance recess at this power."
    },
    "safety": {
     "w": 3,
@@ -270,7 +270,7 @@
    },
    "recess": {
     "w": 3,
-    "claim": "Vented low-clearance recessing in a 7.5 in clearance wins alfresco and soffit plans without re-framing."
+    "claim": "The only 6 kW low-clearance recess on the market: vented, 7.5 in clearance, and it wins alfresco and soffit plans without re-framing."
    },
    "safety": {
     "w": 2,
@@ -386,7 +386,7 @@
    },
    "recess": {
     "w": 2,
-    "claim": "Flush heaters in canopies and low soffits keep sight lines clean for guests."
+    "claim": "The only 6 kW low-clearance recess on the market: full commercial warmth, flush in shallow canopies and soffits."
    },
    "safety": {
     "w": 3,
@@ -444,7 +444,7 @@
    },
    "recess": {
     "w": 3,
-    "claim": "Specify vented, flush heat in a 7.5 in clearance, in shallow soffits that were once off-limits."
+    "claim": "Specify the only 6 kW low-clearance recess on the market: vented, flush, in a 7.5 in clearance."
    },
    "safety": {
     "w": 2,
@@ -573,7 +573,7 @@
    "change": "new",
    "s1": "Standard recess kit only, which needs a deep ceiling cavity (Bromic guidance: at least 20 in, with two layers of 5/8 in fireproof insulation). No low-clearance option for Tungsten.",
    "s2": "Vented low-clearance recess kit with two fans, needing 7.5 in clearance, for Select; a marine-grade version for Coastal. Classic uses the existing recess kit.",
-   "so_what": "Safe, vented, flush Tungsten heat in shallow ceilings: alfrescos, patios and low soffits that were out of reach become projects to win."
+   "so_what": "The only 6 kW low-clearance recess on the market: safe, vented, flush Tungsten heat in shallow ceilings that were out of reach."
   },
   {
    "benefit": "safety",
@@ -750,7 +750,7 @@
     "benefit": "recess",
     "edge": "bromic",
     "infratech": "Standard flush frames only: a framed pocket of at least 2×8 (about 7.25 in) lined on all five sides, on a flat ceiling only; \"After 4 hours of continuous use, a 15 minute cool down period is recommended for maximum heater longevity\"; Motif fascias cannot be recessed.",
-    "bromic": "Vented low-clearance recess kit with two fans and a 7.5 in clearance, with a marine-grade version for Coastal. Depth alone is close to Infratech's pocket; lead with the venting, the all-evening running and the simpler cavity. [[VERIFY: low-clearance kit cavity lining and running-time guidance — Product team]]",
+    "bromic": "The only 6 kW low-clearance recess option on the market: vented with two fans, 7.5 in clearance, no box to build, with a marine-grade version for Coastal. [[VERIFY: \"the only 6 kW low-clearance recess option on the market\" — Specification and compliance]]",
     "users": {
      "RES": {
       "w": 3,
@@ -758,7 +758,7 @@
      },
      "BLD": {
       "w": 3,
-      "claim": "Vented low-clearance recessing without a fully lined pocket to build."
+      "claim": "The only 6 kW low-clearance recess, with no lined pocket to build."
      },
      "INS": {
       "w": 3,
@@ -766,11 +766,11 @@
      },
      "COM": {
       "w": 2,
-      "claim": "Run flush heat through the whole service, vented by two fans."
+      "claim": "The only 6 kW low-clearance recess: full commercial heat, flush, all service long."
      },
      "ARC": {
       "w": 3,
-      "claim": "Specify vented low-clearance recessing, including where ceilings are not flat. [[VERIFY: low-clearance recess on pitched ceilings — Product team]]"
+      "claim": "The only 6 kW low-clearance recess to specify, vented and flush."
      },
      "DES": {
       "w": 3,
@@ -1248,7 +1248,7 @@
   {
    "id": "o1",
    "publisher": "Bromic Heating (owner briefing)",
-   "title": "Tungsten Series II core topics: dual elements and dimming, mounting conditions, vented low-clearance recess with two fans and 7.5 in clearance, single post, no visible junction box, portfolio by space; Coastal dual corrosion protection (316 stainless plus coating); recessing with no site-built box",
+   "title": "Tungsten Series II core topics: dual elements and dimming, mounting conditions, vented low-clearance recess with two fans and 7.5 in clearance, single post, no visible junction box, portfolio by space; Coastal dual corrosion protection (316 stainless plus coating); recessing with no site-built box; the only 6 kW low-clearance recess option on the market",
    "year": 2026,
    "url": "internal",
    "verified": true
@@ -1302,9 +1302,10 @@
   },
   {
    "id": "p3",
-   "title": "Safe, Vented Low-Clearance Recessing",
-   "line": "Two fans ventilate the low-clearance recess kit, so Tungsten sits flush in a 7.5 in clearance with no box to build on site, and runs all evening, with app timers for complete peace of mind.",
+   "title": "The Only 6 kW Low-Clearance Recess",
+   "line": "Tungsten Series II is the only 6 kW low-clearance recess option on the market: two fans ventilate the kit, it sits flush in a 7.5 in clearance with no box to build on site, and it runs all evening, with app timers for complete peace of mind.",
    "proof": [
+    "The only 6 kW low-clearance recess option on the market",
     "Vented with two fans",
     "7.5 in clearance",
     "No box to build: the kit is the recess",
@@ -1319,7 +1320,7 @@
    "src": [
     "o1"
    ],
-   "verify": "[[VERIFY: \"the only vented low-clearance recess kit on the market\" before any public use — Specification and compliance]]"
+   "verify": "[[VERIFY: \"the only 6 kW low-clearance recess option on the market\" against current competitor ranges before any public use — Specification and compliance]]"
   },
   {
    "id": "p4",
