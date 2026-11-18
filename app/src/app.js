@@ -1016,6 +1016,16 @@
           <div class="pm-ad-imgs">${a.images.map((i) => img(i)).join('')}</div></div></article>`;
       body = `<div class="pm-intro"><p>The assets this launch needs, each with the claims it carries, and creative briefs for Instagram: one set for homeowners, one for builders and installers. Copy follows the Bromic voice; numbers lead for the trade.</p></div>
         ${segs.map((sg) => `<section class="pm-adsec"><div class="pm-sec-h"><span class="label">Instagram</span><h2>${esc(sg)}</h2></div>${(P.ad_briefs || []).filter((a) => a.segment === sg).map(adCard).join('')}</section>`).join('')}
+        ${(P.carousels || []).map((c) => `<section class="pm-adsec"><div class="pm-sec-h"><span class="label">Instagram carousel · ${esc(c.segment)}</span><h2>${esc(c.name)}</h2></div>
+          <p class="muted">${esc(c.format)} · ${esc(c.objective)} · Measure: ${esc(c.kpi)}</p>
+          <div class="pm-car">${c.cards.map((k, i) => `<figure><img loading="lazy" src="decks/carousels/${esc(c.id)}-${i + 1}.jpg" alt="${esc(k.headline)}"><figcaption><b>${esc(k.headline)}</b> ${esc(k.body)}</figcaption></figure>`).join('')}</div>
+          <p class="pm-must"><b>Must carry:</b> ${c.mandatory.map(esc).join(' ')}</p></section>`).join('')}
+        ${(P.storyboards || []).map((b) => `<section class="pm-adsec"><div class="pm-sec-h"><span class="label">Storyboard · ${esc(b.segment)}</span><h2>${esc(b.name)}</h2></div>
+          <p class="muted">${esc(b.format)} · Objective: ${esc(b.objective)} · Measure: ${esc(b.kpi)}</p>
+          <a href="${esc(b.board)}" target="_blank" rel="noopener"><img class="pm-sb" loading="lazy" src="${esc(b.board)}" alt="${esc(b.name)}: four-frame storyboard"></a>
+          <ol class="pm-frames">${b.frames.map((f) => `<li>${esc(f)}</li>`).join('')}</ol>
+          <p class="pm-must"><b>Must carry:</b> ${b.mandatory.map(esc).join(' ')}</p></section>`).join('')}
+        ${P.visuals_note ? `<p class="muted" style="font-size:13px">${esc(P.visuals_note)}</p>` : ''}
         <div class="pm-sec-h"><span class="label">Launch kit</span><h2>Assets To Create</h2></div>
         <div class="pm-wrap"><table class="pm-grid"><thead><tr><th>Asset</th><th>Channel</th><th>For</th><th>Claims it carries</th><th>Brief</th><th>Owner</th></tr></thead><tbody>
         ${(P.assets_to_create || []).map((a) => `<tr><th scope="row" class="pm-b"><b>${esc(a.name)}</b></th><td>${esc(a.channel)}</td><td>${esc(a.audience)}</td><td><ul>${a.claims.map((c) => `<li>${esc(c)}</li>`).join('')}</ul></td><td>${esc(a.brief)}</td><td>${esc(a.owner)}</td></tr>`).join('')}

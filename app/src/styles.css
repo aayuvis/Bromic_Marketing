@@ -686,3 +686,10 @@ thead .pm-u { border: 0; background: none; padding: 0; font: 600 11px/1.3 var(--
 .pm-ad-imgs { display: flex; gap: 8px; margin-top: 12px; } .pm-ad-imgs img { width: 96px; height: 72px; object-fit: cover; border: 1px solid var(--line); }
 .pm-grid ul { margin: 0; padding-left: 16px; }
 @media (max-width: 900px) { .pm-ad { grid-template-columns: 1fr; } .pm-phone { max-width: 320px; } }
+
+.pm-car { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; margin: 12px 0; }
+.pm-car figure { margin: 0; } .pm-car img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border: 1px solid var(--line); display: block; }
+.pm-car figcaption { font-size: 13px; margin-top: 8px; line-height: 1.45; }
+.pm-sb { width: 100%; height: auto; border: 1px solid var(--line); margin: 12px 0; display: block; }
+.pm-frames { font-size: 14px; padding-left: 20px; } .pm-must { font-size: 13px; }
+@media (max-width: 760px) { .pm-car { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

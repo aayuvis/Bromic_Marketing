@@ -44,7 +44,7 @@ The Hub's **Product marketing** tab (`#/pm`, `pmPage()` in app.js) holds one fra
 first **Tungsten Smart-Heat® Electric Series II** (launch deck, July 2026: Select and Coastal launched Oct 2026, Classic Jan 2027;
 Series I sells through; Cobalt discontinued). The owner's ten benefit fields are the core (heat performance, installation
 flexibility, ease of installation, recess ability, safety and peace of mind, design aesthetics, design flexibility, ease of
-controls, warranty, heating multiple outdoor areas); two more are marked `proposed` (coastal durability, specification and support; electrical flexibility and
+controls, warranty, heating multiple outdoor areas); two more, coastal durability and specification and support, are core too (owner, 18 Nov 2026: not proposed; electrical flexibility and
 choice and value removed by the owner, 18 Nov 2026: voltage is parity and price is not a benefit field; tier prices stay in the tier cards). Six buyers: homeowners, builders, installers, commercial and corporate users,
 architects, designers. **Matrix 1** weights each benefit per buyer (3/2/1) with the claim that resonates; **matrix 2** compares
 Series II with Series I (bromic.com, cut sheet, manual, warranty); **matrix 3** compares with Infratech (factual, sourced, each row an
@@ -65,13 +65,17 @@ lines, KPI). `app/test/pm.mjs` holds every buyer × benefit filled. Series II re
 Infratech), marketing (messages, portfolio, assets, Instagram ads), product training (six modules and a knowledge check) and launch emails
 (architects, builders and installers, dealers, designers). Rebuild it whenever the framework changes; the Hub links it from Product marketing. v2 (owner, 18 Nov 2026): benefit fields in
 priority order (recess, heat, aesthetics, controls, install flexibility, safety, design flexibility, multiple areas, warranty, ease of
-install, then the two proposed); a Lucide icon per field and audience; images cropped to their frames with sharp, never stretched;
+install, specification and support, durability by the coast); a Lucide icon per field and audience; images cropped to their frames with sharp, never stretched;
 Tungsten images on the cover, contents and dividers; every model including 6 kW tilts to 45° (the manual says 30° for 4–6 kW:
 `tilt_verify`); **3-year warranty** on Series II (`warranty_note`); a CAD-style recess airflow animation in the assets; crisp emails
 with bold leads; the last slide sets clear asks for Mike Clifford (product and channel management) and Megan Spies (brand marketing): the
 one place names appear, at the owner's explicit request (18 Nov 2026). v3: two four-frame Instagram storyboards (homeowners, specifiers; frames made with
 an image model from Series II references, labelled not for publication; `decks/img/sb-*.jpg`, boards in `decks/storyboard-*.jpg`);
-message 03 reads "Worry-Free, Dual Fan-Ventilated 6 kW Recessing" (owner: "worry-free" for customer-facing "safe").
+message 03 reads "Worry-Free, Dual Fan-Ventilated 6 kW Recessing" (owner: "worry-free" for customer-facing "safe"). v4: chapter 5, one-pagers (against
+Infratech, builders and installers, architects and specifiers, homeowners, dealers, designers, commercial); two four-benefit Instagram
+carousels (`carousels` in the framework: power, recess, design, controls; cards rendered on Bromic photography by
+`python3 decks/build-carousels.py` → `decks/carousels/`); the last slide is high-level and says the playbook is a suggestion. The Hub's
+Product marketing tab 4 shows the carousels and storyboards (`storyboards`).
 
 ## Calculations: one simple model
 

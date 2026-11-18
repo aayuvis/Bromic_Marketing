@@ -178,13 +178,13 @@
    "id": "support",
    "name": "Specification and support",
    "what": "Design service, documentation and partner support",
-   "proposed": true
+   "proposed": false
   },
   {
    "id": "coastal",
    "name": "Durability by the coast",
    "what": "Materials and finishes for salt air and rain",
-   "proposed": true
+   "proposed": false
   }
  ],
  "m1": {
@@ -1895,5 +1895,138 @@
  "deck": "decks/Tungsten-Series-II-Launch-Playbook.pptx",
  "benefit_order_note": "Ordered by priority: total weight across the six audiences (3 matters most, 2 matters, 1 nice to have), ties broken by the owner's order; proposed fields last.",
  "tilt_verify": "[[VERIFY: 45° tilt on 4 and 6 kW (owner, 18 Nov 2026) against the Series II manual, which gives a 30° maximum for 4 and 6 kW — Product team: correct the manual or the claim]]",
- "warranty_note": "Series II warranty: 3 years (owner, 18 Nov 2026). [[VERIFY: Series II element cover (Series I: 7 years) and Coastal terms, and publication of the 3-year warranty on bromic.com — Product team]]"
+ "warranty_note": "Series II warranty: 3 years (owner, 18 Nov 2026). [[VERIFY: Series II element cover (Series I: 7 years) and Coastal terms, and publication of the 3-year warranty on bromic.com — Product team]]",
+ "carousels": [
+  {
+   "id": "car-res",
+   "segment": "Homeowners",
+   "name": "Four Reasons, One Heater",
+   "format": "Instagram carousel, 4 cards, 4:5",
+   "objective": "Consideration: the four benefits that matter most to homeowners, one a card",
+   "kpi": "Swipe-through rate, saves, landing page views",
+   "cta": "Learn More",
+   "cards": [
+    {
+     "label": "Power",
+     "headline": "Power-Packed Heat",
+     "body": "Up to 6 kW from dual elements, dimmed to the evening with the Affinity Smart-Heat® Dimmer.",
+     "image": "d-tungsten-louvre-detail",
+     "benefit": "heat"
+    },
+    {
+     "label": "Recess",
+     "headline": "Recessed. Worry-Free.",
+     "body": "Flush in a shallow 7.5 in ceiling and dual fan-ventilated, so the warmth stays and the heater all but disappears.",
+     "image": "w-26-bromic-morningcoffee-0251-opt",
+     "benefit": "recess"
+    },
+    {
+     "label": "Design",
+     "headline": "Made For Your Outdoor Persona",
+     "body": "All black, all white or all graphite, with a Diamond, oval or triangle front.",
+     "image": "w-bromictungstenelectic-white",
+     "benefit": "design_flex"
+    },
+    {
+     "label": "Control",
+     "headline": "Smart Controls, Smart Home",
+     "body": "Schedules and timers in the Bromic app, and your voice through Alexa or Google Assistant.",
+     "image": "t-009-025",
+     "benefit": "controls"
+    }
+   ],
+   "mandatory": [
+    "Wi-Fi, app and voice features need compatible Affinity Smart-Heat® Controls, sold separately.",
+    "Graphite on 4 and 6 kW Tungsten Select.",
+    "No prices."
+   ]
+  },
+  {
+   "id": "car-trd",
+   "segment": "Builders and installers",
+   "name": "Four Numbers That Win The Job",
+   "format": "Instagram carousel, 4 cards, 4:5",
+   "objective": "Consideration and leads: the four benefits that matter most on site, one a card",
+   "kpi": "Swipe-through rate, Partner Program sign-ups, cost per lead",
+   "cta": "Sign Up",
+   "cards": [
+    {
+     "label": "Power",
+     "headline": "6 kW Of Power-Packed Heat",
+     "body": "Dual elements on the 4 and 6 kW models, wired separately so the client dims the heat, not just switches it.",
+     "image": "d-tungsten-suspended-restaurant",
+     "benefit": "heat"
+    },
+    {
+     "label": "Recess",
+     "headline": "7.5 In Cavity. No Box To Build.",
+     "body": "The low-clearance kit is dual fan-ventilated and brings its own recess box: worry-free recessing, nothing to frame.",
+     "image": "d-installers-recessing",
+     "benefit": "recess"
+    },
+    {
+     "label": "Design",
+     "headline": "Every Finish, Every Ceiling",
+     "body": "Three finishes and three fronts that swap without re-wiring; one post, pitched ceilings 3/12 to 12/12, tilt to 45°.",
+     "image": "t2-single-post-black",
+     "benefit": "design_flex"
+    },
+    {
+     "label": "Control",
+     "headline": "Smart Controls, Any System",
+     "body": "Affinity Smart-Heat® Controls: 1% dimming, zones and schedules, with Control4, Crestron or Lutron where compatible.",
+     "image": "t-009-025",
+     "benefit": "controls"
+    }
+   ],
+   "mandatory": [
+    "Installation by a licensed electrician, to local code.",
+    "Controls sold separately; third-party systems where compatible.",
+    "No prices."
+   ]
+  }
+ ],
+ "storyboards": [
+  {
+   "id": "sb-res",
+   "segment": "Homeowners",
+   "name": "The Evening First, Then The Heater",
+   "format": "Reel 9:16 with a 4:5 feed cut, 12 s",
+   "objective": "Visits to the Series II page",
+   "kpi": "Landing page views, thumb-stop rate",
+   "board": "decks/storyboard-homeowners.jpg",
+   "frames": [
+    "0–2 s: dusk on a covered patio, she pulls her wrap tighter, the heater flush in the ceiling and off. Super: The Evening Was Just Getting Good.",
+    "2–5 s: a tap on the phone, the heater starts to glow. Super: Turn The Warmth Up From Your Phone.",
+    "5–9 s: the same table, relaxed and warm. Super: Heat You Can Feel, Not See.",
+    "9–12 s: end card on the glowing heater. Super: Extend The Moment. CTA: Learn More."
+   ],
+   "mandatory": [
+    "Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately.",
+    "Installation by a licensed electrician, to local code.",
+    "No prices."
+   ]
+  },
+  {
+   "id": "sb-spec",
+   "segment": "Architects, builders and installers",
+   "name": "6 kW. 7.5 In Cavity. No Box To Build.",
+   "format": "Reel 9:16 with a 4:5 feed cut, 15 s",
+   "objective": "Spec pack requests",
+   "kpi": "Lead form completions, cost per request",
+   "board": "decks/storyboard-specifiers.jpg",
+   "frames": [
+    "0–3 s: a tape measure in a shallow soffit opening. Super: 7.5 in.",
+    "3–7 s: CAD-style cutaway, cool air in, warm air out, heat down. Super: Dual Fan-Ventilated.",
+    "7–11 s: a finished soffit, two heaters in a line, no box. Super: Up To 6 kW. Flush.",
+    "11–15 s: the house at dusk, the terrace glowing. Super: Specify Tungsten Series II. CTA: Request The Spec Pack."
+   ],
+   "mandatory": [
+    "Installation by a licensed electrician, to local code.",
+    "Controls sold separately.",
+    "Airflow path in frame 2 to be confirmed by the Product team before production."
+   ]
+  }
+ ],
+ "visuals_note": "Storyboard frames are made with an image model from real Series II references, for planning only, never for publication. Carousel cards use Bromic's own photography and renders."
 }

@@ -27,7 +27,7 @@ async function iconPng(name, color) {
   const buf = await sharp(Buffer.from(svg)).resize(256, 256).png().toBuffer();
   return (ICONS[key] = 'image/png;base64,' + buf.toString('base64'));
 }
-const EXTRA_ICONS = ['LuLayers', 'LuMegaphone', 'LuGraduationCap', 'LuMail', 'LuFan', 'LuCable', 'LuMessageCircle', 'LuCircleCheck', 'LuInstagram', 'LuVideo', 'LuFileText', 'LuClapperboard', 'LuSlidersHorizontal'];
+const EXTRA_ICONS = ['LuScale', 'LuStore', 'LuCalendar', 'LuLayers', 'LuMegaphone', 'LuGraduationCap', 'LuMail', 'LuFan', 'LuCable', 'LuMessageCircle', 'LuCircleCheck', 'LuInstagram', 'LuVideo', 'LuFileText', 'LuClapperboard', 'LuSlidersHorizontal'];
 async function prep() { const names = new Set([...Object.values(FIELD_ICON), ...Object.values(AUD_ICON), ...Object.values(PILLAR_ICON), ...EXTRA_ICONS]); for (const n of names) for (const c of ['EF4123', 'FFFFFF']) await iconPng(n, c); }
 // An icon in a circle: flame line icon on a pale flame disc, or white on flame.
 function ico(s, name, x, y, d = 0.62, style = 'light') {
@@ -62,7 +62,7 @@ pres.defineSlideMaster({
     { image: { path: LOGO, x: M, y: 7.0, w: 0.95, h: 0.3 } },
     { text: { text: 'Tungsten Smart-Heat® Electric Series II  ·  Launch playbook  ·  Draft for internal use', options: { x: 1.75, y: 7.0, w: 8, h: 0.3, fontSize: 9, color: STEEL, valign: 'middle', margin: 0 } } },
     { placeholder: { options: { name: 'kicker', type: 'body', x: M, y: 0.35, w: 9, h: 0.3, fontSize: 10, bold: true, color: FLAME, charSpacing: 3, margin: 0 }, text: '' } },
-    { placeholder: { options: { name: 'title', type: 'title', x: M, y: 0.62, w: 12.1, h: 0.85, fontFace: 'Bodoni MT', fontSize: 30, color: INK, valign: 'top', align: 'left', margin: 0 }, text: '' } },
+    { placeholder: { options: { name: 'title', type: 'title', x: M, y: 0.62, w: 11.2, h: 0.85, fontFace: 'Bodoni MT', fontSize: 30, color: INK, valign: 'top', align: 'left', margin: 0 }, text: '' } },
   ],
   slideNumber: { x: 12.2, y: 7.0, w: 0.5, h: 0.3, fontSize: 9, color: STEEL, align: 'right' },
 });
@@ -113,18 +113,19 @@ async function build() {
 // ---------- contents ----------
 {
   const s = slide('CONTENT', 'Contents');
-  kick(s, 'Contents', 'Four Chapters, One Launch');
+  kick(s, 'Contents', 'Five Chapters, One Launch');
   const ch = [['01', 'Benefit Fields And Claims', 'Who we talk to, the twelve benefit fields, and one page per field: the claim for each audience, and how Series II stacks up against Series I and Infratech.', 'l-003-009'],
     ['02', 'Marketing', 'The lead messages, the assets the launch needs, and example ads for homeowners and for the trade.', 'l-006-028'],
     ['03', 'Product Training', 'Modules for dealers, installers, builders, architects and designers, from the range to the recess install.', 'd-tungsten-louvre-detail'],
-    ['04', 'Launch Emails', 'Four emails, each in its audience\'s language: architects, builders and installers, dealers, designers.', 'l-005-020']];
+    ['04', 'Launch Emails', 'Four emails, each in its audience\'s language: architects, builders and installers, dealers, designers.', 'l-005-020'],
+    ['05', 'One-Pagers', 'One page for each audience, and one against Infratech, ready to send.', 'd-installers-recessing']];
   ch.forEach(([n, t, d, im], i) => {
-    const x = M + i * 3.07;
-    pic(s, im, x, 1.75, 2.85, 2.0, 'cover', `contents-img-${n}`);
-    ico(s, ['LuLayers', 'LuMegaphone', 'LuGraduationCap', 'LuMail'][i], x + 2.25, 3.85, 0.55, 'light');
-    T(s, n, { x, y: 3.95, w: 2.85, h: 0.4, fontSize: 12, bold: true, color: FLAME });
-    T(s, t, { x, y: 4.3, w: 2.85, h: 0.8, fontFace: 'Bodoni MT', fontSize: 20, color: INK });
-    T(s, d, { x, y: 5.1, w: 2.85, h: 1.6, fontSize: 12 });
+    const x = M + i * 2.46, cw = 2.28;
+    pic(s, im, x, 1.75, cw, 1.8, 'cover', `contents-img-${n}`);
+    ico(s, ['LuLayers', 'LuMegaphone', 'LuGraduationCap', 'LuMail', 'LuFileText'][i], x + cw - 0.5, 3.68, 0.5, 'light');
+    T(s, n, { x, y: 3.78, w: 1.0, h: 0.4, fontSize: 12, bold: true, color: FLAME });
+    T(s, t, { x, y: 4.25, w: cw, h: 0.8, fontFace: 'Bodoni MT', fontSize: 18, color: INK });
+    T(s, d, { x, y: 5.05, w: cw, h: 1.7, fontSize: 11 });
   });
 }
 
@@ -138,7 +139,7 @@ divider(1, 'Benefit Fields And Claims', 'l-003-009', S1, 'LuLayers');
     const col = i % 3, row = Math.floor(i / 3), x = M + col * 4.08, y = 1.7 + row * 2.62, w = 3.86, h = 2.45;
     card(s, x, y, w, h, GREY, `aud-${u.id}`);
     ico(s, AUD_ICON[u.id], x + w - 0.8, y + 0.18, 0.56, 'light');
-    T(s, UN[u.id], { x: x + 0.25, y: y + 0.18, w: w - 1.1, h: 0.42, fontFace: 'Bodoni MT', fontSize: 19, color: INK });
+    T(s, UN[u.id], { x: x + 0.25, y: y + 0.18, w: w - 1.15, h: 0.42, fontFace: 'Bodoni MT', fontSize: 19, color: INK });
     T(s, u.who, { x: x + 0.25, y: y + 0.62, w: w - 0.5, h: 0.52, fontSize: 10, color: STEEL });
     const top = B.filter((b) => !b.proposed && D.m1[u.id][b.id] && D.m1[u.id][b.id].w === 3).map((b) => b.name);
     T(s, 'What they care about most', { x: x + 0.25, y: y + 1.18, w: w - 0.5, h: 0.25, fontSize: 9, bold: true, color: FLAME, charSpacing: 2 });
@@ -155,7 +156,7 @@ divider(1, 'Benefit Fields And Claims', 'l-003-009', S1, 'LuLayers');
     T(s, String(i + 1).padStart(2, '0'), { x: x + 0.2, y: y + 0.15, w: 0.6, h: 0.3, fontSize: 11, bold: true, color: FLAME });
     ico(s, FIELD_ICON[b.id], x + w - 0.62, y + 0.12, 0.46, b.proposed ? 'dark' : 'light');
     if (b.proposed) T(s, 'PROPOSED', { x: x + 0.7, y: y + 0.17, w: 1.0, h: 0.25, fontSize: 8, bold: true, color: STEEL, align: 'left', charSpacing: 2 });
-    T(s, b.name, { x: x + 0.2, y: y + 0.42, w: w - 0.4, h: 0.55, fontFace: 'Bodoni MT', fontSize: 15, color: INK, valign: 'bottom' });
+    T(s, b.name, { x: x + 0.2, y: y + 0.42, w: w - 0.95, h: 0.55, fontFace: 'Bodoni MT', fontSize: 14, color: INK, valign: 'bottom' });
     T(s, b.what, { x: x + 0.2, y: y + 1.0, w: w - 0.4, h: 0.5, fontSize: 9.5, color: BODY });
   });
 }
@@ -280,6 +281,20 @@ sbSlide('Homeowners', 'The Evening First, Then The Heater', 'sb-homeowners.jpg',
 sbSlide('Architects, builders and installers', '6 kW. 7.5 In Cavity. No Box To Build.', 'sb-specifiers.jpg',
   'Reel 9:16 with a 4:5 feed cut  ·  15 seconds  ·  Objective: spec pack requests  ·  KPI: lead form completions, cost per request',
   'Installation by a licensed electrician, to local code. Controls sold separately. Airflow path in frame 2 to be confirmed by the Product team before production.');
+// Four-benefit carousels (cards rendered by decks/build-carousels.py on Bromic's own photography).
+for (const c of D.carousels) {
+  const s = slide('CONTENT', S2);
+  kick(s, `Carousel  ·  ${c.segment}`, c.name);
+  ico(s, 'LuInstagram', 12.0, 0.45, 0.75, 'solid');
+  T(s, `${c.format}  ·  KPI: ${c.kpi}`, { x: M, y: 1.38, w: 11.2, h: 0.3, fontSize: 11, color: STEEL, italic: true });
+  c.cards.forEach((k, i) => {
+    const x = M + i * 3.08, w = 2.9, h = w * 1350 / 1080;
+    s.addImage({ path: path.join(__dirname, 'carousels', `${c.id}-${i + 1}.jpg`), x, y: 1.8, w, h, objectName: `${c.id}-${i + 1}` });
+    s.addShape(pres.shapes.RECTANGLE, { x, y: 1.8, w, h, fill: { type: 'none' }, line: { color: LINE, width: 0.75 } });
+  });
+  T(s, [{ text: 'Must carry  ', options: { bold: true, color: INK } }, { text: c.mandatory.join(' ') }], { x: M, y: 5.6 + 0.1, w: 12.13, h: 0.5, fontSize: 10, color: '4A4546' });
+  T(s, 'Cards use Bromic photography and renders. Copy follows the benefit fields: power, recess, design, controls.', { x: M, y: 6.25, w: 12.13, h: 0.3, fontSize: 9, color: STEEL });
+}
 
 // ---------- chapter 3: training ----------
 const S3 = '3 · Product training';
@@ -471,37 +486,109 @@ emailSlide('Designers', 'Heat That Belongs In The Design',
   'Request a finish sample', ['Finish and front swatches', 'Lookbook pages', 'Portfolio by space', 'Product renders for mood boards'], 't2-select-white',
   'Visual and sensory; nothing technical beyond what shapes the look.');
 
-// ---------- close: clear asks ----------
+// ---------- chapter 5: one-pagers ----------
+const S5 = '5 · One-pagers';
+divider(5, 'One-Pagers', 'd-installers-recessing', S5, 'LuFileText');
+const onePager = (aud, title, intro, points, cta, foot, img, icon) => {
+  const s = slide('CONTENT', S5);
+  kick(s, `One-pager  ·  ${aud}`, title);
+  ico(s, icon, 12.0, 0.45, 0.75, 'solid');
+  pic(s, img, M, 1.65, 4.3, 5.15, 'cover', 'op-image');
+  T(s, intro, { x: 5.2, y: 1.65, w: 7.5, h: 0.75, fontFace: 'Bodoni MT', fontSize: 18, color: INK });
+  points.forEach(([ic, lead, rest], i) => {
+    const col = i % 2, row = Math.floor(i / 2), x = 5.2 + col * 3.83, y = 2.55 + row * 1.68, w = 3.65, h = 1.55;
+    card(s, x, y, w, h, GREY, `op-pt-${i}`);
+    ico(s, ic, x + 0.18, y + 0.18, 0.5, 'light');
+    T(s, lead, { x: x + 0.82, y: y + 0.2, w: w - 1.0, h: 0.45, fontSize: 12.5, bold: true, color: INK, valign: 'middle' });
+    T(s, rest, { x: x + 0.82, y: y + 0.68, w: w - 1.0, h: 0.82, fontSize: 10.5, color: BODY });
+  });
+  s.addText(cta.toUpperCase(), { isTextBox: true, x: 5.2, y: 6.0, w: 3.3, h: 0.4, fontSize: 10, bold: true, color: 'FFFFFF', fill: { color: 'EF4123' }, align: 'center', valign: 'middle', margin: 0, charSpacing: 1 });
+  T(s, foot, { x: 8.7, y: 5.95, w: 4.03, h: 0.85, fontSize: 8.5, color: STEEL });
+  return s;
+};
+{
+  const s = slide('CONTENT', S5);
+  kick(s, 'One-pager  ·  Against Infratech', 'Where Tungsten Series II Leads');
+  ico(s, 'LuScale', 12.0, 0.45, 0.75, 'solid');
+  const lead = B.filter((b) => SHORT[b.id][3] === 'bromic').slice(0, 7);
+  const rows = [['Benefit field', 'Tungsten Series II', 'Infratech'].map((t) => ({ text: t, options: { bold: true, color: 'FFFFFF', fill: { color: '231F20' }, fontSize: 10 } }))];
+  for (const b of lead) rows.push([{ text: b.name, options: { bold: true, color: INK } }, { text: SHORT[b.id][0], options: { color: INK } }, { text: SHORT[b.id][4], options: { color: '4A4546' } }]);
+  s.addTable(rows, { x: M, y: 1.6, w: 12.13, colW: [2.2, 4.9, 5.03], fontFace: 'Arial', fontSize: 11, rowH: [0.35, 0.62, 0.62, 0.62, 0.62, 0.62, 0.62, 0.62], valign: 'middle', border: { type: 'solid', pt: 0.5, color: 'E3E3E1' }, margin: [0.05, 0.08, 0.05, 0.08] });
+  T(s, [{ text: 'Parity  ', options: { bold: true, color: INK } }, { text: 'Heat output (both reach 6 kW) and warranty (both 3 years).  ' }, { text: 'Use  ', options: { bold: true, color: INK } }, { text: 'factual and sourced only; never disparage. Every line needs Specification and compliance sign-off before it leaves Bromic.' }], { x: M, y: 6.45, w: 12.13, h: 0.4, fontSize: 9.5, color: '4A4546' });
+}
+onePager('Builders and installers', 'Faster On Site, Easier To Sell',
+  'Tungsten Series II goes up faster and gives your buyers the evening outside.',
+  [['LuPanelTopDashed', 'No box to build', 'Recess 6 kW in a 7.5 in cavity; the dual fan-ventilated kit brings its own box.'],
+    ['LuMove', 'One post, any ceiling', 'A single post replaces two tubes; pitched ceilings 3/12 to 12/12; tilt to 45°.'],
+    ['LuLayers', 'Good, Better, Best', 'Classic, Select and Coastal for your options sheet.'],
+    ['LuSlidersHorizontal', 'Controls in the quote', 'Every heater with Affinity Smart-Heat® Controls; the Dimmer is the default.']],
+  'Join the Partner Program', 'Installation by a licensed electrician, to local code. *A reseller certificate is required to join the Bromic installer program.', 'd-installers-recessing', 'LuHardHat');
+onePager('Architects and specifiers', 'Specify Flush Heat In Shallow Ceilings',
+  'One specification family for every outdoor room, with heat that disappears into the ceiling.',
+  [['LuPanelTopDashed', '6 kW in a 7.5 in cavity', 'Dual fan-ventilated low-clearance recessing, with the recess box supplied.'],
+    ['LuMove', 'Every mounting condition', 'Flat or pitched ceilings, walls, a single post, recessed; tilt up to 45°.'],
+    ['LuShieldCheck', 'Specified to last', 'IPX5, three years of cover, and Tungsten Coastal for waterfront sites.'],
+    ['LuCable', 'Building systems', 'Affinity Smart-Heat® Controls with Ethernet and 0–10 V for BMS and home automation.']],
+  'Request the spec pack', 'Spec sheet, Section 23 83 33 update, Revit and CAD files. Controls sold separately.', 'l-010-075', 'LuPencilRuler');
+onePager('Homeowners', 'Extend The Moment',
+  'Power-packed heat that recesses worry-free, in a finish that suits your outdoor style.',
+  [['LuFlame', 'Power-packed heat', 'Up to 6 kW from dual elements, dimmed to the evening.'],
+    ['LuPanelTopDashed', 'Recessed, worry-free', 'Flush in a shallow ceiling and dual fan-ventilated.'],
+    ['LuPalette', 'Your outdoor persona', 'All black, all white or all graphite, with a Diamond, oval or triangle front.'],
+    ['LuSmartphone', 'Smart controls, smart home', 'Schedules and timers in the Bromic app; Alexa and Google Assistant.']],
+  'Find a dealer', 'Wi-Fi, app and voice features need compatible Affinity Smart-Heat® Controls, sold separately. Installation by a licensed electrician.', 'l-006-028', 'LuHouse');
+onePager('Dealers', 'Three Tiers, One Easy Story',
+  'More reasons for customers to say yes, and new jobs your team could not quote before.',
+  [['LuLayers', 'Three tiers', 'Classic for style and value, Select for performance and recessing, Coastal by the water.'],
+    ['LuSparkles', 'Slimmer, lighter, tougher', 'About 14% narrower, a third lighter, IPX5, three years of cover.'],
+    ['LuPanelTopDashed', 'New jobs to quote', 'The low-clearance kit opens shallow ceilings.'],
+    ['LuSmartphone', 'Smart from day one', 'Dimming, schedules and timers with Affinity Smart-Heat® Controls.']],
+  'Book your team\'s training', 'Sell sheet, showroom display guide, Instagram kit. No prices on customer-facing material.', 'l-007-041', 'LuStore');
+onePager('Designers', 'Heat That Belongs In The Design',
+  'The best outdoor rooms feel finished to the ceiling. Now the heater can, too.',
+  [['LuPalette', 'One finish, end to end', 'Black, white or graphite, the front included.'],
+    ['LuSparkles', 'A front for every mood', 'Diamond, oval or triangle, swapped without re-wiring.'],
+    ['LuMove', 'Seemingly floating', 'About 14% narrower, on one post, no junction box in sight.'],
+    ['LuLayoutGrid', 'A heater for every room', 'Platinum for the California room, Eclipse for the lounge, Tungsten for the pergola.']],
+  'Request a finish sample', 'Graphite on 4 and 6 kW Tungsten Select. Controls sold separately.', 'l-005-020', 'LuPenTool');
+onePager('Commercial users', 'More Comfortable Covers, Every Season',
+  'Heat zoned table by table, built for daily service and the coast.',
+  [['LuFlame', 'Up to 6 kW a heater', 'Dual elements, dimmed zone by zone through the night.'],
+    ['LuLayoutGrid', 'Zones and schedules', 'Affinity Smart-Heat® Controls, with BMS integration when you need it.'],
+    ['LuWaves', 'Built for the waterfront', 'Tungsten Coastal: 316 marine-grade stainless and a protective coating.'],
+    ['LuPanelTopDashed', 'Clean ceilings', 'Flush, dual fan-ventilated recessing in shallow soffits.']],
+  'Talk to our commercial team', 'Installation by a licensed electrician, to local code. Controls sold separately.', 'd-tungsten-pole-rooftop-bar', 'LuUtensils');
+
+// ---------- close: high-level asks ----------
 {
   const s = slide('CONTENT', 'Next steps');
-  kick(s, 'Before anything goes public', 'Clear Asks, Clear Owners');
+  kick(s, 'Next steps', 'Clear Asks, Clear Owners');
+  card(s, M, 1.55, 12.13, 0.62, WASH, 'suggestion');
+  T(s, [{ text: 'This playbook is a suggestion.  ', options: { bold: true, color: INK } }, { text: 'A starting point for the team to test, change and own; every claim stays open until it is validated.' }], { x: M + 0.25, y: 1.6, w: 11.6, h: 0.52, fontSize: 13, color: INK, valign: 'middle' });
   const col = (x, name, role, icon, asks) => {
-    card(s, x, 1.65, 5.95, 5.15, GREY, 'asks-' + icon);
-    ico(s, icon, x + 0.25, 1.85, 0.62, 'solid');
-    T(s, name, { x: x + 1.05, y: 1.82, w: 4.7, h: 0.4, fontFace: 'Bodoni MT', fontSize: 20, color: INK });
-    T(s, role.toUpperCase(), { x: x + 1.05, y: 2.24, w: 4.7, h: 0.3, fontSize: 9, bold: true, color: FLAME, charSpacing: 2 });
-    const runs = [];
-    asks.forEach(([lead, rest], k) => { runs.push({ text: lead + ' ', options: { bold: true, color: INK, bullet: { type: 'number' } } }); runs.push({ text: rest, options: { color: BODY, breakLine: k < asks.length - 1 } }); });
-    T(s, runs, { x: x + 0.25, y: 2.75, w: 5.45, h: 3.95, fontSize: 10.5, paraSpaceAfter: 5 });
+    card(s, x, 2.4, 5.95, 4.4, GREY, 'asks-' + icon);
+    ico(s, icon, x + 0.3, 2.65, 0.7, 'solid');
+    T(s, name, { x: x + 1.2, y: 2.62, w: 4.5, h: 0.42, fontFace: 'Bodoni MT', fontSize: 22, color: INK });
+    T(s, role.toUpperCase(), { x: x + 1.2, y: 3.06, w: 4.5, h: 0.3, fontSize: 9, bold: true, color: FLAME, charSpacing: 2 });
+    asks.forEach(([ic, a], k) => {
+      const y = 3.65 + k * 0.76;
+      ico(s, ic, x + 0.35, y, 0.5, 'light');
+      T(s, a, { x: x + 1.05, y: y + 0.02, w: 4.7, h: 0.48, fontSize: 14, color: INK, valign: 'middle' });
+    });
   };
-  col(M, 'Mike Clifford', 'Product management and channel management', 'LuSlidersHorizontal', [
-    ['Recess kit facts.', 'Number of fans, any fire-rated lining, continuous-use guidance, slope limit.'],
-    ['45° tilt on 4 and 6 kW.', 'The Series II manual says 30°: correct the manual or the claim.'],
-    ['Warranty.', 'Confirm 3 years, element cover and Coastal terms, and publish them on bromic.com.'],
-    ['Coastal build.', '316 body and the coating name; listing number (the manual shows a placeholder) and IPX5.'],
-    ['App behaviour.', 'Timer default (bromic.com says 4 hours) and which freestanding heaters run on the app.'],
-    ['Channel.', 'Series I sell-through date, Classic in January, dealer stocking and training dates.'],
-    ['Partner Program.', 'Price tiers, qualifying products for the extra year, installer certificate process.'],
+  col(M, 'Mike Clifford', 'Product and channel management', 'LuSlidersHorizontal', [
+    ['LuCircleCheck', 'Validate the claims against the twelve benefit fields'],
+    ['LuGraduationCap', 'Create the training modules'],
+    ['LuFileText', 'Create the one-pagers'],
+    ['LuCalendar', 'Set channel dates: Series I sell-through, Classic in January'],
   ]);
   col(M + 6.18, 'Megan Spies', 'Brand marketing', 'LuMegaphone', [
-    ['Messages.', 'Approve the eight lead messages and the claims per audience.'],
-    ['Airflow animation.', 'Commission the CAD-style recess airflow film with the Product team\'s CAD files.'],
-    ['454 Creative brief.', 'Landing page, sell sheet, spec sheet, and the eleven Instagram ads.'],
-    ['Photography.', 'Series II lifestyle shoots: Select and Coastal, three finishes, three fronts; clear rights.'],
-    ['Launch emails.', 'Approve the four emails; lists for architects, trade, dealers and designers; send dates.'],
-    ['Website fixes.', 'Series II product pages (currently 404), the app FAQ timer line, Lookbook graphite on Coastal, "star" to triangle.'],
-    ['Competitive sign-off.', 'Route every Infratech line through Specification and compliance before use.'],
+    ['LuClapperboard', `Create the ${D.assets_to_create.length} launch assets, the airflow animation first`],
+    ['LuInstagram', 'Create the two four-benefit carousels'],
+    ['LuVideo', 'Produce the two storyboard Reels'],
+    ['LuMail', 'Send the four launch emails'],
   ]);
+  s.addNotes('Detailed open checks behind these asks live in the Content Hub (Product marketing, claim checks and VERIFY notes): recess kit facts, tilt on 4 and 6 kW, warranty terms, Coastal build and listing, app behaviour, Partner Program terms, website fixes, competitive sign-off.');
 }
 
 await Promise.all(JOBS);

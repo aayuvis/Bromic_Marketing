@@ -263,7 +263,8 @@ fs.rmSync(DIST, { recursive: true, force: true });
 fs.mkdirSync(DIST, { recursive: true });
 for (const f of ['index.html', 'styles.css', 'app.js', 'editor.js']) fs.copyFileSync(path.join(APP, 'src', f), path.join(DIST, f));
 fs.cpSync(path.join(APP, 'src', 'fonts'), path.join(DIST, 'fonts'), { recursive: true });
-if (fs.existsSync(path.join(ROOT, 'decks'))) { fs.mkdirSync(path.join(DIST, 'decks'), { recursive: true }); for (const f of fs.readdirSync(path.join(ROOT, 'decks')).filter((x) => x.endsWith('.pptx'))) fs.copyFileSync(path.join(ROOT, 'decks', f), path.join(DIST, 'decks', f)); }
+if (fs.existsSync(path.join(ROOT, 'decks'))) { fs.mkdirSync(path.join(DIST, 'decks'), { recursive: true }); for (const f of fs.readdirSync(path.join(ROOT, 'decks')).filter((x) => /\.(pptx|jpg)$/.test(x))) fs.copyFileSync(path.join(ROOT, 'decks', f), path.join(DIST, 'decks', f));
+  if (fs.existsSync(path.join(ROOT, 'decks', 'carousels'))) { fs.mkdirSync(path.join(DIST, 'decks', 'carousels'), { recursive: true }); for (const f of fs.readdirSync(path.join(ROOT, 'decks', 'carousels'))) fs.copyFileSync(path.join(ROOT, 'decks', 'carousels', f), path.join(DIST, 'decks', 'carousels', f)); } }
 fs.mkdirSync(path.join(DIST, 'vendor'), { recursive: true });
 fs.copyFileSync(path.join(APP, 'node_modules', 'marked', 'marked.min.js'), path.join(DIST, 'vendor', 'marked.min.js'));  // the editor's preview
 // cache-busting: a new deploy always loads its own script, data and styles (GitHub Pages lets browsers cache for 10 minutes)
