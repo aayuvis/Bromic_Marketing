@@ -1,0 +1,1249 @@
+{
+ "_readme": "Product marketing framework (owner, 18 Nov 2026). One file per launch. Matrix 1: what matters most to each user type across ten benefit fields (w: 3 matters most, 2 matters, 1 nice to have) and the claim that resonates. Matrix 2: Series II against Series I. Matrix 3: against Infratech (competitor rule: factual, sourced, needs_approval Specification and compliance). Claims carry no new facts: every fact is in `facts` with its source.",
+ "id": "tungsten-electric-series-ii",
+ "name": "Tungsten Smart-Heat® Electric Series II",
+ "short": "Tungsten Series II",
+ "status": "draft",
+ "updated": "2026-11-18",
+ "owner_review": "Marketing",
+ "needs_approval": "Specification and compliance",
+ "launch": {
+  "summary": "Select and Coastal launched October 2026; Classic follows in January 2027 as Series I sells through. Cobalt is discontinued.",
+  "phases": [
+   {
+    "when": "Oct 2026",
+    "what": "Series II Select (Better) and Coastal (Best) launch; Series I moves to entry level; Cobalt discontinued"
+   },
+   {
+    "when": "Jan 2027",
+    "what": "Series II Classic (Good) launches; Series I discontinued"
+   }
+  ],
+  "source": "d1"
+ },
+ "tiers": [
+  {
+   "id": "classic",
+   "tier": "Good",
+   "name": "Tungsten Classic",
+   "win_on": "Style and value",
+   "colours": "Black",
+   "fascia": "Wireframe, stylised",
+   "recessing": "Existing Tungsten recess kit",
+   "price": "$643–$921",
+   "image": "t2-classic",
+   "notes": [
+    "2 and 3 kW added to the existing 4 and 6 kW; same voltage options",
+    "Black body, stainless steel end covers and metal face guard",
+    "Same mounting as Series I"
+   ]
+  },
+  {
+   "id": "select",
+   "tier": "Better",
+   "name": "Tungsten Select",
+   "win_on": "Style, performance and recessing",
+   "colours": "Black, white and graphite (graphite on 4 and 6 kW)",
+   "fascia": "Diamond Pattern standard; oval and star patterns sold separately",
+   "recessing": "New low-clearance recess kit",
+   "price": "$923–$1,170",
+   "image": "t2-select-black",
+   "notes": [
+    "2, 3, 4 and 6 kW, same voltage options",
+    "Sleek single-post mounting"
+   ]
+  },
+  {
+   "id": "coastal",
+   "tier": "Best",
+   "name": "Tungsten Coastal",
+   "win_on": "Style, performance and recessing",
+   "colours": "Black and white",
+   "fascia": "Diamond Pattern",
+   "recessing": "Marine-grade low-clearance recess kit",
+   "price": "$1,195–$1,321",
+   "image": "t2-low-clearance-recess",
+   "notes": [
+    "316 marine-grade stainless steel for coastal environments",
+    "4 and 6 kW only, same voltage options",
+    "Sleek single-post mounting"
+   ]
+  }
+ ],
+ "upgrades": [
+  "Low-clearance recess kit (Select and Coastal): fits shallow ceilings and tight soffits",
+  "Slimmer body: 140 mm (5.5 in) deep and 183 mm (7.2 in) wide, against 156 mm (6.1 in) and 214 mm (8.4 in) for Series I",
+  "Sleek single-post mount",
+  "New fascia designs",
+  "New accessories: wall-mounting bracket, pitched-ceiling adaptor (3/12 to 12/12), bracket with set positions at 15°, 30° and 45°"
+ ],
+ "price_verify": "[[VERIFY: launch list prices by model and region — Sales operations]]",
+ "user_types": [
+  {
+   "id": "RES",
+   "name": "Homeowners",
+   "who": "Residential end consumers warming a patio, deck, alfresco or pool house"
+  },
+  {
+   "id": "BLD",
+   "name": "Builders",
+   "who": "Production, semi-custom and custom home builders and remodelers"
+  },
+  {
+   "id": "INS",
+   "name": "Installers",
+   "who": "Electrical contractors and installers who fit and wire the heaters"
+  },
+  {
+   "id": "COM",
+   "name": "Commercial and corporate users",
+   "who": "Restaurants, hotels, bars, workplaces and venues that run heated outdoor space"
+  },
+  {
+   "id": "ARC",
+   "name": "Architects",
+   "who": "Architects and specifiers who write the heater into the drawings"
+  },
+  {
+   "id": "DES",
+   "name": "Designers",
+   "who": "Interior, landscape and outdoor-living designers who choose how the space looks"
+  }
+ ],
+ "benefits": [
+  {
+   "id": "heat",
+   "name": "Heat performance",
+   "what": "Output from 2 to 6 kW, precise directional infrared warmth and coverage",
+   "proposed": false
+  },
+  {
+   "id": "install_flex",
+   "name": "Installation flexibility",
+   "what": "Wall, ceiling, single post, pitched ceilings and set angles",
+   "proposed": false
+  },
+  {
+   "id": "install_ease",
+   "name": "Ease of installation",
+   "what": "Familiar mounting, one kit across the range, quick to fit and quote",
+   "proposed": false
+  },
+  {
+   "id": "recess",
+   "name": "Recess ability",
+   "what": "Flush in ceilings and soffits, now including shallow cavities",
+   "proposed": false
+  },
+  {
+   "id": "safety",
+   "name": "Safety and peace of mind",
+   "what": "Electric infrared with no flame or fumes, listed hardware, set mounting heights",
+   "proposed": false
+  },
+  {
+   "id": "aesthetics",
+   "name": "Design aesthetics",
+   "what": "Slimmer body, colours and fascia patterns",
+   "proposed": false
+  },
+  {
+   "id": "design_flex",
+   "name": "Design flexibility",
+   "what": "Interchangeable fascias, colours, tiers and mounts to suit the design",
+   "proposed": false
+  },
+  {
+   "id": "controls",
+   "name": "Ease of controls",
+   "what": "Affinity Smart-Heat® Controls: dimming, app, schedules, zones, wall switch",
+   "proposed": false
+  },
+  {
+   "id": "warranty",
+   "name": "Warranty",
+   "what": "Manufacturer warranty, and partner extensions",
+   "proposed": false
+  },
+  {
+   "id": "multi_area",
+   "name": "Heat multiple outdoor areas",
+   "what": "Zones, outputs and mounts to warm several spaces from one family",
+   "proposed": false
+  },
+  {
+   "id": "coastal",
+   "name": "Durability by the coast",
+   "what": "Materials and finishes for salt air and rain",
+   "proposed": true
+  },
+  {
+   "id": "power",
+   "name": "Electrical flexibility",
+   "what": "Wattages and supply voltages for homes and commercial buildings",
+   "proposed": true
+  },
+  {
+   "id": "value",
+   "name": "Choice and value",
+   "what": "Good, Better, Best tiers and price points",
+   "proposed": true
+  },
+  {
+   "id": "support",
+   "name": "Specification and support",
+   "what": "Design service, documentation and partner support",
+   "proposed": true
+  }
+ ],
+ "m1": {
+  "RES": {
+   "heat": {
+    "w": 3,
+    "claim": "Four outputs from 2 to 6 kW of precise, directional infrared warmth, so the table, the lounge and the pool edge all feel it."
+   },
+   "install_flex": {
+    "w": 2,
+    "claim": "Ceiling, wall, a slim single post or a pitched roof: there is a way to fit warmth to your space."
+   },
+   "install_ease": {
+    "w": 1,
+    "claim": "Goes up quickly on mounts your electrician already knows."
+   },
+   "recess": {
+    "w": 3,
+    "claim": "Even a shallow patio ceiling can now hold a flush heater, so the warmth stays and the heater all but disappears."
+   },
+   "safety": {
+    "w": 3,
+    "claim": "Electric infrared warmth with no open flame and no fumes, mounted well above the people it warms."
+   },
+   "aesthetics": {
+    "w": 3,
+    "claim": "Slimmer and sleeker than before, in black, white or graphite: heat that looks as considered as the room it warms."
+   },
+   "design_flex": {
+    "w": 2,
+    "claim": "Choose the fascia, the colour and the mount that suit your home, and change the look later with a new fascia."
+   },
+   "controls": {
+    "w": 3,
+    "claim": "Turn the warmth up, down or onto a schedule from your phone with Affinity Smart-Heat® Controls."
+   },
+   "warranty": {
+    "w": 2,
+    "claim": "Backed by Bromic's manufacturer warranty, so the evenings outside are worry-free."
+   },
+   "multi_area": {
+    "w": 2,
+    "claim": "Warm the dining table, the lounge and the pool house as separate zones, each at its own setting."
+   },
+   "coastal": {
+    "w": 2,
+    "claim": "Living by the water? Tungsten Coastal is crafted in 316 marine-grade stainless steel to stand up to salt air."
+   },
+   "power": {
+    "w": 1,
+    "claim": "Made for the 240 V or 208 V supply your home already has."
+   },
+   "value": {
+    "w": 2,
+    "claim": "Good, Better, Best: premium Bromic warmth at the level your project calls for."
+   },
+   "support": {
+    "w": 2,
+    "claim": "A complimentary design plan shows where every heater belongs before anything is fixed."
+   }
+  },
+  "BLD": {
+   "heat": {
+    "w": 2,
+    "claim": "Output from 2 to 6 kW to match every plan, from a compact alfresco to a large outdoor room."
+   },
+   "install_flex": {
+    "w": 2,
+    "claim": "A pitched-ceiling adaptor from 3/12 to 12/12 brings heat to vaulted porches and gables."
+   },
+   "install_ease": {
+    "w": 3,
+    "claim": "One recess kit across Select and Coastal, and Classic keeps Series I mounting: simple to quote, quick to fit."
+   },
+   "recess": {
+    "w": 3,
+    "claim": "Recess into shallow soffits and alfresco ceilings without re-framing: the low-clearance kit wins plans the old kit could not."
+   },
+   "safety": {
+    "w": 2,
+    "claim": "Electric heat with no gas line, no flame and no fumes: a cleaner standard for every outdoor package."
+   },
+   "aesthetics": {
+    "w": 2,
+    "claim": "A finish buyers notice on the model-home patio: slimmer profile, three colours, a choice of fascia."
+   },
+   "design_flex": {
+    "w": 2,
+    "claim": "Good, Better, Best in one family lets each plan carry the look its buyer expects."
+   },
+   "controls": {
+    "w": 2,
+    "claim": "A smart upgrade buyers can see on their phone at the design centre."
+   },
+   "warranty": {
+    "w": 3,
+    "claim": "Manufacturer warranty, plus an additional year on qualifying products through the Bromic Partner Program."
+   },
+   "multi_area": {
+    "w": 2,
+    "claim": "Patio, alfresco and balcony heated from one product family, on one options sheet."
+   },
+   "coastal": {
+    "w": 2,
+    "claim": "One heater for every coastal community you build, in 316 marine-grade stainless steel."
+   },
+   "power": {
+    "w": 2,
+    "claim": "Runs on 208 V as well as 240 V, so multifamily projects are covered too."
+   },
+   "value": {
+    "w": 3,
+    "claim": "Good, Better, Best from one family gives your options sheet three clear price points."
+   },
+   "support": {
+    "w": 3,
+    "claim": "The Bromic Partner Program brings partner pricing, free design plans and a dedicated contact to every development."
+   }
+  },
+  "INS": {
+   "heat": {
+    "w": 2,
+    "claim": "2, 3, 4 and 6 kW models let you match the load to the circuit and the space."
+   },
+   "install_flex": {
+    "w": 3,
+    "claim": "Single post, new wall bracket, pitched-ceiling adaptor and recess kits: one family, every mounting condition."
+   },
+   "install_ease": {
+    "w": 3,
+    "claim": "Classic uses the Series I mounting you know, and new brackets lock at 15°, 30° or 45°: fewer surprises on site."
+   },
+   "recess": {
+    "w": 3,
+    "claim": "Shallow cavity? The new low-clearance recess kit fits where the standard kit could not."
+   },
+   "safety": {
+    "w": 2,
+    "claim": "Clear minimum mounting heights and listed hardware make for an install that passes inspection first time."
+   },
+   "aesthetics": {
+    "w": 1,
+    "claim": "A cleaner, slimmer unit that clients are proud to see installed."
+   },
+   "design_flex": {
+    "w": 1,
+    "claim": "Fascia options mean the client can change the look without a new install."
+   },
+   "controls": {
+    "w": 2,
+    "claim": "Pairs with Affinity Smart-Heat® Dimmer controllers, so the whole system is commissioned in one visit."
+   },
+   "warranty": {
+    "w": 2,
+    "claim": "One manufacturer, one warranty process and one technical line behind every job."
+   },
+   "multi_area": {
+    "w": 2,
+    "claim": "Wire several zones from Affinity controller channels and give each area its own control."
+   },
+   "coastal": {
+    "w": 2,
+    "claim": "Coastal jobs get a heater built for them, with a marine-grade low-clearance recess kit to match."
+   },
+   "power": {
+    "w": 3,
+    "claim": "Same voltage options as today, with 277 V on the 4 and 6 kW models for commercial supply."
+   },
+   "value": {
+    "w": 2,
+    "claim": "Three tiers make it easy to offer clients a choice on every quote."
+   },
+   "support": {
+    "w": 2,
+    "claim": "Installation manuals, a technical line and the Partner Program behind every job."
+   }
+  },
+  "COM": {
+   "heat": {
+    "w": 3,
+    "claim": "4 and 6 kW of precise, directional heat that keeps tables full well into the shoulder season."
+   },
+   "install_flex": {
+    "w": 2,
+    "claim": "Post, wall, ceiling or recess, so every terrace, rooftop and courtyard can be heated."
+   },
+   "install_ease": {
+    "w": 1,
+    "claim": "Familiar mounting keeps fit-out days short."
+   },
+   "recess": {
+    "w": 2,
+    "claim": "Flush heaters in canopies and low soffits keep sight lines clean for guests."
+   },
+   "safety": {
+    "w": 3,
+    "claim": "No flame, no fumes and no cylinders to store or swap: warmth that sits comfortably with fire and building codes."
+   },
+   "aesthetics": {
+    "w": 2,
+    "claim": "A refined, low-profile heater that suits the venue rather than competing with it."
+   },
+   "design_flex": {
+    "w": 2,
+    "claim": "Match the heater to each space, from the bar terrace to the private dining deck."
+   },
+   "controls": {
+    "w": 3,
+    "claim": "Zones and schedules through Affinity Smart-Heat® Controls, with building-system integration where you need it."
+   },
+   "warranty": {
+    "w": 2,
+    "claim": "A manufacturer warranty on every heater, with support from a single partner."
+   },
+   "multi_area": {
+    "w": 3,
+    "claim": "Heat the terrace, rooftop and entrance as separate zones, each running only when guests are there."
+   },
+   "coastal": {
+    "w": 3,
+    "claim": "Waterfront venues get Tungsten Coastal in 316 marine-grade stainless steel, built for salt air."
+   },
+   "power": {
+    "w": 3,
+    "claim": "277 V on the 4 and 6 kW models matches the supply most commercial buildings already have."
+   },
+   "value": {
+    "w": 2,
+    "claim": "Choose the tier that fits each area, from the bar terrace to the private dining deck."
+   },
+   "support": {
+    "w": 2,
+    "claim": "A complimentary design plan maps heat to every table before you commit."
+   }
+  },
+  "ARC": {
+   "heat": {
+    "w": 2,
+    "claim": "Four outputs and directional infrared heat to meet each zone of the design."
+   },
+   "install_flex": {
+    "w": 2,
+    "claim": "Recessed, ceiling, wall, single post and pitched ceilings: one family to detail across the project."
+   },
+   "install_ease": {
+    "w": 1,
+    "claim": "Proven mounting details reduce coordination on site."
+   },
+   "recess": {
+    "w": 3,
+    "claim": "Specify flush heat in shallow soffits and alfresco ceilings that were once off-limits."
+   },
+   "safety": {
+    "w": 2,
+    "claim": "Electric infrared with clear clearances and mounting heights to write into the specification."
+   },
+   "aesthetics": {
+    "w": 3,
+    "claim": "A slimmer section and a choice of fascia patterns let the heater sit quietly within the architecture."
+   },
+   "design_flex": {
+    "w": 3,
+    "claim": "Three colours, three fascias and every mounting condition, all from one specification family."
+   },
+   "controls": {
+    "w": 2,
+    "claim": "Affinity Smart-Heat® Controls integrate with building and home automation systems."
+   },
+   "warranty": {
+    "w": 1,
+    "claim": "A manufacturer warranty the client can rely on."
+   },
+   "multi_area": {
+    "w": 2,
+    "claim": "One family covers terraces, balconies and courtyards across the whole scheme."
+   },
+   "coastal": {
+    "w": 2,
+    "claim": "316 marine-grade stainless steel on Tungsten Coastal for coastal and waterfront specifications."
+   },
+   "power": {
+    "w": 2,
+    "claim": "208, 240 and 277 V options cover residential and commercial projects alike."
+   },
+   "value": {
+    "w": 1,
+    "claim": "Good, Better, Best tiers give the client a clear choice without changing the detail."
+   },
+   "support": {
+    "w": 3,
+    "claim": "CAD and Revit files, specification support and a design plan for every project."
+   }
+  },
+  "DES": {
+   "heat": {
+    "w": 2,
+    "claim": "Warmth placed exactly where people gather, with outputs from 2 to 6 kW."
+   },
+   "install_flex": {
+    "w": 2,
+    "claim": "A slim single post and pitched-ceiling options let heat follow the design, not the other way round."
+   },
+   "install_ease": {
+    "w": 1,
+    "claim": "Simple to install, so the design survives the build."
+   },
+   "recess": {
+    "w": 3,
+    "claim": "Flush, low-clearance recessing for the clean ceiling plane a considered outdoor room deserves."
+   },
+   "safety": {
+    "w": 1,
+    "claim": "Warmth without flame or fumes beside soft furnishings and planting."
+   },
+   "aesthetics": {
+    "w": 3,
+    "claim": "Diamond as standard, with oval and star patterns available, in black, white or graphite: the heater becomes part of the design."
+   },
+   "design_flex": {
+    "w": 3,
+    "claim": "Swap fascias and choose colours to suit each room, and refresh the look without changing the heater."
+   },
+   "controls": {
+    "w": 2,
+    "claim": "Dim the warmth with the mood of the evening through Affinity Smart-Heat® Controls."
+   },
+   "warranty": {
+    "w": 1,
+    "claim": "A manufacturer warranty behind every piece you specify."
+   },
+   "multi_area": {
+    "w": 2,
+    "claim": "One design language from the dining terrace to the lounge and the pool house."
+   },
+   "coastal": {
+    "w": 1,
+    "claim": "Coastal finishes that keep their looks by the sea."
+   },
+   "power": {
+    "w": 1,
+    "claim": "Works on the supply the space already has."
+   },
+   "value": {
+    "w": 2,
+    "claim": "Three tiers, so design-led warmth fits more briefs and budgets."
+   },
+   "support": {
+    "w": 2,
+    "claim": "A design plan and product files to bring the concept to life."
+   }
+  }
+ },
+ "m2": [
+  {
+   "benefit": "heat",
+   "change": "same",
+   "s1": "2000, 3000, 4000 and 6000 W; coverage published as 65, 100, 130 and 160 ft² (product page; the manual says up to 64, 100, 120 and 144 ft²). Quartz-sheathed steel coil element; 4000 and 6000 W have two elements.",
+   "s2": "Same four power levels on Select (2–6 kW); Classic adds 2 and 3 kW to its 4 and 6 kW; Coastal is 4 and 6 kW. [[VERIFY: Series II coverage per model and element design — Product team]]",
+   "so_what": "The warmth customers trust carries straight over: the story is design and fit, with no trade-off in heat."
+  },
+  {
+   "benefit": "install_flex",
+   "change": "better",
+   "s1": "Wall (straight or 30°), ceiling, chain or 3 ft tube suspension, and recessed.",
+   "s2": "Adds a sleek single-post mount (Select, Coastal), a new wall-mounting bracket, a pitched-ceiling adaptor for 3/12 to 12/12 roofs, and a bracket with set positions at 15°, 30° and 45°.",
+   "so_what": "Vaulted porches, gables and angled walls are now standard details rather than custom work."
+  },
+  {
+   "benefit": "install_ease",
+   "change": "better",
+   "s1": "Included brackets of 6.5 in (2000/3000 W) or 9.5 in (4000/6000 W); recessing needs an installer-built ceiling box in Hardie or cement board.",
+   "s2": "Classic keeps Series I mounting; one low-clearance recess kit serves Select and Coastal; preset bracket angles. [[VERIFY: what the low-clearance kit includes and fitting time — Product team]]",
+   "so_what": "Less to fabricate on site and fewer site decisions: quicker to quote and quicker to fit."
+  },
+  {
+   "benefit": "recess",
+   "change": "new",
+   "s1": "Standard recess kit only, which needs a deep ceiling cavity (Bromic guidance: at least 20 in, with two layers of 5/8 in fireproof insulation). No low-clearance option for Tungsten.",
+   "s2": "New low-clearance recess kit for Select, and a marine-grade low-clearance kit for Coastal, made for shallow ceilings and tight soffits. Classic uses the existing recess kit. [[VERIFY: minimum cavity depth for the low-clearance kits — Product team]]",
+   "so_what": "Flush Tungsten heat reaches alfrescos, patios and low soffits that were out of reach: a new set of projects to win."
+  },
+  {
+   "benefit": "safety",
+   "change": "same",
+   "s1": "Intertek ETL/cETL listed; IPX4; minimum mounting 72 in on a wall and 96 in on a ceiling (96 in in all cases in Canada); designed for intermittent use.",
+   "s2": "Electric infrared with no flame or fumes, as before. [[VERIFY: Series II listing, IP rating and minimum mounting heights — Product team]]",
+   "so_what": "Peace of mind is unchanged; confirm the Series II listings before launch claims use them."
+  },
+  {
+   "benefit": "aesthetics",
+   "change": "better",
+   "s1": "Honeycomb mesh fascia; 2000/3000 W in black, 4000/6000 W in black or white. Body about 214 mm (8.4 in) wide and 156 mm (6.1 in) deep (launch deck).",
+   "s2": "Slimmer: about 183 mm (7.2 in) wide and 140 mm (5.5 in) deep, roughly 14% narrower and 10% shallower. Diamond Pattern standard on Select and Coastal; Classic in a stylised wireframe with stainless end covers. [[VERIFY: Series I dimensions differ between the deck (214 × 156 mm) and the manual (8.5 × 3.5 in) — Product team]]",
+   "so_what": "A visibly slimmer, more designed heater: the reason to choose Series II at first glance."
+  },
+  {
+   "benefit": "design_flex",
+   "change": "new",
+   "s1": "One fascia design; two colours on the larger models.",
+   "s2": "Three fascia options on Select (Diamond Pattern standard; traditional oval and star sold separately); black, white and graphite (graphite on 4 and 6 kW). Three tiers: Classic, Select, Coastal.",
+   "so_what": "Designers can match the heater to the room and change the look later, without changing the heater."
+  },
+  {
+   "benefit": "controls",
+   "change": "same",
+   "s1": "Affinity Smart-Heat® On/Off and Dimmer controllers and the manual wall switch; the two elements on 4000/6000 W can be switched separately.",
+   "s2": "Same Affinity Smart-Heat® Controls, with the Affinity Dimmer as the recommended controller. [[VERIFY: Series II control compatibility per model — Product team]]",
+   "so_what": "Nothing new to learn for installers or homeowners: the same app, dimmer and wall switch."
+  },
+  {
+   "benefit": "warranty",
+   "change": "same",
+   "s1": "2 years on the heater, 7 years on the elements; replacement heater or part, owner pays labour and shipping.",
+   "s2": "[[VERIFY: Series II warranty terms, including Coastal — Product team]] Partners receive an additional year on qualifying products.",
+   "so_what": "Confirm whether Coastal's marine-grade build earns longer cover: it would be a strong launch message."
+  },
+  {
+   "benefit": "multi_area",
+   "change": "better",
+   "s1": "Four outputs and mounts for most covered spaces.",
+   "s2": "The same outputs, plus single post, pitched ceilings, low-clearance recessing and a coastal model, so one family covers more of the spaces on a project.",
+   "so_what": "One product family for the dining terrace, the vaulted porch and the waterfront deck."
+  },
+  {
+   "benefit": "coastal",
+   "change": "new",
+   "s1": "Not rated for marine use: Bromic advises mounting under cover, away from rain, snow and salt mist; stainless grade not published.",
+   "s2": "Tungsten Coastal in 316 marine-grade stainless steel, with a marine-grade low-clearance recess kit.",
+   "so_what": "Tungsten can now be sold to coastal homes and waterfront venues, a market Series I could not serve."
+  },
+  {
+   "benefit": "power",
+   "change": "same",
+   "s1": "220–240 V, 208 V and 277 V options; rated 8.3 to 25 A at 240 V.",
+   "s2": "Same voltage options across Classic, Select and Coastal.",
+   "so_what": "No re-design of circuits: Series II drops into existing electrical plans."
+  },
+  {
+   "benefit": "value",
+   "change": "changed",
+   "s1": "A single range listed at about $798–$1,246 a heater (bromic.com).",
+   "s2": "Good, Better, Best: Classic $643–$921, Select $923–$1,170, Coastal $1,195–$1,321. Series I moves to entry level and is then discontinued; Cobalt is discontinued. [[VERIFY: launch list prices by model and region — Sales operations]]",
+   "so_what": "A lower entry price with Classic, and clear steps up for design and coastal performance."
+  },
+  {
+   "benefit": "support",
+   "change": "same",
+   "s1": "Installation manual, cut sheet, design service and technical support.",
+   "s2": "The same support, plus new launch literature, photography and training. [[VERIFY: Series II manuals, CAD and Revit files at launch — Product team]]",
+   "so_what": "Make sure trade files are live on launch day: specifiers will look for them first."
+  }
+ ],
+ "m3": {
+  "competitor": "Infratech",
+  "owner": "Platinum Equity (acquisition announced May 2026)",
+  "rows": [
+   {
+    "benefit": "heat",
+    "edge": "unknown",
+    "infratech": "1.5 to 6 kW in single and dual element models; the manual gives about 11 ft × 11 ft average coverage for the 6,000 W dual-element model at 8–12 ft.",
+    "bromic": "2 to 6 kW; Bromic publishes up to 160 ft² for the 6000 W Tungsten (Series I). Coverage methods differ, so like-for-like claims wait for testing. [[VERIFY: Series II coverage and a like-for-like test against Infratech — Product team]]",
+    "users": {
+     "RES": {
+      "w": 3,
+      "claim": "Lead with the warmth people feel at the table, not a coverage race."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "Match output to plan size from 2 to 6 kW in one family."
+     },
+     "INS": {
+      "w": 2,
+      "claim": "Equivalent outputs; size on Bromic's published coverage and the design plan."
+     },
+     "COM": {
+      "w": 3,
+      "claim": "Let the free design plan prove coverage seat by seat."
+     },
+     "ARC": {
+      "w": 2,
+      "claim": "Specify by the design plan, model by model."
+     },
+     "DES": {
+      "w": 2,
+      "claim": "Talk about where the warmth lands, not the wattage."
+     }
+    }
+   },
+   {
+    "benefit": "install_flex",
+    "edge": "bromic",
+    "infratech": "Wall, ceiling, flush, pole and drop pole; flush mounting is for flat ceilings only, and only on the W/WD models.",
+    "bromic": "Single-post mount, pitched-ceiling adaptor for 3/12 to 12/12 roofs, bracket presets at 15°, 30° and 45°, and recessing.",
+    "users": {
+     "RES": {
+      "w": 2,
+      "claim": "Vaulted porch or gable? Tungsten mounts neatly to a pitched ceiling with a dedicated adaptor."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "Pitched-ceiling adaptor and single post handle the porches and gables in your plans."
+     },
+     "INS": {
+      "w": 3,
+      "claim": "Preset 15°, 30° and 45° positions and a pitched-ceiling adaptor take the guesswork out of angled mounts."
+     },
+     "COM": {
+      "w": 2,
+      "claim": "A slim single post suits canopies and pergolas where ceilings are not flat."
+     },
+     "ARC": {
+      "w": 2,
+      "claim": "Detail heaters on pitched ceilings and posts with standard Bromic hardware."
+     },
+     "DES": {
+      "w": 2,
+      "claim": "Heat follows the architecture, flat ceiling or not."
+     }
+    }
+   },
+   {
+    "benefit": "install_ease",
+    "edge": "bromic",
+    "infratech": "Flush frames need a framed pocket of at least 2×8, lined on all five sides with 5/8 in Type X drywall, with the junction box outside the pocket; one dealer quotes 1–2 weeks for flush frames.",
+    "bromic": "One low-clearance recess kit across Select and Coastal; Classic keeps familiar Series I mounting. [[VERIFY: what the low-clearance kit includes, so the comparison is like for like — Product team]]",
+    "users": {
+     "RES": {
+      "w": 1,
+      "claim": "Less building work around the heater means a tidier, faster install."
+     },
+     "BLD": {
+      "w": 3,
+      "claim": "Fewer framing details to coordinate: one Bromic kit across two tiers."
+     },
+     "INS": {
+      "w": 3,
+      "claim": "One kit, familiar mounting and preset brackets: less to fabricate on site."
+     },
+     "COM": {
+      "w": 1,
+      "claim": "Shorter fit-outs mean the terrace opens sooner."
+     },
+     "ARC": {
+      "w": 1,
+      "claim": "A simpler recess detail to draw and to coordinate."
+     },
+     "DES": {
+      "w": 1,
+      "claim": "An easier install keeps the design intact through the build."
+     }
+    }
+   },
+   {
+    "benefit": "recess",
+    "edge": "bromic",
+    "infratech": "Flush mount needs a 2×8 framed pocket on a flat ceiling; the decorative Motif fascias cannot be used flush or recessed.",
+    "bromic": "Low-clearance recess kit made for shallow ceilings and tight soffits, with a marine-grade version for Coastal. [[VERIFY: low-clearance kit minimum cavity depth — Product team]]",
+    "users": {
+     "RES": {
+      "w": 3,
+      "claim": "Shallow patio ceiling? Tungsten can still sit flush."
+     },
+     "BLD": {
+      "w": 3,
+      "claim": "Win low-soffit alfrescos without deepening the ceiling."
+     },
+     "INS": {
+      "w": 3,
+      "claim": "Fit flush heaters where a 2×8 pocket will not go."
+     },
+     "COM": {
+      "w": 2,
+      "claim": "Flush heat in shallow canopies keeps the venue's ceiling clean."
+     },
+     "ARC": {
+      "w": 3,
+      "claim": "Flush heat in shallow soffits that other recess frames cannot reach."
+     },
+     "DES": {
+      "w": 3,
+      "claim": "A clean ceiling plane even where the cavity is shallow."
+     }
+    }
+   },
+   {
+    "benefit": "safety",
+    "edge": "parity",
+    "infratech": "UL/cUL/CE; IPX4; the flush-frame drawing recommends a cool-down after 4 hours of continuous use.",
+    "bromic": "Electric infrared with no flame or fumes; Tungsten (Series I) is ETL/cETL listed and IPX4. [[VERIFY: Series II listings and IP rating — Product team]]",
+    "users": {
+     "RES": {
+      "w": 3,
+      "claim": "Safe, clean electric warmth with no flame or fumes."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "Listed, electric and simple to inspect."
+     },
+     "INS": {
+      "w": 2,
+      "claim": "Clear mounting heights and listed hardware for a first-time pass."
+     },
+     "COM": {
+      "w": 3,
+      "claim": "No flame, no fumes, no cylinders to manage."
+     },
+     "ARC": {
+      "w": 2,
+      "claim": "Listed electric heat with published clearances."
+     },
+     "DES": {
+      "w": 1,
+      "claim": "Warmth that sits safely beside soft furnishings."
+     }
+    }
+   },
+   {
+    "benefit": "aesthetics",
+    "edge": "infratech",
+    "infratech": "Bodies about 8.2 in wide and 2.5 in deep (retail listings); 304 stainless as standard.",
+    "bromic": "Series II is about 7.2 in wide and 5.5 in deep (launch deck), with a rounded profile and Diamond Pattern fascia. [[VERIFY: Series II depth measured the same way as Infratech's 2.5 in body — Product team]]",
+    "users": {
+     "RES": {
+      "w": 3,
+      "claim": "Lead with the look of the fascia and colours rather than thickness."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "Sell the design and the flush option, where Tungsten leads."
+     },
+     "INS": {
+      "w": 1,
+      "claim": "Compare installed depth, including brackets, before quoting slimness."
+     },
+     "COM": {
+      "w": 2,
+      "claim": "Lead with the refined fascia and the flush, low-clearance option."
+     },
+     "ARC": {
+      "w": 3,
+      "claim": "Use the low-clearance recess, not body depth, as the design argument."
+     },
+     "DES": {
+      "w": 3,
+      "claim": "Lead with pattern and finish choices."
+     }
+    }
+   },
+   {
+    "benefit": "design_flex",
+    "edge": "parity",
+    "infratech": "Brushed stainless, 8 standard colours and custom colours; four Motif fascia patterns, on C/CD surface-mount models only.",
+    "bromic": "Black, white and graphite; Diamond Pattern standard with oval and star options on Select. [[VERIFY: whether Tungsten fascias can be used recessed — Product team]]",
+    "users": {
+     "RES": {
+      "w": 2,
+      "claim": "Choose the fascia and colour that suit your home, and change the look later."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "Three colours and three fascias cover most model-home palettes."
+     },
+     "INS": {
+      "w": 1,
+      "claim": "Fascia changes without re-wiring or re-mounting."
+     },
+     "COM": {
+      "w": 2,
+      "claim": "Coordinate finishes across a venue from one family."
+     },
+     "ARC": {
+      "w": 3,
+      "claim": "If fascias work recessed, Tungsten offers patterned heaters flush in the ceiling."
+     },
+     "DES": {
+      "w": 3,
+      "claim": "Patterns that can work flush in the ceiling, where Motif cannot."
+     }
+    }
+   },
+   {
+    "benefit": "controls",
+    "edge": "bromic",
+    "infratech": "Switches, timers and panels; Wi-Fi and app control through Bond-powered smart switches, bundled with the Universal Control Panel; integration with Lutron, Crestron, Control4 and Savant.",
+    "bromic": "Affinity Smart-Heat® Controls: dimming, app, schedules and zones from the controller, Alexa and Google Assistant, and Control4, Crestron or Lutron (compatibility varies); Wi-Fi and app features need compatible Affinity controls, sold separately.",
+    "users": {
+     "RES": {
+      "w": 3,
+      "claim": "One Bromic app for warmth, schedules and zones, designed with the heater."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "A smart upgrade from one brand, not a third-party add-on."
+     },
+     "INS": {
+      "w": 2,
+      "claim": "Commission heater and controls from one manufacturer in one visit."
+     },
+     "COM": {
+      "w": 3,
+      "claim": "Zones and schedules from one system, with building integration where needed."
+     },
+     "ARC": {
+      "w": 2,
+      "claim": "One manufacturer for heater and control, with BMS and home-automation options."
+     },
+     "DES": {
+      "w": 2,
+      "claim": "Dimmable warmth from a single, elegant control system."
+     }
+    }
+   },
+   {
+    "benefit": "warranty",
+    "edge": "parity",
+    "infratech": "3 years against defects for the original purchaser at the original site; elite dealers may add a fourth year; competitor controls may void cover; element rated to 5,000 hours.",
+    "bromic": "Tungsten (Series I): 2 years on the heater and 7 years on the elements; partners receive an additional year on qualifying products. [[VERIFY: Series II warranty, including Coastal — Product team]]",
+    "users": {
+     "RES": {
+      "w": 2,
+      "claim": "Seven years of cover on the heating elements."
+     },
+     "BLD": {
+      "w": 3,
+      "claim": "Partner warranty extension on qualifying products."
+     },
+     "INS": {
+      "w": 2,
+      "claim": "One manufacturer stands behind heater and controls."
+     },
+     "COM": {
+      "w": 2,
+      "claim": "Long element cover protects the part that works hardest."
+     },
+     "ARC": {
+      "w": 1,
+      "claim": "Element cover the client can count on."
+     },
+     "DES": {
+      "w": 1,
+      "claim": "Cover that matches the life of the design."
+     }
+    }
+   },
+   {
+    "benefit": "multi_area",
+    "edge": "parity",
+    "infratech": "Solid-state zone and timer panels for multiple heaters.",
+    "bromic": "Affinity controllers in 1, 2 or 5 channels with app zones, and mounts for every space type in one family.",
+    "users": {
+     "RES": {
+      "w": 2,
+      "claim": "Warm the dining table and the lounge as separate zones from one app."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "One family covers patio, alfresco and balcony on every plan."
+     },
+     "INS": {
+      "w": 2,
+      "claim": "Wire zones on Affinity channels; one controller family."
+     },
+     "COM": {
+      "w": 3,
+      "claim": "Run each area only when guests are there."
+     },
+     "ARC": {
+      "w": 2,
+      "claim": "One specification family across terraces, balconies and courtyards."
+     },
+     "DES": {
+      "w": 2,
+      "claim": "A consistent look across every outdoor room."
+     }
+    }
+   },
+   {
+    "benefit": "coastal",
+    "edge": "bromic",
+    "infratech": "316 stainless offered as a Marine UpGrade option on C, CD, W and WD models; flush frames listed in 304 stainless.",
+    "bromic": "Tungsten Coastal is 316 marine-grade stainless as standard, with a marine-grade low-clearance recess kit.",
+    "users": {
+     "RES": {
+      "w": 2,
+      "claim": "Coastal homes get marine-grade build as standard, recessed or surface-mounted."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "One coastal model, marine-grade by design, for waterfront developments."
+     },
+     "INS": {
+      "w": 2,
+      "claim": "Marine-grade heater and marine-grade recess kit for coastal jobs."
+     },
+     "COM": {
+      "w": 3,
+      "claim": "Marine-grade from heater to recess kit for waterfront venues."
+     },
+     "ARC": {
+      "w": 2,
+      "claim": "Specify a marine-grade recessed heater as a single system."
+     },
+     "DES": {
+      "w": 1,
+      "claim": "Coastal finishes that keep their looks by the sea."
+     }
+    }
+   },
+   {
+    "benefit": "power",
+    "edge": "infratech",
+    "infratech": "120, 208, 240, 277 and 480 V; 1.5 to 6 kW.",
+    "bromic": "220–240 V, 208 V and 277 V options; 2 to 6 kW.",
+    "users": {
+     "RES": {
+      "w": 1,
+      "claim": "Standard home supply is covered."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "208 and 240 V cover most residential plans."
+     },
+     "INS": {
+      "w": 3,
+      "claim": "Check projects needing 120 V or 480 V early."
+     },
+     "COM": {
+      "w": 3,
+      "claim": "277 V covers most commercial buildings."
+     },
+     "ARC": {
+      "w": 2,
+      "claim": "Confirm the supply voltage at design stage."
+     },
+     "DES": {
+      "w": 1,
+      "claim": "Works with the supply the space already has."
+     }
+    }
+   },
+   {
+    "benefit": "value",
+    "edge": "parity",
+    "infratech": "Retail about $766 to $1,092 for comparable 4 kW models, including the 316 marine grade (retail snapshots).",
+    "bromic": "List from $643 (Classic) to $1,321 (Coastal). [[VERIFY: launch list prices by model and region — Sales operations]]",
+    "users": {
+     "RES": {
+      "w": 2,
+      "claim": "Premium Bromic design from $643 list with Classic."
+     },
+     "BLD": {
+      "w": 3,
+      "claim": "Three clear price points from one family."
+     },
+     "INS": {
+      "w": 2,
+      "claim": "Offer clients a choice on every quote."
+     },
+     "COM": {
+      "w": 2,
+      "claim": "Coastal performance at a defined price step."
+     },
+     "ARC": {
+      "w": 1,
+      "claim": "A clear Good, Better, Best for value engineering."
+     },
+     "DES": {
+      "w": 2,
+      "claim": "Design-led choices at three price points."
+     }
+    }
+   },
+   {
+    "benefit": "support",
+    "edge": "bromic",
+    "infratech": "Trade program with design guides, CAD details and continuing-education credits; elite dealers get leads and training.",
+    "bromic": "Bromic Partner Program: partner pricing, free custom heating design plans, extended warranty, a dedicated point of contact and project marketing spotlights; CAD and Revit files and AIA-accredited courses.",
+    "users": {
+     "RES": {
+      "w": 2,
+      "claim": "A free design plan shows where every heater goes."
+     },
+     "BLD": {
+      "w": 3,
+      "claim": "Partner pricing, design plans and a dedicated contact."
+     },
+     "INS": {
+      "w": 2,
+      "claim": "A dedicated contact and technical line behind every job."
+     },
+     "COM": {
+      "w": 2,
+      "claim": "A design plan mapped to every table before you commit."
+     },
+     "ARC": {
+      "w": 3,
+      "claim": "Revit files, AIA courses and design plans on request."
+     },
+     "DES": {
+      "w": 2,
+      "claim": "Project spotlights that showcase your work."
+     }
+    }
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "d1",
+   "publisher": "Bromic Heating",
+   "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+   "year": 2026,
+   "url": "internal",
+   "verified": true
+  },
+  {
+   "id": "s1",
+   "publisher": "Bromic Heating",
+   "title": "Tungsten Smart-Heat Electric product page",
+   "year": 2026,
+   "url": "https://www.bromic.com/product/tungsten-smart-heat-electric/",
+   "verified": true
+  },
+  {
+   "id": "s2",
+   "publisher": "Bromic Heating",
+   "title": "Tungsten Electric product cut sheet",
+   "year": 2026,
+   "url": "https://pim.bromic.com/wp-content/uploads/2026/02/Product-Cut-Sheet-Tungsten-Electric-1.pdf",
+   "verified": true
+  },
+  {
+   "id": "s3",
+   "publisher": "Bromic Heating",
+   "title": "Tungsten Smart-Heat Electric instruction manual (US)",
+   "year": 2025,
+   "url": "https://pim.bromic.com/wp-content/uploads/2021/07/Bromic-Tungsten-Smart-Heat-Electric-Instruction-Manual-US.pdf",
+   "verified": true
+  },
+  {
+   "id": "s4",
+   "publisher": "Bromic Heating",
+   "title": "Warranty",
+   "year": 2026,
+   "url": "https://www.bromic.com/warranty/",
+   "verified": true
+  },
+  {
+   "id": "s5",
+   "publisher": "Bromic Heating",
+   "title": "Tungsten Electric recess kit",
+   "year": 2026,
+   "url": "https://www.bromic.com/product/tungsten-electric-recess-kit/",
+   "verified": true
+  },
+  {
+   "id": "s6",
+   "publisher": "Bromic Heating",
+   "title": "What should be considered when installing recessed electric outdoor heaters (blog)",
+   "year": 2024,
+   "url": "https://www.bromic.com/blog/what-should-be-considered-when-installing-recessed-electric-outdoor-heaters/",
+   "verified": true
+  },
+  {
+   "id": "i1",
+   "publisher": "Platinum Equity",
+   "title": "Platinum Equity announces acquisition of Infratech",
+   "year": 2026,
+   "url": "https://www.platinumequity.com/news/platinum-equity-announces-acquisition-of-infratech/",
+   "verified": true
+  },
+  {
+   "id": "i2",
+   "publisher": "Infratech",
+   "title": "C/CD, W/WD, SL and Motif series pages",
+   "year": 2026,
+   "url": "https://www.infratech.com/heaters/cd-series/",
+   "verified": true
+  },
+  {
+   "id": "i3",
+   "publisher": "Infratech",
+   "title": "FAQs (voltages, IPX4, element life, dimming)",
+   "year": 2026,
+   "url": "https://www.infratech.com/resources/faqs/",
+   "verified": true
+  },
+  {
+   "id": "i4",
+   "publisher": "Infratech",
+   "title": "C-Series owner's instruction manual (2024, dealer-hosted)",
+   "year": 2024,
+   "url": "https://cdn.shopify.com/s/files/1/0082/0704/0627/files/C-Series_Owners_Instruction_Manual_2024.pdf",
+   "verified": true
+  },
+  {
+   "id": "i5",
+   "publisher": "Infratech",
+   "title": "Flush mount frame specifications (dealer-hosted)",
+   "year": 2019,
+   "url": "https://cdn.shopify.com/s/files/1/0262/9232/2407/files/Flush_Mount_Frame_Specs.pdf",
+   "verified": true
+  },
+  {
+   "id": "i6",
+   "publisher": "Infratech",
+   "title": "Mounting options",
+   "year": 2026,
+   "url": "https://www.infratech.com/mounting-options/",
+   "verified": true
+  },
+  {
+   "id": "i7",
+   "publisher": "Infratech",
+   "title": "Controls",
+   "year": 2026,
+   "url": "https://www.infratech.com/controls/",
+   "verified": true
+  },
+  {
+   "id": "i8",
+   "publisher": "CE Pro",
+   "title": "Bond adds smart control to Infratech outdoor heating via Wi-Fi switches",
+   "year": 2025,
+   "url": "https://www.cepro.com/news/bond-adds-smart-control-to-infratech-outdoor-heating-systems-via-wi-fi-switches/619936/",
+   "verified": true
+  },
+  {
+   "id": "i9",
+   "publisher": "Infratech",
+   "title": "Limited warranty",
+   "year": 2026,
+   "url": "https://www.infratech.com/wp-content/uploads/2026/09/infratech-warranty.pdf",
+   "verified": true
+  },
+  {
+   "id": "i10",
+   "publisher": "Infratech",
+   "title": "Dealers and trade programs",
+   "year": 2026,
+   "url": "https://www.infratech.com/trade/",
+   "verified": true
+  },
+  {
+   "id": "i11",
+   "publisher": "Retail listings (Flame Authority, BBQGuys, The BBQ Depot, Infratech Heating)",
+   "title": "Infratech prices and dimensions, retail snapshots",
+   "year": 2026,
+   "url": "https://bbqguys.com/i/3131760/infratech/cd-series-39-inch-4000w-marine-grade-dual-element-electric-infrared-patio-heater-240v-cd4024mg",
+   "verified": false
+  }
+ ]
+}

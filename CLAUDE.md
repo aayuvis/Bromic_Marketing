@@ -38,6 +38,19 @@ certificate is required to join the Bromic installer program" (owner). The broch
 (11; Infratech, awning, umbrella and thermostat images were left out). US only (NEC): no nl/de translation until a regional version
 is asked for.
 
+## Product marketing (owner, 18 Nov 2026)
+
+The Hub's **Product marketing** tab (`#/pm`, `pmPage()` in app.js) holds one framework per launch in `data/product-marketing/<id>.json`,
+first **Tungsten Smart-Heat® Electric Series II** (launch deck, July 2026: Select and Coastal launched Oct 2026, Classic Jan 2027;
+Series I sells through; Cobalt discontinued). The owner's ten benefit fields are the core (heat performance, installation
+flexibility, ease of installation, recess ability, safety and peace of mind, design aesthetics, design flexibility, ease of
+controls, warranty, heating multiple outdoor areas); four more are marked `proposed` (coastal durability, electrical flexibility,
+choice and value, specification and support). Six buyers: homeowners, builders, installers, commercial and corporate users,
+architects, designers. **Matrix 1** weights each benefit per buyer (3/2/1) with the claim that resonates; **matrix 2** compares
+Series II with Series I (bromic.com, cut sheet, manual, warranty); **matrix 3** compares with Infratech (factual, sourced, each row an
+edge: bromic · parity · infratech · unknown; `needs_approval: Specification and compliance`). Claims add no facts; open facts are
+`[[VERIFY]]`. `app/test/pm.mjs` holds every buyer × benefit filled. Series II renders are `t2-` images.
+
 ## Calculations: one simple model
 
 Every tool and every article that does arithmetic follows [templates/calculation-model.md](templates/calculation-model.md) (owner,

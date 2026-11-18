@@ -15062,5 +15062,137 @@
   "rights": "Bromic product photography (owner, 12 Nov 2026: \"most of the imagery here is Bromic\"); [[VERIFY: original file and photographer credit from the Bromic asset library \u2014 Marketing]]",
   "status": "owner-supplied",
   "sha1": "81624c18967ab413c2cfc0ff33c5e82fe3a597c9"
+ },
+ {
+  "id": "t2-classic",
+  "file": "images/library/t2-classic.webp",
+  "thumb": "images/library/t2-classic-t.webp",
+  "w": 1291,
+  "h": 196,
+  "orientation": "landscape",
+  "product": "Tungsten Classic (Series II)",
+  "setting": "product render, white ground",
+  "audiences": [
+   "ALL"
+  ],
+  "alt": "Tungsten Classic Series II heater, black body with wireframe fascia, product render",
+  "source": "Bromic, Tungsten Electric Series II launch deck (Jul 2026), supplied by the owner 18 Nov 2026",
+  "source_file": "Tungsten_Electric_Series_ll_-_Jul_2026.pptx",
+  "page": 0,
+  "kind": "render",
+  "install_ok": true,
+  "rights": "Bromic internal render; [[VERIFY: final launch renders from the Bromic asset library \u2014 Marketing]]",
+  "status": "owner-supplied",
+  "sha1": "62c38f3f307803d3c4308e4d2beed17995484eaa"
+ },
+ {
+  "id": "t2-select-black",
+  "file": "images/library/t2-select-black.webp",
+  "thumb": "images/library/t2-select-black-t.webp",
+  "w": 1436,
+  "h": 200,
+  "orientation": "landscape",
+  "product": "Tungsten Select (Series II)",
+  "setting": "product render, white ground",
+  "audiences": [
+   "ALL"
+  ],
+  "alt": "Tungsten Select Series II heater in black with the Diamond Pattern fascia, product render",
+  "source": "Bromic, Tungsten Electric Series II launch deck (Jul 2026), supplied by the owner 18 Nov 2026",
+  "source_file": "Tungsten_Electric_Series_ll_-_Jul_2026.pptx",
+  "page": 0,
+  "kind": "render",
+  "install_ok": true,
+  "rights": "Bromic internal render; [[VERIFY: final launch renders from the Bromic asset library \u2014 Marketing]]",
+  "status": "owner-supplied",
+  "sha1": "767b45667b9deb32b23f5b419c89477dc21f35e3"
+ },
+ {
+  "id": "t2-select-white",
+  "file": "images/library/t2-select-white.webp",
+  "thumb": "images/library/t2-select-white-t.webp",
+  "w": 1412,
+  "h": 295,
+  "orientation": "landscape",
+  "product": "Tungsten Select (Series II)",
+  "setting": "product render, white ground",
+  "audiences": [
+   "ALL"
+  ],
+  "alt": "Tungsten Select Series II heater in white with the Diamond Pattern fascia, product render",
+  "source": "Bromic, Tungsten Electric Series II launch deck (Jul 2026), supplied by the owner 18 Nov 2026",
+  "source_file": "Tungsten_Electric_Series_ll_-_Jul_2026.pptx",
+  "page": 0,
+  "kind": "render",
+  "install_ok": true,
+  "rights": "Bromic internal render; [[VERIFY: final launch renders from the Bromic asset library \u2014 Marketing]]",
+  "status": "owner-supplied",
+  "sha1": "27558ce1148e0e2c5448b3a09cb4dcf334381cee"
+ },
+ {
+  "id": "t2-single-post",
+  "file": "images/library/t2-single-post.webp",
+  "thumb": "images/library/t2-single-post-t.webp",
+  "w": 858,
+  "h": 604,
+  "orientation": "landscape",
+  "product": "Tungsten Series II",
+  "setting": "product render, white ground",
+  "audiences": [
+   "ALL"
+  ],
+  "alt": "Tungsten Series II heater on the new single-post ceiling mount, product render",
+  "source": "Bromic, Tungsten Electric Series II launch deck (Jul 2026), supplied by the owner 18 Nov 2026",
+  "source_file": "Tungsten_Electric_Series_ll_-_Jul_2026.pptx",
+  "page": 0,
+  "kind": "render",
+  "install_ok": true,
+  "rights": "Bromic internal render; [[VERIFY: final launch renders from the Bromic asset library \u2014 Marketing]]",
+  "status": "owner-supplied",
+  "sha1": "b42d3f6165c931e24a9ea587dbf0c43867b3d90c"
+ },
+ {
+  "id": "t2-single-post-black",
+  "file": "images/library/t2-single-post-black.webp",
+  "thumb": "images/library/t2-single-post-black-t.webp",
+  "w": 603,
+  "h": 658,
+  "orientation": "square",
+  "product": "Tungsten Select (Series II)",
+  "setting": "product render, white ground",
+  "audiences": [
+   "ALL"
+  ],
+  "alt": "Black Tungsten Select Series II on the single-post mount, product render",
+  "source": "Bromic, Tungsten Electric Series II launch deck (Jul 2026), supplied by the owner 18 Nov 2026",
+  "source_file": "Tungsten_Electric_Series_ll_-_Jul_2026.pptx",
+  "page": 0,
+  "kind": "render",
+  "install_ok": true,
+  "rights": "Bromic internal render; [[VERIFY: final launch renders from the Bromic asset library \u2014 Marketing]]",
+  "status": "owner-supplied",
+  "sha1": "1c359c19af400defd595de745ead5acf2690078e"
+ },
+ {
+  "id": "t2-low-clearance-recess",
+  "file": "images/library/t2-low-clearance-recess.webp",
+  "thumb": "images/library/t2-low-clearance-recess-t.webp",
+  "w": 1094,
+  "h": 728,
+  "orientation": "landscape",
+  "product": "Tungsten Select / Coastal (Series II)",
+  "setting": "product render, white ground",
+  "audiences": [
+   "ALL"
+  ],
+  "alt": "Tungsten Series II in the new low-clearance recess kit, product render",
+  "source": "Bromic, Tungsten Electric Series II launch deck (Jul 2026), supplied by the owner 18 Nov 2026",
+  "source_file": "Tungsten_Electric_Series_ll_-_Jul_2026.pptx",
+  "page": 0,
+  "kind": "render",
+  "install_ok": true,
+  "rights": "Bromic internal render; [[VERIFY: final launch renders from the Bromic asset library \u2014 Marketing]]",
+  "status": "owner-supplied",
+  "sha1": "01c20109eaa99d65a93682b24048fbc62e367a87"
  }
 ]

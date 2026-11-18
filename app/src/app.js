@@ -969,6 +969,58 @@
     return `<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><title>${esc(it.title)}</title><meta name="description" content="${esc(it.meta_description || it.summary)}">\n${art}\n${faq}\n</head><body>\n<!-- ${esc(it.id)} · ${esc(it.status)} · reviewer: ${esc(it.owner_review)} · VERIFY flags: ${it.verifies.length}. Draft — do not publish before sign-off. -->\n<h1>${esc(it.title)}</h1>\n${body}\n${srcs}\n${it.cta ? `<p><a class="bromic-cta" data-asset="${esc(it.cta.asset)}" href="#">${esc(it.cta.label)}</a></p>` : ''}\n</body></html>`;
   }
 
+
+  // ---------- product marketing: one framework per launch (data/product-marketing/*.json) ----------
+  let pmTab = 'm1', pmUser = '', pmClaims = true;
+  const WLAB = { 3: 'Matters most', 2: 'Matters', 1: 'Nice to have' };
+  function pmPage(id) {
+    const all = H.pm || [];
+    const P = all.find((x) => x.id === id) || all[0];
+    if (!P) return '<div class="empty">No product frameworks yet.</div>';
+    const U = P.user_types, B = P.benefits;
+    const users = pmUser ? U.filter((u) => u.id === pmUser) : U;
+    const vf = (t) => esc(t).replace(/\[\[VERIFY:([^\]]*)\]\]/g, '<mark class="verify">To verify:$1</mark>');
+    const tierCards = P.tiers.map((t) => `<article class="pm-tier"><div class="pm-tier-pic">${img(t.image)}</div>
+      <span class="label">${esc(t.tier)}</span><h3>${esc(t.name)}</h3><p class="pm-win">Wins on ${esc(t.win_on.toLowerCase())}</p>
+      <dl class="kv"><dt>Colours</dt><dd>${esc(t.colours)}</dd><dt>Fascia</dt><dd>${esc(t.fascia)}</dd><dt>Recessing</dt><dd>${esc(t.recessing)}</dd><dt>List price</dt><dd>${esc(t.price)}</dd></dl>
+      <ul>${t.notes.map((n) => `<li>${esc(n)}</li>`).join('')}</ul></article>`).join('');
+    const top = (u) => B.filter((b) => !b.proposed).map((b) => ({ b, c: P.m1[u.id][b.id] })).filter((x) => x.c && x.c.w === 3);
+    const bRow = (b) => `<th scope="row" class="pm-b${b.proposed ? ' prop' : ''}"><b>${esc(b.name)}</b><small>${esc(b.what)}</small>${b.proposed ? '<span class="pm-prop">Proposed</span>' : ''}</th>`;
+    const userHead = users.map((u) => `<th scope="col"><button type="button" class="pm-u${pmUser === u.id ? ' on' : ''}" data-pmuser="${u.id}" title="${esc(u.who)}">${esc(u.name)}</button></th>`).join('');
+    let body = '';
+    if (pmTab === 'm1') {
+      body = `<div class="pm-intro"><p>What matters most to each buyer, and the claim that lands with them. Colour shows weight; read across a row to see one benefit through every pair of eyes, or down a column for one buyer's story.</p>
+        <label class="pm-toggle"><input type="checkbox" data-pmclaims ${pmClaims ? 'checked' : ''}> Show claims</label></div>
+        ${pmUser ? `<div class="pm-focus"><span class="label">Lead with, for ${esc(U.find((u) => u.id === pmUser).name.toLowerCase())}</span><ol>${top(U.find((u) => u.id === pmUser)).map((x) => `<li><b>${esc(x.b.name)}.</b> ${esc(x.c.claim)}</li>`).join('')}</ol></div>` : ''}
+        <div class="pm-wrap"><table class="pm-grid${pmClaims ? '' : ' compact'}"><thead><tr><th class="pm-corner">Benefit field</th>${userHead}</tr></thead><tbody>
+        ${B.map((b) => `<tr>${bRow(b)}${users.map((u) => { const c = P.m1[u.id][b.id] || { w: 0, claim: '' }; return `<td class="w${c.w}"><span class="pm-w">${esc(WLAB[c.w] || '')}</span>${pmClaims ? `<p>${esc(c.claim)}</p>` : ''}</td>`; }).join('')}</tr>`).join('')}
+        </tbody></table></div>
+        <div class="legend"><span><i class="pm-sw w3"></i>Matters most</span><span><i class="pm-sw w2"></i>Matters</span><span><i class="pm-sw w1"></i>Nice to have</span></div>`;
+    } else if (pmTab === 'm2') {
+      const BADGE = { new: 'New', better: 'Improved', same: 'Carried over', changed: 'Changed' };
+      body = `<div class="pm-intro"><p>Series II against today's Tungsten (Series I), benefit by benefit: what changed, and the line that sells the change.</p></div>
+        ${P.m2.length ? `<div class="pm-wrap"><table class="pm-grid pm-cmp"><thead><tr><th class="pm-corner">Benefit field</th><th>Tungsten Series I</th><th>Tungsten Series II</th><th>What it means</th></tr></thead><tbody>
+        ${P.m2.map((r) => { const b = B.find((x) => x.id === r.benefit) || { name: r.benefit, what: '' }; return `<tr>${bRow(b)}<td>${vf(r.s1)}</td><td><span class="pm-badge ${esc(r.change)}">${esc(BADGE[r.change] || r.change)}</span> ${vf(r.s2)}</td><td><p>${vf(r.so_what)}</p></td></tr>`; }).join('')}
+        </tbody></table></div>` : '<div class="empty">Research in progress.</div>'}`;
+    } else {
+      body = `<div class="pm-intro"><p>Where Tungsten Series II is stronger than Infratech, benefit by benefit and buyer by buyer. Every comparison is factual and sourced, and needs sign-off from Specification and compliance before it is used outside Bromic.</p>
+        <label class="pm-toggle"><input type="checkbox" data-pmclaims ${pmClaims ? 'checked' : ''}> Show claims</label></div>
+        ${P.m3 && P.m3.rows ? `<div class="pm-wrap"><table class="pm-grid pm-vs${pmClaims ? '' : ' compact'}"><thead><tr><th class="pm-corner">Benefit field</th><th class="pm-inf">Infratech today</th><th class="pm-inf">Tungsten Series II</th>${userHead}</tr></thead><tbody>
+        ${P.m3.rows.map((r) => { const b = B.find((x) => x.id === r.benefit) || { name: r.benefit, what: '' }; return `<tr>${bRow(b)}<td class="pm-inf"><span class="pm-edge ${esc(r.edge)}">${esc({ bromic: 'Bromic stronger', parity: 'Parity', infratech: 'Infratech stronger', unknown: 'To confirm' }[r.edge] || r.edge)}</span><p>${vf(r.infratech)}</p></td><td class="pm-inf"><p>${vf(r.bromic)}</p></td>${users.map((u) => { const c = (r.users || {})[u.id] || {}; return `<td class="w${c.w || 0}">${pmClaims ? `<p>${vf(c.claim || '')}</p>` : `<span class="pm-w">${esc(WLAB[c.w] || '')}</span>`}</td>`; }).join('')}</tr>`; }).join('')}
+        </tbody></table></div>` : '<div class="empty">Research in progress.</div>'}`;
+    }
+    const srcs = P.sources || [];
+    return `<div class="ph"><div><span class="label">Product marketing</span><h1>${esc(P.name)}</h1><p>${esc(P.launch.summary)}</p></div>
+      ${all.length > 1 ? `<label class="who-pick"><span class="label">Product</span><select id="pmprod">${all.map((x) => `<option value="${esc(x.id)}" ${x.id === P.id ? 'selected' : ''}>${esc(x.short || x.name)}</option>`).join('')}</select></label>` : ''}</div>
+      <div class="pm-tiers">${tierCards}</div>
+      <div class="pm-ups"><span class="label">What's new in Series II</span><ul>${P.upgrades.map((u) => `<li>${esc(u)}</li>`).join('')}</ul><p class="muted" style="font-size:13px">${vf(P.price_verify || '')}</p></div>
+      <nav class="pm-tabs" role="tablist">${[['m1', '1 · What matters to whom'], ['m2', '2 · Series II against Series I'], ['m3', '3 · Against Infratech']].map(([k, l]) => `<button type="button" role="tab" aria-selected="${pmTab === k}" data-pmtab="${k}">${l}</button>`).join('')}
+      <span class="pm-filter"><span class="label">Buyer</span> <button type="button" class="pm-u${pmUser ? '' : ' on'}" data-pmuser="">All</button>${U.map((u) => `<button type="button" class="pm-u${pmUser === u.id ? ' on' : ''}" data-pmuser="${u.id}">${esc(u.name)}</button>`).join('')}</span></nav>
+      ${body}
+      ${srcs.length ? `<details class="pm-src"><summary>Sources (${srcs.length})</summary><ol class="srcs">${srcs.map((s, i) => `<li><span class="n">${i + 1}</span><span><b>${esc(s.publisher)}</b>, ${esc(s.title)}${s.year ? ` (${esc(s.year)})` : ''}${/^https?:/.test(s.url || '') ? ` <a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.url)}</a>` : ''}</span></li>`).join('')}</ol></details>` : ''}
+      <p class="muted" style="font-size:13px">Draft for internal use. Owner: ${esc(P.owner_review)}. Competitive claims need approval from ${esc(P.needs_approval)}.</p>`;
+  }
+
   // ---------- router ----------
   function route() {
     const raw = location.hash.replace(/^#\/?/, ''), h = raw.split(/[?#]/)[0], anc = raw.split('#')[1];
@@ -978,7 +1030,7 @@
     document.querySelectorAll('.tabs a').forEach((x) => x.toggleAttribute('aria-current', false) || (x.dataset.tab === tab && x.setAttribute('aria-current', 'page')));
     const mo = document.querySelector('.tabs .more'); if (mo) { mo.open = false; mo.toggleAttribute('data-on', tab === 'more'); }
     const html = p === '' ? home() : p === 'library' ? library() : p === 'item' ? item(decodeURIComponent(a || '')) : p === 'journey' ? journey(a) : p === 'assets' ? assets(a)
-      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : p === 'cases' ? casesPage(a) : p === 'blog' ? blogPage() : p === 'downloads' ? downloadsPage() : p === 'todo' ? todo() : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
+      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : p === 'cases' ? casesPage(a) : p === 'blog' ? blogPage() : p === 'downloads' ? downloadsPage() : p === 'todo' ? todo() : p === 'pm' ? pmPage(a) : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
     view.innerHTML = html;
     const it = p === 'item' && ITEM[a];
     document.title = it ? `${it.title} · Bromic Content Hub` : 'Bromic Content Hub';
@@ -1010,6 +1062,8 @@
   try { if (localStorage.getItem('bromic-hub-edits-v1') || localStorage.getItem('bromic-hub-saved-v1')) { const v = JSON.parse(localStorage.getItem('bromic-hub-edits-v1') || '{}'), w = JSON.parse(localStorage.getItem('bromic-hub-saved-v1') || '{}'); if (Object.keys(v).length || Object.keys(w).length) loadEditor().then(() => { route.keepScroll = true; route(); }); } } catch {}
 
   document.addEventListener('click', (e) => {
+    const pt = e.target.closest('[data-pmtab]'); if (pt) { pmTab = pt.dataset.pmtab; route.keepScroll = true; route(); return; }
+    const pu = e.target.closest('[data-pmuser]'); if (pu) { pmUser = pmUser === pu.dataset.pmuser ? '' : pu.dataset.pmuser; route.keepScroll = true; route(); return; }
     const ap = e.target.closest('[data-approve]'); if (ap) { loadEditor().then((E) => E.approve(ap.dataset.approve)); return; }
     const sc0 = e.target.closest('[data-scroll]'); if (sc0) { e.preventDefault(); document.getElementById(sc0.dataset.scroll)?.scrollIntoView({ behavior: 'smooth', block: 'center' }); return; }
     const cc0 = e.target.closest('[data-copy-chase]'); if (cc0) {
@@ -1041,6 +1095,8 @@
     if (cite) { e.preventDefault(); const el = document.getElementById(cite.getAttribute('href').slice(1)); if (el) { el.scrollIntoView({ behavior: 'smooth', block: 'center' }); el.style.background = 'var(--flame-wash)'; setTimeout(() => (el.style.background = ''), 1600); } }
   });
   document.addEventListener('change', (e) => {
+    if (e.target.dataset && e.target.dataset.pmclaims !== undefined) { pmClaims = e.target.checked; route.keepScroll = true; route(); return; }
+    if (e.target.id === 'pmprod') { location.hash = '#/pm/' + e.target.value; return; }
     if (e.target.id === 'me') { store.set('bromic-hub-me', e.target.value); route.keepScroll = true; route(); return; }
     if (e.target.id === 'sort') { route.keepScroll = true; location.hash = libHref({ ...parseQ(), sort: e.target.value }); }
     if (e.target.dataset.imgf) { imgFilter[e.target.dataset.imgf] = e.target.value; view.innerHTML = images(); }
