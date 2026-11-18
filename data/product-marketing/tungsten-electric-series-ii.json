@@ -212,7 +212,7 @@
    },
    "recess": {
     "w": 3,
-    "claim": "Full 6 kW warmth, flush in a shallow ceiling and safely vented by two fans: the only low-clearance recess at this power."
+    "claim": "Full 6 kW warmth, flush in a shallow ceiling and safely vented by two fans."
    },
    "safety": {
     "w": 3,
@@ -270,7 +270,7 @@
    },
    "recess": {
     "w": 3,
-    "claim": "The only 6 kW low-clearance recess on the market: vented, 7.5 in clearance, and it wins alfresco and soffit plans without re-framing."
+    "claim": "6 kW recessed in a 7.5 in cavity with no fire-rated box to frame and line: alfresco and soffit plans won without re-framing."
    },
    "safety": {
     "w": 2,
@@ -386,7 +386,7 @@
    },
    "recess": {
     "w": 2,
-    "claim": "The only 6 kW low-clearance recess on the market: full commercial warmth, flush in shallow canopies and soffits."
+    "claim": "6 kW flush in a 7.5 in cavity, ventilated by two fans, with no fire-rated box to build: full commercial heat in shallow canopies."
    },
    "safety": {
     "w": 3,
@@ -444,7 +444,7 @@
    },
    "recess": {
     "w": 3,
-    "claim": "Specify the only 6 kW low-clearance recess on the market: vented, flush, in a 7.5 in clearance."
+    "claim": "Specify 6 kW flush in a 7.5 in cavity, fan-ventilated, with no site-built fire-rated box to detail."
    },
    "safety": {
     "w": 2,
@@ -573,7 +573,7 @@
    "change": "new",
    "s1": "Standard recess kit only, which needs a deep ceiling cavity (Bromic guidance: at least 20 in, with two layers of 5/8 in fireproof insulation). No low-clearance option for Tungsten.",
    "s2": "Vented low-clearance recess kit with two fans, needing 7.5 in clearance, for Select; a marine-grade version for Coastal. Classic uses the existing recess kit.",
-   "so_what": "The only 6 kW low-clearance recess on the market: safe, vented, flush Tungsten heat in shallow ceilings that were out of reach."
+   "so_what": "Safe, vented 6 kW flush heat in shallow ceilings with no box to build: the only 6 kW recessed outdoor heater with a fan-ventilated, low-clearance recess kit and no site-built fire-rated box."
   },
   {
    "benefit": "safety",
@@ -749,8 +749,8 @@
    {
     "benefit": "recess",
     "edge": "bromic",
-    "infratech": "Standard flush frames only: a framed pocket of at least 2×8 (about 7.25 in) lined on all five sides, on a flat ceiling only; \"After 4 hours of continuous use, a 15 minute cool down period is recommended for maximum heater longevity\"; Motif fascias cannot be recessed.",
-    "bromic": "The only 6 kW low-clearance recess option on the market: vented with two fans, 7.5 in clearance, no box to build, with a marine-grade version for Coastal. [[VERIFY: \"the only 6 kW low-clearance recess option on the market\" — Specification and compliance]]",
+    "infratech": "Infratech WD-6024 (6,000 W) recesses in its W-61 flush frame: minimum 2×8 framing (about 7.25 in), the pocket lined and sealed on 5 sides with 5/8 in Type X drywall, flat ceilings only, junction box outside the pocket, no fans; \"After 4 hours of continuous use, a 15 minute cool down period is recommended\". Lynx LEH61 and Eurofase EF60 (6,000 W) need the same 2×8, fire-rated five-sided pocket; Solaira ICR H3 needs a contractor-supplied fire-rated enclosure at least 9.25 in deep.",
+    "bromic": "Tungsten Series II is the only 6 kW recessed outdoor heater with a fan-ventilated, low-clearance recess kit and no site-built fire-rated box: two fans, a 7.5 in cavity, a marine-grade version for Coastal. It is not the shallowest: lead with the venting and the box-free install, never with \"only\" or depth alone. [[VERIFY: that the low-clearance kit needs no fire-rated lining or enclosure under its listing, and that 7.5 in is the cavity depth — Product team; competitor check signed off — Specification and compliance]]",
     "users": {
      "RES": {
       "w": 3,
@@ -758,7 +758,7 @@
      },
      "BLD": {
       "w": 3,
-      "claim": "The only 6 kW low-clearance recess, with no lined pocket to build."
+      "claim": "No framed, five-sided fire-rated pocket to build: the kit is the recess."
      },
      "INS": {
       "w": 3,
@@ -766,11 +766,11 @@
      },
      "COM": {
       "w": 2,
-      "claim": "The only 6 kW low-clearance recess: full commercial heat, flush, all service long."
+      "claim": "6 kW, flush, fan-ventilated, with no fire-rated box to build and no cool-down advice."
      },
      "ARC": {
       "w": 3,
-      "claim": "The only 6 kW low-clearance recess to specify, vented and flush."
+      "claim": "The only fan-ventilated 6 kW recess kit found, with no site-built fire-rated box to detail."
      },
      "DES": {
       "w": 3,
@@ -1260,6 +1260,38 @@
    "year": 2019,
    "url": "https://cdn.shopify.com/s/files/1/0262/9232/2407/files/Flush_Mount_Frame_Specs.pdf",
    "verified": true
+  },
+  {
+   "id": "i13",
+   "publisher": "Infratech",
+   "title": "W/WD Series installation manual (2015, dealer-hosted): flush frames for 33, 39 and 61¼ in heaters",
+   "year": 2015,
+   "url": "https://cdn.shopify.com/s/files/1/0489/1541/5207/files/W-WD-Series-Installation-Manual-2015.pdf",
+   "verified": true
+  },
+  {
+   "id": "c1",
+   "publisher": "Lynx",
+   "title": "LEH39/LEH61 electric heater cut-out sheet: flush mount 4,000–6,000 W, 2×8 minimum, fire-rated pocket",
+   "year": 2026,
+   "url": "https://cdn.shopify.com/s/files/1/0277/3588/3912/files/Lynx-ElectricHeaters-LEH39_61-CutOutSheet.pdf",
+   "verified": true
+  },
+  {
+   "id": "c2",
+   "publisher": "Eurofase",
+   "title": "EF Series dual element heater installation manual (2024): flush mount, 2×8 studs minimum, fire-rated pocket",
+   "year": 2024,
+   "url": "https://auraelectricsupply.xologic.com/vendors/4304/EH-IM-EF-Series%20Dual%20Element%20Heater_2024.pdf",
+   "verified": true
+  },
+  {
+   "id": "c3",
+   "publisher": "Solaira",
+   "title": "ICR H3 trim kit specification: 9.25 in minimum flange-to-ceiling distance, fire-rated enclosure by contractor",
+   "year": 2026,
+   "url": "https://argo.webstaurantstore.com/documents/pdf/diagram/icr_trimkit_specification_a.pdf",
+   "verified": true
   }
  ],
  "pillars": [
@@ -1302,10 +1334,10 @@
   },
   {
    "id": "p3",
-   "title": "The Only 6 kW Low-Clearance Recess",
-   "line": "Tungsten Series II is the only 6 kW low-clearance recess option on the market: two fans ventilate the kit, it sits flush in a 7.5 in clearance with no box to build on site, and it runs all evening, with app timers for complete peace of mind.",
+   "title": "Safe, Vented 6 kW Low-Clearance Recessing",
+   "line": "Tungsten Series II is the only 6 kW recessed outdoor heater with a fan-ventilated, low-clearance recess kit and no site-built fire-rated box: two fans ventilate the kit, it sits flush in a 7.5 in ceiling cavity, and it runs all evening, with app timers for complete peace of mind.",
    "proof": [
-    "The only 6 kW low-clearance recess option on the market",
+    "The only 6 kW recess kit found that is fan-ventilated and needs no site-built fire-rated box",
     "Vented with two fans",
     "7.5 in clearance",
     "No box to build: the kit is the recess",
@@ -1320,7 +1352,7 @@
    "src": [
     "o1"
    ],
-   "verify": "[[VERIFY: \"the only 6 kW low-clearance recess option on the market\" against current competitor ranges before any public use — Specification and compliance]]"
+   "verify": "[[VERIFY: that the low-clearance kit needs no fire-rated lining or enclosure under its listing, and that 7.5 in is the cavity depth — Product team; competitor check signed off — Specification and compliance]]"
   },
   {
    "id": "p4",
@@ -1443,6 +1475,27 @@
    "product": "Eclipse Smart-Heat® Freestanding",
    "image": "l-016-130",
    "why": "Heat and light arcing over the sofa."
+  }
+ ],
+ "claim_checks": [
+  {
+   "claim": "The only 6 kW low-clearance recess option on the market",
+   "checked": "2026-11-18",
+   "verdict": "false as stated",
+   "why": "Infratech WD-6024, Lynx LEH61 and Eurofase EF60 (all 6,000 W) are approved for flush recessing with minimum 2×8 framing (about 7.25 in), shallower than 7.5 in. Solaira ICR H3 (6,000 W) needs a fire-rated enclosure at least 9.25 in deep.",
+   "use_instead": "The only 6 kW recessed outdoor heater with a fan-ventilated, low-clearance recess kit, with no site-built fire-rated box needed.",
+   "safest": "Recess 6,000 W into a 7.5 in ceiling cavity: two fans ventilate the kit, so there is no site-built box.",
+   "avoid": [
+    "only (unqualified)",
+    "shallowest",
+    "lowest clearance"
+   ],
+   "open": [
+    "Low-clearance kit listing: no fire-rated lining or enclosure, and 7.5 in is the cavity depth (Product team)",
+    "Actual minimum cavity depth for an Infratech WD-6024 flush install (Specification and compliance, ask Infratech)",
+    "Eurofase fire-rated box depth from Eurofase documents (retail listing says 7.25 in)",
+    "Heatscope, Heatstrip, Schwank, Tansun, Calcana, Dimplex, Burda, Solamagic and others: confirm no 6 kW recess product"
+   ]
   }
  ]
 }
