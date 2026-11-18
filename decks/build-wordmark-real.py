@@ -5,7 +5,7 @@ C='/tmp/claude-0/-home-user/0ea6ef7b-27b7-5460-ab43-18d94f10d5f1/scratchpad/word
 DID='/home/user/Bromic_Marketing/app/src/fonts/gfs-didot-latin.woff2'; LT='/usr/share/fonts/opentype/inter/Inter-Light.otf'; SB='/usr/share/fonts/opentype/inter/Inter-SemiBold.otf'
 F=lambda p,s: ImageFont.truetype(p,s)
 W,H=3900,1500; T=330; BS=1110; HL=BS-T; BG=(244,241,235); INK=(35,31,32); STEEL=(113,119,125); FLAME=(239,65,35)
-P={k:Image.open(C+k+'.png').convert('RGBA') for k in ['tungsten','platinum','gas','portable','pendant','efs','eface']}
+P={k:Image.open(C+k+'.png').convert('RGBA') for k in ['platinum_white','tungsten','platinum','gas','portable','pendant','efs','eface']}
 LAY=[]
 def put(img,cx,cy,w=None,h=None,ang=0,flipx=False,flipy=False):
   im=img
@@ -65,9 +65,10 @@ def B_pendants(x):
 def O_face(x): r=HL/2; put(P['eface'],x+r,(T+BS)/2,w=2*r); accent(x+r,T); return x+2*r
 def O_tilt(x): r=HL/2; im=squash(P['eface'],0.8); put(im,x+r,(T+BS)/2,w=2*r); accent(x+r,T+r*0.2); return x+2*r
 def O_pendant(x): r=HL/2; put(P['pendant'],x+r,(T+BS)/2,w=2*r); accent(x+r,(T+BS)/2-r*0.45); return x+2*r
-def M_lin(x,kind='tungsten'):
-  wM=640; put(P[kind],x+TH/2,(T+BS)/2,w=HL,ang=90); put(P[kind],x+wM-TH/2,(T+BS)/2,w=HL,ang=90)
-  L=HL*0.74; put(P[kind],x+wM*0.33,T+HL*0.37,w=L,ang=-62); put(P[kind],x+wM*0.67,T+HL*0.37,w=L,ang=62); return x+wM
+def M_lin(x,kind='tungsten',mid=None):
+  mid=mid or kind; wM=640
+  L=HL*0.74; put(P[mid],x+wM*0.33,T+HL*0.37,w=L,ang=-62); put(P[mid],x+wM*0.67,T+HL*0.37,w=L,ang=62)
+  put(P[kind],x+TH/2,(T+BS)/2,w=HL,ang=90); put(P[kind],x+wM-TH/2,(T+BS)/2,w=HL,ang=90); return x+wM
 def M_towers(x):
   wP=put(P['portable'],0,0,h=HL)[0]; LAY.pop(); wM=wP*2+340
   put(P['portable'],x+wP/2,(T+BS)/2,h=HL); put(P['portable'],x+wM-wP/2,(T+BS)/2,h=HL,flipx=True)
@@ -88,16 +89,18 @@ def B_halves(x):
   for cy,k in [(T+r,1),(BS-r*1.08,1.08)]:
     d_=int(2*r*k); put(half(P['eface'].resize((d_,d_),Image.LANCZOS),'right'),s-8,cy)
   return s-8+r*1.08
-def R_half(x):
-  s=stem(x); r=HL/3.9; d_=int(2*r); put(half(P['eface'].resize((d_,d_),Image.LANCZOS),'right'),s-8,T+r)
-  put(P['gas'],s+180,BS-150,w=330,ang=-55); return s+r+120
+def R_half(x,kind='tungsten',leg='gas'):
+  s=stem(x,kind); r=HL/3.9; d_=int(2*r); put(half(P['eface'].resize((d_,d_),Image.LANCZOS),'right'),s-8,T+r)
+  if leg=='gas': put(P['gas'],s+180,BS-150,w=330,ang=-55)
+  else: put(P[leg],s+150,BS-HL*0.24,w=HL*0.58,ang=-62)
+  return s+r+120
 def C_fsrot(x):  # Eclipse Freestanding, mirrored and turned a quarter: disc at the top, pole the curve, base at the foot
   q=ImageOps.mirror(P['efs']).rotate(90,expand=True,resample=Image.BICUBIC); q=q.crop(q.getbbox())
   w,_=put(q,0,0,h=HL); LAY.pop(); put(q,x+w/2,(T+BS)/2,h=HL); return x+w
 def C_fsbig(x):
   w,_=put(P['efs'],0,0,h=HL*1.08); LAY.pop(); put(P['efs'],x+w/2,(T+BS)/2-HL*0.04,h=HL*1.08,flipx=True); return x+w
 OPTIONS=[
- ('6','The Original Sketch',[(B_halves,{}),(R_half,{}),(O_face,{}),(M_lin,{}),(I_port,{}),(C_open,{})]),
+ ('6','The Original Sketch',[(B_halves,{}),(R_half,{'kind':'platinum_white','leg':'platinum_white'}),(O_face,{}),(M_lin,{'mid':'platinum_white'}),(I_port,{}),(C_open,{})]),
  ('1','Eclipse Rounds',[(B_eclipses,{}),(R_eclipse,{}),(O_face,{}),(M_lin,{}),(I_port,{}),(C_half,{})]),
  ('2','The Freestanding Pair',[(B_fs,{}),(R_fs,{}),(O_face,{}),(M_towers,{}),(I_lin,{}),(C_open,{})]),
  ('3','Glass And Light',[(B_eclipses,{'kind':'platinum'}),(R_eclipse,{'kind':'platinum','leg':'tungsten'}),(O_tilt,{}),(M_lin,{'kind':'platinum'}),(I_lin,{'kind':'platinum'}),(C_half,{})]),
