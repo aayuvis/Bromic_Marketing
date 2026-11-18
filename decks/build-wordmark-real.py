@@ -83,7 +83,21 @@ def C_fs(x): w,_=put(P['efs'],0,0,h=HL); LAY.pop(); put(P['efs'],x+w/2,(T+BS)/2,
 def C_half(x):
   r=HL/2; put(half(P['eface'].resize((int(2*r),int(2*r)),Image.LANCZOS),'left'),x+r,(T+BS)/2); return x+r+20
 def C_open(x): r=HL/2; put(wedge(P['eface'].resize((int(2*r),int(2*r)),Image.LANCZOS),-40,40),x+r,(T+BS)/2); return x+2*r*0.9
+def B_halves(x):
+  s=stem(x); r=HL/4.1
+  for cy,k in [(T+r,1),(BS-r*1.08,1.08)]:
+    d_=int(2*r*k); put(half(P['eface'].resize((d_,d_),Image.LANCZOS),'right'),s-8,cy)
+  return s-8+r*1.08
+def R_half(x):
+  s=stem(x); r=HL/3.9; d_=int(2*r); put(half(P['eface'].resize((d_,d_),Image.LANCZOS),'right'),s-8,T+r)
+  put(P['gas'],s+180,BS-150,w=330,ang=-55); return s+r+120
+def C_fsrot(x):  # Eclipse Freestanding, mirrored and turned a quarter: disc at the top, pole the curve, base at the foot
+  q=ImageOps.mirror(P['efs']).rotate(90,expand=True,resample=Image.BICUBIC); q=q.crop(q.getbbox())
+  w,_=put(q,0,0,h=HL); LAY.pop(); put(q,x+w/2,(T+BS)/2,h=HL); return x+w
+def C_fsbig(x):
+  w,_=put(P['efs'],0,0,h=HL*1.08); LAY.pop(); put(P['efs'],x+w/2,(T+BS)/2-HL*0.04,h=HL*1.08,flipx=True); return x+w
 OPTIONS=[
+ ('6','The Original Sketch',[(B_halves,{}),(R_half,{}),(O_face,{}),(M_lin,{}),(I_port,{}),(C_fsrot,{})]),
  ('1','Eclipse Rounds',[(B_eclipses,{}),(R_eclipse,{}),(O_face,{}),(M_lin,{}),(I_port,{}),(C_half,{})]),
  ('2','The Freestanding Pair',[(B_fs,{}),(R_fs,{}),(O_face,{}),(M_towers,{}),(I_lin,{}),(C_open,{})]),
  ('3','Glass And Light',[(B_eclipses,{'kind':'platinum'}),(R_eclipse,{'kind':'platinum','leg':'tungsten'}),(O_tilt,{}),(M_lin,{'kind':'platinum'}),(I_lin,{'kind':'platinum'}),(C_half,{})]),
@@ -108,10 +122,10 @@ for no,name,letters in OPTIONS:
       continue
     im,lx,ly=it; base.alpha_composite(im,(int(lx+off),ly))
   base=base.convert('RGB'); d=ImageDraw.Draw(base)
-  d.text((110,80),f'BROMIC IN PRODUCT  ·  OPTION {no} OF 5',font=F(SB,30),fill=FLAME); d.text((110,124),name,font=F(DID,70),fill=INK)
+  d.text((110,80),f'BROMIC IN PRODUCT  ·  OPTION {no}',font=F(SB,30),fill=FLAME); d.text((110,124),name,font=F(DID,70),fill=INK)
   d.text((110,H-90),'Built from Bromic product renders. Concept artwork: products are rotated and arranged as letters, not shown as installed.',font=F(LT,26),fill=STEEL)
   base.save(OUT+f'option-{no}.jpg',quality=92); print(no,int(width))
-ims=[Image.open(OUT+f'option-{n}.jpg') for n in '12345']
+ims=[Image.open(OUT+f'option-{n}.jpg') for n in '123456']
 for t in ims: t.thumbnail((2000,2000))
 s=Image.new('RGB',(2000,sum(t.height+16 for t in ims)),'white'); y=0
 for t in ims: s.paste(t,(0,y)); y+=t.height+16
