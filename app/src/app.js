@@ -1014,6 +1014,12 @@
       ${all.length > 1 ? `<label class="who-pick"><span class="label">Product</span><select id="pmprod">${all.map((x) => `<option value="${esc(x.id)}" ${x.id === P.id ? 'selected' : ''}>${esc(x.short || x.name)}</option>`).join('')}</select></label>` : ''}</div>
       <div class="pm-tiers">${tierCards}</div>
       <div class="pm-ups"><span class="label">What's new in Series II</span><ul>${P.upgrades.map((u) => `<li>${esc(u)}</li>`).join('')}</ul><p class="muted" style="font-size:13px">${vf(P.price_verify || '')}</p></div>
+      ${(P.pillars || []).length ? `<section class="pm-pillars"><div class="pm-sec-h"><span class="label">What we lead with</span><h2>The Series II Story In ${P.pillars.length} Messages</h2></div>
+        <div class="pm-pgrid">${P.pillars.map((x, i) => `<article class="pm-pillar"><span class="pm-pn">${String(i + 1).padStart(2, '0')}</span><h3>${esc(x.title)}</h3><p>${esc(x.line)}</p>
+          <ul>${x.proof.map((q) => `<li>${esc(q)}</li>`).join('')}</ul>${x.verify ? `<p class="pm-pv">${vf(x.verify)}</p>` : ''}
+          <span class="pm-pb">${x.benefits.map((b) => esc((B.find((y) => y.id === b) || {}).name || b)).join(' · ')}</span></article>`).join('')}</div></section>` : ''}
+      ${(P.portfolio || []).length ? `<section class="pm-port"><div class="pm-sec-h"><span class="label">One family for every outdoor room</span><h2>The Right Heater For Every Space</h2></div>
+        <div class="pm-pf">${P.portfolio.map((x) => `<article><div class="pm-pf-pic">${img(x.image)}</div><span class="label">${esc(x.space)}</span><h3>${esc(x.product)}</h3><p>${esc(x.why)}</p></article>`).join('')}</div></section>` : ''}
       <nav class="pm-tabs" role="tablist">${[['m1', '1 · What matters to whom'], ['m2', '2 · Series II against Series I'], ['m3', '3 · Against Infratech']].map(([k, l]) => `<button type="button" role="tab" aria-selected="${pmTab === k}" data-pmtab="${k}">${l}</button>`).join('')}
       <span class="pm-filter"><span class="label">Buyer</span> <button type="button" class="pm-u${pmUser ? '' : ' on'}" data-pmuser="">All</button>${U.map((u) => `<button type="button" class="pm-u${pmUser === u.id ? ' on' : ''}" data-pmuser="${u.id}">${esc(u.name)}</button>`).join('')}</span></nav>
       ${body}

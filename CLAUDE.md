@@ -49,7 +49,11 @@ choice and value, specification and support). Six buyers: homeowners, builders, 
 architects, designers. **Matrix 1** weights each benefit per buyer (3/2/1) with the claim that resonates; **matrix 2** compares
 Series II with Series I (bromic.com, cut sheet, manual, warranty); **matrix 3** compares with Infratech (factual, sourced, each row an
 edge: bromic · parity · infratech · unknown; `needs_approval: Specification and compliance`). Claims add no facts; open facts are
-`[[VERIFY]]`. `app/test/pm.mjs` holds every buyer × benefit filled. Series II renders are `t2-` images.
+`[[VERIFY]]`. Above the matrices: eight **lead messages** (`pillars`, from the owner's core topics: up to 6 kW dual element with
+dimming; mounts anywhere incl. pitched ceilings, extended wall, angles to 45°; safe vented low-clearance recess, two fans, 7.5 in
+clearance, no box to build; single post; no visible junction box; 3 colours and 3 fascias; Coastal dual corrosion protection;
+one family for every outdoor room) and the **portfolio by space**. Infratech's flush frame is quoted exactly: "After 4 hours of
+continuous use, a 15 minute cool down period is recommended". `app/test/pm.mjs` holds every buyer × benefit filled. Series II renders are `t2-` images.
 
 ## Calculations: one simple model
 

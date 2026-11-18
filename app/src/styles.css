@@ -652,3 +652,21 @@ thead .pm-u { border: 0; background: none; padding: 0; font: 600 11px/1.3 var(--
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .pm-grid td.w3 { background: #4A2018; } :root:not([data-theme="light"]) .pm-grid td.w2 { background: #2E1E1A; } }
 :root[data-theme="dark"] .pm-grid td.w3 { background: #4A2018; } :root[data-theme="dark"] .pm-grid td.w2 { background: #2E1E1A; }
 @media (max-width: 900px) { .pm-tiers { grid-template-columns: 1fr; } .pm-ups ul { columns: 1; } .pm-filter { margin-left: 0; } }
+
+.pm-sec-h { border-top: 2px solid var(--ink); padding-top: 12px; margin: 8px 0 14px; } .pm-sec-h h2 { font-size: 28px; margin: 4px 0 0; }
+.pm-pgrid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 26px; }
+.pm-pillar { background: var(--card); border: 1px solid var(--line); border-top: 3px solid var(--flame); padding: 14px 16px; display: flex; flex-direction: column; }
+.pm-pn { font: 600 11px var(--sans); letter-spacing: .12em; color: var(--flame-ink); }
+.pm-pillar h3 { font-size: 20px; margin: 6px 0 8px; line-height: 1.2; }
+.pm-pillar p { margin: 0 0 8px; font-size: 13.5px; line-height: 1.5; }
+.pm-pillar ul { margin: 0 0 10px; padding-left: 18px; font-size: 12.5px; color: var(--ink-2); }
+.pm-pv { font-size: 11.5px !important; }
+.pm-pb { margin-top: auto; font: 600 9.5px/1.4 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--steel); }
+.pm-pf { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; margin-bottom: 28px; }
+.pm-pf article { background: var(--card); border: 1px solid var(--line); }
+.pm-pf-pic { height: 120px; overflow: hidden; background: #fff; display: grid; place-items: center; }
+.pm-pf-pic img { width: 100%; height: 100%; object-fit: cover; }
+.pm-pf article .label, .pm-pf article h3, .pm-pf article p { padding: 0 12px; }
+.pm-pf article .label { display: block; margin-top: 10px; } .pm-pf article h3 { font-size: 17px; margin: 4px 0; } .pm-pf article p { font-size: 13px; margin: 0 0 12px; color: var(--ink-2); }
+@media (max-width: 1100px) { .pm-pgrid { grid-template-columns: repeat(2, 1fr); } .pm-pf { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .pm-pgrid, .pm-pf { grid-template-columns: 1fr; } }
