@@ -1057,6 +1057,85 @@
       <p class="muted" style="font-size:13px">Draft for internal use. Owner: ${esc(P.owner_review)}. Competitive claims need approval from ${esc(P.needs_approval)}.</p>`;
   }
 
+  // ---------- campaigns (data/campaigns/*.json) ----------
+  let cmTab = 'platform', cmF = { market: '', axis: '', group: '' }, cmOpen = '';
+  const cmTone = {}, cmWarm = new Set();
+  const TONE_NAMES = ['Deadpan', 'Dry', 'Absurd', 'Dark'];
+  function campaignsPage(id) {
+    const all = HUB.campaigns || [];
+    if (!all.length) return '<div class="empty">No campaigns yet.</div>';
+    const C = all.find((c) => c.id === id) || all[0], S = C.sections || {}, K = C.tag_key || {};
+    const pic = (k, cls = '') => `<img class="${cls}" loading="lazy" src="images/campaigns/${esc(C.id)}/${esc(k)}.webp" alt="">`;
+    const chips = (arr) => (arr || []).filter(Boolean).map((t) => `<span class="cm-chip c-${esc(String(t).replace(/[^A-Za-z0-9]/g, ''))}" title="${esc(K[t] || '')}">${esc(t)}</span>`).join('');
+    const tones = (item) => { const t = item.tones || []; if (!t.length) return ''; const i = cmTone[item.id] || 0;
+      return `<div class="cm-tones" role="group" aria-label="Register">${t.map((_, k) => `<button type="button" data-cmtone="${esc(item.id)}|${k}" aria-pressed="${k === i}">${TONE_NAMES[k] || k + 1}</button>`).join('')}</div><p class="cm-line">${esc(t[i])}</p>`; };
+    const sec = (s, inner = '') => s ? `<div class="pm-sec-h"><span class="label">${esc(s.kicker || '')}</span><h2>${esc(s.headline || '')}</h2></div>${s.body ? (Array.isArray(s.body) ? s.body : [s.body]).map((p) => `<p class="cm-p">${esc(p)}</p>`).join('') : ''}${inner}` : inner;
+    const kv = (rows) => `<dl class="kv">${rows.filter(([, v]) => v).map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('')}</dl>`;
+    let body = '';
+    if (cmTab === 'platform') {
+      const f = S.filter || {}, fm = S.format || {}, ar = S.argument || {};
+      body = `${sec(ar)}${ar.pull_quote ? `<blockquote class="cm-quote">${esc(ar.pull_quote)}</blockquote>` : ''}
+        ${sec(f, `<div class="cm-pf"><article class="pass"><span class="label">Passes</span><h3>${esc(f.pass?.title)}</h3><p>${esc(f.pass?.body)}</p></article><article class="fail"><span class="label">Fails</span><h3>${esc(f.fail?.title)}</h3><p>${esc(f.fail?.body)}</p></article></div>${f.test ? `<p class="cm-test"><b>The test.</b> ${esc(f.test)}</p>` : ''}`)}
+        ${sec(fm, `${fm.beats ? `<div class="pm-wrap"><table class="pm-grid"><thead><tr><th>Time</th><th>Beat</th><th>What the craft must do</th></tr></thead><tbody>${fm.beats.map(([a, b, c]) => `<tr><td>${esc(a)}</td><th scope="row" class="pm-b"><b>${esc(b)}</b></th><td>${esc(c)}</td></tr>`).join('')}</tbody></table></div>` : ''}${fm.rule ? `<p class="cm-test">${esc(fm.rule)}</p>` : ''}`)}`;
+    } else if (cmTab === 'films') {
+      body = sec(S.films_intro, `<div class="cm-films">${(C.films || []).map((p) => { const w = cmWarm.has(p.id); return `<article class="cm-film">
+        <div class="cm-pic">${pic(w ? p.img_warm : p.img_cold)}<button type="button" class="cm-turn" data-cmwarm="${esc(p.id)}" aria-pressed="${w}">${w ? 'Before' : esc(C.endline || 'Turn it on')}</button></div>
+        <div class="cm-b"><span class="label">Film ${esc(p.no)}</span><h3>${esc(p.title)}</h3><div class="cm-chips">${chips([p.market, p.axis, ...(p.tags || [])])}</div>
+        ${tones(p) || `<p class="cm-line">${esc(p.line)}</p>`}<p>${esc(p.story)}</p>
+        ${kv([['Why it works', p.why], ['At the turn', p.turn], ['Product truth', p.proof]])}</div></article>`; }).join('')}</div>`);
+    } else if (cmTab === 'receipts') {
+      const ri = S.receipts_intro || {};
+      body = sec(ri, `${ri.legal ? `<p class="cm-legal"><b>Legal.</b> ${esc(ri.legal)}</p>` : ''}<div class="cm-receipts">${(C.receipts || []).map((r) => `<article class="cm-rc"><span class="label">${esc(r.tier)}</span><h3>${esc(r.title)}</h3>
+        <ol class="cm-rows">${(r.rows || []).map(([a, b]) => `<li><span>${esc(a)}</span><b>${esc(b)}</b></li>`).join('')}<li class="tot"><span>${esc(r.total?.[0])}</span><b>${esc(r.total?.[1])}</b></li><li class="punch"><span>${esc(r.punch?.[0])}</span><b>${esc(r.punch?.[1])}</b></li></ol>
+        ${r.illustrative ? '<p class="cm-ill">Figures are illustrative. Replace with verified local pricing before it runs.</p>' : ''}
+        ${tones(r)}${kv([['Insight', r.insight], ['Why it sells', r.argument], ['Where it runs', r.channels], ['Call to action', r.cta], ['Formats', r.format], ['For', r.audience], ['Production', r.production], ['Measure', r.kpi]])}</article>`).join('')}</div>`)
+        + sec(S.scenes_intro, (C.scenes || []).map((s) => { const w = cmWarm.has(s.id); return `<article class="cm-scene"><div class="cm-sc-h"><span class="label">${esc(s.tier)}</span><h3>${esc(s.title)}</h3></div>
+        <div class="cm-pic cm-priced">${pic(w ? s.img_warm : s.img_cold)}${(s.tags || []).map((t) => `<span class="cm-tag a-${esc(t.a || 'c')}" style="left:${+t.x}%;top:${+t.y}%"><small>${esc(t.l)}</small>$${Number(t.v).toLocaleString('en-US')}</span>`).join('')}
+        ${w && s.punch ? `<span class="cm-tag punch a-${esc(s.punch.a || 'c')}" style="left:${+s.punch.x}%;top:${+s.punch.y}%"><small>${esc(s.punch.l)}</small>$${Number(s.punch.v).toLocaleString('en-US')}</span>` : ''}
+        <button type="button" class="cm-turn" data-cmwarm="${esc(s.id)}" aria-pressed="${w}">${w ? 'Before' : esc(C.endline || 'Turn it on')}</button></div>
+        <p class="cm-p">${esc(s.note)}</p>${s.illustrative ? '<p class="cm-ill">Prices are illustrative and set as live type over the photograph, never baked into the image.</p>' : ''}${tones(s)}</article>`; }).join(''));
+    } else if (cmTab === 'concepts') {
+      const list = (C.concepts || []).filter((c) => (!cmF.market || c.market === cmF.market) && (!cmF.axis || c.axis === cmF.axis));
+      const opt = (k, vals) => `<div class="cm-filt"><span class="label">${k === 'market' ? 'Market' : 'Angle'}</span>${['', ...vals].map((v) => `<button type="button" data-cmf="${k}|${esc(v)}" aria-pressed="${cmF[k] === v}" title="${esc(K[v] || '')}">${v ? esc(v) : 'All'}</button>`).join('')}</div>`;
+      const uniq = (k) => [...new Set((C.concepts || []).map((c) => c[k]))];
+      body = sec(S.concepts_intro, `${opt('market', uniq('market'))}${opt('axis', uniq('axis'))}<p class="muted">${list.length} of ${(C.concepts || []).length} concepts</p>
+        <div class="cm-grid">${list.map((c) => `<article class="cm-card${cmOpen === c.id ? ' open' : ''}"><button type="button" class="cm-cpic" data-cmopen="${esc(c.id)}" aria-expanded="${cmOpen === c.id}">${pic(c.img)}</button>
+        <div class="cm-b"><span class="label">${String(c.n).padStart(2, '0')}</span><h3>${esc(c.title)}</h3><div class="cm-chips">${chips([c.market, c.axis, ...(c.tags || [])])}</div>
+        ${tones(c) || `<p class="cm-line">${esc(c.caption)}</p>`}
+        ${cmOpen === c.id ? `<p>${esc(c.story)}</p>${kv([['Formats', c.format], ['For', c.audience], ['Production', c.production], ['US and AUS', c.local]])}` : `<button type="button" class="linkish" data-cmopen="${esc(c.id)}">The idea and the brief</button>`}</div></article>`).join('')}</div>`);
+    } else if (cmTab === 'trade') {
+      const grp = (g, h) => { const l = (C.trade || []).filter((t) => t.group === g); return l.length ? `<h3 class="cm-gh">${h}</h3><div class="cm-films">${l.map((t) => `<article class="cm-film"><div class="cm-pic">${pic(t.img)}</div>
+        <div class="cm-b"><span class="label">${esc(t.id)}</span><h3>${esc(t.title)}</h3><div class="cm-chips">${chips([t.market, t.axis, ...(t.tags || [])])}</div>${tones(t) || `<p class="cm-line">${esc(t.caption)}</p>`}<p>${esc(t.story)}</p>
+        ${kv([['Insight', t.insight], ['Why it sells', t.argument], ['Where it runs', t.channels], ['Call to action', t.cta], ['Formats', t.format], ['For', t.audience], ['Production', t.production], ['Measure', t.kpi]])}</div></article>`).join('')}</div>` : ''; };
+      body = sec(S.trade_intro, grp('builders', 'Builders, Architects And Remodelers') + grp('commercial', 'Restaurants, Hotels, Bars And Venues'));
+    } else if (cmTab === 'plan') {
+      const m = S.measurement || {}, rt = S.red_team || {};
+      body = `<div class="pm-sec-h"><span class="label">Who it is for</span><h2>Two Tiers, Two Campaigns</h2></div><div class="cm-tiers">${(S.tiers || []).map((t) => `<article><span class="label">${esc(t.tier)}</span><h3>${esc(t.headline)}</h3>${kv(t.rows || [])}</article>`).join('')}</div>
+        ${S.dealer ? `<p class="cm-test">${esc(S.dealer)}</p>` : ''}
+        ${sec(m, `${m.rows ? `<div class="pm-wrap"><table class="pm-grid"><tbody>${m.rows.map(([a, b]) => `<tr><th scope="row" class="pm-b"><b>${esc(a)}</b></th><td>${esc(b)}</td></tr>`).join('')}</tbody></table></div>` : ''}${m.warning ? `<p class="cm-legal">${esc(m.warning)}</p>` : ''}`)}
+        ${sec(rt, `<div class="pm-wrap"><table class="pm-grid"><tbody>${(rt.rows || []).map((r) => `<tr><td><span class="cm-sev s-${esc(String(r.level).toLowerCase())}">${esc(r.level)}</span></td><th scope="row" class="pm-b"><b>${esc(r.title)}</b></th><td>${esc(r.text)}</td></tr>`).join('')}</tbody></table></div>`)}
+        ${(S.next || []).length ? `<div class="pm-sec-h"><span class="label">Before the client meeting</span><h2>What To Open First</h2></div><ol class="pm-frames">${S.next.map((n) => `<li>${esc(n)}</li>`).join('')}</ol>` : ''}`;
+    } else {
+      const A = C.audit || [], cnt = (k, v) => A.filter((a) => a[k] === v).length;
+      body = `<div class="pm-sec-h"><span class="label">Audit</span><h2>What We Changed, And What Is Still Open</h2></div>
+        <div class="cm-stats">${['high', 'medium', 'low'].map((s) => `<div><b>${cnt('severity', s)}</b><span>${s}</span></div>`).join('')}<div><b>${cnt('status', 'fixed')}</b><span>fixed</span></div><div><b>${cnt('status', 'open')}</b><span>open</span></div></div>
+        <div class="pm-wrap"><table class="pm-grid"><thead><tr><th>Severity</th><th>Area</th><th>Issue</th><th>Rule</th><th>Fix</th><th>Status</th><th>Owner</th></tr></thead><tbody>
+        ${A.map((a) => `<tr><td><span class="cm-sev s-${esc(a.severity)}">${esc(a.severity)}</span></td><th scope="row" class="pm-b"><b>${esc(a.area)}</b><small>${esc(a.where || '')}</small></th><td>${esc(a.issue)}</td><td>${esc(a.rule)}</td><td>${esc(a.fix)}</td><td><span class="pm-badge ${a.status === 'fixed' ? 'better' : 'same'}">${esc(a.status)}</span></td><td>${esc(a.owner)}</td></tr>`).join('')}</tbody></table></div>
+        ${(C.voice_examples || []).length ? `<div class="pm-sec-h"><span class="label">The Bromic voice</span><h2>Before And After</h2></div><div class="cm-voice">${C.voice_examples.map((v) => `<article><p class="was">${esc(v.was)}</p><p class="now">${esc(v.now)}</p></article>`).join('')}</div>` : ''}`;
+    }
+    const I = S.intro || {};
+    const tabs = [['platform', 'The platform'], ['films', 'Six films'], ['receipts', 'The receipt'], ['concepts', 'Concept bank'], ['trade', 'Trade'], ['plan', 'Plan and measure'], ['audit', 'Audit']];
+    return `<section class="cm">
+      <header class="cm-hero"><div><span class="label">${esc(I.kicker || 'Campaign')}</span><h1>${esc(I.headline || C.name)}</h1>${(I.lines || []).map((l) => `<p>${esc(l)}</p>`).join('')}
+        <div class="cm-meta"><span><b>Promise</b> ${esc(C.promise)}</span><span><b>Endline</b> ${esc(C.endline)}</span><span><b>Markets</b> ${esc((C.markets || []).join(' and '))}</span><span><b>Status</b> ${esc(C.status)}</span></div></div>
+        ${C.films?.[0] ? `<div class="cm-hero-pic">${pic(C.films[0].img_warm)}</div>` : ''}</header>
+      ${all.length > 1 ? `<select id="cmsel">${all.map((c) => `<option value="${esc(c.id)}"${c.id === C.id ? ' selected' : ''}>${esc(c.name)}</option>`).join('')}</select>` : ''}
+      <nav class="pm-tabs" role="tablist">${tabs.map(([k, l]) => `<button type="button" role="tab" aria-selected="${cmTab === k}" data-cmtab="${k}">${l}</button>`).join('')}</nav>
+      ${body}
+      <p class="muted cm-foot">Images are AI-generated mood references for lighting, staging, casting and comic register only. They depict no real Bromic product; production shows real Bromic heaters, installed correctly, with their Affinity Smart-Heat® Controls. ${esc(C.source || '')}. Needs approval: ${esc(C.needs_approval || '')}.</p>
+    </section>`;
+  }
+
   // ---------- router ----------
   function route() {
     const raw = location.hash.replace(/^#\/?/, ''), h = raw.split(/[?#]/)[0], anc = raw.split('#')[1];
@@ -1066,7 +1145,7 @@
     document.querySelectorAll('.tabs a').forEach((x) => x.toggleAttribute('aria-current', false) || (x.dataset.tab === tab && x.setAttribute('aria-current', 'page')));
     const mo = document.querySelector('.tabs .more'); if (mo) { mo.open = false; mo.toggleAttribute('data-on', tab === 'more'); }
     const html = p === '' ? home() : p === 'library' ? library() : p === 'item' ? item(decodeURIComponent(a || '')) : p === 'journey' ? journey(a) : p === 'assets' ? assets(a)
-      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : p === 'cases' ? casesPage(a) : p === 'blog' ? blogPage() : p === 'downloads' ? downloadsPage() : p === 'todo' ? todo() : p === 'pm' ? pmPage(a) : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
+      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : p === 'cases' ? casesPage(a) : p === 'blog' ? blogPage() : p === 'downloads' ? downloadsPage() : p === 'todo' ? todo() : p === 'pm' ? pmPage(a) : p === 'campaigns' ? campaignsPage(a) : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
     view.innerHTML = html;
     const it = p === 'item' && ITEM[a];
     document.title = it ? `${it.title} · Bromic Content Hub` : 'Bromic Content Hub';
@@ -1099,6 +1178,11 @@
 
   document.addEventListener('click', (e) => {
     const pt = e.target.closest('[data-pmtab]'); if (pt) { pmTab = pt.dataset.pmtab; route.keepScroll = true; route(); return; }
+    const ct = e.target.closest('[data-cmtab]'); if (ct) { cmTab = ct.dataset.cmtab; route.keepScroll = true; route(); return; }
+    const cw = e.target.closest('[data-cmwarm]'); if (cw) { const k = cw.dataset.cmwarm; cmWarm.has(k) ? cmWarm.delete(k) : cmWarm.add(k); route.keepScroll = true; route(); return; }
+    const cto = e.target.closest('[data-cmtone]'); if (cto) { const [k, i] = cto.dataset.cmtone.split('|'); cmTone[k] = +i; route.keepScroll = true; route(); return; }
+    const cf = e.target.closest('[data-cmf]'); if (cf) { const [k, v] = cf.dataset.cmf.split('|'); cmF[k] = v; route.keepScroll = true; route(); return; }
+    const co = e.target.closest('[data-cmopen]'); if (co) { cmOpen = cmOpen === co.dataset.cmopen ? '' : co.dataset.cmopen; route.keepScroll = true; route(); return; }
     const pu = e.target.closest('[data-pmuser]'); if (pu) { pmUser = pmUser === pu.dataset.pmuser ? '' : pu.dataset.pmuser; route.keepScroll = true; route(); return; }
     const ap = e.target.closest('[data-approve]'); if (ap) { loadEditor().then((E) => E.approve(ap.dataset.approve)); return; }
     const sc0 = e.target.closest('[data-scroll]'); if (sc0) { e.preventDefault(); document.getElementById(sc0.dataset.scroll)?.scrollIntoView({ behavior: 'smooth', block: 'center' }); return; }
@@ -1133,6 +1217,7 @@
   document.addEventListener('change', (e) => {
     if (e.target.dataset && e.target.dataset.pmclaims !== undefined) { pmClaims = e.target.checked; route.keepScroll = true; route(); return; }
     if (e.target.id === 'pmprod') { location.hash = '#/pm/' + e.target.value; return; }
+    if (e.target.id === 'cmsel') { location.hash = '#/campaigns/' + e.target.value; return; }
     if (e.target.id === 'me') { store.set('bromic-hub-me', e.target.value); route.keepScroll = true; route(); return; }
     if (e.target.id === 'sort') { route.keepScroll = true; location.hash = libHref({ ...parseQ(), sort: e.target.value }); }
     if (e.target.dataset.imgf) { imgFilter[e.target.dataset.imgf] = e.target.value; view.innerHTML = images(); }

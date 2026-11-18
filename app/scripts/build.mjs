@@ -251,7 +251,9 @@ const repo = { owner: 'aayuvis', name: 'Bromic_Marketing', branch: process.env.H
 const roles = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'team-roles.json'), 'utf8'));
 const PMDIR = path.join(ROOT, 'data', 'product-marketing');
 const pm = fs.existsSync(PMDIR) ? fs.readdirSync(PMDIR).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(PMDIR, f), 'utf8'))) : [];
-const HUB = { built: new Date().toISOString(), commit, repo, regions, roles, langsAvailable: Object.fromEntries(Object.entries(tr).map(([l, m]) => [l, Object.keys(m).length])), matrix, assets, facts, images, usage, tools, site, cs, blogPlan, pm, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
+const CMDIR = path.join(ROOT, 'data', 'campaigns');
+const campaigns = fs.existsSync(CMDIR) ? fs.readdirSync(CMDIR).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(CMDIR, f), 'utf8'))) : [];
+const HUB = { built: new Date().toISOString(), commit, repo, regions, roles, langsAvailable: Object.fromEntries(Object.entries(tr).map(([l, m]) => [l, Object.keys(m).length])), matrix, assets, facts, images, usage, tools, site, cs, blogPlan, pm, campaigns, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
 
 console.log(`items ${items.length} · tools ${tools.length} · images ${images.length} · site pages ${site.length} · errors ${errors.length} · warnings ${warn.length}`);
 warn.forEach((w) => console.log('  warn  ' + w));
@@ -274,6 +276,7 @@ fs.copyFileSync(path.join(APP, 'node_modules', 'marked', 'marked.min.js'), path.
 fs.writeFileSync(path.join(DIST, 'data.js'), 'window.HUB=' + JSON.stringify(HUB) + ';');
 for (const [lang, m] of Object.entries(tr)) fs.writeFileSync(path.join(DIST, `data-${lang}.js`), `(window.HUB_TR=window.HUB_TR||{})[${JSON.stringify(lang)}]=` + JSON.stringify(m) + ';');
 fs.cpSync(path.join(ROOT, 'images', 'library'), path.join(DIST, 'images', 'library'), { recursive: true });
+if (fs.existsSync(path.join(ROOT, 'images', 'campaigns'))) fs.cpSync(path.join(ROOT, 'images', 'campaigns'), path.join(DIST, 'images', 'campaigns'), { recursive: true });
 if (fs.existsSync(path.join(ROOT, 'tools', '_shared'))) fs.cpSync(path.join(ROOT, 'tools', '_shared'), path.join(DIST, 'tools', '_shared'), { recursive: true });
 for (const t of tools) fs.cpSync(path.join(ROOT, 'tools', t), path.join(DIST, 'tools', t), { recursive: true, filter: (s) => !/test\.mjs$|README\.md$|\.py$/.test(s) });
 console.log('dist written → app/dist/index.html');
