@@ -44,13 +44,14 @@
    "name": "Tungsten Select",
    "win_on": "Style, performance and recessing",
    "colours": "Black, white and graphite (graphite on 4 and 6 kW)",
-   "fascia": "Diamond Pattern standard; oval and star patterns sold separately",
+   "fascia": "Diamond front standard; oval and triangle fronts sold separately",
    "recessing": "New low-clearance recess kit",
    "price": "$923–$1,170",
    "image": "t2-select-black",
    "notes": [
-    "2, 3, 4 and 6 kW, same voltage options",
-    "Sleek single-post mounting"
+    "2, 3, 4 and 6 kW; 208, 240 and 277 V (2 kW is 240 V only)",
+    "Sleek single-post mounting",
+    "IPX5"
    ]
   },
   {
@@ -64,18 +65,20 @@
    "price": "$1,195–$1,321",
    "image": "t2-low-clearance-recess",
    "notes": [
-    "316 marine-grade stainless steel for coastal environments",
-    "4 and 6 kW only, same voltage options",
-    "Sleek single-post mounting"
+    "High-temperature corrosion-resistant coating; marine-grade build (316 per Lookbook)",
+    "4 and 6 kW, 208 and 240 V",
+    "IPX5; recess kit in powder-coated 316 stainless",
+    "Not for marine craft"
    ]
   }
  ],
  "upgrades": [
-  "Low-clearance recess kit (Select and Coastal): fits shallow ceilings and tight soffits",
-  "Slimmer body: 140 mm (5.5 in) deep and 183 mm (7.2 in) wide, against 156 mm (6.1 in) and 214 mm (8.4 in) for Series I",
+  "Low-clearance recess kit (Select and Coastal): 7.5 in minimum cavity, integrated cooling fans, recess box supplied",
+  "About 14% narrower and about a third lighter than Series I (13–15 lb against 19.8–22 lb)",
+  "IPX5 (Series I: IPX4)",
   "Sleek single-post mount",
-  "New fascia designs",
-  "New accessories: wall-mounting bracket, pitched-ceiling adaptor (3/12 to 12/12), bracket with set positions at 15°, 30° and 45°"
+  "New fronts: Diamond standard, oval and triangle sold separately",
+  "New accessories: wall-mount adaptor, pitched-ceiling adaptor (3/12 to 12/12, launch deck), single-post bracket"
  ],
  "price_verify": "[[VERIFY: launch list prices by model and region — Sales operations]]",
  "user_types": [
@@ -204,11 +207,11 @@
    },
    "safety": {
     "w": 3,
-    "claim": "Vented recessing, no flame, no fumes, and app timers that switch the heat off for you: peace of mind all evening."
+    "claim": "Vented recessing, no flame, no fumes, and app schedules and a cut-off timer that switch the heat off for you: peace of mind all evening."
    },
    "aesthetics": {
     "w": 3,
-    "claim": "About 14% slimmer, all black, all white or all graphite, floating on a single post with no visible junction box: beautiful against a timber ceiling."
+    "claim": "About 14% narrower and a third lighter, all black, all white or all graphite, floating on a single post with no visible junction box: beautiful against a timber ceiling."
    },
    "design_flex": {
     "w": 2,
@@ -238,11 +241,11 @@
   "BLD": {
    "heat": {
     "w": 2,
-    "claim": "2 to 6 kW in one family: size each plan from 65 ft² up (Series I published coverage) with a free design plan."
+    "claim": "2 to 6 kW in one family: size each plan from 65 ft² up (Series II manual) with a free design plan."
    },
    "install_flex": {
     "w": 2,
-    "claim": "Pitched porches from 3/12 to 12/12, extended wall brackets for deep eaves, a single post for pergolas, and recessing in a 7.5 in cavity."
+    "claim": "Pitched porches from 3/12 to 12/12, the cantilevered wall-mount adaptor for deep eaves, a single post for pergolas, and recessing in a 7.5 in cavity."
    },
    "install_ease": {
     "w": 3,
@@ -258,7 +261,7 @@
    },
    "aesthetics": {
     "w": 2,
-    "claim": "A body about 14% narrower and 10% shallower than Series I, floating on a single post with no junction box in sight."
+    "claim": "A body about 14% narrower and a third lighter than Series I, floating on a single post with no junction box in sight."
    },
    "design_flex": {
     "w": 2,
@@ -292,7 +295,7 @@
    },
    "install_flex": {
     "w": 3,
-    "claim": "Ceiling; pitched ceilings from 3/12 (14°) to 12/12 (45°) with the adaptor; standard or extended wall bracket; bracket presets at 15°, 30° and 45°, re-angled later; single post; recessed in a 7.5 in cavity."
+    "claim": "Ceiling; pitched ceilings from 3/12 (14°) to 12/12 (45°) with the adaptor; wall bracket or the cantilevered wall-mount adaptor; tilt up to 45° on 2 and 3 kW and up to 30° on 4 and 6 kW, re-angled later; single post; recessed in a 7.5 in cavity."
    },
    "install_ease": {
     "w": 3,
@@ -308,11 +311,11 @@
    },
    "aesthetics": {
     "w": 1,
-    "claim": "A body about 14% narrower and 10% shallower than Series I (183 × 140 mm), with no junction box on show."
+    "claim": "A body about 14% narrower and a third lighter than Series I (183 mm wide), with no junction box on show."
    },
    "design_flex": {
     "w": 1,
-    "claim": "Fascias change without re-wiring or re-mounting: Diamond standard, oval and star optional."
+    "claim": "Fascias change without re-wiring or re-mounting: Diamond standard, oval and triangle optional."
    },
    "controls": {
     "w": 2,
@@ -358,7 +361,7 @@
    },
    "aesthetics": {
     "w": 2,
-    "claim": "A body about 14% narrower and 10% shallower than before: a refined, low-profile line that suits the venue."
+    "claim": "A body about 14% narrower and a third lighter than before: a refined, low-profile line that suits the venue."
    },
    "design_flex": {
     "w": 2,
@@ -392,7 +395,7 @@
    },
    "install_flex": {
     "w": 2,
-    "claim": "Detail flat or pitched ceilings (3/12 to 12/12), walls with standard or extended brackets, angles at 15°, 30° and 45°, single posts and recesses."
+    "claim": "Detail flat or pitched ceilings (3/12 to 12/12), walls with brackets or the cantilevered wall-mount adaptor, tilt up to 45° (2 and 3 kW) or 30° (4 and 6 kW), single posts and recesses."
    },
    "install_ease": {
     "w": 1,
@@ -408,7 +411,7 @@
    },
    "aesthetics": {
     "w": 3,
-    "claim": "A full-body black, white or graphite finish and a 183 × 140 mm section, about 23% smaller than Series I, on a single post with no visible junction box."
+    "claim": "A full-body black, white or graphite finish and a 183 mm wide section, about 14% narrower than Series I, on a single post with no visible junction box."
    },
    "design_flex": {
     "w": 3,
@@ -458,7 +461,7 @@
    },
    "aesthetics": {
     "w": 3,
-    "claim": "All black, all white or all graphite, a 23% smaller section and a Diamond, oval or star fascia, floating on a single post: made to sit against timber ceilings."
+    "claim": "All black, all white or all graphite, a body about 14% narrower and a Diamond, oval or triangle front, floating on a single post: made to sit against timber ceilings."
    },
    "design_flex": {
     "w": 3,
@@ -491,14 +494,14 @@
    "benefit": "heat",
    "change": "same",
    "s1": "2000, 3000, 4000 and 6000 W; coverage published as 65, 100, 130 and 160 ft² (product page; the manual says up to 64, 100, 120 and 144 ft²). Quartz-sheathed steel coil element; 4000 and 6000 W have two elements.",
-   "s2": "Same four power levels on Select (2–6 kW); Classic adds 2 and 3 kW to its 4 and 6 kW; Coastal is 4 and 6 kW. Dual elements on 4 and 6 kW, dimmable with the Affinity Smart-Heat® Dimmer. [[VERIFY: Series II coverage per model — Product team]]",
+   "s2": "Same four outputs on Select (2–6 kW, coverage up to 65, 100, 130 and 160 ft²); Classic adds 2 and 3 kW to its 4 and 6 kW; Coastal is 4 and 6 kW. Dual elements on 4 and 6 kW, dimmable in 1% steps with the Affinity Smart-Heat® Dimmer.",
    "so_what": "The warmth customers trust carries straight over: the story is design and fit, with no trade-off in heat."
   },
   {
    "benefit": "install_flex",
    "change": "better",
    "s1": "Wall (straight or 30°), ceiling, chain or 3 ft tube suspension, and recessed.",
-   "s2": "Ceiling, pitched ceiling (adaptor for 3/12 to 12/12), wall and extended wall bracket, single post, angle adjustable up to 45° and re-angled later, and low-clearance recessing with 7.5 in clearance.",
+   "s2": "Ceiling, pitched ceiling with the adaptor (3/12 to 12/12, launch deck), wall bracket, cantilevered wall-mount adaptor, single post, tilt up to 45° on 2 and 3 kW and up to 30° on 4 and 6 kW, and low-clearance recessing in a 7.5 in cavity (flat or gently sloping ceilings, up to 1/4 in per inch).",
    "so_what": "Vaulted porches, gables and angled walls are now standard details rather than custom work."
   },
   {
@@ -512,28 +515,28 @@
    "benefit": "recess",
    "change": "new",
    "s1": "Standard recess kit only, which needs a deep ceiling cavity (Bromic guidance: at least 20 in, with two layers of 5/8 in fireproof insulation). No low-clearance option for Tungsten.",
-   "s2": "Dual fan-ventilated low-clearance recess kit, needing a 7.5 in cavity, for Select; a marine-grade version for Coastal. Classic uses the existing recess kit.",
+   "s2": "Low-clearance recess kit: minimum cavity depth 7.5 in (190.5 mm), integrated cooling fans on an always-on supply under 1 A, recess box supplied with the kit, 94 in above the floor; Select kit in 304 stainless, Coastal kit in powder-coated 316 stainless, IPX5. Classic uses the existing recess kit. [[VERIFY: number of fans and any fire-rated lining — Product team]]",
    "so_what": "Safe, vented 6 kW flush heat in shallow ceilings with no box to build: the only 6 kW recessed outdoor heater with a dual fan-ventilated, low-clearance recess kit and no site-built fire-rated box."
   },
   {
    "benefit": "safety",
-   "change": "same",
+   "change": "better",
    "s1": "Intertek ETL/cETL listed; IPX4; minimum mounting 72 in on a wall and 96 in on a ceiling (96 in in all cases in Canada); designed for intermittent use.",
-   "s2": "Electric infrared with no flame or fumes; the low-clearance recess is dual fan-ventilated; app timers and schedules through Affinity Smart-Heat® Controls. [[VERIFY: Series II listing, IP rating and minimum mounting heights — Product team]]",
-   "so_what": "Peace of mind is unchanged; confirm the Series II listings before launch claims use them."
+   "s2": "IPX5 (Series I: IPX4); minimum mounting 71–72 in on a wall, 96 in on a ceiling, 94 in recessed; the low-clearance recess kit has integrated cooling fans; app schedules and a 2–12 hour cut-off timer. [[VERIFY: ETL/cETL number for Series II (manual shows a placeholder) — Product team]]",
+   "so_what": "A tougher IPX5 rating and fan-cooled recessing: peace of mind that has measurably improved."
   },
   {
    "benefit": "aesthetics",
    "change": "better",
    "s1": "Honeycomb mesh fascia; 2000/3000 W in black, 4000/6000 W in black or white. Body about 214 mm (8.4 in) wide and 156 mm (6.1 in) deep (launch deck).",
-   "s2": "Slimmer: about 183 mm (7.2 in) wide and 140 mm (5.5 in) deep, about 14% narrower and 10% shallower, a section about 23% smaller; on a single post it appears to float with no visible junction box. Diamond Pattern standard on Select and Coastal; Classic in a stylised wireframe with stainless end covers. Section = width × depth: 33,384 mm² to 25,620 mm². [[VERIFY: Series I dimensions differ between the deck (214 × 156 mm) and the manual (8.5 × 3.5 in) — Product team]]",
+   "s2": "Narrower and lighter: about 183 mm (7.2 in) wide against 214 mm (deck), and 13–15 lb against 19.8–22 lb (manuals); on a single post it appears to float with no visible junction box. Diamond front standard; oval and triangle fronts sold separately. [[VERIFY: depth, measured the same way for both series — Product team]]",
    "so_what": "A visibly slimmer, more designed heater: the reason to choose Series II at first glance."
   },
   {
    "benefit": "design_flex",
    "change": "new",
    "s1": "One fascia design; two colours on the larger models.",
-   "s2": "Three fascia options on Select (Diamond Pattern standard; traditional oval and star sold separately); black, white and graphite (graphite on 4 and 6 kW). Three tiers: Classic, Select, Coastal.",
+   "s2": "Three fascia options on Select (Diamond Pattern standard; traditional oval and triangle sold separately); black, white and graphite (graphite on 4 and 6 kW). Three tiers: Classic, Select, Coastal.",
    "so_what": "Designers can match the heater to the room and change the look later, without changing the heater."
   },
   {
@@ -547,7 +550,7 @@
    "benefit": "warranty",
    "change": "same",
    "s1": "2 years on the heater, 7 years on the elements; replacement heater or part, owner pays labour and shipping.",
-   "s2": "[[VERIFY: Series II warranty terms, including Coastal — Product team]] Partners receive an additional year on qualifying products.",
+   "s2": "Dealers list 2 years on the heater and 7 years on the elements for Select, Coastal and the recess kit; partners receive an additional year on qualifying products. [[VERIFY: Bromic-published Series II and Coastal warranty — Product team]]",
    "so_what": "Confirm whether Coastal's marine-grade build earns longer cover: it would be a strong launch message."
   },
   {
@@ -561,7 +564,7 @@
    "benefit": "coastal",
    "change": "new",
    "s1": "Not rated for marine use: Bromic advises mounting under cover, away from rain, snow and salt mist; stainless grade not published.",
-   "s2": "Tungsten Coastal: 316 marine-grade stainless steel with a protective coating (dual corrosion protection), and a marine-grade low-clearance recess kit. [[VERIFY: name and specification of the Coastal coating — Product team]]",
+   "s2": "Tungsten Coastal: high-temperature corrosion-resistant coating over a marine-grade build (316 per the Lookbook), with a powder-coated 316 stainless recess kit, IPX5. Not for installation on marine craft. [[VERIFY: Coastal body material and coating name — Product team]]",
    "so_what": "Tungsten can now be sold to coastal homes and waterfront venues, a market Series I could not serve."
   },
   {
@@ -612,7 +615,7 @@
     "benefit": "install_flex",
     "edge": "bromic",
     "infratech": "Wall, ceiling, flush, pole and drop pole; the flush frame \"is ONLY to be used on a flat non-sloped ceiling\" and \"cannot be installed on a pitched angle\".",
-    "bromic": "Ceiling, pitched ceiling (3/12 to 12/12), wall and extended wall, single post, angle adjustable up to 45° and changeable later, and low-clearance recessing.",
+    "bromic": "Ceiling, pitched ceiling (3/12 to 12/12), wall and extended wall, single post, angle adjustable up to 45° on 2 and 3 kW and 30° on 4 and 6 kW, changeable later, and low-clearance recessing.",
     "users": {
      "RES": {
       "w": 2,
@@ -708,23 +711,23 @@
     "benefit": "safety",
     "edge": "bromic",
     "infratech": "Flush-frame drawing: \"After 4 hours of continuous use, a 15 minute cool down period is recommended for maximum heater longevity. See controls brochure for timer options.\" App control needs Bond smart switches bundled with a separate Universal Control Panel.",
-    "bromic": "The low-clearance recess kit is dual fan-ventilated for extended evenings of use; the Bromic app switches heaters off remotely, runs timers and sets a night-time shut-off from anywhere. [[VERIFY: low-clearance kit rated for continuous use, with no cool-down guidance — Product team]]",
+    "bromic": "The low-clearance recess kit is dual fan-ventilated for extended evenings of use; the Bromic app switches heaters off remotely, runs timers and runs schedules and a safety cut-off timer you set from 2 to 12 hours. [[VERIFY: low-clearance kit rated for continuous use, with no cool-down guidance — Product team]]",
     "users": {
      "RES": {
       "w": 3,
-      "claim": "Enjoy the whole evening: the recess is dual fan-ventilated, and the app can switch the heat off from anywhere or at a set time each night."
+      "claim": "Enjoy the whole evening: the recess is dual fan-ventilated, and the app can switch the heat off from anywhere, on a schedule or with a cut-off timer."
      },
      "BLD": {
       "w": 2,
-      "claim": "Peace of mind buyers can see: dual fan-ventilated recessing, app timers and remote shut-off."
+      "claim": "Peace of mind buyers can see: dual fan-ventilated recessing, app schedules, remote off and a cut-off timer."
      },
      "INS": {
       "w": 2,
-      "claim": "Dual fan-ventilated recess for extended use; set timers and a nightly shut-off in the app at handover."
+      "claim": "Dual fan-ventilated recess for extended use; set schedules and the cut-off timer in the app at handover."
      },
      "COM": {
       "w": 3,
-      "claim": "Heat through the whole service with no cool-down break, and a scheduled shut-off at close."
+      "claim": "Heat through the whole service with no cool-down break, and a schedule that switches off at close."
      },
      "ARC": {
       "w": 2,
@@ -732,7 +735,7 @@
      },
      "DES": {
       "w": 1,
-      "claim": "Warmth that stays on all evening and switches itself off at night."
+      "claim": "Warmth that stays on all evening and switches itself off on schedule."
      }
     }
    },
@@ -740,7 +743,7 @@
     "benefit": "aesthetics",
     "edge": "bromic",
     "infratech": "In every colour option the colour sits on the end caps, while the polished stainless reflector and open wire guard stay the same (Infratech colour images, C/CD Series); the junction box sits on top of the heater.",
-    "bromic": "Fully monochrome finishes: all black, all white or all graphite, which sit naturally against timber ceilings; a Diamond, oval or star fascia over the elements; about 14% slimmer than Series I; floats on a single post with no visible junction box.",
+    "bromic": "Fully monochrome finishes: all black, all white or all graphite, which sit naturally against timber ceilings; a Diamond, oval or triangle front over the elements; about 14% narrower and a third lighter than Series I; floats on a single post with no visible junction box.",
     "users": {
      "RES": {
       "w": 3,
@@ -760,11 +763,11 @@
      },
      "ARC": {
       "w": 3,
-      "claim": "Specify a fully monochrome heater, black, white or graphite, with a patterned fascia and a 23% smaller section."
+      "claim": "Specify a fully monochrome heater, black, white or graphite, with a patterned fascia and a body about 14% narrower."
      },
      "DES": {
       "w": 3,
-      "claim": "All black, all white or all graphite, with a Diamond, oval or star fascia: designed to sit within timber and plaster ceilings."
+      "claim": "All black, all white or all graphite, with a Diamond, oval or triangle front: designed to sit within timber and plaster ceilings."
      }
     }
    },
@@ -772,7 +775,7 @@
     "benefit": "design_flex",
     "edge": "bromic",
     "infratech": "Brushed stainless or eight end-cap colours plus custom; Motif decorative fascias fit C/CD surface-mount models only and cannot be used flush.",
-    "bromic": "Three full-body finishes (black, white, graphite) and three fascias (Diamond standard, oval and star) across ceiling, wall, post and recessed installs. [[VERIFY: fascias available on recessed installs — Product team]]",
+    "bromic": "Three full-body finishes (black, white, graphite) and three fascias (Diamond standard, oval and triangle) across ceiling, wall, post and recessed installs. [[VERIFY: fascias available on recessed installs — Product team]]",
     "users": {
      "RES": {
       "w": 2,
@@ -1162,6 +1165,38 @@
    "year": 2026,
    "url": "https://www.infratech.com/heaters/cd-series/",
    "verified": true
+  },
+  {
+   "id": "b1",
+   "publisher": "Bromic Heating",
+   "title": "Tungsten Smart-Heat Electric Select & Coastal Models, installation manual (2026, dealer-hosted)",
+   "year": 2026,
+   "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Electric-Select-Coastal-Manual.pdf",
+   "verified": true
+  },
+  {
+   "id": "b2",
+   "publisher": "Bromic Heating",
+   "title": "LC Ceiling Recess Kit for the Tungsten Smart-Heat Electric Series II, instructions (2025, dealer-hosted)",
+   "year": 2025,
+   "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Select-Coastal-LC-Recess-Kit-Instructions.pdf",
+   "verified": true
+  },
+  {
+   "id": "b3",
+   "publisher": "Bromic Heating",
+   "title": "Affinity Smart-Heat control system brochure 2026",
+   "year": 2026,
+   "url": "https://pim.bromic.com/wp-content/uploads/2026/08/Bromic-affinity-smart-heat-control-system-2026.pdf",
+   "verified": true
+  },
+  {
+   "id": "b4",
+   "publisher": "Bromic Heating",
+   "title": "Affinity Smart-Heat app",
+   "year": 2026,
+   "url": "https://www.bromic.com/affinity-smart-heat-app/",
+   "verified": true
   }
  ],
  "pillars": [
@@ -1186,11 +1221,11 @@
   {
    "id": "p2",
    "title": "Mounts Wherever The Evening Happens",
-   "line": "Flat ceiling, pitched ceiling, wall or extended wall bracket, angled up to 45° and re-angled later, or recessed flush in a low-clearance ceiling: one heater for every setting.",
+   "line": "Flat ceiling, pitched ceiling, wall or extended wall bracket, angled up to 45° (2 and 3 kW) or 30° (4 and 6 kW) and re-angled later, or recessed flush in a low-clearance ceiling: one heater for every setting.",
    "proof": [
     "Pitched-ceiling adaptor, 3/12 to 12/12",
-    "Wall and extended wall brackets",
-    "Adjustable angle up to 45°",
+    "Wall brackets and the cantilevered wall-mount adaptor",
+    "Adjustable angle: up to 45° (2 and 3 kW), 30° (4 and 6 kW)",
     "Low-clearance recess with 7.5 in clearance"
    ],
    "benefits": [
@@ -1205,14 +1240,13 @@
   {
    "id": "p3",
    "title": "Safe, Dual Fan-Ventilated 6 kW Recessing",
-   "line": "Tungsten Series II is the only 6 kW recessed outdoor heater with a dual fan-ventilated, low-clearance recess kit: built for extended evenings of use in a 7.5 in ceiling cavity, with no site-built fire-rated box, and the Bromic app switches it off remotely, on a timer or at a set time each night.",
+   "line": "Tungsten Series II is the only 6 kW recessed outdoor heater with a dual fan-ventilated, low-clearance recess kit: it sits flush in a 7.5 in ceiling cavity in a recess box supplied with the kit, and the Bromic app switches it off remotely, on a schedule or with a cut-off timer of 2 to 12 hours.",
    "proof": [
-    "The only 6 kW recess kit found that is dual fan-ventilated and needs no site-built fire-rated box",
-    "Dual fan-ventilated",
-    "7.5 in clearance",
-    "No box to build: the kit is the recess",
-    "No cool-down advice after continuous use",
-    "App timers and schedules"
+    "Minimum cavity depth 7.5 in (190.5 mm), Series II recess kit manual",
+    "Integrated cooling fans (owner: two)",
+    "Recess box supplied with the kit: nothing to build on site",
+    "IPX5 heater; Coastal kit in powder-coated 316 stainless, IPX5",
+    "App schedules and a 2–12 hour cut-off timer"
    ],
    "benefits": [
     "recess",
@@ -1222,7 +1256,7 @@
    "src": [
     "o1"
    ],
-   "verify": "[[VERIFY: that the low-clearance kit needs no fire-rated lining or enclosure under its listing, and that 7.5 in is the cavity depth — Product team; competitor check signed off — Specification and compliance]]"
+   "verify": "[[VERIFY: number of fans (manual says \"integrated cooling fans\"); whether any fire-rated lining is needed; continuous-use guidance — Product team. \"Only\" claim — Specification and compliance]]"
   },
   {
    "id": "p4",
@@ -1246,9 +1280,10 @@
   {
    "id": "p5",
    "title": "Visually Cleaner, Seemingly Floating",
-   "line": "About 14% narrower and 10% shallower than Series I, a section 23% smaller, and on its single post the heater appears to float, with no visible junction box.",
+   "line": "About 14% narrower and a third lighter than Series I, and on its single post the heater appears to float, with no visible junction box.",
    "proof": [
-    "14% narrower, 10% shallower, 23% smaller section (183 × 140 mm against 214 × 156 mm)",
+    "About 14% narrower (183 mm against 214 mm, launch deck)",
+    "About a third lighter: 13–15 lb against 19.8–22 lb (manuals)",
     "Single post",
     "No visible junction box"
    ],
@@ -1258,15 +1293,16 @@
    "src": [
     "d1",
     "o1"
-   ]
+   ],
+   "verify": "[[VERIFY: Series II depth against Series I, measured the same way — Product team]]"
   },
   {
    "id": "p6",
    "title": "All Black, All White, All Graphite",
-   "line": "Each finish covers the whole heater, so Tungsten sits beautifully against timber and plaster ceilings, with a Diamond, oval or star fascia over the elements.",
+   "line": "Each finish covers the whole heater, so Tungsten sits beautifully against timber and plaster ceilings, with a Diamond, oval or triangle front over the elements.",
    "proof": [
     "Full-body finishes: black, white, graphite (graphite on 4 and 6 kW)",
-    "3 fascias: Diamond standard, oval and star sold separately",
+    "3 fascias: Diamond standard, oval and triangle sold separately",
     "Made to sit against timber ceilings"
    ],
    "benefits": [
@@ -1280,11 +1316,12 @@
   {
    "id": "p8",
    "title": "Built For Life By The Water",
-   "line": "Tungsten Coastal protects against corrosion twice over: 316 marine-grade stainless steel, finished with a protective coating, with a marine-grade low-clearance recess kit to match.",
+   "line": "Tungsten Coastal protects against corrosion twice over: a marine-grade build with a high-temperature, corrosion-resistant coating, and a recess kit in powder-coated 316 stainless steel rated IPX5. For coastal homes and venues, not for boats.",
    "proof": [
-    "316 marine-grade stainless steel",
-    "Protective coating over the stainless",
-    "Marine-grade low-clearance recess kit"
+    "High-temperature corrosion-resistant coating (manual)",
+    "316 marine-grade stainless (Lookbook)",
+    "Recess kit: powder-coated 316 stainless, IPX5",
+    "Not for installation on marine craft"
    ],
    "benefits": [
     "coastal"
@@ -1293,12 +1330,12 @@
     "d1",
     "o1"
    ],
-   "verify": "[[VERIFY: name and specification of the Coastal coating — Product team]]"
+   "verify": "[[VERIFY: Coastal heater body in 316 stainless (Lookbook only) and the coating name — Product team]]"
   },
   {
    "id": "p7",
    "title": "One Family For Every Outdoor Room",
-   "line": "The right Bromic heater for every use: electric on ceilings, walls, posts and recesses; the Eclipse pendant; Eclipse Freestanding electric; built-in gas; and Tungsten Freestanding Gas, with Affinity-controlled heaters on the Bromic app.",
+   "line": "The right Bromic heater for every use: electric on ceilings, walls, posts and recesses; the Eclipse pendant; Eclipse Freestanding electric; built-in gas; and Tungsten Freestanding Gas, with Affinity-controlled electric heaters on the Bromic app.",
    "proof": [
     "Garage: Tungsten Classic",
     "Pergola: Tungsten Select",
@@ -1313,7 +1350,7 @@
    "src": [
     "o1"
    ],
-   "verify": "[[VERIFY: app control for Tungsten Freestanding Gas and Eclipse Freestanding — Product team]]"
+   "verify": "[[VERIFY: Eclipse Freestanding app control (dealer evidence only); Tungsten Freestanding Gas is not on the app — Product team]]"
   }
  ],
  "portfolio": [
@@ -1370,18 +1407,9 @@
   }
  ],
  "slimness": {
-  "series_i_mm": [
-   214,
-   156
-  ],
-  "series_ii_mm": [
-   183,
-   140
-  ],
+  "note": "Width: narrower in both sources (deck 214 → 183 mm, about 14%; manuals 8.5 → 7 in, about 18%). Depth: the deck shows Series II shallower (156 → 140 mm), the manuals show it deeper (3.5 → 6 in), so no depth claim until the Product team measures both the same way. Weight: Series II manuals 13 lb (2 and 4 kW) and 15 lb (3 and 6 kW) against Series I 19.8 and 22 lb, about a third lighter.",
   "narrower_pct": 14,
-  "shallower_pct": 10,
-  "section_smaller_pct": 23,
-  "note": "From the launch deck (width × depth). Section = width × depth: 33,384 mm² to 25,620 mm². [[VERIFY: Series I dimensions differ between the deck (214 × 156 mm) and the manual (8.5 × 3.5 in) — Product team]]"
+  "lighter_pct": 32
  },
  "spec_verify": "[[VERIFY: Series II mounting heights, listings, warranty and rated current — Product team]]",
  "ad_briefs": [
@@ -1420,12 +1448,12 @@
    "format": "Carousel, 4:5, 5 cards",
    "hook": "Card 1: three heaters side by side, black, white, graphite.",
    "headline": "Your Colour, Your Pattern",
-   "primary_text": "Black, white or graphite, with Diamond, oval and star fascias. Choose the Tungsten that suits your home.",
+   "primary_text": "Black, white or graphite, with Diamond, oval and triangle fronts. Choose the Tungsten that suits your home.",
    "cta": "Learn More",
    "visual": "Clean product renders on warm white; one lifestyle card per colour. End card: \"Find your Tungsten\".",
    "claims": [
     "3 colours (graphite on 4 and 6 kW)",
-    "3 fascias: Diamond standard, oval and star sold separately"
+    "3 fascias: Diamond standard, oval and triangle sold separately"
    ],
    "images": [
     "t2-select-black",
@@ -1452,11 +1480,11 @@
    "format": "Reel, 9:16, 10 s, or static 4:5",
    "hook": "A slow push-in along the slim body to the single post above a pergola table.",
    "headline": "Slimmer. Cleaner. Floating.",
-   "primary_text": "About 14% slimmer than before, on a single post with no junction box in sight.",
+   "primary_text": "About 14% narrower and a third lighter than before, on a single post with no junction box in sight.",
    "cta": "Learn More",
    "visual": "Pergola at blue hour, black Tungsten Select on its single post over the table; tight detail shot of the post and body edge.",
    "claims": [
-    "About 14% narrower and 10% shallower than Series I",
+    "About 14% narrower and a third lighter than Series I",
     "Single post",
     "No visible junction box"
    ],
@@ -1596,12 +1624,12 @@
    "format": "Carousel, 4:5, 6 cards",
    "hook": "Card 1: one heater shown in five mounting conditions.",
    "headline": "One Heater. Every Mounting Condition.",
-   "primary_text": "Flat or pitched ceilings from 3/12 to 12/12, standard or extended wall brackets, presets at 15°, 30° and 45°, a single post, or recessed.",
+   "primary_text": "Flat or pitched ceilings from 3/12 to 12/12, wall bracket or the cantilevered wall-mount adaptors, tilt up to 45° (2 and 3 kW) or 30° (4 and 6 kW), a single post, or recessed.",
    "cta": "Learn More",
    "visual": "Clean line drawings or renders per condition, with the spec number large on each card.",
    "claims": [
     "Pitched-ceiling adaptor, 3/12 to 12/12",
-    "Bracket presets at 15°, 30° and 45°",
+    "Bracket tilt up to 45° (2 and 3 kW) or 30° (4 and 6 kW)",
     "Standard and extended wall brackets",
     "Single post",
     "Recess in a 7.5 in cavity"
@@ -1618,8 +1646,8 @@
    "cards": [
     "One heater, every mounting condition",
     "Pitched ceilings: 3/12 to 12/12",
-    "Angles: 15°, 30°, 45°, re-angled later",
-    "Walls: standard or extended bracket",
+    "Angles: up to 45° on 2–3 kW, 30° on 4–6 kW, re-angled later",
+    "Walls: bracket or cantilevered wall-mount adaptor",
     "Single post: one fixing point",
     "Recessed: 7.5 in cavity"
    ]
@@ -1723,7 +1751,7 @@
    "channel": "Website, Revit and CAD",
    "audience": "Architects, designers",
    "claims": [
-    "183 × 140 mm section, about 23% smaller than Series I",
+    "183 mm wide section, about 14% narrower than Series I",
     "Dual fan-ventilated low-clearance recess",
     "208, 240 and 277 V"
    ],
