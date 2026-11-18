@@ -582,8 +582,8 @@
    {
     "benefit": "heat",
     "edge": "parity",
-    "infratech": "1.5 to 6 kW in single and dual element models; the manual gives about 11 ft × 11 ft average coverage for the 6,000 W dual-element model at 8–12 ft.",
-    "bromic": "Parity in output: 2 to 6 kW, with dual elements on the 4 and 6 kW models dimmable through the Affinity Smart-Heat® Dimmer. Compete on how the heat is controlled and installed, not on wattage.",
+    "infratech": "1.5 to 6 kW. Infratech's chart gives about 11 ft × 11 ft (121 ft²) for the 6,000 W CD model at 8–12 ft and 10 ft × 10 ft for the 4,000 W C model.",
+    "bromic": "Parity in output: 2 to 6 kW, coverage up to 160 ft² for 6 kW (Series II manual), dual elements on 4 and 6 kW dimmable in 1% steps. Each maker measures coverage its own way, so compete on control and installation, not wattage.",
     "users": {
      "RES": {
       "w": 3,
@@ -646,8 +646,8 @@
    {
     "benefit": "install_ease",
     "edge": "bromic",
-    "infratech": "Flush frames need a framed pocket of at least 2×8, lined and sealed on all five sides; the junction box must be mounted outside the sealed pocket. [[VERIFY: Infratech pole mounts use two posts — Specification and compliance]]",
-    "bromic": "One post instead of two; recessing needs no box built on site, because the low-clearance kit is the recess; one kit across Select and Coastal.",
+    "infratech": "Flush frames need a framed pocket of at least 2×8, lined and sealed on five sides with 5/8 in Type X drywall, junction box outside the pocket. Pole mount: one post on a 10 × 10 in base; drop-pole suspension uses a pair of rods per heater.",
+    "bromic": "One post instead of two suspension tubes (Series I) or a pair of drop rods (Infratech); recessing in a recess box supplied with the kit, so nothing to build on site; one kit across Select and Coastal.",
     "users": {
      "RES": {
       "w": 1,
@@ -678,7 +678,7 @@
    {
     "benefit": "recess",
     "edge": "bromic",
-    "infratech": "W/WD models flush-mount in a framed pocket: minimum 2×8 framing, lined and sealed on five sides with 5/8 in Type X drywall, flat ceilings only, junction box outside the pocket, no fans; a 15-minute cool-down is recommended after 4 hours of continuous use. No low-clearance kit; Motif fascias cannot be recessed.",
+    "infratech": "W/WD models flush-mount in a framed pocket: \"MIN. 2 x 8\", lined and sealed on all five sides with 5/8 in Type X drywall, \"ONLY to be used on a flat non-sloped ceiling\", junction box outside the pocket; no fans are shown in Infratech's documents; \"After 4 hours of continuous use, a 15 minute cool down period is recommended for maximum heater longevity\". No low-clearance kit; Motif covers cannot be recessed.",
     "bromic": "Tungsten Series II is the only 6 kW recessed outdoor heater with a dual fan-ventilated, low-clearance recess kit and no site-built fire-rated box: dual fan-ventilated, a 7.5 in cavity, a marine-grade version for Coastal. It is not the shallowest: lead with the venting and the box-free install, never with \"only\" or depth alone. [[VERIFY: that the low-clearance kit needs no fire-rated lining or enclosure under its listing, and that 7.5 in is the cavity depth — Product team; competitor check signed off — Specification and compliance]]",
     "users": {
      "RES": {
@@ -710,12 +710,12 @@
    {
     "benefit": "safety",
     "edge": "bromic",
-    "infratech": "Flush-frame drawing: \"After 4 hours of continuous use, a 15 minute cool down period is recommended for maximum heater longevity. See controls brochure for timer options.\" App control needs Bond smart switches bundled with a separate Universal Control Panel.",
-    "bromic": "The low-clearance recess kit is dual fan-ventilated for extended evenings of use; the Bromic app switches heaters off remotely, runs timers and runs schedules and a safety cut-off timer you set from 2 to 12 hours. [[VERIFY: low-clearance kit rated for continuous use, with no cool-down guidance — Product team]]",
+    "infratech": "UL and cUL listed, IPX4. Flush frame: a 15-minute cool-down is recommended after 4 hours of continuous use. Smart Switch app control is on/off with a built-in 2-hour timer.",
+    "bromic": "Tungsten Series II is rated IPX5 (Infratech: IPX4); the low-clearance recess kit has integrated cooling fans; the Bromic app switches heaters off remotely, runs schedules and a safety cut-off timer you set from 2 to 12 hours. [[VERIFY: continuous-use guidance for the recess kit — Product team]]",
     "users": {
      "RES": {
       "w": 3,
-      "claim": "Enjoy the whole evening: the recess is dual fan-ventilated, and the app can switch the heat off from anywhere, on a schedule or with a cut-off timer."
+      "claim": "IPX5 weather protection, a fan-cooled recess, and an app that switches the heat off from anywhere, on a schedule or with a cut-off timer."
      },
      "BLD": {
       "w": 2,
@@ -723,7 +723,7 @@
      },
      "INS": {
       "w": 2,
-      "claim": "Dual fan-ventilated recess for extended use; set schedules and the cut-off timer in the app at handover."
+      "claim": "IPX5, minimum heights of 72 in wall, 96 in ceiling and 94 in recessed, and a fan-cooled recess kit on an always-on supply under 1 A."
      },
      "COM": {
       "w": 3,
@@ -731,7 +731,7 @@
      },
      "ARC": {
       "w": 2,
-      "claim": "Specify a dual fan-ventilated recess for extended use, with timer and remote shut-off through Affinity controls."
+      "claim": "Specify IPX5, a fan-cooled recess kit and app schedules with a 2–12 hour safety cut-off."
      },
      "DES": {
       "w": 1,
@@ -742,8 +742,8 @@
    {
     "benefit": "aesthetics",
     "edge": "bromic",
-    "infratech": "In every colour option the colour sits on the end caps, while the polished stainless reflector and open wire guard stay the same (Infratech colour images, C/CD Series); the junction box sits on top of the heater.",
-    "bromic": "Fully monochrome finishes: all black, all white or all graphite, which sit naturally against timber ceilings; a Diamond, oval or triangle front over the elements; about 14% narrower and a third lighter than Series I; floats on a single post with no visible junction box.",
+    "infratech": "Colours are powder coated over 304 stainless on the end caps and outer housing, while the polished reflector face and wire guard stay stainless in every colour (C/CD parts list and photos). The SL Slimline in \"All Black Shadow\" is the exception: matte black housing and front plate around a polished reflector. The junction box sits on top of the heater.",
+    "bromic": "All black, all white or all graphite, with the front itself in the same finish (Diamond standard; oval and triangle sold separately), so the heater reads as one piece against timber or plaster; about 14% narrower and a third lighter than Series I; floats on a single post with no visible junction box.",
     "users": {
      "RES": {
       "w": 3,
@@ -774,8 +774,8 @@
    {
     "benefit": "design_flex",
     "edge": "bromic",
-    "infratech": "Brushed stainless or eight end-cap colours plus custom; Motif decorative fascias fit C/CD surface-mount models only and cannot be used flush.",
-    "bromic": "Three full-body finishes (black, white, graphite) and three fascias (Diamond standard, oval and triangle) across ceiling, wall, post and recessed installs. [[VERIFY: fascias available on recessed installs — Product team]]",
+    "infratech": "Brushed stainless or eight powder-coated colours plus custom on C/CD and W/WD, with the reflector and wire guard stainless; Motif decorative covers fit C/CD surface-mount models only and cannot be used flush; SL in silver or All Black Shadow.",
+    "bromic": "Three finishes (black, white, graphite) carried through to the front, and three fronts (Diamond, oval, triangle) that swap without re-wiring. [[VERIFY: fronts available on recessed installs — Product team]]",
     "users": {
      "RES": {
       "w": 2,
@@ -806,8 +806,8 @@
    {
     "benefit": "controls",
     "edge": "bromic",
-    "infratech": "Switches, timers and panels; Wi-Fi and app control through Bond-powered smart switches, bundled with the Universal Control Panel; integration with Lutron, Crestron, Control4 and Savant.",
-    "bromic": "Affinity Smart-Heat® Dimmer for dual-element heat up to 6 kW, app timers, schedules and zones from the controller, Alexa and Google Assistant, and Control4, Crestron or Lutron (compatibility varies); Wi-Fi and app features need compatible Affinity controls, sold separately.",
+    "infratech": "Two app routes through Bond: a Smart Dimmer with the Universal Control Panel (dimming, timing, zoning) or a Smart Switch with the Enhanced Timer Package (on/off only, up to two heaters, built-in 2-hour timer); schedules through home-management systems such as Lutron and Crestron; competitor controls may void the warranty.",
+    "bromic": "Affinity Smart-Heat® Controls and the Bromic app: dimming in 1% steps, zones, schedules, remote on/off and a safety cut-off timer from 2 to 12 hours, plus Alexa and Google Assistant, and Control4, Crestron or Lutron where compatible; Wi-Fi and app features need compatible Affinity controls, sold separately.",
     "users": {
      "RES": {
       "w": 3,
@@ -838,8 +838,8 @@
    {
     "benefit": "warranty",
     "edge": "parity",
-    "infratech": "3 years against defects for the original purchaser at the original site; elite dealers may add a fourth year; competitor controls may void cover; element rated to 5,000 hours.",
-    "bromic": "Tungsten (Series I): 2 years on the heater and 7 years on the elements; partners receive an additional year on qualifying products. [[VERIFY: Series II warranty, including Coastal — Product team]]",
+    "infratech": "3 years; Elite Retailers and the Installer Program can add a fourth year; not transferable; the 2024 terms cover replacement parts only and exclude labour; competitor controls may void cover; elements rated to 5,000 hours.",
+    "bromic": "Dealers list 2 years on the heater and 7 years on the elements for Series II and the recess kit; partners receive an additional year on qualifying products. [[VERIFY: Bromic-published Series II warranty — Product team]]",
     "users": {
      "RES": {
       "w": 2,
@@ -870,7 +870,7 @@
    {
     "benefit": "multi_area",
     "edge": "bromic",
-    "infratech": "Fixed-mount electric infrared heaters only (C/CD, W/WD, SL, Motif fascias and a garage heater); no freestanding, gas or pendant heaters on infratech.com.",
+    "infratech": "Fixed electric infrared heaters only (C/CD, W/WD, SL, Motif covers, an indoor garage heater); drop-pole rods can hang a heater; no gas and no freestanding heaters on infratech.com.",
     "bromic": "A portfolio for every use: electric heaters for ceilings, walls, posts and recesses (Tungsten Classic, Select and Coastal; Platinum), the Eclipse pendant with heat and light, Eclipse Freestanding electric, built-in gas heaters, and Tungsten Freestanding Gas, controlled through the Bromic app where Affinity-compatible. [[VERIFY: app control for the freestanding heaters — Product team]]",
     "users": {
      "RES": {
@@ -902,8 +902,8 @@
    {
     "benefit": "coastal",
     "edge": "bromic",
-    "infratech": "316 stainless offered as a Marine UpGrade option on C, CD, W and WD models; the manual notes 316 is \"stainless, not stain-free\" and asks for frequent fresh-water cleaning near salt; flush frames listed in 304 stainless.",
-    "bromic": "Tungsten Coastal: dual corrosion protection, 316 marine-grade stainless steel plus a protective coating, as standard, with a marine-grade low-clearance recess kit. [[VERIFY: name and specification of the Coastal coating — Product team]]",
+    "infratech": "316 stainless as a Marine UpGrade at extra cost on C/CD, W/WD and flush frames (not SL); no protective coating beyond the colour powder coat is described; the manual notes 316 is not fully corrosion-proof.",
+    "bromic": "Tungsten Coastal: a high-temperature corrosion-resistant coating over a marine-grade build (316 per the Lookbook) as standard, with a powder-coated 316 stainless recess kit rated IPX5. Not for installation on boats. [[VERIFY: Coastal body material and coating name — Product team]]",
     "users": {
      "RES": {
       "w": 2,
@@ -934,7 +934,7 @@
    {
     "benefit": "support",
     "edge": "bromic",
-    "infratech": "Trade program with design guides, CAD details and continuing-education credits; elite dealers get leads and training.",
+    "infratech": "Trade program with design guides, CAD details and continuing-education credits; Elite Retailers and the Installer Program offer a fourth warranty year and leads.",
     "bromic": "Bromic Partner Program: partner pricing, free custom heating design plans, extended warranty, a dedicated point of contact and project marketing spotlights; CAD and Revit files and AIA-accredited courses.",
     "users": {
      "RES": {
@@ -1196,6 +1196,46 @@
    "title": "Affinity Smart-Heat app",
    "year": 2026,
    "url": "https://www.bromic.com/affinity-smart-heat-app/",
+   "verified": true
+  },
+  {
+   "id": "i15",
+   "publisher": "Infratech",
+   "title": "Pole mount drawing (06-01-2026) and drop pole one-pager",
+   "year": 2026,
+   "url": "https://www.infratech.com/mounting-options/",
+   "verified": true
+  },
+  {
+   "id": "i16",
+   "publisher": "Infratech",
+   "title": "Smart Switch and Smart Dimmer sell sheet (Bond), Enhanced Timer Package",
+   "year": 2025,
+   "url": "https://www.infratech.com/controls/enhanced-timer-package/",
+   "verified": true
+  },
+  {
+   "id": "i17",
+   "publisher": "Infratech",
+   "title": "Warranty (2024 terms: replacement parts only, labour excluded); dealers and installers pages",
+   "year": 2024,
+   "url": "https://www.infratech.com/dealers/",
+   "verified": true
+  },
+  {
+   "id": "i18",
+   "publisher": "Infratech",
+   "title": "Marine UpGrade (316 stainless, additional cost)",
+   "year": 2026,
+   "url": "https://www.infratech.com/marine-upgrade/",
+   "verified": true
+  },
+  {
+   "id": "i19",
+   "publisher": "Infratech",
+   "title": "C/CD coverage chart (2025)",
+   "year": 2025,
+   "url": "https://www.infratech.com/wp-content/uploads/2026/09/C-CD_coveragechart_2025.webp",
    "verified": true
   }
  ],
