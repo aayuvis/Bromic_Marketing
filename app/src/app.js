@@ -1105,7 +1105,7 @@
         ${cmOpen === c.id ? `<p>${esc(c.story)}</p>${kv([['Formats', c.format], ['For', c.audience], ['Production', c.production], ['US and AUS', c.local]])}` : `<button type="button" class="linkish" data-cmopen="${esc(c.id)}">The idea and the brief</button>`}</div></article>`).join('')}</div>`);
     } else if (cmTab === 'trade') {
       const grp = (g, h) => { const l = (C.trade || []).filter((t) => t.group === g); return l.length ? `<h3 class="cm-gh">${h}</h3><div class="cm-films">${l.map((t) => `<article class="cm-film"><div class="cm-pic">${pic(t.img)}</div>
-        <div class="cm-b"><span class="label">${esc(t.id)}</span><h3>${esc(t.title)}</h3><div class="cm-chips">${chips([t.market, t.axis, ...(t.tags || [])])}</div>${tones(t) || `<p class="cm-line">${esc(t.caption)}</p>`}<p>${esc(t.story)}</p>
+        <div class="cm-b"><span class="label">${esc(t.id)}</span><h3>${esc(t.title)}</h3><div class="cm-chips">${chips([t.market, t.axis, ...(t.tags || [])])}</div>${tones({ ...t, id: 'T' + t.id }) || `<p class="cm-line">${esc(t.caption)}</p>`}${t.tone_note ? `<p class="cm-ill">${esc(t.tone_note)}</p>` : ''}<p>${esc(t.story)}</p>
         ${kv([['Insight', t.insight], ['Why it sells', t.argument], ['Where it runs', t.channels], ['Call to action', t.cta], ['Formats', t.format], ['For', t.audience], ['Production', t.production], ['Measure', t.kpi]])}</div></article>`).join('')}</div>` : ''; };
       body = sec(S.trade_intro, grp('builders', 'Builders, Architects And Remodelers') + grp('commercial', 'Restaurants, Hotels, Bars And Venues'));
     } else if (cmTab === 'plan') {
@@ -1126,9 +1126,9 @@
     const I = S.intro || {};
     const tabs = [['platform', 'The platform'], ['films', 'Six films'], ['receipts', 'The receipt'], ['concepts', 'Concept bank'], ['trade', 'Trade'], ['plan', 'Plan and measure'], ['audit', 'Audit']];
     return `<section class="cm">
-      <header class="cm-hero"><div><span class="label">${esc(I.kicker || 'Campaign')}</span><h1>${esc(I.headline || C.name)}</h1>${(I.lines || []).map((l) => `<p>${esc(l)}</p>`).join('')}
+      <header class="cm-hero${cmTab === 'platform' ? '' : ' slim'}"><div><span class="label">${esc(I.kicker || 'Campaign')}</span><h1>${esc(cmTab === 'platform' ? (I.headline || C.name) : C.name)}</h1>${cmTab === 'platform' ? (I.lines || []).map((l) => `<p>${esc(l)}</p>`).join('') : ''}
         <div class="cm-meta"><span><b>Promise</b> ${esc(C.promise)}</span><span><b>Endline</b> ${esc(C.endline)}</span><span><b>Markets</b> ${esc((C.markets || []).join(' and '))}</span><span><b>Status</b> ${esc(C.status)}</span></div></div>
-        ${C.films?.[0] ? `<div class="cm-hero-pic">${pic(C.films[0].img_warm)}</div>` : ''}</header>
+        ${C.films?.[0] && cmTab === 'platform' ? `<div class="cm-hero-pic">${pic(C.films[0].img_warm)}</div>` : ''}</header>
       ${all.length > 1 ? `<select id="cmsel">${all.map((c) => `<option value="${esc(c.id)}"${c.id === C.id ? ' selected' : ''}>${esc(c.name)}</option>`).join('')}</select>` : ''}
       <nav class="pm-tabs" role="tablist">${tabs.map(([k, l]) => `<button type="button" role="tab" aria-selected="${cmTab === k}" data-cmtab="${k}">${l}</button>`).join('')}</nav>
       ${body}

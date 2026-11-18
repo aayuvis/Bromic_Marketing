@@ -1,0 +1,2477 @@
+{
+ "_readme": "Campaign platform for the Hub's Campaigns tab. Text fields are reader-facing copy in the Bromic voice (templates/bromic-voice.md). Every price and figure is illustrative (illustrative: true) and must be replaced with verified local pricing before it runs. Images in images/campaigns/<id>/ are AI-generated mood references for direction only: they show no real Bromic product. The audit array records every rule issue found in the agency deck and what was done about it.",
+ "id": "get-bromic",
+ "name": "Get Bromic",
+ "status": "Concept, for review",
+ "markets": [
+  "US",
+  "AUS"
+ ],
+ "endline": "Get Bromic",
+ "promise": "Extend The Moment",
+ "needs_approval": "Marketing; legal counsel before production",
+ "source": "Agency concept deck supplied by the owner (18 Nov 2026), audited and rewritten in the Bromic voice",
+ "sections": {
+  "intro": {
+   "kicker": "Get Bromic · Brand campaign concept · US and Australia",
+   "headline": "Every Ad In This Category Looks The Same",
+   "lines": [
+    "Golden hour, an infinity pool, a cashmere throw and two glasses of wine nobody drinks. Swap the logo at the end and the same film could run for any outdoor heating brand.",
+    "When an ad could belong to anyone, the money behind it builds the whole category and does little for Bromic.",
+    "Outdoor heating is bought once, considered slowly and often decided at a showroom counter. Get Bromic is built to make Bromic the name people remember when they reach that counter.",
+    "In the agency's review, humor is the one register no brand in the category has claimed. Get Bromic uses it, and the warmth turns on in every frame."
+   ]
+  },
+  "argument": {
+   "kicker": "01 · The Argument Beneath The Promise",
+   "headline": "Keep The Promise. Add The Argument.",
+   "body": [
+    "Extend The Moment stays. It is Bromic's promise, it is what our heaters deliver, and it is where every film in this platform resolves.",
+    "A promise on its own rarely creates urgency. It asks people to want more of an evening that is already pleasant, which is why outdoor heating so often moves to next year's budget.",
+    "So the campaign adds an argument beneath the promise. Your outdoor room is an investment you have already made, and every cold evening it sits empty is part of that investment going unused.",
+    "That moves the decision away from a heater price-shopped against a hardware-store mushroom and places it beside the pergola, the outdoor kitchen and the pool, where heating is one of the smallest lines on the budget.",
+    "It is also the version of the argument that speaks to an architect. An unheated outdoor room is designed square footage the client cannot use for much of the year, and clients remember who drew it."
+   ],
+   "pull_quote": "You didn't spend eighty thousand dollars on a backyard to look at it through glass."
+  },
+  "filter": {
+   "kicker": "02 · The Discipline Filter",
+   "headline": "Every Joke Has To Be A Bromic Joke",
+   "pass": {
+    "title": "Jokes About The Space Going Unused",
+    "body": "The backyard that sits empty after dark, or the pizza oven fired four times a year. Only a premium, built-in, specified brand can tell these jokes, and each one makes the case for the investment while it gets the laugh."
+   },
+   "fail": {
+    "title": "Jokes About Being Cold",
+    "body": "Chattering teeth and piles of blankets are funny, and any heater brand could run them. They also cast heat as a remedy for discomfort, which is a commodity job sold at a commodity price."
+   },
+   "test": "If the joke would still work for a cheap hardware-store heater, cut it, or rewrite the caption so it lands on the space that goes unused. Concepts tagged COLD need that caption work before production."
+  },
+  "format": {
+   "kicker": "03 · The Format",
+   "headline": "One Cut, From Cold To Warm",
+   "body": "Each film holds a cold, quietly absurd scene with a straight face for about twenty-five seconds. Then the heat comes on, the light warms and the space fills with people. Select Get Bromic on any frame to see the turn.",
+   "beats": [
+    [
+     "0:00–0:03",
+     "Hook and brand",
+     "The Bromic heater is in frame, unlit, and the brand appears within three seconds."
+    ],
+    [
+     "0:03–0:20",
+     "The scene",
+     "A deadpan escalation in one location, played straight."
+    ],
+    [
+     "0:20–0:26",
+     "The turn",
+     "The heater comes on with the Bromic sound cue and a warm amber glow, and the Affinity Smart-Heat® control that turns it on is in shot."
+    ],
+    [
+     "0:26–0:30",
+     "Endline",
+     "Get Bromic, the logo and the URL."
+    ]
+   ],
+   "rule": "Funny advertising often fails on attribution: people remember the joke and forget the brand. So every cut, including the six-second version, carries the brand in the first three seconds and at the end, shows a real Bromic heater and its control during the turn, and uses the same sound cue."
+  },
+  "films_intro": {
+   "kicker": "04 · The Six Films",
+   "headline": "One Shoot For Both Markets",
+   "body": "These six films cover both hemispheres, the three homeowner segments and the trade, and each turn carries one product truth from the Tungsten Smart-Heat® Electric Series II framework, with its Affinity Smart-Heat® control. Four of them switch between the US and Australia with a single supered card. The mood frames are AI-generated direction for light, staging and casting; they show no real Bromic product, and production films real Bromic heaters installed exactly as the manuals specify. Every price in the films is illustrative and must be replaced with verified local pricing before it runs."
+  },
+  "receipts_intro": {
+   "kicker": "05 · A Second Format",
+   "headline": "The Receipt",
+   "body": [
+    "An itemized list of what the outdoor room cost, line by line, and then one final line: the warmth that lets you use it, and the smallest number on the list.",
+    "The films build recognition and the receipts make the case in numbers. A receipt is pure typography, quick and inexpensive to produce, and it re-prices for a homeowner, a builder or a venue operator by changing the line items. It also works well on a dealer counter card.",
+    "Every figure on these receipts is illustrative. Each one must be replaced with verified local pricing, signed off by Finance and Sales operations, before anything runs."
+   ],
+   "legal": "The itemized price list is a common device. The sign-off of Mastercard's long-running campaign is a registered trademark the company protects closely, so never use its final word, its voiceover rhythm, its type treatment or its card imagery. Our receipt ends on something you can buy, which helps, and legal counsel must still clear the final wording before production."
+  },
+  "scenes_intro": {
+   "kicker": "06 · The Receipt, In Photography",
+   "headline": "Price The Whole Space, Then The Warmth",
+   "body": "Each object in the photograph wears a price tag, and the total climbs as you look. The last tag lands on the heating, the one thing nobody priced, and it is the smallest number in the frame. Tags are set as live type over the photograph, never baked into an image, so one plate re-prices for a market, a currency or a specification in minutes. Every figure is illustrative and must be replaced with verified local pricing before it runs, and the final plates are real photographs of Bromic heaters installed correctly."
+  },
+  "concepts_intro": {
+   "kicker": "07 · Concept Bank",
+   "headline": "Thirty-Two Ideas, Each Read Four Ways",
+   "body": "Twenty-three concepts work unchanged in both markets. Six are twins with a local version, often one word or one place card apart; two are native to Australia and one to the US. Every concept carries four readings, Deadpan, Dry, Absurd and Dark, so you can judge it in each register. Concepts tagged COLD need their caption reworked onto the unused space before production, and those tagged R-MED or R-HI are tested first. The seasons run opposite in each hemisphere, so one production can run from August to November in the US and from February to May in Australia."
+  },
+  "trade_intro": {
+   "kicker": "08 · Builders And Commercial",
+   "headline": "The Same Platform, In Their Terms",
+   "body": [
+    "The homeowner films are about a backyard that goes unused. Builders and venue operators measure something else: for a builder, reputation, callbacks and referrals; for an operator, covers, reviews and labor. The endline, the art direction and the straight face stay the same, and the story moves into their world.",
+    "These run in the Deadpan or Dry register only, never Absurd or Dark. A restaurateur ordering forty heaters does not want jokes about being cold, and a builder does not want to be the punchline in front of a client. Each one should make the audience think that has happened to me."
+   ]
+  },
+  "tiers": [
+   {
+    "tier": "Tier 1",
+    "headline": "Homeowners, 40 To 70",
+    "rows": [
+     [
+      "Segments",
+      "Remodeling, adding on, and buying or building new."
+     ],
+     [
+      "Aim",
+      "Make Bromic the name they ask for at the showroom counter."
+     ],
+     [
+      "Targeting",
+      "Reach people before heating occurs to them: renovation and custom-build intent, recent movers into high-value homes, outdoor kitchen and pool audiences, premium appliance interests, design-magazine readers and lookalikes built from the dealer CRM. Searches for patio heaters are a small, price-led pool."
+     ],
+     [
+      "Channels",
+      "Meta feed and Reels (9:16 first), YouTube and connected TV, where a 30-second film with real production values gets watched; Pinterest and Houzz for stills. The agency believes this audience watches more connected TV than average, and Digital marketing confirms it with platform data before media is bought."
+     ],
+     [
+      "Geography",
+      "Places with a real cold season and high home values: the Northeast, the Mid-Atlantic, Chicago, the Mountain states, the Pacific Northwest and coastal California. In Australia, Melbourne, Sydney, Adelaide and coastal New South Wales and Victoria."
+     ],
+     [
+      "Timing",
+      "August to November in the US and February to May in Australia."
+     ]
+    ]
+   },
+   {
+    "tier": "Tier 2",
+    "headline": "Architects, Designers, Builders And Commercial",
+    "rows": [
+     [
+      "Aim",
+      "Get Bromic onto the drawing and into the specification."
+     ],
+     [
+      "Message",
+      "The same endline and art direction, with the detail up front: coverage, mounting and recess details, the Affinity Smart-Heat® Controls that come with every heater, Tungsten Coastal for life by the water, the warranty and continuing-education courses."
+     ],
+     [
+      "Channels",
+      "LinkedIn, trade press, ArchDaily, showroom and dealer co-op, and rep visits."
+     ],
+     [
+      "Timing",
+      "January to March, when renovation planning and specification work happen."
+     ],
+     [
+      "Bridge",
+      "The Specification (film 06) is the humorous trade film. The client's question lands on the specifier's reputation, which is what moves this audience."
+     ]
+    ]
+   }
+  ],
+  "dealer": "Outdoor heating often closes at a counter, with a person. Budget for co-branded cutdowns, in-store stills, a showroom badge and a one-page sales sheet built on the argument: heating is a small share of what the outdoor room cost, and it decides whether the room is used for most of the year or for a few months of it. The deck's own figures for that sheet are agency estimates and stay off it until verified.",
+  "measurement": {
+   "kicker": "10 · How We Judge It",
+   "headline": "Measure Whether People Remember Bromic",
+   "rows": [
+    [
+     "Primary",
+     "Branded search volume for Bromic, the quickest and cleanest read. Set the baseline now."
+    ],
+    [
+     "Primary",
+     "Unaided and aided awareness in the target audience, before and after."
+    ],
+    [
+     "Primary",
+     "One tracked field in the dealer portal, “customer asked for Bromic by name.”"
+    ],
+    [
+     "Causal",
+     "A matched-market test with six markets live and six held out, read through dealer sell-through. The agency recommends it as the most credible evidence of return for a brand campaign."
+    ],
+    [
+     "Diagnostic",
+     "Three-second views, ThruPlays and completion rate. Watch them, and never optimize the films toward them."
+    ],
+    [
+     "Watched, never targeted",
+     "Click-through rate, cost per click and cost per lead on the brand films."
+    ]
+   ],
+   "warning": "Agree this in writing before launch. Brand campaigns are often cut when an early dashboard shows a low click-through rate and the budget moves to retargeting. The agency recommends roughly 60% brand and 40% conversion activity in year one, so the demand the films create has somewhere to land; the split is the agency's recommendation, for Digital marketing and Leadership to set."
+  },
+  "red_team": {
+   "kicker": "11 · What Could Go Wrong",
+   "headline": "Risks We Plan For",
+   "rows": [
+    {
+     "level": "High",
+     "title": "Attribution",
+     "text": "People remember the joke and forget the brand. The brand appears in the first three seconds and at the end, the real product and its control are in the turn, and one sound cue and one voice run across every film."
+    },
+    {
+     "level": "High",
+     "title": "Losing The Specifiers",
+     "text": "Architects and designers judge the craft. Hold it to a luxury standard with cinema lenses, real houses and real light, and keep the comedy in the writing. Show the work to eight to ten partner firms before launch so they feel consulted."
+    },
+    {
+     "level": "High",
+     "title": "Products Shown Wrongly",
+     "text": "The mood frames show generic heaters. Production films real Bromic heaters, mounted, cleared and controlled exactly as the manuals specify, and every frame is checked by the Product team."
+    },
+    {
+     "level": "Medium",
+     "title": "Unverified Numbers",
+     "text": "Every price and figure in the platform is illustrative. Each is replaced with verified local pricing, and every arithmetic line is checked, before anything runs."
+    },
+    {
+     "level": "Medium",
+     "title": "Drifting Down-Market",
+     "text": "Apply the discipline filter in every round of review."
+    },
+    {
+     "level": "Medium",
+     "title": "Intellectual Property",
+     "text": "Never name, quote or recreate a film, TV show, sports event or campaign, and never use a recognizable score. No animal is ever shown in distress. Legal counsel reviews every parody concept before production."
+    },
+    {
+     "level": "Medium",
+     "title": "A Competitor Responds",
+     "text": "Expect a price or made-locally response. One product truth in every turn gives the humor a reason to believe."
+    },
+    {
+     "level": "Medium",
+     "title": "The Wrong Tone For Venues",
+     "text": "A restaurateur ordering forty heaters does not want jokes about being cold, so the trade tier runs Deadpan or Dry."
+    }
+   ]
+  },
+  "next": [
+   "Build a comparison wall of current outdoor heating ads from the Meta Ad Library, including Bromic's own, for the client meeting only and never for publication.",
+   "Confirm media weight in the US and Australia, the dealer count and CRM readiness.",
+   "Confirm the split between residential and commercial revenue.",
+   "Set the branded search baseline before anything runs.",
+   "Replace every illustrative figure with verified local pricing, signed off by Finance and Sales operations.",
+   "Clear the receipt wording, every parody concept and every event reference with legal counsel.",
+   "Confirm Tungsten Coastal and Select launch status with the Product team before any film features them.",
+   "Map every call to action to its Hub asset before launch."
+  ]
+ },
+ "tag_key": {
+  "BOTH": "Runs unchanged in the US and Australia",
+  "TWIN": "One idea with a local version for each market, usually a swapped word, date or place card",
+  "US": "Native to the US; no Australian version",
+  "AUS": "Native to Australia; a US twin where noted",
+  "ASSET": "The joke is about an outdoor space the customer paid for and cannot use (passes the discipline filter)",
+  "SUNKCOST": "The joke is about one expensive outdoor purchase that goes unused (passes the discipline filter)",
+  "STATUS": "The joke is about the quiet embarrassment of a beautiful space that does not work",
+  "COLD": "The joke is about being cold; the caption must be reworked onto the unused space before production",
+  "REMODEL": "For homeowners remodeling",
+  "ADDON": "For homeowners adding to an outdoor space they already have",
+  "NEWBUILD": "For people buying or building a new home",
+  "SOCIAL": "Made for social feeds",
+  "STATIC": "A still image or type-only piece, with no film",
+  "TRADE": "For architects, designers and specifiers",
+  "BUILDER": "For builders, remodelers and electricians",
+  "COMMERCIAL": "For restaurant, bar, hotel and venue operators",
+  "FAME": "Built to make Bromic remembered by name (awareness)",
+  "CONSIDER": "Built for people already weighing a purchase (consideration)",
+  ":15": "Fifteen-second cut",
+  ":30": "Thirty-second film",
+  "R-LO": "Low risk; ready to develop",
+  "R-MED": "Medium risk; test the tone before committing",
+  "R-HI": "Higher risk; test with the audience before committing"
+ },
+ "films": [
+  {
+   "id": "P01",
+   "no": "01",
+   "title": "The Mushroom",
+   "line": "Seventy thousand dollars of outdoor kitchen. Heated by an eighty-nine dollar mushroom.",
+   "story": "A $70,000 outdoor kitchen, and in the middle of it one cheap mushroom heater standing like a traffic cone. Three adults press shoulder to shoulder inside its small circle of warmth while the kitchen, the twelve-seat table and the built-in sofa sit empty around them.",
+   "why": "Our lead recommendation, because one frame carries both the joke and the price argument. A big-box hardware-store mushroom heater reads instantly in both markets, so the retailer never needs naming.",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    ":30",
+    "REMODEL",
+    "FAME",
+    "R-LO"
+   ],
+   "img_cold": "01a_mushroom_before",
+   "img_warm": "01b_mushroom_after",
+   "tones": [
+    "Seventy thousand dollars of outdoor kitchen. Heated by an eighty-nine dollar mushroom.",
+    "The kitchen was designed by an architect. The heating was decided in aisle twelve.",
+    "They own a pizza oven, a wine fridge and a built-in griddle. They are standing in a circle around a lamp.",
+    "Somewhere in this photograph is a man who spent his bonus on this."
+   ],
+   "turn": "Tungsten Smart-Heat® Electric, recessed flush in the kitchen ceiling, dimmed up on the Affinity Smart-Heat® Dimmer Controller as the mushroom goes dark.",
+   "proof": "The worry-free, dual fan-ventilated low-clearance recess sits flush in a 7.5 in ceiling cavity, with the recess box supplied in the kit and nothing to build on site."
+  },
+  {
+   "id": "P02",
+   "no": "02",
+   "title": "The Pizza Oven",
+   "line": "Four times a year.",
+   "story": "A $9,000 wood-fired oven. He fires it, tends it and slides out a beautiful pizza. Everyone takes a slice and heads inside, and he stands alone in the dark in a puffer jacket, holding the peel, beside the most expensive appliance he has ever bought.",
+   "why": "Pizza ovens are everywhere in both markets, so the scene is recognized instantly and needs no translation.",
+   "market": "BOTH",
+   "axis": "SUNKCOST",
+   "tags": [
+    ":30",
+    "ADDON",
+    "FAME",
+    "R-LO"
+   ],
+   "img_cold": "02a_pizza_before",
+   "img_warm": "02b_pizza_after",
+   "tones": [
+    "Four times a year.",
+    "Nine thousand dollars. Roughly two thousand two hundred a pizza.",
+    "He has built a brick monument to a food he eats indoors.",
+    "He fires it up so he has a reason to stand outside alone."
+   ],
+   "turn": "Tungsten Smart-Heat® Electric on the pergola beside the oven, dimmed up on the Affinity Smart-Heat® Dimmer Controller as the guests drift back out.",
+   "proof": "Dual elements on the 4 and 6 kW models deliver up to 6 kW of directional warmth, turned up on a cold night and down on a mild one with the Affinity Smart-Heat® Dimmer."
+  },
+  {
+   "id": "P03",
+   "no": "03",
+   "title": "The Snowbirds / The Queensland Run",
+   "line": "The Wilsons solved their outdoor heating problem. It cost four hundred thousand dollars.",
+   "story": "A retired couple planned their whole retirement around the terrace. Instead, every year, they pack the car, drive to a second home somewhere warm and stay for five months. Cut to the second property.",
+   "why": "Snowbirds in the US and the winter run to Queensland in Australia are the same habit, so one film serves both markets with a different destination plate. It is the most extreme version of the price argument, and it should land hardest with people aged 55 to 70.",
+   "market": "TWIN",
+   "axis": "ASSET",
+   "tags": [
+    ":30",
+    "REMODEL",
+    "FAME",
+    "R-LO"
+   ],
+   "img_cold": "03a_snowbird_before",
+   "img_warm": "03b_snowbird_after",
+   "tones": [
+    "The Wilsons solved their outdoor heating problem. It cost four hundred thousand dollars.",
+    "There is a cheaper way to spend five months somewhere warm.",
+    "They drive eleven hundred miles a year to sit outside. They own an outside.",
+    "They bought a second house rather than have the conversation."
+   ],
+   "turn": "Tungsten Smart-Heat® Electric on the terrace wall, switched on to a schedule in the Bromic app through the Affinity Smart-Heat® Dimmer Controller, so the terrace is already warm when they step outside.",
+   "proof": "Schedules and timers in the Bromic app, with Amazon Alexa or Google Assistant voice control, through compatible Affinity Smart-Heat® Controls sold separately."
+  },
+  {
+   "id": "P04",
+   "no": "04",
+   "title": "The Big Game / Finals Day",
+   "line": "The outdoor TV cost six thousand dollars. Everyone is watching the small one.",
+   "story": "Twenty-two people crammed into a living room around a modest screen. Push through the glass behind them to the outdoor lounge, the bar and its own 85-inch television, dark and dry under the roof and completely empty.",
+   "why": "The US version plays on the championship weekend in February and the Australian version on football finals day in September. It is one shot in opposite months, shipped to both markets with a single supered date card. Name neither event nor league, because both are protected trademarks.",
+   "market": "TWIN",
+   "axis": "ASSET",
+   "tags": [
+    ":30",
+    "ADDON",
+    "FAME",
+    "R-LO"
+   ],
+   "img_cold": "04a_biggame_before",
+   "img_warm": "04b_biggame_after",
+   "tones": [
+    "The outdoor TV cost six thousand dollars. Everyone is watching the small one.",
+    "Twenty-two people. One bathroom. An empty terrace nine feet away.",
+    "There is an eighty-five inch television outside, broadcasting to four garden chairs and a moth.",
+    "The outdoor television has never seen a human face."
+   ],
+   "turn": "Tungsten Smart-Heat® Electric on the lounge ceiling, aimed at the sofas and dimmed up on the Affinity Smart-Heat® Dimmer Controller as the crowd moves outside.",
+   "proof": "Tungsten mounts on flat or pitched ceilings, on walls or on an extended wall bracket, and angles to aim its warmth at the seating."
+  },
+  {
+   "id": "P05",
+   "no": "05",
+   "title": "The Coastal Breeze",
+   "line": "Built for the view. Emptied by the breeze.",
+   "story": "The beach house is flawless. Every evening at five past five the sea breeze arrives and the deck empties in under a minute, plates lifted, napkins gone and everyone inside. Time-lapsed across a week until it becomes a rhythm.",
+   "why": "The film that carries Tungsten Coastal. It is built for life by the water, and radiant heat warms people and surfaces directly, so it holds up in a light sea breeze where warmed air simply drifts away. Shoot it in Byron Bay or on the Mornington Peninsula in Australia, and on Cape Cod, in the Hamptons or on the California coast in the US, and show it to architects.",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    ":30",
+    "NEWBUILD",
+    "CONSIDER",
+    "R-LO"
+   ],
+   "img_cold": "05a_coastal_before",
+   "img_warm": "05b_coastal_after",
+   "tones": [
+    "Built for the view. Emptied by the breeze.",
+    "The architect solved the light, the sightlines and the wind. Two out of three.",
+    "Every evening at five past five, the ocean asks everyone to leave.",
+    "They paid for the view. They watch it through glass, like everyone else."
+   ],
+   "turn": "Tungsten Smart-Heat® Electric Coastal under the deck roof, dimmed up on the Affinity Smart-Heat® Dimmer Controller as the breeze comes in.",
+   "proof": "Tungsten Coastal protects against corrosion twice over, with a marine-grade 316 stainless build and a high-temperature, corrosion-resistant coating, for coastal homes and venues."
+  },
+  {
+   "id": "P06",
+   "no": "06",
+   "title": "The Specification",
+   "line": "The space is specified. Now specify the season.",
+   "story": "An architect presents a beautiful render, all golden light, people and wine. The client studies it, then points. “And in November?” (In Australia, “And in July?”) The architect opens their mouth and nothing comes out. Hold on it.",
+   "why": "The trade workhorse, for LinkedIn, the trade press and the rep's leave-behind. It keeps the endline and places the client's question on the specifier's reputation, which is what moves this audience. The call to action is the specification kit.",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    ":30",
+    "TRADE",
+    "CONSIDER",
+    "R-LO"
+   ],
+   "img_cold": "06a_spec_before",
+   "img_warm": "06b_spec_after",
+   "tones": [
+    "The space is specified. Now specify the season.",
+    "The render never has weather in it.",
+    "The render has eleven people in it. November has none.",
+    "The client will remember who drew it."
+   ],
+   "turn": "Tungsten Smart-Heat® Electric Series II in the render, recessed and post-mounted across the terrace, zoned on Affinity Smart-Heat® Dimmer Controllers.",
+   "proof": "A single post replaces the two-post mount of Series I, and recessing needs no box built on site, with one low-clearance kit across Select and Coastal.",
+   "tone_note": "Runs Deadpan or Dry only. The Absurd and Dark lines are kept for internal review and never run to the trade."
+  }
+ ],
+ "receipts": [
+  {
+   "id": "R-The Backyard",
+   "tier": "Consumer · homeowner",
+   "title": "The Backyard",
+   "rows": [
+    [
+     "Outdoor sofa and dining set",
+     "$11,400"
+    ],
+    [
+     "Pergola",
+     "$24,000"
+    ],
+    [
+     "Outdoor kitchen",
+     "$41,000"
+    ],
+    [
+     "Wood-fired oven",
+     "$9,000"
+    ],
+    [
+     "Landscaping and lighting",
+     "$16,000"
+    ]
+   ],
+   "total": [
+    "Total",
+    "$101,400"
+   ],
+   "punch": [
+    "Being able to sit in any of it in October",
+    "$4,200"
+   ],
+   "market": "BOTH",
+   "tags": [
+    "REMODEL",
+    "STATIC",
+    "R-LO"
+   ],
+   "insight": "Few people have added up what their outdoor room cost and set it against the evenings they actually use it.",
+   "argument": "The argument as arithmetic, in the customer's own numbers. The heating is the smallest line on a list they wrote themselves.",
+   "channels": "Print, OOH, social statics, showroom, dealer counter card.",
+   "cta": "Price your own backyard.",
+   "format": "Static · OOH · :15 · dealer card",
+   "audience": "Homeowners 40–70, mid or post build",
+   "production": "Set in Bromic's typography at scale. Every figure is illustrative and must be replaced with verified local pricing before it runs.",
+   "kpi": "Branded search lift and dealer-reported mentions.",
+   "tones": [
+    "Being able to sit in any of it in October",
+    "The cheapest line on the list",
+    "The line item the other five depend on",
+    "The one nobody costed"
+   ],
+   "illustrative": true
+  },
+  {
+   "id": "R-The Rough-In",
+   "tier": "Trade · custom builder",
+   "title": "The Rough-In",
+   "rows": [
+    [
+     "Cedar-lined ceiling",
+     "$18,000"
+    ],
+    [
+     "Stone paving",
+     "$31,000"
+    ],
+    [
+     "Integrated lighting",
+     "$7,200"
+    ],
+    [
+     "Cutting all of it open later to run a circuit",
+     "$6,000"
+    ]
+   ],
+   "total": [
+    "What that change order costs everyone",
+    "$6,000"
+   ],
+   "punch": [
+    "Roughing it in at framing, before any of it exists",
+    "$400"
+   ],
+   "market": "BOTH",
+   "tags": [
+    "BUILDER",
+    "CONSIDER",
+    "R-LO"
+   ],
+   "insight": "Adding heat after handover is costly and common, because nobody ran the circuit at framing.",
+   "argument": "Four hundred dollars at framing against six thousand after handover. It gives the builder a defensible upgrade to quote today.",
+   "channels": "LinkedIn, trade press, CEU, rep leave-behind.",
+   "cta": "Download the rough-in guide.",
+   "format": "Static · one-page sell sheet · :15",
+   "audience": "Builders, electricians, project managers",
+   "production": "The trade piece most likely to convert, because it earns the builder money. Get every electrical detail right and carry the local-authority and licensed-electrician disclaimer. Every figure is illustrative until verified.",
+   "kpi": "Rough-in guide downloads and the pre-wire attach rate.",
+   "tones": [
+    "Roughing it in at framing, before any of it exists",
+    "The same job, done six months earlier",
+    "Four hundred dollars, spent before there is a ceiling to ruin",
+    "What it would have cost to avoid all of this"
+   ],
+   "illustrative": true
+  },
+  {
+   "id": "R-The Covers",
+   "tier": "Commercial · hospitality",
+   "title": "The Covers",
+   "rows": [
+    [
+     "Terrace fit-out",
+     "$54,000"
+    ],
+    [
+     "Furniture, planters and screens",
+     "$46,000"
+    ],
+    [
+     "Forty covers, sold every night in February",
+     "$312,000 / yr"
+    ],
+    [
+     "Forty covers, sold every night in May",
+     "$0"
+    ]
+   ],
+   "total": [
+    "Revenue currently left on the terrace",
+    "Uncounted"
+   ],
+   "punch": [
+    "Making May sellable",
+    "$9,000"
+   ],
+   "market": "BOTH",
+   "tags": [
+    "COMMERCIAL",
+    "CONSIDER",
+    "R-LO"
+   ],
+   "insight": "Every operator knows their cover count and revenue per cover to the dollar, and few have applied them to the terrace.",
+   "argument": "Heating the terrace adds capacity. Forty covers, times average spend, times the nights you cannot sell them today, and the payback fits on one slide.",
+   "channels": "Trade press, LinkedIn, hospitality shows, distributor reps.",
+   "cta": "Get the payback calculation for your venue.",
+   "format": "Static · ROI one-pager · :15",
+   "audience": "Restaurant, bar and hotel operators",
+   "production": "Lead the commercial tier with this. Keep the arithmetic conservative, because operators will check it, and replace every illustrative figure with the venue's own numbers.",
+   "kpi": "Payback calculator completions and commercial quote requests.",
+   "tones": [
+    "Making May sellable",
+    "Turning May into February",
+    "Buying back a month of trading",
+    "What the empty seats were worth all along"
+   ],
+   "illustrative": true
+  },
+  {
+   "id": "R-Buying It Twice",
+   "tier": "Commercial · procurement",
+   "title": "Buying It Twice",
+   "rows": [
+    [
+     "Patio heater",
+     "$89"
+    ],
+    [
+     "Patio heater, again",
+     "$89"
+    ],
+    [
+     "Patio heater, again",
+     "$89"
+    ],
+    [
+     "…and eleven more over ten years",
+     "$979"
+    ],
+    [
+     "Gas, ten years",
+     "$4,100"
+    ],
+    [
+     "Staff hours spent moving bottles",
+     "$18,000"
+    ]
+   ],
+   "total": [
+    "Ten years of not solving it",
+    "$23,346"
+   ],
+   "punch": [
+    "Solving it once",
+    "$9,000"
+   ],
+   "market": "BOTH",
+   "tags": [
+    "COMMERCIAL",
+    "CONSIDER",
+    "R-LO"
+   ],
+   "insight": "Every venue has a storeroom of dead heaters and nobody has ever totalled it.",
+   "argument": "Total cost of ownership, the argument that wins procurement. On these illustrative figures, ten years of replacing portable heaters costs more than installing permanent heaters once.",
+   "channels": "Trade press, procurement and facilities channels, distributor reps.",
+   "cta": "Get the ten-year cost comparison.",
+   "format": "Static · TCO one-pager · :15",
+   "audience": "Operators, facilities and procurement managers",
+   "production": "Strongest for multi-site groups, where the figure multiplies by every venue. Every figure is illustrative until verified.",
+   "kpi": "Ten-year cost one-pager downloads and multi-site enquiries.",
+   "tones": [
+    "Solving it once",
+    "The version you only buy once",
+    "Ending the collection",
+    "What it would have cost in year one"
+   ],
+   "illustrative": true
+  }
+ ],
+ "scenes": [
+  {
+   "id": "S-yard",
+   "tier": "Consumer · homeowner",
+   "title": "The Priced Backyard",
+   "img_cold": "PL1_backyard_cold",
+   "img_warm": "PL1_backyard_warm",
+   "tags": [
+    {
+     "x": 9,
+     "y": 50,
+     "l": "Planting + landscape lighting",
+     "v": 16000,
+     "a": "l"
+    },
+    {
+     "x": 30,
+     "y": 62,
+     "l": "Sectional + coffee table",
+     "v": 11400
+    },
+    {
+     "x": 49,
+     "y": 33,
+     "l": "Pergola",
+     "v": 24000
+    },
+    {
+     "x": 67,
+     "y": 56,
+     "l": "Outdoor kitchen",
+     "v": 41000
+    },
+    {
+     "x": 91,
+     "y": 47,
+     "l": "Wood-fired oven",
+     "v": 9000,
+     "a": "r"
+    },
+    {
+     "x": 45,
+     "y": 84,
+     "l": "Stone paving",
+     "v": 19000
+    }
+   ],
+   "punch": {
+    "x": 58,
+    "y": 38,
+    "a": "l",
+    "l": "Being able to use any of it in October",
+    "v": 4200
+   },
+   "note": "Every object in this photograph has a price except the one that decides whether anyone ever sits in it.",
+   "tones": [
+    "Being able to use any of it in October",
+    "The cheapest thing in the photograph",
+    "The line item the other six depend on",
+    "The one nobody costed"
+   ],
+   "illustrative": true
+  },
+  {
+   "id": "S-terrace",
+   "tier": "Commercial · hospitality",
+   "title": "The Priced Terrace",
+   "img_cold": "PL2_terrace_cold",
+   "img_warm": "PL2_terrace_warm",
+   "tags": [
+    {
+     "x": 13,
+     "y": 40,
+     "l": "Planters + timber screens",
+     "v": 14000,
+     "a": "l"
+    },
+    {
+     "x": 30,
+     "y": 62,
+     "l": "Tables, chairs, glassware",
+     "v": 46000
+    },
+    {
+     "x": 50,
+     "y": 11,
+     "l": "Festoon + downlighting",
+     "v": 8000
+    },
+    {
+     "x": 85,
+     "y": 62,
+     "l": "Service station + fit-out",
+     "v": 54000,
+     "a": "r"
+    },
+    {
+     "x": 45,
+     "y": 88,
+     "l": "Forty covers, roped off until spring",
+     "v": 0
+    }
+   ],
+   "punch": {
+    "x": 46,
+    "y": 20,
+    "a": "r",
+    "l": "Making those forty covers sellable in May",
+    "v": 9000
+   },
+   "note": "The rope is the only line item that costs nothing and takes everything.",
+   "tones": [
+    "Making those forty covers sellable in May",
+    "Turning May into February",
+    "Buying back a month of trading",
+    "What the rope has been costing all along"
+   ],
+   "illustrative": true
+  },
+  {
+   "id": "S-covers",
+   "tier": "Commercial · hospitality",
+   "title": "The Covers",
+   "img_cold": "PL3_covers_cold",
+   "img_warm": "PL3_covers_warm",
+   "tags": [
+    {
+     "x": 24,
+     "y": 56,
+     "l": "4 covers",
+     "v": 312
+    },
+    {
+     "x": 76,
+     "y": 56,
+     "l": "4 covers",
+     "v": 312,
+     "a": "r"
+    },
+    {
+     "x": 33,
+     "y": 34,
+     "l": "4 covers",
+     "v": 312
+    },
+    {
+     "x": 67,
+     "y": 34,
+     "l": "4 covers",
+     "v": 312,
+     "a": "r"
+    },
+    {
+     "x": 50,
+     "y": 20,
+     "l": "The other 24 covers",
+     "v": 1872
+    },
+    {
+     "x": 50,
+     "y": 80,
+     "l": "Roped off until spring",
+     "v": 0
+    }
+   ],
+   "punch": {
+    "x": 50,
+    "y": 14,
+    "a": "l",
+    "l": "Making those forty covers sellable in May",
+    "v": 9000
+   },
+   "note": "Forty seats, priced at what one night of them earns. The rope is the only line item that costs nothing and takes everything.",
+   "tones": [
+    "Forty seats, sellable in May",
+    "Turning May into February, seat by seat",
+    "Buying back four hundred covers a month",
+    "What every empty chair has been costing"
+   ],
+   "illustrative": true
+  },
+  {
+   "id": "S-graveyard",
+   "tier": "Commercial · procurement",
+   "title": "Buying It Twice",
+   "img_cold": "PL4_graveyard_cold",
+   "img_warm": "PL4_graveyard_warm",
+   "tags": [
+    {
+     "x": 11,
+     "y": 58,
+     "l": "Patio heater",
+     "v": 89,
+     "a": "l"
+    },
+    {
+     "x": 26,
+     "y": 58,
+     "l": "Again",
+     "v": 89
+    },
+    {
+     "x": 40,
+     "y": 58,
+     "l": "Again",
+     "v": 89
+    },
+    {
+     "x": 54,
+     "y": 58,
+     "l": "Again",
+     "v": 89
+    },
+    {
+     "x": 68,
+     "y": 58,
+     "l": "…and eleven more",
+     "v": 979
+    },
+    {
+     "x": 85,
+     "y": 58,
+     "l": "Gas + staff hours, ten years",
+     "v": 22100,
+     "a": "r"
+    }
+   ],
+   "punch": {
+    "x": 50,
+    "y": 30,
+    "l": "Solving it once",
+    "v": 9000
+   },
+   "note": "Nobody in this building has ever added up what is in this room. It took ten years and fifteen decisions to leave one problem unsolved.",
+   "tones": [
+    "Solving it once",
+    "The version you only buy once",
+    "Ending the collection",
+    "What it would have cost in year one"
+   ],
+   "illustrative": true
+  }
+ ],
+ "concepts": [
+  {
+   "id": "B1",
+   "n": 1,
+   "title": "The Mushroom",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "REMODEL",
+    "FAME",
+    "R-LO"
+   ],
+   "img": "01a_mushroom_before",
+   "caption": "Seventy thousand dollars of outdoor kitchen. Heated by an eighty-nine dollar mushroom.",
+   "story": "A cheap hardware-store heater stranded in the middle of a $70,000 outdoor kitchen, with three people huddled inside its small circle of warmth.",
+   "tones": [
+    "Seventy thousand dollars of outdoor kitchen. Heated by an eighty-nine dollar mushroom.",
+    "The kitchen was designed by an architect. The heating was decided in aisle twelve.",
+    "They own a pizza oven, a wine fridge and a built-in griddle. They are standing in a circle around a lamp.",
+    "Somewhere in this photograph is a man who spent his bonus on this."
+   ],
+   "format": ":30 film · :15 · :06 · statics",
+   "audience": "Homeowners 40–70 mid-remodel or adding on",
+   "production": "The launch film, with one location and one deadpan voiceover. The mushroom heater is the hero prop, so source a genuinely cheap one and resist dressing it up.",
+   "local": "No rewrite needed. A big-box hardware-store heater looks the same in both markets; never name the retailer."
+  },
+  {
+   "id": "B2",
+   "n": 2,
+   "title": "The Pizza Oven",
+   "market": "BOTH",
+   "axis": "SUNKCOST",
+   "tags": [
+    "ADDON",
+    "FAME",
+    "R-LO"
+   ],
+   "img": "02a_pizza_before",
+   "caption": "Four times a year.",
+   "story": "He fires it, slides out a perfect pizza and serves it, and everyone takes a slice indoors. He eats alone beside a $9,000 oven.",
+   "tones": [
+    "Four times a year.",
+    "Nine thousand dollars. Roughly two thousand two hundred a pizza.",
+    "He has built a brick monument to a food he eats indoors.",
+    "He fires it up so he has a reason to stand outside alone."
+   ],
+   "format": ":30 film · :15 · statics",
+   "audience": "Homeowners who have already bought one outdoor luxury",
+   "production": "Easy to cast, and it shoots in half a day on a location with a working wood-fired oven. The agency reports strong recognition in informal conversations; treat that as a hunch until it is tested.",
+   "local": "None. Pizza ovens are everywhere in both markets."
+  },
+  {
+   "id": "B3",
+   "n": 3,
+   "title": "The Snowbirds / The Queensland Run",
+   "market": "TWIN",
+   "axis": "ASSET",
+   "tags": [
+    "REMODEL",
+    "FAME",
+    "R-LO"
+   ],
+   "img": "03a_snowbird_before",
+   "caption": "They solved their outdoor heating problem. It cost four hundred thousand dollars.",
+   "story": "A retired couple bought a second home somewhere warm. Their own terrace, a few steps from the kitchen, has never had heat.",
+   "tones": [
+    "They solved their outdoor heating problem. It cost four hundred thousand dollars.",
+    "There is a cheaper way to spend five months somewhere warm.",
+    "They drive eleven hundred miles a year to sit outside. They own an outside.",
+    "They bought a second house rather than have the conversation."
+   ],
+   "format": ":30 film · :15",
+   "audience": "55–70, retired or approaching it, second-property considerers",
+   "production": "Needs a second location or a convincing plate for the destination. The most extreme statement of the price argument in the platform.",
+   "local": "US: Scottsdale and the snowbird drive south. Australia: the Sunshine Coast and the winter run north. Swap the destination plate only."
+  },
+  {
+   "id": "B4",
+   "n": 4,
+   "title": "The Renovation Show Reveal",
+   "market": "TWIN",
+   "axis": "ASSET",
+   "tags": [
+    "REMODEL",
+    "FAME",
+    "R-MED"
+   ],
+   "img": "",
+   "caption": "“Alfresco. Big tick.” … “Can we go back inside?”",
+   "story": "The judges walk out onto the terrace for the big reveal and are back indoors within four seconds. Renovation television has given both markets a decade of shared visual language, so the parody reads instantly.",
+   "tones": [
+    "“Alfresco. Big tick.” … “Can we go back inside?”",
+    "Full marks for the alfresco. Four seconds spent in it.",
+    "The judges scored it a nine. From the kitchen.",
+    "They filmed the reveal in March. Nobody has been out there since."
+   ],
+   "format": ":30 film",
+   "audience": "Renovators actively watching reno content",
+   "production": "Keep the parody completely generic, with no show branding, no recognizable set and no host likeness. Legal counsel reviews it before production.",
+   "local": "One script for both markets, with the casting register tuned to each country's renovation shows. Name none of them."
+  },
+  {
+   "id": "B5",
+   "n": 5,
+   "title": "The Coastal Breeze",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "NEWBUILD",
+    "CONSIDER",
+    "R-LO"
+   ],
+   "img": "05a_coastal_before",
+   "caption": "Built for the view. Emptied by the breeze.",
+   "story": "At five past five every evening, the sea breeze clears the deck in under a minute. The concept that carries Tungsten Coastal and the radiant-heat product truth.",
+   "tones": [
+    "Built for the view. Emptied by the breeze.",
+    "The architect solved the light, the sightlines and the wind. Two out of three.",
+    "Every evening at five past five, the ocean asks everyone to leave.",
+    "They paid for the view. They watch it through glass, like everyone else."
+   ],
+   "format": ":30 film · :15 · statics",
+   "audience": "New-build and beach/second-home owners; architects",
+   "production": "Show Tungsten Smart-Heat® Electric Coastal with its Affinity Smart-Heat® Dimmer Controller at the turn, and make the claim only as far as the framework supports it: radiant heat warms people and surfaces directly and holds up in a light breeze. Shoot on a genuinely breezy afternoon, because a wind machine looks like one.",
+   "local": "Australia: Byron Bay, the Mornington Peninsula, Palm Beach. US: Cape Cod, the Hamptons, the California coast."
+  },
+  {
+   "id": "B6",
+   "n": 6,
+   "title": "The Fire Pit Rotisserie",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "ADDON",
+    ":15",
+    "R-LO"
+   ],
+   "img": "08_firepit",
+   "caption": "The outdoor sofa cost eleven thousand dollars. Everyone is sitting on a log.",
+   "story": "Six people around a fire pit turn 180° in silent synchronization every ninety seconds, warming one side at a time. The caption carries the idea; without it, this is a cold joke.",
+   "tones": [
+    "The outdoor sofa cost eleven thousand dollars. Everyone is sitting on a log.",
+    "Six people, rotating. Like something on a spit.",
+    "Every ninety seconds the entire party turns around in perfect silence.",
+    "One side of you is always cold. You just take turns choosing which."
+   ],
+   "format": ":15 social · statics",
+   "audience": "Anyone who has bought outdoor furniture",
+   "production": "A locked-off wide shot with no dialogue, choreographed and inexpensive to make. The caption must land on the $11,000 sofa nobody sits on, or any heater brand could run it.",
+   "local": "None."
+  },
+  {
+   "id": "B7",
+   "n": 7,
+   "title": "The Blanket Basket",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "REMODEL",
+    "STATIC",
+    "R-LO"
+   ],
+   "img": "07_blanket_basket",
+   "caption": "Erected in memory of the outdoor season.",
+   "story": "The wicker basket of throws by the back door, lit like a memorial. Almost every home in the audience has one.",
+   "tones": [
+    "Erected in memory of the outdoor season.",
+    "Every house has one. Nobody has ever said what it means.",
+    "A wicker basket containing the collected surrender of an entire family.",
+    "Somewhere along the way, the family accepted terms."
+   ],
+   "format": "Static · :15",
+   "audience": "All consumer segments",
+   "production": "Very low cost: shoot it as a still on the main production day. A strong candidate for the most shared still in the set.",
+   "local": "None. The basket sits by back doors in both countries."
+  },
+  {
+   "id": "B8",
+   "n": 8,
+   "title": "The Group Chat",
+   "market": "BOTH",
+   "axis": "STATUS",
+   "tags": [
+    "SOCIAL",
+    "FAME",
+    "R-LO"
+   ],
+   "img": "11_group_chat",
+   "caption": "“Still on for tonight?” · “Yes. Though it's meant to drop to nine.” · “…indoors?” · “Indoors 👍”",
+   "story": "The same four messages on four different dates, the entire scroll history of a terrace nobody has used since March. Very low production cost and native to the feed.",
+   "tones": [
+    "“Still on for tonight?” · “Yes. Though it’s meant to drop to nine.” · “…indoors?” · “Indoors 👍”",
+    "Four messages. The same four messages, since March.",
+    "The terrace has its own group chat. It has never been invited.",
+    "Nobody suggests outside any more. They stopped a while ago."
+   ],
+   "format": "9:16 social",
+   "audience": "Younger end of the target, 40–55",
+   "production": "Motion graphics only, with no shoot. Useful as always-on social between film flights, and the dates refresh each season for new creative at almost no cost.",
+   "local": "Australia keeps nine (°C); the US version reads forty-eight (°F). Flip the month by hemisphere. That is the entire localization."
+  },
+  {
+   "id": "B9",
+   "n": 9,
+   "title": "The Open Home / The Listing Photo",
+   "market": "TWIN",
+   "axis": "ASSET",
+   "tags": [
+    "NEWBUILD",
+    "CONSIDER",
+    "R-LO"
+   ],
+   "img": "14_open_home",
+   "caption": "“Seamless indoor-outdoor living.”",
+   "story": "The agent stages the outdoor kitchen for the listing shoot. The shutter clicks and everyone sprints inside. It speaks to people buying or selling a home, a moment heating brands rarely address.",
+   "tones": [
+    "“Seamless indoor-outdoor living.”",
+    "Photographed in use. Sold on a promise. Used in March.",
+    "The prosecco in the listing photo has been there since 2023.",
+    "The photograph is the only time anyone sat there."
+   ],
+   "format": ":30 film · :15",
+   "audience": "People buying or selling a home",
+   "production": "A strong dealer and showroom piece, because it matches a moment agents and builders already talk about.",
+   "local": "US: the online listing photo. Australia: the Saturday open home. Name no listing site."
+  },
+  {
+   "id": "B10",
+   "n": 10,
+   "title": "It's Not That Cold / She'll Be Right",
+   "market": "TWIN",
+   "axis": "COLD",
+   "tags": [
+    "ADDON",
+    ":15",
+    "R-LO"
+   ],
+   "img": "15_not_that_cold",
+   "caption": "“It's actually really nice out here.” / “She'll be right.”",
+   "story": "Dad, alone at his own party in a beanie on the good furniture, insisting it is lovely. A COLD concept, so the turn has to land on the furniture finally being used.",
+   "tones": [
+    "“It’s actually really nice out here.” / “She’ll be right.”",
+    "He is the only guest at his own party.",
+    "He has been out there for forty minutes. He will not be broken.",
+    "He is proving something. Nobody is sure what."
+   ],
+   "format": ":15 social",
+   "audience": "Family decision-makers; the partner who is not the enthusiast",
+   "production": "A COLD concept. The turn must land on the furniture coming back into use, with the warmth as the reason, or it pulls the brand down-market.",
+   "local": "US: “It's actually really nice out here.” Australia: “She'll be right.” One line changes."
+  },
+  {
+   "id": "B11",
+   "n": 11,
+   "title": "Melbourne",
+   "market": "AUS",
+   "axis": "COLD",
+   "tags": [
+    "REMODEL",
+    "FAME",
+    "R-LO"
+   ],
+   "img": "16_melbourne",
+   "caption": "Melbourne.",
+   "story": "One dinner party through four complete weather cycles, layers on and off in a rising rhythm, and nobody mentions it.",
+   "tones": [
+    "Melbourne.",
+    "Four seasons. One dinner.",
+    "By dessert they had removed and replaced every item of clothing they own.",
+    "They stopped commenting on it years ago."
+   ],
+   "format": ":30 film · :15",
+   "audience": "Urban and inner-suburban renovators",
+   "production": "A rhythm piece where the comedy lives in the edit. Inexpensive to shoot, at one table in one afternoon.",
+   "local": "Native to Melbourne. Transfers to Denver, Chicago or San Francisco with a city card."
+  },
+  {
+   "id": "B12",
+   "n": 12,
+   "title": "Alfresco (n.)",
+   "market": "AUS",
+   "axis": "ASSET",
+   "tags": [
+    "REMODEL",
+    "STATIC",
+    "R-LO"
+   ],
+   "img": "10_alfresco_static",
+   "caption": "Alfresco (n.). Italian, “in the open air.” Australian, “the bit near the barbecue nobody uses after May.”",
+   "story": "Native to Australia, where alfresco is a specific, everyday word in home building. The US twin runs as “Pergola (n.): a structure for looking at.”",
+   "tones": [
+    "Alfresco (n.). Italian, “in the open air.” Australian, “the bit near the barbecue nobody uses after May.”",
+    "An Italian word for an Australian room nobody enters.",
+    "Alfresco: a large outdoor space for storing a barbecue you are not using.",
+    "It’s in the brochure and in the photos. It’s missing from most of the year."
+   ],
+   "format": "Static",
+   "audience": "AUS renovators and new-build buyers",
+   "production": "Set in Bromic's typography at large size. The tension between the beautiful photograph and the blunt caption is the joke.",
+   "local": "Australia only. The US twin runs as “Pergola (n.): a structure for looking at.”"
+  },
+  {
+   "id": "B13",
+   "n": 13,
+   "title": "Labor Day / Easter: The Closing Ceremony",
+   "market": "TWIN",
+   "axis": "ASSET",
+   "tags": [
+    "REMODEL",
+    "FAME",
+    "R-LO"
+   ],
+   "img": "17_labor_day",
+   "caption": "The Petersons observe the end of summer. It is seventy-eight degrees.",
+   "story": "A family solemnly closes the pool, folds the umbrellas and wheels the grill away, shot like a funeral. The weather is still perfect.",
+   "tones": [
+    "The Petersons observe the end of summer. It is seventy-eight degrees.",
+    "The pool closes by the calendar. The weather was never consulted.",
+    "They have folded the umbrellas in perfect silence. One of them is crying.",
+    "Nothing has ended. They’ve just decided it has."
+   ],
+   "format": ":30 film · :15",
+   "audience": "Established homeowners, 45–70",
+   "production": "Shot like a funeral and played entirely straight. Hold on a thermometer or a supered temperature so the perfect weather is clear.",
+   "local": "US: Labor Day, seventy-eight degrees (°F). Australia: Easter, twenty-six degrees (°C). The same ceremony on a different date card."
+  },
+  {
+   "id": "B14",
+   "n": 14,
+   "title": "The Big Game / Finals Day",
+   "market": "TWIN",
+   "axis": "ASSET",
+   "tags": [
+    "ADDON",
+    "FAME",
+    "R-LO"
+   ],
+   "img": "04a_biggame_before",
+   "caption": "The outdoor TV cost six thousand dollars. Everyone is watching the small one.",
+   "story": "Twenty-two people crammed inside while the outdoor lounge and its own 85-inch screen sit dark and dry. February in the US, September in Australia, one film and one date card.",
+   "tones": [
+    "The outdoor TV cost six thousand dollars. Everyone is watching the small one.",
+    "Twenty-two people. One bathroom. An empty terrace nine feet away.",
+    "There is an eighty-five inch television outside, broadcasting to four garden chairs and a moth.",
+    "The outdoor television has never seen a human face."
+   ],
+   "format": ":30 film · :15 · :06",
+   "audience": "Households that have already built an outdoor room",
+   "production": "One film for both markets, with a single supered date card: the same shot in the opposite month.",
+   "local": "US: the championship game in February. Australia: football finals day in September. Name neither event nor league; both are protected trademarks."
+  },
+  {
+   "id": "B15",
+   "n": 15,
+   "title": "The Housewarming",
+   "market": "BOTH",
+   "axis": "STATUS",
+   "tags": [
+    "NEWBUILD",
+    "FAME",
+    "R-LO"
+   ],
+   "img": "12_housewarming",
+   "caption": "You should not need equipment to attend a dinner party.",
+   "story": "The invitation said “dress warm.” Twenty adults in ski jackets and beanies over evening clothes, holding champagne in an award-winning garden, and nobody mentions it.",
+   "tones": [
+    "You should not need equipment to attend a dinner party.",
+    "Black tie. Thermal base layer.",
+    "Twenty adults in ski jackets holding champagne in an award-winning garden. Nobody mentions it.",
+    "Everyone is having a lovely time and everyone is lying."
+   ],
+   "format": ":30 film · statics",
+   "audience": "New-build owners and the design-conscious decision maker",
+   "production": "A STATUS concept: the quiet embarrassment of a beautiful thing that does not work, which is the emotional core of the platform. Wardrobe does all the work.",
+   "local": "None."
+  },
+  {
+   "id": "B16",
+   "n": 16,
+   "title": "The Year After",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "TRADE",
+    "CONSIDER",
+    "R-MED"
+   ],
+   "img": "18_grand_designs",
+   "caption": "“And how are you finding the terrace?”",
+   "story": "The follow-up interview, twelve months on, and a very long silence. Aimed at the trade, because the unused terrace reflects on the people who designed it.",
+   "tones": [
+    "“And how are you finding the terrace?”",
+    "The pause is the answer.",
+    "The silence lasted long enough that the crew stopped filming.",
+    "It’s the best thing they built and the least thing they use."
+   ],
+   "format": ":30 film · trade cut",
+   "audience": "Architects, designers, custom builders",
+   "production": "Makes a specifier usefully uncomfortable. Use a generic home-build documentary format with no program title, format or presenter likeness, and have legal counsel review it.",
+   "local": "Works in both markets as a generic home-build documentary. Name no program.",
+   "tone_note": "Runs Deadpan or Dry only. The Absurd and Dark lines are kept for internal review and never run to the trade."
+  },
+  {
+   "id": "B17",
+   "n": 17,
+   "title": "The Specification",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "TRADE",
+    "CONSIDER",
+    "R-LO"
+   ],
+   "img": "06a_spec_before",
+   "caption": "The space is specified. Now specify the season.",
+   "story": "“And in November?” The architect has no answer. The trade workhorse.",
+   "tones": [
+    "The space is specified. Now specify the season.",
+    "The render never has weather in it.",
+    "The render has eleven people in it. November has none.",
+    "The client will remember who drew it."
+   ],
+   "format": ":30 film · LinkedIn cuts · leave-behind",
+   "audience": "Architects, designers, custom builders, commercial specifiers",
+   "production": "It keeps the endline and places the client's question on the specifier's reputation, the currency that moves this audience. The call to action is the specification kit, kept apart from the joke.",
+   "local": "US: “And in November?” Australia: “And in July?”",
+   "tone_note": "Runs Deadpan or Dry only. The Absurd and Dark lines are kept for internal review and never run to the trade."
+  },
+  {
+   "id": "B18",
+   "n": 18,
+   "title": "Two Hours",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "REMODEL",
+    "CONSIDER",
+    "R-LO"
+   ],
+   "img": "19_two_hours",
+   "caption": "Your terrace has an opening time and a closing time. You never agreed to either.",
+   "story": "A locked-off time-lapse: 4 pm full, 6 pm half, 7 pm one abandoned drink. Persuasive for anyone close to buying, because the argument arrives inside the joke.",
+   "tones": [
+    "Your terrace has an opening time and a closing time. You never agreed to either.",
+    "Four o’clock: twelve people. Seven o’clock: one abandoned drink.",
+    "The terrace is open from four until six. It sets its own hours.",
+    "Nobody decides to go in. They just find themselves inside."
+   ],
+   "format": ":15 · static · retargeting",
+   "audience": "Active considerers already aware of the brand",
+   "production": "Run it behind the funnier films as the consideration layer, for people who already know Bromic.",
+   "local": "None."
+  },
+  {
+   "id": "B19",
+   "n": 19,
+   "title": "The Kids' Table",
+   "market": "US",
+   "axis": "ASSET",
+   "tags": [
+    "REMODEL",
+    "FAME",
+    "R-HI"
+   ],
+   "img": "20_kids_table",
+   "caption": "There is a better solution.",
+   "story": "Thanksgiving. The kids' table has been put outside, and one child holds unbroken eye contact with the camera. Dark, so it needs a warm turn or it reads as mean.",
+   "tones": [
+    "There is a better solution.",
+    "The overflow seating is outside. It is November.",
+    "Four children eating Thanksgiving dinner in coats, maintaining eye contact through the glass.",
+    "They will remember this one."
+   ],
+   "format": ":30 film",
+   "audience": "US families hosting at scale",
+   "production": "The turn brings the table back into the party. Test it with the audience before committing (R-HI).",
+   "local": "Native to the US Thanksgiving. Do not force an Australian version."
+  },
+  {
+   "id": "B20",
+   "n": 20,
+   "title": "The Deck",
+   "market": "BOTH",
+   "axis": "SUNKCOST",
+   "tags": [
+    "ADDON",
+    "SOCIAL",
+    "R-LO"
+   ],
+   "img": "09_the_deck",
+   "caption": "Beautifully maintained. Entirely unused.",
+   "story": "He oils and polishes the deck the way other men polish a car, steps back, admires it and goes inside. Deck pride is the same in both countries.",
+   "tones": [
+    "Beautifully maintained. Entirely unused.",
+    "He oils it twice a year. He sits on it twice a year. Never the same day.",
+    "The deck has a skincare routine.",
+    "He visits it on weekends, like a relative."
+   ],
+   "format": ":15 social · static",
+   "audience": "Owner-maintainers, a mostly male audience",
+   "production": "Play it tenderly. The affection for the deck is real, and the audience shares it.",
+   "local": "None."
+  },
+  {
+   "id": "B21",
+   "n": 21,
+   "title": "The Hostage Negotiation",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "REMODEL",
+    "FAME",
+    "R-LO"
+   ],
+   "img": "N21_hostage",
+   "caption": "Negotiations broke down at 7:40pm.",
+   "story": "Guests barricaded in the kitchen, wrapped in blankets. Outside, crouched behind the unused outdoor sofa, a man with a megaphone and a clipboard. “They say they'll come out if there are blankets. There are no more blankets, Gary.”",
+   "tones": [
+    "Negotiations broke down at 7:40pm.",
+    "Fifteen guests, one terrace, and nobody willing to cross nine feet of cold.",
+    "There are no more blankets, Gary.",
+    "They have everything they need in there. They are never coming out."
+   ],
+   "format": ":30 film · :15",
+   "audience": "Homeowners 40–70 who entertain",
+   "production": "The funniest concept in the bank and the hardest to pitch on paper. Play it with complete tactical seriousness, because one wink kills it. Cast a character actor for the negotiator, and keep it clear of any real incident or recognizable film. Gary is a fictional character.",
+   "local": "None. The standoff reads the same in both markets."
+  },
+  {
+   "id": "B22",
+   "n": 22,
+   "title": "Rusty",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "REMODEL",
+    "FAME",
+    "R-LO"
+   ],
+   "img": "N22_rusty",
+   "caption": "Rusty is the only member of this family getting any value from the outdoor kitchen.",
+   "story": "A slow, loving portrait of a dog asleep in the very center of an $84,000 outdoor lounge. Nobody else is there, and nobody has been since March.",
+   "tones": [
+    "Rusty is the only member of this family getting any value from the outdoor kitchen.",
+    "Eighty-four thousand dollars, enjoyed exclusively by the dog.",
+    "The dog has sole possession of the entertaining area and shows no sign of sharing it.",
+    "He waits out there every evening. Nobody has joined him since March."
+   ],
+   "format": ":30 film · :15 · statics",
+   "audience": "All consumer segments",
+   "production": "Warm and affectionate, which is what lets it travel; the agency sees it as the most shareable piece. Cast the dog first, and everything else is set dressing.",
+   "local": "Flip the month by hemisphere."
+  },
+  {
+   "id": "B23",
+   "n": 23,
+   "title": "The Safety Briefing",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "REMODEL",
+    "FAME",
+    "R-LO"
+   ],
+   "img": "N23_safety_briefing",
+   "caption": "“Tonight's outdoor portion of the evening is expected to last approximately eleven minutes.”",
+   "story": "A host briefs the dinner guests like cabin crew, covering layers, exits and the location of the blankets. The guests listen politely, and one takes notes.",
+   "tones": [
+    "“Tonight's outdoor portion of the evening is expected to last approximately eleven minutes.”",
+    "Layers. Exits. The location of the blankets.",
+    "One of the guests is taking notes.",
+    "Everyone has done this before. That is what makes it sad."
+   ],
+   "format": ":30 film · :15",
+   "audience": "Hosts and entertainers, 40–65",
+   "production": "The least expensive of the three lead concepts to shoot, with one location, one performance and eight extras. The comedy lives in the host's sincerity.",
+   "local": "None."
+  },
+  {
+   "id": "B24",
+   "n": 24,
+   "title": "The Valuation",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "REMODEL",
+    "FAME",
+    "R-LO"
+   ],
+   "img": "N24_valuation",
+   "caption": "“And how often would you say you use it?” … “I'll put ‘as new’.”",
+   "story": "An antiques valuer appraises the outdoor kitchen with a loupe while the owners stand beside him, visibly uncomfortable.",
+   "tones": [
+    "“And how often would you say you use it?” … “I'll put ‘as new’.”",
+    "Forty-one thousand dollars, in showroom condition, four years on.",
+    "He has valued it twice. Both times as unused stock.",
+    "It will outlast them, unused, and be sold that way."
+   ],
+   "format": ":30 film · :15",
+   "audience": "Homeowners who have already built",
+   "production": "“As new” is the whole film. Cut anything that delays it.",
+   "local": "The antiques-show register plays broader in Australia; the US plays it drier."
+  },
+  {
+   "id": "B25",
+   "n": 25,
+   "title": "The Gym Membership",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "REMODEL",
+    "STATIC",
+    "R-LO"
+   ],
+   "img": "N25_gym",
+   "caption": "Your gym membership is the second most expensive thing you own and don't use.",
+   "story": "A single line over a still of an empty terrace at dusk. Anyone over forty understands it at once, and it reframes the purchase in one sentence.",
+   "tones": [
+    "Your gym membership is the second most expensive thing you own and don't use.",
+    "The gym costs you eighty dollars a month. This one was eighty thousand, once.",
+    "You have a second living room and you visit it eleven times a year.",
+    "You already know which room this is about."
+   ],
+   "format": "Static · OOH · :06",
+   "audience": "All consumer segments",
+   "production": "A strong line for billboards and outdoor, because it works with or without the picture. Set it large and alone.",
+   "local": "None."
+  },
+  {
+   "id": "B26",
+   "n": 26,
+   "title": "Missing Persons",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "REMODEL",
+    "STATIC",
+    "R-LO"
+   ],
+   "img": "N26_missing",
+   "caption": "LAST SEEN: MARCH. IF YOU HAVE ANY INFORMATION…",
+   "story": "A weathered poster stapled to a suburban lamppost. The photograph on it is a twelve-seat outdoor dining table.",
+   "tones": [
+    "LAST SEEN: MARCH. IF YOU HAVE ANY INFORMATION…",
+    "Missing since March. Seats twelve. Answers to nothing.",
+    "Someone has put up posters for an outdoor dining table.",
+    "Nobody has reported it missing because nobody noticed."
+   ],
+   "format": "Static · ambient",
+   "audience": "Homeowners, urban and suburban",
+   "production": "Could also run as a real ambient stunt, with posters in affluent suburbs, subject to local permits. Set the poster type in post; never generate it.",
+   "local": "Flip the month by hemisphere."
+  },
+  {
+   "id": "B27",
+   "n": 27,
+   "title": "Support Group",
+   "market": "BOTH",
+   "axis": "SUNKCOST",
+   "tags": [
+    "ADDON",
+    "FAME",
+    "R-LO"
+   ],
+   "img": "N27_support_group",
+   "caption": "“Hi. I'm Dave. I've owned a wood-fired oven for four years.” … “Hi, Dave.”",
+   "story": "A circle of plastic chairs in a community hall. Dave stands, holding a pizza peel. “I've used it eleven times.” Murmurs of recognition.",
+   "tones": [
+    "“Hi. I'm Dave. I've owned a wood-fired oven for four years.” … “Hi, Dave.”",
+    "Eleven uses in four years. The room finds this unremarkable.",
+    "Every man in this circle owns something magnificent he cannot use.",
+    "Dave still defends the purchase. That is the part that worries them."
+   ],
+   "format": ":30 film",
+   "audience": "Owners of one expensive outdoor thing",
+   "production": "A sequel to The Pizza Oven. Keep the hall genuinely bleak, because the contrast with the warm Bromic world is the joke. Dave is fictional, and the meeting stays generic so it never mocks a real support program.",
+   "local": "None."
+  },
+  {
+   "id": "B28",
+   "n": 28,
+   "title": "Out of Office",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "SOCIAL",
+    "STATIC",
+    "R-LO"
+   ],
+   "img": "N28_out_of_office",
+   "caption": "The terrace is currently out of office and will return in May.",
+   "story": "An auto-reply from the terrace itself: “For urgent matters, please use the kitchen island.” Very low production cost and native to the feed.",
+   "tones": [
+    "The terrace is currently out of office and will return in May.",
+    "For urgent matters, please use the kitchen island.",
+    "The terrace has set an auto-reply and stopped responding entirely.",
+    "It has been out of office longer than it has ever been in it."
+   ],
+   "format": "9:16 social · static",
+   "audience": "Working homeowners, 40–55",
+   "production": "Motion graphics only, with no shoot. Refresh the return date each season.",
+   "local": "Flip the return month by hemisphere."
+  },
+  {
+   "id": "B29",
+   "n": 29,
+   "title": "The Archaeologist",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "REMODEL",
+    "FAME",
+    "R-MED"
+   ],
+   "img": "N29_archaeologist",
+   "caption": "“Evidence of a civilization that gathered outdoors, briefly, and only in February.”",
+   "story": "Two archaeologists brush and measure around a suburban patio table with numbered markers, entirely straight-faced.",
+   "tones": [
+    "“Evidence of a civilization that gathered outdoors, briefly, and only in February.”",
+    "The site shows heavy use across roughly six weeks, then nothing.",
+    "They have found a twelve-seat table and no evidence anyone sat at it.",
+    "Future generations will assume it was ceremonial."
+   ],
+   "format": ":30 film",
+   "audience": "Homeowners, 45–70",
+   "production": "Rated R-MED because the idea needs a beat to land. Play it as a straight natural-history documentary, with no comic music.",
+   "local": "Flip the month by hemisphere."
+  },
+  {
+   "id": "B30",
+   "n": 30,
+   "title": "The Reunion",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "REMODEL",
+    "FAME",
+    "R-LO"
+   ],
+   "img": "N30_reunion",
+   "caption": "Nine months is a long time.",
+   "story": "Spring. The furniture cover comes off in slow motion and the family greets the outdoor sofa like a relative home at last. Someone weeps.",
+   "tones": [
+    "Nine months is a long time.",
+    "The cover comes off in September. It goes back on in March.",
+    "A grown adult is weeping at a sofa.",
+    "They are genuinely pleased to see it, and that is the problem."
+   ],
+   "format": ":30 film · :15",
+   "audience": "Homeowners at season change",
+   "production": "A seasonal opener for the start of the outdoor season. The slow-motion reveal is the whole shot.",
+   "local": "Flip the months: spring starts in March in the US and in September in Australia."
+  },
+  {
+   "id": "B31",
+   "n": 31,
+   "title": "Couples Therapy",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "REMODEL",
+    "FAME",
+    "R-MED"
+   ],
+   "img": "N31_therapy",
+   "caption": "“It's the pergola.”",
+   "story": "Two people at opposite ends of a therapist's sofa. Neither will say it. Finally one does, and the therapist writes something down.",
+   "tones": [
+    "“It's the pergola.”",
+    "Neither of them wanted to be the one to say it.",
+    "Forty minutes of silence, then one word: pergola.",
+    "They built it together. Neither has sat under it."
+   ],
+   "format": ":30 film",
+   "audience": "Couples mid-renovation",
+   "production": "Rated R-MED. Keep it affectionate and never bitter, and have the therapist react as if this is completely normal.",
+   "local": "None."
+  },
+  {
+   "id": "B32",
+   "n": 32,
+   "title": "The Auction",
+   "market": "BOTH",
+   "axis": "SUNKCOST",
+   "tags": [
+    "ADDON",
+    "FAME",
+    "R-LO"
+   ],
+   "img": "N32_auction",
+   "caption": "“Lot 42. Outdoor kitchen. One careful owner. Sixty-two hours' use.”",
+   "story": "Gavel, catalog and spotlight. A complete built-in outdoor kitchen on a plinth in a formal auction house.",
+   "tones": [
+    "“Lot 42. Outdoor kitchen. One careful owner. Sixty-two hours' use.”",
+    "Forty-one thousand new. Sixty-two hours used. Bidding starts at four.",
+    "It is being sold as an antiquity, which technically it is not.",
+    "It will be bought by someone who will also not use it."
+   ],
+   "format": ":30 film · :15",
+   "audience": "Homeowners who over-invested",
+   "production": "The lot number and the hours-used figure do the work. Shoot it with real auction-house grandeur.",
+   "local": "None."
+  }
+ ],
+ "trade": [
+  {
+   "id": "B1",
+   "group": "builders",
+   "title": "The Punch List",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "BUILDER",
+    "CONSIDER",
+    "R-LO"
+   ],
+   "img": "B1_punch_list",
+   "caption": "The last item on every punch list is the one you didn’t quote for.",
+   "story": "The final walkthrough. The client ticks down a clipboard on a flawless build, then writes one more line at the bottom: “Can we use it in winter?” Hold on the builder's face.",
+   "insight": "Many builders have been caught at handover by a question best answered at framing.",
+   "argument": "An unheated outdoor room leaves the job open. A finished build becomes an ongoing conversation, and that conversation costs the builder time nobody pays for.",
+   "channels": "LinkedIn, trade press, rep leave-behind, builder association newsletters.",
+   "cta": "Get the spec kit, with mounting, recess and rough-in details.",
+   "format": ":30 film · :15 · static",
+   "audience": "Custom home builders, remodelers, project managers",
+   "production": "Cast a real builder if you can, because this audience spots an actor at once. Shoot on a genuine near-complete site.",
+   "kpi": "Spec kit downloads and rep meetings booked.",
+   "tones": [
+    "The last item on every punch list is the one you didn’t quote for.",
+    "Everything on the list was fixable. The last one wasn’t on the list.",
+    "He has signed off forty-one items. The forty-second is a season.",
+    "The build is finished. The conversation isn’t."
+   ],
+   "tone_note": "Runs Deadpan or Dry only. The Absurd and Dark lines are kept for internal review and never run to the trade."
+  },
+  {
+   "id": "B2",
+   "group": "builders",
+   "title": "The Referral That Never Came",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "BUILDER",
+    "FAME",
+    "R-LO"
+   ],
+   "img": "B2_referral",
+   "caption": "“Who built yours?” … “We love it. We’re inside a lot.”",
+   "story": "Two neighbors over a fence. The question every builder's business depends on gets asked, and the answer arrives one beat too late with one qualifier too many. The referral dies in the pause.",
+   "insight": "Custom builders rely heavily on word of mouth, and a lukewarm answer can do more harm than none at all.",
+   "argument": "An unused terrace rarely draws a complaint. It draws a hesitation, and a hesitation can quietly cost a builder the next job.",
+   "channels": "LinkedIn, trade press, dealer co-op, builder events.",
+   "cta": "Book a rep walkthrough on your next build.",
+   "format": ":30 film · :15",
+   "audience": "Custom home builders, design-build firms",
+   "production": "The whole film rests on one pause, so cast for timing. Shoot at golden hour so the unused terrace behind them reads clearly.",
+   "kpi": "Unaided builder awareness and rep meetings booked.",
+   "tones": [
+    "“Who built yours?” … “We love it. We’re inside a lot.”",
+    "Nobody complained. Somebody hesitated.",
+    "Three seconds of silence over a fence just cost him his next job.",
+    "He’ll never know which job he lost, or why."
+   ],
+   "tone_note": "Runs Deadpan or Dry only. The Absurd and Dark lines are kept for internal review and never run to the trade."
+  },
+  {
+   "id": "B3",
+   "group": "builders",
+   "title": "The Change Order",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "BUILDER",
+    "CONSIDER",
+    "R-LO"
+   ],
+   "img": "B3_change_order",
+   "caption": "Rough it in now. Or cut it open later.",
+   "story": "A tradesperson cuts a neat rectangle into a beautiful finished cedar-lined ceiling to run a circuit. Sawdust falls onto new stone, and the homeowner watches, arms folded.",
+   "insight": "Adding outdoor heat after handover is costly and common, because the circuit was never roughed in.",
+   "argument": "Pre-wire during the build. It costs the client little at framing, and it gives the builder a defensible upgrade to put on the quote today.",
+   "channels": "LinkedIn, trade press, CEU content, rep leave-behind, dealer counter card.",
+   "cta": "Download the rough-in guide.",
+   "format": ":30 film · :15 · static · one-page sell sheet",
+   "audience": "Builders, electricians, project managers",
+   "production": "The trade piece most likely to convert, because it earns the builder money. Every electrical detail must be right, and the guide it points to carries the local-authority and licensed-electrician disclaimer; this audience will notice a wrong gauge or box.",
+   "kpi": "Rough-in guide downloads and the pre-wire attach rate reported by dealers.",
+   "tones": [
+    "Rough it in now. Or cut it open later.",
+    "Four hundred dollars at framing. Six thousand after handover.",
+    "They are cutting a hole in a ceiling that took four days to line.",
+    "Everyone in this room knows exactly whose fault it is."
+   ],
+   "tone_note": "Runs Deadpan or Dry only. The Absurd and Dark lines are kept for internal review and never run to the trade."
+  },
+  {
+   "id": "B4",
+   "group": "builders",
+   "title": "The Portfolio Shot",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "BUILDER",
+    "FAME",
+    "R-LO"
+   ],
+   "img": "B4_portfolio",
+   "caption": "“Can we get one with people in it?”",
+   "story": "A photographer shoots the hero image for the builder's portfolio. The terrace is magnificent and completely empty. The builder asks for one with people in it, nobody moves, and the beat runs long.",
+   "insight": "The portfolio does much of a builder's marketing, and empty hero shots are an open secret in the trade.",
+   "argument": "An outdoor room that cannot be photographed in use is hard to sell to the next client. Heat becomes part of the builder's marketing as well as the client's comfort.",
+   "channels": "LinkedIn, Instagram to trade, ArchDaily, trade press.",
+   "cta": "See the reference builds.",
+   "format": ":30 film · :15 · statics",
+   "audience": "Custom builders, design-build firms, architects",
+   "production": "Ends on the photographer lowering the camera. Inexpensive to shoot with one location and three cast, and it pairs well with a reference-build series.",
+   "kpi": "Reference-build page visits and trade social engagement.",
+   "tones": [
+    "“Can we get one with people in it?”",
+    "Every shot in the portfolio is empty. Nobody has asked why.",
+    "He has forty photographs of this house and no evidence anyone lives there.",
+    "The best work he’s ever done, and he can’t show it in use."
+   ],
+   "tone_note": "Runs Deadpan or Dry only. The Absurd and Dark lines are kept for internal review and never run to the trade."
+  },
+  {
+   "id": "B5",
+   "group": "builders",
+   "title": "Six Hundred Square Feet",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "BUILDER",
+    "CONSIDER",
+    "R-LO"
+   ],
+   "img": "B5_square_footage",
+   "caption": "You sold them 4,200 square feet. You built them 4,800, for five months a year.",
+   "story": "A builder paces out a finished covered terrace at dusk, plans under one arm, gesturing across a beautiful empty space with the furniture still wrapped in plastic.",
+   "insight": "Builders sell square footage. An unheated outdoor room is square footage that sits idle for much of the year.",
+   "argument": "It speaks in the unit builders price in. Heating turns seasonal square footage into space the client can use for more of the year, at a small share of what the room cost to build.",
+   "channels": "LinkedIn, trade press, CEU, rep leave-behind, dealer sell sheet.",
+   "cta": "Run the numbers on your next build.",
+   "format": ":30 film · :15 · static · calculator tool",
+   "audience": "Builders, architects, developers",
+   "production": "Support it with a cost-per-square-foot comparison the rep can leave behind, built from verified figures and the Hub's sizing method. The film opens the conversation and the arithmetic closes it.",
+   "kpi": "Calculator use and attach rate on new builds.",
+   "tones": [
+    "You sold them 4,200 square feet. You built them 4,800, for five months a year.",
+    "Six hundred square feet, seasonally available.",
+    "The most expensive room in the house has no walls and no year.",
+    "He charged for it, built it, and handed over something they can’t use."
+   ],
+   "tone_note": "Runs Deadpan or Dry only. The Absurd and Dark lines are kept for internal review and never run to the trade."
+  },
+  {
+   "id": "B6",
+   "group": "builders",
+   "title": "The Completion Post",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "BUILDER",
+    "FAME",
+    "R-LO"
+   ],
+   "img": "N33_linkedin",
+   "caption": "340 likes. Nobody has stood in it since.",
+   "story": "A builder photographs his finished terrace at golden hour for social media. It is beautiful and completely empty. Cut to the same terrace in November, still empty.",
+   "insight": "The finished-project post matters to a custom builder's marketing, and it is almost always shot empty.",
+   "argument": "An outdoor room that photographs beautifully and cannot be used stays a portfolio picture. Heat is what turns the post into a referral.",
+   "channels": "LinkedIn, Instagram to trade, builder association channels.",
+   "cta": "See the reference builds.",
+   "format": ":30 film · :15 · static",
+   "audience": "Custom builders, design-build firms",
+   "production": "Self-aware enough that builders may share it themselves. Keep the post generic and never mimic a real platform's interface.",
+   "kpi": "Trade social engagement and reference-build page visits.",
+   "tones": [
+    "340 likes. Nobody has stood in it since.",
+    "Thrilled to announce the completion of a room nobody can enter in November.",
+    "The most photographed outdoor space in the county, and the least occupied.",
+    "The post did better than the terrace."
+   ],
+   "tone_note": "Runs Deadpan or Dry only. The Absurd and Dark lines are kept for internal review and never run to the trade."
+  },
+  {
+   "id": "B7",
+   "group": "builders",
+   "title": "The Handover Pack",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "BUILDER",
+    "CONSIDER",
+    "R-LO"
+   ],
+   "img": "N34_handover",
+   "caption": "Appliance warranties. Paint codes. Maintenance schedules. “Terrace: see Spring.”",
+   "story": "A builder presents a beautiful leather-bound handover manual, with every system in the house documented. The client turns to the last page.",
+   "insight": "The handover pack is the last thing a builder controls and the first thing a client judges them by six months later.",
+   "argument": "Everything else in the house works on handover day. The terrace is the one room delivered with a season attached, and the one the builder will hear about again.",
+   "channels": "LinkedIn, trade press, rep leave-behind, builder association newsletters.",
+   "cta": "Add heat to your handover spec.",
+   "format": ":30 film · :15",
+   "audience": "Custom builders, project managers",
+   "production": "Pairs with The Punch List as a two-film set. The manual should look genuinely expensive.",
+   "kpi": "Spec kit downloads and rep meetings booked.",
+   "tones": [
+    "Appliance warranties. Paint codes. Maintenance schedules. “Terrace: see Spring.”",
+    "Every system in the house documented, except the one with no season.",
+    "The handover pack has a page for the terrace and it says “later”.",
+    "He has handed over a room he knows they cannot use."
+   ],
+   "tone_note": "Runs Deadpan or Dry only. The Absurd and Dark lines are kept for internal review and never run to the trade."
+  },
+  {
+   "id": "C1",
+   "group": "commercial",
+   "title": "Forty Covers",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "COMMERCIAL",
+    "CONSIDER",
+    "R-LO"
+   ],
+   "img": "C1_forty_covers",
+   "caption": "Forty covers. Closed for the season.",
+   "story": "A beautifully set restaurant terrace, roped off, cold and dark. The camera tracks past it to the packed golden interior and the line of people waiting by the door.",
+   "insight": "Every hospitality operator knows their cover count and revenue per cover to the dollar.",
+   "argument": "Heating the terrace adds capacity. Forty covers, times average spend, times the nights you cannot sell them today, gives a payback you can show on one slide.",
+   "channels": "Trade press, LinkedIn, hospitality trade shows, distributor and rep channels.",
+   "cta": "Get the payback calculation for your venue.",
+   "format": ":30 film · :15 · static · ROI one-pager",
+   "audience": "Restaurant, bar and hotel owners and operators",
+   "production": "Lead the commercial tier with this. The supered arithmetic at the end does more work than the film, so keep it accurate, conservative and built from the venue's own numbers in the Hub's payback calculator.",
+   "kpi": "Payback calculator completions and commercial quote requests.",
+   "tones": [
+    "Forty covers. Closed for the season.",
+    "The waiting list is inside. The empty seats are outside.",
+    "There are twenty people in line nine feet from forty empty chairs.",
+    "He turns people away every night while looking at the seats."
+   ],
+   "tone_note": "Runs Deadpan or Dry only. The Absurd and Dark lines are kept for internal review and never run to the trade."
+  },
+  {
+   "id": "C2",
+   "group": "commercial",
+   "title": "The Two-Star Review",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "COMMERCIAL",
+    "FAME",
+    "R-MED"
+   ],
+   "img": "C2_review",
+   "caption": "Your terrace is writing your reviews.",
+   "story": "An owner alone at the bar after close, lit by a tablet. On it: “Beautiful food. Sat outside. Couldn't feel my hands. ★★”",
+   "insight": "Operators feel reviews keenly, and a cold terrace can produce poor ones every shoulder season.",
+   "argument": "An unheated terrace costs the seats left empty, and it costs the seats you did fill on a cold night, along with the public review they leave behind.",
+   "channels": "Trade press, LinkedIn, hospitality newsletters.",
+   "cta": "Talk to a commercial specialist.",
+   "format": ":30 film · :15 · static",
+   "audience": "Owner-operators, GMs, hospitality groups",
+   "production": "Rated R-MED. Never show a real review platform's branding or a real venue's name; design the interface from scratch, and have legal counsel review the review copy.",
+   "kpi": "Commercial enquiry volume.",
+   "tones": [
+    "Your terrace is writing your reviews.",
+    "Beautiful food. Two stars. The kitchen did nothing wrong.",
+    "A chef’s twenty-year career, reviewed by the weather.",
+    "It’ll be the first thing anyone reads about him for a year."
+   ],
+   "tone_note": "Runs Deadpan or Dry only. The Absurd and Dark lines are kept for internal review and never run to the trade."
+  },
+  {
+   "id": "C3",
+   "group": "commercial",
+   "title": "The Meteorologist",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "COMMERCIAL",
+    "CONSIDER",
+    "R-LO"
+   ],
+   "img": "C3_weather_app",
+   "caption": "Your booking calendar should not have a meteorologist.",
+   "story": "Four in the afternoon. An events manager stands in a beautiful empty courtyard set for sixty, refreshing a weather app, then makes the call that cancels the booking. Repeated across a season.",
+   "insight": "Weather cancellations are a cost many venues absorb quietly, and few brands speak to it.",
+   "argument": "A venue that can rely on its outdoor space can sell it in advance and stop refunding it.",
+   "channels": "Trade press, LinkedIn, events and venue associations, wedding and functions trade.",
+   "cta": "Get the venue specification guide.",
+   "format": ":30 film · :15",
+   "audience": "Hotels, function centers, event venues, wedding venues",
+   "production": "Functions and weddings are a high-value, weather-exposed part of the commercial market. Consider a dedicated cut for that trade.",
+   "kpi": "Venue specification guide downloads and functions-sector quotes.",
+   "tones": [
+    "Your booking calendar should not have a meteorologist.",
+    "Sixty covers, confirmed and paid. Cancelled at four o’clock by a forecast.",
+    "The most powerful person in this venue is a weather app.",
+    "She makes the call every time, and every time it costs her the same."
+   ],
+   "tone_note": "Runs Deadpan or Dry only. The Absurd and Dark lines are kept for internal review and never run to the trade."
+  },
+  {
+   "id": "C4",
+   "group": "commercial",
+   "title": "The Heater Graveyard",
+   "market": "BOTH",
+   "axis": "SUNKCOST",
+   "tags": [
+    "COMMERCIAL",
+    "CONSIDER",
+    "R-LO"
+   ],
+   "img": "C4_heater_graveyard",
+   "caption": "Ten years of solving it. Ten thousand dollars of not solving it.",
+   "story": "A back-of-house storeroom crammed with fifteen mismatched, dented, rusting mushroom heaters and gas bottles, the archaeology of a decade of quick fixes. The camera tracks along the row like a museum exhibit.",
+   "insight": "Many venues have this room, and few have added up what is in it.",
+   "argument": "Total cost of ownership is the argument that wins procurement. Replacing portable heaters season after season can cost more over ten years than installing permanent heaters once, before you count the gas, the storage and the labor, and the Hub's ten-year cost tool runs the comparison on the venue's own figures.",
+   "channels": "Trade press, LinkedIn, procurement and facilities channels, distributor reps.",
+   "cta": "Get the ten-year cost comparison.",
+   "format": ":30 film · :15 · static · TCO one-pager",
+   "audience": "Operators, facilities and procurement managers, hotel groups",
+   "production": "Find a genuinely grim real storeroom, with the venue's permission, because the comedy depends on it being real. Strongest for multi-site groups, where every figure multiplies by venue.",
+   "kpi": "Ten-year cost one-pager downloads and multi-site enquiries.",
+   "tones": [
+    "Ten years of solving it. Ten thousand dollars of not solving it.",
+    "Fifteen heaters. Not one worked well enough to stop them buying the next.",
+    "A storeroom containing a decade of decisions, all of them the same decision.",
+    "Every one of these was going to be the one that fixed it."
+   ],
+   "tone_note": "Runs Deadpan or Dry only. The Absurd and Dark lines are kept for internal review and never run to the trade."
+  },
+  {
+   "id": "C5",
+   "group": "commercial",
+   "title": "Four Hours a Week",
+   "market": "BOTH",
+   "axis": "ASSET",
+   "tags": [
+    "COMMERCIAL",
+    "CONSIDER",
+    "R-LO"
+   ],
+   "img": "C5_gas_bottles",
+   "caption": "Four hours a week. Moving gas bottles.",
+   "story": "A server in uniform wheels two heavy propane bottles across a wet courtyard in the rain at the start of a shift. And at the end. And the next day. Timestamped, repeating.",
+   "insight": "Portable gas heaters carry a labor cost as well as a purchase price, and trained hospitality staff are hard to find.",
+   "argument": "Every hour spent handling bottles is an hour off the floor. A fixed installation removes that recurring task, along with the manual handling that comes with it.",
+   "channels": "Trade press, LinkedIn, hospitality operations and WHS channels.",
+   "cta": "Talk to a commercial specialist.",
+   "format": ":15 · :30 · static",
+   "audience": "Operators, GMs, operations and WHS managers",
+   "production": "In Australia it also speaks to workplace health and safety, where manual handling is an active compliance topic. Keep it observational and never preachy.",
+   "kpi": "Commercial enquiry volume and rep conversations logged.",
+   "tones": [
+    "Four hours a week. Moving gas bottles.",
+    "Two hundred hours a year of trained hospitality staff, moving cylinders.",
+    "She has wheeled the same two bottles across the same courtyard four hundred times.",
+    "It’s in nobody’s job description and it’s somebody’s whole shift."
+   ],
+   "tone_note": "Runs Deadpan or Dry only. The Absurd and Dark lines are kept for internal review and never run to the trade."
+  }
+ ],
+ "audit": [
+  {
+   "id": "A01",
+   "severity": "high",
+   "area": "Competitor claim",
+   "where": "P05, B5",
+   "issue": "The deck said Film 05 dramatizes 'wind-resistant infrared, which the main US competitor cannot answer at all'. Infratech heaters are also infrared, nothing in product-facts.json supports a wind-resistance advantage, and Bromic's own guidance says only that radiant heat 'works in light wind'.",
+   "rule": "Hard rules 1 and 6: no invented claim; competitors factual, sourced and never disparaged",
+   "fix": "Rewritten around Tungsten Coastal (316 marine-grade build, corrosion-resistant coating) and radiant heat that holds up in a light sea breeze. No competitor is mentioned. The light-wind line rests on the Planning Guide 2021 principle (verified: false) and needs sign-off before it runs.",
+   "status": "open",
+   "owner": "Specification and compliance"
+  },
+  {
+   "id": "A02",
+   "severity": "high",
+   "area": "Invented figures",
+   "where": "receipts, scenes, P01–P04, B1, B2, B3, B6, B22, B24, B25, B32, trade B3, B5, C4, C5, argument pull quote",
+   "issue": "Every price in the deck is unsourced: the $80k backyard, $70k kitchen, $89 mushroom, $9,000 oven, $6,000 TV, $400k second home, $84k lounge, $41k kitchen, $11k sofa, $4,000 and $4,200 installed heating, $9,000 venue heating, $312,000 a year in covers, $23,346 over ten years, $400 rough-in against $6,000 retrofit.",
+   "rule": "Hard rules 1 and 2: never invent a price or statistic",
+   "fix": "Numbers kept as written, marked illustrative: true on every receipt and scene, and every intro says each figure must be replaced with verified local pricing before it runs. No new number added.",
+   "status": "open",
+   "owner": "Finance"
+  },
+  {
+   "id": "A03",
+   "severity": "high",
+   "area": "Bromic price",
+   "where": "R-The Backyard, S-yard, R-The Covers, R-Buying It Twice, S-terrace, S-covers, S-graveyard, argument",
+   "issue": "The heating line ($4,200 for a backyard, $9,000 for a venue, '$4,000 installed' in the deck prose) is presented as Bromic's price. bromic.com lists Tungsten Smart-Heat® Electric at $798–$1,246 and the Affinity Smart-Heat® Dimmer at $785–$3,399 (site data, verified: false); installed cost also depends on the electrician and the circuit.",
+   "rule": "Hard rule 3: product facts only from product-facts.json",
+   "fix": "Kept as illustrative. The $4,000 installed line was removed from the argument prose. Sales operations sets a defensible installed range per market before any receipt runs.",
+   "status": "open",
+   "owner": "Sales operations"
+  },
+  {
+   "id": "A04",
+   "severity": "high",
+   "area": "Trademark",
+   "where": "receipts_intro.legal, receipts",
+   "issue": "The Receipt borrows the cadence of Mastercard's 'Priceless' campaign, a registered and closely protected trademark.",
+   "rule": "Legal and IP: third-party trademark",
+   "fix": "The deck's warning is kept and rewritten: never the final word, the voiceover rhythm, the type treatment or the card. The word itself appears nowhere in reader-facing copy. Counsel must clear the final wording.",
+   "status": "open",
+   "owner": "Marketing"
+  },
+  {
+   "id": "A05",
+   "severity": "high",
+   "area": "Trademark",
+   "where": "B16",
+   "issue": "'Grand Designs' is the title of a TV program, used as a concept title and a format reference.",
+   "rule": "Legal and IP: program title and format",
+   "fix": "Renamed 'The Year After'; production note now calls for a generic home-build documentary with no title, format or presenter likeness, reviewed by counsel.",
+   "status": "fixed",
+   "owner": "Marketing"
+  },
+  {
+   "id": "A06",
+   "severity": "high",
+   "area": "Trademark",
+   "where": "P04, B14",
+   "issue": "'Super Bowl' (NFL) and 'Grand Final' (AFL and NRL in practice) are protected event names, used in titles and copy.",
+   "rule": "Legal and IP: event trademarks",
+   "fix": "Retitled 'The Big Game / Finals Day'; copy says the championship game in February and football finals day in September, and tells production to name neither event nor league.",
+   "status": "fixed",
+   "owner": "Marketing"
+  },
+  {
+   "id": "A07",
+   "severity": "high",
+   "area": "Controls rule",
+   "where": "P01–P06, sections.format",
+   "issue": "No film turn named a control. The turn showed a heater coming on with no Affinity Smart-Heat® control in shot or in copy.",
+   "rule": "Hard rule 4: every heater recommendation includes its controls",
+   "fix": "Every film now has a 'turn' naming the Bromic heater and its Affinity Smart-Heat® control, and a 'proof' carrying one truth from the Series II framework. The format's turn beat and the attribution rule now put the control in shot. App and voice features are described as needing compatible Affinity controls sold separately.",
+   "status": "fixed",
+   "owner": "Product team"
+  },
+  {
+   "id": "A08",
+   "severity": "high",
+   "area": "Imagery",
+   "where": "all img, img_cold, img_warm",
+   "issue": "The AI mood frames show generic linear heaters that depict no real Bromic product. The coastal turn frame (05b) hangs a bar heater from cables beyond the roof edge, a mounting no Bromic manual shows; the mushroom turn (01b) shows an unbranded bar in a concrete ceiling.",
+   "rule": "CLAUDE.md image rule: generated images show Bromic products only as they really are and as really installed",
+   "fix": "Films, scenes and the _readme now say the frames are direction only and show no Bromic product, and production films real Bromic heaters installed as the manuals specify. The frames must never be published or used as storyboards.",
+   "status": "open",
+   "owner": "Marketing"
+  },
+  {
+   "id": "A09",
+   "severity": "medium",
+   "area": "Launch status",
+   "where": "P05, P06, B5, tiers",
+   "issue": "Films feature Tungsten Coastal and Select. Hard rule 7 says both are 'Coming soon' until the Product team confirms launch; the Series II framework records Select and Coastal launched in October 2026.",
+   "rule": "Hard rule 7",
+   "fix": "Copy kept; the 'next' list asks the Product team to confirm status before any film features them. Update hard rule 7 or the copy, whichever is wrong.",
+   "status": "open",
+   "owner": "Product team"
+  },
+  {
+   "id": "A10",
+   "severity": "medium",
+   "area": "Tilt claim",
+   "where": "P04",
+   "issue": "A 45° tilt for every model was the obvious proof for the lounge film, but the manual says 30° for 4–6 kW (framework tilt_verify).",
+   "rule": "Hard rule 1",
+   "fix": "The proof says Tungsten 'angles to aim its warmth at the seating' with no angle given.",
+   "status": "fixed",
+   "owner": "Product team"
+  },
+  {
+   "id": "A11",
+   "severity": "medium",
+   "area": "Arithmetic",
+   "where": "R-The Covers, S-covers, C4, R-Buying It Twice, S-graveyard, C5, P03, B3",
+   "issue": "The figures do not reconcile. The Covers receipt labels '$312,000 / yr' as forty covers 'every night in February', while the scene prices forty covers at $3,120 a night. 'Buying back four hundred covers a month' does not match forty covers a night. The Heater Graveyard caption says ten thousand dollars while the receipt totals $23,346. The receipt counts fourteen heaters, the scene and C4 fifteen. $18,000 for ten years of four hours a week implies about $9 an hour. 'Five hours north' did not match 'eleven hundred miles', and US snowbirds drive south.",
+   "rule": "Hard rule 1; owner calculation model (templates/calculation-model.md)",
+   "fix": "Snowbird drive rewritten (no direction or hours). The rest kept as illustrative and listed here; Finance and Hospitality sales rebuild each receipt from one set of verified inputs so every line adds up.",
+   "status": "open",
+   "owner": "Hospitality sales"
+  },
+  {
+   "id": "A12",
+   "severity": "medium",
+   "area": "Hemisphere",
+   "where": "B8, B9, B12, B22, B26, B28, B29, R-The Backyard, R-The Covers, S-yard, S-terrace, S-covers",
+   "issue": "Month references are written for one hemisphere ('since March', 'after May', 'in October', 'only in February', 'every night in February / May') yet most items run in BOTH markets.",
+   "rule": "Accuracy across markets (regionalization rules)",
+   "fix": "Local notes now say 'flip the month by hemisphere' on B8, B22, B26, B28, B29 and B30. Receipt and scene lines still carry one month and need a US and an Australian version.",
+   "status": "open",
+   "owner": "Marketing"
+  },
+  {
+   "id": "A13",
+   "severity": "medium",
+   "area": "Unsupported claims",
+   "where": "intro, B2, B9, B22, B23, B25, trade B2, B3, B4, B6, C3, C4, C5",
+   "issue": "The deck states opinions as facts: 'highest recognition scores … in informal testing', 'best single concept', 'most shareable asset', 'a segment heater marketing ignores entirely', 'humour is the only unclaimed territory', 'hospitality labour is the industry's scarcest resource', 'retrofit is the single most expensive way', 'builders live almost entirely on word of mouth', 'nobody has ever marketed against'.",
+   "rule": "Hard rules 1 and 2: no unsourced statistic or claim",
+   "fix": "Each softened to the agency's view or a plain observation ('many', 'few', 'the agency sees it as'). The unclaimed-humor point stays as the agency's view until the ad-library comparison confirms it.",
+   "status": "open",
+   "owner": "Marketing"
+  },
+  {
+   "id": "A14",
+   "severity": "medium",
+   "area": "Measurement",
+   "where": "measurement, tiers",
+   "issue": "'CTV, which this demo over-indexes on', the 60/40 brand-to-activation split, 'the only credible ROI evidence' and the '0.4% CTR in week three' example were presented as facts.",
+   "rule": "Hard rules 1 and 9: no unsourced figure",
+   "fix": "Marked as agency recommendations for Digital marketing and Leadership to set; the CTR example number was removed; the connected-TV point is to be confirmed with platform data.",
+   "status": "open",
+   "owner": "Digital marketing"
+  },
+  {
+   "id": "A15",
+   "severity": "medium",
+   "area": "Code content",
+   "where": "R-The Rough-In, trade B3, trade B1",
+   "issue": "The rough-in receipt and The Change Order promote pre-wiring and a rough-in guide, which is code and permit content, with no disclaimer or primary source.",
+   "rule": "Hard rule 8: local-authority and licensed-electrician disclaimer, linked primary source",
+   "fix": "Production notes now require the disclaimer and exact electrical detail. Specification and compliance checks the guide; the CTA should point to the existing pre-wire article (BLD-IN-01).",
+   "status": "open",
+   "owner": "Specification and compliance"
+  },
+  {
+   "id": "A16",
+   "severity": "medium",
+   "area": "Retailer names",
+   "where": "P01, B1",
+   "issue": "Bunnings and Home Depot were named as the source of the mushroom heater.",
+   "rule": "Brand and legal: never name a retailer in ad copy; no disparagement",
+   "fix": "Replaced with 'a big-box hardware-store heater'; production notes say never name the retailer.",
+   "status": "fixed",
+   "owner": "Marketing"
+  },
+  {
+   "id": "A17",
+   "severity": "medium",
+   "area": "Program and site names",
+   "where": "B4, B9",
+   "issue": "The Block, HGTV and Property Brothers (B4) and Zillow and realestate.com.au (B9) were named in story and localization notes.",
+   "rule": "Legal and IP: third-party brands and shows",
+   "fix": "Removed. B4 is 'The Renovation Show Reveal', generic, with counsel review; B9 says 'the online listing photo' and 'the Saturday open home'.",
+   "status": "fixed",
+   "owner": "Marketing"
+  },
+  {
+   "id": "A18",
+   "severity": "medium",
+   "area": "Film references",
+   "where": "sections.filter, sections.red_team",
+   "issue": "The deck's seed 'don't sleep inside a horse' and its 'Don't Do It, Gary' film lean on a well-known film scene (The Revenant) and raise animal-welfare concerns. The Gary film is named in the deck's red team but is not in the concept bank.",
+   "rule": "Legal and IP; animal welfare",
+   "fix": "Removed from the filter and red team. The IP risk row now covers all film, TV, event and campaign references and bans any animal shown in distress. Gary survives only as the fictional negotiator's colleague in B21.",
+   "status": "fixed",
+   "owner": "Marketing"
+  },
+  {
+   "id": "A19",
+   "severity": "medium",
+   "area": "Trade register",
+   "where": "trade, P06, B16, B17",
+   "issue": "Trade concepts carry Absurd and Dark tone lines, though the deck itself says the trade tier runs Deadpan or Dry only.",
+   "rule": "Campaign rule (trade tier register)",
+   "fix": "Every trade item, P06, B16 and B17 now carries a tone_note: Deadpan or Dry only; Absurd and Dark lines are for internal review and never run.",
+   "status": "fixed",
+   "owner": "Trade sales"
+  },
+  {
+   "id": "A20",
+   "severity": "medium",
+   "area": "Voice",
+   "where": "all text fields",
+   "issue": "The deck's copy used long dashes on at least 79 lines of the source data, 'not X, but Y' and 'X, not Y' antitheses ('Capacity, not comfort', 'Revenue certainty, not comfort', 'not a product decision, they are a labour decision', 'Measure fame, not clicks', 'Specify the season. Not just the space.'), triplets for rhythm, colon openers and agency jargon (fame, activation, asset, KPI, chips, victim).",
+   "rule": "templates/bromic-voice.md (binding)",
+   "fix": "Prose rewritten in the Bromic voice: you and we, the moment before the proof, headings as invitations with every word capitalized, en dashes only in time ranges, no exclamation marks. Captions keep their comedy; antithesis captions rewritten (P06 and B17 now read 'The space is specified. Now specify the season.'; B25 'Your gym membership is the second most expensive thing you own and don't use.'). Tag codes are explained in tag_key. Some tone lines keep a list because the list is the joke.",
+   "status": "fixed",
+   "owner": "Marketing"
+  },
+  {
+   "id": "A21",
+   "severity": "low",
+   "area": "Fictional cast",
+   "where": "P03, B13, B21, B22, B27",
+   "issue": "The Wilsons, the Petersons, Gary, Dave and Rusty the dog are named characters.",
+   "rule": "CLAUDE.md: no real people's names",
+   "fix": "All are fictional, and B21 and B27 now say so. Casting and names must not resemble a real person, and the support-group and hostage formats stay generic.",
+   "status": "fixed",
+   "owner": "Marketing"
+  },
+  {
+   "id": "A22",
+   "severity": "low",
+   "area": "Sensitive imagery",
+   "where": "B7, B30, B19",
+   "issue": "'Lit like a war memorial' and 'like a soldier home from war' trade on war imagery; B19 (children left outside) can read as mean.",
+   "rule": "Brand tone",
+   "fix": "Softened to 'lit like a memorial' and 'like a relative home at last'. B19 stays R-HI and must be tested before it is committed.",
+   "status": "fixed",
+   "owner": "Marketing"
+  },
+  {
+   "id": "A23",
+   "severity": "low",
+   "area": "Concept title",
+   "where": "trade B6",
+   "issue": "'The LinkedIn Post' used a platform's name as a concept title.",
+   "rule": "Legal and IP: third-party brand",
+   "fix": "Renamed 'The Completion Post'; LinkedIn stays only as a media channel in planning fields.",
+   "status": "fixed",
+   "owner": "Marketing"
+  },
+  {
+   "id": "A24",
+   "severity": "low",
+   "area": "Units and spelling",
+   "where": "P01, B8, B13, all",
+   "issue": "'One-metre radius' in a US film, °C left in the US group chat, 78 degrees left in the Australian Labor Day twin, and UK spellings (humour, labour, civilisation, recognisable, remodelling, synchronisation).",
+   "rule": "US spelling on US pages; regionalization rules",
+   "fix": "Radius removed; B8 reads forty-eight (°F) in the US; B13 reads twenty-six (°C) in Australia (a conversion of the deck's 78 °F); US spelling throughout.",
+   "status": "fixed",
+   "owner": "Marketing"
+  },
+  {
+   "id": "A25",
+   "severity": "low",
+   "area": "Punctuation",
+   "where": "B8, B26, receipts",
+   "issue": "An exclamation mark after 'Yes' in the group chat, a trailing long dash on the missing-persons poster, and a dollar sign followed by a long dash as a receipt total.",
+   "rule": "templates/bromic-voice.md: no exclamation marks, no long dash",
+   "fix": "Now 'Yes.', an ellipsis and 'Uncounted'. The thumbs-up emoji stays in the chat caption because it is part of the joke.",
+   "status": "fixed",
+   "owner": "Marketing"
+  },
+  {
+   "id": "A26",
+   "severity": "low",
+   "area": "Counts",
+   "where": "concepts_intro",
+   "issue": "The deck says five twins and two US-native concepts; the bank holds six TWIN items and one US-native item.",
+   "rule": "Accuracy",
+   "fix": "The intro now states the counts from the data.",
+   "status": "fixed",
+   "owner": "Marketing"
+  },
+  {
+   "id": "A27",
+   "severity": "low",
+   "area": "Data",
+   "where": "trade",
+   "issue": "Trade builder ids B1–B7 collide with concept ids B1–B7.",
+   "rule": "Hub data integrity",
+   "fix": "Ids kept as supplied. The Campaigns tab must key trade items by group and id, or the ids move to a T- prefix in a later pass.",
+   "status": "open",
+   "owner": "Digital marketing"
+  },
+  {
+   "id": "A28",
+   "severity": "low",
+   "area": "Calls to action",
+   "where": "trade, receipts",
+   "issue": "Each item has one CTA, but none is mapped to a Hub asset.",
+   "rule": "Hard rule 5: one CTA, mapped to the next-stage asset",
+   "fix": "Suggested mapping: rough-in guide to BLD-IN-01; spec kit to ARC-BY-01 and ARC-IN-01; payback calculation to the A21 ROI tool and COM-IN-01; ten-year cost comparison to the A20 TCO tool; venue specification guide to COM-PP-01. 'Price your own backyard' has no matching tool yet.",
+   "status": "open",
+   "owner": "Digital marketing"
+  },
+  {
+   "id": "A29",
+   "severity": "low",
+   "area": "Trade message",
+   "where": "tiers",
+   "issue": "Tier 2's message promised 'wind performance' and 'CEU'. No Bromic wind claim is verified, and no Bromic CEU course is on file. The Series II warranty (3 years, framework warranty_note) differs from current Tungsten (2 years heater, 7 years elements).",
+   "rule": "Hard rules 1 and 3",
+   "fix": "Wind performance removed. CEU and warranty kept as words with no number; Marketing confirms the CEU course and the Product team the warranty before the trade message runs.",
+   "status": "open",
+   "owner": "Product team"
+  },
+  {
+   "id": "A30",
+   "severity": "low",
+   "area": "Controls on trade items",
+   "where": "trade C1–C5, receipts",
+   "issue": "Commercial pieces argue for permanent heaters over portable gas but name no heater or control for their turn.",
+   "rule": "Hard rule 4",
+   "fix": "Open: each trade piece, when briefed, names its heater and its Affinity Smart-Heat® control (for gas, the Affinity Smart-Heat® On/Off Controller).",
+   "status": "open",
+   "owner": "Hospitality sales"
+  },
+  {
+   "id": "A31",
+   "severity": "low",
+   "area": "Approvals",
+   "where": "needs_approval",
+   "issue": "needs_approval named 'Brand marketing', which is not a team in data/team-roles.json.",
+   "rule": "CLAUDE.md: name teams from team-roles.json",
+   "fix": "Now 'Marketing; legal counsel before production'.",
+   "status": "fixed",
+   "owner": "Marketing"
+  },
+  {
+   "id": "A32",
+   "severity": "low",
+   "area": "Competitor ads",
+   "where": "next",
+   "issue": "The deck asks for Infratech and Heatscope ads pulled from the Meta Ad Library for a 'same ad, different logo' wall.",
+   "rule": "Hard rules 6 and 9: no competitor in copy; no reproduction of third-party material",
+   "fix": "The next step now describes a comparison wall of current category ads for the client meeting only, never published, with no competitor named on the page.",
+   "status": "fixed",
+   "owner": "Marketing"
+  }
+ ],
+ "voice_examples": [
+  {
+   "was": "Specify the season. Not just the space.",
+   "now": "The space is specified. Now specify the season."
+  },
+  {
+   "was": "The only concept that dramatises Bromic's actual technical differentiator – wind-resistant infrared, which the main US competitor cannot answer at all.",
+   "now": "The film that carries Tungsten Coastal. It is built for life by the water, and radiant heat warms people and surfaces directly, so it holds up in a light sea breeze where warmed air simply drifts away."
+  },
+  {
+   "was": "Capacity, not comfort. Forty covers times average spend times the nights you cannot currently sell them.",
+   "now": "Heating the terrace adds capacity. Forty covers, times average spend, times the nights you cannot sell them today, and the payback fits on one slide."
+  },
+  {
+   "was": "Best single concept in the bank – it does the price reframe and the gag in one frame. Bunnings in AUS, Home Depot in US.",
+   "now": "Our lead recommendation, because one frame carries both the joke and the price argument. A big-box hardware-store mushroom heater reads instantly in both markets, so the retailer never needs naming."
+  },
+  {
+   "was": "Measure fame, not clicks",
+   "now": "Measure Whether People Remember Bromic"
+  },
+  {
+   "was": "The most expensive thing you own and don't use isn't your gym membership.",
+   "now": "Your gym membership is the second most expensive thing you own and don't use."
+  },
+  {
+   "was": "Portable heaters are not a product decision, they are a labour decision – and hospitality labour is the industry's scarcest resource.",
+   "now": "Portable gas heaters carry a labor cost as well as a purchase price, and trained hospitality staff are hard to find."
+  },
+  {
+   "was": "What a promise cannot do on its own is create urgency… So the campaign supplies the other half: not a new promise, an argument underneath the one that already works.",
+   "now": "A promise on its own rarely creates urgency. … So the campaign adds an argument beneath the promise."
+  },
+  {
+   "was": "Click-on audio mnemonic + amber bloom.",
+   "now": "The heater comes on with the Bromic sound cue and a warm amber glow, and the Affinity Smart-Heat® control that turns it on is in shot."
+  },
+  {
+   "was": "Grand Designs – The Year After",
+   "now": "The Year After"
+  },
+  {
+   "was": "He isn't maintaining it. He's visiting it.",
+   "now": "He visits it on weekends, like a relative."
+  },
+  {
+   "was": "Highest recognition scores of anything in the bank in informal testing conversations.",
+   "now": "The agency reports strong recognition in informal conversations; treat that as a hunch until it is tested."
+  }
+ ]
+}
