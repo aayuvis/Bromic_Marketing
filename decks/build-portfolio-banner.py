@@ -3,11 +3,11 @@ import numpy as np, glob
 R='/home/user/Bromic_Marketing/images/_raw/'
 H=800; BL=110; TOP=200
 P=[ # file, crop box in source px (x0,y0,x1,y1)
- ('closeups2/w-bromic-eclipse-pendant-light', (380,180,1600,1067)),
- ('closeups2/w-kion-sui-madrid-spain-tungsten-electric-4', (150,180,2150,1600)),
- ('closeups2/w-dsc05545-courtney-saib', (150,180,2560,1650)),
- ('closeups2/w-commercial-australia-brisbane-kedron-wavell-', (60,140,899,980)),
  ('closeups/ep-disc', (640,0,2440,1080)),
+ ('owner/tungsten-fs-gas-dusk', (130,0,1360,1067)),
+ ('closeups2/w-p1020691-denoiseai-clear', (250,0,2560,1707)),
+ ('closeups2/w-commercial-australia-brisbane-kedron-wavell-', (60,140,899,980)),
+ ('owner/tungsten-ii-dusk', (0,0,894,807)),
 ]
 tiles=[]
 for f,b in P:
