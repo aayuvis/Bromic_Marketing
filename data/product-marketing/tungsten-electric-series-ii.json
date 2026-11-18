@@ -220,7 +220,7 @@
    },
    "aesthetics": {
     "w": 3,
-    "claim": "About 14% slimmer than before, floating on a single post with no visible junction box, in black, white or graphite."
+    "claim": "About 14% slimmer, all black, all white or all graphite, floating on a single post with no visible junction box: beautiful against a timber ceiling."
    },
    "design_flex": {
     "w": 2,
@@ -452,7 +452,7 @@
    },
    "aesthetics": {
     "w": 3,
-    "claim": "A 183 × 140 mm section, about 23% smaller than Series I, on a single post with no visible junction box."
+    "claim": "A full-body black, white or graphite finish and a 183 × 140 mm section, about 23% smaller than Series I, on a single post with no visible junction box."
    },
    "design_flex": {
     "w": 3,
@@ -510,7 +510,7 @@
    },
    "aesthetics": {
     "w": 3,
-    "claim": "A section about 23% smaller than Series I, three colours, three fascias, floating on a single post with no junction box in sight."
+    "claim": "All black, all white or all graphite, a 23% smaller section and a Diamond, oval or star fascia, floating on a single post: made to sit against timber ceilings."
    },
    "design_flex": {
     "w": 3,
@@ -652,9 +652,9 @@
   "rows": [
    {
     "benefit": "heat",
-    "edge": "unknown",
+    "edge": "parity",
     "infratech": "1.5 to 6 kW in single and dual element models; the manual gives about 11 ft × 11 ft average coverage for the 6,000 W dual-element model at 8–12 ft.",
-    "bromic": "Up to 6 kW from dual elements on the 4 and 6 kW models, dimmable with the Affinity Smart-Heat® Dimmer. [[VERIFY: Series II coverage and a like-for-like test against Infratech — Product team]]",
+    "bromic": "Parity in output: 2 to 6 kW, with dual elements on the 4 and 6 kW models dimmable through the Affinity Smart-Heat® Dimmer. Compete on how the heat is controlled and installed, not on wattage.",
     "users": {
      "RES": {
       "w": 3,
@@ -749,7 +749,7 @@
    {
     "benefit": "recess",
     "edge": "bromic",
-    "infratech": "Infratech WD-6024 (6,000 W) recesses in its W-61 flush frame: minimum 2×8 framing (about 7.25 in), the pocket lined and sealed on 5 sides with 5/8 in Type X drywall, flat ceilings only, junction box outside the pocket, no fans; \"After 4 hours of continuous use, a 15 minute cool down period is recommended\". Lynx LEH61 and Eurofase EF60 (6,000 W) need the same 2×8, fire-rated five-sided pocket; Solaira ICR H3 needs a contractor-supplied fire-rated enclosure at least 9.25 in deep.",
+    "infratech": "W/WD models flush-mount in a framed pocket: minimum 2×8 framing, lined and sealed on five sides with 5/8 in Type X drywall, flat ceilings only, junction box outside the pocket, no fans; a 15-minute cool-down is recommended after 4 hours of continuous use. No low-clearance kit; Motif fascias cannot be recessed.",
     "bromic": "Tungsten Series II is the only 6 kW recessed outdoor heater with a dual fan-ventilated, low-clearance recess kit and no site-built fire-rated box: dual fan-ventilated, a 7.5 in cavity, a marine-grade version for Coastal. It is not the shallowest: lead with the venting and the box-free install, never with \"only\" or depth alone. [[VERIFY: that the low-clearance kit needs no fire-rated lining or enclosure under its listing, and that 7.5 in is the cavity depth — Product team; competitor check signed off — Specification and compliance]]",
     "users": {
      "RES": {
@@ -781,96 +781,96 @@
    {
     "benefit": "safety",
     "edge": "bromic",
-    "infratech": "UL/cUL/CE; IPX4; the flush-frame drawing recommends a 15-minute cool-down after 4 hours of continuous use and points to timer options.",
-    "bromic": "Vented low-clearance recessing; no flame or fumes; app timers and schedules through Affinity Smart-Heat® Controls. [[VERIFY: Series II listings, IP rating and continuous-use guidance — Product team]]",
+    "infratech": "Flush-frame drawing: \"After 4 hours of continuous use, a 15 minute cool down period is recommended for maximum heater longevity. See controls brochure for timer options.\" App control needs Bond smart switches bundled with a separate Universal Control Panel.",
+    "bromic": "The low-clearance recess kit is dual fan-ventilated for extended evenings of use; the Bromic app switches heaters off remotely, runs timers and sets a night-time shut-off from anywhere. [[VERIFY: low-clearance kit rated for continuous use, with no cool-down guidance — Product team]]",
     "users": {
      "RES": {
       "w": 3,
-      "claim": "Peace of mind all evening: vented recessing and app timers that switch the heat off for you."
+      "claim": "Enjoy the whole evening: the recess is dual fan-ventilated, and the app can switch the heat off from anywhere or at a set time each night."
      },
      "BLD": {
       "w": 2,
-      "claim": "A vented recess and timers buyers can set from their phone."
+      "claim": "Peace of mind buyers can see: dual fan-ventilated recessing, app timers and remote shut-off."
      },
      "INS": {
       "w": 2,
-      "claim": "Ventilated by design, with clear mounting heights for a first-time pass."
+      "claim": "Dual fan-ventilated recess for extended use; set timers and a nightly shut-off in the app at handover."
      },
      "COM": {
       "w": 3,
-      "claim": "Heat through the whole service, with timers keeping it to opening hours."
+      "claim": "Heat through the whole service with no cool-down break, and a scheduled shut-off at close."
      },
      "ARC": {
       "w": 2,
-      "claim": "Vented recessing written into the specification."
+      "claim": "Specify a dual fan-ventilated recess for extended use, with timer and remote shut-off through Affinity controls."
      },
      "DES": {
       "w": 1,
-      "claim": "Warmth that sits safely in the ceiling all evening."
+      "claim": "Warmth that stays on all evening and switches itself off at night."
      }
     }
    },
    {
     "benefit": "aesthetics",
-    "edge": "parity",
-    "infratech": "Bodies about 8.2 in wide and 2.5 in deep (retail listings); the junction box sits on top of the heater, with a gasketed access cover (C-Series manual).",
-    "bromic": "On a single post the heater appears to float, with no visible junction box (Infratech's junction box sits on top of the heater); slimmer than Series I at about 7.2 in wide. [[VERIFY: Series II depth measured the same way as Infratech's 2.5 in body — Product team]]",
+    "edge": "bromic",
+    "infratech": "In every colour option the colour sits on the end caps, while the polished stainless reflector and open wire guard stay the same (Infratech colour images, C/CD Series); the junction box sits on top of the heater.",
+    "bromic": "Fully monochrome finishes: all black, all white or all graphite, which sit naturally against timber ceilings; a Diamond, oval or star fascia over the elements; about 14% slimmer than Series I; floats on a single post with no visible junction box.",
     "users": {
      "RES": {
       "w": 3,
-      "claim": "It appears to float on a single post, with no junction box in sight."
+      "claim": "All black, all white or all graphite: the whole heater in one finish, beautiful against a timber ceiling."
      },
      "BLD": {
       "w": 2,
-      "claim": "A cleaner look on the model-home patio: one post, no visible box."
+      "claim": "Monochrome heaters that disappear into timber soffits on the model home."
      },
      "INS": {
       "w": 1,
-      "claim": "No junction box to hide: a neater finish on every install."
+      "claim": "One finish from end to end, a single post and no junction box to hide."
      },
      "COM": {
       "w": 2,
-      "claim": "A clean, floating line that suits the venue."
+      "claim": "A single-colour heater that matches the venue's ceiling, not a stainless bar with coloured ends."
      },
      "ARC": {
       "w": 3,
-      "claim": "A floating single-post detail with no visible junction box."
+      "claim": "Specify a fully monochrome heater, black, white or graphite, with a patterned fascia and a 23% smaller section."
      },
      "DES": {
       "w": 3,
-      "claim": "One slim post, no box: the heater reads as part of the design."
+      "claim": "All black, all white or all graphite, with a Diamond, oval or star fascia: designed to sit within timber and plaster ceilings."
      }
     }
    },
    {
     "benefit": "design_flex",
-    "edge": "parity",
-    "infratech": "Brushed stainless, 8 standard colours and custom colours; four Motif fascia patterns, on C/CD surface-mount models only.",
-    "bromic": "Black, white and graphite; Diamond Pattern standard with oval and star options on Select. [[VERIFY: whether Tungsten fascias can be used recessed — Product team]]",
+    "edge": "bromic",
+    "infratech": "Brushed stainless or eight end-cap colours plus custom; Motif decorative fascias fit C/CD surface-mount models only and cannot be used flush.",
+    "bromic": "Three full-body finishes (black, white, graphite) and three fascias (Diamond standard, oval and star) across ceiling, wall, post and recessed installs. [[VERIFY: fascias available on recessed installs — Product team]]",
     "users": {
      "RES": {
       "w": 2,
-      "claim": "Choose the fascia and colour that suit your home, and change the look later."
+      "claim": "Choose the finish for the whole heater and the pattern of its fascia, and change the fascia later."
      },
      "BLD": {
       "w": 2,
-      "claim": "Three colours and three fascias cover most model-home palettes."
+      "claim": "Three finishes and three fascias to suit every elevation."
      },
      "INS": {
       "w": 1,
-      "claim": "Fascia changes without re-wiring or re-mounting."
+      "claim": "Swap fascias without re-wiring or re-mounting."
      },
      "COM": {
       "w": 2,
-      "claim": "Coordinate finishes across a venue from one family."
+      "claim": "Coordinate finish and fascia with each space of the venue."
      },
      "ARC": {
       "w": 3,
-      "claim": "If fascias work recessed, Tungsten offers patterned heaters flush in the ceiling."
+      "claim": "Patterned fascias specified across mounting conditions, including recessed."
      },
      "DES": {
       "w": 3,
-      "claim": "Patterns that can work flush in the ceiling, where Motif cannot."
+      "claim": "Finish and pattern chosen together, for a heater that reads as part of the design."
      }
     }
    },
@@ -941,32 +941,32 @@
    {
     "benefit": "multi_area",
     "edge": "bromic",
-    "infratech": "Electric infrared heaters in surface, flush and pole formats, with zone panels. [[VERIFY: Infratech freestanding and gas offer — Specification and compliance]]",
-    "bromic": "Five solutions for five settings (Tungsten Classic, Tungsten Select, Platinum, Tungsten Freestanding Gas, Eclipse Freestanding), controlled from the Bromic app. [[VERIFY: app control for the freestanding heaters — Product team]]",
+    "infratech": "Fixed-mount electric infrared heaters only (C/CD, W/WD, SL, Motif fascias and a garage heater); no freestanding, gas or pendant heaters on infratech.com.",
+    "bromic": "A portfolio for every use: electric heaters for ceilings, walls, posts and recesses (Tungsten Classic, Select and Coastal; Platinum), the Eclipse pendant with heat and light, Eclipse Freestanding electric, built-in gas heaters, and Tungsten Freestanding Gas, controlled through the Bromic app where Affinity-compatible. [[VERIFY: app control for the freestanding heaters — Product team]]",
     "users": {
      "RES": {
       "w": 2,
-      "claim": "Every outdoor room, from garage to lounge, warmed by one brand and one app."
+      "claim": "Garage, pergola, California room, open terrace and lounge: a Bromic heater designed for each, electric or gas, mounted or freestanding."
      },
      "BLD": {
       "w": 2,
-      "claim": "A Bromic solution for every space on the plan."
+      "claim": "Every outdoor space on the plan from one brand: mounted, recessed, pendant, freestanding, electric and gas."
      },
      "INS": {
       "w": 2,
-      "claim": "One manufacturer for every heater on the job."
+      "claim": "One manufacturer for electric and gas, mounted and freestanding, on every job."
      },
      "COM": {
       "w": 3,
-      "claim": "Electric, gas and freestanding from one supplier, one app."
+      "claim": "Mounted heat for canopies, freestanding warmth for open terraces, gas where there is no power: one supplier."
      },
      "ARC": {
       "w": 2,
-      "claim": "One family across every condition, wall to open terrace."
+      "claim": "One specification family across every condition, from recessed soffits to open terraces with no wall or ceiling."
      },
      "DES": {
       "w": 2,
-      "claim": "A heater designed for each room, in one design language."
+      "claim": "A heater designed for each room, from the Eclipse pendant to freestanding warmth by the sofa."
      }
     }
    },
@@ -1292,6 +1292,14 @@
    "year": 2026,
    "url": "https://argo.webstaurantstore.com/documents/pdf/diagram/icr_trimkit_specification_a.pdf",
    "verified": true
+  },
+  {
+   "id": "i14",
+   "publisher": "Infratech",
+   "title": "C/CD Series colour options (colour images: colour on end caps, stainless reflector and wire guard in every finish); product range menu",
+   "year": 2026,
+   "url": "https://www.infratech.com/heaters/cd-series/",
+   "verified": true
   }
  ],
  "pillars": [
@@ -1335,7 +1343,7 @@
   {
    "id": "p3",
    "title": "Safe, Dual Fan-Ventilated 6 kW Recessing",
-   "line": "Tungsten Series II is the only 6 kW recessed outdoor heater with a dual fan-ventilated, low-clearance recess kit: it sits flush in a 7.5 in ceiling cavity with no site-built fire-rated box, and runs all evening, with app timers for complete peace of mind.",
+   "line": "Tungsten Series II is the only 6 kW recessed outdoor heater with a dual fan-ventilated, low-clearance recess kit: built for extended evenings of use in a 7.5 in ceiling cavity, with no site-built fire-rated box, and the Bromic app switches it off remotely, on a timer or at a set time each night.",
    "proof": [
     "The only 6 kW recess kit found that is dual fan-ventilated and needs no site-built fire-rated box",
     "Dual fan-ventilated",
@@ -1392,11 +1400,12 @@
   },
   {
    "id": "p6",
-   "title": "Your Colour, Your Pattern",
-   "line": "Black, white or graphite, with Diamond, oval and star fascias: Tungsten becomes part of the design.",
+   "title": "All Black, All White, All Graphite",
+   "line": "Each finish covers the whole heater, so Tungsten sits beautifully against timber and plaster ceilings, with a Diamond, oval or star fascia over the elements.",
    "proof": [
-    "3 colours",
-    "3 fascias (Diamond standard; oval and star sold separately)"
+    "Full-body finishes: black, white, graphite (graphite on 4 and 6 kW)",
+    "3 fascias: Diamond standard, oval and star sold separately",
+    "Made to sit against timber ceilings"
    ],
    "benefits": [
     "aesthetics",
@@ -1427,7 +1436,7 @@
   {
    "id": "p7",
    "title": "One Family For Every Outdoor Room",
-   "line": "The right Bromic heater for every part of the home, from the garage to the pergola, the California room, the open terrace and the lounge, all controlled from the Bromic app.",
+   "line": "The right Bromic heater for every use: electric on ceilings, walls, posts and recesses; the Eclipse pendant; Eclipse Freestanding electric; built-in gas; and Tungsten Freestanding Gas, with Affinity-controlled heaters on the Bromic app.",
    "proof": [
     "Garage: Tungsten Classic",
     "Pergola: Tungsten Select",
