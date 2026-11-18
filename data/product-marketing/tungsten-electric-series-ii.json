@@ -1655,13 +1655,15 @@
    "name": "Good, Better, Best For Your Options Sheet",
    "objective": "Consideration and leads with builders",
    "format": "Static 4:5 or carousel",
-   "hook": "Three heaters on a clean options sheet, with prices.",
-   "headline": "Three Price Points. One Family.",
-   "primary_text": "Classic from $643, Select from $923, Coastal from $1,195 list: a ready options sheet for every plan.",
+   "hook": "Three heaters on a clean options sheet, side by side.",
+   "headline": "Three Tiers. One Family.",
+   "primary_text": "Classic, Select and Coastal: a ready options sheet for every plan, each a step up in design and performance.",
    "cta": "Get Quote",
-   "visual": "Options-sheet layout with the three renders and their key line; partner pricing call-out.",
+   "visual": "Options-sheet layout with the three renders and the one line each tier wins on; partner pricing mentioned as a benefit, never as a figure.",
    "claims": [
-    "Classic $643–$921, Select $923–$1,170, Coastal $1,195–$1,321 list"
+    "Classic wins on style and value",
+    "Select wins on style, performance and recessing",
+    "Coastal adds 316 marine-grade stainless with a protective coating"
    ],
    "images": [
     "t2-classic",
@@ -1669,7 +1671,7 @@
     "t2-low-clearance-recess"
    ],
    "mandatory": [
-    "[[VERIFY: launch list prices by model and region — Sales operations]]"
+    "No prices in the ad (owner, 18 Nov 2026)"
    ],
    "kpi": "Lead form submissions from builders"
   },
@@ -1711,7 +1713,7 @@
     "6 kW recessed in a 7.5 in cavity, dual fan-ventilated, no site-built box",
     "Pitched ceilings 3/12–12/12; presets 15°, 30°, 45°",
     "One post, not two; no visible junction box",
-    "Good, Better, Best list prices"
+    "Good, Better, Best tiers"
    ],
    "brief": "One page, two sides: the three tiers on the front, mounting conditions and specs on the back.",
    "owner": "Marketing"
