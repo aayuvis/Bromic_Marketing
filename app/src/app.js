@@ -1063,11 +1063,8 @@
   const TONE_NAMES = ['Deadpan', 'Dry', 'Absurd', 'Dark'];
   function portfolioStrip() {
     const P = HUB.portfolio || []; if (!P.length) return '';
-    const card = (p, dup) => `<figure class="pf-card"${dup ? ' aria-hidden="true"' : ''}><img src="${esc(p.img)}" alt="${dup ? '' : esc(p.name)}" loading="lazy"><figcaption><span class="label">${esc(p.collection)}</span><b>${esc(p.name)}</b><small>${esc(p.line)}</small></figcaption></figure>`;
-    return `<section class="pf" aria-label="The Bromic portfolio"><div class="pf-h"><span class="label">The Bromic portfolio</span><h2>Heat For Every Outdoor Space</h2>
-      <div class="pf-nav"><button type="button" data-pf="-1" aria-label="Previous">‹</button><button type="button" data-pf="1" aria-label="Next">›</button></div></div>
-      <div class="pf-view" tabindex="0"><div class="pf-track">${P.map((p) => card(p)).join('')}${P.map((p) => card(p, true)).join('')}</div></div>
-      <p class="muted pf-src">Close-ups cropped from Bromic's own photography and product renders.</p></section>`;
+    return `<section class="pf" aria-label="The Bromic portfolio"><a href="images/portfolio/portfolio-banner.jpg" target="_blank" rel="noopener"><img class="pf-banner" src="images/portfolio/portfolio-banner.webp" alt="The Bromic portfolio: ${esc(P.map((p) => p.name).join(', '))}" loading="lazy"></a>
+      <p class="muted pf-src">Close-ups cropped from Bromic's own photography and product renders. <a href="images/portfolio/portfolio-banner.jpg" download>Download the banner</a> (3000 × 1016).</p></section>`;
   }
   function campaignsPage(id) {
     const all = HUB.campaigns || [];
@@ -1188,7 +1185,6 @@
 
   document.addEventListener('click', (e) => {
     const pt = e.target.closest('[data-pmtab]'); if (pt) { pmTab = pt.dataset.pmtab; route.keepScroll = true; route(); return; }
-    const pfb = e.target.closest('[data-pf]'); if (pfb) { const v = document.querySelector('.pf-view'); if (v) { v.classList.add('manual'); v.scrollBy({ left: +pfb.dataset.pf * (v.querySelector('.pf-card')?.offsetWidth + 16 || 320), behavior: 'smooth' }); } return; }
     const ct = e.target.closest('[data-cmtab]'); if (ct) { cmTab = ct.dataset.cmtab; route.keepScroll = true; route(); return; }
     const cw = e.target.closest('[data-cmwarm]'); if (cw) { const k = cw.dataset.cmwarm; cmWarm.has(k) ? cmWarm.delete(k) : cmWarm.add(k); route.keepScroll = true; route(); return; }
     const cto = e.target.closest('[data-cmtone]'); if (cto) { const [k, i] = cto.dataset.cmtone.split('|'); cmTone[k] = +i; route.keepScroll = true; route(); return; }
