@@ -63,7 +63,15 @@ lines, KPI). `app/test/pm.mjs` holds every buyer × benefit filled. Series II re
 (Bodoni MT headlines as the Office-safe Didot, Arial body, white, ink, flame accent), built by `decks/build-tungsten-series-ii.js`
 (pptxgenjs) from the framework JSON: benefit fields and claims (audience page, 12 fields, one page per field with weights, Series I and
 Infratech), marketing (messages, portfolio, assets, Instagram ads), product training (six modules and a knowledge check) and launch emails
-(architects, builders and installers, dealers, designers). Rebuild it whenever the framework changes; the Hub links it from Product marketing.
+(architects, builders and installers, dealers, designers). Rebuild it whenever the framework changes; the Hub links it from Product marketing. v2 (owner, 18 Nov 2026): benefit fields in
+priority order (recess, heat, aesthetics, controls, install flexibility, safety, design flexibility, multiple areas, warranty, ease of
+install, then the two proposed); a Lucide icon per field and audience; images cropped to their frames with sharp, never stretched;
+Tungsten images on the cover, contents and dividers; every model including 6 kW tilts to 45° (the manual says 30° for 4–6 kW:
+`tilt_verify`); **3-year warranty** on Series II (`warranty_note`); a CAD-style recess airflow animation in the assets; crisp emails
+with bold leads; the last slide sets clear asks for product and channel management and for brand marketing, by role (owner: roles
+only in the repo; a named copy is kept outside it). v3: two four-frame Instagram storyboards (homeowners, specifiers; frames made with
+an image model from Series II references, labelled not for publication; `decks/img/sb-*.jpg`, boards in `decks/storyboard-*.jpg`);
+message 03 reads "Worry-Free, Dual Fan-Ventilated 6 kW Recessing" (owner: "worry-free" for customer-facing "safe").
 
 ## Calculations: one simple model
 

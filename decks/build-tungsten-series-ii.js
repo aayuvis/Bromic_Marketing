@@ -5,8 +5,42 @@ const path = require('path');
 const { applyTheme } = require('/root/.claude/skills/synced/2cb8c0ce-acbf-4859-87f0-b5c97456c048_4e8fdbab-129c-40f6-9715-5aa66209287a/pptx/scripts/apply_theme.js');
 
 const D = JSON.parse(fs.readFileSync('/home/user/Bromic_Marketing/data/product-marketing/tungsten-electric-series-ii.json', 'utf8'));
-const IMG = (id) => path.join(__dirname, 'img', id + '.jpg')  /* images: python3 decks/prep-images.py */;
+const IMG = (id) => path.join(__dirname, 'img', id + '.jpg');
 const LOGO = path.join(__dirname, 'img', 'logo.png'), LOGO_W = path.join(__dirname, 'img', 'logo-white.png');
+
+const sharp = require('sharp');
+const React = require('react'); const RDS = require('react-dom/server'); const LU = require('react-icons/lu');
+const LIB = '/home/user/Bromic_Marketing/images/library/';
+const CACHE = path.join(__dirname, 'img', 'c'); fs.mkdirSync(CACHE, { recursive: true });
+const JOBS = [];
+// Images are cropped (cover) or letterboxed on white (contain) to the exact frame, so nothing is ever stretched.
+function pic(s, id, x, y, w, h, mode = 'cover', objectName) {
+  const src = fs.existsSync(LIB + id + '.webp') ? LIB + id + '.webp' : IMG(id);
+  const out = path.join(CACHE, `${id}-${Math.round(w * 100)}x${Math.round(h * 100)}-${mode}.jpg`);
+  if (!fs.existsSync(out)) JOBS.push(sharp(src).resize({ width: Math.round(w * 220), height: Math.round(h * 220), fit: mode === 'contain' ? 'contain' : 'cover', position: 'attention', background: '#ffffff' }).flatten({ background: '#ffffff' }).jpeg({ quality: 86 }).toFile(out));
+  s.addImage({ path: out, x, y, w, h, objectName });
+}
+const ICONS = {};
+async function iconPng(name, color) {
+  const key = name + color; if (ICONS[key]) return ICONS[key];
+  const svg = RDS.renderToStaticMarkup(React.createElement(LU[name], { color: '#' + color, size: 256, strokeWidth: 1.6 }));
+  const buf = await sharp(Buffer.from(svg)).resize(256, 256).png().toBuffer();
+  return (ICONS[key] = 'image/png;base64,' + buf.toString('base64'));
+}
+const EXTRA_ICONS = ['LuLayers', 'LuMegaphone', 'LuGraduationCap', 'LuMail', 'LuFan', 'LuCable', 'LuMessageCircle', 'LuCircleCheck', 'LuInstagram', 'LuVideo', 'LuFileText', 'LuClapperboard', 'LuSlidersHorizontal'];
+async function prep() { const names = new Set([...Object.values(FIELD_ICON), ...Object.values(AUD_ICON), ...Object.values(PILLAR_ICON), ...EXTRA_ICONS]); for (const n of names) for (const c of ['EF4123', 'FFFFFF']) await iconPng(n, c); }
+// An icon in a circle: flame line icon on a pale flame disc, or white on flame.
+function ico(s, name, x, y, d = 0.62, style = 'light') {
+  const fill = style === 'solid' ? 'EF4123' : style === 'dark' ? '231F20' : 'FCE3DC', col = style === 'light' ? 'EF4123' : 'FFFFFF';
+  s.addShape(pres.shapes.OVAL, { x, y, w: d, h: d, fill: { color: fill }, line: { color: fill, width: 0 }, objectName: 'icon-disc' });
+  const k = name + col;
+  if (!ICONS[k]) throw new Error('icon not prepared: ' + k);
+  s.addImage({ data: ICONS[k], x: x + d * 0.22, y: y + d * 0.22, w: d * 0.56, h: d * 0.56, objectName: 'icon-' + name });
+}
+const FIELD_ICON = { recess: 'LuPanelTopDashed', heat: 'LuFlame', aesthetics: 'LuSparkles', controls: 'LuSmartphone', install_flex: 'LuMove', safety: 'LuShieldCheck', design_flex: 'LuPalette', multi_area: 'LuLayoutGrid', warranty: 'LuBadgeCheck', install_ease: 'LuWrench', support: 'LuBookOpen', coastal: 'LuWaves' };
+const AUD_ICON = { RES: 'LuHouse', BLD: 'LuHardHat', INS: 'LuPlug', COM: 'LuUtensils', ARC: 'LuPencilRuler', DES: 'LuPenTool' };
+const PILLAR_ICON = { p1: 'LuFlame', p2: 'LuMove', p3: 'LuFan', p4: 'LuWrench', p5: 'LuSparkles', p6: 'LuPalette', p7: 'LuLayoutGrid', p8: 'LuWaves' };
+
 const OUT = process.argv[2] || path.join(__dirname, 'Tungsten-Series-II-Launch-Playbook.pptx');
 
 const THEME = {
@@ -49,9 +83,10 @@ const WL = { 3: 'Matters most', 2: 'Matters', 1: 'Nice to have' };
 const clean = (t) => String(t || '').replace(/\s*\[\[VERIFY[^\]]*\]\]/g, '').trim();
 let sec = '';
 const slide = (master, section) => { if (section !== sec) { pres.addSection({ title: section }); sec = section; } return pres.addSlide({ masterName: master, sectionTitle: section }); };
-const divider = (n, title, img, section) => {
+const divider = (n, title, img, section, icon) => {
   const s = slide('DIVIDER', section);
-  s.addImage({ path: IMG(img), x: 7.6, y: 0, w: W - 7.6, h: H, sizing: { type: 'cover', w: W - 7.6, h: H }, objectName: 'divider-image' });
+  if (icon) ico(s, icon, M, 3.3, 0.7, 'solid');
+  pic(s, img, 7.6, 0, W - 7.6, H, 'cover', 'divider-image');
   s.addText(`CHAPTER ${n}`, { placeholder: 'kicker' }); s.addText(title, { placeholder: 'title' });
   return s;
 };
@@ -60,12 +95,13 @@ const U = D.user_types, B = D.benefits;
 const UN = Object.fromEntries(U.map((u) => [u.id, u.name]));
 UN.COM = 'Commercial users';
 
+async function build() {
 // ---------- cover ----------
 {
   pres.addSection({ title: 'Cover' }); sec = 'Cover';
   const s = pres.addSlide({ sectionTitle: 'Cover' });
   s.background = { color: '231F20' };
-  s.addImage({ path: IMG('l-006-028'), x: 5.2, y: 0, w: W - 5.2, h: H, sizing: { type: 'cover', w: W - 5.2, h: H }, objectName: 'cover-image' });
+  pic(s, 'l-006-028', 5.2, 0, W - 5.2, H, 'cover', 'cover-image');
   s.addImage({ path: LOGO_W, x: M, y: 0.55, w: 1.8, h: 0.56 });
   T(s, 'LAUNCH PLAYBOOK', { x: M, y: 3.0, w: 4.4, h: 0.35, fontSize: 12, bold: true, color: FLAME, charSpacing: 4 });
   T(s, 'Tungsten Smart-Heat® Electric Series II', { x: M, y: 3.4, w: 4.4, h: 1.7, fontFace: 'Bodoni MT', fontSize: 36, color: C.background1 });
@@ -78,13 +114,14 @@ UN.COM = 'Commercial users';
 {
   const s = slide('CONTENT', 'Contents');
   kick(s, 'Contents', 'Four Chapters, One Launch');
-  const ch = [['01', 'Benefit Fields And Claims', 'Who we talk to, the twelve benefit fields, and one page per field: the claim for each audience, and how Series II stacks up against Series I and Infratech.', 'l-022-201'],
-    ['02', 'Marketing', 'The lead messages, the assets the launch needs, and example ads for homeowners and for the trade.', 'w-26-bromic-morningcoffee-0251-opt'],
-    ['03', 'Product Training', 'Modules for dealers, installers, builders, architects and designers, from the range to the recess install.', 'd-installers-recessing'],
-    ['04', 'Launch Emails', 'Four emails, each in its audience\'s language: architects, builders and installers, dealers, designers.', 't-009-025']];
+  const ch = [['01', 'Benefit Fields And Claims', 'Who we talk to, the twelve benefit fields, and one page per field: the claim for each audience, and how Series II stacks up against Series I and Infratech.', 'l-003-009'],
+    ['02', 'Marketing', 'The lead messages, the assets the launch needs, and example ads for homeowners and for the trade.', 'l-006-028'],
+    ['03', 'Product Training', 'Modules for dealers, installers, builders, architects and designers, from the range to the recess install.', 'd-tungsten-louvre-detail'],
+    ['04', 'Launch Emails', 'Four emails, each in its audience\'s language: architects, builders and installers, dealers, designers.', 'l-005-020']];
   ch.forEach(([n, t, d, im], i) => {
     const x = M + i * 3.07;
-    s.addImage({ path: IMG(im), x, y: 1.75, w: 2.85, h: 2.0, sizing: { type: 'cover', w: 2.85, h: 2.0 }, objectName: `contents-img-${n}` });
+    pic(s, im, x, 1.75, 2.85, 2.0, 'cover', `contents-img-${n}`);
+    ico(s, ['LuLayers', 'LuMegaphone', 'LuGraduationCap', 'LuMail'][i], x + 2.25, 3.85, 0.55, 'light');
     T(s, n, { x, y: 3.95, w: 2.85, h: 0.4, fontSize: 12, bold: true, color: FLAME });
     T(s, t, { x, y: 4.3, w: 2.85, h: 0.8, fontFace: 'Bodoni MT', fontSize: 20, color: INK });
     T(s, d, { x, y: 5.1, w: 2.85, h: 1.6, fontSize: 12 });
@@ -93,14 +130,15 @@ UN.COM = 'Commercial users';
 
 // ---------- chapter 1 ----------
 const S1 = '1 · Benefit fields and claims';
-divider(1, 'Benefit Fields And Claims', 'l-022-201', S1);
+divider(1, 'Benefit Fields And Claims', 'l-003-009', S1, 'LuLayers');
 {
   const s = slide('CONTENT', S1);
   kick(s, 'Who we talk to', 'Six Audiences, Six Different Evenings');
   U.forEach((u, i) => {
     const col = i % 3, row = Math.floor(i / 3), x = M + col * 4.08, y = 1.7 + row * 2.62, w = 3.86, h = 2.45;
     card(s, x, y, w, h, GREY, `aud-${u.id}`);
-    T(s, UN[u.id], { x: x + 0.25, y: y + 0.18, w: w - 0.5, h: 0.42, fontFace: 'Bodoni MT', fontSize: 19, color: INK });
+    ico(s, AUD_ICON[u.id], x + w - 0.8, y + 0.18, 0.56, 'light');
+    T(s, UN[u.id], { x: x + 0.25, y: y + 0.18, w: w - 1.1, h: 0.42, fontFace: 'Bodoni MT', fontSize: 19, color: INK });
     T(s, u.who, { x: x + 0.25, y: y + 0.62, w: w - 0.5, h: 0.52, fontSize: 10, color: STEEL });
     const top = B.filter((b) => !b.proposed && D.m1[u.id][b.id] && D.m1[u.id][b.id].w === 3).map((b) => b.name);
     T(s, 'What they care about most', { x: x + 0.25, y: y + 1.18, w: w - 0.5, h: 0.25, fontSize: 9, bold: true, color: FLAME, charSpacing: 2 });
@@ -109,13 +147,14 @@ divider(1, 'Benefit Fields And Claims', 'l-022-201', S1);
 }
 {
   const s = slide('CONTENT', S1);
-  kick(s, 'The framework', 'Twelve Benefit Fields');
+  kick(s, 'The framework, in order of priority', 'Twelve Benefit Fields');
   B.forEach((b, i) => {
     const col = i % 4, row = Math.floor(i / 4), x = M + col * 3.07, y = 1.7 + row * 1.72, w = 2.88, h = 1.55;
     card(s, x, y, w, h, b.proposed ? 'FFFFFF' : GREY, `field-${b.id}`);
     if (b.proposed) s.addShape(pres.shapes.RECTANGLE, { x, y, w, h, fill: { color: 'FFFFFF' }, line: { color: LINE, width: 1, dashType: 'dash' } });
     T(s, String(i + 1).padStart(2, '0'), { x: x + 0.2, y: y + 0.15, w: 0.6, h: 0.3, fontSize: 11, bold: true, color: FLAME });
-    if (b.proposed) T(s, 'PROPOSED', { x: x + w - 1.2, y: y + 0.17, w: 1.0, h: 0.25, fontSize: 8, bold: true, color: STEEL, align: 'right', charSpacing: 2 });
+    ico(s, FIELD_ICON[b.id], x + w - 0.62, y + 0.12, 0.46, b.proposed ? 'dark' : 'light');
+    if (b.proposed) T(s, 'PROPOSED', { x: x + 0.7, y: y + 0.17, w: 1.0, h: 0.25, fontSize: 8, bold: true, color: STEEL, align: 'left', charSpacing: 2 });
     T(s, b.name, { x: x + 0.2, y: y + 0.42, w: w - 0.4, h: 0.55, fontFace: 'Bodoni MT', fontSize: 15, color: INK, valign: 'bottom' });
     T(s, b.what, { x: x + 0.2, y: y + 1.0, w: w - 0.4, h: 0.5, fontSize: 9.5, color: BODY });
   });
@@ -123,14 +162,14 @@ divider(1, 'Benefit Fields And Claims', 'l-022-201', S1);
 // one page per field
 const SHORT = {
   heat: ['Up to 6 kW of directional infrared warmth, with dual elements on the 4 and 6 kW models dimmed in 1% steps.', 'carried over', 'Same 2–6 kW range and coverage up to 160 ft²; Classic adds 2 and 3 kW.', 'parity', 'Both reach 6 kW. Bromic publishes up to 160 ft² for 6 kW, Infratech about 121 ft²; each measures its own way.'],
-  install_flex: ['One heater for every setting: flat or pitched ceiling, wall, cantilevered wall, single post or recessed.', 'improved', 'Adds the single post, a pitched-ceiling adaptor (3/12 to 12/12) and a wall-mount adaptor; tilt up to 45° on 2–3 kW, 30° on 4–6 kW.', 'bromic', 'Infratech\'s flush frame is "ONLY to be used on a flat non-sloped ceiling".'],
+  install_flex: ['One heater for every setting: flat or pitched ceiling, wall, cantilevered wall, single post or recessed, tilted up to 45°.', 'improved', 'Adds the single post, a pitched-ceiling adaptor (3/12 to 12/12) and a wall-mount adaptor; tilt up to 45° on every model, 6 kW included.', 'bromic', 'Infratech\'s flush frame is "ONLY to be used on a flat non-sloped ceiling".'],
   install_ease: ['Fewer parts and fewer trades: one post, and a recess box supplied with the kit.', 'improved', 'One post replaces Series I\'s two suspension tubes; nothing to build for a recess.', 'bromic', 'Infratech flush mounting needs a 2×8 pocket lined on five sides with Type X drywall; its drop pole is a pair of rods.'],
   recess: ['Flush heat in shallow ceilings: 6 kW in a 7.5 in cavity, dual fan-ventilated, with the recess box supplied.', 'new', 'Series I recessing needed a deep cavity (Bromic guidance about 20 in) and a site-built box.', 'bromic', 'No low-clearance kit and no fans shown; "a 15 minute cool down period is recommended" after 4 hours of continuous use.'],
   safety: ['Peace of mind all evening: IPX5, a fan-cooled recess, and app control of when the heat runs.', 'improved', 'IPX5 (Series I: IPX4); minimum heights of 72 in wall, 96 in ceiling and 94 in recessed.', 'bromic', 'Infratech is rated IPX4; its Smart Switch app route is on/off with a fixed 2-hour timer.'],
   aesthetics: ['A narrower, lighter heater that floats on one post, in one colour from end to end.', 'improved', 'About 14% narrower and a third lighter; no visible junction box.', 'bromic', 'Infratech\'s colour sits on the end caps and housing; the reflector and wire guard stay stainless in every colour.'],
   design_flex: ['Three finishes and three fronts that change without re-wiring.', 'new', 'Series I had one fascia and two colours.', 'bromic', 'Infratech\'s decorative Motif covers fit surface models only and cannot be used flush.'],
   controls: ['Affinity Smart-Heat® Controls: dimming, zones, schedules and timers from the Bromic app.', 'carried over', 'Same Affinity controls; the Dimmer is now the recommended controller.', 'bromic', 'Infratech dims through a separate control panel and schedules only through home-automation systems.'],
-  warranty: ['Manufacturer cover with long element protection and a partner extension.', 'carried over', 'Dealers list 2 years on the heater and 7 years on the elements.', 'parity', 'Infratech: 3 years (a fourth through its programs), replacement parts only, not transferable.'],
+  warranty: ['Three years of manufacturer cover, with a partner extension on qualifying products.', 'improved', '3 years on the heater, up from 2 on Series I.', 'parity', 'Both 3 years. Infratech\'s fourth year comes through its programs; its terms cover replacement parts only and are not transferable.'],
   multi_area: ['The right Bromic heater for every outdoor room: electric or gas, mounted or freestanding.', 'improved', 'More mounts and a coastal model within the Tungsten family.', 'bromic', 'Infratech sells fixed electric heaters only: no gas and no freestanding models.'],
   coastal: ['Built for salt air: a coated, marine-grade build and a 316 stainless recess kit rated IPX5.', 'new', 'Series I was not rated for marine environments.', 'bromic', 'Infratech offers 316 as a paid upgrade, with no protective coating described.'],
   support: ['Design plans, documentation and a Partner Program behind every project.', 'carried over', 'Same support, plus launch literature, photography and training.', 'bromic', 'Free custom design plans, a dedicated contact and project spotlights through the Bromic Partner Program.'],
@@ -142,8 +181,9 @@ const badge = (s, x, y, [t, fill, col]) => { s.addText(t.toUpperCase(), { isText
 B.forEach((b, i) => {
   const s = slide('CONTENT', S1);
   const [ex, chg, s1, edge, inf] = SHORT[b.id];
-  kick(s, `Benefit field ${String(i + 1).padStart(2, '0')} of 12${b.proposed ? '  ·  proposed' : ''}`, b.name);
-  s.addImage({ path: IMG(FIELD_IMG[b.id]), x: M, y: 1.65, w: 4.6, h: 1.55, sizing: { type: 'cover', w: 4.6, h: 1.55 }, objectName: 'field-image' });
+  kick(s, `Benefit field ${String(i + 1).padStart(2, '0')} of 12, by priority${b.proposed ? '  ·  proposed' : ''}`, b.name);
+  ico(s, FIELD_ICON[b.id], 12.0, 0.45, 0.75, 'solid');
+  pic(s, FIELD_IMG[b.id], M, 1.65, 4.6, 1.55, 'cover', 'field-image');
   T(s, ex, { x: M, y: 3.35, w: 4.6, h: 0.95, fontSize: 14, color: INK });
   card(s, M, 4.38, 4.6, 1.15, GREY, 'vs-series-i');
   T(s, 'AGAINST SERIES I', { x: M + 0.2, y: 4.5, w: 2.4, h: 0.25, fontSize: 8.5, bold: true, color: STEEL, charSpacing: 2 });
@@ -167,15 +207,16 @@ B.forEach((b, i) => {
 
 // ---------- chapter 2: marketing ----------
 const S2 = '2 · Marketing';
-divider(2, 'Marketing', 'w-26-bromic-morningcoffee-0251-opt', S2);
+divider(2, 'Marketing', 'd-tungsten-suspended-restaurant', S2, 'LuMegaphone');
 {
   const s = slide('CONTENT', S2);
   kick(s, 'What we lead with', 'Eight Messages Carry The Launch');
   D.pillars.forEach((p, i) => {
     const col = i % 4, row = Math.floor(i / 4), x = M + col * 3.07, y = 1.7 + row * 2.6, w = 2.88, h = 2.42;
     card(s, x, y, w, h, i === 2 ? WASH : GREY, `pillar-${p.id}`);
+    ico(s, PILLAR_ICON[p.id], x + w - 0.62, y + 0.12, 0.46, i === 2 ? 'solid' : 'light');
     T(s, String(i + 1).padStart(2, '0'), { x: x + 0.2, y: y + 0.15, w: 0.6, h: 0.3, fontSize: 11, bold: true, color: FLAME });
-    T(s, p.title, { x: x + 0.2, y: y + 0.42, w: w - 0.4, h: 0.72, fontFace: 'Bodoni MT', fontSize: 14, color: INK });
+    T(s, p.title, { x: x + 0.2, y: y + 0.42, w: w - 0.95, h: 0.72, fontFace: 'Bodoni MT', fontSize: 14, color: INK });
     T(s, clean(p.line), { x: x + 0.2, y: y + 1.18, w: w - 0.4, h: 1.18, fontSize: 9, color: BODY });
   });
 }
@@ -184,7 +225,7 @@ divider(2, 'Marketing', 'w-26-bromic-morningcoffee-0251-opt', S2);
   kick(s, 'One family for every outdoor room', 'The Right Heater For Every Space');
   D.portfolio.forEach((p, i) => {
     const x = M + i * 2.45, w = 2.28;
-    s.addImage({ path: IMG(p.image), x, y: 1.7, w, h: 2.6, sizing: { type: 'cover', w, h: 2.6 }, objectName: `portfolio-${i}` });
+    pic(s, p.image, x, 1.7, w, 2.6, 'cover', `portfolio-${i}`);
     T(s, p.space.toUpperCase(), { x, y: 4.45, w, h: 0.5, fontSize: 9, bold: true, color: FLAME, charSpacing: 2 });
     T(s, p.product, { x, y: 4.95, w, h: 0.8, fontFace: 'Bodoni MT', fontSize: 16, color: INK });
     T(s, p.why, { x, y: 5.75, w, h: 0.9, fontSize: 11 });
@@ -193,6 +234,7 @@ divider(2, 'Marketing', 'w-26-bromic-morningcoffee-0251-opt', S2);
 {
   const s = slide('CONTENT', S2);
   kick(s, 'Launch kit', 'Assets The Launch Needs');
+  ico(s, 'LuClapperboard', 12.0, 0.45, 0.75, 'solid');
   const rows = [['Asset', 'Channel', 'For', 'Claims it carries', 'Owner'].map((t) => ({ text: t, options: { bold: true, color: 'FFFFFF', fill: { color: '231F20' }, fontSize: 10 } }))];
   for (const a of D.assets_to_create) rows.push([{ text: a.name, options: { bold: true, color: INK } }, a.channel, a.audience, { text: a.claims.map(clean).join(' · ') }, a.owner]);
   s.addTable(rows, { x: M, y: 1.65, w: 12.13, colW: [2.9, 1.9, 1.9, 3.9, 1.53], fontFace: 'Arial', fontSize: 10, color: '4A4546', valign: 'middle', border: { type: 'solid', pt: 0.5, color: 'E3E3E1' }, margin: [0.05, 0.08, 0.05, 0.08] });
@@ -200,11 +242,12 @@ divider(2, 'Marketing', 'w-26-bromic-morningcoffee-0251-opt', S2);
 const adSlide = (seg, title, ads, tone) => {
   const s = slide('CONTENT', S2);
   kick(s, `Instagram  ·  ${seg}`, title);
+  ico(s, 'LuInstagram', 12.0, 0.45, 0.75, 'solid');
   T(s, tone, { x: M, y: 1.5, w: 12.1, h: 0.35, fontSize: 12, color: STEEL, italic: true });
   ads.forEach((a, i) => {
     const x = M + i * 4.08, w = 3.86;
     card(s, x, 2.0, w, 4.85, GREY, `ad-${a.id}`);
-    s.addImage({ path: IMG(a.images[0]), x: x + 0.2, y: 2.2, w: 1.45, h: 1.8, sizing: { type: 'cover', w: 1.45, h: 1.8 }, objectName: `ad-img-${a.id}` });
+    pic(s, a.images[0], x + 0.2, 2.2, 1.45, 1.8, 'cover', `ad-img-${a.id}`);
     s.addText(a.cta.toUpperCase(), { isTextBox: true, x: x + 0.2, y: 4.0, w: 1.45, h: 0.28, fontSize: 8.5, bold: true, color: 'FFFFFF', fill: { color: 'EF4123' }, align: 'center', valign: 'middle', margin: 0 });
     T(s, a.format.toUpperCase(), { x: x + 1.82, y: 2.2, w: w - 2.0, h: 0.45, fontSize: 8, bold: true, color: STEEL, charSpacing: 1 });
     T(s, a.headline, { x: x + 1.82, y: 2.62, w: w - 2.0, h: 0.95, fontFace: 'Bodoni MT', fontSize: a.headline.length > 34 ? 12 : 14.5, color: INK });
@@ -220,13 +263,31 @@ adSlide('Homeowners', 'The Evening First, Then The Heater', [AD.c1, AD.c3, AD.c4
 adSlide('Homeowners', 'Style, The Coast And Every Outdoor Room', [AD.c2, AD.c5, AD.c6], 'Coastal ads run only in coastal postcodes; every ad carries the Affinity controls line.');
 adSlide('Builders and installers', 'Numbers First, Then The Finish', [AD.t1, AD.t2, AD.t3], 'Tone for the trade: the figure up front (6 kW, 7.5 in, one post), then what it saves on site.');
 adSlide('Builders and installers', 'The Options Sheet And The Partner Program', [AD.t4, AD.t5, AD.t1], 'No prices in any ad. The Partner Program ad carries the reseller-certificate footnote.');
+// Storyboards: four frames each, made with an image model from real Tungsten Series II renders and photos (concepts, not for publication).
+const sbSlide = (seg, title, file, meta, must) => {
+  const s = slide('CONTENT', S2);
+  kick(s, `Storyboard  ·  ${seg}`, title);
+  ico(s, 'LuClapperboard', 12.0, 0.45, 0.75, 'solid');
+  T(s, meta, { x: M, y: 1.38, w: 11.2, h: 0.3, fontSize: 11, color: STEEL, italic: true });
+  s.addImage({ path: path.join(__dirname, 'img', file), x: M, y: 1.72, w: 12.13, h: 12.13 * 890 / 2340, objectName: `sb-${file}` });
+  T(s, [{ text: 'Must carry  ', options: { bold: true, color: INK } }, { text: must }], { x: M, y: 6.4, w: 12.13, h: 0.3, fontSize: 9.5, color: '4A4546' });
+  T(s, 'Frames generated with AI from Bromic product references, for planning only, not for publication.', { x: M, y: 6.68, w: 12.13, h: 0.25, fontSize: 8.5, color: STEEL });
+  return s;
+};
+sbSlide('Homeowners', 'The Evening First, Then The Heater', 'sb-homeowners.jpg',
+  'Reel 9:16 with a 4:5 feed cut  ·  12 seconds  ·  Objective: visits to the Series II page  ·  KPI: landing page views, thumb-stop rate',
+  'Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately. Installation by a licensed electrician, to local code. No prices.');
+sbSlide('Architects, builders and installers', '6 kW. 7.5 In Cavity. No Box To Build.', 'sb-specifiers.jpg',
+  'Reel 9:16 with a 4:5 feed cut  ·  15 seconds  ·  Objective: spec pack requests  ·  KPI: lead form completions, cost per request',
+  'Installation by a licensed electrician, to local code. Controls sold separately. Airflow path in frame 2 to be confirmed by the Product team before production.');
 
 // ---------- chapter 3: training ----------
 const S3 = '3 · Product training';
-divider(3, 'Product Training', 'd-installers-recessing', S3);
+divider(3, 'Product Training', 'd-tungsten-pole-rooftop-bar', S3, 'LuGraduationCap');
 {
   const s = slide('CONTENT', S3);
   kick(s, 'Training plan', 'Who Learns What, And How');
+  ico(s, 'LuGraduationCap', 12.0, 0.45, 0.75, 'solid');
   const rows = [['Audience', 'Modules', 'Format', 'Time', 'Outcome'].map((t) => ({ text: t, options: { bold: true, color: 'FFFFFF', fill: { color: '231F20' }, fontSize: 10.5 } })),
     [{ text: 'Dealers and showroom staff', options: { bold: true } }, '1 Range · 5 Controls · 6 Selling and objections', 'Live session, then on-demand video', '60 min', 'Recommend the right tier and controls for every customer'],
     [{ text: 'Installers and electricians', options: { bold: true } }, '1 Range · 2 Mounting · 3 Low-clearance recess · 4 Electrical · 5 Controls', 'Hands-on with a demo rig; install video', '2 hours', 'Fit and commission Series II first time, recessed or surface'],
@@ -239,10 +300,11 @@ divider(3, 'Product Training', 'd-installers-recessing', S3);
 {
   const s = slide('CONTENT', S3);
   kick(s, 'Module 1', 'Know The Range: Good, Better, Best');
+  ico(s, 'LuLayers', 12.0, 0.45, 0.75, 'solid');
   D.tiers.forEach((t, i) => {
     const x = M + i * 4.08, w = 3.86;
     card(s, x, 1.7, w, 5.1, GREY, `tier-${t.id}`);
-    s.addImage({ path: IMG(t.image), x: x + 0.2, y: 1.95, w: w - 0.4, h: 1.1, sizing: { type: 'contain', w: w - 0.4, h: 1.1 }, objectName: `tier-img-${t.id}` });
+    pic(s, t.image, x + 0.2, 1.95, w - 0.4, 1.1, 'contain', `tier-img-${t.id}`);
     T(s, t.tier.toUpperCase(), { x: x + 0.25, y: 3.2, w: w - 0.5, h: 0.3, fontSize: 10, bold: true, color: FLAME, charSpacing: 3 });
     T(s, t.name, { x: x + 0.25, y: 3.5, w: w - 0.5, h: 0.5, fontFace: 'Bodoni MT', fontSize: 22, color: INK });
     T(s, `Wins on ${t.win_on.toLowerCase()}`, { x: x + 0.25, y: 4.0, w: w - 0.5, h: 0.3, fontSize: 11, color: FLAME });
@@ -253,8 +315,9 @@ divider(3, 'Product Training', 'd-installers-recessing', S3);
 {
   const s = slide('CONTENT', S3);
   kick(s, 'Module 2', 'Mounting Options And Their Limits');
+  ico(s, 'LuMove', 12.0, 0.45, 0.75, 'solid');
   const items = [['Ceiling', 'On its bracket or the single post; 96 in minimum (cETL: never below 96 in).'], ['Pitched ceiling', 'With the pitched-ceiling adaptor, 3/12 to 12/12 (launch deck), in line with the pitch or across it.'],
-    ['Wall', 'Bracket at 71–72 in minimum; the cantilevered wall-mount adaptor reaches out from the wall.'], ['Tilt', 'Up to 45° on the 2 and 3 kW models; up to 30° on 4 and 6 kW, on the wall or the ceiling.'],
+    ['Wall', 'Bracket at 71–72 in minimum; the cantilevered wall-mount adaptor reaches out from the wall.'], ['Tilt', 'Up to 45° on every model, 6 kW included, on the wall or the ceiling, and re-angled later.'],
     ['Single post', '5 in post for 2 and 3 kW, 9 in for 4 and 6 kW; straight or angled.'], ['Recessed', 'Low-clearance kit in a 7.5 in cavity, 94 in above the floor; see Module 3.']];
   items.forEach(([h, t], i) => {
     const col = i % 2, row = Math.floor(i / 2), x = M + 4.9 + col * 3.65, y = 1.7 + row * 1.7, w = 3.45;
@@ -262,14 +325,15 @@ divider(3, 'Product Training', 'd-installers-recessing', S3);
     T(s, h, { x: x + 0.2, y: y + 0.15, w: w - 0.4, h: 0.4, fontFace: 'Bodoni MT', fontSize: 16, color: INK });
     T(s, t, { x: x + 0.2, y: y + 0.6, w: w - 0.4, h: 0.9, fontSize: 10.5 });
   });
-  s.addImage({ path: IMG('t2-single-post'), x: M, y: 1.7, w: 4.6, h: 3.2, sizing: { type: 'contain', w: 4.6, h: 3.2 }, objectName: 'mount-img' });
+  pic(s, 't2-single-post', M, 1.7, 4.6, 3.2, 'contain', 'mount-img');
   T(s, 'Mount the elements horizontal. Keep 19.7 in between heaters and from walls when recessed, and the clearances in the installation manual for every other condition.', { x: M, y: 5.2, w: 4.6, h: 1.4, fontSize: 12, color: INK });
   s.addNotes('Source: Tungsten Smart-Heat Electric Select & Coastal installation manual (2026) and the LC recess kit instructions. The pitch range of the adaptor comes from the launch deck; confirm with the Product team before printing.');
 }
 {
   const s = slide('CONTENT', S3);
   kick(s, 'Module 3', 'Installing The Low-Clearance Recess Kit');
-  s.addImage({ path: IMG('t2-low-clearance-recess'), x: M, y: 1.7, w: 4.6, h: 3.05, sizing: { type: 'contain', w: 4.6, h: 3.05 }, objectName: 'recess-img' });
+  ico(s, 'LuFan', 12.0, 0.45, 0.75, 'solid');
+  pic(s, 't2-low-clearance-recess', M, 1.7, 4.6, 3.05, 'contain', 'recess-img');
   card(s, M, 4.95, 4.6, 1.85, WASH, 'recess-key');
   T(s, [{ text: '7.5 in', options: { fontFace: 'Bodoni MT', fontSize: 40, color: 'B22B12', breakLine: true } }, { text: 'minimum cavity depth (190.5 mm). The kit brings its own recess box: nothing to build on site.', options: { fontSize: 12, color: '231F20' } }], { x: M + 0.25, y: 5.05, w: 4.1, h: 1.7 });
   const steps = ['Check the cavity: at least 7.5 in deep, flat or sloping no more than 1/4 in per inch; the structure must carry the kit (52 or 61 lb).', 'Cut the opening 19.7 in or more from the nearest wall and other heaters, with the heater face at least 94 in above the floor.',
@@ -286,6 +350,7 @@ divider(3, 'Product Training', 'd-installers-recessing', S3);
 {
   const s = slide('CONTENT', S3);
   kick(s, 'Modules 4 and 5', 'Wire It Right, Then Hand Over The App');
+  ico(s, 'LuCable', 12.0, 0.45, 0.75, 'solid');
   const L = [['Circuits', 'Dedicated circuits sized from the manual: 6 kW draws 25 A at 240 V, 28.8 A at 208 V and 21.7 A at 277 V. The 2 kW model is 240 V only; Coastal is 208 and 240 V.'],
     ['Dual elements', 'The 4 and 6 kW models have two elements, wired separately so one heater can run at part or full output.'],
     ['Controller', 'The Affinity Smart-Heat® Dimmer is the recommended controller: 6 kW a channel at 208–277 V, dimming in 1% steps.'],
@@ -296,12 +361,13 @@ divider(3, 'Product Training', 'd-installers-recessing', S3);
     T(s, h, { x: M + 0.25, y: y + 0.15, w: 1.9, h: 0.8, fontFace: 'Bodoni MT', fontSize: 16, color: INK });
     T(s, t, { x: M + 2.2, y: y + 0.15, w: 5.0, h: 0.85, fontSize: 11.5 });
   });
-  s.addImage({ path: IMG('t-009-025'), x: 8.3, y: 1.65, w: 4.43, h: 5.2, sizing: { type: 'cover', w: 4.43, h: 5.2 }, objectName: 'app-img' });
+  pic(s, 't-009-025', 8.3, 1.65, 4.43, 5.2, 'cover', 'app-img');
   T(s, 'Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately. Installation by a licensed electrician, to local code.', { x: M, y: 6.48, w: 7.4, h: 0.4, fontSize: 9, color: STEEL });
 }
 {
   const s = slide('CONTENT', S3);
   kick(s, 'Module 6', 'Selling Series II: What To Say When You Hear');
+  ico(s, 'LuMessageCircle', 12.0, 0.45, 0.75, 'solid');
   const Q = [['"Infratech recesses too."', 'It does, in a framed 2×8 pocket lined on five sides with fire-rated drywall, on flat ceilings only. Series II recesses 6 kW in a 7.5 in cavity with the box supplied and dual fan ventilation.'],
     ['"Can I run it all evening?"', 'The recess kit is fan-cooled, and the Bromic app lets you schedule the heat and switch it off from anywhere.'],
     ['"Infratech comes in colours."', 'Its colour is on the end caps and housing; the reflector and guard stay stainless. Series II is black, white or graphite end to end, front included.'],
@@ -319,7 +385,8 @@ divider(3, 'Product Training', 'd-installers-recessing', S3);
 {
   const s = slide('CONTENT', S3);
   kick(s, 'Knowledge check', 'Five Questions Before Anyone Sells Or Installs');
-  const Q = [['What is the minimum cavity for the low-clearance recess kit?', '7.5 in (190.5 mm).'], ['How far can a 6 kW heater tilt?', 'Up to 30°. The 2 and 3 kW models tilt to 45°.'],
+  ico(s, 'LuCircleCheck', 12.0, 0.45, 0.75, 'solid');
+  const Q = [['What is the minimum cavity for the low-clearance recess kit?', '7.5 in (190.5 mm).'], ['How far can a 6 kW heater tilt?', 'Up to 45°, like every Series II model.'],
     ['What supply do the recess kit fans need?', 'A dedicated, unswitched supply under 1 A, powered at all times.'], ['Which controller do we recommend for electric heaters?', 'The Affinity Smart-Heat® Dimmer.'],
     ['Which tier suits a waterfront terrace?', 'Tungsten Coastal, with the marine-grade recess kit where recessed. Never on boats.']];
   Q.forEach(([q, a], i) => {
@@ -333,10 +400,11 @@ divider(3, 'Product Training', 'd-installers-recessing', S3);
 
 // ---------- chapter 4: launch emails ----------
 const S4 = '4 · Launch emails';
-divider(4, 'Launch Emails', 't-009-025', S4);
+divider(4, 'Launch Emails', 'l-007-041', S4, 'LuMail');
 {
   const s = slide('CONTENT', S4);
   kick(s, 'Email plan', 'Four Emails, Four Voices');
+  ico(s, 'LuMail', 12.0, 0.45, 0.75, 'solid');
   const rows = [['Audience', 'Send', 'Goal', 'Attach or link', 'Call to action'].map((t) => ({ text: t, options: { bold: true, color: 'FFFFFF', fill: { color: '231F20' }, fontSize: 10.5 } })),
     [{ text: 'Registered architects', options: { bold: true } }, 'Launch week, Tuesday', 'Get Series II into specifications', 'Spec sheet, Section 23 83 33 update, Revit files', 'Request the specification pack'],
     [{ text: 'Builders and installers', options: { bold: true } }, 'Launch week, Wednesday', 'Win recessed and pergola jobs', 'Trade sell sheet, recess install video', 'Join the Bromic Partner Program'],
@@ -345,65 +413,98 @@ divider(4, 'Launch Emails', 't-009-025', S4);
   s.addTable(rows, { x: M, y: 1.65, w: 12.13, colW: [2.4, 2.0, 2.9, 2.9, 1.93], fontFace: 'Arial', fontSize: 11, color: '4A4546', valign: 'middle', border: { type: 'solid', pt: 0.5, color: 'E3E3E1' }, margin: [0.08, 0.1, 0.08, 0.1] });
   T(s, 'Every email: one call to action, the controls line where a heater is recommended, no prices, and competitive lines only after sign-off.', { x: M, y: 5.6, w: 12.1, h: 0.5, fontSize: 12, color: STEEL, italic: true });
 }
-const emailSlide = (aud, subj, pre, body, cta, assets, img, notes) => {
+const emailSlide = (aud, subj, pre, intro, points, close, cta, assets, img, notes) => {
   const s = slide('CONTENT', S4);
   kick(s, `Launch email  ·  ${aud}`, subj);
+  ico(s, 'LuMail', 12.0, 0.45, 0.75, 'solid');
   card(s, M, 1.65, 7.75, 5.15, GREY, 'email-card');
-  T(s, [{ text: 'Subject  ', options: { bold: true, color: FLAME } }, { text: subj, options: { breakLine: true } }, { text: 'Preview  ', options: { bold: true, color: FLAME } }, { text: pre }], { x: M + 0.3, y: 1.8, w: 7.15, h: 0.75, fontSize: 11, color: INK });
-  T(s, body.map((p, k) => ({ text: p, options: { breakLine: k < body.length - 1 } })), { x: M + 0.3, y: 2.62, w: 7.15, h: 3.55, fontSize: 12, color: INK, paraSpaceAfter: 6 });
-  s.addText(cta.toUpperCase(), { isTextBox: true, x: M + 0.3, y: 6.25, w: 3.4, h: 0.38, fontSize: 10, bold: true, color: 'FFFFFF', fill: { color: 'EF4123' }, align: 'center', valign: 'middle', margin: 0, charSpacing: 1 });
-  s.addImage({ path: IMG(img), x: 8.6, y: 1.65, w: 4.13, h: 2.6, sizing: { type: 'cover', w: 4.13, h: 2.6 }, objectName: 'email-img' });
+  T(s, [{ text: 'Subject  ', options: { bold: true, color: FLAME } }, { text: subj, options: { bold: true, breakLine: true } }, { text: 'Preview  ', options: { bold: true, color: FLAME } }, { text: pre }], { x: M + 0.3, y: 1.8, w: 7.15, h: 0.62, fontSize: 11.5, color: INK });
+  T(s, intro, { x: M + 0.3, y: 2.5, w: 7.15, h: 0.6, fontSize: 13, color: INK });
+  const runs = [];
+  points.forEach(([lead, rest], k) => { runs.push({ text: lead + ' ', options: { bold: true, color: INK, bullet: { indent: 14 } } }); runs.push({ text: rest, options: { color: BODY, breakLine: k < points.length - 1 } }); });
+  T(s, runs, { x: M + 0.3, y: 3.15, w: 7.15, h: 2.3, fontSize: 12.5, paraSpaceAfter: 7 });
+  T(s, close, { x: M + 0.3, y: 5.5, w: 7.15, h: 0.65, fontSize: 11, color: STEEL });
+  s.addText(cta.toUpperCase(), { isTextBox: true, x: M + 0.3, y: 6.25, w: 3.6, h: 0.4, fontSize: 10.5, bold: true, color: 'FFFFFF', fill: { color: 'EF4123' }, align: 'center', valign: 'middle', margin: 0, charSpacing: 1 });
+  pic(s, img, 8.6, 1.65, 4.13, 2.6, 'cover', 'email-img');
   T(s, 'ASSETS', { x: 8.6, y: 4.45, w: 4.1, h: 0.3, fontSize: 9, bold: true, color: STEEL, charSpacing: 2 });
   T(s, assets.map((a, k) => ({ text: a, options: { bullet: { indent: 10 }, breakLine: k < assets.length - 1 } })), { x: 8.6, y: 4.78, w: 4.1, h: 2.0, fontSize: 11, color: INK, paraSpaceAfter: 3 });
   if (notes) s.addNotes(notes);
 };
 emailSlide('Registered architects', 'Specify 6 kW Of Flush Heat In A 7.5 In Ceiling',
   'Tungsten Series II: low-clearance recessing, three finishes, one specification family.',
-  ['Your clients want their outdoor rooms to work as hard as the ones inside, and the ceiling is often the hardest place to give them warmth.',
-    'Tungsten Smart-Heat® Electric Series II recesses up to 6 kW into a 7.5 in cavity, with a dual fan-ventilated low-clearance kit that supplies its own recess box. Surface options cover flat and pitched ceilings (3/12 to 12/12), walls and a single post.',
-    'Specify black, white or graphite, with a Diamond, oval or triangle front, IPX5 throughout, and Tungsten Coastal for waterfront sites. Affinity Smart-Heat® Controls integrate with building and home automation; Wi-Fi and app features need compatible Affinity controls, sold separately.',
-    'Our specification pack has the updated Section 23 83 33 language, Revit families and installation details.'],
-  'Request the specification pack', ['Series II spec sheet', 'Section 23 83 33 update', 'Revit and CAD files', 'Low-clearance recess detail', 'AIA-accredited course invitation'], 'l-010-075',
-  'Precise and technical; numbers in the first lines. Revit files must be live on launch day.');
+  'Give your outdoor rooms heat that disappears into the ceiling.',
+  [['6 kW recessed in a 7.5 in cavity.', 'A dual fan-ventilated low-clearance kit that supplies its own recess box.'],
+    ['Every mounting condition.', 'Flat or pitched ceilings (3/12 to 12/12), walls, a single post, tilt up to 45°.'],
+    ['Specified to last.', 'IPX5, three years of cover, and Tungsten Coastal for waterfront sites.'],
+    ['Black, white or graphite.', 'With a Diamond, oval or triangle front.']],
+  'Affinity Smart-Heat® Controls integrate with BMS and home automation; Wi-Fi and app features need compatible Affinity controls, sold separately.',
+  'Request the specification pack', ['Series II spec sheet', 'Section 23 83 33 update', 'Revit and CAD files', 'Low-clearance recess detail', 'Recess airflow animation', 'AIA-accredited course invitation'], 'l-010-075',
+  'Precise and technical; numbers lead. Revit files and the airflow animation must be live on launch day.');
 emailSlide('Builders and installers', 'No Box To Build: 6 kW Recessed In A 7.5 In Cavity',
   'Tungsten Series II goes up faster: one post, one kit, nothing to frame.',
-  ['Your buyers want the evening outside. Tungsten Series II makes it quicker to give it to them.',
-    'Recess 6 kW into a 7.5 in cavity with the low-clearance kit: it brings its own recess box and is dual fan-ventilated, so there is nothing to frame and line. On pergolas and porches, a single post replaces two suspension tubes, and the pitched-ceiling adaptor handles 3/12 to 12/12.',
-    'Offer Classic, Select and Coastal as Good, Better, Best on your options sheet, each with Affinity Smart-Heat® Controls. Installation by a licensed electrician, to local code.',
-    'Join the Bromic Partner Program for partner pricing, free heating design plans, an extended warranty and a dedicated contact.*',
-    '*A reseller certificate is required to join the Bromic installer program.'],
-  'Join the Bromic Partner Program', ['Trade sell sheet', 'Recess install video (90 s)', 'Options-sheet artwork', 'Installation manuals', 'Partner Program sign-up'], 'd-installers-recessing',
-  'Direct and practical: what it saves on site. The footnote on the reseller certificate is mandatory.');
+  'Your buyers want the evening outside. Series II gets you there faster.',
+  [['No box to build.', 'Recess 6 kW in a 7.5 in cavity; the kit brings its own box and is dual fan-ventilated.'],
+    ['One post, not two.', 'A single post replaces two suspension tubes on pergolas and porches.'],
+    ['Any ceiling.', 'Pitched-ceiling adaptor for 3/12 to 12/12; tilt up to 45°.'],
+    ['Good, Better, Best.', 'Classic, Select and Coastal for your options sheet, each with Affinity Smart-Heat® Controls.']],
+  'Join the Bromic Partner Program: partner pricing, free design plans, an extended warranty and a dedicated contact.* Installation by a licensed electrician, to local code. *A reseller certificate is required to join the Bromic installer program.',
+  'Join the Bromic Partner Program', ['Trade sell sheet', 'Recess install video (90 s)', 'Recess airflow animation', 'Options-sheet artwork', 'Installation manuals', 'Partner Program sign-up'], 'd-installers-recessing',
+  'Direct and practical: what it saves on site. The reseller-certificate footnote is mandatory.');
 emailSlide('Dealers', 'Tungsten Series II Is Here: Stock It, Show It, Sell It',
   'Three tiers, a new recess kit and a launch kit for your showroom.',
-  ['Tungsten Series II gives your customers more reasons to say yes, and your team an easier story to tell.',
-    'Three tiers cover every budget conversation: Classic for style and value, Select for style, performance and recessing, Coastal for life by the water. Each is slimmer and lighter than before, rated IPX5, in black, white or graphite.',
-    'The new low-clearance recess kit opens shallow-ceiling jobs you could not quote before, and Affinity Smart-Heat® Controls bring dimming, schedules and timers to the customer\'s phone (compatible controls sold separately).',
-    'Book a 60-minute training session for your team, and download the showroom and social kit.'],
+  'More reasons for your customers to say yes, and an easier story for your team.',
+  [['Three tiers.', 'Classic for style and value, Select for performance and recessing, Coastal for life by the water.'],
+    ['Slimmer, lighter, tougher.', 'About 14% narrower, a third lighter, rated IPX5, with three years of cover.'],
+    ['New jobs to quote.', 'The low-clearance recess kit opens shallow ceilings you could not quote before.'],
+    ['Smart from day one.', 'Dimming, schedules and timers in the Bromic app (compatible Affinity controls sold separately).']],
+  'Book a 60-minute session for your team, and download the showroom and social kit.',
   'Book your team\'s training', ['Sell sheet and range card', 'Training booking link', 'Instagram and social ad kit', 'Showroom display guide', 'Launch photography'], 'l-006-028',
-  'Commercial and upbeat, no prices in the email; pricing goes through the dealer portal.');
+  'Commercial and upbeat; no prices in the email.');
 emailSlide('Designers', 'Heat That Belongs In The Design',
   'All black, all white or all graphite, with a front you choose.',
-  ['The best outdoor rooms feel finished down to the ceiling, and now the heater can, too.',
-    'Tungsten Series II comes in black, white or graphite from end to end, with a Diamond, oval or triangle front that changes without re-wiring. It is about 14% narrower than before, floats on a single post with no junction box in sight, and can sit flush in a shallow ceiling.',
-    'For the rest of the home, the Bromic family has a heater for every room: Platinum for a California room, Eclipse for the lounge, freestanding warmth for the open terrace.',
-    'Request a finish and front sample, and we will send the swatches with lookbook pages for your next presentation.'],
+  'The best outdoor rooms feel finished to the ceiling. Now the heater can, too.',
+  [['One finish, end to end.', 'Black, white or graphite, the front included.'],
+    ['A front for every mood.', 'Diamond, oval or triangle, swapped without re-wiring.'],
+    ['Seemingly floating.', 'About 14% narrower, on a single post with no junction box in sight.'],
+    ['A heater for every room.', 'Platinum for the California room, Eclipse for the lounge, Tungsten for the pergola.']],
+  'Request a finish and front sample; we will send swatches with lookbook pages for your next presentation.',
   'Request a finish sample', ['Finish and front swatches', 'Lookbook pages', 'Portfolio by space', 'Product renders for mood boards'], 't2-select-white',
-  'Visual and sensory; no specifications beyond what shapes the look.');
+  'Visual and sensory; nothing technical beyond what shapes the look.');
 
-// ---------- close ----------
+// ---------- close: clear asks ----------
 {
   const s = slide('CONTENT', 'Next steps');
-  kick(s, 'Before anything goes public', 'Open Checks And Owners');
-  const rows = [['Check', 'Owner', 'Why it matters'].map((t) => ({ text: t, options: { bold: true, color: 'FFFFFF', fill: { color: '231F20' }, fontSize: 11 } })),
-    ['Number of recess-kit fans, fire-rated lining, continuous-use guidance', 'Product team', 'The "dual fan-ventilated" and "only 6 kW" lines rest on these'],
-    ['"Only 6 kW recessed heater with a dual fan-ventilated low-clearance kit"', 'Specification and compliance', 'Competitive claim; Infratech, Lynx and Eurofase recess 6 kW in 2×8 framing'],
-    ['App timer behaviour and default', 'Product team; Digital marketing', 'bromic.com says a 4-hour default timer; confirm or correct the site'],
-    ['Coastal coating name and 316 body', 'Product team', 'Coastal message and ad c5'],
-    ['Series II listing number and Bromic-published warranty', 'Product team', 'Safety and warranty claims; training slides'],
-    ['Series II depth against Series I, measured the same way', 'Product team', 'Slimness claims use width and weight until then']];
-  s.addTable(rows, { x: M, y: 1.65, w: 12.13, colW: [5.0, 2.8, 4.33], fontFace: 'Arial', fontSize: 11.5, color: '4A4546', valign: 'middle', border: { type: 'solid', pt: 0.5, color: 'E3E3E1' }, margin: [0.09, 0.1, 0.09, 0.1] });
-  T(s, 'The live framework, with every source, is in the Content Hub under Product marketing.', { x: M, y: 6.3, w: 12.1, h: 0.4, fontSize: 12, color: STEEL, italic: true });
+  kick(s, 'Before anything goes public', 'Clear Asks, Clear Owners');
+  const col = (x, name, role, icon, asks) => {
+    card(s, x, 1.65, 5.95, 5.15, GREY, 'asks-' + icon);
+    ico(s, icon, x + 0.25, 1.85, 0.62, 'solid');
+    T(s, name, { x: x + 1.05, y: 1.82, w: 4.7, h: 0.4, fontFace: 'Bodoni MT', fontSize: 20, color: INK });
+    T(s, role.toUpperCase(), { x: x + 1.05, y: 2.24, w: 4.7, h: 0.3, fontSize: 9, bold: true, color: FLAME, charSpacing: 2 });
+    const runs = [];
+    asks.forEach(([lead, rest], k) => { runs.push({ text: lead + ' ', options: { bold: true, color: INK, bullet: { type: 'number' } } }); runs.push({ text: rest, options: { color: BODY, breakLine: k < asks.length - 1 } }); });
+    T(s, runs, { x: x + 0.25, y: 2.75, w: 5.45, h: 3.95, fontSize: 10.5, paraSpaceAfter: 5 });
+  };
+  col(M, 'Product and Channel Management', 'Product team and channel team', 'LuSlidersHorizontal', [
+    ['Recess kit facts.', 'Number of fans, any fire-rated lining, continuous-use guidance, slope limit.'],
+    ['45° tilt on 4 and 6 kW.', 'The Series II manual says 30°: correct the manual or the claim.'],
+    ['Warranty.', 'Confirm 3 years, element cover and Coastal terms, and publish them on bromic.com.'],
+    ['Coastal build.', '316 body and the coating name; listing number (the manual shows a placeholder) and IPX5.'],
+    ['App behaviour.', 'Timer default (bromic.com says 4 hours) and which freestanding heaters run on the app.'],
+    ['Channel.', 'Series I sell-through date, Classic in January, dealer stocking and training dates.'],
+    ['Partner Program.', 'Price tiers, qualifying products for the extra year, installer certificate process.'],
+  ]);
+  col(M + 6.18, 'Brand Marketing', 'Brand and marketing team', 'LuMegaphone', [
+    ['Messages.', 'Approve the eight lead messages and the claims per audience.'],
+    ['Airflow animation.', 'Commission the CAD-style recess airflow film with the Product team\'s CAD files.'],
+    ['454 Creative brief.', 'Landing page, sell sheet, spec sheet, and the eleven Instagram ads.'],
+    ['Photography.', 'Series II lifestyle shoots: Select and Coastal, three finishes, three fronts; clear rights.'],
+    ['Launch emails.', 'Approve the four emails; lists for architects, trade, dealers and designers; send dates.'],
+    ['Website fixes.', 'Series II product pages (currently 404), the app FAQ timer line, Lookbook graphite on Coastal, "star" to triangle.'],
+    ['Competitive sign-off.', 'Route every Infratech line through Specification and compliance before use.'],
+  ]);
 }
 
-pres.writeFile({ fileName: OUT }).then(async () => { await applyTheme(OUT, THEME); console.log('wrote', OUT); });
+await Promise.all(JOBS);
+await pres.writeFile({ fileName: OUT }); await applyTheme(OUT, THEME); console.log('wrote', OUT);
+}
+prep().then(build).catch((e) => { console.error(e); process.exit(1); });

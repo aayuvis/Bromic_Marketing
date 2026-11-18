@@ -115,33 +115,15 @@
  ],
  "benefits": [
   {
-   "id": "heat",
-   "name": "Heat performance",
-   "what": "Output from 2 to 6 kW, precise directional infrared warmth and coverage",
-   "proposed": false
-  },
-  {
-   "id": "install_flex",
-   "name": "Installation flexibility",
-   "what": "Wall, ceiling, single post, pitched ceilings and set angles",
-   "proposed": false
-  },
-  {
-   "id": "install_ease",
-   "name": "Ease of installation",
-   "what": "Familiar mounting, one kit across the range, quick to fit and quote",
-   "proposed": false
-  },
-  {
    "id": "recess",
    "name": "Recess ability",
    "what": "Flush in ceilings and soffits, now including shallow cavities",
    "proposed": false
   },
   {
-   "id": "safety",
-   "name": "Safety and peace of mind",
-   "what": "Electric infrared with no flame or fumes, listed hardware, set mounting heights",
+   "id": "heat",
+   "name": "Heat performance",
+   "what": "Output from 2 to 6 kW, precise directional infrared warmth and coverage",
    "proposed": false
   },
   {
@@ -151,21 +133,27 @@
    "proposed": false
   },
   {
-   "id": "design_flex",
-   "name": "Design flexibility",
-   "what": "Interchangeable fascias, colours, tiers and mounts to suit the design",
-   "proposed": false
-  },
-  {
    "id": "controls",
    "name": "Ease of controls",
    "what": "Affinity Smart-Heat® Controls: dimming, app, schedules, zones, wall switch",
    "proposed": false
   },
   {
-   "id": "warranty",
-   "name": "Warranty",
-   "what": "Manufacturer warranty, and partner extensions",
+   "id": "install_flex",
+   "name": "Installation flexibility",
+   "what": "Wall, ceiling, single post, pitched ceilings and set angles",
+   "proposed": false
+  },
+  {
+   "id": "safety",
+   "name": "Safety and peace of mind",
+   "what": "Electric infrared with no flame or fumes, listed hardware, set mounting heights",
+   "proposed": false
+  },
+  {
+   "id": "design_flex",
+   "name": "Design flexibility",
+   "what": "Interchangeable fascias, colours, tiers and mounts to suit the design",
    "proposed": false
   },
   {
@@ -175,15 +163,27 @@
    "proposed": false
   },
   {
-   "id": "coastal",
-   "name": "Durability by the coast",
-   "what": "Materials and finishes for salt air and rain",
-   "proposed": true
+   "id": "warranty",
+   "name": "Warranty",
+   "what": "Manufacturer warranty, and partner extensions",
+   "proposed": false
+  },
+  {
+   "id": "install_ease",
+   "name": "Ease of installation",
+   "what": "Familiar mounting, one kit across the range, quick to fit and quote",
+   "proposed": false
   },
   {
    "id": "support",
    "name": "Specification and support",
    "what": "Design service, documentation and partner support",
+   "proposed": true
+  },
+  {
+   "id": "coastal",
+   "name": "Durability by the coast",
+   "what": "Materials and finishes for salt air and rain",
    "proposed": true
   }
  ],
@@ -223,7 +223,7 @@
    },
    "warranty": {
     "w": 2,
-    "claim": "Backed by Bromic's manufacturer warranty, so the evenings outside are worry-free."
+    "claim": "Three years of cover, a year more than before, so the evenings outside are worry-free."
    },
    "multi_area": {
     "w": 2,
@@ -273,7 +273,7 @@
    },
    "warranty": {
     "w": 3,
-    "claim": "Series I cover is 2 years on the heater and 7 on the elements, and partners add a year on qualifying products."
+    "claim": "Three years on the heater, a year more than Series I, and a partner year on qualifying products."
    },
    "multi_area": {
     "w": 2,
@@ -295,7 +295,7 @@
    },
    "install_flex": {
     "w": 3,
-    "claim": "Ceiling; pitched ceilings from 3/12 (14°) to 12/12 (45°) with the adaptor; wall bracket or the cantilevered wall-mount adaptor; tilt up to 45° on 2 and 3 kW and up to 30° on 4 and 6 kW, re-angled later; single post; recessed in a 7.5 in cavity."
+    "claim": "Ceiling; pitched ceilings from 3/12 (14°) to 12/12 (45°) with the adaptor; wall bracket or the cantilevered wall-mount adaptor; tilt up to 45° on every model, re-angled later; single post; recessed in a 7.5 in cavity."
    },
    "install_ease": {
     "w": 3,
@@ -323,7 +323,7 @@
    },
    "warranty": {
     "w": 2,
-    "claim": "Series I: 2 years on the heater and 7 years on the elements, plus a partner year on qualifying products; one technical line, 1-800-301-1293."
+    "claim": "Three years on the heater (Series I: 2), plus a partner year on qualifying products; one technical line, 1-800-301-1293."
    },
    "multi_area": {
     "w": 2,
@@ -373,7 +373,7 @@
    },
    "warranty": {
     "w": 2,
-    "claim": "A manufacturer warranty on every heater, with support from a single partner."
+    "claim": "Three years of manufacturer cover on every heater, with support from a single partner."
    },
    "multi_area": {
     "w": 3,
@@ -395,7 +395,7 @@
    },
    "install_flex": {
     "w": 2,
-    "claim": "Detail flat or pitched ceilings (3/12 to 12/12), walls with brackets or the cantilevered wall-mount adaptor, tilt up to 45° (2 and 3 kW) or 30° (4 and 6 kW), single posts and recesses."
+    "claim": "Detail flat or pitched ceilings (3/12 to 12/12), walls with brackets or the cantilevered wall-mount adaptor, tilt up to 45° on every model, single posts and recesses."
    },
    "install_ease": {
     "w": 1,
@@ -423,7 +423,7 @@
    },
    "warranty": {
     "w": 1,
-    "claim": "Series I: 2 years on the heater, 7 years on the elements."
+    "claim": "Three years of manufacturer cover, a year more than Series I."
    },
    "multi_area": {
     "w": 2,
@@ -473,7 +473,7 @@
    },
    "warranty": {
     "w": 1,
-    "claim": "A manufacturer warranty behind every piece you specify."
+    "claim": "Three years of cover behind every heater you specify."
    },
    "multi_area": {
     "w": 2,
@@ -491,39 +491,18 @@
  },
  "m2": [
   {
+   "benefit": "recess",
+   "change": "new",
+   "s1": "Standard recess kit only, which needs a deep ceiling cavity (Bromic guidance: at least 20 in, with two layers of 5/8 in fireproof insulation). No low-clearance option for Tungsten.",
+   "s2": "Low-clearance recess kit: minimum cavity depth 7.5 in (190.5 mm), integrated cooling fans on an always-on supply under 1 A, recess box supplied with the kit, 94 in above the floor; Select kit in 304 stainless, Coastal kit in powder-coated 316 stainless, IPX5. Classic uses the existing recess kit. [[VERIFY: number of fans and any fire-rated lining — Product team]]",
+   "so_what": "Worry-free, vented 6 kW flush heat in shallow ceilings with no box to build: the only 6 kW recessed outdoor heater with a dual fan-ventilated, low-clearance recess kit and no site-built fire-rated box."
+  },
+  {
    "benefit": "heat",
    "change": "same",
    "s1": "2000, 3000, 4000 and 6000 W; coverage published as 65, 100, 130 and 160 ft² (product page; the manual says up to 64, 100, 120 and 144 ft²). Quartz-sheathed steel coil element; 4000 and 6000 W have two elements.",
    "s2": "Same four outputs on Select (2–6 kW, coverage up to 65, 100, 130 and 160 ft²); Classic adds 2 and 3 kW to its 4 and 6 kW; Coastal is 4 and 6 kW. Dual elements on 4 and 6 kW, dimmable in 1% steps with the Affinity Smart-Heat® Dimmer.",
    "so_what": "The warmth customers trust carries straight over: the story is design and fit, with no trade-off in heat."
-  },
-  {
-   "benefit": "install_flex",
-   "change": "better",
-   "s1": "Wall (straight or 30°), ceiling, chain or 3 ft tube suspension, and recessed.",
-   "s2": "Ceiling, pitched ceiling with the adaptor (3/12 to 12/12, launch deck), wall bracket, cantilevered wall-mount adaptor, single post, tilt up to 45° on 2 and 3 kW and up to 30° on 4 and 6 kW, and low-clearance recessing in a 7.5 in cavity (flat or gently sloping ceilings, up to 1/4 in per inch).",
-   "so_what": "Vaulted porches, gables and angled walls are now standard details rather than custom work."
-  },
-  {
-   "benefit": "install_ease",
-   "change": "better",
-   "s1": "Tube suspension uses two suspension tubes (sold separately); recessing needs an installer-built ceiling box in Hardie or cement board.",
-   "s2": "A single post replaces the two suspension tubes; recessing needs no box built on site, because the low-clearance kit is the recess; one kit serves Select and Coastal; Classic keeps Series I mounting.",
-   "so_what": "No box to build and fewer fixings: recessed and suspended installs become quick, one-trade jobs."
-  },
-  {
-   "benefit": "recess",
-   "change": "new",
-   "s1": "Standard recess kit only, which needs a deep ceiling cavity (Bromic guidance: at least 20 in, with two layers of 5/8 in fireproof insulation). No low-clearance option for Tungsten.",
-   "s2": "Low-clearance recess kit: minimum cavity depth 7.5 in (190.5 mm), integrated cooling fans on an always-on supply under 1 A, recess box supplied with the kit, 94 in above the floor; Select kit in 304 stainless, Coastal kit in powder-coated 316 stainless, IPX5. Classic uses the existing recess kit. [[VERIFY: number of fans and any fire-rated lining — Product team]]",
-   "so_what": "Safe, vented 6 kW flush heat in shallow ceilings with no box to build: the only 6 kW recessed outdoor heater with a dual fan-ventilated, low-clearance recess kit and no site-built fire-rated box."
-  },
-  {
-   "benefit": "safety",
-   "change": "better",
-   "s1": "Intertek ETL/cETL listed; IPX4; minimum mounting 72 in on a wall and 96 in on a ceiling (96 in in all cases in Canada); designed for intermittent use.",
-   "s2": "IPX5 (Series I: IPX4); minimum mounting 71–72 in on a wall, 96 in on a ceiling, 94 in recessed; the low-clearance recess kit has integrated cooling fans; app schedules and timers. [[VERIFY: ETL/cETL number for Series II (manual shows a placeholder) — Product team]]",
-   "so_what": "A tougher IPX5 rating and fan-cooled recessing: peace of mind that has measurably improved."
   },
   {
    "benefit": "aesthetics",
@@ -533,13 +512,6 @@
    "so_what": "A visibly slimmer, more designed heater: the reason to choose Series II at first glance."
   },
   {
-   "benefit": "design_flex",
-   "change": "new",
-   "s1": "One fascia design; two colours on the larger models.",
-   "s2": "Three fascia options on Select (Diamond Pattern standard; traditional oval and triangle sold separately); black, white and graphite (graphite on 4 and 6 kW). Three tiers: Classic, Select, Coastal.",
-   "so_what": "Designers can match the heater to the room and change the look later, without changing the heater."
-  },
-  {
    "benefit": "controls",
    "change": "same",
    "s1": "Affinity Smart-Heat® On/Off and Dimmer controllers and the manual wall switch; the two elements on 4000/6000 W can be switched separately.",
@@ -547,11 +519,25 @@
    "so_what": "Nothing new to learn for installers or homeowners: the same app, dimmer and wall switch."
   },
   {
-   "benefit": "warranty",
-   "change": "same",
-   "s1": "2 years on the heater, 7 years on the elements; replacement heater or part, owner pays labour and shipping.",
-   "s2": "Dealers list 2 years on the heater and 7 years on the elements for Select, Coastal and the recess kit; partners receive an additional year on qualifying products. [[VERIFY: Bromic-published Series II and Coastal warranty — Product team]]",
-   "so_what": "Confirm whether Coastal's marine-grade build earns longer cover: it would be a strong launch message."
+   "benefit": "install_flex",
+   "change": "better",
+   "s1": "Wall (straight or 30°), ceiling, chain or 3 ft tube suspension, and recessed.",
+   "s2": "Ceiling, pitched ceiling with the adaptor (3/12 to 12/12, launch deck), wall bracket, cantilevered wall-mount adaptor, single post, tilt up to 45° on every model, and low-clearance recessing in a 7.5 in cavity (flat or gently sloping ceilings, up to 1/4 in per inch).",
+   "so_what": "Vaulted porches, gables and angled walls are now standard details rather than custom work."
+  },
+  {
+   "benefit": "safety",
+   "change": "better",
+   "s1": "Intertek ETL/cETL listed; IPX4; minimum mounting 72 in on a wall and 96 in on a ceiling (96 in in all cases in Canada); designed for intermittent use.",
+   "s2": "IPX5 (Series I: IPX4); minimum mounting 71–72 in on a wall, 96 in on a ceiling, 94 in recessed; the low-clearance recess kit has integrated cooling fans; app schedules and timers. [[VERIFY: ETL/cETL number for Series II (manual shows a placeholder) — Product team]]",
+   "so_what": "A tougher IPX5 rating and fan-cooled recessing: peace of mind that has measurably improved."
+  },
+  {
+   "benefit": "design_flex",
+   "change": "new",
+   "s1": "One fascia design; two colours on the larger models.",
+   "s2": "Three fascia options on Select (Diamond Pattern standard; traditional oval and triangle sold separately); black, white and graphite (graphite on 4 and 6 kW). Three tiers: Classic, Select, Coastal.",
+   "so_what": "Designers can match the heater to the room and change the look later, without changing the heater."
   },
   {
    "benefit": "multi_area",
@@ -561,11 +547,18 @@
    "so_what": "One brand and one app for every outdoor room of the home."
   },
   {
-   "benefit": "coastal",
-   "change": "new",
-   "s1": "Not rated for marine use: Bromic advises mounting under cover, away from rain, snow and salt mist; stainless grade not published.",
-   "s2": "Tungsten Coastal: high-temperature corrosion-resistant coating over a marine-grade build (316 per the Lookbook), with a powder-coated 316 stainless recess kit, IPX5. Not for installation on marine craft. [[VERIFY: Coastal body material and coating name — Product team]]",
-   "so_what": "Tungsten can now be sold to coastal homes and waterfront venues, a market Series I could not serve."
+   "benefit": "warranty",
+   "change": "better",
+   "s1": "2 years on the heater, 7 years on the elements; replacement heater or part, owner pays labour and shipping.",
+   "s2": "3 years on the heater (owner, Nov 2026), up from 2 years on Series I; partners receive an additional year on qualifying products. [[VERIFY: Series II element cover (Series I: 7 years) and Coastal terms, and publication of the 3-year warranty on bromic.com — Product team]]",
+   "so_what": "A year more cover than Series I, matching Infratech's 3 years, with a partner year on top."
+  },
+  {
+   "benefit": "install_ease",
+   "change": "better",
+   "s1": "Tube suspension uses two suspension tubes (sold separately); recessing needs an installer-built ceiling box in Hardie or cement board.",
+   "s2": "A single post replaces the two suspension tubes; recessing needs no box built on site, because the low-clearance kit is the recess; one kit serves Select and Coastal; Classic keeps Series I mounting.",
+   "so_what": "No box to build and fewer fixings: recessed and suspended installs become quick, one-trade jobs."
   },
   {
    "benefit": "support",
@@ -573,12 +566,51 @@
    "s1": "Installation manual, cut sheet, design service and technical support.",
    "s2": "The same support, plus new launch literature, photography and training. [[VERIFY: Series II manuals, CAD and Revit files at launch — Product team]]",
    "so_what": "Make sure trade files are live on launch day: specifiers will look for them first."
+  },
+  {
+   "benefit": "coastal",
+   "change": "new",
+   "s1": "Not rated for marine use: Bromic advises mounting under cover, away from rain, snow and salt mist; stainless grade not published.",
+   "s2": "Tungsten Coastal: high-temperature corrosion-resistant coating over a marine-grade build (316 per the Lookbook), with a powder-coated 316 stainless recess kit, IPX5. Not for installation on marine craft. [[VERIFY: Coastal body material and coating name — Product team]]",
+   "so_what": "Tungsten can now be sold to coastal homes and waterfront venues, a market Series I could not serve."
   }
  ],
  "m3": {
   "competitor": "Infratech",
   "owner": "Platinum Equity (acquisition announced May 2026)",
   "rows": [
+   {
+    "benefit": "recess",
+    "edge": "bromic",
+    "infratech": "W/WD models flush-mount in a framed pocket: \"MIN. 2 x 8\", lined and sealed on all five sides with 5/8 in Type X drywall, \"ONLY to be used on a flat non-sloped ceiling\", junction box outside the pocket; no fans are shown in Infratech's documents; \"After 4 hours of continuous use, a 15 minute cool down period is recommended for maximum heater longevity\". No low-clearance kit; Motif covers cannot be recessed.",
+    "bromic": "Tungsten Series II is the only 6 kW recessed outdoor heater with a dual fan-ventilated, low-clearance recess kit and no site-built fire-rated box: dual fan-ventilated, a 7.5 in cavity, a marine-grade version for Coastal. It is not the shallowest: lead with the venting and the box-free install, never with \"only\" or depth alone. [[VERIFY: that the low-clearance kit needs no fire-rated lining or enclosure under its listing, and that 7.5 in is the cavity depth — Product team; competitor check signed off — Specification and compliance]]",
+    "users": {
+     "RES": {
+      "w": 3,
+      "claim": "Flush and dual fan-ventilated, so you can enjoy the whole evening without a cool-down."
+     },
+     "BLD": {
+      "w": 3,
+      "claim": "No framed, five-sided fire-rated pocket to build: the kit is the recess."
+     },
+     "INS": {
+      "w": 3,
+      "claim": "Dual fan ventilation manages the heat in the cavity: a simpler, worry-free recess."
+     },
+     "COM": {
+      "w": 2,
+      "claim": "6 kW, flush, dual fan-ventilated, with no fire-rated box to build and no cool-down advice."
+     },
+     "ARC": {
+      "w": 3,
+      "claim": "The only dual fan-ventilated 6 kW recess kit found, with no site-built fire-rated box to detail."
+     },
+     "DES": {
+      "w": 3,
+      "claim": "A clean, flush ceiling, worry-free ventilation."
+     }
+    }
+   },
    {
     "benefit": "heat",
     "edge": "parity",
@@ -608,134 +640,6 @@
      "DES": {
       "w": 2,
       "claim": "Talk about where the warmth lands, not the wattage."
-     }
-    }
-   },
-   {
-    "benefit": "install_flex",
-    "edge": "bromic",
-    "infratech": "Wall, ceiling, flush, pole and drop pole; the flush frame \"is ONLY to be used on a flat non-sloped ceiling\" and \"cannot be installed on a pitched angle\".",
-    "bromic": "Ceiling, pitched ceiling (3/12 to 12/12), wall and extended wall, single post, angle adjustable up to 45° on 2 and 3 kW and 30° on 4 and 6 kW, changeable later, and low-clearance recessing.",
-    "users": {
-     "RES": {
-      "w": 2,
-      "claim": "Vaulted porch or gable? Tungsten mounts neatly to a pitched ceiling with a dedicated adaptor."
-     },
-     "BLD": {
-      "w": 2,
-      "claim": "Pitched-ceiling adaptor and single post handle the porches and gables in your plans."
-     },
-     "INS": {
-      "w": 3,
-      "claim": "Tilt up to 45° on 2 and 3 kW and 30° on 4 and 6 kW, plus a pitched-ceiling adaptor, take the guesswork out of angled mounts."
-     },
-     "COM": {
-      "w": 2,
-      "claim": "A slim single post suits canopies and pergolas where ceilings are not flat."
-     },
-     "ARC": {
-      "w": 2,
-      "claim": "Detail heaters on pitched ceilings and posts with standard Bromic hardware."
-     },
-     "DES": {
-      "w": 2,
-      "claim": "Heat follows the architecture, flat ceiling or not."
-     }
-    }
-   },
-   {
-    "benefit": "install_ease",
-    "edge": "bromic",
-    "infratech": "Flush frames need a framed pocket of at least 2×8, lined and sealed on five sides with 5/8 in Type X drywall, junction box outside the pocket. Pole mount: one post on a 10 × 10 in base; drop-pole suspension uses a pair of rods per heater.",
-    "bromic": "One post instead of two suspension tubes (Series I) or a pair of drop rods (Infratech); recessing in a recess box supplied with the kit, so nothing to build on site; one kit across Select and Coastal.",
-    "users": {
-     "RES": {
-      "w": 1,
-      "claim": "No box to build in your ceiling: a tidier, faster recessed install."
-     },
-     "BLD": {
-      "w": 3,
-      "claim": "No framed, lined pocket to build: the kit is the recess."
-     },
-     "INS": {
-      "w": 3,
-      "claim": "No box, no five-sided lining: fit the kit and the heater, and move on."
-     },
-     "COM": {
-      "w": 1,
-      "claim": "Recessed heat without extra trades on site."
-     },
-     "ARC": {
-      "w": 1,
-      "claim": "A simpler recess detail with no site-built box."
-     },
-     "DES": {
-      "w": 1,
-      "claim": "Flush heat without the building work."
-     }
-    }
-   },
-   {
-    "benefit": "recess",
-    "edge": "bromic",
-    "infratech": "W/WD models flush-mount in a framed pocket: \"MIN. 2 x 8\", lined and sealed on all five sides with 5/8 in Type X drywall, \"ONLY to be used on a flat non-sloped ceiling\", junction box outside the pocket; no fans are shown in Infratech's documents; \"After 4 hours of continuous use, a 15 minute cool down period is recommended for maximum heater longevity\". No low-clearance kit; Motif covers cannot be recessed.",
-    "bromic": "Tungsten Series II is the only 6 kW recessed outdoor heater with a dual fan-ventilated, low-clearance recess kit and no site-built fire-rated box: dual fan-ventilated, a 7.5 in cavity, a marine-grade version for Coastal. It is not the shallowest: lead with the venting and the box-free install, never with \"only\" or depth alone. [[VERIFY: that the low-clearance kit needs no fire-rated lining or enclosure under its listing, and that 7.5 in is the cavity depth — Product team; competitor check signed off — Specification and compliance]]",
-    "users": {
-     "RES": {
-      "w": 3,
-      "claim": "Flush and dual fan-ventilated, so you can enjoy the whole evening without a cool-down."
-     },
-     "BLD": {
-      "w": 3,
-      "claim": "No framed, five-sided fire-rated pocket to build: the kit is the recess."
-     },
-     "INS": {
-      "w": 3,
-      "claim": "Dual fan ventilation manages the heat in the cavity: a simpler, safer recess."
-     },
-     "COM": {
-      "w": 2,
-      "claim": "6 kW, flush, dual fan-ventilated, with no fire-rated box to build and no cool-down advice."
-     },
-     "ARC": {
-      "w": 3,
-      "claim": "The only dual fan-ventilated 6 kW recess kit found, with no site-built fire-rated box to detail."
-     },
-     "DES": {
-      "w": 3,
-      "claim": "A clean, flush ceiling, safely ventilated."
-     }
-    }
-   },
-   {
-    "benefit": "safety",
-    "edge": "bromic",
-    "infratech": "UL and cUL listed, IPX4. Flush frame: a 15-minute cool-down is recommended after 4 hours of continuous use. Smart Switch app control is on/off with a built-in 2-hour timer.",
-    "bromic": "Tungsten Series II is rated IPX5 (Infratech: IPX4); the low-clearance recess kit has integrated cooling fans; the Bromic app switches heaters off remotely, runs schedules and timers. [[VERIFY: continuous-use guidance for the recess kit — Product team]]",
-    "users": {
-     "RES": {
-      "w": 3,
-      "claim": "IPX5 weather protection, a fan-cooled recess, and an app that switches the heat off from anywhere, on a schedule or on a timer."
-     },
-     "BLD": {
-      "w": 2,
-      "claim": "Peace of mind buyers can see: dual fan-ventilated recessing, app schedules, remote off and timers."
-     },
-     "INS": {
-      "w": 2,
-      "claim": "IPX5, minimum heights of 72 in wall, 96 in ceiling and 94 in recessed, and a fan-cooled recess kit on an always-on supply under 1 A."
-     },
-     "COM": {
-      "w": 3,
-      "claim": "Heat through the whole service with no cool-down break, and a schedule that switches off at close."
-     },
-     "ARC": {
-      "w": 2,
-      "claim": "Specify IPX5, a fan-cooled recess kit and app schedules and timers."
-     },
-     "DES": {
-      "w": 1,
-      "claim": "Warmth that stays on all evening and switches itself off on schedule."
      }
     }
    },
@@ -772,38 +676,6 @@
     }
    },
    {
-    "benefit": "design_flex",
-    "edge": "bromic",
-    "infratech": "Brushed stainless or eight powder-coated colours plus custom on C/CD and W/WD, with the reflector and wire guard stainless; Motif decorative covers fit C/CD surface-mount models only and cannot be used flush; SL in silver or All Black Shadow.",
-    "bromic": "Three finishes (black, white, graphite) carried through to the front, and three fronts (Diamond, oval, triangle) that swap without re-wiring. [[VERIFY: fronts available on recessed installs — Product team]]",
-    "users": {
-     "RES": {
-      "w": 2,
-      "claim": "Choose the finish for the whole heater and the pattern of its fascia, and change the fascia later."
-     },
-     "BLD": {
-      "w": 2,
-      "claim": "Three finishes and three fascias to suit every elevation."
-     },
-     "INS": {
-      "w": 1,
-      "claim": "Swap fascias without re-wiring or re-mounting."
-     },
-     "COM": {
-      "w": 2,
-      "claim": "Coordinate finish and fascia with each space of the venue."
-     },
-     "ARC": {
-      "w": 3,
-      "claim": "Patterned fascias specified across mounting conditions, including recessed."
-     },
-     "DES": {
-      "w": 3,
-      "claim": "Finish and pattern chosen together, for a heater that reads as part of the design."
-     }
-    }
-   },
-   {
     "benefit": "controls",
     "edge": "bromic",
     "infratech": "Two app routes through Bond: a Smart Dimmer with the Universal Control Panel (dimming, timing, zoning) or a Smart Switch with the Enhanced Timer Package (on/off only, up to two heaters, built-in 2-hour timer); schedules through home-management systems such as Lutron and Crestron; competitor controls may void the warranty.",
@@ -836,34 +708,98 @@
     }
    },
    {
-    "benefit": "warranty",
-    "edge": "parity",
-    "infratech": "3 years; Elite Retailers and the Installer Program can add a fourth year; not transferable; the 2024 terms cover replacement parts only and exclude labour; competitor controls may void cover; elements rated to 5,000 hours.",
-    "bromic": "Dealers list 2 years on the heater and 7 years on the elements for Series II and the recess kit; partners receive an additional year on qualifying products. [[VERIFY: Bromic-published Series II warranty — Product team]]",
+    "benefit": "install_flex",
+    "edge": "bromic",
+    "infratech": "Wall, ceiling, flush, pole and drop pole; the flush frame \"is ONLY to be used on a flat non-sloped ceiling\" and \"cannot be installed on a pitched angle\".",
+    "bromic": "Ceiling, pitched ceiling (3/12 to 12/12), wall and extended wall, single post, angle adjustable up to 45°, changeable later, and low-clearance recessing.",
     "users": {
      "RES": {
       "w": 2,
-      "claim": "Seven years of cover on the heating elements."
+      "claim": "Vaulted porch or gable? Tungsten mounts neatly to a pitched ceiling with a dedicated adaptor."
      },
      "BLD": {
-      "w": 3,
-      "claim": "Partner warranty extension on qualifying products."
+      "w": 2,
+      "claim": "Pitched-ceiling adaptor and single post handle the porches and gables in your plans."
      },
      "INS": {
-      "w": 2,
-      "claim": "One manufacturer stands behind heater and controls."
+      "w": 3,
+      "claim": "Tilt up to 45° on every model, plus a pitched-ceiling adaptor, take the guesswork out of angled mounts."
      },
      "COM": {
       "w": 2,
-      "claim": "Long element cover protects the part that works hardest."
+      "claim": "A slim single post suits canopies and pergolas where ceilings are not flat."
      },
      "ARC": {
-      "w": 1,
-      "claim": "Element cover the client can count on."
+      "w": 2,
+      "claim": "Detail heaters on pitched ceilings and posts with standard Bromic hardware."
+     },
+     "DES": {
+      "w": 2,
+      "claim": "Heat follows the architecture, flat ceiling or not."
+     }
+    }
+   },
+   {
+    "benefit": "safety",
+    "edge": "bromic",
+    "infratech": "UL and cUL listed, IPX4. Flush frame: a 15-minute cool-down is recommended after 4 hours of continuous use. Smart Switch app control is on/off with a built-in 2-hour timer.",
+    "bromic": "Tungsten Series II is rated IPX5 (Infratech: IPX4); the low-clearance recess kit has integrated cooling fans; the Bromic app switches heaters off remotely, runs schedules and timers. [[VERIFY: continuous-use guidance for the recess kit — Product team]]",
+    "users": {
+     "RES": {
+      "w": 3,
+      "claim": "IPX5 weather protection, a fan-cooled recess, and an app that switches the heat off from anywhere, on a schedule or on a timer."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "Peace of mind buyers can see: dual fan-ventilated recessing, app schedules, remote off and timers."
+     },
+     "INS": {
+      "w": 2,
+      "claim": "IPX5, minimum heights of 72 in wall, 96 in ceiling and 94 in recessed, and a fan-cooled recess kit on an always-on supply under 1 A."
+     },
+     "COM": {
+      "w": 3,
+      "claim": "Heat through the whole service with no cool-down break, and a schedule that switches off at close."
+     },
+     "ARC": {
+      "w": 2,
+      "claim": "Specify IPX5, a fan-cooled recess kit and app schedules and timers."
      },
      "DES": {
       "w": 1,
-      "claim": "Cover that matches the life of the design."
+      "claim": "Warmth that stays on all evening and switches itself off on schedule."
+     }
+    }
+   },
+   {
+    "benefit": "design_flex",
+    "edge": "bromic",
+    "infratech": "Brushed stainless or eight powder-coated colours plus custom on C/CD and W/WD, with the reflector and wire guard stainless; Motif decorative covers fit C/CD surface-mount models only and cannot be used flush; SL in silver or All Black Shadow.",
+    "bromic": "Three finishes (black, white, graphite) carried through to the front, and three fronts (Diamond, oval, triangle) that swap without re-wiring. [[VERIFY: fronts available on recessed installs — Product team]]",
+    "users": {
+     "RES": {
+      "w": 2,
+      "claim": "Choose the finish for the whole heater and the pattern of its fascia, and change the fascia later."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "Three finishes and three fascias to suit every elevation."
+     },
+     "INS": {
+      "w": 1,
+      "claim": "Swap fascias without re-wiring or re-mounting."
+     },
+     "COM": {
+      "w": 2,
+      "claim": "Coordinate finish and fascia with each space of the venue."
+     },
+     "ARC": {
+      "w": 3,
+      "claim": "Patterned fascias specified across mounting conditions, including recessed."
+     },
+     "DES": {
+      "w": 3,
+      "claim": "Finish and pattern chosen together, for a heater that reads as part of the design."
      }
     }
    },
@@ -900,34 +836,66 @@
     }
    },
    {
-    "benefit": "coastal",
-    "edge": "bromic",
-    "infratech": "316 stainless as a Marine UpGrade at extra cost on C/CD, W/WD and flush frames (not SL); no protective coating beyond the colour powder coat is described; the manual notes 316 is not fully corrosion-proof.",
-    "bromic": "Tungsten Coastal: a high-temperature corrosion-resistant coating over a marine-grade build (316 per the Lookbook) as standard, with a powder-coated 316 stainless recess kit rated IPX5. Not for installation on boats. [[VERIFY: Coastal body material and coating name — Product team]]",
+    "benefit": "warranty",
+    "edge": "parity",
+    "infratech": "3 years; Elite Retailers and the Installer Program can add a fourth year; not transferable; the 2024 terms cover replacement parts only and exclude labour; competitor controls may void cover; elements rated to 5,000 hours.",
+    "bromic": "Tungsten Series II: 3 years on the heater, with an additional year for partners on qualifying products. [[VERIFY: Series II element cover (Series I: 7 years) and Coastal terms, and publication of the 3-year warranty on bromic.com — Product team]]",
     "users": {
      "RES": {
       "w": 2,
-      "claim": "Double protection by the sea: 316 marine-grade stainless plus a protective coating."
+      "claim": "Three years of cover on your Tungsten Series II."
      },
      "BLD": {
-      "w": 2,
-      "claim": "Coastal developments get double corrosion protection as standard, not as an upgrade."
+      "w": 3,
+      "claim": "Three years on the heater, and a partner year on qualifying products."
      },
      "INS": {
       "w": 2,
-      "claim": "Marine-grade heater, protective coating and marine-grade recess kit for every coastal job."
+      "claim": "Three years on the heater, plus a partner year; one technical line, 1-800-301-1293."
      },
      "COM": {
-      "w": 3,
-      "claim": "Double corrosion protection for waterfront venues, recessed or surface-mounted."
+      "w": 2,
+      "claim": "Three years of cover on every heater, with support from one partner."
      },
      "ARC": {
-      "w": 2,
-      "claim": "Specify dual corrosion protection and a marine-grade recess as one system."
+      "w": 1,
+      "claim": "Specify a heater with three years of manufacturer cover."
      },
      "DES": {
       "w": 1,
-      "claim": "Coastal finishes protected twice over, so they keep their looks by the sea."
+      "claim": "Three years of cover behind every heater you specify."
+     }
+    }
+   },
+   {
+    "benefit": "install_ease",
+    "edge": "bromic",
+    "infratech": "Flush frames need a framed pocket of at least 2×8, lined and sealed on five sides with 5/8 in Type X drywall, junction box outside the pocket. Pole mount: one post on a 10 × 10 in base; drop-pole suspension uses a pair of rods per heater.",
+    "bromic": "One post instead of two suspension tubes (Series I) or a pair of drop rods (Infratech); recessing in a recess box supplied with the kit, so nothing to build on site; one kit across Select and Coastal.",
+    "users": {
+     "RES": {
+      "w": 1,
+      "claim": "No box to build in your ceiling: a tidier, faster recessed install."
+     },
+     "BLD": {
+      "w": 3,
+      "claim": "No framed, lined pocket to build: the kit is the recess."
+     },
+     "INS": {
+      "w": 3,
+      "claim": "No box, no five-sided lining: fit the kit and the heater, and move on."
+     },
+     "COM": {
+      "w": 1,
+      "claim": "Recessed heat without extra trades on site."
+     },
+     "ARC": {
+      "w": 1,
+      "claim": "A simpler recess detail with no site-built box."
+     },
+     "DES": {
+      "w": 1,
+      "claim": "Flush heat without the building work."
      }
     }
    },
@@ -960,6 +928,38 @@
      "DES": {
       "w": 2,
       "claim": "Project spotlights that showcase your work."
+     }
+    }
+   },
+   {
+    "benefit": "coastal",
+    "edge": "bromic",
+    "infratech": "316 stainless as a Marine UpGrade at extra cost on C/CD, W/WD and flush frames (not SL); no protective coating beyond the colour powder coat is described; the manual notes 316 is not fully corrosion-proof.",
+    "bromic": "Tungsten Coastal: a high-temperature corrosion-resistant coating over a marine-grade build (316 per the Lookbook) as standard, with a powder-coated 316 stainless recess kit rated IPX5. Not for installation on boats. [[VERIFY: Coastal body material and coating name — Product team]]",
+    "users": {
+     "RES": {
+      "w": 2,
+      "claim": "Double protection by the sea: 316 marine-grade stainless plus a protective coating."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "Coastal developments get double corrosion protection as standard, not as an upgrade."
+     },
+     "INS": {
+      "w": 2,
+      "claim": "Marine-grade heater, protective coating and marine-grade recess kit for every coastal job."
+     },
+     "COM": {
+      "w": 3,
+      "claim": "Double corrosion protection for waterfront venues, recessed or surface-mounted."
+     },
+     "ARC": {
+      "w": 2,
+      "claim": "Specify dual corrosion protection and a marine-grade recess as one system."
+     },
+     "DES": {
+      "w": 1,
+      "claim": "Coastal finishes protected twice over, so they keep their looks by the sea."
      }
     }
    }
@@ -1261,11 +1261,11 @@
   {
    "id": "p2",
    "title": "Mounts Wherever The Evening Happens",
-   "line": "Flat ceiling, pitched ceiling, wall or extended wall bracket, angled up to 45° (2 and 3 kW) or 30° (4 and 6 kW) and re-angled later, or recessed flush in a low-clearance ceiling: one heater for every setting.",
+   "line": "Flat ceiling, pitched ceiling, wall or extended wall bracket, angled up to 45° and re-angled later, or recessed flush in a low-clearance ceiling: one heater for every setting.",
    "proof": [
     "Pitched-ceiling adaptor, 3/12 to 12/12",
     "Wall brackets and the cantilevered wall-mount adaptor",
-    "Adjustable angle: up to 45° (2 and 3 kW), 30° (4 and 6 kW)",
+    "Adjustable angle up to 45°, 6 kW included",
     "Low-clearance recess with 7.5 in clearance"
    ],
    "benefits": [
@@ -1279,7 +1279,7 @@
   },
   {
    "id": "p3",
-   "title": "Safe, Dual Fan-Ventilated 6 kW Recessing",
+   "title": "Worry-Free, Dual Fan-Ventilated 6 kW Recessing",
    "line": "Tungsten Series II is the only 6 kW recessed outdoor heater with a dual fan-ventilated, low-clearance recess kit: it sits flush in a 7.5 in ceiling cavity in a recess box supplied with the kit, and the Bromic app switches it off remotely, on a schedule or on a timer.",
    "proof": [
     "Minimum cavity depth 7.5 in (190.5 mm), Series II recess kit manual",
@@ -1678,12 +1678,12 @@
    "format": "Carousel, 4:5, 6 cards",
    "hook": "Card 1: one heater shown in five mounting conditions.",
    "headline": "One Heater. Every Mounting Condition.",
-   "primary_text": "Flat or pitched ceilings from 3/12 to 12/12, wall bracket or the cantilevered wall-mount adaptors, tilt up to 45° (2 and 3 kW) or 30° (4 and 6 kW), a single post, or recessed.",
+   "primary_text": "Flat or pitched ceilings from 3/12 to 12/12, wall bracket or the cantilevered wall-mount adaptors, tilt up to 45° on every model, a single post, or recessed.",
    "cta": "Learn More",
    "visual": "Clean line drawings or renders per condition, with the spec number large on each card.",
    "claims": [
     "Pitched-ceiling adaptor, 3/12 to 12/12",
-    "Bracket tilt up to 45° (2 and 3 kW) or 30° (4 and 6 kW)",
+    "Bracket tilt up to 45° on every model",
     "Standard and extended wall brackets",
     "Single post",
     "Recess in a 7.5 in cavity"
@@ -1700,7 +1700,7 @@
    "cards": [
     "One heater, every mounting condition",
     "Pitched ceilings: 3/12 to 12/12",
-    "Angles: up to 45° on 2–3 kW, 30° on 4–6 kW, re-angled later",
+    "Angles: up to 45°, re-angled later",
     "Walls: bracket or cantilevered wall-mount adaptor",
     "Single post: one fixing point",
     "Recessed: 7.5 in cavity"
@@ -1793,7 +1793,7 @@
    "audience": "Builders, installers",
    "claims": [
     "6 kW recessed in a 7.5 in cavity, dual fan-ventilated, no site-built box",
-    "Pitched ceilings 3/12–12/12; tilt up to 45° (2–3 kW) or 30° (4–6 kW)",
+    "Pitched ceilings 3/12–12/12; tilt up to 45°",
     "One post, not two; no visible junction box",
     "Good, Better, Best tiers"
    ],
@@ -1811,6 +1811,18 @@
    ],
    "brief": "Update A11 spec kit and Section 23 83 33 language; publish Revit families at launch.",
    "owner": "Specification and compliance"
+  },
+  {
+   "name": "Low-clearance recess airflow animation",
+   "channel": "Website, YouTube, trade shows, sales and training",
+   "audience": "Architects, builders, installers, dealers",
+   "claims": [
+    "Dual fan-ventilated low-clearance recess",
+    "6 kW in a 7.5 in cavity",
+    "Recess box supplied: nothing to build on site"
+   ],
+   "brief": "A CAD-style animated cutaway (30–60 s, no voice-over needed): the ceiling cavity in section, the recess box and heater in place, the cooling fans drawing air in and out, with the airflow shown as animated arrows and temperature colour; end on the heater glowing flush in the finished ceiling. Built from the Product team's CAD files; one cut-down for Instagram Reels.",
+   "owner": "Product team with Marketing"
   },
   {
    "name": "Low-clearance recess install video",
@@ -1880,5 +1892,8 @@
    "owner": "Specification and compliance"
   }
  ],
- "deck": "decks/Tungsten-Series-II-Launch-Playbook.pptx"
+ "deck": "decks/Tungsten-Series-II-Launch-Playbook.pptx",
+ "benefit_order_note": "Ordered by priority: total weight across the six audiences (3 matters most, 2 matters, 1 nice to have), ties broken by the owner's order; proposed fields last.",
+ "tilt_verify": "[[VERIFY: 45° tilt on 4 and 6 kW (owner, 18 Nov 2026) against the Series II manual, which gives a 30° maximum for 4 and 6 kW — Product team: correct the manual or the claim]]",
+ "warranty_note": "Series II warranty: 3 years (owner, 18 Nov 2026). [[VERIFY: Series II element cover (Series I: 7 years) and Coastal terms, and publication of the 3-year warranty on bromic.com — Product team]]"
 }
