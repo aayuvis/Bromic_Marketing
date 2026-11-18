@@ -1,0 +1,110 @@
+{
+ "_readme": "Bromic portfolio carousel. Close-ups cropped from Bromic's own full-resolution photography (bromic.com wp-content/uploads, Lookbook 2026) and product renders; images/portfolio/. Rights as for the source image: [[VERIFY: image rights – Marketing]].",
+ "items": [
+  {
+   "id": "tungsten-series-ii",
+   "collection": "TUNGSTEN",
+   "name": "Tungsten Smart-Heat® Electric Series II",
+   "line": "Slimmer, with three finishes and three fronts",
+   "img": "images/portfolio/tungsten-series-ii.webp",
+   "source": "Bromic product render (t2-select-black)"
+  },
+  {
+   "id": "tungsten-electric",
+   "collection": "TUNGSTEN",
+   "name": "Tungsten Smart-Heat® Electric",
+   "line": "Precise directional infrared heat",
+   "img": "images/portfolio/tungsten-electric.webp",
+   "source": "bromic.com",
+   "source_url": "https://www.bromic.com/wp-content/uploads/sites/2/2023/08/2014-01-29-17.10.54-scaled.jpg"
+  },
+  {
+   "id": "tungsten-coastal",
+   "collection": "TUNGSTEN",
+   "name": "Tungsten Smart-Heat® Electric, Coastal",
+   "line": "Built for life by the water",
+   "img": "images/portfolio/tungsten-coastal.webp",
+   "source": "Bromic Lookbook 2026 (l-005-020)"
+  },
+  {
+   "id": "platinum-electric",
+   "collection": "PLATINUM",
+   "name": "Platinum Smart-Heat® Electric",
+   "line": "Design-forward radiant heat, mounted or recessed",
+   "img": "images/portfolio/platinum-electric.webp",
+   "source": "bromic.com",
+   "source_url": "https://www.bromic.com/wp-content/uploads/sites/2/2023/12/Black-Platinum-Electric-Close-Up-scaled.jpg"
+  },
+  {
+   "id": "platinum-gas",
+   "collection": "PLATINUM",
+   "name": "Platinum Gas",
+   "line": "Radiant gas heat for open spaces",
+   "img": "images/portfolio/platinum-gas.webp",
+   "source": "bromic.com",
+   "source_url": "https://www.bromic.com/wp-content/uploads/sites/2/2024/08/Bromic-Centrico-Photos-19-scaled.jpg"
+  },
+  {
+   "id": "eclipse-pendant",
+   "collection": "ECLIPSE",
+   "name": "Eclipse Smart-Heat® Electric Pendant",
+   "line": "Suspended heat with a ring of light",
+   "img": "images/portfolio/eclipse-pendant.webp",
+   "source": "bromic.com",
+   "source_url": "https://www.bromic.com/wp-content/uploads/sites/2/2024/10/Eclipse-Pendant_UK-Residential-2-scaled.jpeg"
+  },
+  {
+   "id": "eclipse-freestanding",
+   "collection": "ECLIPSE",
+   "name": "Eclipse Smart-Heat® Freestanding",
+   "line": "Arcing heat over the lounge",
+   "img": "images/portfolio/eclipse-freestanding.webp",
+   "source": "bromic.com",
+   "source_url": "https://www.bromic.com/wp-content/uploads/2024/05/Desert-Mirage.jpg"
+  },
+  {
+   "id": "eclipse-portable",
+   "collection": "ECLIPSE",
+   "name": "Eclipse Portable",
+   "line": "Heat and light that moves with the table",
+   "img": "images/portfolio/eclipse-portable.webp",
+   "source": "bromic.com",
+   "source_url": "https://www.bromic.com/wp-content/uploads/sites/2/2026/01/Bromic_-Eclipse_Portable_Hotel_Skansen_04-scaled.jpg"
+  },
+  {
+   "id": "tungsten-freestanding-gas",
+   "collection": "TUNGSTEN",
+   "name": "Tungsten Smart-Heat® Freestanding Gas",
+   "line": "Warmth away from walls and ceilings",
+   "img": "images/portfolio/tungsten-freestanding-gas.webp",
+   "source": "Bromic Lookbook 2026 (l-018-151)"
+  },
+  {
+   "id": "tungsten-portable",
+   "collection": "TUNGSTEN",
+   "name": "Tungsten Portable",
+   "line": "Gas heat wherever the evening goes",
+   "img": "images/portfolio/tungsten-portable.webp",
+   "source": "bromic.com",
+   "source_url": "https://pim.bromic.com/wp-content/uploads/2021/09/8.jpg"
+  },
+  {
+   "id": "tungsten-gas",
+   "collection": "TUNGSTEN",
+   "name": "Tungsten Gas",
+   "line": "Engineered for commercial terraces",
+   "img": "images/portfolio/tungsten-gas.webp",
+   "source": "bromic.com",
+   "source_url": "https://www.bromic.com/wp-content/uploads/2021/08/Tungsten-Gas-500-Fiddler-Sydney-1-1.jpg"
+  },
+  {
+   "id": "affinity-controls",
+   "collection": "AFFINITY",
+   "name": "Affinity Smart-Heat® Controls",
+   "line": "Dimming, zones and schedules for every heater",
+   "img": "images/portfolio/affinity-controls.webp",
+   "source": "bromic.com",
+   "source_url": "https://www.bromic.com/wp-content/uploads/2024/08/Render-3.png"
+  }
+ ]
+}

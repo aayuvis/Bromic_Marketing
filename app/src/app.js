@@ -1061,6 +1061,14 @@
   let cmTab = 'platform', cmF = { market: '', axis: '', group: '' }, cmOpen = '';
   const cmTone = {}, cmWarm = new Set();
   const TONE_NAMES = ['Deadpan', 'Dry', 'Absurd', 'Dark'];
+  function portfolioStrip() {
+    const P = HUB.portfolio || []; if (!P.length) return '';
+    const card = (p, dup) => `<figure class="pf-card"${dup ? ' aria-hidden="true"' : ''}><img src="${esc(p.img)}" alt="${dup ? '' : esc(p.name)}" loading="lazy"><figcaption><span class="label">${esc(p.collection)}</span><b>${esc(p.name)}</b><small>${esc(p.line)}</small></figcaption></figure>`;
+    return `<section class="pf" aria-label="The Bromic portfolio"><div class="pf-h"><span class="label">The Bromic portfolio</span><h2>Heat For Every Outdoor Space</h2>
+      <div class="pf-nav"><button type="button" data-pf="-1" aria-label="Previous">‹</button><button type="button" data-pf="1" aria-label="Next">›</button></div></div>
+      <div class="pf-view" tabindex="0"><div class="pf-track">${P.map((p) => card(p)).join('')}${P.map((p) => card(p, true)).join('')}</div></div>
+      <p class="muted pf-src">Close-ups cropped from Bromic's own photography and product renders.</p></section>`;
+  }
   function campaignsPage(id) {
     const all = HUB.campaigns || [];
     if (!all.length) return '<div class="empty">No campaigns yet.</div>';
@@ -1126,13 +1134,15 @@
     const I = S.intro || {};
     const tabs = [['platform', 'The platform'], ['films', 'Six films'], ['receipts', 'The receipt'], ['concepts', 'Concept bank'], ['trade', 'Trade'], ['plan', 'Plan and measure'], ['audit', 'Audit']];
     return `<section class="cm">
+      <div class="cm-logo"><img class="lg-dark" src="images/portfolio/bromic-logo.png" alt="Bromic Heating"><img class="lg-light" src="images/portfolio/bromic-logo-white.png" alt="" aria-hidden="true"></div>
       <header class="cm-hero${cmTab === 'platform' ? '' : ' slim'}"><div><span class="label">${esc(I.kicker || 'Campaign')}</span><h1>${esc(cmTab === 'platform' ? (I.headline || C.name) : C.name)}</h1>${cmTab === 'platform' ? (I.lines || []).map((l) => `<p>${esc(l)}</p>`).join('') : ''}
         <div class="cm-meta"><span><b>Promise</b> ${esc(C.promise)}</span><span><b>Endline</b> ${esc(C.endline)}</span><span><b>Markets</b> ${esc((C.markets || []).join(' and '))}</span><span><b>Status</b> ${esc(C.status)}</span></div></div>
         ${C.films?.[0] && cmTab === 'platform' ? `<div class="cm-hero-pic">${pic(C.films[0].img_warm)}</div>` : ''}</header>
       ${all.length > 1 ? `<select id="cmsel">${all.map((c) => `<option value="${esc(c.id)}"${c.id === C.id ? ' selected' : ''}>${esc(c.name)}</option>`).join('')}</select>` : ''}
       <nav class="pm-tabs" role="tablist">${tabs.map(([k, l]) => `<button type="button" role="tab" aria-selected="${cmTab === k}" data-cmtab="${k}">${l}</button>`).join('')}</nav>
       ${body}
-      <p class="muted cm-foot">Images are AI-generated mood references for lighting, staging, casting and comic register only. They depict no real Bromic product; production shows real Bromic heaters, installed correctly, with their Affinity Smart-Heat® Controls. ${esc(C.source || '')}. Needs approval: ${esc(C.needs_approval || '')}.</p>
+      ${portfolioStrip()}
+      <p class="muted cm-foot">Images in the campaign views are AI-generated mood references for lighting, staging, casting and comic register only. They depict no real Bromic product; production shows real Bromic heaters, installed correctly, with their Affinity Smart-Heat® Controls. ${esc(C.source || '')}. Needs approval: ${esc(C.needs_approval || '')}.</p>
     </section>`;
   }
 
@@ -1178,6 +1188,7 @@
 
   document.addEventListener('click', (e) => {
     const pt = e.target.closest('[data-pmtab]'); if (pt) { pmTab = pt.dataset.pmtab; route.keepScroll = true; route(); return; }
+    const pfb = e.target.closest('[data-pf]'); if (pfb) { const v = document.querySelector('.pf-view'); if (v) { v.classList.add('manual'); v.scrollBy({ left: +pfb.dataset.pf * (v.querySelector('.pf-card')?.offsetWidth + 16 || 320), behavior: 'smooth' }); } return; }
     const ct = e.target.closest('[data-cmtab]'); if (ct) { cmTab = ct.dataset.cmtab; route.keepScroll = true; route(); return; }
     const cw = e.target.closest('[data-cmwarm]'); if (cw) { const k = cw.dataset.cmwarm; cmWarm.has(k) ? cmWarm.delete(k) : cmWarm.add(k); route.keepScroll = true; route(); return; }
     const cto = e.target.closest('[data-cmtone]'); if (cto) { const [k, i] = cto.dataset.cmtone.split('|'); cmTone[k] = +i; route.keepScroll = true; route(); return; }
