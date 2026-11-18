@@ -484,7 +484,7 @@ emailSlide('Designers', 'Heat That Belongs In The Design',
     asks.forEach(([lead, rest], k) => { runs.push({ text: lead + ' ', options: { bold: true, color: INK, bullet: { type: 'number' } } }); runs.push({ text: rest, options: { color: BODY, breakLine: k < asks.length - 1 } }); });
     T(s, runs, { x: x + 0.25, y: 2.75, w: 5.45, h: 3.95, fontSize: 10.5, paraSpaceAfter: 5 });
   };
-  col(M, 'Product and Channel Management', 'Product team and channel team', 'LuSlidersHorizontal', [
+  col(M, 'Mike Clifford', 'Product management and channel management', 'LuSlidersHorizontal', [
     ['Recess kit facts.', 'Number of fans, any fire-rated lining, continuous-use guidance, slope limit.'],
     ['45° tilt on 4 and 6 kW.', 'The Series II manual says 30°: correct the manual or the claim.'],
     ['Warranty.', 'Confirm 3 years, element cover and Coastal terms, and publish them on bromic.com.'],
@@ -493,7 +493,7 @@ emailSlide('Designers', 'Heat That Belongs In The Design',
     ['Channel.', 'Series I sell-through date, Classic in January, dealer stocking and training dates.'],
     ['Partner Program.', 'Price tiers, qualifying products for the extra year, installer certificate process.'],
   ]);
-  col(M + 6.18, 'Brand Marketing', 'Brand and marketing team', 'LuMegaphone', [
+  col(M + 6.18, 'Megan Spies', 'Brand marketing', 'LuMegaphone', [
     ['Messages.', 'Approve the eight lead messages and the claims per audience.'],
     ['Airflow animation.', 'Commission the CAD-style recess airflow film with the Product team\'s CAD files.'],
     ['454 Creative brief.', 'Landing page, sell sheet, spec sheet, and the eleven Instagram ads.'],

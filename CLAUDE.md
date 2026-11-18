@@ -68,8 +68,8 @@ priority order (recess, heat, aesthetics, controls, install flexibility, safety,
 install, then the two proposed); a Lucide icon per field and audience; images cropped to their frames with sharp, never stretched;
 Tungsten images on the cover, contents and dividers; every model including 6 kW tilts to 45° (the manual says 30° for 4–6 kW:
 `tilt_verify`); **3-year warranty** on Series II (`warranty_note`); a CAD-style recess airflow animation in the assets; crisp emails
-with bold leads; the last slide sets clear asks for product and channel management and for brand marketing, by role (owner: roles
-only in the repo; a named copy is kept outside it). v3: two four-frame Instagram storyboards (homeowners, specifiers; frames made with
+with bold leads; the last slide sets clear asks for Mike Clifford (product and channel management) and Megan Spies (brand marketing): the
+one place names appear, at the owner's explicit request (18 Nov 2026). v3: two four-frame Instagram storyboards (homeowners, specifiers; frames made with
 an image model from Series II references, labelled not for publication; `decks/img/sb-*.jpg`, boards in `decks/storyboard-*.jpg`);
 message 03 reads "Worry-Free, Dual Fan-Ventilated 6 kW Recessing" (owner: "worry-free" for customer-facing "safe").
 
