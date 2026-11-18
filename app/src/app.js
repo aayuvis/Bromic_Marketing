@@ -1064,7 +1064,8 @@
   function portfolioStrip() {
     const P = HUB.portfolio || []; if (!P.length) return '';
     return `<section class="pf" aria-label="The Bromic portfolio"><a href="images/portfolio/portfolio-banner.jpg" target="_blank" rel="noopener"><img class="pf-banner" src="images/portfolio/portfolio-banner.webp" alt="Bromic heaters, close up" loading="lazy"></a>
-      <p class="muted pf-src">Bromic product photography. <a href="images/portfolio/portfolio-banner.jpg" download>Download the banner</a> (4583 × 1000).</p></section>`;
+      <p class="muted pf-src">Bromic product photography. <a href="images/portfolio/portfolio-banner.jpg" download>Download the banner</a> (4583 × 1000).</p>
+      <div class="pf-opts"><span class="label">Five more options</span>${'abcde'.split('').map((k) => `<a href="images/portfolio/options/banner-${k}.jpg" target="_blank" rel="noopener"><img src="images/portfolio/options/banner-${k}.webp" alt="Banner option ${k.toUpperCase()}" loading="lazy"><small>Option ${k.toUpperCase()}</small></a>`).join('')}</div></section>`;
   }
   function campaignsPage(id) {
     const all = HUB.campaigns || [];
