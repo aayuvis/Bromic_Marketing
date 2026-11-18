@@ -109,8 +109,17 @@
  ],
  "banner": {
   "file": "images/portfolio/portfolio-banner.jpg",
+  "size": [
+   5231,
+   1000
+  ],
+  "method": "Five real Bromic close-ups, cropped at different angles and stitched into one continuous strip with feathered joins; no two products overlap.",
   "sources": [
-   "Owner-supplied Bromic product shots (18 Nov 2026): Eclipse recessed and freestanding on a textured wall; Eclipse pendant, Platinum Electric and Platinum Gas cut out and set on a matching plaster wall built from the same texture"
+   "https://www.bromic.com/wp-content/uploads/sites/2/2023/08/Bromic-Eclipse-Pendant-Light-1600x1067.jpg",
+   "https://www.bromic.com/wp-content/uploads/2021/07/kion_sui-madrid-spain-tungsten-electric-4-1600x1067.jpg",
+   "https://www.bromic.com/wp-content/uploads/sites/2/2024/04/DSC05545-Courtney-Saib-scaled.jpg",
+   "https://www.bromic.com/wp-content/uploads/sites/2/2023/08/Commercial-Australia-Brisbane-Kedron-Wavell-1.jpg",
+   "https://www.bromic.com/wp-content/uploads/sites/2/2026/01/Bromic_-Eclipse_Portable_Hotel_Skansen_04-scaled.jpg"
   ],
   "rights": "[[VERIFY: image rights – Marketing]]"
  }
