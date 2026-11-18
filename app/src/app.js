@@ -1030,6 +1030,7 @@
     const srcs = P.sources || [];
     return `<div class="ph"><div><span class="label">Product marketing</span><h1>${esc(P.name)}</h1><p>${esc(P.launch.summary)}</p></div>
       ${all.length > 1 ? `<label class="who-pick"><span class="label">Product</span><select id="pmprod">${all.map((x) => `<option value="${esc(x.id)}" ${x.id === P.id ? 'selected' : ''}>${esc(x.short || x.name)}</option>`).join('')}</select></label>` : ''}</div>
+      ${P.deck ? `<p><a class="btn primary" href="${esc(P.deck)}" download>${ic.down}Download the launch playbook (PowerPoint)</a></p>` : ''}
       <div class="pm-tiers">${tierCards}</div>
       <div class="pm-ups"><span class="label">What's new in Series II</span><ul>${P.upgrades.map((u) => `<li>${esc(u)}</li>`).join('')}</ul><p class="muted" style="font-size:13px">${vf(P.price_verify || '')}</p></div>
       ${(P.pillars || []).length ? `<section class="pm-pillars"><div class="pm-sec-h"><span class="label">What we lead with</span><h2>The Series II Story In ${P.pillars.length} Messages</h2></div>

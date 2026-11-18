@@ -59,6 +59,11 @@ quote numbers (7.5 in cavity, 3/12–12/12, 15°/30°/45°, 208/240/277 V, 6 kW 
 smaller section (launch deck). Tab **4 · Assets to create**: the launch kit (asset, channel, claims, brief, owner) and Instagram ad
 briefs for homeowners and for builders and installers (`ad_briefs`: format, hook, headline, primary text, CTA, visual, claims, must-carry
 lines, KPI). `app/test/pm.mjs` holds every buyer × benefit filled. Series II renders are `t2-` images.
+**Launch playbook deck** (owner, 18 Nov 2026): `decks/Tungsten-Series-II-Launch-Playbook.pptx`, 40 slides in the Hub's Bromic look
+(Bodoni MT headlines as the Office-safe Didot, Arial body, white, ink, flame accent), built by `decks/build-tungsten-series-ii.js`
+(pptxgenjs) from the framework JSON: benefit fields and claims (audience page, 12 fields, one page per field with weights, Series I and
+Infratech), marketing (messages, portfolio, assets, Instagram ads), product training (six modules and a knowledge check) and launch emails
+(architects, builders and installers, dealers, designers). Rebuild it whenever the framework changes; the Hub links it from Product marketing.
 
 ## Calculations: one simple model
 
