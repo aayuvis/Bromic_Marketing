@@ -1064,7 +1064,7 @@
   function portfolioStrip() {
     const P = HUB.portfolio || []; if (!P.length) return '';
     return `<section class="pf" aria-label="The Bromic portfolio"><a href="images/portfolio/portfolio-banner.jpg" target="_blank" rel="noopener"><img class="pf-banner" src="images/portfolio/portfolio-banner.webp" alt="Bromic heaters, close up" loading="lazy"></a>
-      <p class="muted pf-src">Close-ups cropped from Bromic's own photography and product renders. <a href="images/portfolio/portfolio-banner.jpg" download>Download the banner</a> (3000 × 952).</p></section>`;
+      <p class="muted pf-src">Bromic product photography. <a href="images/portfolio/portfolio-banner.jpg" download>Download the banner</a> (3000 × 834).</p></section>`;
   }
   function campaignsPage(id) {
     const all = HUB.campaigns || [];
