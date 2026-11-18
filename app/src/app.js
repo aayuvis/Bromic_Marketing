@@ -991,6 +991,7 @@
     if (pmTab === 'm1') {
       body = `<div class="pm-intro"><p>What matters most to each buyer, and the claim that lands with them. Colour shows weight; read across a row to see one benefit through every pair of eyes, or down a column for one buyer's story.</p>
         <label class="pm-toggle"><input type="checkbox" data-pmclaims ${pmClaims ? 'checked' : ''}> Show claims</label></div>
+        ${P.spec_verify && ['INS', 'BLD', 'ARC'].includes(pmUser) ? `<p class="muted" style="font-size:13px;margin:0 0 10px">Trade claims quote figures; where a figure is Series I's it says so. ${vf(P.spec_verify)}</p>` : ''}
         ${pmUser ? `<div class="pm-focus"><span class="label">Lead with, for ${esc(U.find((u) => u.id === pmUser).name.toLowerCase())}</span><ol>${top(U.find((u) => u.id === pmUser)).map((x) => `<li><b>${esc(x.b.name)}.</b> ${esc(x.c.claim)}</li>`).join('')}</ol></div>` : ''}
         <div class="pm-wrap"><table class="pm-grid${pmClaims ? '' : ' compact'}"><thead><tr><th class="pm-corner">Benefit field</th>${userHead}</tr></thead><tbody>
         ${B.map((b) => `<tr>${bRow(b)}${users.map((u) => { const c = P.m1[u.id][b.id] || { w: 0, claim: '' }; return `<td class="w${c.w}"><span class="pm-w">${esc(WLAB[c.w] || '')}</span>${pmClaims ? `<p>${esc(c.claim)}</p>` : ''}</td>`; }).join('')}</tr>`).join('')}
@@ -1002,6 +1003,23 @@
         ${P.m2.length ? `<div class="pm-wrap"><table class="pm-grid pm-cmp"><thead><tr><th class="pm-corner">Benefit field</th><th>Tungsten Series I</th><th>Tungsten Series II</th><th>What it means</th></tr></thead><tbody>
         ${P.m2.map((r) => { const b = B.find((x) => x.id === r.benefit) || { name: r.benefit, what: '' }; return `<tr>${bRow(b)}<td>${vf(r.s1)}</td><td><span class="pm-badge ${esc(r.change)}">${esc(BADGE[r.change] || r.change)}</span> ${vf(r.s2)}</td><td><p>${vf(r.so_what)}</p></td></tr>`; }).join('')}
         </tbody></table></div>` : '<div class="empty">Research in progress.</div>'}`;
+    } else if (pmTab === 'm4') {
+      const segs = [...new Set((P.ad_briefs || []).map((a) => a.segment))];
+      const adCard = (a) => `<article class="pm-ad"><div class="pm-phone"><div class="pm-ph-top"><span class="pm-ph-av">B</span><b>bromicheating</b><span class="muted">Sponsored</span></div>
+          <div class="pm-ph-img">${img(a.images[0], '', false)}</div><div class="pm-ph-cta"><span>${esc(a.cta)}</span><span>›</span></div>
+          <div class="pm-ph-txt"><b>${esc(a.headline)}</b><p>${esc(a.primary_text)}</p></div></div>
+        <div class="pm-ad-b"><span class="label">${esc(a.segment)} · ${esc(a.format)}</span><h3>${esc(a.name)}</h3>
+          <dl class="kv"><dt>Objective</dt><dd>${esc(a.objective)}</dd><dt>Hook</dt><dd>${esc(a.hook)}</dd><dt>Visual</dt><dd>${esc(a.visual)}</dd>
+          ${a.cards ? `<dt>Cards</dt><dd><ol>${a.cards.map((c) => `<li>${esc(c)}</li>`).join('')}</ol></dd>` : ''}
+          <dt>Claims used</dt><dd><ul>${a.claims.map((c) => `<li>${esc(c)}</li>`).join('')}</ul></dd>
+          <dt>Must carry</dt><dd><ul>${a.mandatory.map((c) => `<li>${vf(c)}</li>`).join('')}</ul></dd><dt>Measure</dt><dd>${esc(a.kpi)}</dd></dl>
+          <div class="pm-ad-imgs">${a.images.map((i) => img(i)).join('')}</div></div></article>`;
+      body = `<div class="pm-intro"><p>The assets this launch needs, each with the claims it carries, and creative briefs for Instagram: one set for homeowners, one for builders and installers. Copy follows the Bromic voice; numbers lead for the trade.</p></div>
+        ${segs.map((sg) => `<section class="pm-adsec"><div class="pm-sec-h"><span class="label">Instagram</span><h2>${esc(sg)}</h2></div>${(P.ad_briefs || []).filter((a) => a.segment === sg).map(adCard).join('')}</section>`).join('')}
+        <div class="pm-sec-h"><span class="label">Launch kit</span><h2>Assets To Create</h2></div>
+        <div class="pm-wrap"><table class="pm-grid"><thead><tr><th>Asset</th><th>Channel</th><th>For</th><th>Claims it carries</th><th>Brief</th><th>Owner</th></tr></thead><tbody>
+        ${(P.assets_to_create || []).map((a) => `<tr><th scope="row" class="pm-b"><b>${esc(a.name)}</b></th><td>${esc(a.channel)}</td><td>${esc(a.audience)}</td><td><ul>${a.claims.map((c) => `<li>${esc(c)}</li>`).join('')}</ul></td><td>${esc(a.brief)}</td><td>${esc(a.owner)}</td></tr>`).join('')}
+        </tbody></table></div>`;
     } else {
       body = `<div class="pm-intro"><p>Where Tungsten Series II is stronger than Infratech, benefit by benefit and buyer by buyer. Every comparison is factual and sourced, and needs sign-off from Specification and compliance before it is used outside Bromic.</p>
         <label class="pm-toggle"><input type="checkbox" data-pmclaims ${pmClaims ? 'checked' : ''}> Show claims</label></div>
@@ -1021,7 +1039,7 @@
       ${(P.claim_checks || []).length ? `<section class="pm-checks"><div class="pm-sec-h"><span class="label">Claim checks</span><h2>Tested Before We Say It</h2></div>${P.claim_checks.map((c) => `<article class="pm-check"><div><span class="pm-edge ${/false/.test(c.verdict) ? 'infratech' : 'bromic'}">${esc(c.verdict)}</span> <b>"${esc(c.claim)}"</b> <span class="muted" style="font-size:12px">checked ${esc(c.checked)}</span></div><p>${esc(c.why)}</p><p><b>Say instead:</b> ${esc(c.use_instead)}</p><p><b>Safest:</b> ${esc(c.safest)}</p><p class="muted" style="font-size:13px">Avoid: ${c.avoid.map(esc).join(' · ')}. Still open: ${c.open.map(esc).join('; ')}.</p></article>`).join('')}</section>` : ''}
       ${(P.portfolio || []).length ? `<section class="pm-port"><div class="pm-sec-h"><span class="label">One family for every outdoor room</span><h2>The Right Heater For Every Space</h2></div>
         <div class="pm-pf">${P.portfolio.map((x) => `<article><div class="pm-pf-pic">${img(x.image)}</div><span class="label">${esc(x.space)}</span><h3>${esc(x.product)}</h3><p>${esc(x.why)}</p></article>`).join('')}</div></section>` : ''}
-      <nav class="pm-tabs" role="tablist">${[['m1', '1 · What matters to whom'], ['m2', '2 · Series II against Series I'], ['m3', '3 · Against Infratech']].map(([k, l]) => `<button type="button" role="tab" aria-selected="${pmTab === k}" data-pmtab="${k}">${l}</button>`).join('')}
+      <nav class="pm-tabs" role="tablist">${[['m1', '1 · What matters to whom'], ['m2', '2 · Series II against Series I'], ['m3', '3 · Against Infratech'], ['m4', '4 · Assets to create']].map(([k, l]) => `<button type="button" role="tab" aria-selected="${pmTab === k}" data-pmtab="${k}">${l}</button>`).join('')}
       <span class="pm-filter"><span class="label">Buyer</span> <button type="button" class="pm-u${pmUser ? '' : ' on'}" data-pmuser="">All</button>${U.map((u) => `<button type="button" class="pm-u${pmUser === u.id ? ' on' : ''}" data-pmuser="${u.id}">${esc(u.name)}</button>`).join('')}</span></nav>
       ${body}
       ${srcs.length ? `<details class="pm-src"><summary>Sources (${srcs.length})</summary><ol class="srcs">${srcs.map((s, i) => `<li><span class="n">${i + 1}</span><span><b>${esc(s.publisher)}</b>, ${esc(s.title)}${s.year ? ` (${esc(s.year)})` : ''}${/^https?:/.test(s.url || '') ? ` <a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.url)}</a>` : ''}</span></li>`).join('')}</ol></details>` : ''}

@@ -53,7 +53,12 @@ edge: bromic · parity · infratech · unknown; `needs_approval: Specification a
 dimming; mounts anywhere incl. pitched ceilings, extended wall, angles to 45°; safe vented low-clearance recess, two fans, 7.5 in
 clearance, no box to build; single post; no visible junction box; 3 colours and 3 fascias; Coastal dual corrosion protection;
 one family for every outdoor room) and the **portfolio by space**. Infratech's flush frame is quoted exactly: "After 4 hours of
-continuous use, a 15 minute cool down period is recommended". `app/test/pm.mjs` holds every buyer × benefit filled. Series II renders are `t2-` images.
+continuous use, a 15 minute cool down period is recommended". Recess wording is **"dual fan-ventilated"**; the plain "only 6 kW low-clearance recess" claim tested false (Infratech, Lynx, Eurofase
+recess 6 kW in 2×8 framing), so the page uses the qualified line and shows the **claim check**. Installer, builder and architect claims
+quote numbers (7.5 in cavity, 3/12–12/12, 15°/30°/45°, 208/240/277 V, 6 kW a channel); slimness is 14% narrower, 10% shallower, 23%
+smaller section (launch deck). Tab **4 · Assets to create**: the launch kit (asset, channel, claims, brief, owner) and Instagram ad
+briefs for homeowners and for builders and installers (`ad_briefs`: format, hook, headline, primary text, CTA, visual, claims, must-carry
+lines, KPI). `app/test/pm.mjs` holds every buyer × benefit filled. Series II renders are `t2-` images.
 
 ## Calculations: one simple model
 

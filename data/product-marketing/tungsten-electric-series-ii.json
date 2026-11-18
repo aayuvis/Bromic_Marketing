@@ -212,7 +212,7 @@
    },
    "recess": {
     "w": 3,
-    "claim": "Full 6 kW warmth, flush in a shallow ceiling and safely vented by two fans."
+    "claim": "Full 6 kW warmth, flush in a shallow ceiling and dual fan-ventilated."
    },
    "safety": {
     "w": 3,
@@ -220,7 +220,7 @@
    },
    "aesthetics": {
     "w": 3,
-    "claim": "On its single post the heater appears to float, with no visible junction box, in black, white or graphite."
+    "claim": "About 14% slimmer than before, floating on a single post with no visible junction box, in black, white or graphite."
    },
    "design_flex": {
     "w": 2,
@@ -258,117 +258,117 @@
   "BLD": {
    "heat": {
     "w": 2,
-    "claim": "Output from 2 to 6 kW to match every plan, from a compact alfresco to a large outdoor room."
+    "claim": "2 to 6 kW in one family: size each plan from 65 ft² up (Series I published coverage) with a free design plan."
    },
    "install_flex": {
     "w": 2,
-    "claim": "A pitched-ceiling adaptor from 3/12 to 12/12 brings heat to vaulted porches and gables."
+    "claim": "Pitched porches from 3/12 to 12/12, extended wall brackets for deep eaves, a single post for pergolas, and recessing in a 7.5 in cavity."
    },
    "install_ease": {
     "w": 3,
-    "claim": "No ceiling box to build and one post instead of two: recessed or suspended, quick to quote and quick to fit."
+    "claim": "No ceiling box to frame and line, and one post instead of two: recessed or suspended, quick to quote and quick to fit."
    },
    "recess": {
     "w": 3,
-    "claim": "6 kW recessed in a 7.5 in cavity with no fire-rated box to frame and line: alfresco and soffit plans won without re-framing."
+    "claim": "6 kW recessed in a 7.5 in cavity, dual fan-ventilated, with no site-built fire-rated box: alfresco and soffit plans won without re-framing."
    },
    "safety": {
     "w": 2,
-    "claim": "Electric heat with no gas line, no flame and no fumes: a cleaner standard for every outdoor package."
+    "claim": "All-electric heat with no gas line, flame or fumes, and a dual fan-ventilated recess."
    },
    "aesthetics": {
     "w": 2,
-    "claim": "A finish buyers notice on the model-home patio: slimmer profile, three colours, a choice of fascia."
+    "claim": "A body about 14% narrower and 10% shallower than Series I, floating on a single post with no junction box in sight."
    },
    "design_flex": {
     "w": 2,
-    "claim": "Good, Better, Best in one family lets each plan carry the look its buyer expects."
+    "claim": "Black, white or graphite and three fascias to match each elevation and colour scheme."
    },
    "controls": {
     "w": 2,
-    "claim": "A smart upgrade buyers can see on their phone at the design centre."
+    "claim": "Affinity Smart-Heat® Dimmer and app: a smart upgrade buyers see at the design centre."
    },
    "warranty": {
     "w": 3,
-    "claim": "Manufacturer warranty, plus an additional year on qualifying products through the Bromic Partner Program."
+    "claim": "Series I cover is 2 years on the heater and 7 on the elements, and partners add a year on qualifying products."
    },
    "multi_area": {
     "w": 2,
-    "claim": "One brand for every outdoor room on the plan: Classic, Tungsten, Platinum, freestanding gas and Eclipse."
+    "claim": "One supplier for every outdoor room on the plan: Classic, Select, Coastal, Platinum and freestanding."
    },
    "coastal": {
     "w": 2,
-    "claim": "Coastal developments get double corrosion protection, 316 stainless plus coating, recessed or surface-mounted."
+    "claim": "Coastal developments get 316 stainless plus a protective coating as standard, not an upgrade."
    },
    "power": {
     "w": 2,
-    "claim": "Runs on 208 V as well as 240 V, so multifamily projects are covered too."
+    "claim": "208 V for multifamily, 240 V for single-family and 277 V on the 4 and 6 kW models for mixed use."
    },
    "value": {
     "w": 3,
-    "claim": "Good, Better, Best from one family gives your options sheet three clear price points."
+    "claim": "An options sheet with three price points: $643, $923 and $1,195 entry list prices."
    },
    "support": {
     "w": 3,
-    "claim": "The Bromic Partner Program brings partner pricing, free design plans and a dedicated contact to every development."
+    "claim": "Partner pricing, free design plans, a dedicated contact and project spotlights through the Bromic Partner Program."
    }
   },
   "INS": {
    "heat": {
     "w": 2,
-    "claim": "2, 3, 4 and 6 kW models let you match the load to the circuit and the space."
+    "claim": "2, 3, 4 and 6 kW; the 4 and 6 kW models carry two separately wired elements, so one heater runs at part or full output."
    },
    "install_flex": {
     "w": 3,
-    "claim": "Ceiling, pitched ceiling, wall, extended wall, single post or recessed, angled up to 45° and adjustable later."
+    "claim": "Ceiling; pitched ceilings from 3/12 (14°) to 12/12 (45°) with the adaptor; standard or extended wall bracket; bracket presets at 15°, 30° and 45°, re-angled later; single post; recessed in a 7.5 in cavity."
    },
    "install_ease": {
     "w": 3,
-    "claim": "No box to build, no cavity to line, one post instead of two and no junction box on show: a cleaner, faster install."
+    "claim": "One post instead of Series I's two suspension tubes, no recess box to build, no visible junction box, and Classic keeps Series I mounting."
    },
    "recess": {
     "w": 3,
-    "claim": "The vented low-clearance kit fits a 7.5 in clearance, with two fans to manage the heat."
+    "claim": "Recess 6 kW into a 7.5 in cavity with the dual fan-ventilated low-clearance kit; no site-built box; a marine-grade kit for Coastal."
    },
    "safety": {
     "w": 2,
-    "claim": "Clear minimum mounting heights and listed hardware make for an install that passes inspection first time."
+    "claim": "Minimum mounting heights of 72 in on a wall and 96 in on a ceiling (Series I), a dual fan-ventilated recess, and app timers for the client."
    },
    "aesthetics": {
     "w": 1,
-    "claim": "A cleaner, slimmer unit that clients are proud to see installed."
+    "claim": "A body about 14% narrower and 10% shallower than Series I (183 × 140 mm), with no junction box on show."
    },
    "design_flex": {
     "w": 1,
-    "claim": "Fascia options mean the client can change the look without a new install."
+    "claim": "Fascias change without re-wiring or re-mounting: Diamond standard, oval and star optional."
    },
    "controls": {
     "w": 2,
-    "claim": "Wire both elements of the 4 and 6 kW models to an Affinity Smart-Heat® Dimmer for full, flexible control."
+    "claim": "Wire both elements of the 4 and 6 kW models to an Affinity Smart-Heat® Dimmer: 6 kW per channel at 208–277 V."
    },
    "warranty": {
     "w": 2,
-    "claim": "One manufacturer, one warranty process and one technical line behind every job."
+    "claim": "Series I: 2 years on the heater and 7 years on the elements, plus a partner year on qualifying products; one technical line, 1-800-301-1293."
    },
    "multi_area": {
     "w": 2,
-    "claim": "Wire several zones from Affinity controller channels and give each area its own control."
+    "claim": "Affinity controllers in 1, 2 or 5 channels: zone each area and commission it in one visit."
    },
    "coastal": {
     "w": 2,
-    "claim": "Coastal jobs get a heater built for them, with a marine-grade low-clearance recess kit to match."
+    "claim": "Coastal jobs: 316 marine-grade stainless with a protective coating, and a marine-grade low-clearance recess kit."
    },
    "power": {
     "w": 3,
-    "claim": "Same voltage options as today, with 277 V on the 4 and 6 kW models for commercial supply."
+    "claim": "220–240 V and 208 V, with 277 V on the 4 and 6 kW models; size circuits from the manual (Series I 6 kW: 25 A at 240 V)."
    },
    "value": {
     "w": 2,
-    "claim": "Three tiers make it easy to offer clients a choice on every quote."
+    "claim": "Three tiers on every quote: Classic $643–$921, Select $923–$1,170, Coastal $1,195–$1,321 list."
    },
    "support": {
     "w": 2,
-    "claim": "Installation manuals, a technical line and the Partner Program behind every job."
+    "claim": "Installation manuals, CAD files, a technical line and a dedicated Partner Program contact."
    }
   },
   "COM": {
@@ -386,7 +386,7 @@
    },
    "recess": {
     "w": 2,
-    "claim": "6 kW flush in a 7.5 in cavity, ventilated by two fans, with no fire-rated box to build: full commercial heat in shallow canopies."
+    "claim": "6 kW flush in a 7.5 in cavity, dual fan-ventilated, with no fire-rated box to build: full commercial heat in shallow canopies."
    },
    "safety": {
     "w": 3,
@@ -394,7 +394,7 @@
    },
    "aesthetics": {
     "w": 2,
-    "claim": "A refined, low-profile heater that suits the venue rather than competing with it."
+    "claim": "A body about 14% narrower and 10% shallower than before: a refined, low-profile line that suits the venue."
    },
    "design_flex": {
     "w": 2,
@@ -432,59 +432,59 @@
   "ARC": {
    "heat": {
     "w": 2,
-    "claim": "Four outputs and directional infrared heat to meet each zone of the design."
+    "claim": "2, 3, 4 and 6 kW, dual elements on 4 and 6 kW for stepped output; zones laid out by Bromic's design plan."
    },
    "install_flex": {
     "w": 2,
-    "claim": "Recessed, ceiling, wall, single post and pitched ceilings: one family to detail across the project."
+    "claim": "Detail flat or pitched ceilings (3/12 to 12/12), walls with standard or extended brackets, angles at 15°, 30° and 45°, single posts and recesses."
    },
    "install_ease": {
     "w": 1,
-    "claim": "Proven mounting details reduce coordination on site."
+    "claim": "A recess detail with no site-built box and a single-post detail with one fixing point."
    },
    "recess": {
     "w": 3,
-    "claim": "Specify 6 kW flush in a 7.5 in cavity, fan-ventilated, with no site-built fire-rated box to detail."
+    "claim": "Specify 6 kW flush in a 7.5 in cavity with a dual fan-ventilated low-clearance kit and no site-built fire-rated enclosure."
    },
    "safety": {
     "w": 2,
-    "claim": "Electric infrared with clear clearances and mounting heights to write into the specification."
+    "claim": "Write in minimum mounting heights (72 in wall, 96 in ceiling for Series I), listed hardware and a dual fan-ventilated recess."
    },
    "aesthetics": {
     "w": 3,
-    "claim": "A slimmer section that floats on a single post with no visible junction box, so the architecture leads."
+    "claim": "A 183 × 140 mm section, about 23% smaller than Series I, on a single post with no visible junction box."
    },
    "design_flex": {
     "w": 3,
-    "claim": "Three colours, three fascias and every mounting condition, all from one specification family."
+    "claim": "Three colours and three fascias from one specification family across every mounting condition."
    },
    "controls": {
     "w": 2,
-    "claim": "Affinity Smart-Heat® Controls integrate with building and home automation systems."
+    "claim": "Affinity Smart-Heat® Controls with Ethernet and 0–10 V through the expansion board for BMS and home automation."
    },
    "warranty": {
     "w": 1,
-    "claim": "A manufacturer warranty the client can rely on."
+    "claim": "Series I: 2 years on the heater, 7 years on the elements."
    },
    "multi_area": {
     "w": 2,
-    "claim": "One family covers terraces, balconies and courtyards across the whole scheme."
+    "claim": "One specification family for terraces, balconies, pergolas and courtyards."
    },
    "coastal": {
     "w": 2,
-    "claim": "316 marine-grade stainless steel on Tungsten Coastal for coastal and waterfront specifications."
+    "claim": "Specify 316 marine-grade stainless with a protective coating, and a marine-grade recess kit, for coastal sites."
    },
    "power": {
     "w": 2,
-    "claim": "208, 240 and 277 V options cover residential and commercial projects alike."
+    "claim": "208, 240 and 277 V options cover residential, multifamily and commercial projects."
    },
    "value": {
     "w": 1,
-    "claim": "Good, Better, Best tiers give the client a clear choice without changing the detail."
+    "claim": "Good, Better, Best for value engineering without changing the detail."
    },
    "support": {
     "w": 3,
-    "claim": "CAD and Revit files, specification support and a design plan for every project."
+    "claim": "CAD and Revit files, AIA-accredited courses and a complimentary design plan."
    }
   },
   "DES": {
@@ -510,7 +510,7 @@
    },
    "aesthetics": {
     "w": 3,
-    "claim": "Three colours and three fascias, floating on a single post with no junction box in sight."
+    "claim": "A section about 23% smaller than Series I, three colours, three fascias, floating on a single post with no junction box in sight."
    },
    "design_flex": {
     "w": 3,
@@ -572,21 +572,21 @@
    "benefit": "recess",
    "change": "new",
    "s1": "Standard recess kit only, which needs a deep ceiling cavity (Bromic guidance: at least 20 in, with two layers of 5/8 in fireproof insulation). No low-clearance option for Tungsten.",
-   "s2": "Vented low-clearance recess kit with two fans, needing 7.5 in clearance, for Select; a marine-grade version for Coastal. Classic uses the existing recess kit.",
-   "so_what": "Safe, vented 6 kW flush heat in shallow ceilings with no box to build: the only 6 kW recessed outdoor heater with a fan-ventilated, low-clearance recess kit and no site-built fire-rated box."
+   "s2": "Dual fan-ventilated low-clearance recess kit, needing a 7.5 in cavity, for Select; a marine-grade version for Coastal. Classic uses the existing recess kit.",
+   "so_what": "Safe, vented 6 kW flush heat in shallow ceilings with no box to build: the only 6 kW recessed outdoor heater with a dual fan-ventilated, low-clearance recess kit and no site-built fire-rated box."
   },
   {
    "benefit": "safety",
    "change": "same",
    "s1": "Intertek ETL/cETL listed; IPX4; minimum mounting 72 in on a wall and 96 in on a ceiling (96 in in all cases in Canada); designed for intermittent use.",
-   "s2": "Electric infrared with no flame or fumes; the low-clearance recess is ventilated by two fans; app timers and schedules through Affinity Smart-Heat® Controls. [[VERIFY: Series II listing, IP rating and minimum mounting heights — Product team]]",
+   "s2": "Electric infrared with no flame or fumes; the low-clearance recess is dual fan-ventilated; app timers and schedules through Affinity Smart-Heat® Controls. [[VERIFY: Series II listing, IP rating and minimum mounting heights — Product team]]",
    "so_what": "Peace of mind is unchanged; confirm the Series II listings before launch claims use them."
   },
   {
    "benefit": "aesthetics",
    "change": "better",
    "s1": "Honeycomb mesh fascia; 2000/3000 W in black, 4000/6000 W in black or white. Body about 214 mm (8.4 in) wide and 156 mm (6.1 in) deep (launch deck).",
-   "s2": "Slimmer, and on a single post it appears to float with no visible junction box: about 183 mm (7.2 in) wide and 140 mm (5.5 in) deep, roughly 14% narrower and 10% shallower. Diamond Pattern standard on Select and Coastal; Classic in a stylised wireframe with stainless end covers. [[VERIFY: Series I dimensions differ between the deck (214 × 156 mm) and the manual (8.5 × 3.5 in) — Product team]]",
+   "s2": "Slimmer: about 183 mm (7.2 in) wide and 140 mm (5.5 in) deep, about 14% narrower and 10% shallower, a section about 23% smaller; on a single post it appears to float with no visible junction box. Diamond Pattern standard on Select and Coastal; Classic in a stylised wireframe with stainless end covers. Section = width × depth: 33,384 mm² to 25,620 mm². [[VERIFY: Series I dimensions differ between the deck (214 × 156 mm) and the manual (8.5 × 3.5 in) — Product team]]",
    "so_what": "A visibly slimmer, more designed heater: the reason to choose Series II at first glance."
   },
   {
@@ -750,11 +750,11 @@
     "benefit": "recess",
     "edge": "bromic",
     "infratech": "Infratech WD-6024 (6,000 W) recesses in its W-61 flush frame: minimum 2×8 framing (about 7.25 in), the pocket lined and sealed on 5 sides with 5/8 in Type X drywall, flat ceilings only, junction box outside the pocket, no fans; \"After 4 hours of continuous use, a 15 minute cool down period is recommended\". Lynx LEH61 and Eurofase EF60 (6,000 W) need the same 2×8, fire-rated five-sided pocket; Solaira ICR H3 needs a contractor-supplied fire-rated enclosure at least 9.25 in deep.",
-    "bromic": "Tungsten Series II is the only 6 kW recessed outdoor heater with a fan-ventilated, low-clearance recess kit and no site-built fire-rated box: two fans, a 7.5 in cavity, a marine-grade version for Coastal. It is not the shallowest: lead with the venting and the box-free install, never with \"only\" or depth alone. [[VERIFY: that the low-clearance kit needs no fire-rated lining or enclosure under its listing, and that 7.5 in is the cavity depth — Product team; competitor check signed off — Specification and compliance]]",
+    "bromic": "Tungsten Series II is the only 6 kW recessed outdoor heater with a dual fan-ventilated, low-clearance recess kit and no site-built fire-rated box: dual fan-ventilated, a 7.5 in cavity, a marine-grade version for Coastal. It is not the shallowest: lead with the venting and the box-free install, never with \"only\" or depth alone. [[VERIFY: that the low-clearance kit needs no fire-rated lining or enclosure under its listing, and that 7.5 in is the cavity depth — Product team; competitor check signed off — Specification and compliance]]",
     "users": {
      "RES": {
       "w": 3,
-      "claim": "Flush and safely vented by two fans, so you can enjoy the whole evening without a cool-down."
+      "claim": "Flush and dual fan-ventilated, so you can enjoy the whole evening without a cool-down."
      },
      "BLD": {
       "w": 3,
@@ -762,15 +762,15 @@
      },
      "INS": {
       "w": 3,
-      "claim": "Two fans manage the heat in the cavity: a simpler, safer recess."
+      "claim": "Dual fan ventilation manages the heat in the cavity: a simpler, safer recess."
      },
      "COM": {
       "w": 2,
-      "claim": "6 kW, flush, fan-ventilated, with no fire-rated box to build and no cool-down advice."
+      "claim": "6 kW, flush, dual fan-ventilated, with no fire-rated box to build and no cool-down advice."
      },
      "ARC": {
       "w": 3,
-      "claim": "The only fan-ventilated 6 kW recess kit found, with no site-built fire-rated box to detail."
+      "claim": "The only dual fan-ventilated 6 kW recess kit found, with no site-built fire-rated box to detail."
      },
      "DES": {
       "w": 3,
@@ -782,7 +782,7 @@
     "benefit": "safety",
     "edge": "bromic",
     "infratech": "UL/cUL/CE; IPX4; the flush-frame drawing recommends a 15-minute cool-down after 4 hours of continuous use and points to timer options.",
-    "bromic": "Vented low-clearance recessing with two fans; no flame or fumes; app timers and schedules through Affinity Smart-Heat® Controls. [[VERIFY: Series II listings, IP rating and continuous-use guidance — Product team]]",
+    "bromic": "Vented low-clearance recessing; no flame or fumes; app timers and schedules through Affinity Smart-Heat® Controls. [[VERIFY: Series II listings, IP rating and continuous-use guidance — Product team]]",
     "users": {
      "RES": {
       "w": 3,
@@ -1248,7 +1248,7 @@
   {
    "id": "o1",
    "publisher": "Bromic Heating (owner briefing)",
-   "title": "Tungsten Series II core topics: dual elements and dimming, mounting conditions, vented low-clearance recess with two fans and 7.5 in clearance, single post, no visible junction box, portfolio by space; Coastal dual corrosion protection (316 stainless plus coating); recessing with no site-built box; the only 6 kW low-clearance recess option on the market",
+   "title": "Tungsten Series II core topics: dual elements and dimming, mounting conditions, dual fan-ventilated low-clearance recess with a 7.5 in cavity, single post, no visible junction box, portfolio by space; Coastal dual corrosion protection (316 stainless plus coating); recessing with no site-built box; the only 6 kW low-clearance recess option on the market",
    "year": 2026,
    "url": "internal",
    "verified": true
@@ -1334,11 +1334,11 @@
   },
   {
    "id": "p3",
-   "title": "Safe, Vented 6 kW Low-Clearance Recessing",
-   "line": "Tungsten Series II is the only 6 kW recessed outdoor heater with a fan-ventilated, low-clearance recess kit and no site-built fire-rated box: two fans ventilate the kit, it sits flush in a 7.5 in ceiling cavity, and it runs all evening, with app timers for complete peace of mind.",
+   "title": "Safe, Dual Fan-Ventilated 6 kW Recessing",
+   "line": "Tungsten Series II is the only 6 kW recessed outdoor heater with a dual fan-ventilated, low-clearance recess kit: it sits flush in a 7.5 in ceiling cavity with no site-built fire-rated box, and runs all evening, with app timers for complete peace of mind.",
    "proof": [
-    "The only 6 kW recess kit found that is fan-ventilated and needs no site-built fire-rated box",
-    "Vented with two fans",
+    "The only 6 kW recess kit found that is dual fan-ventilated and needs no site-built fire-rated box",
+    "Dual fan-ventilated",
     "7.5 in clearance",
     "No box to build: the kit is the recess",
     "No cool-down advice after continuous use",
@@ -1376,11 +1376,11 @@
   {
    "id": "p5",
    "title": "Visually Cleaner, Seemingly Floating",
-   "line": "On its single post the heater appears to float, with no visible junction box, in a slimmer body than before.",
+   "line": "About 14% narrower and 10% shallower than Series I, a section 23% smaller, and on its single post the heater appears to float, with no visible junction box.",
    "proof": [
+    "14% narrower, 10% shallower, 23% smaller section (183 × 140 mm against 214 × 156 mm)",
     "Single post",
-    "No visible junction box",
-    "Slimmer body: 140 × 183 mm section"
+    "No visible junction box"
    ],
    "benefits": [
     "aesthetics"
@@ -1483,8 +1483,8 @@
    "checked": "2026-11-18",
    "verdict": "false as stated",
    "why": "Infratech WD-6024, Lynx LEH61 and Eurofase EF60 (all 6,000 W) are approved for flush recessing with minimum 2×8 framing (about 7.25 in), shallower than 7.5 in. Solaira ICR H3 (6,000 W) needs a fire-rated enclosure at least 9.25 in deep.",
-   "use_instead": "The only 6 kW recessed outdoor heater with a fan-ventilated, low-clearance recess kit, with no site-built fire-rated box needed.",
-   "safest": "Recess 6,000 W into a 7.5 in ceiling cavity: two fans ventilate the kit, so there is no site-built box.",
+   "use_instead": "The only 6 kW recessed outdoor heater with a dual fan-ventilated, low-clearance recess kit, with no site-built fire-rated box needed.",
+   "safest": "Recess 6,000 W into a 7.5 in ceiling cavity: the kit is dual fan-ventilated, so there is no site-built box.",
    "avoid": [
     "only (unqualified)",
     "shallowest",
@@ -1496,6 +1496,433 @@
     "Eurofase fire-rated box depth from Eurofase documents (retail listing says 7.25 in)",
     "Heatscope, Heatstrip, Schwank, Tansun, Calcana, Dimplex, Burda, Solamagic and others: confirm no 6 kW recess product"
    ]
+  }
+ ],
+ "slimness": {
+  "series_i_mm": [
+   214,
+   156
+  ],
+  "series_ii_mm": [
+   183,
+   140
+  ],
+  "narrower_pct": 14,
+  "shallower_pct": 10,
+  "section_smaller_pct": 23,
+  "note": "From the launch deck (width × depth). Section = width × depth: 33,384 mm² to 25,620 mm². [[VERIFY: Series I dimensions differ between the deck (214 × 156 mm) and the manual (8.5 × 3.5 in) — Product team]]"
+ },
+ "spec_verify": "[[VERIFY: Series II mounting heights, listings, warranty and rated current — Product team]]",
+ "ad_briefs": [
+  {
+   "id": "c1",
+   "segment": "Homeowners",
+   "name": "Where Did The Heater Go?",
+   "objective": "Awareness and consideration: show flush heat in a shallow patio ceiling",
+   "format": "Reel, 9:16, 15 s",
+   "hook": "Dusk, a couple settles at the table; the camera tilts up to a clean ceiling, and the glow appears.",
+   "headline": "Heat You Can Feel, Not See",
+   "primary_text": "Tungsten Series II sits flush in a shallow ceiling, so the warmth stays and the heater all but disappears.",
+   "cta": "Learn More",
+   "visual": "Golden-hour alfresco, timber soffit, a recessed Tungsten Select glowing; no visible fixings. Open on people, end on the flush heater. Bromic logo end card.",
+   "claims": [
+    "Flush in a 7.5 in ceiling cavity",
+    "Dual fan-ventilated recess",
+    "Up to 6 kW"
+   ],
+   "images": [
+    "t2-low-clearance-recess",
+    "w-26-bromic-morningcoffee-0251-opt",
+    "l-022-201"
+   ],
+   "mandatory": [
+    "Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately.",
+    "Installation by a licensed electrician, to local code."
+   ],
+   "kpi": "3-second view rate, link clicks to the Tungsten page"
+  },
+  {
+   "id": "c2",
+   "segment": "Homeowners",
+   "name": "Your Colour, Your Pattern",
+   "objective": "Consideration: show choice of colours and fascias",
+   "format": "Carousel, 4:5, 5 cards",
+   "hook": "Card 1: three heaters side by side, black, white, graphite.",
+   "headline": "Your Colour, Your Pattern",
+   "primary_text": "Black, white or graphite, with Diamond, oval and star fascias. Choose the Tungsten that suits your home.",
+   "cta": "Learn More",
+   "visual": "Clean product renders on warm white; one lifestyle card per colour. End card: \"Find your Tungsten\".",
+   "claims": [
+    "3 colours (graphite on 4 and 6 kW)",
+    "3 fascias: Diamond standard, oval and star sold separately"
+   ],
+   "images": [
+    "t2-select-black",
+    "t2-select-white",
+    "t2-classic"
+   ],
+   "mandatory": [
+    "Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately."
+   ],
+   "kpi": "Swipe-through rate, saves",
+   "cards": [
+    "Three colours, one family",
+    "Diamond Pattern, as standard",
+    "Oval and star, for a softer line",
+    "Black for contrast, white for light ceilings, graphite in between",
+    "Find your Tungsten"
+   ]
+  },
+  {
+   "id": "c3",
+   "segment": "Homeowners",
+   "name": "Floats On A Single Post",
+   "objective": "Consideration: the slimmer, cleaner look",
+   "format": "Reel, 9:16, 10 s, or static 4:5",
+   "hook": "A slow push-in along the slim body to the single post above a pergola table.",
+   "headline": "Slimmer. Cleaner. Floating.",
+   "primary_text": "About 14% slimmer than before, on a single post with no junction box in sight.",
+   "cta": "Learn More",
+   "visual": "Pergola at blue hour, black Tungsten Select on its single post over the table; tight detail shot of the post and body edge.",
+   "claims": [
+    "About 14% narrower and 10% shallower than Series I",
+    "Single post",
+    "No visible junction box"
+   ],
+   "images": [
+    "t2-single-post-black",
+    "l-006-028",
+    "t2-single-post"
+   ],
+   "mandatory": [
+    "Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately."
+   ],
+   "kpi": "Thumb-stop ratio, engagement"
+  },
+  {
+   "id": "c4",
+   "segment": "Homeowners",
+   "name": "Up To 6 kW, Dimmed From Your Phone",
+   "objective": "Consideration and intent: warmth and control",
+   "format": "Reel, 9:16, 15 s",
+   "hook": "A hand lowers the heat in the Bromic app as the evening softens; the glow eases with it.",
+   "headline": "Warmth, Dialled To The Evening",
+   "primary_text": "Up to 6 kW from dual elements, turned up on a cold night and down on a mild one from your phone.",
+   "cta": "Learn More",
+   "visual": "Phone in hand at an outdoor table, app screen in focus, heater glow responding in the background.",
+   "claims": [
+    "Up to 6 kW, dual elements on 4 and 6 kW",
+    "Affinity Smart-Heat® Dimmer",
+    "App timers and schedules"
+   ],
+   "images": [
+    "t-009-025",
+    "l-021-180"
+   ],
+   "mandatory": [
+    "Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately.",
+    "Installation by a licensed electrician, to local code."
+   ],
+   "kpi": "Video completion rate, clicks"
+  },
+  {
+   "id": "c5",
+   "segment": "Homeowners (coastal)",
+   "name": "Built For Life By The Water",
+   "objective": "Consideration in coastal postcodes",
+   "format": "Static 4:5 or Reel 9:16",
+   "hook": "Salt spray on a terrace rail, then the heater glowing above the view.",
+   "headline": "Built For Life By The Water",
+   "primary_text": "Tungsten Coastal protects twice over: 316 marine-grade stainless steel and a protective coating.",
+   "cta": "Learn More",
+   "visual": "Oceanfront terrace, white Tungsten Coastal, sea beyond. Target coastal regions only.",
+   "claims": [
+    "316 marine-grade stainless steel",
+    "Protective coating: dual corrosion protection",
+    "Marine-grade low-clearance recess kit"
+   ],
+   "images": [
+    "l-005-020",
+    "l-005-017",
+    "l-004-012"
+   ],
+   "mandatory": [
+    "Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately.",
+    "[[VERIFY: name and specification of the Coastal coating — Product team]]"
+   ],
+   "kpi": "Click-through rate in coastal geos"
+  },
+  {
+   "id": "c6",
+   "segment": "Homeowners",
+   "name": "Every Outdoor Room, One Family",
+   "objective": "Consideration: cross-sell the range",
+   "format": "Carousel, 4:5, 6 cards",
+   "hook": "Card 1: an aerial of a home with five lit outdoor spaces.",
+   "headline": "Every Outdoor Room, Warmed",
+   "primary_text": "From the garage to the pergola, the California room, the open terrace and the lounge: the right Bromic heater for each, on one app.",
+   "cta": "Learn More",
+   "visual": "One card per space with its heater: Classic in the garage, Select on the pergola, Platinum in the California room, Tungsten Freestanding Gas on the open terrace, Eclipse Freestanding by the sofa.",
+   "claims": [
+    "Five settings, five solutions",
+    "One Bromic app"
+   ],
+   "images": [
+    "t2-classic",
+    "l-006-028",
+    "l-010-075",
+    "l-019-162",
+    "l-016-130"
+   ],
+   "mandatory": [
+    "Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately.",
+    "[[VERIFY: app control for the freestanding heaters — Product team]]"
+   ],
+   "kpi": "Swipe-through rate, visits to the range page",
+   "cards": [
+    "Every outdoor room, warmed",
+    "Garage: Tungsten Classic",
+    "Pergola: Tungsten Select",
+    "California room: Platinum",
+    "Open terrace: Tungsten Freestanding Gas",
+    "Lounge: Eclipse Freestanding"
+   ]
+  },
+  {
+   "id": "t1",
+   "segment": "Builders and installers",
+   "name": "No Box. No Lining. Just Recess.",
+   "objective": "Awareness and leads: the low-clearance recess",
+   "format": "Reel, 9:16, 20 s install timelapse",
+   "hook": "A shallow soffit, a tape measure reading 7.5 in, then the kit going in.",
+   "headline": "6 kW. 7.5 In Cavity. No Box To Build.",
+   "primary_text": "Recess 6,000 W into a 7.5 in ceiling cavity: the kit is dual fan-ventilated, so there is no site-built box.",
+   "cta": "Contact Us",
+   "visual": "Real install footage: open soffit, the kit, wiring, heater in, ceiling closed, heater glowing. Overlay the three numbers. End card: Bromic Partner Program.",
+   "claims": [
+    "6 kW recessed",
+    "7.5 in cavity",
+    "Dual fan-ventilated",
+    "No site-built box"
+   ],
+   "images": [
+    "t2-low-clearance-recess",
+    "d-installers-recessing",
+    "g-electrician"
+   ],
+   "mandatory": [
+    "Installation by a licensed electrician, to local code.",
+    "\"Only\" claim runs only after Specification and compliance signs off; until then use the safest wording.",
+    "[[VERIFY: no fire-rated lining or enclosure under the kit listing; 7.5 in is the cavity depth — Product team]]"
+   ],
+   "kpi": "Lead form submissions, cost per lead"
+  },
+  {
+   "id": "t2",
+   "segment": "Builders and installers",
+   "name": "Mounts Wherever The Evening Happens",
+   "objective": "Consideration: mounting flexibility",
+   "format": "Carousel, 4:5, 6 cards",
+   "hook": "Card 1: one heater shown in five mounting conditions.",
+   "headline": "One Heater. Every Mounting Condition.",
+   "primary_text": "Flat or pitched ceilings from 3/12 to 12/12, standard or extended wall brackets, presets at 15°, 30° and 45°, a single post, or recessed.",
+   "cta": "Learn More",
+   "visual": "Clean line drawings or renders per condition, with the spec number large on each card.",
+   "claims": [
+    "Pitched-ceiling adaptor, 3/12 to 12/12",
+    "Bracket presets at 15°, 30° and 45°",
+    "Standard and extended wall brackets",
+    "Single post",
+    "Recess in a 7.5 in cavity"
+   ],
+   "images": [
+    "t2-single-post",
+    "t2-low-clearance-recess",
+    "d-tungsten-louvre-detail"
+   ],
+   "mandatory": [
+    "Installation by a licensed electrician, to local code."
+   ],
+   "kpi": "Saves, swipe-through, clicks to installation resources",
+   "cards": [
+    "One heater, every mounting condition",
+    "Pitched ceilings: 3/12 to 12/12",
+    "Angles: 15°, 30°, 45°, re-angled later",
+    "Walls: standard or extended bracket",
+    "Single post: one fixing point",
+    "Recessed: 7.5 in cavity"
+   ]
+  },
+  {
+   "id": "t3",
+   "segment": "Builders and installers",
+   "name": "One Post, Not Two",
+   "objective": "Consideration: faster, cleaner installs",
+   "format": "Reel, 9:16, 12 s split screen",
+   "hook": "Split screen: two suspension tubes on the left, one post on the right, timed.",
+   "headline": "One Post. One Fixing. Done.",
+   "primary_text": "Series II hangs from a single post instead of two, with no junction box on show: fewer fixings, a cleaner finish.",
+   "cta": "Learn More",
+   "visual": "Side-by-side install of Series I tubes and Series II single post; finished shot of the floating heater.",
+   "claims": [
+    "Single post (Series I: two suspension tubes)",
+    "No visible junction box",
+    "About 14% narrower and 10% shallower body"
+   ],
+   "images": [
+    "t2-single-post",
+    "t2-single-post-black"
+   ],
+   "mandatory": [
+    "Installation by a licensed electrician, to local code."
+   ],
+   "kpi": "Video completion, clicks"
+  },
+  {
+   "id": "t4",
+   "segment": "Builders",
+   "name": "Good, Better, Best For Your Options Sheet",
+   "objective": "Consideration and leads with builders",
+   "format": "Static 4:5 or carousel",
+   "hook": "Three heaters on a clean options sheet, with prices.",
+   "headline": "Three Price Points. One Family.",
+   "primary_text": "Classic from $643, Select from $923, Coastal from $1,195 list: a ready options sheet for every plan.",
+   "cta": "Get Quote",
+   "visual": "Options-sheet layout with the three renders and their key line; partner pricing call-out.",
+   "claims": [
+    "Classic $643–$921, Select $923–$1,170, Coastal $1,195–$1,321 list"
+   ],
+   "images": [
+    "t2-classic",
+    "t2-select-black",
+    "t2-low-clearance-recess"
+   ],
+   "mandatory": [
+    "[[VERIFY: launch list prices by model and region — Sales operations]]"
+   ],
+   "kpi": "Lead form submissions from builders"
+  },
+  {
+   "id": "t5",
+   "segment": "Builders and installers",
+   "name": "Join The Bromic Partner Program",
+   "objective": "Leads: partner sign-ups",
+   "format": "Static 4:5, or Reel with partner voices",
+   "hook": "A finished heated patio, then the six benefits appear.",
+   "headline": "You Create Beautiful Spaces. We Know How To Heat Them.",
+   "primary_text": "Partner pricing, free heating design plans, an extended warranty and a dedicated contact for every project.",
+   "cta": "Sign Up",
+   "visual": "Trade professional on site, warm finished space behind; the six benefits as a clean list. Footnote in small type.",
+   "claims": [
+    "Exclusive Partner Pricing",
+    "Free Custom Heating Design Plans",
+    "Extended Warranty",
+    "Dedicated Point of Contact",
+    "Project Coverage & Marketing Spotlights",
+    "Expert Product Recommendations"
+   ],
+   "images": [
+    "d-installers-recessing",
+    "w-045"
+   ],
+   "mandatory": [
+    "*A reseller certificate is required to join the Bromic installer program."
+   ],
+   "kpi": "Partner Program registrations"
+  }
+ ],
+ "assets_to_create": [
+  {
+   "name": "Series II sell sheet (trade)",
+   "channel": "Print and PDF",
+   "audience": "Builders, installers",
+   "claims": [
+    "6 kW recessed in a 7.5 in cavity, dual fan-ventilated, no site-built box",
+    "Pitched ceilings 3/12–12/12; presets 15°, 30°, 45°",
+    "One post, not two; no visible junction box",
+    "Good, Better, Best list prices"
+   ],
+   "brief": "One page, two sides: the three tiers on the front, mounting conditions and specs on the back.",
+   "owner": "Marketing"
+  },
+  {
+   "name": "Series II spec sheet and CSI section update",
+   "channel": "Website, Revit and CAD",
+   "audience": "Architects, designers",
+   "claims": [
+    "183 × 140 mm section, about 23% smaller than Series I",
+    "Dual fan-ventilated low-clearance recess",
+    "208, 240 and 277 V"
+   ],
+   "brief": "Update A11 spec kit and Section 23 83 33 language; publish Revit families at launch.",
+   "owner": "Specification and compliance"
+  },
+  {
+   "name": "Low-clearance recess install video",
+   "channel": "YouTube, Instagram Reels, website",
+   "audience": "Installers, builders",
+   "claims": [
+    "7.5 in cavity",
+    "No box to build",
+    "Dual fan-ventilated"
+   ],
+   "brief": "90 s real install, cut down to the t1 Reel; on-screen numbers, no voice-over needed.",
+   "owner": "Marketing"
+  },
+  {
+   "name": "Tungsten Series II landing page",
+   "channel": "bromic.com",
+   "audience": "All",
+   "claims": [
+    "The eight lead messages"
+   ],
+   "brief": "Hero on the floating single post; one section per message; the portfolio by space; one CTA to the design service.",
+   "owner": "Digital marketing"
+  },
+  {
+   "name": "Homeowner email: Meet Tungsten Series II",
+   "channel": "Email",
+   "audience": "Homeowners",
+   "claims": [
+    "Flush in shallow ceilings",
+    "14% slimmer, floating single post",
+    "Up to 6 kW, dimmed from your phone"
+   ],
+   "brief": "Three panels, three messages, one button to the landing page.",
+   "owner": "Digital marketing"
+  },
+  {
+   "name": "Trade email and partner mailer",
+   "channel": "Email",
+   "audience": "Builders, installers, architects",
+   "claims": [
+    "6 kW recess, 7.5 in cavity",
+    "Mounting conditions with numbers",
+    "Partner Program"
+   ],
+   "brief": "Numbers-first, short; links to the sell sheet and install video.",
+   "owner": "Trade sales"
+  },
+  {
+   "name": "Sales training deck",
+   "channel": "Internal",
+   "audience": "Sales and reps",
+   "claims": [
+    "All three matrices",
+    "Claim checks and approved wording"
+   ],
+   "brief": "Built from this framework: what matters to whom, Series I changes, and approved competitive lines.",
+   "owner": "Trade sales"
+  },
+  {
+   "name": "Competitive one-pager: Tungsten Series II and Infratech",
+   "channel": "Internal, sales only",
+   "audience": "Sales and reps",
+   "claims": [
+    "Matrix 3 rows marked Bromic stronger"
+   ],
+   "brief": "Factual, sourced, no disparagement; for sales conversations only until approved.",
+   "owner": "Specification and compliance"
   }
  ]
 }
