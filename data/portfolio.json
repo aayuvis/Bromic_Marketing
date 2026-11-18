@@ -106,5 +106,15 @@
    "source": "bromic.com",
    "source_url": "https://www.bromic.com/wp-content/uploads/2024/08/Render-3.png"
   }
- ]
+ ],
+ "banner": {
+  "file": "images/portfolio/portfolio-banner.jpg",
+  "sources": [
+   "https://www.bromic.com/wp-content/uploads/sites/2/2024/04/DSC05545-Courtney-Saib-scaled.jpg",
+   "https://www.bromic.com/wp-content/uploads/sites/2/2023/08/Bromic-Eclipse-Pendant-Light-1600x1067.jpg",
+   "https://www.bromic.com/wp-content/uploads/sites/2/2023/08/Commercial-Australia-Brisbane-Kedron-Wavell-1.jpg",
+   "https://www.bromic.com/wp-content/uploads/sites/2/2026/01/Bromic_-Eclipse_Portable_Hotel_Skansen_07-scaled.jpg",
+   "https://www.bromic.com/wp-content/uploads/sites/2/2023/08/Private-Residence-Tungsten-1-scaled.jpg"
+  ]
+ }
 }
