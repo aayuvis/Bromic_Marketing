@@ -178,12 +178,6 @@
    "proposed": true
   },
   {
-   "id": "value",
-   "name": "Choice and value",
-   "what": "Good, Better, Best tiers and price points",
-   "proposed": true
-  },
-  {
    "id": "support",
    "name": "Specification and support",
    "what": "Design service, documentation and partner support",
@@ -236,10 +230,6 @@
     "w": 2,
     "claim": "By the sea, Tungsten Coastal protects twice over: 316 marine-grade stainless steel and a protective coating."
    },
-   "value": {
-    "w": 2,
-    "claim": "Good, Better, Best: premium Bromic warmth at the level your project calls for."
-   },
    "support": {
     "w": 2,
     "claim": "A complimentary design plan shows where every heater belongs before anything is fixed."
@@ -289,10 +279,6 @@
    "coastal": {
     "w": 2,
     "claim": "Coastal developments get 316 stainless plus a protective coating as standard, not an upgrade."
-   },
-   "value": {
-    "w": 3,
-    "claim": "An options sheet with three price points: $643, $923 and $1,195 entry list prices."
    },
    "support": {
     "w": 3,
@@ -344,10 +330,6 @@
     "w": 2,
     "claim": "Coastal jobs: 316 marine-grade stainless with a protective coating, and a marine-grade low-clearance recess kit."
    },
-   "value": {
-    "w": 2,
-    "claim": "Three tiers on every quote: Classic $643–$921, Select $923–$1,170, Coastal $1,195–$1,321 list."
-   },
    "support": {
     "w": 2,
     "claim": "Installation manuals, CAD files, a technical line and a dedicated Partner Program contact."
@@ -397,10 +379,6 @@
    "coastal": {
     "w": 3,
     "claim": "Waterfront venues get double corrosion protection: 316 marine-grade stainless plus a protective coating."
-   },
-   "value": {
-    "w": 2,
-    "claim": "Choose the tier that fits each area, from the bar terrace to the private dining deck."
    },
    "support": {
     "w": 2,
@@ -452,10 +430,6 @@
     "w": 2,
     "claim": "Specify 316 marine-grade stainless with a protective coating, and a marine-grade recess kit, for coastal sites."
    },
-   "value": {
-    "w": 1,
-    "claim": "Good, Better, Best for value engineering without changing the detail."
-   },
    "support": {
     "w": 3,
     "claim": "CAD and Revit files, AIA-accredited courses and a complimentary design plan."
@@ -505,10 +479,6 @@
    "coastal": {
     "w": 1,
     "claim": "Coastal finishes that keep their looks by the sea."
-   },
-   "value": {
-    "w": 2,
-    "claim": "Three tiers, so design-led warmth fits more briefs and budgets."
    },
    "support": {
     "w": 2,
@@ -593,13 +563,6 @@
    "s1": "Not rated for marine use: Bromic advises mounting under cover, away from rain, snow and salt mist; stainless grade not published.",
    "s2": "Tungsten Coastal: 316 marine-grade stainless steel with a protective coating (dual corrosion protection), and a marine-grade low-clearance recess kit. [[VERIFY: name and specification of the Coastal coating — Product team]]",
    "so_what": "Tungsten can now be sold to coastal homes and waterfront venues, a market Series I could not serve."
-  },
-  {
-   "benefit": "value",
-   "change": "changed",
-   "s1": "A single range listed at about $798–$1,246 a heater (bromic.com).",
-   "s2": "Good, Better, Best: Classic $643–$921, Select $923–$1,170, Coastal $1,195–$1,321. Series I moves to entry level and is then discontinued; Cobalt is discontinued. [[VERIFY: launch list prices by model and region — Sales operations]]",
-   "so_what": "A lower entry price with Classic, and clear steps up for design and coastal performance."
   },
   {
    "benefit": "support",
@@ -962,38 +925,6 @@
      "DES": {
       "w": 1,
       "claim": "Coastal finishes protected twice over, so they keep their looks by the sea."
-     }
-    }
-   },
-   {
-    "benefit": "value",
-    "edge": "parity",
-    "infratech": "Retail about $766 to $1,092 for comparable 4 kW models, including the 316 marine grade (retail snapshots).",
-    "bromic": "List from $643 (Classic) to $1,321 (Coastal). [[VERIFY: launch list prices by model and region — Sales operations]]",
-    "users": {
-     "RES": {
-      "w": 2,
-      "claim": "Premium Bromic design from $643 list with Classic."
-     },
-     "BLD": {
-      "w": 3,
-      "claim": "Three clear price points from one family."
-     },
-     "INS": {
-      "w": 2,
-      "claim": "Offer clients a choice on every quote."
-     },
-     "COM": {
-      "w": 2,
-      "claim": "Coastal performance at a defined price step."
-     },
-     "ARC": {
-      "w": 1,
-      "claim": "A clear Good, Better, Best for value engineering."
-     },
-     "DES": {
-      "w": 2,
-      "claim": "Design-led choices at three price points."
      }
     }
    },
