@@ -1063,8 +1063,8 @@
   const TONE_NAMES = ['Deadpan', 'Dry', 'Absurd', 'Dark'];
   function portfolioStrip() {
     const P = HUB.portfolio || []; if (!P.length) return '';
-    return `<section class="pf" aria-label="The Bromic portfolio"><a href="images/portfolio/portfolio-banner.jpg" target="_blank" rel="noopener"><img class="pf-banner" src="images/portfolio/portfolio-banner.webp" alt="The Bromic portfolio: ${esc(P.map((p) => p.name).join(', '))}" loading="lazy"></a>
-      <p class="muted pf-src">Close-ups cropped from Bromic's own photography and product renders. <a href="images/portfolio/portfolio-banner.jpg" download>Download the banner</a> (3000 × 1016).</p></section>`;
+    return `<section class="pf" aria-label="The Bromic portfolio"><a href="images/portfolio/portfolio-banner.jpg" target="_blank" rel="noopener"><img class="pf-banner" src="images/portfolio/portfolio-banner.webp" alt="Bromic heaters, close up" loading="lazy"></a>
+      <p class="muted pf-src">Close-ups cropped from Bromic's own photography and product renders. <a href="images/portfolio/portfolio-banner.jpg" download>Download the banner</a> (3000 × 952).</p></section>`;
   }
   function campaignsPage(id) {
     const all = HUB.campaigns || [];
