@@ -66,9 +66,13 @@ def O_face(x): r=HL/2; put(P['eface'],x+r,(T+BS)/2,w=2*r); accent(x+r,T); return
 def O_tilt(x): r=HL/2; im=squash(P['eface'],0.8); put(im,x+r,(T+BS)/2,w=2*r); accent(x+r,T+r*0.2); return x+2*r
 def O_pendant(x): r=HL/2; put(P['pendant'],x+r,(T+BS)/2,w=2*r); accent(x+r,(T+BS)/2-r*0.45); return x+2*r
 def M_lin(x,kind='tungsten',mid=None):
-  mid=mid or kind; wM=640
-  L=HL*0.74; put(P[mid],x+wM*0.33,T+HL*0.37,w=L,ang=-62); put(P[mid],x+wM*0.67,T+HL*0.37,w=L,ang=62)
-  put(P[kind],x+TH/2,(T+BS)/2,w=HL,ang=90); put(P[kind],x+wM-TH/2,(T+BS)/2,w=HL,ang=90); return x+wM
+  mid=mid or kind; wM=720
+  ob=put(P[kind],0,0,w=HL,ang=90); LAY.pop(); tb=ob[0]          # outer bar width once turned upright
+  def diag(x0,y0,x1,y1):
+    L=math.hypot(x1-x0,y1-y0)+40; a=math.degrees(math.atan2(y1-y0,x1-x0)); put(P[mid],(x0+x1)/2,(y0+y1)/2,w=L,ang=-a)
+  bot=(x+wM/2,T+HL*0.66)
+  diag(x+tb-10,T+60,*bot); diag(x+wM-tb+10,T+60,*bot)
+  put(P[kind],x+tb/2,(T+BS)/2,w=HL,ang=90); put(P[kind],x+wM-tb/2,(T+BS)/2,w=HL,ang=90); return x+wM
 def M_towers(x):
   wP=put(P['portable'],0,0,h=HL)[0]; LAY.pop(); wM=wP*2+340
   put(P['portable'],x+wP/2,(T+BS)/2,h=HL); put(P['portable'],x+wM-wP/2,(T+BS)/2,h=HL,flipx=True)
@@ -100,7 +104,7 @@ def C_fsrot(x):  # Eclipse Freestanding, mirrored and turned a quarter: disc at 
 def C_fsbig(x):
   w,_=put(P['efs'],0,0,h=HL*1.08); LAY.pop(); put(P['efs'],x+w/2,(T+BS)/2-HL*0.04,h=HL*1.08,flipx=True); return x+w
 OPTIONS=[
- ('6','The Original Sketch',[(B_halves,{}),(R_half,{'kind':'platinum_white','leg':'platinum_white'}),(O_face,{}),(M_lin,{'mid':'platinum_white'}),(I_port,{}),(C_open,{})]),
+ ('6','The Original Sketch',[(B_halves,{}),(R_half,{'kind':'platinum_white','leg':'gas'}),(O_face,{}),(M_lin,{'kind':'platinum','mid':'tungsten'}),(I_port,{}),(C_open,{})]),
  ('1','Eclipse Rounds',[(B_eclipses,{}),(R_eclipse,{}),(O_face,{}),(M_lin,{}),(I_port,{}),(C_half,{})]),
  ('2','The Freestanding Pair',[(B_fs,{}),(R_fs,{}),(O_face,{}),(M_towers,{}),(I_lin,{}),(C_open,{})]),
  ('3','Glass And Light',[(B_eclipses,{'kind':'platinum'}),(R_eclipse,{'kind':'platinum','leg':'tungsten'}),(O_tilt,{}),(M_lin,{'kind':'platinum'}),(I_lin,{'kind':'platinum'}),(C_half,{})]),
