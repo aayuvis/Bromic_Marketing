@@ -984,11 +984,13 @@
   function pmPage(id) {
     const all = H.pm || [];
     const P = all.find((x) => x.id === id) || all[0];
+    if (P && pmTab === 'm2' && !(P.m2 || []).length) pmTab = 'm1';
+    if (P && pmTab === 'm5' && !(P.training || P.emails || P.one_pagers)) pmTab = 'm1';
     if (!P) return '<div class="empty">No product frameworks yet.</div>';
     const U = P.user_types, B = P.benefits;
     const users = pmUser ? U.filter((u) => u.id === pmUser) : U;
     const vf = (t) => esc(t).replace(/\[\[VERIFY:([^\]]*)\]\]/g, '<mark class="verify">To verify:$1</mark>');
-    const tierCards = P.tiers.map((t) => `<article class="pm-tier"><div class="pm-tier-pic">${img(t.image)}</div>
+    const tierCards = (P.tiers || []).map((t) => `<article class="pm-tier"><div class="pm-tier-pic">${img(t.image)}</div>
       <span class="label">${esc(t.tier)}</span><h3>${esc(t.name)}</h3><p class="pm-win">Wins on ${esc(t.win_on.toLowerCase())}</p>
       <dl class="kv"><dt>Colours</dt><dd>${esc(t.colours)}</dd><dt>Fascia</dt><dd>${esc(t.fascia)}</dd><dt>Recessing</dt><dd>${esc(t.recessing)}</dd><dt>List price</dt><dd>${esc(t.price)}</dd></dl>
       <ul>${t.notes.map((n) => `<li>${esc(n)}</li>`).join('')}</ul></article>`).join('');
@@ -1007,8 +1009,9 @@
         <div class="legend"><span><i class="pm-sw w3"></i>Matters most</span><span><i class="pm-sw w2"></i>Matters</span><span><i class="pm-sw w1"></i>Nice to have</span></div>`;
     } else if (pmTab === 'm2') {
       const BADGE = { new: 'New', better: 'Improved', same: 'Carried over', changed: 'Changed' };
-      body = `<div class="pm-intro"><p>Series II against today's Tungsten (Series I), benefit by benefit: what changed, and the line that sells the change.</p></div>
-        ${P.m2.length ? `<div class="pm-wrap"><table class="pm-grid pm-cmp"><thead><tr><th class="pm-corner">Benefit field</th><th>Tungsten Series I</th><th>Tungsten Series II</th><th>What it means</th></tr></thead><tbody>
+      const M2 = P.m2_label || { left: 'Tungsten Series I', right: 'Tungsten Series II', intro: "Series II against today's Tungsten (Series I), benefit by benefit: what changed, and the line that sells the change." };
+      body = `<div class="pm-intro"><p>${esc(M2.intro || '')}</p></div>
+        ${P.m2.length ? `<div class="pm-wrap"><table class="pm-grid pm-cmp"><thead><tr><th class="pm-corner">Benefit field</th><th>${esc(M2.left)}</th><th>${esc(M2.right)}</th><th>What it means</th></tr></thead><tbody>
         ${P.m2.map((r) => { const b = B.find((x) => x.id === r.benefit) || { name: r.benefit, what: '' }; return `<tr>${bRow(b)}<td>${vf(r.s1)}</td><td><span class="pm-badge ${esc(r.change)}">${esc(BADGE[r.change] || r.change)}</span> ${vf(r.s2)}</td><td><p>${vf(r.so_what)}</p></td></tr>`; }).join('')}
         </tbody></table></div>` : '<div class="empty">Research in progress.</div>'}`;
     } else if (pmTab === 'm4') {
@@ -1038,27 +1041,43 @@
         <div class="pm-wrap"><table class="pm-grid"><thead><tr><th>Asset</th><th>Channel</th><th>For</th><th>Claims it carries</th><th>Brief</th><th>Owner</th></tr></thead><tbody>
         ${(P.assets_to_create || []).map((a) => `<tr><th scope="row" class="pm-b"><b>${esc(a.name)}</b></th><td>${esc(a.channel)}</td><td>${esc(a.audience)}</td><td><ul>${a.claims.map((c) => `<li>${esc(c)}</li>`).join('')}</ul></td><td>${esc(a.brief)}</td><td>${esc(a.owner)}</td></tr>`).join('')}
         </tbody></table></div>`;
+    } else if (pmTab === 'm5') {
+      const Tr = P.training || {}, E = P.emails || [], O = P.one_pagers || [], N = P.next_steps;
+      const pts = (a) => `<ul>${(a || []).map((x) => `<li>${typeof x === 'string' ? vf(x) : `<b>${esc(x.lead)}</b> ${vf(x.rest)}`}</li>`).join('')}</ul>`;
+      body = `${(Tr.plan || []).length ? `<div class="pm-sec-h"><span class="label">Training</span><h2>Who Learns What, And How</h2></div><div class="pm-wrap"><table class="pm-grid"><thead><tr><th>Audience</th><th>Modules</th><th>Format</th><th>Time</th><th>Outcome</th></tr></thead><tbody>${Tr.plan.map((r) => `<tr><th scope="row" class="pm-b"><b>${esc(r.audience)}</b></th><td>${esc(r.modules)}</td><td>${esc(r.format)}</td><td>${esc(r.time)}</td><td>${esc(r.outcome)}</td></tr>`).join('')}</tbody></table></div>` : ''}
+        ${(Tr.modules || []).length ? `<div class="pm-mods">${Tr.modules.map((m) => `<article class="pm-mod"><span class="pm-pn">${esc(m.no)}</span><h3>${esc(m.title)}</h3>${pts(m.points)}${(m.check || []).length ? `<p class="label">Check</p>${pts(m.check)}` : ''}</article>`).join('')}</div>` : ''}
+        ${O.length ? `<div class="pm-sec-h"><span class="label">One-pagers</span><h2>One Page For Every Audience</h2></div><div class="pm-ops">${O.map((o) => `<article class="pm-op">${o.image ? `<div class="pm-op-pic">${img(o.image)}</div>` : ''}<div><span class="label">${esc(o.audience)}</span><h3>${esc(o.title)}</h3><p>${vf(o.intro || '')}</p>${pts(o.points)}<p class="pm-cta">${esc(o.cta || '')}</p>${o.footnote ? `<p class="muted" style="font-size:12px">${vf(o.footnote)}</p>` : ''}</div></article>`).join('')}</div>` : ''}
+        ${E.length ? `<div class="pm-sec-h"><span class="label">Launch emails</span><h2>Four Emails, Four Audiences</h2></div><div class="pm-mails">${E.map((m) => `<article class="pm-mail"><span class="label">${esc(m.audience)}</span><h3>${esc(m.subject)}</h3><p class="muted">${esc(m.preview || '')}</p><p>${esc(m.intro || '')}</p>${pts(m.points)}<p class="muted" style="font-size:13px">${vf(m.close || '')}</p><p class="pm-cta">${esc(m.cta || '')}</p>${(m.assets || []).length ? `<p class="muted" style="font-size:12px">Assets: ${m.assets.map(esc).join(' · ')}</p>` : ''}</article>`).join('')}</div>` : ''}
+        ${N ? `<div class="pm-sec-h"><span class="label">Next steps</span><h2>Clear Asks, Clear Owners</h2></div><p class="cm-test">${esc(N.note || '')}</p><div class="pm-mails">${(N.owners || []).map((o) => `<article class="pm-mail"><h3>${esc(o.role)}</h3>${pts(o.asks)}</article>`).join('')}</div>` : ''}`;
     } else {
-      body = `<div class="pm-intro"><p>Where Tungsten Series II is stronger than Infratech, benefit by benefit and buyer by buyer. Every comparison is factual and sourced, and needs sign-off from Specification and compliance before it is used outside Bromic.</p>
+      const M3 = P.m3 || {};
+      const comps = M3.competitors || (M3.competitor ? [{ id: 'infratech', name: M3.competitor, owner: M3.owner }] : []);
+      const vsOf = (r, c) => (r.vs && r.vs[c.id]) || r[c.id] || '';
+      const EDGE = { bromic: 'Bromic stronger', parity: 'Parity', competitor: 'Competitor stronger', infratech: 'Infratech stronger', mixed: 'Mixed', unknown: 'To confirm' };
+      const cs = P.competitive_summary;
+      body = `<div class="pm-intro"><p>${esc(M3.intro || `Where ${P.short || P.name} stands against ${comps.map((c) => c.name).join(', ')}, benefit by benefit and buyer by buyer.`)} Every comparison is factual and sourced, and needs sign-off from ${esc(P.needs_approval || 'Specification and compliance')} before it is used outside Bromic.</p>
         <label class="pm-toggle"><input type="checkbox" data-pmclaims ${pmClaims ? 'checked' : ''}> Show claims</label></div>
-        ${P.m3 && P.m3.rows ? `<div class="pm-wrap"><table class="pm-grid pm-vs${pmClaims ? '' : ' compact'}"><thead><tr><th class="pm-corner">Benefit field</th><th class="pm-inf">Infratech today</th><th class="pm-inf">Tungsten Series II</th>${userHead}</tr></thead><tbody>
-        ${P.m3.rows.map((r) => { const b = B.find((x) => x.id === r.benefit) || { name: r.benefit, what: '' }; return `<tr>${bRow(b)}<td class="pm-inf"><span class="pm-edge ${esc(r.edge)}">${esc({ bromic: 'Bromic stronger', parity: 'Parity', infratech: 'Infratech stronger', unknown: 'To confirm' }[r.edge] || r.edge)}</span><p>${vf(r.infratech)}</p></td><td class="pm-inf"><p>${vf(r.bromic)}</p></td>${users.map((u) => { const c = (r.users || {})[u.id] || {}; return `<td class="w${c.w || 0}">${pmClaims ? `<p>${vf(c.claim || '')}</p>` : `<span class="pm-w">${esc(WLAB[c.w] || '')}</span>`}</td>`; }).join('')}</tr>`; }).join('')}
+        ${comps.some((c) => c.why_closest) ? `<div class="pm-comps">${comps.map((c) => `<article><span class="label">${esc(c.markets || '')}</span><h3>${esc(c.name)}</h3>${c.owner ? `<p class="muted" style="font-size:12px">${vf(c.owner)}</p>` : ''}<p>${vf(c.why_closest || '')}</p></article>`).join('')}</div>` : ''}
+        ${cs ? `<div class="pm-cs"><div><span class="label">Where we win</span>${(cs.wins || []).length ? `<ul>${cs.wins.map((x) => `<li>${vf(x)}</li>`).join('')}</ul>` : ''}</div><div><span class="label">Parity</span><ul>${(cs.parity || []).map((x) => `<li>${vf(x)}</li>`).join('')}</ul></div><div><span class="label">Watch</span><ul>${(cs.watch || []).map((x) => `<li>${vf(x)}</li>`).join('')}</ul></div></div>
+          ${(cs.battlecard || []).length ? `<div class="pm-sec-h"><span class="label">Battlecard</span><h2>When A Buyer Says…</h2></div><div class="pm-bc">${cs.battlecard.map((b) => `<article><p class="q">"${esc(b.objection)}"</p><p>${vf(b.answer)}</p></article>`).join('')}</div>` : ''}` : ''}
+        ${M3.rows ? `<div class="pm-wrap"><table class="pm-grid pm-vs${pmClaims ? '' : ' compact'}"><thead><tr><th class="pm-corner">Benefit field</th><th class="pm-inf">${esc(P.short || 'Bromic')}</th>${comps.map((c) => `<th class="pm-inf">${esc(c.name)}</th>`).join('')}${userHead}</tr></thead><tbody>
+        ${M3.rows.map((r) => { const b = B.find((x) => x.id === r.benefit) || { name: r.benefit, what: '' }; return `<tr>${bRow(b)}<td class="pm-inf"><span class="pm-edge ${esc(r.edge === 'competitor' ? 'infratech' : r.edge)}">${esc(EDGE[r.edge] || r.edge)}</span><p>${vf(r.bromic)}</p></td>${comps.map((c) => `<td class="pm-inf"><p>${vf(vsOf(r, c))}</p></td>`).join('')}${users.map((u) => { const c = (r.users || {})[u.id] || {}; return `<td class="w${c.w || 0}">${pmClaims ? `<p>${vf(c.claim || '')}</p>` : `<span class="pm-w">${esc(WLAB[c.w] || '')}</span>`}</td>`; }).join('')}</tr>`; }).join('')}
         </tbody></table></div>` : '<div class="empty">Research in progress.</div>'}`;
     }
     const srcs = P.sources || [];
     return `<div class="ph"><div><span class="label">Product marketing</span><h1>${esc(P.name)}</h1><p>${esc(P.launch.summary)}</p></div>
       ${all.length > 1 ? `<label class="who-pick"><span class="label">Product</span><select id="pmprod">${all.map((x) => `<option value="${esc(x.id)}" ${x.id === P.id ? 'selected' : ''}>${esc(x.short || x.name)}</option>`).join('')}</select></label>` : ''}</div>
       ${P.deck ? `<p><a class="btn primary" href="${esc(P.deck)}" download>${ic.down}Download the launch playbook (PowerPoint)</a></p>` : ''}
-      <div class="pm-tiers">${tierCards}</div>
-      <div class="pm-ups"><span class="label">What's new in Series II</span><ul>${P.upgrades.map((u) => `<li>${esc(u)}</li>`).join('')}</ul><p class="muted" style="font-size:13px">${vf(P.price_verify || '')}</p></div>
-      ${(P.pillars || []).length ? `<section class="pm-pillars"><div class="pm-sec-h"><span class="label">What we lead with</span><h2>The Series II Story In ${P.pillars.length} Messages</h2></div>
+      ${(P.tiers || []).length ? `<div class="pm-tiers">${tierCards}</div>` : ''}
+      <div class="pm-ups"><span class="label">${esc(P.upgrades_label || "What's new in Series II")}</span><ul>${(P.upgrades || []).map((u) => `<li>${esc(u)}</li>`).join('')}</ul><p class="muted" style="font-size:13px">${vf(P.price_verify || '')}</p></div>
+      ${(P.pillars || []).length ? `<section class="pm-pillars"><div class="pm-sec-h"><span class="label">What we lead with</span><h2>The ${esc(P.short || 'Series II')} Story In ${P.pillars.length} Messages</h2></div>
         <div class="pm-pgrid">${P.pillars.map((x, i) => `<article class="pm-pillar"><span class="pm-pn">${String(i + 1).padStart(2, '0')}</span><h3>${esc(x.title)}</h3><p>${esc(x.line)}</p>
           <ul>${x.proof.map((q) => `<li>${esc(q)}</li>`).join('')}</ul>${x.verify ? `<p class="pm-pv">${vf(x.verify)}</p>` : ''}
-          <span class="pm-pb">${x.benefits.map((b) => esc((B.find((y) => y.id === b) || {}).name || b)).join(' · ')}</span></article>`).join('')}</div></section>` : ''}
-      ${(P.claim_checks || []).length ? `<section class="pm-checks"><div class="pm-sec-h"><span class="label">Claim checks</span><h2>Tested Before We Say It</h2></div>${P.claim_checks.map((c) => `<article class="pm-check"><div><span class="pm-edge ${/false/.test(c.verdict) ? 'infratech' : 'bromic'}">${esc(c.verdict)}</span> <b>"${esc(c.claim)}"</b> <span class="muted" style="font-size:12px">checked ${esc(c.checked)}</span></div><p>${esc(c.why)}</p><p><b>Say instead:</b> ${esc(c.use_instead)}</p><p><b>Safest:</b> ${esc(c.safest)}</p><p class="muted" style="font-size:13px">Avoid: ${c.avoid.map(esc).join(' · ')}. Still open: ${c.open.map(esc).join('; ')}.</p></article>`).join('')}</section>` : ''}
+          <span class="pm-pb">${(x.benefits || []).map((b) => esc((B.find((y) => y.id === b) || {}).name || b)).join(' · ')}</span></article>`).join('')}</div></section>` : ''}
+      ${(P.claim_checks || []).length ? `<section class="pm-checks"><div class="pm-sec-h"><span class="label">Claim checks</span><h2>Tested Before We Say It</h2></div>${P.claim_checks.map((c) => `<article class="pm-check"><div><span class="pm-edge ${/false/.test(c.verdict) ? 'infratech' : 'bromic'}">${esc(c.verdict)}</span> <b>"${esc(c.claim)}"</b> <span class="muted" style="font-size:12px">checked ${esc(c.checked)}</span></div><p>${esc(c.why)}</p><p><b>Say instead:</b> ${esc(c.use_instead)}</p><p><b>Safest:</b> ${esc(c.safest)}</p><p class="muted" style="font-size:13px">Avoid: ${(c.avoid || []).map(esc).join(' · ')}. Still open: ${(c.open || []).map(esc).join('; ')}.</p></article>`).join('')}</section>` : ''}
       ${(P.portfolio || []).length ? `<section class="pm-port"><div class="pm-sec-h"><span class="label">One family for every outdoor room</span><h2>The Right Heater For Every Space</h2></div>
         <div class="pm-pf">${P.portfolio.map((x) => `<article><div class="pm-pf-pic">${img(x.image)}</div><span class="label">${esc(x.space)}</span><h3>${esc(x.product)}</h3><p>${esc(x.why)}</p></article>`).join('')}</div></section>` : ''}
-      <nav class="pm-tabs" role="tablist">${[['m1', '1 · What matters to whom'], ['m2', '2 · Series II against Series I'], ['m3', '3 · Against Infratech'], ['m4', '4 · Assets to create']].map(([k, l]) => `<button type="button" role="tab" aria-selected="${pmTab === k}" data-pmtab="${k}">${l}</button>`).join('')}
+      <nav class="pm-tabs" role="tablist">${[['m1', 'What matters to whom'], ...((P.m2 || []).length ? [['m2', (P.m2_label && P.m2_label.tab) || 'Series II against Series I']] : []), ['m3', 'Against the competition'], ['m4', 'Assets to create'], ...(P.training || P.emails || P.one_pagers ? [['m5', 'Training, one-pagers and emails']] : [])].map((x, n) => [x[0], `${n + 1} · ${x[1]}`]).map(([k, l]) => `<button type="button" role="tab" aria-selected="${pmTab === k}" data-pmtab="${k}">${l}</button>`).join('')}
       <span class="pm-filter"><span class="label">Buyer</span> <button type="button" class="pm-u${pmUser ? '' : ' on'}" data-pmuser="">All</button>${U.map((u) => `<button type="button" class="pm-u${pmUser === u.id ? ' on' : ''}" data-pmuser="${u.id}">${esc(u.name)}</button>`).join('')}</span></nav>
       ${body}
       ${srcs.length ? `<details class="pm-src"><summary>Sources (${srcs.length})</summary><ol class="srcs">${srcs.map((s, i) => `<li><span class="n">${i + 1}</span><span><b>${esc(s.publisher)}</b>, ${esc(s.title)}${s.year ? ` (${esc(s.year)})` : ''}${/^https?:/.test(s.url || '') ? ` <a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.url)}</a>` : ''}</span></li>`).join('')}</ol></details>` : ''}

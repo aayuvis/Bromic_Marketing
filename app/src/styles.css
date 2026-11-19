@@ -860,3 +860,11 @@ thead .pm-u { border: 0; background: none; padding: 0; font: 600 11px/1.3 var(--
 .kh-grid.kb .kh-tile .kh-pic { aspect-ratio: 16 / 9; }
 @media (max-width: 900px) { .kh-topics { grid-template-columns: 1fr 1fr; } .kh-tile.big { grid-template-columns: 1fr; } .kh-tile.big .kh-pic { min-height: 200px; } }
 @media (max-width: 560px) { .kh-topics { grid-template-columns: 1fr; } }
+
+.pm-comps { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin: 10px 0 18px; } .pm-comps article { border: 1px solid var(--line); padding: 14px 16px; background: var(--card); } .pm-comps h3 { font-size: 19px; margin: 4px 0 6px; } .pm-comps p { margin: 0; font-size: 14px; line-height: 1.5; }
+.pm-cs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-bottom: 14px; } .pm-cs > div { background: var(--paper-2); padding: 14px 16px; } .pm-cs ul { margin: 6px 0 0; padding-left: 18px; font-size: 14px; line-height: 1.5; }
+.pm-bc { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; margin-bottom: 20px; } .pm-bc article { border-left: 2px solid var(--flame); padding: 4px 0 4px 14px; } .pm-bc .q { font: 400 18px/1.35 var(--serif); margin: 0 0 6px; } .pm-bc p { margin: 0; font-size: 14px; line-height: 1.5; }
+.pm-mods, .pm-mails { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; margin: 12px 0 24px; } .pm-mod, .pm-mail { border: 1px solid var(--line); padding: 16px 18px; background: var(--card); } .pm-mod h3, .pm-mail h3 { font-size: 20px; margin: 4px 0 8px; } .pm-mod ul, .pm-mail ul { padding-left: 18px; font-size: 14px; line-height: 1.5; }
+.pm-ops { display: grid; gap: 16px; margin: 12px 0 24px; } .pm-op { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 20px; border: 1px solid var(--line); padding: 16px; background: var(--card); } .pm-op-pic img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; } .pm-op h3 { font-size: 22px; margin: 4px 0 8px; } .pm-op ul { padding-left: 18px; font-size: 14px; line-height: 1.5; }
+.pm-cta { font: 600 11px var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--flame-ink); }
+@media (max-width: 760px) { .pm-cs { grid-template-columns: 1fr; } .pm-op { grid-template-columns: 1fr; } }

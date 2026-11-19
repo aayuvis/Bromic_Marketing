@@ -10,7 +10,9 @@ for (const f of fs.existsSync(D) ? fs.readdirSync(D).filter((x) => x.endsWith('.
   for (const c of P.carousels || []) { if (c.cards.length !== 4) fail(f, `${c.id} needs four cards`); for (const k of c.cards) { if (!B.includes(k.benefit)) fail(f, `${c.id} card on unknown benefit ${k.benefit}`); if (!fs.existsSync(path.join(D, '..', '..', 'decks', 'carousels', `${c.id}-${c.cards.indexOf(k) + 1}.jpg`))) fail(f, `${c.id} card image missing; run python3 decks/build-carousels.py`); } }
   for (const s of P.storyboards || []) if (!fs.existsSync(path.join(D, '..', '..', s.board))) fail(f, `${s.id} board missing`);
   for (const u of U) for (const b of B) { const c = (P.m1[u] || {})[b]; if (!c || ![1, 2, 3].includes(c.w) || !c.claim) fail(f, `m1 ${u}/${b}`); }
-  for (const b of B) { if (!P.m2.some((r) => r.benefit === b)) fail(f, `m2 has no row for ${b}`); const r = (P.m3.rows || []).find((x) => x.benefit === b); if (!r) fail(f, `m3 has no row for ${b}`); else for (const u of U) if (!(r.users[u] || {}).claim) fail(f, `m3 ${b}/${u}`); }
+  const comps = (P.m3 && P.m3.competitors) || (P.m3 && P.m3.competitor ? [{ id: 'infratech' }] : []);
+  if (!comps.length) fail(f, 'm3 names no competitor');
+  for (const b of B) { if ((P.m2 || []).length && !P.m2.some((r) => r.benefit === b)) fail(f, `m2 has no row for ${b}`); const r = ((P.m3 || {}).rows || []).find((x) => x.benefit === b); if (!r) fail(f, `m3 has no row for ${b}`); else { if (!r.bromic) fail(f, `m3 ${b} has no Bromic fact`); for (const c of comps) if (!((r.vs || {})[c.id] || r[c.id])) fail(f, `m3 ${b} has nothing for ${c.id}`); for (const u of U) if (!((r.users || {})[u] || {}).claim) fail(f, `m3 ${b}/${u}`); } }
   if (P.m3.rows && !P.needs_approval) fail(f, 'competitor matrix without needs_approval');
   const text = JSON.stringify([P.m1, P.m2, P.m3]).replace(/\[\[VERIFY[^\]]*\]\]/g, '');
   if (/\S — \S/.test(text)) fail(f, 'long dash in a claim'); if (/[a-z]!/.test(text)) fail(f, 'exclamation mark in a claim');
