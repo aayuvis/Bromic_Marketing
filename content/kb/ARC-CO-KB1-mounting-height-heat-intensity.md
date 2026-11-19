@@ -18,7 +18,7 @@ images: []
 owner_review: Product team
 status: draft
 gated: false
-related: [ARC-CO-01, ARC-IN-01]
+related: [ARC-CO-01, ARC-IN-01, ARC-CO-KB3]
 updated: 2026-11-16
 sources:
   - id: s1

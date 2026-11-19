@@ -76,6 +76,13 @@ sources:
     url: https://www.bromic.com/blog/why-its-important-to-specify-outdoor-heating-early/
     supports: "The original post's topics (cost, residential and commercial planning, infrastructure, code, aesthetics) and its Danny Wang video reference"
     verified: true
+  - id: s8
+    publisher: Bromic Heating
+    title: "The Evolution of Outdoor Heating (AIA/CES course AIA4041002)"
+    year: 2026
+    url: "internal: Bromic AIA/CES course deck, not public"
+    supports: "Bromic guidance: start with a heat map of where people gather; heaters compete with lighting, ducts and fans for ceiling space, so coordinate early with the MEP and lighting teams; match the heater finish to the surrounding materials"
+    verified: false
 ---
 Schrijf buitenverwarming voor in het schetsontwerp, omdat ze beslissingen vormgeeft die moeilijk te veranderen zijn als de ruimte eenmaal staat: een eigen groep of gasleiding naar elke positie, achterhout en inbouwsparingen in het overstek, de plek van de bediening, en de weg die de installatie door de keuring aflegt. Vroeg gepland, verdwijnt de warmte sierlijk in de architectuur. Blijft ze tot het einde liggen, dan kan dat betekenen dat je een afgewerkt plafond openmaakt, genoegen neemt met een opbouwcompromis of leeft met een verwarmer waar niemand op had gerekend.
 
@@ -98,10 +105,14 @@ Het terras komt op de tekeningen, de warmte om ervan te genieten blijft weg. Dan
 | Groep per verwarmerpositie | Elektrisch ontwerp, vóór de ruwe installatie | Een gesloten overstek openzagen en herstellen |
 | Achterhout en inbouwsparingen | Regelwerk | Opbouwmontage waar een vlak detail de bedoeling was |
 | Montagehoogte en afstanden | Doorsneden | Verwarmers te laag om toegestaan te zijn, of te hoog om te voelen |
+| Plafondruimte gedeeld met verlichting, ventilatoren en kanalen | Plafondplan, samen met het installatie- en lichtontwerp | Een verwarmer die van de zitplekken wordt weggeschoven, of een armatuur die moet wijken |
+| Afwerking van de verwarmer | Voorlopig ontwerp, samen met het materialenpalet | Een afwerking die concurreert met de details eromheen |
 | Bediening en de plek ervan | Elektrisch ontwerp | Een schakelaar waar niemand staat, of helemaal geen zones |
 | Normen en goedkeuring | Vergunningsaanvraag | Een afgekeurde installatie, of dit seizoen geen warmte |
 
 Wordt verwarming vanaf de eerste tekening ingepland, dan is elke rij hierboven gewoon een lijn op een plan; blijft ze tot het einde liggen, dan kan het een gat in een afgewerkt plafond worden.
+
+Elk warmteplan begint bij ons met een kaart van de plekken waar mensen samenkomen, eten en blijven hangen; daarop stemmen we de verwarmers af. Onder een overkapping delen verwarmers het plafond met verlichting, ventilatoren en kanalen. Betrek het installatie- en lichtontwerp daarom al bij het plafondplan, en kies een zwarte, witte of rvs-afwerking die past bij de materialen eromheen[^s8]. Montagehoogtes per gebruik, van eettafel tot doorloop, vind je bij [warmtezones](item:ARC-CO-KB3).
 
 [[DIAGRAM: Doorsnede door een overdekt terras met een ingebouwde verwarmer, achterhout, aansluitdoos, een eigen groep terug naar de groepenkast en de regelaar bij de deur, met de minimale plafondmontagehoogte van 2,4 m aangegeven]]
 
@@ -166,3 +177,4 @@ Teken de warmte in je ontwerp met de Bromic spec kit.
 [^s5]: NFPA 70, National Electrical Code.
 [^s6]: NFPA 54, National Fuel Gas Code.
 [^s7]: Bromic Heating, oorspronkelijk artikel, gelezen op 29 okt. 2026.
+[^s8]: Bromic Heating, The Evolution of Outdoor Heating (AIA/CES-cursus AIA4041002), 2026.

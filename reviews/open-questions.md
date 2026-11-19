@@ -210,3 +210,27 @@ The ten answers that unblock the most content (basis: docs/HANDOVER-next-session
 | COM-CO-01, COM-IN-01, A20, A21, A02 (all) | One set of rates: the articles and A21 use 14.07¢/kWh, $1.01/therm, $2.46/gal; A20 and the A02 guides use 13.54¢, $0.87, $2.674; the A02 homeowner guide prices homes at the commercial electricity rate while RES-IN-01 uses the 18.3¢ residential rate. (19 Nov 2026: the homeowner guide now uses RES-IN-01's residential rates, 18.3¢/kWh and $2.55/therm, with $2.674/gal propane.) | Finance |
 | ARC-CO-01, RES-CO-01, RES-AW-01, RES-AW-02, COM-AW-01, COM-AW-02, COM-BY-01, RES-CO-KB1, BLOG-12/13/14/15/16/17/25/36, A01c, A02 (pro, homeowner); en, de, nl | Owner, 19 Nov 2026: Platinum, Eclipse and Tungsten Smart-Heat Electric are medium wave, and medium wave is the best performer on heat coverage, temperature rise, distance the heat travels and no intrusive glow. Supply the Bromic test data for each of the four claims, and a source for short wave's intense glow and glare. Until then every claim carries a VERIFY note (`wavelength-by-product`, `medium-wave-performance` in data/product-facts.json). Note: Infratech also describes its elements as medium wave (data/product-marketing/platinum-electric.json), so no "only medium wave" claim is made. | Product team |
 - CSP-06 Marmion display home: confirm the Dorrington Homes photos show this display home, and the heater finish (testimonial says white) — Bromic AU (19 Nov 2026)
+
+
+## AIA/CES course deck "The Evolution of Outdoor Heating" (AIA4041002), read 19 Nov 2026
+
+The deck is Bromic's own material but not a verified source. Where it conflicts with data/product-facts.json, product-facts wins
+and nothing from the deck's side was published. Hub items that now cite the deck: ARC-CO-KB2, ARC-CO-KB3, COM-AW-KB1, BLOG-30.
+
+| item id | question / conflict | owner |
+|---|---|---|
+| Deck slides 101–102 | Eclipse Portable spec reads 3300 W, 144 ft², 12.9/13.5/14.1 A at 220/230/240 V; product-facts (bromic.com) has 2900 W, 121 ft², 11.4/11.8/12.1 A. Update the deck or the product page. | Product team |
+| Deck slide 80 | Platinum Electric lists only 3400 W and 2300 W (no 4500 W), and the widths look swapped (3400 W 33 in, 2300 W 50.2 in). Product-facts has 2300/3400/4500 W. Confirm models and dimensions against the 2026 cut sheet. | Product team |
+| Deck slides 87, 96 | Platinum Gas and Tungsten Gas are named with the retired series numbers. Rename by output in the deck (hard rule 3). | Specification and compliance |
+| Deck slide 25 | Wavelength efficiency 40 / 60 / 80% (long / medium / short); the Planning Guide 2021 (product-facts `wavelength`) has about 40 / 60 / 90% radiant. Not published; supply one tested set. | Product team |
+| Deck slide 37 notes | "A minimum mounting height of 96 in is required" for every heater; product-facts has 72 in on a wall and 96 in on a ceiling for electric. The Hub keeps 72 / 96. | Product team |
+| Deck slide 38 notes | Generic clearances to combustibles (gas 18–36 in, electric 6–12 in) are not Bromic model data; the Hub keeps "per installation manual". Supply a clearance table by model if these are to be used. | Product team |
+| Deck slides 49–50 | Mounting heights by use (about 8 ft seated, 10 ft high-top, 12 ft standing) now in ARC-CO-KB3 and COM-AW-KB1 with a VERIFY note; confirm against each model's manual and coverage data. | Product team |
+| Deck slide 8 notes | "Studies show outdoor heating can increase ROI by approximately $150,000 annually": no study named, none found. Not used anywhere; remove from the deck or name the study. | Marketing |
+| Deck slide 14 notes | Future Workplace survey: the finding is natural light and views of the outdoors (1,614 North American employees, 2018), not access to outdoor space. BLOG-49 now cites it that way (FacilitiesNet). Correct the deck's wording. | Marketing |
+| Deck slides 16, 77 notes | "Only heater on the market approved by Lloyd's Register" and "only manufacturer with natural gas, propane and electric" are unverified "only" claims; not used. | Specification and compliance |
+| Deck slides 80, 87, 91, 96 | Platinum and Tungsten heaters list a "Wireless Remote" control option; product-facts lists Affinity On/Off or Dimmer, the Eclipse controller with remote, and a wall switch. Confirm which heaters take a remote. | Product team |
+| Deck slide 25 notes | "Medium wave produces 3x as much heat as long wave": no data; not used. Part of the medium wave test data request. | Product team |
+| ARC-CO-KB2 | Course delivery (in person, virtual), group size, lead time, how LUs are reported to AIA, and whether IDCEC credit is offered. A14 owner is still unassigned in data/assets.json. | Specification and compliance |
+| COM-AW-KB1 | A Bromic drive-thru or queue-lane project to show (the deck names a restaurant chain; not used without a case study and consent). An education or campus project likewise. | Marketing |
+| Deck images | The deck's photos are 200–650 px; none were ingested. Higher-resolution originals of the venues not yet in the library (Freiburg stadium, Victoria Lane NZ, The Boundary QLD, Pangbourne UK, Freimersheim DE) would be useful. | Marketing |

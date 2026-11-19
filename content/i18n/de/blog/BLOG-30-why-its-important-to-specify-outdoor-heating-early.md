@@ -76,6 +76,13 @@ sources:
     url: https://www.bromic.com/blog/why-its-important-to-specify-outdoor-heating-early/
     supports: "The original post's topics (cost, residential and commercial planning, infrastructure, code, aesthetics) and its Danny Wang video reference"
     verified: true
+  - id: s8
+    publisher: Bromic Heating
+    title: "The Evolution of Outdoor Heating (AIA/CES course AIA4041002)"
+    year: 2026
+    url: "internal: Bromic AIA/CES course deck, not public"
+    supports: "Bromic guidance: start with a heat map of where people gather; heaters compete with lighting, ducts and fans for ceiling space, so coordinate early with the MEP and lighting teams; match the heater finish to the surrounding materials"
+    verified: false
 ---
 Spezifizieren Sie die Außenbeheizung schon in der Vorplanung, denn sie prägt Entscheidungen, die sich nach dem Bau nur schwer ändern lassen: einen eigenen Stromkreis oder eine Gasleitung zu jeder Position, Hinterlegungen und Einbauöffnungen in der Untersicht, den Ort der Steuerung und den Weg der Installation zur Abnahme. Früh geplant, verschwindet die Wärme elegant in der Architektur. Bleibt sie bis zum Schluss liegen, kann das heißen, eine fertige Decke zu öffnen, sich mit einem aufgesetzten Kompromiss zu begnügen oder mit einem Heizstrahler zu leben, den niemand eingeplant hat.
 
@@ -98,10 +105,14 @@ Die Terrasse kommt in die Zeichnungen, die Wärme, mit der man sie genießt, ble
 | Stromkreis je Heizstrahlerposition | Elektroplanung, vor der Rohinstallation | Eine geschlossene Untersicht aufschneiden und flicken |
 | Hinterlegung und Einbauöffnungen | Unterkonstruktion | Aufputzmontage, wo ein bündiges Detail geplant war |
 | Montagehöhe und Abstände | Schnitte | Heizstrahler, die zu tief hängen, um zulässig zu sein, oder zu hoch, um spürbar zu sein |
+| Deckenfläche, die mit Beleuchtung, Ventilatoren und Lüftungskanälen geteilt wird | Deckenspiegel, mit TGA- und Lichtplanung | Ein Heizstrahler, der vom Sitzbereich weg versetzt wird, oder eine Leuchte, die Platz machen muss |
+| Oberfläche des Heizstrahlers | Entwurfsplanung, mit der Materialpalette | Eine Oberfläche, die mit den Details ringsum konkurriert |
 | Steuerung und ihr Ort | Elektroplanung | Ein Schalter, wo niemand steht, oder gar keine Zonen |
 | Weg zu Genehmigung und Abnahme | Genehmigungsplanung | Eine nicht bestandene Abnahme oder keine Wärme in dieser Saison |
 
 Wird die Beheizung ab der ersten Zeichnung eingeplant, ist jede Zeile oben einfach ein Strich in einem Plan; bleibt sie bis zum Schluss liegen, kann daraus ein Loch in einer fertigen Decke werden.
+
+Jeder Wärmeplan beginnt bei uns mit einer Karte der Orte, an denen Menschen zusammenkommen, essen und verweilen; danach richten sich die Heizstrahler. Auf einer überdachten Terrasse teilen sich Heizstrahler die Decke mit Beleuchtung, Ventilatoren und Kanälen. Holen Sie TGA- und Lichtplanung deshalb schon beim Deckenspiegel dazu, und wählen Sie eine schwarze, weiße oder Edelstahl-Oberfläche, die zu den umgebenden Materialien passt[^s8]. Montagehöhen nach Nutzung, vom Esstisch bis zum Durchgang, finden Sie unter [Wärmezonen](item:ARC-CO-KB3).
 
 [[DIAGRAM: Schnitt durch eine überdachte Terrasse mit eingebautem Heizstrahler, Hinterlegung, Abzweigdose, eigenem Stromkreis zurück zum Verteiler und dem Steuergerät an der Tür, mit eingetragener Mindesthöhe von 2,4 m für die Deckenmontage]]
 
@@ -166,3 +177,4 @@ Schreiben Sie die Wärme mit dem Bromic Spezifikationspaket in Ihre Zeichnungen.
 [^s5]: NFPA 70, National Electrical Code (US-Vorschrift).
 [^s6]: NFPA 54, National Fuel Gas Code (US-Vorschrift).
 [^s7]: Bromic Heating, ursprünglicher Beitrag, gelesen am 29. Okt. 2026.
+[^s8]: Bromic Heating, The Evolution of Outdoor Heating (AIA/CES-Kurs AIA4041002), 2026.

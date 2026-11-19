@@ -86,6 +86,13 @@ sources:
     url: https://www.bromic.com/product/platinum-smart-heat-electric/
     supports: "220–240 V and 208 V; controls not included, sold separately"
     verified: false
+  - id: s10
+    publisher: FacilitiesNet
+    title: "Natural Light Tops Office Amenities List (Future Workplace, The Employee Experience)"
+    year: 2018
+    url: https://www.facilitiesnet.com/lighting/tip/Natural-Light-Tops-Office-Amenities-List--42637
+    supports: "Future Workplace survey of 1,614 North American employees: natural light and views of the outdoors were the number one attribute of the workplace environment, outranking onsite cafeterias, fitness centers and on-site childcare"
+    verified: true
 lang: de
 translation_of: BLOG-49
 translation_status: machine-draft
@@ -129,6 +136,8 @@ Der Arbeitsplatz hat sich von Schreibtischreihen zu einer Vielfalt von Orten ent
 | Gartennische | Einzelgespräche, Telefonate, Pausen | Ein einzelner Heizstrahler mit eigenem Schalter |
 
 Jede dieser Flächen braucht Strom und Daten für Laptops und Schatten zur Mittagszeit, und Strahlungswärme trägt sie behaglich durch die Übergangsstunden. Weil Strahlungswärme Menschen statt der umgebenden Luft erwärmt, funktioniert sie auch in seitlich offenen Räumen, in denen Warmluft nicht ankommt[^s8].
+
+Das spüren die Menschen. In einer Umfrage von Future Workplace aus dem Jahr 2018 unter 1.614 Beschäftigten in Nordamerika war Tageslicht mit Blick ins Freie das am meisten geschätzte Merkmal der Arbeitsumgebung, noch vor Kantine, Fitnessraum und Kinderbetreuung im Haus[^s10]. Ein beheizter Innenhof macht aus diesem Blick einen Platz zum Verweilen.
 
 ![Schwarzer linearer Heizstrahler leuchtet an einer Pergola auf einer Bürodachterrasse](img:w-lumen-west-la-rooftop-los-angeles-ca-6-edite)
 

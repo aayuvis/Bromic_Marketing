@@ -24,7 +24,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-IN-01, A11, BLD-IN-01, ARC-PP-01]
-updated: 2026-11-16
+updated: 2026-11-19
 sources:
   - id: s1
     publisher: Bromic Heating (press release, syndicated)
@@ -75,6 +75,13 @@ sources:
     url: https://www.bromic.com/blog/why-its-important-to-specify-outdoor-heating-early/
     supports: "The original post's topics (cost, residential and commercial planning, infrastructure, code, aesthetics) and its Danny Wang video reference"
     verified: true
+  - id: s8
+    publisher: Bromic Heating
+    title: "The Evolution of Outdoor Heating (AIA/CES course AIA4041002)"
+    year: 2026
+    url: "internal: Bromic AIA/CES course deck, not public"
+    supports: "Bromic guidance: start with a heat map of where people gather; heaters compete with lighting, ducts and fans for ceiling space, so coordinate early with the MEP and lighting teams; match the heater finish to the surrounding materials"
+    verified: false
 ---
 Specify outdoor heating at schematic design, because it shapes decisions that are hard to change once the space is built: a dedicated circuit or gas line to each position, blocking and recess openings in the soffit, the place for the controls, and the path the installation takes through inspection. Planned early, the heat disappears gracefully into the architecture. Left until the end, it can mean opening a finished ceiling, settling for a surface-mounted compromise or living with a heater nobody planned for.
 
@@ -97,10 +104,14 @@ The patio makes it onto the drawings while the warmth to enjoy it is left off. T
 | Circuit per heater position | Electrical design, before rough-in | Cutting and patching a closed soffit |
 | Blocking and recess openings | Framing | Surface mounting where a flush detail was intended |
 | Mounting height and clearances | Section drawings | Heaters too low to be legal or too high to be felt |
+| Ceiling space shared with lighting, fans and ducts | Reflected ceiling plan, with the MEP and lighting teams | A heater moved off the seating, or a light fitting moved to make room |
+| Heater finish | Design development, with the material palette | A finish that competes with the details around it |
 | Controls and their location | Electrical design | A switch where nobody stands, or no zoning at all |
 | Code path and sign-off | Permit set | A failed inspection, or no heat this season |
 
 When heating is planned in from the first drawing, each row above is simply a line on a plan; left until the end, it can become a hole in a finished ceiling.
+
+We begin every heat plan with a map of where people will gather, dine and linger, then fit the heaters to it. On a covered terrace, heaters share the ceiling with lighting, fans and ducts, so bring the MEP and lighting teams in at the reflected ceiling plan, and choose a black, white or stainless finish that sits with the surrounding materials[^s8]. For heights by use, from dining tables to walkways, see [heating comfort zones](item:ARC-CO-KB3).
 
 [[DIAGRAM: Section through a covered terrace showing a recessed heater, blocking, junction box, dedicated circuit back to the panel and the controller by the door, with the 96 in. minimum ceiling mount marked]]
 
@@ -165,3 +176,4 @@ Write the warmth into your drawings with the Bromic spec kit.
 [^s5]: NFPA 70, National Electrical Code.
 [^s6]: NFPA 54, National Fuel Gas Code.
 [^s7]: Bromic Heating, live post, read 29 Oct 2026.
+[^s8]: Bromic Heating, The Evolution of Outdoor Heating (AIA/CES course AIA4041002), 2026.

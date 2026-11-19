@@ -26,7 +26,7 @@ last_reviewed: 2026-10-29
 status: draft
 gated: false
 related: [ARC-AW-01, COM-AW-01, COM-BY-01]
-updated: 2026-11-16
+updated: 2026-11-19
 sources:
   - id: s1
     publisher: CBRE
@@ -91,6 +91,13 @@ sources:
     url: https://www.bromic.com/product/platinum-smart-heat-electric/
     supports: "220–240 V and 208 V; controls not included, sold separately"
     verified: false
+  - id: s10
+    publisher: FacilitiesNet
+    title: "Natural Light Tops Office Amenities List (Future Workplace, The Employee Experience)"
+    year: 2018
+    url: https://www.facilitiesnet.com/lighting/tip/Natural-Light-Tops-Office-Amenities-List--42637
+    supports: "Future Workplace survey of 1,614 North American employees: natural light and views of the outdoors were the number one attribute of the workplace environment, outranking onsite cafeterias, fitness centers and on-site childcare"
+    verified: true
 ---
 
 Offices are adding terraces, courtyards and roof decks because the buildings people choose to come back to are the ones worth the trip. US office vacancy stood at 18.2% in Q3 2026, while prime space sat at 11.9% and was falling faster[^s1]. Attendance peaks mid-week, when most people are in[^s2], and outdoor space gives those busy days somewhere to gather over lunch or step outside between meetings. Radiant heat keeps it inviting in the early morning, the evening and the cooler months.
@@ -130,6 +137,8 @@ The workplace has moved on from rows of desks to a range of settings, each suite
 | Garden nook | One-to-ones, calls, breaks | A single heater with its own switch |
 
 Each of these spaces needs power and data for laptops and shade at midday, and radiant heat carries it comfortably through the shoulder hours. Because radiant heat warms people rather than the air around them, it works in open-sided spaces where forced air cannot[^s8].
+
+People notice. In a 2018 Future Workplace survey of 1,614 North American employees, natural light and views of the outdoors ranked as the most valued feature of the workplace environment, ahead of onsite cafeterias, fitness centers and on-site childcare[^s10]. A heated courtyard turns that view into a place to sit.
 
 ![Black linear heater glowing on a rooftop workplace pergola](img:w-lumen-west-la-rooftop-los-angeles-ca-6-edite)
 

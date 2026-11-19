@@ -90,6 +90,13 @@ sources:
     url: https://www.bromic.com/product/platinum-smart-heat-electric/
     supports: "220–240 V and 208 V; controls not included, sold separately"
     verified: false
+  - id: s10
+    publisher: FacilitiesNet
+    title: "Natural Light Tops Office Amenities List (Future Workplace, The Employee Experience)"
+    year: 2018
+    url: https://www.facilitiesnet.com/lighting/tip/Natural-Light-Tops-Office-Amenities-List--42637
+    supports: "Future Workplace survey of 1,614 North American employees: natural light and views of the outdoors were the number one attribute of the workplace environment, outranking onsite cafeterias, fitness centers and on-site childcare"
+    verified: true
 ---
 
 Kantoren krijgen terrassen, binnenplaatsen en dakterrassen omdat mensen terugkeren naar de gebouwen waar de reis de moeite waard is. In de VS stond de kantoorleegstand in het derde kwartaal van 2026 op 18,2%, terwijl die in toplocaties op 11,9% lag en sneller daalde[^s1]. De bezetting piekt midden in de week, als de meeste mensen er zijn[^s2], en buitenruimte geeft die drukke dagen een plek om samen te lunchen of tussen twee vergaderingen even naar buiten te stappen. Stralingswarmte houdt die plek uitnodigend in de vroege ochtend, de avond en de koelere maanden.
@@ -131,6 +138,8 @@ De werkplek is van rijen bureaus naar een reeks verschillende plekken gegaan, el
 | Tuinhoek | Eén-op-eengesprekken, bellen, pauzes | Eén verwarmer met een eigen schakelaar |
 
 Elk van deze ruimtes heeft stroom en data voor laptops en schaduw rond het middaguur nodig, en stralingswarmte draagt ze comfortabel door de koelere uren aan begin en eind van de dag. Omdat stralingswarmte mensen verwarmt in plaats van de lucht eromheen, werkt ze in ruimtes met open zijden, waar luchtverwarming tekortschiet[^s8].
+
+Mensen merken dat. In een enquête van Future Workplace uit 2018 onder 1.614 werknemers in Noord-Amerika was daglicht met uitzicht naar buiten het meest gewaardeerde kenmerk van de werkomgeving, vóór het bedrijfsrestaurant, de fitnessruimte en kinderopvang op het werk[^s10]. Een verwarmde binnenplaats maakt van dat uitzicht een plek om te zitten.
 
 ![Zwarte lineaire verwarmer die gloeit aan een pergola op een kantoordakterras](img:w-lumen-west-la-rooftop-los-angeles-ca-6-edite)
 
