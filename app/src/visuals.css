@@ -5,8 +5,7 @@
 .v-dial { margin: 18px auto 26px; max-width: 640px; break-inside: avoid; }
 .v-dial-in { position: relative; width: 100%; aspect-ratio: 1 / 1; }
 .v-dial-ring { position: absolute; inset: 0; width: 100%; height: 100%; }
-.v-dial-face { position: absolute; left: 50%; top: 50%; width: 42%; height: 42%; transform: translate(-50%, -50%); border-radius: 50%; overflow: hidden; background: #141213; box-shadow: 0 18px 40px rgba(20,18,19,.28), 0 0 0 6px rgba(239,65,35,.08); }
-.v-dial-face img { position: absolute; left: 50%; top: 50%; width: 152%; height: 152%; transform: translate(-50%, -52%); object-fit: cover; }
+.v-dial-face { position: absolute; left: 50%; top: 50%; width: 42%; height: 42%; transform: translate(-50%, -50%); filter: drop-shadow(0 14px 22px rgba(20,18,19,.32)); }
 .v-dial-s { position: absolute; width: 22%; transform: translate(-50%, -50%); text-align: center; display: grid; gap: 2px; }
 .v-dial-s.r { text-align: left; transform: translate(-22%, -50%); } .v-dial-s.l { text-align: right; transform: translate(-78%, -50%); }
 .v-dial-n { font: 400 22px/1 Didot, "Bromic Didot", "Bodoni 72", serif; color: #EF4123; }

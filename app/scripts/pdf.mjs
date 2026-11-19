@@ -24,7 +24,17 @@ const AUD = HUB.matrix.audiences; const ASSET = Object.fromEntries(HUB.assets.ma
 
 export const pdfItems = (items) => items.filter((it) => it.gated === true && DOC_TYPES.includes(it.type));
 
-const VCSS = `section.lead { columns: 1 !important; }
+const VCSS = `section.ch .ch-b, .trends section.s:not(.end) { columns: 1 !important; max-width: 6.9in; }
+section.ch .ch-b > p, section.ch .ch-b > ul, section.ch .ch-b > ol { font-size: 10.6pt; line-height: 1.6; max-width: 6.4in; }
+section.ch .ch-b > h3 { font-size: 14pt; margin-top: 14pt; }
+.op { position: static !important; height: auto !important; margin: 0 0 14pt !important; background: none !important; overflow: visible !important; }
+.op::after { display: none !important; }
+.op-pic { height: 3.7in; margin: 0 -0.5in; overflow: hidden; background: #231F20; } .op-pic img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; display: block; }
+.op-t { position: static !important; color: #231F20 !important; display: grid; grid-template-columns: auto 1fr; gap: 0 14pt; align-items: baseline; padding: 14pt 0 10pt; border-bottom: 0.75pt solid #231F20; }
+.op-n { font: 400 30pt/1 Didot, "Bromic Didot", "Bodoni 72", serif !important; color: #EF4123 !important; margin: 0 !important; }
+.op h2 { color: #231F20 !important; font-size: 24pt !important; line-height: 1.12 !important; }
+.trends section.ch .op-pic { height: 5.2in; }
+section.lead { columns: 1 !important; }
 .statc { display: grid; grid-template-columns: 1.9in 1fr; gap: 16pt; align-items: center; margin: 14pt 0 6pt; padding: 14pt 0; border-top: 0.75pt solid #231F20; border-bottom: 0.75pt solid #E3E3E1; break-inside: avoid; }
 .statc-n { font: 400 66pt/0.9 Didot, "Bromic Didot", "Bodoni 72", serif; color: #EF4123; }
 .statc p { margin: 0; font: 400 14pt/1.4 Didot, "Bromic Didot", "Bodoni 72", serif; color: #231F20; }
@@ -206,7 +216,7 @@ function finalBody(it) {
     chap++;
     const label = (title.match(/^(Step \d+|Schritt \d+|Stap \d+|\d{2})[.\s]*/) || [])[1];
     const clean = label ? title.replace(/^(Step \d+|Schritt \d+|Stap \d+|\d{2})[.\s]*/, '') : title;
-    const opener = `<header class="op">${im ? `<img src="${esc(im.file)}" alt="${esc(im.alt)}">` : ''}<div class="op-t"><span class="op-n">${esc(label || String(chap).padStart(2, '0'))}</span><h2>${clean}</h2></div></header>`;
+    const opener = `<header class="op">${im ? `<div class="op-pic"><img src="${esc(im.file)}" alt="${esc(im.alt)}"></div>` : ''}<div class="op-t"><span class="op-n">${esc(label || String(chap).padStart(2, '0'))}</span><h2>${clean}</h2></div></header>`;
     let body = p.replace(/<h2[^>]*>[\s\S]*?<\/h2>/, '');
     // a second picture inside long chapters
     const im2 = !hasImg && plain(body).length > 1400 ? take(numbered) : null;

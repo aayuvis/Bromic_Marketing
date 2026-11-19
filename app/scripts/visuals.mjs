@@ -46,7 +46,7 @@ export function makeEnhancer(images) {
     const ticks = pts.map((p) => `<circle cx="${p.tx}" cy="${p.ty}" r="${p.i === 0 ? 1.1 : 0.7}" fill="${p.i === 0 ? '#EF4123' : '#231F20'}"/>`).join('');
     return `<figure class="v-dial"><div class="v-dial-in">
       <svg class="v-dial-ring" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="31.5" fill="none" stroke="#C9C9C6" stroke-width=".25"/><path d="M50 18.5 A31.5 31.5 0 0 1 ${50 + 31.5 * Math.cos((-90 + 360 / n) * Math.PI / 180)} ${50 + 31.5 * Math.sin((-90 + 360 / n) * Math.PI / 180)}" fill="none" stroke="#EF4123" stroke-width=".6"/>${ticks}</svg>
-      ${face ? `<span class="v-dial-face"><img src="${face.file}" alt=""></span>` : ''}
+      <img class="v-dial-face" src="images/portfolio/eclipse-face-cut.png" alt="">
       ${pts.map((p) => `<div class="v-dial-s ${p.side}" style="left:${p.x.toFixed(2)}%;top:${p.y.toFixed(2)}%"><span class="v-dial-n">${String(strip(p.r[0]) || p.i + 1).padStart(2, '0')}</span><b>${p.r[1]}</b>${p.r[2] ? `<small>${p.r[2]}</small>` : ''}</div>`).join('')}
     </div></figure>`;
   }
