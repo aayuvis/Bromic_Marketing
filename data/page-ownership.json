@@ -1037,6 +1037,70 @@
    "owner_link": "https://www.bromic.com/case-studies/",
    "reason": "Template, not published; real stories use existing or new /case-study/ URLs.",
    "cannibalisation_risk": "none"
+  },
+  {
+   "id": "RES-CO-KB3",
+   "publish_as": "merge-into",
+   "target_url": "https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/",
+   "owner_link": "https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/",
+   "reason": "Gap fill (19 Nov 2026): 120 V vs 240 V / plug-in vs hard-wired is an electrical FAQ on the Electric category; publish as its answer block.",
+   "cannibalisation_risk": "low: Electric category FAQ (fold in, do not publish standalone)"
+  },
+  {
+   "id": "RES-CO-KB4",
+   "publish_as": "merge-into",
+   "target_url": "https://www.bromic.com/outdoor-heaters/",
+   "owner_link": "https://www.bromic.com/design-your-space/",
+   "reason": "Gap fill: 'what size patio heater' is the broad category's How many heaters? FAQ; links A03.",
+   "cannibalisation_risk": "low: /outdoor-heaters/ owns the sizing FAQ; RES-CO-01 keeps its short sizing section"
+  },
+  {
+   "id": "RES-PP-KB2",
+   "publish_as": "merge-into",
+   "target_url": "https://www.bromic.com/residential/",
+   "owner_link": "https://www.bromic.com/outdoor-heaters/wall-mounted/",
+   "reason": "Gap fill: deck heater safety; no live page answers it. Fold into /residential/ FAQs or the Knowledge Center.",
+   "cannibalisation_risk": "none"
+  },
+  {
+   "id": "RES-PP-KB3",
+   "publish_as": "merge-into",
+   "target_url": "https://www.bromic.com/residential/",
+   "owner_link": "https://www.bromic.com/outdoor-heaters/outdoor-electric-heaters/",
+   "reason": "Gap fill: balcony and condo heaters; no live page answers it.",
+   "cannibalisation_risk": "none"
+  },
+  {
+   "id": "BLD-IN-KB3",
+   "publish_as": "merge-into",
+   "target_url": "https://www.bromic.com/outdoor-heaters/built-in/",
+   "owner_link": "https://www.bromic.com/outdoor-heaters/built-in/",
+   "reason": "Gap fill: outdoor kitchen and pool cabana rough-in; answer block on the built-in page beside BLD-IN-KB2.",
+   "cannibalisation_risk": "low: /blog/how-to-prepare-your-patio-for-outdoor-heating/ (pre-wire); keep to kitchens and cabanas"
+  },
+  {
+   "id": "RES-AW-02",
+   "publish_as": "new",
+   "target_url": null,
+   "owner_link": "https://www.bromic.com/residential/",
+   "reason": "Gap fill: 'is a patio heater worth it' has no owner on bromic.com; awareness article linking /residential/ and /outdoor-heaters/.",
+   "cannibalisation_risk": "low: /blog/do-outdoor-heaters-work-in-the-winter/ (seasonal intent)"
+  },
+  {
+   "id": "RES-IN-02",
+   "publish_as": "new",
+   "target_url": null,
+   "owner_link": "https://www.bromic.com/outdoor-heaters/",
+   "reason": "Gap fill: purchase and installation cost; RES-IN-01 owns running cost and links here for the budget.",
+   "cannibalisation_risk": "low: RES-IN-01 (running cost); keep its budget table short and link here"
+  },
+  {
+   "id": "COM-AW-02",
+   "publish_as": "merge-into",
+   "target_url": "https://www.bromic.com/hotels/",
+   "owner_link": "https://www.bromic.com/hotels/",
+   "reason": "Gap fill: rooftop bar and hotel terrace heating; /hotels/ had no Hub draft. Upgrade /hotels/ with this body or publish as its supporting guide.",
+   "cannibalisation_risk": "low: /restaurants/ (restaurant intent stays there)"
   }
  ]
 }
