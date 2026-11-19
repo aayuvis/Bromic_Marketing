@@ -57,3 +57,28 @@
 .v-cost td.v-cbar { position: relative; } .v-cost td.v-cbar i { position: absolute; left: 0; bottom: 4px; height: 1.5px; background: #EF4123; }
 .v-stat { color: #EF4123; font-weight: 700; font-size: 1.3em; white-space: nowrap; }
 @media (max-width: 760px) { .v-spec-cols, .v-prods { grid-template-columns: 1fr 1fr; } .v-vs { grid-template-columns: 1fr; } .v-vs-or { display: none; } .v-dial-s small { display: none; } .v-dial-s b { font-size: 12px; } }
+
+/* wavelength grid: rows align */
+.v-sg { display: grid; grid-template-columns: 1.15fr 1fr 1fr 1fr; margin: 18px 0 24px; break-inside: avoid; border-top: 1px solid #231F20; }
+.v-sg-c { padding: 9px 12px 9px 0; border-bottom: 1px solid #E3E3E1; font: 300 13px/1.45 "Helvetica Neue", Helvetica, Arial, sans-serif; color: #231F20; }
+.v-sg-c.best { background: #FDF3F0; padding-left: 12px; font-weight: 500; }
+.v-sg-k { font: 600 9px/1.4 "Helvetica Neue", Arial, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: #71777D; padding-top: 11px; }
+.v-sg-h { display: grid; align-content: start; gap: 3px; padding-top: 12px; padding-bottom: 12px; border-bottom: 1px solid #231F20; }
+.v-sg-h svg { width: 100%; max-width: 150px; height: auto; display: block; margin-bottom: 4px; }
+.v-sg-h b { font: 400 18px/1.2 Didot, "Bromic Didot", "Bodoni 72", serif; color: #231F20; }
+.v-sg-h.best b { color: #C7321A; } .v-sg-h small { font: 400 11px/1.35 "Helvetica Neue", Helvetica, Arial, sans-serif; color: #C7321A; }
+.v-sg-c.best.v-sg-h { border-top: 3px solid #EF4123; margin-top: -1px; }
+.v-sg > .v-sg-k:first-child { border-bottom: 1px solid #231F20; }
+@media (max-width: 760px) { .v-sg { grid-template-columns: .9fr 1fr 1fr 1fr; } .v-sg-c { font-size: 12px; } }
+
+/* heat blooms */
+.v-blooms { margin: 18px 0 24px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 34px; break-inside: avoid; } .v-blooms > .v-k { grid-column: 1 / -1; }
+.v-bl-g { break-inside: avoid; border-top: 1px solid #231F20; padding-top: 10px; }
+.v-bl-g h5 { font: 400 15px/1.25 Didot, "Bromic Didot", "Bodoni 72", serif; color: #231F20; margin: 0 0 10px; }
+.v-bl-row { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; align-items: end; }
+.v-bl { display: grid; justify-items: center; gap: 4px; text-align: center; }
+.v-bl-o { display: block; aspect-ratio: 1 / 1; border-radius: 50%; position: relative; background: radial-gradient(circle, rgba(239,65,35,.95) 0%, rgba(239,65,35,.55) 28%, rgba(247,165,143,.28) 55%, rgba(247,165,143,0) 72%); }
+.v-bl-o i { position: absolute; left: 50%; top: 50%; width: 9%; height: 9%; min-width: 4px; min-height: 4px; border-radius: 50%; background: #231F20; transform: translate(-50%, -50%); box-shadow: 0 0 0 2px #FFFFFF; }
+.v-bl b { font: 400 16px/1 Didot, "Bromic Didot", "Bodoni 72", serif; color: #231F20; } .v-bl b small { font: 300 10px "Helvetica Neue", Arial, sans-serif; color: #71777D; }
+.v-bl em { font: 600 8.5px "Helvetica Neue", Arial, sans-serif; letter-spacing: .12em; text-transform: uppercase; color: #9AA0A5; font-style: normal; }
+@media (max-width: 760px) { .v-blooms { grid-template-columns: 1fr; } }
