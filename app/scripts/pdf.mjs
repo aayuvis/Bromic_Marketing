@@ -65,7 +65,7 @@ section.lead:first-child { break-before: auto; }
 .lead-img { margin: 0 -0.5in 16pt; height: 4.2in; overflow: hidden; } .lead-img img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; display: block; max-height: none; }
 .lead-b { columns: 2; column-gap: 0.34in; flex: 1; } .lead-b > h1 { column-span: all; font-size: 26pt; margin: 0 0 8pt; }
 .lead-b > p:first-of-type { column-span: all; font: 400 14.5pt/1.4 Didot, "Bromic Didot", "Bodoni 72", serif; }
-p.fn { margin: 10pt 0 0; padding: 5pt 0 0; border-top: 0.5pt solid #E3E3E1; font-size: 6.2pt; line-height: 1.4; color: #8A8F94; break-inside: avoid; }
+p.fn { break-before: avoid; page-break-before: avoid; margin: 10pt 0 0; padding: 5pt 0 0; border-top: 0.5pt solid #E3E3E1; font-size: 6.2pt; line-height: 1.4; color: #8A8F94; break-inside: avoid; }
 p.fn b { color: #EF4123; font-weight: 600; margin-right: 2pt; }
 .ch-b figure img, .lead-b figure img { max-height: 2.3in; }
 section.end { break-before: auto; } .colophon { font-size: 6.8pt; }
@@ -207,7 +207,7 @@ function finalBody(it) {
       let body = p; let im = null;
       const inl = body.match(/<figure[^>]*>[\s\S]*?<\/figure>/); if (inl) { body = body.replace(inl[0], ''); const src = (inl[0].match(/src="([^"]+)"/) || [])[1]; im = { file: src, alt: '' }; } else im = take(false);
       let callout = '';
-      body = body.replace(/<p>((?:(?!<\/p>)[\s\S])*?(\d{1,3}(?:\.\d)?%)(?:(?!<\/p>)[\s\S])*?)<\/p>/, (m, inner, n) => { if (callout) return m; callout = `<div class="statc"><span class="statc-n">${n}</span><p>${inner}</p></div>`; return ''; });
+      body = body.replace(/<p>((?:(?!<\/p>)[\s\S])*?(\d{1,3}(?:\.\d)?%)(?:(?!<\/p>)[\s\S])*?)<\/p>/g, (m, inner, n) => { if (callout || !/class="cite"/.test(inner) || +n.replace('%', '') > 100) return m; callout = `<div class="statc"><span class="statc-n">${n}</span><p>${inner}</p></div>`; return ''; });
       return `<section class="lead">${im ? `<figure class="lead-img"><img src="${esc(im.file)}" alt="${esc(im.alt)}"></figure>` : ''}<div class="lead-b">${body}</div>${callout}${notesFor(p)}</section>`;
     }
     const numbered = /^<h2[^>]*>\s*\d{2}\s/.test(p);
