@@ -1,0 +1,1662 @@
+{
+  "_readme": "Product marketing framework (owner brief, 19 Nov 2026), schema v2. Platinum Smart-Heat® Gas: the two wall, ceiling and pole-mounted gas radiant heaters, named by output (23,600 and 39,800 BTU), never by the retired series numbers the site and manual still use. Matrix 1: what matters most to each buyer (w: 3 matters most, 2 matters, 1 nice to have) and the claim that resonates. Matrix 2: Tungsten Smart-Heat® Gas (left) against Platinum Gas (right), so sales know when to sell which; Tungsten Gas BTU stays unpublished (hard rule 3). Matrix 3: against Sunpak (Infrared Dynamics), Schwank supremeSchwank and the Lynx Eave Mounted Heater (factual, sourced, needs_approval Specification and compliance). Every Bromic fact is from product-facts (bromic.com read 29 Oct 2026) or Bromic's own cut sheet and manuals on pim.bromic.com (read 19 Nov 2026); competitor facts are from the makers' own spec sheets, manuals and pages. Competitor documents are dated (2012 to 2018 in places): every competitor row is to be re-checked before it is used outside sales training.",
+  "id": "platinum-gas",
+  "name": "Platinum Smart-Heat® Gas",
+  "short": "Platinum Gas",
+  "status": "draft",
+  "updated": "2026-11-19",
+  "owner_review": "Marketing",
+  "needs_approval": "Specification and compliance",
+  "launch": {
+    "summary": "Platinum Gas is Bromic's design-led gas radiant heater: a ceramic-glass screen over a ceramic-tile burner, in black or stainless, for restaurant terraces, hotel and rooftop bars, pergolas and covered residential courtyards with a gas line. It sits above Tungsten Gas, which has the same heat areas, clearances and controls in a compact matte-black body at a lower list price.",
+    "status_note": "[[VERIFY: Platinum Gas does not appear in the Lookbook 2026 (only 'Tungsten gas models also available'); confirm it is current and still sold in every region — Product team]]",
+    "source": "b1"
+  },
+  "tiers": [
+    {
+      "id": "pg-23600",
+      "tier": "23,600 BTU",
+      "name": "Platinum Smart-Heat® Gas, 23,600 BTU",
+      "win_on": "Smaller terraces, residential courtyards and bays where the heater is seen",
+      "colours": "Black or Stainless",
+      "fascia": "Signature ceramic-glass screen over a three-tile ceramic burner",
+      "recessing": "Not recessed: wall bracket (included), ceiling mounting pole (two heaters back to back), heat deflector optional",
+      "price": "$2,367–$2,657 across models and finishes (bromic.com range) [[VERIFY: list price by model and finish — Sales operations]]",
+      "image": "w-platinum-gas-300",
+      "notes": [
+        "23,600 BTU input on natural gas or propane; heat area 160 ft² (Bromic published coverage)",
+        "22.1 in long, 33 lb",
+        "SKUs BH0110001-1 (NG), BH0110002-1 (propane)",
+        "110 V, under 2 A; ETL and cETL listing 4009079; IPX4"
+      ]
+    },
+    {
+      "id": "pg-39800",
+      "tier": "39,800 BTU",
+      "name": "Platinum Smart-Heat® Gas, 39,800 BTU",
+      "win_on": "Restaurant and hotel terraces, rooftop bars and larger covered patios",
+      "colours": "Black or Stainless",
+      "fascia": "Signature ceramic-glass screen over a five-tile ceramic burner",
+      "recessing": "Not recessed: wall bracket (included), ceiling mounting pole (two heaters back to back), heat deflector optional",
+      "price": "$2,367–$2,657 across models and finishes (bromic.com range) [[VERIFY: list price by model and finish — Sales operations]]",
+      "image": "w-platinum-gas-500",
+      "notes": [
+        "39,800 BTU input on natural gas or propane; heat area 215 ft² (Bromic published coverage)",
+        "29.8 in long, 44 lb",
+        "SKUs BH0110003-1 (NG), BH0110004-1 (propane)",
+        "110 V, under 2 A; ETL and cETL listing 4009079; IPX4"
+      ]
+    }
+  ],
+  "upgrades_label": "What sets it apart",
+  "upgrades": [
+    "Signature ceramic-glass screen with a reflector behind it, over a ceramic-tile burner (cut sheet; manual parts list)",
+    "Black or Stainless, against matte black only for Tungsten Gas",
+    "23,600 and 39,800 BTU, the same rated input on natural gas and propane (manual)",
+    "Electronic spark ignition with flame ionisation monitoring and safety lockout (manual)",
+    "Plug-in power: 36 in cord with a grounded three-prong plug, 110 V under 2 A; factory-fitted manual isolating valve and supplied CSA-approved flexible gas connector (manual)",
+    "Wall bracket included; ceiling mounting pole carries two heaters back to back with gas and power run inside the pole; tilt 0°, 10° or 20° (manual)",
+    "Affinity Smart-Heat® On/Off Controller, up to 10 gas heaters a channel, or a manual wall switch; expansion board for BMS (bromic.com)",
+    "Two-year warranty, excluding hoses and igniters (bromic.com)"
+  ],
+  "price_verify": "[[VERIFY: list price by model, fuel and finish, and by region — Sales operations]]",
+  "spec_verify": "[[VERIFY: stainless grade of the body, the current manual version (file V2.43, cover 'Version 2.7'), and what the manual's 'optimum mounting distance' A values (19–23 ft and 26–29 ft) measure — Product team]]",
+  "wind_note": "Wind: the manual says the heater 'is designed to function in winds up to 10mph'; the cut sheet says 12 mph; the product page says 20 km/h in the body and 12 mph in the features. Content uses 10 mph until the Product team picks one figure.",
+  "warranty_note": "Platinum Gas warranty: 2 years, excluding maintenance items (hoses and igniters), from the bromic.com product page. [[VERIFY: whether commercial installations carry the same term, and the warranty page wording — Product team]]",
+  "user_types": [
+    {
+      "id": "COM",
+      "name": "Hospitality and commercial operators",
+      "who": "Restaurants, hotels, bars, clubs and venues that heat covered outdoor seating every service"
+    },
+    {
+      "id": "INS",
+      "name": "Gas fitters and installers",
+      "who": "Licensed gas fitters, HVAC contractors and the electricians who wire the controls"
+    },
+    {
+      "id": "ARC",
+      "name": "Architects and specifiers",
+      "who": "Architects, hospitality designers and specifiers who write the heater into the drawings"
+    },
+    {
+      "id": "BLD",
+      "name": "Builders",
+      "who": "Custom home builders, pergola and outdoor-kitchen builders and commercial fit-out contractors"
+    },
+    {
+      "id": "RES",
+      "name": "Homeowners",
+      "who": "Homeowners with a gas line warming a covered patio, courtyard, outdoor kitchen or rooftop"
+    }
+  ],
+  "benefits": [
+    {
+      "id": "safety",
+      "name": "Safety and peace of mind",
+      "what": "Listed appliance, electronic ignition with flame monitoring and lockout, set clearances and mounting height",
+      "proposed": false
+    },
+    {
+      "id": "heat",
+      "name": "Heat performance",
+      "what": "23,600 and 39,800 BTU of radiant heat from a ceramic-tile burner; 160 and 215 ft² published coverage",
+      "proposed": false
+    },
+    {
+      "id": "aesthetics",
+      "name": "Design aesthetics",
+      "what": "Ceramic-glass screen, black or stainless body, a heater that looks at home where guests can see it",
+      "proposed": false
+    },
+    {
+      "id": "controls",
+      "name": "Ease of controls",
+      "what": "Affinity Smart-Heat® On/Off Controller by zone, manual wall switch, BMS through the expansion board",
+      "proposed": false
+    },
+    {
+      "id": "fuel",
+      "name": "Fuel choice",
+      "what": "Natural gas or propane at the same rated input",
+      "proposed": false
+    },
+    {
+      "id": "clearance",
+      "name": "Clearances and placement",
+      "what": "8 ft minimum mounting height, 3 ft to combustibles, 14 in above with the heat deflector",
+      "proposed": false
+    },
+    {
+      "id": "install_flex",
+      "name": "Mounting flexibility",
+      "what": "Wall, ceiling, ceiling pole with two heaters back to back, tilt 0°, 10° or 20°",
+      "proposed": false
+    },
+    {
+      "id": "durability",
+      "name": "Commercial durability",
+      "what": "Stainless steel body, ceramic-glass screen, IPX4, built for service in hospitality",
+      "proposed": false
+    },
+    {
+      "id": "install_ease",
+      "name": "Ease of installation",
+      "what": "Bracket in the box, plug-in 110 V power, factory isolating valve, supplied flexible gas connector",
+      "proposed": false
+    },
+    {
+      "id": "weather",
+      "name": "Wind and weather",
+      "what": "Rated for light wind, IPX4, installed under cover",
+      "proposed": false
+    },
+    {
+      "id": "warranty",
+      "name": "Warranty",
+      "what": "Two years, excluding hoses and igniters",
+      "proposed": false
+    },
+    {
+      "id": "support",
+      "name": "Specification and support",
+      "what": "Complimentary design service, cut sheet, manual, listing and clearance drawings",
+      "proposed": false
+    }
+  ],
+  "benefit_order_note": "Ordered by priority: total weight across the five buyers (3 matters most, 2 matters, 1 nice to have), ties broken by sales order. Commercial operators and gas fitters weigh heaviest for this product.",
+  "m1": {
+    "COM": {
+      "safety": {
+        "w": 3,
+        "claim": "A listed gas appliance with electronic ignition that watches the flame and locks out if it fails, so every heater on the terrace behaves the same way every service."
+      },
+      "heat": {
+        "w": 3,
+        "claim": "Up to 39,800 BTU over a 215 ft² heat area on each heater, so your covered seating stays full when the evening turns cool."
+      },
+      "aesthetics": {
+        "w": 3,
+        "claim": "A ceramic-glass face in black or stainless that suits a front-of-house terrace as well as the back bar."
+      },
+      "controls": {
+        "w": 3,
+        "claim": "Switch the whole terrace, or each zone, from one Affinity Smart-Heat® On/Off Controller, up to 10 gas heaters a channel, or link it to your BMS through the expansion board."
+      },
+      "fuel": {
+        "w": 2,
+        "claim": "Run on your natural gas line or on propane, at the same rated output."
+      },
+      "clearance": {
+        "w": 2,
+        "claim": "Mounted at least 8 ft above the floor, out of reach and out of the way of service."
+      },
+      "install_flex": {
+        "w": 2,
+        "claim": "Wall, ceiling or a ceiling pole that carries two heaters back to back over the centre of the terrace."
+      },
+      "durability": {
+        "w": 3,
+        "claim": "Stainless steel body and ceramic-glass screen, chosen by restaurants, hotels and rooftop bars for nightly service."
+      },
+      "install_ease": {
+        "w": 2,
+        "claim": "Fast to fit across a terrace: bracket in the box, plug-in power, factory isolating valve."
+      },
+      "weather": {
+        "w": 3,
+        "claim": "Designed to keep working in winds up to 10 mph, with a free design plan that places heaters where the heat loss is greatest."
+      },
+      "warranty": {
+        "w": 3,
+        "claim": "Two years of cover, excluding hoses and igniters."
+      },
+      "support": {
+        "w": 2,
+        "claim": "A complimentary heating design plan that shows coverage seat by seat before you order."
+      }
+    },
+    "INS": {
+      "safety": {
+        "w": 3,
+        "claim": "ETL and cETL listed (4009079), spark ignition with flame ionisation sensing, a 25 s safety time and lockout, and a factory-fitted manual isolating valve."
+      },
+      "heat": {
+        "w": 2,
+        "claim": "23,600 or 39,800 BTU input, the same on natural gas and propane; size from Bromic's published 160 and 215 ft² heat areas and the design plan."
+      },
+      "aesthetics": {
+        "w": 1,
+        "claim": "Black or Stainless finishes; one bracket and one install method for both."
+      },
+      "controls": {
+        "w": 3,
+        "claim": "Affinity Smart-Heat® On/Off Controller in 1, 2 or 5 channels, up to 10 gas heaters a channel, or a manual wall switch; expansion board for BMS. The heater has no switch of its own."
+      },
+      "fuel": {
+        "w": 3,
+        "claim": "Factory-built natural gas or propane models at the same BTU: NG 6–14 in W.C. inlet, propane 11–14 in W.C., 1/2 in NPT female inlet, NG regulator inside the valve."
+      },
+      "clearance": {
+        "w": 3,
+        "claim": "8 ft minimum to the floor, 3 ft to combustibles at the sides and above, 14 in above with the dual-layer stainless heat deflector."
+      },
+      "install_flex": {
+        "w": 3,
+        "claim": "Wall bracket included; ceiling pole for two heaters back to back with gas and power run inside the pole; tilt 0°, 10° or 20°."
+      },
+      "durability": {
+        "w": 2,
+        "claim": "Stainless steel body, high-temperature black finish, IPX4, sealed control box; service every six months or more often in harsh conditions."
+      },
+      "install_ease": {
+        "w": 3,
+        "claim": "Bracket in the box, 36 in cord and grounded three-prong plug on 110 V under 2 A, factory isolating valve, CSA-approved flexible gas connector supplied: no transformer to source."
+      },
+      "weather": {
+        "w": 2,
+        "claim": "IPX4; designed to function in winds up to 10 mph; install under a protective cover, protected from rain, with a watertight seal on the control box."
+      },
+      "warranty": {
+        "w": 2,
+        "claim": "Two-year warranty, excluding maintenance items (hoses and igniters)."
+      },
+      "support": {
+        "w": 2,
+        "claim": "Cut sheet, full installation manual with clearances and gas data, and Bromic's design service behind the quote."
+      }
+    },
+    "ARC": {
+      "safety": {
+        "w": 2,
+        "claim": "Listed appliance installed to ANSI Z223.1/NFPA 54 or CSA B149.1, with published clearances and an 8 ft minimum mounting height."
+      },
+      "heat": {
+        "w": 2,
+        "claim": "Two outputs, 23,600 and 39,800 BTU, with published heat areas of 160 and 215 ft² for each layout."
+      },
+      "aesthetics": {
+        "w": 3,
+        "claim": "Signature ceramic-glass screen and a black or stainless body: specify the finish to the material palette."
+      },
+      "controls": {
+        "w": 2,
+        "claim": "Zone control by Affinity Smart-Heat® On/Off Controller or manual wall switch, with BMS integration through the Affinity expansion board."
+      },
+      "fuel": {
+        "w": 2,
+        "claim": "Natural gas or propane at the same rated input, so the fuel follows the site, not the design."
+      },
+      "clearance": {
+        "w": 3,
+        "claim": "Plan 8 ft minimum mounting height and 3 ft to combustibles; the heat deflector brings the clearance above to 14 in."
+      },
+      "install_flex": {
+        "w": 2,
+        "claim": "Wall, ceiling or pole mounting with a 0°, 10° or 20° tilt to aim the heat at the seating."
+      },
+      "durability": {
+        "w": 2,
+        "claim": "Stainless steel and ceramic-glass construction with IPX4 protection for covered outdoor hospitality spaces."
+      },
+      "install_ease": {
+        "w": 1,
+        "claim": "Standard 110 V supply and a 1/2 in NPT gas connection at each heater."
+      },
+      "weather": {
+        "w": 2,
+        "claim": "For covered outdoor areas: IPX4 and rated for winds up to 10 mph; locate under cover, protected from rain."
+      },
+      "warranty": {
+        "w": 1,
+        "claim": "Two-year manufacturer warranty, excluding hoses and igniters."
+      },
+      "support": {
+        "w": 3,
+        "claim": "Complimentary design service with heater selection, placement and coverage drawings from your plans."
+      }
+    },
+    "BLD": {
+      "safety": {
+        "w": 2,
+        "claim": "A listed gas heater with published clearances, so the inspection is straightforward."
+      },
+      "heat": {
+        "w": 2,
+        "claim": "Two sizes to match the space: 160 ft² or 215 ft² of published coverage each."
+      },
+      "aesthetics": {
+        "w": 2,
+        "claim": "A premium-looking gas heater in black or stainless that lifts the finished pergola or pavilion."
+      },
+      "controls": {
+        "w": 2,
+        "claim": "One Affinity Smart-Heat® On/Off Controller runs several heaters by zone; a manual wall switch keeps it simple."
+      },
+      "fuel": {
+        "w": 3,
+        "claim": "Plumb it to the home's natural gas line or to propane: the same heater and the same heat."
+      },
+      "clearance": {
+        "w": 3,
+        "claim": "Frame for 8 ft minimum height and 3 ft clearance, or 14 in above with the heat deflector."
+      },
+      "install_flex": {
+        "w": 2,
+        "claim": "Mount to the wall, the beam or a ceiling pole, flat or pitched ceiling."
+      },
+      "durability": {
+        "w": 2,
+        "claim": "Built from stainless steel and ceramic glass to handle the outdoors under cover."
+      },
+      "install_ease": {
+        "w": 3,
+        "claim": "One 110 V outlet or a hardwired supply and a 1/2 in gas stub at each heater: the bracket and connector come in the box."
+      },
+      "weather": {
+        "w": 1,
+        "claim": "Install under the roof or pergola cover, protected from rain."
+      },
+      "warranty": {
+        "w": 2,
+        "claim": "Two years of manufacturer cover to hand over with the home."
+      },
+      "support": {
+        "w": 2,
+        "claim": "Send the plans and Bromic returns heater selection and placement at no charge."
+      }
+    },
+    "RES": {
+      "safety": {
+        "w": 3,
+        "claim": "Warmth from overhead, mounted at least 8 ft up and well clear of the table, with ignition that shuts the gas off if the flame goes out."
+      },
+      "heat": {
+        "w": 3,
+        "claim": "Glowing radiant warmth from up to 39,800 BTU, enough for a 215 ft² covered patio from one heater."
+      },
+      "aesthetics": {
+        "w": 3,
+        "claim": "A sleek ceramic-glass front in black or stainless, beautiful under a timber ceiling or a louvred pergola."
+      },
+      "controls": {
+        "w": 2,
+        "claim": "Warmth on and off at a switch with Affinity Smart-Heat® Controls, zoned for the dining table and the lounge."
+      },
+      "fuel": {
+        "w": 2,
+        "claim": "On your natural gas line or on propane, with the same warmth either way."
+      },
+      "clearance": {
+        "w": 1,
+        "claim": "Mounted high and well clear of the ceiling, with a deflector where the ceiling is close."
+      },
+      "install_flex": {
+        "w": 2,
+        "claim": "On the wall, from the beam or on a pole above the table, angled to where you sit."
+      },
+      "durability": {
+        "w": 1,
+        "claim": "Stainless steel and ceramic glass, made to look good season after season."
+      },
+      "install_ease": {
+        "w": 1,
+        "claim": "Your gas fitter connects it in a familiar way, with everything for the wall mount in the box."
+      },
+      "weather": {
+        "w": 2,
+        "claim": "Radiant heat that warms you, not the air, so it holds up in a light breeze under your covered patio."
+      },
+      "warranty": {
+        "w": 2,
+        "claim": "Two years of cover, so the evenings outside are worry-free."
+      },
+      "support": {
+        "w": 1,
+        "claim": "Not sure how many heaters? Bromic's design service plans it for you, free."
+      }
+    }
+  },
+  "m2_label": {
+    "tab": "Against our own range",
+    "left": "Tungsten Smart-Heat® Gas",
+    "right": "Platinum Smart-Heat® Gas",
+    "intro": "Same heat areas, clearances, listing, controls and warranty; Platinum adds the ceramic-glass face and a stainless option, Tungsten is compact, matte black and lower priced."
+  },
+  "m2": [
+    {
+      "benefit": "safety",
+      "change": "same",
+      "s1": "ETL and cETL listing 4009079; electronic spark ignition with flame monitoring; for outdoor areas only.",
+      "s2": "ETL and cETL listing 4009079; electronic spark ignition with flame ionisation monitoring and lockout; for outdoor areas only.",
+      "so_what": "Sell on looks and budget; the safety story is identical."
+    },
+    {
+      "benefit": "heat",
+      "change": "changed",
+      "s1": "Two models, heat areas 160 and 215 ft². Output: [[VERIFY: Tungsten Gas BTU; bromic.com and the 2026 manual give 26,000 and 43,000, the 2021 guide 39,800 — do not publish until confirmed — Product team]]",
+      "s2": "23,600 and 39,800 BTU; heat areas 160 and 215 ft². The two manuals list the same burner part number.",
+      "so_what": "Same published coverage per size, so choose on the look and the budget, not on the heat area."
+    },
+    {
+      "benefit": "aesthetics",
+      "change": "better",
+      "s1": "Matte black; front cover and flame protector over the burner (parts list); compact (19.3 in and 25.4 in long).",
+      "s2": "Signature ceramic-glass screen with reflector; Black or Stainless; 22.1 in and 29.8 in long.",
+      "so_what": "Where guests look up at the heater, Platinum's glass face and stainless option earn the premium."
+    },
+    {
+      "benefit": "controls",
+      "change": "same",
+      "s1": "Affinity Smart-Heat® On/Off Controller, expansion board for BMS, manual wall switch; on/off only.",
+      "s2": "Affinity Smart-Heat® On/Off Controller, expansion board for BMS, manual wall switch; on/off only.",
+      "so_what": "One controller and one wiring approach across a mixed Platinum and Tungsten site."
+    },
+    {
+      "benefit": "fuel",
+      "change": "same",
+      "s1": "Natural gas or propane models.",
+      "s2": "Natural gas or propane models at the same rated input.",
+      "so_what": "Fuel never decides between them."
+    },
+    {
+      "benefit": "clearance",
+      "change": "same",
+      "s1": "8 ft minimum height, 3 ft to combustibles, 14 in above with the heat deflector; deflector recommended under 42 in of space above or when exposed.",
+      "s2": "8 ft minimum height, 3 ft to combustibles, 14 in above with the heat deflector; deflector recommended under 1,100 mm (about 43 in) above or when exposed.",
+      "so_what": "Plan both the same way; one clearance drawing serves both. [[VERIFY: one deflector threshold for both — Product team]]"
+    },
+    {
+      "benefit": "install_flex",
+      "change": "same",
+      "s1": "Wall or ceiling; ceiling pole optional; tilt 0°, 10° or 20°; site lists a pivot arm rotating 25° each side and a separate gas wall mounting bracket.",
+      "s2": "Wall or ceiling; wall brackets included, poles optional; tilt 0°, 10° or 20°.",
+      "so_what": "Same mounting family. [[VERIFY: whether Platinum's arm also pivots 25° each side and whether Tungsten ships with its wall bracket — Product team]]"
+    },
+    {
+      "benefit": "durability",
+      "change": "changed",
+      "s1": "Stainless steel and high-temperature black paint; front cover and flame protector over the burner; IPX4.",
+      "s2": "Stainless steel and high-temperature black paint, stainless finish option, ceramic-glass screen; IPX4.",
+      "so_what": "Tungsten's open front suits hard-working venues; Platinum's glass front suits premium spaces that are cleaned and seen."
+    },
+    {
+      "benefit": "install_ease",
+      "change": "same",
+      "s1": "110 V, under 2 A; 33 and 44 lb; same gas pressures and installation steps.",
+      "s2": "110 V, under 2 A; 33 and 44 lb; 36 in cord with three-prong plug; factory isolating valve; flexible gas connector supplied.",
+      "so_what": "Installers fit both the same way."
+    },
+    {
+      "benefit": "weather",
+      "change": "same",
+      "s1": "IPX4; manual: designed to function in winds up to 10 mph (site: 8 mph); protect from rain.",
+      "s2": "IPX4; manual: designed to function in winds up to 10 mph (cut sheet: 12 mph); protect from rain.",
+      "so_what": "Quote 10 mph for both until the Product team aligns the pages."
+    },
+    {
+      "benefit": "warranty",
+      "change": "same",
+      "s1": "2 years, excluding hoses and igniters.",
+      "s2": "2 years, excluding hoses and igniters.",
+      "so_what": "No warranty trade-off either way."
+    },
+    {
+      "benefit": "support",
+      "change": "same",
+      "s1": "Cut sheet, manual, wiring diagram, design service.",
+      "s2": "Cut sheet, manual, design service.",
+      "so_what": "Both go through the same free design plan; let the plan decide the count and the brand look decide the model."
+    }
+  ],
+  "sell_which": {
+    "tungsten_gas": "Sell Tungsten Gas where budget, count and a compact, all-black heater matter most: busy pubs, sports venues, back-of-house terraces, value-led residential, and sites with many heaters. List range $1,828–$2,087 on bromic.com.",
+    "platinum_gas": "Sell Platinum Gas where the heater is part of the design: front-of-house terraces, hotel and rooftop bars, fine dining, premium pergolas and residential courtyards, and wherever a stainless finish is asked for. List range $2,367–$2,657 on bromic.com.",
+    "verify": "[[VERIFY: list prices by model and region — Sales operations]]"
+  },
+  "m3": {
+    "intro": "The closest gas radiant alternatives a buyer will price against Platinum Gas in the US. Factual and sourced; competitor documents vary in date, so re-check before external use.",
+    "competitors": [
+      {
+        "id": "sunpak",
+        "name": "Sunpak S25 / S34 infrared patio heaters",
+        "owner": "Infrared Dynamics, Yorba Linda, California (distributed by AEI Corporation)",
+        "markets": "US, CA",
+        "why_closest": "The most direct US match: a wall or ceiling-mounted ceramic infrared gas heater in two outputs (25,000 and 34,000 BTU), black or 304 stainless, sold to the same residential and restaurant buyers through dealers.",
+        "sources": [
+          "c1",
+          "c2",
+          "c3",
+          "c4"
+        ]
+      },
+      {
+        "id": "schwank",
+        "name": "Schwank supremeSchwank (2300 series)",
+        "owner": "Schwank Group",
+        "markets": "US, CA, EU",
+        "why_closest": "The commercial-grade benchmark: ceramic-tile infrared gas heaters from 23,000 to 50,000 BTU with two-stage options, specified by mechanical engineers for hospitality and commercial patios.",
+        "sources": [
+          "c5",
+          "c6"
+        ]
+      },
+      {
+        "id": "lynx",
+        "name": "Lynx Professional Eave Mounted Heater (LHEM48)",
+        "owner": "Lynx Professional Grills",
+        "markets": "US, CA",
+        "why_closest": "The luxury residential benchmark sold beside premium outdoor kitchens: all-stainless, eave or wall mounted, 35,000 BTU infrared, with a wireless switch and remote.",
+        "sources": [
+          "c7"
+        ]
+      }
+    ],
+    "rows": [
+      {
+        "benefit": "safety",
+        "edge": "parity",
+        "bromic": "ETL and cETL listing 4009079; electronic spark ignition with flame ionisation sensing, 25 s safety time, lockout on failure; factory isolating valve (manual b3).",
+        "vs": {
+          "sunpak": "\"CSA Design Certified\"; \"Direct Spark Ignition with Auto Re-light & Flame Sensor System\" (c1).",
+          "schwank": "Guideline spec: tested to ANSI Z83.26 / CSA 2.37 (outdoor patio heaters) and ANSI Z83.19b / CSA 2.35b, certified by CSA; direct spark ignition and ionisation flame sensing (c6). Current page says \"UL Certified\" (c5).",
+          "lynx": "\"complies with ANSI standard Z83.26-2007/ Z83.26a-2008 and CSA 2.37-2007\", tested and approved by Intertek; spark ignition with heat-sensing safety pilot (c7)."
+        },
+        "users": {
+          "COM": {
+            "w": 2,
+            "claim": "Every option here is listed; choose on looks, controls and service."
+          },
+          "INS": {
+            "w": 3,
+            "claim": "Listed, flame-monitored and fitted with a factory isolating valve, like the best of the field."
+          },
+          "ARC": {
+            "w": 2,
+            "claim": "Equivalent listing and ignition safety; specify on design and placement."
+          },
+          "BLD": {
+            "w": 2,
+            "claim": "Inspection-ready, as you would expect of any listed heater."
+          },
+          "RES": {
+            "w": 3,
+            "claim": "The same flame-safety you would expect from any premium gas heater."
+          }
+        }
+      },
+      {
+        "benefit": "heat",
+        "edge": "mixed",
+        "bromic": "23,600 and 39,800 BTU, single stage; Bromic heat areas 160 and 215 ft² (b1, b2).",
+        "vs": {
+          "sunpak": "25,000 and 34,000 BTU; TSR and TSH two-stage 25,000/34,000; \"Approx. Coverage: 12' x 12' with minimal wind and at sea level\" (c1).",
+          "schwank": "23,000, 35,000 and 50,000 BTU; 2-stage option on the 48.25 in model (c5).",
+          "lynx": "\"up to 35,000 BTU's\", adjustable down to 27,000 (LP) and 24,000 (NG) (c7)."
+        },
+        "users": {
+          "COM": {
+            "w": 3,
+            "claim": "The larger Platinum puts out 39,800 BTU, more than a 34,000 BTU Sunpak or a 35,000 BTU Lynx; Schwank's two-stage reaches 50,000."
+          },
+          "INS": {
+            "w": 2,
+            "claim": "Compare input on the rating plates; each maker states coverage its own way, so size from the design plan."
+          },
+          "ARC": {
+            "w": 2,
+            "claim": "Specify by the design plan; output sits between Sunpak and Schwank's largest."
+          },
+          "BLD": {
+            "w": 2,
+            "claim": "Two sizes cover most pergolas and pavilions."
+          },
+          "RES": {
+            "w": 3,
+            "claim": "Up to 39,800 BTU from one heater, without a coverage race."
+          }
+        }
+      },
+      {
+        "benefit": "aesthetics",
+        "edge": "mixed",
+        "bromic": "Ceramic-glass screen with reflector; Black or Stainless (b2, b1).",
+        "vs": {
+          "sunpak": "Black powder coat or 304 stainless; SST models with curved front fascias; optional stainless, gloss black or antique bronze fascia trims (c1, c2).",
+          "schwank": "\"finished in a sleek black\" with black emissive coating (c5).",
+          "lynx": "All stainless, welded, \"signature polished highlights\" and a slim profile (c7)."
+        },
+        "users": {
+          "COM": {
+            "w": 3,
+            "claim": "A glass-fronted heater that suits the front of house, in black or stainless."
+          },
+          "INS": {
+            "w": 1,
+            "claim": "Two finishes, one installation."
+          },
+          "ARC": {
+            "w": 3,
+            "claim": "A ceramic-glass face that reads as a design element, beside fascia-trimmed and polished-stainless alternatives."
+          },
+          "BLD": {
+            "w": 2,
+            "claim": "A premium look without custom trim."
+          },
+          "RES": {
+            "w": 3,
+            "claim": "A glass face in black or stainless, made to be seen."
+          }
+        }
+      },
+      {
+        "benefit": "controls",
+        "edge": "mixed",
+        "bromic": "On/off only (no dimming, FAQ b1); Affinity Smart-Heat® On/Off Controller in 1, 2 or 5 channels, up to 10 gas heaters a channel, expansion board for BMS, or manual wall switch (b1, b6). [[VERIFY: app, schedules and voice control for gas heaters through the On/Off Controller — Product team]]",
+        "vs": {
+          "sunpak": "S25/S34 on a standard wall switch; TSR two-stage with wireless remote and wall switch; TSH two-stage hardwired with a duplex switch (c1, c2).",
+          "schwank": "Single, double or triple switch, patio panel and remote; 2-stage option (c5); Patio Control Panel for zones (c6).",
+          "lynx": "Wireless on-off-hi-low wall switch and touch-screen remote; 6 heat levels on NG, 3 on LP (c7)."
+        },
+        "users": {
+          "COM": {
+            "w": 3,
+            "claim": "Run up to 10 heaters a channel from one Affinity controller, or tie the terrace into the BMS; for stepped heat, zone the heaters."
+          },
+          "INS": {
+            "w": 3,
+            "claim": "One Affinity Smart-Heat® On/Off Controller switches up to 10 gas heaters a channel: fewer switches and runs than heater-by-heater wiring."
+          },
+          "ARC": {
+            "w": 2,
+            "claim": "Zone and BMS control through Affinity; competitors offer hi/low stages, Platinum offers zones."
+          },
+          "BLD": {
+            "w": 2,
+            "claim": "Zone switching from one controller across the site."
+          },
+          "RES": {
+            "w": 2,
+            "claim": "Simple on and off at the switch with Affinity Smart-Heat® Controls, by zone."
+          }
+        }
+      },
+      {
+        "benefit": "fuel",
+        "edge": "parity",
+        "bromic": "Natural gas or propane, same rated input (b3).",
+        "vs": {
+          "sunpak": "Natural gas or propane, specify at order (c1).",
+          "schwank": "Natural gas or propane part numbers (c6).",
+          "lynx": "LHEM48NG and LHEM48LP; LP adjusts across fewer heat levels (c7)."
+        },
+        "users": {
+          "COM": {
+            "w": 2,
+            "claim": "Same choice of fuel as the field."
+          },
+          "INS": {
+            "w": 2,
+            "claim": "Factory NG or propane models, like every competitor here."
+          },
+          "ARC": {
+            "w": 1,
+            "claim": "Fuel is a site decision for every brand."
+          },
+          "BLD": {
+            "w": 2,
+            "claim": "Either fuel, like the alternatives."
+          },
+          "RES": {
+            "w": 2,
+            "claim": "Natural gas or propane, as with others."
+          }
+        }
+      },
+      {
+        "benefit": "clearance",
+        "edge": "competitor",
+        "bromic": "Above: 3 ft without a deflector, 14 in with the heat deflector; sides 3 ft; 8 ft minimum to the floor (b3).",
+        "vs": {
+          "sunpak": "Horizontal: side 24 in, rear 17 in, ceiling 13 in, below 48 in; at 30°: ceiling 18 in (c1, c3).",
+          "schwank": "Guideline spec: above the heater no more than 5.5 in (23,000 BTU) or 7.5 in (35,000 BTU) horizontal, 9.5 in at 30° (c6).",
+          "lynx": "Ceiling 14 in straight, 18 in angled; side and rear 12 in (c7)."
+        },
+        "users": {
+          "COM": {
+            "w": 2,
+            "claim": "Under a low ceiling, specify the heat deflector to bring the clearance above to 14 in."
+          },
+          "INS": {
+            "w": 3,
+            "claim": "Competitors publish smaller top clearances; with the deflector Platinum needs 14 in above, level with Lynx."
+          },
+          "ARC": {
+            "w": 3,
+            "claim": "Allow 3 ft above, or 14 in with the deflector; Schwank publishes 5.5 to 9.5 in."
+          },
+          "BLD": {
+            "w": 3,
+            "claim": "Frame for the deflector where the ceiling is close."
+          },
+          "RES": {
+            "w": 1,
+            "claim": "Your installer fits the deflector where the ceiling is low."
+          }
+        }
+      },
+      {
+        "benefit": "install_flex",
+        "edge": "mixed",
+        "bromic": "Wall bracket included; ceiling pole for two heaters back to back with gas and power inside the pole; tilt 0°, 10° or 20° (b3, b1).",
+        "vs": {
+          "sunpak": "Ceiling or wall; horizontal to 30° (c1).",
+          "schwank": "Ceiling, wall or post; can be tilted (c5).",
+          "lynx": "Eave, wall or fascia; tilt up to 30°; brackets give 10–18 in extension (c7)."
+        },
+        "users": {
+          "COM": {
+            "w": 2,
+            "claim": "Two heaters back to back on one pole over the middle of the terrace, with the lines hidden inside it."
+          },
+          "INS": {
+            "w": 3,
+            "claim": "Back-to-back pole mounting with concealed gas and power; tilt tops out at 20° against 30° for Sunpak and Lynx."
+          },
+          "ARC": {
+            "w": 2,
+            "claim": "Pole pairs keep the ceiling clean; plan aiming within 20°."
+          },
+          "BLD": {
+            "w": 2,
+            "claim": "Wall, beam or pole, flat or pitched ceiling."
+          },
+          "RES": {
+            "w": 2,
+            "claim": "On the wall or on a pole above the table."
+          }
+        }
+      },
+      {
+        "benefit": "durability",
+        "edge": "mixed",
+        "bromic": "Stainless steel body with high-temperature black paint, ceramic-glass screen, IPX4; in salt air, check for corrosion more often; not for boats (b3, b2). [[VERIFY: stainless grade — Product team]]",
+        "vs": {
+          "sunpak": "Aluminized steel with black powder coat, or \"Series 304\" commercial-grade stainless (c1).",
+          "schwank": "\"Made with 316 Marine Grade stainless steel to prevent rusting\" (c5); the 2012 guideline spec lists 409/304 stainless screen and aluminized or 304 covers (c6).",
+          "lynx": "\"Manufactured completely from Stainless Steel with welded construction\" (c7)."
+        },
+        "users": {
+          "COM": {
+            "w": 3,
+            "claim": "Stainless and ceramic glass, proven on restaurant and hotel terraces; near the sea, plan more frequent checks."
+          },
+          "INS": {
+            "w": 2,
+            "claim": "Stainless body, IPX4 and a sealed control box; Schwank states 316 marine grade."
+          },
+          "ARC": {
+            "w": 2,
+            "claim": "For coastal sites, weigh Schwank's stated 316 against Platinum's stainless body and service plan."
+          },
+          "BLD": {
+            "w": 2,
+            "claim": "Stainless construction under cover."
+          },
+          "RES": {
+            "w": 1,
+            "claim": "Built in stainless to last season after season."
+          }
+        }
+      },
+      {
+        "benefit": "install_ease",
+        "edge": "mixed",
+        "bromic": "110 V under 2 A; 36 in cord with grounded three-prong plug; bracket in the box; factory isolating valve; CSA-approved flexible connector supplied (b3).",
+        "vs": {
+          "sunpak": "S25/S34 \"Require Optional Transformer and Mounting Kit\" (24 VAC external transformer); TSH and SST cartons include brackets and transformer (c1, c2).",
+          "schwank": "25 Vac ignition; installer provides a 120/24 V transformer per heater or zone (c6).",
+          "lynx": "Battery operation or a 24 in AC adaptor; no hardwiring (c7)."
+        },
+        "users": {
+          "COM": {
+            "w": 2,
+            "claim": "Fewer parts to source per heater on a large terrace."
+          },
+          "INS": {
+            "w": 3,
+            "claim": "Plug-in 110 V with no transformer to buy, against Sunpak's and Schwank's 24 V transformers; Lynx needs no wiring at all."
+          },
+          "ARC": {
+            "w": 1,
+            "claim": "Standard 110 V at each heater."
+          },
+          "BLD": {
+            "w": 3,
+            "claim": "Bracket, cord and gas connector in the box."
+          },
+          "RES": {
+            "w": 1,
+            "claim": "A familiar job for your gas fitter."
+          }
+        }
+      },
+      {
+        "benefit": "weather",
+        "edge": "mixed",
+        "bromic": "Manual: \"designed to function in winds up to 10mph\"; IPX4; must be protected from rain, installed under a cover (b3).",
+        "vs": {
+          "sunpak": "\"passed basic wind and rain tests\"; no wind figure; windbreaks advised (c3).",
+          "schwank": "\"weather-resistant housing\"; no wind figure on the page (c5).",
+          "lynx": "\"certified to function during and after mild rain storms, and during mild wind conditions\" (c7)."
+        },
+        "users": {
+          "COM": {
+            "w": 3,
+            "claim": "Bromic states a wind figure, 10 mph, and plans placement for it; install under cover."
+          },
+          "INS": {
+            "w": 2,
+            "claim": "Install under a cover, protected from rain; Lynx is certified for mild rain."
+          },
+          "ARC": {
+            "w": 2,
+            "claim": "A published wind rating to design against; covered locations only."
+          },
+          "BLD": {
+            "w": 1,
+            "claim": "Covered locations, as for most patio heaters."
+          },
+          "RES": {
+            "w": 2,
+            "claim": "Made for a covered patio and a light breeze."
+          }
+        }
+      },
+      {
+        "benefit": "warranty",
+        "edge": "mixed",
+        "bromic": "2 years, excluding hoses and igniters (b1). [[VERIFY: commercial term — Product team]]",
+        "vs": {
+          "sunpak": "2018 manual: one year residential, 90 days for other than single-family residential (c3); older AEI sheet: 1 year parts, 3 years ceramic burners residential, 1 year commercial parts (c1).",
+          "schwank": "3-year comprehensive warranty on the ceramic burner and 3 years on other components (c5); guideline spec: 3 years burner and tiles, 1 year other parts (c6).",
+          "lynx": "5 years on the stainless housing, 1 year other components (residential), 90 days commercial (c7)."
+        },
+        "users": {
+          "COM": {
+            "w": 3,
+            "claim": "Two years of cover, where Sunpak's and Lynx's published terms drop to 90 days in commercial use; Schwank offers three on the burner."
+          },
+          "INS": {
+            "w": 2,
+            "claim": "Two years, hoses and igniters excluded."
+          },
+          "ARC": {
+            "w": 1,
+            "claim": "Compare terms for the use: Bromic two years, Schwank three on the burner."
+          },
+          "BLD": {
+            "w": 2,
+            "claim": "Two years to hand over."
+          },
+          "RES": {
+            "w": 2,
+            "claim": "Two years of cover; Lynx covers its housing for five."
+          }
+        }
+      },
+      {
+        "benefit": "support",
+        "edge": "mixed",
+        "bromic": "Complimentary design service: heater selection, placement and coverage drawings from photos or plans (b8); cut sheet and manual online (b2, b3).",
+        "vs": {
+          "sunpak": "Listed on Sweets with spec documents (c4); manuals and spec sheets through dealers (c1).",
+          "schwank": "Guideline specifications, submittal data and Revit files on the product page (c5, c6).",
+          "lynx": "Use and care manual through dealers (c7)."
+        },
+        "users": {
+          "COM": {
+            "w": 2,
+            "claim": "A free design plan before you order."
+          },
+          "INS": {
+            "w": 2,
+            "claim": "A full manual with gas data and clearances, and a design plan behind the quote."
+          },
+          "ARC": {
+            "w": 3,
+            "claim": "Free coverage drawings from Bromic; Schwank offers ready-written guideline specs and Revit files, which Bromic should match."
+          },
+          "BLD": {
+            "w": 2,
+            "claim": "Plans in, heater layout back, at no charge."
+          },
+          "RES": {
+            "w": 1,
+            "claim": "Free help planning your space."
+          }
+        }
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "b1",
+      "publisher": "Bromic Heating",
+      "title": "Platinum Smart-Heat® Gas product page (read 29 Oct 2026; summarised in data/product-facts.json and data/site-inventory.json)",
+      "year": 2026,
+      "url": "https://www.bromic.com/product/platinum-smart-heat-gas/",
+      "verified": false,
+      "supports": "Outputs 23,600 and 39,800 BTU, 160 and 215 ft², Black or Stainless, 110 V 2 A, 96 in minimum, Intertek 4009079, 2-year warranty excl. hoses and igniters, on/off only, Affinity On/Off controller and expansion board, wall switch, deflector under 1,100 mm, list $2,367–$2,657"
+    },
+    {
+      "id": "b2",
+      "publisher": "Bromic Heating",
+      "title": "Product Cut Sheet, Platinum Smart-Heat Gas",
+      "year": 2021,
+      "url": "https://pim.bromic.com/wp-content/uploads/2021/07/Product-Cut-Sheet-Platinum-Gas-1.pdf",
+      "verified": false,
+      "supports": "Ceramic-glass screen, stainless steel body, 23,600 and 39,800 BTU, up to 215 ft², winds up to 12 mph, IPX4, Intertek 4009079, Affinity On/Off and Manual Wall Switch, wall and ceiling mounting"
+    },
+    {
+      "id": "b3",
+      "publisher": "Bromic Heating",
+      "title": "Platinum Smart-Heat Gas Heater installation, instruction and service manual (US and Canada, Version 2.7; file V2.43)",
+      "year": 2021,
+      "url": "https://pim.bromic.com/wp-content/uploads/2021/07/Bromic-Platinum-Smart-Heat-Gas-Instruction-Manual-US-V2.43.pdf",
+      "verified": false,
+      "supports": "ETL & cETL 4009079; gas pressures; 33 and 44 lb; 110 V under 2 A; 36 in cord and three-prong plug; winds up to 10 mph; clearances 3 ft, 14 in with deflector, 8 ft to floor; tilt 0°, 10°, 20°; ceiling pole back to back; outdoor definition (Appendix A); protect from rain; ignition timings; IPX4 control; salt-air note; not for boats; parts list with glass and reflector"
+    },
+    {
+      "id": "b4",
+      "publisher": "Bromic Heating",
+      "title": "Tungsten Smart-Heat® Gas product page (read 29 Oct 2026; data/product-facts.json)",
+      "year": 2026,
+      "url": "https://www.bromic.com/product/tungsten-smart-heat-gas/",
+      "verified": false,
+      "supports": "160 and 215 ft², matte black, 110 V 2 A, 96 in minimum, pivot arm ±25°, 8 mph, 2-year warranty, deflector under 42 in, controls, list $1,828–$2,087"
+    },
+    {
+      "id": "b5",
+      "publisher": "Bromic Heating",
+      "title": "Tungsten Smart-Heat Gas manual V2.3",
+      "year": 2026,
+      "url": "https://pim.bromic.com/wp-content/uploads/2026/05/Manual-Tungsten-Gas-V2.3.pdf",
+      "verified": false,
+      "supports": "ETL & cETL 4009079; same clearances, tilt, electrical and wind wording as Platinum; 19.3 and 25.4 in long; parts list with front cover and flame protector; same burner part number as Platinum. Its BTU figures are not used (hard rule 3)."
+    },
+    {
+      "id": "b6",
+      "publisher": "Bromic Heating",
+      "title": "Affinity Smart-Heat On/Off Controllers (read 29 Oct 2026; data/product-facts.json)",
+      "year": 2026,
+      "url": "https://www.bromic.com/product/affinity-smart-heat-on-off-controllers/",
+      "verified": false,
+      "supports": "1, 2 and 5 channels; up to 10 gas heaters per channel; IP54; expansion board for BMS; the spec table lists only electric heaters (conflict noted)"
+    },
+    {
+      "id": "b7",
+      "publisher": "Bromic Heating",
+      "title": "The Official Outdoor Heating Planning Guide, US v1.2",
+      "year": 2021,
+      "url": "internal: sources/Bromic_Planning_Guide_US_v1.2_2021.pdf",
+      "verified": false,
+      "supports": "Dual-layer stainless heat deflectors reduce top clearance; ceiling poles mount two units back to back; gas codes ANSI Z223.1/NFPA 54"
+    },
+    {
+      "id": "b8",
+      "publisher": "Bromic Heating",
+      "title": "Lookbook 2026, p.41 (Affinity) and p.43 (design service)",
+      "year": 2026,
+      "url": "internal: sources/Bromic_Lookbook_2026.pdf",
+      "verified": false,
+      "supports": "Affinity controls, app and integrations (Wi-Fi features need compatible Affinity controls, sold separately); complimentary design service"
+    },
+    {
+      "id": "c1",
+      "publisher": "AEI Corporation / Infrared Dynamics",
+      "title": "Sunpak Outdoor Infrared Patio Heaters spec sheet",
+      "year": 2015,
+      "url": "https://cdn.shopify.com/s/files/1/0354/7607/8636/files/Sunpak-Spec.pdf",
+      "verified": false,
+      "supports": "S25 25,000 and S34 34,000 BTU; black or 304 stainless; 12 ft x 12 ft with minimal wind at sea level; clearances; 0–30°; CSA; transformer and mounting kit required on S25/S34; warranty 1 year parts, 3 years ceramic burners residential, 1 year commercial parts"
+    },
+    {
+      "id": "c2",
+      "publisher": "AEI Corporation / Infrared Dynamics",
+      "title": "Sunpak technical sheet (rev 7/15)",
+      "year": 2015,
+      "url": "https://www.bbqgalore.com/media/docs/specs/SUNPAK_TECHNICAL_SHEET_2015.pdf",
+      "verified": false,
+      "supports": "TSR and TSH two-stage 25,000/34,000 BTU; optional fascias in stainless, gloss black, antique bronze; made in Yorba Linda, California"
+    },
+    {
+      "id": "c3",
+      "publisher": "Infrared Dynamics",
+      "title": "Sunpak S34 TSH installation and operating manual, Form No 32047 (8/18)",
+      "year": 2018,
+      "url": "https://cdn.shopify.com/s/files/1/0667/5357/files/sunpak_s34_tsh_manual.pdf",
+      "verified": false,
+      "supports": "Two-stage 34,000/25,000 BTU; at least 8 ft above floor; 'passed basic wind and rain tests'; clearances; limited warranty one year residential, 90 days other uses, replacement parts only"
+    },
+    {
+      "id": "c4",
+      "publisher": "Sweets (Dodge Construction Network)",
+      "title": "Infrared Dynamics: Sunpak S34-TSH listing",
+      "year": 2026,
+      "url": "https://sweets.construction.com/manufacturer/infrared-dynamics-nst546/products/sunpak-s34-tsh-outdoor-infrared-patio-heaters-nst761432-p",
+      "verified": false,
+      "supports": "Sunpak listed for specifiers; warranty given as one year, parts only (search listing)"
+    },
+    {
+      "id": "c5",
+      "publisher": "Schwank Group",
+      "title": "supremeSchwank product page",
+      "year": 2026,
+      "url": "https://www.schwankgroup.com/products/outdoor-heaters/supremeschwank/",
+      "verified": false,
+      "supports": "23,000, 35,000 and 50,000 BTU; 2-stage option; ceiling, wall or post, tilt; 8 ft minimum mounting height; 316 marine grade stainless; UL certified; 3-year burner warranty and 3 years on other components; switches, patio panel, remote; Revit files and guideline specs"
+    },
+    {
+      "id": "c6",
+      "publisher": "Schwank",
+      "title": "2300 Series HVAC guideline specifications (SP-EECQ-CX-01B)",
+      "year": 2012,
+      "url": "https://www.schwankgroup.com/wp-content/uploads/2021/03/Schwank-2300-Series_Guideline_Specifications.pdf",
+      "verified": false,
+      "supports": "Outdoor and indoor approved; ANSI Z83.26/CSA 2.37 and ANSI Z83.19b/CSA 2.35b, certified by CSA; ceramic tile burner; direct spark ignition; top clearance 5.5–9.5 in; warranty 3 years burner, 1 year other; patio control panel; installer-provided 24 V transformer"
+    },
+    {
+      "id": "c7",
+      "publisher": "Lynx Professional Grills",
+      "title": "Eave Mount Patio Heater use and care manual (LHEM48)",
+      "year": "undated (cites Z83.26-2007/Z83.26a-2008)",
+      "url": "https://assets.ajmadison.com/ajmadison/itemdocs/LHEM48use.pdf",
+      "verified": false,
+      "supports": "Up to 35,000 BTU, down to 27,000 LP and 24,000 NG; all stainless welded; wireless on-off-hi-low switch and touch-screen remote (6 levels NG, 3 LP); ANSI Z83.26/CSA 2.37, Intertek; mild rain and wind; clearances 14/18 in ceiling, 12 in side and rear; up to 30°; warranty 5 years housing, 1 year components, 90 days commercial. [[VERIFY: manual date and current model — Specification and compliance]]"
+    }
+  ],
+  "pillars": [
+    {
+      "id": "p1",
+      "title": "Up To 39,800 BTU Of Radiant Warmth",
+      "line": "Two sizes, 23,600 and 39,800 BTU, warm heat areas of up to 160 and 215 ft² from a ceramic-tile burner, so a covered terrace stays full long after the sun goes down.",
+      "proof": [
+        "23,600 and 39,800 BTU (manual, cut sheet)",
+        "Heat areas 160 and 215 ft² (bromic.com)",
+        "Same rated input on natural gas and propane"
+      ],
+      "benefits": [
+        "heat",
+        "fuel"
+      ],
+      "src": [
+        "b1",
+        "b2",
+        "b3"
+      ]
+    },
+    {
+      "id": "p2",
+      "title": "Designed To Be Seen",
+      "line": "A signature ceramic-glass screen in a black or stainless body turns the heater into part of the design, from a hotel rooftop to a timber-lined courtyard.",
+      "proof": [
+        "Ceramic-glass screen with reflector (cut sheet, parts list)",
+        "Black or Stainless",
+        "Chosen for restaurant, hotel and rooftop terraces (Bromic gallery)"
+      ],
+      "benefits": [
+        "aesthetics",
+        "durability"
+      ],
+      "src": [
+        "b1",
+        "b2",
+        "b3"
+      ]
+    },
+    {
+      "id": "p3",
+      "title": "One Switch For The Whole Terrace",
+      "line": "Pair Platinum Gas with the Affinity Smart-Heat® On/Off Controller to switch up to 10 gas heaters a channel by zone, or link the terrace to your building management system through the Affinity expansion board.",
+      "proof": [
+        "Affinity On/Off: 1, 2 or 5 channels, up to 10 gas heaters a channel",
+        "Expansion board for BMS",
+        "Manual wall switch option"
+      ],
+      "benefits": [
+        "controls"
+      ],
+      "src": [
+        "b1",
+        "b6"
+      ]
+    },
+    {
+      "id": "p4",
+      "title": "Mounted Where The Evening Happens",
+      "line": "On the wall, from the beam, or two heaters back to back on a ceiling pole with the gas and power hidden inside, angled at 0°, 10° or 20° to the seating.",
+      "proof": [
+        "Wall bracket included",
+        "Ceiling pole for two heaters back to back, lines inside the pole",
+        "Tilt 0°, 10° or 20°"
+      ],
+      "benefits": [
+        "install_flex",
+        "install_ease"
+      ],
+      "src": [
+        "b3",
+        "b7"
+      ]
+    },
+    {
+      "id": "p5",
+      "title": "Engineered For Peace Of Mind",
+      "line": "Electronic spark ignition watches the flame and locks out if it fails, on an ETL and cETL listed heater mounted at least 8 ft above the floor.",
+      "proof": [
+        "ETL and cETL listing 4009079",
+        "Flame ionisation sensing, 25 s safety time, lockout",
+        "Factory-fitted manual isolating valve",
+        "8 ft minimum mounting height"
+      ],
+      "benefits": [
+        "safety",
+        "clearance"
+      ],
+      "src": [
+        "b3"
+      ]
+    },
+    {
+      "id": "p6",
+      "title": "Natural Gas Or Propane, The Same Warmth",
+      "line": "Factory-built natural gas and propane models carry the same rated input, so the fuel follows the site and the warmth stays the same.",
+      "proof": [
+        "NG and propane SKUs for both sizes",
+        "Same BTU on both fuels (manual)"
+      ],
+      "benefits": [
+        "fuel"
+      ],
+      "src": [
+        "b1",
+        "b3"
+      ]
+    },
+    {
+      "id": "p7",
+      "title": "Planned With You, Seat By Seat",
+      "line": "Send us photos or plans and Bromic's complimentary design service returns heater selection, placement and coverage drawings, with the deflectors and controls the space needs.",
+      "proof": [
+        "Complimentary design service (Lookbook 2026 p.43)",
+        "Clearance drawings and cut sheet",
+        "Two-year warranty, excluding hoses and igniters"
+      ],
+      "benefits": [
+        "support",
+        "warranty"
+      ],
+      "src": [
+        "b8",
+        "b1"
+      ]
+    }
+  ],
+  "portfolio": [
+    {
+      "space": "Front-of-house restaurant terrace or rooftop bar",
+      "product": "Platinum Smart-Heat® Gas",
+      "image": "w-bromic-centrico-photos-19",
+      "why": "Glass-fronted gas heat in black or stainless, on beams, walls or pole pairs, switched by zone with Affinity Smart-Heat® On/Off."
+    },
+    {
+      "space": "Busy pub, sports venue or value-led terrace",
+      "product": "Tungsten Smart-Heat® Gas",
+      "image": "w-tungsten-gas-500-fiddler-sydney-2-1",
+      "why": "The same coverage and controls in a compact matte-black body at a lower list price."
+    },
+    {
+      "space": "Covered residential courtyard or outdoor kitchen with a gas line",
+      "product": "Platinum Smart-Heat® Gas",
+      "image": "w-bromic-pg-residential-hr",
+      "why": "Radiant gas warmth that looks at home on a timber-clad eave, with a wall switch or Affinity Smart-Heat® Controls."
+    },
+    {
+      "space": "Open seating away from walls and ceilings",
+      "product": "Tungsten Smart-Heat® Freestanding Gas",
+      "image": "l-019-162",
+      "why": "Gas warmth wherever the furniture goes, with no wall or ceiling needed."
+    },
+    {
+      "space": "Covered patio with no gas line, or where dimming matters",
+      "product": "Platinum Smart-Heat® Electric",
+      "image": "l-010-075",
+      "why": "Electric infrared with the Affinity Smart-Heat® Dimmer, app schedules and flush recessing."
+    },
+    {
+      "space": "Shallow ceiling where the heater should disappear",
+      "product": "Tungsten Smart-Heat® Electric Series II",
+      "image": "t2-low-clearance-recess",
+      "why": "Up to 6 kW flush in a 7.5 in cavity, dual fan-ventilated."
+    }
+  ],
+  "claim_checks": [
+    {
+      "claim": "More powerful than Sunpak, Lynx and Schwank",
+      "verdict": "qualified",
+      "checked": "2026-11-19",
+      "why": "The 39,800 BTU model exceeds Sunpak S34 (34,000 BTU) and Lynx LHEM48 (35,000 BTU), but Schwank's two-stage supremeSchwank reaches 50,000 BTU. Input is not delivered heat; each maker measures coverage differently.",
+      "use_instead": "Up to 39,800 BTU from one heater.",
+      "safest": "23,600 and 39,800 BTU on natural gas or propane.",
+      "avoid": [
+        "most powerful",
+        "more heat than any",
+        "outperforms"
+      ],
+      "open": [
+        "Radiant efficiency figures for Platinum Gas, to compare like with like (Product team)"
+      ]
+    },
+    {
+      "claim": "Heats up to 215 ft²",
+      "verdict": "qualified",
+      "checked": "2026-11-19",
+      "why": "Bromic's own published heat area for the larger model (product page, cut sheet); the method is not stated. Sunpak quotes 12 ft x 12 ft 'with minimal wind and at sea level'.",
+      "use_instead": "A heat area of up to 215 ft² (Bromic published coverage), confirmed for your space by the free design plan.",
+      "safest": "Heat areas of 160 and 215 ft².",
+      "avoid": [
+        "covers more than",
+        "heats any patio"
+      ],
+      "open": [
+        "How the 160 and 215 ft² heat areas are measured (Product team)"
+      ]
+    },
+    {
+      "claim": "Wind resistant to 12 mph",
+      "verdict": "qualified",
+      "checked": "2026-11-19",
+      "why": "Cut sheet says 12 mph; the manual says 'designed to function in winds up to 10mph'; the product page says 20 km/h in the body and 12 mph in the features. The manual is the installation document.",
+      "use_instead": "Designed to function in winds up to 10 mph.",
+      "safest": "Radiant heat for covered outdoor spaces, rated for light wind.",
+      "avoid": [
+        "windproof",
+        "all-weather",
+        "12 mph until aligned"
+      ],
+      "open": [
+        "One wind figure across cut sheet, manual and page (Product team, then Digital marketing)"
+      ]
+    },
+    {
+      "claim": "Suitable for enclosed or indoor spaces",
+      "verdict": "false as stated",
+      "checked": "2026-11-19",
+      "why": "Manual: 'This appliance is NOT approved for indoor use'; outdoor areas only, as defined in Appendix A (for example an overhead cover and no more than two walls, or at least 25% of wall area completely open). Schwank's 2300 series is approved for indoor use with mechanical exhaust.",
+      "use_instead": "For covered outdoor areas: patios, pergolas, terraces and rooftops that meet the manual's definition of outdoors.",
+      "safest": "For outdoor areas, installed under cover.",
+      "avoid": [
+        "indoor",
+        "enclosed",
+        "all-season room",
+        "sunroom"
+      ],
+      "open": [
+        "Whether any Bromic gas heater carries an indoor approval in any market (Product team)"
+      ]
+    },
+    {
+      "claim": "Low-clearance gas heater",
+      "verdict": "false as stated",
+      "checked": "2026-11-19",
+      "why": "Platinum needs 3 ft above without a deflector and 14 in with it. Schwank publishes 5.5–9.5 in, Sunpak 13–18 in, Lynx 14–18 in.",
+      "use_instead": "With the heat deflector, 14 in clearance above.",
+      "safest": "Published clearances, with a deflector where the ceiling is close.",
+      "avoid": [
+        "low clearance",
+        "fits any ceiling"
+      ],
+      "open": []
+    },
+    {
+      "claim": "App and voice control for Platinum Gas",
+      "verdict": "unverified",
+      "checked": "2026-11-19",
+      "why": "The product page names the Affinity On/Off Controller and expansion board; the On/Off spec table lists only electric heaters while its intro and FAQ add gas; the page also mentions an RS232 port and Smart-Heat Link plugin for smart-home integration.",
+      "use_instead": "Switch heaters by zone with the Affinity Smart-Heat® On/Off Controller, up to 10 gas heaters a channel.",
+      "safest": "Affinity Smart-Heat® On/Off Controller or manual wall switch.",
+      "avoid": [
+        "dimmable",
+        "Alexa",
+        "Google Assistant",
+        "app schedules (until confirmed)"
+      ],
+      "open": [
+        "Does the On/Off Controller give app, schedules and voice for gas heaters, and is the RS232 route retired (Product team)"
+      ]
+    },
+    {
+      "claim": "Longer warranty than the competition",
+      "verdict": "qualified",
+      "checked": "2026-11-19",
+      "why": "Two years (excl. hoses and igniters) beats Sunpak's 2018 manual (one year residential, 90 days other uses) and Lynx's 90-day commercial term; Schwank offers 3 years on the burner and Lynx 5 years on its housing.",
+      "use_instead": "Two years of cover, excluding hoses and igniters.",
+      "safest": "Two-year warranty.",
+      "avoid": [
+        "best warranty",
+        "longest"
+      ],
+      "open": [
+        "Platinum Gas commercial warranty term (Product team)",
+        "Current Sunpak and Lynx warranty documents (Specification and compliance)"
+      ]
+    },
+    {
+      "claim": "Industry benchmark, world-first innovation",
+      "verdict": "unverified",
+      "checked": "2026-11-19",
+      "why": "The manual's product features text says so, with no source. US Pat. 9,874,348 and CA Pat. 2,788,696 are printed on the manual cover; what they cover is not stated.",
+      "use_instead": "Engineered by Bromic, patented in the US and Canada.",
+      "safest": "Bromic's design-led gas radiant heater.",
+      "avoid": [
+        "world-first",
+        "industry benchmark",
+        "revolutionizing"
+      ],
+      "open": [
+        "What the two patents cover (Product team)"
+      ]
+    }
+  ],
+  "ad_briefs": [
+    {
+      "id": "c1",
+      "segment": "Homeowners",
+      "name": "The Glow Over The Table",
+      "objective": "Consideration: gas radiant warmth that looks beautiful in a covered courtyard",
+      "format": "Reel, 9:16, 15 s",
+      "hook": "Dusk in a courtyard, a glass of wine, a chill; two heaters on the eave begin to glow.",
+      "headline": "Extend The Moment",
+      "primary_text": "Platinum Smart-Heat® Gas brings glowing radiant warmth to your covered patio, with a ceramic-glass face in black or stainless.",
+      "cta": "Learn More",
+      "visual": "Timber-clad eave, two Platinum Gas heaters angled to a dining table, warm light, people first, heater second. Bromic end card.",
+      "claims": [
+        "Up to 39,800 BTU",
+        "Black or Stainless",
+        "Natural gas or propane"
+      ],
+      "images": [
+        "w-bromic-pg-residential-hr",
+        "w-platinum-gas-500-series"
+      ],
+      "mandatory": [
+        "Installation by a licensed gas fitter, to local code. For covered outdoor areas only.",
+        "Pair with the Affinity Smart-Heat® On/Off Controller or a manual wall switch.",
+        "No prices."
+      ],
+      "kpi": "3-second view rate, landing page views"
+    },
+    {
+      "id": "c2",
+      "segment": "Hospitality operators",
+      "name": "Keep The Terrace Full",
+      "objective": "Intent: design-plan requests from restaurants and hotels",
+      "format": "Carousel, 4:5, 4 cards",
+      "hook": "Card 1: a full hotel terrace at night under glowing heaters.",
+      "headline": "One More Hour On The Terrace",
+      "primary_text": "Up to 39,800 BTU on every heater, switched by zone from one Affinity controller, and a free design plan before you order.",
+      "cta": "Request Your Design Plan",
+      "visual": "Sheraton Carlsbad terrace, Centrico pergola detail, a pole pair with deflectors, end card with the design plan offer.",
+      "claims": [
+        "Up to 39,800 BTU",
+        "Up to 10 gas heaters a channel on Affinity Smart-Heat® On/Off",
+        "Complimentary design service"
+      ],
+      "images": [
+        "w-platinum-gas-sheraton-carlsbad-ca-usa",
+        "w-bromic-centrico-photos-19",
+        "w-commercial-australia-brisbane-kedron-wavell-",
+        "w-hooghuis-brussels-belgium-platinum-gas-2"
+      ],
+      "mandatory": [
+        "Installation by a licensed gas fitter, to local code. For covered outdoor areas only.",
+        "No prices."
+      ],
+      "kpi": "Design-plan form completions, cost per request"
+    },
+    {
+      "id": "c3",
+      "segment": "Gas fitters and installers",
+      "name": "Everything In The Box",
+      "objective": "Consideration: installer preference",
+      "format": "Static, 1:1, and a 15 s cutdown",
+      "hook": "Unboxed on a workbench: heater, wall bracket, flexible gas connector, plug-in cord.",
+      "headline": "Ready For The Job",
+      "primary_text": "Wall bracket, CSA-approved flexible connector and plug-in 110 V power in the box, a factory isolating valve fitted, and no transformer to source.",
+      "cta": "Download The Manual",
+      "visual": "Flat lay of the contents, then the heater on a beam bracket. Clearance drawing as the last frame.",
+      "claims": [
+        "110 V, under 2 A, three-prong plug",
+        "Factory isolating valve",
+        "Natural gas or propane at the same BTU",
+        "14 in above with the heat deflector"
+      ],
+      "images": [
+        "w-bromic-gas-details",
+        "w-plat-gas-graphics3",
+        "w-892rc6cyn0iocge2hikd"
+      ],
+      "mandatory": [
+        "Installation by a licensed gas fitter, to local code. For covered outdoor areas only.",
+        "Pair with the Affinity Smart-Heat® On/Off Controller or a manual wall switch.",
+        "No prices."
+      ],
+      "kpi": "Manual downloads, clicks"
+    },
+    {
+      "id": "c4",
+      "segment": "Architects and specifiers",
+      "name": "Designed To Be Seen",
+      "objective": "Spec pack requests",
+      "format": "LinkedIn single image, 1.91:1",
+      "hook": "A stainless Platinum Gas heater on a timber-slatted pergola, close and architectural.",
+      "headline": "Gas Heat, Designed To Be Seen",
+      "primary_text": "A ceramic-glass screen in black or stainless, 23,600 or 39,800 BTU, ETL and cETL listed, with clearance drawings and a free design plan.",
+      "cta": "Request The Spec Pack",
+      "visual": "Centrico pergola detail, crisp and warm; small caption with the two outputs.",
+      "claims": [
+        "Ceramic-glass screen, Black or Stainless",
+        "23,600 and 39,800 BTU",
+        "ETL and cETL listing 4009079"
+      ],
+      "images": [
+        "w-bromic-centrico-photos-19",
+        "w-platinum-gas-albion-hotel-melbourne"
+      ],
+      "mandatory": [
+        "Installation by a licensed gas fitter, to local code. For covered outdoor areas only.",
+        "No prices."
+      ],
+      "kpi": "Spec pack requests, CTR"
+    },
+    {
+      "id": "c5",
+      "segment": "Builders",
+      "name": "The Pavilion, Finished",
+      "objective": "Consideration: builders of outdoor kitchens and pavilions",
+      "format": "Reel, 9:16, 12 s",
+      "hook": "A timber pavilion over an outdoor kitchen, bar stools waiting; four heaters glow on.",
+      "headline": "Finish The Space With Warmth",
+      "primary_text": "Plumb to the home's natural gas line or to propane, mount on the wall or the beam, and hand over a space that is warm on day one.",
+      "cta": "Learn More",
+      "visual": "Apex pavilion, wide then a detail of the angled heaters.",
+      "claims": [
+        "Natural gas or propane",
+        "Wall, beam or pole mounting",
+        "Two-year warranty, excluding hoses and igniters"
+      ],
+      "images": [
+        "w-apex-building-plat-500-residential"
+      ],
+      "mandatory": [
+        "Installation by a licensed gas fitter, to local code. For covered outdoor areas only.",
+        "Pair with the Affinity Smart-Heat® On/Off Controller or a manual wall switch.",
+        "No prices."
+      ],
+      "kpi": "Landing page views, partner program enquiries"
+    }
+  ],
+  "assets_to_create": [
+    {
+      "name": "Platinum Gas or Tungsten Gas: which one? (sales one-pager)",
+      "channel": "Sales and dealer training, PDF",
+      "audience": "Sales, dealers",
+      "claims": [
+        "Same coverage, clearances, listing, controls and warranty",
+        "Platinum: ceramic-glass screen, Black or Stainless",
+        "Tungsten: compact, matte black, lower list price"
+      ],
+      "brief": "One page built from matrix 2 and sell_which: two columns, a 'sell when' line under each, venue photos for each.",
+      "owner": "Marketing"
+    },
+    {
+      "name": "Platinum Gas sell sheet (hospitality)",
+      "channel": "Print and PDF",
+      "audience": "Hospitality operators",
+      "claims": [
+        "Up to 39,800 BTU, 215 ft² heat area",
+        "Affinity On/Off, up to 10 gas heaters a channel",
+        "Complimentary design service"
+      ],
+      "brief": "Front: a terrace at night and three benefits; back: the two models, controls and the design-plan offer.",
+      "owner": "Marketing"
+    },
+    {
+      "name": "Gas installer quick guide",
+      "channel": "PDF, website, trade counter",
+      "audience": "Gas fitters, installers",
+      "claims": [
+        "Gas pressures, 1/2 in NPT inlet",
+        "Clearances with and without deflector",
+        "Pole pair mounting",
+        "Affinity On/Off wiring"
+      ],
+      "brief": "Two pages from the manual: clearances, pressures, mounting options, controller wiring. Every figure from the manual, with its page.",
+      "owner": "Specification and compliance"
+    },
+    {
+      "name": "Platinum Gas spec section and Revit families",
+      "channel": "Website, CAD and Revit",
+      "audience": "Architects, specifiers",
+      "claims": [
+        "Listing, outputs, clearances, fuels"
+      ],
+      "brief": "Guideline specification in CSI format and Revit families, to match what Schwank offers specifiers. [[VERIFY: whether Revit files exist for Platinum Gas — Digital marketing]]",
+      "owner": "Specification and compliance"
+    },
+    {
+      "name": "Covered or enclosed? Outdoor definition explainer",
+      "channel": "Website article and sales training",
+      "audience": "Hospitality operators, architects, builders",
+      "claims": [
+        "Manual Appendix A definitions of outdoors",
+        "Not approved for indoor use"
+      ],
+      "brief": "Diagrams of the four enclosure examples, in our words, with the local-authority and licensed gas fitter disclaimer and a link to the manual.",
+      "owner": "Specification and compliance"
+    },
+    {
+      "name": "Gas competitor battlecard",
+      "channel": "Internal sales",
+      "audience": "Sales",
+      "claims": [
+        "Matrix 3 rows and battlecard lines"
+      ],
+      "brief": "One page from competitive_summary; internal only, re-checked each quarter.",
+      "owner": "Specification and compliance"
+    },
+    {
+      "name": "Hospitality case-study set (Platinum Gas)",
+      "channel": "Website, sales decks",
+      "audience": "Hospitality operators",
+      "claims": [
+        "Real venues with Platinum Gas installed"
+      ],
+      "brief": "Pull the Platinum Gas projects already in the Cases tab (hotel, rooftop and restaurant terraces) into one collection with photos.",
+      "owner": "Hospitality sales"
+    },
+    {
+      "name": "Paid social set (five briefs)",
+      "channel": "Instagram, Facebook, LinkedIn",
+      "audience": "Homeowners, operators, installers, specifiers, builders",
+      "claims": [
+        "As in ad_briefs"
+      ],
+      "brief": "Produce c1–c5 from Bromic photography only.",
+      "owner": "Digital marketing"
+    }
+  ],
+  "competitive_summary": {
+    "wins": [
+      "Largest single model output among Sunpak (34,000) and Lynx (35,000): 39,800 BTU",
+      "Plug-in 110 V with no 24 V transformer to source, against Sunpak S25/S34 and Schwank",
+      "Zone switching of up to 10 gas heaters a channel from one Affinity controller, with BMS through the expansion board",
+      "Two-year warranty, against 90-day commercial terms in Sunpak's and Lynx's manuals [[VERIFY: Platinum commercial term — Product team]]",
+      "A published wind figure (10 mph) and a complimentary design service",
+      "Ceramic-glass screen in black or stainless"
+    ],
+    "parity": [
+      "Listing and flame-safety ignition",
+      "Natural gas and propane",
+      "Wall and ceiling mounting",
+      "8 ft minimum mounting height"
+    ],
+    "watch": [
+      "Clearance above: Platinum 3 ft, or 14 in with the deflector; Schwank 5.5–9.5 in, Sunpak 13–18 in, Lynx 14–18 in",
+      "Stepped heat: Sunpak TSR/TSH, Schwank 2-stage and Lynx (6 levels on NG) offer hi/low; Platinum is on/off only",
+      "Tilt: 20° maximum against 30° for Sunpak and Lynx",
+      "Rain: Platinum must be protected from rain; Lynx is certified for mild rain",
+      "Materials: Schwank states 316 marine grade; Platinum's stainless grade is unstated",
+      "Indoor approval: Schwank's 2300 series is approved for indoor use with exhaust; Platinum is outdoor only",
+      "Warranty depth: Schwank 3 years on the burner; Lynx 5 years on the housing",
+      "Specifier tools: Schwank publishes guideline specs and Revit files"
+    ],
+    "battlecard": [
+      {
+        "objection": "Sunpak is made in California and costs less.",
+        "answer": "Compare what arrives in the box: Platinum ships with its wall bracket, flexible gas connector and a plug-in 110 V cord, where Sunpak S25 and S34 need an external 24 V transformer and mounting kit. Platinum's larger model is 39,800 BTU against Sunpak's 34,000."
+      },
+      {
+        "objection": "Schwank needs far less clearance above.",
+        "answer": "That is true: Schwank publishes 5.5 to 9.5 in. With the dual-layer stainless heat deflector, Platinum needs 14 in above. Our free design plan places each heater and deflector for your ceiling."
+      },
+      {
+        "objection": "Lynx gives me six heat levels from a remote.",
+        "answer": "Platinum is on/off by design and switches by zone: one Affinity Smart-Heat® On/Off Controller runs up to 10 gas heaters a channel, so you turn areas on and off as the terrace fills."
+      },
+      {
+        "objection": "Can it go in our enclosed patio room?",
+        "answer": "No. Platinum Gas is for outdoor areas only, as the manual defines them, for example under a roof with no more than two walls. For a space that does not meet that definition, talk to our design team."
+      },
+      {
+        "objection": "Why pay more than for Tungsten Gas?",
+        "answer": "You get the same coverage, clearances, controls and warranty either way. Platinum adds the ceramic-glass face and a stainless option for spaces where guests see the heater; Tungsten is compact and matte black at a lower list price."
+      },
+      {
+        "objection": "Will it work on our windy waterfront?",
+        "answer": "Platinum is designed to function in winds up to 10 mph and works best under cover, where heat loss is greatest. In salt air, plan more frequent checks; for marine craft and exposed coastal sites, look at Platinum Electric Marine."
+      }
+    ]
+  },
+  "open_questions": [
+    "Is Platinum Gas current in every region? It is not in the Lookbook 2026 (Product team)",
+    "One wind figure: 10 mph (manual), 12 mph (cut sheet) or 20 km/h (page) (Product team)",
+    "Can the Affinity On/Off Controller give gas heaters app, schedules and voice; is the RS232 and Smart-Heat Link route retired (Product team)",
+    "Stainless grade, commercial warranty term, and what the patents cover (Product team)",
+    "Tungsten Gas output, to finish matrix 2 (Product team)",
+    "Platinum's arm pivot and whether Tungsten ships with its wall bracket (Product team)",
+    "List prices by model, fuel and finish (Sales operations)",
+    "Re-check Sunpak and Lynx current warranty and specs; their documents date from 2010–2018 (Specification and compliance)"
+  ]
+}

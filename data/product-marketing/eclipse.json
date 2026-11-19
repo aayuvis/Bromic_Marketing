@@ -1,0 +1,1758 @@
+{
+ "_readme": "Product marketing framework, schema v2 (19 Nov 2026), for the Eclipse Smart-Heat® Electric collection: Eclipse Electric on its six pole and wall mounts and Eclipse Freestanding (the \"Eclipse Portable\" of manuals and older pages). Matrix 1: what matters to each buyer across twelve benefit fields (w: 3 matters most, 2 matters, 1 nice to have) and the claim that resonates. Matrix 2: Platinum Smart-Heat® Electric (left) against Eclipse (right), to place the round, design-led heater against the linear one. Matrix 3: Eurofase Vellura, Heatsail DOME and Kettler Kalos (factual, sourced, needs_approval Specification and compliance). Bromic facts from data/product-facts.json, the 2026 cut sheets and the 2025 US manuals; claims add no new facts. Prices are directional, never in ads.",
+ "id": "eclipse",
+ "name": "Eclipse Smart-Heat® Electric",
+ "short": "Eclipse",
+ "status": "draft",
+ "updated": "2026-11-19",
+ "owner_review": "Marketing",
+ "needs_approval": "Specification and compliance",
+ "launch": {
+  "summary": "Eclipse is Bromic’s design-led electric heater: the one collection that pairs radiant heat with a dimmable LED ring, hung from six poles or standing on its own arch. It is for spaces where the heater is seen and the light matters: dining terraces, hotel and restaurant canopies, pavilions and lounges with no roof."
+ },
+ "tiers": [
+  {
+   "id": "twin",
+   "tier": "Pendant, standard mount",
+   "name": "Eclipse Smart-Heat® Electric on the 24 in Twin Pole",
+   "win_on": "Heat and light over a table, ready to hang",
+   "colours": "Matte black",
+   "fascia": "Radial ceramic screen with LED ring",
+   "recessing": "Not recessable; 24 in twin pole included",
+   "price": "$2,849 (heater head with twin pole); Affinity Eclipse Controller $839–$4,760 sold separately",
+   "image": "w-eclipse-electric",
+   "notes": [
+    "2,900 W, up to 121 ft², heat 33/66/100%",
+    "208 V (BH0920003) or 220–240 V (BH0920001-2)",
+    "3000K LED, 497 lm, dimmable"
+   ]
+  },
+  {
+   "id": "straight",
+   "tier": "Pendant, straight poles",
+   "name": "Eclipse Smart-Heat® Electric on 8, 24 or 48 in Straight Pole",
+   "win_on": "The right height under any ceiling",
+   "colours": "Matte black",
+   "fascia": "Radial ceramic screen with LED ring",
+   "recessing": "8 in close to the ceiling; 48 in lowers the head to about 8 ft under high ceilings",
+   "price": "Poles $108 (8 and 24 in), $170 (48 in), plus the heater",
+   "image": "w-eclipse-straight-mount-1",
+   "notes": [
+    "Head at least 8 ft above the floor",
+    "Pole sold separately; the twin pole still ships with the head"
+   ]
+  },
+  {
+   "id": "curved",
+   "tier": "Curved ceiling and wall",
+   "name": "Eclipse Smart-Heat® Electric on the 24 in Curved Pole or Wall Mount Pole",
+   "win_on": "A sculptural line from the ceiling, or heat from a wall where there is no roof",
+   "colours": "Matte black",
+   "fascia": "Radial ceramic screen with LED ring",
+   "recessing": "Curved ceiling pole; curved wall-mount arm",
+   "price": "$170 (curved pole), $229 (wall mount pole), plus the heater",
+   "image": "w-eclipse-wall-mount",
+   "notes": [
+    "Wall arm: sidewalk cafés and awnings",
+    "Wall arm projection and wall clearance: [[VERIFY: projection and clearance — Product team]]"
+   ]
+  },
+  {
+   "id": "freestanding",
+   "tier": "Freestanding",
+   "name": "Eclipse Smart-Heat® Freestanding (sold earlier, and in manuals, as Eclipse Portable)",
+   "win_on": "Heat and light over open seating with no ceiling or wall",
+   "colours": "Matte black",
+   "fascia": "Radial ceramic screen with LED ring",
+   "recessing": "Arched arm on a weighted base with two wheels",
+   "price": "$5,149, Eclipse Dimmer Controller and remote included",
+   "image": "w-eclipse-portable",
+   "notes": [
+    "220–240 V only, 15 ft cable and plug; needs an IP54 outdoor outlet",
+    "About 383 lb assembled (head 30, arm 33, base 320 lb with ten 22 lb weights)",
+    "Winds up to 20 mph; fix the base above that",
+    "79 in minimum floor clearance"
+   ]
+  }
+ ],
+ "upgrades_label": "What sets it apart",
+ "upgrades": [
+  "Radiant heat and a dimmable 3000K LED ring in one fixture (497 lm on Eclipse Electric)",
+  "2,900 W from two elements in three steps, up to 121 ft² a heater",
+  "Seven ways to mount: 24 in twin pole included, 8, 24 and 48 in straight, 24 in curved, wall pole, and the freestanding arch",
+  "IP54 and wind resistant; the freestanding base holds in winds up to 20 mph",
+  "Heat and light from the Bromic app with the Affinity Smart-Heat® Eclipse Controller: dimming, schedules, zones, multi-site, Alexa and Google Assistant",
+  "208 V and 220–240 V pendant heads, listed for the US and Canada",
+  "Three-year warranty"
+ ],
+ "price_verify": "[[VERIFY: 2027 list prices for Eclipse Electric, Freestanding, poles and Affinity Eclipse controllers by region — Sales operations]]",
+ "spec_verify": "[[VERIFY: material (double-coated steel or 304 stainless), Freestanding lumens, light-only operation, pendant wind rating, exposure to rain, and the mounting height behind 121 ft² — Product team]]",
+ "user_types": [
+  {
+   "id": "RES",
+   "name": "Homeowners",
+   "who": "Residential owners heating a covered patio, pergola, pool house or roof deck, who care how it looks at night"
+  },
+  {
+   "id": "COM",
+   "name": "Hospitality and commercial operators",
+   "who": "Restaurants, hotels, bars, rooftops and clubs that sell outdoor tables in the cold months"
+  },
+  {
+   "id": "DES",
+   "name": "Designers",
+   "who": "Interior, hospitality, landscape and outdoor-living designers who choose fixtures by how they look and light"
+  },
+  {
+   "id": "ARC",
+   "name": "Architects",
+   "who": "Architects and specifiers who place heaters in the reflected ceiling plan and the schedule"
+  },
+  {
+   "id": "INS",
+   "name": "Installers",
+   "who": "Electrical contractors who fix, wire and commission the heaters and controllers"
+  }
+ ],
+ "benefits": [
+  {
+   "id": "heat_light",
+   "name": "Heat and light in one",
+   "what": "Radiant heat and a dimmable 3000K LED ring in one fixture: one product on the ceiling or the floor where two would have been",
+   "proposed": false
+  },
+  {
+   "id": "install_flex",
+   "name": "Mounting flexibility",
+   "what": "Six pole and wall options for Eclipse Electric (24 in twin pole included), plus Eclipse Freestanding: seven ways across the collection",
+   "proposed": false
+  },
+  {
+   "id": "aesthetics",
+   "name": "Design aesthetics",
+   "what": "A round, 27.6 in matte black disc with a radial ceramic screen and a warm halo of light",
+   "proposed": false
+  },
+  {
+   "id": "heat",
+   "name": "Heat performance",
+   "what": "2,900 W from two elements, three heat steps (33, 66, 100%), up to 121 ft² per heater",
+   "proposed": false
+  },
+  {
+   "id": "controls",
+   "name": "Ease of controls",
+   "what": "Heat and light from the Bromic app with the Affinity Smart-Heat® Eclipse Controller: dimming, schedules, timers, zones, voice",
+   "proposed": false
+  },
+  {
+   "id": "safety",
+   "name": "Safety and peace of mind",
+   "what": "Electric infrared with no flame or fumes, hard-wired by a licensed electrician, set mounting heights, listed in the US and Canada",
+   "proposed": false
+  },
+  {
+   "id": "weather",
+   "name": "Weather and durability",
+   "what": "IP54, wind resistant, matte black double-coated finish; the freestanding base is weighted for winds up to 20 mph",
+   "proposed": false
+  },
+  {
+   "id": "support",
+   "name": "Specification and support",
+   "what": "Cut sheets, manuals, clearance drawings and Bromic’s complimentary design service",
+   "proposed": false
+  },
+  {
+   "id": "freestanding",
+   "name": "Freestanding and movable",
+   "what": "Eclipse Freestanding: an arched arm over a weighted base on two wheels, with a 15 ft cable and plug, no ceiling needed",
+   "proposed": false
+  },
+  {
+   "id": "multi_area",
+   "name": "Heat multiple outdoor areas",
+   "what": "One heater a channel, up to five on a 5-channel controller, zones and multi-site management in one app",
+   "proposed": false
+  },
+  {
+   "id": "warranty",
+   "name": "Warranty",
+   "what": "Three years on Eclipse Electric and Eclipse Freestanding",
+   "proposed": false
+  },
+  {
+   "id": "install_ease",
+   "name": "Ease of installation",
+   "what": "A pole kit in the box, familiar ceiling and wall fixings, 208 V and 240 V heads for the pendant",
+   "proposed": false
+  }
+ ],
+ "benefit_order_note": "Ordered by priority: total weight across the five buyers (3 matters most, 2 matters, 1 nice to have), ties broken by the order the benefit was proposed.",
+ "m1": {
+  "RES": {
+   "heat_light": {
+    "w": 3,
+    "claim": "Warmth and a soft glow from one fixture, so the table stays bright and cosy long after sunset."
+   },
+   "install_flex": {
+    "w": 2,
+    "claim": "Close to the ceiling, lower under a high roof, from a wall or on its own arched stand: there is an Eclipse for your space."
+   },
+   "aesthetics": {
+    "w": 3,
+    "claim": "A round, matte black disc with a warm halo of light: it looks like a fine pendant lamp, day and night."
+   },
+   "heat": {
+    "w": 3,
+    "claim": "Three heat settings from 2,900 W, so you can turn it up on a cold night and down on a mild one."
+   },
+   "controls": {
+    "w": 3,
+    "claim": "Turn the heat and the light up or down from your phone, or set a schedule, with the Affinity Smart-Heat® Eclipse Controller."
+   },
+   "safety": {
+    "w": 3,
+    "claim": "No flame, no gas, no fumes: just quiet radiant warmth, switched off by timer or from your phone."
+   },
+   "weather": {
+    "w": 2,
+    "claim": "IP54 and wind resistant, made for patios and pergolas year-round, at its best under cover."
+   },
+   "support": {
+    "w": 1,
+    "claim": "Send us a photo or a plan and our design team will show you where each heater goes, at no charge."
+   },
+   "freestanding": {
+    "w": 2,
+    "claim": "No roof, no problem: Eclipse Freestanding arches over the sofa and rolls on two wheels when you rearrange."
+   },
+   "multi_area": {
+    "w": 1,
+    "claim": "Warm the dining table, the lounge and the pool house, each on its own schedule."
+   },
+   "warranty": {
+    "w": 2,
+    "claim": "Three years of cover on the heater, so the evenings outside are worry-free."
+   },
+   "install_ease": {
+    "w": 1,
+    "claim": "Your electrician fits it to the ceiling or a wall with the pole that suits your space."
+   }
+  },
+  "COM": {
+   "heat_light": {
+    "w": 3,
+    "claim": "One fixture lights and heats each table: fewer things on the ceiling, a warmer room, a softer glow for guests."
+   },
+   "install_flex": {
+    "w": 2,
+    "claim": "Twin, straight, curved and wall poles, or freestanding where there is no roof: one look across the whole venue."
+   },
+   "aesthetics": {
+    "w": 2,
+    "claim": "A sculptural pendant your guests notice for the right reasons, glowing over every table."
+   },
+   "heat": {
+    "w": 3,
+    "claim": "2,900 W over up to 121 ft² a heater, in three steps, so each table gets the warmth it needs."
+   },
+   "controls": {
+    "w": 3,
+    "claim": "Run every heater, zone and site from one app, with schedules and timers for open and close."
+   },
+   "safety": {
+    "w": 2,
+    "claim": "Electric infrared with no flame or fumes, mounted at least 8 ft above the floor, away from guests’ hands."
+   },
+   "weather": {
+    "w": 3,
+    "claim": "IP54 and wind resistant for terraces and canopies; the freestanding base holds in winds up to 20 mph."
+   },
+   "support": {
+    "w": 2,
+    "claim": "A free heating design plan, table by table, before you buy."
+   },
+   "freestanding": {
+    "w": 3,
+    "claim": "Heat and light over open seating where there is no ceiling, and moved on its wheels as the floor plan changes."
+   },
+   "multi_area": {
+    "w": 3,
+    "claim": "Zones and multi-site management for every terrace, rooftop and entrance on one account."
+   },
+   "warranty": {
+    "w": 2,
+    "claim": "Three years of manufacturer cover across the collection."
+   },
+   "install_ease": {
+    "w": 2,
+    "claim": "Pole in the box and one fixture a table, so fit-out is quick to plan and to quote."
+   }
+  },
+  "DES": {
+   "heat_light": {
+    "w": 3,
+    "claim": "A halo of 3000K light around the warmth, dimmed to the mood you want, from one beautiful object."
+   },
+   "install_flex": {
+    "w": 3,
+    "claim": "Choose the pole that suits the room: twin, straight, curved or a wall arm, or the arched freestanding version."
+   },
+   "aesthetics": {
+    "w": 3,
+    "claim": "A 27.6 in matte black disc and radial ceramic screen, finished with a warm LED ring: a design object in its own right."
+   },
+   "heat": {
+    "w": 2,
+    "claim": "Warmth that lands where people sit, up to 121 ft² from each heater."
+   },
+   "controls": {
+    "w": 2,
+    "claim": "Dim the light and the heat separately from the app, so the scene is set by you."
+   },
+   "safety": {
+    "w": 1,
+    "claim": "Clean electric warmth with no flame near fabrics, planted walls or a timber ceiling, within its stated clearances."
+   },
+   "weather": {
+    "w": 1,
+    "claim": "A matte black finish built for outdoor living, rated IP54."
+   },
+   "support": {
+    "w": 2,
+    "claim": "Mood images, dimensions and a free design service to place each heater in the scheme."
+   },
+   "freestanding": {
+    "w": 2,
+    "claim": "An arched arm that places the glow exactly over the lounge, in the same language as the pendants."
+   },
+   "multi_area": {
+    "w": 2,
+    "claim": "Pendants inside, arched freestanding heaters outside: one family look across every space."
+   },
+   "warranty": {
+    "w": 1,
+    "claim": "Three years of cover on Eclipse Electric and Eclipse Freestanding."
+   },
+   "install_ease": {
+    "w": 1,
+    "claim": "The right pole length lands the heater at the right height without a custom bracket."
+   }
+  },
+  "ARC": {
+   "heat_light": {
+    "w": 3,
+    "claim": "Heat and a dimmable 3000K LED ring in one fixture: one product to place, one ceiling connection, a cleaner reflected ceiling plan."
+   },
+   "install_flex": {
+    "w": 3,
+    "claim": "Six mounts for Eclipse Electric (8, 24 and 48 in straight, 24 in twin, 24 in curved, wall pole) plus Eclipse Freestanding."
+   },
+   "aesthetics": {
+    "w": 3,
+    "claim": "A 27.6 in round head, 4.4 in deep, in matte black, that reads as a light fitting in the elevation."
+   },
+   "heat": {
+    "w": 2,
+    "claim": "2,900 W in three steps (33, 66, 100%), up to 121 ft² a heater on Bromic’s published coverage."
+   },
+   "controls": {
+    "w": 2,
+    "claim": "App, schedules, zones, Alexa and Google Assistant; Ethernet and 0 to 10 V for building systems on the 5-channel controller."
+   },
+   "safety": {
+    "w": 2,
+    "claim": "Listed for the US and Canada (SGS), installed to NEC and CEC, at least 8 ft to the head on a pole or wall."
+   },
+   "weather": {
+    "w": 2,
+    "claim": "IP54; the manual recommends mounting under cover and fortnightly wiping near the coast."
+   },
+   "support": {
+    "w": 3,
+    "claim": "Cut sheets, clearance drawings for every pole, US manuals and a complimentary design service."
+   },
+   "freestanding": {
+    "w": 1,
+    "claim": "Freestanding: about 383 lb assembled on a weighted base, 79 in minimum floor clearance, no ceiling structure needed."
+   },
+   "multi_area": {
+    "w": 2,
+    "claim": "One heater a channel and up to five on a 5-channel controller: zone by seating area in the drawings."
+   },
+   "warranty": {
+    "w": 1,
+    "claim": "Three-year manufacturer warranty; controllers carry their own."
+   },
+   "install_ease": {
+    "w": 1,
+    "claim": "Standard 24 in twin pole included; 48 in straight pole brings the head to about 8 ft under high ceilings."
+   }
+  },
+  "INS": {
+   "heat_light": {
+    "w": 1,
+    "claim": "The heater and its LED ring arrive as one head; the light runs on its own 24 V DC circuit inside the same junction box."
+   },
+   "install_flex": {
+    "w": 3,
+    "claim": "The 24 in twin pole ships with the head; 8, 24 and 48 in straight, curved and wall poles are sold separately."
+   },
+   "aesthetics": {
+    "w": 1,
+    "claim": "One slim round head, 4.4 in deep and 30 lb, with no visible fixings beyond the pole."
+   },
+   "heat": {
+    "w": 2,
+    "claim": "Two elements, 66% and 33%, wired as two circuits for three heat steps; 12.1 A at 240 V, 13.9 A at 208 V."
+   },
+   "controls": {
+    "w": 2,
+    "claim": "One heater a channel: a 1-channel controller (4 kW at 220 to 240 V) or a 5-channel controller with the expansion board."
+   },
+   "safety": {
+    "w": 2,
+    "claim": "Hard-wired by a licensed electrician; isolation switch and a suitable junction box at the supply."
+   },
+   "weather": {
+    "w": 2,
+    "claim": "IP54 head; on the freestanding model, an IP54 plug and outlet keep the rating."
+   },
+   "support": {
+    "w": 2,
+    "claim": "Clear clearance diagrams for each pole and a full wiring guide in the manual."
+   },
+   "freestanding": {
+    "w": 1,
+    "claim": "Plugs in with a 15 ft cable: plan an outdoor 220 to 240 V outlet rated IP54 or better."
+   },
+   "multi_area": {
+    "w": 1,
+    "claim": "Five heaters on one 5-channel controller; size each channel to one Eclipse head."
+   },
+   "warranty": {
+    "w": 2,
+    "claim": "Three years on the heater; the Affinity controller carries one year."
+   },
+   "install_ease": {
+    "w": 3,
+    "claim": "Two-person lift, 30 lb head; 208 V head for commercial supplies, 220 to 240 V for homes."
+   }
+  }
+ },
+ "m2_label": {
+  "tab": "Against our own range",
+  "left": "Platinum Smart-Heat® Electric",
+  "right": "Eclipse Smart-Heat® Electric",
+  "intro": "When the round, design-led heater beats the linear one, and when it does not."
+ },
+ "m2": [
+  {
+   "benefit": "heat_light",
+   "change": "new",
+   "s1": "Heat only. No integrated light.",
+   "s2": "Dimmable warm white LED ring, 3000K, 497 lm on Eclipse Electric (216.6 lm listed for Freestanding [[VERIFY: freestanding lumens; both manuals give 20 W at 24 V DC — Product team]]).",
+   "so_what": "Where the ceiling also needs light, Eclipse does two jobs in one fixture."
+  },
+  {
+   "benefit": "install_flex",
+   "change": "changed",
+   "s1": "Recessed, ceiling or wall; 8 in stainless pole included; recess kits and longer poles sold separately.",
+   "s2": "Six pole and wall options (24 in twin pole included) and a freestanding version; Eclipse cannot be recessed.",
+   "so_what": "Flush in the ceiling, choose Platinum. Hanging, arching or standing as a feature, choose Eclipse."
+  },
+  {
+   "benefit": "aesthetics",
+   "change": "changed",
+   "s1": "Slim linear body in Black or White; minimal and architectural.",
+   "s2": "Round 27.6 in disc in matte black with a radial ceramic screen and LED halo.",
+   "so_what": "Platinum disappears into the architecture; Eclipse is the statement piece."
+  },
+  {
+   "benefit": "heat",
+   "change": "changed",
+   "s1": "2,300, 3,400 and 4,500 W; up to 65, 108 and 143 ft²; dimmable in 1% steps with the Affinity Dimmer.",
+   "s2": "One output, 2,900 W, up to 121 ft²; three heat steps (33, 66, 100%).",
+   "so_what": "For the most heat per fixture or fine dimming, Platinum 4,500 W; for even warmth table by table with light, Eclipse."
+  },
+  {
+   "benefit": "controls",
+   "change": "changed",
+   "s1": "Affinity Smart-Heat® On/Off or Dimmer, sold separately; up to 6 kW a channel; manual wall switch.",
+   "s2": "Affinity Smart-Heat® Eclipse Controller, sold separately: one heater a channel, heat and light from the app; Eclipse Freestanding includes its Eclipse Dimmer Controller and remote.",
+   "so_what": "Both run on the Bromic app; Eclipse adds light scenes, and needs one channel for each heater."
+  },
+  {
+   "benefit": "safety",
+   "change": "same",
+   "s1": "Electric infrared, no flame or fumes; minimum 72 in on a wall, 96 in on a ceiling; Intertek ETL/cETL.",
+   "s2": "Electric infrared, no flame or fumes; minimum 96 in on a wall or ceiling, 79 in for Freestanding; SGS listed for the US and Canada.",
+   "so_what": "Same peace of mind; Platinum can sit lower on a wall."
+  },
+  {
+   "benefit": "weather",
+   "change": "changed",
+   "s1": "304 stainless chassis; Platinum Marine in 316 stainless, IPX5, Lloyd’s Register approved. [[VERIFY: Platinum Classic IP rating — Product team]]",
+   "s2": "Double-coated steel, IP54 [[VERIFY: material, the site FAQ says 304 stainless — Product team]]; manual advises mounting under cover.",
+   "so_what": "By the sea or exposed to weather, Platinum (Marine). Under a roof, canopy or pergola, either."
+  },
+  {
+   "benefit": "support",
+   "change": "same",
+   "s1": "Cut sheets, manuals, recess guidance and the complimentary design service.",
+   "s2": "Cut sheets, manuals, pole clearance drawings and the complimentary design service.",
+   "so_what": "Ask the design team to mix both: Platinum for coverage, Eclipse where light and form matter."
+  },
+  {
+   "benefit": "freestanding",
+   "change": "new",
+   "s1": "No freestanding version.",
+   "s2": "Eclipse Freestanding: arched arm, weighted base on two wheels, 15 ft cable and plug, 220 to 240 V.",
+   "so_what": "Where there is no ceiling or wall, Eclipse is the electric answer in this pair."
+  },
+  {
+   "benefit": "multi_area",
+   "change": "changed",
+   "s1": "Up to 6 kW a channel on Affinity On/Off or Dimmer: often two heaters a channel.",
+   "s2": "One heater a channel; up to five on the 5-channel Eclipse controller.",
+   "so_what": "Large heated areas on few channels, Platinum; individually controlled tables with light, Eclipse."
+  },
+  {
+   "benefit": "warranty",
+   "change": "same",
+   "s1": "3 years (Platinum Marine: 5 years on land, 3 on vessels).",
+   "s2": "3 years.",
+   "so_what": "Same cover on land."
+  },
+  {
+   "benefit": "install_ease",
+   "change": "changed",
+   "s1": "17 to 33 lb; 208 V and 220 to 240 V; recessing needs a recess kit and the right cavity.",
+   "s2": "30 lb head on a pole kit included in the box; 208 V and 240 V pendant heads; no recess work.",
+   "so_what": "Eclipse goes up on a pole with no cavity to prepare; Platinum rewards the early drawing with a flush finish."
+  }
+ ],
+ "m3": {
+  "intro": "Eclipse against the round heat-and-light fixtures a buyer compares it with: a US decorative lighting brand, a Belgian design brand sold through US furniture retailers, and the UK mass market. Factual and sourced; each maker measures coverage its own way.",
+  "competitors": [
+   {
+    "id": "eurofase",
+    "name": "Eurofase Vellura (pendant EFH0139 and freestanding EFH0138)",
+    "owner": "Eurofase Inc. (named in the Vellura manual)",
+    "markets": "US, CA",
+    "why_closest": "The US product that sells the same idea: heat and a 3000K LED light in one round decorative fixture, as a pendant and a freestanding lamp, through lighting showrooms and online. Lower output and price tier, plug-in 120 V.",
+    "sources": [
+     "e1",
+     "e2",
+     "e3"
+    ]
+   },
+   {
+    "id": "heatsail",
+    "name": "Heatsail DOME (pendant, wall and bow brackets, floor lamp)",
+    "owner": "Heatsail NV, Belgium; Heatsail USA Inc., Texas",
+    "markets": "EU, UK, US",
+    "why_closest": "The closest design-tier match: a round far-infrared heater with integrated dimmable light, as a pendant, wall or bow bracket and an arched freestanding floor lamp, sold in the US through premium furniture retailers at a price near Eclipse.",
+    "sources": [
+     "h1",
+     "h2",
+     "h3",
+     "h4",
+     "h5",
+     "h6"
+    ]
+   },
+   {
+    "id": "kalos",
+    "name": "Kettler Kalos pendant heaters (Universal, Plush)",
+    "owner": "Kettler UK (kettler.co.uk); parent not checked",
+    "markets": "UK, IE",
+    "why_closest": "The UK and Irish mass-market version of heat and light from one round pendant: halogen heat, an LED light and a remote, at a fraction of the price. The benchmark homeowners in the UK find first.",
+    "sources": [
+     "k1",
+     "k2"
+    ]
+   }
+  ],
+  "rows": [
+   {
+    "benefit": "heat_light",
+    "edge": "mixed",
+    "bromic": "Dimmable warm white LED ring, 3000K, 497 lm (Eclipse Electric cut sheet), 20 W at 24 V DC on its own circuit; light dims in presets and 1% steps from the remote. [[VERIFY: light-only operation with heat off, and Freestanding lumens (216.6 lm listed) — Product team]]",
+    "vs": {
+     "eurofase": "Integrated LED, \"3000K; 700 lumens\", on/off and brightness from the remote; heat \"Adjustable, up to 1500W\" (EFH0139 manual).",
+     "heatsail": "\"Light max. 120 Watt\", dimmable with the remote and usable \"with or without the heating\" (DOME brochure); lumens not published.",
+     "kalos": "Universal pendant \"Fitted with LED Light\"; Plush LED switched separately by remote (retailer); lumens not published."
+    },
+    "users": {
+     "RES": {
+      "w": 3,
+      "claim": "Warmth and a halo of light from one fixture, with almost twice the heat of a plug-in pendant lamp."
+     },
+     "COM": {
+      "w": 3,
+      "claim": "Heat that holds a table on a cold night, with light that sets the mood, from one fixture a table."
+     },
+     "DES": {
+      "w": 3,
+      "claim": "A precise, warm ring of light drawn around the heat, designed as one object."
+     },
+     "ARC": {
+      "w": 3,
+      "claim": "Specify the light in lumens and the heat in watts from one cut sheet: 497 lm and 2,900 W."
+     },
+     "INS": {
+      "w": 1,
+      "claim": "Light on a separate 24 V DC circuit, wired in the same junction box as the heater supply."
+     }
+    }
+   },
+   {
+    "benefit": "install_flex",
+    "edge": "bromic",
+    "bromic": "Six mounts for Eclipse Electric: 24 in twin pole (included), 8, 24 and 48 in straight, 24 in curved and a wall pole; plus Eclipse Freestanding. 208 V and 220 to 240 V pendant heads.",
+    "vs": {
+     "eurofase": "Pendant hangs on a chain from a hook \"designed for concrete\", or wrapped around a gazebo or pergola frame; 120 V plug-in (EFH0139 manual).",
+     "heatsail": "Pendant (\"Ceiling height max. 3m56\"), wall bracket, bow bracket, extension piece and floor lamp (DOME brochure); powered at 230 to 240 V (spec sheet).",
+     "kalos": "Ceiling pendant with a 1.8 m cable (Universal page)."
+    },
+    "users": {
+     "RES": {
+      "w": 2,
+      "claim": "There is an Eclipse for the pergola, the porch ceiling, the wall and the open deck."
+     },
+     "COM": {
+      "w": 2,
+      "claim": "Seven ways to mount one look, from entrance canopies to rooftops and courtyards."
+     },
+     "DES": {
+      "w": 3,
+      "claim": "Twin, straight, curved or wall arm: pick the line that suits the room."
+     },
+     "ARC": {
+      "w": 3,
+      "claim": "Six pole lengths and forms, all with published clearance drawings, plus a freestanding version."
+     },
+     "INS": {
+      "w": 3,
+      "claim": "Fixed poles to structure, hard-wired, in 208 V or 240 V: built for permanent installs."
+     }
+    }
+   },
+   {
+    "benefit": "aesthetics",
+    "edge": "parity",
+    "bromic": "Round 27.6 in disc, 4.4 in deep, matte black, radial ceramic screen, LED halo. One colour.",
+    "vs": {
+     "eurofase": "Round shade, 22 in wide (retailer); freestanding 29.1 in shade, black (EFH0138 spec sheet).",
+     "heatsail": "Dome hood 100 cm (39.5 in) diameter; Midnight and Snow as standard, any heat-resistant RAL colour as an option (DOME brochure).",
+     "kalos": "Compact round pendants in grey and other finishes by model (Kettler pages)."
+    },
+    "users": {
+     "RES": {
+      "w": 3,
+      "claim": "A refined matte black disc that looks at home over a dining table or a sofa."
+     },
+     "COM": {
+      "w": 2,
+      "claim": "A sculptural, recognisable fixture that photographs well at night."
+     },
+     "DES": {
+      "w": 3,
+      "claim": "Matte black and a ring of warm light; where a colour is a must, talk to us early. [[VERIFY: any custom colour programme — Product team]]"
+     },
+     "ARC": {
+      "w": 3,
+      "claim": "A slim 4.4 in profile under a 27.6 in disc reads as lighting in section and elevation."
+     },
+     "INS": {
+      "w": 1,
+      "claim": "A compact 30 lb head that sits neatly on its pole."
+     }
+    }
+   },
+   {
+    "benefit": "heat",
+    "edge": "mixed",
+    "bromic": "2,900 W from two elements, three steps (33, 66, 100%), up to 121 ft² (Bromic coverage).",
+    "vs": {
+     "eurofase": "\"Adjustable, up to 1500W\" (manual); 500, 1000 and 1500 W settings and about 5 × 5 ft (25 ft²) per retailers and the freestanding spec sheet.",
+     "heatsail": "\"max 3.100 Watt\" far-infrared, low and high settings (DOME pages and brochure); \"Approximate heated area: 16’ diameter\" (Sutherland sheet).",
+     "kalos": "2,000 W halogen (Universal); 1,800 W (Plush, retailer)."
+    },
+    "users": {
+     "RES": {
+      "w": 3,
+      "claim": "Nearly twice the heat of a 1,500 W plug-in pendant, in three settings."
+     },
+     "COM": {
+      "w": 3,
+      "claim": "Enough warmth to hold a table into the evening, with three settings to save energy on milder nights."
+     },
+     "DES": {
+      "w": 2,
+      "claim": "Warmth where people sit, at the level the evening needs."
+     },
+     "ARC": {
+      "w": 2,
+      "claim": "Size from Bromic’s 121 ft² per heater and the design plan; coverage figures are measured differently by each maker."
+     },
+     "INS": {
+      "w": 2,
+      "claim": "2,900 W hard-wired: 12.1 A at 240 V, 13.9 A at 208 V, 17 A minimum circuit ampacity on 208 V."
+     }
+    }
+   },
+   {
+    "benefit": "controls",
+    "edge": "bromic",
+    "bromic": "Affinity Smart-Heat® Eclipse Controller (sold separately): Bromic app over Wi-Fi or Bluetooth, heat and light dimming, timers, schedules, zones, multi-site, multi-user admin, Alexa and Google Assistant; Ethernet and 0 to 10 V on the 5-channel model. Eclipse Freestanding includes its Eclipse Dimmer Controller and remote.",
+    "vs": {
+     "eurofase": "Remote control only; the manual says \"Do not use with a programmer, timer, or other device that automatically switches the heater on\".",
+     "heatsail": "Pendant \"Control: APP\"; floor lamp \"Control: Manual\" (heatsail.com); retailer lists the Heatsail app with a ceiling control box (h6).",
+     "kalos": "\"Remote control included\"; no app named (Universal page)."
+    },
+    "users": {
+     "RES": {
+      "w": 3,
+      "claim": "Schedules, timers and dimming from your phone, or your voice with Alexa or Google Assistant."
+     },
+     "COM": {
+      "w": 3,
+      "claim": "Zones, schedules and multi-site control for every heater across the venue, from one app."
+     },
+     "DES": {
+      "w": 2,
+      "claim": "Set a scene of heat and light from the app and keep it every evening."
+     },
+     "ARC": {
+      "w": 2,
+      "claim": "App, voice and building-system integration, so heat sits in the controls schedule. Integration hardware may be needed."
+     },
+     "INS": {
+      "w": 2,
+      "claim": "One controller channel a heater; the 5-channel unit includes the expansion board for BMS."
+     }
+    }
+   },
+   {
+    "benefit": "safety",
+    "edge": "parity",
+    "bromic": "Electric infrared, no flame or fumes; head at least 8 ft above floor on a pole or wall (79 in floor clearance for Freestanding); SGS listed for the US and Canada; hard-wired by a licensed electrician (pendant).",
+    "vs": {
+     "eurofase": "Plug-in 120 V; mount at least 71 in above the floor and 12 in below the ceiling; keep 3 ft from objects (manual). Listing by retailers only.",
+     "heatsail": "\"SGS listed to UL and CAN/CSA standards\" (Arhaus listing); manual excerpts say not to use with a timer.",
+     "kalos": "\"Safety tilt cut of mechanism\" (Universal page)."
+    },
+    "users": {
+     "RES": {
+      "w": 3,
+      "claim": "Clean electric warmth with no flame, mounted high and out of reach."
+     },
+     "COM": {
+      "w": 2,
+      "claim": "No flame, no gas bottles, no fumes on the terrace, and every heater listed for the US and Canada."
+     },
+     "DES": {
+      "w": 1,
+      "claim": "No flame near fabric, planting or timber, within the stated clearances."
+     },
+     "ARC": {
+      "w": 2,
+      "claim": "Listed for the US and Canada; NEC and CEC installation; published clearances for every mount."
+     },
+     "INS": {
+      "w": 2,
+      "claim": "Hard-wired with an isolation switch, to NEC or CEC, by a licensed electrician."
+     }
+    }
+   },
+   {
+    "benefit": "weather",
+    "edge": "bromic",
+    "bromic": "IP54, \"Wind resistant\" (manuals); Freestanding holds in winds up to 20 mph, fix the base above that. Manual recommends mounting under cover where possible.",
+    "vs": {
+     "eurofase": "\"IPX4 rated\", \"avoid use in rainy or wet conditions\" (manual).",
+     "heatsail": "IP43 (retailer listing); aluminium and stainless steel \"suitable for outdoor use\"; 125 kg base weight with extra plates for windy areas (brochure).",
+     "kalos": "IP45 (Universal), IP24 (Plush)."
+    },
+    "users": {
+     "RES": {
+      "w": 2,
+      "claim": "Rated IP54 against dust and splashing water, made for life outdoors under your patio roof."
+     },
+     "COM": {
+      "w": 3,
+      "claim": "IP54 heads and a freestanding base rated to 20 mph winds: confidence on an exposed terrace."
+     },
+     "DES": {
+      "w": 1,
+      "claim": "A durable finish that keeps its looks, rated IP54."
+     },
+     "ARC": {
+      "w": 2,
+      "claim": "IP54 is the highest rating among these four, as each maker publishes it; specify under cover, as the manual advises."
+     },
+     "INS": {
+      "w": 2,
+      "claim": "Keep IP54 with an IP54 plug and outlet on the freestanding model."
+     }
+    }
+   },
+   {
+    "benefit": "support",
+    "edge": "unknown",
+    "bromic": "Cut sheets and US manuals online for each product, pole clearance drawings, and Bromic’s complimentary design service (heater selection, placement and coverage drawings).",
+    "vs": {
+     "eurofase": "Manual and spec sheet online; no design service found.",
+     "heatsail": "Store locator and technical information pages; US office in Texas; no design service found.",
+     "kalos": "Product pages and booklets; no design service found."
+    },
+    "users": {
+     "RES": {
+      "w": 1,
+      "claim": "A free design plan from our heating team before you buy."
+     },
+     "COM": {
+      "w": 2,
+      "claim": "A free table-by-table heating design plan, from a photo or a floor plan."
+     },
+     "DES": {
+      "w": 2,
+      "claim": "Design support that places each heater with the lighting scheme in mind."
+     },
+     "ARC": {
+      "w": 3,
+      "claim": "Cut sheets, clearance drawings and a complimentary coverage drawing for the project."
+     },
+     "INS": {
+      "w": 2,
+      "claim": "Wiring diagrams and clearances for every mount in one manual."
+     }
+    }
+   },
+   {
+    "benefit": "freestanding",
+    "edge": "mixed",
+    "bromic": "Eclipse Freestanding: 2,900 W, arched arm, base with ten 22 lb weights (about 383 lb assembled), two wheels, 15 ft cable and plug, 220 to 240 V, 20 mph wind rating, Eclipse Dimmer Controller and remote included.",
+    "vs": {
+     "eurofase": "Vellura freestanding EFH0138: 1500 W, 120 V, 7 ft cable, 30 lb, IPX4, remote; heats about 25 ft² (spec sheet).",
+     "heatsail": "DOME floor lamp: up to 3,100 W, 120 W light, 396 lb, manual control; options for 4 wheels, extra weights, a cover and Bluetooth speakers in the base (heatsail.com, brochure).",
+     "kalos": "Not compared: no arched freestanding model checked."
+    },
+    "users": {
+     "RES": {
+      "w": 2,
+      "claim": "Warmth and light over the sofa with no roof needed, on wheels when you move the furniture."
+     },
+     "COM": {
+      "w": 3,
+      "claim": "A heavy, stable base on wheels: heat the open terrace and reset the floor as the season changes."
+     },
+     "DES": {
+      "w": 2,
+      "claim": "The arched arm puts the glow exactly over the seating, in the same look as the pendants."
+     },
+     "ARC": {
+      "w": 1,
+      "claim": "No structure to engineer: a weighted base and a 220 to 240 V outlet."
+     },
+     "INS": {
+      "w": 1,
+      "claim": "Plan one IP54-rated 220 to 240 V outlet for each freestanding heater."
+     }
+    }
+   },
+   {
+    "benefit": "multi_area",
+    "edge": "bromic",
+    "bromic": "One heater a channel; up to five heaters on the 5-channel Affinity Eclipse controller; zones, groups and multi-site management in the Bromic app.",
+    "vs": {
+     "eurofase": "Each unit runs on its own remote.",
+     "heatsail": "App on the pendant; multi-unit zoning not published.",
+     "kalos": "Each unit runs on its own remote."
+    },
+    "users": {
+     "RES": {
+      "w": 1,
+      "claim": "Each space on its own schedule, all from one app."
+     },
+     "COM": {
+      "w": 3,
+      "claim": "Run every terrace and every site from one account, zone by zone."
+     },
+     "DES": {
+      "w": 2,
+      "claim": "Pendants and freestanding heaters in one look, controlled together."
+     },
+     "ARC": {
+      "w": 2,
+      "claim": "Zone by seating area: one channel a heater, five on a controller."
+     },
+     "INS": {
+      "w": 1,
+      "claim": "Plan one channel for each Eclipse head."
+     }
+    }
+   },
+   {
+    "benefit": "warranty",
+    "edge": "mixed",
+    "bromic": "3 years (Eclipse Electric and Freestanding product pages). Affinity controllers: 1 year.",
+    "vs": {
+     "eurofase": "\"3 Year\" (freestanding spec sheet; retailers say 3 years limited for the pendant).",
+     "heatsail": "Not published for DOME; the BEEM manual gives two years. [[VERIFY: DOME warranty — Specification and compliance]]",
+     "kalos": "\"12-month warranty\" (Universal page)."
+    },
+    "users": {
+     "RES": {
+      "w": 2,
+      "claim": "Three years of cover on the heater."
+     },
+     "COM": {
+      "w": 2,
+      "claim": "Three years of manufacturer cover on every Eclipse heater."
+     },
+     "DES": {
+      "w": 1,
+      "claim": "Three years of cover on the collection."
+     },
+     "ARC": {
+      "w": 1,
+      "claim": "Three-year manufacturer warranty, documented on each product page."
+     },
+     "INS": {
+      "w": 2,
+      "claim": "Three years on the heater; one year on the controller."
+     }
+    }
+   },
+   {
+    "benefit": "install_ease",
+    "edge": "competitor",
+    "bromic": "Pendant is hard-wired to a junction box by a licensed electrician, two-person lift, pole kit included; Freestanding plugs into a 220 to 240 V outlet after assembly from three boxes.",
+    "vs": {
+     "eurofase": "Hangs from a hook and chain and plugs into a standard 120 V, 15 A outlet (manual).",
+     "heatsail": "DOME assembles \"within 30 minutes\" with the optional tripod accessory (brochure); 230 to 240 V supply.",
+     "kalos": "Plug-in with a 1.8 m cable."
+    },
+    "users": {
+     "RES": {
+      "w": 1,
+      "claim": "A permanent, hard-wired install by your electrician, so there is no cable to trip over."
+     },
+     "COM": {
+      "w": 2,
+      "claim": "Fixed, hard-wired heat with no extension leads across the floor."
+     },
+     "DES": {
+      "w": 1,
+      "claim": "No visible cable runs once the electrician has finished."
+     },
+     "ARC": {
+      "w": 1,
+      "claim": "A permanent installation to code, specified with its pole and controller."
+     },
+     "INS": {
+      "w": 3,
+      "claim": "A standard hard-wired install: junction box, isolation switch, pole to structure."
+     }
+    }
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "b1",
+   "publisher": "Bromic Heating",
+   "title": "Eclipse Smart-Heat® Electric product page",
+   "year": 2026,
+   "url": "https://www.bromic.com/product/eclipse-smart-heat-electric/",
+   "verified": false,
+   "supports": "2,900 W, 121 ft², 3000K 497 lm dimmable LED, heat 0/33/66/100%, 96 in minimum clearance, 3 years, $2,849, six mounts, Affinity Eclipse Controller sold separately (read 29 Oct 2026 via data/site-inventory.json)"
+  },
+  {
+   "id": "b2",
+   "publisher": "Bromic Heating",
+   "title": "Eclipse Smart-Heat® Electric cut sheet",
+   "year": 2026,
+   "url": "https://pim.bromic.com/wp-content/uploads/2026/02/Product-Cut-Sheet-Eclipse-Electric-1.pdf",
+   "verified": false,
+   "supports": "2900 W, 121 ft², 30 lb, IP54, 497 lm, SGS listing, 24 in twin pole included plus five other poles, heat 33/66/100%"
+  },
+  {
+   "id": "b3",
+   "publisher": "Bromic Heating",
+   "title": "Eclipse Smart-Heat® Freestanding cut sheet",
+   "year": 2026,
+   "url": "https://pim.bromic.com/wp-content/uploads/2026/02/Product-Cut-Sheet-Eclipse-Freestanding-1.pdf",
+   "verified": false,
+   "supports": "2900 W, 121 ft², 383 lb, 220–240 V 12.1 A, 79 in floor clearance, IP54, swan neck and weighted base"
+  },
+  {
+   "id": "b4",
+   "publisher": "Bromic Heating",
+   "title": "Eclipse Smart-Heat Electric (pendant) instruction manual, US, BMC-00693 rev 2",
+   "year": 2025,
+   "url": "https://pim.bromic.com/wp-content/uploads/2021/07/BMC-00693-Bromic-Eclipse-Electric-Pendant-Instruction-Manual-US_REV2_20250328.pdf",
+   "verified": false,
+   "supports": "Head 27.6 × 27.6 × 4.4 in, 30 lb, matte black, IP54, wind resistant, light 20 W at 24 V DC, 208 V (13.94 A) and 220–240 V models, head at least 8 ft above floor, NEC/CEC, two elements (66% and 33%), mount under cover where possible, approvals in AU, NZ, US, CA, EU, UK"
+  },
+  {
+   "id": "b5",
+   "publisher": "Bromic Heating",
+   "title": "Eclipse Smart-Heat Electric Portable (Freestanding) instruction manual, US, BMC-00694 rev 3",
+   "year": 2025,
+   "url": "https://pim.bromic.com/wp-content/uploads/2021/07/BMC-00694-Bromic-Eclipse-Electric-Portable-Instruction-Manual-US_REV3_20250325-2.pdf",
+   "verified": false,
+   "supports": "Head 30 lb, arm 33 lb, base 320 lb with ten 22 lb weights, two wheels, 15 ft cable and plug, 220–240 V, IP54 plug and socket, withstands winds up to 20 mph, set-up needs the Bromic Smart-Heat app"
+  },
+  {
+   "id": "b6",
+   "publisher": "Bromic Heating",
+   "title": "Affinity Smart-Heat® Eclipse controls cut sheet",
+   "year": 2026,
+   "url": "https://pim.bromic.com/wp-content/uploads/2026/02/Product-Cut-Sheet-Affinity-Control-Eclipse.pdf",
+   "verified": false,
+   "supports": "1 and 5 channel; 1-channel Eclipse Dimmer already included in Eclipse Freestanding; Wi-Fi 2.4 GHz and Bluetooth; timers, schedules, zones, multi-site; IP54; Eclipse Portable listed as compatible with the 1-channel"
+  },
+  {
+   "id": "b7",
+   "publisher": "Bromic Heating",
+   "title": "Affinity Smart-Heat® Eclipse Controllers product page",
+   "year": 2026,
+   "url": "https://www.bromic.com/product/affinity-smart-heat-eclipse-controllers/",
+   "verified": false,
+   "supports": "One heater a channel; 1-ch 4 kW at 220–240 V; app features incl. Alexa and Google Home and building automation; 1-year warranty; $839–$4,760"
+  },
+  {
+   "id": "b8",
+   "publisher": "Bromic Heating",
+   "title": "Eclipse Collection page",
+   "year": 2026,
+   "url": "https://www.bromic.com/eclipse-collection/",
+   "verified": false,
+   "supports": "Seven mounting options incl. freestanding; sealed ceramic-glass surface; premium double-coated steel; weather-resistant; light presets off, 50%, 100%"
+  },
+  {
+   "id": "b9",
+   "publisher": "Bromic Heating",
+   "title": "Eclipse Freestanding product page",
+   "year": 2026,
+   "url": "https://www.bromic.com/product/eclipse-smart-heat-freestanding/",
+   "verified": false,
+   "supports": "Eclipse Dimmer Controller and remote included, app-enabled; 3 years; $5,149; 216.6 lm LED"
+  },
+  {
+   "id": "b10",
+   "publisher": "Bromic Heating",
+   "title": "Eclipse pole accessory pages (8, 24, 48 in straight, 24 in twin, curved, wall mount)",
+   "year": 2026,
+   "url": "https://www.bromic.com/product/eclipse-48-inch-straight-pole/",
+   "verified": false,
+   "supports": "Pole prices $108–$229; 48 in pole lowers the head to about 8 ft; twin pole complimentary with every head"
+  },
+  {
+   "id": "b11",
+   "publisher": "Bromic Heating",
+   "title": "Platinum Smart-Heat® Electric product page",
+   "year": 2026,
+   "url": "https://www.bromic.com/product/platinum-smart-heat-electric/",
+   "verified": false,
+   "supports": "2,300/3,400/4,500 W, 65/108/143 ft², Black and White, 72 in wall and 96 in ceiling minimum, ETL/cETL, 3 years, 304 stainless, controls sold separately, $1,527–$2,936"
+  },
+  {
+   "id": "b12",
+   "publisher": "Bromic Heating",
+   "title": "Lookbook 2026 (pp. 21, 27, 33, 41)",
+   "year": 2026,
+   "url": "internal: sources/Bromic_Lookbook_2026.pdf",
+   "verified": false,
+   "supports": "Eclipse coverage 121 ft², 33/66/100% steps, dimmable rim lighting, poles; Eclipse Freestanding wheels, weighted base, curved arm; Affinity integrations"
+  },
+  {
+   "id": "e1",
+   "publisher": "Eurofase",
+   "title": "Vellura pendant heater EFH0139 instruction manual",
+   "year": 2025,
+   "url": "https://eurofaseheating.com/wp-content/uploads/2025/06/Vellura-IM-EFH0139.pdf",
+   "verified": false,
+   "supports": "110–120 V, heat adjustable up to 1500 W, 3000K 700 lm, 11 lb, remote with dimming, chain mount on concrete or gazebo frame, 71 in to floor, IPX4 and avoid rain, do not use with a timer"
+  },
+  {
+   "id": "e2",
+   "publisher": "Eurofase",
+   "title": "Vellura freestanding heater EFH0138 spec sheet",
+   "year": 2025,
+   "url": "https://images.belamiecommerce.com/supplier/eurofase-heating/specsheets/eh-specsheet-vellura-freestanding.pdf",
+   "verified": false,
+   "supports": "1500 W, 120 V 12.5 A, low/med/high, 5 × 5 ft (25 ft²), carbon element, remote, 80.7 in high, 29.1 in shade, 30 lb, 7 ft cable, IPX4, 3-year warranty, 3000K 700 lm"
+  },
+  {
+   "id": "e3",
+   "publisher": "Retailers (search listings, not read in full)",
+   "title": "Vellura EFH0139 listings: Ferguson Home, Alfresco Heating, Lighting New York",
+   "year": 2026,
+   "url": "https://alfresco-heating.com/eurofase-efh0139-vellura-pendant-patio-heater-and-lamp/",
+   "verified": false,
+   "supports": "500/1000/1500 W settings, about 5 × 5 ft, 22 in wide, 3 years limited, wet or ETL listing wording varies by retailer"
+  },
+  {
+   "id": "h1",
+   "publisher": "Heatsail",
+   "title": "DOME by Heatsail brochure (EN)",
+   "year": 2021,
+   "url": "https://cdn.shopify.com/s/files/1/0097/0840/4817/files/2021HeatsailDOME-EN.pdf",
+   "verified": false,
+   "supports": "Made in Belgium; 100 cm hood; 3100 W heat, 120 W light; far-infrared \"without a red glow\"; 2 heat settings; light dimmed by remote, with or without heat; pendant max ceiling 3m56; wall and bow brackets; 125 kg base; 2 or 4 wheels; Bluetooth speakers; RAL colours; Heatsail USA Inc., Dallas"
+  },
+  {
+   "id": "h2",
+   "publisher": "Heatsail",
+   "title": "DOME pendant page",
+   "year": 2026,
+   "url": "https://heatsail.com/en_US/dome-pt",
+   "verified": false,
+   "supports": "3′3″, 53 lb, max 3,100 W, lighting max 120 W, Control: APP, far-infrared, Midnight, Snow, RAL"
+  },
+  {
+   "id": "h3",
+   "publisher": "Heatsail",
+   "title": "DOME freestanding page",
+   "year": 2026,
+   "url": "https://heatsail.com/en_US/dome-fs-1",
+   "verified": false,
+   "supports": "7′9″ × 7′6″ × 3′3″, 396 lb, max 3,100 W, 120 W light, Control: Manual"
+  },
+  {
+   "id": "h4",
+   "publisher": "Sutherland",
+   "title": "Heatsail Dome Pendant spec sheet 250000P",
+   "year": 2026,
+   "url": "https://cdn.shopify.com/s/files/1/0068/9206/0731/files/250000P_-_Heatsail_Dome_Pendant.pdf",
+   "verified": false,
+   "supports": "39.5 in hood, 53 lb, 3100 W heat, 120 W light, 230–240 V 14 A, approximate heated area 16 ft diameter, black and white, custom colours"
+  },
+  {
+   "id": "h5",
+   "publisher": "Arhaus (search listing, not read in full)",
+   "title": "Heatsail Outdoor Dome Pendant",
+   "year": 2026,
+   "url": "https://www.arhaus.com/products/heatsail-outdoor-dome-pendant",
+   "verified": false,
+   "supports": "Listed at $5,499; CE, IEC approved and SGS listed to UL and CAN/CSA standards"
+  },
+  {
+   "id": "h6",
+   "publisher": "The Modern Furniture Company (search listing, not read in full)",
+   "title": "Heatsail Dome Pendant",
+   "year": 2026,
+   "url": "https://themodernfurniturecompany.com/products/dome-pendant-ceiling-hanging-outdoor-heater-max-height-3-67m",
+   "verified": false,
+   "supports": "120 W dimmable LED controlled independently of heat; 230 V; IP43; Heatsail app plus ceiling control box"
+  },
+  {
+   "id": "k1",
+   "publisher": "Kettler",
+   "title": "Kalos Universal Heater Pendant KLEH113-0200",
+   "year": 2026,
+   "url": "https://kettler.co.uk/products/universal-heater-pendant",
+   "verified": false,
+   "supports": "2000 W halogen, LED light, IP45, remote included, 1.8 m cable, tilt cut-off, 12-month warranty, £169"
+  },
+  {
+   "id": "k2",
+   "publisher": "Kettler and retailers (search listings)",
+   "title": "Kalos Plush Electric Heater Pendant KLEH103-0100",
+   "year": 2026,
+   "url": "https://kettler.co.uk/products/plush-electric-heater-pendant",
+   "verified": false,
+   "supports": "IP24; 1800 W and LED switched by remote (retailer)"
+  }
+ ],
+ "pillars": [
+  {
+   "id": "p1",
+   "title": "Warmth And Light In One",
+   "line": "Eclipse pairs radiant heat with a warm, dimmable LED ring, so one fixture keeps the table warm and softly lit from sunset to the last glass.",
+   "proof": [
+    "3000K LED, 497 lm on Eclipse Electric",
+    "2,900 W radiant heat",
+    "Light and heat set separately from the remote or the app"
+   ],
+   "benefits": [
+    "heat_light",
+    "controls"
+   ],
+   "src": [
+    "b1",
+    "b2",
+    "b4"
+   ]
+  },
+  {
+   "id": "p2",
+   "title": "Seven Ways To Bring It In",
+   "line": "Hang it close to the ceiling or lower under a high roof, sweep it from a curved pole or a wall arm, or stand it beside the sofa on its own arch.",
+   "proof": [
+    "24 in twin pole included",
+    "8, 24 and 48 in straight, 24 in curved and wall poles",
+    "Eclipse Smart-Heat® Freestanding"
+   ],
+   "benefits": [
+    "install_flex",
+    "freestanding"
+   ],
+   "src": [
+    "b2",
+    "b8",
+    "b10"
+   ]
+  },
+  {
+   "id": "p3",
+   "title": "Designed To Be Seen",
+   "line": "A 27.6 in matte black disc with a radial ceramic screen and a halo of light: Eclipse is the heater you choose to show.",
+   "proof": [
+    "27.6 in diameter, 4.4 in deep",
+    "Matte black",
+    "Radial ceramic screen and LED ring"
+   ],
+   "benefits": [
+    "aesthetics"
+   ],
+   "src": [
+    "b2",
+    "b4"
+   ]
+  },
+  {
+   "id": "p4",
+   "title": "Three Settings For Every Evening",
+   "line": "Two elements give three heat steps, from a mild spring evening at 33% to a cold night at full 2,900 W, over up to 121 ft² a heater.",
+   "proof": [
+    "33, 66 and 100%",
+    "2,900 W",
+    "Up to 121 ft²"
+   ],
+   "benefits": [
+    "heat"
+   ],
+   "src": [
+    "b1",
+    "b4"
+   ]
+  },
+  {
+   "id": "p5",
+   "title": "Set The Scene From Your Phone",
+   "line": "With the Affinity Smart-Heat® Eclipse Controller, the Bromic app dims the heat and the light, runs schedules and timers, and groups heaters into zones, with Alexa and Google Assistant for your voice.",
+   "proof": [
+    "Wi-Fi and Bluetooth",
+    "Zones, schedules, timers, multi-site",
+    "Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately"
+   ],
+   "benefits": [
+    "controls",
+    "multi_area"
+   ],
+   "src": [
+    "b6",
+    "b7"
+   ]
+  },
+  {
+   "id": "p6",
+   "title": "Made For Life Outdoors",
+   "line": "IP54 heads, a wind-resistant build and a freestanding base weighted for winds up to 20 mph, backed by a three-year warranty.",
+   "proof": [
+    "IP54",
+    "Freestanding: winds up to 20 mph",
+    "Three-year warranty"
+   ],
+   "benefits": [
+    "weather",
+    "warranty",
+    "safety"
+   ],
+   "src": [
+    "b2",
+    "b3",
+    "b5"
+   ],
+   "verify": "[[VERIFY: how the manual’s advice to mount under cover where possible should read in consumer copy — Product team]]"
+  }
+ ],
+ "portfolio": [
+  {
+   "space": "Dining under a covered terrace",
+   "product": "Eclipse Smart-Heat® Electric, twin or straight pole",
+   "image": "w-eclipse-electric-24twin-pole-commercial-scen",
+   "why": "Heat and light over each table from one fixture."
+  },
+  {
+   "space": "Lounge with no roof",
+   "product": "Eclipse Smart-Heat® Freestanding",
+   "image": "l-016-130",
+   "why": "The arch carries heat and light over the sofa, with no ceiling needed."
+  },
+  {
+   "space": "Sidewalk café under an awning",
+   "product": "Eclipse Smart-Heat® Electric, wall mount pole",
+   "image": "w-eclipse-electric-wall-mount-commercial-scene",
+   "why": "Reaches out from the façade over the tables."
+  },
+  {
+   "space": "Design-forward California room, flush ceiling",
+   "product": "Platinum Smart-Heat® Electric",
+   "image": "l-010-075",
+   "why": "Recessed and minimal where the ceiling should stay clean; up to 4,500 W."
+  },
+  {
+   "space": "Pergola or large covered patio needing more output",
+   "product": "Tungsten Smart-Heat® Electric",
+   "image": "l-006-028",
+   "why": "Up to 6 kW, angled from wall, ceiling or post."
+  },
+  {
+   "space": "Open seating away from power",
+   "product": "Tungsten Smart-Heat® Freestanding Gas",
+   "image": "l-019-162",
+   "why": "Warmth where there is no outlet or structure."
+  }
+ ],
+ "claim_checks": [
+  {
+   "claim": "The only outdoor heater with built-in lighting",
+   "verdict": "false as stated",
+   "checked": "2026-11-19",
+   "why": "Eurofase Vellura (pendant and freestanding, 3000K 700 lm), Heatsail DOME (120 W light), Kettler Kalos pendants and several mass-market hanging heaters (Westinghouse, EnerG+) all combine heat and an LED light.",
+   "use_instead": "Radiant heat and a dimmable LED ring in one fixture, with seven ways to mount it.",
+   "safest": "Heat and light in one fixture.",
+   "avoid": [
+    "only",
+    "first",
+    "unique"
+   ],
+   "open": [
+    "Is Eclipse the only heat-and-light fixture with 208 V and 240 V hard-wired heads listed for the US and Canada? Check Heatsail’s US listing (Specification and compliance)"
+   ]
+  },
+  {
+   "claim": "The brightest or best-lit heater",
+   "verdict": "false as stated",
+   "checked": "2026-11-19",
+   "why": "Eurofase Vellura publishes 700 lm against Eclipse Electric’s 497 lm. Heatsail publishes 120 W of light with no lumens.",
+   "use_instead": "A warm 3000K glow, dimmable to the mood.",
+   "safest": "Dimmable warm white LED ring.",
+   "avoid": [
+    "brightest",
+    "most light"
+   ],
+   "open": [
+    "Eclipse Freestanding lumens: 216.6 lm on the page and cut sheet against 497 lm for Eclipse Electric, with the same 20 W LED in both manuals (Product team)"
+   ]
+  },
+  {
+   "claim": "More heat than other heat-and-light pendants",
+   "verdict": "qualified",
+   "checked": "2026-11-19",
+   "why": "True against Eurofase Vellura (up to 1,500 W) and Kettler Kalos (1,800–2,000 W). Not true against Heatsail DOME (up to 3,100 W).",
+   "use_instead": "Nearly twice the heat of a 1,500 W plug-in pendant.",
+   "safest": "2,900 W in three settings.",
+   "avoid": [
+    "most powerful",
+    "more heat (unqualified)"
+   ],
+   "open": []
+  },
+  {
+   "claim": "Weatherproof",
+   "verdict": "qualified",
+   "checked": "2026-11-19",
+   "why": "Eclipse is IP54 and the manuals call it wind resistant, but the pendant manual advises mounting under cover and protecting from rain whenever possible, and warns of salt air near the coast.",
+   "use_instead": "IP54, made for covered outdoor spaces year-round.",
+   "safest": "Rated IP54.",
+   "avoid": [
+    "weatherproof",
+    "waterproof",
+    "for coastal use"
+   ],
+   "open": [
+    "Can Eclipse be mounted fully exposed to rain? (Product team)",
+    "Any wind rating for the pendant (Product team)"
+   ]
+  },
+  {
+   "claim": "Eclipse Freestanding weighs 383 lb",
+   "verdict": "true",
+   "checked": "2026-11-19",
+   "why": "The manual gives head 30 lb, arm 33 lb and base 320 lb with ten 22 lb weights: 383 lb assembled. product-facts flagged the figure as implausible; it is the assembled weight.",
+   "use_instead": "A weighted base on two wheels, about 383 lb assembled, stable in winds up to 20 mph.",
+   "safest": "Weighted base on two wheels.",
+   "avoid": [
+    "portable",
+    "lightweight",
+    "easy to carry"
+   ],
+   "open": [
+    "Update product-facts.json conflict note to \"383 lb assembled\" (Marketing)"
+   ]
+  },
+  {
+   "claim": "Eclipse Portable: take it anywhere",
+   "verdict": "false as stated",
+   "checked": "2026-11-19",
+   "why": "Eclipse Portable is the older and manual name of Eclipse Freestanding. It needs a 220–240 V outlet (IP54 plug and socket), so a standard US 120 V outlet will not run it, and it moves on two wheels at about 383 lb.",
+   "use_instead": "Eclipse Smart-Heat® Freestanding rolls on its wheels when you rearrange the space.",
+   "safest": "Freestanding, on wheels.",
+   "avoid": [
+    "portable",
+    "plug in anywhere",
+    "take it anywhere"
+   ],
+   "open": [
+    "Confirm Eclipse Portable and Eclipse Freestanding are one product, and retire \"Portable\" on bromic.com and in manuals (Product team, Digital marketing)",
+    "Is there a 208 V freestanding model for US commercial sites? (Product team)"
+   ]
+  },
+  {
+   "claim": "App control on Eclipse Freestanding",
+   "verdict": "qualified",
+   "checked": "2026-11-19",
+   "why": "The product page says the Eclipse Dimmer Controller and remote are included and the heater is app-enabled; the controls cut sheet says the 1-channel Eclipse Dimmer is already included; the manual says set-up needs the Bromic Smart-Heat app. Whether the included controller is the Wi-Fi Affinity unit is not stated.",
+   "use_instead": "Eclipse Freestanding comes with its Eclipse Dimmer Controller and remote.",
+   "safest": "Remote included.",
+   "avoid": [
+    "app control (unqualified) on Freestanding"
+   ],
+   "open": [
+    "Confirm the included controller supports the Bromic app, schedules and voice (Product team)"
+   ]
+  },
+  {
+   "claim": "Seven mounting options",
+   "verdict": "qualified",
+   "checked": "2026-11-19",
+   "why": "Eclipse Electric has six mounts (the included 24 in twin pole and five sold separately). The collection page counts seven by adding Eclipse Freestanding, a separate product.",
+   "use_instead": "Six ways to mount Eclipse Electric, and a freestanding Eclipse: seven across the collection.",
+   "safest": "Six mounts for Eclipse Electric.",
+   "avoid": [
+    "seven mounting options for Eclipse Electric"
+   ],
+   "open": []
+  },
+  {
+   "claim": "Eclipse Electric is 3,000 W",
+   "verdict": "false as stated",
+   "checked": "2026-11-19",
+   "why": "Cut sheet, spec table and both US manuals give 2,900 W; only the website FAQ says 3,000 W.",
+   "use_instead": "2,900 W.",
+   "safest": "2,900 W.",
+   "avoid": [
+    "3,000 W",
+    "3 kW"
+   ],
+   "open": [
+    "Correct the FAQ (Digital marketing)"
+   ]
+  },
+  {
+   "claim": "Covers more area than the Heatsail DOME",
+   "verdict": "unverified",
+   "checked": "2026-11-19",
+   "why": "Bromic publishes 121 ft² per heater; a US retailer sheet gives DOME an approximate heated area of 16 ft diameter (about 200 ft²) and Heatsail a reach up to 5 m. Each maker measures differently, at different heights.",
+   "use_instead": "Up to 121 ft² a heater, placed by our free design service.",
+   "safest": "Up to 121 ft².",
+   "avoid": [
+    "covers more than",
+    "bigger coverage"
+   ],
+   "open": [
+    "Mounting height behind the 121 ft² figure (Product team)"
+   ]
+  }
+ ],
+ "ad_briefs": [
+  {
+   "id": "e1",
+   "segment": "Homeowners",
+   "name": "The Glow That Keeps You Out",
+   "objective": "Awareness and consideration: show heat and light in one fixture",
+   "format": "Reel, 9:16, 15 s",
+   "hook": "Sunset over the table; as the light fades, a halo of warm light comes up overhead and the red glow of heat follows.",
+   "headline": "Warmth And Light In One",
+   "primary_text": "Eclipse brings radiant warmth and a soft, dimmable glow to your table, so the evening goes on long after the sun has gone.",
+   "cta": "Learn More",
+   "visual": "Covered dining terrace at dusk, two Eclipse pendants on twin poles; open on people, close on the ring of light. Bromic end card.",
+   "claims": [
+    "Heat and a dimmable LED ring in one fixture",
+    "2,900 W in three settings",
+    "Control from the Bromic app"
+   ],
+   "images": [
+    "l-013-106",
+    "w-eclipse-pendant-uk-residential-2",
+    "d-eclipse-pendant-dining"
+   ],
+   "mandatory": [
+    "Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately.",
+    "Installation by a licensed electrician, to local code.",
+    "No prices."
+   ],
+   "kpi": "3-second view rate, link clicks to the Eclipse page"
+  },
+  {
+   "id": "e2",
+   "segment": "Homeowners",
+   "name": "Where The Sofa Goes, The Warmth Follows",
+   "objective": "Consideration: Eclipse Freestanding for spaces with no roof",
+   "format": "Carousel, 4:5, 4 cards",
+   "hook": "Card 1: an open terrace at dusk, the arch of Eclipse over the sofa.",
+   "headline": "No Roof Needed",
+   "primary_text": "Eclipse Smart-Heat® Freestanding arches heat and light over your seating, on a weighted base that rolls on two wheels when you rearrange.",
+   "cta": "Learn More",
+   "visual": "Desert or lakeside lounge at sunset; card 2 the arch, card 3 the light ring close, card 4 two heaters on a terrace.",
+   "claims": [
+    "Heat and light over open seating",
+    "Weighted base on two wheels",
+    "Stable in winds up to 20 mph"
+   ],
+   "images": [
+    "l-016-130",
+    "w-wrigleys-mansion-eclipse-portable-heater-4",
+    "w-bromic-eclipse-portable-hotel-skansen-04",
+    "d-eclipse-freestanding-lake"
+   ],
+   "mandatory": [
+    "Needs a 220–240 V outdoor outlet rated IP54 or better.",
+    "No prices."
+   ],
+   "kpi": "Swipe-through rate, landing page views"
+  },
+  {
+   "id": "e3",
+   "segment": "Hospitality operators",
+   "name": "Every Table, Every Evening",
+   "objective": "Leads: design plan requests from restaurants and hotels",
+   "format": "Static 4:5 and Reel 9:16",
+   "hook": "A full terrace on a cold night, each table under its own halo of light.",
+   "headline": "Sell The Terrace All Year",
+   "primary_text": "Eclipse heats and lights each table from one fixture, and the Bromic app runs every heater, zone and site on a schedule. Ask for a free heating design plan.",
+   "cta": "Get Quote",
+   "visual": "Restaurant terrace under curved ceilings with Eclipse on twin poles; city rooftop with arched freestanding heaters. No third-party signage in frame.",
+   "claims": [
+    "Heat and light in one fixture a table",
+    "Zones, schedules, multi-site in one app",
+    "IP54"
+   ],
+   "images": [
+    "w-eclipse-electric-24twin-pole-commercial-scen",
+    "w-bromic-sep18th-28",
+    "w-eclipse-electric-curved-pole-hotel-scene-web"
+   ],
+   "mandatory": [
+    "Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately.",
+    "Installation by a licensed electrician, to local code.",
+    "No prices."
+   ],
+   "kpi": "Design plan requests, cost per lead"
+  },
+  {
+   "id": "e4",
+   "segment": "Designers",
+   "name": "A Fixture Worth Showing",
+   "objective": "Consideration among interior and hospitality designers",
+   "format": "Static 1:1 and 4:5, Pinterest pin",
+   "hook": "The matte black disc and its ring of light, hero close-up, then in a resort loggia.",
+   "headline": "Designed To Be Seen",
+   "primary_text": "A 27.6 in matte black disc, a radial ceramic screen and a warm ring of light. Eclipse is the outdoor heater you place as part of the design.",
+   "cta": "Learn More",
+   "visual": "Studio cut-out on the curved pole, then a garden pavilion at dusk.",
+   "claims": [
+    "27.6 in matte black disc",
+    "Dimmable 3000K LED ring",
+    "Six poles and a freestanding arch"
+   ],
+   "images": [
+    "w-eclipese-curved-mount",
+    "w-eclipse-collection-2",
+    "l-013-104"
+   ],
+   "mandatory": [
+    "No prices."
+   ],
+   "kpi": "Saves, spec sheet downloads"
+  },
+  {
+   "id": "e5",
+   "segment": "Architects and installers",
+   "name": "Specify It In One Line",
+   "objective": "Spec pack and CAD requests",
+   "format": "LinkedIn single image and document ad",
+   "hook": "The clearance drawing for all six poles, then the finished ceiling.",
+   "headline": "One Fixture. Heat And Light.",
+   "primary_text": "2,900 W and a 497 lm, 3000K LED ring in one listed fixture: 208 V or 240 V, six pole options, IP54, one heater a controller channel.",
+   "cta": "Download",
+   "visual": "Clearance drawings beside a covered pool house with Eclipse on straight poles.",
+   "claims": [
+    "2,900 W, 497 lm, 3000K",
+    "208 V and 240 V",
+    "Six mounts with clearance drawings",
+    "IP54"
+   ],
+   "images": [
+    "w-eclipse-pendant-graphics3-1",
+    "w-eclipse-electric-pendant-kentucky-us"
+   ],
+   "mandatory": [
+    "Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately.",
+    "Installation by a licensed electrician, to NEC/CEC and local code.",
+    "No prices."
+   ],
+   "kpi": "Spec pack downloads, lead form completions"
+  }
+ ],
+ "assets_to_create": [
+  {
+   "name": "Eclipse collection sell sheet",
+   "channel": "Print and PDF",
+   "audience": "Homeowners, designers, dealers",
+   "claims": [
+    "Heat and light in one fixture",
+    "Six mounts and a freestanding arch",
+    "2,900 W, three settings",
+    "IP54, three-year warranty"
+   ],
+   "brief": "Front: the four forms (twin, straight, curved and wall, freestanding) on photography. Back: specs, poles with heights, controls.",
+   "owner": "Marketing"
+  },
+  {
+   "name": "Platinum or Eclipse? one-pager",
+   "channel": "Sales enablement PDF",
+   "audience": "Sales, dealers, designers",
+   "claims": [
+    "Flush ceiling and more output: Platinum",
+    "Light, form and freestanding: Eclipse",
+    "Controls for each"
+   ],
+   "brief": "Built from matrix 2: a decision table by space and priority, with one photo of each.",
+   "owner": "Marketing"
+  },
+  {
+   "name": "Eclipse mounting and clearance guide",
+   "channel": "Website and PDF",
+   "audience": "Architects, installers",
+   "claims": [
+    "Six poles with clearances",
+    "Minimum 8 ft to the head",
+    "208 V and 240 V wiring",
+    "One heater a channel"
+   ],
+   "brief": "Combine the manual’s clearance drawings with pole lengths and resulting heights; add the 24 V DC lighting circuit note.",
+   "owner": "Specification and compliance"
+  },
+  {
+   "name": "Hospitality case study set (Eclipse)",
+   "channel": "Website, sales",
+   "audience": "Hospitality operators",
+   "claims": [
+    "Heat and light over every table",
+    "App zones and schedules"
+   ],
+   "brief": "Two Bromic-published projects with Eclipse pendants and freestanding heaters; venue consent and quotes to be gathered.",
+   "owner": "Hospitality sales"
+  },
+  {
+   "name": "Eclipse Freestanding site checklist",
+   "channel": "PDF and website FAQ",
+   "audience": "Homeowners, operators, installers",
+   "claims": [
+    "220–240 V outlet, IP54",
+    "Firm, level surface for about 383 lb",
+    "Fix the base above 20 mph winds"
+   ],
+   "brief": "One page to stop the wrong outlet or surface being planned; retire \"Portable\" wording.",
+   "owner": "Product team"
+  },
+  {
+   "name": "Heat-and-light Pinterest and Houzz set",
+   "channel": "Pinterest, Houzz",
+   "audience": "Homeowners, designers",
+   "claims": [
+    "Warmth And Light In One",
+    "Designed To Be Seen"
+   ],
+   "brief": "Twelve pins from Bromic photography by space type, linking to the Eclipse collection page.",
+   "owner": "Digital marketing"
+  },
+  {
+   "name": "Eclipse battlecard",
+   "channel": "Sales enablement",
+   "audience": "Sales, dealers",
+   "claims": [
+    "Competitive summary and objections"
+   ],
+   "brief": "One page from the competitive summary; internal only, carries the Specification and compliance approval.",
+   "owner": "Specification and compliance"
+  },
+  {
+   "name": "Eclipse BIM and CAD families",
+   "channel": "Website, Revit and CAD",
+   "audience": "Architects",
+   "claims": [
+    "27.6 in head, each pole length"
+   ],
+   "brief": "Revit families for the head on each pole and for the freestanding model, with clearance zones.",
+   "owner": "Specification and compliance"
+  }
+ ],
+ "competitive_summary": {
+  "wins": [
+   "More heat than the plug-in heat-and-light pendants (2,900 W against 1,500–2,000 W)",
+   "App control, zones, multi-site and voice; Vellura and Kalos run on a remote",
+   "IP54, the highest published rating of the four",
+   "Six mounts plus a freestanding version, with 208 V and 240 V pendant heads listed for the US and Canada",
+   "Free design service"
+  ],
+  "parity": [
+   "Warranty: three years, as Eurofase",
+   "Safety: all electric, no flame",
+   "Design: each maker has a distinctive round form"
+  ],
+  "watch": [
+   "Heatsail DOME: up to 3,100 W, RAL colours, wall and bow brackets, speakers in the floor lamp; at a similar US price",
+   "Eurofase Vellura: 700 lm light and a standard 120 V plug, at a much lower price [[VERIFY: Vellura US price — Sales operations]]",
+   "Eclipse comes in matte black only",
+   "Eclipse Freestanding needs a 220–240 V outlet; no 120 V or 208 V freestanding model found",
+   "Pendant manual advises mounting under cover where possible"
+  ],
+  "battlecard": [
+   {
+    "objection": "I can get a heater with a light for a few hundred dollars.",
+    "answer": "Plug-in heat-and-light pendants run at up to 1,500–2,000 W on a remote. Eclipse delivers 2,900 W in three settings, hard-wired and IP54, with app control through Affinity Smart-Heat® Controls."
+   },
+   {
+    "objection": "Heatsail has more colours.",
+    "answer": "True: Eclipse is matte black. It offers six pole options and a freestanding arch, 208 V and 240 V heads listed for the US and Canada, and app control with zones and schedules."
+   },
+   {
+    "objection": "Why not a recessed heater?",
+    "answer": "Where the ceiling should stay clean, we recommend Platinum Smart-Heat® Electric. Where you also need light, or the heater is part of the look, Eclipse does both."
+   },
+   {
+    "objection": "Can I plug the freestanding one into my patio outlet?",
+    "answer": "Eclipse Freestanding needs a 220–240 V outdoor outlet rated IP54 or better; your electrician can add one. It rolls on two wheels when you rearrange."
+   },
+   {
+    "objection": "Will it survive the weather?",
+    "answer": "Eclipse is IP54 and wind resistant, and the freestanding base is rated for winds up to 20 mph. For the longest life, we recommend mounting it under cover."
+   },
+   {
+    "objection": "One controller channel per heater sounds expensive.",
+    "answer": "It means each table can be dimmed and scheduled on its own, heat and light. The 5-channel controller runs five heaters and includes the expansion board."
+   }
+  ]
+ }
+}

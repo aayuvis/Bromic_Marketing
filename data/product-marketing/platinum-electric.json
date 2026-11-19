@@ -1,0 +1,1911 @@
+{
+ "_readme": "Product marketing framework, v2 range schema (owner, 19 Nov 2026). Platinum Smart-Heat® Electric and Platinum Electric Marine, with the standard and low-clearance recess kits. Matrix 1: what matters to each buyer across twelve benefit fields (w: 3 matters most, 2 matters, 1 nice to have) and the claim that lands. Matrix 2: Platinum Electric against Tungsten Smart-Heat® Electric Series II, so sales know when to sell which. Matrix 3: against Infratech, Heatscope and Heatstrip (factual, sourced, needs_approval Specification and compliance). Product facts come from product-facts.json, bromic.com (read through the fetch tool, 29 Oct and 19 Nov 2026) and Bromic's own manuals and cut sheet on pim.bromic.com and bromic.com (read 19 Nov 2026). Claims add no facts.",
+ "id": "platinum-electric",
+ "name": "Platinum Smart-Heat® Electric",
+ "short": "Platinum Electric",
+ "status": "draft",
+ "updated": "2026-11-19",
+ "owner_review": "Marketing",
+ "needs_approval": "Specification and compliance",
+ "launch": {
+  "summary": "Bromic's glass-faced electric heater: a 2.1 in slim body behind a tinted glass-ceramic face, recessed flush or mounted on a wall, ceiling or pole, in black or white, with a 316 Marine version for the coast and the water. It sits above Tungsten Electric for design-led homes, architects, hospitality and yachts.",
+  "source": "p1"
+ },
+ "tiers": [
+  {
+   "id": "classic",
+   "tier": "Platinum Electric",
+   "name": "Platinum Smart-Heat® Electric",
+   "win_on": "Design, discreet heat and recessing",
+   "colours": "Black or white",
+   "fascia": "Tinted glass-ceramic face (Schott, per bromic.com) in a 304 stainless steel body",
+   "recessing": "Standard recess kit (10 in above the heater, 13.8 in for 4500 W) or low-clearance recess kit (7.1 in cavity)",
+   "price": "$1,527–$2,936",
+   "image": "w-platinum-black",
+   "notes": [
+    "2300, 3400 and 4500 W; heat area 65, 108 and 143 ft²",
+    "208 V and 220–240 V",
+    "54 mm (2.1 in) deep; 840, 1275 and 1351 mm long",
+    "8 in stainless pole and wall bracket included",
+    "Intertek ETL / cETL 5001799; 3-year warranty"
+   ]
+  },
+  {
+   "id": "marine",
+   "tier": "Platinum Electric Marine",
+   "name": "Platinum Smart-Heat® Electric Marine",
+   "win_on": "Coastal homes, superyachts and cruise ships",
+   "colours": "Black or white",
+   "fascia": "Tinted glass-ceramic face in an AISI 316 marine-grade stainless body",
+   "recessing": "Marine versions of the standard and low-clearance recess kits (316 stainless)",
+   "price": "$3,645–$5,873",
+   "image": "w-marine-grade-platinum-electric-white-lady-le",
+   "notes": [
+    "Same three outputs and heat areas",
+    "IPX5 (2300/3400 W manual) or IP55 (4500 W manual)",
+    "Lloyd's Register approval for marine applications (bromic.com)",
+    "Warranty 5 years on land, 3 years on vessels (bromic.com)",
+    "[[VERIFY: use on marine craft: the manuals say the marine heater shall NOT be installed on marine craft — Product team]]"
+   ]
+  },
+  {
+   "id": "lcrk",
+   "tier": "Recessed, low clearance",
+   "name": "Platinum Electric Low-Clearance Recess Kit",
+   "win_on": "Flush heat in shallow ceilings",
+   "colours": "Vent covers in black or white to match the heater",
+   "fascia": "Stainless trim around the glass face",
+   "recessing": "Ceiling recess box supplied; 180 mm (7.1 in) minimum cavity; integrated cooling fan",
+   "price": "$1,309–$2,816 (kit only)",
+   "image": "w-lc-recess-kit-platinum-electric-1-1-1600x113",
+   "notes": [
+    "Fits every Platinum Electric and Marine output and colour",
+    "Fan on its own always-on supply, under 1 A",
+    "Self-resetting and manual-reset thermal cut-off switches",
+    "Australian Patent 2023219853",
+    "UL certified (bromic.com) [[VERIFY: listing number — Product team]]"
+   ]
+  }
+ ],
+ "upgrades_label": "What sets it apart",
+ "upgrades": [
+  "Tinted glass-ceramic face that spreads heat evenly and keeps visible light to a minimum",
+  "54 mm (2.1 in) deep body behind the glass, in 304 or 316 stainless",
+  "Low-clearance recess kit: flush in a 7.1 in ceiling cavity, recess box supplied, fan-cooled, thermal cut-offs",
+  "Platinum Electric Marine: AISI 316 stainless, IPX5, Lloyd's Register approval for marine applications",
+  "4500 W model with two elements (1.5 kW and 3 kW) for staged heat; every model dims with the Affinity Smart-Heat® Dimmer",
+  "Wall (straight or angled), ceiling, 8 in, 2 ft and 4 ft poles, standard or low-clearance recess",
+  "3-year warranty; Marine 5 years on land"
+ ],
+ "price_verify": "Prices are bromic.com list prices read 29 Oct 2026, directional only and never in ads. [[VERIFY: list prices by model and region, recess kit prices by size — Sales operations]]",
+ "spec_verify": "[[VERIFY: IP rating of the standard heater (IPX4 in the 2300/3400 W manual, IP54 in the 4500 W manual and the cut sheet), wall bracket angle (30° in the 2300/3400 W manual, 28° in the 4500 W manual and on bromic.com), and a current standard cut sheet (bromic.com links the Marine sheet) — Product team]]",
+ "user_types": [
+  {
+   "id": "RES",
+   "name": "Homeowners",
+   "who": "Owners of design-led homes warming a covered terrace, alfresco, loggia or outdoor kitchen"
+  },
+  {
+   "id": "ARC",
+   "name": "Architects",
+   "who": "Architects and specifiers who detail the heater into the ceiling and the drawings"
+  },
+  {
+   "id": "DES",
+   "name": "Designers",
+   "who": "Interior, landscape and outdoor-living designers who decide how the space looks"
+  },
+  {
+   "id": "BLD",
+   "name": "Builders and installers",
+   "who": "Custom builders, remodelers and the electricians who frame, wire and fit the heater"
+  },
+  {
+   "id": "COM",
+   "name": "Hospitality and commercial",
+   "who": "Restaurants, hotels, bars and workplaces running heated outdoor seating"
+  },
+  {
+   "id": "MAR",
+   "name": "Marine and coastal",
+   "who": "Yacht builders and refit yards, cruise lines, and owners of homes by the sea"
+  }
+ ],
+ "benefits": [
+  {
+   "id": "aesthetics",
+   "name": "Design aesthetics",
+   "what": "Tinted glass-ceramic face, 2.1 in slim body, black or white",
+   "proposed": false
+  },
+  {
+   "id": "recess",
+   "name": "Recess ability",
+   "what": "Flush in the ceiling, including 7.1 in cavities with the low-clearance kit",
+   "proposed": false
+  },
+  {
+   "id": "low_light",
+   "name": "Discreet, low-light heat",
+   "what": "Warmth with very little visible glow, so the lighting design stays intact",
+   "proposed": false
+  },
+  {
+   "id": "heat",
+   "name": "Heat performance",
+   "what": "2300, 3400 and 4500 W, 65 to 143 ft², staged heat on 4500 W",
+   "proposed": false
+  },
+  {
+   "id": "controls",
+   "name": "Ease of controls",
+   "what": "Affinity Smart-Heat® Controls: dimming, app, schedules, zones, voice, BMS",
+   "proposed": false
+  },
+  {
+   "id": "install_flex",
+   "name": "Installation flexibility",
+   "what": "Wall straight or angled, ceiling, poles, standard or low-clearance recess",
+   "proposed": false
+  },
+  {
+   "id": "coastal",
+   "name": "Coastal and marine durability",
+   "what": "316 Marine version, IPX5, Lloyd's Register approval; weather ratings",
+   "proposed": false
+  },
+  {
+   "id": "safety",
+   "name": "Safety and peace of mind",
+   "what": "No flame or fumes, listed hardware, thermal cut-offs in the recess kit",
+   "proposed": false
+  },
+  {
+   "id": "support",
+   "name": "Specification and support",
+   "what": "Revit and CAD files, design service, manuals, partner program",
+   "proposed": false
+  },
+  {
+   "id": "warranty",
+   "name": "Warranty",
+   "what": "3 years; Marine 5 years on land and 3 years on vessels",
+   "proposed": false
+  },
+  {
+   "id": "design_flex",
+   "name": "Design flexibility",
+   "what": "Two colours, three lengths and four ways to mount, matched trims",
+   "proposed": false
+  },
+  {
+   "id": "install_ease",
+   "name": "Ease of installation",
+   "what": "Brackets and pole included, recess box supplied, what the fan needs",
+   "proposed": false
+  }
+ ],
+ "benefit_order_note": "Ordered by priority: total weight across the six buyers (3 matters most, 2 matters, 1 nice to have), ties broken by the recess and glass story first.",
+ "m1": {
+  "RES": {
+   "aesthetics": {
+    "w": 3,
+    "claim": "A slim pane of tinted glass, just 2.1 in deep, in black or white: warmth that looks like part of the architecture."
+   },
+   "recess": {
+    "w": 3,
+    "claim": "Flush in the ceiling, even a shallow one, so the warmth stays and the heater all but disappears."
+   },
+   "low_light": {
+    "w": 3,
+    "claim": "Warmth you can feel with very little glow, so the evening keeps the light you chose for it."
+   },
+   "heat": {
+    "w": 3,
+    "claim": "2300, 3400 or 4500 W, warming up to 143 ft² each, matched to your table or lounge."
+   },
+   "coastal": {
+    "w": 2,
+    "claim": "By the sea, choose Platinum Electric Marine in 316 marine-grade stainless, rated IPX5."
+   },
+   "controls": {
+    "w": 3,
+    "claim": "Dim it, schedule it or switch it off from your phone with Affinity Smart-Heat® Controls."
+   },
+   "safety": {
+    "w": 2,
+    "claim": "No flame, no fumes, and app schedules and timers that switch the heat off for you."
+   },
+   "install_flex": {
+    "w": 2,
+    "claim": "Wall, ceiling, pole or flush in the ceiling: there is a way to fit Platinum to your space."
+   },
+   "warranty": {
+    "w": 2,
+    "claim": "Three years of cover on Platinum Electric, five years for Marine on land."
+   },
+   "design_flex": {
+    "w": 2,
+    "claim": "Black or white, three lengths, recessed or on show: choose what suits your home."
+   },
+   "install_ease": {
+    "w": 1,
+    "claim": "Your electrician fits it with the bracket and pole in the box."
+   },
+   "support": {
+    "w": 1,
+    "claim": "Complimentary design service to plan where every heater goes."
+   }
+  },
+  "ARC": {
+   "aesthetics": {
+    "w": 3,
+    "claim": "A 54 mm (2.1 in) body behind a tinted glass-ceramic face in 304 or 316 stainless, so the ceiling plane stays clean."
+   },
+   "recess": {
+    "w": 3,
+    "claim": "Low-clearance recess kit: 180 mm (7.1 in) minimum cavity, recess box supplied, integrated cooling fan, thermal cut-offs; standard kit needs 10 in (13.8 in for 4500 W)."
+   },
+   "low_light": {
+    "w": 2,
+    "claim": "A tinted glass-ceramic face spreads heat evenly while minimising light emission, so it will not compete with the lighting plan."
+   },
+   "heat": {
+    "w": 2,
+    "claim": "Heat areas of 65, 108 and 143 ft² from 2300, 3400 and 4500 W; the 4500 W runs two elements, 1.5 and 3 kW."
+   },
+   "coastal": {
+    "w": 2,
+    "claim": "Specify Marine within salt air: AISI 316 stainless, IPX5 (IP55 on 4500 W), 316 recess kits."
+   },
+   "controls": {
+    "w": 2,
+    "claim": "Affinity Smart-Heat® Dimmer in 1% steps, app zones and schedules, and 0–10 V or Ethernet to a building or home system through the expansion board."
+   },
+   "safety": {
+    "w": 2,
+    "claim": "Intertek ETL / cETL 5001799; mounting heights of 72 in on a wall, 96 in on a ceiling, about 8 ft recessed."
+   },
+   "install_flex": {
+    "w": 2,
+    "claim": "Wall straight or angled, ceiling, 8 in, 2 ft or 4 ft poles, standard or low-clearance recess; the low-clearance kit takes a gradient up to 1/4 in per inch."
+   },
+   "warranty": {
+    "w": 1,
+    "claim": "3-year warranty; Marine 5 years on land and 3 years on vessels."
+   },
+   "design_flex": {
+    "w": 1,
+    "claim": "Three lengths (840, 1275 and 1351 mm) and two colours; recess vent covers match the heater."
+   },
+   "install_ease": {
+    "w": 1,
+    "claim": "Recess box supplied with the low-clearance kit; the fan needs its own always-on supply under 1 A."
+   },
+   "support": {
+    "w": 3,
+    "claim": "Revit families and CAD files for Platinum Electric, manuals and clearance drawings to detail it right."
+   }
+  },
+  "DES": {
+   "aesthetics": {
+    "w": 3,
+    "claim": "Black glass for a dark ceiling, white for a light one: a heater that reads as a refined detail."
+   },
+   "recess": {
+    "w": 3,
+    "claim": "A glass face set flush in a stainless trim: the ceiling stays the hero."
+   },
+   "low_light": {
+    "w": 3,
+    "claim": "Very little visible light means the lighting scheme stays yours, from candlelight to pendants."
+   },
+   "heat": {
+    "w": 2,
+    "claim": "Three lengths and outputs, so the heater fits the space and the warmth fits the people."
+   },
+   "coastal": {
+    "w": 1,
+    "claim": "The same glass face and colours in a marine-grade body for coastal projects."
+   },
+   "controls": {
+    "w": 2,
+    "claim": "Warmth set to the moment, from a gentle glow to full heat, in the Bromic app or by voice."
+   },
+   "safety": {
+    "w": 1,
+    "claim": "Electric infrared with no flame, so it sits safely in a soft, furnished room."
+   },
+   "install_flex": {
+    "w": 2,
+    "claim": "Hang it on a drop pole under a high ceiling or set it flush in a low one."
+   },
+   "warranty": {
+    "w": 1,
+    "claim": "Backed by a 3-year warranty."
+   },
+   "design_flex": {
+    "w": 2,
+    "claim": "Two colours and three lengths to line up with joists, battens and louvres."
+   },
+   "install_ease": {
+    "w": 1,
+    "claim": "A recess kit that arrives with its own box makes the ceiling detail simple."
+   },
+   "support": {
+    "w": 2,
+    "claim": "A Bromic heating design plan for the space, free."
+   }
+  },
+  "BLD": {
+   "aesthetics": {
+    "w": 2,
+    "claim": "The premium heater your clients point to in the brochure: glass-faced, slim and finished in stainless."
+   },
+   "recess": {
+    "w": 3,
+    "claim": "Recess into a 7.1 in cavity between joists at least 9.4 in apart (12.5 in for 4500 W); the kit supplies the recess box, so there is no box to build."
+   },
+   "low_light": {
+    "w": 1,
+    "claim": "A soft, discreet heater clients rarely notice until they feel it."
+   },
+   "heat": {
+    "w": 2,
+    "claim": "Rated current 9.6, 14.2 and 18.8 A at 240 V (11.1, 16.3 and 21.6 A at 208 V): simple to size on the panel."
+   },
+   "coastal": {
+    "w": 2,
+    "claim": "Standard models in 304 stainless for covered outdoor spaces; Marine in 316 for coastal sites, with IP55 conduit fittings to keep its rating."
+   },
+   "controls": {
+    "w": 2,
+    "claim": "One Affinity controller per heater on a 4500 W load; the same controls and wiring across Platinum and Tungsten."
+   },
+   "safety": {
+    "w": 3,
+    "claim": "The low-clearance kit carries a self-resetting and a manual-reset thermal cut-off, with the fan powered at all times."
+   },
+   "install_flex": {
+    "w": 3,
+    "claim": "8 in pole and wall bracket included; 2 ft and 4 ft poles hang it 8 to 9 ft high in taller rooms."
+   },
+   "warranty": {
+    "w": 2,
+    "claim": "Three years on the heater, so your clients have peace of mind."
+   },
+   "design_flex": {
+    "w": 1,
+    "claim": "One family, two colours, three sizes: easy to quote."
+   },
+   "install_ease": {
+    "w": 3,
+    "claim": "Recess box supplied, so there is no site-built box; plan an always-on fan supply under 1 A at 100–127, 208 or 220–240 V."
+   },
+   "support": {
+    "w": 2,
+    "claim": "Design plans, wiring guides and a Partner Program for trade."
+   }
+  },
+  "COM": {
+   "aesthetics": {
+    "w": 3,
+    "claim": "A clean glass face that suits the most considered dining rooms, terraces and rooftop bars."
+   },
+   "recess": {
+    "w": 2,
+    "claim": "Flush heat in a canopy or soffit keeps sightlines open and nothing hanging over the tables."
+   },
+   "low_light": {
+    "w": 3,
+    "claim": "Guests feel the warmth without the red glare over the table, so the room keeps its mood."
+   },
+   "heat": {
+    "w": 3,
+    "claim": "Up to 4500 W a heater, and on the 4500 W two elements for staged warmth as the evening cools."
+   },
+   "coastal": {
+    "w": 2,
+    "claim": "Waterfront restaurants and beach clubs get the Marine version, built to stand up to salt air."
+   },
+   "controls": {
+    "w": 3,
+    "claim": "Zones and schedules for every section of the patio, run from one app."
+   },
+   "safety": {
+    "w": 2,
+    "claim": "Listed electric heat with set clearances and no gas to manage on a busy patio."
+   },
+   "install_flex": {
+    "w": 2,
+    "claim": "Poles under high canopies, brackets on beams and walls, flush where the ceiling allows."
+   },
+   "warranty": {
+    "w": 2,
+    "claim": "A 3-year warranty on a commercial patio heater."
+   },
+   "design_flex": {
+    "w": 2,
+    "claim": "Black or white to suit the room, from a wharf cafe to a hotel terrace."
+   },
+   "install_ease": {
+    "w": 1,
+    "claim": "Mounting hardware in the box, and the same Affinity controls across the venue."
+   },
+   "support": {
+    "w": 2,
+    "claim": "A design plan for the whole patio before you buy."
+   }
+  },
+  "MAR": {
+   "aesthetics": {
+    "w": 3,
+    "claim": "Black or white glass set flush in a polished deckhead, the look you see on superyachts and cruise ships."
+   },
+   "recess": {
+    "w": 3,
+    "claim": "A 316 marine version of the low-clearance kit sets the heater flush in a shallow deckhead or soffit."
+   },
+   "low_light": {
+    "w": 2,
+    "claim": "A low-light heater keeps the deck at night calm and the view clear."
+   },
+   "heat": {
+    "w": 2,
+    "claim": "The same 2300, 3400 and 4500 W outputs in the Marine version, for aft decks, bars and terraces."
+   },
+   "coastal": {
+    "w": 3,
+    "claim": "Platinum Electric Marine: AISI 316 stainless, IPX5 and Lloyd's Register approval for marine applications, on board superyachts and cruise ships."
+   },
+   "controls": {
+    "w": 2,
+    "claim": "Affinity On/Off or Dimmer, a manual wall switch, or the vessel's own system through the expansion board."
+   },
+   "safety": {
+    "w": 2,
+    "claim": "Electric radiant heat with no open flame and no fuel on board."
+   },
+   "install_flex": {
+    "w": 2,
+    "claim": "Recessed in a deckhead, on a bulkhead or on a pole under a canopy."
+   },
+   "warranty": {
+    "w": 2,
+    "claim": "Marine: 5 years on land and 3 years on vessels."
+   },
+   "design_flex": {
+    "w": 2,
+    "claim": "Black or white in marine-grade stainless to match the yacht's interior."
+   },
+   "install_ease": {
+    "w": 1,
+    "claim": "Recess kits in 316 for the yard to fit to the deckhead."
+   },
+   "support": {
+    "w": 2,
+    "claim": "References on superyachts and cruise ships, and a Marine team for projects."
+   }
+  }
+ },
+ "m2_label": {
+  "tab": "Against our own range",
+  "left": "Tungsten Smart-Heat® Electric Series II",
+  "right": "Platinum Smart-Heat® Electric",
+  "intro": "When to sell which: Tungsten Series II on the left, Platinum Electric on the right, benefit by benefit, and the line that tells the buyer why."
+ },
+ "m2": [
+  {
+   "benefit": "aesthetics",
+   "change": "better",
+   "s1": "Powder-coated body about 183 mm (7.2 in) wide (launch deck); black, white or graphite; Diamond front standard, oval and triangle sold separately; single post, no visible junction box.",
+   "s2": "Tinted glass-ceramic face in a 304 (or 316) stainless body, 54 mm (2.1 in) deep and 182 mm wide (257 mm on 4500 W); black or white.",
+   "so_what": "Sell Platinum when the heater must disappear into the architecture; sell Tungsten when the client wants a designed object with a pattern and a colour."
+  },
+  {
+   "benefit": "recess",
+   "change": "changed",
+   "s1": "Low-clearance kit (Select and Coastal): 7.5 in minimum cavity, dual cooling fans, recess box supplied, up to 6 kW recessed.",
+   "s2": "Low-clearance kit: 180 mm (7.1 in) minimum cavity, one integrated cooling fan, recess box supplied, thermal cut-offs, up to 4.5 kW recessed; standard kit needs 10 in (13.8 in for 4500 W).",
+   "so_what": "Both recess with no site-built box. Platinum fits the shallower cavity with a glass face; Tungsten recesses more power, up to 6 kW."
+  },
+  {
+   "benefit": "low_light",
+   "change": "better",
+   "s1": "Open fascia over quartz-sheathed elements, so the glow is visible.",
+   "s2": "Tinted glass-ceramic fascia that \"minimizes light emission\" (bromic.com). [[VERIFY: a measured visible-light figure for both — Product team]]",
+   "so_what": "For a dining room or a yacht at night where light matters, Platinum keeps the glow down."
+  },
+  {
+   "benefit": "heat",
+   "change": "changed",
+   "s1": "2, 3, 4 and 6 kW; coverage up to 65, 100, 130 and 160 ft²; dual elements on 4 and 6 kW; 208, 240 and 277 V.",
+   "s2": "2300, 3400 and 4500 W; heat area 65, 108 and 143 ft²; two elements (1.5 and 3 kW) on 4500 W; 208 and 220–240 V, no 277 V.",
+   "so_what": "Tungsten for the most heat a heater and for 277 V commercial supplies; Platinum for up to 143 ft² with the quieter look."
+  },
+  {
+   "benefit": "controls",
+   "change": "same",
+   "s1": "Affinity Smart-Heat® On/Off and Dimmer, manual wall switch, app schedules and timers, Alexa and Google Assistant.",
+   "s2": "The same Affinity Smart-Heat® Controls; the Dimmer lists Platinum Electric as compatible; 0–100% output in 1% steps.",
+   "so_what": "One app and one controller family across both, so mixing them on a project is simple."
+  },
+  {
+   "benefit": "install_flex",
+   "change": "changed",
+   "s1": "Ceiling, pitched-ceiling adaptor (3/12 to 12/12, launch deck), wall bracket, cantilevered wall-mount adaptor, single post, tilt up to 45°. [[VERIFY: 30° for 4 and 6 kW in the manual — Product team]]",
+   "s2": "Wall straight or angled (28–30°), ceiling, 8 in pole included, 2 ft and 4 ft poles, standard or low-clearance recess.",
+   "so_what": "Vaulted ceilings and steep angles favour Tungsten; flat soffits and clean ceilings favour Platinum."
+  },
+  {
+   "benefit": "coastal",
+   "change": "better",
+   "s1": "Coastal: 316 marine-grade stainless with a high-temperature corrosion-resistant coating, IPX5, 316 recess kit; not for marine craft. Select is IPX5.",
+   "s2": "Marine: AISI 316 stainless, IPX5 (IP55 on 4500 W), Lloyd's Register approval for marine applications, 316 recess kits, warranty 3 years on vessels. Standard: IPX4 or IP54. [[VERIFY: the manuals say the marine heater shall NOT be installed on marine craft — Product team]]",
+   "so_what": "On a yacht or a cruise ship, Platinum Marine is the Bromic answer; for a home by the sea, both Coastal and Marine fit."
+  },
+  {
+   "benefit": "safety",
+   "change": "same",
+   "s1": "Intertek ETL / cETL; wall 71–72 in, ceiling 96 in, recessed 94 in; fans in the low-clearance kit.",
+   "s2": "Intertek ETL / cETL 5001799; wall 72 in, ceiling 96 in, recessed about 8 ft (2400 mm); fan and two thermal cut-offs in the low-clearance kit.",
+   "so_what": "Both are listed electric heat with set clearances; the conversation is about the look and the space."
+  },
+  {
+   "benefit": "support",
+   "change": "same",
+   "s1": "Revit and CAD files, design service, Partner Program; Series II families at launch.",
+   "s2": "Revit (ceiling and wall) and CAD files for Platinum Electric, design service, Partner Program.",
+   "so_what": "Both are ready to specify; Platinum's files are already in the library."
+  },
+  {
+   "benefit": "warranty",
+   "change": "better",
+   "s1": "Series II: 3 years (owner, 18 Nov 2026). [[VERIFY: element cover and publication — Product team]]",
+   "s2": "3 years; Marine 5 years on land and 3 years on vessels (bromic.com).",
+   "so_what": "Matched cover on land; Platinum Marine adds the longest term in the range."
+  },
+  {
+   "benefit": "design_flex",
+   "change": "changed",
+   "s1": "Black, white and graphite; Diamond, oval and triangle fronts; Classic, Select and Coastal tiers.",
+   "s2": "Black or white glass; three lengths; Classic and Marine grades.",
+   "so_what": "More looks to choose from in Tungsten; one refined look, done well, in Platinum."
+  },
+  {
+   "benefit": "install_ease",
+   "change": "same",
+   "s1": "Recess box supplied with the low-clearance kit; fans on an always-on supply under 1 A; familiar brackets and single post.",
+   "s2": "Recess box supplied with the low-clearance kit; one fan on an always-on supply under 1 A; bracket and 8 in pole included.",
+   "so_what": "The same install logic, so a crew that fits one fits the other."
+  }
+ ],
+ "m2_price_note": "Directional list prices: Tungsten Series II $643–$1,321 by tier; Platinum Electric $1,527–$2,936; Platinum Marine $3,645–$5,873. Never in ads.",
+ "m3": {
+  "intro": "Platinum Electric against the closest glass-faced, slim and recessed electric heaters in the US, Europe and Australia.",
+  "competitors": [
+   {
+    "id": "infratech",
+    "name": "Infratech C/CD and W/WD Series",
+    "owner": "Platinum Equity (acquisition announced 2026)",
+    "markets": "US, Canada",
+    "why_closest": "The US benchmark for hardwired electric infrared in premium homes and restaurants, sold through the same dealers and designers, with flush frames for recessing up to 6 kW. The heater architects most often name against Platinum.",
+    "sources": [
+     "i1",
+     "i2",
+     "i3",
+     "i12",
+     "i9"
+    ]
+   },
+   {
+    "id": "heatscope",
+    "name": "Heatscope Vision and Pure+",
+    "owner": "MAD Design Group (spec sheets); made in Germany (brochure)",
+    "markets": "US, EU, AU",
+    "why_closest": "The nearest form factor: slim linear electric heaters with a glass-ceramic front that reduces visible light, in black or white, at a similar premium price, sold to the same design-led buyers.",
+    "sources": [
+     "h1",
+     "h2",
+     "h3",
+     "h4",
+     "h5"
+    ]
+   },
+   {
+    "id": "heatstrip",
+    "name": "Heatstrip Elegance",
+    "owner": "Thermofilm (Australia)",
+    "markets": "AU, NZ",
+    "why_closest": "In Australia, the slim, low-light electric heater most often set against Platinum in alfresco ceilings, with its own flush-mount enclosure.",
+    "sources": [
+     "t1"
+    ]
+   }
+  ],
+  "rows": [
+   {
+    "benefit": "aesthetics",
+    "edge": "bromic",
+    "bromic": "Tinted glass-ceramic face in 304 or 316 stainless, 54 mm (2.1 in) deep, black or white. Not the thinnest on the market: Heatstrip Elegance is 48.5 mm.",
+    "vs": {
+     "infratech": "Quartz element behind a polished stainless reflector and wire guard; colour powder coat on the end caps and housing, the reflector and guard stay stainless; junction box on top of the heater.",
+     "heatscope": "Glass-ceramic front in black or white; Vision and Pure+ are 87 mm (3.4 in) deep; Pure+ also offers a grill screen.",
+     "heatstrip": "Coated aluminium body, 48.5 mm deep, in an \"off-white\" made to blend with white ceilings (2022 overview); no glass face."
+    },
+    "users": {
+     "RES": {
+      "w": 3,
+      "claim": "A glass face, not a grille: the cleanest-looking heater you can put over the table."
+     },
+     "ARC": {
+      "w": 3,
+      "claim": "Glass-ceramic face at 54 mm deep, against a visible reflector and guard on Infratech and an 87 mm body on Heatscope."
+     },
+     "DES": {
+      "w": 3,
+      "claim": "Black or white glass with nothing exposed, where Infratech shows its reflector and guard."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "A slimmer glass-faced heater than Heatscope, with no junction box on show."
+     },
+     "COM": {
+      "w": 3,
+      "claim": "The look of glass, not hardware, over the guests."
+     },
+     "MAR": {
+      "w": 3,
+      "claim": "Glass in 316 stainless, at home in a yacht interior."
+     }
+    }
+   },
+   {
+    "benefit": "recess",
+    "edge": "mixed",
+    "bromic": "Low-clearance kit: 180 mm (7.1 in) minimum cavity, recess box supplied, integrated cooling fan, two thermal cut-offs, up to 4500 W, 304 or 316; ceiling gradient up to 1/4 in per inch. [[VERIFY: that the kit needs no fire-rated lining under its listing — Product team]]",
+    "vs": {
+     "infratech": "W/WD flush frame in a framed pocket \"MIN. 2 x 8\", lined on all five sides with 5/8 in Type X drywall, \"ONLY to be used on a flat non-sloped ceiling\"; \"After 4 hours of continuous use, a 15 minute cool down period is recommended\"; recesses up to 6,000 W.",
+     "heatscope": "Vision: optional Lift Box and Lift Frame for flush ceiling installation [[VERIFY: depth and listing — Specification and compliance]]; Pure+: no recess kit listed.",
+     "heatstrip": "Flush Mount Enclosure, powder-coated steel, 125 mm deep with 50 mm clearance behind (about 175 mm in all), up to 3600 W."
+    },
+    "users": {
+     "RES": {
+      "w": 3,
+      "claim": "Flush with a cooling fan built in, so you can enjoy the whole evening with no cool-down advice."
+     },
+     "ARC": {
+      "w": 3,
+      "claim": "7.1 in cavity with the box supplied and fan-cooled, against Infratech's five-sided Type X pocket on flat ceilings only. Heatstrip's AU enclosure is a little shallower."
+     },
+     "DES": {
+      "w": 3,
+      "claim": "A flush glass face in a stainless trim, where Heatscope's Pure+ lists no recess option."
+     },
+     "BLD": {
+      "w": 3,
+      "claim": "No framed, drywall-lined pocket to build: the kit is the box. Infratech recesses more power, up to 6 kW."
+     },
+     "COM": {
+      "w": 2,
+      "claim": "Flush heat in a shallow canopy, with no cool-down advice on the documents."
+     },
+     "MAR": {
+      "w": 3,
+      "claim": "A 316 low-clearance kit for the deckhead; no marine recess option found for Heatscope or Heatstrip."
+     }
+    }
+   },
+   {
+    "benefit": "low_light",
+    "edge": "unknown",
+    "bromic": "Tinted glass-ceramic fascia that minimises light emission (bromic.com); no lumen figure published. [[VERIFY: measured visible light per model — Product team]]",
+    "vs": {
+     "infratech": "Medium-wave elements with \"a soft, warm glow that is practically unnoticeable\" (FAQ).",
+     "heatscope": "Pure+: 300–600 lm visible light; Vision: 300 lm, \"Very discreet filtered ambient light behind a technical glass ceramics screen\".",
+     "heatstrip": "No light figure published; the overview stresses the off-white body that blends with the ceiling."
+    },
+    "users": {
+     "RES": {
+      "w": 3,
+      "claim": "Warmth with very little glow, so your lighting stays the way you planned it."
+     },
+     "ARC": {
+      "w": 2,
+      "claim": "Tinted glass-ceramic face that minimises light emission; ask for a lumen figure before comparing."
+     },
+     "DES": {
+      "w": 3,
+      "claim": "A heater that does not light the room, so the lighting designer's scheme holds."
+     },
+     "BLD": {
+      "w": 1,
+      "claim": "Discreet heat, with no bright tube on show."
+     },
+     "COM": {
+      "w": 3,
+      "claim": "No red glare across the dining room."
+     },
+     "MAR": {
+      "w": 2,
+      "claim": "A calm deck at night, with the view, not the heater, in sight."
+     }
+    }
+   },
+   {
+    "benefit": "heat",
+    "edge": "mixed",
+    "bromic": "2300, 3400 and 4500 W; heat area 65, 108 and 143 ft² (approximate, varies with model, height and site); 4500 W has 1.5 and 3 kW elements.",
+    "vs": {
+     "infratech": "1.5 to 6 kW in 120–480 V models; chart gives about 121 ft² for the 6,000 W CD at 8–12 ft and 100 ft² for the 4,000 W C.",
+     "heatscope": "Pure+ 3000 W and Vision 3200 W at 220–240 V, two levels (50% and 100%); no ft² coverage on the product pages.",
+     "heatstrip": "1800, 2400 and 3600 W at 240 V; Thermofilm advises 500 W/m² for protected outdoor areas."
+    },
+    "users": {
+     "RES": {
+      "w": 3,
+      "claim": "Up to 4500 W from one slim glass heater, warming up to 143 ft²."
+     },
+     "ARC": {
+      "w": 2,
+      "claim": "Above Heatscope's 3.2 kW and Heatstrip's 3.6 kW a heater; Infratech goes to 6 kW. Coverage claims are measured differently by each maker."
+     },
+     "DES": {
+      "w": 2,
+      "claim": "More warmth from a glass-faced heater than Heatscope offers."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "Three sizes at 208 or 240 V; for 277 V or 6 kW, use Tungsten Series II or compare Infratech."
+     },
+     "COM": {
+      "w": 3,
+      "claim": "4500 W with staged elements, the most output among the glass-faced heaters compared."
+     },
+     "MAR": {
+      "w": 2,
+      "claim": "The full 4500 W also in the 316 Marine version."
+     }
+    }
+   },
+   {
+    "benefit": "controls",
+    "edge": "bromic",
+    "bromic": "Affinity Smart-Heat® On/Off and Dimmer (1% steps), app zones, schedules and timers, Alexa and Google Assistant, 0–10 V and Ethernet to BMS through the expansion board. Controllers sold separately.",
+    "vs": {
+     "infratech": "Bond Smart Dimmer with the Universal Control Panel (dimming, timing, zoning) or Smart Switch (on/off, built-in 2-hour timer); Lutron and Crestron through home systems.",
+     "heatscope": "Two levels, 50% and 100%; remote or external control; optional ZigBee bridge, switch and motion sensor with Alexa and Google Assistant.",
+     "heatstrip": "Thermofilm recommends its TT-MTM timer controller with temperature control."
+    },
+    "users": {
+     "RES": {
+      "w": 3,
+      "claim": "Dim in 1% steps from your phone, where Heatscope offers two levels."
+     },
+     "ARC": {
+      "w": 2,
+      "claim": "1% dimming, zones, schedules and BMS integration from one Bromic controller family."
+     },
+     "DES": {
+      "w": 2,
+      "claim": "Fine control of the warmth to match the mood of the evening."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "One app and one controller family for every Bromic electric heater on the job."
+     },
+     "COM": {
+      "w": 3,
+      "claim": "Zones and schedules per section, with dimming that Heatscope and Heatstrip do not match."
+     },
+     "MAR": {
+      "w": 2,
+      "claim": "Integrates with the vessel's systems through 0–10 V or Ethernet."
+     }
+    }
+   },
+   {
+    "benefit": "install_flex",
+    "edge": "parity",
+    "bromic": "Wall straight or angled (28–30°), ceiling, 8 in pole included, 2 ft and 4 ft poles, standard or low-clearance recess; low-clearance kit on gradients up to 1/4 in per inch.",
+    "vs": {
+     "infratech": "Wall, ceiling, flush, pole and drop pole; flush frame on flat ceilings only.",
+     "heatscope": "Wall or ceiling with two screws, extension rods of 100, 300 and 500 mm; Vision lift system and flush Lift Frame; Pure+ horizontal or vertical.",
+     "heatstrip": "Ceiling, wall, beam, fixed umbrella, recess, chain and rigid poles."
+    },
+    "users": {
+     "RES": {
+      "w": 2,
+      "claim": "Wall, ceiling, pole or flush: Platinum fits the space you have."
+     },
+     "ARC": {
+      "w": 2,
+      "claim": "Recesses on a gentle slope, where Infratech's flush frame needs a flat ceiling."
+     },
+     "DES": {
+      "w": 2,
+      "claim": "Drop poles for high rooms, flush for low ones."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "Pole and bracket in the box; longer poles and two recess kits as options."
+     },
+     "COM": {
+      "w": 2,
+      "claim": "Fits beams, canopies and soffits across a venue."
+     },
+     "MAR": {
+      "w": 2,
+      "claim": "Deckhead, bulkhead or canopy mounting."
+     }
+    }
+   },
+   {
+    "benefit": "coastal",
+    "edge": "mixed",
+    "bromic": "Marine: AISI 316, IPX5 (IP55 on 4500 W), Lloyd's Register approval for marine applications, 316 recess kits. Standard: 304, IPX4 or IP54, for covered spaces.",
+    "vs": {
+     "infratech": "316 stainless as a Marine UpGrade at extra cost on C/CD, W/WD and flush frames; IPX4 on all fixtures (FAQ).",
+     "heatscope": "Pure+ IP65 \"fully exposed outdoor environments\"; Vision IP24 in the US brochure, for well-covered spaces; no marine version found.",
+     "heatstrip": "IP55, high-temperature coated aluminium, described as corrosion-resistant; no marine approval found."
+    },
+    "users": {
+     "RES": {
+      "w": 2,
+      "claim": "For a home by the sea, a dedicated 316 Marine version, rated IPX5."
+     },
+     "ARC": {
+      "w": 2,
+      "claim": "Specify Marine for salt air. For a fully exposed position, Heatscope Pure+ publishes IP65; Platinum belongs under cover."
+     },
+     "DES": {
+      "w": 1,
+      "claim": "The same glass look in a marine-grade body."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "316 heater and 316 recess kit as a range, against an upgrade option on Infratech."
+     },
+     "COM": {
+      "w": 2,
+      "claim": "Waterfront venues get a marine-grade heater with a published IPX5 rating."
+     },
+     "MAR": {
+      "w": 3,
+      "claim": "Lloyd's Register approval and installs on superyachts and cruise ships: no marine approval found for the others."
+     }
+    }
+   },
+   {
+    "benefit": "safety",
+    "edge": "parity",
+    "bromic": "Intertek ETL / cETL 5001799; fixed mounting heights; low-clearance kit with fan and two thermal cut-offs.",
+    "vs": {
+     "infratech": "UL and cUL listed, IPX4; flush frame cool-down recommended after 4 hours.",
+     "heatscope": "\"UL approved\" for Vision (US brochure); Pure UL pending in 2020 [[VERIFY: current Pure+ listing — Specification and compliance]].",
+     "heatstrip": "Australian and New Zealand approvals; recommends a timer controller."
+    },
+    "users": {
+     "RES": {
+      "w": 2,
+      "claim": "Listed, flame-free heat with a fan-cooled recess kit."
+     },
+     "ARC": {
+      "w": 2,
+      "claim": "ETL / cETL listed; thermal cut-offs in the low-clearance kit."
+     },
+     "DES": {
+      "w": 1,
+      "claim": "Safe, listed electric heat in a furnished room."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "Two thermal cut-offs in the recess kit for peace of mind on every install."
+     },
+     "COM": {
+      "w": 2,
+      "claim": "Listed heaters and app timers that switch heat off when service ends."
+     },
+     "MAR": {
+      "w": 2,
+      "claim": "No flame and no fuel, with a marine approval to show."
+     }
+    }
+   },
+   {
+    "benefit": "support",
+    "edge": "parity",
+    "bromic": "Revit (ceiling and wall) and CAD files for Platinum Electric; complimentary design service; manuals and wiring guides; Partner Program.",
+    "vs": {
+     "infratech": "Design guides, CAD details and continuing-education credits; Elite Retailers and Installer Program.",
+     "heatscope": "US office and dealer network [[VERIFY: CAD or Revit files — Specification and compliance]].",
+     "heatstrip": "Product overview with sizing tables and installation manuals."
+    },
+    "users": {
+     "RES": {
+      "w": 1,
+      "claim": "A free heating design plan before you buy."
+     },
+     "ARC": {
+      "w": 3,
+      "claim": "Revit and CAD files ready to drop in, as Infratech offers."
+     },
+     "DES": {
+      "w": 2,
+      "claim": "A design plan drawn for your space."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "Wiring guides for the recess kit and Affinity controls."
+     },
+     "COM": {
+      "w": 2,
+      "claim": "A plan for the whole patio, heater by heater."
+     },
+     "MAR": {
+      "w": 2,
+      "claim": "A Marine team and vessel references."
+     }
+    }
+   },
+   {
+    "benefit": "warranty",
+    "edge": "bromic",
+    "bromic": "3 years; Marine 5 years on land and 3 years on vessels (bromic.com).",
+    "vs": {
+     "infratech": "3 years, a fourth through Elite Retailers and the Installer Program; replacement parts only, labour excluded (2024 terms).",
+     "heatscope": "\"two-year limited warranty\" on the product pages; the warranty policy page lists 12 months for electric models.",
+     "heatstrip": "2 years residential, 1 year commercial (2022 overview)."
+    },
+    "users": {
+     "RES": {
+      "w": 2,
+      "claim": "Three years of cover, a year more than Heatscope's two."
+     },
+     "ARC": {
+      "w": 1,
+      "claim": "3 years, and 5 years for Marine on land."
+     },
+     "DES": {
+      "w": 1,
+      "claim": "Backed for three years."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "Matches Infratech's three years, and beats Heatscope and Heatstrip."
+     },
+     "COM": {
+      "w": 2,
+      "claim": "Three years on a commercial patio, against one year on Heatstrip commercial."
+     },
+     "MAR": {
+      "w": 2,
+      "claim": "Five years on land for Marine, the longest term found."
+     }
+    }
+   },
+   {
+    "benefit": "design_flex",
+    "edge": "competitor",
+    "bromic": "Black or white; three lengths; Classic and Marine grades; recess vent covers in the heater's colour.",
+    "vs": {
+     "infratech": "Brushed stainless or eight powder-coated colours plus custom on C/CD and W/WD; Motif decorative covers on surface-mount C/CD.",
+     "heatscope": "Black or white; Pure+ with a glass-ceramic or grill screen.",
+     "heatstrip": "Off-white (2022 overview)."
+    },
+    "users": {
+     "RES": {
+      "w": 2,
+      "claim": "Black or white glass that suits most homes; for a custom colour, ask your designer."
+     },
+     "ARC": {
+      "w": 1,
+      "claim": "Two colours and three lengths; Infratech offers more colours."
+     },
+     "DES": {
+      "w": 2,
+      "claim": "A restrained palette that lets the architecture lead; Infratech offers custom colours."
+     },
+     "BLD": {
+      "w": 1,
+      "claim": "Fewer choices, simpler quotes."
+     },
+     "COM": {
+      "w": 2,
+      "claim": "Black or white to suit the brand's palette."
+     },
+     "MAR": {
+      "w": 2,
+      "claim": "Black or white to match the yacht."
+     }
+    }
+   },
+   {
+    "benefit": "install_ease",
+    "edge": "mixed",
+    "bromic": "Bracket and 8 in pole included; low-clearance kit supplies the recess box; the fan needs a constant supply, separate from the heater; two people to lift into the recess.",
+    "vs": {
+     "infratech": "Flush frames need a framed pocket of at least 2×8 lined on five sides with 5/8 in Type X drywall, junction box outside the pocket.",
+     "heatscope": "Wall or ceiling mounts that \"only need two screws\"; 220–240 V.",
+     "heatstrip": "1800 and 2400 W plug in for DIY fitting in Australia; 3600 W is hard-wired."
+    },
+    "users": {
+     "RES": {
+      "w": 1,
+      "claim": "A neat install with the hardware in the box."
+     },
+     "ARC": {
+      "w": 1,
+      "claim": "Recess box supplied; plan the fan's always-on supply in the electrical drawings."
+     },
+     "DES": {
+      "w": 1,
+      "claim": "The recess detail comes as a kit."
+     },
+     "BLD": {
+      "w": 3,
+      "claim": "No drywall-lined pocket to build, as Infratech's flush frame needs; plan one extra always-on fan circuit."
+     },
+     "COM": {
+      "w": 1,
+      "claim": "Same controls and brackets across the venue."
+     },
+     "MAR": {
+      "w": 1,
+      "claim": "316 kits ready for the yard."
+     }
+    }
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "p1",
+   "publisher": "Bromic Heating",
+   "title": "Platinum Smart-Heat Electric product page (features, FAQ, specifications, 3-year warranty)",
+   "year": 2026,
+   "url": "https://www.bromic.com/product/platinum-smart-heat-electric/",
+   "verified": false,
+   "supports": "Tinted glass-ceramic fascia minimising light emission; 304 chassis; 8 in pole included; controllers sold separately; 3-year warranty; list prices"
+  },
+  {
+   "id": "p2",
+   "publisher": "Bromic Heating",
+   "title": "Platinum Smart-Heat Electric Marine product page",
+   "year": 2026,
+   "url": "https://www.bromic.com/product/platinum-smart-heat-electric-marine/",
+   "verified": false,
+   "supports": "AISI 316, IPX5, Lloyd's Register approval, warranty 5 years land and 3 years vessels, list prices"
+  },
+  {
+   "id": "p3",
+   "publisher": "Bromic Heating",
+   "title": "Platinum Smart-Heat Electric cut sheet (standard and Marine; file named Marine)",
+   "year": 2025,
+   "url": "https://www.bromic.com/wp-content/uploads/2025/04/Product-Cut-Sheet-Platinum-Electric-Marine.pdf",
+   "verified": false,
+   "supports": "Part numbers, outputs, heat areas, weights, ETL/cETL 5001799, IP54, standard recess kit 10 in (13.8 in for 4500 W), low-clearance kit fan supply"
+  },
+  {
+   "id": "p4",
+   "publisher": "Bromic Heating",
+   "title": "Platinum Smart-Heat Electric Series II manual, 2300/3400 W, US v4",
+   "year": 2021,
+   "url": "https://pim.bromic.com/wp-content/uploads/2021/07/Bromic-Platinum-Smart-Heat-Electric-SII-Instruction-Manual-US_v4.pdf",
+   "verified": false,
+   "supports": "Dimensions 840/1275 x 182 x 54 mm; IPX4 standard and IPX5 Marine; marine heater not for marine craft; wall bracket straight or 30 degrees; mounting heights"
+  },
+  {
+   "id": "p5",
+   "publisher": "Bromic Heating",
+   "title": "Platinum Smart-Heat Electric Series II manual, 4500 W, AU/UK/US v1.1",
+   "year": 2021,
+   "url": "https://pim.bromic.com/wp-content/uploads/2021/07/Bromic-Platinum-Smart-Heat-Electric-SII-Instruction-Manual-4.5kW-AU-UK-US_v1.1.pdf",
+   "verified": false,
+   "supports": "1351 x 257 x 54 mm, 33 lb; IP54 standard and IP55 Marine; cETLus 5001799; elements 1.5 and 3 kW with individual element control; bracket 28 degrees"
+  },
+  {
+   "id": "p6",
+   "publisher": "Bromic Heating",
+   "title": "Platinum Electric Low-Clearance Recess Kit product page",
+   "year": 2026,
+   "url": "https://www.bromic.com/product/platinum-electric-low-clearance-recess-kit/",
+   "verified": false,
+   "supports": "Cavities as shallow as 7.1 in; recess box included; integrated cooling fan on a dedicated supply; UL certified; list prices"
+  },
+  {
+   "id": "p7",
+   "publisher": "Bromic Heating",
+   "title": "Platinum Smart-Heat Electric Low Clearance Ceiling Recess installation instructions (2300, 3400 and 4500 W)",
+   "year": 2024,
+   "url": "https://pim.bromic.com/wp-content/uploads/2021/08/Platinum-Electric-Low-Clearance-Ceiling-Recess-Instruction-Manual-REV3.pdf",
+   "verified": false,
+   "supports": "180 mm (7.1 in) minimum cavity; joist gaps 240/317 mm; kit dimensions; fan under 1 A always powered; thermal cut-off switches; gradient 1/4 in per inch; Australian Patent 2023219853; Marine kit not for marine craft"
+  },
+  {
+   "id": "p8",
+   "publisher": "Bromic Heating",
+   "title": "LCRK Affinity wiring guide (North America)",
+   "year": 2025,
+   "url": "https://pim.bromic.com/wp-content/uploads/2025/05/LCRK-Affinity-Wiring-Guide-NA.pdf",
+   "verified": false,
+   "supports": "Fan supply constant and independent of the heater; Affinity controller wiring"
+  },
+  {
+   "id": "p9",
+   "publisher": "Bromic Heating",
+   "title": "Platinum Electric Recess Kit, Mounting Poles and Wall Mounting Bracket pages",
+   "year": 2026,
+   "url": "https://www.bromic.com/product/platinum-electric-mounting-poles/",
+   "verified": false,
+   "supports": "2 ft and 4 ft poles, 8 in included, heater at 8 to 9 ft; bracket straight or 28 degrees, included; standard recess kit prices"
+  },
+  {
+   "id": "p10",
+   "publisher": "Bromic Heating",
+   "title": "Revit BIM and CAD files",
+   "year": 2026,
+   "url": "https://www.bromic.com/access-bim-files/",
+   "verified": false,
+   "supports": "Platinum Electric Revit (ceiling and wall) and CAD files"
+  },
+  {
+   "id": "p11",
+   "publisher": "Bromic Heating",
+   "title": "Outdoor Lookbook 2026, p.15–21 (Platinum collection)",
+   "year": 2026,
+   "url": "internal",
+   "verified": false,
+   "supports": "Three sizes, Classic and Marine in black and white, 65–143 ft², recessed, ceiling and wall; Wi-Fi footnote"
+  },
+  {
+   "id": "s4",
+   "publisher": "Bromic Heating",
+   "title": "Warranty",
+   "year": 2026,
+   "url": "https://www.bromic.com/warranty/",
+   "verified": true
+  },
+  {
+   "id": "b3",
+   "publisher": "Bromic Heating",
+   "title": "Affinity Smart-Heat control system brochure 2026",
+   "year": 2026,
+   "url": "https://pim.bromic.com/wp-content/uploads/2026/08/Bromic-affinity-smart-heat-control-system-2026.pdf",
+   "verified": true
+  },
+  {
+   "id": "b4",
+   "publisher": "Bromic Heating",
+   "title": "Affinity Smart-Heat app",
+   "year": 2026,
+   "url": "https://www.bromic.com/affinity-smart-heat-app/",
+   "verified": true
+  },
+  {
+   "id": "d1",
+   "publisher": "Bromic Heating",
+   "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+   "year": 2026,
+   "url": "internal",
+   "verified": true,
+   "supports": "Tungsten Series II tiers, widths, pitched-ceiling adaptor (matrix 2)"
+  },
+  {
+   "id": "b1",
+   "publisher": "Bromic Heating",
+   "title": "Tungsten Smart-Heat Electric Select & Coastal Models, installation manual (2026, dealer-hosted)",
+   "year": 2026,
+   "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Electric-Select-Coastal-Manual.pdf",
+   "verified": true
+  },
+  {
+   "id": "b2",
+   "publisher": "Bromic Heating",
+   "title": "LC Ceiling Recess Kit for the Tungsten Smart-Heat Electric Series II, instructions (2025, dealer-hosted)",
+   "year": 2025,
+   "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Select-Coastal-LC-Recess-Kit-Instructions.pdf",
+   "verified": true
+  },
+  {
+   "id": "i1",
+   "publisher": "Platinum Equity",
+   "title": "Platinum Equity announces acquisition of Infratech",
+   "year": 2026,
+   "url": "https://www.platinumequity.com/news/platinum-equity-announces-acquisition-of-infratech/",
+   "verified": true
+  },
+  {
+   "id": "i2",
+   "publisher": "Infratech",
+   "title": "C/CD, W/WD, SL and Motif series pages; colour options",
+   "year": 2026,
+   "url": "https://www.infratech.com/heaters/cd-series/",
+   "verified": true
+  },
+  {
+   "id": "i3",
+   "publisher": "Infratech",
+   "title": "FAQs (glow, IPX4, voltages, dimming, flush mounting, 3-year warranty), read 19 Nov 2026",
+   "year": 2026,
+   "url": "https://www.infratech.com/resources/faqs/",
+   "verified": true,
+   "supports": "\"a soft, warm glow that is practically unnoticeable\"; \"All Infratech fixtures are also certified IP X4 rated\""
+  },
+  {
+   "id": "i7",
+   "publisher": "Infratech",
+   "title": "Controls (Bond Smart Dimmer and Smart Switch)",
+   "year": 2026,
+   "url": "https://www.infratech.com/controls/",
+   "verified": true
+  },
+  {
+   "id": "i9",
+   "publisher": "Infratech",
+   "title": "Limited warranty",
+   "year": 2026,
+   "url": "https://www.infratech.com/wp-content/uploads/2026/09/infratech-warranty.pdf",
+   "verified": true
+  },
+  {
+   "id": "i12",
+   "publisher": "Infratech",
+   "title": "W-33/W-39/W-61 flush mount frame drawing (dealer-hosted)",
+   "year": 2019,
+   "url": "https://cdn.shopify.com/s/files/1/0262/9232/2407/files/Flush_Mount_Frame_Specs.pdf",
+   "verified": true
+  },
+  {
+   "id": "i18",
+   "publisher": "Infratech",
+   "title": "Marine UpGrade (316 stainless, additional cost)",
+   "year": 2026,
+   "url": "https://www.infratech.com/marine-upgrade/",
+   "verified": true
+  },
+  {
+   "id": "i19",
+   "publisher": "Infratech",
+   "title": "C/CD coverage chart (2025)",
+   "year": 2025,
+   "url": "https://www.infratech.com/wp-content/uploads/2026/09/C-CD_coveragechart_2025.webp",
+   "verified": true
+  },
+  {
+   "id": "h1",
+   "publisher": "MAD Design USA (Heatscope)",
+   "title": "Heatscope US summary brochure (V0720)",
+   "year": 2020,
+   "url": "https://cdn.shopify.com/s/files/1/0570/3440/7990/files/HEATSCOPE_US_Summary_Brochure.pdf",
+   "verified": false,
+   "supports": "Vision glass-ceramic front, 3200 W, 65.4 x 7.2 x 3.4 in, IP24, UL approved; Pure IP65, UL pending; made in Germany"
+  },
+  {
+   "id": "h2",
+   "publisher": "MAD Design Group (Heatscope)",
+   "title": "Heatscope Pure 3000W specifications (V0621)",
+   "year": 2021,
+   "url": "https://cdn.shopify.com/s/files/1/0570/3440/7990/files/HEATSCOPE_US_PURE_3000W_Specs_Sheet.pdf",
+   "verified": false,
+   "supports": "220–240 V, 10.43 A, IP65, under 300–400 lumen, Dual WiFi Smart Switch included, 87 mm deep"
+  },
+  {
+   "id": "h3",
+   "publisher": "Heatscope Heaters",
+   "title": "Pure+ 3000W product page, read 19 Nov 2026",
+   "year": 2026,
+   "url": "https://heatscopeheaters.com/radiant-heaters/pure-plus-3000w",
+   "verified": false,
+   "supports": "220–240 V; IP65; two levels; ZigBee; 300–600 lm; two-year limited warranty; no recess kit listed; from $2,495"
+  },
+  {
+   "id": "h4",
+   "publisher": "Heatscope Heaters",
+   "title": "Vision 3200W product page, read 19 Nov 2026",
+   "year": 2026,
+   "url": "https://heatscopeheaters.com/radiant-heaters/vision-3200w",
+   "verified": false,
+   "supports": "Lift Box and Lift Frame for flush ceiling installation; 300 lm; two levels; two-year limited warranty; from $2,995"
+  },
+  {
+   "id": "h5",
+   "publisher": "Heatscope Heaters",
+   "title": "Warranty and claims policy, read 19 Nov 2026",
+   "year": 2026,
+   "url": "https://heatscopeheaters.com/support/warranty-claims-policy",
+   "verified": false,
+   "supports": "\"12-month warranty: Electric models\" (conflicts with the product pages)"
+  },
+  {
+   "id": "t1",
+   "publisher": "Thermofilm",
+   "title": "Heatstrip Elegance (THE) product overview (March 2022)",
+   "year": 2022,
+   "url": "https://media.mmem.com.au/Manual/Heatstrip/Heatstrip_Elegance_THE.pdf",
+   "verified": false,
+   "supports": "1800/2400/3600 W, 48.5 mm deep, IP55, coated aluminium, off-white, flush mount enclosure 125 mm deep plus 50 mm clearance, 2 years residential and 1 year commercial"
+  }
+ ],
+ "pillars": [
+  {
+   "id": "p1",
+   "title": "Heat You Can Feel, Not See",
+   "line": "A tinted glass-ceramic face spreads warmth evenly and keeps visible light to a minimum, so the evening keeps the light you chose for it.",
+   "proof": [
+    "Tinted glass-ceramic fascia, minimises light emission (bromic.com)",
+    "Black or white glass",
+    "No grille, reflector or guard on show"
+   ],
+   "benefits": [
+    "low_light",
+    "aesthetics"
+   ],
+   "src": [
+    "p1",
+    "p3"
+   ],
+   "verify": "[[VERIFY: a measured visible-light figure before any comparison — Product team]]"
+  },
+  {
+   "id": "p2",
+   "title": "Flush In A 7.1 In Ceiling",
+   "line": "The low-clearance recess kit sets Platinum flush in a ceiling cavity as shallow as 7.1 in, with the recess box supplied and a cooling fan built in.",
+   "proof": [
+    "180 mm (7.1 in) minimum cavity",
+    "Ceiling recess box supplied with the kit",
+    "Integrated cooling fan and two thermal cut-offs",
+    "All three outputs, Classic and Marine"
+   ],
+   "benefits": [
+    "recess",
+    "install_ease"
+   ],
+   "src": [
+    "p6",
+    "p7"
+   ]
+  },
+  {
+   "id": "p3",
+   "title": "Slim By Design",
+   "line": "Just 2.1 in deep and finished in stainless steel and glass, Platinum reads as part of the architecture.",
+   "proof": [
+    "54 mm (2.1 in) deep",
+    "304 stainless (316 Marine)",
+    "840, 1275 and 1351 mm lengths"
+   ],
+   "benefits": [
+    "aesthetics",
+    "design_flex"
+   ],
+   "src": [
+    "p4",
+    "p5"
+   ]
+  },
+  {
+   "id": "p4",
+   "title": "Built For Life On The Water",
+   "line": "Platinum Electric Marine brings the same glass face to superyachts, cruise ships and homes by the sea, in AISI 316 stainless with Lloyd's Register approval for marine applications.",
+   "proof": [
+    "AISI 316 marine-grade stainless",
+    "IPX5 (IP55 on 4500 W)",
+    "Lloyd's Register approval (bromic.com)",
+    "Warranty 5 years on land, 3 years on vessels"
+   ],
+   "benefits": [
+    "coastal",
+    "warranty"
+   ],
+   "src": [
+    "p2",
+    "p4",
+    "p5"
+   ],
+   "verify": "[[VERIFY: on-vessel use against the manuals' line that the marine heater shall NOT be installed on marine craft — Product team]]"
+  },
+  {
+   "id": "p5",
+   "title": "Warmth, Dialled To The Evening",
+   "line": "Pair Platinum with the Affinity Smart-Heat® Dimmer and the Bromic app to set the warmth in 1% steps, by zone and on a schedule, or by voice.",
+   "proof": [
+    "0–100% output with Affinity controls (cut sheet)",
+    "4500 W with 1.5 and 3 kW elements",
+    "Alexa and Google Assistant",
+    "Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately."
+   ],
+   "benefits": [
+    "controls",
+    "heat"
+   ],
+   "src": [
+    "p3",
+    "p5",
+    "b3",
+    "b4"
+   ]
+  },
+  {
+   "id": "p6",
+   "title": "Up To 4500 W, Up To 143 Ft²",
+   "line": "Three sizes, 2300, 3400 and 4500 W, warm up to 65, 108 and 143 ft² each, on 208 V or 240 V.",
+   "proof": [
+    "Heat area 65, 108, 143 ft² (approximate)",
+    "208 V and 220–240 V",
+    "Intertek ETL / cETL 5001799"
+   ],
+   "benefits": [
+    "heat",
+    "safety"
+   ],
+   "src": [
+    "p1",
+    "p3"
+   ]
+  },
+  {
+   "id": "p7",
+   "title": "Specified With Confidence",
+   "line": "Revit and CAD files, clearance drawings, wiring guides and a complimentary design service help you detail Platinum right the first time.",
+   "proof": [
+    "Revit ceiling and wall families, CAD",
+    "Low-clearance kit wiring guide for Affinity",
+    "Design Your Space service"
+   ],
+   "benefits": [
+    "support",
+    "install_flex"
+   ],
+   "src": [
+    "p10",
+    "p8"
+   ]
+  }
+ ],
+ "portfolio": [
+  {
+   "space": "Design-forward covered terrace",
+   "product": "Platinum Smart-Heat® Electric, recessed",
+   "image": "w-platinum-electric-white-recessed-residential",
+   "why": "Glass flush in the soffit, warmth over the table and nothing on show."
+  },
+  {
+   "space": "Porch or soffit with a shallow ceiling",
+   "product": "Platinum Electric with the Low-Clearance Recess Kit",
+   "image": "w-platinumelectricflushmountedw-lowclearancere",
+   "why": "Flush in a 7.1 in cavity, recess box supplied."
+  },
+  {
+   "space": "Superyacht deck and coastal home",
+   "product": "Platinum Smart-Heat® Electric Marine",
+   "image": "w-marine-grade-platinum-electric-white-lady-le",
+   "why": "316 stainless and a glass face for life by the water."
+  },
+  {
+   "space": "Restaurant patio under a high ceiling",
+   "product": "Platinum Electric on drop poles",
+   "image": "w-platinum-electric-del-friscos-century-city-2",
+   "why": "Slim heaters hung to the right height, with low glare over the guests."
+  },
+  {
+   "space": "Pergola, vaulted porch or 277 V commercial",
+   "product": "Tungsten Smart-Heat® Electric Series II",
+   "image": "t2-select-black",
+   "why": "Up to 6 kW, pitched-ceiling and single-post mounting, colours and fronts."
+  },
+  {
+   "space": "Open seating away from walls",
+   "product": "Tungsten Smart-Heat® Freestanding Gas",
+   "image": "l-019-162",
+   "why": "Warmth wherever the furniture goes, with no wall or ceiling needed."
+  }
+ ],
+ "claim_checks": [
+  {
+   "claim": "The slimmest outdoor heater",
+   "checked": "2026-11-19",
+   "verdict": "false as stated",
+   "why": "Platinum is 54 mm (2.1 in) deep (manuals). Heatstrip Elegance is 48.5 mm (Thermofilm, 2022). Heatscope Vision and Pure+ are 87 mm.",
+   "use_instead": "Just 2.1 in deep, behind tinted glass.",
+   "safest": "A 2.1 in slim glass-faced heater.",
+   "avoid": [
+    "slimmest (unqualified)",
+    "thinnest on the market"
+   ],
+   "open": [
+    "Infratech C and SL depth from Infratech documents (Specification and compliance)",
+    "Whether Platinum is the slimmest in the Bromic range: Eclipse and Cobalt depths (Product team)"
+   ]
+  },
+  {
+   "claim": "Recess in the shallowest ceiling of any heater",
+   "checked": "2026-11-19",
+   "verdict": "false as stated",
+   "why": "The low-clearance kit needs a 180 mm (7.1 in) cavity. Heatstrip's flush enclosure is 125 mm with 50 mm behind, about 175 mm. Infratech flush frames need a pocket in at least 2×8 framing, lined on five sides with Type X drywall. Heatscope Vision's Lift Box depth is not published.",
+   "use_instead": "Flush in a ceiling cavity as shallow as 7.1 in, with the recess box supplied and a cooling fan built in.",
+   "safest": "Recess into a 7.1 in cavity, no box to build.",
+   "avoid": [
+    "shallowest",
+    "lowest clearance",
+    "only"
+   ],
+   "open": [
+    "Whether the kit needs a fire-rated lining under its listing (Product team)",
+    "Whether 7.1 in applies to 4500 W as well as 2300 and 3400 W (Product team)",
+    "Heatscope Lift Box depth (Specification and compliance)"
+   ]
+  },
+  {
+   "claim": "No glare, no light",
+   "checked": "2026-11-19",
+   "verdict": "qualified",
+   "why": "bromic.com says the tinted glass-ceramic fascia minimises light emission, with \"very little light emission\". No lumen figure is published; the studio image shows a faint warm glow. Heatscope publishes 300–600 lm for Pure+.",
+   "use_instead": "A tinted glass-ceramic face that keeps visible light to a minimum.",
+   "safest": "Heat You Can Feel, Not See.",
+   "avoid": [
+    "no light",
+    "zero glare",
+    "less light than Heatscope"
+   ],
+   "open": [
+    "Measured visible light per model (Product team)"
+   ]
+  },
+  {
+   "claim": "Approved for yachts and cruise ships",
+   "checked": "2026-11-19",
+   "verdict": "needs Product team confirmation",
+   "why": "bromic.com lists Lloyd's Register approval for marine applications and a 3-year warranty on vessels, and the library holds superyacht and cruise ship installs. Both Platinum manuals and the low-clearance kit manual say the IPX5 marine grade heater and kit \"shall NOT be installed on marine craft\".",
+   "use_instead": "Built for coastal and marine settings, with Lloyd's Register approval for marine applications.",
+   "safest": "Marine-grade 316 stainless for life by the water.",
+   "avoid": [
+    "approved for every vessel",
+    "marine certified (unqualified)"
+   ],
+   "open": [
+    "Reconcile the manuals with Lloyd's Register approval and vessel warranty; the approval certificate and scope (Product team, Marine team)"
+   ]
+  },
+  {
+   "claim": "IPX5 weather rated",
+   "checked": "2026-11-19",
+   "verdict": "qualified",
+   "why": "IPX5 applies to Marine (2300/3400 W manual; IP55 in the 4500 W manual). The standard heater is IPX4 (2300/3400 W manual) or IP54 (4500 W manual and cut sheet); the cut sheet also lists IP54 for Marine. bromic.com says install under cover.",
+   "use_instead": "Marine is rated IPX5; standard Platinum is made for covered outdoor spaces.",
+   "safest": "Built for covered outdoor living.",
+   "avoid": [
+    "waterproof",
+    "IPX5 for the standard heater"
+   ],
+   "open": [
+    "One IP rating per model across manual, cut sheet and site (Product team)"
+   ]
+  },
+  {
+   "claim": "A patented recess kit",
+   "checked": "2026-11-19",
+   "verdict": "qualified",
+   "why": "The low-clearance kit manual lists Australian Patent 2023219853. No US patent was found.",
+   "use_instead": "In Australia: a patented low-clearance recess kit. In the US: say nothing about patents.",
+   "safest": "A low-clearance recess kit engineered by Bromic.",
+   "avoid": [
+    "patented (in US copy)"
+   ],
+   "open": [
+    "US or other patent status (Product team)"
+   ]
+  }
+ ],
+ "ad_briefs": [
+  {
+   "id": "pc1",
+   "segment": "Homeowners",
+   "name": "Where Did The Heater Go?",
+   "objective": "Awareness and consideration: glass heat that disappears into the ceiling",
+   "format": "Reel, 9:16, 15 s",
+   "hook": "Dinner on a covered terrace at dusk; the camera tilts up to a clean white ceiling and a pane of dark glass.",
+   "headline": "Heat You Can Feel, Not See",
+   "primary_text": "Platinum Electric sits flush in the ceiling behind tinted glass, so the warmth stays and the heater all but disappears.",
+   "cta": "Learn More",
+   "visual": "Golden hour, white soffit, two recessed Platinum heaters, a set table; open on people, end on the flush glass. Bromic logo end card.",
+   "claims": [
+    "Tinted glass-ceramic face",
+    "Recessed flush in the ceiling",
+    "Up to 4500 W"
+   ],
+   "images": [
+    "w-platinum-electric-white-recessed-residential",
+    "w-platinum-electric2",
+    "w-site-images-bromicch-09"
+   ],
+   "mandatory": [
+    "Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately.",
+    "Installation by a licensed electrician, to local code."
+   ],
+   "kpi": "3-second view rate, link clicks to the Platinum page"
+  },
+  {
+   "id": "pc2",
+   "segment": "Homeowners",
+   "name": "Black Glass Or White",
+   "objective": "Consideration: show the two finishes in real homes",
+   "format": "Carousel, 4:5, 4 cards",
+   "hook": "Card 1: a black heater in a white ceiling; card 2: a white heater in a white ceiling.",
+   "headline": "Made To Elevate",
+   "primary_text": "Black or white glass, 2.1 in slim and set flush or on the wall. Choose the Platinum that suits your home.",
+   "cta": "Learn More",
+   "visual": "Four cards: black recessed, white recessed, wall-mounted on stone, studio front view.",
+   "claims": [
+    "Black or white",
+    "2.1 in slim",
+    "Recessed, wall or ceiling"
+   ],
+   "images": [
+    "w-platinum-electric-black-taol-2020",
+    "w-sydney-residential-platinum-electric-white",
+    "w-bromic-platinum-electric-4500w",
+    "w-platinum"
+   ],
+   "mandatory": [
+    "Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately.",
+    "Installation by a licensed electrician, to local code.",
+    "No prices."
+   ],
+   "kpi": "Swipe-through rate, saves"
+  },
+  {
+   "id": "pc3",
+   "segment": "Architects and designers",
+   "name": "Flush In 7.1 In",
+   "objective": "Spec requests: the low-clearance recess kit",
+   "format": "Reel, 9:16 with 4:5 cut, 15 s",
+   "hook": "A tape measure across a shallow soffit opening reads 7.1 in.",
+   "headline": "Flush In A 7.1 In Ceiling",
+   "primary_text": "The Platinum low-clearance recess kit arrives with its own recess box and a cooling fan built in. Download the Revit files.",
+   "cta": "Download",
+   "visual": "Installers lifting the heater into the kit in a timber ceiling, then the finished flush glass in a white soffit.",
+   "claims": [
+    "180 mm (7.1 in) minimum cavity",
+    "Recess box supplied",
+    "Integrated cooling fan and thermal cut-offs"
+   ],
+   "images": [
+    "w-bromic-shoot-may-11-2023-39",
+    "w-lc-recess-kit-platinum-electric-1-1-1600x113",
+    "w-bromic-shoot-may-11-2023-54"
+   ],
+   "mandatory": [
+    "Installation by a licensed electrician, to local code.",
+    "The cooling fan needs its own always-on supply.",
+    "No prices."
+   ],
+   "kpi": "Revit and CAD downloads, spec pack requests"
+  },
+  {
+   "id": "pc4",
+   "segment": "Builders and installers",
+   "name": "No Box To Build",
+   "objective": "Leads: partner sign-ups and recess kit quotes",
+   "format": "Static 4:5",
+   "hook": "Two installers, one heater, one finished ceiling.",
+   "headline": "The Kit Is The Box",
+   "primary_text": "Recess Platinum into a 7.1 in cavity with the box supplied. Plan one always-on fan supply and you are done.",
+   "cta": "Sign Up",
+   "visual": "Installer at the ceiling, the recess box visible; inset of the finished flush heater.",
+   "claims": [
+    "7.1 in cavity",
+    "Recess box supplied",
+    "Fan under 1 A on an always-on supply"
+   ],
+   "images": [
+    "w-bromic-shoot-may-11-2023-42",
+    "d-installers-recessing"
+   ],
+   "mandatory": [
+    "Installation by a licensed electrician, to local code.",
+    "*A reseller certificate is required to join the Bromic installer program.",
+    "No prices."
+   ],
+   "kpi": "Partner Program registrations, quote requests"
+  },
+  {
+   "id": "pc5",
+   "segment": "Hospitality and commercial",
+   "name": "Warm Guests, No Glare",
+   "objective": "Consideration: restaurants and hotels",
+   "format": "Reel, 9:16, 15 s",
+   "hook": "A full waterfront terrace at night; the heaters barely show.",
+   "headline": "Keep The Table Full",
+   "primary_text": "Platinum Electric warms your guests behind tinted glass, with zones and schedules for every section in the Bromic app.",
+   "cta": "Contact Us",
+   "visual": "Busy waterfront restaurant under a timber canopy with recessed black heaters; close on the app's zone screen.",
+   "claims": [
+    "Tinted glass-ceramic face",
+    "Zones and schedules",
+    "Up to 4500 W"
+   ],
+   "images": [
+    "w-barangaroo-house-sydney-platinum-electric-4",
+    "w-platinum-electric-javiers-crystal-cove-newpo"
+   ],
+   "mandatory": [
+    "Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately.",
+    "Installation by a licensed electrician, to local code.",
+    "No prices."
+   ],
+   "kpi": "Design plan requests from venues"
+  },
+  {
+   "id": "pc6",
+   "segment": "Marine and coastal",
+   "name": "Built For Life On The Water",
+   "objective": "Awareness: yards, refit managers and coastal homeowners",
+   "format": "Reel, 9:16, 15 s",
+   "hook": "Sunset on a superyacht aft deck; the heaters sit flush in the curved deckhead.",
+   "headline": "Built For Life On The Water",
+   "primary_text": "Platinum Electric Marine: 316 marine-grade stainless and a glass face, with Lloyd's Register approval for marine applications.",
+   "cta": "Learn More",
+   "visual": "Superyacht aft deck lounge, then a cruise ship promenade, then a coastal home veranda.",
+   "claims": [
+    "AISI 316 stainless",
+    "IPX5",
+    "Lloyd's Register approval for marine applications"
+   ],
+   "images": [
+    "w-marine-grade-platinum-electric-white-lady-le",
+    "w-web-bromic-heating-silversea-silver-nova-202-3",
+    "w-platinum-electric-marine-in-white"
+   ],
+   "mandatory": [
+    "Installation by a licensed electrician, to local code.",
+    "[[VERIFY: on-vessel use wording against the manuals — Product team]]",
+    "No prices."
+   ],
+   "kpi": "Marine enquiries"
+  }
+ ],
+ "assets_to_create": [
+  {
+   "name": "Platinum Electric standard cut sheet",
+   "channel": "Website and PDF",
+   "audience": "Architects, builders, dealers",
+   "claims": [
+    "One IP rating per model",
+    "Heat areas 65, 108, 143 ft²",
+    "ETL / cETL 5001799"
+   ],
+   "brief": "bromic.com links the Marine cut sheet as the standard one. Publish a standard sheet and a Marine sheet with reconciled IP ratings and bracket angles.",
+   "owner": "Product team"
+  },
+  {
+   "name": "Low-clearance recess kit spec sheet",
+   "channel": "Website, Revit and CAD",
+   "audience": "Architects, builders and installers",
+   "claims": [
+    "180 mm (7.1 in) cavity",
+    "Recess box supplied",
+    "Fan and thermal cut-offs"
+   ],
+   "brief": "One page: cut-outs, joist gaps, clearances, fan supply and wiring, in text, not images only.",
+   "owner": "Specification and compliance"
+  },
+  {
+   "name": "Platinum or Tungsten? Range selector",
+   "channel": "Sales and dealer PDF, website",
+   "audience": "Sales, dealers, designers",
+   "claims": [
+    "Matrix 2 so-what lines"
+   ],
+   "brief": "A one-page decision guide: look, ceiling depth, output, voltage, marine, budget.",
+   "owner": "Marketing"
+  },
+  {
+   "name": "Recess cutaway animation",
+   "channel": "Website, YouTube, trade shows",
+   "audience": "Architects, builders",
+   "claims": [
+    "7.1 in cavity",
+    "Fan-cooled recess box",
+    "Glass face flush in the ceiling"
+   ],
+   "brief": "CAD-style cutaway, 30–45 s: the box in the joists, the fan airflow, the heater lifted in, the finished glass.",
+   "owner": "Marketing"
+  },
+  {
+   "name": "Marine sell sheet",
+   "channel": "Print and PDF, boat shows",
+   "audience": "Yards, refit managers, cruise lines",
+   "claims": [
+    "AISI 316",
+    "IPX5",
+    "Lloyd's Register approval"
+   ],
+   "brief": "Vessel references from the library; hold until the marine craft wording is reconciled.",
+   "owner": "Marine team"
+  },
+  {
+   "name": "Hospitality one-pager",
+   "channel": "Print and PDF",
+   "audience": "Restaurants and hotels",
+   "claims": [
+    "Low-glare glass face",
+    "Zones and schedules",
+    "Up to 4500 W"
+   ],
+   "brief": "Venue photography, a sample zone plan and the design service CTA.",
+   "owner": "Hospitality sales"
+  },
+  {
+   "name": "Competitive one-pager: Platinum against Infratech, Heatscope and Heatstrip",
+   "channel": "Internal, sales only",
+   "audience": "Sales and reps",
+   "claims": [
+    "Matrix 3 rows marked Bromic stronger",
+    "Battlecard lines"
+   ],
+   "brief": "Factual, sourced, no disparagement; internal until approved.",
+   "owner": "Specification and compliance"
+  },
+  {
+   "name": "Homeowner landing page refresh",
+   "channel": "bromic.com",
+   "audience": "Homeowners",
+   "claims": [
+    "Heat You Can Feel, Not See",
+    "Flush in a 7.1 in ceiling",
+    "Black or white"
+   ],
+   "brief": "Fix the page issues (wrong cut sheet link, IP rating missing, no app mention); add the recess story and the controls.",
+   "owner": "Digital marketing"
+  }
+ ],
+ "competitive_summary": {
+  "wins": [
+   "A glass-ceramic face with no reflector or guard on show, against Infratech",
+   "Fan-cooled, box-supplied recess in a 7.1 in cavity, against Infratech's lined pocket on flat ceilings only",
+   "1% dimming, zones and schedules, against two levels on Heatscope",
+   "A dedicated 316 Marine version with Lloyd's Register approval",
+   "3 years (Marine 5 on land), against 2 years or less on Heatscope and Heatstrip"
+  ],
+  "parity": [
+   "Listed, flame-free electric heat with set clearances",
+   "Mounting choices: wall, ceiling, poles, flush",
+   "Revit, CAD and design support, as Infratech offers"
+  ],
+  "watch": [
+   "Infratech recesses up to 6 kW and offers 277 V and 480 V; Platinum stops at 4500 W and 240 V",
+   "Infratech offers eight colours plus custom; Platinum is black or white",
+   "Heatscope Pure+ is IP65 for fully exposed spaces; standard Platinum belongs under cover",
+   "Heatstrip Elegance is thinner (48.5 mm) and its flush enclosure a little shallower (about 175 mm) in Australia",
+   "Heatscope publishes a visible-light figure; Bromic does not yet"
+  ],
+  "battlecard": [
+   {
+    "objection": "Infratech is what my architect always specifies.",
+    "answer": "Platinum recesses in a 7.1 in cavity with the box supplied and a cooling fan built in, where Infratech's flush frame needs a five-sided Type X pocket on a flat ceiling, and it shows glass, not a reflector and guard."
+   },
+   {
+    "objection": "Heatscope also has a glass front and costs about the same.",
+    "answer": "Platinum dims in 1% steps with Affinity controls, goes to 4500 W, carries a 3-year warranty and has a fan-cooled low-clearance recess kit; Heatscope offers two heat levels and no recess kit for Pure+."
+   },
+   {
+    "objection": "Do I need 6 kW?",
+    "answer": "Platinum's 4500 W warms up to 143 ft². Where you need 6 kW or 277 V, Tungsten Smart-Heat® Electric Series II is the Bromic choice."
+   },
+   {
+    "objection": "The patio is open to the weather.",
+    "answer": "Standard Platinum is made for covered spaces; for salt air choose Marine (IPX5). For a fully exposed spot, ask us for a design plan."
+   },
+   {
+    "objection": "I want it to match my black-framed windows.",
+    "answer": "Black glass in a stainless body, with black vent covers on the recess kit."
+   },
+   {
+    "objection": "Our ceiling is only 7 inches deep.",
+    "answer": "The low-clearance kit needs 7.1 in from the recess box to the ceiling surface. Send us the section and we will confirm the detail. [[VERIFY: tolerance and options below 7.1 in — Product team]]"
+   }
+  ]
+ },
+ "visuals_note": "Ad images are Bromic photography from the library; check rights per image in images/library/manifest.json before paid use."
+}

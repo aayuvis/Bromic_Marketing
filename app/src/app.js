@@ -1237,8 +1237,8 @@
     const papers = pdfList();
     P.innerHTML = `<div class="mg-papers">${papers.map((it) => `<a class="mg-p" href="#/item/${esc(it.id)}"><span class="mg-pic">${img(it.hero)}</span><span><span class="label">${esc(TYPES[it.type] || it.type)}</span><b>${esc(shortTitle(it.title))}</b></span></a>`).join('')}</div>
       <div class="mg-foot"><a href="#/downloads">All ${papers.length} white papers, as PDFs ${ic.arrow}</a></div>`;
-    M.innerHTML = `<div class="mg-col">${lk('#/pm', 'Product Marketing', 'Tungsten Series II: benefits, claims, matrices, assets and the launch playbook')}</div>
-      <div class="mg-col">${lk('#/campaigns', 'Campaigns', 'Get Bromic: films, receipts, concept bank, trade and the audit')}</div>`;
+    M.innerHTML = `<div class="mg-col"><span class="label">Product marketing</span>${(H.pm || []).map((x) => lk('#/pm/' + x.id, x.short || x.name, (x.m3 && x.m3.competitors ? 'Against ' + x.m3.competitors.map((c) => c.name.split(/[ (]/)[0]).join(', ') : 'Benefits, claims, matrices and the launch playbook'))).join('')}</div>
+      <div class="mg-col"><span class="label">Brand</span>${lk('#/campaigns', 'Campaigns', 'Get Bromic: films, receipts, concept bank, trade and the audit')}</div>`;
     const rn = $('#review-n'); if (rn) rn.textContent = H.items.filter(awaiting).length;
   }
   document.addEventListener('click', (e) => { if (!e.target.closest('.tabs .mega')) document.querySelectorAll('.tabs .mega[open]').forEach((m) => (m.open = false)); });
