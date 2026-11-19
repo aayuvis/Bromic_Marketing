@@ -72,7 +72,7 @@ export function makeEnhancer(images) {
     return `<div class="v-bars"><span class="v-k">${strip(head[1] || '')}</span>${parsed.map((p) => `<div class="v-bar-g"><b>${p.vals.length > 1 ? p.base : p.name}${p.tail}</b>${p.vals.map((v, k) => `<span class="v-bar"><i style="width:${Math.round((v / max) * 100)}%"></i><em>${p.vals.length > 1 && p.vars[k] ? p.vars[k] + (/btu/i.test(p.name) ? ' Btu' : ' W') + ' · ' : ''}${v.toLocaleString('en-US')} ${p.unit}</em></span>`).join('')}</div>`).join('')}</div>`;
   }
   function costBars(t, { rows }) {
-    const first = (c) => +((strip(c).match(/\$?(\d+(\.\d+)?)/) || [])[1] || 0);
+    const first = (c) => +(((strip(c).match(/\$?(\d+([.,]\d+)?)/) || [])[1] || '0').replace(',', '.'));
     const max = Math.max(0.01, ...rows.map((r) => first(r[r.length - 1])));
     let i = 0;
     return t.replace(/<table>/, '<table class="v-cost">').replace(/(<tr>(?:(?!<\/tr>)[\s\S])*?)(<td>)((?:(?!<td>)[\s\S])*?<\/td>\s*<\/tr>)/g, (m, a, td, rest) => {

@@ -1,16 +1,16 @@
 ---
 id: A02-pro
 type: gated-guide
-title: "Ontwerpen met stralingswarmte"
+title: "Je buitenwarmte plannen: editie voor professionals"
 audience: [ARC, BLD]
 stage: [CO, IN]
 cell: ARC-CO
 asset: A02
-summary: "Voor architecten, ontwerpers en bouwers die warmte willen laten voelen als deel van de architectuur. De volledige volgorde, zoals uw tekeningenset die nodig heeft: de ruimte toetsen, energiebron en golflengte, het huidige assortiment per model, dimensioneren, stroom bij 230 V of gas, bediening per kanaal, vrije afstanden en voorschriften."
+summary: "Voor architecten, ontwerpers en bouwers die warmte willen laten voelen als deel van de architectuur. De volledige volgorde, zoals uw tekeningenset die nodig heeft: de ruimte toetsen, warmteoverdracht, energiebron en golflengte, het huidige assortiment per model, inbouwdetails, dimensioneren en plaatsen, stroom bij 230 V of gas, bediening per kanaal en GBS, vrije afstanden, voorschriften en indieningsstukken."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wat is het verschil tussen kortegolf- en langegolf-infraroodverwarmers?"
-meta_description: "Stralingsverwarming buiten ontwerpen: golflengte, het huidige Bromic-assortiment per model, stroom bij 230 V, regelaarkanalen, vrije afstanden en voorschriften."
+meta_description: "Stralingsverwarming buiten ontwerpen: golflengte, het Bromic-assortiment per model, plaatsing, stroom, bediening en GBS, vrije afstanden en indiening."
 cta: {label: "Download de specificatiekit", asset: A11}
 hero: l-010-075
 images: [l-007-034, l-010-076, l-005-022, t-006-016, l-013-106]
@@ -18,8 +18,8 @@ owner_review: productteam + 454 Creative
 status: draft
 gated: true
 related: [ARC-CO-01, ARC-IN-01, BLD-IN-01]
-updated: 2026-11-16
-version: "2.0 concept, revisie 2 (vervangt Planning Guide US v1.2, 10/2021)"
+updated: 2026-11-19
+version: "2.0 concept, revisie 3 (vervangt Planning Guide US v1.2, 10/2021)"
 lang: nl
 translation_of: A02-pro
 translation_status: machine-draft
@@ -146,24 +146,24 @@ sources:
     verified: false
   - id: s18
     publisher: U.S. Energy Information Administration
-    title: "Monthly Energy Review, August 2026, Figure 9.2 (average retail electricity price, commercial, May 2026)"
+    title: "Monthly Energy Review, average retail price of electricity, commercial sector"
     year: 2026
     url: https://www.eia.gov/totalenergy/data/monthly/
-    supports: "US commercial average electricity price 13.54 cents/kWh, May 2026 (rate used in the A20 TCO model)"
+    supports: "US commercial electricity averaged 14.07 cents/kWh, January–May 2026 (rate used in COM-CO-01, COM-IN-01 and the A21 ROI tool)"
     verified: false
   - id: s19
     publisher: U.S. Energy Information Administration
-    title: "Natural Gas Prices, US commercial price, monthly"
-    year: 2026
-    url: https://www.eia.gov/dnav/ng/ng_pri_sum_dcu_nus_m.htm
-    supports: "US commercial natural gas, January–May 2026 average $9.03 per thousand cubic feet, about $0.87 per therm at 10.36 therms per Mcf (rate used in the A20 TCO model)"
+    title: "Natural Gas Monthly, Table 21: average price of natural gas sold to commercial consumers"
+    year: 2025
+    url: https://www.eia.gov/naturalgas/monthly/pdf/table_21.pdf
+    supports: "US commercial natural gas averaged $10.45 per thousand cubic feet, January–April 2025; about $1.01 per therm at about 1,036 Btu per cubic foot (rate used in COM-CO-01)"
     verified: false
   - id: s20
     publisher: U.S. Energy Information Administration
-    title: "Heating Oil and Propane Update, week of 30 March 2026"
-    year: 2026
-    url: https://www.eia.gov/petroleum/heatingoilpropane/
-    supports: "US average residential propane $2.674 per gallon, week of 30 Mar 2026 (rate used in the A20 TCO model)"
+    title: "Winter Fuels Outlook 2025–26 (Short-Term Energy Outlook supplement)"
+    year: 2025
+    url: https://www.eia.gov/outlooks/steo/report/perspectives/2025/10-winterfuels/article.php
+    supports: "US average residential propane forecast $2.46 per gallon for winter 2025–26 (rate used in COM-CO-01; EIA publishes no commercial series)"
     verified: false
   - id: s21
     publisher: National Fire Protection Association
@@ -193,11 +193,16 @@ sources:
     url: https://www.ecmweb.com/national-electrical-code/code-basics/article/20888653/article-424-fixed-electric-space-heating
     supports: "Branch-circuit conductors and overcurrent devices for fixed electric space heating at not less than 125% of the load (210.19(A)(1), 210.20(A), 424)"
     verified: true
+  - id: s25
+    publisher: Bromic Heating
+    title: "The Evolution of Outdoor Heating (AIA/CES course AIA4041002)"
+    year: 2026
+    url: internal
+    supports: "Bromic's own guidance for specifiers: convection, conduction and radiant heat outdoors; direct and indirect heat; fuel profiles; gas heaters generally need larger clearances to combustibles and ventilation, electric can recess; colder air and wind shrink coverage; mounting heights by use (8 ft seated, 10 ft high-top and bar, 12 ft standing or passing through); inverse square law; wall-mount dead zone and heating from both sides; heat mapping, finish, fewer higher-output heaters, coordinating early with MEP and lighting; zoning, smart controls, electrification and heat-and-light fixtures. Internal training material, not a verified source"
+    verified: false
 ---
 
-# Ontwerpen met stralingswarmte
-
-*Editie voor professionals: architecten, ontwerpers en bouwers.*
+# Je buitenwarmte plannen: editie voor professionals
 
 De beste buitenruimtes houden hun gasten vast tot lang na zonsondergang, en de warmte die hen daar houdt, wordt vroeg gekozen. De elektrische verwarmers van Bromic werken met middengolf, de golflengte die het grootste deel van een ruimte bestrijkt, de temperatuur het sterkst laat stijgen en haar warmte het verst draagt, zonder storende gloed [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]]. Middengolf is in ongeveer 30 seconden warm; lange golf heeft ongeveer 5 minuten nodig en is het gevoeligst voor wind[^s3]. Maak die keuze in het schetsontwerp, samen met de energiebron, de montage en de belasting, in de volgorde waarin uw tekeningenset ze nodig heeft.
 
@@ -207,19 +212,21 @@ Minder dan één op de vier Amerikaanse huiseigenaren geeft verwarming prioritei
 
 ## Uw volgorde, stap voor stap
 
-| Stap | Resultaat voor de tekeningen |
-|---|---|
-| 1 Is het buiten? | Configuratie, open omtrek in % |
-| 2 Opmeten | Verwarmde zones boven de zitplaatsen, m² per zone, montagevlakken en -hoogtes |
-| 3 Energiebron kiezen | Elektrisch of gas per zone; golflengte |
-| 4 Stijl en montage | Model, afwerking, montagewijze, toebehoren |
-| 5 Dimensioneren | Aantal per zone ([rekenhulp A03](asset:A03)) |
-| 6 Stroom of gas | Stroom per verwarmer, groepen, gasbelasting en -aansluiting |
-| 7 Bediening | Regelaar en kanalen per zone, wandschakelaar, app of GBS |
-| 8 Vrije afstanden en voorschriften | Hoogtes, vrije afstanden, certificering, vergunningstraject |
-| 9 Ontwerpservice | Indeling en tekening met verwarmd oppervlak van Bromic ([A07](asset:A07)) |
+| Stap | Beslissing | Resultaat voor de tekeningen |
+|---|---|---|
+| 1 | Is het buiten? | Configuratie, open omtrek in % |
+| 2 | De warmte in kaart brengen | Verwarmde zones boven de zitplaatsen, m² per zone, montagevlakken en -hoogtes |
+| 3 | Energiebron en golflengte kiezen | Elektrisch of gas per zone |
+| 4 | Stijl, montage en inbouw | Model, afwerking, montagewijze, toebehoren, inbouwdetail |
+| 5 | Dimensioneren en plaatsen | Aantal en montagehoogte per zone ([rekenhulp A03](asset:A03)) |
+| 6 | Stroom of gas | Stroom per verwarmer, groepen, gasbelasting en -aansluiting |
+| 7 | Bediening | Regelaar en kanalen per zone, wandschakelaar, app of GBS |
+| 8 | Vrije afstanden en voorschriften | Hoogtes, vrije afstanden, certificering, vergunningstraject |
+| 9 | Ontwerpservice en indieningsstukken | Indeling en tekening met verwarmd oppervlak van Bromic ([A07](asset:A07)); indieningspakket |
 
-## 1. Ga na of de ruimte als buitenruimte telt
+Elke stap sluit af met 'Uw notities', een korte kaart om per project in te vullen, en samen vormen ze de verwarmingsopgave die met de tekeningenset meegaat.
+
+## Stap 1. Ga na of de ruimte als buitenruimte telt
 
 Voor het ontwerp van de verwarming telt een ruimte als buitenruimte als minstens 30% van de horizontale omtrek permanent open is. Een gedeeltelijke overkapping houdt een zachte warmtewolk vast die een convectieve bijdrage levert; het dimensioneren rust altijd op het verwarmd oppervlak door straling[^s3].
 
@@ -235,18 +242,33 @@ Regels volgens de gids van 2021[^s3].
 [[DIAGRAM: Plattegrond en doorsnede van de vier configuraties, met de opening in de omtrek gearceerd en als percentage gemaat.]]
 
 - [ ] Open omtrek ______% (alleen permanente openingen)[^s3]
-- [ ] Toekomstige omsluiting op de tekeningen aangegeven
+- [ ] Toekomstige omsluiting op de tekeningen aangegeven? J / N
 
-## 2. De verwarmde zones opmeten
+## Stap 2. Breng de warmte in kaart voordat het plafond vol is
 
-- [ ] Verwarmde zones getekend boven zitplaatsen en bars, niet boven looproutes; m² per zone
-- [ ] Montagevlakken: overstek, balk, wand, paal; afgewerkte hoogtes boven de vloer
-- [ ] Plafondopbouw en diepte van de holte waar wordt ingebouwd
-- [ ] Blootstelling: heersende wind, water, hoogteligging
+Begin met een warmtekaart. Markeer waar mensen zitten, eten, staan en doorlopen, en leg de warmte over die zones voordat u een afwerking of montage kiest, zodat het comfort vanaf het begin in de indeling zit[^s25]. Verwarmers concurreren in het overstek met inbouwspots, ventilatoren, luidsprekers en kanalen, en afstemming met de installatie- en lichtadviseurs in het voorlopig ontwerp voorkomt herstelwerk zodra het plafondplan vol is[^s25].
 
-## 3. Energiebron en golflengte kiezen
+Minder, krachtigere verwarmers op de juiste plek bedienen een ruimte meestal beter dan veel kleine, en geven een rustiger plafond. Stem de afwerking af op de omringende materialen, van zwart en wit tot rvs en het grafiet van de Select-collectie die binnenkort leverbaar is, zodat de verwarmer bij de architectuur hoort[^s25][^s2].
 
-In de open lucht stijgt convectiewarmte op en verdwijnt ze. Hete lucht kan een open ruimte niet op temperatuur houden en buitenverwarming kan niet met een thermostaat worden geregeld, dus rust elk buitenontwerp op stralingswarmte die op mensen is gericht[^s3].
+- [ ] Verwarmde zones getekend boven zitplaatsen en bars, niet boven looproutes: ______ m² per zone
+- [ ] Montagevlakken: overstek / balk / wand / paal; afgewerkte hoogtes boven de vloer ______
+- [ ] Plafondopbouw en diepte van de holte waar wordt ingebouwd: ______
+- [ ] Blootstelling: heersende wind ______; aan het water? J / N
+- [ ] Verwarmers afgestemd met verlichting, ventilatoren en kanalen op het plafondplan? J / N
+
+## Stap 3. Energiebron en golflengte kiezen
+
+### Hoe warmte zich buiten verplaatst
+
+| Vorm | Hoe ze warmte overdraagt | Buiten |
+|---|---|---|
+| Convectie | Verwarmt de lucht, die opstijgt en door koelere lucht wordt vervangen | Stijgt op en waait weg; werkt alleen waar de lucht wordt vastgehouden |
+| Geleiding | Door direct contact, van oppervlak naar oppervlak | Verwarmt alleen wat een gast aanraakt |
+| Straling (infrarood) | Elektromagnetische golven die mensen en oppervlakken opnemen | Verwarmt mensen direct en houdt stand bij een licht briesje |
+
+Warmteoverdracht: richtlijnen van Bromic[^s25]. In de open lucht stijgt convectiewarmte op en verdwijnt ze, hete lucht kan een open ruimte niet op temperatuur houden en buitenverwarming kan niet met een thermostaat worden geregeld, dus rust elk buitenontwerp op stralingswarmte die op mensen is gericht[^s3].
+
+Hoe een verwarmer zijn energie afgeeft, telt net zo zwaar als de golflengte. Een indirecte verwarmer, zoals een paddenstoelverwarmer, straalt in alle richtingen en verliest een groot deel van zijn vermogen naar boven; een gerichte verwarmer stuurt het grootste deel van zijn vermogen naar de zone waar mensen zitten, zodat meer energie de mensen eronder bereikt[^s25][^s3].
 
 | | Verwarmd oppervlak | Temperatuurstijging | Reikwijdte van de warmte | Zichtbare gloed | Opwarmtijd |
 |---|---|---|---|---|---|
@@ -256,23 +278,32 @@ In de open lucht stijgt convectiewarmte op en verdwijnt ze. Hete lucht kan een o
 
 Opwarmtijd en wind: Bromic Planning Guide v1.2[^s3]. Verwarmd oppervlak, temperatuurstijging, reikwijdte en gloed: testgegevens van Bromic volgen. [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]] [[VERIFY: zichtbare gloed en verblinding van kortegolf — productteam]]
 
-Gerichte verwarmers sturen het grootste deel van hun vermogen naar de zone waar mensen zitten, zodat de energie de mensen eronder bereikt[^s3]. [[VERIFY: indeling per golflengte van elk huidig model, en of de elementtemperaturen van 2021 opnieuw worden gepubliceerd — productteam]]
+[[VERIFY: indeling per golflengte van elk huidig model, en of de elementtemperaturen van 2021 opnieuw worden gepubliceerd — productteam]]
 
 | | Elektrisch | Gas |
 |---|---|---|
-| Ruimte | Overdekt en half overdekt; overstekken, wanden, stangen | Grotere, opener ruimtes; vrijstaand |
+| Ruimte | Overdekt, half besloten en open; overstekken, wanden, stangen | Grotere, opener, goed geventileerde ruimtes; vrijstaand |
 | Aansluiting | Eigen groepen; 230 V, 50 Hz in Nederland | Aardgas of propaan, plus een elektrische voeding voor ingebouwde gasverwarmers (in de VS 110 V, 2 A)[^s10][^s11] [[VERIFY: voedingsspanning van ingebouwde gasverwarmers voor de Nederlandse markt — Bromic Benelux distributor]] |
-| Integratie | Verzonken, vlak, pendel | Opbouw; hittescherm verkleint de vrije ruimte boven |
+| Integratie | Verzonken, vlak, pendel | Opbouw op wand of plafond; niet verzonken |
+| Afstand tot brandbare materialen | Meestal kleiner; volgens handleiding | Meestal groter; hittescherm verkleint de vrije ruimte boven |
+| Verbranding | Geen bij de verwarmer | De ruimte moet geventileerd blijven |
 | Bediening | Aan/uit of dimmen in stappen van 1%, zones, tijdschema's, app, GBS | Aan/uit, zones, tijdschema's, app, GBS |
 | Vakman | Gekwalificeerde elektrotechnisch installateur | Gekwalificeerde gasinstallateur en elektrotechnisch installateur |
 
-Waar nieuwe gasaansluitingen worden beperkt, zet de gids over elektrificatie en regelgeving ([A12](asset:A12)) uiteen wat er geldt.
+Afstand en ventilatie: richtlijnen van Bromic[^s25], te lezen samen met de handleiding van elk model (stap 8). [[VERIFY: afstanden tot brandbare materialen per model uit de installatiehandleidingen — productteam]]
+
+### Waar voorschriften en opdrachtgevers naartoe gaan
+
+Steeds meer steden beperken nieuwe gasaansluitingen en verplaatsbare propaantoestellen, en opdrachtgevers vragen steeds vaker om volledig elektrische buitenruimtes[^s25]. Een elektrisch ontwerp met bediening in zones en tijdschema's, en met armaturen die warmte en licht in één brengen, zoals de Eclipse, hoeft het minst te worden aangepast als de voorschriften veranderen[^s25][^s7]. Waar nieuwe gasaansluitingen worden beperkt, zet de gids over elektrificatie en regelgeving ([A12](asset:A12)) uiteen wat er geldt.
+
+- [ ] Energiebron per zone: elektrisch / aardgas / propaan
+- [ ] Beperkingen voor gas op de locatie gecontroleerd? J / N
 
 ![Stedelijk dakterras met een verwarmer verzonken in een warm houten overstek](img:t-006-016)
 
-## 4. Stijl en montage in het huidige assortiment
+## Stap 4. Stijl, montage en inbouw in het huidige assortiment
 
-| Model | Vermogen en spanning | Verwarmd oppervlak | Montage | IP / certificering | Garantie |
+| Familie | Vermogen en spanning | Verwarmd oppervlak | Montage | IP / certificering | Garantie |
 |---|---|---|---|---|---|
 | Tungsten Smart-Heat Electric | 2000 / 3000 / 4000 / 6000 W; 220–240 V | 6 / 9 / 12 / 15 m² | Verzonken, plafond, wand | IPX4; ETL/cETL 4005951 | 2 jaar verwarmer, 7 jaar elementen[^s4] |
 | Platinum Smart-Heat Electric | 2300 / 3400 / 4500 W; 220–240 V | 6 / 10 / 13 m² | Wand, stang (200 mm meegeleverd), verzonken | ETL/cETL 5001799 | 3 jaar[^s5] |
@@ -299,24 +330,45 @@ De waarden van de productpagina's zijn gelezen op 29 oktober 2026, en waar ze ve
 | Hittescherm | Gas (inbouw) | Dubbelwandig rvs; verkleint de vrije ruimte boven. Aanbevolen als de ruimte erboven kleiner is dan 1.100 mm (Platinum) of 1.070 mm (Tungsten), of als het toestel onbeschut hangt[^s10][^s11] |
 | Plafondstang | Gas (inbouw) | Twee verwarmers rug aan rug onder vlakke of schuine plafonds[^s3] |
 
-[[VERIFY: artikelnummers van accessoires, uitsparingen en compatibiliteit van inbouwsets, ook voor het inbouwen van Coastal en Select — productteam]]
+### Het inbouwdetail uitwerken
+
+Een verzonken verwarmer geeft warmte die je voelt zonder haar te zien, en houdt de lijn van het overstek rustig[^s25]. Inbouw is een elektrisch detail: Platinum en Tungsten Electric worden verzonken met een inbouwset, en de collecties Coastal en Select, die binnenkort leverbaar zijn, voegen inbouw met weinig vrije ruimte toe voor ondiepe holtes, bij renovatie en nieuwbouw[^s2][^s25]. Ingebouwde gasverwarmers worden op wand of plafond gemonteerd.
+
+Teken elke inbouw als eigen detail, afgestemd met de constructie en het plafondplan: de inbouwset en uitsparing, de diepte van de holte boven het afgewerkte plafond, raveelwerk of achterhout rond de opening, de plek en bereikbaarheid van de lasdoos, en de afstanden die de handleiding voorschrijft tot de constructie en tot brandbare materialen. [[VERIFY: artikelnummers van accessoires, uitsparingen, holtediepten en compatibiliteit van inbouwsets, ook voor het inbouwen van Coastal en Select — productteam]]
 
 - [ ] Model, vermogen, spanning, afwerking en artikelnummer per codering
 - [ ] Modellen die binnenkort leverbaar zijn, hebben een goedgekeurd leverbaar alternatief
-- [ ] Inbouwsets, stangen en hittescherm opgenomen in de staat
+- [ ] Inbouwsets, stangen en hittescherm opgenomen in de staat; inbouwdetail getekend? J / N
 
 ![Close-up van een zwart Tungsten Select-rooster dat warm gloeit](img:l-007-034)
 
-## 5. Elke zone dimensioneren
+## Stap 5. Elke zone dimensioneren en plaatsen
 
 Verwarmers per zone = oppervlak van de zone ÷ effectief verwarmd oppervlak per verwarmer, naar boven afgerond. De [rekenhulp A03](asset:A03) past de vermelde correcties toe op het nominale verwarmde oppervlak hierboven, namelijk open ruimte 0,85, deels overdekt 1,0, overdekt 1,1; mild 1,0, koel 0,85, koud 0,7; montage tot 3,0 m 1,0, tot 3,7 m 0,9, boven 3,7 m 0,8 (ingebouwde verwarmers). Dit zijn werkaannames die nog op goedkeuring van Bromic wachten; Bromic heeft ze niet als waarden gepubliceerd. [[VERIFY: factoren voor overkapping, klimaat en hoogte in A03 — productteam]] Vrijstaande verwarmers (Tungsten Freestanding Gas, Eclipse Freestanding) bedienen bovendien niet meer dan vier stoelen elk, omdat zittende gasten hun stralingswarmte afschermen, dus reken met het maximum van (oppervlak ÷ effectief verwarmd oppervlak) en (stoelen ÷ 4), en ga uit van ongeveer 1,9 m² per stoel als het aantal stoelen niet bekend is.
 
+De factoren bestaan omdat dezelfde verwarmer in koudere lucht minder oppervlak bestrijkt en wind warmte uit de zone trekt. Neem op een blootgestelde locatie glazen screens of andere windschermen aan de windzijde op in het verwarmingsontwerp[^s25].
+
 **Uitgewerkt voorbeeld.** Een overdekt eetterras van 4,9 × 7,3 m in een koel klimaat, met een overstek op 3,0 m: ongeveer 35,7 m². Tungsten Electric 6000 W: 14,9 × 1,1 × 0,85 × 1,0 = 13,9 m² effectief; 35,7 ÷ 13,9 = 2,6, dus **drie verwarmers**, elk op een eigen Affinity Dimmer-kanaal (een 5-kanaalsregelaar), met een wandschakelaar en de app.
 
-- [ ] Aantal per zone, met de gebruikte factoren vermeld
-- [ ] Warmtebereik over de zitplaatsen gelegd
+### Montagehoogte en plaatsing
 
-## 6. Stroom of gas naar elke verwarmer
+De stralingsintensiteit neemt af met het kwadraat van de afstand: op twee keer de afstand van de verwarmer bereikt ongeveer een kwart van de warmte de gast[^s25]. Te hoog gemonteerd gaat veel vermogen verloren voordat het aankomt; te laag wordt een plek eronder te heet. Het hoofd van een zittende gast is ongeveer 1,2 m boven de vloer, dus de hoogtes volgen het gebruik van elke zone.
+
+| Gebruik van de zone | Montagehoogte (richtlijn van Bromic) | Afstand tot het hoofd van een gast |
+|---|---|---|
+| Zittend aan gewone tafels | Ongeveer 2,4 m | Ongeveer 1,2 m |
+| Statafels en bars | Ongeveer 3,0 m | Ongeveer 1,2 m |
+| Staruimtes, entrees en looproutes | Ongeveer 3,7 m | Ongeveer 1,8 m |
+
+Montagehoogtes naar gebruik: richtlijnen van Bromic[^s25], nooit onder de minimale hoogte van het model (stap 8). [[VERIFY: montagehoogtes naar gebruik tegen de installatiehandleiding van elk model en de hoogtefactoren van A03 — productteam]]
+
+Wandverwarmers stralen hun warmte naar voren, dus een tafel die direct eronder tegen de wand staat, staat in een dode zone. Zet de tafel naar voren in de warmte, en plaats bij bredere tafels verwarmers aan beide kanten, zodat elke gast in de zone zit; hetzelfde geldt voor de afstand van de wand tot de rugleuning van elke stoel[^s25].
+
+- [ ] Aantal per zone, met de gebruikte factoren vermeld: ______
+- [ ] Montagehoogte per zone: ______ m boven de vloer
+- [ ] Warmtebereik over de zitplaatsen gelegd; geen tafel in een dode zone? J / N
+
+## Stap 6. Stroom of gas naar elke verwarmer
 
 **De stroom is I = P ÷ U.** In Nederland is dat bij 230 V: stroom = vermogen ÷ 230. De groepen, beveiligingen en kabeldoorsneden volgen NEN 1010 en de installatiehandleiding; neem geen Amerikaanse automaatgroottes over. Ter vergelijking: in de VS geldt vaste elektrische ruimteverwarming als continue belasting en worden groepsleidingen en beveiligingen gedimensioneerd op minimaal 125% van de belasting (NEC 424 met 210.19(A)(1) en 210.20(A))[^s24][^s21]. [[VERIFY: groepsdimensionering voor vaste elektrische buitenverwarmers volgens NEN 1010 — Bromic Benelux distributor]]
 
@@ -344,9 +396,9 @@ Voor details van de voorbekabeling, waaronder dozen, achterhout en leidingen voo
 - [ ] Capaciteit van de groepenkast; lasdozen gemaat
 - [ ] Gasbelasting, leidingdiameter, afsluiters; elektrische voeding bij elke ingebouwde gasverwarmer
 
-## 7. Schrijf de bediening voor bij elke verwarmer
+## Stap 7. Schrijf de bediening voor bij elke verwarmer
 
-Affinity Smart-Heat® Controls zorgen ervoor dat een ruimte precies daar en precies dan wordt verwarmd waar en wanneer ze wordt gebruikt, en daarom heeft elke verwarmerstaat een regel voor de bediening. Schrijf het volledige pakket voor van regelaar en kanalen, wandschakelaar, en app of GBS.
+Affinity Smart-Heat® Controls zorgen ervoor dat een ruimte precies daar en precies dan wordt verwarmd waar en wanneer ze wordt gebruikt, en daarom heeft elke verwarmerstaat een regel voor de bediening. Schrijf het volledige pakket voor van regelaar en kanalen, wandschakelaar, en app of GBS. Zonering is de strategie voor efficiëntie: één kanaal per zone die zelfstandig opengaat, zodat een terras alleen de gebruikte delen verwarmt, elk op een eigen niveau[^s25].
 
 | Onderdeel | Kanalen | Capaciteit per kanaal | Voorschrijven bij |
 |---|---|---|---|
@@ -362,14 +414,18 @@ De bereiken van 208–277 V en 120–277 V omvatten het Nederlandse net van 230 
 
 De regelaars hebben beschermingsgraad IP54 en een werktemperatuur van −20 tot 30 °C; wifi op 2,4 GHz, Bluetooth tot ca. 9 m, optioneel Ethernet; UL 60730-1, CAN/CSA E60730-1[^s13]. Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht. Alexa en Google Home hebben geen print nodig; de compatibiliteit met Control4, Crestron en Lutron verschilt en kan extra hardware of configuratie vragen[^s2][^s17]. [[VERIFY: capaciteit van de regelaars, compatibiliteit met Cobalt en gas (specificatietabel tegenover FAQ), en bediening van de Tungsten Freestanding Gas — productteam]]
 
+### De werking beschrijven
+
+Leg in een project met een GBS vroeg vast wie de warmte aanstuurt. Omdat de BMS-modus de app uitschakelt[^s17], moet de beschrijving van de regeling een van twee routes noemen: de app en wandschakelaars sturen tijdschema's en handbediening, of het GBS stuurt elke zone via de Ethernet- of 0–10 V-interface van de uitbreidingsprint, met de wandschakelaar als lokale bediening. Stem de interface af met de integrators van het GBS en de lichtregeling, en toon op de regeltekening de regelaar, zijn data- en voedingsleidingen en het kanaal van elke zone.
+
 - [ ] Regelaar, aantal kanalen en indeling van verwarmers per kanaal
 - [ ] Plek van de regelaar: bereikbaar, beschermd, binnen wifi-bereik
 - [ ] Doos voor de wandschakelaar bij de entree
-- [ ] App of GBS; integrator met naam genoemd
+- [ ] Route van de regeling: app / GBS; integrator met naam genoemd: ______
 
 ![Eclipse-verwarmer die zacht gloeit met zijn dimbare lichtrand](img:l-013-106)
 
-## 8. Bevestig vrije afstanden en voorschriften vroeg
+## Stap 8. Bevestig vrije afstanden en voorschriften vroeg
 
 | Montage | Minimale hoogte boven afgewerkte vloer |
 |---|---|
@@ -387,7 +443,7 @@ De regelaars hebben beschermingsgraad IP54 en een werktemperatuur van −20 tot 
 
 [[VERIFY: actuele Nederlandse voorschriften en de vereiste Europese markering (CE, verordening gastoestellen) per model — Bromic Benelux distributor]]
 
-Vrije afstanden tot plafond, zijkanten en brandbare materialen komen uit de installatiehandleiding en de certificering van elk model, en elk model wordt op zichzelf gelezen, nooit geïnterpoleerd uit een ander model. [[VERIFY: tabel met vrije afstanden per model uit de actuele handleidingen — productteam]]
+Vrije afstanden tot plafond, zijkanten en brandbare materialen komen uit de installatiehandleiding en de certificering van elk model, en elk model wordt op zichzelf gelezen, nooit geïnterpoleerd uit een ander model. Een verwarmer die buiten zijn vrije afstanden is gemonteerd, kan de zone te weinig verwarmen en tegelijk de certificering schenden[^s25]. [[VERIFY: tabel met vrije afstanden per model uit de actuele handleidingen — productteam]]
 
 *Alleen indicatief. De geldende uitgave van de voorschriften en lokale aanvullingen zijn bepalend. Stem af met uw gemeente, en laat verwarmers installeren door een gekwalificeerde elektrotechnisch installateur of gasinstallateur volgens de instructies van de fabrikant.*
 
@@ -397,12 +453,28 @@ Vrije afstanden tot plafond, zijkanten en brandbare materialen komen uit de inst
 
 ![Witte verwarmer netjes tussen pergolalamellen geplaatst](img:l-010-076)
 
-## 9. Ontwerp het samen met ons
+## Stap 9. Ontwerp het samen met ons en stel de indieningsstukken samen
 
-Stuur plattegronden, doorsneden of foto's naar de ontwerpservice van Bromic, en ons team levert kosteloos de keuze van verwarmers, de plaatsing en tekeningen met het verwarmd oppervlak[^s2]. De gebruikskosten per verwarmer per uur zijn kW × uw prijs per kWh (elektrisch); kW × uw gasprijs per kWh (aardgas; reken de prijs per m³ om met de calorische waarde op uw energierekening); kW ÷ 7,08 kWh per liter[^s23] × uw prijs per liter (propaan). Een Tungsten 4000 W gebruikt dus 4 kWh per uur; een Platinum Gas van 11,7 kW gebruikt 11,7 kWh aardgas per uur, of ongeveer 1,65 liter propaan. In het Amerikaanse rekenvoorbeeld van het A20-model (13,54 dollarcent per kWh, EIA utiliteit, mei 2026[^s18]; $0,87 per therm aardgas, EIA utiliteit, jan.–mei 2026[^s19]; $2,674 per gallon propaan, EIA particulier, 30 maart 2026[^s20]) kost een Tungsten 4000 W $0,54 per uur en een Platinum Gas van 11,7 kW $0,35 op aardgas of $1,16 op propaan. Dit zijn Amerikaanse prijzen, niet omgerekend. [[VERIFY: tarieven 2026 — financiën]]
+Stuur plattegronden, doorsneden of foto's naar de ontwerpservice van Bromic, en ons team levert kosteloos de keuze van verwarmers, de plaatsing en tekeningen met het verwarmd oppervlak[^s2].
 
-- [ ] Tekeningen naar de ontwerpservice gestuurd
-- [ ] Tekening met verwarmd oppervlak ontvangen en afgestemd
+De gebruikskosten per verwarmer per uur zijn kW × uw prijs per kWh (elektrisch); kW × uw gasprijs per kWh (aardgas; reken de prijs per m³ om met de calorische waarde op uw energierekening); kW ÷ 7,08 kWh per liter[^s23] × uw prijs per liter (propaan). De bedragen hieronder gebruiken Amerikaanse gemiddelden voor bedrijven: 14,07 dollarcent per kWh (EIA, januari–mei 2026)[^s18]; $1.01 per therm aardgas (EIA, januari–april 2025)[^s19]; $2.46 per gallon propaan (EIA-prognose winter 2025–26)[^s20]. Woningen betalen particuliere tarieven; gebruik het tarief van uw opdrachtgever. Dit zijn Amerikaanse prijzen, niet omgerekend. [[VERIFY: tarieven 2026 — financiën]]
+
+| Verwarmer op vol vermogen | Energie per uur | Kosten per uur |
+|---|---|---|
+| Tungsten Electric 4000 / 6000 W | 4 / 6 kWh | $0.56 / $0.84 |
+| Platinum Electric 4500 W | 4,5 kWh | $0.63 |
+| Eclipse Electric 2900 W | 2,9 kWh | $0.41 |
+| Platinum Gas 11,7 kW, aardgas / propaan | 11,7 kWh / 1,65 L | $0.40 / $1.07 |
+
+Een volledig indieningspakket per verwarmercodering bevat de onderstaande stukken.
+
+- [ ] Productblad met model, vermogen, spanning, afwerking en artikelnummer
+- [ ] Pagina's van de installatiehandleiding over montagehoogtes en vrije afstanden
+- [ ] Certificering en keurmerk
+- [ ] Aansluitschema, stroom en groepenoverzicht
+- [ ] Staat van de bediening: regelaar, kanalen, wandschakelaar, app of GBS
+- [ ] Details van inbouw, stang of hittescherm
+- [ ] Tekening met verwarmd oppervlak van de ontwerpservice; garantievoorwaarden
 
 ![Tungsten Coastal (binnenkort leverbaar) vlak verzonken in een wit plafond](img:l-005-022)
 

@@ -1,17 +1,17 @@
 ---
 id: A02-commercial
 type: gated-guide
-title: "Warming Your Terrace, Seat By Seat"
+title: "Planning Your Outdoor Heat: Commercial Edition"
 slug: outdoor-heating-planning-guide-commercial
 audience: [COM]
 stage: [CO, IN]
 cell: COM-CO
 asset: A02
-summary: "For restaurants, hotels and venues that want guests outdoors for more of the year. What a heated seat is worth, then nine steps through five-year fuel cost, zoned controls, the fire code and rollout across sites."
+summary: "For restaurants, hotels and venues that want guests outdoors for more of the year. What a heated seat is worth, then nine steps through radiant heat, five-year fuel cost, placement over the table, zoned controls, the fire code and rollout across sites."
 primary_keyword: commercial patio heater cost
 secondary_keywords: [restaurant patio heaters, propane vs electric patio heater, natural gas patio heater restaurant, patio heater roi]
 ai_prompt: "Is propane or electric cheaper for restaurant patio heaters?"
-meta_description: "Commercial patio heater cost, seat by seat: the value of a heated seat, five-year fuel cost, zoned controls, fire-code pointers and multi-site rollout."
+meta_description: "Commercial patio heater cost, seat by seat: what a heated seat is worth, five-year fuel cost, placement, zoned controls, fire code and rollout, with notes."
 cta: {label: "Get your ROI assessment", asset: A21}
 hero: l-013-104
 images: [l-005-024, l-013-111, l-013-107, l-019-164, p-003-006]
@@ -19,8 +19,8 @@ owner_review: Product team + 454 Creative
 status: draft
 gated: true
 related: [COM-CO-01, COM-IN-01, ARC-CO-01]
-updated: 2026-11-16
-version: "2.0 draft, revision 2 (replaces Planning Guide US v1.2, 10/2021)"
+updated: 2026-11-19
+version: "2.0 draft, revision 3 (replaces Planning Guide US v1.2, 10/2021)"
 sources:
   - id: s1
     publisher: National Restaurant Association
@@ -143,24 +143,24 @@ sources:
     verified: false
   - id: s18
     publisher: U.S. Energy Information Administration
-    title: "Monthly Energy Review, August 2026, Figure 9.2 (average retail electricity price, commercial, May 2026)"
+    title: "Monthly Energy Review, average retail price of electricity, commercial sector"
     year: 2026
     url: https://www.eia.gov/totalenergy/data/monthly/
-    supports: "US commercial average electricity price 13.54 cents/kWh, May 2026 (rate used in the A20 TCO model)"
+    supports: "US commercial electricity averaged 14.07 cents/kWh, January–May 2026 (rate used in COM-CO-01, COM-IN-01 and the A21 ROI tool)"
     verified: false
   - id: s19
     publisher: U.S. Energy Information Administration
-    title: "Natural Gas Prices, US commercial price, monthly"
-    year: 2026
-    url: https://www.eia.gov/dnav/ng/ng_pri_sum_dcu_nus_m.htm
-    supports: "US commercial natural gas, January–May 2026 average $9.03 per thousand cubic feet, about $0.87 per therm at 10.36 therms per Mcf (rate used in the A20 TCO model)"
+    title: "Natural Gas Monthly, Table 21: average price of natural gas sold to commercial consumers"
+    year: 2025
+    url: https://www.eia.gov/naturalgas/monthly/pdf/table_21.pdf
+    supports: "US commercial natural gas averaged $10.45 per thousand cubic feet, January–April 2025; about $1.01 per therm at about 1,036 Btu per cubic foot (rate used in COM-CO-01)"
     verified: false
   - id: s20
     publisher: U.S. Energy Information Administration
-    title: "Heating Oil and Propane Update, week of 30 March 2026"
-    year: 2026
-    url: https://www.eia.gov/petroleum/heatingoilpropane/
-    supports: "US average residential propane $2.674 per gallon, week of 30 Mar 2026 (rate used in the A20 TCO model)"
+    title: "Winter Fuels Outlook 2025–26 (Short-Term Energy Outlook supplement)"
+    year: 2025
+    url: https://www.eia.gov/outlooks/steo/report/perspectives/2025/10-winterfuels/article.php
+    supports: "US average residential propane forecast $2.46 per gallon for winter 2025–26 (rate used in COM-CO-01; EIA publishes no commercial series)"
     verified: false
   - id: s21
     publisher: National Fire Protection Association
@@ -217,13 +217,18 @@ sources:
     url: https://www.restaurant-furniture.com/resources/guides/restaurant-seating-capacity-guide
     supports: "Space per seat: full-service dining 12–15 ft², fine dining 18–20 ft²; 20 ft² a seat used so tables are not crammed"
     verified: false
+  - id: s29
+    publisher: Bromic Heating
+    title: "The Evolution of Outdoor Heating (AIA/CES course AIA4041002)"
+    year: 2026
+    url: internal
+    supports: "Bromic's own guidance: comfort and predictability keep outdoor space in use; convection, conduction and radiant heat outdoors; short wave glare can change how food looks; fuel profiles (natural gas plumbed and fixed with yearly service, propane portable and the costliest to run, electric with no combustion and few moving parts); colder air and wind shrink the area a heater covers; mounting heights by use (8 ft seated, 10 ft high-top and bar, 12 ft standing or passing through); inverse square law; wall-mount dead zone; zoning and electrification trends. Internal training material, not a verified source"
+    verified: false
 ---
 
-# Warming Your Terrace, Seat By Seat
+# Planning Your Outdoor Heat: Commercial Edition
 
-*Operator edition, for restaurants, hotels, bars and venues.*
-
-A warm terrace keeps guests at the table for one more course and fills seats on nights that would otherwise sit empty. At US average 2026 prices, natural gas is the least expensive fuel per square foot heated and propane the most, with electric between them. In a 30-seat, 600 ft² example (Step 3), five years of propane costs more than twice as much as electric before cylinder handling, because a freestanding heater serves no more than 4 seats, while electric costs about three times as much as natural gas. The purchase price is the smallest number in the decision; energy, handling, controls and the fire code carry far more weight.
+A warm terrace keeps guests at the table for one more course, and fills covers on nights that would otherwise sit empty. At US average commercial rates, natural gas costs the least to run, electric a little more, and propane more than twice as much as electric before anyone has swapped a cylinder (Step 3). The purchase price is the smallest number in the decision; energy, handling, controls and the fire code carry far more weight.
 
 Outdoor dining has become part of how guests expect to eat. In a 2020 National Restaurant Association survey, 74% of full-service operators offered outdoor seating and 49% were extending the outdoor season, including with tents or patio heaters[^s1].
 
@@ -231,82 +236,123 @@ Outdoor dining has become part of how guests expect to eat. In a 2020 National R
 
 ## What A Heated Seat Is Worth To Your Venue
 
-**Added revenue = heated seats × turns per night × average check × extra operating nights per year × capture rate**
+**Added revenue = heated seats × turns per night × average check × extra operating nights per year × share of seats filled**
 
 **Payback (months) = all-in installed cost ÷ (added contribution per year ÷ 12)**
 
-Work out payback on contribution margin, and count only the nights the patio would stay empty without heat. Your POS gives you turns and average check, and last year's weather closures give you the extra nights. [[VERIFY: benchmark ranges for turns, check and season extension by climate — Hospitality sales]] The [ROI calculator](asset:A21) runs the numbers for your site.
+Guests settle in when they can count on being comfortable, so a heated terrace becomes a space you can book, staff and sell with confidence, whatever the forecast[^s29]. Work out payback on contribution margin, and count only the nights the terrace would stay empty without heat. Your POS gives you turns and average check, and last year's weather closures give you the extra nights. [[VERIFY: benchmark ranges for turns, check and season extension by climate — Hospitality sales]]
+
+| Worked example (COM-IN-01) | Value |
+|---|---|
+| Heated seats, turns, average check | 40 seats, 1.5 turns, $45 |
+| Extra nights a year; share of seats filled | 60 nights; 50% |
+| Added revenue | 40 × 1.5 × $45 × 60 × 50% = $81,000 |
+| Contribution at a 30% margin | $24,300 |
+| Running cost: 7 × Platinum 4500 W × 5 h × 60 nights at 14.07¢/kWh | 9,450 kWh = $1,330 |
+| Net gain a year | $22,970 |
+| Payback on a $35,000 installed placeholder | 18.3 months |
+
+The installed cost is a placeholder for a full quote including heaters, Affinity Smart-Heat® Controls (sold separately), wiring and permits, and it is not a Bromic price. [[VERIFY: installed cost per heater — Hospitality sales]] The same sum comes out at 38.8 months with a quarter of the heated seats filled and 12.0 months with three quarters. The [ROI calculator](asset:A21) runs the numbers for your site.
+
+Warmth earns its place beyond the dining terrace, too. Hotel entrances and valet lanes, rooftop bars, pool decks and drive-thru lanes are all spaces guests once hurried through, and gentle radiant heat turns them into places to linger[^s29].
 
 ## Nine Steps To A Terrace Guests Linger On
 
-| Step | Decision | Tool |
+| Step | Decision | You'll need |
 |---|---|---|
-| 1 | Is it outdoor? | This guide; fire marshal if enclosing |
-| 2 | Measure seats and zones | Floor plan |
-| 3 | Choose the fuel on five-year cost | [TCO model](asset:A20) |
-| 4 | Choose style and mounting | Range table |
-| 5 | Size it | [How many heaters? calculator](asset:A03) |
-| 6 | Plan power or gas | Electrician, gas fitter |
-| 7 | Controls: zones and schedules | Affinity Smart-Heat Controls |
+| 1 | Is it outdoors? | Wall and roof layout; the fire marshal if enclosing |
+| 2 | Map seats and zones | Floor plan and service sections |
+| 3 | Choose the fuel on five-year cost | Your tariffs; the [TCO model](asset:A20) |
+| 4 | Choose style and mounting | The range table in Step 4 |
+| 5 | Size and place every zone | The [How many heaters? calculator](asset:A03) |
+| 6 | Plan power or gas | A licensed electrician or gas fitter |
+| 7 | Zones and schedules | Affinity Smart-Heat Controls |
 | 8 | Clearances, fire code and permits | Local AHJ and fire marshal |
 | 9 | Design service and rollout | Bromic design service ([A07](asset:A07)) |
 
-## Step 1. Confirm The Space Counts As Outdoor
+Each step closes with Your notes, a short card to fill in for every site, and together they become the brief you hand to your designer, contractor and Bromic.
 
-A space counts as outdoor when at least 30% of its perimeter is permanently open, and a partial roof or awning holds a heat cloud that adds to the radiant heat[^s3]. Walls, glazing or plastic sidewalls can change both the heating design and what the fire code permits (Step 8). Radiant heat warms guests and surfaces directly, so it keeps working in a light breeze that would carry forced air away[^s3].
+## Step 1. Confirm The Space Counts As Outdoors
 
-- [ ] Open perimeter 30% or more[^s3]; enclosure plans noted
-- [ ] Covered, partly covered or open
+A space counts as outdoor when at least 30% of its perimeter is permanently open, and a partial roof or awning holds a heat cloud that adds to the radiant heat[^s3]. Walls, glazing or plastic sidewalls can change both the heating design and what the fire code permits (Step 8).
+
+- [ ] Open perimeter 30% or more[^s3]; enclosure plans: ______
+- [ ] Open / partly covered / covered
+- [ ] Sidewalls, screens or glazing planned? Y / N
 
 ## Step 2. Map Your Seats And Zones
 
-Draw the floor the way your team runs service, so each section can be warmed when it opens and rested when it closes.
+Draw the floor the way your team runs service, so each section can be warmed when it opens and rested when it closes. Guests feel warmth differently and will move to where they are most comfortable, so plan heat over every seat you sell rather than a single hot spot[^s29].
 
 - [ ] Heated seats, tables and bar rail drawn; service aisles left out
-- [ ] One zone per section that opens and closes on its own; ft² per zone
-- [ ] Ceiling, canopy or wall heights; supply voltage (208, 240 or 277 V)[^s3]; gas on site
+- [ ] One zone per section that opens and closes on its own: ______ ft² per zone
+- [ ] Ceiling, canopy or wall heights: ______ ft
+- [ ] Supply voltage: 208 V / 240 V / 277 V[^s3]; gas on site? Y / N
 
 ## Step 3. Choose The Fuel On Five-Year Cost
 
-Compare everything the heaters cost over five years of service, from the day they are installed.
+### Why Radiant Warmth Works On A Terrace
+
+Outdoors, warm air rises and drifts away, so forced air and thermostats cannot hold an open terrace at a set temperature[^s3]. A traditional mushroom heater sends much of its heat in every direction, upward included, while a directional radiant heater aims its warmth down at the table, so more of the energy you pay for reaches your guests[^s3][^s29]. Radiant heat warms people and surfaces directly and keeps working in a light breeze[^s3].
+
+Bromic's electric heaters are medium wave, chosen for warmth that reaches every chair at the table, lifts the temperature further and travels further, with no intrusive glow [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]].
+
+| | Heat coverage | Temperature rise | Distance heat travels | Visible glow | Warm-up |
+|---|---|---|---|---|---|
+| Short wave | Narrower | Lower | Shorter | Intense glow and glare | Instant[^s3] |
+| **Medium wave: Bromic Platinum, Eclipse and Tungsten Electric** | **Widest** | **Greatest** | **Furthest** | **Soft, no intrusive glow** | **About 30 seconds[^s3]** |
+| Long wave | Narrower | Lower | Shortest; most affected by wind[^s3] | – | About 5 minutes[^s3] |
+
+Warm-up and wind: Bromic Planning Guide v1.2[^s3]. Coverage, temperature rise, distance and glow: Bromic test data, to follow. [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]] [[VERIFY: short wave visible glow and glare — Product team]]
+
+Over a dining table the glow matters as much as the heat. The harsh red light of a short wave heater can change how food looks on the plate, which is why Bromic recommends medium wave over tables[^s29].
+
+### The Three Fuels In Service
+
+| | Electric | Natural gas | Propane |
+|---|---|---|---|
+| Best suited to | Covered and semi-enclosed terraces; recessed and flush looks | Large, open terraces with a gas line in place | Open spaces with no structure; layouts that change |
+| Handling | None | None after install | Cylinder buying, swapping and storage |
+| Upkeep | Few moving parts; no combustion at the heater | A yearly service, including the gas line | Cylinder checks and storage |
+| Control | 1% dimming, zones, schedules, app, BMS | On/off, zones, schedules, app, BMS | Freestanding: confirm |
+| Fire code | Simplest path | Fixed, listed outdoor install | Most restricted (Step 8) |
+| Gas restrictions | Compliant | Check local rules ([A12](asset:A12)) | Check local rules ([A12](asset:A12)) |
+
+Fuel profiles: Bromic guidance[^s29]. More cities are restricting new gas connections and portable propane, so an electric scheme is also the one least likely to need changing later[^s29]. The Electrification compliance guide ([A12](asset:A12)) sets out what applies where you trade. [[VERIFY: maintenance intervals per gas model from the manuals — Product team]]
+
+### What An Evening Of Warmth Costs
 
 **5-year TCO = hardware + controls + installation + permits + 5 × (energy + handling + maintenance)**
 
 **Energy per hour:** electric = kW × $/kWh · natural gas = Btu/h ÷ 100,000 × $/therm · propane = Btu/h ÷ 91,500[^s23] × $/gal.
 
-Rates used, the same as the [A20 TCO model](asset:A20): electricity 13.54¢/kWh (EIA, US commercial average, May 2026)[^s18]; natural gas $0.87 per therm (EIA, US commercial, January–May 2026 average)[^s19]; propane $2.674 per gallon (EIA, US residential, week of 30 March 2026; EIA publishes no commercial series)[^s20]. [[VERIFY: 2026 commercial rates, national and by state, and cylinder-exchange propane prices — Finance]]
+Rates used, the same as COM-CO-01 and the [ROI calculator](asset:A21): electricity 14.07¢/kWh (EIA, US commercial average, January–May 2026)[^s18]; natural gas $1.01 per therm ($10.45 per thousand cubic feet at about 1,036 Btu per cubic foot, EIA, US commercial, January–April 2025)[^s19]; propane $2.46 per gallon (EIA residential winter forecast 2025–26; EIA publishes no commercial series, and exchange cylinders cost more)[^s20]. [[VERIFY: 2026 commercial rates, national and by state, cylinder-exchange propane prices, and alignment of the A20 TCO model with these rates — Finance]]
 
 | Heater at full output | Covers | Cost per hour |
 |---|---|---|
-| Tungsten Electric 4000 / 6000 W | 130 / 160 ft² | $0.54 / $0.81 |
-| Platinum Electric 3400 / 4500 W | 108 / 143 ft² | $0.46 / $0.61 |
-| Eclipse Electric 2900 W | 121 ft² | $0.39 |
-| Platinum Gas 39,800 Btu/h, natural gas / propane | 215 ft² | $0.35 / $1.16 |
-| Tungsten Freestanding Gas 38,000 Btu/h, natural gas / propane | 215 ft² | $0.33 / $1.11 |
+| Tungsten Electric 4000 / 6000 W | 130 / 160 ft² | $0.56 / $0.84 |
+| Platinum Electric 3400 / 4500 W | 108 / 143 ft² | $0.48 / $0.63 |
+| Eclipse Electric 2900 W | 121 ft² | $0.41 |
+| Platinum Gas 39,800 Btu/h, natural gas / propane | 215 ft² | $0.40 / $1.07 |
+| Tungsten Freestanding Gas 38,000 Btu/h, natural gas / propane | 215 ft² | $0.38 / $1.02 |
 
-### A Worked Example: 30 Seats, 600 ft², 900 Heater Hours A Year
+### A Worked Example: 40 Seats, 800 ft², 1,000 Heater Hours A Year
 
-30 seats × 20 ft² = 600 ft²[^s28], partly covered, cool (factor 0.85; Step 5). The 900 hours (6 hours × 150 nights) are the A20 model's placeholder; replace them with your own season.
+40 seats × 20 ft² = 800 ft²[^s28], partly covered, cool evenings (a combined factor of 0.85; Step 5). The 1,000 hours a heater (for example, 5 hours a night for 200 nights) match COM-CO-01; replace them with your own season.
 
-| Option | Heaters | Energy a year | Energy over 5 years | Controls |
+| Option | Heaters | Energy a year | Fuel a year | Controls |
 |---|---|---|---|---|
-| Tungsten Electric 6000 W | 600 ÷ (160 × 0.85 = 136) = 4.4 → 5 | 5 × 6 kW × 900 h × $0.1354 = $3,656 | $18,279 | 5-channel Affinity Dimmer, one heater per 6 kW channel (5 channels); wall switch; app |
-| Platinum Gas 39,800 Btu/h, natural gas | 600 ÷ (215 × 0.85 = 182.75) = 3.3 → 4 | 4 × 0.398 therm × 900 h × $0.87 = $1,247 | $6,233 | One Affinity On/Off channel (up to 10 gas heaters); wall switch; app |
-| Tungsten Freestanding Gas, propane | larger of 3.3 → 4 by area and 30 seats ÷ 4 = 7.5 → 8 | 8 × 0.4153 gal × 900 h × $2.674 = $7,996 | $39,979, plus handling | [[VERIFY: controls for Tungsten Freestanding Gas — Product team]] |
+| Electric, Platinum 4500 W | 800 ÷ (143 × 0.85 = 121.6) = 6.6 → 7 | 31,500 kWh | $4,432 | Affinity Dimmer, one heater per 6 kW channel: a 5-channel and a 2-channel; wall switch; app |
+| Natural gas, Tungsten Freestanding Gas | larger of 800 ÷ (215 × 0.85) = 4.4 → 5 and 40 seats ÷ 4 = 10 | 3,800 therms | $3,838 | [[VERIFY: controls for Tungsten Freestanding Gas — Product team]] |
+| Propane, Tungsten Freestanding Gas | the same 10 | 4,153 gal | $10,216 | [[VERIFY: controls for Tungsten Freestanding Gas — Product team]] |
 
-These figures cover energy only, at full output; your own tariff, schedules and dimming will bring them down. Propane also means about 2,990 gallons a year, roughly 636 swaps of a 4.7-gallon cylinder, to buy, swap and store. Add hardware, installation and handling in the [TCO model](asset:A20). The 2021 guide's per-hour figures used 2021 prices and have been retired.
+Over five years that is $22,160 for electric, $19,190 for natural gas and $51,082 for propane in fuel alone: electric about 15% above natural gas, and propane 2.3 times electric[^s18][^s19][^s20]. Propane also means about 884 swaps of a 4.7-gallon cylinder a year; at 10 minutes a swap and $25 an hour, that adds $3,683 a year, or $69,499 for fuel and handling over five years. These figures cover energy at full output; your own tariff, schedules and dimming bring them down. Add hardware, installation and permits in the [TCO model](asset:A20). The 2021 guide's per-hour figures used 2021 prices and have been retired.
 
-| | Electric | Natural gas | Propane |
-|---|---|---|---|
-| Handling | None | None after install | Cylinder logistics and storage |
-| Control | 1% dimming, zones, schedules, app, BMS | On/off, zones, schedules, app, BMS | Freestanding: confirm |
-| Fire code | Simplest path | Fixed, listed outdoor install | Most restricted (Step 8) |
-| Gas restrictions | Compliant | Check local rules ([A12](asset:A12)) | Check local rules ([A12](asset:A12)) |
+[[DIAGRAM: Stacked bar chart, five-year cost for the 40-seat example for electric, natural gas and propane, split into hardware, install, controls, energy and handling, once prices and rates are verified.]]
 
-[[DIAGRAM: Stacked bar chart, five-year cost per 1,000 ft² heated for electric, natural gas and propane, split into hardware, install, controls, energy and handling, from the A20 model once rates are verified.]]
-
-- [ ] Fuel per zone chosen on five-year cost
-- [ ] Your own tariff entered in the TCO model
+- [ ] Fuel per zone: electric / natural gas / propane
+- [ ] Your tariff: ______ per kWh, therm or gallon
+- [ ] Your season: ______ nights × ______ hours
 
 ![Marina-side bar with heaters under a canopy](img:l-005-024)
 
@@ -328,14 +374,19 @@ These figures cover energy only, at full output; your own tariff, schedules and 
 
 [[VERIFY: warranty terms for commercial use, and the Tungsten Freestanding Gas natural-gas warranty — Product team]]
 
-- [ ] One heater family per site type (canopy, wall, freestanding)
+Choose the look with the room in mind. A finish that matches the canopy, beams or furniture lets the heater sit quietly in the design, and recessed heaters give warmth your guests feel without seeing where it comes from. An Eclipse over the table brings heat and light in one fixture, so there is one less thing on the ceiling[^s29][^s7].
+
+- [ ] Heater family per site type: canopy / wall / pendant / freestanding
+- [ ] Finish: ______
 - [ ] Coming-soon models carry an approved current alternate
 
 ![Wall-arm Eclipse heaters over a restaurant terrace](img:l-013-111)
 
-## Step 5. Size The Warmth To Every Zone
+## Step 5. Size And Place The Warmth Over Every Table
 
 Heaters per zone = zone ft² ÷ (coverage × cover factor × climate factor), rounded up. The cover factor is 0.85 for open, 1.0 for partly covered and 1.1 for covered, and the climate factor is 1.0 for mild (above about 50°F), 0.85 for cool (about 40–50°F) and 0.7 for cold (often below about 40°F). Freestanding heaters also serve no more than 4 seats each, because guests block some of their radiant heat, so take the larger of the two counts. Without a seat count, seats = ft² ÷ 20[^s28]. [[VERIFY: cover and climate factors — Product team]]
+
+The factors are there because the same heater covers less on a cold night, and wind carries warmth away from the table; on an exposed site, screens or glass on the windward side help hold the heat in[^s29].
 
 | Heater | Coverage per heater |
 |---|---|
@@ -350,7 +401,21 @@ Heaters per zone = zone ft² ÷ (coverage × cover factor × climate factor), ro
 
 Coverage is approximate and varies with mounting height, environment and installation[^s2]. [[VERIFY: Eclipse 2900 W vs 3000 W; Tungsten Freestanding Gas 38,000 vs 38,500 Btu/h; per-model coverage against the 2026 cut sheets — Product team]]
 
-- [ ] Count per zone; calculator run for each site
+### Placing Heat Where Guests Sit
+
+Radiant warmth weakens quickly with distance: twice as far from the heater, a guest receives about a quarter of the heat[^s29]. Height is therefore the first placement decision, set by how each zone is used.
+
+| Zone | Mounting height (Bromic guidance) |
+|---|---|
+| Seated dining at standard tables | About 8 ft |
+| High-tops and the bar rail | About 10 ft |
+| Entrances, standing areas and walkways | About 12 ft |
+
+Mounting heights by use: Bromic guidance[^s29]; every model also has its own minimum (Step 8). [[VERIFY: mounting heights by use against each model's installation manual — Product team]] A wall heater with a table pushed right up beneath it leaves that table in a dead zone, because the heat projects outward; set tables a little forward of the wall, and where a table is wide, warm it from both sides so every guest feels it[^s29]. Fewer, well-placed heaters of the right output usually serve a terrace better than many small ones, and keep the ceiling clean[^s29].
+
+- [ ] Count per zone: ______ heaters; calculator run for each site
+- [ ] Mounting height per zone: ______ ft
+- [ ] Windward side and screens: ______
 
 ## Step 6. Plan The Power Or Gas
 
@@ -361,14 +426,15 @@ Coverage is approximate and varies with mounting height, environment and install
 | Cobalt Electric 4000 / 6000 W | 18.75 / 28.4 | 16.6 / 25[^s9] |
 | Tungsten Electric 4000 / 6000 W (calculated, W ÷ V) | 19.2 / 28.8 | 16.7 / 25.0 |
 
-Tungsten 4000 and 6000 W are also offered at 277 V[^s4]. [[VERIFY: Tungsten amps per model and voltage — Product team]] Built-in gas heaters need a gas line and a 110 V, 2 A supply[^s10][^s11]. Circuits are sized by a licensed electrician to NFPA 70[^s21]; gas by a licensed fitter to NFPA 54[^s22].
+Tungsten 4000 and 6000 W are also offered at 277 V[^s4]. [[VERIFY: Tungsten amps per model and voltage — Product team]] Built-in gas heaters need a gas line and a 110 V, 2 A supply[^s10][^s11]. Circuits are sized by a licensed electrician to NFPA 70[^s21]; gas by a licensed fitter to NFPA 54[^s22]. Plan the rough-in with your contractor before any ceiling or canopy is closed, since heaters compete for the same space as lights, fans and ducts[^s29].
 
-- [ ] Panel capacity and circuits per zone
+- [ ] Panel capacity checked; circuits per zone: ______
 - [ ] Gas load and shut-offs; 110 V at each built-in gas heater
+- [ ] Rough-in before the ceiling closes? Y / N
 
 ## Step 7. Zones And Schedules With Affinity Controls (Required)
 
-Every Bromic heater is paired with Affinity Smart-Heat® Controls, which warm each section only when it is open and only as much as the evening needs. They are what turn the Step 3 numbers into real savings, because without them heat runs at full output until someone remembers to switch it off.
+Every Bromic heater is paired with Affinity Smart-Heat® Controls, which warm each section only when it is open and only as much as the evening needs. They are what turn the Step 3 numbers into real savings, because without them heat runs at full output until someone remembers to switch it off. Zoning lets a quiet Tuesday warm two sections while a full Saturday warms them all[^s29].
 
 | Need | Control | Capacity |
 |---|---|---|
@@ -382,15 +448,15 @@ Every Bromic heater is paired with Affinity Smart-Heat® Controls, which warm ea
 
 Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately. Control4, Crestron and Lutron compatibility varies and may need extra hardware or configuration[^s2]. [[VERIFY: multi-site or remote management in the app; Tungsten Freestanding Gas controls — Product team]]
 
-- [ ] Zone-to-channel schedule
-- [ ] Schedules tied to service hours; wall switch for the closing manager
-- [ ] Wi-Fi at the controller, or BMS integrator named
+- [ ] Zone-to-channel schedule: ______
+- [ ] Schedules tied to service hours; wall switch at: ______
+- [ ] Wi-Fi at the controller, or BMS integrator named: ______
 
 ![Eclipse over a rooftop table, city lights beyond](img:l-013-107)
 
 ## Step 8. Clearances, Fire Code And Permits
 
-Begin every site with a conversation with the fire marshal, because the rules are adopted and amended locally.
+Begin every site with a conversation with the fire marshal, because the rules are adopted and amended locally. Electric heaters need no gas line or venting, which usually makes them the smoother path under a strict fire code; gas heaters generally need larger clearances to combustibles and the space around them must stay ventilated[^s29]. [[VERIFY: clearances to combustibles per model from the installation manuals — Product team]]
 
 | Topic | Primary source | Pointer |
 |---|---|---|
@@ -409,19 +475,21 @@ Begin every site with a conversation with the fire marshal, because the rules ar
 
 - [ ] Fire-marshal and building-permit path confirmed per site
 - [ ] Clearances per installation manual
+- [ ] Cylinder storage location (propane): ______
 
 ## Step 9. Design It With Us And Roll It Out
 
 Share your photos, plans or drawings, and the Bromic design service will return heater selection, placement and coverage drawings for each site, at no charge[^s2].
 
 1. **Standardise the package:** one heater family, one controller set-up, one mounting detail per site type.
-2. **Survey every site the same way:** Steps 1–8 checklists.
+2. **Survey every site the same way:** Your notes from Steps 1–8.
 3. **Clear permits in parallel;** plan around the slowest jurisdiction.
 4. **Pilot, measure, scale:** covers and sales on heated nights against the ROI case.
 5. **Name an owner per site** for schedules and seasonal changeover.
 
 - [ ] Layout requested for each site type
 - [ ] TCO ([A20](asset:A20)) and ROI ([A21](asset:A21)) run per site
+- [ ] Site owner for schedules: ______
 
 ![Tungsten freestanding gas beside a set dining table](img:l-019-164)
 
