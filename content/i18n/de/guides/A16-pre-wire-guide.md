@@ -94,14 +94,12 @@ Ein Heizstrahler, der schon in der Zeichnung geplant wird, sitzt genau über dem
 
 Wenn jedes Gewerk seinen Moment kennt, wird die Wärme nur einmal installiert, und der Zeitplan hält.
 
-| Schritt | Entscheiden | Wer |
-|---|---|---|
-| 1 | **Pläne.** Beheizte Zonen, Typ und Anzahl der Heizstrahler, Montageart, Energieart | Bauträger, Planer, Bromic Planungsservice |
-| 2 | **Vor dem Rohbau.** Einbauöffnungen, Unterkonstruktion, Deckenaufbau | Zimmerer bzw. Rohbauer, Bauträger |
-| 3 | **Elektro-Rohinstallation.** Stromkreise, Dosen, Steuerleitungen, Ort des Schalters, Kapazität der Verteilung | Elektrofachbetrieb |
-| 4 | **Gas-Rohinstallation.** Leitungsdimension, Anschlussstelle, Absperreinrichtung | Gasinstallateur |
-| 5 | **Prüfung vor dem Schließen.** Prüfung, bevor Decken und Wände geschlossen werden | Zuständige Stelle bzw. Fachbetrieb |
-| 6 | **Endmontage.** Heizstrahler, Einbaurahmen, Steuergeräte, Inbetriebnahme | Elektrofachbetrieb, Gasinstallateur |
+- **1. Pläne** (Bauträger, Planer, Bromic Planungsservice): Beheizte Zonen, Typ und Anzahl der Heizstrahler, Montageart, Energieart.
+- **2. Vor dem Rohbau** (Zimmerer bzw. Rohbauer, Bauträger): Einbauöffnungen, Unterkonstruktion, Deckenaufbau.
+- **3. Elektro-Rohinstallation** (Elektrofachbetrieb): Stromkreise, Dosen, Steuerleitungen, Ort des Schalters, Kapazität der Verteilung.
+- **4. Gas-Rohinstallation** (Gasinstallateur): Leitungsdimension, Anschlussstelle, Absperreinrichtung.
+- **5. Prüfung vor dem Schließen** (zuständige Stelle bzw. Fachbetrieb): Prüfung, bevor Decken und Wände geschlossen werden.
+- **6. Endmontage** (Elektrofachbetrieb, Gasinstallateur): Heizstrahler, Einbaurahmen, Steuergeräte, Inbetriebnahme.
 
 ## Die richtige Rohinstallation für jeden Heizstrahler
 

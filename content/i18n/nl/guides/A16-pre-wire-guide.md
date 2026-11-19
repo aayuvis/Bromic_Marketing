@@ -94,14 +94,12 @@ Een verwarmer die al op de tekening staat, hangt precies boven de tafel, vlak in
 
 Als elk vak zijn moment kent, gaat de warmte er één keer in en blijft de planning staan.
 
-| Stap | Beslissen | Wie |
-|---|---|---|
-| 1 | **Ontwerp.** Verwarmde zones, type en aantal verwarmers, montagewijze, energiebron | Aannemer, ontwerper, ontwerpservice van Bromic |
-| 2 | **Vóór het timmerwerk.** Inbouwopeningen, regelwerk, opbouw van het plafond | Timmerman, aannemer |
-| 3 | **Elektrische voorbekabeling.** Groepen, dozen, leidingen voor de bediening, plek van de schakelaar, capaciteit van de meterkast | Erkend elektrotechnisch installateur |
-| 4 | **Gasvoorbereiding.** Leidingdiameter, aansluitpunt, afsluiter | Erkend gasinstallateur |
-| 5 | **Controle vóór het dichtmaken.** Controle voordat alles wordt dichtgemaakt | Keurende instantie of bevoegd gezag, waar van toepassing [[VERIFY: welke controle in Nederland van toepassing is — Bromic Benelux distributor]] |
-| 6 | **Afmontage.** Verwarmers, inbouwsets, regelaars, inbedrijfstelling | Elektrotechnisch installateur, gasinstallateur |
+- **1. Ontwerp** (aannemer, ontwerper, ontwerpservice van Bromic): verwarmde zones, type en aantal verwarmers, montagewijze, energiebron.
+- **2. Vóór het timmerwerk** (timmerman, aannemer): inbouwopeningen, regelwerk, opbouw van het plafond.
+- **3. Elektrische voorbekabeling** (erkend elektrotechnisch installateur): groepen, dozen, leidingen voor de bediening, plek van de schakelaar, capaciteit van de meterkast.
+- **4. Gasvoorbereiding** (erkend gasinstallateur): leidingdiameter, aansluitpunt, afsluiter.
+- **5. Controle vóór het dichtmaken** (keurende instantie of bevoegd gezag, waar van toepassing [[VERIFY: welke controle in Nederland van toepassing is — Bromic Benelux distributor]]): controle voordat alles wordt dichtgemaakt.
+- **6. Afmontage** (elektrotechnisch installateur, gasinstallateur): verwarmers, inbouwsets, regelaars, inbedrijfstelling.
 
 ## De juiste voorbereiding voor elke verwarmer
 

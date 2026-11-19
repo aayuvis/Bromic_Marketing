@@ -242,17 +242,15 @@ Outdoor heat costs least, and looks its best, when it is added before the ceilin
 
 ![Covered outdoor kitchen warmed by heaters set flush into the ceiling](img:l-010-067)
 
-| Step | What to plan | Why it matters |
-|---|---|---|
-| 1 | **Load.** Add the heater load to the service calculation: sum the wattage of every planned heater | Avoids a service upgrade later |
-| 2 | **Circuits.** Dedicated branch circuits; conductors at not less than 125% of the heating load per NEC 424[^s18] | Code requirement for fixed electric space-heating equipment |
-| 3 | **Voltage.** Confirm each model's rated voltage; commercial options have included 208, 240 and 277 V[^s20] | Voltage drives amperage and circuit count |
-| 4 | **Panel space.** Reserve breaker spaces for every heater zone plus one spare | Late additions are where projects stall |
-| 5 | **Conduit.** Empty conduit with pull string to every future heater and controller location, plus spare conduit to the panel | Lets heat be added without opening finishes |
-| 6 | **Recess cavities.** Frame and block soffit cavities to the recess kit's dimensions | Recessed heaters need depth that is hard to add later [[VERIFY: cavity depth per model — Product team]] |
-| 7 | **Controls.** Locate controllers and wall switches; plan Wi-Fi coverage at controller locations; coordinate any Control4, Crestron or Lutron interface[^s19] | Controls are required, and energy codes may require occupancy or timer shut-off |
-| 8 | **Zoning.** One zone per area used at different times | Lets schedules match use, which saves energy |
-| 9 | **Damp and wet locations.** Boxes, devices and heaters listed for the location[^s18] | Outdoor locations are damp or wet |
+- **Load.** Add the heater load to the service calculation: sum the wattage of every planned heater. Avoids a service upgrade later.
+- **Circuits.** Dedicated branch circuits; conductors at not less than 125% of the heating load per NEC 424.[^s18] Code requirement for fixed electric space-heating equipment.
+- **Voltage.** Confirm each model's rated voltage; commercial options have included 208, 240 and 277 V.[^s20] Voltage drives amperage and circuit count.
+- **Panel space.** Reserve breaker spaces for every heater zone plus one spare. Late additions are where projects stall.
+- **Conduit.** Empty conduit with pull string to every future heater and controller location, plus spare conduit to the panel. Lets heat be added without opening finishes.
+- **Recess cavities.** Frame and block soffit cavities to the recess kit's dimensions. Recessed heaters need depth that is hard to add later. [[VERIFY: cavity depth per model — Product team]]
+- **Controls.** Locate controllers and wall switches; plan Wi-Fi coverage at controller locations; coordinate any Control4, Crestron or Lutron interface.[^s19] Controls are required, and energy codes may require occupancy or timer shut-off.
+- **Zoning.** One zone per area used at different times. Lets schedules match use, which saves energy.
+- **Damp and wet locations.** Boxes, devices and heaters listed for the location.[^s18] Outdoor locations are damp or wet.
 
 **How much load a heater adds.** Amps = watts ÷ volts, and circuit conductors are then sized at 125% of that load.[^s18] As an illustration at 240 V single-phase, Platinum Smart-Heat Electric draws 9.6 A at 2300 W, 14.2 A at 3400 W and 18.8 A at 4500 W, or 12.0, 17.7 and 23.4 A at 125% for conductor sizing. [[VERIFY: rated voltage and current per Platinum model — Product team]] Your electrician sizes the circuit and protective device to the adopted NEC and the nameplate.
 

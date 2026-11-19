@@ -91,14 +91,12 @@ A heater planned at the drawing stage sits exactly over the table, flush in a cl
 
 When each trade knows its moment, the heat goes in once and the schedule holds.
 
-| Step | Decide | Who |
-|---|---|---|
-| 1 | **Plans.** Heated zones, heater type and count, mount type, fuel | Builder, designer, Bromic design service |
-| 2 | **Pre-framing.** Recess openings, blocking, ceiling build-up | Framer, builder |
-| 3 | **Electrical rough-in.** Circuits, boxes, control runs, switch location, panel capacity | Licensed electrician |
-| 4 | **Gas rough-in.** Line size, stub-out, shut-off | Licensed gas fitter |
-| 5 | **Rough inspection.** Inspect before close-in | AHJ |
-| 6 | **Trim-out.** Heaters, recess kits, controllers, commissioning | Electrician, gas fitter |
+- **1. Plans** (builder, designer, Bromic design service): heated zones, heater type and count, mount type, fuel.
+- **2. Pre-framing** (framer, builder): recess openings, blocking, ceiling build-up.
+- **3. Electrical rough-in** (licensed electrician): circuits, boxes, control runs, switch location, panel capacity.
+- **4. Gas rough-in** (licensed gas fitter): line size, stub-out, shut-off.
+- **5. Rough inspection** (AHJ): inspect before close-in.
+- **6. Trim-out** (electrician, gas fitter): heaters, recess kits, controllers, commissioning.
 
 ## The Right Rough-In For Each Heater
 

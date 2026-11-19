@@ -247,17 +247,15 @@ Buitenwarmte kost het minst en oogt het mooist als ze wordt toegevoegd voordat h
 
 ![Overdekte buitenkeuken, verwarmd door verwarmers die vlak in het plafond zijn ingebouwd](img:l-010-067)
 
-| Stap | Wat u plant | Waarom het telt |
-|---|---|---|
-| 1 | **Belasting.** Neem de belasting van de verwarmers op in de berekening van de aansluiting: tel het vermogen van elke geplande verwarmer op | Voorkomt later een zwaardere aansluiting |
-| 2 | **Groepen.** Eigen groepen; in de VS geleiders op minstens 125% van de verwarmingsbelasting volgens NEC 424[^s18]; in Nederland volgens NEN 1010 | Eis voor vaste elektrische ruimteverwarming |
-| 3 | **Spanning.** Bevestig de nominale spanning van elk model; in de VS waren er voor utiliteitsbouw uitvoeringen voor 208, 240 en 277 V[^s20]; in Nederland 230 V, 50 Hz | De spanning bepaalt de stroom en het aantal groepen |
-| 4 | **Ruimte in de groepenkast.** Reserveer plaatsen voor elke verwarmingszone plus één reserve | Late toevoegingen zijn waar projecten vastlopen |
-| 5 | **Leidingen.** Lege buizen met trekdraad naar elke toekomstige positie van verwarmer en regelaar, plus een reservebuis naar de groepenkast | Zo kan warmte worden toegevoegd zonder afwerking open te maken |
-| 6 | **Inbouwholtes.** Maak regelwerk en achterhout in het overstek op de maat van de inbouwset | Ingebouwde verwarmers vragen diepte die later moeilijk toe te voegen is [[VERIFY: holtediepte per model — productteam]] |
-| 7 | **Bediening.** Bepaal de plek van regelaars en wandschakelaars; plan wifi-dekking bij de regelaars; stem een eventuele koppeling met Control4, Crestron of Lutron af[^s19] | Bediening is verplicht, en energievoorschriften kunnen uitschakeling via aanwezigheid of timer eisen |
-| 8 | **Zones.** Eén zone per gebied dat op verschillende momenten wordt gebruikt | Zo sluiten schema's aan op het gebruik, wat energie bespaart |
-| 9 | **Vochtige en natte locaties.** Dozen, componenten en verwarmers die geschikt zijn voor de locatie[^s18] | Buitenlocaties zijn vochtig of nat |
+- **Belasting.** Neem de belasting van de verwarmers op in de berekening van de aansluiting: tel het vermogen van elke geplande verwarmer op. Voorkomt later een zwaardere aansluiting.
+- **Groepen.** Eigen groepen; in de VS geleiders op minstens 125% van de verwarmingsbelasting volgens NEC 424[^s18]; in Nederland volgens NEN 1010. Eis voor vaste elektrische ruimteverwarming.
+- **Spanning.** Bevestig de nominale spanning van elk model; in de VS waren er voor utiliteitsbouw uitvoeringen voor 208, 240 en 277 V[^s20]; in Nederland 230 V, 50 Hz. De spanning bepaalt de stroom en het aantal groepen.
+- **Ruimte in de groepenkast.** Reserveer plaatsen voor elke verwarmingszone plus één reserve. Late toevoegingen zijn waar projecten vastlopen.
+- **Leidingen.** Lege buizen met trekdraad naar elke toekomstige positie van verwarmer en regelaar, plus een reservebuis naar de groepenkast. Zo kan warmte worden toegevoegd zonder afwerking open te maken.
+- **Inbouwholtes.** Maak regelwerk en achterhout in het overstek op de maat van de inbouwset. Ingebouwde verwarmers vragen diepte die later moeilijk toe te voegen is. [[VERIFY: holtediepte per model — productteam]]
+- **Bediening.** Bepaal de plek van regelaars en wandschakelaars; plan wifi-dekking bij de regelaars; stem een eventuele koppeling met Control4, Crestron of Lutron af.[^s19] Bediening is verplicht, en energievoorschriften kunnen uitschakeling via aanwezigheid of timer eisen.
+- **Zones.** Eén zone per gebied dat op verschillende momenten wordt gebruikt. Zo sluiten schema's aan op het gebruik, wat energie bespaart.
+- **Vochtige en natte locaties.** Dozen, componenten en verwarmers die geschikt zijn voor de locatie.[^s18] Buitenlocaties zijn vochtig of nat.
 
 **Hoeveel belasting een verwarmer toevoegt.** Stroom (A) = vermogen (W) ÷ spanning (V). In de VS worden de geleiders daarna gedimensioneerd op 125% van die belasting;[^s18] in Nederland bepaalt de installateur groep, beveiliging en kabeldoorsnede volgens NEN 1010. Ter illustratie, op 230 V eenfase: Platinum Smart-Heat Electric trekt 10,0 A bij 2300 W, 14,8 A bij 3400 W en 19,6 A bij 4500 W. [[VERIFY: nominale spanning en stroom per Platinum-model — productteam]] Uw installateur dimensioneert de groep en de beveiliging volgens de geldende voorschriften en het typeplaatje.
 

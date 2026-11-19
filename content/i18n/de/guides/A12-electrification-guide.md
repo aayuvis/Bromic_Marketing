@@ -247,17 +247,15 @@ Wärme im Freien kostet am wenigsten und wirkt am schönsten, wenn sie kommt, be
 
 ![Überdachte Außenküche, gewärmt von bündig in die Decke eingebauten Heizstrahlern](img:l-010-067)
 
-| Schritt | Was zu planen ist | Warum es zählt |
-|---|---|---|
-| 1 | **Leistung.** Die Leistung der Heizstrahler in die Bemessung des Hausanschlusses aufnehmen: die Wattzahl jedes geplanten Heizstrahlers addieren | Vermeidet später eine Verstärkung des Anschlusses |
-| 2 | **Stromkreise.** Eigene Stromkreise; Leitungen und Schutzorgane legt der Elektrofachbetrieb nach DIN VDE 0100 aus (in den USA: Leitungen mit mindestens 125 % der Heizlast nach NEC 424[^s18]) | Heizstrahler sind Dauerlasten |
-| 3 | **Spannung.** Die Bemessungsspannung jedes Modells bestätigen; in Deutschland 230 V, 50 Hz (in den USA gab es Ausführungen für 208, 240 und 277 V[^s20]) | Die Spannung bestimmt Stromstärke und Anzahl der Stromkreise |
-| 4 | **Platz im Verteiler.** Plätze für Schutzorgane für jede Heizzone plus einen Reserveplatz vorsehen | Späte Ergänzungen sind der Punkt, an dem Projekte stocken |
-| 5 | **Leerrohre.** Leerrohre mit Zugdraht zu jeder künftigen Position von Heizstrahler und Steuergerät, dazu ein Reserverohr zum Verteiler | So lässt sich Wärme ergänzen, ohne fertige Oberflächen zu öffnen |
-| 6 | **Einbauhohlräume.** Hohlräume in der Untersicht auf die Maße des Einbausatzes ausbilden und hinterlegen | Eingebaute Heizstrahler brauchen Tiefe, die sich später schwer schaffen lässt [[VERIFY: Hohlraumtiefe je Modell — Produktteam]] |
-| 7 | **Steuerung.** Steuergeräte und Wandschalter verorten; WLAN-Abdeckung an den Standorten der Steuergeräte planen; eine Anbindung an Control4, Crestron oder Lutron abstimmen[^s19] | Die Steuerung ist Pflicht, und Energievorschriften können eine Abschaltung über Präsenz oder Zeit verlangen |
-| 8 | **Zonen.** Eine Zone je Bereich, der zu anderen Zeiten genutzt wird | So passen Zeitpläne zur Nutzung, was Energie spart |
-| 9 | **Feuchte und nasse Bereiche.** Dosen, Geräte und Heizstrahler mit einer für den Einsatzort geeigneten Schutzart | Außenbereiche sind feucht oder nass |
+- **Leistung.** Die Leistung der Heizstrahler in die Bemessung des Hausanschlusses aufnehmen: die Wattzahl jedes geplanten Heizstrahlers addieren. Vermeidet später eine Verstärkung des Anschlusses.
+- **Stromkreise.** Eigene Stromkreise; Leitungen und Schutzorgane legt der Elektrofachbetrieb nach DIN VDE 0100 aus (in den USA: Leitungen mit mindestens 125 % der Heizlast nach NEC 424[^s18]). Heizstrahler sind Dauerlasten.
+- **Spannung.** Die Bemessungsspannung jedes Modells bestätigen; in Deutschland 230 V, 50 Hz (in den USA gab es Ausführungen für 208, 240 und 277 V[^s20]). Die Spannung bestimmt Stromstärke und Anzahl der Stromkreise.
+- **Platz im Verteiler.** Plätze für Schutzorgane für jede Heizzone plus einen Reserveplatz vorsehen. Späte Ergänzungen sind der Punkt, an dem Projekte stocken.
+- **Leerrohre.** Leerrohre mit Zugdraht zu jeder künftigen Position von Heizstrahler und Steuergerät, dazu ein Reserverohr zum Verteiler. So lässt sich Wärme ergänzen, ohne fertige Oberflächen zu öffnen.
+- **Einbauhohlräume.** Hohlräume in der Untersicht auf die Maße des Einbausatzes ausbilden und hinterlegen. Eingebaute Heizstrahler brauchen Tiefe, die sich später schwer schaffen lässt. [[VERIFY: Hohlraumtiefe je Modell — Produktteam]]
+- **Steuerung.** Steuergeräte und Wandschalter verorten; WLAN-Abdeckung an den Standorten der Steuergeräte planen; eine Anbindung an Control4, Crestron oder Lutron abstimmen.[^s19] Die Steuerung ist Pflicht, und Energievorschriften können eine Abschaltung über Präsenz oder Zeit verlangen.
+- **Zonen.** Eine Zone je Bereich, der zu anderen Zeiten genutzt wird. So passen Zeitpläne zur Nutzung, was Energie spart.
+- **Feuchte und nasse Bereiche.** Dosen, Geräte und Heizstrahler mit einer für den Einsatzort geeigneten Schutzart. Außenbereiche sind feucht oder nass.
 
 **Wie viel Leistung ein Heizstrahler dazubringt.** Strom = Leistung ÷ Spannung. Zur Veranschaulichung an 230 V einphasig nimmt Platinum Smart-Heat Electric 10,0 A bei 2300 W, 14,8 A bei 3400 W und 19,6 A bei 4500 W auf. [[VERIFY: Bemessungsspannung und Stromaufnahme je Platinum-Modell — Produktteam]] Stromkreis und Schutzeinrichtung bemisst Ihr Elektrofachbetrieb nach DIN VDE 0100 und den Angaben auf dem Typenschild. [[VERIFY: aktuelle VDE-Regeln für Stromkreise von Heizstrahlern im Freien — Partner Deutschland]]
 
