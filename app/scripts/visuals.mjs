@@ -37,20 +37,32 @@ const FAMILY_IMG = [[/marine/i, 'w-platinum'], [/coastal/i, 't2-select-white'], 
 
 export function makeEnhancer(images) {
   const IMG = Object.fromEntries(images.map((i) => [i.id, i]));
-  const pic = (name) => { const hit = FAMILY_IMG.find(([re]) => re.test(name)); const im = hit && IMG[hit[1]]; return im ? `<img src="${im.thumb || im.file}" alt="" loading="lazy">` : ''; };
+  const pic = (name) => { const hit = FAMILY_IMG.find(([re]) => re.test(name)); const im = hit && IMG[hit[1]]; return im ? `<img src="${im.file}" alt="" loading="lazy">` : ''; };
 
   function steps({ head, rows }) {
-    return `<ol class="v-steps">${rows.map((r, i) => `<li><span class="v-ic">${ICON[STEP_ICONS[i % STEP_ICONS.length]]}</span><span class="v-n">${String(strip(r[0]) || i + 1).padStart(2, '0')}</span><b>${r[1]}</b>${r[2] ? `<small><span class="v-k">${strip(head[2] || '')}</span> ${r[2]}</small>` : ''}</li>`).join('')}</ol>`;
+    // The Eclipse dial: an Eclipse heater at the centre, the steps around it like the hours of a clock.
+    const n = rows.length, face = IMG['w-eclipse-electric-face'];
+    const pts = rows.map((r, i) => { const a = (-90 + (360 / n) * i) * Math.PI / 180; return { r, i, x: 50 + 43 * Math.cos(a), y: 50 + 43 * Math.sin(a), tx: 50 + 31.5 * Math.cos(a), ty: 50 + 31.5 * Math.sin(a), side: Math.cos(a) > 0.2 ? 'r' : Math.cos(a) < -0.2 ? 'l' : 'c' }; });
+    const ticks = pts.map((p) => `<circle cx="${p.tx}" cy="${p.ty}" r="${p.i === 0 ? 1.1 : 0.7}" fill="${p.i === 0 ? '#EF4123' : '#231F20'}"/>`).join('');
+    return `<figure class="v-dial"><div class="v-dial-in">
+      <svg class="v-dial-ring" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="31.5" fill="none" stroke="#C9C9C6" stroke-width=".25"/><path d="M50 18.5 A31.5 31.5 0 0 1 ${50 + 31.5 * Math.cos((-90 + 360 / n) * Math.PI / 180)} ${50 + 31.5 * Math.sin((-90 + 360 / n) * Math.PI / 180)}" fill="none" stroke="#EF4123" stroke-width=".6"/>${ticks}</svg>
+      ${face ? `<span class="v-dial-face"><img src="${face.file}" alt=""></span>` : ''}
+      ${pts.map((p) => `<div class="v-dial-s ${p.side}" style="left:${p.x.toFixed(2)}%;top:${p.y.toFixed(2)}%"><span class="v-dial-n">${String(strip(p.r[0]) || p.i + 1).padStart(2, '0')}</span><b>${p.r[1]}</b>${p.r[2] ? `<small>${p.r[2]}</small>` : ''}</div>`).join('')}
+    </div></figure>`;
   }
   function waves({ head, rows }) {
-    return `<div class="v-waves">${rows.map((r) => { const t = strip(r[0]); const n = /short|kurz|kort/i.test(t) ? 5 : /medium|mittel|middel/i.test(t) ? 3 : 1.5; const best = /medium|mittel|middel/i.test(t);
-      return `<article class="v-wave${best ? ' best' : ''}"><span class="v-ic">${wave(n)}</span><h4>${r[0]}</h4>${best ? '<span class="v-tag">Bromic</span>' : ''}<dl>${r.slice(1).map((c, k) => `<dt>${head[k + 1] || ''}</dt><dd>${c}</dd>`).join('')}</dl></article>`; }).join('')}</div>`;
+    // One spectrum line: three waveforms, medium wave drawn in flame, then the facts in quiet columns.
+    const W = (n, x0, w, col, sw) => { let d = `M${x0} 20`; const step = w / (n * 2); for (let i = 0; i < n * 2; i++) d += ` q ${step / 2} ${i % 2 ? 13 : -13} ${step} 0`; return `<path d="${d}" fill="none" stroke="${col}" stroke-width="${sw}" stroke-linecap="round"/>`; };
+    const kind = (t) => (/short|kurz|kort/i.test(t) ? 0 : /medium|mittel|middel/i.test(t) ? 1 : 2);
+    const order = [...rows].sort((a, b) => kind(strip(a[0])) - kind(strip(b[0])));
+    return `<figure class="v-spec"><svg viewBox="0 0 300 40" aria-hidden="true">${W(9, 4, 92, '#9AA0A5', 1.1)}${W(4, 104, 92, '#EF4123', 2.2)}${W(1.5, 204, 92, '#9AA0A5', 1.1)}</svg>
+      <div class="v-spec-cols">${order.map((r) => { const best = kind(strip(r[0])) === 1; return `<div class="${best ? 'best' : ''}"><h4>${r[0]}</h4><dl>${r.slice(1).map((c, k) => `<dt>${head[k + 1] || ''}</dt><dd>${c}</dd>`).join('')}</dl></div>`; }).join('')}</div></figure>`;
   }
   function versus({ head, rows }) {
-    return `<div class="v-vs">${head.slice(1).map((h, k) => `<article><span class="v-ic">${/gas/i.test(strip(h)) ? ICON.fuel : ICON.bolt}</span><h4>${h}</h4><dl>${rows.map((r) => `<dt>${r[0]}</dt><dd>${r[k + 1] || ''}</dd>`).join('')}</dl></article>`).join('')}</div>`;
+    return `<div class="v-vs">${head.slice(1).map((h, k) => `<article><h4>${h}</h4><dl>${rows.map((r) => `<dt>${r[0]}</dt><dd>${r[k + 1] || ''}</dd>`).join('')}</dl></article>`).join('<span class="v-vs-or" aria-hidden="true">or</span>')}</div>`;
   }
   function families({ head, rows }) {
-    return `<div class="v-prods">${rows.map((r) => `<article><span class="v-pic">${pic(strip(r[0]))}</span><div><h4>${r[0]}</h4><dl>${r.slice(1).map((c, k) => `<dt>${head[k + 1] || ''}</dt><dd>${c}</dd>`).join('')}</dl></div></article>`).join('')}</div>`;
+    return `<div class="v-prods">${rows.map((r) => `<article><span class="v-pic">${pic(strip(r[0]))}</span><h4>${r[0]}</h4><p>${r.slice(1).map((c, k) => `<span><em>${head[k + 1] || ''}</em> ${c}</span>`).join('')}</p></article>`).join('')}</div>`;
   }
   function coverage({ head, rows }) {
     const parsed = rows.map((r) => { const name = strip(r[0].replace(/<sup[\s\S]*?<\/sup>/g, '')); const vals = (strip(r[1].replace(/<sup[\s\S]*?<\/sup>/g, '')).match(/\d[\d,]*/g) || []).map((v) => +v.replace(/,/g, '')); const tail = (r[1].match(/(<sup[\s\S]*)$/) || [])[1] || '';
@@ -73,7 +85,7 @@ export function makeEnhancer(images) {
       .replace(/_{3,}/g, '<span class="v-line"></span>')
       .replace(/\b(Y|J) \/ N\b/g, '<span class="v-opt">Yes</span><span class="v-opt">No</span>')
       .replace(/(^|:\s*)((?:[A-Za-zÀ-ÿ][\wÀ-ÿ -]{1,24} \/ ){2,}[A-Za-zÀ-ÿ][\wÀ-ÿ -]{1,24})(?=$|[.;,<])/g, (m, pre, list) => `${pre}${list.split(' / ').map((o) => `<span class="v-opt">${o.trim()}</span>`).join('')}`);
-    return `<div class="v-notes"><span class="v-notes-h"><span class="v-ic">${ICON.note}</span>Your notes</span>${items.map((t) => `<div class="v-note">${fmt(t)}</div>`).join('')}</div>`;
+    return `<div class="v-notes"><span class="v-notes-h">Your notes</span>${items.map((t) => `<div class="v-note">${fmt(t)}</div>`).join('')}</div>`;
   }
 
   return function enhance(html) {
@@ -87,8 +99,7 @@ export function makeEnhancer(images) {
       if (/cost per hour|kosten pro stunde|kosten per uur/i.test(h[h.length - 1])) return `<div class="table-wrap v-tw">${costBars(t, T)}</div>`;
       return m.replace('class="table-wrap"', 'class="table-wrap v-tw"');
     });
-    // the first percentage in a paragraph reads as a headline figure: red, bold, larger
-    out = out.replace(/<p>([\s\S]*?)<\/p>/g, (m, inner) => { let done = false; return '<p>' + inner.replace(/(^|[^\w$.,>])(\d{1,3}(?:\.\d)?%)(?![^<]*<\/(?:a|sup|mark)>)/, (x, pre, n) => { if (done) return x; done = true; return `${pre}<span class="v-stat">${n}</span>`; }) + '</p>'; });
+
     out = out.replace(/<ul>\s*(<li>\s*<input[^>]*type="checkbox"[\s\S]*?)<\/ul>/g, (m, inner) => (/<li>(?!\s*<input)/.test(inner) ? m : notes(m)));
     return out;
   };

@@ -24,7 +24,13 @@ const AUD = HUB.matrix.audiences; const ASSET = Object.fromEntries(HUB.assets.ma
 
 export const pdfItems = (items) => items.filter((it) => it.gated === true && DOC_TYPES.includes(it.type));
 
-const VCSS = `
+const VCSS = `section.lead { columns: 1 !important; }
+.statc { display: grid; grid-template-columns: 1.9in 1fr; gap: 16pt; align-items: center; margin: 14pt 0 6pt; padding: 14pt 0; border-top: 0.75pt solid #231F20; border-bottom: 0.75pt solid #E3E3E1; break-inside: avoid; }
+.statc-n { font: 400 66pt/0.9 Didot, "Bromic Didot", "Bodoni 72", serif; color: #EF4123; }
+.statc p { margin: 0; font: 400 14pt/1.4 Didot, "Bromic Didot", "Bodoni 72", serif; color: #231F20; }
+section.lead > p.fn, section.ch > p.fn { font: 300 6.2pt/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif !important; color: #8A8F94; }
+.lead-b { columns: 1 !important; } .lead-b > p:first-of-type { font-size: 15.5pt !important; max-width: 6.6in; }
+
 /* ---------- marketing layout (owner, 19 Nov 2026): every chapter opens on a new page with a photograph ---------- */
 body { font-size: 10.4pt; line-height: 1.55; }
 section.ch { break-before: page; }
@@ -54,23 +60,14 @@ p.fn b { color: #EF4123; font-weight: 600; margin-right: 2pt; }
 .ch-b figure img, .lead-b figure img { max-height: 2.3in; }
 section.end { break-before: auto; } .colophon { font-size: 6.8pt; }
 /* product cards: bigger pictures */
-.v-prods { grid-template-columns: repeat(2, 1fr) !important; gap: 8pt !important; }
-.v-prods article { grid-template-columns: 1.35in 1fr !important; padding: 8pt !important; gap: 10pt !important; }
-.v-pic { height: 1.15in !important; background: #F7F5F2; } .v-pic img { max-height: 1.05in !important; max-width: 95% !important; }
-.v-prods h4 { font-size: 12pt !important; } .v-prods dd { font-size: 8.4pt !important; }
-.v-steps b { font-size: 12pt !important; } .v-steps li { min-height: 54pt !important; }
-.v-wave h4 { font-size: 15pt !important; } .v-wave dd { font-size: 9pt !important; }
 .trends section.ch .op { height: 5.4in; }
 .trends section.ch .ch-b > p:first-child > strong:first-child { display: block; font: 400 54pt/1 Didot, "Bromic Didot", "Bodoni 72", serif; color: #EF4123; margin: 0 0 4pt; }
 .cta { margin-top: 14pt; }
-.v-steps { grid-template-columns: repeat(3, 1fr); gap: 6pt; break-inside: avoid; page-break-inside: avoid; } .v-steps li { padding: 8pt 8pt 8pt 40pt; min-height: 46pt; } .v-steps li .v-ic { left: 8pt; width: 24pt; height: 24pt; } .v-steps b { font-size: 11pt; } .v-steps small { font-size: 7.5pt; }
-.v-ic { width: 24pt; height: 24pt; } .v-ic svg { width: 13pt; height: 13pt; }
-.v-notes { padding: 9pt 11pt 6pt; margin: 8pt 0 12pt; column-span: all; } .v-note { font-size: 8.8pt; padding: 3pt 0; } .v-opt { font-size: 7.8pt; padding: 0 6pt; } .v-notes-h { font-size: 7pt; }
-.v-waves, .v-vs, .v-prods, .v-steps, .v-bars { column-span: all; } .v-wave, .v-vs article { padding: 9pt; } .v-wave h4 { font-size: 13pt; } .v-wave dd, .v-vs dd, .v-prods dd { font-size: 8pt; } .v-wave dt, .v-vs dt, .v-prods dt { font-size: 6pt; }
-.v-prods { grid-template-columns: repeat(3, 1fr); gap: 6pt; } .v-prods article { grid-template-columns: 52pt 1fr; padding: 6pt; gap: 8pt; } .v-pic { height: 52pt; } .v-pic img { max-height: 46pt; } .v-prods h4 { font-size: 10pt; }
-.v-bar { height: 10pt; } .v-bar em { font-size: 7pt; line-height: 10pt; } .v-bars { grid-template-columns: 1fr 1fr; gap: 6pt 14pt; break-inside: avoid; } .v-bar-g > b { font-size: 8.5pt; } .v-bars { gap: 6pt; }
-.v-tw th { color: #71777D !important; background: #FFFFFF !important; } .v-tw tbody tr:nth-child(even) td { background: #FAF8F6; }
-`;
+
+.v-dial { max-width: 4.7in; column-span: all; margin: 4pt auto 8pt; } .v-dial-n { font-size: 17pt; } .v-dial-s b { font-size: 10.5pt; } .v-dial-s small { font-size: 7pt; } .v-dial-s { width: 1.35in; }
+.v-spec, .v-vs, .v-prods, .v-bars, .v-notes { column-span: all; } .v-spec dd, .v-vs dd { font-size: 8.6pt; } .v-spec-cols h4 { font-size: 13pt; } .v-vs h4 { font-size: 17pt; }
+.v-prods { grid-template-columns: repeat(3, 1fr); gap: 14pt 12pt; } .v-prods h4 { font-size: 11.5pt; } .v-prods p { font-size: 8pt; }
+.v-note { font-size: 9pt; padding: 4pt 0; } .v-notes-h { font-size: 12pt; } .v-bar-g > b { font-size: 10.5pt; } .v-bar em { font-size: 7.5pt; }`;
 const css = `
 @page { size: Letter; margin: 0.55in 0.5in 0.6in; }
 @page :first { margin: 0; }
@@ -189,11 +186,20 @@ function finalBody(it) {
   const SRC = Object.fromEntries((it.sources || []).map((x) => [x.id, x]));
   const notesFor = (p) => { const ids = [...new Set([...p.matchAll(/data-src="(\w+)">(\d+)</g)].map((m) => m[1] + '|' + m[2]))];
     return ids.length ? `<p class="fn">${ids.map((k) => { const [id, n] = k.split('|'); const x = SRC[id] || {}; return `<span><b>${n}</b>${esc(String(x.publisher || '').replace(/\s*\(.*?\)\s*/g, ' ').trim())}${x.year ? ` ${esc(x.year)}` : ''}</span>`; }).join(' · ')}</p>` : ''; };
+  // a headline figure: the first percentage in a chapter's opening paragraph, red, bold, larger
+  const stat = (h) => { let done = false; return h.replace(/<p>([\s\S]*?)<\/p>/, (m, inner) => '<p>' + inner.replace(/(^|[^\w$.,>])(\d{1,3}(?:\.\d)?%)(?![^<]*<\/(?:a|sup|mark)>)/, (x, pre, n) => (done ? x : ((done = true), `${pre}<span class="v-stat">${n}</span>`))) + '</p>'); };
   let chap = 0;
   const out = kept.map((p, i) => {
     const isSec = /^<h2/.test(p);
     const hasImg = /<img\s/.test(p);
-    if (!isSec) { const im = hasImg ? null : take(false); return `<section class="lead">${im ? `<figure class="lead-img"><img src="${esc(im.file)}" alt="${esc(im.alt)}"></figure>` : ''}<div class="lead-b">${p}</div>${notesFor(p)}</section>`; }
+    if (!isSec) {
+      // opening spread: the photograph full width, the headline figure as a callout
+      let body = p; let im = null;
+      const inl = body.match(/<figure[^>]*>[\s\S]*?<\/figure>/); if (inl) { body = body.replace(inl[0], ''); const src = (inl[0].match(/src="([^"]+)"/) || [])[1]; im = { file: src, alt: '' }; } else im = take(false);
+      let callout = '';
+      body = body.replace(/<p>((?:(?!<\/p>)[\s\S])*?(\d{1,3}(?:\.\d)?%)(?:(?!<\/p>)[\s\S])*?)<\/p>/, (m, inner, n) => { if (callout) return m; callout = `<div class="statc"><span class="statc-n">${n}</span><p>${inner}</p></div>`; return ''; });
+      return `<section class="lead">${im ? `<figure class="lead-img"><img src="${esc(im.file)}" alt="${esc(im.alt)}"></figure>` : ''}<div class="lead-b">${body}</div>${callout}${notesFor(p)}</section>`;
+    }
     const numbered = /^<h2[^>]*>\s*\d{2}\s/.test(p);
     const title = (p.match(/<h2[^>]*>([\s\S]*?)<\/h2>/) || [])[1] || '';
     const im = take(numbered);
@@ -205,7 +211,7 @@ function finalBody(it) {
     // a second picture inside long chapters
     const im2 = !hasImg && plain(body).length > 1400 ? take(numbered) : null;
     if (im2) body = body.replace(/(<\/p>)/, `$1<figure class="mid"><img src="${esc(im2.file)}" alt="${esc(im2.alt)}"></figure>`);
-    return `<section class="ch${numbered ? ' s' : ''}">${opener}<div class="ch-b">${body}</div>${notesFor(p)}</section>`;
+    return `<section class="ch${numbered ? ' s' : ''}">${opener}<div class="ch-b">${stat(body)}</div>${notesFor(p)}</section>`;
   }).join('').replace(/<hr>\s*(?=<\/div>)/g, '');
   return { html: out, band: take(false) };
 }
