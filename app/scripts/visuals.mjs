@@ -51,12 +51,16 @@ export function makeEnhancer(images) {
     </div></figure>`;
   }
   function waves({ head, rows }) {
-    // One spectrum line: three waveforms, medium wave drawn in flame, then the facts in quiet columns.
-    const W = (n, x0, w, col, sw) => { let d = `M${x0} 20`; const step = w / (n * 2); for (let i = 0; i < n * 2; i++) d += ` q ${step / 2} ${i % 2 ? 13 : -13} ${step} 0`; return `<path d="${d}" fill="none" stroke="${col}" stroke-width="${sw}" stroke-linecap="round"/>`; };
+    // An aligned grid: one row per attribute, one column per wavelength, medium wave carried in flame.
     const kind = (t) => (/short|kurz|kort/i.test(t) ? 0 : /medium|mittel|middel/i.test(t) ? 1 : 2);
     const order = [...rows].sort((a, b) => kind(strip(a[0])) - kind(strip(b[0])));
-    return `<figure class="v-spec"><svg viewBox="0 0 300 40" aria-hidden="true">${W(9, 4, 92, '#9AA0A5', 1.1)}${W(4, 104, 92, '#EF4123', 2.2)}${W(1.5, 204, 92, '#9AA0A5', 1.1)}</svg>
-      <div class="v-spec-cols">${order.map((r) => { const best = kind(strip(r[0])) === 1; return `<div class="${best ? 'best' : ''}"><h4>${r[0]}</h4><dl>${r.slice(1).map((c, k) => `<dt>${head[k + 1] || ''}</dt><dd>${c}</dd>`).join('')}</dl></div>`; }).join('')}</div></figure>`;
+    const W = (n, col, sw) => { let d = 'M2 14'; const step = 96 / (n * 2); for (let i = 0; i < n * 2; i++) d += ` q ${step / 2} ${i % 2 ? 10 : -10} ${step} 0`; return `<svg viewBox="0 0 100 28" aria-hidden="true"><path d="${d}" fill="none" stroke="${col}" stroke-width="${sw}" stroke-linecap="round"/></svg>`; };
+    const name = (c) => { const t = c.replace(/<\/?strong>/g, ''); const m = t.match(/^([^:]+):\s*(.+)$/); return m ? `<b>${m[1]}</b><small>${m[2]}</small>` : `<b>${t}</b>`; };
+    const best = order.map((r) => kind(strip(r[0])) === 1);
+    const cell = (c, j, cls = '') => `<div class="v-sg-c${best[j] ? ' best' : ''}${cls}">${c}</div>`;
+    let html = `<figure class="v-sg"><div class="v-sg-c v-sg-k"></div>${order.map((r, j) => cell(`${W([5, 2.5, 1.2][kind(strip(r[0]))], best[j] ? '#EF4123' : '#9AA0A5', best[j] ? 2.4 : 1.3)}${name(r[0])}`, j, ' v-sg-h')).join('')}`;
+    head.slice(1).forEach((h, k) => { html += `<div class="v-sg-c v-sg-k">${h}</div>${order.map((r, j) => cell(r[k + 1] || '', j)).join('')}`; });
+    return html + '</figure>';
   }
   function versus({ head, rows }) {
     return `<div class="v-vs">${head.slice(1).map((h, k) => `<article><h4>${h}</h4><dl>${rows.map((r) => `<dt>${r[0]}</dt><dd>${r[k + 1] || ''}</dd>`).join('')}</dl></article>`).join('<span class="v-vs-or" aria-hidden="true">or</span>')}</div>`;
@@ -65,11 +69,12 @@ export function makeEnhancer(images) {
     return `<div class="v-prods">${rows.map((r) => `<article><span class="v-pic">${pic(strip(r[0]))}</span><h4>${r[0]}</h4><p>${r.slice(1).map((c, k) => `<span><em>${head[k + 1] || ''}</em> ${c}</span>`).join('')}</p></article>`).join('')}</div>`;
   }
   function coverage({ head, rows }) {
-    const parsed = rows.map((r) => { const name = strip(r[0].replace(/<sup[\s\S]*?<\/sup>/g, '')); const vals = (strip(r[1].replace(/<sup[\s\S]*?<\/sup>/g, '')).match(/\d[\d,]*/g) || []).map((v) => +v.replace(/,/g, '')); const tail = (r[1].match(/(<sup[\s\S]*)$/) || [])[1] || '';
-      const base = name.replace(/\s*\d[\d,./ ]*\s*(W|Btu|kW)?\b.*$/i, '').trim() || name; const vars = (name.match(/\d[\d,]*(?=\s*[\/W]|\s*Btu|\s*$)/g) || []);
-      return { name, base, vals, vars, tail, unit: (strip(r[1]).match(/ft²|m²/) || ['ft²'])[0] }; });
+    // Heat blooms: each heater's coverage as a soft radial glow, its area true to scale (diameter grows with the square root).
+    const parsed = rows.map((r) => { const nameHtml = r[0]; const name = strip(r[0].replace(/<sup[\s\S]*?<\/sup>/g, '')); const vals = (strip(r[1].replace(/<sup[\s\S]*?<\/sup>/g, '')).match(/\d[\d,]*/g) || []).map((v) => +v.replace(/,/g, ''));
+      const tail = (r[1].match(/(<sup[\s\S]*)$/) || [])[1] || ''; const base = name.replace(/\s*\d[\d,./ ]*\s*(W|Btu|kW)?\b.*$/i, '').replace(/,\s*$/, '').trim() || name;
+      const vars = (name.match(/\d[\d,]*(?=\s*[\/W]|\s*Btu|\s*$)/g) || []); return { name, base, vals, vars, tail, unit: (strip(r[1]).match(/ft²|m²/) || ['ft²'])[0], btu: /btu/i.test(name) }; });
     const max = Math.max(1, ...parsed.flatMap((p) => p.vals));
-    return `<div class="v-bars"><span class="v-k">${strip(head[1] || '')}</span>${parsed.map((p) => `<div class="v-bar-g"><b>${p.vals.length > 1 ? p.base : p.name}${p.tail}</b>${p.vals.map((v, k) => `<span class="v-bar"><i style="width:${Math.round((v / max) * 100)}%"></i><em>${p.vals.length > 1 && p.vars[k] ? p.vars[k] + (/btu/i.test(p.name) ? ' Btu' : ' W') + ' · ' : ''}${v.toLocaleString('en-US')} ${p.unit}</em></span>`).join('')}</div>`).join('')}</div>`;
+    return `<figure class="v-blooms"><span class="v-k">${strip(head[1] || '')}</span>${parsed.map((p) => `<div class="v-bl-g"><h5>${p.vals.length > 1 ? p.base : p.name}${p.tail}</h5><div class="v-bl-row">${p.vals.map((v, k) => { const d = Math.round(30 + 70 * Math.sqrt(v / max)); return `<div class="v-bl"><span class="v-bl-o" style="width:${d}%"><i></i></span><b>${v.toLocaleString('en-US')} <small>${p.unit}</small></b>${p.vals.length > 1 && p.vars[k] ? `<em>${p.vars[k]}${p.btu ? ' Btu' : ' W'}</em>` : ''}</div>`; }).join('')}</div></div>`).join('')}</figure>`;
   }
   function costBars(t, { rows }) {
     const first = (c) => +(((strip(c).match(/\$?(\d+([.,]\d+)?)/) || [])[1] || '0').replace(',', '.'));

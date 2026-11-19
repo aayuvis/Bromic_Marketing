@@ -24,7 +24,9 @@ const AUD = HUB.matrix.audiences; const ASSET = Object.fromEntries(HUB.assets.ma
 
 export const pdfItems = (items) => items.filter((it) => it.gated === true && DOC_TYPES.includes(it.type));
 
-const VCSS = `section.ch .ch-b, .trends section.s:not(.end) { columns: 1 !important; max-width: 6.9in; }
+const VCSS = `.v-blooms { column-span: all; gap: 12pt 22pt; } .v-bl-g h5 { font-size: 11pt; margin-bottom: 6pt; } .v-bl b { font-size: 11pt; } .v-bl b small { font-size: 7pt; } .v-bl em { font-size: 6pt; }
+.v-sg { column-span: all; } .v-sg-c { font-size: 8.6pt; padding: 5pt 8pt 5pt 0; } .v-sg-c.best { padding-left: 8pt; } .v-sg-k { font-size: 6.3pt; } .v-sg-h b { font-size: 13pt; } .v-sg-h small { font-size: 7.4pt; }
+section.ch .ch-b, .trends section.s:not(.end) { columns: 1 !important; max-width: 6.9in; }
 section.ch .ch-b > p, section.ch .ch-b > ul, section.ch .ch-b > ol { font-size: 10.6pt; line-height: 1.6; max-width: 6.4in; }
 section.ch .ch-b > h3 { font-size: 14pt; margin-top: 14pt; }
 .op { position: static !important; height: auto !important; margin: 0 0 14pt !important; background: none !important; overflow: visible !important; }
@@ -74,7 +76,7 @@ section.end { break-before: auto; } .colophon { font-size: 6.8pt; }
 .trends section.ch .ch-b > p:first-child > strong:first-child { display: block; font: 400 54pt/1 Didot, "Bromic Didot", "Bodoni 72", serif; color: #EF4123; margin: 0 0 4pt; }
 .cta { margin-top: 14pt; }
 
-.v-dial { max-width: 4.7in; column-span: all; margin: 4pt auto 8pt; } .v-dial-n { font-size: 17pt; } .v-dial-s b { font-size: 10.5pt; } .v-dial-s small { font-size: 7pt; } .v-dial-s { width: 1.35in; }
+.v-dial { max-width: 4.3in; column-span: all; margin: 2pt auto 4pt; } .v-dial-n { font-size: 17pt; } .v-dial-s b { font-size: 10.5pt; } .v-dial-s small { font-size: 7pt; } .v-dial-s { width: 1.35in; }
 .v-spec, .v-vs, .v-prods, .v-bars, .v-notes { column-span: all; } .v-spec dd, .v-vs dd { font-size: 8.6pt; } .v-spec-cols h4 { font-size: 13pt; } .v-vs h4 { font-size: 17pt; }
 .v-prods { grid-template-columns: repeat(3, 1fr); gap: 14pt 12pt; } .v-prods h4 { font-size: 11.5pt; } .v-prods p { font-size: 8pt; }
 .v-note { font-size: 9pt; padding: 4pt 0; } .v-notes-h { font-size: 12pt; } .v-bar-g > b { font-size: 10.5pt; } .v-bar em { font-size: 7.5pt; }`;
@@ -234,7 +236,7 @@ function docHTML(it, built, L = LBL.en, lang = 'en') {
   const cta = it.cta && it.cta.label ? `<div class="cta"><div><span class="label">${esc(L.next)}</span><p>${esc(it.cta.label)}</p></div><span class="go">${esc(L.site)}</span></div>` : '';
   const srcs = `<section class="end"><p class="colophon">${esc(L.colophon)} © ${new Date(HUB.built).getFullYear()} Bromic Heating · ${L.site}</p></section>`;
   const month = new Date((it.updated || HUB.built.slice(0, 10)) + 'T12:00:00Z').toLocaleString(L.locale, { month: 'long', year: 'numeric', timeZone: 'UTC' });
-  return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><title>${esc(it.title)} | Bromic Heating</title><base href="file://${DIST}/"><style>${css}${fs.readFileSync(path.join(APP, 'src', 'visuals.css'), 'utf8').replace(/@media[^{]*\{[\s\S]*\}\s*$/, '')}
+  return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><title>${esc(it.title)} | Bromic Heating</title><base href="file://${DIST}/"><style>${css}${fs.readFileSync(path.join(APP, 'src', 'visuals.css'), 'utf8')}
 ${VCSS}</style></head><body class="${/^A01/.test(it.id) ? 'trends' : ''}">
   <section class="cover">
     <div class="hero">${hero ? `<img src="${esc(hero.file)}" alt="${esc(hero.alt)}">` : ''}<img class="logo" src="pdf/_img/bromic-logo-white.png" alt="Bromic Heating"></div>
@@ -256,7 +258,7 @@ function printCopies(htmlDoc) {
     const r = spawnSync('python3', ['-c', py, path.join(DIST, 'images', 'library'), ...todo]);
     if (r.status) throw new Error(String(r.stderr));
   }
-  return htmlDoc.replace(/src="images\/library\/([\w.-]+?)(-t)?\.webp"/g, (m, id) => `src="pdf/_img/${id}.jpg"`);
+  return htmlDoc.replace(/\sloading="lazy"/g, '').replace(/src="images\/library\/([\w.-]+?)(-t)?\.webp"/g, (m, id) => `src="pdf/_img/${id}.jpg"`);
 }
 fs.mkdirSync(OUT, { recursive: true }); fs.mkdirSync(IMGDIR, { recursive: true });
 fs.copyFileSync(path.join(APP, '..', 'images', 'portfolio', 'bromic-logo-white.png'), path.join(IMGDIR, 'bromic-logo-white.png'));

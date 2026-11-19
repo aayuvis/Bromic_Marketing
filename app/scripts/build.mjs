@@ -63,7 +63,7 @@ function render(body, item, srcIndex) {
   let md = body;
   const verifies = [];
   md = md.replace(/\[\[VERIFY:\s*([^\]]+?)\]\]/g, (_, t) => { verifies.push(t.trim()); return `<mark class="verify" title="Needs verification">VERIFY: ${esc(t.trim())}</mark>`; });
-  md = md.replace(/\[\[DIAGRAM:\s*([^\]]+?)\]\]/g, (_, t) => `<span class="diagram">DIAGRAM: ${esc(t.trim())}</span>`);
+  md = md.replace(/\[\[DIAGRAM:\s*((?:\[\^\w+\]|[^\]])+?)\]\]/g, (_, t) => `<span class="diagram">DIAGRAM: ${esc(t.trim())}</span>`);
   md = md.replace(/\[\^(\w+)\]/g, (_, id) => {
     const n = srcIndex[id];
     return n ? `<sup class="cite"><a href="#src-${esc(item.id)}-${esc(id)}" data-src="${esc(id)}">${n}</a></sup>` : `<sup class="cite missing" title="No source ${esc(id)}">?</sup>`;
