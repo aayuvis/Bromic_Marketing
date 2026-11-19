@@ -7,6 +7,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import yaml from 'js-yaml';
 import { marked } from 'marked';
+import { makeEnhancer } from './visuals.mjs';
 
 const APP = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const ROOT = path.resolve(APP, '..');
@@ -57,6 +58,7 @@ function faqOf(body) {
   }).filter((x) => x.q && x.a);
 }
 
+let ENHANCE = null;
 function render(body, item, srcIndex) {
   let md = body;
   const verifies = [];
@@ -83,7 +85,7 @@ function render(body, item, srcIndex) {
     return `<a href="${esc(href)}"${ext ? ' target="_blank" rel="noopener"' : ''}>${text}</a>`;
   };
   renderer.table = (header, body) => `<div class="table-wrap"><table><thead>${header}</thead><tbody>${body}</tbody></table></div>`;
-  const html = marked.parse(md, { renderer, mangle: false, headerIds: false });
+  const html = (ENHANCE ||= makeEnhancer(images))(marked.parse(md, { renderer, mangle: false, headerIds: false }));
   return { html, verifies };
 }
 
@@ -144,7 +146,7 @@ for (const f of files) {
   if (it.type === 'article') {
     if (!it.cta) errors.push(`${where}: article needs a cta`);
     if (!it.faq.length) errors.push(`${where}: article needs an FAQ`);
-    if (!/<table/.test(it.html)) errors.push(`${where}: article needs a table`);
+    if (!/<table|class="v-(steps|waves|vs|prods|bars)"/.test(it.html)) errors.push(`${where}: article needs a table`);
     if (it.meta_description.length > 160) warn.push(`${where}: meta_description ${it.meta_description.length} chars`);
   }
   if (it.type === 'blog') {  // a blog post replaces a live bromic.com URL (content/reports/blog-audit.md, data/page-ownership.json)
@@ -264,7 +266,7 @@ if (CHECK) process.exit(errors.length ? 1 : 0);
 // write dist
 fs.rmSync(DIST, { recursive: true, force: true });
 fs.mkdirSync(DIST, { recursive: true });
-for (const f of ['index.html', 'styles.css', 'app.js', 'editor.js']) fs.copyFileSync(path.join(APP, 'src', f), path.join(DIST, f));
+for (const f of ['index.html', 'styles.css', 'visuals.css', 'app.js', 'editor.js']) fs.copyFileSync(path.join(APP, 'src', f), path.join(DIST, f));
 fs.cpSync(path.join(APP, 'src', 'fonts'), path.join(DIST, 'fonts'), { recursive: true });
 if (fs.existsSync(path.join(ROOT, 'decks'))) { fs.mkdirSync(path.join(DIST, 'decks'), { recursive: true }); for (const f of fs.readdirSync(path.join(ROOT, 'decks')).filter((x) => /\.(pptx|jpg)$/.test(x))) fs.copyFileSync(path.join(ROOT, 'decks', f), path.join(DIST, 'decks', f));
   if (fs.existsSync(path.join(ROOT, 'decks', 'carousels'))) { fs.mkdirSync(path.join(DIST, 'decks', 'carousels'), { recursive: true }); for (const f of fs.readdirSync(path.join(ROOT, 'decks', 'carousels'))) fs.copyFileSync(path.join(ROOT, 'decks', 'carousels', f), path.join(DIST, 'decks', 'carousels', f)); } }

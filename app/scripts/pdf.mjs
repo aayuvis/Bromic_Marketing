@@ -24,6 +24,14 @@ const AUD = HUB.matrix.audiences; const ASSET = Object.fromEntries(HUB.assets.ma
 
 export const pdfItems = (items) => items.filter((it) => it.gated === true && DOC_TYPES.includes(it.type));
 
+const VCSS = `.v-steps { grid-template-columns: repeat(3, 1fr); gap: 6pt; } .v-steps li { padding: 8pt 8pt 8pt 40pt; min-height: 46pt; } .v-steps li .v-ic { left: 8pt; width: 24pt; height: 24pt; } .v-steps b { font-size: 11pt; } .v-steps small { font-size: 7.5pt; }
+.v-ic { width: 24pt; height: 24pt; } .v-ic svg { width: 13pt; height: 13pt; }
+.v-notes { padding: 9pt 11pt 6pt; margin: 8pt 0 12pt; column-span: all; } .v-note { font-size: 8.8pt; padding: 3pt 0; } .v-opt { font-size: 7.8pt; padding: 0 6pt; } .v-notes-h { font-size: 7pt; }
+.v-waves, .v-vs, .v-prods, .v-steps, .v-bars { column-span: all; } .v-wave, .v-vs article { padding: 9pt; } .v-wave h4 { font-size: 13pt; } .v-wave dd, .v-vs dd, .v-prods dd { font-size: 8pt; } .v-wave dt, .v-vs dt, .v-prods dt { font-size: 6pt; }
+.v-prods { grid-template-columns: repeat(3, 1fr); gap: 6pt; } .v-prods article { grid-template-columns: 52pt 1fr; padding: 6pt; gap: 8pt; } .v-pic { height: 52pt; } .v-pic img { max-height: 46pt; } .v-prods h4 { font-size: 10pt; }
+.v-bar { height: 13pt; } .v-bar em { font-size: 7.5pt; line-height: 13pt; } .v-bar-g > b { font-size: 8.5pt; } .v-bars { gap: 6pt; }
+.v-tw th { color: #71777D !important; background: #FFFFFF !important; } .v-tw tbody tr:nth-child(even) td { background: #FAF8F6; }
+`;
 const css = `
 @page { size: Letter; margin: 0.55in 0.5in 0.6in; }
 @page :first { margin: 0; }
@@ -160,7 +168,8 @@ function docHTML(it, built, L = LBL.en, lang = 'en') {
   const srcs = it.sources.length ? `<section class="s end"><h2>${esc(L.sources)}</h2><ol class="sources">${it.sources.map((s) => `<li id="src-${esc(it.id)}-${esc(s.id)}"><b>${esc(s.publisher || '')}</b>${s.title ? `, ${esc(s.title)}` : ''}${s.year ? ` (${esc(s.year)})` : ''}${/^https?:/.test(s.url || '') ? `. <a href="${esc(s.url)}">${esc(s.url)}</a>` : ''}</li>`).join('')}</ol>
     <p class="colophon">${esc(L.colophon)} © ${new Date(HUB.built).getFullYear()} Bromic Heating · ${L.site}</p></section>` : '';
   const month = new Date((it.updated || HUB.built.slice(0, 10)) + 'T12:00:00Z').toLocaleString(L.locale, { month: 'long', year: 'numeric', timeZone: 'UTC' });
-  return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><title>${esc(it.title)} | Bromic Heating</title><base href="file://${DIST}/"><style>${css}</style></head><body class="${/^A01/.test(it.id) ? 'trends' : ''}">
+  return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><title>${esc(it.title)} | Bromic Heating</title><base href="file://${DIST}/"><style>${css}${fs.readFileSync(path.join(APP, 'src', 'visuals.css'), 'utf8').replace(/@media[^{]*\{[\s\S]*\}\s*$/, '')}
+${VCSS}</style></head><body class="${/^A01/.test(it.id) ? 'trends' : ''}">
   <section class="cover">
     <div class="hero">${hero ? `<img src="${esc(hero.file)}" alt="${esc(hero.alt)}">` : ''}<img class="logo" src="pdf/_img/bromic-logo-white.png" alt="Bromic Heating"></div>
     <div class="titles"><span class="label">${esc(aud)}</span><h1>${esc(it.title)}</h1>${dek ? `<p class="dek">${esc(dek)}</p>` : ''}</div>
