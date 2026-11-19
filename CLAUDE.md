@@ -77,6 +77,11 @@ carousels (`carousels` in the framework: power, recess, design, controls; cards 
 `python3 decks/build-carousels.py` → `decks/carousels/`); the last slide is high-level and says the playbook is a suggestion. The Hub's
 Product marketing tab 4 shows the carousels and storyboards (`storyboards`).
 
+**Range frameworks (owner, 19 Nov 2026):** `platinum-electric.json`, `platinum-gas.json`, `tungsten-gas.json` (mounted, Freestanding/Portable) and
+`eclipse.json` use schema v2: `m3.competitors` (2–4 closest, researched, each with `why_closest`) and rows with `vs.<competitorId>`;
+optional `m2` against our own range (`m2_label`); `competitive_summary` (wins, parity, watch, battlecard). Tungsten Series II adds
+`training`, `one_pagers`, `emails`, `next_steps`, `dimensions`, `accessories` (tab 5). Brief: test every "only" in `claim_checks`.
+
 ## Calculations: one simple model
 
 Every tool and every article that does arithmetic follows [templates/calculation-model.md](templates/calculation-model.md) (owner,

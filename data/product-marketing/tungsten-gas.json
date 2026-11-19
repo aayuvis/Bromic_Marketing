@@ -1,0 +1,1769 @@
+{
+ "_readme": "Product marketing framework for the Tungsten Smart-Heat® Gas family (owner, 19 Nov 2026; schema v2 for range frameworks). One framework, two forms: the mounted Tungsten Smart-Heat® Gas (wall, ceiling or pole, two sizes, natural gas or propane) and the wheeled Tungsten Smart-Heat® Freestanding gas tower (sold for years as Tungsten Portable; the site, manuals and image files still use that name). Matrix 1: what matters to each buyer (w 3 matters most, 2 matters, 1 nice to have) and the claim that lands. Matrix 2: mounted against freestanding, so sales know which to propose. Matrix 3: against the closest US gas competitors, mounted and freestanding (factual, sourced, needs_approval Specification and compliance). Built-in Tungsten Gas BTU stays unpublished until the Product team confirms it (CLAUDE.md hard rule 3); legacy series numbers are never used. Bromic facts come from data/product-facts.json; where a Bromic document read on 19 Nov 2026 (cut sheets, US manuals) adds a fact not yet in product-facts, it is cited and carries a [[VERIFY]]. Competitor facts are from the makers' own pages and spec sheets where they could be read; retailer-hosted copies of maker spec sheets are cited as such.",
+ "id": "tungsten-gas",
+ "name": "Tungsten Smart-Heat® Gas",
+ "short": "Tungsten Gas",
+ "status": "draft",
+ "updated": "2026-11-19",
+ "owner_review": "Marketing",
+ "needs_approval": "Specification and compliance",
+ "launch": {
+  "summary": "Bromic's gas workhorse: a compact mounted heater for covered commercial patios and homes with a gas line, and a wheeled freestanding tower for open terraces, sidewalks and pool decks. Both run on natural gas or propane and sit in the Tungsten collection beside Tungsten Electric."
+ },
+ "tiers": [
+  {
+   "id": "mounted-160",
+   "tier": "Mounted, 160 ft² model",
+   "name": "Tungsten Smart-Heat® Gas (smaller model)",
+   "win_on": "Compact gas warmth for covered patios, bars and residential alfresco areas",
+   "colours": "Matte black",
+   "fascia": "Honeycomb mesh face over ceramic burners",
+   "recessing": "Wall or ceiling; pivot arm ±25°; ceiling poles in six lengths; heat deflector optional; not recessed",
+   "price": "$1,828–$2,087 across the mounted models (bromic.com list)",
+   "image": "w-tungstengas-2",
+   "notes": [
+    "Coverage up to 160 ft² (bromic.com; the cut sheet says in ideal conditions)",
+    "Natural gas or propane, one SKU per gas",
+    "110 V, under 2 A for ignition and controls; 33 lb",
+    "About 19.3 in wide (US manual drawing)",
+    "Output: [[VERIFY: built-in output by model; bromic.com and the US manual publish figures that conflict with the 2021 Planning Guide, so no built-in BTU is used until confirmed — Product team]]"
+   ]
+  },
+  {
+   "id": "mounted-215",
+   "tier": "Mounted, 215 ft² model",
+   "name": "Tungsten Smart-Heat® Gas (larger model)",
+   "win_on": "More reach per heater for restaurant terraces and larger covered spaces",
+   "colours": "Matte black",
+   "fascia": "Honeycomb mesh face over ceramic burners",
+   "recessing": "Wall or ceiling; pivot arm ±25°; ceiling poles in six lengths; heat deflector optional; not recessed",
+   "price": "$1,828–$2,087 across the mounted models (bromic.com list)",
+   "image": "l-020-175",
+   "notes": [
+    "Coverage up to 215 ft² (bromic.com; the cut sheet says in ideal conditions)",
+    "Natural gas or propane, one SKU per gas",
+    "110 V, under 2 A; 44 lb",
+    "About 25.4 in wide (US manual drawing)",
+    "Output: [[VERIFY: built-in output by model; bromic.com and the US manual publish figures that conflict with the 2021 Planning Guide, so no built-in BTU is used until confirmed — Product team]]"
+   ]
+  },
+  {
+   "id": "freestanding-lpg",
+   "tier": "Freestanding, propane",
+   "name": "Tungsten Smart-Heat® Freestanding (propane)",
+   "win_on": "Warmth that goes where the table goes, with no gas line and no wiring",
+   "colours": "Matte black",
+   "fascia": "Ceramic burner head on a curved 304 stainless steel column",
+   "recessing": "Freestanding on built-in wheels; tilting head; anti-tilt design",
+   "price": "$2,431 (bromic.com list)",
+   "image": "w-tung-port",
+   "notes": [
+    "38,000 BTU and about 215 ft² (Lookbook 2026) [[VERIFY: 38,000 BTU (Lookbook 2026) against 38,500 BTU (bromic.com, cut sheet and US manual) — Product team]]",
+    "20 lb propane cylinder housed in the base",
+    "Output knob adjusts high to low (bromic.com)",
+    "Flame failure device and anti-tilt switch (US manual)",
+    "124 lb (bromic.com; 123.5 lb in the manual)"
+   ]
+  },
+  {
+   "id": "freestanding-ng",
+   "tier": "Freestanding, natural gas",
+   "name": "Tungsten Smart-Heat® Freestanding (natural gas)",
+   "win_on": "Freestanding flexibility for venues on a natural gas line, with no cylinders to change",
+   "colours": "Matte black",
+   "fascia": "Ceramic burner head on a curved 304 stainless steel column",
+   "recessing": "Freestanding on built-in wheels; tilting head; ships with a 10 ft quick-connect gas line",
+   "price": "$2,431 (bromic.com list) [[VERIFY: natural gas model price — Sales operations]]",
+   "image": "l-019-164",
+   "notes": [
+    "38,000 BTU and about 215 ft² (Lookbook 2026) [[VERIFY: 38,000 BTU (Lookbook 2026) against 38,500 BTU (bromic.com, cut sheet and US manual) — Product team]]",
+    "10 ft quick-connect line to a fixed supply",
+    "Runs on high only (bromic.com)",
+    "Warranty and certification shown only in the propane column on bromic.com [[VERIFY: natural gas model warranty and listing — Product team]]"
+   ]
+  }
+ ],
+ "upgrades_label": "What sets it apart",
+ "upgrades": [
+  "Two forms in one family: mounted (two sizes) and a wheeled freestanding tower, every model on natural gas or propane",
+  "Compact mounted heads, about 19.3 in and 25.4 in wide (US manual drawing), for beams, soffits and tight bays",
+  "Coverage up to 215 ft² from a single heater, mounted or freestanding (Bromic figures, in ideal conditions)",
+  "A tilting head on the freestanding tower aims the warmth at the table; the mounted pivot arm turns ±25°",
+  "Flame failure device and anti-tilt switch on the freestanding tower; Intertek (ETL) listing 4009079 on both cut sheets",
+  "Mounted heaters switch from Affinity Smart-Heat® On/Off Controls: Bromic app, schedules, timers and smart-home integration (controls sold separately)",
+  "Heat deflector cuts the clearance above a mounted heater from 3 ft to 14 in"
+ ],
+ "price_verify": "[[VERIFY: current list prices by model, gas type and region, and whether the two mounted sizes are priced at each end of the $1,828–$2,087 range — Sales operations]]",
+ "user_types": [
+  {
+   "id": "COM",
+   "name": "Hospitality and commercial operators",
+   "who": "Restaurants, bars, hotels, cafés and venues that sell more covers when the terrace stays warm"
+  },
+  {
+   "id": "RES",
+   "name": "Homeowners",
+   "who": "Residential owners with a covered patio, a gas line or a propane habit, and an evening they want to stretch"
+  },
+  {
+   "id": "BLD",
+   "name": "Builders and remodelers",
+   "who": "Custom and semi-custom builders and remodelers who stub gas to the patio and want an easy add"
+  },
+  {
+   "id": "INS",
+   "name": "Installers and gas fitters",
+   "who": "Licensed gas fitters, plumbers and electricians who pipe, power and commission the heaters"
+  },
+  {
+   "id": "ARC",
+   "name": "Architects and specifiers",
+   "who": "Architects, hospitality designers and specifiers who place the heater in the drawing and the schedule"
+  }
+ ],
+ "benefits": [
+  {
+   "id": "safety",
+   "name": "Safety and peace of mind",
+   "what": "Flame failure and anti-tilt shut-offs, listed hardware, published clearances, a deflector for tighter ceilings",
+   "proposed": false
+  },
+  {
+   "id": "heat",
+   "name": "Heat performance",
+   "what": "Coverage per heater and the radiant warmth people feel from ceramic burners",
+   "proposed": false
+  },
+  {
+   "id": "install_flex",
+   "name": "Placement flexibility",
+   "what": "Wall, ceiling, pole drops, or wheels and no fixing at all",
+   "proposed": false
+  },
+  {
+   "id": "weather",
+   "name": "Wind, weather and durability",
+   "what": "Wind ratings, water rating, stainless construction and where the heater must sit",
+   "proposed": false
+  },
+  {
+   "id": "fuel",
+   "name": "Fuel choice",
+   "what": "Natural gas or propane, line or cylinder, on every model",
+   "proposed": false
+  },
+  {
+   "id": "controls",
+   "name": "Ease of controls",
+   "what": "Affinity Smart-Heat® On/Off Controls and the Bromic app for mounted heaters; a simple knob and spark start on the tower",
+   "proposed": false
+  },
+  {
+   "id": "aesthetics",
+   "name": "Design aesthetics",
+   "what": "Compact honeycomb face, matte black, a sculpted freestanding column",
+   "proposed": false
+  },
+  {
+   "id": "directional",
+   "name": "Directional heat",
+   "what": "Warmth aimed at people: a tilting head on the tower, a pivot arm on the mounted heater",
+   "proposed": false
+  },
+  {
+   "id": "support",
+   "name": "Specification and support",
+   "what": "Complimentary design service, cut sheets, manuals, BIM and CAD files",
+   "proposed": false
+  },
+  {
+   "id": "install_ease",
+   "name": "Ease of installation",
+   "what": "Bracket included, 110 V ignition, standard gas connection, a tower that arrives ready to roll",
+   "proposed": false
+  },
+  {
+   "id": "multi_area",
+   "name": "Heat multiple outdoor areas",
+   "what": "Zones and schedules across many heaters, and mounted and freestanding together",
+   "proposed": false
+  },
+  {
+   "id": "warranty",
+   "name": "Warranty",
+   "what": "Manufacturer warranty by model",
+   "proposed": false
+  }
+ ],
+ "benefit_order_note": "Ordered by priority: total weight across the five buyers (3 matters most, 2 matters, 1 nice to have), ties broken by how often the field decides a gas heater sale in hospitality.",
+ "m1": {
+  "COM": {
+   "safety": {
+    "w": 3,
+    "claim": "A flame failure device and an anti-tilt switch on every freestanding tower, so a bumped heater shuts itself off between busy tables."
+   },
+   "heat": {
+    "w": 3,
+    "claim": "Up to 215 ft² from one heater, mounted or freestanding, so fewer heaters warm more covers."
+   },
+   "install_flex": {
+    "w": 2,
+    "claim": "Fix it to the beam where the patio is covered; roll the tower to the open edge where it is not."
+   },
+   "weather": {
+    "w": 3,
+    "claim": "Built for the terrace: 304 stainless steel on the tower, IPX4-rated heads, and a mounted heater that lives under the roof line."
+   },
+   "fuel": {
+    "w": 3,
+    "claim": "Run the mounted heaters and the natural gas tower off your gas line, and keep propane towers for the corners the line cannot reach."
+   },
+   "controls": {
+    "w": 2,
+    "claim": "Switch every mounted heater by zone, on a schedule, from the Bromic app with Affinity Smart-Heat® On/Off Controls."
+   },
+   "aesthetics": {
+    "w": 2,
+    "claim": "A compact honeycomb face in matte black that sits quietly in a well-designed room."
+   },
+   "directional": {
+    "w": 3,
+    "claim": "The tower's tilting head aims the warmth at the table, so it lands on your guests."
+   },
+   "support": {
+    "w": 2,
+    "claim": "Send us the floor plan: our complimentary design service places every heater before you order."
+   },
+   "install_ease": {
+    "w": 1,
+    "claim": "Brackets in the box and poles in six lengths keep fit-out quick between services."
+   },
+   "multi_area": {
+    "w": 3,
+    "claim": "Bar, dining terrace and sidewalk in their own zones, gas mounted and freestanding together."
+   },
+   "warranty": {
+    "w": 2,
+    "claim": "Two years on the mounted heaters, excluding hoses and igniters; one year on the tower."
+   }
+  },
+  "RES": {
+   "safety": {
+    "w": 3,
+    "claim": "Flame failure and anti-tilt shut-offs on the tower, listed hardware, and a fixed heater well above head height: peace of mind with family around."
+   },
+   "heat": {
+    "w": 3,
+    "claim": "Real radiant warmth from ceramic burners, up to 215 ft² from a single heater."
+   },
+   "install_flex": {
+    "w": 2,
+    "claim": "On the wall or the ceiling of your covered patio, or on wheels wherever tonight's table is."
+   },
+   "weather": {
+    "w": 2,
+    "claim": "Stainless steel and a high-temperature coating made for living outside."
+   },
+   "fuel": {
+    "w": 2,
+    "claim": "Already have a gas line to the grill? Tungsten Gas runs on it, or on propane."
+   },
+   "controls": {
+    "w": 3,
+    "claim": "Switch the patio heaters on from your phone, or on a schedule, with Affinity Smart-Heat® On/Off Controls; the tower lights at the touch of a button."
+   },
+   "aesthetics": {
+    "w": 3,
+    "claim": "A sculpted matte black column or a compact honeycomb face that suits a modern home."
+   },
+   "directional": {
+    "w": 2,
+    "claim": "Tilt the head and the warmth falls where you sit."
+   },
+   "support": {
+    "w": 1,
+    "claim": "Not sure how many you need? Our design team will plan it with you, free."
+   },
+   "install_ease": {
+    "w": 1,
+    "claim": "The tower arrives, rolls into place and runs from a 20 lb propane cylinder."
+   },
+   "multi_area": {
+    "w": 2,
+    "claim": "The outdoor kitchen, the dining table and the fire-pit lounge, each warm when you are there."
+   },
+   "warranty": {
+    "w": 2,
+    "claim": "Two years of cover on the mounted heater, excluding hoses and igniters."
+   }
+  },
+  "BLD": {
+   "safety": {
+    "w": 2,
+    "claim": "Published clearances, an 8 ft minimum mounting height and Intertek-listed heaters keep inspection simple."
+   },
+   "heat": {
+    "w": 2,
+    "claim": "Two mounted sizes, 160 and 215 ft², to match the patio on the plan."
+   },
+   "install_flex": {
+    "w": 2,
+    "claim": "Wall bracket, ceiling poles from 9.69 to 41.18 in, and a heat deflector for low covered patios."
+   },
+   "weather": {
+    "w": 2,
+    "claim": "Mounted under the patio roof as the manual requires, IPX4 heads and stainless construction."
+   },
+   "fuel": {
+    "w": 2,
+    "claim": "Stub natural gas to the patio at framing and the heater is a simple add for your buyer."
+   },
+   "controls": {
+    "w": 2,
+    "claim": "Plan one switched circuit and an Affinity Smart-Heat® On/Off Controller, and the homeowner gets app control."
+   },
+   "aesthetics": {
+    "w": 2,
+    "claim": "A compact matte black heater that sits comfortably on the elevation."
+   },
+   "directional": {
+    "w": 1,
+    "claim": "The pivot arm turns ±25°, so heat follows the seating plan."
+   },
+   "support": {
+    "w": 2,
+    "claim": "Cut sheets, manuals and BIM files are ready for your plan set, and a complimentary design plan backs the option."
+   },
+   "install_ease": {
+    "w": 3,
+    "claim": "One wall bracket in every box, a 1/2 in NPT gas inlet and 110 V under 2 A: trades already know how to fit it."
+   },
+   "multi_area": {
+    "w": 1,
+    "claim": "Patio and outdoor kitchen on one controller, more zones as the buyer adds them."
+   },
+   "warranty": {
+    "w": 2,
+    "claim": "Two years on the mounted heater, excluding hoses and igniters."
+   }
+  },
+  "INS": {
+   "safety": {
+    "w": 3,
+    "claim": "Electronic ignition with flame monitoring on the mounted heater; flame failure and an anti-tilt switch on the tower; ETL and cETL listing 4009079."
+   },
+   "heat": {
+    "w": 2,
+    "claim": "Size from 160 or 215 ft² a heater, at an 8 ft optimum mounting height."
+   },
+   "install_flex": {
+    "w": 3,
+    "claim": "Wall or ceiling, a ±25° pivot arm, poles in six lengths; top clearance 3 ft, or 14 in with the heat deflector."
+   },
+   "weather": {
+    "w": 2,
+    "claim": "Mounted heaters go under a protective cover, as the manual requires; the tower is IPX4 and 304 stainless."
+   },
+   "fuel": {
+    "w": 3,
+    "claim": "Natural gas: 6 to 14 in W.C. inlet. Propane: 11 to 14 in W.C. A 1/2 in NPT female inlet with a factory isolating valve."
+   },
+   "controls": {
+    "w": 2,
+    "claim": "No switch on the heater: power it from an Affinity Smart-Heat® On/Off Controller or a manual wall switch."
+   },
+   "aesthetics": {
+    "w": 1,
+    "claim": "A compact head that is easy to line up on a beam."
+   },
+   "directional": {
+    "w": 2,
+    "claim": "Set the pivot arm or the tower's head angle before lighting, then leave it."
+   },
+   "support": {
+    "w": 2,
+    "claim": "US manual, wiring diagram and clearance drawings online, and Bromic support behind them."
+   },
+   "install_ease": {
+    "w": 3,
+    "claim": "Bracket in the box, 110 V and under 2 A, standard gas pressures: a familiar install."
+   },
+   "multi_area": {
+    "w": 1,
+    "claim": "Group gas heaters on controller channels and hand the client a zoned system."
+   },
+   "warranty": {
+    "w": 2,
+    "claim": "Two years on mounted heaters, excluding maintenance items such as hoses and igniters."
+   }
+  },
+  "ARC": {
+   "safety": {
+    "w": 2,
+    "claim": "Listed gas heaters with published clearances to combustibles: 3 ft above, or 14 in with the heat deflector."
+   },
+   "heat": {
+    "w": 2,
+    "claim": "Specify by coverage: up to 160 or 215 ft² a mounted heater, about 215 ft² a tower."
+   },
+   "install_flex": {
+    "w": 3,
+    "claim": "Wall, ceiling or pole drop at 8 ft and above, or freestanding where the ceiling cannot take a heater."
+   },
+   "weather": {
+    "w": 2,
+    "claim": "Detail mounted heaters under cover; the freestanding tower is IPX4-rated stainless steel."
+   },
+   "fuel": {
+    "w": 1,
+    "claim": "Natural gas or propane on every model."
+   },
+   "controls": {
+    "w": 2,
+    "claim": "Affinity Smart-Heat® On/Off Controls bring the mounted heaters into the app and, through the expansion board, into the BMS."
+   },
+   "aesthetics": {
+    "w": 3,
+    "claim": "About 19.3 or 25.4 in wide, a honeycomb face in matte black: a compact gas heater that reads as part of the architecture."
+   },
+   "directional": {
+    "w": 2,
+    "claim": "Directional radiant heat for open-air spaces, aimed by pivot arm or tilting head."
+   },
+   "support": {
+    "w": 3,
+    "claim": "Complimentary design plans with heat coverage drawings, Revit and CAD files, cut sheets and manuals."
+   },
+   "install_ease": {
+    "w": 1,
+    "claim": "Standard gas and power connections keep coordination with the trades simple."
+   },
+   "multi_area": {
+    "w": 2,
+    "claim": "Zone terraces, bars and dining rooms on one control system."
+   },
+   "warranty": {
+    "w": 1,
+    "claim": "Two years on mounted heaters, excluding hoses and igniters."
+   }
+  }
+ },
+ "m2_label": {
+  "tab": "Mounted or freestanding",
+  "left": "Tungsten Smart-Heat® Gas (mounted)",
+  "right": "Tungsten Smart-Heat® Freestanding",
+  "intro": "Which Tungsten Gas to propose: the mounted heater where there is a roof, a beam and a gas line; the tower where the space is open, changes nightly or has no fixing point."
+ },
+ "m2": [
+  {
+   "benefit": "safety",
+   "change": "changed",
+   "s1": "Electronic ignition with flame monitoring (the ignition control shuts the gas within 1 s of a running flame failure, US manual). Mounted at least 96 in above the floor; top clearance 3 ft, or 14 in with the heat deflector. ETL and cETL listing 4009079.",
+   "s2": "Flame failure device and anti-tilt switch (US manual). 3 ft clearance to the sides and above (US manual); minimum floor clearance 121 in (cut sheet) [[VERIFY: what the 121 in figure measures — Product team]]. Intertek listing 4009079 shown for the propane model.",
+   "so_what": "Mounted keeps the heat out of reach; the tower keeps itself safe when it is bumped or tipped. Both shut the gas when the flame goes out."
+  },
+  {
+   "benefit": "heat",
+   "change": "changed",
+   "s1": "Two sizes: up to 160 ft² and up to 215 ft² (bromic.com; in ideal conditions per the cut sheet). [[VERIFY: built-in output by model; bromic.com and the US manual publish figures that conflict with the 2021 Planning Guide, so no built-in BTU is used until confirmed — Product team]]",
+   "s2": "38,000 BTU, about 215 ft² (Lookbook 2026). [[VERIFY: 38,000 BTU (Lookbook 2026) against 38,500 BTU (bromic.com, cut sheet and US manual) — Product team]]",
+   "so_what": "Same reach as the larger mounted heater from a tower that moves; the smaller mounted size suits tighter bays."
+  },
+  {
+   "benefit": "install_flex",
+   "change": "changed",
+   "s1": "Wall bracket (one included per heater), ceiling poles 9.69 to 41.18 in for flat or pitched ceilings (poles hang vertical), pivot arm ±25°, optional heat deflector.",
+   "s2": "Built-in wheels, no fixing. Propane model is self-contained; natural gas model connects through a 10 ft quick-connect line.",
+   "so_what": "Propose mounted for fixed seating under a roof; the tower for open terraces, lawns, pool decks and layouts that change."
+  },
+  {
+   "benefit": "weather",
+   "change": "changed",
+   "s1": "IPX4 (cut sheet). Must be protected from rain and installed under a protective cover (US manual). Wind: [[VERIFY: mounted wind rating; bromic.com says up to 8 mph, the US manual V2.3 says designed to function in winds up to 10 mph — Product team]] Stainless steel with a high-temperature coating.",
+   "s2": "IPX4 (cut sheet), 304 stainless steel, wind up to 8 mph (bromic.com). Protective head cover sold separately ($108).",
+   "so_what": "The tower can stand in the open; the mounted heater belongs under a roof, pergola cover or awning."
+  },
+  {
+   "benefit": "fuel",
+   "change": "same",
+   "s1": "Natural gas or propane, one factory SKU per gas. 1/2 in NPT female inlet; inlet 6 to 14 in W.C. (natural gas) or 11 to 14 in W.C. (propane).",
+   "s2": "Propane from a 20 lb cylinder in the base, or natural gas through the 10 ft quick-connect line; same pressure ranges.",
+   "so_what": "Every Tungsten Gas model comes in both gases, so the site's supply never rules one out."
+  },
+  {
+   "benefit": "controls",
+   "change": "changed",
+   "s1": "No switch on the heater: it is switched by its power supply, from an Affinity Smart-Heat® On/Off Controller (Bromic app, zones, schedules, timers, smart-home and BMS integration) or a manual wall switch. On/off only, no dimming. [[VERIFY: Affinity On/Off spec table lists only electric heaters while its intro and FAQ add gas (up to 10 gas heaters a channel); confirm gas compatibility and capacity — Product team]]",
+   "s2": "At the heater: push-button spark ignition (one AAA battery), gas knob. Propane adjusts from high to low; natural gas runs on high only. No app control.",
+   "so_what": "Mounted is the smart, zoned choice; the tower is the simple one. Offer Affinity controls with every mounted heater."
+  },
+  {
+   "benefit": "aesthetics",
+   "change": "changed",
+   "s1": "Compact honeycomb face in matte black, about 19.3 in or 25.4 in wide (US manual drawing).",
+   "s2": "Sculpted curved column in matte black, about 85 in tall (2,160 mm, US manual).",
+   "so_what": "Mounted all but disappears into the structure; the tower is a piece of furniture people notice."
+  },
+  {
+   "benefit": "directional",
+   "change": "changed",
+   "s1": "Pivot arm turns ±25° to each side; angle down from the wall or ceiling.",
+   "s2": "Adjustable tilting head with a high tilt position, set before lighting (US manual).",
+   "so_what": "Both aim the heat at people; the tower also aims it from wherever it is parked."
+  },
+  {
+   "benefit": "support",
+   "change": "same",
+   "s1": "Cut sheet, US manual, wiring diagram, clearance drawings, complimentary design service.",
+   "s2": "Cut sheet, US manual, clearance and heat coverage drawings, complimentary design service.",
+   "so_what": "Either way, a free design plan settles how many and where."
+  },
+  {
+   "benefit": "install_ease",
+   "change": "changed",
+   "s1": "Licensed gas fitter and electrician: fixed gas pipe, 110 V supply under 2 A, bracket or pole. [[VERIFY: whether a cord-and-plug connection is permitted in the US or hard-wiring is required — Product team]]",
+   "s2": "Assembles from two boxes, then rolls into place. Propane: fit a cylinder. Natural gas: a fitter provides the quick-connect point.",
+   "so_what": "The tower can be warming guests the day it arrives; mounted is a planned install."
+  },
+  {
+   "benefit": "multi_area",
+   "change": "changed",
+   "s1": "Group heaters on controller channels and zones; up to 10 gas heaters a channel. [[VERIFY: Affinity On/Off spec table lists only electric heaters while its intro and FAQ add gas (up to 10 gas heaters a channel); confirm gas compatibility and capacity — Product team]]",
+   "s2": "One heater, one table group; move towers between areas as the evening changes.",
+   "so_what": "Mix them: mounted zones under the roof, towers at the open edge."
+  },
+  {
+   "benefit": "warranty",
+   "change": "changed",
+   "s1": "2 years, excluding maintenance items such as hoses and igniters (bromic.com warranty page).",
+   "s2": "1 year (bromic.com warranty page; shown for the propane model).",
+   "so_what": "Mounted carries the longer cover; say so when a client weighs the two."
+  }
+ ],
+ "m3": {
+  "intro": "Against the closest US gas competitors: Sunpak and Schwank for mounted heaters, Sunglo, Schwank's parasol and AZ Patio's glass-tube towers for freestanding. Heatstrip (AU) is noted for the Australian team but not benchmarked here.",
+  "competitors": [
+   {
+    "id": "sunpak",
+    "name": "Sunpak S34 TSH (mounted)",
+    "owner": "Infrared Dynamics, Inc. (Yorba Linda, California); sold through AEI Corporation",
+    "markets": "US, Canada",
+    "why_closest": "The best-known mounted ceramic infrared gas patio heater in US residential and restaurant work: wall or ceiling, natural gas or propane, 25,000 to 34,000 BTU, the heater a dealer most often quotes against Tungsten Gas.",
+    "sources": [
+     "s1",
+     "s2"
+    ]
+   },
+   {
+    "id": "schwank",
+    "name": "Schwank supremeSchwank (mounted) and parasolSchwank (freestanding)",
+    "owner": "Schwank Group (US base Waynesboro, Georgia; Canada Mississauga)",
+    "markets": "US, Canada, EU",
+    "why_closest": "The commercial gas heating brand restaurants and specifiers know, with a mounted ceramic heater in 316 marine-grade stainless steel and a wheeled propane parasol: the one rival that covers both Tungsten Gas forms.",
+    "sources": [
+     "s5",
+     "s6",
+     "s7"
+    ]
+   },
+   {
+    "id": "sunglo",
+    "name": "Sunglo A242 (freestanding)",
+    "owner": "Infrared Dynamics, Inc.; sold through AEI Corporation",
+    "markets": "US",
+    "why_closest": "The long-standing commercial freestanding patio heater (50,000 BTU, natural gas or propane, CSA design certified): the restaurant-grade tower a Tungsten Freestanding replaces.",
+    "sources": [
+     "s3",
+     "s4"
+    ]
+   },
+   {
+    "id": "azpatio",
+    "name": "AZ Patio Heaters 55K glass-tube tower (freestanding)",
+    "owner": "AZ Patio Heaters (products sold under the Hiland name; parent not stated on its site)",
+    "markets": "US",
+    "why_closest": "The design-led flame tower homeowners and casual venues buy at a fraction of the price: wheels, propane, anti-tilt device, a visible flame. Sets the price anchor the freestanding tower is judged against.",
+    "sources": [
+     "s8"
+    ]
+   }
+  ],
+  "rows": [
+   {
+    "benefit": "safety",
+    "edge": "parity",
+    "bromic": "Freestanding: flame failure device and anti-tilt switch (US manual). Mounted: electronic ignition with flame monitoring and lockout (US manual). ETL and cETL listing 4009079. Mounted at least 96 in above the floor.",
+    "vs": {
+     "sunpak": "Direct spark ignition with auto re-light and flame sensor; \"100% shutoff for safety\"; CSA design certified to ANSI Z83.19 (Infrared Dynamics).",
+     "schwank": "supremeSchwank \"UL Certified\" (schwankgroup.com), 8 ft minimum mounting height. parasolSchwank tech specs list push-button battery spark; no tip-over device is listed [[VERIFY: tilt switch on parasolSchwank — Specification and compliance]].",
+     "sunglo": "\"100% Safety Shutoff\" with pilot and thermocouple; CSA design certified to ANSI Z83.19; optional tie-down kit for public spaces. A tip-over switch is claimed only in a retailer Q&A [[VERIFY — Specification and compliance]].",
+     "azpatio": "\"Thermocouple and Anti-Tilt Safety Device\"; \"CSA Approved\" (azpatioheaters.com)."
+    },
+    "users": {
+     "COM": {
+      "w": 3,
+      "claim": "Flame failure and anti-tilt shut-offs on every tower, listed to ETL and cETL."
+     },
+     "RES": {
+      "w": 3,
+      "claim": "The safety shut-offs you expect, in a heater built to stay outside."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "Listed, with published clearances, like the brands you already fit."
+     },
+     "INS": {
+      "w": 3,
+      "claim": "Flame failure on both forms, anti-tilt on the tower, ETL and cETL 4009079."
+     },
+     "ARC": {
+      "w": 2,
+      "claim": "Listed gas heaters with published clearances, specified like any other."
+     }
+    }
+   },
+   {
+    "benefit": "heat",
+    "edge": "parity",
+    "bromic": "Coverage up to 160 or 215 ft² a mounted heater (bromic.com), about 215 ft² a tower at 38,000 BTU (Lookbook 2026). [[VERIFY: built-in output by model; bromic.com and the US manual publish figures that conflict with the 2021 Planning Guide, so no built-in BTU is used until confirmed — Product team]] Each maker measures coverage differently.",
+    "vs": {
+     "sunpak": "25,000 / 34,000 BTU two-stage; about 12 ft × 12 ft \"with minimal wind and at sea level\" (spec sheet).",
+     "schwank": "supremeSchwank 23,000, 35,000 or 50,000/35,000 BTU (two-stage); suggested spacing 6 to 9 ft between heaters. parasolSchwank 38,000 BTU, 31 in reflector.",
+     "sunglo": "50,000 BTU; heaters typically spaced 12 ft apart; coverage \"varies depending on the wind exposure\".",
+     "azpatio": "55,000 BTU; no coverage figure on the maker's page."
+    },
+    "users": {
+     "COM": {
+      "w": 3,
+      "claim": "Up to 215 ft² a heater on Bromic's figures; let the free design plan prove it table by table."
+     },
+     "RES": {
+      "w": 3,
+      "claim": "Warmth you can feel across the seating, from one heater."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "Two mounted sizes to fit the plan."
+     },
+     "INS": {
+      "w": 2,
+      "claim": "Size on Bromic's coverage and the design plan, never on BTU alone."
+     },
+     "ARC": {
+      "w": 2,
+      "claim": "Specify by coverage drawing; makers rate output and area differently."
+     }
+    }
+   },
+   {
+    "benefit": "install_flex",
+    "edge": "bromic",
+    "bromic": "One family covers wall, ceiling, pole drop (six lengths) and freestanding on wheels, every model on natural gas or propane.",
+    "vs": {
+     "sunpak": "Ceiling or wall, horizontal to 30°; no freestanding model in the Sunpak range (Infrared Dynamics sells the separate Sunglo line).",
+     "schwank": "supremeSchwank ceiling, wall or post, with tilt; parasolSchwank portable (propane) or post-mounted (natural gas).",
+     "sunglo": "Freestanding only (A242); post and other Sunglo models sold separately.",
+     "azpatio": "Freestanding towers on wheels; propane."
+    },
+    "users": {
+     "COM": {
+      "w": 2,
+      "claim": "Mounted under the roof, towers at the edge: one family, one look."
+     },
+     "RES": {
+      "w": 2,
+      "claim": "Wall, ceiling or wheels, whatever your patio needs."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "Brackets and poles in the box or on the shelf for any patio ceiling."
+     },
+     "INS": {
+      "w": 3,
+      "claim": "Wall bracket, poles from 9.69 to 41.18 in, pivot ±25°, deflector for tight tops."
+     },
+     "ARC": {
+      "w": 3,
+      "claim": "One family for covered and open zones, mounted and freestanding."
+     }
+    }
+   },
+   {
+    "benefit": "weather",
+    "edge": "competitor",
+    "bromic": "Tower: 304 stainless, IPX4, wind up to 8 mph (bromic.com). Mounted: IPX4, must be installed under a protective cover. [[VERIFY: mounted wind rating; bromic.com says up to 8 mph, the US manual V2.3 says designed to function in winds up to 10 mph — Product team]]",
+    "vs": {
+     "sunpak": "For wind-protected areas, rain protected; \"heavy marine environments\" accelerate corrosion (Infrared Dynamics). Black powder-coated aluminized steel or 304 stainless.",
+     "schwank": "supremeSchwank in 316 marine-grade stainless steel; Schwank warrants operation in wind up to 10 mph (spec sheet).",
+     "sunglo": "Wind rating 10 mph horizontal (spec sheet); 304 stainless or powder-coat posts.",
+     "azpatio": "No wind or water rating on the maker's page."
+    },
+    "users": {
+     "COM": {
+      "w": 3,
+      "claim": "IPX4 and stainless steel for the terrace; keep mounted heaters under the roof line, as every mounted gas heater asks."
+     },
+     "RES": {
+      "w": 2,
+      "claim": "Made to live outside, in a covered patio or on the deck."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "Plan mounted heaters under cover, the same rule as Sunpak."
+     },
+     "INS": {
+      "w": 2,
+      "claim": "IPX4 heads; mounted units go under a protective cover."
+     },
+     "ARC": {
+      "w": 2,
+      "claim": "Detail mounted heaters under cover; specify Schwank's 316 only where salt air is the brief."
+     }
+    }
+   },
+   {
+    "benefit": "fuel",
+    "edge": "mixed",
+    "bromic": "Every model in natural gas or propane; the tower runs from a 20 lb cylinder in its base or from a 10 ft natural gas quick-connect line.",
+    "vs": {
+     "sunpak": "Natural gas or propane, set at the factory; no conversion.",
+     "schwank": "supremeSchwank natural gas or propane; parasolSchwank portable propane only, natural gas only as a fixed post.",
+     "sunglo": "A242 natural gas or propane, optional quick-connect hose; factory does not support conversion.",
+     "azpatio": "Propane, regulator included."
+    },
+    "users": {
+     "COM": {
+      "w": 3,
+      "claim": "A natural gas tower on wheels, no cylinders to change, where Schwank's parasol and AZ's tower need propane."
+     },
+     "RES": {
+      "w": 2,
+      "claim": "Gas line or propane, your choice."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "Plan the supply either way."
+     },
+     "INS": {
+      "w": 3,
+      "claim": "Standard pressures: 6 to 14 in W.C. natural gas, 11 to 14 in W.C. propane."
+     },
+     "ARC": {
+      "w": 1,
+      "claim": "Both gases on every model."
+     }
+    }
+   },
+   {
+    "benefit": "controls",
+    "edge": "mixed",
+    "bromic": "Mounted: switched by Affinity Smart-Heat® On/Off Controls (Bromic app, zones, schedules, timers; Alexa, Google Assistant, Control4, Crestron, Lutron, compatibility varies; BMS through the expansion board) or a manual wall switch. On/off only. Tower: knob and spark; propane high to low, natural gas high only. [[VERIFY: Affinity On/Off spec table lists only electric heaters while its intro and FAQ add gas (up to 10 gas heaters a channel); confirm gas compatibility and capacity — Product team]]",
+    "vs": {
+     "sunpak": "Two-stage Hi/Lo from a duplex wall switch (24 VAC); TSR version adds a handheld remote and wireless wall switch. No app found.",
+     "schwank": "Single or two-stage; switches, patioPanel for up to 12 heaters, remote for up to 4 zones. No app found.",
+     "sunglo": "Manual control, no electrical power required.",
+     "azpatio": "Variable control at the heater."
+    },
+    "users": {
+     "COM": {
+      "w": 2,
+      "claim": "App, zones and schedules for every mounted heater; the mounted rivals here switch from the wall or a remote."
+     },
+     "RES": {
+      "w": 3,
+      "claim": "Switch the patio on from your phone with Affinity Smart-Heat® Controls."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "App and smart-home control is an upgrade buyers can see."
+     },
+     "INS": {
+      "w": 2,
+      "claim": "One On/Off controller channel for a group of gas heaters, app set-up on site."
+     },
+     "ARC": {
+      "w": 2,
+      "claim": "BMS and smart-home ready through Affinity; specify two-stage elsewhere if low fire is required."
+     }
+    }
+   },
+   {
+    "benefit": "aesthetics",
+    "edge": "mixed",
+    "bromic": "Mounted: compact honeycomb face, about 19.3 or 25.4 in wide, matte black only. Tower: sculpted curved column, matte black only.",
+    "vs": {
+     "sunpak": "48 in long bar, 8 × 8 in section; black, or stainless; trims in black, bronze or stainless.",
+     "schwank": "supremeSchwank 30.5 to 48.25 in long, black. parasolSchwank stainless steel with a 31 in reflector.",
+     "sunglo": "Mushroom form, 34.5 in reflector; black, green, bronze or 304 stainless.",
+     "azpatio": "Glass tube with a visible flame; black or hammered bronze."
+    },
+    "users": {
+     "COM": {
+      "w": 2,
+      "claim": "A compact head where a 4 ft bar would crowd the beam; a tower that reads as furniture."
+     },
+     "RES": {
+      "w": 3,
+      "claim": "A sculpted tower, nothing like a patio mushroom."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "Compact and matte black, an easy fit on any elevation."
+     },
+     "INS": {
+      "w": 1,
+      "claim": "Shorter head, easier to line up on a beam."
+     },
+     "ARC": {
+      "w": 3,
+      "claim": "About half the length of a bar heater; one finish, so specify where black suits."
+     }
+    }
+   },
+   {
+    "benefit": "directional",
+    "edge": "bromic",
+    "bromic": "Tower: adjustable tilting head (Lookbook 2026; US manual). Mounted: pivot arm ±25°.",
+    "vs": {
+     "sunpak": "Mounts horizontal to 30°.",
+     "schwank": "supremeSchwank tilts to direct heat; parasolSchwank radiates down from a 31 in reflector.",
+     "sunglo": "Deep-dish reflector radiates down around the post.",
+     "azpatio": "Heat radiates from a vertical glass tube."
+    },
+    "users": {
+     "COM": {
+      "w": 3,
+      "claim": "The only tower in this set with a head that aims the heat; the others radiate around the pole."
+     },
+     "RES": {
+      "w": 2,
+      "claim": "Point the warmth at your chair."
+     },
+     "BLD": {
+      "w": 1,
+      "claim": "Aim the mounted heater ±25° to follow the seating."
+     },
+     "INS": {
+      "w": 2,
+      "claim": "Set the angle before lighting."
+     },
+     "ARC": {
+      "w": 2,
+      "claim": "Directional heat from a freestanding unit, where the alternatives in this set radiate all round."
+     }
+    }
+   },
+   {
+    "benefit": "support",
+    "edge": "parity",
+    "bromic": "Complimentary design service with coverage drawings; cut sheets, manuals, wiring diagrams; Revit and CAD files [[VERIFY: Tungsten Gas and Freestanding files are on the BIM page — Digital marketing]].",
+    "vs": {
+     "sunpak": "Spec sheet, manuals, certification pages; regional distributors.",
+     "schwank": "\"Contact us today for a FREE design and quote\"; manual, submittal data and guideline specs.",
+     "sunglo": "Spec sheet and manuals; regional distributors.",
+     "azpatio": "Retail product pages; no design service found."
+    },
+    "users": {
+     "COM": {
+      "w": 2,
+      "claim": "A free design plan, like Schwank, plus the whole Bromic range to plan from."
+     },
+     "RES": {
+      "w": 1,
+      "claim": "Our design team plans your patio, free."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "Plan sets backed by a complimentary design plan."
+     },
+     "INS": {
+      "w": 2,
+      "claim": "Manuals, wiring and clearance drawings online."
+     },
+     "ARC": {
+      "w": 3,
+      "claim": "Coverage drawings and BIM files for the schedule."
+     }
+    }
+   },
+   {
+    "benefit": "install_ease",
+    "edge": "bromic",
+    "bromic": "Mounted: wall bracket included, 110 V under 2 A, 1/2 in NPT female inlet with factory isolating valve. Tower: no wiring, rolls into place.",
+    "vs": {
+     "sunpak": "Needs an external 24 VAC transformer (40 VA) and mounting kit, included only in the SST and TSR cartons.",
+     "schwank": "24 V system; transformer not included; brackets sold separately.",
+     "sunglo": "No electrical power; floor clamp or tie-down kit for public spaces.",
+     "azpatio": "Assembled and fitted with a propane cylinder by the owner."
+    },
+    "users": {
+     "COM": {
+      "w": 1,
+      "claim": "Quick to fit between services."
+     },
+     "RES": {
+      "w": 1,
+      "claim": "Fitted by your gas fitter in a familiar way."
+     },
+     "BLD": {
+      "w": 3,
+      "claim": "Bracket in the box and no separate transformer to buy or place."
+     },
+     "INS": {
+      "w": 3,
+      "claim": "No 24 VAC transformer to source; 110 V under 2 A and a bracket in every box."
+     },
+     "ARC": {
+      "w": 1,
+      "claim": "Fewer separate parts to coordinate."
+     }
+    }
+   },
+   {
+    "benefit": "multi_area",
+    "edge": "bromic",
+    "bromic": "Affinity controllers in 1, 2 and 5 channels, up to 10 gas heaters a channel, zones and schedules in one app shared with Bromic electric heaters. [[VERIFY: Affinity On/Off spec table lists only electric heaters while its intro and FAQ add gas (up to 10 gas heaters a channel); confirm gas compatibility and capacity — Product team]]",
+    "vs": {
+     "sunpak": "Each wall switch controls its own heaters; no zoning system found.",
+     "schwank": "patioPanel controls up to 12 heaters; remote up to 4 zones.",
+     "sunglo": "Each heater lit at the heater.",
+     "azpatio": "Each heater lit at the heater."
+    },
+    "users": {
+     "COM": {
+      "w": 3,
+      "claim": "Bar, terrace and sidewalk as zones on one app, gas and electric together."
+     },
+     "RES": {
+      "w": 2,
+      "claim": "Every outdoor room on one app."
+     },
+     "BLD": {
+      "w": 1,
+      "claim": "Add zones as the buyer adds rooms."
+     },
+     "INS": {
+      "w": 1,
+      "claim": "Channel up groups of gas heaters on one controller."
+     },
+     "ARC": {
+      "w": 2,
+      "claim": "One control system across gas and electric heaters."
+     }
+    }
+   },
+   {
+    "benefit": "warranty",
+    "edge": "mixed",
+    "bromic": "Mounted 2 years excluding hoses and igniters; tower 1 year (bromic.com warranty page).",
+    "vs": {
+     "sunpak": "1 year parts and 3 years ceramic burners residential; 1 year parts commercial (spec sheet).",
+     "schwank": "supremeSchwank: 3 years on the ceramic burner and 3 years on other components (schwankgroup.com). parasolSchwank: 1 year parts, 3 years burner and mantle (dealer listing) [[VERIFY — Specification and compliance]].",
+     "sunglo": "One year, parts only (spec sheet).",
+     "azpatio": "One year (retailer listings) [[VERIFY: AZ warranty page — Specification and compliance]]."
+    },
+    "users": {
+     "COM": {
+      "w": 2,
+      "claim": "Two years on mounted heaters in commercial use, where Sunpak gives one; Schwank gives three, so lead elsewhere."
+     },
+     "RES": {
+      "w": 2,
+      "claim": "Two years on the mounted heater."
+     },
+     "BLD": {
+      "w": 2,
+      "claim": "Two years on mounted heaters, excluding wear parts."
+     },
+     "INS": {
+      "w": 2,
+      "claim": "Two years mounted, one year on the tower."
+     },
+     "ARC": {
+      "w": 1,
+      "claim": "Compare terms model by model."
+     }
+    }
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "b1",
+   "publisher": "Bromic Heating",
+   "title": "Tungsten Smart-Heat® Gas product page (read 29 Oct 2026, summarised in data/site-inventory.json)",
+   "year": 2026,
+   "url": "https://www.bromic.com/product/tungsten-smart-heat-gas/",
+   "verified": false,
+   "supports": "Coverage 160 and 215 ft², 33 and 44 lb, 110 V 2 A, matte black, 96 in minimum floor clearance, 8 ft optimum height, wind up to 8 mph, pivot arm ±25°, 2-year warranty excluding hoses and igniters, Affinity On/Off controller and manual wall switch, list $1,828–$2,087"
+  },
+  {
+   "id": "b2",
+   "publisher": "Bromic Heating",
+   "title": "Tungsten Smart-Heat® Freestanding product page (read 29 Oct 2026)",
+   "year": 2026,
+   "url": "https://www.bromic.com/product/tungsten-smart-heat-freestanding/",
+   "verified": false,
+   "supports": "38,500 BTU, 215 ft², propane 20 lb cylinder or natural gas 10 ft quick-connect, 124 lb, 304 stainless, wind up to 8 mph, propane knob high to low and natural gas high only, 1-year warranty, Intertek 4009079 (propane column), $2,431; unsourced efficiency and run-time claims"
+  },
+  {
+   "id": "b3",
+   "publisher": "Bromic Heating",
+   "title": "Product cut sheet: Tungsten Smart-Heat® Gas (read 19 Nov 2026)",
+   "year": 2026,
+   "url": "https://www.bromic.com/wp-content/uploads/sites/2/2026/02/Product-Cut-Sheet-Tungsten-Gas-1.pdf",
+   "verified": false,
+   "supports": "Coverage up to 215 ft² in ideal conditions, IPX4, Intertek 4009079, 96 in minimum floor clearance, Affinity On/Off or manual wall switch, honeycomb mesh, pivot arm bracket, poles 9.69 to 41.18 in"
+  },
+  {
+   "id": "b4",
+   "publisher": "Bromic Heating",
+   "title": "Product cut sheet: Tungsten Smart-Heat® Freestanding (read 19 Nov 2026)",
+   "year": 2026,
+   "url": "https://www.bromic.com/wp-content/uploads/2026/02/Product-Cut-Sheet-Tungsten-Freestanding-1.pdf",
+   "verified": false,
+   "supports": "Natural gas and propane, 215 ft², 123.5 lb, minimum floor clearance 121 in, Intertek 4009079, IPX4, built-in wheels, ceramic burners; repeats the unsourced \"up to 3 times more efficient\" claim"
+  },
+  {
+   "id": "b5",
+   "publisher": "Bromic Heating",
+   "title": "Tungsten Smart-Heat Gas instruction manual, US, V2.3 (read 19 Nov 2026)",
+   "year": 2026,
+   "url": "https://pim.bromic.com/wp-content/uploads/2026/05/Manual-Tungsten-Gas-V2.3.pdf",
+   "verified": false,
+   "supports": "ETL and cETL 4009079; gas pressures; 110 V under 2 A; must be installed under a protective cover; \"designed to function in winds up to 10mph\"; clearances 3 ft, 14 in with heat shield, 8 ft mounting height; no on/off switch on the heater; ignition control flame failure drop-out 1 s; widths about 19.3 and 25.4 in"
+  },
+  {
+   "id": "b6",
+   "publisher": "Bromic Heating",
+   "title": "Tungsten Smart-Heat Portable instruction manual, US, V1.8 (read 19 Nov 2026)",
+   "year": 2021,
+   "url": "https://pim.bromic.com/wp-content/uploads/2021/07/Bromic-Tungsten-Smart-Heat-Portable-Instruction-Manual-US_V1.8.pdf",
+   "verified": false,
+   "supports": "Safety features: flame failure device, anti-tilt switch; 1.5 V spark ignition; 20 lb propane cylinder or natural gas; 123.5 lb; 2,160 mm tall; 3 ft clearances; head tilt positions"
+  },
+  {
+   "id": "b7",
+   "publisher": "Bromic Heating",
+   "title": "Outdoor Lookbook 2026, p.39 (Tungsten Smart-Heat® Freestanding)",
+   "year": 2026,
+   "url": "sources/Bromic_Lookbook_2026.pdf",
+   "verified": false,
+   "supports": "Approximately 215 ft², 38,000 BTU, black, natural gas or propane, integrated wheels and anti-tilt design, adjustable tilting head, wind resistant"
+  },
+  {
+   "id": "b8",
+   "publisher": "Bromic Heating",
+   "title": "Warranty page (read 29 Oct 2026)",
+   "year": 2026,
+   "url": "https://www.bromic.com/warranty/",
+   "verified": false,
+   "supports": "Tungsten Gas 2 years excluding maintenance items; Tungsten Freestanding 1 year; Affinity controllers 1 year"
+  },
+  {
+   "id": "b9",
+   "publisher": "Bromic Heating",
+   "title": "Affinity Smart-Heat® On/Off Controllers and Expansion Board pages; Lookbook 2026 p.41",
+   "year": 2026,
+   "url": "https://www.bromic.com/product/affinity-smart-heat-on-off-controllers/",
+   "verified": false,
+   "supports": "1, 2 and 5 channels; up to 10 gas heaters per channel (intro and FAQ); app zones, schedules, timers; Alexa, Google Assistant, Control4, Crestron, Lutron (compatibility varies); BMS via expansion board; Wi-Fi and app features need compatible Affinity controls, sold separately"
+  },
+  {
+   "id": "b10",
+   "publisher": "Bromic Heating",
+   "title": "Gas Mounting Poles, Gas Wall Mounting Bracket and Tungsten Gas Heat Deflector pages (read 29 Oct 2026)",
+   "year": 2026,
+   "url": "https://www.bromic.com/product/tungsten-gas-heat-deflector/",
+   "verified": false,
+   "supports": "Poles in six lengths for Platinum and Tungsten Gas, vertical drop; one complimentary wall bracket per heater; dual-layer stainless deflector reduces top clearance to 14 in"
+  },
+  {
+   "id": "b11",
+   "publisher": "Bromic Heating",
+   "title": "Design your space (complimentary design service)",
+   "year": 2026,
+   "url": "https://www.bromic.com/design-your-space/",
+   "verified": false,
+   "supports": "Free heater selection, placement and coverage drawings from photos, plans or drawings"
+  },
+  {
+   "id": "b12",
+   "publisher": "Bromic Heating",
+   "title": "Revit BIM and CAD files page",
+   "year": 2026,
+   "url": "https://www.bromic.com/revit-bim-files/",
+   "verified": false,
+   "supports": "BIM and CAD downloads for Bromic heaters"
+  },
+  {
+   "id": "b13",
+   "publisher": "Bromic Heating",
+   "title": "Tungsten Freestanding Cover page (read 29 Oct 2026)",
+   "year": 2026,
+   "url": "https://www.bromic.com/product/tungsten-freestanding-cover/",
+   "verified": false,
+   "supports": "Cover fits over the head of the heater, $108"
+  },
+  {
+   "id": "s1",
+   "publisher": "AEI Corporation / Infrared Dynamics (spec sheet, retailer-hosted copy)",
+   "title": "Sunpak Outdoor Infrared Patio Heaters spec sheet",
+   "year": 2015,
+   "url": "https://cdn.shopify.com/s/files/1/0354/7607/8636/files/Sunpak-Spec.pdf",
+   "verified": false,
+   "supports": "S25/S34, 25,000 and 34,000 BTU; 48 in × 8 × 8 in; ceiling or wall, horizontal to 30°; about 12 ft × 12 ft \"with minimal wind and at sea level\"; CSA; external transformer and mounting kit required for S25/S34; warranty 1 year parts and 3 years ceramic burners residential, 1 year commercial parts"
+  },
+  {
+   "id": "s2",
+   "publisher": "Infrared Dynamics",
+   "title": "Sunpak S34-TSH product page",
+   "year": 2026,
+   "url": "https://www.infradyne.com/portfolio/s34-tshw/",
+   "verified": false,
+   "supports": "Hi/Lo 25,000 to 34,000 BTU, 40 lb, 0–30° mounting, hardwired duplex switch, external 24 VAC 40 VA transformer, spark ignition with flame rectification, CSA ANSI Z83.19, for wind-protected areas, rain protected, heavy marine environments accelerate corrosion"
+  },
+  {
+   "id": "s3",
+   "publisher": "Infrared Dynamics",
+   "title": "Sunglo A242 product page",
+   "year": 2026,
+   "url": "https://www.infradyne.com/portfolio/sunglo-heater-a242/",
+   "verified": false,
+   "supports": "50,000 BTU, natural gas or propane, 12 ft spacing, 100% safety shutoff, optional tie-down kit, manual control with no power, CSA ANSI Z83.19, finishes black, green, bronze or 304 stainless"
+  },
+  {
+   "id": "s4",
+   "publisher": "Infrared Dynamics (spec sheet, retailer-hosted copy)",
+   "title": "Sunglo A242 specifications, form 65062",
+   "year": 2007,
+   "url": "https://cdn.shopify.com/s/files/1/0667/5357/files/sunglo-A242_specifications.pdf",
+   "verified": false,
+   "supports": "93 in tall, 50,000 BTU, wind rating 10 mph horizontal, pilot and thermocouple, 34.5 in reflector, CSA, one year parts only"
+  },
+  {
+   "id": "s5",
+   "publisher": "Schwank Group",
+   "title": "supremeSchwank product page",
+   "year": 2026,
+   "url": "https://www.schwankgroup.com/products/outdoor-heaters/supremeschwank/",
+   "verified": false,
+   "supports": "23,000, 35,000 and 50,000 BTU; single or two-stage; 316 marine-grade stainless steel; ceiling, wall or post with tilt; 8 ft minimum mounting height; UL certified; 3-year burner and 3-year component warranty"
+  },
+  {
+   "id": "s6",
+   "publisher": "Schwank Group (spec sheet, retailer-hosted copy)",
+   "title": "supremeSchwank technical specifications, controls and accessories",
+   "year": 2026,
+   "url": "https://www.webstaurantstore.com/documents/specsheets/71023_spec_sheet.pdf",
+   "verified": false,
+   "supports": "Lengths 30.5 to 48.25 in; 24 VAC; warrants operation in wind up to 10 mph; patioPanel up to 12 heaters; remote up to 4 zones; transformer not included; free design and quote"
+  },
+  {
+   "id": "s7",
+   "publisher": "Schwank Group (tech specs, retailer-hosted copy)",
+   "title": "parasolSchwank 4000-CB series tech specs, May 2021",
+   "year": 2021,
+   "url": "https://cdn.shopify.com/s/files/1/0667/5357/files/parasolschwank_specs.pdf",
+   "verified": false,
+   "supports": "4005-CB portable: 38,000 BTU propane, battery push-button spark, stainless, 90 × 32.25 in, wheels, 20 or 30 lb cylinder; 4SN5-CB natural gas post mount; 31 in reflector"
+  },
+  {
+   "id": "s8",
+   "publisher": "AZ Patio Heaters",
+   "title": "55K BTU Glass Tube Patio Heater in Black (HLD-GTBLK-55K)",
+   "year": 2026,
+   "url": "https://azpatioheaters.com/55k-btu-glass-tube-patio-heater-in-black.html",
+   "verified": false,
+   "supports": "55,000 BTU, 65 lb, wheels, thermocouple and anti-tilt safety device, CSA approved, variable control, $470"
+  },
+  {
+   "id": "s9",
+   "publisher": "Schwank Group",
+   "title": "Outdoor patio heaters overview",
+   "year": 2026,
+   "url": "https://www.schwankgroup.com/products/patio-heaters",
+   "verified": false,
+   "supports": "\"A 1-3 year manufacturer warranty\" for outdoor heaters"
+  }
+ ],
+ "pillars": [
+  {
+   "id": "p1",
+   "title": "Warmth That Goes Where The Table Goes",
+   "line": "The Tungsten Smart-Heat® Freestanding rolls on built-in wheels to wherever tonight's seating is, and its tilting head aims radiant warmth straight at your guests.",
+   "proof": [
+    "Built-in wheels and an anti-tilt design",
+    "Adjustable tilting head",
+    "About 215 ft² at 38,000 BTU (Lookbook 2026)"
+   ],
+   "benefits": [
+    "directional",
+    "install_flex"
+   ],
+   "src": [
+    "b6",
+    "b7"
+   ]
+  },
+  {
+   "id": "p2",
+   "title": "Compact Heat For Covered Spaces",
+   "line": "On the wall, under the beam or on a drop pole, the mounted Tungsten Gas is a compact honeycomb face that warms up to 215 ft² and stays out of the way of the room.",
+   "proof": [
+    "About 19.3 in and 25.4 in wide",
+    "Coverage up to 160 or 215 ft²",
+    "Pivot arm ±25°, poles in six lengths"
+   ],
+   "benefits": [
+    "aesthetics",
+    "heat",
+    "install_flex"
+   ],
+   "src": [
+    "b1",
+    "b5"
+   ]
+  },
+  {
+   "id": "p3",
+   "title": "Natural Gas Or Propane, Every Model",
+   "line": "Run Tungsten Gas from the line you already have, or from propane where there is none, including a natural gas tower on wheels with a 10 ft quick-connect line.",
+   "proof": [
+    "Every model in natural gas or propane",
+    "20 lb cylinder housed in the tower's base",
+    "10 ft quick-connect line on the natural gas tower"
+   ],
+   "benefits": [
+    "fuel"
+   ],
+   "src": [
+    "b1",
+    "b2"
+   ]
+  },
+  {
+   "id": "p4",
+   "title": "Safety Built In",
+   "line": "A flame failure device and an anti-tilt switch on the freestanding tower, flame-monitored electronic ignition on the mounted heater, and Intertek listing across the family, for evenings without a second thought.",
+   "proof": [
+    "Flame failure device and anti-tilt switch (tower)",
+    "Electronic ignition with flame monitoring (mounted)",
+    "Intertek (ETL) listing 4009079"
+   ],
+   "benefits": [
+    "safety"
+   ],
+   "src": [
+    "b5",
+    "b6",
+    "b3",
+    "b4"
+   ]
+  },
+  {
+   "id": "p5",
+   "title": "The Whole Terrace On Your Phone",
+   "line": "Pair mounted Tungsten Gas heaters with Affinity Smart-Heat® On/Off Controls and switch every zone, schedule and timer from the Bromic app, alongside your Bromic electric heaters.",
+   "proof": [
+    "Up to 10 gas heaters a controller channel",
+    "Zones, schedules and timers in the Bromic app",
+    "Alexa, Google Assistant, Control4, Crestron and Lutron (compatibility varies)"
+   ],
+   "benefits": [
+    "controls",
+    "multi_area"
+   ],
+   "src": [
+    "b9"
+   ],
+   "verify": "[[VERIFY: Affinity On/Off spec table lists only electric heaters while its intro and FAQ add gas (up to 10 gas heaters a channel); confirm gas compatibility and capacity — Product team]]"
+  },
+  {
+   "id": "p6",
+   "title": "Fits The Room You Have",
+   "line": "A heat deflector brings the clearance above a mounted heater down from 3 ft to 14 in, and ceiling poles from 9.69 to 41.18 in set the heater at its 8 ft sweet spot under taller roofs.",
+   "proof": [
+    "Heat deflector: 14 in top clearance",
+    "Six pole lengths",
+    "8 ft optimum mounting height"
+   ],
+   "benefits": [
+    "install_flex",
+    "install_ease",
+    "safety"
+   ],
+   "src": [
+    "b5",
+    "b10"
+   ]
+  },
+  {
+   "id": "p7",
+   "title": "Planned With You, Free",
+   "line": "Send us a photo, a plan or a drawing and our design team will show where each Tungsten Gas heater belongs, mounted or freestanding, before anything is ordered.",
+   "proof": [
+    "Complimentary design service",
+    "Coverage drawings",
+    "Cut sheets, manuals and BIM files"
+   ],
+   "benefits": [
+    "support"
+   ],
+   "src": [
+    "b11",
+    "b12"
+   ]
+  }
+ ],
+ "portfolio": [
+  {
+   "space": "Covered restaurant terrace or bar",
+   "product": "Tungsten Smart-Heat® Gas (mounted), Affinity Smart-Heat® On/Off Controls",
+   "image": "w-usa-san-diego-decoy-lakehouse-hotel-tungsten",
+   "why": "Fixed seating under a roof and a gas line: compact heads on beams or drop poles, switched by zone and schedule from the app."
+  },
+  {
+   "space": "Sidewalk café and open terrace",
+   "product": "Tungsten Smart-Heat® Freestanding (natural gas or propane)",
+   "image": "w-starbuck-reserve-nyc-greenwich",
+   "why": "No roof to mount to and a layout that changes nightly: towers roll into place and the tilting head aims the warmth at the tables. Controlled at the heater."
+  },
+  {
+   "space": "Residential covered patio with a gas line",
+   "product": "Tungsten Smart-Heat® Gas (mounted), Affinity Smart-Heat® On/Off Controls or a manual wall switch",
+   "image": "w-residential-bogota-colombia-6",
+   "why": "The gas is already there for the grill; one or two mounted heaters, switched from the app or a wall switch."
+  },
+  {
+   "space": "Pool deck, lawn and open-air lounge",
+   "product": "Tungsten Smart-Heat® Freestanding (propane)",
+   "image": "l-019-161",
+   "why": "Nothing overhead and no gas line: a self-contained tower on a 20 lb cylinder."
+  },
+  {
+   "space": "Design-led ceiling where a flush look or no gas is the brief",
+   "product": "Tungsten Smart-Heat® Electric, Affinity Smart-Heat® Dimmer Controller",
+   "image": "l-001-000",
+   "why": "When the ceiling should stay clean or there is no gas, Tungsten Electric recesses and dims (see its own framework)."
+  },
+  {
+   "space": "Premium dining room opening to the terrace",
+   "product": "Platinum Smart-Heat® Gas, Affinity Smart-Heat® On/Off Controls",
+   "image": "w-commercial-australia-brisbane-kedron-wavell-",
+   "why": "Where a stainless finish suits the interior, Platinum Gas is the refined gas sibling; same mounts and controls. [[VERIFY: Platinum Gas positioning against Tungsten Gas — Product team]]"
+  }
+ ],
+ "claim_checks": [
+  {
+   "claim": "Up to 3 times more efficient than traditional mushroom heaters",
+   "verdict": "unverified",
+   "checked": "2026-11-19",
+   "why": "bromic.com, the freestanding cut sheet, three blog posts and the Tungsten collection page all make it (once as \"3X more heat output\", once as \"three times more heating power\"); none names a test, a method or a source. Efficiency, output and heating power are used interchangeably.",
+   "use_instead": "A tilting head aims radiant warmth at your guests.",
+   "safest": "Directional radiant heat from ceramic burners.",
+   "avoid": [
+    "3x",
+    "three times more efficient",
+    "more efficient than a mushroom heater"
+   ],
+   "open": [
+    "Is there a test report behind the 3x claim, and what did it measure (Product team)",
+    "Correct or source the claim on bromic.com and the cut sheet (Digital marketing)"
+   ]
+  },
+  {
+   "claim": "Covers twice the area of a standard mushroom heater",
+   "verdict": "unverified",
+   "checked": "2026-11-19",
+   "why": "bromic.com and a blog post say so with no source. Mushroom heater coverage is not published on a common basis (Sunglo states only 12 ft spacing).",
+   "use_instead": "Warms about 215 ft² (Lookbook 2026).",
+   "safest": "About 215 ft² from one tower.",
+   "avoid": [
+    "twice the area",
+    "2x coverage"
+   ],
+   "open": [
+    "Source or retire the comparison (Product team)"
+   ]
+  },
+  {
+   "claim": "Runs 8 hours on a single 20 lb propane tank",
+   "verdict": "unverified",
+   "checked": "2026-11-19",
+   "why": "bromic.com and two blog posts say 8 hours; an older blog post says about 9 hours on a 9 kg tank. No burn rate at high and low is published.",
+   "use_instead": "Runs on a standard 20 lb propane cylinder housed in the base.",
+   "safest": "Takes a 20 lb propane cylinder.",
+   "avoid": [
+    "8 hours",
+    "all night on one tank"
+   ],
+   "open": [
+    "Run time at high and low on a 20 lb cylinder, with the test basis (Product team)"
+   ]
+  },
+  {
+   "claim": "The only freestanding gas heater with a tilting, directional head",
+   "verdict": "qualified",
+   "checked": "2026-11-19",
+   "why": "No other wheeled gas tower with an aiming head was found among the US competitors benchmarked (Sunglo A242, parasolSchwank, AZ Patio glass tube) or in a general search on 19 Nov 2026; the field is large and not every maker was checked.",
+   "use_instead": "Unlike the mushroom and glass-tube towers we compared, its tilting head aims the heat.",
+   "safest": "A tilting head aims the heat at your table.",
+   "avoid": [
+    "only",
+    "first",
+    "unique (unqualified)"
+   ],
+   "open": [
+    "Wider competitor scan, US, AU and EU, before any \"only\" (Specification and compliance)"
+   ]
+  },
+  {
+   "claim": "Award-winning design",
+   "verdict": "unverified",
+   "checked": "2026-11-19",
+   "why": "The freestanding cut sheet and the collection page say \"award-winning\" without naming the award or the year.",
+   "use_instead": "A sculpted matte black column.",
+   "safest": "Sculpted, matte black design.",
+   "avoid": [
+    "award-winning (unnamed)"
+   ],
+   "open": [
+    "Name the award, body and year (Marketing)"
+   ]
+  },
+  {
+   "claim": "Tungsten Gas works in wind up to 10 mph",
+   "verdict": "needs Product team confirmation",
+   "checked": "2026-11-19",
+   "why": "The US manual V2.3 says the mounted heater is designed to function in winds up to 10 mph; bromic.com says up to 8 mph for both mounted and freestanding. Sunglo and Schwank publish 10 mph.",
+   "use_instead": "Radiant heat that warms people, made for open-air spaces.",
+   "safest": "Made for covered and open-air outdoor spaces.",
+   "avoid": [
+    "any wind figure for the mounted heater until confirmed",
+    "windproof"
+   ],
+   "open": [
+    "Mounted and freestanding wind ratings and the test basis (Product team)"
+   ]
+  },
+  {
+   "claim": "Tungsten Gas covers more than a Sunpak",
+   "verdict": "false as stated",
+   "checked": "2026-11-19",
+   "why": "Bromic publishes up to 215 ft²; Sunpak publishes about 12 ft × 12 ft \"with minimal wind and at sea level\". The figures are measured differently and the output behind Bromic's built-in figure is still unconfirmed.",
+   "use_instead": "Up to 215 ft² from one heater on Bromic's published figures; the free design plan shows it for your space.",
+   "safest": "Coverage drawn for your space by our design team.",
+   "avoid": [
+    "covers more than",
+    "bigger coverage than (named brand)"
+   ],
+   "open": [
+    "Built-in BTU by model (Product team)",
+    "Like-for-like coverage method, if a comparison is ever wanted (Specification and compliance)"
+   ]
+  }
+ ],
+ "ad_briefs": [
+  {
+   "id": "g1",
+   "segment": "Homeowners",
+   "name": "Wherever Tonight Happens",
+   "objective": "Awareness and consideration: show the freestanding tower moving from the pool to the table",
+   "format": "Reel, 9:16, 15 s",
+   "hook": "Dusk by the pool; a hand rolls the tower toward the dining table and tilts the head down.",
+   "headline": "Heat, Where You Need It",
+   "primary_text": "Tungsten Smart-Heat® Freestanding rolls to wherever the evening is and aims its warmth at your table. Natural gas or propane.",
+   "cta": "Learn More",
+   "visual": "Residential pool deck to dining terrace, golden hour; tower glowing beside the table; end on the matte black column. Bromic logo end card.",
+   "claims": [
+    "Built-in wheels",
+    "Tilting head aims the heat",
+    "About 215 ft²",
+    "Natural gas or propane"
+   ],
+   "images": [
+    "w-tungsten-portable-studio-city-6",
+    "l-019-164",
+    "w-tungsten-portable-studio-city-3"
+   ],
+   "mandatory": [
+    "For outdoor use only. Keep the clearances in the manual.",
+    "Natural gas connection by a licensed gas fitter."
+   ],
+   "kpi": "3-second view rate, link clicks to the Freestanding page"
+  },
+  {
+   "id": "g2",
+   "segment": "Homeowners",
+   "name": "The Patio, Finished",
+   "objective": "Consideration: show the mounted heater on a covered patio with a gas line",
+   "format": "Carousel, 4:5, 4 cards",
+   "hook": "Card 1: a covered patio at dusk, the honeycomb face glowing under the beam.",
+   "headline": "Extend The Moment",
+   "primary_text": "A compact Tungsten Gas heater on the wall or ceiling of your covered patio, switched on from your phone with Affinity Smart-Heat® Controls.",
+   "cta": "Learn More",
+   "visual": "Covered residential patio, timber roof, mounted heater glowing above the sofa; one product card; one app card; end card \"Plan Your Space\".",
+   "claims": [
+    "Coverage up to 160 or 215 ft²",
+    "Natural gas or propane",
+    "App on/off, schedules and timers with Affinity controls"
+   ],
+   "images": [
+    "w-residential-bogota-colombia-6",
+    "w-tungstengas-2",
+    "l-020-175"
+   ],
+   "mandatory": [
+    "Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately.",
+    "Installation by a licensed gas fitter, to local code. For outdoor use only."
+   ],
+   "kpi": "Swipe-through rate, design-service requests",
+   "cards": [
+    "Your covered patio, warm all evening",
+    "A compact honeycomb face, matte black",
+    "Switch it on from your phone",
+    "Plan your space with our design team"
+   ]
+  },
+  {
+   "id": "g3",
+   "segment": "Hospitality and commercial operators",
+   "name": "More Covers, All Season",
+   "objective": "Consideration and lead: restaurants and bars planning a heated terrace",
+   "format": "Single image or carousel, 4:5",
+   "hook": "A full terrace at night, every table taken, heaters glowing overhead.",
+   "headline": "Keep The Terrace Full",
+   "primary_text": "Mounted Tungsten Gas under the roof, freestanding towers at the open edge, every zone on one app. Ask for a free heating plan.",
+   "cta": "Get Quote",
+   "visual": "Busy restaurant deck under heaters on ceiling brackets; second card a sidewalk row of towers; no prices.",
+   "claims": [
+    "Up to 215 ft² a heater",
+    "Mounted and freestanding in one family",
+    "Zones and schedules with Affinity controls"
+   ],
+   "images": [
+    "w-usa-san-diego-decoy-lakehouse-hotel-tungsten",
+    "w-tungsten-gas-500-fiddler-sydney-2-1",
+    "w-starbuck-reserve-nyc-greenwich"
+   ],
+   "mandatory": [
+    "Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately.",
+    "Installation by a licensed gas fitter, to local code. For outdoor use only."
+   ],
+   "kpi": "Leads to the design service, cost per lead"
+  },
+  {
+   "id": "g4",
+   "segment": "Builders and installers",
+   "name": "Bracket In The Box",
+   "objective": "Consideration: show trades how simply the mounted heater fits",
+   "format": "Reel, 9:16, 20 s",
+   "hook": "An installer lifts the heater onto the included wall bracket and sets the pivot arm.",
+   "headline": "Built For The Way You Install",
+   "primary_text": "Wall bracket in every box, 110 V under 2 A, a 1/2 in NPT inlet with a factory isolating valve, and a deflector that takes top clearance to 14 in.",
+   "cta": "Learn More",
+   "visual": "Site footage on a covered patio; overlay the four numbers; end on the clearance drawing.",
+   "claims": [
+    "Wall bracket included",
+    "110 V, under 2 A",
+    "1/2 in NPT female inlet",
+    "14 in top clearance with the heat deflector"
+   ],
+   "images": [
+    "w-tungsten-gas-clearance-updated",
+    "w-tungstengas500-2",
+    "w-gasceilingmountpole246mm-lifestyle2-1"
+   ],
+   "mandatory": [
+    "Installation by a licensed gas fitter, to local code. For outdoor use only.",
+    "Follow the clearances and pressures in the US manual."
+   ],
+   "kpi": "Saves, cut sheet downloads"
+  },
+  {
+   "id": "g5",
+   "segment": "Architects and specifiers",
+   "name": "Specify The Whole Terrace",
+   "objective": "Consideration: one family for covered and open zones",
+   "format": "Carousel, 1:1, 4 cards",
+   "hook": "Card 1: plan view of a terrace, mounted heaters under the canopy, towers at the open edge.",
+   "headline": "Engineered For Open-Air Spaces",
+   "primary_text": "Tungsten Smart-Heat® Gas, mounted or freestanding, with coverage drawings, cut sheets and BIM files from our design team.",
+   "cta": "Download",
+   "visual": "Clean drawing style: plan, clearance drawing, product on white, a finished project.",
+   "claims": [
+    "Compact heads, about 19.3 and 25.4 in wide",
+    "Clearances 3 ft, or 14 in with the deflector",
+    "Natural gas or propane",
+    "Complimentary design service"
+   ],
+   "images": [
+    "w-tung-portable-graphics",
+    "w-tungsten-gas-clearance-updated",
+    "w-the-nolen-sd-courtyard-marriott-2"
+   ],
+   "mandatory": [
+    "Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately.",
+    "Installation by a licensed gas fitter, to local code. For outdoor use only."
+   ],
+   "kpi": "Spec kit downloads, BIM downloads",
+   "cards": [
+    "Covered zone: mounted Tungsten Gas",
+    "Open zone: Tungsten Freestanding",
+    "Clearances that fit the section",
+    "Coverage drawn for your plan"
+   ]
+  }
+ ],
+ "assets_to_create": [
+  {
+   "name": "Tungsten Gas range sell sheet: mounted or freestanding",
+   "channel": "Print and PDF",
+   "audience": "Hospitality, dealers",
+   "claims": [
+    "Which to propose: roof and gas line, or open and moving",
+    "Coverage up to 215 ft²",
+    "Natural gas or propane on every model",
+    "Affinity controls for mounted heaters"
+   ],
+   "brief": "One page, two sides: the m2 decision on the front, specs and clearances on the back. No built-in BTU until confirmed.",
+   "owner": "Marketing"
+  },
+  {
+   "name": "Gas heater battlecard (Sunpak, Schwank, Sunglo, AZ Patio)",
+   "channel": "Internal PDF",
+   "audience": "Sales, dealers",
+   "claims": [
+    "Directional head on the tower",
+    "Bracket included, no 24 VAC transformer",
+    "App and zones",
+    "Honest watch-outs: wind, 316 stainless, warranty, finishes"
+   ],
+   "brief": "From m3 and the battlecard below; approved by Specification and compliance before release.",
+   "owner": "Specification and compliance"
+  },
+  {
+   "name": "Restaurant terrace planning guide (gas)",
+   "channel": "Website, gated PDF",
+   "audience": "Hospitality operators",
+   "claims": [
+    "Mounted under cover, towers at the edge",
+    "Zones and schedules",
+    "Free design plan"
+   ],
+   "brief": "Build on the restaurant pages and case studies; every running-cost figure computed per templates/calculation-model.md and sourced.",
+   "owner": "Hospitality sales"
+  },
+  {
+   "name": "Freestanding product page rewrite",
+   "channel": "Website",
+   "audience": "Homeowners, hospitality",
+   "claims": [
+    "Tilting head",
+    "Built-in wheels",
+    "Flame failure and anti-tilt switch",
+    "Natural gas quick-connect"
+   ],
+   "brief": "Remove or source the 3x, twice-the-area and 8-hour claims; name it Freestanding throughout; add the controls section the page lacks.",
+   "owner": "Digital marketing"
+  },
+  {
+   "name": "Mounted Tungsten Gas product page fixes",
+   "channel": "Website",
+   "audience": "All",
+   "claims": [
+    "Coverage 160 and 215 ft²",
+    "Affinity On/Off controls",
+    "Under-cover installation"
+   ],
+   "brief": "Drop the legacy series names, align the wind rating with the manual, list certification for both sizes, fix image alt text.",
+   "owner": "Digital marketing"
+  },
+  {
+   "name": "Gas install quick card for trades",
+   "channel": "PDF and print",
+   "audience": "Installers, builders",
+   "claims": [
+    "Pressures 6–14 in W.C. natural gas, 11–14 in W.C. propane",
+    "1/2 in NPT inlet",
+    "110 V under 2 A",
+    "Clearances with and without deflector"
+   ],
+   "brief": "One page from the US manual V2.3; licensed gas fitter and local-code disclaimer; link the manual.",
+   "owner": "Specification and compliance"
+  },
+  {
+   "name": "Gas case study set",
+   "channel": "Website, sales deck",
+   "audience": "Hospitality, architects",
+   "claims": [
+    "Real venues, mounted and freestanding"
+   ],
+   "brief": "From the gallery and web finds (Decoy Lakehouse, Fiddler, Starbucks Reserve sidewalks, HIDE London); consent checklist per template.",
+   "owner": "Hospitality sales"
+  },
+  {
+   "name": "Freestanding ROI calculator refresh",
+   "channel": "Website tool",
+   "audience": "Hospitality operators",
+   "claims": [
+    "Running cost from BTU and gas price"
+   ],
+   "brief": "Replace the ungated mushroom ROI PDF's unsourced figures with the simple calculation model; [[VERIFY]] burn rate first.",
+   "owner": "Digital marketing"
+  }
+ ],
+ "competitive_summary": {
+  "wins": [
+   "Directional heat from a freestanding gas tower: a tilting head, where the mushroom and glass-tube towers compared radiate all round",
+   "One family for covered and open spaces, mounted and freestanding, every model in natural gas or propane",
+   "App, zones, schedules and smart-home control for mounted heaters through Affinity Smart-Heat® On/Off Controls [[VERIFY: Affinity On/Off spec table lists only electric heaters while its intro and FAQ add gas (up to 10 gas heaters a channel); confirm gas compatibility and capacity — Product team]]",
+   "Simpler install: wall bracket in every box and 110 V ignition, with no separate 24 VAC transformer (Sunpak and Schwank need one)",
+   "Compact mounted heads, about 19.3 and 25.4 in wide, against 30.5 to 48.25 in bar heaters"
+  ],
+  "parity": [
+   "Safety shut-offs and third-party listing (Intertek/ETL against CSA or UL)",
+   "Coverage claims, which each maker measures its own way",
+   "Mounted gas heaters all need a covered location",
+   "Design and quote service (Schwank offers one too)"
+  ],
+  "watch": [
+   "Wind: Sunglo and Schwank publish 10 mph; bromic.com says 8 mph for Tungsten Gas [[VERIFY: mounted wind rating; bromic.com says up to 8 mph, the US manual V2.3 says designed to function in winds up to 10 mph — Product team]]",
+   "Two-stage output: Sunpak TSH and supremeSchwank offer high and low; mounted Tungsten Gas is on/off only",
+   "Warranty: supremeSchwank gives 3 years on burner and components; Sunpak 3 years on residential burners",
+   "Materials by the coast: supremeSchwank is 316 marine-grade stainless; no marine claim for Tungsten Gas",
+   "Finishes: Tungsten Gas is matte black only; Sunglo and AZ Patio offer bronze, green or stainless",
+   "Price: AZ Patio's 55,000 BTU tower lists at $470 against $2,431 for Tungsten Freestanding; sell directional heat, safety and stainless, never price",
+   "Tower weight 124 lb against 65 lb (AZ) and 37 lb in Schwank's parasol table: stable, heavier to move",
+   "Heatstrip and other AU gas heaters are not benchmarked here [[VERIFY: AU competitor set — Specification and compliance]]"
+  ],
+  "battlecard": [
+   {
+    "objection": "A Sunpak costs less and I know it.",
+    "answer": "Tungsten Gas comes with its wall bracket and runs on 110 V, so there is no 24 VAC transformer to add, its head is about half the length of a 4 ft bar, and with Affinity controls the whole patio switches from the app. [[VERIFY: Sunpak street price — Sales operations]]"
+   },
+   {
+    "objection": "Schwank is 316 stainless and has a 3-year warranty.",
+    "answer": "Both true. Tungsten Gas carries 2 years on mounted heaters and is built for covered spaces; where salt air is the brief, talk to our team about the right Bromic heater for the coast. Our wins are the compact head, app control and a freestanding tower in the same family."
+   },
+   {
+    "objection": "Why pay over $2,000 for a tower when a glass-tube heater is $470?",
+    "answer": "The Tungsten tower aims its warmth at the table with a tilting head, has a flame failure device and an anti-tilt switch, is 304 stainless, and comes in natural gas as well as propane."
+   },
+   {
+    "objection": "Mushroom heaters have worked on our patio for years.",
+    "answer": "They radiate down and around the pole. The Tungsten tower tilts its head to put the heat on the seats, and our free design plan shows how many you need."
+   },
+   {
+    "objection": "Can I dim a gas heater?",
+    "answer": "Mounted Tungsten Gas is on or off, switched by Affinity controls with schedules and timers; the propane tower adjusts from high to low at the knob. For dimmable warmth under a roof, look at Tungsten Smart-Heat® Electric."
+   },
+   {
+    "objection": "What about wind on an open terrace?",
+    "answer": "Radiant heat warms people, so it holds up better than heaters that warm the air; place towers out of the strongest wind and let the design team plan the layout. [[VERIFY: published wind rating before quoting a figure — Product team]]"
+   }
+  ]
+ },
+ "spec_verify": "[[VERIFY: built-in BTU, wind rating, natural gas tower warranty and listing, and whether Affinity On/Off controllers list Tungsten Gas — Product team]]"
+}
