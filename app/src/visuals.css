@@ -50,3 +50,5 @@
 .v-tw tbody tr:nth-child(even) td { background: #FAF8F6; }
 .v-cost td.v-cbar { position: relative; } .v-cost td.v-cbar i { position: absolute; left: 0; bottom: 3px; height: 3px; background: #EF4123; }
 @media (max-width: 760px) { .v-steps, .v-waves, .v-vs, .v-prods { grid-template-columns: 1fr; } }
+
+.v-stat { color: #EF4123; font-weight: 700; font-size: 1.3em; white-space: nowrap; }

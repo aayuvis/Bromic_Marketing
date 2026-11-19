@@ -87,6 +87,8 @@ export function makeEnhancer(images) {
       if (/cost per hour|kosten pro stunde|kosten per uur/i.test(h[h.length - 1])) return `<div class="table-wrap v-tw">${costBars(t, T)}</div>`;
       return m.replace('class="table-wrap"', 'class="table-wrap v-tw"');
     });
+    // the first percentage in a paragraph reads as a headline figure: red, bold, larger
+    out = out.replace(/<p>([\s\S]*?)<\/p>/g, (m, inner) => { let done = false; return '<p>' + inner.replace(/(^|[^\w$.,>])(\d{1,3}(?:\.\d)?%)(?![^<]*<\/(?:a|sup|mark)>)/, (x, pre, n) => { if (done) return x; done = true; return `${pre}<span class="v-stat">${n}</span>`; }) + '</p>'; });
     out = out.replace(/<ul>\s*(<li>\s*<input[^>]*type="checkbox"[\s\S]*?)<\/ul>/g, (m, inner) => (/<li>(?!\s*<input)/.test(inner) ? m : notes(m)));
     return out;
   };

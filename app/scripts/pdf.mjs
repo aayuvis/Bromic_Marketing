@@ -24,7 +24,46 @@ const AUD = HUB.matrix.audiences; const ASSET = Object.fromEntries(HUB.assets.ma
 
 export const pdfItems = (items) => items.filter((it) => it.gated === true && DOC_TYPES.includes(it.type));
 
-const VCSS = `.v-steps { grid-template-columns: repeat(3, 1fr); gap: 6pt; break-inside: avoid; page-break-inside: avoid; } .v-steps li { padding: 8pt 8pt 8pt 40pt; min-height: 46pt; } .v-steps li .v-ic { left: 8pt; width: 24pt; height: 24pt; } .v-steps b { font-size: 11pt; } .v-steps small { font-size: 7.5pt; }
+const VCSS = `
+/* ---------- marketing layout (owner, 19 Nov 2026): every chapter opens on a new page with a photograph ---------- */
+body { font-size: 10.4pt; line-height: 1.55; }
+section.ch { break-before: page; }
+section.ch .ch-b { columns: 2; column-gap: 0.34in; flex: 1; }
+section.ch .ch-b > h3 { column-span: none; }
+section.ch .ch-b > .v-steps, section.ch .ch-b > .v-waves, section.ch .ch-b > .v-vs, section.ch .ch-b > .v-prods, section.ch .ch-b > .v-bars, section.ch .ch-b > .table-wrap, section.ch .ch-b > figure, section.ch .ch-b > .v-notes, section.ch .ch-b > blockquote { column-span: all; }
+section.ch .ch-b > p:first-child { font: 400 14.5pt/1.4 Didot, "Bromic Didot", "Bodoni 72", serif; color: #231F20; column-span: all; margin: 0 0 12pt; }
+.op { position: relative; height: 3.9in; margin: 0 -0.5in 16pt; overflow: hidden; background: #231F20; break-inside: avoid; }
+.op img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; display: block; }
+.op::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(20,18,19,0) 35%, rgba(20,18,19,.78)); }
+.op-t { position: absolute; left: 0.5in; right: 0.5in; bottom: 0.32in; z-index: 2; color: #fff; }
+.op-n { display: block; font: 400 34pt/1 Didot, "Bromic Didot", "Bodoni 72", serif; color: #EF4123; margin-bottom: 4pt; }
+.op h2 { color: #fff; font-size: 26pt; line-height: 1.1; margin: 0; padding: 0; max-width: 6.6in; }
+.op h2::before { display: none; }
+figure.mid { column-span: all; margin: 8pt 0 10pt; } figure.mid img { width: 100%; height: 2.6in; object-fit: cover; object-position: 50% 18%; }
+figure img { object-position: 50% 18%; }
+.cover .hero img { object-position: 50% 22%; }
+.v-stat { color: #EF4123; font-weight: 700; font-size: 1.35em; letter-spacing: -.01em; }
+.lead-b > p:first-of-type .v-stat, .ch-b > p:first-child .v-stat { font-size: 1.6em; }
+section.lead { break-before: page; }
+section.lead:first-child { break-before: auto; }
+.lead-img { margin: 0 -0.5in 16pt; height: 4.2in; overflow: hidden; } .lead-img img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 18%; display: block; max-height: none; }
+.lead-b { columns: 2; column-gap: 0.34in; flex: 1; } .lead-b > h1 { column-span: all; font-size: 26pt; margin: 0 0 8pt; }
+.lead-b > p:first-of-type { column-span: all; font: 400 14.5pt/1.4 Didot, "Bromic Didot", "Bodoni 72", serif; }
+p.fn { margin: 10pt 0 0; padding: 5pt 0 0; border-top: 0.5pt solid #E3E3E1; font-size: 6.2pt; line-height: 1.4; color: #8A8F94; break-inside: avoid; }
+p.fn b { color: #EF4123; font-weight: 600; margin-right: 2pt; }
+.ch-b figure img, .lead-b figure img { max-height: 2.3in; }
+section.end { break-before: auto; } .colophon { font-size: 6.8pt; }
+/* product cards: bigger pictures */
+.v-prods { grid-template-columns: repeat(2, 1fr) !important; gap: 8pt !important; }
+.v-prods article { grid-template-columns: 1.35in 1fr !important; padding: 8pt !important; gap: 10pt !important; }
+.v-pic { height: 1.15in !important; background: #F7F5F2; } .v-pic img { max-height: 1.05in !important; max-width: 95% !important; }
+.v-prods h4 { font-size: 12pt !important; } .v-prods dd { font-size: 8.4pt !important; }
+.v-steps b { font-size: 12pt !important; } .v-steps li { min-height: 54pt !important; }
+.v-wave h4 { font-size: 15pt !important; } .v-wave dd { font-size: 9pt !important; }
+.trends section.ch .op { height: 5.4in; }
+.trends section.ch .ch-b > p:first-child > strong:first-child { display: block; font: 400 54pt/1 Didot, "Bromic Didot", "Bodoni 72", serif; color: #EF4123; margin: 0 0 4pt; }
+.cta { margin-top: 14pt; }
+.v-steps { grid-template-columns: repeat(3, 1fr); gap: 6pt; break-inside: avoid; page-break-inside: avoid; } .v-steps li { padding: 8pt 8pt 8pt 40pt; min-height: 46pt; } .v-steps li .v-ic { left: 8pt; width: 24pt; height: 24pt; } .v-steps b { font-size: 11pt; } .v-steps small { font-size: 7.5pt; }
 .v-ic { width: 24pt; height: 24pt; } .v-ic svg { width: 13pt; height: 13pt; }
 .v-notes { padding: 9pt 11pt 6pt; margin: 8pt 0 12pt; column-span: all; } .v-note { font-size: 8.8pt; padding: 3pt 0; } .v-opt { font-size: 7.8pt; padding: 0 6pt; } .v-notes-h { font-size: 7pt; }
 .v-waves, .v-vs, .v-prods, .v-steps, .v-bars { column-span: all; } .v-wave, .v-vs article { padding: 9pt; } .v-wave h4 { font-size: 13pt; } .v-wave dd, .v-vs dd, .v-prods dd { font-size: 8pt; } .v-wave dt, .v-vs dt, .v-prods dt { font-size: 6pt; }
@@ -146,16 +185,28 @@ function finalBody(it) {
   // numbered sections (trends 01–10) take the item's own images in order; other pages draw from the wider pool first
   const take = (numbered) => { const order = numbered ? [...pool.own, ...pool.rest] : [...pool.rest, ...pool.own]; const id = order.find((x) => !used.has(x)); if (id) used.add(id); return id && IMG[id]; };
   const fig = (im) => `<figure class="sec"><img src="${esc(im.file)}" alt="${esc(im.alt)}"></figure>`;
+  // Footnotes: every chapter lists, in small type at its foot, only the sources it cites (publisher, title, year).
+  const SRC = Object.fromEntries((it.sources || []).map((x) => [x.id, x]));
+  const notesFor = (p) => { const ids = [...new Set([...p.matchAll(/data-src="(\w+)">(\d+)</g)].map((m) => m[1] + '|' + m[2]))];
+    return ids.length ? `<p class="fn">${ids.map((k) => { const [id, n] = k.split('|'); const x = SRC[id] || {}; return `<span><b>${n}</b>${esc(String(x.publisher || '').replace(/\s*\(.*?\)\s*/g, ' ').trim())}${x.year ? ` ${esc(x.year)}` : ''}</span>`; }).join(' · ')}</p>` : ''; };
+  let chap = 0;
   const out = kept.map((p, i) => {
     const isSec = /^<h2/.test(p);
     const hasImg = /<img\s/.test(p);
+    if (!isSec) { const im = hasImg ? null : take(false); return `<section class="lead">${im ? `<figure class="lead-img"><img src="${esc(im.file)}" alt="${esc(im.alt)}"></figure>` : ''}<div class="lead-b">${p}</div>${notesFor(p)}</section>`; }
     const numbered = /^<h2[^>]*>\s*\d{2}\s/.test(p);
-    const im = hasImg || (!isSec && plain(p).length <= 160) || (!numbered && isSec && i % 2 === 0) ? null : take(numbered);
-    const trend = numbered || /plan from the start|sources/i.test((p.match(/<h2[^>]*>([\s\S]*?)<\/h2>/) || [])[1] || '');
-    if (!isSec) return `<section class="lead">${plain(p).length > 160 && im ? fig(im) : ''}${p}</section>`;
-    const body = im ? p.replace(/(<\/h2>)/, `$1${fig(im)}`) : p;
-    return `<section class="${numbered ? 's' : 'n'}">${body}</section>`;
-  }).join('').replace(/<hr>\s*(?=<\/section>)/g, '');
+    const title = (p.match(/<h2[^>]*>([\s\S]*?)<\/h2>/) || [])[1] || '';
+    const im = take(numbered);
+    chap++;
+    const label = (title.match(/^(Step \d+|Schritt \d+|Stap \d+|\d{2})[.\s]*/) || [])[1];
+    const clean = label ? title.replace(/^(Step \d+|Schritt \d+|Stap \d+|\d{2})[.\s]*/, '') : title;
+    const opener = `<header class="op">${im ? `<img src="${esc(im.file)}" alt="${esc(im.alt)}">` : ''}<div class="op-t"><span class="op-n">${esc(label || String(chap).padStart(2, '0'))}</span><h2>${clean}</h2></div></header>`;
+    let body = p.replace(/<h2[^>]*>[\s\S]*?<\/h2>/, '');
+    // a second picture inside long chapters
+    const im2 = !hasImg && plain(body).length > 1400 ? take(numbered) : null;
+    if (im2) body = body.replace(/(<\/p>)/, `$1<figure class="mid"><img src="${esc(im2.file)}" alt="${esc(im2.alt)}"></figure>`);
+    return `<section class="ch${numbered ? ' s' : ''}">${opener}<div class="ch-b">${body}</div>${notesFor(p)}</section>`;
+  }).join('').replace(/<hr>\s*(?=<\/div>)/g, '');
   return { html: out, band: take(false) };
 }
 
@@ -165,8 +216,7 @@ function docHTML(it, built, L = LBL.en, lang = 'en') {
   const dek = it.dek || it.meta_description || it.summary;
   const { html, band } = finalBody(it);
   const cta = it.cta && it.cta.label ? `<div class="cta"><div><span class="label">${esc(L.next)}</span><p>${esc(it.cta.label)}</p></div><span class="go">${esc(L.site)}</span></div>` : '';
-  const srcs = it.sources.length ? `<section class="s end"><h2>${esc(L.sources)}</h2><ol class="sources">${it.sources.map((s) => `<li id="src-${esc(it.id)}-${esc(s.id)}"><b>${esc(s.publisher || '')}</b>${s.title ? `, ${esc(s.title)}` : ''}${s.year ? ` (${esc(s.year)})` : ''}${/^https?:/.test(s.url || '') ? `. <a href="${esc(s.url)}">${esc(s.url)}</a>` : ''}</li>`).join('')}</ol>
-    <p class="colophon">${esc(L.colophon)} © ${new Date(HUB.built).getFullYear()} Bromic Heating · ${L.site}</p></section>` : '';
+  const srcs = `<section class="end"><p class="colophon">${esc(L.colophon)} © ${new Date(HUB.built).getFullYear()} Bromic Heating · ${L.site}</p></section>`;
   const month = new Date((it.updated || HUB.built.slice(0, 10)) + 'T12:00:00Z').toLocaleString(L.locale, { month: 'long', year: 'numeric', timeZone: 'UTC' });
   return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><title>${esc(it.title)} | Bromic Heating</title><base href="file://${DIST}/"><style>${css}${fs.readFileSync(path.join(APP, 'src', 'visuals.css'), 'utf8').replace(/@media[^{]*\{[\s\S]*\}\s*$/, '')}
 ${VCSS}</style></head><body class="${/^A01/.test(it.id) ? 'trends' : ''}">
