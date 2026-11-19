@@ -123,7 +123,7 @@ Still weighing electric against gas? Read [electric vs gas patio heaters](item:R
 
 **Platinum Electric** is slim, low-glare and designed to disappear into a ceiling, offered at 2300, 3400 and 4500 W to cover about 65, 108 and 143 ft², in black or white, with recess and low-clearance recess kits and a 3-year warranty.[^s3] The **Marine** version is crafted in AISI 316 stainless steel, rated IPX5 and approved by Lloyd's Register for marine use, with a warranty of 5 years on land and 3 on vessels.[^s4]
 
-**Cobalt Electric** brings value to larger spaces at 4000 and 6000 W, covering about 130 and 160 ft².[^s5]
+**Cobalt Electric** brings value to larger spaces at 4000 and 6000 W, covering about 130 and 160 ft².[^s5] [[VERIFY: Cobalt availability: the Tungsten Series II launch deck lists Cobalt as discontinued from October 2026; keep, mark as sell-through or remove — Product team]]
 
 **Eclipse Electric** brings heat and dimmable rim lighting together in one refined disc – 2900 W across about 121 ft², stepping gently between 33, 66 and 100 percent output.[^s1][^s6] It mounts on straight, curved, twin or wall poles.
 

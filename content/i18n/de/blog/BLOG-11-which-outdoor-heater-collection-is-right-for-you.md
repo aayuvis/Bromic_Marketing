@@ -119,7 +119,7 @@ Sie wägen noch Strom gegen Gas ab? Lesen Sie [Elektro- oder Gas-Terrassenheizst
 
 **Platinum Electric** ist flach, blendarm und dafür gestaltet, in einer Decke zu verschwinden, erhältlich mit 2300, 3400 und 4500 W für ca. 6, 10 und 13 m², in Schwarz oder Weiß, mit Einbausatz und Einbausatz für geringe Einbautiefe und mit 3 Jahren Garantie.[^s3] Die **Marine**-Ausführung ist aus Edelstahl AISI 316 gefertigt, hat die Schutzart IPX5 und ist von Lloyd's Register für den Einsatz auf See zugelassen, mit 5 Jahren Garantie an Land und 3 auf Schiffen.[^s4]
 
-**Cobalt Electric** bringt mit 4000 und 6000 W ein gutes Preis-Leistungs-Verhältnis in größere Bereiche und beheizt ca. 12 und 15 m².[^s5]
+**Cobalt Electric** bringt mit 4000 und 6000 W ein gutes Preis-Leistungs-Verhältnis in größere Bereiche und beheizt ca. 12 und 15 m².[^s5] [[VERIFY: Cobalt availability: the Tungsten Series II launch deck lists Cobalt as discontinued from October 2026; keep, mark as sell-through or remove — Product team]]
 
 **Eclipse Electric** vereint Wärme und dimmbares Randlicht in einer edlen Scheibe – 2900 W für ca. 11 m², sanft abgestuft zwischen 33, 66 und 100 Prozent Leistung.[^s1][^s6] Montiert wird sie an geraden, gebogenen oder Doppelstangen oder an Wandauslegern.
 

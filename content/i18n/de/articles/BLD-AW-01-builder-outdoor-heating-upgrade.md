@@ -35,11 +35,11 @@ sources:
     supports: "Outdoor kitchens and outdoor fireplaces are among features that grew most in popularity over the past decade"
     verified: true
   - id: s3
-    publisher: National Association of Home Builders
-    title: "Patios in new homes (Census Survey of Construction tabulation)"
+    publisher: National Association of Home Builders (Eye on Housing)
+    title: "Share of new homes with patios edges down for first time in fifteen years (Census Survey of Construction tabulation)"
     year: 2025
-    url: https://www.nahb.org/blog/2025/09/patios-in-new-homes
-    supports: "61.8% of single-family homes started in 2024 came with patios; share high in West South Central (80%+), low in New England (14%)"
+    url: https://eyeonhousing.org/2025/09/share-of-new-homes-with-patios-edges-down-for-first-time-in-fifteen-years/
+    supports: "61.8% of single-family homes started in 2024 came with patios; over 80% in West South Central, 14% in New England"
     verified: true
   - id: s4
     publisher: National Association of Home Builders (Eye on Housing)

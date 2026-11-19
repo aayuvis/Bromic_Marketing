@@ -121,7 +121,7 @@ Twijfel je nog tussen elektrisch en gas? Lees [elektrische of gasterrasverwarmer
 
 **Platinum Electric** is slank, geeft weinig verblinding en is ontworpen om in een plafond te verdwijnen, in 2300, 3400 en 4500 W voor ongeveer 6, 10 en 13 m², in zwart of wit, met een inbouwset en een Low-Clearance-inbouwset en 3 jaar garantie.[^s3] De **Marine**-uitvoering is vervaardigd uit rvs AISI 316, heeft IPX5 en is goedgekeurd door Lloyd's Register voor maritiem gebruik, met 5 jaar garantie op land en 3 jaar op schepen.[^s4]
 
-**Cobalt Electric** brengt waar voor je geld in grotere ruimtes, in 4000 en 6000 W voor ongeveer 12 en 15 m².[^s5]
+**Cobalt Electric** brengt waar voor je geld in grotere ruimtes, in 4000 en 6000 W voor ongeveer 12 en 15 m².[^s5] [[VERIFY: Cobalt availability: the Tungsten Series II launch deck lists Cobalt as discontinued from October 2026; keep, mark as sell-through or remove — Product team]]
 
 **Eclipse Electric** brengt warmte en een dimbare lichtrand samen in één verfijnde schijf – 2900 W voor ongeveer 11 m², die rustig schakelt tussen 33, 66 en 100 procent vermogen.[^s1][^s6] Hij komt aan een rechte, gebogen, dubbele of wandstang.
 
