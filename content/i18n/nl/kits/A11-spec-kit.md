@@ -103,18 +103,18 @@ U vindt hier een driedelige modelspecificatie volgens de CSI-systematiek voor el
 
 ## Wat er in deze kit zit
 
-| Deel | Wat het is | Formaat | Status |
-|---|---|---|---|
-| 1 | Deze index en hoe u hem gebruikt | Markdown → PDF | Concept |
-| 2 | Modelspecificatie, sectie 23 83 33 (driedelig CSI-formaat) | Bewerkbare .docx op basis van deze tekst | Concept |
-| 3 | Tabel voor verwarmd oppervlak en keuze | Tabel hieronder; .xlsx op aanvraag | Concept |
-| 4 | Lijst van detailtekeningen (vier standaarddetails) | DWG / PDF | [[VERIFY: welke details er nu bestaan — productteam]] |
-| 5 | Overzicht van CAD- en BIM-bestanden | DWG, RVT, PDF | [[VERIFY: welke bestanden er bestaan — productteam]] |
-| 6 | Aanvraag ontwerpgesprek (tekeningen van het verwarmd oppervlak) | Service, [asset:A07](asset:A07) | Beschikbaar |
+Zes onderdelen brengen u van het eerste idee tot een tekening van het verwarmd oppervlak.
 
-## Waar infrarood buitenverwarmers in MasterFormat thuishoren
+- **1. Deze index en hoe u hem gebruikt** (Markdown → PDF). Concept.
+- **2. Modelspecificatie, sectie 23 83 33 (driedelig CSI-formaat)** (Bewerkbare .docx op basis van deze tekst). Concept.
+- **3. Tabel voor verwarmd oppervlak en keuze** (Tabel hieronder; .xlsx op aanvraag). Concept.
+- **4. Lijst van detailtekeningen (vier standaarddetails)** (DWG / PDF). [[VERIFY: welke details er nu bestaan — productteam]]
+- **5. Overzicht van CAD- en BIM-bestanden** (DWG, RVT, PDF). [[VERIFY: welke bestanden er bestaan — productteam]]
+- **6. Aanvraag ontwerpgesprek (tekeningen van het verwarmd oppervlak)** (Service, [asset:A07](asset:A07)). Beschikbaar.
 
-Wij adviseren **23 83 33 Electric Radiant Heaters**, en de onderbouwing hieronder ondersteunt die keuze bij een bestekbespreking.
+## De juiste plek in MasterFormat
+
+In de juiste sectie omschreven, is de verwarmer die u koos ook de verwarmer die wordt gebouwd, door value engineering en aanbesteding heen. Wij adviseren **23 83 33 Electric Radiant Heaters**, en de onderbouwing hieronder ondersteunt die keuze bij een bestekbespreking.
 
 - **Division 23 (HVAC), 23 83 00 Radiant Heating Units** is in MasterFormat de plek voor apparatuur die door straling verwarmt.[^s3] De onderliggende secties op niveau 3 zijn 23 83 13 (elektrische verwarmingskabels en -matten), 23 83 23 (elektrische stralingspanelen) en **23 83 33 (elektrische stralingsverwarmers)**.[^s4] Een Bromic-verwarmer is een op zichzelf staande elektrische infraroodstraler en hoort daarmee het meest vanzelfsprekend in 23 83 33.
 - **23 82 39 Unit Heaters** gaat over convectietoestellen (kast-, propeller-, wand- en plafondluchtverwarmers) die warme lucht verplaatsen.[^s7] Buiten stijgt warme lucht op en waait weg met de wind, en stralingswarmte verwarmt mensen en oppervlakken direct,[^s2] dus deze sectie past slecht.
@@ -127,6 +127,8 @@ Wij adviseren **23 83 33 Electric Radiant Heaters**, en de onderbouwing hieronde
 ## De juiste verwarmer voor elke ruimte
 
 Begin bij de mensen die de ruimte gaan gebruiken. Een eettafel vraagt om gelijkmatige warmte op hoofdhoogte van zittende gasten, een bar om warmte waar de gasten staan, en een loungehoek om zachte warmte zonder verblinding. De cijfers volgen daaruit. Het verwarmd oppervlak is een benadering en verschilt met model, montagehoogte, omgeving en installatie.[^s1]
+
+> Warmte die je voelt, niet ziet.
 
 | Serie | Status | Vermogen | Afwerking | Verwarmd oppervlak per verwarmer, ongeveer | Montage | Het meest geschikt voor | Bediening (verplicht) |
 |---|---|---|---|---|---|---|---|
@@ -143,6 +145,8 @@ Een ruimte geldt als buitenruimte wanneer minstens 30% van de omtrek permanent o
 ![Ingebouwde verwarmer in een houten overstek op een dakterras in de stad](img:t-006-016)
 
 ## Modelspecificatie: sectie 23 83 33 Electric Radiant Heaters
+
+Eén keer aangepast, en de warmte die u ontwierp komt precies zoals getekend op de bouwplaats, met bediening, keurmerk en details op hun plek.
 
 > **Aanwijzingen voor de bestekschrijver** staan cursief tussen vierkante haken. Verwijder ze voor uitgifte. Opties tussen haken [ ] zijn keuzes.
 
@@ -310,37 +314,48 @@ B. Draag de handleidingen voor gebruik en onderhoud, de garantiedocumenten en he
 
 **EINDE VAN SECTIE 23 83 33**
 
-## Merkgebonden of "of gelijkwaardig"?
+## Uw ontwerpintentie beschermen tot en met de aanbesteding
+
+Of het bestek nu merkgebonden is of "of gelijkwaardig", het doel is hetzelfde: de buitenkamer die uw opdrachtgever goedkeurde, is de kamer die opengaat.
 
 *Notitie voor beoordeling (specificatie en compliance):* deze kit is zo geschreven dat hij de ontwerpintentie tot en met de aanbesteding beschermt door vervanging te beperken. Een merkgebonden specificatie (optie A) doet dat, en is gebruikelijk bij particuliere woningbouw en horeca. Veel publieke opdrachtgevers, en ook sommige particuliere, eisen mededinging, zodat een architect alternatieven moet toestaan. Optie B houdt Bromic als uitgangspunt van het ontwerp, maar stelt prestatie-eisen en vraagt voor elk alternatief een tekening van het verwarmd oppervlak. Dat legt de lat hoger en laat toch alternatieven toe. Beide opties staan hierboven uitgewerkt. [[VERIFY: de standaardkeuze die Bromic de voorkeur geeft (A of B) en de prestatie-eisen voor optie B — specificatie en compliance + productteam]] [[VERIFY: regels voor merkgebonden voorschrijven bij Nederlandse aanbestedingen — Bromic Benelux distributor]]
 
 ## De details die op uw tekeningen horen
 
-Vier standaarddetails dekken de meeste projecten. Elk is getekend als doorsnede of plattegrond, met maten als labels voor het gekozen model.
+Een paar heldere details op de tekeningen zorgen ervoor dat een ingebouwde verwarmer op de bouwplaats perfect vlak zit. Vier standaarddetails dekken de meeste projecten. Elk is getekend als doorsnede of plattegrond, met maten als labels voor het gekozen model.
 
-| Nr. | Detail | Laat zien | Diagram |
-|---|---|---|---|
-| D1 | Doorsnede ingebouwd overstek | Verwarmer in de inbouwkit, diepte van de holte, klossen, plafondafwerking, vrije afstand tot constructie en brandbare materialen, plaats van de aansluitdoos | [[DIAGRAM: doorsnede door een houten of gestukt overstek met een ingebouwde Platinum-verwarmer in zijn inbouwkit, klossen, label voor de diepte van de holte, lijn van de plafondafwerking, aansluitdoos, vrije afstanden als labels]] |
-| D2 | Aanzicht wandmontage | Beugel, montagehoogte boven de afgewerkte vloer, kantelhoek, vrije afstand tot plafond en openingen, invoer van de leiding, plaats van de wandschakelaar | [[DIAGRAM: aanzicht van een wandverwarmer met label voor de montagehoogte (minimum volgens de handleiding), kantelhoek, label voor de vrije afstand tot het plafond, leidinginvoer, plaats van wandschakelaar en regelaar]] |
-| D3 | Ophanging aan een pendel | Pendel of Eclipse-pendel (enkel, dubbel of gebogen), effectieve hoogte van de verwarmer, constructieve bevestiging | [[DIAGRAM: doorsnede onder een hoog of schuin plafond met een pendel die een verwarmer op effectieve hoogte brengt; tweede aanzicht van een hangende Eclipse aan een enkele en een dubbele pendel]] |
-| D4 | Plan verwarmd oppervlak | Posities van de verwarmers met het verwarmd oppervlak bij benadering over de meubelopstelling, zones, groepen, plaats van regelaar en schakelaar | [[DIAGRAM: plattegrond van een eetterras met meubels, symbolen voor de verwarmers, het verwarmd oppervlak bij benadering, zonegrenzen, labels voor de groepen en de plaats van de Affinity-regelaar en wandschakelaar]] |
+**D1 Doorsnede ingebouwd overstek.** Verwarmer in de inbouwkit, diepte van de holte, klossen, plafondafwerking, vrije afstand tot constructie en brandbare materialen, plaats van de aansluitdoos.
+
+[[DIAGRAM: doorsnede door een houten of gestukt overstek met een ingebouwde Platinum-verwarmer in zijn inbouwkit, klossen, label voor de diepte van de holte, lijn van de plafondafwerking, aansluitdoos, vrije afstanden als labels]]
+
+**D2 Aanzicht wandmontage.** Beugel, montagehoogte boven de afgewerkte vloer, kantelhoek, vrije afstand tot plafond en openingen, invoer van de leiding, plaats van de wandschakelaar.
+
+[[DIAGRAM: aanzicht van een wandverwarmer met label voor de montagehoogte (minimum volgens de handleiding), kantelhoek, label voor de vrije afstand tot het plafond, leidinginvoer, plaats van wandschakelaar en regelaar]]
+
+**D3 Ophanging aan een pendel.** Pendel of Eclipse-pendel (enkel, dubbel of gebogen), effectieve hoogte van de verwarmer, constructieve bevestiging.
+
+[[DIAGRAM: doorsnede onder een hoog of schuin plafond met een pendel die een verwarmer op effectieve hoogte brengt; tweede aanzicht van een hangende Eclipse aan een enkele en een dubbele pendel]]
+
+**D4 Plan verwarmd oppervlak.** Posities van de verwarmers met het verwarmd oppervlak bij benadering over de meubelopstelling, zones, groepen, plaats van regelaar en schakelaar.
+
+[[DIAGRAM: plattegrond van een eetterras met meubels, symbolen voor de verwarmers, het verwarmd oppervlak bij benadering, zonegrenzen, labels voor de groepen en de plaats van de Affinity-regelaar en wandschakelaar]]
 
 ![Ingebouwde verwarmer in een wit plafond aan de kust](img:l-005-022)
 
 ## CAD- en BIM-bestanden voor uw model
 
+Met de verwarmer in uw model laat elke weergave, van plafondplattegrond tot doorsnede, hem zien zoals hij wordt gebouwd.
+
 [[VERIFY: welke bestanden er bestaan, hun formaten, LOD en waar ze worden gehost (bromic.com, BIMobject, ARCAT, andere) — productteam]]
 
-| Bestand | Formaat | Omvat | Status |
-|---|---|---|---|
-| Revit-families, elektrische verwarmers | .rfa | Platinum (2300/3400/4500 W), Eclipse, Tungsten Coastal en Select (na de introductie) | [[VERIFY — productteam]] |
-| Revit-families, regelaars | .rfa | Affinity On/Off-, Dimmer- en Eclipse-regelaars | [[VERIFY — productteam]] |
-| 2D CAD-blokken | .dwg | Plattegrond- en aanzichtblokken per verwarmer | [[VERIFY — productteam]] |
-| Standaarddetails D1–D4 | .dwg / .pdf | Zoals hierboven vermeld | [[VERIFY — productteam]] |
-| Specificatiebladen | .pdf | Per model: afmetingen, gewicht, vermogen, spanning, vrije afstanden | [[VERIFY — productteam]] |
-| Installatiehandleidingen | .pdf | Per model, huidige editie | [[VERIFY — productteam]] |
-| Keuringscertificaten | .pdf | Keuring per model | [[VERIFY — productteam]] |
-| Deze modelspecificatie | .docx | Sectie 23 83 33 | Concept (dit document) |
+- **Revit-families, elektrische verwarmers** (.rfa): Platinum (2300/3400/4500 W), Eclipse, Tungsten Coastal en Select (na de introductie). [[VERIFY — productteam]]
+- **Revit-families, regelaars** (.rfa): Affinity On/Off-, Dimmer- en Eclipse-regelaars. [[VERIFY — productteam]]
+- **2D CAD-blokken** (.dwg): Plattegrond- en aanzichtblokken per verwarmer. [[VERIFY — productteam]]
+- **Standaarddetails D1–D4** (.dwg / .pdf): Zoals hierboven vermeld. [[VERIFY — productteam]]
+- **Specificatiebladen** (.pdf): Per model: afmetingen, gewicht, vermogen, spanning, vrije afstanden. [[VERIFY — productteam]]
+- **Installatiehandleidingen** (.pdf): Per model, huidige editie. [[VERIFY — productteam]]
+- **Keuringscertificaten** (.pdf): Keuring per model. [[VERIFY — productteam]]
+- **Deze modelspecificatie** (.docx): Sectie 23 83 33. Concept (dit document).
 
 ## Uw checklist voor de planning
 

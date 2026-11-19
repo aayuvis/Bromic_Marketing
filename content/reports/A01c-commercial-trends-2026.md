@@ -137,20 +137,22 @@ for them, each with its source and one move you can make this season.
 
 ## The Year At A Glance
 
-| # | The shift | The number | Source |
-|---|---|---|---|
-| 01 | The patio is a revenue line | 35% of operators with outdoor dining said it was over 40% of daily sales | NRA, 2021[^s1] |
-| 02 | Guests choose the outside table | 55% of Americans prefer to dine outdoors in good weather | OpenTable, 2025[^s3] |
-| 03 | Soft traffic makes every seat count | 61% of full-service operators saw lower traffic in 2025 | NRA, 2026[^s2] |
-| 04 | Energy is a line operators now watch | 82% of full-service operators call energy or utility costs a significant challenge | NRA, 2026[^s2] |
-| 05 | Outdoor dining is permanent infrastructure | Nearly 2,450 setups in Dining Out NYC | NYC, 2025[^s5] |
-| 06 | Propane is leaving the patio | NYC revoked propane heaters in outdoor dining from June 2021 | NYC EEO 200[^s7] |
-| 07 | Electrification reaches the terrace | New NYC buildings: no fuel at or above 25 kg CO2 per million Btu | NYC DOB[^s10] |
-| 08 | Guests come for the occasion | 84% say a meal out is a chance to socialize | NRA, 2026[^s2] |
-| 09 | Hotels make outdoor space earn | GOPPAR still about 90% of 2019 | AHLA, 2026[^s12] |
-| 10 | Heat disappears into the architecture | 30% open perimeter defines an outdoor space | Bromic, 2021[^s14] |
+Ten shifts are reshaping the terrace this year, and each one opens a chance to fill more seats on more evenings.
+
+- **01 The patio is a revenue line.** 35% of operators with outdoor dining said it was over 40% of daily sales.[^s1]
+- **02 Guests choose the outside table.** 55% of Americans prefer to dine outdoors in good weather.[^s3]
+- **03 Soft traffic makes every seat count.** 61% of full-service operators saw lower traffic in 2025.[^s2]
+- **04 Energy is a line operators now watch.** 82% of full-service operators call energy or utility costs a significant challenge.[^s2]
+- **05 Outdoor dining is permanent infrastructure.** Nearly 2,450 setups in Dining Out NYC.[^s5]
+- **06 Propane is leaving the patio.** NYC revoked propane heaters in outdoor dining from June 2021.[^s7]
+- **07 Electrification reaches the terrace.** New NYC buildings: no fuel at or above 25 kg CO2 per million Btu.[^s10]
+- **08 Guests come for the occasion.** 84% say a meal out is a chance to socialize.[^s2]
+- **09 Hotels make outdoor space earn.** GOPPAR still about 90% of 2019.[^s12]
+- **10 Heat disappears into the architecture.** 30% open perimeter defines an outdoor space.[^s14]
 
 ## 01 · The Patio Has Become A Revenue Line
+
+On a warm night the terrace is the busiest room you have, and every heated seat out there is one more table you can sell.
 
 > **35%** of operators with outdoor dining said it made up more than 40% of average daily sales; 41% among full-service.[^s1]
 > *Source: National Restaurant Association, operator survey, September 2021.*
@@ -170,6 +172,8 @@ for them, each with its source and one move you can make this season.
 
 ## 02 · Guests Choose The Outside Table And Stay Longer
 
+Ask guests where they would like to sit, and most of them look outside.
+
 > **55%** of Americans prefer to sit outdoors when the weather is nice; **34%** would rather brave unexpected weather than give up an outdoor table.[^s3]
 > *Source: OpenTable, consumer survey by Walr, 2,000 US adults, April 2025.*
 
@@ -180,13 +184,15 @@ for them, each with its source and one move you can make this season.
 - Guests want the outside table, and comfort decides how long they keep it. A longer stay brings more drinks and desserts, with fewer turns of the table.
 - A guest who feels the chill leaves early and may book inside next time.
 
-**Bromic insight.** Guests ask for the table outside, and they stay when they are warm.
+> Guests ask for the table outside, and they stay when they are warm.
 
 **Design move.** Place radiant heat over each table group so every chair sits within its reach.
 
 **Bromic project.** [Hotel Skansen](https://www.bromic.com/case-study/hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-heat-freestanding-heaters/), Sweden: Eclipse Smart-Heat Freestanding heaters with the Eclipse Dimmer Controller keep the SAND restaurant terrace in use.
 
 ## 03 · When Traffic Softens, Every Seat Matters
+
+When guests choose more carefully where to spend an evening, the glow of a warm terrace is an invitation from across the street.
 
 > **61%** of full-service and **64%** of limited-service operators said customer traffic was lower in 2025 than in 2024.[^s2]
 > *Source: National Restaurant Association, State of the Restaurant Industry 2026.*
@@ -206,6 +212,8 @@ for them, each with its source and one move you can make this season.
 
 ## 04 · Energy Now Has A Place On Every Budget
 
+The best-run terraces are also the warmest, with heat exactly where guests sit and only while they are there.
+
 > **82%** of full-service and **79%** of limited-service operators called energy or utility costs a significant challenge in 2025; **42%** of operators said they were not profitable.[^s2]
 > *Source: National Restaurant Association, State of the Restaurant Industry 2026.*
 
@@ -224,7 +232,9 @@ for them, each with its source and one move you can make this season.
 
 ## 05 · Outdoor Dining Is Here To Stay
 
-> NYC's permanent programme, Dining Out NYC, had nearly **2,450** roadway and sidewalk setups in 2025, more than two and a half times the pre-COVID sidewalk cafe programme. Sidewalk setups may run year-round; roadway setups from 1 April to 29 November.[^s5]
+The terrace that began as a stopgap is now a licensed fixture of the street, and one the neighborhood has come to love.
+
+> NYC's permanent program, Dining Out NYC, had nearly **2,450** roadway and sidewalk setups in 2025, more than two and a half times the pre-COVID sidewalk cafe program. Sidewalk setups may run year-round; roadway setups from 1 April to 29 November.[^s5]
 > *Source: City of New York, Office of the Mayor, 1 April 2025.*
 
 > England made pavement licences permanent from 31 March 2024, for up to two years, with heaters named among permitted furniture.[^s6]
@@ -234,13 +244,15 @@ for them, each with its source and one move you can make this season.
 - Outdoor seating is now licensed, inspected and renewed, a lasting asset of the business, and the months you may trade can matter as much as the weather.
 - Equipment has to meet the code that applies to it at every renewal.
 
-**Bromic insight.** Permanent programmes reward permanent thinking. Fixed, listed electric heat on the structure, with its controls, will serve you long after a row of portable cylinders.
+**Bromic insight.** Permanent programs reward permanent thinking. Fixed, listed electric heat on the structure, with its controls, will serve you long after a row of portable cylinders.
 
 **Design move.** Design to the licence. Where only removable furniture is allowed, specify freestanding electric; where a structure is permitted, mount the heat on it. NYC requires outdoor electric radiant heaters to meet the NYC Electrical Code.[^s9]
 
 *Rules vary by city and change often. Confirm what applies with your local authority having jurisdiction, and use a licensed electrician or gas fitter.*
 
 ## 06 · Propane Is Leaving The Patio
+
+A terrace with no cylinders to swap is calmer for your team and simpler at every inspection.
 
 > New York City revoked permission to use propane-fuelled heaters in outdoor dining areas from **1 June 2021**.[^s7]
 > *Source: City of New York, Emergency Executive Order No. 200.*
@@ -262,6 +274,8 @@ for them, each with its source and one move you can make this season.
 
 ## 07 · Electrification Arrives On The Terrace
 
+The newest buildings are being drawn without gas, and their terraces can be every bit as warm.
+
 > New buildings in New York City may not burn any fuel that emits **25 kg or more of CO2 per million Btu**; the law applies to new construction only, phased in from low-rise buildings, with exceptions that include commercial kitchens.[^s10]
 > *Source: NYC Department of Buildings, Local Law 154 of 2021.*
 
@@ -281,6 +295,8 @@ for them, each with its source and one move you can make this season.
 
 ## 08 · Guests Come For The Occasion
 
+Birthdays, tastings and long celebrations bring guests back, and the terrace can be the room they remember most.
+
 > **84%** of restaurant customers say going out with family or friends is a chance to socialize and a better use of leisure time; **76%** would likely attend food tasting events at a restaurant.[^s2]
 > *Source: National Restaurant Association, State of the Restaurant Industry 2026.*
 
@@ -298,6 +314,8 @@ for them, each with its source and one move you can make this season.
 
 ## 09 · Hotels Help Outdoor Space Earn Its Keep
 
+The places guests remember from a stay are often outside the room they booked, on a rooftop at dusk or beside the pool.
+
 > Hotel guest spending is projected at nearly **$805 billion** in 2026, up **1.7%**; gross operating profit per available room remains about **90%** of 2019 levels, mainly because of rising operating costs.[^s12]
 > *Source: American Hotel & Lodging Association, State of the Industry 2026.*
 
@@ -313,12 +331,16 @@ for them, each with its source and one move you can make this season.
 
 ## 10 · Heat Disappears Into The Architecture
 
+The most admired terraces keep their warmth out of sight, so all a guest notices is the evening.
+
 > Bromic defines a space as outdoor when at least **30%** of its perimeter is permanently open; Bromic's electric heaters are **medium wave**, warm in about 30 seconds, while long wave is the most wind-sensitive.[^s14] Medium wave's warmth reaches further across the terrace, with no intrusive glow. [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]]
 > *Source: Bromic Heating, Planning Guide US v1.2, 2021.*
 
 **What it means for your venue**
 - Architects want warmth guests can feel while the heater itself stays out of view, and recessed and pendant heat frees the floor for more seats.
 - On rooftops and exposed terraces, choosing the right wavelength matters more than adding units.
+
+> Heat You Can Feel, Not See.
 
 **Bromic insight.** When heating is planned in from the first drawing, recessed, ceiling or wall-mounted Platinum and Tungsten Smart-Heat Electric heaters, each with its Affinity controls, sit quietly in the soffit and leave the floor plan to your guests.
 
@@ -361,7 +383,8 @@ Discover what your empty seats could be worth. GET YOUR ROI ASSESSMENT.
 
 - **Format:** gated PDF, landscape A4/US Letter, 14 pages; matches the residential Trends 2026 report's system (white pages, ink and steel greys, flame `#EF4123` as the only accent on small labels and rules; Didot headings, Helvetica Neue Light body, per templates/bromic-voice.md). No emoji, no exclamation marks.
 - **Page 1, cover:** "Outdoor Hospitality Trends 2026", subtitle "Ten Ways The Terrace Is Earning Its Place". Image `l-016-131`.
-- **Page 2, the year in numbers:** the At a glance table as four large stat callouts (35%, 55%, 61%, 82%) with source lines; the full table below.
+- **Page 2, the year in numbers:** four large stat callouts (35%, 55%, 61%, 82%) with source lines; the ten shifts below as a list.
+- **Marketing pass (19 Nov 2026):** each trend opens on the guest's evening before its statistics; the at-a-glance table became a list (every figure keeps its citation); two Bromic lines are set as pull quotes (trend 02, trend 10).
 - **Pages 3–12, one trend per page:** number and headline top left; stat callouts with source lines in small caps; "What it means for your venue" as two or three lines; Bromic insight in a flame-rule box; design move; project line with a QR to the case study.
   - 01 `p-003-006` · 02 `l-013-111` · 03 `p-007-030` · 04 `g-operator` (owner-approved generated image; label "generated") · 05 `p-002-001` · 06 `p-014-066` · 07 `l-013-107` · 08 `p-010-044` · 09 `t-003-005` · 10 `t-006-016`.
   - `p-` images show the 2021 range: use only as generic commercial scenes, never captioned with a product name.

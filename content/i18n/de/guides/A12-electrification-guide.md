@@ -177,30 +177,28 @@ sources:
 
 *Dieser Leitfaden beschreibt die Rechtslage in den USA und richtet sich an Planer mit Projekten dort. Für Projekte in Deutschland gelten DIN VDE 0100 (Elektro), DVGW-TRGI (Erdgas) und TRF (Flüssiggas) sowie das Bauordnungsrecht Ihres Landes; die Planungshinweise unten sind entsprechend auf 230 V umgerechnet.* [[VERIFY: ob deutsche Vorschriften (z. B. das Gebäudeenergiegesetz oder Landesrecht) Heizstrahler im Freien oder Gasanschlüsse im Außenbereich regeln — Partner Deutschland]]
 
-Zum größten Teil nennen die heute geltenden Elektrifizierungsgesetze in den USA Terrassenheizstrahler gar nicht. Sie verhindern, dass Gas in **neue Gebäude** geleitet wird, oder machen Wärmepumpen zum Standard für Raumheizung und Warmwasser **im Inneren**, und ihre Reichweite erstreckt sich dennoch bis auf die Terrasse. Ein neues, rein elektrisches Gebäude hat keine Gasleitung für einen fest eingebauten Heizstrahler, Definitionen nach dem Muster von Berkeley trugen die Beschränkung bis zur Grundstücksgrenze, und Energievorschriften für Gewerbebauten verlangen bereits, dass Wärme im Freien als Strahlungswärme erzeugt wird und abschaltet, wenn niemand da ist. Planen Sie den Außenbereich von der ersten Zeichnung an um elektrische Strahlungswärme herum, und die Abende im Freien bleiben sicher, in welche Richtung sich die Regeln auch bewegen.
+Die Terrasse eines rein elektrischen Gebäudes kann genauso warm und einladend sein wie jede andere, und gut geplant bleibt sie das, in welche Richtung sich die Regeln auch bewegen. Zum größten Teil nennen die heute geltenden Elektrifizierungsgesetze in den USA Terrassenheizstrahler gar nicht. Sie verhindern, dass Gas in **neue Gebäude** geleitet wird, oder machen Wärmepumpen zum Standard für Raumheizung und Warmwasser **im Inneren**, und ihre Reichweite erstreckt sich dennoch bis auf die Terrasse. Ein neues, rein elektrisches Gebäude hat keine Gasleitung für einen fest eingebauten Heizstrahler, Definitionen nach dem Muster von Berkeley trugen die Beschränkung bis zur Grundstücksgrenze, und Energievorschriften für Gewerbebauten verlangen bereits, dass Wärme im Freien als Strahlungswärme erzeugt wird und abschaltet, wenn niemand da ist. Planen Sie den Außenbereich von der ersten Zeichnung an um elektrische Strahlungswärme herum, und die Abende im Freien bleiben sicher, in welche Richtung sich die Regeln auch bewegen.
 
 *Die Angaben in diesem Leitfaden geben den Stand vom 29. Oktober 2026 wieder. Gesetze, Urteile und die Übernahme von Vorschriften ändern sich; klären Sie jede Angabe mit der zuständigen Behörde, bevor Sie sich darauf verlassen.*
 
 ![Eclipse-Heizstrahler, die über einer Restaurantterrasse unter einer Markise glühen](img:l-013-111)
 
-## Verbieten Vorschriften für rein elektrische Gebäude Gas-Heizstrahler?
+## Eine warme Terrasse unter jeder neuen Regel
 
-Jede Regelung liest man am besten darauf hin, **was sie regelt** (Gasleitungen, Verbrennung oder Heizgeräte), **wo sie gilt** (im Gebäude, auf dem Grundstück oder für jedes Gerät) und **wann sie gilt** (Neubau, umfassende Sanierung oder Austausch).
+Verbieten Vorschriften für rein elektrische Gebäude Gas-Heizstrahler? Selten namentlich, und elektrische Strahlungswärme ist die Option, die sie am weitesten offenlassen. Jede Regelung liest man am besten darauf hin, **was sie regelt** (Gasleitungen, Verbrennung oder Heizgeräte), **wo sie gilt** (im Gebäude, auf dem Grundstück oder für jedes Gerät) und **wann sie gilt** (Neubau, umfassende Sanierung oder Austausch). Der Stand jeder Regelung am 29. Oktober 2026, und ob sie Heizstrahler im Freien erfasst:
 
-| Zuständigkeit | Regelung | Stand am 29. Okt. 2026 | Was sie regelt | Erfasst sie Heizstrahler im Freien? |
-|---|---|---|---|---|
-| New York City | Local Law 154 of 2021 (Admin. Code §24-177.1, §28-506.1) | In Kraft; unter 7 Geschossen seit 1. Jan. 2024, alle Nutzungen ab 2. Juli 2027 (nach Einreichungsdatum der Bauunterlagen)[^s1] | Verbrennung von Brennstoffen mit 25 kg CO2 oder mehr je Million Btu (rund 85 g je kWh) in Neubauten[^s2] | Nicht namentlich. Ein fest angeschlossener Gas-Heizstrahler in einem Neubau hat keine zulässige Gasversorgung. Nicht angeschlossene, gelegentlich genutzte Geräte sind ausgenommen, aber nur, wenn sie keine Wärme liefern.[^s2] [[VERIFY]] |
-| Bundesstaat New York | All-Electric Buildings Act (2023) | Am 30. Juni 2026 vom Second Circuit bestätigt; der Vollzug durch den Bundesstaat war bis zur Berufungsentscheidung ausgesetzt[^s3][^s4] | Anlagen und Gebäudesysteme mit fossilen Brennstoffen in Neubauten; zuerst bis 7 Geschosse, die übrigen bis 1. Jan. 2029[^s4] | Nicht geklärt. [[VERIFY: Datum der Umsetzung und Behandlung von Geräten im Freien — Spezifikation und Compliance / counsel]] |
-| Kalifornien (landesweit) | Building Energy Efficiency Standards 2025 (Title 24, Part 6) | Gilt für Bauanträge ab 1. Jan. 2026[^s5] | Wärmepumpen als Bezugsgröße für Raumheizung und Warmwasser im Inneren (vorschreibend; kein Gasverbot)[^s5][^s6] | In den geprüften Quellen nicht gefunden. [[VERIFY]] |
-| Berkeley, Kalifornien | BMC Chapter 12.80 (2019) | Durch Bundesrecht verdrängt (9th Cir. 2023); 2024 aufgehoben[^s8][^s9] | Erdgasleitungen in Neubauten, definiert bis zur Grundstücksgrenze[^s7] | Erfasste per Definition fest angeschlossene Geräte im Freien auf neuen Grundstücken; nicht mehr in Kraft |
-| Bundesstaat Washington | WSEC-Commercial C403.1.4 (Raumheizung per Wärmepumpe); C403.11.1 (Heizung außerhalb eines Gebäudes) | In Kraft; Initiative 2066 im Sept. 2026 für ungültig erklärt[^s11][^s12] | Raumheizung im Inneren per Wärmepumpe; Wärme im Freien muss Strahlungswärme sein, mit Präsenz- oder Zeitsteuerung[^s10] | Ja, C403.11.1 direkt: nur Strahlungswärme und automatische Abschaltung, wenn niemand da ist. Der Energieträger ist nicht beschränkt. |
-| Denver, Colorado | Denver Energy Code 2025 | In Kraft seit 31. Dez. 2025 / 1. Jan. 2026 (die Seiten der Stadt widersprechen sich)[^s13] | Neubauten: keine fossilen Heizkessel, keine elektrische Widerstandsheizung für Räume, keine fossilen oder elektrischen Widerstands-Warmwasserbereiter, mit Ausnahmen[^s13] | Unklar. [[VERIFY: ob Infrarot-Heizstrahler im Freien als „space heat“ gelten — Denver CPD]] |
-| Colorado (landesweit) | HB22-1362; Model Electric Ready and Solar Ready Code | Übernahme durch die DFPC in Kraft seit 15. Aug. 2025[^s14][^s15] | Vorgaben zur elektrischen Vorbereitung in örtlichen Vorschriften | Elektrische Reservekapazität, kein Verbot. [[VERIFY: ob Stromkreise für Heizstrahler im Freien erfasst sind]] |
-| Massachusetts | Municipal Fossil Fuel Free Building Demonstration (225 CMR 24.00) | Zehn teilnehmende Gemeinden[^s16] | Fossile Brennstoffe in Neubau und umfassender Sanierung, per örtlicher Satzung[^s16] | Hängt von der Satzung jeder Gemeinde ab. [[VERIFY: Behandlung von Geräten im Freien je Gemeinde]] |
+- **New York City, Local Law 154 of 2021 (Admin. Code §24-177.1, §28-506.1).** Nicht namentlich. Ein fest angeschlossener Gas-Heizstrahler in einem Neubau hat keine zulässige Gasversorgung. Nicht angeschlossene, gelegentlich genutzte Geräte sind ausgenommen, aber nur, wenn sie keine Wärme liefern.[^s2] [[VERIFY]] Regelt: Verbrennung von Brennstoffen mit 25 kg CO2 oder mehr je Million Btu (rund 85 g je kWh) in Neubauten.[^s2] Stand am 29. Okt. 2026: in Kraft; unter 7 Geschossen seit 1. Jan. 2024, alle Nutzungen ab 2. Juli 2027 (nach Einreichungsdatum der Bauunterlagen).[^s1]
+- **Bundesstaat New York, All-Electric Buildings Act (2023).** Nicht geklärt. [[VERIFY: Datum der Umsetzung und Behandlung von Geräten im Freien — Spezifikation und Compliance / counsel]] Regelt: Anlagen und Gebäudesysteme mit fossilen Brennstoffen in Neubauten; zuerst bis 7 Geschosse, die übrigen bis 1. Jan. 2029.[^s4] Stand am 29. Okt. 2026: am 30. Juni 2026 vom Second Circuit bestätigt; der Vollzug durch den Bundesstaat war bis zur Berufungsentscheidung ausgesetzt.[^s3][^s4]
+- **Kalifornien (landesweit), Building Energy Efficiency Standards 2025 (Title 24, Part 6).** In den geprüften Quellen nicht gefunden. [[VERIFY]] Regelt: Wärmepumpen als Bezugsgröße für Raumheizung und Warmwasser im Inneren (vorschreibend; kein Gasverbot).[^s5][^s6] Stand am 29. Okt. 2026: gilt für Bauanträge ab 1. Jan. 2026.[^s5]
+- **Berkeley, Kalifornien, BMC Chapter 12.80 (2019).** Erfasste per Definition fest angeschlossene Geräte im Freien auf neuen Grundstücken; nicht mehr in Kraft. Regelt: Erdgasleitungen in Neubauten, definiert bis zur Grundstücksgrenze.[^s7] Stand am 29. Okt. 2026: durch Bundesrecht verdrängt (9th Cir. 2023); 2024 aufgehoben.[^s8][^s9]
+- **Bundesstaat Washington, WSEC-Commercial C403.1.4 (Raumheizung per Wärmepumpe); C403.11.1 (Heizung außerhalb eines Gebäudes).** Ja, C403.11.1 direkt: nur Strahlungswärme und automatische Abschaltung, wenn niemand da ist. Der Energieträger ist nicht beschränkt. Regelt: Raumheizung im Inneren per Wärmepumpe; Wärme im Freien muss Strahlungswärme sein, mit Präsenz- oder Zeitsteuerung.[^s10] Stand am 29. Okt. 2026: in Kraft; Initiative 2066 im Sept. 2026 für ungültig erklärt.[^s11][^s12]
+- **Denver, Colorado, Denver Energy Code 2025.** Unklar. [[VERIFY: ob Infrarot-Heizstrahler im Freien als „space heat“ gelten — Denver CPD]] Regelt: Neubauten: keine fossilen Heizkessel, keine elektrische Widerstandsheizung für Räume, keine fossilen oder elektrischen Widerstands-Warmwasserbereiter, mit Ausnahmen.[^s13] Stand am 29. Okt. 2026: in Kraft seit 31. Dez. 2025 / 1. Jan. 2026 (die Seiten der Stadt widersprechen sich).[^s13]
+- **Colorado (landesweit), HB22-1362; Model Electric Ready and Solar Ready Code.** Elektrische Reservekapazität, kein Verbot. [[VERIFY: ob Stromkreise für Heizstrahler im Freien erfasst sind]] Regelt: Vorgaben zur elektrischen Vorbereitung in örtlichen Vorschriften. Stand am 29. Okt. 2026: übernahme durch die DFPC in Kraft seit 15. Aug. 2025.[^s14][^s15]
+- **Massachusetts, Municipal Fossil Fuel Free Building Demonstration (225 CMR 24.00).** Hängt von der Satzung jeder Gemeinde ab. [[VERIFY: Behandlung von Geräten im Freien je Gemeinde]] Regelt: fossile Brennstoffe in Neubau und umfassender Sanierung, per örtlicher Satzung.[^s16] Stand am 29. Okt. 2026: zehn teilnehmende Gemeinden.[^s16]
 
-## Was das Local Law 154 von New York City bewirkt
+## New York City, wo Neubauten elektrisch laufen
 
-Das Local Law 154 verbietet in Neubauten die Verbrennung von Brennstoffen, die 25 kg CO2 oder mehr je Million Btu ausstoßen (rund 85 g je kWh); das betrifft Erdgas und Heizöl.[^s2] Die Fristen richten sich nach der Einreichung der Bauunterlagen: 1. Januar 2024 für Gebäude unter sieben Geschossen, 2. Juli 2027 für alle Nutzungen.[^s1] Zu den Ausnahmen gehören unter anderem Großküchen, Krankenhäuser, Labore, Waschsalons, Krematorien, Fertigung und Notstromversorgung;[^s1] Heizstrahler im Freien zählen nicht dazu.
+Auf den Dachterrassen der neuesten Gebäude in New York wird die Wärme elektrisch sein. Das Local Law 154 verbietet in Neubauten die Verbrennung von Brennstoffen, die 25 kg CO2 oder mehr je Million Btu ausstoßen (rund 85 g je kWh); das betrifft Erdgas und Heizöl.[^s2] Die Fristen richten sich nach der Einreichung der Bauunterlagen: 1. Januar 2024 für Gebäude unter sieben Geschossen, 2. Juli 2027 für alle Nutzungen.[^s1] Zu den Ausnahmen gehören unter anderem Großküchen, Krankenhäuser, Labore, Waschsalons, Krematorien, Fertigung und Notstromversorgung;[^s1] Heizstrahler im Freien zählen nicht dazu.
 
 Der Vorschriftentext nimmt außerdem Geräte aus, die nicht an die Gas- oder Heizölleitungen des Gebäudes angeschlossen sind, nur gelegentlich genutzt werden und **nicht der Versorgung mit Wärme oder Warmwasser dienen**.[^s2] Ein mobiler Heizstrahler ist nicht angeschlossen und wird gelegentlich genutzt, aber Wärme zu liefern ist sein Zweck. Ob ein mobiler Flüssiggas-Heizstrahler auf der Terrasse eines Neubaus unter diese Ausnahme fällt, muss das Department of Buildings beantworten. [[VERIFY: Position des DOB zu mobilen Heizstrahlern im Freien nach §24-177.1(c) und ob eine Dachterrasse als „im“ Gebäude gilt — Spezifikation und Compliance / NYC code consultant]]
 
@@ -208,28 +206,32 @@ Die Wärme in der Außengastronomie von NYC regeln gesondert Brandschutz- und St
 
 Zum Vorrang des Bundesrechts entschied der Second Circuit am 30. Juni 2026, dass das bundesrechtliche Gesetz zur Geräteeffizienz (EPCA) den All-Electric Buildings Act von New York und das LL154 nicht verdrängt.[^s3] Das steht im Widerspruch zur Entscheidung des Ninth Circuit zu Berkeley; eine weitere Berufung ist daher möglich.
 
-## Warum Berkeley noch wichtig ist
+## Berkeley, und warum es die Debatte noch prägt
 
-Die Verordnung von Berkeley aus dem Jahr 2019 verbot ab 1. Januar 2020 Erdgasinfrastruktur in Neubauten.[^s7] Als Infrastruktur galten Brenngasleitungen in einem Gebäude oder Bauwerk oder daran angeschlossen **oder innerhalb der Grundstücksgrenzen**, ab dem Zähler.[^s7] Ein fest angeschlossener Gas-Heizstrahler auf einer neuen Terrasse war damit erfasst, obwohl die Verordnung das Wort „Heizstrahler“ nie verwendete.
+Die Verordnung von Berkeley ist Geschichte, ihre Lehre für jeden, der eine Terrasse plant, bleibt. Die Verordnung von Berkeley aus dem Jahr 2019 verbot ab 1. Januar 2020 Erdgasinfrastruktur in Neubauten.[^s7] Als Infrastruktur galten Brenngasleitungen in einem Gebäude oder Bauwerk oder daran angeschlossen **oder innerhalb der Grundstücksgrenzen**, ab dem Zähler.[^s7] Ein fest angeschlossener Gas-Heizstrahler auf einer neuen Terrasse war damit erfasst, obwohl die Verordnung das Wort „Heizstrahler“ nie verwendete.
 
 Im Verfahren *California Restaurant Association v. City of Berkeley* entschied ein Senat des Ninth Circuit am 17. April 2023, dass der EPCA die Verordnung verdrängt; eine erneute Verhandlung im Plenum wurde am 2. Januar 2024 abgelehnt, mit geänderter Urteilsbegründung.[^s8] Berkeley stellte den Vollzug ein und hob Chapter 12.80 im Jahr 2024 auf.[^s9]
 
 Das Urteil hing davon ab, wie das Gesetz formuliert war, und ließ die größere Frage der Elektrifizierung offen. Der Second Circuit hat den EPCA für New York umgekehrt ausgelegt.[^s3] Städte im Bereich des Ninth Circuit (darunter Kalifornien, Washington und Oregon) sind seitdem auf Wege über das Energierecht ausgewichen, etwa Wärmepumpen als Bezugsgröße und strengere örtliche Energievorschriften („reach codes“), die dem EPCA weniger ausgesetzt sind und dennoch prägen, was gebaut wird.
 
-## Der kalifornische Title 24 von 2025 und Gas
+## Kalifornien, wo Wärmepumpen die Bezugsgröße setzen
 
-Der Energy Code 2025 verbietet Gas nicht. Er gilt für Bauanträge ab 1. Januar 2026 und setzt Wärmepumpen als **Bezugsgröße** für Raumheizung und Warmwasser, mit doppelter Bezugsgröße für neue Einfamilienhäuser.[^s5] Die vorschreibende Raumheizung per Wärmepumpe gilt jetzt in allen Klimazonen.[^s6] Gas bleibt über den leistungsbasierten Nachweis möglich, zu höheren Kosten für den Nachweis. In den geprüften Quellen regeln diese Bezugsgrößen die Beheizung konditionierter Räume; eine Bestimmung von Part 6 für Terrassenheizstrahler haben wir nicht gefunden. [[VERIFY: jede Bestimmung von Part 6 oder CALGreen 2025 zu Heizgeräten im Freien — Spezifikation und Compliance]] Örtliche reach codes in Kalifornien können strenger sein; klären Sie es deshalb auch mit der jeweiligen Stadt.
+Die Räume im Freien in Kalifornien können unter dem neuen Energy Code so warm bleiben wie immer. Der Energy Code 2025 verbietet Gas nicht. Er gilt für Bauanträge ab 1. Januar 2026 und setzt Wärmepumpen als **Bezugsgröße** für Raumheizung und Warmwasser, mit doppelter Bezugsgröße für neue Einfamilienhäuser.[^s5] Die vorschreibende Raumheizung per Wärmepumpe gilt jetzt in allen Klimazonen.[^s6] Gas bleibt über den leistungsbasierten Nachweis möglich, zu höheren Kosten für den Nachweis. In den geprüften Quellen regeln diese Bezugsgrößen die Beheizung konditionierter Räume; eine Bestimmung von Part 6 für Terrassenheizstrahler haben wir nicht gefunden. [[VERIFY: jede Bestimmung von Part 6 oder CALGreen 2025 zu Heizgeräten im Freien — Spezifikation und Compliance]] Örtliche reach codes in Kalifornien können strenger sein; klären Sie es deshalb auch mit der jeweiligen Stadt.
 
-## Die Energievorschriften, die Wärme im Freien schon regeln
+## Die Vorschriften, die Strahlungswärme schon bevorzugen
 
-Diese Bestimmung wird bei der Spezifikation am häufigsten übersehen. Der Energiecode für Gewerbebauten in Washington, der den IECC 2021 übernimmt, verlangt, dass jede Anlage zur Beheizung außerhalb eines Gebäudes **Strahlungswärme** erzeugt und über einen **Präsenzmelder oder eine Zeitschaltung** gesteuert wird, sodass sie abschaltet, wenn niemand da ist.[^s10] ASHRAE 90.1 verlangt ebenfalls Strahlungsheizung, wo nicht umschlossene Bereiche beheizt werden.[^s17] Dieselbe IECC-Bestimmung findet sich in anderen Bundesstaaten, die den Mustercode übernehmen; die Abschnittsnummern unterscheiden sich je nach Ausgabe und Änderungen des Bundesstaats. [[VERIFY: Abschnittsnummer im IECC 2021 und 2024 und in der Übernahme jedes Ziel-Bundesstaats — Spezifikation und Compliance]]
+Wärme, die auf die Gäste fällt und abschaltet, wenn die Terrasse sich leert, ist bereits das, was viele Vorschriften für Gewerbebauten verlangen. Der Energiecode für Gewerbebauten in Washington, der den IECC 2021 übernimmt, verlangt, dass jede Anlage zur Beheizung außerhalb eines Gebäudes **Strahlungswärme** erzeugt und über einen **Präsenzmelder oder eine Zeitschaltung** gesteuert wird, sodass sie abschaltet, wenn niemand da ist.[^s10] ASHRAE 90.1 verlangt ebenfalls Strahlungsheizung, wo nicht umschlossene Bereiche beheizt werden.[^s17] Dieselbe IECC-Bestimmung findet sich in anderen Bundesstaaten, die den Mustercode übernehmen; die Abschnittsnummern unterscheiden sich je nach Ausgabe und Änderungen des Bundesstaats. [[VERIFY: Abschnittsnummer im IECC 2021 und 2024 und in der Übernahme jedes Ziel-Bundesstaats — Spezifikation und Compliance]] Diese Bestimmung wird bei der Spezifikation am häufigsten übersehen.
+
+> Wärme, die man spürt, nicht sieht.
 
 Sie prägt die Planung auf zwei Arten.
 
 1. **Warmluft- oder Konvektionsheizgeräte für den Außenbereich fallen bei Gewerbeprojekten aus diesen Vorschriften heraus**, sodass Strahlungswärme die zulässige Wahl bleibt.
 2. **Die Steuerung wird Teil der Einhaltung der Vorschriften.** Affinity Smart-Heat Controls bieten Zeitpläne und Timer über die Bromic Smart-Heat App, mit Zonen und einem manuellen Wandschalter.[^s19] WLAN- und App-Funktionen setzen kompatible Affinity-Steuergeräte voraus, die separat erhältlich sind. [[VERIFY: ob Affinity-Zeitpläne die „timer switch“-Anforderung erfüllen und ob es eine zugelassene Schnittstelle für Präsenzmelder gibt — Produktteam]]
 
-## Washington, Denver, Colorado und Massachusetts
+## Vier weitere Orte, die die Terrasse prägen
+
+Von Seattle bis Boston ist die Richtung dieselbe, und elektrische Strahlungswärme passt gut dazu.
 
 **Bundesstaat Washington.** Der Code für Gewerbebauten verlangt Raumheizung per Wärmepumpe (C403.1.4); die aktuelle geänderte Fassung gilt seit 15. März 2024, und die Möglichkeiten für Zusatzheizungen wurden im Dezember 2024 erweitert.[^s11] Initiative 2066, 2024 von den Wählern angenommen, um diese Bestimmungen einzuschränken, wurde vom Washington Supreme Court im September 2026 insgesamt für verfassungswidrig erklärt.[^s12] Wärme im Freien fällt, gleich mit welchem Energieträger, unter die oben beschriebene Regel aus Strahlungswärme und Steuerung.[^s10]
 
@@ -239,48 +241,35 @@ Sie prägt die Planung auf zwei Arten.
 
 **Massachusetts.** Das Recht des Bundesstaats erlaubt bis zu zehn Gemeinden, nach 225 CMR 24.00 Neubau und umfassende Sanierung ohne fossile Brennstoffe vorzuschreiben. Teilnehmer sind Acton, Aquinnah, Arlington, Brookline, Cambridge, Concord, Lexington, Lincoln, Newton und Northampton.[^s16] Die Musterregel nimmt Forschungslabore und Gesundheitseinrichtungen aus; zu Geräten im Freien haben wir nichts gefunden.[^s16] Jede Gemeinde erlässt ihre eigene Satzung. [[VERIFY: Satzungstext jeder teilnehmenden Gemeinde zu Gasgeräten im Freien und zu Leitungen auf dem Grundstück — Spezifikation und Compliance]]
 
-## Einen Außenbereich elektrisch vorbereitet planen
+## Bereit für Wärme ab der ersten Zeichnung
 
 Wärme im Freien kostet am wenigsten und wirkt am schönsten, wenn sie kommt, bevor die Decke geschlossen und der Verteilerplan festgelegt ist. Die folgenden Hinweise gelten für Projekte in Deutschland mit 230 V; in den USA treten die dortigen Vorschriften an die Stelle von DIN VDE 0100.
 
 ![Überdachte Außenküche, gewärmt von bündig in die Decke eingebauten Heizstrahlern](img:l-010-067)
 
-| Planungspunkt | Was zu tun ist | Warum |
+| Schritt | Was zu planen ist | Warum es zählt |
 |---|---|---|
-| Leistung | Die Leistung der Heizstrahler in die Bemessung des Hausanschlusses aufnehmen: die Wattzahl jedes geplanten Heizstrahlers addieren | Vermeidet später eine Verstärkung des Anschlusses |
-| Stromkreise | Eigene Stromkreise; Leitungen und Schutzorgane legt der Elektrofachbetrieb nach DIN VDE 0100 aus (in den USA: Leitungen mit mindestens 125 % der Heizlast nach NEC 424[^s18]) | Heizstrahler sind Dauerlasten |
-| Spannung | Die Bemessungsspannung jedes Modells bestätigen; in Deutschland 230 V, 50 Hz (in den USA gab es Ausführungen für 208, 240 und 277 V[^s20]) | Die Spannung bestimmt Stromstärke und Anzahl der Stromkreise |
-| Platz im Verteiler | Plätze für Schutzorgane für jede Heizzone plus einen Reserveplatz vorsehen | Späte Ergänzungen sind der Punkt, an dem Projekte stocken |
-| Leerrohre | Leerrohre mit Zugdraht zu jeder künftigen Position von Heizstrahler und Steuergerät, dazu ein Reserverohr zum Verteiler | So lässt sich Wärme ergänzen, ohne fertige Oberflächen zu öffnen |
-| Einbauhohlräume | Hohlräume in der Untersicht auf die Maße des Einbausatzes ausbilden und hinterlegen | Eingebaute Heizstrahler brauchen Tiefe, die sich später schwer schaffen lässt [[VERIFY: Hohlraumtiefe je Modell — Produktteam]] |
-| Steuerung | Steuergeräte und Wandschalter verorten; WLAN-Abdeckung an den Standorten der Steuergeräte planen; eine Anbindung an Control4, Crestron oder Lutron abstimmen[^s19] | Die Steuerung ist Pflicht, und Energievorschriften können eine Abschaltung über Präsenz oder Zeit verlangen |
-| Zonen | Eine Zone je Bereich, der zu anderen Zeiten genutzt wird | So passen Zeitpläne zur Nutzung, was Energie spart |
-| Feuchte und nasse Bereiche | Dosen, Geräte und Heizstrahler mit einer für den Einsatzort geeigneten Schutzart | Außenbereiche sind feucht oder nass |
+| 1 | **Leistung.** Die Leistung der Heizstrahler in die Bemessung des Hausanschlusses aufnehmen: die Wattzahl jedes geplanten Heizstrahlers addieren | Vermeidet später eine Verstärkung des Anschlusses |
+| 2 | **Stromkreise.** Eigene Stromkreise; Leitungen und Schutzorgane legt der Elektrofachbetrieb nach DIN VDE 0100 aus (in den USA: Leitungen mit mindestens 125 % der Heizlast nach NEC 424[^s18]) | Heizstrahler sind Dauerlasten |
+| 3 | **Spannung.** Die Bemessungsspannung jedes Modells bestätigen; in Deutschland 230 V, 50 Hz (in den USA gab es Ausführungen für 208, 240 und 277 V[^s20]) | Die Spannung bestimmt Stromstärke und Anzahl der Stromkreise |
+| 4 | **Platz im Verteiler.** Plätze für Schutzorgane für jede Heizzone plus einen Reserveplatz vorsehen | Späte Ergänzungen sind der Punkt, an dem Projekte stocken |
+| 5 | **Leerrohre.** Leerrohre mit Zugdraht zu jeder künftigen Position von Heizstrahler und Steuergerät, dazu ein Reserverohr zum Verteiler | So lässt sich Wärme ergänzen, ohne fertige Oberflächen zu öffnen |
+| 6 | **Einbauhohlräume.** Hohlräume in der Untersicht auf die Maße des Einbausatzes ausbilden und hinterlegen | Eingebaute Heizstrahler brauchen Tiefe, die sich später schwer schaffen lässt [[VERIFY: Hohlraumtiefe je Modell — Produktteam]] |
+| 7 | **Steuerung.** Steuergeräte und Wandschalter verorten; WLAN-Abdeckung an den Standorten der Steuergeräte planen; eine Anbindung an Control4, Crestron oder Lutron abstimmen[^s19] | Die Steuerung ist Pflicht, und Energievorschriften können eine Abschaltung über Präsenz oder Zeit verlangen |
+| 8 | **Zonen.** Eine Zone je Bereich, der zu anderen Zeiten genutzt wird | So passen Zeitpläne zur Nutzung, was Energie spart |
+| 9 | **Feuchte und nasse Bereiche.** Dosen, Geräte und Heizstrahler mit einer für den Einsatzort geeigneten Schutzart | Außenbereiche sind feucht oder nass |
 
-### Wie viel Leistung ein Heizstrahler dazubringt
+**Wie viel Leistung ein Heizstrahler dazubringt.** Strom = Leistung ÷ Spannung. Zur Veranschaulichung an 230 V einphasig nimmt Platinum Smart-Heat Electric 10,0 A bei 2300 W, 14,8 A bei 3400 W und 19,6 A bei 4500 W auf. [[VERIFY: Bemessungsspannung und Stromaufnahme je Platinum-Modell — Produktteam]] Stromkreis und Schutzeinrichtung bemisst Ihr Elektrofachbetrieb nach DIN VDE 0100 und den Angaben auf dem Typenschild. [[VERIFY: aktuelle VDE-Regeln für Stromkreise von Heizstrahlern im Freien — Partner Deutschland]]
 
-Strom = Leistung ÷ Spannung. Die Tabelle dient nur zur Veranschaulichung, an 230 V einphasig.
+## Die Wahl, die zu jeder Regel passt
 
-| Platinum Smart-Heat Electric | Strom an 230 V |
-|---|---|
-| 2300 W | 10,0 A |
-| 3400 W | 14,8 A |
-| 4500 W | 19,6 A |
+Nebeneinander gestellt ist elektrische Strahlungswärme die Option, die am besten zu den Regeln in diesem Leitfaden passt.
 
-[[VERIFY: Bemessungsspannung und Stromaufnahme je Platinum-Modell — Produktteam]] Stromkreis und Schutzeinrichtung bemisst Ihr Elektrofachbetrieb nach DIN VDE 0100 und den Angaben auf dem Typenschild. [[VERIFY: aktuelle VDE-Regeln für Stromkreise von Heizstrahlern im Freien — Partner Deutschland]]
+**Elektrische Strahlungswärme (fest eingebaut).** Rein elektrische Neubauten (NYC LL154, Bundesstaat New York): vereinbar; Energievorschriften mit Wärmepumpe als Bezugsgröße (Kalifornien 2025): in den geprüften Quellen nicht betroffen; Regel für Wärme im Freien (IECC/WSEC C403.11.1): zulässig als Strahlungswärme mit Präsenz- oder Zeitsteuerung; Gasdefinitionen bis zur Grundstücksgrenze (Modell Berkeley): nicht betroffen; Denver 2025, „electric resistance space heat“: [[VERIFY: Auslegung]]; Genehmigungsweg in den USA: Elektrogenehmigung; zugelassener Elektriker; Steuerung und Zeitpläne: Affinity-Steuergeräte, Wandschalter, Zeitpläne und Zonen in der App[^s19]; Zukunftssicherheit: passt zu jeder Entwicklungsrichtung.
 
-## Elektrische Strahlungswärme, Erdgas und Flüssiggas im Vergleich
+**Erdgas über Leitung (fest eingebaut).** Rein elektrische Neubauten (NYC LL154, Bundesstaat New York): keine Gasversorgung in einem rein elektrischen Gebäude; Energievorschriften mit Wärmepumpe als Bezugsgröße (Kalifornien 2025): nicht verboten; die Bezugsgröße für die Innenheizung betrifft sie nicht; Regel für Wärme im Freien (IECC/WSEC C403.11.1): zulässig als Strahlungswärme mit Steuerung; Gasdefinitionen bis zur Grundstücksgrenze (Modell Berkeley): erfasst; Denver 2025, „electric resistance space heat“: Beschränkungen für fossile Brennstoffe können greifen; Genehmigungsweg in den USA: Genehmigung für Sanitär/Haustechnik; zugelassener Gasinstallateur; ANSI Z223.1/NFPA 54[^s20]; Steuerung und Zeitpläne: Gassteuerung je nach Modell; Zukunftssicherheit: neuen örtlichen Regeln ausgesetzt.
 
-| Faktor | Elektrische Strahlungswärme (fest eingebaut) | Erdgas über Leitung (fest eingebaut) | Flüssiggas (mobil) |
-|---|---|---|---|
-| Rein elektrische Neubauten (NYC LL154, Bundesstaat New York) | Vereinbar | Keine Gasversorgung in einem rein elektrischen Gebäude | Enge, unklare Ausnahme [[VERIFY]] |
-| Energievorschriften mit Wärmepumpe als Bezugsgröße (Kalifornien 2025) | In den geprüften Quellen nicht betroffen | Nicht verboten; die Bezugsgröße für die Innenheizung betrifft sie nicht | In den geprüften Quellen nicht betroffen |
-| Regel für Wärme im Freien (IECC/WSEC C403.11.1) | Zulässig als Strahlungswärme mit Präsenz- oder Zeitsteuerung | Zulässig als Strahlungswärme mit Steuerung | Zulässig als Strahlungswärme; automatische Abschaltung ist schwieriger |
-| Gasdefinitionen bis zur Grundstücksgrenze (Modell Berkeley) | Nicht betroffen | Erfasst | Nicht angeschlossen; hängt vom Wortlaut ab |
-| Denver 2025, „electric resistance space heat“ | [[VERIFY: Auslegung]] | Beschränkungen für fossile Brennstoffe können greifen | Hängt vom Geltungsbereich ab |
-| Genehmigungsweg in den USA | Elektrogenehmigung; zugelassener Elektriker | Genehmigung für Sanitär/Haustechnik; zugelassener Gasinstallateur; ANSI Z223.1/NFPA 54[^s20] | Regeln der Feuerwehr zu Lagerung und Betrieb |
-| Steuerung und Zeitpläne | Affinity-Steuergeräte, Wandschalter, Zeitpläne und Zonen in der App[^s19] | Gassteuerung je nach Modell | Manuell am Gerät |
-| Zukunftssicherheit | Passt zu jeder Entwicklungsrichtung | Neuen örtlichen Regeln ausgesetzt | Brandschutz- und örtlichen Regeln ausgesetzt |
+**Flüssiggas (mobil).** Rein elektrische Neubauten (NYC LL154, Bundesstaat New York): enge, unklare Ausnahme [[VERIFY]]; Energievorschriften mit Wärmepumpe als Bezugsgröße (Kalifornien 2025): in den geprüften Quellen nicht betroffen; Regel für Wärme im Freien (IECC/WSEC C403.11.1): zulässig als Strahlungswärme; automatische Abschaltung ist schwieriger; Gasdefinitionen bis zur Grundstücksgrenze (Modell Berkeley): nicht angeschlossen; hängt vom Wortlaut ab; Denver 2025, „electric resistance space heat“: hängt vom Geltungsbereich ab; Genehmigungsweg in den USA: Regeln der Feuerwehr zu Lagerung und Betrieb; Steuerung und Zeitpläne: manuell am Gerät; Zukunftssicherheit: Brandschutz- und örtlichen Regeln ausgesetzt.
 
 ## Ihre Checkliste für die Planung
 

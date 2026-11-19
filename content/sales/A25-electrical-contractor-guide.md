@@ -118,7 +118,7 @@ You design the electrical system that powers the space, install it safely and ke
 
 ## 1. Getting The Code Right From The Start
 
-Bromic electric heaters are installed to ANSI/NFPA 70, the National Electrical Code, as your state and city adopt it.[^s4][^s11] A job that misses it costs you twice, first in red tags, stop-work orders and repeat visits, and then in the referral that never comes.
+A job that passes inspection the first time is the job that earns the next referral. Bromic electric heaters are installed to ANSI/NFPA 70, the National Electrical Code, as your state and city adopt it.[^s4][^s11] A job that misses it costs you twice, first in red tags, stop-work orders and repeat visits, and then in the referral that never comes.
 
 **Getting It Right The First Time**
 
@@ -153,14 +153,12 @@ Tungsten Smart-Heat® Electric runs on 220–240 V and 208 V, and the 4000 W and
 
 Every Bromic heater is paired with Affinity Smart-Heat® Controls, so the warmth is always exactly where, and when, your client wants it. Every recommendation in this guide includes them.
 
-| Control | What it does | What to plan for |
-|---|---|---|
-| Affinity Smart-Heat On/Off controller | Switches heaters on and off by zone, by app or wall switch | 6 kW per channel at 208–277 V; IP54 enclosure[^s6] |
-| Affinity Smart-Heat Dimmer controller | Sets heat output by zone, so owners turn it down on mild nights | 6 kW per channel at 208–277 V[^s6] |
-| Affinity Eclipse controller | Runs Eclipse heat and rim lighting | One Eclipse heater per channel[^s6] |
-| Manual wall switch | Local on and off, single or dual | 20 A, 120–277 V; indoor or outdoor kit[^s6] |
-| Bromic Smart-Heat app | Zones, schedules and timers from a phone | Wi-Fi coverage at the controller[^s7] |
-| Affinity expansion board | Ethernet and 0–10 V for a building management or home automation system | Built into the 5-channel controller; BMS mode turns off the app[^s6] |
+- **Affinity Smart-Heat On/Off controller.** Switches heaters on and off by zone, by app or wall switch. Plan for 6 kW per channel at 208–277 V; IP54 enclosure.[^s6]
+- **Affinity Smart-Heat Dimmer controller.** Sets heat output by zone, so owners turn it down on mild nights. Plan for 6 kW per channel at 208–277 V.[^s6]
+- **Affinity Eclipse controller.** Runs Eclipse heat and rim lighting. Plan for one Eclipse heater per channel.[^s6]
+- **Manual wall switch.** Local on and off, single or dual. Plan for 20 A, 120–277 V; indoor or outdoor kit.[^s6]
+- **Bromic Smart-Heat app.** Zones, schedules and timers from a phone. Plan for Wi-Fi coverage at the controller.[^s7]
+- **Affinity expansion board.** Ethernet and 0–10 V for a building management or home automation system. Built into the 5-channel controller; BMS mode turns off the app.[^s6]
 
 Wi-Fi and app features need compatible Affinity Smart-Heat Controls, sold separately. The controls connect to Amazon Alexa and Google Assistant, and to Control4, Crestron and Lutron systems; compatibility varies by system and may need extra integration hardware or configuration.[^s7] The controllers are certified to UL 60730-1 and CAN/CSA E60730-1.[^s6]
 
@@ -194,13 +192,11 @@ Outdoor equipment lives with rain, salt air, wind and the long swing from summer
 
 Bromic publishes its warranty by product line.[^s9]
 
-| Product | Warranty |
-|---|---|
-| Platinum Smart-Heat Electric | 3 years |
-| Platinum Smart-Heat Electric Marine | 5 years land-based; 3 years on vessels |
-| Eclipse Smart-Heat Electric and Freestanding | 3 years |
-| Tungsten Smart-Heat Electric | 2 years heater; 7 years elements |
-| Affinity Smart-Heat controllers | 1 year |
+- Platinum Smart-Heat Electric: 3 years
+- Platinum Smart-Heat Electric Marine: 5 years land-based; 3 years on vessels
+- Eclipse Smart-Heat Electric and Freestanding: 3 years
+- Tungsten Smart-Heat Electric: 2 years heater; 7 years elements
+- Affinity Smart-Heat controllers: 1 year
 
 [[VERIFY: warranty periods, the Platinum Marine land and vessel terms, and which products qualify for the Partner Program's extra year — Product team]]
 
@@ -226,7 +222,9 @@ New homes, remodels, commercial fit-outs, smart-home installs and service work a
 
 ## The Bromic Partner Program
 
-You create beautiful spaces. We know how to heat them. Together, we help your clients enjoy them all season long.
+> You create beautiful spaces. We know how to heat them.
+
+Together, we help your clients enjoy them all season long.
 
 The Bromic Partner Program gives trade professionals who specify, design, build or install outdoor spaces exclusive benefits and dedicated support.[^s10]
 

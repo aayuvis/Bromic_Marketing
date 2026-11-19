@@ -199,6 +199,8 @@ In een Amerikaans onderzoek gaf slechts 23% van de huiseigenaren buitenverwarmin
 
 ## Negen stappen naar een warmere buitenkamer
 
+Negen eenvoudige beslissingen, in de juiste volgorde genomen, geven je een buitenkamer die in oktober net zo comfortabel voelt als in juli.
+
 | Stap | Beslissing | Wat je nodig hebt |
 |---|---|---|
 | 1 | Is het buiten? | Indeling van muren en dak |
@@ -213,9 +215,9 @@ In een Amerikaans onderzoek gaf slechts 23% van de huiseigenaren buitenverwarmin
 
 Elke stap sluit af met 'Jouw notities', een korte kaart om in te vullen, en samen vormen ze de briefing die je aan je ontwerper geeft.
 
-## Stap 1. Ga na of je ruimte als buitenruimte telt
+## Stap 1. Begin bij de plek waar je van houdt
 
-Een ruimte telt als buitenruimte wanneer ten minste 30% van de omtrek permanent open is[^s3], en de meeste terrassen, veranda's, pergola's, loggia's en overdekte terrassen voldoen daaraan. Denk je erover de ruimte verder af te sluiten met glas of schermen, overleg dan eerst met een ontwerper, want dat verandert het ontwerp.
+Terrassen, veranda's, pergola's, loggia's en overdekte terrassen zijn de plekken waar stralingswarmte het best tot haar recht komt, en de meeste ervan tellen als buitenruimte. Een ruimte telt als buitenruimte wanneer ten minste 30% van de omtrek permanent open is[^s3]. Denk je erover de ruimte verder af te sluiten met glas of schermen, overleg dan eerst met een ontwerper, want dat verandert het ontwerp.
 
 Een dak werkt in je voordeel. Warme lucht verzamelt zich onder een overkapping en vormt een "warmtewolk" die de stralingswarmte een zacht extra zetje geeft[^s3].
 
@@ -225,20 +227,24 @@ Een dak werkt in je voordeel. Warme lucht verzamelt zich onder een overkapping e
 - [ ] Open, deels overdekt of overdekt: ______
 - [ ] Plannen om glas, schermen of zonwering toe te voegen: ______
 
-## Stap 2. Meet de ruimte waarin je leeft
+## Stap 2. Meet waar de avond zich afspeelt
 
-Meet het deel waar jij en je gasten echt zitten, en noteer hoe en wanneer je de ruimte graag gebruikt.
+Denk na over waar iedereen echt samenkomt, aan de eettafel, op de bank of bij het vuur, en meet dat deel op, met een notitie over hoe en wanneer je het graag gebruikt.
 
 - [ ] Lengte × breedte van het deel dat warm moet worden = ______ m² (meet de zitplekken, niet het hele terras)
 - [ ] Hoogte van plafond of balk ______ m; plafondmateriaal ______
 - [ ] Windzijde ______; vlak bij water? J / N
 - [ ] Maanden en tijden van gebruik ______
 
-## Stap 3. Kies elektrisch of gas
+## Stap 3. Kies de warmte die bij je huis past
 
 ### Waarom stralingswarmte voelt als zonneschijn
 
-Buiten stijgt warme lucht op en drijft ze weg, dus heteluchtverwarming en thermostaten kunnen een open terras niet op een vaste temperatuur houden[^s3]. Stralingswarmte (infrarood) verwarmt mensen, meubels en vloeren direct, net als de zon op je huid, en houdt je ook bij een lichte bries comfortabel warm. Warmte die je voelt, niet ziet. De elektrische verwarmers van Bromic werken met middengolf, gekozen voor warmte die de verste stoel net zo goed bereikt als de dichtste en de temperatuur verder laat stijgen, met een zacht licht en zonder verblinding [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]].
+Stap op een winterdag in een plek zon en je hebt het meteen warm, ook al is de lucht koel. Stralingswarmte (infrarood) werkt net zo: ze verwarmt mensen, meubels en vloeren direct en houdt je ook bij een lichte bries comfortabel warm. Buiten stijgt warme lucht op en drijft ze weg, dus heteluchtverwarming en thermostaten kunnen een open terras niet op een vaste temperatuur houden[^s3].
+
+> Warmte die je voelt, niet ziet.
+
+De elektrische verwarmers van Bromic werken met middengolf, gekozen voor warmte die de verste stoel net zo goed bereikt als de dichtste en de temperatuur verder laat stijgen, met een zacht licht en zonder verblinding [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]].
 
 | | Verwarmd oppervlak | Temperatuurstijging | Reikwijdte van de warmte | Zichtbare gloed | Opwarmtijd |
 |---|---|---|---|---|---|
@@ -252,6 +258,8 @@ Een vuurkorf is een prachtige blikvanger, al houdt hij zelden in z'n eentje een 
 
 ### Elektrisch of gas voor je huis
 
+Elektrisch past bij de meeste overdekte terrassen en geeft je de fijnste bediening; gas past bij grotere, meer open ruimten.
+
 | | Elektrisch | Gas (aardgas of propaan) |
 |---|---|---|
 | Geschikt voor | Overdekte terrassen, pergola's, loggia's; plafonds, muren, palen | Grotere, meer open ruimten |
@@ -263,13 +271,7 @@ Een vuurkorf is een prachtige blikvanger, al houdt hij zelden in z'n eentje een 
 
 ### Wat een warme avond kost
 
-Reken de gebruikskosten uit met het vermogen van de verwarmer en je eigen energieprijs.
-
-- **Elektrisch:** kosten per uur = kW × je prijs per kWh
-- **Aardgas:** kosten per uur = vermogen in kW ÷ de energie-inhoud van een m³ gas (in kWh) × je prijs per m³
-- **Propaan:** kosten per uur = vermogen in kW ÷ ongeveer 7,1 kWh per liter[^s23] × je prijs per liter
-
-Wij rekenen hier niet met Nederlandse energieprijzen: vul de prijs van je eigen energierekening in. Ter vergelijking, de Amerikaanse gemiddelden die in de Engelse gids worden gebruikt: elektriciteit 18,3 dollarcent per kWh (EIA, particulier, juli 2026)[^s18]; aardgas $ 2,55 per therm (EIA, particulier, juli 2026)[^s19]; propaan $ 2,674 per gallon (EIA, particulier, week van 30 maart 2026)[^s20]. [[VERIFY: tarieven voor huishoudens 2026 — financiën]] [[VERIFY: energie-inhoud van aardgas per m³ voor Nederlandse rekeningen — Bromic Benelux distributor]]
+Een gezellige avond buiten kost minder dan veel mensen denken. Een Tungsten Electric van 4000 W verbruikt op vol vermogen 4 kWh per uur, keer je eigen prijs per kWh; in de VS kwam dat tegen het gemiddelde voor huishoudens van juli 2026 neer op ongeveer $ 0,73 per uur[^s18].
 
 | Verwarmer op vol vermogen | Energie per uur | Kosten per uur |
 |---|---|---|
@@ -282,12 +284,16 @@ Wij rekenen hier niet met Nederlandse energieprijzen: vul de prijs van je eigen 
 
 Dimmen, of een Eclipse laten draaien op 33% of 66%[^s7], verbruikt nog minder. Deze cijfers vervangen die uit de gids van 2021, die met prijzen van 2021 rekende.
 
+Zo reken je het uit met je eigen rekening: elektrisch, kW × je prijs per kWh; aardgas, vermogen in kW ÷ de energie-inhoud van een m³ gas (in kWh) × je prijs per m³; propaan, vermogen in kW ÷ ongeveer 7,1 kWh per liter[^s23] × je prijs per liter. Wij rekenen hier niet met Nederlandse energieprijzen: vul de prijs van je eigen energierekening in. Ter vergelijking, de Amerikaanse gemiddelden die in de Engelse gids worden gebruikt: elektriciteit 18,3 dollarcent per kWh (EIA, particulier, juli 2026)[^s18]; aardgas $ 2,55 per therm (EIA, particulier, juli 2026)[^s19]; propaan $ 2,674 per gallon (EIA, particulier, week van 30 maart 2026)[^s20]. [[VERIFY: tarieven voor huishoudens 2026 — financiën]] [[VERIFY: energie-inhoud van aardgas per m³ voor Nederlandse rekeningen — Bromic Benelux distributor]]
+
 - [ ] Elektrisch / aardgas / propaan: ______
 - [ ] Je tarief van je eigen rekening: ______ per kWh, m³ of liter
 
 ![Vrijstaande Tungsten-gasverwarmer op een stenen binnenplaats in de schemering](img:l-019-163)
 
-## Stap 4. Kies een uitstraling die bij je huis past
+## Stap 4. Vind de uitstraling die bij je huis hoort
+
+De juiste verwarmer ziet eruit alsof hij altijd al bij het huis hoorde, of hij nu vlak in het plafond zit of als hanger boven de tafel hangt.
 
 | Familie | Uitstraling | Montage | Afwerking |
 |---|---|---|---|
@@ -311,19 +317,9 @@ Houd je van de strakke, vlakke uitstraling van een ingebouwde verwarmer, beslis 
 
 ![Zwarte plafondverwarmer boven een lounge bij kaarslicht](img:l-007-035)
 
-## Stap 5. Stem de warmte af op je ruimte
+## Stap 5. Warmte voor elke stoel
 
-Benodigde verwarmers = oppervlak ÷ (verwarmd oppervlak per verwarmer × overkappingsfactor × klimaatfactor), naar boven afgerond. Een koudere of opener ruimte vraagt meer warmte voor hetzelfde oppervlak[^s3], en de twee factoren nemen dat mee in de som.
-
-| Overkapping | Factor | Klimaat (avonden dat je verwarmt) | Factor |
-|---|---|---|---|
-| Open (geen dak) | 0,85 | Mild (boven ongeveer 10 °C) | 1,0 |
-| Deels overdekt (pergola, parasol, gedeeltelijk dak) | 1,0 | Koel (ongeveer 4–10 °C) | 0,85 |
-| Overdekt (dicht dak) | 1,1 | Koud (vaak onder ongeveer 4 °C) | 0,7 |
-
-[[VERIFY: overkappings- en klimaatfactoren — productteam]] Twijfel je, reken dan met deels overdekt en koel, wat 1,0 × 0,85 = 0,85 geeft. Meet het deel waar mensen zitten, en weet je in plaats daarvan het aantal zitplaatsen, reken dan ongeveer 1,9 m² per zitplaats.
-
-**Vrijstaande verwarmers** (Tungsten Freestanding Gas, Eclipse Freestanding) bedienen elk niet meer dan vier zitplaatsen, omdat de gasten zelf een deel van de stralingswarmte tegenhouden. Reken het op twee manieren uit en neem de hoogste uitkomst van oppervlak ÷ (verwarmd oppervlak × factoren) en zitplaatsen ÷ 4.
+Elke gast hoort op elke stoel de hele avond comfortabel te zitten. De gratis [calculator Hoeveel verwarmers?](asset:A03) geeft je het aantal in een minuut, en het ontwerpteam van Bromic kan het bevestigen.
 
 | Verwarmer | Verwarmd oppervlak per verwarmer (ca.) |
 |---|---|
@@ -338,7 +334,7 @@ Benodigde verwarmers = oppervlak ÷ (verwarmd oppervlak per verwarmer × overkap
 
 Het verwarmde oppervlak is een benadering en hangt af van montagehoogte, wind en installatie[^s2]. Waarden van de Amerikaanse productpagina's, gelezen op 29 oktober 2026 en omgerekend naar m². [[VERIFY: verwarmd oppervlak en vermogen per model tegen de productbladen van 2026; Eclipse 2900 W (specificatietabel) tegenover 3000 W (FAQ); Tungsten Freestanding Gas 11,1 kW (Lookbook) tegenover 11,3 kW (website) — productteam]]
 
-De gratis [calculator Hoeveel verwarmers?](asset:A03) maakt de som voor je, met dezelfde overkappings- en klimaatfactoren.
+**Vrijstaande verwarmers** (Tungsten Freestanding Gas, Eclipse Freestanding) bedienen elk niet meer dan vier zitplaatsen, omdat de gasten zelf een deel van de stralingswarmte tegenhouden.
 
 ### Een rekenvoorbeeld: een overdekt terras van 6,1 × 3,7 m
 
@@ -351,47 +347,46 @@ De gratis [calculator Hoeveel verwarmers?](asset:A03) maakt de som voor je, met 
 
 [[DIAGRAM: Plattegrond van het terras van 6,1 × 3,7 m: twee ingebouwde Tungsten-verwarmers langs de lange as, of drie Eclipse-hangers boven de tafel, met warmtecirkels en de open zijden aangegeven.]]
 
+**De som erachter.** Benodigde verwarmers = oppervlak ÷ (verwarmd oppervlak per verwarmer × overkappingsfactor × klimaatfactor), naar boven afgerond. Een koudere of opener ruimte vraagt meer warmte voor hetzelfde oppervlak[^s3]. Overkappingsfactor: open (geen dak) 0,85, deels overdekt (pergola, parasol, gedeeltelijk dak) 1,0, overdekt (dicht dak) 1,1. Klimaatfactor, voor de avonden dat je verwarmt: mild (boven ongeveer 10 °C) 1,0, koel (ongeveer 4–10 °C) 0,85, koud (vaak onder ongeveer 4 °C) 0,7. [[VERIFY: overkappings- en klimaatfactoren — productteam]] Twijfel je, reken dan met deels overdekt en koel, wat 1,0 × 0,85 = 0,85 geeft. Weet je in plaats daarvan het aantal zitplaatsen, reken dan ongeveer 1,9 m² per zitplaats; neem bij vrijstaande verwarmers de hoogste uitkomst van oppervlak ÷ (verwarmd oppervlak × factoren) en zitplaatsen ÷ 4. De calculator gebruikt dezelfde factoren.
+
 - [ ] Oppervlak ÷ (verwarmd oppervlak × overkapping × klimaat) = ______, naar boven afgerond = ______ verwarmers (vrijstaand: minstens zitplaatsen ÷ 4)
 - [ ] Calculator gebruikt; uitkomst bewaard
 
-## Stap 6. Plan de stroom of het gas
+## Stap 6. Stroom op zijn plek voordat het plafond dichtgaat
 
-Elektrische verwarmers worden vast aangesloten, en je installateur bepaalt elke groep aan de hand van de stroom die de verwarmer trekt. Bij 230 V (A = W ÷ 230):
-
-| Verwarmer | Stroom bij 230 V |
-|---|---|
-| Platinum Electric 2300 / 3400 / 4500 W | 10,0 / 14,8 / 19,6 A[^s5] |
-| Eclipse Electric 2900 W | 12,6 A[^s7] |
-| Eclipse Freestanding 2900 W | 12,6 A[^s8] |
-| Cobalt Electric 4000 / 6000 W | 17,4 / 26,1 A[^s9] |
-| Tungsten Electric 2000 / 3000 / 4000 / 6000 W | 8,7 / 13,0 / 17,4 / 26,1 A |
-
-Deze stromen zijn berekend als watt ÷ 230 V; de Amerikaanse productpagina's geven ze bij 208 en 240 V. Groepen en beveiliging volgen NEN 1010 en worden bepaald door je installateur. [[VERIFY: stroom per model bij 230 V voor de Europese uitvoeringen — productteam]]
+Plan de stroom zolang het plafond open is, dan gaat de bekabeling er één keer in, onzichtbaar en precies waar de verwarmers komen te hangen. Elektrische verwarmers worden vast aangesloten, en je installateur bepaalt elke groep aan de hand van de stroom die de verwarmer trekt (A = W ÷ 230).
 
 Inbouwgasverwarmers hebben een gasleiding nodig, aangelegd door een erkend gasinstallateur, en een aparte elektrische voeding[^s10][^s11]. De Tungsten Freestanding Gas werkt op een propaanfles of met een aardgasslang van 3 m met snelkoppeling[^s12]. [[VERIFY: geschikte propaanfles in Nederland (10,5 of 11 kg) en aansluiting voor de Tungsten Freestanding Gas — Bromic Benelux distributor]]
+
+**Voor je installateur: stroom bij 230 V**
+- Platinum Electric 2300 / 3400 / 4500 W: 10,0 / 14,8 / 19,6 A[^s5]
+- Eclipse Electric 2900 W: 12,6 A[^s7]
+- Eclipse Freestanding 2900 W: 12,6 A[^s8]
+- Cobalt Electric 4000 / 6000 W: 17,4 / 26,1 A[^s9]
+- Tungsten Electric 2000 / 3000 / 4000 / 6000 W: 8,7 / 13,0 / 17,4 / 26,1 A
+
+Deze stromen zijn berekend als watt ÷ 230 V; de Amerikaanse productpagina's geven ze bij 208 en 240 V. Groepen en beveiliging volgen NEN 1010 en worden bepaald door je installateur. [[VERIFY: stroom per model bij 230 V voor de Europese uitvoeringen — productteam]]
 
 - [ ] Capaciteit van de meterkast gecontroleerd door een erkend installateur
 - [ ] Groep per verwarmer of per groep verwarmers; posities van aansluitdozen aangegeven
 - [ ] Gasleiding en afsluiter bepaald (gas)
 - [ ] Voorbekabeling aangelegd voordat het plafond dichtgaat
 
-## Stap 7. Bediening die alles moeiteloos maakt (verplicht)
+## Stap 7. Moeiteloze warmte met één tik (bediening verplicht)
 
-Elke Bromic-verwarmer hoort bij Affinity Smart-Heat® Controls, zodat de warmte altijd precies daar is, en precies dan, wanneer je haar wilt. Een compleet systeem brengt deze onderdelen samen.
+Elke Bromic-verwarmer hoort bij Affinity Smart-Heat® Controls, zodat de warmte altijd precies daar is, en precies dan, wanneer je haar wilt. Zet haar zachter op een milde avond, of laat haar al klaarstaan als je naar buiten stapt. Een compleet systeem brengt deze onderdelen samen.
 
-| Onderdeel | Wat het doet | Capaciteit |
-|---|---|---|
-| Affinity Smart-Heat On/Off-regelaar | Schakelt verwarmers; elektrisch of gas | 1, 2 of 5 kanalen; 6 kW per kanaal (Amerikaanse specificatie, 208–277 V); tot 10 gasverwarmers per kanaal[^s13] |
-| Affinity Smart-Heat Dimmer-regelaar | Stelt het warmteniveau in stappen van 1% in; Tungsten en Platinum Electric | 1, 2 of 5 kanalen; 6 kW per kanaal (Amerikaanse specificatie, 208–277 V)[^s14] |
-| Affinity Smart-Heat Eclipse-regelaar | Warmtestanden en dimmen van het randlicht voor Eclipse | 1 of 5 kanalen; één Eclipse per kanaal[^s15] |
-| Handmatige wandschakelaar | Aan/uit bij de deur | Amerikaanse uitvoering: 20 A, 120–277 V[^s16] |
-| Bromic Smart-Heat-app | Zones, schema's, timers | Werkt via een compatibele Affinity-regelaar |
+- **Affinity Smart-Heat On/Off-regelaar**: schakelt verwarmers; elektrisch of gas; 1, 2 of 5 kanalen; 6 kW per kanaal (Amerikaanse specificatie, 208–277 V); tot 10 gasverwarmers per kanaal.[^s13]
+- **Affinity Smart-Heat Dimmer-regelaar**: stelt het warmteniveau in stappen van 1% in, voor Tungsten en Platinum Electric; 1, 2 of 5 kanalen; 6 kW per kanaal (Amerikaanse specificatie, 208–277 V).[^s14]
+- **Affinity Smart-Heat Eclipse-regelaar**: warmtestanden en dimmen van het randlicht voor Eclipse; 1 of 5 kanalen; één Eclipse per kanaal.[^s15]
+- **Handmatige wandschakelaar**: aan/uit bij de deur; Amerikaanse uitvoering: 20 A, 120–277 V.[^s16]
+- **Bromic Smart-Heat-app**: zones, schema's, timers; werkt via een compatibele Affinity-regelaar.
 
-**Verwarmers per kanaal van 6 kW:** Tungsten 2000 W: 3 · 3000 W: 2 · 4000 of 6000 W: 1 · Platinum 2300 W: 2 · 3400 of 4500 W: 1 · Cobalt: 1 · Eclipse: 1 (op een Eclipse-regelaar). Gerekend op de nominale 6 kW; de groep kan een lagere grens opleggen. [[VERIFY: capaciteit en compatibiliteit van de regelaars, ook bij 230 V — productteam]]
+Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht. De app werkt ook met Amazon Alexa, Google Assistant, Control4, Crestron en Lutron; de compatibiliteit verschilt en kan extra hardware of instellingen vragen[^s2].
 
 De Eclipse Freestanding wordt geleverd met een Eclipse Dimmer Controller en afstandsbediening[^s8]. Inbouwgas schakelt alleen aan en uit en dimt niet[^s10]. [[VERIFY: welke bediening de Tungsten Freestanding Gas gebruikt — productteam]]
 
-Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht. De app werkt ook met Amazon Alexa, Google Assistant, Control4, Crestron en Lutron; de compatibiliteit verschilt en kan extra hardware of instellingen vragen[^s2].
+**Verwarmers per kanaal van 6 kW:** Tungsten 2000 W: 3 · 3000 W: 2 · 4000 of 6000 W: 1 · Platinum 2300 W: 2 · 3400 of 4500 W: 1 · Cobalt: 1 · Eclipse: 1 (op een Eclipse-regelaar). Gerekend op de nominale 6 kW; de groep kan een lagere grens opleggen. [[VERIFY: capaciteit en compatibiliteit van de regelaars, ook bij 230 V — productteam]]
 
 - [ ] Type regelaar en aantal kanalen: ______
 - [ ] Plek van de wandschakelaar: ______
@@ -400,32 +395,33 @@ Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die ap
 
 ![Hand met een tablet die de warmte aan een buitentafel regelt](img:t-009-025)
 
-## Stap 8. Afstanden en regels
+## Stap 8. Veilig volgens de regels
 
-| Verwarmer | Minimale montagehoogte |
-|---|---|
-| Tungsten, Platinum en Platinum Marine Electric | Muur 1,83 m; plafond 2,44 m[^s4][^s5][^s6] |
-| Cobalt Electric | Muur 1,83 m; plafond 2,44 m[^s9] |
-| Eclipse Electric | 2,44 m[^s7] |
-| Eclipse Freestanding | 2,01 m vrije hoogte[^s8] |
-| Platinum Gas en Tungsten Gas inbouw | 2,44 m[^s10][^s11] |
+Warmte die op de juiste hoogte hangt en volgens de regels is geïnstalleerd, laat iedereen ontspannen zitten, en er staat een garantie achter.
 
 De installatiehandleiding van elk model legt de afstanden tot het plafond en tot alles wat brandbaar is vast. Een warmtedeflector verkleint de ruimte die een gasverwarmer boven zich nodig heeft[^s3]. In de VS worden elektrische verwarmers geïnstalleerd volgens ANSI/NFPA 70[^s21] en gasverwarmers volgens ANSI Z223.1/NFPA 54[^s22]. In Nederland werkt je installateur volgens NEN 1010 (elektrische installaties) en NEN 1078 (gasinstallaties). [[VERIFY: actuele Nederlandse normen en edities — Bromic Benelux distributor]]
+
+**Minimale montagehoogtes**
+- Tungsten, Platinum en Platinum Marine Electric: muur 1,83 m; plafond 2,44 m[^s4][^s5][^s6]
+- Cobalt Electric: muur 1,83 m; plafond 2,44 m[^s9]
+- Eclipse Electric: 2,44 m[^s7]
+- Eclipse Freestanding: 2,01 m vrije hoogte[^s8]
+- Platinum Gas en Tungsten Gas inbouw: 2,44 m[^s10][^s11]
 
 *Dit is algemene informatie, geen uitspraak over wat de regels in jouw situatie eisen. Controleer de eisen bij je gemeente en laat verwarmers installeren door een erkend elektrotechnisch installateur of gasinstallateur, volgens de instructies van de fabrikant.*
 
 ### Een garantie waarop je kunt rekenen
 
-| Product | Garantie (Amerikaanse productpagina's) |
-|---|---|
-| Tungsten Electric | 2 jaar op de verwarmer; 7 jaar op de elementen[^s4] |
-| Platinum Electric | 3 jaar[^s5] |
-| Platinum Electric Marine | 5 jaar op het land; 3 jaar op schepen[^s6] |
-| Eclipse Electric en Eclipse Freestanding | 3 jaar[^s7][^s8] |
-| Cobalt Electric | 1 jaar op onderdelen; 7 jaar op de elementen[^s9] |
-| Platinum Gas en Tungsten Gas inbouw | 2 jaar, exclusief slangen en ontstekers[^s10][^s11] |
-| Tungsten Freestanding Gas | 1 jaar (propaanmodel)[^s12] |
-| Affinity Smart-Heat-bediening | 1 jaar[^s13] |
+Garantie volgens de Amerikaanse productpagina's:
+
+- Tungsten Electric: 2 jaar op de verwarmer; 7 jaar op de elementen[^s4]
+- Platinum Electric: 3 jaar[^s5]
+- Platinum Electric Marine: 5 jaar op het land; 3 jaar op schepen[^s6]
+- Eclipse Electric en Eclipse Freestanding: 3 jaar[^s7][^s8]
+- Cobalt Electric: 1 jaar op onderdelen; 7 jaar op de elementen[^s9]
+- Platinum Gas en Tungsten Gas inbouw: 2 jaar, exclusief slangen en ontstekers[^s10][^s11]
+- Tungsten Freestanding Gas: 1 jaar (propaanmodel)[^s12]
+- Affinity Smart-Heat-bediening: 1 jaar[^s13]
 
 [[VERIFY: garantievoorwaarden per model, ook het aardgasmodel van de Tungsten Freestanding Gas en de voorwaarden in Nederland — productteam]]
 
@@ -437,7 +433,7 @@ De installatiehandleiding van elk model legt de afstanden tot het plafond en tot
 
 ## Stap 9. Laat ons met je meeontwerpen
 
-Deel je foto's, plannen of tekeningen, en de ontwerpspecialisten van Bromic adviseren kosteloos over de verwarmers, plaatsing en bediening voor jouw ruimte, met tekeningen van het verwarmde oppervlak[^s2].
+Jij weet hoe je graag buiten leeft; wij weten hoe je het verwarmt. Deel je foto's, plannen of tekeningen, en de ontwerpspecialisten van Bromic adviseren kosteloos over de verwarmers, plaatsing en bediening voor jouw ruimte, met tekeningen van het verwarmde oppervlak[^s2].
 
 Een volledige offerte omvat verwarmers en montagesets, bediening, installatie, vergunningen en gebruikskosten. De Amerikaanse catalogusprijzen op bromic.com (29 oktober 2026) beginnen bij $ 798 voor een Tungsten Electric-verwarmer en $ 370 voor een Affinity On/Off-regelaar[^s4][^s13]; dat zijn Amerikaanse prijzen, geen Nederlandse. [[VERIFY: te publiceren prijzen, ook voor Nederland — productteam]]
 

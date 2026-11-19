@@ -98,18 +98,18 @@ Inside is a CSI three-part guide specification for Bromic Smart-Heat electric ra
 
 ## Inside This Kit
 
-| Part | What it is | Format | Status |
-|---|---|---|---|
-| 1 | This index and how to use it | Markdown → PDF | Draft |
-| 2 | Guide specification, Section 23 83 33 (three-part CSI format) | Editable .docx from this text | Draft |
-| 3 | Coverage and selection table | Table below; .xlsx on request | Draft |
-| 4 | Detail drawing list (four standard details) | DWG / PDF | [[VERIFY: which details exist today — Product team]] |
-| 5 | CAD and BIM file index | DWG, RVT, PDF | [[VERIFY: which files exist — Product team]] |
-| 6 | Design consult request (coverage drawings) | Service, [asset:A07](asset:A07) | Live |
+Six parts take you from the first idea to a coverage drawing.
 
-## Where Outdoor Infrared Heaters Belong In MasterFormat
+- **1. This index and how to use it** (Markdown → PDF). Draft.
+- **2. Guide specification, Section 23 83 33 (three-part CSI format)** (Editable .docx from this text). Draft.
+- **3. Coverage and selection table** (Table below; .xlsx on request). Draft.
+- **4. Detail drawing list (four standard details)** (DWG / PDF). [[VERIFY: which details exist today — Product team]]
+- **5. CAD and BIM file index** (DWG, RVT, PDF). [[VERIFY: which files exist — Product team]]
+- **6. Design consult request (coverage drawings)** (Service, [asset:A07](asset:A07)). Live.
 
-We recommend **23 83 33 Electric Radiant Heaters**, and the reasoning below supports that choice in a spec review.
+## The Right Home In MasterFormat
+
+Written in the right section, the heater you chose is the heater that is built, through value engineering and bid. We recommend **23 83 33 Electric Radiant Heaters**, and the reasoning below supports that choice in a spec review.
 
 - **Division 23 (HVAC), 23 83 00 Radiant Heating Units** is MasterFormat's home for equipment that heats by radiation.[^s3] Its level-3 children are 23 83 13 (radiant heating electric cables and mats), 23 83 23 (radiant heating electric panels) and **23 83 33 (electric radiant heaters)**.[^s4] A Bromic heater is a self-contained electric infrared emitter, which places it most naturally in 23 83 33.
 - **23 82 39 Unit Heaters** covers convection units (cabinet, propeller, wall and ceiling unit heaters) that move warm air.[^s7] Outdoors, warm air rises and drifts away on the breeze, and radiant heat warms people and surfaces directly,[^s2] so this section is a poor match.
@@ -122,6 +122,8 @@ We recommend **23 83 33 Electric Radiant Heaters**, and the reasoning below supp
 ## Choosing The Right Heater For Each Space
 
 Begin with the people who will use the space. A dining table calls for even warmth at seated head height, a bar rail for heat where guests stand, and a lounge for gentle warmth without glare. The numbers follow from there. Coverage is approximate and varies with model, mounting height, environment and installation.[^s1]
+
+> Heat You Can Feel, Not See.
 
 | Series | Status | Output | Finishes | Approx. coverage per heater | Mounting | Best for | Controls (required) |
 |---|---|---|---|---|---|---|---|
@@ -138,6 +140,8 @@ A space counts as outdoor when at least 30% of its perimeter is permanently open
 ![A heater recessed into a timber soffit on a city roof terrace](img:t-006-016)
 
 ## Guide Specification: Section 23 83 33 Electric Radiant Heaters
+
+Edit it once, and the warmth you designed arrives on site exactly as drawn, with its controls, listing and details in place.
 
 > **Notes to specifier** are in italics in square brackets. Delete them before issue. Bracketed options [ ] are choices.
 
@@ -305,37 +309,48 @@ B. Hand over O&M manuals, warranty documents and the commissioning report.
 
 **END OF SECTION 23 83 33**
 
-## Proprietary Or "Or Approved Equal"
+## Protecting Your Design Intent Through Bid
+
+Whether the specification is proprietary or "or approved equal", the aim is the same: the outdoor room your client approved is the one that opens.
 
 *Note for review (Specification and compliance):* this kit is written to protect the design intent through bid by limiting substitution. A proprietary specification (Option A) achieves that, and it is common on private residential and hospitality work. Many public owners, and some private ones, require competition, so an architect may need to allow substitutions. Option B keeps Bromic as basis of design, sets performance criteria and asks for a coverage drawing for any substitute, so alternatives are allowed at a higher standard. Both options are drafted above. [[VERIFY: Bromic's preferred default (A or B) and the performance criteria for Option B — Specification and compliance + Product team]]
 
 ## The Details Your Drawings Should Carry
 
-Four standard details cover most projects. Each is drawn as a section or plan, with dimensions left as tags for the model you choose.
+A few clear details on the drawings are what let a recessed heater sit perfectly flush on site. Four standard details cover most projects. Each is drawn as a section or plan, with dimensions left as tags for the model you choose.
 
-| No. | Detail | Shows | Diagram |
-|---|---|---|---|
-| D1 | Recessed soffit section | Heater in recess kit, cavity depth, blocking, ceiling finish, clearance to structure and combustibles, junction box location | [[DIAGRAM: section through a timber or plaster soffit showing a recessed Platinum heater in its recess kit, blocking, cavity depth tag, ceiling finish line, junction box, clearance dimensions as tags]] |
-| D2 | Wall-mount elevation | Bracket, mounting height above finished floor, tilt, clearance to ceiling and openings, conduit entry, wall switch location | [[DIAGRAM: elevation of a wall-mounted heater with mounting height tag (min. per manual), tilt angle, ceiling clearance tag, conduit entry, wall switch and controller location]] |
-| D3 | Pole suspension | Suspension pole or Eclipse single/double/curved pole, effective heater height, structural fixing | [[DIAGRAM: section under a high or pitched ceiling showing a suspension pole bringing a heater to effective height; second view of an Eclipse pendant on single and double poles]] |
-| D4 | Coverage plan | Heater positions with approximate coverage footprints over the furniture plan, zones, circuits, controller and switch locations | [[DIAGRAM: plan of a dining terrace with furniture, heater symbols, approximate coverage footprints, zone boundaries, circuit tags and Affinity controller / wall switch locations]] |
+**D1 Recessed soffit section.** Heater in recess kit, cavity depth, blocking, ceiling finish, clearance to structure and combustibles, junction box location.
+
+[[DIAGRAM: section through a timber or plaster soffit showing a recessed Platinum heater in its recess kit, blocking, cavity depth tag, ceiling finish line, junction box, clearance dimensions as tags]]
+
+**D2 Wall-mount elevation.** Bracket, mounting height above finished floor, tilt, clearance to ceiling and openings, conduit entry, wall switch location.
+
+[[DIAGRAM: elevation of a wall-mounted heater with mounting height tag (min. per manual), tilt angle, ceiling clearance tag, conduit entry, wall switch and controller location]]
+
+**D3 Pole suspension.** Suspension pole or Eclipse single/double/curved pole, effective heater height, structural fixing.
+
+[[DIAGRAM: section under a high or pitched ceiling showing a suspension pole bringing a heater to effective height; second view of an Eclipse pendant on single and double poles]]
+
+**D4 Coverage plan.** Heater positions with approximate coverage footprints over the furniture plan, zones, circuits, controller and switch locations.
+
+[[DIAGRAM: plan of a dining terrace with furniture, heater symbols, approximate coverage footprints, zone boundaries, circuit tags and Affinity controller / wall switch locations]]
 
 ![A heater recessed into a white coastal ceiling](img:l-005-022)
 
 ## CAD And BIM Files For Your Model
 
+With the heater in your model, every view, from the reflected ceiling plan to the section, shows it as it will be built.
+
 [[VERIFY: which files exist, their formats, LOD and where they are hosted (bromic.com, BIMobject, ARCAT, other) — Product team]]
 
-| File | Format | Covers | Status |
-|---|---|---|---|
-| Revit families, electric heaters | .rfa | Platinum (2300/3400/4500 W), Eclipse, Tungsten Coastal and Select (when launched) | [[VERIFY — Product team]] |
-| Revit families, controllers | .rfa | Affinity On/Off, Dimmer, Eclipse controllers | [[VERIFY — Product team]] |
-| 2D CAD blocks | .dwg | Plan and elevation blocks per heater | [[VERIFY — Product team]] |
-| Standard details D1–D4 | .dwg / .pdf | As listed above | [[VERIFY — Product team]] |
-| Specification sheets | .pdf | Per model: dimensions, weight, wattage, voltage, clearances | [[VERIFY — Product team]] |
-| Installation manuals | .pdf | Per model, current edition | [[VERIFY — Product team]] |
-| Listing certificates | .pdf | NRTL listing per model | [[VERIFY — Product team]] |
-| This guide specification | .docx | Section 23 83 33 | Draft (this document) |
+- **Revit families, electric heaters** (.rfa): Platinum (2300/3400/4500 W), Eclipse, Tungsten Coastal and Select (when launched). [[VERIFY — Product team]]
+- **Revit families, controllers** (.rfa): Affinity On/Off, Dimmer, Eclipse controllers. [[VERIFY — Product team]]
+- **2D CAD blocks** (.dwg): Plan and elevation blocks per heater. [[VERIFY — Product team]]
+- **Standard details D1–D4** (.dwg / .pdf): As listed above. [[VERIFY — Product team]]
+- **Specification sheets** (.pdf): Per model: dimensions, weight, wattage, voltage, clearances. [[VERIFY — Product team]]
+- **Installation manuals** (.pdf): Per model, current edition. [[VERIFY — Product team]]
+- **Listing certificates** (.pdf): NRTL listing per model. [[VERIFY — Product team]]
+- **This guide specification** (.docx): Section 23 83 33. Draft (this document).
 
 ## Your Planning Checklist
 

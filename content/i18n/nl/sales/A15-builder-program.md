@@ -76,6 +76,8 @@ Uw kopers staan al op het terras en zien de avonden voor zich die ze daar zullen
 
 ## Deel 1: de one-pager
 
+Alles wat uw verkoopteam nodig heeft om warmte op de meerwerklijst te zetten, op één pagina.
+
 ### Kop
 
 **Verkoop de avond samen met het terras.**
@@ -89,30 +91,32 @@ Voorbekabelde stralingswarmte van Bromic in drie kant-en-klare pakketten, meegen
 
 **3. Weinig woningen krijgen de warmte om ervan te genieten.** Slechts 23% van de Amerikaanse huiseigenaren geeft buitenverwarming prioriteit in de planningsfase, terwijl 67% zegt dat verwarming het gebruik van hun buitenruimte verlengt.[^s4] [[VERIFY: onderzoeksbasis, steekproefgrootte en veldwerkdatum van de cijfers van Atomik Research — marketing]] In de afstand tussen die twee getallen zit uw meerwerk. [[VERIFY: vergelijkbare Nederlandse cijfers over terrassen in de nieuwbouw, of de Amerikaanse cijfers zo laten — Bromic Benelux distributor]]
 
+> U creëert prachtige ruimtes. Wij weten hoe je ze verwarmt.
+
 ### Wat het programma uw team biedt
 
 Alles hieronder is een voorstel tot het is bevestigd, en niets ervan is al een toezegging over prijs, marge of levertijd.
 
-| Voordeel | Wat het betekent voor uw team | Status |
-|---|---|---|
-| Drie kant-en-klare pakketten | Good, Better, Best, elk een compleet systeem met verwarmers, bediening en omvang van de voorbekabeling | Concept (deel 2) |
-| Kosteloze ontwerpservice | Keuze van verwarmers, plaatsing en tekeningen van het verwarmde oppervlak op basis van uw plannen of foto's[^s5] | Beschikbaar |
-| Gids voor voorbekabeling | Eén pagina waarop uw installateur een prijs kan maken ([asset:A16](asset:A16)) | In ontwikkeling |
-| Prijzen voor aannemers | Gestaffelde handelsprijzen op volume | [[VERIFY: prijsstaffels en volumes — verkoop vakhandel / verkoopoperaties]] |
-| Margestructuur | Adviesprijzen voor uw meerwerklijst | [[VERIFY: margeadvies, indien van toepassing — verkoop vakhandel / verkoopoperaties]] |
-| Levering en levertijden | Voorraad- en leveringsafspraken | [[VERIFY: levertijden per serie en regio — verkoop vakhandel / verkoopoperaties]] |
-| Ondersteuning modelwoning | Showmodellen of demoprogramma | [[VERIFY: of dit wordt aangeboden en onder welke voorwaarden — verkoop vakhandel]] |
-| Verkooptraining | Korte sessie voor showroommedewerkers | [[VERIFY: vorm en beschikbaarheid — verkoop vakhandel]] |
-| Ondersteuning installateurs | Technische lijn in de VS: 1-800-301-1293, ma–vr 9–16 uur Pacific Time[^s5] | Beschikbaar in de VS [[VERIFY: technische ondersteuning voor Nederland — Bromic Benelux distributor]] |
-| Garantie | Fabrieksgarantie per serie | [[VERIFY: voorwaarden — productteam]] |
-| Co-marketing | Inlegvellen voor brochures, beeld voor uw verkoopmateriaal | [[VERIFY: welke middelen en gebruiksrechten — marketing]] |
-| Contactpersoon | Vaste regionale contactpersoon | [[VERIFY: contactpersoon per regio — verkoop vakhandel]] |
+- **Drie kant-en-klare pakketten.** Good, Better, Best, elk een compleet systeem met verwarmers, bediening en omvang van de voorbekabeling. Concept (deel 2).
+- **Kosteloze ontwerpservice.** Keuze van verwarmers, plaatsing en tekeningen van het verwarmde oppervlak op basis van uw plannen of foto's.[^s5] Beschikbaar.
+- **Gids voor voorbekabeling.** Eén pagina waarop uw installateur een prijs kan maken ([asset:A16](asset:A16)). In ontwikkeling.
+- **Prijzen voor aannemers.** Gestaffelde handelsprijzen op volume. [[VERIFY: prijsstaffels en volumes — verkoop vakhandel / verkoopoperaties]]
+- **Margestructuur.** Adviesprijzen voor uw meerwerklijst. [[VERIFY: margeadvies, indien van toepassing — verkoop vakhandel / verkoopoperaties]]
+- **Levering en levertijden.** Voorraad- en leveringsafspraken. [[VERIFY: levertijden per serie en regio — verkoop vakhandel / verkoopoperaties]]
+- **Ondersteuning modelwoning.** Showmodellen of demoprogramma. [[VERIFY: of dit wordt aangeboden en onder welke voorwaarden — verkoop vakhandel]]
+- **Verkooptraining.** Korte sessie voor showroommedewerkers. [[VERIFY: vorm en beschikbaarheid — verkoop vakhandel]]
+- **Ondersteuning installateurs.** Technische lijn in de VS: 1-800-301-1293, ma–vr 9–16 uur Pacific Time.[^s5] Beschikbaar in de VS [[VERIFY: technische ondersteuning voor Nederland — Bromic Benelux distributor]].
+- **Garantie.** Fabrieksgarantie per serie. [[VERIFY: voorwaarden — productteam]]
+- **Co-marketing.** Inlegvellen voor brochures, beeld voor uw verkoopmateriaal. [[VERIFY: welke middelen en gebruiksrechten — marketing]]
+- **Contactpersoon.** Vaste regionale contactpersoon. [[VERIFY: contactpersoon per regio — verkoop vakhandel]]
 
 ### Voor wie het is
 
 Projectontwikkelaars en aannemers met een pakket voor buitenleven, bouwers van vrijstaande woningen die een standaarddetail voor verwarming willen, en renovatiebedrijven die overdekte terrassen toevoegen. [[VERIFY: voorwaarden voor deelname — verkoop vakhandel]]
 
 ## Deel 2: de Good–Better–Best-gids
+
+Drie manieren om de avond te verkopen, van buiten eten op een koele avond tot een buitenkamer die net zo af is als binnen.
 
 Elk niveau is een complete, werkende oplossing die de verwarmers samenbrengt met de bediening die ze aanstuurt, de montage en de voorbekabeling die uw installateur tijdens het timmerwerk aanlegt. Bediening hoort bij elk niveau als onderdeel van het systeem. Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht; ze is in het niveau inbegrepen waar dat staat vermeld.[^s5]
 
@@ -153,6 +157,8 @@ Ingebouwde Platinum-verwarmers verwarmen de lounge, terwijl Eclipse-hangers bove
 ![Eclipse-hangers boven een lange eettafel bij kaarslicht](img:l-013-100)
 
 ## Zo bereikt het uw kopers
+
+Warmte verkoopt het best als kopers haar kunnen voelen.
 
 - **Laat het branden.** Een verwarmd terras bij de modelwoning in de schemering vertelt het verhaal beter dan welke brochure ook.
 - **Prijs de voorbekabeling, ook als kopers ervan afzien.** Voorbekabeling tijdens het timmerwerk kost veel minder dan later een afgewerkt overstek openmaken, en kopers kunnen na de oplevering alsnog warmte toevoegen. [[VERIFY: gangbare kosten voor voorbekabeling bij partnerinstallateurs — verkoop vakhandel]]

@@ -172,59 +172,61 @@ sources:
 
 # Outdoor Heat In An All-Electric Future
 
-For the most part, the electrification laws in force today do not name patio heaters. They stop gas from being piped into **new buildings**, or make heat pumps the default for **indoor** space and water heating, and their reach still extends to the terrace. A new all-electric building has no gas line for a built-in heater, Berkeley-style definitions carried the restriction to the property line, and commercial energy codes already require outdoor heat to be radiant and to switch off when no one is there. Plan the outdoor space around electric radiant heat from the first drawing, and those evenings outside stay secure whichever way the rules move.
+The terrace of an all-electric building can be every bit as warm and inviting as any other, and planned well it stays that way whichever direction the rules move. For the most part, the electrification laws in force today do not name patio heaters. They stop gas from being piped into **new buildings**, or make heat pumps the default for **indoor** space and water heating, and their reach still extends to the terrace. A new all-electric building has no gas line for a built-in heater, Berkeley-style definitions carried the restriction to the property line, and commercial energy codes already require outdoor heat to be radiant and to switch off when no one is there. Plan the outdoor space around electric radiant heat from the first drawing, and those evenings outside stay secure.
 
 *Facts in this guide are stated as of 29 October 2026. Laws, rulings and code adoptions change; confirm each one with the authority having jurisdiction before you rely on it.*
 
 ![Eclipse heaters glowing over a restaurant terrace beneath an awning](img:l-013-111)
 
-## Do All-Electric Codes Ban Gas Patio Heaters?
+## A Warm Terrace Under Every New Rule
 
-Each instrument is best read for **what it regulates** (gas piping, combustion, or heating equipment), **where it applies** (inside the building, the premises, or any equipment) and **when it applies** (new construction, major renovation, or replacement).
+Do all-electric codes ban gas patio heaters? Rarely by name, and electric radiant heat is the option they leave most open. Each instrument is best read for **what it regulates** (gas piping, combustion, or heating equipment), **where it applies** (inside the building, the premises, or any equipment) and **when it applies** (new construction, major renovation, or replacement). As of 29 October 2026, each stands as follows, with whether it reaches outdoor heaters.
 
-| Jurisdiction | Instrument | Status as of 29 Oct 2026 | What it regulates | Does it reach outdoor heaters? |
-|---|---|---|---|---|
-| New York City | Local Law 154 of 2021 (Admin. Code §24-177.1, §28-506.1) | In force; under 7 stories since 1 Jan 2024, all occupancies from 2 Jul 2027 (by construction-document filing date)[^s1] | Combustion of fuels at or above 25 kg CO2/MMBtu in new buildings[^s2] | Not by name. A piped gas heater in a new building has no permitted gas supply. Unpiped, intermittent devices are excepted, but only if they do not supply heat.[^s2] [[VERIFY]] |
-| New York State | All-Electric Buildings Act (2023) | Upheld by the Second Circuit on 30 Jun 2026; state enforcement had been paused pending appeal[^s3][^s4] | Fossil-fuel equipment and building systems in new buildings; 7 stories or less first, others by 1 Jan 2029[^s4] | Not established. [[VERIFY: implementation date and treatment of outdoor appliances — Specification and compliance / counsel]] |
-| California (statewide) | 2025 Building Energy Efficiency Standards (Title 24, Part 6) | Applies to permit applications from 1 Jan 2026[^s5] | Heat-pump baselines for indoor space and water heating (prescriptive; not a gas ban)[^s5][^s6] | Not found in the sources reviewed. [[VERIFY]] |
-| Berkeley, CA | BMC Chapter 12.80 (2019) | Preempted (9th Cir. 2023); repealed 2024[^s8][^s9] | Natural gas piping in new buildings, defined to the property line[^s7] | Did reach piped outdoor appliances on new premises by definition; no longer in force |
-| Washington State | WSEC-Commercial C403.1.4 (heat-pump space heating); C403.11.1 (heating outside a building) | In force; Initiative 2066 struck down Sep 2026[^s11][^s12] | Indoor space heating by heat pump; outdoor heat must be radiant with occupancy or timer control[^s10] | Yes, C403.11.1 directly: radiant only, and automatic off when unoccupied. Fuel not restricted. |
-| Denver, CO | 2025 Denver Energy Code | Effective 31 Dec 2025 / 1 Jan 2026 (city pages differ)[^s13] | New buildings: no fossil furnaces, no electric resistance space heat, no fossil or electric resistance water heaters, with exceptions[^s13] | Unclear. [[VERIFY: whether outdoor infrared heaters count as "space heat" — Denver CPD]] |
-| Colorado (statewide) | HB22-1362; Model Electric Ready and Solar Ready Code | DFPC adoption effective 15 Aug 2025[^s14][^s15] | Electric-ready provisions in local codes | Electric-ready capacity, not a ban. [[VERIFY: whether outdoor heater circuits are included]] |
-| Massachusetts | Municipal Fossil Fuel Free Building Demonstration (225 CMR 24.00) | Ten participating municipalities[^s16] | Fossil fuel in new construction and major renovation, by local by-law[^s16] | Depends on each town's by-law. [[VERIFY: per-town treatment of outdoor appliances]] |
+- **New York City, Local Law 154 of 2021** (Admin. Code §24-177.1, §28-506.1). Not by name: a piped gas heater in a new building has no permitted gas supply, and unpiped, intermittent devices are excepted only if they do not supply heat.[^s2] In force under 7 stories since 1 Jan 2024, all occupancies from 2 Jul 2027 (by construction-document filing date).[^s1] [[VERIFY]]
+- **New York State, All-Electric Buildings Act (2023).** Not established. It covers fossil-fuel equipment and building systems in new buildings, 7 stories or less first, others by 1 Jan 2029.[^s4] Upheld by the Second Circuit on 30 Jun 2026; state enforcement had been paused pending appeal.[^s3][^s4] [[VERIFY: implementation date and treatment of outdoor appliances — Specification and compliance / counsel]]
+- **California, 2025 Building Energy Efficiency Standards (Title 24, Part 6).** Not found in the sources reviewed. Heat-pump baselines for indoor space and water heating (prescriptive; not a gas ban), for permit applications from 1 Jan 2026.[^s5][^s6] [[VERIFY]]
+- **Berkeley, BMC Chapter 12.80 (2019).** It defined natural gas piping in new buildings to the property line,[^s7] so it did reach piped outdoor appliances on new premises. Preempted (9th Cir. 2023); repealed 2024; no longer in force.[^s8][^s9]
+- **Washington State, WSEC-Commercial C403.1.4 and C403.11.1.** Yes, directly: outdoor heat must be radiant, with occupancy or timer control so it switches off when unoccupied; fuel is not restricted.[^s10] Indoor space heating is by heat pump; Initiative 2066 was struck down in Sep 2026.[^s11][^s12]
+- **Denver, 2025 Denver Energy Code.** Unclear. New buildings: no fossil furnaces, no electric resistance space heat, no fossil or electric resistance water heaters, with exceptions; effective 31 Dec 2025 / 1 Jan 2026 (city pages differ).[^s13] [[VERIFY: whether outdoor infrared heaters count as "space heat" — Denver CPD]]
+- **Colorado, HB22-1362 and the Model Electric Ready and Solar Ready Code.** Electric-ready capacity, not a ban; DFPC adoption effective 15 Aug 2025.[^s14][^s15] [[VERIFY: whether outdoor heater circuits are included]]
+- **Massachusetts, Municipal Fossil Fuel Free Building Demonstration (225 CMR 24.00).** Ten participating municipalities may restrict fossil fuel in new construction and major renovation by local by-law, so it depends on each town.[^s16] [[VERIFY: per-town treatment of outdoor appliances]]
 
-## What New York City's Local Law 154 Does
+## New York City, Where New Buildings Run On Electric
 
-Local Law 154 bars burning fuels that emit 25 kg or more of CO2 per million Btu inside new buildings, which covers natural gas and oil.[^s2] Dates run from when construction documents are filed: 1 January 2024 for buildings under seven stories, 2 July 2027 for all occupancies.[^s1] Commercial kitchens, hospitals, laboratories, laundromats, crematoria, manufacturing and emergency power are among the exceptions;[^s1] outdoor heaters are not.
+On the roof terraces of New York's newest buildings, the warmth will be electric. Local Law 154 bars burning fuels that emit 25 kg or more of CO2 per million Btu inside new buildings, which covers natural gas and oil.[^s2] Dates run from when construction documents are filed: 1 January 2024 for buildings under seven stories, 2 July 2027 for all occupancies.[^s1] Commercial kitchens, hospitals, laboratories, laundromats, crematoria, manufacturing and emergency power are among the exceptions;[^s1] outdoor heaters are not.
 
 The code text also excepts devices not connected to the building's gas or fuel-oil piping, used intermittently, and **not used to supply heat or hot water**.[^s2] A portable heater is unpiped and intermittent, but supplying heat is its purpose. Whether a portable propane heater on the terrace of a new building falls inside that exception is a question for the Department of Buildings to answer. [[VERIFY: DOB position on portable outdoor heaters under §24-177.1(c), and whether a roof terrace counts as "within" the building — Specification and compliance / NYC code consultant]]
 
-Heat for outdoor dining in NYC is governed separately, by fire and right-of-way rules. The 2020 winter guidance allowed electric radiant heaters in sidewalk and roadway seating, natural gas radiant heaters on sidewalks only, and propane only under an FDNY permit.[^s21] That guidance was written for the emergency programme, so confirm what applies today. [[VERIFY: current FDNY and DOT/DOB outdoor dining heater rules — Hospitality sales]]
+Heat for outdoor dining in NYC is governed separately, by fire and right-of-way rules. The 2020 winter guidance allowed electric radiant heaters in sidewalk and roadway seating, natural gas radiant heaters on sidewalks only, and propane only under an FDNY permit.[^s21] That guidance was written for the emergency program, so confirm what applies today. [[VERIFY: current FDNY and DOT/DOB outdoor dining heater rules — Hospitality sales]]
 
 On preemption, the Second Circuit held on 30 June 2026 that federal appliance-efficiency law (EPCA) does not preempt New York's All-Electric Buildings Act or LL154.[^s3] That sits in conflict with the Ninth Circuit's Berkeley decision, so further appeal is possible.
 
-## Why Berkeley Still Matters
+## Berkeley, And Why It Still Shapes The Debate
 
-Berkeley's 2019 ordinance prohibited natural gas infrastructure in newly constructed buildings from 1 January 2020.[^s7] It defined that infrastructure as fuel gas piping in or connected to a building or structure, **or within the property lines of the premises**, from the meter onward.[^s7] A piped gas heater on a new patio was therefore covered, even though the ordinance never used the word "heater".
+Berkeley's ordinance is gone, and its lesson for anyone designing a terrace remains. The 2019 ordinance prohibited natural gas infrastructure in newly constructed buildings from 1 January 2020.[^s7] It defined that infrastructure as fuel gas piping in or connected to a building or structure, **or within the property lines of the premises**, from the meter onward.[^s7] A piped gas heater on a new patio was therefore covered, even though the ordinance never used the word "heater".
 
 In *California Restaurant Association v. City of Berkeley*, a Ninth Circuit panel held on 17 April 2023 that EPCA preempted the ordinance; rehearing en banc was denied on 2 January 2024, with an amended opinion.[^s8] Berkeley stopped enforcing and repealed Chapter 12.80 in 2024.[^s9]
 
 The ruling turned on how the law was written, and it left the wider question of electrification open. The Second Circuit read EPCA the other way for New York.[^s3] Cities in the Ninth Circuit (including California, Washington and Oregon) have since moved towards energy-code routes such as heat-pump baselines and reach codes, which are less exposed to EPCA and still shape what gets built.
 
-## California's 2025 Title 24 And Gas
+## California, Where Heat Pumps Set The Baseline
 
-The 2025 Energy Code does not ban gas. It applies to permit applications from 1 January 2026 and sets heat pumps as the **baseline** for space and water heating, a dual baseline for new single-family homes.[^s5] Prescriptive heat-pump space heating now covers all climate zones.[^s6] Gas remains possible through the performance path, at a compliance cost. In the sources reviewed, these baselines govern heating of conditioned space; we found no Part 6 provision written for patio heaters. [[VERIFY: any 2025 Part 6 or CALGreen provision on outdoor heating equipment — Specification and compliance]] Local reach codes in California can be stricter, so check with the city as well.
+California's outdoor rooms can stay as warm as ever under the new Energy Code. The 2025 code does not ban gas. It applies to permit applications from 1 January 2026 and sets heat pumps as the **baseline** for space and water heating, a dual baseline for new single-family homes.[^s5] Prescriptive heat-pump space heating now covers all climate zones.[^s6] Gas remains possible through the performance path, at a compliance cost. In the sources reviewed, these baselines govern heating of conditioned space; we found no Part 6 provision written for patio heaters. [[VERIFY: any 2025 Part 6 or CALGreen provision on outdoor heating equipment — Specification and compliance]] Local reach codes in California can be stricter, so check with the city as well.
 
-## The Energy Codes That Already Regulate Outdoor Heat
+## The Codes That Already Favor Radiant Warmth
 
-This provision is the one most often missed in specification. Washington's commercial energy code, adopting the 2021 IECC, requires that any system installed to heat outside a building be **radiant**, and be controlled by an **occupancy sensor or timer switch** so it switches off when no one is present.[^s10] ASHRAE 90.1 likewise requires radiant heating where unenclosed spaces are heated.[^s17] The same IECC provision appears in other states that adopt the model code; section numbers vary by edition and state amendment. [[VERIFY: section number in the 2021 and 2024 model IECC and in each target state's adoption — Specification and compliance]]
+Warmth that falls on the guests, and switches off when the terrace empties, is already what many commercial codes ask for. Washington's commercial energy code, adopting the 2021 IECC, requires that any system installed to heat outside a building be **radiant**, and be controlled by an **occupancy sensor or timer switch** so it switches off when no one is present.[^s10] ASHRAE 90.1 likewise requires radiant heating where unenclosed spaces are heated.[^s17] The same IECC provision appears in other states that adopt the model code; section numbers vary by edition and state amendment. [[VERIFY: section number in the 2021 and 2024 model IECC and in each target state's adoption — Specification and compliance]] It is the provision most often missed in specification.
+
+> Heat You Can Feel, Not See.
 
 It shapes the design in two ways.
 
 1. **Forced-air or convective outdoor heaters fall outside these codes** on commercial projects, leaving radiant heat as the compliant choice.
 2. **Controls become part of compliance.** Affinity Smart-Heat Controls provide schedules and timers through the Bromic Smart-Heat app, with zones and a manual wall switch.[^s19] Wi-Fi and app features require compatible Affinity controls, sold separately. [[VERIFY: whether Affinity schedules satisfy the code's "timer switch", and an approved occupancy-sensor interface — Product team]]
 
-## Washington, Denver, Colorado And Massachusetts
+## Four More Places Shaping The Terrace
+
+From Seattle to Boston, the direction is the same, and electric radiant heat travels well with it.
 
 **Washington State.** The commercial code requires heat-pump space heating (C403.1.4), with the current amended version in effect from 15 March 2024 and supplemental-heat options broadened in December 2024.[^s11] Initiative 2066, approved by voters in 2024 to curb these provisions, was held unconstitutional in its entirety by the Washington Supreme Court in September 2026.[^s12] Outdoor heat falls under the radiant-plus-controls rule above, whatever the fuel.[^s10]
 
@@ -234,48 +236,35 @@ It shapes the design in two ways.
 
 **Massachusetts.** State law allows up to ten municipalities to require fossil-fuel-free new construction and major renovation under 225 CMR 24.00. The participants are Acton, Aquinnah, Arlington, Brookline, Cambridge, Concord, Lexington, Lincoln, Newton and Northampton.[^s16] The model rule exempts research laboratories and health-care facilities; we found nothing written for outdoor appliances.[^s16] Each town adopts its own by-law. [[VERIFY: each participating town's by-law text on outdoor gas appliances and piping to the premises — Specification and compliance]]
 
-## Planning An Outdoor Space That Is Electric-Ready
+## Ready For Warmth From The First Drawing
 
-Outdoor heat costs least, and looks its best, when it is added before the ceiling closes and the panel schedule is fixed.
+Outdoor heat costs least, and looks its best, when it is added before the ceiling closes and the panel schedule is fixed. Nine moves at design stage keep the terrace electric-ready.
 
 ![Covered outdoor kitchen warmed by heaters set flush into the ceiling](img:l-010-067)
 
-| Planning item | What to do | Why |
+| Step | What to plan | Why it matters |
 |---|---|---|
-| Load | Add the heater load to the service calculation: sum the wattage of every planned heater | Avoids a service upgrade later |
-| Circuits | Dedicated branch circuits; conductors at not less than 125% of the heating load per NEC 424[^s18] | Code requirement for fixed electric space-heating equipment |
-| Voltage | Confirm each model's rated voltage; commercial options have included 208, 240 and 277 V[^s20] | Voltage drives amperage and circuit count |
-| Panel space | Reserve breaker spaces for every heater zone plus one spare | Late additions are where projects stall |
-| Conduit | Empty conduit with pull string to every future heater and controller location, plus spare conduit to the panel | Lets heat be added without opening finishes |
-| Recess cavities | Frame and block soffit cavities to the recess kit's dimensions | Recessed heaters need depth that is hard to add later [[VERIFY: cavity depth per model — Product team]] |
-| Controls | Locate controllers and wall switches; plan Wi-Fi coverage at controller locations; coordinate any Control4, Crestron or Lutron interface[^s19] | Controls are required, and energy codes may require occupancy or timer shut-off |
-| Zoning | One zone per area used at different times | Lets schedules match use, which saves energy |
-| Damp and wet locations | Boxes, devices and heaters listed for the location[^s18] | Outdoor locations are damp or wet |
+| 1 | **Load.** Add the heater load to the service calculation: sum the wattage of every planned heater | Avoids a service upgrade later |
+| 2 | **Circuits.** Dedicated branch circuits; conductors at not less than 125% of the heating load per NEC 424[^s18] | Code requirement for fixed electric space-heating equipment |
+| 3 | **Voltage.** Confirm each model's rated voltage; commercial options have included 208, 240 and 277 V[^s20] | Voltage drives amperage and circuit count |
+| 4 | **Panel space.** Reserve breaker spaces for every heater zone plus one spare | Late additions are where projects stall |
+| 5 | **Conduit.** Empty conduit with pull string to every future heater and controller location, plus spare conduit to the panel | Lets heat be added without opening finishes |
+| 6 | **Recess cavities.** Frame and block soffit cavities to the recess kit's dimensions | Recessed heaters need depth that is hard to add later [[VERIFY: cavity depth per model — Product team]] |
+| 7 | **Controls.** Locate controllers and wall switches; plan Wi-Fi coverage at controller locations; coordinate any Control4, Crestron or Lutron interface[^s19] | Controls are required, and energy codes may require occupancy or timer shut-off |
+| 8 | **Zoning.** One zone per area used at different times | Lets schedules match use, which saves energy |
+| 9 | **Damp and wet locations.** Boxes, devices and heaters listed for the location[^s18] | Outdoor locations are damp or wet |
 
-### How Much Load A Heater Adds
+**How much load a heater adds.** Amps = watts ÷ volts, and circuit conductors are then sized at 125% of that load.[^s18] As an illustration at 240 V single-phase, Platinum Smart-Heat Electric draws 9.6 A at 2300 W, 14.2 A at 3400 W and 18.8 A at 4500 W, or 12.0, 17.7 and 23.4 A at 125% for conductor sizing. [[VERIFY: rated voltage and current per Platinum model — Product team]] Your electrician sizes the circuit and protective device to the adopted NEC and the nameplate.
 
-Amps = watts ÷ volts, and circuit conductors are then sized at 125% of that load.[^s18] The table is an illustration only, at 240 V single-phase.
+## The Choice That Travels Well With Every Rule
 
-| Platinum Smart-Heat Electric | Load at 240 V | × 125% for conductor sizing |
-|---|---|---|
-| 2300 W | 9.6 A | 12.0 A |
-| 3400 W | 14.2 A | 17.7 A |
-| 4500 W | 18.8 A | 23.4 A |
+Set side by side, electric radiant heat is the option that sits most comfortably with the rules in this guide.
 
-[[VERIFY: rated voltage and current per Platinum model — Product team]] Your electrician sizes the circuit and protective device to the adopted NEC and the nameplate.
+**Electric radiant (built-in).** Compatible with all-electric new buildings (NYC LL154, NY State). Not affected by heat-pump-baseline energy codes (CA 2025) or property-line gas definitions (the Berkeley model) in the sources reviewed. Compliant with the outdoor heating rule (IECC/WSEC C403.11.1) when radiant and on occupancy or timer control. Denver's "electric resistance space heat" rule: [[VERIFY: interpretation]]. Electrical permit and a licensed electrician; Affinity controllers, wall switch, app schedules and zones.[^s19] It aligns with every direction of travel.
 
-## Electric Radiant, Piped Gas And Propane, Side By Side
+**Piped natural gas (built-in).** No gas supply in an all-electric building. Not banned by heat-pump baselines, which address indoor heating. Compliant with the outdoor rule when radiant and controlled. Covered by property-line gas definitions, and fossil restrictions may apply in Denver. Plumbing or mechanical permit and a licensed gas fitter, to ANSI Z223.1/NFPA 54;[^s20] gas controls per model. Exposed to new local rules.
 
-| Factor | Electric radiant (built-in) | Piped natural gas (built-in) | Propane (portable) |
-|---|---|---|---|
-| All-electric new buildings (NYC LL154, NY State) | Compatible | No gas supply in an all-electric building | Narrow, unclear exception [[VERIFY]] |
-| Heat-pump-baseline energy codes (CA 2025) | Not affected in sources reviewed | Not banned; indoor heating baseline does not address it | Not affected in sources reviewed |
-| Outdoor heating rule (IECC/WSEC C403.11.1) | Compliant when radiant and on occupancy/timer control | Compliant when radiant and controlled | Compliant when radiant; automatic shut-off is harder |
-| Property-line gas definitions (Berkeley model) | Not affected | Covered | Not piped; depends on wording |
-| Denver 2025 "electric resistance space heat" | [[VERIFY: interpretation]] | Fossil restrictions may apply | Depends on scope |
-| Permitting path | Electrical permit; licensed electrician | Plumbing/mechanical permit; licensed gas fitter; ANSI Z223.1/NFPA 54[^s20] | Fire-department rules on storage and use |
-| Controls and scheduling | Affinity controllers, wall switch, app schedules and zones[^s19] | Gas controls per model | Manual at the unit |
-| Future-proofing | Aligns with every direction of travel | Exposed to new local rules | Exposed to fire and local rules |
+**Propane (portable).** A narrow, unclear exception in all-electric new buildings. [[VERIFY]] Not affected by heat-pump baselines in the sources reviewed. Compliant when radiant, though automatic shut-off is harder. Not piped, so property-line definitions depend on wording, and Denver depends on scope. Fire-department rules govern storage and use; control is manual at the unit. Exposed to fire and local rules.
 
 ## Your Planning Checklist
 

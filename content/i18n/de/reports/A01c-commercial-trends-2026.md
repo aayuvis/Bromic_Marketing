@@ -142,20 +142,22 @@ England; sie sind jeweils so gekennzeichnet.
 
 ## Das Jahr im Überblick
 
-| # | Die Entwicklung | Die Zahl | Quelle |
-|---|---|---|---|
-| 01 | Die Terrasse ist eine Umsatzquelle | 35 % der US-Betreiber mit Außengastronomie sagten, sie mache über 40 % des Tagesumsatzes aus | NRA, 2021[^s1] |
-| 02 | Gäste wählen den Tisch draußen | 55 % der Amerikaner essen bei schönem Wetter lieber draußen | OpenTable, 2025[^s3] |
-| 03 | Schwache Frequenz macht jeden Platz wertvoll | 61 % der US-Betreiber mit Bedienung hatten 2025 weniger Gäste | NRA, 2026[^s2] |
-| 04 | Energie ist ein Posten, auf den Betreiber heute achten | 82 % der US-Betreiber mit Bedienung nennen Energie- oder Nebenkosten eine erhebliche Herausforderung | NRA, 2026[^s2] |
-| 05 | Außengastronomie ist dauerhafte Infrastruktur | Fast 2450 Flächen im Programm Dining Out NYC | NYC, 2025[^s5] |
-| 06 | Flüssiggas verlässt die Terrasse | New York City untersagte Propan-Heizstrahler in der Außengastronomie ab Juni 2021 | NYC EEO 200[^s7] |
-| 07 | Die Elektrifizierung erreicht die Terrasse | Neubauten in New York: kein Brennstoff ab ca. 85 g CO2 je kWh | NYC DOB[^s10] |
-| 08 | Gäste kommen für den Anlass | 84 % sehen ein Essen außer Haus als Gelegenheit zur Geselligkeit | NRA, 2026[^s2] |
-| 09 | Hotels lassen Außenflächen verdienen | GOPPAR in den USA noch bei etwa 90 % von 2019 | AHLA, 2026[^s12] |
-| 10 | Wärme verschwindet in der Architektur | 30 % offener Umfang definieren einen Außenbereich | Bromic, 2021[^s14] |
+Zehn Entwicklungen verändern die Terrasse in diesem Jahr, und jede eröffnet die Chance, an mehr Abenden mehr Plätze zu füllen.
+
+- **01 Die Terrasse ist eine Umsatzquelle.** 35 % der US-Betreiber mit Außengastronomie sagten, sie mache über 40 % des Tagesumsatzes aus.[^s1]
+- **02 Gäste wählen den Tisch draußen.** 55 % der Amerikaner essen bei schönem Wetter lieber draußen.[^s3]
+- **03 Schwache Frequenz macht jeden Platz wertvoll.** 61 % der US-Betreiber mit Bedienung hatten 2025 weniger Gäste.[^s2]
+- **04 Energie ist ein Posten, auf den Betreiber heute achten.** 82 % der US-Betreiber mit Bedienung nennen Energie- oder Nebenkosten eine erhebliche Herausforderung.[^s2]
+- **05 Außengastronomie ist dauerhafte Infrastruktur.** Fast 2450 Flächen im Programm Dining Out NYC.[^s5]
+- **06 Flüssiggas verlässt die Terrasse.** New York City untersagte Propan-Heizstrahler in der Außengastronomie ab Juni 2021.[^s7]
+- **07 Die Elektrifizierung erreicht die Terrasse.** Neubauten in New York: kein Brennstoff ab ca. 85 g CO2 je kWh.[^s10]
+- **08 Gäste kommen für den Anlass.** 84 % sehen ein Essen außer Haus als Gelegenheit zur Geselligkeit.[^s2]
+- **09 Hotels lassen Außenflächen verdienen.** GOPPAR in den USA noch bei etwa 90 % von 2019.[^s12]
+- **10 Wärme verschwindet in der Architektur.** 30 % offener Umfang definieren einen Außenbereich.[^s14]
 
 ## 01 · Die Terrasse ist zur Umsatzquelle geworden
+
+An einem warmen Abend ist die Terrasse Ihr vollster Raum, und jeder beheizte Platz dort draußen ist ein weiterer Tisch, den Sie verkaufen können.
 
 > **35 %** der US-Betreiber mit Außengastronomie sagten, sie mache mehr als 40 % des durchschnittlichen Tagesumsatzes aus; bei Restaurants mit Bedienung 41 %.[^s1]
 > *Quelle: National Restaurant Association, Betreiberumfrage, September 2021.*
@@ -175,6 +177,8 @@ England; sie sind jeweils so gekennzeichnet.
 
 ## 02 · Gäste wählen den Tisch draußen und bleiben länger
 
+Fragen Sie Gäste, wo sie sitzen möchten, und die meisten blicken nach draußen.
+
 > **55 %** der Amerikaner sitzen bei schönem Wetter lieber draußen; **34 %** trotzen lieber unerwartetem Wetter, als ihren Tisch draußen aufzugeben.[^s3]
 > *Quelle: OpenTable, Verbraucherumfrage von Walr, 2000 Erwachsene in den USA, April 2025.*
 
@@ -185,13 +189,15 @@ England; sie sind jeweils so gekennzeichnet.
 - Gäste wollen den Tisch draußen, und die Behaglichkeit entscheidet, wie lange sie ihn behalten. Ein längerer Aufenthalt bringt mehr Getränke und Desserts, bei weniger Belegungen des Tisches.
 - Ein Gast, dem kühl wird, geht früher und bucht beim nächsten Mal vielleicht drinnen.
 
-**Einschätzung von Bromic.** Gäste fragen nach dem Tisch draußen, und sie bleiben, wenn ihnen warm ist.
+> Gäste fragen nach dem Tisch draußen, und sie bleiben, wenn ihnen warm ist.
 
 **Planungsschritt.** Setzen Sie Strahlungswärme über jede Tischgruppe, sodass jeder Stuhl in ihrer Reichweite steht.
 
 **Bromic-Projekt.** [Hotel Skansen](https://www.bromic.com/case-study/hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-heat-freestanding-heaters/), Schweden: Eclipse Smart-Heat Freestanding Heizstrahler mit dem Eclipse Dimmer Controller halten die Terrasse des Restaurants SAND in Betrieb.
 
 ## 03 · Wenn die Frequenz nachlässt, zählt jeder Platz
+
+Wenn Gäste genauer wählen, wo sie einen Abend verbringen, ist das Leuchten einer warmen Terrasse eine Einladung über die Straße hinweg.
 
 > **61 %** der US-Betreiber mit Bedienung und **64 %** der Schnellgastronomie sagten, sie hätten 2025 weniger Gäste gehabt als 2024.[^s2]
 > *Quelle: National Restaurant Association, State of the Restaurant Industry 2026.*
@@ -211,6 +217,8 @@ England; sie sind jeweils so gekennzeichnet.
 
 ## 04 · Energie hat jetzt in jedem Budget ihren Platz
 
+Die bestgeführten Terrassen sind auch die wärmsten, mit Wärme genau dort, wo Gäste sitzen, und nur so lange, wie sie da sind.
+
 > **82 %** der US-Betreiber mit Bedienung und **79 %** der Schnellgastronomie nannten Energie- oder Nebenkosten 2025 eine erhebliche Herausforderung; **42 %** der Betreiber sagten, sie seien nicht profitabel gewesen.[^s2]
 > *Quelle: National Restaurant Association, State of the Restaurant Industry 2026.*
 
@@ -229,6 +237,8 @@ England; sie sind jeweils so gekennzeichnet.
 
 ## 05 · Außengastronomie ist gekommen, um zu bleiben
 
+Die Terrasse, die als Notlösung begann, ist heute ein genehmigter fester Bestandteil der Straße, den die Nachbarschaft lieben gelernt hat.
+
 > Das dauerhafte Programm der Stadt New York, Dining Out NYC, umfasste 2025 fast **2450** Flächen auf Fahrbahn und Gehweg, mehr als zweieinhalbmal so viel wie das Straßencafé-Programm vor Corona. Flächen auf dem Gehweg dürfen ganzjährig betrieben werden, Flächen auf der Fahrbahn vom 1. April bis 29. November.[^s5]
 > *Quelle: City of New York, Office of the Mayor, 1. April 2025.*
 
@@ -246,6 +256,8 @@ England; sie sind jeweils so gekennzeichnet.
 *Die Regeln unterscheiden sich von Stadt zu Stadt und ändern sich oft. Klären Sie mit der zuständigen Behörde, was gilt, und beauftragen Sie einen eingetragenen Elektrofachbetrieb bzw. Gasinstallateur; in Deutschland gelten DIN VDE 0100, die DVGW-TRGI und die TRF sowie die Regeln Ihrer Gemeinde für die Außengastronomie.* [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Partner Deutschland]]
 
 ## 06 · Flüssiggas verlässt die Terrasse
+
+Eine Terrasse ohne Gasflaschen zum Tauschen ist ruhiger für Ihr Team und einfacher bei jeder Prüfung.
 
 > New York City hat die Erlaubnis, Propan-Heizstrahler in der Außengastronomie zu verwenden, zum **1. Juni 2021** widerrufen.[^s7]
 > *Quelle: City of New York, Emergency Executive Order No. 200.*
@@ -267,6 +279,8 @@ England; sie sind jeweils so gekennzeichnet.
 
 ## 07 · Die Elektrifizierung kommt auf der Terrasse an
 
+Die neuesten Gebäude werden ohne Gas geplant, und ihre Terrassen können genauso warm sein.
+
 > Neubauten in New York City dürfen keinen Brennstoff verbrennen, der ca. **85 g CO2 je kWh** oder mehr ausstößt (im Gesetz: 25 kg CO2 je Million Btu); das Gesetz gilt nur für Neubauten, wird ab niedrigen Gebäuden schrittweise eingeführt und hat Ausnahmen, unter anderem für gewerbliche Küchen.[^s10]
 > *Quelle: NYC Department of Buildings, Local Law 154 von 2021.*
 
@@ -286,6 +300,8 @@ England; sie sind jeweils so gekennzeichnet.
 
 ## 08 · Gäste kommen für den Anlass
 
+Geburtstage, Verkostungen und lange Feiern bringen Gäste zurück, und die Terrasse kann der Raum sein, an den sie sich am meisten erinnern.
+
 > **84 %** der US-Restaurantgäste sagen, mit Familie oder Freunden auszugehen sei eine Gelegenheit zur Geselligkeit und eine bessere Nutzung der Freizeit; **76 %** würden wahrscheinlich an Verkostungen in einem Restaurant teilnehmen.[^s2]
 > *Quelle: National Restaurant Association, State of the Restaurant Industry 2026.*
 
@@ -303,6 +319,8 @@ England; sie sind jeweils so gekennzeichnet.
 
 ## 09 · Hotels helfen ihren Außenflächen, sich zu rechnen
 
+Die Orte, an die sich Gäste nach einem Aufenthalt erinnern, liegen oft außerhalb des gebuchten Zimmers, auf einer Dachterrasse in der Dämmerung oder am Pool.
+
 > Die Ausgaben von Hotelgästen in den USA werden für 2026 auf fast **805 Milliarden US-Dollar** geschätzt, ein Plus von **1,7 %**; der Bruttobetriebsgewinn je verfügbarem Zimmer liegt weiterhin bei etwa **90 %** des Niveaus von 2019, vor allem wegen steigender Betriebskosten.[^s12]
 > *Quelle: American Hotel & Lodging Association, State of the Industry 2026.*
 
@@ -318,12 +336,16 @@ England; sie sind jeweils so gekennzeichnet.
 
 ## 10 · Wärme verschwindet in der Architektur
 
+Die meistbewunderten Terrassen halten ihre Wärme verborgen, sodass ein Gast nur den Abend bemerkt.
+
 > Bromic definiert einen Bereich als Außenbereich, wenn mindestens **30 %** seines Umfangs dauerhaft offen sind; die elektrischen Bromic Heizstrahler sind **mittelwellig** und in etwa 30 Sekunden warm, während langwellige am stärksten windanfällig sind.[^s14] Die Wärme der Mittelwelle reicht weiter über die Terrasse, ohne störendes Glühen. [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]]
 > *Quelle: Bromic Heating, Planungsleitfaden US v1.2, 2021.*
 
 **Was es für Ihren Betrieb bedeutet**
 - Architekten wollen Wärme, die Gäste spüren, während der Heizstrahler selbst unsichtbar bleibt, und eingelassene und abgehängte Wärme macht Bodenfläche für mehr Plätze frei.
 - Auf Dachterrassen und exponierten Terrassen zählt die richtige Wellenlänge mehr als zusätzliche Geräte.
+
+> Wärme, die man spürt, aber nicht sieht.
 
 **Einschätzung von Bromic.** Wird die Heizung ab der ersten Zeichnung mitgeplant, sitzen eingelassene, an Decke oder Wand montierte Platinum und Tungsten Smart-Heat Electric Heizstrahler, jeder mit seiner Affinity-Steuerung, ruhig in der Untersicht und überlassen den Grundriss Ihren Gästen.
 
@@ -366,7 +388,8 @@ Entdecken Sie, was Ihre leeren Plätze wert sein könnten. FORDERN SIE IHRE ROI-
 
 - **Format:** zugangsgeschütztes PDF, Querformat A4, 14 Seiten; im System des Reports Trends 2026 für Wohnkunden (weiße Seiten, Tinte und Stahlgrau, Flame `#EF4123` als einziger Akzent auf kleinen Labels und Linien; Überschriften in Didot, Fließtext in Helvetica Neue Light, nach templates/bromic-voice.md). Keine Emoji, keine Ausrufezeichen.
 - **Seite 1, Titel:** „Outdoor Hospitality Trends 2026“, Untertitel „Zehn Arten, wie sich die Terrasse ihren Platz verdient“. Bild `l-016-131`.
-- **Seite 2, das Jahr in Zahlen:** die Tabelle „Das Jahr im Überblick“ als vier große Kennzahlen (35 %, 55 %, 61 %, 82 %) mit Quellenzeilen; darunter die vollständige Tabelle.
+- **Seite 2, das Jahr in Zahlen:** vier große Kennzahlen (35 %, 55 %, 61 %, 82 %) mit Quellenzeilen; darunter die zehn Entwicklungen als Liste.
+- **Marketing-Überarbeitung (19. Nov. 2026):** Jeder Trend beginnt mit dem Abend des Gastes vor seinen Zahlen; die Überblickstabelle ist eine Liste geworden (jede Zahl behält ihren Beleg); zwei Bromic-Sätze stehen als Zitat (Trend 02, Trend 10).
 - **Seiten 3–12, ein Trend je Seite:** Nummer und Überschrift oben links; Kennzahlen mit Quellenzeilen in Kapitälchen; „Was es für Ihren Betrieb bedeutet“ in zwei oder drei Zeilen; Einschätzung von Bromic in einem Kasten mit Flame-Linie; Planungsschritt; Projektzeile mit QR-Code zur Fallstudie.
   - 01 `p-003-006` · 02 `l-013-111` · 03 `p-007-030` · 04 `g-operator` (vom Eigentümer freigegebenes generiertes Bild; Kennzeichnung „generiert“) · 05 `p-002-001` · 06 `p-014-066` · 07 `l-013-107` · 08 `p-010-044` · 09 `t-003-005` · 10 `t-006-016`.
   - `p-`-Bilder zeigen das Sortiment von 2021: nur als allgemeine gewerbliche Szenen verwenden, nie mit einem Produktnamen beschriften.

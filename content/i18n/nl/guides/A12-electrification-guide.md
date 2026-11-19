@@ -177,30 +177,28 @@ sources:
 
 *Deze gids gaat over wet- en regelgeving in de Verenigde Staten. Hij laat zien hoe elektrificatiebeleid buitenverwarming raakt; de ontwerpprincipes gelden overal, maar de genoemde wetten gelden niet in Nederland. In Nederland installeert u elektrisch volgens NEN 1010 en gas volgens NEN 1078, en stemt u af met uw gemeente.* [[VERIFY: Nederlandse context (beleid voor gasloze nieuwbouw, Bbl, energie-eisen) met bronnen toevoegen, of deze gids alleen in het Engels aanbieden — Bromic Benelux distributor]]
 
-Voor het grootste deel noemen de elektrificatiewetten die nu in de VS gelden terrasverwarmers niet. Ze houden gas uit **nieuwe gebouwen**, of maken warmtepompen de standaard voor ruimte- en tapwaterverwarming **binnen**, en hun bereik strekt zich toch uit tot het terras. Een nieuw volledig elektrisch gebouw heeft geen gasleiding voor een ingebouwde verwarmer, definities naar het model van Berkeley trokken de beperking door tot aan de perceelgrens, en energievoorschriften voor utiliteitsbouw eisen nu al dat buitenwarmte stralingswarmte is en uitschakelt als er niemand is. Plan de buitenruimte vanaf de eerste tekening rond elektrische stralingswarmte, en die avonden buiten blijven veilig, welke kant de regels ook op gaan.
+Het terras van een volledig elektrisch gebouw kan net zo warm en uitnodigend zijn als elk ander, en goed gepland blijft het dat, welke kant de regels ook op gaan. Voor het grootste deel noemen de elektrificatiewetten die nu in de VS gelden terrasverwarmers niet. Ze houden gas uit **nieuwe gebouwen**, of maken warmtepompen de standaard voor ruimte- en tapwaterverwarming **binnen**, en hun bereik strekt zich toch uit tot het terras. Een nieuw volledig elektrisch gebouw heeft geen gasleiding voor een ingebouwde verwarmer, definities naar het model van Berkeley trokken de beperking door tot aan de perceelgrens, en energievoorschriften voor utiliteitsbouw eisen nu al dat buitenwarmte stralingswarmte is en uitschakelt als er niemand is. Plan de buitenruimte vanaf de eerste tekening rond elektrische stralingswarmte, en die avonden buiten blijven veilig, welke kant de regels ook op gaan.
 
 *De feiten in deze gids zijn weergegeven zoals ze waren op 29 oktober 2026. Wetten, uitspraken en de invoering van voorschriften veranderen; controleer elk ervan bij het bevoegd gezag voordat u erop vertrouwt.*
 
 ![Eclipse-verwarmers die gloeien boven een restaurantterras onder een luifel](img:l-013-111)
 
-## Verbieden volledig elektrische bouwregels gasterrasverwarmers?
+## Een warm terras onder elke nieuwe regel
 
-Elke regeling leest u het best op **wat ze regelt** (gasleidingen, verbranding of verwarmingstoestellen), **waar ze geldt** (in het gebouw, op het perceel of elk toestel) en **wanneer ze geldt** (nieuwbouw, ingrijpende renovatie of vervanging).
+Verbieden volledig elektrische bouwregels gasterrasverwarmers? Zelden bij naam, en elektrische stralingswarmte is de optie die ze het meest openlaten. Elke regeling leest u het best op **wat ze regelt** (gasleidingen, verbranding of verwarmingstoestellen), **waar ze geldt** (in het gebouw, op het perceel of elk toestel) en **wanneer ze geldt** (nieuwbouw, ingrijpende renovatie of vervanging). De stand van elke regeling op 29 oktober 2026, en of ze buitenverwarmers raakt:
 
-| Rechtsgebied | Regeling | Status op 29 okt. 2026 | Wat ze regelt | Raakt ze buitenverwarmers? |
-|---|---|---|---|---|
-| New York City | Local Law 154 van 2021 (Admin. Code §24-177.1, §28-506.1) | Van kracht; onder 7 bouwlagen sinds 1 jan. 2024, alle gebruiksfuncties vanaf 2 jul. 2027 (op datum van indiening van de bouwdocumenten)[^s1] | Verbranding van brandstoffen met 25 kg CO2 per MMBtu (ca. 85 g per kWh) of meer in nieuwe gebouwen[^s2] | Niet bij naam. Een op gas aangesloten verwarmer in een nieuw gebouw heeft geen toegestane gastoevoer. Niet aangesloten toestellen voor incidenteel gebruik vallen onder een uitzondering, maar alleen als ze geen warmte leveren.[^s2] [[VERIFY]] |
-| Staat New York | All-Electric Buildings Act (2023) | Op 30 jun. 2026 in stand gelaten door het Second Circuit; de handhaving door de staat lag stil in afwachting van het hoger beroep[^s3][^s4] | Fossiele toestellen en gebouwinstallaties in nieuwe gebouwen; eerst 7 bouwlagen of minder, de rest uiterlijk 1 jan. 2029[^s4] | Niet vastgesteld. [[VERIFY: ingangsdatum en behandeling van buitentoestellen — specificatie en compliance / jurist]] |
-| Californië (hele staat) | 2025 Building Energy Efficiency Standards (Title 24, Part 6) | Geldt voor vergunningsaanvragen vanaf 1 jan. 2026[^s5] | Warmtepomp als referentie voor ruimte- en tapwaterverwarming binnen (prescriptief; geen gasverbod)[^s5][^s6] | Niet gevonden in de geraadpleegde bronnen. [[VERIFY]] |
-| Berkeley, CA | BMC Chapter 12.80 (2019) | Verdrongen door federaal recht (9th Cir. 2023); ingetrokken in 2024[^s8][^s9] | Aardgasleidingen in nieuwe gebouwen, gedefinieerd tot aan de perceelgrens[^s7] | Raakte per definitie aangesloten buitentoestellen op nieuwe percelen; niet meer van kracht |
-| Staat Washington | WSEC-Commercial C403.1.4 (ruimteverwarming met warmtepomp); C403.11.1 (verwarming buiten een gebouw) | Van kracht; Initiative 2066 vernietigd in sep. 2026[^s11][^s12] | Ruimteverwarming binnen met warmtepomp; buitenwarmte moet stralingswarmte zijn, met aanwezigheids- of timerbediening[^s10] | Ja, C403.11.1 rechtstreeks: alleen stralingswarmte, en automatisch uit als er niemand is. Brandstof niet beperkt. |
-| Denver, CO | 2025 Denver Energy Code | Van kracht per 31 dec. 2025 / 1 jan. 2026 (de pagina's van de stad verschillen)[^s13] | Nieuwe gebouwen: geen fossiele luchtverwarmers, geen elektrische weerstandsverwarming voor ruimtes, geen fossiele of elektrische weerstandsboilers, met uitzonderingen[^s13] | Onduidelijk. [[VERIFY: of infraroodverwarmers buiten gelden als "space heat" — Denver CPD]] |
-| Colorado (hele staat) | HB22-1362; Model Electric Ready and Solar Ready Code | Invoering door de DFPC van kracht per 15 aug. 2025[^s14][^s15] | Bepalingen voor elektrische voorbereiding in lokale voorschriften | Capaciteit voor elektrische voorbereiding, geen verbod. [[VERIFY: of groepen voor buitenverwarmers zijn inbegrepen]] |
-| Massachusetts | Municipal Fossil Fuel Free Building Demonstration (225 CMR 24.00) | Tien deelnemende gemeenten[^s16] | Fossiele brandstof bij nieuwbouw en ingrijpende renovatie, via een lokale verordening[^s16] | Hangt af van de verordening van elke gemeente. [[VERIFY: behandeling van buitentoestellen per gemeente]] |
+- **New York City, Local Law 154 van 2021 (Admin. Code §24-177.1, §28-506.1).** Niet bij naam. Een op gas aangesloten verwarmer in een nieuw gebouw heeft geen toegestane gastoevoer. Niet aangesloten toestellen voor incidenteel gebruik vallen onder een uitzondering, maar alleen als ze geen warmte leveren.[^s2] [[VERIFY]] Regelt: verbranding van brandstoffen met 25 kg CO2 per MMBtu (ca. 85 g per kWh) of meer in nieuwe gebouwen.[^s2] Status op 29 okt. 2026: van kracht; onder 7 bouwlagen sinds 1 jan. 2024, alle gebruiksfuncties vanaf 2 jul. 2027 (op datum van indiening van de bouwdocumenten).[^s1]
+- **Staat New York, All-Electric Buildings Act (2023).** Niet vastgesteld. [[VERIFY: ingangsdatum en behandeling van buitentoestellen — specificatie en compliance / jurist]] Regelt: fossiele toestellen en gebouwinstallaties in nieuwe gebouwen; eerst 7 bouwlagen of minder, de rest uiterlijk 1 jan. 2029.[^s4] Status op 29 okt. 2026: op 30 jun. 2026 in stand gelaten door het Second Circuit; de handhaving door de staat lag stil in afwachting van het hoger beroep.[^s3][^s4]
+- **Californië (hele staat), 2025 Building Energy Efficiency Standards (Title 24, Part 6).** Niet gevonden in de geraadpleegde bronnen. [[VERIFY]] Regelt: warmtepomp als referentie voor ruimte- en tapwaterverwarming binnen (prescriptief; geen gasverbod).[^s5][^s6] Status op 29 okt. 2026: geldt voor vergunningsaanvragen vanaf 1 jan. 2026.[^s5]
+- **Berkeley, CA, BMC Chapter 12.80 (2019).** Raakte per definitie aangesloten buitentoestellen op nieuwe percelen; niet meer van kracht. Regelt: aardgasleidingen in nieuwe gebouwen, gedefinieerd tot aan de perceelgrens.[^s7] Status op 29 okt. 2026: verdrongen door federaal recht (9th Cir. 2023); ingetrokken in 2024.[^s8][^s9]
+- **Staat Washington, WSEC-Commercial C403.1.4 (ruimteverwarming met warmtepomp); C403.11.1 (verwarming buiten een gebouw).** Ja, C403.11.1 rechtstreeks: alleen stralingswarmte, en automatisch uit als er niemand is. Brandstof niet beperkt. Regelt: ruimteverwarming binnen met warmtepomp; buitenwarmte moet stralingswarmte zijn, met aanwezigheids- of timerbediening.[^s10] Status op 29 okt. 2026: van kracht; Initiative 2066 vernietigd in sep. 2026.[^s11][^s12]
+- **Denver, CO, 2025 Denver Energy Code.** Onduidelijk. [[VERIFY: of infraroodverwarmers buiten gelden als "space heat" — Denver CPD]] Regelt: nieuwe gebouwen: geen fossiele luchtverwarmers, geen elektrische weerstandsverwarming voor ruimtes, geen fossiele of elektrische weerstandsboilers, met uitzonderingen.[^s13] Status op 29 okt. 2026: van kracht per 31 dec. 2025 / 1 jan. 2026 (de pagina's van de stad verschillen).[^s13]
+- **Colorado (hele staat), HB22-1362; Model Electric Ready and Solar Ready Code.** Capaciteit voor elektrische voorbereiding, geen verbod. [[VERIFY: of groepen voor buitenverwarmers zijn inbegrepen]] Regelt: bepalingen voor elektrische voorbereiding in lokale voorschriften. Status op 29 okt. 2026: invoering door de DFPC van kracht per 15 aug. 2025.[^s14][^s15]
+- **Massachusetts, Municipal Fossil Fuel Free Building Demonstration (225 CMR 24.00).** Hangt af van de verordening van elke gemeente. [[VERIFY: behandeling van buitentoestellen per gemeente]] Regelt: fossiele brandstof bij nieuwbouw en ingrijpende renovatie, via een lokale verordening.[^s16] Status op 29 okt. 2026: Tien deelnemende gemeenten.[^s16]
 
-## Wat Local Law 154 van New York City doet
+## New York City, waar nieuwbouw elektrisch draait
 
-Local Law 154 verbiedt het verbranden van brandstoffen die 25 kg of meer CO2 per miljoen Btu uitstoten (ca. 85 g per kWh) in nieuwe gebouwen, en dat omvat aardgas en olie.[^s2] De data lopen vanaf het moment waarop de bouwdocumenten worden ingediend: 1 januari 2024 voor gebouwen onder zeven bouwlagen, 2 juli 2027 voor alle gebruiksfuncties.[^s1] Bedrijfskeukens, ziekenhuizen, laboratoria, wasserettes, crematoria, productie en noodstroom horen bij de uitzonderingen;[^s1] buitenverwarmers niet.
+Op de dakterrassen van de nieuwste gebouwen in New York wordt de warmte elektrisch. Local Law 154 verbiedt het verbranden van brandstoffen die 25 kg of meer CO2 per miljoen Btu uitstoten (ca. 85 g per kWh) in nieuwe gebouwen, en dat omvat aardgas en olie.[^s2] De data lopen vanaf het moment waarop de bouwdocumenten worden ingediend: 1 januari 2024 voor gebouwen onder zeven bouwlagen, 2 juli 2027 voor alle gebruiksfuncties.[^s1] Bedrijfskeukens, ziekenhuizen, laboratoria, wasserettes, crematoria, productie en noodstroom horen bij de uitzonderingen;[^s1] buitenverwarmers niet.
 
 De wettekst zondert ook toestellen uit die niet zijn aangesloten op de gas- of olieleidingen van het gebouw, incidenteel worden gebruikt en **niet worden gebruikt om warmte of warm water te leveren**.[^s2] Een mobiele verwarmer is niet aangesloten en wordt incidenteel gebruikt, maar warmte leveren is juist zijn doel. Of een mobiele propaanverwarmer op het terras van een nieuw gebouw onder die uitzondering valt, is een vraag die het Department of Buildings moet beantwoorden. [[VERIFY: standpunt van het DOB over mobiele buitenverwarmers onder §24-177.1(c), en of een dakterras geldt als "in" het gebouw — specificatie en compliance / NYC-adviseur bouwregelgeving]]
 
@@ -208,28 +206,32 @@ Warmte bij buitenhoreca in NYC valt apart onder regels voor brandveiligheid en o
 
 Over federale voorrang oordeelde het Second Circuit op 30 juni 2026 dat de federale wet op de efficiëntie van apparaten (EPCA) geen voorrang heeft boven de All-Electric Buildings Act van New York of LL154.[^s3] Dat staat haaks op de uitspraak van het Ninth Circuit in de zaak-Berkeley, dus verder beroep is mogelijk.
 
-## Waarom Berkeley er nog toe doet
+## Berkeley, en waarom het het debat nog vormt
 
-De verordening van Berkeley uit 2019 verbood aardgasinfrastructuur in nieuw gebouwde panden vanaf 1 januari 2020.[^s7] Ze definieerde die infrastructuur als gasleidingen in of aangesloten op een gebouw of bouwwerk, **of binnen de perceelgrenzen van het terrein**, vanaf de meter.[^s7] Een op gas aangesloten verwarmer op een nieuw terras viel er dus onder, ook al gebruikte de verordening nergens het woord "verwarmer".
+De verordening van Berkeley is verleden tijd, maar de les voor iedereen die een terras ontwerpt blijft. De verordening van Berkeley uit 2019 verbood aardgasinfrastructuur in nieuw gebouwde panden vanaf 1 januari 2020.[^s7] Ze definieerde die infrastructuur als gasleidingen in of aangesloten op een gebouw of bouwwerk, **of binnen de perceelgrenzen van het terrein**, vanaf de meter.[^s7] Een op gas aangesloten verwarmer op een nieuw terras viel er dus onder, ook al gebruikte de verordening nergens het woord "verwarmer".
 
 In *California Restaurant Association v. City of Berkeley* oordeelde een kamer van het Ninth Circuit op 17 april 2023 dat EPCA voorrang had boven de verordening; een herbehandeling en banc werd op 2 januari 2024 afgewezen, met een gewijzigde uitspraak.[^s8] Berkeley stopte met handhaven en trok Chapter 12.80 in 2024 in.[^s9]
 
 De uitspraak draaide om hoe de wet was geschreven, en de bredere vraag over elektrificatie openliet. Het Second Circuit las EPCA voor New York andersom.[^s3] Steden binnen het Ninth Circuit (waaronder Californië, Washington en Oregon) zijn sindsdien overgestapt op routes via energievoorschriften, zoals een warmtepomp als referentie en strengere lokale voorschriften (reach codes), die minder kwetsbaar zijn voor EPCA en toch bepalen wat er wordt gebouwd.
 
-## De Californische Title 24 van 2025 en gas
+## Californië, waar warmtepompen de referentie zijn
 
-De Energy Code van 2025 verbiedt gas niet. Ze geldt voor vergunningsaanvragen vanaf 1 januari 2026 en maakt warmtepompen de **referentie** voor ruimte- en tapwaterverwarming, een dubbele referentie voor nieuwe vrijstaande woningen.[^s5] Prescriptieve ruimteverwarming met een warmtepomp geldt nu voor alle klimaatzones.[^s6] Gas blijft mogelijk via de prestatieroute, tegen nalevingskosten. In de geraadpleegde bronnen regelen deze referenties de verwarming van geklimatiseerde ruimte; we vonden geen bepaling in Part 6 die voor terrasverwarmers is geschreven. [[VERIFY: eventuele bepaling in Part 6 of CALGreen van 2025 over buitenverwarmingstoestellen — specificatie en compliance]] Lokale reach codes in Californië kunnen strenger zijn, dus stem ook af met de stad.
+Buitenkamers in Californië kunnen onder de nieuwe Energy Code net zo warm blijven als altijd. De Energy Code van 2025 verbiedt gas niet. Ze geldt voor vergunningsaanvragen vanaf 1 januari 2026 en maakt warmtepompen de **referentie** voor ruimte- en tapwaterverwarming, een dubbele referentie voor nieuwe vrijstaande woningen.[^s5] Prescriptieve ruimteverwarming met een warmtepomp geldt nu voor alle klimaatzones.[^s6] Gas blijft mogelijk via de prestatieroute, tegen nalevingskosten. In de geraadpleegde bronnen regelen deze referenties de verwarming van geklimatiseerde ruimte; we vonden geen bepaling in Part 6 die voor terrasverwarmers is geschreven. [[VERIFY: eventuele bepaling in Part 6 of CALGreen van 2025 over buitenverwarmingstoestellen — specificatie en compliance]] Lokale reach codes in Californië kunnen strenger zijn, dus stem ook af met de stad.
 
-## De energievoorschriften die buitenwarmte al regelen
+## De voorschriften die stralingswarmte al voorrang geven
 
-Deze bepaling wordt bij het voorschrijven het vaakst over het hoofd gezien. Het energievoorschrift voor utiliteitsbouw van Washington, dat de IECC 2021 overneemt, eist dat elk systeem dat wordt geïnstalleerd om buiten een gebouw te verwarmen **stralingswarmte** levert, en wordt bediend met een **aanwezigheidssensor of tijdschakelaar**, zodat het uitschakelt als er niemand is.[^s10] ASHRAE 90.1 eist eveneens stralingsverwarming waar niet-omsloten ruimtes worden verwarmd.[^s17] Dezelfde IECC-bepaling staat in andere staten die het modelvoorschrift overnemen; de artikelnummers verschillen per editie en per wijziging door de staat. [[VERIFY: artikelnummer in de model-IECC van 2021 en 2024 en in de overname door elke doelstaat — specificatie en compliance]]
+Warmte die op de gasten valt en uitgaat als het terras leegloopt, is al wat veel voorschriften voor utiliteitsbouw vragen. Het energievoorschrift voor utiliteitsbouw van Washington, dat de IECC 2021 overneemt, eist dat elk systeem dat wordt geïnstalleerd om buiten een gebouw te verwarmen **stralingswarmte** levert, en wordt bediend met een **aanwezigheidssensor of tijdschakelaar**, zodat het uitschakelt als er niemand is.[^s10] ASHRAE 90.1 eist eveneens stralingsverwarming waar niet-omsloten ruimtes worden verwarmd.[^s17] Dezelfde IECC-bepaling staat in andere staten die het modelvoorschrift overnemen; de artikelnummers verschillen per editie en per wijziging door de staat. [[VERIFY: artikelnummer in de model-IECC van 2021 en 2024 en in de overname door elke doelstaat — specificatie en compliance]] Deze bepaling wordt bij het voorschrijven het vaakst over het hoofd gezien.
+
+> Warmte die je voelt, niet ziet.
 
 Ze bepaalt het ontwerp op twee manieren.
 
 1. **Buitenverwarmers met geforceerde lucht of convectie vallen bij utiliteitsprojecten buiten deze voorschriften**, zodat stralingswarmte de keuze is die voldoet.
 2. **Bediening wordt onderdeel van de naleving.** Affinity Smart-Heat Controls bieden schema's en timers via de Bromic Smart-Heat app, met zones en een handmatige wandschakelaar.[^s19] Wifi- en app-functies vragen om compatibele Affinity-bediening, apart verkrijgbaar. [[VERIFY: of Affinity-schema's voldoen aan de "timer switch" uit het voorschrift, en een goedgekeurde koppeling met een aanwezigheidssensor — productteam]]
 
-## Washington, Denver, Colorado en Massachusetts
+## Nog vier plekken die het terras vormgeven
+
+Van Seattle tot Boston is de richting dezelfde, en elektrische stralingswarmte past daar goed bij.
 
 **Staat Washington.** Het voorschrift voor utiliteitsbouw eist ruimteverwarming met een warmtepomp (C403.1.4); de huidige gewijzigde versie geldt sinds 15 maart 2024, en de opties voor bijverwarming zijn in december 2024 verruimd.[^s11] Initiative 2066, in 2024 door kiezers aangenomen om deze bepalingen in te perken, werd in september 2026 door het Hooggerechtshof van Washington in zijn geheel ongrondwettig verklaard.[^s12] Buitenwarmte valt onder de regel van stralingswarmte plus bediening hierboven, welke brandstof ook.[^s10]
 
@@ -239,48 +241,35 @@ Ze bepaalt het ontwerp op twee manieren.
 
 **Massachusetts.** De wet van de staat staat maximaal tien gemeenten toe om fossielvrije nieuwbouw en ingrijpende renovatie te eisen onder 225 CMR 24.00. De deelnemers zijn Acton, Aquinnah, Arlington, Brookline, Cambridge, Concord, Lexington, Lincoln, Newton en Northampton.[^s16] De modelregel zondert onderzoekslaboratoria en zorginstellingen uit; we vonden niets dat voor buitentoestellen is geschreven.[^s16] Elke gemeente stelt haar eigen verordening vast. [[VERIFY: tekst van de verordening van elke deelnemende gemeente over gastoestellen buiten en gasleidingen op het perceel — specificatie en compliance]]
 
-## Een buitenruimte elektrisch voorbereid plannen
+## Klaar voor warmte vanaf de eerste tekening
 
 Buitenwarmte kost het minst en oogt het mooist als ze wordt toegevoegd voordat het plafond dichtgaat en het groepenschema vastligt. Deze planningspunten gelden ook in Nederland; de installatie zelf volgt NEN 1010.
 
 ![Overdekte buitenkeuken, verwarmd door verwarmers die vlak in het plafond zijn ingebouwd](img:l-010-067)
 
-| Planningspunt | Wat u doet | Waarom |
+| Stap | Wat u plant | Waarom het telt |
 |---|---|---|
-| Belasting | Neem de belasting van de verwarmers op in de berekening van de aansluiting: tel het vermogen van elke geplande verwarmer op | Voorkomt later een zwaardere aansluiting |
-| Groepen | Eigen groepen; in de VS geleiders op minstens 125% van de verwarmingsbelasting volgens NEC 424[^s18]; in Nederland volgens NEN 1010 | Eis voor vaste elektrische ruimteverwarming |
-| Spanning | Bevestig de nominale spanning van elk model; in de VS waren er voor utiliteitsbouw uitvoeringen voor 208, 240 en 277 V[^s20]; in Nederland 230 V, 50 Hz | De spanning bepaalt de stroom en het aantal groepen |
-| Ruimte in de groepenkast | Reserveer plaatsen voor elke verwarmingszone plus één reserve | Late toevoegingen zijn waar projecten vastlopen |
-| Leidingen | Lege buizen met trekdraad naar elke toekomstige positie van verwarmer en regelaar, plus een reservebuis naar de groepenkast | Zo kan warmte worden toegevoegd zonder afwerking open te maken |
-| Inbouwholtes | Maak regelwerk en achterhout in het overstek op de maat van de inbouwset | Ingebouwde verwarmers vragen diepte die later moeilijk toe te voegen is [[VERIFY: holtediepte per model — productteam]] |
-| Bediening | Bepaal de plek van regelaars en wandschakelaars; plan wifi-dekking bij de regelaars; stem een eventuele koppeling met Control4, Crestron of Lutron af[^s19] | Bediening is verplicht, en energievoorschriften kunnen uitschakeling via aanwezigheid of timer eisen |
-| Zones | Eén zone per gebied dat op verschillende momenten wordt gebruikt | Zo sluiten schema's aan op het gebruik, wat energie bespaart |
-| Vochtige en natte locaties | Dozen, componenten en verwarmers die geschikt zijn voor de locatie[^s18] | Buitenlocaties zijn vochtig of nat |
+| 1 | **Belasting.** Neem de belasting van de verwarmers op in de berekening van de aansluiting: tel het vermogen van elke geplande verwarmer op | Voorkomt later een zwaardere aansluiting |
+| 2 | **Groepen.** Eigen groepen; in de VS geleiders op minstens 125% van de verwarmingsbelasting volgens NEC 424[^s18]; in Nederland volgens NEN 1010 | Eis voor vaste elektrische ruimteverwarming |
+| 3 | **Spanning.** Bevestig de nominale spanning van elk model; in de VS waren er voor utiliteitsbouw uitvoeringen voor 208, 240 en 277 V[^s20]; in Nederland 230 V, 50 Hz | De spanning bepaalt de stroom en het aantal groepen |
+| 4 | **Ruimte in de groepenkast.** Reserveer plaatsen voor elke verwarmingszone plus één reserve | Late toevoegingen zijn waar projecten vastlopen |
+| 5 | **Leidingen.** Lege buizen met trekdraad naar elke toekomstige positie van verwarmer en regelaar, plus een reservebuis naar de groepenkast | Zo kan warmte worden toegevoegd zonder afwerking open te maken |
+| 6 | **Inbouwholtes.** Maak regelwerk en achterhout in het overstek op de maat van de inbouwset | Ingebouwde verwarmers vragen diepte die later moeilijk toe te voegen is [[VERIFY: holtediepte per model — productteam]] |
+| 7 | **Bediening.** Bepaal de plek van regelaars en wandschakelaars; plan wifi-dekking bij de regelaars; stem een eventuele koppeling met Control4, Crestron of Lutron af[^s19] | Bediening is verplicht, en energievoorschriften kunnen uitschakeling via aanwezigheid of timer eisen |
+| 8 | **Zones.** Eén zone per gebied dat op verschillende momenten wordt gebruikt | Zo sluiten schema's aan op het gebruik, wat energie bespaart |
+| 9 | **Vochtige en natte locaties.** Dozen, componenten en verwarmers die geschikt zijn voor de locatie[^s18] | Buitenlocaties zijn vochtig of nat |
 
-### Hoeveel belasting een verwarmer toevoegt
+**Hoeveel belasting een verwarmer toevoegt.** Stroom (A) = vermogen (W) ÷ spanning (V). In de VS worden de geleiders daarna gedimensioneerd op 125% van die belasting;[^s18] in Nederland bepaalt de installateur groep, beveiliging en kabeldoorsnede volgens NEN 1010. Ter illustratie, op 230 V eenfase: Platinum Smart-Heat Electric trekt 10,0 A bij 2300 W, 14,8 A bij 3400 W en 19,6 A bij 4500 W. [[VERIFY: nominale spanning en stroom per Platinum-model — productteam]] Uw installateur dimensioneert de groep en de beveiliging volgens de geldende voorschriften en het typeplaatje.
 
-Stroom (A) = vermogen (W) ÷ spanning (V). In de VS worden de geleiders daarna gedimensioneerd op 125% van die belasting;[^s18] in Nederland bepaalt de installateur groep, beveiliging en kabeldoorsnede volgens NEN 1010. De tabel is alleen ter illustratie, op 230 V eenfase.
+## De keuze die bij elke regel past
 
-| Platinum Smart-Heat Electric | Stroom op 230 V |
-|---|---|
-| 2300 W | 10,0 A |
-| 3400 W | 14,8 A |
-| 4500 W | 19,6 A |
+Naast elkaar gezet is elektrische stralingswarmte de optie die het best past bij de regels in deze gids.
 
-[[VERIFY: nominale spanning en stroom per Platinum-model — productteam]] Uw installateur dimensioneert de groep en de beveiliging volgens de geldende voorschriften en het typeplaatje.
+**Elektrische stralingswarmte (ingebouwd).** Volledig elektrische nieuwbouw (NYC LL154, staat New York): verenigbaar; energievoorschriften met warmtepomp als referentie (CA 2025): niet geraakt in de geraadpleegde bronnen; regel voor buitenverwarming (IECC/WSEC C403.11.1): voldoet als stralingswarmte met aanwezigheids- of timerbediening; gasdefinities tot de perceelgrens (model-Berkeley): niet geraakt; Denver 2025 "electric resistance space heat": [[VERIFY: interpretatie]]; vergunningstraject (VS): elektrische vergunning; erkende elektricien; bediening en schema's: Affinity-regelaars, wandschakelaar, schema's en zones in de app[^s19]; toekomstbestendigheid: past bij elke richting die de regels opgaan.
 
-## Elektrische stralingswarmte, aardgas en propaan naast elkaar
+**Aardgas via een leiding (ingebouwd).** Volledig elektrische nieuwbouw (NYC LL154, staat New York): geen gastoevoer in een volledig elektrisch gebouw; energievoorschriften met warmtepomp als referentie (CA 2025): niet verboden; de referentie voor verwarming binnen gaat er niet over; regel voor buitenverwarming (IECC/WSEC C403.11.1): voldoet als stralingswarmte en bediend; gasdefinities tot de perceelgrens (model-Berkeley): valt eronder; Denver 2025 "electric resistance space heat": fossiele beperkingen kunnen gelden; vergunningstraject (VS): vergunning voor leidingwerk/installaties; erkende gasinstallateur; aNSI Z223.1/NFPA 54[^s20]; bediening en schema's: gasbediening per model; toekomstbestendigheid: kwetsbaar voor nieuwe lokale regels.
 
-| Factor | Elektrische stralingswarmte (ingebouwd) | Aardgas via een leiding (ingebouwd) | Propaan (mobiel) |
-|---|---|---|---|
-| Volledig elektrische nieuwbouw (NYC LL154, staat New York) | Verenigbaar | Geen gastoevoer in een volledig elektrisch gebouw | Smalle, onduidelijke uitzondering [[VERIFY]] |
-| Energievoorschriften met warmtepomp als referentie (CA 2025) | Niet geraakt in de geraadpleegde bronnen | Niet verboden; de referentie voor verwarming binnen gaat er niet over | Niet geraakt in de geraadpleegde bronnen |
-| Regel voor buitenverwarming (IECC/WSEC C403.11.1) | Voldoet als stralingswarmte met aanwezigheids- of timerbediening | Voldoet als stralingswarmte en bediend | Voldoet als stralingswarmte; automatisch uitschakelen is lastiger |
-| Gasdefinities tot de perceelgrens (model-Berkeley) | Niet geraakt | Valt eronder | Niet aangesloten; hangt af van de formulering |
-| Denver 2025 "electric resistance space heat" | [[VERIFY: interpretatie]] | Fossiele beperkingen kunnen gelden | Hangt af van de reikwijdte |
-| Vergunningstraject (VS) | Elektrische vergunning; erkende elektricien | Vergunning voor leidingwerk/installaties; erkende gasinstallateur; ANSI Z223.1/NFPA 54[^s20] | Regels van de brandweer voor opslag en gebruik |
-| Bediening en schema's | Affinity-regelaars, wandschakelaar, schema's en zones in de app[^s19] | Gasbediening per model | Handmatig op het toestel |
-| Toekomstbestendigheid | Past bij elke richting die de regels opgaan | Kwetsbaar voor nieuwe lokale regels | Kwetsbaar voor brandweer- en lokale regels |
+**Propaan (mobiel).** Volledig elektrische nieuwbouw (NYC LL154, staat New York): smalle, onduidelijke uitzondering [[VERIFY]]; energievoorschriften met warmtepomp als referentie (CA 2025): niet geraakt in de geraadpleegde bronnen; regel voor buitenverwarming (IECC/WSEC C403.11.1): voldoet als stralingswarmte; automatisch uitschakelen is lastiger; gasdefinities tot de perceelgrens (model-Berkeley): niet aangesloten; hangt af van de formulering; Denver 2025 "electric resistance space heat": hangt af van de reikwijdte; vergunningstraject (VS): regels van de brandweer voor opslag en gebruik; bediening en schema's: handmatig op het toestel; toekomstbestendigheid: kwetsbaar voor brandweer- en lokale regels.
 
 ## Uw checklist voor de planning
 

@@ -142,20 +142,22 @@ waar de markt heen gaat, niet wat er in Nederland geldt.
 
 ## Het jaar in één oogopslag
 
-| # | De verschuiving | Het cijfer | Bron |
-|---|---|---|---|
-| 01 | Het terras is een omzetpost | 35% van de Amerikaanse horecazaken met een terras zei dat het meer dan 40% van de dagomzet opleverde | NRA, 2021[^s1] |
-| 02 | Gasten kiezen de tafel buiten | 55% van de Amerikanen eet bij mooi weer het liefst buiten | OpenTable, 2025[^s3] |
-| 03 | Minder bezoek maakt elke plaats waardevol | 61% van de Amerikaanse full-service restaurants zag in 2025 minder bezoekers | NRA, 2026[^s2] |
-| 04 | Energie is een post die ondernemers nu volgen | 82% van de Amerikaanse full-service restaurants noemt energie- of nutskosten een grote uitdaging | NRA, 2026[^s2] |
-| 05 | Buiten eten is vaste infrastructuur | Bijna 2.450 opstellingen in Dining Out NYC | New York, 2025[^s5] |
-| 06 | Propaan verdwijnt van het terras | New York trok vanaf juni 2021 de toestemming voor propaanverwarmers op terrassen in | NYC EEO 200[^s7] |
-| 07 | Elektrificatie bereikt het terras | Nieuwbouw in New York: geen brandstof met 25 kg CO2 of meer per miljoen Btu | NYC DOB[^s10] |
-| 08 | Gasten komen voor de gelegenheid | 84% van de Amerikaanse gasten ziet uit eten gaan als kans om samen te zijn | NRA, 2026[^s2] |
-| 09 | Hotels laten buitenruimte renderen | GOPPAR in de VS nog ongeveer 90% van 2019 | AHLA, 2026[^s12] |
-| 10 | Warmte verdwijnt in de architectuur | 30% open omtrek definieert een buitenruimte | Bromic, 2021[^s14] |
+Tien ontwikkelingen veranderen het terras dit jaar, en elk ervan biedt de kans om op meer avonden meer plaatsen te vullen.
+
+- **01 Het terras is een omzetpost.** 35% van de Amerikaanse horecazaken met een terras zei dat het meer dan 40% van de dagomzet opleverde.[^s1]
+- **02 Gasten kiezen de tafel buiten.** 55% van de Amerikanen eet bij mooi weer het liefst buiten.[^s3]
+- **03 Minder bezoek maakt elke plaats waardevol.** 61% van de Amerikaanse full-service restaurants zag in 2025 minder bezoekers.[^s2]
+- **04 Energie is een post die ondernemers nu volgen.** 82% van de Amerikaanse full-service restaurants noemt energie- of nutskosten een grote uitdaging.[^s2]
+- **05 Buiten eten is vaste infrastructuur.** Bijna 2.450 opstellingen in Dining Out NYC.[^s5]
+- **06 Propaan verdwijnt van het terras.** New York trok vanaf juni 2021 de toestemming voor propaanverwarmers op terrassen in.[^s7]
+- **07 Elektrificatie bereikt het terras.** Nieuwbouw in New York: geen brandstof met 25 kg CO2 of meer per miljoen Btu.[^s10]
+- **08 Gasten komen voor de gelegenheid.** 84% van de Amerikaanse gasten ziet uit eten gaan als kans om samen te zijn.[^s2]
+- **09 Hotels laten buitenruimte renderen.** GOPPAR in de VS nog ongeveer 90% van 2019.[^s12]
+- **10 Warmte verdwijnt in de architectuur.** 30% open omtrek definieert een buitenruimte.[^s14]
 
 ## 01 · Het terras is een omzetpost geworden
+
+Op een warme avond is het terras je drukste ruimte, en elke verwarmde plaats daarbuiten is een extra tafel die je kunt verkopen.
 
 > **35%** van de Amerikaanse horecazaken met een terras zei dat het meer dan 40% van de gemiddelde dagomzet opleverde; bij full-service restaurants was dat 41%.[^s1]
 > *Bron: National Restaurant Association (VS), enquête onder ondernemers, september 2021.*
@@ -175,6 +177,8 @@ waar de markt heen gaat, niet wat er in Nederland geldt.
 
 ## 02 · Gasten kiezen de tafel buiten en blijven langer
 
+Vraag gasten waar ze willen zitten, en de meesten kijken naar buiten.
+
 > **55%** van de Amerikanen zit bij mooi weer het liefst buiten; **34%** trotseert liever onverwacht weer dan de tafel buiten op te geven.[^s3]
 > *Bron: OpenTable, consumentenonderzoek door Walr onder 2.000 Amerikaanse volwassenen, april 2025.*
 
@@ -185,13 +189,15 @@ waar de markt heen gaat, niet wat er in Nederland geldt.
 - Gasten willen de tafel buiten, en comfort bepaalt hoe lang ze die houden. Een langer bezoek brengt meer drankjes en desserts, met minder tafelrondes.
 - Een gast die het koud krijgt, vertrekt eerder en reserveert de volgende keer misschien binnen.
 
-**Inzicht van Bromic.** Gasten vragen om de tafel buiten, en ze blijven als ze het warm hebben.
+> Gasten vragen om de tafel buiten, en ze blijven als ze het warm hebben.
 
 **Ontwerpkeuze.** Hang stralingswarmte boven elke tafelgroep, zodat elke stoel binnen het bereik valt.
 
 **Bromic-project.** [Hotel Skansen](https://www.bromic.com/case-study/hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-heat-freestanding-heaters/), Zweden: Eclipse Smart-Heat Freestanding verwarmers met de Eclipse Dimmer Controller houden het terras van restaurant SAND in gebruik.
 
 ## 03 · Als het bezoek terugloopt, telt elke plaats
+
+Als gasten zorgvuldiger kiezen waar ze een avond doorbrengen, is de gloed van een warm terras een uitnodiging van over de straat.
 
 > **61%** van de full-service en **64%** van de limited-service zaken in de VS zei dat er in 2025 minder gasten kwamen dan in 2024.[^s2]
 > *Bron: National Restaurant Association, State of the Restaurant Industry 2026.*
@@ -211,6 +217,8 @@ waar de markt heen gaat, niet wat er in Nederland geldt.
 
 ## 04 · Energie heeft nu een plek op elk budget
 
+De best geleide terrassen zijn ook de warmste, met warmte precies waar gasten zitten en alleen zolang ze er zijn.
+
 > **82%** van de full-service en **79%** van de limited-service zaken in de VS noemde energie- of nutskosten in 2025 een grote uitdaging; **42%** zei niet winstgevend te zijn.[^s2]
 > *Bron: National Restaurant Association, State of the Restaurant Industry 2026.*
 
@@ -229,6 +237,8 @@ waar de markt heen gaat, niet wat er in Nederland geldt.
 
 ## 05 · Buiten eten is er om te blijven
 
+Het terras dat als noodoplossing begon, is nu een vergund, vast onderdeel van de straat waar de buurt van is gaan houden.
+
 > Het permanente programma van New York, Dining Out NYC, telde in 2025 bijna **2.450** opstellingen op de rijbaan en het trottoir, ruim twee en een half keer zoveel als de trottoircaféregeling van vóór COVID. Opstellingen op het trottoir mogen het hele jaar blijven; die op de rijbaan van 1 april tot 29 november.[^s5]
 > *Bron: City of New York, Office of the Mayor, 1 april 2025.*
 
@@ -246,6 +256,8 @@ waar de markt heen gaat, niet wat er in Nederland geldt.
 *Regels verschillen per gemeente en veranderen vaak. In Nederland stelt uw gemeente de terrasregels vast, onder meer in de APV en de terrasvergunning. Vraag na wat voor uw zaak geldt en laat de installatie uitvoeren door een erkend elektrotechnisch installateur of gasinstallateur. [[VERIFY: terrasvergunning, APV en voorwaarden voor terrasverwarming in Nederlandse gemeenten — Bromic Benelux distributor]]*
 
 ## 06 · Propaan verdwijnt van het terras
+
+Een terras zonder gasflessen om te wisselen is rustiger voor je team en eenvoudiger bij elke inspectie.
 
 > New York trok per **1 juni 2021** de toestemming in om propaanverwarmers te gebruiken op terrassen.[^s7]
 > *Bron: City of New York, Emergency Executive Order No. 200.*
@@ -267,6 +279,8 @@ waar de markt heen gaat, niet wat er in Nederland geldt.
 
 ## 07 · Elektrificatie komt aan op het terras
 
+De nieuwste gebouwen worden zonder gas ontworpen, en hun terrassen kunnen net zo warm zijn.
+
 > Nieuwe gebouwen in New York City mogen geen brandstof verbranden die **25 kg CO2 of meer per miljoen Btu** uitstoot; de wet geldt alleen voor nieuwbouw, wordt ingevoerd te beginnen bij laagbouw en kent uitzonderingen, onder meer voor bedrijfskeukens.[^s10]
 > *Bron: NYC Department of Buildings, Local Law 154 of 2021. (Btu is de Amerikaanse wettelijke eenheid; een miljoen Btu is ongeveer 293 kWh.)*
 
@@ -286,6 +300,8 @@ waar de markt heen gaat, niet wat er in Nederland geldt.
 
 ## 08 · Gasten komen voor de gelegenheid
 
+Verjaardagen, proeverijen en lange feesten brengen gasten terug, en het terras kan de ruimte zijn die ze het best onthouden.
+
 > **84%** van de Amerikaanse restaurantgasten zegt dat uit eten gaan met familie of vrienden een kans is om samen te zijn en een betere besteding van vrije tijd; **76%** zou waarschijnlijk naar proeverijen in een restaurant gaan.[^s2]
 > *Bron: National Restaurant Association, State of the Restaurant Industry 2026.*
 
@@ -303,6 +319,8 @@ waar de markt heen gaat, niet wat er in Nederland geldt.
 
 ## 09 · Hotels laten buitenruimte renderen
 
+De plekken die gasten zich na een verblijf herinneren, liggen vaak buiten de geboekte kamer, op een dakterras bij schemering of naast het zwembad.
+
 > De bestedingen van hotelgasten in de VS komen in 2026 naar verwachting uit op bijna **805 miljard dollar**, **1,7%** meer; de brutobedrijfswinst per beschikbare kamer blijft rond **90%** van het niveau van 2019, vooral door stijgende bedrijfskosten.[^s12]
 > *Bron: American Hotel & Lodging Association, State of the Industry 2026.*
 
@@ -318,12 +336,16 @@ waar de markt heen gaat, niet wat er in Nederland geldt.
 
 ## 10 · Warmte verdwijnt in de architectuur
 
+De meest bewonderde terrassen houden hun warmte uit het zicht, zodat een gast alleen de avond opmerkt.
+
 > Bromic noemt een ruimte een buitenruimte als ten minste **30%** van de omtrek permanent open is; de elektrische verwarmers van Bromic werken met **middengolf** en zijn in ongeveer 30 seconden warm, terwijl langegolfwarmte het gevoeligst is voor wind.[^s14] De warmte van middengolf reikt verder over het terras, zonder storende gloed. [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]]
 > *Bron: Bromic Heating, Planning Guide US v1.2, 2021.*
 
 **Wat het betekent voor uw zaak**
 - Architecten willen warmte die gasten voelen, terwijl de verwarmer zelf uit het zicht blijft, en ingebouwde en hangende warmte maakt vloerruimte vrij voor meer plaatsen.
 - Op dakterrassen en open terrassen telt de juiste golflengte zwaarder dan extra toestellen.
+
+> Warmte die je voelt, niet ziet.
 
 **Inzicht van Bromic.** Wordt de verwarming vanaf de eerste tekening meegenomen, dan zitten ingebouwde, plafond- of wandmodellen van Platinum en Tungsten Smart-Heat Electric, elk met zijn Affinity-bediening, rustig in het plafond en laten ze de plattegrond aan uw gasten over.
 
@@ -366,7 +388,8 @@ Ontdek wat uw lege plaatsen waard zouden kunnen zijn. VRAAG UW ROI-ANALYSE AAN.
 
 - **Formaat:** afgeschermde pdf, liggend A4, 14 pagina's; volgt het systeem van het rapport Trends 2026 voor particulieren (witte pagina's, inkt en staalgrijs, vlam `#EF4123` als enige accent op kleine labels en lijnen; koppen in Didot, tekst in Helvetica Neue Light, volgens templates/bromic-voice.md). Geen emoji, geen uitroeptekens.
 - **Pagina 1, omslag:** "Trends in buitenhoreca 2026", ondertitel "Tien manieren waarop het terras zijn plek verdient". Afbeelding `l-016-131`.
-- **Pagina 2, het jaar in cijfers:** de tabel Het jaar in één oogopslag als vier grote cijferblokken (35%, 55%, 61%, 82%) met bronregels; de volledige tabel eronder.
+- **Pagina 2, het jaar in cijfers:** vier grote cijferblokken (35%, 55%, 61%, 82%) met bronregels; de tien ontwikkelingen eronder als lijst.
+- **Marketingronde (19 nov. 2026):** elke trend opent met de avond van de gast vóór de cijfers; de overzichtstabel is een lijst geworden (elk cijfer houdt zijn bron); twee Bromic-zinnen staan als citaat (trend 02, trend 10).
 - **Pagina's 3–12, één trend per pagina:** nummer en kop linksboven; cijferblokken met bronregels in klein kapitaal; "Wat het betekent voor uw zaak" als twee of drie regels; inzicht van Bromic in een kader met vlamlijn; ontwerpkeuze; projectregel met een QR-code naar de case study.
   - 01 `p-003-006` · 02 `l-013-111` · 03 `p-007-030` · 04 `g-operator` (door de eigenaar goedgekeurde gegenereerde afbeelding; label "generated") · 05 `p-002-001` · 06 `p-014-066` · 07 `l-013-107` · 08 `p-010-044` · 09 `t-003-005` · 10 `t-006-016`.
   - `p-`-afbeeldingen tonen het assortiment van 2021: alleen gebruiken als algemene horecascènes, nooit met een productnaam als onderschrift.

@@ -199,6 +199,8 @@ In einer US-Umfrage gaben nur 23 % der Hausbesitzer der Außenheizung in der Pla
 
 ## Neun Schritte zu einem wärmeren Wohnraum im Freien
 
+Neun einfache Entscheidungen, in der richtigen Reihenfolge getroffen, schenken Ihnen einen Wohnraum im Freien, der sich im Oktober so behaglich anfühlt wie im Juli.
+
 | Schritt | Entscheidung | Was Sie brauchen |
 |---|---|---|
 | 1 | Ist es ein Außenbereich? | Grundriss mit Wänden und Dach |
@@ -213,9 +215,9 @@ In einer US-Umfrage gaben nur 23 % der Hausbesitzer der Außenheizung in der Pla
 
 Jeder Schritt schließt mit „Ihre Notizen“, einer kurzen Karte zum Ausfüllen, und zusammen ergeben sie die Aufgabenstellung, die Sie Ihrem Planer übergeben.
 
-## Schritt 1. Prüfen Sie, ob Ihr Bereich als Außenbereich gilt
+## Schritt 1. Beginnen Sie mit dem Ort, den Sie lieben
 
-Ein Bereich gilt als Außenbereich, wenn mindestens 30 % seines Umfangs dauerhaft offen sind[^s3], und die meisten Terrassen, Veranden, Pergolen, Loggien und überdachten Terrassen erfüllen das. Wenn Sie überlegen, den Bereich mit Glas oder Screens weiter zu schließen, sprechen Sie zuerst mit einem Planer, denn das verändert die Planung.
+Terrassen, Veranden, Pergolen, Loggien und überdachte Terrassen sind die Orte, an denen sich Strahlungswärme am wohlsten fühlt, und die meisten von ihnen gelten als Außenbereich. Ein Bereich gilt als Außenbereich, wenn mindestens 30 % seines Umfangs dauerhaft offen sind[^s3]. Wenn Sie überlegen, den Bereich mit Glas oder Screens weiter zu schließen, sprechen Sie zuerst mit einem Planer, denn das verändert die Planung.
 
 Ein Dach arbeitet für Sie. Warme Luft sammelt sich unter einer Überdachung und bildet eine „Wärmewolke“, die die Strahlungswärme sanft verstärkt[^s3].
 
@@ -225,20 +227,24 @@ Ein Dach arbeitet für Sie. Warme Luft sammelt sich unter einer Überdachung und
 - [ ] Offen, teilweise überdacht oder überdacht: ______
 - [ ] Pläne für Glas, Screens oder Rollos: ______
 
-## Schritt 2. Messen Sie den Raum, in dem Sie leben
+## Schritt 2. Messen Sie, wo der Abend stattfindet
 
-Messen Sie die Fläche, auf der Sie und Ihre Gäste tatsächlich sitzen, und notieren Sie, wie und wann Sie sie gern nutzen.
+Überlegen Sie, wo alle wirklich zusammenkommen, am Esstisch, auf dem Sofa oder am Feuer, und messen Sie diese Fläche aus, mit einer Notiz, wie und wann Sie sie gern nutzen.
 
 - [ ] Länge × Breite der Fläche, die warm werden soll = ______ m² (über den Sitzplätzen messen, nicht die ganze Terrasse)
 - [ ] Höhe von Decke oder Balken ______ m; Deckenmaterial ______
 - [ ] Windseite ______; in der Nähe von Wasser? J / N
 - [ ] Monate und Uhrzeiten der Nutzung ______
 
-## Schritt 3. Elektro oder Gas wählen
+## Schritt 3. Wählen Sie die Wärme, die zu Ihrem Zuhause passt
 
 ### Warum sich Strahlungswärme wie Sonnenschein anfühlt
 
-Im Freien steigt warme Luft auf und zieht davon; Warmluftgeräte und Thermostate können eine offene Terrasse deshalb nicht auf einer bestimmten Temperatur halten[^s3]. Strahlungswärme (Infrarot) erwärmt Menschen, Möbel und Böden direkt, ganz wie die Sonne auf der Haut, und hält Sie auch bei einer leichten Brise behaglich warm. Wärme, die man spürt, nicht sieht. Die elektrischen Heizstrahler von Bromic sind mittelwellig, gewählt für Wärme, die den fernen Stuhl ebenso erreicht wie den nahen und die Temperatur stärker anhebt, mit sanftem Licht und ohne Blendung [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]].
+Treten Sie an einem Wintertag in einen Sonnenfleck, und Ihnen wird sofort warm, obwohl die Luft kühl ist. Strahlungswärme (Infrarot) wirkt genauso: Sie erwärmt Menschen, Möbel und Böden direkt und hält Sie auch bei einer leichten Brise behaglich warm. Im Freien steigt warme Luft auf und zieht davon; Warmluftgeräte und Thermostate können eine offene Terrasse deshalb nicht auf einer bestimmten Temperatur halten[^s3].
+
+> Wärme, die man spürt, nicht sieht.
+
+Die elektrischen Heizstrahler von Bromic sind mittelwellig, gewählt für Wärme, die den fernen Stuhl ebenso erreicht wie den nahen und die Temperatur stärker anhebt, mit sanftem Licht und ohne Blendung [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]].
 
 | | Heizfläche | Temperaturanstieg | Reichweite der Wärme | Sichtbares Glühen | Aufheizzeit |
 |---|---|---|---|---|---|
@@ -252,6 +258,8 @@ Eine Feuerstelle ist ein schöner Blickfang, hält aber allein selten einen ganz
 
 ### Elektro oder Gas für Ihr Zuhause
 
+Elektro passt zu den meisten überdachten Terrassen und bietet die feinste Steuerung; Gas passt zu größeren, offeneren Flächen.
+
 | | Elektro | Gas (Erdgas oder Flüssiggas) |
 |---|---|---|
 | Geeignet für | Überdachte Terrassen, Pergolen, Loggien; Decken, Wände, Stangen | Größere, offenere Flächen |
@@ -261,13 +269,7 @@ Eine Feuerstelle ist ein schöner Blickfang, hält aber allein selten einen ganz
 
 ### Was ein warmer Abend kostet
 
-Berechnen Sie die Betriebskosten aus der Leistung des Heizstrahlers und Ihrem eigenen Energiepreis.
-
-- **Elektro:** Kosten pro Stunde = kW × Preis je kWh
-- **Erdgas:** Kosten pro Stunde = Nennwärmebelastung in kW × Preis je kWh Gas
-- **Flüssiggas:** Kosten pro Stunde = Nennwärmebelastung in kW ÷ ca. 7,1 kWh je Liter[^s23] × Preis je Liter
-
-Setzen Sie Ihre eigenen Preise aus Ihrer Strom- bzw. Gasrechnung ein. Zum Vergleich die Werte, mit denen die US-Ausgabe rechnet (US-Durchschnitte): Strom 18,3 US-Cent/kWh (EIA, Privathaushalte, Juli 2026)[^s18]; Erdgas 2,55 US-$ je Therm, das sind ca. 29,3 kWh (EIA, Privathaushalte, Juli 2026)[^s19]; Propan 2,674 US-$ je US-Gallone (3,785 L) (EIA, Privathaushalte, Woche vom 30. März 2026)[^s20]. [[VERIFY: Tarife für Privathaushalte 2026 — Finanzen]]
+Ein behaglicher Abend im Freien kostet weniger, als viele erwarten. Ein Tungsten Electric mit 4000 W verbraucht bei voller Leistung 4 kWh pro Stunde; mit dem US-Durchschnitt für Privathaushalte vom Juli 2026 sind das etwa 0,73 US-$[^s18].
 
 | Heizstrahler bei voller Leistung | Energie pro Stunde | Kosten pro Stunde (US-Beispiel) |
 |---|---|---|
@@ -280,12 +282,16 @@ Setzen Sie Ihre eigenen Preise aus Ihrer Strom- bzw. Gasrechnung ein. Zum Vergle
 
 Dimmen oder ein Eclipse auf 33 % oder 66 %[^s7] verbraucht noch weniger. Diese Werte ersetzen die Zahlen des Leitfadens von 2021, die mit Preisen von 2021 rechneten.
 
+So rechnen Sie mit Ihrer eigenen Rechnung: Elektro, kW × Preis je kWh; Erdgas, Nennwärmebelastung in kW × Preis je kWh Gas; Flüssiggas, Nennwärmebelastung in kW ÷ ca. 7,1 kWh je Liter[^s23] × Preis je Liter. Setzen Sie Ihre eigenen Preise aus Ihrer Strom- bzw. Gasrechnung ein. Zum Vergleich die Werte, mit denen die US-Ausgabe rechnet (US-Durchschnitte): Strom 18,3 US-Cent/kWh (EIA, Privathaushalte, Juli 2026)[^s18]; Erdgas 2,55 US-$ je Therm, das sind ca. 29,3 kWh (EIA, Privathaushalte, Juli 2026)[^s19]; Propan 2,674 US-$ je US-Gallone (3,785 L) (EIA, Privathaushalte, Woche vom 30. März 2026)[^s20]. [[VERIFY: Tarife für Privathaushalte 2026 — Finanzen]]
+
 - [ ] Elektro / Erdgas / Flüssiggas: ______
 - [ ] Ihr Preis laut Rechnung: ______ je kWh bzw. Liter
 
 ![Freistehender Tungsten Gasheizstrahler in einem Steinhof in der Abenddämmerung](img:l-019-163)
 
-## Schritt 4. Eine Optik wählen, die zu Ihrem Zuhause passt
+## Schritt 4. Finden Sie die Optik, die zu Ihrem Zuhause gehört
+
+Der richtige Heizstrahler sieht aus, als hätte er schon immer zum Haus gehört, ob er bündig in der Decke sitzt oder als Pendel über dem Tisch hängt.
 
 | Serie | Optik | Montage | Ausführungen |
 |---|---|---|---|
@@ -309,19 +315,9 @@ Wenn Ihnen die klare, bündige Optik eines eingelassenen Heizstrahlers gefällt,
 
 ![Schwarzer Deckenheizstrahler über einer Lounge im Kerzenlicht](img:l-007-035)
 
-## Schritt 5. Die Wärme auf Ihren Raum abstimmen
+## Schritt 5. Wärme für jeden Stuhl
 
-Benötigte Heizstrahler = Fläche ÷ (Heizfläche je Heizstrahler × Überdachungsfaktor × Klimafaktor), aufgerundet. Ein kälterer oder offenerer Bereich braucht für dieselbe Fläche mehr Wärme[^s3], und die beiden Faktoren bringen das in die Rechnung.
-
-| Überdachung | Faktor | Klima (Abende, an denen Sie heizen) | Faktor |
-|---|---|---|---|
-| Offen (kein Dach) | 0,85 | Mild (über ca. 10 °C) | 1,0 |
-| Teilweise überdacht (Pergola, Schirm, Teildach) | 1,0 | Kühl (ca. 4–10 °C) | 0,85 |
-| Überdacht (festes Dach) | 1,1 | Kalt (oft unter ca. 4 °C) | 0,7 |
-
-[[VERIFY: Überdachungs- und Klimafaktoren — Produktteam]] Wenn Sie unsicher sind, nehmen Sie teilweise überdacht und kühl, das ergibt 1,0 × 0,85 = 0,85. Messen Sie die Fläche, auf der gesessen wird, und wenn Sie stattdessen die Zahl der Plätze kennen, rechnen Sie mit ca. 1,9 m² je Platz.
-
-**Freistehende Heizstrahler** (Tungsten Freestanding Gas, Eclipse Freestanding) versorgen höchstens vier Plätze je Gerät, weil die Gäste selbst einen Teil der Strahlungswärme abschirmen. Rechnen Sie auf beide Arten und nehmen Sie den größeren Wert aus Fläche ÷ (Heizfläche × Faktoren) und Plätze ÷ 4.
+Jeder Gast soll auf jedem Platz den ganzen Abend behaglich sitzen. Der kostenlose [Rechner „Wie viele Heizstrahler?“](asset:A03) nennt Ihnen die Zahl in einer Minute, und das Planungsteam von Bromic kann sie bestätigen.
 
 | Heizstrahler | Heizfläche je Heizstrahler (ca.) |
 |---|---|
@@ -336,7 +332,7 @@ Benötigte Heizstrahler = Fläche ÷ (Heizfläche je Heizstrahler × Überdachun
 
 Die Heizfläche ist ein Näherungswert und hängt von Montagehöhe, Wind und Installation ab[^s2]. Werte von den Produktseiten, gelesen am 29. Oktober 2026. [[VERIFY: Heizfläche und Leistung je Modell mit den Datenblättern 2026 abgleichen; Eclipse 2900 W (Spezifikationstabelle) gegenüber 3000 W (FAQ); Tungsten Freestanding Gas ca. 11,1 kW (Lookbook) gegenüber ca. 11,3 kW (Website) — Produktteam]]
 
-Der kostenlose [Rechner „Wie viele Heizstrahler?“](asset:A03) übernimmt die Rechnung für Sie, mit denselben Überdachungs- und Klimafaktoren.
+**Freistehende Heizstrahler** (Tungsten Freestanding Gas, Eclipse Freestanding) versorgen höchstens vier Plätze je Gerät, weil die Gäste selbst einen Teil der Strahlungswärme abschirmen.
 
 ### Ein Rechenbeispiel: eine überdachte Terrasse von 6,1 × 3,7 m
 
@@ -349,47 +345,46 @@ Der kostenlose [Rechner „Wie viele Heizstrahler?“](asset:A03) übernimmt die
 
 [[DIAGRAM: Grundriss der Terrasse von 6,1 × 3,7 m: zwei eingelassene Tungsten Heizstrahler entlang der Längsachse oder drei Eclipse Pendel über dem Tisch, mit Wärmekreisen und den offenen Seiten markiert.]]
 
+**Die Rechnung dahinter.** Benötigte Heizstrahler = Fläche ÷ (Heizfläche je Heizstrahler × Überdachungsfaktor × Klimafaktor), aufgerundet. Ein kälterer oder offenerer Bereich braucht für dieselbe Fläche mehr Wärme[^s3]. Überdachungsfaktor: offen (kein Dach) 0,85, teilweise überdacht (Pergola, Schirm, Teildach) 1,0, überdacht (festes Dach) 1,1. Klimafaktor, für die Abende, an denen Sie heizen: mild (über ca. 10 °C) 1,0, kühl (ca. 4–10 °C) 0,85, kalt (oft unter ca. 4 °C) 0,7. [[VERIFY: Überdachungs- und Klimafaktoren — Produktteam]] Wenn Sie unsicher sind, nehmen Sie teilweise überdacht und kühl, das ergibt 1,0 × 0,85 = 0,85. Wenn Sie stattdessen die Zahl der Plätze kennen, rechnen Sie mit ca. 1,9 m² je Platz; bei freistehenden Heizstrahlern nehmen Sie den größeren Wert aus Fläche ÷ (Heizfläche × Faktoren) und Plätze ÷ 4. Der Rechner verwendet dieselben Faktoren.
+
 - [ ] Fläche ÷ (Heizfläche × Überdachung × Klima) = ______, aufgerundet = ______ Heizstrahler (freistehend: mindestens Plätze ÷ 4)
 - [ ] Rechner ausgeführt; Ergebnis gespeichert
 
-## Schritt 6. Strom oder Gas planen
+## Schritt 6. Strom an seinem Platz, bevor die Decke schließt
 
-Elektro-Heizstrahler werden fest angeschlossen, und Ihr Elektrofachbetrieb bemisst jeden Stromkreis nach der Stromaufnahme des Heizstrahlers und nach DIN VDE 0100. In Deutschland beträgt die Netzspannung 230 V; die Stromaufnahme ist Leistung ÷ 230 V:
-
-| Heizstrahler | Ampere bei 230 V |
-|---|---|
-| Platinum Electric 2300 / 3400 / 4500 W[^s5] | 10,0 / 14,8 / 19,6 |
-| Eclipse Electric 2900 W[^s7] | 12,6 |
-| Eclipse Freestanding 2900 W[^s8] | 12,6 |
-| Cobalt Electric 4000 / 6000 W[^s9] | 17,4 / 26,1 |
-| Tungsten Electric 2000 / 3000 / 4000 / 6000 W | 8,7 / 13,0 / 17,4 / 26,1 |
-
-Die Werte sind als Watt ÷ 230 V berechnet; die US-Produktseiten nennen die Stromaufnahme bei 208 und 240 V. [[VERIFY: Stromaufnahme je Tungsten Electric Modell und Nennspannung der in Deutschland gelieferten Modelle — Produktteam]]
+Planen Sie den Strom, solange die Decke offen ist, dann wird die Leitung nur einmal verlegt, unsichtbar und genau dort, wo die Heizstrahler hängen werden. Elektro-Heizstrahler werden fest angeschlossen, und Ihr Elektrofachbetrieb bemisst jeden Stromkreis nach der Stromaufnahme des Heizstrahlers und nach DIN VDE 0100. In Deutschland beträgt die Netzspannung 230 V; die Stromaufnahme ist Leistung ÷ 230 V.
 
 Fest installierte Gasheizstrahler brauchen eine Gasleitung vom Gasinstallateur und einen Stromanschluss; die US-Produktseiten nennen 110 V, 2 A[^s10][^s11]. Der Tungsten Freestanding Gas läuft laut US-Produktseite mit einer Propanflasche von ca. 9 kg (20 lb) oder mit Erdgas über eine Schnellanschlussleitung von ca. 3 m[^s12]; in Deutschland sind 5-kg- und 11-kg-Flaschen üblich.
+
+**Für Ihren Elektrofachbetrieb: Stromaufnahme bei 230 V**
+- Platinum Electric 2300 / 3400 / 4500 W[^s5]: 10,0 / 14,8 / 19,6 A
+- Eclipse Electric 2900 W[^s7]: 12,6 A
+- Eclipse Freestanding 2900 W[^s8]: 12,6 A
+- Cobalt Electric 4000 / 6000 W[^s9]: 17,4 / 26,1 A
+- Tungsten Electric 2000 / 3000 / 4000 / 6000 W: 8,7 / 13,0 / 17,4 / 26,1 A
+
+Die Werte sind als Watt ÷ 230 V berechnet; die US-Produktseiten nennen die Stromaufnahme bei 208 und 240 V. [[VERIFY: Stromaufnahme je Tungsten Electric Modell und Nennspannung der in Deutschland gelieferten Modelle — Produktteam]]
 
 - [ ] Kapazität der Verteilung vom Elektrofachbetrieb geprüft
 - [ ] Stromkreis je Heizstrahler oder Gruppe; Positionen der Abzweigdosen markiert
 - [ ] Gasleitung und Absperreinrichtung festgelegt (Gas)
 - [ ] Rohinstallation erledigt, bevor die Decke geschlossen wird
 
-## Schritt 7. Steuerung, die alles mühelos macht (erforderlich)
+## Schritt 7. Mühelose Wärme auf Knopfdruck (Steuerung erforderlich)
 
-Jeder Bromic Heizstrahler wird mit Affinity Smart-Heat® Controls kombiniert, damit die Wärme immer genau dort ist, wo und wann Sie sie möchten. Ein vollständiges System vereint diese Teile.
+Jeder Bromic Heizstrahler wird mit Affinity Smart-Heat® Controls kombiniert, damit die Wärme immer genau dort ist, wo und wann Sie sie möchten. Dämpfen Sie sie an einem milden Abend, oder lassen Sie sie schon warten, wenn Sie nach draußen treten. Ein vollständiges System vereint diese Teile.
 
-| Teil | Was es tut | Kapazität |
-|---|---|---|
-| Affinity Smart-Heat On/Off-Steuergerät | Schaltet Heizstrahler; Elektro oder Gas | 1, 2 oder 5 Kanäle; 6 kW je Kanal bei 208–277 V, also auch bei 230 V; bis zu 10 Gasheizstrahler je Kanal[^s13] |
-| Affinity Smart-Heat Dimmer-Steuergerät | Stellt die Wärme in 1-%-Schritten ein; Tungsten und Platinum Electric | 1, 2 oder 5 Kanäle; 6 kW je Kanal bei 208–277 V[^s14] |
-| Affinity Smart-Heat Eclipse Steuergerät | Wärmestufen und Dimmen des Ringlichts beim Eclipse | 1 oder 5 Kanäle; ein Eclipse je Kanal[^s15] |
-| Manueller Wandschalter | Ein/aus an der Tür | US-Ausführung: 20 A, 120–277 V[^s16] |
-| Bromic Smart-Heat App | Zonen, Zeitpläne, Timer | Funktioniert über ein kompatibles Affinity Steuergerät |
+- **Affinity Smart-Heat On/Off-Steuergerät**: Schaltet Heizstrahler; Elektro oder Gas; 1, 2 oder 5 Kanäle; 6 kW je Kanal bei 208–277 V, also auch bei 230 V; bis zu 10 Gasheizstrahler je Kanal.[^s13]
+- **Affinity Smart-Heat Dimmer-Steuergerät**: Stellt die Wärme in 1-%-Schritten ein, für Tungsten und Platinum Electric; 1, 2 oder 5 Kanäle; 6 kW je Kanal bei 208–277 V.[^s14]
+- **Affinity Smart-Heat Eclipse Steuergerät**: Wärmestufen und Dimmen des Ringlichts beim Eclipse; 1 oder 5 Kanäle; ein Eclipse je Kanal.[^s15]
+- **Manueller Wandschalter**: Ein/aus an der Tür; US-Ausführung: 20 A, 120–277 V.[^s16]
+- **Bromic Smart-Heat App**: Zonen, Zeitpläne, Timer; funktioniert über ein kompatibles Affinity Steuergerät.
 
-**Heizstrahler je 6-kW-Kanal:** Tungsten 2000 W: 3 · 3000 W: 2 · 4000 oder 6000 W: 1 · Platinum 2300 W: 2 · 3400 oder 4500 W: 1 · Cobalt: 1 · Eclipse: 1 (an einem Eclipse Steuergerät). Rechnung auf Basis der 6 kW; der Stromkreis kann eine niedrigere Grenze setzen. [[VERIFY: Kapazitäten und Kompatibilität der Steuergeräte — Produktteam]]
+WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Steuerungen, die separat erhältlich sind. Die App funktioniert auch mit Amazon Alexa, Google Assistant, Control4, Crestron und Lutron; die Kompatibilität ist unterschiedlich und kann zusätzliche Hardware oder Einrichtung erfordern[^s2].
 
 Der Eclipse Freestanding wird mit Eclipse Dimmer-Steuergerät und Fernbedienung geliefert[^s8]. Fest installiertes Gas schaltet nur ein und aus und lässt sich nicht dimmen[^s10]. [[VERIFY: welche Steuerung der Tungsten Freestanding Gas verwendet — Produktteam]]
 
-WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Steuerungen, die separat erhältlich sind. Die App funktioniert auch mit Amazon Alexa, Google Assistant, Control4, Crestron und Lutron; die Kompatibilität ist unterschiedlich und kann zusätzliche Hardware oder Einrichtung erfordern[^s2].
+**Heizstrahler je 6-kW-Kanal:** Tungsten 2000 W: 3 · 3000 W: 2 · 4000 oder 6000 W: 1 · Platinum 2300 W: 2 · 3400 oder 4500 W: 1 · Cobalt: 1 · Eclipse: 1 (an einem Eclipse Steuergerät). Rechnung auf Basis der 6 kW; der Stromkreis kann eine niedrigere Grenze setzen. [[VERIFY: Kapazitäten und Kompatibilität der Steuergeräte — Produktteam]]
 
 - [ ] Typ des Steuergeräts und Kanäle: ______
 - [ ] Ort des Wandschalters: ______
@@ -398,32 +393,33 @@ WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Steuerungen, d
 
 ![Hand mit einem Tablet, das die Wärme an einem Tisch im Freien steuert](img:t-009-025)
 
-## Schritt 8. Abstände und Vorschriften
+## Schritt 8. Sicherheit nach Vorschrift
 
-| Heizstrahler | Mindestmontagehöhe |
-|---|---|
-| Tungsten, Platinum und Platinum Marine Electric | Wand 1,83 m; Decke 2,44 m[^s4][^s5][^s6] |
-| Cobalt Electric | Wand 1,83 m; Decke 2,44 m[^s9] |
-| Eclipse Electric | 2,44 m[^s7] |
-| Eclipse Freestanding | ca. 2,0 m Freiraum[^s8] |
-| Platinum Gas und Tungsten Gas fest installiert | 2,44 m[^s10][^s11] |
+Wärme, die in der richtigen Höhe montiert und nach Vorschrift installiert ist, lässt alle entspannt sitzen, und eine Garantie steht dahinter.
 
 Die Installationsanleitung jedes Modells legt die Abstände zur Decke und zu allem Brennbaren fest. Ein Hitzeschild verringert den Raum, den ein Gasheizstrahler über sich braucht[^s3]. In Deutschland werden Elektro-Heizstrahler nach DIN VDE 0100 und Gasheizstrahler nach DVGW-TRGI (Erdgas) bzw. TRF (Flüssiggas) installiert. In den USA gelten dafür ANSI/NFPA 70[^s21] und ANSI Z223.1/NFPA 54[^s22]. [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Freien — Partner Deutschland]]
+
+**Mindestmontagehöhen**
+- Tungsten, Platinum und Platinum Marine Electric: Wand 1,83 m; Decke 2,44 m[^s4][^s5][^s6]
+- Cobalt Electric: Wand 1,83 m; Decke 2,44 m[^s9]
+- Eclipse Electric: 2,44 m[^s7]
+- Eclipse Freestanding: ca. 2,0 m Freiraum[^s8]
+- Platinum Gas und Tungsten Gas fest installiert: 2,44 m[^s10][^s11]
 
 *Dies ist eine allgemeine Hilfe, keine Auslegung von Vorschriften. Klären Sie die Anforderungen mit Ihrem örtlichen Bauamt und lassen Sie Heizstrahler von einem Elektrofachbetrieb oder Gasinstallateur nach den Anweisungen des Herstellers installieren.*
 
 ### Eine Garantie, auf die Sie sich verlassen können
 
-| Produkt | Garantie (laut US-Produktseiten) |
-|---|---|
-| Tungsten Electric | 2 Jahre auf den Heizstrahler; 7 Jahre auf die Heizelemente[^s4] |
-| Platinum Electric | 3 Jahre[^s5] |
-| Platinum Electric Marine | 5 Jahre an Land; 3 Jahre auf Schiffen[^s6] |
-| Eclipse Electric und Eclipse Freestanding | 3 Jahre[^s7][^s8] |
-| Cobalt Electric | 1 Jahr auf Teile; 7 Jahre auf die Heizelemente[^s9] |
-| Platinum Gas und Tungsten Gas fest installiert | 2 Jahre, ausgenommen Schläuche und Zünder[^s10][^s11] |
-| Tungsten Freestanding Gas | 1 Jahr (Propanmodell)[^s12] |
-| Affinity Smart-Heat Steuerungen | 1 Jahr[^s13] |
+Garantie laut US-Produktseiten:
+
+- Tungsten Electric: 2 Jahre auf den Heizstrahler; 7 Jahre auf die Heizelemente[^s4]
+- Platinum Electric: 3 Jahre[^s5]
+- Platinum Electric Marine: 5 Jahre an Land; 3 Jahre auf Schiffen[^s6]
+- Eclipse Electric und Eclipse Freestanding: 3 Jahre[^s7][^s8]
+- Cobalt Electric: 1 Jahr auf Teile; 7 Jahre auf die Heizelemente[^s9]
+- Platinum Gas und Tungsten Gas fest installiert: 2 Jahre, ausgenommen Schläuche und Zünder[^s10][^s11]
+- Tungsten Freestanding Gas: 1 Jahr (Propanmodell)[^s12]
+- Affinity Smart-Heat Steuerungen: 1 Jahr[^s13]
 
 [[VERIFY: Garantiebedingungen je Modell, einschließlich des Erdgasmodells des Tungsten Freestanding Gas; Bedingungen in Deutschland — Produktteam]]
 
@@ -435,7 +431,7 @@ Die Installationsanleitung jedes Modells legt die Abstände zur Decke und zu all
 
 ## Schritt 9. Lassen Sie uns gemeinsam mit Ihnen planen
 
-Senden Sie uns Ihre Fotos, Pläne oder Zeichnungen, und die Planungsspezialisten von Bromic empfehlen kostenlos Heizstrahler, Platzierung und Steuerung für Ihren Bereich, mit Plänen der beheizten Flächen[^s2].
+Sie wissen, wie Sie draußen leben möchten; wir wissen, wie man es wärmt. Senden Sie uns Ihre Fotos, Pläne oder Zeichnungen, und die Planungsspezialisten von Bromic empfehlen kostenlos Heizstrahler, Platzierung und Steuerung für Ihren Bereich, mit Plänen der beheizten Flächen[^s2].
 
 Ein vollständiges Angebot umfasst Heizstrahler und Montagesets, Steuerung, Installation, Genehmigungen und Betriebskosten. Die US-Listenpreise auf bromic.com (29. Oktober 2026) beginnen bei 798 US-$ für einen Tungsten Electric Heizstrahler und 370 US-$ für ein Affinity On/Off-Steuergerät[^s4][^s13]; Preise für Deutschland erhalten Sie über [bromic.de](https://www.bromic.de/). [[VERIFY: zu veröffentlichende Listenpreise — Produktteam]]
 

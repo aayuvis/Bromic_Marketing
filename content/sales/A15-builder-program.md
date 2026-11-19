@@ -73,6 +73,8 @@ Your buyers stand on the patio and picture the evenings they will spend there. R
 
 ## Part 1: The One-Pager
 
+Everything your sales team needs to put warmth on the options sheet, on a single page.
+
 ### Headline
 
 **Sell The Evening Along With The Patio.**
@@ -86,30 +88,32 @@ Pre-wired Bromic radiant heat in three ready packages, planned in at framing fro
 
 **3. Few homes come with the warmth to enjoy it.** Only 23% of homeowners prioritise outdoor heating at the planning stage, yet 67% say heating extends how much they use their outdoor space.[^s4] [[VERIFY: survey base, sample size and fieldwork date for the Atomik Research figures — Marketing]] Your upgrade lives in the distance between those two numbers.
 
+> You create beautiful spaces. We know how to heat them.
+
 ### What The Program Brings Your Team
 
 Every item below is a proposal until confirmed, and none of it is yet a price, margin or lead-time commitment.
 
-| Benefit | What it means for your team | Status |
-|---|---|---|
-| Three ready packages | Good, Better, Best, each a complete system with heaters, controls and pre-wire scope | Draft (Part 2) |
-| Complimentary design service | Heater selection, placement and coverage drawings from your plans or photos[^s5] | Live |
-| Pre-wire and rough-in guide | One page your electrician can price from ([asset:A16](asset:A16)) | In development |
-| Builder pricing | Tiered trade pricing by volume | [[VERIFY: price tiers and qualifying volumes — Trade sales / Sales operations]] |
-| Margin structure | Suggested option pricing for your sales sheet | [[VERIFY: margin guidance, if any — Trade sales / Sales operations]] |
-| Supply and lead times | Stocking and delivery commitments | [[VERIFY: lead times by series and region — Trade sales / Sales operations]] |
-| Model home support | Display units or demo programme | [[VERIFY: whether offered and on what terms — Trade sales]] |
-| Sales training | Short session for design-centre staff | [[VERIFY: format and availability — Trade sales]] |
-| Installer support | Technical line, 1-800-301-1293, Mon–Fri 9–4 PT[^s5] | Live |
-| Warranty | Manufacturer warranty per series | [[VERIFY: terms — Product team]] |
-| Co-marketing | Brochure inserts, imagery for your listings | [[VERIFY: what assets and usage rights — Marketing]] |
-| Program contact | Named regional contact | [[VERIFY: contact per region — Trade sales]] |
+- **Three ready packages.** Good, Better, Best, each a complete system with heaters, controls and pre-wire scope. Draft (Part 2).
+- **Complimentary design service.** Heater selection, placement and coverage drawings from your plans or photos.[^s5] Live.
+- **Pre-wire and rough-in guide.** One page your electrician can price from ([asset:A16](asset:A16)). In development.
+- **Builder pricing.** Tiered trade pricing by volume. [[VERIFY: price tiers and qualifying volumes — Trade sales / Sales operations]]
+- **Margin structure.** Suggested option pricing for your sales sheet. [[VERIFY: margin guidance, if any — Trade sales / Sales operations]]
+- **Supply and lead times.** Stocking and delivery commitments. [[VERIFY: lead times by series and region — Trade sales / Sales operations]]
+- **Model home support.** Display units or demo program. [[VERIFY: whether offered and on what terms — Trade sales]]
+- **Sales training.** Short session for design-center staff. [[VERIFY: format and availability — Trade sales]]
+- **Installer support.** Technical line, 1-800-301-1293, Mon–Fri 9–4 PT.[^s5] Live.
+- **Warranty.** Manufacturer warranty per series. [[VERIFY: terms — Product team]]
+- **Co-marketing.** Brochure inserts, imagery for your listings. [[VERIFY: what assets and usage rights — Marketing]]
+- **Program contact.** Named regional contact. [[VERIFY: contact per region — Trade sales]]
 
 ### Who It Is For
 
 Production and semi-custom builders with an outdoor living package, custom builders who want a standard heating detail, and remodelers who add covered patios. [[VERIFY: eligibility criteria — Trade sales]]
 
 ## Part 2: The Good–Better–Best Guide
+
+Three ways to sell the evening, from dinner outside on a cool night to an outdoor room as finished as the inside.
 
 Each tier is a complete working solution: the heaters, the controls that run them, the mounting and the rough-in your electrician installs at framing. Controls come with every tier as part of the system. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately; they are included in the tier where listed.[^s5]
 
@@ -150,6 +154,8 @@ Recessed Platinum warms the lounge while Eclipse pendants bring heat and light t
 ![Eclipse pendants glowing above a long candlelit dining table](img:l-013-100)
 
 ## Bringing It To Your Buyers
+
+The surest way to sell warmth is to let buyers feel it.
 
 - **Show it lit.** A heated model-home patio at dusk tells the story better than any brochure.
 - **Price the pre-wire, even when buyers decline it.** A rough-in at framing costs far less than opening a finished soffit later, and it lets buyers add heat after closing. [[VERIFY: typical rough-in cost range from partner electricians — Trade sales]]

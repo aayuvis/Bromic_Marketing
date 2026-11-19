@@ -83,13 +83,15 @@ sources:
 
 ## Outdoor Living Trends 2026
 
-For the architects, builders and homeowners shaping how we live outdoors.
+For the architects, builders and homeowners shaping how we live outdoors, and for every evening that deserves to run a little longer.
 
 ## A Room For Every Season
 
-The patio has become a room people want to use all year. When the evening cools it often empties, because heating is so often the last thing planned.
+The patio has become a room people want to use all year, for breakfast in the sun and long dinners after dark. When the evening cools it often empties, because heating is so often the last thing planned. The ten shifts that follow show where outdoor living is heading, and how warmth keeps the table full.
 
 ## 01 Outdoor Living Is The Heart Of The Home
+
+The best conversations of the day now happen outside, at the table under the open sky.
 
 **55%** net share of architects see outdoor living spaces rising in popularity.[^s1]\
 *AIA, Home Design Trends Survey, Q2 2025*
@@ -104,6 +106,8 @@ The patio has become a room people want to use all year. When the evening cools 
 
 ## 02 From The First Coffee To The Last Conversation
 
+Some of the day's finest moments sit at its edges, with the first coffee in the morning air and the last glass as the light fades.
+
 **67%** say heating would do most to extend their outdoor time.[^s2]\
 *Atomik Research for Bromic Heating, 2025* [[VERIFY: survey date, base n and question wording against the Atomik topline — Marketing]]
 
@@ -115,6 +119,8 @@ The patio has become a room people want to use all year. When the evening cools 
 **Design move** Zone the heat around how the space is used through the day.
 
 ## 03 The Patio Is Now Part Of The Plan
+
+A patio drawn into the plan from the start becomes a room the family reaches for every day.
 
 **60.5%** of new single-family homes started in 2025 came with a patio.[^s4]\
 *NAHB, from Census Survey of Construction, 2025*
@@ -128,6 +134,8 @@ The patio has become a room people want to use all year. When the evening cools 
 
 ## 04 Homeowners Keep Investing In Home
 
+Homeowners are pouring their care into the home they already love, and the outdoor room is where much of it goes.
+
 **$525B** projected yearly US homeowner spending on improvements and repairs, through Q3 2027.[^s5]\
 *Harvard Joint Center for Housing Studies, LIRA, Oct 2026*
 
@@ -139,6 +147,8 @@ The patio has become a room people want to use all year. When the evening cools 
 **Design move** Budget heating together with the pergola and lighting.
 
 ## 05 Indoors And Outdoors Become One
+
+Slide the glass away and the living room simply keeps going, out to the terrace and into the evening.
 
 **40%** net share of architects see blended indoor-outdoor spaces rising in popularity.[^s1]\
 *AIA, Home Design Trends Survey, Q2 2025*
@@ -152,6 +162,8 @@ The patio has become a room people want to use all year. When the evening cools 
 
 ## 06 Pergolas Shape The Outdoor Room
 
+Under a pergola the garden gains a ceiling, and with it a room for dinner, music and warmth.
+
 **33%** of homeowners upgrading outdoors do it to extend their living space.[^s6]\
 *Houzz, U.S. Outdoor Trends Study, 2024*
 
@@ -163,6 +175,8 @@ The patio has become a room people want to use all year. When the evening cools 
 **Design move** Wire each pergola for its heaters, Affinity controls and wall switch.
 
 ## 07 Smart Outdoor Living Becomes Second Nature
+
+One tap sets the evening, and the warmth arrives before anyone thinks to reach for a jacket.
 
 **5** smart-home platforms work with Affinity Smart-Heat Controls.[^s8]\
 *Bromic Lookbook 2026; compatibility varies*
@@ -176,6 +190,8 @@ The patio has become a room people want to use all year. When the evening cools 
 
 ## 08 Design Leads The Way
 
+The most beautiful outdoor rooms let you feel the comfort without ever noticing where it comes from.
+
 **9.9** out of 10 is homeowners' Joy Score for a new patio.[^s7]\
 *NAR and NALP, Remodeling Impact Report, 2023*
 
@@ -187,6 +203,8 @@ The patio has become a room people want to use all year. When the evening cools 
 **Design move** Detail recess kits, controller and wall switch early in the drawings.
 
 ## 09 Small Spaces, Beautifully Used
+
+A small terrace, warmed well, can hold breakfast for two in the morning and dinner for six at night.
 
 **121 ft²** approx. heated by one Eclipse Smart-Heat Freestanding heater.[^s8]\
 *Bromic Lookbook 2026*
@@ -200,6 +218,8 @@ The patio has become a room people want to use all year. When the evening cools 
 
 ## 10 Heating Joins The Plan From Day One
 
+The warmth that feels effortless on the first evening was decided on the first drawing.
+
 **23%** of homeowners rank outdoor heating a top planning priority.[^s3]\
 *Atomik Research for Bromic Heating, 2025* [[VERIFY: survey date, base n and question wording against the Atomik topline — Marketing]]
 
@@ -212,23 +232,15 @@ The patio has become a room people want to use all year. When the evening cools 
 
 ## Plan From The Start
 
-Year-round outdoor living begins at the architectural stage. When heating arrives later, power, mounting and controls become constraints to work around.
+Year-round outdoor living begins at the architectural stage, when the warmth can be placed exactly over the table, recessed into the ceiling and wired to its own switch. When heating arrives later, power, mounting and controls become constraints to work around.
 
 Every Bromic heater is paired with an Affinity On/Off, Dimmer or Eclipse controller, a wall switch and the Smart-Heat app. Wi-Fi and app features need compatible Affinity controls, sold separately.
 
-**Extend The Moment.**
+> Extend The Moment.
 
 ## Sources And Method
 
-| Stat | Source |
-|---|---|
-| 55%, 40% | AIA, Home Design Trends Survey, Q2 2025[^s1] |
-| 67%, 23% | Atomik Research for Bromic Heating, 2025[^s2][^s3] |
-| 60.5% | NAHB, Census Survey of Construction, 2025[^s4] |
-| $525B | Harvard JCHS, LIRA, Oct 2026[^s5] |
-| 33% | Houzz, U.S. Outdoor Trends Study, 2024[^s6] |
-| 9.9 | NAR and NALP, Remodeling Impact Report, 2023[^s7] |
-| 5, 121 ft² | Bromic Lookbook 2026[^s8] |
+The 55% and 40% come from the AIA Home Design Trends Survey, Q2 2025[^s1]; the 67% and 23% from Atomik Research for Bromic Heating, 2025[^s2][^s3]; the 60.5% from NAHB's tabulation of the Census Survey of Construction, 2025[^s4]; the $525B from Harvard JCHS, LIRA, Oct 2026[^s5]; the 33% from the Houzz U.S. Outdoor Trends Study, 2024[^s6]; the 9.9 from the NAR and NALP Remodeling Impact Report, 2023[^s7]; and the 5 platforms and 121 ft² from the Bromic Lookbook 2026[^s8].
 
 AIA figures are net (rising minus falling). Bromic commissioned the Atomik homeowner survey. [[VERIFY: sample size, field dates and margin of error from the Atomik topline — Marketing]]
 
@@ -241,6 +253,7 @@ AIA figures are net (rising minus falling). Bromic commissioned the Atomik homeo
 - **Stats changed.** 61.8% (2024) updated to 60.5% (2025 starts), per the corrections file's recommendation; switch back if Marketing decides otherwise. 55% and 40% now say "net share" and give the year. 33% now has the right study, base and year. "Satisfaction score" is now NAR's Joy Score.
 - **Stats moved so each trend carries one.** 67% from trend 01 to 02, 23% from 02 to 10, 9.9 from 03 to 08. Trends 07 and 09 had none in the original; each now carries a Bromic product fact from the Lookbook, not a market statistic.
 - **Fixes applied.** All 38 items in [the corrections file](item:A01-corrections): "Studies", "radiant", "integration", "Multi-Use", "beginning"; the broken trend 04 sentence rewritten; the p.10 smart-controls insight moved to trend 07 and trend 08 given a design-led insight; the 23% reworded to "rank … a top planning priority"; the "=" headline; stray spaces; one source-line format; a sources page added.
+- **Marketing pass (19 Nov 2026).** Owner: "a marketing whitepaper, not technical documentation". Every trend now opens on the moment before its statistic; the sources table became one paragraph (every figure keeps its citation); "Extend The Moment" is the pull quote.
 - **Rules.** Every heater recommendation names its controls; Wi-Fi and app features are labelled as needing compatible Affinity controls, sold separately. No legacy series names, no Tungsten Coastal or Select copy.
 
 ## Layout notes for 454 Creative
@@ -253,7 +266,7 @@ AIA figures are net (rising minus falling). Bromic commissioned the Atomik homeo
   - p.23 Plan from the start, image `t-013-037`.
   - p.24 Sources and method (back cover).
 - **One stat per spread.** The stat is the largest type on the right page, flame `#EF4123`, with its source line directly under it in small italic. No other number on the spread is set large.
-- **Right-page order, every trend.** Number and headline, stat and source line, two or three lines (no icons inside them), Bromic insight panel, design move as a single closing line.
+- **Right-page order, every trend.** Number and headline, the opening line (the moment, set as a short display line), stat and source line, two or three lines (no icons inside them), Bromic insight panel, design move as a single closing line.
 - **Icon rows** (above the headline, one word each): 01 Gather · Dine · Work · Relax; 02 Morning · Afternoon · Evening; 03 Built-in · Designed · Essential; 04 Renovate · Invest · Value; 05 Open plan · Seamless flow · Connected; 06 Structure · Shelter · Integration; 07 Control · Lighting · Connection; 08 Design · Aesthetic · Architecture; 09 Zoning · Multi-Use · Efficiency; 10 Power · Controls · Integration.
 - **Image pairing** (library ids from `images/library/manifest.json`; alternates are Lookbook images):
 

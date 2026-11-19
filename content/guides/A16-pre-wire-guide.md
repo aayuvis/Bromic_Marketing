@@ -69,36 +69,42 @@ sources:
 
 *The builder's guide to pre-wiring outdoor heat.*
 
-A patio that is warm on its first evening starts at rough-in. Run a dedicated branch circuit for each electric heater (or heater group, per the controller), sized from I = W ÷ V with conductors at 125% of the load[^s5]. Add a junction box and solid blocking at every heater, pole or recess location, a home run from each heater to the controller location, a box at the wall switch and, for built-in gas, a stubbed and capped line with an accessible shut-off. Settle all of it before framing, while the ceiling is still open.
+Picture your buyers on their first evening at home, stepping outside after dinner to a patio that is already warm. That evening starts at rough-in, with a few circuits, boxes and blocking that cost little while the ceiling is open and save a callback later.
+
+Run a dedicated branch circuit for each electric heater (or heater group, per the controller), sized from I = W ÷ V with conductors at 125% of the load[^s5]. Add a junction box and solid blocking at every heater, pole or recess location, a home run from each heater to the controller location, a box at the wall switch and, for built-in gas, a stubbed and capped line with an accessible shut-off. Settle all of it before framing.
 
 ![Covered outdoor kitchen and bar warmed by heaters set flush into the ceiling](img:l-010-067)
 
 ## Plan It While The Ceiling Is Open
 
-Fewer than one in four homeowners prioritize heating at planning[^s1]. Many of the rest ask for it once the drywall, soffits and stone are finished, and by then it means opening a finished ceiling, running surface conduit, placing the heater wherever the wire reaches instead of over the table, and a callback.
+A heater planned at the drawing stage sits exactly over the table, flush in a clean ceiling, with nothing to patch. Fewer than one in four homeowners prioritize heating at planning[^s1]. Many of the rest ask for it once the drywall, soffits and stone are finished, and by then it means opening a finished ceiling, running surface conduit, placing the heater wherever the wire reaches instead of over the table, and a callback.
 
-| Decided at | What it costs |
-|---|---|
-| Design / pre-framing | A line on the electrical plan; blocking and boxes at rough-in |
-| After framing, before close-in | A change order; extra trip for the electrician |
-| After finish | Opened ceilings or walls, patching, repainting, surface conduit, often no recess option |
+- **Decided at design or pre-framing:** a line on the electrical plan, with blocking and boxes at rough-in.
+- **After framing, before close-in:** a change order and an extra trip for the electrician.
+- **After finish:** opened ceilings or walls, patching, repainting, surface conduit, and often no recess option.
+
+> Designed To Fit. Built To Perform.
 
 **Offer it at the options stage.** A pre-wire package of circuits, boxes, blocking and a switch box can be sold even when the heaters are bought later, so your buyers move into an outdoor space that is ready for warmth whenever they choose. The builder program and its Good–Better–Best guide show how ([A15](asset:A15)).
 
-## Who Decides What, And When
+## Every Trade, In The Right Order
 
-| Stage | Decide | Who |
+When each trade knows its moment, the heat goes in once and the schedule holds.
+
+| Step | Decide | Who |
 |---|---|---|
-| Plans | Heated zones, heater type and count, mount type, fuel | Builder, designer, Bromic design service |
-| Pre-framing | Recess openings, blocking, ceiling build-up | Framer, builder |
-| Electrical rough-in | Circuits, boxes, control runs, switch location, panel capacity | Licensed electrician |
-| Gas rough-in | Line size, stub-out, shut-off | Licensed gas fitter |
-| Rough inspection | Inspect before close-in | AHJ |
-| Trim-out | Heaters, recess kits, controllers, commissioning | Electrician, gas fitter |
+| 1 | **Plans.** Heated zones, heater type and count, mount type, fuel | Builder, designer, Bromic design service |
+| 2 | **Pre-framing.** Recess openings, blocking, ceiling build-up | Framer, builder |
+| 3 | **Electrical rough-in.** Circuits, boxes, control runs, switch location, panel capacity | Licensed electrician |
+| 4 | **Gas rough-in.** Line size, stub-out, shut-off | Licensed gas fitter |
+| 5 | **Rough inspection.** Inspect before close-in | AHJ |
+| 6 | **Trim-out.** Heaters, recess kits, controllers, commissioning | Electrician, gas fitter |
 
-## Rough-In For Each Heater
+## The Right Rough-In For Each Heater
 
-| Product | Fuel / rating | Rough-in | Mount provisions |
+Each Bromic family asks for something slightly different at rough-in, and getting it right means the heater your buyer chose fits on the day it arrives.
+
+| Family | Fuel / rating | Rough-in | Mount provisions |
 |---|---|---|---|
 | Platinum Smart-Heat Electric | 2300 / 3400 / 4500 W | Dedicated circuit(s) to controller; heater junction box | Recessed (recess kit), ceiling or wall; blocking |
 | Eclipse Smart-Heat Electric | [[VERIFY: wattage and supply]] | Circuit to controller; ceiling box at pole | Single pole 8", 24" or 48"; double or curved pole; blocking for pole |
@@ -109,7 +115,9 @@ Fewer than one in four homeowners prioritize heating at planning[^s1]. Many of t
 
 Product facts come from the Bromic Lookbook 2026[^s2] and Planning Guide 2021[^s3]. Always build to the current installation manual for the model.
 
-## Working Out The Amps
+## Circuits Sized Right The First Time
+
+A circuit sized correctly is one that never trips on the first cold night, and it takes three steps.
 
 **Step 1. Find the current per heater.** I = W ÷ V.
 
@@ -117,18 +125,17 @@ Product facts come from the Bromic Lookbook 2026[^s2] and Planning Guide 2021[^s
 
 **Step 3. Choose the circuit and breaker.** The electrician selects conductor and overcurrent device from the result, the installation manual and the adopted NEC.
 
-| Heater | Amps at 208 V | × 1.25 | Amps at 240 V | × 1.25 |
-|---|---|---|---|---|
-| 2300 W | 11.1 | 13.8 | 9.6 | 12.0 |
-| 3400 W | 16.3 | 20.4 | 14.2 | 17.7 |
-| 4500 W | 21.6 | 27.0 | 18.8 | 23.4 |
-
-Each figure is rated wattage divided by voltage. A heater rated at 240 V draws less on 208 V, so use the rating of the model specified. Commercial sites may also be offered 277 V[^s3].
-
 **Worked example, three 3400 W heaters on 240 V.**
 - Per heater: 3400 ÷ 240 = 14.2 A; × 1.25 = 17.7 A.
 - All three on one controller output: 42.5 A; × 1.25 = 53.1 A minimum conductor ampacity – more than one typical circuit carries, so split them.
 - Panel: add 10.2 kW to the load calculation.
+
+**Current per heater (rated wattage ÷ voltage; × 1.25 in brackets)**
+- 2300 W: 11.1 A at 208 V (13.8); 9.6 A at 240 V (12.0)
+- 3400 W: 16.3 A at 208 V (20.4); 14.2 A at 240 V (17.7)
+- 4500 W: 21.6 A at 208 V (27.0); 18.8 A at 240 V (23.4)
+
+A heater rated at 240 V draws less on 208 V, so use the rating of the model specified. Commercial sites may also be offered 277 V[^s3].
 
 [[VERIFY: (1) whether Bromic electric heaters are classified under NEC Art. 424 or Art. 422 by most AHJs; (2) the breaker size and maximum heaters per circuit stated in each installation manual; (3) the Affinity controller's maximum load per channel and whether it sits between breaker and heaters — Trade sales + licensed electrician]]
 
@@ -136,29 +143,28 @@ Each figure is rated wattage divided by voltage. A heater rated at 240 V draws l
 
 ## Boxes And Blocking In The Right Place
 
-| Item | Position | Note |
-|---|---|---|
-| Heater junction box | At each heater location, per manual | [[VERIFY: box type, offset from heater centreline, whether integral to recess kit — Product team]] |
-| Wall-mount height | Heater ≥ 72" above finished floor | Bromic guidance[^s3] |
-| Ceiling-mount height | Heater ≥ 96" above finished floor | Clearance to ceiling varies with output[^s3] |
-| Blocking | Solid blocking between joists at every heater, pole and bracket | Sized for heater and pole weight [[VERIFY: weights per model]] |
-| Suspension poles | Blocking and box at pole top | For high ceilings[^s3] |
-| Clearances | To combustibles, ceiling and sides, per manual | Do not interpolate between models |
-| Aim | Over seating, not the floor centre | Coordinate with furniture plan |
+Heat aimed at the seating, from a heater that sits square and secure, is what your buyer feels on the first night.
+
+- **Heater junction box** at each heater location, per manual. [[VERIFY: box type, offset from heater centreline, whether integral to recess kit — Product team]]
+- **Wall mounts** with the heater at least 72" above finished floor, and **ceiling mounts** at least 96"; clearance to the ceiling varies with output[^s3].
+- **Solid blocking** between joists at every heater, pole and bracket, sized for heater and pole weight. [[VERIFY: weights per model]]
+- **Suspension poles** for high ceilings, with blocking and a box at the pole top[^s3].
+- **Clearances** to combustibles, ceiling and sides, per manual. Do not interpolate between models.
+- **Aim** over the seating, not the floor centre, coordinated with the furniture plan.
 
 ![White heater set neatly between pergola louvres](img:l-010-076)
 
 ## Framing For A Flush Recess
 
-Recess kits let Platinum and Tungsten electric heaters sit flush within the ceiling cavity[^s3], so the heater reads as part of the architecture. Give them a place in the framing plan.
+A recessed heater reads as part of the architecture, and it is the detail buyers notice in the model home. Recess kits let Platinum and Tungsten electric heaters sit flush within the ceiling cavity[^s3], so give them a place in the framing plan.
 
-| Dimension | Value |
-|---|---|
-| Rough opening (L × W) | [[VERIFY dims: per model and size — Product team]] |
-| Minimum cavity depth | [[VERIFY dims: per model — Product team]] |
-| Clearance above kit to combustibles | [[VERIFY dims: per installation manual — Product team]] |
-| Low-clearance recessing (Tungsten Coastal / Select, coming soon) | [[VERIFY dims — Product team]] |
-| Ceiling finish thickness allowed | [[VERIFY dims — Product team]] |
+- Rough opening (L × W): [[VERIFY dims: per model and size — Product team]]
+- Minimum cavity depth: [[VERIFY dims: per model — Product team]]
+- Clearance above kit to combustibles: [[VERIFY dims: per installation manual — Product team]]
+- Low-clearance recessing (Tungsten Coastal / Select, coming soon): [[VERIFY dims — Product team]]
+- Ceiling finish thickness allowed: [[VERIFY dims — Product team]]
+
+On site:
 
 - Run joists or add headers to frame the opening square and level.
 - Keep insulation, vapour barriers and other services clear of the kit per the manual.
@@ -170,19 +176,17 @@ Recess kits let Platinum and Tungsten electric heaters sit flush within the ceil
 
 ## Wiring The Controls
 
-Affinity Smart-Heat® Controls let your buyers enjoy warmth exactly where, and when, they want it, so rough them in together with the heater circuits.
+Affinity Smart-Heat® Controls let your buyers enjoy warmth exactly where, and when, they want it, so rough them in together with the heater circuits. Specify the matching control for every heater: an Affinity Smart-Heat On/Off or Dimmer controller (Platinum, Tungsten electric) or Eclipse controller (Eclipse), plus a wall switch. Wi-Fi and Bromic Smart-Heat app features require compatible Affinity Smart-Heat Controls, sold separately[^s2].
 
-| Run | From → to | Note |
-|---|---|---|
-| Line voltage | Panel → Affinity controller → heaters | One controller channel per zone [[VERIFY: controller wiring topology — Product team]] |
-| Wall switch | Controller → switch box at the threshold | [[VERIFY: line-voltage or low-voltage switch leg; box size — Product team]] |
-| Controller location | Accessible, protected, within Wi-Fi range | [[VERIFY: indoor/outdoor rating and mounting — Product team]] |
-| Integration | Controller → home-automation panel | Control4, Crestron or Lutron; compatibility varies and may need extra hardware[^s2] |
-| Spare conduit | Heater zone → controller location | Allows later zones or integration without opening finishes |
-
-Specify the matching control for every heater: an Affinity Smart-Heat On/Off or Dimmer controller (Platinum, Tungsten electric) or Eclipse controller (Eclipse), plus a wall switch. Wi-Fi and Bromic Smart-Heat app features require compatible Affinity Smart-Heat Controls, sold separately[^s2]. Check the Wi-Fi signal at the controller location before close-in.
+- **Line voltage:** panel → Affinity controller → heaters, one controller channel per zone. [[VERIFY: controller wiring topology — Product team]]
+- **Wall switch:** controller → switch box at the threshold. [[VERIFY: line-voltage or low-voltage switch leg; box size — Product team]]
+- **Controller location:** accessible, protected, within Wi-Fi range; check the signal there before close-in. [[VERIFY: indoor/outdoor rating and mounting — Product team]]
+- **Integration:** controller → home-automation panel for Control4, Crestron or Lutron; compatibility varies and may need extra hardware[^s2].
+- **Spare conduit:** heater zone → controller location, so later zones or integration need no opened finishes.
 
 ## Gas Stub-Outs For Gas Models
+
+For buyers who want the presence of gas, a clean stub-out at framing keeps the finished patio free of visible lines.
 
 - **A licensed gas fitter sizes, routes and tests the line** to ANSI Z223.1/NFPA 54[^s6] and the local code.
 - **Size for the connected load**, using the total Btu/h of all appliances on the line, run length and supply pressure. [[VERIFY: Btu/h input, inlet size and pressure for Platinum Gas and Tungsten Gas built-in — Product team]]
@@ -191,6 +195,8 @@ Specify the matching control for every heater: an Affinity Smart-Heat On/Off or 
 - **Confirm the fuel**, natural gas or propane, before the heater is ordered.
 
 ## Passing The Rough Inspection
+
+A clean rough inspection keeps the schedule moving and the buyer's handover on time.
 
 - [ ] Permits pulled for electrical and gas work
 - [ ] Circuits match the approved plan and load calculation

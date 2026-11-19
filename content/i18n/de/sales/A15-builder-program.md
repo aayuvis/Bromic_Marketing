@@ -76,6 +76,8 @@ Ihre Käufer stehen bereits auf der Terrasse und stellen sich die Abende vor, di
 
 ## Teil 1: Das Kurzprofil
 
+Alles, was Ihr Vertriebsteam braucht, um Wärme auf das Optionsblatt zu bringen, auf einer einzigen Seite.
+
 ### Überschrift
 
 **Verkaufen Sie den Abend gleich mit der Terrasse.**
@@ -91,30 +93,32 @@ Vorverkabelte Bromic Strahlungswärme in drei fertigen Paketen, im Rohbau eingep
 
 [[VERIFY: vergleichbare Marktdaten für Deutschland, falls vorhanden; bis dahin sind alle Zahlen oben US-Daten — Partner Deutschland]]
 
+> Sie gestalten schöne Räume. Wir wissen, wie man sie wärmt.
+
 ### Was das Programm Ihrem Team bietet
 
 Jeder Punkt unten ist ein Vorschlag, bis er bestätigt ist, und nichts davon ist bereits eine Zusage zu Preis, Marge oder Lieferzeit.
 
-| Leistung | Was sie für Ihr Team bedeutet | Status |
-|---|---|---|
-| Drei fertige Pakete | Gut, Besser, Premium, jeweils ein vollständiges System mit Heizstrahlern, Steuerung und Umfang der Vorverkabelung | Entwurf (Teil 2) |
-| Kostenloser Planungsservice | Auswahl der Heizstrahler, Platzierung und Pläne der beheizten Flächen aus Ihren Plänen oder Fotos[^s5] | Verfügbar |
-| Leitfaden zu Vorverkabelung und Rohinstallation | Eine Seite, nach der Ihr Elektriker kalkulieren kann ([asset:A16](asset:A16)) | In Arbeit |
-| Bauträgerkonditionen | Gestaffelte Händlerpreise nach Volumen | [[VERIFY: Preisstaffeln und Mindestvolumen — Fachhandelsvertrieb / Vertriebssteuerung]] |
-| Margenstruktur | Vorgeschlagene Optionspreise für Ihr Verkaufsblatt | [[VERIFY: Margenempfehlung, falls vorhanden — Fachhandelsvertrieb / Vertriebssteuerung]] |
-| Lieferung und Lieferzeiten | Lagerhaltung und Lieferzusagen | [[VERIFY: Lieferzeiten je Serie und Region — Fachhandelsvertrieb / Vertriebssteuerung]] |
-| Unterstützung für Musterhäuser | Ausstellungsgeräte oder Vorführprogramm | [[VERIFY: ob angeboten und zu welchen Bedingungen — Fachhandelsvertrieb]] |
-| Vertriebsschulung | Kurze Schulung für die Mitarbeiter der Bemusterung | [[VERIFY: Format und Verfügbarkeit — Fachhandelsvertrieb]] |
-| Unterstützung für Installateure | Technische Hotline, in den USA 1-800-301-1293, Mo–Fr 9–16 Uhr pazifischer Zeit[^s5]; [[VERIFY: technischer Ansprechpartner für Deutschland — Partner Deutschland]] | Verfügbar (USA) |
-| Garantie | Herstellergarantie je Serie | [[VERIFY: Bedingungen — Produktteam]] |
-| Gemeinsames Marketing | Einleger für Prospekte, Bildmaterial für Ihre Exposés | [[VERIFY: welche Materialien und Nutzungsrechte — Marketing]] |
-| Ansprechpartner im Programm | Benannter regionaler Ansprechpartner | [[VERIFY: Ansprechpartner je Region — Fachhandelsvertrieb]] |
+- **Drei fertige Pakete.** Gut, Besser, Premium, jeweils ein vollständiges System mit Heizstrahlern, Steuerung und Umfang der Vorverkabelung. Entwurf (Teil 2).
+- **Kostenloser Planungsservice.** Auswahl der Heizstrahler, Platzierung und Pläne der beheizten Flächen aus Ihren Plänen oder Fotos.[^s5] Verfügbar.
+- **Leitfaden zu Vorverkabelung und Rohinstallation.** Eine Seite, nach der Ihr Elektriker kalkulieren kann ([asset:A16](asset:A16)). In Arbeit.
+- **Bauträgerkonditionen.** Gestaffelte Händlerpreise nach Volumen. [[VERIFY: Preisstaffeln und Mindestvolumen — Fachhandelsvertrieb / Vertriebssteuerung]]
+- **Margenstruktur.** Vorgeschlagene Optionspreise für Ihr Verkaufsblatt. [[VERIFY: Margenempfehlung, falls vorhanden — Fachhandelsvertrieb / Vertriebssteuerung]]
+- **Lieferung und Lieferzeiten.** Lagerhaltung und Lieferzusagen. [[VERIFY: Lieferzeiten je Serie und Region — Fachhandelsvertrieb / Vertriebssteuerung]]
+- **Unterstützung für Musterhäuser.** Ausstellungsgeräte oder Vorführprogramm. [[VERIFY: ob angeboten und zu welchen Bedingungen — Fachhandelsvertrieb]]
+- **Vertriebsschulung.** Kurze Schulung für die Mitarbeiter der Bemusterung. [[VERIFY: Format und Verfügbarkeit — Fachhandelsvertrieb]]
+- **Unterstützung für Installateure.** Technische Hotline, in den USA 1-800-301-1293, Mo–Fr 9–16 Uhr pazifischer Zeit[^s5]; [[VERIFY: technischer Ansprechpartner für Deutschland — Partner Deutschland]]. Verfügbar (USA).
+- **Garantie.** Herstellergarantie je Serie. [[VERIFY: Bedingungen — Produktteam]]
+- **Gemeinsames Marketing.** Einleger für Prospekte, Bildmaterial für Ihre Exposés. [[VERIFY: welche Materialien und Nutzungsrechte — Marketing]]
+- **Ansprechpartner im Programm.** Benannter regionaler Ansprechpartner. [[VERIFY: Ansprechpartner je Region — Fachhandelsvertrieb]]
 
 ### Für wen es gedacht ist
 
 Bauträger mit Serien- und teilindividuellen Häusern, die ein Paket für den Außenbereich anbieten, Bauunternehmen für individuelle Häuser, die ein Standarddetail für die Heizung wollen, und Sanierer, die überdachte Terrassen ergänzen. [[VERIFY: Teilnahmekriterien — Fachhandelsvertrieb]]
 
 ## Teil 2: Leitfaden Gut-Besser-Premium
+
+Drei Wege, den Abend zu verkaufen, vom Abendessen draußen an einem kühlen Abend bis zum Außenraum, der so vollendet ist wie das Innere.
 
 Jede Stufe ist eine vollständige, funktionierende Lösung, die Heizstrahler, die Steuerung, über die sie laufen, die Montage und die Rohinstallation zusammenbringt, die Ihr Elektriker im Rohbau ausführt. Die Steuerung gehört in jeder Stufe als Teil des Systems dazu. WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Steuerungen, die separat erhältlich sind; wo sie aufgeführt sind, sind sie in der Stufe enthalten.[^s5]
 
@@ -155,6 +159,8 @@ Eingelassene Platinum Heizstrahler wärmen die Lounge, während Eclipse Pendel �
 ![Eclipse Pendel über einer langen Tafel im Kerzenlicht](img:l-013-100)
 
 ## So erreicht es Ihre Käufer
+
+Am sichersten verkauft sich Wärme, wenn Käufer sie spüren.
 
 - **Zeigen Sie es eingeschaltet.** Eine beheizte Musterhausterrasse in der Abenddämmerung erzählt die Geschichte besser als jeder Prospekt.
 - **Kalkulieren Sie die Vorverkabelung, auch wenn Käufer sie ablehnen.** Eine Rohinstallation im Rohbau kostet weit weniger, als später eine fertige Untersicht zu öffnen, und erlaubt Käufern, die Wärme nach der Übergabe nachzurüsten. [[VERIFY: typische Kostenspanne der Rohinstallation bei Partner-Elektrikern — Fachhandelsvertrieb]]

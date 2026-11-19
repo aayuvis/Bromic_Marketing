@@ -101,18 +101,18 @@ Sie finden hier einen dreiteiligen CSI-Muster-Ausschreibungstext für elektrisch
 
 ## Was dieses Paket enthält
 
-| Teil | Inhalt | Format | Stand |
-|---|---|---|---|
-| 1 | Dieses Verzeichnis und die Gebrauchsanleitung | Markdown → PDF | Entwurf |
-| 2 | Muster-Ausschreibungstext, Abschnitt 23 83 33 (dreiteiliges CSI-Format) | Bearbeitbare .docx aus diesem Text | Entwurf |
-| 3 | Tabelle zu Heizfläche und Auswahl | Tabelle unten; .xlsx auf Anfrage | Entwurf |
-| 4 | Detailliste (vier Standarddetails) | DWG / PDF | [[VERIFY: welche Details heute vorliegen — Produktteam]] |
-| 5 | CAD- und BIM-Dateiverzeichnis | DWG, RVT, PDF | [[VERIFY: welche Dateien vorliegen — Produktteam]] |
-| 6 | Anfrage Planungsgespräch (Heizflächenpläne) | Service, [asset:A07](asset:A07) | Verfügbar |
+Sechs Teile führen Sie von der ersten Idee bis zur Heizflächenzeichnung.
 
-## Wo Infrarot-Heizstrahler für den Außenbereich in MasterFormat hingehören
+- **1. Dieses Verzeichnis und die Gebrauchsanleitung** (Markdown → PDF). Entwurf.
+- **2. Muster-Ausschreibungstext, Abschnitt 23 83 33 (dreiteiliges CSI-Format)** (Bearbeitbare .docx aus diesem Text). Entwurf.
+- **3. Tabelle zu Heizfläche und Auswahl** (Tabelle unten; .xlsx auf Anfrage). Entwurf.
+- **4. Detailliste (vier Standarddetails)** (DWG / PDF). [[VERIFY: welche Details heute vorliegen — Produktteam]]
+- **5. CAD- und BIM-Dateiverzeichnis** (DWG, RVT, PDF). [[VERIFY: welche Dateien vorliegen — Produktteam]]
+- **6. Anfrage Planungsgespräch (Heizflächenpläne)** (Service, [asset:A07](asset:A07)). Verfügbar.
 
-Wenn Ihr Projekt nach MasterFormat gegliedert ist, etwa bei internationalen Bauherren, empfehlen wir **23 83 33 Electric Radiant Heaters**. Die Begründung unten stützt diese Wahl in einer Prüfung.
+## Der richtige Platz in MasterFormat
+
+Im richtigen Abschnitt ausgeschrieben, ist der Heizstrahler, den Sie gewählt haben, auch der, der gebaut wird, durch Wertanalyse und Vergabe hindurch. Wenn Ihr Projekt nach MasterFormat gegliedert ist, etwa bei internationalen Bauherren, empfehlen wir **23 83 33 Electric Radiant Heaters**. Die Begründung unten stützt diese Wahl in einer Prüfung.
 
 - **Division 23 (HVAC), 23 83 00 Radiant Heating Units** ist in MasterFormat der Platz für Geräte, die durch Strahlung heizen.[^s3] Die Unterabschnitte der dritten Ebene sind 23 83 13 (elektrische Heizkabel und -matten), 23 83 23 (elektrische Heizpaneele) und **23 83 33 (elektrische Heizstrahler)**.[^s4] Ein Bromic-Heizstrahler ist ein eigenständiger elektrischer Infrarotstrahler und gehört damit ganz natürlich in 23 83 33.
 - **23 82 39 Unit Heaters** umfasst Konvektionsgeräte (Truhen-, Propeller-, Wand- und Deckenlufterhitzer), die warme Luft bewegen.[^s7] Im Freien steigt warme Luft auf und wird vom Wind fortgetragen, und Strahlungswärme erwärmt Menschen und Oberflächen direkt,[^s2] daher passt dieser Abschnitt schlecht.
@@ -125,6 +125,8 @@ Wenn Ihr Projekt nach MasterFormat gegliedert ist, etwa bei internationalen Bauh
 ## Der richtige Heizstrahler für jeden Bereich
 
 Beginnen Sie mit den Menschen, die den Bereich nutzen werden. Ein Esstisch verlangt gleichmäßige Wärme auf Kopfhöhe im Sitzen, ein Bartresen Wärme dort, wo die Gäste stehen, und eine Lounge sanfte Wärme ohne Blendung. Die Zahlen ergeben sich daraus. Die Heizflächen sind Richtwerte und hängen von Modell, Montagehöhe, Umgebung und Installation ab.[^s1]
+
+> Wärme, die man spürt, nicht sieht.
 
 | Serie | Stand | Leistung | Oberflächen | Heizfläche je Gerät (ca.) | Montage | Geeignet für | Steuerung (vorgeschrieben) |
 |---|---|---|---|---|---|---|---|
@@ -141,6 +143,8 @@ Ein Bereich gilt als Außenbereich, wenn mindestens 30 % seines Umfangs dauerhaf
 ![Eingelassener Heizstrahler in einer Holzuntersicht auf einer Dachterrasse in der Stadt](img:t-006-016)
 
 ## Muster-Ausschreibungstext: Abschnitt 23 83 33 Elektrische Infrarot-Heizstrahler
+
+Einmal angepasst, kommt die Wärme, die Sie geplant haben, genau wie gezeichnet auf die Baustelle, mit Steuerung, Prüfzeichen und Details an ihrem Platz.
 
 > **Hinweise für den Planer** stehen kursiv in eckigen Klammern. Löschen Sie sie vor dem Versand. Optionen in eckigen Klammern [ ] sind Auswahlmöglichkeiten.
 
@@ -308,37 +312,48 @@ B. Betriebs- und Wartungsunterlagen, Garantieunterlagen und das Inbetriebnahmepr
 
 **ENDE ABSCHNITT 23 83 33**
 
-## Produktvorgabe oder „oder gleichwertig“?
+## Ihre Planungsabsicht bis zur Vergabe schützen
+
+Ob produktbezogen oder „oder gleichwertig“ ausgeschrieben, das Ziel ist dasselbe: Der Außenraum, den Ihr Bauherr freigegeben hat, ist der, der eröffnet wird.
 
 *Hinweis zur Prüfung (Spezifikation und Compliance):* Dieses Paket ist so geschrieben, dass es die Planungsabsicht bis zur Vergabe schützt, indem es den Austausch des Produkts begrenzt. Eine Produktvorgabe (Option A) leistet das und ist bei privaten Wohn- und Hotelprojekten üblich. Viele öffentliche und manche privaten Bauherren verlangen Wettbewerb; der Architekt muss dann Alternativen zulassen. In Deutschland kann das Vergaberecht öffentliche Auftraggeber zu einer produktneutralen Ausschreibung oder zum Zusatz „oder gleichwertig“ verpflichten. Option B behält Bromic als Leitfabrikat, legt aber Leistungskriterien fest und verlangt für jedes Alternativprodukt einen Heizflächenplan. Das hebt den Maßstab und lässt dennoch Alternativen zu. Beide Optionen sind oben ausformuliert. [[VERIFY: von Bromic bevorzugte Standardoption (A oder B) und die Leistungskriterien für Option B — Spezifikation und Compliance + Produktteam]]
 
 ## Die Details, die Ihre Pläne enthalten sollten
 
-Vier Standarddetails decken die meisten Projekte ab. Jedes wird als Schnitt oder Grundriss gezeichnet, die Maße bleiben als Platzhalter für das gewählte Modell.
+Ein paar klare Details in den Plänen sorgen dafür, dass ein eingelassener Heizstrahler auf der Baustelle perfekt bündig sitzt. Vier Standarddetails decken die meisten Projekte ab. Jedes wird als Schnitt oder Grundriss gezeichnet, die Maße bleiben als Platzhalter für das gewählte Modell.
 
-| Nr. | Detail | Zeigt | Diagramm |
-|---|---|---|---|
-| D1 | Schnitt eingelassene Untersicht | Heizstrahler im Einbaurahmen, Hohlraumtiefe, Unterkonstruktion, Deckenbekleidung, Abstand zu Tragwerk und brennbaren Materialien, Lage der Anschlussdose | [[DIAGRAM: Schnitt durch eine Holz- oder Putzuntersicht mit eingelassenem Platinum-Heizstrahler im Einbaurahmen, Unterkonstruktion, Platzhalter Hohlraumtiefe, Linie Deckenbekleidung, Anschlussdose, Abstandsmaße als Platzhalter]] |
-| D2 | Ansicht Wandmontage | Halterung, Montagehöhe über Fertigfußboden, Neigung, Abstand zu Decke und Öffnungen, Leitungseinführung, Lage des Wandschalters | [[DIAGRAM: Ansicht eines wandmontierten Heizstrahlers mit Platzhalter Montagehöhe (min. laut Anleitung), Neigungswinkel, Platzhalter Deckenabstand, Leitungseinführung, Lage von Wandschalter und Steuergerät]] |
-| D3 | Abhängung an Stangen | Abhängestange oder Eclipse-Einzel-, Doppel- oder gebogene Stange, wirksame Höhe des Heizstrahlers, Befestigung am Tragwerk | [[DIAGRAM: Schnitt unter einer hohen oder geneigten Decke mit Abhängestange, die einen Heizstrahler auf wirksame Höhe bringt; zweite Ansicht einer Eclipse-Pendelleuchte an Einzel- und Doppelstange]] |
-| D4 | Heizflächenplan | Positionen der Heizstrahler mit ungefähren Heizflächen über dem Möblierungsplan, Zonen, Stromkreise, Lage von Steuergeräten und Schaltern | [[DIAGRAM: Grundriss einer Restaurantterrasse mit Möblierung, Heizstrahlersymbolen, ungefähren Heizflächen, Zonengrenzen, Stromkreisbezeichnungen und Lage der Affinity-Steuergeräte / Wandschalter]] |
+**D1 Schnitt eingelassene Untersicht.** Heizstrahler im Einbaurahmen, Hohlraumtiefe, Unterkonstruktion, Deckenbekleidung, Abstand zu Tragwerk und brennbaren Materialien, Lage der Anschlussdose.
+
+[[DIAGRAM: Schnitt durch eine Holz- oder Putzuntersicht mit eingelassenem Platinum-Heizstrahler im Einbaurahmen, Unterkonstruktion, Platzhalter Hohlraumtiefe, Linie Deckenbekleidung, Anschlussdose, Abstandsmaße als Platzhalter]]
+
+**D2 Ansicht Wandmontage.** Halterung, Montagehöhe über Fertigfußboden, Neigung, Abstand zu Decke und Öffnungen, Leitungseinführung, Lage des Wandschalters.
+
+[[DIAGRAM: Ansicht eines wandmontierten Heizstrahlers mit Platzhalter Montagehöhe (min. laut Anleitung), Neigungswinkel, Platzhalter Deckenabstand, Leitungseinführung, Lage von Wandschalter und Steuergerät]]
+
+**D3 Abhängung an Stangen.** Abhängestange oder Eclipse-Einzel-, Doppel- oder gebogene Stange, wirksame Höhe des Heizstrahlers, Befestigung am Tragwerk.
+
+[[DIAGRAM: Schnitt unter einer hohen oder geneigten Decke mit Abhängestange, die einen Heizstrahler auf wirksame Höhe bringt; zweite Ansicht einer Eclipse-Pendelleuchte an Einzel- und Doppelstange]]
+
+**D4 Heizflächenplan.** Positionen der Heizstrahler mit ungefähren Heizflächen über dem Möblierungsplan, Zonen, Stromkreise, Lage von Steuergeräten und Schaltern.
+
+[[DIAGRAM: Grundriss einer Restaurantterrasse mit Möblierung, Heizstrahlersymbolen, ungefähren Heizflächen, Zonengrenzen, Stromkreisbezeichnungen und Lage der Affinity-Steuergeräte / Wandschalter]]
 
 ![Eingelassener Heizstrahler in einer weißen Decke an der Küste](img:l-005-022)
 
 ## CAD- und BIM-Dateien für Ihr Modell
 
+Mit dem Heizstrahler in Ihrem Modell zeigt jede Ansicht, vom Deckenspiegel bis zum Schnitt, ihn so, wie er gebaut wird.
+
 [[VERIFY: welche Dateien vorliegen, ihre Formate, Detaillierungsgrad (LOD) und wo sie bereitgestellt werden (bromic.com, BIMobject, ARCAT, andere) — Produktteam]]
 
-| Datei | Format | Umfang | Stand |
-|---|---|---|---|
-| Revit-Familien, elektrische Heizstrahler | .rfa | Platinum (2300/3400/4500 W), Eclipse, Tungsten Coastal und Select (nach Markteinführung) | [[VERIFY — Produktteam]] |
-| Revit-Familien, Steuergeräte | .rfa | Affinity On/Off-, Dimmer- und Eclipse-Steuergeräte | [[VERIFY — Produktteam]] |
-| 2D-CAD-Blöcke | .dwg | Grundriss- und Ansichtsblöcke je Heizstrahler | [[VERIFY — Produktteam]] |
-| Standarddetails D1–D4 | .dwg / .pdf | Wie oben aufgeführt | [[VERIFY — Produktteam]] |
-| Datenblätter | .pdf | Je Modell: Abmessungen, Gewicht, Leistung, Spannung, Abstände | [[VERIFY — Produktteam]] |
-| Montageanleitungen | .pdf | Je Modell, aktuelle Ausgabe | [[VERIFY — Produktteam]] |
-| Prüf- und Konformitätsnachweise | .pdf | Je Modell | [[VERIFY — Produktteam]] |
-| Dieser Muster-Ausschreibungstext | .docx | Abschnitt 23 83 33 | Entwurf (dieses Dokument) |
+- **Revit-Familien, elektrische Heizstrahler** (.rfa): Platinum (2300/3400/4500 W), Eclipse, Tungsten Coastal und Select (nach Markteinführung). [[VERIFY — Produktteam]]
+- **Revit-Familien, Steuergeräte** (.rfa): Affinity On/Off-, Dimmer- und Eclipse-Steuergeräte. [[VERIFY — Produktteam]]
+- **2D-CAD-Blöcke** (.dwg): Grundriss- und Ansichtsblöcke je Heizstrahler. [[VERIFY — Produktteam]]
+- **Standarddetails D1–D4** (.dwg / .pdf): Wie oben aufgeführt. [[VERIFY — Produktteam]]
+- **Datenblätter** (.pdf): Je Modell: Abmessungen, Gewicht, Leistung, Spannung, Abstände. [[VERIFY — Produktteam]]
+- **Montageanleitungen** (.pdf): Je Modell, aktuelle Ausgabe. [[VERIFY — Produktteam]]
+- **Prüf- und Konformitätsnachweise** (.pdf): Je Modell. [[VERIFY — Produktteam]]
+- **Dieser Muster-Ausschreibungstext** (.docx): Abschnitt 23 83 33. Entwurf (dieses Dokument).
 
 ## Ihre Checkliste für die Planung
 
