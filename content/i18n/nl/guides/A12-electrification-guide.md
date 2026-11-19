@@ -5,12 +5,12 @@ translation_of: A12
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 type: gated-guide
-title: "Volledig elektrische bouwregels en buitenwarmte: terrassen warm houden terwijl het Amerikaanse elektrificatiebeleid verandert"
+title: "Buitenwarmte in een volledig elektrische toekomst"
 audience: [ARC, COM]
 stage: [PP]
 cell: ARC-PP
 asset: A12
-summary: "Een heldere lezing van de elektrificatieregels van NYC, de staat New York, Californië, Berkeley, Washington, Denver, Colorado en Massachusetts, welke ervan buitenverwarmers bereiken, en hoe u een buitenruimte plant die elektrisch voorbereid is en jarenlang warm blijft."
+summary: "Een nauwkeurige lezing van de elektrificatieregels van NYC, de staat New York, Californië, Berkeley, Washington, Denver, Colorado en Massachusetts, welke ervan buitenverwarmers bereiken, en hoe u een buitenruimte plant die elektrisch voorbereid is en jarenlang warm blijft."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Zijn gasterrasverwarmers toegestaan onder volledig elektrische bouwregels?"
@@ -173,11 +173,11 @@ sources:
     verified: true
 ---
 
-# Volledig elektrische bouwregels en buitenwarmte
+# Buitenwarmte in een volledig elektrische toekomst
 
 *Deze gids gaat over wet- en regelgeving in de Verenigde Staten. Hij laat zien hoe elektrificatiebeleid buitenverwarming raakt; de ontwerpprincipes gelden overal, maar de genoemde wetten gelden niet in Nederland. In Nederland installeert u elektrisch volgens NEN 1010 en gas volgens NEN 1078, en stemt u af met uw gemeente.* [[VERIFY: Nederlandse context (beleid voor gasloze nieuwbouw, Bbl, energie-eisen) met bronnen toevoegen, of deze gids alleen in het Engels aanbieden — Bromic Benelux distributor]]
 
-Voor het grootste deel noemen de elektrificatiewetten die nu in de VS gelden terrasverwarmers niet. Ze houden gas uit **nieuwe gebouwen**, of maken warmtepompen de standaard voor ruimte- en tapwaterverwarming **binnen**. Hun bereik strekt zich toch uit tot het terras. Een nieuw volledig elektrisch gebouw heeft geen gasleiding voor een ingebouwde verwarmer, definities naar het model van Berkeley trokken de beperking door tot aan de perceelgrens, en energievoorschriften voor utiliteitsbouw eisen nu al dat buitenwarmte stralingswarmte is en uitschakelt als er niemand is. Wie de buitenruimte vanaf de eerste tekening rond elektrische stralingswarmte plant, houdt die avonden buiten veilig, welke kant de regels ook op gaan.
+Voor het grootste deel noemen de elektrificatiewetten die nu in de VS gelden terrasverwarmers niet. Ze houden gas uit **nieuwe gebouwen**, of maken warmtepompen de standaard voor ruimte- en tapwaterverwarming **binnen**, en hun bereik strekt zich toch uit tot het terras. Een nieuw volledig elektrisch gebouw heeft geen gasleiding voor een ingebouwde verwarmer, definities naar het model van Berkeley trokken de beperking door tot aan de perceelgrens, en energievoorschriften voor utiliteitsbouw eisen nu al dat buitenwarmte stralingswarmte is en uitschakelt als er niemand is. Plan de buitenruimte vanaf de eerste tekening rond elektrische stralingswarmte, en die avonden buiten blijven veilig, welke kant de regels ook op gaan.
 
 *De feiten in deze gids zijn weergegeven zoals ze waren op 29 oktober 2026. Wetten, uitspraken en de invoering van voorschriften veranderen; controleer elk ervan bij het bevoegd gezag voordat u erop vertrouwt.*
 
@@ -198,42 +198,42 @@ Elke regeling leest u het best op **wat ze regelt** (gasleidingen, verbranding o
 | Colorado (hele staat) | HB22-1362; Model Electric Ready and Solar Ready Code | Invoering door de DFPC van kracht per 15 aug. 2025[^s14][^s15] | Bepalingen voor elektrische voorbereiding in lokale voorschriften | Capaciteit voor elektrische voorbereiding, geen verbod. [[VERIFY: of groepen voor buitenverwarmers zijn inbegrepen]] |
 | Massachusetts | Municipal Fossil Fuel Free Building Demonstration (225 CMR 24.00) | Tien deelnemende gemeenten[^s16] | Fossiele brandstof bij nieuwbouw en ingrijpende renovatie, via een lokale verordening[^s16] | Hangt af van de verordening van elke gemeente. [[VERIFY: behandeling van buitentoestellen per gemeente]] |
 
-## Wat doet Local Law 154 van New York City precies?
+## Wat Local Law 154 van New York City doet
 
-Local Law 154 verbiedt het verbranden van brandstoffen die 25 kg of meer CO2 per miljoen Btu uitstoten (ca. 85 g per kWh) in nieuwe gebouwen, en dat omvat aardgas en olie.[^s2] De data lopen vanaf het moment waarop de bouwdocumenten worden ingediend: 1 januari 2024 voor gebouwen onder zeven bouwlagen, 2 juli 2027 voor alle gebruiksfuncties.[^s1] Bedrijfskeukens, ziekenhuizen, laboratoria, wasserettes, crematoria, productie en noodstroom horen bij de uitzonderingen.[^s1] Buitenverwarmers horen daar niet bij.
+Local Law 154 verbiedt het verbranden van brandstoffen die 25 kg of meer CO2 per miljoen Btu uitstoten (ca. 85 g per kWh) in nieuwe gebouwen, en dat omvat aardgas en olie.[^s2] De data lopen vanaf het moment waarop de bouwdocumenten worden ingediend: 1 januari 2024 voor gebouwen onder zeven bouwlagen, 2 juli 2027 voor alle gebruiksfuncties.[^s1] Bedrijfskeukens, ziekenhuizen, laboratoria, wasserettes, crematoria, productie en noodstroom horen bij de uitzonderingen;[^s1] buitenverwarmers niet.
 
 De wettekst zondert ook toestellen uit die niet zijn aangesloten op de gas- of olieleidingen van het gebouw, incidenteel worden gebruikt en **niet worden gebruikt om warmte of warm water te leveren**.[^s2] Een mobiele verwarmer is niet aangesloten en wordt incidenteel gebruikt, maar warmte leveren is juist zijn doel. Of een mobiele propaanverwarmer op het terras van een nieuw gebouw onder die uitzondering valt, is een vraag die het Department of Buildings moet beantwoorden. [[VERIFY: standpunt van het DOB over mobiele buitenverwarmers onder §24-177.1(c), en of een dakterras geldt als "in" het gebouw — specificatie en compliance / NYC-adviseur bouwregelgeving]]
 
-Warmte bij buitenhoreca in NYC valt apart onder regels voor brandveiligheid en openbare ruimte. De winterrichtlijn van 2020 stond elektrische stralingsverwarmers toe bij zitplaatsen op de stoep en de rijbaan, stralingsverwarmers op aardgas alleen op de stoep, en propaan alleen met een vergunning van de FDNY.[^s21] Die richtlijn is geschreven voor het noodprogramma, dus het loont om na te gaan wat vandaag geldt. [[VERIFY: huidige regels van FDNY en DOT/DOB voor verwarmers bij buitenhoreca — verkoop horeca]]
+Warmte bij buitenhoreca in NYC valt apart onder regels voor brandveiligheid en openbare ruimte. De winterrichtlijn van 2020 stond elektrische stralingsverwarmers toe bij zitplaatsen op de stoep en de rijbaan, stralingsverwarmers op aardgas alleen op de stoep, en propaan alleen met een vergunning van de FDNY.[^s21] Die richtlijn is geschreven voor het noodprogramma, dus ga na wat vandaag geldt. [[VERIFY: huidige regels van FDNY en DOT/DOB voor verwarmers bij buitenhoreca — verkoop horeca]]
 
 Over federale voorrang oordeelde het Second Circuit op 30 juni 2026 dat de federale wet op de efficiëntie van apparaten (EPCA) geen voorrang heeft boven de All-Electric Buildings Act van New York of LL154.[^s3] Dat staat haaks op de uitspraak van het Ninth Circuit in de zaak-Berkeley, dus verder beroep is mogelijk.
 
-## Wat gebeurde er in Berkeley, en waarom doet dat er nog toe?
+## Waarom Berkeley er nog toe doet
 
 De verordening van Berkeley uit 2019 verbood aardgasinfrastructuur in nieuw gebouwde panden vanaf 1 januari 2020.[^s7] Ze definieerde die infrastructuur als gasleidingen in of aangesloten op een gebouw of bouwwerk, **of binnen de perceelgrenzen van het terrein**, vanaf de meter.[^s7] Een op gas aangesloten verwarmer op een nieuw terras viel er dus onder, ook al gebruikte de verordening nergens het woord "verwarmer".
 
 In *California Restaurant Association v. City of Berkeley* oordeelde een kamer van het Ninth Circuit op 17 april 2023 dat EPCA voorrang had boven de verordening; een herbehandeling en banc werd op 2 januari 2024 afgewezen, met een gewijzigde uitspraak.[^s8] Berkeley stopte met handhaven en trok Chapter 12.80 in 2024 in.[^s9]
 
-De blijvende les is dat de uitspraak draaide om hoe de wet was geschreven, en de bredere vraag over elektrificatie openliet. Het Second Circuit las EPCA voor New York andersom.[^s3] Steden binnen het Ninth Circuit (waaronder Californië, Washington en Oregon) zijn sindsdien overgestapt op routes via energievoorschriften, zoals een warmtepomp als referentie en strengere lokale voorschriften (reach codes), die minder kwetsbaar zijn voor EPCA en toch bepalen wat er wordt gebouwd.
+De uitspraak draaide om hoe de wet was geschreven, en de bredere vraag over elektrificatie openliet. Het Second Circuit las EPCA voor New York andersom.[^s3] Steden binnen het Ninth Circuit (waaronder Californië, Washington en Oregon) zijn sindsdien overgestapt op routes via energievoorschriften, zoals een warmtepomp als referentie en strengere lokale voorschriften (reach codes), die minder kwetsbaar zijn voor EPCA en toch bepalen wat er wordt gebouwd.
 
-## Verbiedt de Californische Title 24 van 2025 gas?
+## De Californische Title 24 van 2025 en gas
 
-Dat doet ze niet. De Energy Code van 2025, die geldt voor vergunningsaanvragen vanaf 1 januari 2026, maakt warmtepompen de **referentie** voor ruimte- en tapwaterverwarming, een dubbele referentie voor nieuwe vrijstaande woningen.[^s5] Prescriptieve ruimteverwarming met een warmtepomp geldt nu voor alle klimaatzones.[^s6] Gas blijft mogelijk via de prestatieroute, tegen nalevingskosten. In de geraadpleegde bronnen regelen deze referenties de verwarming van geklimatiseerde ruimte; we vonden geen bepaling in Part 6 die voor terrasverwarmers is geschreven. [[VERIFY: eventuele bepaling in Part 6 of CALGreen van 2025 over buitenverwarmingstoestellen — specificatie en compliance]] Lokale reach codes in Californië kunnen strenger zijn, dus stem ook af met de stad.
+De Energy Code van 2025 verbiedt gas niet. Ze geldt voor vergunningsaanvragen vanaf 1 januari 2026 en maakt warmtepompen de **referentie** voor ruimte- en tapwaterverwarming, een dubbele referentie voor nieuwe vrijstaande woningen.[^s5] Prescriptieve ruimteverwarming met een warmtepomp geldt nu voor alle klimaatzones.[^s6] Gas blijft mogelijk via de prestatieroute, tegen nalevingskosten. In de geraadpleegde bronnen regelen deze referenties de verwarming van geklimatiseerde ruimte; we vonden geen bepaling in Part 6 die voor terrasverwarmers is geschreven. [[VERIFY: eventuele bepaling in Part 6 of CALGreen van 2025 over buitenverwarmingstoestellen — specificatie en compliance]] Lokale reach codes in Californië kunnen strenger zijn, dus stem ook af met de stad.
 
-## Welke energievoorschriften regelen buitenwarmte al rechtstreeks?
+## De energievoorschriften die buitenwarmte al regelen
 
-Dit is de bepaling die bij het voorschrijven het vaakst over het hoofd wordt gezien. Het energievoorschrift voor utiliteitsbouw van Washington, dat de IECC 2021 overneemt, eist dat elk systeem dat wordt geïnstalleerd om buiten een gebouw te verwarmen **stralingswarmte** levert, en wordt bediend met een **aanwezigheidssensor of tijdschakelaar**, zodat het uitschakelt als er niemand is.[^s10] ASHRAE 90.1 eist eveneens stralingsverwarming waar niet-omsloten ruimtes worden verwarmd.[^s17] Dezelfde IECC-bepaling staat in andere staten die het modelvoorschrift overnemen; de artikelnummers verschillen per editie en per wijziging door de staat. [[VERIFY: artikelnummer in de model-IECC van 2021 en 2024 en in de overname door elke doelstaat — specificatie en compliance]]
+Deze bepaling wordt bij het voorschrijven het vaakst over het hoofd gezien. Het energievoorschrift voor utiliteitsbouw van Washington, dat de IECC 2021 overneemt, eist dat elk systeem dat wordt geïnstalleerd om buiten een gebouw te verwarmen **stralingswarmte** levert, en wordt bediend met een **aanwezigheidssensor of tijdschakelaar**, zodat het uitschakelt als er niemand is.[^s10] ASHRAE 90.1 eist eveneens stralingsverwarming waar niet-omsloten ruimtes worden verwarmd.[^s17] Dezelfde IECC-bepaling staat in andere staten die het modelvoorschrift overnemen; de artikelnummers verschillen per editie en per wijziging door de staat. [[VERIFY: artikelnummer in de model-IECC van 2021 en 2024 en in de overname door elke doelstaat — specificatie en compliance]]
 
 Ze bepaalt het ontwerp op twee manieren.
 
 1. **Buitenverwarmers met geforceerde lucht of convectie vallen bij utiliteitsprojecten buiten deze voorschriften**, zodat stralingswarmte de keuze is die voldoet.
 2. **Bediening wordt onderdeel van de naleving.** Affinity Smart-Heat Controls bieden schema's en timers via de Bromic Smart-Heat app, met zones en een handmatige wandschakelaar.[^s19] Wifi- en app-functies vragen om compatibele Affinity-bediening, apart verkrijgbaar. [[VERIFY: of Affinity-schema's voldoen aan de "timer switch" uit het voorschrift, en een goedgekeurde koppeling met een aanwezigheidssensor — productteam]]
 
-## Wat eisen Washington, Denver, Colorado en Massachusetts?
+## Washington, Denver, Colorado en Massachusetts
 
 **Staat Washington.** Het voorschrift voor utiliteitsbouw eist ruimteverwarming met een warmtepomp (C403.1.4); de huidige gewijzigde versie geldt sinds 15 maart 2024, en de opties voor bijverwarming zijn in december 2024 verruimd.[^s11] Initiative 2066, in 2024 door kiezers aangenomen om deze bepalingen in te perken, werd in september 2026 door het Hooggerechtshof van Washington in zijn geheel ongrondwettig verklaard.[^s12] Buitenwarmte valt onder de regel van stralingswarmte plus bediening hierboven, welke brandstof ook.[^s10]
 
-**Denver.** De Denver Energy Code van 2025 verbiedt fossiele luchtverwarmers, elektrische weerstandsverwarming voor ruimtes en fossiele of elektrische weerstandsboilers in nieuwe gebouwen, met uitzonderingen.[^s13] Elektrische infraroodverwarmers zijn weerstandstoestellen, en dat maakt de interpretatie belangrijk. Als Denver stralingswarmte buiten als "space heat" behandelt, zou de regel ook elektrische terrasverwarmers beperken, niet alleen gas. We verwachten dat buitenwarmte wordt behandeld als verwarming buiten de gebouwschil, al hebben we dat nog niet bevestigd. [[VERIFY: interpretatie van Denver CPD voor stralingsverwarmers buiten, en de lijst met uitzonderingen — specificatie en compliance]] De pagina's van de stad geven zowel 31 december 2025 als 1 januari 2026 als ingangsdatum.[^s13]
+**Denver.** De Denver Energy Code van 2025 verbiedt fossiele luchtverwarmers, elektrische weerstandsverwarming voor ruimtes en fossiele of elektrische weerstandsboilers in nieuwe gebouwen, met uitzonderingen.[^s13] Elektrische infraroodverwarmers zijn weerstandstoestellen, dus de interpretatie doet ertoe. Als Denver stralingswarmte buiten als "space heat" behandelt, zou de regel ook elektrische terrasverwarmers beperken, niet alleen gas. We verwachten dat buitenwarmte wordt behandeld als verwarming buiten de gebouwschil, al hebben we dat nog niet bevestigd. [[VERIFY: interpretatie van Denver CPD voor stralingsverwarmers buiten, en de lijst met uitzonderingen — specificatie en compliance]] De pagina's van de stad geven zowel 31 december 2025 als 1 januari 2026 als ingangsdatum.[^s13]
 
 **Colorado.** HB22-1362 verplicht lokale overheden om bij het bijwerken van hun bouwvoorschriften een energievoorschrift in te voeren dat minstens zo streng is als de IECC 2021, plus modelbepalingen voor elektrische en zonne-energievoorbereiding.[^s15] De eigen invoering door de brandpreventiedienst van de staat ging in op 15 augustus 2025.[^s14] Regels voor elektrische voorbereiding eisen capaciteit en leidingtracés voor toekomstige elektrische toestellen en verbieden gas op zich niet.
 
@@ -241,7 +241,7 @@ Ze bepaalt het ontwerp op twee manieren.
 
 ## Een buitenruimte elektrisch voorbereid plannen
 
-Warmte die vanaf de eerste tekening is ingepland, is de meest elegante en de voordeligste oplossing. Het beste moment om buitenwarmte toe te voegen is voordat het plafond dichtgaat en het groepenschema vastligt. Deze planningspunten gelden ook in Nederland; de installatie zelf volgt NEN 1010.
+Buitenwarmte kost het minst en oogt het mooist als ze wordt toegevoegd voordat het plafond dichtgaat en het groepenschema vastligt. Deze planningspunten gelden ook in Nederland; de installatie zelf volgt NEN 1010.
 
 ![Overdekte buitenkeuken, verwarmd door verwarmers die vlak in het plafond zijn ingebouwd](img:l-010-067)
 
@@ -257,7 +257,7 @@ Warmte die vanaf de eerste tekening is ingepland, is de meest elegante en de voo
 | Zones | Eén zone per gebied dat op verschillende momenten wordt gebruikt | Zo sluiten schema's aan op het gebruik, wat energie bespaart |
 | Vochtige en natte locaties | Dozen, componenten en verwarmers die geschikt zijn voor de locatie[^s18] | Buitenlocaties zijn vochtig of nat |
 
-### Hoeveel belasting voegt een verwarmer toe?
+### Hoeveel belasting een verwarmer toevoegt
 
 Stroom (A) = vermogen (W) ÷ spanning (V). In de VS worden de geleiders daarna gedimensioneerd op 125% van die belasting;[^s18] in Nederland bepaalt de installateur groep, beveiliging en kabeldoorsnede volgens NEN 1010. De tabel is alleen ter illustratie, op 230 V eenfase.
 
@@ -269,7 +269,7 @@ Stroom (A) = vermogen (W) ÷ spanning (V). In de VS worden de geleiders daarna g
 
 [[VERIFY: nominale spanning en stroom per Platinum-model — productteam]] Uw installateur dimensioneert de groep en de beveiliging volgens de geldende voorschriften en het typeplaatje.
 
-## Hoe elektrische stralingswarmte, aardgas via een leiding en propaan zich verhouden tot de Amerikaanse regels
+## Elektrische stralingswarmte, aardgas en propaan naast elkaar
 
 | Factor | Elektrische stralingswarmte (ingebouwd) | Aardgas via een leiding (ingebouwd) | Propaan (mobiel) |
 |---|---|---|---|
@@ -293,13 +293,6 @@ Stroom (A) = vermogen (W) ÷ spanning (V). In de VS worden de geleiders daarna g
 - [ ] Plan bediening voor elke zone: een Affinity On/Off-, Dimmer- of Eclipse-regelaar, wandschakelaar, app.
 - [ ] Gebruik sectie 23 83 33 van de spec kit, zodat de elektrische oplossing bij de aanbesteding niet wordt vervangen.
 
-## Wat u meeneemt
-
-- De meeste Amerikaanse wetten voor volledig elektrische gebouwen beperken gas **in nieuwe gebouwen** en noemen terrasverwarmers niet, maar hun effect reikt toch tot het terras.
-- Energievoorschriften voor utiliteitsbouw eisen nu al dat buitenwarmte **stralingswarmte** is en uitschakelt als er niemand is, waardoor bediening onderdeel wordt van de naleving.
-- Rechtbanken zijn verdeeld over federale voorrang (Ninth Circuit tegenover Second Circuit), dus de regels zullen waarschijnlijk blijven veranderen.
-- Elektrische stralingswarmte, vroeg ingepland met de bijbehorende bediening, is verenigbaar met elke hier besproken regel.
-
 ## FAQ
 
 ### Kan ik in New York City een gasterrasverwarmer op een nieuw gebouw installeren?
@@ -309,10 +302,10 @@ Niet op gas via een leiding, want een nieuw gebouw onder LL154 heeft geen toeges
 Ze maakte een einde aan dat van Berkeley en beperkt vergelijkbare verordeningen binnen het Ninth Circuit. Het Second Circuit liet de wetten van New York in 2026 in stand, dus landelijk blijft de vraag onbeslist.[^s3][^s8]
 
 ### Verbiedt de Californische Energy Code van 2025 gasverwarmers?
-Dat doet ze niet. Ze maakt warmtepompen de referentie voor ruimte- en tapwaterverwarming binnen, en gas blijft mogelijk via de prestatieroute.[^s5]
+Nee. Ze maakt warmtepompen de referentie voor ruimte- en tapwaterverwarming binnen, en gas blijft mogelijk via de prestatieroute.[^s5]
 
 ### Zeggen energievoorschriften iets over buitenverwarmers?
-Dat doen ze. Onder voorschriften voor utiliteitsbouw die op de IECC zijn gebaseerd, zoals dat van Washington, moet buitenverwarming stralingswarmte zijn en worden bediend met een aanwezigheidssensor of timer.[^s10]
+Ja. Onder voorschriften voor utiliteitsbouw die op de IECC zijn gebaseerd, zoals dat van Washington, moet buitenverwarming stralingswarmte zijn en worden bediend met een aanwezigheidssensor of timer.[^s10]
 
 ### Raken verboden op elektrische weerstandsverwarming ook elektrische buitenverwarmers?
 Mogelijk in Denver, waar nieuwe gebouwen geen elektrische weerstandsverwarming voor ruimtes mogen gebruiken. Vraag de stad hoe stralingsverwarmers buiten worden ingedeeld.[^s13]

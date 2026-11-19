@@ -1,16 +1,16 @@
 ---
 id: A01-v2
 type: report
-title: "Outdoor Living Trends 2026: Zehn Arten, wie wir heute draußen leben"
+title: "Trends für das Leben im Freien 2026"
 audience: [RES, ARC, BLD]
 stage: [AW, CO]
 cell: RES-AW
 asset: A01
-summary: "Zehn Arten, wie Menschen in den USA mehr von ihrem Leben nach draußen holen – jede erzählt mit einer geprüften Zahl, was sie für den Raum bedeutet, und einem durchdachten Planungsschritt, damit er das ganze Jahr über trägt."
+summary: "Zehn Arten, wie Menschen in den USA mehr von ihrem Leben nach draußen holen, jede erzählt mit einer geprüften Zahl, mit dem, was sie für den Raum bedeutet, und mit einem Planungsschritt, der ihn das ganze Jahr in Gebrauch hält."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Welche Trends gibt es 2026 beim Wohnen im Freien?"
-meta_description: "Zehn Trends 2026 beim Wohnen im Freien, jeder mit einer belegten US-Zahl und einem Planungsschritt für die ganzjährige Nutzung durch Architekten und Bauherren."
+meta_description: "Outdoor Living Trends 2026: zehn Entwicklungen, jede mit einer belegten US-Zahl und einem Planungsschritt für die ganzjährige Nutzung im Freien."
 cta: {label: "Fläche berechnen", asset: A03}
 hero: t-001-000
 images: [t-003-005, l-013-108, t-005-013, t-006-016, t-007-019, t-008-022, t-009-025, t-010-028, t-011-031, t-012-034, t-013-037]
@@ -90,16 +90,16 @@ Für die Architekten, Bauunternehmer und Hausbesitzer, die prägen, wie wir drau
 
 ## Ein Raum für jede Jahreszeit
 
-Die Terrasse ist zu einem Raum geworden, den Menschen das ganze Jahr nutzen möchten. Doch wenn der Abend kühl wird, leert sie sich, weil die Beheizung so oft als Letztes geplant wird.
+Die Terrasse ist zu einem Raum geworden, den Menschen das ganze Jahr nutzen möchten. Wird der Abend kühl, leert sie sich oft, weil die Beheizung so oft als Letztes geplant wird.
 
 ## 01 Das Leben im Freien ist das Herz des Hauses
 
 **55 %** Nettoanteil der US-Architekten, die steigende Beliebtheit von Wohnbereichen im Freien sehen.[^s1]\
 *AIA, Home Design Trends Survey, Q2 2025*
 
-- Familien kommen heute draußen zusammen, essen und entspannen dort.
-- Überdachte Terrassen werden mit derselben Sorgfalt geplant wie jeder Raum.
-- Behaglichkeit ist es, was alle dort hält.
+- Familien kommen heute draußen so selbstverständlich zusammen, essen und entspannen dort wie in der Küche.
+- Überdachte Terrassen werden mit derselben Sorgfalt geplant wie jeder Raum im Haus.
+- Behaglichkeit hält alle dort, wenn das Licht schwindet.
 
 **Bromic Einblick** Strahlungswärme macht die Terrasse noch lange nach Sonnenuntergang zu einem Teil des Hauses.
 
@@ -110,9 +110,8 @@ Die Terrasse ist zu einem Raum geworden, den Menschen das ganze Jahr nutzen möc
 **67 %** sagen, dass eine Heizung am meisten dazu beitragen würde, ihre Zeit im Freien zu verlängern.[^s2]\
 *Atomik Research für Bromic Heating, 2025, Hausbesitzer in den USA* [[VERIFY: Erhebungszeitraum, Stichprobe n und Wortlaut der Frage gegen die Atomik-Topline prüfen — Marketing]]
 
-- Kaffee im Morgengrauen und Abendessen in der Dämmerung sind die Momente, die Menschen besonders schätzen.
+- Kaffee im Morgengrauen und Abendessen in der Dämmerung sind die Momente, die Menschen am meisten schätzen.
 - Ein kühler Morgen oder Abend kann beide verkürzen.
-- Genau das sind die Stunden, die Menschen am meisten wollen.
 
 **Bromic Einblick** Strahlungswärme schenkt behagliche Stunden an beiden Enden des Tages, damit Sie den Moment verlängern können.
 
@@ -123,8 +122,7 @@ Die Terrasse ist zu einem Raum geworden, den Menschen das ganze Jahr nutzen möc
 **60,5 %** der 2025 in den USA begonnenen neuen Einfamilienhäuser hatten eine Terrasse.[^s4]\
 *NAHB, nach dem Census Survey of Construction, 2025*
 
-- Terrassen werden von Anfang an mitgebaut.
-- Die Haustechnik wird gleich mitgeplant.
+- Terrassen werden von Anfang an mitgebaut, und die Haustechnik wird gleich mitgeplant.
 - Eine täglich genutzte Terrasse verdient sich ihren Platz im Haus.
 
 **Bromic Einblick** Eine Heizung macht aus einer gelegentlich genutzten Terrasse einen Raum, in dem Sie jeden Tag leben.
@@ -136,8 +134,7 @@ Die Terrasse ist zu einem Raum geworden, den Menschen das ganze Jahr nutzen möc
 **525 Mrd. $** prognostizierte jährliche Ausgaben von Hausbesitzern in den USA für Modernisierung und Reparaturen, bis Q3 2027.[^s5]\
 *Harvard Joint Center for Housing Studies, LIRA, Okt. 2026*
 
-- Viele Eigentümer entscheiden sich, das Zuhause zu verbessern, das sie lieben.
-- Das Leben im Freien steht im Mittelpunkt ihrer Modernisierungen.
+- Viele Eigentümer verbessern lieber das Zuhause, das sie lieben, und das Leben im Freien steht im Mittelpunkt ihrer Pläne.
 - Viele holen beim Verkauf den Großteil ihrer Kosten wieder herein.
 
 **Bromic Einblick** Eine bescheidene Ergänzung kann verändern, wie oft ein Bereich genossen wird.
@@ -149,11 +146,10 @@ Die Terrasse ist zu einem Raum geworden, den Menschen das ganze Jahr nutzen möc
 **40 %** Nettoanteil der US-Architekten, die steigende Beliebtheit fließender Übergänge zwischen innen und außen sehen.[^s1]\
 *AIA, Home Design Trends Survey, Q2 2025*
 
-- Glaswände gleiten zur Seite und öffnen den Raum.
-- Böden und Decken laufen nahtlos von innen nach außen.
+- Glaswände gleiten zur Seite, und Böden und Decken laufen nahtlos von innen nach außen.
 - Die Terrasse wird Teil des Wohngrundrisses.
 
-**Bromic Einblick** Strahlungswärme wärmt Menschen und Oberflächen statt der Luft und wirkt deshalb auch bei geöffneten Wänden weiter.
+**Bromic Einblick** Strahlungswärme wärmt Menschen und Oberflächen direkt und wirkt deshalb auch bei geöffneten Wänden weiter.
 
 **Planungsschritt** Führen Sie die Decke nach außen weiter und lassen Sie die Heizstrahler darin ein.
 
@@ -162,8 +158,7 @@ Die Terrasse ist zu einem Raum geworden, den Menschen das ganze Jahr nutzen möc
 **33 %** der Hausbesitzer, die ihren Außenbereich aufwerten, tun es, um ihren Wohnraum zu erweitern.[^s6]\
 *Houzz, U.S. Outdoor Trends Study, 2024*
 
-- Pergolen schaffen Orte zum Essen, Entspannen und Zusammenkommen.
-- Sie werden von Anfang an in das Haus hineingeplant.
+- Pergolen schaffen Orte zum Essen, Entspannen und Zusammenkommen und werden heute von Anfang an in das Haus hineingeplant.
 - Sie tragen Licht, Klang und Wärme mühelos.
 
 **Bromic Einblick** Eine Pergola ist ein idealer Träger für integrierte Strahlungswärme.
@@ -175,8 +170,7 @@ Die Terrasse ist zu einem Raum geworden, den Menschen das ganze Jahr nutzen möc
 **5** Smart-Home-Plattformen arbeiten mit Affinity Smart-Heat Controls zusammen.[^s8]\
 *Bromic Lookbook 2026; die Kompatibilität ist unterschiedlich*
 
-- Licht, Wärme und Klang leben heute auf einer Plattform.
-- Hausbesitzer erwarten, die Stimmung per App einzustellen.
+- Licht, Wärme und Klang leben heute auf einer Plattform, und Hausbesitzer erwarten, die Stimmung per App einzustellen.
 - Der Raum reagiert feinfühlig auf die Tageszeit.
 
 **Bromic Einblick** Affinity-Steuergeräte verbinden Ihre Heizstrahler mit der Smart-Heat App und mit Sprachassistenten. WLAN- und App-Funktionen setzen kompatible Affinity-Steuergeräte voraus, die separat erhältlich sind.
@@ -185,11 +179,10 @@ Die Terrasse ist zu einem Raum geworden, den Menschen das ganze Jahr nutzen möc
 
 ## 08 Design gibt den Ton an
 
-**9,9** von 10: der Joy Score von Hausbesitzern in den USA für eine neue Terrasse.[^s7]\
+**9,9** von 10 beträgt der Joy Score von Hausbesitzern in den USA für eine neue Terrasse.[^s7]\
 *NAR und NALP, Remodeling Impact Report, 2023*
 
-- Wie ein Raum aussieht, zählt so viel wie seine Funktion.
-- Bündige Einbauten treten an die Stelle sichtbarer Technik.
+- Wie ein Raum aussieht, zählt so viel wie seine Funktion, deshalb treten bündige Einbauten an die Stelle sichtbarer Technik.
 - Der Außenraum wirkt wie aus einem Guss mit dem Haus.
 
 **Bromic Einblick** Eingelassene Heizstrahler verschwinden in der Architektur. Wärme, die man spürt, aber nicht sieht.
@@ -201,8 +194,7 @@ Die Terrasse ist zu einem Raum geworden, den Menschen das ganze Jahr nutzen möc
 **ca. 11 m²** beheizt ein einzelner Eclipse Smart-Heat Freestanding Heizstrahler.[^s8]\
 *Bromic Lookbook 2026*
 
-- Kleinere Grundstücke belohnen eine durchdachte Zonierung.
-- Eine einzige Fläche kann vielen Momenten dienen.
+- Kleinere Grundstücke belohnen eine durchdachte Zonierung, bei der eine einzige Fläche vielen Momenten dient.
 - Jedes Element verdient sich seinen Platz, und der Raum bleibt aufgeräumt.
 
 **Bromic Einblick** Strahlungswärme richtet sich auf die Menschen im Raum und passt deshalb ganz natürlich zu kompakten Terrassen und Innenhöfen.
@@ -214,8 +206,7 @@ Die Terrasse ist zu einem Raum geworden, den Menschen das ganze Jahr nutzen möc
 **23 %** der Hausbesitzer in den USA setzen die Beheizung im Freien bei der Planung ganz oben auf die Liste.[^s3]\
 *Atomik Research für Bromic Heating, 2025* [[VERIFY: Erhebungszeitraum, Stichprobe n und Wortlaut der Frage gegen die Atomik-Topline prüfen — Marketing]]
 
-- Grills wurden zu eingebauten Elementen, und die Heizung folgt ihnen.
-- Sie wird zusammen mit der Beleuchtung spezifiziert.
+- Grills wurden zu eingebauten Elementen, und die Heizung folgt ihnen, spezifiziert zusammen mit der Beleuchtung.
 - Eingebaute Wärme bedeutet Wärme, auf die Sie sich jeden Abend verlassen können.
 
 **Bromic Einblick** Gestaltete Wärme ist von Anfang an integriert.
@@ -228,7 +219,7 @@ Das Wohnen im Freien rund ums Jahr beginnt in der Entwurfsphase. Kommt die Heizu
 
 Jeder Bromic Heizstrahler wird mit einem Affinity On/Off-, Dimmer- oder Eclipse-Steuergerät, einem Wandschalter und der Smart-Heat App kombiniert. WLAN- und App-Funktionen setzen kompatible Affinity-Steuergeräte voraus, die separat erhältlich sind.
 
-**Eingeplant ab der allerersten Zeichnung.**
+**Verlängern Sie den Moment.**
 
 ## Quellen und Methode
 
@@ -265,7 +256,7 @@ Die AIA-Werte sind Nettowerte (steigend minus fallend). Die Atomik-Umfrage unter
   - S. 23 Von Anfang an planen, Bild `t-013-037`.
   - S. 24 Quellen und Methode (Rückseite).
 - **Eine Zahl je Doppelseite.** Die Zahl ist die größte Schrift auf der rechten Seite, Flame `#EF4123`, mit ihrer Quellenzeile direkt darunter in kleiner Kursivschrift. Keine andere Zahl auf der Doppelseite wird groß gesetzt.
-- **Reihenfolge auf der rechten Seite, bei jedem Trend.** Nummer und Überschrift, Zahl und Quellenzeile, drei Zeilen (ohne Icons darin), Bromic-Einblick als Kasten, Planungsschritt als einzelne Schlusszeile.
+- **Reihenfolge auf der rechten Seite, bei jedem Trend.** Nummer und Überschrift, Zahl und Quellenzeile, zwei oder drei Zeilen (ohne Icons darin), Bromic-Einblick als Kasten, Planungsschritt als einzelne Schlusszeile.
 - **Icon-Reihen** (über der Überschrift, je ein Wort): 01 Zusammenkommen · Essen · Arbeiten · Entspannen; 02 Morgen · Nachmittag · Abend; 03 Eingebaut · Geplant · Unverzichtbar; 04 Modernisieren · Investieren · Wert; 05 Offen · Fließend · Verbunden; 06 Struktur · Schutz · Integration; 07 Steuerung · Licht · Vernetzung; 08 Design · Ästhetik · Architektur; 09 Zonen · Mehrfachnutzung · Effizienz; 10 Strom · Steuerung · Integration.
 - **Bildzuordnung** (Bibliotheks-IDs aus `images/library/manifest.json`; die Alternativen sind Lookbook-Bilder):
 

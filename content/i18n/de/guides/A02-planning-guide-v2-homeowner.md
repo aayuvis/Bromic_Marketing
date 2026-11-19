@@ -1,12 +1,12 @@
 ---
 id: A02-homeowner
 type: gated-guide
-title: "Der Planungsleitfaden für die Außenheizung an Ihrem Zuhause: Wärme, eingeplant ab der ersten Zeichnung"
+title: "Ihre Außenwärme planen"
 audience: [RES]
 stage: [CO, IN]
 cell: RES-IN
 asset: A02
-summary: "Neun ruhige Schritte, die Ihre Terrasse vom Sommerplatz zum ganzjährigen Wohnraum im Freien machen, mit Energieart, Stil, Größe, Strom, Steuerung und Vorschriften, eingeplant, bevor die Decke geschlossen wird."
+summary: "Neun Schritte, die Ihre Terrasse vom Sommerplatz zum ganzjährigen Wohnraum im Freien machen, mit Energieart, Stil, Größe, Strom, Steuerung und Vorschriften, eingeplant, bevor die Decke geschlossen wird."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie plane ich die Außenheizung für meine Terrasse?"
@@ -188,11 +188,11 @@ sources:
     verified: false
 ---
 
-# Der Planungsleitfaden für die Außenheizung
+# Ihre Außenwärme planen
 
-*Ausgabe für Hausbesitzer. Wärme, eingeplant ab der ersten Zeichnung.*
+*Ausgabe für Hausbesitzer.*
 
-Die schönsten Abende im Freien sind die, die länger dauern: Aus dem Abendessen wird das Dessert, das Gespräch geht weiter, und niemand greift nach einer Jacke. Planen Sie die Wärme in derselben Reihenfolge wie die Terrasse – von der Prüfung, ob der Bereich als Außenbereich gilt, bis zur Bemessung der Heizstrahler und der Klärung von Strom, Steuerung und Vorschriften, bevor die Decke geschlossen wird. Wer früh entscheidet, verlegt Leitung oder Gasanschluss nur einmal, genau dort, wo Sie sie haben möchten.
+Die schönsten Abende im Freien sind die, die länger dauern, wenn aus dem Abendessen das Dessert wird und niemand nach einer Jacke greift. Planen Sie die Wärme in derselben Reihenfolge wie die Terrasse, und klären Sie Strom, Steuerung und Vorschriften, bevor die Decke geschlossen wird, damit Leitung oder Gasanschluss nur einmal verlegt werden, genau dort, wo Sie sie haben möchten.
 
 In einer US-Umfrage gaben nur 23 % der Hausbesitzer der Außenheizung in der Planungsphase Priorität[^s1]. Viele der übrigen kommen später darauf zurück, und dann kann das geöffnete Decken bedeuten, Aufputz-Installationsrohre und Heizstrahler dort, wo die Leitung zufällig verlief.
 
@@ -239,7 +239,7 @@ Messen Sie die Fläche, auf der Sie und Ihre Gäste tatsächlich sitzen, und not
 
 ### Warum sich Strahlungswärme wie Sonnenschein anfühlt
 
-Im Freien steigt warme Luft auf und zieht davon; Warmluftgeräte und Thermostate können eine offene Terrasse deshalb nicht auf einer bestimmten Temperatur halten[^s3]. Strahlungswärme (Infrarot) erwärmt Menschen, Möbel und Böden direkt, ganz wie die Sonne auf der Haut, sodass Sie es auch bei einer leichten Brise behaglich haben. Wärme, die man spürt, nicht sieht.
+Im Freien steigt warme Luft auf und zieht davon; Warmluftgeräte und Thermostate können eine offene Terrasse deshalb nicht auf einer bestimmten Temperatur halten[^s3]. Strahlungswärme (Infrarot) erwärmt Menschen, Möbel und Böden direkt, ganz wie die Sonne auf der Haut, und hält Sie auch bei einer leichten Brise behaglich warm. Wärme, die man spürt, nicht sieht.
 
 | Wellenlänge | Strahlungsanteil | Aufheizzeit | Bei Wind |
 |---|---|---|---|
@@ -260,7 +260,7 @@ Quelle: Bromic Planungsleitfaden 2021[^s3]. Eine Feuerstelle ist ein schöner Bl
 
 ### Was ein warmer Abend kostet
 
-Die Betriebskosten lassen sich leicht aus der Leistung des Heizstrahlers und Ihrem eigenen Energiepreis berechnen.
+Berechnen Sie die Betriebskosten aus der Leistung des Heizstrahlers und Ihrem eigenen Energiepreis.
 
 - **Elektro:** Kosten pro Stunde = kW × Preis je kWh
 - **Erdgas:** Kosten pro Stunde = Nennwärmebelastung in kW × Preis je kWh Gas
@@ -318,7 +318,7 @@ Benötigte Heizstrahler = Fläche ÷ (Heizfläche je Heizstrahler × Überdachun
 | Teilweise überdacht (Pergola, Schirm, Teildach) | 1,0 | Kühl (ca. 4–10 °C) | 0,85 |
 | Überdacht (festes Dach) | 1,1 | Kalt (oft unter ca. 4 °C) | 0,7 |
 
-[[VERIFY: Überdachungs- und Klimafaktoren — Produktteam]] Wenn Sie unsicher sind, nehmen Sie teilweise überdacht und kühl, das ergibt 1,0 × 0,85 = 0,85. Messen Sie die Fläche, auf der gesessen wird, statt der ganzen Terrasse, und wenn Sie die Zahl der Plätze statt der Fläche kennen, rechnen Sie mit ca. 1,9 m² je Platz.
+[[VERIFY: Überdachungs- und Klimafaktoren — Produktteam]] Wenn Sie unsicher sind, nehmen Sie teilweise überdacht und kühl, das ergibt 1,0 × 0,85 = 0,85. Messen Sie die Fläche, auf der gesessen wird, und wenn Sie stattdessen die Zahl der Plätze kennen, rechnen Sie mit ca. 1,9 m² je Platz.
 
 **Freistehende Heizstrahler** (Tungsten Freestanding Gas, Eclipse Freestanding) versorgen höchstens vier Plätze je Gerät, weil die Gäste selbst einen Teil der Strahlungswärme abschirmen. Rechnen Sie auf beide Arten und nehmen Sie den größeren Wert aus Fläche ÷ (Heizfläche × Faktoren) und Plätze ÷ 4.
 
@@ -372,9 +372,9 @@ Fest installierte Gasheizstrahler brauchen eine Gasleitung vom Gasinstallateur u
 - [ ] Gasleitung und Absperreinrichtung festgelegt (Gas)
 - [ ] Rohinstallation erledigt, bevor die Decke geschlossen wird
 
-## Schritt 7. Die Steuerung wählen, die alles mühelos macht (erforderlich)
+## Schritt 7. Steuerung, die alles mühelos macht (erforderlich)
 
-Jeder Bromic Heizstrahler wird mit Affinity Smart-Heat® Controls kombiniert, damit die Wärme immer genau dort ist, wo und wann Sie sie möchten. Ein vollständiges System vereint alle diese Teile.
+Jeder Bromic Heizstrahler wird mit Affinity Smart-Heat® Controls kombiniert, damit die Wärme immer genau dort ist, wo und wann Sie sie möchten. Ein vollständiges System vereint diese Teile.
 
 | Teil | Was es tut | Kapazität |
 |---|---|---|
@@ -386,7 +386,7 @@ Jeder Bromic Heizstrahler wird mit Affinity Smart-Heat® Controls kombiniert, da
 
 **Heizstrahler je 6-kW-Kanal:** Tungsten 2000 W: 3 · 3000 W: 2 · 4000 oder 6000 W: 1 · Platinum 2300 W: 2 · 3400 oder 4500 W: 1 · Cobalt: 1 · Eclipse: 1 (an einem Eclipse Steuergerät). Rechnung auf Basis der 6 kW; der Stromkreis kann eine niedrigere Grenze setzen. [[VERIFY: Kapazitäten und Kompatibilität der Steuergeräte — Produktteam]]
 
-Der Eclipse Freestanding wird mit Eclipse Dimmer-Steuergerät und Fernbedienung geliefert[^s8]. Fest installiertes Gas schaltet nur ein und aus; es lässt sich nicht dimmen[^s10]. [[VERIFY: welche Steuerung der Tungsten Freestanding Gas verwendet — Produktteam]]
+Der Eclipse Freestanding wird mit Eclipse Dimmer-Steuergerät und Fernbedienung geliefert[^s8]. Fest installiertes Gas schaltet nur ein und aus und lässt sich nicht dimmen[^s10]. [[VERIFY: welche Steuerung der Tungsten Freestanding Gas verwendet — Produktteam]]
 
 WLAN- und App-Funktionen erfordern kompatible Affinity Smart-Heat Steuerungen, die separat erhältlich sind. Die App funktioniert auch mit Amazon Alexa, Google Assistant, Control4, Crestron und Lutron; die Kompatibilität ist unterschiedlich und kann zusätzliche Hardware oder Einrichtung erfordern[^s2].
 
@@ -411,7 +411,7 @@ Die Installationsanleitung jedes Modells legt die Abstände zur Decke und zu all
 
 *Dies ist eine allgemeine Hilfe, keine Auslegung von Vorschriften. Klären Sie die Anforderungen mit Ihrem örtlichen Bauamt und lassen Sie Heizstrahler von einem Elektrofachbetrieb oder Gasinstallateur nach den Anweisungen des Herstellers installieren.*
 
-### Garantie
+### Eine Garantie, auf die Sie sich verlassen können
 
 | Produkt | Garantie (laut US-Produktseiten) |
 |---|---|

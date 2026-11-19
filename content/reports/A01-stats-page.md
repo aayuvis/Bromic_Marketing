@@ -26,21 +26,21 @@ sources:
     title: "Share of new homes with patios dips to a six-year low (NAHB tabulation of the Census Survey of Construction)"
     year: 2026
     url: https://eyeonhousing.org/2026/09/share-of-new-homes-with-patios-dips-to-a-six-year-low/
-    supports: "60.5% of about 940,000 single-family homes started in 2025 came with a patio, down from 61.8% in 2024; lowest since 2019 (59.6%)"
+    supports: "60.5% of about 940,000 single-family homes started in 2025 came with a patio, down from 61.8% in 2024; lowest since 2019 (59.6%); by division in 2025: West South Central 77%, Mountain 74%, South Atlantic 66%, Middle Atlantic 23% (fewest), New England 26% (up from 14% in 2024)"
     verified: true
   - id: s2
     publisher: National Association of Home Builders
     title: "Patios in new homes (Census Survey of Construction tabulation)"
     year: 2025
     url: https://www.nahb.org/blog/2025/09/patios-in-new-homes
-    supports: "61.8% of single-family homes started in 2024 came with a patio; over 80% in the West South Central division, 14% in New England"
+    supports: "61.8% of single-family homes started in 2024 came with a patio, down from 63.7% the year before"
     verified: true
   - id: s3
     publisher: National Association of Home Builders (Eye on Housing)
     title: "Share of new homes with patios edges down for first time in fifteen years (2025 Builder Practices Survey)"
     year: 2025
     url: https://eyeonhousing.org/2025/09/share-of-new-homes-with-patios-edges-down-for-first-time-in-fifteen-years/
-    supports: "Average new-home patio about 320 sq ft (homes built in 2024), up from about 290 sq ft; over 400 sq ft in East North Central and East South Central, under 200 sq ft in West South Central"
+    supports: "61.8% of new single-family homes started in 2024 had a patio, the first decline in fifteen years; average new-home patio about 320 sq ft (homes built in 2024); over 400 sq ft in East North Central and East South Central, under 200 sq ft in West South Central"
     verified: true
   - id: s4
     publisher: American Institute of Architects
@@ -89,13 +89,13 @@ Every one of these numbers comes back to the same evening: a table set outside, 
 
 ## How Many New US Homes Come With A Patio?
 
-60.5% of the roughly 940,000 single-family homes started in 2025 came with a patio.[^s1] That is down from 61.8% in 2024, the first fall in fifteen years, and the lowest share since 2019.[^s1][^s2] Where you build makes a real difference: more than 80% of new homes in the West South Central states have one, compared with 14% in New England.[^s2]
+60.5% of the roughly 940,000 single-family homes started in 2025 came with a patio.[^s1] That is down from 61.8% in 2024, a second fall in a row after the first in fifteen years, and the lowest share since 2019.[^s1][^s3] Where you build makes a real difference: 77% of new homes in the West South Central states have one, compared with 23% in the Middle Atlantic.[^s1]
 
 Source: National Association of Home Builders, analysis of the US Census Bureau Survey of Construction, 2025 starts (published September 2026).
 
 ## How Large Has The New-Home Patio Grown?
 
-The average patio on a home built in 2024 is about 320 square feet, up from about 290 square feet the year before.[^s3] The range across the country is wide, from over 400 square feet in the East North Central and East South Central divisions to under 200 in the West South Central.[^s3] At that size a patio has become a true outdoor room, and it deserves the same thoughtful planning as any room inside.
+The average patio on a home built in 2024 is about 320 square feet.[^s3] The range across the country is wide, from over 400 square feet in the East North Central and East South Central divisions to under 200 in the West South Central.[^s3] At that size a patio has become a true outdoor room, and it deserves the same thoughtful planning as any room inside.
 
 Source: National Association of Home Builders, Builder Practices Survey 2025 (homes built in 2024).
 
@@ -161,7 +161,7 @@ Source: National Association of Realtors and National Association of Landscape P
 
 ### What percentage of new homes have a patio?
 
-60.5% of US single-family homes started in 2025 came with a patio, according to NAHB's analysis of Census data. The share was 61.8% in 2024.[^s1]
+60.5% of US single-family homes started in 2025 came with a patio, according to NAHB's analysis of Census data. The share was 61.8% in 2024.[^s1][^s2]
 
 ### How big is a typical new-home patio in the US?
 

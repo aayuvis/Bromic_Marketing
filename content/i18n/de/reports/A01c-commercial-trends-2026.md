@@ -1,12 +1,12 @@
 ---
 id: A01c
 type: report
-title: "Outdoor Hospitality Trends 2026: Zehn Arten, wie sich die Terrasse ihren Platz verdient"
+title: "Trends der Außengastronomie 2026"
 audience: [COM, ARC]
 stage: [AW, CO]
 cell: COM-AW
 asset: A01
-summary: "Das gewerbliche Gegenstück zu unserem Report Trends 2026: zehn belegte Entwicklungen, die Terrassen von Restaurants, Bars, Hotels und Veranstaltungsorten prägen – von schwacher Gästefrequenz und steigenden Energiekosten bis zur dauerhaften Außengastronomie und dem Abschied vom Flüssiggas –, jeweils mit der Bedeutung für Ihren Betrieb, einer Einschätzung von Bromic und einem Planungsschritt."
+summary: "Das gewerbliche Gegenstück zu unserem Report Trends 2026. Zehn belegte Entwicklungen, die Terrassen von Restaurants, Bars, Hotels und Veranstaltungsorten prägen, von schwacher Gästefrequenz und steigenden Energiekosten bis zur dauerhaften Außengastronomie und dem Abschied vom Flüssiggas, jeweils mit der Bedeutung für Ihren Betrieb, einer Einschätzung von Bromic und einem Planungsschritt."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Was sind die Trends für Außengastronomie und Hotellerie 2026?"
@@ -134,8 +134,8 @@ sources:
 Der Tisch draußen ist zu einem der begehrtesten Plätze im Haus geworden. Gäste fragen nach ihm, verweilen an ihm und kommen für
 ihn wieder, und 2026 gehört er dazu, wenn ein Restaurant, eine Bar oder ein Hotel die Gästefrequenz sichert, mehr aus Fläche
 herausholt, für die es ohnehin zahlt, und mit Regeln Schritt hält, die Brennstoffe von der Terrasse verdrängen. Wir haben die zehn
-Entwicklungen unten für Betreiber und die Architekten geschrieben, die für sie planen. Jede nennt den Befund und seine Quelle und
-endet mit einem Schritt, den Sie in dieser Saison gehen können. Die meisten Zahlen stammen aus den USA, einzelne aus Kanada und
+Entwicklungen unten für Betreiber und die Architekten geschrieben, die für sie planen. Jede nennt ihre Quelle und einen Schritt,
+den Sie in dieser Saison gehen können. Die meisten Zahlen stammen aus den USA, einzelne aus Kanada und
 England; sie sind jeweils so gekennzeichnet.
 
 ![Dachterrassen-Lounge mit freistehenden Eclipse-Heizstrahlern bei Sonnenuntergang](img:l-016-131)
@@ -165,10 +165,9 @@ England; sie sind jeweils so gekennzeichnet.
 
 **Was es für Ihren Betrieb bedeutet**
 - Ihre Terrasse ist Fläche, die Sie bereits mieten, und ohne Wärme kann sie monatelang ungenutzt bleiben.
-- Betreiber sagen, dass sie vor Ort erfolgreich sind, und die Terrasse gehört ganz und gar dazu.
-- Sie verdient dieselbe Budgetplanung wie der Gastraum drinnen.
+- Betreiber sagen, dass sie vor Ort erfolgreich sind, und die Terrasse verdient dieselbe Budgetplanung wie der Gastraum drinnen.
 
-**Einschätzung von Bromic.** Ein beheizter Platz ist einer, den Sie an einem Abend verkaufen können, an dem er sonst leer bliebe, deshalb rechnen Sie ihn am besten in Gedecken statt in Heizstrahlern.
+**Einschätzung von Bromic.** Ein beheizter Platz ist einer, den Sie an einem Abend verkaufen können, an dem er sonst leer bliebe, deshalb rechnen Sie ihn in Gedecken.
 
 **Planungsschritt.** Nehmen Sie die Terrasse vor dem Ausbau in die Umsatzplanung auf, mit Plätze × Belegungen × Durchschnittsbon × zusätzliche Abende. Der [Artikel zum ROI](item:COM-IN-01) führt durch die Methode.
 
@@ -183,13 +182,12 @@ England; sie sind jeweils so gekennzeichnet.
 > *Quelle: OpenTable, Gästedaten, März 2025 bis Februar 2026.*
 
 **Was es für Ihren Betrieb bedeutet**
-- Gäste wollen den Tisch draußen, und die Behaglichkeit entscheidet, wie lange sie ihn behalten.
-- Ein längerer Aufenthalt bringt mehr Getränke und Desserts, bei weniger Belegungen des Tisches.
+- Gäste wollen den Tisch draußen, und die Behaglichkeit entscheidet, wie lange sie ihn behalten. Ein längerer Aufenthalt bringt mehr Getränke und Desserts, bei weniger Belegungen des Tisches.
 - Ein Gast, dem kühl wird, geht früher und bucht beim nächsten Mal vielleicht drinnen.
 
-**Einschätzung von Bromic.** Gäste fragen selten nach Heizstrahlern. Sie fragen nach dem Tisch draußen, und sie bleiben, wenn ihnen warm ist.
+**Einschätzung von Bromic.** Gäste fragen nach dem Tisch draußen, und sie bleiben, wenn ihnen warm ist.
 
-**Planungsschritt.** Richten Sie die Wärme auf die Menschen am Tisch: Setzen Sie Strahlungswärme über jede Tischgruppe, sodass jeder Stuhl in ihrer Reichweite steht.
+**Planungsschritt.** Setzen Sie Strahlungswärme über jede Tischgruppe, sodass jeder Stuhl in ihrer Reichweite steht.
 
 **Bromic-Projekt.** [Hotel Skansen](https://www.bromic.com/case-study/hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-heat-freestanding-heaters/), Schweden: Eclipse Smart-Heat Freestanding Heizstrahler mit dem Eclipse Dimmer Controller halten die Terrasse des Restaurants SAND in Betrieb.
 
@@ -202,8 +200,7 @@ England; sie sind jeweils so gekennzeichnet.
 > *Quelle: wie oben.*
 
 **Was es für Ihren Betrieb bedeutet**
-- Bei weniger Besuchen muss der Raum, den Sie bieten, einer sein, den Gäste bewusst wählen.
-- Eine Terrasse, die im Oktober noch einladend wirkt, gibt den Menschen einen Grund zu kommen.
+- Bei weniger Besuchen gibt eine Terrasse, die im Oktober noch einladend wirkt, den Gästen einen Grund, sich für Sie zu entscheiden.
 - Plätze, die im Herbst schließen, sind verlorene Kapazität, gerade dann, wenn sie am schwersten zu ersetzen ist.
 
 **Einschätzung von Bromic.** In einem ruhigeren Jahr ist der günstigste zusätzliche Platz oft der, der draußen schon wartet.
@@ -222,10 +219,9 @@ England; sie sind jeweils so gekennzeichnet.
 
 **Was es für Ihren Betrieb bedeutet**
 - Wärme, die die ganze Nacht über einer leeren Terrasse läuft, ist Marge, die leise verloren geht.
-- Wärme im Freien lässt sich nicht über einen Thermostat halten, deshalb hält erst eine präzise Steuerung die Kosten im Griff.[^s14]
-- Die Betriebskosten folgen einer Formel, die Sie mit Ihrem Team teilen können: kW × Ihr Preis je kWh.
+- Wärme im Freien lässt sich nicht über einen Thermostat halten, deshalb hält eine präzise Steuerung die Kosten im Griff.[^s14] Die Betriebskosten folgen einer Formel, die Sie mit Ihrem Team teilen können: kW × Ihr Preis je kWh.
 
-**Einschätzung von Bromic.** Der Heizstrahler bestimmt, was möglich ist, und die Steuerung prägt, was es kostet. Deshalb schließt jede Empfehlung von Bromic sie ein: ein Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät oder das Eclipse-Steuergerät, einen Wandschalter und die Bromic Smart-Heat App.
+**Einschätzung von Bromic.** Der Heizstrahler bestimmt, was möglich ist, und die Steuerung prägt, was es kostet. Deshalb schließt jede Empfehlung von Bromic ein Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät oder das Eclipse-Steuergerät, einen Wandschalter und die Bromic Smart-Heat App.
 
 **Planungsschritt.** Teilen Sie die Wärme in Zonen nach Bereichen und Servicestationen, planen Sie sie nach dem Reservierungsbuch und nutzen Sie Leistungsstufen (Eclipse läuft mit 33, 66 oder 100 %).[^s15] Zonen, Zeitpläne und Timer in der App setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind. Die Fünf-Jahres-Kosten je Energieträger finden Sie im [Kostenvergleich](item:COM-CO-01).
 
@@ -240,8 +236,7 @@ England; sie sind jeweils so gekennzeichnet.
 > *Quelle: UK Government, Pavement licences: guidance, 2024.*
 
 **Was es für Ihren Betrieb bedeutet**
-- Plätze im Freien werden heute genehmigt, geprüft und verlängert, und das macht sie zu einem dauerhaften Wert des Betriebs.
-- Die Monate, in denen Sie öffnen dürfen, können so viel zählen wie das Wetter.
+- Plätze im Freien werden heute genehmigt, geprüft und verlängert, ein dauerhafter Wert des Betriebs, und die Monate, in denen Sie öffnen dürfen, können so viel zählen wie das Wetter.
 - Die Ausstattung muss bei jeder Verlängerung den Vorschriften entsprechen, die für sie gelten.
 
 **Einschätzung von Bromic.** Dauerhafte Programme belohnen dauerhaftes Denken. Fest installierte, geprüfte elektrische Wärme an der Konstruktion, mit ihrer Steuerung, dient Ihnen noch lange nach einer Reihe mobiler Gasflaschen.
@@ -259,8 +254,7 @@ England; sie sind jeweils so gekennzeichnet.
 > *Quelle: City of Gresham, Oregon, IFC 605.5.2.1.3–605.5.2.1.4.*
 
 **Was es für Ihren Betrieb bedeutet**
-- Gasflaschen bringen Lagerung, Arbeitszeit für den Flaschenwechsel und Fragen bei der Prüfung mit sich.
-- Abstandsregeln schließen mobiles Gas auf vielen überdachten oder kompakten Terrassen aus.
+- Gasflaschen bringen Lagerung, Arbeitszeit für den Flaschenwechsel und Fragen bei der Prüfung mit sich, und Abstandsregeln schließen mobiles Gas auf vielen überdachten oder kompakten Terrassen aus.
 - Der günstigste Heizstrahler in der Anschaffung kann sich als der erweisen, den man am schwersten rechtskonform betreibt.
 
 **Einschätzung von Bromic.** Elektrische Strahlungswärme nimmt den Umgang mit Brennstoff ganz aus dem Service und lässt sich dort montieren, wo mobiles Gas nicht stehen darf.
@@ -279,9 +273,8 @@ England; sie sind jeweils so gekennzeichnet.
 > Der All-Electric Buildings Act des Bundesstaats New York folgt für Neubauten im ganzen Bundesstaat, beginnend mit Gebäuden bis zu sieben Geschossen.[^s11] [[VERIFY: aktuelle Inkrafttretensdaten und Stand des All-Electric Buildings Act des Bundesstaats New York nach den Gerichtsverfahren, aus dem Gesetzestext oder dos.ny.gov — Vertrieb Gastronomie]]
 
 **Was es für Ihren Betrieb bedeutet**
-- Neue Hotels, gemischt genutzte Gebäude und Mehrfamilienhäuser werden in New York ohne Gas geplant.
-- Eine Ausnahme für die Küche gilt nicht automatisch für die Terrasse.
-- Ob ein Gesetz Heizstrahler im Freien erfasst, ist eine örtliche Frage, deshalb lohnt es sich, vor der Planung nachzufragen. [[VERIFY: ob LL154 für Gas-Terrassenheizstrahler an Neubauten gilt — Vertrieb Gastronomie]]
+- Neue Hotels, gemischt genutzte Gebäude und Mehrfamilienhäuser werden in New York ohne Gas geplant, und eine Ausnahme für die Küche gilt nicht automatisch für die Terrasse.
+- Ob ein Gesetz Heizstrahler im Freien erfasst, ist eine örtliche Frage, fragen Sie deshalb vor der Planung nach. [[VERIFY: ob LL154 für Gas-Terrassenheizstrahler an Neubauten gilt — Vertrieb Gastronomie]]
 
 **Einschätzung von Bromic.** Wer elektrische Außenheizung schon im Entwurf vorsieht, hält die Terrasse im Einklang mit einem rein elektrischen Gebäude, ohne Gasleitung aufs Dach.
 
@@ -297,8 +290,7 @@ England; sie sind jeweils so gekennzeichnet.
 > *Quelle: National Restaurant Association, State of the Restaurant Industry 2026.*
 
 **Was es für Ihren Betrieb bedeutet**
-- Veranstaltungen, Verkostungen und private Abendessen bringen Gäste, und eine Terrasse ist ein wunderbarer Gastgeber dafür.
-- Eine Veranstaltung, die Monate im Voraus gebucht wird, kann sich nicht darauf verlassen, dass der Abend mild ist.
+- Veranstaltungen, Verkostungen und private Abendessen bringen Gäste, und eine Terrasse ist ein wunderbarer Gastgeber dafür, auch wenn sich eine Monate im Voraus gebuchte Veranstaltung nicht auf einen milden Abend verlassen kann.
 - Wärme und Licht prägen die Stimmung ebenso wie die Speisekarte.
 
 **Einschätzung von Bromic.** Wärme, die zugleich Licht ist, wie Eclipse mit dimmbarer Ringbeleuchtung, lässt eine einzige Leuchte Szene und Temperatur bestimmen.[^s15]
@@ -315,8 +307,7 @@ England; sie sind jeweils so gekennzeichnet.
 > *Quelle: American Hotel & Lodging Association, State of the Industry 2026.*
 
 **Was es für Ihren Betrieb bedeutet**
-- Der Logisumsatz wächst langsam, während die Kosten den Gewinn unter Druck halten.
-- Dachterrassen, Pooldecks und Terrassen können noch lange nach Einbruch der Dunkelheit Speisen und Getränke verkaufen.
+- Der Logisumsatz wächst langsam, während die Kosten den Gewinn unter Druck halten, und Dachterrassen, Pooldecks und Terrassen können noch lange nach Einbruch der Dunkelheit Speisen und Getränke verkaufen.
 - Inländische Freizeitreisen sind der größte Teil des Reiseverkehrs in den USA, und Freizeitgäste verweilen gern draußen.[^s12]
 
 **Einschätzung von Bromic.** Eine beheizte Dachbar oder Pool-Cabana macht aus Fläche Abendumsatz, ohne ein einziges Zimmer hinzuzufügen.
@@ -331,9 +322,8 @@ England; sie sind jeweils so gekennzeichnet.
 > *Quelle: Bromic Heating, Planungsleitfaden US v1.2, 2021.*
 
 **Was es für Ihren Betrieb bedeutet**
-- Architekten wollen Wärme, die Gäste spüren, während der Heizstrahler selbst unsichtbar bleibt.
-- Dachterrassen und exponierte Terrassen sind mit der richtigen Wellenlänge besser bedient als mit mehr Geräten.
-- Eingelassene und abgehängte Wärme macht Bodenfläche für mehr Plätze frei.
+- Architekten wollen Wärme, die Gäste spüren, während der Heizstrahler selbst unsichtbar bleibt, und eingelassene und abgehängte Wärme macht Bodenfläche für mehr Plätze frei.
+- Auf Dachterrassen und exponierten Terrassen zählt die richtige Wellenlänge mehr als zusätzliche Geräte.
 
 **Einschätzung von Bromic.** Wird die Heizung ab der ersten Zeichnung mitgeplant, sitzen eingelassene, an Decke oder Wand montierte Platinum und Tungsten Smart-Heat Electric Heizstrahler, jeder mit seiner Affinity-Steuerung, ruhig in der Untersicht und überlassen den Grundriss Ihren Gästen.
 
@@ -343,9 +333,9 @@ England; sie sind jeweils so gekennzeichnet.
 
 ![Dachterrasse in der Stadt mit einem in eine Holzuntersicht eingelassenen Heizstrahler](img:t-006-016)
 
-## Was Sie mit in die Saison nehmen
+## Bereit für die Saison
 
-- Behandeln Sie die Terrasse als Umsatzquelle, denn vor Ort gewinnen Betreiber nach eigener Aussage.[^s2]
+- Betreiber sagen, dass sie vor Ort gewinnen, also rechnen Sie die Terrasse als Umsatz.[^s2]
 - Gäste wollen den Tisch draußen, und die Behaglichkeit entscheidet, ob sie bleiben.[^s3]
 - Die Energiekosten sind der Grund, Zonen und Zeitpläne über kompatible Affinity Smart-Heat Controls zu nutzen.[^s2]
 - Außengastronomie ist in großen Städten genehmigt und dauerhaft, also planen Sie nach der Genehmigung.[^s5]
@@ -377,7 +367,7 @@ Entdecken Sie, was Ihre leeren Plätze wert sein könnten. FORDERN SIE IHRE ROI-
 - **Format:** zugangsgeschütztes PDF, Querformat A4, 14 Seiten; im System des Reports Trends 2026 für Wohnkunden (weiße Seiten, Tinte und Stahlgrau, Flame `#EF4123` als einziger Akzent auf kleinen Labels und Linien; Überschriften in Didot, Fließtext in Helvetica Neue Light, nach templates/bromic-voice.md). Keine Emoji, keine Ausrufezeichen.
 - **Seite 1, Titel:** „Outdoor Hospitality Trends 2026“, Untertitel „Zehn Arten, wie sich die Terrasse ihren Platz verdient“. Bild `l-016-131`.
 - **Seite 2, das Jahr in Zahlen:** die Tabelle „Das Jahr im Überblick“ als vier große Kennzahlen (35 %, 55 %, 61 %, 82 %) mit Quellenzeilen; darunter die vollständige Tabelle.
-- **Seiten 3–12, ein Trend je Seite:** Nummer und Überschrift oben links; Kennzahlen mit Quellenzeilen in Kapitälchen; „Was es für Ihren Betrieb bedeutet“ in drei Zeilen; Einschätzung von Bromic in einem Kasten mit Flame-Linie; Planungsschritt; Projektzeile mit QR-Code zur Fallstudie.
+- **Seiten 3–12, ein Trend je Seite:** Nummer und Überschrift oben links; Kennzahlen mit Quellenzeilen in Kapitälchen; „Was es für Ihren Betrieb bedeutet“ in zwei oder drei Zeilen; Einschätzung von Bromic in einem Kasten mit Flame-Linie; Planungsschritt; Projektzeile mit QR-Code zur Fallstudie.
   - 01 `p-003-006` · 02 `l-013-111` · 03 `p-007-030` · 04 `g-operator` (vom Eigentümer freigegebenes generiertes Bild; Kennzeichnung „generiert“) · 05 `p-002-001` · 06 `p-014-066` · 07 `l-013-107` · 08 `p-010-044` · 09 `t-003-005` · 10 `t-006-016`.
   - `p-`-Bilder zeigen das Sortiment von 2021: nur als allgemeine gewerbliche Szenen verwenden, nie mit einem Produktnamen beschriften.
 - **Seite 13:** das Wichtigste für die Saison und der Vorschriftenhinweis, vollständig gesetzt.

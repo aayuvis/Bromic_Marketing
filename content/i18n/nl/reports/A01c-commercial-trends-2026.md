@@ -1,12 +1,12 @@
 ---
 id: A01c
 type: report
-title: "Trends in buitenhoreca 2026: tien manieren waarop het terras zijn plek verdient"
+title: "Trends in buitenhoreca 2026"
 audience: [COM, ARC]
 stage: [AW, CO]
 cell: COM-AW
 asset: A01
-summary: "De zakelijke tegenhanger van ons rapport Trends 2026: tien onderbouwde verschuivingen die de terrassen van restaurants, bars, hotels en evenementenlocaties vormen – van teruglopende bezoekersaantallen en stijgende energiekosten tot permanente terrassen en het afscheid van propaan –, elk met wat het betekent voor uw zaak, een inzicht van Bromic en één ontwerpkeuze. De cijfers zijn grotendeels Amerikaans en staan als zodanig vermeld."
+summary: "De zakelijke tegenhanger van ons rapport Trends 2026. Tien onderbouwde verschuivingen die de terrassen van restaurants, bars, hotels en evenementenlocaties vormen, van teruglopende bezoekersaantallen en stijgende energiekosten tot permanente terrassen en het afscheid van propaan, elk met wat het betekent voor uw zaak, een inzicht van Bromic en één ontwerpkeuze. De cijfers zijn grotendeels Amerikaans en staan als zodanig vermeld."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wat zijn de trends in buitenhoreca en terrassen voor 2026?"
@@ -134,8 +134,8 @@ native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 De tafel buiten is een van de meest gewaardeerde plaatsen in de zaak geworden. Gasten vragen erom, blijven er hangen en komen er
 voor terug, en in 2026 hoort hij bij hoe een restaurant, bar of hotel zijn bezoekersaantallen beschermt, meer verdient aan ruimte
 die het al betaalt, en bijblijft bij regels die brandstof van het terras halen. We schreven de tien verschuivingen hieronder voor
-horecaondernemers en de architecten die voor hen ontwerpen. Elke trend deelt de bevinding en de bron, en sluit af met één stap die
-u dit seizoen kunt zetten. De meeste cijfers komen uit Amerikaanse onderzoeken en regelgeving en staan ook zo vermeld; ze laten zien
+horecaondernemers en de architecten die voor hen ontwerpen. Elke trend noemt zijn bron en één stap die u
+dit seizoen kunt zetten. De meeste cijfers komen uit Amerikaanse onderzoeken en regelgeving en staan ook zo vermeld; ze laten zien
 waar de markt heen gaat, niet wat er in Nederland geldt.
 
 ![Rooftop lounge met Eclipse vrijstaande verwarmers bij zonsondergang](img:l-016-131)
@@ -165,10 +165,9 @@ waar de markt heen gaat, niet wat er in Nederland geldt.
 
 **Wat het betekent voor uw zaak**
 - Uw terras is capaciteit die u al huurt, en zonder verwarming kan het maandenlang stilstaan.
-- Ondernemers zeggen dat ze succes hebben met gasten ter plaatse, en het terras hoort daar volledig bij.
-- Het verdient dezelfde budgetaandacht als de zaal binnen.
+- Ondernemers zeggen dat ze succes hebben met gasten ter plaatse, en het terras verdient dezelfde budgetaandacht als de zaal binnen.
 
-**Inzicht van Bromic.** Een verwarmde plaats is er een die u kunt verkopen op een avond dat hij anders leeg zou blijven, dus u telt hem het best in couverts in plaats van in verwarmers.
+**Inzicht van Bromic.** Een verwarmde plaats is er een die u kunt verkopen op een avond dat hij anders leeg zou blijven, dus tel hem in couverts.
 
 **Ontwerpkeuze.** Neem het terras op in het omzetmodel vóór de inrichting, met plaatsen × tafelrondes × gemiddelde besteding × extra avonden. Het [ROI-artikel](item:COM-IN-01) loopt de methode met u door.
 
@@ -183,13 +182,12 @@ waar de markt heen gaat, niet wat er in Nederland geldt.
 > *Bron: OpenTable, gegevens over gasten, maart 2025 – februari 2026.*
 
 **Wat het betekent voor uw zaak**
-- Gasten willen de tafel buiten, en comfort bepaalt hoe lang ze die houden.
-- Een langer bezoek brengt meer drankjes en desserts, met minder tafelrondes.
+- Gasten willen de tafel buiten, en comfort bepaalt hoe lang ze die houden. Een langer bezoek brengt meer drankjes en desserts, met minder tafelrondes.
 - Een gast die het koud krijgt, vertrekt eerder en reserveert de volgende keer misschien binnen.
 
-**Inzicht van Bromic.** Gasten vragen zelden om verwarmers. Ze vragen om de tafel buiten, en ze blijven als ze het warm hebben.
+**Inzicht van Bromic.** Gasten vragen om de tafel buiten, en ze blijven als ze het warm hebben.
 
-**Ontwerpkeuze.** Richt de warmte op de mensen aan tafel: hang stralingswarmte boven elke tafelgroep, zodat elke stoel binnen het bereik valt.
+**Ontwerpkeuze.** Hang stralingswarmte boven elke tafelgroep, zodat elke stoel binnen het bereik valt.
 
 **Bromic-project.** [Hotel Skansen](https://www.bromic.com/case-study/hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-heat-freestanding-heaters/), Zweden: Eclipse Smart-Heat Freestanding verwarmers met de Eclipse Dimmer Controller houden het terras van restaurant SAND in gebruik.
 
@@ -202,8 +200,7 @@ waar de markt heen gaat, niet wat er in Nederland geldt.
 > *Bron: zie hierboven.*
 
 **Wat het betekent voor uw zaak**
-- Met minder bezoeken moet de ruimte die u biedt er een zijn waar gasten bewust voor kiezen.
-- Een terras dat in oktober nog uitnodigend aanvoelt, geeft mensen een reden om te komen.
+- Met minder bezoeken geeft een terras dat in oktober nog uitnodigend aanvoelt gasten een reden om voor u te kiezen.
 - Plaatsen die in de herfst sluiten, zijn verloren capaciteit, juist wanneer die het moeilijkst te vervangen is.
 
 **Inzicht van Bromic.** In een rustiger jaar is de voordeligste plaats om toe te voegen vaak de plaats die buiten al klaarstaat.
@@ -222,10 +219,9 @@ waar de markt heen gaat, niet wat er in Nederland geldt.
 
 **Wat het betekent voor uw zaak**
 - Warmte die de hele avond boven een leeg terras brandt, is marge die ongemerkt verloren gaat.
-- Buitenwarmte laat zich niet met een thermostaat vasthouden, dus precieze bediening is wat de kosten in de hand houdt.[^s14]
-- De gebruikskosten volgen een formule die u met uw team kunt delen: kW × uw prijs per kWh.
+- Buitenwarmte laat zich niet met een thermostaat vasthouden, dus precieze bediening houdt de kosten in de hand.[^s14] De gebruikskosten volgen een formule die u met uw team kunt delen: kW × uw prijs per kWh.
 
-**Inzicht van Bromic.** De verwarmer bepaalt wat mogelijk is en de bediening bepaalt wat het kost, daarom bevat elk advies van Bromic die bediening: de Affinity Smart-Heat On/Off- of Dimmer-regelaar, of de Eclipse-regelaar, een wandschakelaar en de Bromic Smart-Heat app.
+**Inzicht van Bromic.** De verwarmer bepaalt wat mogelijk is en de bediening bepaalt wat het kost, daarom bevat elk advies van Bromic de Affinity Smart-Heat On/Off- of Dimmer-regelaar, of de Eclipse-regelaar, een wandschakelaar en de Bromic Smart-Heat app.
 
 **Ontwerpkeuze.** Verdeel de warmte in zones per sectie en per bediening, stem de tijden af op het reserveringsboek en gebruik vermogensstappen (Eclipse werkt op 33, 66 of 100%).[^s15] Zones, schema's en timers in de app vragen om compatibele Affinity Smart-Heat Controls, die apart worden verkocht. Voor de kosten over vijf jaar per energiebron, zie [de TCO-vergelijking](item:COM-CO-01).
 
@@ -240,8 +236,7 @@ waar de markt heen gaat, niet wat er in Nederland geldt.
 > *Bron: Britse overheid, Pavement licences: guidance, 2024.*
 
 **Wat het betekent voor uw zaak**
-- Buitenplaatsen worden nu vergund, gecontroleerd en verlengd, en dat maakt ze tot een blijvende waarde van het bedrijf.
-- De maanden waarin u mag openen, kunnen even zwaar wegen als het weer.
+- Buitenplaatsen worden nu vergund, gecontroleerd en verlengd, een blijvende waarde van het bedrijf, en de maanden waarin u mag openen, kunnen even zwaar wegen als het weer.
 - De uitrusting moet bij elke verlenging voldoen aan de regels die ervoor gelden.
 
 **Inzicht van Bromic.** Een permanente regeling beloont permanent denken. Vaste, gecertificeerde elektrische warmte op de constructie, met de bijbehorende bediening, dient u nog lang na een rij losse gasflessen.
@@ -259,8 +254,7 @@ waar de markt heen gaat, niet wat er in Nederland geldt.
 > *Bron: City of Gresham, Oregon (VS), IFC 605.5.2.1.3–605.5.2.1.4.*
 
 **Wat het betekent voor uw zaak**
-- Gasflessen brengen opslag, wisselwerk en vragen bij inspecties met zich mee.
-- Afstandseisen sluiten verplaatsbaar gas uit op veel overdekte of compacte terrassen.
+- Gasflessen brengen opslag, wisselwerk en vragen bij inspecties met zich mee, en afstandseisen sluiten verplaatsbaar gas uit op veel overdekte of compacte terrassen.
 - De goedkoopste verwarmer om te kopen, kan de lastigste blijken om aan de regels te laten voldoen.
 
 **Inzicht van Bromic.** Elektrische stralingswarmte haalt het omgaan met brandstof volledig uit de bediening, en kan worden gemonteerd op plekken waar verplaatsbaar gas niet mag staan.
@@ -279,9 +273,8 @@ waar de markt heen gaat, niet wat er in Nederland geldt.
 > De All-Electric Buildings Act van de staat New York volgt voor nieuwbouw in de hele staat, te beginnen bij gebouwen van zeven verdiepingen of minder.[^s11] [[VERIFY: huidige ingangsdata en status van de NY State All-Electric Buildings Act na de rechtszaken, uit de wettekst of dos.ny.gov — verkoop horeca]]
 
 **Wat het betekent voor uw zaak**
-- Nieuwe hotels, gemengde projecten en appartementengebouwen worden in New York zonder gas ontworpen.
-- Een uitzondering voor de keuken geldt niet automatisch voor het terras.
-- Of een wet ook terrasverwarmers raakt, is een lokale vraag, dus het loont om die te stellen voordat u voorschrijft. [[VERIFY: of LL154 van toepassing is op gasterrasverwarmers bij nieuwbouw — verkoop horeca]]
+- Nieuwe hotels, gemengde projecten en appartementengebouwen worden in New York zonder gas ontworpen, en een uitzondering voor de keuken geldt niet automatisch voor het terras.
+- Of een wet ook terrasverwarmers raakt, is een lokale vraag, dus stel die voordat u voorschrijft. [[VERIFY: of LL154 van toepassing is op gasterrasverwarmers bij nieuwbouw — verkoop horeca]]
 
 **Inzicht van Bromic.** Wie elektrische buitenverwarming al in de ontwerpfase voorschrijft, houdt het terras in lijn met een volledig elektrisch gebouw, zonder gasleiding naar het dak. [[VERIFY: of en hoe de Nederlandse regels voor gasloze nieuwbouw gasterrasverwarming raken — Bromic Benelux distributor]]
 
@@ -297,8 +290,7 @@ waar de markt heen gaat, niet wat er in Nederland geldt.
 > *Bron: National Restaurant Association, State of the Restaurant Industry 2026.*
 
 **Wat het betekent voor uw zaak**
-- Evenementen, proeverijen en besloten diners brengen bezoek, en een terras ontvangt ze prachtig.
-- Een evenement dat maanden vooruit is geboekt, kan er niet op rekenen dat de avond zacht is.
+- Evenementen, proeverijen en besloten diners brengen bezoek, en een terras ontvangt ze prachtig, al kan een evenement dat maanden vooruit is geboekt niet rekenen op een zachte avond.
 - Warmte en licht bepalen de sfeer net zo goed als het menu.
 
 **Inzicht van Bromic.** Warmte die ook licht is, zoals Eclipse met dimbare randverlichting, laat één armatuur zowel de sfeer als de temperatuur bepalen.[^s15]
@@ -315,8 +307,7 @@ waar de markt heen gaat, niet wat er in Nederland geldt.
 > *Bron: American Hotel & Lodging Association, State of the Industry 2026.*
 
 **Wat het betekent voor uw zaak**
-- De kameromzet groeit langzaam, terwijl de kosten de winst onder druk houden.
-- Dakterrassen, zwembaddekken en terrassen kunnen nog lang na het donker eten en drinken verkopen.
+- De kameromzet groeit langzaam, terwijl de kosten de winst onder druk houden, en dakterrassen, zwembaddekken en terrassen kunnen nog lang na het donker eten en drinken verkopen.
 - Binnenlands vrijetijdsreizen is het grootste deel van het reizen in de VS, en vrijetijdsgasten blijven graag buiten hangen.[^s12]
 
 **Inzicht van Bromic.** Een verwarmde dakbar of cabana bij het zwembad maakt van vierkante meters avondomzet, zonder één kamer toe te voegen.
@@ -331,9 +322,8 @@ waar de markt heen gaat, niet wat er in Nederland geldt.
 > *Bron: Bromic Heating, Planning Guide US v1.2, 2021.*
 
 **Wat het betekent voor uw zaak**
-- Architecten willen warmte die gasten voelen, terwijl de verwarmer zelf uit het zicht blijft.
-- Dakterrassen en open terrassen zijn beter gediend met de juiste golflengte dan met meer toestellen.
-- Ingebouwde en hangende warmte maakt vloerruimte vrij voor meer plaatsen.
+- Architecten willen warmte die gasten voelen, terwijl de verwarmer zelf uit het zicht blijft, en ingebouwde en hangende warmte maakt vloerruimte vrij voor meer plaatsen.
+- Op dakterrassen en open terrassen telt de juiste golflengte zwaarder dan extra toestellen.
 
 **Inzicht van Bromic.** Wordt de verwarming vanaf de eerste tekening meegenomen, dan zitten ingebouwde, plafond- of wandmodellen van Platinum en Tungsten Smart-Heat Electric, elk met zijn Affinity-bediening, rustig in het plafond en laten ze de plattegrond aan uw gasten over.
 
@@ -343,9 +333,9 @@ waar de markt heen gaat, niet wat er in Nederland geldt.
 
 ![Een stedelijk dakterras met een verwarmer ingebouwd in een houten overstek](img:t-006-016)
 
-## Wat u meeneemt het seizoen in
+## Klaar voor het seizoen
 
-- Behandel het terras als omzet, want ondernemers zeggen dat ze winnen met gasten ter plaatse.[^s2]
+- Ondernemers zeggen dat ze winnen met gasten ter plaatse, dus reken het terras als omzet.[^s2]
 - Gasten willen de tafel buiten, en comfort bepaalt of ze blijven.[^s3]
 - Energiekosten zijn de reden om in zones en met schema's te verwarmen, via compatibele Affinity Smart-Heat Controls.[^s2]
 - Buiten eten is in grote steden vergund en permanent, dus ontwerp naar de vergunning.[^s5]
@@ -377,7 +367,7 @@ Ontdek wat uw lege plaatsen waard zouden kunnen zijn. VRAAG UW ROI-ANALYSE AAN.
 - **Formaat:** afgeschermde pdf, liggend A4, 14 pagina's; volgt het systeem van het rapport Trends 2026 voor particulieren (witte pagina's, inkt en staalgrijs, vlam `#EF4123` als enige accent op kleine labels en lijnen; koppen in Didot, tekst in Helvetica Neue Light, volgens templates/bromic-voice.md). Geen emoji, geen uitroeptekens.
 - **Pagina 1, omslag:** "Trends in buitenhoreca 2026", ondertitel "Tien manieren waarop het terras zijn plek verdient". Afbeelding `l-016-131`.
 - **Pagina 2, het jaar in cijfers:** de tabel Het jaar in één oogopslag als vier grote cijferblokken (35%, 55%, 61%, 82%) met bronregels; de volledige tabel eronder.
-- **Pagina's 3–12, één trend per pagina:** nummer en kop linksboven; cijferblokken met bronregels in klein kapitaal; "Wat het betekent voor uw zaak" als drie regels; inzicht van Bromic in een kader met vlamlijn; ontwerpkeuze; projectregel met een QR-code naar de case study.
+- **Pagina's 3–12, één trend per pagina:** nummer en kop linksboven; cijferblokken met bronregels in klein kapitaal; "Wat het betekent voor uw zaak" als twee of drie regels; inzicht van Bromic in een kader met vlamlijn; ontwerpkeuze; projectregel met een QR-code naar de case study.
   - 01 `p-003-006` · 02 `l-013-111` · 03 `p-007-030` · 04 `g-operator` (door de eigenaar goedgekeurde gegenereerde afbeelding; label "generated") · 05 `p-002-001` · 06 `p-014-066` · 07 `l-013-107` · 08 `p-010-044` · 09 `t-003-005` · 10 `t-006-016`.
   - `p-`-afbeeldingen tonen het assortiment van 2021: alleen gebruiken als algemene horecascènes, nooit met een productnaam als onderschrift.
 - **Pagina 13:** wat u meeneemt het seizoen in en de disclaimer over regelgeving, volledig gezet.

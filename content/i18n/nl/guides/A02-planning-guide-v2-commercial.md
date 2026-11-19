@@ -1,16 +1,16 @@
 ---
 id: A02-commercial
 type: gated-guide
-title: "De planningsgids voor buitenverwarming in de horeca: wat terrasverwarming kost, stoel voor stoel"
+title: "Uw terras verwarmen, stoel voor stoel"
 audience: [COM]
 stage: [CO, IN]
 cell: COM-CO
 asset: A02
-summary: "Voor restaurants, hotels en evenementlocaties die hun gasten een groter deel van het jaar buiten willen ontvangen: wat een verwarmde stoel waard is, daarna negen stappen door de energiekosten over vijf jaar, bediening in zones, de brandveiligheidseisen en de uitrol over meerdere locaties."
+summary: "Voor restaurants, hotels en evenementlocaties die hun gasten een groter deel van het jaar buiten willen ontvangen. Wat een verwarmde stoel waard is, daarna negen stappen door de energiekosten over vijf jaar, bediening in zones, de brandveiligheidseisen en de uitrol over meerdere locaties."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Zijn terrasverwarmers op propaan of elektrisch goedkoper voor een restaurant?"
-meta_description: "Wat terrasverwarming in de horeca kost, zorgvuldig gepland: de waarde van een verwarmde stoel, energiekosten over vijf jaar, zones, brandveiligheid en uitrol."
+meta_description: "Wat terrasverwarming in de horeca kost, stoel voor stoel: de waarde van een verwarmde stoel, energiekosten over vijf jaar, zones, brandveiligheid en uitrol."
 cta: {label: "Vraag uw ROI-berekening aan", asset: A21}
 hero: l-013-104
 images: [l-005-024, l-013-111, l-013-107, l-019-164, p-003-006]
@@ -222,11 +222,11 @@ sources:
     verified: false
 ---
 
-# De planningsgids voor buitenverwarming
+# Uw terras verwarmen, stoel voor stoel
 
-*Editie voor horecaondernemers: restaurants, hotels, bars en evenementlocaties. Extend The Moment.*
+*Editie voor horecaondernemers: restaurants, hotels, bars en evenementlocaties.*
 
-Een warm terras houdt gasten aan tafel voor nog een gang en vult stoelen op avonden die anders leeg zouden blijven. Hoe u het verwarmt, is een beslissing voor de lange termijn, en bij de gemiddelde Amerikaanse prijzen van 2026 is aardgas de goedkoopste energiebron per verwarmde vierkante meter en propaan de duurste, met elektrisch daartussen. In een voorbeeld met 30 stoelen en ongeveer 56 m² kost propaan over vijf jaar meer dan twee keer zoveel als elektrisch, nog vóór het wisselen van flessen, omdat een vrijstaande verwarmer niet meer dan 4 stoelen bedient, terwijl elektrisch ongeveer drie keer zoveel kost als aardgas. Met uw eigen tarieven kan die volgorde anders uitvallen. Stap 3 loopt de formule en het uitgewerkte voorbeeld met u door. De aanschafprijs blijkt het kleinste getal in de beslissing, en energie, het werk met brandstof, de bediening en de brandveiligheidseisen wegen veel zwaarder.
+Een warm terras houdt gasten aan tafel voor nog een gang en vult stoelen op avonden die anders leeg zouden blijven. Bij de gemiddelde Amerikaanse prijzen van 2026 is aardgas de goedkoopste energiebron per verwarmde vierkante meter en propaan de duurste, met elektrisch daartussen. In een voorbeeld met 30 stoelen en ongeveer 56 m² (stap 3) kost propaan over vijf jaar meer dan twee keer zoveel als elektrisch, nog vóór het wisselen van flessen, omdat een vrijstaande verwarmer niet meer dan 4 stoelen bedient, terwijl elektrisch ongeveer drie keer zoveel kost als aardgas. Met uw eigen tarieven kan die volgorde anders uitvallen. De aanschafprijs is het kleinste getal in de beslissing; energie, het werk met brandstof, de bediening en de brandveiligheidseisen wegen veel zwaarder.
 
 Buiten eten is onderdeel geworden van wat gasten verwachten. In een enquête van de Amerikaanse National Restaurant Association uit 2020 bood 74% van de restaurants met volledige bediening een terras aan, en 49% was bezig het buitenseizoen te verlengen, onder meer met tenten of terrasverwarmers[^s1].
 
@@ -238,9 +238,9 @@ Buiten eten is onderdeel geworden van wat gasten verwachten. In een enquête van
 
 **Terugverdientijd (maanden) = totale installatiekosten ÷ (extra dekkingsbijdrage per jaar ÷ 12)**
 
-Reken de terugverdientijd uit op de dekkingsbijdrage in plaats van de omzet, en tel alleen de avonden waarop het terras zonder warmte leeg zou blijven. Uw kassasysteem geeft u de tafelwisselingen en de gemiddelde besteding, en de sluitingen door het weer van vorig jaar geven u de extra avonden. [[VERIFY: richtwaarden voor tafelwisselingen, besteding en seizoensverlenging per klimaat — verkoop horeca]] De [ROI-rekenhulp](asset:A21) rekent de cijfers door voor uw locatie.
+Reken de terugverdientijd uit op de dekkingsbijdrage, en tel alleen de avonden waarop het terras zonder warmte leeg zou blijven. Uw kassasysteem geeft u de tafelwisselingen en de gemiddelde besteding, en de sluitingen door het weer van vorig jaar geven u de extra avonden. [[VERIFY: richtwaarden voor tafelwisselingen, besteding en seizoensverlenging per klimaat — verkoop horeca]] De [ROI-rekenhulp](asset:A21) rekent de cijfers door voor uw locatie.
 
-## Negen stappen naar een terras waar gasten blijven
+## Negen stappen naar een terras waar gasten graag blijven hangen
 
 | Stap | Beslissing | Hulpmiddel |
 |---|---|---|
@@ -256,7 +256,7 @@ Reken de terugverdientijd uit op de dekkingsbijdrage in plaats van de omzet, en 
 
 ## Stap 1. Ga na of de ruimte als buitenruimte telt
 
-Een ruimte telt als buitenruimte wanneer minstens 30% van de omtrek permanent open is, en een gedeeltelijk dak of een luifel houdt een warmtewolk vast die bij de stralingswarmte optelt[^s3]. Wanden, glas of plastic zijwanden kunnen zowel het verwarmingsontwerp veranderen als wat de brandveiligheidsregels toestaan (stap 8). Stralingswarmte verwarmt gasten en oppervlakken direct in plaats van de lucht eromheen, en blijft dus werken bij een licht briesje, waar hete lucht dat niet kan[^s3].
+Een ruimte telt als buitenruimte wanneer minstens 30% van de omtrek permanent open is, en een gedeeltelijk dak of een luifel houdt een warmtewolk vast die bij de stralingswarmte optelt[^s3]. Wanden, glas of plastic zijwanden kunnen zowel het verwarmingsontwerp veranderen als wat de brandveiligheidsregels toestaan (stap 8). Stralingswarmte verwarmt gasten en oppervlakken direct, en blijft dus werken bij een licht briesje dat hete lucht zou wegblazen[^s3].
 
 - [ ] Open omtrek 30% of meer[^s3]; plannen voor omsluiting genoteerd
 - [ ] Overdekt, deels overdekt of open
@@ -271,7 +271,7 @@ Teken de vloer zoals uw team de service draait, zodat elke sectie wordt verwarmd
 
 ## Stap 3. Kies de energiebron op kosten over vijf jaar
 
-Een eerlijke vergelijking kijkt naar alles wat de verwarmers over vijf jaar gebruik kosten, vanaf de dag van installatie.
+Vergelijk alles wat de verwarmers over vijf jaar gebruik kosten, vanaf de dag van installatie.
 
 **Totale kosten over 5 jaar = hardware + bediening + installatie + vergunningen + 5 × (energie + werk met brandstof + onderhoud)**
 
@@ -289,7 +289,7 @@ Het [TCO-model A20](asset:A20) rekent met Amerikaanse tarieven: elektriciteit 13
 
 ### Een uitgewerkt voorbeeld: 30 stoelen, ca. 56 m², 900 branduren per jaar
 
-30 stoelen × ca. 1,9 m² = ca. 56 m²[^s28], deels overdekt, koel (factor 0,85; stap 5). 900 uur (6 uur × 150 avonden) is de aanname van het A20-model, geen benchmark.
+30 stoelen × ca. 1,9 m² = ca. 56 m²[^s28], deels overdekt, koel (factor 0,85; stap 5). 900 uur (6 uur × 150 avonden) is de aanname van het A20-model; vul uw eigen seizoen in.
 
 | Optie | Verwarmers | Energie per jaar | Energiekosten per jaar (VS-voorbeeld) | Over 5 jaar (VS-voorbeeld) | Bediening |
 |---|---|---|---|---|---|
@@ -297,7 +297,7 @@ Het [TCO-model A20](asset:A20) rekent met Amerikaanse tarieven: elektriciteit 13
 | Platinum Gas 11,7 kW, aardgas | 56 ÷ (20 × 0,85 = 17,0) = 3,3 → 4 | 4 × 11,7 kW × 900 h = ca. 42.000 kWh | $1,247 | $6,233 | Eén Affinity On/Off-kanaal (tot 10 gasverwarmers); wandschakelaar; app |
 | Tungsten Freestanding Gas, propaan | de grootste van 3,3 → 4 op oppervlak en 30 stoelen ÷ 4 = 7,5 → 8 | 8 × 1,57 L × 900 h = ca. 11.300 L | $7,996 | $39,979, plus het werk met flessen | [[VERIFY: controls for Tungsten Freestanding Gas — productteam]] |
 
-Deze cijfers gaan alleen over energie, op vol vermogen, en uw eigen tarief, tijdschema's en dimmen maken ze lager. Propaan betekent daarnaast ongeveer 11.300 liter per jaar, in het Amerikaanse voorbeeld ongeveer 636 wissels van een fles van 17,8 liter, om in te kopen, te wisselen en op te slaan. Voeg hardware, installatie en het werk met brandstof toe in het [TCO-model](asset:A20). De bedragen per uur uit de gids van 2021 gingen uit van prijzen van 2021 en zijn ingetrokken.
+Deze cijfers gaan alleen over energie, op vol vermogen; uw eigen tarief, tijdschema's en dimmen maken ze lager. Propaan betekent daarnaast ongeveer 11.300 liter per jaar, in het Amerikaanse voorbeeld ongeveer 636 wissels van een fles van 17,8 liter, om in te kopen, te wisselen en op te slaan. Voeg hardware, installatie en het werk met brandstof toe in het [TCO-model](asset:A20). De bedragen per uur uit de gids van 2021 gingen uit van prijzen van 2021 en zijn ingetrokken.
 
 | | Elektrisch | Aardgas | Propaan |
 |---|---|---|---|
@@ -371,7 +371,7 @@ De productpagina's geven alleen stromen bij de Amerikaanse spanningen van 208 en
 
 ## Stap 7. Zones en tijdschema's met Affinity-bediening (verplicht)
 
-Elke Bromic-verwarmer hoort bij Affinity Smart-Heat® Controls, die de getallen uit stap 3 waarmaken door elke sectie alleen te verwarmen als ze open is, en alleen zoveel als de avond vraagt. Zonder bediening draait de warmte op vol vermogen tot iemand eraan denkt haar uit te zetten.
+Elke Bromic-verwarmer hoort bij Affinity Smart-Heat® Controls, die elke sectie alleen verwarmen als ze open is, en alleen zoveel als de avond vraagt. Zij maken van de getallen uit stap 3 echte besparingen, want zonder bediening draait de warmte op vol vermogen tot iemand eraan denkt haar uit te zetten.
 
 | Behoefte | Bediening | Capaciteit |
 |---|---|---|

@@ -5,16 +5,16 @@ translation_of: A01-v2
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 type: report
-title: "Outdoor Living Trends 2026: tien manieren waarop we nu buiten leven"
+title: "Trends in buitenleven 2026"
 audience: [RES, ARC, BLD]
 stage: [AW, CO]
 cell: RES-AW
 asset: A01
-summary: "Tien manieren waarop Amerikanen meer van hun leven naar buiten brengen, elk verteld met één gecontroleerd cijfer, wat het betekent voor de ruimte en één doordachte ontwerpstap om die het hele jaar te laten werken."
+summary: "Tien manieren waarop Amerikanen meer van hun leven naar buiten brengen, elk verteld met één gecontroleerd cijfer, wat het betekent voor de ruimte en één ontwerpstap die haar het hele jaar in gebruik houdt."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wat zijn de trends in buitenleven voor 2026?"
-meta_description: "Tien trends in buitenleven voor 2026, elk met een cijfer met bron en een ontwerpstap waarmee architecten, aannemers en huiseigenaren voor het hele jaar plannen."
+meta_description: "Trends in buitenleven 2026: tien verschuivingen, elk met een cijfer met bron en een ontwerpstap voor architecten, aannemers en huiseigenaren."
 cta: {label: "Bereken uw ruimte", asset: A03}
 hero: t-001-000
 images: [t-003-005, l-013-108, t-005-013, t-006-016, t-007-019, t-008-022, t-009-025, t-010-028, t-011-031, t-012-034, t-013-037]
@@ -90,16 +90,16 @@ Voor de architecten, aannemers en huiseigenaren die bepalen hoe we buiten leven.
 
 ## Een kamer voor elk seizoen
 
-Het terras is een kamer geworden die mensen het hele jaar willen gebruiken. Maar zodra de avond afkoelt, loopt het leeg, omdat verwarming zo vaak als laatste wordt gepland.
+Het terras is een kamer geworden die mensen het hele jaar willen gebruiken. Zodra de avond afkoelt, loopt het vaak leeg, omdat verwarming zo vaak als laatste wordt gepland.
 
 ## 01 Buitenleven is het hart van het huis
 
 **55%** netto aandeel Amerikaanse architecten dat buitenruimtes populairder ziet worden.[^s1]\
 *AIA, Home Design Trends Survey, Q2 2025*
 
-- Gezinnen komen nu buiten samen, eten er en ontspannen er.
-- Overdekte terrassen worden met dezelfde zorg gepland als elke kamer.
-- Comfort is wat iedereen daar houdt.
+- Gezinnen komen nu buiten samen, eten er en ontspannen er, net zo vanzelfsprekend als in de keuken.
+- Overdekte terrassen worden met dezelfde zorg gepland als elke kamer in huis.
+- Comfort houdt iedereen daar, ook als het licht verdwijnt.
 
 **Bromic-inzicht** Stralingswarmte maakt het terras deel van het huis, tot lang na zonsondergang.
 
@@ -110,9 +110,8 @@ Het terras is een kamer geworden die mensen het hele jaar willen gebruiken. Maar
 **67%** van de Amerikaanse huiseigenaren zegt dat verwarming het meest zou doen om hun tijd buiten te verlengen.[^s2]\
 *Atomik Research voor Bromic Heating, 2025* [[VERIFY: datum van de enquête, steekproefgrootte n en vraagstelling tegen de topline van Atomik — marketing]]
 
-- Koffie bij zonsopgang en eten bij schemering zijn de momenten die mensen koesteren.
+- Koffie bij zonsopgang en eten bij schemering zijn de momenten die mensen het meest koesteren.
 - Een koele ochtend of avond kan beide korter maken.
-- Juist die uren willen mensen het liefst.
 
 **Bromic-inzicht** Stralingswarmte voegt aan beide kanten van de dag comfortabele uren toe, zodat je het moment kunt verlengen.
 
@@ -123,8 +122,7 @@ Het terras is een kamer geworden die mensen het hele jaar willen gebruiken. Maar
 **60,5%** van de nieuwe vrijstaande woningen die in 2025 in de VS werden gestart, kreeg een terras.[^s4]\
 *NAHB, op basis van de Census Survey of Construction, 2025*
 
-- Terrassen worden vanaf het begin ingebouwd.
-- Installaties worden er meteen bij gepland.
+- Terrassen worden vanaf het begin ingebouwd, met de installaties er meteen bij gepland.
 - Een terras dat elke dag wordt gebruikt, verdient zijn plek in het huis.
 
 **Bromic-inzicht** Verwarming maakt van een terras voor af en toe een kamer waarin je elke dag leeft.
@@ -136,8 +134,7 @@ Het terras is een kamer geworden die mensen het hele jaar willen gebruiken. Maar
 **$525 mld.** verwachte jaarlijkse uitgaven van Amerikaanse huiseigenaren aan verbeteringen en reparaties, tot en met Q3 2027.[^s5]\
 *Harvard Joint Center for Housing Studies, LIRA, okt. 2026*
 
-- Veel eigenaren kiezen ervoor het huis te verbeteren waar ze van houden.
-- Buitenleven staat centraal in hun verbeteringen.
+- Veel eigenaren kiezen ervoor het huis te verbeteren waar ze van houden, met buitenleven centraal in hun plannen.
 - Veel van hen verdienen bij verkoop het grootste deel van de kosten terug.
 
 **Bromic-inzicht** Een bescheiden toevoeging kan veranderen hoe vaak er van een ruimte wordt genoten.
@@ -149,11 +146,10 @@ Het terras is een kamer geworden die mensen het hele jaar willen gebruiken. Maar
 **40%** netto aandeel Amerikaanse architecten dat in elkaar overlopende binnen- en buitenruimtes populairder ziet worden.[^s1]\
 *AIA, Home Design Trends Survey, Q2 2025*
 
-- Glazen wanden schuiven weg en openen de kamer.
-- Vloeren en plafonds lopen naadloos door van binnen naar buiten.
+- Glazen wanden schuiven weg, en vloeren en plafonds lopen naadloos door van binnen naar buiten.
 - Het terras wordt deel van de woonplattegrond.
 
-**Bromic-inzicht** Stralingswarmte verwarmt mensen en oppervlakken in plaats van de lucht, en blijft dus werken met de wanden open.
+**Bromic-inzicht** Stralingswarmte verwarmt mensen en oppervlakken direct, en blijft dus werken met de wanden open.
 
 **Ontwerpstap** Laat het plafond doorlopen naar buiten en bouw de verwarmers erin in.
 
@@ -162,8 +158,7 @@ Het terras is een kamer geworden die mensen het hele jaar willen gebruiken. Maar
 **33%** van de Amerikaanse huiseigenaren die buiten verbouwen, doet dat om hun woonruimte uit te breiden.[^s6]\
 *Houzz, U.S. Outdoor Trends Study, 2024*
 
-- Pergola's bakenen plekken af om te eten, te loungen en samen te komen.
-- Ze worden vanaf het begin in het huis meeontworpen.
+- Pergola's bakenen plekken af om te eten, te loungen en samen te komen, en worden nu vanaf het begin in het huis meeontworpen.
 - Ze dragen moeiteloos licht, geluid en warmte.
 
 **Bromic-inzicht** Een pergola is een ideaal bevestigingspunt voor geïntegreerde stralingswarmte.
@@ -175,8 +170,7 @@ Het terras is een kamer geworden die mensen het hele jaar willen gebruiken. Maar
 **5** smarthomeplatforms werken met Affinity Smart-Heat Controls.[^s8]\
 *Bromic Lookbook 2026; compatibiliteit verschilt*
 
-- Licht, warmte en geluid leven nu op één platform.
-- Huiseigenaren verwachten de sfeer vanuit een app in te stellen.
+- Licht, warmte en geluid leven nu op één platform, en huiseigenaren verwachten de sfeer vanuit een app in te stellen.
 - De ruimte reageert soepel op het tijdstip.
 
 **Bromic-inzicht** Affinity-bediening verbindt je verwarmers met de Smart-Heat app en spraakassistenten. Wifi- en app-functies vragen om compatibele Affinity-bediening, apart verkrijgbaar.
@@ -185,11 +179,10 @@ Het terras is een kamer geworden die mensen het hele jaar willen gebruiken. Maar
 
 ## 08 Ontwerp geeft de toon aan
 
-**9,9** op 10: de Joy Score van Amerikaanse huiseigenaren voor een nieuw terras.[^s7]\
+**9,9** op 10 is de Joy Score van Amerikaanse huiseigenaren voor een nieuw terras.[^s7]\
 *NAR en NALP, Remodeling Impact Report, 2023*
 
-- Hoe een ruimte eruitziet, telt evenveel als hoe ze werkt.
-- Vlakke inbouw neemt de plaats in van zichtbare hardware.
+- Hoe een ruimte eruitziet, telt evenveel als hoe ze werkt, dus neemt vlakke inbouw de plaats in van zichtbare hardware.
 - De buitenkamer leest als één geheel met het huis.
 
 **Bromic-inzicht** Ingebouwde verwarmers verdwijnen in de architectuur. Warmte die je voelt, maar niet ziet.
@@ -201,8 +194,7 @@ Het terras is een kamer geworden die mensen het hele jaar willen gebruiken. Maar
 **ca. 11 m²** verwarmd door één Eclipse Smart-Heat Freestanding-verwarmer.[^s8]\
 *Bromic Lookbook 2026*
 
-- Kleinere kavels belonen een doordachte zonering.
-- Eén oppervlak kan veel momenten dienen.
+- Kleinere kavels belonen een doordachte zonering, waarbij één oppervlak veel momenten dient.
 - Elk element verdient zijn plek, zodat de ruimte rustig blijft.
 
 **Bromic-inzicht** Stralingswarmte wordt gericht op de mensen in de ruimte, en past daardoor vanzelf bij compacte terrassen en binnenplaatsen.
@@ -214,8 +206,7 @@ Het terras is een kamer geworden die mensen het hele jaar willen gebruiken. Maar
 **23%** van de Amerikaanse huiseigenaren noemt buitenverwarming een topprioriteit bij het plannen.[^s3]\
 *Atomik Research voor Bromic Heating, 2025* [[VERIFY: datum van de enquête, steekproefgrootte n en vraagstelling tegen de topline van Atomik — marketing]]
 
-- Grills werden ingebouwde voorzieningen, en verwarming volgt.
-- Ze wordt samen met de verlichting voorgeschreven.
+- Grills werden ingebouwde voorzieningen, en verwarming volgt, voorgeschreven samen met de verlichting.
 - Ingebouwde warmte betekent warmte waarop je elke avond kunt rekenen.
 
 **Bromic-inzicht** Verwarming met ontwerp wordt vanaf het allereerste begin geïntegreerd.
@@ -228,7 +219,7 @@ Het hele jaar buiten leven begint in de architectuurfase. Komt de verwarming lat
 
 Elke Bromic-verwarmer wordt gecombineerd met een Affinity On/Off-, Dimmer- of Eclipse-regelaar, een wandschakelaar en de Smart-Heat app. Wifi- en app-functies vragen om compatibele Affinity-bediening, apart verkrijgbaar.
 
-**Meegenomen vanaf de allereerste tekening.**
+**Verleng het moment.**
 
 ## Bronnen en methode
 
@@ -266,7 +257,7 @@ Alle marktcijfers gaan over de Verenigde Staten. De AIA-cijfers zijn netto (stij
   - p.23 Plan vanaf het begin, beeld `t-013-037`.
   - p.24 Bronnen en methode (achterkant).
 - **Eén cijfer per spread.** Het cijfer is de grootste letter op de rechterpagina, flame `#EF4123`, met de bronregel er direct onder in kleine cursief. Geen ander getal op de spread staat groot.
-- **Volgorde op de rechterpagina, bij elke trend.** Nummer en kop, cijfer en bronregel, drie regels (zonder iconen erin), het Bromic-inzichtpaneel, de ontwerpstap als één afsluitende regel.
+- **Volgorde op de rechterpagina, bij elke trend.** Nummer en kop, cijfer en bronregel, twee of drie regels (zonder iconen erin), het Bromic-inzichtpaneel, de ontwerpstap als één afsluitende regel.
 - **Iconenrijen** (boven de kop, één woord per icoon): 01 Samenkomen · Eten · Werken · Ontspannen; 02 Ochtend · Middag · Avond; 03 Ingebouwd · Ontworpen · Onmisbaar; 04 Verbouwen · Investeren · Waarde; 05 Open plan · Naadloos · Verbonden; 06 Constructie · Beschutting · Integratie; 07 Bediening · Verlichting · Verbinding; 08 Ontwerp · Esthetiek · Architectuur; 09 Zones · Multifunctioneel · Efficiëntie; 10 Stroom · Bediening · Integratie.
 - **Beeldkoppeling** (bibliotheek-id's uit `images/library/manifest.json`; alternatieven zijn beelden uit het Lookbook):
 

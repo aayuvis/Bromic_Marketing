@@ -29,21 +29,21 @@ sources:
     title: "Share of new homes with patios dips to a six-year low (NAHB tabulation of the Census Survey of Construction)"
     year: 2026
     url: https://eyeonhousing.org/2026/09/share-of-new-homes-with-patios-dips-to-a-six-year-low/
-    supports: "60.5% of about 940,000 single-family homes started in 2025 came with a patio, down from 61.8% in 2024; lowest since 2019 (59.6%)"
+    supports: "60.5% of about 940,000 single-family homes started in 2025 came with a patio, down from 61.8% in 2024; lowest since 2019 (59.6%); by division in 2025: West South Central 77%, Mountain 74%, South Atlantic 66%, Middle Atlantic 23% (fewest), New England 26% (up from 14% in 2024)"
     verified: true
   - id: s2
     publisher: National Association of Home Builders
     title: "Patios in new homes (Census Survey of Construction tabulation)"
     year: 2025
     url: https://www.nahb.org/blog/2025/09/patios-in-new-homes
-    supports: "61.8% of single-family homes started in 2024 came with a patio; over 80% in the West South Central division, 14% in New England"
+    supports: "61.8% of single-family homes started in 2024 came with a patio, down from 63.7% the year before"
     verified: true
   - id: s3
     publisher: National Association of Home Builders (Eye on Housing)
     title: "Share of new homes with patios edges down for first time in fifteen years (2025 Builder Practices Survey)"
     year: 2025
     url: https://eyeonhousing.org/2025/09/share-of-new-homes-with-patios-edges-down-for-first-time-in-fifteen-years/
-    supports: "Average new-home patio about 320 sq ft (homes built in 2024), up from about 290 sq ft; over 400 sq ft in East North Central and East South Central, under 200 sq ft in West South Central"
+    supports: "61.8% of new single-family homes started in 2024 had a patio, the first decline in fifteen years; average new-home patio about 320 sq ft (homes built in 2024); over 400 sq ft in East North Central and East South Central, under 200 sq ft in West South Central"
     verified: true
   - id: s4
     publisher: American Institute of Architects
@@ -92,13 +92,13 @@ Jede dieser Zahlen führt zum selben Abend zurück: ein Tisch draußen gedeckt, 
 
 ## Wie viele US-Neubauten haben eine Terrasse?
 
-60,5 % der rund 940.000 im Jahr 2025 begonnenen Einfamilienhäuser in den USA hatten eine Terrasse.[^s1] Das ist weniger als 61,8 % im Jahr 2024, der erste Rückgang seit fünfzehn Jahren, und der niedrigste Anteil seit 2019.[^s1][^s2] Wo Sie bauen, macht einen deutlichen Unterschied: In den Bundesstaaten der Region West South Central haben mehr als 80 % der Neubauten eine Terrasse, in Neuengland 14 %.[^s2]
+60,5 % der rund 940.000 im Jahr 2025 begonnenen Einfamilienhäuser in den USA hatten eine Terrasse.[^s1] Das ist weniger als 61,8 % im Jahr 2024, der zweite Rückgang in Folge nach dem ersten seit fünfzehn Jahren, und der niedrigste Anteil seit 2019.[^s1][^s3] Wo Sie bauen, macht einen deutlichen Unterschied: In den Bundesstaaten der Region West South Central haben 77 % der Neubauten eine Terrasse, in der Region Middle Atlantic 23 %.[^s1]
 
 Quelle: National Association of Home Builders, Auswertung des Survey of Construction des US Census Bureau, Baubeginne 2025 (veröffentlicht im September 2026).
 
 ## Wie groß ist die Terrasse im Neubau geworden?
 
-Die durchschnittliche Terrasse eines 2024 gebauten Hauses misst etwa 30 m², nach etwa 27 m² im Jahr davor.[^s3] Die Spanne im Land ist groß, von über 37 m² in den Regionen East North Central und East South Central bis unter 19 m² in West South Central.[^s3] In dieser Größe ist eine Terrasse ein echter Raum im Freien geworden, und sie verdient dieselbe sorgfältige Planung wie jeder Raum im Haus.
+Die durchschnittliche Terrasse eines 2024 gebauten Hauses misst etwa 30 m².[^s3] Die Spanne im Land ist groß, von über 37 m² in den Regionen East North Central und East South Central bis unter 19 m² in West South Central.[^s3] In dieser Größe ist eine Terrasse ein echter Raum im Freien geworden, und sie verdient dieselbe sorgfältige Planung wie jeder Raum im Haus.
 
 Quelle: National Association of Home Builders, Builder Practices Survey 2025 (2024 gebaute Häuser).
 
@@ -164,7 +164,7 @@ Quelle: National Association of Realtors und National Association of Landscape P
 
 ### Wie viel Prozent der Neubauten haben eine Terrasse?
 
-60,5 % der 2025 begonnenen Einfamilienhäuser in den USA hatten eine Terrasse, so die Auswertung der Census-Daten durch die NAHB. 2024 lag der Anteil bei 61,8 %.[^s1]
+60,5 % der 2025 begonnenen Einfamilienhäuser in den USA hatten eine Terrasse, so die Auswertung der Census-Daten durch die NAHB. 2024 lag der Anteil bei 61,8 %.[^s1][^s2]
 
 ### Wie groß ist eine typische Terrasse im US-Neubau?
 

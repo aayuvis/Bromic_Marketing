@@ -5,16 +5,16 @@ translation_of: A15
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 type: sales-kit
-title: "Het Bromic-programma voor aannemers: pakketten buitenverwarming in drie niveaus"
+title: "Het Bromic-programma voor woningbouwers"
 audience: [BLD]
 stage: [AW, CO]
 cell: BLD-CO
 asset: A15
-summary: "Een one-pager voor woningbouwers en een Good–Better–Best-pakket buitenverwarming – elk niveau een compleet, voorbekabeld systeem van verwarmers en bediening, waarmee uw kopers nog lang na zonsondergang van het terras genieten."
+summary: "Voor woningbouwers: complete, voorbekabelde pakketten buitenverwarming in drie niveaus, Good, Better en Best, elk met de verwarmers en de bediening waarmee uw kopers lang na zonsondergang van het terras genieten."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe kunnen aannemers buitenverwarming als meerwerkoptie aanbieden?"
-meta_description: "Pakketten buitenverwarming voor woningbouwers: drie complete Good–Better–Best-niveaus met verwarmers, bediening en voorbekabeling uit het Bromic-programma voor aannemers."
+meta_description: "Pakketten buitenverwarming voor woningbouwers: de niveaus Good, Better en Best met verwarmers, bediening en voorbekabeling uit het Bromic-programma voor woningbouwers."
 cta: {label: "Boek een ontwerpadvies", asset: A07}
 hero: l-010-069
 images: [l-010-070, l-010-071, l-013-100]

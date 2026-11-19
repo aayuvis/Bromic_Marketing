@@ -1,12 +1,12 @@
 ---
 id: A11
 type: spec-kit
-title: "Specificatiekit voor architecten: zo schrijft u buitenverwarmers voor, sectie 23 83 33"
+title: "De specificatiekit voor architecten"
 audience: [ARC]
 stage: [IN]
 cell: ARC-IN
 asset: A11
-summary: "Alles wat u nodig hebt om precieze, gerichte warmte in uw tekeningen op te nemen: een driedelige modelspecificatie volgens de Amerikaanse CSI-systematiek voor elektrische stralingsverwarmers van Bromic Smart-Heat en de Affinity-bediening, met een tabel voor verwarmd oppervlak en keuze, de te tekenen details en een overzicht van CAD- en BIM-bestanden."
+summary: "Alles wat u nodig hebt om precieze, gerichte warmte in uw tekeningen op te nemen. Een driedelige modelspecificatie volgens de Amerikaanse CSI-systematiek voor elektrische stralingsverwarmers van Bromic Smart-Heat en de Affinity-bediening, met een tabel voor verwarmd oppervlak en keuze, de te tekenen details en een overzicht van CAD- en BIM-bestanden."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe schrijf ik een bestekomschrijving voor infrarood buitenverwarmers?"
@@ -89,11 +89,13 @@ translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 ---
 
-# Specificatiekit voor architecten: elektrische stralingsverwarmers voor buiten
+# De specificatiekit voor architecten
 
-De buitenkamers die u ontwerpt, zijn bedoeld om tot lang na zonsondergang in te leven, en de warmte die dat mogelijk maakt, verdient in het bestek dezelfde zorg als de verlichting. Krijgt de warmte een eigen sectie, een gekeurd product, de verplichte bediening en een detail op de tekeningen, dan komt ze op de bouwplaats precies zo aan als u bedoelde.
+*Elektrische stralingsverwarmers voor buiten, sectie 23 83 33.*
 
-Deze kit brengt een driedelige modelspecificatie volgens de CSI-systematiek voor elektrische stralingsverwarmers van Bromic Smart-Heat onder **MasterFormat 23 83 33, Electric Radiant Heaters**, een tabel voor verwarmd oppervlak en keuze, de te tekenen details en de CAD- en BIM-bestanden die u kunt opvragen samen. Pas de tekst tussen haken aan, schrap wat niet van toepassing is, en stuur het plan met het verwarmd oppervlak naar het ontwerpteam van Bromic voordat u aanbesteedt.
+De buitenkamers die u ontwerpt, zijn bedoeld om tot lang na zonsondergang in te leven, en de warmte die dat mogelijk maakt, verdient in het bestek dezelfde zorg als de verlichting. Geef de warmte een eigen sectie, een gekeurd product, de verplichte bediening en een detail op de tekeningen, en ze komt op de bouwplaats precies zo aan als u bedoelde.
+
+U vindt hier een driedelige modelspecificatie volgens de CSI-systematiek voor elektrische stralingsverwarmers van Bromic Smart-Heat onder **MasterFormat 23 83 33, Electric Radiant Heaters**, een tabel voor verwarmd oppervlak en keuze, de te tekenen details en de CAD- en BIM-bestanden die u kunt opvragen. Pas de tekst tussen haken aan, schrap wat niet van toepassing is, en stuur het plan met het verwarmd oppervlak naar het ontwerpteam van Bromic voordat u aanbesteedt.
 
 *Let op: deze kit volgt de Amerikaanse CSI MasterFormat-indeling en Amerikaanse referenties (NEC, NRTL-keuring). In Nederland wordt een bestek doorgaans opgesteld volgens de eigen Nederlandse systematiek, en gelden NEN 1010 voor de elektrische installatie en de CE-markering voor het product. Gebruik de inhoud van de secties als basis en zet die over naar uw eigen bestekssystematiek.* [[VERIFY: gangbare Nederlandse bestekssystematiek (bijvoorbeeld STABU) en het bijbehorende hoofdstuk voor elektrische stralingsverwarmers — Bromic Benelux distributor]]
 
@@ -112,10 +114,10 @@ Deze kit brengt een driedelige modelspecificatie volgens de CSI-systematiek voor
 
 ## Waar infrarood buitenverwarmers in MasterFormat thuishoren
 
-Wij adviseren **23 83 33 Electric Radiant Heaters**, en de onderbouwing hieronder helpt u die keuze bij een bestekbespreking te verdedigen.
+Wij adviseren **23 83 33 Electric Radiant Heaters**, en de onderbouwing hieronder ondersteunt die keuze bij een bestekbespreking.
 
-- **Division 23 (HVAC), 23 83 00 Radiant Heating Units** is in MasterFormat de plek voor apparatuur die door straling verwarmt.[^s3] De onderliggende secties op niveau 3 zijn 23 83 13 (elektrische verwarmingskabels en -matten), 23 83 23 (elektrische stralingspanelen) en **23 83 33 (elektrische stralingsverwarmers)**.[^s4] Een Bromic-verwarmer is een op zichzelf staande elektrische infraroodstraler en hoort daarmee het meest vanzelfsprekend in 23 83 33, eerder dan bij kabels, matten of panelen.
-- **23 82 39 Unit Heaters** gaat over convectietoestellen (kast-, propeller-, wand- en plafondluchtverwarmers) die warme lucht verplaatsen.[^s7] Buiten stijgt warme lucht op en waait weg met de wind, terwijl stralingswarmte mensen en oppervlakken direct verwarmt,[^s2] dus deze sectie past slecht.
+- **Division 23 (HVAC), 23 83 00 Radiant Heating Units** is in MasterFormat de plek voor apparatuur die door straling verwarmt.[^s3] De onderliggende secties op niveau 3 zijn 23 83 13 (elektrische verwarmingskabels en -matten), 23 83 23 (elektrische stralingspanelen) en **23 83 33 (elektrische stralingsverwarmers)**.[^s4] Een Bromic-verwarmer is een op zichzelf staande elektrische infraroodstraler en hoort daarmee het meest vanzelfsprekend in 23 83 33.
+- **23 82 39 Unit Heaters** gaat over convectietoestellen (kast-, propeller-, wand- en plafondluchtverwarmers) die warme lucht verplaatsen.[^s7] Buiten stijgt warme lucht op en waait weg met de wind, en stralingswarmte verwarmt mensen en oppervlakken direct,[^s2] dus deze sectie past slecht.
 - **23 55 23 Gas-Fired Radiant Heaters** is de plek voor stralingsapparatuur op gas.[^s6] Gebruikt een project ook gasverwarmers van Bromic, omschrijf die dan daar in een aparte sectie.
 - **Gangbare praktijk.** De modelspecificaties van andere fabrikanten voor elektrische stralingsverwarmers voor buiten gebruiken 23 83 33.[^s5] Sommige productdatabanken zetten infraroodverwarmers onder 23 82 39; een gewoonte van die databanken die uw specificatie niet hoeft te bepalen.
 - **Verwante secties** om op af te stemmen: 26 05 19 (geleiders), 26 05 33 (leidingen en dozen), 26 27 26 (installatiemateriaal), 26 28 16 (werkschakelaars), 23 09 00 (meet- en regeltechniek) als een gebouwbeheersysteem binnen de opdracht valt, en Division 06/09 voor het regelwerk en de afwerking van het overstek rond inbouwtoestellen.
@@ -136,7 +138,7 @@ Begin bij de mensen die de ruimte gaan gebruiken. Een eettafel vraagt om gelijkm
 
 Het verwarmd oppervlak per afzonderlijk Platinum-vermogen staat nog niet in deze kit. [[VERIFY: verwarmd oppervlak en montagehoogte per Platinum-vermogen (2300 / 3400 / 4500 W) — productteam]]
 
-Een ruimte geldt als buitenruimte wanneer minstens 30% van de omtrek permanent open is; een gedeeltelijk dak houdt een 'warmtewolk' vast die er een convectief extraatje bij geeft.[^s2] Dimensioneer voor de open situatie, en de overkapping draagt extra bij aan het comfort.
+Een ruimte geldt als buitenruimte wanneer minstens 30% van de omtrek permanent open is; een gedeeltelijk dak houdt een 'warmtewolk' vast die er een convectief extraatje bij geeft.[^s2] Dimensioneer voor de open situatie, en laat de overkapping extra bijdragen aan het comfort.
 
 ![Ingebouwde verwarmer in een houten overstek op een dakterras in de stad](img:t-006-016)
 
@@ -203,7 +205,7 @@ B. Gelijkwaardige alternatieven: *[Kies er één. Zie "Merkgebonden of 'of gelij
 
 **2.2 ELEKTRISCHE STRALINGSVERWARMERS**
 
-A. Algemeen: elektrische infraroodstralingsverwarmers, gekeurd voor buitengebruik op de plaats van installatie, ontworpen om mensen en oppervlakken te verwarmen in plaats van lucht.
+A. Algemeen: elektrische infraroodstralingsverwarmers, gekeurd voor buitengebruik op de plaats van installatie, ontworpen om mensen en oppervlakken direct te verwarmen.
 
 B. **Platinum Smart-Heat Electric** (uitgangspunt van het ontwerp voor inbouw-, plafond- en wandtoepassingen):
 1. Nominaal vermogen: [2300 W] [3400 W] [4500 W].[^s1]
@@ -355,6 +357,6 @@ Vier standaarddetails dekken de meeste projecten. Elk is getekend als doorsnede 
 
 ## Disclaimer
 
-Deze modelspecificatie is een beginpunt dat uw professionele oordeel ondersteunt en nooit vervangt. Voorschriften, keuringen en eisen van de fabrikant veranderen. Controleer elke eis bij de bevoegde instantie (in Nederland uw gemeente) en een vakbekwaam elektrotechnisch installateur, en gebruik de geldende installatievoorschriften van de fabrikant voor het voorgeschreven model. De beelden dienen als inspiratie voor het ontwerp; schaal en plaatsing van het product kunnen afwijken van de werkelijke specificaties.[^s1]
+Deze modelspecificatie is een beginpunt voor uw professionele oordeel. Voorschriften, keuringen en eisen van de fabrikant veranderen. Controleer elke eis bij de bevoegde instantie (in Nederland uw gemeente) en een vakbekwaam elektrotechnisch installateur, en gebruik de geldende installatievoorschriften van de fabrikant voor het voorgeschreven model. De beelden dienen als inspiratie voor het ontwerp; schaal en plaatsing van het product kunnen afwijken van de werkelijke specificaties.[^s1]
 
 Stuur ons uw plattegrond, en wij sturen een tekening van het verwarmd oppervlak terug die is afgestemd op uw specificatie.

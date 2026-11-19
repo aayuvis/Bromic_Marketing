@@ -5,16 +5,16 @@ translation_of: A16
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 type: gated-guide
-title: "Voorbekabeling voor buitenverwarming: de gids voor de aannemer, voor warmte die vanaf dag één klaarstaat"
+title: "Klaar voor warmte vanaf dag één"
 audience: [BLD]
 stage: [IN]
 cell: BLD-IN
 asset: A16
-summary: "Alles wat u vóór het timmerwerk beslist en per type Bromic-verwarmer voorbereidt, zodat het terras klaar is voor warmte op de dag dat de bewoners er intrekken: groepen en stroom, dozen en regelwerk, inbouwopeningen, leidingen voor de bediening en gasaansluitpunten, met een checklist om te printen en een overdrachtsblad voor de installateur."
+summary: "Een gids voor de voorbekabeling van elk type Bromic-verwarmer, zodat het terras klaar is voor warmte op de dag dat de bewoners er intrekken. Met groepen en stroom, dozen en regelwerk, inbouwopeningen, leidingen voor de bediening en gasaansluitpunten, plus een checklist om te printen en een overdrachtsblad voor de installateur."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Welke bekabeling moet ik voorbereiden voor terrasverwarmers?"
-meta_description: "Voorbekabeling voor buitenverwarming: gids voor de aannemer, van groepen en stroom bij 230 V tot dozen, regelwerk, inbouwopeningen en gasaansluitpunten."
+meta_description: "Voorbekabeling voor terrasverwarming bij de ruwbouw: groepen bij 230 V, dozen, regelwerk, inbouwopeningen, bediening en gas, voor woningbouwers."
 cta: {label: "Boek een ontwerpadvies", asset: A07}
 hero: g-rough-in
 images: [l-010-076, l-005-022, l-010-074, t-012-034]
@@ -68,15 +68,15 @@ sources:
     verified: false
 ---
 
-# Voorbekabeling voor buitenverwarming
+# Klaar voor warmte vanaf dag één
 
-*De gids voor de aannemer, voor warmte die vanaf de eerste tekening is ingepland.*
+*De gids voor de aannemer over het voorbekabelen van buitenwarmte.*
 
 Een terras dat vanaf de eerste avond warm is, begint bij de voorbekabeling. Leg voor elke elektrische verwarmer (of groep verwarmers, afhankelijk van de regelaar) een eigen groep aan, bepaald met I = W ÷ V bij 230 V (in de VS met geleiders op 125% van de belasting[^s5]). Voeg een aansluitdoos en massief regelwerk toe op elke plek voor een verwarmer, paal of inbouwopening, een aparte leiding van elke verwarmer naar de plek van de regelaar en een inbouwdoos voor de wandschakelaar, en voor inbouwgas een afgedopte gasleiding met een bereikbare afsluiter. Leg dat allemaal vast vóór het timmerwerk, zolang het plafond nog open is.
 
 ![Overdekte buitenkeuken en bar, verwarmd door verwarmers die vlak in het plafond zijn ingebouwd](img:l-010-067)
 
-## Waarom het beste moment vóór het timmerwerk ligt
+## Plan het terwijl het plafond nog open is
 
 In een Amerikaans onderzoek gaf minder dan één op de vier huiseigenaren verwarming prioriteit in de planningsfase[^s1]. Velen van de rest vragen erom als de gipsplaat, de overstekken en het natuursteen al klaar zijn, en dan betekent het een afgewerkt plafond openmaken, opbouwleidingen trekken, de verwarmer hangen waar de kabel komt in plaats van boven de tafel, en een terugkomafspraak.
 
@@ -86,9 +86,9 @@ In een Amerikaans onderzoek gaf minder dan één op de vier huiseigenaren verwar
 | Na het timmerwerk, vóór het dichtmaken | Een meerwerkopdracht; een extra rit voor de installateur |
 | Na de afwerking | Opengebroken plafonds of muren, herstellen, overschilderen, opbouwleidingen, vaak geen inbouwoptie meer |
 
-**Bied het aan in de fase van de meerwerkkeuzes.** Een voorbekabelingspakket met groepen, dozen, regelwerk en een schakelaardoos kunt u ook aanbieden als de verwarmers later worden gekocht, zodat uw kopers een buitenruimte krijgen die klaar is voor warmte, wanneer ze daar ook voor kiezen. Zie het programma voor aannemers en de Good–Better–Best-gids ([A15](asset:A15)).
+**Bied het aan in de fase van de meerwerkkeuzes.** Een voorbekabelingspakket met groepen, dozen, regelwerk en een schakelaardoos kunt u ook aanbieden als de verwarmers later worden gekocht, zodat uw kopers een buitenruimte krijgen die klaar is voor warmte, wanneer ze daar ook voor kiezen. Hoe dat werkt, leest u in het programma voor woningbouwers en de bijbehorende Good–Better–Best-gids ([A15](asset:A15)).
 
-## Wanneer welke beslissing valt
+## Wie wat beslist, en wanneer
 
 | Fase | Beslissen | Wie |
 |---|---|---|
@@ -99,7 +99,7 @@ In een Amerikaans onderzoek gaf minder dan één op de vier huiseigenaren verwar
 | Controle vóór het dichtmaken | Controle voordat alles wordt dichtgemaakt | Keurende instantie of bevoegd gezag, waar van toepassing [[VERIFY: welke controle in Nederland van toepassing is — Bromic Benelux distributor]] |
 | Afmontage | Verwarmers, inbouwsets, regelaars, inbedrijfstelling | Elektrotechnisch installateur, gasinstallateur |
 
-## Wat u voor elk product voorbereidt
+## Voorbereiding per verwarmer
 
 | Product | Energiebron / vermogen | Voorbekabeling | Montagevoorzieningen |
 |---|---|---|---|
@@ -137,7 +137,7 @@ Elke waarde is het nominale vermogen gedeeld door de spanning. Gebruik dus de no
 
 [[DIAGRAM: Eenlijnschema: meterkast → eigen installatieautomaten → Affinity-regelaar (één kanaal per zone) → aansluitdozen bij de verwarmers; wandschakelaar en wifi aangegeven; geleiderdoorsneden open gelaten voor de installateur.]]
 
-## De dozen en het regelwerk plaatsen
+## Dozen en regelwerk op de juiste plek
 
 | Onderdeel | Positie | Opmerking |
 |---|---|---|
@@ -151,7 +151,7 @@ Elke waarde is het nominale vermogen gedeeld door de spanning. Gebruik dus de no
 
 ![Witte verwarmer, netjes tussen de lamellen van een pergola geplaatst](img:l-010-076)
 
-## Timmerwerk voor een inbouwset
+## Timmerwerk voor een vlakke inbouw
 
 Met inbouwsets zitten elektrische Platinum- en Tungsten-verwarmers vlak in de plafondruimte[^s3], zodat de verwarmer deel van de architectuur wordt. Ze verdienen een plek in het timmerplan.
 
@@ -171,7 +171,7 @@ Met inbouwsets zitten elektrische Platinum- en Tungsten-verwarmers vlak in de pl
 
 ![Tungsten Coastal (binnenkort) vlak ingebouwd in een wit plafond](img:l-005-022)
 
-## De bediening naar schakelaar en regelaar trekken
+## De bediening bekabelen
 
 Met Affinity Smart-Heat® Controls genieten uw kopers van warmte precies waar en wanneer ze die willen, dus bereid de bediening voor samen met de groepen van de verwarmers.
 
@@ -193,7 +193,7 @@ Specificeer bij elke verwarmer de bijbehorende bediening: een Affinity Smart-Hea
 - **Houd rekening met montagevoorzieningen.** Warmtedeflectors verkleinen de benodigde ruimte boven gasverwarmers; met plafondpalen hangen twee verwarmers rug aan rug[^s3]. Houd met beide rekening in het timmerwerk.
 - **Bevestig de energiebron**, aardgas of propaan, voordat de verwarmer wordt besteld.
 
-## Waar de keurende instantie op let
+## Klaar voor de keuring
 
 - [ ] Vergunningen of meldingen voor het elektra- en gaswerk geregeld, waar nodig
 - [ ] Groepen komen overeen met het goedgekeurde plan en de belastingberekening
@@ -268,4 +268,4 @@ Specificeer bij elke verwarmer de bijbehorende bediening: een Affinity Smart-Hea
 
 ![Grote pergola met buitenkeuken en eettafel](img:t-012-034)
 
-Boek een ontwerpadvies en ontvang de indeling, de verwarmerslijst en het bedieningspakket vóór het timmerwerk.
+Boek een ontwerpadvies, en wij sturen u de indeling, de verwarmerslijst en het bedieningspakket vóór het timmerwerk.

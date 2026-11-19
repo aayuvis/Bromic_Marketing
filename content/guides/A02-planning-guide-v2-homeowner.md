@@ -1,13 +1,13 @@
 ---
 id: A02-homeowner
 type: gated-guide
-title: "The outdoor heating planning guide for your home: warmth planned in from the first drawing"
+title: "Planning Your Outdoor Heat"
 slug: outdoor-heating-planning-guide-homeowner
 audience: [RES]
 stage: [CO, IN]
 cell: RES-IN
 asset: A02
-summary: "Nine gentle steps that take your patio from a summer space to a year-round outdoor room, with the fuel, style, size, power, controls and code planned in before the ceiling closes."
+summary: "Nine steps that take your patio from a summer space to a year-round outdoor room, with the fuel, style, size, power, controls and code planned in before the ceiling closes."
 primary_keyword: outdoor heating planning guide
 secondary_keywords: [cost to run patio heater, how many patio heaters do I need, electric vs gas patio heater, infrared patio heater]
 ai_prompt: "How do I plan outdoor heating for my patio?"
@@ -185,11 +185,11 @@ sources:
     verified: false
 ---
 
-# The outdoor heating planning guide
+# Planning Your Outdoor Heat
 
-*Homeowner edition. Warmth planned in from the first drawing.*
+*Homeowner edition.*
 
-The best evenings outdoors are the ones that run long: dinner turns into dessert, the conversation carries on, and nobody reaches for a jacket. Plan the warmth in the same order you plan the patio, from confirming the space counts as outdoors to sizing the heaters and settling the power, controls and code before the ceiling closes. Decide early and the wiring or gas line goes in once, exactly where you want it.
+The best evenings outdoors are the ones that run long, when dinner turns into dessert and nobody reaches for a jacket. Plan the warmth in the same order you plan the patio, and settle the power, controls and code before the ceiling closes, so the wiring or gas line goes in once, exactly where you want it.
 
 Only 23% of homeowners prioritize outdoor heating at the planning stage[^s1]. Many of the rest come back to it later, when it can mean reopened ceilings, surface conduit and heaters placed wherever the wiring happened to run.
 
@@ -236,7 +236,7 @@ Measure the area where you and your guests actually sit, and note how and when y
 
 ### Why Radiant Warmth Feels Like Sunshine
 
-Outdoors, warm air rises and drifts away, so forced air and thermostats cannot hold an open patio at a set temperature[^s3]. Radiant (infrared) heat warms people, furniture and floors directly, much like the sun on your skin, so it keeps you comfortable even in a light breeze. Heat You Can Feel, Not See.
+Outdoors, warm air rises and drifts away, so forced air and thermostats cannot hold an open patio at a set temperature[^s3]. Radiant (infrared) heat warms people, furniture and floors directly, much like the sun on your skin, and keeps you comfortable even in a light breeze. Heat You Can Feel, Not See.
 
 | Wavelength | Radiant share | Warm-up | In wind |
 |---|---|---|---|
@@ -257,13 +257,13 @@ Source: Bromic Planning Guide 2021[^s3]. A fire pit makes a lovely focal point, 
 
 ### What An Evening Of Warmth Costs
 
-Running costs are easy to work out from the heater's rating and your own energy rate.
+Work out the running cost from the heater's rating and your own energy rate.
 
 - **Electric:** cost per hour = kW × $ per kWh
 - **Natural gas:** cost per hour = Btu per hour ÷ 100,000 × $ per therm
 - **Propane:** cost per hour = Btu per hour ÷ 91,500[^s23] × $ per gallon
 
-Rates used, US averages: electricity 13.54¢/kWh (EIA, commercial, May 2026)[^s18]; natural gas $0.87 per therm (EIA, commercial, January–May 2026 average)[^s19]; propane $2.674 per gallon (EIA, residential, week of 30 March 2026)[^s20]. Home electricity and gas are billed at residential rates, so put the rate from your own bill into the formula. [[VERIFY: 2026 residential rates to publish beside the commercial ones — Finance]]
+Rates used, US averages: electricity 13.54¢/kWh (EIA, commercial, May 2026)[^s18]; natural gas $0.87 per therm (EIA, commercial, January–May 2026 average)[^s19]; propane $2.674 per gallon (EIA, residential, week of 30 March 2026)[^s20]. Your home is billed at residential rates, so put the rate from your own bill into the formula. [[VERIFY: 2026 residential rates to publish beside the commercial ones — Finance]]
 
 | Heater at full output | Energy per hour | Cost per hour |
 |---|---|---|
@@ -315,7 +315,7 @@ Heaters needed = area ÷ (coverage per heater × cover factor × climate factor)
 | Partly covered (pergola, umbrella, part roof) | 1.0 | Cool (about 40–50°F) | 0.85 |
 | Covered (solid roof) | 1.1 | Cold (often below about 40°F) | 0.7 |
 
-[[VERIFY: cover and climate factors — Product team]] If you are unsure, use partly covered and cool, which gives 1.0 × 0.85 = 0.85. Measure the area where people sit rather than the whole deck, and if you know the number of seats instead of the area, allow 20 ft² a seat.
+[[VERIFY: cover and climate factors — Product team]] If you are unsure, use partly covered and cool, which gives 1.0 × 0.85 = 0.85. Measure the area where people sit, and if you know the number of seats instead, allow 20 ft² a seat.
 
 **Freestanding heaters** (Tungsten Freestanding Gas, Eclipse Freestanding) serve no more than four seats each, because the guests themselves block some of the radiant heat. Count both ways and take the larger of area ÷ (coverage × factors) and seats ÷ 4.
 
@@ -369,9 +369,9 @@ Built-in gas heaters need a gas line from a licensed gas fitter and a 110 V, 2 A
 - [ ] Gas line and shut-off located (gas)
 - [ ] Rough-in done before the ceiling closes
 
-## Step 7. Choose The Controls That Make It Effortless (Required)
+## Step 7. Controls That Make It Effortless (Required)
 
-Every Bromic heater is paired with Affinity Smart-Heat® Controls, so the warmth is always exactly where, and when, you want it. A complete system brings together all of these parts.
+Every Bromic heater is paired with Affinity Smart-Heat® Controls, so the warmth is always exactly where, and when, you want it. A complete system brings these parts together.
 
 | Part | What it does | Capacity |
 |---|---|---|
@@ -383,7 +383,7 @@ Every Bromic heater is paired with Affinity Smart-Heat® Controls, so the warmth
 
 **Heaters per 6 kW channel:** Tungsten 2000 W: 3 · 3000 W: 2 · 4000 or 6000 W: 1 · Platinum 2300 W: 2 · 3400 or 4500 W: 1 · Cobalt: 1 · Eclipse: 1 (on an Eclipse controller). Arithmetic on the 6 kW rating; the circuit can set a lower limit. [[VERIFY: controller capacities and compatibility — Product team]]
 
-The Eclipse Freestanding comes with an Eclipse Dimmer Controller and remote[^s8]. Built-in gas switches on and off only; it does not dim[^s10]. [[VERIFY: which controls the Tungsten Freestanding Gas uses — Product team]]
+The Eclipse Freestanding comes with an Eclipse Dimmer Controller and remote[^s8]. Built-in gas switches on and off only and does not dim[^s10]. [[VERIFY: which controls the Tungsten Freestanding Gas uses — Product team]]
 
 Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately. The app also works with Amazon Alexa, Google Assistant, Control4, Crestron and Lutron; compatibility varies and may need extra hardware or setup[^s2].
 
@@ -408,7 +408,7 @@ Each model's installation manual sets its clearances to the ceiling and to anyth
 
 *This is general guidance, not a code ruling. Confirm requirements with your local building authority, and have heaters installed by a licensed electrician or gas fitter to the manufacturer's instructions.*
 
-### Warranty
+### A Warranty You Can Rely On
 
 | Product | Warranty |
 |---|---|
@@ -431,7 +431,7 @@ Each model's installation manual sets its clearances to the ceiling and to anyth
 
 ## Step 9. Let Us Design It With You
 
-Share your photos, plans or drawings and Bromic's design specialists will recommend the heaters, placement and controls for your space, with coverage drawings, at no charge[^s2].
+Share your photos, plans or drawings, and Bromic's design specialists will recommend the heaters, placement and controls for your space, with coverage drawings, at no charge[^s2].
 
 A complete quote covers heaters and mounting kits, controls, installation, permits and running cost. US list prices on bromic.com (29 October 2026) start from $798 for a Tungsten Electric heater and $370 for an Affinity On/Off controller[^s4][^s13]. [[VERIFY: list prices to publish — Product team]]
 
@@ -441,4 +441,4 @@ A complete quote covers heaters and mounting kits, controls, installation, permi
 
 ![Covered outdoor kitchen and bar with flush ceiling heaters](img:l-010-067)
 
-Book your design consult and we will plan the warmth around the way you like to live outdoors.
+Book your design consult, and we will plan the warmth around the way you like to live outdoors.

@@ -1,16 +1,16 @@
 ---
 id: A15
 type: sales-kit
-title: "Das Bromic Bauträgerprogramm: Pakete für die Außenheizung in drei Stufen"
+title: "Das Bromic Bauträgerprogramm"
 audience: [BLD]
 stage: [AW, CO]
 cell: BLD-CO
 asset: A15
-summary: "Ein Kurzprofil für Bauträger und ein Paket Gut-Besser-Premium für die Außenheizung – jede Stufe ein vollständiges, vorverkabeltes System aus Heizstrahlern und Steuerung, mit dem Ihre Käufer die Terrasse noch lange nach Sonnenuntergang genießen."
+summary: "Für Bauträger: vollständige, vorverkabelte Pakete für die Außenheizung in drei Stufen, Gut, Besser und Premium, jeweils mit Heizstrahlern und Steuerung, damit Ihre Käufer die Terrasse lange nach Sonnenuntergang genießen."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie sollten Bauträger Optionen für die Außenheizung als Paket anbieten?"
-meta_description: "Pakete für die Außenheizung im Wohnungsbau: drei vollständige Stufen Gut-Besser-Premium mit Heizstrahlern, Steuerung und Vorverkabelung aus dem Bromic Bauträgerprogramm."
+meta_description: "Pakete für die Außenheizung im Wohnungsbau: die Stufen Gut, Besser und Premium mit Heizstrahlern, Steuerung und Vorverkabelung aus dem Bromic Bauträgerprogramm."
 cta: {label: "Planungsgespräch vereinbaren", asset: A07}
 hero: l-010-069
 images: [l-010-070, l-010-071, l-013-100]

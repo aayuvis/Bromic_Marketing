@@ -1,16 +1,16 @@
 ---
 id: A16
 type: gated-guide
-title: "Vorverkabelung für Außenwärme: der Leitfaden zur Rohinstallation für Bauträger, damit die Wärme vom ersten Tag an bereit ist"
+title: "Bereit für Wärme vom ersten Tag an"
 audience: [BLD]
 stage: [IN]
 cell: BLD-IN
 asset: A16
-summary: "Alles, was vor dem Rohbau zu entscheiden und für jeden Bromic Heizstrahlertyp in der Rohinstallation vorzubereiten ist, damit die Terrasse am Tag des Einzugs für Wärme bereit ist: Stromkreise und Stromstärken, Dosen und Unterkonstruktion, Einbauöffnungen, Steuerleitungen und Gasanschlüsse, mit einer Checkliste zum Ausdrucken und einem Übergabeblatt für den Elektriker."
+summary: "Ein Leitfaden zur Rohinstallation für jeden Bromic Heizstrahlertyp, damit die Terrasse am Tag des Einzugs für Wärme bereit ist. Er behandelt Stromkreise und Stromstärken, Dosen und Unterkonstruktion, Einbauöffnungen, Steuerleitungen und Gasanschlüsse, mit einer Checkliste zum Ausdrucken und einem Übergabeblatt für den Elektriker."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Welche Leitungen sollte ich für Terrassenheizstrahler in der Rohinstallation vorbereiten?"
-meta_description: "Vorverkabelung für Außenwärme: Leitfaden zur Rohinstallation von Terrassenheizstrahlern, von Stromkreisen bei 230 V bis zu Dosen, Einbaurahmen und Gas."
+meta_description: "Vorverkabelung für Terrassenheizstrahler im Rohbau: Stromkreise bei 230 V, Dosen, Unterkonstruktion, Einbaurahmen, Steuerung und Gas für Bauträger."
 cta: {label: "Planungsgespräch vereinbaren", asset: A07}
 hero: g-rough-in
 images: [l-010-076, l-005-022, l-010-074, t-012-034]
@@ -68,15 +68,15 @@ translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 
-# Vorverkabelung für Außenwärme
+# Bereit für Wärme vom ersten Tag an
 
-*Der Leitfaden zur Rohinstallation für Bauträger, für Wärme, die von der ersten Zeichnung an eingeplant ist.*
+*Der Leitfaden für Bauträger zur Vorverkabelung der Außenwärme.*
 
 Eine Terrasse, die vom ersten Abend an warm ist, beginnt mit der Rohinstallation. Ziehen Sie für jeden Elektro-Heizstrahler (oder jede Heizstrahlergruppe, je nach Steuergerät) einen eigenen Stromkreis, bemessen aus I = W ÷ V als Dauerlast (in den USA mit Leitungen für mindestens 125 % der Last[^s5]). Setzen Sie eine Abzweigdose und eine tragfähige Unterkonstruktion an jede Position von Heizstrahler, Stange oder Einbaurahmen, führen Sie von jedem Heizstrahler eine Leitung zum Ort des Steuergeräts, setzen Sie eine Dose für den Wandschalter und sehen Sie für fest installiertes Gas eine herausgeführte, verschlossene Leitung mit zugänglicher Absperreinrichtung vor. Klären Sie das alles vor dem Rohbau, solange die Decke noch offen ist.
 
 ![Überdachte Außenküche mit Bar, gewärmt von bündig in die Decke eingelassenen Heizstrahlern](img:l-010-067)
 
-## Warum der beste Zeitpunkt vor dem Rohbau liegt
+## Planen Sie, solange die Decke offen ist
 
 In einer US-Umfrage gab weniger als jeder vierte Hausbesitzer der Heizung in der Planungsphase Priorität[^s1]. Viele der anderen fragen danach, wenn Trockenbau, Untersichten und Natursteinarbeiten fertig sind, und dann heißt das: eine fertige Decke öffnen, Installationsrohre auf Putz verlegen, den Heizstrahler dort setzen, wo die Leitung hinreicht statt über den Tisch – und eine Reklamation.
 
@@ -86,9 +86,9 @@ In einer US-Umfrage gab weniger als jeder vierte Hausbesitzer der Heizung in der
 | Nach dem Rohbau, vor dem Schließen | Ein Nachtrag; eine zusätzliche Anfahrt des Elektrikers |
 | Nach dem Ausbau | Geöffnete Decken oder Wände, Spachteln, Neuanstrich, Aufputz-Installationsrohre, oft keine Einbauoption mehr |
 
-**Bieten Sie es in der Bemusterung an.** Ein Vorverkabelungspaket aus Stromkreisen, Dosen, Unterkonstruktion und Schalterdose lässt sich auch dann anbieten, wenn die Heizstrahler später gekauft werden, und gibt Ihren Käufern einen Außenbereich, der für Wärme bereit ist, wann immer sie sich dafür entscheiden. Siehe das Bauträgerprogramm und den Leitfaden Gut-Besser-Premium ([A15](asset:A15)).
+**Bieten Sie es in der Bemusterung an.** Ein Vorverkabelungspaket aus Stromkreisen, Dosen, Unterkonstruktion und Schalterdose lässt sich auch dann anbieten, wenn die Heizstrahler später gekauft werden, und gibt Ihren Käufern einen Außenbereich, der für Wärme bereit ist, wann immer sie sich dafür entscheiden. Wie das geht, zeigen das Bauträgerprogramm und sein Leitfaden Gut-Besser-Premium ([A15](asset:A15)).
 
-## Wann welche Entscheidung fällt
+## Wer was wann entscheidet
 
 | Phase | Entscheiden | Wer |
 |---|---|---|
@@ -99,7 +99,7 @@ In einer US-Umfrage gab weniger als jeder vierte Hausbesitzer der Heizung in der
 | Prüfung vor dem Schließen | Prüfung, bevor Decken und Wände geschlossen werden | Zuständige Stelle bzw. Fachbetrieb |
 | Endmontage | Heizstrahler, Einbaurahmen, Steuergeräte, Inbetriebnahme | Elektrofachbetrieb, Gasinstallateur |
 
-## Was für jedes Produkt vorbereitet wird
+## Rohinstallation für jeden Heizstrahler
 
 | Produkt | Energie / Leistung | Rohinstallation | Vorkehrungen für die Montage |
 |---|---|---|---|
@@ -137,7 +137,7 @@ Jeder Wert ist die Nennleistung geteilt durch die Spannung. Ein Heizstrahler an 
 
 [[DIAGRAM: Übersichtsschaltplan: Verteilung → eigene Schutzorgane → Affinity Steuergerät (ein Kanal je Zone) → Abzweigdosen an den Heizstrahlern; Wandschalter und WLAN eingezeichnet; Leitungsquerschnitte für den Elektriker frei gelassen.]]
 
-## Dosen und Unterkonstruktion platzieren
+## Dosen und Unterkonstruktion am richtigen Ort
 
 | Element | Position | Hinweis |
 |---|---|---|
@@ -151,7 +151,7 @@ Jeder Wert ist die Nennleistung geteilt durch die Spannung. Ein Heizstrahler an 
 
 ![Weißer Heizstrahler, sauber zwischen die Lamellen einer Pergola gesetzt](img:l-010-076)
 
-## Die Unterkonstruktion für einen Einbaurahmen
+## Die Unterkonstruktion für den bündigen Einbau
 
 Mit Einbaurahmen sitzen Platinum und Tungsten Elektro-Heizstrahler bündig im Deckenhohlraum[^s3], sodass der Heizstrahler als Teil der Architektur wirkt. Sie brauchen einen Platz im Plan der Unterkonstruktion.
 
@@ -171,7 +171,7 @@ Mit Einbaurahmen sitzen Platinum und Tungsten Elektro-Heizstrahler bündig im De
 
 ![Tungsten Coastal (demnächst erhältlich) bündig in eine weiße Decke eingelassen](img:l-005-022)
 
-## Die Steuerleitungen zu Schalter und Steuergerät führen
+## Die Steuerung verkabeln
 
 Mit den Affinity Smart-Heat® Controls genießen Ihre Käufer die Wärme genau dort und dann, wann sie sie möchten; bereiten Sie sie deshalb zusammen mit den Stromkreisen der Heizstrahler vor.
 
@@ -193,7 +193,7 @@ Legen Sie für jeden Heizstrahler die passende Steuerung fest: ein Affinity Smar
 - **Vorkehrungen für die Montage einplanen.** Hitzeschilde verringern den nötigen Abstand über Gasheizstrahlern; an Deckenstangen lassen sich zwei Heizstrahler Rücken an Rücken montieren[^s3]. Berücksichtigen Sie beides in der Unterkonstruktion.
 - **Die Energieart bestätigen**, Erdgas oder Flüssiggas, bevor der Heizstrahler bestellt wird.
 
-## Worauf die Prüfung vor dem Schließen achtet
+## Die Prüfung vor dem Schließen bestehen
 
 - [ ] Erforderliche Genehmigungen für Elektro- und Gasarbeiten liegen vor
 - [ ] Stromkreise entsprechen dem freigegebenen Plan und der Leistungsbilanz
@@ -268,4 +268,4 @@ Legen Sie für jeden Heizstrahler die passende Steuerung fest: ein Affinity Smar
 
 ![Große Pergola-Terrasse mit Außenküche und Esstisch](img:t-012-034)
 
-Vereinbaren Sie ein Planungsgespräch und erhalten Sie Anordnung, Heizstrahlerliste und das Steuerungspaket vor dem Rohbau.
+Vereinbaren Sie ein Planungsgespräch, und wir senden Ihnen Anordnung, Heizstrahlerliste und Steuerungspaket vor dem Rohbau.

@@ -1,16 +1,16 @@
 ---
 id: A02-commercial
 type: gated-guide
-title: "Der Planungsleitfaden für die Außenheizung in Gastronomie und Hotellerie: Kosten der Terrassenheizung, Platz für Platz"
+title: "Ihre Terrasse wärmen, Platz für Platz"
 audience: [COM]
 stage: [CO, IN]
 cell: COM-CO
 asset: A02
-summary: "Für Restaurants, Hotels und Veranstaltungsorte, die ihre Gäste länger im Jahr draußen bewirten möchten: was ein beheizter Platz wert ist, dann neun Schritte durch Energiekosten über fünf Jahre, Steuerung in Zonen, Brandschutz und Einführung an mehreren Standorten."
+summary: "Für Restaurants, Hotels und Veranstaltungsorte, die ihre Gäste länger im Jahr draußen bewirten möchten. Was ein beheizter Platz wert ist, dann neun Schritte durch Energiekosten über fünf Jahre, Steuerung in Zonen, Brandschutz und Einführung an mehreren Standorten."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Ist Flüssiggas oder Strom für Restaurant-Terrassenheizstrahler günstiger?"
-meta_description: "Kosten der Terrassenheizung in der Gastronomie, sorgfältig geplant: Wert eines beheizten Platzes, Energiekosten über fünf Jahre, Zonen, Brandschutz, Einführung."
+meta_description: "Kosten der Terrassenheizung in der Gastronomie, Platz für Platz: Wert eines beheizten Platzes, Energiekosten über fünf Jahre, Zonen, Brandschutz, Einführung."
 cta: {label: "Ihre Wirtschaftlichkeitsbewertung anfordern", asset: A21}
 hero: l-013-104
 images: [l-005-024, l-013-111, l-013-107, l-019-164, p-003-006]
@@ -221,11 +221,11 @@ translation_of: A02-commercial
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
-# Der Planungsleitfaden für Heizung im Außenbereich
+# Ihre Terrasse wärmen, Platz für Platz
 
-*Ausgabe für Betreiber, für Restaurants, Hotels, Bars und Veranstaltungsorte. Extend The Moment.*
+*Ausgabe für Betreiber, für Restaurants, Hotels, Bars und Veranstaltungsorte.*
 
-Eine warme Terrasse hält Gäste für einen weiteren Gang am Tisch und füllt Plätze an Abenden, die sonst leer blieben. Wie Sie sie beheizen, ist eine langfristige Entscheidung, und zu US-Durchschnittspreisen 2026 ist Erdgas je beheiztem Quadratmeter die günstigste Energie und Flüssiggas die teuerste, mit Strom dazwischen. In einem US-Beispiel mit 30 Plätzen und ca. 56 m² kostet Flüssiggas über fünf Jahre mehr als doppelt so viel wie Strom, noch vor dem Flaschenhandling, weil ein freistehender Heizstrahler nicht mehr als 4 Plätze versorgt, während Strom etwa das Dreifache von Erdgas kostet. Mit Ihren eigenen Preisen kann das Verhältnis anders ausfallen; Schritt 3 führt durch die Formel und das Rechenbeispiel. Der Kaufpreis erweist sich als die kleinste Zahl in der Entscheidung, und Energie, Handling, Steuerung und Brandschutz wiegen weit schwerer.
+Eine warme Terrasse hält Gäste für einen weiteren Gang am Tisch und füllt Plätze an Abenden, die sonst leer blieben. Zu US-Durchschnittspreisen 2026 ist Erdgas je beheiztem Quadratmeter die günstigste Energie und Flüssiggas die teuerste, mit Strom dazwischen. In einem US-Beispiel mit 30 Plätzen und ca. 56 m² (Schritt 3) kostet Flüssiggas über fünf Jahre mehr als doppelt so viel wie Strom, noch vor dem Flaschenhandling, weil ein freistehender Heizstrahler nicht mehr als 4 Plätze versorgt, während Strom etwa das Dreifache von Erdgas kostet. Mit Ihren eigenen Preisen kann das Verhältnis anders ausfallen. Der Kaufpreis ist die kleinste Zahl in der Entscheidung; Energie, Handling, Steuerung und Brandschutz wiegen weit schwerer.
 
 Essen im Freien gehört heute zu dem, was Gäste erwarten. In einer Umfrage der National Restaurant Association (USA) von 2020 boten 74 % der Betreiber mit Tischbedienung Außenplätze an, und 49 % verlängerten die Saison im Freien, unter anderem mit Zelten oder Terrassenheizstrahlern[^s1].
 
@@ -237,9 +237,9 @@ Essen im Freien gehört heute zu dem, was Gäste erwarten. In einer Umfrage der 
 
 **Amortisation (Monate) = gesamte Installationskosten ÷ (zusätzlicher Deckungsbeitrag pro Jahr ÷ 12)**
 
-Rechnen Sie die Amortisation mit dem Deckungsbeitrag statt mit dem Umsatz, und zählen Sie nur die Abende, an denen die Terrasse ohne Wärme leer bliebe. Ihr Kassensystem liefert Belegungen und durchschnittlichen Bon, und die wetterbedingten Schließungen des Vorjahres liefern die zusätzlichen Abende. [[VERIFY: Vergleichsspannen für Belegungen, Bon und Saisonverlängerung je Klima — Vertrieb Gastronomie]] Der [Wirtschaftlichkeitsrechner](asset:A21) rechnet die Zahlen für Ihren Standort durch.
+Rechnen Sie die Amortisation mit dem Deckungsbeitrag, und zählen Sie nur die Abende, an denen die Terrasse ohne Wärme leer bliebe. Ihr Kassensystem liefert Belegungen und durchschnittlichen Bon, und die wetterbedingten Schließungen des Vorjahres liefern die zusätzlichen Abende. [[VERIFY: Vergleichsspannen für Belegungen, Bon und Saisonverlängerung je Klima — Vertrieb Gastronomie]] Der [Wirtschaftlichkeitsrechner](asset:A21) rechnet die Zahlen für Ihren Standort durch.
 
-## Neun Schritte zu einer Terrasse, auf der Gäste bleiben
+## Neun Schritte zu einer Terrasse, auf der Gäste gern verweilen
 
 | Schritt | Entscheidung | Werkzeug |
 |---|---|---|
@@ -255,7 +255,7 @@ Rechnen Sie die Amortisation mit dem Deckungsbeitrag statt mit dem Umsatz, und z
 
 ## Schritt 1. Bestätigen, dass der Bereich als Außenbereich gilt
 
-Ein Bereich gilt als Außenbereich, wenn mindestens 30 % seines Umfangs dauerhaft offen sind, und ein Teildach oder eine Markise hält eine Wärmewolke, die zur Strahlungswärme hinzukommt[^s3]. Wände, Verglasung oder Seitenwände aus Kunststoff können sowohl die Heizungsplanung als auch das ändern, was der Brandschutz erlaubt (Schritt 8). Strahlungswärme wärmt Gäste und Oberflächen direkt statt der umgebenden Luft und wirkt daher auch bei leichtem Wind, wo Warmluft versagt[^s3].
+Ein Bereich gilt als Außenbereich, wenn mindestens 30 % seines Umfangs dauerhaft offen sind, und ein Teildach oder eine Markise hält eine Wärmewolke, die zur Strahlungswärme hinzukommt[^s3]. Wände, Verglasung oder Seitenwände aus Kunststoff können sowohl die Heizungsplanung als auch das ändern, was der Brandschutz erlaubt (Schritt 8). Strahlungswärme wärmt Gäste und Oberflächen direkt und wirkt daher auch bei leichtem Wind, der Warmluft davontragen würde[^s3].
 
 - [ ] Offener Umfang 30 % oder mehr[^s3]; Pläne für eine Einhausung vermerkt
 - [ ] Überdacht, teilweise überdacht oder offen
@@ -270,7 +270,7 @@ Zeichnen Sie die Fläche so, wie Ihr Team den Service führt, damit jeder Bereic
 
 ## Schritt 3. Energie nach Fünf-Jahres-Kosten wählen
 
-Ein fairer Vergleich betrachtet alles, was die Heizstrahler über fünf Jahre Betrieb kosten, vom Tag der Installation an.
+Vergleichen Sie alles, was die Heizstrahler über fünf Jahre Betrieb kosten, vom Tag der Installation an.
 
 **Gesamtkosten über 5 Jahre = Geräte + Steuerung + Installation + Genehmigungen + 5 × (Energie + Handling + Wartung)**
 
@@ -288,7 +288,7 @@ Im US-Beispiel verwendete Preise, dieselben wie im [Gesamtkostenmodell A20](asse
 
 ### Ein Rechenbeispiel: 30 Plätze, ca. 56 m², 900 Heizstunden im Jahr
 
-30 Plätze × ca. 1,9 m² = ca. 56 m²[^s28], teilweise überdacht, kühl (Faktor 0,85; Schritt 5). 900 Stunden (6 Stunden × 150 Abende) sind der Platzhalter des Modells A20, kein Vergleichswert.
+30 Plätze × ca. 1,9 m² = ca. 56 m²[^s28], teilweise überdacht, kühl (Faktor 0,85; Schritt 5). 900 Stunden (6 Stunden × 150 Abende) sind der Platzhalter des Modells A20; setzen Sie Ihre eigene Saison ein.
 
 | Option | Heizstrahler | Energie im Jahr | Energie über 5 Jahre (US-Beispiel) | Steuerung |
 |---|---|---|---|---|
@@ -296,7 +296,7 @@ Im US-Beispiel verwendete Preise, dieselben wie im [Gesamtkostenmodell A20](asse
 | Platinum Gas ca. 11,7 kW, Erdgas | 56 ÷ (20,0 × 0,85 = 17,0) = 3,3 → 4 | 4 × ca. 11,7 kW × 900 h = ca. 42.000 kWh Erdgas; im US-Beispiel 4 × 0,398 Therm × 900 h × 0,87 US-$ = 1.247 US-$ | 6.233 US-$ | Ein Affinity On/Off-Kanal (bis zu 10 Gasheizstrahler); Wandschalter; App |
 | Tungsten Freestanding Gas, Flüssiggas | das Größere aus 3,3 → 4 nach Fläche und 30 Plätze ÷ 4 = 7,5 → 8 | 8 × ca. 1,57 L × 900 h = ca. 11.300 L; im US-Beispiel 8 × 0,4153 Gallonen × 900 h × 2,674 US-$ = 7.996 US-$ | 39.979 US-$, plus Handling | [[VERIFY: Steuerung für Tungsten Freestanding Gas — Produktteam]] |
 
-Diese Werte umfassen nur die Energie bei voller Leistung, und Ihr eigener Tarif, Zeitpläne und Dimmung senken sie. Für Ihren Betrieb: Verbrauch × Ihr Preis je kWh oder Liter. Flüssiggas bedeutet außerdem ca. 11.300 Liter im Jahr, im US-Beispiel ca. 636 Wechsel einer Flasche mit ca. 17,8 L, die gekauft, getauscht und gelagert werden müssen. Ergänzen Sie Geräte, Installation und Handling im [Gesamtkostenmodell](asset:A20). Die Stundenwerte des Leitfadens von 2021 beruhten auf Preisen von 2021 und wurden zurückgezogen.
+Diese Werte umfassen nur die Energie bei voller Leistung; Ihr eigener Tarif, Zeitpläne und Dimmung senken sie. Für Ihren Betrieb: Verbrauch × Ihr Preis je kWh oder Liter. Flüssiggas bedeutet außerdem ca. 11.300 Liter im Jahr, im US-Beispiel ca. 636 Wechsel einer Flasche mit ca. 17,8 L, die gekauft, getauscht und gelagert werden müssen. Ergänzen Sie Geräte, Installation und Handling im [Gesamtkostenmodell](asset:A20). Die Stundenwerte des Leitfadens von 2021 beruhten auf Preisen von 2021 und wurden zurückgezogen.
 
 | | Strom | Erdgas | Flüssiggas |
 |---|---|---|---|
@@ -370,7 +370,7 @@ Die Produktseiten veröffentlichen Stromwerte nur für die US-Spannungen 208 und
 
 ## Schritt 7. Zonen und Zeitpläne mit Affinity Steuerung (Pflicht)
 
-Jeder Bromic Heizstrahler wird mit Affinity Smart-Heat® Controls kombiniert, die die Zahlen aus Schritt 3 Wirklichkeit werden lassen: Jeder Bereich wird nur beheizt, wenn er geöffnet ist, und nur so stark, wie der Abend es verlangt. Ohne sie läuft die Wärme mit voller Leistung, bis jemand daran denkt, sie abzuschalten.
+Jeder Bromic Heizstrahler wird mit Affinity Smart-Heat® Controls kombiniert, die jeden Bereich nur beheizen, wenn er geöffnet ist, und nur so stark, wie der Abend es verlangt. Erst sie machen aus den Zahlen in Schritt 3 echte Einsparungen, denn ohne sie läuft die Wärme mit voller Leistung, bis jemand daran denkt, sie abzuschalten.
 
 | Bedarf | Steuerung | Kapazität |
 |---|---|---|

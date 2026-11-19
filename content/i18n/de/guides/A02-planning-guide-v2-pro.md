@@ -1,7 +1,7 @@
 ---
 id: A02-pro
 type: gated-guide
-title: "Strahlungsheizstrahler im Außenbereich planen: der Planungsleitfaden für Fachplaner"
+title: "Planen mit Strahlungswärme"
 audience: [ARC, BLD]
 stage: [CO, IN]
 cell: ARC-CO
@@ -194,13 +194,13 @@ translation_of: A02-pro
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
-# Der Planungsleitfaden für Heizung im Außenbereich
+# Planen mit Strahlungswärme
 
-*Ausgabe für Fachplaner, für Architekten, Planer und Bauunternehmer, die Wärme ab der allerersten Zeichnung einplanen.*
+*Ausgabe für Fachplaner, für Architekten, Planer und Bauunternehmer.*
 
-Die besten Außenräume halten ihre Gäste noch lange nach Sonnenuntergang, und die Wärme, die sie dort hält, wird früh gewählt. Kurzwellige Heizstrahler geben ca. 90 % ihrer Leistung als Strahlungswärme ab und wärmen sofort; mittelwellige ca. 60 % mit 30 Sekunden Aufheizzeit; langwellige ca. 40 % mit 5 Minuten Aufheizzeit und der höchsten Windempfindlichkeit[^s3]. Diese Wahl gehört, zusammen mit Energie, Montage und Last getroffen, in den Vorentwurf, und diese Ausgabe folgt dem Ablauf in der Reihenfolge, in der Ihr Plansatz ihn braucht, mit den Daten für jedes Modell.
+Die besten Außenräume halten ihre Gäste noch lange nach Sonnenuntergang, und die Wärme, die sie dort hält, wird früh gewählt. Kurzwellige Heizstrahler geben ca. 90 % ihrer Leistung als Strahlungswärme ab und wärmen sofort; mittelwellige ca. 60 % mit 30 Sekunden Aufheizzeit; langwellige ca. 40 % mit 5 Minuten Aufheizzeit und der höchsten Windempfindlichkeit[^s3]. Treffen Sie diese Wahl im Vorentwurf, zusammen mit Energie, Montage und Last, in der Reihenfolge, in der Ihr Plansatz sie braucht.
 
-Weniger als einer von vier US-Hausbesitzern setzt in der Planung Priorität auf die Heizung[^s1]. Kommt die Wärme spät, kommt sie meist als Aufputz-Installationsrohr, als Decke, die nicht mehr passt, und als Austausch bei der Vergabe. Ab dem Vorentwurf im Plansatz gezeichnet, wird derselbe Heizstrahler zu einer LV-Position, einem Stromkreis und einer Einbauöffnung, die genau so bleiben, wie Sie sie spezifiziert haben.
+Weniger als einer von vier US-Hausbesitzern setzt in der Planung Priorität auf die Heizung[^s1]. Kommt die Wärme spät, kommt sie meist als Aufputz-Installationsrohr, als Decke, die nicht mehr passt, und als Austausch bei der Vergabe. Ab dem Vorentwurf im Plansatz gezeichnet, bleibt derselbe Heizstrahler genau so, wie Sie ihn spezifiziert haben, von der LV-Position bis zu Stromkreis und Einbauöffnung.
 
 ![Minimalistischer Glaspavillon in der Dämmerung, Heizstrahler bündig in die Decke eingelassen](img:l-010-075)
 
@@ -218,9 +218,9 @@ Weniger als einer von vier US-Hausbesitzern setzt in der Planung Priorität auf 
 | 8 Abstände und Vorschriften | Höhen, Abstände, Zertifizierung, Genehmigungsweg |
 | 9 Planungsservice | Grundriss und Plan der Heizflächen von Bromic ([A07](asset:A07)) |
 
-## 1. Ist der Bereich ein Außenbereich?
+## 1. Prüfen, ob der Bereich ein Außenbereich ist
 
-Für die Heizungsplanung gilt ein Bereich als Außenbereich, wenn mindestens 30 % seines horizontalen Umfangs dauerhaft offen sind. Eine teilweise Überdachung hält eine sanfte Wärmewolke, die einen konvektiven Beitrag liefert, die Dimensionierung stützt sich jedoch immer auf die Heizfläche der Strahlung[^s3].
+Für die Heizungsplanung gilt ein Bereich als Außenbereich, wenn mindestens 30 % seines horizontalen Umfangs dauerhaft offen sind. Eine teilweise Überdachung hält eine sanfte Wärmewolke, die einen konvektiven Beitrag liefert; die Dimensionierung stützt sich immer auf die Heizfläche der Strahlung[^s3].
 
 | Konfiguration | Erfüllt | Planungshinweis |
 |---|---|---|
@@ -245,7 +245,7 @@ Regeln laut Leitfaden von 2021[^s3].
 
 ## 3. Energie und Wellenlänge wählen
 
-Unter freiem Himmel steigt konvektive Wärme auf und verteilt sich. Warmluft kann einen offenen Raum nicht auf Temperatur halten, und eine Heizung im Freien lässt sich nicht über ein Thermostat regeln, weshalb auf Menschen gerichtete Strahlungswärme die Grundlage jedes Außenkonzepts ist[^s3].
+Unter freiem Himmel steigt konvektive Wärme auf und verteilt sich. Warmluft kann einen offenen Raum nicht auf Temperatur halten, und eine Heizung im Freien lässt sich nicht über ein Thermostat regeln, deshalb stützt sich jedes Außenkonzept auf Strahlungswärme, die auf Menschen gerichtet ist[^s3].
 
 | | Kurzwellig | Mittelwellig | Langwellig |
 |---|---|---|---|
@@ -309,9 +309,9 @@ Die Werte der Produktseiten wurden am 29. Oktober 2026 gelesen, und wo sie abwei
 
 ## 5. Jede Zone dimensionieren
 
-Heizstrahler je Zone = Fläche der Zone ÷ wirksame Heizfläche je Heizstrahler, aufgerundet. Der [Rechner A03](asset:A03) wendet seine angegebenen Faktoren auf die Nenn-Heizfläche oben an, nämlich offene Fläche 0,85, teilweise überdacht 1,0, überdacht 1,1; mild 1,0, kühl 0,85, kalt 0,7; Montage bis ca. 3,0 m 1,0, bis ca. 3,7 m 0,9, über ca. 3,7 m 0,8 (Einbaugeräte). Das sind Arbeitsannahmen, die auf die Freigabe durch Bromic warten, statt veröffentlichter Nennwerte. [[VERIFY: Faktoren für Überdachung, Klima und Höhe im Rechner A03 — Produktteam]] Freistehende Heizstrahler (Tungsten Freestanding Gas, Eclipse Freestanding) versorgen außerdem jeweils nicht mehr als vier Plätze, weil sitzende Gäste ihre Strahlungswärme abschirmen; rechnen Sie daher max(Fläche ÷ wirksame Heizfläche, Plätze ÷ 4), mit ca. 1,9 m² je Platz, wo die Zahl der Plätze unbekannt ist.
+Heizstrahler je Zone = Fläche der Zone ÷ wirksame Heizfläche je Heizstrahler, aufgerundet. Der [Rechner A03](asset:A03) wendet seine angegebenen Faktoren auf die Nenn-Heizfläche oben an, nämlich offene Fläche 0,85, teilweise überdacht 1,0, überdacht 1,1; mild 1,0, kühl 0,85, kalt 0,7; Montage bis ca. 3,0 m 1,0, bis ca. 3,7 m 0,9, über ca. 3,7 m 0,8 (Einbaugeräte). Das sind Arbeitsannahmen, die auf die Freigabe durch Bromic warten; Bromic hat sie nicht als Nennwerte veröffentlicht. [[VERIFY: Faktoren für Überdachung, Klima und Höhe im Rechner A03 — Produktteam]] Freistehende Heizstrahler (Tungsten Freestanding Gas, Eclipse Freestanding) versorgen außerdem jeweils nicht mehr als vier Plätze, weil sitzende Gäste ihre Strahlungswärme abschirmen; rechnen Sie daher max(Fläche ÷ wirksame Heizfläche, Plätze ÷ 4), mit ca. 1,9 m² je Platz, wo die Zahl der Plätze unbekannt ist.
 
-**Rechenbeispiel.** Stellen Sie sich eine überdachte Essterrasse von ca. 4,9 × 7,3 m in kühlem Klima vor, mit einer Untersicht auf ca. 3,0 m: ca. 35,7 m². Tungsten Electric 6000 W: 14,9 × 1,1 × 0,85 × 1,0 = 13,9 m² wirksam; 35,7 ÷ 13,9 = 2,6, also **drei Heizstrahler**, jeder an einem eigenen Kanal eines Affinity Dimmers (ein 5-Kanal-Steuergerät), mit Wandschalter und App.
+**Rechenbeispiel.** Eine überdachte Essterrasse von ca. 4,9 × 7,3 m in kühlem Klima, mit einer Untersicht auf ca. 3,0 m: ca. 35,7 m². Tungsten Electric 6000 W: 14,9 × 1,1 × 0,85 × 1,0 = 13,9 m² wirksam; 35,7 ÷ 13,9 = 2,6, also **drei Heizstrahler**, jeder an einem eigenen Kanal eines Affinity Dimmers (ein 5-Kanal-Steuergerät), mit Wandschalter und App.
 
 - [ ] Anzahl je Zone mit angegebenen Faktoren
 - [ ] Wärmefelder über die Sitzplätze gelegt
@@ -336,7 +336,7 @@ Heizstrahler je Zone = Fläche der Zone ÷ wirksame Heizfläche je Heizstrahler,
 
 Alle Werte sind P ÷ 230 V. Die Produktseiten veröffentlichen Stromwerte nur für 208, 240 und 277 V[^s5][^s7][^s8][^s9]; für Tungsten nennt die Seite keine. Die veröffentlichten 208-V-Werte von Cobalt liegen unter W ÷ 208. [[VERIFY: Stromaufnahme je Modell bei 230 V; Absicherung laut Installationsanleitung; Einordnung als ortsfeste Raumheizung — Produktteam + Fachhandelsvertrieb]]
 
-**Gasversorgung.** Bemessen Sie die Leitungen für die gesamte angeschlossene Leistung, Länge und den Druck; in den USA nach ANSI Z223.1/NFPA 54[^s22], in Deutschland nach DVGW-TRGI (Erdgas) und TRF (Flüssiggas). Fest eingebaute Gasheizstrahler brauchen laut US-Angaben zusätzlich 110 V, 2 A[^s10][^s11]. Der Tungsten Freestanding Gas wird an eine Flüssiggasflasche (US: 20 lb, ca. 9 kg; in Deutschland üblich sind 5 oder 11 kg) oder an eine Erdgas-Schnellkupplung von ca. 3 m angeschlossen[^s12]. [[VERIFY: zulässige Flaschengröße und Anschluss für den Tungsten Freestanding Gas in Deutschland — Produktteam]] Bitte übernehmen Sie keine Leistung des Tungsten Einbau-Gasgeräts in die Pläne, bevor Bromic sie bestätigt. [[VERIFY: Anschlussgröße und Versorgungsdruck je Gasmodell — Produktteam]]
+**Gasversorgung.** Bemessen Sie die Leitungen für die gesamte angeschlossene Leistung, Länge und den Druck; in den USA nach ANSI Z223.1/NFPA 54[^s22], in Deutschland nach DVGW-TRGI (Erdgas) und TRF (Flüssiggas). Fest eingebaute Gasheizstrahler brauchen laut US-Angaben zusätzlich 110 V, 2 A[^s10][^s11]. Der Tungsten Freestanding Gas wird an eine Flüssiggasflasche (US: 20 lb, ca. 9 kg; in Deutschland üblich sind 5 oder 11 kg) oder an eine Erdgas-Schnellkupplung von ca. 3 m angeschlossen[^s12]. [[VERIFY: zulässige Flaschengröße und Anschluss für den Tungsten Freestanding Gas in Deutschland — Produktteam]] Übernehmen Sie keine Leistung des Tungsten Einbau-Gasgeräts in die Pläne, bevor Bromic sie bestätigt. [[VERIFY: Anschlussgröße und Versorgungsdruck je Gasmodell — Produktteam]]
 
 Details zur Vorverkabelung, einschließlich Dosen, Unterkonstruktion und Steuerleitungen, finden Sie im Leitfaden zur Vorverkabelung ([A16](asset:A16)).
 
@@ -344,9 +344,9 @@ Details zur Vorverkabelung, einschließlich Dosen, Unterkonstruktion und Steuerl
 - [ ] Kapazität des Verteilers; Abzweigdosen bemaßt
 - [ ] Gaslast, Leitungsquerschnitt, Absperrungen; Hilfsenergie an jedem Einbau-Gasheizstrahler
 
-## 7. Steuerung, mit jedem Heizstrahler spezifiziert
+## 7. Die Steuerung mit jedem Heizstrahler spezifizieren
 
-Affinity Smart-Heat® Controls sorgen dafür, dass ein Bereich genau dort und genau dann beheizt wird, wenn er genutzt wird, deshalb enthält jede Heizstrahlerliste eine Zeile zur Steuerung. Spezifizieren Sie das vollständige Paket aus Steuergerät und Kanälen, Wandschalter sowie App oder GLT.
+Mit Affinity Smart-Heat® Controls wird ein Bereich genau dort und genau dann beheizt, wenn er genutzt wird, deshalb enthält jede Heizstrahlerliste eine Zeile zur Steuerung. Spezifizieren Sie das vollständige Paket aus Steuergerät und Kanälen, Wandschalter sowie App oder GLT.
 
 | Element | Kanäle | Leistung je Kanal | Spezifizieren mit |
 |---|---|---|---|
@@ -367,7 +367,7 @@ Die Steuergeräte sind nach IP54 geschützt, mit einem Betriebstemperaturbereich
 
 ![Eclipse Heizstrahler, der mit seinem dimmbaren Randlicht sanft leuchtet](img:l-013-106)
 
-## 8. Abstände und Vorschriften, früh geklärt
+## 8. Abstände und Vorschriften früh klären
 
 | Montage | Mindesthöhe über OKFF |
 |---|---|
@@ -383,7 +383,7 @@ Die Steuergeräte sind nach IP54 geschützt, mit einem Betriebstemperaturbereich
 | Gas | DVGW-TRGI (Erdgas), TRF (Flüssiggas) | ANSI Z223.1/NFPA 54[^s22] | Wo Heizstrahler hin dürfen, Versorgung, Belüftung, Abstand zu brennbaren Materialien |
 | Zertifizierung | [[VERIFY: erforderliche Kennzeichnung (CE u. a.) für Gas- und Elektrogeräte in Deutschland — Produktteam]] | Prüfzeichen von Intertek, UL oder CSA | Vorgeschrieben für Gas- und Elektrogeräte, auch mobile Heizstrahler[^s3] |
 
-Abstände zu Decke, Seiten und brennbaren Materialien ergeben sich aus der Installationsanleitung und der Zulassung jedes Modells, und jedes Modell wird für sich betrachtet, ohne zwischen Modellen zu interpolieren. [[VERIFY: Abstandstabelle je Modell aus den aktuellen Anleitungen — Produktteam]]
+Abstände zu Decke, Seiten und brennbaren Materialien ergeben sich aus der Installationsanleitung und der Zulassung jedes Modells, und jedes Modell wird für sich betrachtet, nie aus einem anderen interpoliert. [[VERIFY: Abstandstabelle je Modell aus den aktuellen Anleitungen — Produktteam]]
 
 *Nur zur Orientierung. Maßgeblich sind die geltende Fassung der Vorschriften und örtliche Ergänzungen. Klären Sie das mit Ihrem örtlichen Bauamt, und lassen Sie Heizstrahler von einem Elektrofachbetrieb oder Gasinstallateur nach den Anweisungen des Herstellers installieren.* [[VERIFY: aktuelle VDE- und DVGW-Regeln für Heizstrahler im Außenbereich — Partner Deutschland]]
 
@@ -393,7 +393,7 @@ Abstände zu Decke, Seiten und brennbaren Materialien ergeben sich aus der Insta
 
 ![Weißer Heizstrahler, sauber zwischen Pergolalamellen gesetzt](img:l-010-076)
 
-## 9. Zusammenarbeit mit dem Bromic Planungsservice
+## 9. Gemeinsam mit uns planen
 
 Senden Sie Grundrisse, Schnitte oder Fotos an den Planungsservice von Bromic, und unser Team liefert Ihnen kostenlos Auswahl, Platzierung und Pläne der Heizflächen[^s2]. Die Betriebskosten je Heizstrahler und Stunde betragen kW × Ihr Preis je kWh (Strom); kW × Ihr Gaspreis je kWh (Erdgas, abgerechnet in kWh); bei Flüssiggas ca. kW ÷ 7,1 Liter je Stunde (aus 91.500 Btu je US-Gallone[^s23]) × Ihr Preis je Liter. Im US-Beispiel, mit den Preisen des Modells A20 (13,54 US-Cent/kWh, EIA Gewerbe, Mai 2026[^s18]; 0,87 US-$/Therm, EIA Gewerbe, Jan.–Mai 2026[^s19]; 2,674 US-$/Gallone, EIA Propan für Haushalte, 30. März 2026[^s20]), kostet ein Tungsten mit 4000 W 0,54 US-$ pro Stunde und ein Platinum Gas mit ca. 11,7 kW 0,35 US-$ mit Erdgas oder 1,16 US-$ mit Flüssiggas. Europäische Preise sind hier nicht angesetzt. [[VERIFY: Preise 2026 — Finanzen]]
 

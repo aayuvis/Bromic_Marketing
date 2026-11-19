@@ -1,17 +1,17 @@
 ---
 id: A16
 type: gated-guide
-title: "Pre-wire for outdoor heat: the builder's rough-in guide to warmth that is ready from day one"
+title: "Ready For Warmth From Day One"
 slug: pre-wire-patio-heaters-rough-in-guide
 audience: [BLD]
 stage: [IN]
 cell: BLD-IN
 asset: A16
-summary: "Everything to decide before framing and rough in for each Bromic heater type, so the patio is ready for warmth the day the homeowners move in: circuits and amps, boxes and blocking, recess openings, control runs and gas stub-outs, with a printable checklist and an electrician hand-off sheet."
+summary: "A builder's rough-in guide for every Bromic heater type, so the patio is ready for warmth the day your homeowners move in. It covers circuits and amps, boxes and blocking, recess openings, control runs and gas stub-outs, with a printable checklist and an electrician hand-off sheet."
 primary_keyword: pre wire patio heater
 secondary_keywords: [patio heater wiring, outdoor heater rough in, outdoor heater electrical requirements, patio heater circuit]
 ai_prompt: "What wiring should I rough in for patio heaters?"
-meta_description: "Pre-wire for outdoor heat: a builder's rough-in guide for patio heaters, from circuits, amps and 125% sizing to boxes, blocking, recess framing and gas."
+meta_description: "Pre-wire your patio heater at rough-in: a builder's guide to circuits, amps and 125% sizing, boxes, blocking, recess framing, controls and gas."
 cta: {label: "Book a design consult", asset: A07}
 hero: g-rough-in
 images: [l-010-076, l-005-022, l-010-074, t-012-034]
@@ -65,17 +65,17 @@ sources:
     verified: false
 ---
 
-# Pre-wire for outdoor heat
+# Ready For Warmth From Day One
 
-*The builder's rough-in guide, for warmth planned in from the first drawing.*
+*The builder's guide to pre-wiring outdoor heat.*
 
-A patio that is warm from the first evening starts at rough-in. Run a dedicated branch circuit for each electric heater (or heater group, per the controller), sized from I = W ÷ V with conductors at 125% of the load[^s5]. Add a junction box and solid blocking at every heater, pole or recess location, a home run from each heater to the controller location and a box at the wall switch, and for built-in gas, a stubbed and capped line with an accessible shut-off. Settle all of it before framing, while the ceiling is still open.
+A patio that is warm on its first evening starts at rough-in. Run a dedicated branch circuit for each electric heater (or heater group, per the controller), sized from I = W ÷ V with conductors at 125% of the load[^s5]. Add a junction box and solid blocking at every heater, pole or recess location, a home run from each heater to the controller location, a box at the wall switch and, for built-in gas, a stubbed and capped line with an accessible shut-off. Settle all of it before framing, while the ceiling is still open.
 
 ![Covered outdoor kitchen and bar warmed by heaters set flush into the ceiling](img:l-010-067)
 
-## Why the best time is before framing
+## Plan It While The Ceiling Is Open
 
-Fewer than one in four homeowners prioritize heating at planning[^s1]. Many of the rest ask for it once the drywall, soffits and stone are finished, and by then it means opening a finished ceiling, running surface conduit, placing the heater where the wire reaches instead of over the table, and a callback.
+Fewer than one in four homeowners prioritize heating at planning[^s1]. Many of the rest ask for it once the drywall, soffits and stone are finished, and by then it means opening a finished ceiling, running surface conduit, placing the heater wherever the wire reaches instead of over the table, and a callback.
 
 | Decided at | What it costs |
 |---|---|
@@ -83,9 +83,9 @@ Fewer than one in four homeowners prioritize heating at planning[^s1]. Many of t
 | After framing, before close-in | A change order; extra trip for the electrician |
 | After finish | Opened ceilings or walls, patching, repainting, surface conduit, often no recess option |
 
-**Offer it at the options stage.** A pre-wire package of circuits, boxes, blocking and a switch box can be offered even when the heaters are bought later, giving your buyers an outdoor space that is ready for warmth whenever they choose. See the builder programme and Good–Better–Best guide ([A15](asset:A15)).
+**Offer it at the options stage.** A pre-wire package of circuits, boxes, blocking and a switch box can be sold even when the heaters are bought later, so your buyers move into an outdoor space that is ready for warmth whenever they choose. The builder program and its Good–Better–Best guide show how ([A15](asset:A15)).
 
-## When each decision is made
+## Who Decides What, And When
 
 | Stage | Decide | Who |
 |---|---|---|
@@ -96,7 +96,7 @@ Fewer than one in four homeowners prioritize heating at planning[^s1]. Many of t
 | Rough inspection | Inspect before close-in | AHJ |
 | Trim-out | Heaters, recess kits, controllers, commissioning | Electrician, gas fitter |
 
-## What to rough in for each product
+## Rough-In For Each Heater
 
 | Product | Fuel / rating | Rough-in | Mount provisions |
 |---|---|---|---|
@@ -109,11 +109,11 @@ Fewer than one in four homeowners prioritize heating at planning[^s1]. Many of t
 
 Product facts come from the Bromic Lookbook 2026[^s2] and Planning Guide 2021[^s3]. Always build to the current installation manual for the model.
 
-## Working out the amps
+## Working Out The Amps
 
 **Step 1. Find the current per heater.** I = W ÷ V.
 
-**Step 2. Allow for continuous load.** Fixed electric space-heating equipment is treated as a continuous load. NEC Article 424 requires branch-circuit conductors for it to be sized at not less than 125% of the load, consistent with the continuous-load rules in 210.19(A)(1) and 210.20(A)[^s5][^s4]. Feeder and service calculations follow Article 220.
+**Step 2. Allow for continuous load.** Fixed electric space-heating equipment is treated as a continuous load. NEC Article 424 requires its branch-circuit conductors to be sized at not less than 125% of the load, consistent with the continuous-load rules in 210.19(A)(1) and 210.20(A)[^s5][^s4]. Feeder and service calculations follow Article 220.
 
 **Step 3. Choose the circuit and breaker.** The electrician selects conductor and overcurrent device from the result, the installation manual and the adopted NEC.
 
@@ -134,7 +134,7 @@ Each figure is rated wattage divided by voltage. A heater rated at 240 V draws l
 
 [[DIAGRAM: Single-line diagram: panel → dedicated breakers → Affinity controller (one channel per zone) → junction boxes at heaters; wall switch and Wi-Fi shown; conductor sizes left blank for the electrician.]]
 
-## Placing the boxes and blocking
+## Boxes And Blocking In The Right Place
 
 | Item | Position | Note |
 |---|---|---|
@@ -148,9 +148,9 @@ Each figure is rated wattage divided by voltage. A heater rated at 240 V draws l
 
 ![White heater set neatly between pergola louvres](img:l-010-076)
 
-## Framing for a recess kit
+## Framing For A Flush Recess
 
-Recess kits let Platinum and Tungsten electric heaters sit flush within the ceiling cavity[^s3], so the heater reads as part of the architecture. They need a place in the framing plan.
+Recess kits let Platinum and Tungsten electric heaters sit flush within the ceiling cavity[^s3], so the heater reads as part of the architecture. Give them a place in the framing plan.
 
 | Dimension | Value |
 |---|---|
@@ -168,9 +168,9 @@ Recess kits let Platinum and Tungsten electric heaters sit flush within the ceil
 
 ![Tungsten Coastal (coming soon) recessed flush into a white ceiling](img:l-005-022)
 
-## Running the controls to the switch and controller
+## Wiring The Controls
 
-Affinity Smart-Heat® Controls are what let your buyers enjoy warmth exactly where, and when, they want it, so rough them in together with the heater circuits.
+Affinity Smart-Heat® Controls let your buyers enjoy warmth exactly where, and when, they want it, so rough them in together with the heater circuits.
 
 | Run | From → to | Note |
 |---|---|---|
@@ -182,15 +182,15 @@ Affinity Smart-Heat® Controls are what let your buyers enjoy warmth exactly whe
 
 Specify the matching control for every heater: an Affinity Smart-Heat On/Off or Dimmer controller (Platinum, Tungsten electric) or Eclipse controller (Eclipse), plus a wall switch. Wi-Fi and Bromic Smart-Heat app features require compatible Affinity Smart-Heat Controls, sold separately[^s2]. Check the Wi-Fi signal at the controller location before close-in.
 
-## Gas stub-outs for gas models
+## Gas Stub-Outs For Gas Models
 
 - **A licensed gas fitter sizes, routes and tests the line** to ANSI Z223.1/NFPA 54[^s6] and the local code.
 - **Size for the connected load**, using the total Btu/h of all appliances on the line, run length and supply pressure. [[VERIFY: Btu/h input, inlet size and pressure for Platinum Gas and Tungsten Gas built-in — Product team]]
 - **Stub out and cap** at each heater location, with an accessible shut-off.
-- **Allow for mount provisions.** Heat deflectors reduce the clearance needed above gas heaters; ceiling poles mount two heaters back to back[^s3]. Allow for both in the framing.
+- **Allow for mount provisions.** Heat deflectors reduce the clearance needed above gas heaters, and ceiling poles mount two heaters back to back[^s3]. Leave room for both in the framing.
 - **Confirm the fuel**, natural gas or propane, before the heater is ordered.
 
-## What the inspector will look for
+## Passing The Rough Inspection
 
 - [ ] Permits pulled for electrical and gas work
 - [ ] Circuits match the approved plan and load calculation
@@ -205,7 +205,7 @@ Specify the matching control for every heater: an Affinity Smart-Heat On/Off or 
 
 ![Black heater warming a timber cabana wall at dusk](img:l-010-074)
 
-## Printable rough-in checklist
+## Printable Rough-In Checklist
 
 **Before framing**
 - [ ] Heated zones and seating drawn
@@ -232,7 +232,7 @@ Specify the matching control for every heater: an Affinity Smart-Heat On/Off or 
 - [ ] Rough inspection passed
 - [ ] Photos of every box and opening, with dimensions, filed with the job
 
-## Electrician hand-off sheet
+## Electrician Hand-Off Sheet
 
 | Job | |
 |---|---|
@@ -265,4 +265,4 @@ Specify the matching control for every heater: an Affinity Smart-Heat On/Off or 
 
 ![Large pergola patio with an outdoor kitchen and dining table](img:t-012-034)
 
-Book a design consult and receive the layout, heater schedule and controls bundle before framing.
+Book a design consult, and we will send the layout, heater schedule and controls bundle before framing.

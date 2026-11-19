@@ -25,21 +25,21 @@ sources:
     title: "Share of new homes with patios dips to a six-year low (NAHB tabulation of the Census Survey of Construction)"
     year: 2026
     url: https://eyeonhousing.org/2026/09/share-of-new-homes-with-patios-dips-to-a-six-year-low/
-    supports: "60.5% of about 940,000 single-family homes started in 2025 came with a patio, down from 61.8% in 2024; lowest since 2019 (59.6%)"
+    supports: "60.5% of about 940,000 single-family homes started in 2025 came with a patio, down from 61.8% in 2024; lowest since 2019 (59.6%); by division in 2025: West South Central 77%, Mountain 74%, South Atlantic 66%, Middle Atlantic 23% (fewest), New England 26% (up from 14% in 2024)"
     verified: true
   - id: s2
     publisher: National Association of Home Builders
     title: "Patios in new homes (Census Survey of Construction tabulation)"
     year: 2025
     url: https://www.nahb.org/blog/2025/09/patios-in-new-homes
-    supports: "61.8% of single-family homes started in 2024 came with a patio; over 80% in the West South Central division, 14% in New England"
+    supports: "61.8% of single-family homes started in 2024 came with a patio, down from 63.7% the year before"
     verified: true
   - id: s3
     publisher: National Association of Home Builders (Eye on Housing)
     title: "Share of new homes with patios edges down for first time in fifteen years (2025 Builder Practices Survey)"
     year: 2025
     url: https://eyeonhousing.org/2025/09/share-of-new-homes-with-patios-edges-down-for-first-time-in-fifteen-years/
-    supports: "Average new-home patio about 320 sq ft (homes built in 2024), up from about 290 sq ft; over 400 sq ft in East North Central and East South Central, under 200 sq ft in West South Central"
+    supports: "61.8% of new single-family homes started in 2024 had a patio, the first decline in fifteen years; average new-home patio about 320 sq ft (homes built in 2024); over 400 sq ft in East North Central and East South Central, under 200 sq ft in West South Central"
     verified: true
   - id: s4
     publisher: American Institute of Architects
@@ -92,13 +92,13 @@ Elk van deze getallen komt terug bij dezelfde avond: een tafel buiten gedekt, vr
 
 ## Hoeveel nieuwe woningen in de VS krijgen een terras?
 
-60,5% van de ongeveer 940.000 vrijstaande woningen waarvan de bouw in 2025 begon, kreeg een terras.[^s1] Dat is minder dan de 61,8% van 2024, de eerste daling in vijftien jaar, en het laagste aandeel sinds 2019.[^s1][^s2] Waar je bouwt maakt echt verschil: in de staten van West South Central heeft meer dan 80% van de nieuwe woningen er een, in New England 14%.[^s2]
+60,5% van de ongeveer 940.000 vrijstaande woningen waarvan de bouw in 2025 begon, kreeg een terras.[^s1] Dat is minder dan de 61,8% van 2024, de tweede daling op rij na de eerste in vijftien jaar, en het laagste aandeel sinds 2019.[^s1][^s3] Waar je bouwt maakt echt verschil: in de staten van West South Central heeft 77% van de nieuwe woningen er een, in de Middle Atlantic 23%.[^s1]
 
 Bron: National Association of Home Builders, analyse van de Survey of Construction van het US Census Bureau, bouwstarts 2025 (gepubliceerd in september 2026).
 
 ## Hoe groot is het terras bij nieuwbouw geworden?
 
-Het gemiddelde terras bij een woning die in 2024 is gebouwd, is ongeveer 30 m², tegen ongeveer 27 m² een jaar eerder.[^s3] De spreiding over het land is groot, van meer dan 37 m² in de regio's East North Central en East South Central tot minder dan 19 m² in West South Central.[^s3] Op die schaal is een terras een echte buitenkamer geworden, en het verdient dezelfde zorgvuldige planning als elke kamer binnen.
+Het gemiddelde terras bij een woning die in 2024 is gebouwd, is ongeveer 30 m².[^s3] De spreiding over het land is groot, van meer dan 37 m² in de regio's East North Central en East South Central tot minder dan 19 m² in West South Central.[^s3] Op die schaal is een terras een echte buitenkamer geworden, en het verdient dezelfde zorgvuldige planning als elke kamer binnen.
 
 Bron: National Association of Home Builders, Builder Practices Survey 2025 (woningen gebouwd in 2024).
 
@@ -164,7 +164,7 @@ Bron: National Association of Realtors en National Association of Landscape Prof
 
 ### Welk percentage van de nieuwe woningen heeft een terras?
 
-60,5% van de vrijstaande woningen waarvan de bouw in 2025 in de VS begon, kreeg een terras, volgens de analyse van de NAHB van gegevens van het Census Bureau. In 2024 was dat 61,8%.[^s1]
+60,5% van de vrijstaande woningen waarvan de bouw in 2025 in de VS begon, kreeg een terras, volgens de analyse van de NAHB van gegevens van het Census Bureau. In 2024 was dat 61,8%.[^s1][^s2]
 
 ### Hoe groot is een gemiddeld terras bij een nieuwe woning in de VS?
 

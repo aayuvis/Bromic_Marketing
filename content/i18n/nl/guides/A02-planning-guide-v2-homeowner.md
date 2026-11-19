@@ -5,12 +5,12 @@ translation_of: A02-homeowner
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 type: gated-guide
-title: "De planningsgids voor buitenverwarming bij je huis: warmte ingepland vanaf de eerste tekening"
+title: "Je buitenwarmte plannen"
 audience: [RES]
 stage: [CO, IN]
 cell: RES-IN
 asset: A02
-summary: "Negen rustige stappen die je terras van een zomerplek veranderen in een buitenkamer voor het hele jaar, met de energiebron, de stijl, het aantal, de stroom, de bediening en de regels ingepland voordat het plafond dichtgaat."
+summary: "Negen stappen die je terras van een zomerplek veranderen in een buitenkamer voor het hele jaar, met de energiebron, de stijl, het aantal, de stroom, de bediening en de regels ingepland voordat het plafond dichtgaat."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe plan ik buitenverwarming voor mijn terras?"
@@ -188,11 +188,11 @@ sources:
     verified: false
 ---
 
-# De planningsgids voor buitenverwarming
+# Je buitenwarmte plannen
 
-*Editie voor huiseigenaren. Warmte ingepland vanaf de eerste tekening.*
+*Editie voor huiseigenaren.*
 
-De mooiste avonden buiten zijn de avonden die uitlopen: het diner gaat over in het dessert, het gesprek gaat door en niemand pakt een jas. Plan de warmte in dezelfde volgorde als het terras, van nagaan of de ruimte als buitenruimte telt tot het bepalen van het aantal verwarmers en het regelen van stroom, bediening en regels voordat het plafond dichtgaat. Beslis je vroeg, dan gaan de bekabeling of de gasleiding er één keer in, precies waar je ze wilt hebben.
+De mooiste avonden buiten zijn de avonden die uitlopen, als het diner overgaat in het dessert en niemand een jas pakt. Plan de warmte in dezelfde volgorde als het terras, en regel stroom, bediening en regels voordat het plafond dichtgaat, zodat de bekabeling of de gasleiding er één keer in gaat, precies waar je ze wilt hebben.
 
 In een Amerikaans onderzoek gaf slechts 23% van de huiseigenaren buitenverwarming prioriteit in de planningsfase[^s1]. Velen van de rest komen er later op terug, en dan kan het opengebroken plafonds betekenen, opbouwleidingen en verwarmers op de plek waar de bekabeling toevallig liep.
 
@@ -239,7 +239,7 @@ Meet het deel waar jij en je gasten echt zitten, en noteer hoe en wanneer je de 
 
 ### Waarom stralingswarmte voelt als zonneschijn
 
-Buiten stijgt warme lucht op en drijft ze weg, dus heteluchtverwarming en thermostaten kunnen een open terras niet op een vaste temperatuur houden[^s3]. Stralingswarmte (infrarood) verwarmt mensen, meubels en vloeren direct, net als de zon op je huid, zodat je het ook bij een lichte bries comfortabel hebt. Warmte die je voelt, niet ziet.
+Buiten stijgt warme lucht op en drijft ze weg, dus heteluchtverwarming en thermostaten kunnen een open terras niet op een vaste temperatuur houden[^s3]. Stralingswarmte (infrarood) verwarmt mensen, meubels en vloeren direct, net als de zon op je huid, en houdt je ook bij een lichte bries comfortabel warm. Warmte die je voelt, niet ziet.
 
 | Golflengte | Aandeel straling | Opwarmtijd | Bij wind |
 |---|---|---|---|
@@ -262,7 +262,7 @@ Bron: Bromic Planning Guide 2021[^s3]. Een vuurkorf is een prachtige blikvanger,
 
 ### Wat een warme avond kost
 
-De gebruikskosten reken je eenvoudig uit met het vermogen van de verwarmer en je eigen energieprijs.
+Reken de gebruikskosten uit met het vermogen van de verwarmer en je eigen energieprijs.
 
 - **Elektrisch:** kosten per uur = kW × je prijs per kWh
 - **Aardgas:** kosten per uur = vermogen in kW ÷ de energie-inhoud van een m³ gas (in kWh) × je prijs per m³
@@ -320,7 +320,7 @@ Benodigde verwarmers = oppervlak ÷ (verwarmd oppervlak per verwarmer × overkap
 | Deels overdekt (pergola, parasol, gedeeltelijk dak) | 1,0 | Koel (ongeveer 4–10 °C) | 0,85 |
 | Overdekt (dicht dak) | 1,1 | Koud (vaak onder ongeveer 4 °C) | 0,7 |
 
-[[VERIFY: overkappings- en klimaatfactoren — productteam]] Twijfel je, reken dan met deels overdekt en koel, wat 1,0 × 0,85 = 0,85 geeft. Meet het deel waar mensen zitten in plaats van het hele terras, en weet je het aantal zitplaatsen in plaats van het oppervlak, reken dan ongeveer 1,9 m² per zitplaats.
+[[VERIFY: overkappings- en klimaatfactoren — productteam]] Twijfel je, reken dan met deels overdekt en koel, wat 1,0 × 0,85 = 0,85 geeft. Meet het deel waar mensen zitten, en weet je in plaats daarvan het aantal zitplaatsen, reken dan ongeveer 1,9 m² per zitplaats.
 
 **Vrijstaande verwarmers** (Tungsten Freestanding Gas, Eclipse Freestanding) bedienen elk niet meer dan vier zitplaatsen, omdat de gasten zelf een deel van de stralingswarmte tegenhouden. Reken het op twee manieren uit en neem de hoogste uitkomst van oppervlak ÷ (verwarmd oppervlak × factoren) en zitplaatsen ÷ 4.
 
@@ -374,9 +374,9 @@ Inbouwgasverwarmers hebben een gasleiding nodig, aangelegd door een erkend gasin
 - [ ] Gasleiding en afsluiter bepaald (gas)
 - [ ] Voorbekabeling aangelegd voordat het plafond dichtgaat
 
-## Stap 7. Kies de bediening die alles moeiteloos maakt (verplicht)
+## Stap 7. Bediening die alles moeiteloos maakt (verplicht)
 
-Elke Bromic-verwarmer hoort bij Affinity Smart-Heat® Controls, zodat de warmte altijd precies daar is, en precies dan, wanneer je haar wilt. Een compleet systeem brengt al deze onderdelen samen.
+Elke Bromic-verwarmer hoort bij Affinity Smart-Heat® Controls, zodat de warmte altijd precies daar is, en precies dan, wanneer je haar wilt. Een compleet systeem brengt deze onderdelen samen.
 
 | Onderdeel | Wat het doet | Capaciteit |
 |---|---|---|
@@ -388,7 +388,7 @@ Elke Bromic-verwarmer hoort bij Affinity Smart-Heat® Controls, zodat de warmte 
 
 **Verwarmers per kanaal van 6 kW:** Tungsten 2000 W: 3 · 3000 W: 2 · 4000 of 6000 W: 1 · Platinum 2300 W: 2 · 3400 of 4500 W: 1 · Cobalt: 1 · Eclipse: 1 (op een Eclipse-regelaar). Gerekend op de nominale 6 kW; de groep kan een lagere grens opleggen. [[VERIFY: capaciteit en compatibiliteit van de regelaars, ook bij 230 V — productteam]]
 
-De Eclipse Freestanding wordt geleverd met een Eclipse Dimmer Controller en afstandsbediening[^s8]. Inbouwgas schakelt alleen aan en uit; het dimt niet[^s10]. [[VERIFY: welke bediening de Tungsten Freestanding Gas gebruikt — productteam]]
+De Eclipse Freestanding wordt geleverd met een Eclipse Dimmer Controller en afstandsbediening[^s8]. Inbouwgas schakelt alleen aan en uit en dimt niet[^s10]. [[VERIFY: welke bediening de Tungsten Freestanding Gas gebruikt — productteam]]
 
 Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht. De app werkt ook met Amazon Alexa, Google Assistant, Control4, Crestron en Lutron; de compatibiliteit verschilt en kan extra hardware of instellingen vragen[^s2].
 
@@ -413,7 +413,7 @@ De installatiehandleiding van elk model legt de afstanden tot het plafond en tot
 
 *Dit is algemene informatie, geen uitspraak over wat de regels in jouw situatie eisen. Controleer de eisen bij je gemeente en laat verwarmers installeren door een erkend elektrotechnisch installateur of gasinstallateur, volgens de instructies van de fabrikant.*
 
-### Garantie
+### Een garantie waarop je kunt rekenen
 
 | Product | Garantie (Amerikaanse productpagina's) |
 |---|---|

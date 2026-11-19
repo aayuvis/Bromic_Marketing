@@ -1,12 +1,12 @@
 ---
 id: A11
 type: spec-kit
-title: "Planungspaket für Architekten: So schreiben Sie Heizstrahler für den Außenbereich aus, Abschnitt 23 83 33"
+title: "Das Planungspaket für Architekten"
 audience: [ARC]
 stage: [IN]
 cell: ARC-IN
 asset: A11
-summary: "Alles, was Sie brauchen, um präzise gerichtete Wärme in Ihre Pläne zu schreiben: ein dreiteiliger CSI-Muster-Ausschreibungstext für elektrische Bromic Smart-Heat Infrarot-Heizstrahler und Affinity-Steuerungen, mit Tabelle zu Heizfläche und Auswahl, den zu zeichnenden Details und einem CAD/BIM-Verzeichnis."
+summary: "Alles, was Sie brauchen, um präzise gerichtete Wärme in Ihre Pläne zu schreiben. Ein dreiteiliger CSI-Muster-Ausschreibungstext für elektrische Bromic Smart-Heat Infrarot-Heizstrahler und Affinity-Steuerungen, mit Tabelle zu Heizfläche und Auswahl, den zu zeichnenden Details und einem CAD/BIM-Verzeichnis."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie schreibe ich einen Ausschreibungstext für Infrarot-Heizstrahler im Außenbereich?"
@@ -89,11 +89,13 @@ sources:
     verified: true
 ---
 
-# Planungspaket für Architekten: elektrische Infrarot-Heizstrahler für den Außenbereich
+# Das Planungspaket für Architekten
 
-Die Außenräume, die Sie entwerfen, sollen noch lange nach Sonnenuntergang gelebt werden, und die Wärme, die das möglich macht, verdient in der Ausschreibung dieselbe Sorgfalt wie die Beleuchtung. Hat die Wärme eine eigene Position, ein benanntes Produkt, ihre vorgeschriebene Steuerung und ein Detail in den Plänen, kommt sie auf der Baustelle genau so an, wie Sie es beabsichtigt haben.
+*Elektrische Infrarot-Heizstrahler für den Außenbereich, Abschnitt 23 83 33.*
 
-Dieses Paket vereint einen dreiteiligen CSI-Muster-Ausschreibungstext für elektrische Bromic Smart-Heat Infrarot-Heizstrahler, eine Tabelle zu Heizfläche und Auswahl, die zu zeichnenden Details und die anzufordernden CAD/BIM-Dateien. Die Gliederung folgt dem US-amerikanischen Standard MasterFormat (Abschnitt 23 83 33, Electric Radiant Heaters); für ein deutsches Leistungsverzeichnis übertragen Sie die Positionen in Ihre gewohnte Struktur. [[VERIFY: übliche Einordnung im deutschen Leistungsverzeichnis (z. B. STLB-Bau, Leistungsbereich nach VOB/C) — Partner Deutschland]] Passen Sie den Text in eckigen Klammern an, streichen Sie, was nicht zutrifft, und schicken Sie den Heizflächenplan vor dem Versand der Ausschreibung an das Bromic-Planungsteam.
+Die Außenräume, die Sie entwerfen, sollen noch lange nach Sonnenuntergang gelebt werden, und die Wärme, die das möglich macht, verdient in der Ausschreibung dieselbe Sorgfalt wie die Beleuchtung. Geben Sie der Wärme eine eigene Position, ein benanntes Produkt, ihre vorgeschriebene Steuerung und ein Detail in den Plänen, und sie kommt auf der Baustelle genau so an, wie Sie es beabsichtigt haben.
+
+Sie finden hier einen dreiteiligen CSI-Muster-Ausschreibungstext für elektrische Bromic Smart-Heat Infrarot-Heizstrahler, eine Tabelle zu Heizfläche und Auswahl, die zu zeichnenden Details und die anzufordernden CAD/BIM-Dateien. Die Gliederung folgt dem US-amerikanischen Standard MasterFormat (Abschnitt 23 83 33, Electric Radiant Heaters); für ein deutsches Leistungsverzeichnis übertragen Sie die Positionen in Ihre gewohnte Struktur. [[VERIFY: übliche Einordnung im deutschen Leistungsverzeichnis (z. B. STLB-Bau, Leistungsbereich nach VOB/C) — Partner Deutschland]] Passen Sie den Text in eckigen Klammern an, streichen Sie, was nicht zutrifft, und schicken Sie den Heizflächenplan vor dem Versand der Ausschreibung an das Bromic-Planungsteam.
 
 ![Glaspavillon mit in die Decke eingelassenen Heizstrahlern](img:l-010-075)
 
@@ -110,10 +112,10 @@ Dieses Paket vereint einen dreiteiligen CSI-Muster-Ausschreibungstext für elekt
 
 ## Wo Infrarot-Heizstrahler für den Außenbereich in MasterFormat hingehören
 
-Wenn Ihr Projekt nach MasterFormat gegliedert ist, etwa bei internationalen Bauherren, empfehlen wir **23 83 33 Electric Radiant Heaters**. Die Begründung unten hilft Ihnen, diese Wahl in einer Prüfung zu vertreten.
+Wenn Ihr Projekt nach MasterFormat gegliedert ist, etwa bei internationalen Bauherren, empfehlen wir **23 83 33 Electric Radiant Heaters**. Die Begründung unten stützt diese Wahl in einer Prüfung.
 
-- **Division 23 (HVAC), 23 83 00 Radiant Heating Units** ist in MasterFormat der Platz für Geräte, die durch Strahlung heizen.[^s3] Die Unterabschnitte der dritten Ebene sind 23 83 13 (elektrische Heizkabel und -matten), 23 83 23 (elektrische Heizpaneele) und **23 83 33 (elektrische Heizstrahler)**.[^s4] Ein Bromic-Heizstrahler ist ein eigenständiger elektrischer Infrarotstrahler und gehört damit ganz natürlich in 23 83 33 statt zu Kabeln, Matten oder Paneelen.
-- **23 82 39 Unit Heaters** umfasst Konvektionsgeräte (Truhen-, Propeller-, Wand- und Deckenlufterhitzer), die warme Luft bewegen.[^s7] Im Freien steigt warme Luft auf und wird vom Wind fortgetragen, während Strahlungswärme Menschen und Oberflächen direkt erwärmt,[^s2] daher passt dieser Abschnitt schlecht.
+- **Division 23 (HVAC), 23 83 00 Radiant Heating Units** ist in MasterFormat der Platz für Geräte, die durch Strahlung heizen.[^s3] Die Unterabschnitte der dritten Ebene sind 23 83 13 (elektrische Heizkabel und -matten), 23 83 23 (elektrische Heizpaneele) und **23 83 33 (elektrische Heizstrahler)**.[^s4] Ein Bromic-Heizstrahler ist ein eigenständiger elektrischer Infrarotstrahler und gehört damit ganz natürlich in 23 83 33.
+- **23 82 39 Unit Heaters** umfasst Konvektionsgeräte (Truhen-, Propeller-, Wand- und Deckenlufterhitzer), die warme Luft bewegen.[^s7] Im Freien steigt warme Luft auf und wird vom Wind fortgetragen, und Strahlungswärme erwärmt Menschen und Oberflächen direkt,[^s2] daher passt dieser Abschnitt schlecht.
 - **23 55 23 Gas-Fired Radiant Heaters** ist der Platz für gasbetriebene Strahler.[^s6] Setzt ein Projekt zusätzlich Bromic-Gasheizstrahler ein, schreiben Sie diese dort in einem eigenen Abschnitt aus.
 - **Branchenpraxis.** Die Muster-Ausschreibungstexte anderer Hersteller für elektrische Heizstrahler im Außenbereich verwenden 23 83 33.[^s5] Manche Produktverzeichnisse führen Infrarotstrahler auch unter 23 82 39; eine Konvention der Verzeichnisse, die Ihre Ausschreibung nicht bestimmen muss.
 - **Angrenzende Abschnitte**, mit denen Sie abstimmen: 26 05 19 (Leitungen), 26 05 33 (Rohre und Dosen), 26 27 26 (Installationsgeräte), 26 28 16 (Trennschalter), 23 09 00 (Mess- und Regeltechnik), falls Gebäudeautomation zum Umfang gehört, sowie Division 06/09 für die Unterkonstruktion und Bekleidung der Untersicht bei eingelassenen Geräten.
@@ -134,7 +136,7 @@ Beginnen Sie mit den Menschen, die den Bereich nutzen werden. Ein Esstisch verla
 
 Die Heizfläche je Platinum-Leistungsstufe ist in diesem Paket noch nicht veröffentlicht. [[VERIFY: Heizfläche und Montagehöhe je Platinum-Leistung (2300 / 3400 / 4500 W) — Produktteam]]
 
-Ein Bereich gilt als Außenbereich, wenn mindestens 30 % seines Umfangs dauerhaft offen sind; ein Teildach hält eine „Wärmewolke“ zurück, die einen zusätzlichen konvektiven Effekt bringt.[^s2] Legen Sie die Anlage für den offenen Zustand aus, und die Überdachung trägt zusätzlich zur Behaglichkeit bei.
+Ein Bereich gilt als Außenbereich, wenn mindestens 30 % seines Umfangs dauerhaft offen sind; ein Teildach hält eine „Wärmewolke“ zurück, die einen zusätzlichen konvektiven Effekt bringt.[^s2] Legen Sie die Anlage für den offenen Zustand aus, und lassen Sie die Überdachung zusätzlich zur Behaglichkeit beitragen.
 
 ![Eingelassener Heizstrahler in einer Holzuntersicht auf einer Dachterrasse in der Stadt](img:t-006-016)
 
@@ -201,7 +203,7 @@ B. Alternativprodukte: *[Eine Option wählen. Siehe „Produktvorgabe oder ‚od
 
 **2.2 ELEKTRISCHE INFRAROT-HEIZSTRAHLER**
 
-A. Allgemein: elektrische Infrarot-Heizstrahler, für den Außeneinsatz am jeweiligen Montageort geeignet, die Menschen und Oberflächen statt Luft erwärmen.
+A. Allgemein: elektrische Infrarot-Heizstrahler, für den Außeneinsatz am jeweiligen Montageort geeignet, die Menschen und Oberflächen direkt erwärmen.
 
 B. **Platinum Smart-Heat Electric** (Leitfabrikat für eingelassene, Decken- und Wandmontage):
 1. Nennleistung: [2300 W] [3400 W] [4500 W].[^s1]
@@ -353,6 +355,6 @@ Vier Standarddetails decken die meisten Projekte ab. Jedes wird als Schnitt oder
 
 ## Haftungsausschluss
 
-Dieser Muster-Ausschreibungstext ist ein Ausgangspunkt, der Ihr fachliches Urteil unterstützt und es nie ersetzt. Vorschriften, Prüfzeichen und Herstelleranforderungen ändern sich. Klären Sie jede Anforderung mit dem zuständigen Bauamt und einem eingetragenen Elektrofachbetrieb ab und verwenden Sie die aktuelle Montageanleitung des ausgeschriebenen Modells. Die Bilder dienen der gestalterischen Anregung; Größe und Anordnung der Produkte können von den tatsächlichen Angaben abweichen.[^s1]
+Dieser Muster-Ausschreibungstext ist ein Ausgangspunkt für Ihr fachliches Urteil. Vorschriften, Prüfzeichen und Herstelleranforderungen ändern sich. Klären Sie jede Anforderung mit dem zuständigen Bauamt und einem eingetragenen Elektrofachbetrieb ab und verwenden Sie die aktuelle Montageanleitung des ausgeschriebenen Modells. Die Bilder dienen der gestalterischen Anregung; Größe und Anordnung der Produkte können von den tatsächlichen Angaben abweichen.[^s1]
 
 Schicken Sie uns Ihren Grundriss, und wir senden Ihnen einen Heizflächenplan zurück, der auf Ihre Ausschreibung zugeschnitten ist.

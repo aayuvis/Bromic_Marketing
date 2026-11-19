@@ -1,17 +1,17 @@
 ---
 id: A02-commercial
 type: gated-guide
-title: "The outdoor heating planning guide for venues: commercial patio heater cost, seat by seat"
+title: "Warming Your Terrace, Seat By Seat"
 slug: outdoor-heating-planning-guide-commercial
 audience: [COM]
 stage: [CO, IN]
 cell: COM-CO
 asset: A02
-summary: "For restaurants, hotels and venues that want guests outdoors for more of the year: what a heated seat is worth, then nine steps through five-year fuel cost, zoned controls, the fire code and rollout across sites."
+summary: "For restaurants, hotels and venues that want guests outdoors for more of the year. What a heated seat is worth, then nine steps through five-year fuel cost, zoned controls, the fire code and rollout across sites."
 primary_keyword: commercial patio heater cost
 secondary_keywords: [restaurant patio heaters, propane vs electric patio heater, natural gas patio heater restaurant, patio heater roi]
 ai_prompt: "Is propane or electric cheaper for restaurant patio heaters?"
-meta_description: "Commercial patio heater cost, planned with care: the value of a heated seat, five-year fuel cost, zoned controls, fire-code pointers and rollout."
+meta_description: "Commercial patio heater cost, seat by seat: the value of a heated seat, five-year fuel cost, zoned controls, fire-code pointers and multi-site rollout."
 cta: {label: "Get your ROI assessment", asset: A21}
 hero: l-013-104
 images: [l-005-024, l-013-111, l-013-107, l-019-164, p-003-006]
@@ -219,11 +219,11 @@ sources:
     verified: false
 ---
 
-# The outdoor heating planning guide
+# Warming Your Terrace, Seat By Seat
 
-*Operator edition, for restaurants, hotels, bars and venues. Extend The Moment.*
+*Operator edition, for restaurants, hotels, bars and venues.*
 
-A warm terrace keeps guests at the table for one more course and fills seats on nights that would otherwise sit empty. Choosing how to heat it is a long-term decision, and at US average 2026 prices natural gas is the least expensive fuel per square foot heated and propane the most, with electric between them. In a 30-seat, 600 ft² example, five years of propane costs more than twice as much as electric before cylinder handling, because a freestanding heater serves no more than 4 seats, while electric costs about three times as much as natural gas. Step 3 walks through the formula and the worked example. The purchase price turns out to be the smallest number in the decision, and energy, handling, controls and the fire code carry far more weight.
+A warm terrace keeps guests at the table for one more course and fills seats on nights that would otherwise sit empty. At US average 2026 prices, natural gas is the least expensive fuel per square foot heated and propane the most, with electric between them. In a 30-seat, 600 ft² example (Step 3), five years of propane costs more than twice as much as electric before cylinder handling, because a freestanding heater serves no more than 4 seats, while electric costs about three times as much as natural gas. The purchase price is the smallest number in the decision; energy, handling, controls and the fire code carry far more weight.
 
 Outdoor dining has become part of how guests expect to eat. In a 2020 National Restaurant Association survey, 74% of full-service operators offered outdoor seating and 49% were extending the outdoor season, including with tents or patio heaters[^s1].
 
@@ -235,9 +235,9 @@ Outdoor dining has become part of how guests expect to eat. In a 2020 National R
 
 **Payback (months) = all-in installed cost ÷ (added contribution per year ÷ 12)**
 
-Work out payback on contribution margin rather than revenue, and count only the nights the patio would stay empty without heat. Your POS gives you turns and average check, and last year's weather closures give you the extra nights. [[VERIFY: benchmark ranges for turns, check and season extension by climate — Hospitality sales]] The [ROI calculator](asset:A21) runs the numbers for your site.
+Work out payback on contribution margin, and count only the nights the patio would stay empty without heat. Your POS gives you turns and average check, and last year's weather closures give you the extra nights. [[VERIFY: benchmark ranges for turns, check and season extension by climate — Hospitality sales]] The [ROI calculator](asset:A21) runs the numbers for your site.
 
-## Nine Steps To A Terrace Guests Stay On
+## Nine Steps To A Terrace Guests Linger On
 
 | Step | Decision | Tool |
 |---|---|---|
@@ -253,7 +253,7 @@ Work out payback on contribution margin rather than revenue, and count only the 
 
 ## Step 1. Confirm The Space Counts As Outdoor
 
-A space counts as outdoor when at least 30% of its perimeter is permanently open, and a partial roof or awning holds a heat cloud that adds to the radiant heat[^s3]. Walls, glazing or plastic sidewalls can change both the heating design and what the fire code permits (Step 8). Radiant heat warms guests and surfaces directly rather than the air around them, so it keeps working in a light breeze, where forced air cannot[^s3].
+A space counts as outdoor when at least 30% of its perimeter is permanently open, and a partial roof or awning holds a heat cloud that adds to the radiant heat[^s3]. Walls, glazing or plastic sidewalls can change both the heating design and what the fire code permits (Step 8). Radiant heat warms guests and surfaces directly, so it keeps working in a light breeze that would carry forced air away[^s3].
 
 - [ ] Open perimeter 30% or more[^s3]; enclosure plans noted
 - [ ] Covered, partly covered or open
@@ -268,7 +268,7 @@ Draw the floor the way your team runs service, so each section can be warmed whe
 
 ## Step 3. Choose The Fuel On Five-Year Cost
 
-A fair comparison looks at everything the heaters cost over five years of service, from the day they are installed.
+Compare everything the heaters cost over five years of service, from the day they are installed.
 
 **5-year TCO = hardware + controls + installation + permits + 5 × (energy + handling + maintenance)**
 
@@ -286,7 +286,7 @@ Rates used, the same as the [A20 TCO model](asset:A20): electricity 13.54¢/kWh 
 
 ### A Worked Example: 30 Seats, 600 ft², 900 Heater Hours A Year
 
-30 seats × 20 ft² = 600 ft²[^s28], partly covered, cool (factor 0.85; Step 5). The 900 hours (6 hours × 150 nights) are the A20 model's placeholder, so replace them with your own season rather than treating them as a benchmark.
+30 seats × 20 ft² = 600 ft²[^s28], partly covered, cool (factor 0.85; Step 5). The 900 hours (6 hours × 150 nights) are the A20 model's placeholder; replace them with your own season.
 
 | Option | Heaters | Energy a year | Energy over 5 years | Controls |
 |---|---|---|---|---|
@@ -294,7 +294,7 @@ Rates used, the same as the [A20 TCO model](asset:A20): electricity 13.54¢/kWh 
 | Platinum Gas 39,800 Btu/h, natural gas | 600 ÷ (215 × 0.85 = 182.75) = 3.3 → 4 | 4 × 0.398 therm × 900 h × $0.87 = $1,247 | $6,233 | One Affinity On/Off channel (up to 10 gas heaters); wall switch; app |
 | Tungsten Freestanding Gas, propane | larger of 3.3 → 4 by area and 30 seats ÷ 4 = 7.5 → 8 | 8 × 0.4153 gal × 900 h × $2.674 = $7,996 | $39,979, plus handling | [[VERIFY: controls for Tungsten Freestanding Gas — Product team]] |
 
-These figures cover energy only, at full output, and your own tariff, schedules and dimming will bring them down. Propane also means about 2,990 gallons a year, roughly 636 swaps of a 4.7-gallon cylinder, to buy, swap and store. Add hardware, installation and handling in the [TCO model](asset:A20). The 2021 guide's per-hour figures used 2021 prices and have been retired.
+These figures cover energy only, at full output; your own tariff, schedules and dimming will bring them down. Propane also means about 2,990 gallons a year, roughly 636 swaps of a 4.7-gallon cylinder, to buy, swap and store. Add hardware, installation and handling in the [TCO model](asset:A20). The 2021 guide's per-hour figures used 2021 prices and have been retired.
 
 | | Electric | Natural gas | Propane |
 |---|---|---|---|
@@ -368,7 +368,7 @@ Tungsten 4000 and 6000 W are also offered at 277 V[^s4]. [[VERIFY: Tungsten amps
 
 ## Step 7. Zones And Schedules With Affinity Controls (Required)
 
-Every Bromic heater is paired with Affinity Smart-Heat® Controls, which bring the Step 3 numbers to life by warming each section only when it is open and only as much as the evening needs. Without them, heat runs at full output until someone remembers to switch it off.
+Every Bromic heater is paired with Affinity Smart-Heat® Controls, which warm each section only when it is open and only as much as the evening needs. They are what turn the Step 3 numbers into real savings, because without them heat runs at full output until someone remembers to switch it off.
 
 | Need | Control | Capacity |
 |---|---|---|
@@ -412,7 +412,7 @@ Begin every site with a conversation with the fire marshal, because the rules ar
 
 ## Step 9. Design It With Us And Roll It Out
 
-Share your photos, plans or drawings and the Bromic design service will return heater selection, placement and coverage drawings for each site, at no charge[^s2].
+Share your photos, plans or drawings, and the Bromic design service will return heater selection, placement and coverage drawings for each site, at no charge[^s2].
 
 1. **Standardise the package:** one heater family, one controller set-up, one mounting detail per site type.
 2. **Survey every site the same way:** Steps 1–8 checklists.

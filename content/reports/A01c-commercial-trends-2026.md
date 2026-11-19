@@ -1,13 +1,13 @@
 ---
 id: A01c
 type: report
-title: "Outdoor Hospitality Trends 2026: Ten Ways The Terrace Is Earning Its Place"
+title: "Outdoor Hospitality Trends 2026"
 slug: outdoor-hospitality-trends-2026
 audience: [COM, ARC]
 stage: [AW, CO]
 cell: COM-AW
 asset: A01
-summary: "The commercial companion to our Trends 2026 report: ten sourced shifts shaping restaurant, bar, hotel and venue terraces, from soft traffic and rising energy costs to permanent outdoor dining and the move away from propane, each with what it means for your venue, a Bromic insight and one design move."
+summary: "The commercial companion to our Trends 2026 report. Ten sourced shifts shaping restaurant, bar, hotel and venue terraces, from soft traffic and rising energy costs to permanent outdoor dining and the move away from propane, each with what it means for your venue, a Bromic insight and one design move."
 primary_keyword: outdoor hospitality trends 2026
 secondary_keywords: [restaurant outdoor dining trends, hotel terrace trends, commercial patio heating trends]
 ai_prompt: "What are the outdoor dining and hospitality trends for 2026?"
@@ -128,10 +128,10 @@ sources:
     verified: true
 ---
 
-The outside table has become one of the most valued seats in the house. Guests ask for it, linger at it and come back for it, and
-in 2026 it is part of how a restaurant, bar or hotel protects traffic, earns more from space it already pays for, and keeps pace
-with rules that are moving fuel off the terrace. We wrote the ten shifts below for operators and the architects who design for
-them. Each one shares the finding and its source, then closes with one move you can make this season.
+The outside table has become one of the most valued seats in the house. Guests ask for it, linger at it and come back for it,
+and in 2026 it is part of how a restaurant, bar or hotel protects traffic, earns more from space it already pays for and keeps
+pace with rules that are moving fuel off the terrace. We wrote the ten shifts below for operators and the architects who design
+for them, each with its source and one move you can make this season.
 
 ![A rooftop lounge warmed by Eclipse freestanding heaters at sunset](img:l-016-131)
 
@@ -160,10 +160,9 @@ them. Each one shares the finding and its source, then closes with one move you 
 
 **What it means for your venue**
 - Your terrace is capacity you already lease, and without heat it can sit idle for months.
-- Operators say on-premises is where they succeed, and the patio is very much on-premises.
-- It deserves the same budget thinking as the dining room inside.
+- Operators say on-premises is where they succeed, and the patio deserves the same budget thinking as the dining room inside.
 
-**Bromic insight.** A heated seat is one you can sell on a night it would otherwise sit empty, so it is best counted in covers rather than in heaters.
+**Bromic insight.** A heated seat is one you can sell on a night it would otherwise sit empty, so count it in covers.
 
 **Design move.** Bring the terrace into the revenue model before the fit-out, using seats × turns × average check × extra nights. The [ROI article](item:COM-IN-01) walks through the method.
 
@@ -178,13 +177,12 @@ them. Each one shares the finding and its source, then closes with one move you 
 > *Source: OpenTable diner data, March 2025 – February 2026.*
 
 **What it means for your venue**
-- Guests want the outside table, and comfort is what decides how long they keep it.
-- A longer stay brings more drinks and desserts, with fewer turns of the table.
+- Guests want the outside table, and comfort decides how long they keep it. A longer stay brings more drinks and desserts, with fewer turns of the table.
 - A guest who feels the chill leaves early and may book inside next time.
 
-**Bromic insight.** Guests rarely ask for heaters. They ask for the table outside, and they stay when they are warm.
+**Bromic insight.** Guests ask for the table outside, and they stay when they are warm.
 
-**Design move.** Direct the warmth to the people at the table: place radiant heat over each table group so every chair sits within its reach.
+**Design move.** Place radiant heat over each table group so every chair sits within its reach.
 
 **Bromic project.** [Hotel Skansen](https://www.bromic.com/case-study/hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-heat-freestanding-heaters/), Sweden: Eclipse Smart-Heat Freestanding heaters with the Eclipse Dimmer Controller keep the SAND restaurant terrace in use.
 
@@ -197,8 +195,7 @@ them. Each one shares the finding and its source, then closes with one move you 
 > *Source: as above.*
 
 **What it means for your venue**
-- With fewer visits, the space you offer has to be one guests actively choose.
-- A terrace that still feels inviting in October gives people a reason to come in.
+- With fewer visits, a terrace that still feels inviting in October gives guests a reason to choose you.
 - Seats that close in autumn are capacity lost just when it is hardest to replace.
 
 **Bromic insight.** In a quieter year, the most affordable seat to add is often the one already waiting outside.
@@ -217,12 +214,11 @@ them. Each one shares the finding and its source, then closes with one move you 
 
 **What it means for your venue**
 - Heat running all night over an empty terrace is margin quietly lost.
-- Outdoor heat cannot be held by a thermostat, so precise control is what keeps the cost in check.[^s14]
-- Running cost follows a formula you can share with your team: kW × $/kWh.
+- Outdoor heat cannot be held by a thermostat, so precise control keeps the cost in check.[^s14] Running cost follows a formula you can share with your team: kW × $/kWh.
 
-**Bromic insight.** The heater sets what is possible and the controls shape what it costs, which is why every Bromic recommendation includes them: an Affinity Smart-Heat On/Off or Dimmer controller, or the Eclipse controller, a wall switch and the Bromic Smart-Heat app.
+**Bromic insight.** The heater sets what is possible and the controls shape what it costs, which is why every Bromic recommendation includes an Affinity Smart-Heat On/Off or Dimmer controller, or the Eclipse controller, a wall switch and the Bromic Smart-Heat app.
 
-**Design move.** Zone the heat to sections and servers, schedule it to the reservation book, and use output steps (Eclipse runs at 33, 66 or 100%).[^s15] App zones, schedules and timers need compatible Affinity Smart-Heat Controls, sold separately. For a five-year cost by fuel, see [the TCO comparison](item:COM-CO-01).
+**Design move.** Zone the heat to sections and servers, schedule it to the reservation book and use output steps (Eclipse runs at 33, 66 or 100%).[^s15] App zones, schedules and timers need compatible Affinity Smart-Heat Controls, sold separately. For a five-year cost by fuel, see [the TCO comparison](item:COM-CO-01).
 
 **Bromic project.** [Del Frisco's, Westfield Century City](https://www.bromic.com/case-study/del-friscos-double-eagle-steakhouse/), Los Angeles: Platinum Electric heaters on a wireless controller and dimmer bring year-round dining to the patio.
 
@@ -235,8 +231,7 @@ them. Each one shares the finding and its source, then closes with one move you 
 > *Source: UK Government, Pavement licences: guidance, 2024.*
 
 **What it means for your venue**
-- Outdoor seating is now licensed, inspected and renewed, which makes it a lasting asset of the business.
-- The months you are permitted to trade can matter as much as the weather.
+- Outdoor seating is now licensed, inspected and renewed, a lasting asset of the business, and the months you may trade can matter as much as the weather.
 - Equipment has to meet the code that applies to it at every renewal.
 
 **Bromic insight.** Permanent programmes reward permanent thinking. Fixed, listed electric heat on the structure, with its controls, will serve you long after a row of portable cylinders.
@@ -254,8 +249,7 @@ them. Each one shares the finding and its source, then closes with one move you 
 > *Source: City of Gresham, Oregon, IFC 605.5.2.1.3–605.5.2.1.4.*
 
 **What it means for your venue**
-- Cylinders bring storage, exchange labour and questions at inspection.
-- Clearances rule portable gas out of many covered or compact terraces.
+- Cylinders bring storage, exchange labour and questions at inspection, and clearances rule portable gas out of many covered or compact terraces.
 - The least expensive heater to buy can turn out to be the hardest to keep compliant.
 
 **Bromic insight.** Electric radiant heat takes fuel handling out of service entirely, and it can be mounted in places where portable gas cannot stand.
@@ -274,9 +268,8 @@ them. Each one shares the finding and its source, then closes with one move you 
 > New York State's All-Electric Buildings Act follows for new buildings statewide, starting with buildings of seven stories or fewer.[^s11] [[VERIFY: current effective dates and status of the NY State All-Electric Buildings Act after litigation, from the statute or dos.ny.gov — Hospitality sales]]
 
 **What it means for your venue**
-- New hotels, mixed-use and multifamily projects are being designed without gas.
-- A kitchen exception does not automatically extend to the terrace.
-- Whether a law reaches outdoor heaters is a local question, so it is worth asking before you specify. [[VERIFY: whether LL154 applies to outdoor gas patio heaters on new buildings — Hospitality sales]]
+- New hotels, mixed-use and multifamily projects are being designed without gas, and a kitchen exception does not automatically extend to the terrace.
+- Whether a law reaches outdoor heaters is a local question, so ask before you specify. [[VERIFY: whether LL154 applies to outdoor gas patio heaters on new buildings — Hospitality sales]]
 
 **Bromic insight.** Specifying electric outdoor heat at the design stage keeps a terrace in step with an all-electric building, with no gas line to run to the roof.
 
@@ -292,8 +285,7 @@ them. Each one shares the finding and its source, then closes with one move you 
 > *Source: National Restaurant Association, State of the Restaurant Industry 2026.*
 
 **What it means for your venue**
-- Events, tastings and private dinners bring traffic, and a terrace hosts them beautifully.
-- An event booked months ahead cannot rely on the evening being mild.
+- Events, tastings and private dinners bring traffic, and a terrace hosts them beautifully, though an event booked months ahead cannot rely on a mild evening.
 - Warmth and light set the mood as much as the menu does.
 
 **Bromic insight.** Heat that is also light, such as Eclipse with dimmable rim lighting, lets one fixture set both the scene and the temperature.[^s15]
@@ -310,8 +302,7 @@ them. Each one shares the finding and its source, then closes with one move you 
 > *Source: American Hotel & Lodging Association, State of the Industry 2026.*
 
 **What it means for your venue**
-- Room revenue is growing slowly while costs keep pressure on profit.
-- Rooftops, pool decks and terraces can serve food and beverage long after dark.
+- Room revenue is growing slowly while costs keep pressure on profit, and rooftops, pool decks and terraces can serve food and beverage long after dark.
 - Domestic leisure is the largest part of US travel, and leisure guests love to linger outside.[^s12]
 
 **Bromic insight.** A heated rooftop bar or pool cabana turns square footage into evening revenue without adding a single room.
@@ -326,9 +317,8 @@ them. Each one shares the finding and its source, then closes with one move you 
 > *Source: Bromic Heating, Planning Guide US v1.2, 2021.*
 
 **What it means for your venue**
-- Architects want warmth guests can feel while the heater itself stays out of view.
-- Rooftops and exposed terraces are best served by the right wavelength rather than more units.
-- Recessed and pendant heat frees the floor for more seats.
+- Architects want warmth guests can feel while the heater itself stays out of view, and recessed and pendant heat frees the floor for more seats.
+- On rooftops and exposed terraces, choosing the right wavelength matters more than adding units.
 
 **Bromic insight.** When heating is planned in from the first drawing, recessed, ceiling or wall-mounted Platinum and Tungsten Smart-Heat Electric heaters, each with its Affinity controls, sit quietly in the soffit and leave the floor plan to your guests.
 
@@ -338,9 +328,9 @@ them. Each one shares the finding and its source, then closes with one move you 
 
 ![An urban roof terrace with a heater recessed into a timber soffit](img:t-006-016)
 
-## What To Take Into The Season
+## Into The Season
 
-- Treat the terrace as revenue, because on-premises is where operators say they win.[^s2]
+- Operators say on-premises is where they win, so count the terrace as revenue.[^s2]
 - Guests want the outside table, and comfort decides whether they stay.[^s3]
 - Energy cost is the reason to zone and schedule, through compatible Affinity Smart-Heat Controls.[^s2]
 - Outdoor dining is licensed and permanent in major cities, so design to the licence.[^s5]
@@ -372,7 +362,7 @@ Discover what your empty seats could be worth. GET YOUR ROI ASSESSMENT.
 - **Format:** gated PDF, landscape A4/US Letter, 14 pages; matches the residential Trends 2026 report's system (white pages, ink and steel greys, flame `#EF4123` as the only accent on small labels and rules; Didot headings, Helvetica Neue Light body, per templates/bromic-voice.md). No emoji, no exclamation marks.
 - **Page 1, cover:** "Outdoor Hospitality Trends 2026", subtitle "Ten Ways The Terrace Is Earning Its Place". Image `l-016-131`.
 - **Page 2, the year in numbers:** the At a glance table as four large stat callouts (35%, 55%, 61%, 82%) with source lines; the full table below.
-- **Pages 3–12, one trend per page:** number and headline top left; stat callouts with source lines in small caps; "What it means for your venue" as three lines; Bromic insight in a flame-rule box; design move; project line with a QR to the case study.
+- **Pages 3–12, one trend per page:** number and headline top left; stat callouts with source lines in small caps; "What it means for your venue" as two or three lines; Bromic insight in a flame-rule box; design move; project line with a QR to the case study.
   - 01 `p-003-006` · 02 `l-013-111` · 03 `p-007-030` · 04 `g-operator` (owner-approved generated image; label "generated") · 05 `p-002-001` · 06 `p-014-066` · 07 `l-013-107` · 08 `p-010-044` · 09 `t-003-005` · 10 `t-006-016`.
   - `p-` images show the 2021 range: use only as generic commercial scenes, never captioned with a product name.
 - **Page 13:** key takeaways and the code disclaimer, set in full.
