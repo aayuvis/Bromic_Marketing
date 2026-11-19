@@ -1,5 +1,5 @@
 {
- "_readme": "Bromic installations found on the open web (12 Nov 2026), outside Bromic's own case-study pages. Every entry names its sources; most are snippets or third-party pages and must be confirmed with the customer before use. Images owned by others are listed, never copied. Every find is written up: full drafts CSW-*, partial case studies CSP-* (content/case-studies/web/). Pass two: 12 Nov 2026.",
+ "_readme": "Bromic installations found on the open web (12 Nov 2026), outside Bromic's own case-study pages. Every entry names its sources; most are snippets or third-party pages and must be confirmed with the customer before use. Images owned by others are listed, never copied. Every find is written up: full drafts CSW-*, partial case studies CSP-* (content/case-studies/web/). Pass two: 12 Nov 2026. Pass three: Australia and Canada, 19 Nov 2026 (WEB-057 onward): Sydney, Melbourne, Brisbane and Illawarra hospitality from trade press, and two Quebec homes from an installer's articles. Canada returned few named projects on the open web.",
  "built": "2026-11-12",
  "installs": [
   {
@@ -2516,6 +2516,328 @@
    "id": "WEB-056",
    "found": "2026-11-12",
    "case_study": "CSW-23",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "Babylon Rooftop Bar & Restaurant (Westfield Sydney)",
+   "city": "Sydney",
+   "region": "New South Wales",
+   "country": "Australia",
+   "segment": "restaurant",
+   "products": "Bromic Platinum Smart-Heat Gas: 22 of the 300 size and 12 of the 500 size",
+   "product_normalised": [
+    "Platinum Gas"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "34 (22 + 12)",
+   "heated_area_or_seats": "outdoor terrace and alfresco dining areas",
+   "installer": "",
+   "architect_designer": "Hogg & Lamb (architects)",
+   "builder_developer": "Xenia (builder); Mantle Group (operator and project manager)",
+   "year": "opened 2019 (Dezeen, 7 Sep 2019); heating article 14 Dec 2020",
+   "story": "On the rooftop of Westfield Sydney, Mantle Group's Babylon restaurant and bar heats its outdoor terrace and alfresco dining areas with 34 Bromic Platinum Smart-Heat Gas heaters, 22 of the 300 size and 12 of the 500 size. Venue magazine reports that Bromic worked with the architects, Hogg & Lamb, on the heating, and that Bromic had worked with Mantle Group before, at Squire's Landing.",
+   "confidence": "high",
+   "case_study_value": "A large, named Sydney rooftop with a clear count (34 heaters), an architect involved in the heat plan, and a repeat operator (Mantle Group, also Squire's Landing): a strong hospitality and specifier story if the heaters are still in place.",
+   "sources": [
+    {
+     "url": "https://www.venue.net.au/babylon-rooftop-bar-restaurant/",
+     "publisher": "Venue Magazine (venue.net.au)",
+     "kind": "press",
+     "read": "page",
+     "says": "Article (14 Dec 2020): Babylon Rooftop Bar & Restaurant, Level 7, Westfield Pitt Street, Sydney (Mantle Group). Bromic outdoor heating for the outdoor terrace and alfresco dining: 22 Platinum 300 and 12 Platinum 500 units; Bromic worked with the architect at Hogg & Lamb on the heating; Bromic had worked with Mantle Group before at Squire's Landing. Interior stylists Stewart+Highfield; AV by Gigawatt."
+    },
+    {
+     "url": "https://www.dezeen.com/2019/09/07/babylon-restaurant-bar-hoggs-lamb-sydney-australia/",
+     "publisher": "Dezeen",
+     "kind": "press",
+     "read": "page",
+     "says": "Project feature (7 Sep 2019): Babylon on the rooftop floor of Westfield Sydney, designed by Hogg & Lamb, project management by Mantle Group, built by Xenia. Does not mention heating."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://www.venue.net.au/babylon-rooftop-bar-restaurant/",
+     "owner": "Venue Magazine / Mantle Group",
+     "shows_heater": "unknown"
+    },
+    {
+     "url": "https://studiohighfield.com/babylon-rooftop/",
+     "owner": "Studio Highfield",
+     "shows_heater": "unknown"
+    }
+   ],
+   "evidence": "page read",
+   "id": "WEB-057",
+   "case_study": "CSW-24",
+   "found": "2026-11-19",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "The Squire's Landing (Overseas Passenger Terminal, Circular Quay)",
+   "city": "Sydney",
+   "region": "New South Wales",
+   "country": "Australia",
+   "segment": "restaurant",
+   "products": "Bromic Platinum Smart-Heat (gas)",
+   "product_normalised": [
+    "Platinum Gas"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "about 240 seats; ground-floor undercover areas and the Level 1 verandah",
+   "installer": "",
+   "architect_designer": "",
+   "builder_developer": "Mantle Group (operator, with Lion)",
+   "year": "opened 24 May 2018 (Beer & Brewer)",
+   "story": "The Squire's Landing, Mantle Group's restaurant and microbrewery with Lion in the Overseas Passenger Terminal, uses Bromic Platinum Smart-Heat gas heaters in its ground-floor undercover areas and on the Level 1 verandah, keeping about 240 seats warm. A search snippet of the Venue magazine piece quotes the operator saying Bromic was involved from the planning stage with a detailed heating plan, and that without heating it would lose almost 30% of its seating footprint. The article itself no longer loads.",
+   "confidence": "medium",
+   "case_study_value": "A Circular Quay landmark from an operator that used Bromic again at Babylon; Bromic's heat plan from the planning stage fits the \"designed in from the start\" thesis. Confirm the figures before any use.",
+   "sources": [
+    {
+     "url": "https://www.venue.net.au/index.php/my-product/squires-landing/",
+     "publisher": "Venue Magazine (venue.net.au)",
+     "kind": "press",
+     "read": "snippet",
+     "says": "Search snippet: about 240 seats kept warm by Bromic; Platinum Smart-Heat gas models in the ground-floor undercover areas and the Level 1 verandah; the general manager says Bromic was involved from the planning stage with a detailed heating plan and recommendations; without heating the venue would lose almost 30% of its seating footprint. The page returns 404 from this session."
+    },
+    {
+     "url": "https://www.beerandbrewer.com/a-peek-inside-squires-landing/",
+     "publisher": "Beer & Brewer",
+     "kind": "press",
+     "read": "page",
+     "says": "Opening report (24 May 2018): The Squire's Landing at the Overseas Passenger Terminal, Circular Quay, a partnership between Mantle Group Hospitality and Lion with a two-storey restaurant and a microbrewery. Does not mention heating."
+    },
+    {
+     "url": "https://www.venue.net.au/babylon-rooftop-bar-restaurant/",
+     "publisher": "Venue Magazine (venue.net.au)",
+     "kind": "press",
+     "read": "page",
+     "says": "The Babylon article says Bromic had worked with Mantle Group before, on Squire's Landing."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://www.venue.net.au/index.php/my-product/squires-landing/",
+     "owner": "Venue Magazine / Mantle Group",
+     "shows_heater": "unknown"
+    }
+   ],
+   "evidence": "snippet only",
+   "id": "WEB-058",
+   "case_study": "CSP-23",
+   "found": "2026-11-19",
+   "status": "partial case study"
+  },
+  {
+   "venue": "Imperial Hotel (Bourke and Spring Streets)",
+   "city": "Melbourne",
+   "region": "Victoria",
+   "country": "Australia",
+   "segment": "club",
+   "products": "Bromic gas heaters (model not stated)",
+   "product_normalised": [
+    "other/unknown"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "",
+   "installer": "",
+   "architect_designer": "",
+   "builder_developer": "Dixon Hospitality (operator at the time of the article)",
+   "year": "not stated (article undated)",
+   "story": "A Venue magazine feature titled \"Empire Strikes Back\" on the Imperial Hotel, the corner pub at Bourke and Spring Streets in Melbourne's CBD, is described in search results as saying Bromic gas heaters take the edge off cool Melbourne evenings. The page no longer loads, so the model, number and area are unknown, and the pub has since changed hands and refurbished its rooftop.",
+   "confidence": "medium",
+   "case_study_value": "A well-known CBD pub with a large rooftop; worth one call to the current operator to see whether Bromic heaters survived the 2026 rooftop refresh.",
+   "sources": [
+    {
+     "url": "http://www.venue.net.au/index.php/my-product/empire-strikes-back/",
+     "publisher": "Venue Magazine (venue.net.au)",
+     "kind": "press",
+     "read": "snippet",
+     "says": "Search result summary: feature \"Empire Strikes Back\" on the Imperial Hotel, Bourke and Spring Streets, Melbourne CBD (Dixon Hospitality); Bromic gas heaters take the edge off cool Melbourne evenings; Bromic listed as a contact. The page returns 404 from this session."
+    }
+   ],
+   "images": [],
+   "evidence": "snippet only",
+   "id": "WEB-059",
+   "case_study": "CSP-24",
+   "found": "2026-11-19",
+   "status": "partial case study"
+  },
+  {
+   "venue": "Headlands Hotel",
+   "city": "Austinmer",
+   "region": "New South Wales",
+   "country": "Australia",
+   "segment": "hotel",
+   "products": "Bromic Platinum Smart-Heat Electric, flush-mounted",
+   "product_normalised": [
+    "Platinum Electric"
+   ],
+   "mounting": "flush in eaves and ceilings",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "",
+   "installer": "",
+   "architect_designer": "",
+   "builder_developer": "",
+   "year": "not stated",
+   "story": "Search results for a Venue magazine feature on the Headlands Hotel describe Bromic Platinum Smart-Heat Electric heaters flush-mounted into the eaves and ceilings, so they are hard to spot as heaters, each covering up to about 6 m². The page no longer loads.",
+   "confidence": "medium",
+   "case_study_value": "A beachfront hotel on the Illawarra coast with heaters set flush into the eaves: a clean \"you would not know they are there\" story for coastal venues.",
+   "sources": [
+    {
+     "url": "https://www.venue.net.au/index.php/my-product/headlands-hotel/",
+     "publisher": "Venue Magazine (venue.net.au)",
+     "kind": "press",
+     "read": "snippet",
+     "says": "Search result summary: Platinum Smart-Heat Electric units flush-mounted into the eaves and ceilings so they are hard to spot as heaters, each covering up to 6 m². The page returns 404 from this session."
+    }
+   ],
+   "images": [],
+   "evidence": "snippet only",
+   "id": "WEB-060",
+   "case_study": "CSP-25",
+   "found": "2026-11-19",
+   "status": "partial case study"
+  },
+  {
+   "venue": "Sunnybank Hotel",
+   "city": "Sunnybank, Brisbane",
+   "region": "Queensland",
+   "country": "Australia",
+   "segment": "club",
+   "products": "Bromic heaters (electric implied: powered by rooftop solar panels; model not stated)",
+   "product_normalised": [
+    "other/unknown"
+   ],
+   "mounting": "with new canopy shade structures (method not stated)",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "outdoor dining space",
+   "installer": "",
+   "architect_designer": "",
+   "builder_developer": "O'Hara Group (operator, per the article)",
+   "year": "about 2021 (renovated 12 months before the August 2022 article)",
+   "story": "Australian Hotelier (August 2022) reports that the Sunnybank Hotel in suburban Brisbane upgraded its outdoor dining space with canopy shade structures, festoon lights and heaters, and that the owner chose Bromic heaters powered by solar panels on the venue's roof, citing greener electricity deals and the pushback on portable gas heaters.",
+   "confidence": "medium",
+   "case_study_value": "Solar-powered electric heat at a suburban pub, with the operator's own reasons (energy deals, gas-bottle safety): a strong electrification angle. Same group as The Camellia Hotel (CSW-10).",
+   "sources": [
+    {
+     "url": "https://issuu.com/theintermediagroup/docs/australian_hotelier_august_2022/s/16584437",
+     "publisher": "Australian Hotelier (The Intermedia Group, via Issuu)",
+     "kind": "press",
+     "read": "snippet",
+     "says": "August 2022 article: the Sunnybank Hotel renovated 12 months earlier, including its outdoor dining space under new canopy shade structures; heaters added; the owner chose Bromic heaters powered by solar panels on the roof; quote on electricity becoming more favourable and pushback on portable gas heaters. Read from search snippets; the Issuu page text did not load."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://issuu.com/theintermediagroup/docs/australian_hotelier_august_2022/s/16584437",
+     "owner": "Australian Hotelier",
+     "shows_heater": "unknown"
+    }
+   ],
+   "evidence": "snippet only",
+   "id": "WEB-061",
+   "case_study": "CSP-26",
+   "found": "2026-11-19",
+   "status": "partial case study"
+  },
+  {
+   "venue": "Private home, Blainville (Mughet summer-kitchen project)",
+   "city": "Blainville",
+   "region": "Quebec",
+   "country": "Canada",
+   "segment": "residential",
+   "products": "Bromic Tungsten Smart-Heat, 2 (fuel not stated)",
+   "product_normalised": [
+    "other/unknown"
+   ],
+   "mounting": "",
+   "controls": "",
+   "quantity": "2 (the first estimate was 4)",
+   "heated_area_or_seats": "summer kitchen and terrace",
+   "installer": "Mughet (design and installation, Greater Montréal)",
+   "architect_designer": "",
+   "builder_developer": "",
+   "year": "by 2025 (article dated 2 Feb 2025)",
+   "story": "A Blainville backyard planned as one outdoor room by Mughet: a Station Grill summer kitchen with a Dekton counter, a Delta Heat barbecue, an Alfa wood-fired oven, a Heat & Glo wood fireplace, Phantom motorised screens and Bromic Tungsten heaters. Mughet says the lesson was order: screens before heaters. Once the exposed side was closed, two Tungsten heaters did the job where the first calculation called for four.",
+   "confidence": "high",
+   "case_study_value": "A Quebec home with a measured result (two heaters instead of four once the screens went in): a clear proof of planning heat with the structure, from an installer who sells Bromic.",
+   "sources": [
+    {
+     "url": "https://mughet.ca/fr/articles/foyer-exterieur-chauffe-terrasse-quebec",
+     "publisher": "Mughet (installer, Greater Montréal)",
+     "kind": "installer",
+     "read": "page",
+     "says": "Article (2 Feb 2025, French): a project in Blainville with a Heat & Glo wood fireplace, Station Grill kitchen with Dekton counter, Delta Heat barbecue, Alfa wood oven, Phantom Screens motorised screens and Bromic Tungsten patio heaters; \"les écrans avant les appareils de chauffage\"; once the exposed side was closed, two Tungsten were enough where the first calculation called for four."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://mughet.ca/fr/articles/foyer-exterieur-chauffe-terrasse-quebec",
+     "owner": "Mughet",
+     "shows_heater": "unknown"
+    }
+   ],
+   "evidence": "page read",
+   "id": "WEB-062",
+   "case_study": "CSW-25",
+   "found": "2026-11-19",
+   "status": "case-study draft"
+  },
+  {
+   "venue": "Private home, Saint-Hippolyte (Mughet lakeside summer-kitchen project)",
+   "city": "Saint-Hippolyte",
+   "region": "Quebec",
+   "country": "Canada",
+   "segment": "residential",
+   "products": "Bromic Tungsten infrared heaters (model, fuel and number not stated)",
+   "product_normalised": [
+    "other/unknown"
+   ],
+   "mounting": "integrated into the structure",
+   "controls": "",
+   "quantity": "",
+   "heated_area_or_seats": "long prep-and-dining zone facing the lake",
+   "installer": "Mughet (Greater Montréal)",
+   "architect_designer": "an architect and the design studio Les Coupables (named in the source)",
+   "builder_developer": "",
+   "year": "by 2025 (article dated 10 Apr 2025)",
+   "story": "A lakeside home in Saint-Hippolyte, in the Laurentians, with a Station Grill summer kitchen (Dekton counter, Delta Heat barbecue, Kamado Joe smoker) heated by Bromic Tungsten infrared heaters. Mughet says it chose Bromic over a heat-sail design because the space is open and faces the lake, and the brief called for output spread along a long prep-and-dining zone; the Tungsten disappears into the structure.",
+   "confidence": "high",
+   "case_study_value": "An installer explaining why it chose Bromic for an open lakeside kitchen, with an architect and a design studio on the job: useful for the architect and dealer audiences in Quebec.",
+   "sources": [
+    {
+     "url": "https://mughet.ca/en/articles/heatsail-infrared-heat",
+     "publisher": "Mughet (installer, Greater Montréal)",
+     "kind": "installer",
+     "read": "page",
+     "says": "Article (10 Apr 2025): a residential project in Saint-Hippolyte with an architect and design studio Les Coupables; the Station Grill summer kitchen has a Dekton counter, Delta Heat barbecue, Kamado Joe smoker and Bromic Tungsten infrared patio heaters; Bromic chosen because the space is open, faces the lake and the brief called for output spread across a long prep-and-dining zone; \"The Tungsten disappears into the structure and does its job.\""
+    },
+    {
+     "url": "https://mughet.ca/en/past-projects",
+     "publisher": "Mughet (installer, Greater Montréal)",
+     "kind": "installer",
+     "read": "page",
+     "says": "Past projects list the same project as a wooden outdoor pavilion with a kitchen and lounge by a pool, Greater Montréal (the descriptions differ on the setting)."
+    }
+   ],
+   "images": [
+    {
+     "url": "https://mughet.ca/en/past-projects",
+     "owner": "Mughet",
+     "shows_heater": "unknown"
+    }
+   ],
+   "evidence": "page read",
+   "id": "WEB-063",
+   "case_study": "CSW-26",
+   "found": "2026-11-19",
    "status": "case-study draft"
   }
  ]
