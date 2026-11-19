@@ -9,9 +9,9 @@ cell: BLD-IN
 asset: A19
 summary: "In Livonia (720 sq ft) and Chelsea (420 sq ft), Michigan, Skyview built Bromic heaters into StruXure louvered pergolas with motorized screens, turning two patios into four-season rooms."
 cta: {label: "Book a design consult", asset: A07}
-hero: w-louvered-pergola-with-recessed-platinum-elec
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["w-louvered-pergola-with-recessed-platinum-elec"]
+hero: v-skyview-livonia-1
+hero_caption: "Photo: Skyview, via skyviewusa.com. Permission to publish to be confirmed."
+images: ["v-skyview-livonia-1", "v-skyview-livonia-2", "v-skyview-chelsea-1"]
 owner_review: US field sales
 status: draft
 source_kind: web-find
@@ -73,11 +73,15 @@ Pergola dealers are a growing channel, and two projects from one StruXure dealer
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:w-louvered-pergola-with-recessed-platinum-elec)
+![Heater glowing under the louvred roof of a StruXure pergola over a dining set, Livonia](img:v-skyview-livonia-1)
 
-No licensed photograph of these projects is held. The image shows a comparable Bromic installation in a louvered pergola and must be replaced before publication.
+![Close view of a heater glowing beneath the louvres of the Livonia pergola](img:v-skyview-livonia-2)
 
-**Photos to request** (owned by others; not copied into the library):
+![Heaters along the beams of a white louvred pergola over a lakeside lounge, Chelsea](img:v-skyview-chelsea-1)
+
+Photo: Skyview, via skyviewusa.com. A third-party photo of this project, approved for internal Hub use; permission to publish to be confirmed with the owner.
+
+**Photos to request** (owned by others; permission to publish to be confirmed):
 
 - Skyview project galleries (skyviewusa.com), owned by Skyview
 

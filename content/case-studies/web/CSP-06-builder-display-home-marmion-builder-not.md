@@ -9,9 +9,9 @@ cell: RES-IN
 asset: A19
 summary: "For its display home in Marmion, Perth, a builder chose white Platinum Smart-Heat Electric heaters, and its testimonial says it has relied on Bromic across many projects."
 cta: {label: "Book a design consult", asset: A07}
-hero: l-010-073
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["l-010-073"]
+hero: w-dorrington-homes-platinum-electric-3
+hero_caption: "Dorrington Homes, Perth: a Bromic-published photo of the builder whose testimonial names its Marmion display home. Confirm this is that home."
+images: ["w-dorrington-homes-platinum-electric-3", "w-dorrington-homes-platinum-electric-1", "w-dorrington-homes-platinum-electric-2"]
 owner_review: "Bromic AU [[VERIFY: AU regional lead]]"
 status: draft
 source_kind: web-find
@@ -55,9 +55,11 @@ A volume builder's display home shows heat specified at the very first stage a b
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:l-010-073)
+![Pool and covered alfresco dining with Platinum Electric heaters recessed in the timber ceiling, Dorrington Homes, Perth](img:w-dorrington-homes-platinum-electric-3)
 
-No licensed photograph of this project is held. The image above shows a comparable Bromic installation and must be replaced before publication.
+![Alfresco kitchen under a timber ceiling with a recessed Platinum Electric heater, Dorrington Homes, Perth](img:w-dorrington-homes-platinum-electric-2)
+
+These photographs were published by Bromic (bromic.com gallery and the Platinum Electric product pages) as Dorrington Homes projects in Perth; Bromic's builder testimonial from Dorrington Homes names the Marmion display home. [[VERIFY: that these photos show the Marmion display home, and the heater finish (the testimonial says white) — Bromic AU]]
 
 **Photos to request** (owned by others; not copied into the library):
 

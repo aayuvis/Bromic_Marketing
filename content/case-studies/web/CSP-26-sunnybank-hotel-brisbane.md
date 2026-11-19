@@ -9,9 +9,9 @@ cell: COM-IN
 asset: A23
 summary: "The Sunnybank Hotel renovated its outdoor dining space with canopies and Bromic heaters powered by solar panels on the roof."
 cta: {label: "Book a design consult", asset: A07}
-hero: l-010-070
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["l-010-070"]
+hero: v-sunnybank-hotel-1
+hero_caption: "Photo: Sunnybank Hotel, via sunnybankhotel.com.au. Permission to publish to be confirmed."
+images: ["v-sunnybank-hotel-1"]
 owner_review: "Hospitality sales [[VERIFY: AU regional lead]]"
 status: draft
 source_kind: web-find
@@ -57,11 +57,11 @@ An operator's own case for electric heat over portable gas, with solar on the ro
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:l-010-070)
+![Covered outdoor drinking area with timber battens at the Sunnybank Hotel, Brisbane](img:v-sunnybank-hotel-1)
 
-No licensed photograph of this project is held. The image above shows a comparable Bromic installation and must be replaced before publication.
+Photo: Sunnybank Hotel, via sunnybankhotel.com.au. A third-party photo of this project, approved for internal Hub use; permission to publish to be confirmed with the owner.
 
-**Photos to request** (owned by others; not copied into the library):
+**Photos to request** (owned by others; permission to publish to be confirmed):
 
 - Australian Hotelier article photography (Issuu, August 2022)
 

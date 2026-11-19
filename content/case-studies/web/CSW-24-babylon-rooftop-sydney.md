@@ -9,9 +9,9 @@ cell: COM-IN
 asset: A23
 summary: "On the rooftop of Westfield Sydney, Babylon heats its terrace and alfresco dining with 34 Platinum Smart-Heat Gas heaters, planned with the architects, Hogg & Lamb."
 cta: {label: "Book a design consult", asset: A07}
-hero: w-aba-restaurant
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["w-aba-restaurant"]
+hero: v-babylon-sydney-1
+hero_caption: "Photo: Venue magazine, via venue.net.au. Permission to publish to be confirmed."
+images: ["v-babylon-sydney-1"]
 owner_review: "Hospitality sales [[VERIFY: AU regional lead]]"
 status: draft
 source_kind: web-find
@@ -64,11 +64,11 @@ A named Sydney rooftop with a large count and an architect in the heat plan, fro
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:w-aba-restaurant)
+![Gas heaters glowing above the tables on Babylon's rooftop terrace, Westfield Sydney](img:v-babylon-sydney-1)
 
-No licensed photograph of this project is held. The image above shows a comparable Bromic installation and must be replaced before publication.
+Photo: Venue magazine, via venue.net.au. A third-party photo of this project, approved for internal Hub use; permission to publish to be confirmed with the owner.
 
-**Photos to request** (owned by others; not copied into the library):
+**Photos to request** (owned by others; permission to publish to be confirmed):
 
 - https://www.venue.net.au/babylon-rooftop-bar-restaurant/ (Venue Magazine article photography)
 - https://studiohighfield.com/babylon-rooftop/ (Studio Highfield project page)

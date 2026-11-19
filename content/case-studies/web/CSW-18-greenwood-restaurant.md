@@ -9,9 +9,9 @@ cell: COM-IN
 asset: A23
 summary: "Greenwood's mid-century modern and rustic character carries out onto its Highwood patio, where Bromic Platinum gas heaters, chosen for their looks and output, are placed around the tables and paths."
 cta: {label: "Book a design consult", asset: A07}
-hero: w-1
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["w-1"]
+hero: v-greenwood-highwood-1
+hero_caption: "Photo: Gunn & Pegelow, via gunnpegelow.com. Permission to publish to be confirmed."
+images: ["v-greenwood-highwood-1", "v-greenwood-highwood-2"]
 owner_review: "US field sales"
 status: draft
 source_kind: web-find
@@ -63,11 +63,13 @@ An independent, design-led restaurant on Chicago's North Shore, with a heat layo
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:w-1)
+![Two Platinum Gas heaters angled from the beam of Greenwood Restaurant's covered patio, Highwood](img:v-greenwood-highwood-1)
 
-No licensed photograph of this project is held. The image above shows a comparable Bromic installation and must be replaced before publication.
+![Platinum Gas heaters above the bar windows on Greenwood Restaurant's patio at dusk](img:v-greenwood-highwood-2)
 
-**Photos to request** (owned by others; not copied into the library):
+Photo: Gunn & Pegelow, via gunnpegelow.com. A third-party photo of this project, approved for internal Hub use; permission to publish to be confirmed with the owner.
+
+**Photos to request** (owned by others; permission to publish to be confirmed):
 
 - https://gunnpegelow.com/wp-content/uploads/2024/04/greenwood-1.png (Gunn & Pegelow / restaurant (rights unknown))
 - https://gunnpegelow.com/wp-content/uploads/2024/04/greenwood-2.png (Gunn & Pegelow / restaurant (rights unknown))

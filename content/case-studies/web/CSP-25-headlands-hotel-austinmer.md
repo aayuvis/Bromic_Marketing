@@ -9,9 +9,9 @@ cell: COM-IN
 asset: A23
 summary: "By the beach at Austinmer, the Headlands Hotel set Platinum Smart-Heat Electric heaters flush into its eaves and ceilings, where they are hard to spot."
 cta: {label: "Book a design consult", asset: A07}
-hero: l-010-071
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["l-010-071"]
+hero: v-headlands-hotel-1
+hero_caption: "Photo: Headlands Hotel, via headlandshotel.com.au. Permission to publish to be confirmed."
+images: ["v-headlands-hotel-1"]
 owner_review: "Hospitality sales [[VERIFY: AU regional lead]]"
 status: draft
 source_kind: web-find
@@ -56,11 +56,11 @@ Flush electric heat on a coastal hotel shows the Platinum design case without a 
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:l-010-071)
+![Headlands Hotel's covered dining terrace above the coast at Austinmer](img:v-headlands-hotel-1)
 
-No licensed photograph of this project is held. The image above shows a comparable Bromic installation and must be replaced before publication.
+Photo: Headlands Hotel, via headlandshotel.com.au. A third-party photo of this project, approved for internal Hub use; permission to publish to be confirmed with the owner.
 
-**Photos to request** (owned by others; not copied into the library):
+**Photos to request** (owned by others; permission to publish to be confirmed):
 
 - None found in public sources: ask the customer for project photography.
 

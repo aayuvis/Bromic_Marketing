@@ -9,9 +9,9 @@ cell: COM-IN
 asset: A23
 summary: "A Melbourne awning and outdoor-heating firm lists Bistro Guillaume, the French bistro at Crown on the Yarra, as a project using the Bromic range. The heaters, the space and the venue's current status are still to be confirmed."
 cta: {label: "Book a design consult", asset: A07}
-hero: l-013-100
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["l-013-100"]
+hero: v-bistro-guillaume-1
+hero_caption: "Photo: Crown Melbourne, via crownmelbourne.com.au. Permission to publish to be confirmed."
+images: ["v-bistro-guillaume-1"]
 owner_review: "Bromic AU [[VERIFY: AU regional lead]]"
 status: draft
 source_kind: web-find
@@ -56,11 +56,11 @@ Bistro Guillaume is a well-known Melbourne fine-dining brand inside Crown, and i
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:l-013-100)
+![Bistro Guillaume's dining room opening to its terrace beside the Yarra, Crown Melbourne](img:v-bistro-guillaume-1)
 
-No licensed photograph of this project is held. The image above shows a comparable Bromic installation and must be replaced before publication.
+Photo: Crown Melbourne, via crownmelbourne.com.au. A third-party photo of this project, approved for internal Hub use; permission to publish to be confirmed with the owner.
 
-**Photos to request** (owned by others; not copied into the library):
+**Photos to request** (owned by others; permission to publish to be confirmed):
 
 - http://www.melbourneawningcentre.com.au/products/bromic-gas (Melbourne Awning Centre)
 

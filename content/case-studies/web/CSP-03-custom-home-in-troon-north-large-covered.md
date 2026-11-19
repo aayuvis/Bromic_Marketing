@@ -9,9 +9,9 @@ cell: RES-IN
 asset: A19
 summary: "On a Troon North custom home in Scottsdale, the builder set three high-end Tungsten heaters into the ceiling of a large covered patio, so the residents can stay warm outdoors."
 cta: {label: "Book a design consult", asset: A07}
-hero: l-002-006
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["l-002-006"]
+hero: v-troon-north-1
+hero_caption: "Photo: Bordeaux Builders, via bordeauxbuilders.com. Permission to publish to be confirmed."
+images: ["v-troon-north-1"]
 owner_review: "US field sales"
 status: draft
 source_kind: web-find
@@ -58,11 +58,11 @@ A desert custom-home builder designing heat into the ceiling at build stage tell
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:l-002-006)
+![Patio ceiling during the build, with openings framed for in-ceiling heaters, Troon North](img:v-troon-north-1)
 
-No licensed photograph of this project is held. The image above shows a comparable Bromic installation and must be replaced before publication.
+Photo: Bordeaux Builders, via bordeauxbuilders.com. A third-party photo of this project, approved for internal Hub use; permission to publish to be confirmed with the owner.
 
-**Photos to request** (owned by others; not copied into the library):
+**Photos to request** (owned by others; permission to publish to be confirmed):
 
 - https://bordeauxbuilders.com/troon-home-gets-built-in-outdoor-ceiling-heaters/ (Bordeaux Builders)
 

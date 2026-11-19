@@ -9,9 +9,9 @@ cell: COM-IN
 asset: A23
 summary: "Dishoom's 235-seat restaurant at Battersea Power Station opened in 2023, and the same Bromic staff LinkedIn posts that name Sticks'n'Sushi say Bromic Eclipse heaters are installed here too."
 cta: {label: "Book a design consult", asset: A07}
-hero: w-au
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["w-au"]
+hero: v-dishoom-battersea-1
+hero_caption: "Photo: Inside Out Contracts, via insideoutcontracts.com. Permission to publish to be confirmed."
+images: ["v-dishoom-battersea-1"]
 owner_review: "Bromic UK [[VERIFY: UK regional lead]]"
 status: draft
 source_kind: web-find
@@ -67,11 +67,11 @@ Dishoom is a nationally known UK brand, and together with Sticks'n'Sushi it woul
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:w-au)
+![Dishoom Battersea's outdoor terrace with pink tables beside its green mural wall](img:v-dishoom-battersea-1)
 
-No licensed photograph of this project is held. The image above shows a comparable Bromic installation and must be replaced before publication.
+Photo: Inside Out Contracts, via insideoutcontracts.com. A third-party photo of this project, approved for internal Hub use; permission to publish to be confirmed with the owner.
 
-**Photos to request** (owned by others; not copied into the library):
+**Photos to request** (owned by others; permission to publish to be confirmed):
 
 - None found in public sources: ask the customer for project photography.
 

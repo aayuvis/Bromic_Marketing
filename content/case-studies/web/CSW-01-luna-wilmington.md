@@ -9,9 +9,9 @@ cell: BLD-IN
 asset: A19
 summary: "On a fully custom coastal home by Hardison Building, custom recessed Bromic heaters warm the porch above the pool, a home that took Gold for Best Outdoor Living in the Wilmington Parade of Homes."
 cta: {label: "Book a design consult", asset: A07}
-hero: w-hartleyhallplporchdeckdarnestownmd-0052
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["w-hartleyhallplporchdeckdarnestownmd-0052"]
+hero: v-luna-wilmington-1
+hero_caption: "Photo: Wilmington Parade of Homes, via wilmingtonparadeofhomes.com. Permission to publish to be confirmed."
+images: ["v-luna-wilmington-1"]
 owner_review: US field sales
 status: draft
 source_kind: web-find
@@ -62,11 +62,11 @@ A builder show home that won on outdoor living, with heat recessed into the ceil
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:w-hartleyhallplporchdeckdarnestownmd-0052)
+![Covered pool porch with a timber ceiling beside the pool at The Luna, Wilmington](img:v-luna-wilmington-1)
 
-No licensed photograph of this project is held. The image above shows a comparable Bromic installation and must be replaced before publication.
+Photo: Wilmington Parade of Homes, via wilmingtonparadeofhomes.com. A third-party photo of this project, approved for internal Hub use; permission to publish to be confirmed with the owner.
 
-**Photos to request** (owned by others; not copied into the library):
+**Photos to request** (owned by others; permission to publish to be confirmed):
 
 - Parade of Homes listing gallery (wilmingtonparadeofhomes.com), owned by the Parade or the builder
 

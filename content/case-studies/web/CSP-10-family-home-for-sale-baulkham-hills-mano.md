@@ -9,9 +9,9 @@ cell: RES-IN
 asset: A10
 summary: "In a Baulkham Hills family home, the covered alfresco room looks out over a heated pool, and the agent's listing names its Bromic heaters as what makes it a space for entertaining all year."
 cta: {label: "Book a design consult", asset: A07}
-hero: l-010-076
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["l-010-076"]
+hero: v-baulkham-hills-1
+hero_caption: "Photo: Manor Real Estate, via manorrealestate.com.au. Permission to publish to be confirmed."
+images: ["v-baulkham-hills-1"]
 owner_review: "Bromic AU [[VERIFY: AU regional lead]]"
 status: draft
 source_kind: web-find
@@ -56,11 +56,11 @@ Here an agent presents Bromic as a selling point beside Wolf appliances in a pre
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:l-010-076)
+![Pool terrace with sun loungers at the Baulkham Hills home, from the sale listing](img:v-baulkham-hills-1)
 
-No licensed photograph of this project is held. The image above shows a comparable Bromic installation and must be replaced before publication.
+Photo: Manor Real Estate, via manorrealestate.com.au. A third-party photo of this project, approved for internal Hub use; permission to publish to be confirmed with the owner.
 
-**Photos to request** (owned by others; not copied into the library):
+**Photos to request** (owned by others; permission to publish to be confirmed):
 
 - https://www.manorrealestate.com.au/8910/18-daniel-avenue-baulkham-hills (Manor Real Estate / its photographer (listing gallery))
 

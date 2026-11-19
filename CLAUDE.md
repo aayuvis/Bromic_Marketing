@@ -145,7 +145,7 @@ numbers or quotes, a "To publish" list ending in the template's consent checklis
 **Evidence** and **Completeness** (taxonomy groups in `case-study-taxonomy.json`; Bromic's own pages are `published`, gallery
 projects `photos-only`); each card shows its provenance chips. **Privacy:** a private home is named by town and source type only,
 never a house number, street or homeowner's name. Legacy "500 Series" naming in a source is dropped (hard rule 3).
-**Images:** photos owned by venues, installers or the press are listed under "Photos to request", never copied. A draft uses a
+**Images (owner, 19 Nov 2026, changes the earlier rule):** a web case study shows a photo of the project itself. Bromic-published photos first; otherwise the project's own photo from the venue, installer or press page, ingested as a `v-` image (`status: third-party`, `owner`, `source_url`, `page_url`) and captioned "Photo: <owner>, via <site>. Permission to publish to be confirmed." Private homes: outdoor area only, never a face, house number or street. Where none exists the comparable Bromic image stays, captioned honestly. A draft uses a
 Bromic-published photo of that project where one exists (21 `m-` images from Bromic's 2022 marine presentation; the Juneau
 showhome from bromic.com), otherwise a comparable Bromic image with `hero_caption` saying so. `scripts/build_case_studies.py`
 adds the finds to the Cases tab as `kind: web-find` (filter "Found on the web"; counted in the whitespace grid).

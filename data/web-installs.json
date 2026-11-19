@@ -121,6 +121,14 @@
      "url": "https://wilmingtonparadeofhomes.com/homes/the-luna/",
      "owner": "Hardison Building / Wilmington Parade of Homes (no photo credit shown)",
      "shows_heater": "unknown"
+    },
+    {
+     "url": "https://wilmingtonparadeofhomes.com/wp-content/uploads/2026/03/75_pool.jpg",
+     "page": "https://wilmingtonparadeofhomes.com/homes/the-luna/",
+     "owner": "Wilmington Parade of Homes",
+     "shows_heater": "see library entry",
+     "library_id": "v-luna-wilmington-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
     }
    ],
    "id": "WEB-003",
@@ -170,6 +178,14 @@
      "url": "https://www.breckenridgehomes.net/listing/s1068575-188-point-view-place-breckenridge-co-80424/",
      "owner": "Listing brokerage / MLS photographer",
      "shows_heater": "unknown"
+    },
+    {
+     "url": "https://feed-images.rewhosting.com/trestle_webapi_plus/PHOTO/Property/1159238400/3-e98717eff0caf6527b36a0a55fc28e65-l.webp",
+     "page": "https://www.breckenridgehomes.net/listing/s1068575-188-point-view-place-breckenridge-co-80424/",
+     "owner": "Listing photography (Engel & Völkers Denver listing)",
+     "shows_heater": "see library entry",
+     "library_id": "v-breckenridge-estate-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
     }
    ],
    "id": "WEB-004",
@@ -269,6 +285,22 @@
      "url": "https://skyviewusa.com/projects/year-round-comfort/",
      "owner": "Skyview",
      "shows_heater": "unknown"
+    },
+    {
+     "url": "https://skyviewusa.com/wp-content/uploads/2026/04/WahlLivonia10.png",
+     "page": "https://skyviewusa.com/projects/year-round-comfort/",
+     "owner": "Skyview",
+     "shows_heater": "see library entry",
+     "library_id": "v-skyview-livonia-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
+    },
+    {
+     "url": "https://skyviewusa.com/wp-content/uploads/2026/04/WahlLivonia12.png",
+     "page": "https://skyviewusa.com/projects/year-round-comfort/",
+     "owner": "Skyview",
+     "shows_heater": "see library entry",
+     "library_id": "v-skyview-livonia-2",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
     }
    ],
    "id": "WEB-006",
@@ -311,6 +343,14 @@
      "url": "https://skyviewusa.com/projects/a-true-outdoor-living-experience/",
      "owner": "Skyview",
      "shows_heater": "unknown"
+    },
+    {
+     "url": "https://skyviewusa.com/wp-content/uploads/2026/03/HelppieAnnArbor10.png",
+     "page": "https://skyviewusa.com/projects/a-true-outdoor-living-experience/",
+     "owner": "Skyview",
+     "shows_heater": "see library entry",
+     "library_id": "v-skyview-chelsea-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
     }
    ],
    "id": "WEB-007",
@@ -360,6 +400,14 @@
      "url": "https://revealdesignchicago.com/projects-old/glenview-landscape-louvered-pergola-composite-deck",
      "owner": "Reveal Design LLC",
      "shows_heater": "unknown"
+    },
+    {
+     "url": "https://images.squarespace-cdn.com/content/v1/5cf94d891d021c00015c8f01/8d8cb89b-dd51-4bfd-bd75-ad932640dad5/Reveal_Lerias-079-HDR+copy.jpg",
+     "page": "https://revealdesignchicago.com/projects-old/glenview-landscape-louvered-pergola-composite-deck",
+     "owner": "Reveal Design",
+     "shows_heater": "see library entry",
+     "library_id": "v-reveal-glenview-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
     }
    ],
    "id": "WEB-008",
@@ -409,6 +457,14 @@
      "url": "https://revealdesignchicago.com/projects-old/north-center-chicago-louvered-pergola-patio-landscape",
      "owner": "Reveal Design LLC",
      "shows_heater": "unknown"
+    },
+    {
+     "url": "https://images.squarespace-cdn.com/content/v1/5cf94d891d021c00015c8f01/0a683992-1217-421f-a52f-447989dc6877/Reveal_Oakley-054-HDR+copy.jpg",
+     "page": "https://revealdesignchicago.com/projects-old/north-center-chicago-louvered-pergola-patio-landscape",
+     "owner": "Reveal Design",
+     "shows_heater": "see library entry",
+     "library_id": "v-reveal-north-center-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
     }
    ],
    "id": "WEB-009",
@@ -542,6 +598,14 @@
      "url": "https://bordeauxbuilders.com/troon-home-gets-built-in-outdoor-ceiling-heaters/",
      "owner": "Bordeaux Builders",
      "shows_heater": "unknown"
+    },
+    {
+     "url": "https://bordeauxbuilders.com/wp-content/uploads/2020/01/ceiling-heaters-bordeaux-builders-scaled.jpg",
+     "page": "https://bordeauxbuilders.com/troon-home-gets-built-in-outdoor-ceiling-heaters/",
+     "owner": "Bordeaux Builders",
+     "shows_heater": "see library entry",
+     "library_id": "v-troon-north-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
     }
    ],
    "id": "WEB-012",
@@ -1292,6 +1356,14 @@
      "url": "https://www.youtube.com/watch?v=kIi_drQMKKc",
      "owner": "Bromic (video)",
      "shows_heater": "unknown"
+    },
+    {
+     "url": "https://www.venue.net.au/wp-content/uploads/2013/07/Bromic-Heating-Press-Release-10-7-13.jpg",
+     "page": "https://www.venue.net.au/bromic-warms-up-cafe-sydney/",
+     "owner": "Bromic press release (2013)",
+     "shows_heater": "see library entry",
+     "library_id": "v-cafe-sydney-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
     }
    ],
    "id": "WEB-028",
@@ -1341,6 +1413,14 @@
      "url": "https://issuu.com/theintermediagroup/docs/australian_hotelier_august_2022/s/16584437",
      "owner": "The Intermedia Group / venue",
      "shows_heater": "unknown"
+    },
+    {
+     "url": "https://image.isu.pub/220807223353-3b22edd2ee444ab7c3fe70faec727b9b/jpg/page_30_social_preview.jpg",
+     "page": "https://issuu.com/theintermediagroup/docs/australian_hotelier_august_2022/s/16584437",
+     "owner": "Australian Hotelier (The Intermedia Group)",
+     "shows_heater": "see library entry",
+     "library_id": "v-camellia-hotel-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
     }
    ],
    "id": "WEB-029",
@@ -1456,7 +1536,27 @@
      "says": "Builder testimonial: white Platinum Smart-Heat Electric heaters chosen for its Marmion display home. bromic.com.au blocks automated reading, so this is the search snippet only."
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2025/06/Dorrington-Homes-Platinum-Electric-3-1600x1066.jpg",
+     "owner": "Bromic (bromic.com gallery, Dorrington Homes project, Perth)",
+     "shows_heater": "yes",
+     "library_id": "w-dorrington-homes-platinum-electric-3",
+     "note": "Bromic-published; confirm it is the Marmion display home"
+    },
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2025/06/Dorrington-Homes-Platinum-Electric-1-1600x1066.jpg",
+     "owner": "Bromic (bromic.com gallery, Dorrington Homes project, Perth)",
+     "shows_heater": "yes",
+     "library_id": "w-dorrington-homes-platinum-electric-1"
+    },
+    {
+     "url": "https://www.bromic.com/wp-content/uploads/2025/06/Dorrington-Homes-Platinum-Electric-2-1600x1066.jpg",
+     "owner": "Bromic (bromic.com gallery, Dorrington Homes project, Perth)",
+     "shows_heater": "yes",
+     "library_id": "w-dorrington-homes-platinum-electric-2"
+    }
+   ],
    "id": "WEB-032",
    "case_study": "CSP-06",
    "found": "2026-11-12",
@@ -1528,7 +1628,16 @@
      "says": "Lists Cruise Bar among Sydney venues with Bromic Heating commercial patio heaters."
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "url": "https://images.squarespace-cdn.com/content/v1/6805a3bd0812803d6795a873/a4da82f0-a726-4022-b9cd-d10a971df2e4/CRUISE-BAR-RESTAURANT-6.png",
+     "page": "https://cruisebar.com.au/",
+     "owner": "Cruise Bar",
+     "shows_heater": "see library entry",
+     "library_id": "v-cruise-bar-sydney-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
+    }
+   ],
    "id": "WEB-034",
    "case_study": "CSP-08",
    "found": "2026-11-12",
@@ -1612,6 +1721,22 @@
      "url": "https://trends.archiexpo.com/bromic-heating/project-94052-245584.html",
      "owner": "Bromic Heating / ArchiExpo listing (photographer unknown)",
      "shows_heater": "unknown"
+    },
+    {
+     "url": "https://www.circulobellasartes.com/wp-content/uploads/2023/09/azotea-circulo-restauracion.jpg.webp",
+     "page": "https://www.circulobellasartes.com/en/azotea/",
+     "owner": "Círculo de Bellas Artes",
+     "shows_heater": "see library entry",
+     "library_id": "v-azotea-circulo-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
+    },
+    {
+     "url": "https://www.circulobellasartes.com/wp-content/uploads/2026/08/Circulo-espacio-Mayo-2547-ret.jpg",
+     "page": "https://www.circulobellasartes.com/en/azotea/",
+     "owner": "Círculo de Bellas Artes",
+     "shows_heater": "see library entry",
+     "library_id": "v-azotea-circulo-2",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
     }
    ],
    "id": "WEB-036",
@@ -1654,6 +1779,14 @@
      "url": "https://www.manorrealestate.com.au/8910/18-daniel-avenue-baulkham-hills",
      "owner": "Manor Real Estate / its photographer (listing gallery)",
      "shows_heater": "unknown"
+    },
+    {
+     "url": "https://manorre.edge.pushcreative.com.au/8910/1024_8910p-6vi-i2ds72dqg9nd3ddt.jpg.webp",
+     "page": "https://www.manorrealestate.com.au/8910/18-daniel-avenue-baulkham-hills",
+     "owner": "Manor Real Estate",
+     "shows_heater": "see library entry",
+     "library_id": "v-baulkham-hills-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
     }
    ],
    "evidence": "page read",
@@ -1754,6 +1887,14 @@
      "url": "http://www.melbourneawningcentre.com.au/products/bromic-gas",
      "owner": "Melbourne Awning Centre",
      "shows_heater": "unknown"
+    },
+    {
+     "url": "https://www.crownmelbourne.com.au/getmedia/0fc0de76-0c4d-4bdb-97ff-aabd9f5b3c9f/220202-Crown-Melbourne-Restaurants_BistroG5-1200px.jpg",
+     "page": "https://www.crownmelbourne.com.au/restaurants/premium/bistro-guillaume",
+     "owner": "Crown Melbourne",
+     "shows_heater": "see library entry",
+     "library_id": "v-bistro-guillaume-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
     }
    ],
    "evidence": "snippet only",
@@ -1883,6 +2024,14 @@
      "url": "https://gunnpegelow.com/resources/case-studies/the-trade-hotel/",
      "owner": "Gunn & Pegelow (page); hotel/photographer unknown",
      "shows_heater": "unknown"
+    },
+    {
+     "url": "https://gunnpegelow.com/wp-content/uploads/2024/01/trade-hotel.png",
+     "page": "https://gunnpegelow.com/resources/case-studies/the-trade-hotel/",
+     "owner": "Gunn & Pegelow",
+     "shows_heater": "see library entry",
+     "library_id": "v-trade-hotel-milwaukee-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
     }
    ],
    "evidence": "page read",
@@ -1935,19 +2084,25 @@
      "shows_heater": true
     },
     {
-     "url": "https://gunnpegelow.com/wp-content/uploads/2024/04/greenwood-2.png",
-     "owner": "Gunn & Pegelow / restaurant (rights unknown)",
-     "shows_heater": "unknown"
-    },
-    {
-     "url": "https://gunnpegelow.com/wp-content/uploads/2024/04/greenwood-3.png",
-     "owner": "Gunn & Pegelow / restaurant (rights unknown)",
-     "shows_heater": "unknown"
-    },
-    {
      "url": "https://gunnpegelow.com/wp-content/uploads/2024/04/layout-3.webp",
      "owner": "Gunn & Pegelow (heat layout drawing)",
      "shows_heater": "unknown"
+    },
+    {
+     "url": "https://gunnpegelow.com/wp-content/uploads/2024/04/greenwood-2.png",
+     "page": "https://gunnpegelow.com/resources/case-studies/greenwood-restaurant/",
+     "owner": "Gunn & Pegelow",
+     "shows_heater": "see library entry",
+     "library_id": "v-greenwood-highwood-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
+    },
+    {
+     "url": "https://gunnpegelow.com/wp-content/uploads/2024/04/greenwood-3.png",
+     "page": "https://gunnpegelow.com/resources/case-studies/greenwood-restaurant/",
+     "owner": "Gunn & Pegelow",
+     "shows_heater": "see library entry",
+     "library_id": "v-greenwood-highwood-2",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
     }
    ],
    "evidence": "page read",
@@ -2003,6 +2158,22 @@
      "url": "https://gunnpegelow.com/wp-content/uploads/2024/01/howard-park-public-house-1.png",
      "owner": "Gunn & Pegelow (rights unknown)",
      "shows_heater": "unknown"
+    },
+    {
+     "url": "https://gunnpegelow.com/wp-content/uploads/2024/01/howard-park-public-house-3.png",
+     "page": "https://gunnpegelow.com/resources/case-studies/howard-park-public-house/",
+     "owner": "Gunn & Pegelow",
+     "shows_heater": "see library entry",
+     "library_id": "v-howard-park-south-bend-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
+    },
+    {
+     "url": "https://gunnpegelow.com/wp-content/uploads/2024/01/howard-park-public-house-4.png",
+     "page": "https://gunnpegelow.com/resources/case-studies/howard-park-public-house/",
+     "owner": "Gunn & Pegelow",
+     "shows_heater": "see library entry",
+     "library_id": "v-howard-park-south-bend-2",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
     }
    ],
    "evidence": "page read",
@@ -2044,19 +2215,25 @@
    ],
    "images": [
     {
-     "url": "https://gunnpegelow.com/wp-content/uploads/2024/07/Bromic-Tungsten-Black-Alumni-Suite-Lambeau-Field_1.png",
-     "owner": "Gunn & Pegelow / Green Bay Packers (rights unknown)",
-     "shows_heater": true
-    },
-    {
-     "url": "https://gunnpegelow.com/wp-content/uploads/2024/07/Bromic-Tungsten-Black-Alumni-Suite-Lambeau-Field_3.png",
-     "owner": "Gunn & Pegelow / Green Bay Packers (rights unknown)",
-     "shows_heater": true
-    },
-    {
      "url": "https://gunnpegelow.com/wp-content/uploads/2024/07/Bromic-Tungsten-Black-Alumni-Suite-Lambeau-Field_4.png",
      "owner": "Gunn & Pegelow / Green Bay Packers (rights unknown)",
      "shows_heater": true
+    },
+    {
+     "url": "https://gunnpegelow.com/wp-content/uploads/2024/07/Bromic-Tungsten-Black-Alumni-Suite-Lambeau-Field_1.png",
+     "page": "https://gunnpegelow.com/resources/case-studies/lambeau-field-alumni-suite-terrace/",
+     "owner": "Gunn & Pegelow",
+     "shows_heater": "see library entry",
+     "library_id": "v-lambeau-alumni-terrace-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
+    },
+    {
+     "url": "https://gunnpegelow.com/wp-content/uploads/2024/07/Bromic-Tungsten-Black-Alumni-Suite-Lambeau-Field_3.png",
+     "page": "https://gunnpegelow.com/resources/case-studies/lambeau-field-alumni-suite-terrace/",
+     "owner": "Gunn & Pegelow",
+     "shows_heater": "see library entry",
+     "library_id": "v-lambeau-alumni-terrace-2",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
     }
    ],
    "evidence": "page read",
@@ -2099,13 +2276,19 @@
    "images": [
     {
      "url": "https://gunnpegelow.com/wp-content/uploads/2024/07/Catch-the-Wave-Bromic-Patio-Heaters-on-East-Elevation.png",
-     "owner": "Gunn & Pegelow / Catch the Wave (rights unknown)",
-     "shows_heater": true
+     "page": "https://gunnpegelow.com/resources/case-studies/catch-the-wave-swim-school/",
+     "owner": "Gunn & Pegelow",
+     "shows_heater": "see library entry",
+     "library_id": "v-catch-the-wave-beloit-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
     },
     {
      "url": "https://gunnpegelow.com/wp-content/uploads/2024/07/Catch-the-Wave-Bromic-Patio-Heaters-Looking-North-_1.png",
-     "owner": "Gunn & Pegelow / Catch the Wave (rights unknown)",
-     "shows_heater": true
+     "page": "https://gunnpegelow.com/resources/case-studies/catch-the-wave-swim-school/",
+     "owner": "Gunn & Pegelow",
+     "shows_heater": "see library entry",
+     "library_id": "v-catch-the-wave-beloit-2",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
     }
    ],
    "evidence": "page read",
@@ -2161,6 +2344,14 @@
      "url": "https://bellaoutdoor.ca/wp-content/smush-avif/2026/02/IMG_2129.jpeg.avif",
      "owner": "Bella Outdoor Living",
      "shows_heater": "unknown"
+    },
+    {
+     "url": "https://bellaoutdoor.ca/wp-content/smush-avif/2026/02/Predator-Ridge-scaled.jpg.avif",
+     "page": "https://bellaoutdoor.ca/project/predator-ridge-range-restaurant-bar/",
+     "owner": "Bella Outdoor Living",
+     "shows_heater": "see library entry",
+     "library_id": "v-predator-ridge-range-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
     }
    ],
    "evidence": "page read",
@@ -2204,6 +2395,14 @@
      "url": "https://bellaoutdoor.ca/wp-content/smush-avif/2025/11/completed-1.jpg.avif",
      "owner": "Bella Outdoor Living",
      "shows_heater": "unknown"
+    },
+    {
+     "url": "https://bellaoutdoor.ca/wp-content/smush-avif/2025/11/Completed-4.jpg.avif",
+     "page": "https://bellaoutdoor.ca/project/turtle-bay-pub-at-wood-lake/",
+     "owner": "Bella Outdoor Living",
+     "shows_heater": "see library entry",
+     "library_id": "v-turtle-bay-pub-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
     }
    ],
    "evidence": "page read",
@@ -2336,7 +2535,16 @@
      "says": "Venue page for the Battersea restaurant (address only; does not mention Bromic)."
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "url": "https://a.storyblok.com/f/286316/1200x800/1647be49d0/batt-outside.jpg",
+     "page": "https://www.sticksnsushi.com/gb/en/restaurants/battersea",
+     "owner": "Sticks'n'Sushi",
+     "shows_heater": "see library entry",
+     "library_id": "v-sticks-n-sushi-battersea-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
+    }
+   ],
    "evidence": "bromic listing",
    "id": "WEB-052",
    "found": "2026-11-12",
@@ -2387,7 +2595,16 @@
      "says": "Project page for Dishoom Battersea surfaced in search; the snippet did not mention Bromic. Worth reading to see if it names the heaters or the fit-out team."
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "url": "https://fine-elk.transforms.svdcdn.com/production/images/11_2024-02-27-103745_ltoe.png?w=1920&h=1080&auto=compress%2Cformat&fit=crop&dm=1709030926&s=9515a9305d4d2c15991e6fff2003ff3c",
+     "page": "https://insideoutcontracts.com/projects/dishoom-battersea",
+     "owner": "Inside Out Contracts",
+     "shows_heater": "see library entry",
+     "library_id": "v-dishoom-battersea-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
+    }
+   ],
    "evidence": "bromic listing",
    "id": "WEB-053",
    "found": "2026-11-12",
@@ -2510,6 +2727,14 @@
      "url": "https://www.prnewswire.com/news-releases/deckorators-declares-2026-the-year-of-the-front-yard-302685691.html",
      "owner": "Deckorators / Premier Outdoor Living",
      "shows_heater": "unknown"
+    },
+    {
+     "url": "https://mma.prnewswire.com/media/2902283/Deckorators_Image.jpg?p=facebook",
+     "page": "https://www.prnewswire.com/news-releases/deckorators-declares-2026-the-year-of-the-front-yard-302685691.html",
+     "owner": "Deckorators",
+     "shows_heater": "see library entry",
+     "library_id": "v-deckorators-front-yard-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
     }
    ],
    "evidence": "page read",
@@ -2565,6 +2790,14 @@
      "url": "https://studiohighfield.com/babylon-rooftop/",
      "owner": "Studio Highfield",
      "shows_heater": "unknown"
+    },
+    {
+     "url": "https://www.venue.net.au/wp-content/uploads/2020/12/BabylonVenue_Credit_StevenWoodburn_20190617-15.jpg",
+     "page": "https://www.venue.net.au/babylon-rooftop-bar-restaurant/",
+     "owner": "Venue magazine",
+     "shows_heater": "see library entry",
+     "library_id": "v-babylon-sydney-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
     }
    ],
    "evidence": "page read",
@@ -2622,6 +2855,14 @@
      "url": "https://www.venue.net.au/index.php/my-product/squires-landing/",
      "owner": "Venue Magazine / Mantle Group",
      "shows_heater": "unknown"
+    },
+    {
+     "url": "https://www.beerandbrewer.com/wp-content/uploads/2018/05/JSQ_051803_TSLBrewerProfile-4965.jpg",
+     "page": "https://www.beerandbrewer.com/a-peek-inside-squires-landing/",
+     "owner": "Beer & Brewer",
+     "shows_heater": "see library entry",
+     "library_id": "v-squires-landing-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
     }
    ],
    "evidence": "snippet only",
@@ -2697,7 +2938,16 @@
      "says": "Search result summary: Platinum Smart-Heat Electric units flush-mounted into the eaves and ceilings so they are hard to spot as heaters, each covering up to 6 m². The page returns 404 from this session."
     }
    ],
-   "images": [],
+   "images": [
+    {
+     "url": "https://headlandshotel.com.au/wp-content/uploads/2026/10/feature-banner-dine.jpg",
+     "page": "https://headlandshotel.com.au/",
+     "owner": "Headlands Hotel",
+     "shows_heater": "see library entry",
+     "library_id": "v-headlands-hotel-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
+    }
+   ],
    "evidence": "snippet only",
    "id": "WEB-060",
    "case_study": "CSP-25",
@@ -2739,6 +2989,14 @@
      "url": "https://issuu.com/theintermediagroup/docs/australian_hotelier_august_2022/s/16584437",
      "owner": "Australian Hotelier",
      "shows_heater": "unknown"
+    },
+    {
+     "url": "https://images.squarespace-cdn.com/content/v1/5ec1e96ec7bed153d0dc8eed/1630037627508-FN5QIM67KRR4LOG6QQ2A/Gallery-2.jpg",
+     "page": "https://sunnybankhotel.com.au/",
+     "owner": "Sunnybank Hotel",
+     "shows_heater": "see library entry",
+     "library_id": "v-sunnybank-hotel-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
     }
    ],
    "evidence": "snippet only",
@@ -2782,6 +3040,14 @@
      "url": "https://mughet.ca/fr/articles/foyer-exterieur-chauffe-terrasse-quebec",
      "owner": "Mughet",
      "shows_heater": "unknown"
+    },
+    {
+     "url": "https://mughet.ca/sites/default/files/inline-images/PMV-161_0.jpg",
+     "page": "https://mughet.ca/fr/articles/foyer-exterieur-chauffe-terrasse-quebec",
+     "owner": "Mughet",
+     "shows_heater": "see library entry",
+     "library_id": "v-mughet-blainville-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
     }
    ],
    "evidence": "page read",
@@ -2832,6 +3098,14 @@
      "url": "https://mughet.ca/en/past-projects",
      "owner": "Mughet",
      "shows_heater": "unknown"
+    },
+    {
+     "url": "https://mughet.ca/sites/default/files/styles/slider/public/paragraphs/40/46384532612833137964530972386984095490245038n.jpg.webp",
+     "page": "https://mughet.ca/en/articles/heatsail-infrared-heat",
+     "owner": "Mughet",
+     "shows_heater": "see library entry",
+     "library_id": "v-mughet-saint-hippolyte-1",
+     "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish – Marketing]]"
     }
    ],
    "evidence": "page read",

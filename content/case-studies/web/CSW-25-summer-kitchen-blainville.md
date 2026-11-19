@@ -9,9 +9,9 @@ cell: RES-IN
 asset: A19
 summary: "In a Blainville backyard, closing the exposed side with motorised screens first meant two Tungsten Smart-Heat heaters were enough where four had been planned."
 cta: {label: "Book a design consult", asset: A07}
-hero: w-240619-yorba-linda-ca-dc-64
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["w-240619-yorba-linda-ca-dc-64"]
+hero: v-mughet-blainville-1
+hero_caption: "Photo: Mughet, via mughet.ca. Permission to publish to be confirmed."
+images: ["v-mughet-blainville-1"]
 owner_review: "Canada sales [[VERIFY: Canada lead]]"
 status: draft
 source_kind: web-find
@@ -59,11 +59,11 @@ Half the heaters once the wind is blocked: a simple, measured case for planning 
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:w-240619-yorba-linda-ca-dc-64)
+![Tungsten heaters hung from the timber ceiling of a covered summer kitchen, Blainville](img:v-mughet-blainville-1)
 
-No licensed photograph of this project is held. The image above shows a comparable Bromic installation and must be replaced before publication.
+Photo: Mughet, via mughet.ca. A third-party photo of this project, approved for internal Hub use; permission to publish to be confirmed with the owner.
 
-**Photos to request** (owned by others; not copied into the library):
+**Photos to request** (owned by others; permission to publish to be confirmed):
 
 - https://mughet.ca/fr/articles/foyer-exterieur-chauffe-terrasse-quebec (Mughet project photography)
 

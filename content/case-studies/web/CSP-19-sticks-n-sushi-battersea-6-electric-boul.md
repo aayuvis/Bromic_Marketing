@@ -9,9 +9,9 @@ cell: COM-IN
 asset: A23
 summary: "On the pedestrian Electric Boulevard at Battersea Power Station, Sticks'n'Sushi opened in late 2024, and LinkedIn posts by Bromic Heating staff say Bromic Eclipse heaters are installed there."
 cta: {label: "Book a design consult", asset: A07}
-hero: l-013-111
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["l-013-111"]
+hero: v-sticks-n-sushi-battersea-1
+hero_caption: "Photo: Sticks'n'Sushi, via sticksnsushi.com. Permission to publish to be confirmed."
+images: ["v-sticks-n-sushi-battersea-1"]
 owner_review: "Bromic UK [[VERIFY: UK regional lead]]"
 status: draft
 source_kind: web-find
@@ -67,11 +67,11 @@ Battersea Power Station is a high-profile London regeneration scheme, and here t
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:l-013-111)
+![Sticks'n'Sushi Battersea's entrance and covered terrace on Electric Boulevard](img:v-sticks-n-sushi-battersea-1)
 
-No licensed photograph of this project is held. The image above shows a comparable Bromic installation and must be replaced before publication.
+Photo: Sticks'n'Sushi, via sticksnsushi.com. A third-party photo of this project, approved for internal Hub use; permission to publish to be confirmed with the owner.
 
-**Photos to request** (owned by others; not copied into the library):
+**Photos to request** (owned by others; permission to publish to be confirmed):
 
 - None found in public sources: ask the customer for project photography.
 

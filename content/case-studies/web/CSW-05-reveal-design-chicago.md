@@ -9,9 +9,9 @@ cell: ARC-IN
 asset: A19
 summary: "Chicago landscape design-build firm Reveal Design lists Bromic heaters on its louvered-pergola projects in Glenview and in North Center, Chicago."
 cta: {label: "Book a design consult", asset: A07}
-hero: w-240619-yorba-linda-ca-dc-64
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["w-240619-yorba-linda-ca-dc-64"]
+hero: v-reveal-north-center-1
+hero_caption: "Photo: Reveal Design, via revealdesignchicago.com. Permission to publish to be confirmed."
+images: ["v-reveal-north-center-1", "v-reveal-glenview-1"]
 owner_review: US field sales
 status: draft
 source_kind: web-find
@@ -72,11 +72,13 @@ A landscape architect and design-build firm in a cold city that specifies Bromic
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:w-240619-yorba-linda-ca-dc-64)
+![Heaters under the louvres of a black pergola over a lounge, North Center, Chicago](img:v-reveal-north-center-1)
 
-No licensed photograph of these projects is held. The image shows a comparable Bromic installation hung from a pergola and must be replaced before publication.
+![Heater hung from a louvred pergola over a composite deck and dining table, Glenview](img:v-reveal-glenview-1)
 
-**Photos to request** (owned by others; not copied into the library):
+Photo: Reveal Design, via revealdesignchicago.com. A third-party photo of this project, approved for internal Hub use; permission to publish to be confirmed with the owner.
+
+**Photos to request** (owned by others; permission to publish to be confirmed):
 
 - Reveal Design project photography (revealdesignchicago.com), owned by Reveal Design
 

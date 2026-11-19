@@ -9,9 +9,9 @@ cell: COM-IN
 asset: A23
 summary: "In South Bend's Howard Park, Bromic Tungsten gas heaters around the building keep the year-round restaurant's patio and the skate-rental area comfortable through the colder months."
 cta: {label: "Book a design consult", asset: A07}
-hero: w-gasceilingmountpole246mm-lifestyle2-1
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["w-gasceilingmountpole246mm-lifestyle2-1"]
+hero: v-howard-park-south-bend-1
+hero_caption: "Photo: Gunn & Pegelow, via gunnpegelow.com. Permission to publish to be confirmed."
+images: ["v-howard-park-south-bend-1", "v-howard-park-south-bend-2"]
 owner_review: "US field sales"
 status: draft
 source_kind: web-find
@@ -65,11 +65,13 @@ A public-park restaurant beside an ice rink, used through winter in a snow-belt 
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:w-gasceilingmountpole246mm-lifestyle2-1)
+![Heaters mounted under the timber canopy of Howard Park Public House's patio, South Bend](img:v-howard-park-south-bend-1)
 
-No licensed photograph of this project is held. The image above shows a comparable Bromic installation and must be replaced before publication.
+![A row of heaters along the stone and glass wall of Howard Park Public House's covered patio](img:v-howard-park-south-bend-2)
 
-**Photos to request** (owned by others; not copied into the library):
+Photo: Gunn & Pegelow, via gunnpegelow.com. A third-party photo of this project, approved for internal Hub use; permission to publish to be confirmed with the owner.
+
+**Photos to request** (owned by others; permission to publish to be confirmed):
 
 - https://gunnpegelow.com/wp-content/uploads/2024/01/howard-park.webp (Gunn & Pegelow / City of South Bend (rights unknown))
 - https://gunnpegelow.com/wp-content/uploads/2024/01/howard-park-public-house-1.png (Gunn & Pegelow (rights unknown))

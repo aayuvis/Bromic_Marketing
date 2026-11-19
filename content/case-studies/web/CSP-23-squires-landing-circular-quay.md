@@ -9,9 +9,9 @@ cell: COM-IN
 asset: A23
 summary: "At the Overseas Passenger Terminal, The Squire's Landing warms about 240 seats with Platinum Smart-Heat gas heaters, with a heat plan from the planning stage."
 cta: {label: "Book a design consult", asset: A07}
-hero: w-26962413-10155347734127686-68414710268315124
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["w-26962413-10155347734127686-68414710268315124"]
+hero: v-squires-landing-1
+hero_caption: "Photo: Beer & Brewer, via beerandbrewer.com. Permission to publish to be confirmed."
+images: ["v-squires-landing-1"]
 owner_review: "Hospitality sales [[VERIFY: AU regional lead]]"
 status: draft
 source_kind: web-find
@@ -69,11 +69,11 @@ A harbour-front landmark where heat was planned before opening, and a repeat cus
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:w-26962413-10155347734127686-68414710268315124)
+![The Squire's Landing dining hall under a timber ceiling, harbour glazing on the left](img:v-squires-landing-1)
 
-No licensed photograph of this project is held. The image above shows a comparable Bromic installation and must be replaced before publication.
+Photo: Beer & Brewer, via beerandbrewer.com. A third-party photo of this project, approved for internal Hub use; permission to publish to be confirmed with the owner.
 
-**Photos to request** (owned by others; not copied into the library):
+**Photos to request** (owned by others; permission to publish to be confirmed):
 
 - None found in public sources: ask the customer for project photography.
 

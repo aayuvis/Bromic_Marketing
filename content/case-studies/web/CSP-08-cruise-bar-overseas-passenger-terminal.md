@@ -9,9 +9,9 @@ cell: COM-IN
 asset: A23
 summary: "The same US dealer page names Cruise Bar at the Overseas Passenger Terminal among the Sydney venues with Bromic commercial heaters. The installation itself is still to be confirmed."
 cta: {label: "Book a design consult", asset: A07}
-hero: l-013-107
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["l-013-107"]
+hero: v-cruise-bar-sydney-1
+hero_caption: "Photo: Cruise Bar, via cruisebar.com.au. Permission to publish to be confirmed."
+images: ["v-cruise-bar-sydney-1"]
 owner_review: "Bromic AU [[VERIFY: AU regional lead]]"
 status: draft
 source_kind: web-find
@@ -54,11 +54,11 @@ A waterfront bar on the Harbour, open to the wind, could tell a strong story abo
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:l-013-107)
+![Cruise Bar's harbourside terrace looking across to the Opera House](img:v-cruise-bar-sydney-1)
 
-No licensed photograph of this project is held. The image above shows a comparable Bromic installation and must be replaced before publication.
+Photo: Cruise Bar, via cruisebar.com.au. A third-party photo of this project, approved for internal Hub use; permission to publish to be confirmed with the owner.
 
-**Photos to request** (owned by others; not copied into the library):
+**Photos to request** (owned by others; permission to publish to be confirmed):
 
 - None found in public sources: ask the customer for project photography.
 

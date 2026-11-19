@@ -9,9 +9,9 @@ cell: COM-IN
 asset: A23
 summary: "Seven floors above Madrid, the rooftop bar and restaurant of the Círculo de Bellas Artes, celebrated for its view across the city, is warmed by Platinum Smart-Heat Electric heaters."
 cta: {label: "Get the architect spec kit", asset: A11}
-hero: t-006-016
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["t-006-016"]
+hero: v-azotea-circulo-1
+hero_caption: "Photo: Círculo de Bellas Artes, via circulobellasartes.com. Permission to publish to be confirmed."
+images: ["v-azotea-circulo-1", "v-azotea-circulo-2"]
 owner_review: "Bromic EU [[VERIFY: EU regional lead]]"
 status: draft
 source_kind: web-find
@@ -64,11 +64,13 @@ A landmark European rooftop makes a fine reference for rooftop bars and cultural
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:t-006-016)
+![Covered dining area on the Azotea del Círculo rooftop, Madrid, with the city beyond](img:v-azotea-circulo-1)
 
-No licensed photograph of this project is held. The image above shows a comparable Bromic installation and must be replaced before publication.
+![The open Azotea del Círculo rooftop terrace and its statue above Madrid](img:v-azotea-circulo-2)
 
-**Photos to request** (owned by others; not copied into the library):
+Photo: Círculo de Bellas Artes, via circulobellasartes.com. A third-party photo of this project, approved for internal Hub use; permission to publish to be confirmed with the owner.
+
+**Photos to request** (owned by others; permission to publish to be confirmed):
 
 - Project photography on Bromic's ArchiExpo listing (likely Bromic's own: check the EU team)
 

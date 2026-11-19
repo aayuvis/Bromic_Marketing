@@ -9,9 +9,9 @@ cell: COM-IN
 asset: A23
 summary: "A swim school in South Beloit warms its 40 by 20 ft covered patio with Bromic Tungsten electric heaters placed to a Bromic layout, each on its own dimmer from 0 to 100%."
 cta: {label: "Book a design consult", asset: A07}
-hero: w-23-03-12-bromic-heating-hyatt-dehradun-52
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["w-23-03-12-bromic-heating-hyatt-dehradun-52"]
+hero: v-catch-the-wave-beloit-1
+hero_caption: "Photo: Gunn & Pegelow, via gunnpegelow.com. Permission to publish to be confirmed."
+images: ["v-catch-the-wave-beloit-1", "v-catch-the-wave-beloit-2"]
 owner_review: "US field sales"
 status: draft
 source_kind: web-find
@@ -59,11 +59,13 @@ Beyond hospitality, in leisure and education, this is a tidy small-commercial ex
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:w-23-03-12-bromic-heating-hyatt-dehradun-52)
+![Wall-mounted heaters above the windows of Catch the Wave Swim School's covered patio, South Beloit](img:v-catch-the-wave-beloit-1)
 
-No licensed photograph of this project is held. The image above shows a comparable Bromic installation and must be replaced before publication.
+![Heaters along the gable roof of Catch the Wave Swim School's covered patio, looking north](img:v-catch-the-wave-beloit-2)
 
-**Photos to request** (owned by others; not copied into the library):
+Photo: Gunn & Pegelow, via gunnpegelow.com. A third-party photo of this project, approved for internal Hub use; permission to publish to be confirmed with the owner.
+
+**Photos to request** (owned by others; permission to publish to be confirmed):
 
 - https://gunnpegelow.com/wp-content/uploads/2024/07/Catch-the-Wave-Bromic-Patio-Heaters-on-East-Elevation.png (Gunn & Pegelow / Catch the Wave (rights unknown))
 - https://gunnpegelow.com/wp-content/uploads/2024/07/Catch-the-Wave-Bromic-Patio-Heaters-Looking-North-_1.png (Gunn & Pegelow / Catch the Wave (rights unknown))

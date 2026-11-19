@@ -9,9 +9,9 @@ cell: COM-IN
 asset: A23
 summary: "On the 800 sq ft terrace of the Alumni Suite at the Green Bay Packers' stadium, six black Tungsten 4 kW 277V electric heaters, each on its own dimmer, keep fans comfortable through late-season games."
 cta: {label: "Book a design consult", asset: A07}
-hero: w-23-03-12-bromic-heating-hyatt-dehradun-49
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["w-23-03-12-bromic-heating-hyatt-dehradun-49"]
+hero: v-lambeau-alumni-terrace-1
+hero_caption: "Photo: Gunn & Pegelow, via gunnpegelow.com. Permission to publish to be confirmed."
+images: ["v-lambeau-alumni-terrace-1", "v-lambeau-alumni-terrace-2"]
 owner_review: "US field sales"
 status: draft
 source_kind: web-find
@@ -59,11 +59,13 @@ A famous NFL stadium terrace in one of the coldest US markets, with quantity, vo
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:w-23-03-12-bromic-heating-hyatt-dehradun-49)
+![Alumni Suite Terrace at Lambeau Field, high-top tables under the stadium structure facing the bowl](img:v-lambeau-alumni-terrace-1)
 
-No licensed photograph of this project is held. The image above shows a comparable Bromic installation and must be replaced before publication.
+![Black Tungsten heater on a drop rod above tables on the Lambeau Field Alumni Suite Terrace](img:v-lambeau-alumni-terrace-2)
 
-**Photos to request** (owned by others; not copied into the library):
+Photo: Gunn & Pegelow, via gunnpegelow.com. A third-party photo of this project, approved for internal Hub use; permission to publish to be confirmed with the owner.
+
+**Photos to request** (owned by others; permission to publish to be confirmed):
 
 - https://gunnpegelow.com/wp-content/uploads/2024/07/Bromic-Tungsten-Black-Alumni-Suite-Lambeau-Field_1.png (Gunn & Pegelow / Green Bay Packers (rights unknown))
 - https://gunnpegelow.com/wp-content/uploads/2024/07/Bromic-Tungsten-Black-Alumni-Suite-Lambeau-Field_3.png (Gunn & Pegelow / Green Bay Packers (rights unknown))

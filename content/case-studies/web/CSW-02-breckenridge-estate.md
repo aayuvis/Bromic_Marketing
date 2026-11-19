@@ -9,9 +9,9 @@ cell: RES-IN
 asset: A10
 summary: "In Breckenridge, Colorado, a new-build mountain estate listed at about $25M brings a Hestan outdoor kitchen and Bromic heaters together on its terraces."
 cta: {label: "Book a design consult", asset: A07}
-hero: w-mountain-view-retreat-platinum-electric-rece
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["w-mountain-view-retreat-platinum-electric-rece"]
+hero: v-breckenridge-estate-1
+hero_caption: "Photo: Listing photography (Engel & Völkers Denver listing), via breckenridgehomes.net. Permission to publish to be confirmed."
+images: ["v-breckenridge-estate-1"]
 owner_review: US field sales
 status: draft
 source_kind: web-find
@@ -66,11 +66,11 @@ In the Mountain West, outdoor living depends on heat, and this cold-climate, top
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:w-mountain-view-retreat-platinum-electric-rece)
+![Stone-paved terrace of the Breckenridge estate looking over forest and mountains at sunset](img:v-breckenridge-estate-1)
 
-No licensed photograph of this project is held. The image above shows a comparable Bromic installation and must be replaced before publication.
+Photo: Listing photography (Engel & Völkers Denver listing), via breckenridgehomes.net. A third-party photo of this project, approved for internal Hub use; permission to publish to be confirmed with the owner.
 
-**Photos to request** (owned by others; not copied into the library):
+**Photos to request** (owned by others; permission to publish to be confirmed):
 
 - Listing photography (breckenridgehomes.net and the listing agent), owned by the agent or photographer
 

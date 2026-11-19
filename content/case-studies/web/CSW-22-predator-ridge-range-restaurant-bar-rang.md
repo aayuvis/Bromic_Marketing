@@ -9,9 +9,9 @@ cell: COM-IN
 asset: A23
 summary: "At the Predator Ridge golf resort, a retractable-roof pergola with fourteen 6000W Bromic electric heaters, LED lighting and screens turned the Range restaurant's patio into a three-season dining room."
 cta: {label: "Book a design consult", asset: A07}
-hero: w-bromic-tungsten-electric-black-recessed
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["w-bromic-tungsten-electric-black-recessed"]
+hero: v-predator-ridge-range-1
+hero_caption: "Photo: Bella Outdoor Living, via bellaoutdoor.ca. Permission to publish to be confirmed."
+images: ["v-predator-ridge-range-1"]
 owner_review: "Canada sales [[VERIFY: Canada lead]]"
 status: draft
 source_kind: web-find
@@ -65,11 +65,11 @@ Fourteen heaters in a retractable pergola at a Canadian golf-resort club make a 
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:w-bromic-tungsten-electric-black-recessed)
+![Range Restaurant & Bar patio at Predator Ridge under a retractable roof, heaters on the posts](img:v-predator-ridge-range-1)
 
-No licensed photograph of this project is held. The image above shows a comparable Bromic installation and must be replaced before publication.
+Photo: Bella Outdoor Living, via bellaoutdoor.ca. A third-party photo of this project, approved for internal Hub use; permission to publish to be confirmed with the owner.
 
-**Photos to request** (owned by others; not copied into the library):
+**Photos to request** (owned by others; permission to publish to be confirmed):
 
 - https://bellaoutdoor.ca/wp-content/smush-avif/2026/02/Predator-Ridge-1024x768.jpg.avif (Bella Outdoor Living)
 - https://bellaoutdoor.ca/wp-content/smush-avif/2026/02/IMG_2129.jpeg.avif (Bella Outdoor Living)

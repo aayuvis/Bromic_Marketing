@@ -9,9 +9,9 @@ cell: RES-IN
 asset: A19
 summary: "By a lake in Saint-Hippolyte, Tungsten Smart-Heat heaters spread warmth along a long open summer kitchen, chosen because they disappear into the structure."
 cta: {label: "Book a design consult", asset: A07}
-hero: l-001-000
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["l-001-000"]
+hero: v-mughet-saint-hippolyte-1
+hero_caption: "Photo: Mughet, via mughet.ca. Permission to publish to be confirmed."
+images: ["v-mughet-saint-hippolyte-1"]
 owner_review: "Canada sales [[VERIFY: Canada lead]]"
 status: draft
 source_kind: web-find
@@ -66,11 +66,11 @@ An installer's own reasoning for Bromic in an open, exposed space, with design p
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:l-001-000)
+![Tungsten heaters under the roof of an open summer kitchen beside a pool, Saint-Hippolyte](img:v-mughet-saint-hippolyte-1)
 
-No licensed photograph of this project is held. The image above shows a comparable Bromic installation and must be replaced before publication.
+Photo: Mughet, via mughet.ca. A third-party photo of this project, approved for internal Hub use; permission to publish to be confirmed with the owner.
 
-**Photos to request** (owned by others; not copied into the library):
+**Photos to request** (owned by others; permission to publish to be confirmed):
 
 - https://mughet.ca/en/past-projects (Mughet project photography)
 

@@ -9,9 +9,9 @@ cell: RES-IN
 asset: A19
 summary: "In a Deckorators front-yard redesign at a New Jersey farmhouse-style home, an all-season lounge with built-in Bromic Platinum Electric heaters sits beside a custom Deckorators swing bed."
 cta: {label: "Book a design consult", asset: A07}
-hero: w-26-bromic-morningcoffee-0251-opt
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["w-26-bromic-morningcoffee-0251-opt"]
+hero: v-deckorators-front-yard-1
+hero_caption: "Photo: Deckorators, via prnewswire.com. Permission to publish to be confirmed."
+images: ["v-deckorators-front-yard-1"]
 owner_review: "US field sales"
 status: draft
 source_kind: web-find
@@ -58,11 +58,11 @@ A US front-yard project backed by a national decking brand and a certified contr
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:w-26-bromic-morningcoffee-0251-opt)
+![Front porch and deck of the Deckorators front-yard project at dusk, lit steps and planters](img:v-deckorators-front-yard-1)
 
-No licensed photograph of this project is held. The image above shows a comparable Bromic installation and must be replaced before publication.
+Photo: Deckorators, via prnewswire.com. A third-party photo of this project, approved for internal Hub use; permission to publish to be confirmed with the owner.
 
-**Photos to request** (owned by others; not copied into the library):
+**Photos to request** (owned by others; permission to publish to be confirmed):
 
 - https://www.prnewswire.com/news-releases/deckorators-declares-2026-the-year-of-the-front-yard-302685691.html (Deckorators / Premier Outdoor Living)
 

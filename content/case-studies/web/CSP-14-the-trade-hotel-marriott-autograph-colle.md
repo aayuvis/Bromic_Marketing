@@ -9,9 +9,9 @@ cell: COM-IN
 asset: A23
 summary: "At The Trade, an Autograph Collection hotel beside Fiserv Forum, Bromic electric patio heaters warm the lounge, the suite patios and il cervo, the ninth-floor rooftop restaurant, laid out by NCG with Bromic's design team."
 cta: {label: "Book a design consult", asset: A07}
-hero: l-002-005
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["l-002-005"]
+hero: v-trade-hotel-milwaukee-1
+hero_caption: "Photo: Gunn & Pegelow, via gunnpegelow.com. Permission to publish to be confirmed."
+images: ["v-trade-hotel-milwaukee-1"]
 owner_review: "US field sales"
 status: draft
 source_kind: web-find
@@ -58,11 +58,11 @@ A branded Marriott hotel rooftop restaurant in a cold Midwest city, with a named
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:l-002-005)
+![Round pendant heaters hanging from a timber soffit at the entrance of The Trade Hotel, Milwaukee](img:v-trade-hotel-milwaukee-1)
 
-No licensed photograph of this project is held. The image above shows a comparable Bromic installation and must be replaced before publication.
+Photo: Gunn & Pegelow, via gunnpegelow.com. A third-party photo of this project, approved for internal Hub use; permission to publish to be confirmed with the owner.
 
-**Photos to request** (owned by others; not copied into the library):
+**Photos to request** (owned by others; permission to publish to be confirmed):
 
 - https://gunnpegelow.com/resources/case-studies/the-trade-hotel/ (Gunn & Pegelow (page); hotel/photographer unknown)
 

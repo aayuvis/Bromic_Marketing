@@ -9,9 +9,9 @@ cell: COM-IN
 asset: A23
 summary: "On the roof of Customs House, harbour-view Café Sydney chose Platinum Smart-Heat gas heaters for its large outdoor terrace after seeing them at another venue, valuing the way they recede when off."
 cta: {label: "Book a design consult", asset: A07}
-hero: w-20-twenty-westin-carlsbad-6-1024x576-1
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["w-20-twenty-westin-carlsbad-6-1024x576-1"]
+hero: v-cafe-sydney-1
+hero_caption: "Photo: Bromic press release (2013), via venue.net.au. Permission to publish to be confirmed."
+images: ["v-cafe-sydney-1"]
 owner_review: "Bromic AU [[VERIFY: AU regional lead]]"
 status: draft
 source_kind: web-find
@@ -71,11 +71,11 @@ An iconic Sydney venue with an existing Bromic customer video is well worth refr
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:w-20-twenty-westin-carlsbad-6-1024x576-1)
+![Gas heater glowing under the retractable roof of Café Sydney's dining room at night](img:v-cafe-sydney-1)
 
-No licensed photograph of this project is held. The image above shows a comparable Bromic installation and must be replaced before publication.
+Photo: Bromic press release (2013), via venue.net.au. A third-party photo of this project, approved for internal Hub use; permission to publish to be confirmed with the owner.
 
-**Photos to request** (owned by others; not copied into the library):
+**Photos to request** (owned by others; permission to publish to be confirmed):
 
 - The Bromic customer video on YouTube (Bromic's own: check the AU team for stills)
 

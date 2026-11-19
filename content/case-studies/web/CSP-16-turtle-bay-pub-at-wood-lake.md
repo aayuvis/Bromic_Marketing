@@ -9,9 +9,9 @@ cell: COM-IN
 asset: A23
 summary: "Beside Wood Lake, the Turtle Bay Pub added a 13 ft high, 1,240 sq ft freestanding louvred pergola with motorised privacy screens over its patio, with Bromic gas heaters, adding about 50 seats for three seasons."
 cta: {label: "Book a design consult", asset: A07}
-hero: l-016-131
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["l-016-131"]
+hero: v-turtle-bay-pub-1
+hero_caption: "Photo: Bella Outdoor Living, via bellaoutdoor.ca. Permission to publish to be confirmed."
+images: ["v-turtle-bay-pub-1"]
 owner_review: "Canada sales [[VERIFY: Canada lead]]"
 status: draft
 source_kind: web-find
@@ -58,11 +58,11 @@ A recent (2025) Canadian pub with a clear revenue result, about 50 extra seats, 
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:l-016-131)
+![Gas heaters glowing under the louvred roof of Turtle Bay Pub's lakeside deck, Wood Lake](img:v-turtle-bay-pub-1)
 
-No licensed photograph of this project is held. The image above shows a comparable Bromic installation and must be replaced before publication.
+Photo: Bella Outdoor Living, via bellaoutdoor.ca. A third-party photo of this project, approved for internal Hub use; permission to publish to be confirmed with the owner.
 
-**Photos to request** (owned by others; not copied into the library):
+**Photos to request** (owned by others; permission to publish to be confirmed):
 
 - https://bellaoutdoor.ca/wp-content/smush-avif/2025/11/completed-1.jpg.avif (Bella Outdoor Living)
 
