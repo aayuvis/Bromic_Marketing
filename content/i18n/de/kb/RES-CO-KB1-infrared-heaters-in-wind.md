@@ -6,11 +6,11 @@ audience: [RES]
 stage: [CO]
 cell: RES-CO
 asset: null
-summary: "Warum Strahlungswärme Sie bei leichtem bis mäßigem Wind behaglich hält, welche Wellenlängen am besten damit zurechtkommen und wie Sie eine Terrasse planen, die auch bei auffrischendem Wind einladend bleibt."
+summary: "Warum Strahlungswärme Sie bei leichtem bis mäßigem Wind behaglich hält, warum Bromic die Mittelwelle gewählt hat und wie Sie eine Terrasse planen, die auch bei auffrischendem Wind einladend bleibt."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Funktionieren Infrarot-Heizstrahler bei Wind?"
-meta_description: "Funktionieren Infrarot-Heizstrahler bei Wind? Ja, bei leichtem bis mäßigem Wind, weil Infrarot Menschen direkt wärmt. Kurzwelle hält am besten."
+meta_description: "Funktionieren Infrarot-Heizstrahler bei Wind? Ja, bei leichtem bis mäßigem Wind, weil Infrarot Menschen direkt wärmt. Mittelwelle ist kaum windempfindlich."
 cta: {label: "Ihre Fläche berechnen", asset: A03}
 hero: l-019-161
 owner_review: Marketing
@@ -43,15 +43,17 @@ Ja – bei leichtem bis mäßigem Wind. Infrarot-Heizstrahler wärmen Menschen u
 
 ## Welche Infrarot-Heizstrahler kommen am besten mit Wind zurecht?
 
-Entscheidend ist die Wellenlänge – also wie viel der Leistung als Strahlungswärme bei Ihnen ankommt und wie viel als warme Luft.[^s1]
+Entscheidend ist die Wellenlänge. Die elektrischen Heizstrahler von Bromic sind mittelwellig, gewählt für Wärme, die an einem windigen Abend bis zu den hinteren Plätzen reicht, mit sanftem Licht und ohne Blendung [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]]:
 
-| Wellenlänge | Strahlungsanteil | Verhalten bei Wind | Aufheizzeit |
-|---|---|---|---|
-| Kurzwelle | ca. 90 % | Wärmt Menschen und Gegenstände direkt | Sofort |
-| Mittelwelle | ca. 60 % | Geringe Windempfindlichkeit | ca. 30 Sekunden |
-| Langwelle | ca. 40 % | Wird am leichtesten vom Wind verweht | ca. 5 Minuten |
+| | Heizfläche | Temperaturanstieg | Reichweite der Wärme | Sichtbares Glühen | Aufheizzeit |
+|---|---|---|---|---|---|
+| Kurzwelle | Kleiner | Geringer | Kürzer | Starkes Glühen und Blendung | Sofort[^s1] |
+| **Mittelwelle: Bromic Platinum, Eclipse und Tungsten Electric** | **Am größten** | **Am höchsten** | **Am weitesten** | **Sanft, kein störendes Glühen** | **Etwa 30 Sekunden[^s1]** |
+| Langwelle | Kleiner | Geringer | Am kürzesten; am stärksten windanfällig[^s1] | – | Etwa 5 Minuten[^s1] |
 
-Je höher der Strahlungsanteil, desto weniger kann der Wind davontragen. Bromic bezeichnet seinen Tungsten Smart-Heat Freestanding Gas als windbeständig.[^s2]
+Aufheizzeit und Wind: Bromic Planning Guide v1.2[^s1]. Heizfläche, Temperaturanstieg, Reichweite und Glühen: Bromic-Testdaten folgen. [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]] [[VERIFY: sichtbares Glühen und Blendung der Kurzwelle — Produktteam]]
+
+Mittelwelle ist nur begrenzt windempfindlich, Langwelle wird am leichtesten verweht.[^s1] Bromic bezeichnet seinen Tungsten Smart-Heat Freestanding Gas als windbeständig.[^s2]
 
 ## Eine Terrasse, die auch bei Wind warm bleibt
 
@@ -63,7 +65,7 @@ Je höher der Strahlungsanteil, desto weniger kann der Wind davontragen. Bromic 
 ## Das Wichtigste in Kürze
 
 - Infrarot funktioniert bei leichtem bis mäßigem Wind, weil es Menschen direkt wärmt.[^s1]
-- Kurz- und Mittelwelle sind am windfestesten; Langwelle ist am stärksten betroffen.[^s1]
+- Mittelwelle ist nur begrenzt windempfindlich und wärmt in etwa 30 Sekunden; Langwelle ist am stärksten betroffen.[^s1]
 - An exponierten Standorten kombinieren Sie einen Windschutz mit zusätzlicher Heizfläche.
 
 Ein windiger Standort verändert die Zahl der Heizstrahler. Berechnen Sie Ihre Fläche mit dem Bromic-Rechner.

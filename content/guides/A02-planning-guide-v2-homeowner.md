@@ -1,7 +1,7 @@
 ---
 id: A02-homeowner
 type: gated-guide
-title: "Planning Your Outdoor Heat"
+title: "Planning Your Outdoor Heat: Homeowner Edition"
 slug: outdoor-heating-planning-guide-homeowner
 audience: [RES]
 stage: [CO, IN]
@@ -11,7 +11,7 @@ summary: "Nine steps that take your patio from a summer space to a year-round ou
 primary_keyword: outdoor heating planning guide
 secondary_keywords: [cost to run patio heater, how many patio heaters do I need, electric vs gas patio heater, infrared patio heater]
 ai_prompt: "How do I plan outdoor heating for my patio?"
-meta_description: "Your outdoor heating planning guide: nine steps to a patio you can enjoy year-round, with sizing, running costs, controls and checklists."
+meta_description: "Your outdoor heating planning guide: nine steps to a patio you can enjoy year-round, with sizing, running costs, controls and notes."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-010-071
 images: [l-007-035, l-019-163, l-013-102, t-009-025, l-010-067]
@@ -143,17 +143,17 @@ sources:
     verified: false
   - id: s18
     publisher: U.S. Energy Information Administration
-    title: "Monthly Energy Review, August 2026, Figure 9.2 (average retail electricity price, commercial, May 2026)"
+    title: "Electric Power Monthly, Table 5.6.A: Average price of electricity to ultimate customers, residential (July 2026 data, as reported by ElectricRates.org and Cronista)"
     year: 2026
-    url: https://www.eia.gov/totalenergy/data/monthly/
-    supports: "US commercial average electricity price 13.54 cents/kWh, May 2026 (rate used in the A20 TCO model)"
+    url: https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a
+    supports: "US average residential electricity price 18.3 cents/kWh, July 2026 (rate used in RES-IN-01)"
     verified: false
   - id: s19
     publisher: U.S. Energy Information Administration
-    title: "Natural Gas Prices, US commercial price, monthly"
+    title: "Natural Gas Prices, US residential price, monthly"
     year: 2026
     url: https://www.eia.gov/dnav/ng/ng_pri_sum_dcu_nus_m.htm
-    supports: "US commercial natural gas, January–May 2026 average $9.03 per thousand cubic feet, about $0.87 per therm at 10.36 therms per Mcf (rate used in the A20 TCO model)"
+    supports: "US residential natural gas price $26.45 per thousand cubic feet, July 2026; about $2.55 per therm at 10.37 therms per Mcf (EIA 2025 heat content; rate used in RES-IN-01)"
     verified: false
   - id: s20
     publisher: U.S. Energy Information Administration
@@ -185,9 +185,8 @@ sources:
     verified: false
 ---
 
-# Planning Your Outdoor Heat
+# Planning Your Outdoor Heat: Homeowner Edition
 
-*Homeowner edition.*
 
 The best evenings outdoors are the ones that run long, when dinner turns into dessert and nobody reaches for a jacket. Plan the warmth in the same order you plan the patio, and settle the power, controls and code before the ceiling closes, so the wiring or gas line goes in once, exactly where you want it.
 
@@ -209,7 +208,7 @@ Only 23% of homeowners prioritize outdoor heating at the planning stage[^s1]. Ma
 | 8 | Clearances and code | Your local building department |
 | 9 | Book a design consult | Photos or plans |
 
-Each step closes with a short checklist, and together they become the brief you hand to your designer.
+Each step closes with Your notes, a short card to fill in, and together they become the brief you hand to your designer.
 
 ## Step 1. Make Sure Your Space Counts As Outdoors
 
@@ -236,15 +235,17 @@ Measure the area where you and your guests actually sit, and note how and when y
 
 ### Why Radiant Warmth Feels Like Sunshine
 
-Outdoors, warm air rises and drifts away, so forced air and thermostats cannot hold an open patio at a set temperature[^s3]. Radiant (infrared) heat warms people, furniture and floors directly, much like the sun on your skin, and keeps you comfortable even in a light breeze. Heat You Can Feel, Not See.
+Outdoors, warm air rises and drifts away, so forced air and thermostats cannot hold an open patio at a set temperature[^s3]. Radiant (infrared) heat warms people, furniture and floors directly, much like the sun on your skin, and keeps you comfortable even in a light breeze. Heat You Can Feel, Not See. Bromic's electric heaters are medium wave, chosen for warmth that reaches the far chair as well as the near one and lifts the temperature further, with a soft light and no glare in anyone's eyes [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]].
 
-| Wavelength | Radiant share | Warm-up | In wind |
-|---|---|---|---|
-| Short wave | about 90% | Instant | Warms people directly |
-| Medium wave | about 60% | about 30 seconds | Limited sensitivity |
-| Long wave | about 40% | about 5 minutes | Most affected |
+| | Heat coverage | Temperature rise | Distance heat travels | Visible glow | Warm-up |
+|---|---|---|---|---|---|
+| Short wave | Narrower | Lower | Shorter | Intense glow and glare | Instant[^s3] |
+| **Medium wave: Bromic Platinum, Eclipse and Tungsten Electric** | **Widest** | **Greatest** | **Furthest** | **Soft, no intrusive glow** | **About 30 seconds[^s3]** |
+| Long wave | Narrower | Lower | Shortest; most affected by wind[^s3] | – | About 5 minutes[^s3] |
 
-Source: Bromic Planning Guide 2021[^s3]. A fire pit makes a lovely focal point, though it will rarely keep a whole seating area warm on its own.
+Warm-up and wind: Bromic Planning Guide v1.2[^s3]. Coverage, temperature rise, distance and glow: Bromic test data, to follow. [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]] [[VERIFY: short wave visible glow and glare — Product team]]
+
+A fire pit makes a lovely focal point, though it will rarely keep a whole seating area warm on its own.
 
 ### Electric Or Gas For Your Home
 
@@ -263,16 +264,16 @@ Work out the running cost from the heater's rating and your own energy rate.
 - **Natural gas:** cost per hour = Btu per hour ÷ 100,000 × $ per therm
 - **Propane:** cost per hour = Btu per hour ÷ 91,500[^s23] × $ per gallon
 
-Rates used, US averages: electricity 13.54¢/kWh (EIA, commercial, May 2026)[^s18]; natural gas $0.87 per therm (EIA, commercial, January–May 2026 average)[^s19]; propane $2.674 per gallon (EIA, residential, week of 30 March 2026)[^s20]. Your home is billed at residential rates, so put the rate from your own bill into the formula. [[VERIFY: 2026 residential rates to publish beside the commercial ones — Finance]]
+Rates used, US residential averages: electricity 18.3¢/kWh (EIA, July 2026)[^s18]; natural gas $2.55 per therm ($26.45 per thousand cubic feet ÷ 10.37 therms, EIA, July 2026)[^s19]; propane $2.674 per gallon (EIA, week of 30 March 2026)[^s20]. Your own bill sets the real number, so put your rate into the formula. [[VERIFY: 2026 residential rates — Finance]]
 
 | Heater at full output | Energy per hour | Cost per hour |
 |---|---|---|
-| Tungsten Electric 2000 / 3000 W | 2.0 / 3.0 kWh | $0.27 / $0.41 |
-| Tungsten Electric 4000 / 6000 W | 4.0 / 6.0 kWh | $0.54 / $0.81 |
-| Platinum Electric 2300 / 3400 / 4500 W | 2.3 / 3.4 / 4.5 kWh | $0.31 / $0.46 / $0.61 |
-| Eclipse Electric 2900 W | 2.9 kWh | $0.39 |
-| Platinum Gas 23,600 Btu, natural gas / propane | 0.24 therm / 0.26 gal | $0.21 / $0.69 |
-| Tungsten Freestanding Gas 38,000 Btu, natural gas / propane | 0.38 therm / 0.42 gal | $0.33 / $1.11 |
+| Tungsten Electric 2000 / 3000 W | 2.0 / 3.0 kWh | $0.37 / $0.55 |
+| Tungsten Electric 4000 / 6000 W | 4.0 / 6.0 kWh | $0.73 / $1.10 |
+| Platinum Electric 2300 / 3400 / 4500 W | 2.3 / 3.4 / 4.5 kWh | $0.42 / $0.62 / $0.82 |
+| Eclipse Electric 2900 W | 2.9 kWh | $0.53 |
+| Platinum Gas 23,600 Btu, natural gas / propane | 0.24 therm / 0.26 gal | $0.60 / $0.69 |
+| Tungsten Freestanding Gas 38,000 Btu, natural gas / propane | 0.38 therm / 0.42 gal | $0.97 / $1.11 |
 
 Dimming, or running an Eclipse at 33% or 66%[^s7], uses less again. These figures replace those in the 2021 guide, which used 2021 prices.
 
@@ -341,7 +342,7 @@ The free [How many heaters? calculator](asset:A03) does the sum for you, using t
 3. **Tungsten Electric 4000 W, recessed:** 240 ÷ (130 × 0.935) = 240 ÷ 121.6 = 2.0, so **two heaters**.
 4. **Or Eclipse pendants over the table:** 240 ÷ (121 × 0.935) = 240 ÷ 113.1 = 2.1, so **three Eclipse**.
 5. **Controls:** two Tungsten 4000 W heaters need two controller channels (Step 7): an Affinity Smart-Heat 2-channel Dimmer or On/Off controller, a wall switch and the app. Three Eclipse need an Affinity Eclipse controller channel each: a 5-channel controller, or three 1-channel.
-6. **Running cost:** 2 × 4 kW × 3 hours × $0.1354 = about $3.25 a night at the May 2026 commercial average[^s18]. Use your own rate.
+6. **Running cost:** 2 × 4 kW × 3 hours × $0.183 = about $4.39 a night at the July 2026 residential average[^s18]. Use your own rate.
 
 [[DIAGRAM: Plan of the 20 × 12 ft patio: two recessed Tungsten heaters along the long axis, or three Eclipse pendants over the table, with heat-bloom circles and the open sides marked.]]
 
@@ -435,7 +436,7 @@ Share your photos, plans or drawings, and Bromic's design specialists will recom
 
 A complete quote covers heaters and mounting kits, controls, installation, permits and running cost. US list prices on bromic.com (29 October 2026) start from $798 for a Tungsten Electric heater and $370 for an Affinity On/Off controller[^s4][^s13]. [[VERIFY: list prices to publish — Product team]]
 
-- [ ] Checklists from Steps 1–8 filled in
+- [ ] Your notes from Steps 1–8 filled in
 - [ ] Photos or plans ready
 - [ ] Design consult booked
 

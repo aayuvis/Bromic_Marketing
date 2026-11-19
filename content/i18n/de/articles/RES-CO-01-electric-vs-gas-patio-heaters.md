@@ -60,13 +60,15 @@ Jede Energieart kommt in ihrer eigenen Umgebung zur Geltung. Fest montierte elek
 
 Stellen Sie sich vor, Sie stehen an einem klaren Wintertag in der Sonne: Die Luft ist kalt, und Ihr Gesicht ist warm. Das ist Strahlungswärme, Infrarotenergie, die zu Ihnen gelangt und alles erwärmt, worauf sie trifft. Konvektionswärme erwärmt die Luft, die dann Sie erwärmt; in einem geschlossenen Raum funktioniert das gut, auf einer offenen Terrasse dagegen kaum, weil die warme Luft davonzieht.[^s1]
 
-Im Freien wünschen Sie sich so viel Strahlungswärme wie möglich, und die Hinweise von Bromic ordnen Heizstrahler nach Wellenlänge:[^s1]
+Im Freien wünschen Sie sich Wärme, die jeden Stuhl am Tisch erreicht, mit einem sanften Licht, das den Abend entspannt hält, und ohne Blendung. Deshalb arbeiten die elektrischen Heizstrahler von Bromic mit mittelwelligem Infrarot, das unter den drei Wellenlängen bei Heizfläche, Temperaturanstieg und Reichweite der Wärme vorn liegt, ohne störendes Glühen [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]]:
 
-| Wellenlänge | Strahlungsanteil | Aufheizzeit | Wind |
-|---|---|---|---|
-| Kurzwelle | ~90 % | Sofort | Erwärmt Menschen und Gegenstände direkt |
-| Mittelwelle | ~60 % | ~30 Sekunden | Geringe Windempfindlichkeit |
-| Langwelle | ~40 % | ~5 Minuten | Am leichtesten verweht |
+| | Heizfläche | Temperaturanstieg | Reichweite der Wärme | Sichtbares Glühen | Aufheizzeit |
+|---|---|---|---|---|---|
+| Kurzwelle | Kleiner | Geringer | Kürzer | Starkes Glühen und Blendung | Sofort[^s1] |
+| **Mittelwelle: Bromic Platinum, Eclipse und Tungsten Electric** | **Am größten** | **Am höchsten** | **Am weitesten** | **Sanft, kein störendes Glühen** | **Etwa 30 Sekunden[^s1]** |
+| Langwelle | Kleiner | Geringer | Am kürzesten; am stärksten windanfällig[^s1] | – | Etwa 5 Minuten[^s1] |
+
+Aufheizzeit und Wind: Bromic Planning Guide v1.2[^s1]. Heizfläche, Temperaturanstieg, Reichweite und Glühen: Bromic-Testdaten folgen. [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]] [[VERIFY: sichtbares Glühen und Blendung der Kurzwelle — Produktteam]]
 
 „Infrarot-Terrassenheizstrahler“ beschreibt alle drei, daher lohnt sich die Frage, welche Wellenlänge Sie wählen.
 
@@ -119,7 +121,7 @@ Jeder fest montierte Heizstrahler wird über ein Affinity Smart-Heat® On/Off- o
 
 ## Was Sie mitnehmen sollten
 
-- Im Freien wirkt Strahlungswärme, und Kurz- und Mittelwelle wärmen am schnellsten und halten am besten dem Wind stand.[^s1]
+- Im Freien wirkt Strahlungswärme. Mittelwelle, wie in den elektrischen Bromic Heizstrahlern, deckt mehr Fläche ab, wärmt stärker und reicht weiter, ohne störendes Glühen [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]], und ist in etwa 30 Sekunden warm.[^s1]
 - Wählen Sie Elektro für überdachte, eingebaute oder teilweise umschlossene Bereiche und Gas für offene, größere oder veränderliche Aufteilungen.
 - Planen Sie für den Sitzbereich: fest montierte Heizstrahler nach Fläche, angepasst an Überdachung und Klima, und freistehende Heizstrahler mit höchstens vier Plätzen je Gerät.
 - Elektroarbeiten gehören in die Hände eines Elektrofachbetriebs, Gasarbeiten in die eines Gasinstallateurs. Klären Sie die Anforderungen mit Ihrem Bauamt.[^s1]

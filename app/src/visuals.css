@@ -38,7 +38,7 @@
 .v-pic img { max-width: 90%; max-height: 86px; object-fit: contain; mix-blend-mode: multiply; }
 .v-prods h4 { font: 400 16px/1.25 Didot, "Bromic Didot", "Bodoni 72", serif; margin: 2px 0 2px; }
 /* coverage bars */
-.v-bars { margin: 14px 0 20px; display: grid; gap: 10px; }
+.v-bars { margin: 14px 0 20px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 20px; } .v-bars > .v-k { grid-column: 1 / -1; }
 .v-bar-g { display: grid; gap: 4px; break-inside: avoid; } .v-bar-g > b { font: 500 13px "Helvetica Neue", Helvetica, Arial, sans-serif; color: #231F20; }
 .v-bar { position: relative; display: block; height: 22px; background: #F2EFEB; }
 .v-bar i { position: absolute; inset: 0 auto 0 0; background: linear-gradient(90deg, #F7A58F, #EF4123); }

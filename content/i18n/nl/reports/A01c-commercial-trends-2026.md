@@ -318,7 +318,7 @@ waar de markt heen gaat, niet wat er in Nederland geldt.
 
 ## 10 · Warmte verdwijnt in de architectuur
 
-> Bromic noemt een ruimte een buitenruimte als ten minste **30%** van de omtrek permanent open is; kortegolfwarmte is voor ongeveer **90%** straling en verwarmt direct, langegolfwarmte voor ongeveer 40% en is het gevoeligst voor wind.[^s14]
+> Bromic noemt een ruimte een buitenruimte als ten minste **30%** van de omtrek permanent open is; de elektrische verwarmers van Bromic werken met **middengolf** en zijn in ongeveer 30 seconden warm, terwijl langegolfwarmte het gevoeligst is voor wind.[^s14] De warmte van middengolf reikt verder over het terras, zonder storende gloed. [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]]
 > *Bron: Bromic Heating, Planning Guide US v1.2, 2021.*
 
 **Wat het betekent voor uw zaak**

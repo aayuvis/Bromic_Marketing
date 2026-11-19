@@ -5,7 +5,7 @@ translation_of: A02-homeowner
 translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 type: gated-guide
-title: "Je buitenwarmte plannen"
+title: "Je buitenwarmte plannen: editie voor huiseigenaren"
 audience: [RES]
 stage: [CO, IN]
 cell: RES-IN
@@ -14,7 +14,7 @@ summary: "Negen stappen die je terras van een zomerplek veranderen in een buiten
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe plan ik buitenverwarming voor mijn terras?"
-meta_description: "Je planningsgids voor buitenverwarming: negen stappen naar een terras waar je het hele jaar van geniet, met aantal, gebruikskosten, bediening en checklists."
+meta_description: "Je planningsgids voor buitenverwarming: negen stappen naar een terras waar je het hele jaar van geniet, met aantal, gebruikskosten, bediening en notities."
 cta: {label: "Boek een ontwerpadvies", asset: A07}
 hero: l-010-071
 images: [l-007-035, l-019-163, l-013-102, t-009-025, l-010-067]
@@ -146,17 +146,17 @@ sources:
     verified: false
   - id: s18
     publisher: U.S. Energy Information Administration
-    title: "Monthly Energy Review, August 2026, Figure 9.2 (average retail electricity price, commercial, May 2026)"
+    title: "Electric Power Monthly, Table 5.6.A: Average price of electricity to ultimate customers, residential (July 2026 data, as reported by ElectricRates.org and Cronista)"
     year: 2026
-    url: https://www.eia.gov/totalenergy/data/monthly/
-    supports: "US commercial average electricity price 13.54 cents/kWh, May 2026 (rate used in the A20 TCO model)"
+    url: https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a
+    supports: "US average residential electricity price 18.3 cents/kWh, July 2026 (rate used in RES-IN-01)"
     verified: false
   - id: s19
     publisher: U.S. Energy Information Administration
-    title: "Natural Gas Prices, US commercial price, monthly"
+    title: "Natural Gas Prices, US residential price, monthly"
     year: 2026
     url: https://www.eia.gov/dnav/ng/ng_pri_sum_dcu_nus_m.htm
-    supports: "US commercial natural gas, January–May 2026 average $9.03 per thousand cubic feet, about $0.87 per therm at 10.36 therms per Mcf (rate used in the A20 TCO model)"
+    supports: "US residential natural gas price $26.45 per thousand cubic feet, July 2026; about $2.55 per therm at 10.37 therms per Mcf (EIA 2025 heat content; rate used in RES-IN-01)"
     verified: false
   - id: s20
     publisher: U.S. Energy Information Administration
@@ -188,9 +188,8 @@ sources:
     verified: false
 ---
 
-# Je buitenwarmte plannen
+# Je buitenwarmte plannen: editie voor huiseigenaren
 
-*Editie voor huiseigenaren.*
 
 De mooiste avonden buiten zijn de avonden die uitlopen, als het diner overgaat in het dessert en niemand een jas pakt. Plan de warmte in dezelfde volgorde als het terras, en regel stroom, bediening en regels voordat het plafond dichtgaat, zodat de bekabeling of de gasleiding er één keer in gaat, precies waar je ze wilt hebben.
 
@@ -212,7 +211,7 @@ In een Amerikaans onderzoek gaf slechts 23% van de huiseigenaren buitenverwarmin
 | 8 | Afstanden en regels | Je gemeente en installateur |
 | 9 | Een ontwerpadvies boeken | Foto's of tekeningen |
 
-Elke stap sluit af met een korte checklist, en samen vormen ze de briefing die je aan je ontwerper geeft.
+Elke stap sluit af met 'Jouw notities', een korte kaart om in te vullen, en samen vormen ze de briefing die je aan je ontwerper geeft.
 
 ## Stap 1. Ga na of je ruimte als buitenruimte telt
 
@@ -239,15 +238,17 @@ Meet het deel waar jij en je gasten echt zitten, en noteer hoe en wanneer je de 
 
 ### Waarom stralingswarmte voelt als zonneschijn
 
-Buiten stijgt warme lucht op en drijft ze weg, dus heteluchtverwarming en thermostaten kunnen een open terras niet op een vaste temperatuur houden[^s3]. Stralingswarmte (infrarood) verwarmt mensen, meubels en vloeren direct, net als de zon op je huid, en houdt je ook bij een lichte bries comfortabel warm. Warmte die je voelt, niet ziet.
+Buiten stijgt warme lucht op en drijft ze weg, dus heteluchtverwarming en thermostaten kunnen een open terras niet op een vaste temperatuur houden[^s3]. Stralingswarmte (infrarood) verwarmt mensen, meubels en vloeren direct, net als de zon op je huid, en houdt je ook bij een lichte bries comfortabel warm. Warmte die je voelt, niet ziet. De elektrische verwarmers van Bromic werken met middengolf, gekozen voor warmte die de verste stoel net zo goed bereikt als de dichtste en de temperatuur verder laat stijgen, met een zacht licht en zonder verblinding [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]].
 
-| Golflengte | Aandeel straling | Opwarmtijd | Bij wind |
-|---|---|---|---|
-| Kortegolf | ongeveer 90% | Direct | Verwarmt mensen direct |
-| Middengolf | ongeveer 60% | ongeveer 30 seconden | Beperkt gevoelig |
-| Langegolf | ongeveer 40% | ongeveer 5 minuten | Het meest gevoelig |
+| | Verwarmd oppervlak | Temperatuurstijging | Reikwijdte van de warmte | Zichtbare gloed | Opwarmtijd |
+|---|---|---|---|---|---|
+| Korte golf | Kleiner | Lager | Korter | Felle gloed en verblinding | Direct[^s3] |
+| **Middengolf: Bromic Platinum, Eclipse en Tungsten Electric** | **Het grootst** | **Het hoogst** | **Het verst** | **Zacht, geen storende gloed** | **Ongeveer 30 seconden[^s3]** |
+| Lange golf | Kleiner | Lager | Het kortst; het gevoeligst voor wind[^s3] | – | Ongeveer 5 minuten[^s3] |
 
-Bron: Bromic Planning Guide 2021[^s3]. Een vuurkorf is een prachtige blikvanger, al houdt hij zelden in z'n eentje een hele zithoek warm.
+Opwarmtijd en wind: Bromic Planning Guide v1.2[^s3]. Verwarmd oppervlak, temperatuurstijging, reikwijdte en gloed: testgegevens van Bromic volgen. [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]] [[VERIFY: zichtbare gloed en verblinding van kortegolf — productteam]]
+
+Een vuurkorf is een prachtige blikvanger, al houdt hij zelden in z'n eentje een hele zithoek warm.
 
 ### Elektrisch of gas voor je huis
 
@@ -268,7 +269,7 @@ Reken de gebruikskosten uit met het vermogen van de verwarmer en je eigen energi
 - **Aardgas:** kosten per uur = vermogen in kW ÷ de energie-inhoud van een m³ gas (in kWh) × je prijs per m³
 - **Propaan:** kosten per uur = vermogen in kW ÷ ongeveer 7,1 kWh per liter[^s23] × je prijs per liter
 
-Wij rekenen hier niet met Nederlandse energieprijzen: vul de prijs van je eigen energierekening in. Ter vergelijking, de Amerikaanse gemiddelden die in de Engelse gids worden gebruikt: elektriciteit 13,54 dollarcent per kWh (EIA, zakelijk, mei 2026)[^s18]; aardgas $ 0,87 per therm (EIA, zakelijk, gemiddelde januari–mei 2026)[^s19]; propaan $ 2,674 per gallon (EIA, particulier, week van 30 maart 2026)[^s20]. [[VERIFY: tarieven voor huishoudens 2026 om naast de zakelijke te publiceren — financiën]] [[VERIFY: energie-inhoud van aardgas per m³ voor Nederlandse rekeningen — Bromic Benelux distributor]]
+Wij rekenen hier niet met Nederlandse energieprijzen: vul de prijs van je eigen energierekening in. Ter vergelijking, de Amerikaanse gemiddelden die in de Engelse gids worden gebruikt: elektriciteit 18,3 dollarcent per kWh (EIA, particulier, juli 2026)[^s18]; aardgas $ 2,55 per therm (EIA, particulier, juli 2026)[^s19]; propaan $ 2,674 per gallon (EIA, particulier, week van 30 maart 2026)[^s20]. [[VERIFY: tarieven voor huishoudens 2026 — financiën]] [[VERIFY: energie-inhoud van aardgas per m³ voor Nederlandse rekeningen — Bromic Benelux distributor]]
 
 | Verwarmer op vol vermogen | Energie per uur | Kosten per uur |
 |---|---|---|
@@ -346,7 +347,7 @@ De gratis [calculator Hoeveel verwarmers?](asset:A03) maakt de som voor je, met 
 3. **Tungsten Electric 4000 W, ingebouwd:** 22,3 ÷ (12,1 × 0,935) = 22,3 ÷ 11,3 = 2,0, dus **twee verwarmers**.
 4. **Of Eclipse-hangers boven de tafel:** 22,3 ÷ (11,2 × 0,935) = 22,3 ÷ 10,5 = 2,1, dus **drie Eclipse**.
 5. **Bediening:** twee Tungsten-verwarmers van 4000 W hebben twee regelaarkanalen nodig (stap 7): een Affinity Smart-Heat Dimmer- of On/Off-regelaar met 2 kanalen, een wandschakelaar en de app. Drie Eclipse hebben elk een kanaal op een Affinity Eclipse-regelaar nodig: een regelaar met 5 kanalen, of drie met 1 kanaal.
-6. **Gebruikskosten:** 2 × 4 kW × 3 uur = 24 kWh per avond, × je prijs per kWh. In de VS kwam dat tegen het zakelijke gemiddelde van mei 2026 neer op ongeveer $ 3,25 per avond[^s18].
+6. **Gebruikskosten:** 2 × 4 kW × 3 uur = 24 kWh per avond, × je prijs per kWh. In de VS kwam dat tegen het gemiddelde voor huishoudens van juli 2026 neer op ongeveer $ 4,39 per avond[^s18].
 
 [[DIAGRAM: Plattegrond van het terras van 6,1 × 3,7 m: twee ingebouwde Tungsten-verwarmers langs de lange as, of drie Eclipse-hangers boven de tafel, met warmtecirkels en de open zijden aangegeven.]]
 
@@ -440,7 +441,7 @@ Deel je foto's, plannen of tekeningen, en de ontwerpspecialisten van Bromic advi
 
 Een volledige offerte omvat verwarmers en montagesets, bediening, installatie, vergunningen en gebruikskosten. De Amerikaanse catalogusprijzen op bromic.com (29 oktober 2026) beginnen bij $ 798 voor een Tungsten Electric-verwarmer en $ 370 voor een Affinity On/Off-regelaar[^s4][^s13]; dat zijn Amerikaanse prijzen, geen Nederlandse. [[VERIFY: te publiceren prijzen, ook voor Nederland — productteam]]
 
-- [ ] Checklists van stap 1–8 ingevuld
+- [ ] Jouw notities van stap 1–8 ingevuld
 - [ ] Foto's of plannen klaar
 - [ ] Ontwerpadvies geboekt
 

@@ -90,7 +90,7 @@ Local rules on open burning vary, so check with the local fire authority before 
 
 ## Even Warmth For Every Seat
 
-Radiant (infrared) heat warms people and surfaces directly rather than the air between them, so it keeps you comfortable when a breeze picks up.[^s1] Short-wave heaters are warm within moments of switching on.[^s1] Mounted overhead or on a wall, they reach the dining table, the lounge and the bar as well as the circle by the fire, all without smoke.
+Radiant (infrared) heat warms people and surfaces directly rather than the air between them, so it keeps you comfortable when a breeze picks up.[^s1] Bromic's medium wave electric heaters are warm in about 30 seconds,[^s1] with a soft light that sits easily beside the glow of the fire [[VERIFY: medium wave test data for no intrusive visual glow — Product team]]. Mounted overhead or on a wall, they reach the dining table, the lounge and the bar as well as the circle by the fire, all without smoke.
 
 | | Fire pit | Radiant heater |
 |---|---|---|

@@ -1,7 +1,7 @@
 ---
 id: A02-homeowner
 type: gated-guide
-title: "Ihre Außenwärme planen"
+title: "Ihre Außenwärme planen: Ausgabe für Hausbesitzer"
 audience: [RES]
 stage: [CO, IN]
 cell: RES-IN
@@ -10,7 +10,7 @@ summary: "Neun Schritte, die Ihre Terrasse vom Sommerplatz zum ganzjährigen Woh
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie plane ich die Außenheizung für meine Terrasse?"
-meta_description: "Ihr Planungsleitfaden für die Außenheizung: neun Schritte zur Terrasse, die Sie das ganze Jahr genießen, mit Bemessung, Betriebskosten, Steuerung und Checklisten."
+meta_description: "Ihr Planungsleitfaden für die Außenheizung: neun Schritte zur Terrasse, die Sie das ganze Jahr genießen, mit Bemessung, Betriebskosten, Steuerung und Notizen."
 cta: {label: "Planungsgespräch vereinbaren", asset: A07}
 hero: l-010-071
 images: [l-007-035, l-019-163, l-013-102, t-009-025, l-010-067]
@@ -146,17 +146,17 @@ sources:
     verified: false
   - id: s18
     publisher: U.S. Energy Information Administration
-    title: "Monthly Energy Review, August 2026, Figure 9.2 (average retail electricity price, commercial, May 2026)"
+    title: "Electric Power Monthly, Table 5.6.A: Average price of electricity to ultimate customers, residential (July 2026 data, as reported by ElectricRates.org and Cronista)"
     year: 2026
-    url: https://www.eia.gov/totalenergy/data/monthly/
-    supports: "US commercial average electricity price 13.54 cents/kWh, May 2026 (rate used in the A20 TCO model)"
+    url: https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a
+    supports: "US average residential electricity price 18.3 cents/kWh, July 2026 (rate used in RES-IN-01)"
     verified: false
   - id: s19
     publisher: U.S. Energy Information Administration
-    title: "Natural Gas Prices, US commercial price, monthly"
+    title: "Natural Gas Prices, US residential price, monthly"
     year: 2026
     url: https://www.eia.gov/dnav/ng/ng_pri_sum_dcu_nus_m.htm
-    supports: "US commercial natural gas, January–May 2026 average $9.03 per thousand cubic feet, about $0.87 per therm at 10.36 therms per Mcf (rate used in the A20 TCO model)"
+    supports: "US residential natural gas price $26.45 per thousand cubic feet, July 2026; about $2.55 per therm at 10.37 therms per Mcf (EIA 2025 heat content; rate used in RES-IN-01)"
     verified: false
   - id: s20
     publisher: U.S. Energy Information Administration
@@ -188,9 +188,8 @@ sources:
     verified: false
 ---
 
-# Ihre Außenwärme planen
+# Ihre Außenwärme planen: Ausgabe für Hausbesitzer
 
-*Ausgabe für Hausbesitzer.*
 
 Die schönsten Abende im Freien sind die, die länger dauern, wenn aus dem Abendessen das Dessert wird und niemand nach einer Jacke greift. Planen Sie die Wärme in derselben Reihenfolge wie die Terrasse, und klären Sie Strom, Steuerung und Vorschriften, bevor die Decke geschlossen wird, damit Leitung oder Gasanschluss nur einmal verlegt werden, genau dort, wo Sie sie haben möchten.
 
@@ -212,7 +211,7 @@ In einer US-Umfrage gaben nur 23 % der Hausbesitzer der Außenheizung in der Pla
 | 8 | Abstände und Vorschriften | Ihr örtliches Bauamt |
 | 9 | Planungsgespräch vereinbaren | Fotos oder Pläne |
 
-Jeder Schritt schließt mit einer kurzen Checkliste, und zusammen ergeben sie die Aufgabenstellung, die Sie Ihrem Planer übergeben.
+Jeder Schritt schließt mit „Ihre Notizen“, einer kurzen Karte zum Ausfüllen, und zusammen ergeben sie die Aufgabenstellung, die Sie Ihrem Planer übergeben.
 
 ## Schritt 1. Prüfen Sie, ob Ihr Bereich als Außenbereich gilt
 
@@ -239,15 +238,17 @@ Messen Sie die Fläche, auf der Sie und Ihre Gäste tatsächlich sitzen, und not
 
 ### Warum sich Strahlungswärme wie Sonnenschein anfühlt
 
-Im Freien steigt warme Luft auf und zieht davon; Warmluftgeräte und Thermostate können eine offene Terrasse deshalb nicht auf einer bestimmten Temperatur halten[^s3]. Strahlungswärme (Infrarot) erwärmt Menschen, Möbel und Böden direkt, ganz wie die Sonne auf der Haut, und hält Sie auch bei einer leichten Brise behaglich warm. Wärme, die man spürt, nicht sieht.
+Im Freien steigt warme Luft auf und zieht davon; Warmluftgeräte und Thermostate können eine offene Terrasse deshalb nicht auf einer bestimmten Temperatur halten[^s3]. Strahlungswärme (Infrarot) erwärmt Menschen, Möbel und Böden direkt, ganz wie die Sonne auf der Haut, und hält Sie auch bei einer leichten Brise behaglich warm. Wärme, die man spürt, nicht sieht. Die elektrischen Heizstrahler von Bromic sind mittelwellig, gewählt für Wärme, die den fernen Stuhl ebenso erreicht wie den nahen und die Temperatur stärker anhebt, mit sanftem Licht und ohne Blendung [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]].
 
-| Wellenlänge | Strahlungsanteil | Aufheizzeit | Bei Wind |
-|---|---|---|---|
-| Kurzwelle | ca. 90 % | Sofort | Wärmt Menschen direkt |
-| Mittelwelle | ca. 60 % | ca. 30 Sekunden | Geringe Empfindlichkeit |
-| Langwelle | ca. 40 % | ca. 5 Minuten | Am stärksten betroffen |
+| | Heizfläche | Temperaturanstieg | Reichweite der Wärme | Sichtbares Glühen | Aufheizzeit |
+|---|---|---|---|---|---|
+| Kurzwelle | Kleiner | Geringer | Kürzer | Starkes Glühen und Blendung | Sofort[^s3] |
+| **Mittelwelle: Bromic Platinum, Eclipse und Tungsten Electric** | **Am größten** | **Am höchsten** | **Am weitesten** | **Sanft, kein störendes Glühen** | **Etwa 30 Sekunden[^s3]** |
+| Langwelle | Kleiner | Geringer | Am kürzesten; am stärksten windanfällig[^s3] | – | Etwa 5 Minuten[^s3] |
 
-Quelle: Bromic Planungsleitfaden 2021[^s3]. Eine Feuerstelle ist ein schöner Blickfang, hält aber allein selten einen ganzen Sitzbereich warm.
+Aufheizzeit und Wind: Bromic Planning Guide v1.2[^s3]. Heizfläche, Temperaturanstieg, Reichweite und Glühen: Bromic-Testdaten folgen. [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]] [[VERIFY: sichtbares Glühen und Blendung der Kurzwelle — Produktteam]]
+
+Eine Feuerstelle ist ein schöner Blickfang, hält aber allein selten einen ganzen Sitzbereich warm.
 
 ### Elektro oder Gas für Ihr Zuhause
 
@@ -266,16 +267,16 @@ Berechnen Sie die Betriebskosten aus der Leistung des Heizstrahlers und Ihrem ei
 - **Erdgas:** Kosten pro Stunde = Nennwärmebelastung in kW × Preis je kWh Gas
 - **Flüssiggas:** Kosten pro Stunde = Nennwärmebelastung in kW ÷ ca. 7,1 kWh je Liter[^s23] × Preis je Liter
 
-Setzen Sie Ihre eigenen Preise aus Ihrer Strom- bzw. Gasrechnung ein. Zum Vergleich die Werte, mit denen die US-Ausgabe rechnet (US-Durchschnitte): Strom 13,54 US-Cent/kWh (EIA, Gewerbe, Mai 2026)[^s18]; Erdgas 0,87 US-$ je Therm, das sind ca. 29,3 kWh (EIA, Gewerbe, Durchschnitt Januar–Mai 2026)[^s19]; Propan 2,674 US-$ je US-Gallone (3,785 L) (EIA, Privathaushalte, Woche vom 30. März 2026)[^s20]. [[VERIFY: Tarife für Privathaushalte 2026, die neben den Gewerbetarifen veröffentlicht werden sollen — Finanzen]]
+Setzen Sie Ihre eigenen Preise aus Ihrer Strom- bzw. Gasrechnung ein. Zum Vergleich die Werte, mit denen die US-Ausgabe rechnet (US-Durchschnitte): Strom 18,3 US-Cent/kWh (EIA, Privathaushalte, Juli 2026)[^s18]; Erdgas 2,55 US-$ je Therm, das sind ca. 29,3 kWh (EIA, Privathaushalte, Juli 2026)[^s19]; Propan 2,674 US-$ je US-Gallone (3,785 L) (EIA, Privathaushalte, Woche vom 30. März 2026)[^s20]. [[VERIFY: Tarife für Privathaushalte 2026 — Finanzen]]
 
 | Heizstrahler bei voller Leistung | Energie pro Stunde | Kosten pro Stunde (US-Beispiel) |
 |---|---|---|
-| Tungsten Electric 2000 / 3000 W | 2,0 / 3,0 kWh | 0,27 / 0,41 US-$ |
-| Tungsten Electric 4000 / 6000 W | 4,0 / 6,0 kWh | 0,54 / 0,81 US-$ |
-| Platinum Electric 2300 / 3400 / 4500 W | 2,3 / 3,4 / 4,5 kWh | 0,31 / 0,46 / 0,61 US-$ |
-| Eclipse Electric 2900 W | 2,9 kWh | 0,39 US-$ |
-| Platinum Gas ca. 6,9 kW, Erdgas / Flüssiggas | ca. 6,9 kWh Gas / ca. 1,0 L | 0,21 / 0,69 US-$ |
-| Tungsten Freestanding Gas ca. 11,1 kW, Erdgas / Flüssiggas | ca. 11,1 kWh Gas / ca. 1,6 L | 0,33 / 1,11 US-$ |
+| Tungsten Electric 2000 / 3000 W | 2,0 / 3,0 kWh | 0,37 / 0,55 US-$ |
+| Tungsten Electric 4000 / 6000 W | 4,0 / 6,0 kWh | 0,73 / 1,10 US-$ |
+| Platinum Electric 2300 / 3400 / 4500 W | 2,3 / 3,4 / 4,5 kWh | 0,42 / 0,62 / 0,82 US-$ |
+| Eclipse Electric 2900 W | 2,9 kWh | 0,53 US-$ |
+| Platinum Gas ca. 6,9 kW, Erdgas / Flüssiggas | ca. 6,9 kWh Gas / ca. 1,0 L | 0,60 / 0,69 US-$ |
+| Tungsten Freestanding Gas ca. 11,1 kW, Erdgas / Flüssiggas | ca. 11,1 kWh Gas / ca. 1,6 L | 0,97 / 1,11 US-$ |
 
 Dimmen oder ein Eclipse auf 33 % oder 66 %[^s7] verbraucht noch weniger. Diese Werte ersetzen die Zahlen des Leitfadens von 2021, die mit Preisen von 2021 rechneten.
 
@@ -344,7 +345,7 @@ Der kostenlose [Rechner „Wie viele Heizstrahler?“](asset:A03) übernimmt die
 3. **Tungsten Electric 4000 W, eingelassen:** 22,3 ÷ (12,1 × 0,935) = 22,3 ÷ 11,3 = 2,0, also **zwei Heizstrahler**.
 4. **Oder Eclipse Pendel über dem Tisch:** 22,3 ÷ (11,2 × 0,935) = 22,3 ÷ 10,5 = 2,1, also **drei Eclipse**.
 5. **Steuerung:** Zwei Tungsten mit 4000 W brauchen zwei Kanäle eines Steuergeräts (Schritt 7): ein 2-Kanal Affinity Smart-Heat Dimmer- oder On/Off-Steuergerät, einen Wandschalter und die App. Drei Eclipse brauchen je einen Kanal eines Affinity Eclipse Steuergeräts: ein 5-Kanal-Gerät oder drei 1-Kanal-Geräte.
-6. **Betriebskosten:** 2 × 4 kW × 3 Stunden = 24 kWh pro Abend × Ihr Preis je kWh. Zum Vergleich: Mit dem US-Gewerbedurchschnitt vom Mai 2026 sind das etwa 3,25 US-$ pro Abend[^s18].
+6. **Betriebskosten:** 2 × 4 kW × 3 Stunden = 24 kWh pro Abend × Ihr Preis je kWh. Zum Vergleich: Mit dem US-Durchschnitt für Privathaushalte vom Juli 2026 sind das etwa 4,39 US-$ pro Abend[^s18].
 
 [[DIAGRAM: Grundriss der Terrasse von 6,1 × 3,7 m: zwei eingelassene Tungsten Heizstrahler entlang der Längsachse oder drei Eclipse Pendel über dem Tisch, mit Wärmekreisen und den offenen Seiten markiert.]]
 
@@ -438,7 +439,7 @@ Senden Sie uns Ihre Fotos, Pläne oder Zeichnungen, und die Planungsspezialisten
 
 Ein vollständiges Angebot umfasst Heizstrahler und Montagesets, Steuerung, Installation, Genehmigungen und Betriebskosten. Die US-Listenpreise auf bromic.com (29. Oktober 2026) beginnen bei 798 US-$ für einen Tungsten Electric Heizstrahler und 370 US-$ für ein Affinity On/Off-Steuergerät[^s4][^s13]; Preise für Deutschland erhalten Sie über [bromic.de](https://www.bromic.de/). [[VERIFY: zu veröffentlichende Listenpreise — Produktteam]]
 
-- [ ] Checklisten aus den Schritten 1–8 ausgefüllt
+- [ ] Ihre Notizen aus den Schritten 1–8 ausgefüllt
 - [ ] Fotos oder Pläne bereit
 - [ ] Planungsgespräch vereinbart
 

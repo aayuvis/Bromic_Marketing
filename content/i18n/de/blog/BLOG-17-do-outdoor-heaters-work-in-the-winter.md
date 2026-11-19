@@ -84,13 +84,13 @@ Was die Kälte verändert, ist, wie schnell Sie diese Wärme wieder verlieren. B
 | Winterfaktor | Was er bewirkt | Was zu tun ist |
 |---|---|---|
 | Niedrige Lufttemperatur | Die Haut verliert schneller Wärme | Mehr Heizfläche über den Sitzplätzen einplanen; innerhalb des Wärmefelds sitzen |
-| Wind | Trägt Wärme von der Haut fort und verteilt warme Luft[^s3] | Die Windseite abschirmen; den Heizstrahler mit dem höchsten Strahlungsanteil wählen |
+| Wind | Trägt Wärme von der Haut fort und verteilt warme Luft[^s3] | Die Windseite abschirmen; mittelwellige Wärme wählen, die bis an den Tisch reicht |
 | Offener Himmel | Nichts hält warme Luft über den Köpfen | Ein Dach oder eine Untersicht ergänzen, unter der sich eine Wärmewolke hält[^s1] |
 | Feuchte oder salzhaltige Luft | Belastet Oberflächen und Befestigungen stärker | Materialien und Schutzart passend zum Standort wählen |
 
 ## Die Heizstrahler, die an einem Winterabend glänzen
 
-Die Heizstrahler mit dem höchsten Strahlungsanteil schneiden am besten ab. Kurzwellige geben rund 90 % ihrer Wärme als Strahlung ab und wärmen sofort, während langwellige rund 40 % erreichen, etwa fünf Minuten brauchen und am leichtesten vom Wind verweht werden[^s2]. An einem kalten Abend prägt dieser Unterschied das ganze Erlebnis. Die Wellenbereiche erklärt der Beitrag zum Unterschied zwischen Infrarot- und Strahlungsheizern auf [bromic.de](https://www.bromic.de/).
+Mittelwellige Heizstrahler schneiden am besten ab. Die elektrischen Heizstrahler von Bromic nutzen die Mittelwelle, weil ihre Wärme mehr Fläche abdeckt, die Temperatur stärker anhebt und die hinteren Plätze erreicht, ohne störendes Glühen [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]]. Sie wärmt in etwa 30 Sekunden, während langwellige etwa fünf Minuten brauchen und am leichtesten vom Wind verweht werden[^s2]. An einem kalten Abend prägt dieser Unterschied das ganze Erlebnis. Die Wellenbereiche erklärt der Beitrag zum Unterschied zwischen Infrarot- und Strahlungsheizern auf [bromic.de](https://www.bromic.de/).
 
 ![Eine verschneite überdachte Terrasse mit brennendem Kamin und leuchtenden Tungsten-Electric-Heizstrahlern an den Balken](img:w-tungsten-electric-wall-mount-canada)
 

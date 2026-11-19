@@ -83,13 +83,13 @@ What the cold does change is how quickly you lose that warmth. Moving air draws 
 | Winter factor | What it does | What to do |
 |---|---|---|
 | Low air temperature | Skin loses heat faster | Plan more coverage over seating; sit inside the heat pattern |
-| Wind | Carries heat from skin and disperses warm air[^s3] | Screen the windward side; choose the most radiant heater |
+| Wind | Carries heat from skin and disperses warm air[^s3] | Screen the windward side; choose medium wave heat that carries to the table |
 | Open sky | Nothing holds warm air overhead | Add a roof or soffit to trap a heat cloud[^s1] |
 | Damp or coastal air | Harder on finishes and fixings | Choose materials and water ratings for the site |
 
 ## The Heaters That Shine On A Winter Evening
 
-The most radiant heaters fare best. Short wave is about 90% radiant and warms instantly, while long wave is about 40% radiant, takes around five minutes and is the most easily dispersed by wind[^s2]. On a cold evening, that difference shapes the whole experience. The bands are explained in [infrared vs radiant heaters](https://www.bromic.com/blog/what-is-the-difference-between-an-infrared-heater-and-a-radiant-heater/).
+Medium wave fares best. Bromic's electric heaters use it because its warmth covers more of the space, lifts the temperature further and reaches the far seats, without an intrusive glow [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]]. It warms in about 30 seconds, while long wave takes around five minutes and is the most easily dispersed by wind[^s2]. On a cold evening, that difference shapes the whole experience. The bands are explained in [infrared vs radiant heaters](https://www.bromic.com/blog/what-is-the-difference-between-an-infrared-heater-and-a-radiant-heater/).
 
 ![A snowy covered patio with a lit fireplace and Tungsten Electric heaters glowing on the beams](img:w-tungsten-electric-wall-mount-canada)
 

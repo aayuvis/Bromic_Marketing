@@ -7,11 +7,11 @@ audience: [RES]
 stage: [AW]
 cell: RES-AW
 asset: A24
-summary: "Infrarot und Strahlung beschreiben dieselbe Wärme im Freien von zwei Seiten – was die Energie ist und wie sie sich ausbreitet. Der Unterschied, der zählt, ist die Wellenlänge und wie viel der Leistung als Strahlung statt als warme Luft bei Ihnen ankommt."
+summary: "Infrarot und Strahlung beschreiben dieselbe Wärme im Freien von zwei Seiten – was die Energie ist und wie sie sich ausbreitet. Der Unterschied, der zählt, ist die Wellenlänge, und warum Bromic für seine elektrischen Heizstrahler die Mittelwelle gewählt hat."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Was ist der Unterschied zwischen einem Infrarot-Heizstrahler und einem Strahlungsheizer?"
-meta_description: "Infrarot- oder Strahlungsheizer: dasselbe Prinzip. Strahlung ist, wie Wärme reist, Infrarot ist, was sie ist. Im Freien zählen Wellenlänge und Strahlungsanteil."
+meta_description: "Infrarot- oder Strahlungsheizer: dasselbe Prinzip. Strahlung ist, wie Wärme reist, Infrarot ist, was sie ist. Im Freien zählt die Wellenlänge."
 cta: {label: "Den Report Outdoor Living Trends 2026 herunterladen", asset: A01}
 hero: w-bromic-eclipse-portable-hotel-skansen-07
 owner_review: Digitales Marketing
@@ -84,33 +84,33 @@ Infrarot- und Strahlungsheizer sind ein und dasselbe, nur von zwei Seiten beschr
 
 Der Planungsleitfaden von Bromic bringt es auf den Punkt: Heizstrahler für draußen übertragen Wärme entweder, indem sie die Luft erwärmen, oder über Infrarot, das die Gegenstände erwärmt, auf die es trifft[^s2]. „Infrarot-Heizstrahler“ und „Strahlungsheizer“ beschreiben beide die zweite Art, und wenn Händler die Begriffe gleichbedeutend verwenden, haben sie also völlig recht.
 
-## Wie stark jeder Heizstrahler wirklich strahlt
+## Wie sich die drei Wellenlängen unterscheiden
 
-Jeder Heizstrahler gibt einen Teil seiner Energie als warme Luft ab. Wie viel, hängt von der Wellenlänge ab, und die wiederum folgt der Temperatur des Heizelements. Die Wärmewellen-Übersicht von Bromic beschreibt die drei Bereiche[^s3]:
+Jeder Infrarot-Heizstrahler gehört zu einem von drei Wellenbereichen, und der Wellenbereich prägt den Abend: wie weit die Wärme reicht, wie stark sie die Temperatur am Tisch anhebt und wie viel Licht sie in den Raum wirft. Die elektrischen Heizstrahler von Bromic sind mittelwellig, gewählt für Wärme, die jeden Platz erreicht, mit sanftem Licht und ohne Blendung [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]].
 
-| | Kurzwellig | Mittelwellig | Langwellig |
-|---|---|---|---|
-| Temperatur des Heizelements | ca. 2200 °C | ca. 900 °C | ca. 300 °C |
-| Strahlung / Konvektion | 90 / 10 | 60 / 40 | 40 / 60 |
-| Aufheizzeit | Sofort | Etwa 30 s | Etwa 5 min |
-| Bei Wind | Wärmt Menschen und Gegenstände direkt | Wenig anfällig | Wärme wird verweht |
-| Ungefähre Spitzenwellenlänge (berechnet) | 1,2 µm | 2,5 µm | 5,1 µm |
+| | Heizfläche | Temperaturanstieg | Reichweite der Wärme | Sichtbares Glühen | Aufheizzeit |
+|---|---|---|---|---|---|
+| Kurzwelle | Kleiner | Geringer | Kürzer | Starkes Glühen und Blendung | Sofort[^s3] |
+| **Mittelwelle: Bromic Platinum, Eclipse und Tungsten Electric** | **Am größten** | **Am höchsten** | **Am weitesten** | **Sanft, kein störendes Glühen** | **Etwa 30 Sekunden[^s3]** |
+| Langwelle | Kleiner | Geringer | Am kürzesten; am stärksten windanfällig[^s3] | – | Etwa 5 Minuten[^s3] |
 
-Die ersten vier Zeilen sind die Werte des Planungsleitfadens[^s3]. Die letzte Zeile ist unsere eigene Berechnung nach dem Wienschen Verschiebungsgesetz, nach dem die Spitzenwellenlänge eines heißen Körpers umgekehrt proportional zu seiner absoluten Temperatur ist (etwa 2898 µm·K geteilt durch die Temperatur in Kelvin)[^s4]. Die Rechnung behandelt jedes Heizelement als idealen Strahler; lesen Sie sie deshalb als Orientierung und nicht als technische Angabe.
+Aufheizzeit und Wind: Bromic Planning Guide v1.2[^s3]. Heizfläche, Temperaturanstieg, Reichweite und Glühen: Bromic-Testdaten folgen. [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]] [[VERIFY: sichtbares Glühen und Blendung der Kurzwelle — Produktteam]]
 
-<div class="diagram">Diagramm: ein Heizstrahler über einem sitzenden Paar auf einer offenen Terrasse. Gerade Pfeile (Strahlung) laufen von der Front des Heizstrahlers zu den Menschen, zum Tisch und zum Boden und werden dort aufgenommen; gebogene Pfeile (Konvektion) steigen vom Heizstrahler auf und treiben mit dem Wind davon. Drei Felder nebeneinander zeigen die Szene für kurz-, mittel- und langwellig, mit einem Anteil gerader Pfeile von 90 %, 60 % und 40 % (Planungsleitfaden v1.2, Schritt 04)[^s3].</div>
+Ausgehend von den Elementtemperaturen des Planungsleitfadens[^s3] ergibt unsere eigene Berechnung nach dem Wienschen Verschiebungsgesetz Spitzenwellenlängen von etwa 1,2 µm für Kurzwelle, 2,5 µm für Mittelwelle und 5,1 µm für Langwelle. Nach diesem Gesetz ist die Spitzenwellenlänge eines heißen Körpers umgekehrt proportional zu seiner absoluten Temperatur (etwa 2898 µm·K geteilt durch die Temperatur in Kelvin)[^s4]. Die Rechnung behandelt jedes Heizelement als idealen Strahler; lesen Sie sie deshalb als Orientierung und nicht als technische Angabe.
+
+<div class="diagram">Diagramm: drei Felder nebeneinander, jeweils ein Heizstrahler über einem langen Tisch auf einer offenen Terrasse in der Dämmerung. Mittelwelle: Die Wärme reicht unter sanftem Licht bis ans Ende des Tisches. Kurzwelle: helles Glühen und Blendung über den vordersten Plätzen. Langwelle: kürzere Wärme, die der Wind abdrängt. Wird nach Bromic-Testdaten gezeichnet, sobald sie vorliegen.</div>
 
 ## Warum Strahlungswärme unter offenem Himmel zählt
 
 Drinnen halten Wände und Dach die warme Luft an ihrem Platz, deshalb leistet Konvektion dort ihre Arbeit. Draußen steigt heiße Luft auf und zieht davon, und schon die leiseste Brise trägt sie noch weiter. Deshalb tut sich Warmluftheizung im Freien schwer, und deshalb lässt sich Wärme im Freien nicht über ein Thermostat regeln[^s2]. Strahlung braucht keine Luft als Träger. Sie legt sich auf Haut, Kleidung, Stein und Holz, und eine Brise kann die Luft um Sie herum bewegen, ohne die bereits abgegebene Wärme zurückzunehmen[^s2].
 
-Ein Heizstrahler mit 90 % Strahlungsanteil schickt den größten Teil seiner Energie dorthin, wo Menschen sitzen, während einer mit 40 % den größten Teil seiner Energie darauf verwendet, Luft zu erwärmen, die bald entweicht[^s3].
+Mittelwelle trägt diese Wärme bis ans Ende des Tisches, sodass weniger Gäste am Rand der Wärme sitzen [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]], während Langwelle bei einer Brise mehr von ihrer Wirkung verliert[^s3].
 
 ## Wie wir jeden Bromic-Heizstrahler darauf auslegen
 
 Strahlungswärme ist die Grundlage jedes Bromic-Heizstrahlers[^s2], und der Planungsleitfaden beschreibt die technischen Entscheidungen dahinter:
 
-- **Direkte Wärme.** Eine Mischung aus kurz- und mittelwelliger Strahlung bringt den höchsten Strahlungsanteil und die schnellste Aufheizzeit[^s2][^s3].
+- **Mittelwellige Wärme.** Die elektrischen Heizstrahler von Bromic sind mittelwellig, für die größte Heizfläche, den stärksten Temperaturanstieg und die größte Reichweite ohne störendes Glühen [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]], bei einer Aufheizzeit von etwa 30 Sekunden[^s2][^s3].
 - **Gerichtete Wärme.** Der größte Teil der Leistung geht in eine Richtung, zu den Sitzplätzen, statt gleichmäßig in alle Richtungen[^s2].
 - **Für Menschen platziert.** Die Heizfläche wird danach geplant, wo Gäste sitzen, die Grundfläche kommt erst an zweiter Stelle; sie hängt von Modell, Montagehöhe, Umgebung und Installation ab[^s5].
 
@@ -135,7 +135,7 @@ Jeder Heizstrahler wird mit seiner Steuerung kombiniert. Die Smart-Heat-App erg�
 Ja. Strahlung bezeichnet die Art, wie Wärme sich ausbreitet, und Infrarot die Strahlung, die sie trägt[^s1][^s2]. Ein Heizstrahler für draußen, der unter einem der beiden Begriffe verkauft wird, wärmt Menschen durch Strahlung.
 
 ### Welche Art Infrarot-Heizstrahler ist draußen am besten?
-Die mit dem höchsten Strahlungsanteil, den Ihr Einsatzort zulässt. Kurzwellige Strahler haben etwa 90 % Strahlungsanteil und wärmen sofort, langwellige etwa 40 % und sind am stärksten windanfällig[^s3].
+Für die meisten Außenbereiche die mittelwelligen. Sie decken mehr Fläche ab, heben die Temperatur stärker an und reichen weiter, ohne störendes Glühen [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]], und sie wärmen in etwa 30 Sekunden; langwellige heizen am langsamsten auf und sind am stärksten windanfällig[^s3].
 
 ### Funktionieren Infrarot-Heizstrahler bei Wind?
 Bei leichtem bis mäßigem Wind ja, weil sie Menschen statt der Luft wärmen[^s2]. Starker, anhaltender Wind kühlt die Haut trotzdem ab, schirmen Sie deshalb die Windseite ab. Siehe [Funktionieren Infrarot-Heizstrahler im Freien? (auf Englisch)](https://www.bromic.com/blog/do-infrared-heaters-work-outdoors/).

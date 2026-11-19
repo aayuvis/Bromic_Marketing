@@ -199,7 +199,7 @@ sources:
 
 *Editie voor professionals: architecten, ontwerpers en bouwers.*
 
-De beste buitenruimtes houden hun gasten vast tot lang na zonsondergang, en de warmte die hen daar houdt, wordt vroeg gekozen. Kortegolfverwarmers geven ongeveer 90% van hun vermogen af als stralingswarmte en zijn direct warm; middellange golf ongeveer 60%, met een opwarmtijd van 30 seconden; lange golf ongeveer 40%, met een opwarmtijd van 5 minuten en de grootste gevoeligheid voor wind[^s3]. Maak die keuze in het schetsontwerp, samen met de energiebron, de montage en de belasting, in de volgorde waarin uw tekeningenset ze nodig heeft.
+De beste buitenruimtes houden hun gasten vast tot lang na zonsondergang, en de warmte die hen daar houdt, wordt vroeg gekozen. De elektrische verwarmers van Bromic werken met middengolf, de golflengte die het grootste deel van een ruimte bestrijkt, de temperatuur het sterkst laat stijgen en haar warmte het verst draagt, zonder storende gloed [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]]. Middengolf is in ongeveer 30 seconden warm; lange golf heeft ongeveer 5 minuten nodig en is het gevoeligst voor wind[^s3]. Maak die keuze in het schetsontwerp, samen met de energiebron, de montage en de belasting, in de volgorde waarin uw tekeningenset ze nodig heeft.
 
 Minder dan één op de vier Amerikaanse huiseigenaren geeft verwarming prioriteit in de planfase[^s1]. Komt de warmte laat, dan komt ze meestal als opbouwleidingen, een plafond dat niet meer klopt en een alternatief bij de aanbesteding. Vanaf het schetsontwerp in de set getekend, blijft dezelfde verwarmer precies zoals u hem hebt voorgeschreven, van de bestekspost tot de groep en de inbouwopening.
 
@@ -248,14 +248,15 @@ Regels volgens de gids van 2021[^s3].
 
 In de open lucht stijgt convectiewarmte op en verdwijnt ze. Hete lucht kan een open ruimte niet op temperatuur houden en buitenverwarming kan niet met een thermostaat worden geregeld, dus rust elk buitenontwerp op stralingswarmte die op mensen is gericht[^s3].
 
-| | Korte golf | Middellange golf | Lange golf |
-|---|---|---|---|
-| Verdeling straling / convectie | ca. 90 / 10 | ca. 60 / 40 | ca. 40 / 60 |
-| Opwarmtijd | Direct | ca. 30 s | ca. 5 min |
-| Wind | Minst gevoelig | Beperkt | Meest gevoelig |
-| Toepassing | Onbeschutte plekken, hogere montage | Overdekte ruimtes | Beschutte ruimtes met weinig blootstelling |
+| | Verwarmd oppervlak | Temperatuurstijging | Reikwijdte van de warmte | Zichtbare gloed | Opwarmtijd |
+|---|---|---|---|---|---|
+| Korte golf | Kleiner | Lager | Korter | Felle gloed en verblinding | Direct[^s3] |
+| **Middengolf: Bromic Platinum, Eclipse en Tungsten Electric** | **Het grootst** | **Het hoogst** | **Het verst** | **Zacht, geen storende gloed** | **Ongeveer 30 seconden[^s3]** |
+| Lange golf | Kleiner | Lager | Het kortst; het gevoeligst voor wind[^s3] | – | Ongeveer 5 minuten[^s3] |
 
-Bron: Bromic Planning Guide 2021[^s3]. Gerichte verwarmers sturen het grootste deel van hun vermogen naar de zone waar mensen zitten, zodat de energie de mensen eronder bereikt[^s3]. [[VERIFY: indeling per golflengte van elk huidig model, en of de elementtemperaturen van 2021 opnieuw worden gepubliceerd — productteam]]
+Opwarmtijd en wind: Bromic Planning Guide v1.2[^s3]. Verwarmd oppervlak, temperatuurstijging, reikwijdte en gloed: testgegevens van Bromic volgen. [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]] [[VERIFY: zichtbare gloed en verblinding van kortegolf — productteam]]
+
+Gerichte verwarmers sturen het grootste deel van hun vermogen naar de zone waar mensen zitten, zodat de energie de mensen eronder bereikt[^s3]. [[VERIFY: indeling per golflengte van elk huidig model, en of de elementtemperaturen van 2021 opnieuw worden gepubliceerd — productteam]]
 
 | | Elektrisch | Gas |
 |---|---|---|

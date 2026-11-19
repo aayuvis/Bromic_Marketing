@@ -86,7 +86,7 @@ Ein erstklassiger Heizstrahler für den Außenbereich sorgt dafür, dass sich al
 
 | Kriterium | Was Sie im Datenblatt prüfen | Bromic-Beispiel |
 |---|---|---|
-| Wärme, die bei den Menschen ankommt | Strahlungswärme, Kurzwellenelement; Heizfläche je Modell, nicht nur Watt oder kW | Tungsten Electric beheizt ca. 6–15 m² bei 2000–6000 W[^s3] |
+| Wärme, die bei den Menschen ankommt | Strahlungswärme, Mittelwellenelement; Heizfläche je Modell, nicht nur Watt oder kW | Tungsten Electric beheizt ca. 6–15 m² bei 2000–6000 W[^s3] |
 | Wetterfest gebaut | Abgedichtetes Gehäuse; IP-Schutzart als Zahl angegeben | Tungsten Electric IPX4; Platinum Marine IPX5[^s3][^s4] |
 | Unabhängige Zertifizierung | Ein anerkanntes Prüfzeichen; in Nordamerika ETL, cETL, UL oder CSA, in Europa die CE-Kennzeichnung | Intertek ETL/cETL bei Tungsten und Platinum Electric[^s3][^s4] [[VERIFY: CE-Kennzeichnung und europäische Prüfnachweise je Modell — Produktteam]] |
 | Garantie | Jahre und Umfang | Tungsten: 2 Jahre auf das Gerät, 7 Jahre auf die Heizelemente; Platinum: 3 Jahre[^s3][^s4] [[VERIFY: Garantiebedingungen für den deutschen Markt — Produktteam]] |
@@ -96,7 +96,7 @@ Ein erstklassiger Heizstrahler für den Außenbereich sorgt dafür, dass sich al
 
 ## Warum die Heizfläche mehr zählt als die Leistung
 
-Die Leistung sagt Ihnen, wie viel Energie ein Heizstrahler aufnimmt, die Heizfläche dagegen, wie viel Ihrer Terrasse er warm hält. Strahlungswärme erwärmt Menschen und Oberflächen statt der Luft und bleibt deshalb auch bei leichtem Wind spürbar, wo Geräte, die die Luft erwärmen, an ihre Grenzen kommen.[^s2] Kurzwellenelemente strahlen am stärksten und wärmen Sie fast sofort; Langwellenelemente brauchen am längsten und reagieren am empfindlichsten auf Wind.[^s2] Wenn ein Hersteller die Heizfläche für jedes Modell veröffentlicht, können Sie Ihren Außenbereich mit Sicherheit auslegen, statt zu schätzen.
+Die Leistung sagt Ihnen, wie viel Energie ein Heizstrahler aufnimmt, die Heizfläche dagegen, wie viel Ihrer Terrasse er warm hält. Strahlungswärme erwärmt Menschen und Oberflächen statt der Luft und bleibt deshalb auch bei leichtem Wind spürbar, wo Geräte, die die Luft erwärmen, an ihre Grenzen kommen.[^s2] Mittelwellenelemente, wie in den elektrischen Bromic Heizstrahlern, decken mehr Fläche ab, heben die Temperatur stärker an und tragen ihre Wärme weiter, ohne störendes Glühen [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]]. Sie wärmen in etwa 30 Sekunden, während Langwellenelemente am längsten brauchen und am empfindlichsten auf Wind reagieren.[^s2] Wenn ein Hersteller die Heizfläche für jedes Modell veröffentlicht, können Sie Ihren Außenbereich mit Sicherheit auslegen, statt zu schätzen.
 
 ![Ein Tungsten-Electric-Heizelement glüht unter einem Glasdach](img:w-bromic-tungsten-electric-patio-heater)
 

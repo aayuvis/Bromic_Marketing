@@ -6,11 +6,11 @@ audience: [ARC]
 stage: [CO]
 cell: ARC-CO
 asset: A24
-summary: "Wie sich kurz-, mittel- und langwellige Infrarotstrahler bei Strahlungswärme, Aufheizzeit und Wind unterscheiden – und wie Einhausung, Montagehöhe und die Wärmewolke den Heizstrahler prägen, den Sie für einen Außenraum spezifizieren."
+summary: "Warum mittelwelliges Infrarot, der Wellenbereich der elektrischen Bromic Heizstrahler, bei Heizfläche, Temperaturanstieg, Reichweite und Glühen vorn liegt, wie Kurz- und Langwelle abschneiden – und wie Einhausung, Montagehöhe und die Wärmewolke den Heizstrahler prägen, den Sie für einen Außenraum spezifizieren."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Was ist der Unterschied zwischen kurzwelligen und langwelligen Infrarot-Heizstrahlern?"
-meta_description: "Strahlungswärme im Freien planen: Kurz-, Mittel- und Langwelle im Vergleich nach Strahlungsanteil, Aufheizzeit, Wind, Montagehöhe und der 30-%-Regel."
+meta_description: "Strahlungswärme im Freien planen: Kurz-, Mittel- und Langwelle im Vergleich nach Heizfläche, Reichweite, Glühen, Aufheizzeit, Montagehöhe und der 30-%-Regel."
 cta: {label: "Planning Guide (Fachausgabe) herunterladen", asset: A02}
 hero: l-010-071
 images: [l-013-111, l-004-012]
@@ -60,23 +60,21 @@ sources:
     supports: "Heat provided outside a building must be radiant and controlled by an occupancy sensor or timer switch"
     verified: true
 ---
-Kurzwellige Infrarotstrahler arbeiten am heißesten und geben rund 90 % ihrer Energie als Strahlung ab; sie wärmen Menschen daher fast sofort und halten sich bei Wind am besten. Langwellige arbeiten am kühlsten, haben nur rund 40 % Strahlungsanteil, brauchen etwa fünf Minuten zum Aufheizen und verlieren bei einer Brise einen großen Teil ihrer Wirkung. Mittelwellige liegen dazwischen, mit rund 60 % Strahlungsanteil und einer Aufheizzeit von etwa 30 Sekunden[^s1]. Spezifizieren Sie für offene Außenbereiche die Quelle mit dem höchsten Strahlungsanteil, die der Ort zulässt, und platzieren Sie sie dort, wo Menschen zusammenkommen, statt sie gleichmäßig über die Grundfläche zu verteilen.
+Denken Sie an das ferne Ende des Tisches, eine Stunde nach Sonnenuntergang. Mittelwelliges Infrarot, der Wellenbereich, den Bromic für Platinum, Eclipse und Tungsten Smart-Heat® Electric gewählt hat, ist für genau diesen Platz entwickelt: Seine Wärme deckt mehr Fläche ab, hebt die Temperatur stärker an und reicht weiter vom Heizstrahler, mit einem sanften Licht, das den Blick und die Gesichter am Tisch so lässt, wie sie sind [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]]. Es erreicht seine volle Wärme in etwa 30 Sekunden[^s1]. Kurzwelle wärmt sofort[^s1], doch ihr starkes Glühen und ihre Blendung können einen Raum beherrschen [[VERIFY: sichtbares Glühen und Blendung der Kurzwelle — Produktteam]]. Langwelle braucht etwa fünf Minuten zum Aufheizen und verliert bei einer Brise einen großen Teil ihrer Wirkung[^s1]. Spezifizieren Sie Mittelwelle für die Bereiche, in denen Menschen zusammenkommen, und platzieren Sie sie dort, wo sie sitzen, statt sie gleichmäßig über die Grundfläche zu verteilen.
 
 ![Wohnbereich im Freien mit Meerblick und nahtlos in die Decke eingelassenen Heizstrahlern](img:l-010-071)
 
 ## Wie sich Kurz-, Mittel- und Langwelle unterscheiden
 
-Die Wellenlänge folgt der Temperatur des Heizelements. Je heißer der Strahler, desto kürzer die Welle und desto größer der Anteil der Energie, der als Strahlungswärme statt als warme Luft abgegeben wird.
+Jeder Wellenbereich verhält sich anders, sobald der Abend beginnt. Nebeneinander gestellt nach dem, was Ihre Gäste spüren, liegt die Mittelwelle in allen vier Punkten vorn, die den Abend prägen, und mit etwa 30 Sekunden Aufheizzeit hält sie mit einer Terrasse Schritt, die sich spontan füllt.
 
-| | Kurzwelle | Mittelwelle | Langwelle |
-|---|---|---|---|
-| Strahlertemperatur (ca.) | 2200 °C | 900 °C | 300 °C |
-| Verhältnis Strahlung / Konvektion | 90 / 10 | 60 / 40 | 40 / 60 |
-| Aufheizzeit | Sofort | ~30 s | ~5 min |
-| Wind | Wärmt Menschen und Gegenstände direkt | Begrenzt windanfällig | Wird leicht verweht |
-| Typischer Einsatz | Offen, exponiert, windig | Überdacht, teilweise geschützt | Geschützt, umschlossen |
+| | Heizfläche | Temperaturanstieg | Reichweite der Wärme | Sichtbares Glühen | Aufheizzeit |
+|---|---|---|---|---|---|
+| Kurzwelle | Kleiner | Geringer | Kürzer | Starkes Glühen und Blendung | Sofort[^s1] |
+| **Mittelwelle: Bromic Platinum, Eclipse und Tungsten Electric** | **Am größten** | **Am höchsten** | **Am weitesten** | **Sanft, kein störendes Glühen** | **Etwa 30 Sekunden[^s1]** |
+| Langwelle | Kleiner | Geringer | Am kürzesten; am stärksten windanfällig[^s1] | – | Etwa 5 Minuten[^s1] |
 
-Quelle: Zuordnung der Wellenbereiche im Bromic Planning Guide v1.2[^s1]. Die Zeile „Typischer Einsatz“ ist unsere eigene Lesart dieser Eigenschaften und als Orientierung gedacht, da der Planning Guide sie nicht als Regel veröffentlicht.
+Aufheizzeit und Wind: Bromic Planning Guide v1.2[^s1]. Heizfläche, Temperaturanstieg, Reichweite und Glühen: Bromic-Testdaten folgen. [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]] [[VERIFY: sichtbares Glühen und Blendung der Kurzwelle — Produktteam]]
 
 Der konvektive Anteil zählt im Freien, weil warme Luft aufsteigt und abzieht. Drinnen bliebe diese Luft im Raum; draußen geht sie einfach verloren. Deshalb ist der Planning Guide so eindeutig: Wärme im Freien lässt sich nicht über ein Thermostat regeln, und Warmluft funktioniert im Freien nicht[^s2].
 
@@ -86,7 +84,7 @@ Der konvektive Anteil zählt im Freien, weil warme Luft aufsteigt und abzieht. D
 
 Strahlungsenergie breitet sich geradlinig aus und wird von den Oberflächen aufgenommen, auf die sie trifft – Haut, Kleidung, Möbel und Stein. Weil sie die Luft nicht als Träger braucht, kann eine Brise die Luft um Ihre Gäste bewegen, ohne ihnen die Wärme zu nehmen, die sie schon empfangen haben. Warmluft dagegen zieht mit dem Wind davon[^s2].
 
-Als Faustregel gilt: Je exponierter der Raum, desto höher muss der Strahlungsanteil der Quelle sein. Auf einer windigen Dachterrasse fühlt sich ein langwelliges Gerät aus der Nähe vielleicht warm an, trägt aber wenig dazu bei, dass sich jemand am Tisch wohlfühlt.
+Als Faustregel gilt: Je exponierter der Raum, desto mehr lohnt sich ein Heizstrahler, dessen Wärme bis an den Tisch reicht, und ein Windschutz auf der Windseite. Auf einer windigen Dachterrasse fühlt sich ein langwelliges Gerät aus der Nähe vielleicht warm an, trägt aber wenig dazu bei, dass sich jemand am Tisch wohlfühlt.
 
 ![Eclipse-Heizstrahler an Wandarmen, die eine Restaurantterrasse unter einer Markise wärmen](img:l-013-111)
 
@@ -98,7 +96,7 @@ Innerhalb des Außenbereichs macht die Überdachung einen echten Unterschied. Ei
 
 | Bedingung | Auswirkung auf die Planung |
 |---|---|
-| Ganz offen, keine Überdachung | Nur Strahlung; Kurzwelle bevorzugen, engere Abstände |
+| Ganz offen, keine Überdachung | Nur Strahlung; Mittelwelle spezifizieren, engere Abstände |
 | Teilüberdachung (Untersicht, Auskragung, geschlossene Pergola) | Die Wärmewolke bringt konvektiven Gewinn; an der Untersicht montieren |
 | Geöffnete Lamellen oder Lattendach | Kaum Wärmewolke; bei der Bemessung wie offen behandeln |
 | Weniger als 30 % des Umfangs offen | Nach Bromic kein Außenbereich; örtliche Vorschriften prüfen |
@@ -130,7 +128,7 @@ Jeder Bromic Heizstrahler wird von Anfang an mit seiner Affinity Smart-Heat® St
 
 ## Das Wichtigste in Kürze
 
-- Kurzwelle hat ~90 % Strahlungsanteil, wärmt sofort und hält sich bei Wind am besten; Langwelle hat ~40 % Strahlungsanteil, braucht ~5 min und ist am windempfindlichsten[^s1].
+- Mittelwelle, Bromics Wahl für seine elektrischen Heizstrahler, liegt bei Heizfläche, Temperaturanstieg und Reichweite der Wärme vorn, ohne störendes Glühen [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]]. Sie wärmt in etwa 30 Sekunden; Langwelle braucht ~5 min und ist am windempfindlichsten[^s1].
 - Ein Raum gilt als Außenbereich, wenn 30 % oder mehr des Umfangs dauerhaft offen sind, und eine Überdachung ergänzt eine Wärmewolke[^s2].
 - Die Intensität sinkt mit der Entfernung; halten Sie daher die Mindesthöhen von 1,8 m an der Wand und 2,4 m an der Decke ein und bestätigen Sie sie je Modell[^s2].
 - Gehen Sie von der Heizfläche im Lookbook aus und passen Sie sie dann an Exposition, Höhe und Überdachung an[^s3].
@@ -138,8 +136,8 @@ Jeder Bromic Heizstrahler wird von Anfang an mit seiner Affinity Smart-Heat® St
 
 ## FAQ
 
-### Ist Kurzwelle oder Langwelle besser für eine Terrasse?
-Für offene oder windige Terrassen die Kurzwelle, da rund 90 % ihrer Leistung Strahlung sind und sie sofort wärmt. Langwelle passt zu geschützten Bereichen, in denen ihr größerer konvektiver Anteil nicht weggeweht wird[^s1].
+### Welche Infrarot-Wellenlänge ist die beste für eine Terrasse?
+Für die meisten Terrassen die Mittelwelle. Sie deckt mehr Fläche ab, hebt die Temperatur stärker an und trägt ihre Wärme weiter vom Heizstrahler, ohne störendes Glühen [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]], und sie wärmt in etwa 30 Sekunden[^s1]. Kurzwelle wärmt sofort, bringt aber starkes Glühen und Blendung mit [[VERIFY: sichtbares Glühen und Blendung der Kurzwelle — Produktteam]]; Langwelle heizt langsam auf und ist am stärksten windanfällig[^s1].
 
 ### Funktionieren Infrarot-Heizstrahler bei Wind?
 Strahlungswärme hält bei leichtem bis mäßigem Wind, weil sie Menschen und Oberflächen wärmt statt der Luft[^s2]. Starker, anhaltender Wind mindert bei jedem Heizstrahler die Behaglichkeit; ergänzen Sie daher einen Windschutz auf der Windseite.

@@ -14,7 +14,7 @@ summary: "What efficiency really means for an outdoor heater: how much of its en
 primary_keyword: are infrared heaters efficient
 secondary_keywords: [infrared heater efficiency, most efficient patio heater, infrared heater electricity use, cost to run infrared heater]
 ai_prompt: "Are infrared heaters energy efficient for a patio?"
-meta_description: "Are infrared heaters efficient? Outdoors they are the efficient choice, warming people instead of air. How radiant share, aim, controls and sizing matter."
+meta_description: "Are infrared heaters efficient? Outdoors they are the efficient choice, warming people instead of air. How wavelength, aim, controls and sizing matter."
 cta: {label: "Size your space", asset: A03}
 hero: w-tungsten-electric-melrose-place-los-angeles-
 owner_review: Marketing
@@ -70,11 +70,11 @@ Yes – outdoors, infrared is the efficient way to keep people warm, because it 
 
 Indoors, a heater warms the air in a room and the walls hold it there. Outside, that warm air soon leaves[^s2]. The measure that matters outdoors is how much warmth arrives where people sit, because for an electric resistance heater every bit of the energy already becomes heat[^s1].
 
-The radiant share tells you that. Bromic's Planning Guide rates short wave the most efficient, at about 90% radiant, and long wave the least, at about 40%, with the rest leaving as warm air[^s2].
+The wavelength shapes that. Bromic's electric heaters are medium wave, chosen because its warmth covers more of the space, lifts the temperature further and travels further to the people at the table, without an intrusive glow [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]]. Bromic's Planning Guide rates long wave the least efficient, with most of its output leaving as warm air[^s2].
 
 | Choice | Wastes more | Wastes less |
 |---|---|---|
-| Wavelength | Long wave, about 40% radiant[^s2] | Short or medium wave, 90% or 60% radiant[^s2] |
+| Wavelength | Long wave, most of its output lost as warm air[^s2] | Medium wave, warmth that reaches further across the seating [[VERIFY: medium wave test data for distance heat travels — Product team]] |
 | Direction | Heat sent equally in all directions | Directional heat aimed at the seating[^s2] |
 | Control | On or off only, left running | Dimming, zones and schedules |
 | Sizing | Too few heaters run flat out, or too many | Coverage matched to where people sit |
@@ -93,7 +93,7 @@ For gas, divide the heater's BTU per hour by 100,000 and multiply by your price 
 
 ## Four Ways To Make Every Watt Count
 
-1. **Choose a high radiant share.** Short and medium wave put most of their energy into radiation, while long wave loses most of it to the air[^s2].
+1. **Choose medium wave.** Bromic's medium wave heaters send their warmth further across the seating, with no intrusive glow [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]], while long wave loses most of its energy to the air[^s2].
 2. **Aim the warmth.** Directional heaters send heat one way, toward your guests, and avoid over-heating the people closest[^s2]. Mount and angle them for the seating instead of the middle of the floor.
 3. **Control the output.** Outdoor heat cannot be thermostatically controlled[^s2], so you tailor the heater itself. Affinity Smart-Heat Dimmer controllers dim compatible electric heaters in 1% steps[^s5], Eclipse steps between 33, 66 and 100%[^s4], and the 4,000 and 6,000 W Tungsten Electric have two separately controlled elements[^s5]. The Smart-Heat app adds zones, schedules and timers, so warmth runs only where and when people gather[^s4].
 4. **Size it to your space.** Coverage per heater varies with model, mounting height, environment and installation[^s4]. A layout matched to the seating avoids cold spots as well as heaters warming empty corners.

@@ -94,7 +94,7 @@ Die meisten freistehenden Heizstrahler sind zuerst um eine Gasflasche herum geba
 
 ### Spielt die Wellenlänge eine Rolle?
 
-Ja, besonders wenn der Wind auffrischt. Unser Planungsleitfaden beziffert Kurzwellenwärme auf ca. 90 % Strahlung und sofort spürbar, Mittelwelle auf ca. 60 % mit kurzer Aufheizzeit und Langwelle auf ca. 40 %, am langsamsten und am stärksten windempfindlich.[^s4] Auf einem exponierten Deck sorgt die kürzere Wellenlänge dafür, dass Ihre Gäste sich wohlfühlen.
+Ja, besonders wenn der Wind auffrischt. Die elektrischen Heizstrahler von Bromic sind mittelwellig, gewählt, damit die Wärme über das ganze Deck jeden Gast erreicht, mit sanftem Licht und ohne Blendung [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]]. Mittelwelle ist in etwa 30 Sekunden warm, Langwelle heizt am langsamsten auf und ist am stärksten windempfindlich.[^s4] Kurzwelle wärmt sofort[^s4], doch ihr starkes Glühen und ihre Blendung können einen Abend beherrschen [[VERIFY: sichtbares Glühen und Blendung der Kurzwelle — Produktteam]]. Auf einem exponierten Deck sorgt die Mittelwelle dafür, dass Ihre Gäste sich wohlfühlen.
 
 ## Eclipse Smart-Heat Freestanding Electric
 

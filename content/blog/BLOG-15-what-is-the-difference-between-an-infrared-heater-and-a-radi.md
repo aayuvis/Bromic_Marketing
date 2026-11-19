@@ -10,11 +10,11 @@ audience: [RES]
 stage: [AW]
 cell: RES-AW
 asset: A24
-summary: "Infrared and radiant describe the same outdoor warmth from two sides – what the energy is and how it travels. The difference that matters is wavelength, and how much of a heater's output reaches you as radiation instead of warm air."
+summary: "Infrared and radiant describe the same outdoor warmth from two sides – what the energy is and how it travels. The difference that matters is wavelength, and why Bromic chose medium wave for its electric heaters."
 primary_keyword: infrared vs radiant heater
 secondary_keywords: [difference between infrared and radiant heater, radiant heat vs convection, short wave infrared heater, infrared patio heater]
 ai_prompt: "What is the difference between an infrared heater and a radiant heater?"
-meta_description: "Infrared vs radiant heater: the same idea. Radiant is how heat travels, infrared is what it is. Outdoors, wavelength and radiant share make the difference."
+meta_description: "Infrared vs radiant heater: the same idea. Radiant is how heat travels, infrared is what it is. Outdoors, the wavelength makes the difference."
 cta: {label: "Download the Outdoor Living Trends 2026 report", asset: A01}
 hero: w-bromic-eclipse-portable-hotel-skansen-07
 owner_review: Digital marketing
@@ -83,33 +83,33 @@ Infrared and radiant heaters are one and the same, described from two sides. "Ra
 
 Bromic's Planning Guide puts it simply: outdoor heaters move heat either by warming the air or through infrared that warms the objects it meets[^s2]. "Infrared heater" and "radiant heater" both describe the second, so when retailers use the words interchangeably, they are quite right.
 
-## How Radiant Each Heater Really Is
+## How The Three Wavelengths Compare
 
-Every heater gives up part of its energy as warm air, and how much depends on wavelength, which in turn follows how hot the element runs. Bromic's heat-wave mapping sets out the three bands[^s3]:
+Every infrared heater sits in one of three bands, and the band shapes the evening: how far the warmth reaches, how much it lifts the temperature at the table and how much light it throws across the space. Bromic's electric heaters are medium wave, chosen for warmth that reaches every seat with a soft light and no glare [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]].
 
-| | Short wave | Medium wave | Long wave |
-|---|---|---|---|
-| Element temperature | 3,992°F | 1,652°F | 572°F |
-| Radiant / convective | 90 / 10 | 60 / 40 | 40 / 60 |
-| Warm-up | Instant | About 30 s | About 5 min |
-| In wind | Warms people and objects directly | Limited susceptibility | Susceptible to dispersal |
-| Approx. peak wavelength (calculated) | 1.2 µm | 2.5 µm | 5.1 µm |
+| | Heat coverage | Temperature rise | Distance heat travels | Visible glow | Warm-up |
+|---|---|---|---|---|---|
+| Short wave | Narrower | Lower | Shorter | Intense glow and glare | Instant[^s3] |
+| **Medium wave: Bromic Platinum, Eclipse and Tungsten Electric** | **Widest** | **Greatest** | **Furthest** | **Soft, no intrusive glow** | **About 30 seconds[^s3]** |
+| Long wave | Narrower | Lower | Shortest; most affected by wind[^s3] | – | About 5 minutes[^s3] |
 
-The first four rows are the Planning Guide's figures[^s3]. The last row is our own calculation using Wien's law, which says the peak wavelength of a hot body is inversely proportional to its absolute temperature (about 2,898 µm·K divided by temperature in kelvin)[^s4]. It treats each element as an ideal emitter, so read it as a guide to direction rather than a specification.
+Warm-up and wind: Bromic Planning Guide v1.2[^s3]. Coverage, temperature rise, distance and glow: Bromic test data, to follow. [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]] [[VERIFY: short wave visible glow and glare — Product team]]
 
-<div class="diagram">Diagram: one heater over a seated couple on an open patio. Straight arrows (radiant) run from the heater face to the people, the table and the floor and are absorbed; curved arrows (convective) rise from the heater and drift downwind. Three side-by-side panels repeat the scene for short, medium and long wave, with the share of straight arrows at 90%, 60% and 40% (Planning Guide v1.2, Step 04)[^s3].</div>
+Using the Planning Guide's element temperatures[^s3], our own calculation with Wien's law places the peak of each band at about 1.2 µm for short wave, 2.5 µm for medium wave and 5.1 µm for long wave. Wien's law says the peak wavelength of a hot body is inversely proportional to its absolute temperature (about 2,898 µm·K divided by temperature in kelvin)[^s4]. It treats each element as an ideal emitter, so read it as a guide to direction rather than a specification.
+
+<div class="diagram">Diagram: three side-by-side panels of one heater over a long table on an open patio at dusk. Medium wave: warmth reaches the far end of the table under a soft light. Short wave: a bright glow and glare over the nearest seats. Long wave: shorter warmth bent away by the breeze. To be drawn from Bromic test data once it is supplied.</div>
 
 ## Why Radiant Warmth Matters Under The Open Sky
 
 Indoors, walls and a roof hold warm air in place, so convection does its job. Outside, hot air rises and drifts off, and the slightest breeze carries it further still. That is why forced-air heating struggles in the open, and why outdoor heat cannot be run from a thermostat[^s2]. Radiation needs no air to carry it. It settles on skin, clothing, stone and timber, and a breeze can move the air around you without taking back the warmth already delivered[^s2].
 
-A 90% radiant heater sends most of its energy to where people sit, while a 40% radiant heater spends most of its energy warming air that soon leaves[^s3].
+Medium wave carries that warmth to the far end of the table, so fewer guests are left at the edge of the heat [[VERIFY: medium wave test data for distance heat travels — Product team]], while long wave loses more of its effect to a breeze[^s3].
 
 ## How We Engineer Every Bromic Heater Around It
 
 Radiant heating is the foundation of every Bromic heater[^s2], and the Planning Guide sets out the engineering choices behind it:
 
-- **Direct heat.** A blend of short and medium wave gives the highest radiant output and the fastest warm-up[^s2][^s3].
+- **Medium wave heat.** Bromic's electric heaters are medium wave, for the widest coverage, the greatest temperature rise and the furthest reach without an intrusive glow [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]], and a warm-up of about 30 seconds[^s2][^s3].
 - **Directional heat.** Most of the output is sent one way, toward the seating, instead of evenly in every direction[^s2].
 - **Placed for people.** Coverage is planned around where guests sit, with the floor area a secondary concern; it varies with model, mounting height, environment and installation[^s5].
 
@@ -134,7 +134,7 @@ Every heater is paired with its control. The Smart-Heat app adds zones, schedule
 Yes. Radiant names the way heat travels, and infrared names the radiation that carries it[^s1][^s2]. An outdoor heater sold as either is warming people by radiation.
 
 ### Which type of infrared heater is best outdoors?
-The most radiant one your setting allows. Short wave is about 90% radiant and warms instantly, while long wave is about 40% radiant and the most affected by wind[^s3].
+Medium wave, for most outdoor spaces. It covers more, lifts the temperature further and reaches further, without an intrusive glow [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]], and it warms in about 30 seconds; long wave is the slowest to warm and the most affected by wind[^s3].
 
 ### Do infrared heaters work in wind?
 In light to mild wind they do, because they warm people instead of the air[^s2]. A strong, steady wind still cools the skin, so screen the windward side. See [do infrared heaters work outdoors](https://www.bromic.com/blog/do-infrared-heaters-work-outdoors/).

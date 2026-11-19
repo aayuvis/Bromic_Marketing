@@ -25,7 +25,7 @@ sources:
     title: "Official Outdoor Heating Planning Guide (US) v1.2, Steps 04 and 06"
     year: 2021
     url: sources/Bromic_Planning_Guide_US_v1.2_2021.pdf
-    supports: "Wall mounts at least 72 in., ceiling at least 96 in.; ANSI/NFPA 70, ANSI Z223.1/NFPA 54; certification marks Intertek, UL, CSA; heating elements run at high temperatures (short wave element ~3992°F)"
+    supports: "Wall mounts at least 72 in., ceiling at least 96 in.; ANSI/NFPA 70, ANSI Z223.1/NFPA 54; certification marks Intertek, UL, CSA; heating elements run at high temperatures (medium wave element ~1652°F, short wave ~3992°F)"
     verified: true
   - id: s2
     publisher: Bromic Heating
@@ -64,7 +64,7 @@ They can be, when the heater is the right type, installed to code and kept out o
 
 ## Keeping family evenings relaxed
 
-- **Hot surfaces.** Heating elements run at very high temperatures – a short-wave element is rated around 3,992°F in Bromic's guide.[^s1] Never let anyone touch a heater face, whether it is running or has just been switched off. [[VERIFY: cool-down time and housing surface temperatures by model — Product team]]
+- **Hot surfaces.** Heating elements run at very high temperatures – even a medium wave element, the kind in Bromic's electric heaters, runs at around 1,652°F in Bromic's guide.[^s1] Never let anyone touch a heater face, whether it is running or has just been switched off. [[VERIFY: cool-down time and housing surface temperatures by model — Product team]]
 - **A kid-free zone.** NFPA advises a three-foot kid-free zone around space heaters and open fires, and keeping things that can burn – cushions, toys, blankets – at least three feet away.[^s3]
 - **Pets.** Keep beds and bowls out of the heat path so animals can always move away from the warmth when they choose. [[VERIFY: any Bromic manual guidance on pets — Product team]]
 - **Switching off.** Schedules and timers in the Bromic Smart-Heat app end the heat when the evening does; they need compatible Affinity Smart-Heat Controls, sold separately. Every system has a control – an Affinity On/Off, Dimmer or Eclipse controller, or a wall switch.[^s2]

@@ -67,7 +67,7 @@ Dat kunnen ze zijn, als de verwarmer van het juiste type is, volgens de voorschr
 
 ## Ontspannen avonden met het hele gezin
 
-- **Hete oppervlakken.** Verwarmingselementen worden zeer heet – in de gids van Bromic staat voor een kortegolfelement ongeveer 2200 °C.[^s1] Laat niemand de voorkant van een verwarmer aanraken, niet als hij aan staat en ook niet net nadat hij is uitgezet. [[VERIFY: afkoeltijd en oppervlaktetemperatuur van de behuizing per model — productteam]]
+- **Hete oppervlakken.** Verwarmingselementen worden zeer heet – zelfs een middengolfelement, zoals in de elektrische verwarmers van Bromic, wordt volgens de gids van Bromic ongeveer 900 °C.[^s1] Laat niemand de voorkant van een verwarmer aanraken, niet als hij aan staat en ook niet net nadat hij is uitgezet. [[VERIFY: afkoeltijd en oppervlaktetemperatuur van de behuizing per model — productteam]]
 - **Een kindvrije zone.** De Amerikaanse brandweerorganisatie NFPA adviseert een kindvrije zone van ongeveer 1 meter rond kachels en open vuur, en om alles wat kan branden – kussens, speelgoed, dekens – minstens zo ver weg te houden.[^s3]
 - **Huisdieren.** Houd manden en bakjes uit de stralingsrichting, zodat dieren altijd zelf uit de warmte kunnen stappen als ze dat willen. [[VERIFY: eventuele aanwijzingen over huisdieren in de handleiding van Bromic — productteam]]
 - **Uitzetten.** Met schema's en timers in de Bromic Smart-Heat app stopt de warmte als de avond voorbij is; daarvoor zijn compatibele Affinity Smart-Heat Controls nodig, die apart worden verkocht. Elk systeem heeft een bediening – een Affinity On/Off-, Dimmer- of Eclipse-regelaar, of een wandschakelaar.[^s2]

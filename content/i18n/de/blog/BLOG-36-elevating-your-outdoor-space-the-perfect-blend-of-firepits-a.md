@@ -91,7 +91,7 @@ Die örtlichen Regeln für offene Feuer sind unterschiedlich; fragen Sie deshalb
 
 ## Gleichmäßige Wärme für jeden Platz
 
-Strahlungswärme (Infrarotwärme) wärmt Menschen und Oberflächen direkt statt der Luft dazwischen und hält Sie deshalb auch dann behaglich, wenn eine Brise aufkommt.[^s1] Kurzwellige Heizstrahler sind wenige Augenblicke nach dem Einschalten warm.[^s1] An der Decke oder an der Wand montiert, erreichen sie den Esstisch, die Lounge und die Bar ebenso wie den Kreis am Feuer, und das ganz ohne Rauch.
+Strahlungswärme (Infrarotwärme) wärmt Menschen und Oberflächen direkt statt der Luft dazwischen und hält Sie deshalb auch dann behaglich, wenn eine Brise aufkommt.[^s1] Die mittelwelligen Elektro-Heizstrahler von Bromic sind in etwa 30 Sekunden warm,[^s1] mit einem sanften Licht, das sich neben dem Schein des Feuers zurücknimmt [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]]. An der Decke oder an der Wand montiert, erreichen sie den Esstisch, die Lounge und die Bar ebenso wie den Kreis am Feuer, und das ganz ohne Rauch.
 
 | | Feuerstelle | Strahlungsheizer |
 |---|---|---|

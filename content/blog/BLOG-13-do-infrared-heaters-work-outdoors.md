@@ -62,7 +62,7 @@ sources:
     verified: false
 ---
 
-Yes – infrared is the heat that truly works outdoors. It warms people, furniture and floors directly, much as the sun does, instead of heating air that rises and drifts away. That is why it keeps a patio comfortable in the open and in light to mild wind, where a forced-air heater does almost nothing[^s1]. How well it performs in your space depends on its radiant share, the wind, any cover overhead and where it is aimed.
+Yes – infrared is the heat that truly works outdoors. It warms people, furniture and floors directly, much as the sun does, instead of heating air that rises and drifts away. That is why it keeps a patio comfortable in the open and in light to mild wind, where a forced-air heater does almost nothing[^s1]. How well it performs in your space depends on its wavelength, the wind, any cover overhead and where it is aimed.
 
 ![A city rooftop terrace under a timber pergola, warmed by a Tungsten Electric heater](img:w-tungsten-electric-new-york-residential)
 
@@ -76,15 +76,17 @@ For the same reason, outdoor warmth is never set by a thermostat. You control th
 
 In light to mild wind, infrared keeps you comfortable[^s1]. Wind moves air, and radiant warmth already delivered to you stays with you. A strong, steady wind will still cool the skin, so the exposure of your space shapes how many heaters you need and where they belong.
 
-Wavelength makes the greatest difference here[^s2]:
+Wavelength makes the greatest difference here. Bromic's electric heaters are medium wave, chosen for warmth that reaches every seat with a soft light and no glare [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]]:
 
-| Wavelength | Radiant share | Warm-up | In wind |
-|---|---|---|---|
-| Short wave | About 90% | Instant | Warms people and objects directly |
-| Medium wave | About 60% | About 30 s | Limited susceptibility |
-| Long wave | About 40% | About 5 min | Most easily dispersed |
+| | Heat coverage | Temperature rise | Distance heat travels | Visible glow | Warm-up |
+|---|---|---|---|---|---|
+| Short wave | Narrower | Lower | Shorter | Intense glow and glare | Instant[^s2] |
+| **Medium wave: Bromic Platinum, Eclipse and Tungsten Electric** | **Widest** | **Greatest** | **Furthest** | **Soft, no intrusive glow** | **About 30 seconds[^s2]** |
+| Long wave | Narrower | Lower | Shortest; most affected by wind[^s2] | – | About 5 minutes[^s2] |
 
-For an exposed deck or rooftop, choose the most radiant heater your setting allows, screen the windward side and allow a little extra coverage. The wavelength bands are explained more fully in [infrared vs radiant heaters](https://www.bromic.com/blog/what-is-the-difference-between-an-infrared-heater-and-a-radiant-heater/).
+Warm-up and wind: Bromic Planning Guide v1.2[^s2]. Coverage, temperature rise, distance and glow: Bromic test data, to follow. [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]] [[VERIFY: short wave visible glow and glare — Product team]]
+
+For an exposed deck or rooftop, choose medium wave heat that carries to the table, screen the windward side and allow a little extra coverage. The wavelength bands are explained more fully in [infrared vs radiant heaters](https://www.bromic.com/blog/what-is-the-difference-between-an-infrared-heater-and-a-radiant-heater/).
 
 ## How A Roof Overhead Adds To The Warmth
 
@@ -123,6 +125,6 @@ Installed to the manual and used as directed, yes. Read [are infrared outdoor he
 Gas heaters can be infrared too, so the two are not a choice of one over the other. Choose by your space, its cover and your fuel supply, and see [gas or electric](https://www.bromic.com/blog/gas-or-electric-patio-heaters-which-one-is-right-for-me/).
 
 ### How quickly do infrared heaters warm you?
-Short wave is instant, medium wave takes about 30 seconds and long wave about five minutes[^s2].
+Medium wave, the band in Bromic's electric heaters, takes about 30 seconds; short wave is instant and long wave takes about five minutes[^s2].
 
 To see what homeowners are planning into their outdoor rooms this year, explore the Trends report.

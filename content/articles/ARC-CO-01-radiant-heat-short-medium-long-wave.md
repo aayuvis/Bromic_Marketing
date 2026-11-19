@@ -7,11 +7,11 @@ audience: [ARC]
 stage: [CO]
 cell: ARC-CO
 asset: A24
-summary: "How short, medium and long wave infrared compare on radiant warmth, warm-up and wind, and how enclosure, mounting height and the heat cloud shape the heater you specify for an outdoor space."
+summary: "Why medium wave infrared, the band Bromic chose for its electric heaters, leads on coverage, temperature rise, reach and glow, how short and long wave compare, and how enclosure, mounting height and the heat cloud shape the heater you specify for an outdoor space."
 primary_keyword: radiant heater outdoor design
 secondary_keywords: [short wave infrared heater, infrared heater wavelength]
 ai_prompt: "What is the difference between short wave and long wave infrared heaters?"
-meta_description: "Radiant heater outdoor design: short, medium and long wave infrared compared on radiant output, warm-up, wind, mounting height and the 30% rule."
+meta_description: "Radiant heater outdoor design: short, medium and long wave infrared compared on coverage, reach, glow, warm-up, mounting height and the 30% rule."
 cta: {label: "Download the Planning Guide (pro edition)", asset: A02}
 hero: l-010-071
 images: [l-013-111, l-004-012]
@@ -58,23 +58,21 @@ sources:
     verified: true
 ---
 
-Short wave infrared runs hottest and is about 90% radiant, so it warms people almost instantly and holds up best in wind. Long wave runs coolest, is only about 40% radiant, takes around five minutes to warm and loses much of its effect to a breeze. Medium wave sits between the two, at about 60% radiant with a warm-up of roughly 30 seconds[^s1]. For open outdoor spaces, specify the most radiant source the setting allows, and place it where people will gather rather than spreading it evenly across the floor area.
+Picture the far end of the table an hour after sunset. Medium wave infrared, the band Bromic chose for Platinum, Eclipse and Tungsten Smart-Heat® Electric, is engineered for that seat: its warmth covers more of the space, lifts the temperature further and travels further from the heater, with a soft light that leaves the view and the faces around the table as they are [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]]. It reaches full warmth in about 30 seconds[^s1]. Short wave is instant[^s1], but its intense glow and glare can dominate a space [[VERIFY: short wave visible glow and glare — Product team]]. Long wave takes around five minutes to warm and loses much of its effect to a breeze[^s1]. Specify medium wave for the spaces people gather in, and place it where they sit rather than spreading it evenly across the floor area.
 
 ![Ocean-view outdoor living room with heaters recessed seamlessly into the ceiling](img:l-010-071)
 
 ## How Short, Medium And Long Wave Infrared Differ
 
-Wavelength follows element temperature. The hotter the emitter, the shorter the wave, and the larger the share of energy that leaves as radiant warmth rather than as warm air.
+Each band behaves differently once the evening starts. Set side by side on what your guests feel, medium wave leads on all four counts that shape the evening, and its warm-up of about 30 seconds keeps pace with a terrace that fills on impulse.
 
-| | Short wave | Medium wave | Long wave |
-|---|---|---|---|
-| Emitter temperature (approx.) | 3,992°F | 1,652°F | 572°F |
-| Radiant / convective split | 90 / 10 | 60 / 40 | 40 / 60 |
-| Warm-up | Instant | ~30 s | ~5 min |
-| Wind | Warms people and objects directly | Limited susceptibility | Susceptible to dispersal |
-| Indicative fit | Open, exposed, windy | Covered, semi-sheltered | Sheltered, enclosed |
+| | Heat coverage | Temperature rise | Distance heat travels | Visible glow | Warm-up |
+|---|---|---|---|---|---|
+| Short wave | Narrower | Lower | Shorter | Intense glow and glare | Instant[^s1] |
+| **Medium wave: Bromic Platinum, Eclipse and Tungsten Electric** | **Widest** | **Greatest** | **Furthest** | **Soft, no intrusive glow** | **About 30 seconds[^s1]** |
+| Long wave | Narrower | Lower | Shortest; most affected by wind[^s1] | – | About 5 minutes[^s1] |
 
-Source: Bromic Planning Guide v1.2 heat-wave mapping[^s1]. The "indicative fit" row is our own reading of those properties and is offered as guidance, since the Planning Guide does not publish it as a rule.
+Warm-up and wind: Bromic Planning Guide v1.2[^s1]. Coverage, temperature rise, distance and glow: Bromic test data, to follow. [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]] [[VERIFY: short wave visible glow and glare — Product team]]
 
 The convective share matters outdoors because warm air rises and drifts away. Indoors, that air would stay in the room; outside, it is simply lost. This is why the Planning Guide is so clear that outdoor heat cannot be thermostatically controlled, and that forced air does not work in the open[^s2].
 
@@ -84,7 +82,7 @@ The convective share matters outdoors because warm air rises and drifts away. In
 
 Radiant energy travels in straight lines and is absorbed by the surfaces it reaches – skin, clothing, furniture and stone. Because it does not rely on the air to carry it, a breeze can move the air around your guests without taking away the warmth they have already received. Forced air, by contrast, is carried off with the wind[^s2].
 
-As a working rule, the more exposed the space, the more radiant the source it needs. On a windy rooftop, a long wave unit may feel warm up close while doing little to keep anyone comfortable at the table.
+As a working rule, the more exposed the space, the more it pays to choose a heater whose warmth carries to the table, and to screen the windward side. On a windy rooftop, a long wave unit may feel warm up close while doing little to keep anyone comfortable at the table.
 
 ![Wall-arm Eclipse heaters warming a restaurant terrace beneath an awning](img:l-013-111)
 
@@ -96,7 +94,7 @@ Within the outdoor range, the cover makes a real difference. A roof or deep over
 
 | Condition | Effect on design |
 |---|---|
-| Fully open, no cover | Radiant only; prioritise short wave and tighter spacing |
+| Fully open, no cover | Radiant only; specify medium wave and tighter spacing |
 | Partial cover (soffit, cantilever, closed pergola) | Heat cloud adds convective gain; mount to the soffit |
 | Open louvres or slatted roof | Little heat cloud; treat as open for sizing |
 | Under 30% of perimeter open | Not "outdoor" for Bromic's purposes; check local code |
@@ -128,7 +126,7 @@ Every Bromic heater is specified with its Affinity Smart-Heat® Controls from th
 
 ## Key Takeaways
 
-- Short wave is ~90% radiant, instant and best in wind; long wave is ~40% radiant, takes ~5 min and is the most wind-sensitive[^s1].
+- Medium wave, Bromic's choice for its electric heaters, leads on coverage, temperature rise and the distance its heat travels, with no intrusive glow [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]]. It warms in about 30 seconds; long wave takes ~5 min and is the most wind-sensitive[^s1].
 - A space counts as outdoor when 30% or more of the perimeter is permanently open, and a cover adds a heat cloud[^s2].
 - Intensity drops with distance, so respect the 72 in wall and 96 in ceiling minimums and confirm them per model[^s2].
 - Size from the Lookbook coverage, then adjust for exposure, height and cover[^s3].
@@ -136,8 +134,8 @@ Every Bromic heater is specified with its Affinity Smart-Heat® Controls from th
 
 ## FAQ
 
-### Is short wave or long wave better for a patio?
-For open or windy patios, short wave, since about 90% of its output is radiant and it warms instantly. Long wave suits sheltered spaces, where its larger convective share is not blown away[^s1].
+### Which infrared wavelength is best for a patio?
+Medium wave, for most patios. It covers more of the space, raises the temperature further and carries its warmth further from the heater, with no intrusive glow [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]], and it warms in about 30 seconds[^s1]. Short wave is instant but carries an intense glow and glare [[VERIFY: short wave visible glow and glare — Product team]]; long wave is slow to warm and the most affected by wind[^s1].
 
 ### Do infrared heaters work in wind?
 Radiant heat holds up in light to mild wind because it warms people and surfaces rather than the air[^s2]. Strong, constant wind reduces comfort with any heater, so add screening on the windward side.

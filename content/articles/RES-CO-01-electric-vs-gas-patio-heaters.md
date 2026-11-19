@@ -57,13 +57,15 @@ Each fuel shines in its own setting. Built-in electric infrared suits covered pa
 
 Picture standing in sunshine on a crisp winter day: the air is cold, and your face is warm. That is radiant heat, infrared energy that travels to you and warms whatever it lands on. Convective heat warms the air, which then warms you; it works well in a closed room and struggles on an open patio, where the warm air drifts away.[^s1]
 
-Outdoors, you want as much radiant heat as possible, and Bromic's guidance sorts heaters by wavelength:[^s1]
+Outdoors, you want warmth that reaches every chair at the table, with a soft light that keeps the evening relaxed and no glare in anyone's eyes. That is why Bromic's electric heaters are medium wave infrared, which leads the three wavelengths on coverage, temperature rise and the distance its heat travels, without an intrusive glow [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]]:
 
-| Wavelength | Radiant share | Warm-up | Wind |
-|---|---|---|---|
-| Short wave | ~90% | Instant | Warms people and objects directly |
-| Medium wave | ~60% | ~30 seconds | Limited sensitivity |
-| Long wave | ~40% | ~5 minutes | Most easily dispersed |
+| | Heat coverage | Temperature rise | Distance heat travels | Visible glow | Warm-up |
+|---|---|---|---|---|---|
+| Short wave | Narrower | Lower | Shorter | Intense glow and glare | Instant[^s1] |
+| **Medium wave: Bromic Platinum, Eclipse and Tungsten Electric** | **Widest** | **Greatest** | **Furthest** | **Soft, no intrusive glow** | **About 30 seconds[^s1]** |
+| Long wave | Narrower | Lower | Shortest; most affected by wind[^s1] | – | About 5 minutes[^s1] |
+
+Warm-up and wind: Bromic Planning Guide v1.2[^s1]. Coverage, temperature rise, distance and glow: Bromic test data, to follow. [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]] [[VERIFY: short wave visible glow and glare — Product team]]
 
 "Infrared patio heater" describes all three, so it is worth asking which wavelength you are choosing.
 
@@ -114,7 +116,7 @@ Each built-in heater runs from an Affinity Smart-Heat® On/Off or Dimmer control
 
 ## What To Take Away
 
-- Outdoors, radiant heat is the kind that works, and short and medium wave warm fastest and hold up best in wind.[^s1]
+- Outdoors, radiant heat is the kind that works. Medium wave, used in Bromic's electric heaters, covers more, warms more and reaches further, without an intrusive glow [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]], and is warm in about 30 seconds.[^s1]
 - Choose electric for covered, built-in or partly enclosed spaces, and gas for open, larger or movable layouts.
 - Size for the seating: built-in heaters by area, adjusted for cover and climate, and freestanding heaters at no more than four seats each.
 - Electric work is for a licensed electrician and gas work for a licensed gas fitter. Confirm requirements with your local building authority.[^s1]

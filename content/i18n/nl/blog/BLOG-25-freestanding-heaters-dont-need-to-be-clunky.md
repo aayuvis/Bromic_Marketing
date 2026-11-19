@@ -94,7 +94,7 @@ De meeste vrijstaande verwarmers zijn eerst rond een gasfles gebouwd, en pas daa
 
 ### Maakt de golflengte uit?
 
-Ja, vooral als de wind aantrekt. Volgens onze planningsgids is kortegolfwarmte voor ongeveer 90% straling en direct merkbaar, middengolf voor ongeveer 60% met een korte opwarmtijd, en langegolf voor ongeveer 40%, de traagste en het gevoeligst voor wind.[^s4] Op een open terras houdt de kortere golflengte je gasten comfortabel.
+Ja, vooral als de wind aantrekt. De elektrische verwarmers van Bromic werken met middengolf, gekozen zodat de warmte over het hele terras elke gast bereikt, met een zacht licht en zonder verblinding [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]]. Middengolf is in ongeveer 30 seconden warm, langegolf warmt het traagst op en is het gevoeligst voor wind.[^s4] Kortegolf is direct warm[^s4], maar de felle gloed en verblinding kunnen een avond overheersen [[VERIFY: zichtbare gloed en verblinding van kortegolf — productteam]]. Op een open terras houdt middengolf je gasten comfortabel.
 
 ## Eclipse Smart-Heat Freestanding Electric
 

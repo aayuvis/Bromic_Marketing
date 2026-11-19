@@ -7,7 +7,7 @@ audience: [ARC]
 stage: [CO]
 cell: ARC-CO
 asset: A24
-summary: "Waarom warme lucht buiten wegglipt terwijl stralingswarmte elke gast bereikt, wat korte, middellange en lange golf betekenen voor het stralingsaandeel, de opwarmtijd en de wind, en welke ontwerpkeuzes daaruit volgen – overkapping, richting, hoogte en bediening."
+summary: "Waarom warme lucht buiten wegglipt terwijl stralingswarmte elke gast bereikt, waarom middengolf voorop loopt op verwarmd oppervlak, reikwijdte en gloed, hoe korte en lange golf zich verhouden, en welke ontwerpkeuzes daaruit volgen – overkapping, richting, hoogte en bediening."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Waarom is stralingswarmte buiten beter dan convectiewarmte?"
@@ -91,18 +91,17 @@ Het planningshandboek van Bromic vat het samen in één zin: buitenverwarming la
 
 ## Korte, middellange en lange golf begrijpen
 
-De golflengte volgt de temperatuur van het element. Hoe heter het element, hoe korter de golf en hoe meer van zijn energie vrijkomt als straling in plaats van als warme lucht[^s2]:
+Denk aan de gast aan het verre eind van de tafel. Met middengolf, de golflengte die Bromic koos voor zijn elektrische verwarmers, bereikt de warmte ook die plek, stijgt de temperatuur verder en blijft het licht zacht genoeg om je ontwerp te laten zoals je het bedoelde [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]]. Naast elkaar gezet verhouden de drie banden zich zo:
 
-| | Korte golf | Middellange golf | Lange golf |
-|---|---|---|---|
-| Temperatuur van het element | 2.200 °C | 900 °C | 300 °C |
-| Straling / convectie | 90 / 10 | 60 / 40 | 40 / 60 |
-| Opwarmtijd | Direct | Ongeveer 30 s | Ongeveer 5 min |
-| Wind | Verwarmt mensen en voorwerpen direct | Beperkt gevoelig | Gevoelig voor verspreiding |
+| | Verwarmd oppervlak | Temperatuurstijging | Reikwijdte van de warmte | Zichtbare gloed | Opwarmtijd |
+|---|---|---|---|---|---|
+| Korte golf | Kleiner | Lager | Korter | Felle gloed en verblinding | Direct[^s2] |
+| **Middengolf: Bromic Platinum, Eclipse en Tungsten Electric** | **Het grootst** | **Het hoogst** | **Het verst** | **Zacht, geen storende gloed** | **Ongeveer 30 seconden[^s2]** |
+| Lange golf | Kleiner | Lager | Het kortst; het gevoeligst voor wind[^s2] | – | Ongeveer 5 minuten[^s2] |
 
-Bron: Bromic Planning Guide v1.2, indeling van de warmtegolven[^s2]. Dit zijn de cijfers achter de bandbreedte van "60 tot 90%" die de eerdere versie van dit artikel zonder bron noemde, waarbij 60% middellange golf is en 90% korte golf.
+Opwarmtijd en wind: Bromic Planning Guide v1.2[^s2]. Verwarmd oppervlak, temperatuurstijging, reikwijdte en gloed: testgegevens van Bromic volgen. [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]] [[VERIFY: zichtbare gloed en verblinding van kortegolf — productteam]]
 
-Het handboek groepeert de banden naar toepassing. Directe warmte, een mix van korte en middellange golf, geeft het hoogste rendement, terwijl indirecte warmte, middellange en lange golf, trager opwarmt en meer aan wind blootstaat[^s1]. De golflengte per model staat in de gids voor voorschrijvers, [stralingswarmte buiten: korte, middellange en lange golf](item:ARC-CO-01). [[VERIFY: golflengteband van elk huidig Bromic-model — productteam]]
+Het handboek groepeert de banden naar toepassing, en middengolf hoort bij beide groepen: directe warmte, korte en middengolf, en indirecte warmte, middengolf en lange golf, die trager opwarmt en meer aan wind blootstaat[^s1]. De golflengte per model staat in de gids voor voorschrijvers, [stralingswarmte buiten: korte, middellange en lange golf](item:ARC-CO-01). [[VERIFY: golflengteband van elk huidig Bromic-model — productteam]]
 
 ## De ruimte ontwerpen rond stralingswarmte
 
@@ -112,7 +111,7 @@ Het handboek groepeert de banden naar toepassing. Directe warmte, een mix van ko
 
 **Hoogte.** Wandmontage niet lager dan 1,83 m en plafondmontage niet lager dan 2,44 m, afhankelijk van het vermogen[^s3]. Hoger monteren spreidt het stralingspatroon en verzacht de intensiteit bij de gast; zie [montagehoogte en warmte-intensiteit](item:ARC-CO-KB1). Het verwarmd oppervlak varieert met model, montagehoogte, omgeving en installatie[^s4].
 
-**Licht.** Hetere elementen gloeien. Waar die gloed telt in het ontwerp, bespreek je hem ruim voor de installatie samen met het lichtontwerp.
+**Licht.** Hetere elementen gloeien, en korte golf gloeit het felst [[VERIFY: zichtbare gloed en verblinding van kortegolf — productteam]]; de middengolfverwarmers van Bromic houden het licht zacht [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]]. Waar die gloed telt in het ontwerp, bespreek je hem ruim voor de installatie samen met het lichtontwerp.
 
 **Bediening.** Schrijf de bediening voor samen met de verwarmer. Sommige energievoorschriften eisen dat inmiddels: de energiecode voor utiliteitsbouw van de Amerikaanse staat Washington eist dat warmte buiten een gebouw stralingswarmte is, geschakeld door een aanwezigheidssensor of tijdschakelaar[^s5]. In Nederland gelden NEN 1010 voor de elektrische installatie en NEN 1078 voor gas; laat de geldende eisen bevestigen door de gemeente, en laat de groep of gasaansluiting ontwerpen door een gekwalificeerde elektrotechnisch installateur of gasinstallateur. [[VERIFY: huidige Nederlandse normen voor de installatie van buitenverwarmers, en of een Nederlandse energieregel iets zegt over de bediening van buitenverwarming — Bromic Benelux distributor]]
 
@@ -130,7 +129,7 @@ Wifi, tijdschema's in de app en zones vereisen compatibele Affinity Smart-Heat-b
 Ze verwarmen de lucht, en buitenlucht stijgt op en verdwijnt, bij elk briesje nog sneller[^s1].
 
 ### Welke golflengte schrijf ik voor op een onbeschutte plek?
-De meest stralende die de situatie toelaat. Korte golf is ongeveer 90% straling en direct warm, terwijl lange golf ongeveer 40% is en het gevoeligst voor wind[^s2].
+Middengolf. Ze bestrijkt meer van de ruimte, laat de temperatuur verder stijgen en draagt haar warmte verder, zonder storende gloed [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]], en is in ongeveer 30 seconden warm; lange golf is het gevoeligst voor wind[^s2].
 
 ### Heeft een overdekt terras minder warmte nodig?
 Vaak wel, omdat de overkapping een warmtewolk vasthoudt die bij de stralingswarmte optelt[^s1]. Houd 30% van de omtrek open.

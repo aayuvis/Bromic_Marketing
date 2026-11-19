@@ -53,7 +53,7 @@ export function makeEnhancer(images) {
     return `<div class="v-prods">${rows.map((r) => `<article><span class="v-pic">${pic(strip(r[0]))}</span><div><h4>${r[0]}</h4><dl>${r.slice(1).map((c, k) => `<dt>${head[k + 1] || ''}</dt><dd>${c}</dd>`).join('')}</dl></div></article>`).join('')}</div>`;
   }
   function coverage({ head, rows }) {
-    const parsed = rows.map((r) => { const name = strip(r[0]); const vals = (strip(r[1]).match(/\d[\d,]*/g) || []).map((v) => +v.replace(/,/g, '')); const tail = (r[1].match(/(<sup[\s\S]*)$/) || [])[1] || '';
+    const parsed = rows.map((r) => { const name = strip(r[0].replace(/<sup[\s\S]*?<\/sup>/g, '')); const vals = (strip(r[1].replace(/<sup[\s\S]*?<\/sup>/g, '')).match(/\d[\d,]*/g) || []).map((v) => +v.replace(/,/g, '')); const tail = (r[1].match(/(<sup[\s\S]*)$/) || [])[1] || '';
       const base = name.replace(/\s*\d[\d,./ ]*\s*(W|Btu|kW)?\b.*$/i, '').trim() || name; const vars = (name.match(/\d[\d,]*(?=\s*[\/W]|\s*Btu|\s*$)/g) || []);
       return { name, base, vals, vars, tail, unit: (strip(r[1]).match(/ft²|m²/) || ['ft²'])[0] }; });
     const max = Math.max(1, ...parsed.flatMap((p) => p.vals));
@@ -80,7 +80,7 @@ export function makeEnhancer(images) {
     let out = html.replace(/<div class="table-wrap">(<table>[\s\S]*?<\/table>)<\/div>/g, (m, t) => {
       const T = parseTable(t); const h = T.head.map(strip); const h0 = (h[0] || '').toLowerCase();
       if (/^(step|schritt|stap)$/.test(h0) && T.head.length >= 2) return steps(T);
-      if (/^(wavelength|wellenl|golfleng)/.test(h0)) return waves(T);
+      if (/^(wavelength|wellenl|golfleng)/.test(h0) || (T.rows.length === 3 && T.rows.every((r) => /wave|welle|golf/i.test(strip(r[0]))))) return waves(T);
       if (h.length === 3 && /electric|elektr/i.test(h[1]) && /gas/i.test(h[2])) return versus(T);
       if (/^(family|familie|serie|collection|kollektion|reeks)/.test(h0) && T.rows.length >= 3 && T.rows.filter((r) => /smart-heat|tungsten|platinum|eclipse|cobalt/i.test(strip(r[0]))).length >= T.rows.length - 1) return families(T);
       if (h.length === 2 && /coverage|abdeckung|dekking|bereik/i.test(h[1])) return coverage(T);

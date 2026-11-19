@@ -11,7 +11,7 @@ summary: "Wat zuinig echt betekent voor een buitenverwarmer: hoeveel van zijn en
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Zijn infraroodverwarmers energiezuinig voor een terras?"
-meta_description: "Zijn infraroodverwarmers zuinig? Buiten zijn ze de zuinige keuze: ze verwarmen mensen in plaats van lucht. Wat stralingsaandeel, richting, bediening en maatvoering doen."
+meta_description: "Zijn infraroodverwarmers zuinig? Buiten zijn ze de zuinige keuze: ze verwarmen mensen in plaats van lucht. Wat golflengte, richting, bediening en maatvoering doen."
 cta: {label: "Bereken je ruimte", asset: A03}
 hero: w-tungsten-electric-melrose-place-los-angeles-
 owner_review: marketing
@@ -71,11 +71,11 @@ Ja – buiten is infrarood de zuinige manier om mensen warm te houden, omdat het
 
 Binnen verwarmt een verwarmer de lucht in een kamer, en de muren houden die vast. Buiten verdwijnt die warme lucht al snel[^s2]. Wat buiten telt, is hoeveel warmte aankomt waar mensen zitten, want bij een elektrische weerstandsverwarmer wordt alle energie toch al warmte[^s1].
 
-Het stralingsaandeel vertelt je dat. Het planningshandboek van Bromic noemt de korte golf het zuinigst, met ongeveer 90% straling, en de lange golf het minst zuinig, met ongeveer 40%; de rest gaat verloren als warme lucht[^s2].
+De golflengte bepaalt dat. De elektrische verwarmers van Bromic werken met middengolf, gekozen omdat de warmte meer van de ruimte bestrijkt, de temperatuur verder laat stijgen en verder reikt naar de mensen aan tafel, zonder storende gloed [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]]. Het planningshandboek van Bromic noemt de lange golf het minst zuinig, omdat het grootste deel van de opbrengst verloren gaat als warme lucht[^s2].
 
 | Keuze | Verspilt meer | Verspilt minder |
 |---|---|---|
-| Golflengte | Lange golf, ongeveer 40% straling[^s2] | Korte of middengolf, 90% of 60% straling[^s2] |
+| Golflengte | Lange golf, het grootste deel gaat verloren als warme lucht[^s2] | Middengolf, warmte die verder over de zitplekken reikt [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] |
 | Richting | Warmte gelijk in alle richtingen | Gerichte warmte op de zitplekken[^s2] |
 | Bediening | Alleen aan of uit, blijft branden | Dimmen, zones en schema's |
 | Maatvoering | Te weinig verwarmers op vol vermogen, of te veel | Verwarmd oppervlak afgestemd op waar mensen zitten |
@@ -94,7 +94,7 @@ Voor gas reken je met hetzelfde vermogen in kW: deel het verbruik in kWh per uur
 
 ## Vier manieren om elke watt te laten tellen
 
-1. **Kies een hoog stralingsaandeel.** Korte en middengolf zetten het grootste deel van hun energie om in straling, terwijl lange golf het meeste verliest aan de lucht[^s2].
+1. **Kies middengolf.** De middengolfverwarmers van Bromic dragen hun warmte verder over de zitplekken, zonder storende gloed [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]], terwijl lange golf het meeste van haar energie verliest aan de lucht[^s2].
 2. **Richt de warmte.** Gerichte verwarmers sturen warmte één kant op, naar je gasten, en voorkomen dat de mensen het dichtstbij het te warm krijgen[^s2]. Monteer en kantel ze richting de zitplekken in plaats van het midden van de vloer.
 3. **Regel het vermogen.** Warmte buiten laat zich niet met een thermostaat regelen[^s2], dus stem je de verwarmer zelf af. Affinity Smart-Heat Dimmer-regelaars dimmen compatibele elektrische verwarmers in stappen van 1%[^s5], Eclipse schakelt tussen 33, 66 en 100%[^s4], en de Tungsten Electric van 4.000 en 6.000 W heeft twee apart te bedienen elementen[^s5]. De Smart-Heat-app voegt zones, schema's en timers toe, zodat de warmte alleen brandt waar en wanneer mensen samenkomen[^s4].
 4. **Stem hem af op je ruimte.** Het verwarmd oppervlak per verwarmer verschilt per model, montagehoogte, omgeving en installatie[^s4]. Een indeling die bij de zitplekken past, voorkomt koude plekken en ook verwarmers die lege hoeken warm stoken.

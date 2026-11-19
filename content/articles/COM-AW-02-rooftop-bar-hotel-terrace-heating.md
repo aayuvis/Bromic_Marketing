@@ -56,7 +56,7 @@ sources:
     title: "Official Outdoor Heating Planning Guide (US) v1.2"
     year: 2021
     url: sources/Bromic_Planning_Guide_US_v1.2_2021.pdf
-    supports: "Radiant heat warms people and objects, not air, so it works in light wind; short wave about 90% radiant; long wave most wind-sensitive; commercial supply 208/240/277 V; NFPA 70 and ANSI Z223.1/NFPA 54; check with the local building authority"
+    supports: "Radiant heat warms people and objects, not air, so it works in light wind; medium wave about 30 s warm-up; long wave most wind-sensitive; commercial supply 208/240/277 V; NFPA 70 and ANSI Z223.1/NFPA 54; check with the local building authority"
     verified: true
   - id: s6
     publisher: Bromic Heating
@@ -88,7 +88,7 @@ sources:
     verified: true
 ---
 
-The most reliable way to heat a rooftop bar or hotel terrace is electric infrared: short-wave heaters on the walls, ceilings or poles over every seat, with freestanding heaters where there is nothing to mount on. Radiant heat warms guests rather than air, so it holds up in the breeze a roof always has, and it needs no flame or fuel stored on the deck.[^s5] Bromic's rooftop projects follow the same plan.[^s1][^s2]
+The most reliable way to heat a rooftop bar or hotel terrace is electric infrared: Bromic's medium wave heaters on the walls, ceilings or poles over every seat, their warmth carrying to the table with a soft light and no glare [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]], with freestanding heaters where there is nothing to mount on. Radiant heat warms guests rather than air, so it holds up in the breeze a roof always has, and it needs no flame or fuel stored on the deck.[^s5] Bromic's rooftop projects follow the same plan.[^s1][^s2]
 
 ## Why Roofs Are Different
 

@@ -94,7 +94,7 @@ sources:
     title: "The Official Outdoor Heating Planning Guide, US v1.2"
     year: 2021
     url: sources/Bromic_Planning_Guide_US_v1.2_2021.pdf
-    supports: "Radiant heat warms people and objects, not air; short wave about 90% radiant; long wave about 40% and most wind-sensitive; quote all-in"
+    supports: "Radiant heat warms people and objects, not air; long wave about 40% radiant and most wind-sensitive; quote all-in"
     verified: true
   - id: s11
     publisher: Bromic Heating
@@ -127,7 +127,7 @@ The rates used are propane at $2.674/gal,[^s2] commercial natural gas at about $
 
 ## Where A Mushroom Heater's Warmth Goes
 
-A mushroom heater warms in a circle from above head height, and much of its output is warm air that the wind soon carries away. Radiant heat warms people and objects directly, which is why it works so well outdoors, and the shorter the wavelength, the larger the radiant share and the less the breeze can take.[^s10] A directional heater aims that radiant energy at the tables where your guests sit. The Tungsten Smart-Heat Freestanding Gas has a tilting head and ceramic burners, and we rate it for about 215 ft².[^s6] [[VERIFY: Tungsten Freestanding Gas output, 38,000 BTU (Lookbook) vs 38,500 BTU (product page) — Product team]]
+A mushroom heater warms in a circle from above head height, and much of its output is warm air that the wind soon carries away. Radiant heat warms people and objects directly, which is why it works so well outdoors.[^s10] A directional heater aims that radiant energy at the tables where your guests sit. The Tungsten Smart-Heat Freestanding Gas has a tilting head and ceramic burners, and we rate it for about 215 ft².[^s6] [[VERIFY: Tungsten Freestanding Gas output, 38,000 BTU (Lookbook) vs 38,500 BTU (product page) — Product team]]
 
 Mushroom heaters are not rated on a comparable coverage basis, so the number you need comes from a heat plan drawn for your own layout. The live post's "three times more efficient" and its $16,752 annual saving gave no method or inputs, so we have removed them.[^s11]
 

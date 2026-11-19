@@ -68,7 +68,7 @@ Each zone has its own controller. For Platinum and Tungsten Electric that means 
 
 Let the heat rise and fall with the evening's bookings.
 
-- **Before opening:** short-wave and medium-wave heaters warm in seconds,[^s2] so bring zones on as the first tables are seated rather than an hour ahead.
+- **Before opening:** Bromic's medium wave electric heaters warm in about 30 seconds,[^s2] so bring zones on as the first tables are seated rather than an hour ahead.
 - **Through service:** run main dining on the reservation curve, and bring edge zones on once guests are seated there.
 - **On milder nights:** use dimming or Eclipse's 33/66/100% steps to soften the output.[^s1]
 - **After the last table:** timers switch each zone off a set time after its last cover.

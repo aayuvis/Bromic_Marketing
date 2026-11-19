@@ -85,7 +85,7 @@ A top-rated outdoor heater keeps everyone comfortable right across the area wher
 
 | Criterion | What to check on the spec sheet | Bromic example |
 |---|---|---|
-| Heat that reaches people | Radiant, short-wave element; coverage per model, not just watts or BTU | Tungsten Electric covers about 65 to 160 ft² across 2000–6000 W[^s3] |
+| Heat that reaches people | Radiant, medium wave element; coverage per model, not just watts or BTU | Tungsten Electric covers about 65 to 160 ft² across 2000–6000 W[^s3] |
 | Built for weather | Sealed body; IP rating stated as a number | Tungsten Electric IPX4; Platinum Marine IPX5[^s3][^s4] |
 | Independent certification | A recognised mark: ETL, cETL, UL or CSA | Intertek ETL/cETL on Tungsten and Platinum Electric[^s3][^s4] |
 | Warranty | Years, and what it covers | Tungsten: 2 years heater, 7 years elements; Platinum: 3 years[^s3][^s4] |
@@ -95,7 +95,7 @@ A top-rated outdoor heater keeps everyone comfortable right across the area wher
 
 ## Why Coverage Matters More Than Output
 
-Output tells you how much energy a heater draws, while coverage tells you how much of your patio it keeps warm. Radiant heat warms people and surfaces instead of the air, so it holds steady in a light breeze where air-heating designs struggle.[^s2] Short-wave elements are the most radiant and warm you almost at once; long-wave elements are the slowest to arrive and the most affected by wind.[^s2] When a heater publishes coverage for every model, you can size your space with confidence instead of guesswork.
+Output tells you how much energy a heater draws, while coverage tells you how much of your patio it keeps warm. Radiant heat warms people and surfaces instead of the air, so it holds steady in a light breeze where air-heating designs struggle.[^s2] Medium wave elements, the kind in Bromic's electric heaters, cover more of the space, lift the temperature further and carry their warmth further, without an intrusive glow [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]]. They warm in about 30 seconds, while long-wave elements are the slowest to arrive and the most affected by wind.[^s2] When a heater publishes coverage for every model, you can size your space with confidence instead of guesswork.
 
 ![A Tungsten Electric element glowing under a glass canopy](img:w-bromic-tungsten-electric-patio-heater)
 

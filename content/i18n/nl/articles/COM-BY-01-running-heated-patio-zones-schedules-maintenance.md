@@ -71,7 +71,7 @@ Elke zone heeft een eigen regelaar. Voor Platinum en Tungsten Electric is dat ee
 
 Laat de warmte meestijgen en -dalen met de reserveringen van de avond.
 
-- **Voor de opening:** kortegolf- en middengolfverwarmers zijn in seconden warm,[^s2] dus schakel zones in wanneer de eerste tafels gaan zitten, in plaats van een uur van tevoren.
+- **Voor de opening:** de elektrische middengolfverwarmers van Bromic zijn in ongeveer 30 seconden warm,[^s2] dus schakel zones in wanneer de eerste tafels gaan zitten, in plaats van een uur van tevoren.
 - **Tijdens de service:** laat het hoofdrestaurant de reserveringscurve volgen, en schakel randzones in zodra daar gasten zitten.
 - **Op mildere avonden:** dim of gebruik de standen 33/66/100% van Eclipse om het vermogen zachter te maken.[^s1]
 - **Na de laatste tafel:** timers schakelen elke zone een vaste tijd na de laatste gast uit.

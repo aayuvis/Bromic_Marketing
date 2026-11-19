@@ -198,7 +198,7 @@ native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 
 *Ausgabe für Fachplaner, für Architekten, Planer und Bauunternehmer.*
 
-Die besten Außenräume halten ihre Gäste noch lange nach Sonnenuntergang, und die Wärme, die sie dort hält, wird früh gewählt. Kurzwellige Heizstrahler geben ca. 90 % ihrer Leistung als Strahlungswärme ab und wärmen sofort; mittelwellige ca. 60 % mit 30 Sekunden Aufheizzeit; langwellige ca. 40 % mit 5 Minuten Aufheizzeit und der höchsten Windempfindlichkeit[^s3]. Treffen Sie diese Wahl im Vorentwurf, zusammen mit Energie, Montage und Last, in der Reihenfolge, in der Ihr Plansatz sie braucht.
+Die besten Außenräume halten ihre Gäste noch lange nach Sonnenuntergang, und die Wärme, die sie dort hält, wird früh gewählt. Die elektrischen Heizstrahler von Bromic sind mittelwellig, der Wellenbereich, der die größte Fläche abdeckt, die Temperatur am stärksten anhebt und seine Wärme am weitesten trägt, ohne störendes Glühen [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]]. Mittelwelle wärmt in etwa 30 Sekunden; Langwelle braucht etwa 5 Minuten und ist am windempfindlichsten[^s3]. Treffen Sie diese Wahl im Vorentwurf, zusammen mit Energie, Montage und Last, in der Reihenfolge, in der Ihr Plansatz sie braucht.
 
 Weniger als einer von vier US-Hausbesitzern setzt in der Planung Priorität auf die Heizung[^s1]. Kommt die Wärme spät, kommt sie meist als Aufputz-Installationsrohr, als Decke, die nicht mehr passt, und als Austausch bei der Vergabe. Ab dem Vorentwurf im Plansatz gezeichnet, bleibt derselbe Heizstrahler genau so, wie Sie ihn spezifiziert haben, von der LV-Position bis zu Stromkreis und Einbauöffnung.
 
@@ -247,14 +247,15 @@ Regeln laut Leitfaden von 2021[^s3].
 
 Unter freiem Himmel steigt konvektive Wärme auf und verteilt sich. Warmluft kann einen offenen Raum nicht auf Temperatur halten, und eine Heizung im Freien lässt sich nicht über ein Thermostat regeln, deshalb stützt sich jedes Außenkonzept auf Strahlungswärme, die auf Menschen gerichtet ist[^s3].
 
-| | Kurzwellig | Mittelwellig | Langwellig |
-|---|---|---|---|
-| Anteil Strahlung / Konvektion | ca. 90 / 10 | ca. 60 / 40 | ca. 40 / 60 |
-| Aufheizzeit | Sofort | ca. 30 s | ca. 5 min |
-| Wind | Geringste Empfindlichkeit | Begrenzt | Höchste |
-| Einsatz | Exponierte Standorte, höhere Montage | Überdachte Bereiche | Geschützte, wenig exponierte Flächen |
+| | Heizfläche | Temperaturanstieg | Reichweite der Wärme | Sichtbares Glühen | Aufheizzeit |
+|---|---|---|---|---|---|
+| Kurzwelle | Kleiner | Geringer | Kürzer | Starkes Glühen und Blendung | Sofort[^s3] |
+| **Mittelwelle: Bromic Platinum, Eclipse und Tungsten Electric** | **Am größten** | **Am höchsten** | **Am weitesten** | **Sanft, kein störendes Glühen** | **Etwa 30 Sekunden[^s3]** |
+| Langwelle | Kleiner | Geringer | Am kürzesten; am stärksten windanfällig[^s3] | – | Etwa 5 Minuten[^s3] |
 
-Quelle: Bromic-Planungsleitfaden 2021[^s3]. Gerichtete Heizstrahler senden den größten Teil ihrer Leistung zum Aufenthaltsbereich, sodass die Energie die Menschen erreicht, die darunter sitzen[^s3]. [[VERIFY: Einordnung jedes aktuellen Modells nach Wellenlänge, und ob die Temperaturen der Heizelemente von 2021 erneut veröffentlicht werden — Produktteam]]
+Aufheizzeit und Wind: Bromic Planning Guide v1.2[^s3]. Heizfläche, Temperaturanstieg, Reichweite und Glühen: Bromic-Testdaten folgen. [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]] [[VERIFY: sichtbares Glühen und Blendung der Kurzwelle — Produktteam]]
+
+Gerichtete Heizstrahler senden den größten Teil ihrer Leistung zum Aufenthaltsbereich, sodass die Energie die Menschen erreicht, die darunter sitzen[^s3]. [[VERIFY: Einordnung jedes aktuellen Modells nach Wellenlänge, und ob die Temperaturen der Heizelemente von 2021 erneut veröffentlicht werden — Produktteam]]
 
 | | Strom | Gas |
 |---|---|---|

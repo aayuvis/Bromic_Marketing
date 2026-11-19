@@ -56,7 +56,7 @@ sources:
     title: "Official Outdoor Heating Planning Guide (US) v1.2"
     year: 2021
     url: sources/Bromic_Planning_Guide_US_v1.2_2021.pdf
-    supports: "Radiant heat warms people and objects, not air, so it works in light wind; short wave about 90% radiant and warms instantly; an all-in quote includes hardware, utilities, permits and installation"
+    supports: "Radiant heat warms people and objects, not air, so it works in light wind; medium wave warms in about 30 seconds; an all-in quote includes hardware, utilities, permits and installation"
     verified: true
   - id: s6
     publisher: Bromic Heating
@@ -80,7 +80,7 @@ A patio heater is worth it when you already love your outdoor space and lose it 
 
 Most new homes now come with a patio: 60.5% of single-family homes started in 2025 had one.[^s1] Far fewer come with the warmth to enjoy it once the sun goes down. In a survey Bromic commissioned, 67% of people said heating would do the most to extend their time outside, yet only 23% rank outdoor heating a top priority when they plan.[^s2][^s3] That gap is where most patios fall quiet after dark.
 
-Radiant warmth closes it. An infrared heater warms the people and the furniture in its path, not the air, so it keeps working in a light breeze, and a short-wave heater is about 90% radiant and warm the moment it switches on.[^s5]
+Radiant warmth closes it. An infrared heater warms the people and the furniture in its path, not the air, so it keeps working in a light breeze, and Bromic's medium wave electric heaters are warm in about 30 seconds.[^s5] Their warmth reaches further across the table than short or long wave, with no intrusive glow. [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]]
 
 ## When A Heater Earns Its Place
 

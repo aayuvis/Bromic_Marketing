@@ -63,7 +63,7 @@ sources:
     verified: false
 ---
 
-Ja – infrarood is de warmte die buiten echt werkt. Het verwarmt mensen, meubels en vloeren direct, net zoals de zon, in plaats van lucht te verwarmen die opstijgt en wegdrijft. Daardoor blijft een terras comfortabel in de open lucht en bij lichte tot matige wind, waar een heteluchtkachel vrijwel niets doet[^s1]. Hoe goed een verwarmer het in jouw ruimte doet, hangt af van zijn stralingsaandeel, de wind, een eventuele overkapping en de richting waarin hij is gericht.
+Ja – infrarood is de warmte die buiten echt werkt. Het verwarmt mensen, meubels en vloeren direct, net zoals de zon, in plaats van lucht te verwarmen die opstijgt en wegdrijft. Daardoor blijft een terras comfortabel in de open lucht en bij lichte tot matige wind, waar een heteluchtkachel vrijwel niets doet[^s1]. Hoe goed een verwarmer het in jouw ruimte doet, hangt af van zijn golflengte, de wind, een eventuele overkapping en de richting waarin hij is gericht.
 
 ![Een dakterras in de stad onder een houten pergola, verwarmd door een Tungsten Electric-verwarmer](img:w-tungsten-electric-new-york-residential)
 
@@ -77,15 +77,17 @@ Om dezelfde reden stel je warmte buiten nooit in met een thermostaat. Je regelt 
 
 Bij lichte tot matige wind houdt infrarood je comfortabel[^s1]. Wind verplaatst lucht, en stralingswarmte die je al hebt ontvangen, blijft bij je. Een sterke, aanhoudende wind koelt de huid nog steeds af, dus hoe beschut je ruimte ligt, bepaalt hoeveel verwarmers je nodig hebt en waar ze horen.
 
-De golflengte maakt hier het grootste verschil[^s2]:
+De golflengte maakt hier het grootste verschil. De elektrische verwarmers van Bromic werken met middengolf, gekozen voor warmte die elke stoel bereikt, met een zacht licht en zonder verblinding [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]]:
 
-| Golflengte | Stralingsaandeel | Opwarmtijd | Bij wind |
-|---|---|---|---|
-| Korte golf | Ongeveer 90% | Direct | Verwarmt mensen en voorwerpen direct |
-| Middengolf | Ongeveer 60% | Ongeveer 30 s | Beperkt gevoelig |
-| Lange golf | Ongeveer 40% | Ongeveer 5 min | Het makkelijkst verspreid |
+| | Verwarmd oppervlak | Temperatuurstijging | Reikwijdte van de warmte | Zichtbare gloed | Opwarmtijd |
+|---|---|---|---|---|---|
+| Korte golf | Kleiner | Lager | Korter | Felle gloed en verblinding | Direct[^s2] |
+| **Middengolf: Bromic Platinum, Eclipse en Tungsten Electric** | **Het grootst** | **Het hoogst** | **Het verst** | **Zacht, geen storende gloed** | **Ongeveer 30 seconden[^s2]** |
+| Lange golf | Kleiner | Lager | Het kortst; het gevoeligst voor wind[^s2] | – | Ongeveer 5 minuten[^s2] |
 
-Kies voor een open vlonder of dakterras de meest stralende verwarmer die je plek toelaat, scherm de windkant af en reken op wat extra verwarmd oppervlak. De golflengtes worden uitgebreider uitgelegd in [infrarood- tegenover stralingsverwarmers](https://www.bromic.com/blog/what-is-the-difference-between-an-infrared-heater-and-a-radiant-heater/).
+Opwarmtijd en wind: Bromic Planning Guide v1.2[^s2]. Verwarmd oppervlak, temperatuurstijging, reikwijdte en gloed: testgegevens van Bromic volgen. [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]] [[VERIFY: zichtbare gloed en verblinding van kortegolf — productteam]]
+
+Kies voor een open vlonder of dakterras middengolfwarmte die tot aan de tafel reikt, scherm de windkant af en reken op wat extra verwarmd oppervlak. De golflengtes worden uitgebreider uitgelegd in [infrarood- tegenover stralingsverwarmers](https://www.bromic.com/blog/what-is-the-difference-between-an-infrared-heater-and-a-radiant-heater/).
 
 ## Hoe een dak de warmte versterkt
 
@@ -124,6 +126,6 @@ Geïnstalleerd volgens de handleiding en gebruikt zoals bedoeld: ja. Lees [zijn 
 Ook gasverwarmers kunnen infrarood zijn, dus je hoeft niet tussen die twee te kiezen. Kies op basis van je ruimte, de overkapping en je energiebron, en lees [gas of elektrisch](https://www.bromic.com/blog/gas-or-electric-patio-heaters-which-one-is-right-for-me/).
 
 ### Hoe snel verwarmen infraroodverwarmers je?
-Korte golf direct, middengolf na ongeveer 30 seconden en lange golf na ongeveer vijf minuten[^s2].
+Middengolf, de golflengte van de elektrische verwarmers van Bromic, na ongeveer 30 seconden; korte golf direct en lange golf na ongeveer vijf minuten[^s2].
 
 Wil je zien wat huiseigenaren dit jaar voor hun buitenkamer plannen, ontdek dan het Trends-rapport.

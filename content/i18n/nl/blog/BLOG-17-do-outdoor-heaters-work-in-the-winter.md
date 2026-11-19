@@ -84,13 +84,13 @@ Wat de kou wel verandert, is hoe snel je die warmte weer verliest. Bewegende luc
 | Winterfactor | Wat het doet | Wat je doet |
 |---|---|---|
 | Lage luchttemperatuur | De huid verliest sneller warmte | Plan meer verwarmd oppervlak boven de zitplekken; zit binnen het stralingspatroon |
-| Wind | Voert warmte van de huid af en verspreidt warme lucht[^s3] | Scherm de windkant af; kies de meest stralende verwarmer |
+| Wind | Voert warmte van de huid af en verspreidt warme lucht[^s3] | Scherm de windkant af; kies middengolfwarmte die tot aan de tafel reikt |
 | Open hemel | Niets houdt warme lucht boven je vast | Voeg een dak of overstek toe dat een warmtewolk vasthoudt[^s1] |
 | Vochtige of zilte lucht | Zwaarder voor afwerking en bevestigingen | Kies materialen en IP-waarde passend bij de plek |
 
 ## De verwarmers die schitteren op een winteravond
 
-De meest stralende verwarmers doen het het best. Korte golf is voor ongeveer 90% straling en verwarmt direct, terwijl lange golf voor ongeveer 40% straling is, zo'n vijf minuten nodig heeft en het makkelijkst door de wind wordt verspreid[^s2]. Op een koude avond bepaalt dat verschil de hele beleving. De golflengtes worden uitgelegd in [infrarood- vs stralingsverwarmers](https://www.bromic.com/blog/what-is-the-difference-between-an-infrared-heater-and-a-radiant-heater/).
+Middengolf doet het het best. De elektrische verwarmers van Bromic gebruiken middengolf, omdat de warmte meer van de ruimte bestrijkt, de temperatuur verder laat stijgen en de verste stoelen bereikt, zonder storende gloed [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]]. Middengolf is in ongeveer 30 seconden warm, terwijl lange golf zo'n vijf minuten nodig heeft en het makkelijkst door de wind wordt verspreid[^s2]. Op een koude avond bepaalt dat verschil de hele beleving. De golflengtes worden uitgelegd in [infrarood- vs stralingsverwarmers](https://www.bromic.com/blog/what-is-the-difference-between-an-infrared-heater-and-a-radiant-heater/).
 
 ![Een besneeuwd overdekt terras met een brandende open haard en gloeiende Tungsten Electric-verwarmers aan de balken](img:w-tungsten-electric-wall-mount-canada)
 

@@ -63,7 +63,7 @@ translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 
-Ja – Infrarot ist die Wärme, die im Freien wirklich wirkt. Sie erwärmt Menschen, Möbel und Böden direkt, ganz ähnlich wie die Sonne, statt Luft zu heizen, die aufsteigt und davonzieht. Deshalb bleibt eine Terrasse unter offenem Himmel und bei leichtem bis mäßigem Wind behaglich, wo ein Heizlüfter fast nichts ausrichtet[^s1]. Wie gut ein Heizstrahler in Ihrem Außenbereich wirkt, hängt von seinem Strahlungsanteil, vom Wind, von einer Überdachung und von seiner Ausrichtung ab.
+Ja – Infrarot ist die Wärme, die im Freien wirklich wirkt. Sie erwärmt Menschen, Möbel und Böden direkt, ganz ähnlich wie die Sonne, statt Luft zu heizen, die aufsteigt und davonzieht. Deshalb bleibt eine Terrasse unter offenem Himmel und bei leichtem bis mäßigem Wind behaglich, wo ein Heizlüfter fast nichts ausrichtet[^s1]. Wie gut ein Heizstrahler in Ihrem Außenbereich wirkt, hängt von seiner Wellenlänge, vom Wind, von einer Überdachung und von seiner Ausrichtung ab.
 
 ![Eine Dachterrasse in der Stadt unter einer Holzpergola, gewärmt von einem Tungsten-Electric-Heizstrahler](img:w-tungsten-electric-new-york-residential)
 
@@ -77,15 +77,17 @@ Aus demselben Grund wird Wärme im Freien nie über ein Thermostat eingestellt. 
 
 Bei leichtem bis mäßigem Wind hält Infrarot Sie warm[^s1]. Wind bewegt Luft, und Strahlungswärme, die bereits bei Ihnen angekommen ist, bleibt bei Ihnen. Starker, anhaltender Wind kühlt die Haut trotzdem ab, deshalb bestimmt die Lage Ihres Außenbereichs, wie viele Heizstrahler Sie brauchen und wo sie hingehören.
 
-Den größten Unterschied macht hier die Wellenlänge[^s2]:
+Den größten Unterschied macht hier die Wellenlänge. Die elektrischen Heizstrahler von Bromic sind mittelwellig, gewählt für Wärme, die jeden Platz erreicht, mit sanftem Licht und ohne Blendung [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]]:
 
-| Wellenlänge | Strahlungsanteil | Aufheizzeit | Bei Wind |
-|---|---|---|---|
-| Kurzwelle | ca. 90 % | Sofort | Wärmt Menschen und Gegenstände direkt |
-| Mittelwelle | ca. 60 % | ca. 30 s | Geringe Anfälligkeit |
-| Langwelle | ca. 40 % | ca. 5 min | Wird am leichtesten verweht |
+| | Heizfläche | Temperaturanstieg | Reichweite der Wärme | Sichtbares Glühen | Aufheizzeit |
+|---|---|---|---|---|---|
+| Kurzwelle | Kleiner | Geringer | Kürzer | Starkes Glühen und Blendung | Sofort[^s2] |
+| **Mittelwelle: Bromic Platinum, Eclipse und Tungsten Electric** | **Am größten** | **Am höchsten** | **Am weitesten** | **Sanft, kein störendes Glühen** | **Etwa 30 Sekunden[^s2]** |
+| Langwelle | Kleiner | Geringer | Am kürzesten; am stärksten windanfällig[^s2] | – | Etwa 5 Minuten[^s2] |
 
-Für ein exponiertes Deck oder eine Dachterrasse wählen Sie den Heizstrahler mit dem höchsten Strahlungsanteil, den der Ort zulässt, schirmen die Windseite ab und planen etwas zusätzliche Heizfläche ein. Die Wellenlängenbereiche erklärt der Beitrag [Infrarot- oder Strahlungsheizstrahler (auf Englisch)](https://www.bromic.com/blog/what-is-the-difference-between-an-infrared-heater-and-a-radiant-heater/) ausführlicher.
+Aufheizzeit und Wind: Bromic Planning Guide v1.2[^s2]. Heizfläche, Temperaturanstieg, Reichweite und Glühen: Bromic-Testdaten folgen. [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]] [[VERIFY: sichtbares Glühen und Blendung der Kurzwelle — Produktteam]]
+
+Für ein exponiertes Deck oder eine Dachterrasse wählen Sie mittelwellige Wärme, die bis an den Tisch reicht, schirmen die Windseite ab und planen etwas zusätzliche Heizfläche ein. Die Wellenlängenbereiche erklärt der Beitrag [Infrarot- oder Strahlungsheizstrahler (auf Englisch)](https://www.bromic.com/blog/what-is-the-difference-between-an-infrared-heater-and-a-radiant-heater/) ausführlicher.
 
 ## Wie ein Dach die Wärme verstärkt
 
@@ -124,6 +126,6 @@ Nach Anleitung installiert und bestimmungsgemäß verwendet, ja. Abstände, Kind
 Auch Gasheizstrahler können Infrarotstrahler sein, Sie müssen sich also nicht zwischen beiden entscheiden. Wählen Sie nach Ihrem Außenbereich, seiner Überdachung und Ihrer Energieversorgung, und lesen Sie [Gas oder Elektro (auf Englisch)](https://www.bromic.com/blog/gas-or-electric-patio-heaters-which-one-is-right-for-me/).
 
 ### Wie schnell wärmen Infrarot-Heizstrahler?
-Kurzwelle sofort, Mittelwelle nach etwa 30 Sekunden und Langwelle nach etwa fünf Minuten[^s2].
+Mittelwelle, der Wellenbereich der elektrischen Bromic Heizstrahler, nach etwa 30 Sekunden; Kurzwelle sofort und Langwelle nach etwa fünf Minuten[^s2].
 
 Was Hausbesitzer in diesem Jahr für ihre Außenräume planen, entdecken Sie im Trends-Report.

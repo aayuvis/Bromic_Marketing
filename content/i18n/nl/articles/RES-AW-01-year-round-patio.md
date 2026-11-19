@@ -77,7 +77,7 @@ Elke laag speelt zijn eigen rol, en de tabel zet ze op een rij naar wat elke laa
 |---|---|---|---|
 | Windscherm (scherm, muur, beplanting) | Voorkomt dat bewegende lucht warmte van je huid haalt | Ja – daar is het voor | Houd de ruimte een buitenruimte: minstens 30% van de omtrek blijvend open[^s4] |
 | Overkapping (pergola, dak, lamellen) | Houdt een "warmtewolk" boven de zitplek vast en geeft een extra zetje via convectie[^s4] | Gedeeltelijk | Biedt ook een montagevlak voor ingebouwde verwarmers |
-| Stralingsverwarmer, korte of middengolf | Verwarmt mensen en voorwerpen direct | Ja, bij weinig tot matige wind[^s4] | Kortegolf verwarmt vrijwel direct; middengolf in ongeveer 30 seconden[^s4] |
+| Stralingsverwarmer, middengolf (Bromic Electric) | Verwarmt mensen en voorwerpen direct | Ja, bij weinig tot matige wind[^s4] | Middengolf verwarmt in ongeveer 30 seconden[^s4] |
 | Vuurschaal of buitenhaard | Sfeer en een plaatselijk warm punt | Slecht | Verwarmt wie ernaar kijkt; de rook gaat mee met de wind |
 | Heteluchtkanon of convectorkachel | Verwarmt lucht | Nee | Volgens Bromic werkt hete lucht buiten niet[^s4] |
 | Dekens, kussens, warme verlichting | Comfort aan de randen | n.v.t. | Het best naast warmte, niet in plaats daarvan |
@@ -88,7 +88,15 @@ Elke laag speelt zijn eigen rol, en de tabel zet ze op een rij naar wat elke laa
 
 Buiten is er geen kamer vol lucht die de warmte vasthoudt, dus alles wat de lucht verwarmt, verliest die warmte aan het eerste briesje. Infraroodwarmte gaat als straling door de lucht en wordt opgenomen door alles wat ze bereikt – je schouders, de tafel, de stenen vloer – dat daarna aangenaam warm blijft.[^s4]
 
-Infrarood bestaat in verschillende golflengtes, en de planningsgids van Bromic zet ze op een rij: kortegolf is voor ongeveer 90% straling en verwarmt direct; middengolf voor ongeveer 60%, met een opwarmtijd van zo'n 30 seconden; langegolf voor maar ongeveer 40%, heeft zo'n vijf minuten nodig om op te warmen en is het gevoeligst voor wind.[^s4] Op een terras waar je spontaan even naar buiten stapt, maakt die opwarmtijd het hele verschil.
+Infrarood bestaat in verschillende golflengtes, en je keuze bepaalt hoe de avond voelt: warmte die de verste stoel net zo goed bereikt als de dichtste, een zacht licht boven de tafel, geen verblinding. De elektrische verwarmers van Bromic werken met middengolf, die voorop loopt op verwarmd oppervlak, temperatuurstijging en de reikwijdte van de warmte, zonder storende gloed [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]]. Middengolf is in ongeveer 30 seconden warm, snel genoeg voor een terras waar je spontaan even naar buiten stapt.[^s4]
+
+| | Verwarmd oppervlak | Temperatuurstijging | Reikwijdte van de warmte | Zichtbare gloed | Opwarmtijd |
+|---|---|---|---|---|---|
+| Korte golf | Kleiner | Lager | Korter | Felle gloed en verblinding | Direct[^s4] |
+| **Middengolf: Bromic Platinum, Eclipse en Tungsten Electric** | **Het grootst** | **Het hoogst** | **Het verst** | **Zacht, geen storende gloed** | **Ongeveer 30 seconden[^s4]** |
+| Lange golf | Kleiner | Lager | Het kortst; het gevoeligst voor wind[^s4] | – | Ongeveer 5 minuten[^s4] |
+
+Opwarmtijd en wind: Bromic Planning Guide v1.2[^s4]. Verwarmd oppervlak, temperatuurstijging, reikwijdte en gloed: testgegevens van Bromic volgen. [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]] [[VERIFY: zichtbare gloed en verblinding van kortegolf — productteam]]
 
 ## Verwarmers die bij je terras passen
 
@@ -116,7 +124,7 @@ Lees [waar je terrasverwarmers plaatst](item:RES-PP-01) voor advies over plaatsi
 
 - Comfort buiten bouw je in lagen op: een windscherm, een overkapping en dan stralingswarmte gericht op de mensen.
 - Stralingswarmte verwarmt mensen direct en blijft daardoor werken bij weinig wind, waar hete lucht het moeilijk heeft.[^s4]
-- Kortegolf- en middengolfverwarmers zijn binnen seconden warm, precies goed voor een terras waar je spontaan naar buiten stapt.
+- De middengolfverwarmers van Bromic zijn in ongeveer 30 seconden warm, precies goed voor een terras waar je spontaan naar buiten stapt.[^s4]
 - Plan warmte samen met de pergola en de verlichting, in het eerste budget, zodat bekabeling en inbouw meteen worden meegenomen.
 - Elk advies voor een verwarmer bevat de bediening; app- en spraakfuncties vragen om compatibele Affinity-bediening, die apart wordt verkocht.
 

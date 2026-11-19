@@ -699,6 +699,18 @@
    "verified": false
   },
   {
+   "id": "wavelength-by-product",
+   "fact": "Platinum Smart-Heat Electric, Eclipse Smart-Heat Electric and Tungsten Smart-Heat Electric are medium wave infrared.",
+   "source": "Owner, 19 Nov 2026",
+   "verified": false
+  },
+  {
+   "id": "medium-wave-performance",
+   "fact": "Medium wave infrared is the best performer overall of the three bands: the widest heat coverage, the greatest temperature rise, the furthest distance the heat travels, and no intrusive visual glow. Short wave warms instantly but carries an intense visible glow and glare; long wave is slow to warm and the most wind-sensitive. Warm-up: medium wave about 30 seconds (Planning Guide v1.2). Test data to be supplied by the Product team.",
+   "source": "Owner, 19 Nov 2026 (claim); test data to be supplied by the Product team",
+   "verified": false
+  },
+  {
    "id": "codes-electric",
    "fact": "US electric heaters follow ANSI/NFPA 70 (NEC); Bromic guidance: wall mounts at least 72\" above floor, ceiling mounts at least 96\" (varies with output). Check with the local building authority.",
    "source": "Planning Guide v1.2 (2021) Step 06",

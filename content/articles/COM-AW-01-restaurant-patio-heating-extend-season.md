@@ -63,13 +63,15 @@ As the evening cools, those seats stop earning, and the loss is a quiet one. Nob
 
 Outdoors, warm air rises and drifts away on the breeze. Forced-air heating cannot hold a temperature in an open space, and a thermostat has nothing steady to read. Radiant heat behaves much like sunshine, settling on people and surfaces.[^s3]
 
-Radiant heat comes in different wavelengths, and Bromic's planning guidance groups it like this:[^s3]
+Radiant heat comes in different wavelengths, and the one you choose shapes the evening your guests remember: warmth that reaches the far end of the table, soft light over the plates, no glare. Bromic's electric heaters are medium wave, which leads on coverage, temperature rise and the distance its heat travels, without an intrusive glow [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]]:
 
-| Heat source | Share radiant | Warm-up | Wind |
-|---|---|---|---|
-| Short wave | about 90% | instant | warms people directly |
-| Medium wave | about 60% | about 30 seconds | limited sensitivity |
-| Long wave | about 40% | about 5 minutes | most easily dispersed |
+| | Heat coverage | Temperature rise | Distance heat travels | Visible glow | Warm-up |
+|---|---|---|---|---|---|
+| Short wave | Narrower | Lower | Shorter | Intense glow and glare | Instant[^s3] |
+| **Medium wave: Bromic Platinum, Eclipse and Tungsten Electric** | **Widest** | **Greatest** | **Furthest** | **Soft, no intrusive glow** | **About 30 seconds[^s3]** |
+| Long wave | Narrower | Lower | Shortest; most affected by wind[^s3] | – | About 5 minutes[^s3] |
+
+Warm-up and wind: Bromic Planning Guide v1.2[^s3]. Coverage, temperature rise, distance and glow: Bromic test data, to follow. [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]] [[VERIFY: short wave visible glow and glare — Product team]]
 
 During service, warm-up time matters. A heater that is warm the moment a table is seated can be switched on zone by zone through the evening, instead of running from open to close.
 
@@ -79,7 +81,7 @@ Most patios can be heated beautifully when the design is right. Bromic treats a 
 
 - **Covered terraces and awnings:** mount electric heaters on the wall or soffit, clear of the path your servers take.
 - **Open courtyards and sidewalks:** freestanding heaters move with the layout; allow one for every four seats.
-- **Rooftops:** the wind has the most say up high, so screen the windward side and favour short-wave heat.
+- **Rooftops:** the wind has the most say up high, so screen the windward side and choose heat that carries to the table, such as medium wave [[VERIFY: medium wave test data for distance heat travels — Product team]].
 
 ![Guests lingering over dinner on a warmly heated restaurant terrace](img:p-003-006)
 
@@ -130,7 +132,7 @@ On many nights, yes, with radiant heat, a partial cover and wind screening. In v
 
 ### Do patio heaters work in wind?
 
-Radiant heaters do, within limits, because they warm people directly. Short-wave heat is the least affected and long-wave heat the most.[^s3] Screening the windward side helps any heater.
+Radiant heaters do, within limits, because they warm people directly. Long-wave heat is the most affected by wind.[^s3] Screening the windward side helps any heater.
 
 ### Electric or gas for a restaurant patio?
 

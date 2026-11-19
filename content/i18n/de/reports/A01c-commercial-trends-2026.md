@@ -318,7 +318,7 @@ England; sie sind jeweils so gekennzeichnet.
 
 ## 10 · Wärme verschwindet in der Architektur
 
-> Bromic definiert einen Bereich als Außenbereich, wenn mindestens **30 %** seines Umfangs dauerhaft offen sind; kurzwellige Wärme hat etwa **90 %** Strahlungsanteil und wärmt sofort, langwellige etwa 40 % und ist am stärksten windanfällig.[^s14]
+> Bromic definiert einen Bereich als Außenbereich, wenn mindestens **30 %** seines Umfangs dauerhaft offen sind; die elektrischen Bromic Heizstrahler sind **mittelwellig** und in etwa 30 Sekunden warm, während langwellige am stärksten windanfällig sind.[^s14] Die Wärme der Mittelwelle reicht weiter über die Terrasse, ohne störendes Glühen. [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]]
 > *Quelle: Bromic Heating, Planungsleitfaden US v1.2, 2021.*
 
 **Was es für Ihren Betrieb bedeutet**

@@ -10,11 +10,11 @@ audience: [ARC]
 stage: [CO]
 cell: ARC-CO
 asset: A24
-summary: "Hoe korte, middellange en lange golf infrarood zich verhouden op stralingswarmte, opwarmtijd en wind, en hoe omsluiting, montagehoogte en de warmtewolk de verwarmer bepalen die u voor een buitenruimte voorschrijft."
+summary: "Waarom middengolf infrarood, de golflengte van de elektrische Bromic-verwarmers, voorop loopt op verwarmd oppervlak, temperatuurstijging, reikwijdte en gloed, hoe korte en lange golf zich verhouden, en hoe omsluiting, montagehoogte en de warmtewolk de verwarmer bepalen die u voor een buitenruimte voorschrijft."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wat is het verschil tussen kortegolf- en langegolf-infraroodverwarmers?"
-meta_description: "Stralingswarmte buiten ontwerpen: korte, middellange en lange golf infrarood vergeleken op straling, opwarmtijd, wind, montagehoogte en de 30%-regel."
+meta_description: "Stralingswarmte buiten ontwerpen: korte, middellange en lange golf infrarood vergeleken op verwarmd oppervlak, reikwijdte, gloed, opwarmtijd, montagehoogte en de 30%-regel."
 cta: {label: "Download de Planning Guide (pro-editie)", asset: A02}
 hero: l-010-071
 images: [l-013-111, l-004-012]
@@ -60,23 +60,21 @@ sources:
     supports: "Heat provided outside a building must be radiant and controlled by an occupancy sensor or timer switch"
     verified: true
 ---
-Korte golf infrarood is het heetst en voor ongeveer 90% straling, zodat het mensen vrijwel direct verwarmt en het best standhoudt in de wind. Lange golf is het koelst, voor maar ongeveer 40% straling, heeft zo'n vijf minuten nodig om op te warmen en verliest veel van zijn effect aan een briesje. Middellange golf zit ertussen, met ongeveer 60% straling en een opwarmtijd van zo'n 30 seconden[^s1]. Schrijf voor open buitenruimtes de bron met het hoogste stralingsaandeel voor die de situatie toelaat, en plaats die waar mensen samenkomen in plaats van haar gelijkmatig over het vloeroppervlak te verdelen.
+Denk aan het verre eind van de tafel, een uur na zonsondergang. Middengolf infrarood, de golflengte die Bromic koos voor Platinum, Eclipse en Tungsten Smart-Heat® Electric, is ontworpen voor precies die plek: de warmte bestrijkt meer van de ruimte, laat de temperatuur verder stijgen en reikt verder van de verwarmer, met een zacht licht dat het uitzicht en de gezichten rond de tafel laat zoals ze zijn [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]]. Middengolf is in ongeveer 30 seconden op volle warmte[^s1]. Korte golf is direct warm[^s1], maar de felle gloed en verblinding kunnen een ruimte overheersen [[VERIFY: zichtbare gloed en verblinding van kortegolf — productteam]]. Lange golf heeft zo'n vijf minuten nodig om op te warmen en verliest veel van zijn effect aan een briesje[^s1]. Schrijf middengolf voor in de ruimtes waar mensen samenkomen, en plaats die waar ze zitten in plaats van haar gelijkmatig over het vloeroppervlak te verdelen.
 
 ![Buitenwoonkamer met zeezicht en verwarmers naadloos ingebouwd in het plafond](img:l-010-071)
 
 ## Hoe korte, middellange en lange golf infrarood verschillen
 
-De golflengte volgt de temperatuur van het element. Hoe heter de straler, hoe korter de golf en hoe groter het deel van de energie dat vrijkomt als stralingswarmte in plaats van als warme lucht.
+Elke golflengte gedraagt zich anders zodra de avond begint. Naast elkaar gezet op wat uw gasten voelen, loopt middengolf voorop op alle vier de punten die de avond bepalen, en met een opwarmtijd van ongeveer 30 seconden houdt ze gelijke tred met een terras dat spontaan volloopt.
 
-| | Korte golf | Middellange golf | Lange golf |
-|---|---|---|---|
-| Temperatuur straler (ca.) | 2200 °C | 900 °C | 300 °C |
-| Verhouding straling / convectie | 90 / 10 | 60 / 40 | 40 / 60 |
-| Opwarmtijd | Direct | ~30 s | ~5 min |
-| Wind | Verwarmt mensen en voorwerpen direct | Beperkt gevoelig | Gevoelig voor verwaaien |
-| Indicatieve toepassing | Open, blootgesteld, winderig | Overdekt, half beschut | Beschut, omsloten |
+| | Verwarmd oppervlak | Temperatuurstijging | Reikwijdte van de warmte | Zichtbare gloed | Opwarmtijd |
+|---|---|---|---|---|---|
+| Korte golf | Kleiner | Lager | Korter | Felle gloed en verblinding | Direct[^s1] |
+| **Middengolf: Bromic Platinum, Eclipse en Tungsten Electric** | **Het grootst** | **Het hoogst** | **Het verst** | **Zacht, geen storende gloed** | **Ongeveer 30 seconden[^s1]** |
+| Lange golf | Kleiner | Lager | Het kortst; het gevoeligst voor wind[^s1] | – | Ongeveer 5 minuten[^s1] |
 
-Bron: indeling van de golflengtes in de Bromic Planning Guide v1.2[^s1]. De rij "indicatieve toepassing" is onze eigen lezing van die eigenschappen en is bedoeld als richtlijn, omdat de Planning Guide haar niet als regel publiceert.
+Opwarmtijd en wind: Bromic Planning Guide v1.2[^s1]. Verwarmd oppervlak, temperatuurstijging, reikwijdte en gloed: testgegevens van Bromic volgen. [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]] [[VERIFY: zichtbare gloed en verblinding van kortegolf — productteam]]
 
 Het convectieve aandeel telt buiten mee omdat warme lucht opstijgt en wegdrijft. Binnen zou die lucht in de ruimte blijven; buiten gaat ze gewoon verloren. Daarom is de Planning Guide zo duidelijk dat warmte buiten niet met een thermostaat te regelen is, en dat hete lucht in de open lucht niet werkt[^s2].
 
@@ -86,7 +84,7 @@ Het convectieve aandeel telt buiten mee omdat warme lucht opstijgt en wegdrijft.
 
 Stralingsenergie verplaatst zich in rechte lijnen en wordt opgenomen door de oppervlakken die ze bereikt – huid, kleding, meubels en steen. Omdat ze de lucht niet nodig heeft als drager, kan een briesje de lucht rond uw gasten bewegen zonder de warmte weg te nemen die ze al hebben ontvangen. Hete lucht daarentegen wordt met de wind meegevoerd[^s2].
 
-Als vuistregel geldt: hoe blootgestelder de ruimte, hoe hoger het stralingsaandeel van de bron moet zijn. Op een winderig dakterras voelt een langegolftoestel van dichtbij misschien warm, terwijl het weinig doet om iemand aan tafel comfortabel te houden.
+Als vuistregel geldt: hoe blootgestelder de ruimte, hoe meer het loont om een verwarmer te kiezen waarvan de warmte tot aan de tafel reikt, en om de windzijde af te schermen. Op een winderig dakterras voelt een langegolftoestel van dichtbij misschien warm, terwijl het weinig doet om iemand aan tafel comfortabel te houden.
 
 ![Eclipse-verwarmers aan wandarmen die een restaurantterras onder een zonnescherm verwarmen](img:l-013-111)
 
@@ -98,7 +96,7 @@ Binnen het buitenbereik maakt de overkapping een echt verschil. Een dak of diep 
 
 | Situatie | Effect op het ontwerp |
 |---|---|
-| Volledig open, geen overkapping | Alleen straling; geef voorrang aan korte golf en een kleinere onderlinge afstand |
+| Volledig open, geen overkapping | Alleen straling; schrijf middengolf voor en een kleinere onderlinge afstand |
 | Gedeeltelijke overkapping (overstek, uitkraging, gesloten pergola) | De warmtewolk geeft convectieve winst; monteer aan het overstek |
 | Open lamellen of lattendak | Weinig warmtewolk; reken als open bij het dimensioneren |
 | Minder dan 30% van de omtrek open | Voor Bromic geen buitenruimte; controleer de lokale regelgeving |
@@ -130,7 +128,7 @@ Elke Bromic-verwarmer wordt vanaf het begin voorgeschreven met zijn Affinity Sma
 
 ## De belangrijkste punten
 
-- Korte golf is voor ~90% straling, direct warm en het best in de wind; lange golf is voor ~40% straling, heeft ~5 min nodig en is het gevoeligst voor wind[^s1].
+- Middengolf, de keuze van Bromic voor zijn elektrische verwarmers, loopt voorop op verwarmd oppervlak, temperatuurstijging en de reikwijdte van de warmte, zonder storende gloed [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]]. Ze is in ongeveer 30 seconden warm; lange golf heeft ~5 min nodig en is het gevoeligst voor wind[^s1].
 - Een ruimte geldt als buitenruimte als 30% of meer van de omtrek permanent open is, en een overkapping voegt een warmtewolk toe[^s2].
 - De intensiteit daalt met de afstand; houd daarom de minimale hoogtes van 1,8 m op een wand en 2,4 m aan een plafond aan en bevestig ze per model[^s2].
 - Ga uit van het verwarmde oppervlak in het Lookbook en pas dat aan voor blootstelling, hoogte en overkapping[^s3].
@@ -138,8 +136,8 @@ Elke Bromic-verwarmer wordt vanaf het begin voorgeschreven met zijn Affinity Sma
 
 ## FAQ
 
-### Is korte golf of lange golf beter voor een terras?
-Voor open of winderige terrassen korte golf, omdat ongeveer 90% van de opbrengst straling is en ze direct verwarmt. Lange golf past bij beschutte ruimtes, waar het grotere convectieve aandeel niet wordt weggeblazen[^s1].
+### Welke infraroodgolflengte is het best voor een terras?
+Middengolf, voor de meeste terrassen. Ze bestrijkt meer van de ruimte, laat de temperatuur verder stijgen en draagt haar warmte verder van de verwarmer, zonder storende gloed [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]], en ze is in ongeveer 30 seconden warm[^s1]. Korte golf is direct warm maar heeft een felle gloed en verblinding [[VERIFY: zichtbare gloed en verblinding van kortegolf — productteam]]; lange golf warmt langzaam op en is het gevoeligst voor wind[^s1].
 
 ### Werken infraroodverwarmers in de wind?
 Stralingswarmte houdt stand bij een lichte tot matige wind, omdat ze mensen en oppervlakken verwarmt in plaats van de lucht[^s2]. Harde, aanhoudende wind vermindert bij elke verwarmer het comfort; voeg daarom aan de windzijde een windscherm toe.

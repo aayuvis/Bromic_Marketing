@@ -74,7 +74,7 @@ Each layer plays its own part, and the table sets them out by what each one chan
 |---|---|---|---|
 | Wind break (screen, wall, planting) | Stops moving air stripping heat off skin | Yes – that is its job | Keep the space outdoor: at least 30% of the perimeter permanently open[^s4] |
 | Overhead cover (pergola, roof, louvres) | Holds a "heat cloud" over the seating and adds a convective boost[^s4] | Partly | Also gives a mounting surface for built-in heaters |
-| Radiant heater, short or medium wave | Warms people and objects directly | Yes, in light to mild wind[^s4] | Short wave warms almost instantly; medium wave in about 30 seconds[^s4] |
+| Radiant heater, medium wave (Bromic Electric) | Warms people and objects directly | Yes, in light to mild wind[^s4] | Medium wave warms in about 30 seconds[^s4] |
 | Fire pit or fireplace | Atmosphere and a local hot spot | Poorly | Warms whoever faces it; smoke follows the breeze |
 | Forced-air or convection heater | Heats air | No | Bromic's guidance: forced air does not work outdoors[^s4] |
 | Blankets, cushions, warm lighting | Comfort at the edges | n/a | Best alongside heat, not instead of it |
@@ -85,7 +85,15 @@ Each layer plays its own part, and the table sets them out by what each one chan
 
 Outdoors there is no room of air to hold the heat, so anything that warms the air loses it to the first breeze. Infrared heat travels as radiation and is absorbed by whatever it reaches – your shoulders, the table, the stone floor – which then stays pleasantly warm.[^s4]
 
-Infrared comes in different wavelengths, and Bromic's planning guide sets them out: short wave is about 90% radiant and warms instantly; medium wave is about 60% radiant with a roughly 30-second warm-up; long wave is only about 40% radiant, takes around five minutes to warm up, and is the most affected by wind.[^s4] On a patio you step out to on a whim, that warm-up time makes all the difference.
+Infrared comes in different wavelengths, and the one you choose decides how the evening feels: warmth that reaches the far chair as well as the near one, a soft light over the table, no glare. Bromic's electric heaters are medium wave, which leads on coverage, temperature rise and the distance its heat travels, without an intrusive glow [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]]. It warms in about 30 seconds, quick enough for a patio you step out to on a whim.[^s4]
+
+| | Heat coverage | Temperature rise | Distance heat travels | Visible glow | Warm-up |
+|---|---|---|---|---|---|
+| Short wave | Narrower | Lower | Shorter | Intense glow and glare | Instant[^s4] |
+| **Medium wave: Bromic Platinum, Eclipse and Tungsten Electric** | **Widest** | **Greatest** | **Furthest** | **Soft, no intrusive glow** | **About 30 seconds[^s4]** |
+| Long wave | Narrower | Lower | Shortest; most affected by wind[^s4] | – | About 5 minutes[^s4] |
+
+Warm-up and wind: Bromic Planning Guide v1.2[^s4]. Coverage, temperature rise, distance and glow: Bromic test data, to follow. [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]] [[VERIFY: short wave visible glow and glare — Product team]]
 
 ## Choosing Heaters To Suit Your Patio
 
@@ -113,7 +121,7 @@ See [where to place patio heaters](item:RES-PP-01) for placement guidance, and [
 
 - Comfort outdoors comes in layers: a wind break, overhead cover, then radiant heat aimed at the people.
 - Radiant heat warms people directly, so it keeps working in light wind where forced air struggles.[^s4]
-- Short and medium wave heaters warm in seconds, which suits a patio you step out to on impulse.
+- Bromic's medium wave heaters warm in about 30 seconds, which suits a patio you step out to on impulse.[^s4]
 - Plan heat with the pergola and lighting, in the first budget, so wiring and recessing are built in.
 - Every heater recommendation includes its controls, and app and voice features need compatible Affinity controls, sold separately.
 

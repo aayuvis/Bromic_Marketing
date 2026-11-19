@@ -7,11 +7,11 @@ audience: [RES]
 stage: [CO]
 cell: RES-CO
 asset: null
-summary: "Why radiant warmth keeps you comfortable in a light to mild breeze, which wavelengths hold up best, and how to plan a patio that stays inviting when the wind picks up."
+summary: "Why radiant warmth keeps you comfortable in a light to mild breeze, why medium wave is the wavelength Bromic chose, and how to plan a patio that stays inviting when the wind picks up."
 primary_keyword: do infrared heaters work in wind
 secondary_keywords: [infrared patio heater, windy patio heating]
 ai_prompt: "Do infrared heaters work in wind?"
-meta_description: "Do infrared heaters work in wind? Yes, in light to mild wind, because infrared warms people directly. Short-wave heaters resist wind best."
+meta_description: "Do infrared heaters work in wind? Yes, in light to mild wind, because infrared warms people directly. Medium wave has limited wind sensitivity."
 cta: {label: "Size your space", asset: A03}
 hero: l-019-161
 owner_review: Marketing
@@ -40,15 +40,17 @@ Yes – in light to mild wind. Infrared heaters warm people and surfaces directl
 
 ## Which infrared heaters handle wind best?
 
-It comes down to wavelength – how much of the heater's output reaches you as radiant heat rather than warm air.[^s1]
+It comes down to wavelength. Bromic's electric heaters are medium wave, chosen for warmth that carries to the far seats on a breezy evening, with a soft light and no glare [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]]:
 
-| Wavelength | Radiant share | Wind behaviour | Warm-up |
-|---|---|---|---|
-| Short wave | ~90% | Warms people and objects directly | Instant |
-| Medium wave | ~60% | Limited sensitivity to wind | ~30 seconds |
-| Long wave | ~40% | Most easily dispersed by wind | ~5 minutes |
+| | Heat coverage | Temperature rise | Distance heat travels | Visible glow | Warm-up |
+|---|---|---|---|---|---|
+| Short wave | Narrower | Lower | Shorter | Intense glow and glare | Instant[^s1] |
+| **Medium wave: Bromic Platinum, Eclipse and Tungsten Electric** | **Widest** | **Greatest** | **Furthest** | **Soft, no intrusive glow** | **About 30 seconds[^s1]** |
+| Long wave | Narrower | Lower | Shortest; most affected by wind[^s1] | – | About 5 minutes[^s1] |
 
-The higher the radiant share, the less there is for the wind to carry off. Bromic describes its Tungsten Smart-Heat Freestanding Gas as wind resistant.[^s2]
+Warm-up and wind: Bromic Planning Guide v1.2[^s1]. Coverage, temperature rise, distance and glow: Bromic test data, to follow. [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]] [[VERIFY: short wave visible glow and glare — Product team]]
+
+Medium wave has limited sensitivity to wind, while long wave is the most easily dispersed.[^s1] Bromic describes its Tungsten Smart-Heat Freestanding Gas as wind resistant.[^s2]
 
 ## Planning a patio that stays warm in a breeze
 
@@ -60,7 +62,7 @@ The higher the radiant share, the less there is for the wind to carry off. Bromi
 ## Key takeaways
 
 - Infrared works in light to mild wind because it warms people directly.[^s1]
-- Short and medium wave resist wind best; long wave is most affected.[^s1]
+- Medium wave has limited sensitivity to wind and warms in about 30 seconds; long wave is the most affected.[^s1]
 - On an exposed site, pair a wind break with extra coverage.
 
 A windy site changes the heater count. Size your space with the Bromic calculator.

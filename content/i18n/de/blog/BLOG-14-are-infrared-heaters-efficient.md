@@ -11,7 +11,7 @@ summary: "Was Effizienz bei einem Heizstrahler für draußen wirklich bedeutet: 
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Sind Infrarot-Heizstrahler für die Terrasse energieeffizient?"
-meta_description: "Sind Infrarot-Heizstrahler effizient? Im Freien sind sie die effiziente Wahl, weil sie Menschen statt Luft wärmen. Was Strahlungsanteil, Ausrichtung und Steuerung bewirken."
+meta_description: "Sind Infrarot-Heizstrahler effizient? Im Freien sind sie die effiziente Wahl, weil sie Menschen statt Luft wärmen. Was Wellenlänge, Ausrichtung und Steuerung bewirken."
 cta: {label: "Fläche berechnen", asset: A03}
 hero: w-tungsten-electric-melrose-place-los-angeles-
 owner_review: Marketing
@@ -71,11 +71,11 @@ Ja – im Freien ist Infrarot die effiziente Art, Menschen warm zu halten, weil 
 
 Drinnen erwärmt eine Heizung die Raumluft, und die Wände halten sie dort. Draußen entweicht diese warme Luft bald[^s2]. Im Freien zählt deshalb, wie viel Wärme dort ankommt, wo Menschen sitzen, denn bei einer elektrischen Widerstandsheizung wird ohnehin die gesamte Energie zu Wärme[^s1].
 
-Genau das verrät der Strahlungsanteil. Der Planungsleitfaden von Bromic bewertet Kurzwelle mit etwa 90 % Strahlungsanteil als die effizienteste und Langwelle mit etwa 40 % als die am wenigsten effiziente Bauart; der Rest geht als warme Luft verloren[^s2].
+Genau das prägt die Wellenlänge. Die elektrischen Heizstrahler von Bromic sind mittelwellig, gewählt, weil ihre Wärme mehr Fläche abdeckt, die Temperatur stärker anhebt und weiter zu den Menschen am Tisch reicht, ohne störendes Glühen [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]]. Der Planungsleitfaden von Bromic bewertet Langwelle als die am wenigsten effiziente Bauart, weil der größte Teil ihrer Leistung als warme Luft verloren geht[^s2].
 
 | Entscheidung | Verschwendet mehr | Verschwendet weniger |
 |---|---|---|
-| Wellenlänge | Langwellig, ca. 40 % Strahlungsanteil[^s2] | Kurz- oder mittelwellig, 90 % bzw. 60 % Strahlungsanteil[^s2] |
+| Wellenlänge | Langwellig, der größte Teil geht als warme Luft verloren[^s2] | Mittelwellig, Wärme, die weiter über die Sitzplätze reicht [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] |
 | Richtung | Wärme gleichmäßig in alle Richtungen | Gerichtete Wärme auf die Sitzplätze[^s2] |
 | Steuerung | Nur ein oder aus, läuft einfach weiter | Dimmen, Zonen und Zeitpläne |
 | Auslegung | Zu wenige Geräte auf Volllast oder zu viele | Heizfläche passend zu den Sitzplätzen |
@@ -94,7 +94,7 @@ Bei Erdgas multiplizieren Sie die Nennwärmebelastung des Heizstrahlers in kW mi
 
 ## Vier Wege, jedes Watt zur Geltung zu bringen
 
-1. **Wählen Sie einen hohen Strahlungsanteil.** Kurz- und Mittelwelle geben den größten Teil ihrer Energie als Strahlung ab, während Langwelle das meiste an die Luft verliert[^s2].
+1. **Wählen Sie Mittelwelle.** Die mittelwelligen Bromic Heizstrahler tragen ihre Wärme weiter über die Sitzplätze, ohne störendes Glühen [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]], während Langwelle das meiste ihrer Energie an die Luft verliert[^s2].
 2. **Richten Sie die Wärme aus.** Gerichtete Heizstrahler senden die Wärme in eine Richtung, zu Ihren Gästen, und vermeiden es, die Nächstsitzenden zu überhitzen[^s2]. Montieren und neigen Sie sie auf die Sitzplätze statt auf die Mitte der Fläche.
 3. **Steuern Sie die Leistung.** Wärme im Freien lässt sich nicht über ein Thermostat regeln[^s2], also stimmen Sie den Heizstrahler selbst ab. Affinity Smart-Heat-Dimmer-Steuergeräte dimmen kompatible elektrische Heizstrahler in 1-%-Schritten[^s5], Eclipse schaltet zwischen 33, 66 und 100 %[^s4], und Tungsten Electric mit 4000 und 6000 W hat zwei getrennt steuerbare Heizelemente[^s5]. Die Smart-Heat-App ergänzt Zonen, Zeitpläne und Timer, sodass die Wärme nur dort und dann läuft, wo und wann Menschen zusammenkommen[^s4].
 4. **Legen Sie ihn auf Ihren Außenbereich aus.** Die Heizfläche je Gerät hängt von Modell, Montagehöhe, Umgebung und Installation ab[^s4]. Ein Plan, der zu den Sitzplätzen passt, vermeidet kalte Stellen ebenso wie Heizstrahler, die leere Ecken wärmen.

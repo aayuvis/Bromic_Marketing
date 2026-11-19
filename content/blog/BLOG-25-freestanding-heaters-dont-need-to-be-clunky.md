@@ -93,7 +93,7 @@ Most freestanding heaters are built around a fuel tank first, and around the peo
 
 ### Does wavelength matter?
 
-It does, especially when the wind picks up. Our planning guide puts short-wave heat at about 90% radiant and instant, medium wave at about 60% with a short warm-up, and long wave at about 40%, the slowest to warm and the most affected by wind.[^s4] On an exposed deck, the shorter wavelength will keep your guests comfortable.
+It does, especially when the wind picks up. Bromic's electric heaters are medium wave, chosen so the warmth reaches across the deck to every guest, with a soft light and no glare [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]]. Medium wave is warm in about 30 seconds, while long wave is the slowest to warm and the most affected by wind.[^s4] Short wave is instant[^s4], but its intense glow and glare can take over an evening [[VERIFY: short wave visible glow and glare — Product team]]. On an exposed deck, medium wave keeps your guests comfortable.
 
 ## Eclipse Smart-Heat Freestanding Electric
 

@@ -66,13 +66,15 @@ Als de avond afkoelt, verdienen die stoelen niets meer, en dat verlies gaat stil
 
 Buiten stijgt warme lucht op en drijft weg op de wind. Heteluchtverwarming kan in een open ruimte geen temperatuur vasthouden, en een thermostaat vindt niets stabiels om te meten. Stralingswarmte gedraagt zich zoals zonneschijn en legt zich op mensen en oppervlakken.[^s3]
 
-Stralingswarmte bestaat in verschillende golflengten, en de planningsrichtlijnen van Bromic delen haar zo in:[^s3]
+Stralingswarmte bestaat in verschillende golflengten, en uw keuze bepaalt de avond die uw gasten onthouden: warmte die tot het eind van de tafel reikt, zacht licht boven de borden, geen verblinding. De elektrische verwarmers van Bromic werken met middengolf, die voorop loopt op verwarmd oppervlak, temperatuurstijging en de reikwijdte van de warmte, zonder storende gloed [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]]:
 
-| Warmtebron | Aandeel straling | Opwarmtijd | Wind |
-|---|---|---|---|
-| Korte golf | ca. 90% | direct | verwarmt mensen direct |
-| Middellange golf | ca. 60% | ca. 30 seconden | beperkt gevoelig |
-| Lange golf | ca. 40% | ca. 5 minuten | verwaait het makkelijkst |
+| | Verwarmd oppervlak | Temperatuurstijging | Reikwijdte van de warmte | Zichtbare gloed | Opwarmtijd |
+|---|---|---|---|---|---|
+| Korte golf | Kleiner | Lager | Korter | Felle gloed en verblinding | Direct[^s3] |
+| **Middengolf: Bromic Platinum, Eclipse en Tungsten Electric** | **Het grootst** | **Het hoogst** | **Het verst** | **Zacht, geen storende gloed** | **Ongeveer 30 seconden[^s3]** |
+| Lange golf | Kleiner | Lager | Het kortst; het gevoeligst voor wind[^s3] | – | Ongeveer 5 minuten[^s3] |
+
+Opwarmtijd en wind: Bromic Planning Guide v1.2[^s3]. Verwarmd oppervlak, temperatuurstijging, reikwijdte en gloed: testgegevens van Bromic volgen. [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]] [[VERIFY: zichtbare gloed en verblinding van kortegolf — productteam]]
 
 Tijdens de service telt de opwarmtijd. Een verwarmer die warm is zodra een tafel gaat zitten, kunt u in de loop van de avond zone voor zone inschakelen, in plaats van hem van opening tot sluiting te laten branden.
 
@@ -82,7 +84,7 @@ De meeste terrassen zijn prachtig te verwarmen als het ontwerp klopt. Bromic bes
 
 - **Overdekte terrassen en luifels:** monteer elektrische verwarmers aan de wand of in de overstek, uit de looproute van uw bediening.
 - **Open binnenplaatsen en stoepterrassen:** vrijstaande verwarmers verhuizen mee met de opstelling; reken op één per vier stoelen.
-- **Dakterrassen:** hoog boven de straat heeft de wind het meest te zeggen, dus scherm de windzijde af en kies bij voorkeur kortegolfwarmte.
+- **Dakterrassen:** hoog boven de straat heeft de wind het meest te zeggen, dus scherm de windzijde af en kies warmte die tot aan de tafel reikt, zoals middengolf [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]].
 
 ![Gasten die nog even blijven tafelen op een warm verwarmd restaurantterras](img:p-003-006)
 
@@ -135,7 +137,7 @@ Op veel avonden wel, met stralingswarmte, een gedeeltelijke overkapping en winda
 
 ### Werken terrasverwarmers bij wind?
 
-Stralingsverwarmers wel, binnen grenzen, omdat ze mensen direct verwarmen. Kortegolfwarmte heeft er het minst last van, langegolfwarmte het meest.[^s3] Afscherming aan de windzijde helpt elke verwarmer.
+Stralingsverwarmers wel, binnen grenzen, omdat ze mensen direct verwarmen. Langegolfwarmte heeft het meest last van wind.[^s3] Afscherming aan de windzijde helpt elke verwarmer.
 
 ### Elektrisch of gas voor een restaurantterras?
 

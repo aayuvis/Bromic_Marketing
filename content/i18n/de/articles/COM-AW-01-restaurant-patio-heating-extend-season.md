@@ -66,13 +66,15 @@ Wenn der Abend kühler wird, verdienen diese Plätze nichts mehr, und der Verlus
 
 Im Freien steigt warme Luft auf und zieht mit dem Wind davon. Warmluftheizungen können in einem offenen Raum keine Temperatur halten, und ein Thermostat findet nichts Beständiges zu messen. Strahlungswärme verhält sich ganz ähnlich wie Sonnenschein und legt sich auf Menschen und Oberflächen.[^s3]
 
-Strahlungswärme gibt es in verschiedenen Wellenlängen, und die Planungsempfehlungen von Bromic ordnen sie so:[^s3]
+Strahlungswärme gibt es in verschiedenen Wellenlängen, und die Wahl prägt den Abend, an den sich Ihre Gäste erinnern: Wärme, die bis ans Ende des Tisches reicht, sanftes Licht über den Tellern, keine Blendung. Die elektrischen Heizstrahler von Bromic sind mittelwellig, und die Mittelwelle liegt bei Heizfläche, Temperaturanstieg und Reichweite der Wärme vorn, ohne störendes Glühen [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]]:
 
-| Wärmequelle | Strahlungsanteil | Aufheizzeit | Wind |
-|---|---|---|---|
-| Kurzwellig | ca. 90 % | sofort | wärmt Menschen direkt |
-| Mittelwellig | ca. 60 % | ca. 30 Sekunden | begrenzt empfindlich |
-| Langwellig | ca. 40 % | ca. 5 Minuten | wird am leichtesten verweht |
+| | Heizfläche | Temperaturanstieg | Reichweite der Wärme | Sichtbares Glühen | Aufheizzeit |
+|---|---|---|---|---|---|
+| Kurzwelle | Kleiner | Geringer | Kürzer | Starkes Glühen und Blendung | Sofort[^s3] |
+| **Mittelwelle: Bromic Platinum, Eclipse und Tungsten Electric** | **Am größten** | **Am höchsten** | **Am weitesten** | **Sanft, kein störendes Glühen** | **Etwa 30 Sekunden[^s3]** |
+| Langwelle | Kleiner | Geringer | Am kürzesten; am stärksten windanfällig[^s3] | – | Etwa 5 Minuten[^s3] |
+
+Aufheizzeit und Wind: Bromic Planning Guide v1.2[^s3]. Heizfläche, Temperaturanstieg, Reichweite und Glühen: Bromic-Testdaten folgen. [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]] [[VERIFY: sichtbares Glühen und Blendung der Kurzwelle — Produktteam]]
 
 Im Service zählt die Aufheizzeit. Ein Heizstrahler, der warm ist, sobald ein Tisch platziert wird, lässt sich im Lauf des Abends Zone für Zone einschalten, statt von der Öffnung bis zum Schluss zu laufen.
 
@@ -82,7 +84,7 @@ Die meisten Terrassen lassen sich wunderbar beheizen, wenn die Planung stimmt. B
 
 - **Überdachte Terrassen und Markisen:** Montieren Sie Elektro-Heizstrahler an Wand oder Untersicht, außerhalb der Wege Ihres Servicepersonals.
 - **Offene Innenhöfe und Gehwegflächen:** Freistehende Heizstrahler wandern mit der Bestuhlung; rechnen Sie einen auf vier Plätze.
-- **Dachterrassen:** In der Höhe hat der Wind das meiste Gewicht, schirmen Sie also die Wetterseite ab und bevorzugen Sie kurzwellige Wärme.
+- **Dachterrassen:** In der Höhe hat der Wind das meiste Gewicht, schirmen Sie also die Wetterseite ab und wählen Sie Wärme, die bis an den Tisch reicht, etwa Mittelwelle [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]].
 
 ![Gäste, die auf einer warm beheizten Restaurantterrasse beim Abendessen verweilen](img:p-003-006)
 
@@ -133,7 +135,7 @@ An vielen Abenden ja, mit Strahlungswärme, einer Teilüberdachung und Windschut
 
 ### Funktionieren Terrassenheizstrahler bei Wind?
 
-Strahlungsheizer ja, in Grenzen, weil sie Menschen direkt wärmen. Kurzwellige Wärme ist am wenigsten betroffen, langwellige am stärksten.[^s3] Ein Windschutz auf der Wetterseite hilft jedem Heizstrahler.
+Strahlungsheizer ja, in Grenzen, weil sie Menschen direkt wärmen. Langwellige Wärme ist am stärksten vom Wind betroffen.[^s3] Ein Windschutz auf der Wetterseite hilft jedem Heizstrahler.
 
 ### Strom oder Gas für eine Restaurantterrasse?
 

@@ -313,7 +313,7 @@ for them, each with its source and one move you can make this season.
 
 ## 10 · Heat Disappears Into The Architecture
 
-> Bromic defines a space as outdoor when at least **30%** of its perimeter is permanently open; short-wave heat is about **90%** radiant and warms instantly, long-wave about 40% and the most wind-sensitive.[^s14]
+> Bromic defines a space as outdoor when at least **30%** of its perimeter is permanently open; Bromic's electric heaters are **medium wave**, warm in about 30 seconds, while long wave is the most wind-sensitive.[^s14] Medium wave's warmth reaches further across the terrace, with no intrusive glow. [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]]
 > *Source: Bromic Heating, Planning Guide US v1.2, 2021.*
 
 **What it means for your venue**

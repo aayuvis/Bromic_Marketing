@@ -10,7 +10,7 @@ audience: [ARC]
 stage: [CO]
 cell: ARC-CO
 asset: A24
-summary: "Why warm air slips away outdoors while radiant warmth reaches every guest, what short, medium and long wave mean for radiant share, warm-up and wind, and the design decisions that follow – cover, direction, height and control."
+summary: "Why warm air slips away outdoors while radiant warmth reaches every guest, why medium wave leads on coverage, reach and glow, how short and long wave compare, and the design decisions that follow – cover, direction, height and control."
 primary_keyword: radiant heat vs convection heat outdoor
 secondary_keywords: [heat transfer outdoor heating, short medium long wave infrared, radiant heater outdoor design, directional heat]
 ai_prompt: "Why is radiant heat better than convection for outdoor spaces?"
@@ -90,18 +90,17 @@ Bromic's Planning Guide captures it in a single line: you cannot thermostaticall
 
 ## Understanding Short, Medium And Long Wave
 
-Wavelength follows element temperature. The hotter the element, the shorter the wave and the more of its energy leaves as radiation instead of warm air[^s2]:
+Picture the guest at the far end of the table. With medium wave, the band Bromic chose for its electric heaters, the warmth reaches that seat too, the temperature lifts further and the light stays soft enough to leave the scheme as you designed it [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]]. Set side by side, the three bands compare like this:
 
-| | Short wave | Medium wave | Long wave |
-|---|---|---|---|
-| Element temperature | 3,992°F | 1,652°F | 572°F |
-| Radiant / convective | 90 / 10 | 60 / 40 | 40 / 60 |
-| Warm-up | Instant | About 30 s | About 5 min |
-| Wind | Warms people and objects directly | Limited susceptibility | Susceptible to dispersal |
+| | Heat coverage | Temperature rise | Distance heat travels | Visible glow | Warm-up |
+|---|---|---|---|---|---|
+| Short wave | Narrower | Lower | Shorter | Intense glow and glare | Instant[^s2] |
+| **Medium wave: Bromic Platinum, Eclipse and Tungsten Electric** | **Widest** | **Greatest** | **Furthest** | **Soft, no intrusive glow** | **About 30 seconds[^s2]** |
+| Long wave | Narrower | Lower | Shortest; most affected by wind[^s2] | – | About 5 minutes[^s2] |
 
-Source: Bromic Planning Guide v1.2, heat-wave mapping[^s2]. These are the figures behind the "60 to 90%" range the earlier version of this post quoted without a source, with 60% being medium wave and 90% short wave.
+Warm-up and wind: Bromic Planning Guide v1.2[^s2]. Coverage, temperature rise, distance and glow: Bromic test data, to follow. [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]] [[VERIFY: short wave visible glow and glare — Product team]]
 
-The guide groups the bands by application. Direct heat, a blend of short and medium wave, gives the highest efficiency, while indirect heat, medium and long wave, is slower to warm and more exposed to wind[^s1]. Wavelength by model is set out in the specifier's guide, [radiant heat outdoors: short, medium and long wave](item:ARC-CO-01). [[VERIFY: wavelength band of each current Bromic model — Product team]]
+The guide groups the bands by application, and medium wave sits in both groups: direct heat, short and medium wave, and indirect heat, medium and long wave, the slower to warm and the more exposed to wind[^s1]. Wavelength by model is set out in the specifier's guide, [radiant heat outdoors: short, medium and long wave](item:ARC-CO-01). [[VERIFY: wavelength band of each current Bromic model — Product team]]
 
 ## Designing The Space Around Radiant Warmth
 
@@ -111,7 +110,7 @@ The guide groups the bands by application. Direct heat, a blend of short and med
 
 **Height.** Wall mounts sit no lower than 72 in and ceiling mounts no lower than 96 in, varying with output[^s3]. Mounting higher spreads the pattern and softens the intensity at the guest; see [mounting height and heat intensity](item:ARC-CO-KB1). Coverage figures vary with model, mounting height, environment and installation[^s4].
 
-**Light.** Hotter elements glow. Where that glow matters to the scheme, review it alongside the lighting design well before installation.
+**Light.** Hotter elements glow, and short wave glows brightest [[VERIFY: short wave visible glow and glare — Product team]]; Bromic's medium wave heaters keep the light soft [[VERIFY: medium wave test data for no intrusive visual glow — Product team]]. Where that glow matters to the scheme, review it alongside the lighting design well before installation.
 
 **Control.** Specify the control together with the heater. Some energy codes now require it: Washington's commercial energy code requires heat outside a building to be radiant and switched by an occupancy sensor or timer[^s5]. Confirm the code in force with the local authority having jurisdiction, and have a licensed electrician or gas fitter design the circuit or supply.
 
@@ -129,7 +128,7 @@ Wi-Fi, app scheduling and zones need compatible Affinity Smart-Heat Controls, so
 They heat the air, and outdoor air rises and leaves, faster still in any breeze[^s1].
 
 ### Which wavelength should I specify for an exposed site?
-The most radiant the setting allows. Short wave is about 90% radiant and instant, while long wave is about 40% and the most sensitive to wind[^s2].
+Medium wave. It covers more of the space, lifts the temperature further and carries its warmth further, without an intrusive glow [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]], and it warms in about 30 seconds; long wave is the most sensitive to wind[^s2].
 
 ### Does a covered terrace need less heat?
 Often it does, because the cover holds a heat cloud that adds to the radiant output[^s1]. Keep 30% of the perimeter open.

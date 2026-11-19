@@ -77,7 +77,7 @@ Jede Ebene hat ihre eigene Aufgabe, und die Tabelle ordnet sie nach dem, was sie
 |---|---|---|---|
 | Windschutz (Sichtschutz, Wand, Bepflanzung) | Verhindert, dass bewegte Luft der Haut die Wärme entzieht | Ja – dafür ist er da | Der Bereich bleibt ein Außenbereich: mindestens 30 % des Umfangs dauerhaft offen[^s4] |
 | Überdachung (Pergola, Dach, Lamellen) | Hält eine „Wärmewolke“ über den Sitzplätzen und gibt einen zusätzlichen Schub durch Konvektion[^s4] | Teilweise | Bietet zugleich eine Montagefläche für eingebaute Heizstrahler |
-| Strahlungsheizstrahler, kurz- oder mittelwellig | Wärmt Menschen und Gegenstände direkt | Ja, bei leichtem bis mäßigem Wind[^s4] | Kurzwellig wärmt fast sofort, mittelwellig in etwa 30 Sekunden[^s4] |
+| Strahlungsheizstrahler, mittelwellig (Bromic Electric) | Wärmt Menschen und Gegenstände direkt | Ja, bei leichtem bis mäßigem Wind[^s4] | Mittelwellig wärmt in etwa 30 Sekunden[^s4] |
 | Feuerschale oder Kamin | Atmosphäre und ein örtlicher Wärmepunkt | Schlecht | Wärmt, wer davor sitzt; der Rauch folgt dem Wind |
 | Warmluft- oder Konvektionsheizer | Erwärmt Luft | Nein | Hinweis von Bromic: Warmluft funktioniert im Freien nicht[^s4] |
 | Decken, Kissen, warmes Licht | Behaglichkeit an den Rändern | entfällt | Am besten zusammen mit Wärme, nicht an ihrer Stelle |
@@ -88,7 +88,15 @@ Jede Ebene hat ihre eigene Aufgabe, und die Tabelle ordnet sie nach dem, was sie
 
 Draußen gibt es keinen Raum voller Luft, der die Wärme hält, also verliert alles, was die Luft erwärmt, seine Wärme an die erste Brise. Infrarotwärme breitet sich als Strahlung aus und wird von allem aufgenommen, was sie erreicht – Ihren Schultern, dem Tisch, dem Steinboden –, das dann angenehm warm bleibt.[^s4]
 
-Infrarot gibt es in verschiedenen Wellenlängen, und der Planungsleitfaden von Bromic stellt sie dar: Kurzwellig ist zu etwa 90 % Strahlung und wärmt sofort; mittelwellig zu etwa 60 %, mit rund 30 Sekunden Aufheizzeit; langwellig nur zu etwa 40 %, braucht rund fünf Minuten zum Aufheizen und reagiert am stärksten auf Wind.[^s4] Auf einer Terrasse, auf die Sie spontan hinaustreten, macht diese Aufheizzeit den ganzen Unterschied.
+Infrarot gibt es in verschiedenen Wellenlängen, und Ihre Wahl entscheidet, wie sich der Abend anfühlt: Wärme, die den fernen Stuhl ebenso erreicht wie den nahen, sanftes Licht über dem Tisch, keine Blendung. Die elektrischen Heizstrahler von Bromic sind mittelwellig, und die Mittelwelle liegt bei Heizfläche, Temperaturanstieg und Reichweite der Wärme vorn, ohne störendes Glühen [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]]. Sie wärmt in etwa 30 Sekunden, schnell genug für eine Terrasse, auf die Sie spontan hinaustreten.[^s4]
+
+| | Heizfläche | Temperaturanstieg | Reichweite der Wärme | Sichtbares Glühen | Aufheizzeit |
+|---|---|---|---|---|---|
+| Kurzwelle | Kleiner | Geringer | Kürzer | Starkes Glühen und Blendung | Sofort[^s4] |
+| **Mittelwelle: Bromic Platinum, Eclipse und Tungsten Electric** | **Am größten** | **Am höchsten** | **Am weitesten** | **Sanft, kein störendes Glühen** | **Etwa 30 Sekunden[^s4]** |
+| Langwelle | Kleiner | Geringer | Am kürzesten; am stärksten windanfällig[^s4] | – | Etwa 5 Minuten[^s4] |
+
+Aufheizzeit und Wind: Bromic Planning Guide v1.2[^s4]. Heizfläche, Temperaturanstieg, Reichweite und Glühen: Bromic-Testdaten folgen. [[VERIFY: Testdaten Mittelwelle zur Heizfläche — Produktteam]] [[VERIFY: Testdaten Mittelwelle zum Temperaturanstieg — Produktteam]] [[VERIFY: Testdaten Mittelwelle zur Reichweite der Wärme — Produktteam]] [[VERIFY: Testdaten Mittelwelle zu fehlendem störendem Glühen — Produktteam]] [[VERIFY: sichtbares Glühen und Blendung der Kurzwelle — Produktteam]]
 
 ## Heizstrahler, die zu Ihrer Terrasse passen
 
@@ -116,7 +124,7 @@ Lesen Sie [wo Terrassenheizstrahler hingehören](item:RES-PP-01) für die Platzi
 
 - Behaglichkeit im Freien entsteht in Ebenen: Windschutz, Überdachung, dann Strahlungswärme, die auf die Menschen gerichtet ist.
 - Strahlungswärme wärmt Menschen direkt und wirkt deshalb auch bei leichtem Wind, wo Warmluft an ihre Grenzen kommt.[^s4]
-- Kurz- und mittelwellige Heizstrahler wärmen in Sekunden – genau richtig für eine Terrasse, auf die Sie spontan hinaustreten.
+- Die mittelwelligen Heizstrahler von Bromic wärmen in etwa 30 Sekunden – genau richtig für eine Terrasse, auf die Sie spontan hinaustreten.[^s4]
 - Planen Sie die Wärme mit Pergola und Beleuchtung im ersten Budget, damit Leitungen und Einbauöffnungen gleich mitgebaut werden.
 - Jede Empfehlung für einen Heizstrahler schließt seine Steuerung ein; App- und Sprachfunktionen setzen kompatible Affinity-Steuerungen voraus, die separat erhältlich sind.
 

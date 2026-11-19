@@ -67,7 +67,7 @@ Das können sie sein, wenn der Heizstrahler die richtige Bauart hat, vorschrifts
 
 ## Entspannte Abende mit der ganzen Familie
 
-- **Heiße Oberflächen.** Heizelemente arbeiten mit sehr hohen Temperaturen – ein Kurzwellenelement ist im Bromic-Leitfaden mit rund 2200 °C angegeben.[^s1] Niemand sollte die Front eines Heizstrahlers berühren, weder im Betrieb noch kurz nach dem Ausschalten. [[VERIFY: Abkühlzeit und Oberflächentemperaturen des Gehäuses je Modell — Produktteam]]
+- **Heiße Oberflächen.** Heizelemente arbeiten mit sehr hohen Temperaturen – selbst ein Mittelwellenelement, wie in den elektrischen Bromic Heizstrahlern, arbeitet laut Bromic-Leitfaden mit rund 900 °C.[^s1] Niemand sollte die Front eines Heizstrahlers berühren, weder im Betrieb noch kurz nach dem Ausschalten. [[VERIFY: Abkühlzeit und Oberflächentemperaturen des Gehäuses je Modell — Produktteam]]
 - **Eine kinderfreie Zone.** Die US-Brandschutzorganisation NFPA empfiehlt eine kinderfreie Zone von ca. 0,9 m um Heizgeräte und offene Feuer und rät, Brennbares – Kissen, Spielzeug, Decken – mindestens ca. 0,9 m entfernt zu halten.[^s3]
 - **Haustiere.** Halten Sie Körbe und Näpfe aus dem Wärmeweg, damit Tiere der Wärme jederzeit ausweichen können, wenn sie möchten. [[VERIFY: Hinweise zu Haustieren in den Bromic-Anleitungen — Produktteam]]
 - **Ausschalten.** Zeitpläne und Timer in der Bromic Smart-Heat App beenden die Wärme, wenn der Abend endet; sie erfordern kompatible Affinity Smart-Heat Controls, die separat erhältlich sind. Jede Anlage hat eine Steuerung – ein Affinity On/Off-, Dimmer- oder Eclipse-Steuergerät oder einen Wandschalter.[^s2]

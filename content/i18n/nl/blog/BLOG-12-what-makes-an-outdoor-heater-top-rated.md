@@ -86,7 +86,7 @@ Een topklasse buitenverwarmer zorgt dat iedereen het comfortabel heeft over de h
 
 | Criterium | Wat je op het specificatieblad controleert | Voorbeeld bij Bromic |
 |---|---|---|
-| Warmte die mensen bereikt | Straling, kortegolfelement; verwarmd oppervlak per model, niet alleen het vermogen | Tungsten Electric verwarmt ongeveer 6 tot 15 m² bij 2000–6000 W[^s3] |
+| Warmte die mensen bereikt | Straling, middengolfelement; verwarmd oppervlak per model, niet alleen het vermogen | Tungsten Electric verwarmt ongeveer 6 tot 15 m² bij 2000–6000 W[^s3] |
 | Gebouwd voor het weer | Afgedichte behuizing; IP-waarde als getal vermeld | Tungsten Electric IPX4; Platinum Marine IPX5[^s3][^s4] |
 | Onafhankelijke keuring | Een erkend keurmerk; in Noord-Amerika ETL, cETL, UL of CSA | Intertek ETL/cETL op Tungsten en Platinum Electric[^s3][^s4] [[VERIFY: CE-markering en Europese keuring per model — Bromic Benelux distributor]] |
 | Garantie | Aantal jaren, en wat eronder valt | Tungsten: 2 jaar op de verwarmer, 7 jaar op de elementen; Platinum: 3 jaar[^s3][^s4] [[VERIFY: garantievoorwaarden in Nederland — Bromic Benelux distributor]] |
@@ -96,7 +96,7 @@ Een topklasse buitenverwarmer zorgt dat iedereen het comfortabel heeft over de h
 
 ## Waarom verwarmd oppervlak meer zegt dan vermogen
 
-Het vermogen vertelt je hoeveel energie een verwarmer opneemt, het verwarmd oppervlak hoeveel van je terras hij warm houdt. Stralingswarmte verwarmt mensen en oppervlakken in plaats van de lucht, en blijft daardoor voelbaar in een licht briesje, waar verwarmers die de lucht opwarmen het moeilijk krijgen.[^s2] Kortegolfelementen stralen het meest en verwarmen je vrijwel meteen; langegolfelementen hebben de meeste tijd nodig en zijn het gevoeligst voor wind.[^s2] Als een fabrikant voor elk model het verwarmd oppervlak publiceert, kun je je buitenruimte met vertrouwen berekenen in plaats van te gokken.
+Het vermogen vertelt je hoeveel energie een verwarmer opneemt, het verwarmd oppervlak hoeveel van je terras hij warm houdt. Stralingswarmte verwarmt mensen en oppervlakken in plaats van de lucht, en blijft daardoor voelbaar in een licht briesje, waar verwarmers die de lucht opwarmen het moeilijk krijgen.[^s2] Middengolfelementen, zoals in de elektrische verwarmers van Bromic, bestrijken meer van de ruimte, laten de temperatuur verder stijgen en dragen hun warmte verder, zonder storende gloed [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]]. Ze zijn in ongeveer 30 seconden warm, terwijl langegolfelementen de meeste tijd nodig hebben en het gevoeligst zijn voor wind.[^s2] Als een fabrikant voor elk model het verwarmd oppervlak publiceert, kun je je buitenruimte met vertrouwen berekenen in plaats van te gokken.
 
 ![Een Tungsten Electric-element gloeit onder een glazen overkapping](img:w-bromic-tungsten-electric-patio-heater)
 

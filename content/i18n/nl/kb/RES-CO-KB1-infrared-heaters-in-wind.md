@@ -10,11 +10,11 @@ audience: [RES]
 stage: [CO]
 cell: RES-CO
 asset: null
-summary: "Waarom stralingswarmte je comfortabel houdt bij lichte tot matige wind, welke golflengtes het best tegen wind kunnen, en hoe je een terras plant dat uitnodigend blijft als de wind aantrekt."
+summary: "Waarom stralingswarmte je comfortabel houdt bij lichte tot matige wind, waarom Bromic voor middengolf kiest, en hoe je een terras plant dat uitnodigend blijft als de wind aantrekt."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Werken infraroodverwarmers bij wind?"
-meta_description: "Werken infraroodverwarmers bij wind? Ja, bij lichte tot matige wind, omdat infrarood mensen direct verwarmt. Kortegolf kan het best tegen wind."
+meta_description: "Werken infraroodverwarmers bij wind? Ja, bij lichte tot matige wind, omdat infrarood mensen direct verwarmt. Middengolf is beperkt gevoelig voor wind."
 cta: {label: "Bereken je ruimte", asset: A03}
 hero: l-019-161
 owner_review: marketing
@@ -43,15 +43,17 @@ Ja – bij lichte tot matige wind. Infraroodverwarmers verwarmen mensen en opper
 
 ## Welke infraroodverwarmers kunnen het best tegen wind?
 
-Het komt neer op de golflengte – hoeveel van het vermogen van de verwarmer je bereikt als stralingswarmte in plaats van warme lucht.[^s1]
+Het komt neer op de golflengte. De elektrische verwarmers van Bromic werken met middengolf, gekozen voor warmte die op een winderige avond tot de verste stoelen reikt, met een zacht licht en zonder verblinding [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]]:
 
-| Golflengte | Aandeel straling | Gedrag bij wind | Opwarmtijd |
-|---|---|---|---|
-| Kortegolf | ~90% | Verwarmt mensen en voorwerpen direct | Direct |
-| Middengolf | ~60% | Beperkt gevoelig voor wind | ~30 seconden |
-| Langegolf | ~40% | Verwaait het makkelijkst | ~5 minuten |
+| | Verwarmd oppervlak | Temperatuurstijging | Reikwijdte van de warmte | Zichtbare gloed | Opwarmtijd |
+|---|---|---|---|---|---|
+| Korte golf | Kleiner | Lager | Korter | Felle gloed en verblinding | Direct[^s1] |
+| **Middengolf: Bromic Platinum, Eclipse en Tungsten Electric** | **Het grootst** | **Het hoogst** | **Het verst** | **Zacht, geen storende gloed** | **Ongeveer 30 seconden[^s1]** |
+| Lange golf | Kleiner | Lager | Het kortst; het gevoeligst voor wind[^s1] | – | Ongeveer 5 minuten[^s1] |
 
-Hoe hoger het aandeel straling, hoe minder er voor de wind overblijft om mee te nemen. Bromic omschrijft zijn Tungsten Smart-Heat Freestanding Gas als windbestendig.[^s2]
+Opwarmtijd en wind: Bromic Planning Guide v1.2[^s1]. Verwarmd oppervlak, temperatuurstijging, reikwijdte en gloed: testgegevens van Bromic volgen. [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]] [[VERIFY: zichtbare gloed en verblinding van kortegolf — productteam]]
+
+Middengolf is beperkt gevoelig voor wind, langegolf verwaait het makkelijkst.[^s1] Bromic omschrijft zijn Tungsten Smart-Heat Freestanding Gas als windbestendig.[^s2]
 
 ## Een terras plannen dat warm blijft in de wind
 
@@ -63,7 +65,7 @@ Hoe hoger het aandeel straling, hoe minder er voor de wind overblijft om mee te 
 ## De belangrijkste punten
 
 - Infrarood werkt bij lichte tot matige wind, omdat het mensen direct verwarmt.[^s1]
-- Kortegolf en middengolf kunnen het best tegen wind; langegolf heeft er het meest last van.[^s1]
+- Middengolf is beperkt gevoelig voor wind en is in ongeveer 30 seconden warm; langegolf heeft er het meest last van.[^s1]
 - Combineer op onbeschutte plekken een windscherm met extra verwarmd oppervlak.
 
 Een winderige plek verandert het aantal verwarmers. Bereken je ruimte met de calculator van Bromic.

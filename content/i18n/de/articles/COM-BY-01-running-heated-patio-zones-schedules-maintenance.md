@@ -71,7 +71,7 @@ Jede Zone hat ihr eigenes Steuergerät. Für Platinum und Tungsten Electric ist 
 
 Lassen Sie die Wärme mit den Reservierungen des Abends steigen und sinken.
 
-- **Vor dem Öffnen:** Kurz- und mittelwellige Heizstrahler sind in Sekunden warm,[^s2] schalten Sie Zonen also ein, wenn die ersten Tische besetzt werden, statt eine Stunde vorher.
+- **Vor dem Öffnen:** die mittelwelligen Elektro-Heizstrahler von Bromic sind in etwa 30 Sekunden warm,[^s2] schalten Sie Zonen also ein, wenn die ersten Tische besetzt werden, statt eine Stunde vorher.
 - **Im Service:** Betreiben Sie den Hauptbereich nach dem Reservierungsverlauf und schalten Sie Randzonen ein, sobald dort Gäste sitzen.
 - **An milderen Abenden:** Dimmen Sie oder nutzen Sie die Stufen 33/66/100 % des Eclipse, um die Leistung sanfter zu halten.[^s1]
 - **Nach dem letzten Tisch:** Timer schalten jede Zone eine festgelegte Zeit nach ihrem letzten Gast ab.

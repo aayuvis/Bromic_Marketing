@@ -91,7 +91,7 @@ De lokale regels voor open vuur verschillen, dus vraag het na bij je gemeente vo
 
 ## Gelijkmatige warmte voor elke zitplek
 
-Stralingswarmte (infrarood) verwarmt mensen en oppervlakken direct in plaats van de lucht ertussen, en houdt je dus comfortabel als er een briesje opsteekt.[^s1] Kortegolfverwarmers geven al binnen enkele ogenblikken na het aanzetten warmte.[^s1] Boven je hoofd of aan een wand bereiken ze de eettafel, de lounge en de bar net zo goed als de kring rond het vuur, en dat helemaal zonder rook.
+Stralingswarmte (infrarood) verwarmt mensen en oppervlakken direct in plaats van de lucht ertussen, en houdt je dus comfortabel als er een briesje opsteekt.[^s1] De elektrische middengolfverwarmers van Bromic zijn in ongeveer 30 seconden warm,[^s1] met een zacht licht dat rustig naast de gloed van het vuur staat [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]]. Boven je hoofd of aan een wand bereiken ze de eettafel, de lounge en de bar net zo goed als de kring rond het vuur, en dat helemaal zonder rook.
 
 | | Vuurschaal | Stralingsverwarmer |
 |---|---|---|

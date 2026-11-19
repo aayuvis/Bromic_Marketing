@@ -196,7 +196,7 @@ sources:
 
 *Professional edition, for architects, designers and builders.*
 
-The best outdoor spaces hold their guests long after the sun has gone, and the warmth that keeps them there is chosen early. Short wave heaters deliver about 90% of their output as radiant heat and warm instantly; medium wave about 60% with a 30-second warm-up; long wave about 40% with a 5-minute warm-up and the most sensitivity to wind[^s3]. Make that choice in schematic design, together with the fuel, the mounting and the load, in the order your drawing set needs it.
+The best outdoor spaces hold their guests long after the sun has gone, and the warmth that keeps them there is chosen early. Bromic's electric heaters are medium wave, the band that covers the most of a space, lifts the temperature furthest and carries its heat furthest, with no intrusive glow [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]]. Medium wave warms in about 30 seconds; long wave takes about 5 minutes and is the most sensitive to wind[^s3]. Make that choice in schematic design, together with the fuel, the mounting and the load, in the order your drawing set needs it.
 
 Fewer than one in four homeowners prioritize heating at planning[^s1]. When heat arrives late, it tends to arrive as surface conduit, a ceiling that no longer matches and a substitution at bid. Drawn into the set from schematic design, the same heater stays exactly as you specified it, from the line item to the circuit and the recess.
 
@@ -245,14 +245,15 @@ Rules per the 2021 guide[^s3].
 
 In the open air, convected heat rises and disperses. Forced air cannot hold an open space at temperature, and outdoor heat cannot be thermostatically controlled, so every outdoor scheme rests on radiant warmth aimed at people[^s3].
 
-| | Short wave | Medium wave | Long wave |
-|---|---|---|---|
-| Radiant / convective split | about 90 / 10 | about 60 / 40 | about 40 / 60 |
-| Warm-up | Instant | about 30 s | about 5 min |
-| Wind | Lowest sensitivity | Limited | Highest |
-| Use | Exposed sites, higher mounting | Covered areas | Sheltered, low-exposure spaces |
+| | Heat coverage | Temperature rise | Distance heat travels | Visible glow | Warm-up |
+|---|---|---|---|---|---|
+| Short wave | Narrower | Lower | Shorter | Intense glow and glare | Instant[^s3] |
+| **Medium wave: Bromic Platinum, Eclipse and Tungsten Electric** | **Widest** | **Greatest** | **Furthest** | **Soft, no intrusive glow** | **About 30 seconds[^s3]** |
+| Long wave | Narrower | Lower | Shortest; most affected by wind[^s3] | – | About 5 minutes[^s3] |
 
-Source: Bromic Planning Guide 2021[^s3]. Directional heaters send most of their output toward the occupied zone, so the energy reaches the people sitting beneath them[^s3]. [[VERIFY: wavelength classification of each current model, and whether to republish the 2021 element temperatures — Product team]]
+Warm-up and wind: Bromic Planning Guide v1.2[^s3]. Coverage, temperature rise, distance and glow: Bromic test data, to follow. [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]] [[VERIFY: short wave visible glow and glare — Product team]]
+
+Directional heaters send most of their output toward the occupied zone, so the energy reaches the people sitting beneath them[^s3]. [[VERIFY: wavelength classification of each current model, and whether to republish the 2021 element temperatures — Product team]]
 
 | | Electric | Gas |
 |---|---|---|

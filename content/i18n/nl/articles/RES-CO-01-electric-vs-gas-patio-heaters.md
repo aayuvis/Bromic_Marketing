@@ -60,13 +60,15 @@ Elke energiebron komt het best tot zijn recht in zijn eigen omgeving. Ingebouwde
 
 Stel je voor dat je op een frisse winterdag in de zon staat: de lucht is koud, en je gezicht is warm. Dat is stralingswarmte, infraroodenergie die naar je toe reist en alles verwarmt waar ze op valt. Convectiewarmte verwarmt de lucht, die daarna jou verwarmt; dat werkt goed in een gesloten kamer en heeft het moeilijk op een open terras, waar de warme lucht wegdrijft.[^s1]
 
-Buiten wil je zoveel mogelijk stralingswarmte, en de richtlijnen van Bromic delen verwarmers in naar golflengte:[^s1]
+Buiten wil je warmte die elke stoel aan tafel bereikt, met een zacht licht dat de avond ontspannen houdt en zonder verblinding. Daarom werken de elektrische verwarmers van Bromic met middengolf infrarood, dat van de drie golflengtes voorop loopt op verwarmd oppervlak, temperatuurstijging en de reikwijdte van de warmte, zonder storende gloed [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]]:
 
-| Golflengte | Aandeel straling | Opwarmtijd | Wind |
-|---|---|---|---|
-| Kortegolf | ~90% | Direct | Verwarmt mensen en voorwerpen rechtstreeks |
-| Middengolf | ~60% | ~30 seconden | Beperkt gevoelig |
-| Langegolf | ~40% | ~5 minuten | Het makkelijkst verspreid |
+| | Verwarmd oppervlak | Temperatuurstijging | Reikwijdte van de warmte | Zichtbare gloed | Opwarmtijd |
+|---|---|---|---|---|---|
+| Korte golf | Kleiner | Lager | Korter | Felle gloed en verblinding | Direct[^s1] |
+| **Middengolf: Bromic Platinum, Eclipse en Tungsten Electric** | **Het grootst** | **Het hoogst** | **Het verst** | **Zacht, geen storende gloed** | **Ongeveer 30 seconden[^s1]** |
+| Lange golf | Kleiner | Lager | Het kortst; het gevoeligst voor wind[^s1] | – | Ongeveer 5 minuten[^s1] |
+
+Opwarmtijd en wind: Bromic Planning Guide v1.2[^s1]. Verwarmd oppervlak, temperatuurstijging, reikwijdte en gloed: testgegevens van Bromic volgen. [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]] [[VERIFY: zichtbare gloed en verblinding van kortegolf — productteam]]
 
 "Infrarood terrasverwarmer" geldt voor alle drie, dus het loont om te vragen welke golflengte je kiest.
 
@@ -117,7 +119,7 @@ Elke ingebouwde verwarmer werkt met een Affinity Smart-Heat® On/Off- of Dimmer-
 
 ## Wat je meeneemt
 
-- Buiten werkt stralingswarmte, en kortegolf en middengolf verwarmen het snelst en houden het best stand in de wind.[^s1]
+- Buiten werkt stralingswarmte. Middengolf, gebruikt in de elektrische verwarmers van Bromic, bestrijkt meer, verwarmt meer en reikt verder, zonder storende gloed [[VERIFY: testgegevens middengolf voor verwarmd oppervlak — productteam]] [[VERIFY: testgegevens middengolf voor temperatuurstijging — productteam]] [[VERIFY: testgegevens middengolf voor reikwijdte van de warmte — productteam]] [[VERIFY: testgegevens middengolf voor geen storende gloed — productteam]], en is in ongeveer 30 seconden warm.[^s1]
 - Kies elektrisch voor overdekte, ingebouwde of gedeeltelijk omsloten ruimtes, en gas voor open, grotere of verplaatsbare indelingen.
 - Reken voor het zitgedeelte: ingebouwde verwarmers op oppervlak, aangepast aan overkapping en klimaat, en vrijstaande verwarmers met niet meer dan vier zitplaatsen per stuk.
 - Elektrisch werk is voor een vakbekwaam elektrotechnisch installateur, gaswerk voor een vakbekwaam gasinstallateur. Vraag de eisen na bij je gemeente.[^s1]
