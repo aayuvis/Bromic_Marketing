@@ -152,7 +152,7 @@ adds the finds to the Cases tab as `kind: web-find` (filter "Found on the web"; 
 
 ## Navigation and white papers (owner, 19 Nov 2026)
 
-Six tabs: **Home · Library ▾ · White Papers ▾ · Case Studies · Marketing ▾ · Review (count)**. The three ▾ are mega menus built by
+Seven tabs: **Home · Knowledge · Library ▾ · White Papers ▾ · Case Studies · Marketing ▾ · Review (count)**. **Knowledge** (`#/knowledge`, `knowledgePage()`) shows every article and quick answer as photo tiles: six topic tiles (`KH_TOPICS`, matched on the title), audience filter, a featured article, then Articles and Quick Answers grids; a repeated hero gets the next unused Bromic photo so no two tiles share a picture. The three ▾ are mega menus built by
 `megaMenus()` in app.js (Library: publish / share / working files, the last in small type; White Papers: every gated PDF as a card;
 Marketing: Product marketing and Campaigns). **Review** (`#/todo`) opens on two clusters, *Case Studies Awaiting Approval* and
 *Knowledge Articles Awaiting Approval*, each split into ready to read / facts to confirm (/ partial). Behind-the-scenes documents

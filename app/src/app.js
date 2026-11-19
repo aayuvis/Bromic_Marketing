@@ -1152,6 +1152,53 @@
     </section>`;
   }
 
+  // ---------- knowledge hub: every article and quick answer, by topic, with tiles ----------
+  const KH_TOPICS = [
+    { id: 'plan', name: 'Plan And Place', line: 'Height, spacing, clearance and how many heaters a space needs.', img: 'l-010-070', re: /placement|height|clearance|how many|spacing|size|covered patio|recess|flush|soffit|seat/i },
+    { id: 'choose', name: 'Choose And Compare', line: 'Electric or gas, running costs and what each choice is worth.', img: 'l-019-164', re: /electric vs|gas|propane|cost|roi|pay ?back|compare|worth|choos/i },
+    { id: 'install', name: 'Install And Wire', line: 'Rough-in, breakers, circuits and getting it right first time.', img: 'g-rough-in', re: /install|wire|wiring|pre.?wire|rough|breaker|circuit|gfci|mistake|commission/i },
+    { id: 'codes', name: 'Codes And Safety', line: 'Permits, fire codes, all-electric rules and peace of mind.', img: 'l-016-131', re: /code|permit|fire|safe|nyc|allowed|electrific|wind/i },
+    { id: 'spec', name: 'Design And Specify', line: 'Trends, specification and the details architects ask for.', img: 'l-010-075', re: /specif|csi|submittal|design|trend|infrared|radiant|wave|package|upgrade/i },
+    { id: 'live', name: 'Live With It', line: 'Controls, schedules, maintenance and more evenings outside.', img: 't-009-025', re: /app|control|zone|schedule|voice|maintenance|year.?round|season|evening/i },
+  ];
+  const khTopic = (it) => (KH_TOPICS.find((t) => t.re.test(it.title)) || KH_TOPICS[4]).id;
+  let khT = '', khA = '';
+  function knowledgePage(sub) {
+    if (sub && KH_TOPICS.some((t) => t.id === sub)) khT = sub;
+    const all = H.items.filter((i) => ['article', 'kb'].includes(i.type));
+    // one picture per tile: a repeated hero gets the next unused Bromic photo for its audience
+    const used = new Set(), pic = {};
+    const pool = H.images.filter((m) => /^(l|w|t)-/.test(m.id) && !/generated|rejected/.test(m.status || '') && !/cutout|diagram|render/.test(m.kind || '') && m.w >= 900);
+    for (const it of all) {
+      let id = it.hero && !used.has(it.hero) ? it.hero : '';
+      if (!id) { const alt = pool.find((m) => !used.has(m.id) && (m.audiences || []).some((a) => it.audience.includes(a) || a === 'ALL')) || pool.find((m) => !used.has(m.id)); id = alt ? alt.id : it.hero; }
+      used.add(id); pic[it.id] = id;
+    }
+    const list = all.filter((i) => (!khT || khTopic(i) === khT) && (!khA || i.audience.includes(khA)));
+    const audName = (a) => AUD_FRONT[a]?.short || AUD[a]?.name || a;
+    const tile = (it, big) => `<a class="kh-tile${big ? ' big' : ''}" href="#/item/${esc(it.id)}">
+        <span class="kh-pic">${img(pic[it.id], '', !big)}</span>
+        <span class="kh-b"><span class="kh-meta"><span class="kh-type ${it.type}">${it.type === 'kb' ? 'Quick answer' : 'Article'}</span><span>${esc(it.audience.map(audName).join(' · '))}</span></span>
+        <b>${esc((() => { const t = it.type === 'kb' ? it.title : shortTitle(it.title); return t.length > 70 ? t.split('?')[0] + (t.includes('?') ? '?' : '') : t; })())}</b>
+        ${big && (it.summary || it.meta_description) ? `<small>${esc(it.summary || it.meta_description)}</small>` : ''}
+        <span class="kh-st"><span class="dot ${esc(it.status)}"></span>${esc(PLAIN[it.status] || it.status)}</span></span></a>`;
+    const T = KH_TOPICS.find((t) => t.id === khT);
+    const feat = !khT && !khA ? all.filter((i) => i.type === 'article').sort((a, b) => (FLAGSHIP.includes(b.id) - FLAGSHIP.includes(a.id)) || a.id.localeCompare(b.id))[0] : null;
+    const rest = list.filter((i) => i !== feat);
+    const arts = rest.filter((i) => i.type === 'article'), kbs = rest.filter((i) => i.type === 'kb');
+    return `<section class="kh">
+      <header class="kh-hero"><div><span class="label">Knowledge hub</span><h1>${T ? esc(T.name) : 'Everything Worth Knowing About Outdoor Heat'}</h1>
+        <p>${T ? esc(T.line) : `${all.filter((i) => i.type === 'article').length} articles and ${all.filter((i) => i.type === 'kb').length} quick answers, from the first sketch to the last warm evening.`}</p></div></header>
+      <nav class="kh-nav" aria-label="Topics"><a href="#/knowledge" data-kht="" aria-current="${!khT}">All topics <span>${all.length}</span></a>${KH_TOPICS.map((t) => `<a href="#/knowledge/${t.id}" data-kht="${t.id}" aria-current="${khT === t.id}">${esc(t.name)} <span>${all.filter((i) => khTopic(i) === t.id).length}</span></a>`).join('')}</nav>
+      <div class="kh-aud"><span class="label">For</span>${['', 'RES', 'ARC', 'BLD', 'COM'].map((a) => `<button type="button" data-kha="${a}" aria-pressed="${khA === a}">${a ? esc(audName(a)) : 'Everyone'}</button>`).join('')}</div>
+      ${!khT && !khA ? `<div class="kh-topics">${KH_TOPICS.map((t) => `<a class="kh-topic" href="#/knowledge/${t.id}" data-kht="${t.id}"><span class="kh-pic">${img(t.img)}</span><span class="kh-tb"><b>${esc(t.name)}</b><small>${esc(t.line)}</small><span class="kh-n">${all.filter((i) => khTopic(i) === t.id).length} pieces ${ic.arrow}</span></span></a>`).join('')}</div>` : ''}
+      ${feat ? `<div class="kh-feat">${tile(feat, true)}</div>` : ''}
+      ${arts.length ? `<div class="kh-sec"><h2>Articles <span>${arts.length}</span></h2></div><div class="kh-grid">${arts.map((i) => tile(i)).join('')}</div>` : ''}
+      ${kbs.length ? `<div class="kh-sec"><h2>Quick Answers <span>${kbs.length}</span></h2></div><div class="kh-grid kb">${kbs.map((i) => tile(i)).join('')}</div>` : ''}
+      ${!list.length ? '<div class="empty">Nothing here yet for this audience.</div>' : ''}
+    </section>`;
+  }
+
   // ---------- navigation: three mega menus ----------
   const awaiting = (i) => !['approved', 'published', 'template'].includes(i.status) && shelfOf(i) !== 'internal';
   function megaMenus() {
@@ -1159,7 +1206,7 @@
     const n = (sh) => H.items.filter((i) => shelfOf(i) === sh).length;
     const lk = (href, t, d, k) => `<a class="mg-l" href="${href}"><b>${esc(t)}${k != null ? ` <span>${k}</span>` : ''}</b>${d ? `<small>${esc(d)}</small>` : ''}</a>`;
     L.innerHTML = `<div class="mg-col"><span class="label">Publish on bromic.com</span>
-        ${lk(libHref({ shelf: 'web' }), 'Articles And Answers', 'Knowledge articles for every question', n('web'))}
+        ${lk('#/knowledge', 'Knowledge Hub', 'Articles and quick answers, by topic', n('web'))}
         ${lk('#/blog', 'The Bromic Blog', 'Every live post and what replaces it', n('blog'))}
         ${lk('#/tools', 'Design Tools', 'Sizing, running cost and return', n('tools'))}</div>
       <div class="mg-col"><span class="label">Share</span>
@@ -1183,11 +1230,11 @@
     const raw = location.hash.replace(/^#\/?/, ''), h = raw.split(/[?#]/)[0], anc = raw.split('#')[1];
     const [p0, a] = h.split('/');
     const p = p0 === 'home' ? '' : p0;
-    const tab = { '': 'home', item: 'library', tool: 'library', tools: 'library', blog: 'library', images: 'library', downloads: 'papers', journey: 'library', assets: 'library', sources: 'library', site: 'library', review: 'library', pm: 'marketing', campaigns: 'marketing' }[p] ?? p;
+    const tab = { '': 'home', item: (ITEM[decodeURIComponent(a || '')] && ['article', 'kb'].includes(ITEM[decodeURIComponent(a || '')].type)) ? 'knowledge' : 'library', tool: 'library', tools: 'library', blog: 'library', images: 'library', downloads: 'papers', journey: 'library', assets: 'library', sources: 'library', site: 'library', review: 'library', pm: 'marketing', campaigns: 'marketing' }[p] ?? p;
     document.querySelectorAll('.tabs a').forEach((x) => x.toggleAttribute('aria-current', false) || (x.dataset.tab === tab && x.setAttribute('aria-current', 'page')));
     document.querySelectorAll('.tabs .mega').forEach((m) => { m.open = false; m.toggleAttribute('data-on', m.dataset.tab === tab); });
     const html = p === '' ? home() : p === 'library' ? library() : p === 'item' ? item(decodeURIComponent(a || '')) : p === 'journey' ? journey(a) : p === 'assets' ? assets(a)
-      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : p === 'cases' ? casesPage(a) : p === 'blog' ? blogPage() : p === 'downloads' ? downloadsPage() : p === 'todo' ? todo() : p === 'pm' ? pmPage(a) : p === 'campaigns' ? campaignsPage(a) : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
+      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : p === 'cases' ? casesPage(a) : p === 'blog' ? blogPage() : p === 'downloads' ? downloadsPage() : p === 'todo' ? todo() : p === 'pm' ? pmPage(a) : p === 'campaigns' ? campaignsPage(a) : p === 'knowledge' ? knowledgePage(a) : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
     view.innerHTML = html;
     const it = p === 'item' && ITEM[a];
     document.title = it ? `${it.title} · Bromic Content Hub` : 'Bromic Content Hub';
@@ -1220,6 +1267,8 @@
 
   document.addEventListener('click', (e) => {
     const pt = e.target.closest('[data-pmtab]'); if (pt) { pmTab = pt.dataset.pmtab; route.keepScroll = true; route(); return; }
+    const kt = e.target.closest('[data-kht]'); if (kt) { e.preventDefault(); khT = kt.dataset.kht; location.hash = khT ? '#/knowledge/' + khT : '#/knowledge'; route(); return; }
+    const ka = e.target.closest('[data-kha]'); if (ka) { khA = ka.dataset.kha; route.keepScroll = true; route(); return; }
     const ct = e.target.closest('[data-cmtab]'); if (ct) { cmTab = ct.dataset.cmtab; route.keepScroll = true; route(); return; }
     const cw = e.target.closest('[data-cmwarm]'); if (cw) { const k = cw.dataset.cmwarm; cmWarm.has(k) ? cmWarm.delete(k) : cmWarm.add(k); route.keepScroll = true; route(); return; }
     const cto = e.target.closest('[data-cmtone]'); if (cto) { const [k, i] = cto.dataset.cmtone.split('|'); cmTone[k] = +i; route.keepScroll = true; route(); return; }
