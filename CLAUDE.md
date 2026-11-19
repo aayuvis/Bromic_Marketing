@@ -150,6 +150,15 @@ Bromic-published photo of that project where one exists (21 `m-` images from Bro
 showhome from bromic.com), otherwise a comparable Bromic image with `hero_caption` saying so. `scripts/build_case_studies.py`
 adds the finds to the Cases tab as `kind: web-find` (filter "Found on the web"; counted in the whitespace grid).
 
+## Navigation and white papers (owner, 19 Nov 2026)
+
+Six tabs: **Home · Library ▾ · White Papers ▾ · Case Studies · Marketing ▾ · Review (count)**. The three ▾ are mega menus built by
+`megaMenus()` in app.js (Library: publish / share / working files, the last in small type; White Papers: every gated PDF as a card;
+Marketing: Product marketing and Campaigns). **Review** (`#/todo`) opens on two clusters, *Case Studies Awaiting Approval* and
+*Knowledge Articles Awaiting Approval*, each split into ready to read / facts to confirm (/ partial). Behind-the-scenes documents
+collapse to one line. **PDFs** (`scripts/pdf.mjs`): 0.5 in margins, full-bleed photo cover with the white logo, two-column body,
+dark table heads, CTA band with the site, fewer section photos, sources in two small columns; nothing internal is printed.
+
 ## Navigation for a brand manager (owner, 12 Nov 2026: "no way a brand manager can navigate the asset library")
 
 Five tabs: **Start · Assets · To do · Case studies · Images**, everything else under **More** (PDF downloads, calculators, blog plan,

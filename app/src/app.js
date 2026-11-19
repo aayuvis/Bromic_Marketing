@@ -199,7 +199,8 @@
   };
   const STR = (k) => (UI[lang] && UI[lang][k]) || ({ HERO: '', NEED_READ: '', NEED_DL: '', NEED_TOOL: '', NEED_PROVE: '' }[k] ?? k);
   function chromeText() {
-    document.querySelectorAll('.tabs a[data-tab]').forEach((a) => { a.dataset.en ||= a.textContent; a.textContent = STR(a.dataset.en); });
+    document.querySelectorAll('.tabs a[data-tab]').forEach((a) => { const n = a.querySelector('.tab-n'); a.dataset.en ||= a.firstChild.textContent; a.firstChild.textContent = STR(a.dataset.en); if (n) a.append(n); });
+    document.querySelectorAll('.tabs .mega > summary').forEach((a) => { a.dataset.en ||= a.textContent; a.textContent = STR(a.dataset.en); });
     const q = $('#q'); if (q) { q.dataset.en ||= q.placeholder; q.placeholder = STR(q.dataset.en); }
   }
 
@@ -448,6 +449,7 @@
         if (!its.length) return '';
         const order = (i) => ['go', 'approve', 'chase', 'done', 'info'].indexOf(nextStep(i).k);
         const top = [...its].sort((a, b) => (FLAGSHIP.includes(b.id) - FLAGSHIP.includes(a.id)) || order(a) - order(b)).slice(0, sh.id === 'internal' ? 3 : 5);
+        if (sh.id === 'internal') return `<details class="shelf-min" id="shelf-internal"><summary>${esc(sh.name)} <span class="muted">${its.length}</span> · ${esc(sh.use)}</summary><div class="arows">${its.map(row).join('')}</div></details>`;
         return `<section class="shelf" id="shelf-${sh.id}"><div class="shelf-h"><div><h2>${esc(sh.name)} <span class="muted">${its.length}</span></h2><p>${esc(sh.use)}</p></div>
           <div class="shelf-how"><span class="label">What you do with it</span><b>${esc(sh.how)}</b></div></div>
           <div class="arows">${top.map(row).join('')}</div>
@@ -470,9 +472,15 @@
     const everyone = [...new Set([...H.items.map((i) => i.owner_review).filter(Boolean).flatMap((o) => o.split(/ \+ /)), ...H.items.flatMap(people), '454 Creative'])].filter((x) => ROLES.has(x) || /^Bromic /.test(x)).filter((x) => !/VERIFY/.test(x)).sort();
     const steps = [['Draft', live.filter((i) => i.status === 'draft').length], ['Facts answered', live.filter((i) => i.status === 'draft' && nextStep(i).k === 'approve').length], ['Approved', live.filter((i) => i.status === 'approved').length], ['Laid out by 454 Creative', 0], ['Live on bromic.com', live.filter((i) => i.status === 'published').length]];
     const list = (its, empty) => (its.length ? `<div class="arows">${its.map(row).join('')}</div>` : `<div class="empty">${empty}</div>`);
-    return `<div class="ph"><div><span class="label">To do</span><h1>${me ? 'To do: ' + esc(me) : 'Ready For Your Review'}</h1>
+    return `<div class="ph"><div><span class="label">Review</span><h1>${me ? 'Review: ' + esc(me) : 'Ready For Your Review'}</h1>
       <p>Once the open facts are answered and a draft is approved, 454 Creative brings it to life on bromic.com.</p></div>
       <label class="who-pick"><span class="label">Show the to-do for</span><select id="me"><option value="">Every team</option>${everyone.map((p) => `<option ${p === me ? 'selected' : ''}>${esc(p)}</option>`).join('')}</select></label></div>
+      <div class="rv-clusters">${[['cs', 'Case Studies Awaiting Approval', live.filter((i) => i.type === 'case-study' && awaiting(i))], ['kb', 'Knowledge Articles Awaiting Approval', live.filter((i) => ['article', 'kb'].includes(i.type) && awaiting(i))]].map(([k, t, its]) => {
+        const groups = k === 'cs' ? [['Ready to read', its.filter((i) => i.completeness !== 'partial' && !i.verifies.length)], ['Facts to confirm', its.filter((i) => i.completeness !== 'partial' && i.verifies.length)], ['Partial: call the venue', its.filter((i) => i.completeness === 'partial')]]
+          : [['Ready to read', its.filter((i) => !i.verifies.length)], ['Facts to confirm', its.filter((i) => i.verifies.length)]];
+        return `<section class="rv" id="rv-${k}"><div class="rv-h"><h2>${t}</h2><b>${its.length}</b></div>
+          ${groups.filter(([, g]) => g.length).map(([g, gi], n) => `<details class="rv-g" ${n === 0 ? 'open' : ''}><summary>${esc(g)} <span>${gi.length}</span></summary><ul>${gi.map((i) => `<li><a href="#/item/${esc(i.id)}"><span>${esc(shortTitle(i.title))}</span><small>${esc(nextStep(i).t)}</small></a></li>`).join('')}</ul></details>`).join('') || '<p class="muted">Nothing waiting.</p>'}</section>`;
+      }).join('')}</div>
       <ol class="flow">${steps.map(([t, n], k) => `<li><span class="flow-n">${k + 1}</span><b>${esc(t)}</b><span>${n}</span></li>`).join('')}</ol>
       <section class="todo-sec" id="approve"><div class="todo-h"><h2>Read and approve</h2><p>${approve.length} with no open facts. Open one, read it, and press <b>Approve</b> on the page.</p></div>${list(approve.slice(0, 40), 'Nothing waiting for approval.')}</section>
       <section class="todo-sec" id="go"><div class="todo-h"><h2>Approved: send to 454 Creative</h2><p>Approved drafts go to 454 Creative for layout, then WordPress.</p></div>${list(go, 'Nothing approved yet. Approve a draft above and it moves here.')}</section>
@@ -714,7 +722,7 @@
   const pdfBtn = (it, label = 'Download PDF') => `<a class="btn primary" href="${pdfHref(it)}" download="Bromic-${esc(it.id)}${it.tr && it.lang !== 'en' ? '-' + it.lang : ''}.pdf">${ic.down}${label}</a>`;
   function downloadsPage() {
     const L = pdfList();
-    return `<div class="ph"><div><span class="label">Downloads</span><h1>Guides, Reports And Kits To Share</h1><p>${L.length} documents, rebuilt from the latest content at every update. Each opens with a cover and carries its sources and one next step.</p></div></div>
+    return `<div class="ph"><div><span class="label">White papers</span><h1>Reports, Guides And Kits</h1><p>${L.length} documents, each a finished PDF.</p></div></div>
       <div class="dl-grid">${L.map((it) => `<article class="dl-card"><a class="dl-cover" href="#/item/${esc(it.id)}">${img(it.hero)}</a>
         <div class="dl-body"><span class="label">${esc(TYPES[it.type] || it.type)} · ${it.audience.map((a) => esc(AUD[a]?.name || a)).join(', ')}</span>
         <h3><a href="#/item/${esc(it.id)}">${esc(it.title)}</a></h3>${it.meta_description || it.summary ? `<p>${esc(it.meta_description || it.summary)}</p>` : ''}
@@ -1144,14 +1152,40 @@
     </section>`;
   }
 
+  // ---------- navigation: three mega menus ----------
+  const awaiting = (i) => !['approved', 'published', 'template'].includes(i.status) && shelfOf(i) !== 'internal';
+  function megaMenus() {
+    const L = $('#mega-library'), P = $('#mega-papers'), M = $('#mega-marketing'); if (!L) return;
+    const n = (sh) => H.items.filter((i) => shelfOf(i) === sh).length;
+    const lk = (href, t, d, k) => `<a class="mg-l" href="${href}"><b>${esc(t)}${k != null ? ` <span>${k}</span>` : ''}</b>${d ? `<small>${esc(d)}</small>` : ''}</a>`;
+    L.innerHTML = `<div class="mg-col"><span class="label">Publish on bromic.com</span>
+        ${lk(libHref({ shelf: 'web' }), 'Articles And Answers', 'Knowledge articles for every question', n('web'))}
+        ${lk('#/blog', 'The Bromic Blog', 'Every live post and what replaces it', n('blog'))}
+        ${lk('#/tools', 'Design Tools', 'Sizing, running cost and return', n('tools'))}</div>
+      <div class="mg-col"><span class="label">Share</span>
+        ${lk(libHref({ shelf: 'trade' }), 'For Our Trade Partners', 'Builder program, contractor guide, spec kit', n('trade'))}
+        ${lk('#/images', 'Image Library', 'Every Bromic photograph and render', H.images.length)}
+        ${lk('#/library', 'All Assets', 'Everything, by where it goes')}</div>
+      <div class="mg-col mg-minor"><span class="label">Working files</span>
+        <a href="#/journey">Buyer journey map</a><a href="#/assets">Asset backlog</a><a href="#/sources">Sources</a><a href="#/site">bromic.com audit</a><a href="#/review">Review numbers</a><a href="${libHref({ shelf: 'internal' })}">Behind the scenes</a></div>`;
+    const papers = pdfList();
+    P.innerHTML = `<div class="mg-papers">${papers.map((it) => `<a class="mg-p" href="#/item/${esc(it.id)}"><span class="mg-pic">${img(it.hero)}</span><span><span class="label">${esc(TYPES[it.type] || it.type)}</span><b>${esc(shortTitle(it.title))}</b></span></a>`).join('')}</div>
+      <div class="mg-foot"><a href="#/downloads">All ${papers.length} white papers, as PDFs ${ic.arrow}</a></div>`;
+    M.innerHTML = `<div class="mg-col">${lk('#/pm', 'Product Marketing', 'Tungsten Series II: benefits, claims, matrices, assets and the launch playbook')}</div>
+      <div class="mg-col">${lk('#/campaigns', 'Campaigns', 'Get Bromic: films, receipts, concept bank, trade and the audit')}</div>`;
+    const rn = $('#review-n'); if (rn) rn.textContent = H.items.filter(awaiting).length;
+  }
+  document.addEventListener('click', (e) => { if (!e.target.closest('.tabs .mega')) document.querySelectorAll('.tabs .mega[open]').forEach((m) => (m.open = false)); });
+  document.addEventListener('toggle', (e) => { const m = e.target; if (m.classList && m.classList.contains('mega') && m.open) document.querySelectorAll('.tabs .mega[open]').forEach((x) => x !== m && (x.open = false)); }, true);
+
   // ---------- router ----------
   function route() {
     const raw = location.hash.replace(/^#\/?/, ''), h = raw.split(/[?#]/)[0], anc = raw.split('#')[1];
     const [p0, a] = h.split('/');
     const p = p0 === 'home' ? '' : p0;
-    const tab = { '': 'home', item: 'library', tool: 'more', tools: 'more', blog: 'more', downloads: 'more', journey: 'more', assets: 'more', sources: 'more', site: 'more', review: 'more' }[p] ?? p;
+    const tab = { '': 'home', item: 'library', tool: 'library', tools: 'library', blog: 'library', images: 'library', downloads: 'papers', journey: 'library', assets: 'library', sources: 'library', site: 'library', review: 'library', pm: 'marketing', campaigns: 'marketing' }[p] ?? p;
     document.querySelectorAll('.tabs a').forEach((x) => x.toggleAttribute('aria-current', false) || (x.dataset.tab === tab && x.setAttribute('aria-current', 'page')));
-    const mo = document.querySelector('.tabs .more'); if (mo) { mo.open = false; mo.toggleAttribute('data-on', tab === 'more'); }
+    document.querySelectorAll('.tabs .mega').forEach((m) => { m.open = false; m.toggleAttribute('data-on', m.dataset.tab === tab); });
     const html = p === '' ? home() : p === 'library' ? library() : p === 'item' ? item(decodeURIComponent(a || '')) : p === 'journey' ? journey(a) : p === 'assets' ? assets(a)
       : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : p === 'cases' ? casesPage(a) : p === 'blog' ? blogPage() : p === 'downloads' ? downloadsPage() : p === 'todo' ? todo() : p === 'pm' ? pmPage(a) : p === 'campaigns' ? campaignsPage(a) : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
     view.innerHTML = html;
@@ -1259,6 +1293,6 @@
     const r = e.target.closest('[data-region]'); if (r) { setRegion(r.dataset.region); return; }
     const l = e.target.closest('[data-lang]'); if (l) { setRegion(region, l.dataset.lang); return; }
   });
-  regionBar(); chromeText();
+  regionBar(); chromeText(); megaMenus();
   loadLang(lang).then(() => { applyLang(); route(); });
 })();

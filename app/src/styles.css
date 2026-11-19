@@ -772,3 +772,50 @@ thead .pm-u { border: 0; background: none; padding: 0; font: 600 11px/1.3 var(--
 @media (max-width: 600px) { .pf-card { width: 240px; flex-basis: 240px; } }
 .pf-banner { width: 100%; height: auto; display: block; border: 1px solid var(--line); }
 .pf-opts { display: grid; gap: 14px; margin-top: 18px; } .pf-opts img { width: 100%; height: auto; display: block; border: 1px solid var(--line); } .pf-opts small { font: 600 11px var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--steel); }
+
+/* ---------- navigation: simplified tabs with mega menus ---------- */
+.tabs { gap: 30px; position: relative; }
+.tabs .more { display: none; }
+.tabs .mega { position: static; }
+.tabs .mega > summary { list-style: none; cursor: pointer; font: 600 11px/1 var(--sans); letter-spacing: .14em; text-transform: uppercase; color: var(--steel); padding: 12px 0 13px; border-bottom: 2px solid transparent; white-space: nowrap; }
+.tabs .mega > summary::-webkit-details-marker { display: none; }
+.tabs .mega > summary::after { content: ""; display: inline-block; width: 5px; height: 5px; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: rotate(45deg); margin: 0 0 3px 8px; transition: transform .15s; }
+.tabs .mega[open] > summary::after { transform: rotate(225deg); margin-bottom: -1px; }
+.tabs .mega > summary:hover, .tabs .mega[open] > summary { color: var(--ink); }
+.tabs .mega[data-on] > summary { color: var(--ink); border-bottom-color: var(--flame); }
+.mega-p { position: absolute; left: 24px; right: 24px; top: 100%; z-index: 40; background: var(--card); border: 1px solid var(--line); border-top: 2px solid var(--flame); box-shadow: 0 24px 48px rgba(20,18,19,.14); padding: 26px 28px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; }
+#mega-papers { display: block; } #mega-marketing { grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 720px; }
+.mg-col { display: grid; gap: 4px; align-content: start; } .mg-col > .label { margin-bottom: 6px; color: var(--flame-ink); }
+.mg-l { display: block; padding: 9px 10px; margin: 0 -10px; text-decoration: none; color: var(--ink); text-transform: none; letter-spacing: 0; border: 0; }
+.mg-l:hover { background: var(--paper-2); }
+.mg-l b { display: block; font: 400 19px/1.25 var(--serif); } .mg-l b span { font: 500 12px var(--sans); color: var(--steel); margin-left: 4px; }
+.mg-l small { display: block; font: 300 13px/1.4 var(--sans); color: var(--ink-2); margin-top: 2px; }
+.mg-minor a { font: 400 13px/1.3 var(--sans); color: var(--ink-2); text-decoration: none; text-transform: none; letter-spacing: 0; padding: 5px 0; border: 0; }
+.mg-minor a:hover { color: var(--flame-ink); }
+.mg-papers { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 16px; }
+.mg-p { display: grid; gap: 8px; text-decoration: none; color: var(--ink); text-transform: none; letter-spacing: 0; padding: 0; border: 0; }
+.mg-p .mg-pic img, .mg-p .mg-pic div { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block; background: var(--paper-2); }
+.mg-p b { display: block; font: 400 15px/1.3 var(--serif); margin-top: 3px; } .mg-p .label { font-size: 9.5px; }
+.mg-p:hover b { color: var(--flame-ink); }
+.mg-foot { margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--line); } .mg-foot a { font: 600 11px var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--ink); text-decoration: none; border: 0; padding: 0; }
+.tab-n { display: inline-block; margin-left: 7px; background: var(--flame); color: #fff; font: 600 10px/1 var(--sans); letter-spacing: 0; padding: 3px 6px; border-radius: 10px; vertical-align: 1px; }
+/* review: two approval clusters */
+.rv-clusters { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 6px 0 26px; }
+.rv { border: 1px solid var(--line); background: var(--card); padding: 18px 20px; }
+.rv-h { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid var(--line); padding-bottom: 10px; margin-bottom: 8px; }
+.rv-h h2 { font-size: 23px; } .rv-h b { font: 400 34px var(--serif); color: var(--flame-ink); }
+.rv-g { border-bottom: 1px solid var(--line); } .rv-g:last-child { border-bottom: 0; }
+.rv-g summary { cursor: pointer; padding: 10px 0; font: 600 11px var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--ink-2); }
+.rv-g summary span { color: var(--steel); margin-left: 6px; }
+.rv-g ul { list-style: none; margin: 0 0 10px; padding: 0; max-height: 340px; overflow: auto; }
+.rv-g li a { display: flex; justify-content: space-between; gap: 12px; padding: 7px 0; border-top: 1px dotted var(--line-2); text-decoration: none; color: var(--ink); font-size: 14px; }
+.rv-g li a:hover span { color: var(--flame-ink); } .rv-g li small { color: var(--steel); white-space: nowrap; font-size: 12px; }
+.shelf-min { margin: 10px 0 20px; border-top: 1px solid var(--line); padding-top: 10px; font-size: 13px; color: var(--steel); }
+.shelf-min summary { cursor: pointer; }
+@media (max-width: 900px) { .mega-p, #mega-marketing { grid-template-columns: 1fr; left: 8px; right: 8px; max-width: none; } .mg-papers { grid-template-columns: repeat(2, minmax(0, 1fr)); } .rv-clusters { grid-template-columns: 1fr; } .tabs { gap: 18px; } }
+.tabs .mega-p a { text-transform: none; letter-spacing: 0; white-space: normal; border-bottom: 0; padding-bottom: 0; font-family: var(--sans); }
+.tabs .mega-p .mg-l { padding: 9px 10px; }
+.tabs .mega-p .mg-minor a { padding: 5px 0; }
+.mg-p .mg-pic { display: block; overflow: hidden; background: var(--paper-2); }
+.mg-p .mg-pic img { width: 100%; height: 118px; object-fit: cover; display: block; }
+.mg-papers { grid-template-columns: repeat(5, minmax(0, 1fr)); row-gap: 20px; }

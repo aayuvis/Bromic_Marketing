@@ -25,7 +25,7 @@ const AUD = HUB.matrix.audiences; const ASSET = Object.fromEntries(HUB.assets.ma
 export const pdfItems = (items) => items.filter((it) => it.gated === true && DOC_TYPES.includes(it.type));
 
 const css = `
-@page { size: Letter; margin: 0.8in 0.75in 0.85in; }
+@page { size: Letter; margin: 0.55in 0.5in 0.6in; }
 @page :first { margin: 0; }
 * { box-sizing: border-box; }
 html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
@@ -34,65 +34,70 @@ html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 @font-face { font-family: "Helvetica Neue"; src: local("Helvetica Neue Medium"), local("HelveticaNeue-Medium"), url("fonts/arimo-latin.woff2") format("woff2"); font-weight: 500; font-display: swap; }
 @font-face { font-family: "Helvetica Neue"; src: local("Helvetica Neue Bold"), local("HelveticaNeue-Bold"), url("fonts/arimo-latin.woff2") format("woff2"); font-weight: 700; font-display: swap; }
 @font-face { font-family: "Bromic Didot"; src: local("Didot"), url("fonts/gfs-didot-latin.woff2") format("woff2"); }
-body { margin: 0; font: 300 10.5pt/1.55 "Helvetica Neue", Helvetica, Arial, sans-serif; color: #231F20; }
+body { margin: 0; font: 300 9.6pt/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; color: #231F20; }
 h1, h2 { text-transform: capitalize; }
-h1, h2, h3, h4 { font-family: Didot, "Bromic Didot", "Bodoni 72", serif; font-weight: 400; line-height: 1.2; color: #231F20; break-after: avoid; }
-h2 { font-size: 17pt; margin: 22pt 0 6pt; padding-top: 8pt; border-top: 0.75pt solid #E3E3E1; }
-h3 { font-size: 12.5pt; margin: 14pt 0 4pt; }
-p, ul, ol { margin: 0 0 8pt; orphans: 3; widows: 3; }
-li { margin: 2pt 0; }
+h1, h2, h3, h4 { font-family: Didot, "Bromic Didot", "Bodoni 72", serif; font-weight: 400; line-height: 1.15; color: #231F20; break-after: avoid; }
+h2 { font-size: 19pt; margin: 0 0 8pt; padding-top: 10pt; position: relative; }
+h2::before { content: ""; position: absolute; top: 0; left: 0; width: 0.4in; height: 1.6pt; background: #EF4123; }
+h3 { font-size: 11.5pt; margin: 10pt 0 3pt; break-after: avoid; }
+p, ul, ol { margin: 0 0 6pt; orphans: 3; widows: 3; }
+ul, ol { padding-left: 13pt; }
+li { margin: 1.5pt 0; }
 a { color: #231F20; text-decoration-color: #EF4123; }
 strong { font-weight: 600; }
-blockquote { margin: 12pt 0; padding: 2pt 0 2pt 12pt; border-left: 2pt solid #EF4123; font: 300 12pt/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; color: #4A4546; }
-figure { margin: 12pt 0; break-inside: avoid; }
-figure img { width: 100%; max-height: 3.6in; object-fit: cover; display: block; }
-figcaption { font-size: 8pt; color: #71777D; margin-top: 3pt; }
-table { border-collapse: collapse; width: 100%; font-size: 8.8pt; line-height: 1.4; margin: 8pt 0 12pt; break-inside: auto; }
+blockquote { margin: 8pt 0; padding: 8pt 12pt; border-left: 2pt solid #EF4123; background: #F7F5F2; font: 400 11.5pt/1.4 Didot, "Bromic Didot", "Bodoni 72", serif; color: #231F20; break-inside: avoid; }
+figure { margin: 8pt 0; break-inside: avoid; }
+figure img { width: 100%; max-height: 2.6in; object-fit: cover; display: block; }
+figcaption { font-size: 7pt; color: #71777D; margin-top: 2pt; }
+table { border-collapse: collapse; width: 100%; font-size: 8pt; line-height: 1.35; margin: 4pt 0 10pt; break-inside: avoid; }
 tr { break-inside: avoid; }
-th { text-align: left; font: 600 7.5pt/1.3 "Helvetica Neue", Helvetica, Arial, sans-serif; letter-spacing: .1em; text-transform: uppercase; color: #575C61; background: #F5F5F4; }
-th, td { padding: 5pt 6pt; border-bottom: 0.5pt solid #E3E3E1; vertical-align: top; text-align: left; }
-code { font-size: 9pt; background: #F5F5F4; padding: 0 3pt; }
-hr { border: 0; height: 0.75pt; background: #E3E3E1; margin: 16pt 0; }
-sup.cite a { color: #C7321A; text-decoration: none; font-weight: 600; font-size: 7pt; }
-mark.verify { background: #F6ECD9; color: #8A5A12; font-size: .85em; font-weight: 600; padding: 0 3pt; }
-.diagram { border: 0.75pt dashed #CBC5BB; padding: 8pt 10pt; margin: 10pt 0; font-size: 9pt; color: #71777D; }
+th { text-align: left; font: 600 6.8pt/1.3 "Helvetica Neue", Helvetica, Arial, sans-serif; letter-spacing: .1em; text-transform: uppercase; color: #FFFFFF; background: #231F20; }
+th, td { padding: 4pt 6pt; border-bottom: 0.5pt solid #E3E3E1; vertical-align: top; text-align: left; }
+tbody tr:nth-child(even) td { background: #F7F5F2; }
+code { font-size: 8.5pt; background: #F5F5F4; padding: 0 3pt; }
+hr { display: none; }
+sup.cite a { color: #C7321A; text-decoration: none; font-weight: 600; font-size: 6.5pt; }
+mark.verify { display: none; }
+.diagram { display: none; }
+/* sections: prose flows in two columns; headings, pictures and tables run full width */
+section.n, section.lead { columns: 2; column-gap: 0.32in; margin: 0 0 14pt; }
+section.n > h2, section.n > figure, section.lead > figure, section.n > table, section.n > .tw, section.n > blockquote, section.n .cta { column-span: all; }
+section.n > p:first-of-type, section.lead > p:first-of-type { font-size: 11pt; line-height: 1.45; color: #231F20; }
+section.lead > p:first-of-type { font: 400 13.5pt/1.4 Didot, "Bromic Didot", "Bodoni 72", serif; column-span: all; margin-bottom: 10pt; }
+figure.sec { margin: 0 0 10pt; }
+figure.sec img { width: 100%; height: 2.15in; max-height: none; object-fit: cover; }
+/* cover: full-bleed photograph, title on a white panel */
 .cover { height: 11in; position: relative; display: flex; flex-direction: column; background: #FFFFFF; page-break-after: always; }
-.cover .top { padding: 0.75in 0.75in 0; display: flex; justify-content: space-between; align-items: flex-start; }
-.wordmark { font: 500 19pt/1 "Helvetica Neue", Helvetica, Arial, sans-serif; letter-spacing: .26em; display: inline-flex; flex-direction: column; align-items: center; }
-.wordmark small { font: 600 6pt/1 "Helvetica Neue", Arial, sans-serif; letter-spacing: .45em; margin-top: 4pt; color: #71777D; }
-.cover .label { font: 600 7.5pt/1.4 "Helvetica Neue", Arial, sans-serif; letter-spacing: .16em; text-transform: uppercase; color: #575C61; }
-.cover .draft { border: 0.75pt solid #EF4123; color: #231F20; padding: 4pt 8pt; font: 600 7.5pt/1 "Helvetica Neue", Arial, sans-serif; letter-spacing: .14em; text-transform: uppercase; }
-.cover .titles { padding: 0.55in 0.75in 0.35in; }
-.cover .rule { width: 0.55in; height: 2pt; background: #EF4123; margin-bottom: 14pt; }
-.cover h1 { font-size: 30pt; line-height: 1.12; margin: 8pt 0 12pt; max-width: 6.4in; text-wrap: balance; }
-.cover .dek { font: 300 13pt/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; color: #4A4546; max-width: 6in; margin: 0; }
-.cover .hero { flex: 1; min-height: 0; margin: 0 0.75in; overflow: hidden; background: #F5F5F4; }
+.cover .hero { height: 6.9in; position: relative; overflow: hidden; background: #231F20; }
 .cover .hero img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.cover .meta { padding: 16pt 0.75in 0.6in; display: flex; gap: 28pt; font-size: 8.5pt; color: #575C61; }
-.cover .meta b { display: block; font: 600 7pt/1.4 "Helvetica Neue", Arial, sans-serif; letter-spacing: .14em; text-transform: uppercase; color: #71777D; }
-.sources { font-size: 8.5pt; line-height: 1.45; padding-left: 14pt; }
-.sources li { margin: 0 0 5pt; break-inside: avoid; }
-.sources .sup { color: #575C61; }
-.cta { margin-top: 20pt; background: #231F20; color: #FFFFFF; padding: 14pt 16pt; break-inside: avoid; }
-.cta .label { font: 600 7pt/1.4 "Helvetica Neue", Arial, sans-serif; letter-spacing: .16em; text-transform: uppercase; color: #CBC5BB; }
-.cta p { font: 400 15pt/1.3 Didot, "Bromic Didot", "Bodoni 72", serif; margin: 4pt 0 0; color: #FFFFFF; }
-.notice { margin-top: 14pt; font-size: 8pt; color: #71777D; }
-figure.sec { margin: 0 0 14pt; }
-figure.sec img { width: 100%; height: 3.4in; max-height: none; object-fit: cover; }
-.band { height: 1.3in; overflow: hidden; margin: 0 0 14pt; }
-.band img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.colophon { margin-top: 18pt; padding-top: 8pt; border-top: 0.75pt solid #E3E3E1; font-size: 7.5pt; color: #71777D; }
-/* trends reports: one trend per page, as the layout notes ask */
+.cover .hero::after { content: ""; position: absolute; inset: 0 0 auto 0; height: 1.6in; background: linear-gradient(rgba(20,18,19,.55), rgba(20,18,19,0)); }
+.cover .hero img.logo { position: absolute; top: 0.45in; left: 0.5in; z-index: 2; width: auto; height: 0.46in; object-fit: contain; }
+.cover .titles { padding: 0.38in 0.5in 0; flex: 1; }
+.cover .label { font: 600 7.5pt/1.4 "Helvetica Neue", Arial, sans-serif; letter-spacing: .18em; text-transform: uppercase; color: #EF4123; }
+.cover h1 { font-size: 31pt; line-height: 1.08; margin: 6pt 0 10pt; max-width: 7in; text-wrap: balance; }
+.cover .dek { font: 300 11.5pt/1.45 "Helvetica Neue", Helvetica, Arial, sans-serif; color: #4A4546; max-width: 6.6in; margin: 0; }
+.cover .meta { padding: 0 0.5in 0.45in; display: flex; gap: 28pt; font-size: 8pt; color: #575C61; border-top: 0; }
+.cover .meta b { display: block; font: 600 6.5pt/1.4 "Helvetica Neue", Arial, sans-serif; letter-spacing: .16em; text-transform: uppercase; color: #71777D; }
+.sources { font-size: 6.8pt; line-height: 1.35; padding-left: 12pt; columns: 2; column-gap: 0.3in; color: #4A4546; }
+.sources li { margin: 0 0 3pt; break-inside: avoid; }
+.sources a { word-break: break-all; color: #71777D; }
+.cta { margin: 10pt 0; background: #231F20; color: #FFFFFF; padding: 14pt 16pt; break-inside: avoid; display: flex; justify-content: space-between; align-items: center; gap: 16pt; }
+.cta .label { font: 600 6.5pt/1.4 "Helvetica Neue", Arial, sans-serif; letter-spacing: .16em; text-transform: uppercase; color: #EF4123; }
+.cta p { font: 400 16pt/1.25 Didot, "Bromic Didot", "Bodoni 72", serif; margin: 3pt 0 0; color: #FFFFFF; }
+.cta .go { font: 600 7.5pt/1 "Helvetica Neue", Arial, sans-serif; letter-spacing: .14em; text-transform: uppercase; border: 0.75pt solid #EF4123; padding: 7pt 10pt; white-space: nowrap; }
+section.s.end { break-before: auto; }
+section.end h2 { font-size: 13pt; }
+.colophon { margin-top: 8pt; padding-top: 6pt; border-top: 0.5pt solid #E3E3E1; font-size: 6.8pt; color: #71777D; }
+/* trends reports: one trend a page, the picture large, the number in flame */
 .trends section.s { break-before: page; }
-.trends section.s:first-child { break-before: auto; }
-.trends section.s h2 { border-top: 0; padding-top: 0; font-size: 22pt; margin-top: 0; }
-.trends section.s figure.sec img { height: 4.3in; }
-.trends section.s p strong:first-child { font-family: Didot, "Bromic Didot", "Bodoni 72", serif; }
-.trends section.lead { break-before: auto; }
-.trends main { font-size: 12pt; line-height: 1.55; }
-.trends section.s > p:first-of-type > strong:first-child { display: block; font: 400 40pt/1 Didot, "Bromic Didot", "Bodoni 72", serif; color: #EF4123; margin: 4pt 0 6pt; }
-.trends section.s ul { font-size: 12.5pt; }
-.trends section.s p { max-width: 6.2in; }
+.trends section.s:first-child, .trends section.s.end { break-before: auto; }
+.trends section.s h2 { font-size: 24pt; margin-top: 0; }
+.trends section.s figure.sec img { height: 5.6in; }
+.trends main { font-size: 11.5pt; line-height: 1.5; }
+.trends section.s > p:first-of-type { font-size: 12.5pt; }
+.trends section.s > p:first-of-type > strong:first-child { display: block; font: 400 54pt/1 Didot, "Bromic Didot", "Bodoni 72", serif; color: #EF4123; margin: 2pt 0 4pt; }
+.trends section.s:not(.end) { columns: 2; column-gap: 0.32in; }
+.trends section.s > h2, .trends section.s > figure, .trends section.s > p:first-of-type { column-span: all; }
 `;
 
 // Internal sections never go to readers.
@@ -119,7 +124,7 @@ function imagePool(it) {
   return { own: [...new Set(own)], rest: [...new Set(rest.map((i) => i.id))].filter((id) => !own.includes(id)), ownOnly };
 }
 function finalBody(it) {
-  let html = it.html.replace(/<mark class="verify"[^>]*>[\s\S]*?<\/mark>/g, '').replace(/:\s*\[\[VERIFY[^\]]*\]\]\s*\.?/g, ': see the current Bromic specification sheet.').replace(/\(\s*\[\[VERIFY[^\]]*\]\]\s*\)/g, '').replace(/\s*\[\[VERIFY[^\]]*\]\]/g, '').replace(/<p>\s*<\/p>/g, '');
+  let html = it.html.replace(/<p>\s*\[(DIAGRAM|DIAGRAMM|DIAGRAMME|INFOGRAPHIC|IMAGE|PHOTO)[^\]]*\]\s*<\/p>/gi, '').replace(/\[(DIAGRAM|DIAGRAMM|INFOGRAPHIC)[^\]]*\]/gi, '').replace(/<mark class="verify"[^>]*>[\s\S]*?<\/mark>/g, '').replace(/:\s*\[\[VERIFY[^\]]*\]\]\s*\.?/g, ': see the current Bromic specification sheet.').replace(/\(\s*\[\[VERIFY[^\]]*\]\]\s*\)/g, '').replace(/\s*\[\[VERIFY[^\]]*\]\]/g, '').replace(/<p>\s*<\/p>/g, '');
   const plain = (h) => h.replace(/<[^>]+>/g, '').replace(/&#39;|&rsquo;|&#x27;/g, "'").replace(/&amp;/g, '&').trim();
   // cut every internal section (from its h2 to the next h2)
   const parts = html.split(/(?=<h2[\s>])/);
@@ -137,11 +142,11 @@ function finalBody(it) {
     const isSec = /^<h2/.test(p);
     const hasImg = /<img\s/.test(p);
     const numbered = /^<h2[^>]*>\s*\d{2}\s/.test(p);
-    const im = hasImg || (!isSec && plain(p).length <= 160) ? null : take(numbered);
+    const im = hasImg || (!isSec && plain(p).length <= 160) || (!numbered && isSec && i % 2 === 0) ? null : take(numbered);
     const trend = numbered || /plan from the start|sources/i.test((p.match(/<h2[^>]*>([\s\S]*?)<\/h2>/) || [])[1] || '');
     if (!isSec) return `<section class="lead">${plain(p).length > 160 && im ? fig(im) : ''}${p}</section>`;
     const body = im ? p.replace(/(<\/h2>)/, `$1${fig(im)}`) : p;
-    return `<section class="${trend ? 's' : 'n'}">${body}</section>`;
+    return `<section class="${numbered ? 's' : 'n'}">${body}</section>`;
   }).join('').replace(/<hr>\s*(?=<\/section>)/g, '');
   return { html: out, band: take(false) };
 }
@@ -151,15 +156,14 @@ function docHTML(it, built, L = LBL.en, lang = 'en') {
   const aud = it.audience.map((a) => (L.aud && L.aud[a]) || AUD[a]?.name || a).join(' · ');
   const dek = it.dek || it.meta_description || it.summary;
   const { html, band } = finalBody(it);
-  const cta = it.cta && it.cta.label ? `<div class="cta"><span class="label">${esc(L.next)}</span><p>${esc(it.cta.label)}</p></div>` : '';
-  const srcs = it.sources.length ? `<section class="s">${band ? `<div class="band"><img src="${esc(band.file)}" alt=""></div>` : ''}<h2>${esc(L.sources)}</h2><ol class="sources">${it.sources.map((s) => `<li id="src-${esc(it.id)}-${esc(s.id)}"><b>${esc(s.publisher || '')}</b>${s.title ? `, ${esc(s.title)}` : ''}${s.year ? ` (${esc(s.year)})` : ''}${/^https?:/.test(s.url || '') ? `. <a href="${esc(s.url)}">${esc(s.url)}</a>` : ''}</li>`).join('')}</ol>
+  const cta = it.cta && it.cta.label ? `<div class="cta"><div><span class="label">${esc(L.next)}</span><p>${esc(it.cta.label)}</p></div><span class="go">${esc(L.site)}</span></div>` : '';
+  const srcs = it.sources.length ? `<section class="s end"><h2>${esc(L.sources)}</h2><ol class="sources">${it.sources.map((s) => `<li id="src-${esc(it.id)}-${esc(s.id)}"><b>${esc(s.publisher || '')}</b>${s.title ? `, ${esc(s.title)}` : ''}${s.year ? ` (${esc(s.year)})` : ''}${/^https?:/.test(s.url || '') ? `. <a href="${esc(s.url)}">${esc(s.url)}</a>` : ''}</li>`).join('')}</ol>
     <p class="colophon">${esc(L.colophon)} © ${new Date(HUB.built).getFullYear()} Bromic Heating · ${L.site}</p></section>` : '';
   const month = new Date((it.updated || HUB.built.slice(0, 10)) + 'T12:00:00Z').toLocaleString(L.locale, { month: 'long', year: 'numeric', timeZone: 'UTC' });
   return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><title>${esc(it.title)} | Bromic Heating</title><base href="file://${DIST}/"><style>${css}</style></head><body class="${/^A01/.test(it.id) ? 'trends' : ''}">
   <section class="cover">
-    <div class="top"><span class="wordmark">BROMIC<small>HEATING</small></span></div>
-    <div class="titles"><div class="rule"></div><span class="label">${esc(aud)}</span><h1>${esc(it.title)}</h1>${dek ? `<p class="dek">${esc(dek)}</p>` : ''}</div>
-    <div class="hero">${hero ? `<img src="${esc(hero.file)}" alt="${esc(hero.alt)}">` : ''}</div>
+    <div class="hero">${hero ? `<img src="${esc(hero.file)}" alt="${esc(hero.alt)}">` : ''}<img class="logo" src="pdf/_img/bromic-logo-white.png" alt="Bromic Heating"></div>
+    <div class="titles"><span class="label">${esc(aud)}</span><h1>${esc(it.title)}</h1>${dek ? `<p class="dek">${esc(dek)}</p>` : ''}</div>
     <div class="meta"><span><b>${esc(L.edition)}</b>${esc(month)}</span><span><b>Bromic Heating</b>${L.site}${L.draft ? ' · ' + esc(L.draft) : ''}</span></div>
   </section>
   <main>${html}${cta}${srcs}</main>
@@ -179,7 +183,8 @@ function printCopies(htmlDoc) {
   }
   return htmlDoc.replace(/src="images\/library\/([\w.-]+?)(-t)?\.webp"/g, (m, id) => `src="pdf/_img/${id}.jpg"`);
 }
-fs.mkdirSync(OUT, { recursive: true });
+fs.mkdirSync(OUT, { recursive: true }); fs.mkdirSync(IMGDIR, { recursive: true });
+fs.copyFileSync(path.join(APP, '..', 'images', 'portfolio', 'bromic-logo-white.png'), path.join(IMGDIR, 'bromic-logo-white.png'));
 const browser = await chromium.launch();
 const built = `${new Date(HUB.built).toISOString().slice(0, 10)}${HUB.commit ? ' · ' + HUB.commit : ''}`;
 async function print(it, L, lang, file) {
@@ -190,9 +195,9 @@ async function print(it, L, lang, file) {
   await page.pdf({
     path: file, format: L.format, printBackground: true, displayHeaderFooter: true,
     headerTemplate: '<span></span>',
-    footerTemplate: `<div style="width:100%;font:7pt Helvetica,Arial,sans-serif;color:#71777D;padding:0 0.75in;display:flex;justify-content:space-between">
-      <span>Bromic Heating · ${esc(it.title).slice(0, 80)}${L.draft ? ' · ' + esc(L.draft) : ''}</span><span><span class="pageNumber"></span> / <span class="totalPages"></span></span></div>`,
-    margin: { top: '0.8in', bottom: '0.85in', left: '0.75in', right: '0.75in' },
+    footerTemplate: `<div style="width:100%;font:7pt Helvetica,Arial,sans-serif;color:#71777D;padding:0 0.5in;display:flex;justify-content:space-between">
+      <span><b style="color:#EF4123">BROMIC</b> &nbsp;${esc(it.title).slice(0, 80)}${L.draft ? ' · ' + esc(L.draft) : ''}</span><span><span class="pageNumber"></span> / <span class="totalPages"></span></span></div>`,
+    margin: { top: '0.55in', bottom: '0.6in', left: '0.5in', right: '0.5in' },
   });
   fs.unlinkSync(tmp); await page.close();
   console.log(`${path.relative(DIST, file)}  ${(fs.statSync(file).size / 1e6).toFixed(1)} MB  ${it.title.slice(0, 60)}`);
