@@ -468,6 +468,19 @@
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
    "status": "pending",
    "note": ""
+  },
+  {
+   "id": "ts2-ai-40",
+   "title": "Sonoma winery tasting terrace",
+   "kind": "AI scene + CAD heater",
+   "finish": "black",
+   "w": 5056,
+   "h": 3392,
+   "file": "images/review/full/ts2-ai-40.jpg",
+   "thumb": "images/review/thumb/ts2-ai-40.webp",
+   "source": "Background generated with an image model; heater rendered from the Series II CAD",
+   "status": "pending",
+   "note": ""
   }
  ]
 }
