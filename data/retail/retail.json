@@ -1,0 +1,976 @@
+{
+ "_readme": "Retail Hub one-pagers (20 Nov 2026): one printed page each for showrooms, outdoor-living stores and BBQ and patio dealers. Facts only from data/product-facts.json and data/product-marketing/*.json; open facts are [[VERIFY: what — team]] with a team from data/team-roles.json. Every heater line carries its controls; competitor lines come only from the frameworks' m3 and battlecards and need Specification and compliance sign-off. Sizing follows templates/calculation-model.md. No prices on these pages: price lists come from Sales operations.",
+ "updated": "2026-11-20",
+ "status": "draft",
+ "pages": [
+  {
+   "id": "why-bromic",
+   "title": "Why Stock Bromic",
+   "kicker": "BROMIC HEATING",
+   "summary": "The range, the design and the controls a retail buyer is taking on, at a glance.",
+   "hero_product": null,
+   "sections": [
+    {
+     "h": "One Family For Every Outdoor Room",
+     "body": [
+      "Bromic covers every space your customers bring to the counter: electric heaters for ceilings, walls, posts and recesses, the Eclipse pendant with heat and light, Eclipse Smart-Heat® Freestanding, built-in gas, and the wheeled Tungsten Smart-Heat® Freestanding Gas tower on natural gas or propane."
+     ]
+    },
+    {
+     "h": "Designed To Be Seen",
+     "bullets": [
+      "Tungsten Series II in all black, all white or all graphite, with a Diamond, oval or triangle front.",
+      "Platinum Smart-Heat® Electric behind a tinted glass-ceramic face, just 2.1 in deep.",
+      "Eclipse, a matte black disc with a dimmable 3000K LED ring.",
+      "Platinum Gas in black or stainless, behind a ceramic-glass screen."
+     ]
+    },
+    {
+     "h": "Controls That Sell The Second Item",
+     "body": [
+      "Every Bromic heater is paired with Affinity Smart-Heat® Controls: dimming in 1% steps on Platinum and Tungsten Electric, zones, schedules and timers in the Bromic app, with Alexa, Google Assistant, Control4, Crestron and Lutron where compatible. Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately."
+     ]
+    },
+    {
+     "h": "Support Behind Every Sale",
+     "bullets": [
+      "A complimentary design service: heater selection, placement and coverage drawings from photos, plans or drawings (bromic.com/design-your-space/, 1-800-301-1293, Mon–Fri 9–4 PT).",
+      "Intertek ETL / cETL listed electric ranges.",
+      "Up to 3 years of warranty cover on Platinum Electric, Eclipse and Tungsten Series II. [[VERIFY: Series II warranty terms and publication on bromic.com — Product team]]",
+      "Retailer program terms: [[VERIFY: what a stocking retailer receives (pricing, design plans, extended warranty, point of contact) — Trade sales]]"
+     ]
+    }
+   ],
+   "cta": "MEET YOUR BROMIC REP",
+   "sources": [
+    "data/product-facts.json: tungsten-electric",
+    "data/product-facts.json: platinum-electric",
+    "data/product-facts.json: eclipse-electric",
+    "data/product-facts.json: eclipse-freestanding",
+    "data/product-facts.json: platinum-gas",
+    "data/product-facts.json: tungsten-freestanding-gas",
+    "data/product-facts.json: affinity-controls",
+    "data/product-facts.json: principles.design-service",
+    "data/product-marketing/tungsten-electric-series-ii.json: pillars.p6, pillars.p7, warranty_note",
+    "data/product-marketing/platinum-electric.json: pillars",
+    "data/product-marketing/eclipse.json: upgrades",
+    "data/product-marketing/platinum-gas.json: tiers"
+   ],
+   "needs_approval": [
+    "Product team",
+    "Trade sales"
+   ],
+   "audience": "retail"
+  },
+  {
+   "id": "range-selector",
+   "title": "Which Heater For Which Space",
+   "kicker": "THE RANGE",
+   "summary": "Match the customer's space to a heater and its controls in one look.",
+   "hero_product": null,
+   "sections": [
+    {
+     "h": "By Space",
+     "table": {
+      "head": [
+       "Your customer's space",
+       "Electric",
+       "Gas",
+       "Controls to quote"
+      ],
+      "rows": [
+       [
+        "Covered patio, wall or ceiling",
+        "Tungsten Select (Series II); Tungsten Classic from January 2027",
+        "Tungsten Gas, mounted",
+        "Affinity Dimmer (electric); Affinity On/Off (gas); manual wall switch"
+       ],
+       [
+        "Shallow ceiling, flush look",
+        "Tungsten Select or Coastal, low-clearance kit (7.5 in cavity); Platinum Electric, low-clearance kit (7.1 in)",
+        "Gas is not recessed",
+        "Affinity Dimmer"
+       ],
+       [
+        "Pitched porch or gable",
+        "Tungsten Series II with the Pitched-Ceiling Adaptor (3/12 to 12/12)",
+        "Tungsten Gas on a ceiling pole",
+        "Affinity Dimmer or On/Off"
+       ],
+       [
+        "Coastal home or venue",
+        "Tungsten Coastal; Platinum Electric Marine",
+        "[[VERIFY: coastal gas option — Product team]]",
+        "Affinity Dimmer"
+       ],
+       [
+        "Heater on show, design-led room",
+        "Platinum Electric (glass-ceramic face)",
+        "Platinum Gas (black or stainless)",
+        "Affinity Dimmer (electric); Affinity On/Off (gas)"
+       ],
+       [
+        "Over a dining table, heat and light",
+        "Eclipse Smart-Heat® Electric pendant",
+        "–",
+        "Affinity Eclipse Controller or Eclipse Dimmer Controller"
+       ],
+       [
+        "Open seating, no wall or roof",
+        "Eclipse Smart-Heat® Freestanding",
+        "Tungsten Smart-Heat® Freestanding (natural gas or propane)",
+        "Eclipse Dimmer Controller and remote (included); gas tower at its own knob"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Good, Better, Best",
+     "table": {
+      "head": [
+       "Tier",
+       "Heater",
+       "Wins on"
+      ],
+      "rows": [
+       [
+        "Good",
+        "Tungsten Classic (January 2027)",
+        "Style and value"
+       ],
+       [
+        "Better",
+        "Tungsten Select",
+        "Style, performance and recessing"
+       ],
+       [
+        "Best",
+        "Tungsten Coastal",
+        "Recessing and life by the water"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Gas Or Electric",
+     "bullets": [
+      "Electric dims with an Affinity Dimmer; mounted gas is on or off.",
+      "Mounted gas and standard Platinum Electric belong under cover; freestanding gas goes where the table goes."
+     ]
+    }
+   ],
+   "cta": "REQUEST YOUR DESIGN PLAN",
+   "sources": [
+    "data/product-marketing/tungsten-electric-series-ii.json: tiers, portfolio, accessories, launch",
+    "data/product-marketing/platinum-electric.json: tiers, competitive_summary",
+    "data/product-marketing/platinum-gas.json: tiers, competitive_summary",
+    "data/product-marketing/tungsten-gas.json: tiers, competitive_summary",
+    "data/product-marketing/eclipse.json: tiers",
+    "data/product-facts.json: affinity-controls"
+   ],
+   "needs_approval": [
+    "Product team"
+   ],
+   "audience": "retail"
+  },
+  {
+   "id": "tungsten-series-ii",
+   "title": "Tungsten Smart-Heat® Electric Series II",
+   "kicker": "TUNGSTEN",
+   "summary": "Three tiers, slimmer heaters and recessing for shallow ceilings.",
+   "hero_product": "tungsten-select",
+   "sections": [
+    {
+     "h": "Three Tiers, One Easy Story",
+     "table": {
+      "head": [
+       "",
+       "Classic (Good)",
+       "Select (Better)",
+       "Coastal (Best)"
+      ],
+      "rows": [
+       [
+        "Finishes",
+        "Black",
+        "Black, white, graphite (graphite on 4 and 6 kW)",
+        "Black, white"
+       ],
+       [
+        "Fronts",
+        "Wireframe",
+        "Diamond standard; oval and triangle sold separately",
+        "Diamond"
+       ],
+       [
+        "Outputs",
+        "2, 3, 4, 6 kW",
+        "2, 3, 4, 6 kW; 208, 240, 277 V (2 kW 240 V only)",
+        "4, 6 kW; 208, 240 V"
+       ],
+       [
+        "Recessing",
+        "Existing Tungsten recess kit",
+        "Low-Clearance Recess Kit",
+        "Marine-grade low-clearance kit"
+       ],
+       [
+        "Available",
+        "January 2027",
+        "October 2026",
+        "October 2026"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "What Your Customer Will Notice",
+     "bullets": [
+      "Up to 6 kW from dual elements, dimmed to the evening.",
+      "Recess 6 kW into a 7.5 in ceiling cavity – the kit is fan-ventilated and the recess box is supplied, so there is nothing to build on site. [[VERIFY: number of fans and any fire-rated lining — Product team]]",
+      "About 14% narrower and a third lighter than Series I, on a single post with no visible junction box.",
+      "IPX5; Coastal adds a corrosion-resistant coating over 316 marine-grade stainless for coastal homes and venues, though never on boats."
+     ]
+    },
+    {
+     "h": "Recommended Controls & Accessories",
+     "bullets": [
+      "Affinity Smart-Heat® Dimmer as standard, On/Off where dimming is not wanted, plus a manual wall switch. Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately.",
+      "Low-Clearance Recess Kit, Pitched-Ceiling Adaptor (3/12 to 12/12), Wall-Mounting Bracket, Mounting Bracket (15°, 30°, 45°). [[VERIFY: 45° tilt on 4 and 6 kW against the manual's 30° — Product team]]"
+     ]
+    },
+    {
+     "h": "Good To Know",
+     "bullets": [
+      "3-year warranty. [[VERIFY: Series II element cover and Coastal terms — Product team]]",
+      "Series I sells through until Classic launches; Cobalt is discontinued after sell-through.",
+      "[[VERIFY: Select and Coastal availability – the launch deck says launched October 2026, product-facts still lists both as coming soon — Product team]]",
+      "Installation by a licensed electrician to local code."
+     ]
+    }
+   ],
+   "cta": "BOOK YOUR TEAM'S TRAINING",
+   "sources": [
+    "data/product-facts.json: tungsten-select",
+    "data/product-facts.json: tungsten-coastal",
+    "data/product-facts.json: tungsten-electric",
+    "data/product-marketing/tungsten-electric-series-ii.json: tiers, pillars, upgrades, accessories, launch, slimness, warranty_note, tilt_verify, claim_checks"
+   ],
+   "needs_approval": [
+    "Product team"
+   ],
+   "audience": "retail"
+  },
+  {
+   "id": "platinum-electric",
+   "title": "Platinum Smart-Heat® Electric",
+   "kicker": "PLATINUM",
+   "summary": "Discreet glass-faced heat that recesses into a 7.1 in ceiling.",
+   "hero_product": "platinum-electric",
+   "sections": [
+    {
+     "h": "Heat You Can Feel, Not See",
+     "body": [
+      "A tinted glass-ceramic face spreads warmth evenly and keeps visible light to a minimum, in a 304 stainless body just 2.1 in deep, black or white. It is the heater for the most considered outdoor rooms. [[VERIFY: a measured visible-light figure before any comparison — Product team]]"
+     ]
+    },
+    {
+     "h": "Three Sizes",
+     "table": {
+      "head": [
+       "Output",
+       "Heat area",
+       "Supply"
+      ],
+      "rows": [
+       [
+        "2300 W",
+        "65 ft²",
+        "208 V or 220–240 V"
+       ],
+       [
+        "3400 W",
+        "108 ft²",
+        "208 V or 220–240 V"
+       ],
+       [
+        "4500 W",
+        "143 ft²",
+        "208 V or 220–240 V"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Two Versions, Two Ways To Recess",
+     "bullets": [
+      "Platinum Electric – for covered spaces; 8 in stainless pole and wall bracket included; 3-year warranty.",
+      "Platinum Electric Marine – AISI 316 stainless, IPX5, Lloyd's Register approval for marine applications; 5 years on land, 3 on vessels. [[VERIFY: on-vessel use against the manuals — Product team]]",
+      "Low-clearance recess kit – flush in a 7.1 in cavity, recess box supplied, cooling fan built in; fits every output and colour."
+     ]
+    },
+    {
+     "h": "Recommended Controls & Accessories",
+     "body": [
+      "Controls are sold separately and quoted with every heater: the Affinity Smart-Heat® Dimmer (1% steps) or On/Off, a manual wall switch, and the expansion board for building systems. Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately. Where your customer needs 6 kW or 277 V, move to Tungsten Series II. Installation by a licensed electrician to local code."
+     ]
+    }
+   ],
+   "cta": "REQUEST YOUR DESIGN PLAN",
+   "sources": [
+    "data/product-facts.json: platinum-electric",
+    "data/product-facts.json: platinum-electric-marine",
+    "data/product-facts.json: affinity-controls",
+    "data/product-marketing/platinum-electric.json: tiers, upgrades, pillars, spec_verify, competitive_summary"
+   ],
+   "needs_approval": [
+    "Product team"
+   ],
+   "audience": "retail"
+  },
+  {
+   "id": "eclipse",
+   "title": "Eclipse Smart-Heat®",
+   "kicker": "ECLIPSE",
+   "summary": "Heat and light in one fixture, as a pendant or a freestanding arch.",
+   "hero_product": "eclipse-electric",
+   "sections": [
+    {
+     "h": "Warmth And Light In One",
+     "body": [
+      "Eclipse pairs radiant heat with a warm, dimmable 3000K LED ring, so one fixture keeps the table warm and softly lit from sunset to the last glass. Two elements give three heat settings – 33%, 66% and 100% of 2,900 W – over up to 121 ft² a heater."
+     ]
+    },
+    {
+     "h": "Pendant Or Freestanding",
+     "table": {
+      "head": [
+       "",
+       "Eclipse Electric (pendant)",
+       "Eclipse Freestanding"
+      ],
+      "rows": [
+       [
+        "Mounting",
+        "24 in twin pole included; 8, 24, 48 in straight, curved or wall pole",
+        "Arched arm on a weighted base with two wheels"
+       ],
+       [
+        "Supply",
+        "208 V or 220–240 V, hard-wired",
+        "220–240 V, 15 ft cable to an IP54 outdoor outlet"
+       ],
+       [
+        "Placement",
+        "Head at least 8 ft above the floor",
+        "79 in minimum clearance; base holds in winds up to 20 mph"
+       ],
+       [
+        "Controls",
+        "Affinity Eclipse Controller (sold separately), one heater a channel, or Eclipse Dimmer Controller with remote",
+        "Eclipse Dimmer Controller and remote included"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Recommended Controls & Accessories",
+     "body": [
+      "The Affinity Smart-Heat® Eclipse Controller brings heat and light into the Bromic app with dimming, schedules and zones; a manual wall switch completes the circuit. Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately. [[VERIFY: app control for Eclipse Freestanding — Product team]]"
+     ]
+    },
+    {
+     "h": "Good To Know",
+     "bullets": [
+      "Matte black, IP54, 3-year warranty.",
+      "The pendant manual advises mounting under cover where possible.",
+      "Where the ceiling should stay clean, show Platinum Electric instead.",
+      "Installation by a licensed electrician to local code."
+     ]
+    }
+   ],
+   "cta": "REQUEST YOUR DESIGN PLAN",
+   "sources": [
+    "data/product-facts.json: eclipse-electric",
+    "data/product-facts.json: eclipse-freestanding",
+    "data/product-facts.json: affinity-controls",
+    "data/product-marketing/eclipse.json: tiers, upgrades, pillars, competitive_summary"
+   ],
+   "needs_approval": [
+    "Product team"
+   ],
+   "audience": "retail"
+  },
+  {
+   "id": "gas",
+   "title": "Platinum Gas And Tungsten Gas",
+   "kicker": "GAS",
+   "summary": "Mounted gas for covered terraces and a freestanding tower for open seating.",
+   "hero_product": "platinum-gas",
+   "sections": [
+    {
+     "h": "Three Ways To Heat With Gas",
+     "table": {
+      "head": [
+       "",
+       "Platinum Gas",
+       "Tungsten Gas (mounted)",
+       "Tungsten Freestanding"
+      ],
+      "rows": [
+       [
+        "Heat area",
+        "160 or 215 ft²",
+        "160 or 215 ft²",
+        "About 215 ft²"
+       ],
+       [
+        "Output",
+        "23,600 or 39,800 BTU",
+        "[[VERIFY: output by model — Product team]]",
+        "38,000 BTU [[VERIFY: 38,000 against 38,500 BTU — Product team]]"
+       ],
+       [
+        "Look",
+        "Ceramic-glass screen, black or stainless",
+        "Honeycomb face, matte black",
+        "304 stainless column, tilting head"
+       ],
+       [
+        "Fuel",
+        "Natural gas or propane",
+        "Natural gas or propane",
+        "Propane (20 lb cylinder in the base) or natural gas (10 ft quick-connect)"
+       ],
+       [
+        "Warranty",
+        "2 years, excl. hoses and igniters",
+        "2 years, excl. hoses and igniters",
+        "1 year (propane) [[VERIFY: natural gas model warranty — Product team]]"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Where Each One Belongs",
+     "bullets": [
+      "Mounted gas is for covered outdoor areas, at least 8 ft above the floor; a heat deflector cuts the clearance above from 3 ft to 14 in.",
+      "The Tungsten tower rolls to wherever tonight's seating is and has a flame failure device and an anti-tilt switch."
+     ]
+    },
+    {
+     "h": "Recommended Controls & Accessories",
+     "body": [
+      "Mounted Platinum and Tungsten Gas switch on and off from the Affinity Smart-Heat® On/Off Controller, up to 10 gas heaters a channel, or a manual wall switch; the expansion board links to building systems. Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately. [[VERIFY: Affinity On/Off compatibility with Tungsten Gas — Product team]] The freestanding tower is set at its own knob and is not on the app."
+     ]
+    },
+    {
+     "h": "Before You Quote",
+     "bullets": [
+      "Installation by a licensed gas fitter to local code.",
+      "Mounted heaters also need 110 V (under 2 A) for ignition and controls. Installation by a licensed electrician to local code."
+     ]
+    }
+   ],
+   "cta": "REQUEST YOUR DESIGN PLAN",
+   "sources": [
+    "data/product-facts.json: platinum-gas",
+    "data/product-facts.json: tungsten-gas-builtin",
+    "data/product-facts.json: tungsten-freestanding-gas",
+    "data/product-facts.json: affinity-controls",
+    "data/product-marketing/platinum-gas.json: tiers, upgrades, pillars",
+    "data/product-marketing/tungsten-gas.json: tiers, upgrades, pillars, spec_verify",
+    "data/product-marketing/tungsten-electric-series-ii.json: pillars.p7 verify"
+   ],
+   "needs_approval": [
+    "Product team"
+   ],
+   "audience": "retail"
+  },
+  {
+   "id": "controls",
+   "title": "Affinity Smart-Heat® Controls",
+   "kicker": "CONTROLS",
+   "summary": "The attach rule: every heater leaves the store with its controls.",
+   "hero_product": "affinity-controls",
+   "sections": [
+    {
+     "h": "The Attach Rule",
+     "body": [
+      "Every Bromic heater is quoted with its Affinity Smart-Heat® Controls and a manual wall switch, so the warmth is always where, and when, your customer wants it. Controls are part of the heater, on the same quote."
+     ]
+    },
+    {
+     "h": "What To Sell With Each Heater",
+     "table": {
+      "head": [
+       "Heater",
+       "Controller",
+       "Capacity"
+      ],
+      "rows": [
+       [
+        "Tungsten Electric, Platinum Electric",
+        "Affinity Dimmer (1% steps) or On/Off",
+        "1, 2 or 5 channels; 6 kW a channel at 208–277 V"
+       ],
+       [
+        "Eclipse Electric",
+        "Affinity Eclipse Controller, or Eclipse Dimmer Controller with remote",
+        "1 or 5 channels; one Eclipse a channel"
+       ],
+       [
+        "Eclipse Freestanding",
+        "Eclipse Dimmer Controller and remote",
+        "Included"
+       ],
+       [
+        "Platinum Gas, Tungsten Gas (mounted)",
+        "Affinity On/Off",
+        "Up to 10 gas heaters a channel"
+       ],
+       [
+        "Tungsten Freestanding",
+        "Its own knob",
+        "Not on the app"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "What The App Adds",
+     "bullets": [
+      "Zones, schedules and timers in the Bromic app, over 2.4 GHz Wi-Fi, with Bluetooth at about 30 ft.",
+      "Alexa and Google Assistant, and Control4, Crestron or Lutron – compatibility varies and may need extra hardware.",
+      "The expansion board adds Ethernet and 0–10 V for building systems; it is built into the 5-channel units, and BMS mode turns the app off.",
+      "Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately."
+     ]
+    },
+    {
+     "h": "Good To Know",
+     "bullets": [
+      "Controllers carry a 1-year warranty.",
+      "Quote no default timer length. [[VERIFY: controller capacities, gas compatibility and timer behaviour — Product team]]",
+      "Installation by a licensed electrician to local code."
+     ]
+    }
+   ],
+   "cta": "EXPLORE AFFINITY SMART-HEAT CONTROLS",
+   "sources": [
+    "data/product-facts.json: affinity-controls",
+    "data/product-facts.json: eclipse-freestanding",
+    "data/product-facts.json: tungsten-freestanding-gas",
+    "data/product-marketing/tungsten-electric-series-ii.json: claim_checks (app timer), pillars.p7 verify",
+    "data/product-marketing/tungsten-gas.json: pillars"
+   ],
+   "needs_approval": [
+    "Product team"
+   ],
+   "audience": "retail"
+  },
+  {
+   "id": "sizing",
+   "title": "Sizing In 60 Seconds",
+   "kicker": "PLAN YOUR SPACE",
+   "summary": "How many heaters a space needs, worked the way Bromic's sizing tool works.",
+   "hero_product": "platinum-electric",
+   "sections": [
+    {
+     "h": "Start With The Seats",
+     "body": [
+      "Measure the seating area alone, at 20 ft² a seat with aisles included. Then divide by what one heater covers, adjusted for the roof and the weather:",
+      "heaters = area ÷ (coverage × cover factor × climate factor), rounded up."
+     ]
+    },
+    {
+     "h": "The Two Factors",
+     "table": {
+      "head": [
+       "Cover",
+       "Factor",
+       "Evenings you heat",
+       "Factor"
+      ],
+      "rows": [
+       [
+        "Open, no roof",
+        "0.85",
+        "Mild, above about 50°F",
+        "1.0"
+       ],
+       [
+        "Partly covered (pergola, umbrella)",
+        "1.0",
+        "Cool, about 40–50°F",
+        "0.85"
+       ],
+       [
+        "Covered, solid roof",
+        "1.1",
+        "Cold, often below about 40°F",
+        "0.7"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Worked Example: 40 Seats, Partly Covered, Cool",
+     "bullets": [
+      "40 seats × 20 ft² = 800 ft².",
+      "Platinum Electric 4500 W (143 ft²): 800 ÷ (143 × 0.85) = 6.6, so 7 heaters, with Affinity Dimmers at one 4500 W heater a channel – seven channels, for example a 5-channel and a 2-channel Dimmer – and a manual wall switch.",
+      "Tungsten Freestanding Gas (215 ft²): 800 ÷ (215 × 0.85) = 4.4, but a freestanding heater serves 4 seats at most, so 40 ÷ 4 = 10 towers, each set at its own knob."
+     ]
+    },
+    {
+     "h": "When You Don't Know The Site",
+     "body": [
+      "Use partly covered and cool (0.85 combined) and say so, then send the customer's photos or plans to the complimentary design service for a full plan. [[VERIFY: cover and climate factors — Product team]] [[VERIFY: controller capacities — Product team]]"
+     ]
+    }
+   ],
+   "cta": "REQUEST YOUR DESIGN PLAN",
+   "sources": [
+    "templates/calculation-model.md",
+    "data/product-facts.json: platinum-electric",
+    "data/product-facts.json: tungsten-freestanding-gas",
+    "data/product-facts.json: affinity-controls",
+    "data/product-facts.json: principles.design-service"
+   ],
+   "needs_approval": [
+    "Product team"
+   ],
+   "audience": "retail"
+  },
+  {
+   "id": "selling",
+   "title": "Selling On The Floor",
+   "kicker": "ON THE FLOOR",
+   "summary": "The questions customers ask, and factual answers to the comparisons they bring.",
+   "hero_product": null,
+   "sections": [
+    {
+     "h": "What Customers Ask",
+     "table": {
+      "head": [
+       "Question",
+       "Answer"
+      ],
+      "rows": [
+       [
+        "Will it work in a breeze?",
+        "Radiant infrared warms people and objects directly, so it holds up in light wind."
+       ],
+       [
+        "How fast does it warm up?",
+        "Platinum, Tungsten and Eclipse Electric are medium wave infrared: about 30 seconds."
+       ],
+       [
+        "Can I turn it down?",
+        "Electric heaters dim with Affinity controls; mounted gas is on or off."
+       ],
+       [
+        "Can I use my phone?",
+        "Yes, with compatible Affinity Smart-Heat® Controls, sold separately, for Wi-Fi and the app."
+       ],
+       [
+        "Can it go in a closed room?",
+        "No. A space counts as outdoor when at least 30% of its perimeter is permanently open."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "When They Compare",
+     "table": {
+      "head": [
+       "They say",
+       "You can say"
+      ],
+      "rows": [
+       [
+        "My architect specifies Infratech.",
+        "Platinum recesses in a 7.1 in cavity with the box supplied and a cooling fan, where Infratech's flush frame needs a five-sided Type X pocket on a flat ceiling."
+       ],
+       [
+        "My porch ceiling is pitched.",
+        "Tungsten Series II mounts on 3/12 to 12/12 with its adaptor; Infratech's flush frame is \"ONLY to be used on a flat non-sloped ceiling\"."
+       ],
+       [
+        "I can get a heat-and-light pendant for a few hundred dollars.",
+        "Those run at 1,500–2,000 W on a remote. Eclipse delivers 2,900 W in three settings, hard-wired and IP54, with app control."
+       ],
+       [
+        "A Sunpak costs less.",
+        "Tungsten Gas comes with its wall bracket and runs on 110 V, so there is no 24 VAC transformer to add."
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Keep It Fair",
+     "body": [
+      "Use these lines as written and never run down another brand. Where a competitor leads, such as Infratech's eight colours, say so."
+     ]
+    }
+   ],
+   "cta": "REQUEST YOUR DESIGN PLAN",
+   "sources": [
+    "data/product-facts.json: principles.radiant",
+    "data/product-facts.json: principles.wavelength-by-product",
+    "data/product-facts.json: principles.wavelength",
+    "data/product-facts.json: principles.outdoor-definition",
+    "data/product-facts.json: affinity-controls",
+    "data/product-marketing/tungsten-electric-series-ii.json: m3 (install_flex, i12)",
+    "data/product-marketing/platinum-electric.json: competitive_summary.battlecard, watch",
+    "data/product-marketing/eclipse.json: competitive_summary.battlecard",
+    "data/product-marketing/tungsten-gas.json: competitive_summary.battlecard"
+   ],
+   "needs_approval": [
+    "Specification and compliance"
+   ],
+   "audience": "retail"
+  },
+  {
+   "id": "install-warranty",
+   "title": "Installation, Warranty And Support",
+   "kicker": "AFTER THE SALE",
+   "summary": "What to tell the customer about installing, cover and help after the sale.",
+   "hero_product": null,
+   "sections": [
+    {
+     "h": "Getting It Right The First Time",
+     "bullets": [
+      "Installation by a licensed electrician / gas fitter to local code.",
+      "Electric heaters follow NFPA 70 (NEC): wall mounts at least 72 in above the floor, ceiling mounts at least 96 in, varying with output.",
+      "Gas heaters follow ANSI Z223.1/NFPA 54 and mount at least 96 in above the floor.",
+      "Check every install with the local building authority."
+     ]
+    },
+    {
+     "h": "Warranty At A Glance",
+     "table": {
+      "head": [
+       "Heater",
+       "Cover"
+      ],
+      "rows": [
+       [
+        "Tungsten Series II",
+        "3 years [[VERIFY: element cover and Coastal terms — Product team]]"
+       ],
+       [
+        "Tungsten Electric (Series I)",
+        "2 years heater, 7 years elements"
+       ],
+       [
+        "Platinum Electric",
+        "3 years"
+       ],
+       [
+        "Platinum Electric Marine",
+        "5 years on land, 3 years on vessels"
+       ],
+       [
+        "Eclipse Electric and Freestanding",
+        "3 years"
+       ],
+       [
+        "Platinum Gas, Tungsten Gas (mounted)",
+        "2 years, excl. hoses and igniters"
+       ],
+       [
+        "Tungsten Freestanding (propane)",
+        "1 year [[VERIFY: natural gas model — Product team]]"
+       ],
+       [
+        "Affinity Smart-Heat® Controls",
+        "1 year"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Help For You And Your Customer",
+     "bullets": [
+      "Complimentary design service: bromic.com/design-your-space/ or 1-800-301-1293, Mon–Fri 9–4 PT.",
+      "Claims and service: [[VERIFY: how a retailer raises a warranty claim, and who handles parts and labour — Product team]]",
+      "Warranty terms: [[VERIFY: all terms above against bromic.com/warranty — Product team]]"
+     ]
+    }
+   ],
+   "cta": "MEET YOUR BROMIC REP",
+   "sources": [
+    "data/product-facts.json: principles.codes-electric",
+    "data/product-facts.json: principles.codes-gas",
+    "data/product-facts.json: tungsten-electric",
+    "data/product-facts.json: platinum-electric",
+    "data/product-facts.json: platinum-electric-marine",
+    "data/product-facts.json: eclipse-electric",
+    "data/product-facts.json: eclipse-freestanding",
+    "data/product-facts.json: platinum-gas",
+    "data/product-facts.json: tungsten-gas-builtin",
+    "data/product-facts.json: tungsten-freestanding-gas",
+    "data/product-facts.json: affinity-controls",
+    "data/product-facts.json: principles.design-service",
+    "data/product-marketing/tungsten-electric-series-ii.json: warranty_note"
+   ],
+   "needs_approval": [
+    "Product team",
+    "Specification and compliance"
+   ],
+   "audience": "retail"
+  },
+  {
+   "id": "merchandising",
+   "title": "Display And Merchandising",
+   "kicker": "IN-STORE (SUGGESTED)",
+   "summary": "Suggested ways to show Bromic in-store so customers feel the warmth and see the controls.",
+   "hero_product": null,
+   "sections": [
+    {
+     "h": "Let Them Feel It",
+     "bullets": [
+      "Suggested: a live electric heater mounted at its listed height, on an Affinity Dimmer, so customers feel warmth arrive in about 30 seconds and turn it up and down.",
+      "Suggested: the Bromic app on a store tablet beside it, showing zones and schedules.",
+      "Suggested: an Eclipse pendant over a set table, heat and light on together."
+     ]
+    },
+    {
+     "h": "Controls Beside Every Heater",
+     "bullets": [
+      "Suggested: place the matching controller and wall switch next to each heater on display, with one shelf label covering both."
+     ]
+    },
+    {
+     "h": "Show The Choice",
+     "bullets": [
+      "Suggested: Tungsten Classic, Select and Coastal side by side as Good, Better, Best.",
+      "Suggested: finish samples in black, white and graphite, and the Diamond, oval and triangle fronts.",
+      "Suggested: a sizing card at the counter (20 ft² a seat) and the design service number."
+     ]
+    },
+    {
+     "h": "Before You Install A Demo",
+     "bullets": [
+      "Installation by a licensed electrician / gas fitter to local code.",
+      "Display kits, fixtures and showroom guide: [[VERIFY: what is available to retailers and how to order — Marketing]]"
+     ]
+    }
+   ],
+   "cta": "MEET YOUR BROMIC REP",
+   "sources": [
+    "data/product-facts.json: principles.wavelength",
+    "data/product-facts.json: principles.wavelength-by-product",
+    "data/product-facts.json: affinity-controls",
+    "data/product-facts.json: principles.design-service",
+    "data/product-marketing/tungsten-electric-series-ii.json: tiers, pillars.p6, one_pagers (Dealers footnote)",
+    "data/product-marketing/eclipse.json: pillars",
+    "templates/calculation-model.md"
+   ],
+   "needs_approval": [
+    "Marketing"
+   ],
+   "audience": "retail"
+  },
+  {
+   "id": "ordering",
+   "title": "Ordering And Support",
+   "kicker": "WORKING WITH BROMIC",
+   "summary": "What a retailer receives to order and sell Bromic, and which team sends it.",
+   "hero_product": null,
+   "sections": [
+    {
+     "h": "What You Will Receive",
+     "table": {
+      "head": [
+       "Item",
+       "From",
+       "Status"
+      ],
+      "rows": [
+       [
+        "Price list and SKUs by region",
+        "Sales operations",
+        "[[VERIFY: retailer price list and Series II SKUs — Sales operations]]"
+       ],
+       [
+        "Lead times",
+        "Sales operations",
+        "[[VERIFY: lead times by range — Sales operations]]"
+       ],
+       [
+        "Minimum orders and account terms",
+        "Trade sales",
+        "[[VERIFY: MOQs, opening order and payment terms — Trade sales]]"
+       ],
+       [
+        "Marketing co-op",
+        "Marketing",
+        "[[VERIFY: whether a co-op program exists and its terms — Marketing]]"
+       ],
+       [
+        "Images, literature and sell sheets",
+        "Marketing",
+        "[[VERIFY: retailer asset pack and image rights — Marketing]]"
+       ],
+       [
+        "Product training",
+        "Product team",
+        "[[VERIFY: training format and how to book — Product team]]"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "SKUs Published On bromic.com",
+     "table": {
+      "head": [
+       "Heater",
+       "SKUs"
+      ],
+      "rows": [
+       [
+        "Platinum Electric 2300 / 3400 / 4500 W",
+        "BH0320003, BH0320005, BH3622000 (black); BH0320007, BH0320008, BH3622001 (white)"
+       ],
+       [
+        "Platinum Gas 23,600 / 39,800 BTU",
+        "BH0110001-1, BH0110003-1 (natural gas); BH0110002-1, BH0110004-1 (propane)"
+       ],
+       [
+        "Tungsten Gas mounted, 160 / 215 ft²",
+        "BH0210001-1, BH0210003-1 (natural gas); BH0210002-1, BH0210004-1 (propane)"
+       ],
+       [
+        "Eclipse Electric",
+        "BH0920003 (208 V); BH0920001-2 (220–240 V)"
+       ]
+      ]
+     }
+    },
+    {
+     "h": "Good To Know",
+     "bullets": [
+      "SKUs above were read from bromic.com. [[VERIFY: SKUs against the 2026 cut sheets — Product team]]",
+      "Every order line for a heater carries its Affinity Smart-Heat® Controls and wall switch.",
+      "Prices stay off customer-facing material."
+     ]
+    }
+   ],
+   "cta": "MEET YOUR BROMIC REP",
+   "sources": [
+    "data/product-facts.json: platinum-electric (site.models)",
+    "data/product-facts.json: platinum-gas (site.models)",
+    "data/product-facts.json: tungsten-gas-builtin (site.models)",
+    "data/product-marketing/eclipse.json: tiers",
+    "data/product-marketing/tungsten-electric-series-ii.json: price_verify, one_pagers (Dealers footnote)",
+    "data/product-marketing/platinum-electric.json: price_verify"
+   ],
+   "needs_approval": [
+    "Sales operations",
+    "Trade sales"
+   ],
+   "audience": "retail"
+  }
+ ]
+}

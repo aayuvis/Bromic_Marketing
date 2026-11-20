@@ -1222,7 +1222,7 @@
   const awaiting = (i) => !['approved', 'published', 'template'].includes(i.status) && shelfOf(i) !== 'internal';
 
   // ---------- retail hub (data/retail/retail.json) ----------
-  const RT_HERO = { 'why-bromic': 'l-001-000', 'range-selector': 'l-007-039', 'tungsten-series-ii': 't2-select-black', 'platinum-electric': 'l-010-066', eclipse: 'l-012-093', gas: 'w-bromic-tungsten-gas-4', controls: 'w-bromic-heating-app-blog-image', sizing: 'l-002-004', selling: 'l-005-024', 'install-warranty': 'w-bromic-shoot-may-11-2023-42', merchandising: 't2-select-white', ordering: 'l-006-028' };
+  const RT_HERO = { 'why-bromic': 'l-001-000', 'range-selector': 'l-007-039', 'tungsten-series-ii': 'l-007-035', 'platinum-electric': 'l-010-066', eclipse: 'l-012-093', gas: 'w-bromic-tungsten-gas-4', controls: 'w-bromic-heating-app-blog-image', sizing: 'l-002-004', selling: 'l-005-024', 'install-warranty': 'w-bromic-shoot-may-11-2023-42', merchandising: 't2-select-white', ordering: 'l-006-028' };
   const rtText = (t) => esc(t).replace(/\[\[VERIFY:([^\]]*)\]\]/g, '<mark class="rt-verify" title="To confirm">To confirm:$1</mark>').replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>');
   function retailPage(id) {
     const R = HUB.retail; if (!R || !(R.pages || []).length) return '<div class="empty">The retail one-pagers are being written.</div>';
@@ -1234,14 +1234,14 @@
       <div class="rt-grid">${pages.map((p, i) => `<a class="rt-card" href="#/retail/${esc(p.id)}"><span class="rt-pic">${img(heroOf(p))}</span><span class="rt-cb"><span class="label">${String(i + 1).padStart(2, '0')} · ${esc(p.kicker || 'One-pager')}</span><b>${esc(p.title)}</b><small>${esc(p.summary || '')}</small>${open(p) ? `<em class="rt-open">${open(p)} to confirm</em>` : ''}</span></a>`).join('')}</div>`;
     const i = pages.indexOf(P), prev = pages[i - 1], next = pages[i + 1];
     const sec = (x) => `<section class="rt-sec"><h3>${esc(x.h || '')}</h3>${(x.body || []).map((t) => `<p>${rtText(t)}</p>`).join('')}${x.bullets ? `<ul>${x.bullets.map((t) => `<li>${rtText(t)}</li>`).join('')}</ul>` : ''}${x.table ? `<table class="rt-t"><thead><tr>${x.table.head.map((h) => `<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${x.table.rows.map((r) => `<tr>${r.map((c) => `<td>${rtText(String(c))}</td>`).join('')}</tr>`).join('')}</tbody></table>` : ''}</section>`;
-    return `<div class="rt-bar"><a href="#/retail">${ic.arrow} All one-pagers</a><span class="rt-nav">${prev ? `<a href="#/retail/${esc(prev.id)}">‹ ${esc(prev.title)}</a>` : ''}${next ? `<a href="#/retail/${esc(next.id)}">${esc(next.title)} ›</a>` : ''}</span><button class="btn" data-rtprint>Print or save as PDF</button></div>
+    return `<div class="rt-bar"><a href="#/retail">‹ All one-pagers</a><span class="rt-nav">${prev ? `<a href="#/retail/${esc(prev.id)}">‹ ${esc(prev.title)}</a>` : ''}${next ? `<a href="#/retail/${esc(next.id)}">${esc(next.title)} ›</a>` : ''}</span><button class="btn" data-rtprint>Print or save as PDF</button></div>
       ${(P.needs_approval || []).length ? `<p class="rt-note">Needs sign-off: ${P.needs_approval.map(esc).join(', ')}.</p>` : ''}
       <article class="rt-sheet${R.status === 'draft' ? ' rt-draft' : ''}">
         <header class="rt-sh"><span class="rt-logo">BROMIC</span><span class="label">${esc(P.kicker || 'Retail one-pager')}</span></header>
         <div class="rt-hero">${img(heroOf(P), '', false)}<div class="rt-ht"><h1>${esc(P.title)}</h1>${P.summary ? `<p>${esc(P.summary)}</p>` : ''}</div></div>
         <div class="rt-body">${(P.sections || []).map(sec).join('')}</div>
         ${P.cta ? `<div class="rt-cta">${rtText(P.cta)}</div>` : ''}
-        <footer class="rt-src">${(P.sources || []).length ? 'Sources: ' + P.sources.map(esc).join(' · ') : ''}${R.status === 'draft' ? ' · Draft for review' : ''}</footer>
+        <footer class="rt-src"><span class="rt-srcs">${(P.sources || []).length ? 'Sources: ' + P.sources.map(esc).join(' · ') : ''}</span><span>bromic.com${R.status === 'draft' ? ' · Draft for review' : ''}</span></footer>
       </article>`;
   }
 
