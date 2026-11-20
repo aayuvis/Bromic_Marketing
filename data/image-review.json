@@ -337,7 +337,8 @@
    "thumb": "images/review/thumb/ts2-photo-01.webp",
    "source": "Bromic installation photo (bromic.com); old heater replaced with the Series II CAD render",
    "status": "approved",
-   "note": "Owner: \"1 is excellent\" (20 Nov 2026)"
+   "note": "Owner: \"1 is excellent\" (20 Nov 2026)",
+   "learned": true
   },
   {
    "id": "ts2-photo-02",
