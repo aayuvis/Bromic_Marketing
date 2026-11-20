@@ -481,6 +481,32 @@
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
    "status": "pending",
    "note": ""
+  },
+  {
+   "id": "ts2-ai-43",
+   "title": "Mykonos hotel terrace",
+   "kind": "AI scene + CAD heater",
+   "finish": "black",
+   "w": 5056,
+   "h": 3392,
+   "file": "images/review/full/ts2-ai-43.jpg",
+   "thumb": "images/review/thumb/ts2-ai-43.webp",
+   "source": "Background generated with an image model; heater rendered from the Series II CAD",
+   "status": "pending",
+   "note": ""
+  },
+  {
+   "id": "ts2-ai-44",
+   "title": "Sea Island screened porch",
+   "kind": "AI scene + CAD heater",
+   "finish": "black",
+   "w": 5056,
+   "h": 3392,
+   "file": "images/review/full/ts2-ai-44.jpg",
+   "thumb": "images/review/thumb/ts2-ai-44.webp",
+   "source": "Background generated with an image model; heater rendered from the Series II CAD",
+   "status": "pending",
+   "note": ""
   }
  ]
 }
