@@ -442,6 +442,32 @@
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
    "status": "pending",
    "note": ""
+  },
+  {
+   "id": "ts2-ai-37",
+   "title": "Noosa beachside outdoor room",
+   "kind": "AI scene + CAD heater",
+   "finish": "white",
+   "w": 5056,
+   "h": 3392,
+   "file": "images/review/full/ts2-ai-37.jpg",
+   "thumb": "images/review/thumb/ts2-ai-37.webp",
+   "source": "Background generated with an image model; heater rendered from the Series II CAD",
+   "status": "pending",
+   "note": ""
+  },
+  {
+   "id": "ts2-ai-39",
+   "title": "Santa Monica pier restaurant",
+   "kind": "AI scene + CAD heater",
+   "finish": "black",
+   "w": 5056,
+   "h": 3392,
+   "file": "images/review/full/ts2-ai-39.jpg",
+   "thumb": "images/review/thumb/ts2-ai-39.webp",
+   "source": "Background generated with an image model; heater rendered from the Series II CAD",
+   "status": "pending",
+   "note": ""
   }
  ]
 }
