@@ -82,6 +82,14 @@ Product marketing tab 4 shows the carousels and storyboards (`storyboards`).
 optional `m2` against our own range (`m2_label`); `competitive_summary` (wins, parity, watch, battlecard). Tungsten Series II adds
 `training`, `one_pagers`, `emails`, `next_steps`, `dimensions`, `accessories` (tab 5). Brief: test every "only" in `claim_checks`.
 
+## Retail Hub (owner, 20 Nov 2026)
+
+`#/retail` (tab "Retail", also under Marketing): 12 one-pagers a retailer needs, in `data/retail/retail.json` (`retailPage()` in app.js):
+why stock Bromic, range selector, Tungsten Series II, Platinum Electric, Eclipse, gas, controls, sizing, selling on the floor,
+install and warranty, merchandising, ordering. Facts only from product data; unknowns are `[[VERIFY]]`, shown on the page as
+"To confirm". No prices (owner's dealer guidance). Each prints to one Letter page ("Print or save as PDF"); sources show on
+screen, not in print. Competitor lines live only on the selling page (`needs_approval: Specification and compliance`).
+
 ## Calculations: one simple model
 
 Every tool and every article that does arithmetic follows [templates/calculation-model.md](templates/calculation-model.md) (owner,
