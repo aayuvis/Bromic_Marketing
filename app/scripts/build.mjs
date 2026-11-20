@@ -256,7 +256,9 @@ const pm = fs.existsSync(PMDIR) ? fs.readdirSync(PMDIR).filter((f) => f.endsWith
 const portfolio = fs.existsSync(path.join(ROOT, 'data', 'portfolio.json')) ? JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'portfolio.json'), 'utf8')).items : [];
 const CMDIR = path.join(ROOT, 'data', 'campaigns');
 const campaigns = fs.existsSync(CMDIR) ? fs.readdirSync(CMDIR).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(CMDIR, f), 'utf8'))) : [];
-const HUB = { built: new Date().toISOString(), commit, repo, regions, roles, langsAvailable: Object.fromEntries(Object.entries(tr).map(([l, m]) => [l, Object.keys(m).length])), matrix, assets, facts, images, usage, tools, site, cs, blogPlan, pm, campaigns, portfolio, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
+const RTF = path.join(ROOT, 'data', 'retail', 'retail.json');
+const retail = fs.existsSync(RTF) ? JSON.parse(fs.readFileSync(RTF, 'utf8')) : null;
+const HUB = { built: new Date().toISOString(), commit, repo, regions, roles, langsAvailable: Object.fromEntries(Object.entries(tr).map(([l, m]) => [l, Object.keys(m).length])), matrix, assets, facts, images, usage, tools, site, cs, blogPlan, pm, campaigns, portfolio, retail, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
 
 console.log(`items ${items.length} · tools ${tools.length} · images ${images.length} · site pages ${site.length} · errors ${errors.length} · warnings ${warn.length}`);
 warn.forEach((w) => console.log('  warn  ' + w));

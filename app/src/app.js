@@ -1220,6 +1220,31 @@
 
   // ---------- navigation: three mega menus ----------
   const awaiting = (i) => !['approved', 'published', 'template'].includes(i.status) && shelfOf(i) !== 'internal';
+
+  // ---------- retail hub (data/retail/retail.json) ----------
+  const RT_HERO = { 'why-bromic': 'l-001-000', 'range-selector': 'l-007-039', 'tungsten-series-ii': 't2-select-black', 'platinum-electric': 'l-010-066', eclipse: 'l-012-093', gas: 'w-bromic-tungsten-gas-4', controls: 'w-bromic-heating-app-blog-image', sizing: 'l-002-004', selling: 'l-005-024', 'install-warranty': 'w-bromic-shoot-may-11-2023-42', merchandising: 't2-select-white', ordering: 'l-006-028' };
+  const rtText = (t) => esc(t).replace(/\[\[VERIFY:([^\]]*)\]\]/g, '<mark class="rt-verify" title="To confirm">To confirm:$1</mark>').replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>');
+  function retailPage(id) {
+    const R = HUB.retail; if (!R || !(R.pages || []).length) return '<div class="empty">The retail one-pagers are being written.</div>';
+    const pages = R.pages, P = pages.find((p) => p.id === id);
+    const heroOf = (p) => p.hero || RT_HERO[p.id] || 'l-001-000';
+    const open = (p) => ((JSON.stringify(p).match(/\[\[VERIFY/g) || []).length);
+    if (!P) return `<div class="rt-head"><span class="label">Retail Hub</span><h1>Everything A Retailer Needs To Sell Bromic</h1>
+        <p class="muted">${pages.length} one-pagers to print, send or keep on the shop floor. Each fits one page; facts come from Bromic's product data, and anything not yet confirmed is marked.</p></div>
+      <div class="rt-grid">${pages.map((p, i) => `<a class="rt-card" href="#/retail/${esc(p.id)}"><span class="rt-pic">${img(heroOf(p))}</span><span class="rt-cb"><span class="label">${String(i + 1).padStart(2, '0')} · ${esc(p.kicker || 'One-pager')}</span><b>${esc(p.title)}</b><small>${esc(p.summary || '')}</small>${open(p) ? `<em class="rt-open">${open(p)} to confirm</em>` : ''}</span></a>`).join('')}</div>`;
+    const i = pages.indexOf(P), prev = pages[i - 1], next = pages[i + 1];
+    const sec = (x) => `<section class="rt-sec"><h3>${esc(x.h || '')}</h3>${(x.body || []).map((t) => `<p>${rtText(t)}</p>`).join('')}${x.bullets ? `<ul>${x.bullets.map((t) => `<li>${rtText(t)}</li>`).join('')}</ul>` : ''}${x.table ? `<table class="rt-t"><thead><tr>${x.table.head.map((h) => `<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${x.table.rows.map((r) => `<tr>${r.map((c) => `<td>${rtText(String(c))}</td>`).join('')}</tr>`).join('')}</tbody></table>` : ''}</section>`;
+    return `<div class="rt-bar"><a href="#/retail">${ic.arrow} All one-pagers</a><span class="rt-nav">${prev ? `<a href="#/retail/${esc(prev.id)}">‹ ${esc(prev.title)}</a>` : ''}${next ? `<a href="#/retail/${esc(next.id)}">${esc(next.title)} ›</a>` : ''}</span><button class="btn" data-rtprint>Print or save as PDF</button></div>
+      ${(P.needs_approval || []).length ? `<p class="rt-note">Needs sign-off: ${P.needs_approval.map(esc).join(', ')}.</p>` : ''}
+      <article class="rt-sheet${R.status === 'draft' ? ' rt-draft' : ''}">
+        <header class="rt-sh"><span class="rt-logo">BROMIC</span><span class="label">${esc(P.kicker || 'Retail one-pager')}</span></header>
+        <div class="rt-hero">${img(heroOf(P), '', false)}<div class="rt-ht"><h1>${esc(P.title)}</h1>${P.summary ? `<p>${esc(P.summary)}</p>` : ''}</div></div>
+        <div class="rt-body">${(P.sections || []).map(sec).join('')}</div>
+        ${P.cta ? `<div class="rt-cta">${rtText(P.cta)}</div>` : ''}
+        <footer class="rt-src">${(P.sources || []).length ? 'Sources: ' + P.sources.map(esc).join(' · ') : ''}${R.status === 'draft' ? ' · Draft for review' : ''}</footer>
+      </article>`;
+  }
+
   function megaMenus() {
     const L = $('#mega-library'), P = $('#mega-papers'), M = $('#mega-marketing'); if (!L) return;
     const n = (sh) => H.items.filter((i) => shelfOf(i) === sh).length;
@@ -1238,7 +1263,7 @@
     P.innerHTML = `<div class="mg-papers">${papers.map((it) => `<a class="mg-p" href="#/item/${esc(it.id)}"><span class="mg-pic">${img(it.hero)}</span><span><span class="label">${esc(TYPES[it.type] || it.type)}</span><b>${esc(shortTitle(it.title))}</b></span></a>`).join('')}</div>
       <div class="mg-foot"><a href="#/downloads">All ${papers.length} white papers, as PDFs ${ic.arrow}</a></div>`;
     M.innerHTML = `<div class="mg-col"><span class="label">Product marketing</span>${(H.pm || []).map((x) => lk('#/pm/' + x.id, x.short || x.name, (x.m3 && x.m3.competitors ? 'Against ' + x.m3.competitors.map((c) => c.name.split(/[ (]/)[0]).join(', ') : 'Benefits, claims, matrices and the launch playbook'))).join('')}</div>
-      <div class="mg-col"><span class="label">Brand</span>${lk('#/campaigns', 'Campaigns', 'Get Bromic: films, receipts, concept bank, trade and the audit')}</div>`;
+      <div class="mg-col"><span class="label">Brand</span>${lk('#/campaigns', 'Campaigns', 'Get Bromic: films, receipts, concept bank, trade and the audit')}${lk('#/retail', 'Retail Hub', 'One-pagers a retailer needs to sell Bromic', (HUB.retail && HUB.retail.pages || []).length || null)}</div>`;
     const rn = $('#review-n'); if (rn) rn.textContent = H.items.filter(awaiting).length;
   }
   document.addEventListener('click', (e) => { if (!e.target.closest('.tabs .mega')) document.querySelectorAll('.tabs .mega[open]').forEach((m) => (m.open = false)); });
@@ -1253,7 +1278,7 @@
     document.querySelectorAll('.tabs a').forEach((x) => x.toggleAttribute('aria-current', false) || (x.dataset.tab === tab && x.setAttribute('aria-current', 'page')));
     document.querySelectorAll('.tabs .mega').forEach((m) => { m.open = false; m.toggleAttribute('data-on', m.dataset.tab === tab); });
     const html = p === '' ? home() : p === 'library' ? library() : p === 'item' ? item(decodeURIComponent(a || '')) : p === 'journey' ? journey(a) : p === 'assets' ? assets(a)
-      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : p === 'cases' ? casesPage(a) : p === 'blog' ? blogPage() : p === 'downloads' ? downloadsPage() : p === 'todo' ? todo() : p === 'pm' ? pmPage(a) : p === 'campaigns' ? campaignsPage(a) : p === 'knowledge' ? knowledgePage(a) : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
+      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : p === 'cases' ? casesPage(a) : p === 'blog' ? blogPage() : p === 'downloads' ? downloadsPage() : p === 'todo' ? todo() : p === 'pm' ? pmPage(a) : p === 'campaigns' ? campaignsPage(a) : p === 'knowledge' ? knowledgePage(a) : p === 'retail' ? retailPage(a) : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
     view.innerHTML = html;
     const it = p === 'item' && ITEM[a];
     document.title = it ? `${it.title} · Bromic Content Hub` : 'Bromic Content Hub';
@@ -1285,6 +1310,7 @@
   try { if (localStorage.getItem('bromic-hub-edits-v1') || localStorage.getItem('bromic-hub-saved-v1')) { const v = JSON.parse(localStorage.getItem('bromic-hub-edits-v1') || '{}'), w = JSON.parse(localStorage.getItem('bromic-hub-saved-v1') || '{}'); if (Object.keys(v).length || Object.keys(w).length) loadEditor().then(() => { route.keepScroll = true; route(); }); } } catch {}
 
   document.addEventListener('click', (e) => {
+    if (e.target.closest('[data-rtprint]')) { document.body.classList.add('rt-print'); window.print(); setTimeout(() => document.body.classList.remove('rt-print'), 500); return; }
     const pt = e.target.closest('[data-pmtab]'); if (pt) { pmTab = pt.dataset.pmtab; route.keepScroll = true; route(); return; }
     const kt = e.target.closest('[data-kht]'); if (kt) { e.preventDefault(); khT = kt.dataset.kht; location.hash = khT ? '#/knowledge/' + khT : '#/knowledge'; route(); return; }
     const ka = e.target.closest('[data-kha]'); if (ka) { khA = ka.dataset.kha; route.keepScroll = true; route(); return; }
