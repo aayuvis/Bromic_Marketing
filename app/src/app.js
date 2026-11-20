@@ -1274,7 +1274,7 @@
     return `<div class="rt-bar"><a href="#/retail">‹ All one-pagers</a><span class="rt-nav">${prev ? `<a href="#/retail/${esc(prev.id)}">‹ ${esc(prev.title)}</a>` : ''}${next ? `<a href="#/retail/${esc(next.id)}">${esc(next.title)} ›</a>` : ''}</span><button class="btn" data-rtprint>Print or save as PDF</button></div>
       ${(P.needs_approval || []).length ? `<p class="rt-note">Needs sign-off: ${P.needs_approval.map(esc).join(', ')}.</p>` : ''}
       <article class="rt-sheet${R.status === 'draft' ? ' rt-draft' : ''}">
-        <header class="rt-sh"><span class="rt-logo">BROMIC</span><span class="label">${esc(P.kicker || 'Retail one-pager')}</span></header>
+        <header class="rt-sh"><span class="rt-logo"><img src="images/portfolio/bromic-logo.png" alt="Bromic Heating"></span><span class="label">${esc(P.kicker || 'Retail one-pager')}</span></header>
         <div class="rt-hero">${img(heroOf(P), '', false)}<div class="rt-ht"><h1>${esc(P.title)}</h1>${P.summary ? `<p>${esc(P.summary)}</p>` : ''}</div></div>
         <div class="rt-body">${(P.sections || []).map(sec).join('')}</div>
         ${P.cta ? `<div class="rt-cta">${rtText(P.cta)}</div>` : ''}
