@@ -390,6 +390,32 @@
    "source": "Bromic installation photo (bromic.com); old heater replaced with the Series II CAD render",
    "status": "pending",
    "note": ""
+  },
+  {
+   "id": "ts2-ai-31",
+   "title": "Montauk beach house deck",
+   "kind": "AI scene + CAD heater",
+   "finish": "black",
+   "w": 5056,
+   "h": 3392,
+   "file": "images/review/full/ts2-ai-31.jpg",
+   "thumb": "images/review/thumb/ts2-ai-31.webp",
+   "source": "Background generated with an image model; heater rendered from the Series II CAD",
+   "status": "pending",
+   "note": ""
+  },
+  {
+   "id": "ts2-ai-33",
+   "title": "Napa farmhouse porch",
+   "kind": "AI scene + CAD heater",
+   "finish": "black",
+   "w": 5056,
+   "h": 3392,
+   "file": "images/review/full/ts2-ai-33.jpg",
+   "thumb": "images/review/thumb/ts2-ai-33.webp",
+   "source": "Background generated with an image model; heater rendered from the Series II CAD",
+   "status": "pending",
+   "note": ""
   }
  ]
 }
