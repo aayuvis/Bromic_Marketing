@@ -1221,6 +1221,43 @@
   // ---------- navigation: three mega menus ----------
   const awaiting = (i) => !['approved', 'published', 'template'].includes(i.status) && shelfOf(i) !== 'internal';
 
+
+  // ---------- image approvals (data/image-review.json) ----------
+  let apF = 'pending';
+  const apSet = {}; // local decisions not yet saved
+  function approvalsPage() {
+    const all = (HUB.review || []).map((r) => ({ ...r, status: apSet[r.id] || r.status }));
+    if (!all.length) return '<div class="empty">No generated images waiting.</div>';
+    const n = (s) => all.filter((r) => r.status === s).length, show = apF === 'all' ? all : all.filter((r) => r.status === apF);
+    const dirty = Object.keys(apSet).length, okSaved = (HUB.review || []).filter((r) => r.status === 'approved').length;
+    return `<div class="rt-head"><span class="label">Image Approvals</span><h1>Generated Images Awaiting Approval</h1>
+      <p class="muted">Tungsten Series II images made for the content team: the heater is rendered from the Series II CAD; backgrounds are either Bromic installation photos or generated scenes, as each card says. Approve or reject each one, then save. Approved images can be downloaded as one zip.</p></div>
+      <div class="ap-bar"><div class="ap-f">${[['pending', 'Waiting'], ['approved', 'Approved'], ['rejected', 'Rejected'], ['all', 'All']].map(([k, t]) => `<button class="${apF === k ? 'on' : ''}" data-apf="${k}">${t} <span>${k === 'all' ? all.length : n(k)}</span></button>`).join('')}</div>
+        <div class="ap-act">${dirty ? `<button class="btn primary" data-apsave>Save ${dirty} ${dirty === 1 ? 'decision' : 'decisions'}</button>` : ''}${okSaved ? `<a class="btn" href="review/approved.zip" download>Download approved (${okSaved}) as zip</a>` : '<span class="muted">Nothing approved and saved yet.</span>'}</div></div>
+      <div class="ap-grid">${show.map((r) => `<figure class="ap-card st-${r.status}"><a href="${esc(r.file)}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(r.thumb)}" alt="${esc(r.title)}"></a>
+        <figcaption><b>${esc(r.title)}</b><small>${esc(r.kind)} · ${esc(r.finish)} · ${r.w}×${r.h}</small>${r.note ? `<small class="ap-note">${esc(r.note)}</small>` : ''}
+        <span class="ap-btns"><button data-apset="${esc(r.id)}|approved" aria-pressed="${r.status === 'approved'}">Approve</button><button data-apset="${esc(r.id)}|rejected" aria-pressed="${r.status === 'rejected'}">Reject</button><a href="${esc(r.file)}" download>Full size</a></span></figcaption></figure>`).join('') || '<p class="muted">Nothing here.</p>'}</div>`;
+  }
+  async function apSave() {
+    const R = HUB.repo, tokRaw = (() => { try { return localStorage.getItem('bromic-hub-gh') || sessionStorage.getItem('bromic-hub-gh'); } catch { return null; } })();
+    const tok = tokRaw ? JSON.parse(tokRaw) : null, list = Object.entries(apSet);
+    if (tok) {
+      try {
+        const api = `https://api.github.com/repos/${R.owner}/${R.name}/contents/data/image-review.json`, h = { Authorization: `Bearer ${tok}`, Accept: 'application/vnd.github+json' };
+        const g = await fetch(`${api}?ref=${encodeURIComponent(R.branch)}`, { headers: h }); if (!g.ok) throw new Error('GitHub said ' + g.status);
+        const cur = await g.json(), doc = JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(cur.content.replace(/\n/g, '')), (c) => c.charCodeAt(0))));
+        doc.items.forEach((it) => { if (apSet[it.id]) it.status = apSet[it.id]; });
+        const txt = JSON.stringify(doc, null, 1) + '\n', u = new TextEncoder().encode(txt); let bin = ''; for (let i = 0; i < u.length; i += 0x8000) bin += String.fromCharCode(...u.subarray(i, i + 0x8000));
+        const p = await fetch(api, { method: 'PUT', headers: { ...h, 'Content-Type': 'application/json' }, body: JSON.stringify({ message: `Hub edit: image approvals (${list.length})`, content: btoa(bin), sha: cur.sha, branch: R.branch }) });
+        if (!p.ok) throw new Error('GitHub said ' + p.status);
+        (HUB.review || []).forEach((it) => { if (apSet[it.id]) it.status = apSet[it.id]; }); Object.keys(apSet).forEach((k) => delete apSet[k]);
+        toast('Saved. The zip of approved images updates in about three minutes.'); route.keepScroll = true; route(); return;
+      } catch (err) { toast(String(err.message || err) + ' Opening an issue instead.'); }
+    }
+    const body = `<!-- bromic-image-approval v1 -->\n` + list.map(([id, s]) => `${id}: ${s}`).join('\n') + `\n\nApply to data/image-review.json.`;
+    window.open(`https://github.com/${R.owner}/${R.name}/issues/new?labels=edit&title=${encodeURIComponent('[Image approval] ' + list.length + ' decisions')}&body=${encodeURIComponent(body)}`, '_blank', 'noopener');
+  }
+
   // ---------- retail hub (data/retail/retail.json) ----------
   const RT_HERO = { 'why-bromic': 'l-001-000', 'range-selector': 'l-007-039', 'tungsten-series-ii': 'l-007-035', 'platinum-electric': 'l-010-066', eclipse: 'l-012-093', gas: 'w-bromic-tungsten-gas-4', controls: 'w-bromic-heating-app-blog-image', sizing: 'l-002-004', selling: 'l-005-024', 'install-warranty': 'w-bromic-shoot-may-11-2023-42', merchandising: 't2-select-white', ordering: 'l-006-028' };
   const rtText = (t) => esc(t).replace(/\[\[VERIFY:([^\]]*)\]\]/g, '<mark class="rt-verify" title="To confirm">To confirm:$1</mark>').replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>');
@@ -1265,6 +1302,7 @@
     M.innerHTML = `<div class="mg-col"><span class="label">Product marketing</span>${(H.pm || []).map((x) => lk('#/pm/' + x.id, x.short || x.name, (x.m3 && x.m3.competitors ? 'Against ' + x.m3.competitors.map((c) => c.name.split(/[ (]/)[0]).join(', ') : 'Benefits, claims, matrices and the launch playbook'))).join('')}</div>
       <div class="mg-col"><span class="label">Brand</span>${lk('#/campaigns', 'Campaigns', 'Get Bromic: films, receipts, concept bank, trade and the audit')}${lk('#/retail', 'Retail Hub', 'One-pagers a retailer needs to sell Bromic', (HUB.retail && HUB.retail.pages || []).length || null)}</div>`;
     const rn = $('#review-n'); if (rn) rn.textContent = H.items.filter(awaiting).length;
+    const an = $('#appr-n'); if (an) an.textContent = (HUB.review || []).filter((r) => r.status === 'pending').length || '';
   }
   document.addEventListener('click', (e) => { if (!e.target.closest('.tabs .mega')) document.querySelectorAll('.tabs .mega[open]').forEach((m) => (m.open = false)); });
   document.addEventListener('toggle', (e) => { const m = e.target; if (m.classList && m.classList.contains('mega') && m.open) document.querySelectorAll('.tabs .mega[open]').forEach((x) => x !== m && (x.open = false)); }, true);
@@ -1278,7 +1316,7 @@
     document.querySelectorAll('.tabs a').forEach((x) => x.toggleAttribute('aria-current', false) || (x.dataset.tab === tab && x.setAttribute('aria-current', 'page')));
     document.querySelectorAll('.tabs .mega').forEach((m) => { m.open = false; m.toggleAttribute('data-on', m.dataset.tab === tab); });
     const html = p === '' ? home() : p === 'library' ? library() : p === 'item' ? item(decodeURIComponent(a || '')) : p === 'journey' ? journey(a) : p === 'assets' ? assets(a)
-      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : p === 'cases' ? casesPage(a) : p === 'blog' ? blogPage() : p === 'downloads' ? downloadsPage() : p === 'todo' ? todo() : p === 'pm' ? pmPage(a) : p === 'campaigns' ? campaignsPage(a) : p === 'knowledge' ? knowledgePage(a) : p === 'retail' ? retailPage(a) : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
+      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : p === 'cases' ? casesPage(a) : p === 'blog' ? blogPage() : p === 'downloads' ? downloadsPage() : p === 'todo' ? todo() : p === 'pm' ? pmPage(a) : p === 'campaigns' ? campaignsPage(a) : p === 'knowledge' ? knowledgePage(a) : p === 'retail' ? retailPage(a) : p === 'approvals' ? approvalsPage() : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
     view.innerHTML = html;
     const it = p === 'item' && ITEM[a];
     document.title = it ? `${it.title} · Bromic Content Hub` : 'Bromic Content Hub';
@@ -1310,6 +1348,9 @@
   try { if (localStorage.getItem('bromic-hub-edits-v1') || localStorage.getItem('bromic-hub-saved-v1')) { const v = JSON.parse(localStorage.getItem('bromic-hub-edits-v1') || '{}'), w = JSON.parse(localStorage.getItem('bromic-hub-saved-v1') || '{}'); if (Object.keys(v).length || Object.keys(w).length) loadEditor().then(() => { route.keepScroll = true; route(); }); } } catch {}
 
   document.addEventListener('click', (e) => {
+    const apf = e.target.closest('[data-apf]'); if (apf) { apF = apf.dataset.apf; route.keepScroll = true; route(); return; }
+    const aps = e.target.closest('[data-apset]'); if (aps) { const [id, st] = aps.dataset.apset.split('|'); const orig = (HUB.review || []).find((r) => r.id === id); if (apSet[id] === st || (!apSet[id] && orig && orig.status === st)) delete apSet[id]; else apSet[id] = st; if (orig && apSet[id] === orig.status) delete apSet[id]; route.keepScroll = true; route(); return; }
+    if (e.target.closest('[data-apsave]')) { apSave(); return; }
     if (e.target.closest('[data-rtprint]')) { document.body.classList.add('rt-print'); window.print(); setTimeout(() => document.body.classList.remove('rt-print'), 500); return; }
     const pt = e.target.closest('[data-pmtab]'); if (pt) { pmTab = pt.dataset.pmtab; route.keepScroll = true; route(); return; }
     const kt = e.target.closest('[data-kht]'); if (kt) { e.preventDefault(); khT = kt.dataset.kht; location.hash = khT ? '#/knowledge/' + khT : '#/knowledge'; route(); return; }

@@ -4,7 +4,7 @@ name: Publish the Content Hub
 on:
   push:
     branches: [claude/dreamy-euler-xxi5g7]
-    paths: [content/**, data/**, images/library/**, tools/**, app/**, forms/**, reviews/**, templates/**]
+    paths: [content/**, data/**, images/library/**, images/review/**, tools/**, app/**, forms/**, reviews/**, templates/**]
   workflow_dispatch:
 permissions:
   contents: write

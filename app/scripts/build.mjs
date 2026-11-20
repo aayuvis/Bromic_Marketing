@@ -258,7 +258,9 @@ const CMDIR = path.join(ROOT, 'data', 'campaigns');
 const campaigns = fs.existsSync(CMDIR) ? fs.readdirSync(CMDIR).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(CMDIR, f), 'utf8'))) : [];
 const RTF = path.join(ROOT, 'data', 'retail', 'retail.json');
 const retail = fs.existsSync(RTF) ? JSON.parse(fs.readFileSync(RTF, 'utf8')) : null;
-const HUB = { built: new Date().toISOString(), commit, repo, regions, roles, langsAvailable: Object.fromEntries(Object.entries(tr).map(([l, m]) => [l, Object.keys(m).length])), matrix, assets, facts, images, usage, tools, site, cs, blogPlan, pm, campaigns, portfolio, retail, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
+const RVF = path.join(ROOT, 'data', 'image-review.json');
+const review = fs.existsSync(RVF) ? JSON.parse(fs.readFileSync(RVF, 'utf8')).items : [];
+const HUB = { built: new Date().toISOString(), commit, repo, regions, roles, langsAvailable: Object.fromEntries(Object.entries(tr).map(([l, m]) => [l, Object.keys(m).length])), matrix, assets, facts, images, usage, tools, site, cs, blogPlan, pm, campaigns, portfolio, retail, review, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
 
 console.log(`items ${items.length} · tools ${tools.length} · images ${images.length} · site pages ${site.length} · errors ${errors.length} · warnings ${warn.length}`);
 warn.forEach((w) => console.log('  warn  ' + w));
@@ -283,6 +285,14 @@ for (const [lang, m] of Object.entries(tr)) fs.writeFileSync(path.join(DIST, `da
 fs.cpSync(path.join(ROOT, 'images', 'library'), path.join(DIST, 'images', 'library'), { recursive: true });
 if (fs.existsSync(path.join(ROOT, 'images', 'portfolio'))) fs.cpSync(path.join(ROOT, 'images', 'portfolio'), path.join(DIST, 'images', 'portfolio'), { recursive: true });
 if (fs.existsSync(path.join(ROOT, 'images', 'campaigns'))) fs.cpSync(path.join(ROOT, 'images', 'campaigns'), path.join(DIST, 'images', 'campaigns'), { recursive: true });
+if (fs.existsSync(path.join(ROOT, 'images', 'review'))) {
+  fs.cpSync(path.join(ROOT, 'images', 'review'), path.join(DIST, 'images', 'review'), { recursive: true });
+  // the approved set as one download (rebuilt at every publish, so it follows the approvals file)
+  const ok = review.filter((r) => r.status === 'approved'), zp = path.join(DIST, 'review', 'approved.zip');
+  fs.mkdirSync(path.dirname(zp), { recursive: true });
+  if (ok.length) { const { execFileSync } = await import('node:child_process');
+    execFileSync('python3', ['-c', 'import sys,zipfile,os\nz=zipfile.ZipFile(sys.argv[1],"w",zipfile.ZIP_STORED)\nfor f in sys.argv[2:]: z.write(f,os.path.basename(f))\nz.close()', zp, ...ok.map((r) => path.join(ROOT, r.file))]); }
+}
 if (fs.existsSync(path.join(ROOT, 'tools', '_shared'))) fs.cpSync(path.join(ROOT, 'tools', '_shared'), path.join(DIST, 'tools', '_shared'), { recursive: true });
 for (const t of tools) fs.cpSync(path.join(ROOT, 'tools', t), path.join(DIST, 'tools', t), { recursive: true, filter: (s) => !/test\.mjs$|README\.md$|\.py$/.test(s) });
 console.log('dist written → app/dist/index.html');
