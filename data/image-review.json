@@ -416,6 +416,32 @@
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
    "status": "pending",
    "note": ""
+  },
+  {
+   "id": "ts2-ai-34",
+   "title": "Barcelona tapas terrace",
+   "kind": "AI scene + CAD heater",
+   "finish": "graphite",
+   "w": 5056,
+   "h": 3392,
+   "file": "images/review/full/ts2-ai-34.jpg",
+   "thumb": "images/review/thumb/ts2-ai-34.webp",
+   "source": "Background generated with an image model; heater rendered from the Series II CAD",
+   "status": "pending",
+   "note": ""
+  },
+  {
+   "id": "ts2-ai-35",
+   "title": "Hamptons golf club terrace",
+   "kind": "AI scene + CAD heater",
+   "finish": "black",
+   "w": 5056,
+   "h": 3392,
+   "file": "images/review/full/ts2-ai-35.jpg",
+   "thumb": "images/review/thumb/ts2-ai-35.webp",
+   "source": "Background generated with an image model; heater rendered from the Series II CAD",
+   "status": "pending",
+   "note": ""
   }
  ]
 }
