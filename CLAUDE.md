@@ -90,6 +90,16 @@ install and warranty, merchandising, ordering. Facts only from product data; unk
 "To confirm". No prices (owner's dealer guidance). Each prints to one Letter page ("Print or save as PDF"); sources show on
 screen, not in print. Competitor lines live only on the selling page (`needs_approval: Specification and compliance`).
 
+## Image Approvals (owner, 20 Nov 2026)
+
+`#/approvals` (tab "Image Approvals", count of waiting images): every generated image for owner sign-off, from
+`data/image-review.json` (`approvalsPage()` in app.js); files in `images/review/full/` (JPEG, full size) and `thumb/` (webp).
+Approve or reject per image, then **Save**: with the editor's GitHub token it commits the statuses to `data/image-review.json`
+(the publish workflow rebuilds the Hub); without one it opens an `[Image approval]` issue to apply. Each build zips the approved
+files to `review/approved.zip` ("Download approved as zip"). New generated images go here first, `status: pending`, with what
+the background is (real photo or generated) and the finish. Approved images still enter `images/library` as `generated` before use.
+Rules for making them: [cad/CAD-TO-REAL-REQUIREMENTS.md](cad/CAD-TO-REAL-REQUIREMENTS.md); QC agent `.claude/agents/tungsten-render-qc.md`.
+
 ## Calculations: one simple model
 
 Every tool and every article that does arithmetic follows [templates/calculation-model.md](templates/calculation-model.md) (owner,
