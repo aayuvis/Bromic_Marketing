@@ -1225,36 +1225,42 @@
   // ---------- image approvals (data/image-review.json) ----------
   let apF = 'pending';
   const apSet = {}; // local decisions not yet saved
+  const apNote = {}; // local comments not yet saved
   function approvalsPage() {
     const all = (HUB.review || []).map((r) => ({ ...r, status: apSet[r.id] || r.status }));
     if (!all.length) return '<div class="empty">No generated images waiting.</div>';
     const n = (s) => all.filter((r) => r.status === s).length, show = apF === 'all' ? all : all.filter((r) => r.status === apF);
-    const dirty = Object.keys(apSet).length, okSaved = (HUB.review || []).filter((r) => r.status === 'approved').length;
+    const dirty = new Set([...Object.keys(apSet), ...Object.keys(apNote)]).size, okSaved = (HUB.review || []).filter((r) => r.status === 'approved').length;
     return `<div class="rt-head"><span class="label">Image Approvals</span><h1>Generated Images Awaiting Approval</h1>
       <p class="muted">Tungsten Series II images made for the content team: the heater is rendered from the Series II CAD; backgrounds are either Bromic installation photos or generated scenes, as each card says. Approve or reject each one, then save. Approved images can be downloaded as one zip.</p></div>
       <div class="ap-bar"><div class="ap-f">${[['pending', 'Waiting'], ['approved', 'Approved'], ['rejected', 'Rejected'], ['all', 'All']].map(([k, t]) => `<button class="${apF === k ? 'on' : ''}" data-apf="${k}">${t} <span>${k === 'all' ? all.length : n(k)}</span></button>`).join('')}</div>
         <div class="ap-act">${dirty ? `<button class="btn primary" data-apsave>Save ${dirty} ${dirty === 1 ? 'decision' : 'decisions'}</button>` : ''}${okSaved ? `<a class="btn" href="review/approved.zip" download>Download approved (${okSaved}) as zip</a>` : '<span class="muted">Nothing approved and saved yet.</span>'}</div></div>
       <div class="ap-grid">${show.map((r) => `<figure class="ap-card st-${r.status}"><a href="${esc(r.file)}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(r.thumb)}" alt="${esc(r.title)}"></a>
         <figcaption><b>${esc(r.title)}</b><small>${esc(r.kind)} · ${esc(r.finish)} · ${r.w}×${r.h}</small>${r.note ? `<small class="ap-note">${esc(r.note)}</small>` : ''}
+        <textarea class="ap-c" data-apnote="${esc(r.id)}" rows="2" placeholder="${r.status === 'rejected' ? 'Why not? (required)' : 'Comment (optional): what works, what to change'}">${esc(apNote[r.id] ?? r.note ?? '')}</textarea>
         <span class="ap-btns"><button data-apset="${esc(r.id)}|approved" aria-pressed="${r.status === 'approved'}">Approve</button><button data-apset="${esc(r.id)}|rejected" aria-pressed="${r.status === 'rejected'}">Reject</button><a href="${esc(r.file)}" download>Full size</a></span></figcaption></figure>`).join('') || '<p class="muted">Nothing here.</p>'}</div>`;
   }
   async function apSave() {
     const R = HUB.repo, tokRaw = (() => { try { return localStorage.getItem('bromic-hub-gh') || sessionStorage.getItem('bromic-hub-gh'); } catch { return null; } })();
-    const tok = tokRaw ? JSON.parse(tokRaw) : null, list = Object.entries(apSet);
+    const tok = tokRaw ? JSON.parse(tokRaw) : null, ids = [...new Set([...Object.keys(apSet), ...Object.keys(apNote)])];
+    const stOf = (id) => apSet[id] || ((HUB.review || []).find((r) => r.id === id) || {}).status;
+    const missing = ids.filter((id) => stOf(id) === 'rejected' && !(apNote[id] ?? ((HUB.review || []).find((r) => r.id === id) || {}).note ?? '').trim());
+    if (missing.length) { toast('Add a reason for each rejected image before saving.'); return; }
+    const list = ids.map((id) => [id, stOf(id), apNote[id]]);
     if (tok) {
       try {
         const api = `https://api.github.com/repos/${R.owner}/${R.name}/contents/data/image-review.json`, h = { Authorization: `Bearer ${tok}`, Accept: 'application/vnd.github+json' };
         const g = await fetch(`${api}?ref=${encodeURIComponent(R.branch)}`, { headers: h }); if (!g.ok) throw new Error('GitHub said ' + g.status);
         const cur = await g.json(), doc = JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(cur.content.replace(/\n/g, '')), (c) => c.charCodeAt(0))));
-        doc.items.forEach((it) => { if (apSet[it.id]) it.status = apSet[it.id]; });
+        doc.items.forEach((it) => { if (apSet[it.id]) it.status = apSet[it.id]; if (apNote[it.id] != null) { it.note = apNote[it.id]; it.decided = new Date().toISOString().slice(0, 10); } });
         const txt = JSON.stringify(doc, null, 1) + '\n', u = new TextEncoder().encode(txt); let bin = ''; for (let i = 0; i < u.length; i += 0x8000) bin += String.fromCharCode(...u.subarray(i, i + 0x8000));
         const p = await fetch(api, { method: 'PUT', headers: { ...h, 'Content-Type': 'application/json' }, body: JSON.stringify({ message: `Hub edit: image approvals (${list.length})`, content: btoa(bin), sha: cur.sha, branch: R.branch }) });
         if (!p.ok) throw new Error('GitHub said ' + p.status);
-        (HUB.review || []).forEach((it) => { if (apSet[it.id]) it.status = apSet[it.id]; }); Object.keys(apSet).forEach((k) => delete apSet[k]);
+        (HUB.review || []).forEach((it) => { if (apSet[it.id]) it.status = apSet[it.id]; if (apNote[it.id] != null) it.note = apNote[it.id]; }); Object.keys(apSet).forEach((k) => delete apSet[k]); Object.keys(apNote).forEach((k) => delete apNote[k]);
         toast('Saved. The zip of approved images updates in about three minutes.'); route.keepScroll = true; route(); return;
       } catch (err) { toast(String(err.message || err) + ' Opening an issue instead.'); }
     }
-    const body = `<!-- bromic-image-approval v1 -->\n` + list.map(([id, s]) => `${id}: ${s}`).join('\n') + `\n\nApply to data/image-review.json.`;
+    const body = `<!-- bromic-image-approval v1 -->\n` + list.map(([id, s, n]) => `${id}: ${s}${n ? ' — ' + n.replace(/\n/g, ' ') : ''}`).join('\n') + `\n\nApply to data/image-review.json.`;
     window.open(`https://github.com/${R.owner}/${R.name}/issues/new?labels=edit&title=${encodeURIComponent('[Image approval] ' + list.length + ' decisions')}&body=${encodeURIComponent(body)}`, '_blank', 'noopener');
   }
 
@@ -1395,6 +1401,7 @@
     if (e.target.dataset && e.target.dataset.pmclaims !== undefined) { pmClaims = e.target.checked; route.keepScroll = true; route(); return; }
     if (e.target.id === 'pmprod') { location.hash = '#/pm/' + e.target.value; return; }
     if (e.target.id === 'cmsel') { location.hash = '#/campaigns/' + e.target.value; return; }
+    if (e.target.dataset && e.target.dataset.apnote !== undefined) { apNote[e.target.dataset.apnote] = e.target.value; const b = document.querySelector('[data-apsave]'), n = new Set([...Object.keys(apSet), ...Object.keys(apNote)]).size; if (b) b.textContent = `Save ${n} ${n === 1 ? 'decision' : 'decisions'}`; else { route.keepScroll = true; const f = e.target.dataset.apnote, pos = e.target.selectionStart; route(); const t = document.querySelector(`[data-apnote="${f}"]`); if (t) { t.focus(); t.setSelectionRange(pos, pos); } } return; }
     if (e.target.id === 'me') { store.set('bromic-hub-me', e.target.value); route.keepScroll = true; route(); return; }
     if (e.target.id === 'sort') { route.keepScroll = true; location.hash = libHref({ ...parseQ(), sort: e.target.value }); }
     if (e.target.dataset.imgf) { imgFilter[e.target.dataset.imgf] = e.target.value; view.innerHTML = images(); }

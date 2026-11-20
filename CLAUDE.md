@@ -99,6 +99,11 @@ Approve or reject per image, then **Save**: with the editor's GitHub token it co
 files to `review/approved.zip` ("Download approved as zip"). New generated images go here first, `status: pending`, with what
 the background is (real photo or generated) and the finish. Approved images still enter `images/library` as `generated` before use.
 Rules for making them: [cad/CAD-TO-REAL-REQUIREMENTS.md](cad/CAD-TO-REAL-REQUIREMENTS.md); QC agent `.claude/agents/tungsten-render-qc.md`.
+Each card has a comment box; a rejection needs a reason (saved as `note`, with `decided` date).
+**Learning loop (start every session here, with the feedback issues):** read `data/image-review.json` (and any `[Image approval]`
+issues). For every rejection or comment not yet learned, add one concrete, testable rule to §12 "Owner decisions" of the
+requirements doc and the matching check to the QC agent, then set `learned: true` on that item and commit. Approved images
+show what good looks like: note the pattern. Never regenerate a rejected scene the same way.
 
 ## Calculations: one simple model
 

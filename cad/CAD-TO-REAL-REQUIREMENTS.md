@@ -200,3 +200,13 @@ At 100%, check every image against this list. One failure means it is not sent.
 Environment notes:
 - No GPU or EGL is available, so use Cycles on CPU. Workbench and EEVEE fail.
 - A 2× render takes about 3–7 minutes per image on 4 cores.
+
+---
+
+## 12. Owner decisions (from the Image Approvals tab)
+
+Rules learned from the owner's approvals and rejections in `data/image-review.json`, newest first. Each line: date · image ·
+decision · the rule it adds. The QC agent checks every rule here.
+
+- 2026-11-20 · ts2-photo-01 (café wall, white) · approved, "excellent" · A clean front-on wall at true scale, heater centred over the
+  seating, soft contact shadow, no visible bracket is the reference look.

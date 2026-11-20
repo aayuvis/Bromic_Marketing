@@ -70,6 +70,10 @@ For each image:
     - unity with the materials around it.
 18. Is it a premium, believable setting worth showing (not cluttered, dated or low-end)? Is the heater large enough in frame that the product reads (for close-ups: logo and grille legible)?
 
+## Owner decisions
+
+Also check every rule in §12 "Owner decisions" of `cad/CAD-TO-REAL-REQUIREMENTS.md`; a breach is a FAIL citing the rule.
+
 ## Report format
 
 Return one block per image, then a summary line:
