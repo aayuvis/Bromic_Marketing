@@ -78,6 +78,20 @@ The owner's design principles (20 Nov), applied to every image:
 - **M15. Hierarchy and scale.** Size relates to the people and furniture. The heater is a clear focal point but never dominates the architecture.
 - **M16. In contact.** The post meets the surface: no gap, nothing floating, no post into open air. If the original heater hung on chains well below the surface, choose another photo. "The mount is floating in the air and at a weird angle." "They are not floating like this."
 
+
+### Placement by surface (owner, 20 Nov 2026)
+
+| Surface in the photo | Allowed mount | Never |
+|---|---|---|
+| Vertical wall, beam face, fascia, window transom | Wall bracket, single post into the face. Heater level, parallel to the beam edge, centred on the face or slightly below it ("mount it a bit lower"). | On the glass, above the beam top edge, angled off the wall |
+| Flat horizontal ceiling, seen from below | Straight ceiling post, **or recessed** (new low-clearance kit: flush slim trim, vent at one end) | Chains, drop rods, long poles |
+| Sloped or pitched ceiling | Pitch adaptor so the heater hangs **level**, parallel to the ridge or the eaves | **Recessed** (a recess kit cannot go into an inclined ceiling), a heater following the slope |
+| Pergola, louvre or glass roof | Post into a solid beam only, parallel to the beam | Into glass or louvres, recessed |
+
+- Choose the mount from what the original installation shows. When the owner asks to change it (for example, "recess the heater"), check the surface first. If the new mount is not allowed on that surface, choose another photo; never force it.
+- The old heater's position is the starting point, never the answer. Move the heater if the architecture rules (parallel, centred, rhythm) say so.
+- **Finish.** Graphite is a warm dark grey (owner's launch visual), not mid-grey or silver. Black is satin black. White is off-white. In every finish, the grille shows two thin red element lines over a light reflector, never an orange or pink flood.
+
 ---
 
 ## 5. Camera match: required before any render
