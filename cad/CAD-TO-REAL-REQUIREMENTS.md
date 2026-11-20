@@ -22,8 +22,14 @@ Owner, verbatim: *"the idea is to create realistic images not slob… they must 
 
 ## 2. Backgrounds
 
+**Tungsten only (owner, 20 Nov 2026).** These images show the Tungsten Series II (Select, Classic, Coastal) and nothing else: never a
+Platinum, Eclipse, gas or competitor heater. A background photo must show either an existing **Tungsten** installation, which is replaced
+with Series II on the same mount, or no heater at all. Never put a Tungsten into a photo of another heater, its recess or its mount
+(a Platinum recess under a Tungsten looks wrong): *"don't use other heater image to put tungsten as it will look bad"*.
+
 | Must | Why (owner feedback) |
 |---|---|
+| **M0. Background shows Tungsten or no heater.** Check the library `product` field and look at the photo itself. Platinum, Eclipse, gas and other brands are out. | "We are only doing tungsten heaters… not platinums." |
 | **M1. Use real photographs first.** Order: real Bromic installation photos from `images/library/`, then real photos the owner supplies, then new shoots. | "Backgrounds also cannot be AI slob… as close to real as possible… take inspiration from real life." |
 | **M2. Never use an image model's whole scene as a background.** Generated scenes read as AI: too perfect, over-lit, symmetrical, airbrushed and over-saturated. A generated plate is allowed only when the owner asks for one. It must then be prompted from a real reference photo, which keeps its camera, light and materials, and the owner must approve it before any heater goes in. | The 24 generated coastal plates were rejected on sight. |
 | **M3. Choose photos with a clear mounting surface:** a beam face, soffit, fascia, wall or flat ceiling, seen front-on or slightly from below. | Wide shots where the heater is a thin line, end-on views and steep upward views failed. |
@@ -139,6 +145,7 @@ Owner, on the screened porch: *"Heater has no natural shadows or edges. It looks
 
 At 100%, check every image against this list. One failure means it is not sent.
 
+- [ ] Tungsten only; the background showed Tungsten or no heater (never Platinum, Eclipse, gas or another brand).
 - [ ] Heater, bracket and logo all come from CAD. No generated heater anywhere in the image.
 - [ ] Correct mount type (§3), single post, no junction box, no chains, no old recess trim.
 - [ ] Parallel to the architecture, centred, evenly spaced, in contact with the surface.
@@ -161,7 +168,8 @@ At 100%, check every image against this list. One failure means it is not sent.
    - Look at every image at full size.
    - Send a contact sheet plus a zip of full-size JPEGs.
    - Say which images were dropped and why.
-4. **Library rules.** Nothing enters the library without the owner's approval. When added, an image is labelled `generated` (a CAD composite), with the source photo credited.
+4. **Triple check.** The author checks each image, the `tungsten-render-qc` agent (`.claude/agents/tungsten-render-qc.md`) checks it independently, then the author re-checks anything the agent flags. Only a PASS from all three is sent.
+5. **Library rules.** Nothing enters the library without the owner's approval. When added, an image is labelled `generated` (a CAD composite), with the source photo credited.
 
 ---
 
