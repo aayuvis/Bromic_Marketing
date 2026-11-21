@@ -269,10 +269,10 @@ def title(d, s, t0, t, x=72, y=92, size=58, col=INK, dur=0.7):
 def legend(d, a, x, y, dark=False):
     if a <= 0: return
     col = WHITE if dark else INK
-    d.rounded_rectangle((x - 16, y - 18, x + 330, y + 104), 10, fill=((20, 20, 22, int(170 * a)) if dark else (255, 255, 255, int(205 * a))))
+    d.rounded_rectangle((x - 16, y - 18, x + 330, y + 120), 10, fill=((20, 20, 22, int(170 * a)) if dark else (255, 255, 255, int(205 * a))))
     for i, (c, s) in enumerate(((AIR, 'Air flow'), (HEAT, 'Convective heat'), (RAD, 'Radiant heat'))):
         yy = y + 8 + i * 30; d.ellipse((x, yy - 7, x + 14, yy + 7), fill=(*c, int(255 * a))); text(d, (x + 26, yy), s, LS(21), col, 'lm', a)
-    text(d, (x, y + 100), 'Illustration – not a thermal test', LS(16), (130, 130, 130), 'lm', a)
+    text(d, (x, y + 102), 'Illustration – not a thermal test', LS(16), (130, 130, 130), 'lm', a)
 
 # ------------------------------------------------------------------ subtitles from the voice-over script
 VO = re.findall(r'\[\d · [^\]]*\]\n(.+?)(?:\n\n|\Z)', open(os.path.join(os.path.dirname(__file__), 'voiceover.txt')).read(), re.S)

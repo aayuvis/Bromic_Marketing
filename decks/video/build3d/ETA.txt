@@ -4,3 +4,11 @@ First measurement (old every-frame plan): with-kit frame 246 s, exploded frame ~
 15:15 UTC  measured: P0 (night cold-open plate, f/2.8 DOF, 2240x1260) 667 s with the CPU shared (load ~8.5 on 4 cores: another Blender job running). P2 (exploded studio plate) 58-67 s. Projection: remaining plates ~6 x 3-10 min = ~35 min; explode 75 x ~60 s = ~75 min; fans ~30 min -> renders end about 17:35 UTC; compositing + encode ~30-40 min after -> film about 18:10 UTC.
 15:36 UTC  render job restarted (it was stopped by a 30-min process limit after P0, P1A, P1B, P2; ~6 min of P3 lost). Now detached; resumes where it stopped.
 15:48 UTC  measured: P1A 167 s, P1B 448 s, P3 583 s (section plates are heavy with the CPU shared, load ~8 on 4 cores). Plates left: P4, P5, P6 (~25 min) -> aux maps (~3 min) -> 75 explode frames (~45-60 s each, ~60-70 min) -> ~51 fan-region pairs (~45 min). Renders end about 18:18 UTC; compositing + encode about 35 min -> film about 18:53 UTC.
+16:16 UTC  explode frames: 1 done, 74 to go, 334 s each (measured) -> this stage ends about 23:08 UTC
+16:17 UTC measured: plates P0-P6 + aux maps done (render job started 14:3x). Explode frames ~34 s each (first 332 s incl. scene load): 75 frames end ~16:59 UTC -> fan regions ~45 min -> renders end ~17:45 UTC; P2 re-render 1 min; compositing + audio + encode ~35 min -> film ~18:20 UTC.
+16:19 UTC  explode frames: 6 done, 69 to go, 86 s each (measured) -> this stage ends about 17:58 UTC
+16:22 UTC  explode frames: 11 done, 64 to go, 64 s each (measured) -> this stage ends about 17:31 UTC
+16:26 UTC  explode frames: 16 done, 59 to go, 56 s each (measured) -> this stage ends about 17:21 UTC
+16:29 UTC  explode frames: 21 done, 54 to go, 52 s each (measured) -> this stage ends about 17:16 UTC
+16:33 UTC  explode frames: 26 done, 49 to go, 51 s each (measured) -> this stage ends about 17:14 UTC
+16:35 UTC  explode frames: 31 done, 44 to go, 47 s each (measured) -> this stage ends about 17:10 UTC
