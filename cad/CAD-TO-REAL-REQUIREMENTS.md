@@ -236,4 +236,8 @@ decision · the rule it adds. The QC agent checks every rule here.
   it can redraw the product and the setting. Before anything is sent, compare the heater part by part with the real product photos
   (head thickness and shape, arm, base, ring, element) and the setting with the source; if either changed, drop it. Never send a
   variant whose product differs from the reference.
+- **Recess axis (owner, 21 Nov 2026):** recessed heaters follow the manual – long axis WITH the joists or ceiling boards. A real
+  install photo that has them running across the boards is not used for a recessed image (the Connecticut white front porch is out).
+- **Keep pushing all types (owner, 21 Nov 2026):** after three failed rounds on ceiling and recess composites, the owner chose to keep
+  iterating every mount type rather than switch to wall-only or real photography.
 
