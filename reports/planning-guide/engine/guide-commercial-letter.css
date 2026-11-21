@@ -1,0 +1,21 @@
+/* Commercial Edition, US Letter portrait, after guide-letter.css */
+.worth .lede2{font-size:13.5px;margin:4px 0 10px}
+.chain b{font-size:28px}.chain span{font-size:11.5px}
+.worth figure.wimg{height:170px}
+.wex li{padding:6px 0}.wex li span{font-size:12.5px}.wex li b{font-size:22px}
+.worth .qv{left:44px;right:44px;top:auto;bottom:46px}
+.hgt{grid-template-columns:1fr;gap:12px}
+.hgt .chart{max-width:640px;margin:0 auto}
+.mrow3 figure.ph{height:120px}
+.trio.t1{grid-template-columns:1fr 1fr 1fr;gap:14px;margin-top:10px}
+.eg3{gap:14px;margin-top:10px}.eg3 li{font-size:12.5px}
+.full .pair figure.ph{height:150px}
+.side-r2 .qv figure.cimg{height:160px}
+.roll{margin:8px 0 4px}.roll h3{font-size:15px}.roll p{font-size:12px}
+.brief .ckl li{font-size:12.5px}
+.full figure.qstrip2{height:330px;margin-top:16px}
+
+.brief .bimg{height:260px}.brief .qt{top:280px}
+.brief .roll li{padding-top:4px}.brief .ckl{gap:4px;margin:8px 0 10px}
+.cost .chart{max-width:560px}
+.costp .qv{top:auto;bottom:46px}.costp .qv figure.cimg{display:none}

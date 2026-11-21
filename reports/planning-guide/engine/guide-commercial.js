@@ -167,7 +167,7 @@
       add(svg, rc.line(x - 120, y - 12, x + 120, y - 12, O({ stroke: LINE, strokeWidth: 1 })));
       add(svg, rc.rectangle(x - 46, y - 6, 92, 12, O({ fill: INK, fillStyle: 'solid', roughness: 0.4 }))); add(svg, rc.rectangle(x - 40, y - 2, 80, 5, O({ stroke: 'none', fill: FLAME, fillStyle: 'solid' })));
       add(svg, rc.polygon([[x - 40, y + 8], [x + 40, y + 8], [x + 92, G - 30], [x - 92, G - 30]], O({ stroke: FLAME, strokeWidth: 0.8, fill: FLAME, fillStyle: 'hachure', hachureGap: 11, fillWeight: 0.6, roughness: 0.6 })));
-      add(svg, rc.line(x - 108, y, x - 108, G, O({ stroke: FINK, strokeWidth: 1.2 }))); T(svg, x - 112, (y + G) / 2, v, { size: 15, anchor: 'end', fill: FINK, weight: 700, halo: '#fff' });
+      add(svg, rc.line(x + 104, y, x + 104, G, O({ stroke: FINK, strokeWidth: 1.2 }))); T(svg, x + 100, y + 30, v, { size: 15, anchor: 'end', fill: FINK, weight: 700, halo: '#fff' });
       if (k === 'tbl') { add(svg, rc.rectangle(x - 30, G - 2.5 * F, 60, 8, O({ fill: '#E7DCCD', fillStyle: 'solid' }))); person(x - 62, 4.4, true); person(x + 36, 4.4, true); }
       if (k === 'bar') { add(svg, rc.rectangle(x - 20, G - 3.5 * F, 70, 3.5 * F, O({ fill: '#C9C6C1', fillStyle: 'solid' }))); person(x - 50, 5.6, false); }
       if (k === 'stand') { person(x - 30, 5.8, false); person(x + 22, 5.6, false); }
@@ -202,7 +202,7 @@
 
   // five-year fuel for the 40-seat example (1,000 heater hours a year), US commercial rates
   CH.fuel5 = (svg) => {
-    const rc = rough.svg(svg), max = 70000, W = 520, rows = [['Natural gas', 'Tungsten Freestanding Gas × 10', 19190, 0], ['Electric', 'Platinum Electric 4500 W × 7', 22160, 0, 1], ['Propane', 'Tungsten Freestanding Gas × 10', 51082, 18417]];
+    const rc = rough.svg(svg), max = 70000, W = 420, rows = [['Natural gas', 'Tungsten Freestanding Gas × 10', 19190, 0], ['Electric', 'Platinum Electric 4500 W × 7', 22160, 0, 1], ['Propane', 'Tungsten Freestanding Gas × 10', 51082, 18417]];
     rows.forEach(([t, s, v, h, hl], i) => {
       const y = 20 + i * 92, w = W * v / max, wh = W * h / max;
       T(svg, 0, y + 22, t, { size: 22, serif: true, fill: hl ? FINK : INK }); T(svg, 0, y + 42, s, { size: 12.5, fill: INK2 });
@@ -216,7 +216,7 @@
 
   // payback on the worked example by the share of heated seats filled (placeholder installed cost)
   CH.payback = (svg) => {
-    const rc = rough.svg(svg), rows = [['A quarter filled', 38.8], ['Half filled', 18.3, 1], ['Three quarters filled', 12.0]], W = 440, max = 40;
+    const rc = rough.svg(svg), rows = [['A quarter filled', 38.8], ['Half filled', 18.3, 1], ['Three quarters filled', 12.0]], W = 360, max = 40;
     rows.forEach(([t, v, hl], i) => {
       const y = 18 + i * 74, w = W * v / max;
       T(svg, 0, y + 24, t, { size: 15, weight: hl ? 700 : 400, fill: hl ? INK : INK2 });

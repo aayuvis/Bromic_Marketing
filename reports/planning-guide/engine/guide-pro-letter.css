@@ -1,0 +1,27 @@
+/* Professional Edition, US Letter portrait (816 x 1056), after guide-letter.css. */
+.pro .pr2,.pro .pr2.rec,.pro .pr2.pw,.pro .pr2.ctl,.pro .pr2.clr,.pro .rough .pr2.rck{grid-template-columns:1fr;gap:12px;margin-top:6px}
+.pro .pcol{grid-template-columns:1fr 1fr;gap:10px}
+.pro .pcol figure.ph,.pro .pro-rcp .pcol figure.ph{height:170px}
+.pro .pbul{gap:14px;margin-top:10px}.pro .pbul b{font-size:16px}.pro .pbul span{font-size:12.5px}
+.pro .quad{grid-template-columns:1fr 1fr;gap:10px}.pro .quad figure.ph{height:120px}
+.pro .full .chart.s2{height:560px}
+.pro .pr2.rec .pcol figure.ph{height:190px}
+.pro .full .chart.hts{height:auto;width:100%}
+.pro .pr3{grid-template-columns:1fr 1fr 1fr;gap:10px}
+.pro .pr3>div:first-child{grid-column:1/-1}
+.pro .pr3 figure.ph{height:140px}
+.pro .full .chart.mds{height:auto;width:100%}
+.pro .phy{grid-template-columns:1fr;gap:10px}
+.pro .phr{grid-template-columns:300px 1fr;gap:12px}
+.pro .phr figure.big{height:210px}
+.pro .phr .waves p{font-size:12px}.pro .phr .waves h3{font-size:16px}
+.pro .pw .pcol{grid-template-columns:1fr 1fr}
+.pro .pw .pcol figure.ph{height:200px}
+.pro .gasn p{font-size:13px}
+.pro .cuts{gap:8px}.pro .cuts figure.ph{height:110px}
+.pro .ctl figure.ph{height:150px}
+.pro .rck .ckl{gap:7px 18px}.pro .rck .ckl li{font-size:13px}
+.pro .rck figure.ph{height:200px}
+.pro .brief .ckl li{font-size:13px}.pro .brief .lede{font-size:13.5px}
+.pro .lay .flow li{grid-template-columns:86px 1fr}
+.pro .tiles .tile small{font-size:11px}

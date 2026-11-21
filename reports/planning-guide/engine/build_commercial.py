@@ -177,7 +177,7 @@ def build(inline=False, letter=False):
     <div><h3>Propane</h3><ul><li>Open spaces with no structure; layouts that change</li><li>Cylinder buying, swapping and storage</li><li>Freestanding heaters; confirm controls per model</li><li>The most restricted by the fire code</li><li>Check local rules on portable propane</li></ul></div></div>
   <div class="pair">{ph('w-bromic-sep18th-28', 'Electric: Eclipse over a rooftop bar')}{ph('l-019-164', 'Gas: a Tungsten Freestanding beside a set table')}{ph('w-usa-san-diego-decoy-lakehouse-hotel-tungsten', 'Built-in gas in rows over a lakeside dining deck')}</div>{folio()}</section>''')
     # running cost
-    pages.append(f'''<section class="pg g side-r2">
+    pages.append(f'''<section class="pg g side-r2 costp">
   <div class="qt cost">{head('Question 05 · Running Cost', 'What An Evening Of Warmth Costs')}
     <div class="hero"><div class="fig">About 63¢</div><p>an hour for a Platinum Electric 4500 W at full output, at the US average commercial rate – less when you dim it or zone it off.</p></div>
     {svg('costc', '640 280')}<p class="src">Per hour at full output: commercial electricity 14.07¢/kWh, natural gas $1.01 a therm, propane $2.46 a gallon (EIA). Your tariff will differ.</p></div>
@@ -185,7 +185,7 @@ def build(inline=False, letter=False):
     <p class="src">Energy for 1,000 heater hours a year (for example, 5 hours a night for 200 nights), partly covered, cool evenings: 7 electric heaters or 10 freestanding gas heaters (up to four seats each). Hardware, installation and permits come on top: the five-year cost calculator adds them for your site.</p>
     {ph('w-bromic-sep18th-14', 'Electric heaters over a bar, zoned to service', 'ph cimg')}</div>{folio()}</section>''')
     # controls
-    pages.append(f'''<section class="pg g full">
+    pages.append(f'''<section class="pg g full ctl">
   {head('Question 05 · The Controls', 'Zones And Schedules, Built In', 'Affinity Smart-Heat Controls warm each section only when it is open and only as much as the evening needs – that is what turns the running-cost numbers into real savings.', '05')}
   <div class="sys">
     <figure>{img('w-tungelec-stacked', alt='Tungsten Electric heaters')}<figcaption><b>Heaters</b>Grouped by section</figcaption></figure><span class="arr">→</span>

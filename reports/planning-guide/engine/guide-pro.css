@@ -1,0 +1,44 @@
+/* Professional Edition additions (landscape 1600 x 900), after guide.css. Scoped to body.pro. */
+.pro .pr2{display:grid;grid-template-columns:900px 1fr;gap:36px;align-items:start;margin-top:8px}
+.pro .pr2 .chart{width:100%;height:auto;display:block}
+.pro .pcol{display:grid;gap:14px}
+.pro .pcol figure.ph{height:190px}
+.pro .pro-rcp .pcol figure.ph{height:200px}
+.pro .pbul{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:10px}
+.pro .pbul li{border-top:2px solid var(--ink);padding-top:9px;display:grid;gap:4px}
+.pro .pbul b{font-family:var(--serif);font-weight:400;font-size:21px}
+.pro .pbul span{font-size:14.5px;color:var(--ink-2);line-height:1.45}
+.pro .quad{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:8px}
+.pro .quad figure.ph{height:150px}
+.pro figure.ph.cut img{object-fit:contain;background:#fff}
+.pro .full .chart.s2{height:410px;width:auto;max-width:100%;margin:4px auto 0}
+.pro .pr2.rec{grid-template-columns:820px 1fr}
+.pro .pr2.rec .pcol figure.ph{height:240px}
+.pro .full .chart.hts{height:330px;width:auto;max-width:100%;margin:0 auto}
+.pro .pr3{display:grid;grid-template-columns:560px repeat(3,1fr);gap:18px;align-items:start;margin-top:4px}
+.pro .pr3 .chart{width:100%;height:auto;display:block}
+.pro .pr3 figure.ph{height:210px}
+.pro .full .chart.mds{height:170px;width:auto;max-width:100%;margin:0 auto 4px}
+.pro .phy{grid-template-columns:860px 1fr;gap:34px}
+.pro .phr{display:grid;gap:10px}
+.pro .phr figure.big{height:200px}
+.pro .phr .waves{grid-template-columns:1fr;gap:8px;margin-top:0}
+.pro .phr .waves>div{padding-top:6px}.pro .phr .waves h3{font-size:19px;margin-bottom:2px}.pro .phr .waves p{font-size:13.5px}
+.pro .pr2.pw{grid-template-columns:900px 1fr}
+.pro .pw .pcol figure.ph{height:250px}
+.pro .gasn{border-top:2px solid var(--ink);padding-top:10px}
+.pro .gasn p{font-size:15px}
+.pro .pr2.ctl{grid-template-columns:760px 1fr;gap:40px}
+.pro .cuts{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:6px}
+.pro .cuts figure.ph{height:140px}
+.pro .ctl figure.ph{height:150px;margin-top:10px}
+.pro .rough .pr2.rck{grid-template-columns:1fr 420px;gap:40px;margin-top:6px}
+.pro .rck .ckl{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:10px 28px;margin-top:10px}
+.pro .rck .ckl li{display:flex;gap:12px;align-items:center;font-size:15.5px;color:var(--ink)}
+.pro .rck figure.ph{height:240px}
+.pro .pr2.clr{grid-template-columns:640px 1fr;gap:44px}
+.pro .trio:has(.pli) figure.ph{height:150px}
+.pro .brief .ckl{gap:8px;margin:14px 0 18px}
+.pro .brief .ckl li{font-size:15px}
+.pro .brief .lede{font-size:16px}
+.pro .lay .flow li{grid-template-columns:80px 1fr}
