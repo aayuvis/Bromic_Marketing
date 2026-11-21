@@ -803,7 +803,8 @@
    "file": "images/review/full/pr-select-white-hero.jpg",
    "thumb": "images/review/thumb/pr-select-white-hero.webp",
    "source": "Rendered from the Tungsten Series II CAD on a white studio sweep; short ceiling post, satin powder coat, glowing elements.",
-   "status": "pending"
+   "status": "pending",
+   "note": "Being re-rendered: from this angle the logo reads only \"...OMIC\". The new version replaces this one."
   },
   {
    "id": "ad-ts2-04",
@@ -863,7 +864,6 @@
    "file": "images/review/full/pr-coastal-white-hero.jpg",
    "thumb": "images/review/thumb/pr-coastal-white-hero.webp",
    "source": "Rendered from the Series II CAD. The CAD does not model Coastal's corrosion protection, so this looks the same as Select white: caption it as Coastal only where the copy says so.",
-   "note": "Select white hero will be replaced by a re-render: from its angle the logo reads only \"...OMIC\".",
    "status": "pending"
   }
  ]
