@@ -35,7 +35,7 @@ def build(rid, inline=False, letter=False):
     RD = os.path.join(TR, rid)
     aud = dict(AUD_ICON, **getattr(C, 'AUD_ICON_EXTRA', {}))
     n_sh = len(C.SHIFTS)
-    folio_txt = f'Outdoor Living Trends 2027 · {C.REGION}'
+    folio_txt = getattr(C, 'FOLIO', f'Outdoor Living Trends 2027 · {C.REGION}')
 
     def folio(p, dark=False):
         return (f'<div class="folio{" dk" if dark else ""}"><span>{E(folio_txt)}</span>'
@@ -160,7 +160,7 @@ def build(rid, inline=False, letter=False):
     else:
         body = body.replace('src="LOGO"', 'src="../../../images/portfolio/bromic-logo.png"').replace('src="LOGOW"', 'src="../../../images/portfolio/bromic-logo-white.png"')
     doc = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex"><title>Outdoor Living Trends 2027</title>
+<meta name="robots" content="noindex"><title>{E(getattr(C, 'TITLE', 'Outdoor Living Trends 2027'))}</title>
 <style>{css}</style></head><body><main id="deck">
 {body}
 </main><script>{rough}</script><script>{charts}</script><script>{js}</script></body></html>'''
