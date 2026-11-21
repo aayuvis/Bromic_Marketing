@@ -99,7 +99,7 @@ charts (rough.js) in `<id>/charts.js`; the shared engine in `reports/trends-2027
 `python3 reports/trends-2027/engine/publish.py <id> --shots DIR` builds both formats, runs the print check (`engine/qa.js`: no text
 off a page, no overlapping chart labels or blocks, no missing image) and prints both PDFs. Charts show the year on every
 before/after point and never repeat the source printed under the headline number. The Hub lists them on `#/trends`
-(`data/trends-2027.json`) and in the White Papers menu; `deploy.sh` renders the PDFs.
+(`data/trends-2027.json`) and in the White Papers menu. The eight PDFs are committed: after changing a report, run `publish.py` and commit its PDFs (the CI browser renders them 5× larger).
 
 ## Image Approvals (owner, 20 Nov 2026)
 
