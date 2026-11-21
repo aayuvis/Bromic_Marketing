@@ -205,7 +205,8 @@
   }
 
   // A translated page downloads its translated PDF (pdf/<lang>/<id>.pdf, built by scripts/pdf.mjs from data-<lang>.js).
-  const pdfHref = (it) => (it.tr && it.lang !== 'en' ? `pdf/${it.lang}/${encodeURIComponent(it.id)}.pdf` : `pdf/${encodeURIComponent(it.id)}.pdf`);
+  const VG = Object.fromEntries((HUB.vguides || []).map((g) => [g.item, g]));  // items whose PDF is the designed guide
+  const pdfHref = (it) => (VG[it.id] && !(it.tr && it.lang !== 'en') ? `${VG[it.id].dir}/${VG[it.id].file}.pdf` : it.tr && it.lang !== 'en' ? `pdf/${it.lang}/${encodeURIComponent(it.id)}.pdf` : `pdf/${encodeURIComponent(it.id)}.pdf`);
 
   function toast(msg) { const t = $('#toast'); t.textContent = msg; t.classList.add('on'); clearTimeout(toast.t); toast.t = setTimeout(() => t.classList.remove('on'), 1800); }
   async function copy(text, msg) {
@@ -550,6 +551,7 @@
     const tool = it.type === 'tool' && H.tools.find((t) => t.startsWith(it.asset || it.id));
     const ED = window.HubEditor, hero = ED ? ED.heroId(it) : it.hero;
     return `<nav class="crumbs"><a href="#/library">Assets</a><span>/</span><a href="${libHref({ shelf: shelfOf(it) })}">${esc(SHELF[shelfOf(it)].name)}</a>${it.cell ? `<span>/</span><a href="#/journey/${esc(it.cell)}">${esc(it.cell)}</a>` : ''}</nav>
+    ${VG[it.id] ? `<div class="vg-band"><img src="${esc(VG[it.id].dir)}/${esc(VG[it.id].cover)}" alt="Cover of ${esc(VG[it.id].title)}" loading="lazy"><div><span class="label">The designed guide · 2027</span><h3>${esc(VG[it.id].title)}</h3><p>The visual edition of this guide: first principles, outdoor layouts and real Bromic installations, in landscape for screens and US Letter for print.</p><div class="btns"><a class="btn primary" href="${esc(VG[it.id].dir)}/${esc(VG[it.id].file)}.pdf" download>${ic.down}Landscape PDF</a><a class="btn" href="${esc(VG[it.id].dir)}/${esc(VG[it.id].file)}-Letter.pdf" download>${ic.down}Letter PDF</a><a class="btn" href="${esc(VG[it.id].dir)}/index.html" target="_blank" rel="noopener">${ic.ext}View</a><a class="btn" href="${esc(VG[it.id].dir)}/letter.html" target="_blank" rel="noopener">${ic.ext}View Letter</a></div></div></div>` : ''}
     ${SUPERSEDED.has(it.id) ? `<p class="notice" style="background:var(--flame-wash);padding:12px 16px;margin:12px 0"><b>Replaced by Outdoor Living Trends 2027.</b> <a href="#/trends">See the 2027 reports ${ic.arrow}</a></p>` : ''}
     <div class="ed-start"><button type="button" class="btn" data-edit-page>${ic.pen}${esc(STR('Edit this page'))}</button></div>
     ${hero ? `<div class="reader-hero">${img(hero, '', false)}${ED ? ED.heroButton(it) : ''}${it.hero_caption && hero === it.hero ? `<p class="hero-cap">${esc(it.hero_caption)}</p>` : ''}</div>` : ED && ED.active(it.id) ? `<div class="reader-hero ed-nohero">${ED.heroButton(it)}</div>` : ''}
