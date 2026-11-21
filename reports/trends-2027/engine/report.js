@@ -177,9 +177,9 @@
       h.style.position = 'relative'; h.prepend(s);
       add(s, rough.svg(s).circle(25, 25, 46, O({ stroke: getComputedStyle(h).color, strokeWidth: 1.2, roughness: 1.6 })));
     });
-    document.querySelectorAll('[data-r="box"]').forEach(h => {
+    document.querySelectorAll('[data-r="box"], [data-r="empty"]').forEach(h => {
       const s = el('svg', { viewBox: '0 0 22 22', style: 'position:absolute;inset:0;width:100%;height:100%;overflow:visible' }, h);
-      const rc = rough.svg(s); add(s, rc.rectangle(1, 1, 20, 20, O({ strokeWidth: 1.3 }))); add(s, rc.linearPath([[4, 11], [9, 17], [21, 2]], O({ stroke: FLAME, strokeWidth: 2.4 })));
+      const rc = rough.svg(s); add(s, rc.rectangle(1, 1, 20, 20, O({ strokeWidth: 1.3 }))); if (h.dataset.r === 'box') add(s, rc.linearPath([[4, 11], [9, 17], [21, 2]], O({ stroke: FLAME, strokeWidth: 2.4 })));
     });
   }
 

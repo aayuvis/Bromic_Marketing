@@ -17,7 +17,7 @@ def icon(name, cls='ic'):
     inner = re.sub(r'<!--.*?-->', '', re.search(r'<svg[^>]*>(.*)</svg>', s, re.S).group(1), flags=re.S).strip()
     return f'<svg class="{cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{inner}</svg>'
 def img(i, cls='', alt=''): return f'<img class="{cls}" src="img/{i}.webp" alt="{E(alt)}">'
-def svg(key, vb, cls='chart'): return f'<svg class="{cls}" data-chart="{key}" viewBox="0 0 {vb}"></svg>'
+def svg(key, vb, cls='chart', cols=None): return f'<svg class="{cls}" data-chart="{key}"{f" data-cols={cols}" if cols else ""} viewBox="0 0 {vb}"></svg>'
 
 QUESTIONS = [
     ('01', 'Where Do People Sit?', 'Measure the seats, not the deck.', 'users'),
@@ -78,7 +78,13 @@ SOURCES = [
     'Infrared bands IR-A, IR-B and IR-C as defined by the CIE; peak wavelength by Wien’s displacement law.',
 ]
 
+TIPS = ('<h3>A Roof Keeps Warmth In</h3><p>Under a cover, warm air gathers into a gentle “heat cloud” that adds to the radiant warmth, so a covered space needs fewer heaters than an open one.</p>'
+        '<h3>Block The Wind, Keep It Open</h3><p>A screen, wall or planting on the windward side helps your heaters work harder. Thinking of glass or screens all round? Talk to a designer first – it changes the design.</p>')
+ROW2 = None
+
 def build(ed='homeowner', inline=False, letter=False):
+    global ROW2
+    ROW2 = f'<div class="row2"><div>{svg("cloud", "720 250")}</div><div class="tips">{TIPS}</div></div>'
     RD = os.path.join(PG, ed)
     pages, p = [], [0]
     def folio(dark=False):
@@ -87,7 +93,7 @@ def build(ed='homeowner', inline=False, letter=False):
     def head(kick, h2, lede=None, q=None):
         badge = f'<span class="qn">{q}</span>' if q else ''
         return f'<header class="hd">{badge}<div><div class="kick">{E(kick)}</div><h2>{E(h2)}</h2>{f"<p class=lede>{E(lede)}</p>" if lede else ""}</div></header>'
-    def tick(t): return f'<li><span class="cb" data-r="box"></span>{t}</li>'
+    def tick(t): return f'<li><span class="cb" data-r="empty"></span>{t}</li>'  # the reader's own brief: boxes to tick
 
     # 1 cover
     p[0] += 1
@@ -115,14 +121,16 @@ def build(ed='homeowner', inline=False, letter=False):
     # 4 Q2 open
     pages.append(f'''<section class="pg g full">
   {head('Question 02', 'How Open Is It?', 'Radiant heat is made for the outdoors. A space counts as outdoor when at least 30% of its perimeter is permanently open – and a roof works in your favor.', '02')}
-  {svg('open3', '1460 330', 'chart wide')}
-  <div class="row2"><div>{svg('cloud', '720 250')}</div>
-    <div class="tips"><h3>A Roof Keeps Warmth In</h3><p>Under a cover, warm air gathers into a gentle “heat cloud” that adds to the radiant warmth, so a covered space needs fewer heaters than an open one.</p>
-    <h3>Block The Wind, Keep It Open</h3><p>A screen, wall or planting on the windward side helps your heaters work harder. Thinking of glass or screens all round? Talk to a designer first – it changes the design.</p></div></div>{folio()}</section>''')
+  {svg('open3', '740 620', 'chart wide', 2) if letter else svg('open3', '1460 330', 'chart wide')}
+  {'' if letter else ROW2}{folio()}</section>''')
+    if letter: pages.append(f'''<section class="pg g full">
+  {head('Question 02 · Cover', 'A Roof Keeps Warmth In', None, '02')}
+  {svg('cloud', '720 250', 'chart wide')}<div class="tips">{TIPS}</div>
+  <figure class="qstrip">{img('w-boardwalk-edits-49-sketch', alt='Sketch of a long dining table under a pergola with heaters on the beams')}</figure>{folio()}</section>''')
     # 5 Q3 mount
     pages.append(f'''<section class="pg g full">
   {head('Question 03', 'What Can The Heat Hang From?', 'Look up and behind the seats. What is there decides the mount – and the mount decides the heater.', '03')}
-  {svg('mounts', '1460 470', 'chart wide')}
+  {svg('mounts', '740 960', 'chart wide', 2) if letter else svg('mounts', '1460 480', 'chart wide')}
   <ul class="trio"><li><b>Aim At Shoulders And Laps</b><span>Every Bromic heater is directional: face it at the seats, not the table top or the floor.</span></li>
     <li><b>Higher Spreads, But Gentler</b><span>Mount higher and the warmth spreads wider but feels softer; under a tall ceiling, bring heaters down on poles.</span></li>
     <li><b>Keep The Line Of Sight Clear</b><span>Infrared travels in straight lines, so an umbrella, beam or planter casts a cold shadow.</span></li></ul>{folio()}</section>''')
@@ -131,12 +139,13 @@ def build(ed='homeowner', inline=False, letter=False):
   <div class="qt">{head('Question 04', 'How Cold Are Your Evenings?', 'Cover and cold are the two big levers. The same 12-seat dining area needs fewer heaters under a roof, and a few more on cold nights.', '04')}
     <ul class="levers"><li><b>Mild</b><span>Evenings usually above about 50°F</span></li><li><b>Cool</b><span>About 40–50°F</span></li><li><b>Cold</b><span>Often below about 40°F</span></li></ul>
     <p class="rule">Not sure? Plan for partly covered and cool – it is the safe middle.</p>
-    <p class="src">Tungsten Smart-Heat Electric 4000 W over 240 ft² (12 seats), from the Bromic sizing calculator. Coverage is approximate and varies with mounting height, wind and installation.</p></div>
+    <p class="src">Tungsten Smart-Heat Electric 4000 W over 240 ft² (12 seats), from the Bromic sizing calculator. Coverage is approximate and varies with mounting height, wind and installation.</p>
+    <figure class="qstrip">{img('w-dsc05737-courtney-saib-sketch', alt='Sketch of a screened porch with a fireplace and heaters under a vaulted ceiling')}</figure></div>
   <div class="qv">{svg('matrix', '760 600')}</div>{folio()}</section>''')
     # 7 physics
     pages.append(f'''<section class="pg g full">
   {head('How Radiant Heat Works', 'Warmth Like Sunshine', 'Step into winter sun and you feel warm at once, though the air is cool. Infrared heat works the same way: it warms you, the furniture and the floor – not the air that drifts away.')}
-  {svg('spectrum', '1460 340', 'chart wide')}
+  {svg('spectrum', '1000 440', 'chart wide') if letter else svg('spectrum', '1460 340', 'chart wide')}
   <div class="waves"><div><h3>Short Wave</h3><p>The hottest elements. Instant, intense, with a bright glow and glare.</p></div>
     <div class="hl"><h3>Medium Wave</h3><p>A soft glow with little glare, warm in about 30 seconds. Bromic Platinum, Eclipse and Tungsten Electric are medium wave.</p></div>
     <div><h3>Long Wave</h3><p>No visible glow, about 5 minutes to warm up, gentle – and more easily dispersed by moving air.</p></div></div>
@@ -159,7 +168,8 @@ def build(ed='homeowner', inline=False, letter=False):
     pages.append(f'''<section class="pg g side-r2">
   <div class="qt">{head('Question 05 · The Fuel', 'Electric Or Gas', None, '05')}
     <div class="eg"><div><h3>Electric</h3><ul><li>Covered patios, pergolas, loggias</li><li>Ceilings, walls, poles</li><li>On/off or dimming, zones, schedules, app</li><li>Hard-wired by a licensed electrician</li><li>65–160 ft² a heater</li></ul></div>
-      <div><h3>Gas</h3><ul><li>Larger, more open areas</li><li>Built-in: wall or ceiling. Or freestanding</li><li>On/off, wall switch, schedules</li><li>A licensed gas fitter, plus a 110 V supply for built-in</li><li>160–215 ft² a heater</li></ul></div></div></div>
+      <div><h3>Gas</h3><ul><li>Larger, more open areas</li><li>Built-in: wall or ceiling. Or freestanding</li><li>On/off, wall switch, schedules</li><li>A licensed gas fitter, plus a 110 V supply for built-in</li><li>160–215 ft² a heater</li></ul></div></div>
+    <figure class="qstrip">{img('l-019-163-sketch', alt='Sketch of a Tungsten freestanding gas heater in a stone courtyard at dusk')}</figure></div>
   <div class="qv cost"><div class="kick">What An Evening Costs</div><div class="hero"><div class="fig">About 73¢</div><p>an hour for a Tungsten Electric 4000 W at full output – less when you dim it.</p></div>
     {svg('cost', '640 330')}<p class="src">Per hour at full output, at US average residential prices: electricity July 2026, natural gas July 2026 (EIA). Your rate will differ.</p></div>{folio()}</section>''')
     # 11 controls
@@ -175,19 +185,21 @@ def build(ed='homeowner', inline=False, letter=False):
     <li><b>Eclipse Controller</b><span>Heat steps and rim-light dimming, one Eclipse a channel. Eclipse Freestanding comes with its own.</span></li></ul>
   <p class="foot">Wi-Fi and app features need compatible Affinity Smart-Heat Controls, sold separately. Each channel carries up to 6 kW at 208–277 V. Built-in gas switches on and off only.</p>{folio()}</section>''')
     # 12-15 layouts
-    for k in range(0, len(LAYOUTS), 2):
+    per = 1 if letter else 2
+    NAMES = ['Patios And Pergolas', 'Porches And Balconies', 'Courtyards And Pools', 'Kitchens And Terraces']
+    for k in range(0, len(LAYOUTS), per):
         cards = ''
-        for L in LAYOUTS[k:k + 2]:
+        for L in LAYOUTS[k:k + per]:
             chips = ''.join(f'<li><span>{a}</span>{E(b)}</li>' for a, b in [('Seats', f"{L['seats']} seats"), ('Cover', L['cover']), ('Mount', L['mount']), ('Heaters', L['heater']), ('Controls', L['controls'])])
-            cards += f'<article class="lay">{svg(L["key"], "720 400", "plan")}<h3>{E(L["title"])}</h3><ol class="flow">{chips}</ol><p>{E(L["note"])}</p></article>'
+            cards += f'<article class="lay">{svg(L["key"], "720 560" if letter else "720 400", "plan")}<h3>{E(L["title"])}</h3><ol class="flow">{chips}</ol><p>{E(L["note"])}</p></article>'
         pages.append(f'''<section class="pg g full layp">
-  {head('Outdoor Layouts · ' + str(k // 2 + 1) + ' of ' + str(len(LAYOUTS) // 2), 'Seats, Cover, Mount, Heater, Controls', None)}
+  {head('Outdoor Layouts · Seats, Cover, Mount, Heater, Controls', LAYOUTS[k]['title'] if letter else NAMES[k // 2], None)}
   <div class="lays">{cards}</div>
   <p class="foot">Plans drawn to scale; warm zones show each heater’s approximate coverage (it varies with mounting height, wind and installation). Counts from the Bromic sizing calculator for cool evenings (about 40–50°F). Wi-Fi and app features need compatible Affinity Smart-Heat Controls, sold separately.</p>{folio()}</section>''')
     # 16 power
     pages.append(f'''<section class="pg g full">
   {head('Question 06', 'Power In Before The Ceiling Closes', 'Plan the power while the ceiling is open and the wiring goes in once – hidden, and exactly where the heaters hang.', '06')}
-  {svg('timeline', '1460 380', 'chart wide')}
+  {svg('timeline', '740 690', 'chart wide', 2) if letter else svg('timeline', '1460 380', 'chart wide')}
   <ul class="trio"><li><b>Electric</b><span>Hard-wired by a licensed electrician, who sizes each circuit from the heater’s current draw (in the Pro edition and the cut sheets).</span></li>
     <li><b>Gas</b><span>Built-in gas needs a gas line from a licensed gas fitter and a 110 V supply. The freestanding gas heater runs on a 20 lb propane cylinder or a natural-gas quick-connect.</span></li>
     <li><b>Built To Code</b><span>Electric to NFPA 70, gas to NFPA 54. Confirm with your local building authority; each manual sets its clearances.</span></li></ul>{folio()}</section>''')

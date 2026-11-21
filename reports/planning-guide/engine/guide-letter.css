@@ -1,0 +1,79 @@
+/* Planning guide, US Letter portrait (816 x 1056), after report-letter.css */
+.g .hd{gap:14px}
+.g .hd h2{font-size:34px;margin:6px 0 8px}
+.g .hd .lede{font-size:14px}
+.qn{font-size:62px;min-width:64px}
+.g p{font-size:13.5px}
+.g h3{font-size:19px}
+.g .rule{font-size:14px}
+.g .foot{font-size:10.5px}
+.full{padding:40px 44px 46px}
+.trio{gap:16px;margin-top:10px}
+.trio b{font-size:17px}.trio span{font-size:12.5px}
+
+.intro6{display:block}
+.intro6 .il{padding:42px 44px 0}
+.intro6 .il h2{font-size:36px}
+.intro6 .lede{font-size:14px;margin-bottom:10px}
+.intro6 .istrip{display:none}
+.stat .fig{font-size:60px}.stat p{font-size:13px}
+.intro6 .ir{position:absolute;left:0;right:0;bottom:0;height:560px;padding:26px 44px 44px}
+.six{margin-top:8px;gap:0}
+.six li{grid-template-columns:44px 36px 1fr;padding:9px 0}
+.six .qi{width:40px;height:40px;padding:10px}
+.six b{font-size:28px}.six h3{font-size:18px}.six p{font-size:12.5px}
+
+.qp .qimg{left:0;right:0;width:auto;bottom:auto;height:330px}
+.qp .qt{left:44px;right:44px;top:350px;bottom:46px}
+.side-r2 .qt{left:44px;right:44px;width:auto;top:40px;bottom:auto}
+.side-r2 .qv{left:120px;right:120px;width:auto;top:520px;bottom:46px}
+.levers{margin:12px 0 6px}.levers b{font-size:20px}.levers span{font-size:12px}
+
+.row2{grid-template-columns:1fr;gap:10px}
+.tips p{font-size:13px;margin-bottom:6px}.tips h3{font-size:18px}
+.waves{gap:14px}.waves p{font-size:12.5px}
+
+.tiles{grid-template-columns:1fr 1fr;gap:14px 22px;margin-top:10px}
+.tile{grid-template-columns:120px 1fr;column-gap:12px;padding-top:10px}
+.tile .ti{width:120px;height:112px}
+.tile h3{font-size:18px}.tile p{font-size:12.5px}.tile small{font-size:11px}
+
+.bloom .bimg,.brief .bimg{left:0;right:0;width:auto;bottom:auto;height:390px}
+.bloom .qt,.brief .qt{left:44px;right:44px;top:410px;bottom:46px}
+.thumbs{gap:6px;margin:10px 0 8px}.thumbs b{font-size:18px}.thumbs span{font-size:12.5px}
+.bloom .chart{max-width:520px}
+
+.eg{gap:18px;margin-top:12px}.eg li{font-size:13px}
+.cost .hero .fig{font-size:56px}.cost .hero p{font-size:16px}
+
+.sys{flex-wrap:wrap;justify-content:center;gap:6px 10px;margin-top:12px}
+.sys figure{width:300px}
+.sys figure img{width:200px;height:150px}
+.sys figure.ph .mini{width:150px;height:170px}
+.sys .arr{display:none}
+.sys figcaption{font-size:12px}.sys figcaption b{font-size:16px}
+
+.layp .hd h2{font-size:28px}
+.lays{grid-template-columns:1fr;gap:18px;margin-top:8px}
+.lay{display:block}
+.lay h3{display:none}
+.flow{margin:14px 0 10px;gap:6px}.flow li{grid-template-columns:96px 1fr;gap:10px;font-size:14.5px}
+.flow li span{font-size:11px}
+.lay p{font-size:14.5px}
+
+.brief .qt h2{font-size:34px}
+.brief .lede{font-size:13.5px}
+.brief .ckl{gap:7px;margin:12px 0 14px}.brief .ckl li{font-size:13.5px}
+
+.qp .folio,.bloom .folio,.brief .folio{left:48px}
+.qstrip{height:200px;margin-top:12px}
+.side-r2 .qt .qstrip{display:none}
+.tile{grid-template-columns:120px 1fr;padding-top:10px}.tile .ti{width:120px;height:112px}.tile h3{font-size:18px}.tile p{font-size:12.5px}.tile small{font-size:11px}
+.sys figure img{width:200px;height:150px}
+.full .tips{margin-top:14px}
+.full .qstrip{height:300px;margin-top:18px}
+
+.qp .qimg{height:400px}.qp .qt{top:420px}
+.tile{grid-template-columns:150px 1fr}.tile .ti{width:150px;height:150px}.tile h3{font-size:20px}.tile p{font-size:13.5px}.tile small{font-size:11.5px}
+.tiles{gap:22px 22px;margin-top:16px}
+.sys figure img{width:240px;height:190px}.sys figure.ph .mini{width:180px;height:210px}

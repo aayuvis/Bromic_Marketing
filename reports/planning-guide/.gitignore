@@ -1,4 +1,3 @@
-*.pdf
-*-Planning-Guide-*.html
 __pycache__/
 img/_tmp/
+Bromic-*.html
