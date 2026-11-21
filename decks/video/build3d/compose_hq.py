@@ -277,12 +277,17 @@ def legend(d, a, x, y, dark=False):
 # ------------------------------------------------------------------ subtitles from the voice-over script
 VO = re.findall(r'\[\d · [^\]]*\]\n(.+?)(?:\n\n|\Z)', open(os.path.join(os.path.dirname(__file__), 'voiceover.txt')).read(), re.S)
 VO = [' '.join(v.split()) for v in VO]
-def chunks(s, n=7):
+def chunks(s, n=11):
+    """Subtitle lines: break at sentence ends first, then at commas, never more than n words."""
     w = s.split(); out = []; cur = []
-    for x in w:
+    for i, x in enumerate(w):
         cur.append(x)
-        if len(cur) >= n or x.endswith(('.', ',', ':', '?')) and len(cur) >= 3: out.append(' '.join(cur)); cur = []
-    if cur: out.append(' '.join(cur))
+        end = x.endswith(('.', '?', ':')); comma = x.endswith(',')
+        soon = any(y.endswith(('.', '?', ':')) for y in w[i + 1:i + 3])       # a sentence ends within 2 words: don't strand them
+        if end or (len(cur) >= n and not soon) or (comma and len(cur) >= 4): out.append(' '.join(cur)); cur = []
+    if cur:
+        if out and len(cur) <= 2: out[-1] += ' ' + ' '.join(cur)
+        else: out.append(' '.join(cur))
     return out
 def subtitle_at(t, beats_start, scale=1.0):
     for i, s in enumerate(VO):
@@ -381,7 +386,7 @@ def frame_h(f):
                  ((0.70, -0.13, 0.02), 'trim', 'Trim', (170, 20)),
                  ((0.30, -0.075, -0.035), 'heater', 'Tungsten Series II, 6 kW', (210, 60)),
                  ((-0.836, -0.11, 0.094), 'term', 'Terminal box', (-170, -60)),
-                 ((-0.779, -0.017, 0.073), 'cutout', 'Over-temperature cut-out', (-200, 70))]
+                 ((-0.779, -0.017, 0.073), 'cutout', 'Over-temperature cut-out', (70, 120))]
         for k, (p, c, lab, side) in enumerate(items):
             o = X[c]; pp = shots.heater_point(p, e) if c == 'heater' else (p[0] + o[0] * e, p[1] + o[1] * e, p[2] + o[2] * e)
             a = clamp((u - shots.EX_IN - 0.02 - 0.035 * k) / 0.06) * clamp((shots.EX_OUT - 0.01 - u) / 0.03)
