@@ -165,7 +165,7 @@ body{font-family:Arimo,Arial,sans-serif;color:var(--ink);font-weight:400;-webkit
 .kicker .grey{color:var(--steel2)}
 h1{font-family:Didot,serif;font-weight:400;font-size:58pt;line-height:.95;letter-spacing:-.01em;margin-top:14px}
 .line{font-family:Didot,serif;font-size:17pt;color:var(--steel);margin-top:10px}
-.hero{margin:22px -0.6in 0;height:4.95in;background-size:cover;background-position:50% 55%}
+.hero{margin:22px -0.6in 0;height:4.8in;background-size:cover;background-position:50% 55%}
 .cap{font-size:7pt;color:var(--steel2);margin-top:7px;letter-spacing:.02em}
 .data{display:grid;grid-template-columns:1fr 1.25fr 1.6fr 1.35fr .8fr;border-top:1.5px solid var(--ink);border-bottom:1px solid var(--hair);margin-top:20px}
 .data div{padding:10px 12px 12px 0;border-right:1px solid var(--hair);margin-right:12px}
@@ -193,7 +193,7 @@ sup{font-size:.6em;line-height:0}
 .zones .z h4{font-size:7pt;letter-spacing:.16em;text-transform:uppercase;font-weight:700;display:flex;align-items:center;margin-bottom:6px}
 .zones .z p{font-size:7.8pt;line-height:1.5;color:#3a3536}
 .note{font-size:7pt;color:var(--steel2);margin-top:3px;font-style:italic}
-.strip{margin:16px -0.6in 0;height:1.5in;background-size:cover;background-position:50% 62%}
+.strip{margin:16px -0.6in 0;height:1.5in;background-size:cover;background-position:50% 22%}
 /* page 3 */
 .wide{margin:-0.55in -0.6in 0;height:3.75in;background-size:cover;background-position:50% 40%}
 .prods{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:16px}
@@ -210,6 +210,7 @@ sup{font-size:.6em;line-height:0}
 .sources li{margin-bottom:4px}
 .cta{border-top:1.5px solid var(--ink);padding-top:12px}
 .cta p{font-family:Didot,serif;font-size:13pt;line-height:1.3;margin-bottom:12px}
+.cta .sub{font-size:8pt;line-height:1.5;color:var(--steel);margin:-4px 0 12px}
 .cta a{display:inline-block;font-size:7pt;letter-spacing:.2em;text-transform:uppercase;color:var(--ink);text-decoration:none;border-bottom:1.5px solid var(--flame);padding-bottom:4px}
 .cta .url{font-size:7pt;color:var(--steel2);margin-top:8px}
 </style></head><body>
@@ -246,7 +247,7 @@ sup{font-size:.6em;line-height:0}
     <dl><div><dt>Where</dt><dd>${esc(p.where)}</dd></div><div><dt>Mounting</dt><dd>${esc(p.mount)}</dd></div><div><dt>Controls</dt><dd>${esc(p.controls)}</dd></div></dl></div>`).join('')}</div>
   <div class="closing">
     <div class="sources"><h5>Sources &amp; Notes</h5><ol>${P.sources.map((s) => `<li>${reg(s)}</li>`).join('')}</ol></div>
-    <div class="cta"><p>Planning A Space With Ceilings Like These? Our team will map the heat for you.</p><a href="https://www.bromic.com/design-your-space/">${esc(P.cta.label)}</a><div class="url">${esc(P.cta.url)}</div></div>
+    <div class="cta"><p>Not sure which heaters are right for your outdoor space?</p><div class="sub">Send us your plans and our design team will map the heat, ceiling by ceiling.</div><a href="https://www.bromic.com/design-your-space/">${esc(P.cta.label)}</a><div class="url">${esc(P.cta.url)}</div></div>
   </div>
   ${footer(3)}
 </section>
