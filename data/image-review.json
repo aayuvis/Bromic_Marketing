@@ -645,6 +645,45 @@
    "thumb": "images/review/thumb/pr-select-black-endcap.webp",
    "source": "Rendered from the Tungsten Series II CAD on a white studio sweep; satin powder coat, glowing elements.",
    "status": "pending"
+  },
+  {
+   "id": "vid-recess-film",
+   "title": "Recess kit airflow film (16:9, 64 s)",
+   "kind": "CAD video",
+   "finish": "with voice and music",
+   "w": 1920,
+   "h": 1080,
+   "file": "decks/video/Tungsten-Series-II-Recess-Airflow-3D.mp4",
+   "thumb": "images/review/thumb/vid-recess-film.webp",
+   "video": true,
+   "source": "Recess-kit airflow film rendered from the Series II low-clearance recess kit CAD; female voice-over, CC0 music.",
+   "status": "pending"
+  },
+  {
+   "id": "vid-recess-reels",
+   "title": "Recess kit airflow Reels (9:16, 20 s)",
+   "kind": "CAD video",
+   "finish": "with voice and music",
+   "w": 1080,
+   "h": 1920,
+   "file": "decks/video/Tungsten-Series-II-Recess-Airflow-3D-Reels.mp4",
+   "thumb": "images/review/thumb/vid-recess-reels.webp",
+   "video": true,
+   "source": "Recess-kit airflow film rendered from the Series II low-clearance recess kit CAD; female voice-over, CC0 music.",
+   "status": "pending"
+  },
+  {
+   "id": "vid-recess-loop",
+   "title": "Recess kit airflow loop (16:9, 6 s, silent)",
+   "kind": "CAD video",
+   "finish": "silent loop",
+   "w": 1920,
+   "h": 1080,
+   "file": "decks/video/Tungsten-Series-II-Recess-Airflow-3D-Loop.mp4",
+   "thumb": "images/review/thumb/vid-recess-loop.webp",
+   "video": true,
+   "source": "Silent 6 s loop from the same CAD film, for web headers and displays.",
+   "status": "pending"
   }
  ]
 }
