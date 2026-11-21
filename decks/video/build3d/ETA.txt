@@ -18,3 +18,13 @@ First measurement (old every-frame plan): with-kit frame 246 s, exploded frame ~
 16:44 UTC  explode frames: 51 done, 24 to go, 40 s each (measured) -> this stage ends about 17:00 UTC
 16:48 UTC  explode frames: 56 done, 19 to go, 40 s each (measured) -> this stage ends about 17:01 UTC
 16:52 UTC  explode frames: 61 done, 14 to go, 40 s each (measured) -> this stage ends about 17:01 UTC
+16:55 UTC  explode frames: 66 done, 9 to go, 41 s each (measured) -> this stage ends about 17:02 UTC
+17:00 UTC  explode frames: 71 done, 4 to go, 41 s each (measured) -> this stage ends about 17:02 UTC
+17:08 UTC  fan regions: 1 done, 51 to go, 83 s each (measured) -> this stage ends about 18:19 UTC
+17:10 UTC measured: explode frames done (75 at ~33 s); P2 re-rendered with softer studio glow (104 s). Fan regions ~80 s a pair x 52 keys (compositing shares the CPU) -> renders end ~18:20 UTC; with-kit compositing + audio + encode ~25 min -> film ~18:45 UTC.
+17:17 UTC  fan regions: 7 done, 45 to go, 88 s each (measured) -> this stage ends about 18:23 UTC
+17:23 UTC  fan regions: 13 done, 39 to go, 77 s each (measured) -> this stage ends about 18:13 UTC
+17:29 UTC  fan regions: 19 done, 33 to go, 70 s each (measured) -> this stage ends about 18:07 UTC
+17:34 UTC  fan regions: 25 done, 27 to go, 66 s each (measured) -> this stage ends about 18:04 UTC
+17:40 UTC  fan regions: 31 done, 21 to go, 64 s each (measured) -> this stage ends about 18:02 UTC
+17:42 UTC measured: fan regions ~50 s a pair, 68 of 104 done -> renders end ~17:58 UTC; with-kit compositing + Reels + loop + audio + encode ~20 min -> film ~18:20 UTC.

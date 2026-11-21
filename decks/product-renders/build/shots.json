@@ -5,7 +5,7 @@
     "glb": "6kW diamond, angled wall mount.glb",
     "finish": "black",
     "mount": "ceiling",
-    "glow": 30,
+    "glow": 16,
     "offset": [
      0,
      0,
@@ -16,9 +16,9 @@
   ],
   "camera": {
    "pos": [
-    -0.95,
-    -1.25,
-    -0.72
+    -1.2,
+    -1.55,
+    -0.9
    ],
    "target": [
     0.08,
@@ -33,8 +33,8 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 160,
-  "noise": 0.018
+  "samples": 128,
+  "noise": 0.022
  },
  "select-black-endcap": {
   "heaters": [
@@ -42,7 +42,7 @@
     "glb": "6kW diamond, angled wall mount.glb",
     "finish": "black",
     "mount": "ceiling",
-    "glow": 30,
+    "glow": 16,
     "offset": [
      0,
      0,
@@ -53,9 +53,9 @@
   ],
   "camera": {
    "pos": [
-    1.02,
-    -0.34,
-    -0.33
+    1.04,
+    -0.42,
+    -0.26
    ],
    "target": [
     0.62,
@@ -71,8 +71,8 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 160,
-  "noise": 0.018
+  "samples": 128,
+  "noise": 0.022
  },
  "select-white-hero": {
   "heaters": [
@@ -80,7 +80,7 @@
     "glb": "6kW diamond, angled wall mount.glb",
     "finish": "white",
     "mount": "ceiling",
-    "glow": 30,
+    "glow": 16,
     "offset": [
      0,
      0,
@@ -108,8 +108,8 @@
    2560
   ],
   "exposure": -1.8,
-  "samples": 160,
-  "noise": 0.018
+  "samples": 128,
+  "noise": 0.022
  },
  "select-white-endcap": {
   "heaters": [
@@ -117,7 +117,7 @@
     "glb": "6kW diamond, angled wall mount.glb",
     "finish": "white",
     "mount": "ceiling",
-    "glow": 30,
+    "glow": 16,
     "offset": [
      0,
      0,
@@ -128,9 +128,9 @@
   ],
   "camera": {
    "pos": [
-    0.98,
-    0.3,
-    -0.36
+    1.05,
+    -0.45,
+    -0.22
    ],
    "target": [
     0.62,
@@ -146,8 +146,8 @@
    2560
   ],
   "exposure": -1.8,
-  "samples": 160,
-  "noise": 0.018
+  "samples": 128,
+  "noise": 0.022
  },
  "select-graphite-hero": {
   "heaters": [
@@ -155,7 +155,7 @@
     "glb": "6kW diamond, angled wall mount.glb",
     "finish": "graphite",
     "mount": "wall",
-    "glow": 30,
+    "glow": 16,
     "offset": [
      0,
      0,
@@ -182,8 +182,8 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 160,
-  "noise": 0.018
+  "samples": 128,
+  "noise": 0.022
  },
  "select-graphite-endcap": {
   "heaters": [
@@ -191,7 +191,7 @@
     "glb": "6kW diamond, angled wall mount.glb",
     "finish": "graphite",
     "mount": "wall",
-    "glow": 30,
+    "glow": 16,
     "offset": [
      0,
      0,
@@ -219,8 +219,8 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 160,
-  "noise": 0.018
+  "samples": 128,
+  "noise": 0.022
  },
  "coastal-white-hero": {
   "heaters": [
@@ -228,7 +228,7 @@
     "glb": "6kW diamond, angled wall mount.glb",
     "finish": "white",
     "mount": "wall",
-    "glow": 30,
+    "glow": 16,
     "offset": [
      0,
      0,
@@ -255,8 +255,8 @@
    2560
   ],
   "exposure": -1.8,
-  "samples": 160,
-  "noise": 0.018
+  "samples": 128,
+  "noise": 0.022
  },
  "coastal-black-endcap": {
   "heaters": [
@@ -264,7 +264,7 @@
     "glb": "6kW diamond, angled wall mount.glb",
     "finish": "black",
     "mount": "wall",
-    "glow": 30,
+    "glow": 16,
     "offset": [
      0,
      0,
@@ -292,8 +292,8 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 160,
-  "noise": 0.018
+  "samples": 128,
+  "noise": 0.022
  },
  "classic-black-hero": {
   "heaters": [
@@ -301,7 +301,7 @@
     "glb": "6kW oval, ceiling mount.glb",
     "finish": "black",
     "mount": "ceiling",
-    "glow": 30,
+    "glow": 16,
     "offset": [
      0,
      0,
@@ -311,9 +311,9 @@
   ],
   "camera": {
    "pos": [
-    -1.0,
-    -1.2,
-    -0.7
+    -1.25,
+    -1.55,
+    -0.9
    ],
    "target": [
     0.08,
@@ -328,8 +328,8 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 160,
-  "noise": 0.018
+  "samples": 128,
+  "noise": 0.022
  },
  "select-black-along-the-grille": {
   "heaters": [
@@ -337,7 +337,7 @@
     "glb": "6kW diamond, angled wall mount.glb",
     "finish": "black",
     "mount": "ceiling",
-    "glow": 30,
+    "glow": 16,
     "offset": [
      0,
      0,
@@ -348,19 +348,19 @@
   ],
   "camera": {
    "pos": [
-    1.45,
-    -0.1,
-    -0.16
+    1.95,
+    -0.38,
+    -0.26
    ],
    "target": [
-    0.0,
+    0.15,
     0.0,
     -0.02
    ],
-   "lens": 70,
+   "lens": 55,
    "fstop": 4,
    "focus": [
-    0.35,
+    0.6,
     0,
     -0.02
    ]
@@ -370,8 +370,8 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 160,
-  "noise": 0.018
+  "samples": 128,
+  "noise": 0.022
  },
  "select-white-from-below": {
   "heaters": [
@@ -379,7 +379,7 @@
     "glb": "6kW diamond, angled wall mount.glb",
     "finish": "white",
     "mount": "ceiling",
-    "glow": 30,
+    "glow": 16,
     "offset": [
      0,
      0,
@@ -390,16 +390,16 @@
   ],
   "camera": {
    "pos": [
-    0.25,
-    -0.55,
-    -1.45
+    0.15,
+    -0.45,
+    -1.75
    ],
    "target": [
     0.05,
     0.0,
     0.0
    ],
-   "lens": 45,
+   "lens": 35,
    "fstop": 8,
    "up": [
     0,
@@ -412,8 +412,8 @@
    2560
   ],
   "exposure": -1.8,
-  "samples": 160,
-  "noise": 0.018
+  "samples": 128,
+  "noise": 0.022
  },
  "select-black-and-white-pair": {
   "heaters": [
@@ -421,7 +421,7 @@
     "glb": "6kW diamond, angled wall mount.glb",
     "finish": "black",
     "mount": "ceiling",
-    "glow": 30,
+    "glow": 16,
     "offset": [
      0,
      -0.26,
@@ -433,7 +433,7 @@
     "glb": "6kW diamond, angled wall mount.glb",
     "finish": "white",
     "mount": "ceiling",
-    "glow": 30,
+    "glow": 16,
     "offset": [
      0,
      0.26,
@@ -461,7 +461,7 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 160,
-  "noise": 0.018
+  "samples": 128,
+  "noise": 0.022
  }
 }

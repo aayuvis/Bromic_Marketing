@@ -255,7 +255,7 @@ if 'fans' in JOBS:                                     # beat 5: impeller region
     pitch = 2 * math.pi / 7; keys = {}
     for f in range(s4, s4 + n4):
         bt = f / FPS - T['start'][4]; a = spin_angle(f / FPS)
-        key = ('u%03d' % (f - s4)) if bt < 1.6 + 1 / FPS else ('s%d' % int(round((a % pitch) / (pitch / 3))) % 3)
+        key = ('u%03d' % (f - s4)) if bt < 1.6 + 1 / FPS else ('s%d' % (int(round((a % pitch) / (pitch / 3))) % 3))
         keys.setdefault(key, f)
     json.dump({str(f): ('u%03d' % (f - s4)) if (f / FPS - T['start'][4]) < 1.6 + 1 / FPS else ('s%d' % (int(round((spin_angle(f / FPS) % pitch) / (pitch / 3))) % 3))
                for f in range(s4, s4 + n4)}, open(os.path.join(OUT, 'fan_keys.json'), 'w'))

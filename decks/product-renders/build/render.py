@@ -26,7 +26,7 @@ def principled(name, col, rough=0.5, metal=0.0, coat=0.0, coat_rough=0.2, emit=N
     return m
 
 # finishes: linear colours measured from powder-coat references (sRGB black ~17, white ~232/230/224, graphite ~74/72/70)
-FIN = {'black': dict(col=(0.0045, 0.0045, 0.005), rough=0.48, coat=0.2, coat_rough=0.3, logo=(0.92, 0.92, 0.92)),
+FIN = {'black': dict(col=(0.0025, 0.0025, 0.0028), rough=0.34, coat=0.15, coat_rough=0.25, logo=(0.92, 0.92, 0.92)),
        'white': dict(col=(0.80, 0.79, 0.745), rough=0.45, coat=0.25, coat_rough=0.25, logo=(0.10, 0.10, 0.10)),
        'graphite': dict(col=(0.068, 0.064, 0.060), rough=0.40, coat=0.35, coat_rough=0.22, logo=(0.90, 0.90, 0.90))}
 refl = principled('reflector', (0.91, 0.90, 0.88), rough=0.28, metal=1.0, aniso=0.55)
@@ -44,7 +44,7 @@ for k, h in enumerate(SH['heaters']):
     f = FIN[h['finish']]
     body = principled(f'powder{k}', f['col'], f['rough'], 0, f['coat'], f['coat_rough'], bump=0.35)
     logo = principled(f'logo{k}', f['logo'], 0.35); red = principled(f'red{k}', (0.86, 0.054, 0.016), 0.4)   # Bromic flame mark
-    coil = principled(f'coil{k}', (0.12, 0.03, 0.015), 0.5, emit=(1.0, 0.22, 0.04), es=h.get('glow', 30.0))
+    coil = principled(f'coil{k}', (0.12, 0.03, 0.015), 0.5, emit=(1.0, 0.30, 0.045), es=h.get('glow', 16.0))
     before = set(bpy.data.objects); bpy.ops.import_scene.gltf(filepath=GLB + h['glb']); new = [o for o in bpy.data.objects if o not in before]
     if h.get('short_post'):  # Series II single short post: the 6 kW heater with the ceiling bracket of the 3 kW ceiling-mount CAD
         CUT = ['bmc-00538', 'bmc-00541', 'bmc-00553', 'heyco', 'bmc-00535']
