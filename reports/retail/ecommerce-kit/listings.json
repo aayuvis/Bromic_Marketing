@@ -2172,7 +2172,7 @@
     255,
     255
    ],
-   "upscale": 1.66,
+   "upscale": 1.8,
    "source": "w-platinum-black",
    "note": "bromic.com cutout, 1024 px source"
   },
@@ -2184,7 +2184,7 @@
     255,
     255
    ],
-   "upscale": 1.66,
+   "upscale": 1.76,
    "source": "w-platinum-white",
    "note": "bromic.com cutout, 1024 px source"
   },
@@ -2196,7 +2196,7 @@
     255,
     255
    ],
-   "upscale": 1.66,
+   "upscale": 2.69,
    "source": "w-eclipse-electric",
    "note": "bromic.com cutout, 1024 px source, 24 in twin pole (included)"
   },
@@ -2220,7 +2220,7 @@
     255,
     255
    ],
-   "upscale": 1.66,
+   "upscale": 2.6,
    "source": "w-platinum-gas-500",
    "note": "bromic.com cutout, 1024 px source, wall bracket (included)"
   },
@@ -2232,7 +2232,7 @@
     255,
     255
    ],
-   "upscale": 1.66,
+   "upscale": 2.81,
    "source": "w-tungsten-gas-500",
    "note": "bromic.com cutout, 1024 px source"
   },
@@ -2244,7 +2244,7 @@
     255,
     255
    ],
-   "upscale": 1.06,
+   "upscale": 1.22,
    "source": "w-tung-port",
    "note": "bromic.com cutout, 1600 px source"
   },
@@ -2256,7 +2256,7 @@
     255,
     255
    ],
-   "upscale": 1.66,
+   "upscale": 2.15,
    "source": "w-tungportfront-1",
    "note": "bromic.com cutout, 1024 px source"
   },
@@ -2268,7 +2268,7 @@
     255,
     255
    ],
-   "upscale": 1.57,
+   "upscale": 2.12,
    "source": "w-manual-1ch-indoor-switch-image",
    "note": "bromic.com cutout, 1080 px source"
   },
@@ -2280,7 +2280,7 @@
     255,
     255
    ],
-   "upscale": 1.06,
+   "upscale": 1.56,
    "source": "w-expansion-board",
    "note": "bromic.com cutout, 1600 px source"
   }
