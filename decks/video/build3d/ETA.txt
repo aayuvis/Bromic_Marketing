@@ -28,3 +28,5 @@ First measurement (old every-frame plan): with-kit frame 246 s, exploded frame ~
 17:34 UTC  fan regions: 25 done, 27 to go, 66 s each (measured) -> this stage ends about 18:04 UTC
 17:40 UTC  fan regions: 31 done, 21 to go, 64 s each (measured) -> this stage ends about 18:02 UTC
 17:42 UTC measured: fan regions ~50 s a pair, 68 of 104 done -> renders end ~17:58 UTC; with-kit compositing + Reels + loop + audio + encode ~20 min -> film ~18:20 UTC.
+17:44 UTC  fan regions: 37 done, 15 to go, 61 s each (measured) -> this stage ends about 18:00 UTC
+17:50 UTC  fan regions: 43 done, 9 to go, 60 s each (measured) -> this stage ends about 17:59 UTC
