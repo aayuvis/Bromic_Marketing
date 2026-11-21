@@ -60,7 +60,7 @@ LAYOUTS = [
 ]
 
 TILES = [
-    ('w-lcrecesskit', 'Flush In The Ceiling', 'Disappears into the architecture.', 'Tungsten Electric · Platinum Electric, with a recess kit'),
+    ('t2-low-clearance-recess', 'Flush In The Ceiling', 'Disappears into the architecture.', 'Tungsten Electric in the new low-clearance recess kit'),
     ('w-tungelec-stacked', 'On A Wall Or Beam', 'Slim, architectural, angled onto the seats.', 'Tungsten Electric · Platinum Electric'),
     ('w-eclipse-electric-twinpole', 'Over The Table', 'Heat and a dimmable rim light in one.', 'Eclipse Electric'),
     ('w-eclipse-portable', 'Moves Where You Need It', 'Nothing overhead? Up to four seats each.', 'Eclipse Freestanding · Tungsten Freestanding Gas'),

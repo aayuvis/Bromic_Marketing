@@ -56,7 +56,7 @@ LAYOUTS = [
 ]
 
 TILES = [
-    ('w-lcrecesskit', 'Flush In The Ceiling', 'A clean soffit line; recess kits for Tungsten and Platinum Electric.', 'Tungsten 65–160 ft² · Platinum 65–143 ft² · ETL/cETL'),
+    ('t2-low-clearance-recess', 'Flush In The Ceiling', 'A clean soffit line; the new low-clearance kit recesses Tungsten in a 7.5 in cavity.', 'Tungsten 65–160 ft² · Platinum 65–143 ft² · ETL/cETL'),
     ('t2-single-post-black', 'On A Wall, Beam Or Post', 'Slim and directional, angled onto the seats.', 'Tungsten Series II: single post, pitch adaptor, wall adaptor'),
     ('w-eclipse-electric-twinpole', 'Over The Table', 'Heat and a dimmable rim light in one, 0/33/66/100%.', 'Eclipse 2900 W · 121 ft² · 8, 24, 48 in poles'),
     ('w-eclipse-portable', 'Moves Where It Is Needed', 'Freestanding, up to four seats each.', 'Eclipse Freestanding 121 ft² · Tungsten Freestanding Gas 215 ft²'),
@@ -146,7 +146,7 @@ def build(ed='pro', inline=False, letter=False):
     # 9 physics
     pages.append(f'''<section class="pg g full">
   {head('How Heat Moves Outdoors', 'Every Outdoor Scheme Rests On Radiant Warmth', 'Convected heat rises and disperses, and forced air cannot hold an open space at temperature. Directional infrared aimed at people is what works.')}
-  {svg('modes', '920 210', 'chart wide mds')}
+  <div class="modes3">{ph('aia-convection', 'Convection – warms the air, which rises and drifts away', 'md')}{ph('aia-conduction', 'Conduction – warms only what a guest touches', 'md')}{ph('aia-radiant', 'Radiant – warms people and surfaces directly', 'md')}</div>
   <div class="phy"><div class="phl">{svg('spectrum', '1000 440', 'chart wide')}</div>
     <div class="phr">{ph('l-007-034', 'Medium wave: a soft glow, no glare', 'ph big')}<div class="waves"><div><h3>Short Wave</h3><p>Hottest elements; instant, intense, bright glow and glare.</p></div><div class="hl"><h3>Medium Wave</h3><p>Soft glow, little glare, warm in about 30 seconds. Bromic Platinum, Eclipse and Tungsten Electric.</p></div><div><h3>Long Wave</h3><p>No visible glow, about 5 minutes to warm, more easily dispersed by moving air.</p></div></div></div></div>
   <p class="foot">All infrared travels in straight lines at the speed of light; reach depends on output, reflector and mounting height, not on wavelength. Wien’s law, λ ≈ 2,898 µm·K ÷ T: about 2,400 K → 1.2 µm; 1,200 K → 2.4 µm; 700 K → 4.1 µm (typical element temperatures, for illustration). Warm-up times: Bromic Planning Guide v1.2.</p>{folio()}</section>''')
@@ -169,7 +169,7 @@ def build(ed='pro', inline=False, letter=False):
     pages.append(f'''<section class="pg g full">
   {head('Question 06 · Power', 'Size Every Branch Circuit', 'Current is watts ÷ volts. Fixed electric space-heating loads are continuous, so conductors and overcurrent devices are sized at no less than 125% of the load (NEC 424, 210.19(A)(1), 210.20(A)).', '06')}
   <div class="pr2 pw"><div>{svg('amps', '960 470', 'chart')}</div>
-    <div class="pcol">{ph('w-tungsten-electric-recess-kit-black', 'Recess kit with its conduit, wiring and terminal box', 'ph cut')}{ph('w-bromic-shoot-may-11-2023-43', 'Each heater on its own circuit, fitted before the ceiling is finished')}
+    <div class="pcol">{ph('t2-low-clearance-recess', 'The new low-clearance recess kit: dual fan-ventilated, 7.5 in cavity', 'ph cut')}{ph('w-bromic-shoot-may-11-2023-43', 'Each heater on its own circuit, fitted before the ceiling is finished')}
       <div class="gasn"><h3>Gas Supply</h3><p>Size piping for the total connected Btu/h, length and pressure to NFPA 54. Built-in gas also needs 110 V, 2 A at each heater; the freestanding gas heater runs on a 20 lb LPG cylinder or a 10 ft natural-gas quick-connect.</p></div></div></div>
   <p class="foot">Published amps from the product pages; Tungsten rows are W ÷ V and marked. Breaker sizes, Article 424 vs 422 and Tungsten amps await confirmation against the installation manuals. Feeders and services follow Article 220.</p>{folio()}</section>''')
     # 13 controls

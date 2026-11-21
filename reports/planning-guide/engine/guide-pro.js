@@ -29,7 +29,7 @@
       return g;
     };
     const glow = (G, cx, cy, ang, len, spread) => { // a soft warm wedge from the heater face
-      const a = (ang) * Math.PI / 180, dx = Math.sin(a), dy = Math.cos(a), px = Math.cos(a), py = -Math.sin(a);
+      const a = (ang) * Math.PI / 180, dx = -Math.sin(a), dy = Math.cos(a), px = Math.cos(a), py = Math.sin(a);  // face normal of a heater rotated clockwise by ang (SVG rotate)
       add(G, rcOf(G).polygon([[cx - px * 26, cy - py * 26], [cx + px * 26, cy + py * 26], [cx + dx * len + px * spread, cy + dy * len + py * spread], [cx + dx * len - px * spread, cy + dy * len - py * spread]], O({ stroke: 'none', fill: FLAME, fillStyle: 'hachure', hachureGap: 10, fillWeight: 0.6 })));
     };
 

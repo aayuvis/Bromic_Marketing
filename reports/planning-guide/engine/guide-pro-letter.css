@@ -41,3 +41,5 @@
 .pro .ctl .chart{height:290px;width:auto;max-width:100%;margin:0 auto}
 .pro .ctl .cuts{grid-template-columns:repeat(4,1fr)}.pro .ctl .cuts figure.ph{height:100px}
 .pro .ctl>div:last-child figure.ph{display:none}
+
+.pro .modes3{height:140px;gap:10px}.pro .modes3 .md{height:140px}
