@@ -9,3 +9,6 @@ __pycache__/
 .DS_Store
 app/dist-artifact/
 data/_eia/
+
+# design-theme sample PDFs embed full-size photos; rebuild with each theme build script
+reports/themes/*/sample.pdf

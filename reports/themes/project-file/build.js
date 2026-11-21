@@ -40,15 +40,15 @@ const P = {
     ['C', 'Industrial-style room', 'Tungsten Electric for high output, lowered to a suitable height on a 1200 mm pole.'],
     ['D', 'Operable roof', 'Tungsten Electric mounted on the structural beams and angled toward guests, chosen for Melbourne’s winter.'],
   ],
-  lounge: 'w-eclipse-electric-bromic-pinkhill-553-1',
-  loungeCaption: 'Eclipse heaters on long poles under the sloping slatted ceiling of the lounge.',
+  lounge: 'w-pink-hills-hotel-aus-2',
+  loungeCaption: 'Eclipse Pendants on drop rods in the feature-wall lounge.',
   wide: 'w-eclipse-electric-tungsten-electric-bromic-pi',
   wideCaption: 'Tungsten Electric and Eclipse heaters under the timber-slat ceiling, the feature wall left clear.',
   products: [
     { coll: 'Eclipse', name: 'Eclipse Smart-Heat® Electric', img: 'w-eclipse-electric-bromic-pinkhill-532-2', pos: '50% 55%',
       where: 'Modern dining, over the tables', mount: '24-inch twin pole and a custom pole',
       controls: 'Eclipse Dimmer Controller – three built-in heat and light presets for staff' },
-    { coll: 'Eclipse', name: 'Eclipse Pendant', img: 'w-pink-hills-hotel-aus-2', pos: '50% 35%',
+    { coll: 'Eclipse', name: 'Eclipse Pendant', img: 'w-eclipse-electric-bromic-pinkhill-553-1', pos: '20% 30%',
       where: 'Feature-wall lounge, higher fixed ceiling', mount: 'Pendant on drop rods',
       controls: 'Eclipse Dimmer Controller – three built-in heat and light presets for staff' },
     { coll: 'Tungsten', name: 'Tungsten Smart-Heat® Electric', img: 'w-tungsten-electric-bromic-pinkhill-524', pos: '30% 50%',
@@ -193,7 +193,7 @@ sup{font-size:.6em;line-height:0}
 .zones .z h4{font-size:7pt;letter-spacing:.16em;text-transform:uppercase;font-weight:700;display:flex;align-items:center;margin-bottom:6px}
 .zones .z p{font-size:7.8pt;line-height:1.5;color:#3a3536}
 .note{font-size:7pt;color:var(--steel2);margin-top:3px;font-style:italic}
-.strip{margin:16px -0.6in 0;height:1.5in;background-size:cover;background-position:50% 22%}
+.strip{margin:16px -0.6in 0;height:1.5in;background-size:cover;background-position:50% 30%}
 /* page 3 */
 .wide{margin:-0.55in -0.6in 0;height:3.75in;background-size:cover;background-position:50% 40%}
 .prods{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:16px}
