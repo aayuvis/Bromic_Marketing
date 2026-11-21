@@ -1,0 +1,26 @@
+{
+  "_readme": "Take-home flyer inputs. Images are Bromic photography from images/library and images/portfolio (rights as the source: [[VERIFY: image rights – Marketing]]). QR URLs are only URLs already used in this repo; see 'found_in'.",
+  "images": {
+    "front": "images/library/l-001-000.webp",
+    "pick-platinum": "images/library/w-p1021414-hdr-denoiseai-low-light.webp",
+    "pick-eclipse": "images/library/w-eclipse-electric-24twin-pole-residential-sce.webp",
+    "pick-freestanding": "images/portfolio/eclipse-freestanding.webp",
+    "pick-gas": "images/library/l-019-163.webp",
+    "pick-tungsten": "images/library/l-006-028.webp"
+  },
+  "qr": [
+    {
+      "id": "design",
+      "url": "https://www.bromic.com/design-your-space/",
+      "label": "Request Your Design Plan",
+      "found_in": ["data/retail/retail.json (why-bromic, install-warranty)", "data/product-facts.json (principles.design-service)", "tools/A03-sizing/config.json (cta.href)", "data/site-inventory.json"]
+    },
+    {
+      "id": "sizing",
+      "url": "https://aayuvis.github.io/Bromic_Marketing/tools/A03-sizing/",
+      "label": "Size Your Space",
+      "found_in": ["app/deploy.sh and README.md (the Hub's published base URL)", "app/scripts/build.mjs (copies tools/A03-sizing to dist/tools/A03-sizing)"],
+      "verify": "[[VERIFY: final public URL of the sizing tool on bromic.com (tools/A03-sizing README: final A07 landing URL) – 454 Creative]]"
+    }
+  ]
+}
