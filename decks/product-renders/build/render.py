@@ -26,7 +26,7 @@ def principled(name, col, rough=0.5, metal=0.0, coat=0.0, coat_rough=0.2, emit=N
     return m
 
 # finishes: linear colours measured from powder-coat references (sRGB black ~17, white ~232/230/224, graphite ~74/72/70)
-FIN = {'black': dict(col=(0.0025, 0.0025, 0.0028), rough=0.34, coat=0.15, coat_rough=0.25, logo=(0.92, 0.92, 0.92)),
+FIN = {'black': dict(col=(0.0025, 0.0025, 0.0028), rough=0.42, coat=0.12, coat_rough=0.3, spec=0.28, logo=(0.92, 0.92, 0.92)),
        'white': dict(col=(0.80, 0.79, 0.745), rough=0.45, coat=0.25, coat_rough=0.25, logo=(0.10, 0.10, 0.10)),
        'graphite': dict(col=(0.068, 0.064, 0.060), rough=0.40, coat=0.35, coat_rough=0.22, logo=(0.90, 0.90, 0.90))}
 refl = principled('reflector', (0.91, 0.90, 0.88), rough=0.28, metal=1.0, aniso=0.55)
@@ -38,11 +38,12 @@ foam = principled('foam', (0.05, 0.05, 0.05), rough=0.9)
 FRAME = {'wall': (V((1, 0, 0)), V((0, -0.876, 0.484)), V((0, 0.484, 0.876))),   # model x, out-of-surface, up
          'ceiling': (V((1, 0, 0)), V((0, -1, 0)), V((0, 0, 1)))}
 WORLD = {'wall': (V((1, 0, 0)), V((0, -1, 0)), V((0, 0, 1))),       # wall behind (+Y), heater faces the camera side, tilted down
-         'ceiling': (V((1, 0, 0)), V((0, 0, -1)), V((0, 1, 0)))}    # face points down
+         'ceiling': (V((1, 0, 0)), V((0, 0, -1)), V((0, -1, 0)))}   # face points down; a proper rotation (det +1), never a mirror
 heads = []
 for k, h in enumerate(SH['heaters']):
     f = FIN[h['finish']]
     body = principled(f'powder{k}', f['col'], f['rough'], 0, f['coat'], f['coat_rough'], bump=0.35)
+    body.node_tree.nodes['Principled BSDF'].inputs['Specular IOR Level'].default_value = f.get('spec', 0.5)
     logo = principled(f'logo{k}', f['logo'], 0.35); red = principled(f'red{k}', (0.86, 0.054, 0.016), 0.4)   # Bromic flame mark
     coil = principled(f'coil{k}', (0.12, 0.03, 0.015), 0.5, emit=(1.0, 0.30, 0.045), es=h.get('glow', 16.0))
     before = set(bpy.data.objects); bpy.ops.import_scene.gltf(filepath=GLB + h['glb']); new = [o for o in bpy.data.objects if o not in before]
@@ -80,6 +81,7 @@ for k, h in enumerate(SH['heaters']):
     a = M3((FRAME[h['mount']][0], FRAME[h['mount']][1], FRAME[h['mount']][2])).transposed()
     b = M3((WORLD[h['mount']][0], WORLD[h['mount']][1], WORLD[h['mount']][2])).transposed()
     R = (b @ a.inverted()).to_4x4()
+    assert R.to_3x3().determinant() > 0, 'mount transform would mirror the CAD (logo reads backwards)'
     tilt = mathutils.Matrix.Rotation(math.radians(h.get('tilt', 0)), 4, 'X')
     rig.matrix_world = mathutils.Matrix.Translation(V(h.get('offset', (0, 0, 0)))) @ tilt @ R
     bpy.context.view_layer.update()
