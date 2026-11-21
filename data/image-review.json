@@ -573,6 +573,30 @@
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
    "status": "pending",
    "note": ""
+  },
+  {
+   "id": "ecl-ai-01",
+   "title": "Eclipse Freestanding dining terrace, front",
+   "kind": "Generated scene (from the owner's draft)",
+   "finish": "black",
+   "w": 4608,
+   "h": 3712,
+   "file": "images/review/full/ecl-ai-01.jpg",
+   "thumb": "images/review/thumb/ecl-ai-01.webp",
+   "source": "Owner-supplied draft re-created as a photograph with an image model; heater corrected against Eclipse Freestanding product photos",
+   "status": "pending"
+  },
+  {
+   "id": "ecl-ai-02",
+   "title": "Eclipse Freestanding dining terrace, seated view",
+   "kind": "Generated scene (from the owner's draft)",
+   "finish": "black",
+   "w": 4608,
+   "h": 3712,
+   "file": "images/review/full/ecl-ai-02.jpg",
+   "thumb": "images/review/thumb/ecl-ai-02.webp",
+   "source": "Owner-supplied draft re-created as a photograph with an image model; heater corrected against Eclipse Freestanding product photos",
+   "status": "pending"
   }
  ]
 }

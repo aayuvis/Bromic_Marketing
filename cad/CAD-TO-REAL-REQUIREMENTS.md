@@ -232,4 +232,8 @@ decision · the rule it adds. The QC agent checks every rule here.
   owner before any heater goes in (the M2 exception).
 - **No long poles (owner, 21 Nov 2026):** Series II images use short posts only (wall bracket, beam post, flat-ceiling post, pitch
   adaptor, recess). Skip high-ceiling scenes that would need the 600 or 1,200 mm accessory pole.
+- **Product drift (owner, 21 Nov 2026, Eclipse seated view B: "b is shit... product is wrong"):** when an image model re-photographs a scene
+  it can redraw the product and the setting. Before anything is sent, compare the heater part by part with the real product photos
+  (head thickness and shape, arm, base, ring, element) and the setting with the source; if either changed, drop it. Never send a
+  variant whose product differs from the reference.
 
