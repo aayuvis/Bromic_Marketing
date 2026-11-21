@@ -278,6 +278,7 @@ fs.rmSync(DIST, { recursive: true, force: true });
 fs.mkdirSync(DIST, { recursive: true });
 for (const f of ['index.html', 'styles.css', 'visuals.css', 'app.js', 'editor.js']) fs.copyFileSync(path.join(APP, 'src', f), path.join(DIST, f));
 fs.cpSync(path.join(APP, 'src', 'fonts'), path.join(DIST, 'fonts'), { recursive: true });
+if (fs.existsSync(path.join(ROOT, 'decks', 'video'))) { fs.mkdirSync(path.join(DIST, 'decks', 'video'), { recursive: true }); for (const f of fs.readdirSync(path.join(ROOT, 'decks', 'video')).filter((x) => /-3D(-Reels|-Loop)?\.mp4$|-3D-poster\.jpg$/.test(x))) fs.copyFileSync(path.join(ROOT, 'decks', 'video', f), path.join(DIST, 'decks', 'video', f)); }  // the recess-kit film, playable on the Hub
 if (fs.existsSync(path.join(ROOT, 'decks'))) { fs.mkdirSync(path.join(DIST, 'decks'), { recursive: true }); for (const f of fs.readdirSync(path.join(ROOT, 'decks')).filter((x) => /\.(pptx|jpg)$/.test(x))) fs.copyFileSync(path.join(ROOT, 'decks', f), path.join(DIST, 'decks', f));
   if (fs.existsSync(path.join(ROOT, 'decks', 'carousels'))) { fs.mkdirSync(path.join(DIST, 'decks', 'carousels'), { recursive: true }); for (const f of fs.readdirSync(path.join(ROOT, 'decks', 'carousels'))) fs.copyFileSync(path.join(ROOT, 'decks', 'carousels', f), path.join(DIST, 'decks', 'carousels', f)); } }
 fs.mkdirSync(path.join(DIST, 'vendor'), { recursive: true });
