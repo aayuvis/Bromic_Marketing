@@ -156,12 +156,29 @@ w = bpy.data.worlds.new('w'); sc.world = w; w.use_nodes = True; w.node_tree.node
 w.node_tree.nodes['Background'].inputs[1].default_value = SH.get('world', 0.12)
 
 r = sc.render; r.engine = 'CYCLES'; cy = sc.cycles; cy.device = 'CPU'
-cy.samples = int(SH.get('samples', 256)); cy.use_adaptive_sampling = True; cy.adaptive_threshold = SH.get('noise', 0.012)
-cy.use_denoising = True; cy.denoiser = 'OPENIMAGEDENOISE'
-cy.max_bounces = 10; cy.glossy_bounces = 6; cy.transmission_bounces = 10; cy.transparent_max_bounces = 10; cy.caustics_reflective = False; cy.caustics_refractive = False
-cy.blur_glossy = 0.6; cy.seed = 7
+cy.samples = int(SH.get('samples', 64)); cy.use_adaptive_sampling = True; cy.adaptive_threshold = SH.get('noise', 0.04)
+cy.use_denoising = True; cy.denoiser = 'OPENIMAGEDENOISE'; cy.denoising_input_passes = 'RGB_ALBEDO_NORMAL'
+cy.max_bounces = 6; cy.diffuse_bounces = 2; cy.glossy_bounces = 3; cy.transmission_bounces = 4; cy.transparent_max_bounces = 4
+cy.caustics_reflective = False; cy.caustics_refractive = False; cy.sample_clamp_indirect = 5.0
+cy.blur_glossy = 0.6; cy.seed = 7; r.use_persistent_data = True; cy.use_auto_tile = True; cy.tile_size = 512
 r.film_transparent = True; r.resolution_x = int(SH['res'][0] * SCALE); r.resolution_y = int(SH['res'][1] * SCALE); r.resolution_percentage = 100
 sc.view_settings.view_transform = 'AgX'; sc.view_settings.look = 'AgX - Medium High Contrast'; sc.view_settings.exposure = SH.get('exposure', 0.0)
 r.image_settings.file_format = 'PNG'; r.image_settings.color_mode = 'RGBA'; r.image_settings.color_depth = '16'
+# 1) shadows only, at quarter size and few samples (they are blurred in compose.py anyway); 2) the heater region at full size
+if SH.get('region', True):
+    from bpy_extras.object_utils import world_to_camera_view
+    bpy.context.view_layer.update()
+    corners = [V((x_, y_, z_)) for hh in heads for x_ in (hh['lo'].x, hh['hi'].x) for y_ in (hh['lo'].y, hh['hi'].y) for z_ in (hh['lo'].z, hh['hi'].z)]
+    pts = [world_to_camera_view(sc, cam, c) for c in corners]
+    mx = 0.03
+    bx0 = max(0, min(p.x for p in pts) - mx); bx1 = min(1, max(p.x for p in pts) + mx)
+    by0 = max(0, min(p.y for p in pts) - mx); by1 = min(1, max(p.y for p in pts) + mx)
+    keep = (r.resolution_x, r.resolution_y, cy.samples)
+    r.resolution_percentage = 25; cy.samples = 24; r.use_border = False
+    r.filepath = OUT.replace('.png', '_shadow.png'); bpy.ops.render.render(write_still=True)
+    r.resolution_percentage = 100; cy.samples = keep[2]
+    if bx1 - bx0 < 0.97 or by1 - by0 < 0.97:
+        r.use_border = True; r.use_crop_to_border = False
+        r.border_min_x, r.border_max_x, r.border_min_y, r.border_max_y = bx0, bx1, by0, by1
 r.filepath = OUT; bpy.ops.render.render(write_still=True)
 print('LOGO', list(h0['logo']), 'CENTRE', list(h0['centre']))

@@ -11,6 +11,12 @@ lv = 0.985 - 0.075 * np.clip(r, 0, 1.3) ** 1.6
 bg = np.stack([lv * 1.0, lv * 0.992, lv * 0.978], -1)
 if len(sys.argv) > 3 and sys.argv[3] == 'grey': bg = bg * 0.88
 al = a[..., 3:4].copy()
+import os
+sp = sys.argv[1].replace('.png', '_shadow.png')
+if os.path.exists(sp):  # shadows from the quarter-size pass where the full-size region render left the frame empty
+    s_ = np.asarray(Image.open(sp).convert('RGBA').resize((W, H), Image.BILINEAR)).astype(np.float32) / 255
+    empty = al < 0.002
+    a = a.copy(); a[..., :3] = np.where(empty, s_[..., :3], a[..., :3]); al = np.where(empty, s_[..., 3:4], al)
 # caught shadows (dark, partly transparent) are softened so the sweep stays light; the product itself (alpha ~1) is untouched
 sh = (al < 0.985) & (a[..., :3].max(-1, keepdims=True) < 0.08)
 from PIL import ImageFilter

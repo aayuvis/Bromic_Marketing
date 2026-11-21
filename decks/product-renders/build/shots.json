@@ -34,8 +34,8 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 96,
-  "noise": 0.03
+  "samples": 64,
+  "noise": 0.04
  },
  "select-black-endcap": {
   "heaters": [
@@ -73,8 +73,8 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 96,
-  "noise": 0.03
+  "samples": 64,
+  "noise": 0.04
  },
  "select-white-hero": {
   "heaters": [
@@ -111,8 +111,8 @@
    2560
   ],
   "exposure": -1.8,
-  "samples": 96,
-  "noise": 0.03
+  "samples": 64,
+  "noise": 0.04
  },
  "select-white-endcap": {
   "heaters": [
@@ -149,8 +149,8 @@
    2560
   ],
   "exposure": -1.8,
-  "samples": 96,
-  "noise": 0.03
+  "samples": 64,
+  "noise": 0.04
  },
  "select-graphite-hero": {
   "heaters": [
@@ -186,8 +186,8 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 96,
-  "noise": 0.03
+  "samples": 64,
+  "noise": 0.04
  },
  "select-graphite-endcap": {
   "heaters": [
@@ -223,8 +223,8 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 96,
-  "noise": 0.03
+  "samples": 64,
+  "noise": 0.04
  },
  "coastal-white-hero": {
   "heaters": [
@@ -260,8 +260,8 @@
    2560
   ],
   "exposure": -1.8,
-  "samples": 96,
-  "noise": 0.03
+  "samples": 64,
+  "noise": 0.04
  },
  "coastal-black-endcap": {
   "heaters": [
@@ -297,8 +297,8 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 96,
-  "noise": 0.03
+  "samples": 64,
+  "noise": 0.04
  },
  "classic-black-hero": {
   "heaters": [
@@ -334,8 +334,8 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 96,
-  "noise": 0.03
+  "samples": 64,
+  "noise": 0.04
  },
  "select-black-along-the-grille": {
   "heaters": [
@@ -376,8 +376,8 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 96,
-  "noise": 0.03
+  "samples": 64,
+  "noise": 0.04
  },
  "select-white-from-below": {
   "heaters": [
@@ -419,8 +419,8 @@
    2560
   ],
   "exposure": -1.8,
-  "samples": 96,
-  "noise": 0.03
+  "samples": 64,
+  "noise": 0.04
  },
  "select-black-and-white-pair": {
   "heaters": [
@@ -469,7 +469,7 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 96,
-  "noise": 0.03
+  "samples": 64,
+  "noise": 0.04
  }
 }
