@@ -684,6 +684,18 @@
    "video": true,
    "source": "Silent 6 s loop from the same CAD film, for web headers and displays.",
    "status": "pending"
+  },
+  {
+   "id": "ad-ts2-03",
+   "title": "Series II feature ad v3 (4:5): soft glow",
+   "kind": "Ad, CAD heater on photo",
+   "finish": "white and black",
+   "w": 2160,
+   "h": 2700,
+   "file": "images/review/full/ad-ts2-03.jpg",
+   "thumb": "images/review/thumb/ad-ts2-03.webp",
+   "source": "v1 layout with the light streaks replaced by a soft warm glow below the heater and a gentle amber on the elements.",
+   "status": "pending"
   }
  ]
 }
