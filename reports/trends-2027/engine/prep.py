@@ -1,10 +1,13 @@
-"""Prepare the NA 2027 trend report images: photos, sketch renderings and sketch-to-photo splits.
-Run from the repo root: python3 reports/trends-2027/na/build/prep.py"""
+"""Prepare a 2027 trend report's images: photos, sketch renderings and sketch-to-photo splits, from <id>/content.py.
+Run from the repo root: python3 reports/trends-2027/engine/prep.py <id>"""
 import os, sys, cv2, numpy as np
 from PIL import Image
 sys.path.insert(0, os.path.dirname(__file__))
 from sketch import sketch
-OUT = 'reports/trends-2027/na/img'; os.makedirs(OUT, exist_ok=True)
+import importlib.util
+RID = sys.argv[1]
+_s = importlib.util.spec_from_file_location('c', f'reports/trends-2027/{RID}/content.py'); C = importlib.util.module_from_spec(_s); _s.loader.exec_module(C)
+OUT = f'reports/trends-2027/{RID}/img'; os.makedirs(OUT, exist_ok=True)
 TMP = OUT + '/_tmp'; os.makedirs(TMP, exist_ok=True)
 def src(i):
     return f'images/review/full/{i}.jpg' if i.startswith('ts2-') else f'images/library/{i}.webp'
@@ -14,17 +17,15 @@ def png(i):
     return p
 def save(arr_bgr, name):
     Image.fromarray(cv2.cvtColor(arr_bgr, cv2.COLOR_BGR2RGB)).save(f'{OUT}/{name}.webp', quality=84)
-PHOTOS = ['w-bromic-tungsten-electric-residential', 'w-bromic-ambiente-sedona-11', 'w-connecticut-privateresidence-tungstenelectri-2',
-          'w-240619-yorba-linda-ca-dc-64', 'l-007-039', 'w-dsc000071', 'w-commercial-australia-sydney-manly-wharf-15', 'ts2-photo-01',
-          'w-dsc07397-1', 'l-021-180', 'l-003-009', 'l-002-004', 'l-001-000', 'w-bromic-tungsten-electric-patio-heater']
-SKETCH = ['l-012-093', 'w-dsc05737-courtney-saib', 'w-delmonico-08', 'w-bromic-sep18th-9-1', 'w-bromic-ambiente-sedona-10',
-          'w-bromic-tungsten-electric-patio-heater', 'w-e-tungsten-1', 'w-bromic-tungsten-electric-black-recessed', 'l-006-028', 'w-connecticut-private-res-tungsten-electric-1']
-SPLIT = ['l-004-012', 'l-006-028']
+PHOTOS, SKETCH, SPLIT = C.PHOTOS, C.SKETCH, C.SPLIT
 for i in PHOTOS:
+    if os.path.exists(f'{OUT}/{i}.webp'): continue
     im = Image.open(src(i)).convert('RGB'); im.thumbnail((2000, 2000)); im.save(f'{OUT}/{i}.webp', quality=86)
 for i in SKETCH:
+    if os.path.exists(f'{OUT}/{i}-sketch.webp'): continue
     o = f'{TMP}/{i}-sk.jpg'; sketch(png(i), o); save(cv2.imread(o), f'{i}-sketch')
 for i in SPLIT:
+    if os.path.exists(f'{OUT}/{i}-split.webp'): continue
     o = f'{TMP}/{i}-sk.jpg'; sketch(png(i), o)
     sk = cv2.imread(o).astype(np.float32); ph = cv2.imread(png(i)).astype(np.float32)
     h, w = ph.shape[:2]

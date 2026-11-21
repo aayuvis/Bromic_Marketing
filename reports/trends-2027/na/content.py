@@ -1,25 +1,8 @@
-"""Build the visual Outdoor Living Trends 2027 · North America report.
-Run from the repo root:  python3 reports/trends-2027/na/build/build.py
-Writes reports/trends-2027/na/index.html (uses img/) and, with --inline, a single self-contained file
-reports/trends-2027/na/Outdoor-Living-Trends-2027-North-America.html (fonts, images and scripts embedded).
-Every figure comes from reports/trends-2027/north-america-storyline.md (sourced there)."""
-import base64, json, os, re, sys, html
-HERE = os.path.dirname(os.path.abspath(__file__))
-NA = os.path.dirname(HERE)
-ROOT = os.path.abspath(os.path.join(NA, '..', '..', '..'))
-E = html.escape
-
-def b64(path, mime):
-    return f'data:{mime};base64,' + base64.b64encode(open(path, 'rb').read()).decode()
-
-def icon(name, cls='ic'):
-    s = open(os.path.join(HERE, 'icons', name + '.svg')).read()
-    inner = re.search(r'<svg[^>]*>(.*)</svg>', s, re.S).group(1)
-    inner = re.sub(r'<!--.*?-->', '', inner, flags=re.S).strip()
-    return (f'<svg class="{cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" '
-            f'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{inner}</svg>')
-
-AUD_ICON = {'Architects': 'pencil-ruler', 'Builders': 'hard-hat', 'Homeowners': 'house', 'Designers': 'paintbrush',
+"""Outdoor Living Trends 2027 · North America: the report's words, numbers and pictures.
+Every figure is in ../north-america-storyline.md with its source. Build: python3 reports/trends-2027/engine/build.py na"""
+FILE = 'Outdoor-Living-Trends-2027-North-America'
+REGION = 'North America'
+AUD_ICON_EXTRA = {'Architects': 'pencil-ruler', 'Builders': 'hard-hat', 'Homeowners': 'house', 'Designers': 'paintbrush',
             'Operators': 'utensils-crossed', 'Hospitality': 'wine', 'Integrators': 'sliders-horizontal', 'Hotels': 'hotel',
             'Pergola makers': 'layers', 'Cities': 'landmark', 'Builders & electricians': 'plug', 'Hospitality designers': 'paintbrush'}
 
@@ -54,7 +37,7 @@ SHIFTS = [
   hero=('Net 25%', 'three-season rooms are the fastest-rising room type, up from net 6%', 'AIA Home Design Trends Survey, Q2 2026 data'),
   photo='w-connecticut-privateresidence-tungstenelectri-2', side='L', cap='A Connecticut porch with Tungsten Electric heaters recessed flush in the beadboard ceiling',
   right=('sketch', 'w-dsc05737-courtney-saib', 'The three-season porch, made four-season with heat'),
-  chart='s3', lead='"Three-season" becomes "four-season" with heat.',
+  chart='s3', lead='“Three-season” becomes “four-season” with heat.',
   impl=[('Architects', 'Specify heating as part of the porch package.'), ('Builders', 'Price the heated porch as one line item.'), ('Homeowners', 'A heated covered porch adds months of use for a fraction of the cost of an addition.')],
   insight='Infrared heat is the simplest way to turn a three-season room into a four-season one.'),
  dict(n='04', title='Cover First, Then Comfort', words=[('Shelter', 'house'), ('Mount', 'ruler'), ('Integrate', 'layers')],
@@ -151,139 +134,33 @@ SOURCES = [
  'Bromic Outdoor Living Trends 2026 (Atomik Research).',
 ]
 
-ICON_NAMES = sorted({w[1] for s in SHIFTS for w in s['words']} | set(AUD_ICON.values()) |
-                    {'flame', 'check', 'trending-up', 'zap', 'calendar-days', 'sun', 'wifi', 'plug'})
 
-def folio(p, dark=False):
-    return (f'<div class="folio{" dk" if dark else ""}"><span>Outdoor Living Trends 2027 · North America</span>'
-            f'<span class="draft">Draft for review</span><span>{p:02d}</span></div>')
-
-def img(src_id, cls='', alt=''):
-    return f'<img class="{cls}" src="img/{src_id}.webp" alt="{E(alt)}">'
-
-def page_a(s, p):
-    words = ''.join(f'<li><span class="wico" data-r="circle">{icon(i)}</span>{E(w)}</li>' for w, i in s['words'])
-    sig = ''.join(f'<li><b>{E(f)}</b><span>{E(t)}</span></li>' for f, t in s['signals'])
-    return f'''<section class="pg pa side{s['side']}" id="s{s['n']}">
-  <figure class="ph">{img(s['photo'], alt=s['cap'])}<div class="bign">{s['n']}</div><figcaption>{E(s['cap'])}</figcaption></figure>
-  <div class="tx">
-    <div class="kick">Shift {s['n']} of 10</div>
-    <h2>{E(s['title'])}</h2>
-    <ul class="words">{words}</ul>
-    <p class="read">{E(s['read'])}</p>
-    <ul class="sig">{sig}</ul>
-  </div>{folio(p)}</section>'''
-
-def page_b(s, p):
-    kind, ref, cap = s['right']
-    if kind == 'sketch':
-        vis = f'<figure class="sk">{img(ref + "-sketch", alt=cap)}<figcaption>{E(cap)}</figcaption></figure>'
-    else:
-        vis = f'<figure class="sk dg"><svg class="diag" data-diag="{ref}" viewBox="0 0 680 540"></svg><figcaption>{E(cap)}</figcaption></figure>'
-    impl = ''.join(f'<div class="aud"><span class="aico" data-r="circle">{icon(AUD_ICON[a])}</span><h4>{E(a)}</h4><p>{E(t)}</p></div>' for a, t in s['impl'])
-    f, c, src = s['hero']
-    return f'''<section class="pg pb" id="s{s['n']}b">
-  <div class="stat">
-    <div class="kick">Shift {s['n']} · {E(s['title'])}</div>
-    <div class="hero"><div class="fig">{E(f)}</div><div class="cap">{E(c)}<small>{E(src)}</small></div></div>
-    <svg class="chart" data-chart="{s['chart']}" viewBox="0 0 860 330"></svg>
-  </div>
-  {vis}
-  <div class="impl">
-    <div class="ilead"><div class="kick">The Implication</div><p>{E(s['lead'])}</p></div>
-    {impl}
-  </div>
-  <div class="insight">{icon('flame', 'fl')}<div><div class="kick">Bromic Insight</div><p>{E(s['insight'])}</p></div></div>
-  {folio(p)}</section>'''
-
-def build(inline=False, letter=False):
-    pages = []
-    p = 1
-    pages.append(f'''<section class="pg cover">{img('l-004-012-split', 'bg', 'A coastal terrace, drawn as a sketch on the left and photographed finished on the right, with Tungsten heaters under the pergola')}
-  <div class="cv"><img class="logo" src="LOGO" alt="Bromic Heating">
-    <div class="ckick">Bromic Outdoor Living Report</div>
-    <h1>Outdoor Living<br>Trends <em>2027</em></h1>
-    <div class="region">North America</div>
-    <p>10 shifts putting heat at the heart of the outdoor room. For architects, builders, homeowners and hospitality.</p>
-  </div><div class="cvnote">From the first sketch to the finished room – plan heat from the start.</div></section>''')
-    p += 1
-    toc = ''.join(f'<a class="tile" href="#s{s["n"]}"><span class="tn">{s["n"]}</span><span class="tt">{E(s["title"])}</span>'
-                  f'<span class="tw">{" · ".join(w for w, _ in s["words"])}</span></a>' for s in SHIFTS)
-    pages.append(f'''<section class="pg intro">
-  <div class="il"><div class="kick">Outdoor Living Trends 2027</div>
-    <h2>Every Outdoor Room Starts As A Sketch</h2>
-    <p class="lede">The ones people use all year have heat drawn in from the first line.</p>
-    <p>Outdoor living is moving from the yard into the floor plan, and from summer into every season. Architects rank the outdoor room first, falls are warmer, cities are keeping patios open through winter and homes are going electric.</p>
-    <p>The next step is comfort. An outdoor room is only as useful as the hours it stays warm – and that is where heat becomes essential.</p>
-    <figure class="istrip">{img('w-delmonico-08-sketch', alt='Sketch of a timber pavilion with heaters glowing under the roof')}</figure>
-  </div>
-  <div class="ir"><div class="kick">The 10 Shifts</div><div class="toc">{toc}</div></div>{folio(p)}</section>''')
-    p += 1
-    pages.append(f'''<section class="pg nums">
-  <div class="kick">The Shift In Numbers</div><h2>Outdoor Living, By The Numbers</h2>
-  <div class="ncols">
-    <div class="nc"><svg class="mini" data-mini="aia" viewBox="0 0 300 190"></svg><div class="nf">Net 51%</div><p>of residential architects report rising demand for outdoor living rooms – the most popular special-function room, up from net 40%</p><small>AIA Home Design Trends Survey, Q2 2026 data</small></div>
-    <div class="nc"><svg class="mini" data-mini="houzz" viewBox="0 0 300 190"></svg><div class="nf">54%</div><p>of US renovating homeowners took on outdoor projects in 2025</p><small>Houzz &amp; Home 2026, n=10,176</small></div>
-    <div class="nc"><svg class="mini" data-mini="falls" viewBox="0 0 300 190"></svg><div class="nf">241 of 245</div><p>US cities have warmer falls than in 1970 – more evenings worth claiming</p><small>Climate Central, August 2026</small></div>
-    <div class="nc"><svg class="mini" data-mini="year" viewBox="0 0 300 190"></svg><div class="nf">Year-Round</div><p>New York made all-season outdoor dining law in 2026; Canadian outdoor dining reservations rose 24%</p><small>NYC Int. 655, August 2026 · OpenTable Canada, May 2026</small></div>
-  </div>
-  <figure class="nstrip">{img('l-002-004', alt='A wide timber-roofed terrace opening onto the sea at sunset')}</figure>
-  {folio(p, True)}</section>''')
-    p += 1
-    for s in SHIFTS:
-        pages.append(page_a(s, p)); p += 1
-        pages.append(page_b(s, p)); p += 1
-    checks = ''.join(f'<li><span class="cb" data-r="box"></span>{E(t)}</li>' for t in [
-        'Circuits and capacity sized at rough-in (NEC 2026)', 'Heat recessed or mounted cleanly into roofs, pergolas and walls',
-        'One control scene for light, sound and heat', 'More months, more evenings, more covers'])
-    pages.append(f'''<section class="pg close">
-  <figure class="cph">{img('l-006-028-split', alt='A pergola lounge, half sketch and half finished photograph, with Tungsten heaters overhead')}</figure>
-  <div class="ct"><div class="kick">The Conclusion</div><h2>From Optional To Essential: Plan Heat From The Start</h2>
-    <p class="read">Outdoor heating is following the path of the built-in kitchen and the built-in grill. The outdoor room is on the plan, the season is longer, cities are keeping patios open and homes are going electric. Every shift leads to the same place: heat belongs in the first drawing.</p>
-    <div class="cgrid">
-      <div><svg class="chart" data-chart="market" viewBox="0 0 520 280"></svg><small>Global outdoor heating market, US$ billion. 2025–2026 estimates, then the 6.6% a year forecast path to 2034. Fortune Business Insights, 2026.</small></div>
-      <div class="gap"><svg class="mini" data-mini="gap" viewBox="0 0 220 220"></svg><p><b>Fewer than 1 in 4</b> homeowners prioritised heating at planning in 2026. That gap is the opportunity.</p><small>Bromic Outdoor Living Trends 2026, Atomik Research</small></div>
-    </div>
-    <div class="ckl"><div class="kick">What Early Planning Enables</div><ul>{checks}</ul></div>
-  </div>{folio(p)}</section>''')
-    p += 1
-    pages.append(f'''<section class="pg poster">{img('l-001-000' if letter else 'l-003-009', 'bg', 'A covered coastal terrace at dusk with heaters under the pergola' if letter else 'A Tungsten heater over a harbour at dusk')}
-  <div class="pt"><div class="kick">Plan It In</div>
-    <ul class="plan"><li><b>Architects</b><span>Draw it.</span></li><li><b>Builders</b><span>Wire it.</span></li><li><b>Homeowners</b><span>Ask for it.</span></li><li><b>Operators</b><span>Earn from it.</span></li></ul>
-    <div class="cta">Book A Design Consultation With Bromic</div><div class="site">bromic.com</div>
-    <img class="logo" src="LOGOW" alt="Bromic Heating"></div></section>''')
-    p += 1
-    src = ''.join(f'<li>{E(s)}</li>' for s in SOURCES)
-    pages.append(f'''<section class="pg srcs"><div class="kick">Sources</div><h2>Where The Numbers Come From</h2><ol>{src}</ol>
-  <p class="note">Market figures are research estimates, not audited sales. Brand-commissioned surveys are labelled. Photography: Bromic installations and Bromic Lookbook 2026; one image is a Bromic photograph with a Tungsten Series II heater rendered from CAD. Sketch renderings are made from those photographs. Wi-Fi and app features need compatible Affinity controls, sold separately. Check local codes; installation by a licensed electrician.</p>
-  {folio(p)}</section>''')
-
-    css = open(os.path.join(HERE, 'report.css')).read()
-    if letter: css += '\n' + open(os.path.join(HERE, 'report-letter.css')).read()
-    js = open(os.path.join(HERE, 'report.js')).read()
-    rough = open(os.path.join(HERE, 'vendor', 'rough-4.6.6.js')).read()
-    fonts = os.path.join(ROOT, 'app', 'src', 'fonts')
-    if inline:
-        css = css.replace('FONT_DIDOT', b64(os.path.join(fonts, 'gfs-didot-latin.woff2'), 'font/woff2')).replace('FONT_ARIMO', b64(os.path.join(fonts, 'arimo-latin.woff2'), 'font/woff2'))
-    else:
-        css = css.replace('FONT_DIDOT', '../../../app/src/fonts/gfs-didot-latin.woff2').replace('FONT_ARIMO', '../../../app/src/fonts/arimo-latin.woff2')
-    body = '\n'.join(pages)
-    logo = os.path.join(ROOT, 'images', 'portfolio', 'bromic-logo.png'); logow = os.path.join(ROOT, 'images', 'portfolio', 'bromic-logo-white.png')
-    if inline:
-        body = body.replace('src="LOGO"', f'src="{b64(logo, "image/png")}"').replace('src="LOGOW"', f'src="{b64(logow, "image/png")}"')
-        body = re.sub(r'src="img/([^"]+)"', lambda m: f'src="{b64(os.path.join(NA, "img", m.group(1)), "image/webp")}"', body)
-    else:
-        body = body.replace('src="LOGO"', 'src="../../../images/portfolio/bromic-logo.png"').replace('src="LOGOW"', 'src="../../../images/portfolio/bromic-logo-white.png"')
-    icons = {n: icon(n) for n in ICON_NAMES}
-    doc = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex"><title>Outdoor Living Trends 2027</title>
-<style>{css}</style></head><body><main id="deck">
-{body}
-</main><script>{rough}</script><script>window.ICONS={json.dumps(icons)};</script><script>{js}</script></body></html>'''
-    name = ('Outdoor-Living-Trends-2027-North-America' + ('-Letter' if letter else '') + '.html') if inline else ('letter.html' if letter else 'index.html')
-    out = os.path.join(NA, name)
-    open(out, 'w').write(doc)
-    print(out, round(len(doc) / 1e6, 2), 'MB')
-
-if __name__ == '__main__':
-    build(inline='--inline' in sys.argv, letter='--letter' in sys.argv)
+COVER = dict(img='l-004-012-split', alt='A coastal terrace, drawn as a sketch on the left and photographed finished on the right, with Tungsten heaters under the pergola',
+             sub='10 shifts putting heat at the heart of the outdoor room. For architects, builders, homeowners and hospitality.',
+             note='From the first sketch to the finished room – plan heat from the start.')
+INTRO = dict(h2='Every Outdoor Room Starts As A Sketch', lede='The ones people use all year have heat drawn in from the first line.',
+             paras=['Outdoor living is moving from the yard into the floor plan, and from summer into every season. Architects rank the outdoor room first, falls are warmer, cities are keeping patios open through winter and homes are going electric.',
+                    'The next step is comfort. An outdoor room is only as useful as the hours it stays warm – and that is where heat becomes essential.'],
+             img='w-delmonico-08-sketch', alt='Sketch of a timber pavilion with heaters glowing under the roof')
+NUMS = dict(h2='Outdoor Living, By The Numbers', img='l-002-004', alt='A wide timber-roofed terrace opening onto the sea at sunset', items=[
+    ('aia', 'Net 51%', 'of residential architects report rising demand for outdoor living rooms – the most popular special-function room, up from net 40%', 'AIA Home Design Trends Survey, Q2 2026 data'),
+    ('houzz', '54%', 'of US renovating homeowners took on outdoor projects in 2025', 'Houzz & Home 2026, n=10,176'),
+    ('falls', '241 of 245', 'US cities have warmer falls than in 1970 – more evenings worth claiming', 'Climate Central, August 2026'),
+    ('year', 'Year-Round', 'New York made all-season outdoor dining law in 2026; Canadian outdoor dining reservations rose 24%', 'NYC Int. 655, August 2026 · OpenTable Canada, May 2026')])
+CLOSE = dict(img='l-006-028-split', alt='A pergola lounge, half sketch and half finished photograph, with Tungsten heaters overhead',
+             h2='From Optional To Essential: Plan Heat From The Start',
+             read='Outdoor heating is following the path of the built-in kitchen and the built-in grill. The outdoor room is on the plan, the season is longer, cities are keeping patios open and homes are going electric. Every shift leads to the same place: heat belongs in the first drawing.',
+             chart='market', chart_cap='Global outdoor heating market, US$ billion. 2025–2026 estimates, then the 6.6% a year forecast path to 2034. Fortune Business Insights, 2026.',
+             gap_mini='gap', gap_html='<b>Fewer than 1 in 4</b> homeowners prioritised heating at planning in 2026. That gap is the opportunity.', gap_src='Bromic Outdoor Living Trends 2026, Atomik Research',
+             checks=['Circuits and capacity sized at rough-in (NEC 2026)', 'Heat recessed or mounted cleanly into roofs, pergolas and walls', 'One control scene for light, sound and heat', 'More months, more evenings, more covers'])
+POSTER = dict(img='l-003-009', alt='A Tungsten heater over a harbour at dusk', img_letter='l-001-000', alt_letter='A covered coastal terrace at dusk with heaters under the pergola',
+              lines=[('Architects', 'Draw it.'), ('Builders', 'Wire it.'), ('Homeowners', 'Ask for it.'), ('Operators', 'Earn from it.')],
+              cta='Book A Design Consultation With Bromic', site='bromic.com')
+NOTE = 'Market figures are research estimates, not audited sales. Brand-commissioned surveys are labelled. Photography: Bromic installations and Bromic Lookbook 2026; one image is a Bromic photograph with a Tungsten Series II heater rendered from CAD. Sketch renderings are made from those photographs. Wi-Fi and app features need compatible Affinity controls, sold separately. Check local codes; installation by a licensed electrician.'
+# images: photos used as they are, sketch renderings, and sketch-to-photo splits (see engine/prep.py)
+PHOTOS = ['w-bromic-tungsten-electric-residential', 'w-bromic-ambiente-sedona-11', 'w-connecticut-privateresidence-tungstenelectri-2',
+          'w-240619-yorba-linda-ca-dc-64', 'l-007-039', 'w-dsc000071', 'w-commercial-australia-sydney-manly-wharf-15', 'ts2-photo-01',
+          'w-dsc07397-1', 'l-021-180', 'l-003-009', 'l-002-004', 'l-001-000', 'w-bromic-tungsten-electric-patio-heater']
+SKETCH = ['l-012-093', 'w-dsc05737-courtney-saib', 'w-delmonico-08', 'w-bromic-sep18th-9-1', 'w-bromic-ambiente-sedona-10',
+          'w-bromic-tungsten-electric-patio-heater', 'w-e-tungsten-1', 'w-bromic-tungsten-electric-black-recessed', 'l-006-028', 'w-connecticut-private-res-tungsten-electric-1']
+SPLIT = ['l-004-012', 'l-006-028']
