@@ -110,11 +110,11 @@ const quote = `<table class="mx q"><colgroup><col style="width:162px"><col style
   </tbody></table>`;
 
 // ---------- Mounting: one section, every mount ----------
-const F = 262, S = 1.75, y = (inch) => +(F - inch * S).toFixed(1);
+const F = 254, S = 1.7, y = (inch) => +(F - inch * S).toFixed(1);
 const CEIL = y(112); // flat ceiling finish line, drawn at 112 in
 const roofY = (x) => +(CEIL - (x - 430) * 0.3).toFixed(1); // the pitched bay
 const RAIL = [[96, 'CEILING · POLE · GAS', 'ECLIPSE PENDANT HEAD', 66], [94, 'RECESSED', 'TUNGSTEN SERIES II', 96], [79, 'ECLIPSE FREESTANDING', 'CLEARANCE', 126], [72, 'WALL MOUNT', 'ELECTRIC', 156]];
-const mountDiagram = `<svg viewBox="0 0 678 278" class="dwg" role="img" aria-label="Section through a covered patio showing a wall bracket, a recessed heater, an Eclipse pendant, a ceiling post, a pitched-ceiling adaptor and a freestanding heater, with minimum mounting heights">
+const mountDiagram = `<svg viewBox="0 0 678 268" class="dwg" role="img" aria-label="Section through a covered patio showing a wall bracket, a recessed heater, an Eclipse pendant, a ceiling post, a pitched-ceiling adaptor and a freestanding heater, with minimum mounting heights">
   <!-- height rail -->
   <text x="2" y="12" class="lblt">MINIMUM HEIGHT</text><text x="2" y="22" class="rails">ABOVE THE FLOOR</text>
   <line x1="132" y1="${F}" x2="132" y2="${y(100)}" class="obj"/>
@@ -182,30 +182,30 @@ const mountDiagram = `<svg viewBox="0 0 678 278" class="dwg" role="img" aria-lab
     <text x="0" y="6" class="lblt">BRACKET</text><text x="0" y="15" class="rails">SERIES II</text>
     <line x1="8" y1="26" x2="8" y2="70" class="obj" style="stroke-width:2"/>
     ${[0, 15, 30, 45].map((a) => `<line x1="8" y1="26" x2="${(8 + 42 * Math.sin(a * Math.PI / 180)).toFixed(1)}" y2="${(26 + 42 * Math.cos(a * Math.PI / 180)).toFixed(1)}" stroke="${a ? T.flame : T.draw}" stroke-width="${a ? 0.8 : 0.6}" ${a ? '' : 'stroke-dasharray="2 2"'}/>`).join('')}
-    ${[15, 30, 45].map((a) => `<text x="${(12 + 48 * Math.sin(a * Math.PI / 180)).toFixed(1)}" y="${(30 + 48 * Math.cos(a * Math.PI / 180)).toFixed(1)}" class="tiny">${a}°</text>`).join('')}
+    <text x="0" y="82" class="tiny">15° · 30° · 45°</text>
   </g>
 </svg>`;
 
 const legend = `<ol class="legend">
-  <li><span class="no">1</span><b>Wall bracket</b>Angled toward the seating</li>
-  <li><span class="no">2</span><b>Recessed</b>Flush in a flat ceiling, with its kit</li>
+  <li><span class="no">1</span><b>Wall bracket</b>Angled at the seats</li>
+  <li><span class="no">2</span><b>Recessed</b>Flush, with its kit</li>
   <li><span class="no">3</span><b>Pendant pole</b>Eclipse, over the table</li>
-  <li><span class="no">4</span><b>Ceiling post or pole</b>Short post, or a pole for high ceilings</li>
-  <li><span class="no">5</span><b>Pitched-ceiling adaptor</b>Post hangs straight, heater level</li>
-  <li><span class="no">6</span><b>Freestanding</b>Eclipse arch or Tungsten gas tower</li>
+  <li><span class="no">4</span><b>Ceiling post</b>Or a pole, for height</li>
+  <li><span class="no">5</span><b>Pitched adaptor</b>Post straight, heater level</li>
+  <li><span class="no">6</span><b>Freestanding</b>Eclipse arch, gas tower</li>
 </ol>`;
 
 const mrow = (ser, sub, cells, soon = false) => `<tr${soon ? ' class="soon"' : ''}><td class="ser">${ser}${sub ? `<span class="sub">${sub}</span>` : ''}</td>${cells.map((c) => typeof c === 'string' ? `<td>${c}</td>` : `<td colspan="${c[1]}" class="span">${c[0]}</td>`).join('')}</tr>`;
 const NO = '<span class="no-m">–</span>';
 const tcl = '<i class="tc">to confirm</i>';
-const mount = `<table class="mx m"><colgroup><col style="width:112px"><col style="width:100px"><col style="width:104px"><col style="width:76px"><col style="width:110px"><col style="width:84px"><col></colgroup>
+const mount = `<table class="mx m"><colgroup><col style="width:106px"><col style="width:96px"><col style="width:112px"><col style="width:70px"><col style="width:106px"><col style="width:96px"><col></colgroup>
   <thead><tr><th>SERIES</th><th>1 · WALL</th><th>4 · CEILING AND POLE</th><th>5 · PITCHED</th><th>2 · RECESSED</th><th>TILT</th><th>MINIMUM HEIGHT</th></tr></thead><tbody>
   ${mrow('Tungsten Select · Coastal', 'SERIES II · <span class="soon-t">COMING SOON</span>', ['Bracket, straight or angled; Wall-Mounting Bracket, 14 or 18 in reach', 'Single post; 600 and 1,200 mm poles', 'Pitched-Ceiling Adaptor, 3/12 to 12/12', 'Low-Clearance Recess Kit, 7.5 in cavity; marine-grade on Coastal', `15°, 30°, 45°; 4 and 6 kW on a ceiling 30° in the manual, 45° ${tcl}`, `Wall 71 in · ceiling 96 in · recessed 94 in · ${tcl}`])}
   ${mrow('Tungsten Classic', 'SERIES II · JANUARY 2027', [[`Same mounting as Tungsten Electric Series I · ${tcl}`, 3], 'Existing Tungsten recess kit', TC, 'Wall 72 in · ceiling 96 in (Series I)'])}
   ${mrow('Platinum Smart-Heat® Electric', 'CLASSIC AND MARINE', ['Bracket included, straight or angled', '8 in pole included; 2 ft and 4 ft poles', NO, 'Low-clearance kit, 7.1 in cavity; standard kit 10 in above (13.8 in for 4500 W)', `Wall bracket 28° or 30°, ${tcl}`, 'Wall 72 in · ceiling 96 in · recessed about 8 ft'])}
   ${mrow('Eclipse Smart-Heat® Electric', 'PENDANT', [`Wall-mount pole; projection ${tcl}`, '24 in twin pole included; 8, 24, 48 in straight; 24 in curved', NO, 'Not recessed', NO, 'Head 8 ft (96 in)'])}
   ${mrow('Eclipse Smart-Heat® Freestanding', '6 · FREESTANDING', [['Arched arm on a weighted base with two wheels; 15 ft cable to an IP54 outdoor outlet; the base holds in winds up to 20 mph', 5], '79 in clearance'])}
-  ${mrow('Platinum Gas · Tungsten Gas', 'MOUNTED', ['Wall bracket, included with Platinum Gas', 'Platinum: one pole, two heaters back to back. Tungsten: poles in six lengths', 'On a ceiling pole', 'Not recessed', '0°, 10° or 20°; Tungsten arm ±25°', '96 in (8 ft); 3 ft to combustibles, 14 in above with the heat deflector'])}
+  ${mrow('Platinum Gas · Tungsten Gas', 'MOUNTED', ['Wall bracket, included with Platinum Gas', 'Ceiling pole: two Platinum back to back; Tungsten poles in six lengths', 'On a ceiling pole', 'Not recessed', '0°, 10° or 20°; Tungsten arm ±25°', '96 in · 3 ft to combustibles, 14 in above with a heat deflector'])}
   ${mrow('Tungsten Smart-Heat® Freestanding Gas', '6 · FREESTANDING', [['Wheels, tilting head and anti-tilt switch; propane from a 20 lb cylinder in the base, or natural gas on a 10 ft quick-connect line', 5], TC])}
   </tbody></table>`;
 
@@ -225,49 +225,45 @@ const strip = (sheet, title, notes) => `<div class="strip">
   <div class="cell s"><b>DATE</b><span>2026-11-21</span></div>
   <div class="cell sheet"><b>SHEET</b><span>${sheet}</span></div>
 </div>`;
-const head = (eyebrow, h2, lede, photo, cap) => `<header class="s-head">
+const head = (eyebrow, h2, lede, photo, cap) => `<header class="s-head${photo ? ' mount-h' : ''}">
   <div class="s-text"><div class="brand"><img class="logo" src="${ROOT}/images/portfolio/bromic-logo.png" alt="Bromic"><span class="lbl">RETAIL ONE-PAGER</span></div>
   <p class="eyebrow">${eyebrow}</p><h2>${h2}</h2><p class="s-lede">${lede}</p></div>
   ${photo ? `<figure class="ph top"><div class="ph-img" style="background-image:url(${ROOT}/images/library/${photo})"></div><figcaption><b>PHOTO</b> ${cap}</figcaption></figure>` : ''}
 </header>`;
 
 const controls = `<section class="page light">
-  <div class="grid"></div>${zones()}<div class="frame"></div>
+  <div class="grid"></div>${zones()}<div class="frame"></div><div class="flow">
   ${head('AFFINITY SMART-HEAT® CONTROLS', 'Every Heater Leaves With Its Controls',
     'Every Bromic heater is quoted with its Affinity Smart-Heat® Controls and a manual wall switch, so the warmth is always where, and when, your customer wants it. Controls are part of the heater, on the same quote.', null, '')}
   <figure class="panel sys">
     <div class="hdr"><span class="lbl">HOW A SYSTEM FITS TOGETHER</span><span class="lbl r">ILLUSTRATIVE · TWO-CHANNEL DIMMER</span></div>
     ${ctlDiagram}
-    <ol class="steps">
-      <li><span class="no">1</span><b>Heaters</b>Wired on channels</li>
-      <li><span class="no">2</span><b>Controller</b>Switches or dims each channel</li>
-      <li><span class="no">3</span><b>Wall switch</b>Completes the circuit; single or dual</li>
-      <li><span class="no">4</span><b>Bromic app</b>Zones, schedules, timers</li>
-      <li><span class="no">5</span><b>Expansion board</b>Links to building systems</li>
-    </ol>
+    <p class="order"><span>1</span> HEATERS <i>→</i> <span>2</span> AFFINITY CONTROLLER <i>→</i> <span>3</span> MANUAL WALL SWITCH <i>→</i> <span>4</span> BROMIC APP <i>·</i> <span>5</span> EXPANSION BOARD FOR BUILDING SYSTEMS</p>
   </figure>
   <div class="sec"><div class="hdr"><span class="lbl">ON/OFF, DIMMER OR ECLIPSE</span><span class="lbl r">EVERY CONTROLLER IS SOLD SEPARATELY</span></div>${cards}</div>
   <div class="sec mxw"><div class="hdr"><span class="lbl">WHAT TO QUOTE WITH EACH SERIES</span><span class="lbl r">CONTROLS ARE REQUIRED ON EVERY HEATER</span></div>${quote}
     <p class="fn">Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately. Alexa and Google Assistant need no expansion board; Control4, Crestron and Lutron may need extra hardware. Quote no default timer length. Controllers carry a 1-year warranty. Installation by a licensed electrician to local code.</p>
   </div>
   <div class="cta"><a class="btn">EXPLORE AFFINITY SMART-HEAT CONTROLS <span>→</span></a><span class="addr">BROMIC.COM · 1-800-301-1293 · MON–FRI 9–4 PT</span></div>
+  </div>
   ${strip('01', 'Affinity Smart-Heat® Controls', 'Bromic Lookbook 2026 p.41 · bromic.com Affinity controller, wall switch and expansion board pages, read 29 Oct 2026 · Retail Hub, controls page')}
 </section>`;
 
 const mounting = `<section class="page light">
-  <div class="grid"></div>${zones()}<div class="frame"></div>
+  <div class="grid"></div>${zones()}<div class="frame"></div><div class="flow">
   ${head('MOUNTING OPTIONS', 'Designed To Fit Every Outdoor Room',
-    'Wall, ceiling, pitched roof or flush in the soffit, there is a Bromic mount for the space your customer has. Start with the surface, choose the series, then put the bracket, pole or kit on the same quote as the heater and its controls.', 'l-005-022.webp', 'Tungsten Coastal, recessed flush.')}
+    'Wall, ceiling, pitched roof or flush in the soffit, there is a Bromic mount for the space your customer has. Start with the surface, then the series, and quote the bracket, pole or kit with the heater.', 'l-005-022.webp', 'Tungsten Coastal, recessed flush.')}
   <figure class="panel sec2">
     <div class="hdr"><span class="lbl">SECTION · EVERY WAY TO MOUNT</span><span class="lbl r">ILLUSTRATIVE · NOT TO SCALE</span></div>
     ${mountDiagram}
     ${legend}
   </figure>
   <div class="sec mxw2"><div class="hdr"><span class="lbl">MOUNTS BY SERIES</span><span class="lbl r">– NOT OFFERED</span></div>${mount}
-    <p class="fn">Published minimums; they vary with output. Series II figures are from its installation manual, pending Product team sign-off. Recessed Series II heaters run with the joists, at least 500 mm from a wall, on a slope of up to 1/4 in per inch. Quote every heater with its Affinity Smart-Heat® Controls and a manual wall switch; Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately.</p>
+    <p class="fn">Published minimums, varying with output; Series II figures are from its manual, pending Product team sign-off. Recessed Series II heaters run with the joists, 500 mm or more from a wall. Quote every heater with its Affinity Smart-Heat® Controls and a manual wall switch; Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately.</p>
   </div>
   <div class="foot2"><p class="disc"><b>BEFORE ANY HEATER GOES UP</b> Follow the installation manual for the model and local codes. Electric heaters are installed by a licensed electrician to NFPA 70 (NEC), gas heaters by a licensed gas fitter to ANSI Z223.1/NFPA 54. Check every install with the local building authority.</p>
   <a class="btn">REQUEST YOUR DESIGN PLAN <span>→</span></a></div>
+  </div>
   ${strip('02', 'Mounting Options', 'Bromic Lookbook 2026 · bromic.com product pages, read 29 Oct 2026 · Tungsten Series II launch deck and installation manual, low-clearance recess kit instructions · Planning Guide v1.2, 2021')}
 </section>`;
 
@@ -299,8 +295,8 @@ h2{font-family:BzDidot,Didot,serif;font-weight:400;letter-spacing:-.005em}
 .s-head h2{font-size:33px;line-height:1.08;margin:6px 0 8px;color:${T.ink}}
 .s-lede{font-size:10.6px;line-height:1.55;color:#3f3b3c;max-width:5.9in}
 .ph{border:.6px solid ${T.draw};padding:4px;background:#fff}
-.ph.top{width:1.62in;flex:none;margin-top:0}
-.ph.top .ph-img{height:1.02in}
+.ph.top{width:1.5in;flex:none;margin-top:0}
+.ph.top .ph-img{height:.92in}
 .ph-img{height:1.36in;background-size:cover;background-position:center}
 .ph figcaption{display:block;font:400 6.8px/1.4 BzMono,monospace;letter-spacing:.04em;margin-top:4px;color:${T.steel}}
 .ph figcaption b{font-weight:500;color:${T.flame};margin-right:4px;letter-spacing:.14em}
@@ -377,6 +373,14 @@ h2{font-family:BzDidot,Didot,serif;font-weight:400;letter-spacing:-.005em}
 .strip .cell.grow span{font-size:6px;line-height:1.35;color:${T.steel}}
 .strip b{font-weight:500;font-size:5.4px;letter-spacing:.16em;color:${T.steel}}
 .strip .sheet span{font-size:15px;line-height:1;color:${T.draw}}
+.flow{position:absolute;left:.72in;right:.72in;top:.62in;bottom:.98in;display:flex;flex-direction:column;gap:13px}
+.flow>*{position:static!important;flex:none}
+.flow>.cta,.flow>.foot2{margin-top:auto}
+.s-head{display:flex;gap:.3in;align-items:flex-start}
+.mount-h h2{font-size:29px}
+.order{font:500 7.4px/1 BzMono,monospace;letter-spacing:.1em;color:${T.draw};margin-top:6px;padding-top:7px;border-top:.6px solid ${T.draw}}
+.order span{display:inline-grid;place-items:center;width:14px;height:14px;border-radius:50%;border:.8px solid ${T.draw};font-size:7px;margin-right:3px}
+.order i{font-style:normal;color:${T.flame};margin:0 6px}
 /* mounting sheet */
 .sec2{position:absolute;left:.72in;right:.72in;top:2.12in}
 .mxw2{position:absolute;left:.72in;right:.72in;top:5.92in}
@@ -432,6 +436,8 @@ for (const s of SHEETS) {
       if (!el.closest('.strip') && r.bottom > stripTop - 2) out.push(`runs into the title strip: "${el.textContent.trim().slice(0, 40)}"`);
       if (el.scrollWidth > el.clientWidth + 1 && getComputedStyle(el).overflow !== 'visible') out.push(`clipped: "${el.textContent.trim().slice(0, 40)}"`);
     });
+    const fl = document.querySelector('.flow');
+    if (fl.scrollHeight > fl.clientHeight + 1) out.push(`content is ${fl.scrollHeight - fl.clientHeight}px taller than the sheet`);
     // blocks must not collide
     const blocks = [...document.querySelectorAll('.s-head, .panel, .sec, .cta, .foot2')].map((e) => ({ e, r: e.getBoundingClientRect() }));
     for (let i = 0; i < blocks.length; i++) for (let j = i + 1; j < blocks.length; j++) {

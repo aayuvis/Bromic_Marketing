@@ -1,5 +1,5 @@
 Print check, 2026-11-21
-controls: blocks overlap: sec / sec mxw
-controls: blocks overlap: sec mxw / cta
-mounting: blocks overlap: s-head / panel sec2
-mounting: blocks overlap: sec mxw2 / foot2
+controls: runs into the title strip: "EXPLORE AFFINITY SMART-HEAT CONTROLS →"
+controls: content is 42px taller than the sheet
+mounting: runs into the title strip: "BEFORE ANY HEATER GOES UP Follow the ins"
+mounting: content is 8px taller than the sheet
