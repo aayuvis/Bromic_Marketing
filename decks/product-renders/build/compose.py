@@ -32,7 +32,7 @@ sh = (al <= 0.985) & (a[..., :3].max(-1) < 0.08)            # caught shadow pixe
 k = W / 40
 near = np.clip(blur(obj, k) * 6, 0, 1)                      # ~1 close to the body, falling to 0 a few heater-heights away
 cast = np.where(sh, al, 0) * near ** 1.5
-cast = blur(cast, W / 500) * 0.55
+cast = blur(cast, W / 500) * 0.55 * float(os.environ.get('CAST', '1'))   # CAST=0 drops the rendered caught shadow (e.g. a hidden post seen from below)
 # grounding shadow: the body's own silhouette, blurred twice (contact + soft), nudged up-left (light from the front-below)
 dx, dy = int(W * 0.004), int(-H * 0.006)
 sil = np.roll(np.roll(obj, dy, 0), dx, 1)

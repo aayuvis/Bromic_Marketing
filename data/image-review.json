@@ -888,6 +888,42 @@
    "thumb": "images/review/thumb/pr-select-black-and-white-pair.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour, with short contact shadows.",
    "status": "pending"
+  },
+  {
+   "id": "pr-select-white-front",
+   "title": "Series II Select white, frontal on a wall",
+   "kind": "CAD studio render",
+   "finish": "white",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-select-white-front.jpg",
+   "thumb": "images/review/thumb/pr-select-white-front.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour, with short contact shadows.",
+   "status": "pending"
+  },
+  {
+   "id": "pr-select-graphite-front",
+   "title": "Series II Select graphite, frontal on a wall",
+   "kind": "CAD studio render",
+   "finish": "graphite",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-select-graphite-front.jpg",
+   "thumb": "images/review/thumb/pr-select-graphite-front.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour, with short contact shadows.",
+   "status": "pending"
+  },
+  {
+   "id": "pr-select-black-front-ceiling",
+   "title": "Series II Select black, frontal from below (ceiling)",
+   "kind": "CAD studio render",
+   "finish": "black",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-select-black-front-ceiling.jpg",
+   "thumb": "images/review/thumb/pr-select-black-front-ceiling.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour, with short contact shadows.",
+   "status": "pending"
   }
  ]
 }
