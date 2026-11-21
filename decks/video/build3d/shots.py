@@ -1,7 +1,7 @@
 """The film's timeline, camera paths and exploded-view offsets as plain maths (no bpy), shared by render.py (inside Blender) and
 compose.py (outside), so particles and labels drawn in 2D land exactly on the 3D render.
 Beats: 1 cold open · 2 ceiling opens · 3 exploded build · 4 without a ventilated kit · 5 with the kit · 6 protection · 7 hero end.
-Slow beats (1, 4, 5, 6, 7) are rendered at 15 fps and blended to 30; fast moves (2, 3) at 30 fps."""
+Beats 1, 6 and 7 are one CAD still each, pushed in 2D; every other frame is rendered at 30 fps (render_hq.py)."""
 import json, math, os
 
 FPS = 30
@@ -33,9 +33,9 @@ def cam(T, t):
         e = ease2(u); m = (-0.35, -1.95, -0.40)
         a = lerp((0.55, -1.25, -1.05), m, e); c = lerp(m, (-0.95, -1.50, 0.42), e); loc = lerp(a, c, e)
         return loc, lerp((0.0, 0.0, 0.0), (0.0, 0.0, 0.07), e), 32 + 4 * e
-    if b == 2:   # slow orbit around the exploded kit, clean studio
-        a = math.radians(-122 + 40 * ease(u)); r = 2.15
-        return (r * math.cos(a), r * math.sin(a), 0.42 - 0.22 * ease(u)), (-0.10, 0.0, 0.0), 31
+    if b == 2:   # slow orbit around the exploded kit, mid-grey studio, from slightly above so the fans read 3/4
+        a = math.radians(-118 + 34 * ease(u)); r = 3.25
+        return (-0.18 + r * math.cos(a), r * math.sin(a), 1.05 - 0.25 * ease(u)), (-0.18, 0.0, 0.02), 31
     if b == 3:   # without a kit: front section from slightly above, slow dolly along the cavity
         e = ease(u); return lerp((-0.62, -1.18, 0.30), (0.20, -1.05, 0.34), e), lerp((-0.30, 0.0, 0.09), (0.25, 0.0, 0.10), e), 36
     if b == 4:   # with the kit: follow the air from the inlet end to the outlet end
@@ -79,9 +79,9 @@ def ycut(T, t):
     return 0.0
 
 # ---- exploded view: offset (m) of each part category over beat 3 ----
-EXPLODE = {'trim': (0, 0, -0.24), 'barrier': (0, 0, -0.06), 'heater': (0, 0, -0.44), 'fascia': (0, 0, -0.44), 'reflector': (0, 0, -0.44),
-           'element': (0, 0, -0.44), 'chassis': (0, 0, 0.16), 'inlet': (-0.14, 0, 0.16), 'outlet': (0.14, 0, 0.16), 'fan': (0, 0, 0.28),
-           'fanbr': (0, 0, 0.28), 'term': (-0.26, 0, 0.06), 'cutout': (-0.26, 0, 0.06), 'steel': (0, 0, 0.16)}
+EXPLODE = {'fan': (0, 0, 0.66), 'fanbr': (0, 0, 0.66), 'chassis': (0, 0, 0.30), 'inlet': (-0.17, 0, 0.30), 'outlet': (0.17, 0, 0.30),
+           'steel': (0, 0, 0.30), 'barrier': (0, 0, -0.16), 'trim': (0, 0, -0.40), 'heater': (0, 0, -0.68), 'fascia': (0, 0, -0.68),
+           'reflector': (0, 0, -0.68), 'element': (0, 0, -0.68), 'term': (-0.34, 0, 0.02), 'cutout': (-0.34, 0, 0.02)}
 def explode(T, t):
     b, u = beat_at(T, t)
     if b != 2: return 0.0
