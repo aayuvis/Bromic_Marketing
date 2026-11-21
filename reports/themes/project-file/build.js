@@ -19,7 +19,7 @@ const P = {
   sector: 'Hospitality',
   name: 'Pink Hill Hotel',
   line: 'Warmth Under Every Ceiling',
-  lede: 'A newly built pub and live entertainment venue wanted its outdoor terraces full through the colder months, with nothing taking away from the room. Bromic matched each ceiling to a heater, so every table sits in precise directional heat.',
+  lede: 'A newly built pub and live entertainment venue wanted its outdoor terraces full through the colder months, with nothing taking away from the room. Bromic matched a heater to each ceiling, keeping precise directional heat on the tables and every feature wall in view.',
   hero: 'w-tungsten-electric-bromic-pinkhill-547-1',
   heroCaption: 'Tungsten Smart-Heat® Electric on drop poles over the dining terrace.',
   data: [
@@ -40,6 +40,8 @@ const P = {
     ['C', 'Industrial-style room', 'Tungsten Electric for high output, lowered to a suitable height on a 1200 mm pole.'],
     ['D', 'Operable roof', 'Tungsten Electric mounted on the structural beams and angled toward guests, chosen for Melbourne’s winter.'],
   ],
+  lounge: 'w-eclipse-electric-bromic-pinkhill-553-1',
+  loungeCaption: 'Eclipse heaters on long poles under the sloping slatted ceiling of the lounge.',
   wide: 'w-eclipse-electric-tungsten-electric-bromic-pi',
   wideCaption: 'Tungsten Electric and Eclipse heaters under the timber-slat ceiling, the feature wall left clear.',
   products: [
@@ -163,24 +165,24 @@ body{font-family:Arimo,Arial,sans-serif;color:var(--ink);font-weight:400;-webkit
 .kicker .grey{color:var(--steel2)}
 h1{font-family:Didot,serif;font-weight:400;font-size:58pt;line-height:.95;letter-spacing:-.01em;margin-top:14px}
 .line{font-family:Didot,serif;font-size:17pt;color:var(--steel);margin-top:10px}
-.hero{margin:22px -0.6in 0;height:4.55in;background-size:cover;background-position:50% 55%}
+.hero{margin:22px -0.6in 0;height:4.95in;background-size:cover;background-position:50% 55%}
 .cap{font-size:7pt;color:var(--steel2);margin-top:7px;letter-spacing:.02em}
 .data{display:grid;grid-template-columns:1fr 1.25fr 1.6fr 1.35fr .8fr;border-top:1.5px solid var(--ink);border-bottom:1px solid var(--hair);margin-top:20px}
 .data div{padding:10px 12px 12px 0;border-right:1px solid var(--hair);margin-right:12px}
 .data div:last-child{border-right:0;margin-right:0}
 .data dt{font-size:6.5pt;letter-spacing:.2em;text-transform:uppercase;color:var(--steel2);margin-bottom:5px}
 .data dd{font-size:8.5pt;line-height:1.35}
-.lede{font-family:Didot,serif;font-size:14.5pt;line-height:1.38;margin-top:22px;max-width:6.1in}
+.lede{font-family:Didot,serif;font-size:15.5pt;line-height:1.4;margin-top:24px;max-width:6.4in}
 sup{font-size:.6em;line-height:0}
 .foot{position:absolute;left:.6in;right:.6in;bottom:.38in;display:flex;align-items:center;gap:14px;font-size:6.5pt;letter-spacing:.18em;text-transform:uppercase;color:var(--steel2);border-top:1px solid var(--hair);padding-top:9px}
 .foot img{height:12px}
 .foot .pg{margin-left:auto}
 /* page 2 */
-.beats{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:18px}
+.beats{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:14px}
 .beat .n{font-size:7pt;letter-spacing:.2em;color:var(--flame)}
 .beat h2{font-family:Didot,serif;font-weight:400;font-size:17pt;margin:6px 0 10px;padding-bottom:9px;border-bottom:1px solid var(--hair)}
 .beat p{font-size:8.6pt;line-height:1.55;color:#3a3536}
-.section{display:flex;align-items:baseline;justify-content:space-between;margin-top:30px;border-top:1.5px solid var(--ink);padding-top:10px}
+.section{display:flex;align-items:baseline;justify-content:space-between;margin-top:24px;border-top:1.5px solid var(--ink);padding-top:10px}
 .section h3{font-family:Didot,serif;font-weight:400;font-size:15pt}
 .section .tag{font-size:6.5pt;letter-spacing:.2em;text-transform:uppercase;color:var(--steel2)}
 .planwrap{margin-top:14px}
@@ -190,9 +192,10 @@ sup{font-size:.6em;line-height:0}
 .zones .z b{display:inline-flex;align-items:center;justify-content:center;width:17px;height:17px;border:1.2px solid var(--flame);border-radius:50%;color:var(--flame);font-size:7.5pt;margin-right:7px}
 .zones .z h4{font-size:7pt;letter-spacing:.16em;text-transform:uppercase;font-weight:700;display:flex;align-items:center;margin-bottom:6px}
 .zones .z p{font-size:7.8pt;line-height:1.5;color:#3a3536}
-.note{font-size:7pt;color:var(--steel2);margin-top:14px;font-style:italic}
+.note{font-size:7pt;color:var(--steel2);margin-top:3px;font-style:italic}
+.strip{margin:16px -0.6in 0;height:1.5in;background-size:cover;background-position:50% 62%}
 /* page 3 */
-.wide{margin:0 -0.6in;height:3.2in;background-size:cover;background-position:50% 40%}
+.wide{margin:-0.55in -0.6in 0;height:3.75in;background-size:cover;background-position:50% 40%}
 .prods{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:16px}
 .prod .ph{height:1.55in;background-size:cover}
 .prod .coll{font-size:6.5pt;letter-spacing:.32em;color:var(--flame);margin-top:12px}
@@ -228,6 +231,8 @@ sup{font-size:.6em;line-height:0}
   <div class="section"><h3>One Heater For Each Ceiling</h3><span class="tag">Illustrative layout · not to scale</span></div>
   <div class="planwrap">${plan()}${legend()}</div>
   <div class="zones">${P.zones.map(([l, h, t]) => `<div class="z"><h4><b>${l}</b>${h}</h4><p>${reg(t)}</p></div>`).join('')}</div>
+  <div class="strip" style="background-image:url('${img(P.lounge)}')"></div>
+  <div class="cap">${reg(P.loungeCaption)}</div>
   <p class="note">Rooms and heater positions are drawn from the case study’s description, not from site drawings. The source gives no heater quantities.</p>
   ${footer(2)}
 </section>
@@ -262,7 +267,7 @@ sup{font-size:.6em;line-height:0}
       const r = pg.getBoundingClientRect();
       pg.querySelectorAll('*').forEach((el) => {
         const b = el.getBoundingClientRect();
-        if (!b.width || el.closest('.hero,.wide')) return;
+        if (!b.width || el.closest('.hero,.wide,.strip')) return;
         if (b.bottom > r.bottom + 0.5 || b.right > r.right + 0.5 || b.left < r.left - 0.5) bad.push(`p${i + 1}: ${el.tagName}.${el.className} off page`);
         if (el.scrollHeight > el.clientHeight + 1 && getComputedStyle(el).overflow === 'hidden' && !el.classList.contains('page')) bad.push(`p${i + 1}: ${el.className} clipped`);
       });
