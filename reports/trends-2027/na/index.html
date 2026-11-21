@@ -910,7 +910,8 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:-.01em;line-hei
     });
   }
 
-  function fit() { const z = Math.min(1, (window.innerWidth - 24) / 1600); document.querySelectorAll('.pg').forEach(p => p.style.zoom = z); }
+  let PW = 0;
+  function fit() { PW = PW || (document.querySelector('.pg') || {}).offsetWidth || 1600; const pw = PW, z = Math.min(1, (window.innerWidth - 24) / pw); document.querySelectorAll('.pg').forEach(p => p.style.zoom = z); }
 
   const defs = el('svg', { width: 0, height: 0, style: 'position:absolute' }, document.body);
   defs.innerHTML = '<filter id="sk"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="4"/><feDisplacementMap in="SourceGraphic" scale="1.4"/></filter>';

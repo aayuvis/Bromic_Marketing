@@ -196,7 +196,7 @@ def page_b(s, p):
   <div class="insight">{icon('flame', 'fl')}<div><div class="kick">Bromic Insight</div><p>{E(s['insight'])}</p></div></div>
   {folio(p)}</section>'''
 
-def build(inline=False):
+def build(inline=False, letter=False):
     pages = []
     p = 1
     pages.append(f'''<section class="pg cover">{img('l-004-012-split', 'bg', 'A coastal terrace, drawn as a sketch on the left and photographed finished on the right, with Tungsten heaters under the pergola')}
@@ -247,7 +247,7 @@ def build(inline=False):
     <div class="ckl"><div class="kick">What Early Planning Enables</div><ul>{checks}</ul></div>
   </div>{folio(p)}</section>''')
     p += 1
-    pages.append(f'''<section class="pg poster">{img('l-003-009', 'bg', 'A Tungsten heater over a harbour at dusk')}
+    pages.append(f'''<section class="pg poster">{img('l-001-000' if letter else 'l-003-009', 'bg', 'A covered coastal terrace at dusk with heaters under the pergola' if letter else 'A Tungsten heater over a harbour at dusk')}
   <div class="pt"><div class="kick">Plan It In</div>
     <ul class="plan"><li><b>Architects</b><span>Draw it.</span></li><li><b>Builders</b><span>Wire it.</span></li><li><b>Homeowners</b><span>Ask for it.</span></li><li><b>Operators</b><span>Earn from it.</span></li></ul>
     <div class="cta">Book A Design Consultation With Bromic</div><div class="site">bromic.com</div>
@@ -259,6 +259,7 @@ def build(inline=False):
   {folio(p)}</section>''')
 
     css = open(os.path.join(HERE, 'report.css')).read()
+    if letter: css += '\n' + open(os.path.join(HERE, 'report-letter.css')).read()
     js = open(os.path.join(HERE, 'report.js')).read()
     rough = open(os.path.join(HERE, 'vendor', 'rough-4.6.6.js')).read()
     fonts = os.path.join(ROOT, 'app', 'src', 'fonts')
@@ -279,9 +280,10 @@ def build(inline=False):
 <style>{css}</style></head><body><main id="deck">
 {body}
 </main><script>{rough}</script><script>window.ICONS={json.dumps(icons)};</script><script>{js}</script></body></html>'''
-    out = os.path.join(NA, 'Outdoor-Living-Trends-2027-North-America.html' if inline else 'index.html')
+    name = ('Outdoor-Living-Trends-2027-North-America' + ('-Letter' if letter else '') + '.html') if inline else ('letter.html' if letter else 'index.html')
+    out = os.path.join(NA, name)
     open(out, 'w').write(doc)
     print(out, round(len(doc) / 1e6, 2), 'MB')
 
 if __name__ == '__main__':
-    build(inline='--inline' in sys.argv)
+    build(inline='--inline' in sys.argv, letter='--letter' in sys.argv)

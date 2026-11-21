@@ -16,7 +16,7 @@ def save(arr_bgr, name):
     Image.fromarray(cv2.cvtColor(arr_bgr, cv2.COLOR_BGR2RGB)).save(f'{OUT}/{name}.webp', quality=84)
 PHOTOS = ['w-bromic-tungsten-electric-residential', 'w-bromic-ambiente-sedona-11', 'w-connecticut-privateresidence-tungstenelectri-2',
           'w-240619-yorba-linda-ca-dc-64', 'l-007-039', 'w-dsc000071', 'w-commercial-australia-sydney-manly-wharf-15', 'ts2-photo-01',
-          'w-dsc07397-1', 'l-021-180', 'l-003-009', 'l-002-004', 'w-bromic-tungsten-electric-patio-heater']
+          'w-dsc07397-1', 'l-021-180', 'l-003-009', 'l-002-004', 'l-001-000', 'w-bromic-tungsten-electric-patio-heater']
 SKETCH = ['l-012-093', 'w-dsc05737-courtney-saib', 'w-delmonico-08', 'w-bromic-sep18th-9-1', 'w-bromic-ambiente-sedona-10',
           'w-bromic-tungsten-electric-patio-heater', 'w-e-tungsten-1', 'w-bromic-tungsten-electric-black-recessed', 'l-006-028', 'w-connecticut-private-res-tungsten-electric-1']
 SPLIT = ['l-004-012', 'l-006-028']
