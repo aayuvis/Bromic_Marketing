@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bromic Content Hub</title>
+<meta name="description" content="Bromic Heating content and MQL asset base, by lifecycle, audience and type.">
+<link rel="stylesheet" href="styles.css?v=66b7cbd-mwq23pl4">
+<link rel="stylesheet" href="visuals.css">
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="#/home" aria-label="Bromic Content Hub, overview">
+      <span class="wordmark"><img class="logo-dk" src="images/portfolio/bromic-logo.png" alt="Bromic Heating"><img class="logo-lt" src="images/portfolio/bromic-logo-white.png" alt="" aria-hidden="true"></span>
+      <span class="brand-rule" aria-hidden="true"></span>
+      <span class="brand-sub">Content Hub</span>
+    </a>
+    <nav class="regions" id="regions" aria-label="Region and language"></nav>
+    <label class="search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+      <input id="q" type="search" placeholder="Search content, keywords, sources" autocomplete="off" aria-label="Search">
+    </label>
+    <button class="theme" id="theme" type="button" aria-label="Switch light or dark">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 019.5 4a8 8 0 1010.5 10.5z"/></svg>
+    </button>
+  </div>
+  <nav class="tabs" aria-label="Sections">
+    <a href="#/home" data-tab="home">Home</a>
+    <a href="#/knowledge" data-tab="knowledge">Knowledge</a>
+    <details class="mega" data-tab="library"><summary>Library</summary><div class="mega-p" id="mega-library"></div></details>
+    <details class="mega" data-tab="papers"><summary>White Papers</summary><div class="mega-p" id="mega-papers"></div></details>
+    <a href="#/cases" data-tab="cases">Case Studies</a>
+    <a href="#/retail" data-tab="retail">Retail</a>
+    <a href="#/approvals" data-tab="approvals">Image Approvals<span class="tab-n" id="appr-n"></span></a>
+    <details class="mega" data-tab="marketing"><summary>Marketing</summary><div class="mega-p" id="mega-marketing"></div></details>
+    <a href="#/todo" data-tab="todo">Review<span class="tab-n" id="review-n"></span></a>
+  </nav>
+</header>
+<main id="view" tabindex="-1"></main>
+<footer class="foot">
+  <span>Bromic Heating · Content Hub · Drafts for review</span>
+  <span id="built"></span>
+</footer>
+<div id="toast" role="status" aria-live="polite"></div>
+<button class="fb-fab" type="button" data-fb aria-label="Give feedback on this page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v10H9l-5 4z"/></svg><span>Feedback</span></button>
+<script src="data.js?v=66b7cbd-mwq23pl4"></script>
+<script src="app.js?v=66b7cbd-mwq23pl4"></script>
+</body>
+</html>
