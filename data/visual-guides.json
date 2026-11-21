@@ -8,17 +8,17 @@
    "cover": "cover.webp"
   },
   {
-   "item": "A02-commercial",
-   "dir": "planning-guide/commercial",
-   "file": "Bromic-Outdoor-Heating-Planning-Guide-2027-Commercial",
-   "title": "Plan Your Outdoor Heat \u00b7 Commercial Edition",
-   "cover": "cover.webp"
-  },
-  {
    "item": "A02-pro",
    "dir": "planning-guide/pro",
    "file": "Bromic-Outdoor-Heating-Planning-Guide-2027-Pro",
    "title": "Plan Your Outdoor Heat \u00b7 Pro Edition",
+   "cover": "cover.webp"
+  },
+  {
+   "item": "A02-commercial",
+   "dir": "planning-guide/commercial",
+   "file": "Bromic-Outdoor-Heating-Planning-Guide-2027-Commercial",
+   "title": "Plan Your Outdoor Heat \u00b7 Commercial Edition",
    "cover": "cover.webp"
   }
  ]
