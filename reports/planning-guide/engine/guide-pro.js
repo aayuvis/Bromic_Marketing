@@ -95,7 +95,7 @@
         items: [{ t: 'fireplace', x: 0, y: 4.2, w: 1.6, d: 5 }, { t: 'sofa', x: 4.2, y: 3, w: 2.6, d: 8 }, { t: 'coffee', x: 7.6, y: 5.2, w: 2.6, d: 3.6 }, { t: 'chair', x: 11.6, y: 4 }, { t: 'chair', x: 11.6, y: 10.2 },
           { t: 'table', x: 14.2, y: 5.4, w: 3.2, d: 3.2, seats: { top: 2, bottom: 2, left: 0, right: 1 } }],
         heaters: [{ k: 'lin', x: 6.5, y: 1.8, A: 150, tag: 'H1', face: [0, 1], off: 4.6 }, { k: 'lin', x: 15.4, y: 12.2, A: 150, tag: 'H2', face: [0, -1], off: 4.6, tagd: [0, 1.4] }],
-        notes: [[10, 0.8, 'Pitched ceiling: adaptor, vertical post, heater level']] },
+        notes: [[8, 13.2, 'Pitched ceiling: adaptor, vertical post, heater level']] },
       P3: { W: 22, D: 14, roof: 'louvre', sides: { top: 'house', left: 'open', right: 'open', bottom: 'open' },
         items: [{ t: 'counter', x: 0.6, y: 0.8, w: 11, d: 2.2, grill: [2, 1] }, { t: 'counter', x: 2.5, y: 5, w: 8, d: 2.4 },
           { t: 'stool', x: 3.8, y: 8.6 }, { t: 'stool', x: 5.8, y: 8.6 }, { t: 'stool', x: 7.8, y: 8.6 }, { t: 'stool', x: 9.4, y: 8.6 },
@@ -147,7 +147,7 @@
       P.forEach(([h, d, m], i) => {
         const G = cols >= 5 ? svg : el('g', { transform: `translate(${((i % cols) - i) * 292},${Math.floor(i / cols) * 470})` }, svg), rc = rcOf(G), x0 = 10 + i * 292, cx = x0 + 140;
         add(G, rc.line(x0, F, x0 + 270, F, O({ strokeWidth: 2 })));
-        if (i === 0) { add(G, rc.line(x0 + 30, F, x0 + 30, Yin(122), O({ strokeWidth: 5 }))); add(G, rc.line(x0 + 30, Yin(80), x0 + 52, Yin(80), O({ strokeWidth: 3 }))); heater(G, x0 + 82, Yin(78), -38); glow(G, x0 + 82, Yin(78), -38, 210, 70); dimV(G, x0 + 16, F, Yin(76), '72 in', -1); person(G, x0 + 190, F, true, S); }
+        if (i === 0) { add(G, rc.line(x0 + 30, F, x0 + 30, Yin(122), O({ strokeWidth: 5 }))); add(G, rc.line(x0 + 30, Yin(80), x0 + 52, Yin(80), O({ strokeWidth: 3 }))); heater(G, x0 + 82, Yin(78), -38); glow(G, x0 + 82, Yin(78), -38, 210, 70); dimV(G, x0 + 262, F, Yin(76), '72 in', -1); person(G, x0 + 180, F, true, S); }
         if (i === 1) { add(G, rc.line(x0, Yin(108), x0 + 270, Yin(108), O({ strokeWidth: 4 }))); add(G, rc.line(x0 + 252, Yin(108), x0 + 252, F, O({ strokeWidth: 1, stroke: STEEL, strokeLineDash: [6, 5] }))); T(G, x0 + 248, Yin(60), 'Open', { size: 11, fill: STEEL, anchor: 'end' });
           add(G, rc.line(x0 + 210, Yin(108), x0 + 210, Yin(101), O({ strokeWidth: 3 }))); heater(G, x0 + 210, Yin(98), 30); glow(G, x0 + 210, Yin(98), 30, 200, 60); dimV(G, x0 + 14, F, Yin(98), '96 in min.', 1); T(G, x0 + 238, Yin(118), '≤30° (4/6 kW)', { size: 11.5, fill: FINK, anchor: 'end', weight: 700, halo: '#fff' }); person(G, x0 + 110, F, true, S); }
         if (i === 2) { add(G, rc.line(x0, Yin(150), x0 + 270, Yin(104), O({ strokeWidth: 4 }))); add(G, rc.line(cx, Yin(127), cx, Yin(100), O({ strokeWidth: 3 }))); add(G, rc.rectangle(cx - 9, Yin(129), 18, 7, O({ fill: INK2, fillStyle: 'solid' }))); heater(G, cx, Yin(98), 0); glow(G, cx, Yin(98), 0, 200, 70); dimV(G, x0 + 14, F, Yin(98), '96 in min.', 1); person(G, cx + 60, F, true, S); }
@@ -219,7 +219,7 @@
     CH.amps = (svg) => {
       const rc = rcOf(svg), rows = [['Tungsten 2000 W', 9.6, 8.3, 1], ['Tungsten 3000 W', 14.4, 12.5, 1], ['Tungsten 4000 W', 19.2, 16.7, 1], ['Tungsten 6000 W', 28.8, 25.0, 1],
         ['Platinum 2300 W', 11.1, 9.6], ['Platinum 3400 W', 16.3, 14.2], ['Platinum 4500 W', 21.6, 18.8], ['Eclipse 2900 W', 13.9, 12.1], ['Cobalt 4000 W', 18.75, 16.6], ['Cobalt 6000 W', 28.4, 25.0]];
-      const x0 = 220, sc = 20, rh = 38, y0 = 54;
+      const x0 = 200, sc = 14, rh = 38, y0 = 54;
       T(svg, 0, 22, 'Amps per heater · bar: at 240 V · dot: at 208 V · tick: × 1.25 for the branch circuit (240 V)', { size: 13, fill: STEEL, weight: 700 });
       [0, 10, 20, 30, 40].forEach((a) => { add(svg, rc.line(x0 + a * sc, y0 - 8, x0 + a * sc, y0 + rows.length * rh - 6, O({ stroke: LINE, strokeWidth: 0.8, roughness: 0.3 }))); T(svg, x0 + a * sc, y0 + rows.length * rh + 12, a + ' A', { size: 11.5, anchor: 'middle', fill: STEEL }); });
       rows.forEach(([t, a208, a240, calc], i) => { const y = y0 + i * rh;
@@ -286,8 +286,8 @@
     CH.aff = (svg) => {
       const rc = rcOf(svg), F = 330, S = 2.4, Yin = (i) => F - i * S;
       [[0, 48, 72, 96, 120].forEach((v) => { add(svg, rc.line(40, Yin(v), 760, Yin(v), O({ stroke: LINE, strokeWidth: 0.8, roughness: 0.3 }))); T(svg, 34, Yin(v) + 4, v + ' in', { size: 11, anchor: 'end', fill: STEEL }); })];
-      [['Tungsten, Platinum Electric', 72, 96], ['Cobalt Electric', 72, 96], ['Eclipse Electric', null, 96], ['Eclipse Freestanding', null, 79, 'clearance'], ['Platinum, Tungsten Gas built-in', null, 96]].forEach(([t, w, c, k], i) => {
-        const x = 70 + i * 140;
+      [['Tungsten, Platinum Electric', 72, 96], ['Cobalt Electric', 72, 96], ['Eclipse Electric', null, 96], ['Eclipse Freestanding', null, 79, 'clearance'], ['Built-in gas', null, 96]].forEach(([t, w, c, k], i) => {
+        const x = 70 + i * 150;
         if (w) { add(svg, rc.rectangle(x, Yin(w), 34, w * S, O({ fill: '#F6B3A5', fillStyle: 'hachure', stroke: FINK, hachureGap: 5 }))); T(svg, x + 17, Yin(w) - 6, w + ' in', { size: 12.5, anchor: 'middle', fill: FINK, weight: 700 }); T(svg, x + 17, F + 16, 'wall', { size: 11, anchor: 'middle', fill: INK2 }); }
         add(svg, rc.rectangle(x + 46, Yin(c), 34, c * S, O({ fill: FLAME, fillStyle: 'solid', stroke: FINK }))); T(svg, x + 63, Yin(c) - 6, c + ' in', { size: 12.5, anchor: 'middle', fill: FINK, weight: 700 }); T(svg, x + 63, F + 16, k || 'ceiling', { size: 11, anchor: 'middle', fill: INK2 });
         T(svg, x + 40, F + 36, t, { size: 12, anchor: 'middle', fill: INK, weight: 700 });

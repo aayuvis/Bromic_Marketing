@@ -12,11 +12,11 @@ def png(i):
     return p
 def save_bgr(a, name): Image.fromarray(cv2.cvtColor(a, cv2.COLOR_BGR2RGB)).save(f'{OUT}/{name}.webp', quality=84)
 PHOTOS = ['w-commercial-australia-sydney-manly-wharf-15', 'w-smoque-n-bones-tungsten-electric-1', 'l-016-131', 'l-013-111', 'w-the-ivy-london-tungsten-electric',
-          'w-bromic-sep18th-3-1', 'w-bromic-sep18th-14', 'w-crown-towers-perth-bromic-tungsten-electric', 'l-013-107', 'l-013-100', 'l-007-034',
+          'w-bromic-sep18th-3-1', 'w-bromic-sep18th-14', 'w-crown-towers-perth-bromic-tungsten-electric', 'l-013-100', 'l-007-034',
           'w-bromic-eclipse-portable-hotel-skansen-07', 'w-bromic-sep18th-28', 'l-019-164', 'w-eclipse-electric-w-bromic-heating-app', 't-009-025',
           'w-kion-sui-madrid-spain-tungsten-electric-5', 'w-dsc000071', 'w-eclipse-1200pole-industrial-1', 'l-013-102', 'w-boardwalk-edits-49',
           'w-bromictungstenelectic-white', 'w-bromic-ambiente-sedona-17', 'w-california-laprovenance-platinumgas-01', 'w-bromic-shoot-may-11-2023-39',
-          'w-platinum-gas-sheraton-carlsbad-ca-usa', 'w-usa-san-diego-decoy-lakehouse-hotel-tungsten']
+          'w-platinum-gas-sheraton-carlsbad-ca-usa', 'w-eclipse-electric-curved-pole-hotel-scene-web', 'w-usa-san-diego-decoy-lakehouse-hotel-tungsten']
 CUTS = ['w-tungelec-stacked', 'w-platinum-black', 'w-eclipse-electric-twinpole', 'w-eclipse-portable', 'l-005-025', 'w-platinum-gas-500',
         'w-affinity-dimmer-5ch', 'w-manual-1ch-indoor-switch-image', 'w-expansion-board']
 SKETCH = ['w-bromic-sep18th-9-1', 'w-tungsten-gas-fayetteville-ny-restaurant']

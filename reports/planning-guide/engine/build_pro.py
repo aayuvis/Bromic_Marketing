@@ -120,7 +120,7 @@ def build(ed='pro', inline=False, letter=False):
     # 5 Q3 Series II mounts
     pages.append(f'''<section class="pg g full">
   {head('Question 03', 'Mount By Surface', 'What is overhead or behind the seats decides the mount. Real installs keep heaters near an edge – a wall, a beam, the open side – with the face toward the seats.', '03')}
-  {svg('series2', '584 960', 'chart wide s2', 2) if letter else svg('series2', '1460 440', 'chart wide s2')}
+  {svg('series2', '876 940', 'chart wide s2', 3) if letter else svg('series2', '1460 440', 'chart wide s2')}
   <div class="quad">{ph('t2-single-post-black', 'Series II on the single post', 'ph cut')}{ph('w-dsc05545-courtney-saib', 'Angled on its bracket under a timber ceiling')}{ph('w-connecticut-privateresidence-tungstenelectri', 'Recessed in a porch ceiling')}{ph('t2-low-clearance-recess', 'Series II in the low-clearance recess kit', 'ph cut')}</div>{folio()}</section>''')
     # 6 recess detail
     pages.append(f'''<section class="pg g full">
@@ -168,7 +168,7 @@ def build(ed='pro', inline=False, letter=False):
     # 12 power
     pages.append(f'''<section class="pg g full">
   {head('Question 06 · Power', 'Size Every Branch Circuit', 'Current is watts ÷ volts. Fixed electric space-heating loads are continuous, so conductors and overcurrent devices are sized at no less than 125% of the load (NEC 424, 210.19(A)(1), 210.20(A)).', '06')}
-  <div class="pr2 pw"><div>{svg('amps', '900 470', 'chart')}</div>
+  <div class="pr2 pw"><div>{svg('amps', '960 470', 'chart')}</div>
     <div class="pcol">{ph('w-tungsten-electric-recess-kit-black', 'Recess kit with its conduit, wiring and terminal box', 'ph cut')}
       <div class="gasn"><h3>Gas Supply</h3><p>Size piping for the total connected Btu/h, length and pressure to NFPA 54. Built-in gas also needs 110 V, 2 A at each heater; the freestanding gas heater runs on a 20 lb LPG cylinder or a 10 ft natural-gas quick-connect.</p></div></div></div>
   <p class="foot">Published amps from the product pages; Tungsten rows are W ÷ V and marked. Breaker sizes, Article 424 vs 422 and Tungsten amps await confirmation against the installation manuals. Feeders and services follow Article 220.</p>{folio()}</section>''')
@@ -201,7 +201,7 @@ def build(ed='pro', inline=False, letter=False):
     # 18 clearances and code
     pages.append(f'''<section class="pg g full">
   {head('Clearances And Code', 'Confirm Clearances And Code Early', 'Each model is read on its own manual and listing, never interpolated from another. A heater outside its clearances can underheat the zone as well as breach the listing.')}
-  <div class="pr2 clr"><div>{svg('clear', '640 400', 'chart')}</div><div>{svg('aff', '780 380', 'chart')}</div></div>
+  <div class="pr2 clr"><div>{svg('clear', '640 400', 'chart')}</div><div>{svg('aff', '840 380', 'chart')}</div></div>
   <ul class="trio"><li><b>Electric</b><span>ANSI/NFPA 70: circuits, overcurrent protection, disconnects, wiring methods.</span></li>
     <li><b>Gas</b><span>ANSI Z223.1/NFPA 54: location, supply, ventilation, clearance to combustibles.</span></li>
     <li><b>Certification</b><span>An Intertek, UL or CSA mark on every gas and electrical appliance.</span></li>

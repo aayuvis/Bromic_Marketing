@@ -153,7 +153,7 @@ def build(inline=False, letter=False):
     <ul class="levers"><li><b>Mild</b><span>Evenings usually above about 50°F</span></li><li><b>Cool</b><span>About 40–50°F</span></li><li><b>Cold</b><span>Often below about 40°F</span></li></ul>
     <p class="rule">Not sure? Plan for partly covered and cool – the safe middle. On an exposed site, screens on the windward side help hold the heat in.</p>
     <p class="src">Platinum Smart-Heat Electric 4500 W over 800 ft² (40 seats), from the Bromic sizing calculator. Coverage is approximate and varies with mounting height, wind and installation.</p>
-    <figure class="qstrip">{img('l-013-107', alt='An Eclipse over a rooftop table with city lights beyond')}<figcaption>A cool evening on the roof, every seat sold</figcaption></figure></div>
+    <figure class="qstrip">{img('w-eclipse-electric-curved-pole-hotel-scene-web', alt='Eclipse heaters on curved poles over a rooftop bar lounge, city skyline beyond')}<figcaption>A cool evening on the roof, every seat sold</figcaption></figure></div>
   <div class="qv">{svg('matrixc', '760 600')}</div>{folio()}</section>''')
     # physics
     pages.append(f'''<section class="pg g full">

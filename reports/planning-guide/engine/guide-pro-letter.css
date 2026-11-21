@@ -25,3 +25,7 @@
 .pro .brief .ckl li{font-size:13px}.pro .brief .lede{font-size:13.5px}
 .pro .lay .flow li{grid-template-columns:86px 1fr}
 .pro .tiles .tile small{font-size:11px}
+.pro .quad{grid-template-columns:repeat(4,1fr);gap:8px}.pro .quad figure.ph{height:110px}
+.pro .full .chart.s2{height:600px;width:auto}
+.pro .ctl>div:last-child figure.ph{display:none}
+.pro .pr2.clr{grid-template-columns:1fr 1fr;gap:16px}

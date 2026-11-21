@@ -560,7 +560,7 @@ figure.ph figcaption{font-size:11.5px;color:var(--ink-2);margin-top:5px;letter-s
 .brief .bimg{height:260px}.brief .qt{top:280px}
 .brief .roll li{padding-top:4px}.brief .ckl{gap:4px;margin:8px 0 10px}
 .cost .chart{max-width:560px}
-.costp .qv{top:auto;bottom:46px}.costp .qv figure.cimg{display:none}
+.costp .qv{top:auto;bottom:46px}.costp .qv figure.cimg{height:190px}
 </style></head><body class="letter"><main id="deck">
 <section class="pg cover"><img class="bg" src="img/l-013-104-split.webp" alt="A resort loggia with Eclipse pendants, drawn as a sketch on the left and photographed finished on the right">
   <div class="cv"><img class="logo" src="../../../images/portfolio/bromic-logo.png" alt="Bromic Heating">
@@ -625,7 +625,7 @@ figure.ph figcaption{font-size:11.5px;color:var(--ink-2);margin-top:5px;letter-s
     <ul class="levers"><li><b>Mild</b><span>Evenings usually above about 50°F</span></li><li><b>Cool</b><span>About 40–50°F</span></li><li><b>Cold</b><span>Often below about 40°F</span></li></ul>
     <p class="rule">Not sure? Plan for partly covered and cool – the safe middle. On an exposed site, screens on the windward side help hold the heat in.</p>
     <p class="src">Platinum Smart-Heat Electric 4500 W over 800 ft² (40 seats), from the Bromic sizing calculator. Coverage is approximate and varies with mounting height, wind and installation.</p>
-    <figure class="qstrip"><img class="" src="img/l-013-107.webp" alt="An Eclipse over a rooftop table with city lights beyond"><figcaption>A cool evening on the roof, every seat sold</figcaption></figure></div>
+    <figure class="qstrip"><img class="" src="img/w-eclipse-electric-curved-pole-hotel-scene-web.webp" alt="Eclipse heaters on curved poles over a rooftop bar lounge, city skyline beyond"><figcaption>A cool evening on the roof, every seat sold</figcaption></figure></div>
   <div class="qv"><svg class="chart" data-chart="matrixc" viewBox="0 0 760 600"></svg></div><div class="folio"><span>Outdoor Heating Planning Guide · Commercial Edition</span><span class="draft">Draft for review</span><span>08</span></div></section>
 <section class="pg g full">
   <header class="hd"><div><div class="kick">How Radiant Heat Works</div><h2>Warmth Like Sunshine, Over The Plate</h2><p class=lede>Outdoors, warm air rises and drifts away, so forced air cannot hold an open terrace at a set temperature. Radiant heat warms people and surfaces directly – and a directional heater aims it down at the table rather than up into the sky.</p></div></header>
@@ -1120,19 +1120,18 @@ window.REPORT_CHARTS = (BZ) => {
     // C1 restaurant covered terrace: 24 seats = 480 ft², covered, cool: 480 / (160 × 1.1 × 0.85) = 3.2 → 4 × Tungsten 6000 W
     C1: { W: 32, D: 18, roof: 'roof', sides: { top: 'house', left: 'wall', right: 'open', bottom: 'open' },
       items: [5, 14, 23].flatMap((x) => [{ t: 'table', x, y: 4.6, w: 2.6, d: 2.6, seats: { top: 1, bottom: 1, left: 1, right: 1 } }, { t: 'table', x, y: 11.4, w: 2.6, d: 2.6, seats: { top: 1, bottom: 1, left: 1, right: 1 } }]),
-      heaters: [lin(10, 1.1, 160, { zy: 5.9 }), lin(22, 1.1, 160, { zy: 5.9 }), lin(10, 16.9, 160, { zy: 12.7 }), lin(22, 16.9, 160, { zy: 12.7 })],
-      notes: [[16, 2.6, 'Heaters on the canopy edges, angled in over the tables']] },
+      heaters: [lin(10, 1.1, 160, { zy: 5.9 }), lin(22, 1.1, 160, { zy: 5.9 }), lin(10, 16.9, 160, { zy: 12.7 }), lin(22, 16.9, 160, { zy: 12.7 })] },
     // C2 street dining enclosure: 16 seats = 320 ft², covered, cool: 320 / (130 × 0.935) = 2.6 → 3 × Tungsten 4000 W in a row (one heater wide)
     C2: { W: 26, D: 9, roof: 'roof', sides: { top: 'open', left: 'wall', right: 'wall', bottom: 'wall' },
       items: [2.2, 8.4, 14.6, 20.8].map((x) => ({ t: 'table', x, y: 3.2, w: 2.6, d: 2.6, seats: { top: 1, bottom: 1, left: 1, right: 1 } })),
       heaters: [lin(6.5, 4.5, 130), lin(13, 4.5, 130), lin(19.5, 4.5, 130)],
-      notes: [[13, -1.6, 'Sidewalk side, open'], [13, 10.6, 'Roadway side, screened']] },
+      notes: [[13, 10.6, 'Roadway side, screened']] },
     // C3 rooftop bar: 8 stools + 8 lounge seats = 16 seats = 320 ft², pergola, cool: 320 / (121 × 0.85) = 3.1 → 4 × Eclipse
     C3: { W: 30, D: 16, roof: 'pergola', sides: { top: 'wall', left: 'open', right: 'open', bottom: 'open' },
       items: [{ t: 'counter', x: 2.5, y: 0.6, w: 15.5, d: 2.4 }, ...[3.8, 5.8, 7.8, 9.8, 11.8, 13.8, 15.8, 17.6].map((x) => ({ t: 'stool', x, y: 4.4 })),
         { t: 'sofa', x: 20.5, y: 5, w: 7.5, d: 2.4 }, { t: 'sofa', x: 20.5, y: 7.4, w: 2.4, d: 5.2 }, { t: 'coffee', x: 23.6, y: 8.2, w: 3.6, d: 2.6 }, { t: 'chair', x: 28.2, y: 12.4 }, { t: 'chair', x: 25, y: 13.6 }],
       heaters: [{ k: 'ecl', x: 7, y: 4.6, A: 121 }, { k: 'ecl', x: 14.6, y: 4.6, A: 121 }, { k: 'ecl', x: 22.5, y: 7.2, A: 121 }, { k: 'ecl', x: 26.4, y: 11, A: 121 }],
-      notes: [[10.3, 2.1, 'Bar'], [10.3, 7.2, 'High-tops: pendants about 10 ft up']] },
+      notes: [[10.3, 2.1, 'Bar']] },
     // C4 hotel pool cabanas: 3 cabanas of 4 seats, 64 ft² each, covered: 1 × Eclipse each
     C4: { W: 34, D: 20, roof: 'part', roofRect: [[1.5, 0, 9, 8.5], [12.5, 0, 9, 8.5], [23.5, 0, 9, 8.5]], sides: { top: 'wall', left: 'open', right: 'open', bottom: 'open' },
       items: [1.5, 12.5, 23.5].flatMap((x) => [{ t: 'sofa', x: x + 1, y: 0.8, w: 7, d: 2.4 }, { t: 'coffee', x: x + 3.2, y: 4, w: 2.6, d: 1.8 }, { t: 'chair', x: x + 7.2, y: 6.6 }]).concat([{ t: 'pool', x: 4, y: 11.5, w: 26, d: 7 }]),
@@ -1169,7 +1168,7 @@ window.REPORT_CHARTS = (BZ) => {
       items: [[3, 4.6], [3, 11.6], [15, 4.6], [15, 11.6], [27, 4.6], [27, 11.6]].map(([x, y]) => ({ t: 'table', x, y, w: 5.5, d: 2.6, seats: { top: 2, bottom: 2 } }))
         .concat([{ t: 'divider', x1: 12, y1: 0.4, x2: 12, y2: 17.6 }, { t: 'divider', x1: 24, y1: 0.4, x2: 24, y2: 17.6 }]),
       heaters: [lin(6, 1.1, 130, { zy: 5.8 }), lin(6, 16.9, 130, { zy: 12.8 }), lin(18, 1.1, 130, { zy: 5.8 }), lin(18, 16.9, 130, { zy: 12.8 }), lin(30, 1.1, 130, { zy: 5.8 }), lin(30, 16.9, 130, { zy: 12.8 })],
-      notes: [[6, 9.4, 'Section A · channel 1'], [18, 9.4, 'Section B · channel 2'], [30, 9.4, 'Section C · channel 3']] });
+      notes: [[6, 9.45, 'A · ch 1'], [18, 9.45, 'B · ch 2'], [30, 9.45, 'C · ch 3']] });
     T(svg, 380, 412, 'Quiet Tuesday: warm Section A. Full Saturday: warm all three.', { size: 14, anchor: 'middle', fill: FINK, weight: 700 });
   };
 
