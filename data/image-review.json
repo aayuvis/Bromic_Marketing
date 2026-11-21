@@ -853,18 +853,6 @@
    "thumb": "images/review/thumb/pr-select-graphite-endcap.webp",
    "source": "Rendered from the Tungsten Series II CAD on a white studio sweep; satin powder coat, glowing elements.",
    "status": "pending"
-  },
-  {
-   "id": "pr-coastal-white-hero",
-   "title": "Series II Coastal white hero, wall mount",
-   "kind": "CAD studio render",
-   "finish": "white",
-   "w": 3840,
-   "h": 2560,
-   "file": "images/review/full/pr-coastal-white-hero.jpg",
-   "thumb": "images/review/thumb/pr-coastal-white-hero.webp",
-   "source": "Rendered from the Series II CAD. The CAD does not model Coastal's corrosion protection, so this looks the same as Select white: caption it as Coastal only where the copy says so.",
-   "status": "pending"
   }
  ]
 }
