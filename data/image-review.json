@@ -744,6 +744,42 @@
    "thumb": "images/review/thumb/ad-ts2-03d.webp",
    "source": "Glow option D (ember); same layout as v3, no light streaks.",
    "status": "pending"
+  },
+  {
+   "id": "ad-ts2-03e",
+   "title": "Series II feature ad v3E (4:5): strong mist",
+   "kind": "Ad, CAD heater on photo",
+   "finish": "white and black",
+   "w": 2160,
+   "h": 2700,
+   "file": "images/review/full/ad-ts2-03e.jpg",
+   "thumb": "images/review/thumb/ad-ts2-03e.webp",
+   "source": "Glow option E (strong mist), at the strength of the owner reference; soft misty light, no hard rays.",
+   "status": "pending"
+  },
+  {
+   "id": "ad-ts2-03f",
+   "title": "Series II feature ad v3F (4:5): strong fan, warmth to the ground",
+   "kind": "Ad, CAD heater on photo",
+   "finish": "white and black",
+   "w": 2160,
+   "h": 2700,
+   "file": "images/review/full/ad-ts2-03f.jpg",
+   "thumb": "images/review/thumb/ad-ts2-03f.webp",
+   "source": "Glow option F (strong fan, warmth to the ground), at the strength of the owner reference; soft misty light, no hard rays.",
+   "status": "pending"
+  },
+  {
+   "id": "ad-ts2-03g",
+   "title": "Series II feature ad v3G (4:5): strong ember mist",
+   "kind": "Ad, CAD heater on photo",
+   "finish": "white and black",
+   "w": 2160,
+   "h": 2700,
+   "file": "images/review/full/ad-ts2-03g.jpg",
+   "thumb": "images/review/thumb/ad-ts2-03g.webp",
+   "source": "Glow option G (strong ember mist), at the strength of the owner reference; soft misty light, no hard rays.",
+   "status": "pending"
   }
  ]
 }
