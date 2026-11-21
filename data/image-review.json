@@ -794,19 +794,6 @@
    "status": "pending"
   },
   {
-   "id": "pr-select-white-hero",
-   "title": "Series II Select white hero, ceiling post",
-   "kind": "CAD studio render",
-   "finish": "white",
-   "w": 3840,
-   "h": 2560,
-   "file": "images/review/full/pr-select-white-hero.jpg",
-   "thumb": "images/review/thumb/pr-select-white-hero.webp",
-   "source": "Rendered from the Tungsten Series II CAD on a white studio sweep; short ceiling post, satin powder coat, glowing elements.",
-   "status": "pending",
-   "note": "Being re-rendered: from this angle the logo reads only \"...OMIC\". The new version replaces this one."
-  },
-  {
    "id": "ad-ts2-04",
    "title": "Series II feature ad v4 (4:5): option G, amber both sides",
    "kind": "Ad, CAD heater on photo",
@@ -876,6 +863,30 @@
    "file": "images/review/full/pr-select-white-from-below.jpg",
    "thumb": "images/review/thumb/pr-select-white-from-below.webp",
    "source": "Rendered from the Tungsten Series II CAD on a white studio sweep, looking straight up at a ceiling-mounted heater. Graded to natural colour, with short contact shadows.",
+   "status": "pending"
+  },
+  {
+   "id": "pr-select-black-front",
+   "title": "Series II Select black, frontal on a wall",
+   "kind": "CAD studio render",
+   "finish": "black",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-select-black-front.jpg",
+   "thumb": "images/review/thumb/pr-select-black-front.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour, with short contact shadows.",
+   "status": "pending"
+  },
+  {
+   "id": "pr-select-black-and-white-pair",
+   "title": "Series II Select black and white pair, ceiling posts",
+   "kind": "CAD studio render",
+   "finish": "black and white",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-select-black-and-white-pair.jpg",
+   "thumb": "images/review/thumb/pr-select-black-and-white-pair.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour, with short contact shadows.",
    "status": "pending"
   }
  ]
