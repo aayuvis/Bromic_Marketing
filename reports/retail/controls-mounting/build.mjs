@@ -101,7 +101,7 @@ const cards = `<div class="cards">
 const qrow = (heater, sub, ctl, setting, cap, app, soon = false) => `<tr${soon ? ' class="soon"' : ''}><td class="ser">${heater}${sub ? `<span class="sub">${sub}</span>` : ''}</td><td>${ctl}</td><td>${setting}</td><td>${cap}</td><td>${app}</td></tr>`;
 const quote = `<table class="mx q"><colgroup><col style="width:162px"><col style="width:168px"><col style="width:112px"><col style="width:118px"><col></colgroup>
   <thead><tr><th>HEATER</th><th>CONTROLLER TO QUOTE</th><th>HEAT SETTING</th><th>CAPACITY</th><th>APP AND WI-FI</th></tr></thead><tbody>
-  ${qrow('Tungsten Smart-Heat® Electric', 'SERIES II SELECT, COASTAL · <span class="soon-t">COMING SOON</span><br>CLASSIC JANUARY 2027 · SERIES I', 'Affinity Dimmer as standard; On/Off where dimming is not wanted', 'Dims in 1% steps', '6 kW a channel at 208–277 V', 'Yes, through the Affinity controller')}
+  ${qrow('Tungsten Smart-Heat® Electric', 'SERIES II SELECT, COASTAL:<br><span class="soon-t">COMING SOON</span> · CLASSIC: JANUARY 2027<br>AND SERIES I', 'Affinity Dimmer as standard; On/Off where dimming is not wanted', 'Dims in 1% steps', '6 kW a channel at 208–277 V', 'Yes, through the Affinity controller')}
   ${qrow('Platinum Smart-Heat® Electric', 'CLASSIC AND MARINE', 'Affinity Dimmer or On/Off; expansion board for building systems', 'Dims in 1% steps', '6 kW a channel at 208–277 V', 'Yes, through the Affinity controller')}
   ${qrow('Eclipse Smart-Heat® Electric', 'PENDANT', 'Affinity Eclipse Controller, or Eclipse Dimmer Controller with remote', 'Heat 33, 66, 100%; LED ring dims', 'One Eclipse a channel', 'With the Affinity Eclipse Controller')}
   ${qrow('Eclipse Smart-Heat® Freestanding', '', 'Eclipse Dimmer Controller and remote, included', 'Heat 33, 66, 100%', 'Included', TC)}
@@ -238,13 +238,13 @@ const controls = `<section class="page light">
   <figure class="panel sys">
     <div class="hdr"><span class="lbl">HOW A SYSTEM FITS TOGETHER</span><span class="lbl r">ILLUSTRATIVE · TWO-CHANNEL DIMMER</span></div>
     ${ctlDiagram}
-    <p class="order"><span>1</span> HEATERS <i>→</i> <span>2</span> AFFINITY CONTROLLER <i>→</i> <span>3</span> MANUAL WALL SWITCH <i>→</i> <span>4</span> BROMIC APP <i>·</i> <span>5</span> EXPANSION BOARD FOR BUILDING SYSTEMS</p>
+    <p class="order"><span>1</span> HEATERS <i>→</i> <span>2</span> AFFINITY CONTROLLER <i>→</i> <span>3</span> MANUAL WALL SWITCH <i>→</i> <span>4</span> BROMIC APP <i>·</i> <span>5</span> EXPANSION BOARD</p>
   </figure>
   <div class="sec"><div class="hdr"><span class="lbl">ON/OFF, DIMMER OR ECLIPSE</span><span class="lbl r">EVERY CONTROLLER IS SOLD SEPARATELY</span></div>${cards}</div>
   <div class="sec mxw"><div class="hdr"><span class="lbl">WHAT TO QUOTE WITH EACH SERIES</span><span class="lbl r">CONTROLS ARE REQUIRED ON EVERY HEATER</span></div>${quote}
-    <p class="fn">Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately. Alexa and Google Assistant need no expansion board; Control4, Crestron and Lutron may need extra hardware. Quote no default timer length. Controllers carry a 1-year warranty. Installation by a licensed electrician to local code.</p>
   </div>
-  <div class="cta"><a class="btn">EXPLORE AFFINITY SMART-HEAT CONTROLS <span>→</span></a><span class="addr">BROMIC.COM · 1-800-301-1293 · MON–FRI 9–4 PT</span></div>
+  <div class="foot2"><p class="disc"><b>GOOD TO KNOW</b> Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately. Alexa and Google Assistant need no expansion board; Control4, Crestron and Lutron may need extra hardware. Quote no default timer length. Controllers carry a 1-year warranty. Installation by a licensed electrician to local code.</p>
+  <a class="btn">EXPLORE AFFINITY SMART-HEAT CONTROLS <span>→</span></a></div>
   </div>
   ${strip('01', 'Affinity Smart-Heat® Controls', 'Bromic Lookbook 2026 p.41 · bromic.com Affinity controller, wall switch and expansion board pages, read 29 Oct 2026 · Retail Hub, controls page')}
 </section>`;
@@ -373,7 +373,7 @@ h2{font-family:BzDidot,Didot,serif;font-weight:400;letter-spacing:-.005em}
 .strip .cell.grow span{font-size:6px;line-height:1.35;color:${T.steel}}
 .strip b{font-weight:500;font-size:5.4px;letter-spacing:.16em;color:${T.steel}}
 .strip .sheet span{font-size:15px;line-height:1;color:${T.draw}}
-.flow{position:absolute;left:.72in;right:.72in;top:.62in;bottom:.98in;display:flex;flex-direction:column;gap:13px}
+.flow{position:absolute;left:.72in;right:.72in;top:.62in;bottom:.98in;display:flex;flex-direction:column;gap:11px}
 .flow>*{position:static!important;flex:none}
 .flow>.cta,.flow>.foot2{margin-top:auto}
 .s-head{display:flex;gap:.3in;align-items:flex-start}

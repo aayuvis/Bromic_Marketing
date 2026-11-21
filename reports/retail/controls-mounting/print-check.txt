@@ -1,5 +1,5 @@
 Print check, 2026-11-21
+controls: runs into the title strip: "GOOD TO KNOW Wi-Fi and app features need"
 controls: runs into the title strip: "EXPLORE AFFINITY SMART-HEAT CONTROLS →"
-controls: content is 42px taller than the sheet
-mounting: runs into the title strip: "BEFORE ANY HEATER GOES UP Follow the ins"
-mounting: content is 8px taller than the sheet
+controls: content is 23px taller than the sheet
+mounting: content is 2px taller than the sheet
