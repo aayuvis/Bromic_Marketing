@@ -123,7 +123,7 @@ def build(inline=False, letter=False):
     pages.append(f'''<section class="pg g qp side-l">
   <figure class="qimg">{img('w-smoque-n-bones-tungsten-electric-1', alt='Rows of Tungsten Electric heaters angled down from the beams over restaurant tables')}<figcaption>A heater over every table line</figcaption></figure>
   <div class="qt">{head('Question 01', 'Where Do Guests Sit?', 'Draw the floor the way your team runs service, so each section is warmed when it opens and rested when it closes. Plan heat over every seat you sell, not one hot spot.', '01')}
-    {svg('zones', '760 425')}
+    {svg('zones', '760 434')}
     <p class="rule"><b>Rule of thumb:</b> about 20 ft² a seat, aisles included. One zone for each section that opens and closes on its own.</p></div>{folio()}</section>''')
     # Q2 how open
     PHOTOS2 = '<div class="trip">' + ph('l-016-131', 'Open to the sky') + ph('l-013-111', 'Under an awning') + ph('w-the-ivy-london-tungsten-electric', 'Under a glazed pergola') + '</div>'

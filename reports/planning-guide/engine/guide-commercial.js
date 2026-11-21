@@ -147,13 +147,15 @@
 
   // service sections: each section on its own controller channel
   CH.zones = (svg) => {
-    const g = el('svg', { viewBox: '0 0 760 420', x: 0, y: 0, width: 760, height: 420 }, svg);
+    const g = el('svg', { viewBox: '0 0 760 390', x: 0, y: 0, width: 760, height: 390 }, svg);
     plan(g, { W: 36, D: 18, roof: 'roof', sides: { top: 'house', left: 'wall', right: 'open', bottom: 'open' },
       items: [[3, 4.6], [3, 11.6], [15, 4.6], [15, 11.6], [27, 4.6], [27, 11.6]].map(([x, y]) => ({ t: 'table', x, y, w: 5.5, d: 2.6, seats: { top: 2, bottom: 2 } }))
         .concat([{ t: 'divider', x1: 12, y1: 0.4, x2: 12, y2: 17.6 }, { t: 'divider', x1: 24, y1: 0.4, x2: 24, y2: 17.6 }]),
       heaters: [lin(6, 1.1, 130, { zy: 5.8 }), lin(6, 16.9, 130, { zy: 12.8 }), lin(18, 1.1, 130, { zy: 5.8 }), lin(18, 16.9, 130, { zy: 12.8 }), lin(30, 1.1, 130, { zy: 5.8 }), lin(30, 16.9, 130, { zy: 12.8 })],
-      notes: [[6, 9.45, 'A · ch 1'], [18, 9.45, 'B · ch 2'], [30, 9.45, 'C · ch 3']] });
-    T(svg, 380, 412, 'Quiet Tuesday: warm Section A. Full Saturday: warm all three.', { size: 14, anchor: 'middle', fill: FINK, weight: 700 });
+      });
+    // section tags under the plan, at each section's centre (plan scale: 17.2 px a foot, origin 76.5)
+    [['Section A · channel 1', 6], ['Section B · channel 2', 18], ['Section C · channel 3', 30]].forEach(([t, x]) => T(svg, 76.5 + x * 17.2, 404, t, { size: 13, anchor: 'middle', fill: FINK, weight: 700 }));
+    T(svg, 380, 426, 'Quiet Tuesday: warm Section A. Full Saturday: warm all three.', { size: 14, anchor: 'middle', fill: FINK, weight: 700 });
   };
 
   // mounting height by use (Bromic guidance)

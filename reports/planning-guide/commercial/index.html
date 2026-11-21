@@ -372,7 +372,7 @@ figure.ph figcaption{font-size:11.5px;color:var(--ink-2);margin-top:5px;letter-s
 <section class="pg g qp side-l">
   <figure class="qimg"><img class="" src="img/w-smoque-n-bones-tungsten-electric-1.webp" alt="Rows of Tungsten Electric heaters angled down from the beams over restaurant tables"><figcaption>A heater over every table line</figcaption></figure>
   <div class="qt"><header class="hd"><span class="qn">01</span><div><div class="kick">Question 01</div><h2>Where Do Guests Sit?</h2><p class=lede>Draw the floor the way your team runs service, so each section is warmed when it opens and rested when it closes. Plan heat over every seat you sell, not one hot spot.</p></div></header>
-    <svg class="chart" data-chart="zones" viewBox="0 0 760 425"></svg>
+    <svg class="chart" data-chart="zones" viewBox="0 0 760 434"></svg>
     <p class="rule"><b>Rule of thumb:</b> about 20 ft² a seat, aisles included. One zone for each section that opens and closes on its own.</p></div><div class="folio"><span>Outdoor Heating Planning Guide · Commercial Edition</span><span class="draft">Draft for review</span><span>04</span></div></section>
 <section class="pg g full">
   <header class="hd"><span class="qn">02</span><div><div class="kick">Question 02</div><h2>How Open Is It?</h2><p class=lede>Radiant heat is made for the outdoors. A terrace counts as outdoor when at least 30% of its perimeter is permanently open – and a canopy or awning works in your favor.</p></div></header>
@@ -913,13 +913,15 @@ window.REPORT_CHARTS = (BZ) => {
 
   // service sections: each section on its own controller channel
   CH.zones = (svg) => {
-    const g = el('svg', { viewBox: '0 0 760 420', x: 0, y: 0, width: 760, height: 420 }, svg);
+    const g = el('svg', { viewBox: '0 0 760 390', x: 0, y: 0, width: 760, height: 390 }, svg);
     plan(g, { W: 36, D: 18, roof: 'roof', sides: { top: 'house', left: 'wall', right: 'open', bottom: 'open' },
       items: [[3, 4.6], [3, 11.6], [15, 4.6], [15, 11.6], [27, 4.6], [27, 11.6]].map(([x, y]) => ({ t: 'table', x, y, w: 5.5, d: 2.6, seats: { top: 2, bottom: 2 } }))
         .concat([{ t: 'divider', x1: 12, y1: 0.4, x2: 12, y2: 17.6 }, { t: 'divider', x1: 24, y1: 0.4, x2: 24, y2: 17.6 }]),
       heaters: [lin(6, 1.1, 130, { zy: 5.8 }), lin(6, 16.9, 130, { zy: 12.8 }), lin(18, 1.1, 130, { zy: 5.8 }), lin(18, 16.9, 130, { zy: 12.8 }), lin(30, 1.1, 130, { zy: 5.8 }), lin(30, 16.9, 130, { zy: 12.8 })],
-      notes: [[6, 9.45, 'A · ch 1'], [18, 9.45, 'B · ch 2'], [30, 9.45, 'C · ch 3']] });
-    T(svg, 380, 412, 'Quiet Tuesday: warm Section A. Full Saturday: warm all three.', { size: 14, anchor: 'middle', fill: FINK, weight: 700 });
+      });
+    // section tags under the plan, at each section's centre (plan scale: 17.2 px a foot, origin 76.5)
+    [['Section A · channel 1', 6], ['Section B · channel 2', 18], ['Section C · channel 3', 30]].forEach(([t, x]) => T(svg, 76.5 + x * 17.2, 404, t, { size: 13, anchor: 'middle', fill: FINK, weight: 700 }));
+    T(svg, 380, 426, 'Quiet Tuesday: warm Section A. Full Saturday: warm all three.', { size: 14, anchor: 'middle', fill: FINK, weight: 700 });
   };
 
   // mounting height by use (Bromic guidance)

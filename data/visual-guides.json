@@ -6,6 +6,13 @@
    "file": "Bromic-Outdoor-Heating-Planning-Guide-2027-Homeowner",
    "title": "Plan Your Outdoor Heat \u00b7 Homeowner Edition",
    "cover": "cover.webp"
+  },
+  {
+   "item": "A02-commercial",
+   "dir": "planning-guide/commercial",
+   "file": "Bromic-Outdoor-Heating-Planning-Guide-2027-Commercial",
+   "title": "Plan Your Outdoor Heat \u00b7 Commercial Edition",
+   "cover": "cover.webp"
   }
  ]
 }

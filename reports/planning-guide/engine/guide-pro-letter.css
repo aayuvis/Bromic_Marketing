@@ -29,3 +29,15 @@
 .pro .full .chart.s2{height:600px;width:auto}
 .pro .ctl>div:last-child figure.ph{display:none}
 .pro .pr2.clr{grid-template-columns:1fr 1fr;gap:16px}
+.pro .pr2.ctl{grid-template-columns:1fr 1fr;gap:16px}
+.pro .ctl .cuts{grid-template-columns:1fr 1fr}.pro .ctl .cuts figure.ph{height:120px}
+.pro .ctl>div:last-child figure.ph{display:block;height:160px}
+.pro .bloom .bimg{height:470px}.pro .bloom .qt{top:490px}
+.pro .pw .pcol figure.ph{height:230px}
+.pro .pr2.clr{grid-template-columns:1fr;gap:8px}
+.pro .pr2.clr .chart{height:330px;width:auto;max-width:100%;margin:0 auto}
+.pro .pr2.clr>div:last-child .chart{height:250px}
+.pro .pr2.ctl{grid-template-columns:1fr;gap:8px}
+.pro .ctl .chart{height:290px;width:auto;max-width:100%;margin:0 auto}
+.pro .ctl .cuts{grid-template-columns:repeat(4,1fr)}.pro .ctl .cuts figure.ph{height:100px}
+.pro .ctl>div:last-child figure.ph{display:none}

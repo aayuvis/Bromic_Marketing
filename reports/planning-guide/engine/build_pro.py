@@ -169,7 +169,7 @@ def build(ed='pro', inline=False, letter=False):
     pages.append(f'''<section class="pg g full">
   {head('Question 06 · Power', 'Size Every Branch Circuit', 'Current is watts ÷ volts. Fixed electric space-heating loads are continuous, so conductors and overcurrent devices are sized at no less than 125% of the load (NEC 424, 210.19(A)(1), 210.20(A)).', '06')}
   <div class="pr2 pw"><div>{svg('amps', '960 470', 'chart')}</div>
-    <div class="pcol">{ph('w-tungsten-electric-recess-kit-black', 'Recess kit with its conduit, wiring and terminal box', 'ph cut')}
+    <div class="pcol">{ph('w-tungsten-electric-recess-kit-black', 'Recess kit with its conduit, wiring and terminal box', 'ph cut')}{ph('w-bromic-shoot-may-11-2023-43', 'Each heater on its own circuit, fitted before the ceiling is finished')}
       <div class="gasn"><h3>Gas Supply</h3><p>Size piping for the total connected Btu/h, length and pressure to NFPA 54. Built-in gas also needs 110 V, 2 A at each heater; the freestanding gas heater runs on a 20 lb LPG cylinder or a 10 ft natural-gas quick-connect.</p></div></div></div>
   <p class="foot">Published amps from the product pages; Tungsten rows are W ÷ V and marked. Breaker sizes, Article 424 vs 422 and Tungsten amps await confirmation against the installation manuals. Feeders and services follow Article 220.</p>{folio()}</section>''')
     # 13 controls
@@ -187,7 +187,7 @@ def build(ed='pro', inline=False, letter=False):
         for L in LAYOUTS[k:k + per]:
             chips = ''.join(f'<li><span>{a}</span>{E(b)}</li>' for a, b in L['rows'])
             pid, pcap = L['photo']
-            cards += f'<article class="lay">{svg(L["key"], "720 500" if letter else "720 360", "plan")}<div class="lb">{ph(pid, "A Bromic installation like this layout: " + pcap)}<div><h3>{E(L["title"])}</h3><ol class="flow">{chips}</ol><p>{E(L["note"])}</p></div></div></article>'
+            cards += f'<article class="lay">{svg(L["key"], "720 550" if letter else "720 360", "plan")}<div class="lb">{ph(pid, "A Bromic installation like this layout: " + pcap)}<div><h3>{E(L["title"])}</h3><ol class="flow">{chips}</ol><p>{E(L["note"])}</p></div></div></article>'
         pages.append(f'''<section class="pg g full layp">
   {head('Layouts · Zone, Heaters, Mount, Controls, Circuits', LAYOUTS[k]['title'] if letter else NAMES[k // 2], None)}
   <div class="lays">{cards}</div>
