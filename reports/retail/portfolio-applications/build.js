@@ -179,9 +179,9 @@ p { font-size: 9.2pt; line-height: 1.58; color: #3a3637; hyphens: manual; }
 .p6 .q h3 { font-family: 'Didot', serif; font-weight: 400; font-size: 15pt; line-height: 1.1; margin-bottom: 4pt; }
 .p6 .q ul { list-style: none; }
 .p6 .q li { font-size: 8.3pt; line-height: 1.45; color: #3a3637; padding: 1.6pt 0 1.6pt 11pt; position: relative; }
-.p6 .q li::before { content: ''; position: absolute; left: 0; top: 6pt; width: 6pt; height: 1pt; background: var(--flame); }
+.p6 .q li::before { content: ''; position: absolute; left: 0; top: 6pt; width: 6pt; height: 0; border-top: 1px solid var(--flame); }
 .p6 .q li b { font-weight: 400; color: var(--ink); }
-.p6 .then { position: absolute; top: 7.76in; left: var(--m); right: var(--m); display: grid; grid-template-columns: 1fr 1fr; gap: 0.3in;
+.p6 .then { position: absolute; top: 7.9in; left: var(--m); right: var(--m); display: grid; grid-template-columns: 1fr 1fr; gap: 0.3in;
   border-top: 0.5pt solid var(--rule); padding-top: 9pt; }
 .p6 .then h4 { font-family: 'Didot', serif; font-weight: 400; font-size: 13pt; margin-bottom: 4pt; }
 .p6 .then p { font-size: 8.2pt; line-height: 1.5; }
@@ -191,7 +191,7 @@ p { font-size: 9.2pt; line-height: 1.58; color: #3a3637; hyphens: manual; }
 .p6 .cta .btn { display: inline-block; margin-top: 10pt; background: var(--ink); color: #fff; font-size: 7.2pt; letter-spacing: 0.22em;
   text-transform: uppercase; padding: 9pt 14pt; }
 .p6 .cta .contact { margin-top: 9pt; font-size: 7.6pt; line-height: 1.55; color: var(--ink); }
-.p6 .fine { position: absolute; left: var(--m); right: var(--m); top: 8.92in; display: grid; grid-template-columns: 1fr 1fr; gap: 0.3in;
+.p6 .fine { position: absolute; left: var(--m); right: var(--m); top: 9.08in; display: grid; grid-template-columns: 1fr 1fr; gap: 0.3in;
   border-top: 0.5pt solid var(--rule); padding-top: 7pt; }
 .p6 .fine p { font-size: 6.3pt; line-height: 1.45; color: var(--steel); }
 `;
@@ -267,7 +267,7 @@ const space = (s) => `
 const P3 = [
   { no: '01', img: 'p3a', pos: '50% 35%', tcap: 'Tungsten Smart-Heat® Electric, porch ceiling', title: 'Covered Patio Or Porch',
     series: 'Tungsten Select (Series II) <span class="tc">Coming soon</span><br>Tungsten Classic from January 2027',
-    why: 'About 14% narrower and a third lighter than Series I, in black, white or graphite, with the Diamond front or an oval or triangle front, sold separately.',
+    why: 'About 14% narrower and a third lighter than Series I, in black, white or graphite, with the Diamond front as standard; oval and triangle fronts are sold separately.',
     rows: [['Mounting', 'Wall or ceiling, on a wall bracket or the single post'], ['With gas', 'Tungsten Gas, mounted: 160 or 215 ft², natural gas or propane'], ['Controls', 'Affinity Smart-Heat® Dimmer, or On/Off where dimming is not wanted, and a manual wall switch']],
     sell: 'Homeowners finishing a covered patio or porch, and the builders who bring them in – at outdoor-living stores and patio dealers.' },
   { no: '02', img: 'p3b', pos: '50% 30%', tcap: 'Tungsten Smart-Heat® Electric, vaulted porch', title: 'Pergola Or Pitched Ceiling',
