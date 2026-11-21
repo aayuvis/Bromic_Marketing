@@ -14,3 +14,7 @@ First measurement (old every-frame plan): with-kit frame 246 s, exploded frame ~
 16:35 UTC  explode frames: 31 done, 44 to go, 47 s each (measured) -> this stage ends about 17:10 UTC
 16:37 UTC  explode frames: 36 done, 39 to go, 44 s each (measured) -> this stage ends about 17:06 UTC
 16:40 UTC  explode frames: 41 done, 34 to go, 42 s each (measured) -> this stage ends about 17:03 UTC
+16:42 UTC  explode frames: 46 done, 29 to go, 41 s each (measured) -> this stage ends about 17:01 UTC
+16:44 UTC  explode frames: 51 done, 24 to go, 40 s each (measured) -> this stage ends about 17:00 UTC
+16:48 UTC  explode frames: 56 done, 19 to go, 40 s each (measured) -> this stage ends about 17:01 UTC
+16:52 UTC  explode frames: 61 done, 14 to go, 40 s each (measured) -> this stage ends about 17:01 UTC
