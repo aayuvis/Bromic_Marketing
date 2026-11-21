@@ -1,0 +1,111 @@
+/* Planning guide pages (landscape 1600 x 900), on top of the Trends 2027 report.css */
+.g{padding:0}
+.g .hd{display:flex;gap:22px;align-items:flex-start}
+.g .hd h2{font-size:50px;margin:10px 0 10px}
+.g .hd .lede{font-size:18px;line-height:1.55;color:var(--ink-2);max-width:980px}
+.qn{font-family:var(--serif);font-size:96px;line-height:.85;color:var(--flame);min-width:110px}
+.g p{font-size:16px;line-height:1.55;color:var(--ink-2)}
+.g h3{font-family:var(--serif);font-weight:400;font-size:24px;line-height:1.2;color:var(--ink);margin-bottom:6px}
+.g .rule{font-size:17px;color:var(--ink);border-left:3px solid var(--flame);padding:4px 0 4px 14px;margin-top:10px}
+.g .rule b{color:var(--flame-ink)}
+.g .src{font-size:12px;color:var(--steel);margin-top:10px}
+.g .foot{font-size:12.5px;color:var(--steel);line-height:1.5;border-top:1px solid var(--line);padding-top:10px;margin-top:12px}
+.full{padding:56px 72px 60px;display:flex;flex-direction:column}
+.full .chart.wide{width:100%;height:auto;display:block;margin-top:10px}
+.trio{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:14px}
+.trio li{border-top:2px solid var(--ink);padding-top:10px;display:grid;gap:6px}
+.trio b{font-family:var(--serif);font-weight:400;font-size:22px}
+.trio span{font-size:15px;line-height:1.5;color:var(--ink-2)}
+
+/* the six questions */
+.intro6{display:grid;grid-template-columns:690px 1fr}
+.intro6 .il h2{font-size:52px}
+.intro6 .lede{font-family:var(--sans);font-size:17px;line-height:1.55;color:var(--ink-2);margin-bottom:18px}
+.stat{display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:center;border-top:1px solid var(--line);padding-top:14px}
+.stat .fig{font-family:var(--serif);font-size:84px;color:var(--flame);line-height:.9}
+.stat p{font-size:15px}.stat small{display:block;font-size:11px;color:var(--steel);margin-top:6px}
+.intro6 .istrip{height:230px}
+.six{list-style:none;display:grid;gap:4px;margin-top:16px}
+.six li{display:grid;grid-template-columns:52px 44px 1fr;gap:14px;align-items:center;padding:11px 0;border-top:1px solid #D6D4D0}
+.six .qi{width:48px;height:48px;padding:12px;color:var(--flame-ink);display:block;position:relative}
+.six b{font-family:var(--serif);font-weight:400;font-size:34px;color:var(--flame);line-height:1}
+.six h3{font-size:22px;margin:0}.six p{font-size:14.5px;margin-top:2px}
+
+/* question with a picture on one side */
+.qp .qimg{position:absolute;left:0;top:0;bottom:0;width:600px;margin:0}
+.qp .qimg img{width:100%;height:100%;object-fit:cover}
+.qp .qt{position:absolute;left:660px;right:72px;top:56px;bottom:60px}
+.qp .chart{width:100%;height:auto;display:block;margin-top:10px}
+.side-r2 .qt{position:absolute;left:72px;width:700px;top:56px;bottom:60px}
+.side-r2 .qv{position:absolute;right:56px;width:740px;top:56px;bottom:60px}
+.side-r2 .qv .chart{width:100%;height:auto;display:block}
+.levers{list-style:none;display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:20px 0 8px}
+.levers li{border-top:2px solid var(--flame);padding-top:8px}
+.levers b{font-family:var(--serif);font-weight:400;font-size:26px;display:block}
+.levers span{font-size:14px;color:var(--ink-2)}
+
+/* open, cloud */
+.row2{display:grid;grid-template-columns:720px 1fr;gap:44px;align-items:start;margin-top:10px}
+.row2 .chart{width:100%;height:auto;display:block}
+.tips h3{font-size:22px;margin-top:6px}.tips p{margin-bottom:10px;font-size:15.5px}
+
+/* physics */
+.waves{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:8px}
+.waves>div{border-top:2px solid var(--line-2,#C9C9C6);padding-top:10px}
+.waves .hl{border-top-color:var(--flame)}.waves .hl h3{color:var(--flame-ink)}
+.waves p{font-size:15px}
+
+/* which heater */
+.tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:22px 30px;margin-top:16px}
+.tile{display:grid;grid-template-columns:170px 1fr;grid-template-rows:auto auto 1fr;column-gap:18px;align-items:start;border-top:1px solid var(--line);padding-top:14px}
+.tile .ti{grid-row:span 3;width:170px;height:150px;background:#fff;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.tile .ti img{max-width:100%;max-height:100%;object-fit:contain}
+.tile h3{font-size:23px}.tile p{font-size:15px;color:var(--ink)}.tile small{font-size:12.5px;color:var(--steel);letter-spacing:.02em;line-height:1.4;display:block;margin-top:6px}
+
+/* how many, with the bloom photo */
+.bloom .bimg,.brief .bimg{position:absolute;left:0;top:0;bottom:0;width:820px;margin:0}
+.bloom .bimg img,.brief .bimg img{width:100%;height:100%;object-fit:cover}
+.bloom .bimg figcaption{position:absolute;left:20px;bottom:18px;font-size:12px;color:#fff;background:rgba(20,18,19,.6);padding:6px 10px}
+.bloom .qt,.brief .qt{position:absolute;left:880px;right:64px;top:56px;bottom:60px}
+.thumbs{list-style:none;display:grid;gap:10px;margin:18px 0 14px}
+.thumbs li{border-top:1px solid var(--line);padding-top:9px;display:grid;gap:2px}
+.thumbs b{font-family:var(--serif);font-weight:400;font-size:24px;color:var(--ink)}
+.thumbs span{font-size:14.5px;color:var(--ink-2)}
+.scale-k{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--steel);margin-top:6px}
+.bloom .chart{width:100%;height:auto;display:block}
+
+/* electric or gas, cost */
+.eg{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:20px}
+.eg>div{border-top:2px solid var(--ink);padding-top:10px}
+.eg ul{list-style:none;display:grid;gap:9px;margin-top:6px}
+.eg li{font-size:15.5px;color:var(--ink-2);padding-left:16px;position:relative}
+.eg li:before{content:"";position:absolute;left:0;top:9px;width:7px;height:2px;background:var(--flame)}
+.cost .hero{display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:center;margin:10px 0 0}
+.cost .hero .fig{font-family:var(--serif);font-size:78px;color:var(--flame);line-height:.95;white-space:nowrap}
+.cost .hero p{font-family:var(--serif);font-size:21px;color:var(--ink);line-height:1.3}
+
+/* controls */
+.sys{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:22px}
+.sys figure{margin:0;width:300px;display:grid;gap:8px;justify-items:center;text-align:center}
+.sys figure img{width:240px;height:200px;object-fit:contain;background:#fff}
+.sys figure.ph .mini{width:200px;height:230px}
+.sys figcaption{font-size:14px;color:var(--ink-2);display:grid;gap:2px}.sys figcaption b{font-family:var(--serif);font-weight:400;font-size:20px;color:var(--ink)}
+.sys .arr{font-family:var(--serif);font-size:44px;color:var(--flame)}
+
+/* layouts */
+.layp .hd h2{font-size:40px}
+.lays{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:6px}
+.lay .plan{width:100%;height:auto;display:block;background:#FAFAF8}
+.lay h3{font-size:25px;margin-top:10px}
+.flow{list-style:none;display:grid;gap:3px;margin:6px 0 6px;counter-reset:f}
+.flow li{display:grid;grid-template-columns:86px 1fr;gap:10px;font-size:13.5px;line-height:1.35;color:var(--ink)}
+.flow li span{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--flame-ink);font-weight:700;padding-top:2px}
+.lay p{font-size:13.5px}
+
+/* brief */
+.brief .qt h2{font-size:48px;margin:10px 0 12px}
+.brief .lede{font-size:16.5px}
+.brief .ckl{list-style:none;display:grid;gap:10px;margin:18px 0 20px}
+.brief .ckl li{display:flex;gap:12px;align-items:center;font-size:16px;color:var(--ink)}
+.brief .cta{display:inline-block;background:var(--ink);color:#fff;padding:14px 24px;font-size:14px;letter-spacing:.16em;text-transform:uppercase;font-weight:700}
+.brief .site{margin-top:10px;font-size:14px;color:var(--steel)}
