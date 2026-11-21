@@ -1,0 +1,2289 @@
+{
+ "_readme": "Bromic e-commerce content kit for online retail partners. Built by build.py from src/listings.py. Customer-facing fields carry no [[VERIFY]] notes; open facts are in each listing's `verify`. No prices. Draft until the Product team signs off (every source fact is verified: false in data/product-facts.json).",
+ "status": "draft",
+ "updated": "2026-11-21",
+ "listings": [
+  {
+   "id": "tungsten-electric-series-ii",
+   "collection": "TUNGSTEN",
+   "product_name": "Tungsten Smart-Heat® Electric Series II",
+   "fuel": "Electric",
+   "availability": "Select and Coastal: coming soon. Classic: January 2027. Series I sells through until Classic launches.",
+   "level": "series",
+   "variants": [
+    {
+     "name": "Tungsten Select",
+     "outputs": "2, 3, 4, 6 kW",
+     "supply": "208, 240, 277 V (2 kW is 240 V only)",
+     "finishes": "Black, white, graphite (graphite on 4 and 6 kW)",
+     "front": "Diamond Pattern standard; oval and triangle sold separately",
+     "status": "Coming soon",
+     "sku": null
+    },
+    {
+     "name": "Tungsten Coastal",
+     "outputs": "4, 6 kW",
+     "supply": "208, 240 V",
+     "finishes": "Black, white",
+     "front": "Diamond Pattern",
+     "status": "Coming soon",
+     "sku": null
+    },
+    {
+     "name": "Tungsten Classic",
+     "outputs": "2, 3, 4, 6 kW",
+     "supply": "As Series I",
+     "finishes": "Black",
+     "front": "Wireframe",
+     "status": "January 2027",
+     "sku": null
+    }
+   ],
+   "titles": {
+    "short": "Bromic Tungsten Smart-Heat Electric Series II Patio Heater",
+    "medium": "Bromic Tungsten Smart-Heat Electric Series II Infrared Patio Heater, 2 to 6 kW, Ceiling, Wall, Post or Recessed",
+    "long": "Bromic Tungsten Smart-Heat Electric Series II Outdoor Infrared Patio Heater, 2, 3, 4 or 6 kW, 208, 240 or 277 V, IPX5, Black, White or Graphite, Ceiling, Wall, Post or Recessed Mount"
+   },
+   "bullets": [
+    "Warmth Dialed To The Evening – dual elements on the 4 and 6 kW models deliver up to 6 kW of directional infrared heat, and an Affinity Smart-Heat® Dimmer turns it up on a cold night and down on a mild one.",
+    "Mounts Wherever The Evening Happens – flat or pitched ceilings (3/12 to 12/12 with the adaptor), walls, extended wall brackets with 14 or 18 in reach, a single post, or flush in the ceiling with the low-clearance recess kit.",
+    "Flush In A 7.5 In Ceiling – the fan-ventilated low-clearance recess kit for Select and Coastal sets the heater flush in a 7.5 in cavity, with the recess box supplied, so there is nothing to build on site.",
+    "Slimmer And Lighter – about 14% narrower and about a third lighter than Series I, on a single post with no visible junction box, so the heater seems to float under the ceiling.",
+    "Finished For Every Setting – all black, all white or all graphite, IPX5 rated, with a Diamond Pattern front; Coastal adds a corrosion-resistant coating over 316 marine-grade stainless for homes by the water."
+   ],
+   "description": "Tungsten Smart-Heat® Electric Series II brings precise directional warmth to the outdoor rooms you live in most, from a pergola dining table to a covered porch with a view. Medium wave infrared warms people and surfaces directly, reaching full warmth in about 30 seconds and holding up in a light breeze.\n\nSeries II is about 14% narrower and a third lighter than the first Tungsten, on a single post with no visible junction box. Choose Tungsten Select in black, white or graphite, with the Diamond Pattern front as standard and oval and triangle fronts sold separately, in 2, 3, 4 and 6 kW on 208, 240 or 277 V. Tungsten Coastal, in black or white at 4 and 6 kW, adds a high-temperature, corrosion-resistant coating over 316 marine-grade stainless steel for coastal homes and venues. Tungsten Classic follows in January 2027.\n\nMount it on a flat or pitched ceiling, on a wall or an extended wall bracket, on a single post, or recess it flush in a 7.5 in ceiling cavity with the fan-ventilated low-clearance recess kit. Every Tungsten heater is paired with Affinity Smart-Heat® Controls: the Dimmer as standard, so the warmth follows the evening, with zones, schedules and timers in the Bromic app. Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately. Installation by a licensed electrician to local code. Select and Coastal are coming soon.",
+   "specs": [
+    [
+     "Brand",
+     "Bromic Heating"
+    ],
+    [
+     "Collection",
+     "Tungsten Smart-Heat® Electric Series II (Select, Coastal; Classic from January 2027)"
+    ],
+    [
+     "Heat type",
+     "Medium wave infrared, electric"
+    ],
+    [
+     "Output",
+     "Select and Classic: 2, 3, 4, 6 kW; Coastal: 4, 6 kW"
+    ],
+    [
+     "Elements",
+     "Dual elements on 4 and 6 kW"
+    ],
+    [
+     "Supply voltage",
+     "Select: 208, 240, 277 V (2 kW is 240 V only); Coastal: 208, 240 V"
+    ],
+    [
+     "Heat area",
+     "About 64 to 144 sq ft, depending on model and size"
+    ],
+    [
+     "Warm-up",
+     "About 30 seconds"
+    ],
+    [
+     "Finish",
+     "Select: black, white, graphite (graphite on 4 and 6 kW); Coastal: black, white; Classic: black"
+    ],
+    [
+     "Front",
+     "Diamond Pattern (Select standard, Coastal); oval and triangle for Select, sold separately; Classic: wireframe"
+    ],
+    [
+     "Material (Coastal)",
+     "316 marine-grade stainless steel with a high-temperature, corrosion-resistant coating"
+    ],
+    [
+     "Water rating",
+     "IPX5"
+    ],
+    [
+     "Width",
+     "7.2 in (183 mm)"
+    ],
+    [
+     "Length",
+     "About 45 in (2 and 4 kW) or 56.5 in (3 and 6 kW)"
+    ],
+    [
+     "Weight",
+     "13 to 15 lb, by model"
+    ],
+    [
+     "Mounting",
+     "Ceiling, wall, single post, pitched ceiling (with adaptor), recessed (with kit)"
+    ],
+    [
+     "Recessing",
+     "Low-clearance recess kit, 7.5 in minimum cavity, fan-ventilated, recess box supplied (Select and Coastal)"
+    ],
+    [
+     "Use",
+     "Outdoor and covered outdoor areas; Coastal is not for installation on boats"
+    ],
+    [
+     "Warranty",
+     "3 years"
+    ]
+   ],
+   "in_the_box": [
+    "Tungsten Smart-Heat® Electric Series II heater",
+    "Single-post mount"
+   ],
+   "required_separately": [
+    "Affinity Smart-Heat® Dimmer Controller (recommended) or On/Off Controller – required to run the heater",
+    "Manual wall switch",
+    "Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately",
+    "Installation by a licensed electrician to local code"
+   ],
+   "optional_accessories": [
+    "Low-Clearance Recess Kit (Select and Coastal; marine-grade kit on Coastal)",
+    "Pitched-Ceiling Adaptor, 3/12 to 12/12",
+    "Wall-Mounting Bracket, 14 in or 18 in reach",
+    "Mounting Bracket with 15°, 30° and 45° set positions",
+    "Oval and triangle fronts (Select)"
+   ],
+   "keywords": [
+    "outdoor electric heater",
+    "infrared patio heater",
+    "recessed patio heater",
+    "ceiling mounted patio heater",
+    "wall mounted outdoor heater",
+    "pergola heater",
+    "covered porch heater",
+    "dimmable outdoor heater",
+    "6 kW outdoor heater",
+    "277 V patio heater",
+    "coastal outdoor heater",
+    "low clearance recessed heater"
+   ],
+   "images": {
+    "main": "images/main/tungsten-series-ii-select-black-main.jpg",
+    "alternates_white": [
+     "images/main/tungsten-series-ii-select-white.jpg",
+     "images/main/tungsten-series-ii-select-graphite.jpg",
+     "images/main/tungsten-series-ii-coastal-white.jpg",
+     "images/main/tungsten-series-ii-select-black-front.jpg"
+    ],
+    "plan": [
+     {
+      "slot": "Lifestyle",
+      "library_id": "l-006-028",
+      "brief": "Timber pergola lounge at dusk with Tungsten Select overhead (Lookbook 2026)"
+     },
+     {
+      "slot": "Detail",
+      "library_id": "t2-select-black",
+      "brief": "Diamond Pattern front, close; or the endcap render with the Bromic logo"
+     },
+     {
+      "slot": "Controls",
+      "library_id": "w-affinity-dimmer-1ch-2",
+      "brief": "Affinity Dimmer with the Bromic app on a phone; caption: controls sold separately"
+     },
+     {
+      "slot": "Mounting",
+      "library_id": "t2-single-post-black",
+      "brief": "Single post, no visible junction box; add the pitched-ceiling adaptor and recess kit as line drawings"
+     },
+     {
+      "slot": "Recessed",
+      "library_id": "t2-low-clearance-recess",
+      "brief": "Low-clearance recess, 7.5 in cavity, recess box supplied"
+     },
+     {
+      "slot": "Infographic",
+      "library_id": null,
+      "brief": "Three tiers (Select, Coastal, Classic) with outputs, finishes, IPX5 and the 7.5 in recess; no prices"
+     },
+     {
+      "slot": "Coastal lifestyle",
+      "library_id": "l-005-020",
+      "brief": "White Tungsten Coastal on a rendered wall above an ocean view (Lookbook 2026)"
+     }
+    ]
+   },
+   "enhanced": {
+    "banner": {
+     "headline": "Durability Meets Power.",
+     "sub": "Tungsten Smart-Heat® Electric Series II – slimmer, IPX5, and made to recess into a 7.5 in ceiling.",
+     "library_id": "l-006-028"
+    },
+    "features": [
+     {
+      "h": "Up To 6 kW, Dimmed",
+      "body": "Dual elements on 4 and 6 kW, turned up or down with an Affinity Smart-Heat® Dimmer, sold separately."
+     },
+     {
+      "h": "Flush In 7.5 In",
+      "body": "The fan-ventilated low-clearance recess kit arrives with its recess box."
+     },
+     {
+      "h": "Black, White, Graphite",
+      "body": "Each finish covers the whole heater, with a Diamond Pattern front."
+     }
+    ]
+   },
+   "verify": [
+    "[[VERIFY: Series II SKU list by output, voltage, finish and front – Product team]]",
+    "[[VERIFY: launch status – the framework says Select and Coastal launched Oct 2026; retail copy keeps 'Coming soon' until confirmed – Product team]]",
+    "[[VERIFY: Series II mounting heights, listings/certification, rated current – Product team]]",
+    "[[VERIFY: 3-year warranty (owner, 18 Nov 2026), element cover and Coastal terms, and publication on bromic.com – Product team]]",
+    "[[VERIFY: 45° tilt on 4 and 6 kW against the manual's 30° – Product team]]",
+    "[[VERIFY: which outputs share each body length (deck slides '3-6kW' and '2-4kW') – Product team]]",
+    "[[VERIFY: Coastal body in 316 stainless (Lookbook only) and the coating name – Product team]]",
+    "[[VERIFY: what ships in the box (post, brackets, hardware) – Product team]]",
+    "[[VERIFY: Series II coverage per output (Lookbook gives 64–144 sq ft for the range) – Product team]]",
+    "[[VERIFY: number of recess-kit fans and any fire-rated lining – Product team]]"
+   ],
+   "gaps": [
+    "SKUs",
+    "Depth (deck and manuals disagree)",
+    "Certification",
+    "Minimum mounting heights",
+    "Rated current",
+    "Coverage per output",
+    "Box contents"
+   ],
+   "sources": [
+    "data/product-facts.json: tungsten-select, tungsten-coastal, tungsten-electric, principles.wavelength, principles.wavelength-by-product",
+    "data/retail/retail.json: tungsten-series-ii",
+    "data/product-marketing/tungsten-electric-series-ii.json: tiers, upgrades, pillars, slimness, dimensions, accessories, warranty_note, tilt_verify, spec_verify",
+    "data/portfolio.json: tungsten-series-ii"
+   ],
+   "checks": {
+    "title_short_chars": 58,
+    "title_medium_chars": 111,
+    "title_long_chars": 182,
+    "bullet_chars": [
+     205,
+     224,
+     204,
+     176,
+     207
+    ],
+    "description_words": 230
+   }
+  },
+  {
+   "id": "platinum-electric",
+   "collection": "PLATINUM",
+   "product_name": "Platinum Smart-Heat® Electric",
+   "fuel": "Electric",
+   "availability": "Current",
+   "level": "model",
+   "variants": [
+    {
+     "name": "2300 W, black",
+     "sku": "BH0320003",
+     "coverage": "65 sq ft",
+     "weight": "17 lb",
+     "amps": "9.6 A at 240 V; 11.1 A at 208 V"
+    },
+    {
+     "name": "2300 W, white",
+     "sku": "BH0320007",
+     "coverage": "65 sq ft",
+     "weight": "17 lb",
+     "amps": "9.6 A at 240 V; 11.1 A at 208 V"
+    },
+    {
+     "name": "3400 W, black",
+     "sku": "BH0320005",
+     "coverage": "108 sq ft",
+     "weight": "22 lb",
+     "amps": "14.2 A at 240 V; 16.3 A at 208 V"
+    },
+    {
+     "name": "3400 W, white",
+     "sku": "BH0320008",
+     "coverage": "108 sq ft",
+     "weight": "22 lb",
+     "amps": "14.2 A at 240 V; 16.3 A at 208 V"
+    },
+    {
+     "name": "4500 W, black",
+     "sku": "BH3622000",
+     "coverage": "143 sq ft",
+     "weight": "33 lb",
+     "amps": "18.8 A at 240 V; 21.6 A at 208 V"
+    },
+    {
+     "name": "4500 W, white",
+     "sku": "BH3622001",
+     "coverage": "143 sq ft",
+     "weight": "33 lb",
+     "amps": "18.8 A at 240 V; 21.6 A at 208 V"
+    }
+   ],
+   "titles": {
+    "short": "Bromic Platinum Smart-Heat Electric Infrared Patio Heater",
+    "medium": "Bromic Platinum Smart-Heat Electric Outdoor Infrared Heater, Glass-Ceramic Face, 2300, 3400 or 4500 W, Black or White",
+    "long": "Bromic Platinum Smart-Heat Electric Outdoor Infrared Patio Heater, Tinted Glass-Ceramic Face, 2.1 In Slim, 2300, 3400 or 4500 W, 208 or 240 V, Black or White, Wall, Ceiling, Pole or Recessed"
+   },
+   "bullets": [
+    "Heat You Can Feel, Not See – a tinted glass-ceramic face spreads warmth evenly and keeps visible light to a minimum, so the evening keeps the light you chose for it.",
+    "Slim By Design – just 2.1 in deep, in a 304 stainless steel body behind glass, Platinum reads as part of the architecture in black or white.",
+    "Flush In A 7.1 In Ceiling – the low-clearance recess kit, sold separately, sets Platinum flush in a 7.1 in cavity with the recess box supplied and a cooling fan built in.",
+    "Three Sizes – 2300, 3400 and 4500 W warm up to 65, 108 and 143 sq ft each on 208 V or 220–240 V; the 4500 W model has two elements for staged heat.",
+    "Warmth Dialed To The Evening – pair it with the Affinity Smart-Heat® Dimmer, sold separately, to set the warmth in 1% steps by zone and on a schedule in the Bromic app."
+   ],
+   "description": "Platinum Smart-Heat® Electric is the heater for the most considered outdoor rooms. Behind a tinted glass-ceramic face, medium wave infrared warms people and surfaces evenly, keeps visible light to a minimum and reaches full warmth in about 30 seconds. The body is just 2.1 in deep, in 304 stainless steel, finished in black or white to sit quietly against a timber, plaster or painted ceiling.\n\nChoose 2300, 3400 or 4500 W for heat areas of up to 65, 108 and 143 sq ft, on 208 V or 220–240 V. Mount it on a wall or ceiling, on the 8 in stainless pole included in the box, on a longer pole, or recess it: the standard recess kit, or the low-clearance kit that sets the heater flush in a ceiling cavity as shallow as 7.1 in, with the recess box supplied and a cooling fan built in.\n\nEvery Platinum heater is paired with Affinity Smart-Heat® Controls, sold separately: the Dimmer sets the warmth in 1% steps, with zones, schedules and timers in the Bromic app, and Alexa, Google Assistant, Control4, Crestron or Lutron where compatible. Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately. Installation by a licensed electrician to local code. Intertek ETL and cETL listed, with a 3-year warranty.",
+   "specs": [
+    [
+     "Brand",
+     "Bromic Heating"
+    ],
+    [
+     "Collection",
+     "Platinum Smart-Heat® Electric"
+    ],
+    [
+     "Heat type",
+     "Medium wave infrared, electric"
+    ],
+    [
+     "Output",
+     "2300, 3400 or 4500 W"
+    ],
+    [
+     "Heat area",
+     "65, 108 or 143 sq ft"
+    ],
+    [
+     "Supply voltage",
+     "208 V or 220–240 V"
+    ],
+    [
+     "Current draw",
+     "2300 W: 9.6 A (240 V), 11.1 A (208 V); 3400 W: 14.2 A, 16.3 A; 4500 W: 18.8 A, 21.6 A"
+    ],
+    [
+     "Elements",
+     "4500 W: two elements (1.5 kW and 3 kW)"
+    ],
+    [
+     "Warm-up",
+     "About 30 seconds"
+    ],
+    [
+     "Face",
+     "Tinted glass-ceramic"
+    ],
+    [
+     "Body",
+     "304 stainless steel"
+    ],
+    [
+     "Finish",
+     "Black or white"
+    ],
+    [
+     "Depth",
+     "2.1 in (54 mm)"
+    ],
+    [
+     "Length",
+     "2300 W: 33.1 in (840 mm); 3400 W: 50.2 in (1275 mm); 4500 W: 53.2 in (1351 mm)"
+    ],
+    [
+     "Weight",
+     "17, 22 or 33 lb"
+    ],
+    [
+     "Minimum mounting height",
+     "Wall 72 in; ceiling 96 in"
+    ],
+    [
+     "Mounting",
+     "Wall, ceiling, pole or recessed"
+    ],
+    [
+     "Certification",
+     "Intertek ETL / cETL 5001799"
+    ],
+    [
+     "Warranty",
+     "3 years"
+    ]
+   ],
+   "in_the_box": [
+    "Platinum Smart-Heat® Electric heater",
+    "8 in stainless steel pole",
+    "Wall bracket"
+   ],
+   "required_separately": [
+    "Affinity Smart-Heat® Dimmer Controller (recommended) or On/Off Controller – required to run the heater",
+    "Manual wall switch",
+    "Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately",
+    "Installation by a licensed electrician to local code"
+   ],
+   "optional_accessories": [
+    "Standard recess kit",
+    "Low-clearance recess kit (7.1 in cavity, recess box supplied, cooling fan)",
+    "2 ft and 4 ft poles",
+    "Affinity expansion board for building management systems"
+   ],
+   "keywords": [
+    "glass patio heater",
+    "recessed outdoor heater",
+    "flush mount patio heater",
+    "infrared heater for porch",
+    "low glare outdoor heater",
+    "slim electric patio heater",
+    "ceiling patio heater",
+    "white patio heater",
+    "black patio heater",
+    "dimmable infrared heater",
+    "outdoor room heater"
+   ],
+   "images": {
+    "main": "images/main/platinum-electric-black-main.jpg",
+    "alternates_white": [
+     "images/main/platinum-electric-white.jpg"
+    ],
+    "plan": [
+     {
+      "slot": "Lifestyle",
+      "library_id": "w-bromic-platinum-electric",
+      "brief": "Platinum recessed in a timber-batten ceiling over an ocean-view dining table"
+     },
+     {
+      "slot": "Detail",
+      "library_id": "w-black-platinum-electric-close-up",
+      "brief": "Glass-ceramic face with the Bromic logo, close"
+     },
+     {
+      "slot": "Controls",
+      "library_id": "w-affinity-dimmer-1ch-2",
+      "brief": "Affinity Dimmer with the Bromic app; caption: controls sold separately"
+     },
+     {
+      "slot": "Mounting",
+      "library_id": "w-lcrecesskit",
+      "brief": "Low-clearance recess kit: 7.1 in cavity, recess box supplied (kit sold separately)"
+     },
+     {
+      "slot": "Infographic",
+      "library_id": null,
+      "brief": "Three sizes side by side: 2300/3400/4500 W, 65/108/143 sq ft, 2.1 in deep; no prices"
+     }
+    ]
+   },
+   "enhanced": {
+    "banner": {
+     "headline": "Heat You Can Feel, Not See.",
+     "sub": "Platinum Smart-Heat® Electric – a tinted glass-ceramic face in a body just 2.1 in deep.",
+     "library_id": "w-bromic-platinum-electric"
+    },
+    "features": [
+     {
+      "h": "2.1 In Deep",
+      "body": "Glass and stainless steel that read as part of the architecture."
+     },
+     {
+      "h": "Flush In 7.1 In",
+      "body": "Low-clearance recess kit with the box supplied and a cooling fan, sold separately."
+     },
+     {
+      "h": "Set To 1%",
+      "body": "The Affinity Smart-Heat® Dimmer, sold separately, sets the warmth by zone and schedule."
+     }
+    ]
+   },
+   "verify": [
+    "[[VERIFY: SKUs against the 2026 cut sheets (read from bromic.com) – Product team]]",
+    "[[VERIFY: IP rating of the standard heater (IPX4 vs IP54 across manuals and cut sheet) – Product team]]",
+    "[[VERIFY: wall bracket angle (30° vs 28°) – Product team]]",
+    "[[VERIFY: a current standard cut sheet (bromic.com links the Marine sheet) – Product team]]",
+    "[[VERIFY: low-clearance kit UL listing number – Product team]]",
+    "[[VERIFY: lengths by output from the tiers notes, in inches – Product team]]"
+   ],
+   "gaps": [
+    "IP rating (conflict)",
+    "Wall bracket angle (conflict)",
+    "Recess kit SKUs"
+   ],
+   "sources": [
+    "data/product-facts.json: platinum-electric (site.models), principles.wavelength-by-product, principles.codes-electric",
+    "data/retail/retail.json: platinum-electric, ordering",
+    "data/product-marketing/platinum-electric.json: tiers, upgrades, pillars, spec_verify",
+    "data/portfolio.json: platinum-electric"
+   ],
+   "checks": {
+    "title_short_chars": 57,
+    "title_medium_chars": 117,
+    "title_long_chars": 190,
+    "bullet_chars": [
+     165,
+     140,
+     170,
+     147,
+     168
+    ],
+    "description_words": 212
+   }
+  },
+  {
+   "id": "platinum-electric-marine",
+   "collection": "PLATINUM",
+   "product_name": "Platinum Smart-Heat® Electric Marine",
+   "fuel": "Electric",
+   "availability": "Current",
+   "level": "series",
+   "variants": [
+    {
+     "name": "2300 W",
+     "sku": null,
+     "coverage": "65 sq ft",
+     "weight": "17 lb"
+    },
+    {
+     "name": "3400 W",
+     "sku": null,
+     "coverage": "108 sq ft",
+     "weight": "22 lb"
+    },
+    {
+     "name": "4500 W",
+     "sku": null,
+     "coverage": "143 sq ft",
+     "weight": "33 lb"
+    }
+   ],
+   "titles": {
+    "short": "Bromic Platinum Smart-Heat Electric Marine Patio Heater",
+    "medium": "Bromic Platinum Smart-Heat Electric Marine Outdoor Infrared Heater, 316 Stainless Steel, IPX5, 2300 to 4500 W",
+    "long": "Bromic Platinum Smart-Heat Electric Marine Outdoor Infrared Patio Heater, AISI 316 Marine-Grade Stainless Steel, IPX5, Glass-Ceramic Face, 2300, 3400 or 4500 W, Black or White, for Coastal Homes"
+   },
+   "bullets": [
+    "Built For Life By The Water – an AISI 316 marine-grade stainless steel body behind a tinted glass-ceramic face, rated IPX5, for coastal homes and venues.",
+    "Heat You Can Feel, Not See – the glass-ceramic face spreads warmth evenly and keeps visible light to a minimum, so a sunset terrace keeps its light.",
+    "Three Sizes – 2300, 3400 and 4500 W warm up to 65, 108 and 143 sq ft each, on 208 V or 220–240 V.",
+    "Recessed Or Mounted – marine versions of the standard and low-clearance recess kits, in 316 stainless, are sold separately, or mount it on a wall or ceiling.",
+    "Warmth Dialed To The Evening – pair it with the Affinity Smart-Heat® Dimmer or On/Off Controller, sold separately, for zones and schedules in the Bromic app."
+   ],
+   "description": "Platinum Smart-Heat® Electric Marine brings Platinum's tinted glass-ceramic face to the places salt air reaches. The body is AISI 316 marine-grade stainless steel, rated IPX5, so a seafront terrace, a harbour-side restaurant or a beach house porch keeps its warmth season after season.\n\nMedium wave infrared warms people and surfaces evenly and reaches full warmth in about 30 seconds, while the glass face keeps visible light to a minimum. Choose 2300, 3400 or 4500 W for heat areas of up to 65, 108 and 143 sq ft, on 208 V or 220–240 V, in black or white. Mount it on a wall or ceiling, or recess it with the marine versions of the standard and low-clearance recess kits in 316 stainless steel, sold separately.\n\nEvery Platinum heater is paired with Affinity Smart-Heat® Controls, sold separately: the Dimmer or On/Off Controller and a manual wall switch, with zones, schedules and timers in the Bromic app. Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately. Platinum Electric Marine carries Lloyd's Register approval for marine applications and a 5-year warranty on land-based installations. Installation by a licensed electrician to local code.",
+   "specs": [
+    [
+     "Brand",
+     "Bromic Heating"
+    ],
+    [
+     "Collection",
+     "Platinum Smart-Heat® Electric Marine"
+    ],
+    [
+     "Heat type",
+     "Medium wave infrared, electric"
+    ],
+    [
+     "Output",
+     "2300, 3400 or 4500 W"
+    ],
+    [
+     "Heat area",
+     "65, 108 or 143 sq ft"
+    ],
+    [
+     "Supply voltage",
+     "208 V or 220–240 V"
+    ],
+    [
+     "Body",
+     "AISI 316 marine-grade stainless steel"
+    ],
+    [
+     "Face",
+     "Tinted glass-ceramic"
+    ],
+    [
+     "Finish",
+     "Black or white"
+    ],
+    [
+     "Water rating",
+     "IPX5"
+    ],
+    [
+     "Weight",
+     "17, 22 or 33 lb"
+    ],
+    [
+     "Minimum mounting height",
+     "Wall 72 in; ceiling 96 in"
+    ],
+    [
+     "Approval",
+     "Lloyd's Register approval for marine applications"
+    ],
+    [
+     "Warranty",
+     "5 years, land-based installations"
+    ]
+   ],
+   "in_the_box": [
+    "Platinum Smart-Heat® Electric Marine heater"
+   ],
+   "required_separately": [
+    "Affinity Smart-Heat® Dimmer Controller (recommended) or On/Off Controller – required to run the heater",
+    "Manual wall switch",
+    "Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately",
+    "Installation by a licensed electrician to local code"
+   ],
+   "optional_accessories": [
+    "Marine standard recess kit (316 stainless)",
+    "Marine low-clearance recess kit (316 stainless)"
+   ],
+   "keywords": [
+    "marine grade patio heater",
+    "316 stainless outdoor heater",
+    "coastal patio heater",
+    "beach house heater",
+    "salt air outdoor heater",
+    "waterfront terrace heater",
+    "IPX5 outdoor heater",
+    "recessed marine heater"
+   ],
+   "images": {
+    "main": null,
+    "alternates_white": [],
+    "plan": [
+     {
+      "slot": "Main",
+      "library_id": null,
+      "brief": "Marine heater on pure white – none in the library; request from Marketing. Do not substitute the standard Platinum cutout"
+     },
+     {
+      "slot": "Lifestyle",
+      "library_id": "w-platinum-electric-marine-in-white",
+      "brief": "White Platinum Electric Marine over a coastal deck (land-based)"
+     },
+     {
+      "slot": "Detail",
+      "library_id": "w-black-platinum-electric-close-up",
+      "brief": "Glass-ceramic face, close (shared with Platinum Electric; confirm it shows the Marine body)"
+     },
+     {
+      "slot": "Controls",
+      "library_id": "w-affinity-dimmer-1ch-2",
+      "brief": "Affinity Dimmer with the app; caption: controls sold separately"
+     },
+     {
+      "slot": "Mounting",
+      "library_id": "w-platinumelectriclcrecesskitvents",
+      "brief": "Recess kit vents (marine kit image to request)"
+     },
+     {
+      "slot": "Infographic",
+      "library_id": null,
+      "brief": "316 stainless, IPX5, three sizes, Lloyd's Register approval; no vessel imagery until on-vessel use is confirmed"
+     }
+    ]
+   },
+   "enhanced": {
+    "banner": {
+     "headline": "Built For Life By The Water.",
+     "sub": "Platinum Smart-Heat® Electric Marine in AISI 316 stainless steel, rated IPX5.",
+     "library_id": "w-platinum-electric-marine-in-white"
+    },
+    "features": [
+     {
+      "h": "316 Stainless",
+      "body": "A marine-grade body for coastal homes and venues."
+     },
+     {
+      "h": "IPX5",
+      "body": "Rated for the spray and weather of a seafront terrace."
+     },
+     {
+      "h": "Up To 143 Sq Ft",
+      "body": "2300, 3400 and 4500 W on 208 V or 220–240 V."
+     }
+    ]
+   },
+   "verify": [
+    "[[VERIFY: Marine SKU list by output and finish – Product team]]",
+    "[[VERIFY: on-vessel use – bromic.com shows yachts and gives a 3-year on-vessel warranty, the manuals say the marine heater shall NOT be installed on marine craft; listing copy is land-based only until resolved – Product team]]",
+    "[[VERIFY: IP rating (IPX5 in product-facts; the 4500 W manual says IP55) – Product team]]",
+    "[[VERIFY: certification (ETL/cETL listing for Marine) and box contents – Product team]]",
+    "[[VERIFY: a Marine white-ground product image – Marketing]]",
+    "[[VERIFY: FAQ says 314 stainless; the page says 316 – Product team]]"
+   ],
+   "gaps": [
+    "SKUs",
+    "Main white-ground image",
+    "ETL/cETL listing",
+    "Box contents",
+    "On-vessel use"
+   ],
+   "sources": [
+    "data/product-facts.json: platinum-electric-marine",
+    "data/retail/retail.json: platinum-electric",
+    "data/product-marketing/platinum-electric.json: tiers (marine, lcrk), pillars"
+   ],
+   "checks": {
+    "title_short_chars": 55,
+    "title_medium_chars": 109,
+    "title_long_chars": 194,
+    "bullet_chars": [
+     153,
+     148,
+     97,
+     157,
+     157
+    ],
+    "description_words": 190
+   }
+  },
+  {
+   "id": "eclipse-electric",
+   "collection": "ECLIPSE",
+   "product_name": "Eclipse Smart-Heat® Electric",
+   "fuel": "Electric",
+   "availability": "Current",
+   "level": "model",
+   "variants": [
+    {
+     "name": "208 V",
+     "sku": "BH0920003"
+    },
+    {
+     "name": "220–240 V",
+     "sku": "BH0920001-2"
+    }
+   ],
+   "titles": {
+    "short": "Bromic Eclipse Smart-Heat Electric Pendant Patio Heater",
+    "medium": "Bromic Eclipse Smart-Heat Electric Pendant Patio Heater with Dimmable LED Light, 2900 W, 121 Sq Ft, Matte Black",
+    "long": "Bromic Eclipse Smart-Heat Electric Outdoor Pendant Patio Heater with Dimmable 3000K LED Ring, 2900 W, 3 Heat Settings, 121 Sq Ft, 208 or 240 V, IP54, Matte Black, 24 In Twin Pole"
+   },
+   "bullets": [
+    "Warmth And Light In One – radiant heat and a warm, dimmable 3000K LED ring in one fixture keep the table warm and softly lit from sunset to the last glass.",
+    "Three Settings For Every Evening – two elements give 33%, 66% and 100% of 2,900 W, from a mild spring evening to a cold night, over up to 121 sq ft a heater.",
+    "Designed To Be Seen – a 27.6 in matte black disc with a radial ceramic screen and a halo of light, made to hang over a dining table or lounge.",
+    "The Right Height Under Any Ceiling – a 24 in twin pole is included; 8, 24 and 48 in straight poles, a curved pole and a wall-mount pole are sold separately.",
+    "Set The Scene From Your Phone – with the Affinity Smart-Heat® Eclipse Controller, sold separately, the Bromic app dims heat and light and runs schedules and zones."
+   ],
+   "description": "Eclipse Smart-Heat® Electric is the heater you choose to show. A 27.6 in matte black disc with a radial ceramic screen and a dimmable 3000K LED ring, it pairs radiant warmth with soft light in one fixture, so a dining terrace stays warm and gently lit from the first course to the last glass.\n\nTwo elements give three heat settings – 33%, 66% and 100% of 2,900 W – over up to 121 sq ft a heater, so you set the warmth to the evening. The head is rated IP54 and hangs from the 24 in twin pole included in the box, or from 8, 24 and 48 in straight poles, a curved pole or a wall-mount pole, sold separately. Mount the head at least 8 ft above the floor. Choose the 208 V or the 220–240 V model; both are hard-wired.\n\nEclipse is paired with its own controls: the Affinity Smart-Heat® Eclipse Controller brings heat and light into the Bromic app with dimming, schedules, zones, Alexa and Google Assistant, or choose the Eclipse Dimmer Controller with its remote. A manual wall switch completes the circuit. Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately. Installation by a licensed electrician to local code. 3-year warranty.",
+   "specs": [
+    [
+     "Brand",
+     "Bromic Heating"
+    ],
+    [
+     "Collection",
+     "Eclipse Smart-Heat® Electric"
+    ],
+    [
+     "Heat type",
+     "Medium wave infrared, electric"
+    ],
+    [
+     "Output",
+     "2,900 W; 33%, 66%, 100%"
+    ],
+    [
+     "Heat area",
+     "Up to 121 sq ft"
+    ],
+    [
+     "Supply voltage",
+     "208 V (BH0920003) or 220–240 V (BH0920001-2), hard-wired"
+    ],
+    [
+     "Current draw",
+     "13.9 A (208 V), 11.4 A (220 V), 11.8 A (230 V), 12.1 A (240 V)"
+    ],
+    [
+     "Light",
+     "Dimmable 3000K LED ring, 497 lm"
+    ],
+    [
+     "Diameter",
+     "27.6 in"
+    ],
+    [
+     "Finish",
+     "Matte black"
+    ],
+    [
+     "Weight",
+     "30 lb"
+    ],
+    [
+     "Water rating",
+     "IP54"
+    ],
+    [
+     "Minimum mounting height",
+     "96 in (head at least 8 ft above the floor)"
+    ],
+    [
+     "Certification",
+     "SGS/NA SGSNA/21/GZ/00074"
+    ],
+    [
+     "Warranty",
+     "3 years"
+    ]
+   ],
+   "in_the_box": [
+    "Eclipse Smart-Heat® Electric heater head",
+    "24 in twin pole"
+   ],
+   "required_separately": [
+    "Affinity Smart-Heat® Eclipse Controller (one Eclipse a channel) or Eclipse Dimmer Controller with remote – required to run the heater",
+    "Manual wall switch",
+    "Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately",
+    "Installation by a licensed electrician to local code"
+   ],
+   "optional_accessories": [
+    "8, 24 or 48 in straight pole",
+    "24 in curved pole",
+    "Wall-mount pole"
+   ],
+   "keywords": [
+    "pendant patio heater",
+    "heater with light",
+    "outdoor heat lamp with LED",
+    "hanging patio heater",
+    "restaurant patio heater",
+    "dining terrace heater",
+    "round outdoor heater",
+    "ceiling hung infrared heater",
+    "dimmable heater light",
+    "pergola pendant heater"
+   ],
+   "images": {
+    "main": "images/main/eclipse-electric-main.jpg",
+    "alternates_white": [],
+    "plan": [
+     {
+      "slot": "Lifestyle",
+      "library_id": "l-013-100",
+      "brief": "Eclipse pendants above a long candlelit dining table (Lookbook 2026)"
+     },
+     {
+      "slot": "Detail",
+      "library_id": "w-bromic-eclipse-pendant-light",
+      "brief": "Glowing element inside the LED ring, close"
+     },
+     {
+      "slot": "Controls",
+      "library_id": "w-render-1",
+      "brief": "The Bromic app on a phone; caption: Affinity Eclipse Controller sold separately"
+     },
+     {
+      "slot": "Mounting",
+      "library_id": "w-eclipse-straight-mount-1",
+      "brief": "Pole options: twin (included), straight, curved, wall (sold separately)"
+     },
+     {
+      "slot": "Infographic",
+      "library_id": null,
+      "brief": "33/66/100% heat steps, 121 sq ft, 3000K LED, 8 ft minimum height; no prices"
+     }
+    ]
+   },
+   "enhanced": {
+    "banner": {
+     "headline": "Warmth And Light In One.",
+     "sub": "Eclipse Smart-Heat® Electric – radiant heat and a dimmable 3000K LED ring over the table.",
+     "library_id": "l-013-100"
+    },
+    "features": [
+     {
+      "h": "Three Settings",
+      "body": "33%, 66% and 100% of 2,900 W, over up to 121 sq ft."
+     },
+     {
+      "h": "A Ring Of Light",
+      "body": "Dimmable 3000K LED, warm enough for dinner."
+     },
+     {
+      "h": "From Your Phone",
+      "body": "Heat and light in the Bromic app with the Affinity Eclipse Controller, sold separately."
+     }
+    ]
+   },
+   "verify": [
+    "[[VERIFY: SKUs against the 2026 cut sheets – Product team]]",
+    "[[VERIFY: output 2,900 W (spec table) vs 3,000 W (FAQ) – Product team]]",
+    "[[VERIFY: material (double-coated steel vs 304 stainless) – Product team]]",
+    "[[VERIFY: consumer wording of the manual's advice to mount under cover where possible – Product team]]",
+    "[[VERIFY: pendant wind rating, exposure to rain, light-only operation – Product team]]",
+    "[[VERIFY: whether the US listing is ETL/cETL in addition to the SGS certificate – Product team]]"
+   ],
+   "gaps": [
+    "Material (conflict)",
+    "US listing mark",
+    "Under-cover guidance wording"
+   ],
+   "sources": [
+    "data/product-facts.json: eclipse-electric",
+    "data/retail/retail.json: eclipse, ordering",
+    "data/product-marketing/eclipse.json: tiers, upgrades, pillars, spec_verify",
+    "data/portfolio.json: eclipse-pendant"
+   ],
+   "checks": {
+    "title_short_chars": 55,
+    "title_medium_chars": 111,
+    "title_long_chars": 178,
+    "bullet_chars": [
+     155,
+     157,
+     142,
+     156,
+     163
+    ],
+    "description_words": 207
+   }
+  },
+  {
+   "id": "eclipse-freestanding",
+   "collection": "ECLIPSE",
+   "product_name": "Eclipse Smart-Heat® Freestanding",
+   "fuel": "Electric",
+   "availability": "Current",
+   "level": "series",
+   "variants": [
+    {
+     "name": "220–240 V",
+     "sku": null
+    }
+   ],
+   "titles": {
+    "short": "Bromic Eclipse Smart-Heat Freestanding Electric Patio Heater",
+    "medium": "Bromic Eclipse Smart-Heat Freestanding Electric Patio Heater with LED Light, 2900 W, 121 Sq Ft, Arched Arm, Black",
+    "long": "Bromic Eclipse Smart-Heat Freestanding Electric Outdoor Patio Heater with Dimmable LED Ring, 2900 W, 3 Heat Settings, 121 Sq Ft, 240 V Plug-In, Arched Arm, Weighted Base with Wheels, Black"
+   },
+   "bullets": [
+    "Heat And Light Over Open Seating – an arched arm carries Eclipse's radiant heat and LED ring over a sofa or table where there is no ceiling or wall to mount to.",
+    "Three Settings For Every Evening – two elements give 33%, 66% and 100% of 2,900 W, warming up to 121 sq ft.",
+    "Made For Life Outdoors – a weighted base holds the heater in winds up to 20 mph, and two wheels let you move it to wherever tonight's seating is.",
+    "Controls In The Box – the Eclipse Dimmer Controller and its remote are included, so the warmth is set from your seat.",
+    "Plugs In – a 15 ft cable runs to a 220–240 V IP54 outdoor outlet; keep 79 in of clearance above the floor."
+   ],
+   "description": "Eclipse Smart-Heat® Freestanding brings the Eclipse disc to the places a ceiling cannot reach: the lounge by the pool, the sofa on the lawn, the table on an open rooftop. A sweeping arched arm on a weighted base holds the matte black head over your seating, with radiant warmth and a dimmable LED ring together, so the evening stays warm and softly lit.\n\nTwo elements give three heat settings – 33%, 66% and 100% of 2,900 W – over up to 121 sq ft. The weighted base holds the heater in winds up to 20 mph, and two wheels let you move it when the seating moves; above 20 mph, fix the base. Allow at least 79 in of clearance from the floor.\n\nThe Eclipse Dimmer Controller and remote are included, so you can set the heat from your seat. The heater runs on 220–240 V through a 15 ft cable and plug, which needs an IP54 outdoor outlet; have the outlet installed by a licensed electrician to local code. Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately. 3-year warranty.",
+   "specs": [
+    [
+     "Brand",
+     "Bromic Heating"
+    ],
+    [
+     "Collection",
+     "Eclipse Smart-Heat® Freestanding"
+    ],
+    [
+     "Heat type",
+     "Medium wave infrared, electric"
+    ],
+    [
+     "Output",
+     "2,900 W; 33%, 66%, 100%"
+    ],
+    [
+     "Heat area",
+     "Up to 121 sq ft"
+    ],
+    [
+     "Supply",
+     "220–240 V, 15 ft cable and plug to an IP54 outdoor outlet"
+    ],
+    [
+     "Current draw",
+     "11.4 A (220 V), 11.8 A (230 V), 12.1 A (240 V)"
+    ],
+    [
+     "Light",
+     "Dimmable LED ring"
+    ],
+    [
+     "Finish",
+     "Matte black"
+    ],
+    [
+     "Base",
+     "Weighted, with two wheels"
+    ],
+    [
+     "Wind",
+     "Base holds in winds up to 20 mph"
+    ],
+    [
+     "Minimum clearance",
+     "79 in from the floor"
+    ],
+    [
+     "Certification",
+     "SGS/NA SGSNA/21/GZ/00074"
+    ],
+    [
+     "Warranty",
+     "3 years"
+    ]
+   ],
+   "in_the_box": [
+    "Eclipse Smart-Heat® Freestanding heater (head, arched arm, weighted base)",
+    "Eclipse Dimmer Controller",
+    "Remote"
+   ],
+   "required_separately": [
+    "220–240 V IP54 outdoor outlet – installation by a licensed electrician to local code",
+    "Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately"
+   ],
+   "optional_accessories": [],
+   "keywords": [
+    "freestanding patio heater electric",
+    "arc patio heater",
+    "patio heater with light",
+    "pool deck heater",
+    "electric heater no gas",
+    "rooftop heater",
+    "lounge heater",
+    "outdoor floor heater",
+    "240 V patio heater"
+   ],
+   "images": {
+    "main": "images/main/eclipse-freestanding-main.jpg",
+    "alternates_white": [],
+    "plan": [
+     {
+      "slot": "Lifestyle",
+      "library_id": "l-016-134",
+      "brief": "Eclipse Freestanding on a lakeside deck (Lookbook 2026)"
+     },
+     {
+      "slot": "Detail",
+      "library_id": "w-bromic-eclipse-portable-hotel-skansen-04",
+      "brief": "Disc with LED ring lit, close"
+     },
+     {
+      "slot": "Controls",
+      "library_id": null,
+      "brief": "Eclipse Dimmer Controller and remote (included) – image to request from Marketing"
+     },
+     {
+      "slot": "Placement",
+      "library_id": "d-eclipse-freestanding-courtyard",
+      "brief": "Arching over courtyard tables; show 79 in clearance"
+     },
+     {
+      "slot": "Infographic",
+      "library_id": null,
+      "brief": "121 sq ft, three settings, 20 mph base, 15 ft cable to an IP54 outlet; no prices"
+     }
+    ]
+   },
+   "enhanced": {
+    "banner": {
+     "headline": "Heat Over Open Seating.",
+     "sub": "Eclipse Smart-Heat® Freestanding – an arched arm, a ring of light and three heat settings.",
+     "library_id": "l-016-134"
+    },
+    "features": [
+     {
+      "h": "No Ceiling Needed",
+      "body": "An arched arm over the sofa, on a weighted base."
+     },
+     {
+      "h": "Moves With You",
+      "body": "Two wheels, and a base that holds in winds up to 20 mph."
+     },
+     {
+      "h": "Remote Included",
+      "body": "The Eclipse Dimmer Controller and remote come in the box."
+     }
+    ]
+   },
+   "verify": [
+    "[[VERIFY: SKU list – Product team]]",
+    "[[VERIFY: weight (bromic.com lists 383 lb; framework gives head 30, arm 33, base 320 lb) – Product team]]",
+    "[[VERIFY: LED output (216.6 lm vs 497 lm on Eclipse Electric) – Product team]]",
+    "[[VERIFY: app control for Eclipse Freestanding (dealer evidence only) – Product team]]",
+    "[[VERIFY: US listing mark and whether a 120 V or 208 V model exists for the US – Product team]]",
+    "[[VERIFY: a clean white-ground original (main image here is cut from a grey-ground product shot) – Marketing]]"
+   ],
+   "gaps": [
+    "SKU",
+    "Weight",
+    "Lumens",
+    "Dimensions",
+    "App control",
+    "US listing mark"
+   ],
+   "sources": [
+    "data/product-facts.json: eclipse-freestanding",
+    "data/retail/retail.json: eclipse, controls",
+    "data/product-marketing/eclipse.json: tiers (freestanding), pillars, spec_verify",
+    "data/portfolio.json: eclipse-freestanding"
+   ],
+   "checks": {
+    "title_short_chars": 60,
+    "title_medium_chars": 113,
+    "title_long_chars": 188,
+    "bullet_chars": [
+     160,
+     107,
+     145,
+     117,
+     106
+    ],
+    "description_words": 183
+   }
+  },
+  {
+   "id": "platinum-gas",
+   "collection": "PLATINUM",
+   "product_name": "Platinum Smart-Heat® Gas",
+   "fuel": "Gas",
+   "availability": "Current (confirm, see verify)",
+   "level": "model",
+   "variants": [
+    {
+     "name": "23,600 BTU, natural gas",
+     "sku": "BH0110001-1",
+     "coverage": "160 sq ft",
+     "weight": "33 lb",
+     "length": "22.1 in"
+    },
+    {
+     "name": "23,600 BTU, propane",
+     "sku": "BH0110002-1",
+     "coverage": "160 sq ft",
+     "weight": "33 lb",
+     "length": "22.1 in"
+    },
+    {
+     "name": "39,800 BTU, natural gas",
+     "sku": "BH0110003-1",
+     "coverage": "215 sq ft",
+     "weight": "44 lb",
+     "length": "29.8 in"
+    },
+    {
+     "name": "39,800 BTU, propane",
+     "sku": "BH0110004-1",
+     "coverage": "215 sq ft",
+     "weight": "44 lb",
+     "length": "29.8 in"
+    }
+   ],
+   "titles": {
+    "short": "Bromic Platinum Smart-Heat Gas Patio Heater, Wall or Ceiling",
+    "medium": "Bromic Platinum Smart-Heat Gas Mounted Patio Heater, 23,600 or 39,800 BTU, Natural Gas or Propane, Black or Stainless",
+    "long": "Bromic Platinum Smart-Heat Gas Outdoor Mounted Patio Heater, Ceramic-Glass Screen, 23,600 or 39,800 BTU, 160 or 215 Sq Ft, Natural Gas or Propane, Black or Stainless, Wall or Ceiling Mount"
+   },
+   "bullets": [
+    "Up To 39,800 BTU Of Radiant Warmth – two sizes, 23,600 and 39,800 BTU, warm heat areas of up to 160 and 215 sq ft from a ceramic-tile burner.",
+    "Designed To Be Seen – a signature ceramic-glass screen in a black or stainless body makes the heater part of the design, from a rooftop bar to a courtyard.",
+    "Natural Gas Or Propane, The Same Warmth – factory-built natural gas and propane models carry the same rated input, so the fuel follows the site.",
+    "Engineered For Peace Of Mind – electronic spark ignition watches the flame and locks out if it fails, on an ETL and cETL listed heater mounted at least 8 ft up.",
+    "One Switch For The Whole Terrace – the Affinity Smart-Heat® On/Off Controller, sold separately, switches up to 10 gas heaters a channel by zone."
+   ],
+   "description": "Platinum Smart-Heat® Gas brings radiant gas warmth to covered terraces, pergolas and courtyards where the heater is part of the design. A signature ceramic-glass screen, with a reflector behind it, sits over a ceramic-tile burner in a black or stainless body, so a hotel rooftop or a timber-lined courtyard stays warm long after the sun goes down.\n\nChoose 23,600 BTU for heat areas of up to 160 sq ft, or 39,800 BTU for up to 215 sq ft, on natural gas or propane: both models carry the same rated input on either fuel. Electronic spark ignition with flame monitoring locks out if the flame fails. Mount it on the wall with the bracket in the box, or two heaters back to back on a ceiling pole with gas and power run inside, angled at 0°, 10° or 20° to the seating, at least 8 ft above the floor. A heat deflector is available where the space above is tight.\n\nPlatinum Gas is paired with Affinity Smart-Heat® Controls: the On/Off Controller switches up to 10 gas heaters a channel, and a manual wall switch completes the circuit; the expansion board links the terrace to a building management system. Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately. The heater needs a 110 V outlet for ignition. Installation by a licensed gas fitter and a licensed electrician to local code. 2-year warranty, excluding hoses and igniters.",
+   "specs": [
+    [
+     "Brand",
+     "Bromic Heating"
+    ],
+    [
+     "Collection",
+     "Platinum Smart-Heat® Gas"
+    ],
+    [
+     "Heat type",
+     "Radiant gas, ceramic-tile burner behind a ceramic-glass screen"
+    ],
+    [
+     "Input",
+     "23,600 or 39,800 BTU"
+    ],
+    [
+     "Heat area",
+     "160 or 215 sq ft"
+    ],
+    [
+     "Fuel",
+     "Natural gas or propane (factory-built models)"
+    ],
+    [
+     "Electrical",
+     "110 V, under 2 A; 36 in cord with grounded three-prong plug"
+    ],
+    [
+     "Ignition",
+     "Electronic spark ignition with flame monitoring and safety lockout"
+    ],
+    [
+     "Finish",
+     "Black or stainless"
+    ],
+    [
+     "Length",
+     "22.1 in (23,600 BTU) or 29.8 in (39,800 BTU)"
+    ],
+    [
+     "Weight",
+     "33 or 44 lb"
+    ],
+    [
+     "Minimum mounting height",
+     "96 in"
+    ],
+    [
+     "Tilt",
+     "0°, 10° or 20°"
+    ],
+    [
+     "Wind",
+     "Designed to function in winds up to 10 mph"
+    ],
+    [
+     "Water rating",
+     "IPX4"
+    ],
+    [
+     "Certification",
+     "ETL / cETL 4009079"
+    ],
+    [
+     "Warranty",
+     "2 years, excluding hoses and igniters"
+    ]
+   ],
+   "in_the_box": [
+    "Platinum Smart-Heat® Gas heater",
+    "Wall bracket",
+    "Factory-fitted manual isolating valve",
+    "CSA-approved flexible gas connector"
+   ],
+   "required_separately": [
+    "Affinity Smart-Heat® On/Off Controller (up to 10 gas heaters a channel) – required to switch the heater",
+    "Manual wall switch",
+    "110 V outlet for ignition and controls",
+    "Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately",
+    "Installation by a licensed gas fitter to local code",
+    "Installation by a licensed electrician to local code"
+   ],
+   "optional_accessories": [
+    "Ceiling mounting pole (two heaters back to back)",
+    "Heat deflector",
+    "Affinity expansion board for building management systems"
+   ],
+   "keywords": [
+    "gas patio heater wall mount",
+    "natural gas patio heater",
+    "propane wall heater outdoor",
+    "infrared gas heater",
+    "restaurant terrace heater",
+    "stainless patio heater",
+    "ceiling mount gas heater",
+    "covered patio gas heater"
+   ],
+   "images": {
+    "main": "images/main/platinum-gas-main.jpg",
+    "alternates_white": [],
+    "plan": [
+     {
+      "slot": "Lifestyle",
+      "library_id": "w-bromic-pg-residential-hr",
+      "brief": "Two gas heaters angled from a timber eave over a courtyard dining table"
+     },
+     {
+      "slot": "Detail",
+      "library_id": "w-bromic-centrico-photos-19",
+      "brief": "Stainless Platinum Gas on its bracket under a timber pergola"
+     },
+     {
+      "slot": "Controls",
+      "library_id": "w-affinity-onoff",
+      "brief": "Affinity On/Off Controller with the app; caption: sold separately"
+     },
+     {
+      "slot": "Mounting",
+      "library_id": "w-platinumgas500-2",
+      "brief": "Heater with the heat deflector and ceiling pole"
+     },
+     {
+      "slot": "Infographic",
+      "library_id": null,
+      "brief": "Two sizes, 160 and 215 sq ft, natural gas or propane, 8 ft minimum height; no prices"
+     }
+    ]
+   },
+   "enhanced": {
+    "banner": {
+     "headline": "Designed To Be Seen.",
+     "sub": "Platinum Smart-Heat® Gas – a ceramic-glass screen in black or stainless.",
+     "library_id": "w-bromic-pg-residential-hr"
+    },
+    "features": [
+     {
+      "h": "Up To 215 Sq Ft",
+      "body": "23,600 or 39,800 BTU from a ceramic-tile burner."
+     },
+     {
+      "h": "Either Fuel",
+      "body": "Natural gas or propane at the same rated input."
+     },
+     {
+      "h": "One Switch",
+      "body": "Up to 10 heaters a channel on the Affinity On/Off Controller, sold separately."
+     }
+    ]
+   },
+   "verify": [
+    "[[VERIFY: Platinum Gas is not in the Lookbook 2026; confirm it is current in every region – Product team]]",
+    "[[VERIFY: SKUs against the 2026 cut sheets; finish (black or stainless) is not in the published SKUs – Product team]]",
+    "[[VERIFY: one wind figure – 10 mph (manual), 12 mph (cut sheet), 20 km/h (page) – Product team]]",
+    "[[VERIFY: whether the Affinity On/Off Controller gives gas heaters app, schedules and voice – Product team]]",
+    "[[VERIFY: stainless grade of the body; commercial warranty term – Product team]]"
+   ],
+   "gaps": [
+    "SKUs by finish",
+    "Stainless grade",
+    "Wind rating (conflict)",
+    "Current status in Lookbook 2026"
+   ],
+   "sources": [
+    "data/product-facts.json: platinum-gas (site.models), principles.codes-gas",
+    "data/retail/retail.json: gas, ordering, controls",
+    "data/product-marketing/platinum-gas.json: tiers, upgrades, pillars, wind_note, warranty_note, launch.status_note",
+    "data/portfolio.json: platinum-gas"
+   ],
+   "checks": {
+    "title_short_chars": 60,
+    "title_medium_chars": 117,
+    "title_long_chars": 188,
+    "bullet_chars": [
+     141,
+     155,
+     144,
+     160,
+     144
+    ],
+    "description_words": 236
+   }
+  },
+  {
+   "id": "tungsten-gas-mounted",
+   "collection": "TUNGSTEN",
+   "product_name": "Tungsten Smart-Heat® Gas (mounted)",
+   "fuel": "Gas",
+   "availability": "Current",
+   "level": "model",
+   "variants": [
+    {
+     "name": "160 sq ft model, natural gas",
+     "sku": "BH0210001-1",
+     "weight": "33 lb",
+     "width": "About 19.3 in"
+    },
+    {
+     "name": "160 sq ft model, propane",
+     "sku": "BH0210002-1",
+     "weight": "33 lb",
+     "width": "About 19.3 in"
+    },
+    {
+     "name": "215 sq ft model, natural gas",
+     "sku": "BH0210003-1",
+     "weight": "44 lb",
+     "width": "About 25.4 in"
+    },
+    {
+     "name": "215 sq ft model, propane",
+     "sku": "BH0210004-1",
+     "weight": "44 lb",
+     "width": "About 25.4 in"
+    }
+   ],
+   "titles": {
+    "short": "Bromic Tungsten Smart-Heat Gas Patio Heater, Wall or Ceiling",
+    "medium": "Bromic Tungsten Smart-Heat Gas Patio Heater, Up to 215 Sq Ft, Natural Gas or Propane, Matte Black, Wall or Ceiling",
+    "long": "Bromic Tungsten Smart-Heat Gas Outdoor Mounted Patio Heater, Compact Honeycomb Face, 160 or 215 Sq Ft, Natural Gas or Propane, Matte Black, Wall or Ceiling Mount with Pivot Arm, for Covered Patios"
+   },
+   "bullets": [
+    "Compact Heat For Covered Spaces – on the wall, under the beam or on a drop pole, a compact honeycomb face warms up to 160 or 215 sq ft and stays out of the way.",
+    "Natural Gas Or Propane – run it from the line you already have, or from propane where there is none, with one model for each gas.",
+    "Aimed At The Table – the pivot arm turns ±25°, and ceiling poles from 9.69 to 41.18 in set the heater at its 8 ft sweet spot under taller roofs.",
+    "Fits The Room You Have – a heat deflector, sold separately, brings the clearance above the heater down from 3 ft to 14 in.",
+    "Safety Built In – flame-monitored electronic ignition on an Intertek listed heater, switched on and off with Affinity Smart-Heat® Controls, sold separately."
+   ],
+   "description": "Tungsten Smart-Heat® Gas is Bromic's compact mounted gas heater for covered patios, bars and outdoor kitchens with a gas line. A matte black body with a honeycomb mesh face over ceramic burners sits neatly on a wall, under a beam or on a drop pole, and warms the seating below without taking over the room.\n\nChoose the smaller model for heat areas of up to 160 sq ft, or the larger for up to 215 sq ft, each built for natural gas or for propane. The pivot arm turns ±25° to aim the warmth at the table, and ceiling poles in six lengths, from 9.69 to 41.18 in, set the heater at its 8 ft sweet spot under taller roofs. Where the space above is tight, a heat deflector brings the clearance from 3 ft down to 14 in. Mount it at least 8 ft above the floor. Flame-monitored electronic ignition looks after every start.\n\nTungsten Gas is paired with Affinity Smart-Heat® Controls: the On/Off Controller and a manual wall switch turn the heaters on and off by zone. Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately. The heater also needs 110 V for ignition and controls. Installation by a licensed gas fitter and a licensed electrician to local code. 2-year warranty, excluding hoses and igniters.",
+   "specs": [
+    [
+     "Brand",
+     "Bromic Heating"
+    ],
+    [
+     "Collection",
+     "Tungsten Smart-Heat® Gas"
+    ],
+    [
+     "Heat type",
+     "Radiant gas, ceramic burners behind a honeycomb mesh face"
+    ],
+    [
+     "Heat area",
+     "Up to 160 or 215 sq ft, by model"
+    ],
+    [
+     "Fuel",
+     "Natural gas or propane (one model for each gas)"
+    ],
+    [
+     "Electrical",
+     "110 V, under 2 A"
+    ],
+    [
+     "Ignition",
+     "Flame-monitored electronic ignition"
+    ],
+    [
+     "Finish",
+     "Matte black"
+    ],
+    [
+     "Width",
+     "About 19.3 in or 25.4 in, by model"
+    ],
+    [
+     "Weight",
+     "33 or 44 lb"
+    ],
+    [
+     "Minimum mounting height",
+     "96 in; optimum about 8 ft"
+    ],
+    [
+     "Aim",
+     "Pivot arm ±25°"
+    ],
+    [
+     "Certification",
+     "Intertek ETL listing 4009079"
+    ],
+    [
+     "Warranty",
+     "2 years, excluding hoses and igniters"
+    ]
+   ],
+   "in_the_box": [
+    "Tungsten Smart-Heat® Gas heater with pivot arm"
+   ],
+   "required_separately": [
+    "Affinity Smart-Heat® On/Off Controller – required to switch the heater",
+    "Manual wall switch",
+    "110 V supply for ignition and controls",
+    "Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately",
+    "Installation by a licensed gas fitter to local code",
+    "Installation by a licensed electrician to local code"
+   ],
+   "optional_accessories": [
+    "Ceiling poles, 9.69 to 41.18 in (six lengths)",
+    "Heat deflector",
+    "Affinity expansion board for building management systems"
+   ],
+   "keywords": [
+    "mounted gas patio heater",
+    "natural gas patio heater wall",
+    "propane ceiling heater outdoor",
+    "black gas patio heater",
+    "commercial patio heater gas",
+    "bar patio heater",
+    "outdoor kitchen heater",
+    "covered patio heater gas"
+   ],
+   "images": {
+    "main": "images/main/tungsten-gas-main.jpg",
+    "alternates_white": [],
+    "plan": [
+     {
+      "slot": "Lifestyle",
+      "library_id": "w-tungsten-gas-fayetteville-ny-restaurant",
+      "brief": "Covered restaurant patio bar with Tungsten Gas on timber beams"
+     },
+     {
+      "slot": "Detail",
+      "library_id": "w-tungsten-gas-500-fiddler-sydney-1-1",
+      "brief": "Glowing honeycomb face, close"
+     },
+     {
+      "slot": "Controls",
+      "library_id": "w-affinity-onoff",
+      "brief": "Affinity On/Off Controller with the app; caption: sold separately"
+     },
+     {
+      "slot": "Mounting",
+      "library_id": "w-tungsten-deflector-1",
+      "brief": "Heat deflector (sold separately): 3 ft to 14 in clearance"
+     },
+     {
+      "slot": "Infographic",
+      "library_id": null,
+      "brief": "Two sizes, 160 and 215 sq ft, pivot ±25°, pole lengths; no BTU until confirmed; no prices"
+     }
+    ]
+   },
+   "enhanced": {
+    "banner": {
+     "headline": "Compact Heat For Covered Spaces.",
+     "sub": "Tungsten Smart-Heat® Gas – up to 215 sq ft from a matte black honeycomb face.",
+     "library_id": "w-tungsten-gas-fayetteville-ny-restaurant"
+    },
+    "features": [
+     {
+      "h": "Up To 215 Sq Ft",
+      "body": "Two sizes, each on natural gas or propane."
+     },
+     {
+      "h": "Aimed At The Table",
+      "body": "A ±25° pivot arm and six pole lengths."
+     },
+     {
+      "h": "Tight Above?",
+      "body": "A heat deflector, sold separately, brings clearance down to 14 in."
+     }
+    ]
+   },
+   "verify": [
+    "[[VERIFY: built-in BTU by model – bromic.com 26,000 / 43,000 vs Planning Guide 39,800; no BTU in copy until confirmed – Product team]]",
+    "[[VERIFY: SKUs against the 2026 cut sheets – Product team]]",
+    "[[VERIFY: Affinity On/Off compatibility and capacity with Tungsten Gas – Product team]]",
+    "[[VERIFY: whether the wall bracket ships in the box – Product team]]",
+    "[[VERIFY: wind rating – Product team]]"
+   ],
+   "gaps": [
+    "BTU output",
+    "Wall bracket in the box",
+    "Wind rating",
+    "Water rating"
+   ],
+   "sources": [
+    "data/product-facts.json: tungsten-gas-builtin (site.models), principles.codes-gas",
+    "data/retail/retail.json: gas, ordering",
+    "data/product-marketing/tungsten-gas.json: tiers (mounted), upgrades, pillars, spec_verify"
+   ],
+   "checks": {
+    "title_short_chars": 60,
+    "title_medium_chars": 114,
+    "title_long_chars": 196,
+    "bullet_chars": [
+     160,
+     129,
+     144,
+     122,
+     156
+    ],
+    "description_words": 219
+   }
+  },
+  {
+   "id": "tungsten-freestanding-gas",
+   "collection": "TUNGSTEN",
+   "product_name": "Tungsten Smart-Heat® Freestanding Gas",
+   "fuel": "Gas",
+   "availability": "Current",
+   "level": "series",
+   "variants": [
+    {
+     "name": "Propane (20 lb cylinder in the base)",
+     "sku": null
+    },
+    {
+     "name": "Natural gas (10 ft quick-connect line)",
+     "sku": null
+    }
+   ],
+   "titles": {
+    "short": "Bromic Tungsten Smart-Heat Freestanding Gas Patio Heater",
+    "medium": "Bromic Tungsten Smart-Heat Freestanding Gas Patio Heater, 38,000 BTU, 215 Sq Ft, Propane or Natural Gas, Black",
+    "long": "Bromic Tungsten Smart-Heat Freestanding Gas Outdoor Patio Heater, 38,000 BTU, About 215 Sq Ft, Propane or Natural Gas, Tilting Head, Built-In Wheels, 304 Stainless Column, Matte Black"
+   },
+   "bullets": [
+    "Warmth That Goes Where The Table Goes – built-in wheels roll the tower to wherever tonight's seating is, and the tilting head aims radiant warmth at your guests.",
+    "Up To About 215 Sq Ft – 38,000 BTU from a ceramic burner head, for open terraces, sidewalks and pool decks with no wall or roof to mount to.",
+    "Propane Or Natural Gas – a 20 lb propane cylinder sits hidden in the base, or the natural gas model connects with a 10 ft quick-connect line.",
+    "Safety Built In – a flame failure device and an anti-tilt switch, on a curved 304 stainless steel column finished in matte black.",
+    "Set At Its Own Knob – the propane model adjusts from high to low at the heater; there is no wiring and no controller to buy."
+   ],
+   "description": "Tungsten Smart-Heat® Freestanding Gas is warmth that goes where the table goes. A curved 304 stainless steel column in matte black carries a ceramic burner head on a tilting mount, so you can roll the tower to tonight's seating on its built-in wheels and aim the warmth straight at your guests.\n\nAt 38,000 BTU it warms an area of about 215 sq ft, for open terraces, sidewalks, pool decks and lawns with no wall or roof to mount to. Choose propane, with a 20 lb cylinder housed out of sight in the base, or natural gas, which connects to a fixed supply with the 10 ft quick-connect line included. The propane model adjusts from high to low at its own knob; the natural gas model runs on high.\n\nA flame failure device and an anti-tilt switch are built in. The tower is set at the heater and is not on the Bromic app; for app-controlled heat across a terrace, pair mounted Bromic heaters with Affinity Smart-Heat® Controls, sold separately. Natural gas connections by a licensed gas fitter to local code. 1-year warranty on the propane model.",
+   "specs": [
+    [
+     "Brand",
+     "Bromic Heating"
+    ],
+    [
+     "Collection",
+     "Tungsten Smart-Heat® Freestanding"
+    ],
+    [
+     "Heat type",
+     "Radiant gas, ceramic burner head"
+    ],
+    [
+     "Output",
+     "38,000 BTU"
+    ],
+    [
+     "Heat area",
+     "About 215 sq ft"
+    ],
+    [
+     "Fuel",
+     "Propane (20 lb cylinder housed in the base) or natural gas (10 ft quick-connect line)"
+    ],
+    [
+     "Control",
+     "Knob at the heater; propane adjusts high to low, natural gas runs on high"
+    ],
+    [
+     "Column",
+     "Curved 304 stainless steel, matte black"
+    ],
+    [
+     "Head",
+     "Tilting"
+    ],
+    [
+     "Mobility",
+     "Built-in wheels"
+    ],
+    [
+     "Safety",
+     "Flame failure device; anti-tilt switch"
+    ],
+    [
+     "Weight",
+     "124 lb"
+    ],
+    [
+     "Certification",
+     "Intertek 4009079 (propane model)"
+    ],
+    [
+     "Warranty",
+     "1 year (propane model)"
+    ]
+   ],
+   "in_the_box": [
+    "Tungsten Smart-Heat® Freestanding heater",
+    "10 ft quick-connect gas line (natural gas model)"
+   ],
+   "required_separately": [
+    "20 lb propane cylinder (propane model)",
+    "Natural gas connection (natural gas model) – installation by a licensed gas fitter to local code",
+    "Controls: set at the heater's own knob; not on the Bromic app"
+   ],
+   "optional_accessories": [
+    "Tungsten Freestanding cover"
+   ],
+   "keywords": [
+    "freestanding gas patio heater",
+    "propane patio heater tower",
+    "rolling patio heater",
+    "natural gas freestanding heater",
+    "restaurant sidewalk heater",
+    "pool deck heater gas",
+    "commercial outdoor heater",
+    "stainless patio heater tower"
+   ],
+   "images": {
+    "main": "images/main/tungsten-freestanding-gas-main.jpg",
+    "alternates_white": [
+     "images/main/tungsten-freestanding-gas-front.jpg"
+    ],
+    "plan": [
+     {
+      "slot": "Lifestyle",
+      "library_id": "l-019-164",
+      "brief": "Tungsten Freestanding beside a set dining table (Lookbook 2026)"
+     },
+     {
+      "slot": "Detail",
+      "library_id": "w-sydney-residential-tungsten-portable",
+      "brief": "Glowing ceramic burner head, close"
+     },
+     {
+      "slot": "Controls",
+      "library_id": null,
+      "brief": "The heater's own knob, close – image to request; no app imagery for this model"
+     },
+     {
+      "slot": "Placement",
+      "library_id": "w-starbuck-reserve-nyc-greenwich",
+      "brief": "Row of towers along sidewalk tables"
+     },
+     {
+      "slot": "Infographic",
+      "library_id": null,
+      "brief": "About 215 sq ft, wheels, tilting head, propane or natural gas, safety features; no prices"
+     }
+    ]
+   },
+   "enhanced": {
+    "banner": {
+     "headline": "Warmth That Goes Where The Table Goes.",
+     "sub": "Tungsten Smart-Heat® Freestanding Gas – on wheels, with a tilting head.",
+     "library_id": "l-019-164"
+    },
+    "features": [
+     {
+      "h": "About 215 Sq Ft",
+      "body": "38,000 BTU for open terraces and pool decks."
+     },
+     {
+      "h": "Either Fuel",
+      "body": "A propane cylinder in the base, or a 10 ft natural gas line."
+     },
+     {
+      "h": "Safety Built In",
+      "body": "A flame failure device and an anti-tilt switch."
+     }
+    ]
+   },
+   "verify": [
+    "[[VERIFY: output 38,000 BTU (Lookbook 2026) vs 38,500 BTU (bromic.com, cut sheet, US manual) – Product team]]",
+    "[[VERIFY: SKU list for propane and natural gas models – Product team]]",
+    "[[VERIFY: natural gas model warranty and certification (bromic.com shows them in the propane column only) – Product team]]",
+    "[[VERIFY: whether the 20 lb propane cylinder is included – Product team]]",
+    "[[VERIFY: wind rating (8 mph on bromic.com; spec_verify open) – Product team]]",
+    "[[VERIFY: the cover accessory and its SKU – Product team]]"
+   ],
+   "gaps": [
+    "SKUs",
+    "Natural gas warranty and listing",
+    "Propane cylinder included or not",
+    "Dimensions",
+    "Wind rating"
+   ],
+   "sources": [
+    "data/product-facts.json: tungsten-freestanding-gas",
+    "data/retail/retail.json: gas, controls",
+    "data/product-marketing/tungsten-gas.json: tiers (freestanding), pillars",
+    "data/portfolio.json"
+   ],
+   "checks": {
+    "title_short_chars": 56,
+    "title_medium_chars": 110,
+    "title_long_chars": 183,
+    "bullet_chars": [
+     161,
+     140,
+     141,
+     129,
+     124
+    ],
+    "description_words": 186
+   }
+  },
+  {
+   "id": "affinity-controls",
+   "collection": "AFFINITY",
+   "product_name": "Affinity Smart-Heat® Controls",
+   "fuel": "Controls",
+   "availability": "Current",
+   "level": "series",
+   "variants": [
+    {
+     "name": "On/Off Controller, 1, 2 or 5 channels",
+     "sku": null
+    },
+    {
+     "name": "Dimmer Controller, 1, 2 or 5 channels",
+     "sku": null
+    },
+    {
+     "name": "Eclipse Controller, 1 or 5 channels",
+     "sku": null
+    },
+    {
+     "name": "Manual wall switch, single or dual, indoor or outdoor kit",
+     "sku": null
+    },
+    {
+     "name": "Expansion board",
+     "sku": null
+    }
+   ],
+   "titles": {
+    "short": "Bromic Affinity Smart-Heat Controller for Patio Heaters",
+    "medium": "Bromic Affinity Smart-Heat Wi-Fi Controller for Bromic Patio Heaters, Dimmer or On/Off, 1, 2 or 5 Channels, App Control",
+    "long": "Bromic Affinity Smart-Heat Wi-Fi Controller for Bromic Outdoor Heaters, Dimmer, On/Off or Eclipse, 1, 2 or 5 Channels, Bromic App Zones, Schedules and Timers, Works with Alexa and Google Assistant"
+   },
+   "bullets": [
+    "The Warmth Exactly Where You Want It – every Bromic heater is paired with Affinity Smart-Heat® Controls, so you set zones, schedules and timers in the Bromic app.",
+    "Dimmed In 1% Steps – the Dimmer Controller sets Platinum and Tungsten Electric heaters to the evening, up to 6 kW a channel at 208–277 V.",
+    "One Switch For Many Heaters – the On/Off Controller handles up to 6 kW a channel at 208–277 V, or up to 10 gas heaters a channel.",
+    "Heat And Light For Eclipse – the Eclipse Controller runs one Eclipse heater a channel, with heat and the LED ring in the app.",
+    "Fits Your Smart Home – Alexa and Google Assistant, and Control4, Crestron or Lutron where compatible; the expansion board adds Ethernet and 0–10 V for building systems."
+   ],
+   "description": "Every Bromic heater is paired with Affinity Smart-Heat® Controls, so the warmth is always exactly where, and when, you want it. Choose the controller that suits the heater: the Dimmer Controller sets Platinum and Tungsten Electric heaters in 1% steps; the On/Off Controller switches electric heaters or up to 10 gas heaters a channel; and the Eclipse Controller brings Eclipse heat and light together, one heater a channel. Each comes in 1, 2 or 5 channels (Eclipse: 1 or 5), at up to 6 kW a channel on 208–277 V for electric heaters.\n\nOn 2.4 GHz Wi-Fi, the Bromic app groups heaters into zones and runs schedules and timers, with Bluetooth at about 30 ft and optional Ethernet. Ask Alexa or Google Assistant, or link Control4, Crestron or Lutron; compatibility varies by system and may need additional integration hardware or configuration. The expansion board adds Ethernet and 0–10 V for building management and home automation, and is built into the 5-channel units; in BMS mode the app is turned off.\n\nA manual wall switch, rated 20 A at 120–277 V, single or dual, completes every circuit. The On/Off Controller is rated IP54 for -4 to 86°F. Controllers are certified to UL 60730-1 and CAN/CSA E60730-1, with a 1-year warranty. Installation by a licensed electrician to local code.",
+   "specs": [
+    [
+     "Brand",
+     "Bromic Heating"
+    ],
+    [
+     "Collection",
+     "Affinity Smart-Heat® Controls"
+    ],
+    [
+     "Controllers",
+     "On/Off; Dimmer; Eclipse; manual wall switch; expansion board"
+    ],
+    [
+     "Channels",
+     "On/Off and Dimmer: 1, 2 or 5; Eclipse: 1 or 5"
+    ],
+    [
+     "Capacity a channel",
+     "On/Off and Dimmer: 6 kW at 208–277 V; On/Off: up to 10 gas heaters; Eclipse: one Eclipse heater"
+    ],
+    [
+     "Dimming",
+     "1% steps (Dimmer)"
+    ],
+    [
+     "Compatible heaters",
+     "Dimmer: Platinum Electric, Tungsten Electric; Eclipse Controller: Eclipse Electric"
+    ],
+    [
+     "Connectivity",
+     "2.4 GHz Wi-Fi; Bluetooth about 30 ft; optional Ethernet"
+    ],
+    [
+     "App",
+     "Bromic app: zones, schedules, timers"
+    ],
+    [
+     "Integrations",
+     "Amazon Alexa, Google Assistant, Control4, Crestron, Lutron (compatibility varies)"
+    ],
+    [
+     "Wall switch",
+     "20 A, 120–277 V; single or dual; indoor or outdoor kit"
+    ],
+    [
+     "Expansion board",
+     "Ethernet and 0–10 V for BMS; built into 5-channel units"
+    ],
+    [
+     "On/Off enclosure",
+     "IP54; -4 to 86°F operating"
+    ],
+    [
+     "Certification",
+     "UL 60730-1, CAN/CSA E60730-1"
+    ],
+    [
+     "Warranty",
+     "1 year"
+    ]
+   ],
+   "in_the_box": [
+    "Affinity Smart-Heat® controller (as ordered)"
+   ],
+   "required_separately": [
+    "One or more Bromic heaters",
+    "Manual wall switch (each circuit)",
+    "2.4 GHz Wi-Fi network for app features",
+    "Additional integration hardware or configuration for some smart-home systems",
+    "Installation by a licensed electrician to local code"
+   ],
+   "optional_accessories": [
+    "Expansion board (2-channel and 1-channel units)"
+   ],
+   "keywords": [
+    "patio heater controller",
+    "outdoor heater dimmer",
+    "wifi heater controller",
+    "smart patio heater control",
+    "heater app control",
+    "alexa patio heater",
+    "outdoor heater timer",
+    "infrared heater dimmer switch"
+   ],
+   "images": {
+    "main": null,
+    "alternates_white": [
+     "images/main/affinity-wall-switch.jpg",
+     "images/main/affinity-expansion-board.jpg"
+    ],
+    "plan": [
+     {
+      "slot": "Main",
+      "library_id": null,
+      "brief": "Controller alone on pure white – every library cutout shows a hand and phone, which a main image may not; request from Marketing"
+     },
+     {
+      "slot": "Controller with app",
+      "library_id": "w-affinity-dimmer-1ch-2",
+      "brief": "Dimmer with the Bromic app on a phone (secondary image only)"
+     },
+     {
+      "slot": "Lifestyle",
+      "library_id": "w-render-1",
+      "brief": "The Bromic app on a phone beside a covered terrace with recessed heaters"
+     },
+     {
+      "slot": "Detail",
+      "library_id": "w-render-3",
+      "brief": "Affinity Dimmer box mounted on siding with conduits"
+     },
+     {
+      "slot": "Range",
+      "library_id": "w-affinity-dimmer-5ch",
+      "brief": "5-channel Dimmer"
+     },
+     {
+      "slot": "Integration",
+      "library_id": "w-expansion-board",
+      "brief": "Expansion board for building systems"
+     },
+     {
+      "slot": "Infographic",
+      "library_id": null,
+      "brief": "Which controller for which heater (from the retail controls page); no prices"
+     }
+    ]
+   },
+   "enhanced": {
+    "banner": {
+     "headline": "The Warmth Exactly Where You Want It.",
+     "sub": "Affinity Smart-Heat® Controls – zones, schedules and timers in the Bromic app.",
+     "library_id": "w-render-1"
+    },
+    "features": [
+     {
+      "h": "1% Steps",
+      "body": "Dim Platinum and Tungsten Electric to the evening."
+     },
+     {
+      "h": "Up To 5 Channels",
+      "body": "6 kW a channel, or up to 10 gas heaters on On/Off."
+     },
+     {
+      "h": "Smart Home Ready",
+      "body": "Alexa, Google Assistant, Control4, Crestron and Lutron where compatible."
+     }
+    ]
+   },
+   "verify": [
+    "[[VERIFY: controller SKU list by type and channel count – Product team]]",
+    "[[VERIFY: controller capacities, gas compatibility and timer behaviour – Product team]]",
+    "[[VERIFY: Dimmer compatibility with Tungsten Electric Series II – Product team]]",
+    "[[VERIFY: what ships in each controller box – Product team]]",
+    "[[VERIFY: app name (named three ways across controller pages) – Product team]]",
+    "[[VERIFY: a controller-only white-ground image with no hand or phone – Marketing]]"
+   ],
+   "gaps": [
+    "SKUs",
+    "Main white-ground image",
+    "Box contents",
+    "Series II compatibility statement",
+    "Dimensions and weights"
+   ],
+   "sources": [
+    "data/product-facts.json: affinity-controls",
+    "data/retail/retail.json: controls"
+   ],
+   "checks": {
+    "title_short_chars": 55,
+    "title_medium_chars": 119,
+    "title_long_chars": 196,
+    "bullet_chars": [
+     162,
+     137,
+     129,
+     125,
+     168
+    ],
+    "description_words": 217
+   }
+  }
+ ],
+ "shared": {
+  "series_comparison": {
+   "head": [
+    "",
+    "Tungsten Series II",
+    "Platinum Electric",
+    "Eclipse Electric",
+    "Platinum Gas",
+    "Tungsten Gas"
+   ],
+   "rows": [
+    [
+     "Heat",
+     "Electric, 2–6 kW",
+     "Electric, 2300–4500 W",
+     "Electric, 2,900 W",
+     "Gas, 23,600–39,800 BTU",
+     "Gas, mounted or freestanding"
+    ],
+    [
+     "Heat area",
+     "About 64–144 sq ft",
+     "65–143 sq ft",
+     "Up to 121 sq ft",
+     "160 or 215 sq ft",
+     "160–215 sq ft"
+    ],
+    [
+     "Look",
+     "Slim, Diamond Pattern front",
+     "Glass-ceramic face, 2.1 in deep",
+     "Disc with LED ring",
+     "Ceramic-glass screen",
+     "Honeycomb face, matte black"
+    ],
+    [
+     "Recessed",
+     "Yes, 7.5 in cavity kit",
+     "Yes, 7.1 in cavity kit",
+     "No",
+     "No",
+     "No"
+    ],
+    [
+     "Dims",
+     "Yes, Affinity Dimmer",
+     "Yes, Affinity Dimmer",
+     "Yes, three steps",
+     "On or off",
+     "On or off"
+    ]
+   ]
+  },
+  "which_heater": {
+   "head": [
+    "Your space",
+    "Electric",
+    "Gas"
+   ],
+   "rows": [
+    [
+     "Covered patio, wall or ceiling",
+     "Tungsten Select",
+     "Tungsten Gas, mounted"
+    ],
+    [
+     "Shallow ceiling, flush look",
+     "Tungsten Select or Coastal, recessed; Platinum Electric, recessed",
+     "–"
+    ],
+    [
+     "Coastal home",
+     "Tungsten Coastal; Platinum Electric Marine",
+     "–"
+    ],
+    [
+     "Heater on show",
+     "Platinum Electric",
+     "Platinum Gas"
+    ],
+    [
+     "Over the dining table",
+     "Eclipse Electric pendant",
+     "–"
+    ],
+    [
+     "Open seating, no roof",
+     "Eclipse Freestanding",
+     "Tungsten Freestanding Gas"
+    ]
+   ]
+  }
+ },
+ "main_images": {
+  "tungsten-series-ii-select-black-main.jpg": {
+   "file": "images/main/tungsten-series-ii-select-black-main.jpg",
+   "fill_longest_side": 0.85,
+   "corner_px": [
+    255,
+    255,
+    255
+   ],
+   "upscale": 0.63,
+   "source": "select-black-hero",
+   "note": "Series II CAD render (Select, black)"
+  },
+  "tungsten-series-ii-select-white.jpg": {
+   "file": "images/main/tungsten-series-ii-select-white.jpg",
+   "fill_longest_side": 0.85,
+   "corner_px": [
+    255,
+    255,
+    255
+   ],
+   "upscale": 0.63,
+   "source": "select-white-hero",
+   "note": "Series II CAD render (Select, white)"
+  },
+  "tungsten-series-ii-select-graphite.jpg": {
+   "file": "images/main/tungsten-series-ii-select-graphite.jpg",
+   "fill_longest_side": 0.85,
+   "corner_px": [
+    255,
+    255,
+    255
+   ],
+   "upscale": 0.64,
+   "source": "select-graphite-hero",
+   "note": "Series II CAD render (Select, graphite)"
+  },
+  "tungsten-series-ii-coastal-white.jpg": {
+   "file": "images/main/tungsten-series-ii-coastal-white.jpg",
+   "fill_longest_side": 0.85,
+   "corner_px": [
+    255,
+    255,
+    255
+   ],
+   "upscale": 0.66,
+   "source": "coastal-white-hero",
+   "note": "Series II CAD render (Coastal, white)"
+  },
+  "tungsten-series-ii-select-black-front.jpg": {
+   "file": "images/main/tungsten-series-ii-select-black-front.jpg",
+   "fill_longest_side": 0.85,
+   "corner_px": [
+    255,
+    255,
+    255
+   ],
+   "upscale": 0.52,
+   "source": "select-black-front",
+   "note": "Series II CAD render (Select, black, front)"
+  },
+  "platinum-electric-black-main.jpg": {
+   "file": "images/main/platinum-electric-black-main.jpg",
+   "fill_longest_side": 0.85,
+   "corner_px": [
+    255,
+    255,
+    255
+   ],
+   "upscale": 1.66,
+   "source": "w-platinum-black",
+   "note": "bromic.com cutout, 1024 px source"
+  },
+  "platinum-electric-white.jpg": {
+   "file": "images/main/platinum-electric-white.jpg",
+   "fill_longest_side": 0.85,
+   "corner_px": [
+    255,
+    255,
+    255
+   ],
+   "upscale": 1.66,
+   "source": "w-platinum-white",
+   "note": "bromic.com cutout, 1024 px source"
+  },
+  "eclipse-electric-main.jpg": {
+   "file": "images/main/eclipse-electric-main.jpg",
+   "fill_longest_side": 0.85,
+   "corner_px": [
+    255,
+    255,
+    255
+   ],
+   "upscale": 1.66,
+   "source": "w-eclipse-electric",
+   "note": "bromic.com cutout, 1024 px source, 24 in twin pole (included)"
+  },
+  "eclipse-freestanding-main.jpg": {
+   "file": "images/main/eclipse-freestanding-main.jpg",
+   "fill_longest_side": 0.85,
+   "corner_px": [
+    255,
+    255,
+    255
+   ],
+   "upscale": 1.76,
+   "source": "w-eclipse-portable",
+   "note": "cut from a grey-ground bromic.com shot, 1200 px source; replace with a white-ground original"
+  },
+  "platinum-gas-main.jpg": {
+   "file": "images/main/platinum-gas-main.jpg",
+   "fill_longest_side": 0.85,
+   "corner_px": [
+    255,
+    255,
+    255
+   ],
+   "upscale": 1.66,
+   "source": "w-platinum-gas-500",
+   "note": "bromic.com cutout, 1024 px source, wall bracket (included)"
+  },
+  "tungsten-gas-main.jpg": {
+   "file": "images/main/tungsten-gas-main.jpg",
+   "fill_longest_side": 0.85,
+   "corner_px": [
+    255,
+    255,
+    255
+   ],
+   "upscale": 1.66,
+   "source": "w-tungsten-gas-500",
+   "note": "bromic.com cutout, 1024 px source"
+  },
+  "tungsten-freestanding-gas-main.jpg": {
+   "file": "images/main/tungsten-freestanding-gas-main.jpg",
+   "fill_longest_side": 0.85,
+   "corner_px": [
+    255,
+    255,
+    255
+   ],
+   "upscale": 1.06,
+   "source": "w-tung-port",
+   "note": "bromic.com cutout, 1600 px source"
+  },
+  "tungsten-freestanding-gas-front.jpg": {
+   "file": "images/main/tungsten-freestanding-gas-front.jpg",
+   "fill_longest_side": 0.85,
+   "corner_px": [
+    255,
+    255,
+    255
+   ],
+   "upscale": 1.66,
+   "source": "w-tungportfront-1",
+   "note": "bromic.com cutout, 1024 px source"
+  },
+  "affinity-wall-switch.jpg": {
+   "file": "images/main/affinity-wall-switch.jpg",
+   "fill_longest_side": 0.85,
+   "corner_px": [
+    255,
+    255,
+    255
+   ],
+   "upscale": 1.57,
+   "source": "w-manual-1ch-indoor-switch-image",
+   "note": "bromic.com cutout, 1080 px source"
+  },
+  "affinity-expansion-board.jpg": {
+   "file": "images/main/affinity-expansion-board.jpg",
+   "fill_longest_side": 0.85,
+   "corner_px": [
+    255,
+    255,
+    255
+   ],
+   "upscale": 1.06,
+   "source": "w-expansion-board",
+   "note": "bromic.com cutout, 1600 px source"
+  }
+ },
+ "modules": []
+}

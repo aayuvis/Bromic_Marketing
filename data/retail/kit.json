@@ -1,0 +1,91 @@
+{
+ "_readme": "Print-ready retail kit shown on the Hub Retail tab (#/retail). Built by each folder build script in reports/retail/; build.mjs copies pdf and thumb into dist/retail-kit/.",
+ "status": "draft",
+ "items": [
+  {
+   "id": "portfolio-applications",
+   "title": "Portfolio By Application",
+   "kicker": "6-page brochure",
+   "desc": "Which Bromic heater goes where, with its controls, and who to sell it to.",
+   "pdf": "reports/retail/portfolio-applications/Bromic-Portfolio-By-Application.pdf",
+   "cover": "reports/retail/portfolio-applications/pages/p1.png",
+   "thumb": "reports/retail/_hub/portfolio-applications.webp"
+  },
+  {
+   "id": "take-home-flyer",
+   "title": "Take-Home Flyer",
+   "kicker": "Customer leave-behind",
+   "desc": "Two-sided flyer for shoppers, with QR codes and a box for your store stamp.",
+   "pdf": "reports/retail/take-home-flyer/Bromic-Take-Home-Flyer.pdf",
+   "cover": "reports/retail/take-home-flyer/pages/front.png",
+   "alt": {
+    "label": "Half-letter",
+    "pdf": "reports/retail/take-home-flyer/Bromic-Take-Home-Flyer-Half-Letter.pdf"
+   },
+   "thumb": "reports/retail/_hub/take-home-flyer.webp"
+  },
+  {
+   "id": "series-tungsten-series-ii",
+   "title": "Tungsten Smart-Heat Electric Series II",
+   "kicker": "Series sheet",
+   "desc": "One page: spaces, reasons to buy, specs, mounting and controls.",
+   "pdf": "reports/retail/series-sheets/Bromic-Tungsten-Series-II-Sheet.pdf",
+   "cover": "reports/retail/series-sheets/pages/tungsten-series-ii.png",
+   "thumb": "reports/retail/_hub/series-tungsten-series-ii.webp"
+  },
+  {
+   "id": "series-platinum-electric",
+   "title": "Platinum Smart-Heat Electric",
+   "kicker": "Series sheet",
+   "desc": "One page: spaces, reasons to buy, specs, mounting and controls.",
+   "pdf": "reports/retail/series-sheets/Bromic-Platinum-Electric-Sheet.pdf",
+   "cover": "reports/retail/series-sheets/pages/platinum-electric.png",
+   "thumb": "reports/retail/_hub/series-platinum-electric.webp"
+  },
+  {
+   "id": "series-eclipse",
+   "title": "Eclipse Smart-Heat",
+   "kicker": "Series sheet",
+   "desc": "One page: pendant and freestanding, specs, mounting and controls.",
+   "pdf": "reports/retail/series-sheets/Bromic-Eclipse-Sheet.pdf",
+   "cover": "reports/retail/series-sheets/pages/eclipse.png",
+   "thumb": "reports/retail/_hub/series-eclipse.webp"
+  },
+  {
+   "id": "series-platinum-gas",
+   "title": "Platinum Smart-Heat Gas",
+   "kicker": "Series sheet",
+   "desc": "One page: spaces, reasons to buy, specs, mounting and controls.",
+   "pdf": "reports/retail/series-sheets/Bromic-Platinum-Gas-Sheet.pdf",
+   "cover": "reports/retail/series-sheets/pages/platinum-gas.png",
+   "thumb": "reports/retail/_hub/series-platinum-gas.webp"
+  },
+  {
+   "id": "series-tungsten-gas",
+   "title": "Tungsten Smart-Heat Gas",
+   "kicker": "Series sheet",
+   "desc": "One page: mounted and freestanding, specs, mounting and controls.",
+   "pdf": "reports/retail/series-sheets/Bromic-Tungsten-Gas-Sheet.pdf",
+   "cover": "reports/retail/series-sheets/pages/tungsten-gas.png",
+   "thumb": "reports/retail/_hub/series-tungsten-gas.webp"
+  },
+  {
+   "id": "controls",
+   "title": "Affinity Smart-Heat Controls",
+   "kicker": "One-pager",
+   "desc": "How a system fits together and what to quote with each series.",
+   "pdf": "reports/retail/controls-mounting/Bromic-Controls-Sheet.pdf",
+   "cover": "reports/retail/controls-mounting/pages/controls.png",
+   "thumb": "reports/retail/_hub/controls.webp"
+  },
+  {
+   "id": "mounting",
+   "title": "Mounting Options",
+   "kicker": "One-pager",
+   "desc": "Every way to mount, by series, with minimum heights.",
+   "pdf": "reports/retail/controls-mounting/Bromic-Mounting-Options.pdf",
+   "cover": "reports/retail/controls-mounting/pages/mounting.png",
+   "thumb": "reports/retail/_hub/mounting.webp"
+  }
+ ]
+}

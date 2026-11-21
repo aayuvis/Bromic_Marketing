@@ -120,13 +120,13 @@ def from_white_cutout(lib_id):
         bg = Image.new("RGBA", im.size, (255, 255, 255, 255)); bg.alpha_composite(im); im = bg
     rgb = np.asarray(im.convert("RGB")).astype(np.int16)
     near = (rgb.min(axis=2) >= 238).astype(np.uint8) * 255
-    m = Image.fromarray(near, "L")
+    m = Image.fromarray(near, "L").convert("RGB")  # floodfill on "L" is a no-op in this Pillow
     w, h = m.size
     for x, y in [(x, 0) for x in range(0, w, 8)] + [(x, h - 1) for x in range(0, w, 8)] + \
                 [(0, y) for y in range(0, h, 8)] + [(w - 1, y) for y in range(0, h, 8)]:
-        if m.getpixel((x, y)) == 255:
-            ImageDraw.floodfill(m, (x, y), 128)
-    ground = np.asarray(m) == 128
+        if m.getpixel((x, y))[0] == 255:
+            ImageDraw.floodfill(m, (x, y), (128, 0, 0))
+    ground = np.asarray(m)[..., 0] == 128
     soft = Image.fromarray((~ground).astype(np.uint8) * 255).filter(ImageFilter.GaussianBlur(0.8))
     out = im.copy(); out.putalpha(soft)
     return out

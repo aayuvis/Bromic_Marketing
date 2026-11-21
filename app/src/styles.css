@@ -976,3 +976,12 @@ thead .pm-u { border: 0; background: none; padding: 0; font: 600 11px/1.3 var(--
 .aplb kbd { font: inherit; font-size: 11px; opacity: .6; margin-left: 4px; } .aplb-hint { color: #8a8a8a; }
 .ap-card a[data-aplb] { cursor: zoom-in; }
 @media (max-width: 700px) { .aplb-stage { padding: 0; } .aplb-hint, .aplb kbd { display: none; } .aplb-bot { flex-wrap: wrap; } .aplb-c { flex-basis: 100%; } }
+
+/* Retail tab: print-ready kit */
+.rk { margin: 0 0 36px; } .rk-h { margin: 8px 0 16px; } .rk-h h2 { font-family: var(--display, 'GFS Didot', serif); font-weight: 400; font-size: 28px; margin: 4px 0 6px; }
+.rk-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 18px; }
+.rk-card { margin: 0; border: 1px solid var(--line); background: var(--card); display: flex; flex-direction: column; }
+.rk-card img { display: block; width: 100%; aspect-ratio: 8.5/11; object-fit: cover; object-position: top; border-bottom: 1px solid var(--line); }
+.rk-card figcaption { padding: 10px 12px 12px; display: flex; flex-direction: column; gap: 4px; }
+.rk-card b { font-weight: 500; font-size: 15px; } .rk-card small { color: var(--ink-2); font-size: 12.5px; line-height: 1.4; }
+.rk-dl { display: flex; gap: 10px; align-items: center; margin-top: 6px; font-size: 13px; } .rk-dl .btn { font-size: 12.5px; padding: 6px 10px; }

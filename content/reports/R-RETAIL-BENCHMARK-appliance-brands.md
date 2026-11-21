@@ -22,6 +22,8 @@ sources:
   - {id: s8, publisher: "Kalamazoo Outdoor Gourmet", title: "Trade resources", year: 2026, url: "https://kalamazoogourmet.com/trade-resources/", supports: "Design guide, CAD and specification library, design studio, events calendar, Chicago Culinary Center"}
   - {id: s9, publisher: "Weber", title: "Certified by Weber: about", year: 2026, url: "https://www.weber.com/GB/en/grill-academy/certified-by-weber/about", supports: "Consumer BBQ courses held at certified retailers"}
   - {id: s10, publisher: "Big Green Egg UK", title: "Become a dealer", year: 2026, url: "https://biggreenegg.co.uk/info/become-a-dealer", supports: "Dealer display requirement and installation-day training"}
+  - {id: w1, publisher: "The Virtual Weber Bullet (tvwbb.com)", title: "Weber dealer catalogs, 1989 and 1992, shared by forum members", year: 1992, url: "https://tvwbb.com", supports: "Historic in-store displays, videos and point-of-sale materials; no current US program public"}
+  - {id: w2, publisher: "Traeger (Greenhouse job board)", title: "Retail marketing job postings", year: 2026, url: "https://job-boards.greenhouse.io/traegergrills", supports: "Co-op plans with key accounts and in-store display standards described in job postings; no co-op terms public"}
 ---
 
 ## Executive summary

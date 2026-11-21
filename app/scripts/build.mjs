@@ -258,6 +258,8 @@ const CMDIR = path.join(ROOT, 'data', 'campaigns');
 const campaigns = fs.existsSync(CMDIR) ? fs.readdirSync(CMDIR).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(CMDIR, f), 'utf8'))) : [];
 const RTF = path.join(ROOT, 'data', 'retail', 'retail.json');
 const retail = fs.existsSync(RTF) ? JSON.parse(fs.readFileSync(RTF, 'utf8')) : null;
+const RKF = path.join(ROOT, 'data', 'retail', 'kit.json');   // the print-ready retail kit (PDFs + covers), published under dist/retail-kit/
+const retailKit = fs.existsSync(RKF) ? JSON.parse(fs.readFileSync(RKF, 'utf8')).items.filter((k) => fs.existsSync(path.join(ROOT, k.pdf))).map((k) => ({ ...k, href: 'retail-kit/' + path.basename(k.pdf), thumbHref: 'retail-kit/' + path.basename(k.thumb), alt: k.alt && fs.existsSync(path.join(ROOT, k.alt.pdf)) ? { label: k.alt.label, href: 'retail-kit/' + path.basename(k.alt.pdf), pdf: k.alt.pdf } : null, mb: +(fs.statSync(path.join(ROOT, k.pdf)).size / 1048576).toFixed(1) })) : [];
 // Trends 2027: the visual reports (reports/trends-2027/<id>/, built by reports/trends-2027/engine) listed on #/trends.
 const TRF = path.join(ROOT, 'data', 'trends-2027.json');
 const trends = fs.existsSync(TRF) ? JSON.parse(fs.readFileSync(TRF, 'utf8')) : null;
@@ -266,7 +268,7 @@ const VGF = path.join(ROOT, 'data', 'visual-guides.json');
 const vguides = fs.existsSync(VGF) ? JSON.parse(fs.readFileSync(VGF, 'utf8')).guides : [];
 const RVF = path.join(ROOT, 'data', 'image-review.json');
 const review = fs.existsSync(RVF) ? JSON.parse(fs.readFileSync(RVF, 'utf8')).items : [];
-const HUB = { built: new Date().toISOString(), commit, repo, regions, roles, langsAvailable: Object.fromEntries(Object.entries(tr).map(([l, m]) => [l, Object.keys(m).length])), matrix, assets, facts, images, usage, tools, site, cs, blogPlan, pm, campaigns, portfolio, retail, trends, vguides, review, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
+const HUB = { built: new Date().toISOString(), commit, repo, regions, roles, langsAvailable: Object.fromEntries(Object.entries(tr).map(([l, m]) => [l, Object.keys(m).length])), matrix, assets, facts, images, usage, tools, site, cs, blogPlan, pm, campaigns, portfolio, retail, retailKit, trends, vguides, review, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
 
 console.log(`items ${items.length} · tools ${tools.length} · images ${images.length} · site pages ${site.length} · errors ${errors.length} · warnings ${warn.length}`);
 warn.forEach((w) => console.log('  warn  ' + w));
@@ -308,6 +310,7 @@ if (trends) for (const r of trends.reports) {  // each report: landscape and Let
   fs.cpSync(path.join(src, 'img'), path.join(out, 'img'), { recursive: true, filter: (s) => !/_tmp/.test(s) });
   for (const f of fs.readdirSync(src).filter((x) => /^cover.*\.webp$|\.pdf$/.test(x))) fs.copyFileSync(path.join(src, f), path.join(out, f));
 }
+if (retailKit.length) { const o = path.join(DIST, 'retail-kit'); fs.mkdirSync(o, { recursive: true }); for (const k of retailKit) for (const f of [k.pdf, k.thumb, k.alt && k.alt.pdf].filter(Boolean)) fs.copyFileSync(path.join(ROOT, f), path.join(o, path.basename(f))); }
 if (fs.existsSync(path.join(ROOT, 'images', 'portfolio'))) fs.cpSync(path.join(ROOT, 'images', 'portfolio'), path.join(DIST, 'images', 'portfolio'), { recursive: true });
 if (fs.existsSync(path.join(ROOT, 'images', 'campaigns'))) fs.cpSync(path.join(ROOT, 'images', 'campaigns'), path.join(DIST, 'images', 'campaigns'), { recursive: true });
 if (fs.existsSync(path.join(ROOT, 'images', 'review'))) {
