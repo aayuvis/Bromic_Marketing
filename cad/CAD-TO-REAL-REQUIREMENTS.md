@@ -79,6 +79,22 @@ The owner's design principles (20 Nov), applied to every image:
 - **M16. In contact.** The post meets the surface: no gap, nothing floating, no post into open air. If the original heater hung on chains well below the surface, choose another photo. "The mount is floating in the air and at a weird angle." "They are not floating like this."
 
 
+### Real installs (owner, 21 Nov 2026; evidence in `cad/REAL-INSTALL-STUDY.md`)
+
+**M16a. Layout from a real install, never from symmetry.** Owner, 21 Nov 2026: a central pillar in different settings with a forward-facing heater "is hardly ever the install". Every image copies the layout and camera of a real Tungsten installation photo (cite it in the spec, see `cad/REAL-INSTALL-STUDY.md` §2–3). Of 107 real installs, none shows a lone heater centred on a ceiling or header facing the camera.
+
+**M16b. Heaters live at the edges.** Place heaters within about 1 m of an edge line: a house wall under the eave, the perimeter beam of a pergola or patio cover, the open edge of a slab or soffit, or a glazing frame. The heater's long axis is parallel to that edge. A heater in the middle of a space is allowed only as a **row** over a central line of tables or a walkway in a space one heater wide, or as rows over table lines in a large commercial room.
+
+**M16c. The face points at the seats.** Tilt each heater from the edge it is mounted on toward the seating it heats (wall and edge mounts angled down and in). Never tilt it toward the open side, the sky, the ceiling or the wall it hangs on. A glowing face may be seen from outside the covered area only when the seats are outside too (a restaurant frontage over pavement tables). Tilt: up to 45° for 2 and 3 kW, **up to 30° for 4 and 6 kW** on a ceiling (Series II manual) until the Product team confirms 45°.
+
+**M16d. Count and rhythm from the photo.** Use the number of heaters the real install had, never fewer to make a hero. Residential: one per seat group, usually 2–3 in a row. Commercial: one per table bay or booth. Equal spacing (at least 20 in edge to edge, 500 mm between recess cut-outs), equal height, equal tilt.
+
+**M16e. Heights and clearances.** Wall mount ≥ 1.8 m (71 in) above the floor, ceiling ≥ 2.4 m (96 in), recess ≥ 2.4 m (94 in); a ceiling heater 12 in (2 and 3 kW) or 18 in (4 and 6 kW) from a side wall; a recess ≥ 500 mm from a wall. The heater is never over a fire table, umbrella or fabric within about 1 m (36 in) in front.
+
+**M16f. Mount by surface (Series II).** Wall or beam face: angled bracket on its single post. Flat ceiling near the edge: the short post, straight or tilted. Pitched or vaulted ceiling: pitch adaptor, post hanging vertical, heater level (in-line or cross-slope). High ceiling: one single post on an accessory pole (600 or 1,200 mm), never twin tubes, chains or rods; flag for the owner until the pole is in CAD and approved. Recess: the LC kit on a visually flat ceiling, long axis with the joists or boards, in a row of 2–4, vent and terminal end toward the low side.
+
+**M16g. Camera like the real photographs.** From among or beside the seating, usually looking out to the view, at 3/4 or from below. Never on the room's axis from outside looking in at a heater's face. Heater 8–40% of frame width, in the upper part of the frame, with seats and people (or set tables) under it so the purpose reads.
+
 ### Placement by surface (owner, 20 Nov 2026)
 
 | Surface in the photo | Allowed mount | Never |

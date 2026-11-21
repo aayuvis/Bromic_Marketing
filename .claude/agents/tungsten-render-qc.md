@@ -47,6 +47,14 @@ For each image:
    - Series II 3 and 6 kW are 1,436 mm long, about the length of a two-seat sofa; 2 and 4 kW are 1,144 mm.
    - Compare with a door (≈ 2,030 mm), a table (≈ 750 mm high) or a chair. "Looks small" or "looks huge" is a FAIL.
 
+**Real-install layout (owner, 21 Nov 2026; `cad/REAL-INSTALL-STUDY.md`)**
+19. **Real layout.** Does the spec cite a real installation photo, and do the heater count, positions and camera match it? A lone heater centred on a header or ceiling, seen face-on from outside the room on the axis of symmetry, is a FAIL ("central pillar" rejection, 21 Nov 2026).
+20. **Edge placement.** Is every heater within about 1 m of a wall, perimeter beam, slab edge or glazing frame, long axis parallel to it? A heater mid-space is a FAIL unless it is one of a row over a central table line in a narrow space, or a commercial table-bay row.
+21. **Facing.** Does each glowing face point down toward the seats it heats? Facing the open side, sky, ceiling, a wall or empty ground is a FAIL. A face visible from outside the covered area is a FAIL unless the seating is outside too.
+22. **Tilt limits.** Is a ceiling-mounted 4 or 6 kW tilted 30° or less, every heater in a row at the same tilt, and no heater vertical or following a slope?
+23. **Heights and clearances.** Wall heater ≥ 1.8 m, ceiling ≥ 2.4 m (check against a door at 2.03 m: a ceiling heater sits above the door head); not over a fire table, umbrella or fabric; recess not on a visible slope and not alone in a large ceiling.
+24. **Viewpoint.** Is the camera among or beside the seating, at 3/4 or from below, as in the cited photo? An axis-on symmetric frame from outside is a FAIL.
+
 **Look of the heater**
 10. Is the logo upright and readable where visible (not mirrored or upside down)? Is the diamond grille visible?
 11. Does the housing read as real satin powder coat: black with soft highlights, or a true off-white? A flat CAD black, grey, olive or green cast, or a plastic look is a FAIL.
