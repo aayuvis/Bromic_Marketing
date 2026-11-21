@@ -597,6 +597,30 @@
    "thumb": "images/review/thumb/ecl-ai-02.webp",
    "source": "Owner-supplied draft re-created as a photograph with an image model; heater corrected against Eclipse Freestanding product photos",
    "status": "pending"
+  },
+  {
+   "id": "ts2-real-01",
+   "title": "Screened porch, graphite, pitch adaptor",
+   "kind": "Real photo + CAD heater",
+   "finish": "graphite",
+   "w": 2560,
+   "h": 1707,
+   "file": "images/review/full/ts2-real-01.jpg",
+   "thumb": "images/review/thumb/ts2-real-01.webp",
+   "source": "Real Tungsten install photo (screened porch); old heater replaced with the Series II CAD render on the CAD pitch adaptor. Strict QC still open: reflector reads dark, logo only legible zoomed in, adaptor flange corners slightly light; heater top ~314 mm below ceiling vs 330 mm in the manual.",
+   "status": "pending"
+  },
+  {
+   "id": "ad-ts2-01",
+   "title": "Series II feature ad (4:5)",
+   "kind": "Ad layout on Bromic Lookbook photo",
+   "finish": "white and black",
+   "w": 2160,
+   "h": 2700,
+   "file": "images/review/full/ad-ts2-01.jpg",
+   "thumb": "images/review/thumb/ad-ts2-01.webp",
+   "source": "Bromic Lookbook 2026 hero photo, heat-glow illustration and three callouts; for approval as an ad style.",
+   "status": "pending"
   }
  ]
 }
