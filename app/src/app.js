@@ -1252,15 +1252,61 @@
     const all = (HUB.review || []).map((r) => ({ ...r, status: apSet[r.id] || r.status })).reverse();  // newest first
     if (!all.length) return '<div class="empty">No generated images waiting.</div>';
     const n = (s) => all.filter((r) => r.status === s).length, show = apF === 'all' ? all : all.filter((r) => r.status === apF);
+    apShown = show.map((r) => r.id);
     const dirty = new Set([...Object.keys(apSet), ...Object.keys(apNote)]).size, okSaved = (HUB.review || []).filter((r) => r.status === 'approved').length;
     return `<div class="rt-head"><span class="label">Image Approvals</span><h1>Generated Images and Videos Awaiting Approval</h1>
       <p class="muted">Tungsten Series II images made for the content team: the heater is rendered from the Series II CAD; backgrounds are either Bromic installation photos or generated scenes, as each card says. Approve or reject each one, then save. Approved images can be downloaded as one zip.</p></div>
       <div class="ap-bar"><div class="ap-f">${[['pending', 'Waiting'], ['approved', 'Approved'], ['rejected', 'Rejected'], ['all', 'All']].map(([k, t]) => `<button class="${apF === k ? 'on' : ''}" data-apf="${k}">${t} <span>${k === 'all' ? all.length : n(k)}</span></button>`).join('')}</div>
         <div class="ap-act">${dirty ? `<button class="btn primary" data-apsave>Save ${dirty} ${dirty === 1 ? 'decision' : 'decisions'}</button>` : ''}${okSaved ? `<a class="btn" href="review/approved.zip" download>Download approved (${okSaved}) as zip</a>` : '<span class="muted">Nothing approved and saved yet.</span>'}</div></div>
-      <div class="ap-grid">${show.map((r) => `<figure class="ap-card st-${r.status}">${r.video ? `<video controls preload="none" playsinline poster="${esc(r.thumb)}" src="${esc(r.file)}"></video>` : `<a href="${esc(r.file)}" target="_blank" rel="noopener"><img loading="lazy" src="${esc(r.thumb)}" alt="${esc(r.title)}"></a>`}
+      <div class="ap-grid">${show.map((r) => `<figure class="ap-card st-${r.status}">${r.video ? `<video controls preload="none" playsinline poster="${esc(r.thumb)}" src="${esc(r.file)}"></video>` : `<a href="${esc(r.file)}" data-aplb="${esc(r.id)}" title="Open full screen: arrows to move, A approve, R reject"><img loading="lazy" src="${esc(r.thumb)}" alt="${esc(r.title)}"></a>`}
         <figcaption><b>${esc(r.title)}</b><small>${esc(r.kind)} · ${esc(r.finish)} · ${r.w}×${r.h}</small>${r.note ? `<small class="ap-note">${esc(r.note)}</small>` : ''}
         <textarea class="ap-c" data-apnote="${esc(r.id)}" rows="2" placeholder="${r.status === 'rejected' ? 'Why not? (required)' : 'Comment (optional): what works, what to change'}">${esc(apNote[r.id] ?? r.note ?? '')}</textarea>
         <span class="ap-btns"><button data-apset="${esc(r.id)}|approved" aria-pressed="${r.status === 'approved'}">Approve</button><button data-apset="${esc(r.id)}|rejected" aria-pressed="${r.status === 'rejected'}">Reject</button><a href="${esc(r.file)}" download>Full size</a></span></figcaption></figure>`).join('') || '<p class="muted">Nothing here.</p>'}</div>`;
+  }
+  // ---------- full-screen viewer: ← → to move, A approve, R reject (a reason is asked for), Esc to close ----------
+  let apShown = [];
+  const apStatus = (id) => apSet[id] || imgOf(id)?.status;
+  function apDecide(id, st) { const orig = imgOf(id); if (orig && orig.status === st) delete apSet[id]; else apSet[id] = st; apKeep(id); }
+  function apLightbox(startId) {
+    const ids = apShown.slice(); let i = Math.max(0, ids.indexOf(startId));
+    const el = document.createElement('div'); el.className = 'aplb'; el.tabIndex = -1;
+    el.innerHTML = `<div class="aplb-top"><span class="aplb-n"></span><b class="aplb-t"></b><span class="aplb-st"></span><span class="aplb-sp"></span>
+      <button data-lb="fs" title="Full screen (F)">Full screen</button><button data-lb="x" title="Close (Esc)">Close</button></div>
+      <div class="aplb-stage"><button class="aplb-nav prev" data-lb="prev" aria-label="Previous (left arrow)">&#8249;</button><div class="aplb-media"></div><button class="aplb-nav next" data-lb="next" aria-label="Next (right arrow)">&#8250;</button></div>
+      <div class="aplb-bot"><textarea class="aplb-c" rows="1" placeholder="Comment (a reason is needed to reject)"></textarea>
+      <button class="aplb-ok" data-lb="approved">Approve <kbd>A</kbd></button><button class="aplb-no" data-lb="rejected">Reject <kbd>R</kbd></button><span class="aplb-hint">&larr; &rarr; to move</span></div>`;
+    const media = el.querySelector('.aplb-media'), ta = el.querySelector('.aplb-c');
+    const show = () => {
+      const id = ids[i], r = imgOf(id); if (!r) return;
+      el.querySelector('.aplb-n').textContent = `${i + 1} / ${ids.length}`; el.querySelector('.aplb-t').textContent = r.title;
+      const st = apStatus(id); const sp = el.querySelector('.aplb-st'); sp.textContent = st === 'pending' ? 'Waiting' : st[0].toUpperCase() + st.slice(1); sp.className = 'aplb-st s-' + st;
+      el.querySelector('.aplb-ok').setAttribute('aria-pressed', st === 'approved'); el.querySelector('.aplb-no').setAttribute('aria-pressed', st === 'rejected');
+      media.innerHTML = r.video ? `<video controls autoplay playsinline src="${esc(r.file)}" poster="${esc(r.thumb)}"></video>` : `<img src="${esc(r.file)}" alt="${esc(r.title)}">`;
+      ta.value = apNote[id] ?? r.note ?? '';
+      const nx = imgOf(ids[i + 1]); if (nx && !nx.video) { const im = new Image(); im.src = nx.file; }
+    };
+    const go = (d) => { const j = i + d; if (j < 0 || j >= ids.length) return; i = j; show(); };
+    const decide = (st) => {
+      const id = ids[i];
+      if (st === 'rejected' && !ta.value.trim() && !(imgOf(id)?.note || '').trim()) { ta.focus(); ta.classList.add('need'); toast('Add a reason, then press R again.'); return; }
+      ta.classList.remove('need'); apDecide(id, st); show();
+      if (i < ids.length - 1) setTimeout(() => go(1), 280); else toast('That was the last one. Close to save your decisions.');
+    };
+    const close = () => { if (document.fullscreenElement) document.exitFullscreen().catch(() => {}); el.remove(); document.removeEventListener('keydown', key, true); route.keepScroll = true; route(); };
+    const key = (e) => {
+      if (e.target === ta) { if (e.key === 'Escape') { ta.blur(); e.preventDefault(); } else if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); ta.blur(); } return; }
+      const k = e.key.toLowerCase();
+      if (k === 'arrowright') go(1); else if (k === 'arrowleft') go(-1); else if (k === 'a') decide('approved'); else if (k === 'r') decide('rejected');
+      else if (k === 'escape') close(); else if (k === 'f') el.requestFullscreen?.().catch(() => {}); else return;
+      e.preventDefault(); e.stopPropagation();
+    };
+    ta.addEventListener('input', () => { apNote[ids[i]] = ta.value; apKeep(ids[i]); });
+    el.addEventListener('click', (e) => { const b = e.target.closest('[data-lb]'); if (!b) { if (e.target === el.querySelector('.aplb-stage')) close(); return; } const a = b.dataset.lb;
+      if (a === 'prev') go(-1); else if (a === 'next') go(1); else if (a === 'x') close(); else if (a === 'fs') (document.fullscreenElement ? document.exitFullscreen() : el.requestFullscreen?.())?.catch?.(() => {}); else decide(a); });
+    let sx = null; el.addEventListener('touchstart', (e) => { sx = e.touches[0].clientX; }, { passive: true });
+    el.addEventListener('touchend', (e) => { if (sx == null) return; const dx = e.changedTouches[0].clientX - sx; if (Math.abs(dx) > 50) go(dx < 0 ? 1 : -1); sx = null; });
+    document.addEventListener('keydown', key, true); document.body.appendChild(el); show(); el.focus();
+    el.requestFullscreen?.().catch(() => {});
   }
   async function apSave() {
     const R = HUB.repo, tokRaw = (() => { try { return localStorage.getItem('bromic-hub-gh') || sessionStorage.getItem('bromic-hub-gh'); } catch { return null; } })();
@@ -1404,6 +1450,7 @@
     const apf = e.target.closest('[data-apf]'); if (apf) { apF = apf.dataset.apf; route.keepScroll = true; route(); return; }
     const aps = e.target.closest('[data-apset]'); if (aps) { const [id, st] = aps.dataset.apset.split('|'); const orig = (HUB.review || []).find((r) => r.id === id); if (apSet[id] === st || (!apSet[id] && orig && orig.status === st)) delete apSet[id]; else apSet[id] = st; if (orig && apSet[id] === orig.status) delete apSet[id]; apKeep(id); route.keepScroll = true; route(); return; }
     if (e.target.closest('[data-apsave]')) { apSave(); return; }
+    const lb = e.target.closest('[data-aplb]'); if (lb && !e.metaKey && !e.ctrlKey) { e.preventDefault(); apLightbox(lb.dataset.aplb); return; }
     if (e.target.closest('[data-rtprint]')) { document.body.classList.add('rt-print'); window.print(); setTimeout(() => document.body.classList.remove('rt-print'), 500); return; }
     const pt = e.target.closest('[data-pmtab]'); if (pt) { pmTab = pt.dataset.pmtab; route.keepScroll = true; route(); return; }
     const kt = e.target.closest('[data-kht]'); if (kt) { e.preventDefault(); khT = kt.dataset.kht; location.hash = khT ? '#/knowledge/' + khT : '#/knowledge'; route(); return; }
