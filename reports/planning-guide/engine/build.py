@@ -17,6 +17,7 @@ def icon(name, cls='ic'):
     inner = re.sub(r'<!--.*?-->', '', re.search(r'<svg[^>]*>(.*)</svg>', s, re.S).group(1), flags=re.S).strip()
     return f'<svg class="{cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{inner}</svg>'
 def img(i, cls='', alt=''): return f'<img class="{cls}" src="img/{i}.webp" alt="{E(alt)}">'
+def ph(i, cap, cls='ph'): return f'<figure class="{cls}">{img(i, alt=cap)}<figcaption>{E(cap)}</figcaption></figure>'
 def svg(key, vb, cls='chart', cols=None): return f'<svg class="{cls}" data-chart="{key}"{f" data-cols={cols}" if cols else ""} viewBox="0 0 {vb}"></svg>'
 
 QUESTIONS = [
@@ -30,6 +31,7 @@ QUESTIONS = [
 
 # Eight real spaces. Counts are the A03 model's: area = seats x 20 ft2; heaters = area / (coverage x cover x climate), rounded up;
 # freestanding also never more than 4 seats each. Climate: cool evenings (about 40-50 F) unless stated.
+LAYOUT_PHOTOS = {"L1": ["w-bromic-tungsten-electric-residential", "Tungsten Electric in a covered terrace ceiling"], "L2": ["l-013-100", "Eclipse pendants over a long dining table"], "L3": ["w-dsc05737-courtney-saib", "Tungsten Electric over a porch with a fireplace"], "L4": ["w-dsc07397-1", "Tungsten Electric on the wall above a compact deck"], "L5": ["l-015-125", "Eclipse Freestanding over a fire table"], "L6": ["w-bromic-tungsten-electric-black-recessed", "Tungsten Electric over a lounge by the pool"], "L7": ["w-240619-yorba-linda-ca-dc-64", "Electric heaters over an outdoor kitchen"], "L8": ["w-bromic-pg-residential-hr", "Platinum Gas on the eave over courtyard dining"]}
 LAYOUTS = [
     dict(key='L1', title='Covered Patio: Dining And Lounge', seats=14, cover='Covered (solid roof)', mount='Recessed in the ceiling',
          heater='3 × Tungsten Smart-Heat Electric 4000 W', controls='Affinity Smart-Heat Dimmer, 5-channel (one channel a heater), a wall switch and the app',
@@ -46,8 +48,8 @@ LAYOUTS = [
     dict(key='L5', title='Open Courtyard Around A Fire Table', seats=8, cover='Open to the sky', mount='Freestanding – nothing overhead',
          heater='2 × Eclipse Smart-Heat Freestanding', controls='Each comes with its own Eclipse Dimmer Controller and remote',
          note='Freestanding heaters warm up to four seats each, because guests block some of the warmth. The fire table is the focal point, not the heat.'),
-    dict(key='L6', title='Pool Cabana', seats=6, cover='Covered (cabana roof)', mount='On the ceiling',
-         heater='1 × Platinum Smart-Heat Electric 4500 W', controls='Affinity Smart-Heat Dimmer, 1-channel, a wall switch and the app',
+    dict(key='L6', title='Pool Cabana', seats=6, cover='Covered (cabana roof)', mount='Recessed in the ceiling',
+         heater='1 × Tungsten Smart-Heat Electric 4000 W', controls='Affinity Smart-Heat Dimmer, 1-channel, a wall switch and the app',
          note='One heater over the cabana’s seating – warmth for after the swim.'),
     dict(key='L7', title='Outdoor Kitchen Under Cover', seats=8, cover='Covered (solid roof)', mount='On the ceiling',
          heater='2 × Tungsten Smart-Heat Electric 4000 W', controls='Affinity Smart-Heat Dimmer, 2-channel, a wall switch and the app',
@@ -81,10 +83,12 @@ SOURCES = [
 TIPS = ('<h3>A Roof Keeps Warmth In</h3><p>Under a cover, warm air gathers into a gentle “heat cloud” that adds to the radiant warmth, so a covered space needs fewer heaters than an open one.</p>'
         '<h3>Block The Wind, Keep It Open</h3><p>A screen, wall or planting on the windward side helps your heaters work harder. Thinking of glass or screens all round? Talk to a designer first – it changes the design.</p>')
 ROW2 = None
+PHOTOS2 = None
 
 def build(ed='homeowner', inline=False, letter=False):
-    global ROW2
-    ROW2 = f'<div class="row2"><div>{svg("cloud", "720 250")}</div><div class="tips">{TIPS}</div></div>'
+    global ROW2, PHOTOS2
+    PHOTOS2 = '<div class="trip">' + ph('l-016-131', 'Open to the sky') + ph('w-connecticut-privateresidence-tungstenelectri-2', 'Covered porch') + ph('l-006-028', 'Under a pergola') + '</div>'
+    ROW2 = f'<div class="row2"><div>{svg("cloud", "720 250")}<p class="tipl">A roof keeps warmth in: warm air gathers in a gentle “heat cloud”. Block the wind on one side; keep at least 30% open.</p></div>{PHOTOS2}</div>'
     RD = os.path.join(PG, ed)
     pages, p = [], [0]
     def folio(dark=False):
@@ -114,7 +118,7 @@ def build(ed='homeowner', inline=False, letter=False):
   <div class="ir"><div class="kick">Six Questions</div><ol class="six">{qs}</ol></div>{folio()}</section>''')
     # 3 Q1 seats
     pages.append(f'''<section class="pg g qp side-l">
-  <figure class="qimg">{img('l-013-102-sketch', alt='Sketch of a poolside loggia with Eclipse pendants over the lounge')}</figure>
+  <figure class="qimg">{img('w-au', alt='Friends at a dining table under an Eclipse pendant')}<figcaption>Warmth over the table, where the evening happens</figcaption></figure>
   <div class="qt">{head('Question 01', 'Where Do People Sit?', 'Warmth is for people, not floors. Measure where everyone actually gathers – around the table, the sofa or the fire – not the whole deck.', '01')}
     {svg('seats', '800 470')}
     <p class="rule"><b>Rule of thumb:</b> allow about 20 ft² a seat, chairs and breathing room included.</p></div>{folio()}</section>''')
@@ -122,7 +126,7 @@ def build(ed='homeowner', inline=False, letter=False):
     pages.append(f'''<section class="pg g full">
   {head('Question 02', 'How Open Is It?', 'Radiant heat is made for the outdoors. A space counts as outdoor when at least 30% of its perimeter is permanently open – and a roof works in your favor.', '02')}
   {svg('open3', '740 620', 'chart wide', 2) if letter else svg('open3', '1460 330', 'chart wide')}
-  {'' if letter else ROW2}{folio()}</section>''')
+  {PHOTOS2 if letter else ROW2}{folio()}</section>''')
     if letter: pages.append(f'''<section class="pg g full">
   {head('Question 02 · Cover', 'A Roof Keeps Warmth In', None, '02')}
   {svg('cloud', '720 250', 'chart wide')}<div class="tips">{TIPS}</div>
@@ -130,7 +134,8 @@ def build(ed='homeowner', inline=False, letter=False):
     # 5 Q3 mount
     pages.append(f'''<section class="pg g full">
   {head('Question 03', 'What Can The Heat Hang From?', 'Look up and behind the seats. What is there decides the mount – and the mount decides the heater.', '03')}
-  {svg('mounts', '740 960', 'chart wide', 2) if letter else svg('mounts', '1460 480', 'chart wide')}
+  {svg('mounts', '740 960', 'chart wide mts', 2) if letter else svg('mounts', '1460 480', 'chart wide mts')}
+  <div class="mrow">{ph('w-bromic-tungsten-electric-black-recessed', 'Recessed')}{ph('w-bromictungstenelectic-white', 'On the wall')}{ph('w-eclipse-pendant-uk-residential-2', 'Pendant')}{ph('w-eclipse-portable-residential', 'Freestanding')}</div>
   <ul class="trio"><li><b>Aim At Shoulders And Laps</b><span>Every Bromic heater is directional: face it at the seats, not the table top or the floor.</span></li>
     <li><b>Higher Spreads, But Gentler</b><span>Mount higher and the warmth spreads wider but feels softer; under a tall ceiling, bring heaters down on poles.</span></li>
     <li><b>Keep The Line Of Sight Clear</b><span>Infrared travels in straight lines, so an umbrella, beam or planter casts a cold shadow.</span></li></ul>{folio()}</section>''')
@@ -140,15 +145,16 @@ def build(ed='homeowner', inline=False, letter=False):
     <ul class="levers"><li><b>Mild</b><span>Evenings usually above about 50°F</span></li><li><b>Cool</b><span>About 40–50°F</span></li><li><b>Cold</b><span>Often below about 40°F</span></li></ul>
     <p class="rule">Not sure? Plan for partly covered and cool – it is the safe middle.</p>
     <p class="src">Tungsten Smart-Heat Electric 4000 W over 240 ft² (12 seats), from the Bromic sizing calculator. Coverage is approximate and varies with mounting height, wind and installation.</p>
-    <figure class="qstrip">{img('w-dsc05737-courtney-saib-sketch', alt='Sketch of a screened porch with a fireplace and heaters under a vaulted ceiling')}</figure></div>
+    <figure class="qstrip">{img('w-bromiceclipseheater', alt='Friends on a terrace at sunset under an Eclipse Freestanding heater')}<figcaption>A cool evening, made for staying out</figcaption></figure></div>
   <div class="qv">{svg('matrix', '760 600')}</div>{folio()}</section>''')
     # 7 physics
     pages.append(f'''<section class="pg g full">
   {head('How Radiant Heat Works', 'Warmth Like Sunshine', 'Step into winter sun and you feel warm at once, though the air is cool. Infrared heat works the same way: it warms you, the furniture and the floor – not the air that drifts away.')}
-  {svg('spectrum', '1000 440', 'chart wide') if letter else svg('spectrum', '1460 340', 'chart wide')}
+  <div class="phy"><div class="phl">{svg('spectrum', '1000 440', 'chart wide')}
   <div class="waves"><div><h3>Short Wave</h3><p>The hottest elements. Instant, intense, with a bright glow and glare.</p></div>
     <div class="hl"><h3>Medium Wave</h3><p>A soft glow with little glare, warm in about 30 seconds. Bromic Platinum, Eclipse and Tungsten Electric are medium wave.</p></div>
-    <div><h3>Long Wave</h3><p>No visible glow, about 5 minutes to warm up, gentle – and more easily dispersed by moving air.</p></div></div>
+    <div><h3>Long Wave</h3><p>No visible glow, about 5 minutes to warm up, gentle – and more easily dispersed by moving air.</p></div></div></div>
+  <div class="phr">{ph('l-012-093', 'Warmth like sunshine, after the sun has gone', 'ph big')}<div class="mac">{ph('l-007-034', 'Medium wave: a soft glow, no glare')}{ph('w-bromic-eclipse-portable-hotel-skansen-07', 'The Eclipse element at full warmth')}</div></div></div>
   <p class="foot">All infrared travels in straight lines at the speed of light. How far warmth reaches depends on the heater’s output, reflector and mounting height, not on its wavelength. Peak wavelength by Wien’s law, λ ≈ 2,898 µm·K ÷ T: about 2,400 K → 1.2 µm; 1,200 K → 2.4 µm; 700 K → 4.1 µm; the sun, about 5,800 K → 0.5 µm (typical element temperatures, for illustration). Warm-up times: Bromic Planning Guide v1.2.</p>{folio()}</section>''')
     # 8 which heater
     tiles = ''.join(f'<article class="tile"><div class="ti">{img(i, alt=t)}</div><h3>{E(t)}</h3><p>{E(d)}</p><small>{E(f)}</small></article>' for i, t, d, f in TILES)
@@ -169,7 +175,7 @@ def build(ed='homeowner', inline=False, letter=False):
   <div class="qt">{head('Question 05 · The Fuel', 'Electric Or Gas', None, '05')}
     <div class="eg"><div><h3>Electric</h3><ul><li>Covered patios, pergolas, loggias</li><li>Ceilings, walls, poles</li><li>On/off or dimming, zones, schedules, app</li><li>Hard-wired by a licensed electrician</li><li>65–160 ft² a heater</li></ul></div>
       <div><h3>Gas</h3><ul><li>Larger, more open areas</li><li>Built-in: wall or ceiling. Or freestanding</li><li>On/off, wall switch, schedules</li><li>A licensed gas fitter, plus a 110 V supply for built-in</li><li>160–215 ft² a heater</li></ul></div></div>
-    <figure class="qstrip">{img('l-019-163-sketch', alt='Sketch of a Tungsten freestanding gas heater in a stone courtyard at dusk')}</figure></div>
+    <div class="pair">{ph('w-connecticut-privateresidence-tungstenelectri', 'Electric, recessed in a porch ceiling')}{ph('w-apex-building-plat-500-residential', 'Gas, on the walls of a pavilion')}</div></div>
   <div class="qv cost"><div class="kick">What An Evening Costs</div><div class="hero"><div class="fig">About 73¢</div><p>an hour for a Tungsten Electric 4000 W at full output – less when you dim it.</p></div>
     {svg('cost', '640 330')}<p class="src">Per hour at full output, at US average residential prices: electricity July 2026, natural gas July 2026 (EIA). Your rate will differ.</p></div>{folio()}</section>''')
     # 11 controls
@@ -183,6 +189,7 @@ def build(ed='homeowner', inline=False, letter=False):
   <ul class="trio"><li><b>On/Off Controller</b><span>Switches electric or gas heaters: 1, 2 or 5 channels.</span></li>
     <li><b>Dimmer Controller</b><span>Sets the warmth in 1% steps for Tungsten and Platinum Electric.</span></li>
     <li><b>Eclipse Controller</b><span>Heat steps and rim-light dimming, one Eclipse a channel. Eclipse Freestanding comes with its own.</span></li></ul>
+  <div class="pair wide">{ph('w-eclipse-electric-w-bromic-heating-app', 'The app: warmth from your phone')}{ph('w-bromic-home-automation-hero', 'Zones and schedules from a tablet')}</div>
   <p class="foot">Wi-Fi and app features need compatible Affinity Smart-Heat Controls, sold separately. Each channel carries up to 6 kW at 208–277 V. Built-in gas switches on and off only.</p>{folio()}</section>''')
     # 12-15 layouts
     per = 1 if letter else 2
@@ -191,7 +198,8 @@ def build(ed='homeowner', inline=False, letter=False):
         cards = ''
         for L in LAYOUTS[k:k + per]:
             chips = ''.join(f'<li><span>{a}</span>{E(b)}</li>' for a, b in [('Seats', f"{L['seats']} seats"), ('Cover', L['cover']), ('Mount', L['mount']), ('Heaters', L['heater']), ('Controls', L['controls'])])
-            cards += f'<article class="lay">{svg(L["key"], "720 560" if letter else "720 400", "plan")}<h3>{E(L["title"])}</h3><ol class="flow">{chips}</ol><p>{E(L["note"])}</p></article>'
+            pid, pcap = LAYOUT_PHOTOS[L['key']]
+            cards += f'<article class="lay">{svg(L["key"], "720 470" if letter else "720 360", "plan")}<div class="lb">{ph(pid, "A Bromic installation like this layout: " + pcap)}<div><h3>{E(L["title"])}</h3><ol class="flow">{chips}</ol><p>{E(L["note"])}</p></div></div></article>'
         pages.append(f'''<section class="pg g full layp">
   {head('Outdoor Layouts · Seats, Cover, Mount, Heater, Controls', LAYOUTS[k]['title'] if letter else NAMES[k // 2], None)}
   <div class="lays">{cards}</div>
@@ -202,7 +210,8 @@ def build(ed='homeowner', inline=False, letter=False):
   {svg('timeline', '740 690', 'chart wide', 2) if letter else svg('timeline', '1460 380', 'chart wide')}
   <ul class="trio"><li><b>Electric</b><span>Hard-wired by a licensed electrician, who sizes each circuit from the heater’s current draw (in the Pro edition and the cut sheets).</span></li>
     <li><b>Gas</b><span>Built-in gas needs a gas line from a licensed gas fitter and a 110 V supply. The freestanding gas heater runs on a 20 lb propane cylinder or a natural-gas quick-connect.</span></li>
-    <li><b>Built To Code</b><span>Electric to NFPA 70, gas to NFPA 54. Confirm with your local building authority; each manual sets its clearances.</span></li></ul>{folio()}</section>''')
+    <li><b>Built To Code</b><span>Electric to NFPA 70, gas to NFPA 54. Confirm with your local building authority; each manual sets its clearances.</span></li>
+    <li class="pli">{ph('w-bromic-shoot-may-11-2023-39', 'Fitting a heater into its recess kit')}</li></ul>{folio()}</section>''')
     # 17 brief + CTA
     brief = ''.join(tick(t) for t in ['Seats to warm: ______ (about 20 ft² a seat)', 'Open · partly covered · covered', 'Mount: ceiling · recessed · wall · pendant · freestanding',
                                       'Evenings: mild · cool · cold', 'Heater, how many, which controls: ______', 'Electrician or gas fitter booked before the ceiling closes', 'Photos or plans ready'])
