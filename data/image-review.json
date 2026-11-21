@@ -840,6 +840,18 @@
    "thumb": "images/review/thumb/pr-select-graphite-hero.webp",
    "source": "Rendered from the Tungsten Series II CAD on a white studio sweep; satin powder coat, glowing elements.",
    "status": "pending"
+  },
+  {
+   "id": "pr-select-graphite-endcap",
+   "title": "Series II Select graphite endcap, logo close-up",
+   "kind": "CAD studio render",
+   "finish": "graphite",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-select-graphite-endcap.jpg",
+   "thumb": "images/review/thumb/pr-select-graphite-endcap.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a white studio sweep; satin powder coat, glowing elements.",
+   "status": "pending"
   }
  ]
 }
