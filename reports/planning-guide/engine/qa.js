@@ -30,7 +30,7 @@ const { chromium } = require('playwright');
         ts.forEach(x => { if (!inside(x.q, sr, 2)) out.push(`p${n}: chart text outside chart – "${x.t.slice(0, 40)}"`); });
         for (let i = 0; i < ts.length; i++) for (let j = i + 1; j < ts.length; j++) {
           const a = ts[i].q, c = ts[j].q, ov = Math.max(0, Math.min(a.right, c.right) - Math.max(a.left, c.left)) * Math.max(0, Math.min(a.bottom, c.bottom) - Math.max(a.top, c.top));
-          if (ov > 0.25 * Math.min(a.width * a.height, c.width * c.height)) out.push(`p${n}: chart labels overlap – "${ts[i].t.slice(0, 25)}" / "${ts[j].t.slice(0, 25)}"`);
+          if (ov > 2) out.push(`p${n}: chart labels overlap – "${ts[i].t.slice(0, 25)}" / "${ts[j].t.slice(0, 25)}"`);
         }
       });
       // layout blocks must not collide

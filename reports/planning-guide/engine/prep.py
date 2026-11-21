@@ -17,7 +17,7 @@ PHOTOS = ['l-010-071', 'l-010-067', 'l-002-004', 'w-au', 'l-012-093', 'l-007-034
           'w-eclipse-pendant-uk-residential-2', 'w-eclipse-portable-residential', 'w-bromiceclipseheater', 'w-apex-building-plat-500-residential',
           'w-connecticut-privateresidence-tungstenelectri', 'w-eclipse-electric-w-bromic-heating-app', 'w-bromic-home-automation-hero',
           'w-bromic-tungsten-electric-residential', 'l-013-100', 'w-dsc05737-courtney-saib', 'w-dsc07397-1', 'l-015-125',
-          'w-240619-yorba-linda-ca-dc-64', 'w-bromic-pg-residential-hr', 'w-bromic-shoot-may-11-2023-39']
+          'w-240619-yorba-linda-ca-dc-64', 'w-bromic-pg-residential-hr', 'w-bromic-shoot-may-11-2023-39', 't-009-025']
 SKETCH = ['l-013-102', 'w-dsc05737-courtney-saib', 'w-delmonico-08', 'l-019-163', 'w-boardwalk-edits-49', 'l-013-100']
 SPLIT = ['l-010-071', 'l-010-067']
 CUTS = ['w-lcrecesskit', 'w-tungelec-stacked', 'w-eclipse-electric-twinpole', 'w-eclipse-portable', 'w-tung-port', 'w-platinum-gas-500',

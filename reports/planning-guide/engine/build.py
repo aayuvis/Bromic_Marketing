@@ -168,7 +168,7 @@ def build(ed='homeowner', inline=False, letter=False):
     <ul class="thumbs"><li><b>About one heater for every five or six seats</b><span>Wall, ceiling and pendant heaters, under cover on cool evenings</span></li>
       <li><b>Up to four seats a freestanding heater</b><span>Guests block some of the warmth</span></li>
       <li><b>Zones meet and slightly overlap</b><span>No cold seams between chairs; long tables warmed from both sides</span></li></ul>
-    <div class="scale-k">Approximate coverage, drawn to the same scale</div>{svg('scale', '640 200')}
+    <div class="scale-k">Approximate coverage, drawn to the same scale</div>{svg('scale', '640 220')}
     <p class="rule">Get your number in a minute with the free <b>How Many Heaters?</b> calculator – and our design team confirms it.</p></div>{folio()}</section>''')
     # 10 electric or gas + cost
     pages.append(f'''<section class="pg g side-r2">
@@ -189,7 +189,7 @@ def build(ed='homeowner', inline=False, letter=False):
   <ul class="trio"><li><b>On/Off Controller</b><span>Switches electric or gas heaters: 1, 2 or 5 channels.</span></li>
     <li><b>Dimmer Controller</b><span>Sets the warmth in 1% steps for Tungsten and Platinum Electric.</span></li>
     <li><b>Eclipse Controller</b><span>Heat steps and rim-light dimming, one Eclipse a channel. Eclipse Freestanding comes with its own.</span></li></ul>
-  <div class="pair wide">{ph('w-eclipse-electric-w-bromic-heating-app', 'The app: warmth from your phone')}{ph('w-bromic-home-automation-hero', 'Zones and schedules from a tablet')}</div>
+  <div class="pair wide">{ph('w-eclipse-electric-w-bromic-heating-app', 'The app: warmth from your phone')}{ph('t-009-025', 'Zones and schedules from a tablet')}</div>
   <p class="foot">Wi-Fi and app features need compatible Affinity Smart-Heat Controls, sold separately. Each channel carries up to 6 kW at 208–277 V. Built-in gas switches on and off only.</p>{folio()}</section>''')
     # 12-15 layouts
     per = 1 if letter else 2
@@ -199,7 +199,7 @@ def build(ed='homeowner', inline=False, letter=False):
         for L in LAYOUTS[k:k + per]:
             chips = ''.join(f'<li><span>{a}</span>{E(b)}</li>' for a, b in [('Seats', f"{L['seats']} seats"), ('Cover', L['cover']), ('Mount', L['mount']), ('Heaters', L['heater']), ('Controls', L['controls'])])
             pid, pcap = LAYOUT_PHOTOS[L['key']]
-            cards += f'<article class="lay">{svg(L["key"], "720 470" if letter else "720 360", "plan")}<div class="lb">{ph(pid, "A Bromic installation like this layout: " + pcap)}<div><h3>{E(L["title"])}</h3><ol class="flow">{chips}</ol><p>{E(L["note"])}</p></div></div></article>'
+            cards += f'<article class="lay">{svg(L["key"], "720 500" if letter else "720 360", "plan")}<div class="lb">{ph(pid, "A Bromic installation like this layout: " + pcap)}<div><h3>{E(L["title"])}</h3><ol class="flow">{chips}</ol><p>{E(L["note"])}</p></div></div></article>'
         pages.append(f'''<section class="pg g full layp">
   {head('Outdoor Layouts · Seats, Cover, Mount, Heater, Controls', LAYOUTS[k]['title'] if letter else NAMES[k // 2], None)}
   <div class="lays">{cards}</div>

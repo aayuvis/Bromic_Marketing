@@ -226,3 +226,10 @@ decision · the rule it adds. The QC agent checks every rule here.
 
 - 2026-11-20 · ts2-photo-01 (café wall, white) · approved, "excellent" · A clean front-on wall at true scale, heater centred over the
   seating, soft contact shadow, no visible bracket is the reference look.
+
+- **Coastal backgrounds (owner, 21 Nov 2026):** no real coastal Tungsten installs exist in the bank, so the Coastal shots may use
+  image-model backgrounds prompted from a real coastal reference photo (keeping its camera, light and materials), each approved by the
+  owner before any heater goes in (the M2 exception).
+- **No long poles (owner, 21 Nov 2026):** Series II images use short posts only (wall bracket, beam post, flat-ceiling post, pitch
+  adaptor, recess). Skip high-ceiling scenes that would need the 600 or 1,200 mm accessory pole.
+

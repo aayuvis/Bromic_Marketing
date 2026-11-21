@@ -108,7 +108,7 @@ window.REPORT_CHARTS = (BZ) => {
     L6: { W: 30, D: 16, roof: 'part', roofRect: [[0, 0, 12, 10]], sides: { top: 'wall', left: 'wall', right: 'open', bottom: 'open' },
       items: [{ t: 'pool', x: 15, y: 3, w: 12, d: 10 }, { t: 'sofa', x: 1.2, y: 1.2, w: 9.6, d: 2.6 }, { t: 'sofa', x: 1.2, y: 3.8, w: 2.6, d: 5 }, { t: 'coffee', x: 5, y: 5, w: 3.6, d: 2.6 }, { t: 'chair', x: 9.6, y: 7.6 },
         { t: 'chair', x: 13.5, y: 14 }, { t: 'chair', x: 17, y: 14.2 }],
-      heaters: [{ k: 'lin', x: 6, y: 5.4, A: 143 }], notes: [[6, 11.6, 'Cabana roof'], [21, 8.4, 'Pool']] },
+      heaters: [{ k: 'lin', x: 6, y: 5.4, A: 130 }], notes: [[6, 11.6, 'Cabana roof'], [21, 8.4, 'Pool']] },
     L7: { W: 22, D: 13, roof: 'roof', sides: { top: 'house', left: 'wall', right: 'open', bottom: 'open' },
       items: [{ t: 'counter', x: 0.4, y: 0.6, w: 11, d: 2.2, grill: [2, 0.8] }, { t: 'counter', x: 2.5, y: 5, w: 8, d: 2.4 },
         { t: 'stool', x: 3.8, y: 8.6 }, { t: 'stool', x: 5.8, y: 8.6 }, { t: 'stool', x: 7.8, y: 8.6 }, { t: 'stool', x: 9.4, y: 8.6 },
@@ -223,23 +223,27 @@ window.REPORT_CHARTS = (BZ) => {
   };
 
   CH.spectrum = (svg) => {
-    const rc = rcOf(svg), VW = svg.viewBox.baseVal.width, x0 = 70, x1 = VW - 20, base = svg.viewBox.baseVal.height - 70, top = 60, X = (l) => x0 + (x1 - x0) * l / 8;
-    const band = (a, b, fill, lab, sub) => { add(svg, rc.rectangle(X(a), top - 20, X(b) - X(a), base - top + 20, O({ stroke: 'none', fill, fillStyle: 'solid', roughness: 0.3 }))); T(svg, (X(a) + X(b)) / 2, top - 30, lab, { size: 15, anchor: 'middle', weight: 700 }); if (sub) T(svg, (X(a) + X(b)) / 2, top - 6, sub, { size: 12, anchor: 'middle', fill: INK2 }); };
-    band(0.78, 1.4, '#FBEDE8', 'IR-A · Short wave', '0.78–1.4 µm'); band(1.4, 3, '#F9DCD3', 'IR-B · Medium wave', '1.4–3 µm'); band(3, 8, '#F4F1EE', 'IR-C · Long wave', '3 µm and beyond');
-    const vis = ['#7A4DC7', '#3A6FD8', '#3FA34D', '#E8C73A', '#E07B2E', '#D53A2A'];
-    vis.forEach((c, i) => add(svg, rc.rectangle(X(0.38 + i * 0.0667), top - 20, X(0.0667) - X(0) + 1, base - top + 20, O({ stroke: 'none', fill: c, fillStyle: 'solid', roughness: 0 }))));
-    T(svg, X(0.36), top + 4, 'Visible', { size: 13, anchor: 'end', weight: 700 });
+    const rc = rcOf(svg), VW = svg.viewBox.baseVal.width, VH = svg.viewBox.baseVal.height, x0 = 60, x1 = VW - 20, base = VH - 110, top = 70, X = (l) => x0 + (x1 - x0) * l / 8;
+    const band = (a, b, fill) => add(svg, rc.rectangle(X(a), top - 20, X(b) - X(a), base - top + 20, O({ stroke: 'none', fill, fillStyle: 'solid', roughness: 0.3 })));
+    band(0.78, 1.4, '#FBEDE8'); band(1.4, 3, '#F9DCD3'); band(3, 8, '#F4F1EE');
+    ['#7A4DC7', '#3A6FD8', '#3FA34D', '#E8C73A', '#E07B2E', '#D53A2A'].forEach((c, i) => add(svg, rc.rectangle(X(0.38 + i * 0.0667), top - 20, X(0.0667) - X(0) + 1, base - top + 20, O({ stroke: 'none', fill: c, fillStyle: 'solid', roughness: 0 }))));
     const planck = (l, Tk) => 1 / (Math.pow(l, 5) * (Math.exp(14388 / (l * Tk)) - 1));
-    [[2400, 'Short wave, about 2,400 K', STEEL, [6, 4]], [1200, 'Medium wave, about 1,200 K', FINK, null], [700, 'Long wave, about 700 K', INK2, [3, 5]]].forEach(([Tk, lab, col, dash]) => {
+    // each curve labelled at its own peak, with a short leader, staggered so no label meets another
+    [[2400, 'Short wave · about 2,400 K', STEEL, [6, 4], 'end', 0], [1200, 'Medium wave · about 1,200 K', FINK, null, 'start', 0], [700, 'Long wave · about 700 K', INK2, [3, 5], 'start', 40]].forEach(([Tk, lab, col, dash, anc, dy]) => {
       const pk = 2898 / Tk, mx = planck(pk, Tk), pts = [];
-      for (let l = 0.3; l <= 8; l += 0.05) pts.push([X(l), base - (base - top - 20) * planck(l, Tk) / mx]);
-      add(svg, rc.curve(pts, O({ stroke: col, strokeWidth: Tk === 1200 ? 3.2 : 2, roughness: 0.6, strokeLineDash: dash || undefined })));
-      T(svg, X(pk) + 8, top + 6, lab, { size: 13, fill: col, weight: 700 });
-      add(svg, rc.line(X(pk), top + 12, X(pk), top + 24, O({ stroke: col })));
+      for (let l = 0.3; l <= 8; l += 0.05) pts.push([X(l), base - (base - top - 34) * planck(l, Tk) / mx]);
+      add(svg, rc.curve(pts, O({ stroke: col, strokeWidth: Tk === 1200 ? 3.4 : 2, roughness: 0.6, strokeLineDash: dash || undefined })));
+      const ly = top - 32 + dy, lx = X(pk) + (anc === 'end' ? -10 : 10);
+      add(svg, rc.line(X(pk), top + 12, X(pk), ly + 6, O({ stroke: col, strokeWidth: 1 })));
+      add(svg, rc.line(X(pk), ly + 6, lx, ly + 6, O({ stroke: col, strokeWidth: 1 })));
+      T(svg, lx + (anc === 'end' ? -4 : 4), ly + 10, lab, { size: 14, fill: col, weight: 700, anchor: anc, halo: '#fff' });
     });
     add(svg, rc.line(x0, base, x1, base, O({ strokeWidth: 1.6 })));
-    for (let l = 0; l <= 8; l++) T(svg, X(l), base + 22, l + ' µm', { size: 12, anchor: 'middle', fill: STEEL });
-    T(svg, x0, base + 48, 'Wavelength. Each curve is scaled to its own peak: hotter elements peak at shorter wavelengths and glow brighter.', { size: 12.5, fill: STEEL });
+    for (let l = 0; l <= 8; l++) T(svg, X(l), base + 20, l + ' µm', { size: 12, anchor: 'middle', fill: STEEL });
+    // band names under the axis, on two rows so neighbours never touch
+    [[0.58, 'Visible', '#4A4546', 0], [1.09, 'IR-A · short wave, 0.78–1.4 µm', INK2, 1], [2.2, 'IR-B · medium wave, 1.4–3 µm', FINK, 0], [5.5, 'IR-C · long wave, 3 µm and beyond', INK2, 1]].forEach(([l, t, c, r]) =>
+      T(svg, X(l), base + 46 + r * 20, t, { size: 13, anchor: 'middle', fill: c, weight: 700 }));
+    T(svg, x0, base + 98, 'Each curve is scaled to its own peak: hotter elements peak at shorter wavelengths and glow brighter.', { size: 12.5, fill: STEEL });
   };
 
   CH.scale = (svg) => {
@@ -250,7 +254,7 @@ window.REPORT_CHARTS = (BZ) => {
       T(svg, cx, 160, `${A} ft²`, { size: 19, serif: true, anchor: 'middle', fill: FINK }); T(svg, cx, 180, t, { size: 11.5, anchor: 'middle', fill: INK2 });
       x += d + 14;
     });
-    add(svg, rc.line(x - 6, 196, x - 6 - 10 * s, 196, O({ strokeWidth: 1.4 }))); T(svg, x - 6 - 5 * s, 192, '10 ft', { size: 11, anchor: 'middle', fill: STEEL });
+    add(svg, rc.line(x - 6, 208, x - 6 - 10 * s, 208, O({ strokeWidth: 1.4 }))); T(svg, x - 12 - 10 * s, 212, 'Scale: 10 ft', { size: 11, anchor: 'end', fill: STEEL });
   };
 
   CH.cost = (svg) => {
