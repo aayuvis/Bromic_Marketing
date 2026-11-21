@@ -651,7 +651,7 @@ LISTINGS = [
     ],
     "titles": {
       "short": "Bromic Tungsten Smart-Heat Gas Patio Heater, Wall or Ceiling",
-      "medium": "Bromic Tungsten Smart-Heat Gas Mounted Patio Heater, Up to 215 Sq Ft, Natural Gas or Propane, Matte Black, Wall or Ceiling",
+      "medium": "Bromic Tungsten Smart-Heat Gas Patio Heater, Up to 215 Sq Ft, Natural Gas or Propane, Matte Black, Wall or Ceiling",
       "long": "Bromic Tungsten Smart-Heat Gas Outdoor Mounted Patio Heater, Compact Honeycomb Face, 160 or 215 Sq Ft, Natural Gas or Propane, Matte Black, Wall or Ceiling Mount with Pivot Arm, for Covered Patios",
     },
     "bullets": [

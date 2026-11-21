@@ -46,7 +46,7 @@ const ctlDiagram = `<svg viewBox="0 0 678 240" class="dwg" role="img" aria-label
   ${bub(232, 8, 1)}
   <!-- channel runs -->
   <path d="M242 54 H276 V80 H300" class="run"/><path d="M242 140 H276 V116 H300" class="run"/>
-  <text x="248" y="48" class="tiny">CH 1</text><text x="248" y="154" class="tiny">CH 2</text>
+  <text x="248" y="48" class="tiny">CH 1</text><text x="246" y="134" class="tiny">CH 2</text>
   <!-- controller -->
   <text x="352" y="16" class="boxt" text-anchor="middle">AFFINITY SMART-HEAT®</text>
   <text x="352" y="27" class="boxt" text-anchor="middle">CONTROLLER</text>
@@ -145,7 +145,7 @@ const mountDiagram = `<svg viewBox="0 0 678 268" class="dwg" role="img" aria-lab
   <line x1="162" y1="${y(86)}" x2="176" y2="${y(86)}" class="obj" style="stroke-width:2"/>
   <g transform="rotate(32 176 ${y(86)})"><rect x="174" y="${y(86) - 2}" width="30" height="13" rx="5" class="heat"/><line x1="178" y1="${y(86) + 11.2}" x2="200" y2="${y(86) + 11.2}" stroke="${T.flame}" stroke-width="1.1"/></g>
   ${rays([[196, y(78), 232, y(46)], [190, y(76), 212, y(40)], [200, y(82), 248, y(60)]])}
-  ${bub(176, y(98), 1, true)}
+  ${bub(178, y(103), 1, true)}
   <!-- 2 recessed, low-clearance kit -->
   <rect x="212" y="${CEIL - 16}" width="40" height="16" class="cut" style="fill:#fff"/>
   <rect x="214" y="${CEIL - 5}" width="36" height="5" class="heat"/><line x1="216" y1="${CEIL - 0.6}" x2="248" y2="${CEIL - 0.6}" stroke="${T.flame}" stroke-width="1.2"/>
@@ -339,19 +339,19 @@ h2{font-family:BzDidot,Didot,serif;font-weight:400;letter-spacing:-.005em}
 .sys{position:absolute;left:.72in;right:.72in;top:2.06in}
 .sec{position:absolute;left:.72in;right:.72in;top:5.32in}
 .cards{display:grid;grid-template-columns:1fr 1fr 1fr 1.42in;gap:12px}
-.card{border:.7px solid ${T.draw};padding:7px 9px 8px;background:#fff;display:flex;flex-direction:column}
+.card{border:.7px solid ${T.draw};padding:6px 9px 7px;background:#fff;display:flex;flex-direction:column}
 .cn{font-family:BzDidot,Didot,serif;font-size:17px;line-height:1.1;color:${T.ink}}
-.cl{font-size:8.4px;line-height:1.4;color:#3f3b3c;margin:3px 0 6px;min-height:23px}
-.card dl{display:grid;grid-template-columns:auto 1fr;gap:3px 8px;font-size:8.2px;line-height:1.3;border-top:.5px solid ${T.hair};padding-top:5px}
+.cl{font-size:8.4px;line-height:1.35;color:#3f3b3c;margin:2px 0 5px}
+.card dl{display:grid;grid-template-columns:auto 1fr;gap:2px 8px;font-size:8.2px;line-height:1.28;border-top:.5px solid ${T.hair};padding-top:5px}
 .card dt{font:500 6.6px/1.6 BzMono,monospace;letter-spacing:.1em;color:${T.steel}}
 .card dd{color:${T.ink}}
 .fits{margin-top:auto;padding-top:5px;font-size:8.2px;line-height:1.3;color:${T.ink}}
 .fits b{display:block;font:500 6.6px BzMono,monospace;letter-spacing:.12em;color:${T.flame};margin-bottom:1px}
-.cards .ph .ph-img{height:.98in}
+.cards .ph .ph-img{height:.86in}
 .mxw{top:6.98in}
 .mx{width:100%;border-collapse:collapse;table-layout:fixed;font-size:8.3px;line-height:1.33;color:${T.ink}}
 .mx th{font:500 6.6px/1.2 BzMono,monospace;letter-spacing:.12em;text-align:left;color:${T.steel};padding:0 8px 5px 0;border-bottom:.6px solid ${T.draw}}
-.mx td{padding:4.4px 8px 4.4px 0;border-bottom:.5px solid ${T.hair};vertical-align:top}
+.mx td{padding:3.6px 8px 3.6px 0;border-bottom:.5px solid ${T.hair};vertical-align:top}
 .mx td.ser{font-weight:700;font-size:8.6px}
 .mx .sub{display:block;font:500 6.2px/1.4 BzMono,monospace;letter-spacing:.08em;color:${T.steel};font-weight:500;margin-top:1px}
 .mx td.span{color:#3f3b3c}
@@ -373,12 +373,12 @@ h2{font-family:BzDidot,Didot,serif;font-weight:400;letter-spacing:-.005em}
 .strip .cell.grow span{font-size:6px;line-height:1.35;color:${T.steel}}
 .strip b{font-weight:500;font-size:5.4px;letter-spacing:.16em;color:${T.steel}}
 .strip .sheet span{font-size:15px;line-height:1;color:${T.draw}}
-.flow{position:absolute;left:.72in;right:.72in;top:.62in;bottom:.98in;display:flex;flex-direction:column;gap:11px}
+.flow{position:absolute;left:.72in;right:.72in;top:.62in;bottom:.98in;display:flex;flex-direction:column;gap:10px}
 .flow>*{position:static!important;flex:none}
 .flow>.cta,.flow>.foot2{margin-top:auto}
 .s-head{display:flex;gap:.3in;align-items:flex-start}
 .mount-h h2{font-size:29px}
-.order{font:500 7.4px/1 BzMono,monospace;letter-spacing:.1em;color:${T.draw};margin-top:6px;padding-top:7px;border-top:.6px solid ${T.draw}}
+.order{font:500 7.4px/1 BzMono,monospace;letter-spacing:.1em;color:${T.draw};margin-top:3px;padding-top:6px;border-top:.6px solid ${T.draw}}
 .order span{display:inline-grid;place-items:center;width:14px;height:14px;border-radius:50%;border:.8px solid ${T.draw};font-size:7px;margin-right:3px}
 .order i{font-style:normal;color:${T.flame};margin:0 6px}
 /* mounting sheet */
