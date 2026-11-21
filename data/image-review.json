@@ -780,6 +780,18 @@
    "thumb": "images/review/thumb/ad-ts2-03g.webp",
    "source": "Glow option G (strong ember mist), at the strength of the owner reference; soft misty light, no hard rays.",
    "status": "pending"
+  },
+  {
+   "id": "pr-select-black-hero",
+   "title": "Series II Select black hero, ceiling post",
+   "kind": "CAD studio render",
+   "finish": "black",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-select-black-hero.jpg",
+   "thumb": "images/review/thumb/pr-select-black-hero.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a white studio sweep; short ceiling post, satin powder coat, glowing elements.",
+   "status": "pending"
   }
  ]
 }
