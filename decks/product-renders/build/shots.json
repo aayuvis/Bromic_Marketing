@@ -471,5 +471,159 @@
   "exposure": -1.5,
   "samples": 64,
   "noise": 0.04
+ },
+ "select-black-front": {
+  "heaters": [
+   {
+    "glb": "6kW diamond, angled wall mount.glb",
+    "finish": "black",
+    "mount": "wall",
+    "glow": 16,
+    "offset": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "camera": {
+   "pos": [
+    0,
+    -1.7,
+    -0.8
+   ],
+   "target": [
+    0,
+    0,
+    0
+   ],
+   "lens": 50,
+   "fstop": 11,
+   "fit": 0.06
+  },
+  "res": [
+   3840,
+   2560
+  ],
+  "exposure": -1.5,
+  "samples": 64,
+  "noise": 0.04
+ },
+ "select-white-front": {
+  "heaters": [
+   {
+    "glb": "6kW diamond, angled wall mount.glb",
+    "finish": "white",
+    "mount": "wall",
+    "glow": 16,
+    "offset": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "camera": {
+   "pos": [
+    0,
+    -1.7,
+    -0.8
+   ],
+   "target": [
+    0,
+    0,
+    0
+   ],
+   "lens": 50,
+   "fstop": 11,
+   "fit": 0.06
+  },
+  "res": [
+   3840,
+   2560
+  ],
+  "exposure": -1.8,
+  "samples": 64,
+  "noise": 0.04
+ },
+ "select-graphite-front": {
+  "heaters": [
+   {
+    "glb": "6kW diamond, angled wall mount.glb",
+    "finish": "graphite",
+    "mount": "wall",
+    "glow": 16,
+    "offset": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "camera": {
+   "pos": [
+    0,
+    -1.7,
+    -0.8
+   ],
+   "target": [
+    0,
+    0,
+    0
+   ],
+   "lens": 50,
+   "fstop": 11,
+   "fit": 0.06
+  },
+  "res": [
+   3840,
+   2560
+  ],
+  "exposure": -1.5,
+  "samples": 64,
+  "noise": 0.04
+ },
+ "select-black-front-ceiling": {
+  "heaters": [
+   {
+    "glb": "6kW diamond, angled wall mount.glb",
+    "finish": "black",
+    "mount": "ceiling",
+    "glow": 16,
+    "offset": [
+     0,
+     0,
+     0
+    ],
+    "short_post": true
+   }
+  ],
+  "camera": {
+   "pos": [
+    0,
+    0,
+    -1.8
+   ],
+   "target": [
+    0,
+    0,
+    0
+   ],
+   "lens": 50,
+   "fstop": 11,
+   "up": [
+    0,
+    1,
+    0
+   ],
+   "fit": 0.06
+  },
+  "res": [
+   3840,
+   2560
+  ],
+  "exposure": -1.5,
+  "samples": 64,
+  "noise": 0.04
  }
 }

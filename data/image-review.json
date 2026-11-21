@@ -804,6 +804,18 @@
    "thumb": "images/review/thumb/pr-select-white-hero.webp",
    "source": "Rendered from the Tungsten Series II CAD on a white studio sweep; short ceiling post, satin powder coat, glowing elements.",
    "status": "pending"
+  },
+  {
+   "id": "ad-ts2-04",
+   "title": "Series II feature ad v4 (4:5): option G, amber both sides",
+   "kind": "Ad, CAD heater on photo",
+   "finish": "white and black",
+   "w": 2160,
+   "h": 2700,
+   "file": "images/review/full/ad-ts2-04.jpg",
+   "thumb": "images/review/thumb/ad-ts2-04.webp",
+   "source": "Owner chose option G; the black side warmed to the same amber as the white side.",
+   "status": "pending"
   }
  ]
 }
