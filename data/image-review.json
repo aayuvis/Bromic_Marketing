@@ -633,6 +633,18 @@
    "thumb": "images/review/thumb/ad-ts2-02.webp",
    "source": "Bromic Lookbook 2026 coastal terrace (overhead heaters facing the seating), graded to evening, soft warm glow as an illustration; Bromic type, no icon boxes. Replaces v1 (radioactive streams, heater facing forward).",
    "status": "pending"
+  },
+  {
+   "id": "pr-select-black-endcap",
+   "title": "Series II Select black endcap",
+   "kind": "CAD studio render",
+   "finish": "black",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-select-black-endcap.jpg",
+   "thumb": "images/review/thumb/pr-select-black-endcap.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a white studio sweep; satin powder coat, glowing elements.",
+   "status": "pending"
   }
  ]
 }
