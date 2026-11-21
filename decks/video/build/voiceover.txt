@@ -1,0 +1,14 @@
+Tungsten Smart-Heat Electric Series II – low-clearance recess airflow (voice-over script, US English)
+Every line comes from the launch framework (data/product-marketing/tungsten-electric-series-ii.json) and the low-clearance recess kit instructions. The airflow path is an illustration, to be confirmed by the Product team.
+
+[1 · Title]
+This is a six-kilowatt Tungsten Series Two heater, recessed flush into a ceiling cavity just seven and a half inches deep.
+
+[2 · Without a ventilated kit – illustration]
+Here is an illustration of what happens without a ventilated kit. Radiant heat travels down to the people below. But heat from the back of the heater warms the air in the cavity. With nowhere to go, it rises and pools against the joists and the deck above. That's why every recessed heater goes in with the kit made for it.
+
+[3 · With the low-clearance recess kit]
+With the low-clearance recess kit, the supplied recess box separates the heater from the framing, so there's no box to build on site. Dual fans draw air in at one end, carry it along behind the heater, and send it out through the vent end. The cavity stays cool, and the radiant heat still goes where it belongs: down to the seats. Mount it ninety-four inches or more above the floor, and five hundred millimetres from walls and between heaters.
+
+[4 · Finish]
+Worry-free, dual fan-ventilated, six-kilowatt recessing. Plan it in with the Pro planning guide, at bromic dot com.
