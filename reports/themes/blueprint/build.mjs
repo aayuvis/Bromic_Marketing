@@ -39,12 +39,12 @@ function lead(x1, y1, x2, y2, label, { anchor = 'start', col = T.draw } = {}) {
   <text x="${lx}" y="${y2 + 2.6}" class="callt" text-anchor="${anchor}" fill="${col}">${label}</text>`;
 }
 const timber = (x, y, w, h) => `<rect x="${x}" y="${y}" width="${w}" height="${h}" class="cut"/><path d="M${x} ${y}L${x + w} ${y + h}M${x + w} ${y}L${x} ${y + h}" class="thin"/>`;
-const slab = (x, y, w, h) => `<rect x="${x}" y="${y}" width="${w}" height="${h}" fill="url(#hatch)" class="cut"/>`;
+const slab = (x, y, w, h) => `<rect x="${x}" y="${y}" width="${w}" height="${h}" class="cut" style="fill:url(#hatch)"/>`;
 
 // ---------- Drawings ----------
 // Section A–A: mounting heights. Scale 2.2 px per inch, floor at y=282.
-const F = 282, S = 2.2, yIn = (inch) => n(F - inch * S);
-const sectionAA = `<svg viewBox="0 0 450 318" class="dwg" role="img" aria-label="Section showing minimum mounting heights of 72 in for wall and 96 in for ceiling heaters">
+const F = 250, S = 2.0, yIn = (inch) => n(F - inch * S);
+const sectionAA = `<svg viewBox="0 0 450 280" class="dwg" role="img" aria-label="Section showing minimum mounting heights of 72 in for wall and 96 in for ceiling heaters">
   <!-- structure -->
   ${slab(40, 20, 372, 16)}
   <path d="M412 16 l6 6 -10 6 10 6 -6 6" class="thin" fill="none"/>
@@ -58,32 +58,33 @@ const sectionAA = `<svg viewBox="0 0 450 318" class="dwg" role="img" aria-label=
     <path d="M226 ${F} V${yIn(17)} H246 M226 ${yIn(17)} V${yIn(34)}"/><path d="M362 ${F} V${yIn(17)} H342 M362 ${yIn(17)} V${yIn(34)}"/>
   </g>
   <!-- radiant field -->
-  <g class="ray"><path d="M268 ${yIn(97)} L236 ${yIn(36)} M296 ${yIn(97)} L294 ${yIn(36)} M324 ${yIn(97)} L352 ${yIn(36)}"/>
-  <path d="M86 ${yIn(74)} L224 ${yIn(40)} M84 ${yIn(70)} L190 ${yIn(16)}"/></g>
+  <g class="ray"><path d="M286 ${yIn(97)} L272 ${yIn(36)} M312 ${yIn(97)} L312 ${yIn(36)} M338 ${yIn(97)} L352 ${yIn(36)}"/>
+  <path d="M88 ${yIn(75)} L128 ${yIn(66)} M86 ${yIn(71)} L120 ${yIn(57)} M90 ${yIn(79)} L134 ${yIn(76)}"/></g>
   <!-- ceiling-mounted heater, bracket to soffit -->
-  <line x1="276" y1="36" x2="276" y2="${yIn(101)}" class="obj"/><line x1="316" y1="36" x2="316" y2="${yIn(101)}" class="obj"/>
-  <rect x="252" y="${yIn(101)}" width="88" height="${n(4 * S)}" class="heat"/>
-  <line x1="258" y1="${yIn(97) - 0.6}" x2="334" y2="${yIn(97) - 0.6}" stroke="${T.flame}" stroke-width="1"/>
+  <line x1="292" y1="36" x2="292" y2="${yIn(101)}" class="obj"/><line x1="332" y1="36" x2="332" y2="${yIn(101)}" class="obj"/>
+  <rect x="268" y="${yIn(101)}" width="88" height="${n(4 * S)}" class="heat"/>
+  <line x1="274" y1="${yIn(97) - 0.6}" x2="350" y2="${yIn(97) - 0.6}" stroke="${T.flame}" stroke-width="1"/>
   <!-- wall-mounted heater on bracket, tilted toward the occupied zone -->
   <line x1="56" y1="${yIn(79)}" x2="70" y2="${yIn(79)}" class="obj"/>
   <g transform="rotate(18 70 ${yIn(76)})"><rect x="66" y="${yIn(79)}" width="24" height="${n(7 * S)}" class="heat"/><line x1="90" y1="${yIn(78)}" x2="90" y2="${yIn(73)}" stroke="${T.flame}" stroke-width="1"/></g>
   <!-- wall switch and controller -->
-  <rect x="56" y="${yIn(52)}" width="6" height="10" class="cut" fill="#fff"/>
-  <rect x="56" y="${yIn(64)}" width="9" height="14" class="cut" fill="#fff"/>
+  <rect x="56" y="${yIn(52)}" width="6" height="10" class="cut" style="fill:#fff"/>
+  <rect x="56" y="${yIn(64)}" width="9" height="14" class="cut" style="fill:#fff"/>
   <!-- dimensions -->
   ${dimV(122, yIn(72), F, '72 IN MIN · AFF', { ext: 82 })}
-  ${dimV(392, yIn(97), F, '96 IN MIN · AFF', { ext: 342 })}
+  ${dimV(398, yIn(97), F, '96 IN MIN · AFF', { ext: 358 })}
   <!-- callouts -->
-  ${lead(340, yIn(99), 360, 52, 'CEILING-MOUNTED')}
-  ${lead(62, yIn(59), 150, yIn(56), 'AFFINITY CONTROLLER')}
-  ${lead(60, yIn(47), 150, yIn(43), 'MANUAL WALL SWITCH')}
-  <text x="150" y="${yIn(43) + 12}" class="callt sub">VISIBLE FROM THE HEATED AREA</text>
-  ${lead(88, yIn(80), 150, yIn(88), 'WALL-MOUNTED · AIMED AT THE OCCUPIED ZONE')}
-  <text x="296" y="${F + 30}" class="callt sub" text-anchor="middle">FINISHED FLOOR</text>
+  ${lead(268, yIn(99), 244, 50, 'CEILING-MOUNTED', { anchor: 'end' })}
+  ${lead(62, yIn(59), 152, yIn(56), 'AFFINITY CONTROLLER')}
+  ${lead(60, yIn(47), 152, yIn(43), 'MANUAL WALL SWITCH')}
+  <text x="156" y="${yIn(43) + 12}" class="callt sub">VISIBLE FROM THE HEATED AREA</text>
+  ${lead(88, yIn(80), 160, yIn(90), 'WALL-MOUNTED')}
+  <text x="164" y="${yIn(90) + 11}" class="callt sub">AIM AT THE OCCUPIED ZONE</text>
+  <text x="296" y="${F + 26}" class="callt sub" text-anchor="middle">FINISHED FLOOR</text>
 </svg>`;
 
 // D1: recessed soffit section
-const d1 = `<svg viewBox="0 0 300 318" class="dwg" role="img" aria-label="Recessed soffit section with recess kit, blocking, cavity depth, ceiling finish and junction box">
+const d1 = `<svg viewBox="-4 0 330 280" class="dwg" role="img" aria-label="Recessed soffit section with recess kit, blocking, cavity depth, ceiling finish and junction box">
   ${slab(14, 26, 272, 14)}
   ${timber(34, 40, 18, 112)}${timber(248, 40, 18, 112)}
   ${timber(92, 84, 16, 16)}${timber(192, 84, 16, 16)}
@@ -91,13 +92,13 @@ const d1 = `<svg viewBox="0 0 300 318" class="dwg" role="img" aria-label="Recess
   <path d="M100 100 H200 V172 M100 100 V172" class="obj" fill="none"/>
   <line x1="92" y1="100" x2="208" y2="100" class="obj"/>
   <!-- heater in kit, face flush with finish -->
-  <rect x="108" y="150" width="84" height="22" class="heat"/>
-  <path d="M112 166 H188" stroke="${T.flame}" stroke-width="1.2"/>
+  <rect x="108" y="156" width="84" height="22" class="heat"/>
+  <path d="M112 175 H188" stroke="${T.flame}" stroke-width="1.2"/>
   <!-- ceiling finish line -->
-  <rect x="14" y="172" width="86" height="6" fill="url(#dots)" class="cut"/><rect x="200" y="172" width="86" height="6" fill="url(#dots)" class="cut"/>
-  <line x1="100" y1="178" x2="200" y2="178" class="obj"/>
+  <rect x="14" y="172" width="86" height="6" class="cut" style="fill:url(#dots)"/><rect x="200" y="172" width="86" height="6" class="cut" style="fill:url(#dots)"/>
+  
   <!-- junction box and conduit -->
-  <rect x="220" y="112" width="18" height="14" class="cut" fill="#fff"/><path d="M220 119 H196" class="thin" stroke-dasharray="3 2"/>
+  <rect x="220" y="112" width="18" height="14" class="cut" style="fill:#fff"/><path d="M220 119 H196" class="thin" stroke-dasharray="3 2"/>
   <!-- radiant field below -->
   <g class="ray"><path d="M124 180 L104 236 M150 180 V240 M176 180 L196 236"/></g>
   <!-- tag dimensions -->
@@ -105,11 +106,11 @@ const d1 = `<svg viewBox="0 0 300 318" class="dwg" role="img" aria-label="Recess
   ${dimV(150, 40, 100, 'B')}
   <!-- callouts -->
   ${lead(52, 60, 14, 12, 'STRUCTURE', { anchor: 'start' })}
-  ${lead(208, 92, 232, 66, 'BLOCKING')}
-  ${lead(200, 136, 232, 146, 'RECESS KIT')}
-  ${lead(238, 119, 270, 100, 'J-BOX', { anchor: 'end' })}
-  ${lead(250, 175, 232, 206, 'CEILING FINISH LINE')}
-  ${lead(186, 172, 150, 262, 'HEATER FACE FLUSH WITH FINISH', { anchor: 'middle' })}
+  ${lead(208, 92, 290, 70, 'BLOCKING')}
+  ${lead(200, 140, 290, 146, 'RECESS KIT')}
+  ${lead(238, 119, 290, 112, 'J-BOX')}
+  ${lead(250, 175, 236, 206, 'CEILING FINISH LINE')}
+  ${lead(108, 177, 40, 262, 'HEATER FACE FLUSH WITH FINISH')}
 </svg>`;
 
 // Controls: one controller per zone, wall switch per zone, app over Wi-Fi
@@ -137,7 +138,7 @@ const controls = `<svg viewBox="0 0 450 206" class="dwg" role="img" aria-label="
 const PX = 7, r121 = n(Math.sqrt(121 / Math.PI) * PX);
 const tbl = (cx, cy) => `<rect x="${cx - 18}" y="${cy - 9}" width="36" height="18" class="furnp"/>` +
   [-12, 0, 12].map((d) => `<rect x="${cx + d - 4}" y="${cy - 17}" width="8" height="6" class="furnp"/><rect x="${cx + d - 4}" y="${cy + 11}" width="8" height="6" class="furnp"/>`).join('');
-const plan = `<svg viewBox="0 0 420 300" class="dwg" role="img" aria-label="Illustrative coverage plan of a dining terrace with heater positions, footprints, zones and controller locations">
+const plan = `<svg viewBox="0 -2 420 294" class="dwg" role="img" aria-label="Illustrative coverage plan of a dining terrace with heater positions, footprints, zones and controller locations">
   <defs><clipPath id="terr"><rect x="20" y="20" width="380" height="250"/></clipPath></defs>
   ${slab(14, 14, 392, 6)}${slab(14, 20, 6, 256)}
   <path d="M20 270 H400 V20" class="thin" stroke-dasharray="8 3 2 3" fill="none"/>
@@ -154,10 +155,30 @@ const plan = `<svg viewBox="0 0 420 300" class="dwg" role="img" aria-label="Illu
   </g>
   ${[[66, 70], [66, 150], [66, 230], [126, 110], [126, 190], [210, 80], [210, 200]].map(([x, y]) => `<rect x="${x - 13}" y="${y - 2.5}" width="26" height="5" class="heat"/>`).join('')}
   ${[[348, 100], [348, 180]].map(([x, y]) => `<circle cx="${x}" cy="${y}" r="7" class="heat"/><circle cx="${x}" cy="${y}" r="3" fill="${T.flame}"/>`).join('')}
-  <text x="85" y="36" class="zonet" text-anchor="middle">ZONE 1 · DINING</text>
-  <text x="220" y="36" class="zonet" text-anchor="middle">ZONE 2 · BAR</text>
-  <text x="345" y="36" class="zonet" text-anchor="middle">ZONE 3 · LOUNGE</text>
+  <text x="85" y="8" class="zonet" text-anchor="middle">ZONE 1 · DINING</text>
+  <text x="220" y="8" class="zonet" text-anchor="middle">ZONE 2 · BAR</text>
+  <text x="345" y="8" class="zonet" text-anchor="middle">ZONE 3 · LOUNGE</text>
   ${[[26, 254, 'C1'], [156, 254, 'C2'], [296, 254, 'C3']].map(([x, y, t]) => `<rect x="${x}" y="${y}" width="18" height="10" class="ctl"/><text x="${x + 9}" y="${y + 7.5}" class="tiny" text-anchor="middle">${t}</text><circle cx="${x + 30}" cy="${y + 5}" r="5" class="ctl"/><text x="${x + 30}" y="${y + 7.5}" class="tiny" text-anchor="middle">S</text>`).join('')}
+</svg>`;
+
+
+// MasterFormat tree (from "The Right Home In MasterFormat")
+const node = (x, y, w, h, code, title, hi = false) => `<rect x="${x}" y="${y}" width="${w}" height="${h}" class="${hi ? 'box hi' : 'box'}"/>
+  <text x="${x + 7}" y="${y + h / 2 - 1}" class="boxt${hi ? ' hit' : ''}">${code}</text><text x="${x + 7}" y="${y + h / 2 + 7}" class="boxs">${title}</text>`;
+const mf = `<svg viewBox="0 0 680 136" class="dwg" role="img" aria-label="MasterFormat tree: Division 23, 23 83 00 radiant heating units, 23 83 33 electric radiant heaters recommended">
+  <path d="M92 66 H116 M116 21 V123 M116 21 H140 M116 93 H140 M116 123 H140 M270 21 H300 M300 10 V58 M300 10 H330 M300 34 H330 M300 58 H330" class="obj" style="stroke-width:.7"/>
+  ${node(0, 51, 92, 30, 'DIVISION 23', 'HVAC')}
+  ${node(140, 8, 130, 26, '23 83 00', 'RADIANT HEATING UNITS')}
+  ${node(140, 80, 130, 26, '23 82 39', 'UNIT HEATERS')}
+  ${node(140, 110, 130, 26, '23 55 23', 'GAS-FIRED RADIANT HEATERS')}
+  ${node(330, 0, 150, 20, '23 83 13', 'RADIANT HEATING ELECTRIC CABLES AND MATS')}
+  ${node(330, 24, 150, 20, '23 83 23', 'RADIANT HEATING ELECTRIC PANELS')}
+  ${node(330, 48, 150, 20, '23 83 33', 'ELECTRIC RADIANT HEATERS', true)}
+  <path d="M480 58 H498" stroke="${T.flame}" stroke-width=".8" marker-end="url(#arFe)"/>
+  <text x="504" y="56" class="boxt hit">RECOMMENDED</text><text x="504" y="64.5" class="boxs">A SELF-CONTAINED ELECTRIC INFRARED EMITTER</text>
+  <text x="280" y="91" class="boxs">CONVECTION UNITS THAT MOVE WARM AIR · OUTDOORS IT RISES AND DRIFTS AWAY</text>
+  <text x="280" y="99.5" class="boxs">A POOR MATCH FOR OUTDOOR SPACES</text>
+  <text x="280" y="121" class="boxs">THE HOME FOR GAS RADIANT EQUIPMENT · WRITE BROMIC GAS HEATERS HERE AS A SEPARATE SECTION</text>
 </svg>`;
 
 // ---------- page furniture ----------
@@ -195,9 +216,8 @@ const p1 = `<section class="page dark">
     <p class="c-lede">The outdoor rooms you design are meant to be lived in well after sunset, and the warmth that makes that possible deserves the same care in the specification as the lighting. Give heat its own named section, a listed product, its required controls and a detail on the drawings, and it arrives on site exactly as you intended.</p>
   </div>
   <figure class="c-elev">
-    <svg viewBox="0 0 640 40" class="c-dim"><g>${dimH(26, 22, 618, 'OVERALL LENGTH · PER MODEL · SEE CUT SHEET', { col: T.navyLine, mk: 'arW', ext: 40 })}</g></svg>
+    <svg viewBox="0 0 640 40" class="c-dim"><g>${dimH(26, 8, 632, 'OVERALL LENGTH · PER MODEL · SEE CUT SHEET', { col: T.navyLine, mk: 'arW', ext: 40 })}</g></svg>
     <img src="img/select-front-line.png" alt="Elevation of a Tungsten Smart-Heat Electric heater, Select collection, traced from a product render">
-    <svg viewBox="0 0 640 18" class="c-cl"><line x1="320" y1="0" x2="320" y2="18" stroke="${T.flame}" stroke-width=".8" stroke-dasharray="6 2 1.5 2"/></svg>
     <figcaption><span class="bubble">1</span><span><b>ELEVATION · TUNGSTEN SMART-HEAT<sup>®</sup> ELECTRIC, SELECT COLLECTION</b><em>COMING SOON · FINISHES BLACK, WHITE, GRAPHITE · TRACED FROM PRODUCT RENDER · NTS</em></span></figcaption>
   </figure>
   <div class="c-low">
@@ -236,10 +256,10 @@ const p2 = `<section class="page light">
   </header>
   <div class="sched">
     <div class="hdr"><span class="lbl">EQUIPMENT SCHEDULE · ELECTRIC RADIANT HEATERS</span><span class="lbl r">CONTROLS ARE REQUIRED ON EVERY HEATER</span></div>
-    <table>
+    <table class="eq"><colgroup><col style="width:32px"><col style="width:118px"><col style="width:54px"><col style="width:74px"><col style="width:62px"><col><col style="width:150px"></colgroup>
       <thead><tr><th>TAG</th><th>SERIES</th><th>STATUS</th><th>OUTPUT</th><th>APPROX. COVERAGE</th><th>MOUNTING</th><th>CONTROLS (REQUIRED)</th></tr></thead>
       <tbody>
-      ${row('H1', 'Platinum Smart-Heat<sup>®</sup> Electric', 'Current', '2300 · 3400 · 4500 W', '65–143 ft²', 'Recessed, ceiling, wall · Classic and Marine', 'Affinity On/Off or Dimmer controller + manual wall switch')}
+      ${row('H1', 'Platinum Smart-Heat<sup>®</sup> Electric', 'Current', '2300, 3400,<br>4500 W', '65–143 ft²', 'Recessed, ceiling, wall · Classic and Marine', 'Affinity On/Off or Dimmer controller + manual wall switch')}
       ${row('H2', 'Eclipse Smart-Heat<sup>®</sup> Electric', 'Current', '33 · 66 · 100 %', '121 ft²', 'Single pole 8", 24" or 48"; double pole; curved pole', 'Affinity Eclipse controller + manual wall switch')}
       ${row('H3', 'Eclipse Smart-Heat<sup>®</sup> Freestanding Electric', 'Current', '33 · 66 · 100 %', '121 ft²', 'Freestanding: wheels, weighted base, curved arm', 'Affinity Eclipse controller · <i class="tc">method to confirm</i>')}
       ${row('H4', 'Tungsten Smart-Heat<sup>®</sup> Electric, Coastal', '<span class="soon-t">Coming soon</span>', '<i class="tc">To confirm</i>', '64–144 ft²', 'Recessed (marine-grade low-clearance), ceiling, wall, single-post', 'Affinity controls as for Platinum · <i class="tc">to confirm</i>', true)}
@@ -294,7 +314,7 @@ const check = [
 const p3 = `<section class="page light">
   <div class="grid"></div>${zones(false)}<div class="frame"></div>
   <header class="s-head">
-    <p class="eyebrow">03 · COVERAGE PLAN AND CHECKLIST</p>
+    <p class="eyebrow">03 · COVERAGE PLAN, CHECKLIST AND NEXT STEP</p>
     <h2>Your Planning Checklist</h2>
   </header>
   <div class="p3">
@@ -309,17 +329,21 @@ const p3 = `<section class="page light">
       <ol class="checks">${check.map((c, i) => `<li><span class="bx"></span><span class="no">${String(i + 1).padStart(2, '0')}</span><span>${c}</span></li>`).join('')}</ol>
     </div>
   </div>
+  <figure class="mf panel">
+    <div class="hdr"><span class="lbl">THE RIGHT HOME IN MASTERFORMAT</span><span class="lbl r">SECTION 23 83 33</span></div>
+    ${mf}
+  </figure>
   <div class="cta">
     <div class="cta-grid"></div>
     <figure class="plate sm">
-      <div class="plate-img" style="background-image:url(${ROOT}/images/library/t-006-016.webp)"></div>
+      <div class="plate-img" style="background-image:url(${ROOT}/images/library/t-006-016.webp);background-position:50% 8%"></div>
       <figcaption><b>SITE PHOTO</b> A heater recessed into a timber soffit on a city roof terrace.</figcaption>
     </figure>
     <div class="cta-body">
       <p class="eyebrow">DESIGN SERVICE · COMPLIMENTARY</p>
       <h3>Send us your plan, and we will return a coverage drawing tailored to your specification.</h3>
       <a class="btn">BOOK A DESIGN CONSULT <span>→</span></a>
-      <p class="addr">BROMIC HEATING · 7595 IRVINE CENTER DRIVE, SUITE 100, IRVINE, CA 92618 · 1-800-301-1293 · WWW.BROMIC.COM</p>
+      <p class="addr">BROMIC HEATING · 7595 IRVINE CENTER DRIVE, SUITE 100, IRVINE, CA 92618<br>1-800-301-1293 · WWW.BROMIC.COM</p>
     </div>
   </div>
   <p class="disc">This guide specification is a starting point for your professional judgement. Codes, listings and manufacturer requirements change. Confirm every requirement with the authority having jurisdiction and a licensed electrician, and use the manufacturer's current installation instructions for the model specified. Imagery is for design inspiration; product scale and placement may vary from actual specifications.</p>
@@ -363,7 +387,7 @@ h1,h2,h3{font-family:BzDidot,Didot,serif;font-weight:400;letter-spacing:-.005em}
 .c-head h1{font-size:60px;line-height:1.02;margin:14px 0 14px;color:#fff}
 .c-sub{font:400 13px/1.4 BzSans,sans-serif;color:${T.navyLine};margin-bottom:16px}
 .c-lede{font:400 10.5px/1.6 BzSans,sans-serif;color:rgba(255,255,255,.82);max-width:4.6in;padding-left:12px;border-left:.8px solid ${T.flame}}
-.c-elev{position:absolute;left:.72in;right:.72in;top:5.55in}
+.c-elev{position:absolute;left:.72in;right:.72in;top:5.0in}
 .c-elev img{display:block;width:6.66in;margin:0 auto;opacity:.95}
 .c-dim{display:block;width:6.66in;margin:0 auto 2px;overflow:visible}
 .c-cl{display:block;width:6.66in;height:.19in;margin:0 auto}
@@ -373,10 +397,9 @@ figcaption{display:flex;gap:8px;align-items:center}
 figcaption b{display:block;font:500 7.2px/1.3 BzMono,monospace;letter-spacing:.12em}
 figcaption em{display:block;font:400 6.4px/1.4 BzMono,monospace;letter-spacing:.1em;font-style:normal;opacity:.75;margin-top:1px}
 .bubble{flex:none;width:22px;height:22px;border-radius:50%;border:.8px solid currentColor;display:grid;place-items:center;font:500 7.5px/1 BzMono,monospace;position:relative}
-.bubble::after{content:"";position:absolute;left:100%;top:50%;width:3.2in;border-top:.6px solid currentColor;opacity:.0}
-.c-elev figcaption{margin:6px 0 0 .03in;color:#fff}
+.c-elev figcaption{margin:14px 0 0 .03in;color:#fff}
 .c-elev figcaption em{color:${T.navyLine}}
-.c-low{position:absolute;left:.72in;right:.72in;top:7.55in;display:grid;grid-template-columns:1fr 2.5in;gap:.35in}
+.c-low{position:absolute;left:.72in;right:.72in;top:7.4in;display:grid;grid-template-columns:1fr 2.5in;gap:.35in}
 .index .lbl{color:${T.navyLine};margin-bottom:8px}
 .index table{width:100%;border-collapse:collapse;font-size:8.5px}
 .index td{padding:5px 6px 5px 0;border-top:.5px solid rgba(201,214,232,.28);color:rgba(255,255,255,.88);vertical-align:baseline}
@@ -408,16 +431,15 @@ figcaption em{display:block;font:400 6.4px/1.4 BzMono,monospace;letter-spacing:.
 .sched table{width:100%;border-collapse:collapse;font-size:7.6px;line-height:1.35;color:${T.ink}}
 .sched th{font:500 5.9px/1.2 BzMono,monospace;letter-spacing:.13em;text-align:left;color:${T.steel};padding:6px 6px 5px 0;border-bottom:.5px solid ${T.hair}}
 .sched td{padding:5px 7px 5px 0;border-bottom:.5px solid ${T.hair};vertical-align:top}
-.sched td.m{font:400 7.2px/1.35 BzMono,monospace;white-space:nowrap}
-.sched td.ser{font-weight:700;color:${T.ink};width:1.25in}
-.sched td.ctl{width:1.6in}
+.sched table.eq{table-layout:fixed}.sched td.m{font:400 7px/1.4 BzMono,monospace}
+.sched td.ser{font-weight:700;color:${T.ink}}
 .sched td.tag span{display:inline-grid;place-items:center;width:22px;height:13px;border:.7px solid ${T.draw};font:500 6.4px BzMono,monospace;color:${T.draw}}
 .sched tr.soon td{color:#5d5a5b}
 .soon-t{font:500 6px BzMono,monospace;letter-spacing:.1em;text-transform:uppercase;color:${T.flame};white-space:nowrap}
 .sched .tc{color:${T.steel};font-style:italic}
 .fn{font:400 6.4px/1.45 BzMono,monospace;color:${T.steel};margin-top:6px;letter-spacing:.02em}
-.dwgs{position:absolute;left:.72in;right:.72in;top:4.62in;display:grid;grid-template-columns:4.05in 1fr;gap:.25in}
-.lower{position:absolute;left:.72in;right:.72in;top:8.06in;display:grid;grid-template-columns:4.05in 1fr;gap:.25in}
+.dwgs{position:absolute;left:.72in;right:.72in;top:4.4in;display:grid;grid-template-columns:4.05in 1fr;gap:.25in}
+.lower{position:absolute;left:.72in;right:.72in;top:7.42in;display:grid;grid-template-columns:4.05in 1fr;gap:.25in}
 .panel{color:${T.draw};position:relative}
 .panel figcaption{margin-top:4px;padding-top:6px;border-top:.6px solid ${T.draw}}
 .dwg{display:block;width:100%;height:auto;overflow:visible}
@@ -439,9 +461,13 @@ figcaption em{display:block;font:400 6.4px/1.4 BzMono,monospace;letter-spacing:.
 .dwg .zonet{font:500 6px BzMono,monospace;letter-spacing:.14em;fill:${T.flame}}
 .dwg .wifi{stroke:${T.draw};stroke-width:.6;stroke-dasharray:2 2;fill:none}
 .dwg .furnp{fill:#fff;stroke:${T.steel};stroke-width:.6}
-.dwg .foot{fill:rgba(239,65,35,.05);stroke:${T.flame};stroke-width:.6;stroke-dasharray:3 2}
+.dwg .foot{fill:rgba(239,65,35,.035);stroke:${T.flame};stroke-width:.6;stroke-dasharray:3 2}
 .dwg .zone{stroke:${T.draw};stroke-width:.6;stroke-dasharray:10 3 2 3;fill:none}
 .dwg .ctl{fill:#fff;stroke:${T.draw};stroke-width:.7}
+.mf{position:absolute;left:.72in;right:.72in;top:5.55in}
+.mf .hdr{display:flex;justify-content:space-between;border-bottom:.9px solid ${T.draw};padding-bottom:5px;margin-bottom:10px;color:${T.draw}}
+.mf .hdr .r{color:${T.flame}}
+.dwg .box.hi{stroke:${T.flame};stroke-width:1}.dwg .hit{fill:${T.flame}}
 .notes .lbl{color:${T.draw};border-bottom:.9px solid ${T.draw};padding-bottom:5px;margin-bottom:6px}
 .notes ol{list-style:none;counter-reset:n}
 .notes li{counter-increment:n;position:relative;padding:0 0 5px 18px;font-size:7.4px;line-height:1.45;color:#3a3637}
@@ -450,12 +476,12 @@ figcaption em{display:block;font:400 6.4px/1.4 BzMono,monospace;letter-spacing:.
 .strip .cell{padding:5px 7px;border-right:.5px solid ${T.hair};display:flex;flex-direction:column;justify-content:space-between;white-space:nowrap}
 .strip .cell:last-child{border-right:0}
 .strip .cell.grow{flex:1;white-space:normal}
-.strip .cell.grow span{font-size:5.4px;line-height:1.35;color:${T.steel}}
+.strip .cell.grow span{font-size:6px;line-height:1.35;color:${T.steel}}
 .strip b{font-weight:500;font-size:5.4px;letter-spacing:.16em;color:${T.steel}}
 .strip .sheet span{font-size:15px;line-height:1;color:${T.draw}}.strip .sheet i{font-style:normal;font-size:8px;color:${T.steel}}
 
 /* ---- sheet 3 ---- */
-.p3{position:absolute;left:.72in;right:.72in;top:1.5in;display:grid;grid-template-columns:4.15in 1fr;gap:.3in}
+.p3{position:absolute;left:.72in;right:.72in;top:1.45in;display:grid;grid-template-columns:4.15in 1fr;gap:.3in}
 .legend{display:flex;flex-wrap:wrap;gap:4px 12px;margin-top:6px;font:500 5.8px BzMono,monospace;letter-spacing:.1em;color:${T.draw}}
 .legend span{display:flex;align-items:center;gap:5px}
 .legend i{display:inline-grid;place-items:center;font:500 4.6px BzMono,monospace;font-style:normal}
@@ -467,21 +493,22 @@ figcaption em{display:block;font:400 6.4px/1.4 BzMono,monospace;letter-spacing:.
 .checks li{display:grid;grid-template-columns:12px 18px 1fr;gap:6px;align-items:start;padding:6.4px 0;border-bottom:.5px solid ${T.hair};font-size:8.2px;line-height:1.42;color:#3a3637}
 .checks .bx{width:9px;height:9px;border:.8px solid ${T.draw};margin-top:1.5px}
 .checks .no{font:500 6.4px/1.9 BzMono,monospace;color:${T.flame}}
-.cta{position:absolute;left:.42in;right:.42in;top:6.62in;height:2.6in;background:${T.navy};color:#fff;display:grid;grid-template-columns:2.15in 1fr;gap:.35in;padding:.3in .3in .3in .3in;overflow:hidden}
+.cta{position:absolute;left:.42in;right:.42in;top:7.3in;height:2.2in;background:${T.navy};color:#fff;display:grid;grid-template-columns:2.15in 1fr;gap:.35in;padding:.3in .3in .3in .3in;overflow:hidden}
 .cta-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(201,214,232,.08) .6px,transparent .6px),linear-gradient(90deg,rgba(201,214,232,.08) .6px,transparent .6px);background-size:1in 1in;background-position:-.42in -.62in}
-.cta>*{position:relative}
+.cta>*{position:relative}.cta>.cta-grid{position:absolute}
 .cta .plate{border-color:rgba(201,214,232,.6)}
-.cta .plate-img{height:1.6in}
+.cta .plate-img{height:1.28in}
 .cta-body{display:flex;flex-direction:column;justify-content:center}
-.cta h3{font-size:25px;line-height:1.18;margin:9px 0 18px;max-width:4.3in}
+.cta h3{font-size:23px;line-height:1.2;margin:8px 0 14px;max-width:4.3in}
 .btn{align-self:flex-start;display:inline-flex;gap:14px;align-items:center;background:${T.flame};color:#fff;font:500 8px/1 BzMono,monospace;letter-spacing:.18em;padding:10px 16px;text-decoration:none}
-.addr{font:400 6.2px/1.5 BzMono,monospace;letter-spacing:.1em;color:${T.navyLine};margin-top:16px}
-.disc{position:absolute;left:.72in;right:.72in;top:9.42in;font-size:6.6px;line-height:1.5;color:${T.steel}}
+.addr{font:400 6.2px/1.6 BzMono,monospace;letter-spacing:.1em;color:${T.navyLine};margin-top:12px;max-width:3.9in}
+.disc{position:absolute;left:.72in;right:.72in;top:9.62in;font-size:6.6px;line-height:1.5;color:${T.steel}}
 `;
 
 const defs = `<svg width="0" height="0" style="position:absolute"><defs>
   <marker id="arDs" viewBox="0 0 10 10" refX="0" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10 1.5 L0 5 L10 8.5" fill="${T.draw}"/></marker>
   <marker id="arDe" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1.5 L10 5 L0 8.5" fill="${T.draw}"/></marker>
+  <marker id="arFe" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1.5 L10 5 L0 8.5" fill="${T.flame}"/></marker>
   <marker id="arWs" viewBox="0 0 10 10" refX="0" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10 1.5 L0 5 L10 8.5" fill="${T.navyLine}"/></marker>
   <marker id="arWe" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1.5 L10 5 L0 8.5" fill="${T.navyLine}"/></marker>
   <pattern id="hatch" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="5" stroke="${T.draw}" stroke-width=".5"/></pattern>
