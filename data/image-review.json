@@ -696,6 +696,54 @@
    "thumb": "images/review/thumb/ad-ts2-03.webp",
    "source": "v1 layout with the light streaks replaced by a soft warm glow below the heater and a gentle amber on the elements.",
    "status": "pending"
+  },
+  {
+   "id": "ad-ts2-03a",
+   "title": "Series II feature ad v3A (4:5): halo",
+   "kind": "Ad, CAD heater on photo",
+   "finish": "white and black",
+   "w": 2160,
+   "h": 2700,
+   "file": "images/review/full/ad-ts2-03a.jpg",
+   "thumb": "images/review/thumb/ad-ts2-03a.webp",
+   "source": "Glow option A (halo); same layout as v3, no light streaks.",
+   "status": "pending"
+  },
+  {
+   "id": "ad-ts2-03b",
+   "title": "Series II feature ad v3B (4:5): evening wash",
+   "kind": "Ad, CAD heater on photo",
+   "finish": "white and black",
+   "w": 2160,
+   "h": 2700,
+   "file": "images/review/full/ad-ts2-03b.jpg",
+   "thumb": "images/review/thumb/ad-ts2-03b.webp",
+   "source": "Glow option B (evening wash); same layout as v3, no light streaks.",
+   "status": "pending"
+  },
+  {
+   "id": "ad-ts2-03c",
+   "title": "Series II feature ad v3C (4:5): warm pool",
+   "kind": "Ad, CAD heater on photo",
+   "finish": "white and black",
+   "w": 2160,
+   "h": 2700,
+   "file": "images/review/full/ad-ts2-03c.jpg",
+   "thumb": "images/review/thumb/ad-ts2-03c.webp",
+   "source": "Glow option C (warm pool); same layout as v3, no light streaks.",
+   "status": "pending"
+  },
+  {
+   "id": "ad-ts2-03d",
+   "title": "Series II feature ad v3D (4:5): ember",
+   "kind": "Ad, CAD heater on photo",
+   "finish": "white and black",
+   "w": 2160,
+   "h": 2700,
+   "file": "images/review/full/ad-ts2-03d.jpg",
+   "thumb": "images/review/thumb/ad-ts2-03d.webp",
+   "source": "Glow option D (ember); same layout as v3, no light streaks.",
+   "status": "pending"
   }
  ]
 }
