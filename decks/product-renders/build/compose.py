@@ -13,7 +13,10 @@ if len(sys.argv) > 3 and sys.argv[3] == 'grey': bg = bg * 0.88
 al = a[..., 3:4].copy()
 # caught shadows (dark, partly transparent) are softened so the sweep stays light; the product itself (alpha ~1) is untouched
 sh = (al < 0.985) & (a[..., :3].max(-1, keepdims=True) < 0.08)
-al = np.where(sh, al * 0.62, al)
+from PIL import ImageFilter
+shadow = np.where(sh, al, 0)[..., 0]
+shadow = np.asarray(Image.fromarray((shadow * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(W / 160))).astype(np.float32)[..., None] / 255
+al = np.where(sh, shadow * 0.5, al)   # caught shadows: blurred and lighter, so the sweep stays even with no hard streaks
 out = a[..., :3] * al + bg * (1 - al)
 # fine film grain so flat areas do not read as CG
 g = np.random.default_rng(1).normal(0, 0.0045, (H, W, 1)).astype(np.float32)

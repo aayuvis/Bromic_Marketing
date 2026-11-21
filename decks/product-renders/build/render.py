@@ -116,6 +116,26 @@ d = (tgt - cam.location).normalized(); up = V(C.get('up', (0, 0, 1)))
 x = d.cross(up).normalized(); y = x.cross(d)
 cam.matrix_world = (M3((x, y, -d)).transposed()).to_4x4() @ mathutils.Matrix.Identity(4) if False else mathutils.Matrix.Translation(cam.location) @ M3((x, y, -d)).transposed().to_4x4()
 if C.get('roll'): cam.rotation_euler.rotate_axis('Z', math.radians(C['roll']))
+if C.get('fit'):  # pull the camera back along its view line until every heater corner sits inside the frame with this margin
+    from bpy_extras.object_utils import world_to_camera_view
+    r0 = sc.render; r0.resolution_x = int(SH['res'][0]); r0.resolution_y = int(SH['res'][1])
+    cam_d.lens = C.get('lens', 50); cam_d.sensor_width = 36; bpy.context.view_layer.update()
+    corners = [V((x_, y_, z_)) for hh in heads for x_ in (hh['lo'].x, hh['hi'].x) for y_ in (hh['lo'].y, hh['hi'].y) for z_ in (hh['lo'].z, hh['hi'].z)]
+    ctr = sum(corners, V()) / len(corners); m = C['fit']
+    p0 = cam.location.copy(); dirv = (p0 - ctr).normalized(); dist = (p0 - ctr).length
+    def fits(dd):
+        cam.location = ctr + dirv * dd; t = (ctr - cam.location).normalized(); xx = t.cross(up).normalized(); yy = xx.cross(t)
+        cam.matrix_world = mathutils.Matrix.Translation(cam.location) @ M3((xx, yy, -t)).transposed().to_4x4()
+        if C.get('roll'): cam.rotation_euler.rotate_axis('Z', math.radians(C['roll']))
+        bpy.context.view_layer.update()
+        pts = [world_to_camera_view(sc, cam, c) for c in corners]
+        return all(m <= p.x <= 1 - m and m <= p.y <= 1 - m and p.z > 0 for p in pts)
+    lo_, hi_ = dist * 0.3, dist * 4
+    for _ in range(30):
+        mid = (lo_ + hi_) / 2
+        if fits(mid): hi_ = mid
+        else: lo_ = mid
+    fits(hi_); tgt = ctr
 cam_d.lens = C.get('lens', 50); cam_d.sensor_width = 36; cam_d.clip_start = 0.01
 if C.get('fstop'):
     cam_d.dof.use_dof = True; cam_d.dof.aperture_fstop = C['fstop']
@@ -128,7 +148,7 @@ def area(name, loc, size, power, col=(1, 1, 1), look=None):
     o = bpy.data.objects.new(name, L); sc.collection.objects.link(o); o.location = base + V(loc)
     t = (look if look is not None else base) - o.location
     o.rotation_euler = t.to_track_quat('-Z', 'Y').to_euler()
-key = SH.get('key', (-2.0, -2.2, -1.6)); area('key', key, 2.6, SH.get('key_w', 900), (1.0, 0.98, 0.95))
+key = SH.get('key', (-2.0, -2.2, -1.6)); area('key', key, SH.get('key_size', 5.0), SH.get('key_w', 900), (1.0, 0.98, 0.95))
 area('fill', SH.get('fill', (2.4, -1.8, -0.8)), 3.0, SH.get('fill_w', 300), (0.95, 0.97, 1.0))
 area('rim', SH.get('rim', (0.5, 2.2, -0.4)), 1.2, SH.get('rim_w', 500))
 area('top', (0, -0.5, 2.5), 4, SH.get('top_w', 150))
