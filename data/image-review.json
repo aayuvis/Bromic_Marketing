@@ -865,6 +865,18 @@
    "thumb": "images/review/thumb/pr-classic-black-hero.webp",
    "source": "Rendered from the Tungsten Series II CAD (Classic fascia) on a white studio sweep; short ceiling post, glowing elements. The logo end faces away in this angle. Graded to natural colour, with short contact shadows.",
    "status": "pending"
+  },
+  {
+   "id": "pr-select-white-from-below",
+   "title": "Series II Select white, frontal from below (ceiling)",
+   "kind": "CAD studio render",
+   "finish": "white",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-select-white-from-below.jpg",
+   "thumb": "images/review/thumb/pr-select-white-from-below.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a white studio sweep, looking straight up at a ceiling-mounted heater. Graded to natural colour, with short contact shadows.",
+   "status": "pending"
   }
  ]
 }
