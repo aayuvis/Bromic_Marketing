@@ -1,0 +1,25 @@
+Tungsten Smart-Heat Electric Series II – low-clearance recess kit, premium 3D film (voice-over, US English).
+Facts only from the launch framework (data/product-marketing/tungsten-electric-series-ii.json), the low-clearance recess kit
+instructions and the named parts of the 6 kW heater and recess kit CAD. The airflow is an illustration; which way the fans blow and
+what the fan thermostat does are to be confirmed by the Product team, so neither is stated.
+
+[1 · Cold open]
+Six kilowatts. Seven and a half inches. Flush.
+
+[2 · The ceiling opens]
+Behind the ceiling: six kilowatts, in a cavity just seven and a half inches deep.
+
+[3 · Exploded build]
+One supplied recess box, so there's no box to build on site. Dual cooling fans. A radiant barrier. And the terminal box at one end.
+
+[4 · Without a ventilated kit – illustration]
+An illustration. Without a ventilated kit, heat behind the heater has nowhere to go. It rises, and pools against the joists and the deck.
+
+[5 · With the kit]
+With the kit, the fans draw air in at one end, carry it behind the heater, and out at the other. The cavity stays cool, and the radiant heat goes down to the seats.
+
+[6 · Built-in protection]
+And built in: an over-temperature cut-out in the terminal box, with a manual reset.
+
+[7 · Hero end]
+Worry-free, dual fan-ventilated, six-kilowatt recessing. Plan it in, at bromic dot com.
