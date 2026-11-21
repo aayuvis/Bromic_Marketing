@@ -853,6 +853,18 @@
    "thumb": "images/review/thumb/pr-select-graphite-endcap.webp",
    "source": "Rendered from the Tungsten Series II CAD on a white studio sweep; satin powder coat, glowing elements.",
    "status": "pending"
+  },
+  {
+   "id": "pr-classic-black-hero",
+   "title": "Series II Classic black hero, ceiling post",
+   "kind": "CAD studio render",
+   "finish": "black",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-classic-black-hero.jpg",
+   "thumb": "images/review/thumb/pr-classic-black-hero.webp",
+   "source": "Rendered from the Tungsten Series II CAD (Classic fascia) on a white studio sweep; short ceiling post, glowing elements. The logo end faces away in this angle.",
+   "status": "pending"
   }
  ]
 }
