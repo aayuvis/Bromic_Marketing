@@ -1,0 +1,5 @@
+Print check, 2026-11-21
+controls: blocks overlap: sec / sec mxw
+controls: blocks overlap: sec mxw / cta
+mounting: blocks overlap: s-head / panel sec2
+mounting: blocks overlap: sec mxw2 / foot2

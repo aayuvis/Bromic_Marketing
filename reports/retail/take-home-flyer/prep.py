@@ -1,4 +1,4 @@
-"""Prepares the take-home flyer's assets: Bromic photos as JPEG (<= 2000 px, q82) and the two QR codes as SVG.
+"""Prepares the take-home flyer's assets: Bromic photos as JPEG (<= 2000 px, q82) and the two QR codes as PNG (12 px a module, shown pixelated).
 Run by build.js; needs Pillow and segno (pip install segno)."""
 import json, os, sys
 from PIL import Image
@@ -18,6 +18,5 @@ for name, src in cfg['images'].items():
 for q in cfg['qr']:
     # error correction M, quiet zone of 4 modules (the QR standard's minimum)
     code = segno.make(q['url'], error='m', micro=False)
-    code.save(os.path.join(out, f"qr-{q['id']}.svg"), scale=1, border=4, dark='#231F20', light='#FFFFFF', xmldecl=False, svgns=True)
     code.save(os.path.join(out, f"qr-{q['id']}.png"), scale=12, border=4)
 print('prep: images', len(cfg['images']), 'qr', len(cfg['qr']))

@@ -1,0 +1,215 @@
+<!doctype html><html lang="en-US"><head><meta charset="utf-8">
+<title>Bromic Take-Home Flyer · Half Letter</title><style>
+@font-face { font-family: 'Didot'; src: url('../../../app/src/fonts/gfs-didot-latin.woff2') format('woff2'); }
+@font-face { font-family: 'Arimo'; src: url('../../../app/src/fonts/arimo-latin.woff2') format('woff2'); font-weight: 100 900; }
+:root { --ink: #231F20; --steel: #6E7377; --mist: #A7ABAE; --rule: #D9DBDC; --flame: #EF4123; --paper: #FFFFFF; --body: #3a3637; }
+@page { size: 5.5in 8.5in; margin: 0; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--paper); }
+body { font-family: 'Arimo', 'Helvetica Neue', Arial, sans-serif; color: var(--ink); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.didot { font-family: 'Didot', 'Bodoni 72', serif; font-weight: 400; }
+.label { font-size: 7.2pt; letter-spacing: 0.22em; text-transform: uppercase; color: var(--flame); }
+.page { width: 8.5in; height: 11in; position: relative; overflow: hidden; background: var(--paper); page-break-after: always; --m: 0.5in; }
+.page:last-child { page-break-after: auto; }
+.photo { position: absolute; background-size: cover; background-repeat: no-repeat; }
+
+/* ---------- front ---------- */
+.front .photo { inset: 0; background-position: 50% 50%; }
+.front .shade { position: absolute; inset: 0; background:
+  radial-gradient(ellipse 70% 30% at 22% 36%, rgba(24,18,14,.5) 0%, rgba(24,18,14,0) 100%),
+  linear-gradient(180deg, rgba(24,18,14,.66) 0%, rgba(24,18,14,.42) 22%, rgba(24,18,14,.10) 38%, rgba(24,18,14,0) 48%, rgba(24,18,14,.45) 64%, rgba(24,18,14,.82) 78%, rgba(24,18,14,.92) 100%); }
+.front .mast { position: absolute; top: 0.46in; left: var(--m); right: var(--m); display: flex; justify-content: space-between; align-items: center; }
+.front .mast img { height: 0.30in; }
+.front .mast .label { color: #fff; opacity: .92; }
+.front .kicker { position: absolute; top: 1.28in; left: var(--m); display: flex; align-items: center; gap: 10pt; }
+.front .kicker::before { content: ''; width: 28pt; height: 1.2pt; background: var(--flame); }
+.front .kicker .label { color: #fff; }
+.front .hero { position: absolute; top: 1.5in; left: var(--m); right: var(--m); }
+.front h1 { margin-left: -3pt; color: #fff; font-size: 80pt; line-height: 0.92; letter-spacing: -0.012em; text-shadow: 0 1px 26px rgba(0,0,0,.25); }
+.front .deck { margin-top: 16pt; width: 3.9in; color: #fff; font-family: 'Didot', serif; font-size: 16pt;
+  line-height: 1.3; font-style: italic; text-shadow: 0 1px 14px rgba(0,0,0,.4); }
+.front .why { position: absolute; left: var(--m); right: var(--m); bottom: 0.84in; }
+.front .reasons-h { color: #fff; display: flex; align-items: center; gap: 10pt; margin-bottom: 12pt; }
+.front .reasons-h .label { color: #fff; }
+.front .reasons { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.24in; }
+.front .reasons div { border-top: 1.2pt solid var(--flame); padding-top: 9pt; color: #fff; }
+.front .reasons .no { font-family: 'Didot', serif; font-size: 24pt; line-height: 1; display: block; margin-bottom: 6pt; }
+.front .reasons .t { font-family: 'Didot', serif; font-size: 13.5pt; line-height: 1.12; display: block; margin-bottom: 5pt; }
+.front .reasons .d { font-size: 8.4pt; line-height: 1.48; color: rgba(255,255,255,.86); display: block; }
+.front .reasons .d small { display: block; font-size: 6.9pt; margin-top: 4pt; color: rgba(255,255,255,.72); }
+.folio { position: absolute; left: var(--m); right: var(--m); bottom: 0.36in; display: flex; justify-content: space-between; align-items: baseline;
+  font-size: 6.8pt; letter-spacing: 0.2em; text-transform: uppercase; color: var(--steel); border-top: 0.5pt solid var(--rule); padding-top: 7pt; }
+.folio.light { color: rgba(255,255,255,.88); border-color: rgba(255,255,255,.35); }
+.folio b { font-weight: 400; color: var(--flame); }
+
+/* ---------- back ---------- */
+.back .head { position: absolute; top: 0.48in; left: var(--m); right: var(--m); display: flex; justify-content: space-between; align-items: flex-start; }
+.back .head .label { display: block; margin-bottom: 8pt; }
+.back .head h2 { font-size: 30pt; line-height: 1; letter-spacing: -0.006em; }
+.back .head img { height: 0.26in; margin-top: 2pt; }
+.back .picks { position: absolute; top: 1.36in; left: var(--m); width: 4.42in; border-top: 0.6pt solid var(--ink); }
+.back h3 { font-size: 15.5pt; line-height: 1; margin: 9pt 0 8pt; }
+.back .pick { display: grid; grid-template-columns: 0.8in 1fr; gap: 11pt; padding: 6.5pt 0; border-bottom: 0.5pt solid var(--rule); }
+.back .pick .ph { width: 0.8in; height: 0.8in; background-size: cover; position: relative; }
+.back .pick .sp { display: block; font-size: 6.6pt; letter-spacing: 0.18em; text-transform: uppercase; color: var(--flame); margin-bottom: 3pt; }
+.back .pick .soon { display: inline-block; margin-left: 6pt; padding: 1pt 4pt; font-size: 5.8pt; letter-spacing: 0.16em; color: #fff; background: var(--ink); vertical-align: 1pt; }
+.back .pick .n { display: block; font-family: 'Didot', serif; font-size: 11.6pt; line-height: 1.12; margin-bottom: 3pt; }
+.back .pick .d { display: block; font-size: 7.5pt; line-height: 1.38; color: var(--body); margin-bottom: 3pt; }
+.back .pick .c { display: block; font-size: 7.4pt; line-height: 1.38; color: var(--ink); }
+.back .pick .c b { font-weight: 400; font-size: 6.2pt; letter-spacing: 0.18em; text-transform: uppercase; color: var(--steel); margin-right: 4pt; }
+.back .wifi { font-size: 6.6pt; line-height: 1.4; color: var(--steel); margin-top: 6pt; }
+.back .side { position: absolute; top: 1.36in; left: 5.24in; right: var(--m); border-top: 0.6pt solid var(--ink); }
+.back .qs { list-style: none; }
+.back .qs li { display: grid; grid-template-columns: 0.3in 1fr; padding: 6pt 0 7pt; border-bottom: 0.5pt solid var(--rule); }
+.back .qs .no { font-family: 'Didot', serif; font-size: 17pt; line-height: 0.95; }
+.back .qs .t { display: block; font-size: 6.8pt; letter-spacing: 0.18em; text-transform: uppercase; margin-bottom: 3pt; }
+.back .qs .d { display: block; font-size: 7.7pt; line-height: 1.42; color: var(--body); }
+.back .need h3 { margin-top: 15pt; }
+.back .need .k { display: block; font-size: 6.6pt; letter-spacing: 0.18em; text-transform: uppercase; color: var(--flame); margin: 6pt 0 3pt; }
+.back .need ul { list-style: none; }
+.back .need li { font-size: 7.4pt; line-height: 1.4; color: var(--body); padding: 0 0 3.5pt 10pt; position: relative; }
+.back .need li::before { content: ''; position: absolute; left: 0; top: 4.2pt; width: 4pt; height: 0.8pt; background: var(--ink); }
+.back .need .short { display: none; }
+.back .need .legal { font-size: 6.7pt; line-height: 1.42; color: var(--ink); margin-top: 6pt; padding-top: 5pt; border-top: 0.5pt solid var(--rule); }
+.back .act { position: absolute; left: var(--m); right: var(--m); bottom: 0.62in; height: 2.02in; display: grid; grid-template-columns: 4.42in 1fr; gap: 0.3in;
+  border-top: 1.2pt solid var(--flame); padding-top: 10pt; }
+.back .act .label { display: block; margin-bottom: 7pt; }
+.back .codes { display: grid; grid-template-columns: 1fr 1fr 1.3in; gap: 0.18in; align-items: start; }
+.back .code .qr { width: 1.0in; height: 1.0in; display: block; margin: 0 0 4pt -0.07in; image-rendering: pixelated; }
+.back .code .t { display: block; font-family: 'Didot', serif; font-size: 11pt; line-height: 1.1; margin-bottom: 2pt; }
+.back .code .u { display: block; font-size: 6.4pt; color: var(--steel); letter-spacing: 0.02em; word-break: break-all; }
+.back .phone { font-size: 7.2pt; line-height: 1.45; color: var(--body); padding-top: 2pt; }
+.back .phone b { display: block; font-family: 'Didot', serif; font-weight: 400; font-size: 11.5pt; line-height: 1.1; color: var(--ink); margin-bottom: 4pt; }
+.back .boxes { display: grid; grid-template-columns: 1fr; gap: 0.1in; }
+.back .box { border: 0.7pt solid var(--ink); height: 0.78in; padding: 7pt 8pt; position: relative; }
+.back .box .label { color: var(--ink); margin: 0; font-size: 6.6pt; }
+.back .box.notes { background: repeating-linear-gradient(180deg, transparent 0, transparent 17pt, var(--rule) 17pt, var(--rule) 17.6pt); background-position: 0 20pt; background-origin: content-box; }
+
+/* ---------- half-letter: the same two sides, re-set for 5.5 x 8.5 in ---------- */
+
+.page { width: 5.5in; height: 8.5in; --m: 0.34in; }
+.front .mast { top: 0.32in; } .front .mast img { height: 0.22in; } .front .mast .label { font-size: 5.6pt; letter-spacing: 0.18em; }
+.front .kicker { top: 0.86in; } .front .kicker::before { width: 20pt; }
+.front .kicker .label { font-size: 6pt; }
+.front .hero { top: 1.04in; } .front h1 { font-size: 54pt; }
+.front .deck { margin-top: 10pt; width: 3.1in; font-size: 12pt; }
+.front .why { bottom: 0.62in; } .front .reasons-h { margin-bottom: 7pt; } .front .reasons-h .label { font-size: 6pt; }
+.front .reasons { grid-template-columns: 1fr; gap: 7pt; }
+.front .reasons div { display: grid; grid-template-columns: 0.36in 1fr; column-gap: 6pt; padding-top: 6pt; border-top-width: 0.9pt; }
+.front .reasons .no { font-size: 16pt; grid-row: span 2; margin: 0; }
+.front .reasons .t { font-size: 11pt; margin-bottom: 2pt; }
+.front .reasons .d { font-size: 7.4pt; line-height: 1.4; }
+.front .reasons .d small { font-size: 6.2pt; margin-top: 2pt; }
+.folio { bottom: 0.24in; font-size: 5.6pt; letter-spacing: 0.16em; padding-top: 5pt; }
+.back .head { top: 0.32in; } .back .head h2 { font-size: 20pt; } .back .head .label { font-size: 6pt; margin-bottom: 5pt; } .back .head img { height: 0.18in; }
+.back .picks { top: 0.92in; width: auto; right: var(--m); }
+.back h3 { font-size: 11.5pt; margin: 6pt 0 4pt; }
+.back .pick { grid-template-columns: 0.46in 1fr; gap: 8pt; padding: 4pt 0; align-items: center; }
+.back .pick .ph { width: 0.46in; height: 0.46in; }
+.back .pick .sp { font-size: 5.4pt; margin-bottom: 1.5pt; } .back .pick .soon { font-size: 5pt; }
+.back .pick .n { font-size: 9.2pt; margin-bottom: 1.5pt; }
+.back .pick .d { display: none; }
+.back .pick .c { font-size: 6.7pt; line-height: 1.32; } .back .pick .c b { font-size: 5.4pt; }
+.back .wifi { font-size: 5.9pt; margin-top: 4pt; }
+.back .side { top: 4.6in; left: var(--m); right: var(--m); display: grid; grid-template-columns: 1fr 1fr; gap: 0.18in; border-top: 0.6pt solid var(--ink); }
+.back .qs li { grid-template-columns: 0.2in 1fr; padding: 3.5pt 0 4pt; }
+.back .qs .no { font-size: 11pt; } .back .qs .t { font-size: 5.6pt; margin-bottom: 1.5pt; } .back .qs .d { font-size: 6.5pt; line-height: 1.32; }
+.back .need h3 { margin-top: 6pt; } .back .side h3 { font-size: 10.5pt; }
+.back .need .k { font-size: 5.4pt; margin: 2pt 0 2pt; }
+.back .need ul { display: none; } .back .need .short { display: block; font-size: 6.4pt; line-height: 1.34; color: var(--body); }
+.back .need .legal { font-size: 5.9pt; line-height: 1.32; margin-top: 3pt; padding-top: 3pt; }
+.back .act { bottom: 0.46in; height: 1.5in; grid-template-columns: 2.86in 1fr; gap: 0.16in; padding-top: 6pt; border-top-width: 0.9pt; }
+.back .act .label { font-size: 5.8pt; margin-bottom: 4pt; }
+.back .codes { grid-template-columns: 1fr 1fr; gap: 0.1in; }
+.back .code .qr { width: 0.74in; height: 0.74in; margin: 0 0 3pt -0.05in; }
+.back .code .t { font-size: 8.2pt; white-space: nowrap; } .back .code .u { font-size: 5.2pt; }
+.back .phone { display: none; }
+.back .boxes { grid-template-columns: 1fr; gap: 0.08in; }
+.back .box { height: 0.6in; padding: 4pt 6pt; } .back .box .label { font-size: 5.4pt; }
+.back .box.notes { background-size: auto; background: repeating-linear-gradient(180deg, transparent 0, transparent 12pt, var(--rule) 12pt, var(--rule) 12.5pt); background-origin: content-box; background-position: 0 12pt; }
+
+</style></head><body>
+
+<section class="page front">
+  <div class="photo" style="background-image:url('img/front.jpg')"></div>
+  <div class="shade"></div>
+  <div class="mast"><img src="../../../images/portfolio/bromic-logo-white.png" alt="Bromic Heating"><span class="label">Your Take-Home Guide To Outdoor Heat</span></div>
+  <div class="kicker"><span class="label">For Your Outdoor Space</span></div>
+  <div class="hero"><h1 class="didot">Extend The Moment</h1>
+  <div class="deck">Radiant warmth turns a cool evening into one more hour around the table, season after season.</div></div>
+  <div class="why"><div class="reasons-h"><span class="label">Why Bromic</span></div>
+  <div class="reasons">
+    <div><span class="no">01</span><span class="t">Heat You Can Feel, Not See</span><span class="d">Radiant infrared warms people and objects directly, so it holds up in a light breeze. Bromic electric heaters are warm in about 30 seconds.</span></div>
+    <div><span class="no">02</span><span class="t">Designed Around Your Space</span><span class="d">Platinum Smart-Heat® Electric is just 2.1 in deep and can sit flush in the ceiling. Eclipse adds a warm, dimmable LED ring over the table.</span></div>
+    <div><span class="no">03</span><span class="t">Exactly Where, And When, You Want It</span><span class="d">Every Bromic heater is paired with Affinity Smart-Heat® Controls: dim Platinum and Tungsten Electric in 1% steps, with zones and schedules in the Bromic app.<small>Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately.</small></span></div>
+  </div></div>
+  <div class="folio light"><span>Bromic Heating · bromic.com</span><span>Turn Over To Find Your Heater <b>→</b></span></div>
+</section>
+
+<section class="page back">
+  <div class="head">
+    <div><span class="label">Plan Your Space</span><h2 class="didot">Find The Warmth That Fits</h2></div>
+    <img src="../../../images/portfolio/bromic-logo.png" alt="Bromic Heating">
+  </div>
+
+  <div class="picks">
+    <h3 class="didot">Which Heater For Your Space</h3>
+    <div class="pick"><div class="ph" style="background-image:url('img/pick-platinum.jpg');background-position:62% 40%"></div>
+      <div><span class="sp">Covered Patio, Ceiling Or Wall</span><span class="n">Platinum Smart-Heat® Electric</span><span class="d">A tinted glass-ceramic face in a body just 2.1 in deep, mounted or set flush into a 7.1 in ceiling cavity.</span>
+      <span class="c"><b>Controls</b>Affinity Smart-Heat® Dimmer or On/Off, plus a wall switch</span></div></div>
+    <div class="pick"><div class="ph" style="background-image:url('img/pick-eclipse.jpg');background-position:50% 30%"></div>
+      <div><span class="sp">Over The Dining Table</span><span class="n">Eclipse Smart-Heat® Electric Pendant</span><span class="d">Radiant heat and a warm, dimmable 3000K LED ring in one fixture, in three heat settings.</span>
+      <span class="c"><b>Controls</b>Affinity Smart-Heat® Eclipse Controller, or Eclipse Dimmer Controller with remote, plus a wall switch</span></div></div>
+    <div class="pick"><div class="ph" style="background-image:url('img/pick-freestanding.jpg');background-position:40% 50%"></div>
+      <div><span class="sp">Open Seating, No Roof</span><span class="n">Eclipse Smart-Heat® Freestanding</span><span class="d">An arched arm on a weighted base with two wheels that plugs into an outdoor outlet.</span>
+      <span class="c"><b>Controls</b>Eclipse Dimmer Controller and remote, included</span></div></div>
+    <div class="pick"><div class="ph" style="background-image:url('img/pick-gas.jpg');background-position:30% 40%"></div>
+      <div><span class="sp">Heat On Gas</span><span class="n">Platinum Gas · Tungsten Freestanding Gas</span><span class="d">Platinum Gas mounts under cover; the Tungsten tower rolls to wherever tonight’s seating is, on propane or natural gas.</span>
+      <span class="c"><b>Controls</b>Platinum Gas: Affinity Smart-Heat® On/Off or a wall switch. The tower: its own knob</span></div></div>
+    <div class="pick"><div class="ph" style="background-image:url('img/pick-tungsten.jpg');background-position:50% 30%"></div>
+      <div><span class="sp">Pitched Porch Or Coastal Home<span class="soon">Coming Soon</span></span><span class="n">Tungsten Smart-Heat® Electric Series II</span><span class="d">Mounts on pitched ceilings from 3/12 to 12/12 with its adaptor; the Coastal tier is built for life by the water.</span>
+      <span class="c"><b>Controls</b>Affinity Smart-Heat® Dimmer, plus a wall switch</span></div></div>
+    <p class="wifi">Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately. Tungsten Series II: Select and Coastal coming soon; Classic from January 2027.</p>
+  </div>
+
+  <div class="side">
+    <div>
+      <h3 class="didot">Three Questions To Ask Yourself</h3>
+      <ol class="qs"><li><span class="no didot">1</span><div><span class="t">Your Space</span><span class="d">Is it covered, partly covered or open? Count the seats: plan about 20 ft² a seat.</span></div></li><li><span class="no didot">2</span><div><span class="t">Mounting</span><span class="d">Ceiling, wall, recessed flush, on a pole – or freestanding, so it moves with the table?</span></div></li><li><span class="no didot">3</span><div><span class="t">Power Or Fuel</span><span class="d">An electric circuit at 208 V or 220–240 V, or a natural gas or propane line?</span></div></li></ol>
+    </div>
+    <div class="need">
+      <h3 class="didot">What Your Installer Will Need</h3>
+      <span class="k">Electric</span>
+      <ul>
+        <li>A hard-wired circuit at 208 V or 220–240 V, sized by your electrician – or an outdoor outlet for Eclipse Freestanding.</li>
+        <li>A junction box at each heater: wall mounts at least 72 in above the floor, ceiling mounts at least 96 in (varies with output).</li>
+        <li>A place for the Affinity controller and a wall switch, with Wi-Fi there for the app.</li>
+        <li class="long">For a flush ceiling, room for the recess kit – a 7.1 in cavity for Platinum Electric.</li>
+      </ul>
+      <p class="short">A circuit at 208 V or 220–240 V (an outdoor outlet for Eclipse Freestanding), a junction box at each heater, and a place for the Affinity controller and a wall switch.</p>
+      <span class="k">Gas</span>
+      <ul>
+        <li>A natural gas or propane line with an accessible shut-off.</li>
+        <li>Mounted gas heaters sit under cover at least 96 in above the floor and also need 110 V for ignition and controls.</li>
+      </ul>
+      <p class="short">A natural gas or propane line with a shut-off. Mounted gas heaters sit under cover, at least 96 in above the floor, with 110 V for ignition and controls.</p>
+      <p class="legal">Installation by a licensed electrician or gas fitter to local codes. Check every installation with your local building authority.</p>
+    </div>
+  </div>
+
+  <div class="act">
+    <div>
+      <span class="label">Scan To Plan</span>
+      <div class="codes">
+        <div class="code" data-qr="design"><img class="qr" src="img/qr-design.png" alt="QR code: https://www.bromic.com/design-your-space/"><span class="t">Request Your Design Plan</span><span class="u">bromic.com/design-your-space</span></div><div class="code" data-qr="sizing"><img class="qr" src="img/qr-sizing.png" alt="QR code: https://aayuvis.github.io/Bromic_Marketing/tools/A03-sizing/"><span class="t">Size Your Space</span><span class="u">aayuvis.github.io/Bromic_Marketing/tools/A03-sizing</span></div>
+        <p class="phone"><b>Or Call Our Design Team</b>A complimentary design service: heater selection and placement from your photos or plans. 1-800-301-1293, Mon–Fri 9–4 PT.</p>
+      </div>
+    </div>
+    <div class="boxes">
+      <div class="box stamp"><span class="label">Your Retailer</span></div>
+      <div class="box notes"><span class="label">Your Notes</span></div>
+    </div>
+  </div>
+  <div class="folio"><span>Bromic Heating · bromic.com</span><span>Ask Your Retailer For Pricing</span></div>
+</section>
+</body></html>
