@@ -142,7 +142,8 @@
    ],
    "lens": 90,
    "fstop": 2.8,
-   "focus": "logo"
+   "focus": "logo",
+   "roll": 180
   },
   "res": [
    3840,
