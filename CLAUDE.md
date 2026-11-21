@@ -111,6 +111,7 @@ files to `review/approved.zip` ("Download approved as zip"). New generated image
 the background is (real photo or generated) and the finish. Approved images still enter `images/library` as `generated` before use.
 Rules for making them: [cad/CAD-TO-REAL-REQUIREMENTS.md](cad/CAD-TO-REAL-REQUIREMENTS.md); QC agent `.claude/agents/tungsten-render-qc.md`.
 Each card has a comment box; a rejection needs a reason (saved as `note`, with `decided` date).
+**Decisions lock (owner, 21 Nov 2026: "it should lock in where it is unless moved"):** every approve, reject or move-back (items, case studies, images) is kept in the browser (`bromic-hub-decisions-v1`) the moment it is clicked and shown in every list until the published data carries it. Items have Approve, Reject and Move back to review; `[Reject]` and `[Status]` issues are applied like `[Approve]`.
 **Learning loop (start every session here, with the feedback issues):** read `data/image-review.json` (and any `[Image approval]`
 issues). For every rejection or comment not yet learned, add one concrete, testable rule to §12 "Owner decisions" of the
 requirements doc and the matching check to the QC agent, then set `learned: true` on that item and commit. Approved images

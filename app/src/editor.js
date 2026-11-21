@@ -200,7 +200,7 @@
     const patch = { file: it.file, base_commit: C.H.commit, edits: Object.entries(e.blocks || {}).map(([n, nw]) => ({ block: +n, old: blockText(it, n).replace(/\n+$/, ''), new: nw })),
       ...(e.hero ? { hero: { old: it.hero, new: e.hero } } : {}), ...(e.title != null ? { title: e.title } : {}), ...(e.status ? { status: e.status } : {}), ...(e.summary != null ? { summary: e.summary } : {}) };
     const body = `<!-- bromic-edit v1 -->\nelement: item:${it.id}${it.lang && it.lang !== 'en' ? '\nlang: ' + it.lang : ''}\ntype: edit\npage: #/item/${it.id}\ncommit: ${C.H.commit}\nby: ${who || ''}\n---\nApply these edits to \`${it.file}\` (Hub editor).\n\n\`\`\`json\n${JSON.stringify(patch, null, 1)}\n\`\`\`\n`;
-    const title = e.status && count(e) === 1 ? `[Approve] ${it.id}: ${it.title.slice(0, 60)}` : `[Edit] ${it.id}${it.lang && it.lang !== 'en' ? ' (' + it.lang + ')' : ''}: ${count(e)} ${count(e) === 1 ? 'change' : 'changes'}`;
+    const title = e.status && count(e) === 1 ? `[${e.status === 'approved' ? 'Approve' : e.status === 'rejected' ? 'Reject' : 'Status'}] ${it.id}: ${it.title.slice(0, 60)}` : `[Edit] ${it.id}${it.lang && it.lang !== 'en' ? ' (' + it.lang + ')' : ''}: ${count(e)} ${count(e) === 1 ? 'change' : 'changes'}`;
     let url = `https://github.com/${R.owner}/${R.name}/issues/new?title=${encodeURIComponent(title)}&labels=edit&body=${encodeURIComponent(body)}`;
     if (url.length > 7500) {               // too long for a link: copy it, and open the form with a short note
       navigator.clipboard?.writeText(body).catch(() => {});
@@ -226,7 +226,7 @@
     const all = [...Object.values(edits[K(it)].blocks || {}), edits[K(it)].title || '', edits[K(it)].summary || ''].join('\n');
     const L = lint(all), hard = L.some((x) => x.hard);
     const tok = load(TOK, null), who = load(WHO, '');
-    modal(`<h3>${edits[K(it)].status && count(edits[K(it)]) === 1 ? 'Approve this page' : `Save ${count(edits[K(it)])} ${count(edits[K(it)]) === 1 ? 'change' : 'changes'}`}</h3>${edits[K(it)].status ? '<p>Marks it approved, ready for 454 Creative to lay out. Your name goes in the change history.</p>' : ''}
+    modal(`<h3>${edits[K(it)].status && count(edits[K(it)]) === 1 ? ({ approved: 'Approve this page', rejected: 'Reject this page', draft: 'Move back to review' }[edits[K(it)].status] || 'Change the status') : `Save ${count(edits[K(it)])} ${count(edits[K(it)]) === 1 ? 'change' : 'changes'}`}</h3>${edits[K(it)].status ? `<p>${{ approved: 'Marks it approved, ready for 454 Creative to lay out.', rejected: 'Marks it rejected: it leaves the review list.', draft: 'Puts it back in the review list.' }[edits[K(it)].status] || ''} It is already locked in on this device; saving makes it stick for everyone. Your name goes in the change history.</p>` : ''}
       ${L.length ? `<ul class="ed-lint-list">${L.map((x) => `<li class="${x.hard ? 'hard' : ''}">${esc(x.msg)}</li>`).join('')}</ul>` : ''}
       ${hard ? '<p>Fix the rules above before saving.</p>' : `
       <label class="label" for="ed-who">Your name</label><input id="ed-who" class="ed-input" value="${esc(who)}" placeholder="For the change history">
@@ -331,6 +331,7 @@
       if (Object.keys(edits).length || Object.keys(saved).length) needMarked().then(() => C.rerender());
     },
     approve(id) { const it = C.ITEM[id]; if (!it) return; (edits[K(it)] ||= { blocks: {} }).status = 'approved'; persist(); saveDialog(it); },
+    decide(id, st) { const it = C.ITEM[id]; if (!it) return; (edits[K(it)] ||= { blocks: {} }).status = st; persist(); saveDialog(it); },
     start(id) { editing = id; openBlock = null; C.rerender(); needMarked().then(() => C.rerender()); },
     active: (id) => editing === id,
     touched: (id) => !!(edits[id] || saved[id]),

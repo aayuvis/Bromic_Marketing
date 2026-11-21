@@ -10,9 +10,23 @@
   const TYPES = H.types;
   const IMG = Object.fromEntries(H.images.map((i) => [i.id, i]));
   const ITEM = Object.fromEntries(H.items.map((i) => [i.id, i]));
+  // ---------- decisions lock (owner, 21 Nov 2026: "it should lock in where it is unless moved") ----------
+  // An approve or reject is kept in this browser the moment it is clicked and shown everywhere, until the published data carries
+  // it (then the entry is dropped). Keys: item:<id> -> { s }, img:<id> -> { s, n, sent }.
+  const DEC_K = 'bromic-hub-decisions-v1';
+  const dec = (() => { try { return JSON.parse(localStorage.getItem(DEC_K) || '{}') || {}; } catch { return {}; } })();
+  const decSave = () => { try { localStorage.setItem(DEC_K, JSON.stringify(dec)); } catch {} };
+  const imgOf = (id) => (H.review || []).find((r) => r.id === id);
+  for (const [k, d] of Object.entries(dec)) {
+    const i = k.indexOf(':'), kind = k.slice(0, i), id = k.slice(i + 1), t = kind === 'item' ? ITEM[id] : kind === 'img' ? imgOf(id) : null;
+    if (!t || !d) { delete dec[k]; continue; }
+    if (t.status === d.s && (kind !== 'img' || d.n == null || (t.note || '') === d.n)) { delete dec[k]; continue; }  // live now
+    if (kind === 'item' || d.sent) { t.status = d.s; if (kind === 'img' && d.n != null) t.note = d.n; }
+  }
+  decSave();
   const ASSET = Object.fromEntries(H.assets.map((a) => [a.id, a]));
   const CELL = Object.fromEntries(H.matrix.cells.map((c) => [c.id, c]));
-  const STATUSES = ['draft', 'in-review', 'approved', 'published'];
+  const STATUSES = ['draft', 'in-review', 'approved', 'rejected', 'published'];
   const GATED_TYPES = ['gated-guide', 'spec-kit', 'sales-kit'];
 
   const ic = {
@@ -401,7 +415,7 @@
   ];
   const SHELF = Object.fromEntries(SHELVES.map((x) => [x.id, x]));
   const shelfOf = (it) => (INTERNAL.has(it.id) || it.status === 'template' ? 'internal' : (SHELVES.find((x) => x.types.includes(it.type)) || SHELVES[0]).id);
-  const PLAIN = { draft: 'Draft', 'in-review': 'With reviewer', approved: 'Approved', published: 'Live', template: 'Template' };
+  const PLAIN = { draft: 'Draft', 'in-review': 'With reviewer', approved: 'Approved', rejected: 'Rejected', published: 'Live', template: 'Template' };
   const personOf = (v) => {
     const seg = String(v).split(/ — /).pop().split(/\[\[|;/)[0];
     const n = seg.split(/[\/+]/).map((x) => x.trim()).find((x) => ROLES.has(x) || /^Bromic (AU|UK|EU|Benelux)/.test(x));
@@ -414,6 +428,7 @@
     const v = it.verifies.length, who = it.owner_review || 'the reviewer';
     if (shelfOf(it) === 'internal') return { k: 'info', t: 'For the content team', d: 'Working document; nothing to publish.', who: '' };
     if (it.status === 'published') return { k: 'done', t: 'Live', d: 'Keep it up to date.', who: '' };
+    if (it.status === 'rejected') return { k: 'done', t: 'Rejected', d: 'Not going ahead. Move it back to review to reopen it.', who: '' };
     if (it.status === 'approved') return { k: 'go', t: 'Send to 454 Creative', d: 'Approved: lay out and publish.', who: '454 Creative' };
     if (it.completeness === 'partial') return { k: 'chase', t: 'Call the venue or installer', d: 'Partial case study: controls, photos and consent are missing.', who: who };
     if (v) { const ps = people(it); return { k: 'chase', t: `Answer ${v} open ${v === 1 ? 'fact' : 'facts'}`, d: ps.length ? 'Waiting on ' + ps.slice(0, 3).join(', ') + (ps.length > 3 ? ` and ${ps.length - 3} more` : '') : 'Facts marked to verify.', who: ps[0] || who }; }
@@ -569,7 +584,7 @@
     <aside class="side">
       <div class="panel todo-panel"><h4>What to do with this</h4>${nextBadge(it)}
         <p class="muted" style="font-size:13px;margin:10px 0 0">${esc(SHELF[shelfOf(it)].name)}: ${esc(SHELF[shelfOf(it)].how.toLowerCase())}.${it.owner_review ? ` Owner: ${esc(it.owner_review)}.` : ''}</p>
-        <div class="btns" style="margin-top:12px">${shelfOf(it) !== 'internal' && it.status === 'draft' && !it.verifies.length && it.completeness !== 'partial' ? `<button class="btn primary" type="button" data-approve="${esc(it.id)}">${ic.arrow}Approve</button>` : ''}${it.verifies.length ? `<a class="btn" href="#verify-list" data-scroll="verify-list">See the ${it.verifies.length} open ${it.verifies.length === 1 ? 'fact' : 'facts'}</a>` : ''}<button class="btn" data-fb>${ic.chat}Comment</button></div></div>
+        <div class="btns" style="margin-top:12px">${shelfOf(it) === 'internal' ? '' : ['approved', 'rejected'].includes(it.status) ? `<span class="status ${esc(it.status)}">${esc(PLAIN[it.status])}</span><button class="btn" type="button" data-decide="${esc(it.id)}|draft">Move back to review</button>` : ['draft', 'in-review'].includes(it.status) ? `${!it.verifies.length && it.completeness !== 'partial' ? `<button class="btn primary" type="button" data-decide="${esc(it.id)}|approved">${ic.arrow}Approve</button>` : ''}<button class="btn" type="button" data-decide="${esc(it.id)}|rejected">Reject</button>` : ''}${it.verifies.length ? `<a class="btn" href="#verify-list" data-scroll="verify-list">See the ${it.verifies.length} open ${it.verifies.length === 1 ? 'fact' : 'facts'}</a>` : ''}<button class="btn" data-fb>${ic.chat}Comment</button></div></div>
       ${regionPanel(it)}
       ${cta ? `<a class="cta" href="${ctaAsset ? '#/assets/' + esc(cta.asset) : '#'}"><span><span class="label" style="color:inherit;opacity:.7">Call to action${cta.asset ? ' → ' + esc(cta.asset) : ''}</span><br>${esc(cta.label || '')}</span>${ic.arrow}</a>` : ''}
       <div class="panel"><h4>Details</h4><dl class="kv">
@@ -1223,13 +1238,16 @@
   }
 
   // ---------- navigation: three mega menus ----------
-  const awaiting = (i) => !['approved', 'published', 'template'].includes(i.status) && shelfOf(i) !== 'internal';
+  const awaiting = (i) => !['approved', 'rejected', 'published', 'template'].includes(i.status) && shelfOf(i) !== 'internal';
 
 
   // ---------- image approvals (data/image-review.json) ----------
   let apF = 'pending';
-  const apSet = {}; // local decisions not yet saved
+  const apSet = {}; // local decisions not yet saved (kept in the decisions lock, so a refresh keeps them)
   const apNote = {}; // local comments not yet saved
+  for (const [k, d] of Object.entries(dec)) if (k.startsWith('img:') && !d.sent) { const id = k.slice(4); if (d.s && d.s !== imgOf(id)?.status) apSet[id] = d.s; if (d.n != null) apNote[id] = d.n; }
+  const apKeep = (id) => { if (apSet[id] == null && apNote[id] == null) delete dec['img:' + id]; else dec['img:' + id] = { s: apSet[id] || imgOf(id)?.status, n: apNote[id] ?? null, sent: false }; decSave(); };
+  const apSent = (ids) => { for (const id of ids) { const r = imgOf(id); dec['img:' + id] = { s: apSet[id] || r?.status, n: apNote[id] ?? null, sent: true }; if (r) { if (apSet[id]) r.status = apSet[id]; if (apNote[id] != null) r.note = apNote[id]; } delete apSet[id]; delete apNote[id]; } decSave(); };
   function approvalsPage() {
     const all = (HUB.review || []).map((r) => ({ ...r, status: apSet[r.id] || r.status })).reverse();  // newest first
     if (!all.length) return '<div class="empty">No generated images waiting.</div>';
@@ -1260,12 +1278,13 @@
         const txt = JSON.stringify(doc, null, 1) + '\n', u = new TextEncoder().encode(txt); let bin = ''; for (let i = 0; i < u.length; i += 0x8000) bin += String.fromCharCode(...u.subarray(i, i + 0x8000));
         const p = await fetch(api, { method: 'PUT', headers: { ...h, 'Content-Type': 'application/json' }, body: JSON.stringify({ message: `Hub edit: image approvals (${list.length})`, content: btoa(bin), sha: cur.sha, branch: R.branch }) });
         if (!p.ok) throw new Error('GitHub said ' + p.status);
-        (HUB.review || []).forEach((it) => { if (apSet[it.id]) it.status = apSet[it.id]; if (apNote[it.id] != null) it.note = apNote[it.id]; }); Object.keys(apSet).forEach((k) => delete apSet[k]); Object.keys(apNote).forEach((k) => delete apNote[k]);
+        apSent(ids);
         toast('Saved. The zip of approved images updates in about three minutes.'); route.keepScroll = true; route(); return;
       } catch (err) { toast(String(err.message || err) + ' Opening an issue instead.'); }
     }
     const body = `<!-- bromic-image-approval v1 -->\n` + list.map(([id, s, n]) => `${id}: ${s}${n ? ' — ' + n.replace(/\n/g, ' ') : ''}`).join('\n') + `\n\nApply to data/image-review.json.`;
     window.open(`https://github.com/${R.owner}/${R.name}/issues/new?labels=edit&title=${encodeURIComponent('[Image approval] ' + list.length + ' decisions')}&body=${encodeURIComponent(body)}`, '_blank', 'noopener');
+    apSent(ids); toast('Kept here. Submit the GitHub issue that opened to save it for everyone.'); route.keepScroll = true; route();
   }
 
   // ---------- retail hub (data/retail/retail.json) ----------
@@ -1383,7 +1402,7 @@
 
   document.addEventListener('click', (e) => {
     const apf = e.target.closest('[data-apf]'); if (apf) { apF = apf.dataset.apf; route.keepScroll = true; route(); return; }
-    const aps = e.target.closest('[data-apset]'); if (aps) { const [id, st] = aps.dataset.apset.split('|'); const orig = (HUB.review || []).find((r) => r.id === id); if (apSet[id] === st || (!apSet[id] && orig && orig.status === st)) delete apSet[id]; else apSet[id] = st; if (orig && apSet[id] === orig.status) delete apSet[id]; route.keepScroll = true; route(); return; }
+    const aps = e.target.closest('[data-apset]'); if (aps) { const [id, st] = aps.dataset.apset.split('|'); const orig = (HUB.review || []).find((r) => r.id === id); if (apSet[id] === st || (!apSet[id] && orig && orig.status === st)) delete apSet[id]; else apSet[id] = st; if (orig && apSet[id] === orig.status) delete apSet[id]; apKeep(id); route.keepScroll = true; route(); return; }
     if (e.target.closest('[data-apsave]')) { apSave(); return; }
     if (e.target.closest('[data-rtprint]')) { document.body.classList.add('rt-print'); window.print(); setTimeout(() => document.body.classList.remove('rt-print'), 500); return; }
     const pt = e.target.closest('[data-pmtab]'); if (pt) { pmTab = pt.dataset.pmtab; route.keepScroll = true; route(); return; }
@@ -1395,7 +1414,13 @@
     const cf = e.target.closest('[data-cmf]'); if (cf) { const [k, v] = cf.dataset.cmf.split('|'); cmF[k] = v; route.keepScroll = true; route(); return; }
     const co = e.target.closest('[data-cmopen]'); if (co) { cmOpen = cmOpen === co.dataset.cmopen ? '' : co.dataset.cmopen; route.keepScroll = true; route(); return; }
     const pu = e.target.closest('[data-pmuser]'); if (pu) { pmUser = pmUser === pu.dataset.pmuser ? '' : pu.dataset.pmuser; route.keepScroll = true; route(); return; }
-    const ap = e.target.closest('[data-approve]'); if (ap) { loadEditor().then((E) => E.approve(ap.dataset.approve)); return; }
+    const dc = e.target.closest('[data-decide]'); if (dc) {
+      const [id, st] = dc.dataset.decide.split('|'), it = ITEM[id]; if (!it) return;
+      it.status = st; dec['item:' + id] = { s: st, at: new Date().toISOString() }; decSave();
+      route.keepScroll = true; route();
+      toast(st === 'draft' ? 'Moved back to review.' : `${PLAIN[st]}. It stays ${st} here; save it to the Hub so everyone sees it.`);
+      loadEditor().then((E) => E.decide(id, st)); return;
+    }
     const sc0 = e.target.closest('[data-scroll]'); if (sc0) { e.preventDefault(); document.getElementById(sc0.dataset.scroll)?.scrollIntoView({ behavior: 'smooth', block: 'center' }); return; }
     const cc0 = e.target.closest('[data-copy-chase]'); if (cc0) {
       const d = cc0.closest('details'), p = cc0.dataset.copyChase;
@@ -1425,11 +1450,12 @@
     const cite = e.target.closest('sup.cite a');
     if (cite) { e.preventDefault(); const el = document.getElementById(cite.getAttribute('href').slice(1)); if (el) { el.scrollIntoView({ behavior: 'smooth', block: 'center' }); el.style.background = 'var(--flame-wash)'; setTimeout(() => (el.style.background = ''), 1600); } }
   });
+  document.addEventListener('input', (e) => { const f = e.target.dataset && e.target.dataset.apnote; if (f !== undefined) { apNote[f] = e.target.value; apKeep(f); } });  // a comment survives a refresh
   document.addEventListener('change', (e) => {
     if (e.target.dataset && e.target.dataset.pmclaims !== undefined) { pmClaims = e.target.checked; route.keepScroll = true; route(); return; }
     if (e.target.id === 'pmprod') { location.hash = '#/pm/' + e.target.value; return; }
     if (e.target.id === 'cmsel') { location.hash = '#/campaigns/' + e.target.value; return; }
-    if (e.target.dataset && e.target.dataset.apnote !== undefined) { apNote[e.target.dataset.apnote] = e.target.value; const b = document.querySelector('[data-apsave]'), n = new Set([...Object.keys(apSet), ...Object.keys(apNote)]).size; if (b) b.textContent = `Save ${n} ${n === 1 ? 'decision' : 'decisions'}`; else { route.keepScroll = true; const f = e.target.dataset.apnote, pos = e.target.selectionStart; route(); const t = document.querySelector(`[data-apnote="${f}"]`); if (t) { t.focus(); t.setSelectionRange(pos, pos); } } return; }
+    if (e.target.dataset && e.target.dataset.apnote !== undefined) { apNote[e.target.dataset.apnote] = e.target.value; apKeep(e.target.dataset.apnote); const b = document.querySelector('[data-apsave]'), n = new Set([...Object.keys(apSet), ...Object.keys(apNote)]).size; if (b) b.textContent = `Save ${n} ${n === 1 ? 'decision' : 'decisions'}`; else { route.keepScroll = true; const f = e.target.dataset.apnote, pos = e.target.selectionStart; route(); const t = document.querySelector(`[data-apnote="${f}"]`); if (t) { t.focus(); t.setSelectionRange(pos, pos); } } return; }
     if (e.target.id === 'me') { store.set('bromic-hub-me', e.target.value); route.keepScroll = true; route(); return; }
     if (e.target.id === 'sort') { route.keepScroll = true; location.hash = libHref({ ...parseQ(), sort: e.target.value }); }
     if (e.target.dataset.imgf) { imgFilter[e.target.dataset.imgf] = e.target.value; view.innerHTML = images(); }

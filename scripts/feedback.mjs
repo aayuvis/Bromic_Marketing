@@ -12,7 +12,7 @@ const REPO = 'aayuvis/Bromic_Marketing';
 const all = process.argv.includes('--all');
 const res = await fetch(`https://api.github.com/repos/${REPO}/issues?state=${all ? 'all' : 'open'}&per_page=100&sort=created&direction=asc`, { headers: { Accept: 'application/vnd.github+json' } });
 if (!res.ok) { console.error(`GitHub answered ${res.status}. Use the GitHub tools instead (list issues in ${REPO}).`); process.exit(1); }
-const issues = (await res.json()).filter((i) => !i.pull_request && /^\[(Feedback|Edit|Approve)\]/i.test(i.title));
+const issues = (await res.json()).filter((i) => !i.pull_request && /^\[(Feedback|Edit|Approve|Reject|Status|Image approval)\]/i.test(i.title));
 const parse = (b) => { const m = /<!-- bromic-(?:feedback|edit) v1 -->([\s\S]*?)\n---\n?([\s\S]*)/.exec(b || ''); const o = { text: (m ? m[2] : b || '').trim() }; if (m) for (const l of m[1].split('\n')) { const i = l.indexOf(':'); if (i > 0) o[l.slice(0, i).trim()] = l.slice(i + 1).trim(); } return o; };
 const by = {};
 for (const i of issues) { const f = parse(i.body); (by[f.element || 'unspecified'] ||= []).push({ ...f, n: i.number, state: i.state, title: i.title }); }
