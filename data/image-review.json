@@ -621,6 +621,18 @@
    "thumb": "images/review/thumb/ad-ts2-01.webp",
    "source": "Bromic Lookbook 2026 hero photo, heat-glow illustration and three callouts; for approval as an ad style.",
    "status": "pending"
+  },
+  {
+   "id": "ad-ts2-02",
+   "title": "Series II feature ad v2 (4:5)",
+   "kind": "Ad layout on Bromic Lookbook photo",
+   "finish": "white",
+   "w": 2160,
+   "h": 2700,
+   "file": "images/review/full/ad-ts2-02.jpg",
+   "thumb": "images/review/thumb/ad-ts2-02.webp",
+   "source": "Bromic Lookbook 2026 coastal terrace (overhead heaters facing the seating), graded to evening, soft warm glow as an illustration; Bromic type, no icon boxes. Replaces v1 (radioactive streams, heater facing forward).",
+   "status": "pending"
   }
  ]
 }
