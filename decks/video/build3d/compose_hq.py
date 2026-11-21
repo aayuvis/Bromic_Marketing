@@ -409,7 +409,7 @@ def frame_h(f):
         kicker(d, 'With the low-clearance recess kit', clamp(bt / 0.6)); title(d, 'Dual Fan-Ventilated. The Cavity Stays Cool.', 0.3, bt, size=52)
         callout(d, t, (-0.5885, -0.02, 0.12), 'Dual cooling fans', (-60, -150), clamp((u - 0.10) / 0.12) * clamp((0.42 - u) / 0.05))
         callout(d, t, (0.0, -0.02, 0.053), 'Radiant barrier', (40, 150), clamp((u - 0.40) / 0.12) * clamp((0.70 - u) / 0.05))
-        callout(d, t, (0.45, -0.02, -0.05), 'Radiant heat, down to the seats', (80, 170), clamp((u - 0.68) / 0.12) * clamp((0.99 - u) / 0.03))
+        callout(d, t, (0.45, -0.02, -0.05), 'Radiant heat, down to the seats', (-300, 175), clamp((u - 0.68) / 0.12) * clamp((0.99 - u) / 0.03))
         a = clamp((u - 0.18) / 0.10) * clamp((0.40 - u) / 0.05)
         if a > 0: text(d, (960, 200), 'The cavity cools as the air flows', LS(30, True), (40, 100, 170), 'mm', a)
         legend(d, clamp((bt - 1.0) / 0.6), 1500, 930); colour_key(d, clamp((bt - 1.6) / 0.6), 1500, 862)

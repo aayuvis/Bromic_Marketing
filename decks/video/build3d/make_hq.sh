@@ -2,7 +2,7 @@
 # Full-quality build of the recess-kit film (owner, 21 Nov 2026: unsmudged frames, CAD only, female voice, CC0 music).
 #   WORK=/path/to/scratch ./make_hq.sh            (WORK holds nauo.json, didot.ttf, vo1..vo7.wav, music/another_august.mp3)
 # 1 voice: trim + 1.04x -> vt*.wav and the timeline  2 CAD renders (render_hq.py: plates, aux maps, explode frames, fan regions)
-# 3 composite PNG frames (compose_hq.py, 2x supersampled overlays)  4 sound (audio_hq.py) + loudnorm  5 encode (x264 high, CRF 17, film)
+# 3 composite PNG frames (compose_hq.py, 2x supersampled overlays)  4 sound (audio_hq.py) + loudnorm  5 encode (x264 high, CRF 19, film: CRF 17 measured 76 MB for the first 37 s, over the 60 MB budget; 19 is visually identical at 100%)
 set -euo pipefail
 B="$(cd "$(dirname "$0")" && pwd)"; OUT="$B/.."; : "${WORK:?set WORK}"; J=${JOBS:-4}; PY=${BLENDER_PY:-$WORK/../cad/venv/bin/python}
 cd "$WORK"
@@ -30,7 +30,7 @@ for m in h v; do
   python3 "$B/audio_hq.py" "$WORK" $m
   ffmpeg -loglevel error -y -i audio_hq_$m.wav -af loudnorm=I=-14:TP=-1.5:LRA=11 -ar 48000 audio_hq_${m}_n.wav
 done
-X264="-c:v libx264 -preset slow -profile:v high -tune film -crf 17 -pix_fmt yuv420p -x264-params keyint=60:min-keyint=30"
+X264="-c:v libx264 -preset slow -profile:v high -tune film -crf 19 -pix_fmt yuv420p -x264-params keyint=60:min-keyint=30"
 ffmpeg -y -loglevel error -framerate 30 -i qh/%05d.png -i audio_hq_h_n.wav $X264 -c:a aac -b:a 256k -shortest -movflags +faststart "$OUT/Tungsten-Series-II-Recess-Airflow-3D.mp4"
 ffmpeg -y -loglevel error -framerate 30 -i qv/%05d.png -i audio_hq_v_n.wav $X264 -c:a aac -b:a 256k -shortest -movflags +faststart "$OUT/Tungsten-Series-II-Recess-Airflow-3D-Reels.mp4"
 ffmpeg -y -loglevel error -framerate 30 -i ql/%05d.png $X264 -an -movflags +faststart "$OUT/Tungsten-Series-II-Recess-Airflow-3D-Loop.mp4"
