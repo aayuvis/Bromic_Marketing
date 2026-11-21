@@ -16,7 +16,10 @@ y, x = np.mgrid[0:H, 0:W].astype(np.float32)
 r = np.sqrt(((x - W * 0.52) / (W * 0.75)) ** 2 + ((y - H * 0.45) / (H * 0.8)) ** 2)
 lv = 0.992 - 0.085 * np.clip(r, 0, 1.3) ** 1.6
 bg = np.stack([lv * 1.0, lv * 0.990, lv * 0.972], -1)
-if len(sys.argv) > 3 and sys.argv[3] == 'grey': bg = bg * 0.88
+# white heaters sit on a mid warm-grey sweep so the body separates from the backdrop (owner, 21 Nov 2026)
+tone = float(os.environ.get('SWEEP', '0')) or (0.80 if ('white' in os.path.basename(sys.argv[1]) and 'pair' not in sys.argv[1]) else 1.0)
+if len(sys.argv) > 3 and sys.argv[3] == 'grey': tone = 0.88
+bg = bg * tone
 al = a[..., 3].copy()
 sp = sys.argv[1].replace('.png', '_shadow.png')
 if os.path.exists(sp):  # shadows from the quarter-size pass where the full-size region render left the frame empty
