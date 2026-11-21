@@ -258,9 +258,12 @@ const CMDIR = path.join(ROOT, 'data', 'campaigns');
 const campaigns = fs.existsSync(CMDIR) ? fs.readdirSync(CMDIR).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(fs.readFileSync(path.join(CMDIR, f), 'utf8'))) : [];
 const RTF = path.join(ROOT, 'data', 'retail', 'retail.json');
 const retail = fs.existsSync(RTF) ? JSON.parse(fs.readFileSync(RTF, 'utf8')) : null;
+// Trends 2027: the visual reports (reports/trends-2027/<id>/, built by reports/trends-2027/engine) listed on #/trends.
+const TRF = path.join(ROOT, 'data', 'trends-2027.json');
+const trends = fs.existsSync(TRF) ? JSON.parse(fs.readFileSync(TRF, 'utf8')) : null;
 const RVF = path.join(ROOT, 'data', 'image-review.json');
 const review = fs.existsSync(RVF) ? JSON.parse(fs.readFileSync(RVF, 'utf8')).items : [];
-const HUB = { built: new Date().toISOString(), commit, repo, regions, roles, langsAvailable: Object.fromEntries(Object.entries(tr).map(([l, m]) => [l, Object.keys(m).length])), matrix, assets, facts, images, usage, tools, site, cs, blogPlan, pm, campaigns, portfolio, retail, review, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
+const HUB = { built: new Date().toISOString(), commit, repo, regions, roles, langsAvailable: Object.fromEntries(Object.entries(tr).map(([l, m]) => [l, Object.keys(m).length])), matrix, assets, facts, images, usage, tools, site, cs, blogPlan, pm, campaigns, portfolio, retail, trends, review, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
 
 console.log(`items ${items.length} · tools ${tools.length} · images ${images.length} · site pages ${site.length} · errors ${errors.length} · warnings ${warn.length}`);
 warn.forEach((w) => console.log('  warn  ' + w));
@@ -283,6 +286,15 @@ fs.copyFileSync(path.join(APP, 'node_modules', 'marked', 'marked.min.js'), path.
 fs.writeFileSync(path.join(DIST, 'data.js'), 'window.HUB=' + JSON.stringify(HUB) + ';');
 for (const [lang, m] of Object.entries(tr)) fs.writeFileSync(path.join(DIST, `data-${lang}.js`), `(window.HUB_TR=window.HUB_TR||{})[${JSON.stringify(lang)}]=` + JSON.stringify(m) + ';');
 fs.cpSync(path.join(ROOT, 'images', 'library'), path.join(DIST, 'images', 'library'), { recursive: true });
+if (trends) for (const r of trends.reports) {  // each report: landscape and Letter pages, their images, covers and (when rendered) PDFs
+  const src = path.join(ROOT, 'reports', 'trends-2027', r.id), out = path.join(DIST, 'trends-2027', r.id);
+  if (!fs.existsSync(path.join(src, 'index.html'))) continue;
+  fs.mkdirSync(out, { recursive: true });
+  for (const f of ['index.html', 'letter.html']) if (fs.existsSync(path.join(src, f)))
+    fs.writeFileSync(path.join(out, f), fs.readFileSync(path.join(src, f), 'utf8').replaceAll('../../../app/src/fonts/', '../../fonts/').replaceAll('../../../images/portfolio/', '../../images/portfolio/'));
+  fs.cpSync(path.join(src, 'img'), path.join(out, 'img'), { recursive: true, filter: (s) => !/_tmp/.test(s) });
+  for (const f of fs.readdirSync(src).filter((x) => /^cover.*\.webp$|\.pdf$/.test(x))) fs.copyFileSync(path.join(src, f), path.join(out, f));
+}
 if (fs.existsSync(path.join(ROOT, 'images', 'portfolio'))) fs.cpSync(path.join(ROOT, 'images', 'portfolio'), path.join(DIST, 'images', 'portfolio'), { recursive: true });
 if (fs.existsSync(path.join(ROOT, 'images', 'campaigns'))) fs.cpSync(path.join(ROOT, 'images', 'campaigns'), path.join(DIST, 'images', 'campaigns'), { recursive: true });
 if (fs.existsSync(path.join(ROOT, 'images', 'review'))) {

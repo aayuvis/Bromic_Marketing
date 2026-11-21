@@ -9,6 +9,7 @@
   function T(svg, x, y, s, o = {}) {
     const t = el('text', { x, y, 'font-size': o.size || 14, 'text-anchor': o.anchor || 'start', fill: o.fill || INK, 'font-weight': o.weight || 400,
       'font-family': o.serif ? '"Bromic Didot",Didot,serif' : '"Bromic Sans",Helvetica,Arial,sans-serif', 'letter-spacing': o.ls || 0 }, svg);
+    if (o.halo) { t.setAttribute('stroke', o.halo); t.setAttribute('stroke-width', 6); t.setAttribute('paint-order', 'stroke'); t.setAttribute('stroke-linejoin', 'round'); }
     t.textContent = s; return t;
   }
   const add = (svg, n) => (svg.appendChild(n), n);

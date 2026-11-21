@@ -1,5 +1,5 @@
 """Build, quality-check and print one trend report in both formats.
-Run from the repo root:  python3 reports/trends-2027/engine/publish.py <id> [--shots DIR] [--no-pdf]
+Run from the repo root:  python3 reports/trends-2027/engine/publish.py <id> [--shots DIR] [--no-pdf] [--no-prep]
   1. prepares the images (engine/prep.py)
   2. builds landscape (index.html) and US Letter portrait (letter.html), plus single-file versions
   3. runs engine/qa.js on both (fails on script errors, missing images, overflow, overlapping labels or blocks)
@@ -13,7 +13,7 @@ shots = sys.argv[sys.argv.index('--shots') + 1] if '--shots' in sys.argv else '-
 RD = os.path.join(TR, rid)
 spec = importlib.util.spec_from_file_location('c', os.path.join(RD, 'content.py')); C = importlib.util.module_from_spec(spec); spec.loader.exec_module(C)
 run = lambda *a: subprocess.run(a, cwd=ROOT, check=True)
-run('python3', os.path.join(HERE, 'prep.py'), rid)
+if '--no-prep' not in sys.argv: run('python3', os.path.join(HERE, 'prep.py'), rid)  # needs OpenCV; the committed img/ is enough to build
 for extra in ([], ['--letter'], ['--inline'], ['--letter', '--inline']):
     run('python3', os.path.join(HERE, 'build.py'), rid, *extra)
 tmp = tempfile.mkdtemp(); os.makedirs(os.path.join(tmp, 'img'))
@@ -30,7 +30,8 @@ for src, name, sub in (('index.html', C.FILE + '.pdf', 'landscape'), ('letter.ht
         sd = os.path.join(shots, rid, sub); os.makedirs(sd, exist_ok=True)
     args = ['node', os.path.join(HERE, 'qa.js'), os.path.join(tmp, src), sd]
     if '--no-pdf' not in sys.argv: args.append(os.path.join(RD, name))
-    r = subprocess.run(args, cwd=ROOT)
+    env = dict(os.environ, NODE_PATH=os.pathsep.join(x for x in [os.path.join(ROOT, 'app', 'node_modules'), os.environ.get('NODE_PATH', '')] if x))
+    r = subprocess.run(args, cwd=ROOT, env=env)
     ok = ok and r.returncode == 0
 shutil.rmtree(tmp)
 sys.exit(0 if ok else 1)

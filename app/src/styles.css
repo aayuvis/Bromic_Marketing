@@ -940,3 +940,12 @@ thead .pm-u { border: 0; background: none; padding: 0; font: 600 11px/1.3 var(--
 .ap-btns a { margin-left: auto; color: var(--ink-2); }
 
 .ap-c { font: inherit; font-size: 13px; width: 100%; box-sizing: border-box; margin-top: 6px; padding: 6px 8px; border: 1px solid var(--line-2); background: var(--paper); color: var(--ink); resize: vertical; }
+
+/* Trends 2027 (#/trends) */
+.tr-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
+.tr-card { border: 1px solid var(--line); background: var(--card); display: grid; grid-template-rows: auto 1fr; }
+.tr-cover img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; }
+.tr-body { padding: 18px 20px 20px; } .tr-body h3 { font: 400 24px/1.2 var(--serif); margin: 6px 0 8px; } .tr-body p { color: var(--ink-2); font-size: 15px; }
+.tr-body .btns { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.mg-trends { margin-bottom: 18px; padding-bottom: 16px; border-bottom: 1px solid var(--line); } .mg-trends > .label { display: block; margin-bottom: 10px; }
+@media (max-width: 760px) { .tr-grid { grid-template-columns: 1fr; } }

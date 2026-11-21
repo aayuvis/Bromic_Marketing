@@ -1,0 +1,38 @@
+{
+ "title": "Outdoor Living Trends 2027",
+ "note": "Draft for review. Every figure is sourced on the report's last page.",
+ "reports": [
+  {
+   "id": "na",
+   "title": "Outdoor Living Trends 2027",
+   "region": "North America",
+   "file": "Outdoor-Living-Trends-2027-North-America",
+   "summary": "10 shifts putting heat at the heart of the outdoor room. For architects, builders, homeowners and hospitality."
+  },
+  {
+   "id": "au",
+   "title": "Outdoor Living Trends 2027",
+   "region": "Australia",
+   "file": "Outdoor-Living-Trends-2027-Australia",
+   "summary": "10 shifts making heat part of the Australian alfresco: all-electric building, solar evenings, permanent outdoor dining."
+  },
+  {
+   "id": "uk",
+   "title": "Outdoor Living Trends 2027",
+   "region": "United Kingdom",
+   "file": "Outdoor-Living-Trends-2027-United-Kingdom",
+   "summary": "10 shifts putting heat at the heart of the British garden: the garden as a room, weather as the barrier, infrared-first councils."
+  },
+  {
+   "id": "hospitality",
+   "title": "Outdoor Hospitality Trends 2027",
+   "region": "Global",
+   "file": "Outdoor-Hospitality-Trends-2027-Global",
+   "summary": "10 shifts making the heated terrace hospitality's most valuable space: revenue, regulation, wellness, resorts and superyachts."
+  }
+ ],
+ "supersedes": [
+  "A01-v2",
+  "A01c"
+ ]
+}

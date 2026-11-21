@@ -55,7 +55,7 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:-.01em;line-hei
 .nf{font-family:var(--serif);font-size:64px;color:var(--flame);margin:8px 0 10px;white-space:nowrap}
 .nc p{font-size:17px;line-height:1.5;color:#D8D2CB}
 .nc small{display:block;font-size:11px;color:#8F8988;margin-top:10px;letter-spacing:.04em}
-.nstrip{position:absolute;left:0;right:0;bottom:0;height:230px;opacity:.7}
+.nstrip{position:absolute;left:0;right:0;bottom:0;height:320px;opacity:.75}
 .nstrip img{width:100%;height:100%;object-fit:cover;object-position:center 45%}
 .nstrip:after{content:"";position:absolute;inset:0;background:linear-gradient(var(--night),rgba(20,18,19,.2))}
 
@@ -255,6 +255,7 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:-.01em;line-hei
 .srcs ol{columns:1}
 .srcs li{font-size:13px;margin-bottom:8px}
 .srcs .note{font-size:12px}
+.ilead .kick{white-space:nowrap}
 </style></head><body><main id="deck">
 <section class="pg cover"><img class="bg" src="img/l-004-012-split.webp" alt="A coastal terrace, drawn as a sketch on the left and photographed finished on the right, with Tungsten heaters under the pergola">
   <div class="cv"><img class="logo" src="../../../images/portfolio/bromic-logo.png" alt="Bromic Heating">
@@ -832,7 +833,7 @@ window.REPORT_CHARTS = (BZ) => {
       add(svg, rc.circle(150, 88, 80, O({ stroke: '#6E6867', fill: '#141213', fillStyle: 'solid' })));
       T(svg, 150, 100, '12', { size: 34, serif: true, anchor: 'middle', fill: LIGHT });
     },
-    gap(svg) { pie(svg, 110, 105, 170, 23, {}); T(svg, 110, 118, '23%', { size: 40, serif: true, anchor: 'middle', fill: INK }); },
+    gap(svg) { pie(svg, 110, 105, 170, 23, {}); T(svg, 110, 118, '23%', { size: 40, serif: true, anchor: 'middle', fill: INK, halo: '#fff' }); },
   };
 
   return { CH, MINI };
@@ -848,6 +849,7 @@ window.REPORT_CHARTS = (BZ) => {
   function T(svg, x, y, s, o = {}) {
     const t = el('text', { x, y, 'font-size': o.size || 14, 'text-anchor': o.anchor || 'start', fill: o.fill || INK, 'font-weight': o.weight || 400,
       'font-family': o.serif ? '"Bromic Didot",Didot,serif' : '"Bromic Sans",Helvetica,Arial,sans-serif', 'letter-spacing': o.ls || 0 }, svg);
+    if (o.halo) { t.setAttribute('stroke', o.halo); t.setAttribute('stroke-width', 6); t.setAttribute('paint-order', 'stroke'); t.setAttribute('stroke-linejoin', 'round'); }
     t.textContent = s; return t;
   }
   const add = (svg, n) => (svg.appendChild(n), n);

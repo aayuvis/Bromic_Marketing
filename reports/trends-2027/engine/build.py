@@ -41,8 +41,9 @@ def build(rid, inline=False, letter=False):
         return (f'<div class="folio{" dk" if dark else ""}"><span>{E(folio_txt)}</span>'
                 f'<span class="draft">Draft for review</span><span>{p:02d}</span></div>')
 
-    def img(src_id, cls='', alt=''):
-        return f'<img class="{cls}" src="img/{src_id}.webp" alt="{E(alt)}">'
+    def img(src_id, cls='', alt='', pos=None):
+        st = f' style="object-position:{pos}"' if pos else ''
+        return f'<img class="{cls}" src="img/{src_id}.webp" alt="{E(alt)}"{st}>'
 
     def page_a(s, p):
         words = ''.join(f'<li><span class="wico" data-r="circle">{icon(i)}</span>{E(w)}</li>' for w, i in s['words'])
@@ -83,7 +84,7 @@ def build(rid, inline=False, letter=False):
 
     pages, p = [], 1
     cv = C.COVER
-    pages.append(f'''<section class="pg cover">{img(cv['img'], 'bg', cv['alt'])}
+    pages.append(f'''<section class="pg cover">{img(cv['img'], 'bg', cv['alt'], cv.get('pos_letter') if letter else cv.get('pos'))}
   <div class="cv"><img class="logo" src="LOGO" alt="Bromic Heating">
     <div class="ckick">{E(cv.get('kicker', 'Bromic Outdoor Living Report'))}</div>
     <h1>{cv.get('title_html', 'Outdoor Living<br>Trends <em>2027</em>')}</h1>
@@ -118,7 +119,7 @@ def build(rid, inline=False, letter=False):
     cl = C.CLOSE
     checks = ''.join(f'<li><span class="cb" data-r="box"></span>{E(t)}</li>' for t in cl['checks'])
     pages.append(f'''<section class="pg close">
-  <figure class="cph">{img(cl['img'], alt=cl['alt'])}</figure>
+  <figure class="cph">{img(cl['img'], alt=cl['alt'], pos=cl.get('pos_letter') if letter else cl.get('pos'))}</figure>
   <div class="ct"><div class="kick">The Conclusion</div><h2>{E(cl['h2'])}</h2>
     <p class="read">{E(cl['read'])}</p>
     <div class="cgrid">

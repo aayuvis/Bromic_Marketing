@@ -11,6 +11,11 @@ SHA=$(git rev-parse --short HEAD)
 [ "${1:-}" = "--fast" ] || npm test
 npm run build
 node scripts/pdf.mjs   # a PDF of every gated document → dist/pdf/
+# Trends 2027 visual reports: render both PDFs of each (landscape and US Letter) next to the copied pages
+for R in $(node -e "const t=require('$ROOT/data/trends-2027.json');console.log(t.reports.map(r=>r.id).join(' '))"); do
+  python3 "$ROOT/reports/trends-2027/engine/publish.py" "$R" --no-prep || echo "Trends $R: print check reported issues (published anyway)"
+  cp "$ROOT"/reports/trends-2027/"$R"/*.pdf "dist/trends-2027/$R/" 2>/dev/null || true
+done
 N_BUILD=$(find dist -type f | wc -l)
 TMP=$(mktemp -d); trap 'rm -rf "$TMP"' EXIT
 cp -R dist/. "$TMP/"

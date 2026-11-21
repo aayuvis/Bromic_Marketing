@@ -90,6 +90,17 @@ install and warranty, merchandising, ordering. Facts only from product data; unk
 "To confirm". No prices (owner's dealer guidance). Each prints to one Letter page ("Print or save as PDF"); sources show on
 screen, not in print. Competitor lines live only on the selling page (`needs_approval: Specification and compliance`).
 
+## Trends 2027 (owner, 21 Nov 2026)
+
+Four visual trend reports replace the 2026 reports (`A01-v2`, `A01c` stay in the library, marked replaced): North America,
+Australia, United Kingdom and global hospitality, each in landscape and US Letter portrait. Storylines in
+`reports/trends-2027/*-storyline.md`; each report's words and images in `reports/trends-2027/<id>/content.py`, its hand-drawn
+charts (rough.js) in `<id>/charts.js`; the shared engine in `reports/trends-2027/engine/` (sketch renderings, layout, print QA).
+`python3 reports/trends-2027/engine/publish.py <id> --shots DIR` builds both formats, runs the print check (`engine/qa.js`: no text
+off a page, no overlapping chart labels or blocks, no missing image) and prints both PDFs. Charts show the year on every
+before/after point and never repeat the source printed under the headline number. The Hub lists them on `#/trends`
+(`data/trends-2027.json`) and in the White Papers menu; `deploy.sh` renders the PDFs.
+
 ## Image Approvals (owner, 20 Nov 2026)
 
 `#/approvals` (tab "Image Approvals", count of waiting images): every generated image for owner sign-off, from

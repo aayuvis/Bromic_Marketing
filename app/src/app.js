@@ -268,7 +268,8 @@
     PP: 'Remove the last risks: codes, pre-wire, lead times, approvals.',
     BY: 'Set it up well, and turn buyers into references.',
   };
-  const FLAGSHIP = ['A01-v2', 'A01c', 'A02-homeowner', 'A02-pro', 'A03', 'A20', 'A21', 'A11'];
+  const SUPERSEDED = new Set((HUB.trends && HUB.trends.supersedes) || []);  // the 2026 trend reports, replaced by #/trends
+  const FLAGSHIP = ['A02-homeowner', 'A02-pro', 'A03', 'A20', 'A21', 'A11'];
   const rankFront = (i) => (i.type === 'tool' ? 0 : isGated(i) ? 1 : i.type === 'article' ? 2 : i.type === 'kb' ? 3 : 4);
   const shortTitle = (t) => t.split(/[:—]/)[0].trim();
 
@@ -549,6 +550,7 @@
     const tool = it.type === 'tool' && H.tools.find((t) => t.startsWith(it.asset || it.id));
     const ED = window.HubEditor, hero = ED ? ED.heroId(it) : it.hero;
     return `<nav class="crumbs"><a href="#/library">Assets</a><span>/</span><a href="${libHref({ shelf: shelfOf(it) })}">${esc(SHELF[shelfOf(it)].name)}</a>${it.cell ? `<span>/</span><a href="#/journey/${esc(it.cell)}">${esc(it.cell)}</a>` : ''}</nav>
+    ${SUPERSEDED.has(it.id) ? `<p class="notice" style="background:var(--flame-wash);padding:12px 16px;margin:12px 0"><b>Replaced by Outdoor Living Trends 2027.</b> <a href="#/trends">See the 2027 reports ${ic.arrow}</a></p>` : ''}
     <div class="ed-start"><button type="button" class="btn" data-edit-page>${ic.pen}${esc(STR('Edit this page'))}</button></div>
     ${hero ? `<div class="reader-hero">${img(hero, '', false)}${ED ? ED.heroButton(it) : ''}${it.hero_caption && hero === it.hero ? `<p class="hero-cap">${esc(it.hero_caption)}</p>` : ''}</div>` : ED && ED.active(it.id) ? `<div class="reader-hero ed-nohero">${ED.heroButton(it)}</div>` : ''}
     <div class="reader"><article>
@@ -718,7 +720,7 @@
   }
 
   // ---------- downloads: every gated document as a PDF ----------
-  const pdfList = () => H.items.filter(hasPdf).sort((a, b) => (a.id.startsWith('A01') ? 0 : 1) - (b.id.startsWith('A01') ? 0 : 1) || a.id.localeCompare(b.id));
+  const pdfList = () => H.items.filter((i) => hasPdf(i) && !SUPERSEDED.has(i.id)).sort((a, b) => (a.id.startsWith('A01') ? 0 : 1) - (b.id.startsWith('A01') ? 0 : 1) || a.id.localeCompare(b.id));
   const pdfBtn = (it, label = 'Download PDF') => `<a class="btn primary" href="${pdfHref(it)}" download="Bromic-${esc(it.id)}${it.tr && it.lang !== 'en' ? '-' + it.lang : ''}.pdf">${ic.down}${label}</a>`;
   function downloadsPage() {
     const L = pdfList();
@@ -1267,6 +1269,17 @@
   // ---------- retail hub (data/retail/retail.json) ----------
   const RT_HERO = { 'why-bromic': 'l-001-000', 'range-selector': 'l-007-039', 'tungsten-series-ii': 'l-007-035', 'platinum-electric': 'l-010-066', eclipse: 'l-012-093', gas: 'w-bromic-tungsten-gas-4', controls: 'w-bromic-heating-app-blog-image', sizing: 'l-002-004', selling: 'l-005-024', 'install-warranty': 'w-bromic-shoot-may-11-2023-42', merchandising: 't2-select-white', ordering: 'l-006-028' };
   const rtText = (t) => esc(t).replace(/\[\[VERIFY:([^\]]*)\]\]/g, '<mark class="rt-verify" title="To confirm">To confirm:$1</mark>').replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>');
+  function trendsPage() {
+    const T = HUB.trends; if (!T) return '<div class="empty">No trend reports yet.</div>';
+    const pdf = (r, s, lab) => `<a class="btn${s ? '' : ' primary'}" href="trends-2027/${esc(r.id)}/${esc(r.file)}${s}.pdf" download>${ic.down}${lab}</a>`;
+    return `<div class="ph"><div><span class="label">Trend reports</span><h1>${esc(T.title)}</h1><p>Four visual reports: North America, Australia, the United Kingdom and global hospitality. Each comes as a landscape report for screens and a US Letter portrait version for print. ${esc(T.note)}</p></div></div>
+      <div class="tr-grid">${T.reports.map((r) => `<article class="tr-card">
+        <a class="tr-cover" href="trends-2027/${esc(r.id)}/index.html" target="_blank" rel="noopener"><img src="trends-2027/${esc(r.id)}/cover.webp" alt="Cover of ${esc(r.title)}, ${esc(r.region)}" loading="lazy"></a>
+        <div class="tr-body"><span class="label">${esc(r.region)}</span><h3>${esc(r.title)}</h3><p>${esc(r.summary)}</p>
+        <div class="btns">${pdf(r, '', 'Landscape PDF')}${pdf(r, '-Letter', 'Letter PDF')}<a class="btn" href="trends-2027/${esc(r.id)}/index.html" target="_blank" rel="noopener">${ic.ext}View</a><a class="btn" href="trends-2027/${esc(r.id)}/letter.html" target="_blank" rel="noopener">${ic.ext}View Letter</a></div></div></article>`).join('')}</div>
+      <p class="muted" style="margin-top:22px;font-size:13px">These replace the 2026 reports (${[...SUPERSEDED].map((id) => `<a href="#/item/${esc(id)}">${esc(id)}</a>`).join(', ')}), which stay in the library for reference.</p>`;
+  }
+
   function retailPage(id) {
     const R = HUB.retail; if (!R || !(R.pages || []).length) return '<div class="empty">The retail one-pagers are being written.</div>';
     const pages = R.pages, P = pages.find((p) => p.id === id);
@@ -1302,8 +1315,8 @@
         ${lk('#/library', 'All Assets', 'Everything, by where it goes')}</div>
       <div class="mg-col mg-minor"><span class="label">Working files</span>
         <a href="#/journey">Buyer journey map</a><a href="#/assets">Asset backlog</a><a href="#/sources">Sources</a><a href="#/site">bromic.com audit</a><a href="#/review">Review numbers</a><a href="${libHref({ shelf: 'internal' })}">Behind the scenes</a></div>`;
-    const papers = pdfList();
-    P.innerHTML = `<div class="mg-papers">${papers.map((it) => `<a class="mg-p" href="#/item/${esc(it.id)}"><span class="mg-pic">${img(it.hero)}</span><span><span class="label">${esc(TYPES[it.type] || it.type)}</span><b>${esc(shortTitle(it.title))}</b></span></a>`).join('')}</div>
+    const papers = pdfList(), TR = (HUB.trends && HUB.trends.reports) || [];
+    P.innerHTML = `${TR.length ? `<div class="mg-trends"><span class="label">Outdoor Living Trends 2027</span><div class="mg-papers">${TR.map((r) => `<a class="mg-p" href="#/trends"><span class="mg-pic"><img src="trends-2027/${esc(r.id)}/cover.webp" alt="" loading="lazy"></span><span><span class="label">Trend report · ${esc(r.region)}</span><b>${esc(r.title)}</b></span></a>`).join('')}</div></div><span class="label">White papers</span>` : ''}<div class="mg-papers">${papers.map((it) => `<a class="mg-p" href="#/item/${esc(it.id)}"><span class="mg-pic">${img(it.hero)}</span><span><span class="label">${esc(TYPES[it.type] || it.type)}</span><b>${esc(shortTitle(it.title))}</b></span></a>`).join('')}</div>
       <div class="mg-foot"><a href="#/downloads">All ${papers.length} white papers, as PDFs ${ic.arrow}</a></div>`;
     M.innerHTML = `<div class="mg-col"><span class="label">Product marketing</span>${(H.pm || []).map((x) => lk('#/pm/' + x.id, x.short || x.name, (x.m3 && x.m3.competitors ? 'Against ' + x.m3.competitors.map((c) => c.name.split(/[ (]/)[0]).join(', ') : 'Benefits, claims, matrices and the launch playbook'))).join('')}</div>
       <div class="mg-col"><span class="label">Brand</span>${lk('#/campaigns', 'Campaigns', 'Get Bromic: films, receipts, concept bank, trade and the audit')}${lk('#/retail', 'Retail Hub', 'One-pagers a retailer needs to sell Bromic', (HUB.retail && HUB.retail.pages || []).length || null)}</div>`;
@@ -1322,7 +1335,7 @@
     document.querySelectorAll('.tabs a').forEach((x) => x.toggleAttribute('aria-current', false) || (x.dataset.tab === tab && x.setAttribute('aria-current', 'page')));
     document.querySelectorAll('.tabs .mega').forEach((m) => { m.open = false; m.toggleAttribute('data-on', m.dataset.tab === tab); });
     const html = p === '' ? home() : p === 'library' ? library() : p === 'item' ? item(decodeURIComponent(a || '')) : p === 'journey' ? journey(a) : p === 'assets' ? assets(a)
-      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : p === 'cases' ? casesPage(a) : p === 'blog' ? blogPage() : p === 'downloads' ? downloadsPage() : p === 'todo' ? todo() : p === 'pm' ? pmPage(a) : p === 'campaigns' ? campaignsPage(a) : p === 'knowledge' ? knowledgePage(a) : p === 'retail' ? retailPage(a) : p === 'approvals' ? approvalsPage() : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
+      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : p === 'cases' ? casesPage(a) : p === 'blog' ? blogPage() : p === 'downloads' ? downloadsPage() : p === 'todo' ? todo() : p === 'pm' ? pmPage(a) : p === 'campaigns' ? campaignsPage(a) : p === 'knowledge' ? knowledgePage(a) : p === 'retail' ? retailPage(a) : p === 'trends' ? trendsPage() : p === 'approvals' ? approvalsPage() : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
     view.innerHTML = html;
     const it = p === 'item' && ITEM[a];
     document.title = it ? `${it.title} · Bromic Content Hub` : 'Bromic Content Hub';

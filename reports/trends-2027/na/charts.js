@@ -117,7 +117,7 @@ window.REPORT_CHARTS = (BZ) => {
       add(svg, rc.circle(150, 88, 80, O({ stroke: '#6E6867', fill: '#141213', fillStyle: 'solid' })));
       T(svg, 150, 100, '12', { size: 34, serif: true, anchor: 'middle', fill: LIGHT });
     },
-    gap(svg) { pie(svg, 110, 105, 170, 23, {}); T(svg, 110, 118, '23%', { size: 40, serif: true, anchor: 'middle', fill: INK }); },
+    gap(svg) { pie(svg, 110, 105, 170, 23, {}); T(svg, 110, 118, '23%', { size: 40, serif: true, anchor: 'middle', fill: INK, halo: '#fff' }); },
   };
 
   return { CH, MINI };
