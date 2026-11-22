@@ -990,3 +990,9 @@ thead .pm-u { border: 0; background: none; padding: 0; font: 600 11px/1.3 var(--
 .ap-send-box { background: var(--card); color: var(--ink); max-width: 640px; width: 100%; padding: 22px 24px; border: 1px solid var(--line); }
 .ap-send-box h3 { font-family: var(--display, 'GFS Didot', serif); font-weight: 400; font-size: 24px; margin: 0 0 6px; }
 .ap-send-box textarea { width: 100%; box-sizing: border-box; font: 12.5px/1.45 ui-monospace, monospace; margin: 10px 0 12px; padding: 8px; border: 1px solid var(--line-2); background: var(--paper); color: var(--ink); }
+
+.dl-cover.port, .dl-cover:has(img[src*="cover-thumb"]) { aspect-ratio: 8.5 / 11; background: #eee; }
+.dl-cover.port img, .dl-cover img[src*="cover-thumb"] { object-fit: cover; object-position: top; }
+.dl-h { font-family: var(--display, 'GFS Didot', serif); font-weight: 400; font-size: 26px; margin: 28px 0 12px; }
+.mg-pic img[src*="cover-thumb"] { object-position: top; }
+.dl-cover.land { aspect-ratio: 16 / 10; } .dl-cover.land img { object-fit: cover; object-position: center; }

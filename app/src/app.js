@@ -285,6 +285,7 @@
     BY: 'Set it up well, and turn buyers into references.',
   };
   const SUPERSEDED = new Set((HUB.trends && HUB.trends.supersedes) || []);  // the 2026 trend reports, replaced by #/trends
+  H.items = H.items.filter((i) => !SUPERSEDED.has(i.id));  // owner, 22 Nov 2026: old white papers removed everywhere; links go to the 2027 reports
   const FLAGSHIP = ['A02-homeowner', 'A02-pro', 'A03', 'A20', 'A21', 'A11'];
   const rankFront = (i) => (i.type === 'tool' ? 0 : isGated(i) ? 1 : i.type === 'article' ? 2 : i.type === 'kb' ? 3 : 4);
   const shortTitle = (t) => t.split(/[:—]/)[0].trim();
@@ -555,8 +556,9 @@
 
   // Gated documents get a PDF at deploy (app/scripts/pdf.mjs uses the same rule).
   const PDF_TYPES = ['report', 'gated-guide', 'spec-kit', 'sales-kit', 'stats-page'];
-  const hasPdf = (it) => ((it.gated === true && PDF_TYPES.includes(it.type)) || !!DZ[it.id]) && !FRAMED;
+  const hasPdf = (it) => ((it.gated === true && PDF_TYPES.includes(it.type)) || (!!DZ[it.id] && it.type !== 'case-study')) && !FRAMED;  // case studies carry a Project File, under Case Studies
   function item(id) {
+    if (SUPERSEDED.has(id)) { location.replace('#/trends'); return ''; }
     const it = ITEM[id];
     if (!it) return `<div class="empty">No item “${esc(id)}”. <a href="#/library">Back to the library</a></div>`;
     const cell = CELL[it.cell];
@@ -739,12 +741,18 @@
   }
 
   // ---------- downloads: every gated document as a PDF ----------
-  const pdfList = () => H.items.filter((i) => hasPdf(i) && !SUPERSEDED.has(i.id)).sort((a, b) => (a.id.startsWith('A01') ? 0 : 1) - (b.id.startsWith('A01') ? 0 : 1) || a.id.localeCompare(b.id));
+  const pdfList = () => H.items.filter((i) => hasPdf(i) && !SUPERSEDED.has(i.id) && !VG[i.id]).sort((a, b) => (a.id.startsWith('A01') ? 0 : 1) - (b.id.startsWith('A01') ? 0 : 1) || a.id.localeCompare(b.id));
   const pdfBtn = (it, label = 'Download PDF') => `<a class="btn primary" href="${pdfHref(it)}" download="Bromic-${esc(it.id)}${it.tr && it.lang !== 'en' ? '-' + it.lang : ''}.pdf">${ic.down}${label}</a>`;
   function downloadsPage() {
     const L = pdfList();
-    return `<div class="ph"><div><span class="label">White papers</span><h1>Reports, Guides And Kits</h1><p>${L.length} documents, each a finished PDF.</p></div></div>
-      <div class="dl-grid">${L.map((it) => `<article class="dl-card"><a class="dl-cover" href="#/item/${esc(it.id)}">${img(it.hero)}</a>
+    const TRS = (HUB.trends && HUB.trends.reports) || [], VGL = HUB.vguides || [];
+    const card = (href, cover, label, title, desc, pdf, cls = 'port') => `<article class="dl-card"><a class="dl-cover ${cls}" href="${href}"><img src="${esc(cover)}" alt="Cover of ${esc(title)}" loading="lazy"></a><div class="dl-body"><span class="label">${esc(label)}</span><h3><a href="${href}">${esc(title)}</a></h3>${desc ? `<p>${esc(desc)}</p>` : ''}<div class="btns">${pdf ? `<a class="btn primary" href="${esc(pdf)}" download>${ic.down}Download PDF</a>` : ''}<a class="btn" href="${href}">${ic.arrow}Open</a></div></div></article>`;
+    const total = L.length + TRS.length + VGL.length;
+    return `<div class="ph"><div><span class="label">White papers · 2027</span><h1>Reports, Guides And Kits</h1><p>${total} documents, each a finished PDF.</p></div></div>
+      ${TRS.length ? `<h2 class="dl-h">Outdoor Living Trends 2027</h2><div class="dl-grid">${TRS.map((r) => card('#/trends', `trends-2027/${r.id}/cover.webp`, 'Trend report · ' + r.region, r.title, '', '', 'land')).join('')}</div>` : ''}
+      ${VGL.length ? `<h2 class="dl-h">Plan Your Outdoor Heat 2027</h2><div class="dl-grid">${VGL.map((g) => card('#/guides', `${g.dir}/${g.cover}`, 'Planning guide', g.title.split('·').pop().trim(), '', `${g.dir}/${g.file}.pdf`)).join('')}</div>` : ''}
+      <h2 class="dl-h">Guides, Kits And Statistics</h2>
+      <div class="dl-grid">${L.map((it) => `<article class="dl-card"><a class="dl-cover" href="#/item/${esc(it.id)}">${DZ[it.id] && DZ[it.id].thumbHref ? `<img src="${esc(DZ[it.id].thumbHref)}" alt="Cover of ${esc(it.title)}" loading="lazy">` : img(it.hero)}</a>
         <div class="dl-body"><span class="label">${esc(TYPES[it.type] || it.type)} · ${it.audience.map((a) => esc(AUD[a]?.name || a)).join(', ')}</span>
         <h3><a href="#/item/${esc(it.id)}">${esc(it.title)}</a></h3>${it.meta_description || it.summary ? `<p>${esc(it.meta_description || it.summary)}</p>` : ''}
         <div class="btns">${pdfBtn(it)}<a class="btn" href="${pdfHref(it)}" target="_blank" rel="noopener">${ic.ext}Open</a></div></div></article>`).join('')}</div>`;
@@ -1410,7 +1418,7 @@
         <a href="#/journey">Buyer journey map</a><a href="#/assets">Asset backlog</a><a href="#/sources">Sources</a><a href="#/site">bromic.com audit</a><a href="#/review">Review numbers</a><a href="${libHref({ shelf: 'internal' })}">Behind the scenes</a></div>`;
     const papers = pdfList(), TR = (HUB.trends && HUB.trends.reports) || [];
     const VGS = HUB.vguides || [];
-    P.innerHTML = `${VGS.length ? `<div class="mg-trends"><span class="label">Plan Your Outdoor Heat 2027</span><div class="mg-papers">${VGS.map((g) => `<a class="mg-p" href="#/guides"><span class="mg-pic"><img src="${esc(g.dir)}/${esc(g.cover)}" alt="" loading="lazy"></span><span><span class="label">Planning guide</span><b>${esc(g.title.split('·').pop().trim())}</b></span></a>`).join('')}</div></div>` : ''}${TR.length ? `<div class="mg-trends"><span class="label">Outdoor Living Trends 2027</span><div class="mg-papers">${TR.map((r) => `<a class="mg-p" href="#/trends"><span class="mg-pic"><img src="trends-2027/${esc(r.id)}/cover.webp" alt="" loading="lazy"></span><span><span class="label">Trend report · ${esc(r.region)}</span><b>${esc(r.title)}</b></span></a>`).join('')}</div></div><span class="label">White papers</span>` : ''}<div class="mg-papers">${papers.map((it) => `<a class="mg-p" href="#/item/${esc(it.id)}"><span class="mg-pic">${img(it.hero)}</span><span><span class="label">${esc(TYPES[it.type] || it.type)}</span><b>${esc(shortTitle(it.title))}</b></span></a>`).join('')}</div>
+    P.innerHTML = `${VGS.length ? `<div class="mg-trends"><span class="label">Plan Your Outdoor Heat 2027</span><div class="mg-papers">${VGS.map((g) => `<a class="mg-p" href="#/guides"><span class="mg-pic"><img src="${esc(g.dir)}/${esc(g.cover)}" alt="" loading="lazy"></span><span><span class="label">Planning guide</span><b>${esc(g.title.split('·').pop().trim())}</b></span></a>`).join('')}</div></div>` : ''}${TR.length ? `<div class="mg-trends"><span class="label">Outdoor Living Trends 2027</span><div class="mg-papers">${TR.map((r) => `<a class="mg-p" href="#/trends"><span class="mg-pic"><img src="trends-2027/${esc(r.id)}/cover.webp" alt="" loading="lazy"></span><span><span class="label">Trend report · ${esc(r.region)}</span><b>${esc(r.title)}</b></span></a>`).join('')}</div></div><span class="label">White papers</span>` : ''}<div class="mg-papers">${papers.map((it) => `<a class="mg-p" href="#/item/${esc(it.id)}"><span class="mg-pic">${DZ[it.id] && DZ[it.id].thumbHref ? `<img src="${esc(DZ[it.id].thumbHref)}" alt="" loading="lazy">` : img(it.hero)}</span><span><span class="label">${esc(TYPES[it.type] || it.type)}</span><b>${esc(shortTitle(it.title))}</b></span></a>`).join('')}</div>
       <div class="mg-foot"><a href="#/downloads">All ${papers.length} white papers, as PDFs ${ic.arrow}</a></div>`;
     M.innerHTML = `<div class="mg-col"><span class="label">Product marketing</span>${(H.pm || []).map((x) => lk('#/pm/' + x.id, x.short || x.name, (x.m3 && x.m3.competitors ? 'Against ' + x.m3.competitors.map((c) => c.name.split(/[ (]/)[0]).join(', ') : 'Benefits, claims, matrices and the launch playbook'))).join('')}</div>
       <div class="mg-col"><span class="label">Brand</span>${lk('#/campaigns', 'Campaigns', 'Get Bromic: films, receipts, concept bank, trade and the audit')}${lk('#/retail', 'Retail Hub', 'One-pagers a retailer needs to sell Bromic', (HUB.retail && HUB.retail.pages || []).length || null)}</div>
