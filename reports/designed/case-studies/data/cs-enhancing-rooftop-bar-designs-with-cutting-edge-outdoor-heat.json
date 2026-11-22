@@ -5,7 +5,7 @@
  "name": "Rooftop Bar, Irvine",
  "sector": "Hospitality",
  "country": "USA",
- "line": "Sixteen Storeys Up, Warm And Clear",
+ "line": "Sixteen Stories Up, Warm And Clear",
  "pages": 2,
  "dateText": "2023",
  "lede": "Irvine’s first rooftop bar is windy, open to the skyline and cleared now and then for window washing. Freestanding Eclipse heaters move where they are needed, and white Tungsten Electric blends into the ceiling.",
@@ -16,7 +16,7 @@
   ],
   [
    "Setting",
-   "Rooftop bar on a hotel, 16 storeys up"
+   "Rooftop bar on a hotel, 16 stories up"
   ],
   [
    "Heaters",
@@ -109,10 +109,12 @@
   "Bromic, “Enhancing Rooftop Bar Designs with Cutting-Edge Outdoor Heating Solutions”, case study, 2023 – bromic.com/case-study/enhancing-rooftop-bar-designs-with-cutting-edge-outdoor-heating-solutions (also on bromic.com.au and bromic.ca)."
  ],
  "layout": {
-  "pages": 3,
+  "pages": 2,
+  "zones": true,
+  "table": true,
   "quote": true,
-  "quoteOn": 2,
-  "wideH": 2.8,
-  "prodH": 1.3
+  "planH": 150,
+  "pairH": 1.9,
+  "noProductPhotos": true
  }
 }

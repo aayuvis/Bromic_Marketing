@@ -83,7 +83,7 @@
   {
    "coll": "Tungsten",
    "name": "Tungsten Smart-Heat® Electric",
-   "img": "portfolio:tungsten-electric",
+   "img": null,
    "p": "tungsten-electric",
    "where": "Three restaurant terraces",
    "qty": "32 (6000 W model selected)",
@@ -119,8 +119,11 @@
  ],
  "layout": {
   "pages": 2,
-  "zones": false,
-  "table": false,
-  "quote": true
+  "zones": true,
+  "table": true,
+  "quote": false,
+  "planH": 120,
+  "noProductPhotos": true,
+  "tight": true
  }
 }

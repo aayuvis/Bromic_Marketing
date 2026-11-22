@@ -103,10 +103,12 @@
  ],
  "layout": {
   "pages": 2,
-  "zones": false,
-  "table": false,
-  "quote": false,
-  "photos": 0,
-  "noProductPhotos": true
+  "zones": true,
+  "table": true,
+  "quote": true,
+  "planH": 130,
+  "pairH": 1.8,
+  "prodH": 0.9,
+  "tight": true
  }
 }

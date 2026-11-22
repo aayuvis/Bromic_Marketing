@@ -274,7 +274,7 @@ module.exports = {
   name: 'Lambeau Field Alumni Suite Terrace', sector: 'Stadium', country: 'USA', line: 'Late-Season Games, Warm Terrace', pages: 2,
   lede: 'At the home of the Green Bay Packers, the Alumni Suite opens onto an 800 sq ft terrace in one of the coldest markets in the US. Six black Tungsten Electric heaters with dimmers keep it welcoming for late-season games.',
   data: [['Location', 'Green Bay, Wisconsin'], ['Setting', 'Stadium suite terrace, 800 sq ft'], ['Heaters', 'Tungsten Smart-Heat® Electric 4 kW 277 V, black (6)'], ['Controls', 'Dimmer controls, each heater adjustable'], ['Date', 'About 2024']],
-  photos: [{ img: 'v-lambeau-alumni-terrace-2', caption: 'Photo: Gunn & Pegelow, via gunnpegelow.com. Permission to publish to be confirmed.' }],
+  photos: [{ img: 'v-lambeau-alumni-terrace-2', pos: '50% 12%', caption: 'Photo: Gunn & Pegelow, via gunnpegelow.com. Permission to publish to be confirmed.' }],
   beats: [
     ['The Space', 'The Alumni Suite at Lambeau Field opens onto an outdoor terrace of 800 sq ft, with high-top tables.'],
     ['The Challenge', 'Green Bay is one of the coldest markets in the US: the terrace had to stay welcoming deep into the season.'],

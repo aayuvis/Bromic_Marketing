@@ -1,0 +1,113 @@
+{
+ "id": "cs-perfecting-the-modern-outdoor-pool-house-with-bromics-eclips",
+ "kind": "bromic",
+ "draft": false,
+ "name": "Pool House, Germany",
+ "sector": "Residential",
+ "country": "Germany",
+ "line": "Warmth After The Swim",
+ "pages": 2,
+ "privateHome": true,
+ "dateText": "June 2023",
+ "lede": "A contemporary pool house in a German garden needed heat and light under a lower ceiling than ideal. An Eclipse Electric on an 8-inch pole meets the clearances and makes the lounge a place to dry off after a swim.",
+ "data": [
+  [
+   "Location",
+   "Germany"
+  ],
+  [
+   "Setting",
+   "Private home – pool house lounge"
+  ],
+  [
+   "Heaters",
+   "Eclipse Smart-Heat® Electric"
+  ],
+  [
+   "Controls",
+   "Eclipse Dimmer Controller"
+  ],
+  [
+   "Date",
+   "June 2023"
+  ]
+ ],
+ "hero": {
+  "img": "w-dsc01890-hdr-bearbeitet",
+  "pos": "50% 50%",
+  "caption": "The pool house lounge at blue hour. Bromic-published photograph from the case study."
+ },
+ "photos": [
+  {
+   "img": "w-dsc01972-bearbeitet",
+   "caption": "Bromic-published photograph from the case study."
+  },
+  {
+   "img": "w-dsc01860-bearbeitet",
+   "caption": "The Eclipse heater glowing on the ceiling at dusk. Bromic-published photograph from the case study."
+  }
+ ],
+ "beats": [
+  [
+   "The Space",
+   "The pool house, planned with Will Pools & Wellness of Bellheim, uses modern materials and opens onto the garden. Its outdoor lounge is where people dry off after swimming."
+  ],
+  [
+   "The Challenge",
+   "The heating had to match the modern look. The ceiling was lower than ideal, the heater had to meet its clearance requirements, and it needed a more substantial power supply."
+  ],
+  [
+   "The Solution",
+   "With Bromic’s complimentary design service, the team chose an Eclipse Smart-Heat Electric on an Eclipse 8-inch straight pole to meet the clearances, and planned in a power line with voltage requirements unusual for Germany."
+  ]
+ ],
+ "quote": {
+  "text": "We had to install the correct power line, which had unconventional voltage requirements for Germany.",
+  "who": "Regina Schaurer-Will",
+  "role": "Owner, Will Pools & Wellness"
+ },
+ "team": [
+  "Pool and wellness dealer: Will Pools & Wellness, Bellheim"
+ ],
+ "products": [
+  {
+   "coll": "Eclipse",
+   "name": "Eclipse Smart-Heat® Electric",
+   "img": "portfolio:eclipse-pendant",
+   "p": "eclipse-electric",
+   "where": "Pool house lounge",
+   "mount": "Eclipse 8-inch straight pole",
+   "controls": "Eclipse Dimmer Controller – light intensity and heat level"
+  }
+ ],
+ "notes": [
+  "A private home: the case study does not name the owner or the town. The quotation is as published on the case study; check the wording against the live page before print."
+ ],
+ "slug": "Pool-House-Germany",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-perfecting-the-modern-outdoor-pool-house-with-bromics-eclips",
+  "url": "https://www.bromic.com/case-study/perfecting-the-modern-outdoor-pool-house-with-bromics-eclipse-collection/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/perfecting-the-modern-outdoor-pool-house-with-bromics-eclipse-collection/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Perfecting the Modern Outdoor Pool House with Bromic’s Eclipse Collection”, case study, June 2023 – bromic.com/case-study/perfecting-the-modern-outdoor-pool-house-with-bromics-eclipse-collection (also on bromic.ca)."
+ ],
+ "layout": {
+  "pages": 2,
+  "zones": true,
+  "table": true,
+  "quote": false,
+  "planH": 120,
+  "noProductPhotos": true,
+  "tight": true,
+  "heroH": 4.3
+ }
+}

@@ -1,0 +1,136 @@
+{
+ "id": "CSW-13",
+ "kind": "web-draft",
+ "draft": true,
+ "name": "Wonder Of The Seas",
+ "sector": "Marine",
+ "country": "Cruise",
+ "line": "More Than A Hundred Heaters On Deck",
+ "pages": 2,
+ "lede": "Royal Caribbean’s Wonder of the Seas, described at launch as the world’s biggest cruise ship, lives much of its voyage outdoors. More than a hundred Platinum Electric Marine heaters warm its restaurants, bars, pool decks and balconies.",
+ "data": [
+  [
+   "Vessel",
+   "Wonder of the Seas, Royal Caribbean International"
+  ],
+  [
+   "Setting",
+   "Restaurants, bars, pool decks and balconies"
+  ],
+  [
+   "Heaters",
+   "Platinum Smart-Heat® Electric Marine (more than 100)"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ],
+  [
+   "Date",
+   "2022"
+  ]
+ ],
+ "photos": [
+  {
+   "img": "m-wonder-of-the-seas-2",
+   "caption": "An outdoor lounge deck. Photograph from Bromic’s marine presentation (2022)."
+  }
+ ],
+ "beats": [
+  [
+   "The Space",
+   "A floating resort where so much of the voyage happens outside: restaurants, bars, pool decks and suite balconies."
+  ],
+  [
+   "The Challenge",
+   "Passengers needed to stay comfortable outdoors over dinner or a drink when the weather turns cool."
+  ],
+  [
+   "The Solution",
+   "More than a hundred Platinum Smart-Heat Electric Marine heaters, in AISI316 stainless steel, warm the restaurants, bars, pool decks and balconies."
+  ]
+ ],
+ "zones": {
+  "title": "Warmth Across The Ship",
+  "shape": "hull",
+  "note": "Spaces shown together on one outline; drawn from the trade press list, not from the ship’s plans.",
+  "items": [
+   {
+    "l": "A",
+    "name": "Restaurants",
+    "text": "Outdoor dining.",
+    "w": 1
+   },
+   {
+    "l": "B",
+    "name": "Bars",
+    "text": "Outdoor bars.",
+    "w": 1
+   },
+   {
+    "l": "C",
+    "name": "Pool decks",
+    "text": "Pool decks.",
+    "w": 1
+   },
+   {
+    "l": "D",
+    "name": "Balconies",
+    "text": "Suite balconies.",
+    "w": 1
+   }
+  ]
+ },
+ "products": [
+  {
+   "coll": "Platinum",
+   "name": "Platinum Smart-Heat® Electric Marine",
+   "img": "portfolio:platinum-electric",
+   "p": "platinum-marine",
+   "where": "Restaurants, bars, pool decks, balconies",
+   "qty": "More than 100",
+   "mount": "To confirm",
+   "extra": [
+    [
+     "Build",
+     "AISI316 stainless steel"
+    ]
+   ],
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "slug": "Wonder-Of-The-Seas",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "file": "content/case-studies/web/CSW-13-wonder-of-the-seas.md",
+  "evidence": "bromic-publication",
+  "completeness": "full-draft",
+  "owner_review": "Marine team"
+ },
+ "sources": [
+  "Cruise & Ferry (25 Aug 2022): cruiseandferry.net/articles/royal-caribbean-improves-guest-experience-with-bromic-heaters",
+  "Bromic Heating (Marine presentation PDF, 2022): bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf"
+ ],
+ "notes": [
+  "Draft from public sources: nothing here has been confirmed with the customer. Publish only once the consent checklist in the case-study template is complete."
+ ],
+ "hero": {
+  "img": "m-wonder-of-the-seas-1",
+  "caption": "Photograph from Bromic's marine presentation (2022)."
+ },
+ "layout": {
+  "pages": 2,
+  "zones": true,
+  "table": true,
+  "quote": true,
+  "planH": 150,
+  "photos": 1,
+  "pairH": 1.8,
+  "prodH": 0.95,
+  "heroH": 4.3
+ }
+}

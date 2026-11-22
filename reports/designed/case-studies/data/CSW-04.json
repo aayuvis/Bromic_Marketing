@@ -5,10 +5,10 @@
  "name": "Two Michigan Pergolas",
  "sector": "Residential",
  "country": "USA",
- "line": "Four Seasons Under The Louvres",
+ "line": "Four Seasons Under The Louvers",
  "pages": 2,
  "privateHome": true,
- "lede": "In Livonia and Chelsea, a Detroit-area StruXure dealer built Bromic radiant heaters into louvred pergolas with motorised screens, so two backyards stay inviting as the temperature drops.",
+ "lede": "In Livonia and Chelsea, a Detroit-area StruXure dealer built Bromic radiant heaters into louvered pergolas with motorized screens, so two backyards stay inviting as the temperature drops.",
  "data": [
   [
    "Location",
@@ -16,7 +16,7 @@
   ],
   [
    "Setting",
-   "Two private homes – louvred pergolas"
+   "Two private homes – louvered pergolas"
   ],
   [
    "Heaters",
@@ -44,11 +44,11 @@
  "beats": [
   [
    "The Space",
-   "In Livonia, a roof-mounted StruXure pergola attaches to the house, with motorised louvres and solar screens. In Chelsea, an elevated patio sits under a three-zone pergola with screens and an outdoor kitchen."
+   "In Livonia, a roof-mounted StruXure pergola attaches to the house, with motorized louvers and solar screens. In Chelsea, an elevated patio sits under a three-zone pergola with screens and an outdoor kitchen."
   ],
   [
    "The Challenge",
-   "Both owners wanted a four-season room in a cold state: louvred roof and screens, with heat that keeps the space in use as autumn comes in."
+   "Both owners wanted a four-season room in a cold state: louvered roof and screens, with heat that keeps the space in use as autumn comes in."
   ],
   [
    "The Solution",
@@ -67,7 +67,7 @@
   "rows": [
    [
     "Livonia",
-    "Roof-mounted StruXure louvred pergola, solar screens",
+    "Roof-mounted StruXure louvered pergola, solar screens",
     "About 720 sq ft",
     "Fall 2025"
    ],
@@ -86,10 +86,10 @@
   {
    "coll": "Bromic",
    "name": "Bromic heaters – model to confirm",
-   "img": "v-skyview-livonia-2",
+   "img": null,
    "p": "bromic",
    "where": "Built into each pergola",
-   "mount": "Within the louvred pergola structure",
+   "mount": "Within the louvered pergola structure",
    "controls": "To confirm – the source does not name them"
   }
  ],
@@ -107,7 +107,8 @@
  },
  "sources": [
   "Skyview (StruXure dealer, Detroit) (skyviewusa.com).",
-  "Skyview (skyviewusa.com)."
+  "Skyview (skyviewusa.com).",
+  "Skyview (StruXure dealer, Detroit) (skyviewusa.com)."
  ],
  "notes": [
   "Draft from public sources: nothing here has been confirmed with the customer. Publish only once the consent checklist in the case-study template is complete."

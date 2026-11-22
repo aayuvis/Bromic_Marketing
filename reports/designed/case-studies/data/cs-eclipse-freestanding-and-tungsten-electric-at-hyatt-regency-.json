@@ -45,6 +45,7 @@
   {
    "img": "w-23-03-12-bromic-heating-hyatt-dehradun-61",
    "pos": "50% 50%",
+   "stripPos": "50% 12%",
    "caption": "Eclipse Freestanding over a rooftop lounge at night. Bromic-published photograph from the case study."
   }
  ],
@@ -81,7 +82,7 @@
    {
     "l": "C",
     "name": "All-day dining",
-    "text": "Tungsten Electric, where the wind is a common visitor.",
+    "text": "Tungsten Electric, against the strong winds.",
     "w": 1
    },
    {
@@ -114,9 +115,8 @@
   {
    "coll": "Eclipse",
    "name": "Eclipse Smart-Heat® Freestanding",
-   "img": "w-23-03-12-bromic-heating-hyatt-dehradun-61",
+   "img": "portfolio:eclipse-freestanding",
    "p": "eclipse-freestanding",
-   "pos": "50% 40%",
    "where": "Lounges and rooftop bar",
    "mount": "Freestanding",
    "controls": "Eclipse Dimmer Controller"
@@ -146,11 +146,9 @@
  "layout": {
   "pages": 3,
   "quote": true,
-  "quoteOn": 2,
-  "planH": 200,
-  "stripH": 1.2,
-  "wideH": 2.6,
-  "prodH": 1.15,
+  "quoteOn": 3,
+  "wideH": 2.8,
+  "prodH": 1.2,
   "heroH": 4.3
  }
 }

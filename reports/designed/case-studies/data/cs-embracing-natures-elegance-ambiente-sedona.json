@@ -131,7 +131,6 @@
  "layout": {
   "pages": 3,
   "quote": true,
-  "quoteOn": 2,
-  "wideH": 3.2
+  "quoteOn": 2
  }
 }

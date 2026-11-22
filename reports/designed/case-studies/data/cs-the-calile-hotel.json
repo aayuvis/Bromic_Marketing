@@ -82,8 +82,7 @@
  "notes": [],
  "layout": {
   "pages": 1,
-  "quote": false,
-  "heroH": 2.6,
-  "beatSize": 7.6
+  "quote": true,
+  "heroH": 2.6
  }
 }

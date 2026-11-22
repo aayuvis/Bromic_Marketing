@@ -128,8 +128,11 @@
  ],
  "layout": {
   "pages": 2,
-  "zones": false,
-  "table": false,
-  "quote": false
+  "zones": true,
+  "table": true,
+  "quote": false,
+  "planH": 120,
+  "noProductPhotos": true,
+  "tight": true
  }
 }

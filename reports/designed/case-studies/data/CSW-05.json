@@ -5,10 +5,10 @@
  "name": "Reveal Design Backyards",
  "sector": "Residential",
  "country": "USA",
- "line": "Warmth Hung From The Louvres",
+ "line": "Warmth Hung From The Louvers",
  "pages": 2,
  "privateHome": true,
- "lede": "A Chicago landscape design-build firm specifies Bromic into its pergola work. In Glenview, electric heaters hang from an opening louvred pergola; in North Center, a city backyard pergola is equipped with heaters too.",
+ "lede": "A Chicago landscape design-build firm specifies Bromic into its pergola work. In Glenview, electric heaters hang from an opening louvered pergola; in North Center, a city backyard pergola is equipped with heaters too.",
  "data": [
   [
    "Location",
@@ -16,7 +16,7 @@
   ],
   [
    "Setting",
-   "Two private homes – louvred pergolas"
+   "Two private homes – louvered pergolas"
   ],
   [
    "Heaters",
@@ -36,7 +36,7 @@
  "beats": [
   [
    "The Space",
-   "In Glenview, a suburban backyard brings together a composite deck, an opening louvred pergola, an outdoor kitchen, a fire table and privacy planting. In North Center, a city backyard pairs a pergola with a garage party door and a deck."
+   "In Glenview, a suburban backyard brings together a composite deck, an opening louvered pergola, an outdoor kitchen, a fire table and privacy planting. In North Center, a city backyard pairs a pergola with a garage party door and a deck."
   ],
   [
    "The Challenge",
@@ -44,7 +44,7 @@
   ],
   [
    "The Solution",
-   "In Glenview, Bromic electric heaters hang from the aluminium pergola. For North Center, the firm’s listing names Bromic heaters and the project page says the pergola is equipped with heaters."
+   "In Glenview, Bromic electric heaters hang from the aluminum pergola. For North Center, the firm’s listing names Bromic heaters and the project page says the pergola is equipped with heaters."
   ]
  ],
  "team": [
@@ -54,10 +54,10 @@
   {
    "coll": "Bromic",
    "name": "Bromic heaters – model to confirm",
-   "img": "v-reveal-glenview-1",
+   "img": null,
    "p": "bromic",
    "where": "Glenview pergola; North Center pergola",
-   "mount": "Hung from the aluminium pergola (Glenview)",
+   "mount": "Hung from the aluminum pergola (Glenview)",
    "controls": "To confirm – the source does not name them"
   }
  ],
@@ -78,6 +78,8 @@
   "owner_review": "US field sales"
  },
  "sources": [
+  "Reveal Design LLC (revealdesignchicago.com).",
+  "Reveal Design LLC (revealdesignchicago.com).",
   "Reveal Design LLC (revealdesignchicago.com)."
  ],
  "hero": {

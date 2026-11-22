@@ -71,7 +71,7 @@
   {
    "coll": "Platinum",
    "name": "Platinum Smart-Heat® Gas",
-   "img": "v-babylon-sydney-1",
+   "img": "portfolio:platinum-gas",
    "p": "platinum-gas",
    "where": "Outdoor terrace and alfresco dining",
    "qty": "34: 22 smaller, 12 larger",
@@ -105,8 +105,12 @@
  },
  "layout": {
   "pages": 2,
-  "zones": false,
-  "table": false,
-  "quote": true
+  "zones": true,
+  "table": true,
+  "quote": true,
+  "planH": 130,
+  "pairH": 1.8,
+  "prodH": 0.9,
+  "tight": true
  }
 }

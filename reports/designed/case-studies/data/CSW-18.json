@@ -54,7 +54,7 @@
   {
    "coll": "Platinum",
    "name": "Platinum Smart-Heat® Gas",
-   "img": "v-greenwood-highwood-2",
+   "img": "portfolio:platinum-gas",
    "p": "platinum-gas",
    "where": "Outdoor dining patio",
    "mount": "Angled from the beam, as photographed – to confirm",
@@ -87,8 +87,7 @@
  "layout": {
   "pages": 1,
   "quote": false,
-  "heroH": 2.4,
-  "beatSize": 7.4,
-  "lede": false
+  "heroH": 2.2,
+  "beatSize": 7.5
  }
 }

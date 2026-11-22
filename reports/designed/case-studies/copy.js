@@ -105,7 +105,7 @@ const C = {
   hero: { img: 'w-23-03-12-bromic-heating-hyatt-dehradun-14', pos: '50% 55%', caption: 'Tungsten Smart-Heat® Electric beside a dining table, the mountains beyond. ' + BC },
   photos: [
     { img: 'w-23-03-12-bromic-heating-hyatt-dehradun-52', pos: '50% 45%', caption: 'Tungsten Electric along the glass facade of a lounge terrace. ' + BC },
-    { img: 'w-23-03-12-bromic-heating-hyatt-dehradun-61', pos: '50% 50%', caption: 'Eclipse Freestanding over a rooftop lounge at night. ' + BC }],
+    { img: 'w-23-03-12-bromic-heating-hyatt-dehradun-61', pos: '50% 50%', stripPos: '50% 12%', caption: 'Eclipse Freestanding over a rooftop lounge at night. ' + BC }],
   beats: [
     ['The Space', 'Opened in March 2022 on 4.25 acres, the hotel has more than 250 rooms over seven floors, with restaurants, lounges and Beyul, a rooftop bar, all designed around the view.'],
     ['The Challenge', 'Strong winds were common at the rooftop bar and the all-day dining restaurant. The heaters had to hold up to them and blend into each space without changing its look.'],
@@ -113,7 +113,7 @@ const C = {
   zones: { title: 'A Heater For Every Space', shape: 'plan', items: [
     { l: 'A', name: 'Beyul rooftop bar', text: 'Tungsten Electric and Eclipse Freestanding, set against strong winds.', w: 1.2 },
     { l: 'B', name: 'Pan Asian restaurant', text: 'Tungsten Electric.', w: 1 },
-    { l: 'C', name: 'All-day dining', text: 'Tungsten Electric, where the wind is a common visitor.', w: 1 },
+    { l: 'C', name: 'All-day dining', text: 'Tungsten Electric, against the strong winds.', w: 1 },
     { l: 'D', name: 'Lounges', text: 'Eclipse Freestanding – heat and light where there are no ceilings or walls for mounting.', w: 1.1 }] },
   quote: { text: 'The heat plan helped us optimize the placement of the heaters for maximum efficiency and comfort.', who: 'Love Chaudhary', role: 'Principal Architect, AND Studio' },
   team: ['Architect: AND Studio, New Delhi'],
@@ -270,10 +270,9 @@ const C = {
     ['The Challenge', 'Events often outgrew the pub. The patio had to be usable all year – through regular winds and winter lows the case study puts at 5 °C – under a relatively low ceiling.'],
     ['The Solution', 'With technical help from Bromic’s sales team, the club installed nine Tungsten Electric 6000 W heaters, each covering up to 15 m², and added curtains to keep the heat in.']],
   zones: { title: 'One Patio, Closed To The Wind', shape: 'plan', items: [
-    { l: 'A', name: 'Covered patio', text: 'About 100 seats under a relatively low ceiling, warmed by Tungsten Electric; curtains hold the heat against the wind.', w: 3 },
-    { l: 'B', name: 'Pub & Grill', text: 'The existing pub the patio extends.', w: 1 }] },
+    { l: 'A', name: 'Covered patio', text: 'About 100 seats under a relatively low ceiling, warmed by Tungsten Electric; curtains hold the heat against the wind.', w: 1 }] },
   products: [{ p: 'tungsten-electric', where: 'Covered patio', qty: '9 × 6000 W', mount: 'To confirm', extra: [['Coverage', 'Up to 15 m² a heater, as the case study states']] }],
-  notes: ['The case study gives no positions; the plan shows the heated patio only, beside the pub it extends.'],
+  notes: ['The case study gives no positions; the plan shows the heated patio only.'],
 },
 
 'cs-london-restauranteur-incorporates-full-bromic-line-across-lo': {
@@ -303,7 +302,7 @@ const C = {
   lede: 'On a custom 34-metre explorer yacht from Van der Valk, white Platinum Electric Marine heaters are recessed into the deck heads of the VIP balcony and the aft entertainment deck, so the owner and guests use them all year.',
   data: [['Vessel', '34-metre explorer superyacht'], ['Setting', 'Aft deck entertainment area and VIP balcony'], ['Heaters', 'Platinum Smart-Heat® Electric Marine, white'], ['Controls', 'To confirm'], ['Date', '2021']],
   hero: { img: 'w-marine-grade-platinum-electric-white-lady-le', pos: '50% 50%', caption: 'Heaters recessed flush in the curved aft deck ceiling. ' + BC },
-  photos: [{ img: 'w-bromic-heating-marine-platinum-electric-lady', caption: 'Platinum Electric Marine over the aft lounge at sunset. ' + BC }],
+  photos: [{ img: 'w-bromic-heating-marine-platinum-electric-lady', pos: '50% 15%', caption: 'Platinum Electric Marine over the aft lounge at sunset. ' + BC }],
   beats: [
     ['The Space', 'The aft entertainment area is the yacht’s design focus, with zones to relax and dine, a bar and a swim platform. Built by Van der Valk, she was designed by a team including Diana Yacht Design and Ginton Naval Architects.'],
     ['The Challenge', 'The owner and guests wanted the aft decks comfortable and usable year-round, with heating that suited the yacht’s clean, elegant design.'],

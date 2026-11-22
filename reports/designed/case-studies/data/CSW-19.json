@@ -76,7 +76,7 @@
   {
    "coll": "Tungsten",
    "name": "Tungsten Smart-Heat® Gas",
-   "img": "v-howard-park-south-bend-1",
+   "img": "portfolio:tungsten-gas",
    "p": "tungsten-gas",
    "where": "Restaurant patio; skate-rental area",
    "mount": "Around the building perimeter",
@@ -110,8 +110,9 @@
   "pages": 2,
   "zones": true,
   "table": true,
-  "quote": false,
+  "quote": true,
   "planH": 150,
+  "pairH": 1.9,
   "noProductPhotos": true
  }
 }

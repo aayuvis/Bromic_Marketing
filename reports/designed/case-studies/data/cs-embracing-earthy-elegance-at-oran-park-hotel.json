@@ -105,9 +105,8 @@
   {
    "coll": "Eclipse",
    "name": "Eclipse Smart-Heat® Electric",
-   "img": "w-bromicheaters-oranparkhotel-stevenwoodburn-4",
+   "img": "portfolio:eclipse-pendant",
    "p": "eclipse-electric",
-   "pos": "50% 40%",
    "where": "Central Courtyard",
    "mount": "Pendant, integrated with the light fittings",
    "controls": "To confirm – the source does not name them"
@@ -137,7 +136,6 @@
  "layout": {
   "pages": 3,
   "quote": true,
-  "quoteOn": 2,
-  "wideH": 3.2
+  "quoteOn": 2
  }
 }

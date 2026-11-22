@@ -81,7 +81,7 @@
   {
    "coll": "Tungsten",
    "name": "Tungsten Smart-Heat® Electric",
-   "img": "w-juneau-showhome-1",
+   "img": "portfolio:tungsten-electric",
    "p": "tungsten-electric",
    "where": "Outdoor living areas",
    "mount": "Wall-mounted",
@@ -120,8 +120,11 @@
  },
  "layout": {
   "pages": 2,
-  "zones": false,
-  "table": false,
-  "quote": true
+  "zones": true,
+  "table": true,
+  "quote": true,
+  "planH": 120,
+  "noProductPhotos": true,
+  "tight": true
  }
 }

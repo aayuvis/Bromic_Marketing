@@ -58,12 +58,6 @@
     "l": "A",
     "name": "Covered patio",
     "text": "About 100 seats under a relatively low ceiling, warmed by Tungsten Electric; curtains hold the heat against the wind.",
-    "w": 3
-   },
-   {
-    "l": "B",
-    "name": "Pub & Grill",
-    "text": "The existing pub the patio extends.",
     "w": 1
    }
   ]
@@ -72,7 +66,7 @@
   {
    "coll": "Tungsten",
    "name": "Tungsten Smart-Heat® Electric",
-   "img": "portfolio:tungsten-electric",
+   "img": null,
    "p": "tungsten-electric",
    "where": "Covered patio",
    "qty": "9 × 6000 W",
@@ -87,7 +81,7 @@
   }
  ],
  "notes": [
-  "The case study gives no positions; the plan shows the heated patio only, beside the pub it extends."
+  "The case study gives no positions; the plan shows the heated patio only."
  ],
  "slug": "Kahite-Pub-and-Grill",
  "cta": {
@@ -109,8 +103,12 @@
  ],
  "layout": {
   "pages": 2,
-  "zones": false,
-  "table": false,
-  "quote": true
+  "zones": true,
+  "table": true,
+  "quote": true,
+  "planH": 130,
+  "pairH": 1.8,
+  "prodH": 0.9,
+  "tight": true
  }
 }

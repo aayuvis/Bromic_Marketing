@@ -102,6 +102,13 @@ function buildP(id) {
     const [coll, name, fallback] = PRODUCTS[p.p] || PRODUCTS.bromic;
     return Object.assign({ coll, name, img: fallback ? 'portfolio:' + fallback : null }, p, { controls: p.controls || TO_CONFIRM });
   });
+  // a product card never repeats a photograph already on the sheet: fall back to the product photograph
+  const heroImg = (c.hero && c.hero.img) || (web && web.hero);
+  const shown = new Set([heroImg, ...(c.photos || []).map((x) => x.img)]);
+  for (const p of P.products) {
+    if (p.img && shown.has(p.img)) { const fb = (PRODUCTS[p.p] || PRODUCTS.bromic)[2]; p.img = fb && !shown.has('portfolio:' + fb) ? 'portfolio:' + fb : null; delete p.pos; }
+    if (p.img) shown.add(p.img);
+  }
   // data strip: Controls always present
   const data = c.data.map(([k, v]) => [k, clean(v)]);
   if (!data.find(([k]) => k === 'Controls')) data.splice(3, 0, ['Controls', 'To confirm']);
@@ -110,7 +117,8 @@ function buildP(id) {
     P.source = { file: web.file, evidence: web.evidence, completeness: web.completeness, owner_review: clean(web.owner_review) };
     const residential = !!c.privateHome;
     const src = web.sources.map((s) => { const r = s.title.replace(/^\w+ source\s*/i, ''); const t = r ? ' ' + r : ''; return residential ? `${s.publisher}${t} (${hostOnly(s.url)}).` : `${s.publisher}${t}: ${shortUrl(s.url)}`; });
-    P.sources = [...new Set(src)].concat(c.sources || []);
+    const seen = new Set();
+    P.sources = src.filter((x, i) => { const u = shortUrl(web.sources[i].url).replace(/^www\./, ''); if (seen.has(u)) return false; seen.add(u); return true; }).concat(c.sources || []);
     P.notes = ['Draft from public sources: nothing here has been confirmed with the customer. Publish only once the consent checklist in the case-study template is complete.'].concat(c.notes || []);
     if (!c.hero) P.hero = { img: web.hero, caption: web.hero_caption };
   } else {
@@ -119,6 +127,12 @@ function buildP(id) {
     const page = `Bromic, “${inv ? inv.title : rec.title}”, case study${c.dateText ? ', ' + c.dateText : ''} – ${shortUrl(rec.url)}${rec.also_at && rec.also_at.length ? ' (also on ' + [...new Set(rec.also_at.map(hostOnly))].join(' and ') + ')' : ''}.`;
     P.sources = [page].concat(c.sources || []);
     P.notes = (c.notes || []).slice();
+  }
+  // US English for US sheets (the master market)
+  if (P.country === 'USA') {
+    const US = [[/louvred/g, 'louvered'], [/Louvres/g, 'Louvers'], [/louvres/g, 'louvers'], [/motorised/g, 'motorized'], [/centred/g, 'centered'], [/prioritised/g, 'prioritized'], [/storeys/g, 'stories'], [/Storeys/g, 'Stories'], [/aluminium/g, 'aluminum'], [/colour/g, 'color'], [/ centre/g, ' center']];
+    const us = (v) => (typeof v === 'string' ? US.reduce((a, [r, t]) => a.replace(r, t), v) : Array.isArray(v) ? v.map(us) : v && typeof v === 'object' ? Object.fromEntries(Object.entries(v).map(([k, x]) => [k, k === 'img' ? x : us(x)])) : v);
+    for (const k of ['line', 'lede', 'beats', 'data', 'zones', 'table', 'products', 'notes', 'team', 'name']) if (P[k]) P[k] = us(P[k]);
   }
   P.sources = P.sources.map(clean);
   P.notes = P.notes.map(clean);
@@ -188,7 +202,7 @@ function zonePlan(z, W, H) {
       const y = iy0 + ri * (rowH + gap);
       s += `<rect x="${x}" y="${y}" width="${w}" height="${rowH}" fill="#fff" stroke="${INK}" stroke-width="1.4"/>`;
       s += `<rect x="${x + 10}" y="${y + 10}" width="${w - 20}" height="${rowH - 20}" rx="${Math.min(22, rowH / 4)}" fill="#FCF6F2" stroke="${FLAME}" stroke-width=".8" stroke-dasharray="3 3" stroke-opacity=".55"/>`;
-      s += `<ellipse cx="${x + w / 2}" cy="${y + rowH / 2 + 10}" rx="${(w - 30) / 2}" ry="${(rowH - 50) / 2}" fill="url(#warm)"/>`;
+      s += `<ellipse cx="${x + w / 2}" cy="${y + rowH / 2 + (rowH > 120 ? 10 : 6)}" rx="${(w - 34) / 2}" ry="${Math.max(16, (rowH - 44) / 2)}" fill="url(#warm)"/>`;
       const cx = x + 22, cy = y + 24;
       s += `<circle cx="${cx}" cy="${cy}" r="9" fill="#fff" stroke="${FLAME}" stroke-width="1.2"/><text x="${cx}" y="${cy + 3.2}" font-size="9" fill="${FLAME}" text-anchor="middle" font-weight="700">${it.l}</text>`;
       const label = esc(it.name.toUpperCase());
@@ -336,9 +350,9 @@ function pairBlock(P, photos) {
 }
 function productsBlock(P, opt) {
   const ps = P.products;
-  const one = ps.length === 1 && !opt.compact;
   const noPhoto = opt.noProductPhotos || ps.every((p) => !p.img);
-  const cols = one ? 1 : Math.max(ps.length, opt.compact ? 2 : 3);
+  const one = ps.length === 1 && !opt.compact && !noPhoto;
+  const cols = one ? 1 : Math.max(ps.length, 2);
   const card = (p) => {
     const rows = [['Where', p.where], ...(p.qty ? [['Quantity', p.qty]] : []), ['Mounting', p.mount || 'To confirm'], ...(p.extra || []), ['Controls', p.controls]];
     return `<div class="prod">${!noPhoto && p.img ? `<div class="ph" style="${bg(p.img, p.pos)}"></div>` : ''}<div><div class="coll">${esc(p.coll.toUpperCase())}</div><h4>${reg(p.name)}</h4>
@@ -382,7 +396,7 @@ function layout2(P, opt) {
   if (opt.zones && P.zones) middle = zonesBlock(P, opt.planH || 190);
   else if (opt.table && P.table) middle = tableBlock(P);
   else if (photos.length) middle = pairBlock(P, photos);
-  const v = `--pairH:${opt.pairH || 2.25}in;--prodH:${opt.prodH || 1.15}in;--quoteSize:${opt.quoteSize || 14}pt;--secTop:20px;--closeTop:20px`;
+  const v = `--pairH:${opt.pairH || 2.25}in;--prodH:${opt.prodH || 1.15}in;--quoteSize:${opt.quoteSize || 14}pt;--secTop:${opt.tight ? 14 : 20}px;--closeTop:${opt.tight ? 14 : 20}px${opt.tight ? ';--beatSize:8pt;--beatH:15pt;--quoteTop:14px;--quoteSize:12.5pt;--rowPad:4px' : ''}`;
   return [cover(P, opt), `<section class="page" style="${v}">${stamp(P, false)}<div class="kicker">The Project</div>${beatsBlock(P)}${middle}
     ${opt.quote && P.quote ? quoteBlock(P) : ''}${productsBlock(P, { noProductPhotos: opt.noProductPhotos })}${closingBlock(P)}</section>`];
 }
@@ -394,7 +408,7 @@ function layout3(P, opt) {
   if (P.zones) p2mid = zonesBlock(P, opt.planH || 230);
   else if (P.table) p2mid = tableBlock(P);
   else if (rest.length) p2mid = pairBlock(P, rest.slice(0, 2));
-  const strip = P.zones && rest[0] && opt.strip !== false ? `<div class="strip" style="${bg(rest[0].img, rest[0].pos)}"></div><div class="cap">${reg(rest[0].caption)}</div>` : '';
+  const strip = P.zones && rest[0] && opt.strip !== false ? `<div class="strip" style="${bg(rest[0].img, rest[0].stripPos || "50% 30%")}"></div><div class="cap">${reg(rest[0].caption)}</div>` : '';
   const v2 = `--pairH:${opt.pairH || 3.0}in;--stripH:${opt.stripH || 1.5}in;--quoteSize:15pt`;
   const v3 = `--wideH:${opt.wideH || 3.75}in;--prodH:${opt.prodH || 1.55}in`;
   return [cover(P, opt),
@@ -411,7 +425,13 @@ function candidates(P) {
   // rich two-page forms keep the plan or table, the quote and the product photographs
   const L2rich = [
     { pages: 2, zones: true, table: true, quote: true }, { pages: 2, zones: true, table: true, quote: true, planH: 160, prodH: 1.0, pairH: 1.9 },
-    { pages: 2, zones: true, table: true, quote: true, planH: 150, photos: 1, pairH: 1.8, prodH: 0.95 }];
+    { pages: 2, zones: true, table: true, quote: true, planH: 150, photos: 1, pairH: 1.8, prodH: 0.95 },
+    { pages: 2, zones: true, table: true, quote: true, planH: 150, pairH: 1.7, prodH: 0.9 },
+    { pages: 2, zones: true, table: true, quote: true, planH: 150, pairH: 1.9, noProductPhotos: true },
+    { pages: 2, zones: true, table: true, quote: true, planH: 140, photos: 1, pairH: 1.9, noProductPhotos: true },
+    { pages: 2, zones: true, table: true, quote: true, planH: 130, pairH: 1.8, prodH: 0.9, tight: true },
+    { pages: 2, zones: true, table: true, quote: true, planH: 120, noProductPhotos: true, tight: true },
+    { pages: 2, zones: true, table: true, quote: false, planH: 120, noProductPhotos: true, tight: true }];
   const L3 = [
     { pages: 3, quote: true, quoteOn: 2 }, { pages: 3, quote: true, quoteOn: 2, wideH: 3.2 }, { pages: 3, quote: true, quoteOn: 2, wideH: 2.8, prodH: 1.3 },
     { pages: 3, quote: true, quoteOn: 3, wideH: 2.8, prodH: 1.2 }, { pages: 3, quote: true, quoteOn: 2, planH: 200, stripH: 1.2, wideH: 2.6, prodH: 1.15 },
@@ -420,10 +440,10 @@ function candidates(P) {
     { pages: 2, zones: true, table: true, quote: false }, { pages: 2, zones: true, table: true, quote: false, planH: 150, noProductPhotos: true },
     { pages: 2, zones: false, table: false, quote: true, photos: 1, pairH: 1.8, noProductPhotos: true },
     { pages: 2, zones: false, table: false, quote: false, photos: 0, noProductPhotos: true }];
-  const rich3 = (P.photos || []).length >= 1;
+  const rich3 = (P.photos || []).length >= 1 && !!(P.zones || P.table);
   if (want === 1) return [...L1, ...L2rich, ...L2lean];
   if (want === 3) return [...L3, ...L2rich, ...L2lean];
-  return [...L2rich, ...(rich3 ? L3 : []), ...L2lean];
+  return [...L2rich, ...(rich3 ? L3 : []), ...L2lean, ...(rich3 ? [] : L3)];
 }
 const render = (P, opt) => (opt.pages === 1 ? layout1 : opt.pages === 3 ? layout3 : layout2)(P, opt);
 function html(P, bodies) {
@@ -478,7 +498,7 @@ async function check(page, P) {
 async function buildOne(browser, id, log) {
   const dataFile = path.join(HERE, 'data', id + '.json');
   let P;
-  if (fs.existsSync(dataFile)) { const old = JSON.parse(fs.readFileSync(dataFile, 'utf8')); if (old.locked) P = old; }
+  if (fs.existsSync(dataFile)) { try { const old = JSON.parse(fs.readFileSync(dataFile, 'utf8')); if (old.locked) P = old; } catch {} }
   if (!P) P = buildP(id);
   const refs = new Set([P.hero.img, ...(P.photos || []).map((p) => p.img), ...P.products.map((p) => p.img)].filter(Boolean));
   prepareImages([...refs]);
@@ -518,7 +538,7 @@ async function buildOne(browser, id, log) {
   fs.mkdirSync(path.join(outDir, 'pages'), { recursive: true });
   const pages = await page.$$('.page');
   const pngs = [];
-  for (let i = 0; i < pages.length; i++) { const p = path.join(outDir, 'pages', `p${i + 1}.png`); await pages[i].screenshot({ path: p }); pngs.push(path.relative(HERE, p)); }
+  for (let i = 0; i < pages.length; i++) { const p = path.join(outDir, 'pages', `p${i + 1}.png`); await pages[i].screenshot({ path: p }); pngs.push(path.relative(ROOT, p)); }
   await page.emulateMedia({ media: 'print' });
   const pdf = path.join(outDir, `Bromic-Project-File-${P.slug}.pdf`);
   await page.pdf({ path: pdf, preferCSSPageSize: true, printBackground: true });
@@ -526,14 +546,14 @@ async function buildOne(browser, id, log) {
   const size = fs.statSync(pdf).size;
   if (size > 3 * 1024 * 1024) throw new Error(`${id}: PDF ${size} bytes > 3 MB`);
   const thumb = path.join(outDir, 'cover-thumb.webp');
-  execFileSync('python3', ['-I', '-c', "import sys\nfrom PIL import Image\nim=Image.open(sys.argv[1]).convert('RGB'); im.thumbnail((640,830)); im.save(sys.argv[2],'WEBP',quality=82)", path.join(HERE, pngs[0]), thumb]);
+  execFileSync('python3', ['-I', '-c', "import sys\nfrom PIL import Image\nim=Image.open(sys.argv[1]).convert('RGB'); im.thumbnail((640,830)); im.save(sys.argv[2],'WEBP',quality=82)", path.join(ROOT, pngs[0]), thumb]);
   log(`ok ${id}: ${pages.length} p, ${(size / 1024).toFixed(0)} KB, layout ${JSON.stringify(chosen)}`);
-  return { id, item_id: id, title: P.name, kind: P.kind, pdf: path.relative(HERE, pdf), cover: pngs[0], thumb: path.relative(ROOT, thumb), pages: pngs, page_count: pngs.length, bytes: size };
+  return { id, item_id: id, title: P.name, kind: P.kind, pdf: path.relative(ROOT, pdf), cover: pngs[0], thumb: path.relative(ROOT, thumb), pages: pngs, page_count: pngs.length, bytes: size };
 }
 
 async function contactSheet(index) {
   const py = `import sys,json\nfrom PIL import Image,ImageDraw\nrows=json.load(sys.stdin); W=6; tw,th=272,352\nH=(len(rows)+W-1)//W\nsheet=Image.new('RGB',(W*tw+ (W+1)*12, H*(th+26)+12),'#e9eaeb'); d=ImageDraw.Draw(sheet)\nfor i,(p,label) in enumerate(rows):\n  im=Image.open(p).convert('RGB'); im.thumbnail((tw,th)); x=12+(i%W)*(tw+12); y=12+(i//W)*(th+26); sheet.paste(im,(x,y)); d.text((x,y+th+4),label,fill='#231F20')\nsheet.save(sys.argv[1],'JPEG',quality=82)\n`;
-  const rows = index.map((r) => [path.join(HERE, r.cover), `${r.id.slice(0, 34)} (${r.page_count}p${r.kind === 'web-draft' ? ', draft' : ''})`]);
+  const rows = index.map((r) => [path.join(ROOT, r.cover), `${r.id.slice(0, 34)} (${r.page_count}p${r.kind === 'web-draft' ? ', draft' : ''})`]);
   execFileSync('python3', ['-I', '-c', py, path.join(HERE, 'contact-sheet.jpg')], { input: JSON.stringify(rows) });
 }
 

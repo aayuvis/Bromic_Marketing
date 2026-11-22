@@ -48,7 +48,7 @@
   {
    "coll": "Tungsten",
    "name": "Tungsten Smart-Heat® Electric",
-   "img": "v-catch-the-wave-beloit-1",
+   "img": "portfolio:tungsten-electric",
    "p": "tungsten-electric",
    "where": "Covered patio",
    "mount": "Locations and heights set by a Bromic layout",
@@ -79,8 +79,7 @@
  },
  "layout": {
   "pages": 1,
-  "quote": false,
-  "heroH": 2.6,
-  "beatSize": 7.6
+  "quote": true,
+  "heroH": 2.6
  }
 }

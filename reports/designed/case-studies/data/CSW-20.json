@@ -33,6 +33,7 @@
  "photos": [
   {
    "img": "v-lambeau-alumni-terrace-2",
+   "pos": "50% 12%",
    "caption": "Photo: Gunn & Pegelow, via gunnpegelow.com. Permission to publish to be confirmed."
   }
  ],
@@ -59,9 +60,8 @@
   {
    "coll": "Tungsten",
    "name": "Tungsten Smart-Heat® Electric",
-   "img": "v-lambeau-alumni-terrace-2",
+   "img": "portfolio:tungsten-electric",
    "p": "tungsten-electric",
-   "pos": "50% 30%",
    "where": "800 sq ft suite terrace",
    "qty": "6 × 4 kW, 277 V, black",
    "mount": "Drop rod, as photographed – to confirm",

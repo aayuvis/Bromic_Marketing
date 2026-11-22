@@ -49,7 +49,7 @@
  "beats": [
   [
    "The Space",
-   "Stella’s outdoor patio is larger than its indoor seating and is centred on a signature olive tree, in a hotel built around a luxurious atmosphere."
+   "Stella’s outdoor patio is larger than its indoor seating and is centered on a signature olive tree, in a hotel built around a luxurious atmosphere."
   ],
   [
    "The Challenge",
@@ -79,9 +79,8 @@
   {
    "coll": "Platinum",
    "name": "Platinum Smart-Heat® Electric",
-   "img": "w-stellas-bromic-platinum-electric",
+   "img": "portfolio:platinum-electric",
    "p": "platinum-electric",
-   "pos": "50% 40%",
    "where": "Patio",
    "qty": "2",
    "mount": "2-foot ceiling mount, Platinum Electric mounting poles",
@@ -109,9 +108,12 @@
   "Bromic, “Eclipse Pendant and Platinum Electric at Stella’s Wine Bar”, case study, 2021 – bromic.com/case-study/eclipse-pendant-and-platinum-electric-at-stellas-wine-bar (also on bromic.ca)."
  ],
  "layout": {
-  "pages": 3,
+  "pages": 2,
+  "zones": true,
+  "table": true,
   "quote": true,
-  "quoteOn": 2,
-  "wideH": 3.2
+  "planH": 120,
+  "noProductPhotos": true,
+  "tight": true
  }
 }
