@@ -13,7 +13,7 @@
 | BLOG-20 | Lloyd's Register certificate number (ENV5) and evidence for the "first outdoor heater series approved" claim | Product team |
 | BLOG-20 | Coastal cleaning interval ("at least every two weeks", from the 2020 post) against the Marine installation manual | Product team |
 | BLOG-20 | AECOM tea-staining bulletin read through a search snippet only (verified: false); the salt-air distance claims (50 and 100 miles inland) were cut as weakly sourced | Marketing |
-| BLOG-20 | Rewrite again at Tungsten Coastal launch (coming soon) with ratings, wattages and warranty. (22 Nov 2026: Coastal launched in October 2026, owner; BLOG-20 now presents it as current, with its ratings, wattages and warranty as a VERIFY note.) | Product team |
+| BLOG-20 | Rewrite again at Tungsten Coastal launch (coming soon) with ratings, wattages and warranty. (22 Nov 2026: Coastal launched in October 2026, owner; BLOG-20 now presents it as current, with its ratings and wattages as a VERIFY note. 22 Nov 2026: owner confirmed a 3-year warranty on all Series II, Coastal included; now stated. Series II element cover still open.) | Product team |
 | BLOG-21 | Ventilation rule: old posts say 25% open wall space and 75% open walls; Planning Guide 2021 says 30% of perimeter permanently open. Confirm the wording in each gas heater's manual | Product team |
 | BLOG-21 | Minimum mounting heights per model against 2026 cut sheets, and side/below clearances to combustibles per model from the manuals | Product team |
 | BLOG-21 | UV emission data for Bromic elements before any "no UV" claim (claim removed pending data) | Product team |

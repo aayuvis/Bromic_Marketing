@@ -118,7 +118,7 @@ Die [Garantieseite](https://www.bromic.de/) und die Spezifikationstabelle der Pr
 
 ## Tungsten Coastal, in Edelstahl 316
 
-Die Kollektion Tungsten Smart-Heat Electric Coastal, im Oktober 2026 eingeführt, ist gefertigt aus seewasserbeständigem Edelstahl 316, in Schwarz oder Weiß, mit dem Signature-Diamond-Pattern-Gitter. Sie bietet seewasserbeständigen Einbau mit geringem Abstand sowie Decken-, Wand- und Einzelmastmontage, mit einer Heizfläche von ca. 6–13 m² je nach Modell.[^s6] Wie jeder elektrische Heizstrahler von Bromic arbeitet sie mit Affinity Smart-Heat Steuergeräten und einem Wandschalter; WLAN- und App-Funktionen setzen kompatible Affinity-Steuergeräte voraus, die separat erhältlich sind. [[VERIFY: Schutzart, Leistungen und Garantie von Tungsten Coastal — Produktteam]]
+Die Kollektion Tungsten Smart-Heat Electric Coastal, im Oktober 2026 eingeführt, ist gefertigt aus seewasserbeständigem Edelstahl 316, in Schwarz oder Weiß, mit dem Signature-Diamond-Pattern-Gitter. Sie bietet seewasserbeständigen Einbau mit geringem Abstand sowie Decken-, Wand- und Einzelmastmontage, mit einer Heizfläche von ca. 6–13 m² je nach Modell.[^s6] Wie jeder elektrische Heizstrahler von Bromic arbeitet sie mit Affinity Smart-Heat Steuergeräten und einem Wandschalter; WLAN- und App-Funktionen setzen kompatible Affinity-Steuergeräte voraus, die separat erhältlich sind. Wie die gesamte Tungsten Series II hat sie 3 Jahre Garantie. [[VERIFY: Schutzart und Leistungen von Tungsten Coastal sowie Garantie auf die Heizelemente der Series II — Produktteam]]
 
 ## Pflege für einen Heizstrahler am Meer
 

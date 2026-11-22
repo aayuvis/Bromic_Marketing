@@ -173,7 +173,7 @@ const whyBromic = () => {
       <div class="sgrid">
         <div><span class="no">01</span><b>Design Service</b><p>Complimentary heater selection, placement and coverage drawings from photos, plans or drawings.</p><p class="mono">${DS}</p></div>
         <div><span class="no">02</span><b>Listed</b><p>Intertek ETL / cETL listed electric ranges.</p></div>
-        <div><span class="no">03</span><b>Warranty</b><p>Up to 3 years of warranty cover on Platinum Electric, Eclipse and Tungsten Series II.</p><p class="mono">Series II terms: ${TC}</p></div>
+        <div><span class="no">03</span><b>Warranty</b><p>Up to 3 years of warranty cover on Platinum Electric, Eclipse and Tungsten Series II, Coastal included.</p><p class="mono">Series II element cover: ${TC}</p></div>
         <div><span class="no">04</span><b>Retailer Program</b><p>Retailer program terms, including pricing, design plans, extended warranty and a point of contact.</p><p class="mono">Terms: ${TC}</p></div>
       </div></div>
     ${ctaRow('MEET YOUR BROMIC REP', '', `${QUOTE} ${WIFI}`)}
@@ -362,7 +362,7 @@ const installWarranty = () => {
   </svg>`;
   // warranty bars: years of cover, as published; open terms print "to confirm"
   const W = [
-    ['Tungsten Series II', [[3, '']], 'Element cover and Coastal terms to confirm'],
+    ['Tungsten Series II', [[3, '']], 'All tiers, Coastal included; element cover to confirm'],
     ['Tungsten Electric (Series I)', [[2, 'heater'], [7, 'elements']], ''],
     ['Platinum Electric', [[3, '']], ''],
     ['Platinum Electric Marine', [[5, 'on land'], [3, 'on vessels']], ''],

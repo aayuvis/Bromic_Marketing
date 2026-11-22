@@ -117,7 +117,7 @@ The [warranty page](https://www.bromic.com/warranty/) and the product page's spe
 
 ## Tungsten Coastal, In 316 Stainless
 
-The Tungsten Smart-Heat Electric Coastal collection, launched in October 2026, is crafted in 316 marine-grade stainless steel, in Black or White, with the Signature Diamond Pattern grille. It offers marine-grade low-clearance recessing, ceiling, wall and single-post mounting, covering about 64–144 ft² depending on model.[^s6] Like every Bromic electric heater, it runs on Affinity Smart-Heat controls with a wall switch; Wi-Fi and app features need compatible Affinity controls, sold separately. [[VERIFY: Tungsten Coastal IP rating, wattages and warranty — Product team]]
+The Tungsten Smart-Heat Electric Coastal collection, launched in October 2026, is crafted in 316 marine-grade stainless steel, in Black or White, with the Signature Diamond Pattern grille. It offers marine-grade low-clearance recessing, ceiling, wall and single-post mounting, covering about 64–144 ft² depending on model.[^s6] Like every Bromic electric heater, it runs on Affinity Smart-Heat controls with a wall switch; Wi-Fi and app features need compatible Affinity controls, sold separately. Like all of Tungsten Series II, it carries a 3-year warranty. [[VERIFY: Tungsten Coastal IP rating and wattages, and Series II element cover — Product team]]
 
 ## Caring For A Heater By The Sea
 
