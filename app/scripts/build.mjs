@@ -277,7 +277,7 @@ const designed = { items: {}, cases: {} };
     (kind === 'case' && !items.some((it) => it.id === id) ? designed.cases : designed.items)[id] = e; };
   if (fs.existsSync(D)) for (const d of fs.readdirSync(D)) { const mf = path.join(D, d, 'meta.json'); if (fs.existsSync(mf)) add(JSON.parse(fs.readFileSync(mf, 'utf8')), 'doc'); }
   const cf = path.join(D, 'case-studies', 'index.json');
-  if (fs.existsSync(cf)) { const j = JSON.parse(fs.readFileSync(cf, 'utf8')); for (const m of (Array.isArray(j) ? j : j.items || j.studies || [])) add(m, 'case'); } }
+  if (fs.existsSync(cf)) { const j = JSON.parse(fs.readFileSync(cf, 'utf8')); for (const m of (Array.isArray(j) ? j : j.built || j.items || j.studies || [])) add(m, 'case'); } }
 const RVF = path.join(ROOT, 'data', 'image-review.json');
 const review = fs.existsSync(RVF) ? JSON.parse(fs.readFileSync(RVF, 'utf8')).items : [];
 const HUB = { built: new Date().toISOString(), commit, repo, regions, roles, langsAvailable: Object.fromEntries(Object.entries(tr).map(([l, m]) => [l, Object.keys(m).length])), matrix, assets, facts, images, usage, tools, site, cs, blogPlan, pm, campaigns, portfolio, retail, retailKit, trends, vguides, designed, review, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
