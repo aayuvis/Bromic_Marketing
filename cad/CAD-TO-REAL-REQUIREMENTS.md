@@ -224,6 +224,9 @@ Environment notes:
 Rules learned from the owner's approvals and rejections in `data/image-review.json`, newest first. Each line: date · image ·
 decision · the rule it adds. The QC agent checks every rule here.
 
+- **2026-11-22 · Recessed images (owner):** use REAL recessed-install photos at their true ceiling height (about 10–11 ft); the 8–9 ft "low" rule does not apply to recessed images taken from real photos. No generated plates for recess.
+- **2026-11-22 · Recess trim (owner):** the current LC trim's CAD is not available (only obsolete BMC-00659 is in the STEP). Until it arrives, frame recessed shots so the trim edge is not the focus and render the CAD heater only, seated fully inside the ceiling opening; never hand-build a trim.
+- **2026-11-22 · Round 7 QC lessons (all five failed):** the heater must sit fully inside its opening (no end cap past the cut-out); contact occlusion where the heater meets the ceiling or wall; grain and softness matched to the plate; graphite warm dark grey (R≥G>B), never olive; no light cut-out fringe; shadows follow the scene's light, never an all-round halo; heaters in a pair render identically; a post never shows an open hole or a plate dropping into the sky.
 - **2026-11-22 · 73 decisions (35 approved, 38 rejected), the owner's first full pass in Image Approvals.** Rules added (QC checks 25–31):
   - **Inside the seating area, pointing in** (17 rejections: ts2-ai-02, 03, 07, 09, 10, 11, 16, 17, 19, 22, 23, 25, 27, 29, 44, 33 "on the walls on the side", 50 "should not be front mounted"): heaters go over or inside the seating footprint, under the roof, pergola or soffit that covers the seats, aimed inward. This narrows M16b: the "edge" is the inner structure over the seats, never the outer perimeter facing the view.
   - **Low and close** (ts2-ai-16, 18, 47, 50, 37 "should be mounted lower"): the low end of the allowed heights, near the table.
