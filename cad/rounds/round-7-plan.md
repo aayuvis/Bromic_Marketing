@@ -31,3 +31,28 @@ and is flagged low resolution (M6) – nothing is upscaled.
 Open point for the owner: the only trim in the Series II recess-kit CAD is `BMC-00659 TRIM LCCRK_OBSOLETE`, and §3 forbids it. Its
 outline (1,624 × 283 mm) is exactly the trim size in the LC kit instructions. The recessed images use a flat trim of those published
 dimensions (black or white, 3 mm), with the heater, chassis and vent ends from the CAD; please confirm the current trim or supply its STEP.
+
+## What happened (22 Nov 2026)
+
+Every real recessed plate was solved before use, and each one put the ceiling above the owner's 8–9 ft limit: Elm Ave (about 3.4 m),
+`bromic-tungsten-electric-residential` (3.0–3.5 m), and `black-recessed` (where the heaters also run across the boards). So the recessed
+shots use 4K image-model backgrounds, each prompted from the real install photo it replaces, as the brief allows, and each checked for
+ceiling height from an object of known size. Plates that still came out too high were dropped.
+
+| Kept | Setting | Mount | Finish | Plate | Ceiling or height check |
+|---|---|---|---|---|---|
+| ts2-r7-01 | Shingle-house porch, wicker seating | LC recess ×2, in a row with the beadboard | white | generated from `w-tungsten-electric-white-recessed` (3392×5056) | 2.65 m (80 in door) |
+| ts2-r7-02 | Outdoor kitchen bar, three stools | LC recess ×2, side by side with the oak boards | black | generated from `w-tungsten-outdoor` (5056×3392) | about 2.8 m (36 in base cabinets) |
+| ts2-r7-03 | Pool-house lounge, dark timber soffit | LC recess ×2, with the boards | black | generated from `bromic-tungsten-electric-residential` (5056×3392) | about 2.6–2.7 m (side table, column) |
+| ts2-r7-04 | House wall over a dining table (Studio City) | angled wall bracket | graphite | real, 2560×1707 (below 4K) | heater centre about 2.3 m (window check) |
+| ts2-r7-05 | Pergola lounge, couple on the sofa | 225 mm post under the beam, 30° toward the sofa | graphite | real, `strx-230222-bromic-dc-6`, 1793×2560 (below 4K) | as the original install |
+
+| Dropped | Why |
+|---|---|
+| Restaurant terrace soffit (R4, R4b, generated) | soffit solved at 3.0–3.3 m |
+| Covered patio with fireplace (R5, generated) | ceiling about 2.9 m |
+| Covered dining, cedar ceiling (R6, generated) | ceiling about 3.2 m |
+| Cabana (R7) and beam over dining (P1, generated) | not solved in time; P1's beam is at the camera, so the heaters would face away |
+| Bar, white, two posts (`img-0661`, real) | rendered and composited, then failed QC: at the 30° tilt limit the faces turn away from the camera, and the white CAD reads flat with hollow-looking end caps |
+| Screened porch with pitch adaptor (`dsc05715`) | not attempted: the last pitch-adaptor composite was rejected ("heater looks off"), and the vaulted ceiling is high |
+| Café facade row, garage | owner's rule against front-facade heaters; no garage plate |
