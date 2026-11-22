@@ -24,5 +24,9 @@ git add -A
 git -c user.name="$(git -C "$ROOT" config user.name || echo deploy)" -c user.email="$(git -C "$ROOT" config user.email || echo deploy@localhost)" \
   commit -q -m "Built from $SHA"
 REMOTE=$(git -C "$ROOT" remote get-url origin)
-for i in 1 2 3 4; do git push -f "$REMOTE" gh-pages:gh-pages && break || sleep $((2**i)); done
+# GitHub refuses any file over 100 MB: stop before pushing rather than fail quietly
+BIG=$(find . -path ./.git -prune -o -type f -size +95M -print)
+[ -z "$BIG" ] || { echo "Refusing: files over 95 MB: $BIG"; exit 1; }
+ok=0; for i in 1 2 3 4; do if git push -f "$REMOTE" gh-pages:gh-pages; then ok=1; break; fi; sleep $((2**i)); done
+[ "$ok" = 1 ] || { echo "Push to gh-pages was rejected: nothing published"; exit 1; }
 echo "Published $N_BUILD files from $SHA → https://aayuvis.github.io/Bromic_Marketing/#/home"

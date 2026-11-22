@@ -329,7 +329,7 @@ if (fs.existsSync(path.join(ROOT, 'images', 'campaigns'))) fs.cpSync(path.join(R
 if (fs.existsSync(path.join(ROOT, 'images', 'review'))) {
   fs.cpSync(path.join(ROOT, 'images', 'review'), path.join(DIST, 'images', 'review'), { recursive: true });
   // the approved set as one download (rebuilt at every publish, so it follows the approvals file)
-  const ok = review.filter((r) => r.status === 'approved'), zp = path.join(DIST, 'review', 'approved.zip');
+  const ok = review.filter((r) => r.status === 'approved' && !r.video), zp = path.join(DIST, 'review', 'approved.zip');
   fs.mkdirSync(path.dirname(zp), { recursive: true });
   if (ok.length) { const { execFileSync } = await import('node:child_process');
     execFileSync('python3', ['-c', 'import sys,zipfile,os\nz=zipfile.ZipFile(sys.argv[1],"w",zipfile.ZIP_STORED)\nfor f in sys.argv[2:]: z.write(f,os.path.basename(f))\nz.close()', zp, ...ok.map((r) => path.join(ROOT, r.file))]); }
