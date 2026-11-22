@@ -2,7 +2,7 @@
 
 | item id | question | suggested owner |
 |---|---|---|
-| A11-spec, A12, A15 | Rated wattage, voltage, phase and current per model: Platinum (2300/3400/4500 W), Eclipse Smart-Heat Electric and Freestanding, Tungsten Coastal and Select (coming soon). Which wattages are offered at 208, 240 and 277 V? | Product team |
+| A11-spec, A12, A15 | Rated wattage, voltage, phase and current per model: Platinum (2300/3400/4500 W), Eclipse Smart-Heat Electric and Freestanding, Tungsten Coastal and Select (coming soon; launched October 2026, owner, 22 Nov 2026). Which wattages are offered at 208, 240 and 277 V? | Product team |
 | A11-spec | Coverage and mounting height per Platinum wattage (2300 / 3400 / 4500 W); current minimum mounting heights and clearances per model and wattage (the 2021 guide's 72 in wall / 96 in ceiling is shown as a bracketed note only). | Product team |
 | A11-spec, A12 | Recess kit part numbers, cut-out sizes and cavity depth per model. | Product team |
 | A11-spec | Suspension pole lengths available. | Product team |

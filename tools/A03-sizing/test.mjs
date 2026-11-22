@@ -39,9 +39,9 @@ test('2. Cold, open, electric built-in at 11 ft: every derate applies and contro
   // A 6 kW Affinity channel takes one 4500 W heater (bromic.com controller page), so 4 heaters need 4 channels, never fewer than the 2 zones asked for.
   assert.equal(ctl.qty, 4, 'one channel per 6 kW of heaters');
   assert.equal(controlsBundle('affinity', 4, 1, cfg, 2300).zones, 2, 'two 2300 W heaters share a 6 kW channel');
-  // Coming-soon Tungsten collections are shown as a range and labelled, never as the recommendation.
+  // Series II launched (owner, 22 Nov 2026): Coastal is current; its coverage varies by model, so it is shown as a range.
   const coastal = r.options.find((o) => o.id === 'tungsten-electric-coastal');
-  assert.equal(coastal.status, 'coming-soon');
+  assert.equal(coastal.status, 'current');
   assert.deepEqual(coastal.count_range, [4, 8]); // 240 ÷ (144 or 64 × 0.5355)
   assert.notEqual(r.recommended.status, 'coming-soon');
 });

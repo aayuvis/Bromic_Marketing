@@ -16,7 +16,7 @@ The ten answers that unblock the most content (basis: docs/HANDOVER-next-session
 | 4 | Atomik Research survey: fieldwork dates, base n, question wording; is the topline 94% or 92%? | Marketing | A01-corrections, A01-stats, RES-AW-01, A15 |
 | 5 | NEC Article 422 vs 424 for hard-wired outdoor radiant heaters; GFCI in the installation manual; breaker sizes and heaters per circuit; Affinity load per channel. | Product team + licensed electrician | BLD-IN-01, BLD-IN-KB1, BLD-IN-KB2, BLD-BY-KB1, BLD-PP-01, ARC-BY-01, A02-pro, A16 |
 | 6 | Builder price tiers, margins and lead times (A15, A18). | Trade sales / Sales operations | A15, BLD-AW-01, BLD-CO-01, BLD-PP-01 |
-| 7 | Tungsten Coastal and Select launch dates (and their wattages). | Product team | A02 (all), A11-spec, ARC-IN-01 |
+| 7 | Tungsten Coastal and Select launch dates (and their wattages). Launch dates answered (owner, 22 Nov 2026): Select and Coastal launched October 2026, Classic follows January 2027; wattages still open. | Product team | A02 (all), A11-spec, ARC-IN-01 |
 | 8 | The original `journey-matrix.json` and `assets.json` (both were reconstructed). | Leadership | data/ |
 | 9 | Case-study candidates with written permission to publish numbers. | Regional leads | A10, A19, A23, case-study template |
 | 10 | Validated keyword volumes and the 40-term priority list. | Digital marketing | A24 (all articles) |
@@ -28,7 +28,7 @@ The ten answers that unblock the most content (basis: docs/HANDOVER-next-session
 | item id | question | suggested owner |
 |---|---|---|
 | A02 (all), A16, A11-spec, COM-CO-01, COM-CO-KB1, COM-IN-KB1 | Coverage per individual Platinum wattage (which size gives ~65 ft² and which ~143 ft²) and coverage by mounting height; confirm Tungsten Electric coverage changed from 65–108 to 64–144 ft² (Lookbook). | Product team |
-| A02-pro, A16, A11-spec, ARC-IN-01, RES-IN-01 | Wattage and supply for Eclipse Smart-Heat Electric and Freestanding, and Tungsten Coastal and Select (coming soon). | Product team |
+| A02-pro, A16, A11-spec, ARC-IN-01, RES-IN-01 | Wattage and supply for Eclipse Smart-Heat Electric and Freestanding, and Tungsten Coastal and Select (coming soon). (22 Nov 2026: Select and Coastal launched in October 2026, owner; the wattages are still open.) | Product team |
 | A02 (all), A16, RES-IN-01 | Platinum Gas and Tungsten Gas (built-in): coverage, mounting, Btu/h input, inlet size, supply pressure; Tungsten built-in BTU (39,800 vs 38,000) is unpublished; confirm 38,000 BTU is the Tungsten Freestanding Gas input rating used for running-cost maths. | Product team |
 | A02-pro | Cobalt Electric and Platinum Electric Marine facts (on the site, not in the Lookbook). | Product team |
 | ARC-IN-01, ARC-BY-01, BLD-IN-01, BLD-PP-01, BLD-IN-KB1, A02-pro, A02-commercial, A16, A11-spec, A12 | Supply voltage per model; which wattages are offered at 208, 240 and 277 V (and any 120 V model); amps at each voltage; output and coverage derating at 208 V. | Product team |
@@ -51,9 +51,9 @@ The ten answers that unblock the most content (basis: docs/HANDOVER-next-session
 | A11-spec | Eclipse Freestanding plug, cord and receptacle requirements; its control method. | Product team |
 | RES-CO-KB2 | Cool-down time and housing surface temperatures per model; any manual guidance on pets. | Product team |
 | COM-BY-01, BLD-BY-01 | Recommended cleaning method and maintenance intervals per model and finish. | Product team |
-| A02-pro | Accessory part numbers and compatibility with current and coming-soon models. | Product team |
+| A02-pro | Accessory part numbers and compatibility with current and coming-soon models. (22 Nov 2026: Select and Coastal are current, owner; Classic follows January 2027.) | Product team |
 | A11-spec | Which standard details (D1–D4), CAD blocks, Revit families, spec sheets, installation manuals and listing certificates exist; formats, LOD and hosting (bromic.com, BIMobject, ARCAT, other). | Product team |
-| A02 (all), A11-spec, ARC-IN-01 | Tungsten Coastal and Select launch status; labelled "coming soon" throughout until confirmed. | Product team |
+| A02 (all), A11-spec, ARC-IN-01 | Tungsten Coastal and Select launch status; labelled "coming soon" throughout until confirmed. Answered (owner, 22 Nov 2026): Series II has launched; Select and Coastal launched in October 2026 and are available; Classic follows in January 2027; Series I sells through until Classic launches. Every "coming soon" label is removed. | Product team |
 | A01-corrections #28 | Should the p.9 insight carry the full Affinity controls line (integrations and "sold separately")? Confirm the integration list wording. | Product team |
 
 ### Marketing (editorial and research)
@@ -206,7 +206,7 @@ The ten answers that unblock the most content (basis: docs/HANDOVER-next-session
 | item id | question | owner |
 |---|---|---|
 | BLOG-11 (en, de, nl) | Cobalt Electric is still offered as a current collection; the Tungsten Series II launch deck lists Cobalt as discontinued from October 2026, while data/product-facts.json still marks it current. Keep, mark as sell-through, or remove (and update product-facts.json). | Product team |
-| Hard rule 7, data/product-facts.json, every Coastal/Select mention | The Series II framework and CLAUDE.md record Select and Coastal as launched in October 2026; product-facts.json, the content and app/test/i18n.mjs still require "coming soon". Confirm launch so the rule and the copy can change together. | Product team |
+| Hard rule 7, data/product-facts.json, every Coastal/Select mention | The Series II framework and CLAUDE.md record Select and Coastal as launched in October 2026; product-facts.json, the content and app/test/i18n.mjs still require "coming soon". Confirm launch so the rule and the copy can change together. Answered (owner, 22 Nov 2026): Series II has launched; Select and Coastal launched in October 2026 and are available; Classic follows in January 2027; Series I sells through until Classic launches. Every "coming soon" label is removed. Hard rule 7, the tests and the copy changed together. | Product team |
 | COM-CO-01, COM-IN-01, A20, A21, A02 (all) | One set of rates: the articles and A21 use 14.07¢/kWh, $1.01/therm, $2.46/gal; A20 and the A02 guides use 13.54¢, $0.87, $2.674; the A02 homeowner guide prices homes at the commercial electricity rate while RES-IN-01 uses the 18.3¢ residential rate. (19 Nov 2026: the homeowner guide now uses RES-IN-01's residential rates, 18.3¢/kWh and $2.55/therm, with $2.674/gal propane. The A02 commercial and professional guides, en/de/nl, now use the COM-CO-01 set, 14.07¢/kWh, $1.01/therm and $2.46/gal, with their worked example aligned to COM-CO-01 (40 seats, 800 ft², 1,000 h) and COM-IN-01; only the A20 config still uses 13.54¢, $0.87 and $2.674.) | Finance |
 | ARC-CO-01, RES-CO-01, RES-AW-01, RES-AW-02, COM-AW-01, COM-AW-02, COM-BY-01, RES-CO-KB1, BLOG-12/13/14/15/16/17/25/36, A01c, A02 (pro, homeowner); en, de, nl | Owner, 19 Nov 2026: Platinum, Eclipse and Tungsten Smart-Heat Electric are medium wave, and medium wave is the best performer on heat coverage, temperature rise, distance the heat travels and no intrusive glow. Supply the Bromic test data for each of the four claims, and a source for short wave's intense glow and glare. Until then every claim carries a VERIFY note (`wavelength-by-product`, `medium-wave-performance` in data/product-facts.json). Note: Infratech also describes its elements as medium wave (data/product-marketing/platinum-electric.json), so no "only medium wave" claim is made. | Product team |
 - CSP-06 Marmion display home: confirm the Dorrington Homes photos show this display home, and the heater finish (testimonial says white) — Bromic AU (19 Nov 2026)

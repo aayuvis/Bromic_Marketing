@@ -251,7 +251,6 @@
    "Set the branded search baseline before anything runs.",
    "Replace every illustrative figure with verified local pricing, signed off by Finance and Sales operations.",
    "Clear the receipt wording, every parody concept and every event reference with legal counsel.",
-   "Confirm Tungsten Coastal and Select launch status with the Product team before any film features them.",
    "Map every call to action to its Hub asset before launch."
   ]
  },
@@ -2164,10 +2163,10 @@
    "severity": "medium",
    "area": "Launch status",
    "where": "P05, P06, B5, tiers",
-   "issue": "Films feature Tungsten Coastal and Select. Hard rule 7 says both are 'Coming soon' until the Product team confirms launch; the Series II framework records Select and Coastal launched in October 2026.",
+   "issue": "Films feature Tungsten Coastal and Select. Hard rule 7 said both were 'Coming soon' until the Product team confirmed launch, while the Series II framework recorded Select and Coastal as launched in October 2026.",
    "rule": "Hard rule 7",
-   "fix": "Copy kept; the 'next' list asks the Product team to confirm status before any film features them. Update hard rule 7 or the copy, whichever is wrong.",
-   "status": "open",
+   "fix": "Resolved by the owner, 22 Nov 2026: Series II has launched. Select and Coastal launched in October 2026 and are available, so the films may feature them; Classic follows in January 2027. Hard rule 7 now says so, and the confirm-status step is gone from the 'next' list.",
+   "status": "fixed",
    "owner": "Product team"
   },
   {

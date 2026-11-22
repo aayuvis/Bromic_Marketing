@@ -14,7 +14,7 @@
 | ARC-IN-01 | Listing standard(s) each electric model is certified to (UL/CSA/Intertek). | Product team |
 | ARC-IN-01 | Warranty term per product. | Product team |
 | ARC-IN-01, ARC-BY-01 | Per-model voltage, amps at 208/240/277V, and output/coverage derating at 208V. | Product team |
-| ARC-IN-01 | Wattages for Tungsten Select and Coastal (coming soon). | Product team |
+| ARC-IN-01 | Wattages for Tungsten Select and Coastal (coming soon). (22 Nov 2026: Select and Coastal launched in October 2026, owner; the wattages are still open.) | Product team |
 | ARC-IN-01, ARC-IN-KB1, ARC-BY-01 | Recess kit cut-out, cavity depth and in-cavity clearance per model. | Product team |
 | ARC-IN-01 | BIM/CAD object availability and format (A13). | Specification and compliance |
 | ARC-PP-01 | NYC DOB position on piped exterior gas appliances on LL154-covered new buildings (the article reads the portable-device exception as excluding them). | Specification and compliance / code counsel |

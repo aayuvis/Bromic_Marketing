@@ -25,7 +25,7 @@
 | A02-commercial | Benchmarks for turns, average check, season extension by climate; the 1,000 h/yr illustration. | Hospitality sales |
 | A02-commercial | NRA outdoor-dining figures are from a fall 2020 (pandemic-era) survey. Keep with date shown, or replace with a newer NRA source? | Marketing / Hospitality sales |
 | A02-commercial | IFC 2024 text of 603.4 and 603.4.2 (cited via NC OSFM and Sedona Fire interpretations; ICC primary page not opened). | Specification and compliance |
-| A02 (all) | Tungsten Coastal/Select launch status — labelled "coming soon" throughout. | Product team |
+| A02 (all) | Tungsten Coastal/Select launch status — labelled "coming soon" throughout. Answered (owner, 22 Nov 2026): Series II has launched; Select and Coastal launched in October 2026 and are available; Classic follows in January 2027; Series I sells through until Classic launches. Every "coming soon" label is removed. | Product team |
 | A02-outline | Task placed this `type: report` file in content/guides/; schema puts reports in content/reports/. Move if the Hub test enforces folder by type. | Digital marketing / Hub owner |
 | A02 (all), A16 | `related:` uses anchor-article ids (RES-IN-01, ARC-CO-01, BLD-IN-01, COM-CO-01 …) not yet written; confirm ids when A24 lands. | Marketing |
 | A02 (all) | Image picks and [[DIAGRAM]] markers for layout. | 454 Creative |
