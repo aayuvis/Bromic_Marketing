@@ -14,7 +14,7 @@ summary: "De planningsgids voor buitenverwarming 2027 voor je huis: zes vragen, 
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe plan ik buitenverwarming voor mijn terras?"
-meta_description: "Je planningsgids voor buitenverwarming, editie 2027: zes vragen, acht echte indelingen, gebruikskosten en de bediening bij elke verwarmer, op tijd ingepland."
+meta_description: "Je planningsgids voor buitenverwarming, editie 2027: zes vragen, acht echte indelingen, gebruikskosten en de bediening bij elke verwarmer."
 cta: {label: "Boek een ontwerpadvies", asset: A07}
 hero: l-010-071
 images: [w-au, w-bromic-tungsten-electric-black-recessed, l-012-093, t2-low-clearance-recess, l-013-100, w-eclipse-electric-w-bromic-heating-app, w-bromic-tungsten-electric-residential, l-010-067]
