@@ -56,6 +56,14 @@ for k, h in enumerate(SH['heaters']):
             if o.type == 'MESH' and not any(c in o.data.name.lower() for c in CUT[:4]): bpy.data.objects.remove(o); n2.remove(o)
         n2 = [o for o in n2 if o.name in bpy.data.objects]
         new += n2
+    if h.get('logo_front'):  # the 3 kW CAD's diamond front cover (BMC-00551, same part, same place) has no logo; use the 6 kW file's, which does
+        for o in list(new):
+            if o.type == 'MESH' and 'front cover diamond' in o.data.name.lower(): bpy.data.objects.remove(o); new.remove(o)
+        b3 = set(bpy.data.objects); bpy.ops.import_scene.gltf(filepath=GLB + '6kW diamond, angled wall mount.glb'); n3 = [o for o in bpy.data.objects if o not in b3]
+        for o in list(n3):
+            if o.type == 'MESH' and 'front cover diamond' not in o.data.name.lower(): bpy.data.objects.remove(o); n3.remove(o)
+        n3 = [o for o in n3 if o.name in bpy.data.objects]
+        new += n3
     meshes = [o for o in new if o.type == 'MESH']
     for o in meshes:
         c = o.data.name.lower()
