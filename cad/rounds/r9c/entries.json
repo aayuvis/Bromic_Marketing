@@ -1,0 +1,28 @@
+[
+ {
+  "id": "ts2-r9c-01",
+  "title": "Coastal beach-house porch, recessed white heater over the sofa",
+  "kind": "CAD composite on a generated Coastal plate",
+  "finish": "white",
+  "w": 5056,
+  "h": 3392,
+  "file": "images/review/full/ts2-r9c-01.jpg",
+  "thumb": "images/review/thumb/ts2-r9c-01.webp",
+  "source": "Plate ts2-r8e-03 (generated Coastal plate, owner asked 22 Nov: 'add heater please... recessed white'). Heater is the Series II 6 kW from the heater-and-recess-kit CAD, white satin; obsolete trim hidden, heater set flush in a plain cut-out that hugs the front cover (owner: skip trim detail). One heater, long axis with the beadboard (§12 recess axis), 1.1 m in from the house wall (more than 500 mm), over the sofa, about 0.9 m clear of the far beam. Camera from the board vanishing point and the sea horizon (one-point view, f about 5000 px), scale from the side table and sofa; ceiling about 2.8 m. Glow low (two thin element lines); contact occlusion at the opening; graded to the plate.",
+  "status": "pending",
+  "plate": "ts2-r8e-03"
+ },
+ {
+  "id": "ts2-r9c-02",
+  "title": "Coastal deck under a timber soffit, two recessed graphite heaters over the seating",
+  "kind": "CAD composite on a generated Coastal plate",
+  "finish": "graphite",
+  "w": 5056,
+  "h": 3392,
+  "file": "images/review/full/ts2-r9c-02.jpg",
+  "thumb": "images/review/thumb/ts2-r9c-02.webp",
+  "source": "Plate ts2-r8e-04 (generated Coastal plate, owner asked 22 Nov: 'recessed gray or inward facing 2 heaters mounted from the long edge'; recessed chosen). Two Series II 6 kW from the heater-and-recess-kit CAD, graphite (warm dark grey, measured R>G>B), flush in plain cut-outs, obsolete trim hidden. A row of two along the timber boards, between the two downlight rows, over the sofa and lounge chair, about 0.6 m between cut-outs. Camera from the board/fascia vanishing point and the siding verticals (f about 4030 px); ceiling about 2.75 m from the sofa-arm ratio. The post-mounted inward pair was also rendered and dropped: seen almost end-on from this camera, the heaters read as lanterns.",
+  "status": "pending",
+  "plate": "ts2-r8e-04"
+ }
+]
