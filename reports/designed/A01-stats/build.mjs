@@ -527,6 +527,6 @@ await browser.close();
 const size = statSync(pdfPath).size;
 if (size > 6 * 1024 * 1024) problems.push(`PDF too large: ${size} bytes`);
 const rel = p => `reports/designed/${ID}/${p}`;
-writeFileSync(join(here, 'meta.json'), JSON.stringify({ item_id: ID, theme: 'data-poster', title: TITLE, pdf: rel(PDF), cover: rel('pages/p01.png'), pages: els.length }, null, 2) + '\n');
+writeFileSync(join(here, 'meta.json'), JSON.stringify({ item_id: ID, theme: 'data-poster', title: TITLE, pdf: rel(PDF), cover: rel('pages/p01.png'), pages: els.length, thumb: rel('cover-thumb.webp') }, null, 2) + '\n');
 if (problems.length) { console.error(problems.join('\n')); process.exitCode = 1; }
 else console.log(`OK: ${els.length} pages, ${(size / 1024).toFixed(0)} KB, print check clean`);

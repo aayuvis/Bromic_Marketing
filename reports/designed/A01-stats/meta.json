@@ -4,5 +4,6 @@
   "title": "Outdoor Living Statistics 2027",
   "pdf": "reports/designed/A01-stats/Bromic-A01-stats-Outdoor-Living-Statistics-2027.pdf",
   "cover": "reports/designed/A01-stats/pages/p01.png",
-  "pages": 7
+  "pages": 7,
+  "thumb": "reports/designed/A01-stats/cover-thumb.webp"
 }
