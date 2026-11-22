@@ -71,3 +71,8 @@ heater (checks 1–31 and §12).
 - First pass: adaptor stacked to a 0.45–0.5 m drop (pendant on a stalk), knuckle illegible, CAD decals, no contact occlusion.
 - Second pass: short build was a CAD edit not shown in the manual (post square to the slope, breaking M16f "post vertical, heater level"); heater hugs the ceiling; housing black lifted to RGB ~56 vs ~34 in the plate; flat grille with end-cap artefacts; logo unreadable in 02.
 - Blocked on: the Product team's real pitch-adaptor configuration (manual page or install photo with dimensions). dsc05656 has now failed three times; retire it unless that arrives.
+
+## Team A recessed composites (22 Nov 2026): independent QC 0/4 – withdrawn
+- Rule: every usable recessed plate had its original heaters ACROSS the boards (§12 recess axis); turning them breaks the real layout (M16a).
+- Visible defects in all four: raw sharp cut-outs as the focal point (no current LC trim CAD), end caps past the opening, orange-flooded grilles, CG-clean housings, heaters cut off by the frame or too small to read, smeared patches.
+- Blocked on one of: (a) real photos with heaters already along the boards; (b) the current LC trim CAD from the Product team; (c) an owner waiver of the recess-axis rule for turned heaters (would still need (b) to pass).
