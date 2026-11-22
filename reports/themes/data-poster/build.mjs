@@ -67,42 +67,22 @@ function hbars(rows, w, { max = 100, ref, refLabel, unit = '%', barH = 14, gapY 
   return `<svg width="${w}" height="${h + 14}" viewBox="0 -14 ${w} ${h + 14}">${g}</svg>`;
 }
 
-// Share of new homes with a patio, by year of start. 2020–2022 are not in the source file, so they are left empty.
+// Share of new homes with a patio: 2019 and 2025 starts (NAHB tabulation of the Census Survey of Construction).
 function yearDots(w, h) {
-  const pts = [[2019, 59.6], [2023, 63.7], [2024, 61.8], [2025, 60.5]];
-  const L = 34, R = 20, T = 22, B = 28, lo = 58, hi = 65;
-  const x = yr => L + 14 + (yr - 2019) / 6 * (w - L - R - 14), y = v => T + (hi - v) / (hi - lo) * (h - T - B);
+  const pts = [[2019, 59.6], [2025, 60.5]];
+  const L = 34, R = 20, T = 22, B = 28, lo = 58, hi = 62;
+  const x = yr => L + 40 + (yr - 2019) / 6 * (w - L - R - 80), y = v => T + (hi - v) / (hi - lo) * (h - T - B);
   let g = '';
-  for (const t of [58, 60, 62, 64]) {
+  for (const t of [58, 59, 60, 61, 62]) {
     g += `<line x1="${L}" x2="${w - R}" y1="${y(t)}" y2="${y(t)}" stroke="${RULE}"/>`;
     g += num(L - 6, y(t) + 4, t + '%', { cls: 'tick', a: 'end' });
   }
-  for (let yr = 2019; yr <= 2025; yr++) g += num(x(yr), h - 8, yr, { cls: 'tick', a: 'middle' });
-  g += `<text x="${(x(2020) + x(2022)) / 2}" y="${y(61) + 4}" class="tick" text-anchor="middle">not shown</text>`;
-  g += `<polyline points="${pts.slice(1).map(([a, b]) => `${x(a)},${y(b)}`).join(' ')}" fill="none" stroke="${INK}" stroke-width="2"/>`;
+  for (const [yr] of pts) g += num(x(yr), h - 8, yr, { cls: 'tick', a: 'middle' });
+  g += `<line x1="${x(2019)}" y1="${y(59.6)}" x2="${x(2025)}" y2="${y(60.5)}" stroke="${INK}" stroke-width="2"/>`;
   for (const [yr, v] of pts) {
     const key = yr === 2025;
     g += `<circle cx="${x(yr)}" cy="${y(v)}" r="${key ? 6 : 4.5}" fill="${key ? FLAME : INK}" stroke="#fff" stroke-width="2"/>`;
-    g += yr === 2019 ? num(x(yr) + 10, y(v) + 4, v + '%', { cls: 'v' }) : num(x(yr), y(v) - 11, v + '%', { cls: key ? 'v strong' : 'v', a: 'middle' });
-  }
-  return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">${g}</svg>`;
-}
-
-// Slope chart: AIA net scores 2024 → Q2 2025.
-function slope(w, h) {
-  const rows = [['Outdoor living spaces', 60, 55, true], ['Blended indoor/outdoor spaces', 51, 40, false]];
-  const L = 40, R = 40, T = 20, B = 24, lo = 36, hi = 64;
-  const x0 = L, x1 = w - R, y = v => T + (hi - v) / (hi - lo) * (h - T - B);
-  let g = `<line x1="${x0}" x2="${x0}" y1="${T - 8}" y2="${h - B + 4}" stroke="${RULE}"/><line x1="${x1}" x2="${x1}" y1="${T - 8}" y2="${h - B + 4}" stroke="${RULE}"/>`;
-  g += num(x0, h - 6, '2024', { cls: 'tick', a: 'middle' }) + num(x1, h - 6, 'Q2 2025', { cls: 'tick', a: 'middle' });
-  for (const [lab, a, b, key] of rows) {
-    const c = key ? FLAME : MUTE;
-    g += `<line x1="${x0}" y1="${y(a)}" x2="${x1}" y2="${y(b)}" stroke="${c}" stroke-width="${key ? 3 : 2}"/>`;
-    g += `<circle cx="${x0}" cy="${y(a)}" r="5" fill="${c}" stroke="#fff" stroke-width="2"/><circle cx="${x1}" cy="${y(b)}" r="5" fill="${c}" stroke="#fff" stroke-width="2"/>`;
-    g += num(x0 - 9, y(a) + 4, a + '%', { cls: key ? 'v strong' : 'v', a: 'end' });
-    g += num(x1 + 9, y(b) + 4, b + '%', { cls: key ? 'v strong' : 'v' });
-    const mx = (x0 + x1) / 2, my = y((a + b) / 2);
-    g += `<text x="${mx}" y="${my - 10}" class="lab" text-anchor="middle">${esc(lab)}</text>`;
+    g += num(x(yr), y(v) - 11, v + '%', { cls: key ? 'v strong' : 'v', a: 'middle' });
   }
   return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">${g}</svg>`;
 }
@@ -150,7 +130,7 @@ const p1 = `
   <div class="cover-grid">
     <div class="cover-left">
       <h1 class="disp">Six In Ten New Homes Come With A Patio</h1>
-      <p class="lede">Share of the roughly 940,000 US single-family homes started in 2025 that came with a patio – down from 61.8% in 2024, and the lowest share since 2019.</p>
+      <p class="lede">Share of the roughly 940,000 US single-family homes started in 2025 that came with a patio – up from 59.6% in 2019.</p>
     </div>
     <figure class="cover-right">
       ${waffle(span(5), 4)}
@@ -177,10 +157,10 @@ const p2 = `
     </article>
     <article class="mod">
       <div class="mn">02</div>
-      <h3>A Second Fall In A Row</h3>
-      <p class="unit">% of single-family starts with a patio, by year started</p>
+      <h3>More New Homes Plan For Outdoor Living Than In 2019</h3>
+      <p class="unit">% of single-family starts with a patio, 2019 and 2025 starts</p>
       ${yearDots(span(6), 140)}
-      ${src(SRC.s1s2)}
+      ${src(SRC.s1)}
     </article>
     <article class="mod big">
       <div class="mn">03</div>
@@ -191,8 +171,8 @@ const p2 = `
     <article class="mod">
       <div class="mn">04</div>
       <h3>Architects Still Rank Outdoor Living First</h3>
-      <p class="unit">Net % of architects reporting rising popularity (rising minus falling)</p>
-      ${slope(span(6), 132)}
+      <p class="unit">Net % of architects reporting rising popularity, Q2 2025 (rising minus falling)</p>
+      ${hbars([['Outdoor living spaces', 55, true], ['Blended indoor/outdoor', 40]], span(6), { barH: 18, gapY: 14, labelW: 150 })}
       ${src(SRC.s4)}
     </article>
     <article class="mod">

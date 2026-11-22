@@ -152,13 +152,13 @@ Homes and cities are moving to electric. Heat pumps out-shipped gas furnaces aga
 ## 09 · Small Lots, Big Living
 **Compact · Zone · Elevate**
 
-Lots are small and patios are getting tighter, but buyers want outdoor living anyway – designed with purpose. Multigenerational living adds more people to the same outdoor space.
+Lots are compact, and buyers want outdoor living anyway – designed with purpose. Multigenerational living adds more people to the same outdoor space.
 
 - Median new-home lot: 8,543 sq ft; 64% of lots under 9,000 sq ft (NAHB, 2025)
-- Patio share of new homes at a six-year low: 60.5%
+- Patio share of new homes: 60.5% of 2025 starts, up from 59.6% in 2019
 - Accommodations for multiple generations: net 53% among architects
 
-**Hero stat:** 60.5% – new homes with a patio, the lowest in six years, so every square foot must work harder (NAHB/Census, 2026)
+**Hero stat:** 60.5% – six in ten new homes come with a patio, and every square foot works hard (NAHB/Census, 2026)
 **The Implication:** Compact spaces need heat that takes no floor space. *Builders:* make the small patio the selling feature – covered, lit, heated. *Designers:* use wall, ceiling and recessed heat to keep the floor free. *Homeowners:* one well-placed heater can make a small terrace a nightly room.
 **Bromic Insight:** Wall, ceiling and recessed heat warm the people, not the footprint.
 *Visual: small rooftop or balcony at night with a slim wall-mounted heater.*

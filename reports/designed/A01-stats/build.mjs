@@ -96,23 +96,22 @@ function hbars(rows, w, { max = 100, ticks = [0, 25, 50, 75, 100], ref, refLabel
   return `<svg width="${w}" height="${h + 14}" viewBox="0 -14 ${w} ${h + 14}">${g}</svg>`;
 }
 
-// Share of new homes with a patio by year started. 2020-2022 are not in the source file: left empty.
+// Share of new homes with a patio: 2019 and 2025 starts (NAHB tabulation of the Census Survey of Construction).
 function yearDots(w, h) {
-  const pts = [[2019, 59.6], [2023, 63.7], [2024, 61.8], [2025, 60.5]];
-  const L = 34, R = 24, T = 24, B = 28, lo = 58, hi = 65;
-  const x = yr => L + 16 + (yr - 2019) / 6 * (w - L - R - 16), y = v => T + (hi - v) / (hi - lo) * (h - T - B);
+  const pts = [[2019, 59.6], [2025, 60.5]];
+  const L = 34, R = 24, T = 24, B = 28, lo = 58, hi = 62;
+  const x = yr => L + 40 + (yr - 2019) / 6 * (w - L - R - 80), y = v => T + (hi - v) / (hi - lo) * (h - T - B);
   let g = '';
-  for (const t of [58, 60, 62, 64]) {
+  for (const t of [58, 59, 60, 61, 62]) {
     g += `<line x1="${L}" x2="${w - R}" y1="${y(t)}" y2="${y(t)}" stroke="${RULE}"/>`;
     g += num(L - 6, y(t) + 4, t + '%', { cls: 'tick', a: 'end' });
   }
-  for (let yr = 2019; yr <= 2025; yr++) g += num(x(yr), h - 8, yr, { cls: 'tick', a: 'middle' });
-  g += `<text x="${(x(2020) + x(2022)) / 2}" y="${y(61) + 4}" class="tick" text-anchor="middle">2020–2022 not in source</text>`;
-  g += `<polyline points="${pts.slice(1).map(([a, b]) => `${x(a)},${y(b)}`).join(' ')}" fill="none" stroke="${INK}" stroke-width="2"/>`;
+  for (const [yr] of pts) g += num(x(yr), h - 8, yr, { cls: 'tick', a: 'middle' });
+  g += `<line x1="${x(2019)}" y1="${y(59.6)}" x2="${x(2025)}" y2="${y(60.5)}" stroke="${INK}" stroke-width="2"/>`;
   for (const [yr, v] of pts) {
     const key = yr === 2025;
     g += `<circle cx="${x(yr)}" cy="${y(v)}" r="${key ? 6 : 4.5}" fill="${key ? FLAME : INK}" stroke="#fff" stroke-width="2"/>`;
-    g += yr === 2019 ? num(x(yr) + 10, y(v) + 4, v + '%', { cls: 'v' }) : num(x(yr), y(v) - 11, v + '%', { cls: key ? 'v strong' : 'v', a: 'middle' });
+    g += num(x(yr), y(v) - 12, v + '%', { cls: key ? 'v strong' : 'v', a: 'middle' });
   }
   return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">${g}</svg>`;
 }
@@ -137,24 +136,6 @@ function sizeScale(w) {
   g += `<line x1="${x(400)}" x2="${x(400) + 60}" y1="112" y2="112" stroke="${INK}" stroke-width="2"/><path d="M${x(400) + 60},107 l8,5 l-8,5 z" fill="${INK}"/>`;
   g += `<line x1="${x(400)}" x2="${x(400)}" y1="104" y2="120" stroke="${INK}" stroke-width="2"/>`;
   g += num(x(400) - 6, 116, 'Over 400: East North Central, East South Central', { cls: 'lab', a: 'end' });
-  return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">${g}</svg>`;
-}
-
-// Slope chart: AIA net scores 2024 -> Q2 2025.
-function slope(w, h) {
-  const rows = [['Outdoor living spaces', 60, 55, true], ['Blended indoor/outdoor spaces', 51, 40, false]];
-  const L = 44, R = 44, T = 20, B = 24, lo = 36, hi = 64;
-  const x0 = L, x1 = w - R, y = v => T + (hi - v) / (hi - lo) * (h - T - B);
-  let g = `<line x1="${x0}" x2="${x0}" y1="${T - 8}" y2="${h - B + 4}" stroke="${RULE}"/><line x1="${x1}" x2="${x1}" y1="${T - 8}" y2="${h - B + 4}" stroke="${RULE}"/>`;
-  g += num(x0, h - 6, '2024', { cls: 'tick', a: 'middle' }) + num(x1, h - 6, 'Q2 2025', { cls: 'tick', a: 'middle' });
-  for (const [lab, a, b, key] of rows) {
-    const c = key ? FLAME : MUTE;
-    g += `<line x1="${x0}" y1="${y(a)}" x2="${x1}" y2="${y(b)}" stroke="${c}" stroke-width="${key ? 3 : 2}"/>`;
-    g += `<circle cx="${x0}" cy="${y(a)}" r="5" fill="${c}" stroke="#fff" stroke-width="2"/><circle cx="${x1}" cy="${y(b)}" r="5" fill="${c}" stroke="#fff" stroke-width="2"/>`;
-    g += num(x0 - 10, y(a) + 4, a + '%', { cls: key ? 'v strong' : 'v', a: 'end' });
-    g += num(x1 + 10, y(b) + 4, b + '%', { cls: key ? 'v strong' : 'v' });
-    g += `<text x="${(x0 + x1) / 2}" y="${y((a + b) / 2) - 10}" class="lab" text-anchor="middle">${esc(lab)}</text>`;
-  }
   return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}">${g}</svg>`;
 }
 
@@ -204,7 +185,7 @@ pages.push(`
   <div class="cover-grid">
     <div class="cover-left">
       <h1 class="disp">Six In Ten New Homes Come With A Patio</h1>
-      <p class="lede">Share of the roughly 940,000 US single-family homes started in 2025 that came with a patio – down from 61.8% in 2024, and the lowest share since 2019.</p>
+      <p class="lede">Share of the roughly 940,000 US single-family homes started in 2025 that came with a patio – up from 59.6% in 2019.</p>
     </div>
     <figure class="cover-right">
       ${waffle(span(5), 4)}
@@ -229,7 +210,7 @@ pages.push(`
     <div class="mn">01</div>
     <div class="split s940">
       <div class="fig">940,000</div>
-      <p class="cap">Roughly how many US single-family homes were started in 2025. 60.5% of them came with a patio – down from 61.8% in 2024, a second fall in a row after the first in fifteen years.</p>
+      <p class="cap">Roughly how many US single-family homes were started in 2025. 60.5% of them came with a patio – up from 59.6% in 2019. Six in ten new homes now begin with an outdoor room.</p>
     </div>
     ${src(SRC.s1)}
   </article>
@@ -238,16 +219,16 @@ pages.push(`
       <div class="mn">02</div>
       <h3>Where You Build Makes A Real Difference</h3>
       <p class="unit">% of single-family homes started in 2025 with a patio, by census division</p>
-      ${hbars([['West South Central', 77, true], ['Mountain', 74, true], ['South Atlantic', 66, true], ['New England', 26, false, 'up from 14% in 2024'], ['Middle Atlantic', 23, false, 'fewest']], span(6), { ref: 60.5, refLabel: 'US 60.5%' })}
+      ${hbars([['West South Central', 77, true], ['Mountain', 74, true], ['South Atlantic', 66, true], ['New England', 26, false], ['Middle Atlantic', 23, false, 'fewest']], span(6), { ref: 60.5, refLabel: 'US 60.5%' })}
       ${src(SRC.s1)}
     </article>
     <article class="mod">
       <div class="mn">03</div>
-      <h3>A Second Fall In A Row</h3>
-      <p class="unit">% of single-family homes started with a patio, by year started</p>
+      <h3>More New Homes Plan For Outdoor Living Than In 2019</h3>
+      <p class="unit">% of single-family homes started with a patio, 2019 and 2025 starts</p>
       ${yearDots(span(6), 150)}
-      <p class="cap sm">2024 was the first decline in fifteen years; 2025 is the lowest share since 2019.</p>
-      ${src(SRC.s1s2)}
+      <p class="cap sm">60.5% of 2025 starts came with a patio, up from 59.6% in 2019.</p>
+      ${src(SRC.s1)}
     </article>
   </div>
   ${foot()}
@@ -269,8 +250,8 @@ pages.push(`
     <article class="mod">
       <div class="mn">05</div>
       <h3>Architects Still Rank Outdoor Living First</h3>
-      <p class="unit">Net % of architects reporting rising popularity (share increasing minus share decreasing)</p>
-      ${slope(span(7), 170)}
+      <p class="unit">Net % of architects reporting rising popularity, Q2 2025 (share increasing minus share decreasing)</p>
+      ${hbars([['Outdoor living spaces', 55, true], ['Blended indoor/outdoor spaces', 40, false]], span(7), { max: 60, ticks: [0, 20, 40, 60], barH: 22, gapY: 18, labelW: 180 })}
       ${src(SRC.s4)}
     </article>
     <aside class="note">
@@ -338,10 +319,10 @@ pages.push(`
 </section>`);
 
 const glance = [
-  ['New single-family homes started with a patio', '60.5%', '61.8% in 2024', 'NAHB, Census Survey of Construction', '2025 starts'],
+  ['New single-family homes started with a patio', '60.5%', 'up from 59.6% in 2019', 'NAHB, Census Survey of Construction', '2025 starts'],
   ['Average new-home patio size', 'About 320 sq ft', '', 'NAHB, Builder Practices Survey', 'Homes built 2024'],
-  ["Architects' net demand score, outdoor living spaces", '55%', '60% in 2024', 'AIA Home Design Trends Survey', 'Q2 2025'],
-  ["Architects' net demand score, blended indoor/outdoor spaces", '40%', '51% in 2024', 'AIA Home Design Trends Survey', 'Q2 2025'],
+  ["Architects' net demand score, outdoor living spaces", '55%', '', 'AIA Home Design Trends Survey', 'Q2 2025'],
+  ["Architects' net demand score, blended indoor/outdoor spaces", '40%', '', 'AIA Home Design Trends Survey', 'Q2 2025'],
   ['Annual US homeowner improvement and repair spending', 'About $525 billion', '', 'Harvard JCHS, LIRA', 'Through Q3 2027'],
   ['Outdoor upgraders aiming to extend living space', '33%', '', 'Houzz Outdoor Trends Study', '2024'],
   ['New patio cost recovered at resale', 'About 95%', 'of $10,500', 'NAR and NALP Remodeling Impact Report', '2023'],
@@ -359,7 +340,7 @@ pages.push(`
     <p class="note-k">What These Numbers Tell Us</p>
     <ol>
       <li>Most new US homes now come with a patio, and the patio keeps growing.</li>
-      <li>Architects still place outdoor living at the top of exterior features, even as demand cooled in 2025.</li>
+      <li>Architects still place outdoor living at the top of exterior features: a net 55% see outdoor living rising in popularity.</li>
       <li>A new patio comes close to paying for itself at resale and scores near the top for homeowner joy.</li>
       <li>How a patio feels after dark and through the cooler months is decided at the planning stage, when power, mounting and controls can be drawn into the design from the very beginning.</li>
     </ol>
@@ -368,9 +349,9 @@ pages.push(`
 </section>`);
 
 const faq = [
-  ['What percentage of new homes have a patio?', "60.5% of US single-family homes started in 2025 came with a patio, according to NAHB's analysis of Census data. The share was 61.8% in 2024."],
+  ['What percentage of new homes have a patio?', "60.5% of US single-family homes started in 2025 came with a patio, according to NAHB's analysis of Census data. That is up from 59.6% in 2019."],
   ['How big is a typical new-home patio in the US?', "Homes built in 2024 have a patio of about 320 square feet on average, according to NAHB's Builder Practices Survey. Regional averages run from under 200 to over 400 square feet."],
-  ['Is outdoor living still a design trend in 2026?', "It is. AIA's Q2 2025 survey found outdoor living spaces were still the most popular exterior feature, with a net 55% of architects reporting rising popularity, down from 60% a year earlier."],
+  ['Is outdoor living still a design trend in 2026?', "It is. AIA's Q2 2025 survey found outdoor living spaces were still the most popular exterior feature, with a net 55% of architects reporting rising popularity."],
   ['Is a new patio a good investment?', 'On resale value alone it comes close to break-even, with Realtors estimating that a new patio recovers about 95% of its cost. Homeowners also rate it 9.9 out of 10 for joy.'],
   ['How much do Americans spend on home improvement each year?', "Americans spend about $525 billion a year on improvements and repairs to owner-occupied homes, according to Harvard's Leading Indicator of Remodeling Activity, released October 2026."],
 ];

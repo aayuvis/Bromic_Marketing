@@ -56,10 +56,10 @@ Australians are improving the homes they have. Renovation spend is near its peak
 **The Implication:** *Builders:* the biggest market is the patio that already exists. *Architects:* detail surface-mount and retrofit options. *Homeowners:* add a roof, light and heat to the alfresco you have.
 **Bromic Insight:** A heater mounts to the patio you have, turning it into a room you use all year.
 
-## 04 · Smaller Lots, Harder-Working Outdoor Space
+## 04 · Compact Lots, Harder-Working Outdoor Space
 **Compact · Elevate · Zone**
-Lots are shrinking while houses hold their size, and apartments are rising. Buyers search for outdoor areas and balconies anyway.
-- Median land 645 m² in 2025, from 670 m² in 2015; average new house 241 m² (PropTrack)
+Lots are compact while houses hold their size, and apartments are rising. Buyers search for outdoor areas and balconies anyway.
+- Median land 645 m² in 2025; average new house 241 m² (PropTrack)
 - Apartment approvals +13.2% in 2025-26 (ABS); multi-unit starts forecast near 97,000 by 2028 (HIA)
 - "Balcony" was the 7th most-searched keyword; "courtyard" searches +62% (PropTrack)
 

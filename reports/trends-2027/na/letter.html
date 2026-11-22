@@ -630,13 +630,13 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:-.01em;line-hei
   <path d="M14 21v-3a2 2 0 0 0-4 0v3" />
   <path d="M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2" />
   <path d="M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16" /></svg></span>Elevate</li></ul>
-    <p class="read">Lots are small and patios are getting tighter, but buyers want outdoor living anyway – designed with purpose. Multigenerational living adds more people to the same outdoor space.</p>
-    <ul class="sig"><li><b>8,543 sq ft</b><span>Median new-home lot; 64% of lots are under 9,000 sq ft (NAHB, 2025)</span></li><li><b>60.5%</b><span>of new homes have a patio – a six-year low</span></li><li><b>Net 53%</b><span>of architects report rising demand for multigenerational accommodation</span></li></ul>
+    <p class="read">Lots are compact, and buyers want outdoor living anyway – designed with purpose. Multigenerational living adds more people to the same outdoor space.</p>
+    <ul class="sig"><li><b>8,543 sq ft</b><span>Median new-home lot; 64% of lots are under 9,000 sq ft (NAHB, 2025)</span></li><li><b>60.5%</b><span>of new homes started in 2025 have a patio, up from 59.6% in 2019</span></li><li><b>Net 53%</b><span>of architects report rising demand for multigenerational accommodation</span></li></ul>
   </div><div class="folio"><span>Outdoor Living Trends 2027 · North America</span><span class="draft">Draft for review</span><span>20</span></div></section>
 <section class="pg pb" id="s09b">
   <div class="stat">
     <div class="kick">Shift 09 · Small Lots, Big Living</div>
-    <div class="hero"><div class="fig">60.5%</div><div class="cap">of new homes have a patio, the lowest in six years – every square foot must work harder<small>NAHB / US Census, 2026</small></div></div>
+    <div class="hero"><div class="fig">60.5%</div><div class="cap">of new homes have a patio – six in ten start with an outdoor room, and every square foot works hard<small>NAHB / US Census, 2026</small></div></div>
     <svg class="chart" data-chart="s9" viewBox="0 0 860 330"></svg>
   </div>
   <figure class="sk dg"><svg class="diag" data-diag="lot" viewBox="0 0 680 540"></svg><figcaption>Heat on the wall and ceiling keeps the small patio floor free</figcaption></figure>
@@ -789,7 +789,7 @@ window.REPORT_CHARTS = (BZ) => {
       waffle(svg, 14, 20, 100, 64, 10, 24, 17, { square: true });
       T(svg, 0, 268, '64 in 100 new-home lots', { size: 18, serif: true, fill: FINK });
       T(svg, 0, 288, 'are under 9,000 sq ft (NAHB, 2025)', { size: 12.5, fill: INK2 });
-      pie(svg, 420, 90, 130, 60.5, { label: '60.5%', cap: 'of new homes have a patio –|a six-year low' });
+      pie(svg, 420, 90, 130, 60.5, { label: '60.5%', cap: 'of new homes have a patio –|up from 59.6% in 2019' });
       dumbbell(svg, [{ l: '', b: 53, bl: 'net 53', by: '2026' }], 60, { x0: 600, x1: 840, top: 100 });
       T(svg, 600, 60, 'Multigenerational living', { size: 15, weight: 700 }); T(svg, 600, 78, 'AIA, net index', { size: 12, fill: STEEL });
     },
@@ -1017,9 +1017,9 @@ window.REPORT_CHARTS = (BZ) => {
       h.style.position = 'relative'; h.prepend(s);
       add(s, rough.svg(s).circle(25, 25, 46, O({ stroke: getComputedStyle(h).color, strokeWidth: 1.2, roughness: 1.6 })));
     });
-    document.querySelectorAll('[data-r="box"]').forEach(h => {
+    document.querySelectorAll('[data-r="box"], [data-r="empty"]').forEach(h => {
       const s = el('svg', { viewBox: '0 0 22 22', style: 'position:absolute;inset:0;width:100%;height:100%;overflow:visible' }, h);
-      const rc = rough.svg(s); add(s, rc.rectangle(1, 1, 20, 20, O({ strokeWidth: 1.3 }))); add(s, rc.linearPath([[4, 11], [9, 17], [21, 2]], O({ stroke: FLAME, strokeWidth: 2.4 })));
+      const rc = rough.svg(s); add(s, rc.rectangle(1, 1, 20, 20, O({ strokeWidth: 1.3 }))); if (h.dataset.r === 'box') add(s, rc.linearPath([[4, 11], [9, 17], [21, 2]], O({ stroke: FLAME, strokeWidth: 2.4 })));
     });
   }
 

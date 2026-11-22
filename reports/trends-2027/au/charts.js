@@ -43,7 +43,7 @@ window.REPORT_CHARTS = (BZ) => {
       T(svg, 590, 306, 'Renovation investment 2026, Victoria = 100 (HIA)', { size: 12, fill: STEEL });
     },
     s4(svg) {
-      vbars(svg, 30, 240, [{ v: 670, t: '670 m²', l: '2015' }, { v: 645, t: '645 m²', l: '2025', hl: 1 }], 700, 170, { w: 80, g: 44, vs: 20 });
+      vbars(svg, 30, 240, [{ v: 645, t: '645 m²', l: '2025', hl: 1 }], 700, 170, { w: 80, g: 44, vs: 20 });
       T(svg, 0, 306, 'Median land size, houses sold', { size: 12, fill: STEEL });
       vbars(svg, 340, 240, [{ v: 241, t: '241 m²', l: 'Average new|house' }], 700, 170, { w: 80, g: 44, vs: 20 });
       T(svg, 330, 306, 'Houses hold their size', { size: 12, fill: STEEL });

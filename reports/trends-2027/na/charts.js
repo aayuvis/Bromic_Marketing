@@ -73,7 +73,7 @@ window.REPORT_CHARTS = (BZ) => {
       waffle(svg, 14, 20, 100, 64, 10, 24, 17, { square: true });
       T(svg, 0, 268, '64 in 100 new-home lots', { size: 18, serif: true, fill: FINK });
       T(svg, 0, 288, 'are under 9,000 sq ft (NAHB, 2025)', { size: 12.5, fill: INK2 });
-      pie(svg, 420, 90, 130, 60.5, { label: '60.5%', cap: 'of new homes have a patio –|a six-year low' });
+      pie(svg, 420, 90, 130, 60.5, { label: '60.5%', cap: 'of new homes have a patio –|up from 59.6% in 2019' });
       dumbbell(svg, [{ l: '', b: 53, bl: 'net 53', by: '2026' }], 60, { x0: 600, x1: 840, top: 100 });
       T(svg, 600, 60, 'Multigenerational living', { size: 15, weight: 700 }); T(svg, 600, 78, 'AIA, net index', { size: 12, fill: STEEL });
     },

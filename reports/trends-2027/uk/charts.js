@@ -76,8 +76,8 @@ window.REPORT_CHARTS = (BZ) => {
       T(svg, 510, 312, 'Pubs closed in Great Britain (BBPA)', { size: 12, fill: STEEL });
     },
     s9(svg) {
-      pmbars(svg, 30, 170, [{ v: 9, t: '+9%', l: 'Garden centres|2025' }, { v: 4, t: '+4.0%', l: 'Garden centre|card spend' }, { v: -0.7, t: '−0.7%', l: 'Home improvement|card spend' }, { v: -8.1, t: '−8.1%', l: 'B&Q|big-ticket' }], 10, 120, { w: 74, g: 50 });
-      T(svg, 20, 318, 'HTA 2025; Barclays, July 2026; Kingfisher, Q2 2026', { size: 12, fill: STEEL });
+      pmbars(svg, 30, 170, [{ v: 9, t: '+9%', l: 'Garden centres|2025' }, { v: 4, t: '+4.0%', l: 'Garden centre|card spend' }], 10, 120, { w: 74, g: 50 });
+      T(svg, 20, 318, 'HTA 2025; Barclays, July 2026', { size: 12, fill: STEEL });
       pie(svg, 620, 95, 120, 51, { label: '51%', cap: 'of homeowners|renovated in 2024', fill: STEEL, stroke: INK2, labelFill: INK2 });
       pie(svg, 780, 95, 120, 50, { label: '50%', cap: 'of them worked|outdoors' });
     },

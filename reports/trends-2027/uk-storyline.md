@@ -101,14 +101,14 @@ The British garden is becoming a room. What stands between people and more eveni
 **The Implication:** Outdoor space wins when it is usable. *Operators:* heated, covered gardens win covers in spring and autumn, not just heatwaves. *Designers:* fixed heat with metering and controls.
 **Bromic Insight:** A heated pub garden earns in March and October, not only in July.
 
-## 09 · Fewer, Better Projects
+## 09 · Considered, Better Projects
 **Considered · Designed · Lasting**
-- Garden centre sales +9% in 2025 (HTA) while B&Q big-ticket fell 8.1% in Q2 2026 (Kingfisher)
+- Garden centre sales +9% in 2025 (HTA); garden centre card spend +4.0% (Barclays, July 2026)
 - 50% of renovating homeowners worked on outdoor space; median renovation spend £21,440 (Houzz UK 2025)
 - 23% of renovators added outdoor lighting, 11% gazebos or pergolas (Houzz UK)
 
 **Hero stat:** 50% of UK renovators work on outdoor space (Houzz, 2025)
-**The Implication:** Expect fewer, better-specified projects led by designers and architects. Lead with quality, design and controls.
+**The Implication:** Expect better-specified projects led by designers and architects. Lead with quality, design and controls.
 **Bromic Insight:** A considered garden deserves heat designed into it.
 
 ## 10 · Connected Comfort (watch)

@@ -82,7 +82,7 @@ window.REPORT_CHARTS = (BZ) => {
       pie(svg, 700, 95, 140, 58, { label: '~58%', cap: 'of the pipeline’s rooms|are in Saudi Arabia' });
     },
     h10(svg) {
-      vbars(svg, 40, 240, [{ v: 1203, t: '1,203', l: 'Record order|book, 2023' }, { v: 1093, t: '1,093', l: 'Order book,|2026 report' }], 1400, 170, { w: 84, g: 50 });
+      vbars(svg, 40, 240, [{ v: 1093, t: '1,093', l: 'Order book,|2026 report', hl: 1 }], 1400, 170, { w: 84, g: 50 });
       T(svg, 0, 306, 'Yachts over 24 m on order or in build (BOAT International)', { size: 12, fill: STEEL });
       pie(svg, 480, 95, 130, 52, { label: '52%', cap: 'of projects are at|Italian yards' });
       vbars(svg, 640, 240, [{ v: 201, t: '201', l: 'Delivered|in 2025' }, { v: 612, t: '612', l: 'In build', hl: 1 }], 700, 170, { w: 70, g: 40 });

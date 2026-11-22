@@ -108,7 +108,7 @@ SHIFTS = [
   impl=[('Developers', 'Plan outdoor food and drink that works on winter nights.'), ('Designers', 'Specify heat suited to coastal and harsh conditions at concept stage.'), ('Hotel groups', 'Write heated terraces into brand standards.')],
   insight='Heat designed in at concept stage disappears into the architecture.'),
  dict(n='10', title='Bigger Yachts, Living On Deck', words=[('Deck', 'sun'), ('Beach Club', 'sofa'), ('Marine', 'wrench')],
-  read='Fewer yachts are being ordered, but they are getting bigger, and design is centred on outdoor living – beach clubs, fold-down sea terraces and open decks.',
+  read='Yachts are getting bigger, and design is centred on outdoor living – beach clubs, fold-down sea terraces and open decks.',
   signals=[('201', 'superyachts over 30 m delivered in 2025 (Fraser)'),
            ('Record', 'average length and tonnage of yachts on order (BOAT International Global Order Book 2026)'),
            ('52%', 'of superyacht projects ordered or in build are at Italian yards (BOAT International)')],

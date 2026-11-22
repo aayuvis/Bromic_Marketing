@@ -106,7 +106,7 @@
 **The Implication:** New resorts trade on outdoor evenings. *Designers:* specify heat suited to coastal and harsh conditions at concept stage. *Developers:* outdoor F&B that works on winter nights.
 **Bromic Insight:** Heat designed in at concept stage disappears into the architecture.
 
-## 10 · Fewer, Bigger Yachts Living On Deck
+## 10 · Bigger Yachts, Living On Deck
 **Deck · Beach Club · Marine**
 - 201 superyachts over 30 m delivered in 2025; 612 in build (Fraser)
 - Order book 1,093 yachts over 24 m, with average length at a record high (BOAT International)
