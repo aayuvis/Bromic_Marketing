@@ -73,7 +73,7 @@ const SHEETS = [
       ['Front', 'Wireframe', 'Diamond; oval and triangle sold separately', 'Diamond'],
       ['Build', 'Black body, stainless end covers', 'IPX5', 'Corrosion-resistant coating over 316 marine-grade stainless; IPX5'],
       ['Recessing', 'Existing Tungsten recess kit', 'Low-Clearance Recess Kit', 'Marine-grade low-clearance kit'],
-      ['Warranty', '3 years', '3 years', '3 years'],
+      ['Warranty', '3 years heater, 7 years elements', '3 years heater, 7 years elements', '3 years heater, 7 years elements'],
       ['Available', 'January 2027', 'Now', 'Now'],
     ],
     mounting: ['Single post', 'Flat ceiling', 'Pitched ceiling 3/12–12/12', 'Wall bracket, 14 or 18 in reach', 'Angled 15°, 30°, 45°', 'Low-clearance recess, 7.5 in'],

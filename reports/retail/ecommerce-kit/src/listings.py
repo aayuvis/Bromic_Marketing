@@ -72,7 +72,7 @@ LISTINGS = [
       ["Mounting", "Ceiling, wall, single post, pitched ceiling (with adaptor), recessed (with kit)"],
       ["Recessing", "Low-clearance recess kit, 7.5 in minimum cavity, fan-ventilated, recess box supplied (Select and Coastal)"],
       ["Use", "Outdoor and covered outdoor areas; Coastal is not for installation on boats"],
-      ["Warranty", "3 years"],
+      ["Warranty", "3 years heater, 7 years elements"],
     ],
     "in_the_box": [
       "Tungsten Smart-Heat® Electric Series II heater",
@@ -124,7 +124,6 @@ LISTINGS = [
       "[[VERIFY: Series II SKU list by output, voltage, finish and front – Product team]]",
       "[[VERIFY: data/product-facts.json and data/retail/retail.json still mark Select and Coastal as not yet launched; owner confirmed launch (22 Nov 2026) – update the data files – Product team]]",
       "[[VERIFY: Series II mounting heights, listings/certification, rated current – Product team]]",
-      "[[VERIFY: Series II element cover, and publication of the 3-year warranty (owner, 22 Nov 2026) on bromic.com – Product team]]",
       "[[VERIFY: 45° tilt on 4 and 6 kW against the manual's 30° – Product team]]",
       "[[VERIFY: which outputs share each body length (deck slides '3-6kW' and '2-4kW') – Product team]]",
       "[[VERIFY: Coastal body in 316 stainless (Lookbook only) and the coating name – Product team]]",

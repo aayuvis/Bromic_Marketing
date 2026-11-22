@@ -118,7 +118,7 @@ De [garantiepagina](https://www.bromic.com/warranty/) en de specificatietabel op
 
 ## Tungsten Coastal, in 316 roestvast staal
 
-De collectie Tungsten Smart-Heat Electric Coastal, gelanceerd in oktober 2026, is vervaardigd uit 316 roestvast staal van scheepskwaliteit, in zwart of wit, met het Signature Diamond Pattern-rooster. Ze biedt inbouw met lage inbouwhoogte in scheepskwaliteit, en voor plafond-, muur- en enkele-paalmontage, met een verwarmd oppervlak van ongeveer 5,9–13,4 m² afhankelijk van het model.[^s6] Zoals elke elektrische verwarmer van Bromic werkt ze met Affinity Smart-Heat-bediening en een wandschakelaar; wifi- en app-functies vragen om compatibele Affinity-bediening, apart verkrijgbaar. Zoals heel Tungsten Series II heeft ze 3 jaar garantie. [[VERIFY: IP-classificatie en vermogens van Tungsten Coastal, en de garantie op de elementen van Series II — productteam]]
+De collectie Tungsten Smart-Heat Electric Coastal, gelanceerd in oktober 2026, is vervaardigd uit 316 roestvast staal van scheepskwaliteit, in zwart of wit, met het Signature Diamond Pattern-rooster. Ze biedt inbouw met lage inbouwhoogte in scheepskwaliteit, en voor plafond-, muur- en enkele-paalmontage, met een verwarmd oppervlak van ongeveer 5,9–13,4 m² afhankelijk van het model.[^s6] Zoals elke elektrische verwarmer van Bromic werkt ze met Affinity Smart-Heat-bediening en een wandschakelaar; wifi- en app-functies vragen om compatibele Affinity-bediening, apart verkrijgbaar. Zoals heel Tungsten Series II heeft ze 3 jaar garantie op de verwarmer en 7 jaar op de elementen. [[VERIFY: IP-classificatie en vermogens van Tungsten Coastal — productteam]]
 
 ## Zorg voor een verwarmer bij zee
 

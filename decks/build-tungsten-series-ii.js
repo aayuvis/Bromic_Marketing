@@ -170,7 +170,7 @@ const SHORT = {
   aesthetics: ['A narrower, lighter heater that floats on one post, in one colour from end to end.', 'improved', 'About 14% narrower and a third lighter; no visible junction box.', 'bromic', 'Infratech\'s colour sits on the end caps and housing; the reflector and wire guard stay stainless in every colour.'],
   design_flex: ['Three finishes and three fronts that change without re-wiring.', 'new', 'Series I had one fascia and two colours.', 'bromic', 'Infratech\'s decorative Motif covers fit surface models only and cannot be used flush.'],
   controls: ['Affinity Smart-Heat® Controls: dimming, zones, schedules and timers from the Bromic app.', 'carried over', 'Same Affinity controls; the Dimmer is now the recommended controller.', 'bromic', 'Infratech dims through a separate control panel and schedules only through home-automation systems.'],
-  warranty: ['Three years of manufacturer cover, with a partner extension on qualifying products.', 'improved', '3 years on the heater, up from 2 on Series I.', 'parity', 'Both 3 years. Infratech\'s fourth year comes through its programs; its terms cover replacement parts only and are not transferable.'],
+  warranty: ['Three years of manufacturer cover, with a partner extension on qualifying products.', 'improved', '3 years on the heater, up from 2 on Series I; 7 years on the elements, as before.', 'parity', 'Both 3 years. Infratech\'s fourth year comes through its programs; its terms cover replacement parts only and are not transferable.'],
   multi_area: ['The right Bromic heater for every outdoor room: electric or gas, mounted or freestanding.', 'improved', 'More mounts and a coastal model within the Tungsten family.', 'bromic', 'Infratech sells fixed electric heaters only: no gas and no freestanding models.'],
   coastal: ['Built for salt air: a coated, marine-grade build and a 316 stainless recess kit rated IPX5.', 'new', 'Series I was not rated for marine environments.', 'bromic', 'Infratech offers 316 as a paid upgrade, with no protective coating described.'],
   support: ['Design plans, documentation and a Partner Program behind every project.', 'carried over', 'Same support, plus launch literature, photography and training.', 'bromic', 'Free custom design plans, a dedicated contact and project spotlights through the Bromic Partner Program.'],
@@ -588,7 +588,7 @@ onePager('Commercial users', 'More Comfortable Covers, Every Season',
     ['LuVideo', 'Produce the two storyboard Reels'],
     ['LuMail', 'Send the four launch emails'],
   ]);
-  s.addNotes('Detailed open checks behind these asks live in the Content Hub (Product marketing, claim checks and VERIFY notes): recess kit facts, tilt on 4 and 6 kW, warranty terms, Coastal build and listing, app behaviour, Partner Program terms, website fixes, competitive sign-off.');
+  s.addNotes('Detailed open checks behind these asks live in the Content Hub (Product marketing, claim checks and VERIFY notes): recess kit facts, tilt on 4 and 6 kW, Coastal build and listing, app behaviour, Partner Program terms, website fixes, competitive sign-off.');
 }
 
 await Promise.all(JOBS);

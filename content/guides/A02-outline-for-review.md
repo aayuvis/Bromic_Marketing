@@ -93,7 +93,7 @@ Revision 2 (29 Oct 2026) answers the owner's instruction: new numbers, new conte
 
 ## Open questions for Product team
 
-1. Current Tungsten Electric (2000–6000 W, 65–160 ft², site) vs Coastal/Select (64–144 ft², Lookbook): does the 6000 W / 160 ft² model stay when they launch? Wattages and certification for Coastal and Select (warranty: 3 years on all Series II, owner, 22 Nov 2026; launched October 2026).
+1. Current Tungsten Electric (2000–6000 W, 65–160 ft², site) vs Coastal/Select (64–144 ft², Lookbook): does the 6000 W / 160 ft² model stay when they launch? Wattages and certification for Coastal and Select (warranty: 3 years heater, 7 years elements on all Series II, owner, 22 Nov 2026; launched October 2026).
 2. Eclipse Electric 2900 W (spec table, used) vs 3000 W (FAQ).
 3. Tungsten Freestanding Gas 38,000 Btu/h (Lookbook, used) vs 38,500 (site); its controls; warranty for the natural-gas model.
 4. Tungsten Gas built-in output: site shows two models; content still withholds it. Release?
