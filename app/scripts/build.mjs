@@ -266,9 +266,21 @@ const trends = fs.existsSync(TRF) ? JSON.parse(fs.readFileSync(TRF, 'utf8')) : n
 // Visual guides (reports/planning-guide/<edition>/): replace an item's text PDF with the designed guide (data/visual-guides.json).
 const VGF = path.join(ROOT, 'data', 'visual-guides.json');
 const vguides = fs.existsSync(VGF) ? JSON.parse(fs.readFileSync(VGF, 'utf8')).guides : [];
+// Designed editions (owner, 22 Nov 2026: modernise every asset with the agreed themes): reports/designed/<ID>/meta.json and
+// reports/designed/case-studies/index.json. Each PDF (and its cover thumb, when one exists) is published under dist/designed/.
+const designed = { items: {}, cases: {} };
+{ const D = path.join(ROOT, 'reports', 'designed');
+  const add = (m, kind) => { if (!m || !m.pdf || !fs.existsSync(path.join(ROOT, m.pdf))) return; const id = m.item_id || m.id; if (!id) return;
+    const e = { title: m.title || '', theme: m.theme || '', pages: m.pages || null, pdf: m.pdf, thumb: m.thumb && fs.existsSync(path.join(ROOT, m.thumb)) ? m.thumb : null, kind: m.kind || kind,
+      href: 'designed/' + id + '/' + path.basename(m.pdf), mb: +(fs.statSync(path.join(ROOT, m.pdf)).size / 1048576).toFixed(1) };
+    if (e.thumb) e.thumbHref = 'designed/' + id + '/' + path.basename(e.thumb);
+    (kind === 'case' && !items.some((it) => it.id === id) ? designed.cases : designed.items)[id] = e; };
+  if (fs.existsSync(D)) for (const d of fs.readdirSync(D)) { const mf = path.join(D, d, 'meta.json'); if (fs.existsSync(mf)) add(JSON.parse(fs.readFileSync(mf, 'utf8')), 'doc'); }
+  const cf = path.join(D, 'case-studies', 'index.json');
+  if (fs.existsSync(cf)) { const j = JSON.parse(fs.readFileSync(cf, 'utf8')); for (const m of (Array.isArray(j) ? j : j.items || j.studies || [])) add(m, 'case'); } }
 const RVF = path.join(ROOT, 'data', 'image-review.json');
 const review = fs.existsSync(RVF) ? JSON.parse(fs.readFileSync(RVF, 'utf8')).items : [];
-const HUB = { built: new Date().toISOString(), commit, repo, regions, roles, langsAvailable: Object.fromEntries(Object.entries(tr).map(([l, m]) => [l, Object.keys(m).length])), matrix, assets, facts, images, usage, tools, site, cs, blogPlan, pm, campaigns, portfolio, retail, retailKit, trends, vguides, review, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
+const HUB = { built: new Date().toISOString(), commit, repo, regions, roles, langsAvailable: Object.fromEntries(Object.entries(tr).map(([l, m]) => [l, Object.keys(m).length])), matrix, assets, facts, images, usage, tools, site, cs, blogPlan, pm, campaigns, portfolio, retail, retailKit, trends, vguides, designed, review, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
 
 console.log(`items ${items.length} · tools ${tools.length} · images ${images.length} · site pages ${site.length} · errors ${errors.length} · warnings ${warn.length}`);
 warn.forEach((w) => console.log('  warn  ' + w));
@@ -292,6 +304,7 @@ fs.copyFileSync(path.join(APP, 'node_modules', 'marked', 'marked.min.js'), path.
 fs.writeFileSync(path.join(DIST, 'data.js'), 'window.HUB=' + JSON.stringify(HUB) + ';');
 for (const [lang, m] of Object.entries(tr)) fs.writeFileSync(path.join(DIST, `data-${lang}.js`), `(window.HUB_TR=window.HUB_TR||{})[${JSON.stringify(lang)}]=` + JSON.stringify(m) + ';');
 fs.cpSync(path.join(ROOT, 'images', 'library'), path.join(DIST, 'images', 'library'), { recursive: true });
+for (const e of [...Object.entries(designed.items), ...Object.entries(designed.cases)]) { const o = path.join(DIST, 'designed', e[0]); fs.mkdirSync(o, { recursive: true }); fs.copyFileSync(path.join(ROOT, e[1].pdf), path.join(o, path.basename(e[1].pdf))); if (e[1].thumb) fs.copyFileSync(path.join(ROOT, e[1].thumb), path.join(o, path.basename(e[1].thumb))); }
 for (const g of vguides) {  // the designed guide: both formats, images, cover and PDFs, with paths rewritten for dist
   const src = path.join(ROOT, 'reports', g.dir), out = path.join(DIST, g.dir);
   if (!fs.existsSync(path.join(src, 'index.html'))) continue;

@@ -220,7 +220,8 @@
 
   // A translated page downloads its translated PDF (pdf/<lang>/<id>.pdf, built by scripts/pdf.mjs from data-<lang>.js).
   const VG = Object.fromEntries((HUB.vguides || []).map((g) => [g.item, g]));  // items whose PDF is the designed guide
-  const pdfHref = (it) => (VG[it.id] && !(it.tr && it.lang !== 'en') ? `${VG[it.id].dir}/${VG[it.id].file}.pdf` : it.tr && it.lang !== 'en' ? `pdf/${it.lang}/${encodeURIComponent(it.id)}.pdf` : `pdf/${encodeURIComponent(it.id)}.pdf`);
+  const DZ = (HUB.designed || {}).items || {}, DZC = (HUB.designed || {}).cases || {};  // designed editions in the agreed themes
+  const pdfHref = (it) => (VG[it.id] && !(it.tr && it.lang !== 'en') ? `${VG[it.id].dir}/${VG[it.id].file}.pdf` : DZ[it.id] && !(it.tr && it.lang !== 'en') ? DZ[it.id].href : it.tr && it.lang !== 'en' ? `pdf/${it.lang}/${encodeURIComponent(it.id)}.pdf` : `pdf/${encodeURIComponent(it.id)}.pdf`);
 
   function toast(msg) { const t = $('#toast'); t.textContent = msg; t.classList.add('on'); clearTimeout(toast.t); toast.t = setTimeout(() => t.classList.remove('on'), 1800); }
   async function copy(text, msg) {
@@ -554,7 +555,7 @@
 
   // Gated documents get a PDF at deploy (app/scripts/pdf.mjs uses the same rule).
   const PDF_TYPES = ['report', 'gated-guide', 'spec-kit', 'sales-kit', 'stats-page'];
-  const hasPdf = (it) => it.gated === true && PDF_TYPES.includes(it.type) && !FRAMED;
+  const hasPdf = (it) => ((it.gated === true && PDF_TYPES.includes(it.type)) || !!DZ[it.id]) && !FRAMED;
   function item(id) {
     const it = ITEM[id];
     if (!it) return `<div class="empty">No item “${esc(id)}”. <a href="#/library">Back to the library</a></div>`;
@@ -566,6 +567,7 @@
     const tool = it.type === 'tool' && H.tools.find((t) => t.startsWith(it.asset || it.id));
     const ED = window.HubEditor, hero = ED ? ED.heroId(it) : it.hero;
     return `<nav class="crumbs"><a href="#/library">Assets</a><span>/</span><a href="${libHref({ shelf: shelfOf(it) })}">${esc(SHELF[shelfOf(it)].name)}</a>${it.cell ? `<span>/</span><a href="#/journey/${esc(it.cell)}">${esc(it.cell)}</a>` : ''}</nav>
+    ${!VG[it.id] && DZ[it.id] ? `<div class="vg-band">${DZ[it.id].thumbHref ? `<img src="${esc(DZ[it.id].thumbHref)}" alt="Cover of the designed edition" loading="lazy">` : ''}<div><span class="label">The designed edition${DZ[it.id].theme ? ' · ' + esc(DZ[it.id].theme) : ''}</span><h3>${esc(DZ[it.id].title || it.title)}</h3><p>${DZ[it.id].pages ? DZ[it.id].pages + ' pages, ' : ''}laid out for print and screen, from this page's own copy and sources.</p><div class="btns"><a class="btn primary" href="${esc(DZ[it.id].href)}" download>${ic.down}PDF · ${DZ[it.id].mb} MB</a><a class="btn" href="${esc(DZ[it.id].href)}" target="_blank" rel="noopener">${ic.ext}View</a></div></div></div>` : ''}
     ${VG[it.id] ? `<div class="vg-band"><img src="${esc(VG[it.id].dir)}/${esc(VG[it.id].cover)}" alt="Cover of ${esc(VG[it.id].title)}" loading="lazy"><div><span class="label">The designed guide · 2027</span><h3>${esc(VG[it.id].title)}</h3><p>The visual edition of this guide: first principles, outdoor layouts and real Bromic installations, in landscape for screens and US Letter for print.</p><div class="btns"><a class="btn primary" href="${esc(VG[it.id].dir)}/${esc(VG[it.id].file)}.pdf" download>${ic.down}Landscape PDF</a><a class="btn" href="${esc(VG[it.id].dir)}/${esc(VG[it.id].file)}-Letter.pdf" download>${ic.down}Letter PDF</a><a class="btn" href="${esc(VG[it.id].dir)}/index.html" target="_blank" rel="noopener">${ic.ext}View</a><a class="btn" href="${esc(VG[it.id].dir)}/letter.html" target="_blank" rel="noopener">${ic.ext}View Letter</a></div></div></div>` : ''}
     ${SUPERSEDED.has(it.id) ? `<p class="notice" style="background:var(--flame-wash);padding:12px 16px;margin:12px 0"><b>Replaced by Outdoor Living Trends 2027.</b> <a href="#/trends">See the 2027 reports ${ic.arrow}</a></p>` : ''}
     <div class="ed-start"><button type="button" class="btn" data-edit-page>${ic.pen}${esc(STR('Edit this page'))}</button></div>
@@ -797,6 +799,7 @@
       ${['origin', 'evidence', 'completeness'].some((g) => (r.tags[g] || []).length) ? `<p class="cs-prov">${['origin', 'evidence', 'completeness'].flatMap((g) => (r.tags[g] || []).map((id) => `<span class="prov prov-${esc(id)}">${esc(TG(g, id))}</span>`)).join('')}</p>` : ''}
       ${(r.tags.proof || []).length ? `<p class="muted" style="font-size:13px;margin-top:8px">Proof: ${r.tags.proof.map((id) => esc(TG('proof', id))).join(', ')}</p>` : ''}
       ${(r.tags.controls || []).includes('controls-not-stated') && r.kind === 'case-study' ? '<p class="vcount" style="font-size:13px">Controls not stated: add them when this is upgraded</p>' : ''}
+      ${(() => { const z = DZC[r.id] || (r.case_study_item && DZ[r.case_study_item]); return z ? `<p style="margin:10px 0 0"><a class="btn" href="${esc(z.href)}" download>${ic.down}Project File PDF</a></p>` : ''; })()}
       <button class="fb-link" data-fbel="case:${esc(r.id)}" data-fblabel="${esc(r.title || r.id)}">${ic.chat}Feedback on this</button></div></article>`;
   }
   function csLibrary() {
