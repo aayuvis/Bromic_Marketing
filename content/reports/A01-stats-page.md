@@ -1,17 +1,17 @@
 ---
 id: A01-stats
 type: stats-page
-title: "Outdoor Living Statistics 2026: How America Lives Outdoors"
-slug: outdoor-living-statistics-2026
+title: "Outdoor Living Statistics 2027: How America Lives Outdoors"
+slug: outdoor-living-statistics-2027
 audience: [RES, ARC, BLD]
 stage: [AW]
 cell: RES-AW
 asset: A01
 summary: "The numbers behind the evenings Americans spend outdoors: how many new homes come with a patio and how large they have grown, what architects are seeing, what homeowners invest and what a patio gives back, each with its primary source."
-primary_keyword: outdoor living statistics 2026
-secondary_keywords: [patio statistics, outdoor living trends 2026, new home patio size, patio return on investment]
-ai_prompt: "What are the key outdoor living statistics for 2026?"
-meta_description: "Outdoor living statistics 2026: how many new US homes have a patio, how big it is, what architects see and what a patio returns at resale, all sourced."
+primary_keyword: outdoor living statistics 2027
+secondary_keywords: [patio statistics, outdoor living trends 2027, new home patio size, patio return on investment]
+ai_prompt: "What are the key outdoor living statistics for 2027?"
+meta_description: "Outdoor living statistics 2027: how many new US homes have a patio, how big it is, what architects see and what a patio returns at resale, all sourced."
 cta: {label: "Download the Outdoor Living Trends 2027 report", asset: A01}
 hero: t-001-000
 images: [t-005-013]
@@ -79,7 +79,7 @@ sources:
     verified: true
 ---
 
-# Outdoor Living Statistics 2026
+# Outdoor Living Statistics 2027: How America Lives Outdoors
 
 Six in ten new US single-family homes now come with a patio, and the average one is about 320 square feet.[^s1][^s3] Architects still rank outdoor living as the most popular exterior feature, though demand cooled in 2025.[^s4] Homeowners spend around $525 billion a year improving and repairing the homes they own,[^s5] and a new patio recovers about 95% of its cost at resale.[^s8]
 
@@ -191,4 +191,4 @@ These figures appear in the Trends 2026 report and are held back from this page 
 - **39% "increase in popularity" of infrared patio heaters (AIA)** – not found in any AIA release; AIA reports net scores rather than increases. Recommended for removal.
 - **$522 billion (Harvard JCHS)** – not found in any Harvard release; replaced above by the current LIRA figure.
 
-You will find the full 2026 trends, and what they mean for architects, builders and homeowners, in the report.
+You will find the trends for 2027, and what they mean for architects, builders and homeowners, in the Outdoor Living Trends 2027 report.

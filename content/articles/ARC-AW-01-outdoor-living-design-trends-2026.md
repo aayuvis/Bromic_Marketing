@@ -1,17 +1,17 @@
 ---
 id: ARC-AW-01
 type: article
-title: "Outdoor living design trends 2026: designing outdoor rooms for every season"
+title: "Outdoor living design trends 2027: designing outdoor rooms for every season"
 slug: outdoor-living-design-trends-2026
 audience: [ARC]
 stage: [AW]
 cell: ARC-AW
 asset: A24
-summary: "What the 2026 survey data tells architects about the outdoor rooms clients want, why warmth is still the last thing planned, and how to bring it into the brief from the first sketch."
+summary: "What the 2026 survey data tells architects about the outdoor rooms clients will want in 2027, why warmth is still the last thing planned, and how to bring it into the brief from the first sketch."
 primary_keyword: outdoor living design trends
 secondary_keywords: [indoor outdoor living design, outdoor room design]
-ai_prompt: "What are the outdoor living design trends for 2026?"
-meta_description: "Outdoor living design trends for 2026 from AIA and NAHB data, and how architects bring radiant heating into the brief for outdoor rooms used year-round."
+ai_prompt: "What are the outdoor living design trends for 2027?"
+meta_description: "Outdoor living design trends for 2027 from the latest AIA and NAHB data, and how architects bring radiant heating into the brief for outdoor rooms used year-round."
 cta: {label: "Download the Outdoor Living Trends 2027 report", asset: A01}
 hero: l-010-075
 images: [l-010-069, t-006-016]
@@ -141,7 +141,7 @@ Every heater you specify is paired with its controls: an Affinity Smart-Heat® O
 
 ## FAQ
 
-### What are the top outdoor living design trends for 2026?
+### What are the top outdoor living design trends going into 2027?
 Clients are asking for outdoor rooms more than patios: covered terraces, outdoor kitchens, pergolas with integrated lighting, audio and heat, and glazing that opens the house to the terrace. The AIA's 2026 survey ranks outdoor living first among special-function rooms[^s2].
 
 ### Is demand for outdoor living still growing?
@@ -156,4 +156,4 @@ Radiant (infrared) heat. Because it warms people and surfaces rather than the ai
 ### Can outdoor heaters be integrated with home automation?
 Yes, through Affinity Smart-Heat Controls, which work with Control4, Crestron and Lutron among others. Compatibility varies and may need additional integration hardware, so confirm the details with your integrator[^s8].
 
-Explore the full 2026 findings in the Trends report.
+Explore what comes next in the Outdoor Living Trends 2027 report.

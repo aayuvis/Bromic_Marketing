@@ -98,4 +98,4 @@ Ja, über Affinity Smart-Heat Controls, die sich in mehrere Hausautomationssyste
 ### Wann sollte ein Heizungslieferant ins Projekt kommen?
 In der Planungsphase, bevor die Konstruktion bestellt wird, damit Montage, Stromversorgung und Steuerung von Anfang an eingezeichnet sind.
 
-Entdecken Sie die Zahlen 2026 zu Außenräumen im Trends-Report.
+Wohin sich Außenräume entwickeln, lesen Sie im Bericht Outdoor Living Trends 2027.

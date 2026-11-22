@@ -141,4 +141,4 @@ In de VS ongeveer zes op de tien, ofwel 60,5% van de vrijstaande woningen die in
 ### Wanneer plan je buitenverwarming?
 Plan haar samen met het terras, de keuken en de constructie, zodat de groep, de montage en de bediening in één keer worden aangelegd. Slechts 23% van de Amerikaanse huiseigenaren geeft verwarming prioriteit in de planfase[^s5].
 
-Ontdek alle cijfers over buitenleven in 2026 in het Trends-rapport.
+Ontdek het hele beeld van buitenleven in het Outdoor Living Trends 2027-rapport.

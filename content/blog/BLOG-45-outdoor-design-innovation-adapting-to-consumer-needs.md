@@ -97,4 +97,4 @@ Yes, through Affinity Smart-Heat Controls, which integrate with several home aut
 ### When should a heating supplier join the project?
 At design stage, before the structure is ordered, so mounting, power and controls are drawn in from the start.
 
-Explore the 2026 data on outdoor rooms in the Trends report.
+Explore where outdoor rooms are heading in the Outdoor Living Trends 2027 report.

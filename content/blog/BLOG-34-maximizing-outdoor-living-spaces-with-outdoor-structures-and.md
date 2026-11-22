@@ -135,4 +135,4 @@ Radiant heat warms the people beneath it rather than the air, so it keeps you co
 
 Not always. A heater can sit on a bracket fixed to the beam, or on a pole that brings it to the right height above your seating.[^s2]
 
-To see where outdoor rooms are heading next, explore the 2026 trends data.
+To see where outdoor rooms are heading next, explore the Outdoor Living Trends 2027 report.

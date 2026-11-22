@@ -173,4 +173,4 @@ In many US climates they can, given cover, power and radiant heat. Heat extends 
 ### How are office heaters controlled?
 By zone and by schedule, through Affinity Smart-Heat controllers, a wall switch for each zone and the Smart-Heat app. Wi-Fi and app features require compatible Affinity controls, sold separately.
 
-Explore the full 2026 outdoor living data in the Trends report.
+Explore the full outdoor living picture in the Outdoor Living Trends 2027 report.

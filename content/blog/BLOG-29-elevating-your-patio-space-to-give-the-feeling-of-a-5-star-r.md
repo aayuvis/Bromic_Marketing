@@ -130,7 +130,7 @@ Yes. A heater that also lights the table, like the Eclipse, can become the focal
 
 No. A freestanding heater stands on its own base and needs only power and at least 79 in. of clearance above.[^s2]
 
-Discover more about [outdoor heating for homes](https://www.bromic.com/residential/) and the [Eclipse collection](https://www.bromic.com/eclipse-collection/). For the ideas shaping outdoor living this year, download the Trends 2026 report.
+Discover more about [outdoor heating for homes](https://www.bromic.com/residential/) and the [Eclipse collection](https://www.bromic.com/eclipse-collection/). For the ideas shaping outdoor living in 2027, download the Outdoor Living Trends 2027 report.
 
 [^s1]: Bromic Heating, Lookbook 2026.
 [^s2]: Bromic Heating, Eclipse Smart-Heat Freestanding product page, read 29 Oct 2026.

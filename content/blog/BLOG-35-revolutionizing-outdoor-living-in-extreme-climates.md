@@ -135,4 +135,4 @@ Tungsten Electric warms the lounge zone and Platinum Electric sits over the dini
 
 That depends on the area, the cover and how exposed the space is. Platinum Electric 4500 W covers about 143 ft²,[^s4] and Tungsten Electric 6000 W about 160 ft².[^s3]
 
-To see how homeowners are planning for year-round outdoor living, explore the 2026 trends data.
+To see how homeowners are planning for year-round outdoor living, explore the Outdoor Living Trends 2027 report.

@@ -87,4 +87,4 @@ Thomas merkt op dat draadloze systemen een lange weg hebben afgelegd, al blijft 
 
 De blog sluit af met een gedachte om vast te houden: nu domotica steeds makkelijker te koop is, maakt juist een goed geïntegreerde buitenruimte het verschil in een project.[^s1] Bekijk de [buitenverwarmers van Bromic](https://www.bromic.com/outdoor-heaters/) of ontdek het [assortiment bediening](https://www.bromic.com/controls/), of neem contact op via [bromic.nl](https://www.bromic.nl/).
 
-Hoe huiseigenaren dit jaar hun buitenleven plannen, ontdek je in het rapport Trends 2026.
+Hoe huiseigenaren het komende jaar hun buitenleven plannen, ontdek je in het Outdoor Living Trends 2027-rapport.

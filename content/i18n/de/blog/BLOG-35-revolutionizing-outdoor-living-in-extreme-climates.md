@@ -136,4 +136,4 @@ Tungsten Electric wärmt die Lounge-Zone, und Platinum Electric sitzt über dem 
 
 Das hängt von der Fläche, der Überdachung und davon ab, wie exponiert der Bereich liegt. Platinum Electric mit 4500 W beheizt ca. 13 m²,[^s4] Tungsten Electric mit 6000 W ca. 15 m².[^s3]
 
-Wie Hausbesitzer das Leben im Freien für das ganze Jahr planen, zeigen Ihnen die Trenddaten 2026.
+Wie Hausbesitzer das Leben im Freien für das ganze Jahr planen, zeigt Ihnen der Bericht Outdoor Living Trends 2027.

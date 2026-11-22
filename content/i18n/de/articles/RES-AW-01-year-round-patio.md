@@ -145,4 +145,4 @@ Oft hilft sie, weil eine teilweise Überdachung eine Wärmewolke über dem Berei
 ### Was plane ich zuerst, die Terrasse oder die Wärme?
 Planen Sie beides zusammen. Strom- und Gasleitungen und Einbauöffnungen lassen sich am einfachsten platzieren, solange die Konstruktion offen ist.
 
-Wie andere Hausbesitzer ihre Abende draußen verlängern, erfahren Sie im Bromic-Report Outdoor Living Trends 2026.
+Wie andere Hausbesitzer ihre Abende draußen verlängern, erfahren Sie im Bromic-Bericht Outdoor Living Trends 2027.

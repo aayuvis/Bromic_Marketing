@@ -142,4 +142,4 @@ It often helps, because a partial cover holds a heat cloud over the space. The s
 ### What should I plan first, the patio or the heat?
 Plan them together. Wiring, gas lines and recesses are easiest to place while the structure is open.
 
-Discover how other homeowners are extending their evenings outside in the Bromic Outdoor Living Trends 2026 report.
+Discover how other homeowners are extending their evenings outside in the Bromic Outdoor Living Trends 2027 report.

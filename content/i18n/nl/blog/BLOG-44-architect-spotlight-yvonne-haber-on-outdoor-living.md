@@ -108,4 +108,4 @@ Een vuurschaal geeft sfeer, maar verwarmt alleen de mensen die er dichtbij zitte
 ### Wanneer moet verwarming worden voorgeschreven?
 In de ontwerpfase, samen met verlichting en constructie, zodat de groep, de montage en de bediening allemaal op de tekeningen staan.
 
-Ontdek de cijfers van 2026 over buitenkamers in het Trends-rapport.
+Ontdek waar buitenkamers naartoe gaan in het Outdoor Living Trends 2027-rapport.

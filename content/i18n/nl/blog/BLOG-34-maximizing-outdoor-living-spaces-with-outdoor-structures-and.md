@@ -136,4 +136,4 @@ Stralingswarmte verwarmt de mensen eronder in plaats van de lucht, dus je blijft
 
 Niet altijd. Een verwarmer kan op een beugel aan de balk zitten, of aan een stang die hem op de juiste hoogte boven je zitplekken brengt.[^s2]
 
-Wil je zien waar buitenkamers naartoe gaan, ontdek dan de trendcijfers van 2026.
+Wil je zien waar buitenkamers naartoe gaan, ontdek dan het Outdoor Living Trends 2027-rapport.

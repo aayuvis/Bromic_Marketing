@@ -140,4 +140,4 @@ Setzen Sie Ihre Heizstrahler über die Sitzplätze statt über das Feuer, und ha
 
 Bei leichtem Wind ja, denn sie wärmen Menschen statt der Luft.[^s1] Siehe [funktionieren Infrarot-Heizstrahler bei Wind](item:RES-CO-KB1).
 
-Wie Hausbesitzer ihre Außenräume planen, zeigen Ihnen die Trenddaten 2026.
+Wie Hausbesitzer ihre Außenräume planen, zeigt Ihnen der Bericht Outdoor Living Trends 2027.

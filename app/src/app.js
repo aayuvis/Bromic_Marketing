@@ -580,6 +580,14 @@
       ${it.summary || (ED && ED.active(it.id)) ? `<p class="dek">${ED ? ED.summary(it) : esc(it.summary)}</p>` : ''}
       ${tool ? `<p><a class="btn primary" href="#/tool/${esc(tool)}">${ic.arrow} ${esc(STR('Open the tool'))}</a></p>` : ''}
       ${hasPdf(it) ? `<p><a class="btn primary" href="${pdfHref(it)}" download="Bromic-${esc(it.id)}${it.tr && it.lang !== 'en' ? '-' + it.lang : ''}.pdf">${ic.down}${esc(STR('Download the PDF'))}</a> <span class="muted" style="font-size:13px">${it.status === 'approved' || it.status === 'published' ? 'Ready to share' : 'Review draft'}</span></p>` : ''}
+      ${(() => { // the designed edition, shown as it reads in print (owner, 22 Nov 2026: pages must match the PDFs' content and style)
+        if (it.tr && it.lang !== 'en') return '';
+        const v = VG[it.id], z = !v && DZ[it.id];
+        if (!v && !z) return '';
+        const src = v ? `${v.dir}/index.html` : `${z.href}#view=FitH&toolbar=1`;
+        return `<section class="dz-view"><div class="dz-bar"><span class="label">The designed edition${z && z.theme ? ' · ' + esc(z.theme) : ''}</span><a class="btn" href="${esc(src.split('#')[0])}" target="_blank" rel="noopener">${ic.ext}Open full screen</a></div><iframe class="dz-frame${v ? ' land' : ''}" src="${esc(src)}" title="${esc(it.title)}, designed edition" loading="lazy"></iframe></section>
+        <h2 class="dz-web">Web Article</h2><p class="muted" style="margin-top:0">The same content written for bromic.com.</p>`;
+      })()}
       <div class="prose">${ED ? ED.prose(it) : it.html}</div>
       ${it.sources.length ? `<hr class="rule"><h2 style="font-size:24px;margin-bottom:6px">Sources</h2><p class="muted" style="margin-top:0;font-size:13px">${it.sources.length} mapped · ${it.sources.length - unverified(it)} verified</p>
       <ol class="srcs">${it.sources.map((s, i) => `<li id="src-${esc(it.id)}-${esc(s.id)}"><span class="n">${i + 1}</span><span><b>${esc(s.publisher || '')}</b>${s.title ? ` — ${esc(s.title)}` : ''}${s.year ? ` (${esc(s.year)})` : ''} ${s.verified ? '<span class="chip ok">Verified</span>' : '<span class="chip warn">Verify</span>'}

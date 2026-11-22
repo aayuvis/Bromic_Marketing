@@ -107,4 +107,4 @@ A fire pit brings atmosphere, though it warms only the people near it. Radiant h
 ### When should heating be specified?
 At design stage, together with lighting and structure, so the circuit, mounting and controls are all on the drawings.
 
-Explore the 2026 data on outdoor rooms in the Trends report.
+Explore where outdoor rooms are heading in the Outdoor Living Trends 2027 report.

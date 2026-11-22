@@ -147,4 +147,4 @@ We have not found a sourced figure for resale value, so we do not claim one. Wha
 ### Do I need an electrician?
 For a built-in electric heater, yes: a licensed electrician runs its circuit, and your local building authority confirms any permit.
 
-The Trends 2026 report shows how homeowners are planning their outdoor spaces this year.
+The Outdoor Living Trends 2027 report shows how homeowners are planning their outdoor spaces for the year ahead.

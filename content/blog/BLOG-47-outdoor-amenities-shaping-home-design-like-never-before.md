@@ -140,4 +140,4 @@ About six in ten, or 60.5% of single-family homes started in 2025, according to 
 ### When should outdoor heating be planned?
 Plan it alongside the patio, kitchen and structure, so the circuit, mounting and controls go in once. Only 23% of homeowners prioritize heating at the planning stage[^s5].
 
-Explore the full 2026 outdoor living data in the Trends report.
+Explore the full outdoor living picture in the Outdoor Living Trends 2027 report.

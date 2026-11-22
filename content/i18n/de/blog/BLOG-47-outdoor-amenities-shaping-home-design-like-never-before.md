@@ -141,4 +141,4 @@ In den USA etwa sechs von zehn, also 60,5 % der 2025 begonnenen Einfamilienhäus
 ### Wann sollte die Beheizung im Freien geplant werden?
 Planen Sie sie zusammen mit Terrasse, Küche und Überdachung, damit Stromkreis, Montage und Steuerung in einem Zug eingebaut werden. Nur 23 % der Hausbesitzer geben der Beheizung in der Planungsphase Vorrang[^s5].
 
-Entdecken Sie alle Zahlen 2026 zum Wohnen im Freien im Trends-Report.
+Das ganze Bild zum Wohnen im Freien finden Sie im Bericht Outdoor Living Trends 2027.

@@ -1,7 +1,7 @@
 ---
 id: A01-stats
 type: stats-page
-title: "Cijfers over buitenleven 2026: zo leeft Amerika buiten"
+title: "Cijfers over buitenleven 2027: zo leeft Amerika buiten"
 audience: [RES, ARC, BLD]
 stage: [AW]
 cell: RES-AW
@@ -9,8 +9,8 @@ asset: A01
 summary: "De cijfers achter de avonden die Amerikanen buiten doorbrengen: hoeveel nieuwe woningen een terras krijgen en hoe groot die zijn geworden, wat architecten zien, wat huiseigenaren investeren en wat een terras teruggeeft, elk met de primaire bron. Het zijn cijfers uit de VS en ze staan ook zo vermeld."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
-ai_prompt: "Wat zijn de belangrijkste cijfers over buitenleven en terrassen voor 2026?"
-meta_description: "Cijfers over buitenleven 2026 (VS): hoeveel nieuwe woningen een terras hebben, hoe groot het is, wat architecten zien en wat een terras bij verkoop oplevert."
+ai_prompt: "Wat zijn de belangrijkste cijfers over buitenleven en terrassen voor 2027?"
+meta_description: "Cijfers over buitenleven 2027 (VS): hoeveel nieuwe woningen een terras hebben, hoe groot het is, wat architecten zien en wat een terras bij verkoop oplevert."
 cta: {label: "Download het Outdoor Living Trends 2027-rapport", asset: A01}
 hero: t-001-000
 images: [t-005-013]
@@ -82,7 +82,7 @@ translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 ---
 
-# Cijfers over buitenleven 2026
+# Cijfers over buitenleven 2027: zo leeft Amerika buiten
 
 Zes op de tien nieuwe vrijstaande woningen in de VS krijgen tegenwoordig een terras, en het gemiddelde terras is ongeveer 30 m² groot.[^s1][^s3] Amerikaanse architecten zien buitenleven nog steeds als de populairste voorziening buiten de woning, al koelde de vraag in 2025 af.[^s4] Amerikaanse huiseigenaren geven ongeveer 525 miljard dollar per jaar uit aan verbetering en onderhoud van hun eigen woning,[^s5] en een nieuw terras verdient bij verkoop ongeveer 95% van de kosten terug.[^s8]
 
@@ -194,4 +194,4 @@ Deze cijfers staan in het rapport Trends 2026 en worden op deze pagina achtergeh
 - **39% "stijging in populariteit" van infrarood terrasverwarmers (AIA)** – in geen enkele publicatie van het AIA gevonden; het AIA publiceert nettoscores in plaats van stijgingen. Advies: schrappen.
 - **522 miljard dollar (Harvard JCHS)** – in geen enkele publicatie van Harvard gevonden; hierboven vervangen door het actuele LIRA-cijfer.
 
-De volledige trends voor 2026, met wat ze betekenen voor architecten, aannemers en huiseigenaren, vind je in het rapport.
+De trends voor 2027, met wat ze betekenen voor architecten, aannemers en huiseigenaren, vind je in het Outdoor Living Trends 2027-rapport.

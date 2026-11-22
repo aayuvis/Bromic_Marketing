@@ -187,7 +187,7 @@ That depends on your fuel access and local rules. Where propane is restricted or
 
 Yes. Our [complimentary design service](https://www.bromic.com/design-your-space/) works out heater selection, placement and coverage from your plans or photos.
 
-For the wider picture, read the [outdoor hospitality trends](item:A01c). Then discover what your empty seats could be worth with your own ROI assessment.
+For the wider picture, read the [Outdoor Hospitality Trends 2027 report](asset:A01). Then discover what your empty seats could be worth with your own ROI assessment.
 
 [^s1]: OpenTable, US consumer survey (Walr), April 2025.
 [^s2]: OpenTable, Canada diner data, March 2025 – February 2026.

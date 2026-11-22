@@ -86,4 +86,4 @@ Thomas notes that wireless systems have come a long way, though a wired connecti
 
 The post closes on a thought worth holding onto: as automation becomes easier to buy, it is the well-integrated outdoor space that sets a project apart.[^s1] Browse [Bromic outdoor heaters](https://www.bromic.com/outdoor-heaters/) or explore the [controls range](https://www.bromic.com/controls/).
 
-To see how homeowners are planning their outdoor living this year, explore the Trends 2026 report.
+To see how homeowners are planning their outdoor living for the year ahead, explore the Outdoor Living Trends 2027 report.

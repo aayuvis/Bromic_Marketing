@@ -131,7 +131,7 @@ Ja. Een verwarmer die ook de tafel verlicht, zoals de Eclipse, kan de blikvanger
 
 Nee. Een vrijstaande verwarmer staat op zijn eigen voet en heeft alleen stroom nodig en minstens ongeveer 2 meter vrije ruimte erboven.[^s2]
 
-Ontdek meer over buitenverwarming voor woningen en de Eclipse-collectie op [bromic.nl](https://www.bromic.nl/). Voor de ideeën die buitenleven dit jaar bepalen, download je het Trends 2026-rapport.
+Ontdek meer over buitenverwarming voor woningen en de Eclipse-collectie op [bromic.nl](https://www.bromic.nl/). Voor de ideeën die buitenleven in 2027 bepalen, download je het Outdoor Living Trends 2027-rapport.
 
 [^s1]: Bromic Heating, Lookbook 2026.
 [^s2]: Bromic Heating, productpagina Eclipse Smart-Heat Freestanding, gelezen op 29 okt 2026.

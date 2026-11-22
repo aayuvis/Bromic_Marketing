@@ -188,7 +188,7 @@ Das hängt von Ihrer Energieversorgung und den örtlichen Regeln ab. Wo Flüssig
 
 Ja. Unser [kostenloser Planungsservice](https://www.bromic.de/) erarbeitet Auswahl, Platzierung und Heizflächen der Heizstrahler anhand Ihrer Pläne oder Fotos.
 
-Das größere Bild zeigen die [Trends in der Außengastronomie](item:A01c). Entdecken Sie dann mit Ihrer eigenen Wirtschaftlichkeitsbewertung, was Ihre leeren Plätze wert sein könnten.
+Das größere Bild zeigt der Bericht [Outdoor Hospitality Trends 2027](asset:A01). Entdecken Sie dann mit Ihrer eigenen Wirtschaftlichkeitsbewertung, was Ihre leeren Plätze wert sein könnten.
 
 [^s1]: OpenTable, Verbraucherumfrage USA (Walr), April 2025.
 [^s2]: OpenTable, Gästedaten Kanada, März 2025 – Februar 2026.

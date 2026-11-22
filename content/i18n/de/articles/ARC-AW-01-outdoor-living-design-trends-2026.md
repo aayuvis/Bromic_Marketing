@@ -1,16 +1,16 @@
 ---
 id: ARC-AW-01
 type: article
-title: "Trends 2026 für das Leben im Freien: Außenräume für jede Jahreszeit gestalten"
+title: "Trends 2027 für das Leben im Freien: Außenräume für jede Jahreszeit gestalten"
 audience: [ARC]
 stage: [AW]
 cell: ARC-AW
 asset: A24
-summary: "Was die Umfragedaten von 2026 Architekten über die Außenräume sagen, die sich Bauherren wünschen, warum die Wärme noch immer zuletzt geplant wird und wie sie schon mit der ersten Skizze in die Aufgabenstellung findet."
+summary: "Was die Umfragedaten von 2026 Architekten über die Außenräume sagen, die sich Bauherren 2027 wünschen werden, warum die Wärme noch immer zuletzt geplant wird und wie sie schon mit der ersten Skizze in die Aufgabenstellung findet."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
-ai_prompt: "Welche Trends gibt es 2026 bei der Gestaltung von Außenbereichen?"
-meta_description: "Trends 2026 für das Leben im Freien nach AIA- und NAHB-Daten (USA) – und wie Architekten Strahlungswärme für ganzjährig genutzte Außenräume früh einplanen."
+ai_prompt: "Welche Trends gibt es 2027 bei der Gestaltung von Außenbereichen?"
+meta_description: "Trends 2027 für das Leben im Freien nach den neuesten AIA- und NAHB-Daten (USA) – und wie Architekten Strahlungswärme für ganzjährig genutzte Außenräume früh einplanen."
 cta: {label: "Den Outdoor Living Trends 2027 Bericht herunterladen", asset: A01}
 hero: l-010-075
 images: [l-010-069, t-006-016]
@@ -143,7 +143,7 @@ Jeder Heizstrahler, den Sie spezifizieren, kommt mit seiner Steuerung: einem Aff
 
 ## FAQ
 
-### Was sind die wichtigsten Trends bei der Gestaltung von Außenbereichen 2026?
+### Was sind die wichtigsten Trends bei der Gestaltung von Außenbereichen für 2027?
 Bauherren wünschen sich eher Außenräume als Terrassen: überdachte Terrassen, Außenküchen, Pergolen mit integriertem Licht, Ton und Wärme sowie Verglasungen, die das Haus zur Terrasse hin öffnen. Die AIA-Umfrage 2026 unter US-Architekten setzt den Außenwohnbereich unter den Räumen mit besonderer Funktion auf Platz eins[^s2].
 
 ### Wächst die Nachfrage nach Außenwohnbereichen noch?
@@ -158,4 +158,4 @@ Strahlungswärme (Infrarot). Weil sie Menschen und Oberflächen statt der Luft e
 ### Lassen sich Heizstrahler in die Hausautomation einbinden?
 Ja, über Affinity Smart-Heat Controls, die unter anderem mit Control4, Crestron und Lutron zusammenarbeiten. Die Kompatibilität ist unterschiedlich und kann zusätzliche Integrationshardware erfordern; klären Sie die Details daher mit Ihrem Systemintegrator[^s8].
 
-Entdecken Sie alle Ergebnisse von 2026 im Trendbericht.
+Was als Nächstes kommt, lesen Sie im Bericht Outdoor Living Trends 2027.

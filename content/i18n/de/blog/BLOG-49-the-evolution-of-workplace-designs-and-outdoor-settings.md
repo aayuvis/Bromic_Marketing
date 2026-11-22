@@ -172,4 +172,4 @@ In vielen Klimazonen ja, mit Überdachung, Strom und Strahlungswärme. Die Wärm
 ### Wie werden Heizstrahler im Büro gesteuert?
 Nach Zone und Zeitplan, über Affinity Smart-Heat Steuergeräte, einen Wandschalter je Zone und die Bromic Smart-Heat App. WLAN- und App-Funktionen setzen kompatible Affinity-Steuerungen voraus, die separat erhältlich sind.
 
-Entdecken Sie alle Daten 2026 zum Leben im Freien im Trendbericht.
+Das ganze Bild zum Leben im Freien finden Sie im Bericht Outdoor Living Trends 2027.

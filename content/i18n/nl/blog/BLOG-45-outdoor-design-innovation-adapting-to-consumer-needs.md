@@ -98,4 +98,4 @@ Ja, via Affinity Smart-Heat Controls, die met verschillende domoticasystemen sam
 ### Wanneer moet een leverancier van verwarming bij het project komen?
 In de ontwerpfase, voordat de constructie wordt besteld, zodat montage, voeding en bediening vanaf het begin worden ingetekend.
 
-Ontdek de cijfers over buitenkamers in 2026 in het Trends-rapport.
+Ontdek waar buitenkamers naartoe gaan in het Outdoor Living Trends 2027-rapport.

@@ -136,4 +136,4 @@ Strahlungswärme wärmt die Menschen darunter statt der Luft, deshalb bleibt es 
 
 Nicht immer. Ein Heizstrahler kann an einer Halterung am Balken sitzen oder an einer Stange, die ihn auf die richtige Höhe über Ihren Sitzplätzen bringt.[^s2]
 
-Wohin sich Außenräume als Nächstes entwickeln, zeigen Ihnen die Trenddaten für 2026.
+Wohin sich Außenräume als Nächstes entwickeln, zeigt Ihnen der Bericht Outdoor Living Trends 2027.

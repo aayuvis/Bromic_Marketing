@@ -188,7 +188,7 @@ Dat hangt af van de energie die je beschikbaar hebt en de lokale regels. Waar pr
 
 Ja. Onze [gratis ontwerpservice](https://www.bromic.nl/) werkt de keuze van verwarmers, de plaatsing en het verwarmd oppervlak uit op basis van je plattegrond of foto's.
 
-Voor het bredere beeld lees je de [trends in buitenhoreca](item:A01c). Ontdek daarna met je eigen ROI-berekening wat je lege stoelen waard kunnen zijn.
+Voor het bredere beeld lees je het [Outdoor Hospitality Trends 2027-rapport](asset:A01). Ontdek daarna met je eigen ROI-berekening wat je lege stoelen waard kunnen zijn.
 
 [^s1]: OpenTable, US consumer survey (Walr), April 2025.
 [^s2]: OpenTable, Canada diner data, March 2025 – February 2026.

@@ -139,4 +139,4 @@ Place your heaters over the seating rather than over the fire, and follow each h
 
 In a light wind, yes, because they warm people rather than the air.[^s1] See [do infrared heaters work in wind](item:RES-CO-KB1).
 
-To see how homeowners are planning their outdoor rooms, explore the 2026 trends data.
+To see how homeowners are planning their outdoor rooms, explore the Outdoor Living Trends 2027 report.

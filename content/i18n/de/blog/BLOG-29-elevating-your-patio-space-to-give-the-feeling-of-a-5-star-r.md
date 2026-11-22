@@ -131,7 +131,7 @@ Ja. Ein Heizstrahler, der zugleich den Tisch beleuchtet, wie der Eclipse, kann z
 
 Nein. Ein freistehender Heizstrahler steht auf seinem eigenen Fuß und braucht nur Strom und mindestens ca. 2,0 m Freiraum nach oben.[^s2]
 
-Entdecken Sie mehr über Heizstrahler für Zuhause und die Eclipse-Kollektion auf [bromic.de](https://www.bromic.de/). Welche Ideen das Leben im Freien in diesem Jahr prägen, lesen Sie im Trendbericht 2026.
+Entdecken Sie mehr über Heizstrahler für Zuhause und die Eclipse-Kollektion auf [bromic.de](https://www.bromic.de/). Welche Ideen das Leben im Freien 2027 prägen, lesen Sie im Bericht Outdoor Living Trends 2027.
 
 [^s1]: Bromic Heating, Lookbook 2026.
 [^s2]: Bromic Heating, Produktseite Eclipse Smart-Heat Freestanding, gelesen am 29. Okt. 2026.

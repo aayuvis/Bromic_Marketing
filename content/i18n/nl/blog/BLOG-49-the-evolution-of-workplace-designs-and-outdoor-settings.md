@@ -174,4 +174,4 @@ In veel Amerikaanse klimaten wel, met overkapping, stroom en stralingswarmte. Wa
 ### Hoe worden kantoorverwarmers bediend?
 Per zone en met tijdschema's, via Affinity Smart-Heat-regelaars, een wandschakelaar per zone en de Bromic Smart-Heat app. Wifi- en app-functies vereisen compatibele Affinity-bediening, die apart wordt verkocht.
 
-Ontdek alle cijfers over buitenleven in 2026 in het Trends-rapport.
+Ontdek het hele beeld van buitenleven in het Outdoor Living Trends 2027-rapport.

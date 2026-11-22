@@ -1,7 +1,7 @@
 ---
 id: A01-stats
 type: stats-page
-title: "Statistiken zum Wohnen im Freien 2026: So lebt Amerika draußen"
+title: "Statistiken zum Wohnen im Freien 2027: So lebt Amerika draußen"
 audience: [RES, ARC, BLD]
 stage: [AW]
 cell: RES-AW
@@ -9,8 +9,8 @@ asset: A01
 summary: "Die Zahlen hinter den Abenden, die Amerikaner draußen verbringen: wie viele Neubauten eine Terrasse haben und wie groß sie geworden sind, was Architekten beobachten, was Hausbesitzer investieren und was eine Terrasse zurückgibt, jeweils mit Primärquelle. Alle Werte sind US-Daten."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
-ai_prompt: "Was sind die wichtigsten Zahlen zum Wohnen im Freien für 2026?"
-meta_description: "Statistiken zum Wohnen im Freien 2026 (USA): wie viele Neubauten eine Terrasse haben, wie groß sie ist, was Architekten sehen und was sie beim Verkauf einbringt."
+ai_prompt: "Was sind die wichtigsten Zahlen zum Wohnen im Freien für 2027?"
+meta_description: "Statistiken zum Wohnen im Freien 2027 (USA): wie viele Neubauten eine Terrasse haben, wie groß sie ist, was Architekten sehen und was sie beim Verkauf einbringt."
 cta: {label: "Den Outdoor Living Trends 2027 Bericht herunterladen", asset: A01}
 hero: t-001-000
 images: [t-005-013]
@@ -82,7 +82,7 @@ sources:
     verified: true
 ---
 
-# Statistiken zum Wohnen im Freien 2026 (USA)
+# Statistiken zum Wohnen im Freien 2027: So lebt Amerika draußen (USA)
 
 Sechs von zehn neuen Einfamilienhäusern in den USA haben heute eine Terrasse, im Durchschnitt etwa 30 m² groß.[^s1][^s3] Architekten nennen das Wohnen im Freien weiterhin als beliebtestes Merkmal im Außenbereich, auch wenn die Nachfrage 2025 nachließ.[^s4] US-Hausbesitzer geben rund 525 Milliarden US-Dollar im Jahr für Verbesserungen und Reparaturen an ihren eigenen Häusern aus,[^s5] und eine neue Terrasse bringt beim Verkauf etwa 95 % ihrer Kosten wieder ein.[^s8]
 
@@ -194,4 +194,4 @@ Diese Zahlen stehen im Report Trends 2026 und werden auf dieser Seite zurückgeh
 - **39 % „Zunahme der Beliebtheit“ von Infrarot-Terrassenheizstrahlern (AIA)** – in keiner AIA-Veröffentlichung gefunden; das AIA meldet Nettowerte statt Zuwächsen. Zur Streichung empfohlen.
 - **522 Milliarden US-Dollar (Harvard JCHS)** – in keiner Harvard-Veröffentlichung gefunden; oben durch den aktuellen LIRA-Wert ersetzt.
 
-Die vollständigen Trends 2026 und was sie für Architekten, Bauunternehmer und Hausbesitzer bedeuten, finden Sie im Report.
+Die Trends für 2027 und was sie für Architekten, Bauunternehmer und Hausbesitzer bedeuten, finden Sie im Bericht Outdoor Living Trends 2027.

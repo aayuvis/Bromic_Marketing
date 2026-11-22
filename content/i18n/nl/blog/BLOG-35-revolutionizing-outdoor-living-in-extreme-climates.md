@@ -136,4 +136,4 @@ Tungsten Electric verwarmt de loungezone en Platinum Electric hangt boven de eet
 
 Dat hangt af van het oppervlak, de overkapping en hoe open de plek ligt. Platinum Electric 4500 W verwarmt ongeveer 13 m²,[^s4] en Tungsten Electric 6000 W ongeveer 15 m².[^s3]
 
-Wil je zien hoe huiseigenaren plannen voor buitenleven het hele jaar door, ontdek dan de trendcijfers van 2026.
+Wil je zien hoe huiseigenaren plannen voor buitenleven het hele jaar door, ontdek dan het Outdoor Living Trends 2027-rapport.

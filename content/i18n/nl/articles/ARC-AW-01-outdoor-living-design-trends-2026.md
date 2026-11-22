@@ -1,16 +1,16 @@
 ---
 id: ARC-AW-01
 type: article
-title: "Ontwerptrends voor buitenleven in 2026: buitenkamers voor elk seizoen"
+title: "Ontwerptrends voor buitenleven in 2027: buitenkamers voor elk seizoen"
 audience: [ARC]
 stage: [AW]
 cell: ARC-AW
 asset: A24
-summary: "Wat de onderzoekscijfers van 2026 architecten vertellen over de buitenkamers die opdrachtgevers willen, waarom warmte nog altijd als laatste wordt gepland, en hoe u haar vanaf de eerste schets in het programma van eisen opneemt."
+summary: "Wat de onderzoekscijfers van 2026 architecten vertellen over de buitenkamers die opdrachtgevers in 2027 willen, waarom warmte nog altijd als laatste wordt gepland, en hoe u haar vanaf de eerste schets in het programma van eisen opneemt."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
-ai_prompt: "Wat zijn de ontwerptrends voor buitenleven in 2026?"
-meta_description: "Ontwerptrends voor buitenleven 2026 uit Amerikaanse AIA- en NAHB-cijfers, en hoe architecten stralingswarmte in buitenkamers voor elk seizoen opnemen."
+ai_prompt: "Wat zijn de ontwerptrends voor buitenleven in 2027?"
+meta_description: "Ontwerptrends voor buitenleven 2027 uit de nieuwste Amerikaanse AIA- en NAHB-cijfers, en hoe architecten stralingswarmte in buitenkamers voor elk seizoen opnemen."
 cta: {label: "Download het Outdoor Living Trends 2027-rapport", asset: A01}
 hero: l-010-075
 images: [l-010-069, t-006-016]
@@ -145,7 +145,7 @@ De elektrische installatie volgt in Nederland NEN 1010; stem haar af met de geme
 
 ## FAQ
 
-### Wat zijn de belangrijkste ontwerptrends voor buitenleven in 2026?
+### Wat zijn de belangrijkste ontwerptrends voor buitenleven richting 2027?
 Opdrachtgevers vragen eerder om buitenkamers dan om terrassen: overdekte terrassen, buitenkeukens, pergola's met geïntegreerde verlichting, audio en warmte, en glazen puien die het huis naar het terras openen. Het AIA-onderzoek van 2026 zet buitenleven bovenaan de ruimtes met een speciale functie[^s2].
 
 ### Groeit de vraag naar buitenleven nog?
@@ -160,4 +160,4 @@ Stralingswarmte (infrarood). Omdat die mensen en oppervlakken verwarmt in plaats
 ### Kunnen buitenverwarmers worden gekoppeld aan domotica?
 Ja, via Affinity Smart-Heat-bediening, die onder meer met Control4, Crestron en Lutron werkt. De compatibiliteit verschilt en kan extra integratiehardware vragen; stem de details daarom af met uw integrator[^s8].
 
-Ontdek alle bevindingen van 2026 in het Trends-rapport.
+Ontdek wat er komt in het Outdoor Living Trends 2027-rapport.

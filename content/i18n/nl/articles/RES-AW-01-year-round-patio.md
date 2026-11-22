@@ -145,4 +145,4 @@ Het helpt vaak, omdat een gedeeltelijke overkapping een warmtewolk boven de ruim
 ### Wat plan ik eerst, het terras of de warmte?
 Plan ze samen. Bekabeling, gasleidingen en inbouwruimtes zijn het makkelijkst te plaatsen zolang de constructie nog open is.
 
-Ontdek hoe andere huiseigenaren hun avonden buiten verlengen in het rapport Outdoor Living Trends 2026 van Bromic.
+Ontdek hoe andere huiseigenaren hun avonden buiten verlengen in het rapport Outdoor Living Trends 2027 van Bromic.

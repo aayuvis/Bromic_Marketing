@@ -140,4 +140,4 @@ Plaats je verwarmers boven de zitplekken in plaats van boven het vuur, en volg d
 
 Bij een lichte wind wel, omdat ze mensen verwarmen in plaats van de lucht.[^s1] Lees [werken infraroodverwarmers in de wind](item:RES-CO-KB1).
 
-Wil je zien hoe huiseigenaren hun buitenkamers plannen, ontdek dan de trendcijfers van 2026.
+Wil je zien hoe huiseigenaren hun buitenkamers plannen, ontdek dan het Outdoor Living Trends 2027-rapport.

@@ -108,4 +108,4 @@ Eine Feuerstelle schafft Atmosphäre, wärmt aber nur die, die in ihrer Nähe si
 ### Wann sollte die Heizung ausgeschrieben werden?
 In der Entwurfsphase, zusammen mit Beleuchtung und Tragwerk, damit Stromkreis, Montage und Steuerung in den Plänen stehen.
 
-Entdecken Sie die Daten 2026 zu Außenräumen im Trendbericht.
+Wohin sich Außenräume entwickeln, lesen Sie im Bericht Outdoor Living Trends 2027.
