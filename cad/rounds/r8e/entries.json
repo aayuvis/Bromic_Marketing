@@ -1,18 +1,50 @@
 [
- {"id":"ts2-r8e-01","title":"Screened porch, vaulted ceiling, pitch adaptor over the sectional","kind":"Real photo + CAD heater","finish":"black","w":2560,"h":1707,
-  "file":"images/review/full/ts2-r8e-01.jpg","thumb":"images/review/thumb/ts2-r8e-01.webp",
-  "source":"Real photo cad/backgrounds/tungsten/dsc05715-courtney-saib.jpg (w-dsc05715-courtney-saib); heater is the Series II CAD. Old Series I and its drop rods removed. Select 6 kW black on the CAD pitch adaptor: plate flush on the ~5/12 (22°) slope, knuckle takes up the pitch, post vertical, heater level and parallel to the eave, tilted 20° toward the sectional, 0.7 m in from the eave wall, at the original heater's position over the seats. Camera from three vanishing points (f≈1140 px), scale from the old 1,410 mm heater. Below 4K (2,560 px, largest Bromic original).",
-  "status":"pending"},
- {"id":"ts2-r8e-02","title":"Screened porch by the fireplace, pitch adaptor (redo of ts2-real-01)","kind":"Real photo + CAD heater","finish":"black","w":2560,"h":1707,
-  "file":"images/review/full/ts2-r8e-02.jpg","thumb":"images/review/thumb/ts2-r8e-02.webp",
-  "source":"Real photo cad/backgrounds/tungsten/dsc05656-courtney-saib.jpg (w-dsc05656-courtney-saib); heater is the Series II CAD. Same plate as the rejected ts2-real-01 ('heater looks off'), rebuilt: the adaptor is now the CAD's two-pivot assembly (plate flush on the slope, knuckle bend, vertical post) instead of a straight post with a flat flange; satin black instead of graphite; heater level along the eave, tilted 20° toward the chair and sofa, moved 0.45 m in from the eave wall (18 in clearance). Camera from vanishing points (f≈1520 px), scale from the old heater. Below 4K (2,560 px).",
-  "status":"pending"},
- {"id":"ts2-r8e-03","title":"Coastal beach-house porch, plate for approval (no heater)","kind":"Generated coastal background plate, for approval before any heater goes in","finish":"n/a (for Tungsten Coastal white or black)","w":5056,"h":3392,
-  "file":"images/review/full/ts2-r8e-03.jpg","thumb":"images/review/thumb/ts2-r8e-03.webp",
-  "source":"PLATE ONLY, generated with an image model per the §12 Coastal exception, prompted from the real Bromic photo w-connecticut-privateresidence-tungstenelectri-3 (camera, light, materials); heaters removed in the prompt. Intended next step if approved: 2 Tungsten Coastal on short ceiling posts under the flat beadboard porch ceiling near the house wall, tilted toward the wicker seats. No heater has been added.",
-  "status":"pending"},
- {"id":"ts2-r8e-04","title":"Coastal deck under a deep soffit, plate for approval (no heater)","kind":"Generated coastal background plate, for approval before any heater goes in","finish":"n/a (for Tungsten Coastal black)","w":5056,"h":3392,
-  "file":"images/review/full/ts2-r8e-04.jpg","thumb":"images/review/thumb/ts2-r8e-04.webp",
-  "source":"PLATE ONLY, generated with an image model per the §12 Coastal exception, prompted from the real Bromic Juneau showhome photo (w-juneau-showhome-1, 6,784 px original) to keep its camera, light and materials, reset on a rocky sea inlet. Intended next step if approved: Tungsten Coastal black on the angled wall bracket on the house wall under the soffit, over the sofa. No heater has been added.",
-  "status":"pending"}
+ {
+  "id": "ts2-r8e-01",
+  "title": "Screened porch, vaulted ceiling, pitch adaptor over the sectional",
+  "kind": "Real photo + CAD heater",
+  "finish": "black",
+  "w": 2560,
+  "h": 1707,
+  "file": "images/review/full/ts2-r8e-01.jpg",
+  "thumb": "images/review/thumb/ts2-r8e-01.webp",
+  "source": "Real photo cad/backgrounds/tungsten/dsc05715-courtney-saib.jpg (w-dsc05715-courtney-saib); heater is the Series II CAD. Old Series I and its drop rods removed. Select 6 kW black on the shortest CAD pitch-adaptor build (plate flush on the ~5/12 (22\u00b0) slope, the 225 mm bracket square to the slope, knuckle at the heater elbow; the 80\u00d740 extension tube left out): plate-to-heater drop about 0.31 m, like the old rods. Heater level and parallel to the eave, tilted 20\u00b0 toward the sectional, 0.7 m in from the eave wall, over the seats. Camera from three vanishing points (f\u22481140 px), scale from the old 1,410 mm heater; contact occlusion at the plate; warm pick-up from the cove light. Below 4K (2,560 px, largest Bromic original).",
+  "status": "pending"
+ },
+ {
+  "id": "ts2-r8e-02",
+  "title": "Screened porch by the fireplace, pitch adaptor (redo of ts2-real-01)",
+  "kind": "Real photo + CAD heater",
+  "finish": "black",
+  "w": 2560,
+  "h": 1707,
+  "file": "images/review/full/ts2-r8e-02.jpg",
+  "thumb": "images/review/thumb/ts2-r8e-02.webp",
+  "source": "Real photo cad/backgrounds/tungsten/dsc05656-courtney-saib.jpg (w-dsc05656-courtney-saib); heater is the Series II CAD. Same plate as the rejected ts2-real-01 ('heater looks off'), rebuilt: shortest CAD pitch-adaptor build (plate flush on the slope, bracket square to it, knuckle at the elbow, no extension tube; drop about 0.31 m), satin black, heater level along the eave at the original position (moved 0.1 m in for the 18 in eave clearance, 0.52 m), tilted 20\u00b0 toward the chair and sofa; contact occlusion at the plate; warm pick-up from the amber cove light. Camera from vanishing points (f\u22481520 px), scale from the old heater. Below 4K (2,560 px).",
+  "status": "pending"
+ },
+ {
+  "id": "ts2-r8e-03",
+  "title": "Coastal beach-house porch, plate for approval (no heater)",
+  "kind": "Generated coastal background plate, for approval before any heater goes in",
+  "finish": "n/a (for Tungsten Coastal white or black)",
+  "w": 5056,
+  "h": 3392,
+  "file": "images/review/full/ts2-r8e-03.jpg",
+  "thumb": "images/review/thumb/ts2-r8e-03.webp",
+  "source": "PLATE ONLY, generated with an image model per the \u00a712 Coastal exception, prompted from the real Bromic photo w-connecticut-privateresidence-tungstenelectri-3 (camera, light, materials); heaters removed in the prompt. Intended next step if approved: 2 Tungsten Coastal on short ceiling posts under the flat beadboard porch ceiling near the house wall, tilted toward the wicker seats. No heater has been added.",
+  "status": "pending"
+ },
+ {
+  "id": "ts2-r8e-04",
+  "title": "Coastal deck under a deep soffit, plate for approval (no heater)",
+  "kind": "Generated coastal background plate, for approval before any heater goes in",
+  "finish": "n/a (for Tungsten Coastal black)",
+  "w": 5056,
+  "h": 3392,
+  "file": "images/review/full/ts2-r8e-04.jpg",
+  "thumb": "images/review/thumb/ts2-r8e-04.webp",
+  "source": "PLATE ONLY, generated with an image model per the \u00a712 Coastal exception, prompted from the real Bromic Juneau showhome photo (w-juneau-showhome-1, 6,784 px original) to keep its camera, light and materials, reset on a rocky sea inlet. Intended next step if approved: Tungsten Coastal black on the angled wall bracket on the house wall under the soffit, over the sofa. No heater has been added.",
+  "status": "pending"
+ }
 ]

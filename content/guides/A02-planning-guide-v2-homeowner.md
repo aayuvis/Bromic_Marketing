@@ -1,26 +1,26 @@
 ---
 id: A02-homeowner
 type: gated-guide
-title: "Planning Your Outdoor Heat: Homeowner Edition"
+title: "Plan Your Outdoor Heat: Homeowner Edition"
 slug: outdoor-heating-planning-guide-homeowner
 audience: [RES]
 stage: [CO, IN]
 cell: RES-IN
 asset: A02
-summary: "Nine steps that take your patio from a summer space to a year-round outdoor room, with the fuel, style, size, power, controls and code planned in before the ceiling closes."
+summary: "The 2027 outdoor heating planning guide for your home: six questions, from where people sit to whether the power is in before the ceiling closes, with eight real layouts, running costs and the controls for every heater."
 primary_keyword: outdoor heating planning guide
 secondary_keywords: [cost to run patio heater, how many patio heaters do I need, electric vs gas patio heater, infrared patio heater]
 ai_prompt: "How do I plan outdoor heating for my patio?"
-meta_description: "Your outdoor heating planning guide: nine steps to a patio you can enjoy year-round, with sizing, running costs, controls and notes."
+meta_description: "Your outdoor heating planning guide, 2027 edition: six questions, eight real layouts, running costs and the controls for every heater, planned in early."
 cta: {label: "Book a design consult", asset: A07}
 hero: l-010-071
-images: [l-007-035, l-019-163, l-013-102, t-009-025, l-010-067]
+images: [w-au, w-bromic-tungsten-electric-black-recessed, l-012-093, t2-low-clearance-recess, l-013-100, w-eclipse-electric-w-bromic-heating-app, w-bromic-tungsten-electric-residential, l-010-067]
 owner_review: Product team + 454 Creative
 status: draft
 gated: true
 related: [RES-IN-01, RES-CO-01, BLD-IN-01]
-updated: 2026-11-16
-version: "2.0 draft, revision 2 (replaces Planning Guide US v1.2, 10/2021)"
+updated: 2026-11-22
+version: "2027 edition, draft (replaces Planning Guide US v1.2, 10/2021)"
 sources:
   - id: s1
     publisher: Bromic Heating / Atomik Research
@@ -183,255 +183,339 @@ sources:
     url: https://www.eia.gov/energyexplained/units-and-calculators/
     supports: "Propane about 91,500 Btu per gallon"
     verified: false
+  - id: s24
+    publisher: Wikipedia
+    title: "Wien's displacement law"
+    year: 2026
+    url: https://en.wikipedia.org/wiki/Wien%27s_displacement_law
+    supports: "Peak wavelength = b / T, with b ≈ 2,898 µm·K (2,400 K → about 1.2 µm; 1,200 K → about 2.4 µm; 700 K → about 4.1 µm; the sun at about 5,800 K → about 0.5 µm)"
+    verified: true
+  - id: s25
+    publisher: International Commission on Illumination (CIE)
+    title: "International Lighting Vocabulary (CIE S 017), infrared radiation bands"
+    year: 2020
+    url: https://cie.co.at/e-ilv
+    supports: "Infrared bands IR-A 780 nm–1.4 µm, IR-B 1.4–3 µm, IR-C 3 µm–1 mm"
+    verified: false
+  - id: s26
+    publisher: Bromic Heating
+    title: "Warranty, bromic.com; Tungsten Smart-Heat Electric Series II warranty confirmed by the owner (18 and 22 Nov 2026)"
+    year: 2026
+    url: https://www.bromic.com/warranty/
+    supports: "Tungsten Smart-Heat Electric Series II (Select, Coastal and Classic): 3-year warranty on the heater, 7 years on the elements"
+    verified: true
 ---
 
-# Planning Your Outdoor Heat: Homeowner Edition
+# Plan Your Outdoor Heat: Homeowner Edition
 
+The best evenings outdoors are the ones that run long, when dinner turns into dessert and nobody reaches for a jacket. Six simple questions, answered in order, take your patio from a summer space to an outdoor room you use all year, with the power, the heaters and the controls put in once, exactly where you want them.
 
-The best evenings outdoors are the ones that run long, when dinner turns into dessert and nobody reaches for a jacket. Plan the warmth in the same order you plan the patio, and settle the power, controls and code before the ceiling closes, so the wiring or gas line goes in once, exactly where you want it.
+![An ocean-view outdoor room with heaters set into the ceiling](img:l-010-071)
 
-Only 23% of homeowners prioritize outdoor heating at the planning stage[^s1]. Many of the rest come back to it later, when it can mean reopened ceilings, surface conduit and heaters placed wherever the wiring happened to run.
+## Plan The Warmth Like You Plan The Room
 
-![Ocean-view outdoor living room with recessed heaters](img:l-010-071)
+Only 23% of homeowners prioritize outdoor heating at the planning stage[^s1]. Many of the rest come back to it later, after the ceiling is closed, when it can mean reopened ceilings, surface conduit and heaters placed wherever the wiring happened to run. Plan the warmth with the room and it arrives as part of the design.
 
-## Nine Steps To A Warmer Outdoor Room
-
-Nine simple decisions, taken in order, give you an outdoor room that feels as comfortable in October as it does in July.
-
-| Step | Decision | You'll need |
+| | Question | What it settles |
 |---|---|---|
-| 1 | Is it outdoors? | Wall and roof layout |
-| 2 | Measure | Tape measure, ceiling height |
-| 3 | Choose the fuel | What is at the house; your utility bill |
-| 4 | Choose style and mounting | A look you like; where heat can mount |
-| 5 | Size it | Floor area; the free calculator |
-| 6 | Plan the power or gas | An electrician or gas fitter |
-| 7 | Choose the controls | How you want to switch heat on |
-| 8 | Clearances and code | Your local building department |
-| 9 | Book a design consult | Photos or plans |
+| 01 | Where do people sit? | Measure the seats, not the deck |
+| 02 | How open is it? | A roof keeps warmth in, and cover is the biggest lever |
+| 03 | What can the heat hang from? | Ceiling, beam, wall, or nothing at all |
+| 04 | How cold are your evenings? | Colder nights need a little more heat |
+| 05 | Which heater, how many, which controls? | The family, the count and the controls, together |
+| 06 | Is the power in before the ceiling closes? | Wire it once, hidden, exactly where each heater hangs |
 
-Each step closes with Your notes, a short card to fill in, and together they become the brief you hand to your designer.
+At the end, your answers become a one-page brief to bring to a free design consult.
 
-## Step 1. Begin With The Space You Love
+## Question 01. Where Do People Sit?
 
-Patios, porches, pergolas, loggias and covered terraces are where radiant warmth feels most at home, and most of them qualify as outdoor spaces. A space counts as outdoor when at least 30% of its perimeter is permanently open[^s3]. If you are thinking of closing it in further with glass or screens, talk to a designer first, because that changes the design.
+Warmth is for people, not floors. Measure where everyone actually gathers, around the table, the sofa or the fire, and leave out the rest of the deck, the paths and the planters.
 
-A roof works in your favor. Warm air gathers under a cover and forms a "heat cloud" that adds a gentle boost to the radiant heat[^s3].
+**Rule of thumb:** allow about 20 ft² a seat, chairs and breathing room included.
 
-[[DIAGRAM: Plan-and-section sketches of qualifying spaces: open courtyard with one ground-level opening; covered area with two open sides; three walls with 30% or more of the perimeter open; the heat cloud as a soft shaded zone under the cover. Rule per the 2021 guide[^s3].]]
+| Seating | Area to warm |
+|---|---|
+| Table for four | About 80 ft² |
+| Lounge for six | About 120 ft² |
+| Table for eight | About 160 ft² |
+| Table for twelve | About 240 ft² |
 
-- [ ] At least 30% of the perimeter permanently open[^s3]
-- [ ] Open, partly covered or covered: ______
-- [ ] Any plans to add glass, screens or blinds: ______
+![Friends at a dining table under an Eclipse pendant](img:w-au)
 
-## Step 2. Measure Where The Evening Happens
+## Question 02. How Open Is It?
 
-Think about where everyone actually gathers, around the dining table, the sofa or the fire, and measure that space, with a note of how and when you like to use it.
+Radiant heat is made for the outdoors. A space counts as outdoor when at least 30% of its perimeter is permanently open[^s3], and a roof works in your favor.
 
-- [ ] Length × width of the area you want warm = ______ ft² (measure over the seating, not the whole deck)
-- [ ] Ceiling or beam height ______ ft; ceiling material ______
-- [ ] Windy side ______; near water? Y / N
-- [ ] Months and times of use ______
+| Your space | Outdoor? | What it means for the heat |
+|---|---|---|
+| Open to the sky: a courtyard or terrace with no roof | Yes | No roof to hold warmth, so plan a little more heat |
+| Covered, two sides open: a porch or loggia under a roof | Yes | The roof holds warmth over the seats |
+| Three walls, 30% or more of the edge open | Yes | Still outdoor, with the strongest heat cloud |
+| Fully enclosed | No | Not an outdoor space: talk to a designer |
 
-## Step 3. Choose The Warmth That Suits Your Home
+### A Roof Keeps Warmth In
 
-### Why Radiant Warmth Feels Like Sunshine
+Under a cover, warm air gathers into a gentle "heat cloud" that adds to the radiant warmth[^s3], so a covered space needs fewer heaters than an open one.
 
-Step into a patch of winter sun and you feel warm at once, even though the air is cool. Radiant (infrared) heat works the same way, warming people, furniture and floors directly and keeping you comfortable even in a light breeze. Outdoors, warm air rises and drifts away, so forced air and thermostats cannot hold an open patio at a set temperature[^s3].
+### Block The Wind, Keep It Open
 
-> Heat You Can Feel, Not See.
+A screen, wall or planting on the windward side helps your heaters do their work. If you are thinking of glass or screens all round, talk to a designer first, because it changes the design.
 
-Bromic's electric heaters are medium wave, chosen for warmth that reaches the far chair as well as the near one and lifts the temperature further, with a soft light and no glare in anyone's eyes [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]].
+![A covered porch, open at the front, with Tungsten Electric heaters in the ceiling](img:w-connecticut-privateresidence-tungstenelectri-2)
 
-| | Heat coverage | Temperature rise | Distance heat travels | Visible glow | Warm-up |
-|---|---|---|---|---|---|
-| Short wave | Narrower | Lower | Shorter | Intense glow and glare | Instant[^s3] |
-| **Medium wave: Bromic Platinum, Eclipse and Tungsten Electric** | **Widest** | **Greatest** | **Furthest** | **Soft, no intrusive glow** | **About 30 seconds[^s3]** |
-| Long wave | Narrower | Lower | Shortest; most affected by wind[^s3] | – | About 5 minutes[^s3] |
+![A dining table under a pergola with heaters on the beams](img:l-006-028)
 
-Warm-up and wind: Bromic Planning Guide v1.2[^s3]. Coverage, temperature rise, distance and glow: Bromic test data, to follow. [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]] [[VERIFY: short wave visible glow and glare — Product team]]
+## Question 03. What Can The Heat Hang From?
+
+Look up and behind the seats. What is there decides the mount, and the mount decides the heater.
+
+| What is there | Mount | Minimum height | Heaters |
+|---|---|---|---|
+| A ceiling | Recessed or on the ceiling | Ceiling 96 in or more[^s4][^s5] | Tungsten Electric, Platinum Electric |
+| A wall or beam | On the wall or beam | Wall 72 in or more[^s4][^s5] | Tungsten Electric, Platinum Electric |
+| A high ceiling over a table | Pendant | 96 in or more[^s7] | Eclipse Electric |
+| Nothing overhead | Freestanding | 79 in clearance for the Eclipse Freestanding[^s8] | Eclipse Freestanding, Tungsten Freestanding Gas |
+
+If you love the clean, flush look of a recessed heater, decide on it before the ceiling is built, because it needs a recess kit.
+
+- **Aim at shoulders and laps.** Every Bromic heater is directional, so face it at the seats rather than the table top or the floor.
+- **Higher spreads the warmth, gently.** Mounted higher, the warmth spreads wider but feels softer; under a tall ceiling, bring heaters down on poles.
+- **Keep the line of sight clear.** Infrared travels in straight lines, so an umbrella, beam or planter casts a cold shadow.
+
+![Tungsten Electric recessed in a ceiling](img:w-bromic-tungsten-electric-black-recessed)
+
+![A white Tungsten Electric on the wall](img:w-bromictungstenelectic-white)
+
+![An Eclipse pendant over a table](img:w-eclipse-pendant-uk-residential-2)
+
+![An Eclipse Freestanding beside a lounge](img:w-eclipse-portable-residential)
+
+## Question 04. How Cold Are Your Evenings?
+
+Cover and cold are the two big levers. The same 12-seat dining area needs fewer heaters under a roof, and a few more on cold nights.
+
+- **Mild:** evenings usually above about 50°F
+- **Cool:** about 40–50°F
+- **Cold:** often below about 40°F
+
+**Heaters for the same 12 seats (240 ft²)**
+
+| | Open | Partly covered | Covered |
+|---|---|---|---|
+| Mild | 3 | 2 | 2 |
+| Cool | 3 | 3 | 2 |
+| Cold | 4 | 3 | 3 |
+
+Tungsten Smart-Heat Electric 4000 W over 240 ft², from the Bromic sizing calculator. Coverage is approximate and varies with mounting height, wind and installation[^s2]. Not sure which applies? Plan for partly covered and cool, the safe middle.
+
+![Friends on a terrace at sunset under an Eclipse Freestanding heater](img:w-bromiceclipseheater)
+
+## Warmth Like Sunshine
+
+Step into winter sun and you feel warm at once, though the air is cool. Infrared heat works the same way: it warms you, the furniture and the floor, and leaves alone the air that drifts away. Outdoors, warm air rises and blows off, so forced air and thermostats cannot hold an open patio at a set temperature[^s3].
+
+| | Short wave | Medium wave | Long wave |
+|---|---|---|---|
+| Infrared band | IR-A, 0.78–1.4 µm[^s25] | IR-B, 1.4–3 µm[^s25] | IR-C, 3 µm and beyond[^s25] |
+| Typical element | About 2,400 K, peak about 1.2 µm[^s24] | About 1,200 K, peak about 2.4 µm[^s24] | About 700 K, peak about 4.1 µm[^s24] |
+| What you see | The hottest elements: a bright glow and glare | A soft glow with little glare | No visible glow |
+| Warm-up | Instant[^s3] | About 30 seconds[^s3] | About 5 minutes, and more easily dispersed by moving air[^s3] |
+| Bromic heaters | – | **Platinum, Eclipse and Tungsten Electric** | – |
+
+All infrared travels in straight lines at the speed of light. How far warmth reaches depends on the heater's output, reflector and mounting height, and the band does not change it. Peak wavelengths follow Wien's law, λ ≈ 2,898 µm·K ÷ T[^s24]; the sun, at about 5,800 K, peaks near 0.5 µm. The element temperatures are typical values, for illustration.
 
 A fire pit makes a lovely focal point, though it will rarely keep a whole seating area warm on its own.
 
-### Electric Or Gas For Your Home
+![Warmth like sunshine after the sun has gone](img:l-012-093)
 
-Electric suits most covered patios and gives you the finest control; gas suits larger, more open spaces.
+![Medium wave: a soft glow and no glare](img:l-007-034)
 
-| | Electric | Gas (natural gas or propane) |
+## Question 05. Which Heater, How Many, Which Controls?
+
+### Which Heater For Which Space
+
+Start from what the space needs; the look follows. Every Bromic heater is paired with Affinity Smart-Heat Controls.
+
+| Where it goes | What it gives you | Heaters |
 |---|---|---|
-| Suits | Covered patios, pergolas, loggias; ceilings, walls, poles | Larger, more open areas |
-| Install | Hard-wired by a licensed electrician | Built-in: licensed gas fitter, plus a 110 V supply[^s10][^s11]. Freestanding: cylinder or quick-connect line[^s12] |
-| Control | On/off or dimming, zones, schedules, app | On/off, wall switch, schedules |
-| Coverage per heater | 65–160 ft² | 160–215 ft² |
+| Flush in the ceiling | Disappears into the architecture | Tungsten Electric, including Select and Coastal in the new low-clearance recess kit[^s2] |
+| On a wall or beam | Slim, architectural, angled onto the seats | Tungsten Electric, Platinum Electric |
+| Over the table | Heat and a dimmable rim light in one | Eclipse Electric[^s7] |
+| Moves where you need it | Nothing overhead, up to four seats each | Eclipse Freestanding, Tungsten Freestanding Gas |
+| Big, open spaces on gas | Built-in gas for larger, more open areas | Platinum Gas, Tungsten Gas |
+| By the sea | 316 marine-grade stainless for coastal homes | Platinum Electric Marine[^s6], Tungsten Coastal[^s2] |
 
-### What An Evening Of Warmth Costs
+Tungsten Smart-Heat Electric Series II has launched: Select and Coastal have been available since October 2026, and Classic follows in January 2027. Series II carries a 3-year warranty on the heater and 7 years on the elements[^s26].
 
-A cozy evening outdoors costs less than many people expect. At the July 2026 US residential average, a Tungsten Electric 4000 W heater costs about $0.73 an hour at full output[^s18].
+![Tungsten Select in the new low-clearance recess kit](img:t2-low-clearance-recess)
 
-| Heater at full output | Energy per hour | Cost per hour |
-|---|---|---|
-| Tungsten Electric 2000 / 3000 W | 2.0 / 3.0 kWh | $0.37 / $0.55 |
-| Tungsten Electric 4000 / 6000 W | 4.0 / 6.0 kWh | $0.73 / $1.10 |
-| Platinum Electric 2300 / 3400 / 4500 W | 2.3 / 3.4 / 4.5 kWh | $0.42 / $0.62 / $0.82 |
-| Eclipse Electric 2900 W | 2.9 kWh | $0.53 |
-| Platinum Gas 23,600 Btu, natural gas / propane | 0.24 therm / 0.26 gal | $0.60 / $0.69 |
-| Tungsten Freestanding Gas 38,000 Btu, natural gas / propane | 0.38 therm / 0.42 gal | $0.97 / $1.11 |
+![Eclipse Electric on its twin pole](img:w-eclipse-electric-twinpole)
 
-Dimming, or running an Eclipse at 33% or 66%[^s7], uses less again. These figures replace those in the 2021 guide, which used 2021 prices.
+![Platinum Gas, built in](img:w-platinum-gas-500)
 
-To work it out with your own bill: electric, kW × $ per kWh; natural gas, Btu per hour ÷ 100,000 × $ per therm; propane, Btu per hour ÷ 91,500[^s23] × $ per gallon. The rates above are US residential averages: electricity 18.3¢/kWh (EIA, July 2026)[^s18]; natural gas $2.55 per therm ($26.45 per thousand cubic feet ÷ 10.37 therms, EIA, July 2026)[^s19]; propane $2.674 per gallon (EIA, week of 30 March 2026)[^s20]. [[VERIFY: 2026 residential rates — Finance]]
+### Warmth For Every Chair
 
-- [ ] Electric / natural gas / propane: ______
-- [ ] Your rate from your bill: ______ per kWh, therm or gallon
+- **About one heater for every five or six seats:** wall, ceiling and pendant heaters, under cover, on cool evenings.
+- **Up to four seats a freestanding heater**, because guests block some of the warmth.
+- **Zones meet and slightly overlap**, so there are no cold seams between chairs, and long tables are warmed from both sides.
 
-![Tungsten freestanding gas heater in a stone courtyard at dusk](img:l-019-163)
-
-## Step 4. Find The Look That Belongs To Your Home
-
-The right heater looks as though it was always part of the house, whether it sits flush in the ceiling or hangs as a pendant over the table.
-
-| Family | Look | Mounting | Finishes |
-|---|---|---|---|
-| Tungsten Smart-Heat Electric | Slim, architectural | Recessed, ceiling, wall | 2000/3000 W Black; 4000/6000 W Black or White[^s4] |
-| Platinum Smart-Heat Electric | Linear heater, Classic finish range | Wall, pole or recessed; 8 in pole included[^s5] | Black or White |
-| Platinum Smart-Heat Electric Marine | 316 marine-grade stainless for coastal homes | Wall, pole or recessed | Stainless[^s6] |
-| Eclipse Smart-Heat Electric | Round pendant: heat and dimmable rim light in one | 24 in twin pole standard; 8, 24 and 48 in straight, curved and wall-mount poles[^s7] | Black |
-| Eclipse Smart-Heat Freestanding | The Eclipse on a weighted base with wheels and a curved arm | Freestanding | Black[^s2] |
-| Cobalt Smart-Heat Electric | Slim linear heater | Wall or ceiling | Silver[^s9] |
-| Platinum Smart-Heat Gas | Built-in gas, two sizes | Wall or ceiling; brackets included | Black or Stainless[^s10] |
-| Tungsten Smart-Heat Gas | Built-in gas, two sizes; pivot arm ±25° | Wall or ceiling | Matte black[^s11] |
-| Tungsten Smart-Heat Freestanding Gas | Tilting head, wheels, anti-tilt design | Freestanding | Black[^s2] |
-| Tungsten Smart-Heat Electric, Coastal collection | 316 marine-grade stainless; Signature Diamond Pattern grille | Recessed (low clearance), ceiling, wall, single-post | Black or White[^s2] |
-| Tungsten Smart-Heat Electric, Select collection | Expanded fascia options | Recessed (low clearance), ceiling, wall, single-post | Black, White or Graphite[^s2] |
-
-If you love the clean, flush look of a recessed heater, decide on it before the ceiling is built, since it needs a recess kit.
-
-- [ ] Family and finish: ______
-- [ ] Mount: recessed / ceiling / wall / pole / freestanding
-- [ ] Recess kit or longer pole needed? Y / N
-
-![Ceiling-mounted black heater over a candlelit lounge](img:l-007-035)
-
-## Step 5. Warmth For Every Chair
-
-Every guest, in every chair, should stay comfortable for the whole evening. The free [How many heaters? calculator](asset:A03) gives you the number in a minute, and Bromic's design team can confirm it.
-
-| Heater | Coverage per heater (approx.) |
+| Heater | Approximate coverage per heater |
 |---|---|
 | Tungsten Electric 2000 / 3000 / 4000 / 6000 W | 65 / 100 / 130 / 160 ft²[^s4] |
+| Tungsten Electric Select and Coastal | 64–144 ft² by model[^s2] |
 | Platinum Electric and Marine 2300 / 3400 / 4500 W | 65 / 108 / 143 ft²[^s5][^s6] |
 | Eclipse Electric and Eclipse Freestanding, 2900 W | 121 ft²[^s2] |
-| Cobalt Electric 4000 / 6000 W | 130 / 160 ft²[^s9] |
 | Platinum Gas 23,600 / 39,800 Btu | 160 / 215 ft²[^s10] |
 | Tungsten Gas built-in, smaller / larger model | 160 / 215 ft²[^s11] |
 | Tungsten Freestanding Gas, 38,000 Btu | 215 ft²[^s2] |
-| Tungsten Electric Coastal and Select | 64–144 ft² by model[^s2] |
 
 Coverage is approximate and varies with mounting height, wind and installation[^s2]. Product-page values read on 29 October 2026. [[VERIFY: coverage and output per model against the 2026 cut sheets; Eclipse 2900 W (spec table) vs 3000 W (FAQ); Tungsten Freestanding Gas 38,000 Btu (Lookbook) vs 38,500 (site) — Product team]]
 
-**Freestanding heaters** (Tungsten Freestanding Gas, Eclipse Freestanding) serve no more than four seats each, because the guests themselves block some of the radiant heat.
+Get your number in a minute with the free [How many heaters? calculator](asset:A03), and our design team confirms it.
 
-### A Worked Example: A 20 × 12 ft Covered Patio
+**The sum behind it.** Heaters = area ÷ (coverage per heater × cover factor × climate factor), rounded up, with about 20 ft² a seat. Cover factor: open 0.85, partly covered 1.0, covered 1.1. Climate factor: mild 1.0, cool 0.85, cold 0.7. A freestanding heater never serves more than four seats, so take the larger of that sum and seats ÷ 4. The factors are planning assumptions, confirmed by the design team for each project. [[VERIFY: cover and climate factors — Product team]]
 
-1. **Area:** 20 × 12 = 240 ft². Covered, with one long side and one end open: well over 30% open[^s3].
-2. **Factors:** covered 1.1 × cool evenings 0.85 = 0.935.
-3. **Tungsten Electric 4000 W, recessed:** 240 ÷ (130 × 0.935) = 240 ÷ 121.6 = 2.0, so **two heaters**.
-4. **Or Eclipse pendants over the table:** 240 ÷ (121 × 0.935) = 240 ÷ 113.1 = 2.1, so **three Eclipse**.
-5. **Controls:** two Tungsten 4000 W heaters need two controller channels (Step 7): an Affinity Smart-Heat 2-channel Dimmer or On/Off controller, a wall switch and the app. Three Eclipse need an Affinity Eclipse controller channel each: a 5-channel controller, or three 1-channel.
-6. **Running cost:** 2 × 4 kW × 3 hours × $0.183 = about $4.39 a night at the July 2026 residential average[^s18]. Use your own rate.
+![Eclipse pendants over a dining table at dusk](img:l-013-100)
 
-[[DIAGRAM: Plan of the 20 × 12 ft patio: two recessed Tungsten heaters along the long axis, or three Eclipse pendants over the table, with heat-bloom circles and the open sides marked.]]
+### Electric Or Gas
 
-**The sum behind it.** Heaters needed = area ÷ (coverage per heater × cover factor × climate factor), rounded up. A colder or more open space needs more warmth for the same area[^s3]. Cover factor: open (no roof) 0.85, partly covered (pergola, umbrella, part roof) 1.0, covered (solid roof) 1.1. Climate factor, for the evenings you heat: mild (above about 50°F) 1.0, cool (about 40–50°F) 0.85, cold (often below about 40°F) 0.7. [[VERIFY: cover and climate factors — Product team]] If you are unsure, use partly covered and cool, which gives 1.0 × 0.85 = 0.85. If you know the number of seats instead, allow 20 ft² a seat; for freestanding heaters, take the larger of area ÷ (coverage × factors) and seats ÷ 4. The calculator uses the same factors.
+| | Electric | Gas |
+|---|---|---|
+| Suits | Covered patios, pergolas, loggias | Larger, more open areas |
+| Mounts | Ceilings, walls, poles | Built-in on a wall or ceiling, or freestanding |
+| Control | On/off or dimming, zones, schedules, app | On/off, wall switch, schedules |
+| Install | Hard-wired by a licensed electrician | A licensed gas fitter, plus a 110 V supply for built-in gas[^s10][^s11] |
+| Coverage per heater | 65–160 ft² | 160–215 ft² |
 
-- [ ] Area ÷ (coverage × cover × climate) = ______, rounded up = ______ heaters (freestanding: at least seats ÷ 4)
-- [ ] Calculator run; result saved
+![Electric, recessed in a porch ceiling](img:w-connecticut-privateresidence-tungstenelectri)
 
-## Step 6. Power In Place Before The Ceiling Closes
+![Gas, on the walls of a pavilion](img:w-apex-building-plat-500-residential)
 
-Plan the power while the ceiling is open and the wiring goes in once, hidden and exactly where the heaters will hang. Electric heaters are hard-wired, and your electrician sizes each circuit from the heater's current draw.
+### What An Evening Costs
 
-Built-in gas heaters need a gas line from a licensed gas fitter and a 110 V, 2 A electrical supply[^s10][^s11]. The Tungsten Freestanding Gas runs on a 20 lb propane cylinder or a 10 ft natural-gas quick-connect line[^s12].
+A Tungsten Electric 4000 W costs about 73¢ an hour at full output, and less when you dim it[^s18].
 
-**For your electrician: current draw at 208 V / 240 V**
-- Platinum Electric 2300 / 3400 / 4500 W: 11.1 / 16.3 / 21.6 A at 208 V; 9.6 / 14.2 / 18.8 A at 240 V[^s5]
-- Eclipse Electric 2900 W: 13.9 A at 208 V; 12.1 A at 240 V[^s7]
-- Eclipse Freestanding 2900 W: 12.1 A at 240 V[^s8]
-- Cobalt Electric 4000 / 6000 W: 18.75 / 28.4 A at 208 V; 16.6 / 25 A at 240 V[^s9]
-- Tungsten Electric 2000 / 3000 / 4000 / 6000 W: 9.6 / 14.4 / 19.2 / 28.8 A at 208 V; 8.3 / 12.5 / 16.7 / 25.0 A at 240 V
+| Heater at full output | Cost per hour |
+|---|---|
+| Tungsten Electric 2000 W | 37¢ |
+| Eclipse Electric 2900 W | 53¢ |
+| Platinum Gas 23,600 Btu, natural gas | 60¢ |
+| Tungsten Electric 4000 W | 73¢ |
+| Platinum Electric 4500 W | 82¢ |
+| Tungsten Electric 6000 W | $1.10 |
 
-Tungsten Electric amps are calculated as watts ÷ volts; the product page does not list them. [[VERIFY: Tungsten Electric amps per model at 208, 240 and 277 V — Product team]]
+Per hour at full output, at US average residential prices: electricity 18.3¢/kWh (EIA, July 2026)[^s18]; natural gas $2.55 a therm ($26.45 per thousand cubic feet ÷ 10.37 therms, EIA, July 2026)[^s19]. Your rate will differ. To work it out from your own bill: electric, kW × $ per kWh; natural gas, Btu per hour ÷ 100,000 × $ per therm; propane, Btu per hour ÷ 91,500[^s23] × $ per gallon (the EIA's US average was $2.674 a gallon in the week of 30 March 2026[^s20]). Dimming, or running an Eclipse at 33% or 66%[^s7], uses less again. [[VERIFY: 2026 residential rates — Finance]]
 
-- [ ] Panel capacity checked by a licensed electrician
-- [ ] Circuit per heater or group; junction-box positions marked
-- [ ] Gas line and shut-off located (gas)
-- [ ] Rough-in done before the ceiling closes
+### Effortless Warmth At A Touch
 
-## Step 7. Effortless Warmth At A Touch (Controls Required)
+Every heater comes with its controls. Soften the warmth on a mild night, or have it waiting when you step outside. A complete system runs from the heater to an Affinity controller, a wall switch and the Bromic Smart-Heat app.
 
-Every Bromic heater is paired with Affinity Smart-Heat® Controls, so the warmth is always exactly where, and when, you want it. Soften it on a mild night, or have it waiting when you step outside. A complete system brings these parts together.
+| Part | What it does |
+|---|---|
+| Heater | Tungsten, Platinum, Eclipse or gas |
+| Affinity Smart-Heat controller | On/Off, Dimmer or Eclipse |
+| Wall switch | On and off at the door, rated 20 A, 120–277 V[^s16] |
+| Bromic Smart-Heat app | Zones, schedules and timers, through a compatible Affinity controller |
 
-- **Affinity Smart-Heat On/Off controller** switches electric or gas heaters: 1, 2 or 5 channels; 6 kW per channel at 208–277 V; up to 10 gas heaters per channel[^s13].
-- **Affinity Smart-Heat Dimmer controller** sets the heat level in 1% steps for Tungsten and Platinum Electric: 1, 2 or 5 channels; 6 kW per channel at 208–277 V[^s14].
-- **Affinity Smart-Heat Eclipse controller** runs the heat steps and rim-light dimming for Eclipse: 1 or 5 channels; one Eclipse per channel[^s15].
-- **Manual wall switch** for on and off at the door, rated 20 A, 120–277 V[^s16].
-- **Bromic Smart-Heat app** for zones, schedules and timers, through a compatible Affinity controller.
+- **On/Off controller:** switches electric or gas heaters, with 1, 2 or 5 channels[^s13].
+- **Dimmer controller:** sets the warmth in 1% steps for Tungsten and Platinum Electric[^s14].
+- **Eclipse controller:** heat steps and rim-light dimming, one Eclipse a channel[^s15]. The Eclipse Freestanding comes with its own Eclipse Dimmer Controller and remote[^s8].
 
-Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately. The app also works with Amazon Alexa, Google Assistant, Control4, Crestron and Lutron; compatibility varies and may need extra hardware or setup[^s2].
+Wi-Fi and app features need compatible Affinity Smart-Heat Controls, sold separately. Each channel carries up to 6 kW at 208–277 V[^s13][^s14]. Built-in gas switches on and off only[^s10]. The app also works with Amazon Alexa, Google Assistant, Control4, Crestron and Lutron; compatibility varies and may need extra hardware or setup[^s2]. [[VERIFY: which controls the Tungsten Freestanding Gas uses — Product team]] [[VERIFY: controller capacities and compatibility — Product team]]
 
-The Eclipse Freestanding comes with an Eclipse Dimmer Controller and remote[^s8]. Built-in gas switches on and off only and does not dim[^s10]. [[VERIFY: which controls the Tungsten Freestanding Gas uses — Product team]]
+![The app: warmth from your phone](img:w-eclipse-electric-w-bromic-heating-app)
 
-**Heaters per 6 kW channel:** Tungsten 2000 W: 3 · 3000 W: 2 · 4000 or 6000 W: 1 · Platinum 2300 W: 2 · 3400 or 4500 W: 1 · Cobalt: 1 · Eclipse: 1 (on an Eclipse controller). Arithmetic on the 6 kW rating; the circuit can set a lower limit. [[VERIFY: controller capacities and compatibility — Product team]]
+![Zones and schedules from a tablet](img:t-009-025)
 
-- [ ] Controller type and channels: ______
-- [ ] Wall-switch location: ______
-- [ ] Wi-Fi reaches the controller? Y / N
-- [ ] Smart-home system to connect: ______
+## Outdoor Layouts For Eight Real Spaces
 
-![Hand holding a tablet controlling heat at an outdoor table](img:t-009-025)
+Seats, cover, mount, heater and controls for eight spaces, each like a real Bromic installation. Counts come from the Bromic sizing calculator for cool evenings (about 40–50°F), and coverage varies with mounting height, wind and installation. Wi-Fi and app features need compatible Affinity Smart-Heat Controls, sold separately.
 
-## Step 8. Peace Of Mind, Built To Code
+### Patios And Pergolas
 
-Heat mounted at the right height and installed to code lets everyone relax, and a warranty stands behind it. In the US, electric heaters are installed to ANSI/NFPA 70[^s21] and gas heaters to ANSI Z223.1/NFPA 54[^s22]. Each model's installation manual sets its clearances to the ceiling and to anything combustible, and a heat deflector reduces the space a gas heater needs above it[^s3].
+| Layout | Seats | Cover | Mount | Heaters | Controls |
+|---|---|---|---|---|---|
+| Covered patio: dining and lounge | 14 | Covered (solid roof) | Recessed in the ceiling | 3 × Tungsten Smart-Heat Electric 4000 W | Affinity Smart-Heat Dimmer, 5-channel (one channel a heater), a wall switch and the app |
+| Pergola over the dining table | 8 | Partly covered (pergola) | Pendant from the beams | 2 × Eclipse Smart-Heat Electric | Affinity Smart-Heat Eclipse controller (one channel each), a wall switch and the app |
 
-**Minimum mounting heights**
-- Tungsten, Platinum and Platinum Marine Electric: wall 72 in; ceiling 96 in[^s4][^s5][^s6]
-- Cobalt Electric: wall 6 ft; ceiling 8 ft[^s9]
-- Eclipse Electric: 96 in[^s7]
-- Eclipse Freestanding: 79 in clearance[^s8]
-- Platinum Gas and Tungsten Gas built-in: 96 in[^s10][^s11]
+**Covered patio.** Two heaters along the table warm both sides; one more sits over the lounge. The zones meet and overlap, with no cold seams.
+**Pergola.** Two pendants along the table, so every chair sits inside a warm zone, back and front.
+
+![Tungsten Electric in a covered terrace ceiling](img:w-bromic-tungsten-electric-residential)
+
+### Porches And Balconies
+
+| Layout | Seats | Cover | Mount | Heaters | Controls |
+|---|---|---|---|---|---|
+| Covered porch with a fireplace | 10 | Covered, two sides open | Recessed in the ceiling | 2 × Tungsten Smart-Heat Electric 4000 W | Affinity Smart-Heat Dimmer, 2-channel, a wall switch and the app |
+| Balcony or rooftop terrace | 4 | Partly covered (soffit above) | On the wall | 1 × Tungsten Smart-Heat Electric 3000 W | Affinity Smart-Heat Dimmer, 1-channel, a wall switch and the app |
+
+**Porch.** The fireplace is the focal point; the heaters keep the whole porch warm, from the sofa to the table.
+**Balcony.** Mounted on the wall at 72 in or more[^s4], angled down over the table, so the floor stays free.
+
+![Tungsten Electric over a porch with a fireplace](img:w-dsc05737-courtney-saib)
+
+![Tungsten Electric on the wall above a compact deck](img:w-dsc07397-1)
+
+### Courtyards And Pools
+
+| Layout | Seats | Cover | Mount | Heaters | Controls |
+|---|---|---|---|---|---|
+| Open courtyard around a fire table | 8 | Open to the sky | Freestanding, nothing overhead | 2 × Eclipse Smart-Heat Freestanding | Each comes with its own Eclipse Dimmer Controller and remote[^s8] |
+| Pool cabana | 6 | Covered (cabana roof) | Recessed in the ceiling | 1 × Tungsten Smart-Heat Electric 4000 W | Affinity Smart-Heat Dimmer, 1-channel, a wall switch and the app |
+
+**Courtyard.** Freestanding heaters warm up to four seats each, because guests block some of the warmth. The fire table is the focal point, and the heaters do the warming.
+**Cabana.** One heater over the cabana's seating, for warmth after the swim.
+
+![Eclipse Freestanding over a fire table](img:l-015-125)
+
+### Kitchens And Terraces
+
+| Layout | Seats | Cover | Mount | Heaters | Controls |
+|---|---|---|---|---|---|
+| Outdoor kitchen under cover | 8 | Covered (solid roof) | On the ceiling | 2 × Tungsten Smart-Heat Electric 4000 W | Affinity Smart-Heat Dimmer, 2-channel, a wall switch and the app |
+| Open terrace, long table, on gas | 12 | Open to the sky | On the house wall | 2 × Platinum Smart-Heat Gas 39,800 Btu | Affinity Smart-Heat On/Off controller (gas switches on and off), a wall switch and the app |
+
+**Kitchen.** Warm the guests and leave the grill alone: one heater over the bar stools, one over the lounge.
+**Terrace.** Built-in gas on the house wall for a large, open terrace, at 96 in or more[^s10]; a licensed gas fitter runs the line.
+
+![Electric heaters over an outdoor kitchen](img:w-240619-yorba-linda-ca-dc-64)
+
+![Platinum Gas on the eave over courtyard dining](img:w-bromic-pg-residential-hr)
+
+## Question 06. Power In Before The Ceiling Closes
+
+Plan the power while the ceiling is open and the wiring goes in once, hidden, and exactly where the heaters hang.
+
+| Stage | What happens |
+|---|---|
+| 1. Frame | Mark each heater's place and add blocking |
+| 2. Rough-in | Circuits, junction boxes, recess kits and the controller's spot |
+| 3. Ceiling closes | The wiring is hidden, exactly where the heaters hang |
+| 4. Heaters fitted | Heaters, controller, wall switch and app set up |
+
+- **Electric.** Hard-wired by a licensed electrician, who sizes each circuit from the heater's current draw, listed in the [Professional edition](item:A02-pro) and the cut sheets.
+- **Gas.** Built-in gas needs a gas line from a licensed gas fitter and a 110 V, 2 A supply[^s10][^s11]. The Tungsten Freestanding Gas runs on a 20 lb propane cylinder or a 10 ft natural-gas quick-connect[^s12].
+- **Built to code.** In the US, electric heaters are installed to NFPA 70[^s21] and gas heaters to NFPA 54[^s22]. Each model's installation manual sets its clearances.
 
 *This is general guidance, not a code ruling. Confirm requirements with your local building authority, and have heaters installed by a licensed electrician or gas fitter to the manufacturer's instructions.*
 
-### A Warranty You Can Rely On
+![Fitting a heater into its recess kit](img:w-bromic-shoot-may-11-2023-39)
 
-- Tungsten Electric: 2 years heater; 7 years elements[^s4]
-- Platinum Electric: 3 years[^s5]
-- Platinum Electric Marine: 5 years on land; 3 years on vessels[^s6]
-- Eclipse Electric and Eclipse Freestanding: 3 years[^s7][^s8]
-- Cobalt Electric: 1 year parts; 7 years elements[^s9]
-- Platinum Gas and Tungsten Gas built-in: 2 years, excluding hoses and igniters[^s10][^s11]
-- Tungsten Freestanding Gas: 1 year (propane model)[^s12]
-- Affinity Smart-Heat Controls: 1 year[^s13]
+## Let Us Design It With You
 
-[[VERIFY: warranty terms per model, including the Tungsten Freestanding Gas natural-gas model — Product team]]
+You know how you love to live outdoors; we know how to heat it. Bring your answers, photos or plans, and our design specialists recommend the heaters, placement and controls, with coverage drawings, at no charge[^s2].
 
-- [ ] Mount heights meet the minimums
-- [ ] Clearances from each installation manual
-- [ ] Permit and inspection confirmed with the building department
+**Your brief**
 
-![Eclipse pendants over a poolside loggia at blue hour](img:l-013-102)
-
-## Step 9. Let Us Design It With You
-
-You know how you love to live outdoors; we know how to heat it. Share your photos, plans or drawings, and Bromic's design specialists will recommend the heaters, placement and controls for your space, with coverage drawings, at no charge[^s2].
-
-A complete quote covers heaters and mounting kits, controls, installation, permits and running cost. US list prices on bromic.com (29 October 2026) start from $798 for a Tungsten Electric heater and $370 for an Affinity On/Off controller[^s4][^s13]. [[VERIFY: list prices to publish — Product team]]
-
-- [ ] Your notes from Steps 1–8 filled in
+- [ ] Seats to warm: ______ (about 20 ft² a seat)
+- [ ] Open · partly covered · covered
+- [ ] Mount: ceiling · recessed · wall · pendant · freestanding
+- [ ] Evenings: mild · cool · cold
+- [ ] Heater, how many, which controls: ______
+- [ ] Electrician or gas fitter booked before the ceiling closes
 - [ ] Photos or plans ready
-- [ ] Design consult booked
 
-![Covered outdoor kitchen and bar with flush ceiling heaters](img:l-010-067)
+![A covered outdoor kitchen and bar with heaters flush in the ceiling](img:l-010-067)
 
 Book your design consult, and we will plan the warmth around the way you like to live outdoors.

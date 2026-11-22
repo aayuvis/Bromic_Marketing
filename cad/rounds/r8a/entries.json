@@ -1,0 +1,41 @@
+[
+ {
+  "id": "ts2-r8a-01",
+  "title": "Pool-house lounge, dark timber soffit – two recessed in a row",
+  "kind": "Real photo + CAD heater",
+  "finish": "black",
+  "mount": "LC recess (no trim), 2 in a row along the boards",
+  "w": 2560,
+  "h": 1707,
+  "file": "images/review/full/ts2-r8a-01.jpg",
+  "thumb": "images/review/thumb/ts2-r8a-01.webp",
+  "source": "Real photo: library w-bromic-tungsten-electric-residential (bromic.com, Sydney residence; bank cad/backgrounds/tungsten/bromic-tungsten-electric-residential.jpg). The two Series I recessed heaters, a Tungsten under the beam edge and four heaters in the background pavilion were removed; heaters are the Tungsten Series II CAD (6 kW + LC recess kit STEP), recessed flush at the original positions, turned to run with the boards, at the true ceiling height (camera from EXIF 22 mm and the board vanishing points; scale from the old 1,410 mm heater). Low resolution: 2560 px (below 4K).",
+  "status": "pending"
+ },
+ {
+  "id": "ts2-r8a-02",
+  "title": "Outdoor kitchen bar, oak ceiling – recessed over the bar stools",
+  "kind": "Real photo + CAD heater",
+  "finish": "black",
+  "mount": "LC recess (no trim), 2 on one line along the boards",
+  "w": 1264,
+  "h": 848,
+  "file": "images/review/full/ts2-r8a-02.jpg",
+  "thumb": "images/review/thumb/ts2-r8a-02.webp",
+  "source": "Real photo: library w-tungsten-outdoor (bromic.com). Both Series I recessed heaters removed; heaters are the Tungsten Series II CAD (6 kW + LC recess kit STEP) at the original positions (the kitchen one turned to run with the boards), true ceiling height (about 2.7 m; scale from the old 1,410 mm heater). Low resolution: 1264 px (below 4K).",
+  "status": "pending"
+ },
+ {
+  "id": "ts2-r8a-03",
+  "title": "Shingle-house porch, beadboard – row of three recessed over the seating",
+  "kind": "Real photo + CAD heater",
+  "finish": "white",
+  "mount": "LC recess (no trim), 3 in a row along the beadboard, 0.6 m in from the house wall",
+  "w": 1024,
+  "h": 1536,
+  "file": "images/review/full/ts2-r8a-03.jpg",
+  "thumb": "images/review/thumb/ts2-r8a-03.webp",
+  "source": "Real photo: library w-tungsten-electric-white-recessed-residential (bromic.com). The three Series I recessed heaters (which ran across the boards) removed; three Tungsten Series II CAD heaters (6 kW + LC recess kit STEP) recessed in a row along the beadboard beside the downlight line, 2.05 m apart (≥ 500 mm between cut-outs), true ceiling height. Low resolution: 1024 px (below 4K).",
+  "status": "pending"
+ }
+]

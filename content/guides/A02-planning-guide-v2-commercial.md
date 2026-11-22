@@ -1,26 +1,26 @@
 ---
 id: A02-commercial
 type: gated-guide
-title: "Planning Your Outdoor Heat: Commercial Edition"
+title: "Plan Your Outdoor Heat: Commercial Edition"
 slug: outdoor-heating-planning-guide-commercial
 audience: [COM]
 stage: [CO, IN]
 cell: COM-CO
 asset: A02
-summary: "For restaurants, hotels and venues that want guests outdoors for more of the year. What a heated seat is worth, then nine steps through radiant heat, five-year fuel cost, placement over the table, zoned controls, the fire code and rollout across sites."
+summary: "The 2027 planning guide for restaurants, bars, hotels and venues: what a heated seat is worth, then six questions through seats and sections, cover, mounts and heights, the season, the heater, fuel, running cost and zoned controls, eight venue layouts, the fire code and rollout across sites."
 primary_keyword: commercial patio heater cost
 secondary_keywords: [restaurant patio heaters, propane vs electric patio heater, natural gas patio heater restaurant, patio heater roi]
 ai_prompt: "Is propane or electric cheaper for restaurant patio heaters?"
-meta_description: "Commercial patio heater cost, seat by seat: what a heated seat is worth, five-year fuel cost, placement, zoned controls, fire code and rollout, with notes."
+meta_description: "Commercial patio heater cost, 2027 edition: what a heated seat is worth, five-year fuel cost, eight venue layouts, zoned controls, fire code and rollout."
 cta: {label: "Get your ROI assessment", asset: A21}
 hero: l-013-104
-images: [l-005-024, l-013-111, l-013-107, l-019-164, p-003-006]
+images: [w-commercial-australia-sydney-manly-wharf-15, w-smoque-n-bones-tungsten-electric-1, l-013-111, l-013-100, l-019-164, w-kion-sui-madrid-spain-tungsten-electric-5, l-013-102, l-005-024]
 owner_review: Product team + 454 Creative
 status: draft
 gated: true
 related: [COM-CO-01, COM-IN-01, ARC-CO-01]
-updated: 2026-11-19
-version: "2.0 draft, revision 3 (replaces Planning Guide US v1.2, 10/2021)"
+updated: 2026-11-22
+version: "2027 edition, draft (replaces Planning Guide US v1.2, 10/2021)"
 sources:
   - id: s1
     publisher: National Restaurant Association
@@ -224,275 +224,386 @@ sources:
     url: internal
     supports: "Bromic's own guidance: comfort and predictability keep outdoor space in use; convection, conduction and radiant heat outdoors; short wave glare can change how food looks; fuel profiles (natural gas plumbed and fixed with yearly service, propane portable and the costliest to run, electric with no combustion and few moving parts); colder air and wind shrink the area a heater covers; mounting heights by use (8 ft seated, 10 ft high-top and bar, 12 ft standing or passing through); inverse square law; wall-mount dead zone; zoning and electrification trends. Internal training material, not a verified source"
     verified: false
+  - id: s30
+    publisher: Wikipedia
+    title: "Wien's displacement law"
+    year: 2026
+    url: https://en.wikipedia.org/wiki/Wien%27s_displacement_law
+    supports: "Peak wavelength = b / T, with b ≈ 2,898 µm·K (2,400 K → about 1.2 µm; 1,200 K → about 2.4 µm; 700 K → about 4.1 µm; the sun at about 5,800 K → about 0.5 µm)"
+    verified: true
+  - id: s31
+    publisher: International Commission on Illumination (CIE)
+    title: "International Lighting Vocabulary (CIE S 017), infrared radiation bands"
+    year: 2020
+    url: https://cie.co.at/e-ilv
+    supports: "Infrared bands IR-A 780 nm–1.4 µm, IR-B 1.4–3 µm, IR-C 3 µm–1 mm"
+    verified: false
+  - id: s32
+    publisher: Bromic Heating
+    title: "Warranty, bromic.com; Tungsten Smart-Heat Electric Series II warranty confirmed by the owner (18 and 22 Nov 2026)"
+    year: 2026
+    url: https://www.bromic.com/warranty/
+    supports: "Tungsten Smart-Heat Electric Series II (Select, Coastal and Classic): 3-year warranty on the heater, 7 years on the elements"
+    verified: true
 ---
 
-# Planning Your Outdoor Heat: Commercial Edition
+# Plan Your Outdoor Heat: Commercial Edition
 
-A warm terrace keeps guests at the table for one more course, and fills covers on nights that would otherwise sit empty. At US average commercial rates, natural gas costs the least to run, electric a little more, and propane more than twice as much as electric before anyone has swapped a cylinder (Step 3). The purchase price is the smallest number in the decision; energy, handling, controls and the fire code carry far more weight.
-
-Outdoor dining has become part of how guests expect to eat. In a 2020 National Restaurant Association survey, 74% of full-service operators offered outdoor seating and 49% were extending the outdoor season, including with tents or patio heaters[^s1].
+For restaurants, bars, hotels and venues: six questions that turn a summer terrace into seats you sell all year. Plan the warmth with the service, from the first sketch to a full terrace.
 
 ![Resort loggia with Eclipse pendants at dusk](img:l-013-104)
 
-## What A Heated Seat Is Worth To Your Venue
+## Plan The Warmth Like You Plan Service
 
-**Added revenue = heated seats × turns per night × average check × extra operating nights per year × share of seats filled**
+A warm terrace keeps guests at the table for one more course and fills covers on nights that would otherwise sit empty. In a 2020 National Restaurant Association survey, 74% of full-service operators offered outdoor seating, and 49% were extending the outdoor season, including with tents or patio heaters[^s1]. Answer six questions in order, and the power, the heaters and the controls go in once.
 
-**Payback (months) = all-in installed cost ÷ (added contribution per year ÷ 12)**
+| | Question | What it settles |
+|---|---|---|
+| 01 | Where do guests sit? | Map the seats and the service sections, not the whole terrace |
+| 02 | How open is it? | Cover, enclosure and wind, and what the fire code allows |
+| 03 | What can the heat hang from? | Canopy, beam, wall, pendant or freestanding; height follows use |
+| 04 | How long is your season? | Colder nights and more open terraces need a little more heat |
+| 05 | Which heater, how many, which controls? | The fuel, the family, the count, the zones and the schedules |
+| 06 | Is the power in before fit-out closes? | Power or gas, permits and the fire marshal, planned early |
 
-Guests settle in when they can count on being comfortable, so a heated terrace becomes a space you can book, staff and sell with confidence, whatever the forecast[^s29]. Work out payback on contribution margin, and count only the nights the terrace would stay empty without heat. Your POS gives you turns and average check, and last year's weather closures give you the extra nights. [[VERIFY: benchmark ranges for turns, check and season extension by climate — Hospitality sales]]
+## What A Heated Seat Is Worth
 
-| Worked example (COM-IN-01) | Value |
+Guests settle in when they can count on being comfortable, so a heated terrace becomes space you can book, staff and sell whatever the forecast[^s29]. Count only the nights the terrace would stay empty without heat, and work on contribution rather than sales.
+
+**Added revenue = heated seats × turns per night × average check × extra nights a year × share of heated seats filled**
+
+**Payback (months) = installed cost ÷ (added contribution a year, less running cost, ÷ 12)**
+
+| The worked example | Value |
 |---|---|
-| Heated seats, turns, average check | 40 seats, 1.5 turns, $45 |
-| Extra nights a year; share of seats filled | 60 nights; 50% |
+| Heated seats | 40 |
+| Turns a night | 1.5 |
+| Average check | $45 |
+| Extra nights a year | 60 |
+| Heated seats filled | 50% |
 | Added revenue | 40 × 1.5 × $45 × 60 × 50% = $81,000 |
 | Contribution at a 30% margin | $24,300 |
-| Running cost: 7 × Platinum 4500 W × 5 h × 60 nights at 14.07¢/kWh | 9,450 kWh = $1,330 |
+| Running cost: 7 × Platinum Electric 4500 W, 5 hours, 60 nights, at 14.07¢/kWh | 9,450 kWh = $1,330[^s18] |
 | Net gain a year | $22,970 |
-| Payback on a $35,000 installed placeholder | 18.3 months |
 
-The installed cost is a placeholder for a full quote including heaters, Affinity Smart-Heat® Controls (sold separately), wiring and permits, and it is not a Bromic price. [[VERIFY: installed cost per heater — Hospitality sales]] The same sum comes out at 38.8 months with a quarter of the heated seats filled and 12.0 months with three quarters. The [ROI calculator](asset:A21) runs the numbers for your site.
+**Payback, by how full the heated seats are**
 
-Warmth earns its place beyond the dining terrace, too. Hotel entrances and valet lanes, rooftop bars, pool decks and drive-thru lanes are all spaces guests once hurried through, and gentle radiant heat turns them into places to linger[^s29].
+| Heated seats filled | Payback |
+|---|---|
+| A quarter | 38.8 months |
+| Half | 18.3 months |
+| Three quarters | 12.0 months |
 
-## Nine Steps To A Terrace Guests Linger On
+On a $35,000 installed placeholder for heaters, Affinity Smart-Heat Controls, wiring and permits, which is not a Bromic price. Turns, check, nights and margin are planning assumptions; your POS and last year's weather closures give your own. The [ROI calculator](asset:A21) runs the numbers for your site. [[VERIFY: installed cost per heater — Hospitality sales]] [[VERIFY: benchmark ranges for turns, check and season extension by climate — Hospitality sales]]
 
-| Step | Decision | You'll need |
+Warmth earns its place beyond the dining terrace, too. Hotel entrances and valet lanes, rooftop bars and pool decks are spaces guests once hurried through, and gentle radiant heat turns them into places to linger[^s29].
+
+![Guests at a heated waterfront café terrace](img:w-commercial-australia-sydney-manly-wharf-15)
+
+## Question 01. Where Do Guests Sit?
+
+Draw the floor the way your team runs service, so each section is warmed when it opens and rested when it closes. Guests feel warmth differently and move to where they are most comfortable, so plan heat over every seat you sell rather than one hot spot[^s29].
+
+**Rule of thumb:** about 20 ft² a seat, aisles included[^s28]. One zone for each section that opens and closes on its own, so on a quiet Tuesday you warm one section, and on a full Saturday you warm all three.
+
+![Rows of Tungsten Electric heaters angled down from the beams over restaurant tables](img:w-smoque-n-bones-tungsten-electric-1)
+
+## Question 02. How Open Is It?
+
+Radiant heat is made for the outdoors. A terrace counts as outdoor when at least 30% of its perimeter is permanently open[^s3], and a canopy or awning works in your favor.
+
+| Your terrace | Outdoor? | What it means |
 |---|---|---|
-| 1 | Is it outdoors? | Wall and roof layout; the fire marshal if enclosing |
-| 2 | Map seats and zones | Floor plan and service sections |
-| 3 | Choose the fuel on five-year cost | Your tariffs; the [TCO model](asset:A20) |
-| 4 | Choose style and mounting | The range table in Step 4 |
-| 5 | Size and place every zone | The [How many heaters? calculator](asset:A03) |
-| 6 | Plan power or gas | A licensed electrician or gas fitter |
-| 7 | Zones and schedules | Affinity Smart-Heat Controls |
-| 8 | Clearances, fire code and permits | Local AHJ and fire marshal |
-| 9 | Design service and rollout | Bromic design service ([A07](asset:A07)) |
+| Open to the sky | Yes | No cover to hold warmth, so plan a little more heat |
+| Covered, two sides open | Yes | The canopy holds warmth over the tables |
+| Three walls, 30% or more of the edge open | Yes | Still outdoor, with the strongest heat cloud |
+| Fully enclosed | No | Not an outdoor space: talk to a designer, and to the fire marshal |
 
-Each step closes with Your notes, a short card to fill in for every site, and together they become the brief you hand to your designer, contractor and Bromic.
+### A Cover Works In Your Favor
 
-## Step 1. Confirm The Space Counts As Outdoors
+Under a canopy or awning, warm air gathers into a gentle "heat cloud" that adds to the radiant warmth[^s3], so a covered terrace needs fewer heaters than an open one.
 
-A space counts as outdoor when at least 30% of its perimeter is permanently open, and a partial roof or awning holds a heat cloud that adds to the radiant heat[^s3]. Walls, glazing or plastic sidewalls can change both the heating design and what the fire code permits (Step 8).
+### Enclosing? Talk To The Fire Marshal First
 
-- [ ] Open perimeter 30% or more[^s3]; enclosure plans: ______
-- [ ] Open / partly covered / covered
-- [ ] Sidewalls, screens or glazing planned? Y / N
+Walls, glazing or plastic sidewalls can change both the heating design and what the code permits. In one state interpretation, a patio enclosed with clear plastic needs a vented fuel-fired heater or an electric heater[^s24].
 
-## Step 2. Map Your Seats And Zones
+![Under an awning](img:l-013-111)
 
-Draw the floor the way your team runs service, so each section can be warmed when it opens and rested when it closes. Guests feel warmth differently and will move to where they are most comfortable, so plan heat over every seat you sell rather than a single hot spot[^s29].
+![Under a glazed pergola](img:w-the-ivy-london-tungsten-electric)
 
-- [ ] Heated seats, tables and bar rail drawn; service aisles left out
-- [ ] One zone per section that opens and closes on its own: ______ ft² per zone
-- [ ] Ceiling, canopy or wall heights: ______ ft
-- [ ] Supply voltage: 208 V / 240 V / 277 V[^s3]; gas on site? Y / N
+![Heaters on drop poles over a hotel restaurant terrace at night](img:w-platinum-gas-sheraton-carlsbad-ca-usa)
 
-## Step 3. Choose The Fuel On Five-Year Cost
+## Question 03. What Can The Heat Hang From?
 
-### Why Radiant Warmth Works On A Terrace
+Look up and behind the tables: canopy, beam, wall or pendant, or freestanding where there is nothing overhead. Height comes first, set by how each zone is used[^s29].
 
-Outdoors, warm air rises and drifts away, so forced air and thermostats cannot hold an open terrace at a set temperature[^s3]. A traditional mushroom heater sends much of its heat in every direction, upward included, while a directional radiant heater aims its warmth down at the table, so more of the energy you pay for reaches your guests[^s3][^s29]. Radiant heat warms people and surfaces directly and keeps working in a light breeze[^s3].
+| Zone | Mounting height (Bromic guidance) |
+|---|---|
+| Seated dining | About 8 ft |
+| High-tops and the bar rail | About 10 ft |
+| Entrances and standing | About 12 ft |
 
-Bromic's electric heaters are medium wave, chosen for warmth that reaches every chair at the table, lifts the temperature further and travels further, with no intrusive glow [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]].
+- **Height first.** Radiant warmth weakens quickly with distance: twice as far from the heater, a guest receives about a quarter of the heat[^s29].
+- **Bring tables off the wall.** A wall heater projects outward, so set tables a little forward of it, and warm a wide table from both sides[^s29].
+- **Fewer, right-sized heaters.** Well-placed heaters of the right output usually serve a terrace better than many small ones, and keep the ceiling clean[^s29].
 
-| | Heat coverage | Temperature rise | Distance heat travels | Visible glow | Warm-up |
-|---|---|---|---|---|---|
-| Short wave | Narrower | Lower | Shorter | Intense glow and glare | Instant[^s3] |
-| **Medium wave: Bromic Platinum, Eclipse and Tungsten Electric** | **Widest** | **Greatest** | **Furthest** | **Soft, no intrusive glow** | **About 30 seconds[^s3]** |
-| Long wave | Narrower | Lower | Shortest; most affected by wind[^s3] | – | About 5 minutes[^s3] |
+Every model also has its own minimum in its installation manual: electric wall 72 in and ceiling 96 in[^s4][^s5]; Eclipse 96 in[^s7]; built-in gas 96 in[^s10][^s11]. [[VERIFY: mounting heights by use against each model's installation manual — Product team]]
 
-Warm-up and wind: Bromic Planning Guide v1.2[^s3]. Coverage, temperature rise, distance and glow: Bromic test data, to follow. [[VERIFY: medium wave test data for heat coverage — Product team]] [[VERIFY: medium wave test data for temperature rise — Product team]] [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]] [[VERIFY: short wave visible glow and glare — Product team]]
+![Seated dining](img:w-bromic-sep18th-3-1)
 
-Over a dining table the glow matters as much as the heat. The harsh red light of a short wave heater can change how food looks on the plate, which is why Bromic recommends medium wave over tables[^s29].
+![At the bar](img:w-bromic-sep18th-14)
 
-### The Three Fuels In Service
+![Under a high canopy](img:w-crown-towers-perth-bromic-tungsten-electric)
 
-| | Electric | Natural gas | Propane |
+## Question 04. How Long Is Your Season?
+
+Cover and cold are the two big levers. The same 40 seats need fewer heaters under a canopy, and a few more on cold nights.
+
+- **Mild:** evenings usually above about 50°F
+- **Cool:** about 40–50°F
+- **Cold:** often below about 40°F
+
+**Heaters for the same 40 seats (800 ft²)**
+
+| | Open | Partly covered | Covered |
 |---|---|---|---|
-| Best suited to | Covered and semi-enclosed terraces; recessed and flush looks | Large, open terraces with a gas line in place | Open spaces with no structure; layouts that change |
-| Handling | None | None after install | Cylinder buying, swapping and storage |
-| Upkeep | Few moving parts; no combustion at the heater | A yearly service, including the gas line | Cylinder checks and storage |
-| Control | 1% dimming, zones, schedules, app, BMS | On/off, zones, schedules, app, BMS | Freestanding: confirm |
-| Fire code | Simplest path | Fixed, listed outdoor install | Most restricted (Step 8) |
-| Gas restrictions | Compliant | Check local rules ([A12](asset:A12)) | Check local rules ([A12](asset:A12)) |
+| Mild | 7 | 6 | 6 |
+| Cool | 8 | 7 | 6 |
+| Cold | 10 | 8 | 8 |
 
-Fuel profiles: Bromic guidance[^s29]. More cities are restricting new gas connections and portable propane, so an electric scheme is also the one least likely to need changing later[^s29]. The Electrification compliance guide ([A12](asset:A12)) sets out what applies where you trade. [[VERIFY: maintenance intervals per gas model from the manuals — Product team]]
+Platinum Smart-Heat Electric 4500 W over 800 ft², from the Bromic sizing calculator. Coverage is approximate and varies with mounting height, wind and installation[^s2]. Not sure? Plan for partly covered and cool, the safe middle. On an exposed site, screens on the windward side help hold the heat in[^s29].
 
-### What An Evening Of Warmth Costs
+**The sum behind it.** Heaters per zone = zone ft² ÷ (coverage × cover factor × climate factor), rounded up. Cover: open 0.85, partly covered 1.0, covered 1.1. Climate: mild 1.0, cool 0.85, cold 0.7. Freestanding heaters serve no more than four seats each, because guests block some of their warmth, so take the larger count. [[VERIFY: cover and climate factors — Product team]]
 
-**5-year TCO = hardware + controls + installation + permits + 5 × (energy + handling + maintenance)**
+![Eclipse heaters on curved poles over a rooftop bar lounge, city skyline beyond](img:w-eclipse-electric-curved-pole-hotel-scene-web)
 
-**Energy per hour:** electric = kW × $/kWh · natural gas = Btu/h ÷ 100,000 × $/therm · propane = Btu/h ÷ 91,500[^s23] × $/gal.
+## Warmth Like Sunshine, Over The Plate
 
-Rates used, the same as COM-CO-01 and the [ROI calculator](asset:A21): electricity 14.07¢/kWh (EIA, US commercial average, January–May 2026)[^s18]; natural gas $1.01 per therm ($10.45 per thousand cubic feet at about 1,036 Btu per cubic foot, EIA, US commercial, January–April 2025)[^s19]; propane $2.46 per gallon (EIA residential winter forecast 2025–26; EIA publishes no commercial series, and exchange cylinders cost more)[^s20]. [[VERIFY: 2026 commercial rates, national and by state, cylinder-exchange propane prices, and alignment of the A20 TCO model with these rates — Finance]]
+Outdoors, warm air rises and drifts away, so forced air cannot hold an open terrace at a set temperature[^s3]. Radiant heat warms people and surfaces directly, and a directional heater aims it down at the table instead of up into the sky, so more of the energy you pay for reaches your guests[^s3][^s29].
 
-| Heater at full output | Covers | Cost per hour |
+| | Short wave | Medium wave | Long wave |
+|---|---|---|---|
+| Infrared band | IR-A, 0.78–1.4 µm[^s31] | IR-B, 1.4–3 µm[^s31] | IR-C, 3 µm and beyond[^s31] |
+| Typical element | About 2,400 K, peak about 1.2 µm[^s30] | About 1,200 K, peak about 2.4 µm[^s30] | About 700 K, peak about 4.1 µm[^s30] |
+| Over the table | The hottest elements: a bright red glow that can change how food looks on the plate[^s29] | A soft glow with little glare, Bromic's recommendation over tables[^s29] | No visible glow |
+| Warm-up | Instant[^s3] | About 30 seconds[^s3] | About 5 minutes, and more easily dispersed by moving air[^s3] |
+| Bromic heaters | – | **Platinum, Eclipse and Tungsten Electric** | – |
+
+All infrared travels in straight lines at the speed of light. How far warmth reaches depends on the heater's output, reflector and mounting height, and the band does not change it. Peak wavelengths follow Wien's law, λ ≈ 2,898 µm·K ÷ T[^s30], at typical element temperatures, for illustration.
+
+![Medium wave over a long dining table](img:l-013-100)
+
+![A soft glow, no glare](img:l-007-034)
+
+## Question 05. Which Heater, How Many, Which Controls?
+
+### Which Heater For Which Venue
+
+Start from what the space and the service need; the look follows. A finish that matches the canopy, beams or furniture lets the heater sit quietly in the design, and an Eclipse over the table brings heat and light in one fixture[^s29][^s7]. Every Bromic heater is paired with Affinity Smart-Heat Controls.
+
+| Where it goes | What it gives you | Heaters |
 |---|---|---|
-| Tungsten Electric 4000 / 6000 W | 130 / 160 ft² | $0.56 / $0.84 |
-| Platinum Electric 3400 / 4500 W | 108 / 143 ft² | $0.48 / $0.63 |
-| Eclipse Electric 2900 W | 121 ft² | $0.41 |
-| Platinum Gas 39,800 Btu/h, natural gas / propane | 215 ft² | $0.40 / $1.07 |
-| Tungsten Freestanding Gas 38,000 Btu/h, natural gas / propane | 215 ft² | $0.38 / $1.02 |
-
-### A Worked Example: 40 Seats, 800 ft², 1,000 Heater Hours A Year
-
-40 seats × 20 ft² = 800 ft²[^s28], partly covered, cool evenings (a combined factor of 0.85; Step 5). The 1,000 hours a heater (for example, 5 hours a night for 200 nights) match COM-CO-01; replace them with your own season.
-
-| Option | Heaters | Energy a year | Fuel a year | Controls |
-|---|---|---|---|---|
-| Electric, Platinum 4500 W | 800 ÷ (143 × 0.85 = 121.6) = 6.6 → 7 | 31,500 kWh | $4,432 | Affinity Dimmer, one heater per 6 kW channel: a 5-channel and a 2-channel; wall switch; app |
-| Natural gas, Tungsten Freestanding Gas | larger of 800 ÷ (215 × 0.85) = 4.4 → 5 and 40 seats ÷ 4 = 10 | 3,800 therms | $3,838 | [[VERIFY: controls for Tungsten Freestanding Gas — Product team]] |
-| Propane, Tungsten Freestanding Gas | the same 10 | 4,153 gal | $10,216 | [[VERIFY: controls for Tungsten Freestanding Gas — Product team]] |
-
-Over five years that is $22,160 for electric, $19,190 for natural gas and $51,082 for propane in fuel alone: electric about 15% above natural gas, and propane 2.3 times electric[^s18][^s19][^s20]. Propane also means about 884 swaps of a 4.7-gallon cylinder a year; at 10 minutes a swap and $25 an hour, that adds $3,683 a year, or $69,499 for fuel and handling over five years. These figures cover energy at full output; your own tariff, schedules and dimming bring them down. Add hardware, installation and permits in the [TCO model](asset:A20). The 2021 guide's per-hour figures used 2021 prices and have been retired.
-
-[[DIAGRAM: Stacked bar chart, five-year cost for the 40-seat example for electric, natural gas and propane, split into hardware, install, controls, energy and handling, once prices and rates are verified.]]
-
-- [ ] Fuel per zone: electric / natural gas / propane
-- [ ] Your tariff: ______ per kWh, therm or gallon
-- [ ] Your season: ______ nights × ______ hours
-
-![Marina-side bar with heaters under a canopy](img:l-005-024)
-
-## Step 4. Choose A Style That Suits Your Venue
-
-| Family | Best commercial use | Warranty |
-|---|---|---|
-| Tungsten Smart-Heat Electric, 2000–6000 W | Canopies, soffits, walls; recessed | 2 yr heater, 7 yr elements[^s4] |
-| Platinum Smart-Heat Electric, 2300–4500 W | Canopies, awnings, walls, poles | 3 yr[^s5] |
-| Platinum Smart-Heat Electric Marine | Waterfront, marina and vessel decks; IPX5, Lloyd's Register approval | 5 yr land, 3 yr vessel[^s6] |
-| Eclipse Smart-Heat Electric | Over tables: heat and dimmable light in one | 3 yr[^s7] |
-| Eclipse Smart-Heat Freestanding | Movable heat and light for flexible layouts | 3 yr[^s8] |
-| Cobalt Smart-Heat Electric, 4000 / 6000 W | Back-of-house and service areas, walls and ceilings | 1 yr parts, 7 yr elements[^s9] |
-| Platinum Smart-Heat Gas, 23,600 / 39,800 Btu/h | Larger open terraces, fixed gas | 2 yr excl. hoses, igniters[^s10] |
-| Tungsten Smart-Heat Gas built-in, two sizes | Larger open terraces, fixed gas; pivot arm | 2 yr excl. hoses, igniters[^s11] |
-| Tungsten Smart-Heat Freestanding Gas | Open terraces; propane or natural-gas quick-connect | 1 yr (propane)[^s12] |
-| Tungsten Electric Coastal | Waterfront venues; 316 stainless | [[VERIFY]][^s2] |
-| Tungsten Electric Select | Design-led venues; Black, White, Graphite | [[VERIFY]][^s2] |
-
-[[VERIFY: warranty terms for commercial use, and the Tungsten Freestanding Gas natural-gas warranty — Product team]]
-
-Choose the look with the room in mind. A finish that matches the canopy, beams or furniture lets the heater sit quietly in the design, and recessed heaters give warmth your guests feel without seeing where it comes from. An Eclipse over the table brings heat and light in one fixture, so there is one less thing on the ceiling[^s29][^s7].
-
-- [ ] Heater family per site type: canopy / wall / pendant / freestanding
-- [ ] Finish: ______
-- [ ] Any model not yet available carries an approved current alternate
-
-![Wall-arm Eclipse heaters over a restaurant terrace](img:l-013-111)
-
-## Step 5. Size And Place The Warmth Over Every Table
-
-Heaters per zone = zone ft² ÷ (coverage × cover factor × climate factor), rounded up. The cover factor is 0.85 for open, 1.0 for partly covered and 1.1 for covered, and the climate factor is 1.0 for mild (above about 50°F), 0.85 for cool (about 40–50°F) and 0.7 for cold (often below about 40°F). Freestanding heaters also serve no more than 4 seats each, because guests block some of their radiant heat, so take the larger of the two counts. Without a seat count, seats = ft² ÷ 20[^s28]. [[VERIFY: cover and climate factors — Product team]]
-
-The factors are there because the same heater covers less on a cold night, and wind carries warmth away from the table; on an exposed site, screens or glass on the windward side help hold the heat in[^s29].
+| Canopies, soffits and walls | Slim and architectural; surface-mounted or recessed | Tungsten Electric |
+| Awnings, poles and walls | A proven linear heater for busy terraces | Platinum Electric |
+| Over the table | Heat and a dimmable rim light in one fixture | Eclipse Electric[^s7] |
+| Flexible layouts | Moves with the floor plan; up to four seats each | Eclipse Freestanding, Tungsten Freestanding Gas |
+| Waterfront and marina | Marine-grade stainless for salt air | Platinum Electric Marine[^s6], Tungsten Coastal[^s2] |
+| Large open terraces on gas | Built-in gas where a gas line is in place | Platinum Gas, Tungsten Gas |
 
 | Heater | Coverage per heater |
 |---|---|
 | Tungsten Electric 2000 / 3000 / 4000 / 6000 W | 65 / 100 / 130 / 160 ft²[^s4] |
+| Tungsten Electric Select and Coastal | 64–144 ft²[^s2] |
 | Platinum Electric and Marine 2300 / 3400 / 4500 W | 65 / 108 / 143 ft²[^s5][^s6] |
 | Eclipse and Eclipse Freestanding | 121 ft²[^s2] |
-| Cobalt Electric 4000 / 6000 W | 130 / 160 ft²[^s9] |
 | Platinum Gas 23,600 / 39,800 Btu/h | 160 / 215 ft²[^s10] |
 | Tungsten Gas built-in, smaller / larger | 160 / 215 ft²[^s11] |
 | Tungsten Freestanding Gas, 38,000 Btu/h | 215 ft²[^s2] |
-| Tungsten Electric Coastal and Select | 64–144 ft²[^s2] |
 
-Coverage is approximate and varies with mounting height, environment and installation[^s2]. [[VERIFY: Eclipse 2900 W vs 3000 W; Tungsten Freestanding Gas 38,000 vs 38,500 Btu/h; per-model coverage against the 2026 cut sheets — Product team]]
+Tungsten Smart-Heat Electric Series II has launched: Select and Coastal have been available since October 2026, and Classic follows in January 2027, with a 3-year warranty on the heater and 7 years on the elements[^s32]. Platinum Electric carries 3 years[^s5], Eclipse 3 years[^s7] and built-in gas 2 years, excluding hoses and igniters[^s10][^s11]. [[VERIFY: Eclipse 2900 W vs 3000 W; Tungsten Freestanding Gas 38,000 vs 38,500 Btu/h; per-model coverage against the 2026 cut sheets — Product team]] [[VERIFY: warranty terms for commercial use, and the Tungsten Freestanding Gas natural-gas warranty — Product team]]
 
-### Placing Heat Where Guests Sit
+![Tungsten Electric heaters](img:w-tungelec-stacked)
 
-Radiant warmth weakens quickly with distance: twice as far from the heater, a guest receives about a quarter of the heat[^s29]. Height is therefore the first placement decision, set by how each zone is used.
+![Platinum Electric](img:w-platinum-black)
 
-| Zone | Mounting height (Bromic guidance) |
+![Eclipse Electric on its twin pole](img:w-eclipse-electric-twinpole)
+
+### Electric, Natural Gas Or Propane
+
+The purchase price is the smallest number in the decision. Energy, handling, controls and the fire code carry far more weight.
+
+| | Electric | Natural gas | Propane |
+|---|---|---|---|
+| Best suited to | Covered and semi-enclosed terraces; recessed and flush looks | Large, open terraces with a gas line in place | Open spaces with no structure; layouts that change |
+| Handling | None; no combustion at the heater | None after install; a yearly service | Cylinder buying, swapping and storage |
+| Control | 1% dimming, zones, schedules, app, BMS | On/off, zones, schedules, app, BMS | Freestanding heaters; confirm controls per model |
+| Fire code | Usually the simplest path | A fixed, listed outdoor install | The most restricted |
+| As cities restrict gas | Least likely to need changing | Check local rules on new gas connections ([A12](asset:A12)) | Check local rules on portable propane ([A12](asset:A12)) |
+
+Fuel profiles: Bromic guidance[^s29]. [[VERIFY: maintenance intervals per gas model from the manuals — Product team]]
+
+![Electric: Eclipse over a rooftop bar](img:w-bromic-sep18th-28)
+
+![Gas: a Tungsten Freestanding beside a set table](img:l-019-164)
+
+![Built-in gas in rows over a lakeside dining deck](img:w-usa-san-diego-decoy-lakehouse-hotel-tungsten)
+
+### What An Evening Of Warmth Costs
+
+A Platinum Electric 4500 W costs about 63¢ an hour at full output at the US average commercial rate, and less when you dim it or zone it off[^s18].
+
+| Heater at full output | Covers | Cost per hour |
+|---|---|---|
+| Tungsten Freestanding Gas, natural gas | 215 ft² | 38¢ |
+| Eclipse Electric 2900 W | 121 ft² | 41¢ |
+| Tungsten Electric 4000 W | 130 ft² | 56¢ |
+| Platinum Electric 4500 W | 143 ft² | 63¢ |
+| Tungsten Freestanding Gas, propane | 215 ft² | $1.02 |
+
+Per hour at full output: commercial electricity 14.07¢/kWh (EIA, January–May 2026)[^s18]; natural gas $1.01 a therm ($10.45 per thousand cubic feet at about 1,036 Btu per cubic foot, EIA, January–April 2025)[^s19]; propane $2.46 a gallon (EIA winter forecast 2025–26; the EIA publishes no commercial series, and exchange cylinders cost more)[^s20]. Your tariff will differ. Energy per hour: electric, kW × $/kWh; natural gas, Btu/h ÷ 100,000 × $/therm; propane, Btu/h ÷ 91,500[^s23] × $/gal. [[VERIFY: 2026 commercial rates, national and by state, cylinder-exchange propane prices, and alignment of the A20 TCO model with these rates — Finance]]
+
+**Five years for the same 40 seats**
+
+| Option | Heaters | Energy over five years | Controls |
+|---|---|---|---|
+| Natural gas | 10 × Tungsten Freestanding Gas | $19,190 | [[VERIFY: controls for Tungsten Freestanding Gas — Product team]] |
+| Electric | 7 × Platinum Electric 4500 W | $22,160 | Affinity Smart-Heat Dimmer, one heater a 6 kW channel (a 5-channel and a 2-channel), a wall switch and the app |
+| Propane | 10 × Tungsten Freestanding Gas | $51,082, plus $18,417 of cylinder handling | [[VERIFY: controls for Tungsten Freestanding Gas — Product team]] |
+
+Energy for 1,000 heater hours a year (for example, 5 hours a night for 200 nights), partly covered, cool evenings: 7 electric heaters (800 ÷ 121.6 = 6.6), or 10 freestanding gas heaters at up to four seats each[^s28]. Propane adds about 884 swaps of a 4.7-gallon cylinder a year; at 10 minutes a swap and $25 an hour, that is $3,683 a year. Hardware, installation and permits come on top: **5-year cost = hardware + controls + installation + permits + 5 × (energy + handling + maintenance)**, and the [five-year cost calculator](asset:A20) adds them for your site.
+
+![Electric heaters over a bar, zoned to service](img:w-bromic-sep18th-14)
+
+### Zones And Schedules, Built In
+
+Affinity Smart-Heat Controls warm each section only when it is open and only as much as the evening needs, and that is what turns the running-cost numbers into real savings[^s29]. Without them, heat runs at full output until someone remembers to switch it off.
+
+| Part | What it does |
 |---|---|
-| Seated dining at standard tables | About 8 ft |
-| High-tops and the bar rail | About 10 ft |
-| Entrances, standing areas and walkways | About 12 ft |
+| Heaters | Grouped by section |
+| Affinity controller | One channel a zone: 1, 2 or 5 channels, 6 kW a channel at 208–277 V[^s13][^s14] |
+| Wall switch | Staff override at the station, 20 A, 120–277 V[^s16] |
+| App or BMS | Schedules, timers and venue-wide control |
 
-Mounting heights by use: Bromic guidance[^s29]; every model also has its own minimum (Step 8). [[VERIFY: mounting heights by use against each model's installation manual — Product team]] A wall heater with a table pushed right up beneath it leaves that table in a dead zone, because the heat projects outward; set tables a little forward of the wall, and where a table is wide, warm it from both sides so every guest feels it[^s29]. Fewer, well-placed heaters of the right output usually serve a terrace better than many small ones, and keep the ceiling clean[^s29].
+- **On before service, off at close:** schedules and timers in the Bromic Smart-Heat app, tied to service hours.
+- **Lower on mild nights:** the Dimmer sets Tungsten and Platinum Electric in 1% steps[^s14]; Eclipse runs at 33, 66 or 100%[^s7], one Eclipse a channel[^s15]. Gas switches on and off, up to 10 heaters a channel[^s13].
+- **Venue-wide:** the Expansion Board links the 5-channel controller to a BMS over Ethernet or 0–10 V, and BMS mode disables the app[^s17].
 
-- [ ] Count per zone: ______ heaters; calculator run for each site
-- [ ] Mounting height per zone: ______ ft
-- [ ] Windward side and screens: ______
+Wi-Fi and app features need compatible Affinity Smart-Heat Controls, sold separately. Control4, Crestron and Lutron compatibility varies and may need extra hardware or set-up[^s2]. [[VERIFY: multi-site or remote management in the app; Tungsten Freestanding Gas controls — Product team]]
 
-## Step 6. Plan The Power Or Gas
+![The app: a section on in a tap](img:w-eclipse-electric-w-bromic-heating-app)
 
-| Heater | Amps at 208 V | Amps at 240 V |
-|---|---|---|
-| Platinum Electric 2300 / 3400 / 4500 W | 11.1 / 16.3 / 21.6 | 9.6 / 14.2 / 18.8[^s5] |
-| Eclipse Electric 2900 W | 13.9 | 12.1[^s7] |
-| Cobalt Electric 4000 / 6000 W | 18.75 / 28.4 | 16.6 / 25[^s9] |
-| Tungsten Electric 4000 / 6000 W (calculated, W ÷ V) | 19.2 / 28.8 | 16.7 / 25.0 |
+![Schedules from a tablet at the host stand](img:t-009-025)
 
-Tungsten 4000 and 6000 W are also offered at 277 V[^s4]. [[VERIFY: Tungsten amps per model and voltage — Product team]] Built-in gas heaters need a gas line and a 110 V, 2 A supply[^s10][^s11]. Circuits are sized by a licensed electrician to NFPA 70[^s21]; gas by a licensed fitter to NFPA 54[^s22]. Plan the rough-in with your contractor before any ceiling or canopy is closed, since heaters compete for the same space as lights, fans and ducts[^s29].
+## Venue Layouts
 
-- [ ] Panel capacity checked; circuits per zone: ______
-- [ ] Gas load and shut-offs; 110 V at each built-in gas heater
-- [ ] Rough-in before the ceiling closes? Y / N
+Seats, cover, mount, heater and controls for eight venues, each like a real Bromic installation, with heaters at the edges and their faces toward the seats. Counts come from the Bromic sizing calculator for cool evenings (about 40–50°F), and coverage varies with mounting height, wind and installation. Wi-Fi and app features need compatible Affinity Smart-Heat Controls, sold separately.
 
-## Step 7. Zones And Schedules With Affinity Controls (Required)
+### Restaurant Terraces And Street Dining
 
-Every Bromic heater is paired with Affinity Smart-Heat® Controls, which warm each section only when it is open and only as much as the evening needs. They are what turn the Step 3 numbers into real savings, because without them heat runs at full output until someone remembers to switch it off. Zoning lets a quiet Tuesday warm two sections while a full Saturday warms them all[^s29].
+| Layout | Seats | Cover | Mount | Heaters | Controls |
+|---|---|---|---|---|---|
+| Restaurant covered terrace | 24 | Covered (canopy) | On the canopy edges, angled in over the tables | 4 × Tungsten Smart-Heat Electric 6000 W | Affinity Smart-Heat Dimmer, 5-channel (one channel a heater), a wall switch at the host stand and the app |
+| Street dining enclosure | 16 | Covered, sidewalk side open | On the ceiling, a row along the table line | 3 × Tungsten Smart-Heat Electric 4000 W | Affinity Smart-Heat Dimmer, 5-channel, a wall switch and the app |
 
-| Need | Control | Capacity |
-|---|---|---|
-| Heat one section while another is closed | Affinity On/Off or Dimmer controller, one channel per zone | 1, 2 or 5 channels; 6 kW per channel at 208–277 V[^s13][^s14] |
-| Gas heaters on a schedule | Affinity On/Off controller | Up to 10 gas heaters per channel[^s13] |
-| Eclipse over tables | Affinity Eclipse controller | One Eclipse per channel; 1 or 5 channels[^s15] |
-| Lower output on mild nights | Dimmer (1% steps) or Eclipse steps (33/66/100%) | [^s14][^s7] |
-| Staff override at the station | Manual wall switch | 20 A, 120–277 V[^s16] |
-| On before service, off at close | Bromic Smart-Heat app: zones, schedules, timers | Through a compatible Affinity controller |
-| Venue-wide control | Expansion board: Ethernet and 0–10 V to a BMS (BMS mode disables the app) | Built into the 5-channel[^s17] |
+**Covered terrace.** Two rows of tables, two heaters along each long edge: every table sits inside a warm zone, and each half of the terrace can open on its own.
+**Street dining.** One heater wide, so the heaters run in a row over the tables. Keep at least 30% of the perimeter open[^s3], and check the enclosure with the fire marshal.
 
-Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately. Control4, Crestron and Lutron compatibility varies and may need extra hardware or configuration[^s2]. [[VERIFY: multi-site or remote management in the app; Tungsten Freestanding Gas controls — Product team]]
+![Tungsten Electric on the beams of a restaurant terrace](img:w-kion-sui-madrid-spain-tungsten-electric-5)
 
-- [ ] Zone-to-channel schedule: ______
-- [ ] Schedules tied to service hours; wall switch at: ______
-- [ ] Wi-Fi at the controller, or BMS integrator named: ______
+![Linear heaters along the ceiling of a street dining enclosure](img:w-dsc000071)
 
-![Eclipse over a rooftop table, city lights beyond](img:l-013-107)
+### Rooftops And Pools
 
-## Step 8. Clearances, Fire Code And Permits
+| Layout | Seats | Cover | Mount | Heaters | Controls |
+|---|---|---|---|---|---|
+| Rooftop bar | 16 | Partly covered (pergola) | Pendant from the pergola beams | 4 × Eclipse Smart-Heat Electric | Affinity Smart-Heat Eclipse controller, 5-channel (one Eclipse a channel), a wall switch behind the bar and the app |
+| Hotel pool cabanas | 12 | Covered (cabana roofs) | Pendant, one in each cabana | 3 × Eclipse Smart-Heat Electric | Affinity Smart-Heat Eclipse controller, 5-channel (a channel per cabana), schedules in the app |
 
-Begin every site with a conversation with the fire marshal, because the rules are adopted and amended locally. Electric heaters need no gas line or venting, which usually makes them the smoother path under a strict fire code; gas heaters generally need larger clearances to combustibles and the space around them must stay ventilated[^s29]. [[VERIFY: clearances to combustibles per model from the installation manuals — Product team]]
+**Rooftop bar.** Two pendants over the bar rail, about 10 ft up for high-tops, and two over the lounge: heat and a dimmable rim light in one fixture.
+**Pool cabanas.** One Eclipse over each cabana's seating, scheduled to each booking, for warmth after the swim.
+
+![Eclipse pendants under a steel pergola on a rooftop](img:w-eclipse-1200pole-industrial-1)
+
+![Eclipse pendants over a poolside loggia](img:l-013-102)
+
+### Gardens And Frontages
+
+| Layout | Seats | Cover | Mount | Heaters | Controls |
+|---|---|---|---|---|---|
+| Pergola garden, long tables | 32 | Partly covered (pergola) | On the perimeter beams, facing in | 6 × Platinum Smart-Heat Electric 4500 W | Affinity Smart-Heat Dimmer, 5-channel and 1-channel (one channel a heater), a wall switch and the app |
+| Café frontage under an awning | 12 | Partly covered (awning) | On the shopfront wall, 72 in or more | 3 × Tungsten Smart-Heat Electric 3000 W | Affinity Smart-Heat Dimmer, 2-channel (two 3000 W heaters on one channel), a wall switch inside and the app |
+
+**Pergola garden.** Heaters on the beams around the edge, angled in over the long tables, so guests on both sides stay warm.
+**Café frontage.** Wall heaters angled down over the pavement tables; the walkway stays clear, and the sidewalk permit sets the seating line.
+
+![Platinum Electric on a pergola beam over a long table](img:w-boardwalk-edits-49)
+
+![Tungsten Electric on a café wall over set tables](img:w-bromictungstenelectic-white)
+
+### Arrivals And Open Terraces
+
+| Layout | Seats | Cover | Mount | Heaters | Controls |
+|---|---|---|---|---|---|
+| Hotel entrance and valet | Standing and waiting, about 200 ft² | Covered (entrance canopy) | On the entrance wall, about 12 ft up for standing guests | 2 × Tungsten Smart-Heat Electric 6000 W | Affinity Smart-Heat On/Off or Dimmer, 2-channel, on a schedule, a wall switch at the concierge and the app |
+| Open terrace on natural gas | 24 | Open to the sky | Built-in gas on the building wall, 96 in or more | 4 × Platinum Smart-Heat Gas 39,800 Btu/h | Affinity Smart-Heat On/Off controller (gas switches on and off; up to 10 gas heaters a channel), a wall switch and the app |
+
+**Entrance.** About 200 ft² of waiting space under the canopy: warmth for arrivals and the valet line, a space guests once hurried through.
+**Open terrace.** A large open terrace with a gas line in place: built-in heaters on the wall, angled down over the tables. A licensed gas fitter runs the line and a 110 V supply[^s10].
+
+![Tungsten Electric on the wall above a valet stand](img:w-bromic-ambiente-sedona-17)
+
+![Platinum Gas on the walls and beams of a restaurant patio](img:w-california-laprovenance-platinumgas-01)
+
+## Question 06. Power In Before Fit-Out Closes
+
+Plan the rough-in with your contractor while the canopy or ceiling is open, because heaters compete for the same space as lights, fans and ducts[^s29], and start every site with a conversation with the fire marshal.
+
+| Stage | What happens |
+|---|---|
+| 1. Frame | Mark each heater's place and add blocking |
+| 2. Rough-in | Circuits, junction boxes, recess kits, the controller's spot |
+| 3. Ceiling closes | The wiring is hidden, exactly where the heaters hang |
+| 4. Heaters fitted | Heaters, controller, wall switch and app set up |
+
+- **Electric.** Hard-wired by a licensed electrician to NFPA 70[^s21], each circuit sized from the heater's current draw (amps are in the [Professional edition](item:A02-pro)). No gas line or venting, which usually makes electric the smoother path under a strict fire code[^s29].
+- **Gas.** Built-in gas needs a licensed gas fitter to NFPA 54[^s22] and a 110 V, 2 A supply[^s10][^s11]. Gas heaters generally need larger clearances to combustibles, and the space must stay ventilated[^s29].
+- **Fire code and permits.** Portable unvented fuel-fired heaters are prohibited in assembly occupancies, restaurants included (IFC 603.4)[^s26], with outdoor gas heaters under their own subsection; propane storage follows NFPA 58[^s27]. The locally adopted code governs.
 
 | Topic | Primary source | Pointer |
 |---|---|---|
-| Mounting heights | Product pages | Electric wall 72 in, ceiling 96 in (Cobalt 6 ft / 8 ft); Eclipse 96 in; built-in gas 96 in[^s4][^s5][^s9][^s7][^s10][^s11] |
 | Portable unvented fuel-fired heaters | International Fire Code 603.4[^s26] | Prohibited in Group A (assembly, including restaurants) and other occupancies; outdoor gas-fired heaters fall under their own subsection[^s24] |
 | Outdoor portable gas heaters | IFC 603.4.2 as locally adopted | One interpretation bars them inside tents, membrane structures and on balconies, and requires 5 ft from buildings, combustible overhangs and exits[^s25] |
 | Enclosed patios | IFC 603.4 interpretation | North Carolina: a patio enclosed with clear plastic needs a vented fuel-fired heater or an electric heater[^s24] |
 | LP-gas cylinder storage | NFPA 58[^s27] | Storage location, quantity, handling |
-| Electric installation | NFPA 70[^s21] | Circuits, disconnects, wiring methods |
-| Gas installation | NFPA 54[^s22] | Fixed supply, clearances, ventilation |
 | Certification | Intertek, UL or CSA mark | Required on gas and electrical appliances, including portable heaters[^s3] |
 
-[[VERIFY: current IFC 2024 text of 603.4 and 603.4.2 — Specification and compliance]]
+[[VERIFY: current IFC 2024 text of 603.4 and 603.4.2 — Specification and compliance]] [[VERIFY: clearances to combustibles per model from the installation manuals — Product team]]
 
 *This table points to primary sources; it is not legal advice. The locally adopted code and the AHJ's interpretation govern. Confirm with the local building and fire authority, and use a licensed electrician or gas fitter.*
 
-- [ ] Fire-marshal and building-permit path confirmed per site
-- [ ] Clearances per installation manual
-- [ ] Cylinder storage location (propane): ______
+![Fitting a heater into its recess kit](img:w-bromic-shoot-may-11-2023-39)
 
-## Step 9. Design It With Us And Roll It Out
+## From One Terrace To Every Site
 
-Share your photos, plans or drawings, and the Bromic design service will return heater selection, placement and coverage drawings for each site, at no charge[^s2].
+Share photos, plans or drawings, and the Bromic design service returns heater selection, placement and coverage drawings for each site, at no charge[^s2].
 
 1. **Standardise the package:** one heater family, one controller set-up, one mounting detail per site type.
-2. **Survey every site the same way:** Your notes from Steps 1–8.
-3. **Clear permits in parallel;** plan around the slowest jurisdiction.
+2. **Survey every site the same way:** seats and sections, cover, mounts, season, fuel, power.
+3. **Clear permits in parallel,** and plan around the slowest jurisdiction.
 4. **Pilot, measure, scale:** covers and sales on heated nights against the ROI case.
 5. **Name an owner per site** for schedules and seasonal changeover.
 
-- [ ] Layout requested for each site type
-- [ ] TCO ([A20](asset:A20)) and ROI ([A21](asset:A21)) run per site
-- [ ] Site owner for schedules: ______
+**Your brief, per site**
 
-![Tungsten freestanding gas beside a set dining table](img:l-019-164)
+- [ ] Heated seats and sections: ______ (about 20 ft² a seat)
+- [ ] Open · partly covered · covered; enclosure plans
+- [ ] Mounts and heights per zone
+- [ ] Season: ______ nights × ______ hours
+- [ ] Fuel per zone; your tariff
+- [ ] Fire marshal and permit path per site
+- [ ] Photos or plans ready
 
-![Guests dining on a heated restaurant terrace](img:p-003-006)
+![A marina-side bar under a canopy, heaters along the canopy](img:l-005-024)
 
 Request your ROI assessment and see what a warm, full terrace could be worth at your venue.
