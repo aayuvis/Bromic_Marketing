@@ -1,7 +1,7 @@
-// A01-stats "Outdoor Living Statistics 2026" in the Data Poster theme (reports/themes/data-poster).
+// A01-stats "Outdoor Living Statistics 2027" in the Data Poster theme (reports/themes/data-poster).
 // Every figure is copied from content/reports/A01-stats-page.md (body or front matter `sources[].supports`).
 // Nothing is rounded, combined or invented. The "Awaiting Verification" list is left out.
-// Run: node reports/designed/A01-stats/build.mjs  ->  index.html, pages/pNN.png, Bromic-A01-stats-Outdoor-Living-Statistics-2026.pdf, meta.json
+// Run: node reports/designed/A01-stats/build.mjs  ->  index.html, pages/pNN.png, Bromic-A01-stats-Outdoor-Living-Statistics-2027.pdf, meta.json
 import { writeFileSync, mkdirSync, existsSync, statSync, rmSync, readdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -13,8 +13,8 @@ const repo = join(here, '../../..');
 const require = createRequire(import.meta.url);
 const { chromium } = require('playwright');
 
-const ID = 'A01-stats', TITLE = 'Outdoor Living Statistics 2026';
-const PDF = `Bromic-${ID}-Outdoor-Living-Statistics-2026.pdf`;
+const ID = 'A01-stats', TITLE = 'Outdoor Living Statistics 2027';
+const PDF = `Bromic-${ID}-Outdoor-Living-Statistics-2027.pdf`;
 
 // ---- Images: Bromic library webp -> JPEG q82, long side <= 2000 px -------
 const IMGS = ['t-001-000', 't-005-013', 't-012-034'];
