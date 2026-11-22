@@ -113,8 +113,8 @@ Name a basis-of-design product and the attributes a substitute must match. Gener
 | Product | Output | Coverage (approx.) | Mounting | Status |
 |---|---|---|---|---|
 | Platinum Smart-Heat Electric | 2300W, 3400W, 4500W | 65–143 ft² | Recessed, ceiling, wall | Current |
-| Tungsten Smart-Heat Electric, Select | [[VERIFY: wattages — Product team]] | 64–144 ft² | Low-clearance recessed, ceiling, wall, single post | Coming soon |
-| Tungsten Smart-Heat Electric, Coastal (316 stainless) | [[VERIFY: wattages — Product team]] | 64–144 ft² | Marine-grade low-clearance recessed, ceiling, wall, single post | Coming soon |
+| Tungsten Smart-Heat Electric, Select | [[VERIFY: wattages — Product team]] | 64–144 ft² | Low-clearance recessed, ceiling, wall, single post | Current (launched October 2026) |
+| Tungsten Smart-Heat Electric, Coastal (316 stainless) | [[VERIFY: wattages — Product team]] | 64–144 ft² | Marine-grade low-clearance recessed, ceiling, wall, single post | Current (launched October 2026) |
 | Eclipse Smart-Heat Electric | 33 / 66 / 100% output | 121 ft² | Single pole 8, 24 or 48 in, double or curved pole | Current |
 | Eclipse Smart-Heat Freestanding Electric | 33 / 66 / 100% output | 121 ft² | Freestanding, wheeled, weighted base | Current |
 

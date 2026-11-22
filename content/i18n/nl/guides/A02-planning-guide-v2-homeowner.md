@@ -37,7 +37,7 @@ sources:
     title: "Lookbook 2026"
     year: 2026
     url: sources/Bromic_Lookbook_2026.pdf
-    supports: "Tungsten Coastal and Select (coming soon, 64–144 ft²), Eclipse and Tungsten Freestanding Gas coverage, Affinity Smart-Heat Controls and integrations, design service"
+    supports: "Tungsten Coastal and Select (64–144 ft²), Eclipse and Tungsten Freestanding Gas coverage, Affinity Smart-Heat Controls and integrations, design service"
     verified: true
   - id: s3
     publisher: Bromic Heating
@@ -306,8 +306,8 @@ De juiste verwarmer ziet eruit alsof hij altijd al bij het huis hoorde, of hij n
 | Platinum Smart-Heat Gas | Inbouwgas, twee maten | Muur of plafond; beugels meegeleverd | Zwart of roestvast staal[^s10] |
 | Tungsten Smart-Heat Gas | Inbouwgas, twee maten; zwenkarm ±25° | Muur of plafond | Mat zwart[^s11] |
 | Tungsten Smart-Heat Freestanding Gas | Kantelbare kop, wielen, anti-kantelontwerp | Vrijstaand | Zwart[^s2] |
-| Tungsten Smart-Heat Electric, Coastal-collectie (binnenkort) | 316 roestvast staal van scheepskwaliteit; Signature Diamond Pattern-rooster | Inbouw (lage inbouwhoogte), plafond, muur, enkele paal | Zwart of wit[^s2] |
-| Tungsten Smart-Heat Electric, Select-collectie (binnenkort) | Meer keuze in frontafwerking | Inbouw (lage inbouwhoogte), plafond, muur, enkele paal | Zwart, wit of grafiet[^s2] |
+| Tungsten Smart-Heat Electric, Coastal-collectie | 316 roestvast staal van scheepskwaliteit; Signature Diamond Pattern-rooster | Inbouw (lage inbouwhoogte), plafond, muur, enkele paal | Zwart of wit[^s2] |
+| Tungsten Smart-Heat Electric, Select-collectie | Meer keuze in frontafwerking | Inbouw (lage inbouwhoogte), plafond, muur, enkele paal | Zwart, wit of grafiet[^s2] |
 
 Houd je van de strakke, vlakke uitstraling van een ingebouwde verwarmer, beslis dan voordat het plafond gebouwd wordt, want daarvoor is een inbouwset nodig.
 
@@ -330,7 +330,7 @@ Elke gast hoort op elke stoel de hele avond comfortabel te zitten. De gratis [ca
 | Platinum Gas 6,9 / 11,7 kW | 14,9 / 20,0 m²[^s10] |
 | Tungsten Gas inbouw, kleiner / groter model | 14,9 / 20,0 m²[^s11] |
 | Tungsten Freestanding Gas, 11,1 kW | 20,0 m²[^s2] |
-| Tungsten Electric Coastal en Select (binnenkort) | 5,9–13,4 m² afhankelijk van het model[^s2] |
+| Tungsten Electric Coastal en Select | 5,9–13,4 m² afhankelijk van het model[^s2] |
 
 Het verwarmde oppervlak is een benadering en hangt af van montagehoogte, wind en installatie[^s2]. Waarden van de Amerikaanse productpagina's, gelezen op 29 oktober 2026 en omgerekend naar m². [[VERIFY: verwarmd oppervlak en vermogen per model tegen de productbladen van 2026; Eclipse 2900 W (specificatietabel) tegenover 3000 W (FAQ); Tungsten Freestanding Gas 11,1 kW (Lookbook) tegenover 11,3 kW (website) — productteam]]
 

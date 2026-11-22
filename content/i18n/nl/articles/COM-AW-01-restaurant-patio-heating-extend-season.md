@@ -98,7 +98,7 @@ Kies op basis van de constructie, de energie ter plaatse en hoe vaak de opstelli
 | Pergola of luifel, warmte plus licht | Eclipse Smart-Heat Electric (aan een stang) | ca. 11 m² | Eclipse-regelaar, wandschakelaar, app |
 | Open opstelling die elke avond verandert | Eclipse Smart-Heat Freestanding Electric | ca. 11 m², en niet meer dan 4 stoelen per verwarmer | Eclipse-regelaar [[VERIFY: koppeling van de regelaar voor de vrijstaande Eclipse — productteam]] |
 | Groot open terrein, gas ter plaatse | Tungsten Smart-Heat Freestanding Gas (11,1 kW, aardgas of propaan) | ca. 20 m², en niet meer dan 4 stoelen per verwarmer | [[VERIFY: Affinity-bedieningsopties voor Tungsten Freestanding Gas — productteam]] |
-| Architectonische inbouw | Tungsten Smart-Heat Electric, Coastal of Select (binnenkort leverbaar) | 6–13 m² | Affinity Smart-Heat On/Off- of Dimmer-regelaar, wandschakelaar, app |
+| Architectonische inbouw | Tungsten Smart-Heat Electric, Coastal of Select | 6–13 m² | Affinity Smart-Heat On/Off- of Dimmer-regelaar, wandschakelaar, app |
 
 [[VERIFY: welke van deze modellen en uitvoeringen (gas, propaan) in Nederland leverbaar zijn — Bromic Benelux distributor]]
 

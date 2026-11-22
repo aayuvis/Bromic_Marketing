@@ -79,7 +79,7 @@ Space your heaters so their coverage areas meet and slightly overlap over the se
 | Heater | Approx. coverage per heater[^s2] |
 |---|---|
 | Platinum Smart-Heat Electric (2300/3400/4500 W) | 65–143 ft² |
-| Tungsten Smart-Heat Electric, Coastal and Select (coming soon) | 64–144 ft² |
+| Tungsten Smart-Heat Electric, Coastal and Select | 64–144 ft² |
 | Eclipse Smart-Heat Electric / Freestanding Electric | 121 ft² |
 | Tungsten Smart-Heat Freestanding Gas | 215 ft² |
 
@@ -94,10 +94,10 @@ Clearance to combustibles is the minimum distance between a heater and anything 
 There are several elegant ways to design within it:
 
 - **With gas heaters**, dual-layer stainless heat deflectors reduce the clearance needed above the heater, and ceiling poles mount two units back to back under flat or pitched ceilings.[^s1]
-- **With electric heaters**, recess kits flush-mount Platinum and Tungsten Electric into a roof cavity, built to the recess clearances in the manual.[^s1] The Tungsten collections, coming soon, add low-clearance recessing.[^s2]
+- **With electric heaters**, recess kits flush-mount Platinum and Tungsten Electric into a roof cavity, built to the recess clearances in the manual.[^s1] The Tungsten Select and Coastal collections add low-clearance recessing.[^s2]
 - **Around soft furnishings**, keep fabric, umbrellas and cushions out of the heat path. As general home-heating guidance, NFPA advises keeping anything that can burn at least three feet from heating equipment.[^s3] [[VERIFY: NFPA tip wording; heater-specific distances come from the manual — Marketing]]
 
-![Tungsten Coastal (coming soon) recessed flush into a white ceiling](img:l-005-022)
+![Tungsten Coastal recessed flush into a white ceiling](img:l-005-022)
 
 ## How A Covered Patio Helps
 

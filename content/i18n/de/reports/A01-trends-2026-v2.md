@@ -256,7 +256,7 @@ Die AIA-Werte sind Nettowerte (steigend minus fallend). Die Atomik-Umfrage unter
 - **Verschobene Zahlen, damit jeder Trend eine trägt.** 67 % von Trend 01 zu 02, 23 % von 02 zu 10, 9,9 von 03 zu 08. Die Trends 07 und 09 hatten im Original keine; jeder trägt jetzt eine Produktangabe von Bromic aus dem Lookbook statt einer Marktzahl.
 - **Umgesetzte Korrekturen.** Alle 38 Punkte aus [der Korrekturdatei](item:A01-corrections): „Studies“, „radiant“, „integration“, „Multi-Use“, „beginning“; der fehlerhafte Satz in Trend 04 neu geschrieben; der Einblick zur smarten Steuerung von S. 10 zu Trend 07 verschoben und Trend 08 einen Einblick zur Gestaltung gegeben; die 23 % umformuliert zu „setzen … bei der Planung ganz oben auf die Liste“; die Überschrift mit „=“; überzählige Leerzeichen; ein Format für Quellenzeilen; eine Quellenseite ergänzt.
 - **Marketing-Überarbeitung (19. Nov. 2026).** Jeder Trend beginnt jetzt mit dem Moment vor seiner Zahl; die Quellentabelle ist ein Absatz geworden (jede Zahl behält ihren Beleg); „Verlängern Sie den Moment“ ist das Zitat.
-- **Regeln.** Jede Heizstrahler-Empfehlung nennt ihre Steuerung; WLAN- und App-Funktionen sind als abhängig von kompatiblen, separat erhältlichen Affinity-Steuergeräten gekennzeichnet. Keine alten Serienbezeichnungen, kein Text zu Tungsten Coastal oder Select (beide demnächst erhältlich).
+- **Regeln.** Jede Heizstrahler-Empfehlung nennt ihre Steuerung; WLAN- und App-Funktionen sind als abhängig von kompatiblen, separat erhältlichen Affinity-Steuergeräten gekennzeichnet. Keine alten Serienbezeichnungen, kein Text zu Tungsten Coastal oder Select.
 - **Deutsche Fassung.** Alle Marktzahlen stammen aus den USA und sind so gekennzeichnet; es wurden keine deutschen Zahlen ergänzt. Die Heizfläche ist in m² umgerechnet. Die Bromic-Leitgedanken („Extend The Moment“, „Heat You Can Feel, Not See“) sind sinngemäß übertragen. [[VERIFY: ob für Deutschland eigene Marktzahlen gesucht werden sollen und ob Slogans übersetzt werden — Partner Deutschland]]
 
 ## Layouthinweise für 454 Creative
@@ -286,5 +286,5 @@ Die AIA-Werte sind Nettowerte (steigend minus fallend). Die Atomik-Umfrage unter
 | 09 Kleine Flächen | `t-011-031` Eclipse Freestanding, kompakter Garten | `l-016-131` Eclipse Freestanding, Dachterrasse in der Stadt |
 | 10 Vom Zubehör zum Einbau | `t-012-034` Terrasse mit Pergola und Küche | `l-010-070` Platinum, Essen im Innenhof |
 
-- **Bildunterschriften.** Lookbook-Bilder sind Gestaltungsideen, keine Montageanleitung; keines davon als Montagedetail beschriften. Wird ein Bild von Tungsten Coastal oder Select eingesetzt, muss die Bildunterschrift „demnächst erhältlich“ sagen.
+- **Bildunterschriften.** Lookbook-Bilder sind Gestaltungsideen, keine Montageanleitung; keines davon als Montagedetail beschriften. Wird ein Bild von Tungsten Coastal oder Select eingesetzt, nennt die Bildunterschrift die Kollektion (beide seit Oktober 2026 erhältlich).
 - **Zugang.** Das PDF bleibt hinter einem Formular (HubSpot); der Schlussbutton heißt „Fläche berechnen“ und führt zum Flächenrechner (A03).

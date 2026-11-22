@@ -133,8 +133,8 @@ Beginnen Sie mit den Menschen, die den Bereich nutzen werden. Ein Esstisch verla
 | Platinum Smart-Heat Electric | Aktuell | 2300 W, 3400 W, 4500 W | Schwarz, Weiß; Varianten Classic und Marine | 6–13 m² (je nach Modell und Größe) | Eingelassen, Decke, Wand | Überdachte Terrassen, Untersichten, Außenküchen, Küstenlagen (Marine) | Affinity On/Off- oder Dimmer-Steuergerät + manueller Wandschalter; App über kompatible Affinity-Steuerung |
 | Eclipse Smart-Heat Electric | Aktuell | Heizstufen 33 / 66 / 100 % [[VERIFY: Nennleistung und Spannung — Produktteam]] | Schwarz, dimmbare Randbeleuchtung | ca. 11 m² | Einzelstange 200 mm, 610 mm oder 1220 mm; Doppelstange; gebogene Stange | Esstische und Lounges, an denen Wärme und Licht aus einer Leuchte kommen | Affinity Eclipse-Steuergerät + manueller Wandschalter; App über kompatible Affinity-Steuerung |
 | Eclipse Smart-Heat Freestanding Electric | Aktuell | 33 / 66 / 100 % | Schwarz, dimmbare Randbeleuchtung | ca. 11 m² | Freistehend: integrierte Räder, beschwerter Fuß, gebogener Arm | Flexible Lounge- und Terrassenaufteilungen; Ausstattung (FF&E) statt Einbau | Affinity Eclipse-Steuergerät [[VERIFY: Steuerungsart der freistehenden Variante — Produktteam]] |
-| Tungsten Smart-Heat Electric, Coastal collection (demnächst erhältlich) | Demnächst erhältlich | [[VERIFY: Leistungen — Produktteam]] | Schwarz, Weiß; Edelstahl 316 in Marinequalität; Signature Diamond Pattern-Gitter | 6–13 m² (je nach Modell und Größe) | Eingelassen (Marine-Ausführung mit geringer Einbautiefe), Decke, Wand, Einzelpfosten | Lagen am Wasser und in Meeresnähe | Affinity-Steuerung wie bei Platinum [[VERIFY: Kompatibilität der Steuergeräte — Produktteam]] |
-| Tungsten Smart-Heat Electric, Select collection (demnächst erhältlich) | Demnächst erhältlich | [[VERIFY: Leistungen — Produktteam]] | Schwarz, Weiß, Graphit; erweiterte Blendenoptionen | 6–13 m² (je nach Modell und Größe) | Eingelassen (geringe Einbautiefe), Decke, Wand, Einzelpfosten | Gestaltungsorientierte Wohn- und Hotelprojekte | Affinity-Steuerung wie bei Platinum [[VERIFY: Kompatibilität der Steuergeräte — Produktteam]] |
+| Tungsten Smart-Heat Electric, Coastal collection | Aktuell (seit Oktober 2026) | [[VERIFY: Leistungen — Produktteam]] | Schwarz, Weiß; Edelstahl 316 in Marinequalität; Signature Diamond Pattern-Gitter | 6–13 m² (je nach Modell und Größe) | Eingelassen (Marine-Ausführung mit geringer Einbautiefe), Decke, Wand, Einzelpfosten | Lagen am Wasser und in Meeresnähe | Affinity-Steuerung wie bei Platinum [[VERIFY: Kompatibilität der Steuergeräte — Produktteam]] |
+| Tungsten Smart-Heat Electric, Select collection | Aktuell (seit Oktober 2026) | [[VERIFY: Leistungen — Produktteam]] | Schwarz, Weiß, Graphit; erweiterte Blendenoptionen | 6–13 m² (je nach Modell und Größe) | Eingelassen (geringe Einbautiefe), Decke, Wand, Einzelpfosten | Gestaltungsorientierte Wohn- und Hotelprojekte | Affinity-Steuerung wie bei Platinum [[VERIFY: Kompatibilität der Steuergeräte — Produktteam]] |
 
 Die Heizfläche je Platinum-Leistungsstufe ist in diesem Paket noch nicht veröffentlicht. [[VERIFY: Heizfläche und Montagehöhe je Platinum-Leistung (2300 / 3400 / 4500 W) — Produktteam]]
 
@@ -230,14 +230,14 @@ D. **Eclipse Smart-Heat Freestanding Electric** *[in der Regel als Ausstattung (
 2. Heizstufen: 33 %, 66 %, 100 %. Heizfläche ca. 11 m².
 3. Stromversorgung: [[VERIFY: Stecker/Kabel und Steckdosenanforderungen — Produktteam]].
 
-E. **Tungsten Smart-Heat Electric, Coastal collection (demnächst erhältlich)** *[erst ausschreiben, wenn Bromic die Verfügbarkeit für den Projektzeitplan bestätigt]*:
+E. **Tungsten Smart-Heat Electric, Coastal collection**:
 1. Edelstahl 316 in Marinequalität; Signature Diamond Pattern-Gitter.[^s1]
 2. Oberfläche: [Schwarz] [Weiß].
 3. Montage: [eingelassen, Marine-Ausführung mit geringer Einbautiefe] [Decke] [Wand] [Einzelpfosten].
 4. Heizfläche ca. 6–13 m² je nach Modell und Größe.
 5. Leistung, Spannung, Abmessungen: [[VERIFY — Produktteam]].
 
-F. **Tungsten Smart-Heat Electric, Select collection (demnächst erhältlich)** *[wie oben]*:
+F. **Tungsten Smart-Heat Electric, Select collection**:
 1. Oberfläche: [Schwarz] [Weiß] [Graphit]; erweiterte Blendenoptionen.[^s1]
 2. Montage: [eingelassen, geringe Einbautiefe] [Decke] [Wand] [Einzelpfosten].
 3. Heizfläche ca. 6–13 m² je nach Modell und Größe.

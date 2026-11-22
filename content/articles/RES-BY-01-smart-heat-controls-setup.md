@@ -45,7 +45,7 @@ Your system builds up in layers, from the wall upwards.
 
 | Layer | What it is | What it gives you |
 |---|---|---|
-| Heater | Platinum, Tungsten Electric (Coastal and Select, coming soon) or Eclipse | The heat |
+| Heater | Platinum, Tungsten Electric (Coastal and Select) or Eclipse | The heat |
 | Controller | Affinity Smart-Heat On/Off, Dimmer or Eclipse controller; or a manual wall switch[^s1] | On/off; Dimmer adds output levels; Eclipse controller runs Eclipse heat and light |
 | Bromic Smart-Heat app | Phone app, with compatible Affinity controls[^s1] | Adjust heat, set timers and schedules, manage zones from anywhere[^s1] |
 | Voice and smart home | Amazon Alexa, Google Assistant, Control4, Crestron, Lutron[^s1] | Hands-free and whole-home control; compatibility varies and may need extra integration hardware or configuration[^s1] |

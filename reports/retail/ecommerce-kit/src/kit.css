@@ -57,7 +57,7 @@ ul { padding-left: 18px; margin: 0; }
 .modules { padding: 36px 0; }
 .modules figure { margin: 18px 0; } .modules img { width: 100%; border: 1px solid var(--line); } figcaption { font-size: 12px; color: var(--steel); }
 footer { text-align: center; font-size: 12px; color: var(--steel); padding: 24px 16px; }
-@media (max-width: 760px) {
+@media screen and (max-width: 760px) {
   .grid, .two, .enh { grid-template-columns: 1fr; }
   .toc { columns: 1; } .cover h1 { font-size: 38px; } h2 { font-size: 28px; }
   table { font-size: 12.5px; } .var { display: block; overflow-x: auto; }

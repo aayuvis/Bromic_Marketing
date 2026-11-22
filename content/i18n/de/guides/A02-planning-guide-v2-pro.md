@@ -33,7 +33,7 @@ sources:
     title: "Lookbook 2026"
     year: 2026
     url: sources/Bromic_Lookbook_2026.pdf
-    supports: "Tungsten Coastal and Select (coming soon, 64–144 ft²), Eclipse and Tungsten Freestanding Gas coverage, Affinity Smart-Heat Controls and integrations, design service"
+    supports: "Tungsten Coastal and Select (64–144 ft²), Eclipse and Tungsten Freestanding Gas coverage, Affinity Smart-Heat Controls and integrations, design service"
     verified: true
   - id: s3
     publisher: Bromic Heating
@@ -248,7 +248,7 @@ Regeln laut Leitfaden von 2021[^s3].
 
 Beginnen Sie mit einer Wärmekarte. Markieren Sie, wo Menschen sitzen, essen, stehen und hindurchgehen, und legen Sie die Wärme über diese Zonen, bevor Sie Oberfläche oder Montage wählen, damit der Komfort von Anfang an im Grundriss steckt[^s25]. Heizstrahler konkurrieren in der Untersicht mit Einbauleuchten, Ventilatoren, Lautsprechern und Lüftungskanälen, und die Abstimmung mit TGA- und Lichtplanung in der Entwurfsplanung vermeidet Nacharbeit, wenn der Deckenspiegel voll ist[^s25].
 
-Wenige, leistungsstärkere Heizstrahler an den richtigen Stellen versorgen einen Raum meist besser als viele kleine und wirken an der Decke ruhiger. Stimmen Sie die Oberfläche auf die umgebenden Materialien ab, von Schwarz und Weiß bis Edelstahl und dem Graphit der demnächst erhältlichen Select Kollektion, damit der Heizstrahler zur Architektur gehört[^s25][^s2].
+Wenige, leistungsstärkere Heizstrahler an den richtigen Stellen versorgen einen Raum meist besser als viele kleine und wirken an der Decke ruhiger. Stimmen Sie die Oberfläche auf die umgebenden Materialien ab, von Schwarz und Weiß bis Edelstahl und dem Graphit der Select Kollektion, damit der Heizstrahler zur Architektur gehört[^s25][^s2].
 
 - [ ] Beheizte Zonen über Sitzplätzen und Barbereichen gezeichnet, nicht über Laufwegen: ______ m² je Zone
 - [ ] Montageflächen: Untersicht / Balken / Wand / Pfosten; Höhen über OKFF ______
@@ -314,14 +314,14 @@ Immer mehr Städte beschränken neue Gasanschlüsse und mobile Flüssiggasgerät
 | Platinum Smart-Heat Gas | ca. 6,9 / 11,7 kW; Erdgas oder Flüssiggas | ca. 15 / 20 m² | Wand oder Decke; Stangen erhältlich | Intertek 4009079 | 2 J., ausgenommen Schläuche, Zünder[^s10] |
 | Tungsten Smart-Heat Gas (Einbau) | Zwei Modelle; Leistung hier nicht veröffentlicht | ca. 15 / 20 m² | Wand oder Decke; Schwenkarm ±25° | [[VERIFY]] | 2 J., ausgenommen Schläuche, Zünder[^s11] |
 | Tungsten Smart-Heat Freestanding Gas | ca. 11,1 kW; Flüssiggasflasche (US: 20 lb, ca. 9 kg) oder Erdgas-Schnellkupplung | ca. 20 m² | Freistehend | Intertek 4009079 (Flüssiggas) | 1 J. (Flüssiggas)[^s12] |
-| Tungsten Electric Coastal (demnächst erhältlich) | [[VERIFY: Leistungen]]; Edelstahl 316 | ca. 6–13 m² | Seewasserbeständig, eingelassen bei geringer Einbautiefe, Decke, Wand, Einzelpfosten | [[VERIFY]] | [[VERIFY]][^s2] |
-| Tungsten Electric Select (demnächst erhältlich) | [[VERIFY: Leistungen]] | ca. 6–13 m² | Eingelassen bei geringer Einbautiefe, Decke, Wand, Einzelpfosten | [[VERIFY]] | [[VERIFY]][^s2] |
+| Tungsten Electric Coastal | [[VERIFY: Leistungen]]; Edelstahl 316 | ca. 6–13 m² | Seewasserbeständig, eingelassen bei geringer Einbautiefe, Decke, Wand, Einzelpfosten | [[VERIFY]] | [[VERIFY]][^s2] |
+| Tungsten Electric Select | [[VERIFY: Leistungen]] | ca. 6–13 m² | Eingelassen bei geringer Einbautiefe, Decke, Wand, Einzelpfosten | [[VERIFY]] | [[VERIFY]][^s2] |
 
 Spannungen, Zertifizierungen und Garantien sind die US-Angaben; in Deutschland ist das Netz 230 V, 50 Hz, und ETL/cETL sind nordamerikanische Prüfzeichen. [[VERIFY: CE-Kennzeichnung, Ausführungen für 230 V und Garantiebedingungen für Deutschland je Modell — Produktteam]]
 
 Artikelnummern, Platinum Electric: 2300 W BH0320003 Schwarz / BH0320007 Weiß; 3400 W BH0320005 / BH0320008; 4500 W BH3622000 / BH3622001[^s5]. Platinum Gas: BH0110001-1 Erdgas / -002-1 Flüssiggas (ca. 6,9 kW); BH0110003-1 Erdgas / BH0110004-1 Flüssiggas (ca. 11,7 kW)[^s10]. Tungsten Gas Einbau: BH0210001-1 Erdgas / BH0210002-1 Flüssiggas (ca. 15 m²); BH0210003-1 Erdgas / BH0210004-1 Flüssiggas (ca. 20 m²)[^s11]. [[VERIFY: ob diese Artikelnummern auch für Deutschland gelten — Produktteam]]
 
-Die Werte der Produktseiten wurden am 29. Oktober 2026 gelesen, und wo sie abweichen, gilt das Lookbook 2026[^s2]. Offene Widersprüche sind zur Bestätigung aufgeführt: [[VERIFY: Eclipse 2900 W (Datentabelle) gegenüber 3000 W (FAQ); Tungsten Freestanding Gas ca. 11,1 kW (Lookbook, hier verwendet) gegenüber ca. 11,3 kW (Website); Cobalt ca. 12/15 m² (Datentabelle, hier verwendet) gegenüber „bis zu ca. 13 m²“ (Merkmale); ob der aktuelle Tungsten Electric 6000 W (ca. 15 m²) bleibt, wenn Coastal und Select (ca. 6–13 m²) erscheinen; Platinum Electric Marine Edelstahl 316 gegenüber 314 (FAQ) — Produktteam]]. Die Leistung des Tungsten Gas Einbaugeräts wird zurückgehalten, bis sie bestätigt ist.
+Die Werte der Produktseiten wurden am 29. Oktober 2026 gelesen, und wo sie abweichen, gilt das Lookbook 2026[^s2]. Offene Widersprüche sind zur Bestätigung aufgeführt: [[VERIFY: Eclipse 2900 W (Datentabelle) gegenüber 3000 W (FAQ); Tungsten Freestanding Gas ca. 11,1 kW (Lookbook, hier verwendet) gegenüber ca. 11,3 kW (Website); Cobalt ca. 12/15 m² (Datentabelle, hier verwendet) gegenüber „bis zu ca. 13 m²“ (Merkmale); ob der aktuelle Tungsten Electric 6000 W (ca. 15 m²) bleibt, nachdem Coastal und Select (ca. 6–13 m²) eingeführt sind (Series I wird bis zu Classic ab Januar 2027 abverkauft); Platinum Electric Marine Edelstahl 316 gegenüber 314 (FAQ) — Produktteam]]. Die Leistung des Tungsten Gas Einbaugeräts wird zurückgehalten, bis sie bestätigt ist.
 
 | Zubehör | Energie | Zweck |
 |---|---|---|
@@ -332,12 +332,12 @@ Die Werte der Produktseiten wurden am 29. Oktober 2026 gelesen, und wo sie abwei
 
 ### Den Einbau detaillieren
 
-Ein eingelassener Heizstrahler gibt Wärme, die man spürt, ohne sie zu sehen, und hält die Linie der Untersicht ruhig[^s25]. Der Einbau ist ein elektrisches Detail: Platinum und Tungsten Electric werden mit einem Einbausatz eingelassen, und die demnächst erhältlichen Kollektionen Coastal und Select ergänzen den Einbau bei geringer Einbautiefe für flache Hohlräume, im Bestand wie im Neubau[^s2][^s25]. Fest eingebaute Gasheizstrahler werden auf Wand oder Decke aufgesetzt.
+Ein eingelassener Heizstrahler gibt Wärme, die man spürt, ohne sie zu sehen, und hält die Linie der Untersicht ruhig[^s25]. Der Einbau ist ein elektrisches Detail: Platinum und Tungsten Electric werden mit einem Einbausatz eingelassen, und die Kollektionen Coastal und Select ergänzen den Einbau bei geringer Einbautiefe für flache Hohlräume, im Bestand wie im Neubau[^s2][^s25]. Fest eingebaute Gasheizstrahler werden auf Wand oder Decke aufgesetzt.
 
 Zeichnen Sie jeden Einbau als eigenes Detail, abgestimmt mit Tragwerk und Deckenspiegel: Einbausatz und Ausschnitt, Hohlraumtiefe über der fertigen Decke, Auswechslung oder Unterkonstruktion um die Öffnung, Lage und Zugänglichkeit der Abzweigdose sowie die Abstände, die die Anleitung zum Tragwerk und zu brennbaren Materialien vorgibt. [[VERIFY: Artikelnummern des Zubehörs, Ausschnitte, Hohlraumtiefen und Kompatibilität der Einbausätze, einschließlich Einbau von Coastal und Select — Produktteam]]
 
 - [ ] Modell, Leistung in W oder kW, Spannung, Oberfläche und Artikelnummer je Position
-- [ ] Für demnächst erhältliche Modelle ist eine freigegebene aktuelle Alternative angegeben
+- [ ] Für noch nicht erhältliche Modelle ist eine freigegebene aktuelle Alternative angegeben
 - [ ] Einbausätze, Stangen, Wärmeabweiser aufgelistet; Einbaudetail gezeichnet? J / N
 
 ![Nahaufnahme eines schwarzen Tungsten Select Gitters, das warm leuchtet](img:l-007-034)
@@ -472,6 +472,6 @@ Vollständige Freigabeunterlagen je Heizstrahlerposition umfassen die folgenden 
 - [ ] Details zu Einbau, Stange oder Wärmeabweiser
 - [ ] Plan der Heizflächen vom Planungsservice; Garantiebedingungen
 
-![Tungsten Coastal (demnächst erhältlich), bündig in eine weiße Decke eingelassen](img:l-005-022)
+![Tungsten Coastal, bündig in eine weiße Decke eingelassen](img:l-005-022)
 
 Laden Sie das Spezifikationspaket herunter, mit CSI-Abschnitten, Details und Tabellen der Heizflächen, bereit für Ihren Plansatz.

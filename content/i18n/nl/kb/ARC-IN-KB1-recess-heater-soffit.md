@@ -36,7 +36,7 @@ sources:
     title: "Lookbook 2026"
     year: 2026
     url: sources/Bromic_Lookbook_2026.pdf
-    supports: "Platinum recessed/ceiling/wall, 65–143 ft²; Tungsten Select and Coastal low-clearance recessing (coming soon), 64–144 ft²; Affinity controls"
+    supports: "Platinum recessed/ceiling/wall, 65–143 ft²; Tungsten Select and Coastal low-clearance recessing, 64–144 ft²; Affinity controls"
     verified: true
 ---
 
@@ -45,8 +45,8 @@ Dat kan, en een vlak ingebouwde verwarmer is een van de meest verfijnde manieren
 | Verwarmer | Inbouw | Verwarmd oppervlak (ca.) |
 |---|---|---|
 | Platinum Smart-Heat Electric (2300/3400/4500W) | Inbouwset | ca. 6–13 m² |
-| Tungsten Smart-Heat Electric, Select (binnenkort) | Inbouw met lage vrije hoogte | ca. 6–13 m² |
-| Tungsten Smart-Heat Electric, Coastal (binnenkort) | Zeewaterbestendige inbouw met lage vrije hoogte | ca. 6–13 m² |
+| Tungsten Smart-Heat Electric, Select | Inbouw met lage vrije hoogte | ca. 6–13 m² |
+| Tungsten Smart-Heat Electric, Coastal | Zeewaterbestendige inbouw met lage vrije hoogte | ca. 6–13 m² |
 
 Bron: Lookbook 2026 en Planning Guide[^s1][^s2].
 

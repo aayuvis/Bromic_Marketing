@@ -34,7 +34,7 @@ sources:
     title: "Lookbook 2026"
     year: 2026
     url: sources/Bromic_Lookbook_2026.pdf
-    supports: "Tungsten Coastal and Select (coming soon, 64–144 ft²), Eclipse and Tungsten Freestanding Gas coverage, Affinity Smart-Heat Controls (zones, schedules, integrations), design service"
+    supports: "Tungsten Coastal and Select (64–144 ft²), Eclipse and Tungsten Freestanding Gas coverage, Affinity Smart-Heat Controls (zones, schedules, integrations), design service"
     verified: true
   - id: s3
     publisher: Bromic Heating
@@ -369,8 +369,8 @@ Over five years that is $22,160 for electric, $19,190 for natural gas and $51,08
 | Platinum Smart-Heat Gas, 23,600 / 39,800 Btu/h | Larger open terraces, fixed gas | 2 yr excl. hoses, igniters[^s10] |
 | Tungsten Smart-Heat Gas built-in, two sizes | Larger open terraces, fixed gas; pivot arm | 2 yr excl. hoses, igniters[^s11] |
 | Tungsten Smart-Heat Freestanding Gas | Open terraces; propane or natural-gas quick-connect | 1 yr (propane)[^s12] |
-| Tungsten Electric Coastal (coming soon) | Waterfront venues; 316 stainless | [[VERIFY]][^s2] |
-| Tungsten Electric Select (coming soon) | Design-led venues; Black, White, Graphite | [[VERIFY]][^s2] |
+| Tungsten Electric Coastal | Waterfront venues; 316 stainless | [[VERIFY]][^s2] |
+| Tungsten Electric Select | Design-led venues; Black, White, Graphite | [[VERIFY]][^s2] |
 
 [[VERIFY: warranty terms for commercial use, and the Tungsten Freestanding Gas natural-gas warranty — Product team]]
 
@@ -378,7 +378,7 @@ Choose the look with the room in mind. A finish that matches the canopy, beams o
 
 - [ ] Heater family per site type: canopy / wall / pendant / freestanding
 - [ ] Finish: ______
-- [ ] Coming-soon models carry an approved current alternate
+- [ ] Any model not yet available carries an approved current alternate
 
 ![Wall-arm Eclipse heaters over a restaurant terrace](img:l-013-111)
 
@@ -397,7 +397,7 @@ The factors are there because the same heater covers less on a cold night, and w
 | Platinum Gas 23,600 / 39,800 Btu/h | 160 / 215 ft²[^s10] |
 | Tungsten Gas built-in, smaller / larger | 160 / 215 ft²[^s11] |
 | Tungsten Freestanding Gas, 38,000 Btu/h | 215 ft²[^s2] |
-| Tungsten Electric Coastal and Select (coming soon) | 64–144 ft²[^s2] |
+| Tungsten Electric Coastal and Select | 64–144 ft²[^s2] |
 
 Coverage is approximate and varies with mounting height, environment and installation[^s2]. [[VERIFY: Eclipse 2900 W vs 3000 W; Tungsten Freestanding Gas 38,000 vs 38,500 Btu/h; per-model coverage against the 2026 cut sheets — Product team]]
 

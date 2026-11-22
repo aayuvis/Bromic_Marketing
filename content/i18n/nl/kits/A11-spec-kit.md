@@ -135,8 +135,8 @@ Begin bij de mensen die de ruimte gaan gebruiken. Een eettafel vraagt om gelijkm
 | Platinum Smart-Heat Electric | Leverbaar | 2300 W, 3400 W, 4500 W | Zwart, wit; Classic- en Marine-uitvoering | 6–13 m² (per model en maat) | Inbouw, plafond, wand | Overdekte terrassen, overstekken, buitenkeukens, kust (Marine) | Affinity On/Off- of Dimmer-regelaar + handmatige wandschakelaar; app via compatibele Affinity-bediening |
 | Eclipse Smart-Heat Electric | Leverbaar | Warmteafgifte 33 / 66 / 100% [[VERIFY: nominaal vermogen en spanning — productteam]] | Zwart, dimbare randverlichting | 11 m² | Enkele pendel van ca. 200, 610 of 1220 mm; dubbele pendel; gebogen pendel | Eettafels en loungehoeken waar warmte en licht één armatuur zijn | Affinity Eclipse-regelaar + handmatige wandschakelaar; app via compatibele Affinity-bediening |
 | Eclipse Smart-Heat Freestanding Electric | Leverbaar | 33 / 66 / 100% | Zwart, dimbare randverlichting | 11 m² | Vrijstaand: geïntegreerde wieltjes, verzwaarde voet, gebogen arm | Flexibele indelingen van lounge en terras; los meubilair in plaats van inbouw | Affinity Eclipse-regelaar [[VERIFY: bedieningswijze vrijstaande uitvoering — productteam]] |
-| Tungsten Smart-Heat Electric, Coastal-collectie (binnenkort beschikbaar) | Binnenkort beschikbaar | [[VERIFY: vermogens — productteam]] | Zwart, wit; maritiem roestvast staal 316; Signature Diamond Pattern-rooster | 6–13 m² (per model en maat) | Inbouw (maritieme uitvoering met geringe inbouwhoogte), plafond, wand, enkele paal | Locaties aan het water en maritieme omgevingen | Affinity-bediening zoals bij Platinum [[VERIFY: compatibiliteit regelaars — productteam]] |
-| Tungsten Smart-Heat Electric, Select-collectie (binnenkort beschikbaar) | Binnenkort beschikbaar | [[VERIFY: vermogens — productteam]] | Zwart, wit, grafiet; uitgebreide keuze in frontplaten | 6–13 m² (per model en maat) | Inbouw (geringe inbouwhoogte), plafond, wand, enkele paal | Woningen en horeca waar ontwerp voorop staat | Affinity-bediening zoals bij Platinum [[VERIFY: compatibiliteit regelaars — productteam]] |
+| Tungsten Smart-Heat Electric, Coastal-collectie | Leverbaar (gelanceerd in oktober 2026) | [[VERIFY: vermogens — productteam]] | Zwart, wit; maritiem roestvast staal 316; Signature Diamond Pattern-rooster | 6–13 m² (per model en maat) | Inbouw (maritieme uitvoering met geringe inbouwhoogte), plafond, wand, enkele paal | Locaties aan het water en maritieme omgevingen | Affinity-bediening zoals bij Platinum [[VERIFY: compatibiliteit regelaars — productteam]] |
+| Tungsten Smart-Heat Electric, Select-collectie | Leverbaar (gelanceerd in oktober 2026) | [[VERIFY: vermogens — productteam]] | Zwart, wit, grafiet; uitgebreide keuze in frontplaten | 6–13 m² (per model en maat) | Inbouw (geringe inbouwhoogte), plafond, wand, enkele paal | Woningen en horeca waar ontwerp voorop staat | Affinity-bediening zoals bij Platinum [[VERIFY: compatibiliteit regelaars — productteam]] |
 
 Het verwarmd oppervlak per afzonderlijk Platinum-vermogen staat nog niet in deze kit. [[VERIFY: verwarmd oppervlak en montagehoogte per Platinum-vermogen (2300 / 3400 / 4500 W) — productteam]]
 
@@ -232,14 +232,14 @@ D. **Eclipse Smart-Heat Freestanding Electric** *[wordt doorgaans omschreven als
 2. Warmtestanden: 33%, 66%, 100%. Verwarmd oppervlak, ongeveer: 11 m².
 3. Voeding: [[VERIFY: eisen aan stekker, snoer en wandcontactdoos — productteam]].
 
-E. **Tungsten Smart-Heat Electric, Coastal-collectie (binnenkort beschikbaar)** *[alleen omschrijven nadat Bromic de beschikbaarheid voor de planning van het project heeft bevestigd]*:
+E. **Tungsten Smart-Heat Electric, Coastal-collectie**:
 1. Maritiem roestvast staal 316; Signature Diamond Pattern-rooster.[^s1]
 2. Afwerking: [zwart] [wit].
 3. Montage: [maritieme inbouw met geringe inbouwhoogte] [plafond] [wand] [enkele paal].
 4. Verwarmd oppervlak, ongeveer: 6–13 m², afhankelijk van model en maat.
 5. Vermogen, spanning, afmetingen: [[VERIFY — productteam]].
 
-F. **Tungsten Smart-Heat Electric, Select-collectie (binnenkort beschikbaar)** *[zoals hierboven]*:
+F. **Tungsten Smart-Heat Electric, Select-collectie**:
 1. Afwerking: [zwart] [wit] [grafiet]; uitgebreide keuze in frontplaten.[^s1]
 2. Montage: [inbouw met geringe inbouwhoogte] [plafond] [wand] [enkele paal].
 3. Verwarmd oppervlak, ongeveer: 6–13 m², afhankelijk van model en maat.

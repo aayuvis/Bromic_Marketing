@@ -110,7 +110,7 @@ Jede Bromic Serie verlangt bei der Rohinstallation etwas anderes, und wer es ric
 | Platinum Smart-Heat Electric | 2300 / 3400 / 4500 W | Eigene(r) Stromkreis(e) zum Steuergerät; Abzweigdose am Heizstrahler | Eingelassen (Einbaurahmen), Decke oder Wand; Unterkonstruktion |
 | Eclipse Smart-Heat Electric | [[VERIFY: Leistung und Anschluss]] | Stromkreis zum Steuergerät; Deckendose an der Stange | Einzelstange 203, 610 oder 1.219 mm; Doppel- oder gebogene Stange; Unterkonstruktion für die Stange |
 | Eclipse Smart-Heat Freestanding Electric | [[VERIFY: Stecker oder Festanschluss; Bemessung der Steckdose]] | [[VERIFY: Anforderungen an die Außensteckdose]] | Keine; ebene Fläche |
-| Tungsten Smart-Heat Electric – Coastal / Select (demnächst erhältlich) | [[VERIFY: Leistungen]] | Wie Platinum, bis die Installationsanleitung vorliegt | Einbau mit geringem Abstand, Decke, Wand, Einzelmast |
+| Tungsten Smart-Heat Electric – Coastal / Select | [[VERIFY: Leistungen]] | Wie Platinum, bis die Installationsanleitung vorliegt | Einbau mit geringem Abstand, Decke, Wand, Einzelmast |
 | Tungsten Gas (fest installiert), Platinum Gas | [[VERIFY: Nennwärmebelastung — den Wert für Tungsten fest installiert erst nach Bestätigung veröffentlichen]] | Gasanschlussstelle und Absperreinrichtung; [[VERIFY: eventuelle Stromversorgung für Zündung/Steuerung]] | Decke, Wand; Deckenstangen, Hitzeschilde |
 | Tungsten Smart-Heat Freestanding Gas | Ca. 11,1 kW; Erdgas oder Flüssiggas | Flüssiggas: keine. Erdgas: [[VERIFY: Anforderung an die Schnellanschlussdose]] | Keine |
 
@@ -163,7 +163,7 @@ Ein eingelassener Heizstrahler wirkt wie ein Teil der Architektur, und genau die
 - Rohbauöffnung (L × B): [[VERIFY Maße: je Modell und Größe — Produktteam]]
 - Mindesttiefe des Hohlraums: [[VERIFY Maße: je Modell — Produktteam]]
 - Abstand über dem Rahmen zu brennbaren Materialien: [[VERIFY Maße: laut Installationsanleitung — Produktteam]]
-- Einbau mit geringem Abstand (Tungsten Coastal / Select, demnächst erhältlich): [[VERIFY Maße — Produktteam]]
+- Einbau mit geringem Abstand (Tungsten Coastal / Select): [[VERIFY Maße — Produktteam]]
 - Zulässige Stärke der Deckenbekleidung: [[VERIFY Maße — Produktteam]]
 
 Auf der Baustelle:
@@ -174,7 +174,7 @@ Auf der Baustelle:
 
 [[DIAGRAM: Deckenspiegel und Schnitt einer Öffnung für den Einbaurahmen zwischen den Balken: Wechsel, Unterkonstruktion, Abzweigdose, Hohlraumtiefe und Abstandsmaße als Beschriftungen, die auf bestätigte Werte warten.]]
 
-![Tungsten Coastal (demnächst erhältlich) bündig in eine weiße Decke eingelassen](img:l-005-022)
+![Tungsten Coastal bündig in eine weiße Decke eingelassen](img:l-005-022)
 
 ## Die Steuerung verkabeln
 

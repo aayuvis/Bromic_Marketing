@@ -236,7 +236,7 @@ Specs below come from the `site` blocks of `data/product-facts.json`, read from 
 | Eclipse Smart-Heat Freestanding | Electric | 2900 W | 121 ft² | Freestanding | Eclipse Dimmer Controller and remote included; app via the Bromic Heating app |
 | Tungsten Smart-Heat Freestanding | LPG or natural gas | 38,000 BTU (Lookbook 2026; the site says 38,500) | 215 ft² | Freestanding | [[VERIFY: freestanding gas controls — Product team]] |
 
-Tungsten Coastal and Select appear only as "coming soon" until Product team confirms launch.
+Tungsten Coastal and Select launched in October 2026 (owner, 22 Nov 2026) and appear as current products; Classic follows from January 2027.
 
 **FAQs.** What type of outdoor heater works best for my space? Electric or gas? How many heaters do I need (link A03 and Design Request)? How high do I mount one (link the installation pages)? Which controls do I need? Do infrared heaters work in wind? Remove the duplicated ceiling-mount question.
 
@@ -281,7 +281,7 @@ Tungsten Coastal and Select appear only as "coming soon" until Product team conf
 | 4000 W | 130 ft² | 20 lb | 16.6 / 19.23 / 14.44 A |
 | 6000 W | 160 ft² | 22 lb | 25 / 28.85 / 21.66 A |
 
-Also: IPX4; minimum mounting height 72 in on a wall, 96 in on a ceiling; the 4000 and 6000 W models have two separately controllable elements; warranty 2 years on the heater, 7 on the elements; Intertek ETL/cETL. Heat blooms, dimensions and clearances as text, with BTU equivalents from the cut sheet [[VERIFY: BTU equivalents and clearances as text — Product team]]. **Controls:** Affinity Smart-Heat On/Off or Dimmer controller, or a manual wall switch; the expansion board for building management; app and voice need compatible Affinity controls, sold separately. Fix the visible SKU (N/A) and the typos the inventory lists. Keep the current range distinct from Tungsten Coastal and Select (coming soon).
+Also: IPX4; minimum mounting height 72 in on a wall, 96 in on a ceiling; the 4000 and 6000 W models have two separately controllable elements; warranty 2 years on the heater, 7 on the elements; Intertek ETL/cETL. Heat blooms, dimensions and clearances as text, with BTU equivalents from the cut sheet [[VERIFY: BTU equivalents and clearances as text — Product team]]. **Controls:** Affinity Smart-Heat On/Off or Dimmer controller, or a manual wall switch; the expansion board for building management; app and voice need compatible Affinity controls, sold separately. Fix the visible SKU (N/A) and the typos the inventory lists. Keep this range distinct from Tungsten Coastal and Select, the Series II collections launched in October 2026.
 
 **Resources from /technical-resources/ and /revit-bim-files/:** Tungsten Smart-Heat Electric Spec Sheet (2025); Instruction Manual (2021) [[VERIFY: current manual edition — Product team]]; Revit BIM ceiling and wall files and CAD (2023); covering guidance. Serve the spec sheet from www rather than pim.bromic.com.
 

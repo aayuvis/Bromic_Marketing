@@ -65,8 +65,8 @@ der vollständige Bericht jedes passende Modell, die Steuerung für jedes, die e
 
 Die Heizflächen stammen aus dem Lookbook 2026[^s1]. Die Faktoren für Überdachung, Klima und Höhe sind die Bromic-Empfehlungen von
 2021, in Zahlen übersetzt[^s2], und warten auf die Freigabe durch das Produktteam. Eine Fläche, deren Umfang zu weniger als 30 % offen
-ist, geht an unser Planungsteam, das sie gemeinsam mit Ihnen plant. Tungsten Coastal und Tungsten Select sind demnächst erhältlich
-und zeigen eine Spanne, nie eine einzelne Anzahl. Jeder Wert, seine Quelle und sein Verantwortlicher stehen in
+ist, geht an unser Planungsteam, das sie gemeinsam mit Ihnen plant. Tungsten Coastal und Tungsten Select
+zeigen eine Spanne, nie eine einzelne Anzahl. Jeder Wert, seine Quelle und sein Verantwortlicher stehen in
 `tools/A03-sizing/README.md`.
 
 ## Wohin Ihre Anfrage geht

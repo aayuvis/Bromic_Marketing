@@ -10,7 +10,7 @@ audience: [RES, ARC]
 stage: [CO]
 cell: RES-CO
 asset: A24
-summary: "Why salt air is so hard on ordinary heaters, why 316 stainless steel resists it better than 304, and what Platinum Smart-Heat Electric Marine brings to a coastal home or a vessel: 316 stainless, IPX5, Lloyd's Register approval and a warranty that differs on land and at sea. Tungsten Coastal is coming soon."
+summary: "Why salt air is so hard on ordinary heaters, why 316 stainless steel resists it better than 304, and what Platinum Smart-Heat Electric Marine brings to a coastal home or a vessel: 316 stainless, IPX5, Lloyd's Register approval and a warranty that differs on land and at sea. Tungsten Coastal, launched in October 2026, adds a second option in 316 stainless."
 primary_keyword: coastal outdoor heater
 secondary_keywords: [marine grade patio heater, 316 stainless steel heater, outdoor heater salt air, corrosion resistant patio heater]
 ai_prompt: "What is the best outdoor heater for a home near the ocean?"
@@ -65,7 +65,7 @@ sources:
     title: "Outdoor Lookbook 2026"
     year: 2026
     url: sources/Bromic_Lookbook_2026.pdf
-    supports: "Tungsten Smart-Heat Electric Coastal collection (coming soon): 316 marine-grade stainless steel, Black and White, Signature Diamond Pattern grille, marine-grade low-clearance recessing, ceiling, wall, single-post, approx. 64–144 ft²; Wi-Fi and app features need compatible Affinity controls, sold separately"
+    supports: "Tungsten Smart-Heat Electric Coastal collection: 316 marine-grade stainless steel, Black and White, Signature Diamond Pattern grille, marine-grade low-clearance recessing, ceiling, wall, single-post, approx. 64–144 ft²; Wi-Fi and app features need compatible Affinity controls, sold separately"
     verified: true
   - id: s7
     publisher: Bromic Heating
@@ -76,7 +76,7 @@ sources:
     verified: true
 ---
 
-Evenings by the sea deserve warmth that lasts as long as the view, and the coastal outdoor heater that delivers it is crafted from marine-grade 316 stainless steel, sealed against spray and mounted under cover. Salt air corrodes ordinary metals quickly. Bromic's answer today is Platinum Smart-Heat Electric Marine, with AISI 316 stainless, an IPX5 rating and Lloyd's Register approval for marine use.[^s1] Tungsten Smart-Heat Electric Coastal (coming soon) will add a second option in 316 stainless.[^s6]
+Evenings by the sea deserve warmth that lasts as long as the view, and the coastal outdoor heater that delivers it is crafted from marine-grade 316 stainless steel, sealed against spray and mounted under cover. Salt air corrodes ordinary metals quickly. Bromic's answer today is Platinum Smart-Heat Electric Marine, with AISI 316 stainless, an IPX5 rating and Lloyd's Register approval for marine use.[^s1] Tungsten Smart-Heat Electric Coastal, launched in October 2026, is a second option in 316 stainless.[^s6]
 
 ![An open living pavilion facing a harbour, with six white Platinum Electric Marine heaters recessed in a ceiling tray](img:w-bromic-platinum-electric-marine-patio-heater)
 
@@ -91,7 +91,7 @@ Salt carried on spray and onshore wind settles on metal and holds moisture again
 | What it adds | Chromium and nickel | Chromium, more nickel, plus molybdenum (about 2–3%)[^s4] |
 | Salt and chlorides | Prone to pitting and tea staining near the sea[^s3] | More resistant to chloride attack[^s3] |
 | Where it fits | Inland and sheltered sites | Coastal homes, marinas, vessels |
-| Bromic heaters | Platinum Smart-Heat Electric (304 chassis) | Platinum Smart-Heat Electric Marine; Tungsten Coastal (coming soon)[^s1][^s6] |
+| Bromic heaters | Platinum Smart-Heat Electric (304 chassis) | Platinum Smart-Heat Electric Marine; Tungsten Coastal[^s1][^s6] |
 
 316 is far more resistant to salt, though like any fine metal it still asks for regular cleaning.
 
@@ -115,9 +115,9 @@ Salt carried on spray and onshore wind settles on metal and holds moisture again
 
 The [warranty page](https://www.bromic.com/warranty/) and the product page's spec table give 5 years for land-based installations and 3 years on marine vessels.[^s2][^s1] The product page's description, however, says the 5-year warranty is for land use only and does not cover installations on vessels.[^s1] Those two statements conflict, so until Bromic confirms, a vessel owner should ask for the terms in writing. [[VERIFY: Marine warranty on vessels — 3 years, or not covered? Align the product page description with the warranty page — Product team]]
 
-## Tungsten Coastal, Coming Soon
+## Tungsten Coastal, In 316 Stainless
 
-The Tungsten Smart-Heat Electric Coastal collection (coming soon) is being crafted in 316 marine-grade stainless steel, in Black or White, with the Signature Diamond Pattern grille. It is planned for marine-grade low-clearance recessing, ceiling, wall and single-post mounting, covering about 64–144 ft² depending on model.[^s6] Ratings, wattages and warranty will be published at launch.
+The Tungsten Smart-Heat Electric Coastal collection, launched in October 2026, is crafted in 316 marine-grade stainless steel, in Black or White, with the Signature Diamond Pattern grille. It offers marine-grade low-clearance recessing, ceiling, wall and single-post mounting, covering about 64–144 ft² depending on model.[^s6] Like every Bromic electric heater, it runs on Affinity Smart-Heat controls with a wall switch; Wi-Fi and app features need compatible Affinity controls, sold separately. [[VERIFY: Tungsten Coastal IP rating, wattages and warranty — Product team]]
 
 ## Caring For A Heater By The Sea
 
@@ -140,8 +140,8 @@ You can, though you should expect corrosion and tea staining sooner. 316 stainle
 
 No. It is approved for marine use and is equally at home in coastal homes, marinas and waterfront restaurants, and on land it carries the longer warranty.[^s2]
 
-### When will Tungsten Coastal be available?
+### Is Tungsten Coastal available now?
 
-It is coming soon, and Bromic will publish its specifications at launch.[^s6]
+Yes. Tungsten Coastal launched in October 2026, in 316 marine-grade stainless steel.[^s6] Ask your Bromic dealer for its ratings and lead time.
 
 Size your coastal space with the Bromic heater calculator.

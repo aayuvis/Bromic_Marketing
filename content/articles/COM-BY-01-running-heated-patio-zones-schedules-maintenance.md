@@ -62,7 +62,7 @@ Draw your zones around how the floor is served, and let the wiring follow.
 | Lounge or waiting | Soft seating, host stand | Short dwell, lower output |
 | Event or private | Buyout area | Runs on its own schedule |
 
-Each zone has its own controller. For Platinum and Tungsten Electric that means an Affinity Smart-Heat® On/Off or Dimmer controller with a wall switch, and for Eclipse, the Eclipse controller (Tungsten Coastal and Select are coming soon). The Bromic Smart-Heat app adds zones, schedules and timers. Wi-Fi and app features require compatible Affinity Smart-Heat® Controls, sold separately.[^s1] Sites with a building-management system can integrate with Control4, Crestron or Lutron; compatibility varies and may need extra hardware.[^s1]
+Each zone has its own controller. For Platinum and Tungsten Electric, Coastal and Select included, that means an Affinity Smart-Heat® On/Off or Dimmer controller with a wall switch, and for Eclipse, the Eclipse controller. The Bromic Smart-Heat app adds zones, schedules and timers. Wi-Fi and app features require compatible Affinity Smart-Heat® Controls, sold separately.[^s1] Sites with a building-management system can integrate with Control4, Crestron or Lutron; compatibility varies and may need extra hardware.[^s1]
 
 ## Scheduling Warmth To Follow Your Covers
 

@@ -283,5 +283,5 @@ AIA figures are net (rising minus falling). Bromic commissioned the Atomik homeo
 | 09 Small spaces | `t-011-031` Eclipse Freestanding, compact yard | `l-016-131` Eclipse Freestanding, city rooftop |
 | 10 Add-on to built-in | `t-012-034` pergola patio and kitchen | `l-010-070` Platinum, courtyard dining |
 
-- **Captions.** Lookbook images are design inspiration, not installation guidance; caption none of them as an install detail. If a Tungsten Coastal or Select image is swapped in, its caption must say "coming soon".
+- **Captions.** Lookbook images are design inspiration, not installation guidance; caption none of them as an install detail. If a Tungsten Coastal or Select image is swapped in, its caption names the collection (both launched October 2026).
 - **Gating.** The PDF stays gated (HubSpot form); the closing button is "Size your space", linking to the sizing calculator (A03).

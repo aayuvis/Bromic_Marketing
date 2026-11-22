@@ -127,7 +127,7 @@ Een ruimte die mensen het hele jaar verwelkomt, komt voort uit vier beslissingen
 
 ## Warmte in de overstek ontwerpen
 
-De meest verfijnde installaties behandelen de verwarmer als een plafondelement, net zoals u een inbouwspot zou doen. Boven een overdekt terras houdt een verzonken elektrische verwarmer het plafondvlak strak en laat hij de architectuur spreken. Platinum Smart-Heat® Electric (2300 W, 3400 W of 4500 W) verwarmt ca. 6–13 m², afhankelijk van model en installatie, en kan worden ingebouwd of aan plafond of wand gemonteerd[^s8]. De nieuwe collecties Tungsten Smart-Heat® Electric Select en Coastal (binnenkort leverbaar) voegen inbouw met weinig inbouwdiepte toe en verwarmen ca. 6–13 m²[^s8].
+De meest verfijnde installaties behandelen de verwarmer als een plafondelement, net zoals u een inbouwspot zou doen. Boven een overdekt terras houdt een verzonken elektrische verwarmer het plafondvlak strak en laat hij de architectuur spreken. Platinum Smart-Heat® Electric (2300 W, 3400 W of 4500 W) verwarmt ca. 6–13 m², afhankelijk van model en installatie, en kan worden ingebouwd of aan plafond of wand gemonteerd[^s8]. De nieuwe collecties Tungsten Smart-Heat® Electric Select en Coastal, gelanceerd in oktober 2026, voegen inbouw met weinig inbouwdiepte toe en verwarmen ca. 6–13 m²[^s8].
 
 Elke verwarmer die u voorschrijft, komt met zijn bediening: een Affinity Smart-Heat® On/Off- of Dimmer-regelaar, een wandschakelaar en de Bromic Smart-Heat app voor zones en tijdschema's. Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht. Integratie met Control4, Crestron of Lutron is mogelijk, al verschilt de compatibiliteit per systeem en kan extra integratiehardware nodig zijn[^s8].
 

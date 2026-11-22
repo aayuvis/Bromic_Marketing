@@ -72,7 +72,7 @@ Revision 2 (29 Oct 2026) answers the owner's instruction: new numbers, new conte
 
 | Topic | 2021 | v2 revision 2 |
 |---|---|---|
-| Range | Platinum and Tungsten gas/electric, Tungsten Portable; no Eclipse, Cobalt, Marine or app | Full current range by family and size: Tungsten Electric 2000–6000 W, Platinum Electric and Marine 2300/3400/4500 W, Eclipse Electric and Freestanding 2900 W, Cobalt 4000/6000 W, Platinum Gas 23,600/39,800 Btu/h, Tungsten Gas built-in (two sizes, output withheld), Tungsten Freestanding Gas; Coastal and Select coming soon |
+| Range | Platinum and Tungsten gas/electric, Tungsten Portable; no Eclipse, Cobalt, Marine or app | Full current range by family and size: Tungsten Electric 2000–6000 W, Platinum Electric and Marine 2300/3400/4500 W, Eclipse Electric and Freestanding 2900 W, Cobalt 4000/6000 W, Platinum Gas 23,600/39,800 Btu/h, Tungsten Gas built-in (two sizes, output withheld), Tungsten Freestanding Gas; Coastal and Select (launched October 2026) |
 | Naming | Numbered series | Family name plus size or output only |
 | Coverage | Ranges (electric 65–108 ft², gas 160–215 ft²) | Per model: 65/100/130/160; 65/108/143; 121; 130/160; 160/215 ft² |
 | Tungsten gas output | 39,800 Btu diagram | Built-in: coverage only. Freestanding: 38,000 Btu/h (Lookbook) |

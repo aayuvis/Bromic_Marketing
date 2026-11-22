@@ -155,7 +155,7 @@ Electric radiant heat removes that dependency. It runs on the circuits an all-el
 ## Bromic Electric Heaters For Every Setting
 
 - **Covered terraces and soffits.** Platinum Smart-Heat® Electric, 2300W, 3400W or 4500W, approx. 65–143 ft², recessed, ceiling or wall mount[^s12].
-- **Architectural recessing and marine settings.** Tungsten Smart-Heat® Electric Select and Coastal (coming soon), approx. 64–144 ft², with low-clearance recessing[^s12].
+- **Architectural recessing and marine settings.** Tungsten Smart-Heat® Electric Select and Coastal, approx. 64–144 ft², with low-clearance recessing[^s12].
 - **Open terraces and pergolas.** Eclipse Smart-Heat® Electric, approx. 121 ft², pole mounted with dimmable rim lighting, and Eclipse Freestanding where nothing can be fixed[^s12].
 
 Each is paired with its Affinity Smart-Heat® Controls: an On/Off, Dimmer or Eclipse controller, a wall switch and the Bromic Smart-Heat app for schedules and timers. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately[^s12].

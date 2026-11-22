@@ -37,7 +37,7 @@ sources:
     title: "Lookbook 2026"
     year: 2026
     url: sources/Bromic_Lookbook_2026.pdf
-    supports: "Tungsten Coastal and Select (coming soon, 64–144 ft²), Eclipse and Tungsten Freestanding Gas coverage, Affinity Smart-Heat Controls and integrations, design service"
+    supports: "Tungsten Coastal and Select (64–144 ft²), Eclipse and Tungsten Freestanding Gas coverage, Affinity Smart-Heat Controls and integrations, design service"
     verified: true
   - id: s3
     publisher: Bromic Heating
@@ -248,7 +248,7 @@ Regels volgens de gids van 2021[^s3].
 
 Begin met een warmtekaart. Markeer waar mensen zitten, eten, staan en doorlopen, en leg de warmte over die zones voordat u een afwerking of montage kiest, zodat het comfort vanaf het begin in de indeling zit[^s25]. Verwarmers concurreren in het overstek met inbouwspots, ventilatoren, luidsprekers en kanalen, en afstemming met de installatie- en lichtadviseurs in het voorlopig ontwerp voorkomt herstelwerk zodra het plafondplan vol is[^s25].
 
-Minder, krachtigere verwarmers op de juiste plek bedienen een ruimte meestal beter dan veel kleine, en geven een rustiger plafond. Stem de afwerking af op de omringende materialen, van zwart en wit tot rvs en het grafiet van de Select-collectie die binnenkort leverbaar is, zodat de verwarmer bij de architectuur hoort[^s25][^s2].
+Minder, krachtigere verwarmers op de juiste plek bedienen een ruimte meestal beter dan veel kleine, en geven een rustiger plafond. Stem de afwerking af op de omringende materialen, van zwart en wit tot rvs en het grafiet van de Select-collectie, zodat de verwarmer bij de architectuur hoort[^s25][^s2].
 
 - [ ] Verwarmde zones getekend boven zitplaatsen en bars, niet boven looproutes: ______ m² per zone
 - [ ] Montagevlakken: overstek / balk / wand / paal; afgewerkte hoogtes boven de vloer ______
@@ -314,14 +314,14 @@ Steeds meer steden beperken nieuwe gasaansluitingen en verplaatsbare propaantoes
 | Platinum Smart-Heat Gas | 6,9 / 11,7 kW; aardgas of propaan | 15 / 20 m² | Wand of plafond; stangen leverbaar | Intertek 4009079 | 2 jaar, excl. slangen en ontstekers[^s10] |
 | Tungsten Smart-Heat Gas (inbouw) | Twee modellen; vermogen hier niet gepubliceerd | 15 / 20 m² | Wand of plafond; draaiarm ±25° | [[VERIFY]] | 2 jaar, excl. slangen en ontstekers[^s11] |
 | Tungsten Smart-Heat Freestanding Gas | 11,1 kW; propaanfles (in de VS 9 kg) of snelkoppeling voor aardgas | 20 m² | Vrijstaand | Intertek 4009079 (propaan) | 1 jaar (propaan)[^s12] |
-| Tungsten Electric Coastal (binnenkort leverbaar) | [[VERIFY: wattages]]; rvs 316 | 6–13 m² | Zeewaterbestendig verzonken (low-clearance), plafond, wand, enkele paal | [[VERIFY]] | [[VERIFY]][^s2] |
-| Tungsten Electric Select (binnenkort leverbaar) | [[VERIFY: wattages]] | 6–13 m² | Verzonken (low-clearance), plafond, wand, enkele paal | [[VERIFY]] | [[VERIFY]][^s2] |
+| Tungsten Electric Coastal | [[VERIFY: wattages]]; rvs 316 | 6–13 m² | Zeewaterbestendig verzonken (low-clearance), plafond, wand, enkele paal | [[VERIFY]] | [[VERIFY]][^s2] |
+| Tungsten Electric Select | [[VERIFY: wattages]] | 6–13 m² | Verzonken (low-clearance), plafond, wand, enkele paal | [[VERIFY]] | [[VERIFY]][^s2] |
 
 [[VERIFY: welke modellen, uitvoeringen (aardgas, propaan, Marine) en garantievoorwaarden in Nederland gelden, en of de Tungsten Freestanding Gas op Nederlandse propaanflessen van 10,5 of 11 kg past — Bromic Benelux distributor]]
 
 Artikelnummers, Platinum Electric: 2300 W BH0320003 zwart / BH0320007 wit; 3400 W BH0320005 / BH0320008; 4500 W BH3622000 / BH3622001[^s5]. Platinum Gas: BH0110001-1 aardgas / -002-1 propaan (6,9 kW); BH0110003-1 aardgas / BH0110004-1 propaan (11,7 kW)[^s10]. Tungsten Gas inbouw: BH0210001-1 aardgas / BH0210002-1 propaan (15 m²); BH0210003-1 aardgas / BH0210004-1 propaan (20 m²)[^s11]. Dit zijn de Amerikaanse artikelnummers.
 
-De waarden van de productpagina's zijn gelezen op 29 oktober 2026, en waar ze verschillen geldt de Lookbook 2026[^s2]. Openstaande tegenstrijdigheden staan hier ter bevestiging: [[VERIFY: Eclipse 2900 W (specificatietabel) tegenover 3000 W (FAQ); Tungsten Freestanding Gas 11,1 kW (Lookbook, hier gebruikt) tegenover 11,3 kW (website); Cobalt 12/15 m² (specificatietabel, hier gebruikt) tegenover "tot 13 m²" (kenmerken); of de huidige Tungsten Electric 6000 W (15 m²) blijft zodra Coastal en Select (6–13 m²) verschijnen; Platinum Electric Marine rvs 316 tegenover 314 (FAQ) — productteam]]. Het vermogen van de ingebouwde Tungsten-gasverwarmer wordt niet vermeld tot het is bevestigd.
+De waarden van de productpagina's zijn gelezen op 29 oktober 2026, en waar ze verschillen geldt de Lookbook 2026[^s2]. Openstaande tegenstrijdigheden staan hier ter bevestiging: [[VERIFY: Eclipse 2900 W (specificatietabel) tegenover 3000 W (FAQ); Tungsten Freestanding Gas 11,1 kW (Lookbook, hier gebruikt) tegenover 11,3 kW (website); Cobalt 12/15 m² (specificatietabel, hier gebruikt) tegenover "tot 13 m²" (kenmerken); of de huidige Tungsten Electric 6000 W (15 m²) blijft nu Coastal en Select (6–13 m²) gelanceerd zijn (Series I wordt verkocht tot Classic, vanaf januari 2027); Platinum Electric Marine rvs 316 tegenover 314 (FAQ) — productteam]]. Het vermogen van de ingebouwde Tungsten-gasverwarmer wordt niet vermeld tot het is bevestigd.
 
 | Toebehoren | Energiebron | Doel |
 |---|---|---|
@@ -332,12 +332,12 @@ De waarden van de productpagina's zijn gelezen op 29 oktober 2026, en waar ze ve
 
 ### Het inbouwdetail uitwerken
 
-Een verzonken verwarmer geeft warmte die je voelt zonder haar te zien, en houdt de lijn van het overstek rustig[^s25]. Inbouw is een elektrisch detail: Platinum en Tungsten Electric worden verzonken met een inbouwset, en de collecties Coastal en Select, die binnenkort leverbaar zijn, voegen inbouw met weinig vrije ruimte toe voor ondiepe holtes, bij renovatie en nieuwbouw[^s2][^s25]. Ingebouwde gasverwarmers worden op wand of plafond gemonteerd.
+Een verzonken verwarmer geeft warmte die je voelt zonder haar te zien, en houdt de lijn van het overstek rustig[^s25]. Inbouw is een elektrisch detail: Platinum en Tungsten Electric worden verzonken met een inbouwset, en de collecties Coastal en Select voegen inbouw met weinig vrije ruimte toe voor ondiepe holtes, bij renovatie en nieuwbouw[^s2][^s25]. Ingebouwde gasverwarmers worden op wand of plafond gemonteerd.
 
 Teken elke inbouw als eigen detail, afgestemd met de constructie en het plafondplan: de inbouwset en uitsparing, de diepte van de holte boven het afgewerkte plafond, raveelwerk of achterhout rond de opening, de plek en bereikbaarheid van de lasdoos, en de afstanden die de handleiding voorschrijft tot de constructie en tot brandbare materialen. [[VERIFY: artikelnummers van accessoires, uitsparingen, holtediepten en compatibiliteit van inbouwsets, ook voor het inbouwen van Coastal en Select — productteam]]
 
 - [ ] Model, vermogen, spanning, afwerking en artikelnummer per codering
-- [ ] Modellen die binnenkort leverbaar zijn, hebben een goedgekeurd leverbaar alternatief
+- [ ] Modellen die nog niet leverbaar zijn, hebben een goedgekeurd leverbaar alternatief
 - [ ] Inbouwsets, stangen en hittescherm opgenomen in de staat; inbouwdetail getekend? J / N
 
 ![Close-up van een zwart Tungsten Select-rooster dat warm gloeit](img:l-007-034)
@@ -476,6 +476,6 @@ Een volledig indieningspakket per verwarmercodering bevat de onderstaande stukke
 - [ ] Details van inbouw, stang of hittescherm
 - [ ] Tekening met verwarmd oppervlak van de ontwerpservice; garantievoorwaarden
 
-![Tungsten Coastal (binnenkort leverbaar) vlak verzonken in een wit plafond](img:l-005-022)
+![Tungsten Coastal vlak verzonken in een wit plafond](img:l-005-022)
 
 Download de specificatiekit voor bestekteksten, details en tabellen met verwarmd oppervlak, klaar voor uw set.

@@ -131,7 +131,7 @@ Plan for it, and ask the inspector early. The 2023 NEC requires GFCI protection 
 | Clearances | Mark clearances to walls, beams and combustibles from the manual [[VERIFY: clearance table per model — Product team]] |
 | Recess kit | Frame the opening and cavity depth for the recess kit before boarding [[VERIFY: recess kit rough opening and cavity depth per model — Product team]] |
 
-![Heater recessed flush into a white ceiling (Tungsten Coastal, coming soon)](img:l-005-022)
+![Heater recessed flush into a white ceiling (Tungsten Coastal)](img:l-005-022)
 
 Recess kits let Platinum and Tungsten Electric heaters sit flush in the ceiling cavity[^s2] for a clean, seamless finish. Because the kit shapes the framing, it needs to be chosen at framing stage, well before trim.
 

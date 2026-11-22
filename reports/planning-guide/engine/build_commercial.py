@@ -62,13 +62,13 @@ TILES = [
     ('w-platinum-black', 'Awnings, Poles And Walls', 'A proven linear heater for busy terraces.', 'Platinum Electric'),
     ('w-eclipse-electric-twinpole', 'Over The Table', 'Heat and a dimmable rim light in one fixture.', 'Eclipse Electric'),
     ('w-eclipse-portable', 'Flexible Layouts', 'Moves with the floor plan; up to four seats each.', 'Eclipse Freestanding · Tungsten Freestanding Gas'),
-    ('l-005-025', 'Waterfront And Marina', 'Marine-grade stainless for salt air.', 'Platinum Electric Marine · Tungsten Coastal (coming soon)'),
+    ('l-005-025', 'Waterfront And Marina', 'Marine-grade stainless for salt air.', 'Platinum Electric Marine · Tungsten Coastal'),
     ('w-platinum-gas-500', 'Large Open Terraces On Gas', 'Built-in gas where a gas line is in place.', 'Platinum Gas · Tungsten Gas'),
 ]
 
 SOURCES = [
     'National Restaurant Association, “Winter woes: what’s the plan when it’s too cold to dine outdoors?” (operator survey, fall 2020): 74% of full-service operators offered outdoor seating; 49% were extending the outdoor season.',
-    'Bromic Heating, Lookbook 2026: coverage of Eclipse and Tungsten Freestanding Gas, Tungsten Coastal and Select (coming soon), design service.',
+    'Bromic Heating, Lookbook 2026: coverage of Eclipse and Tungsten Freestanding Gas, Tungsten Coastal and Select, design service.',
     'Bromic Heating, The Official Outdoor Heating Planning Guide, US v1.2 (2021): the 30% open rule, the heat cloud, the radiant principle, warm-up times, certification.',
     'Bromic product pages, bromic.com, 2026: Tungsten Electric, Platinum Electric and Marine, Eclipse Electric and Freestanding, Platinum Gas, Tungsten Gas and Freestanding Gas (coverage, mounting heights, 110 V supply for built-in gas).',
     'Bromic product pages, bromic.com, 2026: Affinity Smart-Heat On/Off, Dimmer and Eclipse controllers (6 kW a channel at 208–277 V; up to 10 gas heaters a channel; one Eclipse a channel), manual wall switch, Expansion Board (Ethernet and 0–10 V to a BMS).',

@@ -76,7 +76,7 @@ sources:
     title: "Outdoor Lookbook 2026"
     year: 2026
     url: sources/Bromic_Lookbook_2026.pdf
-    supports: "Tungsten Coastal (coming soon) in 316 marine-grade stainless steel; Affinity controls; Wi-Fi and app features need compatible Affinity controls, sold separately"
+    supports: "Tungsten Coastal in 316 marine-grade stainless steel; Affinity controls; Wi-Fi and app features need compatible Affinity controls, sold separately"
     verified: true
   - id: s9
     publisher: Bromic Heating
@@ -128,7 +128,7 @@ Das sind die Schutzarten, die Bromic derzeit Modell für Modell veröffentlicht.
 | Eclipse Smart-Heat Electric und Freestanding | Nicht angegeben[^s6] | Bromic empfiehlt eine Montage unter einer Überdachung [[VERIFY: IP-Code Eclipse — Produktteam]] |
 | Platinum Gas, Tungsten Gas, Tungsten Smart-Heat Freestanding | Kein Code angegeben | [[VERIFY: IP-Schutzart, falls vorhanden, für jedes Gasmodell — Produktteam]] |
 | Affinity Smart-Heat On/Off-Steuergerät | IP54[^s7] | Staub- und spritzwassergeschützt; wo die anderen Steuergeräte montiert werden dürfen, steht in der Anleitung |
-| Tungsten Smart-Heat Electric, Coastal-Kollektion (demnächst erhältlich) | Noch nicht veröffentlicht[^s8] | Seewasserbeständiger Edelstahl 316 |
+| Tungsten Smart-Heat Electric, Coastal-Kollektion | [[VERIFY: Schutzart — Produktteam]][^s8] | Seewasserbeständiger Edelstahl 316 |
 
 Die pauschale Aussage des bisherigen Beitrags, jeder Bromic-Heizstrahler habe IPX4, ist zurückgezogen, denn das Marine-Modell hat eine höhere Schutzart, und für mehrere Modelle ist noch kein Code veröffentlicht.
 

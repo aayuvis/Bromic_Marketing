@@ -218,7 +218,7 @@ const p1 = `<section class="page dark">
   <figure class="c-elev">
     <svg viewBox="0 0 640 40" class="c-dim"><g>${dimH(26, 8, 632, 'OVERALL LENGTH · PER MODEL · SEE CUT SHEET', { col: T.navyLine, mk: 'arW', ext: 40 })}</g></svg>
     <img src="img/select-front-line.png" alt="Elevation of a Tungsten Smart-Heat Electric heater, Select collection, traced from a product render">
-    <figcaption><span class="bubble">1</span><span><b>ELEVATION · TUNGSTEN SMART-HEAT<sup>®</sup> ELECTRIC, SELECT COLLECTION</b><em>COMING SOON · FINISHES BLACK, WHITE, GRAPHITE · TRACED FROM PRODUCT RENDER · NTS</em></span></figcaption>
+    <figcaption><span class="bubble">1</span><span><b>ELEVATION · TUNGSTEN SMART-HEAT<sup>®</sup> ELECTRIC, SELECT COLLECTION</b><em>FINISHES BLACK, WHITE, GRAPHITE · TRACED FROM PRODUCT RENDER · NTS</em></span></figcaption>
   </figure>
   <div class="c-low">
     <div class="index">
@@ -262,8 +262,8 @@ const p2 = `<section class="page light">
       ${row('H1', 'Platinum Smart-Heat<sup>®</sup> Electric', 'Current', '2300, 3400,<br>4500 W', '65–143 ft²', 'Recessed, ceiling, wall · Classic and Marine', 'Affinity On/Off or Dimmer controller + manual wall switch')}
       ${row('H2', 'Eclipse Smart-Heat<sup>®</sup> Electric', 'Current', '33 · 66 · 100 %', '121 ft²', 'Single pole 8", 24" or 48"; double pole; curved pole', 'Affinity Eclipse controller + manual wall switch')}
       ${row('H3', 'Eclipse Smart-Heat<sup>®</sup> Freestanding Electric', 'Current', '33 · 66 · 100 %', '121 ft²', 'Freestanding: wheels, weighted base, curved arm', 'Affinity Eclipse controller · <i class="tc">method to confirm</i>')}
-      ${row('H4', 'Tungsten Smart-Heat<sup>®</sup> Electric, Coastal', '<span class="soon-t">Coming soon</span>', '<i class="tc">To confirm</i>', '64–144 ft²', 'Recessed (marine-grade low-clearance), ceiling, wall, single-post', 'Affinity controls as for Platinum · <i class="tc">to confirm</i>', true)}
-      ${row('H5', 'Tungsten Smart-Heat<sup>®</sup> Electric, Select', '<span class="soon-t">Coming soon</span>', '<i class="tc">To confirm</i>', '64–144 ft²', 'Recessed (low-clearance), ceiling, wall, single-post', 'Affinity controls as for Platinum · <i class="tc">to confirm</i>', true)}
+      ${row('H4', 'Tungsten Smart-Heat<sup>®</sup> Electric, Coastal', 'Current', '<i class="tc">To confirm</i>', '64–144 ft²', 'Recessed (marine-grade low-clearance), ceiling, wall, single-post', 'Affinity controls as for Platinum · <i class="tc">to confirm</i>')}
+      ${row('H5', 'Tungsten Smart-Heat<sup>®</sup> Electric, Select', 'Current', '<i class="tc">To confirm</i>', '64–144 ft²', 'Recessed (low-clearance), ceiling, wall, single-post', 'Affinity controls as for Platinum · <i class="tc">to confirm</i>')}
       </tbody>
     </table>
     <p class="fn">Coverage is approximate and varies with model, mounting height, environment and installation. Wi-Fi and app features need compatible Affinity Smart-Heat<sup>®</sup> Controls, sold separately.</p>

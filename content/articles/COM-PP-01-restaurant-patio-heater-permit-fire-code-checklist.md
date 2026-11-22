@@ -129,7 +129,7 @@ New York City has the strictest rules of any large market. Permission to use pro
 
 An electric installation needs an electrical permit, a dedicated circuit sized by the electrician, and mounting heights set by the manufacturer. Bromic's guidance for its electric heaters is at least 72 in above the floor on a wall and 96 in on a ceiling, with clearance to the ceiling varying by output.[^s7] Commercial supplies of 208V, 240V or 277V are common, so confirm the right voltage for each model. [[VERIFY: current mounting heights and clearances per model from installation manuals — Product team]]
 
-Controls belong to the installation from the first drawing: an Affinity Smart-Heat® On/Off or Dimmer controller and a wall switch for Platinum and Tungsten Electric (Tungsten Coastal and Select coming soon), and the Eclipse controller for Eclipse. Wi-Fi and app features require compatible Affinity Smart-Heat® Controls, sold separately.[^s8] Building-management integration with Control4, Crestron or Lutron varies by system and may need extra hardware.
+Controls belong to the installation from the first drawing: an Affinity Smart-Heat® On/Off or Dimmer controller and a wall switch for Platinum and Tungsten Electric (Tungsten Coastal and Select included), and the Eclipse controller for Eclipse. Wi-Fi and app features require compatible Affinity Smart-Heat® Controls, sold separately.[^s8] Building-management integration with Control4, Crestron or Lutron varies by system and may need extra hardware.
 
 ## Your Planning Checklist
 

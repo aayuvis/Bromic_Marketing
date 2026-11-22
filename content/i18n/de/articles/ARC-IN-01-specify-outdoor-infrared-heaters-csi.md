@@ -117,8 +117,8 @@ Nennen Sie ein Leitprodukt und die Eigenschaften, die ein Ersatzprodukt erfülle
 | Produkt | Leistung | Heizfläche (ca.) | Montage | Status |
 |---|---|---|---|---|
 | Platinum Smart-Heat Electric | 2300 W, 3400 W, 4500 W | 6–13 m² | Eingelassen, Decke, Wand | Aktuell |
-| Tungsten Smart-Heat Electric, Select | [[VERIFY: Leistungen — Produktteam]] | 6–13 m² | Eingelassen bei geringer Einbautiefe, Decke, Wand, Einzelpfosten | Demnächst erhältlich |
-| Tungsten Smart-Heat Electric, Coastal (Edelstahl 316) | [[VERIFY: Leistungen — Produktteam]] | 6–13 m² | Seewasserbeständig, eingelassen bei geringer Einbautiefe, Decke, Wand, Einzelpfosten | Demnächst erhältlich |
+| Tungsten Smart-Heat Electric, Select | [[VERIFY: Leistungen — Produktteam]] | 6–13 m² | Eingelassen bei geringer Einbautiefe, Decke, Wand, Einzelpfosten | Erhältlich (seit Oktober 2026) |
+| Tungsten Smart-Heat Electric, Coastal (Edelstahl 316) | [[VERIFY: Leistungen — Produktteam]] | 6–13 m² | Seewasserbeständig, eingelassen bei geringer Einbautiefe, Decke, Wand, Einzelpfosten | Erhältlich (seit Oktober 2026) |
 | Eclipse Smart-Heat Electric | 33 / 66 / 100 % Leistung | 11 m² | Einzelstange ca. 200, 610 oder 1220 mm, Doppel- oder gebogene Stange | Aktuell |
 | Eclipse Smart-Heat Freestanding Electric | 33 / 66 / 100 % Leistung | 11 m² | Freistehend, auf Rollen, beschwerter Fuß | Aktuell |
 

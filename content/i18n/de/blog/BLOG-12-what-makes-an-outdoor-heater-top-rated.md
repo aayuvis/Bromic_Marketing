@@ -67,7 +67,7 @@ sources:
     title: "Outdoor Lookbook 2026, pp.7, 27, 41"
     year: 2026
     url: sources/Bromic_Lookbook_2026.pdf
-    supports: "Tungsten Coastal (coming soon) in 316 marine-grade stainless; Eclipse 121 ft², 33/66/100% output, dimmable rim lighting; Wi-Fi and app features need compatible Affinity controls, sold separately"
+    supports: "Tungsten Coastal in 316 marine-grade stainless; Eclipse 121 ft², 33/66/100% output, dimmable rim lighting; Wi-Fi and app features need compatible Affinity controls, sold separately"
     verified: true
   - id: s7
     publisher: BBQGuys
@@ -112,7 +112,7 @@ Wie der ursprüngliche Beitrag betont, gehört ein erstklassiger Heizstrahler zu
 - **Tungsten** für stark beanspruchte Wohn- und Gewerbebereiche, in denen Langlebigkeit und gleichmäßige Leistung zählen.
 - **Eclipse**, wo Licht und Atmosphäre zum Konzept gehören.
 
-Häuser an der Küste verlangen nach Edelstahl in Marinequalität, und Tungsten Coastal (demnächst erhältlich) ergänzt die Tungsten-Familie um eine Ausführung in Marinequalität.[^s6] Das ganze Sortiment nach Bereich und Energieart zeigt der Beitrag „Welche Heizstrahler-Kollektion passt zu Ihnen?“ auf [bromic.de](https://www.bromic.de/).
+Häuser an der Küste verlangen nach Edelstahl in Marinequalität, und Tungsten Coastal ergänzt die Tungsten-Familie um eine Ausführung in Marinequalität.[^s6] Das ganze Sortiment nach Bereich und Energieart zeigt der Beitrag „Welche Heizstrahler-Kollektion passt zu Ihnen?“ auf [bromic.de](https://www.bromic.de/).
 
 ## Warum die Steuerung in jede Bewertung gehört
 

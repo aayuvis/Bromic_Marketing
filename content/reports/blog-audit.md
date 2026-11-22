@@ -103,7 +103,7 @@ buyer's guide (keep *Which outdoor heater collection is right for you?* as the U
 | [Patio heaters in the rain](https://www.bromic.com/blog/patio-heaters-in-the-rain-what-you-need-to-know/) | RES-CO | Keep and fix | "Contact us" has no link; IEC defines IP codes, it does not accredit; reconcile IP claims |
 | [What is an IP rating and why is it important?](https://www.bromic.com/blog/what-is-an-ip-rating-and-why-is-it-important/) | ARC-CO | Rewrite (urgent) | Explains IP codes wrongly; blanket "IPX4" for every model [[VERIFY: IP rating per model — Product team]] |
 | [Combating corrosion: coastal environments](https://www.bromic.com/blog/combating-corrosion-outdoor-heating-in-coastal-environments/) | RES-CO | Merge with the coastal post below | Weak salt-air source (a metals vendor); does not name Platinum Electric Marine |
-| [Stylish and resilient coastal outdoor heaters](https://www.bromic.com/blog/stylish-resilient-coastal-outdoor-heaters/) | RES-CO | Keep (merge target), rewrite at Coastal launch | Tungsten Coastal is coming soon: rewrite on Product team's launch confirmation |
+| [Stylish and resilient coastal outdoor heaters](https://www.bromic.com/blog/stylish-resilient-coastal-outdoor-heaters/) | RES-CO | Keep (merge target), rewrite now Coastal has launched | Tungsten Coastal launched in October 2026 (owner, 22 Nov 2026): rewrite with it as a current product |
 | [Revolutionizing outdoor living in extreme climates](https://www.bromic.com/blog/revolutionizing-outdoor-living-in-extreme-climates/) | RES-AW | Convert to a case study | Reads as a case study but is not one; link it from /case-studies/ |
 
 ### Safety, propane and maintenance (RES, COM · CO, BY)

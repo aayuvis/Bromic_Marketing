@@ -76,7 +76,7 @@ Opwarmtijd en wind: Bromic Planning Guide v1.2[^s1]. Verwarmd oppervlak, tempera
 
 | Factor | Ingebouwd elektrisch (Platinum, Tungsten Electric) | Vrijstaand gas (Tungsten Smart-Heat Freestanding Gas) |
 |---|---|---|
-| Verwarmd oppervlak per verwarmer | Ca. 6–13 m² (Platinum); ca. 6–13 m² (Tungsten Electric, binnenkort leverbaar)[^s2] | Ca. 20 m²[^s2] |
+| Verwarmd oppervlak per verwarmer | Ca. 6–13 m² (Platinum); ca. 6–13 m² (Tungsten Electric Coastal en Select)[^s2] | Ca. 20 m²[^s2] |
 | Vermogen | 2300 W, 3400 W of 4500 W (Platinum)[^s2] | Ongeveer 11,1 kW[^s2] |
 | Energiebron en aansluiting | Een aparte groep, aangelegd door een vakbekwaam elektrotechnisch installateur volgens NEN 1010[^s1] | Aardgas of propaan; gaswerk volgens NEN 1078[^s1] |
 | Montage | Wand, plafond of vlak ingebouwd[^s2] | Verrijdbaar op wielen; de kantelbare kop richt de warmte[^s2] |

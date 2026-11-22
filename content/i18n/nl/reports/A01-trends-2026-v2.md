@@ -287,5 +287,5 @@ Alle marktcijfers gaan over de Verenigde Staten. De AIA-cijfers zijn netto (stij
 | 09 Kleine ruimtes | `t-011-031` Eclipse Freestanding, compacte tuin | `l-016-131` Eclipse Freestanding, dakterras in de stad |
 | 10 Van toevoeging naar inbouw | `t-012-034` pergolaterras en keuken | `l-010-070` Platinum, eten op de binnenplaats |
 
-- **Bijschriften.** Beelden uit het Lookbook zijn ontwerpinspiratie, geen installatierichtlijn; geef geen ervan een bijschrift als installatiedetail. Wordt een beeld van Tungsten Coastal of Select ingewisseld, dan moet het bijschrift "binnenkort" vermelden.
+- **Bijschriften.** Beelden uit het Lookbook zijn ontwerpinspiratie, geen installatierichtlijn; geef geen ervan een bijschrift als installatiedetail. Wordt een beeld van Tungsten Coastal of Select ingewisseld, dan noemt het bijschrift de collectie (beide gelanceerd in oktober 2026).
 - **Afscherming.** De pdf blijft afgeschermd (HubSpot-formulier); de afsluitende knop is "Bereken uw ruimte", met een link naar de dimensioneringscalculator (A03).

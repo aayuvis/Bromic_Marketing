@@ -32,7 +32,7 @@ sources:
     title: "Outdoor Lookbook 2026 (pp.7, 11, 15, 21, 27, 33, 39, 41)"
     year: 2026
     url: sources/Bromic_Lookbook_2026.pdf
-    supports: "Platinum Electric 2300/3400/4500 W, 65–143 ft², recessed, ceiling, wall; Eclipse 121 ft², 33/66/100%, dimmable rim lighting; Eclipse Freestanding wheels, weighted base; Tungsten Freestanding Gas 38,000 BTU, 215 ft², natural gas or propane; Tungsten Coastal and Select coming soon, 64–144 ft²; Affinity controls, Wi-Fi/app need compatible controls sold separately"
+    supports: "Platinum Electric 2300/3400/4500 W, 65–143 ft², recessed, ceiling, wall; Eclipse 121 ft², 33/66/100%, dimmable rim lighting; Eclipse Freestanding wheels, weighted base; Tungsten Freestanding Gas 38,000 BTU, 215 ft², natural gas or propane; Tungsten Coastal and Select, 64–144 ft²; Affinity controls, Wi-Fi/app need compatible controls sold separately"
     verified: true
   - id: s2
     publisher: Bromic Heating
@@ -105,7 +105,7 @@ Stralingsverwarmers (infrarood) wel, omdat ze de mensen en oppervlakken om zich 
 | Overdekt terras, veranda of pergola | Elektrisch | Verzonken of plafond | Platinum Electric, Tungsten Electric | Affinity On/Off of Dimmer; wandschakelaar[^s2][^s3] |
 | Laag plafond, strakke uitstraling | Elektrisch | Verzonken (Low-Clearance-inbouwset) | Platinum Electric | Affinity On/Off of Dimmer; wandschakelaar[^s3] |
 | Wand boven een zithoek | Elektrisch | Wand | Tungsten, Platinum of Cobalt Electric | Affinity On/Off of Dimmer; wandschakelaar[^s5] |
-| Aan de kust of op het water | Elektrisch | Verzonken, plafond of wand | Platinum Electric Marine; Tungsten Coastal (binnenkort leverbaar) | Affinity On/Off of Dimmer; wandschakelaar[^s4] |
+| Aan de kust of op het water | Elektrisch | Verzonken, plafond of wand | Platinum Electric Marine; Tungsten Coastal | Affinity On/Off of Dimmer; wandschakelaar[^s4] |
 | Warmte en licht boven een tafel of lounge | Elektrisch | Stang, pendel of wand | Eclipse Electric | Affinity Eclipse-regelaar[^s6] |
 | Open terras, geen constructie, wel een stopcontact | Elektrisch | Vrijstaand | Eclipse Freestanding | Eclipse Dimmer Controller en afstandsbediening, meegeleverd[^s6] |
 | Grote, goed geventileerde ruimte met een gasleiding | Aardgas of propaan | Wand of plafond | Platinum Gas, Tungsten Gas | Affinity On/Off-regelaar; wandschakelaar[^s7] |
@@ -127,7 +127,7 @@ Twijfel je nog tussen elektrisch en gas? Lees [elektrische of gasterrasverwarmer
 
 **Eclipse Freestanding** zet dezelfde schijf op een gebogen arm met een verzwaarde voet en wieltjes. Je steekt de stekker in het stopcontact, dus het enige wat hij van je ruimte vraagt, is een geschikt stopcontact.[^s1]
 
-**Tungsten Coastal en Select (binnenkort leverbaar)** zijn nieuwe Tungsten-collecties voor ongeveer 6 tot 13 m², met Coastal vervaardigd uit zeewaterbestendig rvs 316 en Select met extra afwerkingen.[^s1]
+**Tungsten Coastal en Select**, gelanceerd in oktober 2026, zijn nieuwe Tungsten-collecties voor ongeveer 6 tot 13 m², met Coastal vervaardigd uit zeewaterbestendig rvs 316 en Select met extra afwerkingen.[^s1]
 
 Bij de elektrische collecties werken Platinum, Tungsten en Cobalt met een Affinity On/Off-regelaar (volle warmte) of Dimmer-regelaar (warmte in stappen van 1%), of met een handbediende wandschakelaar.[^s9] Eclipse Electric werkt met de Affinity Eclipse-regelaar, die warmte en licht samen instelt.[^s6] [[VERIFY: of Eclipse Electric nog wordt geleverd met de Eclipse Dimmer Controller en afstandsbediening als alternatief voor de Affinity Eclipse-regelaar — productteam]]
 

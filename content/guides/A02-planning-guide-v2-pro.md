@@ -34,7 +34,7 @@ sources:
     title: "Lookbook 2026"
     year: 2026
     url: sources/Bromic_Lookbook_2026.pdf
-    supports: "Tungsten Coastal and Select (coming soon, 64–144 ft²), Eclipse and Tungsten Freestanding Gas coverage, Affinity Smart-Heat Controls and integrations, design service"
+    supports: "Tungsten Coastal and Select (64–144 ft²), Eclipse and Tungsten Freestanding Gas coverage, Affinity Smart-Heat Controls and integrations, design service"
     verified: true
   - id: s3
     publisher: Bromic Heating
@@ -245,7 +245,7 @@ Rules per the 2021 guide[^s3].
 
 Start with a heat map. Mark where people will sit, dine, stand and pass through, then lay the heat over those zones before you choose a finish or a mount, so comfort is built into the layout from the start[^s25]. Heaters compete for the same soffit as downlights, fans, speakers and ducts, and coordinating them with your MEP and lighting consultants in design development avoids rework once the reflected ceiling plan is full[^s25].
 
-Fewer, higher-output heaters placed where they work usually serve a space better than many small ones, and read as a calmer ceiling. Match the finish to the surrounding materials, from black and white to stainless and the coming-soon Select graphite, so the heater belongs to the architecture[^s25][^s2].
+Fewer, higher-output heaters placed where they work usually serve a space better than many small ones, and read as a calmer ceiling. Match the finish to the surrounding materials, from black and white to stainless and the Select graphite, so the heater belongs to the architecture[^s25][^s2].
 
 - [ ] Heated zones drawn over seating and bar rails, not circulation: ______ ft² per zone
 - [ ] Mounting surfaces: soffit / beam / wall / post; finished heights AFF ______
@@ -311,12 +311,12 @@ More cities are restricting new gas connections and portable propane, and client
 | Platinum Smart-Heat Gas | 23,600 / 39,800 Btu/h; NG or LPG | 160 / 215 ft² | Wall or ceiling; poles available | Intertek 4009079 | 2 yr excl. hoses, igniters[^s10] |
 | Tungsten Smart-Heat Gas (built-in) | Two models; output not published here | 160 / 215 ft² | Wall or ceiling; pivot arm ±25° | [[VERIFY]] | 2 yr excl. hoses, igniters[^s11] |
 | Tungsten Smart-Heat Freestanding Gas | 38,000 Btu/h; LPG 20 lb cylinder or NG quick-connect | 215 ft² | Freestanding | Intertek 4009079 (LPG) | 1 yr (LPG)[^s12] |
-| Tungsten Electric Coastal (coming soon) | [[VERIFY: wattages]]; 316 stainless | 64–144 ft² | Marine-grade low-clearance recessed, ceiling, wall, single-post | [[VERIFY]] | [[VERIFY]][^s2] |
-| Tungsten Electric Select (coming soon) | [[VERIFY: wattages]] | 64–144 ft² | Low-clearance recessed, ceiling, wall, single-post | [[VERIFY]] | [[VERIFY]][^s2] |
+| Tungsten Electric Coastal | [[VERIFY: wattages]]; 316 stainless | 64–144 ft² | Marine-grade low-clearance recessed, ceiling, wall, single-post | [[VERIFY]] | [[VERIFY]][^s2] |
+| Tungsten Electric Select | [[VERIFY: wattages]] | 64–144 ft² | Low-clearance recessed, ceiling, wall, single-post | [[VERIFY]] | [[VERIFY]][^s2] |
 
 SKUs, Platinum Electric: 2300 W BH0320003 black / BH0320007 white; 3400 W BH0320005 / BH0320008; 4500 W BH3622000 / BH3622001[^s5]. Platinum Gas: BH0110001-1 NG / -002-1 LPG (23,600 Btu/h); BH0110003-1 NG / BH0110004-1 LPG (39,800 Btu/h)[^s10]. Tungsten Gas built-in: BH0210001-1 NG / BH0210002-1 LPG (160 ft²); BH0210003-1 NG / BH0210004-1 LPG (215 ft²)[^s11].
 
-Product-page values were read on 29 October 2026, and the Lookbook 2026 governs wherever they differ[^s2]. Open conflicts are listed for confirmation: [[VERIFY: Eclipse 2900 W (spec table) vs 3000 W (FAQ); Tungsten Freestanding Gas 38,000 Btu/h (Lookbook, used here) vs 38,500 (site); Cobalt 130/160 ft² (spec table, used here) vs "up to 144 ft²" (features); whether current Tungsten Electric 6000 W (160 ft²) remains once Coastal and Select (64–144 ft²) launch; Platinum Electric Marine 316 vs 314 stainless (FAQ) — Product team]]. The Tungsten built-in gas output is withheld until it is confirmed.
+Product-page values were read on 29 October 2026, and the Lookbook 2026 governs wherever they differ[^s2]. Open conflicts are listed for confirmation: [[VERIFY: Eclipse 2900 W (spec table) vs 3000 W (FAQ); Tungsten Freestanding Gas 38,000 Btu/h (Lookbook, used here) vs 38,500 (site); Cobalt 130/160 ft² (spec table, used here) vs "up to 144 ft²" (features); whether current Tungsten Electric 6000 W (160 ft²) remains now Coastal and Select (64–144 ft²) have launched (Series I sells through until Classic, from January 2027); Platinum Electric Marine 316 vs 314 stainless (FAQ) — Product team]]. The Tungsten built-in gas output is withheld until it is confirmed.
 
 | Accessory | Fuel | Purpose |
 |---|---|---|
@@ -327,12 +327,12 @@ Product-page values were read on 29 October 2026, and the Lookbook 2026 governs 
 
 ### Detailing The Recess
 
-A recessed heater gives warmth that is felt without being seen, and keeps the soffit line clean[^s25]. Recessing is an electric detail: Platinum and Tungsten Electric recess with a recess kit, and the coming-soon Coastal and Select collections add low-clearance recessing for shallow cavities, in retrofits as well as new build[^s2][^s25]. Built-in gas heaters mount to the surface of a wall or ceiling.
+A recessed heater gives warmth that is felt without being seen, and keeps the soffit line clean[^s25]. Recessing is an electric detail: Platinum and Tungsten Electric recess with a recess kit, and the Coastal and Select collections add low-clearance recessing for shallow cavities, in retrofits as well as new build[^s2][^s25]. Built-in gas heaters mount to the surface of a wall or ceiling.
 
 Draw each recess as its own detail, coordinated with the structure and the RCP: the kit and cut-out, the cavity depth above the finished ceiling, blocking or framing around the opening, the junction-box position and its access, and the clearance the manual sets to the structure and to combustibles. [[VERIFY: accessory part numbers, recess-kit cut-outs, cavity depths and compatibility, including Coastal and Select recessing — Product team]]
 
 - [ ] Model, wattage or Btu/h, voltage, finish and SKU per tag
-- [ ] Coming-soon models carry an approved current alternate
+- [ ] Any model not yet available carries an approved current alternate
 - [ ] Recess kits, poles, deflectors scheduled; recess detail drawn? Y / N
 
 ![Close detail of a black Tungsten Select grille glowing warm](img:l-007-034)
@@ -467,6 +467,6 @@ A complete submittal for each heater tag gathers the items below.
 - [ ] Recess, pole or deflector details
 - [ ] Coverage drawing from the design service; warranty terms
 
-![Tungsten Coastal (coming soon) recessed flush into a white ceiling](img:l-005-022)
+![Tungsten Coastal recessed flush into a white ceiling](img:l-005-022)
 
 Download the spec kit for CSI sections, details and coverage tables, ready to drop into your set.

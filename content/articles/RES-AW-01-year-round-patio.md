@@ -99,7 +99,7 @@ Warm-up and wind: Bromic Planning Guide v1.2[^s4]. Coverage, temperature rise, d
 
 Begin with how your space is built.
 
-- **A covered patio, pergola or outdoor kitchen.** Built-in electric heaters mounted on the wall or ceiling, or recessed flush into it. Platinum Smart-Heat® Electric comes in 2300 W, 3400 W and 4500 W and covers approx. 65–143 ft² per heater; the Tungsten Smart-Heat® Electric Coastal and Select collections (coming soon) cover approx. 64–144 ft².[^s5]
+- **A covered patio, pergola or outdoor kitchen.** Built-in electric heaters mounted on the wall or ceiling, or recessed flush into it. Platinum Smart-Heat® Electric comes in 2300 W, 3400 W and 4500 W and covers approx. 65–143 ft² per heater; the Tungsten Smart-Heat® Electric Coastal and Select collections cover approx. 64–144 ft².[^s5]
 - **An open dining terrace.** The Eclipse Smart-Heat® Electric pendant brings heat and dimmable rim lighting together, covering approx. 121 ft², with 33/66/100% output steps.[^s5]
 - **A deck or lawn you like to rearrange.** Eclipse Smart-Heat® Freestanding Electric (approx. 121 ft², wheels, weighted base) or Tungsten Smart-Heat® Freestanding Gas (approx. 215 ft², 38,000 BTU, natural gas or propane, tilting head, anti-tilt design).[^s5]
 

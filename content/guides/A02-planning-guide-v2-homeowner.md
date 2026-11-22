@@ -34,7 +34,7 @@ sources:
     title: "Lookbook 2026"
     year: 2026
     url: sources/Bromic_Lookbook_2026.pdf
-    supports: "Tungsten Coastal and Select (coming soon, 64–144 ft²), Eclipse and Tungsten Freestanding Gas coverage, Affinity Smart-Heat Controls and integrations, design service"
+    supports: "Tungsten Coastal and Select (64–144 ft²), Eclipse and Tungsten Freestanding Gas coverage, Affinity Smart-Heat Controls and integrations, design service"
     verified: true
   - id: s3
     publisher: Bromic Heating
@@ -301,8 +301,8 @@ The right heater looks as though it was always part of the house, whether it sit
 | Platinum Smart-Heat Gas | Built-in gas, two sizes | Wall or ceiling; brackets included | Black or Stainless[^s10] |
 | Tungsten Smart-Heat Gas | Built-in gas, two sizes; pivot arm ±25° | Wall or ceiling | Matte black[^s11] |
 | Tungsten Smart-Heat Freestanding Gas | Tilting head, wheels, anti-tilt design | Freestanding | Black[^s2] |
-| Tungsten Smart-Heat Electric, Coastal collection (coming soon) | 316 marine-grade stainless; Signature Diamond Pattern grille | Recessed (low clearance), ceiling, wall, single-post | Black or White[^s2] |
-| Tungsten Smart-Heat Electric, Select collection (coming soon) | Expanded fascia options | Recessed (low clearance), ceiling, wall, single-post | Black, White or Graphite[^s2] |
+| Tungsten Smart-Heat Electric, Coastal collection | 316 marine-grade stainless; Signature Diamond Pattern grille | Recessed (low clearance), ceiling, wall, single-post | Black or White[^s2] |
+| Tungsten Smart-Heat Electric, Select collection | Expanded fascia options | Recessed (low clearance), ceiling, wall, single-post | Black, White or Graphite[^s2] |
 
 If you love the clean, flush look of a recessed heater, decide on it before the ceiling is built, since it needs a recess kit.
 
@@ -325,7 +325,7 @@ Every guest, in every chair, should stay comfortable for the whole evening. The 
 | Platinum Gas 23,600 / 39,800 Btu | 160 / 215 ft²[^s10] |
 | Tungsten Gas built-in, smaller / larger model | 160 / 215 ft²[^s11] |
 | Tungsten Freestanding Gas, 38,000 Btu | 215 ft²[^s2] |
-| Tungsten Electric Coastal and Select (coming soon) | 64–144 ft² by model[^s2] |
+| Tungsten Electric Coastal and Select | 64–144 ft² by model[^s2] |
 
 Coverage is approximate and varies with mounting height, wind and installation[^s2]. Product-page values read on 29 October 2026. [[VERIFY: coverage and output per model against the 2026 cut sheets; Eclipse 2900 W (spec table) vs 3000 W (FAQ); Tungsten Freestanding Gas 38,000 Btu (Lookbook) vs 38,500 (site) — Product team]]
 

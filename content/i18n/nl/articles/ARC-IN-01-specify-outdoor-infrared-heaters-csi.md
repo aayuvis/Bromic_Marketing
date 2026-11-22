@@ -115,8 +115,8 @@ Noem een referentieproduct en de eigenschappen waaraan een alternatief moet vold
 | Product | Vermogen | Verwarmd oppervlak (ca.) | Montage | Status |
 |---|---|---|---|---|
 | Platinum Smart-Heat Electric | 2300 W, 3400 W, 4500 W | 6–13 m² | Verzonken, plafond, wand | Leverbaar |
-| Tungsten Smart-Heat Electric, Select | [[VERIFY: vermogens — productteam]] | 6–13 m² | Verzonken met weinig inbouwdiepte, plafond, wand, enkele paal | Binnenkort leverbaar |
-| Tungsten Smart-Heat Electric, Coastal (rvs 316) | [[VERIFY: vermogens — productteam]] | 6–13 m² | Zeewaterbestendig, verzonken met weinig inbouwdiepte, plafond, wand, enkele paal | Binnenkort leverbaar |
+| Tungsten Smart-Heat Electric, Select | [[VERIFY: vermogens — productteam]] | 6–13 m² | Verzonken met weinig inbouwdiepte, plafond, wand, enkele paal | Leverbaar (gelanceerd in oktober 2026) |
+| Tungsten Smart-Heat Electric, Coastal (rvs 316) | [[VERIFY: vermogens — productteam]] | 6–13 m² | Zeewaterbestendig, verzonken met weinig inbouwdiepte, plafond, wand, enkele paal | Leverbaar (gelanceerd in oktober 2026) |
 | Eclipse Smart-Heat Electric | 33 / 66 / 100% vermogen | 11 m² | Enkele stang van 200, 610 of 1220 mm, dubbele of gebogen stang | Leverbaar |
 | Eclipse Smart-Heat Freestanding Electric | 33 / 66 / 100% vermogen | 11 m² | Vrijstaand, op wieltjes, verzwaarde voet | Leverbaar |
 

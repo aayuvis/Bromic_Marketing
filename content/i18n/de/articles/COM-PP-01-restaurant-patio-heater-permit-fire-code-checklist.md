@@ -134,7 +134,7 @@ New York City hat die strengsten Regeln aller großen Märkte in den USA. Die Er
 
 Eine elektrische Installation braucht einen eingetragenen Elektrofachbetrieb, einen eigenen Stromkreis, den der Elektrofachbetrieb nach DIN VDE 0100 auslegt, und Montagehöhen nach Herstellerangabe. Für seine elektrischen Heizstrahler nennt Bromic mindestens 1,83 m über dem Boden an der Wand und 2,44 m an der Decke, wobei der Abstand zur Decke von der Leistung abhängt.[^s7] Die Versorgung ist in Deutschland 230 V, 50 Hz; bestätigen Sie für jedes Modell die passende Spannung. [[VERIFY: aktuelle Montagehöhen und Abstände je Modell aus den Installationsanleitungen — Produktteam]]
 
-Die Steuerung gehört von der ersten Zeichnung an zur Installation: ein Affinity Smart-Heat® On/Off- oder Dimmer-Steuergerät und ein Wandschalter für Platinum und Tungsten Electric (Tungsten Coastal und Select demnächst erhältlich) und das Eclipse-Steuergerät für Eclipse. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat® Controls voraus, die separat erhältlich sind.[^s8] Die Einbindung in die Gebäudeleittechnik mit Control4, Crestron oder Lutron hängt vom jeweiligen System ab und kann zusätzliche Hardware erfordern.
+Die Steuerung gehört von der ersten Zeichnung an zur Installation: ein Affinity Smart-Heat® On/Off- oder Dimmer-Steuergerät und ein Wandschalter für Platinum und Tungsten Electric (Tungsten Coastal und Select eingeschlossen) und das Eclipse-Steuergerät für Eclipse. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat® Controls voraus, die separat erhältlich sind.[^s8] Die Einbindung in die Gebäudeleittechnik mit Control4, Crestron oder Lutron hängt vom jeweiligen System ab und kann zusätzliche Hardware erfordern.
 
 ## Ihre Planungs-Checkliste
 

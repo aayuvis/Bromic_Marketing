@@ -130,7 +130,7 @@ Houd er rekening mee en vraag het vroeg na. In Nederland heet de vergelijkbare b
 | Afstanden | Markeer afstanden tot muren, balken en brandbare materialen volgens de handleiding [[VERIFY: afstandentabel per model — productteam]] |
 | Inbouwset | Timmer de opening en de diepte van de plafondruimte voor de inbouwset voordat de platen erop gaan [[VERIFY: ruwe opening en diepte voor de inbouwset per model — productteam]] |
 
-![Verwarmer vlak ingebouwd in een wit plafond (Tungsten Coastal, binnenkort)](img:l-005-022)
+![Verwarmer vlak ingebouwd in een wit plafond (Tungsten Coastal)](img:l-005-022)
 
 Met inbouwsets zitten Platinum- en Tungsten Electric-verwarmers vlak in de plafondruimte[^s2], voor een strakke, naadloze afwerking. Omdat de set het timmerwerk bepaalt, moet hij al tijdens het timmerwerk worden gekozen, ruim voor de afwerking.
 

@@ -36,7 +36,7 @@ sources:
     title: "Outdoor Lookbook 2026 (pp.7, 11, 15, 21, 27, 33, 39, 41)"
     year: 2026
     url: sources/Bromic_Lookbook_2026.pdf
-    supports: "Platinum Electric 2300/3400/4500 W, 65–143 ft², recessed, ceiling, wall; Eclipse 121 ft², 33/66/100%, dimmable rim lighting; Eclipse Freestanding wheels, weighted base; Tungsten Freestanding Gas 38,000 BTU, 215 ft², natural gas or propane; Tungsten Coastal and Select coming soon, 64–144 ft²; Affinity controls, Wi-Fi/app need compatible controls sold separately"
+    supports: "Platinum Electric 2300/3400/4500 W, 65–143 ft², recessed, ceiling, wall; Eclipse 121 ft², 33/66/100%, dimmable rim lighting; Eclipse Freestanding wheels, weighted base; Tungsten Freestanding Gas 38,000 BTU, 215 ft², natural gas or propane; Tungsten Coastal and Select, 64–144 ft²; Affinity controls, Wi-Fi/app need compatible controls sold separately"
     verified: true
   - id: s2
     publisher: Bromic Heating
@@ -109,7 +109,7 @@ Radiant (infrared) heaters do, because they warm the people and surfaces around 
 | Covered patio, porch or pergola | Electric | Recessed or ceiling | Platinum Electric, Tungsten Electric | Affinity On/Off or Dimmer; wall switch[^s2][^s3] |
 | Low ceiling, clean look | Electric | Recessed (low-clearance kit) | Platinum Electric | Affinity On/Off or Dimmer; wall switch[^s3] |
 | Wall above a seating area | Electric | Wall | Tungsten, Platinum or Cobalt Electric | Affinity On/Off or Dimmer; wall switch[^s5] |
-| Coastal or on the water | Electric | Recessed, ceiling or wall | Platinum Electric Marine; Tungsten Coastal (coming soon) | Affinity On/Off or Dimmer; wall switch[^s4] |
+| Coastal or on the water | Electric | Recessed, ceiling or wall | Platinum Electric Marine; Tungsten Coastal | Affinity On/Off or Dimmer; wall switch[^s4] |
 | Heat and light over a table or lounge | Electric | Pole, pendant or wall | Eclipse Electric | Affinity Eclipse controller[^s6] |
 | Open terrace, no structure, power outlet | Electric | Freestanding | Eclipse Freestanding | Eclipse Dimmer Controller and remote, included[^s6] |
 | Large, well-ventilated space with a gas line | Natural gas or propane | Wall or ceiling | Platinum Gas, Tungsten Gas | Affinity On/Off controller; wall switch[^s7] |
@@ -129,7 +129,7 @@ Still weighing electric against gas? Read [electric vs gas patio heaters](item:R
 
 **Eclipse Freestanding** sets the same disc on a curved arm with a weighted base and wheels. It plugs in, so all it asks of your space is a suitable outlet.[^s1]
 
-**Tungsten Coastal and Select (coming soon)** are new Tungsten collections covering about 64 to 144 ft², with Coastal crafted in 316 marine-grade stainless steel and Select offering extra finishes.[^s1]
+**Tungsten Coastal and Select**, launched in October 2026, are new Tungsten collections covering about 64 to 144 ft², with Coastal crafted in 316 marine-grade stainless steel and Select offering extra finishes.[^s1]
 
 For the electric collections, Platinum, Tungsten and Cobalt run on an Affinity On/Off (full heat) or Dimmer (heat in 1% steps) controller, or a manual wall switch.[^s9] Eclipse Electric runs on the Affinity Eclipse controller, which sets heat and light together.[^s6] [[VERIFY: whether Eclipse Electric still ships with the Eclipse Dimmer Controller and remote as an alternative to the Affinity Eclipse controller — Product team]]
 

@@ -80,7 +80,7 @@ sources:
     title: "Outdoor Lookbook 2026"
     year: 2026
     url: sources/Bromic_Lookbook_2026.pdf
-    supports: "Tungsten Coastal (coming soon) in 316 marine-grade stainless steel; Affinity controls; Wi-Fi and app features need compatible Affinity controls, sold separately"
+    supports: "Tungsten Coastal in 316 marine-grade stainless steel; Affinity controls; Wi-Fi and app features need compatible Affinity controls, sold separately"
     verified: true
   - id: s9
     publisher: Bromic Heating
@@ -128,7 +128,7 @@ Dit zijn de classificaties die Bromic op dit moment per model publiceert. Waar e
 | Eclipse Smart-Heat Electric en Freestanding | Niet vermeld[^s6] | Bromic adviseert montage onder een overkapping [[VERIFY: IP-code Eclipse — productteam]] |
 | Platinum Gas, Tungsten Gas, Tungsten Smart-Heat Freestanding | Geen code vermeld | [[VERIFY: IP-classificatie, indien aanwezig, voor elk gasmodel — productteam]] |
 | Affinity Smart-Heat On/Off-regelaar | IP54[^s7] | Stofbeschermd en spatwaterdicht; kijk in de handleiding waar de andere regelaars gemonteerd mogen worden |
-| Tungsten Smart-Heat Electric, Coastal-collectie (binnenkort leverbaar) | Nog niet gepubliceerd[^s8] | Zeewaterbestendig rvs 316 |
+| Tungsten Smart-Heat Electric, Coastal-collectie | [[VERIFY: IP-classificatie — productteam]][^s8] | Zeewaterbestendig rvs 316 |
 
 De algemene uitspraak in het oorspronkelijke artikel dat elke Bromic-verwarmer IPX4 heeft, is ingetrokken, want het Marine-model heeft een hogere classificatie en verschillende modellen hebben nog geen gepubliceerde code.
 

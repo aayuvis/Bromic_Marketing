@@ -82,7 +82,7 @@ Verdeel je verwarmers zo dat hun verwarmde oppervlakken boven de zitplekken op e
 | Verwarmer | Verwarmd oppervlak per verwarmer, ongeveer[^s2] |
 |---|---|
 | Platinum Smart-Heat Electric (2300/3400/4500 W) | 6–13 m² |
-| Tungsten Smart-Heat Electric, Coastal en Select (binnenkort leverbaar) | 6–13 m² |
+| Tungsten Smart-Heat Electric, Coastal en Select | 6–13 m² |
 | Eclipse Smart-Heat Electric / Freestanding Electric | 11 m² |
 | Tungsten Smart-Heat Freestanding Gas | 20 m² |
 
@@ -97,10 +97,10 @@ Afstand tot brandbare materialen is de minimale afstand tussen een verwarmer en 
 Er zijn verschillende elegante manieren om daarbinnen te ontwerpen:
 
 - **Bij gasverwarmers** verkleinen dubbelwandige roestvaststalen warmtedeflectors de benodigde vrije ruimte boven de verwarmer, en met plafondpendels monteer je twee toestellen rug aan rug onder vlakke of schuine plafonds.[^s1]
-- **Bij elektrische verwarmers** bouwen inbouwkits Platinum en Tungsten Electric vlak in een dakholte in, volgens de inbouwafstanden in de handleiding.[^s1] De Tungsten-collecties die binnenkort leverbaar zijn, voegen inbouw met weinig vrije ruimte toe.[^s2]
+- **Bij elektrische verwarmers** bouwen inbouwkits Platinum en Tungsten Electric vlak in een dakholte in, volgens de inbouwafstanden in de handleiding.[^s1] De Tungsten-collecties Select en Coastal voegen inbouw met weinig vrije ruimte toe.[^s2]
 - **Rond textiel en kussens** houd je stoffen, parasols en kussens uit de stralingsrichting. Als algemene richtlijn voor verwarming in huis adviseert de Amerikaanse NFPA om alles wat kan branden minstens ongeveer 0,9 m van verwarmingstoestellen te houden.[^s3] [[VERIFY: formulering van de NFPA-tip; afstanden voor een specifieke verwarmer komen uit de handleiding — marketing]]
 
-![Tungsten Coastal (binnenkort leverbaar), vlak ingebouwd in een wit plafond](img:l-005-022)
+![Tungsten Coastal, vlak ingebouwd in een wit plafond](img:l-005-022)
 
 ## Hoe een overdekt terras helpt
 

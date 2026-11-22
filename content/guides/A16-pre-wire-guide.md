@@ -107,7 +107,7 @@ Each Bromic family asks for something slightly different at rough-in, and gettin
 | Platinum Smart-Heat Electric | 2300 / 3400 / 4500 W | Dedicated circuit(s) to controller; heater junction box | Recessed (recess kit), ceiling or wall; blocking |
 | Eclipse Smart-Heat Electric | [[VERIFY: wattage and supply]] | Circuit to controller; ceiling box at pole | Single pole 8", 24" or 48"; double or curved pole; blocking for pole |
 | Eclipse Smart-Heat Freestanding Electric | [[VERIFY: plug or hard-wire; receptacle rating]] | [[VERIFY: outdoor receptacle requirements]] | None; level surface |
-| Tungsten Smart-Heat Electric – Coastal / Select (coming soon) | [[VERIFY: wattages]] | As Platinum, pending install manual | Low-clearance recessing, ceiling, wall, single-post |
+| Tungsten Smart-Heat Electric – Coastal / Select | [[VERIFY: wattages]] | As Platinum, pending install manual | Low-clearance recessing, ceiling, wall, single-post |
 | Tungsten Gas (built-in), Platinum Gas | [[VERIFY: Btu/h — do not publish Tungsten built-in figure until confirmed]] | Gas stub-out and shut-off; [[VERIFY: any electrical supply for ignition/controls]] | Ceiling, wall; ceiling poles, heat deflectors |
 | Tungsten Smart-Heat Freestanding Gas | 38,000 Btu/h; natural gas or propane | Propane: none. Natural gas: [[VERIFY: quick-connect outlet requirement]] | None |
 
@@ -159,7 +159,7 @@ A recessed heater reads as part of the architecture, and it is the detail buyers
 - Rough opening (L × W): [[VERIFY dims: per model and size — Product team]]
 - Minimum cavity depth: [[VERIFY dims: per model — Product team]]
 - Clearance above kit to combustibles: [[VERIFY dims: per installation manual — Product team]]
-- Low-clearance recessing (Tungsten Coastal / Select, coming soon): [[VERIFY dims — Product team]]
+- Low-clearance recessing (Tungsten Coastal / Select): [[VERIFY dims — Product team]]
 - Ceiling finish thickness allowed: [[VERIFY dims — Product team]]
 
 On site:
@@ -170,7 +170,7 @@ On site:
 
 [[DIAGRAM: Reflected ceiling plan and section of a recess-kit opening between joists: header, blocking, junction box, cavity depth and clearance dimensions shown as callouts awaiting verified values.]]
 
-![Tungsten Coastal (coming soon) recessed flush into a white ceiling](img:l-005-022)
+![Tungsten Coastal recessed flush into a white ceiling](img:l-005-022)
 
 ## Wiring The Controls
 

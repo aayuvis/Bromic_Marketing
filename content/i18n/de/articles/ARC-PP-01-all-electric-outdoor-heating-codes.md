@@ -157,7 +157,7 @@ Elektrische Strahlungswärme beseitigt diese Abhängigkeit. Sie läuft über die
 ## Bromic Elektro-Heizstrahler für jeden Ort
 
 - **Überdachte Terrassen und Untersichten.** Platinum Smart-Heat® Electric, 2300 W, 3400 W oder 4500 W, ca. 6–13 m², eingelassen, an Decke oder Wand[^s12].
-- **Architektonischer Einbau und Küstenlagen.** Tungsten Smart-Heat® Electric Select und Coastal (demnächst erhältlich), ca. 6–13 m², mit Einbau bei geringer Einbautiefe[^s12].
+- **Architektonischer Einbau und Küstenlagen.** Tungsten Smart-Heat® Electric Select und Coastal, ca. 6–13 m², mit Einbau bei geringer Einbautiefe[^s12].
 - **Offene Terrassen und Pergolen.** Eclipse Smart-Heat® Electric, ca. 11 m², an der Stange montiert, mit dimmbarem Ringlicht, und Eclipse Freestanding, wo sich nichts befestigen lässt[^s12].
 
 Jeder kommt mit seiner Affinity Smart-Heat® Steuerung: einem On/Off-, Dimmer- oder Eclipse-Steuergerät, einem Wandschalter und der Bromic Smart-Heat App für Zeitpläne und Timer. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat Controls voraus, die separat erhältlich sind[^s12].

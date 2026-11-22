@@ -125,7 +125,7 @@ A space that welcomes people year-round comes from four decisions, each made ear
 
 ## Designing Heat Into The Soffit
 
-The most refined installations treat the heater as a ceiling element, much as you would a downlight. Over a covered terrace, a recessed electric heater keeps the ceiling plane clean and lets the architecture speak. Platinum Smart-Heat® Electric (2300W, 3400W or 4500W) covers approx. 65–143 ft² depending on model and installation, and can be recessed, ceiling- or wall-mounted[^s8]. The new Tungsten Smart-Heat® Electric Select and Coastal collections (coming soon) add low-clearance recessing and approx. 64–144 ft² coverage[^s8].
+The most refined installations treat the heater as a ceiling element, much as you would a downlight. Over a covered terrace, a recessed electric heater keeps the ceiling plane clean and lets the architecture speak. Platinum Smart-Heat® Electric (2300W, 3400W or 4500W) covers approx. 65–143 ft² depending on model and installation, and can be recessed, ceiling- or wall-mounted[^s8]. The new Tungsten Smart-Heat® Electric Select and Coastal collections, launched in October 2026, add low-clearance recessing and approx. 64–144 ft² coverage[^s8].
 
 Every heater you specify is paired with its controls: an Affinity Smart-Heat® On/Off or Dimmer controller, a wall switch, and the Bromic Smart-Heat app for zones and schedules. Wi-Fi and app features require compatible Affinity Smart-Heat Controls, sold separately. Integration with Control4, Crestron or Lutron is possible, though compatibility varies by system and may need extra integration hardware[^s8].
 

@@ -66,7 +66,7 @@ sources:
     title: "Outdoor Lookbook 2026, pp.7, 27, 41"
     year: 2026
     url: sources/Bromic_Lookbook_2026.pdf
-    supports: "Tungsten Coastal (coming soon) in 316 marine-grade stainless; Eclipse 121 ft², 33/66/100% output, dimmable rim lighting; Wi-Fi and app features need compatible Affinity controls, sold separately"
+    supports: "Tungsten Coastal in 316 marine-grade stainless; Eclipse 121 ft², 33/66/100% output, dimmable rim lighting; Wi-Fi and app features need compatible Affinity controls, sold separately"
     verified: true
   - id: s7
     publisher: BBQGuys
@@ -111,7 +111,7 @@ As the live post puts it, a top-rated heater belongs to its setting:[^s1]
 - **Tungsten** for hard-working residential and commercial spaces where durability and steady output matter.
 - **Eclipse** where light and ambience are part of the brief.
 
-Coastal homes call for marine-grade stainless, and Tungsten Coastal (coming soon) adds a marine-grade option to the Tungsten family.[^s6] To see the full range by space and fuel, read [which outdoor heater collection is right for you](https://www.bromic.com/blog/which-outdoor-heater-collection-is-right-for-you/).
+Coastal homes call for marine-grade stainless, and Tungsten Coastal adds a marine-grade option to the Tungsten family.[^s6] To see the full range by space and fuel, read [which outdoor heater collection is right for you](https://www.bromic.com/blog/which-outdoor-heater-collection-is-right-for-you/).
 
 ## Why Controls Belong In Every Rating
 

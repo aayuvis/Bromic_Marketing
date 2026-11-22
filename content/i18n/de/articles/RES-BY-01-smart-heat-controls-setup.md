@@ -48,7 +48,7 @@ Ihr System baut sich in Ebenen auf, von der Wand aufwärts.
 
 | Ebene | Was es ist | Was es Ihnen bringt |
 |---|---|---|
-| Heizstrahler | Platinum, Tungsten Electric (Coastal und Select demnächst erhältlich) oder Eclipse | Die Wärme |
+| Heizstrahler | Platinum, Tungsten Electric (Coastal und Select) oder Eclipse | Die Wärme |
 | Steuergerät | Affinity Smart-Heat On/Off-, Dimmer- oder Eclipse-Steuergerät; oder ein manueller Wandschalter[^s1] | Ein/Aus; der Dimmer ergänzt Leistungsstufen; das Eclipse-Steuergerät steuert Wärme und Licht des Eclipse |
 | Bromic Smart-Heat App | Smartphone-App, mit kompatiblen Affinity-Steuergeräten[^s1] | Wärme regeln, Timer und Zeitpläne setzen, Zonen von überall verwalten[^s1] |
 | Sprache und Smart Home | Amazon Alexa, Google Assistant, Control4, Crestron, Lutron[^s1] | Freihändige Bedienung und Steuerung im ganzen Haus; die Kompatibilität ist unterschiedlich und kann zusätzliche Integrationshardware oder Konfiguration erfordern[^s1] |

@@ -122,9 +122,9 @@ Tiers are shown for one covered patio. Heater count depends on the patio's size,
 | | **Good** | **Better** | **Best** |
 |---|---|---|---|
 | The moment | Dinner outside on a cool evening | The patio as an everyday room, morning to late | An outdoor room as finished as the inside |
-| Heater | Platinum Smart-Heat Electric, wall- or ceiling-mounted | Platinum Smart-Heat Electric, recessed flush in the soffit | Platinum Smart-Heat Electric recessed, plus Eclipse Smart-Heat Electric pendant over dining; Tungsten Smart-Heat Electric Select or Coastal (coming soon) as the recessed upgrade |
+| Heater | Platinum Smart-Heat Electric, wall- or ceiling-mounted | Platinum Smart-Heat Electric, recessed flush in the soffit | Platinum Smart-Heat Electric recessed, plus Eclipse Smart-Heat Electric pendant over dining; Tungsten Smart-Heat Electric Select or Coastal as the recessed upgrade |
 | Output and finish | 2300 W or 3400 W; Black or White[^s5] | 3400 W or 4500 W; Black or White | Platinum 3400 W or 4500 W; Eclipse with dimmable rim lighting, Black |
-| Approx. coverage per heater | 65–143 ft² by model[^s5] | 65–143 ft² by model | Platinum 65–143 ft²; Eclipse 121 ft²; Tungsten 64–144 ft² (coming soon) |
+| Approx. coverage per heater | 65–143 ft² by model[^s5] | 65–143 ft² by model | Platinum 65–143 ft²; Eclipse 121 ft²; Tungsten 64–144 ft² |
 | Mounting | Wall or ceiling bracket | Recess kit[^s6] | Recess kit; Eclipse on single, double or curved pole |
 | Controls (required) | Affinity Smart-Heat On/Off controller + manual wall switch | Affinity Smart-Heat Dimmer controller + manual wall switch + Bromic Smart-Heat app (schedules, timers) | Affinity Dimmer controller (Platinum) + Affinity Eclipse controller + wall switches + app with zones; integration with Control4, Crestron or Lutron where the home has it (compatibility varies; may need extra integration hardware)[^s5] |
 | Zones | One | One or two | Two or more (dining, lounge) |
@@ -149,7 +149,7 @@ Platinum sits recessed flush into the soffit with Bromic's recess kit, so the ce
 
 ### Best: A Complete Outdoor Room
 
-Recessed Platinum warms the lounge while Eclipse pendants bring heat and light together over the dining table, each on its own zone and tied into the home's automation where it has one. For buyers who want the newest design, offer Tungsten Select or Coastal (coming soon) as the recessed heater once Bromic confirms availability.
+Recessed Platinum warms the lounge while Eclipse pendants bring heat and light together over the dining table, each on its own zone and tied into the home's automation where it has one. For buyers who want the newest design, offer Tungsten Select or Coastal as the recessed heater.
 
 ![Eclipse pendants glowing above a long candlelit dining table](img:l-013-100)
 

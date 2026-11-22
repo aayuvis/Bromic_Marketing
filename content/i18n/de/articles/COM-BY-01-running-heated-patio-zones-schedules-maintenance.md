@@ -65,7 +65,7 @@ Legen Sie Ihre Zonen danach an, wie die Fläche bedient wird, und lassen Sie die
 | Lounge oder Wartebereich | Lounge-Möbel, Empfang | Kurze Verweildauer, geringere Leistung |
 | Veranstaltung oder privat | Bereich für geschlossene Gesellschaften | Läuft nach eigenem Zeitplan |
 
-Jede Zone hat ihr eigenes Steuergerät. Für Platinum und Tungsten Electric ist das ein Affinity Smart-Heat® On/Off- oder Dimmer-Steuergerät mit Wandschalter, für Eclipse das Eclipse-Steuergerät (Tungsten Coastal und Select sind demnächst erhältlich). Die Bromic Smart-Heat App ergänzt Zonen, Zeitpläne und Timer. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat® Controls voraus, die separat erhältlich sind.[^s1] Betriebe mit Gebäudeleittechnik können Control4, Crestron oder Lutron einbinden; die Kompatibilität ist unterschiedlich und kann zusätzliche Hardware erfordern.[^s1]
+Jede Zone hat ihr eigenes Steuergerät. Für Platinum und Tungsten Electric, Coastal und Select eingeschlossen, ist das ein Affinity Smart-Heat® On/Off- oder Dimmer-Steuergerät mit Wandschalter, für Eclipse das Eclipse-Steuergerät. Die Bromic Smart-Heat App ergänzt Zonen, Zeitpläne und Timer. WLAN- und App-Funktionen setzen kompatible Affinity Smart-Heat® Controls voraus, die separat erhältlich sind.[^s1] Betriebe mit Gebäudeleittechnik können Control4, Crestron oder Lutron einbinden; die Kompatibilität ist unterschiedlich und kann zusätzliche Hardware erfordern.[^s1]
 
 ## Wärme im Takt Ihrer Gäste planen
 

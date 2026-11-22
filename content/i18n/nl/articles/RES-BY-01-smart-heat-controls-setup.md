@@ -48,7 +48,7 @@ Je systeem bouwt zich op in lagen, vanaf de wand.
 
 | Laag | Wat het is | Wat het je geeft |
 |---|---|---|
-| Verwarmer | Platinum, Tungsten Electric (Coastal en Select, binnenkort leverbaar) of Eclipse | De warmte |
+| Verwarmer | Platinum, Tungsten Electric (Coastal en Select) of Eclipse | De warmte |
 | Regelaar | Affinity Smart-Heat On/Off-, Dimmer- of Eclipse-regelaar; of een handmatige wandschakelaar[^s1] | Aan/uit; de Dimmer voegt vermogensstanden toe; de Eclipse-regelaar bedient warmte en licht van de Eclipse |
 | Bromic Smart-Heat app | Telefoonapp, met compatibele Affinity-regelaars[^s1] | Warmte bijstellen, timers en schema's instellen, zones beheren, waar je ook bent[^s1] |
 | Spraak en smart home | Amazon Alexa, Google Assistant, Control4, Crestron, Lutron[^s1] | Handsfree bediening en bediening voor het hele huis; de compatibiliteit verschilt en kan extra integratiehardware of configuratie vragen[^s1] |

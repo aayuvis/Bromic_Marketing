@@ -98,7 +98,7 @@ Wählen Sie nach Konstruktion, der Energie vor Ort und danach, wie oft sich die 
 | Pergola oder Markise, Wärme plus Licht | Eclipse Smart-Heat Electric (Stangenmontage) | ca. 11 m² | Eclipse-Steuergerät, Wandschalter, App |
 | Offene Bestuhlung, die sich jeden Abend ändert | Eclipse Smart-Heat Freestanding Electric | ca. 11 m², und nicht mehr als 4 Plätze je Heizstrahler | Eclipse-Steuergerät [[VERIFY: Zuordnung des Steuergeräts für den freistehenden Eclipse — Produktteam]] |
 | Große offene Fläche, Gas vor Ort | Tungsten Smart-Heat Freestanding Gas (ca. 11,1 kW, Erdgas oder Flüssiggas) | ca. 20 m², und nicht mehr als 4 Plätze je Heizstrahler | [[VERIFY: Affinity-Steuerungsoptionen für Tungsten Freestanding Gas — Produktteam]] |
-| Architektonischer Einbau | Tungsten Smart-Heat Electric, Coastal oder Select (demnächst erhältlich) | 6–13 m² | Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät, Wandschalter, App |
+| Architektonischer Einbau | Tungsten Smart-Heat Electric, Coastal oder Select | 6–13 m² | Affinity Smart-Heat On/Off- oder Dimmer-Steuergerät, Wandschalter, App |
 
 Die Heizfläche hängt von Modell, Größe und Montagehöhe ab, und kalte, exponierte Standorte brauchen für dieselbe Fläche mehr Geräte. Ein freistehender Heizstrahler versorgt unabhängig von seiner Heizfläche nicht mehr als vier Plätze, weil sitzende Gäste seine Strahlungswärme abschirmen; 40 Plätze brauchen also mindestens zehn. WLAN- und App-Funktionen – Zonen, Zeitpläne und Timer in der Bromic Smart-Heat App – setzen kompatible Affinity Smart-Heat® Controls voraus, die separat erhältlich sind.[^s4]
 

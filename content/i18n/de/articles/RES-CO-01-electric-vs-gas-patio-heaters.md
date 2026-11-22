@@ -76,7 +76,7 @@ Aufheizzeit und Wind: Bromic Planning Guide v1.2[^s1]. Heizfläche, Temperaturan
 
 | Kriterium | Fest montiert, elektrisch (Platinum, Tungsten Electric) | Freistehend, Gas (Tungsten Smart-Heat Freestanding Gas) |
 |---|---|---|
-| Heizfläche je Gerät | Ca. 6–13 m² (Platinum); ca. 6–13 m² (Tungsten Electric, demnächst erhältlich)[^s2] | Ca. 20 m²[^s2] |
+| Heizfläche je Gerät | Ca. 6–13 m² (Platinum); ca. 6–13 m² (Tungsten Electric Coastal und Select)[^s2] | Ca. 20 m²[^s2] |
 | Leistung | 2300 W, 3400 W oder 4500 W (Platinum)[^s2] | ca. 11,1 kW[^s2] |
 | Energie und Anschluss | Eigener Stromkreis, installiert von einem Elektrofachbetrieb nach DIN VDE 0100[^s1] | Erdgas oder Flüssiggas (Propan); Gasarbeiten nach DVGW-TRGI bzw. TRF[^s1] |
 | Montage | Wand, Decke oder bündig eingelassen[^s2] | Fahrbar auf Rädern; der neigbare Kopf richtet die Wärme aus[^s2] |

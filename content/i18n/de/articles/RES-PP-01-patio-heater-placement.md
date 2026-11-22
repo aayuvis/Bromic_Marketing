@@ -82,7 +82,7 @@ Verteilen Sie Ihre Heizstrahler so, dass sich ihre Heizflächen über dem Sitzbe
 | Heizstrahler | Heizfläche je Gerät (ca.)[^s2] |
 |---|---|
 | Platinum Smart-Heat Electric (2300/3400/4500 W) | 6–13 m² |
-| Tungsten Smart-Heat Electric, Coastal und Select (demnächst erhältlich) | 6–13 m² |
+| Tungsten Smart-Heat Electric, Coastal und Select | 6–13 m² |
 | Eclipse Smart-Heat Electric / Freestanding Electric | 11 m² |
 | Tungsten Smart-Heat Freestanding Gas | 20 m² |
 
@@ -97,10 +97,10 @@ Der Abstand zu brennbaren Materialien ist der Mindestabstand zwischen einem Heiz
 Es gibt mehrere elegante Wege, innerhalb dieser Vorgaben zu gestalten:
 
 - **Bei Gasheizstrahlern** verringern zweilagige Hitzeschilde aus Edelstahl den nötigen Abstand über dem Gerät, und Deckenstangen tragen zwei Geräte Rücken an Rücken unter flachen oder geneigten Decken.[^s1]
-- **Bei elektrischen Heizstrahlern** setzen Einbaurahmen Platinum und Tungsten Electric bündig in einen Dachhohlraum, ausgeführt nach den Einbauabständen der Anleitung.[^s1] Die demnächst erhältlichen Tungsten-Kollektionen ergänzen den Einbau mit geringem Abstand.[^s2]
+- **Bei elektrischen Heizstrahlern** setzen Einbaurahmen Platinum und Tungsten Electric bündig in einen Dachhohlraum, ausgeführt nach den Einbauabständen der Anleitung.[^s1] Die Tungsten-Kollektionen Select und Coastal ergänzen den Einbau mit geringem Abstand.[^s2]
 - **Rund um Textilien** halten Sie Stoffe, Schirme und Kissen aus dem Wärmeweg. Als allgemeinen Hinweis zur Heizungssicherheit im Haushalt empfiehlt die US-Brandschutzorganisation NFPA, alles Brennbare mindestens ca. 0,9 m von Heizgeräten fernzuhalten.[^s3] [[VERIFY: Wortlaut des NFPA-Hinweises; gerätespezifische Abstände stammen aus der Anleitung — Marketing]]
 
-![Tungsten Coastal (demnächst erhältlich), bündig in eine weiße Decke eingelassen](img:l-005-022)
+![Tungsten Coastal, bündig in eine weiße Decke eingelassen](img:l-005-022)
 
 ## Wie eine Überdachung hilft
 

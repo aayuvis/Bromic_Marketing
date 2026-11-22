@@ -102,7 +102,7 @@ Opwarmtijd en wind: Bromic Planning Guide v1.2[^s4]. Verwarmd oppervlak, tempera
 
 Begin bij hoe je ruimte is gebouwd.
 
-- **Een overdekt terras, een pergola of een buitenkeuken.** Ingebouwde elektrische verwarmers aan de wand of het plafond, of vlak in het plafond ingebouwd. Platinum Smart-Heat® Electric bestaat in 2300 W, 3400 W en 4500 W en verwarmt ca. 6–13 m² per verwarmer; de collecties Tungsten Smart-Heat® Electric Coastal en Select (binnenkort leverbaar) verwarmen ca. 6–13 m².[^s5]
+- **Een overdekt terras, een pergola of een buitenkeuken.** Ingebouwde elektrische verwarmers aan de wand of het plafond, of vlak in het plafond ingebouwd. Platinum Smart-Heat® Electric bestaat in 2300 W, 3400 W en 4500 W en verwarmt ca. 6–13 m² per verwarmer; de collecties Tungsten Smart-Heat® Electric Coastal en Select verwarmen ca. 6–13 m².[^s5]
 - **Een open eetterras.** De Eclipse Smart-Heat® Electric pendel brengt warmte en dimbare randverlichting samen, verwarmt ca. 11 m² en heeft vermogensstappen van 33/66/100%.[^s5]
 - **Een vlonder of gazon dat je graag anders inricht.** Eclipse Smart-Heat® Freestanding Electric (ca. 11 m², wielen, verzwaarde voet) of Tungsten Smart-Heat® Freestanding Gas (ca. 20 m², ongeveer 11,1 kW, aardgas of propaan, kantelbare kop, ontwerp tegen omvallen).[^s5]
 

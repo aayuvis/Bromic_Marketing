@@ -33,7 +33,7 @@ sources:
     title: "Lookbook 2026"
     year: 2026
     url: sources/Bromic_Lookbook_2026.pdf
-    supports: "Platinum recessed/ceiling/wall, 65–143 ft²; Tungsten Select and Coastal low-clearance recessing (coming soon), 64–144 ft²; Affinity controls"
+    supports: "Platinum recessed/ceiling/wall, 65–143 ft²; Tungsten Select and Coastal low-clearance recessing, 64–144 ft²; Affinity controls"
     verified: true
 ---
 
@@ -42,8 +42,8 @@ They can, and a flush heater is one of the most refined ways to bring warmth to 
 | Heater | Recessing | Coverage (approx.) |
 |---|---|---|
 | Platinum Smart-Heat Electric (2300/3400/4500W) | Recess kit | 65–143 ft² |
-| Tungsten Smart-Heat Electric, Select (coming soon) | Low-clearance recessing | 64–144 ft² |
-| Tungsten Smart-Heat Electric, Coastal (coming soon) | Marine-grade low-clearance recessing | 64–144 ft² |
+| Tungsten Smart-Heat Electric, Select | Low-clearance recessing | 64–144 ft² |
+| Tungsten Smart-Heat Electric, Coastal | Marine-grade low-clearance recessing | 64–144 ft² |
 
 Source: Lookbook 2026 and Planning Guide[^s1][^s2].
 

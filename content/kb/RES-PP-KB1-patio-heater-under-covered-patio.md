@@ -32,7 +32,7 @@ sources:
     title: "Outdoor Lookbook 2026"
     year: 2026
     url: sources/Bromic_Lookbook_2026.pdf
-    supports: "Recessed, ceiling and wall mounting; low-clearance recessing (Tungsten, coming soon); controls"
+    supports: "Recessed, ceiling and wall mounting; low-clearance recessing (Tungsten Select and Coastal); controls"
     verified: true
   - id: s3
     publisher: WorkSafeBC
@@ -52,7 +52,7 @@ You can, and a covered patio is one of the loveliest places to add warmth, provi
 | Combustion | None | Burns natural gas or propane |
 | Under a cover | Ceiling, wall or recessed mount[^s2] | Needs open air; enclosing a gas-heated space risks carbon monoxide[^s3] |
 | Height | Ceiling ≥96", wall ≥72" above floor (Bromic guidance)[^s1] | Overhead clearance per manual [[VERIFY: Tungsten Freestanding Gas overhead clearance — Product team]] |
-| Ways to manage clearance | Recess kits; suspension poles for tall ceilings; low-clearance recessing on Tungsten (coming soon)[^s1][^s2] | Heat deflectors reduce clearance above built-in gas heaters[^s1] |
+| Ways to manage clearance | Recess kits; suspension poles for tall ceilings; low-clearance recessing on Tungsten Select and Coastal[^s1][^s2] | Heat deflectors reduce clearance above built-in gas heaters[^s1] |
 
 ## Getting your covered patio ready
 

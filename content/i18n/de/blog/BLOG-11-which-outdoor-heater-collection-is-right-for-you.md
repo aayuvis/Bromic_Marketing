@@ -32,7 +32,7 @@ sources:
     title: "Outdoor Lookbook 2026 (pp.7, 11, 15, 21, 27, 33, 39, 41)"
     year: 2026
     url: sources/Bromic_Lookbook_2026.pdf
-    supports: "Platinum Electric 2300/3400/4500 W, 65–143 ft², recessed, ceiling, wall; Eclipse 121 ft², 33/66/100%, dimmable rim lighting; Eclipse Freestanding wheels, weighted base; Tungsten Freestanding Gas 38,000 BTU, 215 ft², natural gas or propane; Tungsten Coastal and Select coming soon, 64–144 ft²; Affinity controls, Wi-Fi/app need compatible controls sold separately"
+    supports: "Platinum Electric 2300/3400/4500 W, 65–143 ft², recessed, ceiling, wall; Eclipse 121 ft², 33/66/100%, dimmable rim lighting; Eclipse Freestanding wheels, weighted base; Tungsten Freestanding Gas 38,000 BTU, 215 ft², natural gas or propane; Tungsten Coastal and Select, 64–144 ft²; Affinity controls, Wi-Fi/app need compatible controls sold separately"
     verified: true
   - id: s2
     publisher: Bromic Heating
@@ -105,7 +105,7 @@ Strahlungsheizer (Infrarot) tun es, weil sie die Menschen und Oberflächen um si
 | Überdachte Terrasse, Veranda oder Pergola | Strom | Eingelassen oder Decke | Platinum Electric, Tungsten Electric | Affinity On/Off oder Dimmer; Wandschalter[^s2][^s3] |
 | Niedrige Decke, klare Optik | Strom | Eingelassen (Einbausatz für geringe Einbautiefe) | Platinum Electric | Affinity On/Off oder Dimmer; Wandschalter[^s3] |
 | Wand über einem Sitzbereich | Strom | Wand | Tungsten, Platinum oder Cobalt Electric | Affinity On/Off oder Dimmer; Wandschalter[^s5] |
-| Küste oder am Wasser | Strom | Eingelassen, Decke oder Wand | Platinum Electric Marine; Tungsten Coastal (demnächst erhältlich) | Affinity On/Off oder Dimmer; Wandschalter[^s4] |
+| Küste oder am Wasser | Strom | Eingelassen, Decke oder Wand | Platinum Electric Marine; Tungsten Coastal | Affinity On/Off oder Dimmer; Wandschalter[^s4] |
 | Wärme und Licht über Tisch oder Lounge | Strom | Stange, Pendel oder Wand | Eclipse Electric | Affinity Eclipse-Steuergerät[^s6] |
 | Offene Terrasse ohne Konstruktion, mit Steckdose | Strom | Freistehend | Eclipse Freestanding | Eclipse Dimmer Controller und Fernbedienung, im Lieferumfang[^s6] |
 | Große, gut belüftete Fläche mit Gasleitung | Erdgas oder Flüssiggas | Wand oder Decke | Platinum Gas, Tungsten Gas | Affinity On/Off-Steuergerät; Wandschalter[^s7] |
@@ -125,7 +125,7 @@ Sie wägen noch Strom gegen Gas ab? Lesen Sie [Elektro- oder Gas-Terrassenheizst
 
 **Eclipse Freestanding** setzt dieselbe Scheibe auf einen gebogenen Arm mit beschwertem Fuß und Rollen. Sie wird eingesteckt, und so braucht Ihr Bereich nur eine geeignete Steckdose.[^s1]
 
-**Tungsten Coastal und Select (demnächst erhältlich)** sind neue Tungsten-Kollektionen für ca. 6 bis 13 m², Coastal gefertigt aus seewasserbeständigem Edelstahl 316 und Select mit zusätzlichen Oberflächen.[^s1]
+**Tungsten Coastal und Select**, im Oktober 2026 eingeführt, sind neue Tungsten-Kollektionen für ca. 6 bis 13 m², Coastal gefertigt aus seewasserbeständigem Edelstahl 316 und Select mit zusätzlichen Oberflächen.[^s1]
 
 Bei den elektrischen Kollektionen laufen Platinum, Tungsten und Cobalt über ein Affinity On/Off- (volle Leistung) oder Dimmer-Steuergerät (Leistung in 1-%-Schritten) oder einen manuellen Wandschalter.[^s9] Eclipse Electric läuft über das Affinity Eclipse-Steuergerät, das Wärme und Licht gemeinsam regelt.[^s6] [[VERIFY: ob Eclipse Electric weiterhin mit Eclipse Dimmer Controller und Fernbedienung als Alternative zum Affinity Eclipse-Steuergerät geliefert wird — Produktteam]]
 

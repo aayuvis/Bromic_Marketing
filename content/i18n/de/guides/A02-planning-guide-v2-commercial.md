@@ -33,7 +33,7 @@ sources:
     title: "Lookbook 2026"
     year: 2026
     url: sources/Bromic_Lookbook_2026.pdf
-    supports: "Tungsten Coastal and Select (coming soon, 64–144 ft²), Eclipse and Tungsten Freestanding Gas coverage, Affinity Smart-Heat Controls (zones, schedules, integrations), design service"
+    supports: "Tungsten Coastal and Select (64–144 ft²), Eclipse and Tungsten Freestanding Gas coverage, Affinity Smart-Heat Controls (zones, schedules, integrations), design service"
     verified: true
   - id: s3
     publisher: Bromic Heating
@@ -372,8 +372,8 @@ Im US-Beispiel verwendete Preise, dieselben wie in COM-CO-01 und im [Wirtschaftl
 | Platinum Smart-Heat Gas, ca. 6,9 / 11,7 kW | Größere offene Terrassen, fester Gasanschluss | 2 J., ausgenommen Schläuche, Zünder[^s10] |
 | Tungsten Smart-Heat Gas Einbau, zwei Größen | Größere offene Terrassen, fester Gasanschluss; Schwenkarm | 2 J., ausgenommen Schläuche, Zünder[^s11] |
 | Tungsten Smart-Heat Freestanding Gas | Offene Terrassen; Flüssiggas oder Erdgas-Schnellkupplung | 1 J. (Flüssiggas)[^s12] |
-| Tungsten Electric Coastal (demnächst erhältlich) | Uferlagen; Edelstahl 316 | [[VERIFY]][^s2] |
-| Tungsten Electric Select (demnächst erhältlich) | Gestaltungsorientierte Betriebe; Schwarz, Weiß, Graphit | [[VERIFY]][^s2] |
+| Tungsten Electric Coastal | Uferlagen; Edelstahl 316 | [[VERIFY]][^s2] |
+| Tungsten Electric Select | Gestaltungsorientierte Betriebe; Schwarz, Weiß, Graphit | [[VERIFY]][^s2] |
 
 [[VERIFY: Garantiebedingungen für gewerbliche Nutzung (auch in Deutschland) und die Garantie des Tungsten Freestanding Gas mit Erdgas — Produktteam]]
 
@@ -381,7 +381,7 @@ Wählen Sie die Optik mit Blick auf den Raum. Eine Oberfläche, die zu Vordach, 
 
 - [ ] Heizstrahlerfamilie je Standorttyp: Vordach / Wand / Pendel / freistehend
 - [ ] Oberfläche: ______
-- [ ] Für demnächst erhältliche Modelle ist eine freigegebene aktuelle Alternative angegeben
+- [ ] Für noch nicht erhältliche Modelle ist eine freigegebene aktuelle Alternative angegeben
 
 ![Eclipse Heizstrahler an Wandauslegern über einer Restaurantterrasse](img:l-013-111)
 
@@ -400,7 +400,7 @@ Die Faktoren gibt es, weil derselbe Heizstrahler in einer kalten Nacht weniger F
 | Platinum Gas ca. 6,9 / 11,7 kW | ca. 15 / 20 m²[^s10] |
 | Tungsten Gas Einbau, kleiner / größer | ca. 15 / 20 m²[^s11] |
 | Tungsten Freestanding Gas, ca. 11,1 kW | ca. 20 m²[^s2] |
-| Tungsten Electric Coastal und Select (demnächst erhältlich) | ca. 6–13 m²[^s2] |
+| Tungsten Electric Coastal und Select | ca. 6–13 m²[^s2] |
 
 Die Heizfläche ist ein Näherungswert und hängt von Montagehöhe, Umgebung und Installation ab[^s2]. [[VERIFY: Eclipse 2900 W gegenüber 3000 W; Tungsten Freestanding Gas ca. 11,1 kW gegenüber ca. 11,3 kW; Heizfläche je Modell anhand der Datenblätter 2026 — Produktteam]]
 

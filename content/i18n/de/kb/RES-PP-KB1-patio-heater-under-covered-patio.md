@@ -35,7 +35,7 @@ sources:
     title: "Outdoor Lookbook 2026"
     year: 2026
     url: sources/Bromic_Lookbook_2026.pdf
-    supports: "Recessed, ceiling and wall mounting; low-clearance recessing (Tungsten, coming soon); controls"
+    supports: "Recessed, ceiling and wall mounting; low-clearance recessing (Tungsten Select and Coastal); controls"
     verified: true
   - id: s3
     publisher: WorkSafeBC
@@ -55,7 +55,7 @@ Das dürfen Sie, und eine überdachte Terrasse ist einer der schönsten Orte fü
 | Verbrennung | Keine | Verbrennt Erdgas oder Flüssiggas (Propan) |
 | Unter einer Überdachung | Decken-, Wand- oder Einbaumontage[^s2] | Braucht freie Luft; wer eine gasbeheizte Fläche umschließt, riskiert Kohlenmonoxid[^s3] |
 | Höhe | Decke ≥ 2,4 m, Wand ≥ 1,8 m über dem Boden (Bromic-Empfehlung)[^s1] | Abstand nach oben gemäß Anleitung [[VERIFY: Abstand nach oben beim Tungsten Freestanding Gas — Produktteam]] |
-| Möglichkeiten, Abstände einzuhalten | Einbausätze; Abhängestangen für hohe Decken; Einbau bei geringem Deckenabstand beim Tungsten (demnächst erhältlich)[^s1][^s2] | Wärmeabweiser verringern den nötigen Abstand über fest eingebauten Gas-Heizstrahlern[^s1] |
+| Möglichkeiten, Abstände einzuhalten | Einbausätze; Abhängestangen für hohe Decken; Einbau bei geringem Deckenabstand bei Tungsten Select und Coastal[^s1][^s2] | Wärmeabweiser verringern den nötigen Abstand über fest eingebauten Gas-Heizstrahlern[^s1] |
 
 ## So bereiten Sie Ihre überdachte Terrasse vor
 

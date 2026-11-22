@@ -127,9 +127,9 @@ Die Stufen sind für eine überdachte Terrasse dargestellt. Die Zahl der Heizstr
 | | **Gut** | **Besser** | **Premium** |
 |---|---|---|---|
 | Der Moment | Abendessen draußen an einem kühlen Abend | Die Terrasse als alltäglicher Raum, von morgens bis spät | Ein Außenraum, so vollendet wie das Innere |
-| Heizstrahler | Platinum Smart-Heat Electric, an Wand oder Decke montiert | Platinum Smart-Heat Electric, bündig in die Untersicht eingelassen | Platinum Smart-Heat Electric eingelassen, dazu Eclipse Smart-Heat Electric als Pendel über dem Essbereich; Tungsten Smart-Heat Electric Select oder Coastal (demnächst erhältlich) als eingelassene Aufwertung |
+| Heizstrahler | Platinum Smart-Heat Electric, an Wand oder Decke montiert | Platinum Smart-Heat Electric, bündig in die Untersicht eingelassen | Platinum Smart-Heat Electric eingelassen, dazu Eclipse Smart-Heat Electric als Pendel über dem Essbereich; Tungsten Smart-Heat Electric Select oder Coastal als eingelassene Aufwertung |
 | Leistung und Ausführung | 2300 W oder 3400 W; Schwarz oder Weiß[^s5] | 3400 W oder 4500 W; Schwarz oder Weiß | Platinum 3400 W oder 4500 W; Eclipse mit dimmbarer Ringbeleuchtung, Schwarz |
-| Ca. Heizfläche je Heizstrahler | 6–13 m² je nach Modell[^s5] | 6–13 m² je nach Modell | Platinum 6–13 m²; Eclipse 11 m²; Tungsten 6–13 m² (demnächst erhältlich) |
+| Ca. Heizfläche je Heizstrahler | 6–13 m² je nach Modell[^s5] | 6–13 m² je nach Modell | Platinum 6–13 m²; Eclipse 11 m²; Tungsten 6–13 m² |
 | Montage | Wand- oder Deckenhalterung | Einbaurahmen[^s6] | Einbaurahmen; Eclipse an Einzel-, Doppel- oder gebogener Stange |
 | Steuerung (erforderlich) | Affinity Smart-Heat On/Off-Steuergerät + manueller Wandschalter | Affinity Smart-Heat Dimmer-Steuergerät + manueller Wandschalter + Bromic Smart-Heat App (Zeitpläne, Timer) | Affinity Dimmer-Steuergerät (Platinum) + Affinity Eclipse Steuergerät + Wandschalter + App mit Zonen; Integration in Control4, Crestron oder Lutron, wo das Haus es hat (Kompatibilität unterschiedlich; ggf. zusätzliche Integrationshardware nötig)[^s5] |
 | Zonen | Eine | Eine oder zwei | Zwei oder mehr (Essen, Lounge) |
@@ -154,7 +154,7 @@ Platinum sitzt mit dem Einbaurahmen von Bromic bündig in der Untersicht, sodass
 
 ### Premium: ein vollständiger Außenraum
 
-Eingelassene Platinum Heizstrahler wärmen die Lounge, während Eclipse Pendel über dem Esstisch Wärme und Licht vereinen, jeweils in eigenen Zonen und, wo vorhanden, in die Hausautomation eingebunden. Für Käufer, die das neueste Design wollen, bieten Sie Tungsten Select oder Coastal (demnächst erhältlich) als eingelassenen Heizstrahler an, sobald Bromic die Verfügbarkeit bestätigt.
+Eingelassene Platinum Heizstrahler wärmen die Lounge, während Eclipse Pendel über dem Esstisch Wärme und Licht vereinen, jeweils in eigenen Zonen und, wo vorhanden, in die Hausautomation eingebunden. Für Käufer, die das neueste Design wollen, bieten Sie Tungsten Select oder Coastal als eingelassenen Heizstrahler an.
 
 ![Eclipse Pendel über einer langen Tafel im Kerzenlicht](img:l-013-100)
 

@@ -95,7 +95,7 @@ Choose by structure, the fuel on site and how often the layout changes. Each opt
 | Pergola or awning, heat plus light | Eclipse Smart-Heat Electric (pole mount) | about 121 ft² | Eclipse controller, wall switch, app |
 | Open layout that changes nightly | Eclipse Smart-Heat Freestanding Electric | about 121 ft², and no more than 4 seats a heater | Eclipse controller [[VERIFY: controller pairing for the freestanding Eclipse — Product team]] |
 | Large open area, gas on site | Tungsten Smart-Heat Freestanding Gas (38,000 BTU, natural gas or propane) | about 215 ft², and no more than 4 seats a heater | [[VERIFY: Affinity control options for Tungsten freestanding gas — Product team]] |
-| Architectural recessed install | Tungsten Smart-Heat Electric, Coastal or Select (coming soon) | 64–144 ft² | Affinity Smart-Heat On/Off or Dimmer controller, wall switch, app |
+| Architectural recessed install | Tungsten Smart-Heat Electric, Coastal or Select | 64–144 ft² | Affinity Smart-Heat On/Off or Dimmer controller, wall switch, app |
 
 Coverage varies with model, size and mounting height, and cold, exposed sites need more units for the same area. A freestanding heater serves no more than four seats, whatever its coverage, because seated guests block its radiant heat, so 40 seats need at least ten. Wi-Fi and app features – zones, schedules and timers in the Bromic Smart-Heat app – require compatible Affinity Smart-Heat® Controls, sold separately.[^s4]
 

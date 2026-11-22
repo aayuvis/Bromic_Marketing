@@ -125,9 +125,9 @@ De niveaus gelden voor één overdekt terras. Het aantal verwarmers hangt af van
 | | **Good** | **Better** | **Best** |
 |---|---|---|---|
 | Het moment | Buiten eten op een koele avond | Het terras als gewone woonruimte, van 's ochtends tot laat | Een buitenkamer die net zo af is als binnen |
-| Verwarmer | Platinum Smart-Heat Electric, aan muur of plafond | Platinum Smart-Heat Electric, vlak ingebouwd in het overstek | Platinum Smart-Heat Electric ingebouwd, plus een Eclipse Smart-Heat Electric-hanger boven de eettafel; Tungsten Smart-Heat Electric Select of Coastal (binnenkort) als ingebouwde upgrade |
+| Verwarmer | Platinum Smart-Heat Electric, aan muur of plafond | Platinum Smart-Heat Electric, vlak ingebouwd in het overstek | Platinum Smart-Heat Electric ingebouwd, plus een Eclipse Smart-Heat Electric-hanger boven de eettafel; Tungsten Smart-Heat Electric Select of Coastal als ingebouwde upgrade |
 | Vermogen en afwerking | 2300 W of 3400 W; zwart of wit[^s5] | 3400 W of 4500 W; zwart of wit | Platinum 3400 W of 4500 W; Eclipse met dimbaar randlicht, zwart |
-| Verwarmd oppervlak per verwarmer (ca.) | 6,0–13,3 m² afhankelijk van het model[^s5] | 6,0–13,3 m² afhankelijk van het model | Platinum 6,0–13,3 m²; Eclipse 11,2 m²; Tungsten 5,9–13,4 m² (binnenkort) |
+| Verwarmd oppervlak per verwarmer (ca.) | 6,0–13,3 m² afhankelijk van het model[^s5] | 6,0–13,3 m² afhankelijk van het model | Platinum 6,0–13,3 m²; Eclipse 11,2 m²; Tungsten 5,9–13,4 m² |
 | Montage | Muur- of plafondbeugel | Inbouwset[^s6] | Inbouwset; Eclipse aan enkele, dubbele of gebogen paal |
 | Bediening (verplicht) | Affinity Smart-Heat On/Off-regelaar + handmatige wandschakelaar | Affinity Smart-Heat Dimmer-regelaar + handmatige wandschakelaar + Bromic Smart-Heat-app (schema's, timers) | Affinity Dimmer-regelaar (Platinum) + Affinity Eclipse-regelaar + wandschakelaars + app met zones; integratie met Control4, Crestron of Lutron als de woning dat heeft (compatibiliteit verschilt; kan extra integratiehardware vragen)[^s5] |
 | Zones | Eén | Eén of twee | Twee of meer (eten, lounge) |
@@ -152,7 +152,7 @@ Platinum zit met de inbouwset van Bromic vlak ingebouwd in het overstek, zodat h
 
 ### Best: een complete buitenkamer
 
-Ingebouwde Platinum-verwarmers verwarmen de lounge, terwijl Eclipse-hangers boven de eettafel warmte en licht samenbrengen, elk op een eigen zone en gekoppeld aan het domoticasysteem van de woning als dat er is. Voor kopers die het nieuwste ontwerp willen, biedt u Tungsten Select of Coastal (binnenkort) aan als ingebouwde verwarmer zodra Bromic de beschikbaarheid bevestigt.
+Ingebouwde Platinum-verwarmers verwarmen de lounge, terwijl Eclipse-hangers boven de eettafel warmte en licht samenbrengen, elk op een eigen zone en gekoppeld aan het domoticasysteem van de woning als dat er is. Voor kopers die het nieuwste ontwerp willen, biedt u Tungsten Select of Coastal aan als ingebouwde verwarmer.
 
 ![Eclipse-hangers boven een lange eettafel bij kaarslicht](img:l-013-100)
 

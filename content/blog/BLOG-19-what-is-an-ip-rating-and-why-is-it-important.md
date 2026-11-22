@@ -79,7 +79,7 @@ sources:
     title: "Outdoor Lookbook 2026"
     year: 2026
     url: sources/Bromic_Lookbook_2026.pdf
-    supports: "Tungsten Coastal (coming soon) in 316 marine-grade stainless steel; Affinity controls; Wi-Fi and app features need compatible Affinity controls, sold separately"
+    supports: "Tungsten Coastal in 316 marine-grade stainless steel; Affinity controls; Wi-Fi and app features need compatible Affinity controls, sold separately"
     verified: true
   - id: s9
     publisher: Bromic Heating
@@ -127,7 +127,7 @@ These are the ratings Bromic currently publishes, model by model. Where a page g
 | Eclipse Smart-Heat Electric and Freestanding | Not stated[^s6] | Bromic recommends mounting under cover [[VERIFY: Eclipse IP code — Product team]] |
 | Platinum Gas, Tungsten Gas, Tungsten Smart-Heat Freestanding | Not stated as a code | [[VERIFY: IP rating, if any, for each gas model — Product team]] |
 | Affinity Smart-Heat On/Off controller | IP54[^s7] | Dust-protected and splash-protected; check the manual for where the other controllers may be mounted |
-| Tungsten Smart-Heat Electric, Coastal collection (coming soon) | Not yet published[^s8] | 316 marine-grade stainless steel |
+| Tungsten Smart-Heat Electric, Coastal collection | [[VERIFY: IP rating — Product team]][^s8] | 316 marine-grade stainless steel |
 
 The live post's blanket line that every Bromic heater is IPX4 has been withdrawn, since the Marine model is rated higher and several models carry no published code yet.
 

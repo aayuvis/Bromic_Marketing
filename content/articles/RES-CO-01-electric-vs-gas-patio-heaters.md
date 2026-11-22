@@ -73,7 +73,7 @@ Warm-up and wind: Bromic Planning Guide v1.2[^s1]. Coverage, temperature rise, d
 
 | Factor | Built-in electric (Platinum, Tungsten Electric) | Freestanding gas (Tungsten Smart-Heat Freestanding Gas) |
 |---|---|---|
-| Coverage per heater | Approx. 65–143 ft² (Platinum); approx. 64–144 ft² (Tungsten Electric, coming soon)[^s2] | Approx. 215 ft²[^s2] |
+| Coverage per heater | Approx. 65–143 ft² (Platinum); approx. 64–144 ft² (Tungsten Electric Coastal and Select)[^s2] | Approx. 215 ft²[^s2] |
 | Output | 2300 W, 3400 W or 4500 W (Platinum)[^s2] | 38,000 BTU[^s2] |
 | Fuel and supply | A dedicated circuit, installed by a licensed electrician to ANSI/NFPA 70[^s1] | Natural gas or propane; gas work to ANSI Z223.1/NFPA 54[^s1] |
 | Mounting | Wall, ceiling or recessed flush[^s2] | Moves on wheels; tilting head aims the heat[^s2] |

@@ -118,7 +118,7 @@ Das wirkt in zwei Richtungen. Hängt ein Heizstrahler höher, wird sein Wärmefe
 | Heizstrahler | Heizfläche (ca.) | Montage | Zu spezifizierende Steuerung |
 |---|---|---|---|
 | Platinum Smart-Heat Electric, 2300/3400/4500W | 6–13 m² | Eingebaut, Decke, Wand | Affinity On/Off oder Dimmer, Wandschalter, Smart-Heat App |
-| Tungsten Smart-Heat Electric, Select und Coastal (demnächst erhältlich) | 6–13 m² | Eingebaut (geringe Einbautiefe), Decke, Wand, einzelner Mast | Affinity On/Off oder Dimmer, Wandschalter, Smart-Heat App |
+| Tungsten Smart-Heat Electric, Select und Coastal | 6–13 m² | Eingebaut (geringe Einbautiefe), Decke, Wand, einzelner Mast | Affinity On/Off oder Dimmer, Wandschalter, Smart-Heat App |
 | Eclipse Smart-Heat Electric | 11 m² | Einfacher, doppelter oder gebogener Mast | Eclipse-Steuergerät, Wandschalter, Smart-Heat App |
 | Tungsten Smart-Heat Freestanding Gas | 20 m² | Freistehend | [[VERIFY: Steuerungsmöglichkeiten für Tungsten Freestanding Gas — Produktteam]] |
 

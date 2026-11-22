@@ -36,7 +36,7 @@ sources:
     title: "Lookbook 2026"
     year: 2026
     url: sources/Bromic_Lookbook_2026.pdf
-    supports: "Platinum recessed/ceiling/wall, 65–143 ft²; Tungsten Select and Coastal low-clearance recessing (coming soon), 64–144 ft²; Affinity controls"
+    supports: "Platinum recessed/ceiling/wall, 65–143 ft²; Tungsten Select and Coastal low-clearance recessing, 64–144 ft²; Affinity controls"
     verified: true
 ---
 
@@ -45,8 +45,8 @@ Das geht, und ein bündig eingebauter Heizstrahler ist eine der elegantesten Art
 | Heizstrahler | Einbau | Heizfläche (ca.) |
 |---|---|---|
 | Platinum Smart-Heat Electric (2300/3400/4500W) | Einbausatz | 6–13 m² |
-| Tungsten Smart-Heat Electric, Select (demnächst erhältlich) | Einbau bei geringem Deckenabstand | 6–13 m² |
-| Tungsten Smart-Heat Electric, Coastal (demnächst erhältlich) | Seewasserfester Einbau bei geringem Deckenabstand | 6–13 m² |
+| Tungsten Smart-Heat Electric, Select | Einbau bei geringem Deckenabstand | 6–13 m² |
+| Tungsten Smart-Heat Electric, Coastal | Seewasserfester Einbau bei geringem Deckenabstand | 6–13 m² |
 
 Quelle: Lookbook 2026 und Planning Guide[^s1][^s2].
 

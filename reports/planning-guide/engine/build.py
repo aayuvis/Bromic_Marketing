@@ -65,12 +65,12 @@ TILES = [
     ('w-eclipse-electric-twinpole', 'Over The Table', 'Heat and a dimmable rim light in one.', 'Eclipse Electric'),
     ('w-eclipse-portable', 'Moves Where You Need It', 'Nothing overhead? Up to four seats each.', 'Eclipse Freestanding · Tungsten Freestanding Gas'),
     ('w-platinum-gas-500', 'Big, Open Spaces On Gas', 'Built-in gas for larger, more open areas.', 'Platinum Gas · Tungsten Gas'),
-    ('l-005-025', 'By The Sea', '316 marine-grade stainless for coastal homes.', 'Platinum Electric Marine · Tungsten Coastal (coming soon)'),
+    ('l-005-025', 'By The Sea', '316 marine-grade stainless for coastal homes.', 'Platinum Electric Marine · Tungsten Coastal'),
 ]
 
 SOURCES = [
     'Bromic Heating / Atomik Research, Outdoor Living Trends 2026 (US homeowner survey): 23% prioritize heating at planning.',
-    'Bromic Heating, Lookbook 2026: Eclipse and Tungsten Freestanding Gas coverage, Tungsten Coastal (coming soon), Affinity Smart-Heat Controls, design service.',
+    'Bromic Heating, Lookbook 2026: Eclipse and Tungsten Freestanding Gas coverage, Tungsten Coastal, Affinity Smart-Heat Controls, design service.',
     'Bromic Heating, The Official Outdoor Heating Planning Guide, US v1.2 (2021): the 30% open rule, the heat cloud, the radiant principle, warm-up times, code references.',
     'Bromic product pages, bromic.com, read 29 October 2026: Tungsten Electric (65/100/130/160 ft²; wall 72 in, ceiling 96 in), Platinum Electric and Marine (65/108/143 ft²), Eclipse Electric (121 ft², 96 in), Eclipse Freestanding (121 ft², Eclipse Dimmer Controller and remote included), Platinum Gas and Tungsten Gas (160 or 215 ft², 110 V supply, 96 in), Tungsten Freestanding Gas (215 ft²).',
     'Bromic product pages, bromic.com, read 29 October 2026: Affinity Smart-Heat On/Off, Dimmer and Eclipse controllers (6 kW a channel at 208–277 V; one Eclipse a channel); manual wall switch.',

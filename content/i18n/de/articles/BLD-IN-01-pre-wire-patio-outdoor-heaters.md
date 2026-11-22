@@ -129,7 +129,7 @@ Planen Sie ihn ein und klären Sie das früh. In Deutschland legt die DIN VDE 01
 | Abstände | Abstände zu Wänden, Balken und brennbaren Materialien laut Anleitung markieren [[VERIFY: Abstandstabelle je Modell — Produktteam]] |
 | Einbaurahmen | Öffnung und Hohlraumtiefe für den Einbaurahmen vor dem Beplanken herstellen [[VERIFY: Rohbauöffnung und Hohlraumtiefe des Einbaurahmens je Modell — Produktteam]] |
 
-![Heizstrahler bündig in eine weiße Decke eingelassen (Tungsten Coastal, demnächst erhältlich)](img:l-005-022)
+![Heizstrahler bündig in eine weiße Decke eingelassen (Tungsten Coastal)](img:l-005-022)
 
 Mit Einbaurahmen sitzen Platinum und Tungsten Electric Heizstrahler bündig im Deckenhohlraum[^s2], für ein klares, nahtloses Finish. Weil der Rahmen die Unterkonstruktion bestimmt, muss er schon im Rohbau gewählt werden, lange vor dem Ausbau.
 

@@ -132,7 +132,7 @@ New York City heeft de strengste regels van alle grote markten in de VS. De toes
 
 Een elektrische installatie vraagt een aanleg volgens NEN 1010, een eigen groep die de installateur dimensioneert, en montagehoogtes volgens de fabrikant. Bromic adviseert voor zijn elektrische verwarmers minstens 1,83 m boven de vloer aan de wand en 2,44 m aan het plafond, waarbij de afstand tot het plafond afhangt van het vermogen.[^s7] In Nederland is de aansluiting 230 V, 50 Hz; controleer per model of het voor die spanning is uitgevoerd. [[VERIFY: huidige montagehoogtes en vrije afstanden per model uit de installatiehandleidingen — productteam]]
 
-De bediening hoort vanaf de eerste tekening bij de installatie: een Affinity Smart-Heat® On/Off- of Dimmer-regelaar en een wandschakelaar voor Platinum en Tungsten Electric (Tungsten Coastal en Select binnenkort leverbaar), en de Eclipse-regelaar voor Eclipse. Wifi- en appfuncties vragen om compatibele Affinity Smart-Heat® Controls, die apart worden verkocht.[^s8] Koppeling met een gebouwbeheersysteem via Control4, Crestron of Lutron verschilt per systeem en kan extra hardware vragen.
+De bediening hoort vanaf de eerste tekening bij de installatie: een Affinity Smart-Heat® On/Off- of Dimmer-regelaar en een wandschakelaar voor Platinum en Tungsten Electric (Tungsten Coastal en Select inbegrepen), en de Eclipse-regelaar voor Eclipse. Wifi- en appfuncties vragen om compatibele Affinity Smart-Heat® Controls, die apart worden verkocht.[^s8] Koppeling met een gebouwbeheersysteem via Control4, Crestron of Lutron verschilt per systeem en kan extra hardware vragen.
 
 ## Uw checklist voor de planning
 

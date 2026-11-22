@@ -88,7 +88,7 @@ Einige Punkte lösen erfahrungsgemäß Rückfragen aus, wenn sie offen bleiben:
 
 Mit Einbaurahmen werden Platinum und Tungsten Electric Heizstrahler bündig in Dach- oder Deckenhohlräume eingesetzt[^s1], und das Ergebnis ist nur so sauber wie die Unterkonstruktion dahinter. Die Öffnung, ihre Auswechslungen und die Hohlraumtiefe gehören in die Pläne der Unterkonstruktion, damit der Monteur sie vorbereitet vorfindet, statt sie auf der Baustelle zu ermitteln. Bei hohen Decken bringen Abhängestangen die Heizstrahler näher an die Menschen darunter; detaillieren Sie die Befestigung am Tragwerk darüber[^s1].
 
-Prüfen Sie bei der Freigabe, ob die Ausschnittmaße zum Einbaurahmen passen, ob Hohlraumtiefe und eine eventuell nötige Belüftung oder ein Abstand im Einbauraum der Anleitung entsprechen, ob die Deckenoberfläche sauber an den Rahmen anschließt und ob das Tragwerk das Gewicht des Heizstrahlers trägt. Die Kollektionen Tungsten Select und Coastal (demnächst erhältlich) sind für den Einbau mit geringer Einbautiefe ausgelegt; bestätigen Sie daher ihre Maße, bevor Sie detaillieren[^s2].
+Prüfen Sie bei der Freigabe, ob die Ausschnittmaße zum Einbaurahmen passen, ob Hohlraumtiefe und eine eventuell nötige Belüftung oder ein Abstand im Einbauraum der Anleitung entsprechen, ob die Deckenoberfläche sauber an den Rahmen anschließt und ob das Tragwerk das Gewicht des Heizstrahlers trägt. Die Kollektionen Tungsten Select und Coastal sind für den Einbau mit geringer Einbautiefe ausgelegt; bestätigen Sie daher ihre Maße, bevor Sie detaillieren[^s2].
 
 ![Schwarzer Deckenheizstrahler, der eine Lounge im Kerzenlicht wärmt](img:l-007-035)
 

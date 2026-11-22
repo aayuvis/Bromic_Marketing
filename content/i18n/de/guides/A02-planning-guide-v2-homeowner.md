@@ -37,7 +37,7 @@ sources:
     title: "Lookbook 2026"
     year: 2026
     url: sources/Bromic_Lookbook_2026.pdf
-    supports: "Tungsten Coastal and Select (coming soon, 64–144 ft²), Eclipse and Tungsten Freestanding Gas coverage, Affinity Smart-Heat Controls and integrations, design service"
+    supports: "Tungsten Coastal and Select (64–144 ft²), Eclipse and Tungsten Freestanding Gas coverage, Affinity Smart-Heat Controls and integrations, design service"
     verified: true
   - id: s3
     publisher: Bromic Heating
@@ -304,8 +304,8 @@ Der richtige Heizstrahler sieht aus, als hätte er schon immer zum Haus gehört,
 | Platinum Smart-Heat Gas | Fest installiertes Gas, zwei Größen | Wand oder Decke; Halterungen im Lieferumfang | Schwarz oder Edelstahl[^s10] |
 | Tungsten Smart-Heat Gas | Fest installiertes Gas, zwei Größen; Schwenkarm ±25° | Wand oder Decke | Mattschwarz[^s11] |
 | Tungsten Smart-Heat Freestanding Gas | Neigbarer Kopf, Räder, kippsichere Bauweise | Freistehend | Schwarz[^s2] |
-| Tungsten Smart-Heat Electric, Kollektion Coastal (demnächst erhältlich) | Seewasserbeständiger Edelstahl 316; Signature-Diamond-Pattern-Gitter | Eingelassen (geringer Abstand), Decke, Wand, Einzelmast | Schwarz oder Weiß[^s2] |
-| Tungsten Smart-Heat Electric, Kollektion Select (demnächst erhältlich) | Erweiterte Blendenoptionen | Eingelassen (geringer Abstand), Decke, Wand, Einzelmast | Schwarz, Weiß oder Graphit[^s2] |
+| Tungsten Smart-Heat Electric, Kollektion Coastal | Seewasserbeständiger Edelstahl 316; Signature-Diamond-Pattern-Gitter | Eingelassen (geringer Abstand), Decke, Wand, Einzelmast | Schwarz oder Weiß[^s2] |
+| Tungsten Smart-Heat Electric, Kollektion Select | Erweiterte Blendenoptionen | Eingelassen (geringer Abstand), Decke, Wand, Einzelmast | Schwarz, Weiß oder Graphit[^s2] |
 
 Wenn Ihnen die klare, bündige Optik eines eingelassenen Heizstrahlers gefällt, entscheiden Sie sich dafür, bevor die Decke gebaut wird, denn dafür ist ein Einbaurahmen nötig.
 
@@ -328,7 +328,7 @@ Jeder Gast soll auf jedem Platz den ganzen Abend behaglich sitzen. Der kostenlos
 | Platinum Gas ca. 6,9 / 11,7 kW | 15 / 20 m²[^s10] |
 | Tungsten Gas fest installiert, kleineres / größeres Modell | 15 / 20 m²[^s11] |
 | Tungsten Freestanding Gas, ca. 11,1 kW | 20 m²[^s2] |
-| Tungsten Electric Coastal und Select (demnächst erhältlich) | 6–13 m² je nach Modell[^s2] |
+| Tungsten Electric Coastal und Select | 6–13 m² je nach Modell[^s2] |
 
 Die Heizfläche ist ein Näherungswert und hängt von Montagehöhe, Wind und Installation ab[^s2]. Werte von den Produktseiten, gelesen am 29. Oktober 2026. [[VERIFY: Heizfläche und Leistung je Modell mit den Datenblättern 2026 abgleichen; Eclipse 2900 W (Spezifikationstabelle) gegenüber 3000 W (FAQ); Tungsten Freestanding Gas ca. 11,1 kW (Lookbook) gegenüber ca. 11,3 kW (Website) — Produktteam]]
 

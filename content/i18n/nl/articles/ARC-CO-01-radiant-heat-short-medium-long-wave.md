@@ -118,7 +118,7 @@ Dat werkt twee kanten op. Hang een verwarmer hoger en zijn bereik wordt breder t
 | Verwarmer | Verwarmd oppervlak (ca.) | Montage | Voor te schrijven bediening |
 |---|---|---|---|
 | Platinum Smart-Heat Electric, 2300/3400/4500W | 6–13 m² | Inbouw, plafond, wand | Affinity On/Off of Dimmer, wandschakelaar, Smart-Heat app |
-| Tungsten Smart-Heat Electric, Select en Coastal (binnenkort leverbaar) | 6–13 m² | Inbouw (weinig inbouwdiepte), plafond, wand, enkele paal | Affinity On/Off of Dimmer, wandschakelaar, Smart-Heat app |
+| Tungsten Smart-Heat Electric, Select en Coastal | 6–13 m² | Inbouw (weinig inbouwdiepte), plafond, wand, enkele paal | Affinity On/Off of Dimmer, wandschakelaar, Smart-Heat app |
 | Eclipse Smart-Heat Electric | 11 m² | Enkele, dubbele of gebogen paal | Eclipse-regelaar, wandschakelaar, Smart-Heat app |
 | Tungsten Smart-Heat Freestanding Gas | 20 m² | Vrijstaand | [[VERIFY: bedieningsopties voor Tungsten Freestanding Gas — productteam]] |
 

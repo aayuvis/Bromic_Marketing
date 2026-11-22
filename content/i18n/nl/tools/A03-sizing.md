@@ -65,8 +65,8 @@ elk passend model toe, de bediening bij elk model, de elektrische belasting en d
 
 Het verwarmd oppervlak per model komt uit de Lookbook 2026[^s1]. De factoren voor overkapping, klimaat en hoogte zijn de richtlijnen
 van Bromic uit 2021, omgezet in getallen[^s2], en wachten op de goedkeuring van het productteam. Een ruimte waarvan minder dan 30%
-van de omtrek open is, gaat naar ons ontwerpteam, dat hem samen met jou plant. Tungsten Coastal en Tungsten Select zijn binnenkort
-leverbaar en tonen een bandbreedte, nooit één aantal. Elke waarde, de bron en de eigenaar staan in `tools/A03-sizing/README.md`.
+van de omtrek open is, gaat naar ons ontwerpteam, dat hem samen met jou plant. Tungsten Coastal en Tungsten Select
+tonen een bandbreedte, nooit één aantal. Elke waarde, de bron en de eigenaar staan in `tools/A03-sizing/README.md`.
 
 ## Waar je aanvraag naartoe gaat
 

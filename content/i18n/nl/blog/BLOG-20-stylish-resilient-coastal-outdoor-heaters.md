@@ -11,7 +11,7 @@ audience: [RES, ARC]
 stage: [CO]
 cell: RES-CO
 asset: A24
-summary: "Waarom zilte lucht zo hard is voor gewone verwarmers, waarom 316 roestvast staal daar beter tegen bestand is dan 304, en wat Platinum Smart-Heat Electric Marine biedt voor een huis aan de kust of een schip: 316 roestvast staal, IPX5, goedkeuring van Lloyd's Register en een garantie die op het land en op zee verschilt. Tungsten Coastal komt binnenkort."
+summary: "Waarom zilte lucht zo hard is voor gewone verwarmers, waarom 316 roestvast staal daar beter tegen bestand is dan 304, en wat Platinum Smart-Heat Electric Marine biedt voor een huis aan de kust of een schip: 316 roestvast staal, IPX5, goedkeuring van Lloyd's Register en een garantie die op het land en op zee verschilt. Tungsten Coastal, gelanceerd in oktober 2026, is een tweede keuze in 316 roestvast staal."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wat is de beste buitenverwarmer voor een huis vlak bij zee?"
@@ -66,7 +66,7 @@ sources:
     title: "Outdoor Lookbook 2026"
     year: 2026
     url: sources/Bromic_Lookbook_2026.pdf
-    supports: "Tungsten Smart-Heat Electric Coastal collection (coming soon): 316 marine-grade stainless steel, Black and White, Signature Diamond Pattern grille, marine-grade low-clearance recessing, ceiling, wall, single-post, approx. 64–144 ft²; Wi-Fi and app features need compatible Affinity controls, sold separately"
+    supports: "Tungsten Smart-Heat Electric Coastal collection: 316 marine-grade stainless steel, Black and White, Signature Diamond Pattern grille, marine-grade low-clearance recessing, ceiling, wall, single-post, approx. 64–144 ft²; Wi-Fi and app features need compatible Affinity controls, sold separately"
     verified: true
   - id: s7
     publisher: Bromic Heating
@@ -77,7 +77,7 @@ sources:
     verified: true
 ---
 
-Avonden aan zee verdienen warmte die net zo lang blijft als het uitzicht, en de buitenverwarmer die dat aan de kust waarmaakt, is gemaakt van 316 roestvast staal van scheepskwaliteit, afgedicht tegen opspattend water en gemonteerd onder een overkapping. Zilte lucht tast gewone metalen snel aan. Het antwoord van Bromic is op dit moment Platinum Smart-Heat Electric Marine, met AISI 316 roestvast staal, een IPX5-classificatie en goedkeuring van Lloyd's Register voor maritiem gebruik.[^s1] Tungsten Smart-Heat Electric Coastal (binnenkort) wordt een tweede keuze in 316 roestvast staal.[^s6]
+Avonden aan zee verdienen warmte die net zo lang blijft als het uitzicht, en de buitenverwarmer die dat aan de kust waarmaakt, is gemaakt van 316 roestvast staal van scheepskwaliteit, afgedicht tegen opspattend water en gemonteerd onder een overkapping. Zilte lucht tast gewone metalen snel aan. Het antwoord van Bromic is op dit moment Platinum Smart-Heat Electric Marine, met AISI 316 roestvast staal, een IPX5-classificatie en goedkeuring van Lloyd's Register voor maritiem gebruik.[^s1] Tungsten Smart-Heat Electric Coastal, gelanceerd in oktober 2026, is een tweede keuze in 316 roestvast staal.[^s6]
 
 ![Open woonpaviljoen aan een haven met zes witte Platinum Electric Marine-verwarmers ingebouwd in een plafondkoof](img:w-bromic-platinum-electric-marine-patio-heater)
 
@@ -92,7 +92,7 @@ Zout dat met opspattend water en aanlandige wind meekomt, slaat neer op metaal e
 | Wat het toevoegt | Chroom en nikkel | Chroom, meer nikkel, plus molybdeen (ongeveer 2–3%)[^s4] |
 | Zout en chloriden | Gevoelig voor putcorrosie en tea staining bij zee[^s3] | Beter bestand tegen aantasting door chloriden[^s3] |
 | Waar het past | Locaties in het binnenland en beschutte plekken | Huizen aan de kust, jachthavens, schepen |
-| Bromic-verwarmers | Platinum Smart-Heat Electric (chassis van 304) | Platinum Smart-Heat Electric Marine; Tungsten Coastal (binnenkort)[^s1][^s6] |
+| Bromic-verwarmers | Platinum Smart-Heat Electric (chassis van 304) | Platinum Smart-Heat Electric Marine; Tungsten Coastal[^s1][^s6] |
 
 316 is veel beter bestand tegen zout, al vraagt het zoals elk fijn metaal nog steeds om regelmatig schoonmaken.
 
@@ -116,9 +116,9 @@ Zout dat met opspattend water en aanlandige wind meekomt, slaat neer op metaal e
 
 De [garantiepagina](https://www.bromic.com/warranty/) en de specificatietabel op de productpagina noemen 5 jaar voor installaties op het land en 3 jaar op schepen.[^s2][^s1] De beschrijving op de productpagina zegt echter dat de garantie van 5 jaar alleen voor gebruik op het land geldt en installaties op schepen niet dekt.[^s1] Die twee uitspraken spreken elkaar tegen, dus tot Bromic het bevestigt, kan een scheepseigenaar de voorwaarden het best schriftelijk opvragen. [[VERIFY: Marine-garantie op schepen — 3 jaar, of niet gedekt? De beschrijving op de productpagina gelijktrekken met de garantiepagina — productteam]] [[VERIFY: garantievoorwaarden in Nederland — Bromic Benelux distributor]]
 
-## Tungsten Coastal, binnenkort
+## Tungsten Coastal, in 316 roestvast staal
 
-De collectie Tungsten Smart-Heat Electric Coastal (binnenkort) wordt vervaardigd uit 316 roestvast staal van scheepskwaliteit, in zwart of wit, met het Signature Diamond Pattern-rooster. Ze is bedoeld voor inbouw met lage inbouwhoogte in scheepskwaliteit, en voor plafond-, muur- en enkele-paalmontage, met een verwarmd oppervlak van ongeveer 5,9–13,4 m² afhankelijk van het model.[^s6] Classificaties, vermogens en garantie worden bij de introductie gepubliceerd.
+De collectie Tungsten Smart-Heat Electric Coastal, gelanceerd in oktober 2026, is vervaardigd uit 316 roestvast staal van scheepskwaliteit, in zwart of wit, met het Signature Diamond Pattern-rooster. Ze biedt inbouw met lage inbouwhoogte in scheepskwaliteit, en voor plafond-, muur- en enkele-paalmontage, met een verwarmd oppervlak van ongeveer 5,9–13,4 m² afhankelijk van het model.[^s6] Zoals elke elektrische verwarmer van Bromic werkt ze met Affinity Smart-Heat-bediening en een wandschakelaar; wifi- en app-functies vragen om compatibele Affinity-bediening, apart verkrijgbaar. [[VERIFY: IP-classificatie, vermogens en garantie van Tungsten Coastal — productteam]]
 
 ## Zorg voor een verwarmer bij zee
 
@@ -141,8 +141,8 @@ Dat kan, al moet je dan eerder rekenen op corrosie en tea staining. 316 roestvas
 
 Nee. Hij is goedgekeurd voor maritiem gebruik en voelt zich net zo thuis in huizen aan de kust, jachthavens en restaurants aan het water, en op het land geldt de langere garantie.[^s2]
 
-### Wanneer is Tungsten Coastal verkrijgbaar?
+### Is Tungsten Coastal nu leverbaar?
 
-Hij komt binnenkort, en Bromic publiceert de specificaties bij de introductie.[^s6]
+Ja. Tungsten Coastal is in oktober 2026 gelanceerd, in 316 roestvast staal van scheepskwaliteit.[^s6] Vraag uw Bromic-dealer naar de classificaties en de levertijd.
 
 Bereken je ruimte aan de kust met de verwarmerscalculator van Bromic.

@@ -183,7 +183,7 @@ Outdoor equipment lives with rain, salt air, wind and the long swing from summer
 
 - **Tungsten Electric** is rated IPX4 against splashing water.[^s5]
 - **Platinum Smart-Heat Electric Marine** is built in AISI 316 marine-grade stainless steel, rated IPX5, and carries Lloyd's Register approval for marine use, which makes it the heater to specify within reach of the coast.[^s8]
-- **Tungsten Coastal** and **Tungsten Select** are coming soon. Ask your Bromic contact before you specify them.
+- **Tungsten Coastal** and **Tungsten Select** are available now, launched in October 2026. Ask your Bromic contact for their ratings before you specify them.
 - **The Affinity On/Off controller** has an IP54 enclosure.[^s6]
 
 ![Pole-mounted Tungsten heaters above high bar tables on a rooftop at night](img:d-tungsten-pole-rooftop-bar)

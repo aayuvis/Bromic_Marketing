@@ -61,7 +61,7 @@ TILES = [
     ('w-eclipse-electric-twinpole', 'Over The Table', 'Heat and a dimmable rim light in one, 0/33/66/100%.', 'Eclipse 2900 W · 121 ft² · 8, 24, 48 in poles'),
     ('w-eclipse-portable', 'Moves Where It Is Needed', 'Freestanding, up to four seats each.', 'Eclipse Freestanding 121 ft² · Tungsten Freestanding Gas 215 ft²'),
     ('w-platinum-gas-500', 'Large, Open Spaces On Gas', 'Surface-mounted built-in gas, never recessed.', 'Platinum Gas 23,600 / 39,800 Btu/h · 160 / 215 ft² · Intertek'),
-    ('l-005-025', 'Salt Air', '316 marine-grade stainless for the coast.', 'Platinum Marine (IPX5) · Tungsten Coastal, coming soon'),
+    ('l-005-025', 'Salt Air', '316 marine-grade stainless for the coast.', 'Platinum Marine (IPX5) · Tungsten Coastal'),
 ]
 
 SOURCES = [
@@ -126,7 +126,7 @@ def build(ed='pro', inline=False, letter=False):
     pages.append(f'''<section class="pg g full">
   {head('Question 03 · The Recess', 'Detail The Recess As Its Own Drawing', 'A recessed heater gives warmth felt without being seen and keeps the soffit line clean. Recessing is an electric detail; built-in gas mounts to the surface.', '03')}
   <div class="pr2 rec"><div>{svg('recess', '820 540', 'chart')}</div>
-    <div class="pcol">{ph('w-bromic-shoot-may-11-2023-43', 'Fitting a heater into its recess kit')}{ph('l-005-022', 'Tungsten Coastal (coming soon), recessed flush')}</div></div>
+    <div class="pcol">{ph('w-bromic-shoot-may-11-2023-43', 'Fitting a heater into its recess kit')}{ph('l-005-022', 'Tungsten Coastal, recessed flush')}</div></div>
   <p class="foot">Series II low-clearance kit (Select 304, Coastal 316 marine stainless): figures from its installation instructions. Draw each recess with the kit and cut-out, cavity above the finished ceiling, blocking, junction-box position and access, and the clearances the manual sets.</p>{folio()}</section>''')
     # 7 Q4 cover and cold
     pages.append(f'''<section class="pg g side-r2">
@@ -155,7 +155,7 @@ def build(ed='pro', inline=False, letter=False):
     pages.append(f'''<section class="pg g full">
   {head('Question 05 · The Heater', 'Specify By Purpose', 'Start from what the zone needs; the model follows. Full ratings, SKUs and cut sheets are on the Hub and in the spec kit.', '05')}
   <div class="tiles">{tiles}</div>
-  <p class="foot">Coverage is approximate and varies with mounting height, wind and installation. Coming-soon models carry an approved current alternate on the drawings. Every heater is specified with its Affinity Smart-Heat Controls.</p>{folio()}</section>''')
+  <p class="foot">Coverage is approximate and varies with mounting height, wind and installation. Until Tungsten Classic arrives in January 2027, its drawings carry an approved current alternate. Every heater is specified with its Affinity Smart-Heat Controls.</p>{folio()}</section>''')
     # 11 how many
     pages.append(f'''<section class="pg g bloom">
   <figure class="bimg">{img('w-eclipse-electric-24twin-pole-residential-sce-bloom', alt='Eclipse pendants over a dining table at dusk, with a warm cone drawn where the warmth falls')}<figcaption>Where the warmth falls – an illustration, not a measured pattern</figcaption></figure>

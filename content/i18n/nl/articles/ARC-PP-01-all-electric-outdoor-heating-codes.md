@@ -157,7 +157,7 @@ Elektrische stralingswarmte haalt die afhankelijkheid weg. Ze werkt op de groepe
 ## Elektrische verwarmers van Bromic voor elke situatie
 
 - **Overdekte terrassen en overstekken.** Platinum Smart-Heat® Electric, 2300 W, 3400 W of 4500 W, ca. 6–13 m², voor inbouw, plafond- of wandmontage[^s12].
-- **Architectonische inbouw en maritieme omgevingen.** Tungsten Smart-Heat® Electric Select en Coastal (binnenkort leverbaar), ca. 6–13 m², met inbouw bij weinig inbouwdiepte[^s12].
+- **Architectonische inbouw en maritieme omgevingen.** Tungsten Smart-Heat® Electric Select en Coastal, ca. 6–13 m², met inbouw bij weinig inbouwdiepte[^s12].
 - **Open terrassen en pergola's.** Eclipse Smart-Heat® Electric, ca. 11 m², op een paal gemonteerd met dimbare randverlichting, en Eclipse Freestanding waar niets kan worden bevestigd[^s12].
 
 Elk komt met zijn Affinity Smart-Heat®-bediening: een On/Off-, Dimmer- of Eclipse-regelaar, een wandschakelaar en de Bromic Smart-Heat app voor schema's en timers. Wifi- en app-functies vereisen compatibele Affinity Smart-Heat-bediening, die apart wordt verkocht[^s12].

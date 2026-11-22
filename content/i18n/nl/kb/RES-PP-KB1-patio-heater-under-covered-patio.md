@@ -35,7 +35,7 @@ sources:
     title: "Outdoor Lookbook 2026"
     year: 2026
     url: sources/Bromic_Lookbook_2026.pdf
-    supports: "Recessed, ceiling and wall mounting; low-clearance recessing (Tungsten, coming soon); controls"
+    supports: "Recessed, ceiling and wall mounting; low-clearance recessing (Tungsten Select and Coastal); controls"
     verified: true
   - id: s3
     publisher: WorkSafeBC
@@ -55,7 +55,7 @@ Dat kan, en een overdekt terras is een van de mooiste plekken om warmte toe te v
 | Verbranding | Geen | Verbrandt aardgas of propaan |
 | Onder een overkapping | Plafond-, wand- of inbouwmontage[^s2] | Heeft open lucht nodig; een gasverwarmde ruimte afsluiten geeft kans op koolmonoxide[^s3] |
 | Hoogte | Plafond ≥ 2,4 m, wand ≥ 1,8 m boven de vloer (richtlijn van Bromic)[^s1] | Vrije hoogte volgens de handleiding [[VERIFY: vrije hoogte boven Tungsten Freestanding Gas — productteam]] |
-| Zo los je de vrije hoogte op | Inbouwsets; ophangstangen bij hoge plafonds; inbouw met lage vrije hoogte bij Tungsten (binnenkort)[^s1][^s2] | Hitteschermen verkleinen de benodigde ruimte boven ingebouwde gasverwarmers[^s1] |
+| Zo los je de vrije hoogte op | Inbouwsets; ophangstangen bij hoge plafonds; inbouw met lage vrije hoogte bij Tungsten Select en Coastal[^s1][^s2] | Hitteschermen verkleinen de benodigde ruimte boven ingebouwde gasverwarmers[^s1] |
 
 ## Je overdekte terras klaarmaken
 

@@ -37,7 +37,7 @@ sources:
     title: "Lookbook 2026"
     year: 2026
     url: sources/Bromic_Lookbook_2026.pdf
-    supports: "Tungsten Coastal and Select (coming soon, 64–144 ft²), Eclipse and Tungsten Freestanding Gas coverage, Affinity Smart-Heat Controls (zones, schedules, integrations), design service"
+    supports: "Tungsten Coastal and Select (64–144 ft²), Eclipse and Tungsten Freestanding Gas coverage, Affinity Smart-Heat Controls (zones, schedules, integrations), design service"
     verified: true
   - id: s3
     publisher: Bromic Heating
@@ -372,8 +372,8 @@ Over vijf jaar is dat aan energie alleen $22,160 voor elektrisch, $19,190 voor a
 | Platinum Smart-Heat Gas, 6,9 / 11,7 kW | Grotere open terrassen, vaste gasaansluiting | 2 jaar, excl. slangen en ontstekers[^s10] |
 | Tungsten Smart-Heat Gas inbouw, twee formaten | Grotere open terrassen, vaste gasaansluiting; draaiarm | 2 jaar, excl. slangen en ontstekers[^s11] |
 | Tungsten Smart-Heat Freestanding Gas | Open terrassen; propaan of snelkoppeling voor aardgas | 1 jaar (propaan)[^s12] |
-| Tungsten Electric Coastal (binnenkort leverbaar) | Locaties aan het water; rvs 316 | [[VERIFY]][^s2] |
-| Tungsten Electric Select (binnenkort leverbaar) | Locaties waar het ontwerp leidend is; Black, White, Graphite | [[VERIFY]][^s2] |
+| Tungsten Electric Coastal | Locaties aan het water; rvs 316 | [[VERIFY]][^s2] |
+| Tungsten Electric Select | Locaties waar het ontwerp leidend is; Black, White, Graphite | [[VERIFY]][^s2] |
 
 [[VERIFY: garantievoorwaarden bij zakelijk gebruik, en de garantie op het aardgasmodel van de Tungsten Freestanding Gas — productteam]] [[VERIFY: welke families en uitvoeringen (aardgas, propaan, Marine) in Nederland leverbaar zijn — Bromic Benelux distributor]]
 
@@ -381,7 +381,7 @@ Kies de uitstraling met de ruimte voor ogen. Een afwerking die past bij de luife
 
 - [ ] Verwarmerfamilie per type locatie: luifel / wand / pendel / vrijstaand
 - [ ] Afwerking: ______
-- [ ] Modellen die binnenkort leverbaar zijn, hebben een goedgekeurd leverbaar alternatief
+- [ ] Modellen die nog niet leverbaar zijn, hebben een goedgekeurd leverbaar alternatief
 
 ![Eclipse-verwarmers aan wandarmen boven een restaurantterras](img:l-013-111)
 
@@ -400,7 +400,7 @@ De factoren bestaan omdat dezelfde verwarmer op een koude avond minder oppervlak
 | Platinum Gas 6,9 / 11,7 kW | 15 / 20 m²[^s10] |
 | Tungsten Gas inbouw, kleiner / groter | 15 / 20 m²[^s11] |
 | Tungsten Freestanding Gas, 11,1 kW | 20 m²[^s2] |
-| Tungsten Electric Coastal en Select (binnenkort leverbaar) | 6–13 m²[^s2] |
+| Tungsten Electric Coastal en Select | 6–13 m²[^s2] |
 
 Het verwarmd oppervlak is bij benadering en varieert met montagehoogte, omgeving en installatie[^s2]. [[VERIFY: Eclipse 2900 W tegenover 3000 W; Tungsten Freestanding Gas 11,1 kW tegenover 11,3 kW; verwarmd oppervlak per model tegen de productbladen van 2026 — productteam]]
 

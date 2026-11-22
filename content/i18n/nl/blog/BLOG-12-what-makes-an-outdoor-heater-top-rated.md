@@ -63,7 +63,7 @@ sources:
     title: "Outdoor Lookbook 2026, pp.7, 27, 41"
     year: 2026
     url: sources/Bromic_Lookbook_2026.pdf
-    supports: "Tungsten Coastal (coming soon) in 316 marine-grade stainless; Eclipse 121 ft², 33/66/100% output, dimmable rim lighting; Wi-Fi and app features need compatible Affinity controls, sold separately"
+    supports: "Tungsten Coastal in 316 marine-grade stainless; Eclipse 121 ft², 33/66/100% output, dimmable rim lighting; Wi-Fi and app features need compatible Affinity controls, sold separately"
     verified: true
   - id: s7
     publisher: BBQGuys
@@ -112,7 +112,7 @@ Zoals het oorspronkelijke artikel het zegt: een topklasse verwarmer hoort bij zi
 - **Tungsten** voor intensief gebruikte woon- en zakelijke ruimtes, waar duurzaamheid en een constant vermogen tellen.
 - **Eclipse** waar licht en sfeer bij het ontwerp horen.
 
-Woningen aan de kust vragen om roestvast staal van maritieme kwaliteit, en Tungsten Coastal (binnenkort beschikbaar) voegt een maritieme uitvoering toe aan de Tungsten-familie.[^s6] Voor het hele assortiment per ruimte en energiebron, lees [welke collectie buitenverwarmers bij je past](item:BLOG-11).
+Woningen aan de kust vragen om roestvast staal van maritieme kwaliteit, en Tungsten Coastal voegt een maritieme uitvoering toe aan de Tungsten-familie.[^s6] Voor het hele assortiment per ruimte en energiebron, lees [welke collectie buitenverwarmers bij je past](item:BLOG-11).
 
 ## Waarom de bediening in elke beoordeling hoort
 

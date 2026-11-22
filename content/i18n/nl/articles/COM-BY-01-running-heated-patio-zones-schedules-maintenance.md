@@ -65,7 +65,7 @@ Teken uw zones rond de manier waarop de vloer wordt bediend, en laat de bekabeli
 | Lounge of wachtruimte | Loungemeubels, ontvangst | Kort verblijf, lager vermogen |
 | Evenement of besloten | Ruimte voor besloten gezelschappen | Draait op een eigen schema |
 
-Elke zone heeft een eigen regelaar. Voor Platinum en Tungsten Electric is dat een Affinity Smart-Heat® On/Off- of Dimmer-regelaar met een wandschakelaar, en voor Eclipse de Eclipse-regelaar (Tungsten Coastal en Select komen binnenkort). De Bromic Smart-Heat app voegt zones, schema's en timers toe. Wifi- en app-functies vragen om compatibele Affinity Smart-Heat® Controls, apart verkrijgbaar.[^s1] Vestigingen met een gebouwbeheersysteem kunnen koppelen met Control4, Crestron of Lutron; de compatibiliteit verschilt en er kan extra hardware nodig zijn.[^s1]
+Elke zone heeft een eigen regelaar. Voor Platinum en Tungsten Electric, Coastal en Select inbegrepen, is dat een Affinity Smart-Heat® On/Off- of Dimmer-regelaar met een wandschakelaar, en voor Eclipse de Eclipse-regelaar. De Bromic Smart-Heat app voegt zones, schema's en timers toe. Wifi- en app-functies vragen om compatibele Affinity Smart-Heat® Controls, apart verkrijgbaar.[^s1] Vestigingen met een gebouwbeheersysteem kunnen koppelen met Control4, Crestron of Lutron; de compatibiliteit verschilt en er kan extra hardware nodig zijn.[^s1]
 
 ## Warmte inplannen op het ritme van uw gasten
 

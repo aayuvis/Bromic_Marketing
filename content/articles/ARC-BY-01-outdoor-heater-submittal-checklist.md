@@ -86,7 +86,7 @@ A few points tend to generate RFIs when they are left open:
 
 Recess kits flush-mount Platinum and Tungsten Electric heaters into roof or ceiling cavities[^s1], and the result is only as clean as the framing behind it. The opening, its trimmers and the cavity depth belong on the framing drawings, so the installer finds them waiting rather than working them out on site. Where ceilings are high, suspension poles bring heaters down to the people below; detail the structural attachment above[^s1].
 
-At submittal, check that the cut-out dimensions match the kit, that cavity depth and any required ventilation or clearance inside the recess match the manual, that the ceiling finish returns cleanly to the kit's trim, and that the structure carries the heater weight. The Tungsten Select and Coastal collections (coming soon) are designed for low-clearance recessing, so confirm their dimensions before detailing[^s2].
+At submittal, check that the cut-out dimensions match the kit, that cavity depth and any required ventilation or clearance inside the recess match the manual, that the ceiling finish returns cleanly to the kit's trim, and that the structure carries the heater weight. The Tungsten Select and Coastal collections are designed for low-clearance recessing, so confirm their dimensions before detailing[^s2].
 
 ![Ceiling-mounted black heater warming a candlelit lounge](img:l-007-035)
 

@@ -110,7 +110,7 @@ Elke Bromic-familie vraagt bij de voorbekabeling iets anders, en wie het goed do
 | Platinum Smart-Heat Electric | 2300 / 3400 / 4500 W | Eigen groep(en) naar de regelaar; aansluitdoos bij de verwarmer | Inbouw (inbouwset), plafond of muur; regelwerk |
 | Eclipse Smart-Heat Electric | [[VERIFY: vermogen en voeding]] | Groep naar de regelaar; plafonddoos bij de paal | Enkele paal van 200, 610 of 1220 mm; dubbele of gebogen paal; regelwerk voor de paal |
 | Eclipse Smart-Heat Freestanding Electric | [[VERIFY: stekker of vaste aansluiting; waarde van het stopcontact]] | [[VERIFY: eisen aan het buitenstopcontact]] | Geen; vlakke ondergrond |
-| Tungsten Smart-Heat Electric – Coastal / Select (binnenkort) | [[VERIFY: vermogens]] | Als Platinum, in afwachting van de installatiehandleiding | Inbouw met lage inbouwhoogte, plafond, muur, enkele paal |
+| Tungsten Smart-Heat Electric – Coastal / Select | [[VERIFY: vermogens]] | Als Platinum, in afwachting van de installatiehandleiding | Inbouw met lage inbouwhoogte, plafond, muur, enkele paal |
 | Tungsten Gas (inbouw), Platinum Gas | [[VERIFY: vermogen in kW — het cijfer van de Tungsten-inbouwgasverwarmer niet publiceren tot het bevestigd is]] | Gasaansluitpunt en afsluiter; [[VERIFY: eventuele elektrische voeding voor ontsteking/bediening]] | Plafond, muur; plafondpalen, warmtedeflectors |
 | Tungsten Smart-Heat Freestanding Gas | 11,1 kW; aardgas of propaan | Propaan: geen. Aardgas: [[VERIFY: eis voor een snelkoppelingspunt]] | Geen |
 
@@ -163,7 +163,7 @@ Een ingebouwde verwarmer oogt als deel van de architectuur, en dat is het detail
 - Ruwe opening (L × B): [[VERIFY dims: per model en maat — productteam]]
 - Minimale diepte van de plafondruimte: [[VERIFY dims: per model — productteam]]
 - Afstand boven de set tot brandbare materialen: [[VERIFY dims: volgens de installatiehandleiding — productteam]]
-- Inbouw met lage inbouwhoogte (Tungsten Coastal / Select, binnenkort): [[VERIFY dims — productteam]]
+- Inbouw met lage inbouwhoogte (Tungsten Coastal / Select): [[VERIFY dims — productteam]]
 - Toegestane dikte van de plafondafwerking: [[VERIFY dims — productteam]]
 
 Op de bouwplaats:
@@ -174,7 +174,7 @@ Op de bouwplaats:
 
 [[DIAGRAM: Plafondplan en doorsnede van een opening voor een inbouwset tussen de balken: raveelbalk, regelwerk, aansluitdoos, diepte van de plafondruimte en afstanden als maatlijnen, in afwachting van geverifieerde waarden.]]
 
-![Tungsten Coastal (binnenkort) vlak ingebouwd in een wit plafond](img:l-005-022)
+![Tungsten Coastal vlak ingebouwd in een wit plafond](img:l-005-022)
 
 ## De bediening bekabelen
 

@@ -60,7 +60,7 @@ that fits, the controls for each, the electrical load and the assumptions behind
 
 Coverage comes from the Lookbook 2026[^s1]. The enclosure, climate and height factors are Bromic's 2021 guidance turned into
 numbers[^s2], and they wait for the Product team's sign-off. A space with less than 30% of its perimeter open goes to our design
-team, who plan it with you. Tungsten Coastal and Tungsten Select are coming soon and show a range, never a single count. Every
+team, who plan it with you. Tungsten Coastal and Tungsten Select show a range, never a single count. Every
 value, its source and owner sits in `tools/A03-sizing/README.md`.
 
 ## Where Your Enquiry Goes

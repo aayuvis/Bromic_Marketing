@@ -130,8 +130,8 @@ Begin with the people who will use the space. A dining table calls for even warm
 | Platinum Smart-Heat Electric | Current | 2300 W, 3400 W, 4500 W | Black, White; Classic and Marine variants | 65–143 ft² (by model and size) | Recessed, ceiling, wall | Covered terraces, soffits, outdoor kitchens, coastal (Marine) | Affinity On/Off or Dimmer controller + manual wall switch; app via compatible Affinity controls |
 | Eclipse Smart-Heat Electric | Current | Heat output 33 / 66 / 100% [[VERIFY: rated wattage and voltage — Product team]] | Black, dimmable rim lighting | 121 ft² | Single pole 8", 24" or 48"; double pole; curved pole | Dining tables and lounges where heat and light are one fixture | Affinity Eclipse controller + manual wall switch; app via compatible Affinity controls |
 | Eclipse Smart-Heat Freestanding Electric | Current | 33 / 66 / 100% | Black, dimmable rim lighting | 121 ft² | Freestanding: integrated wheels, weighted base, curved arm | Flexible lounge and terrace layouts; FF&E rather than built-in | Affinity Eclipse controller [[VERIFY: freestanding control method — Product team]] |
-| Tungsten Smart-Heat Electric, Coastal collection (coming soon) | Coming soon | [[VERIFY: wattages — Product team]] | Black, White; 316 marine-grade stainless; Signature Diamond Pattern grille | 64–144 ft² (by model and size) | Recessed (marine-grade low-clearance), ceiling, wall, single-post | Waterfront and marine environments | Affinity controls as for Platinum [[VERIFY: controller compatibility — Product team]] |
-| Tungsten Smart-Heat Electric, Select collection (coming soon) | Coming soon | [[VERIFY: wattages — Product team]] | Black, White, Graphite; expanded fascia options | 64–144 ft² (by model and size) | Recessed (low-clearance), ceiling, wall, single-post | Design-led residential and hospitality | Affinity controls as for Platinum [[VERIFY: controller compatibility — Product team]] |
+| Tungsten Smart-Heat Electric, Coastal collection | Current (launched October 2026) | [[VERIFY: wattages — Product team]] | Black, White; 316 marine-grade stainless; Signature Diamond Pattern grille | 64–144 ft² (by model and size) | Recessed (marine-grade low-clearance), ceiling, wall, single-post | Waterfront and marine environments | Affinity controls as for Platinum [[VERIFY: controller compatibility — Product team]] |
+| Tungsten Smart-Heat Electric, Select collection | Current (launched October 2026) | [[VERIFY: wattages — Product team]] | Black, White, Graphite; expanded fascia options | 64–144 ft² (by model and size) | Recessed (low-clearance), ceiling, wall, single-post | Design-led residential and hospitality | Affinity controls as for Platinum [[VERIFY: controller compatibility — Product team]] |
 
 Platinum coverage by individual wattage is not yet published in this kit. [[VERIFY: coverage and mounting height per Platinum wattage (2300 / 3400 / 4500 W) — Product team]]
 
@@ -227,14 +227,14 @@ D. **Eclipse Smart-Heat Freestanding Electric** *[usually specified as FF&E; inc
 2. Heat output steps: 33%, 66%, 100%. Approximate coverage: 121 ft².
 3. Power supply: [[VERIFY: plug/cord and receptacle requirements — Product team]].
 
-E. **Tungsten Smart-Heat Electric, Coastal collection (coming soon)** *[specify only after Bromic confirms availability for the project schedule]*:
+E. **Tungsten Smart-Heat Electric, Coastal collection**:
 1. 316 marine-grade stainless steel; Signature Diamond Pattern grille.[^s1]
 2. Finish: [Black] [White].
 3. Mounting: [marine-grade low-clearance recessed] [ceiling] [wall] [single-post].
 4. Approximate coverage: 64–144 ft² depending on model and size.
 5. Wattage, voltage, dimensions: [[VERIFY — Product team]].
 
-F. **Tungsten Smart-Heat Electric, Select collection (coming soon)** *[as above]*:
+F. **Tungsten Smart-Heat Electric, Select collection**:
 1. Finish: [Black] [White] [Graphite]; expanded fascia options.[^s1]
 2. Mounting: [low-clearance recessed] [ceiling] [wall] [single-post].
 3. Approximate coverage: 64–144 ft² depending on model and size.

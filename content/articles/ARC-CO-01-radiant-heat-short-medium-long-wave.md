@@ -116,7 +116,7 @@ This works in two directions. Raise a heater and its pattern widens while the in
 | Heater | Coverage (approx.) | Mounting | Controls to specify |
 |---|---|---|---|
 | Platinum Smart-Heat Electric, 2300/3400/4500W | 65–143 ft² | Recessed, ceiling, wall | Affinity On/Off or Dimmer, wall switch, Smart-Heat app |
-| Tungsten Smart-Heat Electric, Select and Coastal (coming soon) | 64–144 ft² | Recessed (low-clearance), ceiling, wall, single post | Affinity On/Off or Dimmer, wall switch, Smart-Heat app |
+| Tungsten Smart-Heat Electric, Select and Coastal | 64–144 ft² | Recessed (low-clearance), ceiling, wall, single post | Affinity On/Off or Dimmer, wall switch, Smart-Heat app |
 | Eclipse Smart-Heat Electric | 121 ft² | Single, double or curved pole | Eclipse controller, wall switch, Smart-Heat app |
 | Tungsten Smart-Heat Freestanding Gas | 215 ft² | Freestanding | [[VERIFY: control options for Tungsten Freestanding Gas — Product team]] |
 

@@ -7,7 +7,7 @@ audience: [RES, ARC]
 stage: [CO]
 cell: RES-CO
 asset: A24
-summary: "Warum salzhaltige Luft gewöhnlichen Heizstrahlern so zusetzt, warum Edelstahl 316 ihr besser widersteht als 304 und was Platinum Smart-Heat Electric Marine einem Haus an der Küste oder einem Schiff bietet: Edelstahl 316, IPX5, Zulassung durch Lloyd's Register und eine Garantie, die sich an Land und auf See unterscheidet. Tungsten Coastal ist demnächst erhältlich."
+summary: "Warum salzhaltige Luft gewöhnlichen Heizstrahlern so zusetzt, warum Edelstahl 316 ihr besser widersteht als 304 und was Platinum Smart-Heat Electric Marine einem Haus an der Küste oder einem Schiff bietet: Edelstahl 316, IPX5, Zulassung durch Lloyd's Register und eine Garantie, die sich an Land und auf See unterscheidet. Tungsten Coastal, im Oktober 2026 eingeführt, ist eine zweite Option in Edelstahl 316."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Welcher Heizstrahler eignet sich am besten für ein Haus am Meer?"
@@ -62,7 +62,7 @@ sources:
     title: "Outdoor Lookbook 2026"
     year: 2026
     url: sources/Bromic_Lookbook_2026.pdf
-    supports: "Tungsten Smart-Heat Electric Coastal collection (coming soon): 316 marine-grade stainless steel, Black and White, Signature Diamond Pattern grille, marine-grade low-clearance recessing, ceiling, wall, single-post, approx. 64–144 ft²; Wi-Fi and app features need compatible Affinity controls, sold separately"
+    supports: "Tungsten Smart-Heat Electric Coastal collection: 316 marine-grade stainless steel, Black and White, Signature Diamond Pattern grille, marine-grade low-clearance recessing, ceiling, wall, single-post, approx. 64–144 ft²; Wi-Fi and app features need compatible Affinity controls, sold separately"
     verified: true
   - id: s7
     publisher: Bromic Heating
@@ -77,7 +77,7 @@ translation_status: machine-draft
 native_reviewer: "[[VERIFY: native reviewer — Partner Deutschland]]"
 ---
 
-Abende am Meer verdienen eine Wärme, die so lange hält wie der Blick aufs Wasser – und der Heizstrahler, der sie an der Küste schenkt, ist aus seewasserbeständigem Edelstahl 316 gefertigt, gegen Gischt abgedichtet und unter einer Überdachung montiert. Salzhaltige Luft lässt gewöhnliche Metalle schnell korrodieren. Bromics Antwort ist heute Platinum Smart-Heat Electric Marine, mit Edelstahl AISI 316, Schutzart IPX5 und einer Zulassung von Lloyd's Register für den maritimen Einsatz.[^s1] Tungsten Smart-Heat Electric Coastal (demnächst erhältlich) wird eine zweite Option in Edelstahl 316 bieten.[^s6]
+Abende am Meer verdienen eine Wärme, die so lange hält wie der Blick aufs Wasser – und der Heizstrahler, der sie an der Küste schenkt, ist aus seewasserbeständigem Edelstahl 316 gefertigt, gegen Gischt abgedichtet und unter einer Überdachung montiert. Salzhaltige Luft lässt gewöhnliche Metalle schnell korrodieren. Bromics Antwort ist heute Platinum Smart-Heat Electric Marine, mit Edelstahl AISI 316, Schutzart IPX5 und einer Zulassung von Lloyd's Register für den maritimen Einsatz.[^s1] Tungsten Smart-Heat Electric Coastal, im Oktober 2026 eingeführt, ist eine zweite Option in Edelstahl 316.[^s6]
 
 ![Offener Wohnpavillon mit Blick auf einen Hafen, sechs weiße Platinum Electric Marine Heizstrahler in eine Deckenwanne eingelassen](img:w-bromic-platinum-electric-marine-patio-heater)
 
@@ -92,7 +92,7 @@ Salz, das mit Gischt und auflandigem Wind herangetragen wird, setzt sich auf Met
 | Was er enthält | Chrom und Nickel | Chrom, mehr Nickel und Molybdän (ca. 2–3 %)[^s4] |
 | Salz und Chloride | Neigt in Meeresnähe zu Lochfraß und Teeverfärbung[^s3] | Widerstandsfähiger gegen Chloridangriff[^s3] |
 | Wo er passt | Standorte im Binnenland und geschützte Lagen | Häuser an der Küste, Yachthäfen, Schiffe |
-| Bromic-Heizstrahler | Platinum Smart-Heat Electric (Gehäuse aus 304) | Platinum Smart-Heat Electric Marine; Tungsten Coastal (demnächst erhältlich)[^s1][^s6] |
+| Bromic-Heizstrahler | Platinum Smart-Heat Electric (Gehäuse aus 304) | Platinum Smart-Heat Electric Marine; Tungsten Coastal[^s1][^s6] |
 
 316 ist deutlich widerstandsfähiger gegen Salz, verlangt aber wie jedes edle Metall dennoch regelmäßige Reinigung.
 
@@ -116,9 +116,9 @@ Salz, das mit Gischt und auflandigem Wind herangetragen wird, setzt sich auf Met
 
 Die [Garantieseite](https://www.bromic.de/) und die Spezifikationstabelle der Produktseite nennen 5 Jahre für Installationen an Land und 3 Jahre auf Schiffen.[^s2][^s1] Die Beschreibung auf der Produktseite sagt dagegen, die 5-Jahres-Garantie gelte nur für den Einsatz an Land und decke Installationen auf Schiffen nicht ab.[^s1] Diese beiden Aussagen widersprechen sich; bis Bromic dies klärt, sollten Schiffseigner sich die Bedingungen schriftlich geben lassen. [[VERIFY: Marine-Garantie auf Schiffen — 3 Jahre oder keine Deckung? Beschreibung der Produktseite mit der Garantieseite abgleichen — Produktteam]]
 
-## Tungsten Coastal, demnächst erhältlich
+## Tungsten Coastal, in Edelstahl 316
 
-Die Kollektion Tungsten Smart-Heat Electric Coastal (demnächst erhältlich) entsteht aus seewasserbeständigem Edelstahl 316, in Schwarz oder Weiß, mit dem Signature-Diamond-Pattern-Gitter. Geplant sind seewasserbeständiger Einbau mit geringem Abstand sowie Decken-, Wand- und Einzelmastmontage, mit einer Heizfläche von ca. 6–13 m² je nach Modell.[^s6] Schutzarten, Leistungen und Garantie werden zur Markteinführung veröffentlicht.
+Die Kollektion Tungsten Smart-Heat Electric Coastal, im Oktober 2026 eingeführt, ist gefertigt aus seewasserbeständigem Edelstahl 316, in Schwarz oder Weiß, mit dem Signature-Diamond-Pattern-Gitter. Sie bietet seewasserbeständigen Einbau mit geringem Abstand sowie Decken-, Wand- und Einzelmastmontage, mit einer Heizfläche von ca. 6–13 m² je nach Modell.[^s6] Wie jeder elektrische Heizstrahler von Bromic arbeitet sie mit Affinity Smart-Heat Steuergeräten und einem Wandschalter; WLAN- und App-Funktionen setzen kompatible Affinity-Steuergeräte voraus, die separat erhältlich sind. [[VERIFY: Schutzart, Leistungen und Garantie von Tungsten Coastal — Produktteam]]
 
 ## Pflege für einen Heizstrahler am Meer
 
@@ -141,8 +141,8 @@ Das können Sie, sollten aber früher mit Korrosion und Teeverfärbung rechnen. 
 
 Nein. Er ist für den maritimen Einsatz zugelassen und fühlt sich in Häusern an der Küste, in Yachthäfen und in Restaurants am Wasser ebenso zu Hause, und an Land gilt die längere Garantie.[^s2]
 
-### Wann ist Tungsten Coastal erhältlich?
+### Ist Tungsten Coastal jetzt erhältlich?
 
-Er ist demnächst erhältlich, und Bromic veröffentlicht die technischen Daten zur Markteinführung.[^s6]
+Ja. Tungsten Coastal wurde im Oktober 2026 eingeführt, in seewasserbeständigem Edelstahl 316.[^s6] Fragen Sie Ihren Bromic-Händler nach Schutzart und Lieferzeit.
 
 Berechnen Sie Ihren Außenbereich an der Küste mit dem Bromic-Heizstrahlerrechner.

@@ -88,7 +88,7 @@ Een paar punten leveren vaak vragen van de aannemer op als ze open blijven:
 
 Met inbouwsets worden Platinum- en Tungsten Electric-verwarmers vlak in dak- of plafondruimten gemonteerd[^s1], en het resultaat is maar zo strak als het timmerwerk erachter. De opening, de raveelbalken en de diepte van de plafondruimte horen op de constructietekeningen, zodat de monteur ze klaar aantreft in plaats van ze op de bouwplaats uit te zoeken. Onder hoge plafonds brengen ophangpalen de verwarmers dichter bij de mensen eronder; detailleer de bevestiging aan de constructie erboven[^s1].
 
-Controleer bij de indieningsstukken of de maten van de uitsparing overeenkomen met de set, of de diepte van de plafondruimte en eventuele ventilatie of afstanden in de inbouwruimte overeenkomen met de handleiding, of de plafondafwerking netjes aansluit op de afwerkrand van de set, en of de constructie het gewicht van de verwarmer draagt. De collecties Tungsten Select en Coastal (binnenkort leverbaar) zijn ontworpen voor inbouw met weinig inbouwdiepte; bevestig daarom hun maten voordat u detailleert[^s2].
+Controleer bij de indieningsstukken of de maten van de uitsparing overeenkomen met de set, of de diepte van de plafondruimte en eventuele ventilatie of afstanden in de inbouwruimte overeenkomen met de handleiding, of de plafondafwerking netjes aansluit op de afwerkrand van de set, en of de constructie het gewicht van de verwarmer draagt. De collecties Tungsten Select en Coastal zijn ontworpen voor inbouw met weinig inbouwdiepte; bevestig daarom hun maten voordat u detailleert[^s2].
 
 ![Zwarte plafondverwarmer die een lounge bij kaarslicht verwarmt](img:l-007-035)
 

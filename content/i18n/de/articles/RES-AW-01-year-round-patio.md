@@ -102,7 +102,7 @@ Aufheizzeit und Wind: Bromic Planning Guide v1.2[^s4]. Heizfläche, Temperaturan
 
 Beginnen Sie damit, wie Ihr Außenbereich gebaut ist.
 
-- **Eine überdachte Terrasse, eine Pergola oder eine Außenküche.** Eingebaute elektrische Heizstrahler an Wand oder Decke, oder bündig in die Decke eingelassen. Platinum Smart-Heat® Electric gibt es mit 2300 W, 3400 W und 4500 W; er beheizt ca. 6–13 m² je Gerät. Die Kollektionen Tungsten Smart-Heat® Electric Coastal und Select (demnächst erhältlich) beheizen ca. 6–13 m².[^s5]
+- **Eine überdachte Terrasse, eine Pergola oder eine Außenküche.** Eingebaute elektrische Heizstrahler an Wand oder Decke, oder bündig in die Decke eingelassen. Platinum Smart-Heat® Electric gibt es mit 2300 W, 3400 W und 4500 W; er beheizt ca. 6–13 m² je Gerät. Die Kollektionen Tungsten Smart-Heat® Electric Coastal und Select beheizen ca. 6–13 m².[^s5]
 - **Eine offene Essterrasse.** Die Pendelleuchte Eclipse Smart-Heat® Electric vereint Wärme und dimmbares Ringlicht, beheizt ca. 11 m² und hat Leistungsstufen von 33/66/100 %.[^s5]
 - **Ein Deck oder Rasen, den Sie gern umstellen.** Eclipse Smart-Heat® Freestanding Electric (ca. 11 m², Rollen, beschwerter Fuß) oder Tungsten Smart-Heat® Freestanding Gas (ca. 20 m², ca. 11,1 kW, Erdgas oder Flüssiggas, neigbarer Kopf, Kippschutz).[^s5]
 

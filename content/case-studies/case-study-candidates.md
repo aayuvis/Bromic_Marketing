@@ -89,7 +89,7 @@ team to confirm the project, the products and permission before drafting.
 
 | Audience | Project to find | Why | Template emphasis |
 |---|---|---|---|
-| RES | A coastal residence with Tungsten Coastal (coming soon; once it launches) | Proves the coastal collection; the corrosion posts need it | Material, salt exposure, warranty, controls |
+| RES | A coastal residence with Tungsten Coastal (launched October 2026) | Proves the coastal collection; the corrosion posts need it | Material, salt exposure, warranty, controls |
 | RES | A covered patio sized with the A03 calculator, then designed by A07 | Closes the loop from tool to installed project | The calculator result next to the final layout |
 | BLD | A builder community with pre-wire as standard (A16) | The builder programme (A15) needs a reference | Rough-in, circuits, upgrade take rate (with permission) |
 | BLD | A display home that converted buyers (the Marmion model, in the US) | Gives sales a story to tell at the model home | Who chose the upgrade and when |
