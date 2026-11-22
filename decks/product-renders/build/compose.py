@@ -35,7 +35,8 @@ cast = np.where(sh, al, 0) * near ** 1.5
 cast = blur(cast, W / 500) * 0.55 * float(os.environ.get('CAST', '1'))   # CAST=0 drops the rendered caught shadow (e.g. a hidden post seen from below)
 # grounding shadow: the body's own silhouette, blurred twice (contact + soft), nudged up-left (light from the front-below)
 dx, dy = int(W * 0.004), int(-H * 0.006)
-sil = np.roll(np.roll(obj, dy, 0), dx, 1)
+sil = np.zeros_like(obj)  # shifted without wrapping (np.roll carried a frame-filling heater's top edge to the bottom as a grey band)
+sil[max(0, dy):H + min(0, dy), max(0, dx):W + min(0, dx)] = obj[max(0, -dy):H - max(0, dy), max(0, -dx):W - max(0, dx)]
 ground = 0.22 * blur(sil, W / 260) + 0.10 * blur(sil, W / 70)
 shadow = np.clip(1 - (1 - cast) * (1 - ground), 0, 0.6) * (1 - obj)
 rgb = a[..., :3]
