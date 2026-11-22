@@ -1260,7 +1260,7 @@
     return `<div class="rt-head"><span class="label">Image Approvals</span><h1>Generated Images and Videos Awaiting Approval</h1>
       <p class="muted">Tungsten Series II images made for the content team: the heater is rendered from the Series II CAD; backgrounds are either Bromic installation photos or generated scenes, as each card says. Approve or reject each one, then save. Approved images can be downloaded as one zip.</p></div>
       <div class="ap-bar"><div class="ap-f">${[['pending', 'Waiting'], ['approved', 'Approved'], ['rejected', 'Rejected'], ['all', 'All']].map(([k, t]) => `<button class="${apF === k ? 'on' : ''}" data-apf="${k}">${t} <span>${k === 'all' ? all.length : n(k)}</span></button>`).join('')}</div>
-        <div class="ap-act">${dirty ? `<button class="btn primary" data-apsave>Save ${dirty} ${dirty === 1 ? 'decision' : 'decisions'}</button>` : ''}${okSaved ? `<a class="btn" href="review/approved.zip" download>Download approved (${okSaved}) as zip</a>` : '<span class="muted">Nothing approved and saved yet.</span>'}</div></div>
+        <div class="ap-act">${apDecisionsText() ? '<button class="btn" data-apcopy>Copy my decisions</button>' : ''}${dirty ? `<button class="btn primary" data-apsave>Save ${dirty} ${dirty === 1 ? 'decision' : 'decisions'}</button>` : ''}${okSaved ? `<a class="btn" href="review/approved.zip" download>Download approved (${okSaved}) as zip</a>` : '<span class="muted">Nothing approved and saved yet.</span>'}</div></div>
       <div class="ap-grid">${show.map((r) => `<figure class="ap-card st-${r.status}">${r.video ? `<video controls preload="none" playsinline poster="${esc(r.thumb)}" src="${esc(r.file)}"></video>` : `<a href="${esc(r.file)}" data-aplb="${esc(r.id)}" title="Open full screen: arrows to move, A approve, R reject"><img loading="lazy" src="${esc(r.thumb)}" alt="${esc(r.title)}"></a>`}
         <figcaption><b>${esc(r.title)}</b><small>${esc(r.kind)} · ${esc(r.finish)} · ${r.w}×${r.h}</small>${r.note ? `<small class="ap-note">${esc(r.note)}</small>` : ''}
         <textarea class="ap-c" data-apnote="${esc(r.id)}" rows="2" placeholder="${r.status === 'rejected' ? 'Why not? (required)' : 'Comment (optional): what works, what to change'}">${esc(apNote[r.id] ?? r.note ?? '')}</textarea>
@@ -1311,6 +1311,10 @@
     document.addEventListener('keydown', key, true); document.body.appendChild(el); show(); el.focus();
     el.requestFullscreen?.().catch(() => {});
   }
+  function apDecisionsText() {  // every decision made in this browser that the published data does not carry yet, as plain text to paste
+    const rows = (HUB.review || []).map((r) => { const d = dec['img:' + r.id]; const st = apSet[r.id] || (d && d.s); const n = apNote[r.id] ?? (d && d.n); return st && st !== 'pending' || n ? `${r.id} (${r.title}): ${st || r.status}${n ? ' – ' + String(n).replace(/\n/g, ' ') : ''}` : null; }).filter(Boolean);
+    return rows.length ? 'Image Approvals decisions\n' + rows.join('\n') : '';
+  }
   async function apSave() {
     const R = HUB.repo, tokRaw = (() => { try { return localStorage.getItem('bromic-hub-gh') || sessionStorage.getItem('bromic-hub-gh'); } catch { return null; } })();
     const tok = tokRaw ? JSON.parse(tokRaw) : null, ids = [...new Set([...Object.keys(apSet), ...Object.keys(apNote)])];
@@ -1332,8 +1336,13 @@
       } catch (err) { toast(String(err.message || err) + ' Opening an issue instead.'); }
     }
     const body = `<!-- bromic-image-approval v1 -->\n` + list.map(([id, s, n]) => `${id}: ${s}${n ? ' — ' + n.replace(/\n/g, ' ') : ''}`).join('\n') + `\n\nApply to data/image-review.json.`;
-    window.open(`https://github.com/${R.owner}/${R.name}/issues/new?labels=edit&title=${encodeURIComponent('[Image approval] ' + list.length + ' decisions')}&body=${encodeURIComponent(body)}`, '_blank', 'noopener');
-    apSent(ids); toast('Kept here. Submit the GitHub issue that opened to save it for everyone.'); route.keepScroll = true; route();
+    let url = `https://github.com/${R.owner}/${R.name}/issues/new?labels=edit&title=${encodeURIComponent('[Image approval] ' + list.length + ' decisions')}&body=${encodeURIComponent(body)}`;
+    if (url.length > 6000) {  // GitHub refuses long links ("Whoops, something went wrong"): open a short form and put the full list on the clipboard
+      try { navigator.clipboard && navigator.clipboard.writeText(body); } catch {}
+      url = `https://github.com/${R.owner}/${R.name}/issues/new?labels=edit&title=${encodeURIComponent('[Image approval] ' + list.length + ' decisions')}&body=${encodeURIComponent('Paste the decisions (they are on your clipboard) below this line.\n\n')}`;
+    }
+    window.open(url, '_blank', 'noopener');
+    apSent(ids); try { navigator.clipboard && navigator.clipboard.writeText(apDecisionsText()); } catch {} toast('Kept here and copied. Submit the GitHub issue that opened, or paste the decisions to the content team.'); route.keepScroll = true; route();
   }
 
   // ---------- retail hub (data/retail/retail.json) ----------
@@ -1456,6 +1465,7 @@
     const apf = e.target.closest('[data-apf]'); if (apf) { apF = apf.dataset.apf; route.keepScroll = true; route(); return; }
     const aps = e.target.closest('[data-apset]'); if (aps) { const [id, st] = aps.dataset.apset.split('|'); const orig = (HUB.review || []).find((r) => r.id === id); if (apSet[id] === st || (!apSet[id] && orig && orig.status === st)) delete apSet[id]; else apSet[id] = st; if (orig && apSet[id] === orig.status) delete apSet[id]; apKeep(id); route.keepScroll = true; route(); return; }
     if (e.target.closest('[data-apsave]')) { apSave(); return; }
+    if (e.target.closest('[data-apcopy]')) { const t = apDecisionsText(); (navigator.clipboard ? navigator.clipboard.writeText(t) : Promise.reject()).then(() => toast('Copied. Paste it to the content team.'), () => { window.prompt('Copy these decisions:', t); }); return; }
     const lb = e.target.closest('[data-aplb]'); if (lb && !e.metaKey && !e.ctrlKey) { e.preventDefault(); apLightbox(lb.dataset.aplb); return; }
     if (e.target.closest('[data-rtprint]')) { document.body.classList.add('rt-print'); window.print(); setTimeout(() => document.body.classList.remove('rt-print'), 500); return; }
     const pt = e.target.closest('[data-pmtab]'); if (pt) { pmTab = pt.dataset.pmtab; route.keepScroll = true; route(); return; }
