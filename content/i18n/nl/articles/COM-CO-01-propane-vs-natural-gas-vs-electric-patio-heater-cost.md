@@ -79,6 +79,41 @@ sources:
     url: https://www.restaurant-furniture.com/resources/guides/restaurant-seating-capacity-guide
     supports: "Space per seat: full-service dining 12–15 ft², fine dining 18–20 ft²; 20 ft² a seat used so tables are not crammed"
     verified: false
+  - id: s9
+    publisher: Minnesota Department of Public Safety, State Fire Marshal
+    title: "LP gas inside buildings (fire code information sheet)"
+    year: 2026
+    url: https://dps.mn.gov/divisions/sfm/fire-code/fire-code-information-topic/lp-gas-inside-buildings
+    supports: "NFPA 58 quantity limits inside buildings: 2 lb in assembly occupancies; extra cylinders stored outside in secure cages; codes treat every cylinder as full"
+    verified: true
+  - id: s10
+    publisher: AmTrust Financial
+    title: "Safety Zone: Working With Propane Heaters (MKT5339)"
+    year: 2022
+    url: https://amtrustfinancial.com/getmedia/78aa4942-dd80-4551-8611-088d94620eb7/AFS_SZ_Working_with_Propane_Heaters_MKT5339.pdf
+    supports: "Never store propane tanks indoors; improper propane tank storage can lead to property damage or bodily harm for patrons or employees"
+    verified: true
+  - id: s11
+    publisher: BARPI, French Ministry of Ecological Transition (ARIA database)
+    title: "Explosion d'une bouteille de GPL dans l'incendie d'un restaurant (ARIA N° 42020)"
+    year: 2012
+    url: https://www.aria.developpement-durable.gouv.fr/accident/42020/
+    supports: "Le Lavandou, 6 April 2012: during a restaurant fire, the LPG cylinder feeding a terrace patio heater exploded; 4 firefighters injured, 2 seriously, and a municipal employee; restaurant destroyed, 2 neighbouring businesses damaged"
+    verified: true
+  - id: s12
+    publisher: CTIF, International Association of Fire and Rescue Services
+    title: "Six dead in a restaurant explosion in the Czech city of Most"
+    year: 2025
+    url: https://ctif.org/news/six-dead-restaurant-explosion-czech-city-most
+    supports: "Most, January 2025: a propane-butane cylinder exploded after a patio gas heater was probably knocked over; six dead, eight injured"
+    verified: true
+  - id: s13
+    publisher: Pritzker Hageman (summarising WDIV-TV and Fox 2 Detroit reports)
+    title: "Propane tank explosion at Rochester, Michigan restaurant injures 7"
+    year: 2024
+    url: https://www.pritzkerlaw.com/personal-injury/2024/propane-tank-explosion-at-rochester-michigan-restaurant-injures-7/
+    supports: "Rochester, Michigan, May 2024: a propane tank connected to a restaurant's outdoor heater overturned and ignited; seven injured, including three children"
+    verified: false
 ---
 
 Voor een terras met 40 zitplaatsen heeft aardgas de laagste brandstofrekening, volgt elektrisch vlak daarachter, en kost propaan meer dan die twee samen zodra het wisselen van flessen wordt meegeteld. Vrijstaande gasverwarmers worden zowel op zitplaatsen als op oppervlak gedimensioneerd, dus een propaanterras heeft meer verwarmers nodig dan een elektrisch terras, die elk de duurste brandstof per eenheid warmte verbruiken, en iemand uit uw team moet de flessen kopen, sjouwen, wisselen en opslaan. Op brandstof ligt aardgas voor overal waar al een gasleiding tot aan het terras loopt.
@@ -112,6 +147,21 @@ Propaan brengt naast de brandstof zelf kosten voor arbeid en opslag mee. Op druk
 - **Opslag:** in de VS bepaalt NFPA 58 hoe ver opgeslagen flessen van deuren en andere blootstellingen moeten staan, en veel steden stellen eigen grenzen of eisen een vergunning boven bepaalde hoeveelheden.[^s5] In Nederland stellen uw gemeente en de brandweer de eisen. [[VERIFY: Nederlandse regels voor de opslag van propaanflessen bij horecabedrijven — Bromic Benelux distributor]] Ruimte voor een opslagkooi is vloeroppervlak dat u niet meer verkoopt.
 - **Leveringsregels:** sommige brandweervoorschriften verbieden levering van vergunningsplichtige hoeveelheden aan een locatie zonder brandvergunning – New York City is een voorbeeld.
 - **Prijs:** ruilflessen zijn per liter meestal duidelijk duurder dan bulkpropaan. De tabel hierboven gebruikt een bulkgemiddelde voor huishoudens, en dat flatteert propaan.
+
+## Het risico dat met de flessen meekomt
+
+Elke propaanverwarmer zet een fles brandbaar gas onder druk tussen uw gasten, en elke reservefles heeft een plek nodig. Brandweervoorschriften en verzekeraars zijn het eens over waar die plek is: buiten het gebouw.
+
+- **Niet binnen.** In de VS mag een publieksgebouw zoals een restaurant volgens NFPA 58 binnen maar 2 lb (0,9 kg) lpg bevatten – een tiende van één standaardfles van 20 lb (9 kg). Reserveflessen staan buiten in een afgesloten kooi, uit de buurt van uitgangen, en lege flessen gelden als vol.[^s9]
+- **Verzekeraars zien een schaderisico.** Risicorichtlijnen voor restaurants van verzekeraar AmTrust zeggen propaanflessen nooit binnen of in een afgesloten ruimte op te slaan, en dat verkeerde opslag kan leiden tot schade aan eigendommen of letsel bij gasten of medewerkers.[^s10] Vraag uw verzekeraar voor het seizoen begint hoe die omgaat met flessen op locatie.
+
+**Als het misgaat:**
+
+- **Le Lavandou, Frankrijk, april 2012:** tijdens een brand in een restaurant explodeerde de lpg-fles van de terrasverwarmer. Vier brandweerlieden raakten gewond, twee ernstig, en een gemeentemedewerker. Het restaurant werd verwoest en de twee aangrenzende zaken raakten beschadigd.[^s11]
+- **Most, Tsjechië, januari 2025:** een propaan-butaanfles explodeerde nadat een terrasverwarmer op gas waarschijnlijk was omgestoten bij een restaurant. Zes mensen kwamen om en acht raakten gewond.[^s12]
+- **Rochester, Michigan, mei 2024:** een propaanfles aan de buitenverwarmer van een restaurant viel om en vatte vlam; zeven mensen raakten gewond, onder wie drie kinderen.[^s13]
+
+Elektrische infraroodverwarmers houden geen brandstof op locatie: geen flessen om op te slaan, te wisselen of te beveiligen.
 
 ## Vijf jaar op één terras
 
@@ -159,6 +209,10 @@ Wifi- en app-functies – zones, schema's en timers – vragen om compatibele Af
 
 ## FAQ
 
+### Mag ik reserveflessen propaan in mijn restaurant bewaren?
+
+Nee. In de VS staat NFPA 58 binnen een publieksgebouw zoals een restaurant maar 2 lb (0,9 kg) lpg toe, dus reserveflessen horen buiten in een afgesloten kooi, uit de buurt van uitgangen.[^s9] Verzekeraars geven hetzelfde advies.[^s10]
+
 ### Is propaan of elektrisch goedkoper voor terrasverwarmers van een restaurant?
 
 Elektrisch, met ruime marge. In het Amerikaanse voorbeeld voor 40 zitplaatsen kosten 7 elektrische verwarmers $4.432 per jaar aan stroom, terwijl de 10 vrijstaande propaanverwarmers die dezelfde zitplaatsen nodig hebben $10.216 aan brandstof kosten, plus $3.683 aan flessenwissels. Reken het opnieuw met uw eigen tarieven.
@@ -189,3 +243,8 @@ Zie hoe de cijfers uitvallen voor uw eigen terras – reken het vijfjarige koste
 [^s6]: Bromic Heating, Lookbook 2026.
 [^s7]: Bromic Heating, Planning Guide US v1.2, 2021.
 [^s8]: Restaurant Furniture, gids voor zitcapaciteit (NAFEM-ruimteplanningstabel).
+[^s9]: Minnesota Department of Public Safety, State Fire Marshal, LP gas inside buildings (NFPA 58, US).
+[^s10]: AmTrust Financial, Safety Zone: Working With Propane Heaters, 2022.
+[^s11]: BARPI (ARIA), N° 42020, Le Lavandou, 2012.
+[^s12]: CTIF, Six dead in a restaurant explosion in the Czech city of Most, 2025.
+[^s13]: Pritzker Hageman (WDIV-TV, Fox 2 Detroit), Rochester, Michigan, 2024.

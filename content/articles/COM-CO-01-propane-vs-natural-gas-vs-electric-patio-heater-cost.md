@@ -19,7 +19,7 @@ owner_review: Hospitality sales
 status: draft
 gated: false
 related: [COM-AW-01, COM-IN-01, COM-CO-KB1, COM-PP-01]
-updated: 2026-11-16
+updated: 2026-11-22
 sources:
   - id: s1
     publisher: U.S. Energy Information Administration
@@ -76,6 +76,41 @@ sources:
     url: https://www.restaurant-furniture.com/resources/guides/restaurant-seating-capacity-guide
     supports: "Space per seat: full-service dining 12–15 ft², fine dining 18–20 ft²; 20 ft² a seat used so tables are not crammed"
     verified: false
+  - id: s9
+    publisher: Minnesota Department of Public Safety, State Fire Marshal
+    title: "LP gas inside buildings (fire code information sheet)"
+    year: 2026
+    url: https://dps.mn.gov/divisions/sfm/fire-code/fire-code-information-topic/lp-gas-inside-buildings
+    supports: "NFPA 58 quantity limits inside buildings: 2 lb in assembly occupancies; extra cylinders stored outside in secure cages; codes treat every cylinder as full"
+    verified: true
+  - id: s10
+    publisher: AmTrust Financial
+    title: "Safety Zone: Working With Propane Heaters (MKT5339)"
+    year: 2022
+    url: https://amtrustfinancial.com/getmedia/78aa4942-dd80-4551-8611-088d94620eb7/AFS_SZ_Working_with_Propane_Heaters_MKT5339.pdf
+    supports: "Never store propane tanks indoors; improper propane tank storage can lead to property damage or bodily harm for patrons or employees"
+    verified: true
+  - id: s11
+    publisher: BARPI, French Ministry of Ecological Transition (ARIA database)
+    title: "Explosion d'une bouteille de GPL dans l'incendie d'un restaurant (ARIA N° 42020)"
+    year: 2012
+    url: https://www.aria.developpement-durable.gouv.fr/accident/42020/
+    supports: "Le Lavandou, 6 April 2012: during a restaurant fire, the LPG cylinder feeding a terrace patio heater exploded; 4 firefighters injured, 2 seriously, and a municipal employee; restaurant destroyed, 2 neighbouring businesses damaged"
+    verified: true
+  - id: s12
+    publisher: CTIF, International Association of Fire and Rescue Services
+    title: "Six dead in a restaurant explosion in the Czech city of Most"
+    year: 2025
+    url: https://ctif.org/news/six-dead-restaurant-explosion-czech-city-most
+    supports: "Most, January 2025: a propane-butane cylinder exploded after a patio gas heater was probably knocked over; six dead, eight injured"
+    verified: true
+  - id: s13
+    publisher: Pritzker Hageman (summarising WDIV-TV and Fox 2 Detroit reports)
+    title: "Propane tank explosion at Rochester, Michigan restaurant injures 7"
+    year: 2024
+    url: https://www.pritzkerlaw.com/personal-injury/2024/propane-tank-explosion-at-rochester-michigan-restaurant-injures-7/
+    supports: "Rochester, Michigan, May 2024: a propane tank connected to a restaurant's outdoor heater overturned and ignited; seven injured, including three children"
+    verified: false
 ---
 
 For a 40-seat patio, natural gas brings the lowest fuel bill, electric follows close behind, and propane costs more than both together once cylinder handling is counted. Freestanding gas heaters are sized by seats as well as area, so a propane patio needs more heaters than an electric one, each burning the most expensive fuel per unit of heat, and someone on your team has to buy, carry, swap and store the cylinders. Natural gas comes out ahead on fuel wherever a gas line already reaches the patio.
@@ -107,6 +142,21 @@ Propane carries labour and storage costs alongside the fuel itself. On busy nigh
 - **Storage:** NFPA 58 sets how far stored cylinders must sit from doorways and other exposures, and many cities add their own limits or require a permit above set quantities.[^s5] Cage space is floor space you are no longer selling.
 - **Delivery rules:** some fire codes bar delivery of permit-level quantities to a site without a fire permit – New York City is one.
 - **Price:** exchange cylinders are usually priced well above bulk propane per gallon. The table above uses a bulk residential average, which flatters propane.
+
+## The Risk That Comes With The Cylinders
+
+Every propane heater keeps a pressurised cylinder of flammable gas among your guests, and every spare needs somewhere to wait. Fire codes and insurers agree on where that is: outside the building.
+
+- **Not indoors.** Under NFPA 58, an assembly building such as a restaurant may hold only 2 lb of LP gas inside – a tenth of one standard 20 lb cylinder. Spares go outside in a secure cage, away from exits, and codes treat empty cylinders as full.[^s9]
+- **Insurers count it as a loss risk.** Restaurant risk guidance from insurer AmTrust says never to store propane tanks indoors or in an enclosed area, and that improper storage can lead to property damage or bodily harm for patrons or employees.[^s10] Ask your insurer how it treats cylinders kept on site before the season starts.
+
+**When it goes wrong:**
+
+- **Le Lavandou, France, April 2012:** during a fire at a restaurant, the LPG cylinder feeding its terrace patio heater exploded, injuring four firefighters – two seriously – and a municipal worker. The restaurant was destroyed and the two businesses beside it were damaged.[^s11]
+- **Most, Czech Republic, January 2025:** a propane-butane cylinder exploded after a patio gas heater was probably knocked over at a restaurant. Six people died and eight were injured.[^s12]
+- **Rochester, Michigan, May 2024:** a propane tank connected to a restaurant's outdoor heater overturned and ignited, injuring seven people, three of them children.[^s13]
+
+Electric infrared heaters keep no fuel on site: no cylinders to store, swap or secure.
 
 ## Five Years On One Patio
 
@@ -153,6 +203,10 @@ Wi-Fi and app features – zones, schedules and timers – require compatible Af
 - Zones and schedules through compatible Affinity controls lower the bill for every fuel.
 
 ## FAQ
+
+### Can I store spare propane cylinders inside my restaurant?
+
+No. NFPA 58 allows only 2 lb of LP gas inside an assembly building such as a restaurant, so spare cylinders belong outside in a secure cage, away from exits.[^s9] Insurers give the same advice.[^s10]
 
 ### Is propane or electric cheaper for restaurant patio heaters?
 

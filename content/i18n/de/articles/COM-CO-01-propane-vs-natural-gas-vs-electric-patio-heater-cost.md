@@ -79,6 +79,41 @@ sources:
     url: https://www.restaurant-furniture.com/resources/guides/restaurant-seating-capacity-guide
     supports: "Space per seat: full-service dining 12–15 ft², fine dining 18–20 ft²; 20 ft² a seat used so tables are not crammed"
     verified: false
+  - id: s9
+    publisher: Minnesota Department of Public Safety, State Fire Marshal
+    title: "LP gas inside buildings (fire code information sheet)"
+    year: 2026
+    url: https://dps.mn.gov/divisions/sfm/fire-code/fire-code-information-topic/lp-gas-inside-buildings
+    supports: "NFPA 58 quantity limits inside buildings: 2 lb in assembly occupancies; extra cylinders stored outside in secure cages; codes treat every cylinder as full"
+    verified: true
+  - id: s10
+    publisher: AmTrust Financial
+    title: "Safety Zone: Working With Propane Heaters (MKT5339)"
+    year: 2022
+    url: https://amtrustfinancial.com/getmedia/78aa4942-dd80-4551-8611-088d94620eb7/AFS_SZ_Working_with_Propane_Heaters_MKT5339.pdf
+    supports: "Never store propane tanks indoors; improper propane tank storage can lead to property damage or bodily harm for patrons or employees"
+    verified: true
+  - id: s11
+    publisher: BARPI, French Ministry of Ecological Transition (ARIA database)
+    title: "Explosion d'une bouteille de GPL dans l'incendie d'un restaurant (ARIA N° 42020)"
+    year: 2012
+    url: https://www.aria.developpement-durable.gouv.fr/accident/42020/
+    supports: "Le Lavandou, 6 April 2012: during a restaurant fire, the LPG cylinder feeding a terrace patio heater exploded; 4 firefighters injured, 2 seriously, and a municipal employee; restaurant destroyed, 2 neighbouring businesses damaged"
+    verified: true
+  - id: s12
+    publisher: CTIF, International Association of Fire and Rescue Services
+    title: "Six dead in a restaurant explosion in the Czech city of Most"
+    year: 2025
+    url: https://ctif.org/news/six-dead-restaurant-explosion-czech-city-most
+    supports: "Most, January 2025: a propane-butane cylinder exploded after a patio gas heater was probably knocked over; six dead, eight injured"
+    verified: true
+  - id: s13
+    publisher: Pritzker Hageman (summarising WDIV-TV and Fox 2 Detroit reports)
+    title: "Propane tank explosion at Rochester, Michigan restaurant injures 7"
+    year: 2024
+    url: https://www.pritzkerlaw.com/personal-injury/2024/propane-tank-explosion-at-rochester-michigan-restaurant-injures-7/
+    supports: "Rochester, Michigan, May 2024: a propane tank connected to a restaurant's outdoor heater overturned and ignited; seven injured, including three children"
+    verified: false
 ---
 
 Eine Terrasse mit 40 Plätzen braucht elektrisch 7 Heizstrahler und rund 31.500 kWh Strom im Jahr; mit freistehenden Gas-Heizstrahlern sind es 10 Geräte und rund 111.400 kWh Erdgas oder rund 15.700 Liter Flüssiggas. Freistehende Gas-Heizstrahler werden nach Plätzen und nach Fläche bemessen, deshalb braucht eine Flüssiggas-Terrasse mehr Heizstrahler als eine elektrische, von denen jeder den teuersten Brennstoff je Wärmeeinheit verbrennt, und jemand aus Ihrem Team muss die Flaschen kaufen, tragen, wechseln und lagern. Welche Rechnung am niedrigsten ausfällt, entscheiden Ihre Preise je kWh und je Liter. Im US-Beispiel unten hat Erdgas die niedrigste Energierechnung, Strom folgt knapp dahinter, und Flüssiggas kostet mit den Flaschenwechseln mehr als beide zusammen. Beim Brennstoff liegt Erdgas überall dort vorn, wo bereits eine Gasleitung bis zur Terrasse reicht.
@@ -110,6 +145,21 @@ Flüssiggas bringt neben dem Brennstoff selbst Arbeits- und Lagerkosten mit sich
 - **Lagerung:** In den USA legt NFPA 58 fest, wie weit gelagerte Flaschen von Türen und anderen gefährdeten Bereichen entfernt sein müssen, und viele Städte setzen eigene Grenzen oder verlangen ab bestimmten Mengen eine Genehmigung.[^s5] In Deutschland gelten die TRF und die Auflagen Ihrer Stadt. [[VERIFY: Regeln für die Lagerung von Flüssiggasflaschen in der Gastronomie in Deutschland — Partner Deutschland]] Platz für einen Flaschenschrank ist Fläche, die Sie nicht mehr verkaufen.
 - **Lieferregeln:** Manche Brandschutzvorschriften untersagen die Lieferung genehmigungspflichtiger Mengen an einen Standort ohne Brandschutzgenehmigung – New York City ist ein Beispiel.
 - **Preis:** Tauschflaschen kosten je Liter meist deutlich mehr als lose geliefertes Flüssiggas. Die Tabelle oben verwendet einen Durchschnitt für lose Lieferung an Privathaushalte, der Flüssiggas günstiger aussehen lässt.
+
+## Das Risiko, das mit den Flaschen kommt
+
+Jeder Flüssiggas-Heizstrahler stellt eine Druckflasche mit brennbarem Gas zwischen Ihre Gäste, und jede Reserveflasche braucht einen Platz. Brandschutzvorschriften und Versicherer sind sich einig, wo dieser Platz ist: außerhalb des Gebäudes.
+
+- **Nicht im Gebäude.** In den USA darf ein Versammlungsgebäude wie ein Restaurant nach NFPA 58 drinnen nur 2 lb (0,9 kg) Flüssiggas enthalten – ein Zehntel einer üblichen 20-lb-Flasche (9 kg). Reserveflaschen stehen draußen in einem gesicherten Käfig, fern von Ausgängen, und leere Flaschen gelten als voll.[^s9]
+- **Versicherer sehen ein Schadenrisiko.** Die Risikohinweise des Versicherers AmTrust für Restaurants sagen, Propanflaschen nie im Gebäude oder in geschlossenen Räumen zu lagern, und dass falsche Lagerung zu Sachschäden oder Verletzungen bei Gästen und Mitarbeitenden führen kann.[^s10] Fragen Sie Ihren Versicherer vor Saisonbeginn, wie er Flaschen vor Ort bewertet.
+
+**Wenn es schiefgeht:**
+
+- **Le Lavandou, Frankreich, April 2012:** Bei einem Brand in einem Restaurant explodierte die Flüssiggasflasche des Terrassenheizstrahlers. Vier Feuerwehrleute wurden verletzt, zwei schwer, dazu ein städtischer Mitarbeiter. Das Restaurant wurde zerstört, die beiden Nachbarbetriebe beschädigt.[^s11]
+- **Most, Tschechien, Januar 2025:** Eine Propan-Butan-Flasche explodierte, nachdem ein Gas-Terrassenheizstrahler an einem Restaurant vermutlich umgestoßen worden war. Sechs Menschen starben, acht wurden verletzt.[^s12]
+- **Rochester, Michigan, Mai 2024:** Eine Propanflasche am Außenheizstrahler eines Restaurants kippte um und entzündete sich; sieben Menschen wurden verletzt, darunter drei Kinder.[^s13]
+
+Elektrische Infrarot-Heizstrahler lagern keinen Brennstoff vor Ort: keine Flaschen, die gelagert, gewechselt oder gesichert werden müssen.
 
 ## Fünf Jahre auf einer Terrasse
 
@@ -159,6 +209,10 @@ WLAN- und App-Funktionen – Zonen, Zeitpläne und Timer – setzen kompatible A
 
 ## FAQ
 
+### Darf ich Reserve-Propanflaschen im Restaurant lagern?
+
+Nein. In den USA erlaubt NFPA 58 in einem Versammlungsgebäude wie einem Restaurant nur 2 lb (0,9 kg) Flüssiggas, Reserveflaschen gehören also nach draußen in einen gesicherten Käfig, fern von Ausgängen.[^s9] Versicherer raten dasselbe.[^s10]
+
 ### Ist Flüssiggas oder Strom für Heizstrahler auf Restaurantterrassen günstiger?
 
 Strom, mit deutlichem Abstand. Für 40 Plätze verbrauchen 7 Elektro-Heizstrahler 31.500 kWh im Jahr, zu US-Preisen 4.432 $; die 10 freistehenden Flüssiggas-Heizstrahler, die dieselben Plätze brauchen, verbrauchen rund 15.720 Liter, zu US-Preisen 10.216 $, plus 3.683 $ für Flaschenwechsel. Rechnen Sie mit Ihren eigenen Tarifen nach.
@@ -189,3 +243,8 @@ Sehen Sie, wie die Zahlen für Ihre eigene Terrasse ausfallen – rechnen Sie da
 [^s6]: Bromic Heating, Lookbook 2026.
 [^s7]: Bromic Heating, Planning Guide US v1.2, 2021.
 [^s8]: Restaurant Furniture, Leitfaden zur Sitzplatzkapazität (NAFEM-Flächenplanungstabelle).
+[^s9]: Minnesota Department of Public Safety, State Fire Marshal, LP gas inside buildings (NFPA 58, US).
+[^s10]: AmTrust Financial, Safety Zone: Working With Propane Heaters, 2022.
+[^s11]: BARPI (ARIA), N° 42020, Le Lavandou, 2012.
+[^s12]: CTIF, Six dead in a restaurant explosion in the Czech city of Most, 2025.
+[^s13]: Pritzker Hageman (WDIV-TV, Fox 2 Detroit), Rochester, Michigan, 2024.
