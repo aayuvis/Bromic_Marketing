@@ -109,11 +109,9 @@
   "Bromic, “Eclipse Pendant and Platinum Electric at Stella’s Wine Bar”, case study, 2021 – bromic.com/case-study/eclipse-pendant-and-platinum-electric-at-stellas-wine-bar (also on bromic.ca)."
  ],
  "layout": {
-  "pages": 2,
-  "zones": false,
-  "table": false,
-  "quote": false,
-  "photos": 0,
-  "noProductPhotos": true
+  "pages": 3,
+  "quote": true,
+  "quoteOn": 2,
+  "wideH": 3.2
  }
 }

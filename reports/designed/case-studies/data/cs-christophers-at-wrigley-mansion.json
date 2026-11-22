@@ -107,9 +107,8 @@
   "Bromic, “Eclipse Freestanding for Christopher’s at Wrigley Mansion”, case study, 2022 – bromic.com/case-study/christophers-at-wrigley-mansion (also on bromic.ca)."
  ],
  "layout": {
-  "pages": 2,
-  "zones": true,
-  "table": true,
-  "quote": false
+  "pages": 3,
+  "quote": true,
+  "quoteOn": 2
  }
 }

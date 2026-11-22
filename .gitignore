@@ -12,3 +12,7 @@ data/_eia/
 
 # design-theme sample PDFs embed full-size photos; rebuild with each theme build script
 reports/themes/*/sample.pdf
+
+# case-study Project Files: page PNGs are previews, rebuilt by the engine; PDFs, data and cover thumbs are committed
+reports/designed/case-studies/*/pages/
+reports/designed/case-studies/**/img/

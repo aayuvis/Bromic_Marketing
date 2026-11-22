@@ -118,9 +118,8 @@
   "Bromic, “From Gut Renovation to Outdoor Bliss: How Bromic's Tungsten Heaters Redefined Comfort for This New Jersey Home”, case study, 2024 – bromic.com/case-study/from-gut-renovation-to-outdoor-bliss-how-bromics-tungsten-heaters-redefined-comfort-for-this-new-jersey-home (also on bromic.com.au and bromic.ca)."
  ],
  "layout": {
-  "pages": 2,
-  "zones": false,
-  "table": false,
-  "quote": false
+  "pages": 3,
+  "quote": true,
+  "quoteOn": 2
  }
 }

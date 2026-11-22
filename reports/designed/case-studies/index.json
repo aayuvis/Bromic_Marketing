@@ -3,12 +3,12 @@
  "engine": "reports/designed/case-studies/build.js",
  "theme": "reports/themes/project-file",
  "counts": {
-  "built": 57,
-  "bromic": 32,
+  "built": 58,
+  "bromic": 33,
   "web_draft": 25,
   "skipped": 5
  },
- "total_bytes": 27705048,
+ "total_bytes": 30005487,
  "built": [
   {
    "id": "cs-eclipse-electric-and-tungsten-electric-at-pink-hill-hotel",
@@ -34,10 +34,11 @@
    "cover": "cs-albany-zero-emissions-multifamily-building/pages/p1.png",
    "pages": [
     "cs-albany-zero-emissions-multifamily-building/pages/p1.png",
-    "cs-albany-zero-emissions-multifamily-building/pages/p2.png"
+    "cs-albany-zero-emissions-multifamily-building/pages/p2.png",
+    "cs-albany-zero-emissions-multifamily-building/pages/p3.png"
    ],
-   "page_count": 2,
-   "bytes": 790582
+   "page_count": 3,
+   "bytes": 790302
   },
   {
    "id": "cs-christophers-at-wrigley-mansion",
@@ -48,10 +49,11 @@
    "cover": "cs-christophers-at-wrigley-mansion/pages/p1.png",
    "pages": [
     "cs-christophers-at-wrigley-mansion/pages/p1.png",
-    "cs-christophers-at-wrigley-mansion/pages/p2.png"
+    "cs-christophers-at-wrigley-mansion/pages/p2.png",
+    "cs-christophers-at-wrigley-mansion/pages/p3.png"
    ],
-   "page_count": 2,
-   "bytes": 800485
+   "page_count": 3,
+   "bytes": 801918
   },
   {
    "id": "cs-del-friscos-double-eagle-steakhouse",
@@ -64,7 +66,7 @@
     "cs-del-friscos-double-eagle-steakhouse/pages/p1.png"
    ],
    "page_count": 1,
-   "bytes": 126618
+   "bytes": 126612
   },
   {
    "id": "cs-desert-mirage-blurring-the-lines-between-home-and-nature",
@@ -75,10 +77,26 @@
    "cover": "cs-desert-mirage-blurring-the-lines-between-home-and-nature/pages/p1.png",
    "pages": [
     "cs-desert-mirage-blurring-the-lines-between-home-and-nature/pages/p1.png",
-    "cs-desert-mirage-blurring-the-lines-between-home-and-nature/pages/p2.png"
+    "cs-desert-mirage-blurring-the-lines-between-home-and-nature/pages/p2.png",
+    "cs-desert-mirage-blurring-the-lines-between-home-and-nature/pages/p3.png"
    ],
-   "page_count": 2,
-   "bytes": 925452
+   "page_count": 3,
+   "bytes": 923000
+  },
+  {
+   "id": "cs-eclipse-freestanding-and-tungsten-electric-at-hyatt-regency-",
+   "item_id": null,
+   "title": "Hyatt Regency Dehradun",
+   "kind": "bromic",
+   "pdf": "cs-eclipse-freestanding-and-tungsten-electric-at-hyatt-regency-/Bromic-Project-File-Hyatt-Regency-Dehradun.pdf",
+   "cover": "cs-eclipse-freestanding-and-tungsten-electric-at-hyatt-regency-/pages/p1.png",
+   "pages": [
+    "cs-eclipse-freestanding-and-tungsten-electric-at-hyatt-regency-/pages/p1.png",
+    "cs-eclipse-freestanding-and-tungsten-electric-at-hyatt-regency-/pages/p2.png",
+    "cs-eclipse-freestanding-and-tungsten-electric-at-hyatt-regency-/pages/p3.png"
+   ],
+   "page_count": 3,
+   "bytes": 932524
   },
   {
    "id": "cs-eclipse-pendant-and-platinum-electric-at-stellas-wine-bar",
@@ -89,10 +107,11 @@
    "cover": "cs-eclipse-pendant-and-platinum-electric-at-stellas-wine-bar/pages/p1.png",
    "pages": [
     "cs-eclipse-pendant-and-platinum-electric-at-stellas-wine-bar/pages/p1.png",
-    "cs-eclipse-pendant-and-platinum-electric-at-stellas-wine-bar/pages/p2.png"
+    "cs-eclipse-pendant-and-platinum-electric-at-stellas-wine-bar/pages/p2.png",
+    "cs-eclipse-pendant-and-platinum-electric-at-stellas-wine-bar/pages/p3.png"
    ],
-   "page_count": 2,
-   "bytes": 399828
+   "page_count": 3,
+   "bytes": 1212673
   },
   {
    "id": "cs-embracing-earthy-elegance-at-oran-park-hotel",
@@ -133,10 +152,11 @@
    "cover": "cs-enhancing-rooftop-bar-designs-with-cutting-edge-outdoor-heat/pages/p1.png",
    "pages": [
     "cs-enhancing-rooftop-bar-designs-with-cutting-edge-outdoor-heat/pages/p1.png",
-    "cs-enhancing-rooftop-bar-designs-with-cutting-edge-outdoor-heat/pages/p2.png"
+    "cs-enhancing-rooftop-bar-designs-with-cutting-edge-outdoor-heat/pages/p2.png",
+    "cs-enhancing-rooftop-bar-designs-with-cutting-edge-outdoor-heat/pages/p3.png"
    ],
-   "page_count": 2,
-   "bytes": 565631
+   "page_count": 3,
+   "bytes": 1120648
   },
   {
    "id": "cs-enhancing-work-life-balance-with-year-round-outdoor-comfort-",
@@ -149,7 +169,7 @@
     "cs-enhancing-work-life-balance-with-year-round-outdoor-comfort-/pages/p1.png"
    ],
    "page_count": 1,
-   "bytes": 360752
+   "bytes": 362110
   },
   {
    "id": "cs-from-gut-renovation-to-outdoor-bliss-how-bromics-tungsten-he",

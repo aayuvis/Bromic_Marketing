@@ -109,12 +109,10 @@
   "Bromic, “Enhancing Rooftop Bar Designs with Cutting-Edge Outdoor Heating Solutions”, case study, 2023 – bromic.com/case-study/enhancing-rooftop-bar-designs-with-cutting-edge-outdoor-heating-solutions (also on bromic.com.au and bromic.ca)."
  ],
  "layout": {
-  "pages": 2,
-  "zones": false,
-  "table": false,
+  "pages": 3,
   "quote": true,
-  "photos": 1,
-  "pairH": 1.8,
-  "noProductPhotos": true
+  "quoteOn": 2,
+  "wideH": 2.8,
+  "prodH": 1.3
  }
 }

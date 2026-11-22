@@ -107,9 +107,8 @@
   "Bromic, “Desert Mirage: Blurring the Lines Between Home and Nature”, case study – bromic.com/case-study/desert-mirage-blurring-the-lines-between-home-and-nature (also on bromic.com.au and bromic.ca)."
  ],
  "layout": {
-  "pages": 2,
-  "zones": true,
-  "table": true,
-  "quote": false
+  "pages": 3,
+  "quote": true,
+  "quoteOn": 2
  }
 }

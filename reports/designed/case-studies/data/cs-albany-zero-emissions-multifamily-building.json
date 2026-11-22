@@ -106,9 +106,8 @@
   "Bromic, “Creating a Year-Round Rooftop Retreat in Albany's First Zero-Emissions Multifamily Building”, case study, 2024 – bromic.com/case-study/albany-zero-emissions-multifamily-building (also on bromic.ca)."
  ],
  "layout": {
-  "pages": 2,
-  "zones": true,
-  "table": true,
-  "quote": false
+  "pages": 3,
+  "quote": true,
+  "quoteOn": 2
  }
 }

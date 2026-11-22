@@ -525,8 +525,10 @@ async function buildOne(browser, id, log) {
   await page.close();
   const size = fs.statSync(pdf).size;
   if (size > 3 * 1024 * 1024) throw new Error(`${id}: PDF ${size} bytes > 3 MB`);
+  const thumb = path.join(outDir, 'cover-thumb.webp');
+  execFileSync('python3', ['-I', '-c', "import sys\nfrom PIL import Image\nim=Image.open(sys.argv[1]).convert('RGB'); im.thumbnail((640,830)); im.save(sys.argv[2],'WEBP',quality=82)", path.join(HERE, pngs[0]), thumb]);
   log(`ok ${id}: ${pages.length} p, ${(size / 1024).toFixed(0)} KB, layout ${JSON.stringify(chosen)}`);
-  return { id, item_id: P.item_id || null, title: P.name, kind: P.kind, pdf: path.relative(HERE, pdf), cover: pngs[0], pages: pngs, page_count: pngs.length, bytes: size };
+  return { id, item_id: id, title: P.name, kind: P.kind, pdf: path.relative(HERE, pdf), cover: pngs[0], thumb: path.relative(ROOT, thumb), pages: pngs, page_count: pngs.length, bytes: size };
 }
 
 async function contactSheet(index) {
@@ -538,13 +540,20 @@ async function contactSheet(index) {
 (async () => {
   const args = process.argv.slice(2).filter((a) => !a.startsWith('--'));
   const ids = args.length ? args : Object.keys(COPY).filter((k) => !COPY[k].skip);
-  const browser = await chromium.launch();
+  let browser = await chromium.launch();
+  let n = 0;
   const idxFile = path.join(HERE, 'index.json');
   const prev = fs.existsSync(idxFile) ? JSON.parse(fs.readFileSync(idxFile, 'utf8')) : { built: [], skipped: [] };
   const byId = Object.fromEntries((prev.built || []).map((r) => [r.id, r]));
   const failed = [];
   for (const id of ids) {
-    try { byId[id] = await buildOne(browser, id, console.log); } catch (e) { failed.push(id); console.error('FAIL', e.message); }
+    for (let attempt = 0; attempt < 2; attempt++) {
+      if (!browser.isConnected() || ++n % 8 === 0) { try { await browser.close(); } catch {} browser = await chromium.launch(); }
+      try { byId[id] = await buildOne(browser, id, console.log); break; } catch (e) {
+        if (attempt === 0 && /closed|crash|Target/i.test(e.message)) { try { await browser.close(); } catch {} browser = await chromium.launch(); continue; }
+        failed.push(id); console.error('FAIL', e.message); break;
+      }
+    }
   }
   await browser.close();
   const order = Object.keys(COPY);

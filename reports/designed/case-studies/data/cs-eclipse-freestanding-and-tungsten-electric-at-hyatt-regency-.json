@@ -1,0 +1,156 @@
+{
+ "id": "cs-eclipse-freestanding-and-tungsten-electric-at-hyatt-regency-",
+ "kind": "bromic",
+ "draft": false,
+ "name": "Hyatt Regency Dehradun",
+ "sector": "Hospitality",
+ "country": "India",
+ "line": "Heat That Holds Against The Wind",
+ "pages": 3,
+ "dateText": "May 2023",
+ "lede": "In the foothills of the Himalayas, a new luxury hotel wanted its terraces and rooftop bar warm despite strong winds. Bromic’s heat plan put Tungsten Electric where the wind blows hardest and freestanding Eclipse heaters where there is nothing to mount to.",
+ "data": [
+  [
+   "Location",
+   "Himalayan foothills, Uttarakhand, India"
+  ],
+  [
+   "Setting",
+   "Five-star hotel – rooftop bar, restaurants, lounges"
+  ],
+  [
+   "Heaters",
+   "Tungsten Smart-Heat® Electric · Eclipse Smart-Heat® Freestanding"
+  ],
+  [
+   "Controls",
+   "Eclipse Dimmer Controller; Tungsten to confirm"
+  ],
+  [
+   "Date",
+   "May 2023"
+  ]
+ ],
+ "hero": {
+  "img": "w-23-03-12-bromic-heating-hyatt-dehradun-14",
+  "pos": "50% 55%",
+  "caption": "Tungsten Smart-Heat® Electric beside a dining table, the mountains beyond. Bromic-published photograph from the case study."
+ },
+ "photos": [
+  {
+   "img": "w-23-03-12-bromic-heating-hyatt-dehradun-52",
+   "pos": "50% 45%",
+   "caption": "Tungsten Electric along the glass facade of a lounge terrace. Bromic-published photograph from the case study."
+  },
+  {
+   "img": "w-23-03-12-bromic-heating-hyatt-dehradun-61",
+   "pos": "50% 50%",
+   "caption": "Eclipse Freestanding over a rooftop lounge at night. Bromic-published photograph from the case study."
+  }
+ ],
+ "beats": [
+  [
+   "The Space",
+   "Opened in March 2022 on 4.25 acres, the hotel has more than 250 rooms over seven floors, with restaurants, lounges and Beyul, a rooftop bar, all designed around the view."
+  ],
+  [
+   "The Challenge",
+   "Strong winds were common at the rooftop bar and the all-day dining restaurant. The heaters had to hold up to them and blend into each space without changing its look."
+  ],
+  [
+   "The Solution",
+   "Working with architect Love Chaudhary of AND Studio through Bromic’s complimentary design service, the team chose Tungsten Electric for precise directional heat in the restaurants and on the rooftop, and Eclipse Freestanding for heat and light in lounges with no ceiling or wall to mount to."
+  ]
+ ],
+ "zones": {
+  "title": "A Heater For Every Space",
+  "shape": "plan",
+  "items": [
+   {
+    "l": "A",
+    "name": "Beyul rooftop bar",
+    "text": "Tungsten Electric and Eclipse Freestanding, set against strong winds.",
+    "w": 1.2
+   },
+   {
+    "l": "B",
+    "name": "Pan Asian restaurant",
+    "text": "Tungsten Electric.",
+    "w": 1
+   },
+   {
+    "l": "C",
+    "name": "All-day dining",
+    "text": "Tungsten Electric, where the wind is a common visitor.",
+    "w": 1
+   },
+   {
+    "l": "D",
+    "name": "Lounges",
+    "text": "Eclipse Freestanding – heat and light where there are no ceilings or walls for mounting.",
+    "w": 1.1
+   }
+  ]
+ },
+ "quote": {
+  "text": "The heat plan helped us optimize the placement of the heaters for maximum efficiency and comfort.",
+  "who": "Love Chaudhary",
+  "role": "Principal Architect, AND Studio"
+ },
+ "team": [
+  "Architect: AND Studio, New Delhi"
+ ],
+ "products": [
+  {
+   "coll": "Tungsten",
+   "name": "Tungsten Smart-Heat® Electric",
+   "img": "w-23-03-12-bromic-heating-hyatt-dehradun-85",
+   "p": "tungsten-electric",
+   "pos": "50% 35%",
+   "where": "Rooftop bar, Pan Asian restaurant, all-day dining",
+   "mount": "To confirm",
+   "controls": "To confirm – the case study names only the Eclipse Dimmer Controller"
+  },
+  {
+   "coll": "Eclipse",
+   "name": "Eclipse Smart-Heat® Freestanding",
+   "img": "w-23-03-12-bromic-heating-hyatt-dehradun-61",
+   "p": "eclipse-freestanding",
+   "pos": "50% 40%",
+   "where": "Lounges and rooftop bar",
+   "mount": "Freestanding",
+   "controls": "Eclipse Dimmer Controller"
+  }
+ ],
+ "notes": [
+  "The case study gives no heater quantities; the plan shows heated spaces only. The quotation is as published on the case study; check the wording against the live page before print."
+ ],
+ "slug": "Hyatt-Regency-Dehradun",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-eclipse-freestanding-and-tungsten-electric-at-hyatt-regency-",
+  "url": "https://www.bromic.com/case-study/eclipse-freestanding-and-tungsten-electric-at-hyatt-regency-dehradun/",
+  "also_at": [
+   "https://www.bromic.com.au/case-study/eclipse-freestanding-and-tungsten-electric-at-hyatt-regency-dehradun/",
+   "https://www.bromic.ca/case-study/eclipse-freestanding-and-tungsten-electric-at-hyatt-regency-dehradun/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Eclipse Freestanding and Tungsten Electric at Hyatt Regency Dehradun”, case study, May 2023 – bromic.com/case-study/eclipse-freestanding-and-tungsten-electric-at-hyatt-regency-dehradun (also on bromic.com.au and bromic.ca)."
+ ],
+ "layout": {
+  "pages": 3,
+  "quote": true,
+  "quoteOn": 2,
+  "planH": 200,
+  "stripH": 1.2,
+  "wideH": 2.6,
+  "prodH": 1.15,
+  "heroH": 4.3
+ }
+}
