@@ -514,7 +514,7 @@ const onePager = (aud, title, intro, points, cta, foot, img, icon) => {
   const rows = [['Benefit field', 'Tungsten Series II', 'Infratech'].map((t) => ({ text: t, options: { bold: true, color: 'FFFFFF', fill: { color: '231F20' }, fontSize: 10 } }))];
   for (const b of lead) rows.push([{ text: b.name, options: { bold: true, color: INK } }, { text: SHORT[b.id][0], options: { color: INK } }, { text: SHORT[b.id][4], options: { color: '4A4546' } }]);
   s.addTable(rows, { x: M, y: 1.6, w: 12.13, colW: [2.2, 4.9, 5.03], fontFace: 'Arial', fontSize: 11, rowH: [0.35, 0.62, 0.62, 0.62, 0.62, 0.62, 0.62, 0.62], valign: 'middle', border: { type: 'solid', pt: 0.5, color: 'E3E3E1' }, margin: [0.05, 0.08, 0.05, 0.08] });
-  T(s, [{ text: 'Parity  ', options: { bold: true, color: INK } }, { text: 'Heat output (both reach 6 kW) and warranty (both 3 years).  ' }, { text: 'Use  ', options: { bold: true, color: INK } }, { text: 'factual and sourced only; never disparage. Every line needs Specification and compliance sign-off before it leaves Bromic.' }], { x: M, y: 6.45, w: 12.13, h: 0.4, fontSize: 9.5, color: '4A4546' });
+  T(s, [{ text: 'Parity  ', options: { bold: true, color: INK } }, { text: 'Heat output (both reach 6 kW). Warranty is a Bromic advantage: 7 years on the elements against 3 (4 through Infratech programs).  ' }, { text: 'Use  ', options: { bold: true, color: INK } }, { text: 'factual and sourced only; never disparage. Every line needs Specification and compliance sign-off before it leaves Bromic.' }], { x: M, y: 6.45, w: 12.13, h: 0.4, fontSize: 9.5, color: '4A4546' });
 }
 onePager('Builders and installers', 'Faster On Site, Easier To Sell',
   'Tungsten Series II goes up faster and gives your buyers the evening outside.',

@@ -860,33 +860,33 @@
    },
    {
     "benefit": "warranty",
-    "edge": "parity",
+    "edge": "bromic",
     "infratech": "3 years; Elite Retailers and the Installer Program can add a fourth year; not transferable; the 2024 terms cover replacement parts only and exclude labour; competitor controls may void cover; elements rated to 5,000 hours.",
     "bromic": "Tungsten Series II: 3 years on the heater and 7 years on the elements across Select, Coastal and Classic (owner, 22 Nov 2026), with an additional year for partners on qualifying products.",
     "users": {
      "RES": {
       "w": 2,
-      "claim": "Three years of cover on your Tungsten Series II."
+      "claim": "Three years on your Tungsten Series II, and seven on its elements."
      },
      "BLD": {
       "w": 3,
-      "claim": "Three years on the heater, and a partner year on qualifying products."
+      "claim": "Three years on the heater, seven on the elements, and a partner year on qualifying products."
      },
      "INS": {
       "w": 2,
-      "claim": "Three years on the heater, plus a partner year; one technical line, 1-800-301-1293."
+      "claim": "Three years on the heater, seven on the elements, plus a partner year; one technical line, 1-800-301-1293."
      },
      "COM": {
       "w": 2,
-      "claim": "Three years of cover on every heater, with support from one partner."
+      "claim": "Three years on every heater and seven on its elements, with support from one partner."
      },
      "ARC": {
       "w": 1,
-      "claim": "Specify a heater with three years of manufacturer cover."
+      "claim": "Specify a heater with three years of manufacturer cover and seven on the elements."
      },
      "DES": {
       "w": 1,
-      "claim": "Three years of cover behind every heater you specify."
+      "claim": "Three years on the heater and seven on the elements, behind every heater you specify."
      }
     }
    },
@@ -2541,7 +2541,7 @@
     }
    ],
    "cta": null,
-   "footnote": "Parity: heat output (both reach 6 kW) and warranty (both 3 years). Use factual and sourced lines only; never disparage. Every line needs Specification and compliance sign-off before it leaves Bromic.",
+   "footnote": "Parity: heat output (both reach 6 kW). Warranty is a Bromic advantage: 7 years on the elements against Infratech's 3-year limited warranty (a fourth year through its Elite Retailer and Installer programs). Use factual and sourced lines only; never disparage. Every line needs Specification and compliance sign-off before it leaves Bromic.",
    "image": null,
    "needs_approval": "Specification and compliance"
   },
