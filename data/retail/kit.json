@@ -99,6 +99,69 @@
    "pdf": "reports/retail/controls-mounting/Bromic-Mounting-Options.pdf",
    "cover": "reports/retail/controls-mounting/pages/mounting.png",
    "thumb": "reports/retail/_hub/mounting.webp"
+  },
+  {
+   "id": "op-why-bromic",
+   "title": "Why Stock Bromic",
+   "kicker": "BROMIC HEATING",
+   "desc": "The range, the design and the controls a retail buyer is taking on, at a glance.",
+   "pdf": "reports/retail/one-pagers/Bromic-Why-Stock-Bromic.pdf",
+   "cover": "reports/retail/one-pagers/pages/why-bromic.png",
+   "thumb": "reports/retail/_hub/op-why-bromic.webp"
+  },
+  {
+   "id": "op-range-selector",
+   "title": "Which Heater For Which Space",
+   "kicker": "THE RANGE",
+   "desc": "Match the customer's space to a heater and its controls in one look.",
+   "pdf": "reports/retail/one-pagers/Bromic-Which-Heater-For-Which-Space.pdf",
+   "cover": "reports/retail/one-pagers/pages/range-selector.png",
+   "thumb": "reports/retail/_hub/op-range-selector.webp"
+  },
+  {
+   "id": "op-sizing",
+   "title": "Sizing In 60 Seconds",
+   "kicker": "PLAN YOUR SPACE",
+   "desc": "How many heaters a space needs, worked the way Bromic's sizing tool works.",
+   "pdf": "reports/retail/one-pagers/Bromic-Sizing-In-60-Seconds.pdf",
+   "cover": "reports/retail/one-pagers/pages/sizing.png",
+   "thumb": "reports/retail/_hub/op-sizing.webp"
+  },
+  {
+   "id": "op-install-warranty",
+   "title": "Installation, Warranty And Support",
+   "kicker": "AFTER THE SALE",
+   "desc": "What to tell the customer about installing, cover and help after the sale.",
+   "pdf": "reports/retail/one-pagers/Bromic-Installation-Warranty-And-Support.pdf",
+   "cover": "reports/retail/one-pagers/pages/install-warranty.png",
+   "thumb": "reports/retail/_hub/op-install-warranty.webp"
+  },
+  {
+   "id": "op-selling",
+   "title": "Selling On The Floor",
+   "kicker": "ON THE FLOOR",
+   "desc": "The questions customers ask, and factual answers to the comparisons they bring.",
+   "pdf": "reports/retail/one-pagers/Bromic-Selling-On-The-Floor.pdf",
+   "cover": "reports/retail/one-pagers/pages/selling.png",
+   "thumb": "reports/retail/_hub/op-selling.webp"
+  },
+  {
+   "id": "op-merchandising",
+   "title": "Display And Merchandising",
+   "kicker": "IN-STORE (SUGGESTED)",
+   "desc": "Suggested ways to show Bromic in-store so customers feel the warmth and see the controls.",
+   "pdf": "reports/retail/one-pagers/Bromic-Display-And-Merchandising.pdf",
+   "cover": "reports/retail/one-pagers/pages/merchandising.png",
+   "thumb": "reports/retail/_hub/op-merchandising.webp"
+  },
+  {
+   "id": "op-ordering",
+   "title": "Ordering And Support",
+   "kicker": "WORKING WITH BROMIC",
+   "desc": "What a retailer receives to order and sell Bromic, and which team sends it.",
+   "pdf": "reports/retail/one-pagers/Bromic-Ordering-And-Support.pdf",
+   "cover": "reports/retail/one-pagers/pages/ordering.png",
+   "thumb": "reports/retail/_hub/op-ordering.webp"
   }
  ]
 }

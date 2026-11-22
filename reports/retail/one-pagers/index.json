@@ -1,0 +1,89 @@
+[
+  {
+    "id": "why-bromic",
+    "title": "Why Stock Bromic",
+    "kicker": "BROMIC HEATING",
+    "desc": "The range, the design and the controls a retail buyer is taking on, at a glance.",
+    "pdf": "reports/retail/one-pagers/Bromic-Why-Stock-Bromic.pdf",
+    "cover": "reports/retail/one-pagers/pages/why-bromic.png",
+    "cta": "MEET YOUR BROMIC REP",
+    "needs_approval": [
+      "Product team",
+      "Trade sales"
+    ]
+  },
+  {
+    "id": "range-selector",
+    "title": "Which Heater For Which Space",
+    "kicker": "THE RANGE",
+    "desc": "Match the customer's space to a heater and its controls in one look.",
+    "pdf": "reports/retail/one-pagers/Bromic-Which-Heater-For-Which-Space.pdf",
+    "cover": "reports/retail/one-pagers/pages/range-selector.png",
+    "cta": "REQUEST YOUR DESIGN PLAN",
+    "needs_approval": [
+      "Product team"
+    ]
+  },
+  {
+    "id": "sizing",
+    "title": "Sizing In 60 Seconds",
+    "kicker": "PLAN YOUR SPACE",
+    "desc": "How many heaters a space needs, worked the way Bromic's sizing tool works.",
+    "pdf": "reports/retail/one-pagers/Bromic-Sizing-In-60-Seconds.pdf",
+    "cover": "reports/retail/one-pagers/pages/sizing.png",
+    "cta": "REQUEST YOUR DESIGN PLAN",
+    "needs_approval": [
+      "Product team"
+    ]
+  },
+  {
+    "id": "install-warranty",
+    "title": "Installation, Warranty And Support",
+    "kicker": "AFTER THE SALE",
+    "desc": "What to tell the customer about installing, cover and help after the sale.",
+    "pdf": "reports/retail/one-pagers/Bromic-Installation-Warranty-And-Support.pdf",
+    "cover": "reports/retail/one-pagers/pages/install-warranty.png",
+    "cta": "MEET YOUR BROMIC REP",
+    "needs_approval": [
+      "Product team",
+      "Specification and compliance"
+    ]
+  },
+  {
+    "id": "selling",
+    "title": "Selling On The Floor",
+    "kicker": "ON THE FLOOR",
+    "desc": "The questions customers ask, and factual answers to the comparisons they bring.",
+    "pdf": "reports/retail/one-pagers/Bromic-Selling-On-The-Floor.pdf",
+    "cover": "reports/retail/one-pagers/pages/selling.png",
+    "cta": "REQUEST YOUR DESIGN PLAN",
+    "needs_approval": [
+      "Specification and compliance"
+    ]
+  },
+  {
+    "id": "merchandising",
+    "title": "Display And Merchandising",
+    "kicker": "IN-STORE (SUGGESTED)",
+    "desc": "Suggested ways to show Bromic in-store so customers feel the warmth and see the controls.",
+    "pdf": "reports/retail/one-pagers/Bromic-Display-And-Merchandising.pdf",
+    "cover": "reports/retail/one-pagers/pages/merchandising.png",
+    "cta": "MEET YOUR BROMIC REP",
+    "needs_approval": [
+      "Marketing"
+    ]
+  },
+  {
+    "id": "ordering",
+    "title": "Ordering And Support",
+    "kicker": "WORKING WITH BROMIC",
+    "desc": "What a retailer receives to order and sell Bromic, and which team sends it.",
+    "pdf": "reports/retail/one-pagers/Bromic-Ordering-And-Support.pdf",
+    "cover": "reports/retail/one-pagers/pages/ordering.png",
+    "cta": "MEET YOUR BROMIC REP",
+    "needs_approval": [
+      "Sales operations",
+      "Trade sales"
+    ]
+  }
+]
