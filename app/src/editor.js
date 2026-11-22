@@ -34,7 +34,7 @@
   function lint(text) {
     const out = [];
     if (/500 series/i.test(text)) out.push({ hard: true, msg: 'Legacy "500 series" naming is not allowed.' });
-    if (/Tungsten (Coastal|Select)/i.test(text) && !/coming soon/i.test(text)) out.push({ hard: true, msg: 'Tungsten Coastal and Select must be labelled "coming soon".' });
+    if (/(Tungsten (Coastal|Select)|Select and Coastal|Coastal and Select)[^.\n]{0,60}coming soon|coming soon[^.\n]{0,40}(Tungsten )?(Coastal|Select)/i.test(text)) out.push({ hard: true, msg: 'Tungsten Select and Coastal launched in October 2026: do not call them "coming soon".' });
     if (/[a-z]!(\s|$)/i.test(text.replace(/!\[/g, ''))) out.push({ hard: false, msg: 'Exclamation mark: the Bromic voice does not use them.' });
     if (/\p{Extended_Pictographic}/u.test(text)) out.push({ hard: false, msg: 'Emoji: the Bromic voice does not use them.' });
     if (/controls?\b[^.]{0,40}\boptional\b|\boptional\b[^.]{0,40}\bcontrols?\b/i.test(text)) out.push({ hard: true, msg: 'Controls are never "optional".' });

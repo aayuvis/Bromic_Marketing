@@ -24,7 +24,7 @@ moves heating earlier — into the drawing, the pre-wire, the first budget.
    Wi-Fi/app features need compatible Affinity controls, sold separately — say so. Controls are never "optional".
 5. **One CTA per asset**, mapped to the next-stage asset.
 6. **Competitors** (Infratech, Heatscope, Heatstrip): factual, sourced, `needs_approval: Specification and compliance`. No disparagement.
-7. **Tungsten Coastal / Select are "Coming soon"** until the Product team confirms launch.
+7. **Tungsten Smart-Heat Electric Series II has launched** (owner, 22 Nov 2026): Select and Coastal are available (launched October 2026) and are never called "coming soon"; Classic follows in January 2027.
 8. **Code/permit content** carries the local-authority + licensed electrician/gas fitter disclaimer and links a primary source.
 9. Keyword volume tiers are directional, never in copy. Do not reproduce third-party text — paraphrase and cite.
 10. Nothing is published from here. Output is review-ready drafts; publishing (WordPress, 454 Creative) follows owner sign-off.

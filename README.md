@@ -50,7 +50,7 @@ app/             the Content Hub (build script, src, tests)
 
 1. Copy the frontmatter from [templates/content-schema.md](templates/content-schema.md).
 2. Write; cite with `[^s1]`; flag unknowns `[[VERIFY: what — owner]]`; images `![alt](img:<id>)`.
-3. `cd app && npm test` — schema, citations, controls rule, coming-soon rule, legacy naming, CTA, disclaimers, tool tests.
+3. `cd app && npm test` — schema, citations, controls rule, Series II launch rule (Select/Coastal never "coming soon"), legacy naming, CTA, disclaimers, tool tests.
 
 ## Images
 

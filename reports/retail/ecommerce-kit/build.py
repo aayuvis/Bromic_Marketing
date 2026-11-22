@@ -77,8 +77,8 @@ def check(L):
         errs.append("no controls in required/in-the-box")
     if L["fuel"] in ("Electric", "Gas") and "licensed" not in req:
         errs.append("no licensed installer line")
-    if "Coastal" in L["description"] and L["id"] == "tungsten-electric-series-ii" and "coming soon" not in L["description"].lower():
-        errs.append("Select/Coastal must say coming soon")
+    if L["id"] == "tungsten-electric-series-ii" and "coming soon" in json.dumps(L).lower():
+        errs.append("Select and Coastal have launched (owner, 22 Nov 2026): no 'coming soon'")
     return errs, stats
 
 
@@ -239,7 +239,7 @@ def module_pages():
     <h1 style="font-size:54px;line-height:1.05">{html.escape(S['enhanced']['banner']['headline'])}</h1>
     <div class="rule"></div>
     <p style="font-size:19px;line-height:1.5">{html.escape(S['enhanced']['banner']['sub'])}</p>
-    <p style="font-size:13px;line-height:1.5;color:#6d6e71">Select and Coastal coming soon. Controls sold separately. Installation by a licensed electrician.</p>
+    <p style="font-size:13px;line-height:1.5;color:#6d6e71">Select and Coastal available now; Classic from January 2027. Controls sold separately. Installation by a licensed electrician.</p>
   </div>
 </div>""")
     # 2. Three-feature row 970 x 600

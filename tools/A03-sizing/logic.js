@@ -237,7 +237,7 @@ export function size(rawInput, cfg) {
       const lo = heaterCount(area, effectiveCoverage(cov[1], f));
       const hi = heaterCount(area, effectiveCoverage(cov[0], f));
       opt.count = null; opt.count_range = [lo, hi]; opt.coverage_nominal = cov;
-      opt.note = 'Coming soon. Count depends on model and size.';
+      opt.note = 'Count depends on model and size.';
     } else {
       opt.coverage_nominal = cov;
       opt.coverage_effective = Math.round(effectiveCoverage(cov, f) * 10) / 10;

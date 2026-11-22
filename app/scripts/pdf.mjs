@@ -169,7 +169,7 @@ const LBL = {
     colophon: 'Stem elke installatie af met uw gemeente en laat haar uitvoeren door een erkend installateur (NEN 1010, NEN 1078). Wifi- en appfuncties vereisen compatibele Affinity Smart-Heat-bediening, apart verkrijgbaar.',
     aud: { RES: 'Huiseigenaren', ARC: 'Architecten en ontwerpers', BLD: 'Aannemers en installateurs', COM: 'Horeca en hotels' } },
 };
-const PHOTO_OK = (i) => i && !i.notes && i.kind !== 'cutout' && i.kind !== 'diagram' && i.kind !== 'heat-plan' && i.kind !== 'render' && i.status !== 'rejected' && !/coming soon|coastal|select/i.test(i.product || '');
+const PHOTO_OK = (i) => i && !i.notes && i.kind !== 'cutout' && i.kind !== 'diagram' && i.kind !== 'heat-plan' && i.kind !== 'render' && i.status !== 'rejected' && !/coming soon/i.test(i.product || '');
 function imagePool(it) {
   const ownOnly = [...(it.images || [])].filter((id) => IMG[id] && id !== it.hero);
   const own = [...(it.images || []), ...[...(it.html.matchAll(/`([ltwpg]-[\w.-]+)`/g))].map((m) => m[1])].filter((id) => IMG[id] && id !== it.hero);

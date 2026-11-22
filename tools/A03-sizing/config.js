@@ -371,7 +371,7 @@ export default {
       "name": "Tungsten Smart-Heat Electric — Coastal collection",
       "fuel": "electric",
       "style": "built-in",
-      "status": "coming-soon",
+      "status": "current",
       "controls": "affinity",
       "coverage_ft2": {
         "value": [
@@ -396,7 +396,7 @@ export default {
       "name": "Tungsten Smart-Heat Electric — Select collection",
       "fuel": "electric",
       "style": "built-in",
-      "status": "coming-soon",
+      "status": "current",
       "controls": "affinity",
       "coverage_ft2": {
         "value": [

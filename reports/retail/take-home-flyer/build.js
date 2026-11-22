@@ -30,7 +30,7 @@ const PICKS = [
   { img: 'pick-gas', pos: '30% 40%', space: 'Heat On Gas', name: `Platinum Gas · Tungsten Freestanding Gas`,
     d: 'Platinum Gas mounts under cover; the Tungsten tower rolls to wherever tonight’s seating is, on propane or natural gas.',
     c: `Platinum Gas: Affinity Smart-Heat${R} On/Off or a wall switch. The tower: its own knob` },
-  { img: 'pick-tungsten', pos: '50% 30%', space: 'Pitched Porch Or Coastal Home', name: `Tungsten Smart-Heat${R} Electric Series II`, soon: true,
+  { img: 'pick-tungsten', pos: '50% 30%', space: 'Pitched Porch Or Coastal Home', name: `Tungsten Smart-Heat${R} Electric Series II`,
     d: 'Mounts on pitched ceilings from 3/12 to 12/12 with its adaptor; the Coastal tier is built for life by the water.',
     c: `Affinity Smart-Heat${R} Dimmer, plus a wall switch` },
 ];
@@ -94,7 +94,6 @@ body { font-family: 'Arimo', 'Helvetica Neue', Arial, sans-serif; color: var(--i
 .back .pick { display: grid; grid-template-columns: 0.8in 1fr; gap: 11pt; padding: 6.5pt 0; border-bottom: 0.5pt solid var(--rule); }
 .back .pick .ph { width: 0.8in; height: 0.8in; background-size: cover; position: relative; }
 .back .pick .sp { display: block; font-size: 6.6pt; letter-spacing: 0.18em; text-transform: uppercase; color: var(--flame); margin-bottom: 3pt; }
-.back .pick .soon { display: inline-block; margin-left: 6pt; padding: 1pt 4pt; font-size: 5.8pt; letter-spacing: 0.16em; color: #fff; background: var(--ink); vertical-align: 1pt; }
 .back .pick .n { display: block; font-family: 'Didot', serif; font-size: 11.6pt; line-height: 1.12; margin-bottom: 3pt; }
 .back .pick .d { display: block; font-size: 7.5pt; line-height: 1.38; color: var(--body); margin-bottom: 3pt; }
 .back .pick .c { display: block; font-size: 7.4pt; line-height: 1.38; color: var(--ink); }
@@ -148,7 +147,7 @@ ${fmt === 'half' ? `
 .back h3 { font-size: 11.5pt; margin: 6pt 0 4pt; }
 .back .pick { grid-template-columns: 0.46in 1fr; gap: 8pt; padding: 4pt 0; align-items: center; }
 .back .pick .ph { width: 0.46in; height: 0.46in; }
-.back .pick .sp { font-size: 5.4pt; margin-bottom: 1.5pt; } .back .pick .soon { font-size: 5pt; }
+.back .pick .sp { font-size: 5.4pt; margin-bottom: 1.5pt; }
 .back .pick .n { font-size: 9.2pt; margin-bottom: 1.5pt; }
 .back .pick .d { display: none; }
 .back .pick .c { font-size: 6.7pt; line-height: 1.32; } .back .pick .c b { font-size: 5.4pt; }
@@ -200,9 +199,9 @@ const html = (fmt) => `<!doctype html><html lang="en-US"><head><meta charset="ut
   <div class="picks">
     <h3 class="didot">Which Heater For Your Space</h3>
     ${PICKS.map((p) => `<div class="pick"><div class="ph" style="background-image:url('img/${p.img}.jpg');background-position:${p.pos}"></div>
-      <div><span class="sp">${p.space}${p.soon ? '<span class="soon">Coming Soon</span>' : ''}</span><span class="n">${p.name}</span><span class="d">${p.d}</span>
+      <div><span class="sp">${p.space}</span><span class="n">${p.name}</span><span class="d">${p.d}</span>
       <span class="c"><b>Controls</b>${p.c}</span></div></div>`).join('\n    ')}
-    <p class="wifi">Wi-Fi and app features need compatible Affinity Smart-Heat${R} Controls, sold separately. Tungsten Series II: Select and Coastal coming soon; Classic from January 2027.</p>
+    <p class="wifi">Wi-Fi and app features need compatible Affinity Smart-Heat${R} Controls, sold separately. Tungsten Series II Classic from January 2027.</p>
   </div>
 
   <div class="side">

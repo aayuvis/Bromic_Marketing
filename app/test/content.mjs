@@ -17,8 +17,8 @@ for (const f of files) {
   // 1. controls with every product recommendation
   if (/\b(Platinum|Eclipse|Tungsten)\b/.test(prose) && !['report', 'stats-page', 'case-study'].includes(fm.type) && !/Affinity|controls?\b/i.test(prose)) fail(f, 'names a heater but never its controls');
   if (prose.split('\n').some((l) => /controls?[^.\n]{0,40}\boptional\b/i.test(l) && !/^#{2,4} |never optional|not optional|isn.t optional|not an? optional|required|"Optional Step/i.test(l))) fail(f, 'presents controls as optional');
-  // 2. coming soon
-  if (/Tungsten (Coastal|Select)/.test(prose) && !/coming soon/i.test(prose)) fail(f, 'Tungsten Coastal/Select without "coming soon"');
+  // 2. Series II launched (owner, 22 Nov 2026): Select and Coastal are never "coming soon"
+  if (/(Tungsten (Coastal|Select)|Select and Coastal|Coastal and Select)[^.\n]{0,60}coming soon|coming soon[^.\n]{0,40}(Tungsten )?(Coastal|Select)/i.test(prose)) fail(f, 'Tungsten Select/Coastal called "coming soon" (launched October 2026)');
   // 3. legacy naming, built-in Tungsten gas BTU
   if (/500 series/i.test(prose)) fail(f, 'legacy "500 series" naming');
   if (/39,?800/.test(prose) && !/\[\[VERIFY|conflict|do not publish|removed|old figure|2021/i.test(prose)) fail(f, '39,800 BTU published as fact');

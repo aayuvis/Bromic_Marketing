@@ -15,16 +15,16 @@ LISTINGS = [
     "collection": "TUNGSTEN",
     "product_name": "Tungsten Smart-Heat® Electric Series II",
     "fuel": "Electric",
-    "availability": "Select and Coastal: coming soon. Classic: January 2027. Series I sells through until Classic launches.",
+    "availability": "Select and Coastal: available now (launched October 2026). Classic: from January 2027.",
     "level": "series",
     "variants": [
       {"name": "Tungsten Select", "outputs": "2, 3, 4, 6 kW", "supply": "208, 240, 277 V (2 kW is 240 V only)",
        "finishes": "Black, white, graphite (graphite on 4 and 6 kW)", "front": "Diamond Pattern standard; oval and triangle sold separately",
-       "status": "Coming soon", "sku": None},
+       "status": "Available now", "sku": None},
       {"name": "Tungsten Coastal", "outputs": "4, 6 kW", "supply": "208, 240 V", "finishes": "Black, white",
-       "front": "Diamond Pattern", "status": "Coming soon", "sku": None},
+       "front": "Diamond Pattern", "status": "Available now", "sku": None},
       {"name": "Tungsten Classic", "outputs": "2, 3, 4, 6 kW", "supply": "As Series I", "finishes": "Black",
-       "front": "Wireframe", "status": "January 2027", "sku": None},
+       "front": "Wireframe", "status": "From January 2027", "sku": None},
     ],
     "titles": {
       "short": "Bromic Tungsten Smart-Heat Electric Series II Patio Heater",
@@ -46,12 +46,12 @@ LISTINGS = [
       "Choose Tungsten Select in black, white or graphite, with the Diamond Pattern front as standard and oval and triangle fronts sold "
       "separately, in 2, 3, 4 and 6 kW on 208, 240 or 277 V. Tungsten Coastal, in black or white at 4 and 6 kW, adds a "
       "high-temperature, corrosion-resistant coating over 316 marine-grade stainless steel for coastal homes and venues. "
-      "Tungsten Classic follows in January 2027.\n\n"
+      "Tungsten Classic follows from January 2027.\n\n"
       "Mount it on a flat or pitched ceiling, on a wall or an extended wall bracket, on a single post, or recess it flush in a 7.5 in "
       "ceiling cavity with the fan-ventilated low-clearance recess kit. Every Tungsten heater is paired with Affinity Smart-Heat® "
       "Controls: the Dimmer as standard, so the warmth follows the evening, with zones, schedules and timers in the Bromic app. "
       "Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately. Installation by a licensed electrician "
-      "to local code. Select and Coastal are coming soon."
+      "to local code."
     ),
     "specs": [
       ["Brand", "Bromic Heating"],
@@ -122,7 +122,7 @@ LISTINGS = [
     },
     "verify": [
       "[[VERIFY: Series II SKU list by output, voltage, finish and front – Product team]]",
-      "[[VERIFY: launch status – the framework says Select and Coastal launched Oct 2026; retail copy keeps 'Coming soon' until confirmed – Product team]]",
+      "[[VERIFY: data/product-facts.json and data/retail/retail.json still mark Select and Coastal as not yet launched; owner confirmed launch (22 Nov 2026) – update the data files – Product team]]",
       "[[VERIFY: Series II mounting heights, listings/certification, rated current – Product team]]",
       "[[VERIFY: 3-year warranty (owner, 18 Nov 2026), element cover and Coastal terms, and publication on bromic.com – Product team]]",
       "[[VERIFY: 45° tilt on 4 and 6 kW against the manual's 30° – Product team]]",

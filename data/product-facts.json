@@ -5,7 +5,7 @@
    "id": "tungsten-coastal",
    "name": "Tungsten Smart-Heat Electric — Coastal collection",
    "fuel": "electric",
-   "status": "coming-soon",
+   "status": "current", "launched": "October 2026", "launch_source": "Owner, 22 Nov 2026: Series II launched",
    "facts": {
     "material": "316 marine-grade stainless steel",
     "finishes": [
@@ -32,7 +32,7 @@
    "id": "tungsten-select",
    "name": "Tungsten Smart-Heat Electric — Select collection",
    "fuel": "electric",
-   "status": "coming-soon",
+   "status": "current", "launched": "October 2026", "launch_source": "Owner, 22 Nov 2026: Series II launched",
    "facts": {
     "finishes": [
      "Black",

@@ -1,2 +1,2 @@
-Print check, 2026-11-21
+Print check, 2026-11-22
 clean: both sheets fit one Letter page, no text off the frame or into the title strip, no overlapping drawing labels, all images load, no prices, no "optional", no long dash, Wi-Fi line present

@@ -160,7 +160,7 @@ for (const f of files) {
   }
   if (/500 series/i.test(p.body)) errors.push(`${where}: legacy "500 series" naming`);
   if (/!(?!\[)/.test(p.body.replace(/!\[/g, '').replace(/`[^`]*`/g, '').replace(/<!--[\s\S]*?-->/g, '').replace(/!=/g, '')) && /[a-z]!\s/.test(p.body)) warn.push(`${where}: exclamation mark`);
-  if (/(Tungsten (Coastal|Select))(?![^.\n]{0,80}coming soon)/i.test(p.body) && !/coming soon/i.test(p.body)) errors.push(`${where}: Tungsten Coastal/Select without "coming soon"`);
+  if (/(Tungsten (Coastal|Select)|Select and Coastal|Coastal and Select)[^.\n]{0,60}coming soon|coming soon[^.\n]{0,40}(Tungsten )?(Coastal|Select)/i.test(p.body)) errors.push(`${where}: Tungsten Select/Coastal called "coming soon" (launched October 2026)`);
   items.push(it);
 }
 // related link check

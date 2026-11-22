@@ -33,7 +33,7 @@ r = ED.apply(md.replace('First para.', 'First para changed.'), it, { blocks: { [
 assert.equal(r.problems.length, 1);
 // rules: hard ones block a save
 assert.ok(ED.lint('the 500 series heater').some((l) => l.hard));
-assert.ok(ED.lint('Tungsten Coastal looks great').some((l) => l.hard));
+assert.ok(!ED.lint('Tungsten Coastal looks great').some((l) => l.hard));
 assert.ok(ED.lint('controls are optional').some((l) => l.hard));
-assert.ok(!ED.lint('Tungsten Coastal, coming soon.').some((l) => l.hard));
+assert.ok(ED.lint('Tungsten Coastal, coming soon.').some((l) => l.hard));
 console.log('editor: 4 checks ok');

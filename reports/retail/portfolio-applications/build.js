@@ -267,7 +267,7 @@ const space = (s) => `
 
 const P3 = [
   { no: '01', img: 'p3a', pos: '50% 35%', tcap: 'Tungsten Smart-Heat® Electric, porch ceiling', title: 'Covered Patio Or Porch',
-    series: 'Tungsten Select (Series II) <span class="tc">Coming soon</span><br>Tungsten Classic from January 2027',
+    series: 'Tungsten Select (Series II)<br>Tungsten Classic from January 2027',
     why: 'About 14% narrower and a third lighter than Series I, in black, white or graphite, with the Diamond front as standard; oval and triangle fronts are sold separately.',
     rows: [['Mounting', 'Wall or ceiling, on a wall bracket or the single post'], ['With gas', 'Tungsten Gas, mounted: 160 or 215 ft², natural gas or propane'], ['Controls', 'Affinity Smart-Heat® Dimmer, or On/Off where dimming is not wanted, and a manual wall switch']],
     sell: 'Homeowners finishing a covered patio or porch, and the builders who bring them in – at outdoor-living stores and patio dealers.' },
@@ -294,7 +294,7 @@ const P4 = [
     rows: [['Mounting', '24 in twin pole included, or a straight, curved or wall pole; head at least 8 ft up, under cover where possible'], ['Controls', 'Affinity Smart-Heat® Eclipse Controller or the Eclipse Dimmer Controller with remote, and a manual wall switch']],
     sell: 'Homeowners who entertain at the table, and the designers who light their terraces – at lighting and design showrooms.' },
   { no: '06', img: 'p4c', pos: '50% 40%', title: 'Coastal Home',
-    series: 'Tungsten Coastal <span class="tc">Coming soon</span><br>Platinum Smart-Heat® Electric Marine',
+    series: 'Tungsten Coastal (Series II)<br>Platinum Smart-Heat® Electric Marine',
     why: 'Tungsten Coastal adds a corrosion-resistant coating over 316 marine-grade stainless, in black or white, with a marine-grade low-clearance recess kit. Platinum Electric Marine is AISI 316 stainless, IPX5. Coastal is for homes by the water, never for boats.',
     rows: [['Mounting', 'Recessed, ceiling, wall or single post'], ['Controls', 'Affinity Smart-Heat® Dimmer and a manual wall switch']],
     sell: 'Homeowners by the ocean, a lake or a bay, and their builders – at coastal outdoor-living and patio stores.' },
@@ -344,7 +344,7 @@ const html = `<!doctype html><html lang="en-US"><head><meta charset="utf-8">
   ${matrix}
   <div class="legend">
     <div class="keys"><span class="dot" style="display:inline-block;width:7pt;height:7pt;border-radius:50%;background:#231F20"></span> Show first<br><span style="display:inline-block;width:7pt;height:7pt;border-radius:50%;border:0.8pt solid #231F20"></span> Also fits</div>
-    <p>Tungsten Select and Coastal are coming soon; Tungsten Classic follows in January 2027, as Series I sells through. Heat areas are Bromic's published coverage, approximate and depending on model. Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately. Gas heaters are not recessed. Installation by a licensed electrician or gas fitter to local code.</p>
+    <p>Tungsten Select and Coastal are available now; Tungsten Classic follows in January 2027, as Series I sells through. Heat areas are Bromic's published coverage, approximate and depending on model. Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately. Gas heaters are not recessed. Installation by a licensed electrician or gas fitter to local code.</p>
   </div>
   ${folio(2)}
 </section>
@@ -412,7 +412,7 @@ const html = `<!doctype html><html lang="en-US"><head><meta charset="utf-8">
     <div><h4 class="didot">And Close With The Controls</h4><p>Every Bromic heater is quoted with its Affinity Smart-Heat® Controls and a manual wall switch, on the same quote. Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately.</p></div>
   </div>
   <div class="fine">
-    <p>Installation by a licensed electrician to NFPA 70 (NEC) or a licensed gas fitter to ANSI Z223.1/NFPA 54, and to the manufacturer's instructions; check every install with the local building authority. Tungsten Select and Coastal: coming soon. Tungsten Classic: January 2027. Specifications are Bromic's published figures and may change; ask your Bromic rep for the current cut sheet.</p>
+    <p>Installation by a licensed electrician to NFPA 70 (NEC) or a licensed gas fitter to ANSI Z223.1/NFPA 54, and to the manufacturer's instructions; check every install with the local building authority. Tungsten Select and Coastal: available now. Tungsten Classic: January 2027. Specifications are Bromic's published figures and may change; ask your Bromic rep for the current cut sheet.</p>
     <p>Sources: Bromic Lookbook 2026; bromic.com product pages; Tungsten Smart-Heat® Electric Series II launch materials, 2026; The Official Outdoor Heating Planning Guide, US v1.2, 2021. Lifestyle images from the Bromic Lookbook 2026 and bromic.com; Lookbook imagery is design inspiration, not installation guidance.</p>
   </div>
   ${folio(6)}

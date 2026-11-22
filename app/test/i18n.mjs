@@ -2,7 +2,7 @@
 //   node app/test/i18n.mjs                 every translation
 //   node app/test/i18n.mjs de [files...]   one language, optionally only some English source paths
 // A translation must keep every citation marker, image, internal link and VERIFY note of its master, carry the translation
-// front matter, use metric units only, and keep the hard rules (no "500 series", Coastal/Select coming soon, controls never optional).
+// front matter, use metric units only, and keep the hard rules (no "500 series", Select/Coastal launched (never "coming soon"), controls never optional).
 import fs from 'node:fs';
 import path from 'node:path';
 import yaml from '../node_modules/js-yaml/dist/js-yaml.mjs';
@@ -53,7 +53,7 @@ for (const lang of langs) {
       if (count(b, /\[\[VERIFY:/g) < count(eb, /\[\[VERIFY:/g)) problems.push(`VERIFY notes: ${count(b, /\[\[VERIFY:/g)} of ${count(eb, /\[\[VERIFY:/g)}`);
       if (/\b\d[\d,.]*\s?(ft²|sq\.? ?ft|square feet|°F)\b|\b\d[\d,.]*\s?(BTU|Btu)(\/h(r)?)?\b(?![^(]*\))/.test(b.replace(/`[^`]*`/g, ''))) problems.push('imperial unit left in the text (ft², °F or BTU)');
       if (/500 series/i.test(b)) problems.push('legacy "500 series" naming');
-      if (/Tungsten (Coastal|Select)/i.test(b) && !/(coming soon|demnächst|binnenkort|bald erhältlich|in Kürze)/i.test(b)) problems.push('Tungsten Coastal/Select without "coming soon"');
+      if (/(Tungsten (Coastal|Select)|Select (and|und|en) Coastal)[^.\n]{0,60}(coming soon|demnächst|binnenkort|bald erhältlich|in Kürze)/i.test(b)) problems.push('Tungsten Select/Coastal called "coming soon" (launched October 2026)');
       if (RULES[lang] && RULES[lang].controlsOptional.test(b)) problems.push('controls described as optional');
       if (/[a-zäöüß]!\s/i.test(b.replace(/!\[/g, ''))) problems.push('exclamation mark');
     }
