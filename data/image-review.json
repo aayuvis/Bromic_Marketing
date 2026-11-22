@@ -11,8 +11,11 @@
    "file": "images/review/full/ts2-ai-01.jpg",
    "thumb": "images/review/thumb/ts2-ai-01.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "approved",
+   "note": "",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-02",
@@ -24,8 +27,11 @@
    "file": "images/review/full/ts2-ai-02.jpg",
    "thumb": "images/review/thumb/ts2-ai-02.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "rejected",
+   "note": "wrong placement...outward..should be inside the seeating areas",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-03",
@@ -37,8 +43,11 @@
    "file": "images/review/full/ts2-ai-03.jpg",
    "thumb": "images/review/thumb/ts2-ai-03.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "rejected",
+   "note": "wrong placement...outward..should be inside the seeating areas",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-05",
@@ -50,8 +59,11 @@
    "file": "images/review/full/ts2-ai-05.jpg",
    "thumb": "images/review/thumb/ts2-ai-05.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "approved",
+   "note": "",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-06",
@@ -63,8 +75,11 @@
    "file": "images/review/full/ts2-ai-06.jpg",
    "thumb": "images/review/thumb/ts2-ai-06.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "approved",
+   "note": "",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-07",
@@ -76,8 +91,11 @@
    "file": "images/review/full/ts2-ai-07.jpg",
    "thumb": "images/review/thumb/ts2-ai-07.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "rejected",
+   "note": "wrong placement...outward..should be inside the seeating areas",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-08",
@@ -89,8 +107,11 @@
    "file": "images/review/full/ts2-ai-08.jpg",
    "thumb": "images/review/thumb/ts2-ai-08.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "approved",
+   "note": "",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-09",
@@ -102,8 +123,11 @@
    "file": "images/review/full/ts2-ai-09.jpg",
    "thumb": "images/review/thumb/ts2-ai-09.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "rejected",
+   "note": "wrong placement...outward..should be inside the seeating areas",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-10",
@@ -115,8 +139,11 @@
    "file": "images/review/full/ts2-ai-10.jpg",
    "thumb": "images/review/thumb/ts2-ai-10.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "rejected",
+   "note": "wrong placement...outward..should be inside the seeating areas",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-11",
@@ -128,8 +155,11 @@
    "file": "images/review/full/ts2-ai-11.jpg",
    "thumb": "images/review/thumb/ts2-ai-11.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "rejected",
+   "note": "wrong placement...outward..should be inside the seeating areas",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-13",
@@ -141,8 +171,11 @@
    "file": "images/review/full/ts2-ai-13.jpg",
    "thumb": "images/review/thumb/ts2-ai-13.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "rejected",
+   "note": "heater is too smal for the area",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-14",
@@ -154,8 +187,11 @@
    "file": "images/review/full/ts2-ai-14.jpg",
    "thumb": "images/review/thumb/ts2-ai-14.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "approved",
+   "note": "",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-16",
@@ -167,8 +203,11 @@
    "file": "images/review/full/ts2-ai-16.jpg",
    "thumb": "images/review/thumb/ts2-ai-16.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "rejected",
+   "note": "wrong placement...outward..should be inside the seeating areas.too high",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-17",
@@ -180,8 +219,11 @@
    "file": "images/review/full/ts2-ai-17.jpg",
    "thumb": "images/review/thumb/ts2-ai-17.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "rejected",
+   "note": "wrong placement...outward..should be inside the seeating areas",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-18",
@@ -193,8 +235,11 @@
    "file": "images/review/full/ts2-ai-18.jpg",
    "thumb": "images/review/thumb/ts2-ai-18.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "rejected",
+   "note": "too high",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-19",
@@ -206,8 +251,11 @@
    "file": "images/review/full/ts2-ai-19.jpg",
    "thumb": "images/review/thumb/ts2-ai-19.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "rejected",
+   "note": "wrong placement...outward..should be inside the seeating areas",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-20",
@@ -219,8 +267,11 @@
    "file": "images/review/full/ts2-ai-20.jpg",
    "thumb": "images/review/thumb/ts2-ai-20.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "approved",
+   "note": "",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-22",
@@ -232,8 +283,11 @@
    "file": "images/review/full/ts2-ai-22.jpg",
    "thumb": "images/review/thumb/ts2-ai-22.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "rejected",
+   "note": "wrong placement...outward..should be inside the seeating areas",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-23",
@@ -245,8 +299,11 @@
    "file": "images/review/full/ts2-ai-23.jpg",
    "thumb": "images/review/thumb/ts2-ai-23.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "rejected",
+   "note": "wrong placement...outward..should be inside the seeating areas",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-25",
@@ -258,8 +315,11 @@
    "file": "images/review/full/ts2-ai-25.jpg",
    "thumb": "images/review/thumb/ts2-ai-25.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "rejected",
+   "note": "wrong placement...outward..should be inside the seeating areas",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-26",
@@ -271,8 +331,11 @@
    "file": "images/review/full/ts2-ai-26.jpg",
    "thumb": "images/review/thumb/ts2-ai-26.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "approved",
+   "note": "",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-27",
@@ -284,8 +347,11 @@
    "file": "images/review/full/ts2-ai-27.jpg",
    "thumb": "images/review/thumb/ts2-ai-27.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "rejected",
+   "note": "wrong placement...outward..should be inside the seeating areas",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-28",
@@ -297,8 +363,11 @@
    "file": "images/review/full/ts2-ai-28.jpg",
    "thumb": "images/review/thumb/ts2-ai-28.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "approved",
+   "note": "",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-29",
@@ -310,8 +379,11 @@
    "file": "images/review/full/ts2-ai-29.jpg",
    "thumb": "images/review/thumb/ts2-ai-29.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "rejected",
+   "note": "wrong placement",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-30",
@@ -323,8 +395,11 @@
    "file": "images/review/full/ts2-ai-30.jpg",
    "thumb": "images/review/thumb/ts2-ai-30.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "approved",
+   "note": "",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-photo-01",
@@ -350,8 +425,11 @@
    "file": "images/review/full/ts2-photo-02.jpg",
    "thumb": "images/review/thumb/ts2-photo-02.webp",
    "source": "Bromic installation photo (bromic.com); old heater replaced with the Series II CAD render",
-   "status": "pending",
-   "note": ""
+   "status": "approved",
+   "note": "",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-photo-03",
@@ -363,8 +441,11 @@
    "file": "images/review/full/ts2-photo-03.jpg",
    "thumb": "images/review/thumb/ts2-photo-03.webp",
    "source": "Bromic installation photo (bromic.com); old heater replaced with the Series II CAD render",
-   "status": "pending",
-   "note": ""
+   "status": "approved",
+   "note": "",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-photo-06",
@@ -376,8 +457,11 @@
    "file": "images/review/full/ts2-photo-06.jpg",
    "thumb": "images/review/thumb/ts2-photo-06.webp",
    "source": "Bromic installation photo (bromic.com); old heater replaced with the Series II CAD render",
-   "status": "pending",
-   "note": ""
+   "status": "approved",
+   "note": "",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-photo-07",
@@ -389,8 +473,11 @@
    "file": "images/review/full/ts2-photo-07.jpg",
    "thumb": "images/review/thumb/ts2-photo-07.webp",
    "source": "Bromic installation photo (bromic.com); old heater replaced with the Series II CAD render",
-   "status": "pending",
-   "note": ""
+   "status": "approved",
+   "note": "",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-31",
@@ -402,8 +489,11 @@
    "file": "images/review/full/ts2-ai-31.jpg",
    "thumb": "images/review/thumb/ts2-ai-31.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "approved",
+   "note": "",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-33",
@@ -415,8 +505,11 @@
    "file": "images/review/full/ts2-ai-33.jpg",
    "thumb": "images/review/thumb/ts2-ai-33.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "rejected",
+   "note": "on the walls on the side",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-34",
@@ -428,8 +521,11 @@
    "file": "images/review/full/ts2-ai-34.jpg",
    "thumb": "images/review/thumb/ts2-ai-34.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "rejected",
+   "note": "ugly",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-35",
@@ -441,8 +537,11 @@
    "file": "images/review/full/ts2-ai-35.jpg",
    "thumb": "images/review/thumb/ts2-ai-35.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "rejected",
+   "note": "under the pergola",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-37",
@@ -454,8 +553,11 @@
    "file": "images/review/full/ts2-ai-37.jpg",
    "thumb": "images/review/thumb/ts2-ai-37.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "rejected",
+   "note": "should be mounted lower..the table pulled in the shade and the heater pointing inwawrds mounted on the edge",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-39",
@@ -467,8 +569,11 @@
    "file": "images/review/full/ts2-ai-39.jpg",
    "thumb": "images/review/thumb/ts2-ai-39.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "rejected",
+   "note": "should be mounted under the perfogla pointing at the seats",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-40",
@@ -480,8 +585,11 @@
    "file": "images/review/full/ts2-ai-40.jpg",
    "thumb": "images/review/thumb/ts2-ai-40.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "rejected",
+   "note": "weird mounting",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-43",
@@ -493,8 +601,11 @@
    "file": "images/review/full/ts2-ai-43.jpg",
    "thumb": "images/review/thumb/ts2-ai-43.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "rejected",
+   "note": "weird mounting",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-44",
@@ -506,8 +617,11 @@
    "file": "images/review/full/ts2-ai-44.jpg",
    "thumb": "images/review/thumb/ts2-ai-44.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "rejected",
+   "note": "weird location pointing out wards when seating area is inward",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-45",
@@ -519,8 +633,11 @@
    "file": "images/review/full/ts2-ai-45.jpg",
    "thumb": "images/review/thumb/ts2-ai-45.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "approved",
+   "note": "",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-47",
@@ -532,8 +649,11 @@
    "file": "images/review/full/ts2-ai-47.jpg",
    "thumb": "images/review/thumb/ts2-ai-47.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "rejected",
+   "note": "too high",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-48",
@@ -545,8 +665,11 @@
    "file": "images/review/full/ts2-ai-48.jpg",
    "thumb": "images/review/thumb/ts2-ai-48.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "approved",
+   "note": "",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-49",
@@ -558,8 +681,11 @@
    "file": "images/review/full/ts2-ai-49.jpg",
    "thumb": "images/review/thumb/ts2-ai-49.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "approved",
+   "note": "",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-ai-50",
@@ -571,8 +697,11 @@
    "file": "images/review/full/ts2-ai-50.jpg",
    "thumb": "images/review/thumb/ts2-ai-50.webp",
    "source": "Background generated with an image model; heater rendered from the Series II CAD",
-   "status": "pending",
-   "note": ""
+   "status": "rejected",
+   "note": "heat is too high...should not be front mounted",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ecl-ai-01",
@@ -584,7 +713,11 @@
    "file": "images/review/full/ecl-ai-01.jpg",
    "thumb": "images/review/thumb/ecl-ai-01.webp",
    "source": "Owner-supplied draft re-created as a photograph with an image model; heater corrected against Eclipse Freestanding product photos",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "note": "eclipse head is too thick",
+   "learned": true
   },
   {
    "id": "ecl-ai-02",
@@ -596,7 +729,11 @@
    "file": "images/review/full/ecl-ai-02.jpg",
    "thumb": "images/review/thumb/ecl-ai-02.webp",
    "source": "Owner-supplied draft re-created as a photograph with an image model; heater corrected against Eclipse Freestanding product photos",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "note": "eclipse head is too thick",
+   "learned": true
   },
   {
    "id": "ts2-real-01",
@@ -608,7 +745,11 @@
    "file": "images/review/full/ts2-real-01.jpg",
    "thumb": "images/review/thumb/ts2-real-01.webp",
    "source": "Real Tungsten install photo (screened porch); old heater replaced with the Series II CAD render on the CAD pitch adaptor. Strict QC still open: reflector reads dark, logo only legible zoomed in, adaptor flange corners slightly light; heater top ~314 mm below ceiling vs 330 mm in the manual.",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "note": "heater looks off",
+   "learned": true
   },
   {
    "id": "ad-ts2-01",
@@ -620,7 +761,11 @@
    "file": "images/review/full/ad-ts2-01.jpg",
    "thumb": "images/review/thumb/ad-ts2-01.webp",
    "source": "Bromic Lookbook 2026 hero photo, heat-glow illustration and three callouts; for approval as an ad style.",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "note": "radioactive",
+   "learned": true
   },
   {
    "id": "ad-ts2-02",
@@ -632,7 +777,10 @@
    "file": "images/review/full/ad-ts2-02.jpg",
    "thumb": "images/review/thumb/ad-ts2-02.webp",
    "source": "Bromic Lookbook 2026 coastal terrace (overhead heaters facing the seating), graded to evening, soft warm glow as an illustration; Bromic type, no icon boxes. Replaces v1 (radioactive streams, heater facing forward).",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-select-black-endcap",
@@ -644,7 +792,10 @@
    "file": "images/review/full/pr-select-black-endcap.jpg",
    "thumb": "images/review/thumb/pr-select-black-endcap.webp",
    "source": "Rendered from the Tungsten Series II CAD on a white studio sweep; satin powder coat, glowing elements. Graded to natural colour, with short contact shadows.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "vid-recess-film",
@@ -657,7 +808,10 @@
    "thumb": "images/review/thumb/vid-recess-film.webp",
    "video": true,
    "source": "Recess-kit airflow film rendered from the Series II low-clearance recess kit CAD; female voice-over, CC0 music.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "vid-recess-reels",
@@ -670,7 +824,10 @@
    "thumb": "images/review/thumb/vid-recess-reels.webp",
    "video": true,
    "source": "Recess-kit airflow film rendered from the Series II low-clearance recess kit CAD; female voice-over, CC0 music.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "vid-recess-loop",
@@ -683,7 +840,10 @@
    "thumb": "images/review/thumb/vid-recess-loop.webp",
    "video": true,
    "source": "Silent 6 s loop from the same CAD film, for web headers and displays.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ad-ts2-03",
@@ -695,7 +855,11 @@
    "file": "images/review/full/ad-ts2-03.jpg",
    "thumb": "images/review/thumb/ad-ts2-03.webp",
    "source": "v1 layout with the light streaks replaced by a soft warm glow below the heater and a gentle amber on the elements.",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "note": "too many",
+   "learned": true
   },
   {
    "id": "ad-ts2-03a",
@@ -707,7 +871,11 @@
    "file": "images/review/full/ad-ts2-03a.jpg",
    "thumb": "images/review/thumb/ad-ts2-03a.webp",
    "source": "Glow option A (halo); same layout as v3, no light streaks.",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "note": "too many",
+   "learned": true
   },
   {
    "id": "ad-ts2-03b",
@@ -719,7 +887,11 @@
    "file": "images/review/full/ad-ts2-03b.jpg",
    "thumb": "images/review/thumb/ad-ts2-03b.webp",
    "source": "Glow option B (evening wash); same layout as v3, no light streaks.",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "note": "too many",
+   "learned": true
   },
   {
    "id": "ad-ts2-03c",
@@ -731,7 +903,11 @@
    "file": "images/review/full/ad-ts2-03c.jpg",
    "thumb": "images/review/thumb/ad-ts2-03c.webp",
    "source": "Glow option C (warm pool); same layout as v3, no light streaks.",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "note": "too many",
+   "learned": true
   },
   {
    "id": "ad-ts2-03d",
@@ -743,7 +919,11 @@
    "file": "images/review/full/ad-ts2-03d.jpg",
    "thumb": "images/review/thumb/ad-ts2-03d.webp",
    "source": "Glow option D (ember); same layout as v3, no light streaks.",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "note": "too many",
+   "learned": true
   },
   {
    "id": "ad-ts2-03e",
@@ -755,7 +935,11 @@
    "file": "images/review/full/ad-ts2-03e.jpg",
    "thumb": "images/review/thumb/ad-ts2-03e.webp",
    "source": "Glow option E (strong mist), at the strength of the owner reference; soft misty light, no hard rays.",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "note": "too many",
+   "learned": true
   },
   {
    "id": "ad-ts2-03f",
@@ -767,7 +951,11 @@
    "file": "images/review/full/ad-ts2-03f.jpg",
    "thumb": "images/review/thumb/ad-ts2-03f.webp",
    "source": "Glow option F (strong fan, warmth to the ground), at the strength of the owner reference; soft misty light, no hard rays.",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "note": "too many",
+   "learned": true
   },
   {
    "id": "ad-ts2-03g",
@@ -779,7 +967,10 @@
    "file": "images/review/full/ad-ts2-03g.jpg",
    "thumb": "images/review/thumb/ad-ts2-03g.webp",
    "source": "Glow option G (strong ember mist), at the strength of the owner reference; soft misty light, no hard rays.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-select-black-hero",
@@ -791,7 +982,10 @@
    "file": "images/review/full/pr-select-black-hero.jpg",
    "thumb": "images/review/thumb/pr-select-black-hero.webp",
    "source": "Rendered from the Tungsten Series II CAD on a white studio sweep; short ceiling post, satin powder coat, glowing elements. Graded to natural colour, with short contact shadows.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ad-ts2-04",
@@ -803,7 +997,10 @@
    "file": "images/review/full/ad-ts2-04.jpg",
    "thumb": "images/review/thumb/ad-ts2-04.webp",
    "source": "Owner chose option G; the black side warmed to the same amber as the white side.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-select-white-endcap",
@@ -815,7 +1012,10 @@
    "file": "images/review/full/pr-select-white-endcap.jpg",
    "thumb": "images/review/thumb/pr-select-white-endcap.webp",
    "source": "Rendered from the Tungsten Series II CAD on a white studio sweep; satin powder coat, glowing elements. Graded to natural colour, with short contact shadows.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-select-graphite-hero",
@@ -827,7 +1027,10 @@
    "file": "images/review/full/pr-select-graphite-hero.jpg",
    "thumb": "images/review/thumb/pr-select-graphite-hero.webp",
    "source": "Rendered from the Tungsten Series II CAD on a white studio sweep; satin powder coat, glowing elements. Graded to natural colour, with short contact shadows.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-select-graphite-endcap",
@@ -839,7 +1042,10 @@
    "file": "images/review/full/pr-select-graphite-endcap.jpg",
    "thumb": "images/review/thumb/pr-select-graphite-endcap.webp",
    "source": "Rendered from the Tungsten Series II CAD on a white studio sweep; satin powder coat, glowing elements. Graded to natural colour, with short contact shadows.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-classic-black-hero",
@@ -851,7 +1057,10 @@
    "file": "images/review/full/pr-classic-black-hero.jpg",
    "thumb": "images/review/thumb/pr-classic-black-hero.webp",
    "source": "Rendered from the Tungsten Series II CAD (Classic fascia) on a white studio sweep; short ceiling post, glowing elements. The logo end faces away in this angle. Graded to natural colour, with short contact shadows.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-select-white-from-below",
@@ -863,7 +1072,10 @@
    "file": "images/review/full/pr-select-white-from-below.jpg",
    "thumb": "images/review/thumb/pr-select-white-from-below.webp",
    "source": "Rendered from the Tungsten Series II CAD on a white studio sweep, looking straight up at a ceiling-mounted heater. Graded to natural colour, with short contact shadows.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-select-black-front",
@@ -875,7 +1087,10 @@
    "file": "images/review/full/pr-select-black-front.jpg",
    "thumb": "images/review/thumb/pr-select-black-front.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour, with short contact shadows.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-select-black-and-white-pair",
@@ -887,7 +1102,10 @@
    "file": "images/review/full/pr-select-black-and-white-pair.jpg",
    "thumb": "images/review/thumb/pr-select-black-and-white-pair.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour, with short contact shadows.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-select-white-front",
@@ -899,7 +1117,10 @@
    "file": "images/review/full/pr-select-white-front.jpg",
    "thumb": "images/review/thumb/pr-select-white-front.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour, with short contact shadows.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-select-graphite-front",
@@ -911,7 +1132,10 @@
    "file": "images/review/full/pr-select-graphite-front.jpg",
    "thumb": "images/review/thumb/pr-select-graphite-front.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour, with short contact shadows.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-select-black-front-ceiling",
@@ -923,7 +1147,11 @@
    "file": "images/review/full/pr-select-black-front-ceiling.jpg",
    "thumb": "images/review/thumb/pr-select-black-front-ceiling.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour, with short contact shadows.",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "note": "logo inverted",
+   "learned": true
   }
  ]
 }

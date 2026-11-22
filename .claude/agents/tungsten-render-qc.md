@@ -55,6 +55,15 @@ For each image:
 23. **Heights and clearances.** Wall heater ≥ 1.8 m, ceiling ≥ 2.4 m (check against a door at 2.03 m: a ceiling heater sits above the door head); not over a fire table, umbrella or fabric; recess not on a visible slope and not alone in a large ceiling.
 24. **Viewpoint.** Is the camera among or beside the seating, at 3/4 or from below, as in the cited photo? An axis-on symmetric frame from outside is a FAIL.
 
+**Owner's 22 Nov 2026 decisions (73 reviewed: 35 approved, 38 rejected; these override 20 where they conflict)**
+25. **Inside the seating area.** Is every heater over or inside the seating footprint, under the roof, pergola or soffit that covers the seats, and pointing INWARD at them? A heater on the outer perimeter or front facade facing out to the view, street or sea, or on a side wall away from the seats, is a FAIL (17 rejections: "wrong placement... outward... should be inside the seating areas"; "on the walls on the side"; "should not be front mounted").
+26. **Low, close to the table.** Is each heater at the low end of the allowed range (ceiling or recess about 2.4–2.7 m / 8–9 ft over the seats, wall about 2.1–2.4 m / 7–8 ft)? High on a tall wall, under a high ceiling or far above the table is a FAIL ("too high", 5 rejections).
+27. **Enough heater for the space.** Does the heater read at true size, and are there as many heaters as the seat groups need (one per group)? One small heater for a large area is a FAIL ("heater is too small for the area").
+28. **Real mount only.** Is the mount a real Series II mount used as the manual shows (single post, wall bracket, pitch adaptor, recess kit), fixed to real structure? Anything improvised, floating or odd is a FAIL ("weird mounting"). On a pergola the heater hangs UNDER it from its structure, pointing at the seats.
+29. **Looks right.** Does the heater sit naturally in the light, perspective and scale of the scene? If it "looks off" in any way, FAIL. If the setting itself is unattractive, FAIL ("ugly").
+30. **Other products true to shape.** Eclipse heads must match the real product's thickness (rejected: "eclipse head is too thick"); any product the model redraws is a FAIL (see §12 product drift).
+31. **Variants.** Send 1–2 strong options per scene, never a long run of variants ("too many": seven glow options rejected, one approved).
+
 **Look of the heater**
 10. Is the logo upright and readable where visible (not mirrored or upside down)? Is the diamond grille visible?
 11. Does the housing read as real satin powder coat: black with soft highlights, or a true off-white? A flat CAD black, grey, olive or green cast, or a plastic look is a FAIL.

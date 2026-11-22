@@ -224,6 +224,17 @@ Environment notes:
 Rules learned from the owner's approvals and rejections in `data/image-review.json`, newest first. Each line: date · image ·
 decision · the rule it adds. The QC agent checks every rule here.
 
+- **2026-11-22 · 73 decisions (35 approved, 38 rejected), the owner's first full pass in Image Approvals.** Rules added (QC checks 25–31):
+  - **Inside the seating area, pointing in** (17 rejections: ts2-ai-02, 03, 07, 09, 10, 11, 16, 17, 19, 22, 23, 25, 27, 29, 44, 33 "on the walls on the side", 50 "should not be front mounted"): heaters go over or inside the seating footprint, under the roof, pergola or soffit that covers the seats, aimed inward. This narrows M16b: the "edge" is the inner structure over the seats, never the outer perimeter facing the view.
+  - **Low and close** (ts2-ai-16, 18, 47, 50, 37 "should be mounted lower"): the low end of the allowed heights, near the table.
+  - **Enough heater for the area** (ts2-ai-13 "too small for the area"): true scale and one heater per seat group.
+  - **Pergolas** (ts2-ai-35, 39 "should be mounted under the pergola pointing at the seats"): hang from the pergola's structure, under it, aimed at the seats; ts2-ai-37: pull the table into the covered area and mount on the edge aiming in.
+  - **Real mounts only** (ts2-ai-40, 43 "weird mounting"); **looks right** (ts2-real-01 "heater looks off"); **attractive setting** (ts2-ai-34 "ugly").
+  - **Eclipse** (ecl-ai-01, 02 "eclipse head is too thick"): product drift in an image model; keep the real head proportions or drop.
+  - **Logo** (pr-select-black-front-ceiling "logo inverted"): the logo reads upright and unmirrored in every view.
+  - **Ads** (ad-ts2-01 "radioactive"; seven glow variants "too many", option G approved): soft amber glow (G); offer 1–2 options, not a run of variants.
+  - **What good looks like** (approved): ts2-ai-01, 05, 06, 08, 14, 20, 26, 28, 30, 31, 45, 48, 49 and ts2-photo-02, 03, 06, 07 – heaters inside covered seating, low, aimed at the table, true scale; the studio renders and frontal shots; ads v2, v3G and v4; the recess-kit films.
+
 - 2026-11-20 · ts2-photo-01 (café wall, white) · approved, "excellent" · A clean front-on wall at true scale, heater centred over the
   seating, soft contact shadow, no visible bracket is the reference look.
 
