@@ -8,14 +8,20 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { rmSync, readFileSync, writeFileSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
-import { T, ROOT, zones, coverBlock, page, dimV, dimH, lead, slab, timber } from './kit/blueprint.mjs';
+import { T, ROOT, zones, coverBlock, page, dimV, dimH, lead, slab, timber, plan } from './kit/blueprint.mjs';
 import { prepImages, render } from './kit/render.mjs';
 
 const here = dirname(fileURLToPath(import.meta.url));
 rmSync(join(here, 'img'), { recursive: true, force: true });
 const R = 'decks/product-renders/';
 prepImages(here, {
-  cover: 'images/library/l-004-012.webp',
+  cover: 'images/library/w-platinum-electric-white-recessed-residential-4.webp',
+  convection: 'reports/planning-guide/pro/img/aia-convection.webp',
+  conduction: 'reports/planning-guide/pro/img/aia-conduction.webp@0,0.06,1,0.95',
+  radiant: 'reports/planning-guide/pro/img/aia-radiant.webp',
+  centrico: 'images/library/w-centrico-case-study.webp',
+  gasplan: 'images/library/w-plat-gas-graphics.webp',
+  portplan: 'images/library/w-tung-portable-graphics.webp',
   kitchen: 'images/library/w-bromic-platinum-electric.webp',
   platinum: 'images/library/w-045.webp',
   eclipse: 'images/library/l-012-093.webp',
@@ -41,12 +47,12 @@ prepImages(here, {
   pavilion: 'images/library/d-recessed-pavilion.webp',
   dining: 'images/library/l-013-100.webp',
 });
-// A11 keeps its own photos lighter than the kit's 2000 px ceiling so twelve photo-led sheets stay under 6 MB.
-const SMALL = ['platinum', 'marine', 'plgas', 'eclipse', 'freestanding', 'coastal', 'select', 'render', 'platclose', 'rim', 'dimmer', 'onoff', 'post', 'wall', 'pole', 'recesskit', 'flush', 'design', 'family'];
-execFileSync('python3', ['-c', `import sys,glob,os\nfrom PIL import Image\nsmall=sys.argv[2].split(',')\nfor f in glob.glob(sys.argv[1]+'/*.jpg'):\n    m=800 if os.path.basename(f)[:-4] in small else 1150\n    im=Image.open(f)\n    if max(im.size)>m:\n        im.thumbnail((m,m),Image.LANCZOS); im.save(f,'JPEG',quality=82,optimize=True)`, join(here, 'img'), SMALL.join(',')]);
+// A11 keeps its own photos lighter than the kit's 2000 px ceiling so fourteen photo-led sheets stay under 6 MB.
+const SMALL = ['convection', 'conduction', 'radiant', 'gasplan', 'portplan', 'stone', 'harbour', 'platinum', 'marine', 'plgas', 'eclipse', 'freestanding', 'coastal', 'select', 'render', 'platclose', 'rim', 'dimmer', 'onoff', 'post', 'wall', 'pole', 'recesskit', 'flush', 'design', 'family'];
+execFileSync('python3', ['-c', `import sys,glob,os\nfrom PIL import Image\nsmall=sys.argv[2].split(',')\nfor f in glob.glob(sys.argv[1]+'/*.jpg'):\n    m=720 if os.path.basename(f)[:-4] in small else 1100\n    im=Image.open(f)\n    if max(im.size)>m:\n        im.thumbnail((m,m),Image.LANCZOS); im.save(f,'JPEG',quality=82,optimize=True)`, join(here, 'img'), SMALL.join(',')]);
 const IMG = (k) => `img/${k}.jpg`;
 
-const DOC = { project: "The Architect's Spec Kit", asset: 'A11', date: '2026-11-22', revision: 'Draft for review', total: 12 };
+const DOC = { project: "The Architect's Spec Kit", asset: 'A11', date: '2026-11-22', revision: 'Draft for review', total: 14 };
 const pad = (v) => String(v).padStart(2, '0');
 const sup = (...n) => `<sup class="kfn">${n.join(',')}</sup>`;
 const TC = '<span class="ktc">To confirm</span>';
@@ -128,8 +134,8 @@ const p1 = `<section class="page dark k">
     <img class="logo" src="${ROOT}/images/portfolio/bromic-logo-white.png" alt="Bromic Heating">
     <div class="c-meta"><span>SPEC KIT · FOR ARCHITECTS AND SPECIFIERS</span><span>MASTERFORMAT 23 83 33</span></div>
   </header>
-  <figure class="kc-photo blk"><img src="${IMG('cover')}" alt="A covered coastal terrace with Tungsten Smart-Heat Electric heaters on the ceiling, facing the sea">
-    <figcaption><b>SITE PHOTO</b> Tungsten Smart-Heat Electric, Coastal collection, on a covered terrace by the sea.</figcaption></figure>
+  <figure class="kc-photo blk"><img src="${IMG('cover')}" alt="An outdoor room with four Platinum Smart-Heat Electric heaters recessed in a white coffered ceiling over a long dining table">
+    <figcaption><b>SITE PHOTO</b> Platinum Smart-Heat Electric, four heaters recessed in a coffered ceiling over an outdoor dining room.</figcaption></figure>
   <div class="kc-head blk">
     <p class="eyebrow">ELECTRIC RADIANT HEATERS · SECTION 23 83 33</p>
     <h1>The Architect's<br>Spec Kit</h1>
@@ -140,8 +146,8 @@ const p1 = `<section class="page dark k">
 
 // ------------------------------------------------------------------ 02 why
 const sect = (code, name, txt, hi = false) => `<div class="kmf-row${hi ? ' hi' : ''}"><p class="code">${code}</p><div><p class="nm">${name}</p><p>${txt}</p></div></div>`;
-const p2 = sheet(3, 'Why specify heat early', {
-  eyebrow: '02 · AT THE DRAWING STAGE',
+const p2 = sheet(4, 'Why specify heat early', {
+  eyebrow: '03 · AT THE DRAWING STAGE',
   title: 'Give Heat Its Own Section',
   lede: 'The outdoor rooms you design are meant to be lived in well after sunset. Give heat a named section, a listed product, its controls and a detail on the drawings, and it arrives on site as you intended.',
 }, `${ph('kitchen', '<b>SITE PHOTO</b> Platinum Smart-Heat Electric recessed in a timber-batten ceiling over an outdoor kitchen.', { h: '3.35in', pos: '50% 40%' })}
@@ -173,11 +179,37 @@ const pPos = sheet(2, 'Positioning heat with clients', {
     ${tp('rim', 'Eclipse Smart-Heat Electric', `Warmth and light in one: a dimmable LED ring keeps the table warm and softly lit.${sup(13)}`, 'cover', '50% 50%')}
   </div>`);
 
+// ------------------------------------------------------------------ 03 heating basics (owner, 22 Nov 2026)
+const mode = (k, name, line, pos = 'center') => `<figure class="kmode"><img src="${IMG(k)}" alt="${name}" style="object-position:${pos}">
+  <figcaption><p class="tn">${name}</p><p>${line}</p></figcaption></figure>`;
+const pBasics = sheet(3, 'Heating basics', {
+  eyebrow: '02 · HEATING BASICS',
+  title: 'How Heat Moves Outdoors',
+  lede: `Radiant (infrared) heat warms people and surfaces, not the air, so it holds up in light wind. Forced air does not work outdoors, and outdoor heat cannot be thermostatically controlled.${sup(2)}`,
+}, `<div class="kmodes">
+    ${mode('convection', 'Convection', 'Warms the air, which rises and drifts away outdoors.', '50% 60%')}
+    ${mode('conduction', 'Conduction', 'Warms only what a guest touches.', '50% 50%')}
+    ${mode('radiant', 'Radiant', 'Warms people and surfaces directly. The one that works outdoors.', '50% 40%')}
+  </div>
+  <p class="kcred">Images: Bromic AIA/CES course, The Evolution of Outdoor Heating.${sup(17)}</p>
+  <div class="ktwo e">
+    <div><p class="eyebrow">THREE WAVEBANDS</p>
+      <div class="kwave"><p class="wn">Short wave</p><p>About 90% radiant; warms instantly.${sup(2)}</p></div>
+      <div class="kwave hi"><p class="wn">Medium wave</p><p>About 60% radiant; warms in about 30 seconds.${sup(2)} Platinum, Eclipse and Tungsten Smart-Heat Electric are medium wave.${sup(20)}</p></div>
+      <div class="kwave"><p class="wn">Long wave</p><p>About 40% radiant; about 5 minutes to warm, and the most wind-sensitive.${sup(2)}</p></div>
+    </div>
+    <div><p class="eyebrow">COVERAGE AND HEIGHT</p>
+      <p>Coverage per heater is approximate and varies with model, mounting height, environment and installation.${sup(1)} Mounting higher widens the pattern and lowers the warmth at the seat; never mount below the minimums, 72 in on a wall and 96 in on a ceiling, varying with output.${sup(2)}</p>
+      <p class="eyebrow sp">ELECTRIC OR GAS</p>
+      <p>Electric dims with an Affinity Dimmer; mounted gas is on or off and is written in Section 23 55 23.${sup(16, 6)}</p>
+    </div>
+  </div>`);
+
 // ------------------------------------------------------------------ 04 range by space
 const tile = (k, name, line, pos = 'center') => `<figure class="tile"><img src="${IMG(k)}" alt="${name}" style="object-position:${pos}">
   <figcaption><p class="tn">${name}</p><p>${line}</p></figcaption></figure>`;
-const p3 = sheet(4, 'The range by space', {
-  eyebrow: '03 · THE RANGE BY SPACE',
+const p3 = sheet(5, 'The range by space', {
+  eyebrow: '04 · THE RANGE BY SPACE',
   title: 'Start With How The Space Is Used',
   lede: 'A dining table needs even warmth at seated head height, a bar rail heat where guests stand, a lounge gentle warmth without glare.',
 }, `<div class="tiles">
@@ -193,10 +225,23 @@ const p3 = sheet(4, 'The range by space', {
   </div>
   <p class="note">Tungsten Select and Coastal launched in October 2026; the Classic collection follows in January 2027.</p>`);
 
+// ------------------------------------------------------------------ 06 plan the coverage (owner, 22 Nov 2026)
+const pPlan = sheet(6, 'Plan the coverage', {
+  eyebrow: '05 · PLAN THE COVERAGE',
+  title: 'Plan The Coverage Over The Furniture',
+  lede: `Draw each heater's approximate coverage over the furniture plan, zone by zone, and let Bromic's design team check it. Coverage varies with model, mounting height, environment and installation.${sup(1)}`,
+}, `${ph('centrico', `<b>HEAT PLAN</b> Centrico, a circular restaurant pavilion: Bromic's heat plan over a photo of its Platinum Gas heaters.${sup(18)}`, { h: '3.05in', pos: '50% 50%' })}
+  <div class="kplans">
+    ${ph('gasplan', `<b>ILLUSTRATIVE</b> Coverage of two Platinum Gas sizes over tables and chairs.${sup(15)}`, { h: '2.1in', fit: 'contain', cls: 'onblack' })}
+    ${ph('portplan', `<b>ILLUSTRATIVE</b> One Tungsten Freestanding Gas over six tables, about 16.5 by 13 ft.${sup(19)}`, { h: '2.1in', fit: 'contain', cls: 'green' })}
+    <figure class="dwgf kplan">${plan}<figcaption><b>ILLUSTRATIVE</b> Electric heaters over a dining terrace in three zones; footprints approximate.</figcaption></figure>
+  </div>
+  <p class="body">Give seated, standing and lounge areas their own heaters and zone. Bromic's complimentary design service returns coverage drawings from your plans or photos.${sup(1)}</p>`);
+
 // ------------------------------------------------------------------ 05 equipment schedule
 const row = (s, out, mount, fin, cov, ctl) => `<tr><td class="ser">${s}</td><td>${out}</td><td>${mount}</td><td>${fin}</td><td class="n">${cov}</td><td>${ctl}</td></tr>`;
-const p4 = sheet(5, 'Equipment schedule', {
-  eyebrow: '04 · EQUIPMENT SCHEDULE',
+const p4 = sheet(7, 'Equipment schedule', {
+  eyebrow: '06 · EQUIPMENT SCHEDULE',
   title: 'One Line For Each Heater',
   lede: `Coverage is approximate and varies with model, mounting height, environment and installation.${sup(1)}`,
 }, `${ph('harbour', '<b>SITE PHOTO</b> Platinum Electric Marine recessed in a tray ceiling over a harbourfront living pavilion.', { h: '1.6in', pos: '50% 30%' })}
@@ -212,12 +257,12 @@ const p4 = sheet(5, 'Equipment schedule', {
     ${row('Tungsten Select', `2, 3, 4 or 6 kW; 208, 240 or 277 V (2 kW: 240 V only)${sup(14)}`, 'Low-clearance recess, ceiling, wall, single-post', 'Black, White, Graphite', '64–144', `Dimmer as standard, or On/Off${sup(14)}`)}
     </tbody>
   </table>
-  <p class="note">Every zone also takes a manual wall switch (sheet 06). Gas heaters are written in Section 23 55 23. Warranty: Platinum Electric and Eclipse 3 years; Marine 5 years on land, 3 on vessels; Tungsten Select and Coastal 3 years heater, 7 years elements; Platinum Gas 2 years, excluding hoses and igniters.${sup(10, 12, 13, 15)}</p>`);
+  <p class="note">Every zone also takes a manual wall switch (sheet 08). Gas heaters are written in Section 23 55 23. Warranty: Platinum Electric and Eclipse 3 years; Marine 5 years on land, 3 on vessels; Tungsten Select and Coastal 3 years heater, 7 years elements; Platinum Gas 2 years, excluding hoses and igniters.${sup(10, 12, 13, 15)}</p>`);
 
 // ------------------------------------------------------------------ 06 specifying the controls (owner, 22 Nov 2026)
 const crow = (fam, ctl) => `<tr><td class="ser">${fam}</td><td>${ctl}</td><td>Manual wall switch</td></tr>`;
-const pCtl = sheet(6, 'Specifying the controls', {
-  eyebrow: '05 · CONTROLS',
+const pCtl = sheet(8, 'Specifying the controls', {
+  eyebrow: '07 · CONTROLS',
   title: 'Specifying The Controls',
   lede: `Every heater is specified with its Affinity Smart-Heat controller and a manual wall switch. A heater without its controller is not a complete system.${sup(1)}`,
 }, `<table class="eq kctlt">
@@ -245,8 +290,8 @@ const pCtl = sheet(6, 'Specifying the controls', {
     <p class="kpaste">Provide Affinity Smart-Heat® [On/Off] [Dimmer] [Eclipse] controller by Bromic Heating and a manual wall switch for each heater zone, as scheduled. Locate the wall switch where it is visible from the heated area. Wi-Fi and app features require compatible Affinity Smart-Heat Controls. Zone circuits as sized by the electrical engineer.</p></div>`);
 
 // ------------------------------------------------------------------ 05 mounting and clearances
-const p5 = sheet(7, 'Mounting and clearances', {
-  eyebrow: '06 · MOUNTING AND CLEARANCES',
+const p5 = sheet(9, 'Mounting and clearances', {
+  eyebrow: '08 · MOUNTING AND CLEARANCES',
   title: 'Height, Aim And Clearance',
   lede: `Mount no lower than the manufacturer's minimum for the model. Bromic's planning guidance has been 72 in for wall and 96 in for ceiling mounting, varying with output; confirm in the current manual.${sup(2)}`,
 }, `<figure class="dwgf">${mountDwg}<figcaption><b>SECTION · NTS</b> Minimum heights above finished floor; take the figure for each model from its current manual.</figcaption></figure>
@@ -258,8 +303,8 @@ const p5 = sheet(7, 'Mounting and clearances', {
   <p class="body">Keep the manufacturer's clearances to ceilings, walls, combustibles, sprinklers, lights, fans and awnings, and NEC 424.13.${sup(8)} Under high or pitched ceilings, suspension poles bring heaters to effective height.${sup(2)}</p>`);
 
 // ------------------------------------------------------------------ 06 recess detail
-const p6 = sheet(8, 'Recess detail', {
-  eyebrow: '07 · RECESS DETAIL',
+const p6 = sheet(10, 'Recess detail', {
+  eyebrow: '09 · RECESS DETAIL',
   title: 'A Flush Recess, Drawn Once',
   lede: 'A few clear lines on the section are what let a recessed heater sit flush with the ceiling on site.',
 }, `<div class="ktwo">
@@ -277,8 +322,8 @@ const p6 = sheet(8, 'Recess detail', {
 
 // ------------------------------------------------------------------ 07 guide spec, condensed
 const cl = (n, t) => `<p class="cl"><b>${n}</b><span>${t}</span></p>`;
-const p7 = sheet(9, 'Guide specification', {
-  eyebrow: '08 · GUIDE SPECIFICATION, CONDENSED',
+const p7 = sheet(11, 'Guide specification', {
+  eyebrow: '10 · GUIDE SPECIFICATION, CONDENSED',
   title: 'Section 23 83 33 Electric Radiant Heaters',
 }, `${ph('stone', '<b>SITE PHOTO</b> Eclipse Smart-Heat Electric pendants in a resort loggia at dusk.', { h: '2.1in', pos: '50% 35%' })}
   <div class="spec2">
@@ -304,8 +349,8 @@ const p7 = sheet(9, 'Guide specification', {
 
 // ------------------------------------------------------------------ 08 CAD and BIM, design service
 const bim = (p, rv, cad, yr, cls = '') => `<tr class="${cls}"><td class="ser">${p}</td><td>${rv}</td><td>${cad}</td><td class="n">${yr}</td></tr>`;
-const p8 = sheet(10, 'CAD, BIM and design service', {
-  eyebrow: '09 · CAD, BIM AND DESIGN SERVICE',
+const p8 = sheet(12, 'CAD, BIM and design service', {
+  eyebrow: '11 · CAD, BIM AND DESIGN SERVICE',
   title: 'Put The Heater In Your Model',
   lede: `Revit and CAD files are published by product and mounting. Download at <b style="white-space:nowrap">bromic.com/revit-bim-files</b>.${sup(9)}`,
 }, `<table class="eq bim">
@@ -339,8 +384,8 @@ const checks = [
   'Circuits and voltage coordinated with the electrical engineer.',
   'Energy code: does the AHJ require occupancy or timer control?',
 ];
-const p9 = sheet(11, 'Planning checklist', {
-  eyebrow: '10 · BEFORE YOU ISSUE',
+const p9 = sheet(13, 'Planning checklist', {
+  eyebrow: '12 · BEFORE YOU ISSUE',
   title: 'Your Planning Checklist',
 }, `${ph('pavilion', '<b>SITE PHOTO</b> An open timber pavilion with heaters recessed in the roof over a long dining table.', { h: '4.1in', pos: '50% 45%' })}
   <ul class="kchecks">${checks.map((c) => `<li><span class="kbx"></span>${c}</li>`).join('')}</ul>`);
@@ -363,6 +408,10 @@ const sources = [
   'Bromic, Tungsten Smart-Heat Electric Series II launch deck, July 2026.',
   'Bromic, Platinum Smart-Heat Gas product page, bromic.com, read 29 October 2026.',
   'Bromic, Affinity Smart-Heat Controls product pages, bromic.com, read 29 October 2026.',
+  'Bromic, <i>The Evolution of Outdoor Heating</i>, AIA/CES course AIA4041002 (course imagery), 2026.',
+  'Bromic, Centrico case study, bromic.com, read 29 October 2026.',
+  'Bromic, Tungsten Smart-Heat Freestanding product page, bromic.com, read 29 October 2026.',
+  'Bromic, wavelength classification of Platinum, Eclipse and Tungsten Smart-Heat Electric, November 2026.',
 ];
 const p10 = `<section class="page light k">
   <div class="grid"></div>${zones(false)}<div class="frame"></div>
@@ -381,7 +430,7 @@ const p10 = `<section class="page light k">
     <ol>${sources.map((s, i) => `<li><span class="ksn">${i + 1}</span><span>${s}</span></li>`).join('')}</ol>
     <p class="kdisc">This guide specification is a starting point for your professional judgement. Codes, listings and manufacturer requirements change. Confirm every requirement with the authority having jurisdiction and a licensed electrician, and use the manufacturer's current installation instructions for the model specified. Imagery is for design inspiration; product scale and placement may vary from actual specifications.${sup(1)}</p>
   </div>
-  ${strip(12, 'Next step and sources')}
+  ${strip(14, 'Next step and sources')}
 </section>`;
 
 // ------------------------------------------------------------------ styles (all scoped to .page.k)
@@ -473,6 +522,27 @@ const css = `
 .ktwo.d{grid-template-columns:3.3in 1fr;align-items:center}
 .kpair{display:grid;grid-template-columns:1fr 1fr;gap:.12in}
 .page.k .kpaste{font:400 11.5px/1.6 BzMono,monospace;color:${T.draw}}
+/* heating basics */
+.kmodes{display:grid;grid-template-columns:1fr 1fr 1.25fr;gap:.18in}
+.kmode{margin:0}
+.kmode img{display:block;width:100%;height:2.45in;object-fit:cover}
+.kmode figcaption{padding-top:7px}
+.kmode .tn{font-family:BzDidot,Didot,serif;font-size:18px;line-height:1.15;color:${T.ink};margin-bottom:3px}
+.page.k .kmode figcaption p:not(.tn){font-size:12px;line-height:1.45}
+.page.k .kcred{font-size:9.5px;color:${T.steel};margin-top:-8px}
+.ktwo.e{grid-template-columns:1fr 1fr;gap:.3in}
+.kwave{border-top:.5px solid ${T.hair};padding:7px 0}
+.kwave .wn{font:500 8px/1.3 BzMono,monospace;letter-spacing:.14em;text-transform:uppercase;color:${T.ink};margin-bottom:2px}
+.kwave.hi .wn{color:${T.flame}}
+.page.k .kwave p:not(.wn){font-size:12.5px}
+.page.k .ktwo.e p:not(.eyebrow):not(.wn){font-size:12.5px}
+.page.k p.eyebrow.sp{margin-top:12px}
+.ktwo.e .eyebrow{margin-bottom:6px}
+/* plan the coverage */
+.kplans{display:grid;grid-template-columns:1fr 1fr 1.15fr;gap:.18in;align-items:start}
+.ph.onblack img{background:#000}
+.ph.green img{background:#4E7A53}
+.kplan .dwg{height:2.1in;width:100%}
 /* sheet 07 */
 .spec2{display:grid;grid-template-columns:1fr 1fr;gap:.3in}
 .spec2 h4{font:500 8px/1.2 BzMono,monospace;letter-spacing:.16em;color:#fff;background:${T.draw};padding:5px 8px 4px;margin:0 0 9px}
@@ -509,7 +579,7 @@ const css = `
 .page.k .kdisc{font-size:8.5px;line-height:1.5;color:${T.steel};margin-top:12px}
 `;
 
-const html = page({ title: "The Architect's Spec Kit · Bromic Heating", css, body: [p1, pPos, p2, p3, p4, pCtl, p5, p6, p7, p8, p9, p10].join('\n') });
+const html = page({ title: "The Architect's Spec Kit · Bromic Heating", css, body: [p1, pPos, pBasics, p2, p3, pPlan, p4, pCtl, p5, p6, p7, p8, p9, p10].join('\n') });
 await render({ dir: here, html, pdf: 'Bromic-A11-Architects-Spec-Kit.pdf', meta: { item_id: 'A11', theme: 'blueprint', title: "The Architect's Spec Kit" } });
 // The gallery card: cover thumbnail 640 × 830, WebP q82, and its path in meta.json.
 execFileSync('python3', ['-c', "import sys\nfrom PIL import Image\nImage.open(sys.argv[1]).convert('RGB').resize((640,830),Image.LANCZOS).save(sys.argv[2],'WEBP',quality=82)", join(here, 'pages/p01.png'), join(here, 'cover-thumb.webp')]);
