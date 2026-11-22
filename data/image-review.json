@@ -1465,6 +1465,20 @@
    "status": "pending",
    "plate": "ts2-r8e-04",
    "review_note": "Original Coastal plate, two recessed graphite in the recess kit, centred over the seats. Heaters small (about 6% of frame) and logo not legible from this camera."
+  },
+  {
+   "id": "ts2-r9c-07",
+   "title": "Coastal beach-house porch, one recessed white heater in the recess kit, centred over the seating",
+   "kind": "CAD composite on a generated Coastal plate",
+   "finish": "white",
+   "w": 5056,
+   "h": 3392,
+   "file": "images/review/full/ts2-r9c-07.jpg",
+   "thumb": "images/review/thumb/ts2-r9c-07.webp",
+   "source": "Plate ts2-r8e-03 (owner-approved Coastal plate; owner 22 Nov: 'One heater is fine here', recessed, recess kit always, centred over the seating). One Series II 6 kW, white, in the recess kit from the '6kW heater and recess kit' CAD (the kit's only trim part is BMC-00659, marked obsolete in the CAD), flush with the beadboard. The heater is set 30 mm up inside the kit so its curved near lip stays inside the trim, and the BROMIC end-cap logo shows upright above the vent. Long axis runs with the boards, centred on the seating group (sofa, two armchairs, coffee table) as solved from the camera (one-point view, f about 5000 px; ceiling about 2.8 m), about 1.4 m clear of the crown molding. Elements deep orange (about 192/105/51), face matched to the shaded ceiling, clean grille edge, no open hollow.",
+   "status": "pending",
+   "plate": "ts2-r8e-03",
+   "review_note": "One recessed white heater in the recess kit, centred over the seating (owner: \"one heater is fine here\"). The kit trim is the only one in the CAD, marked obsolete there; confirm with the Product team. Pushed at the owner's request before the independent quality check."
   }
  ]
 }
