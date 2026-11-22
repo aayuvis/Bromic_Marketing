@@ -14,7 +14,7 @@ The full report (every model that fits, the controls for each, electrical load, 
 ## How it counts
 `count = ceil(area ÷ (nominal coverage × enclosure × climate × mount height × layout))`. Built-in heaters take the mount-height
 factor; freestanding heaters do not. A space with less than 30% of its perimeter permanently open is not treated as outdoor and is
-routed to the design team. Coming-soon models (Tungsten Coastal, Select) show a range, never a single count. Models without confirmed
+routed to the design team. Tungsten Coastal and Select show a range, never a single count. Models without confirmed
 coverage show "the Bromic design team sizes this model". Every result carries its controls bundle: Affinity Smart-Heat On/Off,
 Dimmer or Eclipse controller, wall switch and app. Wi-Fi and app features need compatible Affinity controls, sold separately.
 
