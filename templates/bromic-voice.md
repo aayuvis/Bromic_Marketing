@@ -63,3 +63,7 @@ controls statement and disclaimer stays, with the same meaning. A table stays a 
 
 ## Checks
 `app/test/content.mjs` warns on a long dash in body copy and on an exclamation mark. Fix the line; do not silence the warning.
+
+## Declining statistics (owner, 22 Nov 2026)
+
+When a statistic has fallen, never show the comparison with an earlier year – no "down from", no "second fall in a row", no slope or year-on-year chart of a decline. State the latest number on its own and frame it positively, e.g. "Architects Still Rank Outdoor Living First" with "a net 55% of architects report rising popularity (Q2 2025)". The fact stays exact and sourced; only the unfavourable comparison goes. Rising comparisons ("up from 65% in 2024") may stay. Internal `supports:` lines in front matter keep the full source facts.
