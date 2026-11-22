@@ -1,0 +1,115 @@
+{
+ "id": "cs-desert-mirage-blurring-the-lines-between-home-and-nature",
+ "kind": "bromic",
+ "draft": false,
+ "name": "Desert Mirage",
+ "sector": "Residential",
+ "country": "USA",
+ "line": "Desert Living, Late Into The Evening",
+ "pages": 2,
+ "privateHome": true,
+ "lede": "In the Sonoran Desert, a home built to bring the outside in needed its patio warm on cold evenings. A freestanding Eclipse heater arches over the lounge, giving warmth and light, and moves wherever the evening goes.",
+ "data": [
+  [
+   "Location",
+   "Scottsdale, Arizona"
+  ],
+  [
+   "Setting",
+   "Private home – outdoor patio"
+  ],
+  [
+   "Heaters",
+   "Eclipse Smart-Heat® Freestanding"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ]
+ ],
+ "hero": {
+  "img": "w-desert-mirage",
+  "pos": "50% 50%",
+  "caption": "Photograph published with the case study (credited there to Chris Smith and Istoria Films)."
+ },
+ "photos": [
+  {
+   "img": "w-dwellimage2",
+   "caption": "The covered terrace and stone fireplace wall. Bromic-published photograph from the case study."
+  },
+  {
+   "img": "w-dwell-modern-sunset-house",
+   "caption": "The home at dusk. Bromic-published photograph from the case study."
+  }
+ ],
+ "beats": [
+  [
+   "The Space",
+   "Framed by the McDowell Mountains, the home pairs expansive indoor and outdoor living with large glazed walls and glass hallways, bringing the desert landscape inside."
+  ],
+  [
+   "The Challenge",
+   "The owners wanted convenience and luxury, and a patio they could use on colder evenings, as part of a design that joins indoor and outdoor living."
+  ],
+  [
+   "The Solution",
+   "An Eclipse Smart-Heat Freestanding infrared heater stands on the patio, with an integrated dimmable LED light. It is not fixed in place, so it can be moved across the patio as needed."
+  ]
+ ],
+ "quote": {
+  "text": "The clients are here throughout fall, winter, and spring and they entertain frequently and spend a lot of time outside.",
+  "who": "Bradley Leavitt",
+  "role": "Founder, AFT Construction"
+ },
+ "team": [
+  "Contractor: AFT Construction",
+  "Architecture: Cosan Studio",
+  "Interior design: Alisha Taylor Interiors"
+ ],
+ "products": [
+  {
+   "coll": "Eclipse",
+   "name": "Eclipse Smart-Heat® Freestanding",
+   "img": "w-dwellimage6",
+   "p": "eclipse-freestanding",
+   "pos": "50% 40%",
+   "where": "Outdoor patio and seating area",
+   "mount": "Freestanding; moved across the patio as needed",
+   "extra": [
+    [
+     "Light",
+     "Integrated dimmable LED"
+    ]
+   ],
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "notes": [
+  "The quotation is as published on the case study; check the wording against the live page before print.",
+  "Featured by Dwell, as the case study notes. A private home: named by town only."
+ ],
+ "slug": "Desert-Mirage",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-desert-mirage-blurring-the-lines-between-home-and-nature",
+  "url": "https://www.bromic.com/case-study/desert-mirage-blurring-the-lines-between-home-and-nature/",
+  "also_at": [
+   "https://www.bromic.com.au/case-study/desert-mirage-blurring-the-lines-between-home-and-nature/",
+   "https://www.bromic.ca/case-study/desert-mirage-blurring-the-lines-between-home-and-nature/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Desert Mirage: Blurring the Lines Between Home and Nature”, case study – bromic.com/case-study/desert-mirage-blurring-the-lines-between-home-and-nature (also on bromic.com.au and bromic.ca)."
+ ],
+ "layout": {
+  "pages": 2,
+  "zones": true,
+  "table": true,
+  "quote": false
+ }
+}

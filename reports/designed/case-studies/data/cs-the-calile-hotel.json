@@ -1,0 +1,89 @@
+{
+ "id": "cs-the-calile-hotel",
+ "kind": "bromic",
+ "draft": false,
+ "name": "The Calile Hotel",
+ "sector": "Hospitality",
+ "country": "Australia",
+ "line": "A Heater In Every Cabana",
+ "pages": 1,
+ "dateText": "2019",
+ "lede": "Seven private cabanas line the pool deck of The Calile, Brisbane’s urban resort hotel on James Street. Each has its own power, a ceiling fan and an overhead Bromic heater that guests control from inside.",
+ "data": [
+  [
+   "Location",
+   "James Street, Brisbane"
+  ],
+  [
+   "Setting",
+   "Urban resort hotel – seven pool-deck cabanas"
+  ],
+  [
+   "Heaters",
+   "Platinum Smart-Heat® Electric"
+  ],
+  [
+   "Controls",
+   "Guest-controlled in each cabana; control to confirm"
+  ],
+  [
+   "Date",
+   "2019"
+  ]
+ ],
+ "hero": {
+  "img": "w-calilehero-2",
+  "pos": "50% 50%",
+  "caption": "The pool deck and its cabanas. Bromic-published photograph from the case study."
+ },
+ "beats": [
+  [
+   "The Space",
+   "Developed by Michael and Cal Malouf, The Calile is a high-end urban resort designed around the guest experience, with seven private cabanas along its pool deck."
+  ],
+  [
+   "The Challenge",
+   "Each cabana was to be a private, self-contained retreat, with comfort the guest can set for themselves."
+  ],
+  [
+   "The Solution",
+   "Every cabana has private power, a USB charging point, a ceiling fan and an overhead Bromic heater, controlled by the guest from inside."
+  ]
+ ],
+ "products": [
+  {
+   "coll": "Platinum",
+   "name": "Platinum Smart-Heat® Electric",
+   "img": "portfolio:platinum-electric",
+   "p": "platinum-electric",
+   "where": "Seven pool-deck cabanas, one each",
+   "mount": "Overhead",
+   "controls": "Guests control it from inside the cabana; the control is not named"
+  }
+ ],
+ "slug": "The-Calile-Hotel",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-the-calile-hotel",
+  "url": "https://www.bromic.com/case-study/the-calile-hotel/",
+  "also_at": [
+   "https://www.bromic.com.au/case-study/the-calile-hotel/",
+   "https://www.bromic.ca/case-study/the-calile-hotel/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Platinum Electric Heaters at The Calile Hotel”, case study, 2019 – bromic.com/case-study/the-calile-hotel (also on bromic.com.au and bromic.ca)."
+ ],
+ "notes": [],
+ "layout": {
+  "pages": 1,
+  "quote": false,
+  "heroH": 2.6,
+  "beatSize": 7.6
+ }
+}

@@ -1,0 +1,147 @@
+{
+ "id": "cs-smart-heating-aboard-the-most-technologically-advanced-cruis",
+ "kind": "bromic",
+ "draft": false,
+ "name": "Silver Nova",
+ "sector": "Marine",
+ "country": "Cruise",
+ "line": "Seventy Heaters, Out Of Sight",
+ "pages": 3,
+ "dateText": "2023",
+ "lede": "Silversea’s Silver Nova was designed to bring guests closer to their destination. Seventy Platinum Electric Marine heaters, recessed or suspended, warm its main gathering spaces without drawing the eye from the view.",
+ "data": [
+  [
+   "Vessel",
+   "Silver Nova, Silversea Cruises"
+  ],
+  [
+   "Setting",
+   "Outdoor gathering spaces and decks"
+  ],
+  [
+   "Heaters",
+   "Platinum Smart-Heat® Electric Marine (70)"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ],
+  [
+   "Date",
+   "2023"
+  ]
+ ],
+ "hero": {
+  "img": "w-most-advanced-cruise-ship-built",
+  "pos": "50% 50%",
+  "caption": "Platinum Electric Marine on the beam of a ship-top terrace. Bromic-published photograph from the case study."
+ },
+ "photos": [
+  {
+   "img": "w-web-bromic-heating-silversea-silver-nova-202-2",
+   "pos": "50% 50%",
+   "caption": "A deck lounge under the glazed canopy. Bromic-published photograph from the case study."
+  },
+  {
+   "img": "w-web-bromic-heating-silversea-silver-nova-202-3",
+   "pos": "50% 50%",
+   "caption": "White heaters flush in a promenade ceiling. Bromic-published photograph from the case study."
+  }
+ ],
+ "beats": [
+  [
+   "The Space",
+   "The twelfth ship in Silversea’s fleet carries up to 728 guests. Its asymmetrical, horizontal design links public areas in one continuous flow, and aft suites have 270° views."
+  ],
+  [
+   "The Challenge",
+   "The Royal Caribbean Group’s designers wanted comfortable warmth in outdoor and gathering areas that stayed visually unobtrusive and supported year-round use."
+  ],
+  [
+   "The Solution",
+   "Working with Bromic’s Daniel Bruntsch on a free 2D heat plan, the team placed 70 Platinum Smart-Heat Electric Marine heaters, with recess kits and mounting poles for flush and suspended installs. Meyer Werft installed them in Papenburg, Germany."
+  ]
+ ],
+ "zones": {
+  "title": "Where The Warmth Goes On Board",
+  "shape": "hull",
+  "note": "Spaces shown together on one outline; drawn from the case study’s list, not from the ship’s plans.",
+  "items": [
+   {
+    "l": "A",
+    "name": "SALT LAB",
+    "text": "Dining.",
+    "w": 1
+   },
+   {
+    "l": "B",
+    "name": "Shade House",
+    "text": "Dining.",
+    "w": 1
+   },
+   {
+    "l": "C",
+    "name": "Stargazing Deck",
+    "text": "Open deck.",
+    "w": 1
+   },
+   {
+    "l": "D",
+    "name": "The Marquee",
+    "text": "Gathering space.",
+    "w": 1
+   }
+  ]
+ },
+ "quote": {
+  "text": "We worked with Daniel to place the heaters near where they would work best and be the most efficient.",
+  "who": "Analise Bizzotto",
+  "role": "Lead of Architectural Design, Newbuilding and Innovation, Royal Caribbean Group"
+ },
+ "team": [
+  "Installer: Meyer Werft, Papenburg"
+ ],
+ "products": [
+  {
+   "coll": "Platinum",
+   "name": "Platinum Smart-Heat® Electric Marine",
+   "img": "w-web-bromic-heating-silversea-silver-nova-202-4",
+   "p": "platinum-marine",
+   "where": "Main gathering spaces; decks 4, 5, 5 Crew and 10A–10C",
+   "qty": "70",
+   "mount": "Recessed (Platinum Electric Recess Kit) and suspended (Platinum Electric Mounting Poles)",
+   "extra": [
+    [
+     "Build",
+     "Sealed body, tinted ceramic glass, AISI 316 stainless steel"
+    ]
+   ],
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "notes": [
+  "The case study does not say which mounting is used where, or how many heaters are in each space. The quotation is as published on the case study; check the wording against the live page before print."
+ ],
+ "slug": "Silver-Nova",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-smart-heating-aboard-the-most-technologically-advanced-cruis",
+  "url": "https://www.bromic.com/case-study/smart-heating-aboard-the-most-technologically-advanced-cruiseship-built-to-date/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/smart-heating-aboard-the-most-technologically-advanced-cruiseship-built-to-date/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Smart Heating Aboard The Most Technologically Advanced Cruiseship Built to Date”, case study, 2023 – bromic.com/case-study/smart-heating-aboard-the-most-technologically-advanced-cruiseship-built-to-date (also on bromic.ca)."
+ ],
+ "layout": {
+  "pages": 3,
+  "quote": true,
+  "quoteOn": 2
+ }
+}

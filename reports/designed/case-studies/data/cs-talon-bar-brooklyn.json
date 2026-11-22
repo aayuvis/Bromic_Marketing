@@ -1,0 +1,81 @@
+{
+ "id": "cs-talon-bar-brooklyn",
+ "kind": "bromic",
+ "draft": false,
+ "name": "Talon Bar",
+ "sector": "Bar",
+ "country": "USA",
+ "line": "A Backyard Kept Open",
+ "pages": 1,
+ "lede": "Talon Bar’s lush backyard patio carried it through the pandemic, with Tungsten Electric heaters suspended from the ceiling over the guests.",
+ "data": [
+  [
+   "Location",
+   "Brooklyn, New York"
+  ],
+  [
+   "Setting",
+   "Bar – backyard patio"
+  ],
+  [
+   "Heaters",
+   "Tungsten Smart-Heat® Electric"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ]
+ ],
+ "hero": {
+  "img": "w-dsc000111",
+  "pos": "50% 50%",
+  "caption": "Tungsten Electric over the plant-filled courtyard. Bromic-published photograph from the case study."
+ },
+ "beats": [
+  [
+   "The Space",
+   "Talon is a bar in Brooklyn with a lush backyard patio."
+  ],
+  [
+   "The Challenge",
+   "The case study says the patio, with its heaters, helped the bar through the COVID-19 pandemic; it does not set out the brief."
+  ],
+  [
+   "The Solution",
+   "Tungsten Smart-Heat Electric heaters, suspended from the ceiling, warm the patio. The case study gives no quantities."
+  ]
+ ],
+ "products": [
+  {
+   "coll": "Tungsten",
+   "name": "Tungsten Smart-Heat® Electric",
+   "img": "w-dsc00012",
+   "p": "tungsten-electric",
+   "where": "Backyard patio",
+   "mount": "Suspended from the ceiling",
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "slug": "Talon-Bar",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-talon-bar-brooklyn",
+  "url": "https://www.bromic.com/case-study/talon-bar-brooklyn/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/talon-bar-brooklyn/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Tungsten Electric Heaters at Talon Bar”, case study – bromic.com/case-study/talon-bar-brooklyn (also on bromic.ca)."
+ ],
+ "notes": [],
+ "layout": {
+  "pages": 1,
+  "quote": true
+ }
+}

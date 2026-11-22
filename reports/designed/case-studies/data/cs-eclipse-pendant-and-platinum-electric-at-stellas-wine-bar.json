@@ -1,0 +1,119 @@
+{
+ "id": "cs-eclipse-pendant-and-platinum-electric-at-stellas-wine-bar",
+ "kind": "bromic",
+ "draft": false,
+ "name": "Stella’s Wine Bar",
+ "sector": "Hospitality",
+ "country": "USA",
+ "line": "A Patio For Every Season",
+ "pages": 2,
+ "dateText": "2021",
+ "lede": "At Landry’s The Post Oak Hotel, the patio of Stella’s Wine Bar is bigger than the room inside. Four Eclipse pendants and two Platinum Electric heaters, planned with Bromic’s design service, keep it full through fall and winter.",
+ "data": [
+  [
+   "Location",
+   "The Post Oak Hotel, Houston, Texas"
+  ],
+  [
+   "Setting",
+   "Wine bar patio around an olive tree"
+  ],
+  [
+   "Heaters",
+   "Eclipse Smart-Heat® Electric pendant (4) · Platinum Smart-Heat® Electric (2)"
+  ],
+  [
+   "Controls",
+   "Eclipse Dimmer Controller (4) · Wireless Dimmer Controller"
+  ],
+  [
+   "Date",
+   "2021"
+  ]
+ ],
+ "hero": {
+  "img": "w-stellas-wine-bar-houston-tx-3",
+  "pos": "50% 50%",
+  "caption": "Eclipse pendants over the tables around the olive tree. Bromic-published photograph from the case study."
+ },
+ "photos": [
+  {
+   "img": "w-stellas-bromic-eclipse-and-platinum-electric",
+   "caption": "Bromic-published photograph from the case study."
+  },
+  {
+   "img": "w-stellas-bromic-platinum-electric",
+   "caption": "Platinum Smart-Heat® Electric over the bar seating. Bromic-published photograph from the case study."
+  }
+ ],
+ "beats": [
+  [
+   "The Space",
+   "Stella’s outdoor patio is larger than its indoor seating and is centred on a signature olive tree, in a hotel built around a luxurious atmosphere."
+  ],
+  [
+   "The Challenge",
+   "On cool evenings and overcast days, guests stayed inside. Landry’s wanted the patio used all year, to keep revenue steady through fall and winter."
+  ],
+  [
+   "The Solution",
+   "Bromic’s complimentary design service produced a 2D heat plan. Four Eclipse Electric pendants hang on 24-inch straight poles over the tables, and two Platinum Electric heaters sit on a 2-foot ceiling mount."
+  ]
+ ],
+ "quote": {
+  "text": "I like that you can adjust the heat and the light from afar without intruding on the guests’ experience.",
+  "who": "Julie Dalton",
+  "role": "Sommelier, Stella’s Wine Bar"
+ },
+ "products": [
+  {
+   "coll": "Eclipse",
+   "name": "Eclipse Smart-Heat® Electric",
+   "img": "w-stellas-bromic-eclipse-heater",
+   "p": "eclipse-electric",
+   "where": "Over the patio tables",
+   "qty": "4",
+   "mount": "Pendant on 24-inch straight poles",
+   "controls": "Eclipse Dimmer Controller, one per heater – heat and light"
+  },
+  {
+   "coll": "Platinum",
+   "name": "Platinum Smart-Heat® Electric",
+   "img": "w-stellas-bromic-platinum-electric",
+   "p": "platinum-electric",
+   "pos": "50% 40%",
+   "where": "Patio",
+   "qty": "2",
+   "mount": "2-foot ceiling mount, Platinum Electric mounting poles",
+   "controls": "Wireless Dimmer Controller"
+  }
+ ],
+ "notes": [
+  "The quotation is as published on the case study; check the wording against the live page before print."
+ ],
+ "slug": "Stellas-Wine-Bar",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-eclipse-pendant-and-platinum-electric-at-stellas-wine-bar",
+  "url": "https://www.bromic.com/case-study/eclipse-pendant-and-platinum-electric-at-stellas-wine-bar/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/eclipse-pendant-and-platinum-electric-at-stellas-wine-bar/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Eclipse Pendant and Platinum Electric at Stella’s Wine Bar”, case study, 2021 – bromic.com/case-study/eclipse-pendant-and-platinum-electric-at-stellas-wine-bar (also on bromic.ca)."
+ ],
+ "layout": {
+  "pages": 2,
+  "zones": false,
+  "table": false,
+  "quote": false,
+  "photos": 0,
+  "noProductPhotos": true
+ }
+}

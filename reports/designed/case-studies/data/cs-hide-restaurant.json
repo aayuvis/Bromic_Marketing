@@ -1,0 +1,97 @@
+{
+ "id": "cs-hide-restaurant",
+ "kind": "bromic",
+ "draft": false,
+ "name": "HIDE",
+ "sector": "Restaurant",
+ "country": "United Kingdom",
+ "line": "Alfresco On Piccadilly",
+ "pages": 1,
+ "dateText": "2020",
+ "lede": "When dining moved outdoors, HIDE extended onto the streets of Piccadilly. Matte black freestanding Tungsten gas heaters keep its gazebo terrace comfortable in an unpredictable London climate.",
+ "data": [
+  [
+   "Location",
+   "Piccadilly, London"
+  ],
+  [
+   "Setting",
+   "Michelin-starred restaurant – street terrace"
+  ],
+  [
+   "Heaters",
+   "Tungsten Smart-Heat® Freestanding Gas, matte black"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ],
+  [
+   "Date",
+   "2020"
+  ]
+ ],
+ "hero": {
+  "img": "w-hide-london-4",
+  "pos": "50% 50%",
+  "caption": "Freestanding gas heaters among the tables on the terrace. Bromic-published photograph from the case study."
+ },
+ "beats": [
+  [
+   "The Space",
+   "HIDE is a three-storey Michelin-starred restaurant. During the pandemic it extended onto Piccadilly with an alfresco terrace sheltered by gazebos and framed by pampas grass."
+  ],
+  [
+   "The Challenge",
+   "With dining limited to outdoors and the weather unpredictable even in summer, guests needed to feel safe and comfortable outside."
+  ],
+  [
+   "The Solution",
+   "Bromic Tungsten Smart-Heat Freestanding gas heaters in matte black stand among the tables, bringing heat to the terrace without fixed mounting."
+  ]
+ ],
+ "products": [
+  {
+   "coll": "Tungsten",
+   "name": "Tungsten Smart-Heat® Freestanding Gas",
+   "img": "w-hide-london-5",
+   "p": "tungsten-freestanding-gas",
+   "where": "Alfresco terrace under gazebos",
+   "mount": "Freestanding",
+   "extra": [
+    [
+     "Finish",
+     "Matte black"
+    ]
+   ],
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "slug": "HIDE",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-hide-restaurant",
+  "url": "https://www.bromic.com/case-study/hide-restaurant/",
+  "also_at": [
+   "https://www.bromic.com.au/case-study/hide-restaurant/",
+   "https://www.bromic.ca/case-study/hide-restaurant/",
+   "https://www.bromic.co.uk/case-study/hide-restaurant/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Freestanding Tungsten Gas Heaters at HIDE Restaurant”, case study, 2020 – bromic.com/case-study/hide-restaurant (also on bromic.com.au and bromic.ca and bromic.co.uk)."
+ ],
+ "notes": [],
+ "layout": {
+  "pages": 1,
+  "quote": false,
+  "heroH": 2.4,
+  "beatSize": 7.4,
+  "lede": false
+ }
+}

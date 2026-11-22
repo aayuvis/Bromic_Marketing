@@ -1,0 +1,87 @@
+{
+ "id": "CSW-07",
+ "kind": "web-draft",
+ "draft": true,
+ "name": "Outdoor Room, Houston",
+ "sector": "Residential",
+ "country": "USA",
+ "line": "Warm All Year, Even In Texas",
+ "pages": 1,
+ "privateHome": true,
+ "lede": "In Houston’s Memorial area, a patio builder created an outdoor living space of about 550 sq ft, with an outdoor kitchen and Bromic heaters so it stays comfortable all year.",
+ "data": [
+  [
+   "Location",
+   "Memorial area, Houston, Texas"
+  ],
+  [
+   "Setting",
+   "Private home – outdoor living area, about 550 sq ft"
+  ],
+  [
+   "Heaters",
+   "Bromic heaters – model to confirm"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ]
+ ],
+ "hero": {
+  "img": "l-010-076",
+  "pos": "50% 50%",
+  "caption": "Comparable Bromic installation, not this project: replace with project photography once licensed."
+ },
+ "beats": [
+  [
+   "The Space",
+   "An outdoor living area of about 550 sq ft with an outdoor kitchen, built by Texas Custom Patios."
+  ],
+  [
+   "The Challenge",
+   "In a warm-climate market, the outdoor room still had to be usable on the few cold evenings – all year round."
+  ],
+  [
+   "The Solution",
+   "Bromic heaters were installed for year-round comfort. The project page has since been taken down; the details come from its search listing."
+  ]
+ ],
+ "team": [
+  "Builder and installer: Texas Custom Patios"
+ ],
+ "products": [
+  {
+   "coll": "Bromic",
+   "name": "Bromic heaters – model to confirm",
+   "img": null,
+   "p": "bromic",
+   "where": "Outdoor living area",
+   "mount": "To confirm",
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "slug": "Outdoor-Room-Houston",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "file": "content/case-studies/web/CSW-07-tcp-houston.md",
+  "evidence": "snippet-only",
+  "completeness": "full-draft",
+  "owner_review": "US field sales"
+ },
+ "sources": [
+  "Texas Custom Patios (search snippet only) (texascustompatios.com)."
+ ],
+ "notes": [
+  "Draft from public sources: nothing here has been confirmed with the customer. Publish only once the consent checklist in the case-study template is complete."
+ ],
+ "layout": {
+  "pages": 1,
+  "quote": false,
+  "heroH": 2.6,
+  "beatSize": 7.6
+ }
+}

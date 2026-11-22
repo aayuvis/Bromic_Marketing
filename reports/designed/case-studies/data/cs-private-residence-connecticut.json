@@ -1,0 +1,108 @@
+{
+ "id": "cs-private-residence-connecticut",
+ "kind": "bromic",
+ "draft": false,
+ "name": "Porch, Connecticut",
+ "sector": "Residential",
+ "country": "USA",
+ "line": "New England, Past Summer",
+ "pages": 2,
+ "privateHome": true,
+ "dateText": "September 2015",
+ "lede": "The owner of a traditional Connecticut house wanted the outdoor spaces in use once the warm weather was over. White Tungsten Electric heaters, recessed into the porch ceiling, make it so.",
+ "data": [
+  [
+   "Location",
+   "Connecticut"
+  ],
+  [
+   "Setting",
+   "Private home – covered porch"
+  ],
+  [
+   "Heaters",
+   "Tungsten Smart-Heat® Electric 6000 W, white, recessed"
+  ],
+  [
+   "Controls",
+   "Wireless Dimmer Controllers"
+  ],
+  [
+   "Date",
+   "September 2015"
+  ]
+ ],
+ "hero": {
+  "img": "w-connecticut-privateresidence-tungstenelectri",
+  "pos": "50% 50%",
+  "caption": "Recessed heaters in the white porch ceiling. Bromic-published photograph from the case study."
+ },
+ "photos": [
+  {
+   "img": "w-tungsten-electric-white-recessed",
+   "caption": "Three white Tungsten Electric heaters in a beadboard ceiling. Bromic-published photograph from the case study."
+  },
+  {
+   "img": "w-connecticut-private-res-tungsten-electric-1",
+   "caption": "The dimmer controller enclosure. Bromic-published photograph from the case study."
+  }
+ ],
+ "beats": [
+  [
+   "The Space",
+   "An elegant, traditional residence in Connecticut, with outdoor spaces that its owner wanted to keep using in the New England climate."
+  ],
+  [
+   "The Challenge",
+   "Once the warm weather was over, the outdoor spaces went unused. Extending their season was the priority."
+  ],
+  [
+   "The Solution",
+   "White Tungsten Smart-Heat Electric 6000 W heaters were recessed into the outdoor ceilings with a flush mounting kit, run on Wireless Dimmer Controllers."
+  ]
+ ],
+ "products": [
+  {
+   "coll": "Tungsten",
+   "name": "Tungsten Smart-Heat® Electric",
+   "img": "w-connecticut-privateresidence-tungstenelectri-2",
+   "p": "tungsten-electric",
+   "where": "Covered outdoor spaces",
+   "qty": "6000 W",
+   "mount": "Recessed – Tungsten Electric Recess Kit; flush mounting kit",
+   "extra": [
+    [
+     "Finish",
+     "White"
+    ]
+   ],
+   "controls": "Wireless Dimmer Controllers"
+  }
+ ],
+ "notes": [
+  "A private home: named by state only. The case study gives no heater quantities."
+ ],
+ "slug": "Porch-Connecticut",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-private-residence-connecticut",
+  "url": "https://www.bromic.com/case-study/private-residence-connecticut/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/private-residence-connecticut/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Tungsten Electric Heaters in Connecticut”, case study, September 2015 – bromic.com/case-study/private-residence-connecticut (also on bromic.ca)."
+ ],
+ "layout": {
+  "pages": 2,
+  "zones": true,
+  "table": true,
+  "quote": true
+ }
+}

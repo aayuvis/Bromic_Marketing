@@ -1,0 +1,96 @@
+{
+ "id": "cs-platinum-electric-heaters-recessed-using-the-low-clearance-r",
+ "kind": "bromic",
+ "draft": false,
+ "name": "Artivo Shades New Build",
+ "sector": "Residential",
+ "country": "North America",
+ "line": "Recessed, Clean And Modern",
+ "pages": 1,
+ "dateText": "June 2023",
+ "lede": "On a part-built project with a pergola already in place, Artivo Shades wanted heat that kept a clean, modern look. Platinum Electric heaters, recessed with the Low Clearance Recess Kit, sit flush in the ceiling.",
+ "data": [
+  [
+   "Location",
+   "Not stated"
+  ],
+  [
+   "Setting",
+   "New build – outdoor entertaining space with pergola"
+  ],
+  [
+   "Heaters",
+   "Platinum Smart-Heat® Electric · Low Clearance Recess Kit"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ],
+  [
+   "Date",
+   "June 2023"
+  ]
+ ],
+ "hero": {
+  "img": "w-bromic-shoot-may-11-2023-54",
+  "pos": "50% 50%",
+  "caption": "Platinum Electric recessed flush in a timber-lined ceiling. Bromic-published photograph from the case study."
+ },
+ "beats": [
+  [
+   "The Space",
+   "The client wanted an outdoor entertaining space usable all year. The project was part-built when the heaters were specified, with an outdoor pergola already in place."
+  ],
+  [
+   "The Challenge",
+   "The heating had to keep a minimalist, modern look, and the recess had to work with construction that was already under way."
+  ],
+  [
+   "The Solution",
+   "Bromic’s design service recommended the Platinum Electric Low Clearance Recess Kit, whose lower clearance requirements make installation easier, and the heaters were recessed directly into the ceiling."
+  ]
+ ],
+ "quote": {
+  "text": "The Platinum Electric heaters are so clean and modern looking that people don’t even recognize them as heaters.",
+  "who": "Nikhil Barua",
+  "role": "Project Manager, Artivo Shades"
+ },
+ "products": [
+  {
+   "coll": "Platinum",
+   "name": "Platinum Smart-Heat® Electric",
+   "img": "w-bromic-shoot-may-11-2023-39",
+   "p": "platinum-electric",
+   "where": "Outdoor entertaining space",
+   "mount": "Recessed with the Platinum Electric Low Clearance Recess Kit",
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "notes": [
+  "The case study lists the kit as “Platinum Electric Recess Kit” in its product list and “Low Clearance Recess Kit” in its text; the kit name is to confirm. The quotation is as published on the case study; check the wording against the live page before print."
+ ],
+ "slug": "Artivo-Shades-New-Build",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-platinum-electric-heaters-recessed-using-the-low-clearance-r",
+  "url": "https://www.bromic.com/case-study/platinum-electric-heaters-recessed-using-the-low-clearance-recess-kit/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/platinum-electric-heaters-recessed-using-the-low-clearance-recess-kit/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Platinum Electric Heaters Recessed Using the Low Clearance Recess Kit”, case study, June 2023 – bromic.com/case-study/platinum-electric-heaters-recessed-using-the-low-clearance-recess-kit (also on bromic.ca)."
+ ],
+ "layout": {
+  "pages": 1,
+  "quote": false,
+  "heroH": 2.4,
+  "beatSize": 7.4,
+  "lede": false
+ }
+}

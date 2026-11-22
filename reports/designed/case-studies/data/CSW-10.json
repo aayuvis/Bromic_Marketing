@@ -1,0 +1,90 @@
+{
+ "id": "CSW-10",
+ "kind": "web-draft",
+ "draft": true,
+ "name": "The Camellia Hotel",
+ "sector": "Pub",
+ "country": "Australia",
+ "line": "Warmth That Starts On The Roof",
+ "pages": 1,
+ "lede": "Through a cold Sydney winter, The Camellia Hotel wanted heat that stays discreet, adjusts to the evening and recesses neatly into the ceiling. The owner is reported to run the Bromic heaters on the pub’s rooftop solar.",
+ "data": [
+  [
+   "Location",
+   "Rosehill, western Sydney"
+  ],
+  [
+   "Setting",
+   "Pub"
+  ],
+  [
+   "Heaters",
+   "Bromic heaters – model to confirm"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ],
+  [
+   "Date",
+   "2022"
+  ]
+ ],
+ "hero": {
+  "img": "w-platinum-electric-del-friscos-century-city-2",
+  "pos": "50% 45%",
+  "caption": "Comparable Bromic installation, not this project: replace with project photography once licensed."
+ },
+ "beats": [
+  [
+   "The Space",
+   "A local pub in Rosehill, in Sydney’s west, with newly built outdoor areas."
+  ],
+  [
+   "The Challenge",
+   "The brief was heat that stays discreet, adjusts to the evening, recesses neatly into the ceiling and sits in harmony with the decor."
+  ],
+  [
+   "The Solution",
+   "The pub chose Bromic heaters, and the owner is reported to run them on the venue’s rooftop solar, so the warmth overhead begins with the sun on the roof."
+  ]
+ ],
+ "products": [
+  {
+   "coll": "Bromic",
+   "name": "Bromic heaters – model to confirm",
+   "img": null,
+   "p": "bromic",
+   "where": "Outdoor areas",
+   "mount": "Recessed – to confirm",
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "notes": [
+  "Draft from public sources: nothing here has been confirmed with the customer. Publish only once the consent checklist in the case-study template is complete.",
+  "The solar system (80 kW) is from the solar supplier’s own page, which does not mention Bromic."
+ ],
+ "slug": "The-Camellia-Hotel",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "file": "content/case-studies/web/CSW-10-camellia-hotel.md",
+  "evidence": "snippet-only",
+  "completeness": "full-draft",
+  "owner_review": "Bromic AU – to confirm"
+ },
+ "sources": [
+  "Australian Hotelier (The Intermedia Group), August 2022 (search snippet only): issuu.com/theintermediagroup/docs/australian_hotelier_august_2022/s/16584437",
+  "Solaria (search snippet only): solaria.com/australia/blog/camellia-hotel"
+ ],
+ "layout": {
+  "pages": 1,
+  "quote": false,
+  "heroH": 2.4,
+  "beatSize": 7.4,
+  "lede": false
+ }
+}

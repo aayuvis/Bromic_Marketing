@@ -1,0 +1,135 @@
+{
+ "id": "cs-m-y-lady-lene-superyacht",
+ "kind": "bromic",
+ "draft": false,
+ "name": "M/Y Lady Lene",
+ "sector": "Marine",
+ "country": "Superyacht",
+ "line": "Aft Decks For Every Season",
+ "pages": 2,
+ "dateText": "2021",
+ "lede": "On a custom 34-metre explorer yacht from Van der Valk, white Platinum Electric Marine heaters are recessed into the deck heads of the VIP balcony and the aft entertainment deck, so the owner and guests use them all year.",
+ "data": [
+  [
+   "Vessel",
+   "34-metre explorer superyacht"
+  ],
+  [
+   "Setting",
+   "Aft deck entertainment area and VIP balcony"
+  ],
+  [
+   "Heaters",
+   "Platinum Smart-Heat® Electric Marine, white"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ],
+  [
+   "Date",
+   "2021"
+  ]
+ ],
+ "hero": {
+  "img": "w-marine-grade-platinum-electric-white-lady-le",
+  "pos": "50% 50%",
+  "caption": "Heaters recessed flush in the curved aft deck ceiling. Bromic-published photograph from the case study."
+ },
+ "photos": [
+  {
+   "img": "w-bromic-heating-marine-platinum-electric-lady",
+   "caption": "Platinum Electric Marine over the aft lounge at sunset. Bromic-published photograph from the case study."
+  }
+ ],
+ "beats": [
+  [
+   "The Space",
+   "The aft entertainment area is the yacht’s design focus, with zones to relax and dine, a bar and a swim platform. Built by Van der Valk, she was designed by a team including Diana Yacht Design and Ginton Naval Architects."
+  ],
+  [
+   "The Challenge",
+   "The owner and guests wanted the aft decks comfortable and usable year-round, with heating that suited the yacht’s clean, elegant design."
+  ],
+  [
+   "The Solution",
+   "White Platinum Smart-Heat Electric Marine heaters, in AISI316 stainless steel, were recessed into the bridge deck aft VIP balcony and the aft deck entertainment area."
+  ]
+ ],
+ "zones": {
+  "title": "Two Decks Aft",
+  "shape": "hull",
+  "note": "Decks shown side by side; drawn from the case study’s description, not from the yacht’s plans.",
+  "items": [
+   {
+    "l": "A",
+    "name": "Aft deck entertainment",
+    "text": "Relaxing, dining and the bar, above the swim platform. Recessed Platinum Electric Marine.",
+    "w": 1.3
+   },
+   {
+    "l": "B",
+    "name": "Bridge deck VIP balcony",
+    "text": "Recessed Platinum Electric Marine.",
+    "w": 1
+   }
+  ]
+ },
+ "quote": {
+  "text": "Each time the heaters are turned on, the heat is felt immediately at the perfect temperature.",
+  "who": "Andre Caixêta",
+  "role": "Chief Engineer, M/Y Lady Lene"
+ },
+ "team": [
+  "Shipyard: Van der Valk",
+  "Design: Diana Yacht Design",
+  "Naval architecture: Ginton Naval Architects",
+  "Exteriors: Guido de Groot",
+  "Interior styling: Carla Guilhem"
+ ],
+ "products": [
+  {
+   "coll": "Platinum",
+   "name": "Platinum Smart-Heat® Electric Marine",
+   "img": "w-bromic-heating-marine-platinum-electric-lady",
+   "p": "platinum-marine",
+   "pos": "50% 30%",
+   "where": "Aft deck entertainment area; bridge deck aft VIP balcony",
+   "mount": "Recessed in the deck heads",
+   "extra": [
+    [
+     "Finish",
+     "White; AISI316 stainless steel"
+    ]
+   ],
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "notes": [
+  "The case study states the heaters are certified by Lloyd’s Register. The quotation is as published on the case study; check the wording against the live page before print."
+ ],
+ "slug": "M-Y-Lady-Lene",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-m-y-lady-lene-superyacht",
+  "url": "https://www.bromic.com/case-study/m-y-lady-lene-superyacht/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/m-y-lady-lene-superyacht/",
+   "https://www.bromic.co.uk/case-study/m-y-lady-lene-superyacht/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Platinum Electric Marine Heaters aboard the M/Y Lady Lene Superyacht”, case study, 2021 – bromic.com/case-study/m-y-lady-lene-superyacht (also on bromic.ca and bromic.co.uk)."
+ ],
+ "layout": {
+  "pages": 2,
+  "zones": false,
+  "table": false,
+  "quote": false
+ }
+}

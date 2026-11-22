@@ -1,0 +1,155 @@
+{
+ "id": "cs-eclipse-electric-and-tungsten-electric-at-pink-hill-hotel",
+ "kind": "bromic",
+ "draft": false,
+ "name": "Pink Hill Hotel",
+ "sector": "Hospitality",
+ "country": "Australia",
+ "line": "Warmth Under Every Ceiling",
+ "pages": 3,
+ "dateText": "December 2023",
+ "lede": "A newly built pub and live entertainment venue wanted its outdoor terraces full through the colder months, with nothing taking away from the room. Bromic matched a heater to each ceiling, keeping precise directional heat on the tables and every feature wall in view.",
+ "data": [
+  [
+   "Location",
+   "Beaconsfield, Australia"
+  ],
+  [
+   "Setting",
+   "Pub and live entertainment venue – outdoor terraces"
+  ],
+  [
+   "Heaters",
+   "Eclipse Smart-Heat® Electric · Eclipse Pendant · Tungsten Smart-Heat® Electric"
+  ],
+  [
+   "Controls",
+   "Eclipse Dimmer Controller on Eclipse; Tungsten to confirm"
+  ],
+  [
+   "Date",
+   "December 2023"
+  ]
+ ],
+ "hero": {
+  "img": "w-tungsten-electric-bromic-pinkhill-547-1",
+  "pos": "50% 55%",
+  "caption": "Tungsten Smart-Heat® Electric on drop poles over the dining terrace."
+ },
+ "beats": [
+  [
+   "The Space",
+   "Pink Hill is a new pub built for live music, with function rooms and outdoor terraces under high ceilings, sections of operable roof and feature walls that give each room its character."
+  ],
+  [
+   "The Challenge",
+   "The venue wanted its terraces in use through the colder months without losing the atmosphere. Heaters had to suit ceilings of very different heights, work with only certain parts of the operable roof’s structure and leave every feature wall in view."
+  ],
+  [
+   "The Solution",
+   "After reviewing the site plans, Bromic’s commercial sales team specified a mix: compact Eclipse Pendants under the high fixed ceiling, Eclipse Electric over the dining tables and high-output Tungsten Electric in the larger rooms and under the operable roof."
+  ]
+ ],
+ "zones": {
+  "title": "One Heater For Each Ceiling",
+  "shape": "plan",
+  "items": [
+   {
+    "l": "A",
+    "name": "Feature-wall lounge",
+    "text": "Higher fixed ceiling. The smaller Eclipse Pendant keeps the view of the feature wall clear.",
+    "w": 1.1
+   },
+   {
+    "l": "B",
+    "name": "Modern dining",
+    "text": "Eclipse Electric gives spot heat and light over each table, on a 24-inch twin pole and a custom pole.",
+    "w": 1
+   },
+   {
+    "l": "C",
+    "name": "Industrial-style room",
+    "text": "Tungsten Electric for high output, lowered to a suitable height on a 1200 mm pole.",
+    "w": 1
+   },
+   {
+    "l": "D",
+    "name": "Operable roof",
+    "text": "Tungsten Electric mounted on the structural beams and angled toward guests, chosen for Melbourne’s winter.",
+    "w": 1
+   }
+  ]
+ },
+ "photos": [
+  {
+   "img": "w-eclipse-electric-tungsten-electric-bromic-pi",
+   "pos": "50% 40%",
+   "caption": "Tungsten Electric and Eclipse heaters under the timber-slat ceiling, the feature wall left clear."
+  },
+  {
+   "img": "w-pink-hills-hotel-aus-2",
+   "pos": "50% 30%",
+   "caption": "Eclipse Pendants on drop rods in the feature-wall lounge."
+  }
+ ],
+ "products": [
+  {
+   "coll": "Eclipse",
+   "name": "Eclipse Smart-Heat® Electric",
+   "img": "w-eclipse-electric-bromic-pinkhill-532-2",
+   "p": "eclipse-electric",
+   "pos": "50% 55%",
+   "where": "Modern dining, over the tables",
+   "mount": "24-inch twin pole and a custom pole",
+   "controls": "Eclipse Dimmer Controller – three built-in heat and light presets for staff"
+  },
+  {
+   "coll": "Eclipse",
+   "name": "Eclipse Pendant",
+   "img": "w-eclipse-electric-bromic-pinkhill-553-1",
+   "p": "eclipse-pendant",
+   "pos": "20% 30%",
+   "where": "Feature-wall lounge, higher fixed ceiling",
+   "mount": "Pendant on drop rods",
+   "controls": "Eclipse Dimmer Controller – three built-in heat and light presets for staff"
+  },
+  {
+   "coll": "Tungsten",
+   "name": "Tungsten Smart-Heat® Electric",
+   "img": "w-tungsten-electric-bromic-pinkhill-524",
+   "p": "tungsten-electric",
+   "pos": "30% 50%",
+   "where": "Industrial-style room and operable roof",
+   "mount": "1200 mm pole; structural beams, angled",
+   "controls": "To confirm – the case study does not name them"
+  }
+ ],
+ "sources": [
+  "Bromic, “Eclipse Electric and Tungsten Electric at Pink Hill Hotel”, case study, December 2023 – bromic.com/case-study/eclipse-electric-and-tungsten-electric-at-pink-hill-hotel (also on bromic.com.au and bromic.ca).",
+  "Photography: Bromic-published images from the case study and the Eclipse 24-inch Twin Pole and Tungsten Smart-Heat® Electric product pages. Photographer credit to confirm."
+ ],
+ "notes": [
+  "The case study gives no heater quantities or positions; the plan shows heated zones only. It lists the Tungsten pole as “3 ft (1200 mm)” – 1200 mm is about 4 ft, so the length is shown in millimetres only until it is confirmed."
+ ],
+ "slug": "Pink-Hill-Hotel",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-eclipse-electric-and-tungsten-electric-at-pink-hill-hotel",
+  "url": "https://www.bromic.com/case-study/eclipse-electric-and-tungsten-electric-at-pink-hill-hotel/",
+  "also_at": [
+   "https://www.bromic.com.au/case-study/eclipse-electric-and-tungsten-electric-at-pink-hill-hotel/",
+   "https://www.bromic.ca/case-study/eclipse-electric-and-tungsten-electric-at-pink-hill-hotel/"
+  ],
+  "read": "2026-11-22"
+ },
+ "layout": {
+  "pages": 3,
+  "quote": true,
+  "quoteOn": 2,
+  "wideH": 3.2
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "id": "cs-print-restaurant",
+ "kind": "bromic",
+ "draft": false,
+ "name": "Print Restaurant",
+ "sector": "Restaurant",
+ "country": "USA",
+ "line": "Open To The Hudson",
+ "pages": 2,
+ "dateText": "January 2017",
+ "lede": "Print serves seasonal, organic American food in an old print factory, with outdoor spaces exposed to New York’s weather. Tungsten Electric heaters throughout the outdoor and pool areas keep guests out with the view.",
+ "data": [
+  [
+   "Location",
+   "New York, overlooking the Hudson River"
+  ],
+  [
+   "Setting",
+   "Restaurant in a former print factory – outdoor and pool areas"
+  ],
+  [
+   "Heaters",
+   "Tungsten Smart-Heat® Electric 6000 W"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ],
+  [
+   "Date",
+   "January 2017"
+  ]
+ ],
+ "hero": {
+  "img": "w-printrestaurant-tungstenelectric-02",
+  "pos": "50% 50%",
+  "caption": "Tungsten Electric on the window frame, the skyline beyond. Bromic-published photograph from the case study."
+ },
+ "photos": [
+  {
+   "img": "w-2014-01-29-17-10-54",
+   "caption": "Over the river at sunset. Bromic-published photograph from the case study."
+  },
+  {
+   "img": "w-tungsten-2",
+   "caption": "Bromic-published photograph from the case study."
+  }
+ ],
+ "beats": [
+  [
+   "The Space",
+   "Print occupies an old print factory and serves sustainable, seasonal and organic modern American food in an elegant setting. Its outdoor spaces look out over the Hudson River."
+  ],
+  [
+   "The Challenge",
+   "The outdoor spaces take the full force of New York’s weather. The restaurant wanted guests to use them fully and enjoy the view."
+  ],
+  [
+   "The Solution",
+   "Tungsten Smart-Heat Electric 6000 W heaters were installed throughout the outdoor and pool areas."
+  ]
+ ],
+ "products": [
+  {
+   "coll": "Tungsten",
+   "name": "Tungsten Smart-Heat® Electric",
+   "img": "w-tungsten-3",
+   "p": "tungsten-electric",
+   "where": "Outdoor spaces and pool area",
+   "qty": "6000 W",
+   "mount": "To confirm",
+   "extra": [
+    [
+     "Finish",
+     "Black, as photographed"
+    ]
+   ],
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "slug": "Print-Restaurant",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-print-restaurant",
+  "url": "https://www.bromic.com/case-study/print-restaurant/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/print-restaurant/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Tungsten Electric Heaters at Print Restaurant”, case study, January 2017 – bromic.com/case-study/print-restaurant (also on bromic.ca)."
+ ],
+ "notes": [],
+ "layout": {
+  "pages": 2,
+  "zones": true,
+  "table": true,
+  "quote": true
+ }
+}

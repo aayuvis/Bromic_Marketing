@@ -1,0 +1,88 @@
+{
+ "id": "CSW-02",
+ "kind": "web-draft",
+ "draft": true,
+ "name": "Mountain Estate, Breckenridge",
+ "sector": "Residential",
+ "country": "USA",
+ "line": "Heated Terraces At Altitude",
+ "pages": 1,
+ "privateHome": true,
+ "lede": "High in the mountains of Breckenridge, a newly built estate of about 10,250 sq ft lists heated terraces, a full outdoor kitchen and Bromic heaters among its outdoor spaces.",
+ "data": [
+  [
+   "Location",
+   "Breckenridge, Colorado"
+  ],
+  [
+   "Setting",
+   "New-build private estate – terraces"
+  ],
+  [
+   "Heaters",
+   "Bromic heaters – model to confirm"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ],
+  [
+   "Date",
+   "2026 (year built)"
+  ]
+ ],
+ "beats": [
+  [
+   "The Space",
+   "A newly built mountain estate of about 10,250 sq ft, with resort-level outdoor spaces finished in charred-wood cladding."
+  ],
+  [
+   "The Challenge",
+   "In a ski town, outdoor living depends on heat: the terraces had to be usable in the cold."
+  ],
+  [
+   "The Solution",
+   "Bromic heaters warm the terraces beside a full Hestan outdoor kitchen. The listing does not give the model, the mounting or the number of heaters."
+  ]
+ ],
+ "products": [
+  {
+   "coll": "Bromic",
+   "name": "Bromic heaters – model to confirm",
+   "img": null,
+   "p": "bromic",
+   "where": "Terraces beside the outdoor kitchen",
+   "mount": "To confirm",
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "notes": [
+  "Draft from public sources: nothing here has been confirmed with the customer. Publish only once the consent checklist in the case-study template is complete.",
+  "A private home known from a real-estate listing: named by town only, no address."
+ ],
+ "slug": "Mountain-Estate-Breckenridge",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "file": "content/case-studies/web/CSW-02-breckenridge-estate.md",
+  "evidence": "page-read",
+  "completeness": "full-draft",
+  "owner_review": "US field sales"
+ },
+ "sources": [
+  "Breckenridge Associates (listing office Engel & Volkers Denver/Breckenridge), MLS S1068575 (breckenridgehomes.net).",
+  "you1stunity.com featured properties (you1stunity.com)."
+ ],
+ "hero": {
+  "img": "v-breckenridge-estate-1",
+  "caption": "Photo: Listing photography (Engel & Völkers Denver listing), via breckenridgehomes.net. Permission to publish to be confirmed."
+ },
+ "layout": {
+  "pages": 1,
+  "quote": true,
+  "heroH": 2.8
+ }
+}

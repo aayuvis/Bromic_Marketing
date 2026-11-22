@@ -1,0 +1,90 @@
+{
+ "id": "cs-del-friscos-double-eagle-steakhouse",
+ "kind": "bromic",
+ "draft": false,
+ "name": "Del Frisco’s Double Eagle Steakhouse",
+ "sector": "Restaurant",
+ "country": "USA",
+ "line": "Year-Round Dining In Century City",
+ "pages": 1,
+ "dateText": "January 2019",
+ "lede": "On the patio of a Los Angeles steakhouse, three Platinum Electric heaters keep outdoor dining open all year, with a wireless dimmer to set the heat through the day.",
+ "data": [
+  [
+   "Location",
+   "Westfield Century City, Los Angeles"
+  ],
+  [
+   "Setting",
+   "Steakhouse dining patio in a shopping centre"
+  ],
+  [
+   "Heaters",
+   "Platinum Smart-Heat® Electric, 3400 W (3)"
+  ],
+  [
+   "Controls",
+   "Wireless controller and wireless dimmer"
+  ],
+  [
+   "Date",
+   "January 2019"
+  ]
+ ],
+ "hero": {
+  "img": "w-platinum-electric-del-friscos-century-city-2",
+  "pos": "50% 45%",
+  "caption": "Platinum Smart-Heat® Electric at Del Frisco’s, Century City. Bromic-published photograph (Platinum Electric Mounting Poles product page)."
+ },
+ "beats": [
+  [
+   "The Space",
+   "Del Frisco’s Double Eagle Steakhouse has an outdoor dining patio at Westfield Century City, a shopping and entertainment centre in Los Angeles."
+  ],
+  [
+   "The Challenge",
+   "The restaurant group wanted the patio in use year-round, with guests comfortable from lunch through the evening in a Southern California climate."
+  ],
+  [
+   "The Solution",
+   "Three 3400-watt Platinum Smart-Heat Electric heaters were installed on the patio. A wireless controller and wireless dimmer let staff turn the output down when less heat is needed."
+  ]
+ ],
+ "products": [
+  {
+   "coll": "Platinum",
+   "name": "Platinum Smart-Heat® Electric",
+   "img": "portfolio:platinum-electric",
+   "p": "platinum-electric",
+   "where": "Outdoor dining patio",
+   "qty": "3 × 3400 W",
+   "mount": "To confirm",
+   "controls": "Wireless controller and wireless dimmer – output can be dimmed"
+  }
+ ],
+ "slug": "Del-Friscos-Double-Eagle-Steakhouse",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-del-friscos-double-eagle-steakhouse",
+  "url": "https://www.bromic.com/case-study/del-friscos-double-eagle-steakhouse/",
+  "also_at": [
+   "https://www.bromic.com.au/case-study/del-friscos/",
+   "https://www.bromic.ca/case-study/del-friscos-double-eagle-steakhouse/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Platinum Electric Heaters at Del Frisco’s Steakhouse”, case study, January 2019 – bromic.com/case-study/del-friscos-double-eagle-steakhouse (also on bromic.com.au and bromic.ca)."
+ ],
+ "notes": [],
+ "layout": {
+  "pages": 1,
+  "quote": false,
+  "heroH": 2.6,
+  "beatSize": 7.6
+ }
+}

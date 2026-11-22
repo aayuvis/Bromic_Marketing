@@ -1,0 +1,115 @@
+{
+ "id": "cs-christophers-at-wrigley-mansion",
+ "kind": "bromic",
+ "draft": false,
+ "name": "Christopher’s At Wrigley Mansion",
+ "sector": "Restaurant",
+ "country": "USA",
+ "line": "The Heater That Made The Patio",
+ "pages": 2,
+ "dateText": "2022",
+ "lede": "A new restaurant at Phoenix’s historic Wrigley Mansion needed a patio to meet demand, and the patio needed heat that suited a 1931 landmark. Freestanding Eclipse heaters now arch over the tables, warmth and light in one.",
+ "data": [
+  [
+   "Location",
+   "Wrigley Mansion, Phoenix, Arizona"
+  ],
+  [
+   "Setting",
+   "Restaurant patio at a 1931 landmark"
+  ],
+  [
+   "Heaters",
+   "Eclipse Smart-Heat® Freestanding"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ],
+  [
+   "Date",
+   "2022"
+  ]
+ ],
+ "hero": {
+  "img": "w-wrigley-mansion-phoenix-arizona-22",
+  "pos": "50% 50%",
+  "caption": "Bromic-published photograph from the case study."
+ },
+ "photos": [
+  {
+   "img": "w-wrigleys-mansion-eclipse-portable-heater-4",
+   "caption": "The terrace below the mansion at dusk. Bromic-published photograph from the case study."
+  },
+  {
+   "img": "w-wrigley-mansion-phoenix-arizona-17",
+   "caption": "Bromic-published photograph from the case study."
+  }
+ ],
+ "beats": [
+  [
+   "The Space",
+   "Completed in 1931, the Wrigley Mansion is a Phoenix landmark with a view over the city skyline. Owner Jamie Hormel and restaurateur Christopher Gross, partners of more than 15 years, opened a new Christopher’s there, with a new patio."
+  ],
+  [
+   "The Challenge",
+   "To meet demand the restaurant needed the patio, and the patio needed heat. Architect Wendell Burnette had to find heaters that fit the historic design and the atmosphere of the space."
+  ],
+  [
+   "The Solution",
+   "Working with Bromic’s heating experts, Burnette chose the Eclipse Smart-Heat Freestanding: an electric heater with dimmable LED lighting built in, standing beside each table and reaching over it."
+  ]
+ ],
+ "quote": {
+  "text": "We had to find the right heater or we couldn’t do the patio, that’s what it came down to.",
+  "who": "Wendell Burnette",
+  "role": "Architect, Wendell Burnette Architects"
+ },
+ "team": [
+  "Architect: Wendell Burnette Architects"
+ ],
+ "products": [
+  {
+   "coll": "Eclipse",
+   "name": "Eclipse Smart-Heat® Freestanding",
+   "img": "w-wrigleys-mansion-eclipse-portable-heater-4",
+   "p": "eclipse-freestanding",
+   "pos": "60% 50%",
+   "where": "Restaurant patio",
+   "mount": "Freestanding, arching over the tables",
+   "extra": [
+    [
+     "Light",
+     "Dimmable LED, built in"
+    ]
+   ],
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "notes": [
+  "The quotation is as published on the case study; check the wording against the live page before print."
+ ],
+ "slug": "Christophers-At-Wrigley-Mansion",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-christophers-at-wrigley-mansion",
+  "url": "https://www.bromic.com/case-study/christophers-at-wrigley-mansion/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/christophers-at-wrigley-mansion/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Eclipse Freestanding for Christopher’s at Wrigley Mansion”, case study, 2022 – bromic.com/case-study/christophers-at-wrigley-mansion (also on bromic.ca)."
+ ],
+ "layout": {
+  "pages": 2,
+  "zones": true,
+  "table": true,
+  "quote": false
+ }
+}

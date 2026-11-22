@@ -1,0 +1,84 @@
+{
+ "id": "CSW-15",
+ "kind": "web-draft",
+ "draft": true,
+ "name": "Mein Schiff 4",
+ "sector": "Marine",
+ "country": "Cruise",
+ "line": "A Private Terrace At The Top",
+ "pages": 1,
+ "lede": "The Himmel & Meer loft suites sit on the top deck of TUI Cruises’ Mein Schiff 4, each with its own terrace. As part of an upgrade, Platinum Electric Marine heaters let guests sit out whenever the air turns cool.",
+ "data": [
+  [
+   "Vessel",
+   "Mein Schiff 4, TUI Cruises"
+  ],
+  [
+   "Setting",
+   "Himmel & Meer loft suites – private terraces"
+  ],
+  [
+   "Heaters",
+   "Platinum Smart-Heat® Electric Marine"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ],
+  [
+   "Date",
+   "2019 upgrade"
+  ]
+ ],
+ "beats": [
+  [
+   "The Space",
+   "Loft suites on the top deck, each opening onto its own private terrace with a view of the sea."
+  ],
+  [
+   "The Challenge",
+   "Guests wanted to use their terraces in the cool air of northern itineraries."
+  ],
+  [
+   "The Solution",
+   "Platinum Smart-Heat Electric Marine heaters were fitted to the suite terraces as part of an upgrade in 2019."
+  ]
+ ],
+ "products": [
+  {
+   "coll": "Platinum",
+   "name": "Platinum Smart-Heat® Electric Marine",
+   "img": "m-mein-schiff-4-2",
+   "p": "platinum-marine",
+   "where": "Private suite terraces",
+   "mount": "Wall-mounted, as photographed – to confirm",
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "slug": "Mein-Schiff-4",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "file": "content/case-studies/web/CSW-15-mein-schiff-4-suites.md",
+  "evidence": "bromic-publication",
+  "completeness": "full-draft",
+  "owner_review": "Marine team"
+ },
+ "sources": [
+  "Bromic Heating (Marine presentation PDF, 2022): bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf"
+ ],
+ "notes": [
+  "Draft from public sources: nothing here has been confirmed with the customer. Publish only once the consent checklist in the case-study template is complete."
+ ],
+ "hero": {
+  "img": "m-mein-schiff-4-1",
+  "caption": "Mein Schiff 4, from Bromic's marine presentation (2022)."
+ },
+ "layout": {
+  "pages": 1,
+  "quote": true
+ }
+}

@@ -56,6 +56,8 @@ export async function render({ dir, html, pdf, meta }) {
         if (skip(el)) return;
         if (el.scrollWidth > el.clientWidth + 1 && el.clientWidth > 0) out.push(`${P} overflow-x: "${el.textContent.trim().slice(0, 50)}"`);
       });
+      // 3b. page furniture (folio, title strip) must sit on the page itself, or a bad tag has swallowed it
+      pg.querySelectorAll('.folio, .strip, .tblock').forEach((el) => { if (el.parentElement !== pg) out.push(`${P} ${el.className} is not a direct child of its page (unclosed tag?)`); });
       // 4. overlapping blocks (.blk) on the same page; a block nested in another block is the parent's business
       const blocks = [...pg.querySelectorAll('.blk')].filter((b) => !b.parentElement.closest('.blk'));
       for (let a = 0; a < blocks.length; a++) for (let b = a + 1; b < blocks.length; b++) {

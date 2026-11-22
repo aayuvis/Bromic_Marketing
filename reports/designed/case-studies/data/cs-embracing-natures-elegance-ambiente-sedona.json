@@ -1,0 +1,137 @@
+{
+ "id": "cs-embracing-natures-elegance-ambiente-sedona",
+ "kind": "bromic",
+ "draft": false,
+ "name": "Ambiente Sedona",
+ "sector": "Hospitality",
+ "country": "USA",
+ "line": "Warmth Among The Red Rocks",
+ "pages": 3,
+ "lede": "Sedona’s desert nights turn cold from fall to spring. At Ambiente, freestanding Eclipse heaters arch over the communal lounges and fire pits, while Tungsten Electric warms each guest deck and the places where staff stand outside.",
+ "data": [
+  [
+   "Location",
+   "Sedona, Arizona"
+  ],
+  [
+   "Setting",
+   "Landscape hotel – communal lounges, guest decks"
+  ],
+  [
+   "Heaters",
+   "Eclipse Smart-Heat® Freestanding · Tungsten Smart-Heat® Electric"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ]
+ ],
+ "hero": {
+  "img": "w-bromic-ambiente-sedona-10",
+  "pos": "50% 55%",
+  "caption": "Eclipse Freestanding over the sofas and fire pits at dusk. Bromic-published photograph from the case study."
+ },
+ "photos": [
+  {
+   "img": "w-bromic-ambiente-sedona",
+   "pos": "50% 50%",
+   "caption": "Tungsten Electric over a sunken lounge, the red rocks beyond. Bromic-published photograph from the case study."
+  },
+  {
+   "img": "w-bromic-ambiente-sedona-4",
+   "pos": "50% 50%",
+   "caption": "Eclipse heaters over the communal lounge. Bromic-published photograph from the case study."
+  }
+ ],
+ "beats": [
+  [
+   "The Space",
+   "Ambiente sits among Sedona’s red rocks, with modern architecture that balances private guest quarters with communal spaces: outdoor couches, linear fire pits and a pool."
+  ],
+  [
+   "The Challenge",
+   "Temperatures can drop sharply from fall to spring. The hotel needed heaters powerful enough for cold desert conditions that also suited its modern design."
+  ],
+  [
+   "The Solution",
+   "Bromic’s design team drafted heat plans for both models and coordinated with Ambiente’s electrician before the grand opening. Eclipse Freestanding reaches over the couches and fire pits; Tungsten Electric covers the private patio decks and staff work areas."
+  ]
+ ],
+ "zones": {
+  "title": "Communal, Private, Working",
+  "shape": "plan",
+  "items": [
+   {
+    "l": "A",
+    "name": "Communal lounges",
+    "text": "Eclipse Freestanding over the couches and fire pits, and along the areas that border them.",
+    "w": 1.5
+   },
+   {
+    "l": "B",
+    "name": "Guest patio decks",
+    "text": "Tungsten Electric on the decks of guests’ private quarters.",
+    "w": 1
+   },
+   {
+    "l": "C",
+    "name": "Staff areas",
+    "text": "Tungsten Electric where employees stand outside for long periods.",
+    "w": 0.8
+   }
+  ]
+ },
+ "quote": {
+  "text": "We sought sleek, contemporary elements that seamlessly melded with the surrounding natural beauty.",
+  "who": "Jennifer May",
+  "role": "Co-owner, Ambiente"
+ },
+ "products": [
+  {
+   "coll": "Eclipse",
+   "name": "Eclipse Smart-Heat® Freestanding",
+   "img": "w-bromic-ambiente-sedona-5",
+   "p": "eclipse-freestanding",
+   "pos": "50% 40%",
+   "where": "Communal lounges, couches and fire pits",
+   "mount": "Freestanding",
+   "controls": "To confirm – the source does not name them"
+  },
+  {
+   "coll": "Tungsten",
+   "name": "Tungsten Smart-Heat® Electric",
+   "img": "w-bromic-ambiente-sedona-11",
+   "p": "tungsten-electric",
+   "pos": "50% 40%",
+   "where": "Guest patio decks; staff work areas",
+   "mount": "To confirm",
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "notes": [
+  "The case study gives no heater quantities, and says more heaters are planned. The quotation is as published on the case study; check the wording against the live page before print."
+ ],
+ "slug": "Ambiente-Sedona",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-embracing-natures-elegance-ambiente-sedona",
+  "url": "https://www.bromic.com/case-study/embracing-natures-elegance-ambiente-sedona/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/embracing-natures-elegance-ambiente-sedona/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Embracing Nature’s Elegance: Ambiente Sedona”, case study – bromic.com/case-study/embracing-natures-elegance-ambiente-sedona (also on bromic.ca)."
+ ],
+ "layout": {
+  "pages": 3,
+  "quote": true,
+  "quoteOn": 2,
+  "wideH": 3.2
+ }
+}

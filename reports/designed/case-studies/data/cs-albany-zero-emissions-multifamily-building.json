@@ -1,0 +1,114 @@
+{
+ "id": "cs-albany-zero-emissions-multifamily-building",
+ "kind": "bromic",
+ "draft": false,
+ "name": "Industrie",
+ "sector": "Multifamily Residential",
+ "country": "USA",
+ "line": "Warmth Without A Flame",
+ "pages": 2,
+ "dateText": "2024",
+ "lede": "An all-electric apartment building in Albany wanted its rooftop patio in use on cool evenings, without a gas fire table in sight. A freestanding Eclipse heater brings heat and light to the deck and comes inside for the winter.",
+ "data": [
+  [
+   "Location",
+   "Albany, New York"
+  ],
+  [
+   "Setting",
+   "Zero-emissions apartment building – rooftop patio"
+  ],
+  [
+   "Heaters",
+   "Eclipse Smart-Heat® Freestanding"
+  ],
+  [
+   "Controls",
+   "To confirm – residents adjust the heat; the control is not named"
+  ],
+  [
+   "Date",
+   "2024"
+  ]
+ ],
+ "hero": {
+  "img": "w-industrie-roof-deck-1",
+  "pos": "50% 60%",
+  "caption": "Bromic-published photograph from the case study."
+ },
+ "photos": [
+  {
+   "img": "w-rdc-industrie-may-2024-14-edit",
+   "pos": "50% 40%",
+   "caption": "The rooftop amenity deck. Bromic-published photograph from the case study."
+  },
+  {
+   "img": "w-industrie-apartments-exterior",
+   "pos": "50% 50%",
+   "caption": "Industrie, Albany. Bromic-published photograph from the case study."
+  }
+ ],
+ "beats": [
+  [
+   "The Space",
+   "Industrie, The Rosenblum Companies’ all-electric, zero-emissions building, has a rooftop patio that serves as its residents’ social hub, with views of the Downtown Albany skyline and the Hudson River."
+  ],
+  [
+   "The Challenge",
+   "The developer wanted the patio usable into the cooler months and evenings. In an all-electric building, gas fire pits and heaters were ruled out: the warmth had to come without combustion."
+  ],
+  [
+   "The Solution",
+   "Bromic recommended an Eclipse Smart-Heat Freestanding heater, provided heat maps for the furniture layout and worked with Rosenblum’s engineers on the install. A dedicated outlet set into the deck avoids visible cords, and the heater can be taken down and stored when the rooftop closes for winter."
+  ]
+ ],
+ "quote": {
+  "text": "Bromic’s Eclipse heater allows our residents to comfortably enjoy this key amenity well into the cooler months.",
+  "who": "Jeff Mirel",
+  "role": "Principal, The Rosenblum Companies"
+ },
+ "products": [
+  {
+   "coll": "Eclipse",
+   "name": "Eclipse Smart-Heat® Freestanding",
+   "img": "w-rdc-industrie-may-2024-14-edit",
+   "p": "eclipse-freestanding",
+   "pos": "50% 30%",
+   "where": "Rooftop patio",
+   "mount": "Freestanding; dedicated outlet set into the deck; stored over winter",
+   "extra": [
+    [
+     "Warmth",
+     "A warming area 11 ft across, with integrated LED light, as the case study states"
+    ]
+   ],
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "notes": [
+  "The quotation is as published on the case study; check the wording against the live page before print."
+ ],
+ "slug": "Industrie",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-albany-zero-emissions-multifamily-building",
+  "url": "https://www.bromic.com/case-study/albany-zero-emissions-multifamily-building/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/albany-zero-emissions-multifamily-building/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Creating a Year-Round Rooftop Retreat in Albany's First Zero-Emissions Multifamily Building”, case study, 2024 – bromic.com/case-study/albany-zero-emissions-multifamily-building (also on bromic.ca)."
+ ],
+ "layout": {
+  "pages": 2,
+  "zones": true,
+  "table": true,
+  "quote": false
+ }
+}

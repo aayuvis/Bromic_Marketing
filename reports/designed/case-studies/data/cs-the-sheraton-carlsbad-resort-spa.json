@@ -1,0 +1,112 @@
+{
+ "id": "cs-the-sheraton-carlsbad-resort-spa",
+ "kind": "bromic",
+ "draft": false,
+ "name": "Sheraton Carlsbad Resort & Spa",
+ "sector": "Hospitality",
+ "country": "USA",
+ "line": "Twelve Years On The Coast",
+ "pages": 2,
+ "dateText": "October 2020",
+ "lede": "On a 120-seat patio facing the Pacific, fifteen Platinum Gas heaters have warmed sunset dinners since 2008. When parts wore after twelve coastal years, Bromic replaced the components, not the heaters.",
+ "data": [
+  [
+   "Location",
+   "Carlsbad, California"
+  ],
+  [
+   "Setting",
+   "Twenty/20 Grill & Wine Bar – 120-seat patio"
+  ],
+  [
+   "Heaters",
+   "Platinum Smart-Heat® Gas (15)"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ],
+  [
+   "Date",
+   "October 2020 (installed 2008)"
+  ]
+ ],
+ "hero": {
+  "img": "w-platinum-gas-sheraton-carlsbad-ca-usa",
+  "pos": "50% 50%",
+  "caption": "Platinum Gas on drop poles behind the fire feature at night. Bromic-published photograph from the case study."
+ },
+ "photos": [
+  {
+   "img": "w-20-twenty-westin-carlsbad-6-1024x576-1",
+   "caption": "The dining terrace at dusk. Bromic-published photograph from the case study."
+  },
+  {
+   "img": "w-26962413-10155347734127686-68414710268315124",
+   "caption": "Bromic-published photograph from the case study."
+  }
+ ],
+ "beats": [
+  [
+   "The Space",
+   "The 209-room resort’s Twenty/20 Grill & Wine Bar has an outdoor patio for 120 guests overlooking the Pacific, where diners come for the sunset."
+  ],
+  [
+   "The Challenge",
+   "Coastal breezes make evenings chilly. After about twelve years on the coast, the heaters showed wear, and the hotel needed parts fast – without the time and cost of replacing every heater."
+  ],
+  [
+   "The Solution",
+   "Fifteen Platinum Smart-Heat Gas heaters were installed in 2008. Their modular design meant only critical components – from inside the control module to the ignition wires and burners – had to be exchanged."
+  ]
+ ],
+ "quote": {
+  "text": "Guests love to sit in this area especially during dinner to view the setting sun over the Pacific Ocean while dining.",
+  "who": "Kent Bailey",
+  "role": "Complex Director of Engineering, Sheraton Carlsbad Resort & Spa"
+ },
+ "products": [
+  {
+   "coll": "Platinum",
+   "name": "Platinum Smart-Heat® Gas",
+   "img": "portfolio:platinum-gas",
+   "p": "platinum-gas",
+   "where": "120-seat outdoor patio",
+   "qty": "15",
+   "mount": "To confirm",
+   "extra": [
+    [
+     "Service",
+     "Modular: critical parts exchanged, heaters kept"
+    ]
+   ],
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "notes": [
+  "The case study dates the page October 2020 and the installation 2008. The quotation is as published on the case study; check the wording against the live page before print."
+ ],
+ "slug": "Sheraton-Carlsbad-Resort-and-Spa",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-the-sheraton-carlsbad-resort-spa",
+  "url": "https://www.bromic.com/case-study/the-sheraton-carlsbad-resort-spa/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/the-sheraton-carlsbad-resort-spa/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Platinum Gas Heaters at The Sheraton Carlsbad Hotel”, case study, October 2020 – bromic.com/case-study/the-sheraton-carlsbad-resort-spa (also on bromic.ca)."
+ ],
+ "layout": {
+  "pages": 2,
+  "zones": true,
+  "table": true,
+  "quote": false
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "id": "cs-the-w-hotel",
+ "kind": "bromic",
+ "draft": false,
+ "name": "W Hotel, POV Terrace",
+ "sector": "Hospitality",
+ "country": "USA",
+ "line": "Heat With A View",
+ "pages": 1,
+ "lede": "At the W Hotel’s POV Terrace Bar in Washington, D.C., new Tungsten and Platinum Electric heaters drew questions from the tables about how they work and how good they look.",
+ "data": [
+  [
+   "Location",
+   "Washington, D.C."
+  ],
+  [
+   "Setting",
+   "Hotel rooftop terrace bar"
+  ],
+  [
+   "Heaters",
+   "Tungsten Smart-Heat® Electric · Platinum Smart-Heat® Electric"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ]
+ ],
+ "hero": {
+  "img": "w-pov-terrace-dome-bar5",
+  "pos": "50% 50%",
+  "caption": "The terrace at night, a heater on the canopy edge. Bromic-published photograph from the case study."
+ },
+ "beats": [
+  [
+   "The Space",
+   "The POV Terrace Bar sits on top of the W Hotel in Washington, D.C., with tables under a canopy and the city beyond."
+  ],
+  [
+   "The Challenge",
+   "The case study does not set out the brief: the bar wanted heaters that worked for the size of the space and looked right."
+  ],
+  [
+   "The Solution",
+   "Tungsten Smart-Heat Electric and Platinum Smart-Heat Electric heaters were installed at the terrace bar. The case study gives no quantities or positions."
+  ]
+ ],
+ "quote": {
+  "text": "We remember having a lot of tables ask and inquire about how efficient and cool they looked.",
+  "who": "Scott Vollmer",
+  "role": "Director of Bar Concepts"
+ },
+ "products": [
+  {
+   "coll": "Tungsten",
+   "name": "Tungsten Smart-Heat® Electric",
+   "img": "portfolio:tungsten-electric",
+   "p": "tungsten-electric",
+   "where": "Terrace bar",
+   "mount": "To confirm",
+   "extra": [
+    [
+     "Finish",
+     "Black, as photographed"
+    ]
+   ],
+   "controls": "To confirm – the source does not name them"
+  },
+  {
+   "coll": "Platinum",
+   "name": "Platinum Smart-Heat® Electric",
+   "img": "portfolio:platinum-electric",
+   "p": "platinum-electric",
+   "where": "Terrace bar",
+   "mount": "To confirm",
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "notes": [
+  "The case study’s text calls the Platinum unit gas while its product list says Electric; the model is to confirm. The quotation is as published on the case study; check the wording against the live page before print."
+ ],
+ "slug": "W-Hotel-POV-Terrace",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-the-w-hotel",
+  "url": "https://www.bromic.com/case-study/the-w-hotel/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/the-w-hotel/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Platinum and Tungsten Electric Heaters at The W Hotel”, case study – bromic.com/case-study/the-w-hotel (also on bromic.ca)."
+ ],
+ "layout": {
+  "pages": 1,
+  "quote": false,
+  "heroH": 2.4,
+  "beatSize": 7.4,
+  "lede": false
+ }
+}

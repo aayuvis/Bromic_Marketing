@@ -1,0 +1,157 @@
+{
+ "id": "cs-london-restauranteur-incorporates-full-bromic-line-across-lo",
+ "kind": "bromic",
+ "draft": false,
+ "name": "Paris Grill, Paris Bar & Kadie’s Club",
+ "sector": "Hospitality",
+ "country": "United Kingdom",
+ "line": "Three Venues, Three Answers",
+ "pages": 2,
+ "dateText": "April 2023",
+ "lede": "A London restaurateur brought Bromic into all three of his venues, each with a different problem at the door. Through certified dealer Heatport, every site got its own answer: Eclipse, Tungsten and Platinum Electric.",
+ "data": [
+  [
+   "Location",
+   "London – the City, Farringdon, Piccadilly"
+  ],
+  [
+   "Setting",
+   "A grill, a bar and a nightclub"
+  ],
+  [
+   "Heaters",
+   "Eclipse Smart-Heat® Electric · Tungsten Smart-Heat® Electric · Platinum Smart-Heat® Electric"
+  ],
+  [
+   "Controls",
+   "Eclipse Dimmer Controller · On/Off controller · others to confirm"
+  ],
+  [
+   "Date",
+   "April 2023"
+  ]
+ ],
+ "hero": {
+  "img": "w-paris-grill-case-study-hero-image",
+  "pos": "50% 50%",
+  "caption": "Eclipse pendants under the Paris Grill entrance canopy. Bromic-published photograph from the case study."
+ },
+ "photos": [
+  {
+   "img": "w-tungsten-electric-wall-mount-paris-bar-londo",
+   "caption": "Tungsten Electric over the doors at Paris Bar. Bromic-published photograph from the case study."
+  },
+  {
+   "img": "w-paris-grill-case-study-image",
+   "caption": "Paris Grill from the street. Bromic-published photograph from the case study."
+  }
+ ],
+ "beats": [
+  [
+   "The Space",
+   "Paris Grill sits near Liverpool Street among the City’s towers, Paris Bar in an industrial-style brick building in Farringdon, and Kadie’s Club, a boutique nightclub, in Piccadilly."
+  ],
+  [
+   "The Challenge",
+   "Paris Grill’s entrance doubles as a smoking area that passers-by see. Paris Bar needed heat for outdoor dining and a quiet replacement for a loud HVAC heat curtain. At Kadie’s, a doorman works the entrance on chilly evenings."
+  ],
+  [
+   "The Solution",
+   "Bromic’s heating experts visited each site. Two Eclipse Electric pendants on 24-inch straight poles warm the Paris Grill entrance; at Paris Bar a 6 kW Tungsten Electric covers the outdoor area and a Platinum Electric just inside replaces the heat curtain; a Tungsten Electric warms the door at Kadie’s."
+  ]
+ ],
+ "zones": {
+  "title": "Three Sites",
+  "shape": "none",
+  "tag": "As described",
+  "items": [
+   {
+    "l": "A",
+    "name": "Paris Grill entrance",
+    "text": "Two Eclipse Electric pendants, heat and light set by the doorman on the Eclipse Dimmer Controller."
+   },
+   {
+    "l": "B",
+    "name": "Paris Bar",
+    "text": "Tungsten Electric, 6 kW dual element, over the covered outdoor area on an On/Off controller; Platinum Electric inside the front entrance."
+   },
+   {
+    "l": "C",
+    "name": "Kadie’s Club entrance",
+    "text": "Tungsten Electric for the doorman."
+   }
+  ]
+ },
+ "quote": {
+  "text": "They want to have Bromic because everyone else does, and they know they can trust their durability.",
+  "who": "George Ketley",
+  "role": "Heatport, Bromic certified dealer – on neighbouring businesses"
+ },
+ "products": [
+  {
+   "coll": "Eclipse",
+   "name": "Eclipse Smart-Heat® Electric",
+   "img": "w-eclipse-electric-24inch-single-pole-ceiling-",
+   "p": "eclipse-electric",
+   "pos": "50% 40%",
+   "where": "Paris Grill entrance",
+   "qty": "2",
+   "mount": "Ceiling-mounted on 24-inch straight poles",
+   "controls": "Eclipse Dimmer Controller – heat and light"
+  },
+  {
+   "coll": "Tungsten",
+   "name": "Tungsten Smart-Heat® Electric",
+   "img": "w-tungsten-electric-wall-mount-paris-bar-londo",
+   "p": "tungsten-electric",
+   "where": "Paris Bar outdoor area; Kadie’s Club entrance",
+   "mount": "To confirm",
+   "extra": [
+    [
+     "Output",
+     "6 kW, dual element (Paris Bar)"
+    ]
+   ],
+   "controls": "On/Off controller at Paris Bar; Kadie’s to confirm"
+  },
+  {
+   "coll": "Platinum",
+   "name": "Platinum Smart-Heat® Electric",
+   "img": "portfolio:platinum-electric",
+   "p": "platinum-electric",
+   "where": "Paris Bar, just inside the front entrance",
+   "qty": "1",
+   "mount": "Ceiling-mounted",
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "notes": [
+  "The case study does not name the restaurateur. The quotation is as published on the case study; check the wording against the live page before print."
+ ],
+ "slug": "Paris-Grill-Paris-Bar-and-Kadies-Club",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-london-restauranteur-incorporates-full-bromic-line-across-lo",
+  "url": "https://www.bromic.com/case-study/london-restauranteur-incorporates-full-bromic-line-across-locations/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/london-restauranteur-incorporates-full-bromic-line-across-locations/",
+   "https://www.bromic.co.uk/case-study/london-restauranteur-incorporates-full-bromic-line-across-locations/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “London Restauranteur Incorporates Full Bromic Line Across Locations”, case study, April 2023 – bromic.com/case-study/london-restauranteur-incorporates-full-bromic-line-across-locations (also on bromic.ca and bromic.co.uk)."
+ ],
+ "layout": {
+  "pages": 2,
+  "zones": true,
+  "table": true,
+  "quote": false,
+  "planH": 150,
+  "noProductPhotos": true
+ }
+}

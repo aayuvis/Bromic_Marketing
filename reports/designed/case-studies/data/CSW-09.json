@@ -1,0 +1,90 @@
+{
+ "id": "CSW-09",
+ "kind": "web-draft",
+ "draft": true,
+ "name": "Café Sydney",
+ "sector": "Restaurant",
+ "country": "Australia",
+ "line": "Heat That Recedes",
+ "pages": 1,
+ "lede": "From the top of Customs House, Café Sydney looks out over the harbour. Its manager chose Platinum gas heaters after seeing them at another venue, because they visually recede when off.",
+ "data": [
+  [
+   "Location",
+   "Customs House, Circular Quay, Sydney"
+  ],
+  [
+   "Setting",
+   "Restaurant – harbour-view terrace"
+  ],
+  [
+   "Heaters",
+   "Platinum Smart-Heat® Gas"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ],
+  [
+   "Date",
+   "By 2013"
+  ]
+ ],
+ "beats": [
+  [
+   "The Space",
+   "Café Sydney sits on the top of Customs House at Circular Quay, with a large outdoor dining terrace over the harbour."
+  ],
+  [
+   "The Challenge",
+   "The terrace needed heat that would not spoil the view or the room when it was switched off."
+  ],
+  [
+   "The Solution",
+   "The manager chose Platinum Smart-Heat gas heaters after seeing them elsewhere. Whether they are still installed, and how many, is to confirm."
+  ]
+ ],
+ "products": [
+  {
+   "coll": "Platinum",
+   "name": "Platinum Smart-Heat® Gas",
+   "img": "portfolio:platinum-gas",
+   "p": "platinum-gas",
+   "where": "Outdoor dining terrace",
+   "mount": "Under the retractable roof, as photographed – to confirm",
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "notes": [
+  "Draft from public sources: nothing here has been confirmed with the customer. Publish only once the consent checklist in the case-study template is complete.",
+  "A Bromic customer video, “Customer Profile – Cafe Sydney (AU)”, exists on Bromic’s channel."
+ ],
+ "slug": "Cafe-Sydney",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "file": "content/case-studies/web/CSW-09-cafe-sydney.md",
+  "evidence": "bromic-listing",
+  "completeness": "full-draft",
+  "owner_review": "Bromic AU – to confirm"
+ },
+ "sources": [
+  "Venue (venue.net.au) (search snippet only): venue.net.au/?p=2932",
+  "Venue (venue.net.au) (search snippet only): venue.net.au/bromic-warms-up-cafe-sydney",
+  "YouTube (Bromic channel) (search snippet only): youtube.com/watch?v=kIi_drQMKKc"
+ ],
+ "hero": {
+  "img": "v-cafe-sydney-1",
+  "caption": "Photo: Bromic press release (2013), via venue.net.au. Permission to publish to be confirmed."
+ },
+ "layout": {
+  "pages": 1,
+  "quote": false,
+  "heroH": 2.4,
+  "beatSize": 7.4,
+  "lede": false
+ }
+}

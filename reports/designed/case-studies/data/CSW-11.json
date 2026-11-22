@@ -1,0 +1,80 @@
+{
+ "id": "CSW-11",
+ "kind": "web-draft",
+ "draft": true,
+ "name": "Chiswick",
+ "sector": "Restaurant",
+ "country": "Australia",
+ "line": "Warmth At Every Table",
+ "pages": 1,
+ "lede": "Chiswick in Woollahra is a relaxed Sydney restaurant with dining inside and out. Tungsten gas heaters keep a table on the terrace as inviting on a cool evening as one indoors.",
+ "data": [
+  [
+   "Location",
+   "Woollahra, Sydney"
+  ],
+  [
+   "Setting",
+   "Restaurant – terrace dining"
+  ],
+  [
+   "Heaters",
+   "Tungsten Smart-Heat® Gas"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ]
+ ],
+ "beats": [
+  [
+   "The Space",
+   "A relaxed restaurant from a well-known chef, with dining inside and on the terrace, a bar, a long communal table and shaded outdoor seating."
+  ],
+  [
+   "The Challenge",
+   "Diners outside had to be as comfortable as those indoors on cool Sydney evenings."
+  ],
+  [
+   "The Solution",
+   "Tungsten Smart-Heat Gas heaters were chosen to keep diners comfortable wherever they sit, the terrace included. The quantity and mounting are to confirm."
+  ]
+ ],
+ "products": [
+  {
+   "coll": "Tungsten",
+   "name": "Tungsten Smart-Heat® Gas",
+   "img": "portfolio:tungsten-gas",
+   "p": "tungsten-gas",
+   "where": "Indoor and terrace dining",
+   "mount": "To confirm",
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "slug": "Chiswick",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "file": "content/case-studies/web/CSW-11-chiswick-woollahra.md",
+  "evidence": "bromic-listing",
+  "completeness": "full-draft",
+  "owner_review": "Bromic AU – to confirm"
+ },
+ "sources": [
+  "ArchiExpo Trends (Bromic Heating's project listing) (search snippet only): trends.archiexpo.com/bromic-heating/project-94052-245389.html"
+ ],
+ "notes": [
+  "Draft from public sources: nothing here has been confirmed with the customer. Publish only once the consent checklist in the case-study template is complete."
+ ],
+ "hero": {
+  "img": "w-gasceilingmountpole246mm-lifestyle2-1",
+  "caption": "Comparable Bromic installation, not this project: replace with project photography once licensed."
+ },
+ "layout": {
+  "pages": 1,
+  "quote": true
+ }
+}

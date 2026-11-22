@@ -1,0 +1,120 @@
+{
+ "id": "cs-enhancing-rooftop-bar-designs-with-cutting-edge-outdoor-heat",
+ "kind": "bromic",
+ "draft": false,
+ "name": "Rooftop Bar, Irvine",
+ "sector": "Hospitality",
+ "country": "USA",
+ "line": "Sixteen Storeys Up, Warm And Clear",
+ "pages": 2,
+ "dateText": "2023",
+ "lede": "Irvine’s first rooftop bar is windy, open to the skyline and cleared now and then for window washing. Freestanding Eclipse heaters move where they are needed, and white Tungsten Electric blends into the ceiling.",
+ "data": [
+  [
+   "Location",
+   "Irvine, California"
+  ],
+  [
+   "Setting",
+   "Rooftop bar on a hotel, 16 storeys up"
+  ],
+  [
+   "Heaters",
+   "Eclipse Smart-Heat® Freestanding · Tungsten Smart-Heat® Electric"
+  ],
+  [
+   "Controls",
+   "Eclipse Dimmer Controller · On/Off switches for Tungsten"
+  ],
+  [
+   "Date",
+   "2023"
+  ]
+ ],
+ "hero": {
+  "img": "w-bromic-sep18th-28",
+  "pos": "50% 55%",
+  "caption": "Eclipse Freestanding over the lounge chairs at night. Bromic-published photograph from the case study."
+ },
+ "photos": [
+  {
+   "img": "w-bromic-sep18th-14",
+   "caption": "White Tungsten Electric above the bar. Bromic-published photograph from the case study."
+  },
+  {
+   "img": "w-eclipse-portable-hive-and-honey-2",
+   "caption": "Bromic-published photograph from the case study."
+  }
+ ],
+ "beats": [
+  [
+   "The Space",
+   "Set atop a hotel in Irvine, the bar opens onto a patio with views to Saddleback Mountain, framed by external columns and alternating beams under a high ceiling in neutral tones."
+  ],
+  [
+   "The Challenge",
+   "The rooftop is windy and the skyline had to stay in view. Window-washing equipment hangs over the building’s side, so the patio is cleared from time to time and nothing could be mounted on the perimeter."
+  ],
+  [
+   "The Solution",
+   "Bromic’s design service reviewed the plans and sent a heat plan with spec sheets. Eclipse Freestanding gives directional heat over each lounge and table group and can be unplugged and moved; white Tungsten Electric heaters are hardwired to On/Off switches for staff."
+  ]
+ ],
+ "products": [
+  {
+   "coll": "Eclipse",
+   "name": "Eclipse Smart-Heat® Freestanding",
+   "img": "w-eclipse-portable-hive-and-honey-3",
+   "p": "eclipse-freestanding",
+   "pos": "50% 35%",
+   "where": "Lounges and table groups on the patio",
+   "mount": "Freestanding; disconnected and moved for window washing",
+   "controls": "Eclipse Dimmer Controller"
+  },
+  {
+   "coll": "Tungsten",
+   "name": "Tungsten Smart-Heat® Electric",
+   "img": "w-white-tungsten-electric-hive-and-honey-1",
+   "p": "tungsten-electric",
+   "where": "Under the white ceiling",
+   "mount": "Hardwired; Tungsten Electric mounting poles listed",
+   "extra": [
+    [
+     "Finish",
+     "White, to blend with the ceiling and walls"
+    ]
+   ],
+   "controls": "On/Off switches, so staff can run them independently"
+  }
+ ],
+ "notes": [
+  "The case study names its client only as a private developer; the venue is not named on the page."
+ ],
+ "slug": "Rooftop-Bar-Irvine",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-enhancing-rooftop-bar-designs-with-cutting-edge-outdoor-heat",
+  "url": "https://www.bromic.com/case-study/enhancing-rooftop-bar-designs-with-cutting-edge-outdoor-heating-solutions/",
+  "also_at": [
+   "https://www.bromic.com.au/case-study/enhancing-rooftop-bar-designs-with-cutting-edge-outdoor-heating-solutions/",
+   "https://www.bromic.ca/case-study/enhancing-rooftop-bar-designs-with-cutting-edge-outdoor-heating-solutions/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Enhancing Rooftop Bar Designs with Cutting-Edge Outdoor Heating Solutions”, case study, 2023 – bromic.com/case-study/enhancing-rooftop-bar-designs-with-cutting-edge-outdoor-heating-solutions (also on bromic.com.au and bromic.ca)."
+ ],
+ "layout": {
+  "pages": 2,
+  "zones": false,
+  "table": false,
+  "quote": true,
+  "photos": 1,
+  "pairH": 1.8,
+  "noProductPhotos": true
+ }
+}

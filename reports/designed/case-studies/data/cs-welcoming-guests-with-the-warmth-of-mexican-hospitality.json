@@ -1,0 +1,112 @@
+{
+ "id": "cs-welcoming-guests-with-the-warmth-of-mexican-hospitality",
+ "kind": "bromic",
+ "draft": false,
+ "name": "Centrico",
+ "sector": "Restaurant",
+ "country": "USA",
+ "line": "Warm At Every Table",
+ "pages": 2,
+ "lede": "Centrico, an open-air Mexican restaurant from Patina Restaurant Group and Michelin-starred chef Carlos Gaytán, wraps its tables around a central bar under a complex timber ceiling. Double-mounted Platinum Gas heaters keep every table warm.",
+ "data": [
+  [
+   "Location",
+   "North Orange County, California"
+  ],
+  [
+   "Setting",
+   "Open-air restaurant around a central bar"
+  ],
+  [
+   "Heaters",
+   "Platinum Smart-Heat® Gas, natural gas, two sizes"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ]
+ ],
+ "hero": {
+  "img": "w-bromic-centrico-photos-2",
+  "pos": "50% 50%",
+  "caption": "The bar under the circular timber pavilion, heaters on the beams. Bromic-published photograph from the case study."
+ },
+ "photos": [
+  {
+   "img": "w-centrico-case-study",
+   "caption": "The heat plan published with the case study. Bromic-published image."
+  },
+  {
+   "img": "w-bromic-centrico-photos-29",
+   "caption": "Platinum Gas angled on beam brackets. Bromic-published photograph from the case study."
+  }
+ ],
+ "beats": [
+  [
+   "The Space",
+   "With custom wooden elements and greenery by architect Jorge Gracia, Centrico is open and airy, built around a central bar with tables wrapping the space, for outdoor dining all year."
+  ],
+  [
+   "The Challenge",
+   "The open-air design made a steady temperature hard to hold, and the ceiling was the main complexity: the heaters had to blend in, meet fire ratings per code and reach every table."
+  ],
+  [
+   "The Solution",
+   "Ignisio Studios brought Bromic in for a design charrette. Platinum natural gas heaters in two sizes were ceiling-mounted with flexible mounting and double-mounted, so guests at every table are warm. Sister restaurant Paseo uses Platinum Gas too."
+  ]
+ ],
+ "quote": {
+  "text": "Bromic provided the flexibility of how it was mounted into the ceiling.",
+  "who": "Duc Tran",
+  "role": "Principal, Ignisio Studios"
+ },
+ "team": [
+  "Architecture and engineering: Ignisio Studios",
+  "Design: Jorge Gracia"
+ ],
+ "products": [
+  {
+   "coll": "Platinum",
+   "name": "Platinum Smart-Heat® Gas",
+   "img": "w-bromic-centrico-photos-19",
+   "p": "platinum-gas",
+   "where": "Throughout the restaurant, around the central bar",
+   "mount": "Ceiling-mounted and double-mounted",
+   "extra": [
+    [
+     "Gas",
+     "Natural gas, two sizes"
+    ]
+   ],
+   "controls": "To confirm – the case study does not name them"
+  }
+ ],
+ "notes": [
+  "The case study names the two sizes with a legacy numbering; current model names to confirm. The quotation is as published on the case study; check the wording against the live page before print."
+ ],
+ "slug": "Centrico",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-welcoming-guests-with-the-warmth-of-mexican-hospitality",
+  "url": "https://www.bromic.com/case-study/welcoming-guests-with-the-warmth-of-mexican-hospitality/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/welcoming-guests-with-the-warmth-of-mexican-hospitality/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Welcoming Guests with the Warmth of Mexican Hospitality”, case study – bromic.com/case-study/welcoming-guests-with-the-warmth-of-mexican-hospitality (also on bromic.ca)."
+ ],
+ "layout": {
+  "pages": 2,
+  "zones": false,
+  "table": false,
+  "quote": false,
+  "photos": 0,
+  "noProductPhotos": true
+ }
+}

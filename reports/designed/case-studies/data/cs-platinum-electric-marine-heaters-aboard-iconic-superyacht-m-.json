@@ -1,0 +1,135 @@
+{
+ "id": "cs-platinum-electric-marine-heaters-aboard-iconic-superyacht-m-",
+ "kind": "bromic",
+ "draft": false,
+ "name": "M/Y Coral Ocean",
+ "sector": "Marine",
+ "country": "Superyacht",
+ "line": "Dinner For Twelve On Deck",
+ "pages": 2,
+ "dateText": "2019",
+ "lede": "Aboard the refurbished superyacht Coral Ocean, the aft decks are where everyone gathers. Recessed Platinum Electric Marine heaters let twelve guests dine outside on chilly evenings, all year.",
+ "data": [
+  [
+   "Vessel",
+   "Superyacht, Lürssen-built"
+  ],
+  [
+   "Setting",
+   "Main deck aft and owner’s deck aft"
+  ],
+  [
+   "Heaters",
+   "Platinum Smart-Heat® Electric Marine · Platinum Electric Recess Kit"
+  ],
+  [
+   "Controls",
+   "Wireless Dimmer Controller"
+  ],
+  [
+   "Date",
+   "2019"
+  ]
+ ],
+ "hero": {
+  "img": "w-my-coral-ocean-platinum-electric-4",
+  "pos": "50% 50%",
+  "caption": "The covered aft deck, heaters recessed in the white ceiling. Bromic-published photograph from the case study."
+ },
+ "photos": [
+  {
+   "img": "w-my-coral-ocean-platinum-electric-6",
+   "caption": "M/Y Coral Ocean at anchor. Bromic-published photograph from the case study."
+  },
+  {
+   "img": "w-my-coral-ocean-platinum-electric-2",
+   "caption": "Bromic-published photograph from the case study."
+  }
+ ],
+ "beats": [
+  [
+   "The Space",
+   "Designed by Bannenberg & Rowell, with naval architecture by Lürssen, the recently refurbished yacht has two aft decks that each seat twelve – her most important gathering places, her captain says."
+  ],
+  [
+   "The Challenge",
+   "The outdoor decks had to be usable year-round, including for dining on chilly evenings, with even heat and few cold spots."
+  ],
+  [
+   "The Solution",
+   "Through Bromic’s complimentary design service, a heating expert prepared a free 2D heat plan. Platinum Smart-Heat Electric Marine heaters were recessed with the Platinum Electric Recess Kit on both aft decks and run on a Wireless Dimmer Controller."
+  ]
+ ],
+ "zones": {
+  "title": "Two Decks Aft",
+  "shape": "hull",
+  "note": "Decks shown side by side; drawn from the case study’s description, not from the yacht’s plans.",
+  "items": [
+   {
+    "l": "A",
+    "name": "Main deck aft",
+    "text": "Seats twelve for dinner. Recessed Platinum Electric Marine.",
+    "w": 1
+   },
+   {
+    "l": "B",
+    "name": "Owner’s deck aft",
+    "text": "Seats twelve. Recessed Platinum Electric Marine.",
+    "w": 1
+   }
+  ]
+ },
+ "quote": {
+  "text": "The evenness of the heat emission is one of our customers’ favorite features of Bromic’s heating solutions.",
+  "who": "Will Kaye",
+  "role": "Captain, M/Y Coral Ocean"
+ },
+ "team": [
+  "Design: Bannenberg & Rowell",
+  "Naval architecture: Lürssen"
+ ],
+ "products": [
+  {
+   "coll": "Platinum",
+   "name": "Platinum Smart-Heat® Electric Marine",
+   "img": "portfolio:platinum-electric",
+   "p": "platinum-marine",
+   "where": "Main deck aft; owner’s deck aft",
+   "mount": "Recessed – Platinum Electric Recess Kit",
+   "controls": "Wireless Dimmer Controller",
+   "extra": [
+    [
+     "Build",
+     "Sealed body, tinted ceramic glass, AISI 316 stainless steel"
+    ]
+   ]
+  }
+ ],
+ "notes": [
+  "The quotation is as published on the case study; check the wording against the live page before print."
+ ],
+ "slug": "M-Y-Coral-Ocean",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-platinum-electric-marine-heaters-aboard-iconic-superyacht-m-",
+  "url": "https://www.bromic.com/case-study/platinum-electric-marine-heaters-aboard-iconic-superyacht-m-y-coral-ocean/",
+  "also_at": [
+   "https://www.bromic.com.au/case-study/platinum-electric-marine-heaters-aboard-iconic-superyacht-m-y-coral-ocean/",
+   "https://www.bromic.ca/case-study/platinum-electric-marine-heaters-aboard-iconic-superyacht-m-y-coral-ocean/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Platinum Electric Marine Heaters Aboard Iconic Superyacht, M/Y Coral Ocean”, case study, 2019 – bromic.com/case-study/platinum-electric-marine-heaters-aboard-iconic-superyacht-m-y-coral-ocean (also on bromic.com.au and bromic.ca)."
+ ],
+ "layout": {
+  "pages": 2,
+  "zones": false,
+  "table": false,
+  "quote": false
+ }
+}

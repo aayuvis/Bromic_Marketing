@@ -1,0 +1,125 @@
+{
+ "id": "CSW-04",
+ "kind": "web-draft",
+ "draft": true,
+ "name": "Two Michigan Pergolas",
+ "sector": "Residential",
+ "country": "USA",
+ "line": "Four Seasons Under The Louvres",
+ "pages": 2,
+ "privateHome": true,
+ "lede": "In Livonia and Chelsea, a Detroit-area StruXure dealer built Bromic radiant heaters into louvred pergolas with motorised screens, so two backyards stay inviting as the temperature drops.",
+ "data": [
+  [
+   "Location",
+   "Livonia and Chelsea, Michigan"
+  ],
+  [
+   "Setting",
+   "Two private homes – louvred pergolas"
+  ],
+  [
+   "Heaters",
+   "Bromic radiant heaters – model to confirm"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ],
+  [
+   "Date",
+   "2025"
+  ]
+ ],
+ "photos": [
+  {
+   "img": "v-skyview-chelsea-1",
+   "caption": "Chelsea. Photo: Skyview, via skyviewusa.com. Permission to publish to be confirmed."
+  },
+  {
+   "img": "v-skyview-livonia-2",
+   "caption": "Livonia. Photo: Skyview, via skyviewusa.com. Permission to publish to be confirmed."
+  }
+ ],
+ "beats": [
+  [
+   "The Space",
+   "In Livonia, a roof-mounted StruXure pergola attaches to the house, with motorised louvres and solar screens. In Chelsea, an elevated patio sits under a three-zone pergola with screens and an outdoor kitchen."
+  ],
+  [
+   "The Challenge",
+   "Both owners wanted a four-season room in a cold state: louvred roof and screens, with heat that keeps the space in use as autumn comes in."
+  ],
+  [
+   "The Solution",
+   "In both homes, Skyview built Bromic heaters into the pergola structure. Neither project page gives the model or the count."
+  ]
+ ],
+ "table": {
+  "title": "Two Projects",
+  "tag": "As listed by the dealer",
+  "cols": [
+   "Home",
+   "Structure",
+   "Size",
+   "Completed"
+  ],
+  "rows": [
+   [
+    "Livonia",
+    "Roof-mounted StruXure louvred pergola, solar screens",
+    "About 720 sq ft",
+    "Fall 2025"
+   ],
+   [
+    "Chelsea",
+    "Three-zone pergola, screens, outdoor kitchen",
+    "About 420 sq ft",
+    "Summer 2025"
+   ]
+  ]
+ },
+ "team": [
+  "Installer: Skyview (StruXure dealer, Detroit area)"
+ ],
+ "products": [
+  {
+   "coll": "Bromic",
+   "name": "Bromic heaters – model to confirm",
+   "img": "v-skyview-livonia-2",
+   "p": "bromic",
+   "where": "Built into each pergola",
+   "mount": "Within the louvred pergola structure",
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "slug": "Two-Michigan-Pergolas",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "file": "content/case-studies/web/CSW-04-skyview-michigan-pergolas.md",
+  "evidence": "page-read",
+  "completeness": "full-draft",
+  "owner_review": "US field sales"
+ },
+ "sources": [
+  "Skyview (StruXure dealer, Detroit) (skyviewusa.com).",
+  "Skyview (skyviewusa.com)."
+ ],
+ "notes": [
+  "Draft from public sources: nothing here has been confirmed with the customer. Publish only once the consent checklist in the case-study template is complete."
+ ],
+ "hero": {
+  "img": "v-skyview-livonia-1",
+  "caption": "Photo: Skyview, via skyviewusa.com. Permission to publish to be confirmed."
+ },
+ "layout": {
+  "pages": 2,
+  "zones": true,
+  "table": true,
+  "quote": true
+ }
+}

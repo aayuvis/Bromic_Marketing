@@ -1,0 +1,111 @@
+{
+ "generated": "2026-11-22",
+ "engine": "reports/designed/case-studies/build.js",
+ "theme": "reports/themes/project-file",
+ "counts": {
+  "built": 5,
+  "bromic": 3,
+  "web_draft": 2,
+  "skipped": 5
+ },
+ "total_bytes": 2816301,
+ "built": [
+  {
+   "id": "cs-eclipse-electric-and-tungsten-electric-at-pink-hill-hotel",
+   "item_id": null,
+   "title": "Pink Hill Hotel",
+   "kind": "bromic",
+   "pdf": "cs-eclipse-electric-and-tungsten-electric-at-pink-hill-hotel/Bromic-Project-File-Pink-Hill-Hotel.pdf",
+   "cover": "cs-eclipse-electric-and-tungsten-electric-at-pink-hill-hotel/pages/p1.png",
+   "pages": [
+    "cs-eclipse-electric-and-tungsten-electric-at-pink-hill-hotel/pages/p1.png",
+    "cs-eclipse-electric-and-tungsten-electric-at-pink-hill-hotel/pages/p2.png",
+    "cs-eclipse-electric-and-tungsten-electric-at-pink-hill-hotel/pages/p3.png"
+   ],
+   "page_count": 3,
+   "bytes": 1543809
+  },
+  {
+   "id": "cs-kahite-golf-course-pub-grill",
+   "item_id": null,
+   "title": "Kahite Pub & Grill",
+   "kind": "bromic",
+   "pdf": "cs-kahite-golf-course-pub-grill/Bromic-Project-File-Kahite-Pub-and-Grill.pdf",
+   "cover": "cs-kahite-golf-course-pub-grill/pages/p1.png",
+   "pages": [
+    "cs-kahite-golf-course-pub-grill/pages/p1.png",
+    "cs-kahite-golf-course-pub-grill/pages/p2.png"
+   ],
+   "page_count": 2,
+   "bytes": 99714
+  },
+  {
+   "id": "cs-provenance",
+   "item_id": null,
+   "title": "Provenance",
+   "kind": "bromic",
+   "pdf": "cs-provenance/Bromic-Project-File-Provenance.pdf",
+   "cover": "cs-provenance/pages/p1.png",
+   "pages": [
+    "cs-provenance/pages/p1.png"
+   ],
+   "page_count": 1,
+   "bytes": 425308
+  },
+  {
+   "id": "CSW-03",
+   "item_id": null,
+   "title": "Juneau Showhome",
+   "kind": "web-draft",
+   "pdf": "CSW-03/Bromic-Project-File-Juneau-Showhome.pdf",
+   "cover": "CSW-03/pages/p1.png",
+   "pages": [
+    "CSW-03/pages/p1.png",
+    "CSW-03/pages/p2.png"
+   ],
+   "page_count": 2,
+   "bytes": 423347
+  },
+  {
+   "id": "CSW-16",
+   "item_id": null,
+   "title": "Seven Superyachts",
+   "kind": "web-draft",
+   "pdf": "CSW-16/Bromic-Project-File-Seven-Superyachts.pdf",
+   "cover": "CSW-16/pages/p1.png",
+   "pages": [
+    "CSW-16/pages/p1.png",
+    "CSW-16/pages/p2.png"
+   ],
+   "page_count": 2,
+   "bytes": 324123
+  }
+ ],
+ "skipped": [
+  {
+   "id": "cs-untied-rooftop-bar-barangaroo-sydney-unc",
+   "kind": "bromic",
+   "reason": "Unconfirmed: known from a search listing only; no page, products or photos."
+  },
+  {
+   "id": "cs-barangaroo-house",
+   "kind": "bromic",
+   "reason": "Search listing only: bromic.com.au blocks reading; no facts beyond the product."
+  },
+  {
+   "id": "cs-sunbury-bowling-club",
+   "kind": "bromic",
+   "reason": "Search listing only: no page, products or photos."
+  },
+  {
+   "id": "cs-neumanns-restaurant",
+   "kind": "bromic",
+   "reason": "Too thin for a sheet: the page gives only the city and the product; no photographs, space or solution."
+  },
+  {
+   "id": "cs-tonys-di-napoli",
+   "kind": "bromic",
+   "reason": "Too thin for a sheet: no space, solution or controls on the page, and the one photograph is captioned for another venue (Tony’s Bar, Brooklyn)."
+  }
+ ]
+}

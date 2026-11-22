@@ -1,0 +1,152 @@
+{
+ "id": "CSW-16",
+ "kind": "web-draft",
+ "draft": true,
+ "name": "Seven Superyachts",
+ "sector": "Marine",
+ "country": "Superyachts",
+ "line": "Heat Tailored To Each Yacht",
+ "pages": 2,
+ "lede": "From two heaters on a production motor yacht to nine across three decks of a 63-metre Benetti, Platinum Electric Marine heaters let owners use their outdoor decks in every season and at every latitude.",
+ "data": [
+  [
+   "Vessels",
+   "Seven yachts, 2018–2022"
+  ],
+  [
+   "Setting",
+   "Outdoor dining and lounge decks"
+  ],
+  [
+   "Heaters",
+   "Platinum Smart-Heat® Electric Marine"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ],
+  [
+   "Date",
+   "2018–2022"
+  ]
+ ],
+ "photos": [
+  {
+   "img": "m-lady-charlotte-2",
+   "caption": "Aft deck dining on M/Y Lady Charlotte. Photograph from Bromic’s marine presentation (2022)."
+  },
+  {
+   "img": "m-cloudbreak-2",
+   "caption": "A ceiling-mounted heater on M/Y Cloudbreak. Photograph from Bromic’s marine presentation (2022)."
+  }
+ ],
+ "beats": [
+  [
+   "The Space",
+   "Seven yachts from Feadship, Abeking & Rasmussen, Benetti, Amels, Turquoise and Ocean Alexander, cruising from the Mediterranean to the polar regions."
+  ],
+  [
+   "The Challenge",
+   "Owners and guests wanted their outdoor decks in use in every season and at every latitude."
+  ],
+  [
+   "The Solution",
+   "Every yacht carries Platinum Smart-Heat Electric Marine heaters, from two on the OA100 to nine on Metis. On Emocean four are recessed into the deck heads; on Lady Charlotte six warm the outdoor dining area."
+  ]
+ ],
+ "table": {
+  "title": "Seven Yachts",
+  "tag": "As listed in Bromic’s marine presentation",
+  "cols": [
+   "Yacht",
+   "Yard and year",
+   "Heaters",
+   "Design"
+  ],
+  "rows": [
+   [
+    "Lady Charlotte",
+    "Feadship · 2022 refit",
+    "6",
+    "Azure Naval Architects"
+   ],
+   [
+    "Emocean",
+    "2020",
+    "4, recessed",
+    "Hydro Tec with Burdisso & Capponi"
+   ],
+   [
+    "GO",
+    "Turquoise · 2018",
+    "6",
+    "H2 Yacht Design"
+   ],
+   [
+    "Cloudbreak",
+    "Abeking & Rasmussen · 2018",
+    "8",
+    "Espen Oeino with Christian Liaigre"
+   ],
+   [
+    "Metis",
+    "Benetti 63 m · 2019",
+    "9",
+    "Giorgio M. Cassetta with Bannenberg & Rowell"
+   ],
+   [
+    "Just B",
+    "Amels 1973 · 2020 rebuild",
+    "4",
+    "Vripack"
+   ],
+   [
+    "OA100",
+    "Ocean Alexander · 2019",
+    "2",
+    "Evan K. Marshall with Arrabito"
+   ]
+  ]
+ },
+ "products": [
+  {
+   "coll": "Platinum",
+   "name": "Platinum Smart-Heat® Electric Marine",
+   "img": "m-cloudbreak-2",
+   "p": "platinum-marine",
+   "where": "Outdoor decks on all seven yachts",
+   "qty": "39 across the seven, as listed",
+   "mount": "Recessed on Emocean; others to confirm",
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "notes": [
+  "Draft from public sources: nothing here has been confirmed with the customer. Publish only once the consent checklist in the case-study template is complete.",
+  "Installer named for Just B: Arrow Services Monaco. Designer pairings are as the presentation lists them, in order."
+ ],
+ "slug": "Seven-Superyachts",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "file": "content/case-studies/web/CSW-16-superyachts.md",
+  "evidence": "bromic-publication",
+  "completeness": "full-draft",
+  "owner_review": "Marine team"
+ },
+ "sources": [
+  "Bromic Heating (Marine presentation PDF, 2022): bromic.com/wp-content/uploads/2022/06/Bromic_Heating_Presentation_Marine.pdf"
+ ],
+ "hero": {
+  "img": "m-cloudbreak-1",
+  "caption": "M/Y Cloudbreak, from Bromic's marine presentation (2022)."
+ },
+ "layout": {
+  "pages": 2,
+  "zones": true,
+  "table": true,
+  "quote": true
+ }
+}

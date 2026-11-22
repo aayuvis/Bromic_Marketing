@@ -1,0 +1,126 @@
+{
+ "id": "cs-from-gut-renovation-to-outdoor-bliss-how-bromics-tungsten-he",
+ "kind": "bromic",
+ "draft": false,
+ "name": "Screened Porch, New Jersey",
+ "sector": "Residential",
+ "country": "USA",
+ "line": "Two Heaters, Not Three",
+ "pages": 2,
+ "privateHome": true,
+ "dateText": "2024",
+ "lede": "In a gut-renovated 1960s colonial, the new screened porch has become the family’s gathering place, all day long. Two black Tungsten Electric heaters, hung above the screens, keep it warm through a New Jersey winter.",
+ "data": [
+  [
+   "Location",
+   "New Jersey (suburban)"
+  ],
+  [
+   "Setting",
+   "Private home – screened porch"
+  ],
+  [
+   "Heaters",
+   "Tungsten Smart-Heat® Electric 4000 W, black (2)"
+  ],
+  [
+   "Controls",
+   "Dimmer Controller"
+  ],
+  [
+   "Date",
+   "2024"
+  ]
+ ],
+ "hero": {
+  "img": "w-dsc05737-courtney-saib",
+  "pos": "50% 45%",
+  "caption": "Two black Tungsten Electric heaters on drop poles under the vaulted ceiling. Bromic-published photograph from the case study."
+ },
+ "photos": [
+  {
+   "img": "w-tungsten-electric-courtney-thompson-1",
+   "caption": "Bromic-published photograph from the case study."
+  },
+  {
+   "img": "w-dsc05545-courtney-saib",
+   "caption": "Tungsten Electric under the timber ceiling. Bromic-published photograph from the case study."
+  }
+ ],
+ "beats": [
+  [
+   "The Space",
+   "The first floor was gutted and reconfigured, adding a screened porch with a lounge and a dining area. A traditional fireplace adds ambience but is not the heat source."
+  ],
+  [
+   "The Challenge",
+   "The porch had to stay warm through cold winters and hot summers. The heaters had to sit above the metal screens yet direct heat downward, without overheating the space."
+  ],
+  [
+   "The Solution",
+   "The first plan called for three heaters on three walls. Bromic’s specialists advised that three would be too much heat for the square footage, so two black Tungsten Electric 4000 W heaters hang on ceiling-mounted suspension poles above the screens, facing down."
+  ]
+ ],
+ "zones": {
+  "title": "One Porch, Two Zones",
+  "shape": "plan",
+  "items": [
+   {
+    "l": "A",
+    "name": "Lounge",
+    "text": "Seating around the fireplace, warmed by the two heaters together.",
+    "w": 1
+   },
+   {
+    "l": "B",
+    "name": "Dining",
+    "text": "The dining table, warmed by the same pair; the case study does not say which heater covers which.",
+    "w": 1
+   }
+  ]
+ },
+ "quote": {
+  "text": "This was my first-time purchasing and installing a Bromic product, and I couldn’t be happier.",
+  "who": "Homeowner",
+  "role": "New Jersey"
+ },
+ "products": [
+  {
+   "coll": "Tungsten",
+   "name": "Tungsten Smart-Heat® Electric",
+   "img": "w-dsc05545-courtney-saib",
+   "p": "tungsten-electric",
+   "where": "Screened porch – lounge and dining",
+   "qty": "2 × 4000 W, black",
+   "mount": "Ceiling-mounted suspension poles, above the screens",
+   "controls": "Dimmer Controller – on at the push of a button, output dimmable"
+  }
+ ],
+ "notes": [
+  "A private home: named by area only. The case study says Bromic worked with the family’s architect, designer, builder and electrician. The quotation is as published on the case study; check the wording against the live page before print."
+ ],
+ "slug": "Screened-Porch-New-Jersey",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-from-gut-renovation-to-outdoor-bliss-how-bromics-tungsten-he",
+  "url": "https://www.bromic.com/case-study/from-gut-renovation-to-outdoor-bliss-how-bromics-tungsten-heaters-redefined-comfort-for-this-new-jersey-home/",
+  "also_at": [
+   "https://www.bromic.com.au/case-study/from-gut-renovation-to-outdoor-bliss-how-bromics-tungsten-heaters-redefined-comfort-for-this-new-jersey-home/",
+   "https://www.bromic.ca/case-study/from-gut-renovation-to-outdoor-bliss-how-bromics-tungsten-heaters-redefined-comfort-for-this-new-jersey-home/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “From Gut Renovation to Outdoor Bliss: How Bromic's Tungsten Heaters Redefined Comfort for This New Jersey Home”, case study, 2024 – bromic.com/case-study/from-gut-renovation-to-outdoor-bliss-how-bromics-tungsten-heaters-redefined-comfort-for-this-new-jersey-home (also on bromic.com.au and bromic.ca)."
+ ],
+ "layout": {
+  "pages": 2,
+  "zones": false,
+  "table": false,
+  "quote": false
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "id": "CSW-08",
+ "kind": "web-draft",
+ "draft": true,
+ "name": "The Queen’s Club",
+ "sector": "Members’ Club",
+ "country": "United Kingdom",
+ "line": "Room For A Hundred More",
+ "pages": 1,
+ "lede": "The Queen’s Club renovated its outdoor terrace and opened it to about 100 more restaurant and bar guests, with white Tungsten Electric heaters for spring and late autumn.",
+ "data": [
+  [
+   "Location",
+   "London"
+  ],
+  [
+   "Setting",
+   "Sports and members’ club – restaurant and bar terrace"
+  ],
+  [
+   "Heaters",
+   "Tungsten Smart-Heat® Electric, white"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ]
+ ],
+ "hero": {
+  "img": "l-001-000",
+  "pos": "50% 60%",
+  "caption": "Comparable Bromic installation, not this project: replace with project photography once licensed."
+ },
+ "beats": [
+  [
+   "The Space",
+   "The club’s outdoor terrace serves its restaurant and bar."
+  ],
+  [
+   "The Challenge",
+   "After a renovation, the terrace opened to about 100 more guests, who needed to be comfortable in the shoulder seasons."
+  ],
+  [
+   "The Solution",
+   "White Tungsten Smart-Heat Electric heaters were chosen to suit the decor and the club’s tennis theme, so members can dine outside in spring and late autumn."
+  ]
+ ],
+ "products": [
+  {
+   "coll": "Tungsten",
+   "name": "Tungsten Smart-Heat® Electric",
+   "img": "portfolio:tungsten-electric",
+   "p": "tungsten-electric",
+   "where": "Restaurant and bar terrace",
+   "mount": "To confirm",
+   "extra": [
+    [
+     "Finish",
+     "White"
+    ]
+   ],
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "slug": "The-Queens-Club",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "file": "content/case-studies/web/CSW-08-queens-club-london.md",
+  "evidence": "bromic-listing",
+  "completeness": "full-draft",
+  "owner_review": "Bromic UK – to confirm"
+ },
+ "sources": [
+  "ArchiExpo e-Magazine (Bromic Heating project page) (search snippet only): trends.archiexpo.com/bromic-heating/project-94052-245583.html"
+ ],
+ "notes": [
+  "Draft from public sources: nothing here has been confirmed with the customer. Publish only once the consent checklist in the case-study template is complete."
+ ],
+ "layout": {
+  "pages": 1,
+  "quote": false,
+  "heroH": 2.6,
+  "beatSize": 7.6
+ }
+}

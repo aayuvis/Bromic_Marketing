@@ -1,0 +1,126 @@
+{
+ "id": "cs-tungsten-electric-heaters-at-clinica-las-condes",
+ "kind": "bromic",
+ "draft": false,
+ "name": "Clínica Las Condes",
+ "sector": "Healthcare",
+ "country": "Chile",
+ "line": "Terraces For Every Season",
+ "pages": 2,
+ "dateText": "August 2023",
+ "lede": "At a Santiago hospital, three restaurant terraces were too hot in summer and unusable in winter, with icy winds off the Andes. Thirty-two Tungsten Electric heaters, planned into new bioclimatic pergolas, keep them open all year for patients, visitors and staff.",
+ "data": [
+  [
+   "Location",
+   "Santiago, Chile"
+  ],
+  [
+   "Setting",
+   "Hospital – three restaurant terraces"
+  ],
+  [
+   "Heaters",
+   "Tungsten Smart-Heat® Electric 6000 W (32)"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ],
+  [
+   "Date",
+   "August 2023"
+  ]
+ ],
+ "hero": {
+  "img": "portfolio:tungsten-electric",
+  "pos": "50% 50%",
+  "caption": "Tungsten Smart-Heat® Electric – a product photograph, not this project. The case study carries no photographs of the terraces."
+ },
+ "beats": [
+  [
+   "The Space",
+   "Clínica Las Condes wanted comfortable outdoor areas for patients, visitors and staff. Its three restaurant terraces had only sunshades and lie open to cold winds from the Andes."
+  ],
+  [
+   "The Challenge",
+   "The architect asked for a powerful electric heating solution, so the new outdoor spaces could be used all year, within the hospital’s guidelines for renewable electricity."
+  ],
+  [
+   "The Solution",
+   "Bromic’s Daniel Bruntsch recommended Tungsten Smart-Heat Electric and chose the 6000 W model with the client. Thirty-two heaters were planned into new louvred bioclimatic pergolas, directing radiant heat over the seating."
+  ]
+ ],
+ "zones": {
+  "title": "Three Terraces Under Pergolas",
+  "shape": "plan",
+  "items": [
+   {
+    "l": "A",
+    "name": "Restaurant terrace",
+    "text": "Tungsten Electric under a bioclimatic pergola.",
+    "w": 1
+   },
+   {
+    "l": "B",
+    "name": "Restaurant terrace",
+    "text": "Tungsten Electric under a bioclimatic pergola.",
+    "w": 1
+   },
+   {
+    "l": "C",
+    "name": "Restaurant terrace",
+    "text": "Tungsten Electric under a bioclimatic pergola.",
+    "w": 1
+   }
+  ]
+ },
+ "quote": {
+  "text": "Undoubtedly, it was a success to use Bromic Heating in this project.",
+  "who": "Eugenio Dominguez",
+  "role": "General Manager, Comercial Dominguez"
+ },
+ "products": [
+  {
+   "coll": "Tungsten",
+   "name": "Tungsten Smart-Heat® Electric",
+   "img": "portfolio:tungsten-electric",
+   "p": "tungsten-electric",
+   "where": "Three restaurant terraces",
+   "qty": "32 (6000 W model selected)",
+   "mount": "Planned into louvred bioclimatic pergolas",
+   "extra": [
+    [
+     "Power",
+     "Electric, within the hospital’s renewable-electricity guidelines"
+    ]
+   ],
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "notes": [
+  "The case study gives 32 heaters across three terraces, not the number on each; the plan shows the terraces only. The speaker’s title is given in Spanish on the page (Gerente General). The quotation is as published on the case study; check the wording against the live page before print."
+ ],
+ "slug": "Clinica-Las-Condes",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-tungsten-electric-heaters-at-clinica-las-condes",
+  "url": "https://www.bromic.com/case-study/tungsten-electric-heaters-at-clinica-las-condes/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/tungsten-electric-heaters-at-clinica-las-condes/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Tungsten Electric Heaters at Clinica Las Condes”, case study, August 2023 – bromic.com/case-study/tungsten-electric-heaters-at-clinica-las-condes (also on bromic.ca)."
+ ],
+ "layout": {
+  "pages": 2,
+  "zones": false,
+  "table": false,
+  "quote": true
+ }
+}

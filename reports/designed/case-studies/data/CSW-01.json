@@ -1,0 +1,87 @@
+{
+ "id": "CSW-01",
+ "kind": "web-draft",
+ "draft": true,
+ "name": "The Luna",
+ "sector": "Builder Show Home",
+ "country": "USA",
+ "line": "Recessed Warmth Over The Pool",
+ "pages": 1,
+ "privateHome": true,
+ "lede": "On a custom coastal home built for the Wilmington Parade of Homes, custom recessed Bromic heaters warm the porch above the pool – in a home that took Gold for Best Outdoor Living.",
+ "data": [
+  [
+   "Location",
+   "Wilmington, North Carolina"
+  ],
+  [
+   "Setting",
+   "Parade of Homes show home – pool porch"
+  ],
+  [
+   "Heaters",
+   "Custom recessed Bromic heaters – model to confirm"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ]
+ ],
+ "beats": [
+  [
+   "The Space",
+   "The Luna is a custom coastal home by Hardison Building, with a gunite pool and hot tub, exotic-wood porch ceilings and an outdoor kitchen."
+  ],
+  [
+   "The Challenge",
+   "The porch overlooking the pool had to be as inviting as the rooms inside, with heat that disappears into the timber ceiling."
+  ],
+  [
+   "The Solution",
+   "Custom recessed Bromic heaters are set into the porch ceiling above the pool terrace. The listing records a Gold award for Best Outdoor Living."
+  ]
+ ],
+ "team": [
+  "Builder: Hardison Building",
+  "Interior design: Elle/A. Interiors"
+ ],
+ "products": [
+  {
+   "coll": "Bromic",
+   "name": "Bromic heaters – model to confirm",
+   "img": null,
+   "p": "bromic",
+   "where": "Porch overlooking the pool",
+   "mount": "Recessed in the porch ceiling",
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "slug": "The-Luna",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "file": "content/case-studies/web/CSW-01-luna-wilmington.md",
+  "evidence": "page-read",
+  "completeness": "full-draft",
+  "owner_review": "US field sales"
+ },
+ "sources": [
+  "Wilmington Parade of Homes (WCHBA) (wilmingtonparadeofhomes.com)."
+ ],
+ "notes": [
+  "Draft from public sources: nothing here has been confirmed with the customer. Publish only once the consent checklist in the case-study template is complete."
+ ],
+ "hero": {
+  "img": "v-luna-wilmington-1",
+  "caption": "Photo: Wilmington Parade of Homes, via wilmingtonparadeofhomes.com. Permission to publish to be confirmed."
+ },
+ "layout": {
+  "pages": 1,
+  "quote": false,
+  "heroH": 2.6,
+  "beatSize": 7.6
+ }
+}

@@ -1,0 +1,127 @@
+{
+ "id": "CSW-03",
+ "kind": "web-draft",
+ "draft": true,
+ "name": "Juneau Showhome",
+ "sector": "Designer Show Home",
+ "country": "USA",
+ "line": "Outdoor Living In A Rainforest",
+ "pages": 2,
+ "lede": "In Juneau’s temperate rainforest, a showhome divides its outdoor space into living, dining and grilling zones. The owners chose electric over gas, with Platinum Electric for the grill and matte black Tungsten Electric on the walls.",
+ "data": [
+  [
+   "Location",
+   "Juneau, Alaska"
+  ],
+  [
+   "Setting",
+   "Designer show home – outdoor living, dining and grilling"
+  ],
+  [
+   "Heaters",
+   "Platinum Smart-Heat® Electric · Tungsten Smart-Heat® Electric, matte black"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ]
+ ],
+ "beats": [
+  [
+   "The Space",
+   "Set in Juneau’s temperate rainforest, the showhome, designed by Bauer/Clifton Interiors, splits its outdoor space into zones for living, dining and grilling."
+  ],
+  [
+   "The Challenge",
+   "In Alaska the designer called outdoor heat close to a necessity. The clients wanted electric rather than propane or natural gas."
+  ],
+  [
+   "The Solution",
+   "A Platinum Electric heater, chosen for its durability, warms the open grilling zone of about 75 sq ft; matte black wall-mounted Tungsten Electric heaters were chosen to read as part of the architecture."
+  ]
+ ],
+ "zones": {
+  "title": "Three Outdoor Zones",
+  "shape": "plan",
+  "items": [
+   {
+    "l": "A",
+    "name": "Living",
+    "text": "Outdoor living zone.",
+    "w": 1.2
+   },
+   {
+    "l": "B",
+    "name": "Dining",
+    "text": "Outdoor dining zone.",
+    "w": 1.1
+   },
+   {
+    "l": "C",
+    "name": "Grilling",
+    "text": "Open grilling zone, about 75 sq ft, warmed by Platinum Electric.",
+    "w": 0.8,
+    "dims": "about 75 sq ft"
+   }
+  ]
+ },
+ "team": [
+  "Interior design: Bauer/Clifton Interiors"
+ ],
+ "products": [
+  {
+   "coll": "Platinum",
+   "name": "Platinum Smart-Heat® Electric",
+   "img": "portfolio:platinum-electric",
+   "p": "platinum-electric",
+   "where": "Open grilling zone",
+   "mount": "To confirm",
+   "controls": "To confirm – the source does not name them"
+  },
+  {
+   "coll": "Tungsten",
+   "name": "Tungsten Smart-Heat® Electric",
+   "img": "w-juneau-showhome-1",
+   "p": "tungsten-electric",
+   "where": "Outdoor living areas",
+   "mount": "Wall-mounted",
+   "extra": [
+    [
+     "Finish",
+     "Matte black"
+    ]
+   ],
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "notes": [
+  "Draft from public sources: nothing here has been confirmed with the customer. Publish only once the consent checklist in the case-study template is complete.",
+  "Which Tungsten heaters warm the living and dining zones is to confirm; the plan shows heated zones only."
+ ],
+ "slug": "Juneau-Showhome",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "file": "content/case-studies/web/CSW-03-juneau-showhome.md",
+  "evidence": "bromic-listing",
+  "completeness": "full-draft",
+  "owner_review": "Marketing"
+ },
+ "sources": [
+  "Dwell (Partner Story sponsored by Bromic Heating) (search snippet only): dwell.com/article/juneau-alaska-showhome-outdoor-living-bromic-heating-4be0d5a6",
+  "Bromic Group brand news: bromicgroup.com/brand-news/bromic-heating-featured-in-dwell-magazine"
+ ],
+ "hero": {
+  "img": "w-juneau-showhome-1",
+  "caption": "Photograph published by Bromic."
+ },
+ "layout": {
+  "pages": 2,
+  "zones": false,
+  "table": false,
+  "quote": true
+ }
+}

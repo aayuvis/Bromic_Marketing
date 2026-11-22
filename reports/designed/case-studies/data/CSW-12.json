@@ -1,0 +1,83 @@
+{
+ "id": "CSW-12",
+ "kind": "web-draft",
+ "draft": true,
+ "name": "Azotea Del Círculo",
+ "sector": "Rooftop Restaurant",
+ "country": "Spain",
+ "line": "Madrid Laid Out Below",
+ "pages": 1,
+ "lede": "Seven floors above the city, the rooftop of Madrid’s Círculo de Bellas Artes is a bar and restaurant known for its 360-degree view. A Bromic trade listing names Platinum Electric heaters there.",
+ "data": [
+  [
+   "Location",
+   "Círculo de Bellas Artes, Madrid"
+  ],
+  [
+   "Setting",
+   "Rooftop bar and restaurant at a cultural centre"
+  ],
+  [
+   "Heaters",
+   "Platinum Smart-Heat® Electric"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ]
+ ],
+ "beats": [
+  [
+   "The Space",
+   "The rooftop of the Círculo de Bellas Artes cultural centre, seven floors up, with a covered dining area and an open terrace over Madrid."
+  ],
+  [
+   "The Challenge",
+   "Guests come for the view; the terrace had to stay comfortable as the evening cools."
+  ],
+  [
+   "The Solution",
+   "According to a Bromic trade listing, Platinum Smart-Heat Electric heaters warm the rooftop. The venue’s own page does not mention the heaters."
+  ]
+ ],
+ "products": [
+  {
+   "coll": "Platinum",
+   "name": "Platinum Smart-Heat® Electric",
+   "img": "v-azotea-circulo-2",
+   "p": "platinum-electric",
+   "where": "Rooftop",
+   "mount": "To confirm",
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "slug": "Azotea-Del-Circulo",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "file": "content/case-studies/web/CSW-12-azotea-circulo-madrid.md",
+  "evidence": "page-read",
+  "completeness": "full-draft",
+  "owner_review": "Bromic EU – to confirm"
+ },
+ "sources": [
+  "ArchiExpo e-Magazine (Product Trends; Bromic-supplied project listing) (search snippet only): trends.archiexpo.com/bromic-heating/project-94052-245584.html",
+  "Círculo de Bellas Artes: circulobellasartes.com/en/azotea"
+ ],
+ "notes": [
+  "Draft from public sources: nothing here has been confirmed with the customer. Publish only once the consent checklist in the case-study template is complete."
+ ],
+ "hero": {
+  "img": "v-azotea-circulo-1",
+  "caption": "Photo: Círculo de Bellas Artes, via circulobellasartes.com. Permission to publish to be confirmed."
+ },
+ "layout": {
+  "pages": 1,
+  "quote": false,
+  "heroH": 2.6,
+  "beatSize": 7.6
+ }
+}

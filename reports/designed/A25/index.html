@@ -1,0 +1,690 @@
+<!doctype html><html lang="en-US"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Growing Your Outdoor Heating Work · Bromic Heating</title><style>
+@font-face{font-family:BzDidot;src:url(../../../app/src/fonts/gfs-didot-latin.woff2) format('woff2')}
+@font-face{font-family:BzSans;src:url(../../../app/src/fonts/arimo-latin.woff2) format('woff2')}
+@font-face{font-family:BzMono;src:url(../../themes/blueprint/fonts/plex-mono-400.woff2) format('woff2');font-weight:400}
+@font-face{font-family:BzMono;src:url(../../themes/blueprint/fonts/plex-mono-500.woff2) format('woff2');font-weight:500}
+@page{size:Letter;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#888}
+body{font-family:BzSans,Arial,sans-serif;color:#231F20;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:8.5in;height:11in;position:relative;overflow:hidden;margin:0 auto;page-break-after:always;break-after:page}
+.page:last-child{page-break-after:auto;break-after:auto}
+.dark{background:#0E1A2B;color:#fff}
+.light{background:#FFFFFF}
+/* fine grid: 1/8 in minor, 1 in major */
+.grid{position:absolute;inset:.42in;pointer-events:none}
+.dark .grid{background-image:linear-gradient(rgba(201,214,232,.10) .6px,transparent .6px),linear-gradient(90deg,rgba(201,214,232,.10) .6px,transparent .6px),linear-gradient(rgba(201,214,232,.04) .5px,transparent .5px),linear-gradient(90deg,rgba(201,214,232,.04) .5px,transparent .5px);background-size:1in 1in,1in 1in,.125in .125in,.125in .125in}
+.light .grid{background-image:linear-gradient(rgba(28,43,68,.07) .6px,transparent .6px),linear-gradient(90deg,rgba(28,43,68,.07) .6px,transparent .6px),linear-gradient(rgba(28,43,68,.028) .5px,transparent .5px),linear-gradient(90deg,rgba(28,43,68,.028) .5px,transparent .5px);background-size:1in 1in,1in 1in,.125in .125in,.125in .125in}
+.frame{position:absolute;inset:.42in;border:.9px solid;pointer-events:none}
+.dark .frame{border-color:rgba(201,214,232,.7)}.light .frame{border-color:#1C2B44}
+.zones{position:absolute;inset:.3in;border:.5px solid currentColor;font:500 6px/1 BzMono,monospace;letter-spacing:.1em;pointer-events:none}
+.zones .zt,.zones .zb{position:absolute;left:.12in;right:.12in;height:.12in}.zones .zt{top:0}.zones .zb{bottom:0}
+.zones .zl,.zones .zr{position:absolute;top:.12in;bottom:.12in;width:.12in}.zones .zl{left:0}.zones .zr{right:0}
+.zones span{position:absolute;transform:translate(-50%,-50%)}
+.zones .zt span,.zones .zb span{top:50%}.zones .zl span,.zones .zr span{left:50%}
+.lbl,.eyebrow{font:500 7px/1.2 BzMono,monospace;letter-spacing:.16em;text-transform:uppercase}
+.eyebrow{color:#EF4123}
+h1,h2,h3{font-family:BzDidot,Didot,serif;font-weight:400;letter-spacing:-.005em}
+
+/* ---- cover ---- */
+.c-top{position:absolute;left:.72in;right:.72in;top:.7in;display:flex;justify-content:space-between;align-items:flex-start}
+.logo{width:1.3in;display:block}
+.c-meta{display:flex;flex-direction:column;align-items:flex-end;gap:5px;font:400 7px/1 BzMono,monospace;letter-spacing:.16em;color:#C9D6E8}
+.c-head{position:absolute;left:.72in;top:1.95in;width:5.4in}
+.c-head h1{font-size:60px;line-height:1.02;margin:14px 0 14px;color:#fff}
+.c-sub{font:400 13px/1.4 BzSans,sans-serif;color:#C9D6E8;margin-bottom:16px}
+.c-lede{font:400 10.5px/1.6 BzSans,sans-serif;color:rgba(255,255,255,.82);max-width:4.6in;padding-left:12px;border-left:.8px solid #EF4123}
+.c-elev{position:absolute;left:.72in;right:.72in;top:5.0in}
+.c-elev img{display:block;width:6.66in;margin:0 auto;opacity:.95}
+.c-dim{display:block;width:6.66in;margin:0 auto 2px;overflow:visible}
+.c-cl{display:block;width:6.66in;height:.19in;margin:0 auto}
+.c-dim .ext{stroke:#C9D6E8;stroke-width:.5;opacity:.7}
+.c-dim .dimt{font:500 7px BzMono,monospace;letter-spacing:.14em}
+figcaption{display:flex;gap:8px;align-items:center}
+figcaption b{display:block;font:500 7.2px/1.3 BzMono,monospace;letter-spacing:.12em}
+figcaption em{display:block;font:400 6.4px/1.4 BzMono,monospace;letter-spacing:.1em;font-style:normal;opacity:.75;margin-top:1px}
+.bubble{flex:none;width:22px;height:22px;border-radius:50%;border:.8px solid currentColor;display:grid;place-items:center;font:500 7.5px/1 BzMono,monospace;position:relative}
+.c-elev figcaption{margin:14px 0 0 .03in;color:#fff}
+.c-elev figcaption em{color:#C9D6E8}
+.c-low{position:absolute;left:.72in;right:.72in;top:7.4in;display:grid;grid-template-columns:1fr 2.5in;gap:.35in}
+.index .lbl{color:#C9D6E8;margin-bottom:8px}
+.index table{width:100%;border-collapse:collapse;font-size:8.5px}
+.index td{padding:5px 6px 5px 0;border-top:.5px solid rgba(201,214,232,.28);color:rgba(255,255,255,.88);vertical-align:baseline}
+.index tr:last-child td{border-bottom:.5px solid rgba(201,214,232,.28)}
+.index td:first-child{font:500 7px BzMono,monospace;color:#EF4123;width:22px}
+.index td:nth-child(3){font:400 6.8px BzMono,monospace;letter-spacing:.06em;color:#C9D6E8;white-space:nowrap}
+.index td:last-child{font:500 6.8px BzMono,monospace;letter-spacing:.08em;text-transform:uppercase;text-align:right;white-space:nowrap}
+.tc{color:#9AA6B6;font-style:normal}.dark .tc{color:#8E9BB0}
+.live{color:#fff}
+.plate{border:.6px solid;padding:5px}
+.dark .plate{border-color:rgba(201,214,232,.6)}
+.plate-img{height:1.32in;background-size:cover;background-position:center}
+.plate figcaption{display:block;font:400 6.6px/1.4 BzMono,monospace;letter-spacing:.06em;margin-top:5px;color:#C9D6E8}
+.plate figcaption b{display:inline;font-size:6.6px;color:#EF4123;margin-right:4px;letter-spacing:.14em}
+.tblock{position:absolute;right:.42in;bottom:.42in;width:3.3in;border-left:.9px solid rgba(201,214,232,.7);border-top:.9px solid rgba(201,214,232,.7);font:400 7.5px/1.2 BzMono,monospace;color:#fff}
+.tblock .r{padding:5px 8px;border-bottom:.5px solid rgba(201,214,232,.35)}
+.tblock .r:last-child{border-bottom:0}
+.tblock .two{display:flex;padding:0}.tblock .two>div{flex:1;padding:5px 8px;border-right:.5px solid rgba(201,214,232,.35)}.tblock .two>div:last-child{border-right:0}
+.tblock b{display:block;font-weight:500;font-size:5.6px;letter-spacing:.16em;color:#C9D6E8;margin-bottom:3px}
+.tblock .sh span{font-size:14px;line-height:1}.tblock i{font-style:normal;opacity:.55;font-size:8px}
+
+/* ---- inner sheets ---- */
+.s-head{position:absolute;left:.72in;right:.72in;top:.7in}
+.s-head h2{font-size:30px;line-height:1.1;margin:8px 0 6px;color:#231F20}
+.s-lede{font-size:9.5px;line-height:1.55;color:#4A4546;max-width:5.6in}
+.sched{position:absolute;left:.72in;right:.72in;top:1.82in}
+.sched .hdr{display:flex;justify-content:space-between;border-bottom:.9px solid #1C2B44;padding-bottom:5px;color:#1C2B44}
+.sched .r{color:#EF4123}
+.sched table{width:100%;border-collapse:collapse;font-size:7.6px;line-height:1.35;color:#231F20}
+.sched th{font:500 5.9px/1.2 BzMono,monospace;letter-spacing:.13em;text-align:left;color:#6B7480;padding:6px 6px 5px 0;border-bottom:.5px solid #B9C3D0}
+.sched td{padding:5px 7px 5px 0;border-bottom:.5px solid #B9C3D0;vertical-align:top}
+.sched table.eq{table-layout:fixed}.sched td.m{font:400 7px/1.4 BzMono,monospace}
+.sched td.ser{font-weight:700;color:#231F20}
+.sched td.tag span{display:inline-grid;place-items:center;width:22px;height:13px;border:.7px solid #1C2B44;font:500 6.4px BzMono,monospace;color:#1C2B44}
+.sched tr.soon td{color:#5d5a5b}
+.soon-t{font:500 6px BzMono,monospace;letter-spacing:.1em;text-transform:uppercase;color:#EF4123;white-space:nowrap}
+.sched .tc{color:#6B7480;font-style:italic}
+.fn{font:400 6.4px/1.45 BzMono,monospace;color:#6B7480;margin-top:6px;letter-spacing:.02em}
+.dwgs{position:absolute;left:.72in;right:.72in;top:4.4in;display:grid;grid-template-columns:4.05in 1fr;gap:.25in}
+.lower{position:absolute;left:.72in;right:.72in;top:7.42in;display:grid;grid-template-columns:4.05in 1fr;gap:.25in}
+.panel{color:#1C2B44;position:relative}
+.panel figcaption{margin-top:4px;padding-top:6px;border-top:.6px solid #1C2B44}
+.dwg{display:block;width:100%;height:auto;overflow:visible}
+.dwg .cut{stroke:#1C2B44;stroke-width:.9;fill:none}
+.dwg rect.cut[fill]{}
+.dwg .obj{stroke:#1C2B44;stroke-width:1;fill:none}
+.dwg .thin{stroke:#1C2B44;stroke-width:.5;fill:none}
+.dwg .ext{stroke:#1C2B44;stroke-width:.4}
+.dwg .heat{fill:#fff;stroke:#1C2B44;stroke-width:1}
+.dwg .furn path,.dwg .furn line,.dwg .furn rect{stroke:#6B7480;stroke-width:.7;fill:none}
+.dwg .ray path{stroke:#EF4123;stroke-width:.6;stroke-dasharray:3 3;fill:none;opacity:.8}
+.dwg .dimt{font:500 6.6px BzMono,monospace;letter-spacing:.1em}
+.dwg .callt{font:500 6.2px BzMono,monospace;letter-spacing:.1em;fill:#1C2B44}
+.dwg .callt.sub{font-weight:400;fill:#6B7480;font-size:5.6px}
+.dwg .box{fill:#fff;stroke:#1C2B44;stroke-width:.8}
+.dwg .boxt{font:500 6.3px BzMono,monospace;letter-spacing:.08em;fill:#1C2B44}
+.dwg .boxs{font:400 5.3px BzMono,monospace;letter-spacing:.06em;fill:#6B7480}
+.dwg .tiny{font:500 5px BzMono,monospace;letter-spacing:.06em;fill:#1C2B44}
+.dwg .zonet{font:500 6px BzMono,monospace;letter-spacing:.14em;fill:#EF4123}
+.dwg .wifi{stroke:#1C2B44;stroke-width:.6;stroke-dasharray:2 2;fill:none}
+.dwg .furnp{fill:#fff;stroke:#6B7480;stroke-width:.6}
+.dwg .foot{fill:rgba(239,65,35,.035);stroke:#EF4123;stroke-width:.6;stroke-dasharray:3 2}
+.dwg .zone{stroke:#1C2B44;stroke-width:.6;stroke-dasharray:10 3 2 3;fill:none}
+.dwg .ctl{fill:#fff;stroke:#1C2B44;stroke-width:.7}
+.mf{position:absolute;left:.72in;right:.72in;top:5.55in}
+.mf .hdr{display:flex;justify-content:space-between;border-bottom:.9px solid #1C2B44;padding-bottom:5px;margin-bottom:10px;color:#1C2B44}
+.mf .hdr .r{color:#EF4123}
+.dwg .box.hi{stroke:#EF4123;stroke-width:1}.dwg .hit{fill:#EF4123}
+.notes .lbl{color:#1C2B44;border-bottom:.9px solid #1C2B44;padding-bottom:5px;margin-bottom:6px}
+.notes ol{list-style:none;counter-reset:n}
+.notes li{counter-increment:n;position:relative;padding:0 0 5px 18px;font-size:7.4px;line-height:1.45;color:#3a3637}
+.notes li::before{content:counter(n,decimal-leading-zero);position:absolute;left:0;top:.5px;font:500 6.2px BzMono,monospace;color:#EF4123}
+.strip{position:absolute;left:.42in;right:.42in;bottom:.42in;height:.48in;display:flex;border-top:.9px solid #1C2B44;font:400 7px/1.25 BzMono,monospace;color:#231F20;background:#fff}
+.strip .cell{padding:5px 7px;border-right:.5px solid #B9C3D0;display:flex;flex-direction:column;justify-content:space-between;white-space:nowrap}
+.strip .cell:last-child{border-right:0}
+.strip .cell.grow{flex:1;white-space:normal}
+.strip .cell.grow span{font-size:6px;line-height:1.35;color:#6B7480}
+.strip b{font-weight:500;font-size:5.4px;letter-spacing:.16em;color:#6B7480}
+.strip .sheet span{font-size:15px;line-height:1;color:#1C2B44}.strip .sheet i{font-style:normal;font-size:8px;color:#6B7480}
+
+/* ---- sheet 3 ---- */
+.p3{position:absolute;left:.72in;right:.72in;top:1.45in;display:grid;grid-template-columns:4.15in 1fr;gap:.3in}
+.legend{display:flex;flex-wrap:wrap;gap:4px 12px;margin-top:6px;font:500 5.8px BzMono,monospace;letter-spacing:.1em;color:#1C2B44}
+.legend span{display:flex;align-items:center;gap:5px}
+.legend i{display:inline-grid;place-items:center;font:500 4.6px BzMono,monospace;font-style:normal}
+.lg-h{width:14px;height:4px;border:.8px solid #1C2B44}
+.lg-e{width:9px;height:9px;border-radius:50%;border:.8px solid #1C2B44;box-shadow:inset 0 0 0 2px #fff,inset 0 0 0 4px #EF4123}
+.lg-c{width:12px;height:8px;border:.7px solid #1C2B44}
+.lg-s{width:9px;height:9px;border-radius:50%;border:.7px solid #1C2B44}
+.checks{list-style:none;border-top:.9px solid #1C2B44}
+.checks li{display:grid;grid-template-columns:12px 18px 1fr;gap:6px;align-items:start;padding:6.4px 0;border-bottom:.5px solid #B9C3D0;font-size:8.2px;line-height:1.42;color:#3a3637}
+.checks .bx{width:9px;height:9px;border:.8px solid #1C2B44;margin-top:1.5px}
+.checks .no{font:500 6.4px/1.9 BzMono,monospace;color:#EF4123}
+.cta{position:absolute;left:.42in;right:.42in;top:7.3in;height:2.2in;background:#0E1A2B;color:#fff;display:grid;grid-template-columns:2.15in 1fr;gap:.35in;padding:.3in .3in .3in .3in;overflow:hidden}
+.cta-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(201,214,232,.08) .6px,transparent .6px),linear-gradient(90deg,rgba(201,214,232,.08) .6px,transparent .6px);background-size:1in 1in;background-position:-.42in -.62in}
+.cta>*{position:relative}.cta>.cta-grid{position:absolute}
+.cta .plate{border-color:rgba(201,214,232,.6)}
+.cta .plate-img{height:1.28in}
+.cta-body{display:flex;flex-direction:column;justify-content:center}
+.cta h3{font-size:23px;line-height:1.2;margin:8px 0 14px;max-width:4.3in}
+.btn{align-self:flex-start;display:inline-flex;gap:14px;align-items:center;background:#EF4123;color:#fff;font:500 8px/1 BzMono,monospace;letter-spacing:.18em;padding:10px 16px;text-decoration:none}
+.addr{font:400 6.2px/1.6 BzMono,monospace;letter-spacing:.1em;color:#C9D6E8;margin-top:12px;max-width:3.9in}
+.disc{position:absolute;left:.72in;right:.72in;top:9.62in;font-size:6.6px;line-height:1.5;color:#6B7480}
+
+/* ---- additions for whole documents ---- */
+.light .plate{border-color:#1C2B44}
+.light .plate figcaption{color:#6B7480}
+.fnr{font:500 5.6px/0 BzMono,monospace;color:#EF4123;vertical-align:3.4px;margin-left:1px;letter-spacing:0}
+.dark .fnr{color:#EF4123}
+.tcf{display:inline-block;font:500 5.6px/1 BzMono,monospace;letter-spacing:.12em;text-transform:uppercase;color:#EF4123;border:.6px solid #EF4123;padding:1.6px 3px 1.2px;vertical-align:1px;white-space:nowrap;font-style:normal}
+.dark .tcf{color:#F7A08F;border-color:#F7A08F}
+.x{position:absolute}
+.lblr{display:flex;justify-content:space-between;border-bottom:.9px solid #1C2B44;padding-bottom:5px;margin-bottom:8px;color:#1C2B44}
+.lblr .r{color:#EF4123}
+.txt p{font-size:8.6px;line-height:1.55;color:#3a3637}
+.txt p+p{margin-top:6px}
+.txt strong{color:#231F20}
+.bul{list-style:none}
+.bul li{position:relative;padding:0 0 6px 14px;font-size:8.2px;line-height:1.5;color:#3a3637}
+.bul li::before{content:'';position:absolute;left:0;top:4.6px;width:6px;height:.8px;background:#EF4123}
+.bul li b{color:#231F20}
+.num{list-style:none;counter-reset:n}
+.num li{counter-increment:n;position:relative;padding:0 0 7px 22px;font-size:8.2px;line-height:1.5;color:#3a3637}
+.num li::before{content:counter(n,decimal-leading-zero);position:absolute;left:0;top:1px;font:500 6.4px BzMono,monospace;color:#EF4123}
+.num li b{color:#231F20}
+.kv{width:100%;border-collapse:collapse;font-size:7.8px;line-height:1.4}
+.kv th{font:500 5.9px/1.2 BzMono,monospace;letter-spacing:.13em;text-align:left;color:#6B7480;padding:5px 8px 5px 0;border-bottom:.5px solid #B9C3D0;vertical-align:bottom}
+.kv td{padding:5px 8px 5px 0;border-bottom:.5px solid #B9C3D0;vertical-align:top;color:#3a3637}
+.kv td.code{font:500 7px/1.4 BzMono,monospace;color:#1C2B44;white-space:nowrap}
+.kv td.st{font:500 6.2px/1.6 BzMono,monospace;letter-spacing:.1em;text-transform:uppercase;text-align:right;white-space:nowrap}
+.kv tr:first-child td{border-top:.9px solid #1C2B44}
+.kv thead+tbody tr:first-child td{border-top:0}
+.kv thead tr th{border-bottom:.9px solid #1C2B44}
+.pullq{font-family:BzDidot,Didot,serif;font-size:21px;line-height:1.15;color:#231F20}
+.pullq::before{content:'';display:block;width:26px;height:1px;background:#EF4123;margin-bottom:9px}
+/* spec text */
+.spec{column-gap:.24in;column-fill:auto;overflow:hidden}
+.spec h4{font:500 7px/1.2 BzMono,monospace;letter-spacing:.16em;color:#fff;background:#1C2B44;padding:5px 7px 4px;margin:0 0 8px;break-after:avoid}
+.spec h4:not(:first-child){margin-top:10px}
+.spec h5{font:500 6.6px/1.3 BzMono,monospace;letter-spacing:.12em;color:#1C2B44;border-bottom:.6px solid #1C2B44;padding-bottom:3px;margin:9px 0 5px;break-after:avoid}
+.spec h4+h5{margin-top:0}
+.spec p{font-size:7.5px;line-height:1.5;color:#3a3637;padding-left:13px;text-indent:-13px;margin-bottom:3.4px;break-inside:avoid}
+.spec p b.l{display:inline-block;width:13px;text-indent:0;font:500 6.4px/1 BzMono,monospace;color:#EF4123}
+.spec p.s{padding-left:26px}
+.spec p.s b.l{color:#1C2B44}
+.spec p strong{color:#231F20}
+.spec .ns{font-style:italic;color:#6B7480}
+.spec .end{font:500 6.6px/1.3 BzMono,monospace;letter-spacing:.16em;color:#EF4123;text-align:center;border-top:.6px solid #1C2B44;border-bottom:.6px solid #1C2B44;padding:6px 0;margin-top:10px;text-indent:0;padding-left:0}
+.boxnote{border:.7px solid #1C2B44;padding:9px 11px;background:#fff}
+.boxnote .lbl{color:#EF4123;margin-bottom:5px}
+.boxnote p{font-size:7.8px;line-height:1.5;color:#3a3637}
+.srcs{list-style:none}
+.srcs li{display:grid;grid-template-columns:14px 1fr;gap:4px;font-size:6.5px;line-height:1.45;color:#6B7480;padding:3px 0;border-bottom:.5px solid #B9C3D0;break-inside:avoid}
+.srcs .sn{font:500 6px/1.5 BzMono,monospace;color:#EF4123}
+.srcs i{font-style:italic}
+.srcs .u{font:400 5.6px/1.4 BzMono,monospace;color:#8A929C;word-break:break-all}
+.dark .lbl{color:#C9D6E8}
+
+.tcf{text-indent:0}
+/* cover */
+.cv-head{top:1.85in;width:6.6in}
+.cv-head h1{font-size:54px;line-height:1.02}
+.cv-head .c-lede{max-width:5.2in}
+.cv-ph{left:.72in;width:4.3in;top:5.0in}
+.cv-ph .plate figcaption{color:#C9D6E8}
+.cv-idx{left:5.3in;right:.72in;top:5.0in}
+.cv-idx td:nth-child(2){font-size:8px;line-height:1.35;padding-right:8px}
+.cv-idx td:last-child{font:400 6.6px BzMono,monospace;letter-spacing:.06em;color:#C9D6E8;text-transform:none}
+/* sheet 2 */
+.s2-bars{left:.72in;right:.72in;top:1.95in}
+.bar{display:grid;grid-template-columns:2.25in 1fr;gap:.2in;align-items:center;padding:9px 0;border-bottom:.5px solid #B9C3D0}
+.bl{display:flex;align-items:baseline;gap:10px}
+.bv{font-family:BzDidot,Didot,serif;font-size:30px;line-height:1;color:#231F20;min-width:.95in}
+.bt{font-size:7.8px;line-height:1.4;color:#3a3637}
+.track{position:relative;height:18px;border-left:.8px solid #1C2B44;border-right:.8px solid #B9C3D0;background-image:linear-gradient(90deg,#B9C3D0 .6px,transparent .6px);background-size:10% 100%}
+.fill{position:absolute;left:0;top:5px;height:8px;background:repeating-linear-gradient(45deg,#1C2B44 0 .7px,transparent .7px 4px);border:.8px solid #1C2B44}
+.bar.hi .fill{border-color:#EF4123;background:repeating-linear-gradient(45deg,#EF4123 0 .7px,transparent .7px 4px)}
+.bar.hi .bv{color:#EF4123}
+.ruler{position:relative;margin-left:2.45in;height:14px;font:500 5.8px BzMono,monospace;color:#6B7480;letter-spacing:.06em}
+.ruler span{position:absolute;top:4px;transform:translateX(-50%)}
+.s2-txt{left:.72in;top:4.62in;width:3.5in}
+.s2-txt p{font-size:9.2px;line-height:1.6}
+.s2-pq{left:.72in;top:8.3in;width:3.4in}
+.s2-ph{left:4.5in;right:.72in;top:4.62in}
+/* sheet 3 */
+.s3-trip{left:.72in;top:2.05in;width:3.65in}
+.s3-trip .num li{font-size:8.6px}
+.s3-cost{font-size:8.4px;line-height:1.55;color:#3a3637;border-left:.8px solid #EF4123;padding-left:9px;margin-top:4px}
+.s3-dwg{left:.72in;top:4.8in;width:4.05in}
+.s3-help{left:4.62in;right:.72in;top:2.05in}
+.s3-help .bul li{font-size:8.6px}
+.s3-ph{left:5.05in;right:.72in;top:4.8in}
+.s3-code{left:.72in;right:.72in;top:8.3in}
+.s3-code p:not(.lbl){font-size:8.4px}
+/* sheet 4 */
+.s4-sup{left:.72in;top:2.12in;width:4.1in}
+.volt td.dot{color:#1C2B44;font-size:8px}
+.volt th:not(:first-child),.volt td:not(:first-child){text-align:center}
+.s4-two{left:5.1in;right:.72in;top:2.12in}
+.s4-ctl{left:.72in;right:.72in;top:3.95in}
+.s4-ctl table{font-size:7.8px}
+.s4-dwg{left:.72in;top:7.0in;width:4.05in}
+.s4-pq{left:5.1in;right:.72in;top:7.4in}
+/* sheet 5 */
+.s5-cl{left:.72in;top:2.05in;width:3.65in}
+.s5-cl .checks{border-top:0}
+.s5-cl .checks li{font-size:8.4px}
+.s5-ph{left:4.62in;right:.72in;top:2.05in}
+.s5-ip{left:.72in;right:.72in;top:4.75in}
+.s5-ip table{font-size:7.9px}
+.s5-war{left:.72in;top:6.6in;width:3.65in}
+.s5-war .w{font-size:8.6px;line-height:1.55;color:#3a3637}
+.s5-war .fn{margin-top:7px}
+.s5-ph2{left:4.62in;right:.72in;top:6.6in}
+/* sheet 6 */
+.s6-ph{left:.72in;right:.72in;top:1.8in}
+.s6-list{left:.72in;top:5.62in;width:3.95in}
+.s6-list .q{display:grid;grid-template-columns:30px 1fr;gap:6px;padding:7px 0;border-top:.5px solid #B9C3D0}
+.s6-list .q:first-child{border-top:.9px solid #1C2B44}
+.s6-list .bubble{color:#1C2B44}
+.s6-list h3{font-size:14px;line-height:1.15;color:#231F20;margin-bottom:3px}
+.s6-list p{font-size:8.2px;line-height:1.5;color:#3a3637}
+.s6-more{left:4.95in;right:.72in;top:5.62in}
+.tags{display:flex;flex-wrap:wrap;gap:5px}
+.tags span{font:500 6.4px/1 BzMono,monospace;letter-spacing:.12em;text-transform:uppercase;color:#1C2B44;border:.7px solid #1C2B44;padding:5px 6px}
+.s6-ph2{left:4.95in;right:.72in;top:6.6in}
+.s6-ph2 .plate-img,.s6-ph3 .plate-img{height:1.05in !important}
+.s6-ph3{left:4.95in;right:.72in;top:8.18in}
+/* sheet 7 */
+.s7-grid{left:.72in;right:.72in;top:2.28in;display:grid;grid-template-columns:repeat(3,1fr);gap:0 .26in}
+.ben{border-top:.9px solid #1C2B44;padding:9px 0 16px}
+.ben .bh{display:flex;align-items:center;gap:8px;color:#1C2B44}
+.ben .bh .lbl{color:#EF4123}
+.ben h3{font-size:17px;line-height:1.12;color:#231F20;margin:9px 0 6px;min-height:38px}
+.ben p{font-size:8.4px;line-height:1.55;color:#3a3637}
+.s7-inst{left:.72in;right:.72in;top:5.0in;display:grid;grid-template-columns:1fr 1fr;gap:.26in}
+.s7-inst>div{border-top:.9px solid #1C2B44;padding-top:8px}
+.s7-inst .lbl{color:#EF4123;margin-bottom:6px}
+.s7-inst .ast{color:#EF4123;margin-left:2px}
+.s7-inst p:not(.lbl){font-size:8.4px;line-height:1.55;color:#3a3637}
+.s7-inst p.foot{grid-column:1 / -1;font:400 6.6px/1.5 BzMono,monospace;color:#6B7480;letter-spacing:.02em}
+.s7-ph{left:.72in;right:.72in;top:6.2in}
+.page.light .s-head h2{max-width:6.9in}
+/* back cover */
+.bk-cta{left:.72in;width:4.3in;top:1.9in}
+.bk-cta h2{font-size:30px;line-height:1.16;color:#fff;margin:12px 0 18px}
+.bk-cta .btn{display:inline-flex}
+.bk-ph{left:5.3in;right:.72in;top:1.9in}
+.bk-ph .plate figcaption{color:#C9D6E8}
+.bk-src{left:.72in;width:4.4in;top:5.75in}
+.bk-src .lblr{border-color:rgba(201,214,232,.6)}
+.dark .srcs li{color:#C9D6E8;border-color:rgba(201,214,232,.22)}
+.dark .srcs .u{color:#8E9BB0}
+.bk-disc{left:5.3in;right:.72in;top:5.82in;font-size:7px;line-height:1.55;color:#C9D6E8}
+</style></head><body><svg width="0" height="0" style="position:absolute"><defs>
+  <marker id="arDs" viewBox="0 0 10 10" refX="0" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10 1.5 L0 5 L10 8.5" fill="#1C2B44"/></marker>
+  <marker id="arDe" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1.5 L10 5 L0 8.5" fill="#1C2B44"/></marker>
+  <marker id="arFe" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1.5 L10 5 L0 8.5" fill="#EF4123"/></marker>
+  <marker id="arWs" viewBox="0 0 10 10" refX="0" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M10 1.5 L0 5 L10 8.5" fill="#C9D6E8"/></marker>
+  <marker id="arWe" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 1.5 L10 5 L0 8.5" fill="#C9D6E8"/></marker>
+  <pattern id="hatch" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="5" stroke="#1C2B44" stroke-width=".5"/></pattern>
+  <pattern id="dots" width="4" height="4" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".45" fill="#1C2B44"/><circle cx="3" cy="3" r=".45" fill="#1C2B44"/></pattern>
+</defs></svg><section class="page dark">
+  <div class="grid"></div><div class="zones" style="color:rgba(201,214,232,.55)"><div class="zt"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zb"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zl"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div><div class="zr"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div></div><div class="frame"></div>
+  <header class="c-top blk">
+    <img class="logo" src="../../../images/portfolio/bromic-logo-white.png" alt="Bromic Heating">
+    <div class="c-meta"><span>SALES KIT · FOR ELECTRICAL CONTRACTORS</span><span>US · NFPA 70</span></div>
+  </header>
+  <div class="c-head blk cv-head">
+    <p class="eyebrow">CODE · CONTROLS · WEATHER · THE QUOTE</p>
+    <h1>Growing Your<br>Outdoor Heating<br>Work</h1>
+    <p class="c-lede">Outdoor rooms have become part of the home, and the people who live in them want to stay out long after dark. The contractor who designs the circuit, connects the controls and hands over a system that works beautifully the first time is the one every builder, designer and homeowner calls again.</p>
+  </div>
+  <div class="x blk cv-ph">
+    <figure class="plate"><div class="plate-img" style="height:3.0in;background-image:url(img/hero.jpg);background-position:50% 40%"></div>
+    <figcaption><b>SITE PHOTO</b> A black Tungsten heater on suspension poles above a restaurant dining room that opens to the outdoors.</figcaption></figure>
+  </div>
+  <div class="x blk cv-idx index">
+    <p class="lbl">CONTENTS · SHEET INDEX</p>
+    <table>
+      <tr><td>00</td><td>The work is already on the plan</td><td>Sheet 02</td></tr>
+      <tr><td>01</td><td>Getting the code right from the start</td><td>Sheet 03</td></tr>
+      <tr><td>02</td><td>Connecting to the systems your clients already have</td><td>Sheets 04–05</td></tr>
+      <tr><td>03</td><td>Built for the weather, season after season</td><td>Sheet 05</td></tr>
+      <tr><td>04</td><td>Making your quote the one they remember</td><td>Sheet 06</td></tr>
+      <tr><td>05</td><td>The Bromic Partner Program</td><td>Sheets 07–08</td></tr>
+    </table>
+  </div>
+  <div class="tblock">
+  <div class="r"><b>PROJECT</b><span>Growing Your Outdoor Heating Work</span></div>
+  <div class="r two"><div><b>ASSET</b><span>A25</span></div><div><b>SCALE</b><span>NTS</span></div><div><b>DATE</b><span>2026-11-16</span></div></div>
+  <div class="r two"><div><b>REVISION</b><span>Draft for review</span></div><div class="sh"><b>SHEET</b><span>01<i>/08</i></span></div></div>
+</div>
+</section>
+<section class="page light ">
+  <div class="grid"></div><div class="zones" style="color:#6B7480"><div class="zt"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zb"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zl"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div><div class="zr"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div></div><div class="frame"></div>
+  <header class="s-head blk">
+    <p class="eyebrow">00 · THE OPPORTUNITY</p>
+    <h2>The Work Is Already On The Plan</h2>
+    <p class="s-lede">Raise heat at the first site walk and price the pre-wire with the patio, and the job is yours before anyone else is asked.</p>
+  </header>
+  
+  <div class="x blk s2-bars">
+    <div class="lblr"><span class="lbl">THE GAP · SHARE OF HOMES, BUYERS AND HOMEOWNERS</span><span class="lbl r">PERCENT</span></div>
+    <div class="bar">
+  <div class="bl"><span class="bv">60.5%</span><span class="bt">Single-family homes started in 2025 that came with a patio<sup class="fnr">1</sup></span></div>
+  <div class="track"><div class="fill" style="width:60.5%"><i class="al"></i><i class="ar"></i></div></div>
+</div>
+    <div class="bar">
+  <div class="bl"><span class="bv">86%</span><span class="bt">Buyers who rate a patio essential or desirable<sup class="fnr">2</sup></span></div>
+  <div class="track"><div class="fill" style="width:86%"><i class="al"></i><i class="ar"></i></div></div>
+</div>
+    <div class="bar hi">
+  <div class="bl"><span class="bv">23%</span><span class="bt">Homeowners who prioritise outdoor heating when they plan the space<sup class="fnr">3</sup></span></div>
+  <div class="track"><div class="fill" style="width:23%"><i class="al"></i><i class="ar"></i></div></div>
+</div>
+    <div class="ruler"><span style="left:0%">0</span><span style="left:10%">10</span><span style="left:20%">20</span><span style="left:30%">30</span><span style="left:40%">40</span><span style="left:50%">50</span><span style="left:60%">60</span><span style="left:70%">70</span><span style="left:80%">80</span><span style="left:90%">90</span><span style="left:100%">100</span></div>
+  </div>
+  <div class="x blk s2-txt txt">
+    <p>60.5% of single-family homes started in 2025 came with a patio,<sup class="fnr">1</sup> and 86% of buyers rate a patio essential or desirable.<sup class="fnr">2</sup> Far fewer homes come with the warmth to enjoy it once the sun goes down, because only 23% of homeowners prioritise outdoor heating when they plan the space.<sup class="fnr">3</sup></p>
+    <p>You design the electrical system that powers the space, install it safely and keep it running efficiently for years. We make that easier, with the right heater for the space, the controls to run it and people who answer the phone when you have a question on site.</p>
+  </div>
+  <div class="x blk s2-pq"><p class="pullq">The right heater for the space, the controls to run it and people who answer the phone.</p></div>
+  <div class="x blk s2-ph"><figure class="plate ">
+  <div class="plate-img" style="height:3.9in;background-image:url(img/installers.jpg);background-position:50% 30%"></div>
+  <figcaption><b>SITE PHOTO</b> Two installers fitting a recessed heater into a timber-lined ceiling.</figcaption></figure></div>
+  
+  <div class="strip">
+  <div class="cell grow"><b>NOTES</b><span>For electrical contractors. US: NFPA 70 (NEC) as adopted locally. Superscripts: sources, sheet 08.</span></div>
+  <div class="cell"><b>PROJECT</b><span>Growing Your Outdoor Heating Work</span></div>
+  <div class="cell"><b>SHEET TITLE</b><span>The Work Is On The Plan</span></div>
+  <div class="cell s"><b>ASSET</b><span>A25</span></div>
+  <div class="cell s"><b>SCALE</b><span>NTS</span></div>
+  <div class="cell"><b>REVISION</b><span>Draft for review</span></div>
+  <div class="cell s"><b>DATE</b><span>2026-11-16</span></div>
+  <div class="cell sheet"><b>SHEET</b><span>02<i>/08</i></span></div>
+</div>
+</section>
+<section class="page light ">
+  <div class="grid"></div><div class="zones" style="color:#6B7480"><div class="zt"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zb"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zl"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div><div class="zr"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div></div><div class="frame"></div>
+  <header class="s-head blk">
+    <p class="eyebrow">01 · THE CODE</p>
+    <h2>Getting The Code Right From The Start</h2>
+    <p class="s-lede">A job that passes inspection the first time is the job that earns the next referral. Bromic electric heaters are installed to ANSI/NFPA 70, the National Electrical Code, as your state and city adopt it.<sup class="fnr">4,11</sup></p>
+  </header>
+  
+  <div class="x blk s3-trip">
+    <p class="lbl lblr"><span>GETTING IT RIGHT THE FIRST TIME</span><span class="r">WHAT TRIPS UP AN OUTDOOR JOB</span></p>
+    <ol class="num">
+      <li>Heaters fed from a shared circuit instead of their own, so the breaker trips on the first cold night.</li>
+      <li>Cable runs left unprotected where a patio will see heavy use.</li>
+      <li>Heaters mounted below the minimum height. Bromic's guidance is at least 72 in above the floor for a wall mount and at least 96 in for a ceiling mount; it varies with output, so take the figure from the installation manual for the model.<sup class="fnr">4</sup></li>
+      <li>Supply voltage left unchecked against the heater. A 240 V heater on a 208 V supply gives less heat than the client was promised.</li>
+      <li>Controls left until the end, with no box or cable run planned for them.</li>
+    </ol>
+    <p class="s3-cost">A job that misses the code costs you twice, first in red tags, stop-work orders and repeat visits, and then in the referral that never comes.</p>
+  </div>
+  <div class="x blk s3-dwg"><figure class="panel "><svg viewBox="0 0 450 280" class="dwg" role="img" aria-label="Section showing minimum mounting heights of 72 in for wall and 96 in for ceiling heaters">
+  <!-- structure -->
+  <rect x="40" y="20" width="372" height="16" class="cut" style="fill:url(#hatch)"/>
+  <path d="M412 16 l6 6 -10 6 10 6 -6 6" class="thin" fill="none"/>
+  <rect x="40" y="250" width="372" height="16" class="cut" style="fill:url(#hatch)"/>
+  <path d="M412 246 l6 6 -10 6 10 6 -6 6" class="thin" fill="none"/>
+  <rect x="40" y="36" width="16" height="214" class="cut" style="fill:url(#hatch)"/>
+  <line x1="56" y1="36" x2="412" y2="36" class="obj"/><line x1="56" y1="250" x2="412" y2="250" class="obj"/>
+  <!-- furniture, lounge table and chairs in elevation -->
+  <g class="furn">
+    <rect x="246" y="192" width="96" height="3"/><line x1="254" y1="195" x2="254" y2="250"/><line x1="334" y1="195" x2="334" y2="250"/>
+    <path d="M226 250 V216 H246 M226 216 V182"/><path d="M362 250 V216 H342 M362 216 V182"/>
+  </g>
+  <!-- radiant field -->
+  <g class="ray"><path d="M286 56 L272 178 M312 56 L312 178 M338 56 L352 178"/>
+  <path d="M88 100 L128 118 M86 108 L120 136 M90 92 L134 98"/></g>
+  <!-- ceiling-mounted heater, bracket to soffit -->
+  <line x1="292" y1="36" x2="292" y2="48" class="obj"/><line x1="332" y1="36" x2="332" y2="48" class="obj"/>
+  <rect x="268" y="48" width="88" height="8" class="heat"/>
+  <line x1="274" y1="55.4" x2="350" y2="55.4" stroke="#EF4123" stroke-width="1"/>
+  <!-- wall-mounted heater on bracket, tilted toward the occupied zone -->
+  <line x1="56" y1="92" x2="70" y2="92" class="obj"/>
+  <g transform="rotate(18 70 98)"><rect x="66" y="92" width="24" height="14" class="heat"/><line x1="90" y1="94" x2="90" y2="104" stroke="#EF4123" stroke-width="1"/></g>
+  <!-- wall switch and controller -->
+  <rect x="56" y="146" width="6" height="10" class="cut" style="fill:#fff"/>
+  <rect x="56" y="122" width="9" height="14" class="cut" style="fill:#fff"/>
+  <!-- dimensions -->
+  <line x1="82" y1="106" x2="128" y2="106" class="ext"/><line x1="82" y1="250" x2="128" y2="250" class="ext"/><line x1="122" y1="106.5" x2="122" y2="249.5" stroke="#1C2B44" stroke-width=".8" marker-start="url(#arDs)" marker-end="url(#arDe)"/>
+  <text x="131" y="178" class="dimt" transform="rotate(-90 131 178)" text-anchor="middle" fill="#1C2B44">72 IN MIN · AFF</text>
+  <line x1="358" y1="56" x2="404" y2="56" class="ext"/><line x1="358" y1="250" x2="404" y2="250" class="ext"/><line x1="398" y1="56.5" x2="398" y2="249.5" stroke="#1C2B44" stroke-width=".8" marker-start="url(#arDs)" marker-end="url(#arDe)"/>
+  <text x="407" y="153" class="dimt" transform="rotate(-90 407 153)" text-anchor="middle" fill="#1C2B44">96 IN MIN · AFF</text>
+  <!-- callouts -->
+  <circle cx="268" cy="52" r="1.6" fill="#1C2B44"/><polyline points="268,52 244,50" fill="none" stroke="#1C2B44" stroke-width=".6"/>
+  <text x="240" y="52.6" class="callt" text-anchor="end" fill="#1C2B44">CEILING-MOUNTED</text>
+  <circle cx="62" cy="132" r="1.6" fill="#1C2B44"/><polyline points="62,132 152,138" fill="none" stroke="#1C2B44" stroke-width=".6"/>
+  <text x="156" y="140.6" class="callt" text-anchor="start" fill="#1C2B44">AFFINITY CONTROLLER</text>
+  <circle cx="60" cy="156" r="1.6" fill="#1C2B44"/><polyline points="60,156 152,164" fill="none" stroke="#1C2B44" stroke-width=".6"/>
+  <text x="156" y="166.6" class="callt" text-anchor="start" fill="#1C2B44">MANUAL WALL SWITCH</text>
+  <text x="156" y="176" class="callt sub">VISIBLE FROM THE HEATED AREA</text>
+  <circle cx="88" cy="90" r="1.6" fill="#1C2B44"/><polyline points="88,90 160,70" fill="none" stroke="#1C2B44" stroke-width=".6"/>
+  <text x="164" y="72.6" class="callt" text-anchor="start" fill="#1C2B44">WALL-MOUNTED</text>
+  <text x="164" y="81" class="callt sub">AIM AT THE OCCUPIED ZONE</text>
+  <text x="296" y="276" class="callt sub" text-anchor="middle">FINISHED FLOOR</text>
+</svg>
+  <figcaption><span class="bubble">A</span><span><b>SECTION A–A · MOUNTING HEIGHTS</b><em>GUIDANCE MINIMUMS · VARIES WITH OUTPUT · TAKE THE FIGURE FROM THE MANUAL</em></span></figcaption></figure></div>
+  <div class="x blk s3-help">
+    <p class="lbl lblr"><span>HOW WE HELP YOU GET IT RIGHT</span></p>
+    <ul class="bul">
+      <li><b>A free heating design plan</b> for every project, with heater selection and positions on the client's plan, coverage, and a parts and controls list you can price from.<sup class="fnr">7,10</sup></li>
+      <li><b>Installation manuals and CAD and Revit/BIM files</b> for every heater, from the technical resources page.<sup class="fnr">10</sup></li>
+      <li><b>Technical support</b> from people who know the products, on 1-800-301-1293, Monday to Friday, 9 am to 4 pm Pacific.<sup class="fnr">7</sup></li>
+      <li><b>The pre-wire guide</b> (A16), covering circuits, boxes, blocking, recess openings and control runs for every heater type, with a hand-off sheet.</li>
+    </ul>
+  </div>
+  <div class="x blk s3-ph"><figure class="plate ">
+  <div class="plate-img" style="height:2.55in;background-image:url(img/louvre.jpg);background-position:45% 50%"></div>
+  <figcaption><b>SITE PHOTO</b> A black Tungsten heater glowing beneath a louvred pergola roof.</figcaption></figure></div>
+  <div class="x blk s3-code boxnote"><p class="lbl">CODES VARY BY LOCATION</p>
+    <p>Confirm every installation with the local building authority and the authority having jurisdiction; electrical work must be carried out by a licensed electrician. The primary source is NFPA 70 as adopted locally.<sup class="fnr">11</sup></p></div>
+  
+  <div class="strip">
+  <div class="cell grow"><b>NOTES</b><span>For electrical contractors. US: NFPA 70 (NEC) as adopted locally. Superscripts: sources, sheet 08.</span></div>
+  <div class="cell"><b>PROJECT</b><span>Growing Your Outdoor Heating Work</span></div>
+  <div class="cell"><b>SHEET TITLE</b><span>Getting The Code Right</span></div>
+  <div class="cell s"><b>ASSET</b><span>A25</span></div>
+  <div class="cell s"><b>SCALE</b><span>NTS</span></div>
+  <div class="cell"><b>REVISION</b><span>Draft for review</span></div>
+  <div class="cell s"><b>DATE</b><span>2026-11-16</span></div>
+  <div class="cell sheet"><b>SHEET</b><span>03<i>/08</i></span></div>
+</div>
+</section>
+<section class="page light ">
+  <div class="grid"></div><div class="zones" style="color:#6B7480"><div class="zt"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zb"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zl"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div><div class="zr"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div></div><div class="frame"></div>
+  <header class="s-head blk">
+    <p class="eyebrow">02 · SUPPLY AND CONTROLS</p>
+    <h2>Connecting To The Systems Your Clients Already Have</h2>
+    <p class="s-lede">On most outdoor jobs, the real craft lies in fitting new equipment into the electrical system and the smart home the client already has. Bromic heaters and Affinity Smart-Heat Controls are engineered to make that part straightforward.</p>
+  </header>
+  
+  <div class="x blk s4-sup">
+    <p class="lbl lblr"><span>ENGINEERED FOR THE SUPPLY YOU HAVE</span><span class="r">MATCH AT DESIGN STAGE</span></p>
+    <table class="kv volt"><thead><tr><th>HEATER</th><th>208 V</th><th>220–240 V</th><th>277 V</th></tr></thead><tbody>
+      <tr><td><b>Tungsten Smart-Heat<sup>®</sup> Electric</b></td><td class="dot">●</td><td class="dot">●</td><td class="code">4000 W, 6000 W</td></tr>
+      <tr><td><b>Commercial projects</b></td><td class="dot">●</td><td class="code">240 V</td><td class="dot">●</td></tr>
+    </tbody></table>
+    <p class="fn">Tungsten Smart-Heat<sup>®</sup> Electric runs on 220–240 V and 208 V, and the 4000 W and 6000 W models also run on 277 V, the commercial supply many restaurants and hotels have.<sup class="fnr">5</sup> Commercial projects can choose 208 V, 240 V or 277 V supply.<sup class="fnr">7</sup> Match the heater to the supply at the design stage, well before the day of install.</p>
+  </div>
+  <div class="x blk s4-two boxnote"><p class="lbl">TWO ELEMENTS, ONE CIRCUIT</p>
+    <p>The 4000 W and 6000 W Tungsten heaters have two elements that can be controlled separately, so one heater can run at part output on a dimmer channel without a second circuit.<sup class="fnr">5</sup></p></div>
+  <div class="x blk sched s4-ctl">
+    <div class="hdr"><span class="lbl">RECOMMENDED CONTROLS &amp; ACCESSORIES · AFFINITY SMART-HEAT<sup>®</sup></span><span class="lbl r">EVERY HEATER IS PAIRED WITH ITS CONTROLS</span></div>
+    <table class="eq"><colgroup><col style="width:32px"><col style="width:160px"><col><col style="width:200px"></colgroup>
+      <thead><tr><th>TAG</th><th>CONTROL</th><th>WHAT IT DOES</th><th>PLAN FOR</th></tr></thead>
+      <tbody><tr><td class="tag"><span>C1</span></td><td class="ser">Affinity Smart-Heat On/Off controller</td><td>Switches heaters on and off by zone, by app or wall switch.</td><td class="m">6 kW per channel at 208–277 V; IP54 enclosure.<sup class="fnr">6</sup></td></tr><tr><td class="tag"><span>C2</span></td><td class="ser">Affinity Smart-Heat Dimmer controller</td><td>Sets heat output by zone, so owners turn it down on mild nights.</td><td class="m">6 kW per channel at 208–277 V.<sup class="fnr">6</sup></td></tr><tr><td class="tag"><span>C3</span></td><td class="ser">Affinity Eclipse controller</td><td>Runs Eclipse heat and rim lighting.</td><td class="m">One Eclipse heater per channel.<sup class="fnr">6</sup></td></tr><tr><td class="tag"><span>C4</span></td><td class="ser">Manual wall switch</td><td>Local on and off, single or dual.</td><td class="m">20 A, 120–277 V; indoor or outdoor kit.<sup class="fnr">6</sup></td></tr><tr><td class="tag"><span>C5</span></td><td class="ser">Bromic Smart-Heat app</td><td>Zones, schedules and timers from a phone.</td><td class="m">Wi-Fi coverage at the controller.<sup class="fnr">7</sup></td></tr><tr><td class="tag"><span>C6</span></td><td class="ser">Affinity expansion board</td><td>Ethernet and 0–10 V for a building management or home automation system.</td><td class="m">Built into the 5-channel controller; BMS mode turns off the app.<sup class="fnr">6</sup></td></tr></tbody>
+    </table>
+    <p class="fn">Wi-Fi and app features need compatible Affinity Smart-Heat Controls, sold separately. The controls connect to Amazon Alexa and Google Assistant, and to Control4, Crestron and Lutron systems; compatibility varies by system and may need extra integration hardware or configuration.<sup class="fnr">7</sup> The controllers are certified to UL 60730-1 and CAN/CSA E60730-1.<sup class="fnr">6</sup> Compatibility of each controller with each Platinum and Tungsten wattage and voltage: <span class="tcf">To confirm</span></p>
+  </div>
+  <div class="x blk s4-dwg"><figure class="panel "><svg viewBox="0 0 450 206" class="dwg" role="img" aria-label="Control zoning diagram: one Affinity controller and one manual wall switch per zone, the app over Wi-Fi">
+  <rect x="150" y="6" width="150" height="30" class="box"/>
+  <text x="225" y="19" class="boxt" text-anchor="middle">BROMIC SMART-HEAT APP</text><text x="225" y="30" class="boxs" text-anchor="middle">ZONES · SCHEDULES · TIMERS</text>
+  <path d="M225 36 V54 M62 54 H372 M62 54 V90 M212 54 V90 M372 54 V90" class="wifi"/>
+  <text x="232" y="50" class="tiny">WI-FI</text>
+  <g><rect x="12" y="90" width="136" height="38" class="box"/>
+  <text x="18" y="104" class="boxt">AFFINITY DIMMER</text><text x="18" y="117" class="boxs">VARIABLE OUTPUT</text>
+  <line x1="18" y1="128" x2="124" y2="128" class="obj"/><rect x="18" y="146" width="36" height="12" class="heat"/><text x="36" y="170" class="callt" text-anchor="middle">H1</text>
+  <line x1="36" y1="128" x2="36" y2="146" class="obj"/><rect x="62" y="146" width="36" height="12" class="heat"/><text x="80" y="170" class="callt" text-anchor="middle">H1</text>
+  <line x1="80" y1="128" x2="80" y2="146" class="obj"/><rect x="106" y="146" width="36" height="12" class="heat"/><text x="124" y="170" class="callt" text-anchor="middle">H1</text>
+  <line x1="124" y1="128" x2="124" y2="146" class="obj"/>
+  <circle cx="139" cy="80" r="6" class="box"/><text x="139" y="82.5" class="tiny" text-anchor="middle">WS</text>
+  <line x1="139" y1="86" x2="139" y2="90" class="obj"/>
+  <text x="12" y="194" class="zonet">ZONE 1 · DINING</text></g>
+  <g><rect x="162" y="90" width="100" height="38" class="box"/>
+  <text x="168" y="104" class="boxt">AFFINITY ON/OFF</text><text x="168" y="117" class="boxs">ON/OFF PER ZONE</text>
+  <line x1="168" y1="128" x2="230" y2="128" class="obj"/><rect x="168" y="146" width="36" height="12" class="heat"/><text x="186" y="170" class="callt" text-anchor="middle">H1</text>
+  <line x1="186" y1="128" x2="186" y2="146" class="obj"/><rect x="212" y="146" width="36" height="12" class="heat"/><text x="230" y="170" class="callt" text-anchor="middle">H1</text>
+  <line x1="230" y1="128" x2="230" y2="146" class="obj"/>
+  <circle cx="253" cy="80" r="6" class="box"/><text x="253" y="82.5" class="tiny" text-anchor="middle">WS</text>
+  <line x1="253" y1="86" x2="253" y2="90" class="obj"/>
+  <text x="162" y="194" class="zonet">ZONE 2 · BAR</text></g>
+  <g><rect x="322" y="90" width="100" height="38" class="box"/>
+  <text x="328" y="104" class="boxt">AFFINITY ECLIPSE</text><text x="328" y="117" class="boxs">HEAT STEPS + RIM LIGHT</text>
+  <line x1="328" y1="128" x2="390" y2="128" class="obj"/><rect x="328" y="146" width="36" height="12" class="heat"/><text x="346" y="170" class="callt" text-anchor="middle">H2</text>
+  <line x1="346" y1="128" x2="346" y2="146" class="obj"/><rect x="372" y="146" width="36" height="12" class="heat"/><text x="390" y="170" class="callt" text-anchor="middle">H2</text>
+  <line x1="390" y1="128" x2="390" y2="146" class="obj"/>
+  <circle cx="413" cy="80" r="6" class="box"/><text x="413" y="82.5" class="tiny" text-anchor="middle">WS</text>
+  <line x1="413" y1="86" x2="413" y2="90" class="obj"/>
+  <text x="322" y="194" class="zonet">ZONE 3 · LOUNGE</text></g>
+</svg>
+  <figcaption><span class="bubble">C</span><span><b>CONTROL ZONING · TYPICAL</b><em>ONE CONTROLLER CHANNEL AND ONE WALL SWITCH (WS) PER ZONE · APP OVER WI-FI</em></span></figcaption></figure></div>
+  <div class="x blk s4-pq"><p class="pullq">The warmth is always exactly where, and when, your client wants it.</p></div>
+  
+  <div class="strip">
+  <div class="cell grow"><b>NOTES</b><span>For electrical contractors. US: NFPA 70 (NEC) as adopted locally. Superscripts: sources, sheet 08.</span></div>
+  <div class="cell"><b>PROJECT</b><span>Growing Your Outdoor Heating Work</span></div>
+  <div class="cell"><b>SHEET TITLE</b><span>Supply And Controls</span></div>
+  <div class="cell s"><b>ASSET</b><span>A25</span></div>
+  <div class="cell s"><b>SCALE</b><span>NTS</span></div>
+  <div class="cell"><b>REVISION</b><span>Draft for review</span></div>
+  <div class="cell s"><b>DATE</b><span>2026-11-16</span></div>
+  <div class="cell sheet"><b>SHEET</b><span>04<i>/08</i></span></div>
+</div>
+</section>
+<section class="page light ">
+  <div class="grid"></div><div class="zones" style="color:#6B7480"><div class="zt"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zb"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zl"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div><div class="zr"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div></div><div class="frame"></div>
+  <header class="s-head blk">
+    <p class="eyebrow">02 · BEFORE ROUGH-IN &nbsp;·&nbsp; 03 · THE WEATHER</p>
+    <h2>Built For The Weather, Season After Season</h2>
+    <p class="s-lede">Outdoor equipment lives with rain, salt air, wind and the long swing from summer to winter. A heater that fails in its second season costs you a callback and a client, so we build ours to last.</p>
+  </header>
+  
+  <div class="x blk s5-cl">
+    <p class="lbl lblr"><span>YOUR CHECKLIST BEFORE ROUGH-IN</span></p>
+    <ol class="checks"><li><span class="bx"></span><span class="no">01</span><span>Supply voltage confirmed for every heater (208, 240 or 277 V).</span></li><li><span class="bx"></span><span class="no">02</span><span>One dedicated circuit per heater or per controller channel, sized from the installation manual and the code.</span></li><li><span class="bx"></span><span class="no">03</span><span>Controller location chosen: dry, reachable, inside Wi-Fi range if the app is used.</span></li><li><span class="bx"></span><span class="no">04</span><span>Box and cable run to every wall switch.</span></li><li><span class="bx"></span><span class="no">05</span><span>Recess framing or suspension pole fixing agreed with the builder.<sup class="fnr">4</sup></span></li><li><span class="bx"></span><span class="no">06</span><span>Integration with the home or building system confirmed with the integrator.</span></li></ol>
+  </div>
+  <div class="x blk s5-ph"><figure class="plate ">
+  <div class="plate-img" style="height:2.05in;background-image:url(img/pavilion.jpg);background-position:50% 50%"></div>
+  <figcaption><b>SITE PHOTO</b> Heaters recessed in the roof of an open timber pavilion above a long dining table.</figcaption></figure></div>
+  <div class="x blk sched s5-ip">
+    <div class="hdr"><span class="lbl">RATINGS SCHEDULE · BUILT FOR THE WEATHER</span><span class="lbl r">RATINGS AND MATERIALS</span></div>
+    <table class="eq"><colgroup><col style="width:32px"><col style="width:190px"><col style="width:120px"><col></colgroup>
+      <thead><tr><th>TAG</th><th>PRODUCT</th><th>RATING</th><th>NOTES</th></tr></thead>
+      <tbody>
+        <tr><td class="tag"><span>H1</span></td><td class="ser">Tungsten Smart-Heat<sup>®</sup> Electric</td><td class="m">IPX4</td><td>Rated against splashing water.<sup class="fnr">5</sup></td></tr>
+        <tr><td class="tag"><span>H2</span></td><td class="ser">Platinum Smart-Heat<sup>®</sup> Electric Marine</td><td class="m">IPX5 · AISI 316</td><td>Marine-grade stainless steel; Lloyd's Register approval for marine use. The heater to specify within reach of the coast.<sup class="fnr">8</sup></td></tr>
+        <tr><td class="tag"><span>H3</span></td><td class="ser">Tungsten Coastal · Tungsten Select</td><td class="m"><span class="tcf">To confirm</span></td><td>Available now, launched in October 2026. Ask your Bromic contact for their ratings before you specify them.</td></tr>
+        <tr><td class="tag"><span>C1</span></td><td class="ser">Affinity Smart-Heat<sup>®</sup> On/Off controller</td><td class="m">IP54</td><td>Enclosure rating.<sup class="fnr">6</sup></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="x blk s5-war">
+    <p class="lbl lblr"><span>A WARRANTY YOU CAN QUOTE WITH CONFIDENCE</span></p>
+    <p class="w">Bromic publishes its warranty by product line.<sup class="fnr">9</sup> Partners receive an additional year of warranty coverage on qualifying products.<sup class="fnr">10</sup> Your clients deal with one manufacturer, one warranty process and one support line for the whole job.</p>
+    <p class="fn">Warranty periods by product line, and which products qualify for the Partner Program's extra year: <span class="tcf">To confirm</span></p>
+  </div>
+  <div class="x blk s5-ph2"><figure class="plate ">
+  <div class="plate-img" style="height:2.55in;background-image:url(img/rooftop.jpg);background-position:50% 50%"></div>
+  <figcaption><b>SITE PHOTO</b> Pole-mounted Tungsten heaters above high bar tables on a rooftop at night.</figcaption></figure></div>
+  
+  <div class="strip">
+  <div class="cell grow"><b>NOTES</b><span>For electrical contractors. US: NFPA 70 (NEC) as adopted locally. Superscripts: sources, sheet 08.</span></div>
+  <div class="cell"><b>PROJECT</b><span>Growing Your Outdoor Heating Work</span></div>
+  <div class="cell"><b>SHEET TITLE</b><span>Rough-In, Weather, Warranty</span></div>
+  <div class="cell s"><b>ASSET</b><span>A25</span></div>
+  <div class="cell s"><b>SCALE</b><span>NTS</span></div>
+  <div class="cell"><b>REVISION</b><span>Draft for review</span></div>
+  <div class="cell s"><b>DATE</b><span>2026-11-16</span></div>
+  <div class="cell sheet"><b>SHEET</b><span>05<i>/08</i></span></div>
+</div>
+</section>
+<section class="page light ">
+  <div class="grid"></div><div class="zones" style="color:#6B7480"><div class="zt"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zb"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zl"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div><div class="zr"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div></div><div class="frame"></div>
+  <header class="s-head blk">
+    <p class="eyebrow">04 · THE QUOTE</p>
+    <h2>Making Your Quote The One They Remember</h2>
+    <p class="s-lede">Clients compare quotes, and most look alike, with a heater, a price and a date. With a little more care, yours stays in their mind.</p>
+  </header>
+  
+  <div class="x blk s6-ph"><figure class="plate ">
+  <div class="plate-img" style="height:3.05in;background-image:url(img/pendant.jpg);background-position:50% 45%"></div>
+  <figcaption><b>SITE PHOTO</b> Two Eclipse pendant heaters above an outdoor dining table at dusk.</figcaption></figure></div>
+  <div class="x blk s6-list">
+    <div class="q"><span class="bubble">1</span><div><h3>Send a heating plan with the quote.</h3><p>A Bromic design plan shows where each heater goes and the space it warms, turning a line item into a picture of the evening ahead.<sup class="fnr">10</sup></p></div></div><div class="q"><span class="bubble">2</span><div><h3>Quote the complete system.</h3><p>Heaters, controllers, wall switch and app set-up belong in one price, because a heater is a finished job once its controls are in, and the client feels the difference on the first cold night.</p></div></div><div class="q"><span class="bubble">3</span><div><h3>Offer the pre-wire on every patio.</h3><p>Rough-in at framing costs far less than opening a finished soffit later, and it lets the owner add heat after they move in.</p></div></div><div class="q"><span class="bubble">4</span><div><h3>Talk about safety plainly.</h3><p>Dedicated circuits, the right mounting height and outdoor-rated controls build confidence, and clients trust the contractor who explains why.</p></div></div><div class="q"><span class="bubble">5</span><div><h3>Show it working.</h3><p>A heated patio at dusk sells the next one. Ask to photograph the finished job; as a Bromic partner you can have projects featured.</p></div></div>
+  </div>
+  <div class="x blk s6-more">
+    <p class="lbl lblr"><span>ROOM FOR OUTDOOR HEAT IN THE WORK YOU ALREADY DO</span></p>
+    <div class="tags"><span>New homes</span><span>Remodels</span><span>Commercial fit-outs</span><span>Smart-home installs</span><span>Service work</span></div>
+  </div>
+  <div class="x blk s6-ph2"><figure class="plate ">
+  <div class="plate-img" style="height:1.6in;background-image:url(img/lake.jpg);background-position:50% 50%"></div>
+  <figcaption><b>SITE PHOTO</b> An Eclipse freestanding heater arcing over a sofa on a lakeside terrace.</figcaption></figure></div>
+  <div class="x blk s6-ph3"><figure class="plate ">
+  <div class="plate-img" style="height:1.6in;background-image:url(img/pool.jpg);background-position:50% 40%"></div>
+  <figcaption><b>SITE PHOTO</b> A Tungsten freestanding gas heater beside a poolside sofa.</figcaption></figure></div>
+  
+  <div class="strip">
+  <div class="cell grow"><b>NOTES</b><span>For electrical contractors. US: NFPA 70 (NEC) as adopted locally. Superscripts: sources, sheet 08.</span></div>
+  <div class="cell"><b>PROJECT</b><span>Growing Your Outdoor Heating Work</span></div>
+  <div class="cell"><b>SHEET TITLE</b><span>Making Your Quote</span></div>
+  <div class="cell s"><b>ASSET</b><span>A25</span></div>
+  <div class="cell s"><b>SCALE</b><span>NTS</span></div>
+  <div class="cell"><b>REVISION</b><span>Draft for review</span></div>
+  <div class="cell s"><b>DATE</b><span>2026-11-16</span></div>
+  <div class="cell sheet"><b>SHEET</b><span>06<i>/08</i></span></div>
+</div>
+</section>
+<section class="page light ">
+  <div class="grid"></div><div class="zones" style="color:#6B7480"><div class="zt"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zb"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zl"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div><div class="zr"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div></div><div class="frame"></div>
+  <header class="s-head blk">
+    <p class="eyebrow">05 · THE BROMIC PARTNER PROGRAM</p>
+    <h2>You Create Beautiful Spaces. We Know How To Heat Them.</h2>
+    <p class="s-lede">Together, we help your clients enjoy them all season long. The Bromic Partner Program gives trade professionals who specify, design, build or install outdoor spaces exclusive benefits and dedicated support.<sup class="fnr">10</sup></p>
+  </header>
+  
+  <div class="x blk s7-grid">
+    <div class="ben"><div class="bh"><span class="bubble">01</span><span class="lbl">BENEFIT</span></div><h3>Exclusive Partner Pricing</h3><p>Trade pricing on Bromic heaters and controls.</p></div><div class="ben"><div class="bh"><span class="bubble">02</span><span class="lbl">BENEFIT</span></div><h3>Expert Product Recommendations</h3><p>The right heater, wattage, voltage and controls for each space, from people who know the range inside out.</p></div><div class="ben"><div class="bh"><span class="bubble">03</span><span class="lbl">BENEFIT</span></div><h3>Free Custom Heating Design Plans</h3><p>Heater positions and coverage drawn on your client's plan, with a parts and controls list to price from.</p></div><div class="ben"><div class="bh"><span class="bubble">04</span><span class="lbl">BENEFIT</span></div><h3>Extended Warranty</h3><p>An additional year of warranty coverage on qualifying products.</p></div><div class="ben"><div class="bh"><span class="bubble">05</span><span class="lbl">BENEFIT</span></div><h3>Dedicated Point Of Contact</h3><p>One named Bromic contact for your projects.</p></div><div class="ben"><div class="bh"><span class="bubble">06</span><span class="lbl">BENEFIT</span></div><h3>Project Coverage &amp; Marketing Spotlights</h3><p>Your finished projects can be featured in Bromic case studies and marketing.</p></div>
+  </div>
+  <div class="x blk s7-inst">
+    <div><p class="lbl">INSTALLER PROGRAM<span class="ast">*</span></p><p>Partners who install Bromic heaters can also join the Bromic installer program. Installer program benefits and how to apply: <span class="tcf">To confirm</span></p></div>
+    <div><p class="lbl">HOW TO JOIN</p><p>Register your project and meet your Bromic rep at <b>bromic.com/lp-builders</b>, or call <b style="white-space:nowrap">1-800-301-1293</b>.<sup class="fnr">10,7</sup></p></div>
+    <p class="foot">* A reseller certificate is required to join the Bromic installer program.</p>
+  </div>
+  <div class="x blk s7-ph"><figure class="plate ">
+  <div class="plate-img" style="height:3.05in;background-image:url(img/terrace.jpg);background-position:50% 40%"></div>
+  <figcaption><b>SITE PHOTO</b> Black linear electric heaters under the timber soffit of a covered pool terrace.</figcaption></figure></div>
+  
+  <div class="strip">
+  <div class="cell grow"><b>NOTES</b><span>Benefits as published on the Bromic Partner Program trade page. A reseller certificate is required to join the Bromic installer program.</span></div>
+  <div class="cell"><b>PROJECT</b><span>Growing Your Outdoor Heating Work</span></div>
+  <div class="cell"><b>SHEET TITLE</b><span>The Bromic Partner Program</span></div>
+  <div class="cell s"><b>ASSET</b><span>A25</span></div>
+  <div class="cell s"><b>SCALE</b><span>NTS</span></div>
+  <div class="cell"><b>REVISION</b><span>Draft for review</span></div>
+  <div class="cell s"><b>DATE</b><span>2026-11-16</span></div>
+  <div class="cell sheet"><b>SHEET</b><span>07<i>/08</i></span></div>
+</div>
+</section>
+<section class="page dark">
+  <div class="grid"></div><div class="zones" style="color:rgba(201,214,232,.55)"><div class="zt"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zb"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zl"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div><div class="zr"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div></div><div class="frame"></div>
+  <header class="c-top blk">
+    <img class="logo" src="../../../images/portfolio/bromic-logo-white.png" alt="Bromic Heating">
+    <div class="c-meta"><span>YOUR NEXT STEP</span><span>BROMIC PARTNER PROGRAM</span></div>
+  </header>
+  <div class="x blk bk-cta">
+    <p class="eyebrow">JOIN THE PROGRAM · REGISTER YOUR NEXT PROJECT</p>
+    <h2>Join the Bromic Partner Program and register your next project, and we will send you a heating design plan for it.</h2>
+    <a class="btn">JOIN THE BROMIC PARTNER PROGRAM <span>→</span></a>
+    <p class="addr">BROMIC.COM/LP-BUILDERS · 1-800-301-1293<br>TECHNICAL SUPPORT MONDAY TO FRIDAY, 9 AM TO 4 PM PACIFIC</p>
+  </div>
+  <div class="x blk bk-ph"><figure class="plate ">
+  <div class="plate-img" style="height:2.95in;background-image:url(img/tablet.jpg);background-position:50% 40%"></div>
+  <figcaption><b>SITE PHOTO</b> A hand holding a tablet to set the warmth at an outdoor table.</figcaption></figure></div>
+  <div class="x blk bk-src">
+    <p class="lbl lblr"><span>SOURCES</span></p>
+    <ol class="srcs"><li><span class="sn">1</span><span>National Association of Home Builders (Eye on Housing). <i>Share of new homes with patios dips to a six-year low</i>. 2026. <span class="u">eyeonhousing.org</span></span></li><li><span class="sn">2</span><span>National Association of Home Builders (Eye on Housing). <i>Outdoor features, a laundry room among most wanted features (What Home Buyers Really Want, 2024 edition)</i>. 2024. <span class="u">eyeonhousing.org</span></span></li><li><span class="sn">3</span><span>Bromic Heating / Atomik Research. <i>Outdoor Living Trends 2026 (US Homeowner Survey)</i>. 2026.</span></li><li><span class="sn">4</span><span>Bromic Heating. <i>The Official Outdoor Heating Planning Guide, US v1.2</i>. 2021.</span></li><li><span class="sn">5</span><span>Bromic Heating. <i>Tungsten Smart-Heat Electric product page</i>. 2026. <span class="u">bromic.com</span></span></li><li><span class="sn">6</span><span>Bromic Heating. <i>Affinity Smart-Heat controllers, manual wall switch and expansion board product pages</i>. 2026. <span class="u">bromic.com</span></span></li><li><span class="sn">7</span><span>Bromic Heating. <i>Lookbook 2026</i>. 2026.</span></li><li><span class="sn">8</span><span>Bromic Heating. <i>Platinum Smart-Heat Electric Marine product page</i>. 2026. <span class="u">bromic.com</span></span></li><li><span class="sn">9</span><span>Bromic Heating. <i>Warranty</i>. 2026. <span class="u">bromic.com/warranty</span></span></li><li><span class="sn">10</span><span>Bromic Heating. <i>The Bromic Partner Program (trade landing page)</i>. 2026. <span class="u">bromic.com/lp-builders</span></span></li><li><span class="sn">11</span><span>National Fire Protection Association. <i>NFPA 70, National Electrical Code</i>. 2026. <span class="u">nfpa.org</span></span></li></ol>
+  </div>
+  <p class="x blk bk-disc">Codes vary by location. Confirm every installation with the local building authority and the authority having jurisdiction; electrical work must be carried out by a licensed electrician.</p>
+  <div class="tblock">
+    <div class="r"><b>PROJECT</b><span>Growing Your Outdoor Heating Work</span></div>
+    <div class="r two"><div><b>ASSET</b><span>A25</span></div><div><b>SCALE</b><span>NTS</span></div><div><b>DATE</b><span>2026-11-16</span></div></div>
+    <div class="r two"><div><b>REVISION</b><span>Draft for review</span></div><div class="sh"><b>SHEET</b><span>08<i>/08</i></span></div></div>
+  </div>
+</section></body></html>

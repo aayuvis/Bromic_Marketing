@@ -1,0 +1,90 @@
+{
+ "id": "CSW-06",
+ "kind": "web-draft",
+ "draft": true,
+ "name": "Patio Cover, Sammamish",
+ "sector": "Residential",
+ "country": "USA",
+ "line": "Heat And Air Under Cedar",
+ "pages": 1,
+ "privateHome": true,
+ "lede": "Built for chilly Pacific Northwest evenings, a cedar gable-roof patio cover shelters a new deck, with Bromic heaters and ceiling fans so warmth and airflow can be tuned all year.",
+ "data": [
+  [
+   "Location",
+   "Sammamish, Washington"
+  ],
+  [
+   "Setting",
+   "Private home – gable-roof patio cover and deck"
+  ],
+  [
+   "Heaters",
+   "Bromic heaters – model to confirm"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ]
+ ],
+ "hero": {
+  "img": "w-ar-homes-4118-opt",
+  "pos": "50% 40%",
+  "caption": "Comparable Bromic installation, not this project: replace with project photography once licensed."
+ },
+ "beats": [
+  [
+   "The Space",
+   "A cedar gable-roof patio cover with skylights over a new custom deck, built by a design-build contractor."
+  ],
+  [
+   "The Challenge",
+   "Pacific Northwest evenings are cool and often wet; the covered deck had to be comfortable through the year."
+  ],
+  [
+   "The Solution",
+   "Bromic outdoor heaters were fitted together with ceiling fans under the cedar roof. The model, count and controls are not stated."
+  ]
+ ],
+ "team": [
+  "Installer: PCF Group"
+ ],
+ "products": [
+  {
+   "coll": "Bromic",
+   "name": "Bromic heaters – model to confirm",
+   "img": null,
+   "p": "bromic",
+   "where": "Under the cedar patio cover",
+   "mount": "To confirm",
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "notes": [
+  "Draft from public sources: nothing here has been confirmed with the customer. Publish only once the consent checklist in the case-study template is complete.",
+  "A 2025 Washington permit for this contractor lists two 30 A Bromic heaters on timer controls; whether it is this job is to confirm."
+ ],
+ "slug": "Patio-Cover-Sammamish",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "file": "content/case-studies/web/CSW-06-pcf-sammamish.md",
+  "evidence": "snippet-only",
+  "completeness": "full-draft",
+  "owner_review": "US field sales"
+ },
+ "sources": [
+  "PCF Group (search snippet only) (pcfgroup.com).",
+  "BuildZoom (search snippet only) (buildzoom.com)."
+ ],
+ "layout": {
+  "pages": 1,
+  "quote": false,
+  "heroH": 2.4,
+  "beatSize": 7.4,
+  "lede": false
+ }
+}

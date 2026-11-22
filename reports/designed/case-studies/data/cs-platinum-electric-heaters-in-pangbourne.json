@@ -1,0 +1,108 @@
+{
+ "id": "cs-platinum-electric-heaters-in-pangbourne",
+ "kind": "bromic",
+ "draft": false,
+ "name": "Barn Conversion, Pangbourne",
+ "sector": "Residential",
+ "country": "United Kingdom",
+ "line": "Heat You Barely Notice",
+ "pages": 2,
+ "privateHome": true,
+ "dateText": "2022",
+ "lede": "On two acres an hour from London, a former tennis court became an outdoor entertaining space inside a barn conversion. Black Platinum Electric heaters, with zoned dimming, replace open-element heaters the owner never liked.",
+ "data": [
+  [
+   "Location",
+   "Pangbourne, England"
+  ],
+  [
+   "Setting",
+   "Private home – outdoor room in a barn conversion"
+  ],
+  [
+   "Heaters",
+   "Platinum Smart-Heat® Electric 3400 W, black (12 recommended)"
+  ],
+  [
+   "Controls",
+   "Wireless Dimmer Controller · Master Remote"
+  ],
+  [
+   "Date",
+   "2022"
+  ]
+ ],
+ "hero": {
+  "img": "w-p1020710-hdr-2-denoiseai-clear",
+  "pos": "50% 50%",
+  "caption": "Black Platinum Electric heaters along both eaves of the pavilion. Bromic-published photograph from the case study."
+ },
+ "photos": [
+  {
+   "img": "w-p1021414-hdr-denoiseai-low-light",
+   "caption": "The heaters at night. Bromic-published photograph from the case study."
+  },
+  {
+   "img": "w-p1021449-hdr-denoiseai-low-light",
+   "caption": "The lounge around the fire pit. Bromic-published photograph from the case study."
+  }
+ ],
+ "beats": [
+  [
+   "The Space",
+   "The 1920s house sits on two acres outside Pangbourne. Where a tennis court once was, the owner built an entertaining space in a barn conversion that fully shelters it from the weather."
+  ],
+  [
+   "The Challenge",
+   "He wanted the space in use year-round, with heat whenever it cooled, in place of open-element heaters that looked ugly, rusted and gathered cobwebs – and he needed guidance on which heaters, and how many."
+  ],
+  [
+   "The Solution",
+   "Bromic’s design service recommended twelve black Platinum Electric 3400 W heaters, with a Wireless Dimmer Controller and a Master Remote for dimming and zoned control."
+  ]
+ ],
+ "quote": {
+  "text": "Our guests have been wowed by the entertainment space and impressed with the heaters.",
+  "who": "Homeowner",
+  "role": "Pangbourne"
+ },
+ "products": [
+  {
+   "coll": "Platinum",
+   "name": "Platinum Smart-Heat® Electric",
+   "img": "w-p1020691-denoiseai-clear",
+   "p": "platinum-electric",
+   "where": "Outdoor entertaining space in the barn conversion",
+   "qty": "12 × 3400 W, black (recommended)",
+   "mount": "To confirm",
+   "controls": "Wireless Dimmer Controller and Master Remote – dimming and zones"
+  }
+ ],
+ "notes": [
+  "The case study gives twelve as the number recommended. A private home: named by town only. The quotation is as published on the case study; check the wording against the live page before print."
+ ],
+ "slug": "Barn-Conversion-Pangbourne",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-platinum-electric-heaters-in-pangbourne",
+  "url": "https://www.bromic.com/case-study/platinum-electric-heaters-in-pangbourne/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/platinum-electric-heaters-in-pangbourne/",
+   "https://www.bromic.co.uk/case-study/platinum-electric-heaters-in-pangbourne/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Platinum Electric Heaters in Pangbourne”, case study, 2022 – bromic.com/case-study/platinum-electric-heaters-in-pangbourne (also on bromic.ca and bromic.co.uk)."
+ ],
+ "layout": {
+  "pages": 2,
+  "zones": true,
+  "table": true,
+  "quote": false
+ }
+}

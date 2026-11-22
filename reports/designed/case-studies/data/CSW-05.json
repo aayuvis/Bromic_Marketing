@@ -1,0 +1,93 @@
+{
+ "id": "CSW-05",
+ "kind": "web-draft",
+ "draft": true,
+ "name": "Reveal Design Backyards",
+ "sector": "Residential",
+ "country": "USA",
+ "line": "Warmth Hung From The Louvres",
+ "pages": 2,
+ "privateHome": true,
+ "lede": "A Chicago landscape design-build firm specifies Bromic into its pergola work. In Glenview, electric heaters hang from an opening louvred pergola; in North Center, a city backyard pergola is equipped with heaters too.",
+ "data": [
+  [
+   "Location",
+   "Glenview, Illinois · North Center, Chicago"
+  ],
+  [
+   "Setting",
+   "Two private homes – louvred pergolas"
+  ],
+  [
+   "Heaters",
+   "Bromic electric heaters – model to confirm"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ]
+ ],
+ "photos": [
+  {
+   "img": "v-reveal-glenview-1",
+   "caption": "Glenview. Photo: Reveal Design, via revealdesignchicago.com. Permission to publish to be confirmed."
+  }
+ ],
+ "beats": [
+  [
+   "The Space",
+   "In Glenview, a suburban backyard brings together a composite deck, an opening louvred pergola, an outdoor kitchen, a fire table and privacy planting. In North Center, a city backyard pairs a pergola with a garage party door and a deck."
+  ],
+  [
+   "The Challenge",
+   "In a cold city, both backyards were designed for long outdoor seasons, with heat built into the structure."
+  ],
+  [
+   "The Solution",
+   "In Glenview, Bromic electric heaters hang from the aluminium pergola. For North Center, the firm’s listing names Bromic heaters and the project page says the pergola is equipped with heaters."
+  ]
+ ],
+ "team": [
+  "Designer and builder: Reveal Design LLC"
+ ],
+ "products": [
+  {
+   "coll": "Bromic",
+   "name": "Bromic heaters – model to confirm",
+   "img": "v-reveal-glenview-1",
+   "p": "bromic",
+   "where": "Glenview pergola; North Center pergola",
+   "mount": "Hung from the aluminium pergola (Glenview)",
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "notes": [
+  "Draft from public sources: nothing here has been confirmed with the customer. Publish only once the consent checklist in the case-study template is complete.",
+  "Pergolas named by the firm: Pratic Brera (Glenview) and Apollo (North Center)."
+ ],
+ "slug": "Reveal-Design-Backyards",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "file": "content/case-studies/web/CSW-05-reveal-design-chicago.md",
+  "evidence": "page-read",
+  "completeness": "full-draft",
+  "owner_review": "US field sales"
+ },
+ "sources": [
+  "Reveal Design LLC (revealdesignchicago.com)."
+ ],
+ "hero": {
+  "img": "v-reveal-north-center-1",
+  "caption": "Photo: Reveal Design, via revealdesignchicago.com. Permission to publish to be confirmed."
+ },
+ "layout": {
+  "pages": 2,
+  "zones": true,
+  "table": true,
+  "quote": true
+ }
+}

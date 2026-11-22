@@ -1,0 +1,143 @@
+{
+ "id": "cs-embracing-earthy-elegance-at-oran-park-hotel",
+ "kind": "bromic",
+ "draft": false,
+ "name": "Oran Park Hotel",
+ "sector": "Hospitality",
+ "country": "Australia",
+ "line": "Moulded From The Earth",
+ "pages": 3,
+ "lede": "A newly completed hotel in Sydney’s south-west, built of raw materials and natural forms, needed heat that either disappears into the design or becomes part of it. Platinum Electric warms the terraces; Eclipse pendants hang among the courtyard lights.",
+ "data": [
+  [
+   "Location",
+   "Oran Park, south-west Sydney"
+  ],
+  [
+   "Setting",
+   "Hotel – terraces, courtyard and rooftop"
+  ],
+  [
+   "Heaters",
+   "Platinum Smart-Heat® Electric · Eclipse Smart-Heat® Electric pendants"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ]
+ ],
+ "hero": {
+  "img": "w-eclipseelectric-oranparkhotel-stevenwoodburn",
+  "pos": "50% 50%",
+  "caption": "Eclipse pendants in the courtyard. Photograph: Steve Woodburn, as credited by Bromic."
+ },
+ "photos": [
+  {
+   "img": "w-bromicheaters-oranparkhotel-stevenwoodburn-4",
+   "pos": "50% 50%",
+   "caption": "Eclipse heaters on twin drop rods among the pendant lights. Photograph: Steve Woodburn, as credited by Bromic."
+  },
+  {
+   "img": "w-eclispe",
+   "pos": "50% 50%",
+   "caption": "High tables under Eclipse heaters in the courtyard. Bromic-published photograph."
+  }
+ ],
+ "beats": [
+  [
+   "The Space",
+   "Designed by Achiebiosis Architects, the hotel blends natural materials, organic forms and modern hospitality, with semi-enclosed and open-air spaces under high ceilings – among them a double-height central courtyard."
+  ],
+  [
+   "The Challenge",
+   "Some areas had no ceiling structure and others little wall space. The heating had to work around lighting, TV screens and fans, either blend in or become a focal point, and leave no cold spots."
+  ],
+  [
+   "The Solution",
+   "With Bromic’s complimentary design service, the team prioritised seated zones and the perimeter. Platinum Electric heaters on wall mounts and pole suspensions warm the terraces and courtyard; Eclipse pendants are custom-integrated with the courtyard’s light fittings."
+  ]
+ ],
+ "zones": {
+  "title": "Three Outdoor Rooms",
+  "shape": "plan",
+  "items": [
+   {
+    "l": "A",
+    "name": "Northern Terrace",
+    "text": "Platinum Electric.",
+    "w": 396,
+    "dims": "36 m × 11 m"
+   },
+   {
+    "l": "B",
+    "name": "Central Courtyard",
+    "text": "Double height. Platinum Electric, with Eclipse pendants integrated into the light fittings.",
+    "w": 420,
+    "dims": "28 m × 15 m"
+   },
+   {
+    "l": "C",
+    "name": "Rooftop Terrace",
+    "text": "Platinum Electric.",
+    "w": 420,
+    "dims": "28 m × 15 m"
+   }
+  ]
+ },
+ "quote": {
+  "text": "The Bromic team helped us position the units efficiently based on the performance limits of the heaters.",
+  "who": "Edith Clark",
+  "role": "Architect, Achiebiosis Architects"
+ },
+ "team": [
+  "Architect: Achiebiosis Architects"
+ ],
+ "products": [
+  {
+   "coll": "Platinum",
+   "name": "Platinum Smart-Heat® Electric",
+   "img": "portfolio:platinum-electric",
+   "p": "platinum-electric",
+   "where": "Northern Terrace, Central Courtyard, Rooftop Terrace",
+   "mount": "Wall mounts and pole suspensions – which where, to confirm",
+   "controls": "To confirm – the source does not name them"
+  },
+  {
+   "coll": "Eclipse",
+   "name": "Eclipse Smart-Heat® Electric",
+   "img": "w-bromicheaters-oranparkhotel-stevenwoodburn-4",
+   "p": "eclipse-electric",
+   "pos": "50% 40%",
+   "where": "Central Courtyard",
+   "mount": "Pendant, integrated with the light fittings",
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "notes": [
+  "Areas are as the case study gives them; it gives no heater quantities. The quotation is as published on the case study; check the wording against the live page before print."
+ ],
+ "slug": "Oran-Park-Hotel",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-embracing-earthy-elegance-at-oran-park-hotel",
+  "url": "https://www.bromic.com/case-study/embracing-earthy-elegance-at-oran-park-hotel/",
+  "also_at": [
+   "https://www.bromic.com.au/case-study/embracing-earthy-elegance-at-oran-park-hotel/",
+   "https://www.bromic.ca/case-study/embracing-earthy-elegance-at-oran-park-hotel/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Embracing Earthy Elegance at Oran Park Hotel”, case study – bromic.com/case-study/embracing-earthy-elegance-at-oran-park-hotel (also on bromic.com.au and bromic.ca)."
+ ],
+ "layout": {
+  "pages": 3,
+  "quote": true,
+  "quoteOn": 2,
+  "wideH": 3.2
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "id": "cs-pecora-bianca",
+ "kind": "bromic",
+ "draft": false,
+ "name": "Pecora Bianca",
+ "sector": "Restaurant",
+ "country": "USA",
+ "line": "Keeping The Table Set",
+ "pages": 1,
+ "dateText": "September 2020",
+ "lede": "When the pandemic moved dining outdoors, Pecora Bianca chose Bromic heaters so it could keep sharing Italian food and human connection with its guests.",
+ "data": [
+  [
+   "Location",
+   "New York"
+  ],
+  [
+   "Setting",
+   "Restaurant – outdoor dining"
+  ],
+  [
+   "Heaters",
+   "Platinum Smart-Heat® Electric · Tungsten Smart-Heat® Electric"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ],
+  [
+   "Date",
+   "September 2020"
+  ]
+ ],
+ "hero": {
+  "img": "w-img-13962",
+  "pos": "50% 50%",
+  "caption": "The outdoor dining enclosure, heaters along its roof edge. Bromic-published photograph from the case study."
+ },
+ "beats": [
+  [
+   "The Space",
+   "Pecora Bianca serves Italian food in New York. During the pandemic, its tables moved into outdoor dining structures on the street."
+  ],
+  [
+   "The Challenge",
+   "The restaurant wanted to keep up its mission – sharing the joy of Italian food and celebrating human connection – with guests seated outside."
+  ],
+  [
+   "The Solution",
+   "Platinum Smart-Heat Electric and Tungsten Smart-Heat Electric heaters were installed for the outdoor dining. The case study gives no quantities or positions."
+  ]
+ ],
+ "products": [
+  {
+   "coll": "Platinum",
+   "name": "Platinum Smart-Heat® Electric",
+   "img": "portfolio:platinum-electric",
+   "p": "platinum-electric",
+   "where": "Outdoor dining",
+   "mount": "To confirm",
+   "controls": "To confirm – the source does not name them"
+  },
+  {
+   "coll": "Tungsten",
+   "name": "Tungsten Smart-Heat® Electric",
+   "img": "portfolio:tungsten-electric",
+   "p": "tungsten-electric",
+   "where": "Outdoor dining",
+   "mount": "To confirm",
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "notes": [
+  "The case study does not state the location in its text; New York is from its photographs’ captions."
+ ],
+ "slug": "Pecora-Bianca",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-pecora-bianca",
+  "url": "https://www.bromic.com/case-study/pecora-bianca/",
+  "also_at": [
+   "https://www.bromic.com.au/case-study/pecora-bianca/",
+   "https://www.bromic.ca/case-study/pecora-bianca/",
+   "https://www.bromic.ca/fr-ca/case-study/pecora-bianca/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Platinum and Tungsten Electric Heaters at Pecora Bianca Restaurant”, case study, September 2020 – bromic.com/case-study/pecora-bianca (also on bromic.com.au and bromic.ca)."
+ ],
+ "layout": {
+  "pages": 1,
+  "quote": true
+ }
+}

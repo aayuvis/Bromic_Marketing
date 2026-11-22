@@ -1,0 +1,116 @@
+{
+ "id": "cs-kahite-golf-course-pub-grill",
+ "kind": "bromic",
+ "draft": false,
+ "name": "Kahite Pub & Grill",
+ "sector": "Golf Club",
+ "country": "USA",
+ "line": "Room For Every Member",
+ "pages": 2,
+ "dateText": "October 2020",
+ "lede": "At a golf course in the foothills of the Great Smoky Mountains, a new covered patio doubles the pub’s room for events. Nine Tungsten Electric heaters under its low ceiling, with curtains against the wind, keep it open all year.",
+ "data": [
+  [
+   "Location",
+   "Vonore, Tennessee"
+  ],
+  [
+   "Setting",
+   "Covered golf-club patio for about 100 guests"
+  ],
+  [
+   "Heaters",
+   "Tungsten Smart-Heat® Electric 6000 W (9)"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ],
+  [
+   "Date",
+   "October 2020"
+  ]
+ ],
+ "hero": {
+  "img": "portfolio:tungsten-electric",
+  "pos": "50% 50%",
+  "caption": "Tungsten Smart-Heat® Electric – a product photograph, not this project. The case study carries no photographs of the patio."
+ },
+ "beats": [
+  [
+   "The Space",
+   "Kahite Golf Course covers 200 acres in the foothills of the Great Smoky Mountains, with views over Tellico Lake. A covered patio for about 100 people was added to the Pub & Grill to extend its entertainment space."
+  ],
+  [
+   "The Challenge",
+   "Events often outgrew the pub. The patio had to be usable all year – through regular winds and winter lows the case study puts at 5 °C – under a relatively low ceiling."
+  ],
+  [
+   "The Solution",
+   "With technical help from Bromic’s sales team, the club installed nine Tungsten Electric 6000 W heaters, each covering up to 15 m², and added curtains to keep the heat in."
+  ]
+ ],
+ "zones": {
+  "title": "One Patio, Closed To The Wind",
+  "shape": "plan",
+  "items": [
+   {
+    "l": "A",
+    "name": "Covered patio",
+    "text": "About 100 seats under a relatively low ceiling, warmed by Tungsten Electric; curtains hold the heat against the wind.",
+    "w": 3
+   },
+   {
+    "l": "B",
+    "name": "Pub & Grill",
+    "text": "The existing pub the patio extends.",
+    "w": 1
+   }
+  ]
+ },
+ "products": [
+  {
+   "coll": "Tungsten",
+   "name": "Tungsten Smart-Heat® Electric",
+   "img": "portfolio:tungsten-electric",
+   "p": "tungsten-electric",
+   "where": "Covered patio",
+   "qty": "9 × 6000 W",
+   "mount": "To confirm",
+   "extra": [
+    [
+     "Coverage",
+     "Up to 15 m² a heater, as the case study states"
+    ]
+   ],
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "notes": [
+  "The case study gives no positions; the plan shows the heated patio only, beside the pub it extends."
+ ],
+ "slug": "Kahite-Pub-and-Grill",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-kahite-golf-course-pub-grill",
+  "url": "https://www.bromic.com/case-study/kahite-golf-course-pub-grill/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/kahite-golf-course-pub-grill/",
+   "https://www.bromic.ca/fr-ca/case-study/kahite-golf-course-pub-grill/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Tungsten Electric Heaters at Kahite Golf Course Pub & Grill”, case study, October 2020 – bromic.com/case-study/kahite-golf-course-pub-grill (also on bromic.ca)."
+ ],
+ "layout": {
+  "pages": 2,
+  "zones": false,
+  "table": false,
+  "quote": true
+ }
+}

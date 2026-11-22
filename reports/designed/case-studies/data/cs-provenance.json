@@ -1,0 +1,90 @@
+{
+ "id": "cs-provenance",
+ "kind": "bromic",
+ "draft": false,
+ "name": "Provenance",
+ "sector": "Restaurant",
+ "country": "USA",
+ "line": "Garden To Terrace",
+ "pages": 1,
+ "dateText": "September 2016",
+ "lede": "Provenance cooks from its own 1,300 sq ft organic garden and serves it on an outdoor terrace. Platinum Gas heaters keep the terrace warm on cool Californian evenings and its tables in use all year.",
+ "data": [
+  [
+   "Location",
+   "Newport Beach, California"
+  ],
+  [
+   "Setting",
+   "Restaurant terrace beside its kitchen garden"
+  ],
+  [
+   "Heaters",
+   "Platinum Smart-Heat® Gas"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ],
+  [
+   "Date",
+   "September 2016"
+  ]
+ ],
+ "hero": {
+  "img": "w-california-laprovenance-platinumgas-01",
+  "pos": "50% 50%",
+  "caption": "Platinum Gas on the walls and beams of the timber pergola. Bromic-published photograph from the case study."
+ },
+ "beats": [
+  [
+   "The Space",
+   "A restaurant with a European bistro-style menu, Provenance sources from a 1,300 sq ft organic garden on site, the backdrop to its outdoor terrace."
+  ],
+  [
+   "The Challenge",
+   "The terrace had to stay warm on cool Californian evenings, so the restaurant could offer more tables all year."
+  ],
+  [
+   "The Solution",
+   "Platinum Smart-Heat Gas heaters keep the terrace warm. The case study gives no quantities or positions."
+  ]
+ ],
+ "products": [
+  {
+   "coll": "Platinum",
+   "name": "Platinum Smart-Heat® Gas",
+   "img": "portfolio:platinum-gas",
+   "p": "platinum-gas",
+   "where": "Outdoor terrace",
+   "mount": "To confirm",
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "slug": "Provenance",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-provenance",
+  "url": "https://www.bromic.com/case-study/provenance/",
+  "also_at": [
+   "https://www.bromic.com.au/case-study/provenance/",
+   "https://www.bromic.ca/case-study/provenance/",
+   "https://www.bromic.ca/fr-ca/case-study/provenance/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Platinum Gas Heaters at Provenance Restaurant”, case study, September 2016 – bromic.com/case-study/provenance (also on bromic.com.au and bromic.ca)."
+ ],
+ "notes": [],
+ "layout": {
+  "pages": 1,
+  "quote": false,
+  "heroH": 2.6,
+  "beatSize": 7.6
+ }
+}

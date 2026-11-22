@@ -1,0 +1,98 @@
+{
+ "id": "cs-the-modern-heating-solution-for-vintage-upscale-dining",
+ "kind": "bromic",
+ "draft": false,
+ "name": "Rare Society",
+ "sector": "Restaurant",
+ "country": "USA",
+ "line": "Old World Arches, Modern Heat",
+ "pages": 2,
+ "dateText": "2023",
+ "lede": "In San Clemente, a two-storey steakhouse wraps Spanish Colonial arches around Las Vegas glamour. Platinum Electric heaters in its semi-enclosed spaces keep the patios open through the winter, without breaking the look.",
+ "data": [
+  [
+   "Location",
+   "Avenida Del Mar, San Clemente, California"
+  ],
+  [
+   "Setting",
+   "Two-storey restaurant – patios and bar"
+  ],
+  [
+   "Heaters",
+   "Platinum Smart-Heat® Electric"
+  ],
+  [
+   "Controls",
+   "Hardwired On/Off switches"
+  ],
+  [
+   "Date",
+   "2023"
+  ]
+ ],
+ "hero": {
+  "img": "w-rare-society-platinum-electric-1",
+  "pos": "50% 50%",
+  "caption": "Platinum Electric above the terrace doors under the timber-beamed roof. Bromic-published photograph from the case study."
+ },
+ "photos": [
+  {
+   "img": "w-bromic-sep18th-9-1",
+   "caption": "Heaters on mounting poles in the arched arcade. Bromic-published photograph from the case study."
+  },
+  {
+   "img": "w-bromic-sep18th-3-1",
+   "caption": "A balcony table. Bromic-published photograph from the case study."
+  }
+ ],
+ "beats": [
+  [
+   "The Space",
+   "The 5,500 sq ft, two-storey restaurant centres on wood-fired Santa Maria-style grilling, pairing black marble and tufted leather with wood beams, herringbone brick floors, rounded arches and a porch arcade."
+  ],
+  [
+   "The Challenge",
+   "Trust Restaurant Group wanted to respect the Spanish Colonial architecture while opening the dining room to San Clemente’s climate, with areas usable by day and at night."
+  ],
+  [
+   "The Solution",
+   "Platinum Smart-Heat Electric heaters were chosen for their sleek look and installed in the semi-enclosed spaces, on hardwired On/Off switches, so the patios stay in use through the winter."
+  ]
+ ],
+ "products": [
+  {
+   "coll": "Platinum",
+   "name": "Platinum Smart-Heat® Electric",
+   "img": "w-black-platinum-electric-close-up",
+   "p": "platinum-electric",
+   "where": "Semi-enclosed spaces – downstairs patio, bar, upper patio",
+   "mount": "To confirm",
+   "controls": "Hardwired On/Off switches"
+  }
+ ],
+ "slug": "Rare-Society",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-the-modern-heating-solution-for-vintage-upscale-dining",
+  "url": "https://www.bromic.com/case-study/the-modern-heating-solution-for-vintage-upscale-dining/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/the-modern-heating-solution-for-vintage-upscale-dining/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “The Modern Heating Solution for Vintage Upscale Dining”, case study, 2023 – bromic.com/case-study/the-modern-heating-solution-for-vintage-upscale-dining (also on bromic.ca)."
+ ],
+ "notes": [],
+ "layout": {
+  "pages": 2,
+  "zones": true,
+  "table": true,
+  "quote": true
+ }
+}

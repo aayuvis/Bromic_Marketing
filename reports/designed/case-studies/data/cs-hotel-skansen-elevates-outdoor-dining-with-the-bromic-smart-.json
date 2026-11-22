@@ -1,0 +1,106 @@
+{
+ "id": "cs-hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-",
+ "kind": "bromic",
+ "draft": false,
+ "name": "Hotel Skansen",
+ "sector": "Hospitality",
+ "country": "Sweden",
+ "line": "Warm From Breakfast On",
+ "pages": 2,
+ "dateText": "November 2023",
+ "lede": "On Sweden’s west coast, Hotel Skansen wanted the terraces of its new SAND restaurant and lounge used in the colder months, with even heat and a calm, luxurious feel. Eclipse Freestanding heaters hang their heads over the middle of the tables.",
+ "data": [
+  [
+   "Location",
+   "Båstad, Sweden"
+  ],
+  [
+   "Setting",
+   "Resort hotel – SAND restaurant and lounge"
+  ],
+  [
+   "Heaters",
+   "Eclipse Smart-Heat® Freestanding (2)"
+  ],
+  [
+   "Controls",
+   "Eclipse Dimmer Controller · wireless controls"
+  ],
+  [
+   "Date",
+   "November 2023"
+  ]
+ ],
+ "hero": {
+  "img": "w-bromic-eclipse-portable-hotel-skansen-01",
+  "pos": "50% 55%",
+  "caption": "Eclipse Freestanding over a dining table at dusk. Bromic-published photograph from the case study."
+ },
+ "photos": [
+  {
+   "img": "w-bromic-eclipse-portable-hotel-skansen-06-v02",
+   "caption": "Two Eclipse heaters over the sofas along the courtyard wall. Bromic-published photograph from the case study."
+  },
+  {
+   "img": "w-bromic-eclipse-portable-hotel-skansen-04",
+   "caption": "The Eclipse disc and its LED ring. Bromic-published photograph from the case study."
+  }
+ ],
+ "beats": [
+  [
+   "The Space",
+   "Hotel Skansen in Båstad, run by GRAM Group, has more than 172 rooms, conference centres, a spa with a cold bathhouse and a rooftop banquet hall. Its new SAND restaurant and lounge open onto outdoor seating."
+  ],
+  [
+   "The Challenge",
+   "The hotel wanted its outdoor areas usable in colder months without losing the ambience its guests expect. Even distribution of heat was the priority."
+  ],
+  [
+   "The Solution",
+   "After reviewing plans and images, Bromic recommended Eclipse Freestanding: each heater head hangs from a mounting arm over the middle of a table, and the heaters can be moved to where they are needed. Staff run them with wireless controls."
+  ]
+ ],
+ "quote": {
+  "text": "We use them with wireless controls, which work very well.",
+  "who": "Siggo Plato",
+  "role": "Assistant Restaurant Manager, Hotel Skansen"
+ },
+ "products": [
+  {
+   "coll": "Eclipse",
+   "name": "Eclipse Smart-Heat® Freestanding",
+   "img": "w-bromic-eclipse-portable-hotel-skansen-05-v02",
+   "p": "eclipse-freestanding",
+   "where": "SAND terraces and the entrance",
+   "qty": "2 specified",
+   "mount": "Freestanding; the head hangs from a mounting arm over the table centre",
+   "controls": "Eclipse Dimmer Controller and wireless controls – heat percentage, light brightness, three heat and light presets"
+  }
+ ],
+ "notes": [
+  "Staff say they run the heaters from 7 am for breakfast service. The quotation is as published on the case study; check the wording against the live page before print."
+ ],
+ "slug": "Hotel-Skansen",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-",
+  "url": "https://www.bromic.com/case-study/hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-heat-freestanding-heaters/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-heat-freestanding-heaters/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Hotel Skansen Elevates Outdoor Dining with the Bromic Smart-Heat™ Freestanding Heaters”, case study, November 2023 – bromic.com/case-study/hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-heat-freestanding-heaters (also on bromic.ca)."
+ ],
+ "layout": {
+  "pages": 2,
+  "zones": true,
+  "table": true,
+  "quote": false
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "id": "cs-enhancing-work-life-balance-with-year-round-outdoor-comfort-",
+ "kind": "bromic",
+ "draft": false,
+ "name": "The Boardwalk",
+ "sector": "Workplace",
+ "country": "USA",
+ "line": "Work Outside, All Year",
+ "pages": 1,
+ "dateText": "2024",
+ "lede": "At The Boardwalk, a two-acre courtyard extends the office outdoors for meetings, focused work and lunch. Platinum Electric heaters built into its pergolas keep it in use through the cooler months.",
+ "data": [
+  [
+   "Location",
+   "Irvine, California"
+  ],
+  [
+   "Setting",
+   "Office campus – two-acre courtyard with pergolas"
+  ],
+  [
+   "Heaters",
+   "Platinum Smart-Heat® Electric"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ],
+  [
+   "Date",
+   "2024"
+  ]
+ ],
+ "hero": {
+  "img": "w-boardwalk-edits-49",
+  "pos": "50% 50%",
+  "caption": "Platinum Electric on a pergola beam above a long table. Bromic-published photograph from the case study."
+ },
+ "beats": [
+  [
+   "The Space",
+   "Managed by CBRE, The Boardwalk is a luxury office complex in Irvine with resort-style outdoor space: a two-acre courtyard with pergolas, an onsite restaurant and a café."
+  ],
+  [
+   "The Challenge",
+   "The aim was flexible outdoor space for meetings, brainstorming, focused work and dining, with heating that looks good and works, so the courtyard is used all year."
+  ],
+  [
+   "The Solution",
+   "Platinum Smart-Heat Electric heaters were installed within the courtyard’s pergolas on Platinum Electric mounting poles, their stainless steel chassis and tinted ceramic glass suiting the resort-style design."
+  ]
+ ],
+ "products": [
+  {
+   "coll": "Platinum",
+   "name": "Platinum Smart-Heat® Electric",
+   "img": "portfolio:platinum-electric",
+   "p": "platinum-electric",
+   "where": "Courtyard pergolas",
+   "mount": "Within the pergolas; Platinum Electric mounting poles",
+   "extra": [
+    [
+     "Build",
+     "304-grade stainless steel chassis, tinted ceramic glass"
+    ]
+   ],
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "slug": "The-Boardwalk",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "record": "data/case-studies.json#cs-enhancing-work-life-balance-with-year-round-outdoor-comfort-",
+  "url": "https://www.bromic.com/case-study/enhancing-work-life-balance-with-year-round-outdoor-comfort-at-the-boardwalk/",
+  "also_at": [
+   "https://www.bromic.ca/case-study/enhancing-work-life-balance-with-year-round-outdoor-comfort-at-the-boardwalk/"
+  ],
+  "read": "2026-11-22"
+ },
+ "sources": [
+  "Bromic, “Enhancing Work-Life Balance with Year-Round Outdoor Comfort at The Boardwalk”, case study, 2024 – bromic.com/case-study/enhancing-work-life-balance-with-year-round-outdoor-comfort-at-the-boardwalk (also on bromic.ca)."
+ ],
+ "notes": [],
+ "layout": {
+  "pages": 1,
+  "quote": false,
+  "heroH": 2.4,
+  "beatSize": 7.4,
+  "lede": false
+ }
+}
