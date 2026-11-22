@@ -1004,3 +1004,5 @@ thead .pm-u { border: 0; background: none; padding: 0; font: 600 11px/1.3 var(--
 .dz-frame.land { height: min(820px, 80vh); }
 .dz-web { font-family: var(--display, 'GFS Didot', serif); font-weight: 400; font-size: 28px; margin: 8px 0 4px; }
 @media (max-width: 700px) { .dz-frame { height: 70vh; } }
+/* Mega menus scroll on their own: a tall panel (White Papers) stays in view and the wheel or trackpad scrolls the panel, not the page behind it (owner, 22 Nov 2026). */
+.mega-p { max-height: calc(100vh - 124px); max-height: calc(100dvh - 124px); overflow-y: auto; overscroll-behavior: contain; -webkit-overflow-scrolling: touch; }
