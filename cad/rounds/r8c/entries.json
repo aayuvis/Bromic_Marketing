@@ -1,0 +1,50 @@
+[
+ {
+  "id": "ts2-r8c-01",
+  "title": "Covered patio with fireplace lounge, two white Series II on short ceiling posts (Elm Ave)",
+  "kind": "CAD composite on a real Bromic install photo: flat-ceiling mount, 6 kW single 225 mm ceiling post, 2 heaters (30\u00b0 and 15\u00b0 toward the seats)",
+  "finish": "white",
+  "w": 5690,
+  "h": 3795,
+  "file": "images/review/full/ts2-r8c-01.jpg",
+  "thumb": "images/review/thumb/ts2-r8c-01.webp",
+  "source": "w-elm-ave-11-thumb (Bromic original, 5690 px), real photo; the two Series I drop-bracket heaters removed and replaced on the same lines; heater is the Series II CAD. Ceiling solved at about 3.5 m (real height kept, above the 8\u20139 ft low rule).",
+  "status": "pending"
+ },
+ {
+  "id": "ts2-r8c-02",
+  "title": "Concrete loggia over the outdoor dining table, black Series II on a short ceiling post",
+  "kind": "CAD composite on a real Bromic install photo: flat-ceiling mount, 6 kW single 225 mm post, 1 heater 0.45 m in from the slab edge, tilted 30\u00b0 toward the table",
+  "finish": "black",
+  "w": 1702,
+  "h": 2560,
+  "file": "images/review/full/ts2-r8c-02.jpg",
+  "thumb": "images/review/thumb/ts2-r8c-02.webp",
+  "source": "w-argentina-residential-2 (argentina-residential-2.jpg, 2560 px, low resolution \u2013 below 4K), real photo; Series I heater removed; heater is the Series II CAD. Heater about 2.7 m above the floor.",
+  "status": "pending"
+ },
+ {
+  "id": "ts2-r8c-03",
+  "title": "Louvred-roof deck room over the lounge, three black Series II on short posts under the inner beams",
+  "kind": "CAD composite on a real install photo: pergola/louvred roof, 6 kW single 225 mm posts into the solid ceiling panel and bay frames, 3 heaters tilted 30\u00b0 toward the seats",
+  "finish": "black",
+  "w": 2400,
+  "h": 1600,
+  "file": "images/review/full/ts2-r8c-03.jpg",
+  "thumb": "images/review/thumb/ts2-r8c-03.webp",
+  "source": "w-mom-design-build-2-web (mom-design-build-2-web.jpg, 2400 px, low resolution \u2013 below 4K), real photo; three Series I heaters on drop rods removed and replaced at the same places, tight to the structure; heater is the Series II CAD.",
+  "status": "pending"
+ },
+ {
+  "id": "ts2-r8c-04",
+  "title": "Covered summer kitchen with timber ceiling, three graphite Series II on short posts over the island",
+  "kind": "CAD composite on a real install photo: flat timber ceiling, 6 kW single 225 mm posts, heaters tilted 25\u00b0 toward the island stools",
+  "finish": "graphite",
+  "w": 1240,
+  "h": 1067,
+  "file": "images/review/full/ts2-r8c-04.jpg",
+  "thumb": "images/review/thumb/ts2-r8c-04.webp",
+  "source": "v-mughet-blainville-1 (third-party photo, Mughet; permission to publish to be confirmed), 1600 px, cropped to 1240 px \u2013 low resolution; Series I heaters on twin rods removed and replaced on the same lines (the fourth original heater falls outside the crop); heater is the Series II CAD.",
+  "status": "pending"
+ }
+]

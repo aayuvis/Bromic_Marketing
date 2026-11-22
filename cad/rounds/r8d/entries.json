@@ -1,0 +1,50 @@
+[
+ {
+  "id": "ts2-r8d-01",
+  "title": "Louvred-pergola café terrace, a heater over each table bay",
+  "kind": "Real photo + CAD heater",
+  "finish": "black",
+  "w": 2560,
+  "h": 1709,
+  "file": "images/review/full/ts2-r8d-01.jpg",
+  "thumb": "images/review/thumb/ts2-r8d-01.webp",
+  "source": "Real photo cad/backgrounds/tungsten/vbb7418.jpg (w-vbb7418, louvred pergola café, Bromic); heater is the Series II CAD. The original Series I row (three under the front beam, one under the rear beam) is replaced on the same beams: four Select 6 kW black on the 225 mm ceiling post, one per table bay, level, parallel to the beams, tilted 30° in toward the tables. Old heaters, hanger rods and cables removed (image model used only on crops, checked for drift). Camera from two vanishing points (f≈1707 px), scale from the old 1,410 mm heater. Low resolution: 2,560 px, the largest Bromic original (below 4K).",
+  "status": "pending"
+ },
+ {
+  "id": "ts2-r8d-02",
+  "title": "Garden restaurant under a glazed pergola, a row down the table line",
+  "kind": "Real photo + CAD heater",
+  "finish": "white",
+  "w": 2560,
+  "h": 1704,
+  "file": "images/review/full/ts2-r8d-02.jpg",
+  "thumb": "images/review/thumb/ts2-r8d-02.webp",
+  "source": "Real photo cad/backgrounds/tungsten/the-ivy-london-tungsten-electric.jpg (w-the-ivy-london-tungsten-electric, The Ivy, London); heater is the Series II CAD. The original row of three suspended Series I down the centreline of the narrow pergola (the documented one-heater-wide case) is replaced by three Select 6 kW white on the short ceiling post fixed to the rafters, level, parallel, equal spacing, tilted 20° toward the tables. Old heaters and rods removed. Camera from vanishing points (f≈1209 px), scale from the old heaters. Low resolution: 2,560 px (below 4K).",
+  "status": "pending"
+ },
+ {
+  "id": "ts2-r8d-03",
+  "title": "Rooftop hotel bar, heaters over the bar and the side lounge",
+  "kind": "Real photo + CAD heater",
+  "finish": "graphite",
+  "w": 2560,
+  "h": 1708,
+  "file": "images/review/full/ts2-r8d-03.jpg",
+  "thumb": "images/review/thumb/ts2-r8d-03.webp",
+  "source": "Real photo cad/backgrounds/tungsten/bromic-sep18th-14.jpg (w-bromic-sep18th-14, hotel bar, Bromic); heater is the Series II CAD. The original five white Series I on drop tubes are replaced at the same positions by five Select 6 kW graphite on the 225 mm ceiling post: three in the tray ceiling over the bar counter and stools (tilted 20° to the bar), two along the side soffit over the lounge (tilted 30° in). Old heaters, tubes, brackets and number tags removed. Camera from vanishing points (f≈1351 px), scale from the old 1,410 mm heaters. Low resolution: 2,560 px (below 4K).",
+  "status": "pending"
+ },
+ {
+  "id": "ts2-r8d-04",
+  "title": "Rooftop bar counter, two heaters over the guests",
+  "kind": "Real photo + CAD heater",
+  "finish": "black",
+  "w": 2560,
+  "h": 1708,
+  "file": "images/review/full/ts2-r8d-04.jpg",
+  "thumb": "images/review/thumb/ts2-r8d-04.webp",
+  "source": "Real photo cad/backgrounds/tungsten/img-0661.jpg (w-img-0661, rooftop bar); heater is the Series II CAD. The two white Series I on drop tubes over the bar are replaced at the same positions by two Select 6 kW black on the 225 mm ceiling post, parallel to the bar soffit, tilted 25° toward the guests at the counter. Clean plate from round 7 (old heaters, tubes and cable removed). Camera solved in round 7 (f≈2816 px). People were in the original photo. Low resolution: 2,560 px (below 4K).",
+  "status": "pending"
+ }
+]
