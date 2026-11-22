@@ -42,3 +42,8 @@ the rules, so this round cannot reach ten keepers without repeating scenes.
 ## Results
 
 (filled in after QC)
+
+## Team E pitch-adaptor composites (22 Nov 2026): stopped after independent QC failed twice (0/2, then 0/2)
+- First pass: adaptor stacked to a 0.45–0.5 m drop (pendant on a stalk), knuckle illegible, CAD decals, no contact occlusion.
+- Second pass: short build was a CAD edit not shown in the manual (post square to the slope, breaking M16f "post vertical, heater level"); heater hugs the ceiling; housing black lifted to RGB ~56 vs ~34 in the plate; flat grille with end-cap artefacts; logo unreadable in 02.
+- Blocked on: the Product team's real pitch-adaptor configuration (manual page or install photo with dimensions). dsc05656 has now failed three times; retire it unless that arrives.
