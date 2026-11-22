@@ -1152,66 +1152,6 @@
    "decided_by": "owner",
    "note": "logo inverted",
    "learned": true
-  },
-  {
-   "id": "ts2-r7-01",
-   "title": "Shingle-house porch, white, recessed pair",
-   "kind": "Generated background + CAD heater",
-   "finish": "white",
-   "w": 3392,
-   "h": 5056,
-   "source": "Image-model background (4K) prompted from the real Bromic installation photo w-tungsten-electric-white-recessed as reference for camera, light and materials, no heater drawn by the model (owner's M2 exception: the real recessed plates solve to 3.0-3.5 m ceilings, too high for the owner's low rule). Heater, chassis and vent ends are the Series II CAD (6 kW heater and LC recess kit STEP) rendered in Blender/Cycles in a camera solved from the plate's vanishing points; trim built to the LC kit's published 1,624 x 283 mm outline (the only trim in the CAD is BMC-00659 'OBSOLETE' - owner to confirm). Two recessed in a row along the beadboard (with the boards) over the wicker seating, 1.1 m from the house wall; ceiling solved at 2.65 m from the 80 in door.",
-   "file": "images/review/full/ts2-r7-01.jpg",
-   "thumb": "images/review/thumb/ts2-r7-01.webp",
-   "status": "pending"
-  },
-  {
-   "id": "ts2-r7-02",
-   "title": "Outdoor kitchen bar, black, recessed pair",
-   "kind": "Generated background + CAD heater",
-   "finish": "black",
-   "w": 5056,
-   "h": 3392,
-   "source": "Image-model background (4K) prompted from the real Bromic installation photo w-tungsten-outdoor as reference for camera, light and materials, no heater drawn by the model (owner's M2 exception: the real recessed plates solve to 3.0-3.5 m ceilings, too high for the owner's low rule). Heater, chassis and vent ends are the Series II CAD (6 kW heater and LC recess kit STEP) rendered in Blender/Cycles in a camera solved from the plate's vanishing points; trim built to the LC kit's published 1,624 x 283 mm outline (the only trim in the CAD is BMC-00659 'OBSOLETE' - owner to confirm). Two recessed side by side over the bar stools, long axis with the oak boards; ceiling solved at about 2.8 m from the 36 in base cabinets.",
-   "file": "images/review/full/ts2-r7-02.jpg",
-   "thumb": "images/review/thumb/ts2-r7-02.webp",
-   "status": "pending"
-  },
-  {
-   "id": "ts2-r7-03",
-   "title": "Pool-house lounge soffit, black, recessed pair",
-   "kind": "Generated background + CAD heater",
-   "finish": "black",
-   "w": 5056,
-   "h": 3392,
-   "source": "Image-model background (4K) prompted from the real Bromic installation photo bromic-tungsten-electric-residential as reference for camera, light and materials, no heater drawn by the model (owner's M2 exception: the real recessed plates solve to 3.0-3.5 m ceilings, too high for the owner's low rule). Heater, chassis and vent ends are the Series II CAD (6 kW heater and LC recess kit STEP) rendered in Blender/Cycles in a camera solved from the plate's vanishing points; trim built to the LC kit's published 1,624 x 283 mm outline (the only trim in the CAD is BMC-00659 'OBSOLETE' - owner to confirm). Two recessed side by side over the sectional, with the timber boards, symmetric about the downlight; ceiling about 2.6-2.7 m (side table and column checks).",
-   "file": "images/review/full/ts2-r7-03.jpg",
-   "thumb": "images/review/thumb/ts2-r7-03.webp",
-   "status": "pending"
-  },
-  {
-   "id": "ts2-r7-04",
-   "title": "House wall over dining table, graphite",
-   "kind": "Real photo + CAD heater",
-   "finish": "graphite",
-   "w": 2560,
-   "h": 1707,
-   "source": "Real Bromic installation photo (bromic.com, Studio City, 2,560 px original - below 4K, flagged). Old Series I wall heater, its conduit and glow removed by image-model inpainting on the plate only, tone-matched and blended back into the original pixels. Heater is the Series II CAD (6 kW, angled wall mount) rendered in Blender/Cycles in a camera solved from the wall and window lines; same position, about 2.3 m over the table.",
-   "file": "images/review/full/ts2-r7-04.jpg",
-   "thumb": "images/review/thumb/ts2-r7-04.webp",
-   "status": "pending"
-  },
-  {
-   "id": "ts2-r7-05",
-   "title": "Pergola lounge, graphite, post under the beam",
-   "kind": "Real photo + CAD heater",
-   "finish": "graphite",
-   "w": 1793,
-   "h": 2560,
-   "source": "Real Bromic installation photo (cad/backgrounds/tungsten/strx-230222-bromic-dc-6, 2,560 px - below 4K, flagged). Old Series I heater removed by image-model inpainting on the plate only (sky and branches behind it rebuilt), blended back into the original pixels. Heater is the Series II CAD on its single 225 mm post under the pergola beam, tilted 30 degrees toward the sofa, rendered in Blender/Cycles; layout and camera as the original install.",
-   "file": "images/review/full/ts2-r7-05.jpg",
-   "thumb": "images/review/thumb/ts2-r7-05.webp",
-   "status": "pending"
   }
  ]
 }

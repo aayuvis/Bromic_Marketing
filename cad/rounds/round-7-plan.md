@@ -56,3 +56,9 @@ ceiling height from an object of known size. Plates that still came out too high
 | Bar, white, two posts (`img-0661`, real) | rendered and composited, then failed QC: at the 30° tilt limit the faces turn away from the camera, and the white CAD reads flat with hollow-looking end caps |
 | Screened porch with pitch adaptor (`dsc05715`) | not attempted: the last pitch-adaptor composite was rejected ("heater looks off"), and the vaulted ceiling is high |
 | Café facade row, garage | owner's rule against front-facade heaters; no garage plate |
+
+## Independent QC (22 Nov 2026): 5 checked, 0 pass
+- 01–03 (recess): generated plates not owner-approved (M2 – only Coastal is excepted); trim hand-built to the obsolete BMC-00659 outline (M7); heater end caps protrude past the trim; no contact occlusion or grain; 01 scale off 25–30 % between heaters; 03 left heater on the perimeter over a column, glow mismatched.
+- 04 (wall): graphite reads olive; light cut-out fringe; all-round halo instead of a directional shadow; 2560 px.
+- 05 (pergola): on the outer beam beyond the sofa (22 Nov rule); post drawn with an open hole and a plate dropping into the sky; no sun response; 2560 px.
+Withdrawn from Image Approvals. Next round needs: owner approval of recess plates first, the current LC trim STEP, and composite fixes (seat heater inside trim, occlusion, grain, colour).
