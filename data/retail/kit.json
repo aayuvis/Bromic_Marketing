@@ -25,6 +25,19 @@
    "thumb": "reports/retail/_hub/take-home-flyer.webp"
   },
   {
+   "id": "ecommerce-kit",
+   "title": "E-Commerce Content Kit",
+   "kicker": "For online retailers",
+   "desc": "Titles, bullets, descriptions, specs and image plans per series, with white-ground images and product-page modules.",
+   "pdf": "reports/retail/ecommerce-kit/Bromic-Ecommerce-Content-Kit.pdf",
+   "cover": "/tmp/claude-0/ek-01.png",
+   "thumb": "reports/retail/_hub/ecommerce-kit.webp",
+   "alt": {
+    "label": "Import spreadsheet (CSV)",
+    "pdf": "reports/retail/ecommerce-kit/listings.csv"
+   }
+  },
+  {
    "id": "series-tungsten-series-ii",
    "title": "Tungsten Smart-Heat Electric Series II",
    "kicker": "Series sheet",
