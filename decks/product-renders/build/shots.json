@@ -832,23 +832,18 @@
   ],
   "camera": {
    "pos": [
-    -0.95,
-    -0.06,
-    -0.72
+    0.05,
+    -0.04,
+    -0.3
    ],
    "target": [
-    -0.2,
+    0.6,
     0,
     -0.01
    ],
    "lens": 85,
    "fstop": 2.8,
-   "focus": [
-    -0.2,
-    0,
-    -0.01
-   ],
-   "roll": -20
+   "focus": "logo"
   },
   "res": [
    3840,
@@ -1076,47 +1071,6 @@
    2560
   ],
   "exposure": -1.8,
-  "samples": 64,
-  "noise": 0.04
- },
- "select-graphite-oval-front-detail": {
-  "heaters": [
-   {
-    "glb": "6kW oval, ceiling mount.glb",
-    "finish": "graphite",
-    "mount": "ceiling",
-    "glow": 16,
-    "offset": [
-     0,
-     0,
-     0
-    ]
-   }
-  ],
-  "camera": {
-   "pos": [
-    0.55,
-    -0.36,
-    -0.3
-   ],
-   "target": [
-    -0.1,
-    0,
-    -0.02
-   ],
-   "lens": 85,
-   "fstop": 2.8,
-   "focus": [
-    0.05,
-    0,
-    -0.02
-   ]
-  },
-  "res": [
-   3840,
-   2560
-  ],
-  "exposure": -1.5,
   "samples": 64,
   "noise": 0.04
  }
