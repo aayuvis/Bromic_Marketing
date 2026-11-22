@@ -35,7 +35,20 @@
   "h": 1536,
   "file": "images/review/full/ts2-r8a-03.jpg",
   "thumb": "images/review/thumb/ts2-r8a-03.webp",
-  "source": "Real photo: library w-tungsten-electric-white-recessed-residential (bromic.com). The three Series I recessed heaters (which ran across the boards) removed; three Tungsten Series II CAD heaters (6 kW + LC recess kit STEP) recessed in a row along the beadboard beside the downlight line, 2.05 m apart (≥ 500 mm between cut-outs), true ceiling height. Low resolution: 1024 px (below 4K).",
+  "source": "Real photo: library w-tungsten-electric-white-recessed-residential (bromic.com). The three Series I recessed heaters (which ran across the boards) removed by perspective-guided fill along the board lines (no image model); three Tungsten Series II CAD heaters (6 kW + LC recess kit STEP) recessed in a row along the beadboard beside the downlight line, 2.05 m apart (≥ 500 mm between cut-outs), true ceiling height. Low resolution: 1024 px (below 4K).",
+  "status": "pending"
+ },
+ {
+  "id": "ts2-r8a-04",
+  "title": "Shingle-house porch, beadboard – row of three recessed along the house wall (3/4 view)",
+  "kind": "Real photo + CAD heater",
+  "finish": "white",
+  "mount": "LC recess (no trim), 3 in a row along the beadboard, about 0.7 m in from the house wall",
+  "w": 1707,
+  "h": 2560,
+  "file": "images/review/full/ts2-r8a-04.jpg",
+  "thumb": "images/review/thumb/ts2-r8a-04.webp",
+  "source": "Real photo: library w-tungsten-electric-white-recessed (bromic.com), the same porch as ts2-r8a-03 from the seats. The three Series I recessed heaters (across the boards) removed by perspective-guided fill along the board lines (no image model); three Tungsten Series II CAD heaters (6 kW + LC recess kit STEP) recessed in a row along the beadboard, 2.05 m apart, true ceiling height. Low resolution: 1707 × 2560 (below 4K).",
   "status": "pending"
  }
 ]

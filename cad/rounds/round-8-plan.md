@@ -26,7 +26,7 @@ Recessed team target: 10 keepers (`ts2-r8a-01…10`), entries in `cad/rounds/r8a
 |---|---|---|---|---|---|
 | A | Pool-house lounge, dark timber soffit (Sydney) | `bromic-tungsten-electric-residential` (2560, D3X 22 mm) | 2 Series I recessed **across** the boards, one more Tungsten under the beam edge, 4 heaters in the background pavilion | 2 Series II along the boards, in one row over the lounge (all old heaters removed) | black |
 | C | Outdoor kitchen pass-through bar, oak ceiling | `tungsten-outdoor` (1264) | 1 along the boards over the bar stools, 1 across over the kitchen | 2 along the boards on one line | black |
-| F | Shingle-house back porch, beadboard, wicker sofa (3/4 from below) | `tungsten-electric-white-recessed` (1707×2560) | 3 across the beadboard, alternating with downlights | 2 along the beadboard in the downlight line, in the two end bays (three would leave < 500 mm between cut-outs) | white |
+| F | Shingle-house back porch, beadboard, wicker sofa (3/4 from below) | `tungsten-electric-white-recessed` (1707×2560) | 3 across the beadboard, alternating with the downlights on the centre line | 3 along the beadboard in a row beside the downlight line, toward the house wall (≥ 0.5 m from it), 2.05 m apart (on the downlight line, cut-outs would sit < 500 mm apart and touch the downlights) | white |
 | G | Same porch, looking along it from the seats | `tungsten-electric-white-recessed-residential-1` (1024×1536) | as F | as F | white |
 | — | Same porch, third view | `private-residence-tungsten-2` (854) | — | dropped: near-duplicate of G | — |
 | — | Rooftop hotel bar soffit (InterContinental LA, night) | `intercontinental-…-spire-73` (1200) | 3 in a curved soffit | dropped: curved soffit, no reliable camera solve | — |
@@ -39,9 +39,33 @@ Recessed team target: 10 keepers (`ts2-r8a-01…10`), entries in `cad/rounds/r8a
 Every plate is below 4K (M6) and is flagged low resolution; nothing is upscaled. Only four real recessed scenes in the library meet
 the rules, so this round cannot reach ten keepers without repeating scenes.
 
-## Results
+## Results (22 Nov 2026)
 
-(filled in after QC)
+Pipeline changes from round 7: no trim (the CAD heater and LC chassis in a plain 61 × 10 in cut-out, a single holdout ceiling with a
+hole per heater so nothing above the ceiling shows); image-model crops sent at the model's exact aspect ratio and re-registered (ECC)
+before use – round 7's crops were resized non-uniformly, which shifted edges and made the patches; old trims on beadboard removed with
+a fill along the board lines toward their vanishing point (no image model), tone-matched to the surround; housing tinted warm-neutral
+(measured R ≥ G > B), light wrap and edge darkening halved, no drop halo on recesses, grain measured from the plate; heaters with
+several units rendered one at a time (memory) and merged.
+
+| Kept | Setting | Mount | Finish | Plate | Notes |
+|---|---|---|---|---|---|
+| ts2-r8a-01 | Pool-house lounge, dark timber soffit | LC recess ×2 in a row, along the boards | black | real, 2560×1707 | ceiling about 1.9 m above the camera (true height); old heaters ran across the boards and are turned |
+| ts2-r8a-02 | Outdoor kitchen pass-through bar | LC recess ×2 on one line, along the oak boards | black | real, 1264×848 | ceiling about 2.7 m |
+| ts2-r8a-03 | Shingle-house porch, looking along it | LC recess ×3 in a row | white | real, 1024×1536 | logo legible on the near heater |
+| ts2-r8a-04 | Same porch, 3/4 from the seats | LC recess ×3 in a row | white | real, 1707×2560 | |
+
+All four below 4K (M6), flagged. Not sent to the QC agent from this session; author QC done at full size and in crops round every
+heater (checks 1–31 and §12).
+
+| Dropped | Why |
+|---|---|
+| `private-residence-tungsten-2` | near-duplicate of 03 |
+| InterContinental soffit (night) | curved soffit; no consistent camera solve |
+| InterContinental (sunset) | axis-on frame, heaters end-on |
+| `img-6955` cabana | fan redrawn by the image model; fan blades cross the heater positions |
+| Sydney soffit close-up, black-recessed pool terrace | same house as 01; no seats / heaters small from outside |
+| Connecticut porch | out by §12 |
 
 ## Team E pitch-adaptor composites (22 Nov 2026): stopped after independent QC failed twice (0/2, then 0/2)
 - First pass: adaptor stacked to a 0.45–0.5 m drop (pendant on a stalk), knuckle illegible, CAD decals, no contact occlusion.
