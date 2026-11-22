@@ -247,9 +247,9 @@ figcaption em{display:block;font:400 6.4px/1.4 BzMono,monospace;letter-spacing:.
 /* sheet 03 */
 .tiles{display:grid;grid-template-columns:1fr 1fr 1fr;gap:.2in .18in}
 .tile{margin:0}
-.tile img{display:block;width:100%;height:2.35in;object-fit:cover}
+.tile img{display:block;width:100%;height:1.55in;object-fit:cover}
 .tile figcaption{padding-top:8px}
-.tile .tn{font-family:BzDidot,Didot,serif;font-size:17px;line-height:1.15;color:#231F20;margin-bottom:4px}
+.tile .tn,.ktp .tn{font-family:BzDidot,Didot,serif;font-size:17px;line-height:1.15;color:#231F20;margin-bottom:4px}
 .page.k .tile figcaption p:not(.tn){font-size:12px;line-height:1.45}
 .tile.test{border:.9px solid #1C2B44;padding:.16in;display:flex;flex-direction:column;gap:8px;height:fit-content}
 .page.k .tile.test .big{font-family:BzDidot,Didot,serif;font-size:20px;line-height:1.15;color:#231F20}
@@ -279,6 +279,21 @@ figcaption em{display:block;font:400 6.4px/1.4 BzMono,monospace;letter-spacing:.
 .ktwo.b{grid-template-columns:3.2in 1fr;align-items:start}
 .ktwo.c{grid-template-columns:3.4in 1fr;align-items:start}
 .page.k .body{font-size:13px}
+/* positioning */
+.kexp{display:flex;flex-direction:column;gap:9px}
+.kask{border-top:.9px solid #1C2B44;padding-top:9px}
+.kq{list-style:none;display:flex;flex-wrap:wrap;gap:6px 8px;margin-top:7px}
+.page.k .kq li{font-size:12.5px;line-height:1.3;border:.7px solid #B9C3D0;padding:5px 9px;color:#231F20}
+.ktps{display:grid;grid-template-columns:1fr 1fr 1fr;gap:.18in}
+.ktp{margin:0}
+.ktp img{display:block;width:100%;height:1.15in;background:#fff}
+.ktp figcaption{padding-top:7px}
+.page.k .ktp figcaption p:not(.tn){font-size:12px;line-height:1.45}
+/* controls */
+.kctlt th:nth-child(1){width:2.0in}.kctlt th:nth-child(3){width:1.45in}
+.ktwo.d{grid-template-columns:3.3in 1fr;align-items:center}
+.kpair{display:grid;grid-template-columns:1fr 1fr;gap:.12in}
+.page.k .kpaste{font:400 11.5px/1.6 BzMono,monospace;color:#1C2B44}
 /* sheet 07 */
 .spec2{display:grid;grid-template-columns:1fr 1fr;gap:.3in}
 .spec2 h4{font:500 8px/1.2 BzMono,monospace;letter-spacing:.16em;color:#fff;background:#1C2B44;padding:5px 8px 4px;margin:0 0 9px}
@@ -337,13 +352,45 @@ figcaption em{display:block;font:400 6.4px/1.4 BzMono,monospace;letter-spacing:.
   <div class="tblock">
   <div class="r"><b>PROJECT</b><span>The Architect's Spec Kit</span></div>
   <div class="r two"><div><b>ASSET</b><span>A11</span></div><div><b>SCALE</b><span>NTS</span></div><div><b>DATE</b><span>2026-11-22</span></div></div>
-  <div class="r two"><div><b>REVISION</b><span>Draft for review</span></div><div class="sh"><b>SHEET</b><span>01<i>/10</i></span></div></div>
+  <div class="r two"><div><b>REVISION</b><span>Draft for review</span></div><div class="sh"><b>SHEET</b><span>01<i>/12</i></span></div></div>
 </div>
 </section>
 <section class="page light k">
   <div class="grid"></div><div class="zones" style="color:#6B7480"><div class="zt"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zb"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zl"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div><div class="zr"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div></div><div class="frame"></div>
   <div class="kb blk">
-    <header class="kh"><p class="eyebrow">01 · AT THE DRAWING STAGE</p><h2>Give Heat Its Own Section</h2><p class="lede">The outdoor rooms you design are meant to be lived in well after sunset. Give heat a named section, a listed product, its controls and a detail on the drawings, and it arrives on site as you intended.</p></header>
+    <header class="kh"><p class="eyebrow">01 · WITH YOUR CLIENTS</p><h2>Positioning Outdoor Heat With Your Clients</h2><p class="lede">Only 23% of homeowners prioritize outdoor heating at the planning stage.<sup class="kfn">11</sup> Raise it in the first conversation, and heat goes into the drawing, the pre-wire and the first budget.</p></header>
+    <div class="ktwo c">
+    <figure class="ph ">
+  <img src="img/family.jpg" alt="SITE PHOTO Breakfast under recessed Platinum Smart-Heat Electric heaters." style="height:2.35in;object-position:50% 40%;object-fit:cover">
+  <figcaption><b>SITE PHOTO</b> Breakfast under recessed Platinum Smart-Heat Electric heaters.</figcaption></figure>
+    <div class="kexp"><p class="eyebrow">THE EXPERIENCE</p>
+      <p>94% of homeowners say their outdoor space could be used more, and 67% say heating extends outdoor use.<sup class="kfn">11</sup></p>
+      <p>Designed in, the heater sits flush in the soffit on its own circuit, controlled alongside the lights. Added later, it is bolted to the soffit and fed by surface conduit.</p></div>
+  </div>
+  <div class="kask"><p class="eyebrow">ASK YOUR CLIENT</p>
+    <ul class="kq"><li>How and when will you use the space?</li><li>How many seats, seated or standing?</li><li>Roof, pergola or open sky?</li><li>Power or gas on site?</li><li>Should the heater be seen, or disappear?</li></ul></div>
+  <div class="ktps">
+    <figure class="ktp"><img src="img/render.jpg" alt="Tungsten Smart-Heat Electric" style="object-fit:cover;object-position:50% 50%">
+  <figcaption><p class="tn">Tungsten Smart-Heat Electric</p><p>Slim, finished all over, and on a single post it seems to float. Recesses flush.<sup class="kfn">14</sup></p></figcaption></figure>
+    <figure class="ktp"><img src="img/platclose.jpg" alt="Platinum Smart-Heat Electric" style="object-fit:cover;object-position:50% 50%">
+  <figcaption><p class="tn">Platinum Smart-Heat Electric</p><p>Heat you can feel, not see: a tinted glass-ceramic face keeps visible light low, just 2.1 in deep.<sup class="kfn">12</sup></p></figcaption></figure>
+    <figure class="ktp"><img src="img/rim.jpg" alt="Eclipse Smart-Heat Electric" style="object-fit:cover;object-position:50% 50%">
+  <figcaption><p class="tn">Eclipse Smart-Heat Electric</p><p>Warmth and light in one: a dimmable LED ring keeps the table warm and softly lit.<sup class="kfn">13</sup></p></figcaption></figure>
+  </div>
+  </div>
+  <div class="strip k-strip">
+  <div class="cell grow"><b>PROJECT</b><span>The Architect's Spec Kit</span></div>
+  <div class="cell"><b>SHEET TITLE</b><span>Positioning heat with clients</span></div>
+  <div class="cell s"><b>ASSET</b><span>A11</span></div>
+  <div class="cell"><b>REVISION</b><span>Draft for review</span></div>
+  <div class="cell s"><b>DATE</b><span>2026-11-22</span></div>
+  <div class="cell sheet"><b>SHEET</b><span>02<i>/12</i></span></div>
+</div>
+</section>
+<section class="page light k">
+  <div class="grid"></div><div class="zones" style="color:#6B7480"><div class="zt"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zb"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zl"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div><div class="zr"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div></div><div class="frame"></div>
+  <div class="kb blk">
+    <header class="kh"><p class="eyebrow">02 · AT THE DRAWING STAGE</p><h2>Give Heat Its Own Section</h2><p class="lede">The outdoor rooms you design are meant to be lived in well after sunset. Give heat a named section, a listed product, its controls and a detail on the drawings, and it arrives on site as you intended.</p></header>
     <figure class="ph ">
   <img src="img/kitchen.jpg" alt="SITE PHOTO Platinum Smart-Heat Electric recessed in a timber-batten ceiling over an outdoor kitchen." style="height:3.35in;object-position:50% 40%;object-fit:cover">
   <figcaption><b>SITE PHOTO</b> Platinum Smart-Heat Electric recessed in a timber-batten ceiling over an outdoor kitchen.</figcaption></figure>
@@ -360,24 +407,28 @@ figcaption em{display:block;font:400 6.4px/1.4 BzMono,monospace;letter-spacing:.
   <div class="cell s"><b>ASSET</b><span>A11</span></div>
   <div class="cell"><b>REVISION</b><span>Draft for review</span></div>
   <div class="cell s"><b>DATE</b><span>2026-11-22</span></div>
-  <div class="cell sheet"><b>SHEET</b><span>02<i>/10</i></span></div>
+  <div class="cell sheet"><b>SHEET</b><span>03<i>/12</i></span></div>
 </div>
 </section>
 <section class="page light k">
   <div class="grid"></div><div class="zones" style="color:#6B7480"><div class="zt"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zb"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zl"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div><div class="zr"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div></div><div class="frame"></div>
   <div class="kb blk">
-    <header class="kh"><p class="eyebrow">02 · THE RANGE BY SPACE</p><h2>Start With How The Space Is Used</h2><p class="lede">A dining table needs even warmth at seated head height, a bar rail heat where guests stand, a lounge gentle warmth without glare.</p></header>
+    <header class="kh"><p class="eyebrow">03 · THE RANGE BY SPACE</p><h2>Start With How The Space Is Used</h2><p class="lede">A dining table needs even warmth at seated head height, a bar rail heat where guests stand, a lounge gentle warmth without glare.</p></header>
     <div class="tiles">
     <figure class="tile"><img src="img/platinum.jpg" alt="Platinum Smart-Heat Electric" style="object-position:50% 35%">
-  <figcaption><p class="tn">Platinum Smart-Heat Electric</p><p>Covered terraces, soffits and outdoor kitchens. Marine variant for the coast.</p></figcaption></figure>
+  <figcaption><p class="tn">Platinum Smart-Heat Electric</p><p>Covered terraces, soffits and outdoor kitchens.</p></figcaption></figure>
+    <figure class="tile"><img src="img/marine.jpg" alt="Platinum Electric Marine" style="object-position:50% 45%">
+  <figcaption><p class="tn">Platinum Electric Marine</p><p>Yachts, ships and homes by the sea, in 316 marine-grade stainless.<sup class="kfn">12</sup></p></figcaption></figure>
+    <figure class="tile"><img src="img/plgas.jpg" alt="Platinum Smart-Heat Gas" style="object-position:20% 40%">
+  <figcaption><p class="tn">Platinum Smart-Heat Gas</p><p>Natural gas or propane, where gas is on site. Section 23 55 23.<sup class="kfn">15</sup></p></figcaption></figure>
     <figure class="tile"><img src="img/eclipse.jpg" alt="Eclipse Smart-Heat Electric" style="object-position:50% 40%">
-  <figcaption><p class="tn">Eclipse Smart-Heat Electric</p><p>Dining and lounges where heat and light are one pendant fixture.</p></figcaption></figure>
+  <figcaption><p class="tn">Eclipse Smart-Heat Electric</p><p>Pendant heat and light over dining and lounges.</p></figcaption></figure>
     <figure class="tile"><img src="img/freestanding.jpg" alt="Eclipse Smart-Heat Freestanding" style="object-position:50% 45%">
-  <figcaption><p class="tn">Eclipse Smart-Heat Freestanding</p><p>Flexible lounge and terrace layouts, specified as FF&amp;E.</p></figcaption></figure>
+  <figcaption><p class="tn">Eclipse Smart-Heat Freestanding</p><p>Flexible lounge layouts, specified as FF&amp;E.</p></figcaption></figure>
     <figure class="tile"><img src="img/coastal.jpg" alt="Tungsten Coastal collection" style="object-position:50% 30%">
-  <figcaption><p class="tn">Tungsten Coastal collection</p><p>Waterfront and marine settings, in 316 marine-grade stainless steel.</p></figcaption></figure>
+  <figcaption><p class="tn">Tungsten Coastal collection</p><p>Waterfront homes and venues, 316 marine-grade stainless.</p></figcaption></figure>
     <figure class="tile"><img src="img/select.jpg" alt="Tungsten Select collection" style="object-position:50% 40%">
-  <figcaption><p class="tn">Tungsten Select collection</p><p>Design-led homes and hospitality, in Black, White or Graphite.</p></figcaption></figure>
+  <figcaption><p class="tn">Tungsten Select collection</p><p>Design-led homes and hospitality, Black, White or Graphite.</p></figcaption></figure>
     <div class="tile test"><p class="eyebrow">THE OUTDOOR TEST</p><p class="big">At least 30% of the perimeter permanently open.</p>
       <p>A partial roof traps a heat cloud that adds a convective boost. Size for the open condition.<sup class="kfn">2</sup></p></div>
   </div>
@@ -389,36 +440,29 @@ figcaption em{display:block;font:400 6.4px/1.4 BzMono,monospace;letter-spacing:.
   <div class="cell s"><b>ASSET</b><span>A11</span></div>
   <div class="cell"><b>REVISION</b><span>Draft for review</span></div>
   <div class="cell s"><b>DATE</b><span>2026-11-22</span></div>
-  <div class="cell sheet"><b>SHEET</b><span>03<i>/10</i></span></div>
+  <div class="cell sheet"><b>SHEET</b><span>04<i>/12</i></span></div>
 </div>
 </section>
 <section class="page light k">
   <div class="grid"></div><div class="zones" style="color:#6B7480"><div class="zt"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zb"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zl"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div><div class="zr"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div></div><div class="frame"></div>
   <div class="kb blk">
-    <header class="kh"><p class="eyebrow">03 · EQUIPMENT SCHEDULE</p><h2>One Line For Each Heater</h2><p class="lede">Coverage is approximate and varies with model, mounting height, environment and installation.<sup class="kfn">1</sup></p></header>
-    <figure class="ph render">
-  <img src="img/render.jpg" alt="PRODUCT RENDER Tungsten Smart-Heat Electric, Select collection, in Black." style="height:1.45in;object-position:center;object-fit:cover">
-  <figcaption><b>PRODUCT RENDER</b> Tungsten Smart-Heat Electric, Select collection, in Black.</figcaption></figure>
+    <header class="kh"><p class="eyebrow">04 · EQUIPMENT SCHEDULE</p><h2>One Line For Each Heater</h2><p class="lede">Coverage is approximate and varies with model, mounting height, environment and installation.<sup class="kfn">1</sup></p></header>
+    <figure class="ph ">
+  <img src="img/harbour.jpg" alt="SITE PHOTO Platinum Electric Marine recessed in a tray ceiling over a harbourfront living pavilion." style="height:1.6in;object-position:50% 30%;object-fit:cover">
+  <figcaption><b>SITE PHOTO</b> Platinum Electric Marine recessed in a tray ceiling over a harbourfront living pavilion.</figcaption></figure>
   <table class="eq">
-    <thead><tr><th>Series</th><th>Output</th><th>Mounting</th><th>Finish</th><th>Coverage ft²</th><th>Controller to specify</th></tr></thead>
+    <thead><tr><th>Series</th><th>Output</th><th>Mounting</th><th>Finish</th><th>Coverage ft²</th><th>Affinity controller</th></tr></thead>
     <tbody>
-    <tr><td class="ser">Platinum Electric</td><td>2300, 3400 or 4500 W</td><td>Recessed, ceiling, wall</td><td>Black, White; Classic or Marine</td><td class="n">65–143</td><td>Affinity On/Off or Dimmer</td></tr>
-    <tr><td class="ser">Eclipse Electric</td><td>Steps 33, 66, 100%</td><td>Single pole 8, 24 or 48 in; double or curved pole</td><td>Black, dimmable rim light</td><td class="n">121</td><td>Affinity Eclipse</td></tr>
-    <tr><td class="ser">Eclipse Freestanding</td><td>Steps 33, 66, 100%</td><td>Freestanding, wheels and weighted base</td><td>Black, dimmable rim light</td><td class="n">121</td><td>Affinity Eclipse <span class="ktc">To confirm</span></td></tr>
-    <tr><td class="ser">Tungsten Coastal</td><td><span class="ktc">To confirm</span></td><td>Low-clearance recess, ceiling, wall, single-post</td><td>Black, White; 316 stainless</td><td class="n">64–144</td><td>Affinity On/Off or Dimmer <span class="ktc">To confirm</span></td></tr>
-    <tr><td class="ser">Tungsten Select</td><td><span class="ktc">To confirm</span></td><td>Low-clearance recess, ceiling, wall, single-post</td><td>Black, White, Graphite</td><td class="n">64–144</td><td>Affinity On/Off or Dimmer <span class="ktc">To confirm</span></td></tr>
+    <tr><td class="ser">Platinum Electric</td><td>2300, 3400 or 4500 W</td><td>Recessed, ceiling, wall</td><td>Black, White</td><td class="n">65–143</td><td>On/Off or Dimmer</td></tr>
+    <tr><td class="ser">Platinum Electric Marine</td><td>2300, 3400 or 4500 W</td><td>Recessed, ceiling, wall</td><td>316 marine-grade stainless</td><td class="n">65–143</td><td>On/Off or Dimmer</td></tr>
+    <tr><td class="ser">Platinum Gas</td><td>23,600 or 39,800 BTU</td><td>Wall, ceiling, pole</td><td>Black, Stainless</td><td class="n">160–215</td><td>On/Off</td></tr>
+    <tr><td class="ser">Eclipse Electric</td><td>2900 W; steps 33, 66, 100%</td><td>Single pole 8, 24 or 48 in; double or curved pole</td><td>Black, dimmable LED ring</td><td class="n">121</td><td>Eclipse Controller or Eclipse Dimmer</td></tr>
+    <tr><td class="ser">Eclipse Freestanding</td><td>2900 W; steps 33, 66, 100%</td><td>Freestanding, wheels and weighted base</td><td>Black, dimmable LED ring</td><td class="n">121</td><td>Eclipse Dimmer, included</td></tr>
+    <tr><td class="ser">Tungsten Coastal</td><td>4 or 6 kW; 208 or 240 V<sup class="kfn">14</sup></td><td>Low-clearance recess, ceiling, wall, single-post</td><td>Black, White; 316 stainless</td><td class="n">64–144</td><td>Dimmer as standard, or On/Off<sup class="kfn">14</sup></td></tr>
+    <tr><td class="ser">Tungsten Select</td><td>2, 3, 4 or 6 kW; 208, 240 or 277 V (2 kW: 240 V only)<sup class="kfn">14</sup></td><td>Low-clearance recess, ceiling, wall, single-post</td><td>Black, White, Graphite</td><td class="n">64–144</td><td>Dimmer as standard, or On/Off<sup class="kfn">14</sup></td></tr>
     </tbody>
   </table>
-  <div class="kctl">
-    <p class="eyebrow">CONTROLS TO SPECIFY</p>
-    <ul class="kl">
-      <li>A controller for every heater: a heater without its controller is not a complete system.<sup class="kfn">1</sup></li>
-      <li>A manual wall switch for each zone, visible from the heated area.</li>
-      <li>Wi-Fi and app features need compatible Affinity Smart-Heat Controls, sold separately.<sup class="kfn">1</sup></li>
-      <li>Zones: one channel per circuit, sized by your electrical engineer.</li>
-    </ul>
-    <p class="note">Warranty, Tungsten Select and Coastal: 3 years on the heater, 7 years on the elements.<sup class="kfn">10</sup></p>
-  </div>
+  <p class="note">Every zone also takes a manual wall switch (sheet 06). Gas heaters are written in Section 23 55 23. Warranty: Platinum Electric and Eclipse 3 years; Marine 5 years on land, 3 on vessels; Tungsten Select and Coastal 3 years heater, 7 years elements; Platinum Gas 2 years, excluding hoses and igniters.<sup class="kfn">10,12,13,15</sup></p>
   </div>
   <div class="strip k-strip">
   <div class="cell grow"><b>PROJECT</b><span>The Architect's Spec Kit</span></div>
@@ -426,13 +470,54 @@ figcaption em{display:block;font:400 6.4px/1.4 BzMono,monospace;letter-spacing:.
   <div class="cell s"><b>ASSET</b><span>A11</span></div>
   <div class="cell"><b>REVISION</b><span>Draft for review</span></div>
   <div class="cell s"><b>DATE</b><span>2026-11-22</span></div>
-  <div class="cell sheet"><b>SHEET</b><span>04<i>/10</i></span></div>
+  <div class="cell sheet"><b>SHEET</b><span>05<i>/12</i></span></div>
 </div>
 </section>
 <section class="page light k">
   <div class="grid"></div><div class="zones" style="color:#6B7480"><div class="zt"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zb"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zl"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div><div class="zr"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div></div><div class="frame"></div>
   <div class="kb blk">
-    <header class="kh"><p class="eyebrow">04 · MOUNTING AND CLEARANCES</p><h2>Height, Aim And Clearance</h2><p class="lede">Mount no lower than the manufacturer's minimum for the model. Bromic's planning guidance has been 72 in for wall and 96 in for ceiling mounting, varying with output; confirm in the current manual.<sup class="kfn">2</sup></p></header>
+    <header class="kh"><p class="eyebrow">05 · CONTROLS</p><h2>Specifying The Controls</h2><p class="lede">Every heater is specified with its Affinity Smart-Heat controller and a manual wall switch. A heater without its controller is not a complete system.<sup class="kfn">1</sup></p></header>
+    <table class="eq kctlt">
+    <thead><tr><th>Heater family</th><th>Controller to specify</th><th>Plus, each zone</th></tr></thead>
+    <tbody>
+    <tr><td class="ser">Platinum Electric and Marine</td><td>Affinity On/Off, or Affinity Dimmer for output in 1% steps<sup class="kfn">16</sup></td><td>Manual wall switch</td></tr>
+    <tr><td class="ser">Tungsten Select and Coastal</td><td>Affinity Dimmer as standard; On/Off where dimming is not wanted<sup class="kfn">14</sup></td><td>Manual wall switch</td></tr>
+    <tr><td class="ser">Eclipse Electric</td><td>Affinity Eclipse Controller, or Eclipse Dimmer Controller with remote<sup class="kfn">13</sup></td><td>Manual wall switch</td></tr>
+    <tr><td class="ser">Eclipse Freestanding</td><td>Eclipse Dimmer Controller and remote, included<sup class="kfn">13</sup></td><td>Manual wall switch</td></tr>
+    <tr><td class="ser">Platinum Gas</td><td>Affinity On/Off; on/off only<sup class="kfn">15</sup></td><td>Manual wall switch</td></tr>
+    </tbody>
+  </table>
+  <div class="ktwo d">
+    <div class="kpair">
+      <figure class="ph studio">
+  <img src="img/dimmer.jpg" alt="PRODUCT Affinity Dimmer." style="height:1.75in;object-position:center;object-fit:contain">
+  <figcaption><b>PRODUCT</b> Affinity Dimmer.</figcaption></figure>
+      <figure class="ph studio">
+  <img src="img/onoff.jpg" alt="PRODUCT Affinity On/Off." style="height:1.75in;object-position:center;object-fit:contain">
+  <figcaption><b>PRODUCT</b> Affinity On/Off.</figcaption></figure>
+    </div>
+    <ul class="kl">
+      <li>The Bromic Smart-Heat app runs zones, schedules and timers. Wi-Fi and app features need compatible Affinity Smart-Heat Controls, sold separately.<sup class="kfn">1</sup></li>
+      <li>Alexa, Google Assistant, Control4, Crestron, Lutron: compatibility varies by system.<sup class="kfn">1</sup></li>
+      <li>Zones: one channel per circuit, sized by your electrical engineer.</li>
+    </ul>
+  </div>
+  <div class="kbox"><p class="eyebrow">PASTE INTO YOUR SPECIFICATION</p>
+    <p class="kpaste">Provide Affinity Smart-Heat® [On/Off] [Dimmer] [Eclipse] controller by Bromic Heating and a manual wall switch for each heater zone, as scheduled. Locate the wall switch where it is visible from the heated area. Wi-Fi and app features require compatible Affinity Smart-Heat Controls. Zone circuits as sized by the electrical engineer.</p></div>
+  </div>
+  <div class="strip k-strip">
+  <div class="cell grow"><b>PROJECT</b><span>The Architect's Spec Kit</span></div>
+  <div class="cell"><b>SHEET TITLE</b><span>Specifying the controls</span></div>
+  <div class="cell s"><b>ASSET</b><span>A11</span></div>
+  <div class="cell"><b>REVISION</b><span>Draft for review</span></div>
+  <div class="cell s"><b>DATE</b><span>2026-11-22</span></div>
+  <div class="cell sheet"><b>SHEET</b><span>06<i>/12</i></span></div>
+</div>
+</section>
+<section class="page light k">
+  <div class="grid"></div><div class="zones" style="color:#6B7480"><div class="zt"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zb"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zl"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div><div class="zr"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div></div><div class="frame"></div>
+  <div class="kb blk">
+    <header class="kh"><p class="eyebrow">06 · MOUNTING AND CLEARANCES</p><h2>Height, Aim And Clearance</h2><p class="lede">Mount no lower than the manufacturer's minimum for the model. Bromic's planning guidance has been 72 in for wall and 96 in for ceiling mounting, varying with output; confirm in the current manual.<sup class="kfn">2</sup></p></header>
     <figure class="dwgf"><svg viewBox="0 0 470 250" class="dwg k-dwg" role="img" aria-label="Section: wall heater at least 72 inches and ceiling heater at least 96 inches above the finished floor, heights per the current manual">
   <rect x="30" y="18" width="410" height="12" class="cut" style="fill:url(#hatch)"/>
   <rect x="30" y="30" width="14" height="196" class="cut" style="fill:url(#hatch)"/>
@@ -478,13 +563,13 @@ figcaption em{display:block;font:400 6.4px/1.4 BzMono,monospace;letter-spacing:.
   <div class="cell s"><b>ASSET</b><span>A11</span></div>
   <div class="cell"><b>REVISION</b><span>Draft for review</span></div>
   <div class="cell s"><b>DATE</b><span>2026-11-22</span></div>
-  <div class="cell sheet"><b>SHEET</b><span>05<i>/10</i></span></div>
+  <div class="cell sheet"><b>SHEET</b><span>07<i>/12</i></span></div>
 </div>
 </section>
 <section class="page light k">
   <div class="grid"></div><div class="zones" style="color:#6B7480"><div class="zt"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zb"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zl"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div><div class="zr"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div></div><div class="frame"></div>
   <div class="kb blk">
-    <header class="kh"><p class="eyebrow">05 · RECESS DETAIL</p><h2>A Flush Recess, Drawn Once</h2><p class="lede">A few clear lines on the section are what let a recessed heater sit flush with the ceiling on site.</p></header>
+    <header class="kh"><p class="eyebrow">07 · RECESS DETAIL</p><h2>A Flush Recess, Drawn Once</h2><p class="lede">A few clear lines on the section are what let a recessed heater sit flush with the ceiling on site.</p></header>
     <div class="ktwo">
     <figure class="dwgf"><svg viewBox="0 0 396 262" class="dwg k-dwg" role="img" aria-label="Recess section: heater in the manufacturer's recess kit, face flush with the ceiling finish, with blocking, junction box and lettered dimensions A, B and C">
   <rect x="14" y="22" width="290" height="14" class="cut" style="fill:url(#hatch)"/>
@@ -533,16 +618,16 @@ figcaption em{display:block;font:400 6.4px/1.4 BzMono,monospace;letter-spacing:.
   <div class="cell s"><b>ASSET</b><span>A11</span></div>
   <div class="cell"><b>REVISION</b><span>Draft for review</span></div>
   <div class="cell s"><b>DATE</b><span>2026-11-22</span></div>
-  <div class="cell sheet"><b>SHEET</b><span>06<i>/10</i></span></div>
+  <div class="cell sheet"><b>SHEET</b><span>08<i>/12</i></span></div>
 </div>
 </section>
 <section class="page light k">
   <div class="grid"></div><div class="zones" style="color:#6B7480"><div class="zt"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zb"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zl"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div><div class="zr"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div></div><div class="frame"></div>
   <div class="kb blk">
-    <header class="kh"><p class="eyebrow">06 · GUIDE SPECIFICATION, CONDENSED</p><h2>Section 23 83 33 Electric Radiant Heaters</h2></header>
+    <header class="kh"><p class="eyebrow">08 · GUIDE SPECIFICATION, CONDENSED</p><h2>Section 23 83 33 Electric Radiant Heaters</h2></header>
     <figure class="ph ">
-  <img src="img/stone.jpg" alt="SITE PHOTO Tungsten Select over a pergola dining terrace at sunset." style="height:2.1in;object-position:50% 35%;object-fit:cover">
-  <figcaption><b>SITE PHOTO</b> Tungsten Select over a pergola dining terrace at sunset.</figcaption></figure>
+  <img src="img/stone.jpg" alt="SITE PHOTO Eclipse Smart-Heat Electric pendants in a resort loggia at dusk." style="height:2.1in;object-position:50% 35%;object-fit:cover">
+  <figcaption><b>SITE PHOTO</b> Eclipse Smart-Heat Electric pendants in a resort loggia at dusk.</figcaption></figure>
   <div class="spec2">
     <div>
       <h4>PART 1 · GENERAL</h4>
@@ -570,13 +655,13 @@ figcaption em{display:block;font:400 6.4px/1.4 BzMono,monospace;letter-spacing:.
   <div class="cell s"><b>ASSET</b><span>A11</span></div>
   <div class="cell"><b>REVISION</b><span>Draft for review</span></div>
   <div class="cell s"><b>DATE</b><span>2026-11-22</span></div>
-  <div class="cell sheet"><b>SHEET</b><span>07<i>/10</i></span></div>
+  <div class="cell sheet"><b>SHEET</b><span>09<i>/12</i></span></div>
 </div>
 </section>
 <section class="page light k">
   <div class="grid"></div><div class="zones" style="color:#6B7480"><div class="zt"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zb"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zl"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div><div class="zr"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div></div><div class="frame"></div>
   <div class="kb blk">
-    <header class="kh"><p class="eyebrow">07 · CAD, BIM AND DESIGN SERVICE</p><h2>Put The Heater In Your Model</h2><p class="lede">Revit and CAD files are published by product and mounting. Download at <b>bromic.com/revit-bim-files</b>.<sup class="kfn">9</sup></p></header>
+    <header class="kh"><p class="eyebrow">09 · CAD, BIM AND DESIGN SERVICE</p><h2>Put The Heater In Your Model</h2><p class="lede">Revit and CAD files are published by product and mounting. Download at <b style="white-space:nowrap">bromic.com/revit-bim-files</b>.<sup class="kfn">9</sup></p></header>
     <table class="eq bim">
     <thead><tr><th>Product</th><th>Revit BIM</th><th>CAD / DWG</th><th>Year</th></tr></thead>
     <tbody>
@@ -605,13 +690,13 @@ figcaption em{display:block;font:400 6.4px/1.4 BzMono,monospace;letter-spacing:.
   <div class="cell s"><b>ASSET</b><span>A11</span></div>
   <div class="cell"><b>REVISION</b><span>Draft for review</span></div>
   <div class="cell s"><b>DATE</b><span>2026-11-22</span></div>
-  <div class="cell sheet"><b>SHEET</b><span>08<i>/10</i></span></div>
+  <div class="cell sheet"><b>SHEET</b><span>10<i>/12</i></span></div>
 </div>
 </section>
 <section class="page light k">
   <div class="grid"></div><div class="zones" style="color:#6B7480"><div class="zt"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zb"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zl"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div><div class="zr"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div></div><div class="frame"></div>
   <div class="kb blk">
-    <header class="kh"><p class="eyebrow">08 · BEFORE YOU ISSUE</p><h2>Your Planning Checklist</h2></header>
+    <header class="kh"><p class="eyebrow">10 · BEFORE YOU ISSUE</p><h2>Your Planning Checklist</h2></header>
     <figure class="ph ">
   <img src="img/pavilion.jpg" alt="SITE PHOTO An open timber pavilion with heaters recessed in the roof over a long dining table." style="height:4.1in;object-position:50% 45%;object-fit:cover">
   <figcaption><b>SITE PHOTO</b> An open timber pavilion with heaters recessed in the roof over a long dining table.</figcaption></figure>
@@ -623,7 +708,7 @@ figcaption em{display:block;font:400 6.4px/1.4 BzMono,monospace;letter-spacing:.
   <div class="cell s"><b>ASSET</b><span>A11</span></div>
   <div class="cell"><b>REVISION</b><span>Draft for review</span></div>
   <div class="cell s"><b>DATE</b><span>2026-11-22</span></div>
-  <div class="cell sheet"><b>SHEET</b><span>09<i>/10</i></span></div>
+  <div class="cell sheet"><b>SHEET</b><span>11<i>/12</i></span></div>
 </div>
 </section>
 <section class="page light k">
@@ -640,7 +725,7 @@ figcaption em{display:block;font:400 6.4px/1.4 BzMono,monospace;letter-spacing:.
   </div>
   <div class="ksrc blk">
     <p class="eyebrow">SOURCES</p>
-    <ol><li><span class="ksn">1</span><span>Bromic, <i>Lookbook 2026</i>, 2026.</span></li><li><span class="ksn">2</span><span>Bromic, <i>The Official Outdoor Heating Planning Guide v1.2 (US)</i>, 2021.</span></li><li><span class="ksn">3</span><span>Sweets (Dodge Construction Network), MasterFormat 23 83 00 Radiant Heating Units, 2026.</span></li><li><span class="ksn">4</span><span>The Blue Book Building &amp; Construction Network, manufacturer listing showing MasterFormat 23 83 13 / 23 83 23 / 23 83 33, 2026.</span></li><li><span class="ksn">5</span><span>Third-party manufacturer guide specification, <i>3 Part Spec: Electric Radiant Heaters</i>, 2025.</span></li><li><span class="ksn">6</span><span>New York State Office of General Services, MasterSpec 23 55 23.16 High-Intensity, Gas-Fired, Radiant Heaters, 2024.</span></li><li><span class="ksn">7</span><span>University of Saskatchewan, Master specification 23 82 39 Unit Heaters, 2024.</span></li><li><span class="ksn">8</span><span>EC&amp;M, <i>Article 424: Fixed Electric Space-Heating Equipment</i>, 2020.</span></li><li><span class="ksn">9</span><span>Bromic, Revit BIM &amp; CAD Files, bromic.com/revit-bim-files, read 29 October 2026.</span></li><li><span class="ksn">10</span><span>Bromic, Tungsten Smart-Heat Electric Series II warranty terms, 2026.</span></li></ol>
+    <ol><li><span class="ksn">1</span><span>Bromic, <i>Lookbook 2026</i>, 2026.</span></li><li><span class="ksn">2</span><span>Bromic, <i>The Official Outdoor Heating Planning Guide v1.2 (US)</i>, 2021.</span></li><li><span class="ksn">3</span><span>Sweets (Dodge Construction Network), MasterFormat 23 83 00 Radiant Heating Units, 2026.</span></li><li><span class="ksn">4</span><span>The Blue Book Building &amp; Construction Network, manufacturer listing showing MasterFormat 23 83 13 / 23 83 23 / 23 83 33, 2026.</span></li><li><span class="ksn">5</span><span>Third-party manufacturer guide specification, <i>3 Part Spec: Electric Radiant Heaters</i>, 2025.</span></li><li><span class="ksn">6</span><span>New York State Office of General Services, MasterSpec 23 55 23.16 High-Intensity, Gas-Fired, Radiant Heaters, 2024.</span></li><li><span class="ksn">7</span><span>University of Saskatchewan, Master specification 23 82 39 Unit Heaters, 2024.</span></li><li><span class="ksn">8</span><span>EC&amp;M, <i>Article 424: Fixed Electric Space-Heating Equipment</i>, 2020.</span></li><li><span class="ksn">9</span><span>Bromic, Revit BIM &amp; CAD Files, bromic.com/revit-bim-files, read 29 October 2026.</span></li><li><span class="ksn">10</span><span>Bromic, Tungsten Smart-Heat Electric Series II warranty terms, 2026.</span></li><li><span class="ksn">11</span><span>Bromic Heating and Atomik Research, <i>Outdoor Living Trends 2026</i> (US homeowner survey), 2026.</span></li><li><span class="ksn">12</span><span>Bromic, Platinum Smart-Heat Electric and Electric Marine product pages, bromic.com, read 29 October 2026.</span></li><li><span class="ksn">13</span><span>Bromic, Eclipse Smart-Heat Electric and Freestanding product pages, bromic.com, read 29 October 2026.</span></li><li><span class="ksn">14</span><span>Bromic, Tungsten Smart-Heat Electric Series II launch deck, July 2026.</span></li><li><span class="ksn">15</span><span>Bromic, Platinum Smart-Heat Gas product page, bromic.com, read 29 October 2026.</span></li><li><span class="ksn">16</span><span>Bromic, Affinity Smart-Heat Controls product pages, bromic.com, read 29 October 2026.</span></li></ol>
     <p class="kdisc">This guide specification is a starting point for your professional judgement. Codes, listings and manufacturer requirements change. Confirm every requirement with the authority having jurisdiction and a licensed electrician, and use the manufacturer's current installation instructions for the model specified. Imagery is for design inspiration; product scale and placement may vary from actual specifications.<sup class="kfn">1</sup></p>
   </div>
   <div class="strip k-strip">
@@ -649,6 +734,6 @@ figcaption em{display:block;font:400 6.4px/1.4 BzMono,monospace;letter-spacing:.
   <div class="cell s"><b>ASSET</b><span>A11</span></div>
   <div class="cell"><b>REVISION</b><span>Draft for review</span></div>
   <div class="cell s"><b>DATE</b><span>2026-11-22</span></div>
-  <div class="cell sheet"><b>SHEET</b><span>10<i>/10</i></span></div>
+  <div class="cell sheet"><b>SHEET</b><span>12<i>/12</i></span></div>
 </div>
 </section></body></html>
