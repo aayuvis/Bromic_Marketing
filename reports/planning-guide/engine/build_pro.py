@@ -111,7 +111,7 @@ def build(ed='pro', inline=False, letter=False):
   {head('Question 01 · Map The Heat', 'Map The Heat Before The Ceiling Fills Up', 'Mark where people sit, dine, stand and pass, then lay the heat over those zones before choosing a finish or a mount. Heaters compete for the soffit with downlights, fans, speakers and ducts – coordinate them in design development.', '01')}
   <div class="pr2"><div>{svg('rcp', '900 400', 'chart')}</div>
     <div class="pcol">{ph('l-010-075', 'Heaters flush in a pavilion ceiling, lights set between them')}{ph('w-bromic-shoot-may-11-2023-54', 'A recessed heater beside a downlight in a timber soffit')}</div></div>
-  {bul([('About 20 ft² A Seat', 'Measure the seating and bar rails, not the circulation.'), ('Fewer, Higher-Output', 'Fewer heaters placed where they work read as a calmer ceiling.'), ('Match The Finish', 'Black, white, stainless – and graphite in the coming Select collection.')])}{folio()}</section>''')
+  {bul([('About 20 ft² A Seat', 'Measure the seating and bar rails, not the circulation.'), ('Fewer, Higher-Output', 'Fewer heaters placed where they work read as a calmer ceiling.'), ('Match The Finish', 'Black, white, stainless – and graphite in the Select collection.')])}{folio()}</section>''')
     # 4 Q2 outdoors
     pages.append(f'''<section class="pg g full">
   {head('Question 02', 'Confirm The Space Is Outdoors', 'For heating design a space is outdoor when at least 30% of its horizontal perimeter is permanently open. A cover holds a gentle heat cloud; sizing always rests on radiant coverage.', '02')}
