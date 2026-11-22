@@ -50,7 +50,7 @@ sources:
     title: "Share of new homes with patios dips to a six-year low (NAHB tabulation of the Census Survey of Construction)"
     year: 2026
     url: https://eyeonhousing.org/2026/09/share-of-new-homes-with-patios-dips-to-a-six-year-low/
-    supports: "60.5% of about 940,000 single-family homes started in 2025 came with a patio, down from 61.8% in 2024"
+    supports: "60.5% of about 940,000 single-family homes started in 2025 came with a patio, down from 61.8% in 2024; 59.6% in 2019"
     verified: true
   - id: s5
     publisher: Harvard Joint Center for Housing Studies
@@ -125,7 +125,7 @@ Einige der schönsten Momente des Tages liegen an seinen Rändern: der erste Kaf
 
 Eine Terrasse, die von Anfang an mitgeplant wird, wird zu einem Raum, den die Familie jeden Tag nutzt.
 
-**60,5 %** der 2025 in den USA begonnenen neuen Einfamilienhäuser hatten eine Terrasse.[^s4]\
+**60,5 %** der 2025 in den USA begonnenen neuen Einfamilienhäuser hatten eine Terrasse, gegenüber 59,6 % im Jahr 2019.[^s4]\
 *NAHB, nach dem Census Survey of Construction, 2025*
 
 - Terrassen werden von Anfang an mitgebaut, und die Haustechnik wird gleich mitgeplant.
@@ -252,7 +252,7 @@ Die AIA-Werte sind Nettowerte (steigend minus fallend). Die Atomik-Umfrage unter
 
 - **Umfang.** Die Angaben beziehen sich auf die englische Fassung. Ursprünglicher Reporttext: 1.631 Wörter (`sources/Bromic_Outdoor_Living_Trends_2026.txt`). Englische Fassung, vom Titel bis zur Quellenseite: 978 Wörter, eine Kürzung um 40 %. Reporttext allein, vom Titel bis „Plan From The Start“: 909 Wörter, eine Kürzung um 44 % (neu gezählt nach der Überarbeitung im Bromic-Ton vom 16. Nov. 2026). Beides gleich gezählt: Gedankenstriche trennen Wörter; dieser Hinweis, die Layouthinweise, `[[VERIFY]]`-Platzhalter, Fußnotenmarker und Markdown-Syntax sind nicht mitgezählt.
 - **Gestrichene Zahlen.** 94 % „könnten mehr genutzt werden“ (die eigenen Pressemitteilungen von Bromic nennen 94 % und 92 %; zurückgestellt, bis Marketing sich für einen Wert entscheidet). 39 % Infrarot-Heizstrahler (in keiner AIA-Veröffentlichung gefunden). 522 Mrd. $ (in keiner Harvard-Veröffentlichung; ersetzt durch 525 Mrd. $). Die Jahreszahlen zu Geräten aus den 1970er-, 2000er- und 2010er-Jahren (ohne Quelle). Die Terrassengröße von rund 30 m² und 95 % Kostenrückfluss (geprüft, aber eine Zahl je Trend). 43 % „denken nicht an die Beheizung“ (nicht geprüft, nicht nötig).
-- **Geänderte Zahlen.** 61,8 % (2024) aktualisiert auf 60,5 % (Baubeginne 2025), wie in der Korrekturdatei empfohlen; zurückändern, falls Marketing anders entscheidet. 55 % und 40 % heißen jetzt „Nettoanteil“ und nennen das Jahr. 33 % hat jetzt die richtige Studie, Grundgesamtheit und das richtige Jahr. Aus „Zufriedenheitswert“ ist der Joy Score der NAR geworden.
+- **Geänderte Zahlen.** Der Anteil mit Terrasse ist jetzt 60,5 % (Baubeginne 2025), gegenüber 59,6 % im Jahr 2019, wie in der Korrekturdatei empfohlen und vom Eigentümer angewiesen (22. Nov. 2026). 55 % und 40 % heißen jetzt „Nettoanteil“ und nennen das Jahr. 33 % hat jetzt die richtige Studie, Grundgesamtheit und das richtige Jahr. Aus „Zufriedenheitswert“ ist der Joy Score der NAR geworden.
 - **Verschobene Zahlen, damit jeder Trend eine trägt.** 67 % von Trend 01 zu 02, 23 % von 02 zu 10, 9,9 von 03 zu 08. Die Trends 07 und 09 hatten im Original keine; jeder trägt jetzt eine Produktangabe von Bromic aus dem Lookbook statt einer Marktzahl.
 - **Umgesetzte Korrekturen.** Alle 38 Punkte aus [der Korrekturdatei](item:A01-corrections): „Studies“, „radiant“, „integration“, „Multi-Use“, „beginning“; der fehlerhafte Satz in Trend 04 neu geschrieben; der Einblick zur smarten Steuerung von S. 10 zu Trend 07 verschoben und Trend 08 einen Einblick zur Gestaltung gegeben; die 23 % umformuliert zu „setzen … bei der Planung ganz oben auf die Liste“; die Überschrift mit „=“; überzählige Leerzeichen; ein Format für Quellenzeilen; eine Quellenseite ergänzt.
 - **Marketing-Überarbeitung (19. Nov. 2026).** Jeder Trend beginnt jetzt mit dem Moment vor seiner Zahl; die Quellentabelle ist ein Absatz geworden (jede Zahl behält ihren Beleg); „Verlängern Sie den Moment“ ist das Zitat.

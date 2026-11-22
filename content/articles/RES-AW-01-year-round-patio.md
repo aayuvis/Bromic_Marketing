@@ -26,7 +26,7 @@ sources:
     title: "Share of new homes with patios dips to a six-year low"
     year: 2026
     url: https://eyeonhousing.org/2026/09/share-of-new-homes-with-patios-dips-to-a-six-year-low/
-    supports: "60.5% of single-family homes started in 2025 came with patios"
+    supports: "60.5% of single-family homes started in 2025 came with patios; 59.6% in 2019"
     verified: true
   - id: s2
     publisher: National Association of Home Builders
@@ -62,7 +62,7 @@ To enjoy your patio when the air turns cool, shelter it from the wind, add somet
 
 ## Why So Many Patios Fall Quiet After Dark
 
-Most new homes now come with a patio, and far fewer come with the warmth to enjoy it once the sun goes down. 60.5% of single-family homes started in 2025 had a patio, and the average new-home patio is about 320 ft².[^s1][^s2] Yet in Bromic's own homeowner survey, 94% said their outdoor space could be used more, and fewer than one in four (23%) put heating into the plan at the start.[^s3] [[VERIFY: survey base, fieldwork dates and question wording for the 94% and 23% figures — Marketing]]
+Most new homes now come with a patio, and far fewer come with the warmth to enjoy it once the sun goes down. 60.5% of single-family homes started in 2025 had a patio, up from 59.6% in 2019, and the average new-home patio is about 320 ft².[^s1][^s2] Yet in Bromic's own homeowner survey, 94% said their outdoor space could be used more, and fewer than one in four (23%) put heating into the plan at the start.[^s3] [[VERIFY: survey base, fieldwork dates and question wording for the 94% and 23% figures — Marketing]]
 
 You may know the pattern well. Dinner moves inside at sunset, and the lounge set that was so inviting in July is covered by October. What changes that is comfort that holds as the temperature drops, far more than another piece of furniture.
 

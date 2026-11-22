@@ -29,7 +29,7 @@ sources:
     title: "Share of new homes with patios dips to a six-year low"
     year: 2026
     url: https://eyeonhousing.org/2026/09/share-of-new-homes-with-patios-dips-to-a-six-year-low/
-    supports: "60.5% of single-family homes started in 2025 came with patios"
+    supports: "60.5% of single-family homes started in 2025 came with patios; 59.6% in 2019"
     verified: true
   - id: s2
     publisher: National Association of Home Builders
@@ -65,7 +65,7 @@ Damit Sie Ihre Terrasse auch genießen können, wenn die Luft kühler wird, sch�
 
 ## Warum so viele Terrassen nach Sonnenuntergang still werden
 
-In den USA haben die meisten Neubauten inzwischen eine Terrasse, doch weit weniger bringen die Wärme mit, um sie nach Sonnenuntergang zu genießen. 60,5 % der 2025 begonnenen US-Einfamilienhäuser hatten eine Terrasse, und die durchschnittliche Terrasse eines US-Neubaus misst etwa 30 m².[^s1][^s2] Dennoch sagten in der eigenen US-Hausbesitzerumfrage von Bromic 94 %, ihr Außenbereich könnte mehr genutzt werden, und weniger als jeder Vierte (23 %) plante die Heizung von Anfang an ein.[^s3] [[VERIFY: Stichprobe, Erhebungszeitraum und Fragewortlaut für die Werte von 94 % und 23 % — Marketing]]
+In den USA haben die meisten Neubauten inzwischen eine Terrasse, doch weit weniger bringen die Wärme mit, um sie nach Sonnenuntergang zu genießen. 60,5 % der 2025 begonnenen US-Einfamilienhäuser hatten eine Terrasse, gegenüber 59,6 % im Jahr 2019, und die durchschnittliche Terrasse eines US-Neubaus misst etwa 30 m².[^s1][^s2] Dennoch sagten in der eigenen US-Hausbesitzerumfrage von Bromic 94 %, ihr Außenbereich könnte mehr genutzt werden, und weniger als jeder Vierte (23 %) plante die Heizung von Anfang an ein.[^s3] [[VERIFY: Stichprobe, Erhebungszeitraum und Fragewortlaut für die Werte von 94 % und 23 % — Marketing]]
 
 Vielleicht kennen Sie das gut. Das Abendessen zieht bei Sonnenuntergang nach drinnen, und die Loungegruppe, die im Juli so einladend war, ist im Oktober abgedeckt. Was das ändert, ist Behaglichkeit, die auch bei sinkenden Temperaturen hält – weit mehr als ein weiteres Möbelstück.
 

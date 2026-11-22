@@ -46,7 +46,7 @@ sources:
     title: "Share of new homes with patios dips to a six-year low"
     year: 2026
     url: https://eyeonhousing.org/2026/09/share-of-new-homes-with-patios-dips-to-a-six-year-low/
-    supports: "60.5% of single-family homes started in 2025 came with patios"
+    supports: "60.5% of single-family homes started in 2025 came with patios; 59.6% in 2019"
     verified: true
   - id: s5
     publisher: National Association of Realtors and National Association of Landscape Professionals
@@ -108,7 +108,7 @@ Außenküchen und Außenkamine haben die Liste der meistgewünschten Ausstattung
 
 ## Die meisten Neubauten haben die Terrasse bereits
 
-Die Auswertung der US-Zensusdaten durch die NAHB weist Terrassen bei 61,8 % der 2024 begonnenen Einfamilienhäuser aus[^s3] und bei 60,5 % im Jahr 2025[^s4]. Der Anteil schwankt stark nach Region, von über 80 % in den Bundesstaaten der Region West South Central bis zu rund 14 % in Neuengland im Jahr 2024[^s3]. [[VERIFY: vergleichbare Daten für Deutschland, falls vorhanden — Partner Deutschland]]
+Die Auswertung der US-Zensusdaten durch die NAHB weist Terrassen bei 60,5 % der 2025 begonnenen Einfamilienhäuser aus, gegenüber 59,6 % im Jahr 2019[^s4]. Der Anteil schwankt stark nach Region, von über 80 % in den Bundesstaaten der Region West South Central bis zu rund 14 % in Neuengland im Jahr 2024[^s3]. [[VERIFY: vergleichbare Daten für Deutschland, falls vorhanden — Partner Deutschland]]
 
 Für Ihren Sonderwunsch ist das eine gute Nachricht. Bodenplatte, Überdachung und oft die Pergola sind bereits im Plan, und so ist Wärme der kleinste Schritt zwischen einer Terrasse und einem Außenraum.
 

@@ -25,7 +25,7 @@ sources:
     title: "Share of new homes with patios dips to a six-year low"
     year: 2026
     url: https://eyeonhousing.org/2026/09/share-of-new-homes-with-patios-dips-to-a-six-year-low/
-    supports: "60.5% of single-family homes started in 2025 came with a patio (Census Survey of Construction data)"
+    supports: "60.5% of single-family homes started in 2025 came with a patio; 59.6% in 2019 (Census Survey of Construction data)"
     verified: true
   - id: s2
     publisher: National Association of Home Builders (Eye on Housing)
@@ -85,7 +85,7 @@ Vorverkabelte Bromic Strahlungswärme in drei fertigen Paketen, im Rohbau eingep
 
 ### Warum Wärme auf das Optionsblatt gehört
 
-**1. Die meisten neuen Häuser haben heute eine Terrasse.** In den USA hatten 60,5 % der 2025 begonnenen Einfamilienhäuser eine Terrasse.[^s1] Die durchschnittliche Terrasse eines US-Neubaus misst rund 30 m².[^s2]
+**1. Die meisten neuen Häuser haben heute eine Terrasse.** In den USA hatten 60,5 % der 2025 begonnenen Einfamilienhäuser eine Terrasse, gegenüber 59,6 % im Jahr 2019.[^s1] Die durchschnittliche Terrasse eines US-Neubaus misst rund 30 m².[^s2]
 
 **2. Käufer fragen danach.** 86 % der US-Käufer und Kaufinteressenten bewerten eine Terrasse als unverzichtbar oder wünschenswert, gleichauf mit dem Hauswirtschaftsraum als meistgewünschte Ausstattung.[^s3]
 

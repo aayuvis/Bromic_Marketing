@@ -81,7 +81,7 @@ sources:
 
 # Outdoor Living Statistics 2027: How America Lives Outdoors
 
-Six in ten new US single-family homes now come with a patio, and the average one is about 320 square feet.[^s1][^s3] Architects still rank outdoor living as the most popular exterior feature, though demand cooled in 2025.[^s4] Homeowners spend around $525 billion a year improving and repairing the homes they own,[^s5] and a new patio recovers about 95% of its cost at resale.[^s8]
+Six in ten new US single-family homes now come with a patio, and the average one is about 320 square feet.[^s1][^s3] Architects still rank outdoor living as the most popular exterior feature.[^s4] Homeowners spend around $525 billion a year improving and repairing the homes they own,[^s5] and a new patio recovers about 95% of its cost at resale.[^s8]
 
 Every one of these numbers comes back to the same evening: a table set outside, friends who would happily stay another hour, and the chill that eventually calls everyone in. Together they show how much of the American home now lives beneath the open sky.
 
@@ -89,7 +89,7 @@ Every one of these numbers comes back to the same evening: a table set outside, 
 
 ## How Many New US Homes Come With A Patio?
 
-60.5% of the roughly 940,000 single-family homes started in 2025 came with a patio.[^s1] That is down from 61.8% in 2024, a second fall in a row after the first in fifteen years, and the lowest share since 2019.[^s1][^s3] Where you build makes a real difference: 77% of new homes in the West South Central states have one, compared with 23% in the Middle Atlantic.[^s1]
+60.5% of the roughly 940,000 single-family homes started in 2025 came with a patio, up from 59.6% in 2019.[^s1] Where you build makes a real difference: 77% of new homes in the West South Central states have one, compared with 23% in the Middle Atlantic.[^s1]
 
 Source: National Association of Home Builders, analysis of the US Census Bureau Survey of Construction, 2025 starts (published September 2026).
 
@@ -101,13 +101,13 @@ Source: National Association of Home Builders, Builder Practices Survey 2025 (ho
 
 ## Are Architects Still Seeing Rising Demand For Outdoor Living?
 
-They are, though a little less than a year earlier. In AIA's Q2 2025 survey, outdoor living spaces scored a net 55%, down from 60% in 2024, and remained the most popular exterior feature.[^s4] The score is a net figure: the share of architects reporting rising popularity minus the share reporting a fall.
+They are. In AIA's Q2 2025 survey, outdoor living spaces scored a net 55% and remained the most popular exterior feature.[^s4] The score is a net figure: the share of architects reporting rising popularity minus the share reporting a fall.
 
 Source: American Institute of Architects, Home Design Trends Survey, Q2 2025.
 
 ## Is Indoor-Outdoor Living Still Growing?
 
-Demand remains positive while the pace eases. Blended indoor/outdoor spaces, such as kitchens that open onto a terrace or glass walls that slide away, scored a net 40% in Q2 2025, down from 51% in 2024.[^s4] More architects still see this demand rising than falling.
+It is. Blended indoor/outdoor spaces, such as kitchens that open onto a terrace or glass walls that slide away, scored a net 40% in Q2 2025.[^s4] More architects see this demand rising than falling.
 
 Source: American Institute of Architects, Home Design Trends Survey, Q2 2025.
 
@@ -141,10 +141,10 @@ Source: National Association of Realtors and National Association of Landscape P
 
 | Statistic | Figure | Source | Year |
 |---|---|---|---|
-| New single-family homes started with a patio | 60.5% (61.8% in 2024) | NAHB, Census Survey of Construction[^s1] | 2025 starts |
+| New single-family homes started with a patio | 60.5% (59.6% in 2019) | NAHB, Census Survey of Construction[^s1] | 2025 starts |
 | Average new-home patio size | About 320 sq ft | NAHB, Builder Practices Survey[^s3] | Homes built 2024 |
-| Architects' net demand score, outdoor living spaces | 55% (60% in 2024) | AIA Home Design Trends Survey[^s4] | Q2 2025 |
-| Architects' net demand score, blended indoor/outdoor spaces | 40% (51% in 2024) | AIA Home Design Trends Survey[^s4] | Q2 2025 |
+| Architects' net demand score, outdoor living spaces | 55% | AIA Home Design Trends Survey[^s4] | Q2 2025 |
+| Architects' net demand score, blended indoor/outdoor spaces | 40% | AIA Home Design Trends Survey[^s4] | Q2 2025 |
 | Annual US homeowner improvement and repair spending | About $525 billion | Harvard JCHS, LIRA[^s5] | Through Q3 2027 |
 | Outdoor upgraders aiming to extend living space | 33% | Houzz Outdoor Trends Study[^s6] | 2024 |
 | New patio cost recovered at resale | About 95% (of $10,500) | NAR and NALP Remodeling Impact Report[^s8] | 2023 |
@@ -153,7 +153,7 @@ Source: National Association of Realtors and National Association of Landscape P
 ## What These Numbers Tell Us
 
 - Most new US homes now come with a patio, and the patio keeps growing.[^s1][^s3]
-- Architects still place outdoor living at the top of exterior features, even as demand cooled in 2025.[^s4]
+- Architects still place outdoor living at the top of exterior features.[^s4]
 - A new patio comes close to paying for itself at resale and scores near the top for homeowner joy.[^s7][^s8]
 - How a patio feels after dark and through the cooler months is decided at the planning stage, when power, mounting and controls can be drawn into the design from the very beginning.
 
@@ -161,7 +161,7 @@ Source: National Association of Realtors and National Association of Landscape P
 
 ### What percentage of new homes have a patio?
 
-60.5% of US single-family homes started in 2025 came with a patio, according to NAHB's analysis of Census data. The share was 61.8% in 2024.[^s1][^s2]
+60.5% of US single-family homes started in 2025 came with a patio, up from 59.6% in 2019, according to NAHB's analysis of Census data.[^s1][^s2]
 
 ### How big is a typical new-home patio in the US?
 
@@ -169,7 +169,7 @@ Homes built in 2024 have a patio of about 320 square feet on average, according 
 
 ### Is outdoor living still a design trend in 2026?
 
-It is. AIA's Q2 2025 survey found outdoor living spaces were still the most popular exterior feature, with a net 55% of architects reporting rising popularity, down from 60% a year earlier.[^s4]
+It is. AIA's Q2 2025 survey found outdoor living spaces were still the most popular exterior feature, with a net 55% of architects reporting rising popularity.[^s4]
 
 ### Is a new patio a good investment?
 

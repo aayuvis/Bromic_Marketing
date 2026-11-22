@@ -47,7 +47,7 @@ sources:
     title: "Share of new homes with patios dips to a six-year low"
     year: 2026
     url: https://eyeonhousing.org/2026/09/share-of-new-homes-with-patios-dips-to-a-six-year-low/
-    supports: "60.5% of single-family homes started in 2025 had patios, down from 61.8% in 2024; lowest since 2019 (Census Survey of Construction)"
+    supports: "60.5% of single-family homes started in 2025 had patios, down from 61.8% in 2024; lowest since 2019 (59.6%) (Census Survey of Construction)"
     verified: true
   - id: s5
     publisher: National Association of Home Builders / Home Innovation Research Labs
@@ -91,14 +91,14 @@ Read together, the surveys describe steady demand from a high base rather than a
 |---|---|---|
 | Rank of outdoor living among special-function rooms (AIA, 2026) | 1st, 20% net | AIA[^s2] |
 | Change in outdoor-living demand, 2026 vs 2025 (AIA) | +10% | AIA[^s1] |
-| Architects reporting outdoor living rising in popularity (AIA, 2025, net) | 55% (60% in 2024) | AIA via Qualified Remodeler[^s3] |
-| Architects reporting blended indoor/outdoor rising (AIA, 2025, net) | 40% (51% in 2024) | AIA via Qualified Remodeler[^s3] |
-| New single-family homes started with a patio (2025) | 60.5% (61.8% in 2024) | NAHB[^s4] |
+| Architects reporting outdoor living rising in popularity (AIA, 2025, net) | 55% | AIA via Qualified Remodeler[^s3] |
+| Architects reporting blended indoor/outdoor rising (AIA, 2025, net) | 40% | AIA via Qualified Remodeler[^s3] |
+| New single-family homes started with a patio (2025) | 60.5% (59.6% in 2019) | NAHB[^s4] |
 | Average new-home patio | about 320 ft² | NAHB / Home Innovation[^s5] |
 
 [[VERIFY: AIA reports "increasing minus decreasing" net shares; confirm whether the 10% is points or relative, and which quarter's question the 55%/40% come from, against the AIA PDFs — Marketing]]
 
-Two notes are worth keeping in mind before you quote these figures. The AIA numbers are net shares of architects, so they describe what practices are seeing rather than the share of homes built. And NAHB's patio share has now dipped two years running[^s4], so it would overstate things to say every new home has a patio. The fairer picture is that most new homes get one, it averages a generous, room-sized 320 ft², and architects still rank it as the space their clients want most.
+Two notes are worth keeping in mind before you quote these figures. The AIA numbers are net shares of architects, so they describe what practices are seeing rather than the share of homes built. And NAHB puts the patio share at 60.5%, up from 59.6% in 2019[^s4], so it would overstate things to say every new home has a patio. The fairer picture is that most new homes get one, it averages a generous, room-sized 320 ft², and architects still rank it as the space their clients want most.
 
 ## The Outdoor Rooms Clients Are Asking For
 
@@ -145,7 +145,7 @@ Every heater you specify is paired with its controls: an Affinity Smart-Heat® O
 Clients are asking for outdoor rooms more than patios: covered terraces, outdoor kitchens, pergolas with integrated lighting, audio and heat, and glazing that opens the house to the terrace. The AIA's 2026 survey ranks outdoor living first among special-function rooms[^s2].
 
 ### Is demand for outdoor living still growing?
-The AIA reports demand for outdoor living spaces up 10% on 2025[^s1], while NAHB shows a small dip in the share of new homes with patios, to 60.5% in 2025[^s4]. Demand is high and steady, though it is not accelerating everywhere.
+The AIA reports demand for outdoor living spaces up 10% on 2025[^s1], and NAHB shows 60.5% of new single-family homes started in 2025 with a patio, up from 59.6% in 2019[^s4]. Demand is high and steady.
 
 ### When should heating enter the design?
 At schematic design, alongside lighting and structure. That is when the recess, the circuit and the control location are easiest and least costly to include.

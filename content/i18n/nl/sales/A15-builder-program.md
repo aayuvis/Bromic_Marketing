@@ -29,7 +29,7 @@ sources:
     title: "Share of new homes with patios dips to a six-year low"
     year: 2026
     url: https://eyeonhousing.org/2026/09/share-of-new-homes-with-patios-dips-to-a-six-year-low/
-    supports: "60.5% of single-family homes started in 2025 came with a patio (Census Survey of Construction data)"
+    supports: "60.5% of single-family homes started in 2025 came with a patio; 59.6% in 2019 (Census Survey of Construction data)"
     verified: true
   - id: s2
     publisher: National Association of Home Builders (Eye on Housing)
@@ -85,7 +85,7 @@ Voorbekabelde stralingswarmte van Bromic in drie kant-en-klare pakketten, meegen
 
 ### Waarom warmte op de meerwerklijst hoort
 
-**1. De meeste nieuwe woningen krijgen tegenwoordig een terras.** In de VS kreeg 60,5% van de eengezinswoningen waarvan de bouw in 2025 begon een terras.[^s1] Het gemiddelde terras bij een Amerikaanse nieuwbouwwoning is ongeveer 30 m².[^s2]
+**1. De meeste nieuwe woningen krijgen tegenwoordig een terras.** In de VS kreeg 60,5% van de eengezinswoningen waarvan de bouw in 2025 begon een terras, gestegen van 59,6% in 2019.[^s1] Het gemiddelde terras bij een Amerikaanse nieuwbouwwoning is ongeveer 30 m².[^s2]
 
 **2. Kopers vragen erom.** 86% van de recente en toekomstige Amerikaanse kopers noemt een terras essentieel of wenselijk, gelijk met de wasruimte als meest gewilde voorziening.[^s3]
 

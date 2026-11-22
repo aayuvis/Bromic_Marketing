@@ -50,7 +50,7 @@ sources:
     title: "Share of new homes with patios dips to a six-year low"
     year: 2026
     url: https://eyeonhousing.org/2026/09/share-of-new-homes-with-patios-dips-to-a-six-year-low/
-    supports: "60.5% of single-family homes started in 2025 came with patios"
+    supports: "60.5% of single-family homes started in 2025 came with patios; 59.6% in 2019"
     verified: true
   - id: s5
     publisher: National Association of Realtors and National Association of Landscape Professionals
@@ -108,7 +108,7 @@ Buitenkeukens en buitenhaarden staan nog niet op de lijst van meest gewilde voor
 
 ## De meeste nieuwbouwwoningen hebben het terras al
 
-De bewerking van Amerikaanse Census-gegevens door NAHB laat zien dat 61,8% van de eengezinswoningen waarvan de bouw in 2024 begon een terras had[^s3], en 60,5% in 2025[^s4]. Het aandeel verschilt sterk per regio, van boven de 80% in de West South Central-staten tot ongeveer 14% in New England in 2024[^s3]. [[VERIFY: vergelijkbare Nederlandse nieuwbouwcijfers, of alleen de Amerikaanse cijfers tonen — Bromic Benelux distributor]]
+De bewerking van Amerikaanse Census-gegevens door NAHB laat zien dat 60,5% van de eengezinswoningen waarvan de bouw in 2025 begon een terras had, gestegen van 59,6% in 2019[^s4]. Het aandeel verschilt sterk per regio, van boven de 80% in de West South Central-staten tot ongeveer 14% in New England in 2024[^s3]. [[VERIFY: vergelijkbare Nederlandse nieuwbouwcijfers, of alleen de Amerikaanse cijfers tonen — Bromic Benelux distributor]]
 
 Voor uw meerwerkverhaal is dat goed nieuws. De terrasvloer, de overkapping en vaak de pergola staan al in het plan, dus warmte is de kleinste stap tussen een terras en een buitenkamer.
 

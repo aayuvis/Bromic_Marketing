@@ -6,7 +6,7 @@ audience: [COM, ARC]
 stage: [AW, CO]
 cell: COM-AW
 asset: A01
-summary: "De zakelijke tegenhanger van ons rapport Trends 2026. Tien onderbouwde verschuivingen die de terrassen van restaurants, bars, hotels en evenementenlocaties vormen, van teruglopende bezoekersaantallen en stijgende energiekosten tot permanente terrassen en het afscheid van propaan, elk met wat het betekent voor uw zaak, een inzicht van Bromic en één ontwerpkeuze. De cijfers zijn grotendeels Amerikaans en staan als zodanig vermeld."
+summary: "De zakelijke tegenhanger van ons rapport Trends 2026. Tien onderbouwde verschuivingen die de terrassen van restaurants, bars, hotels en evenementenlocaties vormen, van elke plaats laten tellen en stijgende energiekosten tot permanente terrassen en het afscheid van propaan, elk met wat het betekent voor uw zaak, een inzicht van Bromic en één ontwerpkeuze. De cijfers zijn grotendeels Amerikaans en staan als zodanig vermeld."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wat zijn de trends in buitenhoreca en terrassen voor 2026?"
@@ -146,7 +146,7 @@ Tien ontwikkelingen veranderen het terras dit jaar, en elk ervan biedt de kans o
 
 - **01 Het terras is een omzetpost.** 35% van de Amerikaanse horecazaken met een terras zei dat het meer dan 40% van de dagomzet opleverde.[^s1]
 - **02 Gasten kiezen de tafel buiten.** 55% van de Amerikanen eet bij mooi weer het liefst buiten.[^s3]
-- **03 Minder bezoek maakt elke plaats waardevol.** 61% van de Amerikaanse full-service restaurants zag in 2025 minder bezoekers.[^s2]
+- **03 Elke plaats telt.** 85% van de Amerikaanse full-service restaurants zegt dat het uitbouwen van de zaak ter plaatse in 2026 belangrijker wordt.[^s2]
 - **04 Energie is een post die ondernemers nu volgen.** 82% van de Amerikaanse full-service restaurants noemt energie- of nutskosten een grote uitdaging.[^s2]
 - **05 Buiten eten is vaste infrastructuur.** Bijna 2.450 opstellingen in Dining Out NYC.[^s5]
 - **06 Propaan verdwijnt van het terras.** New York trok vanaf juni 2021 de toestemming voor propaanverwarmers op terrassen in.[^s7]
@@ -195,21 +195,18 @@ Vraag gasten waar ze willen zitten, en de meesten kijken naar buiten.
 
 **Bromic-project.** [Hotel Skansen](https://www.bromic.com/case-study/hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-heat-freestanding-heaters/), Zweden: Eclipse Smart-Heat Freestanding verwarmers met de Eclipse Dimmer Controller houden het terras van restaurant SAND in gebruik.
 
-## 03 · Als het bezoek terugloopt, telt elke plaats
+## 03 · Elke plaats telt
 
 Als gasten zorgvuldiger kiezen waar ze een avond doorbrengen, is de gloed van een warm terras een uitnodiging van over de straat.
 
-> **61%** van de full-service en **64%** van de limited-service zaken in de VS zei dat er in 2025 minder gasten kwamen dan in 2024.[^s2]
+> **85%** van de full-service en **65%** van de limited-service zaken in de VS zegt dat het uitbouwen van de zaak ter plaatse in 2026 belangrijker wordt voor hun succes.[^s2]
 > *Bron: National Restaurant Association, State of the Restaurant Industry 2026.*
 
-> **85%** van de full-service en **65%** van de limited-service zaken in de VS zegt dat het uitbouwen van de zaak ter plaatse in 2026 belangrijker wordt voor hun succes.[^s2]
-> *Bron: zie hierboven.*
-
 **Wat het betekent voor uw zaak**
-- Met minder bezoeken geeft een terras dat in oktober nog uitnodigend aanvoelt gasten een reden om voor u te kiezen.
+- Nu elk bezoek telt, geeft een terras dat in oktober nog uitnodigend aanvoelt gasten een reden om voor u te kiezen.
 - Plaatsen die in de herfst sluiten, zijn verloren capaciteit, juist wanneer die het moeilijkst te vervangen is.
 
-**Inzicht van Bromic.** In een rustiger jaar is de voordeligste plaats om toe te voegen vaak de plaats die buiten al klaarstaat.
+**Inzicht van Bromic.** De voordeligste plaats om toe te voegen vaak de plaats die buiten al klaarstaat.
 
 **Ontwerpkeuze.** Plan eerst voor het voor- en naseizoen. Een gedeeltelijke overkapping met stralingswarmte vormt een warmtewolk die een zachte extra convectiewarmte geeft.[^s14]
 
@@ -388,7 +385,7 @@ Ontdek wat uw lege plaatsen waard zouden kunnen zijn. VRAAG UW ROI-ANALYSE AAN.
 
 - **Formaat:** afgeschermde pdf, liggend A4, 14 pagina's; volgt het systeem van het rapport Trends 2026 voor particulieren (witte pagina's, inkt en staalgrijs, vlam `#EF4123` als enige accent op kleine labels en lijnen; koppen in Didot, tekst in Helvetica Neue Light, volgens templates/bromic-voice.md). Geen emoji, geen uitroeptekens.
 - **Pagina 1, omslag:** "Trends in buitenhoreca 2026", ondertitel "Tien manieren waarop het terras zijn plek verdient". Afbeelding `l-016-131`.
-- **Pagina 2, het jaar in cijfers:** vier grote cijferblokken (35%, 55%, 61%, 82%) met bronregels; de tien ontwikkelingen eronder als lijst.
+- **Pagina 2, het jaar in cijfers:** vier grote cijferblokken (35%, 55%, 85%, 82%) met bronregels; de tien ontwikkelingen eronder als lijst.
 - **Marketingronde (19 nov. 2026):** elke trend opent met de avond van de gast vóór de cijfers; de overzichtstabel is een lijst geworden (elk cijfer houdt zijn bron); twee Bromic-zinnen staan als citaat (trend 02, trend 10).
 - **Pagina's 3–12, één trend per pagina:** nummer en kop linksboven; cijferblokken met bronregels in klein kapitaal; "Wat het betekent voor uw zaak" als twee of drie regels; inzicht van Bromic in een kader met vlamlijn; ontwerpkeuze; projectregel met een QR-code naar de case study.
   - 01 `p-003-006` · 02 `l-013-111` · 03 `p-007-030` · 04 `g-operator` (door de eigenaar goedgekeurde gegenereerde afbeelding; label "generated") · 05 `p-002-001` · 06 `p-014-066` · 07 `l-013-107` · 08 `p-010-044` · 09 `t-003-005` · 10 `t-006-016`.

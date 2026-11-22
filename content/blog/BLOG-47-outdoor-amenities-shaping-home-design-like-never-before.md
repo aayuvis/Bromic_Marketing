@@ -31,7 +31,7 @@ sources:
     title: "Share of new homes with patios dips to a six-year low"
     year: 2026
     url: https://eyeonhousing.org/2026/09/share-of-new-homes-with-patios-dips-to-a-six-year-low/
-    supports: "60.5% of single-family homes started in 2025 had patios, down from 61.8% in 2024 (Census Survey of Construction); average new-home patio about 320 ft² (Builder Practices Survey)"
+    supports: "60.5% of single-family homes started in 2025 had patios, down from 61.8% in 2024; 59.6% in 2019 (Census Survey of Construction); average new-home patio about 320 ft² (Builder Practices Survey)"
     verified: true
   - id: s2
     publisher: American Institute of Architects
@@ -98,7 +98,7 @@ Homeowners are recreating the rooms they love indoors. In the 2026 U.S. Houzz Ou
 | Dining area | 55%[^s4] | Heat over the table, on a dimmer |
 | Outdoor cooking area | 48%[^s4] | Heat at the prep and serving zone; plan power with the kitchen |
 | Fireplace or fire pit | 48% of lounge areas[^s4] | Ambience; pair with radiant heat for the whole group |
-| New-home patio | 60.5% of 2025 starts, about 320 ft² average[^s1] | A room-sized space that needs room-level services |
+| New-home patio | 60.5% of 2025 starts (59.6% in 2019), about 320 ft² average[^s1] | A room-sized space that needs room-level services |
 
 ## The Outdoor Kitchen, And The Perfect Moment To Plan Warmth
 
@@ -135,7 +135,7 @@ Explore the full [outdoor heaters](https://www.bromic.com/outdoor-heaters/) rang
 A lounge or seating area, which Houzz found in 83% of renovated outdoor spaces[^s3].
 
 ### How many new homes have a patio?
-About six in ten, or 60.5% of single-family homes started in 2025, according to NAHB's reading of Census data[^s1].
+About six in ten, or 60.5% of single-family homes started in 2025, up from 59.6% in 2019, according to NAHB's reading of Census data[^s1].
 
 ### When should outdoor heating be planned?
 Plan it alongside the patio, kitchen and structure, so the circuit, mounting and controls go in once. Only 23% of homeowners prioritize heating at the planning stage[^s5].

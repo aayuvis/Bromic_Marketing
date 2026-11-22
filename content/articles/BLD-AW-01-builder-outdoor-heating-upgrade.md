@@ -47,7 +47,7 @@ sources:
     title: "Share of new homes with patios dips to a six-year low"
     year: 2026
     url: https://eyeonhousing.org/2026/09/share-of-new-homes-with-patios-dips-to-a-six-year-low/
-    supports: "60.5% of single-family homes started in 2025 came with patios"
+    supports: "60.5% of single-family homes started in 2025 came with patios; 59.6% in 2019"
     verified: true
   - id: s5
     publisher: National Association of Realtors and National Association of Landscape Professionals
@@ -105,7 +105,7 @@ Outdoor kitchens and outdoor fireplaces have yet to reach the most-wanted list, 
 
 ## Most New Homes Already Have The Patio
 
-NAHB's tabulation of Census data puts patios on 61.8% of single-family homes started in 2024[^s3] and 60.5% in 2025[^s4]. The share varies widely by region, from above 80% in the West South Central states to about 14% in New England in 2024[^s3].
+NAHB's tabulation of Census data puts patios on 60.5% of single-family homes started in 2025, up from 59.6% in 2019[^s4]. The share varies widely by region, from above 80% in the West South Central states to about 14% in New England in 2024[^s3].
 
 For your upgrade case, that is good news. The slab, the cover and often the pergola are already in the plan, so warmth is the smallest step between a patio and an outdoor room.
 

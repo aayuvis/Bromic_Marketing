@@ -50,7 +50,7 @@ sources:
     title: "Share of new homes with patios dips to a six-year low"
     year: 2026
     url: https://eyeonhousing.org/2026/09/share-of-new-homes-with-patios-dips-to-a-six-year-low/
-    supports: "60.5% of single-family homes started in 2025 had patios, down from 61.8% in 2024; lowest since 2019 (Census Survey of Construction)"
+    supports: "60.5% of single-family homes started in 2025 had patios, down from 61.8% in 2024; lowest since 2019 (59.6%) (Census Survey of Construction)"
     verified: true
   - id: s5
     publisher: National Association of Home Builders / Home Innovation Research Labs
@@ -93,14 +93,14 @@ Samen gelezen beschrijven de onderzoeken een stabiele vraag vanaf een hoog nivea
 |---|---|---|
 | Positie van buitenleven onder ruimtes met een speciale functie (AIA, 2026) | 1e, 20% netto | AIA[^s2] |
 | Verandering in de vraag naar buitenleven, 2026 t.o.v. 2025 (AIA) | +10% | AIA[^s1] |
-| Architecten die buitenleven populairder zien worden (AIA, 2025, netto) | 55% (60% in 2024) | AIA via Qualified Remodeler[^s3] |
-| Architecten die vloeiende binnen-buitenruimtes populairder zien worden (AIA, 2025, netto) | 40% (51% in 2024) | AIA via Qualified Remodeler[^s3] |
-| Nieuwe eengezinswoningen in de VS waarvan de bouw in 2025 begon met een terras | 60,5% (61,8% in 2024) | NAHB[^s4] |
+| Architecten die buitenleven populairder zien worden (AIA, 2025, netto) | 55% | AIA via Qualified Remodeler[^s3] |
+| Architecten die vloeiende binnen-buitenruimtes populairder zien worden (AIA, 2025, netto) | 40% | AIA via Qualified Remodeler[^s3] |
+| Nieuwe eengezinswoningen in de VS waarvan de bouw in 2025 begon met een terras | 60,5% (59,6% in 2019) | NAHB[^s4] |
 | Gemiddeld terras bij een nieuwe woning in de VS | ca. 30 m² | NAHB / Home Innovation[^s5] |
 
 [[VERIFY: het AIA rapporteert nettopercentages ("stijgend min dalend"); bevestig aan de hand van de AIA-pdf's of de 10% procentpunten of relatief is, en uit welke kwartaalvraag de 55%/40% komen — marketing]]
 
-Twee kanttekeningen zijn goed om in gedachten te houden voordat u deze cijfers aanhaalt. De AIA-cijfers zijn nettopercentages van architecten; ze beschrijven dus wat bureaus zien, niet het aandeel gebouwde woningen. En het aandeel nieuwe woningen met een terras volgens NAHB is nu twee jaar op rij gedaald[^s4], zodat het overdreven zou zijn te zeggen dat elke nieuwe woning een terras heeft. Een eerlijker beeld: de meeste nieuwe Amerikaanse woningen krijgen er een, gemiddeld een royale ca. 30 m² – zo groot als een kamer – en architecten noemen het nog steeds de ruimte die hun opdrachtgevers het liefst willen.
+Twee kanttekeningen zijn goed om in gedachten te houden voordat u deze cijfers aanhaalt. De AIA-cijfers zijn nettopercentages van architecten; ze beschrijven dus wat bureaus zien, niet het aandeel gebouwde woningen. En NAHB stelt het aandeel nieuwe woningen met een terras op 60,5%, gestegen van 59,6% in 2019[^s4], zodat het overdreven zou zijn te zeggen dat elke nieuwe woning een terras heeft. Een eerlijker beeld: de meeste nieuwe Amerikaanse woningen krijgen er een, gemiddeld een royale ca. 30 m² – zo groot als een kamer – en architecten noemen het nog steeds de ruimte die hun opdrachtgevers het liefst willen.
 
 ## De buitenkamers waar opdrachtgevers om vragen
 
@@ -149,7 +149,7 @@ De elektrische installatie volgt in Nederland NEN 1010; stem haar af met de geme
 Opdrachtgevers vragen eerder om buitenkamers dan om terrassen: overdekte terrassen, buitenkeukens, pergola's met geïntegreerde verlichting, audio en warmte, en glazen puien die het huis naar het terras openen. Het AIA-onderzoek van 2026 zet buitenleven bovenaan de ruimtes met een speciale functie[^s2].
 
 ### Groeit de vraag naar buitenleven nog?
-Het AIA meldt dat de vraag naar buitenruimtes 10% hoger ligt dan in 2025[^s1], terwijl NAHB een kleine daling laat zien in het aandeel nieuwe Amerikaanse woningen met een terras, naar 60,5% in 2025[^s4]. De vraag is hoog en stabiel, al versnelt ze niet overal.
+Het AIA meldt dat de vraag naar buitenruimtes 10% hoger ligt dan in 2025[^s1], en volgens NAHB kreeg 60,5% van de nieuwe Amerikaanse eengezinswoningen waarvan de bouw in 2025 begon een terras, gestegen van 59,6% in 2019[^s4]. De vraag is hoog en stabiel.
 
 ### Wanneer hoort verwarming in het ontwerp?
 In het schetsontwerp, samen met verlichting en constructie. Dan zijn de inbouwopening, de groep en de plek van de bediening het eenvoudigst en het voordeligst mee te nemen.

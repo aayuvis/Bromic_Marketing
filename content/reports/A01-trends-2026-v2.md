@@ -47,7 +47,7 @@ sources:
     title: "Share of new homes with patios dips to a six-year low (NAHB tabulation of the Census Survey of Construction)"
     year: 2026
     url: https://eyeonhousing.org/2026/09/share-of-new-homes-with-patios-dips-to-a-six-year-low/
-    supports: "60.5% of about 940,000 single-family homes started in 2025 came with a patio, down from 61.8% in 2024"
+    supports: "60.5% of about 940,000 single-family homes started in 2025 came with a patio, down from 61.8% in 2024; 59.6% in 2019"
     verified: true
   - id: s5
     publisher: Harvard Joint Center for Housing Studies
@@ -122,7 +122,7 @@ Some of the day's finest moments sit at its edges, with the first coffee in the 
 
 A patio drawn into the plan from the start becomes a room the family reaches for every day.
 
-**60.5%** of new single-family homes started in 2025 came with a patio.[^s4]\
+**60.5%** of new single-family homes started in 2025 came with a patio, up from 59.6% in 2019.[^s4]\
 *NAHB, from Census Survey of Construction, 2025*
 
 - Patios are built in from the outset, with their services planned alongside them.
@@ -250,7 +250,7 @@ AIA figures are net (rising minus falling). Bromic commissioned the Atomik homeo
 
 - **Length.** Original report text: 1,631 words (`sources/Bromic_Outdoor_Living_Trends_2026.txt`). This version, cover to sources page: 978 words, a 40% cut. Report copy alone, cover to "Plan from the start": 909 words, a 44% cut (recounted after the 16 Nov 2026 voice rewrite). Both counted the same way: dashes split words; this note, the layout notes, `[[VERIFY]]` placeholders, footnote markers and Markdown syntax are excluded.
 - **Stats cut.** 94% "could be used more" (Bromic's own releases say 94% and 92%; held until Marketing picks one). 39% infrared heaters (not found in any AIA release). $522B (not in any Harvard release; replaced by $525B). The 1970s/2000s/2010s appliance dates (unsourced). The 320 sq ft patio size and 95% cost recovery (verified, but one stat per trend). 43% "do not think about heating" (unverified, not needed).
-- **Stats changed.** 61.8% (2024) updated to 60.5% (2025 starts), per the corrections file's recommendation; switch back if Marketing decides otherwise. 55% and 40% now say "net share" and give the year. 33% now has the right study, base and year. "Satisfaction score" is now NAR's Joy Score.
+- **Stats changed.** The patio share is now 60.5% (2025 starts), up from 59.6% in 2019, per the corrections file's recommendation and the owner's direction (22 Nov 2026). 55% and 40% now say "net share" and give the year. 33% now has the right study, base and year. "Satisfaction score" is now NAR's Joy Score.
 - **Stats moved so each trend carries one.** 67% from trend 01 to 02, 23% from 02 to 10, 9.9 from 03 to 08. Trends 07 and 09 had none in the original; each now carries a Bromic product fact from the Lookbook, not a market statistic.
 - **Fixes applied.** All 38 items in [the corrections file](item:A01-corrections): "Studies", "radiant", "integration", "Multi-Use", "beginning"; the broken trend 04 sentence rewritten; the p.10 smart-controls insight moved to trend 07 and trend 08 given a design-led insight; the 23% reworded to "rank … a top planning priority"; the "=" headline; stray spaces; one source-line format; a sources page added.
 - **Marketing pass (19 Nov 2026).** Owner: "a marketing whitepaper, not technical documentation". Every trend now opens on the moment before its statistic; the sources table became one paragraph (every figure keeps its citation); "Extend The Moment" is the pull quote.

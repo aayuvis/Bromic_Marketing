@@ -6,7 +6,7 @@ audience: [COM, ARC]
 stage: [AW, CO]
 cell: COM-AW
 asset: A01
-summary: "Das gewerbliche Gegenstück zu unserem Report Trends 2026. Zehn belegte Entwicklungen, die Terrassen von Restaurants, Bars, Hotels und Veranstaltungsorten prägen, von schwacher Gästefrequenz und steigenden Energiekosten bis zur dauerhaften Außengastronomie und dem Abschied vom Flüssiggas, jeweils mit der Bedeutung für Ihren Betrieb, einer Einschätzung von Bromic und einem Planungsschritt."
+summary: "Das gewerbliche Gegenstück zu unserem Report Trends 2026. Zehn belegte Entwicklungen, die Terrassen von Restaurants, Bars, Hotels und Veranstaltungsorten prägen, davon, dass jeder Platz zählt, und steigenden Energiekosten bis zur dauerhaften Außengastronomie und dem Abschied vom Flüssiggas, jeweils mit der Bedeutung für Ihren Betrieb, einer Einschätzung von Bromic und einem Planungsschritt."
 primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Was sind die Trends für Außengastronomie und Hotellerie 2026?"
@@ -146,7 +146,7 @@ Zehn Entwicklungen verändern die Terrasse in diesem Jahr, und jede eröffnet di
 
 - **01 Die Terrasse ist eine Umsatzquelle.** 35 % der US-Betreiber mit Außengastronomie sagten, sie mache über 40 % des Tagesumsatzes aus.[^s1]
 - **02 Gäste wählen den Tisch draußen.** 55 % der Amerikaner essen bei schönem Wetter lieber draußen.[^s3]
-- **03 Schwache Frequenz macht jeden Platz wertvoll.** 61 % der US-Betreiber mit Bedienung hatten 2025 weniger Gäste.[^s2]
+- **03 Jeder Platz zählt.** 85 % der US-Betreiber mit Bedienung sagen, das Geschäft vor Ort werde 2026 wichtiger.[^s2]
 - **04 Energie ist ein Posten, auf den Betreiber heute achten.** 82 % der US-Betreiber mit Bedienung nennen Energie- oder Nebenkosten eine erhebliche Herausforderung.[^s2]
 - **05 Außengastronomie ist dauerhafte Infrastruktur.** Fast 2450 Flächen im Programm Dining Out NYC.[^s5]
 - **06 Flüssiggas verlässt die Terrasse.** New York City untersagte Propan-Heizstrahler in der Außengastronomie ab Juni 2021.[^s7]
@@ -195,21 +195,18 @@ Fragen Sie Gäste, wo sie sitzen möchten, und die meisten blicken nach draußen
 
 **Bromic-Projekt.** [Hotel Skansen](https://www.bromic.com/case-study/hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-heat-freestanding-heaters/), Schweden: Eclipse Smart-Heat Freestanding Heizstrahler mit dem Eclipse Dimmer Controller halten die Terrasse des Restaurants SAND in Betrieb.
 
-## 03 · Wenn die Frequenz nachlässt, zählt jeder Platz
+## 03 · Jeder Platz zählt
 
 Wenn Gäste genauer wählen, wo sie einen Abend verbringen, ist das Leuchten einer warmen Terrasse eine Einladung über die Straße hinweg.
 
-> **61 %** der US-Betreiber mit Bedienung und **64 %** der Schnellgastronomie sagten, sie hätten 2025 weniger Gäste gehabt als 2024.[^s2]
+> **85 %** der US-Betreiber mit Bedienung und **65 %** der Schnellgastronomie sagen, das Geschäft vor Ort werde 2026 für ihren Erfolg wichtiger.[^s2]
 > *Quelle: National Restaurant Association, State of the Restaurant Industry 2026.*
 
-> **85 %** der US-Betreiber mit Bedienung und **65 %** der Schnellgastronomie sagen, das Geschäft vor Ort werde 2026 für ihren Erfolg wichtiger.[^s2]
-> *Quelle: wie oben.*
-
 **Was es für Ihren Betrieb bedeutet**
-- Bei weniger Besuchen gibt eine Terrasse, die im Oktober noch einladend wirkt, den Gästen einen Grund, sich für Sie zu entscheiden.
+- Wenn jeder Besuch zählt, gibt eine Terrasse, die im Oktober noch einladend wirkt, den Gästen einen Grund, sich für Sie zu entscheiden.
 - Plätze, die im Herbst schließen, sind verlorene Kapazität, gerade dann, wenn sie am schwersten zu ersetzen ist.
 
-**Einschätzung von Bromic.** In einem ruhigeren Jahr ist der günstigste zusätzliche Platz oft der, der draußen schon wartet.
+**Einschätzung von Bromic.** Der günstigste zusätzliche Platz oft der, der draußen schon wartet.
 
 **Planungsschritt.** Planen Sie zuerst für die Übergangsmonate. Eine teilweise Überdachung mit Strahlungswärme erzeugt eine Wärmewolke, die sanft durch Konvektion nachhilft.[^s14]
 
@@ -388,7 +385,7 @@ Entdecken Sie, was Ihre leeren Plätze wert sein könnten. FORDERN SIE IHRE ROI-
 
 - **Format:** zugangsgeschütztes PDF, Querformat A4, 14 Seiten; im System des Reports Trends 2026 für Wohnkunden (weiße Seiten, Tinte und Stahlgrau, Flame `#EF4123` als einziger Akzent auf kleinen Labels und Linien; Überschriften in Didot, Fließtext in Helvetica Neue Light, nach templates/bromic-voice.md). Keine Emoji, keine Ausrufezeichen.
 - **Seite 1, Titel:** „Outdoor Hospitality Trends 2026“, Untertitel „Zehn Arten, wie sich die Terrasse ihren Platz verdient“. Bild `l-016-131`.
-- **Seite 2, das Jahr in Zahlen:** vier große Kennzahlen (35 %, 55 %, 61 %, 82 %) mit Quellenzeilen; darunter die zehn Entwicklungen als Liste.
+- **Seite 2, das Jahr in Zahlen:** vier große Kennzahlen (35 %, 55 %, 85 %, 82 %) mit Quellenzeilen; darunter die zehn Entwicklungen als Liste.
 - **Marketing-Überarbeitung (19. Nov. 2026):** Jeder Trend beginnt mit dem Abend des Gastes vor seinen Zahlen; die Überblickstabelle ist eine Liste geworden (jede Zahl behält ihren Beleg); zwei Bromic-Sätze stehen als Zitat (Trend 02, Trend 10).
 - **Seiten 3–12, ein Trend je Seite:** Nummer und Überschrift oben links; Kennzahlen mit Quellenzeilen in Kapitälchen; „Was es für Ihren Betrieb bedeutet“ in zwei oder drei Zeilen; Einschätzung von Bromic in einem Kasten mit Flame-Linie; Planungsschritt; Projektzeile mit QR-Code zur Fallstudie.
   - 01 `p-003-006` · 02 `l-013-111` · 03 `p-007-030` · 04 `g-operator` (vom Eigentümer freigegebenes generiertes Bild; Kennzeichnung „generiert“) · 05 `p-002-001` · 06 `p-014-066` · 07 `l-013-107` · 08 `p-010-044` · 09 `t-003-005` · 10 `t-006-016`.

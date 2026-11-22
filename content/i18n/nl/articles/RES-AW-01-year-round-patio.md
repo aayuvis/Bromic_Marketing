@@ -25,7 +25,7 @@ sources:
     title: "Share of new homes with patios dips to a six-year low"
     year: 2026
     url: https://eyeonhousing.org/2026/09/share-of-new-homes-with-patios-dips-to-a-six-year-low/
-    supports: "60.5% of single-family homes started in 2025 came with patios"
+    supports: "60.5% of single-family homes started in 2025 came with patios; 59.6% in 2019"
     verified: true
   - id: s2
     publisher: National Association of Home Builders
@@ -65,7 +65,7 @@ Wil je van je terras genieten als de lucht afkoelt, beschut het dan tegen de win
 
 ## Waarom zoveel terrassen 's avonds stil worden
 
-In de VS krijgen de meeste nieuwe woningen inmiddels een terras, en veel minder krijgen de warmte om ervan te genieten als de zon ondergaat. 60,5% van de Amerikaanse vrijstaande woningen waarvan de bouw in 2025 begon, had een terras, en het gemiddelde terras bij een nieuwe woning in de VS is ongeveer 30 m².[^s1][^s2] Toch zei in het eigen onderzoek van Bromic onder Amerikaanse huiseigenaren 94% dat hun buitenruimte meer gebruikt zou kunnen worden, en nam minder dan een op de vier (23%) verwarming vanaf het begin in het plan op.[^s3] [[VERIFY: aantal respondenten, veldwerkdata en vraagstelling voor de cijfers van 94% en 23% — marketing]]
+In de VS krijgen de meeste nieuwe woningen inmiddels een terras, en veel minder krijgen de warmte om ervan te genieten als de zon ondergaat. 60,5% van de Amerikaanse vrijstaande woningen waarvan de bouw in 2025 begon, had een terras, gestegen van 59,6% in 2019, en het gemiddelde terras bij een nieuwe woning in de VS is ongeveer 30 m².[^s1][^s2] Toch zei in het eigen onderzoek van Bromic onder Amerikaanse huiseigenaren 94% dat hun buitenruimte meer gebruikt zou kunnen worden, en nam minder dan een op de vier (23%) verwarming vanaf het begin in het plan op.[^s3] [[VERIFY: aantal respondenten, veldwerkdata en vraagstelling voor de cijfers van 94% en 23% — marketing]]
 
 Misschien ken je het patroon maar al te goed. Bij zonsondergang verhuist het diner naar binnen, en de loungeset die in juli zo uitnodigend was, staat in oktober onder de hoes. Wat dat verandert, is comfort dat blijft als de temperatuur daalt – veel meer dan nog een meubelstuk.
 

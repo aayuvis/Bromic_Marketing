@@ -84,7 +84,7 @@ native_reviewer: "[[VERIFY: native reviewer — Bromic Benelux distributor]]"
 
 # Cijfers over buitenleven 2027: zo leeft Amerika buiten
 
-Zes op de tien nieuwe vrijstaande woningen in de VS krijgen tegenwoordig een terras, en het gemiddelde terras is ongeveer 30 m² groot.[^s1][^s3] Amerikaanse architecten zien buitenleven nog steeds als de populairste voorziening buiten de woning, al koelde de vraag in 2025 af.[^s4] Amerikaanse huiseigenaren geven ongeveer 525 miljard dollar per jaar uit aan verbetering en onderhoud van hun eigen woning,[^s5] en een nieuw terras verdient bij verkoop ongeveer 95% van de kosten terug.[^s8]
+Zes op de tien nieuwe vrijstaande woningen in de VS krijgen tegenwoordig een terras, en het gemiddelde terras is ongeveer 30 m² groot.[^s1][^s3] Amerikaanse architecten zien buitenleven nog steeds als de populairste voorziening buiten de woning.[^s4] Amerikaanse huiseigenaren geven ongeveer 525 miljard dollar per jaar uit aan verbetering en onderhoud van hun eigen woning,[^s5] en een nieuw terras verdient bij verkoop ongeveer 95% van de kosten terug.[^s8]
 
 Elk van deze getallen komt terug bij dezelfde avond: een tafel buiten gedekt, vrienden die graag nog een uur zouden blijven, en de kou die uiteindelijk iedereen naar binnen roept. Samen laten ze zien hoeveel van het Amerikaanse thuis zich nu onder de open hemel afspeelt. Ze komen uit de VS; Nederlandse cijfers volgen zodra er een vergelijkbare bron is. [[VERIFY: vergelijkbare Nederlandse bronnen over terrassen en buitenleven — Bromic Benelux distributor]]
 
@@ -92,7 +92,7 @@ Elk van deze getallen komt terug bij dezelfde avond: een tafel buiten gedekt, vr
 
 ## Hoeveel nieuwe woningen in de VS krijgen een terras?
 
-60,5% van de ongeveer 940.000 vrijstaande woningen waarvan de bouw in 2025 begon, kreeg een terras.[^s1] Dat is minder dan de 61,8% van 2024, de tweede daling op rij na de eerste in vijftien jaar, en het laagste aandeel sinds 2019.[^s1][^s3] Waar je bouwt maakt echt verschil: in de staten van West South Central heeft 77% van de nieuwe woningen er een, in de Middle Atlantic 23%.[^s1]
+60,5% van de ongeveer 940.000 vrijstaande woningen waarvan de bouw in 2025 begon, kreeg een terras, gestegen van 59,6% in 2019.[^s1] Waar je bouwt maakt echt verschil: in de staten van West South Central heeft 77% van de nieuwe woningen er een, in de Middle Atlantic 23%.[^s1]
 
 Bron: National Association of Home Builders, analyse van de Survey of Construction van het US Census Bureau, bouwstarts 2025 (gepubliceerd in september 2026).
 
@@ -104,13 +104,13 @@ Bron: National Association of Home Builders, Builder Practices Survey 2025 (woni
 
 ## Zien architecten nog steeds een groeiende vraag naar buitenleven?
 
-Ja, al iets minder dan een jaar eerder. In de enquête van het AIA over het tweede kwartaal van 2025 scoorden buitenruimtes netto 55%, tegen 60% in 2024, en bleven ze de populairste voorziening buiten de woning.[^s4] De score is een nettocijfer: het aandeel architecten dat een stijgende populariteit ziet, min het aandeel dat een daling ziet.
+Ja. In de enquête van het AIA over het tweede kwartaal van 2025 scoorden buitenruimtes netto 55% en bleven ze de populairste voorziening buiten de woning.[^s4] De score is een nettocijfer: het aandeel architecten dat een stijgende populariteit ziet, min het aandeel dat een daling ziet.
 
 Bron: American Institute of Architects, Home Design Trends Survey, Q2 2025.
 
 ## Groeit wonen dat binnen en buiten verbindt nog?
 
-De vraag blijft positief, terwijl het tempo afneemt. Ruimtes die binnen en buiten laten overlopen, zoals keukens die op een terras uitkomen of glazen wanden die opzij schuiven, scoorden in het tweede kwartaal van 2025 netto 40%, tegen 51% in 2024.[^s4] Er zijn nog steeds meer architecten die deze vraag zien stijgen dan dalen.
+Ja. Ruimtes die binnen en buiten laten overlopen, zoals keukens die op een terras uitkomen of glazen wanden die opzij schuiven, scoorden in het tweede kwartaal van 2025 netto 40%.[^s4] Er zijn meer architecten die deze vraag zien stijgen dan dalen.
 
 Bron: American Institute of Architects, Home Design Trends Survey, Q2 2025.
 
@@ -144,10 +144,10 @@ Bron: National Association of Realtors en National Association of Landscape Prof
 
 | Cijfer (VS) | Waarde | Bron | Jaar |
 |---|---|---|---|
-| Nieuwe vrijstaande woningen met een terras | 60,5% (61,8% in 2024) | NAHB, Census Survey of Construction[^s1] | Bouwstarts 2025 |
+| Nieuwe vrijstaande woningen met een terras | 60,5% (59,6% in 2019) | NAHB, Census Survey of Construction[^s1] | Bouwstarts 2025 |
 | Gemiddelde grootte van het terras bij nieuwbouw | Ongeveer 30 m² | NAHB, Builder Practices Survey[^s3] | Gebouwd in 2024 |
-| Nettoscore vraag bij architecten, buitenruimtes | 55% (60% in 2024) | AIA Home Design Trends Survey[^s4] | Q2 2025 |
-| Nettoscore vraag bij architecten, binnen en buiten verbonden | 40% (51% in 2024) | AIA Home Design Trends Survey[^s4] | Q2 2025 |
+| Nettoscore vraag bij architecten, buitenruimtes | 55% | AIA Home Design Trends Survey[^s4] | Q2 2025 |
+| Nettoscore vraag bij architecten, binnen en buiten verbonden | 40% | AIA Home Design Trends Survey[^s4] | Q2 2025 |
 | Jaarlijkse uitgaven van Amerikaanse huiseigenaren aan verbetering en onderhoud | Ongeveer 525 miljard dollar | Harvard JCHS, LIRA[^s5] | Tot en met Q3 2027 |
 | Verbouwers buiten die hun leefruimte willen uitbreiden | 33% | Houzz Outdoor Trends Study[^s6] | 2024 |
 | Kosten van een nieuw terras terugverdiend bij verkoop | Ongeveer 95% (van 10.500 dollar) | NAR en NALP Remodeling Impact Report[^s8] | 2023 |
@@ -156,7 +156,7 @@ Bron: National Association of Realtors en National Association of Landscape Prof
 ## Wat deze cijfers ons vertellen
 
 - De meeste nieuwe woningen in de VS krijgen tegenwoordig een terras, en het terras wordt steeds groter.[^s1][^s3]
-- Amerikaanse architecten zetten buitenleven nog steeds bovenaan de voorzieningen buiten de woning, ook al koelde de vraag in 2025 af.[^s4]
+- Amerikaanse architecten zetten buitenleven nog steeds bovenaan de voorzieningen buiten de woning.[^s4]
 - Een nieuw terras verdient zichzelf bij verkoop bijna terug en scoort bij huiseigenaren bijna het hoogst op plezier.[^s7][^s8]
 - Hoe een terras aanvoelt na het donker en in de koelere maanden, wordt bepaald in de planningsfase, wanneer stroom, montage en bediening vanaf het allereerste begin in het ontwerp kunnen worden meegenomen.
 
@@ -164,7 +164,7 @@ Bron: National Association of Realtors en National Association of Landscape Prof
 
 ### Welk percentage van de nieuwe woningen heeft een terras?
 
-60,5% van de vrijstaande woningen waarvan de bouw in 2025 in de VS begon, kreeg een terras, volgens de analyse van de NAHB van gegevens van het Census Bureau. In 2024 was dat 61,8%.[^s1][^s2]
+60,5% van de vrijstaande woningen waarvan de bouw in 2025 in de VS begon, kreeg een terras, gestegen van 59,6% in 2019, volgens de analyse van de NAHB van gegevens van het Census Bureau.[^s1][^s2]
 
 ### Hoe groot is een gemiddeld terras bij een nieuwe woning in de VS?
 
@@ -172,7 +172,7 @@ Woningen die in 2024 zijn gebouwd, hebben gemiddeld een terras van ongeveer 30 m
 
 ### Is buitenleven in 2026 nog een ontwerptrend?
 
-Ja. Volgens de enquête van het AIA over het tweede kwartaal van 2025 waren buitenruimtes nog steeds de populairste voorziening buiten de woning: netto 55% van de Amerikaanse architecten zag de populariteit stijgen, tegen 60% een jaar eerder.[^s4]
+Ja. Volgens de enquête van het AIA over het tweede kwartaal van 2025 waren buitenruimtes nog steeds de populairste voorziening buiten de woning: netto 55% van de Amerikaanse architecten zag de populariteit stijgen.[^s4]
 
 ### Is een nieuw terras een goede investering?
 

@@ -32,7 +32,7 @@ sources:
     title: "Share of new homes with patios dips to a six-year low"
     year: 2026
     url: https://eyeonhousing.org/2026/09/share-of-new-homes-with-patios-dips-to-a-six-year-low/
-    supports: "60.5% of single-family homes started in 2025 had patios, down from 61.8% in 2024 (Census Survey of Construction); average new-home patio about 320 ft² (Builder Practices Survey)"
+    supports: "60.5% of single-family homes started in 2025 had patios, down from 61.8% in 2024; 59.6% in 2019 (Census Survey of Construction); average new-home patio about 320 ft² (Builder Practices Survey)"
     verified: true
   - id: s2
     publisher: American Institute of Architects
@@ -99,7 +99,7 @@ Hausbesitzer schaffen draußen die Räume nach, die sie drinnen lieben. In der U
 | Essbereich | 55 %[^s4] | Wärme über dem Tisch, dimmbar |
 | Außenküche | 48 %[^s4] | Wärme an der Vorbereitungs- und Servierzone; Stromversorgung mit der Küche planen |
 | Kamin oder Feuerstelle | 48 % der Lounges[^s4] | Atmosphäre; mit Strahlungswärme für die ganze Runde kombinieren |
-| Terrasse beim Neubau | 60,5 % der Baubeginne 2025, im Schnitt rund 30 m²[^s1] | Eine Fläche in Zimmergröße, die die Haustechnik eines Zimmers braucht |
+| Terrasse beim Neubau | 60,5 % der Baubeginne 2025 (59,6 % im Jahr 2019), im Schnitt rund 30 m²[^s1] | Eine Fläche in Zimmergröße, die die Haustechnik eines Zimmers braucht |
 
 ## Die Außenküche, der ideale Moment für die Wärme
 
@@ -136,7 +136,7 @@ Entdecken Sie das gesamte Sortiment an Heizstrahlern und unseren kostenlosen Pla
 Eine Lounge oder ein Sitzbereich, den Houzz in 83 % der renovierten Außenbereiche in den USA fand[^s3].
 
 ### Wie viele neue Häuser haben eine Terrasse?
-In den USA etwa sechs von zehn, also 60,5 % der 2025 begonnenen Einfamilienhäuser, nach der Auswertung von Zensusdaten durch die NAHB[^s1].
+In den USA etwa sechs von zehn, also 60,5 % der 2025 begonnenen Einfamilienhäuser, gegenüber 59,6 % im Jahr 2019, nach der Auswertung von Zensusdaten durch die NAHB[^s1].
 
 ### Wann sollte die Beheizung im Freien geplant werden?
 Planen Sie sie zusammen mit Terrasse, Küche und Überdachung, damit Stromkreis, Montage und Steuerung in einem Zug eingebaut werden. Nur 23 % der Hausbesitzer geben der Beheizung in der Planungsphase Vorrang[^s5].

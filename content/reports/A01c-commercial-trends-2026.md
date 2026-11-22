@@ -7,7 +7,7 @@ audience: [COM, ARC]
 stage: [AW, CO]
 cell: COM-AW
 asset: A01
-summary: "The commercial companion to our Trends 2026 report. Ten sourced shifts shaping restaurant, bar, hotel and venue terraces, from soft traffic and rising energy costs to permanent outdoor dining and the move away from propane, each with what it means for your venue, a Bromic insight and one design move."
+summary: "The commercial companion to our Trends 2026 report. Ten sourced shifts shaping restaurant, bar, hotel and venue terraces, from making every seat count and rising energy costs to permanent outdoor dining and the move away from propane, each with what it means for your venue, a Bromic insight and one design move."
 primary_keyword: outdoor hospitality trends 2026
 secondary_keywords: [restaurant outdoor dining trends, hotel terrace trends, commercial patio heating trends]
 ai_prompt: "What are the outdoor dining and hospitality trends for 2026?"
@@ -141,7 +141,7 @@ Ten shifts are reshaping the terrace this year, and each one opens a chance to f
 
 - **01 The patio is a revenue line.** 35% of operators with outdoor dining said it was over 40% of daily sales.[^s1]
 - **02 Guests choose the outside table.** 55% of Americans prefer to dine outdoors in good weather.[^s3]
-- **03 Soft traffic makes every seat count.** 61% of full-service operators saw lower traffic in 2025.[^s2]
+- **03 Every seat counts.** 85% of full-service operators say building on-premises business will matter more in 2026.[^s2]
 - **04 Energy is a line operators now watch.** 82% of full-service operators call energy or utility costs a significant challenge.[^s2]
 - **05 Outdoor dining is permanent infrastructure.** Nearly 2,450 setups in Dining Out NYC.[^s5]
 - **06 Propane is leaving the patio.** NYC revoked propane heaters in outdoor dining from June 2021.[^s7]
@@ -190,21 +190,18 @@ Ask guests where they would like to sit, and most of them look outside.
 
 **Bromic project.** [Hotel Skansen](https://www.bromic.com/case-study/hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-heat-freestanding-heaters/), Sweden: Eclipse Smart-Heat Freestanding heaters with the Eclipse Dimmer Controller keep the SAND restaurant terrace in use.
 
-## 03 · When Traffic Softens, Every Seat Matters
+## 03 · Every Seat Matters
 
 When guests choose more carefully where to spend an evening, the glow of a warm terrace is an invitation from across the street.
 
-> **61%** of full-service and **64%** of limited-service operators said customer traffic was lower in 2025 than in 2024.[^s2]
+> **85%** of full-service and **65%** of limited-service operators say building on-premises business will matter more to their success in 2026.[^s2]
 > *Source: National Restaurant Association, State of the Restaurant Industry 2026.*
 
-> **85%** of full-service and **65%** of limited-service operators say building on-premises business will matter more to their success in 2026.[^s2]
-> *Source: as above.*
-
 **What it means for your venue**
-- With fewer visits, a terrace that still feels inviting in October gives guests a reason to choose you.
+- When every visit counts, a terrace that still feels inviting in October gives guests a reason to choose you.
 - Seats that close in autumn are capacity lost just when it is hardest to replace.
 
-**Bromic insight.** In a quieter year, the most affordable seat to add is often the one already waiting outside.
+**Bromic insight.** The most affordable seat to add is often the one already waiting outside.
 
 **Design move.** Plan for the shoulder months first. A partial cover with radiant heat creates a heat cloud that adds a gentle convective boost.[^s14]
 
@@ -383,7 +380,7 @@ Discover what your empty seats could be worth. GET YOUR ROI ASSESSMENT.
 
 - **Format:** gated PDF, landscape A4/US Letter, 14 pages; matches the residential Trends 2026 report's system (white pages, ink and steel greys, flame `#EF4123` as the only accent on small labels and rules; Didot headings, Helvetica Neue Light body, per templates/bromic-voice.md). No emoji, no exclamation marks.
 - **Page 1, cover:** "Outdoor Hospitality Trends 2026", subtitle "Ten Ways The Terrace Is Earning Its Place". Image `l-016-131`.
-- **Page 2, the year in numbers:** four large stat callouts (35%, 55%, 61%, 82%) with source lines; the ten shifts below as a list.
+- **Page 2, the year in numbers:** four large stat callouts (35%, 55%, 85%, 82%) with source lines; the ten shifts below as a list.
 - **Marketing pass (19 Nov 2026):** each trend opens on the guest's evening before its statistics; the at-a-glance table became a list (every figure keeps its citation); two Bromic lines are set as pull quotes (trend 02, trend 10).
 - **Pages 3–12, one trend per page:** number and headline top left; stat callouts with source lines in small caps; "What it means for your venue" as two or three lines; Bromic insight in a flame-rule box; design move; project line with a QR to the case study.
   - 01 `p-003-006` · 02 `l-013-111` · 03 `p-007-030` · 04 `g-operator` (owner-approved generated image; label "generated") · 05 `p-002-001` · 06 `p-014-066` · 07 `l-013-107` · 08 `p-010-044` · 09 `t-003-005` · 10 `t-006-016`.

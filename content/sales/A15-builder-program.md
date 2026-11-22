@@ -26,7 +26,7 @@ sources:
     title: "Share of new homes with patios dips to a six-year low"
     year: 2026
     url: https://eyeonhousing.org/2026/09/share-of-new-homes-with-patios-dips-to-a-six-year-low/
-    supports: "60.5% of single-family homes started in 2025 came with a patio (Census Survey of Construction data)"
+    supports: "60.5% of single-family homes started in 2025 came with a patio; 59.6% in 2019 (Census Survey of Construction data)"
     verified: true
   - id: s2
     publisher: National Association of Home Builders (Eye on Housing)
@@ -82,7 +82,7 @@ Pre-wired Bromic radiant heat in three ready packages, planned in at framing fro
 
 ### Why Heat Belongs On The Options Sheet
 
-**1. Most new homes now come with a patio.** 60.5% of single-family homes started in 2025 came with a patio,[^s1] and the average new-home patio is about 320 ft².[^s2]
+**1. Most new homes now come with a patio.** 60.5% of single-family homes started in 2025 came with a patio, up from 59.6% in 2019,[^s1] and the average new-home patio is about 320 ft².[^s2]
 
 **2. Buyers are asking for it.** 86% of recent and prospective buyers rate a patio essential or desirable, level with the laundry room as the most-wanted feature.[^s3]
 

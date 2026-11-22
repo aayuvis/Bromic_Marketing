@@ -28,7 +28,7 @@ sources:
     title: "Share of new homes with patios dips to a six-year low"
     year: 2026
     url: https://eyeonhousing.org/2026/09/share-of-new-homes-with-patios-dips-to-a-six-year-low/
-    supports: "60.5% of single-family homes started in 2025 came with a patio (Census Survey of Construction data)"
+    supports: "60.5% of single-family homes started in 2025 came with a patio; 59.6% in 2019 (Census Survey of Construction data)"
     verified: true
   - id: s2
     publisher: National Association of Home Builders (Eye on Housing)
@@ -110,7 +110,7 @@ Outdoor rooms have become part of the home, and the people who live in them want
 
 ## The Work Is Already On The Plan
 
-60.5% of single-family homes started in 2025 came with a patio,[^s1] and 86% of buyers rate a patio essential or desirable.[^s2] Far fewer homes come with the warmth to enjoy it once the sun goes down, because only 23% of homeowners prioritise outdoor heating when they plan the space.[^s3] Raise heat at the first site walk and price the pre-wire with the patio, and the job is yours before anyone else is asked.
+60.5% of single-family homes started in 2025 came with a patio, up from 59.6% in 2019,[^s1] and 86% of buyers rate a patio essential or desirable.[^s2] Far fewer homes come with the warmth to enjoy it once the sun goes down, because only 23% of homeowners prioritise outdoor heating when they plan the space.[^s3] Raise heat at the first site walk and price the pre-wire with the patio, and the job is yours before anyone else is asked.
 
 You design the electrical system that powers the space, install it safely and keep it running efficiently for years. We make that easier, with the right heater for the space, the controls to run it and people who answer the phone when you have a question on site.
 

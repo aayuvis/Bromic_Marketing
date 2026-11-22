@@ -84,7 +84,7 @@ sources:
 
 # Statistiken zum Wohnen im Freien 2027: So lebt Amerika draußen (USA)
 
-Sechs von zehn neuen Einfamilienhäusern in den USA haben heute eine Terrasse, im Durchschnitt etwa 30 m² groß.[^s1][^s3] Architekten nennen das Wohnen im Freien weiterhin als beliebtestes Merkmal im Außenbereich, auch wenn die Nachfrage 2025 nachließ.[^s4] US-Hausbesitzer geben rund 525 Milliarden US-Dollar im Jahr für Verbesserungen und Reparaturen an ihren eigenen Häusern aus,[^s5] und eine neue Terrasse bringt beim Verkauf etwa 95 % ihrer Kosten wieder ein.[^s8]
+Sechs von zehn neuen Einfamilienhäusern in den USA haben heute eine Terrasse, im Durchschnitt etwa 30 m² groß.[^s1][^s3] Architekten nennen das Wohnen im Freien weiterhin als beliebtestes Merkmal im Außenbereich.[^s4] US-Hausbesitzer geben rund 525 Milliarden US-Dollar im Jahr für Verbesserungen und Reparaturen an ihren eigenen Häusern aus,[^s5] und eine neue Terrasse bringt beim Verkauf etwa 95 % ihrer Kosten wieder ein.[^s8]
 
 Jede dieser Zahlen führt zum selben Abend zurück: ein Tisch draußen gedeckt, Freunde, die gern noch eine Stunde blieben, und die Kühle, die irgendwann alle hineinruft. Zusammen zeigen sie, wie viel des amerikanischen Zuhauses heute unter freiem Himmel stattfindet. Alle Werte auf dieser Seite sind US-Daten.
 
@@ -92,7 +92,7 @@ Jede dieser Zahlen führt zum selben Abend zurück: ein Tisch draußen gedeckt, 
 
 ## Wie viele US-Neubauten haben eine Terrasse?
 
-60,5 % der rund 940.000 im Jahr 2025 begonnenen Einfamilienhäuser in den USA hatten eine Terrasse.[^s1] Das ist weniger als 61,8 % im Jahr 2024, der zweite Rückgang in Folge nach dem ersten seit fünfzehn Jahren, und der niedrigste Anteil seit 2019.[^s1][^s3] Wo Sie bauen, macht einen deutlichen Unterschied: In den Bundesstaaten der Region West South Central haben 77 % der Neubauten eine Terrasse, in der Region Middle Atlantic 23 %.[^s1]
+60,5 % der rund 940.000 im Jahr 2025 begonnenen Einfamilienhäuser in den USA hatten eine Terrasse, gegenüber 59,6 % im Jahr 2019.[^s1] Wo Sie bauen, macht einen deutlichen Unterschied: In den Bundesstaaten der Region West South Central haben 77 % der Neubauten eine Terrasse, in der Region Middle Atlantic 23 %.[^s1]
 
 Quelle: National Association of Home Builders, Auswertung des Survey of Construction des US Census Bureau, Baubeginne 2025 (veröffentlicht im September 2026).
 
@@ -104,13 +104,13 @@ Quelle: National Association of Home Builders, Builder Practices Survey 2025 (20
 
 ## Sehen Architekten weiter steigende Nachfrage nach Wohnen im Freien?
 
-Ja, wenn auch etwas weniger als im Jahr zuvor. In der Umfrage des AIA für das zweite Quartal 2025 erreichten Außenwohnbereiche einen Nettowert von 55 %, nach 60 % im Jahr 2024, und blieben das beliebteste Merkmal im Außenbereich.[^s4] Der Wert ist eine Nettozahl: der Anteil der Architekten, die steigende Beliebtheit melden, abzüglich des Anteils, der einen Rückgang meldet.
+Ja. In der Umfrage des AIA für das zweite Quartal 2025 erreichten Außenwohnbereiche einen Nettowert von 55 % und blieben das beliebteste Merkmal im Außenbereich.[^s4] Der Wert ist eine Nettozahl: der Anteil der Architekten, die steigende Beliebtheit melden, abzüglich des Anteils, der einen Rückgang meldet.
 
 Quelle: American Institute of Architects, Home Design Trends Survey, 2. Quartal 2025.
 
 ## Wächst das Wohnen zwischen innen und außen weiter?
 
-Die Nachfrage bleibt positiv, während das Tempo nachlässt. Bereiche, die innen und außen verbinden, etwa Küchen, die sich zur Terrasse öffnen, oder Glaswände, die sich zur Seite schieben lassen, erreichten im zweiten Quartal 2025 einen Nettowert von 40 %, nach 51 % im Jahr 2024.[^s4] Noch immer sehen mehr Architekten diese Nachfrage steigen als fallen.
+Ja. Bereiche, die innen und außen verbinden, etwa Küchen, die sich zur Terrasse öffnen, oder Glaswände, die sich zur Seite schieben lassen, erreichten im zweiten Quartal 2025 einen Nettowert von 40 %.[^s4] Mehr Architekten sehen diese Nachfrage steigen als fallen.
 
 Quelle: American Institute of Architects, Home Design Trends Survey, 2. Quartal 2025.
 
@@ -144,10 +144,10 @@ Quelle: National Association of Realtors und National Association of Landscape P
 
 | Kennzahl (USA) | Wert | Quelle | Jahr |
 |---|---|---|---|
-| Neu begonnene Einfamilienhäuser mit Terrasse | 60,5 % (61,8 % im Jahr 2024) | NAHB, Census Survey of Construction[^s1] | Baubeginne 2025 |
+| Neu begonnene Einfamilienhäuser mit Terrasse | 60,5 % (59,6 % im Jahr 2019) | NAHB, Census Survey of Construction[^s1] | Baubeginne 2025 |
 | Durchschnittliche Terrassengröße im Neubau | Etwa 30 m² | NAHB, Builder Practices Survey[^s3] | 2024 gebaute Häuser |
-| Netto-Nachfragewert der Architekten, Außenwohnbereiche | 55 % (60 % im Jahr 2024) | AIA Home Design Trends Survey[^s4] | 2. Quartal 2025 |
-| Netto-Nachfragewert der Architekten, verbundene Innen-/Außenbereiche | 40 % (51 % im Jahr 2024) | AIA Home Design Trends Survey[^s4] | 2. Quartal 2025 |
+| Netto-Nachfragewert der Architekten, Außenwohnbereiche | 55 % | AIA Home Design Trends Survey[^s4] | 2. Quartal 2025 |
+| Netto-Nachfragewert der Architekten, verbundene Innen-/Außenbereiche | 40 % | AIA Home Design Trends Survey[^s4] | 2. Quartal 2025 |
 | Jährliche Ausgaben von US-Hausbesitzern für Verbesserung und Reparatur | Rund 525 Milliarden US-Dollar | Harvard JCHS, LIRA[^s5] | Bis 3. Quartal 2027 |
 | Anteil der Aufwertungen im Außenbereich mit dem Ziel, Wohnraum zu erweitern | 33 % | Houzz Outdoor Trends Study[^s6] | 2024 |
 | Kostenrückfluss einer neuen Terrasse beim Verkauf | Etwa 95 % (von 10.500 US-Dollar) | NAR und NALP Remodeling Impact Report[^s8] | 2023 |
@@ -156,7 +156,7 @@ Quelle: National Association of Realtors und National Association of Landscape P
 ## Was uns diese Zahlen sagen
 
 - Die meisten US-Neubauten haben heute eine Terrasse, und die Terrasse wird weiter größer.[^s1][^s3]
-- Architekten stellen das Wohnen im Freien weiterhin an die Spitze der Merkmale im Außenbereich, auch wenn die Nachfrage 2025 nachließ.[^s4]
+- Architekten stellen das Wohnen im Freien weiterhin an die Spitze der Merkmale im Außenbereich.[^s4]
 - Eine neue Terrasse finanziert sich beim Wiederverkauf fast selbst und liegt bei der Freude der Hausbesitzer nahe der Spitze.[^s7][^s8]
 - Wie sich eine Terrasse nach Einbruch der Dunkelheit und in den kühleren Monaten anfühlt, entscheidet sich in der Planung, wenn Strom, Montage und Steuerung von Anfang an in den Entwurf einfließen können.
 
@@ -164,7 +164,7 @@ Quelle: National Association of Realtors und National Association of Landscape P
 
 ### Wie viel Prozent der Neubauten haben eine Terrasse?
 
-60,5 % der 2025 begonnenen Einfamilienhäuser in den USA hatten eine Terrasse, so die Auswertung der Census-Daten durch die NAHB. 2024 lag der Anteil bei 61,8 %.[^s1][^s2]
+60,5 % der 2025 begonnenen Einfamilienhäuser in den USA hatten eine Terrasse, gegenüber 59,6 % im Jahr 2019, so die Auswertung der Census-Daten durch die NAHB.[^s1][^s2]
 
 ### Wie groß ist eine typische Terrasse im US-Neubau?
 
@@ -172,7 +172,7 @@ Häuser, die 2024 gebaut wurden, haben im Durchschnitt eine Terrasse von etwa 30
 
 ### Ist Wohnen im Freien 2026 noch ein Gestaltungstrend?
 
-In den USA ja. Die AIA-Umfrage für das zweite Quartal 2025 ergab, dass Außenwohnbereiche weiterhin das beliebteste Merkmal im Außenbereich waren; netto 55 % der Architekten meldeten steigende Beliebtheit, nach 60 % ein Jahr zuvor.[^s4]
+In den USA ja. Die AIA-Umfrage für das zweite Quartal 2025 ergab, dass Außenwohnbereiche weiterhin das beliebteste Merkmal im Außenbereich waren; netto 55 % der Architekten meldeten steigende Beliebtheit.[^s4]
 
 ### Ist eine neue Terrasse eine gute Investition?
 

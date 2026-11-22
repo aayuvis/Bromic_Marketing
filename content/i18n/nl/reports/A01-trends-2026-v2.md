@@ -50,7 +50,7 @@ sources:
     title: "Share of new homes with patios dips to a six-year low (NAHB tabulation of the Census Survey of Construction)"
     year: 2026
     url: https://eyeonhousing.org/2026/09/share-of-new-homes-with-patios-dips-to-a-six-year-low/
-    supports: "60.5% of about 940,000 single-family homes started in 2025 came with a patio, down from 61.8% in 2024"
+    supports: "60.5% of about 940,000 single-family homes started in 2025 came with a patio, down from 61.8% in 2024; 59.6% in 2019"
     verified: true
   - id: s5
     publisher: Harvard Joint Center for Housing Studies
@@ -125,7 +125,7 @@ Sommige van de mooiste momenten van de dag liggen aan de randen ervan: de eerste
 
 Een terras dat vanaf het begin in het plan zit, wordt een kamer die het gezin elke dag gebruikt.
 
-**60,5%** van de nieuwe vrijstaande woningen die in 2025 in de VS werden gestart, kreeg een terras.[^s4]\
+**60,5%** van de nieuwe vrijstaande woningen die in 2025 in de VS werden gestart, kreeg een terras, gestegen van 59,6% in 2019.[^s4]\
 *NAHB, op basis van de Census Survey of Construction, 2025*
 
 - Terrassen worden vanaf het begin ingebouwd, met de installaties er meteen bij gepland.
@@ -254,7 +254,7 @@ Alle marktcijfers gaan over de Verenigde Staten. De AIA-cijfers zijn netto (stij
 
 - **Lengte.** Oorspronkelijke rapporttekst: 1.631 woorden (`sources/Bromic_Outdoor_Living_Trends_2026.txt`). Deze versie, van omslag tot bronnenpagina: 978 woorden, 40% korter. Alleen de rapporttekst, van omslag tot "Plan vanaf het begin": 909 woorden, 44% korter (opnieuw geteld na de herschrijving in de Bromic-stem van 16 nov. 2026). Beide op dezelfde manier geteld: streepjes splitsen woorden; deze noot, de opmaaknotities, `[[VERIFY]]`-plaatshouders, voetnootmarkeringen en Markdown-syntaxis zijn niet meegeteld.
 - **Geschrapte cijfers.** 94% "zou meer gebruikt kunnen worden" (Bromics eigen persberichten noemen 94% en 92%; aangehouden tot marketing er een kiest). 39% infraroodverwarmers (in geen enkel AIA-persbericht gevonden). $522 mld. (in geen enkel Harvard-persbericht; vervangen door $525 mld.). De jaartallen uit de jaren zeventig/2000/2010 voor apparaten (zonder bron). De terrasgrootte van ca. 30 m² en de 95% kostenterugwinning (gecontroleerd, maar één cijfer per trend). 43% "denkt niet na over verwarming" (niet gecontroleerd, niet nodig).
-- **Gewijzigde cijfers.** 61,8% (2024) bijgewerkt naar 60,5% (starts in 2025), volgens de aanbeveling in het correctiebestand; terugzetten als marketing anders beslist. Bij 55% en 40% staat nu "netto aandeel" en het jaar. Bij 33% staan nu het juiste onderzoek, de juiste basis en het juiste jaar. "Tevredenheidsscore" is nu de Joy Score van NAR.
+- **Gewijzigde cijfers.** Het aandeel met een terras is nu 60,5% (starts in 2025), gestegen van 59,6% in 2019, volgens de aanbeveling in het correctiebestand en de aanwijzing van de eigenaar (22 nov. 2026). Bij 55% en 40% staat nu "netto aandeel" en het jaar. Bij 33% staan nu het juiste onderzoek, de juiste basis en het juiste jaar. "Tevredenheidsscore" is nu de Joy Score van NAR.
 - **Cijfers verplaatst zodat elke trend er één heeft.** 67% van trend 01 naar 02, 23% van 02 naar 10, 9,9 van 03 naar 08. Trends 07 en 09 hadden er in het origineel geen; elk heeft nu een productgegeven van Bromic uit het Lookbook in plaats van een marktcijfer.
 - **Doorgevoerde correcties.** Alle 38 punten in [het correctiebestand](item:A01-corrections): "Studies", "radiant", "integration", "Multi-Use", "beginning"; de kapotte zin in trend 04 herschreven; het inzicht over slimme bediening van p.10 naar trend 07 verplaatst en trend 08 een inzicht over ontwerp gegeven; de 23% herschreven tot "noemt … een topprioriteit bij het plannen"; de kop met "="; losse spaties; één opmaak van een bronregel; een bronnenpagina toegevoegd.
 - **Marketingronde (19 nov. 2026).** Elke trend opent nu met het moment vóór het cijfer; de bronnentabel is één alinea geworden (elk cijfer houdt zijn bron); "Verleng het moment" is het citaat.

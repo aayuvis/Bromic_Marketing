@@ -46,7 +46,7 @@ sources:
     title: "Share of new homes with patios dips to a six-year low"
     year: 2026
     url: https://eyeonhousing.org/2026/09/share-of-new-homes-with-patios-dips-to-a-six-year-low/
-    supports: "60.5% of single-family homes started in 2025 had patios, down from 61.8% in 2024; lowest since 2019 (Census Survey of Construction)"
+    supports: "60.5% of single-family homes started in 2025 had patios, down from 61.8% in 2024; lowest since 2019 (59.6%) (Census Survey of Construction)"
     verified: true
   - id: s5
     publisher: National Association of Home Builders / Home Innovation Research Labs
@@ -93,14 +93,14 @@ Zusammen gelesen beschreiben die (US-)Umfragen eine stabile Nachfrage auf hohem 
 |---|---|---|
 | Rang des Außenwohnbereichs unter den Räumen mit besonderer Funktion (AIA, USA, 2026) | Platz 1, 20 % netto | AIA[^s2] |
 | Veränderung der Nachfrage nach Außenwohnbereichen, 2026 gegenüber 2025 (AIA, USA) | +10 % | AIA[^s1] |
-| Architekten, die steigende Beliebtheit von Außenwohnbereichen melden (AIA, USA, 2025, netto) | 55 % (60 % im Jahr 2024) | AIA über Qualified Remodeler[^s3] |
-| Architekten, die steigende Beliebtheit fließender Übergänge zwischen innen und außen melden (AIA, USA, 2025, netto) | 40 % (51 % im Jahr 2024) | AIA über Qualified Remodeler[^s3] |
-| Neue Einfamilienhäuser in den USA, die mit Terrasse begonnen wurden (2025) | 60,5 % (61,8 % im Jahr 2024) | NAHB[^s4] |
+| Architekten, die steigende Beliebtheit von Außenwohnbereichen melden (AIA, USA, 2025, netto) | 55 % | AIA über Qualified Remodeler[^s3] |
+| Architekten, die steigende Beliebtheit fließender Übergänge zwischen innen und außen melden (AIA, USA, 2025, netto) | 40 % | AIA über Qualified Remodeler[^s3] |
+| Neue Einfamilienhäuser in den USA, die mit Terrasse begonnen wurden (2025) | 60,5 % (59,6 % im Jahr 2019) | NAHB[^s4] |
 | Durchschnittliche Terrasse eines US-Neubaus | ca. 30 m² | NAHB / Home Innovation[^s5] |
 
 [[VERIFY: Die AIA meldet Nettoanteile („steigend minus fallend“); anhand der AIA-PDFs bestätigen, ob die 10 % Prozentpunkte oder relativ sind und aus welcher Quartalsfrage die 55 %/40 % stammen — Marketing]]
 
-Zwei Hinweise sollten Sie im Blick behalten, bevor Sie diese Zahlen zitieren. Die AIA-Werte sind Nettoanteile von Architekten; sie beschreiben also, was Büros beobachten, und nicht den Anteil gebauter Häuser. Und der Anteil der US-Neubauten mit Terrasse laut NAHB ist inzwischen zwei Jahre in Folge gesunken[^s4], die Aussage, jeder Neubau habe eine Terrasse, wäre daher übertrieben. Ein faireres Bild: Die meisten US-Neubauten bekommen eine, sie ist im Schnitt großzügige ca. 30 m² groß – so groß wie ein Zimmer –, und Architekten nennen sie weiterhin als den Raum, den sich ihre Bauherren am meisten wünschen.
+Zwei Hinweise sollten Sie im Blick behalten, bevor Sie diese Zahlen zitieren. Die AIA-Werte sind Nettoanteile von Architekten; sie beschreiben also, was Büros beobachten, und nicht den Anteil gebauter Häuser. Und die NAHB beziffert den Anteil der US-Neubauten mit Terrasse auf 60,5 %, gegenüber 59,6 % im Jahr 2019[^s4]; die Aussage, jeder Neubau habe eine Terrasse, wäre daher übertrieben. Ein faireres Bild: Die meisten US-Neubauten bekommen eine, sie ist im Schnitt großzügige ca. 30 m² groß – so groß wie ein Zimmer –, und Architekten nennen sie weiterhin als den Raum, den sich ihre Bauherren am meisten wünschen.
 
 ## Die Außenräume, die sich Bauherren wünschen
 
@@ -147,7 +147,7 @@ Jeder Heizstrahler, den Sie spezifizieren, kommt mit seiner Steuerung: einem Aff
 Bauherren wünschen sich eher Außenräume als Terrassen: überdachte Terrassen, Außenküchen, Pergolen mit integriertem Licht, Ton und Wärme sowie Verglasungen, die das Haus zur Terrasse hin öffnen. Die AIA-Umfrage 2026 unter US-Architekten setzt den Außenwohnbereich unter den Räumen mit besonderer Funktion auf Platz eins[^s2].
 
 ### Wächst die Nachfrage nach Außenwohnbereichen noch?
-Die AIA meldet für die USA eine um 10 % höhere Nachfrage nach Außenwohnbereichen als 2025[^s1], während die NAHB einen leichten Rückgang des Anteils der US-Neubauten mit Terrasse zeigt, auf 60,5 % im Jahr 2025[^s4]. Die Nachfrage ist hoch und stabil, beschleunigt sich aber nicht überall.
+Die AIA meldet für die USA eine um 10 % höhere Nachfrage nach Außenwohnbereichen als 2025[^s1], und laut NAHB hatten 60,5 % der 2025 begonnenen US-Einfamilienhäuser eine Terrasse, gegenüber 59,6 % im Jahr 2019[^s4]. Die Nachfrage ist hoch und stabil.
 
 ### Wann sollte die Heizung in die Planung einfließen?
 Im Vorentwurf, zusammen mit Licht und Konstruktion. Dann lassen sich Einbauöffnung, Stromkreis und Ort der Steuerung am einfachsten und günstigsten berücksichtigen.

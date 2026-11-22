@@ -32,7 +32,7 @@ sources:
     title: "Share of new homes with patios dips to a six-year low"
     year: 2026
     url: https://eyeonhousing.org/2026/09/share-of-new-homes-with-patios-dips-to-a-six-year-low/
-    supports: "60.5% of single-family homes started in 2025 had patios, down from 61.8% in 2024 (Census Survey of Construction); average new-home patio about 320 ft² (Builder Practices Survey)"
+    supports: "60.5% of single-family homes started in 2025 had patios, down from 61.8% in 2024; 59.6% in 2019 (Census Survey of Construction); average new-home patio about 320 ft² (Builder Practices Survey)"
     verified: true
   - id: s2
     publisher: American Institute of Architects
@@ -99,7 +99,7 @@ Huiseigenaren creëren buiten de kamers waar ze binnen van houden. In de Amerika
 | Eetplek | 55%[^s4] | Warmte boven de tafel, op een dimmer |
 | Buitenkookplek | 48%[^s4] | Warmte bij de bereidings- en uitgiftezone; plan de voeding samen met de keuken |
 | Haard of vuurschaal | 48% van de loungeplekken[^s4] | Sfeer; combineer met stralingswarmte voor de hele groep |
-| Terras bij nieuwbouw | 60,5% van de gestarte woningen in 2025, gemiddeld ca. 30 m²[^s1] | Een ruimte zo groot als een kamer, die voorzieningen als een kamer nodig heeft |
+| Terras bij nieuwbouw | 60,5% van de gestarte woningen in 2025 (59,6% in 2019), gemiddeld ca. 30 m²[^s1] | Een ruimte zo groot als een kamer, die voorzieningen als een kamer nodig heeft |
 
 ## De buitenkeuken, het ideale moment om warmte te plannen
 
@@ -136,7 +136,7 @@ Ontdek het volledige assortiment op [bromic.nl](https://www.bromic.nl/), of vraa
 Een loungeplek of zithoek, die Houzz vond in 83% van de vernieuwde buitenruimtes in de VS[^s3].
 
 ### Hoeveel nieuwe woningen hebben een terras?
-In de VS ongeveer zes op de tien, ofwel 60,5% van de vrijstaande woningen die in 2025 werden gestart, volgens de analyse van Census-gegevens door NAHB[^s1].
+In de VS ongeveer zes op de tien, ofwel 60,5% van de vrijstaande woningen die in 2025 werden gestart, gestegen van 59,6% in 2019, volgens de analyse van Census-gegevens door NAHB[^s1].
 
 ### Wanneer plan je buitenverwarming?
 Plan haar samen met het terras, de keuken en de constructie, zodat de groep, de montage en de bediening in één keer worden aangelegd. Slechts 23% van de Amerikaanse huiseigenaren geeft verwarming prioriteit in de planfase[^s5].

@@ -28,7 +28,7 @@ sources:
     title: "Share of new homes with patios dips to a six-year low (NAHB tabulation of the Census Survey of Construction)"
     year: 2026
     url: https://eyeonhousing.org/2026/09/share-of-new-homes-with-patios-dips-to-a-six-year-low/
-    supports: "60.5% of single-family homes started in 2025 came with a patio"
+    supports: "60.5% of single-family homes started in 2025 came with a patio; 59.6% in 2019"
     verified: true
   - id: s2
     publisher: Bromic Heating (feature release, syndicated)
@@ -78,7 +78,7 @@ A patio heater is worth it when you already love your outdoor space and lose it 
 
 ## The Evenings A Patio Usually Loses
 
-Most new homes now come with a patio: 60.5% of single-family homes started in 2025 had one.[^s1] Far fewer come with the warmth to enjoy it once the sun goes down. In a survey Bromic commissioned, 67% of people said heating would do the most to extend their time outside, yet only 23% rank outdoor heating a top priority when they plan.[^s2][^s3] That gap is where most patios fall quiet after dark.
+Most new homes now come with a patio: 60.5% of single-family homes started in 2025 had one, up from 59.6% in 2019.[^s1] Far fewer come with the warmth to enjoy it once the sun goes down. In a survey Bromic commissioned, 67% of people said heating would do the most to extend their time outside, yet only 23% rank outdoor heating a top priority when they plan.[^s2][^s3] That gap is where most patios fall quiet after dark.
 
 Radiant warmth closes it. An infrared heater warms the people and the furniture in its path, not the air, so it keeps working in a light breeze, and Bromic's medium wave electric heaters are warm in about 30 seconds.[^s5] Their warmth reaches further across the table than short or long wave, with no intrusive glow. [[VERIFY: medium wave test data for distance heat travels — Product team]] [[VERIFY: medium wave test data for no intrusive visual glow — Product team]]
 
