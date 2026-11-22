@@ -1332,6 +1332,30 @@
    "decided": "2026-11-22",
    "decided_by": "owner",
    "learned": true
+  },
+  {
+   "id": "pr-select-black-oval-front-hero",
+   "title": "Series II Select black with oval front, ceiling post",
+   "kind": "CAD studio render",
+   "finish": "black",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-select-black-oval-front-hero.jpg",
+   "thumb": "images/review/thumb/pr-select-black-oval-front-hero.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour, with short contact shadows.",
+   "status": "pending"
+  },
+  {
+   "id": "pr-select-graphite-angled-bracket",
+   "title": "Series II Select graphite on the angled wall bracket, from below",
+   "kind": "CAD studio render",
+   "finish": "graphite",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-select-graphite-angled-bracket.jpg",
+   "thumb": "images/review/thumb/pr-select-graphite-angled-bracket.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour, with short contact shadows.",
+   "status": "pending"
   }
  ]
 }
