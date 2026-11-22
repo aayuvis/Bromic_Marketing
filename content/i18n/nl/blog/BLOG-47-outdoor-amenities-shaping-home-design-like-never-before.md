@@ -16,7 +16,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Welke buitenvoorzieningen zijn populair in nieuwe woningen in 2026?"
 meta_description: "De buitenvoorzieningen die het woningontwerp in 2026 bepalen: lounges, buitenkeukens, overdekte kamers en wellness, met cijfers van NAHB, AIA en Houzz (VS)."
-cta: {label: "Download het Trends 2026-rapport", asset: A01}
+cta: {label: "Download het Outdoor Living Trends 2027-rapport", asset: A01}
 hero: w-bromiceclipseheater-scottsdalehome-10
 images: [w-tungsten-electric-new-york-residential]
 owner_review: marketing

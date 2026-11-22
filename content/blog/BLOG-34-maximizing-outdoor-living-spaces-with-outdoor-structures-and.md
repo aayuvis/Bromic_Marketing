@@ -15,7 +15,7 @@ primary_keyword: pergola heater
 secondary_keywords: [heater for louvered pergola, outdoor structure heating, cabana heater, recessed heater pergola]
 ai_prompt: "What is the best way to heat a pergola or louvered roof?"
 meta_description: "Turn a pergola, cabana or louvered roof into a year-round room: the pergola heater for each structure, how it mounts, its controls and what to pre-wire."
-cta: {label: "Download the Outdoor Living Trends 2026 report", asset: A01}
+cta: {label: "Download the Outdoor Living Trends 2027 report", asset: A01}
 hero: w-mountain-view-retreat-platinum-electric-rece
 images: [w-strx-230222-bromic-dc-8, w-platinumelectricflushmountedw-lowclearancere]
 owner_review: Marketing

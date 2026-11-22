@@ -11,7 +11,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe kan ik mijn terras gebruiken als het koud is?"
 meta_description: "Het hele jaar op je terras: beschut het tegen de wind, zorg voor een gedeeltelijke overkapping en richt stralingswarmte op de zitplekken."
-cta: {label: "Download het rapport Outdoor Living Trends 2026", asset: A01}
+cta: {label: "Download het Outdoor Living Trends 2027-rapport", asset: A01}
 hero: l-013-099
 images: [l-007-037, l-016-135]
 owner_review: marketing

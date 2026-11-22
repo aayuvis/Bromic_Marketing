@@ -11,7 +11,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Was sind die wichtigsten Zahlen zum Wohnen im Freien für 2026?"
 meta_description: "Statistiken zum Wohnen im Freien 2026 (USA): wie viele Neubauten eine Terrasse haben, wie groß sie ist, was Architekten sehen und was sie beim Verkauf einbringt."
-cta: {label: "Den Report Trends 2026 herunterladen", asset: A01}
+cta: {label: "Den Outdoor Living Trends 2027 Bericht herunterladen", asset: A01}
 hero: t-001-000
 images: [t-005-013]
 owner_review: Marketing

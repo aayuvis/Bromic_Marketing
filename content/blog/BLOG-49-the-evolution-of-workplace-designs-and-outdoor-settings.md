@@ -17,7 +17,7 @@ primary_keyword: outdoor workplace design
 secondary_keywords: [office outdoor amenities, outdoor workspace, office courtyard design]
 ai_prompt: "Why are offices adding outdoor workspaces and amenities?"
 meta_description: "Outdoor workplace design in 2026: how heated terraces and courtyards draw people back, with occupancy data and The Boardwalk in Irvine."
-cta: {label: "Download the Trends 2026 report", asset: A01}
+cta: {label: "Download the Outdoor Living Trends 2027 report", asset: A01}
 hero: w-boardwalk-edits-49
 images: [w-boardwalk-edits-27, w-lumen-west-la-rooftop-los-angeles-ca-6-edite]
 owner_review: Marketing

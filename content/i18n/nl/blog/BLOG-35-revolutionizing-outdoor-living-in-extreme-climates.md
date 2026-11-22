@@ -12,7 +12,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe ontwerp je een buitenruimte die je ook in een koud klimaat kunt gebruiken?"
 meta_description: "Buitenverwarming in een koud klimaat: een modelwoning in Juneau, Alaska, plande het terras in warme zones met Bromic Tungsten en Platinum Electric."
-cta: {label: "Download het rapport Outdoor Living Trends 2026", asset: A01}
+cta: {label: "Download het Outdoor Living Trends 2027-rapport", asset: A01}
 hero: w-dsc07397-1
 owner_review: marketing
 technical_reviewer: productteam

@@ -11,7 +11,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wat zijn de ontwerptrends voor buitenleven in 2026?"
 meta_description: "Ontwerptrends voor buitenleven 2026 uit Amerikaanse AIA- en NAHB-cijfers, en hoe architecten stralingswarmte in buitenkamers voor elk seizoen opnemen."
-cta: {label: "Download het rapport Trends 2026", asset: A01}
+cta: {label: "Download het Outdoor Living Trends 2027-rapport", asset: A01}
 hero: l-010-075
 images: [l-010-069, t-006-016]
 owner_review: marketing

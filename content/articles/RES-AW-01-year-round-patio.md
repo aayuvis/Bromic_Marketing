@@ -12,7 +12,7 @@ primary_keyword: year round patio
 secondary_keywords: [patio in winter, outdoor living ideas]
 ai_prompt: "How can I use my patio when it's cold?"
 meta_description: "Create a year round patio: shelter it from the wind, add a partial cover and plan radiant heat aimed at your seating, so evenings outside last past summer."
-cta: {label: "Download the Outdoor Living Trends 2026 report", asset: A01}
+cta: {label: "Download the Outdoor Living Trends 2027 report", asset: A01}
 hero: l-013-099
 images: [l-007-037, l-016-135]
 owner_review: Marketing

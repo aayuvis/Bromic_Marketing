@@ -12,7 +12,7 @@ primary_keyword: outdoor living trends 2026
 secondary_keywords: [outdoor living statistics, patio statistics 2026]
 ai_prompt: "What needs fixing in the Bromic Outdoor Living Trends 2026 report before it is republished?"
 meta_description: "Corrections list and stat verification for Bromic Outdoor Living Trends 2026: typos, broken copy, misplaced insight and exact citations."
-cta: {label: "Download the Trends 2026 report", asset: A01}
+cta: {label: "Download the Outdoor Living Trends 2027 report", asset: A01}
 hero: t-001-000
 owner_review: Marketing
 status: in-review

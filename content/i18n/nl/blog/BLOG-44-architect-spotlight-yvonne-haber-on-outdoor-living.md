@@ -12,7 +12,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe ontwerpen architecten buitenleefruimtes die het hele jaar worden gebruikt?"
 meta_description: "Buitenleefruimtes volgens architect Yvonne Haber: maat, overkapping, oriëntatie en warmte in de opdracht. Gelezen met de Houzz-cijfers van 2026 uit de VS."
-cta: {label: "Download het Trends 2026-rapport", asset: A01}
+cta: {label: "Download het Outdoor Living Trends 2027-rapport", asset: A01}
 hero: w-yvone-haber-bronte-house-1
 owner_review: marketing
 technical_reviewer: productteam

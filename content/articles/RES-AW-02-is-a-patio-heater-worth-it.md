@@ -12,7 +12,7 @@ primary_keyword: is a patio heater worth it
 secondary_keywords: [are patio heaters worth the money, patio heater pros and cons, do patio heaters really work, outdoor heater worth it]
 ai_prompt: "Is a patio heater worth buying?"
 meta_description: "Is a patio heater worth it? For a patio you use on cool evenings, yes: about $0.42–$0.82 an hour on electric, and more evenings outside every season."
-cta: {label: "Download the Trends 2026 report", asset: A01}
+cta: {label: "Download the Outdoor Living Trends 2027 report", asset: A01}
 hero: w-tungsten-electric-white-recessed
 images: [w-dsc07397-1, l-016-134]
 owner_review: Marketing

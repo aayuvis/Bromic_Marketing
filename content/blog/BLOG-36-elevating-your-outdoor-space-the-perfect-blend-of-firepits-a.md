@@ -15,7 +15,7 @@ primary_keyword: fire pit vs patio heater
 secondary_keywords: [fire pit and patio heater, radiant outdoor heater, outdoor fire feature, patio heating ideas]
 ai_prompt: "Is a fire pit or a patio heater better for keeping warm outside?"
 meta_description: "Fire pit vs patio heater: the fire is the focal point, radiant heaters warm every seat. How to plan a patio with both, and the controls the heaters need."
-cta: {label: "Download the Outdoor Living Trends 2026 report", asset: A01}
+cta: {label: "Download the Outdoor Living Trends 2027 report", asset: A01}
 hero: w-black-tungsten-electric-mounted-chicago
 images: [w-bromic-centrico-photos-8, w-dsc01860-bearbeitet]
 owner_review: Marketing

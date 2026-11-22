@@ -12,7 +12,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie beheizt man eine Pergola oder ein Lamellendach am besten?"
 meta_description: "Machen Sie Pergola, Cabana oder Lamellendach zum Raum fürs ganze Jahr: der passende Heizstrahler, Montage, Steuerung und was vorverkabelt wird."
-cta: {label: "Den Report Outdoor Living Trends 2026 herunterladen", asset: A01}
+cta: {label: "Den Outdoor Living Trends 2027 Bericht herunterladen", asset: A01}
 hero: w-mountain-view-retreat-platinum-electric-rece
 images: [w-strx-230222-bromic-dc-8, w-platinumelectricflushmountedw-lowclearancere]
 owner_review: Marketing

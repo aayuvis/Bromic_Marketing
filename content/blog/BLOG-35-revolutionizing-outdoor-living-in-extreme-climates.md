@@ -15,7 +15,7 @@ primary_keyword: outdoor heating cold climate
 secondary_keywords: [heated deck alaska, outdoor living cold weather, patio heater zones, juneau show home]
 ai_prompt: "How do you design an outdoor space you can use in a cold climate?"
 meta_description: "Outdoor heating in a cold climate: a Juneau, Alaska show home planned its deck in warm zones with Bromic Tungsten and Platinum Electric heaters."
-cta: {label: "Download the Outdoor Living Trends 2026 report", asset: A01}
+cta: {label: "Download the Outdoor Living Trends 2027 report", asset: A01}
 hero: w-dsc07397-1
 owner_review: Marketing
 technical_reviewer: Product team

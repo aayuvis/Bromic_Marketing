@@ -15,7 +15,7 @@ primary_keyword: do outdoor heaters work in winter
 secondary_keywords: [patio heater in winter, outdoor heater cold weather, best outdoor heater for winter, patio in winter]
 ai_prompt: "Do outdoor patio heaters work in winter?"
 meta_description: "Do outdoor heaters work in winter? Radiant heaters warm people, not the cold air, so yes. How cold and wind change it, and how to plan a year-round patio."
-cta: {label: "Download the Outdoor Living Trends 2026 report", asset: A01}
+cta: {label: "Download the Outdoor Living Trends 2027 report", asset: A01}
 hero: w-dsc05737-courtney-saib
 images: [w-tungsten-electric-wall-mount-canada]
 owner_review: Marketing

@@ -12,7 +12,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Was ist der Unterschied zwischen einem Infrarot-Heizstrahler und einem Strahlungsheizer?"
 meta_description: "Infrarot- oder Strahlungsheizer: dasselbe Prinzip. Strahlung ist, wie Wärme reist, Infrarot ist, was sie ist. Im Freien zählt die Wellenlänge."
-cta: {label: "Den Report Outdoor Living Trends 2026 herunterladen", asset: A01}
+cta: {label: "Den Outdoor Living Trends 2027 Bericht herunterladen", asset: A01}
 hero: w-bromic-eclipse-portable-hotel-skansen-07
 owner_review: Digitales Marketing
 technical_reviewer: Produktteam

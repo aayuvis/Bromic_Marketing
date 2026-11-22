@@ -12,7 +12,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe voeg ik buitenverwarming toe zonder dat het de uitstraling van mijn terras bederft?"
 meta_description: "Buitenverwarming met oog voor ontwerp: ingebouwd, aan plafond, wand of paal, gekozen naar uitstraling en ruimte, met de bediening die erbij hoort."
-cta: {label: "Download het rapport Trends 2026", asset: A01}
+cta: {label: "Download het Outdoor Living Trends 2027-rapport", asset: A01}
 hero: w-print-15
 images: [w-white-platinum-recessed, w-bromiceclipseheater-scottsdalehome-4]
 owner_review: marketing

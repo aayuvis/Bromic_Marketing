@@ -11,7 +11,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie kann ich meine Terrasse nutzen, wenn es kalt ist?"
 meta_description: "Die Terrasse das ganze Jahr nutzen: vor Wind schützen, teilweise überdachen und Strahlungswärme auf die Sitzplätze richten, für längere Abende draußen."
-cta: {label: "Den Report Outdoor Living Trends 2026 herunterladen", asset: A01}
+cta: {label: "Den Outdoor Living Trends 2027 Bericht herunterladen", asset: A01}
 hero: l-013-099
 images: [l-007-037, l-016-135]
 owner_review: Marketing

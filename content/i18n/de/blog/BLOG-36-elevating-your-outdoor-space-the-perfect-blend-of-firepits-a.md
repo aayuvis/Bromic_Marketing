@@ -12,7 +12,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Was hält draußen besser warm, eine Feuerstelle oder ein Terrassenheizstrahler?"
 meta_description: "Feuerstelle oder Heizstrahler: Das Feuer ist der Mittelpunkt, Strahlungswärme wärmt jeden Platz. So planen Sie beides, mit der passenden Steuerung."
-cta: {label: "Outdoor Living Trends 2026 herunterladen", asset: A01}
+cta: {label: "Den Outdoor Living Trends 2027 Bericht herunterladen", asset: A01}
 hero: w-black-tungsten-electric-mounted-chicago
 images: [w-bromic-centrico-photos-8, w-dsc01860-bearbeitet]
 owner_review: Marketing

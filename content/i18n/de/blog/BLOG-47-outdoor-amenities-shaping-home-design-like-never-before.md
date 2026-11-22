@@ -12,7 +12,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Welche Außenbereiche sind 2026 bei neuen Häusern gefragt?"
 meta_description: "Die Ausstattung im Freien, die das Wohnen 2026 prägt: Lounges, Außenküchen, überdachte Räume und Wellness, mit Daten von NAHB, AIA und Houzz (USA)."
-cta: {label: "Trends-2026-Report herunterladen", asset: A01}
+cta: {label: "Den Outdoor Living Trends 2027 Bericht herunterladen", asset: A01}
 hero: w-bromiceclipseheater-scottsdalehome-10
 images: [w-tungsten-electric-new-york-residential]
 owner_review: Marketing

@@ -12,7 +12,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie funktioniert Hausautomation mit einer Heizung im Außenbereich?"
 meta_description: "Jeff Thomas (Snap One) und Michael Smith (Bromic) über Hausautomation im Außenbereich, frühe Planung, Kabel oder Funk und smarte Heizstrahler."
-cta: {label: "Den Report Outdoor Living Trends 2026 herunterladen", asset: A01}
+cta: {label: "Den Outdoor Living Trends 2027 Bericht herunterladen", asset: A01}
 hero: w-mom-design-build-2-web
 owner_review: Marketing
 technical_reviewer: Produktteam

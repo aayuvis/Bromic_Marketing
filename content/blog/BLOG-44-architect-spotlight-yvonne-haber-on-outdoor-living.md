@@ -15,7 +15,7 @@ primary_keyword: outdoor living design architect
 secondary_keywords: [outdoor room design, outdoor living area design, architect outdoor heating]
 ai_prompt: "How do architects design outdoor living areas that get used year-round?"
 meta_description: "Outdoor living design from architect Yvonne Haber: proportion, cover and orientation, with warmth in the brief. Read with the 2026 Houzz data."
-cta: {label: "Download the Trends 2026 report", asset: A01}
+cta: {label: "Download the Outdoor Living Trends 2027 report", asset: A01}
 hero: w-yvone-haber-bronte-house-1
 owner_review: Marketing
 technical_reviewer: Product team

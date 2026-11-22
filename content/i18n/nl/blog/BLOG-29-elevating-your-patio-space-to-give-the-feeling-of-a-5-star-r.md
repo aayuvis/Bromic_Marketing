@@ -12,7 +12,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe geef ik mijn terras de sfeer van een luxeresort?"
 meta_description: "Zes manieren naar een terras in resortstijl: warmte waar je zit, gelaagd licht, duurzame meubels, een blikvanger en sfeer met één aanraking."
-cta: {label: "Download het Trends 2026-rapport", asset: A01}
+cta: {label: "Download het Outdoor Living Trends 2027-rapport", asset: A01}
 hero: w-bromic-eclipse-heater-scottsdale-home-6
 images: [w-bromiceclipseheater-scottsdalehome-10, w-wrigley-mansion-phoenix-arizona-22]
 owner_review: marketing

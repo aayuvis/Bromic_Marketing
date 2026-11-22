@@ -12,7 +12,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Funktionieren Infrarot-Heizstrahler im Freien?"
 meta_description: "Ja. Infrarot-Heizstrahler erwärmen Menschen und Oberflächen statt der Luft und wirken deshalb im Freien und bei leichtem Wind. Was zählt und wie Sie wählen."
-cta: {label: "Den Report Outdoor Living Trends 2026 herunterladen", asset: A01}
+cta: {label: "Den Outdoor Living Trends 2027 Bericht herunterladen", asset: A01}
 hero: w-tungsten-electric-new-york-residential
 owner_review: Marketing
 technical_reviewer: Produktteam

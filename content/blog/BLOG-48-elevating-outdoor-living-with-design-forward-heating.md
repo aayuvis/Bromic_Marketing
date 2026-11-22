@@ -17,7 +17,7 @@ primary_keyword: design-forward outdoor heating
 secondary_keywords: [modern patio heater, recessed patio heater, stylish outdoor heaters]
 ai_prompt: "How do I add outdoor heating without ruining the look of my patio?"
 meta_description: "Design-forward outdoor heating: recessed, ceiling, wall or pole-mounted heaters chosen by look and space, with the controls each one needs."
-cta: {label: "Download the Trends 2026 report", asset: A01}
+cta: {label: "Download the Outdoor Living Trends 2027 report", asset: A01}
 hero: w-print-15
 images: [w-white-platinum-recessed, w-bromiceclipseheater-scottsdalehome-4]
 owner_review: Marketing

@@ -12,7 +12,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wat is de beste manier om een pergola of lamellendak te verwarmen?"
 meta_description: "Maak van een pergola, cabana of lamellendak een kamer voor het hele jaar: de juiste verwarmer, de montage, de bediening en wat je vooraf bekabelt."
-cta: {label: "Download het rapport Outdoor Living Trends 2026", asset: A01}
+cta: {label: "Download het Outdoor Living Trends 2027-rapport", asset: A01}
 hero: w-mountain-view-retreat-platinum-electric-rece
 images: [w-strx-230222-bromic-dc-8, w-platinumelectricflushmountedw-lowclearancere]
 owner_review: marketing

@@ -15,7 +15,7 @@ primary_keyword: infrared vs radiant heater
 secondary_keywords: [difference between infrared and radiant heater, radiant heat vs convection, short wave infrared heater, infrared patio heater]
 ai_prompt: "What is the difference between an infrared heater and a radiant heater?"
 meta_description: "Infrared vs radiant heater: the same idea. Radiant is how heat travels, infrared is what it is. Outdoors, the wavelength makes the difference."
-cta: {label: "Download the Outdoor Living Trends 2026 report", asset: A01}
+cta: {label: "Download the Outdoor Living Trends 2027 report", asset: A01}
 hero: w-bromic-eclipse-portable-hotel-skansen-07
 owner_review: Digital marketing
 technical_reviewer: Product team

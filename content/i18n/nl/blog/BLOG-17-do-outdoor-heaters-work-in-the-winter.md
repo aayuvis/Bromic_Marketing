@@ -16,7 +16,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Werken terrasverwarmers in de winter?"
 meta_description: "Werken buitenverwarmers in de winter? Ja, stralingsverwarmers verwarmen mensen, niet de koude lucht. Wat kou en wind doen, en hoe je een terras voor het hele jaar plant."
-cta: {label: "Download het rapport Outdoor Living Trends 2026", asset: A01}
+cta: {label: "Download het Outdoor Living Trends 2027-rapport", asset: A01}
 hero: w-dsc05737-courtney-saib
 images: [w-tungsten-electric-wall-mount-canada]
 owner_review: marketing

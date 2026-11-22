@@ -15,7 +15,7 @@ primary_keyword: smart outdoor heater
 secondary_keywords: [outdoor home automation, smart patio, outdoor living technology]
 ai_prompt: "How does home automation work with outdoor heating?"
 meta_description: "Snap One's Jeff Thomas and Bromic's Michael Smith on outdoor home automation, planning early, wired vs wireless, and the smart outdoor heater."
-cta: {label: "Download the Outdoor Living Trends 2026 report", asset: A01}
+cta: {label: "Download the Outdoor Living Trends 2027 report", asset: A01}
 hero: w-mom-design-build-2-web
 owner_review: Marketing
 technical_reviewer: Product team

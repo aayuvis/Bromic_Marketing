@@ -16,7 +16,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Werken infraroodverwarmers buiten?"
 meta_description: "Ja. Infraroodverwarmers verwarmen mensen en oppervlakken in plaats van de lucht, en werken dus in de open lucht en bij lichte wind. Wat telt, en hoe je kiest."
-cta: {label: "Download het rapport Outdoor Living Trends 2026", asset: A01}
+cta: {label: "Download het Outdoor Living Trends 2027-rapport", asset: A01}
 hero: w-tungsten-electric-new-york-residential
 owner_review: marketing
 technical_reviewer: productteam

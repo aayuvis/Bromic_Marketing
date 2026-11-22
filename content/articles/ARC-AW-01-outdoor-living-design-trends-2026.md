@@ -12,7 +12,7 @@ primary_keyword: outdoor living design trends
 secondary_keywords: [indoor outdoor living design, outdoor room design]
 ai_prompt: "What are the outdoor living design trends for 2026?"
 meta_description: "Outdoor living design trends for 2026 from AIA and NAHB data, and how architects bring radiant heating into the brief for outdoor rooms used year-round."
-cta: {label: "Download the Trends 2026 report", asset: A01}
+cta: {label: "Download the Outdoor Living Trends 2027 report", asset: A01}
 hero: l-010-075
 images: [l-010-069, t-006-016]
 owner_review: Marketing

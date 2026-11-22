@@ -12,7 +12,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wat is het verschil tussen een infraroodverwarmer en een stralingsverwarmer?"
 meta_description: "Infrarood- of stralingsverwarmer: hetzelfde idee. Straling is hoe warmte zich verplaatst, infrarood is wat ze is. Buiten telt de golflengte."
-cta: {label: "Download het rapport Outdoor Living Trends 2026", asset: A01}
+cta: {label: "Download het Outdoor Living Trends 2027-rapport", asset: A01}
 hero: w-bromic-eclipse-portable-hotel-skansen-07
 owner_review: digitale marketing
 technical_reviewer: productteam

@@ -12,7 +12,7 @@ primary_keyword: outdoor living statistics 2026
 secondary_keywords: [patio statistics, outdoor living trends 2026, new home patio size, patio return on investment]
 ai_prompt: "What are the key outdoor living statistics for 2026?"
 meta_description: "Outdoor living statistics 2026: how many new US homes have a patio, how big it is, what architects see and what a patio returns at resale, all sourced."
-cta: {label: "Download the Trends 2026 report", asset: A01}
+cta: {label: "Download the Outdoor Living Trends 2027 report", asset: A01}
 hero: t-001-000
 images: [t-005-013]
 owner_review: Marketing

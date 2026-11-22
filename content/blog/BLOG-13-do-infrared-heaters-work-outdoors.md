@@ -15,7 +15,7 @@ primary_keyword: do infrared heaters work outdoors
 secondary_keywords: [infrared outdoor heater, infrared patio heater, do infrared heaters work in wind, outdoor infrared heating]
 ai_prompt: "Do infrared heaters work outdoors?"
 meta_description: "Do infrared heaters work outdoors? Yes – they warm people and surfaces, not air, so they hold up in the open and in light wind. How to choose one."
-cta: {label: "Download the Outdoor Living Trends 2026 report", asset: A01}
+cta: {label: "Download the Outdoor Living Trends 2027 report", asset: A01}
 hero: w-tungsten-electric-new-york-residential
 owner_review: Marketing
 technical_reviewer: Product team

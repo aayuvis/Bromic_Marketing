@@ -12,7 +12,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie planen Architekten Außenwohnbereiche, die das ganze Jahr genutzt werden?"
 meta_description: "Außenwohnbereiche nach Architektin Yvonne Haber: Proportion, Überdachung, Ausrichtung und Wärme im Entwurf. Gelesen mit den Houzz-Daten 2026 aus den USA."
-cta: {label: "Trendbericht 2026 herunterladen", asset: A01}
+cta: {label: "Den Outdoor Living Trends 2027 Bericht herunterladen", asset: A01}
 hero: w-yvone-haber-bronte-house-1
 owner_review: Marketing
 technical_reviewer: Produktteam

@@ -15,7 +15,7 @@ primary_keyword: outdoor product design innovation
 secondary_keywords: [outdoor living product trends, pergola and heater integration, outdoor room technology]
 ai_prompt: "How is outdoor product design changing for architects?"
 meta_description: "Outdoor product design innovation: StruXure and Bromic Group founders on outdoor rooms as engineered kits, integrated controls and early collaboration."
-cta: {label: "Download the Trends 2026 report", asset: A01}
+cta: {label: "Download the Outdoor Living Trends 2027 report", asset: A01}
 hero: w-slc-bromic-heater-1-cropped
 owner_review: Marketing
 technical_reviewer: Product team

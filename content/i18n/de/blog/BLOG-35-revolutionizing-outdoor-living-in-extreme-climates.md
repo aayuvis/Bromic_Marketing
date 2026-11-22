@@ -12,7 +12,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie gestaltet man einen Außenbereich, den man auch in kaltem Klima nutzen kann?"
 meta_description: "Heizstrahler für kaltes Klima: Ein Musterhaus in Juneau, Alaska, plante seine Terrasse in warmen Zonen mit Bromic Tungsten und Platinum Electric."
-cta: {label: "Den Bericht Outdoor Living Trends 2026 herunterladen", asset: A01}
+cta: {label: "Den Outdoor Living Trends 2027 Bericht herunterladen", asset: A01}
 hero: w-dsc07397-1
 owner_review: Marketing
 technical_reviewer: Produktteam

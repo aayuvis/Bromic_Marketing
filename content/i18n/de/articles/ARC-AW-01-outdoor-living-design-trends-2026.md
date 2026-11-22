@@ -11,7 +11,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Welche Trends gibt es 2026 bei der Gestaltung von Außenbereichen?"
 meta_description: "Trends 2026 für das Leben im Freien nach AIA- und NAHB-Daten (USA) – und wie Architekten Strahlungswärme für ganzjährig genutzte Außenräume früh einplanen."
-cta: {label: "Den Bericht Trends 2026 herunterladen", asset: A01}
+cta: {label: "Den Outdoor Living Trends 2027 Bericht herunterladen", asset: A01}
 hero: l-010-075
 images: [l-010-069, t-006-016]
 owner_review: Marketing

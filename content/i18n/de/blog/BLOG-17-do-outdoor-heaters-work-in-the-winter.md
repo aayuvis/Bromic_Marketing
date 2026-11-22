@@ -12,7 +12,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Funktionieren Terrassenheizstrahler im Winter?"
 meta_description: "Funktionieren Heizstrahler im Winter? Ja, denn Strahlungsheizer wärmen Menschen statt der kalten Luft. Was Kälte und Wind ändern und wie Sie ganzjährig planen."
-cta: {label: "Den Report Outdoor Living Trends 2026 herunterladen", asset: A01}
+cta: {label: "Den Outdoor Living Trends 2027 Bericht herunterladen", asset: A01}
 hero: w-dsc05737-courtney-saib
 images: [w-tungsten-electric-wall-mount-canada]
 owner_review: Marketing

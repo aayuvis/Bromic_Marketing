@@ -16,7 +16,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Hoe verandert het ontwerp van buitenproducten voor architecten?"
 meta_description: "Innovatie in buitenproducten: de oprichters van StruXure en Bromic Group over buitenkamers als bouwpakket, geïntegreerde bediening en vroeg samenwerken."
-cta: {label: "Download het Trends 2026-rapport", asset: A01}
+cta: {label: "Download het Outdoor Living Trends 2027-rapport", asset: A01}
 hero: w-slc-bromic-heater-1-cropped
 owner_review: marketing
 technical_reviewer: productteam

@@ -11,7 +11,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wat zijn de belangrijkste cijfers over buitenleven en terrassen voor 2026?"
 meta_description: "Cijfers over buitenleven 2026 (VS): hoeveel nieuwe woningen een terras hebben, hoe groot het is, wat architecten zien en wat een terras bij verkoop oplevert."
-cta: {label: "Download het rapport Trends 2026", asset: A01}
+cta: {label: "Download het Outdoor Living Trends 2027-rapport", asset: A01}
 hero: t-001-000
 images: [t-005-013]
 owner_review: marketing

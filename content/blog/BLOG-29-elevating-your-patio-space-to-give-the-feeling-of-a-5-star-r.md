@@ -15,7 +15,7 @@ primary_keyword: resort style patio
 secondary_keywords: [luxury patio ideas, patio heater design, outdoor living ideas]
 ai_prompt: "How do I make my patio feel like a luxury resort?"
 meta_description: "Six ways to create a resort style patio: warmth where you sit, layered light, lasting furnishings, a focal point and controls that set the mood at a touch."
-cta: {label: "Get the Trends 2026 report", asset: A01}
+cta: {label: "Download the Outdoor Living Trends 2027 report", asset: A01}
 hero: w-bromic-eclipse-heater-scottsdale-home-6
 images: [w-bromiceclipseheater-scottsdalehome-10, w-wrigley-mansion-phoenix-arizona-22]
 owner_review: Marketing

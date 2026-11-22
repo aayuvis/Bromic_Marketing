@@ -12,7 +12,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Warum schaffen Büros Arbeitsplätze und Angebote im Freien?"
 meta_description: "Außenflächen am Arbeitsplatz 2026: wie beheizte Terrassen und Innenhöfe Menschen zurückholen, mit US-Belegungsdaten und The Boardwalk in Irvine."
-cta: {label: "Den Bericht Trends 2026 herunterladen", asset: A01}
+cta: {label: "Den Outdoor Living Trends 2027 Bericht herunterladen", asset: A01}
 hero: w-boardwalk-edits-49
 images: [w-boardwalk-edits-27, w-lumen-west-la-rooftop-los-angeles-ca-6-edite]
 owner_review: Marketing

@@ -12,7 +12,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie kann ich eine Terrassenheizung einbauen, ohne die Optik meiner Terrasse zu verderben?"
 meta_description: "Heizstrahler mit Gestaltungsanspruch: eingelassen, an Decke, Wand oder Stange, nach Optik und Raum gewählt, mit der Steuerung, die jeder braucht."
-cta: {label: "Den Report Trends 2026 herunterladen", asset: A01}
+cta: {label: "Den Outdoor Living Trends 2027 Bericht herunterladen", asset: A01}
 hero: w-print-15
 images: [w-white-platinum-recessed, w-bromiceclipseheater-scottsdalehome-4]
 owner_review: Marketing

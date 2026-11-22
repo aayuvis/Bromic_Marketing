@@ -15,7 +15,7 @@ primary_keyword: outdoor amenities home design
 secondary_keywords: [outdoor living ideas, outdoor living trends 2026, outdoor kitchen design]
 ai_prompt: "What outdoor amenities are popular in new homes in 2026?"
 meta_description: "The outdoor amenities shaping home design in 2026: lounges, outdoor kitchens, covered rooms and wellness spaces, with NAHB, AIA and Houzz data."
-cta: {label: "Download the Trends 2026 report", asset: A01}
+cta: {label: "Download the Outdoor Living Trends 2027 report", asset: A01}
 hero: w-bromiceclipseheater-scottsdalehome-10
 images: [w-tungsten-electric-new-york-residential]
 owner_review: Marketing

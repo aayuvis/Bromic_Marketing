@@ -12,7 +12,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wie gebe ich meiner Terrasse das Gefühl eines Luxusresorts?"
 meta_description: "Sechs Wege zur Terrasse im Resort-Stil: Wärme, wo Sie sitzen, Licht in Schichten, langlebige Möbel, ein Blickfang und Stimmung auf Knopfdruck."
-cta: {label: "Trendbericht 2026 anfordern", asset: A01}
+cta: {label: "Den Outdoor Living Trends 2027 Bericht herunterladen", asset: A01}
 hero: w-bromic-eclipse-heater-scottsdale-home-6
 images: [w-bromiceclipseheater-scottsdalehome-10, w-wrigley-mansion-phoenix-arizona-22]
 owner_review: Marketing

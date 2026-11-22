@@ -16,7 +16,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Wat houdt je buiten beter warm, een vuurschaal of een terrasverwarmer?"
 meta_description: "Vuurschaal of terrasverwarmer: het vuur is het middelpunt, stralingswarmte verwarmt elke zitplek. Zo plan je allebei, met de juiste bediening."
-cta: {label: "Download het rapport Outdoor Living Trends 2026", asset: A01}
+cta: {label: "Download het Outdoor Living Trends 2027-rapport", asset: A01}
 hero: w-black-tungsten-electric-mounted-chicago
 images: [w-bromic-centrico-photos-8, w-dsc01860-bearbeitet]
 owner_review: marketing

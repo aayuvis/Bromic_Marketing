@@ -12,7 +12,7 @@ primary_keyword: "[[VERIFY: local keyword research — 454 Creative]]"
 secondary_keywords: []
 ai_prompt: "Waarom voegen kantoren buitenwerkplekken en buitenvoorzieningen toe?"
 meta_description: "Buitenruimte op kantoor in 2026: hoe verwarmde terrassen en binnenplaatsen mensen terugbrengen, met Amerikaanse bezettingscijfers en The Boardwalk in Irvine."
-cta: {label: "Download het rapport Trends 2026", asset: A01}
+cta: {label: "Download het Outdoor Living Trends 2027-rapport", asset: A01}
 hero: w-boardwalk-edits-49
 images: [w-boardwalk-edits-27, w-lumen-west-la-rooftop-los-angeles-ca-6-edite]
 owner_review: marketing
