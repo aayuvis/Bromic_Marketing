@@ -116,7 +116,7 @@
 **The Implication:** *Shipyards and designers:* open decks and beach clubs need marine-grade, low-profile heat. *Charter operators:* more usable deck evenings each season.
 **Bromic Insight:** Heat built for the sea extends every evening on deck.
 
-**Sub-theme: smoke-free terraces.** Belgium bans smoking on hospitality terraces from 1 January 2027; UK pub gardens are exempt. Terraces become family and dining spaces where comfort keeps guests outside.
+**Sub-theme: smoke-free terraces.** Belgium planned smoke-free hospitality terraces from 1 January 2027, but the start was postponed again in October 2026 (VRT, Brussels Times), so the report no longer states it; UK pub gardens are exempt. Terraces become family and dining spaces where comfort keeps guests outside.
 
 ---
 

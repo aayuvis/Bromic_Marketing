@@ -151,7 +151,7 @@ NUMS = dict(h2='Outdoor Hospitality, By The Numbers', img='l-005-024', alt='A ma
     ('rooms', '188,960', 'hotel rooms in the Middle East pipeline, a record – about 58% in Saudi Arabia', 'Lodging Econometrics, Q3 2026')])
 CLOSE = dict(img='w-eclipse-1200pole-industrial-1-split', alt='A rooftop bar under a steel pergola, half sketch and half finished photograph, with Eclipse heaters hanging overhead',
              h2='From Optional To Essential: Heat The Terrace From Day One',
-             read='Outdoor seats earn more, stay open longer and are regulated towards fixed, controlled, electric heat. With smoke-free terraces arriving in Belgium from 2027, the terrace is becoming a place for families and dining, where comfort keeps guests outside.',
+             read='Outdoor seats earn more, stay open longer and are regulated towards fixed, controlled, electric heat. The terrace is becoming a place for families and dining, where comfort keeps guests outside.',
              chart='market', chart_cap='Global outdoor heating market, US$ billion. 2025–2026 estimates, then the 6.6% a year forecast path to 2034. Fortune Business Insights, 2026.',
              gap_mini='gap', gap_html='<b>58%</b> of the outdoor heating market is catering and hospitality – more than every other buyer combined.', gap_src='Fortune Business Insights, 2026',
              checks_title='What A Heated Terrace Needs',
