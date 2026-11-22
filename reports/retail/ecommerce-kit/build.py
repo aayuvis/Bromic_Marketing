@@ -259,7 +259,7 @@ def module_pages():
 </div>""")
     # 3. Comparison of series 970 x 600
     heads = SERIES_COMPARISON["head"][1:]
-    pics = [main_uri, thumb("w-platinum-black"), thumb("w-eclipse-electric"), thumb("w-platinum-gas-500"), thumb("w-tungsten-gas-500")]
+    pics = [main_uri] + [(MAIN / f).as_uri() for f in ("platinum-electric-black-main.jpg", "eclipse-electric-main.jpg", "platinum-gas-main.jpg", "tungsten-gas-main.jpg")]
     th = "".join(f"<th><div style=\"height:86px;background:url('{p}') center/contain no-repeat;margin-bottom:8px\"></div>{html.escape(h)}</th>" for h, p in zip(heads, pics))
     rows = "".join("<tr><td class=k>" + html.escape(r[0]) + "</td>" + "".join(f"<td>{html.escape(c)}</td>" for c in r[1:]) + "</tr>" for r in SERIES_COMPARISON["rows"])
     pages["module-3-compare-series-970x600.png"] = (970, 600, f"""

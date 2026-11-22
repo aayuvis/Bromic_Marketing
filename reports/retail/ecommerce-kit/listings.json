@@ -2285,5 +2285,10 @@
    "note": "bromic.com cutout, 1600 px source"
   }
  },
- "modules": []
+ "modules": [
+  "images/modules/module-1-banner-1464x600.png",
+  "images/modules/module-2-three-features-970x600.png",
+  "images/modules/module-3-compare-series-970x600.png",
+  "images/modules/module-4-which-heater-1464x600.png"
+ ]
 }
