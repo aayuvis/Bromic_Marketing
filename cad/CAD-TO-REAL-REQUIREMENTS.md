@@ -255,3 +255,7 @@ decision · the rule it adds. The QC agent checks every rule here.
 - **Keep pushing all types (owner, 21 Nov 2026):** after three failed rounds on ceiling and recess composites, the owner chose to keep
   iterating every mount type rather than switch to wall-only or real photography.
 
+
+### Owner decisions, 22 Nov 2026 (studio renders, round 2)
+- The owner approved all ten new studio renders, including eight the independent QC had failed: the 3 kW graphite (lighter graphite), the oval fronts with no logo on the fascia, the overlapping family shot, the profile with the post plate in open space, the soft macros and the angled bracket on a plain sweep. For **studio renders**, QC must not fail an image for those points. Flag them as notes for the owner instead. They are a studio look, not an in-situ placement. In-situ composite rules are unchanged.
+- The Coastal background plates were rejected because they had no heater ("where is the heater here?"). Never send a background plate without its heater. For these two the owner asked for the heater to be added: ts2-r8e-03 with a recessed white heater; ts2-r8e-04 with a recessed graphite heater, or two heaters mounted from the long edge and facing inward.

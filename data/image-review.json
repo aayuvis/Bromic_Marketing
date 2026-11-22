@@ -1163,7 +1163,10 @@
    "file": "images/review/full/ts2-r8e-03.jpg",
    "thumb": "images/review/thumb/ts2-r8e-03.webp",
    "source": "PLATE ONLY, generated with an image model per the §12 Coastal exception, prompted from the real Bromic photo w-connecticut-privateresidence-tungstenelectri-3 (camera, light, materials); heaters removed in the prompt. Intended next step if approved: 2 Tungsten Coastal on short ceiling posts under the flat beadboard porch ceiling near the house wall, tilted toward the wicker seats. No heater has been added.",
-   "status": "pending"
+   "status": "rejected",
+   "note": "where is the heater here?..like the image..add heater please...either recessed white",
+   "decided": "2026-11-22",
+   "decided_by": "owner"
   },
   {
    "id": "ts2-r8e-04",
@@ -1175,7 +1178,10 @@
    "file": "images/review/full/ts2-r8e-04.jpg",
    "thumb": "images/review/thumb/ts2-r8e-04.webp",
    "source": "PLATE ONLY, generated with an image model per the §12 Coastal exception, prompted from the real Bromic Juneau showhome photo (w-juneau-showhome-1, 6,784 px original) to keep its camera, light and materials, reset on a rocky sea inlet. Intended next step if approved: Tungsten Coastal black on the angled wall bracket on the house wall under the soffit, over the sofa. No heater has been added.",
-   "status": "pending"
+   "status": "rejected",
+   "note": "where is the heater here?..like the image..add heater please...either recessed gray or inward facing 2 heaters moutned from the long edge",
+   "decided": "2026-11-22",
+   "decided_by": "owner"
   },
   {
    "id": "pr-select-3kw-black-hero",
@@ -1187,7 +1193,10 @@
    "file": "images/review/full/pr-select-3kw-black-hero.jpg",
    "thumb": "images/review/thumb/pr-select-3kw-black-hero.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour, with short contact shadows.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-select-3kw-white-hero",
@@ -1199,7 +1208,130 @@
    "file": "images/review/full/pr-select-3kw-white-hero.jpg",
    "thumb": "images/review/thumb/pr-select-3kw-white-hero.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour, with short contact shadows.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
+  },
+  {
+   "id": "pr-select-3kw-graphite-hero",
+   "title": "Series II Select 3 kW graphite hero, ceiling post",
+   "kind": "CAD studio render",
+   "finish": "graphite",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-select-3kw-graphite-hero.jpg",
+   "thumb": "images/review/thumb/pr-select-3kw-graphite-hero.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour, with short contact shadows.",
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
+  },
+  {
+   "id": "pr-select-white-oval-front-hero",
+   "title": "Series II Select white with oval front, ceiling post",
+   "kind": "CAD studio render",
+   "finish": "white",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-select-white-oval-front-hero.jpg",
+   "thumb": "images/review/thumb/pr-select-white-oval-front-hero.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour, with short contact shadows.",
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
+  },
+  {
+   "id": "pr-select-graphite-oval-front-hero",
+   "title": "Series II Select graphite with oval front, ceiling post",
+   "kind": "CAD studio render",
+   "finish": "graphite",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-select-graphite-oval-front-hero.jpg",
+   "thumb": "images/review/thumb/pr-select-graphite-oval-front-hero.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour, with short contact shadows.",
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
+  },
+  {
+   "id": "pr-select-white-oval-front-detail",
+   "title": "Series II Select white oval front, close-up",
+   "kind": "CAD studio render",
+   "finish": "white",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-select-white-oval-front-detail.jpg",
+   "thumb": "images/review/thumb/pr-select-white-oval-front-detail.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour, with short contact shadows.",
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
+  },
+  {
+   "id": "pr-select-family-three-finishes",
+   "title": "Series II Select family: black, graphite and white",
+   "kind": "CAD studio render",
+   "finish": "black, graphite, white",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-select-family-three-finishes.jpg",
+   "thumb": "images/review/thumb/pr-select-family-three-finishes.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour, with short contact shadows.",
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
+  },
+  {
+   "id": "pr-select-black-profile",
+   "title": "Series II Select black, slim side profile",
+   "kind": "CAD studio render",
+   "finish": "black",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-select-black-profile.jpg",
+   "thumb": "images/review/thumb/pr-select-black-profile.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour, with short contact shadows.",
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
+  },
+  {
+   "id": "pr-select-graphite-grille-macro",
+   "title": "Series II Select graphite, diamond grille close-up",
+   "kind": "CAD studio render",
+   "finish": "graphite",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-select-graphite-grille-macro.jpg",
+   "thumb": "images/review/thumb/pr-select-graphite-grille-macro.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour, with short contact shadows.",
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
+  },
+  {
+   "id": "pr-select-white-angled-bracket",
+   "title": "Series II Select white on the angled wall bracket, from below",
+   "kind": "CAD studio render",
+   "finish": "white",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-select-white-angled-bracket.jpg",
+   "thumb": "images/review/thumb/pr-select-white-angled-bracket.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour, with short contact shadows.",
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   }
  ]
 }
