@@ -406,21 +406,24 @@ function layout3(P, opt) {
 function candidates(P) {
   const want = P.pages || 2;
   const L1 = [
-    { pages: 1, quote: true }, { pages: 1, quote: true, heroH: 2.8 }, { pages: 1, quote: false }, { pages: 1, quote: false, heroH: 2.6, beatSize: 7.6 },
-    { pages: 1, quote: false, heroH: 2.4, beatSize: 7.4, lede: false }];
-  const L2 = [
-    { pages: 2, zones: true, table: true, quote: true }, { pages: 2, zones: true, table: true, quote: true, planH: 160, prodH: 1.0 },
-    { pages: 2, zones: true, table: true, quote: false }, { pages: 2, zones: true, table: true, quote: false, planH: 150, noProductPhotos: true },
-    { pages: 2, zones: false, table: false, quote: true }, { pages: 2, zones: false, table: false, quote: true, pairH: 1.9, prodH: 1.0 },
-    { pages: 2, zones: false, table: false, quote: false }, { pages: 2, zones: false, table: false, quote: true, photos: 1, pairH: 1.8, noProductPhotos: true },
-    { pages: 2, zones: false, table: false, quote: false, photos: 0, noProductPhotos: true }];
+    { pages: 1, quote: true }, { pages: 1, quote: true, heroH: 2.6 }, { pages: 1, quote: false }, { pages: 1, quote: false, heroH: 2.6, beatSize: 7.6 },
+    { pages: 1, quote: false, heroH: 2.2, beatSize: 7.5 }, { pages: 1, quote: false, heroH: 2.3, beatSize: 7.4, lede: false }];
+  // rich two-page forms keep the plan or table, the quote and the product photographs
+  const L2rich = [
+    { pages: 2, zones: true, table: true, quote: true }, { pages: 2, zones: true, table: true, quote: true, planH: 160, prodH: 1.0, pairH: 1.9 },
+    { pages: 2, zones: true, table: true, quote: true, planH: 150, photos: 1, pairH: 1.8, prodH: 0.95 }];
   const L3 = [
     { pages: 3, quote: true, quoteOn: 2 }, { pages: 3, quote: true, quoteOn: 2, wideH: 3.2 }, { pages: 3, quote: true, quoteOn: 2, wideH: 2.8, prodH: 1.3 },
-    { pages: 3, quote: true, quoteOn: 3, wideH: 2.8, prodH: 1.2 }, { pages: 3, quote: true, quoteOn: 2, planH: 260, stripH: 1.2, wideH: 2.6, prodH: 1.15 },
-    { pages: 3, quote: false, strip: false, planH: 240, wideH: 2.6, prodH: 1.1 }];
-  if (want === 1) return [...L1, ...L2];
-  if (want === 3) return [...L3, ...L2];
-  return [...L2, ...L3];
+    { pages: 3, quote: true, quoteOn: 3, wideH: 2.8, prodH: 1.2 }, { pages: 3, quote: true, quoteOn: 2, planH: 200, stripH: 1.2, wideH: 2.6, prodH: 1.15 },
+    { pages: 3, quote: true, quoteOn: 2, strip: false, planH: 200, wideH: 2.6, prodH: 1.1 }];
+  const L2lean = [
+    { pages: 2, zones: true, table: true, quote: false }, { pages: 2, zones: true, table: true, quote: false, planH: 150, noProductPhotos: true },
+    { pages: 2, zones: false, table: false, quote: true, photos: 1, pairH: 1.8, noProductPhotos: true },
+    { pages: 2, zones: false, table: false, quote: false, photos: 0, noProductPhotos: true }];
+  const rich3 = (P.photos || []).length >= 1;
+  if (want === 1) return [...L1, ...L2rich, ...L2lean];
+  if (want === 3) return [...L3, ...L2rich, ...L2lean];
+  return [...L2rich, ...(rich3 ? L3 : []), ...L2lean];
 }
 const render = (P, opt) => (opt.pages === 1 ? layout1 : opt.pages === 3 ? layout3 : layout2)(P, opt);
 function html(P, bodies) {
@@ -491,7 +494,15 @@ async function buildOne(browser, id, log) {
     fs.writeFileSync(f, doc);
     await page.goto(fileUrl(f), { waitUntil: 'load' });
     await page.evaluate(() => document.fonts.ready);
-    const problems = await check(page, P);
+    let problems = await check(page, P);
+    for (const h of [4.3, 3.9, 3.5]) {
+      if (!problems.length || opt.pages === 1 || problems.some((x) => !x.startsWith('p1:'))) break;
+      opt.heroH = h;
+      fs.writeFileSync(f, html(P, render(P, opt)));
+      await page.goto(fileUrl(f), { waitUntil: 'load' });
+      await page.evaluate(() => document.fonts.ready);
+      problems = await check(page, P);
+    }
     last = { opt, problems };
     if (process.env.PF_DEBUG) console.log('  try', JSON.stringify(opt), problems.slice(0, 5).join(' | '));
     if (!problems.length) { chosen = opt; break; }

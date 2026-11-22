@@ -1,0 +1,94 @@
+{
+ "id": "CSW-22",
+ "kind": "web-draft",
+ "draft": true,
+ "name": "Predator Ridge, Range Restaurant",
+ "sector": "Golf Resort",
+ "country": "Canada",
+ "line": "Three Seasons Under One Roof",
+ "pages": 1,
+ "lede": "At the Predator Ridge golf resort, a retractable-roof pergola turned the Range restaurant and bar’s patio into a three-season dining room. Fourteen 6000 W Bromic electric heaters, LED lighting and screens keep it open in most weather.",
+ "data": [
+  [
+   "Location",
+   "Vernon, British Columbia"
+  ],
+  [
+   "Setting",
+   "Golf-resort restaurant – pergola patio, 65 × 24 ft"
+  ],
+  [
+   "Heaters",
+   "Bromic electric, 6000 W (14) – model to confirm"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ],
+  [
+   "Date",
+   "About 2024"
+  ]
+ ],
+ "beats": [
+  [
+   "The Space",
+   "A patio at the Range restaurant and bar, under a custom retractable-roof pergola 65 ft wide, 24 ft deep and 10 ft high, on a steel platform."
+  ],
+  [
+   "The Challenge",
+   "The restaurant wanted its patio to welcome guests well beyond the summer."
+  ],
+  [
+   "The Solution",
+   "Bella Outdoor Living designed and installed the pergola in two weeks, with fourteen 6000 W Bromic electric heaters, LED lighting and screens integrated."
+  ]
+ ],
+ "team": [
+  "Design and install: Bella Outdoor Living",
+  "Builder: Sawchuk Construction"
+ ],
+ "products": [
+  {
+   "coll": "Bromic",
+   "name": "Bromic heaters – model to confirm",
+   "img": null,
+   "p": "bromic",
+   "where": "Pergola patio",
+   "qty": "14 × 6000 W",
+   "mount": "Integrated into the retractable-roof pergola",
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "notes": [
+  "Draft from public sources: nothing here has been confirmed with the customer. Publish only once the consent checklist in the case-study template is complete.",
+  "6000 W fits Tungsten Electric, but the model is to confirm."
+ ],
+ "slug": "Predator-Ridge-Range-Restaurant",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "file": "content/case-studies/web/CSW-22-predator-ridge-range-restaurant-bar-rang.md",
+  "evidence": "page-read",
+  "completeness": "full-draft",
+  "owner_review": "Canada sales – to confirm"
+ },
+ "sources": [
+  "Bella Outdoor Living: bellaoutdoor.ca/project/predator-ridge-range-restaurant-bar",
+  "Bella Outdoor Living: bellaoutdoor.ca/projects"
+ ],
+ "hero": {
+  "img": "v-predator-ridge-range-1",
+  "caption": "Photo: Bella Outdoor Living, via bellaoutdoor.ca. Permission to publish to be confirmed."
+ },
+ "layout": {
+  "pages": 1,
+  "quote": false,
+  "heroH": 2.4,
+  "beatSize": 7.4,
+  "lede": false
+ }
+}

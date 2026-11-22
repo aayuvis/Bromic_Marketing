@@ -1,0 +1,92 @@
+{
+ "id": "CSW-26",
+ "kind": "web-draft",
+ "draft": true,
+ "name": "Summer Kitchen, Saint-Hippolyte",
+ "sector": "Residential",
+ "country": "Canada",
+ "line": "Heat Along The Whole Kitchen",
+ "pages": 1,
+ "privateHome": true,
+ "lede": "In Saint-Hippolyte, an installer fitted out an open summer kitchen. The brief asked for heat spread along a long prep-and-dining zone rather than one piece over a table, so Tungsten heaters sit in the structure and do their job.",
+ "data": [
+  [
+   "Location",
+   "Saint-Hippolyte, Quebec"
+  ],
+  [
+   "Setting",
+   "Private home – open summer kitchen"
+  ],
+  [
+   "Heaters",
+   "Tungsten Smart-Heat® – electric or gas, and quantity, to confirm"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ],
+  [
+   "Date",
+   "By 2025"
+  ]
+ ],
+ "beats": [
+  [
+   "The Space",
+   "An open summer kitchen with a Dekton counter, a barbecue and a smoker. One page of the installer’s describes it facing a lake, another as a pavilion by a pool."
+  ],
+  [
+   "The Challenge",
+   "The space is open and exposed, and the heat had to reach along a long prep-and-dining zone."
+  ],
+  [
+   "The Solution",
+   "Mughet integrated Bromic Tungsten infrared heaters into the structure. An architect and the design studio Les Coupables worked on the project."
+  ]
+ ],
+ "team": [
+  "Installer: Mughet",
+  "Design: an architect and Les Coupables"
+ ],
+ "products": [
+  {
+   "coll": "Tungsten",
+   "name": "Tungsten Smart-Heat® – electric or gas to confirm",
+   "img": "portfolio:tungsten-electric",
+   "p": "tungsten",
+   "where": "Along the prep-and-dining zone",
+   "mount": "Integrated into the structure",
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "notes": [
+  "Draft from public sources: nothing here has been confirmed with the customer. Publish only once the consent checklist in the case-study template is complete.",
+  "The two installer pages differ on the setting (lakeside or poolside); to confirm."
+ ],
+ "slug": "Summer-Kitchen-Saint-Hippolyte",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "file": "content/case-studies/web/CSW-26-lakeside-summer-kitchen-saint-hippolyte.md",
+  "evidence": "page-read",
+  "completeness": "full-draft",
+  "owner_review": "Canada sales – to confirm"
+ },
+ "sources": [
+  "Mughet (installer, Greater Montréal) (mughet.ca)."
+ ],
+ "hero": {
+  "img": "v-mughet-saint-hippolyte-1",
+  "caption": "Photo: Mughet, via mughet.ca. Permission to publish to be confirmed."
+ },
+ "layout": {
+  "pages": 1,
+  "quote": false,
+  "heroH": 2.6,
+  "beatSize": 7.6
+ }
+}

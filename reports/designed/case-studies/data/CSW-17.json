@@ -1,0 +1,90 @@
+{
+ "id": "CSW-17",
+ "kind": "web-draft",
+ "draft": true,
+ "name": "Taberna Puertalsol",
+ "sector": "Rooftop Restaurant",
+ "country": "Spain",
+ "line": "White Heat Over Sol",
+ "pages": 1,
+ "lede": "High above Plaza Puerta del Sol, a rooftop restaurant looks out over the heart of Madrid. A Bromic trade listing names white 6000 W Tungsten Electric heaters, chosen to suit its clean look and spread warmth across the seating.",
+ "data": [
+  [
+   "Location",
+   "Plaza Puerta del Sol, Madrid"
+  ],
+  [
+   "Setting",
+   "Rooftop restaurant"
+  ],
+  [
+   "Heaters",
+   "Tungsten Smart-Heat® Electric 6000 W, white"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ]
+ ],
+ "beats": [
+  [
+   "The Space",
+   "A rooftop restaurant over Madrid’s best-known square, linked in the listing to a well-known television chef."
+  ],
+  [
+   "The Challenge",
+   "The heaters had to suit the restaurant’s clean look and warm the whole seating area."
+  ],
+  [
+   "The Solution",
+   "White 6000 W Tungsten Smart-Heat Electric heaters, according to the listing. One snippet of the same listing also mentions Platinum Gas: electric alone, or both, is to confirm."
+  ]
+ ],
+ "products": [
+  {
+   "coll": "Tungsten",
+   "name": "Tungsten Smart-Heat® Electric",
+   "img": "portfolio:tungsten-electric",
+   "p": "tungsten-electric",
+   "where": "Rooftop seating",
+   "qty": "6000 W",
+   "mount": "To confirm",
+   "extra": [
+    [
+     "Finish",
+     "White"
+    ]
+   ],
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "slug": "Taberna-Puertalsol",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "file": "content/case-studies/web/CSW-17-taberna-puertalsol-rooftop-restaurant.md",
+  "evidence": "bromic-listing",
+  "completeness": "full-draft",
+  "owner_review": "Bromic EU – to confirm"
+ },
+ "sources": [
+  "ArchiExpo e-Magazine (Product Trends; Bromic-supplied project listing) (search snippet only): trends.archiexpo.com/bromic-heating/project-94052-245587.html"
+ ],
+ "notes": [
+  "Draft from public sources: nothing here has been confirmed with the customer. Publish only once the consent checklist in the case-study template is complete."
+ ],
+ "hero": {
+  "img": "w-23-03-12-bromic-heating-hyatt-dehradun-14",
+  "caption": "Comparable Bromic installation, not this project: replace with project photography once licensed."
+ },
+ "layout": {
+  "pages": 1,
+  "quote": false,
+  "heroH": 2.4,
+  "beatSize": 7.4,
+  "lede": false
+ }
+}

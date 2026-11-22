@@ -1,0 +1,92 @@
+{
+ "id": "CSW-25",
+ "kind": "web-draft",
+ "draft": true,
+ "name": "Summer Kitchen, Blainville",
+ "sector": "Residential",
+ "country": "Canada",
+ "line": "Screens First, Then Heat",
+ "pages": 1,
+ "privateHome": true,
+ "lede": "In Blainville, north of Montréal, an installer planned a backyard as one outdoor room. Once motorised screens closed the exposed side, two Tungsten heaters were enough where the first calculation called for four.",
+ "data": [
+  [
+   "Location",
+   "Blainville, Quebec"
+  ],
+  [
+   "Setting",
+   "Private home – summer kitchen and terrace"
+  ],
+  [
+   "Heaters",
+   "Tungsten Smart-Heat® (2) – electric or gas to confirm"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ],
+  [
+   "Date",
+   "By 2025"
+  ]
+ ],
+ "beats": [
+  [
+   "The Space",
+   "A backyard planned as one outdoor room: a summer kitchen with a Dekton counter, a barbecue, a wood-fired oven, a wood fireplace and motorised screens."
+  ],
+  [
+   "The Challenge",
+   "The kitchen and terrace had to be comfortable on cool Quebec evenings, with as little equipment as the space would allow."
+  ],
+  [
+   "The Solution",
+   "Mughet put the screens in before the heaters. With the exposed side closed, two Bromic Tungsten heaters were enough where the first calculation called for four."
+  ]
+ ],
+ "team": [
+  "Design and installation: Mughet"
+ ],
+ "products": [
+  {
+   "coll": "Tungsten",
+   "name": "Tungsten Smart-Heat® – electric or gas to confirm",
+   "img": "portfolio:tungsten-electric",
+   "p": "tungsten",
+   "where": "Summer kitchen and terrace",
+   "qty": "2",
+   "mount": "Hung from the timber ceiling, as photographed – to confirm",
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "slug": "Summer-Kitchen-Blainville",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "file": "content/case-studies/web/CSW-25-summer-kitchen-blainville.md",
+  "evidence": "page-read",
+  "completeness": "full-draft",
+  "owner_review": "Canada sales – to confirm"
+ },
+ "sources": [
+  "Mughet (installer, Greater Montréal) (mughet.ca)."
+ ],
+ "notes": [
+  "Draft from public sources: nothing here has been confirmed with the customer. Publish only once the consent checklist in the case-study template is complete."
+ ],
+ "hero": {
+  "img": "v-mughet-blainville-1",
+  "caption": "Photo: Mughet, via mughet.ca. Permission to publish to be confirmed."
+ },
+ "layout": {
+  "pages": 1,
+  "quote": false,
+  "heroH": 2.4,
+  "beatSize": 7.4,
+  "lede": false
+ }
+}

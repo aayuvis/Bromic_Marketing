@@ -3,12 +3,12 @@
  "engine": "reports/designed/case-studies/build.js",
  "theme": "reports/themes/project-file",
  "counts": {
-  "built": 5,
-  "bromic": 3,
-  "web_draft": 2,
+  "built": 57,
+  "bromic": 32,
+  "web_draft": 25,
   "skipped": 5
  },
- "total_bytes": 2816301,
+ "total_bytes": 27705048,
  "built": [
   {
    "id": "cs-eclipse-electric-and-tungsten-electric-at-pink-hill-hotel",
@@ -23,7 +23,174 @@
     "cs-eclipse-electric-and-tungsten-electric-at-pink-hill-hotel/pages/p3.png"
    ],
    "page_count": 3,
-   "bytes": 1543809
+   "bytes": 1549845
+  },
+  {
+   "id": "cs-albany-zero-emissions-multifamily-building",
+   "item_id": null,
+   "title": "Industrie",
+   "kind": "bromic",
+   "pdf": "cs-albany-zero-emissions-multifamily-building/Bromic-Project-File-Industrie.pdf",
+   "cover": "cs-albany-zero-emissions-multifamily-building/pages/p1.png",
+   "pages": [
+    "cs-albany-zero-emissions-multifamily-building/pages/p1.png",
+    "cs-albany-zero-emissions-multifamily-building/pages/p2.png"
+   ],
+   "page_count": 2,
+   "bytes": 790582
+  },
+  {
+   "id": "cs-christophers-at-wrigley-mansion",
+   "item_id": null,
+   "title": "Christopher’s At Wrigley Mansion",
+   "kind": "bromic",
+   "pdf": "cs-christophers-at-wrigley-mansion/Bromic-Project-File-Christophers-At-Wrigley-Mansion.pdf",
+   "cover": "cs-christophers-at-wrigley-mansion/pages/p1.png",
+   "pages": [
+    "cs-christophers-at-wrigley-mansion/pages/p1.png",
+    "cs-christophers-at-wrigley-mansion/pages/p2.png"
+   ],
+   "page_count": 2,
+   "bytes": 800485
+  },
+  {
+   "id": "cs-del-friscos-double-eagle-steakhouse",
+   "item_id": null,
+   "title": "Del Frisco’s Double Eagle Steakhouse",
+   "kind": "bromic",
+   "pdf": "cs-del-friscos-double-eagle-steakhouse/Bromic-Project-File-Del-Friscos-Double-Eagle-Steakhouse.pdf",
+   "cover": "cs-del-friscos-double-eagle-steakhouse/pages/p1.png",
+   "pages": [
+    "cs-del-friscos-double-eagle-steakhouse/pages/p1.png"
+   ],
+   "page_count": 1,
+   "bytes": 126618
+  },
+  {
+   "id": "cs-desert-mirage-blurring-the-lines-between-home-and-nature",
+   "item_id": null,
+   "title": "Desert Mirage",
+   "kind": "bromic",
+   "pdf": "cs-desert-mirage-blurring-the-lines-between-home-and-nature/Bromic-Project-File-Desert-Mirage.pdf",
+   "cover": "cs-desert-mirage-blurring-the-lines-between-home-and-nature/pages/p1.png",
+   "pages": [
+    "cs-desert-mirage-blurring-the-lines-between-home-and-nature/pages/p1.png",
+    "cs-desert-mirage-blurring-the-lines-between-home-and-nature/pages/p2.png"
+   ],
+   "page_count": 2,
+   "bytes": 925452
+  },
+  {
+   "id": "cs-eclipse-pendant-and-platinum-electric-at-stellas-wine-bar",
+   "item_id": null,
+   "title": "Stella’s Wine Bar",
+   "kind": "bromic",
+   "pdf": "cs-eclipse-pendant-and-platinum-electric-at-stellas-wine-bar/Bromic-Project-File-Stellas-Wine-Bar.pdf",
+   "cover": "cs-eclipse-pendant-and-platinum-electric-at-stellas-wine-bar/pages/p1.png",
+   "pages": [
+    "cs-eclipse-pendant-and-platinum-electric-at-stellas-wine-bar/pages/p1.png",
+    "cs-eclipse-pendant-and-platinum-electric-at-stellas-wine-bar/pages/p2.png"
+   ],
+   "page_count": 2,
+   "bytes": 399828
+  },
+  {
+   "id": "cs-embracing-earthy-elegance-at-oran-park-hotel",
+   "item_id": null,
+   "title": "Oran Park Hotel",
+   "kind": "bromic",
+   "pdf": "cs-embracing-earthy-elegance-at-oran-park-hotel/Bromic-Project-File-Oran-Park-Hotel.pdf",
+   "cover": "cs-embracing-earthy-elegance-at-oran-park-hotel/pages/p1.png",
+   "pages": [
+    "cs-embracing-earthy-elegance-at-oran-park-hotel/pages/p1.png",
+    "cs-embracing-earthy-elegance-at-oran-park-hotel/pages/p2.png",
+    "cs-embracing-earthy-elegance-at-oran-park-hotel/pages/p3.png"
+   ],
+   "page_count": 3,
+   "bytes": 1049475
+  },
+  {
+   "id": "cs-embracing-natures-elegance-ambiente-sedona",
+   "item_id": null,
+   "title": "Ambiente Sedona",
+   "kind": "bromic",
+   "pdf": "cs-embracing-natures-elegance-ambiente-sedona/Bromic-Project-File-Ambiente-Sedona.pdf",
+   "cover": "cs-embracing-natures-elegance-ambiente-sedona/pages/p1.png",
+   "pages": [
+    "cs-embracing-natures-elegance-ambiente-sedona/pages/p1.png",
+    "cs-embracing-natures-elegance-ambiente-sedona/pages/p2.png",
+    "cs-embracing-natures-elegance-ambiente-sedona/pages/p3.png"
+   ],
+   "page_count": 3,
+   "bytes": 1540919
+  },
+  {
+   "id": "cs-enhancing-rooftop-bar-designs-with-cutting-edge-outdoor-heat",
+   "item_id": null,
+   "title": "Rooftop Bar, Irvine",
+   "kind": "bromic",
+   "pdf": "cs-enhancing-rooftop-bar-designs-with-cutting-edge-outdoor-heat/Bromic-Project-File-Rooftop-Bar-Irvine.pdf",
+   "cover": "cs-enhancing-rooftop-bar-designs-with-cutting-edge-outdoor-heat/pages/p1.png",
+   "pages": [
+    "cs-enhancing-rooftop-bar-designs-with-cutting-edge-outdoor-heat/pages/p1.png",
+    "cs-enhancing-rooftop-bar-designs-with-cutting-edge-outdoor-heat/pages/p2.png"
+   ],
+   "page_count": 2,
+   "bytes": 565631
+  },
+  {
+   "id": "cs-enhancing-work-life-balance-with-year-round-outdoor-comfort-",
+   "item_id": null,
+   "title": "The Boardwalk",
+   "kind": "bromic",
+   "pdf": "cs-enhancing-work-life-balance-with-year-round-outdoor-comfort-/Bromic-Project-File-The-Boardwalk.pdf",
+   "cover": "cs-enhancing-work-life-balance-with-year-round-outdoor-comfort-/pages/p1.png",
+   "pages": [
+    "cs-enhancing-work-life-balance-with-year-round-outdoor-comfort-/pages/p1.png"
+   ],
+   "page_count": 1,
+   "bytes": 360752
+  },
+  {
+   "id": "cs-from-gut-renovation-to-outdoor-bliss-how-bromics-tungsten-he",
+   "item_id": null,
+   "title": "Screened Porch, New Jersey",
+   "kind": "bromic",
+   "pdf": "cs-from-gut-renovation-to-outdoor-bliss-how-bromics-tungsten-he/Bromic-Project-File-Screened-Porch-New-Jersey.pdf",
+   "cover": "cs-from-gut-renovation-to-outdoor-bliss-how-bromics-tungsten-he/pages/p1.png",
+   "pages": [
+    "cs-from-gut-renovation-to-outdoor-bliss-how-bromics-tungsten-he/pages/p1.png",
+    "cs-from-gut-renovation-to-outdoor-bliss-how-bromics-tungsten-he/pages/p2.png"
+   ],
+   "page_count": 2,
+   "bytes": 763561
+  },
+  {
+   "id": "cs-hide-restaurant",
+   "item_id": null,
+   "title": "HIDE",
+   "kind": "bromic",
+   "pdf": "cs-hide-restaurant/Bromic-Project-File-HIDE.pdf",
+   "cover": "cs-hide-restaurant/pages/p1.png",
+   "pages": [
+    "cs-hide-restaurant/pages/p1.png"
+   ],
+   "page_count": 1,
+   "bytes": 290672
+  },
+  {
+   "id": "cs-hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-",
+   "item_id": null,
+   "title": "Hotel Skansen",
+   "kind": "bromic",
+   "pdf": "cs-hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-/Bromic-Project-File-Hotel-Skansen.pdf",
+   "cover": "cs-hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-/pages/p1.png",
+   "pages": [
+    "cs-hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-/pages/p1.png",
+    "cs-hotel-skansen-elevates-outdoor-dining-with-the-bromic-smart-/pages/p2.png"
+   ],
+   "page_count": 2,
+   "bytes": 677860
   },
   {
    "id": "cs-kahite-golf-course-pub-grill",
@@ -40,6 +207,130 @@
    "bytes": 99714
   },
   {
+   "id": "cs-london-restauranteur-incorporates-full-bromic-line-across-lo",
+   "item_id": null,
+   "title": "Paris Grill, Paris Bar & Kadie’s Club",
+   "kind": "bromic",
+   "pdf": "cs-london-restauranteur-incorporates-full-bromic-line-across-lo/Bromic-Project-File-Paris-Grill-Paris-Bar-and-Kadies-Club.pdf",
+   "cover": "cs-london-restauranteur-incorporates-full-bromic-line-across-lo/pages/p1.png",
+   "pages": [
+    "cs-london-restauranteur-incorporates-full-bromic-line-across-lo/pages/p1.png",
+    "cs-london-restauranteur-incorporates-full-bromic-line-across-lo/pages/p2.png"
+   ],
+   "page_count": 2,
+   "bytes": 285478
+  },
+  {
+   "id": "cs-m-y-lady-lene-superyacht",
+   "item_id": null,
+   "title": "M/Y Lady Lene",
+   "kind": "bromic",
+   "pdf": "cs-m-y-lady-lene-superyacht/Bromic-Project-File-M-Y-Lady-Lene.pdf",
+   "cover": "cs-m-y-lady-lene-superyacht/pages/p1.png",
+   "pages": [
+    "cs-m-y-lady-lene-superyacht/pages/p1.png",
+    "cs-m-y-lady-lene-superyacht/pages/p2.png"
+   ],
+   "page_count": 2,
+   "bytes": 474109
+  },
+  {
+   "id": "cs-pecora-bianca",
+   "item_id": null,
+   "title": "Pecora Bianca",
+   "kind": "bromic",
+   "pdf": "cs-pecora-bianca/Bromic-Project-File-Pecora-Bianca.pdf",
+   "cover": "cs-pecora-bianca/pages/p1.png",
+   "pages": [
+    "cs-pecora-bianca/pages/p1.png"
+   ],
+   "page_count": 1,
+   "bytes": 408757
+  },
+  {
+   "id": "cs-platinum-electric-heaters-in-pangbourne",
+   "item_id": null,
+   "title": "Barn Conversion, Pangbourne",
+   "kind": "bromic",
+   "pdf": "cs-platinum-electric-heaters-in-pangbourne/Bromic-Project-File-Barn-Conversion-Pangbourne.pdf",
+   "cover": "cs-platinum-electric-heaters-in-pangbourne/pages/p1.png",
+   "pages": [
+    "cs-platinum-electric-heaters-in-pangbourne/pages/p1.png",
+    "cs-platinum-electric-heaters-in-pangbourne/pages/p2.png"
+   ],
+   "page_count": 2,
+   "bytes": 1260074
+  },
+  {
+   "id": "cs-platinum-electric-heaters-recessed-using-the-low-clearance-r",
+   "item_id": null,
+   "title": "Artivo Shades New Build",
+   "kind": "bromic",
+   "pdf": "cs-platinum-electric-heaters-recessed-using-the-low-clearance-r/Bromic-Project-File-Artivo-Shades-New-Build.pdf",
+   "cover": "cs-platinum-electric-heaters-recessed-using-the-low-clearance-r/pages/p1.png",
+   "pages": [
+    "cs-platinum-electric-heaters-recessed-using-the-low-clearance-r/pages/p1.png"
+   ],
+   "page_count": 1,
+   "bytes": 209911
+  },
+  {
+   "id": "cs-platinum-electric-marine-heaters-aboard-iconic-superyacht-m-",
+   "item_id": null,
+   "title": "M/Y Coral Ocean",
+   "kind": "bromic",
+   "pdf": "cs-platinum-electric-marine-heaters-aboard-iconic-superyacht-m-/Bromic-Project-File-M-Y-Coral-Ocean.pdf",
+   "cover": "cs-platinum-electric-marine-heaters-aboard-iconic-superyacht-m-/pages/p1.png",
+   "pages": [
+    "cs-platinum-electric-marine-heaters-aboard-iconic-superyacht-m-/pages/p1.png",
+    "cs-platinum-electric-marine-heaters-aboard-iconic-superyacht-m-/pages/p2.png"
+   ],
+   "page_count": 2,
+   "bytes": 678492
+  },
+  {
+   "id": "cs-platinum-electric-marine-heaters-aboard-ritz-carlton-yacht-c",
+   "item_id": null,
+   "title": "Evrima",
+   "kind": "bromic",
+   "pdf": "cs-platinum-electric-marine-heaters-aboard-ritz-carlton-yacht-c/Bromic-Project-File-Evrima.pdf",
+   "cover": "cs-platinum-electric-marine-heaters-aboard-ritz-carlton-yacht-c/pages/p1.png",
+   "pages": [
+    "cs-platinum-electric-marine-heaters-aboard-ritz-carlton-yacht-c/pages/p1.png",
+    "cs-platinum-electric-marine-heaters-aboard-ritz-carlton-yacht-c/pages/p2.png"
+   ],
+   "page_count": 2,
+   "bytes": 829562
+  },
+  {
+   "id": "cs-print-restaurant",
+   "item_id": null,
+   "title": "Print Restaurant",
+   "kind": "bromic",
+   "pdf": "cs-print-restaurant/Bromic-Project-File-Print-Restaurant.pdf",
+   "cover": "cs-print-restaurant/pages/p1.png",
+   "pages": [
+    "cs-print-restaurant/pages/p1.png",
+    "cs-print-restaurant/pages/p2.png"
+   ],
+   "page_count": 2,
+   "bytes": 698397
+  },
+  {
+   "id": "cs-private-residence-connecticut",
+   "item_id": null,
+   "title": "Porch, Connecticut",
+   "kind": "bromic",
+   "pdf": "cs-private-residence-connecticut/Bromic-Project-File-Porch-Connecticut.pdf",
+   "cover": "cs-private-residence-connecticut/pages/p1.png",
+   "pages": [
+    "cs-private-residence-connecticut/pages/p1.png",
+    "cs-private-residence-connecticut/pages/p2.png"
+   ],
+   "page_count": 2,
+   "bytes": 1051822
+  },
+  {
    "id": "cs-provenance",
    "item_id": null,
    "title": "Provenance",
@@ -53,6 +344,142 @@
    "bytes": 425308
   },
   {
+   "id": "cs-smart-heating-aboard-the-most-technologically-advanced-cruis",
+   "item_id": null,
+   "title": "Silver Nova",
+   "kind": "bromic",
+   "pdf": "cs-smart-heating-aboard-the-most-technologically-advanced-cruis/Bromic-Project-File-Silver-Nova.pdf",
+   "cover": "cs-smart-heating-aboard-the-most-technologically-advanced-cruis/pages/p1.png",
+   "pages": [
+    "cs-smart-heating-aboard-the-most-technologically-advanced-cruis/pages/p1.png",
+    "cs-smart-heating-aboard-the-most-technologically-advanced-cruis/pages/p2.png",
+    "cs-smart-heating-aboard-the-most-technologically-advanced-cruis/pages/p3.png"
+   ],
+   "page_count": 3,
+   "bytes": 1183238
+  },
+  {
+   "id": "cs-talon-bar-brooklyn",
+   "item_id": null,
+   "title": "Talon Bar",
+   "kind": "bromic",
+   "pdf": "cs-talon-bar-brooklyn/Bromic-Project-File-Talon-Bar.pdf",
+   "cover": "cs-talon-bar-brooklyn/pages/p1.png",
+   "pages": [
+    "cs-talon-bar-brooklyn/pages/p1.png"
+   ],
+   "page_count": 1,
+   "bytes": 510627
+  },
+  {
+   "id": "cs-the-calile-hotel",
+   "item_id": null,
+   "title": "The Calile Hotel",
+   "kind": "bromic",
+   "pdf": "cs-the-calile-hotel/Bromic-Project-File-The-Calile-Hotel.pdf",
+   "cover": "cs-the-calile-hotel/pages/p1.png",
+   "pages": [
+    "cs-the-calile-hotel/pages/p1.png"
+   ],
+   "page_count": 1,
+   "bytes": 222933
+  },
+  {
+   "id": "cs-the-modern-heating-solution-for-vintage-upscale-dining",
+   "item_id": null,
+   "title": "Rare Society",
+   "kind": "bromic",
+   "pdf": "cs-the-modern-heating-solution-for-vintage-upscale-dining/Bromic-Project-File-Rare-Society.pdf",
+   "cover": "cs-the-modern-heating-solution-for-vintage-upscale-dining/pages/p1.png",
+   "pages": [
+    "cs-the-modern-heating-solution-for-vintage-upscale-dining/pages/p1.png",
+    "cs-the-modern-heating-solution-for-vintage-upscale-dining/pages/p2.png"
+   ],
+   "page_count": 2,
+   "bytes": 1058890
+  },
+  {
+   "id": "cs-the-sheraton-carlsbad-resort-spa",
+   "item_id": null,
+   "title": "Sheraton Carlsbad Resort & Spa",
+   "kind": "bromic",
+   "pdf": "cs-the-sheraton-carlsbad-resort-spa/Bromic-Project-File-Sheraton-Carlsbad-Resort-and-Spa.pdf",
+   "cover": "cs-the-sheraton-carlsbad-resort-spa/pages/p1.png",
+   "pages": [
+    "cs-the-sheraton-carlsbad-resort-spa/pages/p1.png",
+    "cs-the-sheraton-carlsbad-resort-spa/pages/p2.png"
+   ],
+   "page_count": 2,
+   "bytes": 511119
+  },
+  {
+   "id": "cs-the-w-hotel",
+   "item_id": null,
+   "title": "W Hotel, POV Terrace",
+   "kind": "bromic",
+   "pdf": "cs-the-w-hotel/Bromic-Project-File-W-Hotel-POV-Terrace.pdf",
+   "cover": "cs-the-w-hotel/pages/p1.png",
+   "pages": [
+    "cs-the-w-hotel/pages/p1.png"
+   ],
+   "page_count": 1,
+   "bytes": 299320
+  },
+  {
+   "id": "cs-tungsten-electric-heaters-at-clinica-las-condes",
+   "item_id": null,
+   "title": "Clínica Las Condes",
+   "kind": "bromic",
+   "pdf": "cs-tungsten-electric-heaters-at-clinica-las-condes/Bromic-Project-File-Clinica-Las-Condes.pdf",
+   "cover": "cs-tungsten-electric-heaters-at-clinica-las-condes/pages/p1.png",
+   "pages": [
+    "cs-tungsten-electric-heaters-at-clinica-las-condes/pages/p1.png",
+    "cs-tungsten-electric-heaters-at-clinica-las-condes/pages/p2.png"
+   ],
+   "page_count": 2,
+   "bytes": 98303
+  },
+  {
+   "id": "cs-welcoming-guests-with-the-warmth-of-mexican-hospitality",
+   "item_id": null,
+   "title": "Centrico",
+   "kind": "bromic",
+   "pdf": "cs-welcoming-guests-with-the-warmth-of-mexican-hospitality/Bromic-Project-File-Centrico.pdf",
+   "cover": "cs-welcoming-guests-with-the-warmth-of-mexican-hospitality/pages/p1.png",
+   "pages": [
+    "cs-welcoming-guests-with-the-warmth-of-mexican-hospitality/pages/p1.png",
+    "cs-welcoming-guests-with-the-warmth-of-mexican-hospitality/pages/p2.png"
+   ],
+   "page_count": 2,
+   "bytes": 393508
+  },
+  {
+   "id": "CSW-01",
+   "item_id": null,
+   "title": "The Luna",
+   "kind": "web-draft",
+   "pdf": "CSW-01/Bromic-Project-File-The-Luna.pdf",
+   "cover": "CSW-01/pages/p1.png",
+   "pages": [
+    "CSW-01/pages/p1.png"
+   ],
+   "page_count": 1,
+   "bytes": 156834
+  },
+  {
+   "id": "CSW-02",
+   "item_id": null,
+   "title": "Mountain Estate, Breckenridge",
+   "kind": "web-draft",
+   "pdf": "CSW-02/Bromic-Project-File-Mountain-Estate-Breckenridge.pdf",
+   "cover": "CSW-02/pages/p1.png",
+   "pages": [
+    "CSW-02/pages/p1.png"
+   ],
+   "page_count": 1,
+   "bytes": 163059
+  },
+  {
    "id": "CSW-03",
    "item_id": null,
    "title": "Juneau Showhome",
@@ -64,7 +491,153 @@
     "CSW-03/pages/p2.png"
    ],
    "page_count": 2,
-   "bytes": 423347
+   "bytes": 423294
+  },
+  {
+   "id": "CSW-04",
+   "item_id": null,
+   "title": "Two Michigan Pergolas",
+   "kind": "web-draft",
+   "pdf": "CSW-04/Bromic-Project-File-Two-Michigan-Pergolas.pdf",
+   "cover": "CSW-04/pages/p1.png",
+   "pages": [
+    "CSW-04/pages/p1.png",
+    "CSW-04/pages/p2.png"
+   ],
+   "page_count": 2,
+   "bytes": 294009
+  },
+  {
+   "id": "CSW-05",
+   "item_id": null,
+   "title": "Reveal Design Backyards",
+   "kind": "web-draft",
+   "pdf": "CSW-05/Bromic-Project-File-Reveal-Design-Backyards.pdf",
+   "cover": "CSW-05/pages/p1.png",
+   "pages": [
+    "CSW-05/pages/p1.png",
+    "CSW-05/pages/p2.png"
+   ],
+   "page_count": 2,
+   "bytes": 950390
+  },
+  {
+   "id": "CSW-06",
+   "item_id": null,
+   "title": "Patio Cover, Sammamish",
+   "kind": "web-draft",
+   "pdf": "CSW-06/Bromic-Project-File-Patio-Cover-Sammamish.pdf",
+   "cover": "CSW-06/pages/p1.png",
+   "pages": [
+    "CSW-06/pages/p1.png"
+   ],
+   "page_count": 1,
+   "bytes": 301919
+  },
+  {
+   "id": "CSW-07",
+   "item_id": null,
+   "title": "Outdoor Room, Houston",
+   "kind": "web-draft",
+   "pdf": "CSW-07/Bromic-Project-File-Outdoor-Room-Houston.pdf",
+   "cover": "CSW-07/pages/p1.png",
+   "pages": [
+    "CSW-07/pages/p1.png"
+   ],
+   "page_count": 1,
+   "bytes": 114581
+  },
+  {
+   "id": "CSW-08",
+   "item_id": null,
+   "title": "The Queen’s Club",
+   "kind": "web-draft",
+   "pdf": "CSW-08/Bromic-Project-File-The-Queens-Club.pdf",
+   "cover": "CSW-08/pages/p1.png",
+   "pages": [
+    "CSW-08/pages/p1.png"
+   ],
+   "page_count": 1,
+   "bytes": 489870
+  },
+  {
+   "id": "CSW-09",
+   "item_id": null,
+   "title": "Café Sydney",
+   "kind": "web-draft",
+   "pdf": "CSW-09/Bromic-Project-File-Cafe-Sydney.pdf",
+   "cover": "CSW-09/pages/p1.png",
+   "pages": [
+    "CSW-09/pages/p1.png"
+   ],
+   "page_count": 1,
+   "bytes": 162501
+  },
+  {
+   "id": "CSW-10",
+   "item_id": null,
+   "title": "The Camellia Hotel",
+   "kind": "web-draft",
+   "pdf": "CSW-10/Bromic-Project-File-The-Camellia-Hotel.pdf",
+   "cover": "CSW-10/pages/p1.png",
+   "pages": [
+    "CSW-10/pages/p1.png"
+   ],
+   "page_count": 1,
+   "bytes": 125993
+  },
+  {
+   "id": "CSW-11",
+   "item_id": null,
+   "title": "Chiswick",
+   "kind": "web-draft",
+   "pdf": "CSW-11/Bromic-Project-File-Chiswick.pdf",
+   "cover": "CSW-11/pages/p1.png",
+   "pages": [
+    "CSW-11/pages/p1.png"
+   ],
+   "page_count": 1,
+   "bytes": 182671
+  },
+  {
+   "id": "CSW-12",
+   "item_id": null,
+   "title": "Azotea Del Círculo",
+   "kind": "web-draft",
+   "pdf": "CSW-12/Bromic-Project-File-Azotea-Del-Circulo.pdf",
+   "cover": "CSW-12/pages/p1.png",
+   "pages": [
+    "CSW-12/pages/p1.png"
+   ],
+   "page_count": 1,
+   "bytes": 255470
+  },
+  {
+   "id": "CSW-14",
+   "item_id": null,
+   "title": "Expedition Ships",
+   "kind": "web-draft",
+   "pdf": "CSW-14/Bromic-Project-File-Expedition-Ships.pdf",
+   "cover": "CSW-14/pages/p1.png",
+   "pages": [
+    "CSW-14/pages/p1.png",
+    "CSW-14/pages/p2.png"
+   ],
+   "page_count": 2,
+   "bytes": 285226
+  },
+  {
+   "id": "CSW-15",
+   "item_id": null,
+   "title": "Mein Schiff 4",
+   "kind": "web-draft",
+   "pdf": "CSW-15/Bromic-Project-File-Mein-Schiff-4.pdf",
+   "cover": "CSW-15/pages/p1.png",
+   "pages": [
+    "CSW-15/pages/p1.png"
+   ],
+   "page_count": 1,
+   "bytes": 220865
   },
   {
    "id": "CSW-16",
@@ -78,7 +651,140 @@
     "CSW-16/pages/p2.png"
    ],
    "page_count": 2,
-   "bytes": 324123
+   "bytes": 324082
+  },
+  {
+   "id": "CSW-17",
+   "item_id": null,
+   "title": "Taberna Puertalsol",
+   "kind": "web-draft",
+   "pdf": "CSW-17/Bromic-Project-File-Taberna-Puertalsol.pdf",
+   "cover": "CSW-17/pages/p1.png",
+   "pages": [
+    "CSW-17/pages/p1.png"
+   ],
+   "page_count": 1,
+   "bytes": 343001
+  },
+  {
+   "id": "CSW-18",
+   "item_id": null,
+   "title": "Greenwood Restaurant",
+   "kind": "web-draft",
+   "pdf": "CSW-18/Bromic-Project-File-Greenwood-Restaurant.pdf",
+   "cover": "CSW-18/pages/p1.png",
+   "pages": [
+    "CSW-18/pages/p1.png"
+   ],
+   "page_count": 1,
+   "bytes": 165720
+  },
+  {
+   "id": "CSW-19",
+   "item_id": null,
+   "title": "Howard Park Public House",
+   "kind": "web-draft",
+   "pdf": "CSW-19/Bromic-Project-File-Howard-Park-Public-House.pdf",
+   "cover": "CSW-19/pages/p1.png",
+   "pages": [
+    "CSW-19/pages/p1.png",
+    "CSW-19/pages/p2.png"
+   ],
+   "page_count": 2,
+   "bytes": 246493
+  },
+  {
+   "id": "CSW-20",
+   "item_id": null,
+   "title": "Lambeau Field Alumni Suite Terrace",
+   "kind": "web-draft",
+   "pdf": "CSW-20/Bromic-Project-File-Lambeau-Field-Alumni-Suite-Terrace.pdf",
+   "cover": "CSW-20/pages/p1.png",
+   "pages": [
+    "CSW-20/pages/p1.png",
+    "CSW-20/pages/p2.png"
+   ],
+   "page_count": 2,
+   "bytes": 432996
+  },
+  {
+   "id": "CSW-21",
+   "item_id": null,
+   "title": "Catch The Wave Swim School",
+   "kind": "web-draft",
+   "pdf": "CSW-21/Bromic-Project-File-Catch-The-Wave-Swim-School.pdf",
+   "cover": "CSW-21/pages/p1.png",
+   "pages": [
+    "CSW-21/pages/p1.png"
+   ],
+   "page_count": 1,
+   "bytes": 159392
+  },
+  {
+   "id": "CSW-22",
+   "item_id": null,
+   "title": "Predator Ridge, Range Restaurant",
+   "kind": "web-draft",
+   "pdf": "CSW-22/Bromic-Project-File-Predator-Ridge-Range-Restaurant.pdf",
+   "cover": "CSW-22/pages/p1.png",
+   "pages": [
+    "CSW-22/pages/p1.png"
+   ],
+   "page_count": 1,
+   "bytes": 345134
+  },
+  {
+   "id": "CSW-23",
+   "item_id": null,
+   "title": "Front Yard, New Jersey",
+   "kind": "web-draft",
+   "pdf": "CSW-23/Bromic-Project-File-Front-Yard-New-Jersey.pdf",
+   "cover": "CSW-23/pages/p1.png",
+   "pages": [
+    "CSW-23/pages/p1.png"
+   ],
+   "page_count": 1,
+   "bytes": 212496
+  },
+  {
+   "id": "CSW-24",
+   "item_id": null,
+   "title": "Babylon Rooftop",
+   "kind": "web-draft",
+   "pdf": "CSW-24/Bromic-Project-File-Babylon-Rooftop.pdf",
+   "cover": "CSW-24/pages/p1.png",
+   "pages": [
+    "CSW-24/pages/p1.png",
+    "CSW-24/pages/p2.png"
+   ],
+   "page_count": 2,
+   "bytes": 345120
+  },
+  {
+   "id": "CSW-25",
+   "item_id": null,
+   "title": "Summer Kitchen, Blainville",
+   "kind": "web-draft",
+   "pdf": "CSW-25/Bromic-Project-File-Summer-Kitchen-Blainville.pdf",
+   "cover": "CSW-25/pages/p1.png",
+   "pages": [
+    "CSW-25/pages/p1.png"
+   ],
+   "page_count": 1,
+   "bytes": 297984
+  },
+  {
+   "id": "CSW-26",
+   "item_id": null,
+   "title": "Summer Kitchen, Saint-Hippolyte",
+   "kind": "web-draft",
+   "pdf": "CSW-26/Bromic-Project-File-Summer-Kitchen-Saint-Hippolyte.pdf",
+   "cover": "CSW-26/pages/p1.png",
+   "pages": [
+    "CSW-26/pages/p1.png"
+   ],
+   "page_count": 1,
+   "bytes": 164706
   }
  ],
  "skipped": [

@@ -1,0 +1,89 @@
+{
+ "id": "CSW-23",
+ "kind": "web-draft",
+ "draft": true,
+ "name": "Front Yard, New Jersey",
+ "sector": "Residential",
+ "country": "USA",
+ "line": "Warmth Planned From The Front",
+ "pages": 1,
+ "privateHome": true,
+ "lede": "A Deckorators press release presents a front-of-home redesign at a New Jersey farmhouse-style home: an all-season lounge with Bromic Platinum Electric heaters built in, beside a custom swing bed.",
+ "data": [
+  [
+   "Location",
+   "New Jersey"
+  ],
+  [
+   "Setting",
+   "Private home – front-yard lounge"
+  ],
+  [
+   "Heaters",
+   "Platinum Smart-Heat® Electric, built in"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ],
+  [
+   "Date",
+   "2026"
+  ]
+ ],
+ "beats": [
+  [
+   "The Space",
+   "The front yard of a farmhouse-style home, redesigned around a deck, a porch and a lounge."
+  ],
+  [
+   "The Challenge",
+   "The lounge was to be used in every season, as part of the national “Year of the Front Yard” campaign."
+  ],
+  [
+   "The Solution",
+   "Premier Outdoor Living built Bromic Platinum Electric heaters into the all-season lounge, beside a custom Deckorators swing bed."
+  ]
+ ],
+ "team": [
+  "Builder and installer: Premier Outdoor Living (Deckorators Certified Elite Pro)"
+ ],
+ "products": [
+  {
+   "coll": "Platinum",
+   "name": "Platinum Smart-Heat® Electric",
+   "img": "portfolio:platinum-electric",
+   "p": "platinum-electric",
+   "where": "All-season front-yard lounge",
+   "mount": "Built in",
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "slug": "Front-Yard-New-Jersey",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "file": "content/case-studies/web/CSW-23-front-yard-deckorators-year-of-the-front.md",
+  "evidence": "page-read",
+  "completeness": "full-draft",
+  "owner_review": "US field sales"
+ },
+ "sources": [
+  "PR Newswire (Deckorators) (prnewswire.com)."
+ ],
+ "notes": [
+  "Draft from public sources: nothing here has been confirmed with the customer. Publish only once the consent checklist in the case-study template is complete."
+ ],
+ "hero": {
+  "img": "v-deckorators-front-yard-1",
+  "caption": "Photo: Deckorators, via prnewswire.com. Permission to publish to be confirmed."
+ },
+ "layout": {
+  "pages": 1,
+  "quote": true,
+  "heroH": 2.8
+ }
+}

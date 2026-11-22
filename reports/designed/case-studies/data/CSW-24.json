@@ -1,0 +1,112 @@
+{
+ "id": "CSW-24",
+ "kind": "web-draft",
+ "draft": true,
+ "name": "Babylon Rooftop",
+ "sector": "Rooftop Restaurant",
+ "country": "Australia",
+ "line": "Thirty-Four Heaters Over Sydney",
+ "pages": 2,
+ "lede": "On the rooftop of Westfield Sydney, Babylon’s outdoor terrace and alfresco dining are warmed by 34 Platinum gas heaters in two sizes. Bromic worked with the architects on the heat, for an operator returning for a second venue.",
+ "data": [
+  [
+   "Location",
+   "Level 7, Westfield Sydney, Pitt Street"
+  ],
+  [
+   "Setting",
+   "Rooftop bar and restaurant – terrace and alfresco"
+  ],
+  [
+   "Heaters",
+   "Platinum Smart-Heat® Gas, two sizes (34)"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ],
+  [
+   "Date",
+   "Opened 2019"
+  ]
+ ],
+ "beats": [
+  [
+   "The Space",
+   "Babylon sits on the rooftop of Westfield Sydney: a Mantle Group restaurant and bar designed by Hogg & Lamb and built by Xenia, with an outdoor terrace and alfresco dining."
+  ],
+  [
+   "The Challenge",
+   "The open terrace and alfresco areas had to stay comfortable for diners through the cooler months."
+  ],
+  [
+   "The Solution",
+   "Thirty-four Platinum Smart-Heat Gas heaters – 22 of the smaller size and 12 of the larger – warm the outdoor areas. Bromic worked with the architects on the heating."
+  ]
+ ],
+ "zones": {
+  "title": "Terrace And Alfresco",
+  "shape": "plan",
+  "items": [
+   {
+    "l": "A",
+    "name": "Outdoor terrace",
+    "text": "Platinum Gas.",
+    "w": 1.2
+   },
+   {
+    "l": "B",
+    "name": "Alfresco dining",
+    "text": "Platinum Gas.",
+    "w": 1
+   }
+  ]
+ },
+ "team": [
+  "Architect: Hogg & Lamb",
+  "Builder: Xenia",
+  "Operator and project manager: Mantle Group"
+ ],
+ "products": [
+  {
+   "coll": "Platinum",
+   "name": "Platinum Smart-Heat® Gas",
+   "img": "v-babylon-sydney-1",
+   "p": "platinum-gas",
+   "where": "Outdoor terrace and alfresco dining",
+   "qty": "34: 22 smaller, 12 larger",
+   "mount": "To confirm",
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "notes": [
+  "Draft from public sources: nothing here has been confirmed with the customer. Publish only once the consent checklist in the case-study template is complete.",
+  "The source names the sizes with a legacy numbering; current model names to confirm. Mantle Group also worked with Bromic at Squire’s Landing, Circular Quay."
+ ],
+ "slug": "Babylon-Rooftop",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "file": "content/case-studies/web/CSW-24-babylon-rooftop-sydney.md",
+  "evidence": "page-read",
+  "completeness": "full-draft",
+  "owner_review": "Hospitality sales – to confirm"
+ },
+ "sources": [
+  "Venue Magazine (venue.net.au): venue.net.au/babylon-rooftop-bar-restaurant",
+  "Dezeen: dezeen.com/2019/09/07/babylon-restaurant-bar-hoggs-lamb-sydney-australia"
+ ],
+ "hero": {
+  "img": "v-babylon-sydney-1",
+  "caption": "Photo: Venue magazine, via venue.net.au. Permission to publish to be confirmed."
+ },
+ "layout": {
+  "pages": 2,
+  "zones": false,
+  "table": false,
+  "quote": true
+ }
+}

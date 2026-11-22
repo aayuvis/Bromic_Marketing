@@ -1,0 +1,94 @@
+{
+ "id": "CSW-18",
+ "kind": "web-draft",
+ "draft": true,
+ "name": "Greenwood Restaurant",
+ "sector": "Restaurant",
+ "country": "USA",
+ "line": "Mid-Century Lines, Warm Patio",
+ "pages": 1,
+ "lede": "Greenwood’s interior pairs mid-century modern lines with rustic warmth, and that character runs out onto the patio. Platinum gas heaters were chosen for their looks and their output, fitted around the tables and the traffic.",
+ "data": [
+  [
+   "Location",
+   "Highwood, Illinois"
+  ],
+  [
+   "Setting",
+   "Restaurant – outdoor dining patio"
+  ],
+  [
+   "Heaters",
+   "Platinum Smart-Heat® Gas"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ]
+ ],
+ "photos": [
+  {
+   "img": "v-greenwood-highwood-2",
+   "caption": "Photo: Gunn & Pegelow, via gunnpegelow.com. Permission to publish to be confirmed."
+  }
+ ],
+ "beats": [
+  [
+   "The Space",
+   "An independent, design-led restaurant on Chicago’s North Shore, with an outdoor dining patio."
+  ],
+  [
+   "The Challenge",
+   "The heat had to suit the restaurant’s look and work with the patio’s table layout, traffic paths and heat requirements."
+  ],
+  [
+   "The Solution",
+   "The team chose the Bromic Platinum gas heater. Gunn & Pegelow worked with WT Engineering to place each heater around the tables and paths."
+  ]
+ ],
+ "team": [
+  "Bromic representative: Gunn & Pegelow",
+  "Engineering: WT Engineering"
+ ],
+ "products": [
+  {
+   "coll": "Platinum",
+   "name": "Platinum Smart-Heat® Gas",
+   "img": "v-greenwood-highwood-2",
+   "p": "platinum-gas",
+   "where": "Outdoor dining patio",
+   "mount": "Angled from the beam, as photographed – to confirm",
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "slug": "Greenwood-Restaurant",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "file": "content/case-studies/web/CSW-18-greenwood-restaurant.md",
+  "evidence": "page-read",
+  "completeness": "full-draft",
+  "owner_review": "US field sales"
+ },
+ "sources": [
+  "Gunn & Pegelow: gunnpegelow.com/2019/05/02/case-study-bromic-at-greenwood-restaurant",
+  "Gunn & Pegelow (search snippet only): gunnpegelow.com/resources/case-studies/greenwood-restaurant"
+ ],
+ "notes": [
+  "Draft from public sources: nothing here has been confirmed with the customer. Publish only once the consent checklist in the case-study template is complete."
+ ],
+ "hero": {
+  "img": "v-greenwood-highwood-1",
+  "caption": "Photo: Gunn & Pegelow, via gunnpegelow.com. Permission to publish to be confirmed."
+ },
+ "layout": {
+  "pages": 1,
+  "quote": false,
+  "heroH": 2.4,
+  "beatSize": 7.4,
+  "lede": false
+ }
+}

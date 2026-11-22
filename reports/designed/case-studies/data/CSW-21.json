@@ -1,0 +1,86 @@
+{
+ "id": "CSW-21",
+ "kind": "web-draft",
+ "draft": true,
+ "name": "Catch The Wave Swim School",
+ "sector": "Leisure",
+ "country": "USA",
+ "line": "Every Heater On Its Own Dimmer",
+ "pages": 1,
+ "lede": "At a swim school in South Beloit, a 40 by 20 ft covered patio is warmed by Bromic Tungsten Electric heaters placed to a Bromic layout. Each has its own dimmer, so staff can match the warmth to the day.",
+ "data": [
+  [
+   "Location",
+   "South Beloit, Illinois"
+  ],
+  [
+   "Setting",
+   "Swim school – covered patio, 40 × 20 ft"
+  ],
+  [
+   "Heaters",
+   "Tungsten Smart-Heat® Electric"
+  ],
+  [
+   "Controls",
+   "One dimmer per heater, 0–100%"
+  ]
+ ],
+ "beats": [
+  [
+   "The Space",
+   "A covered patio of 40 by 20 ft at a swim school."
+  ],
+  [
+   "The Challenge",
+   "Families and staff needed the patio comfortable in cooler weather, with heat that could be set to the day."
+  ],
+  [
+   "The Solution",
+   "Tungsten Electric heaters were placed at the locations and heights set by a Bromic layout, checked on site. Each heater has its own dimmer, from 0 to 100% output."
+  ]
+ ],
+ "team": [
+  "Recommendation and site assessment: Gunn & Pegelow",
+  "Layout: Bromic"
+ ],
+ "products": [
+  {
+   "coll": "Tungsten",
+   "name": "Tungsten Smart-Heat® Electric",
+   "img": "v-catch-the-wave-beloit-1",
+   "p": "tungsten-electric",
+   "where": "Covered patio",
+   "mount": "Locations and heights set by a Bromic layout",
+   "controls": "Bromic dimmer controls, one per heater, 0–100%"
+  }
+ ],
+ "slug": "Catch-The-Wave-Swim-School",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "file": "content/case-studies/web/CSW-21-catch-the-wave-swim-school-covered-patio.md",
+  "evidence": "page-read",
+  "completeness": "full-draft",
+  "owner_review": "US field sales"
+ },
+ "sources": [
+  "Gunn & Pegelow: gunnpegelow.com/resources/case-studies/catch-the-wave-swim-school"
+ ],
+ "notes": [
+  "Draft from public sources: nothing here has been confirmed with the customer. Publish only once the consent checklist in the case-study template is complete."
+ ],
+ "hero": {
+  "img": "v-catch-the-wave-beloit-1",
+  "caption": "Photo: Gunn & Pegelow, via gunnpegelow.com. Permission to publish to be confirmed."
+ },
+ "layout": {
+  "pages": 1,
+  "quote": false,
+  "heroH": 2.6,
+  "beatSize": 7.6
+ }
+}

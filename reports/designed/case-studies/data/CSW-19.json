@@ -1,0 +1,117 @@
+{
+ "id": "CSW-19",
+ "kind": "web-draft",
+ "draft": true,
+ "name": "Howard Park Public House",
+ "sector": "Restaurant",
+ "country": "USA",
+ "line": "Skaters And Diners, Warm Outside",
+ "pages": 2,
+ "lede": "In a South Bend city park, a year-round bar and restaurant sits beside the skating rink. Tungsten gas heaters around the building warm the patio and the skate-rental area through the colder months.",
+ "data": [
+  [
+   "Location",
+   "Howard Park, South Bend, Indiana"
+  ],
+  [
+   "Setting",
+   "Park restaurant patio and skate-rental area"
+  ],
+  [
+   "Heaters",
+   "Tungsten Smart-Heat® Gas"
+  ],
+  [
+   "Controls",
+   "To confirm"
+  ],
+  [
+   "Date",
+   "Winter 2020"
+  ]
+ ],
+ "photos": [
+  {
+   "img": "v-howard-park-south-bend-2",
+   "caption": "Photo: Gunn & Pegelow, via gunnpegelow.com. Permission to publish to be confirmed."
+  }
+ ],
+ "beats": [
+  [
+   "The Space",
+   "Howard Park is a city park with a year-round bar and restaurant beside its ice rink, and a shop where skaters rent their skates."
+  ],
+  [
+   "The Challenge",
+   "Skaters and diners had to stay comfortable outside through the colder months of a snow-belt city."
+  ],
+  [
+   "The Solution",
+   "Bromic Tungsten gas heaters are set around the perimeter of the building, warming the restaurant patio and the skate-rental area. The project was completed in winter 2020."
+  ]
+ ],
+ "zones": {
+  "title": "Around The Building",
+  "shape": "plan",
+  "items": [
+   {
+    "l": "A",
+    "name": "Restaurant patio",
+    "text": "Tungsten Gas around the building perimeter.",
+    "w": 1.4
+   },
+   {
+    "l": "B",
+    "name": "Skate rental",
+    "text": "Tungsten Gas around the building perimeter.",
+    "w": 1
+   }
+  ]
+ },
+ "team": [
+  "Bromic representative and HVAC partner: Gunn & Pegelow",
+  "Design: M/E Design Services; Alliance Architects"
+ ],
+ "products": [
+  {
+   "coll": "Tungsten",
+   "name": "Tungsten Smart-Heat® Gas",
+   "img": "v-howard-park-south-bend-1",
+   "p": "tungsten-gas",
+   "where": "Restaurant patio; skate-rental area",
+   "mount": "Around the building perimeter",
+   "controls": "To confirm – the source does not name them"
+  }
+ ],
+ "slug": "Howard-Park-Public-House",
+ "cta": {
+  "label": "Request Your Design Plan",
+  "url": "bromic.com/design-your-space",
+  "href": "https://www.bromic.com/design-your-space/"
+ },
+ "source": {
+  "file": "content/case-studies/web/CSW-19-howard-park-public-house-restaurant-pati.md",
+  "evidence": "page-read",
+  "completeness": "full-draft",
+  "owner_review": "US field sales"
+ },
+ "sources": [
+  "Gunn & Pegelow: gunnpegelow.com/2020/10/02/case-study-howard-park-south-bend-in",
+  "Gunn & Pegelow: gunnpegelow.com/resources/case-studies/howard-park-public-house"
+ ],
+ "notes": [
+  "Draft from public sources: nothing here has been confirmed with the customer. Publish only once the consent checklist in the case-study template is complete."
+ ],
+ "hero": {
+  "img": "v-howard-park-south-bend-1",
+  "caption": "Photo: Gunn & Pegelow, via gunnpegelow.com. Permission to publish to be confirmed."
+ },
+ "layout": {
+  "pages": 2,
+  "zones": true,
+  "table": true,
+  "quote": false,
+  "planH": 150,
+  "noProductPhotos": true
+ }
+}
