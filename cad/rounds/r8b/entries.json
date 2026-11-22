@@ -1,0 +1,50 @@
+[
+ {
+  "id": "ts2-r8b-01",
+  "title": "Series II Select graphite, angled wall bracket on the house wall over the outdoor dining table (Studio City courtyard)",
+  "kind": "CAD composite on a real photo (wall mount)",
+  "finish": "graphite",
+  "w": 2560,
+  "h": 1707,
+  "file": "images/review/full/ts2-r8b-01.jpg",
+  "thumb": "images/review/thumb/ts2-r8b-01.webp",
+  "source": "w-tungsten-electric-studio-city-4 (real photo, 2560 px original); heater is the Series II CAD. Old Series I heater removed from the plate (image model, removal only, checked for drift); camera solved from the wall's vanishing lines and a known length; heater rendered in Blender (Cycles) in that camera; contact occlusion, sky/sun-direction shadow, grain and grade matched. Low resolution: plate below 4K, not upscaled.",
+  "status": "pending"
+ },
+ {
+  "id": "ts2-r8b-02",
+  "title": "Series II Select white, angled wall bracket on the house wall over the outdoor dining table (Studio City courtyard)",
+  "kind": "CAD composite on a real photo (wall mount)",
+  "finish": "white",
+  "w": 2560,
+  "h": 1707,
+  "file": "images/review/full/ts2-r8b-02.jpg",
+  "thumb": "images/review/thumb/ts2-r8b-02.webp",
+  "source": "w-tungsten-electric-studio-city-4 (real photo, 2560 px original); heater is the Series II CAD. Old Series I heater removed from the plate (image model, removal only, checked for drift); camera solved from the wall's vanishing lines and a known length; heater rendered in Blender (Cycles) in that camera; contact occlusion, sky/sun-direction shadow, grain and grade matched. Low resolution: plate below 4K, not upscaled.",
+  "status": "pending"
+ },
+ {
+  "id": "ts2-r8b-03",
+  "title": "Series II Select black, angled wall bracket on the cafe courtyard wall over the set tables",
+  "kind": "CAD composite on a real photo (wall mount)",
+  "finish": "black",
+  "w": 2560,
+  "h": 1809,
+  "file": "images/review/full/ts2-r8b-03.jpg",
+  "thumb": "images/review/thumb/ts2-r8b-03.webp",
+  "source": "w-bromictungstenelectic-white (Bromic cafe-wall image, 2560 px original; the plate of approved ts2-photo-01); heater is the Series II CAD. Old Series I heater removed from the plate (image model, removal only, checked for drift); camera solved from the wall's vanishing lines and a known length; heater rendered in Blender (Cycles) in that camera; contact occlusion, sky/sun-direction shadow, grain and grade matched. Low resolution: plate below 4K, not upscaled.",
+  "status": "pending"
+ },
+ {
+  "id": "ts2-r8b-04",
+  "title": "Series II Select graphite, angled wall bracket on the cafe courtyard wall over the set tables",
+  "kind": "CAD composite on a real photo (wall mount)",
+  "finish": "graphite",
+  "w": 2560,
+  "h": 1809,
+  "file": "images/review/full/ts2-r8b-04.jpg",
+  "thumb": "images/review/thumb/ts2-r8b-04.webp",
+  "source": "w-bromictungstenelectic-white (Bromic cafe-wall image, 2560 px original; the plate of approved ts2-photo-01); heater is the Series II CAD. Old Series I heater removed from the plate (image model, removal only, checked for drift); camera solved from the wall's vanishing lines and a known length; heater rendered in Blender (Cycles) in that camera; contact occlusion, sky/sun-direction shadow, grain and grade matched. Low resolution: plate below 4K, not upscaled.",
+  "status": "pending"
+ }
+]
