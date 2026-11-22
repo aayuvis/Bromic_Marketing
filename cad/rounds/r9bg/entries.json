@@ -1,0 +1,72 @@
+[
+ {
+  "id": "pr-bg-black-brick-wall-festoon",
+  "title": "Series II Select black on the angled wall bracket, charcoal brick wall, festoon lights at blue hour beyond",
+  "kind": "CAD render in a setting",
+  "finish": "black",
+  "aperture": "f/1.4",
+  "background": "real photo: w-dsc01890-hdr-bearbeitet (backdrop, defocused) with drawn festoon bulbs; brick and cedar: generated surface textures",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-bg-black-brick-wall-festoon.jpg",
+  "thumb": "images/review/thumb/pr-bg-black-brick-wall-festoon.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
+ },
+ {
+  "id": "pr-bg-3kw-white-endcap-cedar",
+  "title": "Series II 3 kW white, logo end cap close up, cedar soffit",
+  "kind": "CAD render in a setting",
+  "finish": "white",
+  "aperture": "f/1.4",
+  "background": "cedar soffit: generated surface texture; real photo: w-eclipse-pendant-uk-residential (backdrop, defocused)",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-bg-3kw-white-endcap-cedar.jpg",
+  "thumb": "images/review/thumb/pr-bg-3kw-white-endcap-cedar.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
+ },
+ {
+  "id": "pr-bg-black-endcap-render-soffit",
+  "title": "Series II Select black, logo end cap close up, painted render soffit",
+  "kind": "CAD render in a setting",
+  "finish": "black",
+  "aperture": "f/1.4",
+  "background": "render soffit: generated surface texture",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-bg-black-endcap-render-soffit.jpg",
+  "thumb": "images/review/thumb/pr-bg-black-endcap-render-soffit.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
+ },
+ {
+  "id": "pr-bg-graphite-limestone-wall-dusk",
+  "title": "Series II Select graphite on the angled wall bracket, limestone wall under an eave, desert dusk beyond",
+  "kind": "CAD render in a setting",
+  "finish": "graphite",
+  "aperture": "f/1.4",
+  "background": "real photo: w-dwell-modern-sunset-house (backdrop, defocused); limestone and render: generated surface textures",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-bg-graphite-limestone-wall-dusk.jpg",
+  "thumb": "images/review/thumb/pr-bg-graphite-limestone-wall-dusk.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
+ },
+ {
+  "id": "pr-bg-graphite-ceiling-limestone-lounge",
+  "title": "Series II Select graphite on its short ceiling post, tilted 15 degrees, over a built-in lounge bench beside a limestone wall",
+  "kind": "CAD render in a setting",
+  "finish": "graphite",
+  "aperture": "f/14",
+  "background": "generated",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-bg-graphite-ceiling-limestone-lounge.jpg",
+  "thumb": "images/review/thumb/pr-bg-graphite-ceiling-limestone-lounge.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
+ }
+]

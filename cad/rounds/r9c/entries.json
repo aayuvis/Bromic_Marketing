@@ -1,27 +1,27 @@
 [
  {
-  "id": "ts2-r9c-01",
-  "title": "Coastal beach-house porch, recessed white heater over the sofa",
+  "id": "ts2-r9c-05",
+  "title": "Coastal beach-house porch, two recessed white heaters in the recess kit, centred over the seating",
   "kind": "CAD composite on a generated Coastal plate",
   "finish": "white",
   "w": 5056,
   "h": 3392,
-  "file": "images/review/full/ts2-r9c-01.jpg",
-  "thumb": "images/review/thumb/ts2-r9c-01.webp",
-  "source": "Plate ts2-r8e-03 (generated Coastal plate, owner asked 22 Nov: 'add heater please... recessed white'). Heater is the Series II 6 kW from the heater-and-recess-kit CAD, white satin; obsolete trim hidden, heater set flush in a plain cut-out that hugs the front cover (owner: skip trim detail). One heater, long axis with the beadboard (§12 recess axis), 1.1 m in from the house wall (more than 500 mm), over the sofa, about 0.9 m clear of the far beam. Camera from the board vanishing point and the sea horizon (one-point view, f about 5000 px), scale from the side table and sofa; ceiling about 2.8 m. Glow low (two thin element lines); contact occlusion at the opening; graded to the plate.",
+  "file": "images/review/full/ts2-r9c-05.jpg",
+  "thumb": "images/review/thumb/ts2-r9c-05.webp",
+  "source": "Plate ts2-r8e-03 (owner-approved Coastal plate; owner 22 Nov: recessed white, two heaters centred over the seating area, always in a recess kit). Two Series II 6 kW, white, each in the recess kit at the position the '6kW heater and recess kit' CAD gives (the kit's only trim part is BMC-00659, marked obsolete in the CAD), flush with the beadboard. Long axes run with the boards. The pair is centred on the seating group (sofa, two armchairs, coffee table) as solved from the camera, side by side 1.6 m apart (about 1.2 m between kits), same height and alignment, about 1.4 m clear of the crown molding. An in-line pair does not fit between the frame top and the crown (needs about 3.6 m, about 3.0 m visible). Elements re-graded to deep orange (about 204/103/39), face matched to the shaded ceiling (p95 about 116), BROMIC on the near end clears the trim lip.",
   "status": "pending",
   "plate": "ts2-r8e-03"
  },
  {
-  "id": "ts2-r9c-02",
-  "title": "Coastal deck under a timber soffit, two recessed graphite heaters over the seating",
+  "id": "ts2-r9c-06",
+  "title": "Coastal deck under a timber soffit, two recessed graphite heaters in the recess kit, centred over the seating",
   "kind": "CAD composite on a generated Coastal plate",
   "finish": "graphite",
   "w": 5056,
   "h": 3392,
-  "file": "images/review/full/ts2-r9c-02.jpg",
-  "thumb": "images/review/thumb/ts2-r9c-02.webp",
-  "source": "Plate ts2-r8e-04 (generated Coastal plate, owner asked 22 Nov: 'recessed gray or inward facing 2 heaters mounted from the long edge'; recessed chosen). Two Series II 6 kW from the heater-and-recess-kit CAD, graphite (warm dark grey, measured R>G>B), flush in plain cut-outs, obsolete trim hidden. A row of two along the timber boards, between the two downlight rows, over the sofa and lounge chair, about 0.6 m between cut-outs. Camera from the board/fascia vanishing point and the siding verticals (f about 4030 px); ceiling about 2.75 m from the sofa-arm ratio. The post-mounted inward pair was also rendered and dropped: seen almost end-on from this camera, the heaters read as lanterns.",
+  "file": "images/review/full/ts2-r9c-06.jpg",
+  "thumb": "images/review/thumb/ts2-r9c-06.webp",
+  "source": "Plate ts2-r8e-04 (owner-approved Coastal plate; owner 22 Nov: 'recessed gray or inward facing 2 heaters mounted from the long edge'; recess kit always; pair centred over the seating). The long-edge option (short posts at the fascia side, tilted inward) was rendered in round 1 and reads end-on from this camera, so the recessed option is used. Two Series II 6 kW, graphite, each in the recess kit as the CAD gives it (trim BMC-00659, marked obsolete in the CAD). They run in line along the boards with about 0.5 m between kits, centred on the sofa and lounge chair group, mid-soffit (about 1.3 m from the house wall). Contact occlusion is at the trim. Camera from the board/fascia vanishing point and the siding verticals (f about 4030 px); ceiling about 2.75 m. Graphite measured R>G>B (R/B 1.17), elements deep orange. The heaters are about 6% of the frame width; the logo is too small to read from this camera.",
   "status": "pending",
   "plate": "ts2-r8e-04"
  }
