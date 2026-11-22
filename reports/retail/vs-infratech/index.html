@@ -1,0 +1,180 @@
+<!doctype html><html lang="en-US"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bromic vs Infratech</title><style>
+@font-face{font-family:BzDidot;src:url('../../../app/src/fonts/gfs-didot-latin.woff2') format('woff2')}
+@font-face{font-family:BzSans;src:url('../../../app/src/fonts/arimo-latin.woff2') format('woff2')}
+@font-face{font-family:BzMono;src:url('../../themes/blueprint/fonts/plex-mono-400.woff2') format('woff2');font-weight:400}
+@font-face{font-family:BzMono;src:url('../../themes/blueprint/fonts/plex-mono-500.woff2') format('woff2');font-weight:500}
+@page{size:Letter;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#fff}
+body{font-family:BzSans,Arial,sans-serif;color:#231F20;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:8.5in;height:11in;position:relative;overflow:hidden;margin:0 auto;background:#fff;break-after:page}
+.page:last-child{break-after:auto}
+.grid{position:absolute;inset:.42in;pointer-events:none;background-image:linear-gradient(rgba(28,43,68,.07) .6px,transparent .6px),linear-gradient(90deg,rgba(28,43,68,.07) .6px,transparent .6px),linear-gradient(rgba(28,43,68,.028) .5px,transparent .5px),linear-gradient(90deg,rgba(28,43,68,.028) .5px,transparent .5px);background-size:1in 1in,1in 1in,.125in .125in,.125in .125in}
+.frame{position:absolute;inset:.42in;border:.9px solid #1C2B44;pointer-events:none}
+.zones{position:absolute;inset:.3in;border:.5px solid #6B7480;color:#6B7480;font:500 6px/1 BzMono,monospace;letter-spacing:.1em;pointer-events:none}
+.zones .zt,.zones .zb{position:absolute;left:.12in;right:.12in;height:.12in}.zones .zt{top:0}.zones .zb{bottom:0}
+.zones .zl,.zones .zr{position:absolute;top:.12in;bottom:.12in;width:.12in}.zones .zl{left:0}.zones .zr{right:0}
+.zones span{position:absolute;transform:translate(-50%,-50%)}
+.zones .zt span,.zones .zb span{top:50%}.zones .zl span,.zones .zr span{left:50%}
+.lbl,.eyebrow{font:500 7.6px/1.2 BzMono,monospace;letter-spacing:.16em;text-transform:uppercase}
+.eyebrow{color:#EF4123}
+h2{font-family:BzDidot,Didot,serif;font-weight:400;letter-spacing:-.005em}
+.flow{position:absolute;left:.72in;right:.72in;top:.62in;bottom:.98in;display:flex;flex-direction:column;gap:10px}
+.flow>*{flex:none}
+.flow.f2{gap:8px}
+.flow>.foot2{margin-top:auto}
+.s-head{display:flex;gap:.3in;align-items:flex-start}
+.s-text{flex:1}
+.brand{display:flex;align-items:center;justify-content:space-between;border-bottom:.9px solid #1C2B44;padding-bottom:7px;margin-bottom:10px;color:#1C2B44}
+.logo{height:15px;display:block}
+.s-head h2{font-size:31px;line-height:1.08;margin:6px 0 7px;color:#231F20}
+.s-lede{font-size:10px;line-height:1.5;color:#3f3b3c;max-width:5.4in}
+.ph{border:.6px solid #1C2B44;padding:4px;background:#fff}
+.ph.top{width:1.42in;flex:none}
+.ph.top .ph-img{height:1.08in;background-color:#fff}
+.ph-img{height:1.1in;background-size:cover;background-position:center;background-repeat:no-repeat}
+.ph figcaption{display:block;font:400 6.6px/1.4 BzMono,monospace;letter-spacing:.04em;margin-top:4px;color:#6B7480}
+.ph figcaption b{font-weight:500;color:#EF4123;margin-right:4px;letter-spacing:.14em}
+.hdr{display:flex;justify-content:space-between;border-bottom:.9px solid #1C2B44;padding-bottom:5px;margin-bottom:7px;color:#1C2B44}
+.hdr .r{color:#EF4123}
+.legend{display:flex;align-items:center;gap:6px;margin:0 0 6px;flex-wrap:wrap}
+.legend .lbl{color:#6B7480;margin-right:2px}
+.legend .lk{font:400 6.6px/1.3 BzMono,monospace;color:#6B7480;letter-spacing:.02em;margin-left:4px}
+.chip{display:inline-block;font:500 6.2px/1 BzMono,monospace;letter-spacing:.08em;text-transform:uppercase;padding:2.6px 4px 2.2px;border:.7px solid #1C2B44;color:#1C2B44;background:#fff;white-space:nowrap}
+.chip.b{background:#EF4123;border-color:#EF4123;color:#fff}
+.chip.p{border-color:#1C2B44;color:#1C2B44}
+.chip.i{background:#1C2B44;border-color:#1C2B44;color:#fff}
+.chip.m{border-style:dashed;color:#1C2B44}
+.chip.u{border-style:dotted;color:#6B7480}
+.mx{width:100%;border-collapse:collapse;table-layout:fixed;font-size:7.9px;line-height:1.32;color:#231F20}
+.mx th{font:500 6.4px/1.2 BzMono,monospace;letter-spacing:.12em;text-align:left;color:#6B7480;padding:0 8px 5px 0;border-bottom:.6px solid #1C2B44}
+.mx td{padding:3.7px 8px 3.7px 0;border-bottom:.5px solid #B9C3D0;vertical-align:top}
+.mx td.ser{font:500 7px/1.3 BzMono,monospace;letter-spacing:.06em;text-transform:uppercase;color:#1C2B44}
+.mx td b{font-weight:700}
+.mx td.inf{color:#3f3b3c}
+.mx td.ed{padding-right:0}
+.eg{display:flex;flex-direction:column;align-items:flex-start;gap:1.5px;margin-bottom:3px}
+.eg .who{font:500 5.4px/1 BzMono,monospace;letter-spacing:.14em;color:#6B7480}
+.rf{font:500 5.6px/0 BzMono,monospace;color:#6B7480;margin-left:1px;letter-spacing:0}
+.tc{color:#EF4123;font-style:italic}
+.fn{font:400 6.7px/1.5 BzMono,monospace;color:#6B7480;margin-top:6px;letter-spacing:.01em}
+.two{display:grid;grid-template-columns:1fr 2.28in;gap:.22in}
+.talk{list-style:none;display:flex;flex-direction:column;gap:0}
+.talk li{position:relative;padding:5px 0 5px 22px;border-bottom:.5px solid #B9C3D0}
+.talk li:first-child{padding-top:1px}
+.talk .no{position:absolute;left:0;top:6px;width:15px;height:15px;border-radius:50%;border:.8px solid #EF4123;display:grid;place-items:center;font:500 7.4px/1 BzMono,monospace;color:#EF4123}
+.talk li:first-child .no{top:1px}
+.talk p{font-size:8.3px;line-height:1.4}
+.talk .q,.talk .a{display:grid;grid-template-columns:72px 1fr;align-items:baseline}
+.talk b{font:500 6.2px/1 BzMono,monospace;letter-spacing:.12em;color:#6B7480}
+.talk .q{font-family:BzDidot,Didot,serif;font-size:11.8px;line-height:1.25;color:#231F20;margin-bottom:2px}
+.talk .a{color:#2f2b2c}
+.talk .nt{padding-left:72px;font:400 6.8px/1.4 BzMono,monospace;color:#6B7480;margin-top:2px}
+.side{display:flex;flex-direction:column;gap:9px}
+.side .ph-img{height:.92in;background-color:#fff}
+.box{border:.7px solid #1C2B44;padding:7px 9px 8px;background:#fff}
+.bh{font:500 6.8px/1.2 BzMono,monospace;letter-spacing:.14em;color:#EF4123;margin-bottom:5px}
+.ci{font-size:7.9px;line-height:1.38;color:#3f3b3c;margin-bottom:5px}
+.ci b{display:block;color:#231F20;font-size:8.2px}
+.ci .sub{display:block;font:500 5.8px/1.5 BzMono,monospace;letter-spacing:.08em;color:#6B7480}
+.ci.last{margin:0;padding-top:5px;border-top:.5px solid #B9C3D0}
+.rules{list-style:none}
+.rules li{font-size:7.9px;line-height:1.38;color:#3f3b3c;padding-left:9px;position:relative;margin-bottom:3px}
+.rules li:before{content:'';position:absolute;left:0;top:4.4px;width:4px;height:.8px;background:#EF4123}
+.sec.open .ol{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:2px 16px}
+.ol li{font-size:7.3px;line-height:1.32;color:#3f3b3c;padding-left:11px;position:relative}
+.ol li:before{content:'?';position:absolute;left:0;top:0;font:500 7px/1.36 BzMono,monospace;color:#EF4123}
+.src{list-style:none;columns:3;column-gap:14px}
+.src li{font:400 5.7px/1.3 BzMono,monospace;color:#6B7480;break-inside:avoid;padding-left:12px;position:relative;margin-bottom:2px;letter-spacing:0}
+.src .n{position:absolute;left:0;top:0;color:#1C2B44;font-weight:500}
+.src .u{color:#1C2B44;word-break:break-all}
+.foot2{display:flex;gap:.26in;align-items:center}
+.disc{flex:1;font-size:7.8px;line-height:1.45;color:#3f3b3c;border-left:1.2px solid #EF4123;padding-left:8px}
+.disc b{font:500 6.6px BzMono,monospace;letter-spacing:.14em;color:#EF4123;margin-right:5px}
+.disc .rvm{font:500 6.4px/1.4 BzMono,monospace;letter-spacing:.06em;color:#1C2B44;text-transform:uppercase;display:block;margin-top:2px}
+.btn{flex:none;display:inline-flex;flex-direction:row;flex-wrap:wrap;gap:4px 10px;align-items:center;border:.9px solid #EF4123;color:#EF4123;font:500 7.6px/1 BzMono,monospace;letter-spacing:.16em;padding:7px 12px;text-decoration:none;background:#fff;max-width:2.4in}
+.btn em{flex-basis:100%;font-style:normal;font-size:6px;letter-spacing:.12em;color:#6B7480}
+.strip{position:absolute;left:.42in;right:.42in;bottom:.42in;height:.48in;display:flex;border-top:.9px solid #1C2B44;font:400 7px/1.25 BzMono,monospace;color:#231F20;background:#fff}
+.strip .cell{padding:5px 7px;border-right:.5px solid #B9C3D0;display:flex;flex-direction:column;justify-content:space-between;white-space:nowrap}
+.strip .cell:last-child{border-right:0}
+.strip .cell.grow{flex:1;white-space:normal}
+.strip .cell.grow span{font-size:5.6px;line-height:1.3;color:#6B7480}
+.strip .cell.rv{white-space:normal;width:1.3in}
+.strip .cell.rv span{font-size:5.6px;line-height:1.3;color:#EF4123}
+.strip b{font-weight:500;font-size:5.4px;letter-spacing:.16em;color:#6B7480}
+.strip .sheet span{font-size:15px;line-height:1;color:#1C2B44}
+.strip .sheet i{font-style:normal;font-size:8px;color:#6B7480;margin-left:1px}
+</style></head><body><section class="page">
+  <div class="grid"></div><div class="zones"><div class="zt"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zb"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zl"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div><div class="zr"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div></div><div class="frame"></div><div class="flow">
+  <header class="s-head">
+  <div class="s-text"><div class="brand"><img class="logo" src="img/bromic-logo.png" alt="Bromic Heating"><span class="lbl">RETAIL KIT · COMPETITIVE SHEET</span></div>
+  <p class="eyebrow">BROMIC VS INFRATECH · ELECTRIC INFRARED</p><h2>Bromic And Infratech, Side By Side</h2><p class="s-lede">Twelve benefit fields, as each brand publishes them: Tungsten Smart-Heat® Electric Series II (Select and Coastal now, Classic from January 2027) and, where the data covers it, Platinum Smart-Heat® Electric. Where the brands match, or Infratech leads, the sheet says so.</p></div>
+  <figure class="ph top"><div class="ph-img" style="background-image:url(img/p-s2-post.jpg);background-size:contain;background-position:center"></div><figcaption><b>PHOTO</b> Tungsten Select Series II, black, on its single post. Product render.</figcaption></figure>
+</header>
+  <div class="sec"><div class="hdr"><span class="lbl">THE COMPARISON · ONE ROW PER BENEFIT FIELD</span><span class="lbl r">NUMBERED SOURCES ON SHEET 02</span></div>
+    <div class="legend"><span class="lbl">EDGE</span><span class="chip b">Bromic stronger</span><span class="chip p">Parity</span><span class="chip i">Infratech stronger</span><span class="chip m">Mixed</span><span class="lk">Mixed: Bromic leads on some points, Infratech on others. <i class="tc">To confirm</i>: a Bromic fact the Product team is checking.</span></div><table class="mx cmp"><colgroup><col style="width:92px"><col><col style="width:200px"><col style="width:92px"></colgroup>
+  <thead><tr><th>BENEFIT FIELD</th><th>BROMIC · TUNGSTEN SERIES II / PLATINUM ELECTRIC</th><th>INFRATECH · C/CD, W/WD, SL</th><th>EDGE</th></tr></thead><tbody>
+  <tr><td class="ser">Recess ability</td><td><b>Series II:</b> 6 kW flush in a 7.5 in cavity (<i class="tc">To confirm</i>) with a dual fan-ventilated low-clearance kit; the recess box comes with the kit, so no site-built fire-rated box (<i class="tc">To confirm</i>). The only 6 kW kit of its kind found in Bromic's market check, 18 Nov 2026.<sup class="rf">3,4,5</sup> <b>Platinum:</b> 7.1 in cavity, box supplied, cooling fan, up to 4500 W.<sup class="rf">11</sup></td><td class="inf">W/WD flush frame in a framed pocket "MIN. 2 x 8", lined on five sides with 5/8 in Type X drywall; flat ceilings only; up to 6,000 W; no fans shown; a cool-down is recommended after 4 hours of continuous use.<sup class="rf">19,20</sup></td><td class="ed"><div class="eg"><span class="who">SERIES II</span><span class="chip b">Bromic stronger</span></div><div class="eg"><span class="who">PLATINUM</span><span class="chip m">Mixed</span></div></td></tr>
+  <tr><td class="ser">Heat performance</td><td><b>Series II:</b> 2 to 6 kW; dual elements on 4 and 6 kW, dimmable in 1% steps; up to 160 ft² for 6 kW.<sup class="rf">2,5</sup> <b>Platinum:</b> 2300, 3400 and 4500 W; about 65, 108 and 143 ft².<sup class="rf">9</sup> Each brand measures coverage its own way.</td><td class="inf">1.5 to 6 kW, 120 to 480 V models; its chart gives about 121 ft² for the 6,000 W CD at 8–12 ft.<sup class="rf">18,29</sup></td><td class="ed"><div class="eg"><span class="who">SERIES II</span><span class="chip p">Parity</span></div><div class="eg"><span class="who">PLATINUM</span><span class="chip m">Mixed</span></div></td></tr>
+  <tr><td class="ser">Design aesthetics</td><td><b>Series II:</b> all black, all white or all graphite, the front in the same finish; about 14% narrower and a third lighter than Series I; one post, no visible junction box.<sup class="rf">5,2</sup> <b>Platinum:</b> tinted glass-ceramic face, 2.1 in deep.<sup class="rf">9</sup></td><td class="inf">Colour powder coat on the end caps and housing; the polished reflector and wire guard stay stainless (SL All Black Shadow aside); junction box on top of the heater.<sup class="rf">16,17</sup></td><td class="ed"><div class="eg"><span class="who">SERIES II</span><span class="chip b">Bromic stronger</span></div><div class="eg"><span class="who">PLATINUM</span><span class="chip b">Bromic stronger</span></div></td></tr>
+  <tr><td class="ser">Ease of controls</td><td>Affinity Smart-Heat® Controls and the Bromic app: 1% dimming, zones, schedules, timers and remote off; Alexa and Google Assistant; Control4, Crestron or Lutron where compatible. Wi-Fi and app features need compatible Affinity controls, sold separately.<sup class="rf">7,8</sup></td><td class="inf">Bond Smart Dimmer with the Universal Control Panel (dimming, timing, zoning), or Smart Switch (on/off, built-in 2-hour timer); Lutron and Crestron through home systems; competitor controls may void the warranty.<sup class="rf">22,23,24</sup></td><td class="ed"><div class="eg"><span class="who">SERIES II</span><span class="chip b">Bromic stronger</span></div><div class="eg"><span class="who">PLATINUM</span><span class="chip b">Bromic stronger</span></div></td></tr>
+  <tr><td class="ser">Installation flexibility</td><td><b>Series II:</b> ceiling, pitched ceiling 3/12 to 12/12, wall, extended wall, single post, recessed; tilts to 45° (the manual says 30° for 4 and 6 kW: <i class="tc">To confirm</i>).<sup class="rf">2,5</sup> <b>Platinum:</b> wall straight or angled, ceiling, poles, standard or low-clearance recess.<sup class="rf">12</sup></td><td class="inf">Wall, ceiling, flush, pole and drop pole; the flush frame "is ONLY to be used on a flat non-sloped ceiling".<sup class="rf">21,19</sup></td><td class="ed"><div class="eg"><span class="who">SERIES II</span><span class="chip b">Bromic stronger</span></div><div class="eg"><span class="who">PLATINUM</span><span class="chip p">Parity</span></div></td></tr>
+  <tr><td class="ser">Safety and peace of mind</td><td><b>Series II:</b> IPX5; fan-cooled recess kit; app schedules, timers and remote off. Continuous-use guidance for the recess kit: <i class="tc">To confirm</i>.<sup class="rf">2,3,8</sup> <b>Platinum:</b> Intertek ETL / cETL listed; recess kit with a fan and two thermal cut-offs.<sup class="rf">9,11</sup></td><td class="inf">UL and cUL listed, IPX4. Flush frame: a cool-down is recommended after 4 hours of continuous use. The Smart Switch app route is on/off with a 2-hour timer.<sup class="rf">18,19,23</sup></td><td class="ed"><div class="eg"><span class="who">SERIES II</span><span class="chip b">Bromic stronger</span></div><div class="eg"><span class="who">PLATINUM</span><span class="chip p">Parity</span></div></td></tr>
+  <tr><td class="ser">Design flexibility</td><td><b>Series II:</b> three finishes carried through to the front; three fronts (Diamond standard; oval and triangle sold separately) that swap without re-wiring; fronts on recessed installs: <i class="tc">To confirm</i>.<sup class="rf">5,1</sup> <b>Platinum:</b> black or white, three lengths.<sup class="rf">9</sup></td><td class="inf">Brushed stainless or eight powder-coated colours plus custom on C/CD and W/WD, reflector and guard stainless; Motif covers on surface-mount C/CD only, not flush.<sup class="rf">16,17</sup></td><td class="ed"><div class="eg"><span class="who">SERIES II</span><span class="chip b">Bromic stronger</span></div><div class="eg"><span class="who">PLATINUM</span><span class="chip i">Infratech stronger</span></div></td></tr>
+  <tr><td class="ser">Heat multiple areas</td><td>One portfolio: electric for ceilings, walls, posts and recesses (Tungsten, Platinum), the Eclipse pendant, Eclipse Freestanding, mounted gas and Tungsten Freestanding Gas.<sup class="rf">1,15</sup></td><td class="inf">Fixed electric infrared heaters only (C/CD, W/WD, SL, Motif covers, an indoor garage heater); no gas and no freestanding heaters on infratech.com.<sup class="rf">16</sup></td><td class="ed"><div class="eg"><span class="who">SERIES II</span><span class="chip b">Bromic stronger</span></div></td></tr>
+  <tr><td class="ser">Warranty</td><td><b>Series II:</b> 3 years on the heater and 7 years on the elements, on Select, Coastal and Classic; a partner year on qualifying products.<sup class="rf">6,14</sup> <b>Platinum:</b> 3 years; Marine 5 years on land.<sup class="rf">10</sup></td><td class="inf">3-year limited warranty; a fourth year through Elite Retailers and the Installer Program; not transferable; 2024 terms: replacement parts only, labour excluded.<sup class="rf">24,25</sup></td><td class="ed"><div class="eg"><span class="who">SERIES II</span><span class="chip b">Bromic stronger</span></div><div class="eg"><span class="who">PLATINUM</span><span class="chip b">Bromic stronger</span></div></td></tr>
+  <tr><td class="ser">Ease of installation</td><td><b>Series II:</b> one post instead of a pair of drop rods; the recess box comes with the kit, nothing to build on site; one kit for Select and Coastal.<sup class="rf">5,3</sup> <b>Platinum:</b> bracket and 8 in pole included; the recess fan needs a constant supply; two people to lift into the recess.<sup class="rf">11,12</sup></td><td class="inf">Flush: a framed 2×8 pocket lined on five sides with Type X drywall, junction box outside the pocket. Drop pole: a pair of rods per heater; pole mount on a 10 × 10 in base.<sup class="rf">19,21</sup></td><td class="ed"><div class="eg"><span class="who">SERIES II</span><span class="chip b">Bromic stronger</span></div><div class="eg"><span class="who">PLATINUM</span><span class="chip m">Mixed</span></div></td></tr>
+  <tr><td class="ser">Specification and support</td><td>Bromic Partner Program: partner pricing, free custom heating design plans, extended warranty, a dedicated contact, project spotlights; Revit and CAD files.<sup class="rf">14,13</sup></td><td class="inf">Trade program with design guides, CAD details and continuing-education credits; Elite Retailers and the Installer Program add a fourth warranty year and leads.<sup class="rf">26</sup></td><td class="ed"><div class="eg"><span class="who">SERIES II</span><span class="chip b">Bromic stronger</span></div><div class="eg"><span class="who">PLATINUM</span><span class="chip p">Parity</span></div></td></tr>
+  <tr><td class="ser">Durability by the coast</td><td><b>Coastal:</b> a corrosion-resistant coating over a marine-grade build as standard (316 per the Lookbook; body material and coating name <i class="tc">To confirm</i>); marine-grade recess kit; IPX5; not for boats.<sup class="rf">15,2,3</sup> <b>Platinum Marine:</b> 316, IPX5 (IP55 on 4500 W).<sup class="rf">10</sup></td><td class="inf">316 stainless as a Marine UpGrade at extra cost on C/CD, W/WD and flush frames (not SL); IPX4; its manual notes 316 is not fully corrosion-proof.<sup class="rf">27,18,28</sup></td><td class="ed"><div class="eg"><span class="who">SERIES II</span><span class="chip b">Bromic stronger</span></div><div class="eg"><span class="who">PLATINUM</span><span class="chip m">Mixed</span></div></td></tr>
+  </tbody></table>
+    <p class="fn">Facts as published by each brand on the dates shown; check current specifications before quoting. Bromic coverage figures are approximate and vary with model, height and site. Specification and compliance review required before external use.</p>
+  </div>
+  </div>
+  <div class="strip">
+  <div class="cell grow"><b>SOURCES</b><span>Bromic: Tungsten Series II and Platinum Electric product pages, manuals, recess kit instructions, warranty and Affinity pages · Infratech: series pages, FAQs, flush frame drawing, mounting, controls and warranty · Listed in full on sheet 02</span></div>
+  <div class="cell"><b>FOR</b><span>Retail floor and buyers</span></div>
+  <div class="cell"><b>SHEET TITLE</b><span>Bromic vs Infratech</span></div>
+  <div class="cell rv"><b>REVIEW</b><span>Specification and compliance review required before external use</span></div>
+  <div class="cell s"><b>DATE</b><span>2026-11-22</span></div>
+  <div class="cell sheet"><b>SHEET</b><span>01<i>/02</i></span></div>
+</div>
+</section><section class="page">
+  <div class="grid"></div><div class="zones"><div class="zt"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zb"><span style="left:8.333333333333334%">1</span><span style="left:25%">2</span><span style="left:41.666666666666664%">3</span><span style="left:58.333333333333336%">4</span><span style="left:75%">5</span><span style="left:91.66666666666667%">6</span></div><div class="zl"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div><div class="zr"><span style="top:6.25%">A</span><span style="top:18.75%">B</span><span style="top:31.25%">C</span><span style="top:43.75%">D</span><span style="top:56.25%">E</span><span style="top:68.75%">F</span><span style="top:81.25%">G</span><span style="top:93.75%">H</span></div></div><div class="frame"></div><div class="flow f2">
+  <header class="s-head">
+  <div class="s-text"><div class="brand"><img class="logo" src="img/bromic-logo.png" alt="Bromic Heating"><span class="lbl">RETAIL KIT · COMPETITIVE SHEET</span></div>
+  <p class="eyebrow">BROMIC VS INFRATECH · ON THE FLOOR</p><h2>How To Talk About It On The Floor</h2><p class="s-lede">When a customer names Infratech, start with the space, then the heater. Use these lines as written.</p></div>
+  
+</header>
+  <div class="two">
+    <div class="sec talkw"><div class="hdr"><span class="lbl">SIX FAIR LINES</span><span class="lbl r">NO PRICES · NO DISPARAGEMENT</span></div><ol class="talk"><li><span class="no">1</span><p class="q"><b>THEY SAY</b><span>"Infratech recesses too."</span></p><p class="a"><b>YOU CAN SAY</b><span>It does, in a framed pocket of at least 2×8, lined on five sides with Type X drywall, on a flat ceiling. Tungsten Series II recesses 6,000 W into a 7.5 in ceiling cavity: the kit is dual fan-ventilated, so there is no site-built box.<sup class="rf">19,3</sup></span></p><p class="nt">Cavity depth and the kit's listing: <i class="tc">To confirm</i>.</p></li><li><span class="no">2</span><p class="q"><b>THEY SAY</b><span>"Can a recessed heater run all evening?"</span></p><p class="a"><b>YOU CAN SAY</b><span>Infratech's flush-frame drawing says: "After 4 hours of continuous use, a 15 minute cool down period is recommended". The Series II kit is dual fan-ventilated.<sup class="rf">19,3</sup></span></p><p class="nt">Bromic's continuous-use guidance: <i class="tc">To confirm</i>. Promise no run time until it is.</p></li><li><span class="no">3</span><p class="q"><b>THEY SAY</b><span>"My porch ceiling is pitched."</span></p><p class="a"><b>YOU CAN SAY</b><span>Tungsten Series II mounts on 3/12 to 12/12 with its adaptor; Infratech's flush frame is "ONLY to be used on a flat non-sloped ceiling".<sup class="rf">2,19</sup></span></p></li><li><span class="no">4</span><p class="q"><b>THEY SAY</b><span>"Infratech comes in more colours."</span></p><p class="a"><b>YOU CAN SAY</b><span>It does: brushed stainless or eight powder-coated colours plus custom, with the reflector and guard in stainless. Series II is all black, all white or all graphite, front included, in a Diamond, oval or triangle pattern.<sup class="rf">16,5</sup></span></p><p class="nt">Say so where Infratech leads.</p></li><li><span class="no">5</span><p class="q"><b>THEY SAY</b><span>"What does the warranty cover?"</span></p><p class="a"><b>YOU CAN SAY</b><span>Tungsten Series II: 3 years on the heater and 7 years on the elements. Infratech: a 3-year limited warranty, with a fourth year through its Elite Retailer and Installer programs.<sup class="rf">6,24</sup></span></p></li><li><span class="no">6</span><p class="q"><b>THEY SAY</b><span>"Which one is warmer?"</span></p><p class="a"><b>YOU CAN SAY</b><span>Both reach 6 kW, and each brand measures coverage its own way. Talk about where the warmth lands, and let a free design plan prove the coverage seat by seat.<sup class="rf">2,29</sup></span></p></li></ol></div>
+    <div class="side">
+      <figure class="ph"><div class="ph-img" style="background-image:url(img/p-s2-recess.jpg)"></div><figcaption><b>PHOTO</b> Tungsten Series II in its low-clearance recess kit. Product render.</figcaption></figure>
+      <div class="box"><p class="bh">QUOTE EVERY HEATER WITH ITS CONTROLS</p>
+  <p class="ci"><b>Tungsten Smart-Heat® Electric Series II</b><span class="sub">SELECT, COASTAL · CLASSIC: JANUARY 2027</span>Affinity Smart-Heat® Dimmer as standard, On/Off where dimming is not wanted, and a manual wall switch.</p><p class="ci"><b>Platinum Smart-Heat® Electric</b><span class="sub">CLASSIC AND MARINE</span>Affinity Smart-Heat® Dimmer or On/Off and a manual wall switch; the expansion board for building systems.</p>
+  <p class="ci last">Wi-Fi and app features need compatible Affinity Smart-Heat® Controls, sold separately. Quote no default timer length.<sup class="rf">7,8</sup></p></div><div class="box"><p class="bh">KEEP IT FAIR</p>
+  <ul class="rules">
+    <li>Factual, sourced lines only; never run down another brand.</li>
+    <li>Where Infratech leads or matches, say so: colours, voltages to 480 V, recessing to 6 kW.</li>
+    <li>Never "only" without its qualifier, and no superlatives about depth or clearance.</li>
+    <li>No prices, and no Infratech logo or imagery.</li>
+  </ul></div>
+    </div>
+  </div>
+  <div class="sec open"><div class="hdr"><span class="lbl">TO CONFIRM BEFORE QUOTING</span><span class="lbl r">OPEN WITH THE TEAMS NAMED</span></div>
+  <ul class="ol"><li>Series II low-clearance kit: no fire-rated lining or enclosure under its listing, and 7.5 in as the cavity depth (Product team)</li><li>Continuous-use guidance for the Series II recess kit (Product team)</li><li>Tilt to 45° on 4 and 6 kW: the Series II manual gives 30° (Product team)</li><li>Series II fronts on recessed installs; Coastal body material and coating name (Product team)</li><li>Platinum low-clearance kit: no fire-rated lining under its listing (Product team)</li><li>The market check behind the recess line: other brands' 6 kW recess products (Specification and compliance)</li></ul></div>
+  <div class="sec srcs"><div class="hdr"><span class="lbl">SOURCES</span><span class="lbl r">COMPARED BY BROMIC 18–19 NOV 2026</span></div>
+  <ol class="src"><li><span class="n">1</span>Bromic Heating, Tungsten Smart-Heat Electric product page, 2026. <span class="u">bromic.com/product/tungsten-smart-heat-electric/</span></li><li><span class="n">2</span>Bromic Heating, Tungsten Electric Select & Coastal installation manual (dealer-hosted), 2026. <span class="u">cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Electric-Select-Coastal-Manual.pdf</span></li><li><span class="n">3</span>Bromic Heating, LC Ceiling Recess Kit for Tungsten Series II, instructions (dealer-hosted), 2025. <span class="u">cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Select-Coastal-LC-Recess-Kit-Instructions.pdf</span></li><li><span class="n">4</span>Bromic Heating, Tungsten Electric recess kit page, 2026. <span class="u">bromic.com/product/tungsten-electric-recess-kit/</span></li><li><span class="n">5</span>Bromic Heating, Tungsten Electric Series II launch deck, July 2026, 2026. <span class="u">internal document</span></li><li><span class="n">6</span>Bromic Heating, Warranty, 2026. <span class="u">bromic.com/warranty/</span></li><li><span class="n">7</span>Bromic Heating, Affinity Smart-Heat control system brochure, 2026. <span class="u">pim.bromic.com/wp-content/uploads/2026/08/Bromic-affinity-smart-heat-control-system-2026.pdf</span></li><li><span class="n">8</span>Bromic Heating, Affinity Smart-Heat app page, 2026. <span class="u">bromic.com/affinity-smart-heat-app/</span></li><li><span class="n">9</span>Bromic Heating, Platinum Smart-Heat Electric product page, 2026. <span class="u">bromic.com/product/platinum-smart-heat-electric/</span></li><li><span class="n">10</span>Bromic Heating, Platinum Smart-Heat Electric Marine product page, 2026. <span class="u">bromic.com/product/platinum-smart-heat-electric-marine/</span></li><li><span class="n">11</span>Bromic Heating, Platinum Electric Low Clearance Ceiling Recess instructions, 2024. <span class="u">pim.bromic.com/wp-content/uploads/2021/08/Platinum-Electric-Low-Clearance-Ceiling-Recess-Instruction-Manual-REV3.pdf</span></li><li><span class="n">12</span>Bromic Heating, Platinum Electric recess kit, poles and wall bracket pages, 2026. <span class="u">bromic.com/product/platinum-electric-mounting-poles/</span></li><li><span class="n">13</span>Bromic Heating, Revit BIM and CAD files, 2026. <span class="u">bromic.com/access-bim-files/</span></li><li><span class="n">14</span>Bromic Heating, Bromic Partner Program (builders and trade) page, read 29 Oct 2026, 2026. <span class="u">bromic.com/lp-builders/</span></li><li><span class="n">15</span>Bromic Heating, Outdoor Lookbook 2026, 2026. <span class="u">internal document</span></li><li><span class="n">16</span>Infratech, C/CD, W/WD, SL and Motif series pages, 2026. <span class="u">infratech.com/heaters/cd-series/</span></li><li><span class="n">17</span>Infratech, C/CD Series colour options, 2026. <span class="u">infratech.com/heaters/cd-series/</span></li><li><span class="n">18</span>Infratech, FAQs, read 19 Nov 2026, 2026. <span class="u">infratech.com/resources/faqs/</span></li><li><span class="n">19</span>Infratech, W-33/W-39/W-61 flush mount frame drawing, Dec 2019 (dealer-hosted), 2019. <span class="u">cdn.shopify.com/s/files/1/0262/9232/2407/files/Flush_Mount_Frame_Specs.pdf</span></li><li><span class="n">20</span>Infratech, W/WD Series installation manual (dealer-hosted), 2015. <span class="u">cdn.shopify.com/s/files/1/0489/1541/5207/files/W-WD-Series-Installation-Manual-2015.pdf</span></li><li><span class="n">21</span>Infratech, Mounting options; pole mount drawing (06-01-2026) and drop pole one-pager, 2026. <span class="u">infratech.com/mounting-options/</span></li><li><span class="n">22</span>Infratech, Controls, 2026. <span class="u">infratech.com/controls/</span></li><li><span class="n">23</span>Infratech, Smart Switch and Smart Dimmer sell sheet (Bond), Enhanced Timer Package, 2025. <span class="u">infratech.com/controls/enhanced-timer-package/</span></li><li><span class="n">24</span>Infratech, Limited warranty, 2026. <span class="u">infratech.com/wp-content/uploads/2026/09/infratech-warranty.pdf</span></li><li><span class="n">25</span>Infratech, Warranty, 2024 terms; dealers and installers pages, 2024. <span class="u">infratech.com/dealers/</span></li><li><span class="n">26</span>Infratech, Dealers and trade programs, 2026. <span class="u">infratech.com/trade/</span></li><li><span class="n">27</span>Infratech, Marine UpGrade, 2026. <span class="u">infratech.com/marine-upgrade/</span></li><li><span class="n">28</span>Infratech, C-Series owner's instruction manual (dealer-hosted), 2024. <span class="u">cdn.shopify.com/s/files/1/0082/0704/0627/files/C-Series_Owners_Instruction_Manual_2024.pdf</span></li><li><span class="n">29</span>Infratech, C/CD coverage chart, 2025, 2025. <span class="u">infratech.com/wp-content/uploads/2026/09/C-CD_coveragechart_2025.webp</span></li></ol></div>
+  <div class="foot2"><p class="disc"><b>BEFORE YOU QUOTE</b> Facts as published by each brand on the dates shown; check current specifications before quoting. Installation by a licensed electrician to local code. <span class="rvm">Specification and compliance review required before external use.</span></p>
+  <a class="btn" href="https://www.bromic.com/design-your-space/">REQUEST YOUR DESIGN PLAN <span>→</span><em>BROMIC.COM/DESIGN-YOUR-SPACE</em></a></div>
+  </div>
+  <div class="strip">
+  <div class="cell grow"><b>SOURCES</b><span>Numbered list above. Infratech facts from Infratech documents and dealer-hosted copies of them; Bromic facts from Bromic product pages, manuals and the Series II launch deck. No retail prices are used.</span></div>
+  <div class="cell"><b>FOR</b><span>Retail floor and buyers</span></div>
+  <div class="cell"><b>SHEET TITLE</b><span>Bromic vs Infratech</span></div>
+  <div class="cell rv"><b>REVIEW</b><span>Specification and compliance review required before external use</span></div>
+  <div class="cell s"><b>DATE</b><span>2026-11-22</span></div>
+  <div class="cell sheet"><b>SHEET</b><span>02<i>/02</i></span></div>
+</div>
+</section></body></html>

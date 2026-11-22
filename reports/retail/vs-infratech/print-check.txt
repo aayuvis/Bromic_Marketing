@@ -1,0 +1,2 @@
+Print check, 2026-11-22
+clean: two Letter pages, no text off the frame or into the title strip, no overlapping blocks, all images load, no "$", no raw VERIFY, no "coming soon", exact flush-frame quote, review mark on both pages, PDF 241 KB
