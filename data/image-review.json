@@ -1152,6 +1152,30 @@
    "decided_by": "owner",
    "note": "logo inverted",
    "learned": true
+  },
+  {
+   "id": "ts2-r8e-03",
+   "title": "Coastal plate (no heater yet): Coastal beach-house porch, plate for approval (no heater)",
+   "kind": "Generated coastal background plate, for approval before any heater goes in",
+   "finish": "n/a (for Tungsten Coastal white or black)",
+   "w": 5056,
+   "h": 3392,
+   "file": "images/review/full/ts2-r8e-03.jpg",
+   "thumb": "images/review/thumb/ts2-r8e-03.webp",
+   "source": "PLATE ONLY, generated with an image model per the §12 Coastal exception, prompted from the real Bromic photo w-connecticut-privateresidence-tungstenelectri-3 (camera, light, materials); heaters removed in the prompt. Intended next step if approved: 2 Tungsten Coastal on short ceiling posts under the flat beadboard porch ceiling near the house wall, tilted toward the wicker seats. No heater has been added.",
+   "status": "pending"
+  },
+  {
+   "id": "ts2-r8e-04",
+   "title": "Coastal plate (no heater yet): Coastal deck under a deep soffit, plate for approval (no heater)",
+   "kind": "Generated coastal background plate, for approval before any heater goes in",
+   "finish": "n/a (for Tungsten Coastal black)",
+   "w": 5056,
+   "h": 3392,
+   "file": "images/review/full/ts2-r8e-04.jpg",
+   "thumb": "images/review/thumb/ts2-r8e-04.webp",
+   "source": "PLATE ONLY, generated with an image model per the §12 Coastal exception, prompted from the real Bromic Juneau showhome photo (w-juneau-showhome-1, 6,784 px original) to keep its camera, light and materials, reset on a rocky sea inlet. Intended next step if approved: Tungsten Coastal black on the angled wall bracket on the house wall under the soffit, over the sofa. No heater has been added.",
+   "status": "pending"
   }
  ]
 }
