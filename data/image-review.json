@@ -1181,7 +1181,8 @@
    "status": "rejected",
    "note": "where is the heater here?..like the image..add heater please...either recessed gray or inward facing 2 heaters moutned from the long edge",
    "decided": "2026-11-22",
-   "decided_by": "owner"
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-select-3kw-black-hero",
@@ -1373,7 +1374,10 @@
    "file": "images/review/full/pr-select-white-grille-macro.jpg",
    "thumb": "images/review/thumb/pr-select-white-grille-macro.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep; graded to natural colour",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-bg-black-brick-wall-festoon",
@@ -1387,8 +1391,11 @@
    "file": "images/review/full/pr-bg-black-brick-wall-festoon.jpg",
    "thumb": "images/review/thumb/pr-bg-black-brick-wall-festoon.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
-   "qc": "Pushed at the owner's request before the independent quality check."
+   "status": "approved",
+   "qc": "Pushed at the owner's request before the independent quality check.",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-bg-3kw-white-endcap-cedar",
@@ -1402,8 +1409,11 @@
    "file": "images/review/full/pr-bg-3kw-white-endcap-cedar.jpg",
    "thumb": "images/review/thumb/pr-bg-3kw-white-endcap-cedar.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
-   "qc": "Pushed at the owner's request before the independent quality check."
+   "status": "approved",
+   "qc": "Pushed at the owner's request before the independent quality check.",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-bg-black-endcap-render-soffit",
@@ -1417,9 +1427,12 @@
    "file": "images/review/full/pr-bg-black-endcap-render-soffit.jpg",
    "thumb": "images/review/thumb/pr-bg-black-endcap-render-soffit.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
+   "status": "approved",
    "review_note": "Check: logo orientation on the end cap.",
-   "qc": "Pushed at the owner's request before the independent quality check."
+   "qc": "Pushed at the owner's request before the independent quality check.",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-bg-graphite-limestone-wall-dusk",
@@ -1433,8 +1446,11 @@
    "file": "images/review/full/pr-bg-graphite-limestone-wall-dusk.jpg",
    "thumb": "images/review/thumb/pr-bg-graphite-limestone-wall-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
-   "qc": "Pushed at the owner's request before the independent quality check."
+   "status": "approved",
+   "qc": "Pushed at the owner's request before the independent quality check.",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-bg-graphite-ceiling-limestone-lounge",
@@ -1448,9 +1464,12 @@
    "file": "images/review/full/pr-bg-graphite-ceiling-limestone-lounge.jpg",
    "thumb": "images/review/thumb/pr-bg-graphite-ceiling-limestone-lounge.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
+   "status": "approved",
    "review_note": "Check: heater sits toward the wall rather than centred over the sofa; logo not visible at this distance.",
-   "qc": "Pushed at the owner's request before the independent quality check."
+   "qc": "Pushed at the owner's request before the independent quality check.",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-r9c-06",
@@ -1462,9 +1481,12 @@
    "file": "images/review/full/ts2-r9c-06.jpg",
    "thumb": "images/review/thumb/ts2-r9c-06.webp",
    "source": "Plate ts2-r8e-04 (owner-approved Coastal plate; owner 22 Nov: 'recessed gray or inward facing 2 heaters mounted from the long edge'; recess kit always; pair centred over the seating). The long-edge option (short posts at the fascia side, tilted inward) was rendered in round 1 and reads end-on from this camera, so the recessed option is used. Two Series II 6 kW, graphite, each in the recess kit as the CAD gives it (trim BMC-00659, marked obsolete in the CAD). They run in line along the boards with about 0.5 m between kits, centred on the sofa and lounge chair group, mid-soffit (about 1.3 m from the house wall). Contact occlusion is at the trim. Camera from the board/fascia vanishing point and the siding verticals (f about 4030 px); ceiling about 2.75 m. Graphite measured R>G>B (R/B 1.17), elements deep orange. The heaters are about 6% of the frame width; the logo is too small to read from this camera.",
-   "status": "pending",
+   "status": "approved",
    "plate": "ts2-r8e-04",
-   "review_note": "Original Coastal plate, two recessed graphite in the recess kit, centred over the seats. Heaters small (about 6% of frame) and logo not legible from this camera."
+   "review_note": "Original Coastal plate, two recessed graphite in the recess kit, centred over the seats. Heaters small (about 6% of frame) and logo not legible from this camera.",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "ts2-r9c-07",
@@ -1476,9 +1498,12 @@
    "file": "images/review/full/ts2-r9c-07.jpg",
    "thumb": "images/review/thumb/ts2-r9c-07.webp",
    "source": "Plate ts2-r8e-03 (owner-approved Coastal plate; owner 22 Nov: 'One heater is fine here', recessed, recess kit always, centred over the seating). One Series II 6 kW, white, in the recess kit from the '6kW heater and recess kit' CAD (the kit's only trim part is BMC-00659, marked obsolete in the CAD), flush with the beadboard. The heater is set 30 mm up inside the kit so its curved near lip stays inside the trim, and the BROMIC end-cap logo shows upright above the vent. Long axis runs with the boards, centred on the seating group (sofa, two armchairs, coffee table) as solved from the camera (one-point view, f about 5000 px; ceiling about 2.8 m), about 1.4 m clear of the crown molding. Elements deep orange (about 192/105/51), face matched to the shaded ceiling, clean grille edge, no open hollow.",
-   "status": "pending",
+   "status": "approved",
    "plate": "ts2-r8e-03",
-   "review_note": "One recessed white heater in the recess kit, centred over the seating (owner: \"one heater is fine here\"). The kit trim is the only one in the CAD, marked obsolete there; confirm with the Product team. Pushed at the owner's request before the independent quality check."
+   "review_note": "One recessed white heater in the recess kit, centred over the seating (owner: \"one heater is fine here\"). The kit trim is the only one in the CAD, marked obsolete there; confirm with the Product team. Pushed at the owner's request before the independent quality check.",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-3kw-black-logo-34",
@@ -1490,7 +1515,10 @@
    "file": "images/review/full/pr-a-3kw-black-logo-34.jpg",
    "thumb": "images/review/thumb/pr-a-3kw-black-logo-34.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-bg-graphite-pair-ceiling-lounge-f14",
@@ -1504,7 +1532,10 @@
    "file": "images/review/full/pr-bg-graphite-pair-ceiling-lounge-f14.jpg",
    "thumb": "images/review/thumb/pr-bg-graphite-pair-ceiling-lounge-f14.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-bg-white-ceiling-cedar-dining-f14",
@@ -1534,7 +1565,10 @@
    "file": "images/review/full/pr-a-black-up-9x16.jpg",
    "thumb": "images/review/thumb/pr-a-black-up-9x16.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-bg-black-wall-bench-f14",
@@ -1548,7 +1582,11 @@
    "file": "images/review/full/pr-bg-black-wall-bench-f14.jpg",
    "thumb": "images/review/thumb/pr-bg-black-wall-bench-f14.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true,
+   "note": "the seating is out of the heating bloom..directly under..not acceptable"
   },
   {
    "id": "pr-bg-black-recess-kit-plaster-ceiling",
@@ -1562,8 +1600,11 @@
    "file": "images/review/full/pr-bg-black-recess-kit-plaster-ceiling.jpg",
    "thumb": "images/review/thumb/pr-bg-black-recess-kit-plaster-ceiling.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
-   "review_note": "Recess trim modelled to the published size (1,624 × 283 mm), not the obsolete CAD trim; confirm the look."
+   "status": "approved",
+   "review_note": "Recess trim modelled to the published size (1,624 × 283 mm), not the obsolete CAD trim; confirm the look.",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-graphite-dark-endcap",
@@ -1575,7 +1616,10 @@
    "file": "images/review/full/pr-a-graphite-dark-endcap.jpg",
    "thumb": "images/review/thumb/pr-a-graphite-dark-endcap.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-black-wall-limewash-bench",
@@ -1589,7 +1633,10 @@
    "file": "images/review/full/pr-c-black-wall-limewash-bench.jpg",
    "thumb": "images/review/thumb/pr-c-black-wall-limewash-bench.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-white-pair-charcoal-wall-bench",
@@ -1603,7 +1650,11 @@
    "file": "images/review/full/pr-c-white-pair-charcoal-wall-bench.jpg",
    "thumb": "images/review/thumb/pr-c-white-pair-charcoal-wall-bench.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true,
+   "note": "heaters look fake..reject this"
   },
   {
    "id": "pr-d-cedar-dining-graphite-recessed-f14",
@@ -1614,13 +1665,16 @@
    "format": "3:2",
    "background": "generated plate (no heater, no people, no lettering): covered terrace with cedar-board ceiling about 2.4 m, dining table for eight, garden at dusk (same plate and solved camera as pr-bg-white-ceiling-cedar-dining-f14)",
    "source": "CAD: '6kW heater and recess kit' (Series II 6 kW in the kit; the kit trim BMC-00659 is the only trim in the CAD, marked obsolete there). Two kits flush in the cedar boards, long axis with the boards running into the scene (owner: 'going into the image'), one behind the other, 2.2 m centre to centre (about 0.5 m between kits), centred left to right on the table and about 0.3 m behind its centre so the near kit stays whole in frame. Rendered in Blender (Cycles), composited by the content team; graphite graded to a neutral warm grey (R>=G>B), elements deep orange (about 200/119/61).",
-   "note": "replaces pr-bg-white-ceiling-cedar-dining-f14 (owner: mounting looked unreal)",
+   "note": "heaters dont look real...i would install them not one after the other but in the same config but paraller to each other...they should look Bromic..the glow is unreal..use the white heater",
    "review_note": "Redo of the cedar dining pavilion per owner: two graphite recessed in the recess kit, running into the scene, centred over the table.",
    "w": 5056,
    "h": 3392,
    "file": "images/review/full/pr-d-cedar-dining-graphite-recessed-f14.jpg",
    "thumb": "images/review/thumb/pr-d-cedar-dining-graphite-recessed-f14.webp",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-d-social-black-ceiling-post-white-9x16",
@@ -1636,7 +1690,10 @@
    "h": 3840,
    "file": "images/review/full/pr-d-social-black-ceiling-post-white-9x16.jpg",
    "thumb": "images/review/thumb/pr-d-social-black-ceiling-post-white-9x16.webp",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-d-social-black-ceiling-post-graphite-4x5",
@@ -1652,7 +1709,10 @@
    "h": 2700,
    "file": "images/review/full/pr-d-social-black-ceiling-post-graphite-4x5.jpg",
    "thumb": "images/review/thumb/pr-d-social-black-ceiling-post-graphite-4x5.webp",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-d-social-white-ceiling-post-black-9x16",
@@ -1668,7 +1728,10 @@
    "h": 3840,
    "file": "images/review/full/pr-d-social-white-ceiling-post-black-9x16.jpg",
    "thumb": "images/review/thumb/pr-d-social-white-ceiling-post-black-9x16.webp",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-d-social-white-ceiling-post-graphite-4x5",
@@ -1684,7 +1747,10 @@
    "h": 2700,
    "file": "images/review/full/pr-d-social-white-ceiling-post-graphite-4x5.jpg",
    "thumb": "images/review/thumb/pr-d-social-white-ceiling-post-graphite-4x5.webp",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-d-social-graphite-wall-bracket-white-9x16",
@@ -1700,7 +1766,10 @@
    "h": 3840,
    "file": "images/review/full/pr-d-social-graphite-wall-bracket-white-9x16.jpg",
    "thumb": "images/review/thumb/pr-d-social-graphite-wall-bracket-white-9x16.webp",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-d-social-graphite-wall-bracket-black-4x5",
@@ -1716,7 +1785,10 @@
    "h": 2700,
    "file": "images/review/full/pr-d-social-graphite-wall-bracket-black-4x5.jpg",
    "thumb": "images/review/thumb/pr-d-social-graphite-wall-bracket-black-4x5.webp",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-d-social-black-logo-endcap-4x5",
@@ -1732,7 +1804,10 @@
    "h": 2700,
    "file": "images/review/full/pr-d-social-black-logo-endcap-4x5.jpg",
    "thumb": "images/review/thumb/pr-d-social-black-logo-endcap-4x5.webp",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-d-social-white-logo-endcap-9x16",
@@ -1748,7 +1823,10 @@
    "h": 3840,
    "file": "images/review/full/pr-d-social-white-logo-endcap-9x16.jpg",
    "thumb": "images/review/thumb/pr-d-social-white-logo-endcap-9x16.webp",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-d-social-black-wall-front-4x5",
@@ -1764,7 +1842,10 @@
    "h": 2700,
    "file": "images/review/full/pr-d-social-black-wall-front-4x5.jpg",
    "thumb": "images/review/thumb/pr-d-social-black-wall-front-4x5.webp",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-d-social-white-from-below-graphite-9x16",
@@ -1780,7 +1861,11 @@
    "h": 3840,
    "file": "images/review/full/pr-d-social-white-from-below-graphite-9x16.jpg",
    "thumb": "images/review/thumb/pr-d-social-white-from-below-graphite-9x16.webp",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true,
+   "note": "LOGO ON THE opposite side"
   },
   {
    "id": "pr-bg-graphite-pergola-beam-festoon",
@@ -1794,7 +1879,10 @@
    "file": "images/review/full/pr-bg-graphite-pergola-beam-festoon.jpg",
    "thumb": "images/review/thumb/pr-bg-graphite-pergola-beam-festoon.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-bg-graphite-pergola-beam-desert-dusk",
@@ -1808,7 +1896,10 @@
    "file": "images/review/full/pr-bg-graphite-pergola-beam-desert-dusk.jpg",
    "thumb": "images/review/thumb/pr-bg-graphite-pergola-beam-desert-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-graphite-ceiling-hero-light",
@@ -1820,8 +1911,11 @@
    "file": "images/review/full/pr-a-graphite-ceiling-hero-light.jpg",
    "thumb": "images/review/thumb/pr-a-graphite-ceiling-hero-light.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending",
-   "review_note": "Same render on three sweep tones (light, warm grey, dark): pick one. Graphite reads light here."
+   "status": "approved",
+   "review_note": "Same render on three sweep tones (light, warm grey, dark): pick one. Graphite reads light here.",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-graphite-ceiling-hero-warm-grey",
@@ -1833,8 +1927,11 @@
    "file": "images/review/full/pr-a-graphite-ceiling-hero-warm-grey.jpg",
    "thumb": "images/review/thumb/pr-a-graphite-ceiling-hero-warm-grey.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending",
-   "review_note": "Same render on three sweep tones (light, warm grey, dark): pick one. Graphite reads light here."
+   "status": "approved",
+   "review_note": "Same render on three sweep tones (light, warm grey, dark): pick one. Graphite reads light here.",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-graphite-ceiling-hero-dark",
@@ -1846,8 +1943,11 @@
    "file": "images/review/full/pr-a-graphite-ceiling-hero-dark.jpg",
    "thumb": "images/review/thumb/pr-a-graphite-ceiling-hero-dark.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending",
-   "review_note": "Same render on three sweep tones (light, warm grey, dark): pick one. Graphite reads light here."
+   "status": "approved",
+   "review_note": "Same render on three sweep tones (light, warm grey, dark): pick one. Graphite reads light here.",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-black-wall-low-light",
@@ -1859,8 +1959,11 @@
    "file": "images/review/full/pr-a-black-wall-low-light.jpg",
    "thumb": "images/review/thumb/pr-a-black-wall-low-light.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending",
-   "review_note": "Same render on three sweep tones (light, warm grey, dark): pick one."
+   "status": "approved",
+   "review_note": "Same render on three sweep tones (light, warm grey, dark): pick one.",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-black-wall-low-warm-grey",
@@ -1872,8 +1975,11 @@
    "file": "images/review/full/pr-a-black-wall-low-warm-grey.jpg",
    "thumb": "images/review/thumb/pr-a-black-wall-low-warm-grey.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending",
-   "review_note": "Same render on three sweep tones (light, warm grey, dark): pick one."
+   "status": "approved",
+   "review_note": "Same render on three sweep tones (light, warm grey, dark): pick one.",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-black-wall-low-dark",
@@ -1885,8 +1991,11 @@
    "file": "images/review/full/pr-a-black-wall-low-dark.jpg",
    "thumb": "images/review/thumb/pr-a-black-wall-low-dark.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending",
-   "review_note": "Same render on three sweep tones (light, warm grey, dark): pick one."
+   "status": "approved",
+   "review_note": "Same render on three sweep tones (light, warm grey, dark): pick one.",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-graphite-wall-limewash-bench",
@@ -1900,7 +2009,10 @@
    "file": "images/review/full/pr-c-graphite-wall-limewash-bench.jpg",
    "thumb": "images/review/thumb/pr-c-graphite-wall-limewash-bench.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-black-4x5-hero",
