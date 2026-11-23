@@ -2410,7 +2410,7 @@
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-rooftop-lounge-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "pending",
-   "review_note": "Side by side and parallel. Check: in several the pair sits nearer the camera than the seats, and the heaters are small in frame.",
+   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly.",
    "redo": "v2: cavity neutral, logo visible, pair further back over the seats",
    "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away.."
   },
@@ -2427,7 +2427,7 @@
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-concrete-desert-dining-night.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "pending",
-   "review_note": "Side by side and parallel. Check: in several the pair sits nearer the camera than the seats, and the heaters are small in frame.",
+   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly.",
    "redo": "v2: cavity neutral, logo visible, pair further back over the seats",
    "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away.."
   },
@@ -2444,7 +2444,7 @@
    "thumb": "images/review/thumb/pr-c-white-recessed-pair-oak-pavilion-lounge-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "pending",
-   "review_note": "Side by side and parallel. Check: in several the pair sits nearer the camera than the seats, and the heaters are small in frame.",
+   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly.",
    "redo": "v2: cavity neutral, logo visible, pair further back over the seats",
    "previous_note": "what is the color streak between the rc kit and heaters. (it should be gray. ....the logo is not visible...the heaters should be further away.."
   },
@@ -2623,7 +2623,8 @@
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "pending",
    "redo": "v2: cavity neutral, logo visible, pair further back over the seats",
-   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away.."
+   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
+   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly."
   },
   {
    "id": "pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk",
@@ -2639,7 +2640,8 @@
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "pending",
    "redo": "v2: cavity neutral, logo visible, pair further back over the seats",
-   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away.."
+   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
+   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly."
   },
   {
    "id": "pr-a-black-trio-row-light",
@@ -2701,7 +2703,7 @@
    "format": "3:2",
    "background": "generated plate (no heater, no people, no lettering): covered terrace with cedar-board ceiling about 2.4 m, dining table for eight, garden at dusk (same plate and solved camera as pr-bg-white-ceiling-cedar-dining-f14)",
    "source": "CAD: '6kW heater and recess kit' (Series II 6 kW) in the LC kit trim as published (1,624 x 283 mm, vents at both ends; the same build as the owner-approved pr-bg-black-recess-kit-plaster-ceiling), owner-approved studio white. Two kits side by side and parallel, long axis with the boards running into the scene, 1.2 m centre to centre (about 0.9 m between kits), together centred on the table. The heater sits 25 mm up inside the kit so its cover stays inside the frame. Rendered in Blender (Cycles, 20 samples, OpenImageDenoise), composited by the content team; elements at a low warm glow (two thin lines through the grille, no spill on the cedar); housing graded to the shaded ceiling.",
-   "review_note": "The BROMIC logo is on the far end caps; at this distance it is small and not legible. A close-up of the same kit with the logo readable is pr-d-recess-white-beadboard-logo-f1-4.",
+   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly.",
    "w": 3840,
    "h": 2560,
    "file": "images/review/full/pr-d-cedar-dining-white-recessed-pair.jpg",
@@ -2770,7 +2772,7 @@
    "source": "pr-d-cedar-dining-white-recessed-pair (unchanged) with the system banner below (decks/build-system-banner.py): the Series II heater and the heater in the low-clearance recess kit, both cut-outs rendered from the CAD in this finish; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); the Bromic logo",
    "status": "pending",
    "variant": "A2",
-   "review_note": "Banner A2 (owner rule A2–A5 by image); empty recess kit."
+   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly."
   },
   {
    "id": "pr-c-graphite-recessed-pair-walnut-terrace-dining-system",
@@ -2956,7 +2958,7 @@
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-rooftop-lounge-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "pending",
-   "review_note": "Side by side and parallel. Check: in several the pair sits nearer the camera than the seats, and the heaters are small in frame.",
+   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly.",
    "redo": "v2: cavity neutral, logo visible, pair further back over the seats",
    "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away.."
   },
@@ -2973,7 +2975,7 @@
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-concrete-desert-dining-night.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "pending",
-   "review_note": "Side by side and parallel. Check: in several the pair sits nearer the camera than the seats, and the heaters are small in frame.",
+   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly.",
    "redo": "v2: cavity neutral, logo visible, pair further back over the seats",
    "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away.."
   },
@@ -3020,7 +3022,7 @@
    "thumb": "images/review/thumb/pr-c-white-recessed-pair-oak-pavilion-lounge-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "pending",
-   "review_note": "Side by side and parallel. Check: in several the pair sits nearer the camera than the seats, and the heaters are small in frame.",
+   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly.",
    "redo": "v2: cavity neutral, logo visible, pair further back over the seats",
    "previous_note": "what is the color streak between the rc kit and heaters. (it should be gray. ....the logo is not visible...the heaters should be further away.."
   },
@@ -3107,7 +3109,7 @@
    "source": "pr-c-black-recessed-pair-rooftop-lounge-dusk (unchanged) with system banner A4 split tone (decks/build-system-banner-a-variants.py): the Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in black; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); product lines from data/product-facts.json; edge contrast heater 9.41:1, kit 12.5:1",
    "rebuilt": "2026-11-23: rebuilt as A4 with the empty kit",
    "status": "pending",
-   "review_note": "Banner A4 (owner rule A2–A5 by image); empty recess kit."
+   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly."
   },
   {
    "id": "pr-c-graphite-recessed-pair-concrete-desert-dining-night-system",
@@ -3122,7 +3124,7 @@
    "source": "pr-c-graphite-recessed-pair-concrete-desert-dining-night (unchanged) with system banner A5 gradient floor (decks/build-system-banner-a-variants.py): the Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in graphite; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); product lines from data/product-facts.json; edge contrast heater 3.75:1, kit 5.93:1",
    "rebuilt": "2026-11-23: rebuilt as A5 with the empty kit and the darker graphite",
    "status": "pending",
-   "review_note": "Banner A5 (owner rule A2–A5 by image); empty recess kit."
+   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly."
   },
   {
    "id": "pr-c-white-recessed-pair-desert-kitchen-bar-sunset-system",
@@ -3152,7 +3154,7 @@
    "source": "pr-c-white-recessed-pair-oak-pavilion-lounge-dusk (unchanged) with system banner A2 charcoal band (decks/build-system-banner-a-variants.py): the Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in white; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); product lines from data/product-facts.json; edge contrast heater 6.09:1, kit 6.41:1",
    "rebuilt": "2026-11-23: rebuilt as A2 with the empty kit",
    "status": "pending",
-   "review_note": "Banner A2 (owner rule A2–A5 by image); empty recess kit."
+   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly."
   },
   {
    "id": "pr-c-graphite-recessed-pair-cedar-garden-dining-dusk-system",
@@ -3182,7 +3184,7 @@
    "source": "pr-c-black-recessed-pair-spotted-gum-dining-afternoon (unchanged) with system banner A4 split tone (decks/build-system-banner-a-variants.py): the Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in black; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); product lines from data/product-facts.json; edge contrast heater 9.41:1, kit 12.5:1",
    "rebuilt": "2026-11-23: rebuilt as A4 with the empty kit",
    "status": "pending",
-   "review_note": "Banner A4 (owner rule A2–A5 by image); empty recess kit."
+   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly."
   },
   {
    "id": "pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk-system",
@@ -3197,7 +3199,7 @@
    "source": "pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk (unchanged) with system banner A5 gradient floor (decks/build-system-banner-a-variants.py): the Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in graphite; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); product lines from data/product-facts.json; edge contrast heater 3.75:1, kit 5.93:1",
    "rebuilt": "2026-11-23: rebuilt as A5 with the empty kit and the darker graphite",
    "status": "pending",
-   "review_note": "Banner A5 (owner rule A2–A5 by image); empty recess kit."
+   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly."
   },
   {
    "id": "pr-c-white-recessed-pair-forest-loggia-lounge-evening-system",
@@ -3244,7 +3246,8 @@
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "pending",
    "redo": "v2: cavity neutral, logo visible, pair further back over the seats",
-   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away.."
+   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
+   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly."
   },
   {
    "id": "pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk",
@@ -3260,7 +3263,8 @@
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "pending",
    "redo": "v2: cavity neutral, logo visible, pair further back over the seats",
-   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away.."
+   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
+   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly."
   },
   {
    "id": "pr-c-white-recessed-pair-forest-loggia-lounge-evening",
@@ -3286,7 +3290,7 @@
    "format": "3:2",
    "background": "generated plate (no heater, no people, no lettering): covered terrace with cedar-board ceiling about 2.4 m, dining table for eight, garden at dusk (same plate and solved camera as pr-bg-white-ceiling-cedar-dining-f14)",
    "source": "CAD: '6kW heater and recess kit' (Series II 6 kW) in the LC kit trim as published (1,624 x 283 mm, vents at both ends; the same build as the owner-approved pr-bg-black-recess-kit-plaster-ceiling), owner-approved studio white. Two kits side by side and parallel, long axis with the boards running into the scene, 1.2 m centre to centre (about 0.9 m between kits), together centred on the table. The heater sits 25 mm up inside the kit so its cover stays inside the frame. Rendered in Blender (Cycles, 20 samples, OpenImageDenoise), composited by the content team; elements at a low warm glow (two thin lines through the grille, no spill on the cedar); housing graded to the shaded ceiling.",
-   "review_note": "The BROMIC logo is on the far end caps; at this distance it is small and not legible. A close-up of the same kit with the logo readable is pr-d-recess-white-beadboard-logo-f1-4.",
+   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly.",
    "w": 3840,
    "h": 2560,
    "file": "images/review/full/pr-d-cedar-dining-white-recessed-pair.jpg",
