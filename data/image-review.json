@@ -2892,7 +2892,10 @@
    "file": "images/review/full/pr-c-black-recessed-pair-city-balcony-night-system-a.jpg",
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-city-balcony-night-system-a.webp",
    "source": "pr-c-black-recessed-pair-city-balcony-night with banner option A (decks/build-system-banner-options.py): Series II heater and the heater in the low-clearance recess kit, cut-outs rendered from the CAD in black; Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png) cut out from its white ground, unchanged; product lines from data/product-facts.json",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "note": "Owner chose the A2–A5 family"
   },
   {
    "id": "pr-c-black-recessed-pair-city-balcony-night-system-b",
@@ -2904,7 +2907,10 @@
    "file": "images/review/full/pr-c-black-recessed-pair-city-balcony-night-system-b.jpg",
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-city-balcony-night-system-b.webp",
    "source": "pr-c-black-recessed-pair-city-balcony-night with banner option B (decks/build-system-banner-options.py): Series II heater and the heater in the low-clearance recess kit, cut-outs rendered from the CAD in black; Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png) cut out from its white ground, unchanged; product lines from data/product-facts.json",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "note": "Owner chose the A2–A5 family"
   },
   {
    "id": "pr-c-black-recessed-pair-city-balcony-night-system-c",
@@ -2916,7 +2922,10 @@
    "file": "images/review/full/pr-c-black-recessed-pair-city-balcony-night-system-c.jpg",
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-city-balcony-night-system-c.webp",
    "source": "pr-c-black-recessed-pair-city-balcony-night with banner option C (decks/build-system-banner-options.py): Series II heater and the heater in the low-clearance recess kit, cut-outs rendered from the CAD in black; Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png) cut out from its white ground, unchanged; product lines from data/product-facts.json",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "note": "Owner chose the A2–A5 family"
   },
   {
    "id": "pr-c-black-recessed-pair-rooftop-lounge-dusk",
@@ -2962,7 +2971,10 @@
    "file": "images/review/full/pr-c-black-recessed-pair-city-balcony-night-system-a4.jpg",
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-city-balcony-night-system-a4.webp",
    "source": "pr-c-black-recessed-pair-city-balcony-night with banner option A4 (decks/build-system-banner-a-variants.py): Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in black; Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png) cut out from its white ground; product lines from data/product-facts.json; edge contrast [('Tungsten Smart-Heat® Electric', np.float64(10.31)), ('Low-Clearance Recess Kit', np.float64(10.93)), ('Affinity Smart-Heat® Dimmer, 2-Channel', np.float64(3.53))]",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "note": "Use A2–A5 by image (owner)"
   },
   {
    "id": "pr-c-black-recessed-pair-city-balcony-night-system-a5",
@@ -2974,7 +2986,10 @@
    "file": "images/review/full/pr-c-black-recessed-pair-city-balcony-night-system-a5.jpg",
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-city-balcony-night-system-a5.webp",
    "source": "pr-c-black-recessed-pair-city-balcony-night with banner option A5 (decks/build-system-banner-a-variants.py): Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in black; Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png) cut out from its white ground; product lines from data/product-facts.json; edge contrast [('Tungsten Smart-Heat® Electric', np.float64(3.96)), ('Low-Clearance Recess Kit', np.float64(4.08)), ('Affinity Smart-Heat® Dimmer, 2-Channel', np.float64(1.11))]",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "note": "Use A2–A5 by image (owner)"
   },
   {
    "id": "pr-c-white-recessed-pair-oak-pavilion-lounge-dusk",
@@ -3019,7 +3034,10 @@
    "file": "images/review/full/pr-c-black-recessed-pair-city-balcony-night-system-a2.jpg",
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-city-balcony-night-system-a2.webp",
    "source": "pr-c-black-recessed-pair-city-balcony-night with banner option A2 (decks/build-system-banner-a-variants.py): Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in black; Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png) cut out from its white ground; product lines from data/product-facts.json; edge contrast [('Tungsten Smart-Heat® Electric', np.float64(3.28)), ('Low-Clearance Recess Kit', np.float64(4.4)), ('Affinity Smart-Heat® Dimmer, 2-Channel', np.float64(1.38))]",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "note": "Use A2–A5 by image (owner)"
   },
   {
    "id": "pr-c-black-recessed-pair-city-balcony-night-system-a3",
@@ -3031,7 +3049,10 @@
    "file": "images/review/full/pr-c-black-recessed-pair-city-balcony-night-system-a3.jpg",
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-city-balcony-night-system-a3.webp",
    "source": "pr-c-black-recessed-pair-city-balcony-night with banner option A3 (decks/build-system-banner-a-variants.py): Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in black; Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png) cut out from its white ground; product lines from data/product-facts.json; edge contrast [('Tungsten Smart-Heat® Electric', np.float64(4.02)), ('Low-Clearance Recess Kit', np.float64(5.29)), ('Affinity Smart-Heat® Dimmer, 2-Channel', np.float64(2.04))]",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "note": "Use A2–A5 by image (owner)"
   }
  ]
 }
