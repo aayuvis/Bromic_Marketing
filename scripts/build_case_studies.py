@@ -212,6 +212,13 @@ if os.path.exists(EXTRA):
             else: rec[k] = v
         check(rec)
 
+# Owner, 22 Nov 2026: "remove case studies like this where there is nothing". A record with no photo AND nothing read
+# (a search-listing-only lead, or a gallery project with no photos) is dropped from the Cases tab; leads stay in the inventory.
+def empty(rec):
+    return not rec.get('images') and (rec.get('read') in ('search-snippet-only', 'gallery') or 'UNCONFIRMED' in rec.get('title', ''))
+dropped = [r['id'] for r in out if empty(r)]
+out = [r for r in out if not empty(r)]
+print('dropped (nothing to show):', len(dropped))
 json.dump(out, open(os.path.join(ROOT, 'data', 'case-studies.json'), 'w'), indent=1, ensure_ascii=False)
 from collections import Counter
 print(len(out), 'records', dict(Counter(r['kind'] for r in out)), 'markets', dict(Counter(m for r in out for m in r['tags']['market'])))

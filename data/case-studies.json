@@ -1,45 +1,5 @@
 [
  {
-  "id": "cs-untied-rooftop-bar-barangaroo-sydney-unc",
-  "kind": "case-study",
-  "title": "Untied - Rooftop Bar (Barangaroo, Sydney) — UNCONFIRMED",
-  "customer": "Untied",
-  "location": "Barangaroo, Sydney",
-  "url": null,
-  "also_at": [],
-  "read": "search-snippet-only",
-  "summary": "Possibly a legacy Bromic AU case study; existence not confirmed. No URL, products or details recoverable. Treat as a lead to verify with Bromic AU.",
-  "year": null,
-  "tags": {
-   "segment": [],
-   "space": [],
-   "install": [],
-   "product": [],
-   "controls": [
-    "controls-not-stated"
-   ],
-   "theme": [],
-   "market": [
-    "AU"
-   ],
-   "proof": [],
-   "origin": [
-    "bromic-site"
-   ],
-   "evidence": [
-    "snippet-only"
-   ],
-   "completeness": [
-    "published"
-   ]
-  },
-  "issues": [
-   "Not read: www.bromic.com.au blocks automated reading; known from a search listing only"
-  ],
-  "images": [],
-  "note": "Known from a search listing only: the page could not be read · Not yet tagged by hand"
- },
- {
   "id": "cs-barangaroo-house",
   "kind": "case-study",
   "title": "Barangaroo House - Bromic Heating Australia",
@@ -2461,48 +2421,6 @@
   ]
  },
  {
-  "id": "cs-sunbury-bowling-club",
-  "kind": "case-study",
-  "title": "Sunbury Bowling Club (legacy AU case study; search title \"Case Studies of Gas and Electric Outdoor Patio Heaters - Bromic Heating Australia\")",
-  "customer": "Sunbury Bowling Club",
-  "location": "Sunbury, Victoria (club listing: 49 Riddell Road)",
-  "url": "https://www.bromic.com/heating-au/case-studies/sunbury-bowling-club/",
-  "also_at": [],
-  "read": "search-snippet-only",
-  "summary": "Legacy AU case study. Only its opening line survives in search; the legacy URL now 301-redirects to the AU case-studies listing, so the page appears retired. Products unknown.",
-  "year": null,
-  "tags": {
-   "segment": [
-    "pub-club"
-   ],
-   "space": [],
-   "install": [],
-   "product": [],
-   "controls": [
-    "controls-not-stated"
-   ],
-   "theme": [],
-   "market": [
-    "AU"
-   ],
-   "proof": [],
-   "origin": [
-    "bromic-site"
-   ],
-   "evidence": [
-    "snippet-only"
-   ],
-   "completeness": [
-    "published"
-   ]
-  },
-  "issues": [
-   "Not read: www.bromic.com.au blocks automated reading; known from a search listing only"
-  ],
-  "images": [],
-  "note": "Known from a search listing only: the page could not be read"
- },
- {
   "id": "cs-neumanns-restaurant",
   "kind": "case-study",
   "title": "Neumanns Restaurant",
@@ -3038,82 +2956,6 @@
   ]
  },
  {
-  "id": "pj-cobalt-electric-residential-1",
-  "kind": "project",
-  "title": "Cobalt Electric Residential_1",
-  "customer": null,
-  "location": null,
-  "url": "https://www.bromic.com/gallery/cobalt-electric-residential_1/",
-  "read": "gallery",
-  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
-  "tags": {
-   "segment": [
-    "single-family"
-   ],
-   "space": [],
-   "install": [],
-   "product": [
-    "cobalt"
-   ],
-   "controls": [
-    "controls-not-stated"
-   ],
-   "theme": [],
-   "market": [],
-   "proof": [],
-   "origin": [
-    "bromic-gallery"
-   ],
-   "evidence": [
-    "page-read"
-   ],
-   "completeness": [
-    "photos-only"
-   ]
-  },
-  "images": [],
-  "gallery": [
-   "https://www.bromic.com/gallery/cobalt-electric-residential_1/"
-  ]
- },
- {
-  "id": "pj-cobalt-garage",
-  "kind": "project",
-  "title": "Cobalt Garage",
-  "customer": null,
-  "location": null,
-  "url": "https://www.bromic.com/gallery/cobalt-garage/",
-  "read": "gallery",
-  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
-  "tags": {
-   "segment": [],
-   "space": [],
-   "install": [],
-   "product": [
-    "cobalt"
-   ],
-   "controls": [
-    "controls-not-stated"
-   ],
-   "theme": [],
-   "market": [],
-   "proof": [],
-   "origin": [
-    "bromic-gallery"
-   ],
-   "evidence": [
-    "page-read"
-   ],
-   "completeness": [
-    "photos-only"
-   ]
-  },
-  "images": [],
-  "gallery": [
-   "https://www.bromic.com/gallery/cobalt-garage/"
-  ]
- },
- {
   "id": "pj-connecticut-usa",
   "kind": "project",
   "title": "Connecticut, USA",
@@ -3158,49 +3000,6 @@
    "https://www.bromic.com/gallery/tungsten-electric-flush-mounted-in-private-residence-connecticut/"
   ],
   "written_as": "cs-private-residence-connecticut"
- },
- {
-  "id": "pj-corinthia",
-  "kind": "project",
-  "title": "Corinthia",
-  "customer": "Corinthia",
-  "location": "London, UK",
-  "url": "https://www.bromic.com/gallery/tungsten-freestanding-london-corinthia/",
-  "read": "gallery",
-  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
-  "tags": {
-   "segment": [
-    "hotel-resort"
-   ],
-   "space": [],
-   "install": [
-    "freestanding"
-   ],
-   "product": [
-    "tungsten-portable"
-   ],
-   "controls": [
-    "controls-not-stated"
-   ],
-   "theme": [],
-   "market": [
-    "UK"
-   ],
-   "proof": [],
-   "origin": [
-    "bromic-gallery"
-   ],
-   "evidence": [
-    "page-read"
-   ],
-   "completeness": [
-    "photos-only"
-   ]
-  },
-  "images": [],
-  "gallery": [
-   "https://www.bromic.com/gallery/tungsten-freestanding-london-corinthia/"
-  ]
  },
  {
   "id": "pj-crystal-cruises",
@@ -3383,45 +3182,6 @@
   ]
  },
  {
-  "id": "pj-eclipse-electric-48-1200mm-pole",
-  "kind": "project",
-  "title": "Eclipse Electric 48 1200Mm Pole",
-  "customer": null,
-  "location": null,
-  "url": "https://www.bromic.com/gallery/eclipse-electric-48-1200mm-pole/",
-  "read": "gallery",
-  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
-  "tags": {
-   "segment": [],
-   "space": [],
-   "install": [
-    "pole-suspended"
-   ],
-   "product": [
-    "eclipse-electric"
-   ],
-   "controls": [
-    "controls-not-stated"
-   ],
-   "theme": [],
-   "market": [],
-   "proof": [],
-   "origin": [
-    "bromic-gallery"
-   ],
-   "evidence": [
-    "page-read"
-   ],
-   "completeness": [
-    "photos-only"
-   ]
-  },
-  "images": [],
-  "gallery": [
-   "https://www.bromic.com/gallery/eclipse-electric-48-1200mm-pole/"
-  ]
- },
- {
   "id": "pj-eclipse-electric-ceiling-mount-angled",
   "kind": "project",
   "title": "Eclipse Electric Ceiling Mount Angled",
@@ -3542,46 +3302,6 @@
   ],
   "gallery": [
    "https://www.bromic.com/gallery/eclipse-electric-ceiling-mounted-no-people/"
-  ]
- },
- {
-  "id": "pj-eclipse-electric-freestanding",
-  "kind": "project",
-  "title": "Eclipse Electric Freestanding 2",
-  "customer": null,
-  "location": null,
-  "url": "https://www.bromic.com/gallery/eclipse-electric-freestanding-2/",
-  "read": "gallery",
-  "summary": "2 gallery photos on bromic.com, never written up as a case study.",
-  "tags": {
-   "segment": [],
-   "space": [],
-   "install": [
-    "freestanding"
-   ],
-   "product": [
-    "eclipse-electric"
-   ],
-   "controls": [
-    "controls-not-stated"
-   ],
-   "theme": [],
-   "market": [],
-   "proof": [],
-   "origin": [
-    "bromic-gallery"
-   ],
-   "evidence": [
-    "page-read"
-   ],
-   "completeness": [
-    "photos-only"
-   ]
-  },
-  "images": [],
-  "gallery": [
-   "https://www.bromic.com/gallery/eclipse-electric-freestanding-2/",
-   "https://www.bromic.com/gallery/eclipse-electric-freestanding/"
   ]
  },
  {
@@ -3929,41 +3649,6 @@
   ]
  },
  {
-  "id": "pj-gallery",
-  "kind": "project",
-  "title": "Gallery",
-  "customer": null,
-  "location": null,
-  "url": "https://www.bromic.com/gallery/",
-  "read": "gallery",
-  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
-  "tags": {
-   "segment": [],
-   "space": [],
-   "install": [],
-   "product": [],
-   "controls": [
-    "controls-not-stated"
-   ],
-   "theme": [],
-   "market": [],
-   "proof": [],
-   "origin": [
-    "bromic-gallery"
-   ],
-   "evidence": [
-    "page-read"
-   ],
-   "completeness": [
-    "photos-only"
-   ]
-  },
-  "images": [],
-  "gallery": [
-   "https://www.bromic.com/gallery/"
-  ]
- },
- {
   "id": "pj-greenwich-sydney-australia",
   "kind": "project",
   "title": "Greenwich, Sydney, Australia",
@@ -4006,49 +3691,6 @@
   "gallery": [
    "https://www.bromic.com/gallery/platinum-electric-black-residential-sydney-greenwich-2/",
    "https://www.bromic.com/gallery/platinum-electric-black-residential-sydney-greenwich/"
-  ]
- },
- {
-  "id": "pj-gregory-hills-hotel",
-  "kind": "project",
-  "title": "Gregory Hills Hotel",
-  "customer": "Gregory Hills Hotel",
-  "location": "Sydney, Australia",
-  "url": "https://www.bromic.com/gallery/platinum-gas-wall-mounted-gregory-hills-hotel-sydney/",
-  "read": "gallery",
-  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
-  "tags": {
-   "segment": [
-    "hotel-resort"
-   ],
-   "space": [],
-   "install": [
-    "wall-mounted"
-   ],
-   "product": [
-    "platinum-gas"
-   ],
-   "controls": [
-    "controls-not-stated"
-   ],
-   "theme": [],
-   "market": [
-    "AU"
-   ],
-   "proof": [],
-   "origin": [
-    "bromic-gallery"
-   ],
-   "evidence": [
-    "page-read"
-   ],
-   "completeness": [
-    "photos-only"
-   ]
-  },
-  "images": [],
-  "gallery": [
-   "https://www.bromic.com/gallery/platinum-gas-wall-mounted-gregory-hills-hotel-sydney/"
   ]
  },
  {
@@ -4191,45 +3833,6 @@
   ],
   "gallery": [
    "https://www.bromic.com/gallery/platinum-gas-hotel-distil-marriott-autograph-collection-louisville-ky/"
-  ]
- },
- {
-  "id": "pj-hyatt",
-  "kind": "project",
-  "title": "Hyatt",
-  "customer": "Hyatt",
-  "location": null,
-  "url": "https://www.bromic.com/gallery/tungsten-electric-hyatt/",
-  "read": "gallery",
-  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
-  "tags": {
-   "segment": [
-    "hotel-resort"
-   ],
-   "space": [],
-   "install": [],
-   "product": [
-    "tungsten-electric"
-   ],
-   "controls": [
-    "controls-not-stated"
-   ],
-   "theme": [],
-   "market": [],
-   "proof": [],
-   "origin": [
-    "bromic-gallery"
-   ],
-   "evidence": [
-    "page-read"
-   ],
-   "completeness": [
-    "photos-only"
-   ]
-  },
-  "images": [],
-  "gallery": [
-   "https://www.bromic.com/gallery/tungsten-electric-hyatt/"
   ]
  },
  {
@@ -4587,48 +4190,6 @@
   "gallery": [
    "https://www.bromic.com/gallery/eclipse-electric-ceiling-mounted-private-residence-kentucky/"
   ]
- },
- {
-  "id": "pj-la-pecora-bianca",
-  "kind": "project",
-  "title": "La Pecora Bianca",
-  "customer": "La Pecora Bianca",
-  "location": "New York, USA",
-  "url": "https://www.bromic.com/gallery/tungsten-electric-la-pecora-bianca-nyc/",
-  "read": "gallery",
-  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
-  "tags": {
-   "segment": [
-    "restaurant"
-   ],
-   "space": [],
-   "install": [],
-   "product": [
-    "tungsten-electric"
-   ],
-   "controls": [
-    "controls-not-stated"
-   ],
-   "theme": [],
-   "market": [
-    "US"
-   ],
-   "proof": [],
-   "origin": [
-    "bromic-gallery"
-   ],
-   "evidence": [
-    "page-read"
-   ],
-   "completeness": [
-    "photos-only"
-   ]
-  },
-  "images": [],
-  "gallery": [
-   "https://www.bromic.com/gallery/tungsten-electric-la-pecora-bianca-nyc/"
-  ],
-  "written_as": "cs-pecora-bianca"
  },
  {
   "id": "pj-lady-lene",
@@ -5372,44 +4933,6 @@
   ]
  },
  {
-  "id": "pj-pangbourne-uk",
-  "kind": "project",
-  "title": "Pangbourne, UK",
-  "customer": null,
-  "location": "Pangbourne, UK",
-  "url": "https://www.bromic.com/gallery/platinum-electric-pangbourne/",
-  "read": "gallery",
-  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
-  "tags": {
-   "segment": [],
-   "space": [],
-   "install": [],
-   "product": [
-    "platinum-electric"
-   ],
-   "controls": [
-    "controls-not-stated"
-   ],
-   "theme": [],
-   "market": [],
-   "proof": [],
-   "origin": [
-    "bromic-gallery"
-   ],
-   "evidence": [
-    "page-read"
-   ],
-   "completeness": [
-    "photos-only"
-   ]
-  },
-  "images": [],
-  "gallery": [
-   "https://www.bromic.com/gallery/platinum-electric-pangbourne/"
-  ],
-  "written_as": "cs-platinum-electric-heaters-in-pangbourne"
- },
- {
   "id": "pj-paris-bar",
   "kind": "project",
   "title": "Paris Bar",
@@ -6030,45 +5553,6 @@
   ]
  },
  {
-  "id": "pj-platinum-electric-marine-white",
-  "kind": "project",
-  "title": "Platinum Electric Marine White",
-  "customer": null,
-  "location": null,
-  "url": "https://www.bromic.com/gallery/platinum-electric-marine-white/",
-  "read": "gallery",
-  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
-  "tags": {
-   "segment": [
-    "marine-yacht"
-   ],
-   "space": [],
-   "install": [],
-   "product": [
-    "platinum-marine"
-   ],
-   "controls": [
-    "controls-not-stated"
-   ],
-   "theme": [],
-   "market": [],
-   "proof": [],
-   "origin": [
-    "bromic-gallery"
-   ],
-   "evidence": [
-    "page-read"
-   ],
-   "completeness": [
-    "photos-only"
-   ]
-  },
-  "images": [],
-  "gallery": [
-   "https://www.bromic.com/gallery/platinum-electric-marine-white/"
-  ]
- },
- {
   "id": "pj-platinum-electric-marine-white-flush-mounted",
   "kind": "project",
   "title": "Platinum Electric Marine White Flush Mounted",
@@ -6109,47 +5593,6 @@
   ],
   "gallery": [
    "https://www.bromic.com/gallery/platinum-electric-marine-white-flush-mounted/"
-  ]
- },
- {
-  "id": "pj-platinum-electric-marine-white-wall-mounted",
-  "kind": "project",
-  "title": "Platinum Electric Marine White Wall Mounted",
-  "customer": null,
-  "location": null,
-  "url": "https://www.bromic.com/gallery/platinum-electric-marine-white-wall-mounted/",
-  "read": "gallery",
-  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
-  "tags": {
-   "segment": [
-    "marine-yacht"
-   ],
-   "space": [],
-   "install": [
-    "wall-mounted"
-   ],
-   "product": [
-    "platinum-marine"
-   ],
-   "controls": [
-    "controls-not-stated"
-   ],
-   "theme": [],
-   "market": [],
-   "proof": [],
-   "origin": [
-    "bromic-gallery"
-   ],
-   "evidence": [
-    "page-read"
-   ],
-   "completeness": [
-    "photos-only"
-   ]
-  },
-  "images": [],
-  "gallery": [
-   "https://www.bromic.com/gallery/platinum-electric-marine-white-wall-mounted/"
   ]
  },
  {
@@ -6244,43 +5687,6 @@
   ],
   "gallery": [
    "https://www.bromic.com/gallery/platinum-electric-white-residential/"
-  ]
- },
- {
-  "id": "pj-platinum-gas",
-  "kind": "project",
-  "title": "Platinum Gas",
-  "customer": null,
-  "location": null,
-  "url": "https://www.bromic.com/gallery/platinum-gas/",
-  "read": "gallery",
-  "summary": "1 gallery photo on bromic.com, never written up as a case study.",
-  "tags": {
-   "segment": [],
-   "space": [],
-   "install": [],
-   "product": [
-    "platinum-gas"
-   ],
-   "controls": [
-    "controls-not-stated"
-   ],
-   "theme": [],
-   "market": [],
-   "proof": [],
-   "origin": [
-    "bromic-gallery"
-   ],
-   "evidence": [
-    "page-read"
-   ],
-   "completeness": [
-    "photos-only"
-   ]
-  },
-  "images": [],
-  "gallery": [
-   "https://www.bromic.com/gallery/platinum-gas/"
   ]
  },
  {
@@ -6407,47 +5813,6 @@
   "gallery": [
    "https://www.bromic.com/gallery/restaurant-patio-heater-platinum-electric/"
   ]
- },
- {
-  "id": "pj-ritz-carlton-evrima",
-  "kind": "project",
-  "title": "Ritz-Carlton Evrima",
-  "customer": "Ritz-Carlton Evrima",
-  "location": null,
-  "url": "https://www.bromic.com/gallery/platinum-electric-black-ritz-carlton-2/",
-  "read": "gallery",
-  "summary": "2 gallery photos on bromic.com, never written up as a case study.",
-  "tags": {
-   "segment": [
-    "marine-yacht"
-   ],
-   "space": [],
-   "install": [],
-   "product": [
-    "platinum-electric"
-   ],
-   "controls": [
-    "controls-not-stated"
-   ],
-   "theme": [],
-   "market": [],
-   "proof": [],
-   "origin": [
-    "bromic-gallery"
-   ],
-   "evidence": [
-    "page-read"
-   ],
-   "completeness": [
-    "photos-only"
-   ]
-  },
-  "images": [],
-  "gallery": [
-   "https://www.bromic.com/gallery/platinum-electric-black-ritz-carlton-2/",
-   "https://www.bromic.com/gallery/platinum-electric-ritz-carlton-2/"
-  ],
-  "written_as": "cs-platinum-electric-marine-heaters-aboard-ritz-carlton-yacht-c"
  },
  {
   "id": "pj-ruse-parramatta-square",
