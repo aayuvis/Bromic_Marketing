@@ -3465,6 +3465,30 @@
    "file": "images/review/full/pr-d-recess-black-aluminium-logo-f1-4.jpg",
    "thumb": "images/review/thumb/pr-d-recess-black-aluminium-logo-f1-4.webp",
    "status": "pending"
+  },
+  {
+   "id": "pr-a-white-pair-in-line-warm-grey",
+   "title": "Series II 6 kW, two white heaters end to end in line on ceiling posts, seen from below, elements glowing, on a warm-grey sweep",
+   "kind": "CAD studio render",
+   "finish": "white",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-a-white-pair-in-line-warm-grey.jpg",
+   "thumb": "images/review/thumb/pr-a-white-pair-in-line-warm-grey.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+   "status": "pending"
+  },
+  {
+   "id": "pr-a-white-pair-in-line-grey",
+   "title": "Series II 6 kW, two white heaters end to end in line on ceiling posts, seen from below, elements glowing, on a deeper grey sweep",
+   "kind": "CAD studio render",
+   "finish": "white",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-a-white-pair-in-line-grey.jpg",
+   "thumb": "images/review/thumb/pr-a-white-pair-in-line-grey.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+   "status": "pending"
   }
  ]
 }
