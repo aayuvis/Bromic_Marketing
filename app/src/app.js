@@ -829,7 +829,9 @@
   const CSR = Object.fromEntries(CS.records.map((r) => [r.id, r]));
   const csThumb = (r) => { const im = r.images?.length ? IMG[r.images[0]] : null; return im ? `<img src="${im.thumb}" alt="${esc(im.alt)}" loading="lazy">` : '<span class="cs-noimg">No photo yet</span>'; };
   function csTile(r) {
-    return `<a class="cs-tile" href="#/cases/${encodeURIComponent(r.id)}" data-cstile="${esc(r.id)}"><span class="cs-tile-img">${csThumb(r)}</span><span class="cs-tile-b"><b class="cs-tile-t">${esc(r.title || r.customer || r.id)}</b><span class="cs-tile-l">${esc(r.location || '')}</span></span></a>`;
+    // One source tag, top right (owner, 23 Nov 2026): the site the story comes from, e.g. bromic.com, patioheatandshade.com.
+    let host = ''; try { host = r.url ? new URL(r.url).hostname.replace(/^www\./, '') : ''; } catch (e) { host = ''; }
+    return `<a class="cs-tile" href="#/cases/${encodeURIComponent(r.id)}" data-cstile="${esc(r.id)}"><span class="cs-tile-img">${csThumb(r)}${host ? `<span class="cs-src">${esc(host)}</span>` : ''}</span><span class="cs-tile-b"><b class="cs-tile-t">${esc(r.title || r.customer || r.id)}</b><span class="cs-tile-l">${esc(r.location || '')}</span></span></a>`;
   }
   function csDetail(r) {
     const img = r.images?.length ? IMG[r.images[0]] : null;
