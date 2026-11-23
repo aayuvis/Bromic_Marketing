@@ -1550,7 +1550,7 @@
    "thumb": "images/review/thumb/pr-bg-white-ceiling-cedar-dining-f14.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "rejected",
-   "note": "good image but the heater mounting looks unreal...i would add 2 graphite recessed here",
+   "note": "`",
    "decided": "2026-11-22",
    "decided_by": "owner",
    "learned": true
@@ -2651,7 +2651,10 @@
    "file": "images/review/full/pr-a-black-trio-row-light.jpg",
    "thumb": "images/review/thumb/pr-a-black-trio-row-light.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-black-trio-row-warm-grey",
@@ -2663,7 +2666,10 @@
    "file": "images/review/full/pr-a-black-trio-row-warm-grey.jpg",
    "thumb": "images/review/thumb/pr-a-black-trio-row-warm-grey.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-black-trio-row-dark",
@@ -2675,7 +2681,11 @@
    "file": "images/review/full/pr-a-black-trio-row-dark.jpg",
    "thumb": "images/review/thumb/pr-a-black-trio-row-dark.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true,
+   "note": "white heaters"
   },
   {
    "id": "pr-c-white-recessed-pair-forest-loggia-lounge-evening",
@@ -2718,12 +2728,15 @@
    "format": "3:2",
    "background": "clear-finished timber tongue-and-groove ceiling and fascia: generated surface texture; pool garden backdrop: generated (defocused); no heater, no lettering",
    "source": "CAD: '6kW heater and recess kit' (Series II 6 kW) in the LC kit trim as published (1,624 x 283 mm, vents at both ends; the build used for the owner-approved pr-bg-black-recess-kit-plaster-ceiling), owner-approved studio materials, heater set 25 mm up inside the kit. Rendered in Blender (Cycles, 20 samples, OpenImageDenoise); the ceiling plane mapped through the same camera and defocused per pixel by the f/1.4 lens; composited by the content team. Long axis with the boards; logo end cap in focus, BROMIC reading upright.",
-   "review_note": "Check: warm glow on the pale timber may read as the orange wash you flagged.",
    "w": 3840,
    "h": 2560,
    "file": "images/review/full/pr-d-recess-black-timber-logo-f1-4.jpg",
    "thumb": "images/review/thumb/pr-d-recess-black-timber-logo-f1-4.webp",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true,
+   "note": "there is wierd dent  curve on the right corner edge of the heater"
   },
   {
    "id": "pr-d-recess-black-dark-timber-logo-f1-4",
@@ -2734,12 +2747,15 @@
    "format": "3:2",
    "background": "dark espresso-stained timber ceiling and fascia: generated surface texture; city dusk backdrop: generated (defocused); no heater, no lettering",
    "source": "CAD: '6kW heater and recess kit' (Series II 6 kW) in the LC kit trim as published (1,624 x 283 mm, vents at both ends; the build used for the owner-approved pr-bg-black-recess-kit-plaster-ceiling), owner-approved studio materials, heater set 25 mm up inside the kit. Rendered in Blender (Cycles, 20 samples, OpenImageDenoise); the ceiling plane mapped through the same camera and defocused per pixel by the f/1.4 lens; composited by the content team. Long axis with the boards; logo end cap in focus, BROMIC reading upright.",
-   "review_note": "Close-up: the trim frame is the published size, modelled (the CAD holds only the obsolete trim). Elements at a low warm glow.",
    "w": 3840,
    "h": 2560,
    "file": "images/review/full/pr-d-recess-black-dark-timber-logo-f1-4.jpg",
    "thumb": "images/review/thumb/pr-d-recess-black-dark-timber-logo-f1-4.webp",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true,
+   "note": "there is wierd dent  curve on the right corner edge of the heater"
   },
   {
    "id": "pr-d-recess-graphite-aluminium-logo-f1-4",
@@ -2750,12 +2766,15 @@
    "format": "3:2",
    "background": "satin aluminium linear soffit: generated surface texture (no heater, no lettering)",
    "source": "CAD: '6kW heater and recess kit' (Series II 6 kW) in the LC kit trim as published (1,624 x 283 mm, vents at both ends; the build used for the owner-approved pr-bg-black-recess-kit-plaster-ceiling), owner-approved studio graphite, heater set 25 mm up inside the kit. Rendered in Blender (Cycles, 20 samples, OpenImageDenoise); the soffit plane mapped through the same camera and defocused per pixel by the f/1.4 lens; composited by the content team. Long axis with the panels; logo end cap in focus, BROMIC reading upright.",
-   "review_note": "Graphite against satin aluminium is a close tone pairing; the trim frame is modelled to the published size (the CAD holds only the obsolete trim).",
    "w": 3840,
    "h": 2560,
    "file": "images/review/full/pr-d-recess-graphite-aluminium-logo-f1-4.jpg",
    "thumb": "images/review/thumb/pr-d-recess-graphite-aluminium-logo-f1-4.webp",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true,
+   "note": "make the ehater black and one more image with white"
   },
   {
    "id": "pr-d-cedar-dining-white-recessed-pair-system",
@@ -2767,10 +2786,13 @@
    "file": "images/review/full/pr-d-cedar-dining-white-recessed-pair-system.jpg",
    "thumb": "images/review/thumb/pr-d-cedar-dining-white-recessed-pair-system.webp",
    "source": "pr-d-cedar-dining-white-recessed-pair (unchanged) with the system banner below (decks/build-system-banner.py): the Series II heater and the heater in the low-clearance recess kit, both cut-outs rendered from the CAD in this finish; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); the Bromic logo",
-   "status": "pending",
+   "status": "rejected",
    "variant": "A2",
-   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly.",
-   "rebuilt": "2026-11-23: rebuilt as A2 with the empty kit"
+   "rebuilt": "2026-11-23: rebuilt as A2 with the empty kit",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true,
+   "note": "white heaters and other commnts like before"
   },
   {
    "id": "pr-c-graphite-recessed-pair-walnut-terrace-dining-system",
@@ -2782,10 +2804,12 @@
    "file": "images/review/full/pr-c-graphite-recessed-pair-walnut-terrace-dining-system.jpg",
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-walnut-terrace-dining-system.webp",
    "source": "pr-c-graphite-recessed-pair-walnut-terrace-dining (unchanged) with the system banner below (decks/build-system-banner.py): the Series II heater and the heater in the low-clearance recess kit, both cut-outs rendered from the CAD in this finish; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); the Bromic logo",
-   "status": "pending",
+   "status": "approved",
    "variant": "A5",
-   "review_note": "Banner A5 (owner rule A2–A5 by image); empty recess kit.",
-   "rebuilt": "2026-11-23: rebuilt as A5 with the empty kit and the darker graphite"
+   "rebuilt": "2026-11-23: rebuilt as A5 with the empty kit and the darker graphite",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-black-recessed-pair-beach-deck-blue-hour-system",
@@ -2797,10 +2821,12 @@
    "file": "images/review/full/pr-c-black-recessed-pair-beach-deck-blue-hour-system.jpg",
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-beach-deck-blue-hour-system.webp",
    "source": "pr-c-black-recessed-pair-beach-deck-blue-hour (unchanged) with the system banner below (decks/build-system-banner.py): the Series II heater and the heater in the low-clearance recess kit, both cut-outs rendered from the CAD in this finish; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); the Bromic logo",
-   "status": "pending",
+   "status": "approved",
    "variant": "A3",
-   "review_note": "Banner A3 (owner rule A2–A5 by image); empty recess kit.",
-   "rebuilt": "2026-11-23: rebuilt as A3 with the empty kit"
+   "rebuilt": "2026-11-23: rebuilt as A3 with the empty kit",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-black-recessed-pair-walnut-terrace-golden-hour-system",
@@ -2812,10 +2838,12 @@
    "file": "images/review/full/pr-c-black-recessed-pair-walnut-terrace-golden-hour-system.jpg",
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-walnut-terrace-golden-hour-system.webp",
    "source": "pr-c-black-recessed-pair-walnut-terrace-golden-hour (unchanged) with the system banner below (decks/build-system-banner.py): the Series II heater and the heater in the low-clearance recess kit, both cut-outs rendered from the CAD in this finish; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); the Bromic logo",
-   "status": "pending",
+   "status": "approved",
    "variant": "A4",
-   "review_note": "Banner A4 (owner rule A2–A5 by image); empty recess kit.",
-   "rebuilt": "2026-11-23: rebuilt as A4 with the empty kit"
+   "rebuilt": "2026-11-23: rebuilt as A4 with the empty kit",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-black-recessed-pair-concrete-desert-dining-night-system",
@@ -2827,10 +2855,12 @@
    "file": "images/review/full/pr-c-black-recessed-pair-concrete-desert-dining-night-system.jpg",
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-concrete-desert-dining-night-system.webp",
    "source": "pr-c-black-recessed-pair-concrete-desert-dining-night (unchanged) with the system banner below (decks/build-system-banner.py): the Series II heater and the heater in the low-clearance recess kit, both cut-outs rendered from the CAD in this finish; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); the Bromic logo",
-   "status": "pending",
+   "status": "approved",
    "variant": "A3",
-   "review_note": "Banner A3 (owner rule A2–A5 by image); empty recess kit.",
-   "rebuilt": "2026-11-23: rebuilt as A3 with the empty kit"
+   "rebuilt": "2026-11-23: rebuilt as A3 with the empty kit",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-black-recessed-pair-city-balcony-night-system",
@@ -2842,10 +2872,13 @@
    "file": "images/review/full/pr-c-black-recessed-pair-city-balcony-night-system.jpg",
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-city-balcony-night-system.webp",
    "source": "pr-c-black-recessed-pair-city-balcony-night (unchanged) with the system banner below (decks/build-system-banner.py): the Series II heater and the heater in the low-clearance recess kit, both cut-outs rendered from the CAD in this finish; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); the Bromic logo",
-   "status": "pending",
+   "status": "rejected",
    "variant": "A3",
-   "review_note": "Banner A3 (owner rule A2–A5 by image); empty recess kit.",
-   "rebuilt": "2026-11-23: rebuilt as A3 with the empty kit"
+   "rebuilt": "2026-11-23: rebuilt as A3 with the empty kit",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true,
+   "note": "logo on heaters....zoonin the banner heater 2x...make te text of heat, recess, control bigg3r on alll banners"
   },
   {
    "id": "pr-c-graphite-recessed-pair-rooftop-lounge-night-system",
@@ -2857,10 +2890,13 @@
    "file": "images/review/full/pr-c-graphite-recessed-pair-rooftop-lounge-night-system.jpg",
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-rooftop-lounge-night-system.webp",
    "source": "pr-c-graphite-recessed-pair-rooftop-lounge-night (unchanged) with the system banner below (decks/build-system-banner.py): the Series II heater and the heater in the low-clearance recess kit, both cut-outs rendered from the CAD in this finish; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); the Bromic logo",
-   "status": "pending",
+   "status": "rejected",
    "variant": "A5",
-   "review_note": "Banner A5 (owner rule A2–A5 by image); empty recess kit.",
-   "rebuilt": "2026-11-23: rebuilt as A5 with the empty kit and the darker graphite"
+   "rebuilt": "2026-11-23: rebuilt as A5 with the empty kit and the darker graphite",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true,
+   "note": "bring heaters closer and put logo on them..they are too further out"
   },
   {
    "id": "pr-c-black-recessed-pair-pool-cabana-dusk-system",
@@ -2872,10 +2908,13 @@
    "file": "images/review/full/pr-c-black-recessed-pair-pool-cabana-dusk-system.jpg",
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-pool-cabana-dusk-system.webp",
    "source": "pr-c-black-recessed-pair-pool-cabana-dusk (unchanged) with the system banner below (decks/build-system-banner.py): the Series II heater and the heater in the low-clearance recess kit, both cut-outs rendered from the CAD in this finish; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); the Bromic logo",
-   "status": "pending",
+   "status": "rejected",
    "variant": "A4",
-   "review_note": "Banner A4 (owner rule A2–A5 by image); empty recess kit.",
-   "rebuilt": "2026-11-23: rebuilt as A4 with the empty kit"
+   "rebuilt": "2026-11-23: rebuilt as A4 with the empty kit",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true,
+   "note": "make baner all white and smaller...zoom 2x into the hearer"
   },
   {
    "id": "pr-c-graphite-recessed-pair-oak-pavilion-lounge-dusk-system",
@@ -2887,10 +2926,12 @@
    "file": "images/review/full/pr-c-graphite-recessed-pair-oak-pavilion-lounge-dusk-system.jpg",
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-oak-pavilion-lounge-dusk-system.webp",
    "source": "pr-c-graphite-recessed-pair-oak-pavilion-lounge-dusk (unchanged) with the system banner below (decks/build-system-banner.py): the Series II heater and the heater in the low-clearance recess kit, both cut-outs rendered from the CAD in this finish; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); the Bromic logo",
-   "status": "pending",
+   "status": "approved",
    "variant": "A5",
-   "review_note": "Banner A5 (owner rule A2–A5 by image); empty recess kit.",
-   "rebuilt": "2026-11-23: rebuilt as A5 with the empty kit and the darker graphite"
+   "rebuilt": "2026-11-23: rebuilt as A5 with the empty kit and the darker graphite",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-graphite-recessed-pair-beach-deck-golden-hour-system",
@@ -2902,10 +2943,12 @@
    "file": "images/review/full/pr-c-graphite-recessed-pair-beach-deck-golden-hour-system.jpg",
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-beach-deck-golden-hour-system.webp",
    "source": "pr-c-graphite-recessed-pair-beach-deck-golden-hour (unchanged) with the system banner below (decks/build-system-banner.py): the Series II heater and the heater in the low-clearance recess kit, both cut-outs rendered from the CAD in this finish; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); the Bromic logo",
-   "status": "pending",
+   "status": "approved",
    "variant": "A5",
-   "review_note": "Banner A5 (owner rule A2–A5 by image); empty recess kit.",
-   "rebuilt": "2026-11-23: rebuilt as A5 with the empty kit and the darker graphite"
+   "rebuilt": "2026-11-23: rebuilt as A5 with the empty kit and the darker graphite",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-black-recessed-pair-city-balcony-night-system-a",
@@ -3089,7 +3132,10 @@
    "file": "images/review/full/pr-a-white-up-9x16-warm-grey.jpg",
    "thumb": "images/review/thumb/pr-a-white-up-9x16-warm-grey.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-white-up-9x16-grey",
@@ -3101,7 +3147,10 @@
    "file": "images/review/full/pr-a-white-up-9x16-grey.jpg",
    "thumb": "images/review/thumb/pr-a-white-up-9x16-grey.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-black-recessed-pair-rooftop-lounge-dusk-system",
@@ -3115,8 +3164,10 @@
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-rooftop-lounge-dusk-system.webp",
    "source": "pr-c-black-recessed-pair-rooftop-lounge-dusk (unchanged) with system banner A4 split tone (decks/build-system-banner-a-variants.py): the Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in black; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); product lines from data/product-facts.json; edge contrast heater 9.41:1, kit 12.5:1",
    "rebuilt": "2026-11-23: rebuilt as A4 with the empty kit",
-   "status": "pending",
-   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly."
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-graphite-recessed-pair-concrete-desert-dining-night-system",
@@ -3130,8 +3181,10 @@
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-concrete-desert-dining-night-system.webp",
    "source": "pr-c-graphite-recessed-pair-concrete-desert-dining-night (unchanged) with system banner A5 gradient floor (decks/build-system-banner-a-variants.py): the Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in graphite; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); product lines from data/product-facts.json; edge contrast heater 3.75:1, kit 5.93:1",
    "rebuilt": "2026-11-23: rebuilt as A5 with the empty kit and the darker graphite",
-   "status": "pending",
-   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly."
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-white-recessed-pair-desert-kitchen-bar-sunset-system",
@@ -3145,8 +3198,11 @@
    "thumb": "images/review/thumb/pr-c-white-recessed-pair-desert-kitchen-bar-sunset-system.webp",
    "source": "pr-c-white-recessed-pair-desert-kitchen-bar-sunset (unchanged) with system banner A2 charcoal band (decks/build-system-banner-a-variants.py): the Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in white; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); product lines from data/product-facts.json; edge contrast heater 6.09:1, kit 6.41:1",
    "rebuilt": "2026-11-23: rebuilt as A2 with the empty kit",
-   "status": "pending",
-   "review_note": "Banner A2 (owner rule A2–A5 by image); empty recess kit."
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true,
+   "note": "logo on the heater...make recess heaters white"
   },
   {
    "id": "pr-c-white-recessed-pair-oak-pavilion-lounge-dusk-system",
@@ -3160,8 +3216,10 @@
    "thumb": "images/review/thumb/pr-c-white-recessed-pair-oak-pavilion-lounge-dusk-system.webp",
    "source": "pr-c-white-recessed-pair-oak-pavilion-lounge-dusk (unchanged) with system banner A2 charcoal band (decks/build-system-banner-a-variants.py): the Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in white; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); product lines from data/product-facts.json; edge contrast heater 6.09:1, kit 6.41:1",
    "rebuilt": "2026-11-23: rebuilt as A2 with the empty kit",
-   "status": "pending",
-   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly."
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-graphite-recessed-pair-cedar-garden-dining-dusk-system",
@@ -3175,8 +3233,10 @@
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-cedar-garden-dining-dusk-system.webp",
    "source": "pr-c-graphite-recessed-pair-cedar-garden-dining-dusk (unchanged) with system banner A5 gradient floor (decks/build-system-banner-a-variants.py): the Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in graphite; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); product lines from data/product-facts.json; edge contrast heater 3.75:1, kit 5.93:1",
    "rebuilt": "2026-11-23: rebuilt as A5 with the empty kit and the darker graphite",
-   "status": "pending",
-   "review_note": "Banner A5 (owner rule A2–A5 by image); empty recess kit."
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-black-recessed-pair-spotted-gum-dining-afternoon-system",
@@ -3190,8 +3250,11 @@
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-spotted-gum-dining-afternoon-system.webp",
    "source": "pr-c-black-recessed-pair-spotted-gum-dining-afternoon (unchanged) with system banner A4 split tone (decks/build-system-banner-a-variants.py): the Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in black; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); product lines from data/product-facts.json; edge contrast heater 9.41:1, kit 12.5:1",
    "rebuilt": "2026-11-23: rebuilt as A4 with the empty kit",
-   "status": "pending",
-   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly."
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true,
+   "note": "dont like the white banned on the side..make the banner light gray..add logo on the heaters and ensure the heater in the banner is 2x zoomed"
   },
   {
    "id": "pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk-system",
@@ -3205,8 +3268,10 @@
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk-system.webp",
    "source": "pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk (unchanged) with system banner A5 gradient floor (decks/build-system-banner-a-variants.py): the Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in graphite; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); product lines from data/product-facts.json; edge contrast heater 3.75:1, kit 5.93:1",
    "rebuilt": "2026-11-23: rebuilt as A5 with the empty kit and the darker graphite",
-   "status": "pending",
-   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly."
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-white-recessed-pair-forest-loggia-lounge-evening-system",
@@ -3220,8 +3285,11 @@
    "thumb": "images/review/thumb/pr-c-white-recessed-pair-forest-loggia-lounge-evening-system.webp",
    "source": "pr-c-white-recessed-pair-forest-loggia-lounge-evening (unchanged) with system banner A2 charcoal band (decks/build-system-banner-a-variants.py): the Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in white; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); product lines from data/product-facts.json; edge contrast heater 6.09:1, kit 6.41:1",
    "rebuilt": "2026-11-23: rebuilt as A2 with the empty kit",
-   "status": "pending",
-   "review_note": "Banner A2 (owner rule A2–A5 by image); empty recess kit."
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true,
+   "note": "pink celinig no logo on heaterrs...top showing gray and below white..use white heaters on the image..zoom into the heater image on the banner"
   },
   {
    "id": "pr-c-graphite-recessed-pair-cedar-garden-dining-dusk",
@@ -3235,9 +3303,12 @@
    "file": "images/review/full/pr-c-graphite-recessed-pair-cedar-garden-dining-dusk.jpg",
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-cedar-garden-dining-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
+   "status": "approved",
    "redo": "v2: cavity neutral, logo visible, pair further back over the seats",
-   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away.."
+   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-black-recessed-pair-spotted-gum-dining-afternoon",
@@ -3285,8 +3356,12 @@
    "file": "images/review/full/pr-c-white-recessed-pair-forest-loggia-lounge-evening.jpg",
    "thumb": "images/review/thumb/pr-c-white-recessed-pair-forest-loggia-lounge-evening.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
-   "redo": "v2: cavity neutral, logo visible, pair further back over the seats"
+   "status": "rejected",
+   "redo": "v2: cavity neutral, logo visible, pair further back over the seats",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true,
+   "note": "wht is the ceiling pink? also no logo on heaters"
   },
   {
    "id": "pr-d-cedar-dining-white-recessed-pair",
@@ -3316,7 +3391,10 @@
    "file": "images/review/full/pr-a-3kw-white-logo-34-light.jpg",
    "thumb": "images/review/thumb/pr-a-3kw-white-logo-34-light.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-3kw-white-logo-34-warm-grey",
@@ -3328,7 +3406,10 @@
    "file": "images/review/full/pr-a-3kw-white-logo-34-warm-grey.jpg",
    "thumb": "images/review/thumb/pr-a-3kw-white-logo-34-warm-grey.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-black-recessed-pair-rooftop-lounge-dusk",
@@ -3342,10 +3423,12 @@
    "file": "images/review/full/pr-c-black-recessed-pair-rooftop-lounge-dusk.jpg",
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-rooftop-lounge-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
+   "status": "approved",
    "redo": "v3: logo upright",
    "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
-   "review_note": "Logo upright but too far from the camera to read (about 8 m). Fix options: move the pair closer, turn it diagonal, or accept."
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-graphite-recessed-pair-concrete-desert-dining-night",
@@ -3359,10 +3442,12 @@
    "file": "images/review/full/pr-c-graphite-recessed-pair-concrete-desert-dining-night.jpg",
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-concrete-desert-dining-night.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
+   "status": "approved",
    "redo": "v3: logo upright",
    "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
-   "review_note": "Logo upright but too far from the camera to read (about 8 m). Fix options: move the pair closer, turn it diagonal, or accept."
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-black-recessed-pair-spotted-gum-dining-afternoon",
@@ -3376,9 +3461,12 @@
    "file": "images/review/full/pr-c-black-recessed-pair-spotted-gum-dining-afternoon.jpg",
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-spotted-gum-dining-afternoon.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
+   "status": "approved",
    "redo": "v3: logo upright",
-   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away.."
+   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-white-recessed-pair-oak-pavilion-lounge-dusk",
@@ -3392,9 +3480,12 @@
    "file": "images/review/full/pr-c-white-recessed-pair-oak-pavilion-lounge-dusk.jpg",
    "thumb": "images/review/thumb/pr-c-white-recessed-pair-oak-pavilion-lounge-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
+   "status": "approved",
    "redo": "v3: logo upright",
-   "previous_note": "what is the color streak between the rc kit and heaters. (it should be gray. ....the logo is not visible...the heaters should be further away.."
+   "previous_note": "what is the color streak between the rc kit and heaters. (it should be gray. ....the logo is not visible...the heaters should be further away..",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk",
@@ -3408,10 +3499,12 @@
    "file": "images/review/full/pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk.jpg",
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
+   "status": "approved",
    "redo": "v3: logo upright",
    "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
-   "review_note": "Logo upright but too far from the camera to read (about 8 m). Fix options: move the pair closer, turn it diagonal, or accept."
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-d-cedar-dining-white-recessed-pair",
@@ -3426,9 +3519,12 @@
    "h": 2560,
    "file": "images/review/full/pr-d-cedar-dining-white-recessed-pair.jpg",
    "thumb": "images/review/thumb/pr-d-cedar-dining-white-recessed-pair.webp",
-   "status": "pending",
+   "status": "approved",
    "redo": "v3: logo upright",
-   "previous_note": "replaces pr-bg-white-ceiling-cedar-dining-f14 (owner: mounting looked unreal); attempt 3 after pr-d-cedar-dining-graphite-recessed-f14"
+   "previous_note": "replaces pr-bg-white-ceiling-cedar-dining-f14 (owner: mounting looked unreal); attempt 3 after pr-d-cedar-dining-graphite-recessed-f14",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-graphite-logo-34-light",
@@ -3440,7 +3536,10 @@
    "file": "images/review/full/pr-a-graphite-logo-34-light.jpg",
    "thumb": "images/review/thumb/pr-a-graphite-logo-34-light.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-graphite-logo-34-dark",
@@ -3452,7 +3551,11 @@
    "file": "images/review/full/pr-a-graphite-logo-34-dark.jpg",
    "thumb": "images/review/thumb/pr-a-graphite-logo-34-dark.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true,
+   "note": "make background lighter"
   },
   {
    "id": "pr-b-white-oak-soffit-sea-dusk",
