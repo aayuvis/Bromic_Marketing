@@ -10,5 +10,17 @@
   "thumb": "images/review/thumb/pr-a-3kw-black-logo-34.webp",
   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
   "status": "pending"
+ },
+ {
+  "id": "pr-a-black-up-9x16",
+  "title": "Series II 6 kW, black, fascia seen straight up from below, 9:16 portrait with the logo upright, elements glowing",
+  "kind": "CAD studio render",
+  "finish": "black",
+  "w": 2160,
+  "h": 3840,
+  "file": "images/review/full/pr-a-black-up-9x16.jpg",
+  "thumb": "images/review/thumb/pr-a-black-up-9x16.webp",
+  "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+  "status": "pending"
  }
 ]

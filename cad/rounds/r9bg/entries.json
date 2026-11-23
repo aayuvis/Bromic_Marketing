@@ -96,5 +96,33 @@
   "thumb": "images/review/thumb/pr-bg-white-ceiling-cedar-dining-f14.webp",
   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
   "status": "pending"
+ },
+ {
+  "id": "pr-bg-black-wall-bench-f14",
+  "title": "Series II Select black on the angled wall bracket, centred above a built-in limestone lounge bench on a rendered wall at dusk",
+  "kind": "CAD render in a setting",
+  "finish": "black",
+  "aperture": "f/14",
+  "background": "generated plate (no heater, no people, no lettering): rendered courtyard wall with built-in limestone bench and linen cushions, dusk",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-bg-black-wall-bench-f14.jpg",
+  "thumb": "images/review/thumb/pr-bg-black-wall-bench-f14.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
+ },
+ {
+  "id": "pr-bg-black-recess-kit-plaster-ceiling",
+  "title": "Series II Select black recessed in the low-clearance recess kit, pale plaster ceiling seen from below, logo end cap close up",
+  "kind": "CAD render in a setting",
+  "finish": "black",
+  "aperture": "f/1.4",
+  "background": "pale plaster ceiling and fascia: generated surface texture; real photo: w-eclipse-pendant-uk-residential (garden backdrop, defocused)",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-bg-black-recess-kit-plaster-ceiling.jpg",
+  "thumb": "images/review/thumb/pr-bg-black-recess-kit-plaster-ceiling.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
  }
 ]
