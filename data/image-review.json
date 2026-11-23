@@ -2793,7 +2793,8 @@
    "file": "images/review/full/pr-b-3kw-black-dark-soffit-firepit.jpg",
    "thumb": "images/review/thumb/pr-b-3kw-black-dark-soffit-firepit.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-3kw-black-dark-soffit-string-lights",
@@ -2807,7 +2808,8 @@
    "file": "images/review/full/pr-b-3kw-black-dark-soffit-string-lights.jpg",
    "thumb": "images/review/thumb/pr-b-3kw-black-dark-soffit-string-lights.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-3kw-black-dark-soffit-sea-dusk",
@@ -2821,7 +2823,8 @@
    "file": "images/review/full/pr-b-3kw-black-dark-soffit-sea-dusk.jpg",
    "thumb": "images/review/thumb/pr-b-3kw-black-dark-soffit-sea-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-black-wall-limestone-garden",
