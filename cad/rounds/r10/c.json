@@ -69,5 +69,33 @@
   "thumb": "images/review/thumb/pr-c-black-recessed-pair-beach-deck-blue-hour.webp",
   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
   "status": "pending"
+ },
+ {
+  "id": "pr-c-black-recessed-pair-walnut-terrace-golden-hour",
+  "title": "Two Series II black heaters recessed in the low-clearance kit, in line with the walnut ceiling boards and centred over a round dining table on a stone-piered country terrace at golden hour",
+  "kind": "CAD render in a setting",
+  "finish": "black",
+  "aperture": "f/14",
+  "background": "generated: covered stone terrace with walnut-boarded ceiling, relit to golden hour from the same plate (prompted from real photo w-eclipse-pendant-uk-residential-3 for light and materials)",
+  "w": 5056,
+  "h": 3392,
+  "file": "images/review/full/pr-c-black-recessed-pair-walnut-terrace-golden-hour.jpg",
+  "thumb": "images/review/thumb/pr-c-black-recessed-pair-walnut-terrace-golden-hour.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
+ },
+ {
+  "id": "pr-c-black-recessed-pair-concrete-desert-dining-night",
+  "title": "Two Series II black heaters recessed in the low-clearance kit, running into the board-formed concrete ceiling and centred over a six-seat dining table on a desert terrace at night",
+  "kind": "CAD render in a setting",
+  "finish": "black",
+  "aperture": "f/14",
+  "background": "generated: covered desert terrace with board-formed concrete ceiling at night (prompted from real photo w-dwellimage3 for light and materials); one unlit ceiling downlight over the table retouched out",
+  "w": 5056,
+  "h": 3392,
+  "file": "images/review/full/pr-c-black-recessed-pair-concrete-desert-dining-night.jpg",
+  "thumb": "images/review/thumb/pr-c-black-recessed-pair-concrete-desert-dining-night.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
  }
 ]

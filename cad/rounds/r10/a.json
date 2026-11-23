@@ -118,5 +118,77 @@
   "thumb": "images/review/thumb/pr-a-graphite-ceiling-hero-dark.webp",
   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
   "status": "pending"
+ },
+ {
+  "id": "pr-a-white-steep-plusy-warm-grey",
+  "title": "Series II 6 kW, white, ceiling post seen steeply from below, logo end nearest, elements glowing, on a warm-grey sweep",
+  "kind": "CAD studio render",
+  "finish": "white",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-a-white-steep-plusy-warm-grey.jpg",
+  "thumb": "images/review/thumb/pr-a-white-steep-plusy-warm-grey.webp",
+  "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+  "status": "pending"
+ },
+ {
+  "id": "pr-a-white-steep-plusy-grey",
+  "title": "Series II 6 kW, white, ceiling post seen steeply from below, logo end nearest, elements glowing, on a deeper grey sweep",
+  "kind": "CAD studio render",
+  "finish": "white",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-a-white-steep-plusy-grey.jpg",
+  "thumb": "images/review/thumb/pr-a-white-steep-plusy-grey.webp",
+  "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+  "status": "pending"
+ },
+ {
+  "id": "pr-a-white-steep-plusy-dark",
+  "title": "Series II 6 kW, white, ceiling post seen steeply from below, logo end nearest, elements glowing, on a dark sweep",
+  "kind": "CAD studio render",
+  "finish": "white",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-a-white-steep-plusy-dark.jpg",
+  "thumb": "images/review/thumb/pr-a-white-steep-plusy-dark.webp",
+  "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+  "status": "pending"
+ },
+ {
+  "id": "pr-a-graphite-up-4x5-light",
+  "title": "Series II 6 kW, graphite, fascia seen straight up from below, 4:5 portrait with the logo upright, elements glowing, on a light sweep",
+  "kind": "CAD studio render",
+  "finish": "graphite",
+  "w": 3072,
+  "h": 3840,
+  "file": "images/review/full/pr-a-graphite-up-4x5-light.jpg",
+  "thumb": "images/review/thumb/pr-a-graphite-up-4x5-light.webp",
+  "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+  "status": "pending"
+ },
+ {
+  "id": "pr-a-graphite-up-4x5-warm-grey",
+  "title": "Series II 6 kW, graphite, fascia seen straight up from below, 4:5 portrait with the logo upright, elements glowing, on a warm-grey sweep",
+  "kind": "CAD studio render",
+  "finish": "graphite",
+  "w": 3072,
+  "h": 3840,
+  "file": "images/review/full/pr-a-graphite-up-4x5-warm-grey.jpg",
+  "thumb": "images/review/thumb/pr-a-graphite-up-4x5-warm-grey.webp",
+  "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+  "status": "pending"
+ },
+ {
+  "id": "pr-a-graphite-up-4x5-dark",
+  "title": "Series II 6 kW, graphite, fascia seen straight up from below, 4:5 portrait with the logo upright, elements glowing, on a dark sweep",
+  "kind": "CAD studio render",
+  "finish": "graphite",
+  "w": 3072,
+  "h": 3840,
+  "file": "images/review/full/pr-a-graphite-up-4x5-dark.jpg",
+  "thumb": "images/review/thumb/pr-a-graphite-up-4x5-dark.webp",
+  "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+  "status": "pending"
  }
 ]

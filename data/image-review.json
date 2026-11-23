@@ -2109,7 +2109,8 @@
    "file": "images/review/full/pr-c-graphite-recessed-pair-walnut-terrace-dining.jpg",
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-walnut-terrace-dining.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "review_note": "Made before your cedar-dining note: the pair runs one behind the other. Later pairs are side by side and parallel."
   },
   {
    "id": "pr-c-black-recessed-pair-beach-deck-blue-hour",
@@ -2123,7 +2124,110 @@
    "file": "images/review/full/pr-c-black-recessed-pair-beach-deck-blue-hour.jpg",
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-beach-deck-blue-hour.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending",
+   "review_note": "Made before your cedar-dining note: the pair runs one behind the other. Later pairs are side by side and parallel."
+  },
+  {
+   "id": "pr-a-white-steep-plusy-warm-grey",
+   "title": "Series II 6 kW, white, ceiling post seen steeply from below, logo end nearest, elements glowing, on a warm-grey sweep",
+   "kind": "CAD studio render",
+   "finish": "white",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-a-white-steep-plusy-warm-grey.jpg",
+   "thumb": "images/review/thumb/pr-a-white-steep-plusy-warm-grey.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
    "status": "pending"
+  },
+  {
+   "id": "pr-a-white-steep-plusy-grey",
+   "title": "Series II 6 kW, white, ceiling post seen steeply from below, logo end nearest, elements glowing, on a deeper grey sweep",
+   "kind": "CAD studio render",
+   "finish": "white",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-a-white-steep-plusy-grey.jpg",
+   "thumb": "images/review/thumb/pr-a-white-steep-plusy-grey.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+   "status": "pending"
+  },
+  {
+   "id": "pr-a-white-steep-plusy-dark",
+   "title": "Series II 6 kW, white, ceiling post seen steeply from below, logo end nearest, elements glowing, on a dark sweep",
+   "kind": "CAD studio render",
+   "finish": "white",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-a-white-steep-plusy-dark.jpg",
+   "thumb": "images/review/thumb/pr-a-white-steep-plusy-dark.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+   "status": "pending"
+  },
+  {
+   "id": "pr-a-graphite-up-4x5-light",
+   "title": "Series II 6 kW, graphite, fascia seen straight up from below, 4:5 portrait with the logo upright, elements glowing, on a light sweep",
+   "kind": "CAD studio render",
+   "finish": "graphite",
+   "w": 3072,
+   "h": 3840,
+   "file": "images/review/full/pr-a-graphite-up-4x5-light.jpg",
+   "thumb": "images/review/thumb/pr-a-graphite-up-4x5-light.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+   "status": "pending"
+  },
+  {
+   "id": "pr-a-graphite-up-4x5-warm-grey",
+   "title": "Series II 6 kW, graphite, fascia seen straight up from below, 4:5 portrait with the logo upright, elements glowing, on a warm-grey sweep",
+   "kind": "CAD studio render",
+   "finish": "graphite",
+   "w": 3072,
+   "h": 3840,
+   "file": "images/review/full/pr-a-graphite-up-4x5-warm-grey.jpg",
+   "thumb": "images/review/thumb/pr-a-graphite-up-4x5-warm-grey.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+   "status": "pending"
+  },
+  {
+   "id": "pr-a-graphite-up-4x5-dark",
+   "title": "Series II 6 kW, graphite, fascia seen straight up from below, 4:5 portrait with the logo upright, elements glowing, on a dark sweep",
+   "kind": "CAD studio render",
+   "finish": "graphite",
+   "w": 3072,
+   "h": 3840,
+   "file": "images/review/full/pr-a-graphite-up-4x5-dark.jpg",
+   "thumb": "images/review/thumb/pr-a-graphite-up-4x5-dark.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+   "status": "pending"
+  },
+  {
+   "id": "pr-c-black-recessed-pair-walnut-terrace-golden-hour",
+   "title": "Two Series II black heaters recessed in the low-clearance kit, in line with the walnut ceiling boards and centred over a round dining table on a stone-piered country terrace at golden hour",
+   "kind": "CAD render in a setting",
+   "finish": "black",
+   "aperture": "f/14",
+   "background": "generated: covered stone terrace with walnut-boarded ceiling, relit to golden hour from the same plate (prompted from real photo w-eclipse-pendant-uk-residential-3 for light and materials)",
+   "w": 5056,
+   "h": 3392,
+   "file": "images/review/full/pr-c-black-recessed-pair-walnut-terrace-golden-hour.jpg",
+   "thumb": "images/review/thumb/pr-c-black-recessed-pair-walnut-terrace-golden-hour.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending",
+   "review_note": "Made before your cedar-dining note: the pair runs one behind the other. Later pairs are side by side and parallel."
+  },
+  {
+   "id": "pr-c-black-recessed-pair-concrete-desert-dining-night",
+   "title": "Two Series II black heaters recessed in the low-clearance kit, running into the board-formed concrete ceiling and centred over a six-seat dining table on a desert terrace at night",
+   "kind": "CAD render in a setting",
+   "finish": "black",
+   "aperture": "f/14",
+   "background": "generated: covered desert terrace with board-formed concrete ceiling at night (prompted from real photo w-dwellimage3 for light and materials); one unlit ceiling downlight over the table retouched out",
+   "w": 5056,
+   "h": 3392,
+   "file": "images/review/full/pr-c-black-recessed-pair-concrete-desert-dining-night.jpg",
+   "thumb": "images/review/thumb/pr-c-black-recessed-pair-concrete-desert-dining-night.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending",
+   "review_note": "Made before your cedar-dining note: the pair runs one behind the other. Later pairs are side by side and parallel."
   }
  ]
 }
