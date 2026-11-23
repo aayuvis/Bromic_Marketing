@@ -31,7 +31,7 @@ def vgrad(W, h, top, bottom):
 
 def glow(out, cx, cy, rw, rh, col, peak, u):
     """An elliptical pool of light (a background change only), centred on cx, cy."""
-    pad = round(160 * u); m = Image.new('L', (2 * rw + 2 * pad, 2 * rh + 2 * pad), 0)
+    pad = round(360 * u); m = Image.new('L', (2 * rw + 2 * pad, 2 * rh + 2 * pad), 0)
     ImageDraw.Draw(m).ellipse((pad, pad, pad + 2 * rw, pad + 2 * rh), fill=peak)
     out.paste(col, (round(cx - rw - pad), round(cy - rh - pad)), m.filter(ImageFilter.GaussianBlur(round(110 * u))))
 
@@ -56,14 +56,14 @@ def place(out, im, x, y, u, floor, shadow=(0, 0, 0), strength=0.6, reflect=0.0):
 
 
 def contrast(out, im, x, y, u):
-    """Edge contrast: housing pixels just inside the silhouette (the darker half) against the background just outside."""
+    """Edge contrast: housing pixels a few pixels inside the silhouette (the darker half) against the background just outside."""
     a = np.array(im.getchannel('A')) > 200; w = max(3, round(6 * u))
     A = Image.fromarray((a * 255).astype(np.uint8))
-    inn = a & ~(np.array(A.filter(ImageFilter.MinFilter(2 * w + 1))) > 0)
+    inn = (np.array(A.filter(ImageFilter.MinFilter(2 * w + 1))) > 0) & ~(np.array(A.filter(ImageFilter.MinFilter(6 * w + 1))) > 0)   # the housing just inside the edge, past any rim light
     outer = (np.array(A.filter(ImageFilter.MaxFilter(4 * w + 1))) > 0) & ~(np.array(A.filter(ImageFilter.MaxFilter(2 * w + 1))) > 0)
     crop = np.array(out.crop((x, y, x + im.width, y + im.height))).astype(float)
     li = lum(crop[inn]); lo = lum(crop[outer])
-    li = np.sort(li)[: max(1, len(li) // 2)]   # the darker half of the edge: the housing, not the grille glow
+    li = np.sort(li)[: max(1, len(li) // 4)]   # the darkest quarter of the edge band: the housing, not the grille or its glow
     hi_, lo_ = max(np.median(lo), np.median(li)), min(np.median(lo), np.median(li))
     return (hi_ + 0.05) / (lo_ + 0.05)
 
