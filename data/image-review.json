@@ -3252,11 +3252,9 @@
    "file": "images/review/full/pr-b-white-oak-soffit-sea-dusk.jpg",
    "thumb": "images/review/thumb/pr-b-white-oak-soffit-sea-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "rejected",
-   "decided": "2026-11-22",
-   "decided_by": "owner",
-   "learned": true,
-   "note": "this should be f8 image...great image"
+   "status": "pending",
+   "redo": "v2: f/8",
+   "previous_note": "this should be f8 image...great image"
   },
   {
    "id": "pr-b-white-oak-soffit-garden",
@@ -3270,11 +3268,9 @@
    "file": "images/review/full/pr-b-white-oak-soffit-garden.jpg",
    "thumb": "images/review/thumb/pr-b-white-oak-soffit-garden.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "rejected",
-   "decided": "2026-11-22",
-   "decided_by": "owner",
-   "learned": true,
-   "note": "this should be f8 image...great image"
+   "status": "pending",
+   "redo": "v2: f/8",
+   "previous_note": "this should be f8 image...great image"
   },
   {
    "id": "pr-b-white-oak-soffit-concrete-courtyard",
@@ -3288,11 +3284,9 @@
    "file": "images/review/full/pr-b-white-oak-soffit-concrete-courtyard.jpg",
    "thumb": "images/review/thumb/pr-b-white-oak-soffit-concrete-courtyard.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "rejected",
-   "decided": "2026-11-22",
-   "decided_by": "owner",
-   "learned": true,
-   "note": "this should be f8 image...great image"
+   "status": "pending",
+   "redo": "v2: f/8",
+   "previous_note": "this should be f8 image...great image"
   },
   {
    "id": "pr-b-white-oak-soffit-string-lights",
@@ -3306,11 +3300,9 @@
    "file": "images/review/full/pr-b-white-oak-soffit-string-lights.jpg",
    "thumb": "images/review/thumb/pr-b-white-oak-soffit-string-lights.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "rejected",
-   "decided": "2026-11-22",
-   "decided_by": "owner",
-   "learned": true,
-   "note": "this should be f8 image...great image"
+   "status": "pending",
+   "redo": "v2: f/8",
+   "previous_note": "this should be f8 image...great image"
   },
   {
    "id": "pr-a-white-logo-34-warm-grey",
