@@ -190,5 +190,41 @@
   "thumb": "images/review/thumb/pr-a-graphite-up-4x5-dark.webp",
   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
   "status": "pending"
+ },
+ {
+  "id": "pr-a-3kw-graphite-endcap-light",
+  "title": "Series II 3 kW, graphite, logo end macro at f/2.8, element glowing, on a light sweep",
+  "kind": "CAD studio render",
+  "finish": "graphite",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-a-3kw-graphite-endcap-light.jpg",
+  "thumb": "images/review/thumb/pr-a-3kw-graphite-endcap-light.webp",
+  "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+  "status": "pending"
+ },
+ {
+  "id": "pr-a-3kw-graphite-endcap-warm-grey",
+  "title": "Series II 3 kW, graphite, logo end macro at f/2.8, element glowing, on a warm-grey sweep",
+  "kind": "CAD studio render",
+  "finish": "graphite",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-a-3kw-graphite-endcap-warm-grey.jpg",
+  "thumb": "images/review/thumb/pr-a-3kw-graphite-endcap-warm-grey.webp",
+  "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+  "status": "pending"
+ },
+ {
+  "id": "pr-a-3kw-graphite-endcap-dark",
+  "title": "Series II 3 kW, graphite, logo end macro at f/2.8, element glowing, on a dark sweep",
+  "kind": "CAD studio render",
+  "finish": "graphite",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-a-3kw-graphite-endcap-dark.jpg",
+  "thumb": "images/review/thumb/pr-a-3kw-graphite-endcap-dark.webp",
+  "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+  "status": "pending"
  }
 ]
