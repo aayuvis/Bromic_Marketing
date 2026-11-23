@@ -1571,5 +1571,33 @@
   "thumb": "images/review/thumb/pr-b-black-wall-oak-cladding-garden-lanterns.webp",
   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
   "status": "pending"
+ },
+ {
+  "id": "pr-b-black-cedar-soffit-garden-dining",
+  "title": "Series II Select 6 kW black on its short ceiling post, tilted 20 degrees on its bracket, cedar soffit, a candlelit garden dining table beyond",
+  "kind": "CAD render in a setting",
+  "finish": "black",
+  "aperture": "f/8",
+  "background": "generated empty setting: garden dining table at dusk (backdrop, lens blur matched to f/8); cedar soffit: generated surface texture",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-b-black-cedar-soffit-garden-dining.jpg",
+  "thumb": "images/review/thumb/pr-b-black-cedar-soffit-garden-dining.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
+ },
+ {
+  "id": "pr-b-black-cedar-soffit-rooftop-city",
+  "title": "Series II Select 6 kW black on its short ceiling post, tilted 20 degrees on its bracket, cedar soffit, a rooftop terrace with the city skyline at blue hour beyond",
+  "kind": "CAD render in a setting",
+  "finish": "black",
+  "aperture": "f/8",
+  "background": "generated empty setting: rooftop view to a city skyline at blue hour (backdrop, lens blur matched to f/8); cedar soffit: generated surface texture",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-b-black-cedar-soffit-rooftop-city.jpg",
+  "thumb": "images/review/thumb/pr-b-black-cedar-soffit-rooftop-city.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
  }
 ]
