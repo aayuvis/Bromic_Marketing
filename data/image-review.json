@@ -6118,6 +6118,34 @@
    "h": 2560,
    "file": "images/review/full/hb-tungsten-gas-500-dining-plan.jpg",
    "thumb": "images/review/thumb/hb-tungsten-gas-500-dining-plan.webp"
+  },
+  {
+   "id": "hb-tungsten-gas-300-dining",
+   "title": "Tungsten Gas 300 heat bloom: 160 ft², 14.3 ft circle in front of the wall, wall-mounted at 9 ft over a dining terrace",
+   "kind": "Heat bloom (coverage)",
+   "finish": "black",
+   "aperture": "f/8",
+   "background": "generated: covered dining terrace with a board-formed concrete wall at dusk, an image-model plate made from our own 3D layout of this camera and furniture (registered to it within about 1.6 px)",
+   "source": "Heater: body to the Tungsten Smart-Heat Gas manual (V2.3: 19.3 in wide, wall bracket/control housing, deflector), tilted down 35°, its face Bromic's own product photo (l-020-175, the 500's five-tile face scaled to the 300 width) [[VERIFY: 300 face tile count — Product team]]; rendered in Blender in the layout camera and composited onto the plate. Coverage: published max heat area (160 ft²) as a 14.3 ft circle on the floor where the head aims, true floor geometry; inner rings at 1/3 and 2/3 (style only). Plume and guide lines are a visualisation. No Btu figure shown.",
+   "status": "pending",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/hb-tungsten-gas-300-dining.jpg",
+   "thumb": "images/review/thumb/hb-tungsten-gas-300-dining.webp"
+  },
+  {
+   "id": "hb-tungsten-gas-300-dining-plan",
+   "title": "Tungsten Gas 300 heat bloom plan: 160 ft², 14.3 ft circle over the dining table, top-down to scale",
+   "kind": "Heat bloom (coverage)",
+   "finish": "black",
+   "aperture": "n/a (drawn plan)",
+   "background": "drawn: top-down plan from the same scene data",
+   "source": "Drawn from the heat-bloom scene record; coverage from HEAT-BLOOM-PLAN.md §1 (published max heat area, verified: false)",
+   "status": "pending",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/hb-tungsten-gas-300-dining-plan.jpg",
+   "thumb": "images/review/thumb/hb-tungsten-gas-300-dining-plan.webp"
   }
  ]
 }
