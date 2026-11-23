@@ -3612,6 +3612,58 @@
    "thumb": "images/review/thumb/pr-b-white-oak-soffit-string-lights.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "pending"
+  },
+  {
+   "id": "pr-a-white-logo-34-warm-grey",
+   "title": "Series II 6 kW, white, three-quarter view of the logo end and ceiling post, elements glowing, on a warm-grey sweep",
+   "kind": "CAD studio render",
+   "finish": "white",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-a-white-logo-34-warm-grey.jpg",
+   "thumb": "images/review/thumb/pr-a-white-logo-34-warm-grey.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+   "status": "pending"
+  },
+  {
+   "id": "pr-a-white-logo-34-grey",
+   "title": "Series II 6 kW, white, three-quarter view of the logo end and ceiling post, elements glowing, on a deeper grey sweep",
+   "kind": "CAD studio render",
+   "finish": "white",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-a-white-logo-34-grey.jpg",
+   "thumb": "images/review/thumb/pr-a-white-logo-34-grey.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+   "status": "pending"
+  },
+  {
+   "id": "pr-b-graphite-wall-concrete-garden",
+   "title": "Series II Select 6 kW graphite on the angled wall bracket, board-formed concrete wall under a white-oak soffit, garden foliage beyond",
+   "kind": "CAD render in a setting",
+   "finish": "graphite",
+   "aperture": "f/1.4",
+   "background": "generated empty setting: garden foliage (backdrop, defocused); board-formed concrete and white-oak soffit: generated surface textures",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-b-graphite-wall-concrete-garden.jpg",
+   "thumb": "images/review/thumb/pr-b-graphite-wall-concrete-garden.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending"
+  },
+  {
+   "id": "pr-b-graphite-wall-concrete-firepit",
+   "title": "Series II Select 6 kW graphite on the angled wall bracket, board-formed concrete wall under a white-oak soffit, fire-pit glow beyond",
+   "kind": "CAD render in a setting",
+   "finish": "graphite",
+   "aperture": "f/1.4",
+   "background": "generated empty setting: terrace with fire pit (backdrop, defocused); board-formed concrete and white-oak soffit: generated surface textures",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-b-graphite-wall-concrete-firepit.jpg",
+   "thumb": "images/review/thumb/pr-b-graphite-wall-concrete-firepit.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending"
   }
  ]
 }
