@@ -2956,7 +2956,8 @@
    "file": "images/review/full/pr-b-black-render-soffit-lanterns.jpg",
    "thumb": "images/review/thumb/pr-b-black-render-soffit-lanterns.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-black-render-soffit-firepit",
@@ -2970,7 +2971,8 @@
    "file": "images/review/full/pr-b-black-render-soffit-firepit.jpg",
    "thumb": "images/review/thumb/pr-b-black-render-soffit-firepit.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-black-render-soffit-string-lights",
@@ -2984,7 +2986,8 @@
    "file": "images/review/full/pr-b-black-render-soffit-string-lights.jpg",
    "thumb": "images/review/thumb/pr-b-black-render-soffit-string-lights.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-black-render-soffit-garden-dusk",
@@ -2998,7 +3001,8 @@
    "file": "images/review/full/pr-b-black-render-soffit-garden-dusk.jpg",
    "thumb": "images/review/thumb/pr-b-black-render-soffit-garden-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-3kw-white-render-soffit-garden",
