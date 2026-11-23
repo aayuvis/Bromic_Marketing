@@ -1808,6 +1808,98 @@
    "thumb": "images/review/thumb/pr-bg-graphite-pergola-beam-desert-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "pending"
+  },
+  {
+   "id": "pr-a-graphite-ceiling-hero-light",
+   "title": "Series II 6 kW, graphite, ceiling post, three-quarter view from below, elements glowing, on a light sweep",
+   "kind": "CAD studio render",
+   "finish": "graphite",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-a-graphite-ceiling-hero-light.jpg",
+   "thumb": "images/review/thumb/pr-a-graphite-ceiling-hero-light.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+   "status": "pending",
+   "review_note": "Same render on three sweep tones (light, warm grey, dark): pick one. Graphite reads light here."
+  },
+  {
+   "id": "pr-a-graphite-ceiling-hero-warm-grey",
+   "title": "Series II 6 kW, graphite, ceiling post, three-quarter view from below, elements glowing, on a warm-grey sweep",
+   "kind": "CAD studio render",
+   "finish": "graphite",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-a-graphite-ceiling-hero-warm-grey.jpg",
+   "thumb": "images/review/thumb/pr-a-graphite-ceiling-hero-warm-grey.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+   "status": "pending",
+   "review_note": "Same render on three sweep tones (light, warm grey, dark): pick one. Graphite reads light here."
+  },
+  {
+   "id": "pr-a-graphite-ceiling-hero-dark",
+   "title": "Series II 6 kW, graphite, ceiling post, three-quarter view from below, elements glowing, on a dark sweep",
+   "kind": "CAD studio render",
+   "finish": "graphite",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-a-graphite-ceiling-hero-dark.jpg",
+   "thumb": "images/review/thumb/pr-a-graphite-ceiling-hero-dark.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+   "status": "pending",
+   "review_note": "Same render on three sweep tones (light, warm grey, dark): pick one. Graphite reads light here."
+  },
+  {
+   "id": "pr-a-black-wall-low-light",
+   "title": "Series II 6 kW, black, wall bracket, low three-quarter view of the logo end, elements glowing, on a light sweep",
+   "kind": "CAD studio render",
+   "finish": "black",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-a-black-wall-low-light.jpg",
+   "thumb": "images/review/thumb/pr-a-black-wall-low-light.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+   "status": "pending",
+   "review_note": "Same render on three sweep tones (light, warm grey, dark): pick one."
+  },
+  {
+   "id": "pr-a-black-wall-low-warm-grey",
+   "title": "Series II 6 kW, black, wall bracket, low three-quarter view of the logo end, elements glowing, on a warm-grey sweep",
+   "kind": "CAD studio render",
+   "finish": "black",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-a-black-wall-low-warm-grey.jpg",
+   "thumb": "images/review/thumb/pr-a-black-wall-low-warm-grey.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+   "status": "pending",
+   "review_note": "Same render on three sweep tones (light, warm grey, dark): pick one."
+  },
+  {
+   "id": "pr-a-black-wall-low-dark",
+   "title": "Series II 6 kW, black, wall bracket, low three-quarter view of the logo end, elements glowing, on a dark sweep",
+   "kind": "CAD studio render",
+   "finish": "black",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-a-black-wall-low-dark.jpg",
+   "thumb": "images/review/thumb/pr-a-black-wall-low-dark.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+   "status": "pending",
+   "review_note": "Same render on three sweep tones (light, warm grey, dark): pick one."
+  },
+  {
+   "id": "pr-c-graphite-wall-limewash-bench",
+   "title": "Series II Select graphite on the angled wall bracket, centred over a built-in courtyard bench in a limewashed alcove, soft afternoon light",
+   "kind": "CAD render in a setting",
+   "finish": "graphite",
+   "aperture": "f/14",
+   "background": "generated: limewashed courtyard alcove with built-in bench (prompted from real photo w-dwell-modern-sunset-house for light and materials)",
+   "w": 5056,
+   "h": 3392,
+   "file": "images/review/full/pr-c-graphite-wall-limewash-bench.jpg",
+   "thumb": "images/review/thumb/pr-c-graphite-wall-limewash-bench.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending"
   }
  ]
 }

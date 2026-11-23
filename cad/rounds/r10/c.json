@@ -26,5 +26,19 @@
   "thumb": "images/review/thumb/pr-c-white-pair-charcoal-wall-bench.webp",
   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
   "status": "pending"
+ },
+ {
+  "id": "pr-c-graphite-wall-limewash-bench",
+  "title": "Series II Select graphite on the angled wall bracket, centred over a built-in courtyard bench in a limewashed alcove, soft afternoon light",
+  "kind": "CAD render in a setting",
+  "finish": "graphite",
+  "aperture": "f/14",
+  "background": "generated: limewashed courtyard alcove with built-in bench (prompted from real photo w-dwell-modern-sunset-house for light and materials)",
+  "w": 5056,
+  "h": 3392,
+  "file": "images/review/full/pr-c-graphite-wall-limewash-bench.jpg",
+  "thumb": "images/review/thumb/pr-c-graphite-wall-limewash-bench.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
  }
 ]
