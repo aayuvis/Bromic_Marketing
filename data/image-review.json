@@ -5945,6 +5945,36 @@
    "file": "images/review/full/hb-platinum-4500w-lounge-plan.jpg",
    "thumb": "images/review/thumb/hb-platinum-4500w-lounge-plan.webp",
    "status": "pending"
+  },
+  {
+   "id": "hb-platinum-gas-500-lounge",
+   "title": "Platinum Gas 500 heat bloom: 215 ft², 16.5 ft circle in front of the wall, wall-mounted at 9 ft, lounge",
+   "kind": "Heat bloom (coverage)",
+   "finish": "black",
+   "aperture": "f/8",
+   "background": "Lounge plate from the image model, built from our 3D layout; gas head modelled from the manual dimensions",
+   "source": "Coverage from the 2026 Bromic catalog (max heat area 215 ft2); circle of equal area in front of the wall; composited by the content team",
+   "review_note": "Floor smudges under the front armchair and sofa are being fixed; the head is modelled from the manual, not Bromic photography.",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/hb-platinum-gas-500-lounge.jpg",
+   "thumb": "images/review/thumb/hb-platinum-gas-500-lounge.webp",
+   "status": "pending"
+  },
+  {
+   "id": "hb-platinum-gas-500-lounge-plan",
+   "title": "Platinum Gas 500 heat bloom, top-down plan: 215 ft² circle in front of the wall",
+   "kind": "Heat bloom (coverage)",
+   "finish": "black",
+   "aperture": "f/8",
+   "background": "Lounge plate from the image model, built from our 3D layout; gas head modelled from the manual dimensions",
+   "source": "Coverage from the 2026 Bromic catalog (max heat area 215 ft2); circle of equal area in front of the wall; composited by the content team",
+   "review_note": "Floor smudges under the front armchair and sofa are being fixed; the head is modelled from the manual, not Bromic photography.",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/hb-platinum-gas-500-lounge-plan.jpg",
+   "thumb": "images/review/thumb/hb-platinum-gas-500-lounge-plan.webp",
+   "status": "pending"
   }
  ]
 }
