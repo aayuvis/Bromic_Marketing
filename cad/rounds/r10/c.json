@@ -1,0 +1,30 @@
+[
+ {
+  "id": "pr-c-black-wall-limewash-bench",
+  "title": "Series II Select black on the angled wall bracket, centred over a built-in courtyard bench in a limewashed alcove, soft afternoon light",
+  "kind": "CAD render in a setting",
+  "finish": "black",
+  "aperture": "f/14",
+  "background": "generated: limewashed courtyard alcove with built-in bench (prompted from real photo w-dwell-modern-sunset-house for light and materials)",
+  "w": 5056,
+  "h": 3392,
+  "file": "images/review/full/pr-c-black-wall-limewash-bench.jpg",
+  "thumb": "images/review/thumb/pr-c-black-wall-limewash-bench.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
+ },
+ {
+  "id": "pr-c-white-pair-charcoal-wall-bench",
+  "title": "Two Series II Select white heaters in line on angled wall brackets, centred over a long built-in bench against a charcoal render wall at blue hour",
+  "kind": "CAD render in a setting",
+  "finish": "white",
+  "aperture": "f/14",
+  "background": "generated: courtyard terrace with charcoal render wall and limestone bench at blue hour (prompted from real photo w-dwell-modern-sunset-house for light and materials)",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-c-white-pair-charcoal-wall-bench.jpg",
+  "thumb": "images/review/thumb/pr-c-white-pair-charcoal-wall-bench.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
+ }
+]

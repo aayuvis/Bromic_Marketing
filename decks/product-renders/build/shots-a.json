@@ -34,7 +34,7 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 44,
+  "samples": 20,
   "noise": 0.05
  },
  "black-low-plusy": {
@@ -72,7 +72,7 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 44,
+  "samples": 20,
   "noise": 0.05
  },
  "white-low-plusy": {
@@ -110,7 +110,7 @@
    2560
   ],
   "exposure": -1.8,
-  "samples": 44,
+  "samples": 20,
   "noise": 0.05
  },
  "white-steep-plusy": {
@@ -148,7 +148,7 @@
    2560
   ],
   "exposure": -1.8,
-  "samples": 44,
+  "samples": 20,
   "noise": 0.05
  },
  "black-up-9x16": {
@@ -191,7 +191,7 @@
    3840
   ],
   "exposure": -1.5,
-  "samples": 44,
+  "samples": 20,
   "noise": 0.05
  },
  "graphite-up-4x5": {
@@ -234,7 +234,7 @@
    3840
   ],
   "exposure": -1.5,
-  "samples": 44,
+  "samples": 20,
   "noise": 0.05
  },
  "3kw-black-logo-34": {
@@ -273,7 +273,7 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 44,
+  "samples": 20,
   "noise": 0.05
  },
  "3kw-graphite-endcap": {
@@ -312,7 +312,7 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 44,
+  "samples": 20,
   "noise": 0.05
  },
  "graphite-pair-parallel": {
@@ -362,7 +362,7 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 44,
+  "samples": 20,
   "noise": 0.05
  },
  "black-trio-row": {
@@ -424,7 +424,7 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 44,
+  "samples": 20,
   "noise": 0.05
  },
  "white-pair-in-line": {
@@ -474,7 +474,7 @@
    2560
   ],
   "exposure": -1.8,
-  "samples": 44,
+  "samples": 20,
   "noise": 0.05
  },
  "graphite-glow-detail": {
@@ -512,7 +512,7 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 44,
+  "samples": 20,
   "noise": 0.05,
   "region": false
  },
@@ -551,7 +551,7 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 44,
+  "samples": 20,
   "noise": 0.05
  },
  "graphite-dark-endcap": {
@@ -590,7 +590,7 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 44,
+  "samples": 20,
   "noise": 0.05
  },
  "black-4x5-hero": {
@@ -628,7 +628,7 @@
    3840
   ],
   "exposure": -1.5,
-  "samples": 44,
+  "samples": 20,
   "noise": 0.05
  },
  "white-wall-hero": {
@@ -665,7 +665,7 @@
    2560
   ],
   "exposure": -1.8,
-  "samples": 44,
+  "samples": 20,
   "noise": 0.05
  },
  "black-wall-low": {
@@ -702,7 +702,7 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 44,
+  "samples": 20,
   "noise": 0.05
  },
  "graphite-wall-from-below": {
@@ -739,7 +739,7 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 44,
+  "samples": 20,
   "noise": 0.05
  },
  "3kw-black-low-plusy": {
@@ -777,7 +777,7 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 44,
+  "samples": 20,
   "noise": 0.05
  },
  "graphite-trio-end-on": {
@@ -840,7 +840,7 @@
    2560
   ],
   "exposure": -1.5,
-  "samples": 44,
+  "samples": 20,
   "noise": 0.05
  }
 }

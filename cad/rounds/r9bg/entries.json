@@ -124,5 +124,33 @@
   "thumb": "images/review/thumb/pr-bg-black-recess-kit-plaster-ceiling.webp",
   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
   "status": "pending"
+ },
+ {
+  "id": "pr-bg-graphite-pergola-beam-festoon",
+  "title": "Series II Select graphite on its short ceiling post under a dark timber pergola beam, warm festoon lights at dusk beyond",
+  "kind": "CAD render in a setting",
+  "finish": "graphite",
+  "aperture": "f/1.4",
+  "background": "dark timber beam and rafters: generated surface texture; real photo: w-dsc01890-hdr-bearbeitet (backdrop, defocused) with drawn festoon bulbs",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-bg-graphite-pergola-beam-festoon.jpg",
+  "thumb": "images/review/thumb/pr-bg-graphite-pergola-beam-festoon.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
+ },
+ {
+  "id": "pr-bg-graphite-pergola-beam-desert-dusk",
+  "title": "Series II Select graphite on its short ceiling post under a dark timber pergola beam, festoon lights and desert hills at dusk beyond",
+  "kind": "CAD render in a setting",
+  "finish": "graphite",
+  "aperture": "f/1.4",
+  "background": "dark timber beam and rafters: generated surface texture; real photo: w-dwell-modern-sunset-house (backdrop, defocused) with drawn festoon bulbs",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-bg-graphite-pergola-beam-desert-dusk.jpg",
+  "thumb": "images/review/thumb/pr-bg-graphite-pergola-beam-desert-dusk.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
  }
 ]

@@ -22,5 +22,17 @@
   "thumb": "images/review/thumb/pr-a-black-up-9x16.webp",
   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
   "status": "pending"
+ },
+ {
+  "id": "pr-a-graphite-dark-endcap",
+  "title": "Series II 6 kW, graphite, logo end on a dark sweep, f/4, elements glowing",
+  "kind": "CAD studio render",
+  "finish": "graphite",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-a-graphite-dark-endcap.jpg",
+  "thumb": "images/review/thumb/pr-a-graphite-dark-endcap.webp",
+  "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+  "status": "pending"
  }
 ]
