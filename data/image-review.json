@@ -2635,9 +2635,8 @@
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "pending",
-   "redo": "v2: cavity neutral, logo visible, pair further back over the seats",
-   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
-   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly."
+   "redo": "v3: logo upright",
+   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away.."
   },
   {
    "id": "pr-a-black-trio-row-light",
@@ -3392,6 +3391,22 @@
    "status": "pending",
    "redo": "v3: logo upright",
    "previous_note": "what is the color streak between the rc kit and heaters. (it should be gray. ....the logo is not visible...the heaters should be further away.."
+  },
+  {
+   "id": "pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk",
+   "title": "Two Series II graphite heaters recessed side by side in the low-clearance kit, parallel and centred over a sofa and armchair lounge group in a plaster loggia opening to an olive grove at dusk",
+   "kind": "CAD render in a setting",
+   "finish": "graphite",
+   "aperture": "f/14",
+   "background": "generated: plaster loggia with flat ceiling and olive grove at dusk (spare plate p3b from the r10 f/14 set, prompted from a real Bromic library photo for light and materials)",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk.jpg",
+   "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending",
+   "redo": "v3: logo upright",
+   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away.."
   }
  ]
 }
