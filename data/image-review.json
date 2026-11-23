@@ -2704,13 +2704,11 @@
    "file": "images/review/full/pr-b-3kw-graphite-concrete-soffit-corten-courtyard.jpg",
    "thumb": "images/review/thumb/pr-b-3kw-graphite-concrete-soffit-corten-courtyard.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "rejected",
+   "status": "pending",
    "review_note": "Check: the heater runs off the right edge of the frame.",
-   "decided": "2026-11-23",
-   "decided_by": "owner",
-   "note": "straighten the roof and this is then ok",
    "learned": true,
-   "redo": "queued: level the soffit, then resubmit"
+   "redo": "Redone for your note: soffit levelled and straightened",
+   "previous_note": "straighten the roof and this is then ok"
   },
   {
    "id": "pr-b-3kw-graphite-concrete-soffit-reflecting-pool",
@@ -2724,13 +2722,11 @@
    "file": "images/review/full/pr-b-3kw-graphite-concrete-soffit-reflecting-pool.jpg",
    "thumb": "images/review/thumb/pr-b-3kw-graphite-concrete-soffit-reflecting-pool.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "rejected",
+   "status": "pending",
    "review_note": "Check: the heater runs off the right edge of the frame.",
-   "decided": "2026-11-23",
-   "decided_by": "owner",
-   "note": "straighten the roof and this is then ok",
    "learned": true,
-   "redo": "queued: level the soffit, then resubmit"
+   "redo": "Redone for your note: soffit levelled and straightened",
+   "previous_note": "straighten the roof and this is then ok"
   },
   {
    "id": "pr-b-3kw-graphite-concrete-soffit-sea-dusk",
@@ -2744,13 +2740,11 @@
    "file": "images/review/full/pr-b-3kw-graphite-concrete-soffit-sea-dusk.jpg",
    "thumb": "images/review/thumb/pr-b-3kw-graphite-concrete-soffit-sea-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "rejected",
+   "status": "pending",
    "review_note": "Check: the heater runs off the right edge of the frame.",
-   "decided": "2026-11-23",
-   "decided_by": "owner",
-   "note": "straighten the roof and this is then ok",
    "learned": true,
-   "redo": "queued: level the soffit, then resubmit"
+   "redo": "Redone for your note: soffit levelled and straightened",
+   "previous_note": "straighten the roof and this is then ok"
   },
   {
    "id": "pr-b-3kw-graphite-concrete-soffit-string-lights",
