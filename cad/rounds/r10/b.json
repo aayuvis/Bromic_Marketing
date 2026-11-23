@@ -535,5 +535,33 @@
   "thumb": "images/review/thumb/pr-b-black-wall-concrete-garden-dusk.webp",
   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
   "status": "pending"
+ },
+ {
+  "id": "pr-b-white-recess-cedar-garden",
+  "title": "Series II Select 6 kW white recessed in the Bromic recess kit, logo-end close-up, cedar soffit boards running with the heater, garden beyond",
+  "kind": "CAD render in a setting",
+  "finish": "white",
+  "aperture": "f/8",
+  "background": "generated empty setting: garden foliage (backdrop, lens blur matched to f/8); cedar soffit: generated surface texture; recess kit trim at its published size",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-b-white-recess-cedar-garden.jpg",
+  "thumb": "images/review/thumb/pr-b-white-recess-cedar-garden.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
+ },
+ {
+  "id": "pr-b-white-recess-cedar-sea-dusk",
+  "title": "Series II Select 6 kW white recessed in the Bromic recess kit, logo-end close-up, cedar soffit boards running with the heater, sea at dusk beyond",
+  "kind": "CAD render in a setting",
+  "finish": "white",
+  "aperture": "f/8",
+  "background": "generated empty setting: terrace view to the sea at dusk (backdrop, lens blur matched to f/8); cedar soffit: generated surface texture; recess kit trim at its published size",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-b-white-recess-cedar-sea-dusk.jpg",
+  "thumb": "images/review/thumb/pr-b-white-recess-cedar-sea-dusk.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
  }
 ]
