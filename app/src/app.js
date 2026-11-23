@@ -214,7 +214,7 @@
   const STR = (k) => (UI[lang] && UI[lang][k]) || ({ HERO: '', NEED_READ: '', NEED_DL: '', NEED_TOOL: '', NEED_PROVE: '' }[k] ?? k);
   function chromeText() {
     document.querySelectorAll('.tabs a[data-tab]').forEach((a) => { const n = a.querySelector('.tab-n'); a.dataset.en ||= a.firstChild.textContent; a.firstChild.textContent = STR(a.dataset.en); if (n) a.append(n); });
-    document.querySelectorAll('.tabs .mega > summary').forEach((a) => { a.dataset.en ||= a.textContent; a.textContent = STR(a.dataset.en); });
+    document.querySelectorAll('.tabs .mega > summary').forEach((s) => { const a = s.querySelector('.mh-link') || s; a.dataset.en ||= a.textContent; a.textContent = STR(a.dataset.en); });
     const q = $('#q'); if (q) { q.dataset.en ||= q.placeholder; q.placeholder = STR(q.dataset.en); }
   }
 
@@ -329,7 +329,7 @@
     const needs = [
       { t: STR('Read and answer'), d: lang === 'en' ? 'Articles, answers and blog posts that rank and get quoted by AI search.' : STR('NEED_READ'), n: byType(['article', 'kb', 'blog']), href: '#/library?type=article', img: 'l-022-201',
         links: [['Articles', '#/library?type=article'], ['Answers', '#/library?type=kb'], ['Blog', '#/blog']] },
-      { t: STR('Download'), d: lang === 'en' ? 'Reports, planning guides and spec kits, each a finished PDF behind a form.' : STR('NEED_DL'), n: pdfList().length, href: '#/downloads', img: 't-001-000',
+      { t: STR('Download'), d: lang === 'en' ? 'Reports, planning guides and spec kits, each a finished PDF behind a form.' : STR('NEED_DL'), n: pdfList().length, href: '#/whitepapers', img: 't-001-000',
         links: pdfList().slice(0, 3).map((i) => [shortTitle(i.title), `#/item/${i.id}`]) },
       { t: STR('Try a tool'), d: lang === 'en' ? 'Calculators that turn a visit into a lead: sizing, five-year cost, revenue.' : STR('NEED_TOOL'), n: tools.length, href: '#/tools', img: 'p-003-006',
         links: tools.map((i) => [shortTitle(i.title), `#/item/${i.id}`]) },
@@ -361,7 +361,7 @@
         <a href="#/todo#approve"><b>${H.items.filter((i) => nextStep(i).k === 'approve' && i.status === 'draft').length}</b><span>${esc(STR('ready to read and approve'))}</span></a>
         <a href="#/todo#chase"><b>${H.items.filter((i) => nextStep(i).k === 'chase').length}</b><span>${esc(STR('waiting on a fact or a call'))}</span></a>
         <a href="#/todo#go"><b>${H.items.filter((i) => nextStep(i).k === 'go').length}</b><span>${esc(STR('approved, ready for 454 Creative'))}</span></a>
-        <a href="#/downloads"><b>${pdfList().length}</b><span>${esc(STR('PDFs ready to share'))}</span></a>
+        <a href="#/whitepapers"><b>${pdfList().length}</b><span>${esc(STR('PDFs ready to share'))}</span></a>
       </div></section>
     <section id="fp-who" class="fp-sec">
       <div class="fp-h"><span class="fp-k">${esc(STR('01 · Who it is for'))}</span><h2>${esc(STR('Made For Everyone Who Shapes The Outdoors'))}</h2>
@@ -461,7 +461,7 @@
         <a href="#/todo#approve"><b>${ready}</b><span>ready to read and approve</span></a>
         <a href="#/todo#chase"><b>${chase}</b><span>waiting on a fact or a call</span></a>
         <a href="#/todo#go"><b>${go}</b><span>approved, ready for 454 Creative</span></a>
-        <a href="#/downloads"><b>${pdfList().length}</b><span>PDFs ready to share</span></a>
+        <a href="#/whitepapers"><b>${pdfList().length}</b><span>PDFs ready to share</span></a>
       </div>
       ${SHELVES.map((sh) => {
         const its = all.filter((i) => shelfOf(i) === sh.id);
@@ -751,19 +751,22 @@
   // ---------- downloads: every gated document as a PDF ----------
   const pdfList = () => H.items.filter((i) => hasPdf(i) && !SUPERSEDED.has(i.id) && !VG[i.id]).sort((a, b) => (a.id.startsWith('A01') ? 0 : 1) - (b.id.startsWith('A01') ? 0 : 1) || a.id.localeCompare(b.id));
   const pdfBtn = (it, label = 'Download PDF') => `<a class="btn primary" href="${pdfHref(it)}" download="Bromic-${esc(it.id)}${it.tr && it.lang !== 'en' ? '-' + it.lang : ''}.pdf">${ic.down}${label}</a>`;
-  function downloadsPage() {
-    const L = pdfList();
+  // One page, every white paper as a cover tile (owner, 23 Nov 2026: "white paper should be a button with all white paper").
+  function whitepapersPage() {
     const TRS = (HUB.trends && HUB.trends.reports) || [], VGL = HUB.vguides || [];
-    const card = (href, cover, label, title, desc, pdf, cls = 'port') => `<article class="dl-card"><a class="dl-cover ${cls}" href="${href}"><img src="${esc(cover)}" alt="Cover of ${esc(title)}" loading="lazy"></a><div class="dl-body"><span class="label">${esc(label)}</span><h3><a href="${href}">${esc(title)}</a></h3>${desc ? `<p>${esc(desc)}</p>` : ''}<div class="btns">${pdf ? `<a class="btn primary" href="${esc(pdf)}" download>${ic.down}Download PDF</a>` : ''}<a class="btn" href="${href}">${ic.arrow}Open</a></div></div></article>`;
-    const total = L.length + TRS.length + VGL.length;
-    return `<div class="ph"><div><span class="label">White papers · 2027</span><h1>Reports, Guides And Kits</h1><p>${total} documents, each a finished PDF.</p></div></div>
-      ${TRS.length ? `<h2 class="dl-h">Outdoor Living Trends 2027</h2><div class="dl-grid">${TRS.map((r) => card('#/trends', `trends-2027/${r.id}/cover.webp`, 'Trend report · ' + r.region, r.title, '', '', 'land')).join('')}</div>` : ''}
-      ${VGL.length ? `<h2 class="dl-h">Plan Your Outdoor Heat 2027</h2><div class="dl-grid">${VGL.map((g) => card('#/guides', `${g.dir}/${g.cover}`, 'Planning guide', g.title.split('·').pop().trim(), '', `${g.dir}/${g.file}.pdf`)).join('')}</div>` : ''}
-      <h2 class="dl-h">Guides, Kits And Statistics</h2>
-      <div class="dl-grid">${L.map((it) => `<article class="dl-card"><a class="dl-cover" href="#/item/${esc(it.id)}">${DZ[it.id] && DZ[it.id].thumbHref ? `<img src="${esc(DZ[it.id].thumbHref)}" alt="Cover of ${esc(it.title)}" loading="lazy">` : img(it.hero)}</a>
-        <div class="dl-body"><span class="label">${esc(TYPES[it.type] || it.type)} · ${it.audience.map((a) => esc(AUD[a]?.name || a)).join(', ')}</span>
-        <h3><a href="#/item/${esc(it.id)}">${esc(it.title)}</a></h3>${it.meta_description || it.summary ? `<p>${esc(it.meta_description || it.summary)}</p>` : ''}
-        <div class="btns">${pdfBtn(it)}<a class="btn" href="${pdfHref(it)}" target="_blank" rel="noopener">${ic.ext}Open</a></div></div></article>`).join('')}</div>`;
+    const seen = new Set(), uniq = (t) => { const k = String(t).toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim(); if (seen.has(k)) return false; seen.add(k); return true; };
+    const tile = (href, cover, label, title, pdf, open) => `<article class="wp-tile"><a class="wp-cover" href="${href}">${cover}</a><div class="wp-body"><span class="label">${esc(label)}</span><h3><a href="${href}">${esc(title)}</a></h3>
+      <div class="wp-btns">${pdf ? `<a class="btn primary" href="${esc(pdf)}" download>${ic.down}PDF</a>` : ''}${open ? `<a class="btn" href="${esc(open)}" target="_blank" rel="noopener">${ic.ext}Open</a>` : ''}</div></div></article>`;
+    const pic = (src, alt) => `<img src="${esc(src)}" alt="${esc(alt)}" loading="lazy">`;
+    const trends = TRS.filter((r) => uniq(r.title + ' ' + r.region)).map((r) => tile('#/trends', pic(`trends-2027/${r.id}/cover-letter.webp`, 'Cover of ' + r.title + ', ' + r.region), 'Trend report · ' + r.region, r.title + ' · ' + r.region, `trends-2027/${r.id}/${r.file}-Letter.pdf`, `trends-2027/${r.id}/index.html`));
+    const guides = VGL.filter((g) => uniq(g.title)).map((g) => tile('#/guides', pic(`${g.dir}/${g.cover}`, 'Cover of ' + g.title), 'Planning guide', g.title.split('·').pop().trim(), `${g.dir}/${g.file}.pdf`, ''));
+    const L = pdfList().filter((it) => uniq(it.title));
+    const twin = (it) => L.filter((x) => shortTitle(x.title) === shortTitle(it.title)).length > 1;  // three statistics pages share a short title: name each by its subtitle
+    const rest = L.map((it) => tile(`#/item/${esc(it.id)}`, DZ[it.id] && DZ[it.id].thumbHref ? pic(DZ[it.id].thumbHref, 'Cover of ' + it.title) : img(it.hero), (TYPES[it.type] || it.type) + (twin(it) ? ' · ' + shortTitle(it.title) : ''), twin(it) ? it.title.split(/[:—]/).slice(1).join(':').trim() || it.title : shortTitle(it.title), FRAMED ? '' : pdfHref(it), FRAMED ? '' : pdfHref(it)));
+    const total = trends.length + guides.length + rest.length;
+    const sec = (h, a) => a.length ? `<h2 class="dl-h">${h} <span class="wp-n">${a.length}</span></h2><div class="wp-grid">${a.join('')}</div>` : '';
+    return `<div class="wp-head"><span class="label">White papers</span><h1>White Papers</h1><span class="muted">${total} documents, each a finished PDF</span></div>
+      ${sec('Outdoor Living Trends 2027', trends)}${sec('Plan Your Outdoor Heat 2027', guides)}${sec('Guides, Kits And Statistics', rest)}`;
   }
 
   // ---------- blog: the live bromic.com/blog, post by post, and what replaces each ----------
@@ -803,35 +806,74 @@
       && (!searchTerm || [r.title, r.customer, r.location, r.summary].join(' ').toLowerCase().includes(searchTerm)));
   }
   const csTabs = (cur) => `<div class="btns" role="tablist" style="margin:0 0 18px">${[['', 'Library'], ['whitespace', 'Whitespace'], ['capture', 'Capture a project']].map(([k, l]) => `<a class="btn ${cur === k ? 'primary' : ''}" role="tab" aria-selected="${cur === k}" href="#/cases${k ? '/' + k : ''}">${l}</a>`).join('')}</div>`;
-  function csCard(r) {
+  // A tile is the photo, the name and the place, every tile the same size; the whole story opens over the grid (owner, 23 Nov 2026).
+  const CSR = Object.fromEntries(CS.records.map((r) => [r.id, r]));
+  const csThumb = (r) => { const im = r.images?.length ? IMG[r.images[0]] : null; return im ? `<img src="${im.thumb}" alt="${esc(im.alt)}" loading="lazy">` : '<span class="cs-noimg">No photo yet</span>'; };
+  function csTile(r) {
+    return `<a class="cs-tile" href="#/cases/${encodeURIComponent(r.id)}" data-cstile="${esc(r.id)}"><span class="cs-tile-img">${csThumb(r)}</span><span class="cs-tile-b"><b class="cs-tile-t">${esc(r.title || r.customer || r.id)}</b><span class="cs-tile-l">${esc(r.location || '')}</span></span></a>`;
+  }
+  function csDetail(r) {
     const img = r.images?.length ? IMG[r.images[0]] : null;
     const chips = ['segment', 'space', 'install', 'product', 'theme'].flatMap((g) => (r.tags[g] || []).map((id) => `<span class="chip">${esc(TG(g, id))}</span>`)).join('');
     const badge = r.kind === 'web-find' ? (r.case_study_item ? `<a class="chip solid" href="#/item/${esc(r.case_study_item)}">Case-study draft ${esc(r.case_study_item)}</a><span class="chip">Found on the web</span>` : '<span class="chip warn">Web lead: confirm</span>') : r.kind === 'case-study' ? (r.read === 'search-snippet-only' ? '<span class="chip warn">Search listing only</span>' : '<span class="chip solid">Case study</span>') : r.written_as ? '<span class="chip">Photos of a written study</span>' : '<span class="chip">Photos only, not written up</span>';
-    return `<article class="cs-card">${img ? `<button class="cs-img" data-img="${img.id}" aria-label="View photo"><img src="${img.thumb}" alt="${esc(img.alt)}" loading="lazy"></button>` : '<div class="cs-img none">No photo in the library yet</div>'}
-      <div class="cs-body"><div class="row gap">${badge}${(r.tags.market || []).map((m) => `<span class="chip">${esc(m)}</span>`).join('')}${r.year ? `<span class="muted" style="font-size:13px">${r.year}</span>` : ''}</div>
-      <h3>${r.url ? `<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title || r.customer || r.id)}</a>` : esc(r.title || r.id)}</h3>
-      <p class="muted" style="font-size:14px;margin:0 0 8px">${esc(r.location || '')}</p><p style="font-size:14px">${esc(r.summary || '')}</p>
-      <div class="chips">${chips}</div>
+    const z = DZC[r.id] || (r.case_study_item && DZ[r.case_study_item]);
+    return `<article class="cs-detail">${img ? `<figure class="cs-d-img"><img src="${img.file || img.thumb}" alt="${esc(img.alt)}"></figure>` : '<div class="cs-d-img none">No photo in the library yet</div>'}
+      <div class="cs-d-body"><div class="row gap">${badge}${(r.tags.market || []).map((m) => `<span class="chip">${esc(m)}</span>`).join('')}${r.year ? `<span class="muted" style="font-size:13px">${r.year}</span>` : ''}</div>
+      <h2 id="cs-d-title">${esc(r.title || r.customer || r.id)}</h2>
+      <p class="muted cs-d-loc">${esc(r.location || '')}</p>${r.summary ? `<p>${esc(r.summary)}</p>` : ''}
+      ${chips ? `<div class="chips">${chips}</div>` : ''}
       ${['origin', 'evidence', 'completeness'].some((g) => (r.tags[g] || []).length) ? `<p class="cs-prov">${['origin', 'evidence', 'completeness'].flatMap((g) => (r.tags[g] || []).map((id) => `<span class="prov prov-${esc(id)}">${esc(TG(g, id))}</span>`)).join('')}</p>` : ''}
       ${(r.tags.proof || []).length ? `<p class="muted" style="font-size:13px;margin-top:8px">Proof: ${r.tags.proof.map((id) => esc(TG('proof', id))).join(', ')}</p>` : ''}
       ${(r.tags.controls || []).includes('controls-not-stated') && r.kind === 'case-study' ? '<p class="vcount" style="font-size:13px">Controls not stated: add them when this is upgraded</p>' : ''}
-      ${(() => { const z = DZC[r.id] || (r.case_study_item && DZ[r.case_study_item]); return z ? `<p style="margin:10px 0 0"><a class="btn" href="${esc(z.href)}" download>${ic.down}Project File PDF</a></p>` : ''; })()}
+      <div class="btns cs-d-btns">${z ? `<a class="btn primary" href="${esc(z.href)}" download>${ic.down}Project File PDF</a>` : ''}${r.url ? `<a class="btn" href="${esc(r.url)}" target="_blank" rel="noopener">${ic.ext}Open the published page</a>` : ''}</div>
       <button class="fb-link" data-fbel="case:${esc(r.id)}" data-fblabel="${esc(r.title || r.id)}">${ic.chat}Feedback on this</button></div></article>`;
+  }
+  let csFromGrid = false, csLastTile = '';
+  function csModal(r) {
+    document.querySelector('.cs-modal')?.remove();
+    document.body.classList.toggle('cs-locked', !!r);
+    if (!r) { const t = csLastTile && document.querySelector(`[data-cstile="${CSS.escape(csLastTile)}"]`); if (t) t.focus({ preventScroll: true }); return; }
+    csLastTile = r.id;
+    const el = document.createElement('div'); el.className = 'cs-modal'; el.setAttribute('role', 'dialog'); el.setAttribute('aria-modal', 'true'); el.setAttribute('aria-labelledby', 'cs-d-title');
+    el.innerHTML = `<div class="cs-modal-box"><button type="button" class="cs-x" data-csclose aria-label="Close">×</button>${csDetail(r)}</div>`;
+    document.body.appendChild(el); el.querySelector('.cs-x').focus();
+  }
+  function csClose() {
+    if (!document.querySelector('.cs-modal')) return;
+    if (csFromGrid) { csFromGrid = false; history.back(); } else location.hash = '#/cases';
+  }
+  const CS_SIDE_KEY = 'bromic-hub-cs-side';
+  const csPhone = () => matchMedia('(max-width: 900px)').matches;
+  let csSide = (() => { if (csPhone()) return false; try { const v = localStorage.getItem(CS_SIDE_KEY); return v == null ? true : v === '1'; } catch { return true; } })();
+  function csSideSet(open) {
+    csSide = open; const l = document.querySelector('.cs-layout'); if (l) l.classList.toggle('side-open', open);
+    const b = document.querySelector('[data-csside]'); if (b) b.setAttribute('aria-expanded', String(open));
+    if (!csPhone()) { try { localStorage.setItem(CS_SIDE_KEY, open ? '1' : '0'); } catch {} }
   }
   function csLibrary() {
     if (!CS.tax) return '<div class="empty">No case-study data. Run <code>python3 scripts/build_case_studies.py</code>.</div>';
     const list = csList();
-    const groupSel = (g) => `<label class="muted" style="font-size:13px">${esc(CS.tax.groups[g].label)} <select data-csf="${g}"><option value="">All</option>${CS.tax.groups[g].tags.filter((t) => CS.records.some((r) => (r.tags[g] || []).includes(t.id))).map((t) => `<option value="${t.id}" ${(csF[g] || [])[0] === t.id ? 'selected' : ''}>${esc(t.label)}</option>`).join('')}</select></label>`;
-    const nW = CS.records.filter((r) => r.kind === 'case-study').length, nP = CS.records.filter((r) => r.kind === 'project' && !r.written_as).length, nWeb = CS.records.filter((r) => r.kind === 'web-find').length;
-    return `<div class="ph"><div><span class="label">Case studies</span><h1>Spaces We've Brought To Life</h1><p>Rooftop bars in London, harbourside restaurants in Sydney, superyachts, mountain lodges and family homes – ${nW} stories told, ${nP} beautifully photographed projects still waiting for their story, and ${nWeb} more discovered across the web. Find the space that looks most like your client's next project, and let it do the persuading.</p></div></div>
-      ${csTabs('')}
-      <div class="sec-h"><h2>Collections</h2></div><div class="cs-colls">${CS.collections.map((c) => { const n = CS.records.filter((r) => matchQ(r, c.query) || (c.named || []).includes(r.id)).length; const r0 = CS.records.find((r) => ((c.named || []).includes(r.id) || matchQ(r, c.query)) && r.images?.length); const im = r0 && IMG[r0.images[0]];
-        return `<button class="cs-coll ${csColl === c.id ? 'on' : ''}" data-cscoll="${c.id}">${im ? `<img src="${im.thumb}" alt="" loading="lazy">` : ''}<span><b>${esc(c.title)}</b><br><i>${esc(c.place)}</i><br><span class="muted">${n} on the sites${(c.deck_only || []).length ? ` · ${c.deck_only.length} deck-only to capture` : ''}</span></span></button>`; }).join('')}</div>
-      ${csColl ? (() => { const c = CS.collections.find((x) => x.id === csColl); return (c.deck_only || []).length ? `<div class="callout"><b>${esc(c.title)}: in the sales deck, not on any Bromic site.</b> ${c.deck_only.map((d) => `${esc(d.place)} <a href="#/cases/capture?segment=${esc((c.query.segment || [''])[0])}&market=${esc(d.market)}">Capture it</a>`).join(' · ')}</div>` : ''; })() : ''}
-      <div class="toolbar"><span class="muted">${list.length} shown${csColl || Object.values(csF).some((x) => x.length) ? ' · <button class="clear" data-csclear>Clear</button>' : ''}</span>
-      <span class="btns"><label class="muted" style="font-size:13px">Show <select data-cskind><option value="all" ${csKind === 'all' ? 'selected' : ''}>All</option><option value="written" ${csKind === 'written' ? 'selected' : ''}>Written case studies</option><option value="photos" ${csKind === 'photos' ? 'selected' : ''}>Photo-only projects</option><option value="web" ${csKind === 'web' ? 'selected' : ''}>Found on the web</option></select></label>
-      ${['origin', 'evidence', 'completeness', 'segment', 'market', 'space', 'install', 'product', 'theme', 'proof'].filter((g) => CS.tax.groups[g]).map(groupSel).join('')}</span></div>
-      <div class="cs-grid">${list.slice(0, 120).map(csCard).join('') || '<div class="empty">Nothing matches. That may be whitespace: <a href="#/cases/whitespace">see the grid</a>.</div>'}</div>${list.length > 120 ? `<p class="muted">Showing 120 of ${list.length}; narrow the filters.</p>` : ''}`;
+    const groupSel = (g) => `<label class="cs-f"><span class="label">${esc(CS.tax.groups[g].label)}</span><select data-csf="${g}"><option value="">All</option>${CS.tax.groups[g].tags.filter((t) => CS.records.some((r) => (r.tags[g] || []).includes(t.id))).map((t) => `<option value="${t.id}" ${(csF[g] || [])[0] === t.id ? 'selected' : ''}>${esc(t.label)}</option>`).join('')}</select></label>`;
+    const nOn = Object.values(csF).filter((x) => x.length).length + (csKind !== 'all' ? 1 : 0);
+    const pills = CS.collections.map((c) => { const n = CS.records.filter((r) => matchQ(r, c.query) || (c.named || []).includes(r.id)).length; const r0 = CS.records.find((r) => ((c.named || []).includes(r.id) || matchQ(r, c.query)) && r.images?.length); const im = r0 && IMG[r0.images[0]];
+      return `<button class="cs-pill ${csColl === c.id ? 'on' : ''}" data-cscoll="${c.id}" aria-pressed="${csColl === c.id}" title="${esc(c.place || '')}">${im ? `<img src="${im.thumb}" alt="" loading="lazy">` : '<span class="cs-pill-none"></span>'}<span>${esc(c.title)}</span><small>${n}</small></button>`; }).join('');
+    const deck = csColl ? (() => { const c = CS.collections.find((x) => x.id === csColl); return (c.deck_only || []).length ? `<p class="cs-deck"><b>${esc(c.title)}: in the sales deck, not on any Bromic site.</b> ${c.deck_only.map((d) => `${esc(d.place)} <a href="#/cases/capture?segment=${esc((c.query.segment || [''])[0])}&market=${esc(d.market)}">Capture it</a>`).join(' · ')}</p>` : ''; })() : '';
+    const open = csSide;
+    return `<div class="cs-head"><h1>Case Studies</h1>${csTabs('')}</div>
+      <div class="cs-pills" role="group" aria-label="Collections">${pills}</div>${deck}
+      <div class="cs-layout ${open ? 'side-open' : ''}">
+        <aside class="cs-side" id="cs-side" aria-label="Filters">
+          <div class="cs-side-h"><span class="label">Filters</span><button type="button" class="cs-side-x" data-csside-x aria-label="Close filters">×</button></div>
+          <label class="cs-f"><span class="label">Show</span><select data-cskind><option value="all" ${csKind === 'all' ? 'selected' : ''}>All</option><option value="written" ${csKind === 'written' ? 'selected' : ''}>Written case studies</option><option value="photos" ${csKind === 'photos' ? 'selected' : ''}>Photo-only projects</option><option value="web" ${csKind === 'web' ? 'selected' : ''}>Found on the web</option></select></label>
+          ${['segment', 'market', 'space', 'install', 'product', 'theme', 'proof', 'origin', 'evidence', 'completeness'].filter((g) => CS.tax.groups[g]).map(groupSel).join('')}
+          ${csColl || nOn ? '<button class="btn cs-clear" data-csclear>Clear all</button>' : ''}
+        </aside>
+        <div class="cs-scrim" data-csside-x aria-hidden="true"></div>
+        <div class="cs-main">
+          <div class="cs-bar"><button type="button" class="btn cs-ftoggle" data-csside aria-controls="cs-side" aria-expanded="${open}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg>Filters${nOn ? ` <span class="tab-n">${nOn}</span>` : ''}</button><span class="muted">${list.length} shown${searchTerm ? ` matching “${esc(searchTerm)}”` : ''}</span></div>
+          <div class="cs-grid">${list.slice(0, 120).map(csTile).join('') || '<div class="empty">Nothing matches. That may be whitespace: <a href="#/cases/whitespace">see the grid</a>.</div>'}</div>${list.length > 120 ? `<p class="muted">Showing 120 of ${list.length}; narrow the filters.</p>` : ''}
+        </div>
+      </div>`;
   }
   function wsCell(seg, mkt) {
     const recs = CS.records.filter((r) => (r.tags.segment || []).includes(seg) && (r.tags.market || []).includes(mkt) && matchQ(r, Object.fromEntries(Object.entries(wsF).filter(([, v]) => v).map(([g, v]) => [g, [v]]))));
@@ -935,6 +977,7 @@
     if (p === 'tool') return { element: `tool:${a}`, label: `Tool ${a}` };
     if (p === 'journey' && a) return { element: `cell:${a}`, label: `Journey cell ${a}` };
     if (p === 'assets' && a) return { element: `asset:${a}`, label: `Backlog ${a}` };
+    if (p === 'cases' && CSR[a]) return { element: `case:${a}`, label: CSR[a].title || a };
     if (p === 'cases') return { element: `cases:${a || 'library'}`, label: `Case studies${a ? ' · ' + a : ''}` };
     return { element: `page:${p || 'home'}`, label: `${(p || 'overview').replace(/^./, (c) => c.toUpperCase())} page` };
   };
@@ -997,7 +1040,7 @@
   document.addEventListener('selectionchange', () => {
     clearTimeout(fbSel); fbSel = setTimeout(() => {
       const s = window.getSelection(); const chip = $('#fb-sel');
-      const txt = s && String(s).trim(); const inProse = s && s.rangeCount && s.anchorNode && s.anchorNode.parentElement?.closest('.prose, .cs-card, .cell-detail, .tbl-wrap');
+      const txt = s && String(s).trim(); const inProse = s && s.rangeCount && s.anchorNode && s.anchorNode.parentElement?.closest('.prose, .cs-card, .cs-detail, .cell-detail, .tbl-wrap');
       if (!txt || txt.length < 3 || !inProse || document.body.classList.contains('ed-editing')) { if (chip) chip.hidden = true; return; }
       const r = s.getRangeAt(0).getBoundingClientRect(); const c = chip || Object.assign(document.createElement('button'), { id: 'fb-sel', type: 'button', className: 'btn primary fb-sel', innerHTML: ic.chat + 'Comment on this' });
       if (!chip) document.body.appendChild(c);
@@ -1411,7 +1454,7 @@
   }
 
   function megaMenus() {
-    const L = $('#mega-library'), P = $('#mega-papers'), M = $('#mega-marketing'); if (!L) return;
+    const L = $('#mega-library'), M = $('#mega-marketing'); if (!L) return;
     const n = (sh) => H.items.filter((i) => shelfOf(i) === sh).length;
     const lk = (href, t, d, k) => `<a class="mg-l" href="${href}"><b>${esc(t)}${k != null ? ` <span>${k}</span>` : ''}</b>${d ? `<small>${esc(d)}</small>` : ''}</a>`;
     L.innerHTML = `<div class="mg-col"><span class="label">Publish on bromic.com</span>
@@ -1424,10 +1467,6 @@
         ${lk('#/library', 'All Assets', 'Everything, by where it goes')}</div>
       <div class="mg-col mg-minor"><span class="label">Working files</span>
         <a href="#/journey">Buyer journey map</a><a href="#/assets">Asset backlog</a><a href="#/sources">Sources</a><a href="#/site">bromic.com audit</a><a href="#/review">Review numbers</a><a href="${libHref({ shelf: 'internal' })}">Behind the scenes</a></div>`;
-    const papers = pdfList(), TR = (HUB.trends && HUB.trends.reports) || [];
-    const VGS = HUB.vguides || [];
-    P.innerHTML = `${VGS.length ? `<div class="mg-trends"><span class="label">Plan Your Outdoor Heat 2027</span><div class="mg-papers">${VGS.map((g) => `<a class="mg-p" href="#/guides"><span class="mg-pic"><img src="${esc(g.dir)}/${esc(g.cover)}" alt="" loading="lazy"></span><span><span class="label">Planning guide</span><b>${esc(g.title.split('·').pop().trim())}</b></span></a>`).join('')}</div></div>` : ''}${TR.length ? `<div class="mg-trends"><span class="label">Outdoor Living Trends 2027</span><div class="mg-papers">${TR.map((r) => `<a class="mg-p" href="#/trends"><span class="mg-pic"><img src="trends-2027/${esc(r.id)}/cover.webp" alt="" loading="lazy"></span><span><span class="label">Trend report · ${esc(r.region)}</span><b>${esc(r.title)}</b></span></a>`).join('')}</div></div><span class="label">White papers</span>` : ''}<div class="mg-papers">${papers.map((it) => `<a class="mg-p" href="#/item/${esc(it.id)}"><span class="mg-pic">${DZ[it.id] && DZ[it.id].thumbHref ? `<img src="${esc(DZ[it.id].thumbHref)}" alt="" loading="lazy">` : img(it.hero)}</span><span><span class="label">${esc(TYPES[it.type] || it.type)}</span><b>${esc(shortTitle(it.title))}</b></span></a>`).join('')}</div>
-      <div class="mg-foot"><a href="#/downloads">All ${papers.length} white papers, as PDFs ${ic.arrow}</a></div>`;
     M.innerHTML = `<div class="mg-col"><span class="label">Product marketing</span>${(H.pm || []).map((x) => lk('#/pm/' + x.id, x.short || x.name, (x.m3 && x.m3.competitors ? 'Against ' + x.m3.competitors.map((c) => c.name.split(/[ (]/)[0]).join(', ') : 'Benefits, claims, matrices and the launch playbook'))).join('')}</div>
       <div class="mg-col"><span class="label">Brand</span>${lk('#/campaigns', 'Campaigns', 'Get Bromic: films, receipts, concept bank, trade and the audit')}${lk('#/retail', 'Retail Hub', 'One-pagers a retailer needs to sell Bromic', (HUB.retail && HUB.retail.pages || []).length || null)}</div>
       <div class="mg-col"><span class="label">Video</span>${lk('decks/video/Tungsten-Series-II-Recess-Airflow-3D.mp4', 'Recess Kit Film', 'Tungsten Series II, 64 s, 16:9')}${lk('decks/video/Tungsten-Series-II-Recess-Airflow-3D-Reels.mp4', 'Recess Kit Reels', '20 s, 9:16')}</div>`;
@@ -1437,17 +1476,33 @@
   document.addEventListener('click', (e) => { if (!e.target.closest('.tabs .mega')) document.querySelectorAll('.tabs .mega[open]').forEach((m) => (m.open = false)); });
   document.addEventListener('toggle', (e) => { const m = e.target; if (m.classList && m.classList.contains('mega') && m.open) document.querySelectorAll('.tabs .mega[open]').forEach((x) => x !== m && (x.open = false)); }, true);
 
+  // Home ▾: the label goes Home; the caret, or hovering on a desktop, opens the library menu (owner, 23 Nov 2026).
+  (() => {
+    const hm = document.querySelector('.tabs .mega-home'); if (!hm) return;
+    hm.querySelector('.mh-link').addEventListener('click', (e) => { e.preventDefault(); e.stopPropagation(); hm.open = false; if (location.hash === '#/home') route(); else location.hash = '#/home'; });
+    const fine = matchMedia('(hover: hover) and (pointer: fine)'); let t = 0;
+    hm.addEventListener('mouseenter', () => { if (!fine.matches) return; clearTimeout(t); hm.open = true; });
+    hm.addEventListener('mouseleave', () => { if (!fine.matches) return; clearTimeout(t); t = setTimeout(() => { hm.open = false; }, 220); });
+  })();
+
   // ---------- router ----------
   function route() {
     const raw = location.hash.replace(/^#\/?/, ''), h = raw.split(/[?#]/)[0], anc = raw.split('#')[1];
     const [p0, a] = h.split('/');
+    // Old white-paper routes land on the one White Papers page.
+    if (['downloads', 'white-papers', 'papers', 'pdfs'].includes(p0)) { location.replace('#/whitepapers'); return; }
     const p = p0 === 'home' ? '' : p0;
-    const tab = { '': 'home', item: (ITEM[decodeURIComponent(a || '')] && ['article', 'kb'].includes(ITEM[decodeURIComponent(a || '')].type)) ? 'knowledge' : 'library', tool: 'library', tools: 'library', blog: 'library', images: 'library', downloads: 'papers', journey: 'library', assets: 'library', sources: 'library', site: 'library', review: 'library', pm: 'marketing', campaigns: 'marketing' }[p] ?? p;
+    // A case study opens over the grid: moving between #/cases and #/cases/<id> only opens or closes the panel.
+    if (p === 'cases' && view.querySelector('.cs-layout') && (!a || CSR[a]) && !raw.includes('?')) { csModal(a ? CSR[a] : null); return; }
+    // The library pages sit under Home ▾ now (owner, 23 Nov 2026), so Home stays lit on them.
+    const tab = { '': 'home', item: (ITEM[decodeURIComponent(a || '')] && ['article', 'kb'].includes(ITEM[decodeURIComponent(a || '')].type)) ? 'knowledge' : (ITEM[decodeURIComponent(a || '')] && hasPdf(ITEM[decodeURIComponent(a || '')]) ? 'papers' : 'home'), library: 'home', tool: 'home', tools: 'home', blog: 'home', images: 'home', whitepapers: 'papers', trends: 'papers', guides: 'papers', journey: 'home', assets: 'home', sources: 'home', site: 'home', review: 'home', pm: 'marketing', campaigns: 'marketing' }[p] ?? p;
     document.querySelectorAll('.tabs a').forEach((x) => x.toggleAttribute('aria-current', false) || (x.dataset.tab === tab && x.setAttribute('aria-current', 'page')));
     document.querySelectorAll('.tabs .mega').forEach((m) => { m.open = false; m.toggleAttribute('data-on', m.dataset.tab === tab); });
     const html = p === '' ? home() : p === 'library' ? library() : p === 'item' ? item(decodeURIComponent(a || '')) : p === 'journey' ? journey(a) : p === 'assets' ? assets(a)
-      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : p === 'cases' ? casesPage(a) : p === 'blog' ? blogPage() : p === 'downloads' ? downloadsPage() : p === 'todo' ? todo() : p === 'pm' ? pmPage(a) : p === 'campaigns' ? campaignsPage(a) : p === 'knowledge' ? knowledgePage(a) : p === 'retail' ? retailPage(a) : p === 'trends' ? trendsPage() : p === 'guides' ? guidesPage() : p === 'approvals' ? approvalsPage() : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
+      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : p === 'cases' ? casesPage(a) : p === 'blog' ? blogPage() : p === 'whitepapers' ? whitepapersPage() : p === 'todo' ? todo() : p === 'pm' ? pmPage(a) : p === 'campaigns' ? campaignsPage(a) : p === 'knowledge' ? knowledgePage(a) : p === 'retail' ? retailPage(a) : p === 'trends' ? trendsPage() : p === 'guides' ? guidesPage() : p === 'approvals' ? approvalsPage() : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
     view.innerHTML = html;
+    document.querySelector('.cs-modal')?.remove(); document.body.classList.remove('cs-locked');
+    if (p === 'cases' && a && CSR[a]) csModal(CSR[a]);
     const it = p === 'item' && ITEM[a];
     document.title = it ? `${it.title} · Bromic Content Hub` : 'Bromic Content Hub';
     if (p === 'journey' && a) setTimeout(() => $('#cell')?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 20);
@@ -1528,6 +1583,10 @@
     const t = e.target.closest('[data-img]'); if (t) lightbox(t.dataset.img);
     const fb = e.target.closest('[data-fb], [data-fbsection], #fb-sel, [data-fbel]');
     if (fb) { e.preventDefault(); e.stopPropagation(); const extra = {}; if (fb.dataset.fbsection) extra.section = fb.dataset.fbsection; if (fb.id === 'fb-sel') { extra.quote = fb.dataset.quote; if (fb.dataset.section) extra.section = fb.dataset.section; fb.hidden = true; } if (fb.dataset.fbel) { extra.element = fb.dataset.fbel; extra.label = fb.dataset.fblabel || fb.dataset.fbel; } fbOpen(extra); return; }
+    const cst = e.target.closest('[data-cstile]'); if (cst && !e.metaKey && !e.ctrlKey && !e.shiftKey) { csFromGrid = true; csLastTile = cst.dataset.cstile; return; }
+    if (e.target.closest('[data-csclose]') || e.target.classList.contains('cs-modal')) { e.preventDefault(); csClose(); return; }
+    if (e.target.closest('[data-csside]')) { csSideSet(!csSide); return; }
+    if (e.target.closest('[data-csside-x]')) { csSideSet(false); return; }
     const cc = e.target.closest('[data-cscoll]'); if (cc) { csColl = csColl === cc.dataset.cscoll ? '' : cc.dataset.cscoll; route.keepScroll = true; view.innerHTML = casesPage(); return; }
     if (e.target.closest('[data-csclear]')) { csF = {}; csColl = ''; csKind = 'all'; view.innerHTML = casesPage(); return; }
     const wc = e.target.closest('[data-ws]'); if (wc) { const [sg, m] = wc.dataset.ws.split('|'); const d = $('#wsdetail'); if (d) { d.innerHTML = wsDetail(sg, m); d.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); } return; }
@@ -1562,6 +1621,7 @@
     route.keepScroll = true; route();
     $('#q').focus();
   });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !document.querySelector('.fb-dialog, .lb, .lightbox')) { if (document.querySelector('.cs-modal')) { csClose(); return; } if (csPhone() && document.querySelector('.cs-layout.side-open')) csSideSet(false); } });
   document.addEventListener('keydown', (e) => { if (e.key === '/' && document.activeElement.tagName !== 'INPUT') { e.preventDefault(); $('#q').focus(); } });
   const root = document.documentElement;
   try { const t = localStorage.getItem('bch-theme'); if (t) root.dataset.theme = t; } catch {}

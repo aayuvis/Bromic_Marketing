@@ -11,16 +11,7 @@
      0,
      0
     ],
-    "short_post": true,
-    "fin": {
-     "col": [
-      0.038,
-      0.036,
-      0.033
-     ],
-     "coat": 0.18,
-     "coat_rough": 0.28
-    }
+    "short_post": true
    }
   ],
   "camera": {
@@ -215,16 +206,7 @@
      0,
      0
     ],
-    "short_post": true,
-    "fin": {
-     "col": [
-      0.038,
-      0.036,
-      0.033
-     ],
-     "coat": 0.18,
-     "coat_rough": 0.28
-    }
+    "short_post": true
    }
   ],
   "camera": {
@@ -306,16 +288,7 @@
      0,
      0
     ],
-    "logo_front": true,
-    "fin": {
-     "col": [
-      0.038,
-      0.036,
-      0.033
-     ],
-     "coat": 0.18,
-     "coat_rough": 0.28
-    }
+    "logo_front": true
    }
   ],
   "camera": {
@@ -354,16 +327,7 @@
      -0.26,
      0
     ],
-    "short_post": true,
-    "fin": {
-     "col": [
-      0.038,
-      0.036,
-      0.033
-     ],
-     "coat": 0.18,
-     "coat_rough": 0.28
-    }
+    "short_post": true
    },
    {
     "glb": "6kW diamond, angled wall mount.glb",
@@ -375,16 +339,7 @@
      0.26,
      0
     ],
-    "short_post": true,
-    "fin": {
-     "col": [
-      0.038,
-      0.036,
-      0.033
-     ],
-     "coat": 0.18,
-     "coat_rough": 0.28
-    }
+    "short_post": true
    }
   ],
   "camera": {
@@ -534,16 +489,7 @@
      0,
      0
     ],
-    "short_post": true,
-    "fin": {
-     "col": [
-      0.038,
-      0.036,
-      0.033
-     ],
-     "coat": 0.18,
-     "coat_rough": 0.28
-    }
+    "short_post": true
    }
   ],
   "camera": {
@@ -620,16 +566,7 @@
      0,
      0
     ],
-    "short_post": true,
-    "fin": {
-     "col": [
-      0.038,
-      0.036,
-      0.033
-     ],
-     "coat": 0.18,
-     "coat_rough": 0.28
-    }
+    "short_post": true
    }
   ],
   "camera": {
@@ -779,16 +716,7 @@
      0,
      0,
      0
-    ],
-    "fin": {
-     "col": [
-      0.038,
-      0.036,
-      0.033
-     ],
-     "coat": 0.18,
-     "coat_rough": 0.28
-    }
+    ]
    }
   ],
   "camera": {
@@ -864,16 +792,7 @@
      -0.5,
      0
     ],
-    "short_post": true,
-    "fin": {
-     "col": [
-      0.038,
-      0.036,
-      0.033
-     ],
-     "coat": 0.18,
-     "coat_rough": 0.28
-    }
+    "short_post": true
    },
    {
     "glb": "6kW diamond, angled wall mount.glb",
@@ -885,16 +804,7 @@
      0,
      0
     ],
-    "short_post": true,
-    "fin": {
-     "col": [
-      0.038,
-      0.036,
-      0.033
-     ],
-     "coat": 0.18,
-     "coat_rough": 0.28
-    }
+    "short_post": true
    },
    {
     "glb": "6kW diamond, angled wall mount.glb",
@@ -906,16 +816,7 @@
      0.5,
      0
     ],
-    "short_post": true,
-    "fin": {
-     "col": [
-      0.038,
-      0.036,
-      0.033
-     ],
-     "coat": 0.18,
-     "coat_rough": 0.28
-    }
+    "short_post": true
    }
   ],
   "camera": {

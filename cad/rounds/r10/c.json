@@ -25,7 +25,8 @@
   "file": "images/review/full/pr-c-white-pair-charcoal-wall-bench.jpg",
   "thumb": "images/review/thumb/pr-c-white-pair-charcoal-wall-bench.webp",
   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-  "status": "pending"
+  "status": "rejected",
+  "note": "owner: heaters look fake (white pair on a dark wall)"
  },
  {
   "id": "pr-c-graphite-wall-limewash-bench",
@@ -38,6 +39,34 @@
   "h": 3392,
   "file": "images/review/full/pr-c-graphite-wall-limewash-bench.jpg",
   "thumb": "images/review/thumb/pr-c-graphite-wall-limewash-bench.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
+ },
+ {
+  "id": "pr-c-graphite-recessed-pair-walnut-terrace-dining",
+  "title": "Two Series II graphite heaters recessed in the low-clearance kit, in line with the walnut ceiling boards and centred over a round dining table on a stone-piered country terrace, overcast daylight",
+  "kind": "CAD render in a setting",
+  "finish": "graphite",
+  "aperture": "f/14",
+  "background": "generated: covered stone terrace with walnut-boarded ceiling, rolling fields beyond (prompted from real photo w-eclipse-pendant-uk-residential-3 for light and materials)",
+  "w": 5056,
+  "h": 3392,
+  "file": "images/review/full/pr-c-graphite-recessed-pair-walnut-terrace-dining.jpg",
+  "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-walnut-terrace-dining.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
+ },
+ {
+  "id": "pr-c-black-recessed-pair-beach-deck-blue-hour",
+  "title": "Two Series II black heaters recessed in the low-clearance kit, in line with the white ceiling boards and centred over a teak lounge group on a covered beach-house deck at blue hour",
+  "kind": "CAD render in a setting",
+  "finish": "black",
+  "aperture": "f/14",
+  "background": "generated: covered coastal deck with white tongue-and-groove ceiling, dunes and sea beyond, relit to blue hour from the same plate (prompted from real photo w-dwellimage4 for light and materials)",
+  "w": 5056,
+  "h": 3392,
+  "file": "images/review/full/pr-c-black-recessed-pair-beach-deck-blue-hour.jpg",
+  "thumb": "images/review/thumb/pr-c-black-recessed-pair-beach-deck-blue-hour.webp",
   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
   "status": "pending"
  }

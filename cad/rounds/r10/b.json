@@ -1,0 +1,58 @@
+[
+ {
+  "id": "pr-b-black-wall-corten-firepit",
+  "title": "Series II Select black on the angled wall bracket, corten-clad wall under a dark timber soffit, fire-pit glow beyond",
+  "kind": "CAD render in a setting",
+  "finish": "black",
+  "aperture": "f/1.4",
+  "background": "generated empty setting: terrace with fire pit (backdrop, defocused); corten cladding and dark timber soffit: generated surface textures",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-b-black-wall-corten-firepit.jpg",
+  "thumb": "images/review/thumb/pr-b-black-wall-corten-firepit.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
+ },
+ {
+  "id": "pr-b-black-wall-corten-lanterns",
+  "title": "Series II Select black on the angled wall bracket, corten-clad wall, lanterns in the garden trees beyond",
+  "kind": "CAD render in a setting",
+  "finish": "black",
+  "aperture": "f/1.4",
+  "background": "generated empty setting: night garden with lanterns (backdrop, defocused); corten cladding and dark timber soffit: generated surface textures",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-b-black-wall-corten-lanterns.jpg",
+  "thumb": "images/review/thumb/pr-b-black-wall-corten-lanterns.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
+ },
+ {
+  "id": "pr-b-black-wall-corten-string-lights",
+  "title": "Series II Select black on the angled wall bracket, corten-clad wall, string lights at blue hour beyond",
+  "kind": "CAD render in a setting",
+  "finish": "black",
+  "aperture": "f/1.4",
+  "background": "generated empty setting: courtyard with festoon lights at blue hour (backdrop, defocused); corten cladding and dark timber soffit: generated surface textures",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-b-black-wall-corten-string-lights.jpg",
+  "thumb": "images/review/thumb/pr-b-black-wall-corten-string-lights.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
+ },
+ {
+  "id": "pr-b-black-wall-corten-garden-dusk",
+  "title": "Series II Select black on the angled wall bracket, corten-clad wall, garden foliage at dusk beyond",
+  "kind": "CAD render in a setting",
+  "finish": "black",
+  "aperture": "f/1.4",
+  "background": "generated empty setting: garden foliage, graded to dusk (backdrop, defocused); corten cladding and dark timber soffit: generated surface textures",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-b-black-wall-corten-garden-dusk.jpg",
+  "thumb": "images/review/thumb/pr-b-black-wall-corten-garden-dusk.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
+ }
+]
