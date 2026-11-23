@@ -2911,7 +2911,8 @@
    "file": "images/review/full/pr-b-3kw-graphite-cedar-soffit-sea-dusk.jpg",
    "thumb": "images/review/thumb/pr-b-3kw-graphite-cedar-soffit-sea-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-3kw-graphite-cedar-soffit-corten-courtyard",
@@ -2925,7 +2926,8 @@
    "file": "images/review/full/pr-b-3kw-graphite-cedar-soffit-corten-courtyard.jpg",
    "thumb": "images/review/thumb/pr-b-3kw-graphite-cedar-soffit-corten-courtyard.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-3kw-graphite-cedar-soffit-reflecting-pool",
@@ -2939,7 +2941,8 @@
    "file": "images/review/full/pr-b-3kw-graphite-cedar-soffit-reflecting-pool.jpg",
    "thumb": "images/review/thumb/pr-b-3kw-graphite-cedar-soffit-reflecting-pool.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-black-render-soffit-lanterns",
