@@ -383,7 +383,8 @@
 
     <section class="fp-sec">
       <div class="fp-h"><span class="fp-k">${esc(STR('Start here'))}</span><h2>${esc(STR('Signature Pieces'))}</h2></div>
-      <div class="grid">${flag.map(card).join('')}</div>
+      <div class="wp-grid sig-grid">${signature()}</div>
+      <p class="fp-note"><a href="#/whitepapers">${esc(STR('All white papers'))} ${ic.arrow}</a></p>
     </section>
 
     <section class="fp-team" aria-labelledby="fp-team-h">
@@ -767,6 +768,24 @@
     const sec = (h, a) => a.length ? `<h2 class="dl-h">${h} <span class="wp-n">${a.length}</span></h2><div class="wp-grid">${a.join('')}</div>` : '';
     return `<div class="wp-head"><span class="label">White papers</span><h1>White Papers</h1><span class="muted">${total} documents, each a finished PDF</span></div>
       ${sec('Outdoor Living Trends 2027', trends)}${sec('Plan Your Outdoor Heat 2027', guides)}${sec('Guides, Kits And Statistics', rest)}`;
+  }
+
+  // Signature Pieces on Home: the 2027 flagship editions as cover tiles (owner, 22 Nov 2026), the same tiles as the White Papers page.
+  function signature() {
+    const TRS = (HUB.trends && HUB.trends.reports) || [], VGL = HUB.vguides || [];
+    const pic = (src, alt) => `<img src="${esc(src)}" alt="${esc(alt)}" loading="lazy">`;
+    const tile = (href, cover, label, title, pdf) => `<article class="wp-tile"><a class="wp-cover" href="${href}">${cover}</a><div class="wp-body"><span class="label">${esc(label)}</span><h3><a href="${href}">${esc(title)}</a></h3><div class="wp-btns">${pdf && !FRAMED ? `<a class="btn primary" href="${esc(pdf)}" download>${ic.down}PDF</a>` : ''}<a class="btn" href="${href}">${ic.arrow}Open</a></div></div></article>`;
+    const out = [];
+    const tr = TRS.find((r) => /north america/i.test(r.region)) || TRS[0];
+    if (tr) out.push(tile('#/trends', pic(`trends-2027/${tr.id}/cover-letter.webp`, 'Cover of ' + tr.title), 'Trend report · ' + tr.region, tr.title + ' · ' + tr.region, `trends-2027/${tr.id}/${tr.file}-Letter.pdf`));
+    const g = VGL.find((x) => /pro/i.test(x.title)) || VGL[0];
+    if (g) out.push(tile('#/guides', pic(`${g.dir}/${g.cover}`, 'Cover of ' + g.title), 'Planning guide', g.title, `${g.dir}/${g.file}.pdf`));
+    for (const id of ['A11', 'A01-stats', 'A01-stats-au', 'A01-stats-eu']) {
+      const it = ITEM[id], z = DZ[id]; if (!it || !z) continue;
+      const sub = it.title.split(/[:—]/).slice(1).join(':').trim();
+      out.push(tile(`#/item/${esc(id)}`, z.thumbHref ? pic(z.thumbHref, 'Cover of ' + it.title) : img(it.hero), TYPES[it.type] || it.type, /stats/.test(id) && sub ? sub : (z.title || shortTitle(it.title)), pdfHref(it)));
+    }
+    return out.join('');
   }
 
   // ---------- blog: the live bromic.com/blog, post by post, and what replaces each ----------

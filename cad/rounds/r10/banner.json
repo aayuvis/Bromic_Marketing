@@ -118,5 +118,41 @@
   "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-beach-deck-golden-hour-system.webp",
   "source": "pr-c-graphite-recessed-pair-beach-deck-golden-hour (unchanged) with the system banner below (decks/build-system-banner.py): the Series II heater and the heater in the low-clearance recess kit, both cut-outs rendered from the CAD in this finish; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); the Bromic logo",
   "status": "pending"
+ },
+ {
+  "id": "pr-c-black-recessed-pair-city-balcony-night-system-a",
+  "title": "System banner option A – dark ink band flowing out of the scene, Didot headline, the system as three numbered steps",
+  "kind": "Scene with system banner (option)",
+  "finish": "black",
+  "w": 3840,
+  "h": 3533,
+  "file": "images/review/full/pr-c-black-recessed-pair-city-balcony-night-system-a.jpg",
+  "thumb": "images/review/thumb/pr-c-black-recessed-pair-city-balcony-night-system-a.webp",
+  "source": "pr-c-black-recessed-pair-city-balcony-night with banner option A (decks/build-system-banner-options.py): Series II heater and the heater in the low-clearance recess kit, cut-outs rendered from the CAD in black; Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png) cut out from its white ground, unchanged; product lines from data/product-facts.json",
+  "status": "pending"
+ },
+ {
+  "id": "pr-c-black-recessed-pair-city-balcony-night-system-b",
+  "title": "System banner option B – warm stone band, magazine layout, Didot line at the left and the products on low plinths",
+  "kind": "Scene with system banner (option)",
+  "finish": "black",
+  "w": 3840,
+  "h": 3482,
+  "file": "images/review/full/pr-c-black-recessed-pair-city-balcony-night-system-b.jpg",
+  "thumb": "images/review/thumb/pr-c-black-recessed-pair-city-balcony-night-system-b.webp",
+  "source": "pr-c-black-recessed-pair-city-balcony-night with banner option B (decks/build-system-banner-options.py): Series II heater and the heater in the low-clearance recess kit, cut-outs rendered from the CAD in black; Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png) cut out from its white ground, unchanged; product lines from data/product-facts.json",
+  "status": "pending"
+ },
+ {
+  "id": "pr-c-black-recessed-pair-city-balcony-night-system-c",
+  "title": "System banner option C – frosted-glass panel over the lower scene, the products in one quiet row with hairline dividers",
+  "kind": "Scene with system banner (option)",
+  "finish": "black",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-c-black-recessed-pair-city-balcony-night-system-c.jpg",
+  "thumb": "images/review/thumb/pr-c-black-recessed-pair-city-balcony-night-system-c.webp",
+  "source": "pr-c-black-recessed-pair-city-balcony-night with banner option C (decks/build-system-banner-options.py): Series II heater and the heater in the low-clearance recess kit, cut-outs rendered from the CAD in black; Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png) cut out from its white ground, unchanged; product lines from data/product-facts.json",
+  "status": "pending"
  }
 ]

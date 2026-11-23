@@ -40,7 +40,7 @@ WORLD = {'wall': (V((1, 0, 0)), V((0, -1, 0)), V((0, 0, 1))),       # wall behin
          'ceiling': (V((1, 0, 0)), V((0, 0, -1)), V((0, -1, 0)))}   # face points down; a proper rotation (det +1), never a mirror
 heads = []
 for k, h in enumerate(SH['heaters']):
-    f = FIN[h['finish']]
+    f = dict(FIN[h['finish']], **h.get('fin', {}))   # optional per-heater finish override
     body = principled(f'powder{k}', f['col'], f['rough'], 0, f['coat'], f['coat_rough'], bump=0.35)
     body.node_tree.nodes['Principled BSDF'].inputs['Specular IOR Level'].default_value = f.get('spec', 0.5)
     logo = principled(f'logo{k}', f['logo'], 0.35); red = principled(f'red{k}', (0.86, 0.054, 0.016), 0.4)   # Bromic flame mark

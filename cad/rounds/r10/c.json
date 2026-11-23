@@ -184,12 +184,13 @@
   "finish": "black",
   "aperture": "f/14",
   "background": "generated: city rooftop terrace with flat concrete canopy at dusk (prompted from real photo w-gensler-project-images-3 for light and materials)",
-  "w": 5056,
-  "h": 3392,
+  "w": 3840,
+  "h": 2560,
   "file": "images/review/full/pr-c-black-recessed-pair-rooftop-lounge-dusk.jpg",
   "thumb": "images/review/thumb/pr-c-black-recessed-pair-rooftop-lounge-dusk.webp",
   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-  "status": "pending"
+  "status": "pending",
+  "redo": "v2: cavity neutral, logo visible, pair further back over the seats"
  },
  {
   "id": "pr-c-graphite-recessed-pair-concrete-desert-dining-night",
@@ -198,12 +199,13 @@
   "finish": "graphite",
   "aperture": "f/14",
   "background": "generated: covered desert terrace with board-formed concrete ceiling at night (prompted from real photo w-dwellimage3 for light and materials); one unlit ceiling downlight over the table retouched out",
-  "w": 5056,
-  "h": 3392,
+  "w": 3840,
+  "h": 2560,
   "file": "images/review/full/pr-c-graphite-recessed-pair-concrete-desert-dining-night.jpg",
   "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-concrete-desert-dining-night.webp",
   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-  "status": "pending"
+  "status": "pending",
+  "redo": "v2: cavity neutral, logo visible, pair further back over the seats"
  },
  {
   "id": "pr-c-white-recessed-pair-oak-pavilion-lounge-dusk",

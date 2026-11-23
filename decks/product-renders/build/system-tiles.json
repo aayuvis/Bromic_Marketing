@@ -95,7 +95,15 @@
      0,
      0
     ],
-    "bare": true
+    "bare": true,
+    "fin": {
+     "col": [
+      0.02,
+      0.019,
+      0.0175
+     ],
+     "coat": 0.2
+    }
    }
   ],
   "camera": {
@@ -134,7 +142,15 @@
     "glb": "6kW heater and recess kit.glb",
     "finish": "graphite",
     "mount": "recess",
-    "glow": 16
+    "glow": 16,
+    "fin": {
+     "col": [
+      0.02,
+      0.019,
+      0.0175
+     ],
+     "coat": 0.2
+    }
    }
   ],
   "camera": {
