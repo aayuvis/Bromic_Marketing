@@ -115,7 +115,8 @@
   "thumb": "images/review/thumb/pr-c-black-recessed-pair-city-balcony-night.webp",
   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
   "status": "pending",
-  "note": "redo 22 Nov (owner): side by side and parallel, 1.75 m apart, deeper over the seating, dark neutral kit cavity, framed closer"
+  "note": "redo 22 Nov (owner): side by side and parallel, 1.75 m apart, deeper over the seating, dark neutral kit cavity, framed closer",
+  "redo": "v4: logo visible"
  },
  {
   "id": "pr-c-graphite-recessed-pair-rooftop-lounge-night",
@@ -130,7 +131,8 @@
   "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-rooftop-lounge-night.webp",
   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
   "status": "pending",
-  "note": "redo 22 Nov (owner): side by side and parallel, 1.75 m apart, deeper over the seating, dark neutral kit cavity, framed closer"
+  "note": "redo 22 Nov (owner): side by side and parallel, 1.75 m apart, deeper over the seating, dark neutral kit cavity, framed closer",
+  "redo": "v4: logo visible"
  },
  {
   "id": "pr-c-black-recessed-pair-pool-cabana-dusk",
@@ -220,7 +222,7 @@
   "thumb": "images/review/thumb/pr-c-white-recessed-pair-oak-pavilion-lounge-dusk.webp",
   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
   "status": "pending",
-  "redo": "v3: logo upright"
+  "redo": "v4: logo visible"
  },
  {
   "id": "pr-c-white-recessed-pair-desert-kitchen-bar-sunset",
@@ -235,7 +237,7 @@
   "thumb": "images/review/thumb/pr-c-white-recessed-pair-desert-kitchen-bar-sunset.webp",
   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
   "status": "pending",
-  "redo": "v2: cavity neutral, logo visible, pair further back over the seats"
+  "redo": "v4: logo visible"
  },
  {
   "id": "pr-c-graphite-recessed-pair-cedar-garden-dining-dusk",
@@ -288,13 +290,13 @@
   "kind": "CAD render in a setting",
   "finish": "white",
   "aperture": "f/14",
-  "background": "generated: plaster-ceilinged loggia with stone piers by a pine forest (spare plate q3a from the r10 f/14 set, prompted from a real Bromic library photo for light and materials)",
+  "background": "generated: plaster-ceilinged loggia with stone piers by a pine forest (spare plate q3a from the r10 f/14 set, prompted from a real Bromic library photo for light and materials); ceiling colour cast neutralised in the plate (pink removed, warm-white plaster)",
   "w": 3840,
   "h": 2560,
   "file": "images/review/full/pr-c-white-recessed-pair-forest-loggia-lounge-evening.jpg",
   "thumb": "images/review/thumb/pr-c-white-recessed-pair-forest-loggia-lounge-evening.webp",
   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
   "status": "pending",
-  "redo": "v2: cavity neutral, logo visible, pair further back over the seats"
+  "redo": "v4: logo visible; ceiling cast neutralised (pink removed, warm-white plaster)"
  }
 ]

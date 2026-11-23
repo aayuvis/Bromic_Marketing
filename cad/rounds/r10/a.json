@@ -454,5 +454,29 @@
   "thumb": "images/review/thumb/pr-a-white-wall-from-below-grey.webp",
   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
   "status": "pending"
+ },
+ {
+  "id": "pr-a-white-trio-row-warm-grey",
+  "title": "Series II 6 kW, three white heaters in a parallel row on ceiling posts, logo ends nearest, elements glowing, on a warm-grey sweep",
+  "kind": "CAD studio render",
+  "finish": "white",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-a-white-trio-row-warm-grey.jpg",
+  "thumb": "images/review/thumb/pr-a-white-trio-row-warm-grey.webp",
+  "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+  "status": "pending"
+ },
+ {
+  "id": "pr-a-white-trio-row-grey",
+  "title": "Series II 6 kW, three white heaters in a parallel row on ceiling posts, logo ends nearest, elements glowing, on a deeper grey sweep",
+  "kind": "CAD studio render",
+  "finish": "white",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-a-white-trio-row-grey.jpg",
+  "thumb": "images/review/thumb/pr-a-white-trio-row-grey.webp",
+  "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+  "status": "pending"
  }
 ]

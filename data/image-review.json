@@ -2329,7 +2329,8 @@
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "pending",
    "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
-   "redo": "Redone for your notes: dark neutral cavity (no streak), pair side by side and parallel, 1.75–2.0 m apart, over the seats, cropped in."
+   "redo": "v4: logo visible",
+   "review_note": "Pair brought closer (5 m): about 1.3 m in front of the table."
   },
   {
    "id": "pr-c-graphite-recessed-pair-rooftop-lounge-night",
@@ -2345,8 +2346,8 @@
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "pending",
    "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
-   "redo": "Redone for your notes: dark neutral cavity (no streak), pair side by side and parallel, 1.75–2.0 m apart, over the seats, cropped in.",
-   "review_note": "Far scene: the pair spans about 30% of the frame; the logo is too small to read at full frame."
+   "redo": "v4: logo visible",
+   "review_note": "Pair brought closer (5 m): now over the front armchairs rather than the group centre."
   },
   {
    "id": "pr-c-black-recessed-pair-pool-cabana-dusk",
@@ -2447,13 +2448,10 @@
    "file": "images/review/full/pr-c-white-recessed-pair-oak-pavilion-lounge-dusk.jpg",
    "thumb": "images/review/thumb/pr-c-white-recessed-pair-oak-pavilion-lounge-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "rejected",
-   "redo": "v3: logo upright",
-   "previous_note": "what is the color streak between the rc kit and heaters. (it should be gray. ....the logo is not visible...the heaters should be further away..",
-   "decided": "2026-11-22",
-   "decided_by": "owner",
-   "learned": true,
-   "note": "logo on heaters?"
+   "status": "pending",
+   "redo": "v4: logo visible",
+   "previous_note": "logo on heaters?",
+   "review_note": "Logo upright but small at 100%: the frame allows no closer pair without turning it across the boards."
   },
   {
    "id": "pr-d-recess-white-beadboard-logo-f1-4",
@@ -2596,13 +2594,9 @@
    "file": "images/review/full/pr-c-white-recessed-pair-desert-kitchen-bar-sunset.jpg",
    "thumb": "images/review/thumb/pr-c-white-recessed-pair-desert-kitchen-bar-sunset.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "rejected",
-   "redo": "v2: cavity neutral, logo visible, pair further back over the seats",
-   "previous_note": "what is the color streak between the rc kit and heaters. it should be gray.",
-   "decided": "2026-11-22",
-   "decided_by": "owner",
-   "learned": true,
-   "note": "logo?"
+   "status": "pending",
+   "redo": "v4: logo visible",
+   "previous_note": "logo?"
   },
   {
    "id": "pr-c-graphite-recessed-pair-cedar-garden-dining-dusk",
@@ -2716,12 +2710,9 @@
    "file": "images/review/full/pr-c-white-recessed-pair-forest-loggia-lounge-evening.jpg",
    "thumb": "images/review/thumb/pr-c-white-recessed-pair-forest-loggia-lounge-evening.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "rejected",
-   "redo": "v2: cavity neutral, logo visible, pair further back over the seats",
-   "decided": "2026-11-22",
-   "decided_by": "owner",
-   "learned": true,
-   "note": "wht is the ceiling pink? also no logo on heaters"
+   "status": "pending",
+   "redo": "v4: logo visible; ceiling cast neutralised (pink removed, warm-white plaster)",
+   "previous_note": "wht is the ceiling pink? also no logo on heaters"
   },
   {
    "id": "pr-d-cedar-dining-white-recessed-pair",
@@ -2736,13 +2727,10 @@
    "h": 2560,
    "file": "images/review/full/pr-d-cedar-dining-white-recessed-pair.jpg",
    "thumb": "images/review/thumb/pr-d-cedar-dining-white-recessed-pair.webp",
-   "status": "rejected",
-   "redo": "v3: logo upright",
-   "previous_note": "replaces pr-bg-white-ceiling-cedar-dining-f14 (owner: mounting looked unreal); attempt 3 after pr-d-cedar-dining-graphite-recessed-f14",
-   "decided": "2026-11-22",
-   "decided_by": "owner",
-   "learned": true,
-   "note": "logo on heaters...banner"
+   "status": "pending",
+   "redo": "v4: logo visible",
+   "previous_note": "logo on heaters...banner",
+   "review_note": "Logo upright but small at 100%; the pair now sits over the near chairs to get closer."
   },
   {
    "id": "pr-d-recess-black-timber-logo-f1-4",
@@ -2757,11 +2745,9 @@
    "h": 2560,
    "file": "images/review/full/pr-d-recess-black-timber-logo-f1-4.jpg",
    "thumb": "images/review/thumb/pr-d-recess-black-timber-logo-f1-4.webp",
-   "status": "rejected",
-   "decided": "2026-11-22",
-   "decided_by": "owner",
-   "learned": true,
-   "note": "there is wierd dent  curve on the right corner edge of the heater"
+   "status": "pending",
+   "redo": "owner rejected the first render: 'weird dent curve on the right corner edge of the heater'. Cause: the heater had been lifted 25 mm into the kit, which exposed the curved flank of the cover's end at the right corner against the cavity. Fixed by seating it at the kit's native depth (no lift).",
+   "previous_note": "there is wierd dent  curve on the right corner edge of the heater"
   },
   {
    "id": "pr-d-recess-black-dark-timber-logo-f1-4",
@@ -2776,11 +2762,9 @@
    "h": 2560,
    "file": "images/review/full/pr-d-recess-black-dark-timber-logo-f1-4.jpg",
    "thumb": "images/review/thumb/pr-d-recess-black-dark-timber-logo-f1-4.webp",
-   "status": "rejected",
-   "decided": "2026-11-22",
-   "decided_by": "owner",
-   "learned": true,
-   "note": "there is wierd dent  curve on the right corner edge of the heater"
+   "status": "pending",
+   "redo": "owner rejected the first render: 'weird dent curve on the right corner edge of the heater'. Cause: the heater had been lifted 25 mm into the kit, which exposed the curved flank of the cover's end at the right corner against the cavity. Fixed by seating it at the kit's native depth (no lift).",
+   "previous_note": "there is wierd dent  curve on the right corner edge of the heater"
   },
   {
    "id": "pr-d-recess-graphite-aluminium-logo-f1-4",
@@ -3414,6 +3398,30 @@
    "h": 2560,
    "file": "images/review/full/pr-a-white-wall-from-below-grey.jpg",
    "thumb": "images/review/thumb/pr-a-white-wall-from-below-grey.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+   "status": "pending"
+  },
+  {
+   "id": "pr-a-white-trio-row-warm-grey",
+   "title": "Series II 6 kW, three white heaters in a parallel row on ceiling posts, logo ends nearest, elements glowing, on a warm-grey sweep",
+   "kind": "CAD studio render",
+   "finish": "white",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-a-white-trio-row-warm-grey.jpg",
+   "thumb": "images/review/thumb/pr-a-white-trio-row-warm-grey.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+   "status": "pending"
+  },
+  {
+   "id": "pr-a-white-trio-row-grey",
+   "title": "Series II 6 kW, three white heaters in a parallel row on ceiling posts, logo ends nearest, elements glowing, on a deeper grey sweep",
+   "kind": "CAD studio render",
+   "finish": "white",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-a-white-trio-row-grey.jpg",
+   "thumb": "images/review/thumb/pr-a-white-trio-row-grey.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
    "status": "pending"
   }
