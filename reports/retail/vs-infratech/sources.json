@@ -1,0 +1,1057 @@
+{
+ "_readme": "Internal: the source of every fact on Bromic-Vs-Infratech.pdf, page by page, for the Specification and compliance review. Not printed and not published. Built by build.js.",
+ "needs_approval": "Specification and compliance",
+ "built": "2026-11-23",
+ "facts": [
+  {
+   "page": 1,
+   "fact": "Warranty: 3 + 7 years: heater + elements. Bromic: Three years on the heater and seven on the elements, across Select, Coastal and Classic. Infratech: A 3-year limited warranty; a fourth year through Elite Retailers and the Installer Program.",
+   "src": [
+    {
+     "id": "pf",
+     "publisher": "Bromic Heating",
+     "title": "data/product-facts.json, Tungsten Series II: warranty \"3 years heater, 7 years elements\" (owner, 22 Nov 2026)",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "s4",
+     "publisher": "Bromic Heating",
+     "title": "Warranty",
+     "year": 2026,
+     "url": "https://www.bromic.com/warranty/"
+    },
+    {
+     "id": "i9",
+     "publisher": "Infratech",
+     "title": "Limited warranty",
+     "year": 2026,
+     "url": "https://www.infratech.com/wp-content/uploads/2026/09/infratech-warranty.pdf"
+    },
+    {
+     "id": "i17",
+     "publisher": "Infratech",
+     "title": "Warranty (2024 terms: replacement parts only, labour excluded); dealers and installers pages",
+     "year": 2024,
+     "url": "https://www.infratech.com/dealers/"
+    }
+   ]
+  },
+  {
+   "page": 1,
+   "fact": "Recessed, dual fan-ventilated: 6 kW recessed, two fans in the kit. Bromic: 6,000 W into a 7.5 in ceiling cavity (to confirm). The low-clearance kit is dual fan-ventilated and the recess box comes with it. Infratech: Flush frames sit in a framed 2×8 pocket lined on five sides with Type X drywall; no fans are shown.",
+   "src": [
+    {
+     "id": "b2",
+     "publisher": "Bromic Heating",
+     "title": "LC Ceiling Recess Kit for the Tungsten Smart-Heat Electric Series II, instructions (2025, dealer-hosted)",
+     "year": 2025,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Select-Coastal-LC-Recess-Kit-Instructions.pdf"
+    },
+    {
+     "id": "s5",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric recess kit",
+     "year": 2026,
+     "url": "https://www.bromic.com/product/tungsten-electric-recess-kit/"
+    },
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "i12",
+     "publisher": "Infratech",
+     "title": "W-33/W-39/W-61 flush mount frame drawing (Dec 2019, dealer-hosted): flat non-sloped ceilings only; 15-minute cool-down recommended after 4 hours of continuous use",
+     "year": 2019,
+     "url": "https://cdn.shopify.com/s/files/1/0262/9232/2407/files/Flush_Mount_Frame_Specs.pdf"
+    },
+    {
+     "id": "i13",
+     "publisher": "Infratech",
+     "title": "W/WD Series installation manual (2015, dealer-hosted): flush frames for 33, 39 and 61¼ in heaters",
+     "year": 2015,
+     "url": "https://cdn.shopify.com/s/files/1/0489/1541/5207/files/W-WD-Series-Installation-Manual-2015.pdf"
+    }
+   ]
+  },
+  {
+   "page": 1,
+   "fact": "Pitched ceilings and tilt: 3/12–12/12 pitched-ceiling range. Bromic: Mounts to a pitched ceiling with its adaptor, and to a wall, extended wall or single post; tilts up to 45° (4 and 6 kW: to confirm). Infratech: Its flush frame \"is ONLY to be used on a flat non-sloped ceiling\".",
+   "src": [
+    {
+     "id": "b1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Smart-Heat Electric Select & Coastal Models, installation manual (2026, dealer-hosted)",
+     "year": 2026,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Electric-Select-Coastal-Manual.pdf"
+    },
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "i12",
+     "publisher": "Infratech",
+     "title": "W-33/W-39/W-61 flush mount frame drawing (Dec 2019, dealer-hosted): flat non-sloped ceilings only; 15-minute cool-down recommended after 4 hours of continuous use",
+     "year": 2019,
+     "url": "https://cdn.shopify.com/s/files/1/0262/9232/2407/files/Flush_Mount_Frame_Specs.pdf"
+    },
+    {
+     "id": "i6",
+     "publisher": "Infratech",
+     "title": "Mounting options",
+     "year": 2026,
+     "url": "https://www.infratech.com/mounting-options/"
+    }
+   ]
+  },
+  {
+   "page": 1,
+   "fact": "One finish, front included: 3 finishes, the front in the same one. Bromic: All black, all white or all graphite, front included; three front patterns swap without re-wiring. Infratech: Eight powder-coat colours plus custom on the housing; the reflector face and wire guard stay stainless.",
+   "src": [
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "s1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Smart-Heat Electric product page",
+     "year": 2026,
+     "url": "https://www.bromic.com/product/tungsten-smart-heat-electric/"
+    },
+    {
+     "id": "i2",
+     "publisher": "Infratech",
+     "title": "C/CD, W/WD, SL and Motif series pages",
+     "year": 2026,
+     "url": "https://www.infratech.com/heaters/cd-series/"
+    },
+    {
+     "id": "i14",
+     "publisher": "Infratech",
+     "title": "C/CD Series colour options (colour images: colour on end caps, stainless reflector and wire guard in every finish); product range menu",
+     "year": 2026,
+     "url": "https://www.infratech.com/heaters/cd-series/"
+    }
+   ]
+  },
+  {
+   "page": 1,
+   "fact": "Smart controls and app: 1% dimming steps in the Bromic app. Bromic: Affinity Smart-Heat® Controls: zones, schedules, timers, remote off, Alexa and Google Assistant. Wi-Fi and app features need compatible Affinity controls, sold separately. Infratech: App control through Bond: a Smart Dimmer with its control panel, or a Smart Switch for on/off with a 2-hour timer.",
+   "src": [
+    {
+     "id": "b3",
+     "publisher": "Bromic Heating",
+     "title": "Affinity Smart-Heat control system brochure 2026",
+     "year": 2026,
+     "url": "https://pim.bromic.com/wp-content/uploads/2026/08/Bromic-affinity-smart-heat-control-system-2026.pdf"
+    },
+    {
+     "id": "b4",
+     "publisher": "Bromic Heating",
+     "title": "Affinity Smart-Heat app",
+     "year": 2026,
+     "url": "https://www.bromic.com/affinity-smart-heat-app/"
+    },
+    {
+     "id": "i7",
+     "publisher": "Infratech",
+     "title": "Controls",
+     "year": 2026,
+     "url": "https://www.infratech.com/controls/"
+    },
+    {
+     "id": "i16",
+     "publisher": "Infratech",
+     "title": "Smart Switch and Smart Dimmer sell sheet (Bond), Enhanced Timer Package",
+     "year": 2025,
+     "url": "https://www.infratech.com/controls/enhanced-timer-package/"
+    }
+   ]
+  },
+  {
+   "page": 1,
+   "fact": "Built for the coast: IPX5 weather rating. Bromic: Tungsten Coastal adds a corrosion-resistant coating over a marine-grade build as standard (316 per the Lookbook: to confirm). Infratech: IPX4; 316 stainless is a Marine UpGrade at extra cost.",
+   "src": [
+    {
+     "id": "b1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Smart-Heat Electric Select & Coastal Models, installation manual (2026, dealer-hosted)",
+     "year": 2026,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Electric-Select-Coastal-Manual.pdf"
+    },
+    {
+     "id": "p11",
+     "publisher": "Bromic Heating",
+     "title": "Outdoor Lookbook 2026, p.15–21 (Platinum collection)",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "i3",
+     "publisher": "Infratech",
+     "title": "FAQs (voltages, IPX4, element life, dimming)",
+     "year": 2026,
+     "url": "https://www.infratech.com/resources/faqs/"
+    },
+    {
+     "id": "i18",
+     "publisher": "Infratech",
+     "title": "Marine UpGrade (316 stainless, additional cost)",
+     "year": 2026,
+     "url": "https://www.infratech.com/marine-upgrade/"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Recess · Recessed output · Bromic: 6,000 W · Infratech: 6,000 W (W/WD) · edge parity",
+   "src": [
+    {
+     "id": "b2",
+     "publisher": "Bromic Heating",
+     "title": "LC Ceiling Recess Kit for the Tungsten Smart-Heat Electric Series II, instructions (2025, dealer-hosted)",
+     "year": 2025,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Select-Coastal-LC-Recess-Kit-Instructions.pdf"
+    },
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "i13",
+     "publisher": "Infratech",
+     "title": "W/WD Series installation manual (2015, dealer-hosted): flush frames for 33, 39 and 61¼ in heaters",
+     "year": 2015,
+     "url": "https://cdn.shopify.com/s/files/1/0489/1541/5207/files/W-WD-Series-Installation-Manual-2015.pdf"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Recess · Fans in the recess kit · Bromic: Two, dual fan-ventilated · Infratech: None shown · edge bromic",
+   "src": [
+    {
+     "id": "b2",
+     "publisher": "Bromic Heating",
+     "title": "LC Ceiling Recess Kit for the Tungsten Smart-Heat Electric Series II, instructions (2025, dealer-hosted)",
+     "year": 2025,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Select-Coastal-LC-Recess-Kit-Instructions.pdf"
+    },
+    {
+     "id": "i12",
+     "publisher": "Infratech",
+     "title": "W-33/W-39/W-61 flush mount frame drawing (Dec 2019, dealer-hosted): flat non-sloped ceilings only; 15-minute cool-down recommended after 4 hours of continuous use",
+     "year": 2019,
+     "url": "https://cdn.shopify.com/s/files/1/0262/9232/2407/files/Flush_Mount_Frame_Specs.pdf"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Recess · Recess enclosure · Bromic: Recess box supplied with the kit · Infratech: Framed 2×8 pocket, lined on five sides · edge bromic",
+   "src": [
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "b2",
+     "publisher": "Bromic Heating",
+     "title": "LC Ceiling Recess Kit for the Tungsten Smart-Heat Electric Series II, instructions (2025, dealer-hosted)",
+     "year": 2025,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Select-Coastal-LC-Recess-Kit-Instructions.pdf"
+    },
+    {
+     "id": "i12",
+     "publisher": "Infratech",
+     "title": "W-33/W-39/W-61 flush mount frame drawing (Dec 2019, dealer-hosted): flat non-sloped ceilings only; 15-minute cool-down recommended after 4 hours of continuous use",
+     "year": 2019,
+     "url": "https://cdn.shopify.com/s/files/1/0262/9232/2407/files/Flush_Mount_Frame_Specs.pdf"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Mounting · Pitched ceilings · Bromic: 3/12 to 12/12, with adaptor · Infratech: Flush frame: flat ceilings only · edge bromic",
+   "src": [
+    {
+     "id": "b1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Smart-Heat Electric Select & Coastal Models, installation manual (2026, dealer-hosted)",
+     "year": 2026,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Electric-Select-Coastal-Manual.pdf"
+    },
+    {
+     "id": "i12",
+     "publisher": "Infratech",
+     "title": "W-33/W-39/W-61 flush mount frame drawing (Dec 2019, dealer-hosted): flat non-sloped ceilings only; 15-minute cool-down recommended after 4 hours of continuous use",
+     "year": 2019,
+     "url": "https://cdn.shopify.com/s/files/1/0262/9232/2407/files/Flush_Mount_Frame_Specs.pdf"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Mounting · Suspended · Bromic: One post · Infratech: A pair of drop rods a heater · edge bromic",
+   "src": [
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "i15",
+     "publisher": "Infratech",
+     "title": "Pole mount drawing (06-01-2026) and drop pole one-pager",
+     "year": 2026,
+     "url": "https://www.infratech.com/mounting-options/"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Look · Front in the heater's finish · Bromic: Black, white or graphite · Infratech: Reflector and guard stay stainless · edge bromic",
+   "src": [
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "i14",
+     "publisher": "Infratech",
+     "title": "C/CD Series colour options (colour images: colour on end caps, stainless reflector and wire guard in every finish); product range menu",
+     "year": 2026,
+     "url": "https://www.infratech.com/heaters/cd-series/"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Look · Housing colours · Bromic: 3 · Infratech: 8 plus custom, or brushed stainless · edge infratech",
+   "src": [
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "i2",
+     "publisher": "Infratech",
+     "title": "C/CD, W/WD, SL and Motif series pages",
+     "year": 2026,
+     "url": "https://www.infratech.com/heaters/cd-series/"
+    },
+    {
+     "id": "i14",
+     "publisher": "Infratech",
+     "title": "C/CD Series colour options (colour images: colour on end caps, stainless reflector and wire guard in every finish); product range menu",
+     "year": 2026,
+     "url": "https://www.infratech.com/heaters/cd-series/"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Look · Interchangeable fronts · Bromic: 3 patterns, no re-wiring · Infratech: Motif covers, surface-mount C/CD only · edge bromic",
+   "src": [
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "i2",
+     "publisher": "Infratech",
+     "title": "C/CD, W/WD, SL and Motif series pages",
+     "year": 2026,
+     "url": "https://www.infratech.com/heaters/cd-series/"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Look · Junction box · Bromic: None visible · Infratech: On top of the heater · edge bromic",
+   "src": [
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "b1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Smart-Heat Electric Select & Coastal Models, installation manual (2026, dealer-hosted)",
+     "year": 2026,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Electric-Select-Coastal-Manual.pdf"
+    },
+    {
+     "id": "i2",
+     "publisher": "Infratech",
+     "title": "C/CD, W/WD, SL and Motif series pages",
+     "year": 2026,
+     "url": "https://www.infratech.com/heaters/cd-series/"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Weather · Water rating · Bromic: IPX5 · Infratech: IPX4 · edge bromic",
+   "src": [
+    {
+     "id": "b1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Smart-Heat Electric Select & Coastal Models, installation manual (2026, dealer-hosted)",
+     "year": 2026,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Electric-Select-Coastal-Manual.pdf"
+    },
+    {
+     "id": "i3",
+     "publisher": "Infratech",
+     "title": "FAQs (voltages, IPX4, element life, dimming)",
+     "year": 2026,
+     "url": "https://www.infratech.com/resources/faqs/"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Weather · Coastal protection · Bromic: Coating as standard on Coastal · Infratech: 316 stainless at extra cost · edge bromic",
+   "src": [
+    {
+     "id": "p11",
+     "publisher": "Bromic Heating",
+     "title": "Outdoor Lookbook 2026, p.15–21 (Platinum collection)",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "b1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Smart-Heat Electric Select & Coastal Models, installation manual (2026, dealer-hosted)",
+     "year": 2026,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Electric-Select-Coastal-Manual.pdf"
+    },
+    {
+     "id": "i18",
+     "publisher": "Infratech",
+     "title": "Marine UpGrade (316 stainless, additional cost)",
+     "year": 2026,
+     "url": "https://www.infratech.com/marine-upgrade/"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Controls · Dimming · Bromic: 1% steps, Affinity · Infratech: Bond Smart Dimmer · edge parity",
+   "src": [
+    {
+     "id": "b3",
+     "publisher": "Bromic Heating",
+     "title": "Affinity Smart-Heat control system brochure 2026",
+     "year": 2026,
+     "url": "https://pim.bromic.com/wp-content/uploads/2026/08/Bromic-affinity-smart-heat-control-system-2026.pdf"
+    },
+    {
+     "id": "i7",
+     "publisher": "Infratech",
+     "title": "Controls",
+     "year": 2026,
+     "url": "https://www.infratech.com/controls/"
+    },
+    {
+     "id": "i16",
+     "publisher": "Infratech",
+     "title": "Smart Switch and Smart Dimmer sell sheet (Bond), Enhanced Timer Package",
+     "year": 2025,
+     "url": "https://www.infratech.com/controls/enhanced-timer-package/"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Controls · Controls and app · Bromic: Bromic's own: Affinity and the Bromic app · Infratech: Through Bond · edge bromic",
+   "src": [
+    {
+     "id": "b3",
+     "publisher": "Bromic Heating",
+     "title": "Affinity Smart-Heat control system brochure 2026",
+     "year": 2026,
+     "url": "https://pim.bromic.com/wp-content/uploads/2026/08/Bromic-affinity-smart-heat-control-system-2026.pdf"
+    },
+    {
+     "id": "b4",
+     "publisher": "Bromic Heating",
+     "title": "Affinity Smart-Heat app",
+     "year": 2026,
+     "url": "https://www.bromic.com/affinity-smart-heat-app/"
+    },
+    {
+     "id": "i7",
+     "publisher": "Infratech",
+     "title": "Controls",
+     "year": 2026,
+     "url": "https://www.infratech.com/controls/"
+    },
+    {
+     "id": "i16",
+     "publisher": "Infratech",
+     "title": "Smart Switch and Smart Dimmer sell sheet (Bond), Enhanced Timer Package",
+     "year": 2025,
+     "url": "https://www.infratech.com/controls/enhanced-timer-package/"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Controls · Voice and home systems · Bromic: Alexa, Google; Control4, Crestron, Lutron · Infratech: Lutron and Crestron · edge bromic",
+   "src": [
+    {
+     "id": "b3",
+     "publisher": "Bromic Heating",
+     "title": "Affinity Smart-Heat control system brochure 2026",
+     "year": 2026,
+     "url": "https://pim.bromic.com/wp-content/uploads/2026/08/Bromic-affinity-smart-heat-control-system-2026.pdf"
+    },
+    {
+     "id": "i7",
+     "publisher": "Infratech",
+     "title": "Controls",
+     "year": 2026,
+     "url": "https://www.infratech.com/controls/"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Heat · Output · Bromic: 2 to 6 kW · Infratech: 1.5 to 6 kW · edge parity",
+   "src": [
+    {
+     "id": "b1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Smart-Heat Electric Select & Coastal Models, installation manual (2026, dealer-hosted)",
+     "year": 2026,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Electric-Select-Coastal-Manual.pdf"
+    },
+    {
+     "id": "i3",
+     "publisher": "Infratech",
+     "title": "FAQs (voltages, IPX4, element life, dimming)",
+     "year": 2026,
+     "url": "https://www.infratech.com/resources/faqs/"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Heat · Supply voltage · Bromic: 208, 240 and 277 V · Infratech: 120 to 480 V · edge infratech",
+   "src": [
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "i3",
+     "publisher": "Infratech",
+     "title": "FAQs (voltages, IPX4, element life, dimming)",
+     "year": 2026,
+     "url": "https://www.infratech.com/resources/faqs/"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Heat · Coverage, 6 kW · Bromic: Up to 160 ft² · Infratech: About 121 ft² at 8–12 ft · edge parity",
+   "src": [
+    {
+     "id": "b1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Smart-Heat Electric Select & Coastal Models, installation manual (2026, dealer-hosted)",
+     "year": 2026,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Electric-Select-Coastal-Manual.pdf"
+    },
+    {
+     "id": "i19",
+     "publisher": "Infratech",
+     "title": "C/CD coverage chart (2025)",
+     "year": 2025,
+     "url": "https://www.infratech.com/wp-content/uploads/2026/09/C-CD_coveragechart_2025.webp"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Warranty · Warranty, years · Bromic: Heater 3Elements 7 · Infratech: 3, limited+1 through Elite Retailers and installers · edge bromic",
+   "src": [
+    {
+     "id": "pf",
+     "publisher": "Bromic Heating",
+     "title": "data/product-facts.json, Tungsten Series II: warranty \"3 years heater, 7 years elements\" (owner, 22 Nov 2026)",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "s4",
+     "publisher": "Bromic Heating",
+     "title": "Warranty",
+     "year": 2026,
+     "url": "https://www.bromic.com/warranty/"
+    },
+    {
+     "id": "i9",
+     "publisher": "Infratech",
+     "title": "Limited warranty",
+     "year": 2026,
+     "url": "https://www.infratech.com/wp-content/uploads/2026/09/infratech-warranty.pdf"
+    },
+    {
+     "id": "i17",
+     "publisher": "Infratech",
+     "title": "Warranty (2024 terms: replacement parts only, labour excluded); dealers and installers pages",
+     "year": 2024,
+     "url": "https://www.infratech.com/dealers/"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Range · Gas and freestanding · Bromic: In the same portfolio · Infratech: Fixed electric only · edge bromic",
+   "src": [
+    {
+     "id": "s1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Smart-Heat Electric product page",
+     "year": 2026,
+     "url": "https://www.bromic.com/product/tungsten-smart-heat-electric/"
+    },
+    {
+     "id": "p11",
+     "publisher": "Bromic Heating",
+     "title": "Outdoor Lookbook 2026, p.15–21 (Platinum collection)",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "i2",
+     "publisher": "Infratech",
+     "title": "C/CD, W/WD, SL and Motif series pages",
+     "year": 2026,
+     "url": "https://www.infratech.com/heaters/cd-series/"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Range · Design support · Bromic: Free custom design plans; Revit, CAD · Infratech: Design guides, CAD details, CE credits · edge parity",
+   "src": [
+    {
+     "id": "lp",
+     "publisher": "Bromic Heating",
+     "title": "Bromic Partner Program (builders and trade) page, read 29 Oct 2026",
+     "year": 2026,
+     "url": "https://www.bromic.com/lp-builders/"
+    },
+    {
+     "id": "p10",
+     "publisher": "Bromic Heating",
+     "title": "Revit BIM and CAD files",
+     "year": 2026,
+     "url": "https://www.bromic.com/access-bim-files/"
+    },
+    {
+     "id": "i10",
+     "publisher": "Infratech",
+     "title": "Dealers and trade programs",
+     "year": 2026,
+     "url": "https://www.infratech.com/trade/"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "The Covered Porch: Tungsten Smart-Heat® Electric Series II, Coastal, recessed in the marine-grade low-clearance kit. Controls: Affinity Smart-Heat® Dimmer, or On/Off where dimming is not wanted, with a manual wall switch. Wi-Fi and app features need compatible Affinity controls, sold separately.",
+   "src": [
+    {
+     "id": "b1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Smart-Heat Electric Select & Coastal Models, installation manual (2026, dealer-hosted)",
+     "year": 2026,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Electric-Select-Coastal-Manual.pdf"
+    },
+    {
+     "id": "b2",
+     "publisher": "Bromic Heating",
+     "title": "LC Ceiling Recess Kit for the Tungsten Smart-Heat Electric Series II, instructions (2025, dealer-hosted)",
+     "year": 2025,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Select-Coastal-LC-Recess-Kit-Instructions.pdf"
+    },
+    {
+     "id": "b3",
+     "publisher": "Bromic Heating",
+     "title": "Affinity Smart-Heat control system brochure 2026",
+     "year": 2026,
+     "url": "https://pim.bromic.com/wp-content/uploads/2026/08/Bromic-affinity-smart-heat-control-system-2026.pdf"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "The Covered Porch: Recessed into the ceiling with a dual fan-ventilated kit; the recess box comes with it, so there is no lined pocket to build.",
+   "src": [
+    {
+     "id": "b2",
+     "publisher": "Bromic Heating",
+     "title": "LC Ceiling Recess Kit for the Tungsten Smart-Heat Electric Series II, instructions (2025, dealer-hosted)",
+     "year": 2025,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Select-Coastal-LC-Recess-Kit-Instructions.pdf"
+    },
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "The Covered Porch: By the sea, Coastal's corrosion-resistant coating is standard and the heater is rated IPX5.",
+   "src": [
+    {
+     "id": "b1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Smart-Heat Electric Select & Coastal Models, installation manual (2026, dealer-hosted)",
+     "year": 2026,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Electric-Select-Coastal-Manual.pdf"
+    },
+    {
+     "id": "p11",
+     "publisher": "Bromic Heating",
+     "title": "Outdoor Lookbook 2026, p.15–21 (Platinum collection)",
+     "year": 2026,
+     "url": "internal"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "The Covered Porch: A white heater, front included, reads as part of a white ceiling.",
+   "src": [
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "The Loggia Lounge: Tungsten Smart-Heat® Electric Series II, Select, on single ceiling posts. Controls: Affinity Smart-Heat® Dimmer, or On/Off where dimming is not wanted, with a manual wall switch. Wi-Fi and app features need compatible Affinity controls, sold separately.",
+   "src": [
+    {
+     "id": "b1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Smart-Heat Electric Select & Coastal Models, installation manual (2026, dealer-hosted)",
+     "year": 2026,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Electric-Select-Coastal-Manual.pdf"
+    },
+    {
+     "id": "b3",
+     "publisher": "Bromic Heating",
+     "title": "Affinity Smart-Heat control system brochure 2026",
+     "year": 2026,
+     "url": "https://pim.bromic.com/wp-content/uploads/2026/08/Bromic-affinity-smart-heat-control-system-2026.pdf"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "The Loggia Lounge: One post a heater, where a drop-pole install takes a pair of rods.",
+   "src": [
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "i15",
+     "publisher": "Infratech",
+     "title": "Pole mount drawing (06-01-2026) and drop pole one-pager",
+     "year": 2026,
+     "url": "https://www.infratech.com/mounting-options/"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "The Loggia Lounge: Gable or vaulted roof: the adaptor mounts to pitched ceilings from 3/12 to 12/12, and the heater tilts toward the seats (up to 45°; 4 and 6 kW to confirm).",
+   "src": [
+    {
+     "id": "b1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Smart-Heat Electric Select & Coastal Models, installation manual (2026, dealer-hosted)",
+     "year": 2026,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Electric-Select-Coastal-Manual.pdf"
+    },
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "The Loggia Lounge: Two heaters, two zones: dim each in 1% steps, or schedule both, in the Bromic app.",
+   "src": [
+    {
+     "id": "b3",
+     "publisher": "Bromic Heating",
+     "title": "Affinity Smart-Heat control system brochure 2026",
+     "year": 2026,
+     "url": "https://pim.bromic.com/wp-content/uploads/2026/08/Bromic-affinity-smart-heat-control-system-2026.pdf"
+    },
+    {
+     "id": "b4",
+     "publisher": "Bromic Heating",
+     "title": "Affinity Smart-Heat app",
+     "year": 2026,
+     "url": "https://www.bromic.com/affinity-smart-heat-app/"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "The Courtyard Wall: Tungsten Smart-Heat® Electric Series II, Select, on the angled wall bracket. Controls: Affinity Smart-Heat® Dimmer, or On/Off where dimming is not wanted, with a manual wall switch. Wi-Fi and app features need compatible Affinity controls, sold separately.",
+   "src": [
+    {
+     "id": "b1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Smart-Heat Electric Select & Coastal Models, installation manual (2026, dealer-hosted)",
+     "year": 2026,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Electric-Select-Coastal-Manual.pdf"
+    },
+    {
+     "id": "b3",
+     "publisher": "Bromic Heating",
+     "title": "Affinity Smart-Heat control system brochure 2026",
+     "year": 2026,
+     "url": "https://pim.bromic.com/wp-content/uploads/2026/08/Bromic-affinity-smart-heat-control-system-2026.pdf"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "The Courtyard Wall: All black, front included, with no visible junction box on the wall.",
+   "src": [
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "b1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Smart-Heat Electric Select & Coastal Models, installation manual (2026, dealer-hosted)",
+     "year": 2026,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Electric-Select-Coastal-Manual.pdf"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "The Courtyard Wall: Timers, schedules and remote off from the Bromic app; Alexa or Google Assistant by voice.",
+   "src": [
+    {
+     "id": "b3",
+     "publisher": "Bromic Heating",
+     "title": "Affinity Smart-Heat control system brochure 2026",
+     "year": 2026,
+     "url": "https://pim.bromic.com/wp-content/uploads/2026/08/Bromic-affinity-smart-heat-control-system-2026.pdf"
+    },
+    {
+     "id": "b4",
+     "publisher": "Bromic Heating",
+     "title": "Affinity Smart-Heat app",
+     "year": 2026,
+     "url": "https://www.bromic.com/affinity-smart-heat-app/"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "The Courtyard Wall: Three years on the heater and seven on the elements.",
+   "src": [
+    {
+     "id": "pf",
+     "publisher": "Bromic Heating",
+     "title": "data/product-facts.json, Tungsten Series II: warranty \"3 years heater, 7 years elements\" (owner, 22 Nov 2026)",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "s4",
+     "publisher": "Bromic Heating",
+     "title": "Warranty",
+     "year": 2026,
+     "url": "https://www.bromic.com/warranty/"
+    }
+   ]
+  },
+  {
+   "page": 4,
+   "fact": "Start With The Ceiling: Ask where the heat will mount. Flat, pitched from 3/12 to 12/12, or recessed: Series II recesses 6,000 W with a dual fan-ventilated kit and the recess box supplied. Infratech recesses 6 kW too; its flush frame needs a lined 2×8 pocket on a flat ceiling, and its drawing says: \"After 4 hours of continuous use, a 15 minute cool down period is recommended\".",
+   "src": [
+    {
+     "id": "b1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Smart-Heat Electric Select & Coastal Models, installation manual (2026, dealer-hosted)",
+     "year": 2026,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Electric-Select-Coastal-Manual.pdf"
+    },
+    {
+     "id": "b2",
+     "publisher": "Bromic Heating",
+     "title": "LC Ceiling Recess Kit for the Tungsten Smart-Heat Electric Series II, instructions (2025, dealer-hosted)",
+     "year": 2025,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Select-Coastal-LC-Recess-Kit-Instructions.pdf"
+    },
+    {
+     "id": "i12",
+     "publisher": "Infratech",
+     "title": "W-33/W-39/W-61 flush mount frame drawing (Dec 2019, dealer-hosted): flat non-sloped ceilings only; 15-minute cool-down recommended after 4 hours of continuous use",
+     "year": 2019,
+     "url": "https://cdn.shopify.com/s/files/1/0262/9232/2407/files/Flush_Mount_Frame_Specs.pdf"
+    },
+    {
+     "id": "i13",
+     "publisher": "Infratech",
+     "title": "W/WD Series installation manual (2015, dealer-hosted): flush frames for 33, 39 and 61¼ in heaters",
+     "year": 2015,
+     "url": "https://cdn.shopify.com/s/files/1/0489/1541/5207/files/W-WD-Series-Installation-Manual-2015.pdf"
+    }
+   ]
+  },
+  {
+   "page": 4,
+   "fact": "Show The Whole Heater: Black, white or graphite carries through to the front, with three front patterns that swap without re-wiring. If the customer wants a specific colour, Infratech offers eight plus custom: say so, then show how the Bromic heater reads as one piece.",
+   "src": [
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "i2",
+     "publisher": "Infratech",
+     "title": "C/CD, W/WD, SL and Motif series pages",
+     "year": 2026,
+     "url": "https://www.infratech.com/heaters/cd-series/"
+    },
+    {
+     "id": "i14",
+     "publisher": "Infratech",
+     "title": "C/CD Series colour options (colour images: colour on end caps, stainless reflector and wire guard in every finish); product range menu",
+     "year": 2026,
+     "url": "https://www.infratech.com/heaters/cd-series/"
+    }
+   ]
+  },
+  {
+   "page": 4,
+   "fact": "Quote It With Its Controls: Every heater goes on the quote with its Affinity Smart-Heat® control and a wall switch. Then the warranty: three years on the heater and seven on the elements.",
+   "src": [
+    {
+     "id": "b3",
+     "publisher": "Bromic Heating",
+     "title": "Affinity Smart-Heat control system brochure 2026",
+     "year": 2026,
+     "url": "https://pim.bromic.com/wp-content/uploads/2026/08/Bromic-affinity-smart-heat-control-system-2026.pdf"
+    },
+    {
+     "id": "pf",
+     "publisher": "Bromic Heating",
+     "title": "data/product-facts.json, Tungsten Series II: warranty \"3 years heater, 7 years elements\" (owner, 22 Nov 2026)",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "s4",
+     "publisher": "Bromic Heating",
+     "title": "Warranty",
+     "year": 2026,
+     "url": "https://www.bromic.com/warranty/"
+    }
+   ]
+  },
+  {
+   "page": 4,
+   "fact": "Keep it fair: Infratech colours, voltages to 480 V, recessing to 6 kW",
+   "src": [
+    {
+     "id": "i2",
+     "publisher": "Infratech",
+     "title": "C/CD, W/WD, SL and Motif series pages",
+     "year": 2026,
+     "url": "https://www.infratech.com/heaters/cd-series/"
+    },
+    {
+     "id": "i3",
+     "publisher": "Infratech",
+     "title": "FAQs (voltages, IPX4, element life, dimming)",
+     "year": 2026,
+     "url": "https://www.infratech.com/resources/faqs/"
+    },
+    {
+     "id": "i13",
+     "publisher": "Infratech",
+     "title": "W/WD Series installation manual (2015, dealer-hosted): flush frames for 33, 39 and 61¼ in heaters",
+     "year": 2015,
+     "url": "https://cdn.shopify.com/s/files/1/0489/1541/5207/files/W-WD-Series-Installation-Manual-2015.pdf"
+    }
+   ]
+  }
+ ]
+}

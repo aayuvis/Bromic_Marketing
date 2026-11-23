@@ -1,7 +1,9 @@
 {
  "title": "Bromic vs Infratech",
  "kicker": "Retail kit · competitive sheet",
- "desc": "Two US Letter sheets for floor staff and buyers: Tungsten Series II and Platinum Electric against Infratech across twelve benefit fields, with fair talk lines, controls and numbered sources. Specification and compliance review required before external use.",
+ "desc": "Four US Letter pages for floor staff and buyers: the six places Tungsten Series II pulls ahead of Infratech, a point-by-point comparison with product photos, three settings with their heaters and controls, and how to sell it. Specification and compliance review required before external use.",
+ "pages": 4,
  "pdf": "reports/retail/vs-infratech/Bromic-vs-Infratech.pdf",
- "cover": "reports/retail/vs-infratech/pages/p1.png"
+ "cover": "reports/retail/vs-infratech/pages/p1.png",
+ "sources": "reports/retail/vs-infratech/sources.json"
 }

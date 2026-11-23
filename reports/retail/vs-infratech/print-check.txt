@@ -1,2 +1,2 @@
-Print check, 2026-11-22
-clean: two Letter pages, no text off the frame or into the title strip, no overlapping blocks, all images load, no "$", no raw VERIFY, no "coming soon", exact flush-frame quote, review mark on both pages, PDF 241 KB
+Print check, 2026-11-23
+clean: 4 Letter pages, no text off the margins or into the footer, no overlapping blocks, cards or cells, no overflowing text, all images load (approved or library only, no Infratech imagery), no printed sources or footnote markers (42 facts traced in sources.json), no "$", no raw VERIFY, no "coming soon", no "only" claim, exact flush-frame quote, controls with every setting, review mark on every page, PDF 1246 KB

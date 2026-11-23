@@ -1,11 +1,20 @@
-// Bromic vs Infratech: a two-sheet US Letter comparison for retail floor staff and buyers, in the white Blueprint look
-// of the approved retail set (reports/retail/controls-mounting, reports/retail/one-pagers).
-// Facts only from data/product-marketing/tungsten-electric-series-ii.json (m3.rows, claim_checks, one_pagers footnote)
-// and data/product-marketing/platinum-electric.json (m3 vs.infratech, competitive_summary), and their sources[].
-// Open facts ([[VERIFY]]) print as "To confirm". No prices. No Infratech logo or imagery: Bromic product photos only.
-// The recess line follows claim_checks: never "only" unqualified, "shallowest" or "lowest clearance".
+// Bromic vs Infratech: a four-page US Letter comparison for retail floor staff and buyers.
+// Owner, 23 Nov 2026: "remove sources..make it more visual...can run 3-4 pages....call out differences first...highlight
+// differences more clearly". So: page 1 the differences up front, page 2 the side-by-side matrix with product photos,
+// page 3 three settings with their heaters and controls, page 4 how to sell it and the CTA.
+//
+// Sources are NOT printed. Every fact below carries `src: [...]`: ids from data/product-marketing/tungsten-electric-series-ii.json
+// sources[] (and platinum-electric.json, plus `pf` = data/product-facts.json and `lp` = the Partner Program page). The build
+// checks each id resolves and writes them, fact by fact, to sources.json beside this file, so the sheet stays traceable for
+// the Specification and compliance review (needs_approval). sources.json is internal: the Hub publishes only the PDF and thumb.
+//
+// Rules kept: facts only from the framework's m3 rows, claim_checks and product-facts (no new facts); open facts
+// ([[VERIFY]]) print as "To confirm"; no prices; no Infratech logo or imagery (Bromic images only, approved in
+// data/image-review.json or in the image library); never "only" unqualified, "shallowest" or "lowest clearance" (claim_checks);
+// every heater with its Affinity controls (hard rule 4); Series II has launched (hard rule 7); where Infratech matches or
+// leads, the sheet says so, plainly.
 // Run: node reports/retail/vs-infratech/build.js
-//   → index.html, pages/p1.png, pages/p2.png, Bromic-vs-Infratech.pdf, meta.json, print-check.txt
+//   → index.html, pages/p1–p4.png, Bromic-vs-Infratech.pdf, meta.json, sources.json, print-check.txt, ../_hub/vs-infratech.webp
 const fs = require('fs');
 const path = require('path');
 const { spawnSync } = require('child_process');
@@ -17,346 +26,420 @@ const rel = (p) => path.relative(HERE, path.join(ROOT, p)).split(path.sep).join(
 const repoRel = (p) => path.relative(ROOT, path.join(HERE, p)).split(path.sep).join('/');
 const S2 = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/product-marketing/tungsten-electric-series-ii.json'), 'utf8'));
 const PE = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/product-marketing/platinum-electric.json'), 'utf8'));
+const PAGES = 4;
 
-const T = { ink: '#231F20', draw: '#1C2B44', steel: '#6B7480', hair: '#B9C3D0', flame: '#EF4123' };
-const TC = '<i class="tc">To confirm</i>';
+const T = { ink: '#231F20', steel: '#6B7480', mute: '#8E949B', hair: '#D9DDE2', wash: '#F5F5F3', flame: '#EF4123', tint: '#FDEDE8' };
 const R = '®';
+const TC = '<i class="tc">to confirm</i>';
+const REVIEW = 'Specification and compliance review required before external use';
 
-// ---------- images: Bromic only, never a rejected library image, ≤ 1800 px JPEG q82 ----------
-const IMAGES = {
-  'p-s2-post': 'images/library/t2-single-post-black.webp',
-  'p-s2-recess': 'images/library/t2-low-clearance-recess.webp',
+// ---------- sources: kept in the build, never printed ----------
+const byId = {};
+for (const s of [...S2.sources, ...PE.sources]) if (!byId[s.id]) byId[s.id] = s;
+byId.lp = { id: 'lp', publisher: 'Bromic Heating', title: 'Bromic Partner Program (builders and trade) page, read 29 Oct 2026', year: 2026, url: 'https://www.bromic.com/lp-builders/' };
+byId.pf = { id: 'pf', publisher: 'Bromic Heating', title: 'data/product-facts.json, Tungsten Series II: warranty "3 years heater, 7 years elements" (owner, 22 Nov 2026)', year: 2026, url: 'internal' };
+byId.p11 = byId.p11 || { id: 'p11', publisher: 'Bromic Heating', title: 'Outdoor Lookbook 2026', year: 2026, url: 'internal' };
+const LEDGER = [];   // [{page, fact, src:[{id,publisher,title,year,url}]}] → sources.json
+const cite = (page, fact, ids) => {
+  for (const id of ids) if (!byId[id]) throw new Error(`unknown source ${id} for "${fact}"`);
+  LEDGER.push({ page, fact: fact.replace(/<[^>]+>/g, ''), src: ids.map((id) => { const s = byId[id]; return { id, publisher: s.publisher, title: s.title, year: s.year, url: s.url }; }) });
 };
+
+// ---------- icons: Lucide line icons (ISC licence), the set the launch deck uses ----------
+const ICON = {
+  badge: '<path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/><path d="m16 9-5.5 5.5L8 12"/>',
+  fan: '<path d="M10.827 16.379a6.082 6.082 0 0 1-8.618-7.002l5.412 1.45a6.082 6.082 0 0 1 7.002-8.618l-1.45 5.412a6.082 6.082 0 0 1 8.618 7.002l-5.412-1.45a6.082 6.082 0 0 1-7.002 8.618l1.45-5.412Z"/><path d="M12 12v.01"/>',
+  house: '<path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"/><path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>',
+  palette: '<path d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z"/><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/>',
+  phone: '<rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/>',
+  waves: '<path d="M2 12q2.5 2 5 0t5 0 5 0 5 0"/><path d="M2 19q2.5 2 5 0t5 0 5 0 5 0"/><path d="M2 5q2.5 2 5 0t5 0 5 0 5 0"/>',
+  check: '<path d="M20 6 9 17l-5-5"/>',
+  minus: '<path d="M5 12h14"/>',
+  sliders: '<path d="M10 5H3"/><path d="M12 19H3"/><path d="M14 3v4"/><path d="M16 17v4"/><path d="M21 12h-9"/><path d="M21 19h-5"/><path d="M21 5h-7"/><path d="M8 10v4"/><path d="M8 12H3"/>',
+  store: '<path d="M15 21v-5a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v5"/><path d="M17.774 10.31a1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.451 0 1.12 1.12 0 0 0-1.548 0 2.5 2.5 0 0 1-3.452 0 1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.77-3.248l2.889-4.184A2 2 0 0 1 7 2h10a2 2 0 0 1 1.653.873l2.895 4.192a2.5 2.5 0 0 1-3.774 3.244"/><path d="M4 10.95V19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8.05"/>',
+  wrench: '<path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z"/>',
+};
+const icon = (k, cls = 'ic') => `<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICON[k]}</svg>`;
+
+// ---------- images: Bromic only. Series II renders and scenes approved in data/image-review.json; one Lookbook photo ----------
+const REVIEW_IMG = {
+  'hero-family': 'pr-select-family-three-finishes',
+  'r-recess': 'pr-bg-black-recess-kit-plaster-ceiling',
+  'r-post': 'pr-a-graphite-ceiling-hero-light',
+  'r-wall': 'pr-select-white-angled-bracket',
+  's-porch': 'ts2-r9c-07',
+  's-loggia': 'pr-bg-graphite-pair-ceiling-lounge-f14',
+  's-court': 'pr-c-black-wall-limewash-bench',
+};
+const LIB_IMG = { 'l-beach': 'images/library/l-002-006.webp' };
 function prepImages() {
   fs.mkdirSync(path.join(HERE, 'img'), { recursive: true });
-  const man = JSON.parse(fs.readFileSync(path.join(ROOT, 'images/library/manifest.json'), 'utf8'));
-  const st = Object.fromEntries(man.map((m) => [m.file, m.status]));
-  for (const src of Object.values(IMAGES)) {
-    if (!(src in st)) throw new Error('not in the library: ' + src);
-    if (/rejected/i.test(st[src])) throw new Error('rejected image: ' + src);
+  for (const f of fs.readdirSync(path.join(HERE, 'img'))) if (/\.jpg$/.test(f)) fs.unlinkSync(path.join(HERE, 'img', f));
+  const rv = Object.fromEntries(JSON.parse(fs.readFileSync(path.join(ROOT, 'data/image-review.json'), 'utf8')).items.map((r) => [r.id, r]));
+  const man = Object.fromEntries(JSON.parse(fs.readFileSync(path.join(ROOT, 'images/library/manifest.json'), 'utf8')).map((m) => [m.file, m]));
+  const jobs = [];
+  for (const [k, id] of Object.entries(REVIEW_IMG)) {
+    const r = rv[id]; if (!r) throw new Error('not in image-review.json: ' + id);
+    if (r.status !== 'approved') throw new Error(`image not approved: ${id} (${r.status})`);
+    jobs.push([path.join(ROOT, r.file), path.join(HERE, 'img', `${k}.jpg`)]);
   }
-  const jobs = Object.entries(IMAGES).map(([k, src]) => [path.join(ROOT, src), path.join(HERE, 'img', `${k}.jpg`)]);
+  for (const [k, src] of Object.entries(LIB_IMG)) {
+    if (!man[src]) throw new Error('not in the library: ' + src);
+    if (/rejected/i.test(man[src].status)) throw new Error('rejected image: ' + src);
+    jobs.push([path.join(ROOT, src), path.join(HERE, 'img', `${k}.jpg`)]);
+  }
   const py = `
 import sys, json
 from PIL import Image
 for src, out in json.loads(sys.argv[1]):
     im = Image.open(src).convert('RGB')
-    im.thumbnail((1800, 1800), Image.LANCZOS)
-    im.save(out, 'JPEG', quality=82, optimize=True, progressive=True)
+    im.thumbnail((1600, 1600), Image.LANCZOS)
+    im.save(out, 'JPEG', quality=80, optimize=True, progressive=True)
 `;
   const r = spawnSync('python3', ['-c', py, JSON.stringify(jobs)], { stdio: 'inherit' });
   if (r.status) throw new Error('image prep failed');
   fs.copyFileSync(path.join(ROOT, 'images/portfolio/bromic-logo.png'), path.join(HERE, 'img/bromic-logo.png'));
 }
+const ph = (k, pos = 'center') => `background-image:url(img/${k}.jpg);background-position:${pos}`;
 
-// ---------- sources: numbered in the order printed on sheet 02 ----------
-const byId = {};
-for (const s of [...S2.sources, ...PE.sources]) if (!byId[s.id]) byId[s.id] = s;
-// short print titles for the data's sources (the data's own titles carry notes for the team)
-const SHORT = {
-  s1: 'Tungsten Smart-Heat Electric product page', b1: 'Tungsten Electric Select & Coastal installation manual (dealer-hosted)',
-  b2: 'LC Ceiling Recess Kit for Tungsten Series II, instructions (dealer-hosted)', s5: 'Tungsten Electric recess kit page',
-  d1: 'Tungsten Electric Series II launch deck, July 2026', s4: 'Warranty', b3: 'Affinity Smart-Heat control system brochure',
-  b4: 'Affinity Smart-Heat app page', p1: 'Platinum Smart-Heat Electric product page', p2: 'Platinum Smart-Heat Electric Marine product page',
-  p7: 'Platinum Electric Low Clearance Ceiling Recess instructions', p9: 'Platinum Electric recess kit, poles and wall bracket pages',
-  p10: 'Revit BIM and CAD files', i2: 'C/CD, W/WD, SL and Motif series pages', i14: 'C/CD Series colour options',
-  i3: 'FAQs, read 19 Nov 2026', i12: 'W-33/W-39/W-61 flush mount frame drawing, Dec 2019 (dealer-hosted)',
-  i13: 'W/WD Series installation manual (dealer-hosted)', i6: 'Mounting options; pole mount drawing (06-01-2026) and drop pole one-pager',
-  i7: 'Controls', i16: 'Smart Switch and Smart Dimmer sell sheet (Bond), Enhanced Timer Package', i9: 'Limited warranty',
-  i17: 'Warranty, 2024 terms; dealers and installers pages', i10: 'Dealers and trade programs', i18: 'Marine UpGrade',
-  i4: "C-Series owner's instruction manual (dealer-hosted)", i19: 'C/CD coverage chart, 2025',
-};
-const SRC = [
-  // [id, publisher, title, date, url] — title and date from the data's sources[]; url "internal" prints as such
-  ['s1'], ['b1'], ['b2'], ['s5'], ['d1'], ['s4'], ['b3'], ['b4'],
-  ['p1'], ['p2'], ['p7'], ['p9'], ['p10'],
-  ['lp', 'Bromic Heating', 'Bromic Partner Program (builders and trade) page, read 29 Oct 2026', '2026', 'https://www.bromic.com/lp-builders/'],
-  ['p11', 'Bromic Heating', 'Outdoor Lookbook 2026', '2026', 'internal'],
-  ['i2'], ['i14'], ['i3'], ['i12'], ['i13'], ['i6'], ['i7'], ['i16'], ['i9'], ['i17'], ['i10'], ['i18'], ['i4'], ['i19'],
-].map(([id, pub, title, date, url]) => {
-  const s = byId[id];
-  if (!s && !pub) throw new Error('unknown source ' + id);
-  return { id, pub: pub || s.publisher, title: title || SHORT[id] || s.title, date: date || String(s.year), url: url || s.url };
-});
-const NUM = Object.fromEntries(SRC.map((s, i) => [s.id, i + 1]));
-const ref = (...ids) => `<sup class="rf">${ids.map((id) => { if (!NUM[id]) throw new Error('ref to unlisted source ' + id); return NUM[id]; }).join(',')}</sup>`;
-
-// ---------- the comparison: one row per benefit field, in the framework's priority order ----------
-// Edge for Series II is the data's m3.rows[].edge; Platinum's is m3.rows[].edge in platinum-electric.json.
-const s2Edge = Object.fromEntries(S2.m3.rows.map((r) => [r.benefit, r.edge]));
-const peEdge = Object.fromEntries(PE.m3.rows.map((r) => [r.benefit, r.edge]));
-const ROWS = [
-  { b: 'recess', field: 'Recess ability',
-    bromic: `<b>Series II:</b> 6 kW flush in a 7.5 in cavity (${TC}) with a dual fan-ventilated low-clearance kit; the recess box comes with the kit, so no site-built fire-rated box (${TC}). The only 6 kW kit of its kind found in Bromic's market check, 18 Nov 2026.${ref('b2', 's5', 'd1')} <b>Platinum:</b> 7.1 in cavity, box supplied, cooling fan, up to 4500 W.${ref('p7')}`,
-    infra: `W/WD flush frame in a framed pocket "MIN. 2 x 8", lined on five sides with 5/8 in Type X drywall; flat ceilings only; up to 6,000 W; no fans shown; a cool-down is recommended after 4 hours of continuous use.${ref('i12', 'i13')}` },
-  { b: 'heat', field: 'Heat performance',
-    bromic: `<b>Series II:</b> 2 to 6 kW; dual elements on 4 and 6 kW, dimmable in 1% steps; up to 160 ft² for 6 kW.${ref('b1', 'd1')} <b>Platinum:</b> 2300, 3400 and 4500 W; about 65, 108 and 143 ft².${ref('p1')} Each brand measures coverage its own way.`,
-    infra: `1.5 to 6 kW, 120 to 480 V models; its chart gives about 121 ft² for the 6,000 W CD at 8–12 ft.${ref('i3', 'i19')}` },
-  { b: 'aesthetics', field: 'Design aesthetics',
-    bromic: `<b>Series II:</b> all black, all white or all graphite, the front in the same finish; about 14% narrower and a third lighter than Series I; one post, no visible junction box.${ref('d1', 'b1')} <b>Platinum:</b> tinted glass-ceramic face, 2.1 in deep.${ref('p1')}`,
-    infra: `Colour powder coat on the end caps and housing; the polished reflector and wire guard stay stainless (SL All Black Shadow aside); junction box on top of the heater.${ref('i2', 'i14')}` },
-  { b: 'controls', field: 'Ease of controls',
-    bromic: `Affinity Smart-Heat${R} Controls and the Bromic app: 1% dimming, zones, schedules, timers and remote off; Alexa and Google Assistant; Control4, Crestron or Lutron where compatible. Wi-Fi and app features need compatible Affinity controls, sold separately.${ref('b3', 'b4')}`,
-    infra: `Bond Smart Dimmer with the Universal Control Panel (dimming, timing, zoning), or Smart Switch (on/off, built-in 2-hour timer); Lutron and Crestron through home systems; competitor controls may void the warranty.${ref('i7', 'i16', 'i9')}` },
-  { b: 'install_flex', field: 'Installation flexibility',
-    bromic: `<b>Series II:</b> ceiling, pitched ceiling 3/12 to 12/12, wall, extended wall, single post, recessed; tilts to 45° (the manual says 30° for 4 and 6 kW: ${TC}).${ref('b1', 'd1')} <b>Platinum:</b> wall straight or angled, ceiling, poles, standard or low-clearance recess.${ref('p9')}`,
-    infra: `Wall, ceiling, flush, pole and drop pole; the flush frame "is ONLY to be used on a flat non-sloped ceiling".${ref('i6', 'i12')}` },
-  { b: 'safety', field: 'Safety and peace of mind',
-    bromic: `<b>Series II:</b> IPX5; fan-cooled recess kit; app schedules, timers and remote off. Continuous-use guidance for the recess kit: ${TC}.${ref('b1', 'b2', 'b4')} <b>Platinum:</b> Intertek ETL / cETL listed; recess kit with a fan and two thermal cut-offs.${ref('p1', 'p7')}`,
-    infra: `UL and cUL listed, IPX4. Flush frame: a cool-down is recommended after 4 hours of continuous use. The Smart Switch app route is on/off with a 2-hour timer.${ref('i3', 'i12', 'i16')}` },
-  { b: 'design_flex', field: 'Design flexibility',
-    bromic: `<b>Series II:</b> three finishes carried through to the front; three fronts (Diamond standard; oval and triangle sold separately) that swap without re-wiring; fronts on recessed installs: ${TC}.${ref('d1', 's1')} <b>Platinum:</b> black or white, three lengths.${ref('p1')}`,
-    infra: `Brushed stainless or eight powder-coated colours plus custom on C/CD and W/WD, reflector and guard stainless; Motif covers on surface-mount C/CD only, not flush.${ref('i2', 'i14')}` },
-  { b: 'multi_area', field: 'Heat multiple areas',
-    bromic: `One portfolio: electric for ceilings, walls, posts and recesses (Tungsten, Platinum), the Eclipse pendant, Eclipse Freestanding, mounted gas and Tungsten Freestanding Gas.${ref('s1', 'p11')}`,
-    infra: `Fixed electric infrared heaters only (C/CD, W/WD, SL, Motif covers, an indoor garage heater); no gas and no freestanding heaters on infratech.com.${ref('i2')}` },
-  { b: 'warranty', field: 'Warranty',
-    bromic: `<b>Series II:</b> 3 years on the heater and 7 years on the elements, on Select, Coastal and Classic; a partner year on qualifying products.${ref('s4', 'lp')} <b>Platinum:</b> 3 years; Marine 5 years on land.${ref('p2')}`,
-    infra: `3-year limited warranty; a fourth year through Elite Retailers and the Installer Program; not transferable; 2024 terms: replacement parts only, labour excluded.${ref('i9', 'i17')}` },
-  { b: 'install_ease', field: 'Ease of installation',
-    bromic: `<b>Series II:</b> one post instead of a pair of drop rods; the recess box comes with the kit, nothing to build on site; one kit for Select and Coastal.${ref('d1', 'b2')} <b>Platinum:</b> bracket and 8 in pole included; the recess fan needs a constant supply; two people to lift into the recess.${ref('p7', 'p9')}`,
-    infra: `Flush: a framed 2×8 pocket lined on five sides with Type X drywall, junction box outside the pocket. Drop pole: a pair of rods per heater; pole mount on a 10 × 10 in base.${ref('i12', 'i6')}` },
-  { b: 'support', field: 'Specification and support',
-    bromic: `Bromic Partner Program: partner pricing, free custom heating design plans, extended warranty, a dedicated contact, project spotlights; Revit and CAD files.${ref('lp', 'p10')}`,
-    infra: `Trade program with design guides, CAD details and continuing-education credits; Elite Retailers and the Installer Program add a fourth warranty year and leads.${ref('i10')}` },
-  { b: 'coastal', field: 'Durability by the coast',
-    bromic: `<b>Coastal:</b> a corrosion-resistant coating over a marine-grade build as standard (316 per the Lookbook; body material and coating name ${TC}); marine-grade recess kit; IPX5; not for boats.${ref('p11', 'b1', 'b2')} <b>Platinum Marine:</b> 316, IPX5 (IP55 on 4500 W).${ref('p2')}`,
-    infra: `316 stainless as a Marine UpGrade at extra cost on C/CD, W/WD and flush frames (not SL); IPX4; its manual notes 316 is not fully corrosion-proof.${ref('i18', 'i3', 'i4')}` },
+// ---------- page 1: the differences up front (each a "bromic" edge in m3.rows) ----------
+const edgeOf = Object.fromEntries(S2.m3.rows.map((r) => [r.benefit, r.edge]));
+const CALLOUTS = [
+  { b: 'warranty', icon: 'badge', label: 'Warranty', big: '3 <em>+</em> 7', unit: 'years: heater + elements',
+    bromic: 'Three years on the heater and seven on the elements, across Select, Coastal and Classic.',
+    infra: 'A 3-year limited warranty; a fourth year through Elite Retailers and the Installer Program.',
+    src: ['pf', 's4', 'i9', 'i17'] },
+  { b: 'recess', icon: 'fan', label: 'Recessed, dual fan-ventilated', big: '6 kW', unit: 'recessed, two fans in the kit',
+    bromic: `6,000 W into a 7.5 in ceiling cavity (${TC}). The low-clearance kit is dual fan-ventilated and the recess box comes with it.`,
+    infra: 'Flush frames sit in a framed 2×8 pocket lined on five sides with Type X drywall; no fans are shown.',
+    src: ['b2', 's5', 'd1', 'i12', 'i13'] },
+  { b: 'install_flex', icon: 'house', label: 'Pitched ceilings and tilt', big: '3/12<em>–</em>12/12', unit: 'pitched-ceiling range',
+    bromic: `Mounts to a pitched ceiling with its adaptor, and to a wall, extended wall or single post; tilts up to 45° (4 and 6 kW: ${TC}).`,
+    infra: 'Its flush frame "is ONLY to be used on a flat non-sloped ceiling".',
+    src: ['b1', 'd1', 'i12', 'i6'] },
+  { b: 'aesthetics', icon: 'palette', label: 'One finish, front included', big: '3', unit: 'finishes, the front in the same one',
+    bromic: 'All black, all white or all graphite, front included; three front patterns swap without re-wiring.',
+    infra: 'Eight powder-coat colours plus custom on the housing; the reflector face and wire guard stay stainless.',
+    src: ['d1', 's1', 'i2', 'i14'] },
+  { b: 'controls', icon: 'phone', label: 'Smart controls and app', big: '1%', unit: 'dimming steps in the Bromic app',
+    bromic: `Affinity Smart-Heat${R} Controls: zones, schedules, timers, remote off, Alexa and Google Assistant. Wi-Fi and app features need compatible Affinity controls, sold separately.`,
+    infra: 'App control through Bond: a Smart Dimmer with its control panel, or a Smart Switch for on/off with a 2-hour timer.',
+    src: ['b3', 'b4', 'i7', 'i16'] },
+  { b: 'coastal', icon: 'waves', label: 'Built for the coast', big: 'IPX5', unit: 'weather rating',
+    bromic: `Tungsten Coastal adds a corrosion-resistant coating over a marine-grade build as standard (316 per the Lookbook: ${TC}).`,
+    infra: 'IPX4; 316 stainless is a Marine UpGrade at extra cost.',
+    src: ['b1', 'p11', 'i3', 'i18'] },
 ];
-// every benefit field in the data is on the sheet, and nothing else
-{
-  const want = S2.m3.rows.map((r) => r.benefit).sort().join();
-  const have = ROWS.map((r) => r.b).sort().join();
-  if (want !== have) throw new Error(`rows ${have} do not match the data's ${want}`);
+for (const c of CALLOUTS) {
+  if (edgeOf[c.b] !== 'bromic') throw new Error(`call-out ${c.b} is not a "bromic" edge in the data`);
+  cite(1, `${c.label}: ${c.big.replace(/<[^>]+>/g, '')} ${c.unit}. Bromic: ${c.bromic} Infratech: ${c.infra}`, c.src);
 }
-const CHIP = {
-  bromic: ['b', 'Bromic stronger'], parity: ['p', 'Parity'], infratech: ['i', 'Infratech stronger'], competitor: ['i', 'Infratech stronger'],
-  unknown: ['u', 'To confirm'], mixed: ['m', 'Mixed'],
-};
-const chip = (edge) => { const [c, t] = CHIP[edge]; return `<span class="chip ${c}">${t}</span>`; };
-const edgeCell = (b) => `<div class="eg"><span class="who">SERIES II</span>${chip(s2Edge[b])}</div>${peEdge[b] ? `<div class="eg"><span class="who">PLATINUM</span>${chip(peEdge[b])}</div>` : ''}`;
-const table = `<table class="mx cmp"><colgroup><col style="width:92px"><col><col style="width:200px"><col style="width:92px"></colgroup>
-  <thead><tr><th>BENEFIT FIELD</th><th>BROMIC · TUNGSTEN SERIES II / PLATINUM ELECTRIC</th><th>INFRATECH · C/CD, W/WD, SL</th><th>EDGE</th></tr></thead><tbody>
-  ${ROWS.map((r) => `<tr><td class="ser">${r.field}</td><td>${r.bromic}</td><td class="inf">${r.infra}</td><td class="ed">${edgeCell(r.b)}</td></tr>`).join('\n  ')}
-  </tbody></table>`;
+const callouts = `<div class="co-grid">${CALLOUTS.map((c) => `<article class="co">
+  <div class="co-top"><span class="co-ic">${icon(c.icon)}</span><span class="co-lbl">${c.label}</span></div>
+  <p class="co-big">${c.big}</p><p class="co-unit">${c.unit}</p>
+  <p class="co-b">${c.bromic}</p>
+  <p class="co-i"><b>Infratech</b>${c.infra}</p>
+</article>`).join('')}</div>`;
 
-// ---------- sheet 02: on the floor ----------
-const TALK = [
-  ['"Infratech recesses too."', `It does, in a framed pocket of at least 2×8, lined on five sides with Type X drywall, on a flat ceiling. Tungsten Series II recesses 6,000 W into a 7.5 in ceiling cavity: the kit is dual fan-ventilated, so there is no site-built box.${ref('i12', 'b2')}`, `Cavity depth and the kit's listing: ${TC}.`],
-  ['"Can a recessed heater run all evening?"', `Infratech's flush-frame drawing says: "After 4 hours of continuous use, a 15 minute cool down period is recommended". The Series II kit is dual fan-ventilated.${ref('i12', 'b2')}`, `Bromic's continuous-use guidance: ${TC}. Promise no run time until it is.`],
-  ['"My porch ceiling is pitched."', `Tungsten Series II mounts on 3/12 to 12/12 with its adaptor; Infratech's flush frame is "ONLY to be used on a flat non-sloped ceiling".${ref('b1', 'i12')}`, ''],
-  ['"Infratech comes in more colours."', `It does: brushed stainless or eight powder-coated colours plus custom, with the reflector and guard in stainless. Series II is all black, all white or all graphite, front included, in a Diamond, oval or triangle pattern.${ref('i2', 'd1')}`, 'Say so where Infratech leads.'],
-  ['"What does the warranty cover?"', `Tungsten Series II: 3 years on the heater and 7 years on the elements. Infratech: a 3-year limited warranty, with a fourth year through its Elite Retailer and Installer programs.${ref('s4', 'i9')}`, ''],
-  ['"Which one is warmer?"', `Both reach 6 kW, and each brand measures coverage its own way. Talk about where the warmth lands, and let a free design plan prove the coverage seat by seat.${ref('b1', 'i19')}`, ''],
+// ---------- page 2: the matrix. Each row is a fact from m3.rows (edge per row: bromic, parity or infratech) ----------
+const Y = (t) => `<span class="ok">${icon('check', 'tk')}${t}</span>`;
+const N = (t) => `<span class="no">${icon('minus', 'tk')}${t}</span>`;
+const bar = (yrs, txt, extra) => `<span class="bar"><span class="bt" style="width:${yrs * 11}px"></span>${extra ? `<span class="bx" style="width:${extra * 11}px"></span>` : ''}<span class="bl">${txt}</span></span>`;
+const MATRIX = [
+  ['Recess', [
+    ['Recessed output', Y('6,000 W'), Y('6,000 W (W/WD)'), 'parity', ['b2', 'd1', 'i13']],
+    ['Fans in the recess kit', Y('Two, dual fan-ventilated'), N('None shown'), 'bromic', ['b2', 'i12']],
+    ['Recess enclosure', Y('Recess box supplied with the kit'), 'Framed 2×8 pocket, lined on five sides', 'bromic', ['d1', 'b2', 'i12']],
+  ]],
+  ['Mounting', [
+    ['Pitched ceilings', Y('3/12 to 12/12, with adaptor'), 'Flush frame: flat ceilings only', 'bromic', ['b1', 'i12']],
+    ['Suspended', Y('One post'), 'A pair of drop rods a heater', 'bromic', ['d1', 'i15']],
+  ]],
+  ['Look', [
+    ['Front in the heater\'s finish', Y('Black, white or graphite'), 'Reflector and guard stay stainless', 'bromic', ['d1', 'i14']],
+    ['Housing colours', '3', '8 plus custom, or brushed stainless', 'infratech', ['d1', 'i2', 'i14']],
+    ['Interchangeable fronts', Y('3 patterns, no re-wiring'), 'Motif covers, surface-mount C/CD only', 'bromic', ['d1', 'i2']],
+    ['Junction box', Y('None visible'), 'On top of the heater', 'bromic', ['d1', 'b1', 'i2']],
+  ]],
+  ['Weather', [
+    ['Water rating', '<b class="v">IPX5</b>', '<b class="v">IPX4</b>', 'bromic', ['b1', 'i3']],
+    ['Coastal protection', Y(`Coating as standard on Coastal`), '316 stainless at extra cost', 'bromic', ['p11', 'b1', 'i18']],
+  ]],
+  ['Controls', [
+    ['Dimming', Y('1% steps, Affinity'), Y('Bond Smart Dimmer'), 'parity', ['b3', 'i7', 'i16']],
+    ['Controls and app', Y('Bromic\'s own: Affinity and the Bromic app'), 'Through Bond', 'bromic', ['b3', 'b4', 'i7', 'i16']],
+    ['Voice and home systems', 'Alexa, Google; Control4, Crestron, Lutron', 'Lutron and Crestron', 'bromic', ['b3', 'i7']],
+  ]],
+  ['Heat', [
+    ['Output', '2 to 6 kW', '1.5 to 6 kW', 'parity', ['b1', 'i3']],
+    ['Supply voltage', '208, 240 and 277 V', '120 to 480 V', 'infratech', ['d1', 'i3']],
+    ['Coverage, 6 kW', 'Up to 160 ft²', 'About 121 ft² at 8–12 ft', 'parity', ['b1', 'i19']],
+  ]],
+  ['Warranty', [
+    ['Warranty, years', bar(3, 'Heater 3') + bar(7, 'Elements 7'), bar(3, '3, limited', 1) + '<span class="bn">+1 through Elite Retailers and installers</span>', 'bromic', ['pf', 's4', 'i9', 'i17']],
+  ]],
+  ['Range', [
+    ['Gas and freestanding', Y('In the same portfolio'), N('Fixed electric only'), 'bromic', ['s1', 'p11', 'i2']],
+    ['Design support', Y('Free custom design plans; Revit, CAD'), Y('Design guides, CAD details, CE credits'), 'parity', ['lp', 'p10', 'i10']],
+  ]],
 ];
-const talk = `<ol class="talk">${TALK.map(([q, a, n], i) => `<li><span class="no">${i + 1}</span><p class="q"><b>THEY SAY</b><span>${q}</span></p><p class="a"><b>YOU CAN SAY</b><span>${a}</span></p>${n ? `<p class="nt">${n}</p>` : ''}</li>`).join('')}</ol>`;
+for (const [g, rows] of MATRIX) for (const [f, b, i, e, src] of rows) cite(2, `${g} · ${f} · Bromic: ${b} · Infratech: ${i} · edge ${e}`, src);
+const tally = { bromic: 0, parity: 0, infratech: 0 };
+for (const [, rows] of MATRIX) for (const r of rows) tally[r[3]]++;
+const EDGE = { bromic: ['b', 'Bromic'], parity: ['p', 'Level'], infratech: ['i', 'Infratech'] };
+const matrix = `<table class="mx"><colgroup><col style="width:58px"><col style="width:118px"><col><col style="width:178px"><col style="width:62px"></colgroup>
+  <thead><tr><th></th><th>Feature</th><th class="hb">Tungsten Series II</th><th>Infratech</th><th>Ahead</th></tr></thead>
+  ${MATRIX.map(([g, rows]) => `<tbody>${rows.map((r, k) => `<tr class="e-${EDGE[r[3]][0]}">${k === 0 ? `<th class="grp" rowspan="${rows.length}">${g}</th>` : ''}<td class="ft">${r[0]}</td><td class="cb">${r[1]}</td><td class="ci">${r[2]}</td><td class="ed"><span class="mk ${EDGE[r[3]][0]}"></span>${EDGE[r[3]][1]}</td></tr>`).join('')}</tbody>`).join('')}
+</table>`;
+const total = tally.bromic + tally.parity + tally.infratech;
+const tallyBar = `<div class="tally">
+  <div class="tl-bar"><span class="tb b" style="flex:${tally.bromic}"></span><span class="tb p" style="flex:${tally.parity}"></span><span class="tb i" style="flex:${tally.infratech}"></span></div>
+  <div class="tl-key"><span><span class="mk b"></span><b>${tally.bromic}</b> Bromic ahead</span><span><span class="mk p"></span><b>${tally.parity}</b> level</span><span><span class="mk i"></span><b>${tally.infratech}</b> Infratech ahead</span><span class="tl-n">of ${total} points</span></div>
+</div>`;
+const renders = `<div class="renders">${[['r-post', 'Ceiling post', 'center 55%'], ['r-recess', 'Recessed in the low-clearance kit', 'center 35%'], ['r-wall', 'Angled wall bracket', 'center']].map(([k, c, pos]) => `<figure><div class="ri" style="${ph(k, pos)}"></div><figcaption>${c}</figcaption></figure>`).join('')}</div>`;
 
-const CONTROLS = [
-  [`Tungsten Smart-Heat${R} Electric Series II`, 'SELECT, COASTAL · CLASSIC: JANUARY 2027', `Affinity Smart-Heat${R} Dimmer as standard, On/Off where dimming is not wanted, and a manual wall switch.`],
-  [`Platinum Smart-Heat${R} Electric`, 'CLASSIC AND MARINE', `Affinity Smart-Heat${R} Dimmer or On/Off and a manual wall switch; the expansion board for building systems.`],
+// ---------- page 3: in use. Each setting names its heater and its controls (hard rule 4) ----------
+const CTL = `Affinity Smart-Heat${R} Dimmer, or On/Off where dimming is not wanted, with a manual wall switch. Wi-Fi and app features need compatible Affinity controls, sold separately.`;
+const SETTINGS = [
+  { img: 's-porch', pos: 'center 40%', title: 'The Covered Porch', cap: 'Series II recessed in the low-clearance kit, white, on a beach-house porch. Product render.',
+    heater: `Tungsten Smart-Heat${R} Electric Series II, Coastal, recessed in the marine-grade low-clearance kit`,
+    points: [
+      ['fan', 'Recessed into the ceiling with a dual fan-ventilated kit; the recess box comes with it, so there is no lined pocket to build.', ['b2', 'd1']],
+      ['waves', 'By the sea, Coastal\'s corrosion-resistant coating is standard and the heater is rated IPX5.', ['b1', 'p11']],
+      ['palette', 'A white heater, front included, reads as part of a white ceiling.', ['d1']],
+    ], src: ['b1', 'b2', 'b3'] },
+  { img: 's-loggia', pos: 'center 45%', title: 'The Loggia Lounge', cap: 'Two Series II Select, graphite, on short ceiling posts, angled over the seating. Product render.',
+    heater: `Tungsten Smart-Heat${R} Electric Series II, Select, on single ceiling posts`,
+    points: [
+      ['wrench', 'One post a heater, where a drop-pole install takes a pair of rods.', ['d1', 'i15']],
+      ['house', `Gable or vaulted roof: the adaptor mounts to pitched ceilings from 3/12 to 12/12, and the heater tilts toward the seats (up to 45°; 4 and 6 kW ${TC}).`, ['b1', 'd1']],
+      ['sliders', 'Two heaters, two zones: dim each in 1% steps, or schedule both, in the Bromic app.', ['b3', 'b4']],
+    ], src: ['b1', 'b3'] },
+  { img: 's-court', pos: 'center 40%', title: 'The Courtyard Wall', cap: 'Series II Select, black, on the angled wall bracket over a built-in bench. Product render.',
+    heater: `Tungsten Smart-Heat${R} Electric Series II, Select, on the angled wall bracket`,
+    points: [
+      ['palette', 'All black, front included, with no visible junction box on the wall.', ['d1', 'b1']],
+      ['phone', 'Timers, schedules and remote off from the Bromic app; Alexa or Google Assistant by voice.', ['b3', 'b4']],
+      ['badge', 'Three years on the heater and seven on the elements.', ['pf', 's4']],
+    ], src: ['b1', 'b3'] },
 ];
-const ctlBox = `<div class="box"><p class="bh">QUOTE EVERY HEATER WITH ITS CONTROLS</p>
-  ${CONTROLS.map(([n, s, c]) => `<p class="ci"><b>${n}</b><span class="sub">${s}</span>${c}</p>`).join('')}
-  <p class="ci last">Wi-Fi and app features need compatible Affinity Smart-Heat${R} Controls, sold separately. Quote no default timer length.${ref('b3', 'b4')}</p></div>`;
+for (const s of SETTINGS) { cite(3, `${s.title}: ${s.heater}. Controls: ${CTL}`, s.src); for (const [, t, src] of s.points) cite(3, `${s.title}: ${t}`, src); }
+const settings = SETTINGS.map((s) => `<article class="set">
+  <figure class="sp"><div class="si" style="${ph(s.img, s.pos)}"></div><figcaption>${s.cap}</figcaption></figure>
+  <div class="st"><h3>${s.title}</h3>
+    <dl class="kit"><dt>Heater</dt><dd>${s.heater}</dd><dt>Controls</dt><dd>${CTL}</dd></dl>
+    <p class="wm">Where it matters</p>
+    <ul class="pts">${s.points.map(([ic, t]) => `<li>${icon(ic, 'pi')}<span>${t}</span></li>`).join('')}</ul>
+  </div>
+</article>`).join('');
 
-const fairBox = `<div class="box"><p class="bh">KEEP IT FAIR</p>
-  <ul class="rules">
-    <li>Factual, sourced lines only; never run down another brand.</li>
-    <li>Where Infratech leads or matches, say so: colours, voltages to 480 V, recessing to 6 kW.</li>
-    <li>Never "only" without its qualifier, and no superlatives about depth or clearance.</li>
-    <li>No prices, and no Infratech logo or imagery.</li>
-  </ul></div>`;
-
+// ---------- page 4: how to sell it ----------
+const POINTS = [
+  { h: 'Start With The Ceiling', t: `Ask where the heat will mount. Flat, pitched from 3/12 to 12/12, or recessed: Series II recesses 6,000 W with a dual fan-ventilated kit and the recess box supplied. Infratech recesses 6 kW too; its flush frame needs a lined 2×8 pocket on a flat ceiling, and its drawing says: "After 4 hours of continuous use, a 15 minute cool down period is recommended".`,
+    src: ['b1', 'b2', 'i12', 'i13'] },
+  { h: 'Show The Whole Heater', t: 'Black, white or graphite carries through to the front, with three front patterns that swap without re-wiring. If the customer wants a specific colour, Infratech offers eight plus custom: say so, then show how the Bromic heater reads as one piece.',
+    src: ['d1', 'i2', 'i14'] },
+  { h: 'Quote It With Its Controls', t: `Every heater goes on the quote with its Affinity Smart-Heat${R} control and a wall switch. Then the warranty: three years on the heater and seven on the elements.`,
+    src: ['b3', 'pf', 's4'] },
+];
+for (const p of POINTS) cite(4, `${p.h}: ${p.t}`, p.src);
+const FAIR = [
+  'Factual lines only; never run down another brand.',
+  'Where Infratech leads or matches, say so: colours, voltages to 480 V, recessing to 6 kW.',
+  'Never "only" without its qualifier, and no superlatives about depth or clearance.',
+  'No prices, and no Infratech logo or imagery.',
+];
+cite(4, 'Keep it fair: Infratech colours, voltages to 480 V, recessing to 6 kW', ['i2', 'i3', 'i13']);
 const OPEN = [
-  'Series II low-clearance kit: no fire-rated lining or enclosure under its listing, and 7.5 in as the cavity depth (Product team)',
-  'Continuous-use guidance for the Series II recess kit (Product team)',
-  'Tilt to 45° on 4 and 6 kW: the Series II manual gives 30° (Product team)',
-  'Series II fronts on recessed installs; Coastal body material and coating name (Product team)',
-  "Platinum low-clearance kit: no fire-rated lining under its listing (Product team)",
-  "The market check behind the recess line: other brands' 6 kW recess products (Specification and compliance)",
+  'Series II recess kit: 7.5 in as the cavity depth, no fire-rated lining under its listing, and continuous-use guidance',
+  'Tilt to 45° on 4 and 6 kW (the Series II manual gives 30°)',
+  'Coastal body material (316 per the Lookbook) and the coating\'s name',
 ];
-const openBox = `<div class="sec open"><div class="hdr"><span class="lbl">TO CONFIRM BEFORE QUOTING</span><span class="lbl r">OPEN WITH THE TEAMS NAMED</span></div>
-  <ul class="ol">${OPEN.map((o) => `<li>${o}</li>`).join('')}</ul></div>`;
-
-const shortUrl = (u) => u === 'internal' ? 'internal document' : u.replace(/^https?:\/\/(www\.)?/, '');
-const sources = `<div class="sec srcs"><div class="hdr"><span class="lbl">SOURCES</span><span class="lbl r">COMPARED BY BROMIC 18–19 NOV 2026</span></div>
-  <ol class="src">${SRC.map((s, i) => `<li><span class="n">${i + 1}</span>${s.pub}, ${s.title}, ${s.date}. <span class="u">${shortUrl(s.url)}</span></li>`).join('')}</ol></div>`;
+const sell = `<ol class="sell">${POINTS.map((p, i) => `<li><span class="sn">${i + 1}</span><div><h3>${p.h}</h3><p>${p.t}</p></div></li>`).join('')}</ol>`;
 
 // ---------- page furniture ----------
-const zones = () => {
-  const cols = [1, 2, 3, 4, 5, 6], rows = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'];
-  const top = cols.map((k, i) => `<span style="left:${(i + 0.5) * 100 / cols.length}%">${k}</span>`).join('');
-  const side = rows.map((k, i) => `<span style="top:${(i + 0.5) * 100 / rows.length}%">${k}</span>`).join('');
-  return `<div class="zones"><div class="zt">${top}</div><div class="zb">${top}</div><div class="zl">${side}</div><div class="zr">${side}</div></div>`;
-};
-const REVIEW = 'Specification and compliance review required before external use';
-const strip = (sheet, notes) => `<div class="strip">
-  <div class="cell grow"><b>SOURCES</b><span>${notes}</span></div>
-  <div class="cell"><b>FOR</b><span>Retail floor and buyers</span></div>
-  <div class="cell"><b>SHEET TITLE</b><span>Bromic vs Infratech</span></div>
-  <div class="cell rv"><b>REVIEW</b><span>${REVIEW}</span></div>
-  <div class="cell s"><b>DATE</b><span>2026-11-22</span></div>
-  <div class="cell sheet"><b>SHEET</b><span>${sheet}<i>/02</i></span></div>
-</div>`;
-const head = (eyebrow, h2, lede, photo) => `<header class="s-head">
-  <div class="s-text"><div class="brand"><img class="logo" src="img/bromic-logo.png" alt="Bromic Heating"><span class="lbl">RETAIL KIT · COMPETITIVE SHEET</span></div>
-  <p class="eyebrow">${eyebrow}</p><h2>${h2}</h2><p class="s-lede">${lede}</p></div>
-  ${photo ? `<figure class="ph top"><div class="ph-img" style="background-image:url(img/${photo[0]}.jpg);background-size:${photo[2] || 'cover'};background-position:${photo[3] || 'center'}"></div><figcaption><b>PHOTO</b> ${photo[1]}</figcaption></figure>` : ''}
-</header>`;
-const legend = `<div class="legend"><span class="lbl">EDGE</span>${chip('bromic')}${chip('parity')}${chip('competitor')}${chip('mixed')}<span class="lk">Mixed: Bromic leads on some points, Infratech on others. ${TC}: a Bromic fact the Product team is checking.</span></div>`;
+const top = (n) => `<header class="top"><img class="logo" src="img/bromic-logo.png" alt="Bromic Heating"><span class="tl">Retail kit · Bromic vs Infratech</span></header>`;
+const foot = (n) => `<footer class="foot"><span>Tungsten Smart-Heat${R} Electric Series II and Infratech electric infrared heaters, as each brand published them, November 2026.</span><span class="rv">${REVIEW}</span><span class="pg">${String(n).padStart(2, '0')}<i> / ${String(PAGES).padStart(2, '0')}</i></span></footer>`;
+const page = (n, body, cls = '') => `<section class="page ${cls}">${top(n)}<div class="flow">${body}</div>${foot(n)}</section>`;
 
-const page1 = `<section class="page">
-  <div class="grid"></div>${zones()}<div class="frame"></div><div class="flow">
-  ${head('BROMIC VS INFRATECH · ELECTRIC INFRARED', 'Bromic And Infratech, Side By Side',
-    `Twelve benefit fields, as each brand publishes them: Tungsten Smart-Heat${R} Electric Series II (Select and Coastal now, Classic from January 2027) and, where the data covers it, Platinum Smart-Heat${R} Electric. Where the brands match, or Infratech leads, the sheet says so.`,
-    ['p-s2-post', 'Tungsten Select Series II, black, on its single post. Product render.', 'contain', 'center'])}
-  <div class="sec"><div class="hdr"><span class="lbl">THE COMPARISON · ONE ROW PER BENEFIT FIELD</span><span class="lbl r">NUMBERED SOURCES ON SHEET 02</span></div>
-    ${legend}${table}
-    <p class="fn">Facts as published by each brand on the dates shown; check current specifications before quoting. Bromic coverage figures are approximate and vary with model, height and site. ${REVIEW}.</p>
+const page1 = page(1, `
+  <div class="p1-head">
+    <div><p class="eyebrow">Bromic vs Infratech · the differences</p>
+    <h1>Where Bromic Pulls Ahead</h1>
+    <p class="lede">Tungsten Smart-Heat${R} Electric Series II against Infratech's electric infrared heaters, on the six points customers ask about. Select and Coastal are available now; Classic follows in January 2027.</p></div>
   </div>
-  </div>
-  ${strip('01', 'Bromic: Tungsten Series II and Platinum Electric product pages, manuals, recess kit instructions, warranty and Affinity pages · Infratech: series pages, FAQs, flush frame drawing, mounting, controls and warranty · Listed in full on sheet 02')}
-</section>`;
+  <figure class="hero"><div class="hi" style="${ph('hero-family', 'center 42%')}"></div><figcaption>Tungsten Series II Select in black, graphite and white. Product render.</figcaption></figure>
+  ${callouts}
+  <p class="key"><span class="kb">Bromic</span> in ink, <span class="ki">Infratech</span> in grey, from each brand's own documents. <i class="tc">To confirm</i>: a Bromic fact the Product team is checking.</p>`);
 
-const page2 = `<section class="page">
-  <div class="grid"></div>${zones()}<div class="frame"></div><div class="flow f2">
-  ${head('BROMIC VS INFRATECH · ON THE FLOOR', 'How To Talk About It On The Floor',
-    'When a customer names Infratech, start with the space, then the heater. Use these lines as written.', null)}
-  <div class="two">
-    <div class="sec talkw"><div class="hdr"><span class="lbl">SIX FAIR LINES</span><span class="lbl r">NO PRICES · NO DISPARAGEMENT</span></div>${talk}</div>
-    <div class="side">
-      <figure class="ph"><div class="ph-img" style="background-image:url(img/p-s2-recess.jpg)"></div><figcaption><b>PHOTO</b> Tungsten Series II in its low-clearance recess kit. Product render.</figcaption></figure>
-      ${ctlBox}${fairBox}
-    </div>
+const page2 = page(2, `
+  <p class="eyebrow">Bromic vs Infratech · side by side</p>
+  <h2>Point By Point</h2>
+  <div class="p2-band">${renders}${tallyBar}</div>
+  ${matrix}
+  <p class="key">Flame rows: Bromic ahead. Plain rows: level, or Infratech ahead, as marked. Each brand measures coverage its own way; Bromic coverage is approximate and varies with model, height and site.</p>`);
+
+const page3 = page(3, `
+  <p class="eyebrow">Bromic vs Infratech · in use</p>
+  <h2>Where It Matters To Your Customer</h2>
+  <div class="sets">${settings}</div>`);
+
+const page4 = page(4, `
+  <figure class="band"><div class="bi" style="${ph('l-beach', 'center 8%')}"></div><figcaption>Tungsten Electric on a beach-house porch. Bromic Outdoor Lookbook 2026.</figcaption></figure>
+  <p class="eyebrow">Bromic vs Infratech · on the floor</p>
+  <h2>How To Sell It</h2>
+  <p class="lede">When a customer names Infratech, start with the space, then the heater.</p>
+  ${sell}
+  <div class="p4-row">
+    <div class="box"><p class="bh">Keep it fair</p><ul class="rules">${FAIR.map((f) => `<li>${f}</li>`).join('')}</ul></div>
+    <div class="box"><p class="bh">Confirm before quoting</p><ul class="rules q">${OPEN.map((f) => `<li>${f}</li>`).join('')}</ul><p class="who">Open with the Product team.</p></div>
   </div>
-  ${openBox}
-  ${sources}
-  <div class="foot2"><p class="disc"><b>BEFORE YOU QUOTE</b> Facts as published by each brand on the dates shown; check current specifications before quoting. Installation by a licensed electrician to local code. <span class="rvm">${REVIEW}.</span></p>
-  <a class="btn" href="https://www.bromic.com/design-your-space/">REQUEST YOUR DESIGN PLAN <span>→</span><em>BROMIC.COM/DESIGN-YOUR-SPACE</em></a></div>
-  </div>
-  ${strip('02', 'Numbered list above. Infratech facts from Infratech documents and dealer-hosted copies of them; Bromic facts from Bromic product pages, manuals and the Series II launch deck. No retail prices are used.')}
-</section>`;
+  <div class="cta-row">
+    <p class="disc"><b>Before you quote</b>Facts as each brand published them, November 2026; check current specifications before quoting. Installation by a licensed electrician to local code. <span class="rvm">${REVIEW}.</span></p>
+    <a class="btn" href="https://www.bromic.com/design-your-space/">Request your design plan <span>→</span><em>bromic.com/design-your-space</em></a>
+  </div>`);
 
 // ---------- styles ----------
 const css = `
 @font-face{font-family:BzDidot;src:url('${rel('app/src/fonts/gfs-didot-latin.woff2')}') format('woff2')}
 @font-face{font-family:BzSans;src:url('${rel('app/src/fonts/arimo-latin.woff2')}') format('woff2')}
-@font-face{font-family:BzMono;src:url('${rel('reports/themes/blueprint/fonts/plex-mono-400.woff2')}') format('woff2');font-weight:400}
-@font-face{font-family:BzMono;src:url('${rel('reports/themes/blueprint/fonts/plex-mono-500.woff2')}') format('woff2');font-weight:500}
 @page{size:Letter;margin:0}
 *{box-sizing:border-box;margin:0;padding:0}
 html,body{background:#fff}
-body{font-family:BzSans,Arial,sans-serif;color:${T.ink};-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{font-family:'Helvetica Neue',BzSans,Arial,sans-serif;font-weight:300;color:${T.ink};-webkit-print-color-adjust:exact;print-color-adjust:exact}
+b{font-weight:700}
 .page{width:8.5in;height:11in;position:relative;overflow:hidden;margin:0 auto;background:#fff;break-after:page}
 .page:last-child{break-after:auto}
-.grid{position:absolute;inset:.42in;pointer-events:none;background-image:linear-gradient(rgba(28,43,68,.07) .6px,transparent .6px),linear-gradient(90deg,rgba(28,43,68,.07) .6px,transparent .6px),linear-gradient(rgba(28,43,68,.028) .5px,transparent .5px),linear-gradient(90deg,rgba(28,43,68,.028) .5px,transparent .5px);background-size:1in 1in,1in 1in,.125in .125in,.125in .125in}
-.frame{position:absolute;inset:.42in;border:.9px solid ${T.draw};pointer-events:none}
-.zones{position:absolute;inset:.3in;border:.5px solid ${T.steel};color:${T.steel};font:500 6px/1 BzMono,monospace;letter-spacing:.1em;pointer-events:none}
-.zones .zt,.zones .zb{position:absolute;left:.12in;right:.12in;height:.12in}.zones .zt{top:0}.zones .zb{bottom:0}
-.zones .zl,.zones .zr{position:absolute;top:.12in;bottom:.12in;width:.12in}.zones .zl{left:0}.zones .zr{right:0}
-.zones span{position:absolute;transform:translate(-50%,-50%)}
-.zones .zt span,.zones .zb span{top:50%}.zones .zl span,.zones .zr span{left:50%}
-.lbl,.eyebrow{font:500 7.6px/1.2 BzMono,monospace;letter-spacing:.16em;text-transform:uppercase}
-.eyebrow{color:${T.flame}}
-h2{font-family:BzDidot,Didot,serif;font-weight:400;letter-spacing:-.005em}
-.flow{position:absolute;left:.72in;right:.72in;top:.62in;bottom:.98in;display:flex;flex-direction:column;gap:10px}
-.flow>*{flex:none}
-.flow.f2{gap:8px}
-.flow>.foot2{margin-top:auto}
-.s-head{display:flex;gap:.3in;align-items:flex-start}
-.s-text{flex:1}
-.brand{display:flex;align-items:center;justify-content:space-between;border-bottom:.9px solid ${T.draw};padding-bottom:7px;margin-bottom:10px;color:${T.draw}}
+.top{position:absolute;left:.6in;right:.6in;top:.42in;display:flex;justify-content:space-between;align-items:center;padding-bottom:8px;border-bottom:.8px solid ${T.ink}}
 .logo{height:15px;display:block}
-.s-head h2{font-size:31px;line-height:1.08;margin:6px 0 7px;color:${T.ink}}
-.s-lede{font-size:10px;line-height:1.5;color:#3f3b3c;max-width:5.4in}
-.ph{border:.6px solid ${T.draw};padding:4px;background:#fff}
-.ph.top{width:1.42in;flex:none}
-.ph.top .ph-img{height:1.08in;background-color:#fff}
-.ph-img{height:1.1in;background-size:cover;background-position:center;background-repeat:no-repeat}
-.ph figcaption{display:block;font:400 6.6px/1.4 BzMono,monospace;letter-spacing:.04em;margin-top:4px;color:${T.steel}}
-.ph figcaption b{font-weight:500;color:${T.flame};margin-right:4px;letter-spacing:.14em}
-.hdr{display:flex;justify-content:space-between;border-bottom:.9px solid ${T.draw};padding-bottom:5px;margin-bottom:7px;color:${T.draw}}
-.hdr .r{color:${T.flame}}
-.legend{display:flex;align-items:center;gap:6px;margin:0 0 6px;flex-wrap:wrap}
-.legend .lbl{color:${T.steel};margin-right:2px}
-.legend .lk{font:400 6.6px/1.3 BzMono,monospace;color:${T.steel};letter-spacing:.02em;margin-left:4px}
-.chip{display:inline-block;font:500 6.2px/1 BzMono,monospace;letter-spacing:.08em;text-transform:uppercase;padding:2.6px 4px 2.2px;border:.7px solid ${T.draw};color:${T.draw};background:#fff;white-space:nowrap}
-.chip.b{background:${T.flame};border-color:${T.flame};color:#fff}
-.chip.p{border-color:${T.draw};color:${T.draw}}
-.chip.i{background:${T.draw};border-color:${T.draw};color:#fff}
-.chip.m{border-style:dashed;color:${T.draw}}
-.chip.u{border-style:dotted;color:${T.steel}}
-.mx{width:100%;border-collapse:collapse;table-layout:fixed;font-size:7.9px;line-height:1.32;color:${T.ink}}
-.mx th{font:500 6.4px/1.2 BzMono,monospace;letter-spacing:.12em;text-align:left;color:${T.steel};padding:0 8px 5px 0;border-bottom:.6px solid ${T.draw}}
-.mx td{padding:3.7px 8px 3.7px 0;border-bottom:.5px solid ${T.hair};vertical-align:top}
-.mx td.ser{font:500 7px/1.3 BzMono,monospace;letter-spacing:.06em;text-transform:uppercase;color:${T.draw}}
-.mx td b{font-weight:700}
-.mx td.inf{color:#3f3b3c}
-.mx td.ed{padding-right:0}
-.eg{display:flex;flex-direction:column;align-items:flex-start;gap:1.5px;margin-bottom:3px}
-.eg .who{font:500 5.4px/1 BzMono,monospace;letter-spacing:.14em;color:${T.steel}}
-.rf{font:500 5.6px/0 BzMono,monospace;color:${T.steel};margin-left:1px;letter-spacing:0}
-.tc{color:${T.flame};font-style:italic}
-.fn{font:400 6.7px/1.5 BzMono,monospace;color:${T.steel};margin-top:6px;letter-spacing:.01em}
-.two{display:grid;grid-template-columns:1fr 2.28in;gap:.22in}
-.talk{list-style:none;display:flex;flex-direction:column;gap:0}
-.talk li{position:relative;padding:5px 0 5px 22px;border-bottom:.5px solid ${T.hair}}
-.talk li:first-child{padding-top:1px}
-.talk .no{position:absolute;left:0;top:6px;width:15px;height:15px;border-radius:50%;border:.8px solid ${T.flame};display:grid;place-items:center;font:500 7.4px/1 BzMono,monospace;color:${T.flame}}
-.talk li:first-child .no{top:1px}
-.talk p{font-size:8.3px;line-height:1.4}
-.talk .q,.talk .a{display:grid;grid-template-columns:72px 1fr;align-items:baseline}
-.talk b{font:500 6.2px/1 BzMono,monospace;letter-spacing:.12em;color:${T.steel}}
-.talk .q{font-family:BzDidot,Didot,serif;font-size:11.8px;line-height:1.25;color:${T.ink};margin-bottom:2px}
-.talk .a{color:#2f2b2c}
-.talk .nt{padding-left:72px;font:400 6.8px/1.4 BzMono,monospace;color:${T.steel};margin-top:2px}
-.side{display:flex;flex-direction:column;gap:9px}
-.side .ph-img{height:.92in;background-color:#fff}
-.box{border:.7px solid ${T.draw};padding:7px 9px 8px;background:#fff}
-.bh{font:500 6.8px/1.2 BzMono,monospace;letter-spacing:.14em;color:${T.flame};margin-bottom:5px}
-.ci{font-size:7.9px;line-height:1.38;color:#3f3b3c;margin-bottom:5px}
-.ci b{display:block;color:${T.ink};font-size:8.2px}
-.ci .sub{display:block;font:500 5.8px/1.5 BzMono,monospace;letter-spacing:.08em;color:${T.steel}}
-.ci.last{margin:0;padding-top:5px;border-top:.5px solid ${T.hair}}
+.tl,.eyebrow,.co-lbl,.bh,.wm,.mx th,.foot,.kit dt{font:700 7.2px/1.2 BzSans,Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase}
+.tl{color:${T.steel}}
+.eyebrow{color:${T.flame};margin-bottom:6px}
+h1,h2,h3{font-family:BzDidot,Didot,serif;font-weight:400;letter-spacing:-.005em;color:${T.ink}}
+h1{font-size:46px;line-height:1.02;margin-bottom:9px}
+h2{font-size:34px;line-height:1.05;margin-bottom:12px}
+.lede{font-size:10.5px;line-height:1.5;color:#3f3b3c;max-width:5.6in}
+.flow{position:absolute;left:.6in;right:.6in;top:.82in;bottom:.72in;display:flex;flex-direction:column}
+.flow>*{flex:none}
+.foot{position:absolute;left:.6in;right:.6in;bottom:.4in;display:flex;gap:14px;align-items:baseline;border-top:.6px solid ${T.hair};padding-top:6px;color:${T.mute};font-weight:400;letter-spacing:.04em;text-transform:none;font-size:6.6px}
+.foot span:first-child{flex:1}
+.foot .rv{color:${T.flame};letter-spacing:.06em}
+.foot .pg{font:400 11px/1 BzDidot,serif;color:${T.ink};letter-spacing:0}
+.foot .pg i{font-style:normal;color:${T.mute};font-size:8px}
+.tc{color:${T.flame};font-style:italic;font-weight:400}
+/* page 1 */
+.p1-head{margin-top:16px}
+.hero{margin:16px 0 18px}
+.hi{height:2.45in;background-size:cover;background-color:${T.wash}}
+figcaption{font-size:6.8px;line-height:1.4;color:${T.mute};margin-top:4px;letter-spacing:.02em}
+.co-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0;border-top:1.6px solid ${T.ink}}
+.co{padding:15px 12px 15px 0;border-bottom:.6px solid ${T.hair};display:flex;flex-direction:column}
+.co:not(:nth-child(3n+1)){padding-left:12px;border-left:.6px solid ${T.hair}}
+.co-top{display:flex;align-items:center;gap:7px;margin-bottom:8px}
+.co-ic{width:24px;height:24px;border-radius:50%;background:${T.tint};color:${T.flame};display:grid;place-items:center;flex:none}
+.co-ic .ic{width:14px;height:14px}
+.co-lbl{color:${T.ink};font-size:6.8px;line-height:1.25}
+.co-big{font:400 42px/1 BzDidot,Didot,serif;color:${T.ink};letter-spacing:-.01em}
+.co-big em{font-style:normal;color:${T.flame}}
+.co-unit{font-size:7.4px;color:${T.flame};font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin:4px 0 7px}
+.co-b{font-size:9px;line-height:1.42;color:${T.ink};font-weight:400;margin-bottom:7px}
+.co-i{font-size:8.4px;line-height:1.42;color:${T.mute};border-top:.6px dotted ${T.hair};padding-top:6px;margin-top:auto}
+.co-i b{display:block;font-size:6.4px;letter-spacing:.16em;text-transform:uppercase;color:${T.mute};margin-bottom:2px}
+.key{font-size:7px;line-height:1.5;color:${T.mute};margin-top:9px}
+.key .kb{color:${T.ink};font-weight:700}.key .ki{color:${T.mute};font-weight:700}
+/* page 2 */
+.p2-band{display:grid;grid-template-columns:1fr 2.05in;gap:16px;align-items:end;margin-bottom:12px}
+.renders{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}
+.ri{height:1.6in;background-size:cover;background-color:${T.wash}}
+.tally{padding-bottom:16px}
+.tl-bar{display:flex;height:10px;gap:2px;margin-bottom:7px}
+.tb.b{background:${T.flame}}.tb.p{background:${T.hair}}.tb.i{background:${T.steel}}
+.tl-key{display:flex;flex-direction:column;gap:3px;font-size:8px;color:#3f3b3c}
+.tl-key b{font:400 14px/1 BzDidot,serif;color:${T.ink};margin:0 3px 0 1px}
+.tl-key .tl-n{font-size:6.8px;color:${T.mute};letter-spacing:.06em;text-transform:uppercase}
+.mk{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:5px;vertical-align:0}
+.mk.b{background:${T.flame}}.mk.p{background:#fff;border:1px solid ${T.steel}}.mk.i{background:${T.steel}}
+.mx{width:100%;border-collapse:collapse;table-layout:fixed;font-size:8.6px;line-height:1.3}
+.mx thead th{color:${T.mute};text-align:left;padding:0 6px 5px 0;border-bottom:1.6px solid ${T.ink};font-size:6.6px}
+.mx thead th.hb{color:${T.flame}}
+.mx td{padding:6.8px 6px 6.8px 0;border-bottom:.5px solid ${T.hair};vertical-align:middle}
+.mx th.grp{font:400 11.5px/1.15 BzDidot,serif;color:${T.ink};text-transform:none;letter-spacing:0;text-align:left;vertical-align:top;padding:5px 6px 0 0;border-bottom:.8px solid ${T.ink}}
+.mx tbody tr:last-child td{border-bottom:.8px solid ${T.ink}}
+.mx td.ft{color:#3f3b3c;font-weight:400}
+.mx td.cb{color:${T.ink};font-weight:400}
+.mx td.ci{color:${T.mute}}
+.mx tr.e-b td{background:${T.tint}}
+.mx tr.e-b td.ft{box-shadow:inset 2px 0 0 ${T.flame};padding-left:6px}
+.mx tr:not(.e-b) td.ft{padding-left:6px}
+.mx td.ed{font-size:7px;color:${T.steel};white-space:nowrap}
+.mx tr.e-b td.ed{color:${T.flame};font-weight:700}
+.ok,.no{display:inline-flex;align-items:center;gap:4px}
+.tk{width:10px;height:10px;flex:none;stroke-width:2.6}
+.ok .tk{color:${T.flame}}
+.ci .ok .tk{color:${T.steel}}
+.no .tk{color:${T.mute}}
+.v{font:400 13px/1 BzDidot,serif}
+.ci .v{color:${T.mute}}
+.bar{display:flex;align-items:center;gap:5px;margin:1px 0}
+.bt{display:inline-block;height:7px;background:${T.flame}}
+.ci .bt{background:${T.steel}}
+.bx{display:inline-block;height:7px;margin-left:-5px;background:#fff;border:1px solid ${T.steel};margin-left:0}
+.bl{font-size:7.6px}
+.bn{display:block;font-size:7px;color:${T.mute}}
+/* page 3 */
+.sets{display:flex;flex-direction:column;gap:18px;margin-top:2px}
+.set{display:grid;grid-template-columns:3.05in 1fr;gap:18px;padding-top:14px;border-top:1.6px solid ${T.ink}}
+.si{height:2.4in;background-size:cover;background-color:${T.wash}}
+.st h3{font-size:22px;line-height:1.1;margin-bottom:8px}
+.kit{display:grid;grid-template-columns:52px 1fr;gap:4px 8px;font-size:8.2px;line-height:1.4;margin-bottom:9px;padding-bottom:8px;border-bottom:.6px solid ${T.hair}}
+.kit dt{color:${T.flame};padding-top:1.5px;font-size:6.4px}
+.kit dd{color:#3f3b3c;font-weight:400}
+.wm{color:${T.mute};margin-bottom:5px;font-size:6.4px}
+.pts{list-style:none;display:flex;flex-direction:column;gap:5px}
+.pts li{display:grid;grid-template-columns:16px 1fr;gap:6px;font-size:9.2px;line-height:1.42;color:${T.ink};font-weight:400}
+.pi{width:13px;height:13px;color:${T.flame};margin-top:1px}
+/* page 4 */
+.band{margin-bottom:14px}
+.bi{height:3.1in;background-size:cover;background-color:${T.wash}}
+.sell{list-style:none;display:grid;grid-template-columns:1fr 1fr 1fr;gap:0;margin:14px 0 14px;border-top:1.6px solid ${T.ink}}
+.sell li{padding:11px 12px 12px 0;display:flex;flex-direction:column;gap:6px}
+.sell li+li{padding-left:12px;border-left:.6px solid ${T.hair}}
+.sn{font:400 34px/1 BzDidot,serif;color:${T.flame}}
+.sell h3{font-size:18px;line-height:1.15;margin-bottom:5px}
+.sell p{font-size:9.2px;line-height:1.5;color:#3f3b3c;font-weight:400}
+.p4-row{margin-bottom:16px;display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.box{border:.6px solid ${T.hair};border-top:1.6px solid ${T.flame};padding:9px 11px 10px}
+.bh{color:${T.ink};margin-bottom:6px}
 .rules{list-style:none}
-.rules li{font-size:7.9px;line-height:1.38;color:#3f3b3c;padding-left:9px;position:relative;margin-bottom:3px}
-.rules li:before{content:'';position:absolute;left:0;top:4.4px;width:4px;height:.8px;background:${T.flame}}
-.sec.open .ol{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:2px 16px}
-.ol li{font-size:7.3px;line-height:1.32;color:#3f3b3c;padding-left:11px;position:relative}
-.ol li:before{content:'?';position:absolute;left:0;top:0;font:500 7px/1.36 BzMono,monospace;color:${T.flame}}
-.src{list-style:none;columns:3;column-gap:14px}
-.src li{font:400 5.7px/1.3 BzMono,monospace;color:${T.steel};break-inside:avoid;padding-left:12px;position:relative;margin-bottom:2px;letter-spacing:0}
-.src .n{position:absolute;left:0;top:0;color:${T.draw};font-weight:500}
-.src .u{color:${T.draw};word-break:break-all}
-.foot2{display:flex;gap:.26in;align-items:center}
-.disc{flex:1;font-size:7.8px;line-height:1.45;color:#3f3b3c;border-left:1.2px solid ${T.flame};padding-left:8px}
-.disc b{font:500 6.6px BzMono,monospace;letter-spacing:.14em;color:${T.flame};margin-right:5px}
-.disc .rvm{font:500 6.4px/1.4 BzMono,monospace;letter-spacing:.06em;color:${T.draw};text-transform:uppercase;display:block;margin-top:2px}
-.btn{flex:none;display:inline-flex;flex-direction:row;flex-wrap:wrap;gap:4px 10px;align-items:center;border:.9px solid ${T.flame};color:${T.flame};font:500 7.6px/1 BzMono,monospace;letter-spacing:.16em;padding:7px 12px;text-decoration:none;background:#fff;max-width:2.4in}
-.btn em{flex-basis:100%;font-style:normal;font-size:6px;letter-spacing:.12em;color:${T.steel}}
-.strip{position:absolute;left:.42in;right:.42in;bottom:.42in;height:.48in;display:flex;border-top:.9px solid ${T.draw};font:400 7px/1.25 BzMono,monospace;color:${T.ink};background:#fff}
-.strip .cell{padding:5px 7px;border-right:.5px solid ${T.hair};display:flex;flex-direction:column;justify-content:space-between;white-space:nowrap}
-.strip .cell:last-child{border-right:0}
-.strip .cell.grow{flex:1;white-space:normal}
-.strip .cell.grow span{font-size:5.6px;line-height:1.3;color:${T.steel}}
-.strip .cell.rv{white-space:normal;width:1.3in}
-.strip .cell.rv span{font-size:5.6px;line-height:1.3;color:${T.flame}}
-.strip b{font-weight:500;font-size:5.4px;letter-spacing:.16em;color:${T.steel}}
-.strip .sheet span{font-size:15px;line-height:1;color:${T.draw}}
-.strip .sheet i{font-style:normal;font-size:8px;color:${T.steel};margin-left:1px}
+.rules li{font-size:8.6px;line-height:1.42;color:#3f3b3c;padding-left:10px;position:relative;margin-bottom:3px;font-weight:400}
+.rules li:before{content:'';position:absolute;left:0;top:5px;width:5px;height:.9px;background:${T.flame}}
+.rules.q li:before{content:'?';background:none;width:auto;height:auto;top:0;font-size:8px;font-weight:700;color:${T.flame}}
+.who{font-size:7px;color:${T.mute};margin-top:3px}
+.cta-row{display:flex;gap:.26in;align-items:center;margin-top:auto}
+.disc{flex:1;font-size:7.8px;line-height:1.5;color:#3f3b3c;border-left:1.2px solid ${T.flame};padding-left:9px;font-weight:400}
+.disc b{font-size:6.6px;letter-spacing:.16em;text-transform:uppercase;color:${T.flame};margin-right:6px}
+.disc .rvm{display:block;margin-top:2px;font-size:6.6px;letter-spacing:.08em;text-transform:uppercase;color:${T.ink};font-weight:700}
+.btn{flex:none;display:inline-flex;flex-wrap:wrap;gap:4px 10px;align-items:center;background:${T.ink};color:#fff;font:700 8px/1 BzSans,Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase;padding:10px 14px;text-decoration:none;max-width:2.5in}
+.btn span{color:${T.flame}}
+.btn em{flex-basis:100%;font-style:normal;font-size:6.4px;letter-spacing:.12em;color:#C9CDD2;text-transform:lowercase}
 `;
 
 const html = `<!doctype html><html lang="en-US"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Bromic vs Infratech</title><style>${css}</style></head><body>${page1}${page2}</body></html>`;
+<title>Bromic vs Infratech</title><style>${css}</style></head><body>${page1}${page2}${page3}${page4}</body></html>`;
 
 // ---------- render and print check ----------
 (async () => {
   prepImages();
   fs.mkdirSync(path.join(HERE, 'pages'), { recursive: true });
+  for (const f of fs.readdirSync(path.join(HERE, 'pages'))) if (/^p\d+\.png$/.test(f)) fs.unlinkSync(path.join(HERE, 'pages', f));
   fs.writeFileSync(path.join(HERE, 'index.html'), html);
+  fs.writeFileSync(path.join(HERE, 'sources.json'), JSON.stringify({
+    _readme: 'Internal: the source of every fact on Bromic-Vs-Infratech.pdf, page by page, for the Specification and compliance review. Not printed and not published. Built by build.js.',
+    needs_approval: 'Specification and compliance', built: new Date().toISOString().slice(0, 10), facts: LEDGER,
+  }, null, 1) + '\n');
   const report = [];
-  const words = html.replace(/<style>[\s\S]*?<\/style>/, '').replace(/<[^>]+>/g, ' ');
+  const words = html.replace(/<style>[\s\S]*?<\/style>/, '').replace(/<svg[\s\S]*?<\/svg>/g, ' ').replace(/<[^>]+>/g, ' ');
   if (/\$/.test(words)) report.push('a "$" appears');
   if (/\[\[/.test(words) || /VERIFY/.test(words)) report.push('a raw [[VERIFY appears');
   if (/coming soon/i.test(words)) report.push('"coming soon" appears');
@@ -364,15 +447,17 @@ const html = `<!doctype html><html lang="en-US"><head><meta charset="utf-8">
   if (/—/.test(words)) report.push('long dash in copy');
   if (/!/.test(words)) report.push('exclamation mark');
   if (/shallowest|lowest clearance/i.test(words)) report.push('a claim the claim check bars');
-  if (/\bthe only 6 kW low-clearance recess option\b/i.test(words)) report.push('the unqualified recess claim');
+  if (/\bthe only\b/i.test(words)) report.push('an "only" claim');
+  if (/<sup|\bSOURCES\b|infratech\.com|cdn\.shopify|pim\.bromic/i.test(html.replace(/<style>[\s\S]*?<\/style>/, ''))) report.push('a printed source or footnote marker');
   if (!/sold separately/i.test(words)) report.push('the Wi-Fi/app line is missing');
+  if ((words.match(/Affinity Smart-Heat® Dimmer/g) || []).length < SETTINGS.length) report.push('a setting without its controls');
   if (!words.includes('After 4 hours of continuous use, a 15 minute cool down period is recommended')) report.push('flush-frame quote not exact');
-  if (!words.includes('Facts as published by each brand on the dates shown; check current specifications before quoting.')) report.push('dates line missing');
-  if ((words.match(/Specification and compliance review required before external use/g) || []).length < 2) report.push('review mark not on both pages');
+  if (!/Classic follows in January 2027/.test(words)) report.push('Series II launch line missing');
+  if ((words.match(new RegExp(REVIEW, 'g')) || []).length < PAGES) report.push('review mark not on every page');
   if (/(src=["']?|url\()[^"')]*infratech/i.test(html)) report.push('an Infratech image is referenced');
 
   const browser = await chromium.launch();
-  const page = await browser.newPage({ viewport: { width: 816, height: 1056 }, deviceScaleFactor: 1 });
+  const page = await browser.newPage({ viewport: { width: 816, height: 1056 }, deviceScaleFactor: 2 });
   await page.goto('file://' + path.join(HERE, 'index.html'), { waitUntil: 'networkidle' });
   await page.evaluate(() => document.fonts.ready);
   const qa = await page.evaluate(() => {
@@ -380,24 +465,29 @@ const html = `<!doctype html><html lang="en-US"><head><meta charset="utf-8">
     const hit = (a, b) => Math.max(0, Math.min(a.right, b.right) - Math.max(a.left, b.left)) * Math.max(0, Math.min(a.bottom, b.bottom) - Math.max(a.top, b.top));
     document.querySelectorAll('.page').forEach((pgEl, n) => {
       const pg = pgEl.getBoundingClientRect();
-      const frame = { left: pg.left + 40, right: pg.right - 40, top: pg.top + 40, bottom: pg.bottom - 40 };
-      const stripTop = pgEl.querySelector('.strip').getBoundingClientRect().top;
-      pgEl.querySelectorAll('p, h2, li, td, th, figcaption, .btn, .chip').forEach((el) => {
+      const frame = { left: pg.left + 40, right: pg.right - 40, top: pg.top + 30, bottom: pg.bottom - 30 };
+      const footTop = pgEl.querySelector('.foot').getBoundingClientRect().top;
+      pgEl.querySelectorAll('p, h1, h2, h3, li, td, th, dt, dd, figcaption, .btn, .co-big, .tl-key span').forEach((el) => {
         const r = el.getBoundingClientRect(); if (!r.width) return;
         const t = el.textContent.trim().slice(0, 40);
-        if (r.left < frame.left - 1 || r.right > frame.right + 1 || r.top < frame.top - 1) out.push(`p${n + 1} off frame: "${t}"`);
-        if (!el.closest('.strip') && r.bottom > stripTop - 2) out.push(`p${n + 1} runs into the title strip: "${t}"`);
+        if (r.left < frame.left - 1 || r.right > frame.right + 1 || r.top < frame.top - 1 || r.bottom > frame.bottom + 1) out.push(`p${n + 1} off the page margin: "${t}"`);
+        if (!el.closest('.foot') && r.bottom > footTop - 2) out.push(`p${n + 1} runs into the footer: "${t}"`);
         if (el.scrollWidth > el.clientWidth + 1 && getComputedStyle(el).overflow !== 'visible') out.push(`p${n + 1} clipped: "${t}"`);
       });
-      pgEl.querySelectorAll('.strip .cell').forEach((c) => { if (c.scrollHeight > c.clientHeight + 1 || c.scrollWidth > c.clientWidth + 1) out.push(`p${n + 1} strip cell overflows: "${c.textContent.trim().slice(0, 30)}"`); });
       const fl = pgEl.querySelector('.flow');
-      if (fl.scrollHeight > fl.clientHeight + 1) out.push(`p${n + 1} content is ${fl.scrollHeight - fl.clientHeight}px taller than the sheet`);
+      if (fl.scrollHeight > fl.clientHeight + 1) out.push(`p${n + 1} content is ${fl.scrollHeight - fl.clientHeight}px taller than the page`);
       const kids = [...fl.children].map((e) => ({ e, r: e.getBoundingClientRect() }));
-      for (let i = 0; i < kids.length; i++) for (let j = i + 1; j < kids.length; j++) if (hit(kids[i].r, kids[j].r) > 4) out.push(`p${n + 1} blocks overlap: ${kids[i].e.className} / ${kids[j].e.className}`);
-      // chips inside the edge column
-      pgEl.querySelectorAll('td.ed').forEach((td) => { const tr = td.getBoundingClientRect(); td.querySelectorAll('.chip').forEach((c) => { const r = c.getBoundingClientRect(); if (r.right > tr.right + 1) out.push(`p${n + 1} chip wider than its column`); }); });
+      for (let i = 0; i < kids.length; i++) for (let j = i + 1; j < kids.length; j++) if (hit(kids[i].r, kids[j].r) > 4) out.push(`p${n + 1} blocks overlap: ${kids[i].e.className || kids[i].e.tagName} / ${kids[j].e.className || kids[j].e.tagName}`);
+      // text inside a cell, card or setting never overlaps its neighbour
+      const groups = [...pgEl.querySelectorAll('.co, .set, .sell li, .renders figure, .box')];
+      for (let i = 0; i < groups.length; i++) for (let j = i + 1; j < groups.length; j++) {
+        if (groups[i].contains(groups[j]) || groups[j].contains(groups[i])) continue;
+        if (hit(groups[i].getBoundingClientRect(), groups[j].getBoundingClientRect()) > 4) out.push(`p${n + 1} overlap: ${groups[i].className} / ${groups[j].className}`);
+      }
+      pgEl.querySelectorAll('.co, .set .st, .sell li').forEach((c) => { if (c.scrollHeight > c.clientHeight + 1) out.push(`p${n + 1} text overflows its block: "${c.textContent.trim().slice(0, 30)}"`); });
+      pgEl.querySelectorAll('td').forEach((td) => { if (td.scrollWidth > td.clientWidth + 1) out.push(`p${n + 1} cell too narrow: "${td.textContent.trim().slice(0, 30)}"`); });
     });
-    const bg = [...document.querySelectorAll('.ph-img')].map((d) => getComputedStyle(d).backgroundImage.slice(5, -2));
+    const bg = [...document.querySelectorAll('[style*="background-image"]')].map((d) => getComputedStyle(d).backgroundImage.slice(5, -2));
     document.querySelectorAll('img').forEach((im) => { if (!im.naturalWidth) out.push('missing image ' + im.src); });
     return { out, bg, pages: document.querySelectorAll('.page').length };
   });
@@ -406,26 +496,38 @@ const html = `<!doctype html><html lang="en-US"><head><meta charset="utf-8">
     if (!ok) qa.out.push('missing photo ' + u);
   }
   report.push(...qa.out);
-  if (qa.pages !== 2) report.push(`${qa.pages} pages`);
+  if (qa.pages !== PAGES) report.push(`${qa.pages} pages`);
   const secs = await page.$$('.page');
   for (let i = 0; i < secs.length; i++) await secs[i].screenshot({ path: path.join(HERE, 'pages', `p${i + 1}.png`) });
   const pdf = path.join(HERE, 'Bromic-vs-Infratech.pdf');
   await page.pdf({ path: pdf, format: 'Letter', printBackground: true, preferCSSPageSize: true });
   await browser.close();
   const size = fs.statSync(pdf).size;
-  if (size > 2 * 1024 * 1024) report.push(`PDF is ${(size / 1048576).toFixed(2)} MB`);
+  if (size > 4 * 1024 * 1024) report.push(`PDF is ${(size / 1048576).toFixed(2)} MB`);
   const pdfPages = (fs.readFileSync(pdf, 'latin1').match(/\/Type\s*\/Page[^s]/g) || []).length;
-  if (pdfPages !== 2) report.push(`PDF has ${pdfPages} pages`);
+  if (pdfPages !== PAGES) report.push(`PDF has ${pdfPages} pages`);
+
+  // the Hub's thumbnail (data/retail/kit.json → reports/retail/_hub/vs-infratech.webp), 640 wide like the rest of the kit
+  const th = spawnSync('python3', ['-c', `
+import sys
+from PIL import Image
+im = Image.open(sys.argv[1]).convert('RGB')
+w = 640; im = im.resize((w, round(im.height * w / im.width)), Image.LANCZOS)
+im.save(sys.argv[2], 'WEBP', quality=82, method=6)
+`, path.join(HERE, 'pages/p1.png'), path.join(HERE, '../_hub/vs-infratech.webp')], { stdio: 'inherit' });
+  if (th.status) report.push('thumbnail failed');
 
   fs.writeFileSync(path.join(HERE, 'meta.json'), JSON.stringify({
     title: 'Bromic vs Infratech',
     kicker: 'Retail kit · competitive sheet',
-    desc: 'Two US Letter sheets for floor staff and buyers: Tungsten Series II and Platinum Electric against Infratech across twelve benefit fields, with fair talk lines, controls and numbered sources. Specification and compliance review required before external use.',
+    desc: 'Four US Letter pages for floor staff and buyers: the six places Tungsten Series II pulls ahead of Infratech, a point-by-point comparison with product photos, three settings with their heaters and controls, and how to sell it. Specification and compliance review required before external use.',
+    pages: PAGES,
     pdf: repoRel('Bromic-vs-Infratech.pdf'),
     cover: repoRel('pages/p1.png'),
+    sources: repoRel('sources.json'),
   }, null, 1) + '\n');
   const txt = `Print check, ${new Date().toISOString().slice(0, 10)}\n` + (report.length ? report.join('\n')
-    : `clean: two Letter pages, no text off the frame or into the title strip, no overlapping blocks, all images load, no "$", no raw VERIFY, no "coming soon", exact flush-frame quote, review mark on both pages, PDF ${(size / 1024).toFixed(0)} KB`) + '\n';
+    : `clean: ${PAGES} Letter pages, no text off the margins or into the footer, no overlapping blocks, cards or cells, no overflowing text, all images load (approved or library only, no Infratech imagery), no printed sources or footnote markers (${LEDGER.length} facts traced in sources.json), no "$", no raw VERIFY, no "coming soon", no "only" claim, exact flush-frame quote, controls with every setting, review mark on every page, PDF ${(size / 1024).toFixed(0)} KB`) + '\n';
   fs.writeFileSync(path.join(HERE, 'print-check.txt'), txt);
   console.log(txt);
 })().catch((e) => { console.error(e); process.exit(1); });
