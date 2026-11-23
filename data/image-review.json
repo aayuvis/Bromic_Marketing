@@ -6061,6 +6061,35 @@
    "file": "images/review/full/hb-eclipse-fs-patio-plan.jpg",
    "thumb": "images/review/thumb/hb-eclipse-fs-patio-plan.webp",
    "status": "pending"
+  },
+  {
+   "id": "hb-tungsten-gas-fs-patio",
+   "title": "Tungsten Freestanding Gas heat bloom: 215 ft², Bromic teardrop 16.5 × 13 ft in front of the head, patio lounge at dusk",
+   "kind": "Heat bloom (coverage)",
+   "finish": "black",
+   "aperture": "f/8",
+   "background": "generated: open patio lounge at dusk, an image-model plate made from our own 3D layout of this camera and furniture (registered to it within about 1.5 px)",
+   "source": "Heater: Bromic studio photo w-tung-port (bromic.com), cut out and placed at true height (2,160 mm) in the layout camera, occluded by the sofa, graded to dusk. Coverage: Bromic’s own Tungsten Portable coverage graphic (w-tung-portable-graphics), a teardrop 16.5 × 13 ft with its narrow end at the heater, drawn as true floor geometry; inner rings nested teardrops at 1/3 and 2/3 (style only). The drawn outline is about 170 ft² (a 16.5 × 13 ft outline cannot hold 215 ft²); the label carries the published 215 ft². Plume and guide lines are a visualisation. No Btu figure shown.",
+   "status": "pending",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/hb-tungsten-gas-fs-patio.jpg",
+   "thumb": "images/review/thumb/hb-tungsten-gas-fs-patio.webp",
+   "review_note": "Teardrop follows Bromic's own Tungsten Portable graphic (16.5 × 13 ft). Note: that outline holds about 170 ft², not the published 215 ft²; Product team to confirm which to show."
+  },
+  {
+   "id": "hb-tungsten-gas-fs-patio-plan",
+   "title": "Tungsten Freestanding Gas heat bloom plan: Bromic teardrop 16.5 × 13 ft over the patio lounge, top-down to scale",
+   "kind": "Heat bloom (coverage)",
+   "finish": "black",
+   "aperture": "n/a (drawn plan)",
+   "background": "drawn: top-down plan from the same scene data (furniture outlines, heater, nested teardrops)",
+   "source": "Drawn from the heat-bloom scene record; coverage shape from Bromic’s Tungsten Portable graphic (w-tung-portable-graphics)",
+   "status": "pending",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/hb-tungsten-gas-fs-patio-plan.jpg",
+   "thumb": "images/review/thumb/hb-tungsten-gas-fs-patio-plan.webp"
   }
  ]
 }
