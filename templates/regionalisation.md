@@ -56,7 +56,7 @@ Drop `live_url`, `merges` and `slug` (they are US bromic.com URLs).
    (translate only the description inside, keep the owner name).
 8. **Rules that never change:** every heater recommendation keeps its controls (Affinity Smart-Heat On/Off, Dimmer or Eclipse
    controller, wall switch, app; Wi-Fi and app features need compatible Affinity controls, sold separately); controls are never
-   optional; Tungsten Coastal and Select stay "coming soon"; no "500 series"; competitors stay factual; one CTA.
+   optional; Tungsten Select and Coastal have launched (October 2026) and are never called "coming soon"; no "500 series"; competitors stay factual; one CTA.
 9. **Voice:** direct, expert, calm; no exclamation marks, no emoji, sentence case. German: "Sie", short sentences, no
    anglicisms where a plain German word exists. Dutch: "u" for commercial and professional audiences, "je" for homeowner and blog
    pieces, plain Dutch.

@@ -167,10 +167,10 @@ spec kit); add alt text. Name spellings to correct are listed in `data/site-inve
 
 | Post | Cell | Call | Why |
 |---|---|---|---|
-| [The future of workplace is shared](https://www.bromic.com/blog/the-future-of-workplace-is-shared-outdoor-space-amenities/) | ARC-AW | Merge | Three workplace posts with dated return-to-office predictions; keep one, refreshed, linked to The Boardwalk case study |
+| [The future of workplace is shared](https://www.bromic.com/blog/the-future-of-workplace-is-shared-outdoor-space-amenities/) | ARC-AW | Merge | Workplace posts with dated return-to-office predictions; keep one, refreshed, linked to The Boardwalk case study |
 | [The evolution of workplace designs](https://www.bromic.com/blog/the-evolution-of-workplace-designs-and-outdoor-settings/) | ARC-AW | Keep (merge target) and fix | Broken newsletter CTA |
 | [New workplaces: driving occupancy with outdoor amenities](https://www.bromic.com/blog/new-workplaces-driving-occupancy-with-outdoor-amenities/) | COM-AW | Merge | Wakefield Research cited via a Google Drive file |
-| [Back to work: offices building a sense of home](https://www.bromic.com/blog/back-to-work-offices-building-a-sense-of-home-well-being/) | ARC-AW | Retire, 301 to the workplace post | "By the end of 2024" is past |
+| [Back to work: offices building a sense of home](https://www.bromic.com/blog/back-to-work-offices-building-a-sense-of-home-well-being/) | ARC-AW | Keep and rewrite (owner, 22 Nov 2026) | Rewritten on its own URL as BLOG-50, the "earn the commute" angle: hybrid settled, heated outdoor space, all-electric buildings and the design brief; the dated stats ("by the end of 2024") and the quoted executives are cut; links to the workplace post (BLOG-49) without competing with it |
 | [Keeping patients warm: radiant heat and hypothermia](https://www.bromic.com/blog/keeping-patients-warm-how-radiant-heat-can-reduce-the-risk-of-hypothermia/) | COM-AW | Retire on US, 301 to the Clínica Las Condes case study | Medical claims need regulatory review; off the US funnel |
 | [What professionals are saying about Bromic Heating](https://www.bromic.com/blog/what-professionals-are-saying-about-bromic-heating/) | ARC-CO | Unpublish until verified | The three testimonials cannot be traced to a project or a person [[VERIFY: are these real, permissioned testimonials — Marketing]] |
 
@@ -197,8 +197,8 @@ spec kit); add alt text. Name spellings to correct are listed in `data/site-inve
 | /blog/how-long-do-propane-patio-heaters-last/ | outdoor-propane-patio-heater-buying-guide |
 | /blog/freestanding-heaters-dont-need-to-be-clunky/ | the-power-of-freestanding-what-to-look-for… |
 | /blog/elevating-outdoor-living-with-design-forward-heating/ | how-outdoor-heating-can-transform-your-outdoor-space, the-future-of-comfort-and-design |
-| /blog/the-evolution-of-workplace-designs-and-outdoor-settings/ | the-future-of-workplace-is-shared…, new-workplaces-driving-occupancy…, back-to-work-offices… |
+| /blog/the-evolution-of-workplace-designs-and-outdoor-settings/ | the-future-of-workplace-is-shared…, new-workplaces-driving-occupancy… (back-to-work-offices… is no longer merged: rewritten on its own URL as BLOG-50, owner, 22 Nov 2026) |
 | /case-study/tungsten-electric-heaters-at-clinica-las-condes/ | keeping-patients-warm… |
 
-Net: 73 posts become about 55, and none of our Hub drafts goes live on a new URL that competes with an existing post.
+Net: 73 posts become about 56, and none of our Hub drafts goes live on a new URL that competes with an existing post.
 [[VERIFY: redirect plan and timing — Digital marketing with 454 Creative]]
