@@ -4808,6 +4808,62 @@
    "thumb": "images/review/thumb/pr-b-graphite-recess-cedar-beach-house.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "pending"
+  },
+  {
+   "id": "pr-b-black-wall-limestone-oak-firepit",
+   "title": "Series II Select 6 kW black on the angled wall bracket, honed limestone wall under a white-oak soffit, wider view, a fire-pit terrace at night beyond",
+   "kind": "CAD render in a setting",
+   "finish": "black",
+   "aperture": "f/8",
+   "background": "generated empty setting: terrace with fire pit (backdrop, lens blur matched to f/8); limestone wall and white-oak soffit: generated surface textures",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-b-black-wall-limestone-oak-firepit.jpg",
+   "thumb": "images/review/thumb/pr-b-black-wall-limestone-oak-firepit.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending"
+  },
+  {
+   "id": "pr-b-black-wall-limestone-oak-outdoor-bar",
+   "title": "Series II Select 6 kW black on the angled wall bracket, honed limestone wall under a white-oak soffit, wider view, an outdoor bar at dusk beyond",
+   "kind": "CAD render in a setting",
+   "finish": "black",
+   "aperture": "f/8",
+   "background": "generated empty setting: outdoor bar counter at dusk (backdrop, lens blur matched to f/8); limestone wall and white-oak soffit: generated surface textures",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-b-black-wall-limestone-oak-outdoor-bar.jpg",
+   "thumb": "images/review/thumb/pr-b-black-wall-limestone-oak-outdoor-bar.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending"
+  },
+  {
+   "id": "pr-b-graphite-concrete-soffit-rooftop-city",
+   "title": "Series II Select 6 kW graphite on its short ceiling post, tilted 20 degrees on its bracket, board-formed concrete soffit, a rooftop terrace with the city skyline at blue hour beyond",
+   "kind": "CAD render in a setting",
+   "finish": "graphite",
+   "aperture": "f/8",
+   "background": "generated empty setting: rooftop view to a city skyline at blue hour (backdrop, lens blur matched to f/8); board-formed concrete soffit: generated surface texture",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-b-graphite-concrete-soffit-rooftop-city.jpg",
+   "thumb": "images/review/thumb/pr-b-graphite-concrete-soffit-rooftop-city.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending"
+  },
+  {
+   "id": "pr-b-graphite-concrete-soffit-pool-cabana",
+   "title": "Series II Select 6 kW graphite on its short ceiling post, tilted 20 degrees on its bracket, board-formed concrete soffit, a resort pool with cabanas at golden hour beyond",
+   "kind": "CAD render in a setting",
+   "finish": "graphite",
+   "aperture": "f/8",
+   "background": "generated empty setting: resort pool with cabanas at golden hour (backdrop, lens blur matched to f/8); board-formed concrete soffit: generated surface texture",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-b-graphite-concrete-soffit-pool-cabana.jpg",
+   "thumb": "images/review/thumb/pr-b-graphite-concrete-soffit-pool-cabana.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending"
   }
  ]
 }
