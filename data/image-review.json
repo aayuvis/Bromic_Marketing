@@ -5954,7 +5954,7 @@
    "aperture": "f/8",
    "background": "Lounge plate from the image model, built from our 3D layout; gas head modelled from the manual dimensions",
    "source": "Coverage from the 2026 Bromic catalog (max heat area 215 ft2); circle of equal area in front of the wall; composited by the content team",
-   "review_note": "Floor smudges under the front armchair and sofa are being fixed; the head is modelled from the manual, not Bromic photography.",
+   "review_note": "Floor smudges fixed (23 Nov). The head is modelled from the manual, not Bromic photography.",
    "w": 3840,
    "h": 2560,
    "file": "images/review/full/hb-platinum-gas-500-lounge.jpg",
