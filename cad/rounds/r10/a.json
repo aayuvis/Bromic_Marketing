@@ -382,5 +382,29 @@
   "thumb": "images/review/thumb/pr-a-3kw-white-logo-34-warm-grey.webp",
   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
   "status": "pending"
+ },
+ {
+  "id": "pr-a-graphite-logo-34-light",
+  "title": "Series II 6 kW, graphite, three-quarter view of the logo end and ceiling post, elements glowing, on a light sweep",
+  "kind": "CAD studio render",
+  "finish": "graphite",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-a-graphite-logo-34-light.jpg",
+  "thumb": "images/review/thumb/pr-a-graphite-logo-34-light.webp",
+  "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+  "status": "pending"
+ },
+ {
+  "id": "pr-a-graphite-logo-34-dark",
+  "title": "Series II 6 kW, graphite, three-quarter view of the logo end and ceiling post, elements glowing, on a dark sweep",
+  "kind": "CAD studio render",
+  "finish": "graphite",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-a-graphite-logo-34-dark.jpg",
+  "thumb": "images/review/thumb/pr-a-graphite-logo-34-dark.webp",
+  "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+  "status": "pending"
  }
 ]

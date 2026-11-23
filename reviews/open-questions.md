@@ -240,3 +240,17 @@ and nothing from the deck's side was published. Hub items that now cite the deck
 | BLOG-50 (en, de, nl) | Kastle's weekly occupancy (56.5%, peak Tuesday 10 Nov 2026 at 66.9%) changes every week: refresh the figure and the week before publishing. | Digital marketing |
 | BLOG-50 (en, de, nl) | Minimum mounting heights for Tungsten Series II (Select and Coastal); the post gives the current range's 72 in wall / 96 in ceiling and Eclipse's 96 in, from bromic.com product pages read through a summarising fetch. | Product team |
 | BLOG-50 | The old post's 301 to BLOG-49 is cancelled (owner, 22 Nov 2026): the URL keeps its own rewritten post. Tell 454 Creative before the redirect plan is applied. | Digital marketing |
+
+
+## Retail comparison: Bromic Platinum And Tungsten vs Heatstrip, Australia (23 Nov 2026)
+
+Data in `data/retail/vs-heatstrip.json` (from the owner's "Measured warmth" campaign page and handover, 20 Oct 2026); sheet built by
+`reports/retail/vs-heatstrip/build.js`, marked DRAFT, `needs_approval: Specification and compliance`.
+
+| item id | question | owner |
+|---|---|---|
+| vs-heatstrip (gate) | Infrascan Rev 2: percentage basis, the Classic 2400W temperature column, mounting height; Classic 3200W rise at 5 min (3.85 °C); Platinum 2300W and Classic 2400W peak rise. No test figure is used outside Bromic until Rev 2 and Australian counsel clear it. | Specification and compliance |
+| vs-heatstrip (gate) | Low-clearance recess kits: Australian electrical approval on file, and the 180 mm Australian cavity figure (US pages say 10 in). Customer copy says "worry-free" (owner), never "safely". | Product team |
+| vs-heatstrip | Platinum Electric IP rating in Australia (IPX4 in the campaign data). | Product team |
+| vs-heatstrip | Tungsten Series II in Australia: models, 230 V supply, listings, recess cavity in mm (US manual 190.5 mm), 45° tilt on 4 and 6 kW (manual 30°), Coastal body material and coating name. | Product team |
+| vs-heatstrip | Heatstrip Enhance flush mount kit type; Heatstrip Classic commercial warranty (1 or 2 years); MAX DC 6000W supply, chassis, enclosure and controls. | Specification and compliance |

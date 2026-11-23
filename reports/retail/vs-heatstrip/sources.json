@@ -1,0 +1,1108 @@
+{
+ "_readme": "Internal: the source of every fact on Bromic-vs-Heatstrip.pdf, page by page, for the Specification and compliance review. Not printed and not published. Built by build.js from data/retail/vs-heatstrip.json and the product frameworks.",
+ "needs_approval": "Specification and compliance",
+ "gates": [
+  {
+   "id": "comparative",
+   "rule": "The comparative test figures (warm-zone areas, temperature rise) go public only after Infrascan Rev 2 and Australian counsel have cleared them.",
+   "owner": "Specification and compliance",
+   "status": "open",
+   "src": [
+    "cp"
+   ]
+  },
+  {
+   "id": "lc-recess",
+   "rule": "Low-clearance recess lines (worry-free recessing, the 180 mm cavity) go public only once each kit's Australian electrical approval is on file and the 180 mm Australian figure is confirmed (US pages say 10 in). \"Safely\" is not used (owner: \"worry-free\").",
+   "owner": "Product team",
+   "status": "open",
+   "src": [
+    "cp"
+   ]
+  },
+  {
+   "id": "faster",
+   "rule": "Claim register: 'warms up faster' is on hold; only 'faster in the first 5 minutes', and only after Rev 2 (Heatstrip Enhance 3200W out-heats Platinum 3400W between 5 and 10 min; the Classic 2400W data is suspect).",
+   "owner": "Specification and compliance",
+   "status": "open",
+   "src": [
+    "cp"
+   ]
+  },
+  {
+   "id": "percent-basis",
+   "rule": "Claim register: never quote a percentage from the Infrascan PDFs (they divide by Bromic's figure). Publish raw m² and percentages computed here from them.",
+   "owner": "Specification and compliance",
+   "status": "applied",
+   "src": [
+    "cp"
+   ]
+  }
+ ],
+ "open": [
+  "[[VERIFY: Infrascan Rev 2: percentage basis, the Classic 2400W temperature column and the mounting height — Specification and compliance]]",
+  "[[VERIFY: Australian counsel sign-off on the comparative figures — Specification and compliance]]",
+  "[[VERIFY: Platinum low-clearance recess kit: the Australian cavity figure (180 mm; US pages say 10 in) and the kit's Australian electrical approval — Product team]]",
+  "[[VERIFY: Platinum Electric IP rating in Australia (IPX4) — Product team]]",
+  "[[VERIFY: Heatstrip Enhance flush mount kit type — Specification and compliance]]",
+  "[[VERIFY: Heatstrip Classic commercial warranty, 1 or 2 years — Specification and compliance]]",
+  "[[VERIFY: Tungsten Series II in Australia: models, 230 V supply, listings, recess cavity in mm — Product team]]",
+  "[[VERIFY: 45° tilt on Tungsten Series II 4 and 6 kW; the manual gives 30° — Product team]]",
+  "[[VERIFY: Tungsten Coastal body material and coating name — Product team]]"
+ ],
+ "built": "2026-11-23",
+ "facts": [
+  {
+   "page": 1,
+   "fact": "33% more warm zone: 18.85 m² vs 14.17 · 14.18 m². Bromic: Platinum 3400W: the area 2 °C or more above ambient after 35 minutes. Heatstrip: Heatstrip Enhance and Classic 3200W, same test.",
+   "src": [
+    {
+     "id": "ht",
+     "publisher": "Infrascan Thermal Imaging (commissioned by Bromic)",
+     "title": "Test reports 15499 and 15583: Bromic Platinum Electric 2.3 and 3.4 kW vs Heatstrip Classic and Enhance, Rev 1, 19 Sep 2026; tested 28 Jul to 12 Aug 2026, Ingleburn NSW. Figures as recomputed in the owner's campaign page.",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "cp",
+     "publisher": "Bromic Heating (owner-supplied)",
+     "title": "Measured warmth: Bromic vs Heatstrip (Australia) campaign page and handover, 20 Oct 2026: SPEC table, claim register and status gates",
+     "year": 2026,
+     "url": "internal"
+    }
+   ]
+  },
+  {
+   "page": 1,
+   "fact": "Up to 1.8× the properly warm zone: 5.24 m² vs 3.11 · 2.84 m². Bromic: Platinum 3400W: the area 6 °C or more above ambient, where the heat is felt most. Heatstrip: Heatstrip Enhance and Classic 3200W.",
+   "src": [
+    {
+     "id": "ht",
+     "publisher": "Infrascan Thermal Imaging (commissioned by Bromic)",
+     "title": "Test reports 15499 and 15583: Bromic Platinum Electric 2.3 and 3.4 kW vs Heatstrip Classic and Enhance, Rev 1, 19 Sep 2026; tested 28 Jul to 12 Aug 2026, Ingleburn NSW. Figures as recomputed in the owner's campaign page.",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "cp",
+     "publisher": "Bromic Heating (owner-supplied)",
+     "title": "Measured warmth: Bromic vs Heatstrip (Australia) campaign page and handover, 20 Oct 2026: SPEC table, claim register and status gates",
+     "year": 2026,
+     "url": "internal"
+    }
+   ]
+  },
+  {
+   "page": 1,
+   "fact": "Faster in the first 5 minutes: 7.96 °C vs 5.95 · 3.85 °C. Bromic: Platinum 3400W: the target's temperature rise five minutes after switching on. Heatstrip: Heatstrip Enhance and Classic 3200W (Classic figure to confirm).",
+   "src": [
+    {
+     "id": "ht",
+     "publisher": "Infrascan Thermal Imaging (commissioned by Bromic)",
+     "title": "Test reports 15499 and 15583: Bromic Platinum Electric 2.3 and 3.4 kW vs Heatstrip Classic and Enhance, Rev 1, 19 Sep 2026; tested 28 Jul to 12 Aug 2026, Ingleburn NSW. Figures as recomputed in the owner's campaign page.",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "cp",
+     "publisher": "Bromic Heating (owner-supplied)",
+     "title": "Measured warmth: Bromic vs Heatstrip (Australia) campaign page and handover, 20 Oct 2026: SPEC table, claim register and status gates",
+     "year": 2026,
+     "url": "internal"
+    }
+   ]
+  },
+  {
+   "page": 1,
+   "fact": "Fewer watts, more warm zone: 14.51 m² vs 11.59 m². Bromic: Platinum 2300W: 25% more warm zone at +2 °C with 100 fewer watts. Heatstrip: Heatstrip Enhance 2400W, same test.",
+   "src": [
+    {
+     "id": "ht",
+     "publisher": "Infrascan Thermal Imaging (commissioned by Bromic)",
+     "title": "Test reports 15499 and 15583: Bromic Platinum Electric 2.3 and 3.4 kW vs Heatstrip Classic and Enhance, Rev 1, 19 Sep 2026; tested 28 Jul to 12 Aug 2026, Ingleburn NSW. Figures as recomputed in the owner's campaign page.",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "cp",
+     "publisher": "Bromic Heating (owner-supplied)",
+     "title": "Measured warmth: Bromic vs Heatstrip (Australia) campaign page and handover, 20 Oct 2026: SPEC table, claim register and status gates",
+     "year": 2026,
+     "url": "internal"
+    }
+   ]
+  },
+  {
+   "page": 1,
+   "fact": "Worry-free recessing, up to 6 kW: 6 kW recessed vs Passive vents. Bromic: Tungsten Series II recesses up to 6 kW in a dual fan-ventilated kit, recess box supplied. Platinum recesses up to 4500W in a fan-cooled low-clearance kit, cavity from 180 mm (to confirm). Heatstrip: Heatstrip publishes passive-vented flush enclosures only.",
+   "src": [
+    {
+     "id": "b2",
+     "publisher": "Bromic Heating",
+     "title": "LC Ceiling Recess Kit for the Tungsten Smart-Heat Electric Series II, instructions (2025, dealer-hosted)",
+     "year": 2025,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Select-Coastal-LC-Recess-Kit-Instructions.pdf"
+    },
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "cp",
+     "publisher": "Bromic Heating (owner-supplied)",
+     "title": "Measured warmth: Bromic vs Heatstrip (Australia) campaign page and handover, 20 Oct 2026: SPEC table, claim register and status gates",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "p7",
+     "publisher": "Bromic Heating",
+     "title": "Platinum Smart-Heat Electric Low Clearance Ceiling Recess installation instructions (2300, 3400 and 4500 W)",
+     "year": 2024,
+     "url": "https://pim.bromic.com/wp-content/uploads/2021/08/Platinum-Electric-Low-Clearance-Ceiling-Recess-Instruction-Manual-REV3.pdf"
+    },
+    {
+     "id": "hs",
+     "publisher": "Heatstrip (Thermofilm)",
+     "title": "Heatstrip Classic, Enhance and Max product specifications, heatstrip.com.au and heatstrip.com, retrieved 20 Oct 2026 (as compiled in the owner's campaign page)",
+     "year": 2026,
+     "url": "https://www.heatstrip.com.au/"
+    }
+   ]
+  },
+  {
+   "page": 1,
+   "fact": "304 stainless, glass-ceramic face: 304 stainless vs Coated alloy. Bromic: A 304 stainless steel chassis with a Schott tinted glass-ceramic face, and a 316 stainless Marine model for the coast. Heatstrip: Coated alloy bodies; no coastal or marine version listed.",
+   "src": [
+    {
+     "id": "cp",
+     "publisher": "Bromic Heating (owner-supplied)",
+     "title": "Measured warmth: Bromic vs Heatstrip (Australia) campaign page and handover, 20 Oct 2026: SPEC table, claim register and status gates",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "p1",
+     "publisher": "Bromic Heating",
+     "title": "Platinum Smart-Heat Electric product page (features, FAQ, specifications, 3-year warranty)",
+     "year": 2026,
+     "url": "https://www.bromic.com/product/platinum-smart-heat-electric/"
+    },
+    {
+     "id": "p2",
+     "publisher": "Bromic Heating",
+     "title": "Platinum Smart-Heat Electric Marine product page",
+     "year": 2026,
+     "url": "https://www.bromic.com/product/platinum-smart-heat-electric-marine/"
+    },
+    {
+     "id": "hs",
+     "publisher": "Heatstrip (Thermofilm)",
+     "title": "Heatstrip Classic, Enhance and Max product specifications, heatstrip.com.au and heatstrip.com, retrieved 20 Oct 2026 (as compiled in the owner's campaign page)",
+     "year": 2026,
+     "url": "https://www.heatstrip.com.au/"
+    }
+   ]
+  },
+  {
+   "page": 1,
+   "fact": "Measured by Infrascan Thermal Imaging, Ingleburn NSW, 28 Jul to 12 Aug 2026, commissioned by Bromic using Bromic's test method: one unit of each model, as purchased, 2.0 m above a 4 × 4 m target; areas at 2, 4 and 6 °C above ambient after 35 minutes.",
+   "src": [
+    {
+     "id": "ht",
+     "publisher": "Infrascan Thermal Imaging (commissioned by Bromic)",
+     "title": "Test reports 15499 and 15583: Bromic Platinum Electric 2.3 and 3.4 kW vs Heatstrip Classic and Enhance, Rev 1, 19 Sep 2026; tested 28 Jul to 12 Aug 2026, Ingleburn NSW. Figures as recomputed in the owner's campaign page.",
+     "year": 2026,
+     "url": "internal"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Warm zones to scale, 3.2 to 3.4 kW class and 2.3 to 2.4 kW class: Platinum 3400W 18.85 / 8.55 / 5.24 m²; Heatstrip Enhance 3200W 14.17 / 8.55 / 3.11 m²; Heatstrip Classic 3200W 14.18 / 7.07 / 2.84 m²; Platinum 2300W 14.51 / 6.61 / 1.33 m²; Heatstrip Classic 2400W 13.82 / 4.52 / 0.75 m²; Heatstrip Enhance 2400W 11.59 / 4.29 / 0.38 m²",
+   "src": [
+    {
+     "id": "ht",
+     "publisher": "Infrascan Thermal Imaging (commissioned by Bromic)",
+     "title": "Test reports 15499 and 15583: Bromic Platinum Electric 2.3 and 3.4 kW vs Heatstrip Classic and Enhance, Rev 1, 19 Sep 2026; tested 28 Jul to 12 Aug 2026, Ingleburn NSW. Figures as recomputed in the owner's campaign page.",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "cp",
+     "publisher": "Bromic Heating (owner-supplied)",
+     "title": "Measured warmth: Bromic vs Heatstrip (Australia) campaign page and handover, 20 Oct 2026: SPEC table, claim register and status gates",
+     "year": 2026,
+     "url": "internal"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Tested, 35 min · Warm zone, +2 °C · Platinum 3400W: 18.85 m² · Heatstrip Enhance 3200W: 14.17 m² · Heatstrip Classic 3200W: 14.18 m² · edge bromic",
+   "src": [
+    {
+     "id": "ht",
+     "publisher": "Infrascan Thermal Imaging (commissioned by Bromic)",
+     "title": "Test reports 15499 and 15583: Bromic Platinum Electric 2.3 and 3.4 kW vs Heatstrip Classic and Enhance, Rev 1, 19 Sep 2026; tested 28 Jul to 12 Aug 2026, Ingleburn NSW. Figures as recomputed in the owner's campaign page.",
+     "year": 2026,
+     "url": "internal"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Tested, 35 min · Comfort zone, +4 °C · Platinum 3400W: 8.55 m² · Heatstrip Enhance 3200W: 8.55 m² · Heatstrip Classic 3200W: 7.07 m² · edge parity",
+   "src": [
+    {
+     "id": "ht",
+     "publisher": "Infrascan Thermal Imaging (commissioned by Bromic)",
+     "title": "Test reports 15499 and 15583: Bromic Platinum Electric 2.3 and 3.4 kW vs Heatstrip Classic and Enhance, Rev 1, 19 Sep 2026; tested 28 Jul to 12 Aug 2026, Ingleburn NSW. Figures as recomputed in the owner's campaign page.",
+     "year": 2026,
+     "url": "internal"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Tested, 35 min · Properly warm, +6 °C · Platinum 3400W: 5.24 m² · Heatstrip Enhance 3200W: 3.11 m² · Heatstrip Classic 3200W: 2.84 m² · edge bromic",
+   "src": [
+    {
+     "id": "ht",
+     "publisher": "Infrascan Thermal Imaging (commissioned by Bromic)",
+     "title": "Test reports 15499 and 15583: Bromic Platinum Electric 2.3 and 3.4 kW vs Heatstrip Classic and Enhance, Rev 1, 19 Sep 2026; tested 28 Jul to 12 Aug 2026, Ingleburn NSW. Figures as recomputed in the owner's campaign page.",
+     "year": 2026,
+     "url": "internal"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Tested, 35 min · Rise at 5 minutes · Platinum 3400W: 7.96 °C · Heatstrip Enhance 3200W: 5.95 °C · Heatstrip Classic 3200W: 3.85 °C to confirm · edge bromic",
+   "src": [
+    {
+     "id": "ht",
+     "publisher": "Infrascan Thermal Imaging (commissioned by Bromic)",
+     "title": "Test reports 15499 and 15583: Bromic Platinum Electric 2.3 and 3.4 kW vs Heatstrip Classic and Enhance, Rev 1, 19 Sep 2026; tested 28 Jul to 12 Aug 2026, Ingleburn NSW. Figures as recomputed in the owner's campaign page.",
+     "year": 2026,
+     "url": "internal"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Tested, 35 min · Peak rise · Platinum 3400W: 13.07 °C · Heatstrip Enhance 3200W: 11.01 °C · Heatstrip Classic 3200W: 9.41 °C · edge bromic",
+   "src": [
+    {
+     "id": "ht",
+     "publisher": "Infrascan Thermal Imaging (commissioned by Bromic)",
+     "title": "Test reports 15499 and 15583: Bromic Platinum Electric 2.3 and 3.4 kW vs Heatstrip Classic and Enhance, Rev 1, 19 Sep 2026; tested 28 Jul to 12 Aug 2026, Ingleburn NSW. Figures as recomputed in the owner's campaign page.",
+     "year": 2026,
+     "url": "internal"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Build · Chassis · Platinum 3400W: 304 stainless steel · Heatstrip Enhance 3200W: Black-coated alloy · Heatstrip Classic 3200W: Ceramic-coated extruded alloy · edge bromic",
+   "src": [
+    {
+     "id": "cp",
+     "publisher": "Bromic Heating (owner-supplied)",
+     "title": "Measured warmth: Bromic vs Heatstrip (Australia) campaign page and handover, 20 Oct 2026: SPEC table, claim register and status gates",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "p1",
+     "publisher": "Bromic Heating",
+     "title": "Platinum Smart-Heat Electric product page (features, FAQ, specifications, 3-year warranty)",
+     "year": 2026,
+     "url": "https://www.bromic.com/product/platinum-smart-heat-electric/"
+    },
+    {
+     "id": "hs",
+     "publisher": "Heatstrip (Thermofilm)",
+     "title": "Heatstrip Classic, Enhance and Max product specifications, heatstrip.com.au and heatstrip.com, retrieved 20 Oct 2026 (as compiled in the owner's campaign page)",
+     "year": 2026,
+     "url": "https://www.heatstrip.com.au/"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Build · Heating face · Platinum 3400W: Schott tinted glass-ceramic · Heatstrip Enhance 3200W: Glass front · Heatstrip Classic 3200W: Black front profile · edge info",
+   "src": [
+    {
+     "id": "cp",
+     "publisher": "Bromic Heating (owner-supplied)",
+     "title": "Measured warmth: Bromic vs Heatstrip (Australia) campaign page and handover, 20 Oct 2026: SPEC table, claim register and status gates",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "hs",
+     "publisher": "Heatstrip (Thermofilm)",
+     "title": "Heatstrip Classic, Enhance and Max product specifications, heatstrip.com.au and heatstrip.com, retrieved 20 Oct 2026 (as compiled in the owner's campaign page)",
+     "year": 2026,
+     "url": "https://www.heatstrip.com.au/"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Build · Size, L × H × D · Platinum 3400W: 1275 × 182 × 54 mm · Heatstrip Enhance 3200W: 1020 × 187 × 76 mm · Heatstrip Classic 3200W: 1774 × 165 × 48 mm · edge info",
+   "src": [
+    {
+     "id": "cp",
+     "publisher": "Bromic Heating (owner-supplied)",
+     "title": "Measured warmth: Bromic vs Heatstrip (Australia) campaign page and handover, 20 Oct 2026: SPEC table, claim register and status gates",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "hs",
+     "publisher": "Heatstrip (Thermofilm)",
+     "title": "Heatstrip Classic, Enhance and Max product specifications, heatstrip.com.au and heatstrip.com, retrieved 20 Oct 2026 (as compiled in the owner's campaign page)",
+     "year": 2026,
+     "url": "https://www.heatstrip.com.au/"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Build · Weight · Platinum 3400W: 10 kg · Heatstrip Enhance 3200W: 10 kg · Heatstrip Classic 3200W: 8 kg · edge info",
+   "src": [
+    {
+     "id": "cp",
+     "publisher": "Bromic Heating (owner-supplied)",
+     "title": "Measured warmth: Bromic vs Heatstrip (Australia) campaign page and handover, 20 Oct 2026: SPEC table, claim register and status gates",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "hs",
+     "publisher": "Heatstrip (Thermofilm)",
+     "title": "Heatstrip Classic, Enhance and Max product specifications, heatstrip.com.au and heatstrip.com, retrieved 20 Oct 2026 (as compiled in the owner's campaign page)",
+     "year": 2026,
+     "url": "https://www.heatstrip.com.au/"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Build · Coastal version · Platinum 3400W: 316 stainless Marine model · Heatstrip Enhance 3200W: Not listed · Heatstrip Classic 3200W: Not listed · edge bromic",
+   "src": [
+    {
+     "id": "cp",
+     "publisher": "Bromic Heating (owner-supplied)",
+     "title": "Measured warmth: Bromic vs Heatstrip (Australia) campaign page and handover, 20 Oct 2026: SPEC table, claim register and status gates",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "p2",
+     "publisher": "Bromic Heating",
+     "title": "Platinum Smart-Heat Electric Marine product page",
+     "year": 2026,
+     "url": "https://www.bromic.com/product/platinum-smart-heat-electric-marine/"
+    },
+    {
+     "id": "hs",
+     "publisher": "Heatstrip (Thermofilm)",
+     "title": "Heatstrip Classic, Enhance and Max product specifications, heatstrip.com.au and heatstrip.com, retrieved 20 Oct 2026 (as compiled in the owner's campaign page)",
+     "year": 2026,
+     "url": "https://www.heatstrip.com.au/"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Recess · Standard recess · Platinum 3400W: Recess kit, face flush · Heatstrip Enhance 3200W: Flush mount kit · Heatstrip Classic 3200W: Flush enclosure, passive vents · edge parity",
+   "src": [
+    {
+     "id": "cp",
+     "publisher": "Bromic Heating (owner-supplied)",
+     "title": "Measured warmth: Bromic vs Heatstrip (Australia) campaign page and handover, 20 Oct 2026: SPEC table, claim register and status gates",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "hs",
+     "publisher": "Heatstrip (Thermofilm)",
+     "title": "Heatstrip Classic, Enhance and Max product specifications, heatstrip.com.au and heatstrip.com, retrieved 20 Oct 2026 (as compiled in the owner's campaign page)",
+     "year": 2026,
+     "url": "https://www.heatstrip.com.au/"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Recess · Low-clearance recess · Platinum 3400W: Worry-free: fan-cooled kit to 4500W, cavity from 180 mm to confirm · Heatstrip Enhance 3200W: None published · Heatstrip Classic 3200W: None published; 125 mm enclosure plus 150 mm clear · edge bromic",
+   "src": [
+    {
+     "id": "cp",
+     "publisher": "Bromic Heating (owner-supplied)",
+     "title": "Measured warmth: Bromic vs Heatstrip (Australia) campaign page and handover, 20 Oct 2026: SPEC table, claim register and status gates",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "p7",
+     "publisher": "Bromic Heating",
+     "title": "Platinum Smart-Heat Electric Low Clearance Ceiling Recess installation instructions (2300, 3400 and 4500 W)",
+     "year": 2024,
+     "url": "https://pim.bromic.com/wp-content/uploads/2021/08/Platinum-Electric-Low-Clearance-Ceiling-Recess-Instruction-Manual-REV3.pdf"
+    },
+    {
+     "id": "hs",
+     "publisher": "Heatstrip (Thermofilm)",
+     "title": "Heatstrip Classic, Enhance and Max product specifications, heatstrip.com.au and heatstrip.com, retrieved 20 Oct 2026 (as compiled in the owner's campaign page)",
+     "year": 2026,
+     "url": "https://www.heatstrip.com.au/"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Controls · In the box · Platinum 3400W: Affinity Smart-Heat® On/Off or Dimmer, multi-zone, and a wall switch, sold separately · Heatstrip Enhance 3200W: Remote and app, 3 levels, timer · Heatstrip Classic 3200W: Controller and remote available separately · edge heatstrip",
+   "src": [
+    {
+     "id": "cp",
+     "publisher": "Bromic Heating (owner-supplied)",
+     "title": "Measured warmth: Bromic vs Heatstrip (Australia) campaign page and handover, 20 Oct 2026: SPEC table, claim register and status gates",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "b3",
+     "publisher": "Bromic Heating",
+     "title": "Affinity Smart-Heat control system brochure 2026",
+     "year": 2026,
+     "url": "https://pim.bromic.com/wp-content/uploads/2026/08/Bromic-affinity-smart-heat-control-system-2026.pdf"
+    },
+    {
+     "id": "hs",
+     "publisher": "Heatstrip (Thermofilm)",
+     "title": "Heatstrip Classic, Enhance and Max product specifications, heatstrip.com.au and heatstrip.com, retrieved 20 Oct 2026 (as compiled in the owner's campaign page)",
+     "year": 2026,
+     "url": "https://www.heatstrip.com.au/"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Protection · Water rating · Platinum 3400W: IPX4 to confirm · Heatstrip Enhance 3200W: IPX5 · Heatstrip Classic 3200W: IP55 · edge heatstrip",
+   "src": [
+    {
+     "id": "cp",
+     "publisher": "Bromic Heating (owner-supplied)",
+     "title": "Measured warmth: Bromic vs Heatstrip (Australia) campaign page and handover, 20 Oct 2026: SPEC table, claim register and status gates",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "hs",
+     "publisher": "Heatstrip (Thermofilm)",
+     "title": "Heatstrip Classic, Enhance and Max product specifications, heatstrip.com.au and heatstrip.com, retrieved 20 Oct 2026 (as compiled in the owner's campaign page)",
+     "year": 2026,
+     "url": "https://www.heatstrip.com.au/"
+    }
+   ]
+  },
+  {
+   "page": 2,
+   "fact": "Protection · Warranty · Platinum 3400W: 3 years · Heatstrip Enhance 3200W: 3 years residential, 2 commercial · Heatstrip Classic 3200W: 3 years residential, commercial to confirm · edge parity",
+   "src": [
+    {
+     "id": "cp",
+     "publisher": "Bromic Heating (owner-supplied)",
+     "title": "Measured warmth: Bromic vs Heatstrip (Australia) campaign page and handover, 20 Oct 2026: SPEC table, claim register and status gates",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "hs",
+     "publisher": "Heatstrip (Thermofilm)",
+     "title": "Heatstrip Classic, Enhance and Max product specifications, heatstrip.com.au and heatstrip.com, retrieved 20 Oct 2026 (as compiled in the owner's campaign page)",
+     "year": 2026,
+     "url": "https://www.heatstrip.com.au/"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "Tungsten Series II at a glance · Available: Select and Coastal since October 2026; Classic follows in January 2027.",
+   "src": [
+    {
+     "id": "pf",
+     "publisher": "Bromic Heating",
+     "title": "data/product-facts.json: Tungsten Select and Coastal launched October 2026; warranty \"3 years heater, 7 years elements\" (owner, 22 Nov 2026)",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "Tungsten Series II at a glance · Output: 2, 3, 4 and 6 kW on Select; 4 and 6 kW on Coastal. Dual elements on 4 and 6 kW.",
+   "src": [
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "b1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Smart-Heat Electric Select & Coastal Models, installation manual (2026, dealer-hosted)",
+     "year": 2026,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Electric-Select-Coastal-Manual.pdf"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "Tungsten Series II at a glance · Finish: Black, white or graphite on Select, the front in the same finish; Diamond Pattern front, oval and triangle sold separately.",
+   "src": [
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "s1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Smart-Heat Electric product page",
+     "year": 2026,
+     "url": "https://www.bromic.com/product/tungsten-smart-heat-electric/"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "Tungsten Series II at a glance · Mounting: Ceiling, pitched ceiling 3/12 to 12/12, wall, extended wall, single post or recessed; tilts up to 45° (4 and 6 kW to confirm).",
+   "src": [
+    {
+     "id": "b1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Smart-Heat Electric Select & Coastal Models, installation manual (2026, dealer-hosted)",
+     "year": 2026,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Electric-Select-Coastal-Manual.pdf"
+    },
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "Tungsten Series II at a glance · Recess: A dual fan-ventilated low-clearance kit with the recess box supplied; 190.5 mm cavity in the US manual (Australia to confirm).",
+   "src": [
+    {
+     "id": "b2",
+     "publisher": "Bromic Heating",
+     "title": "LC Ceiling Recess Kit for the Tungsten Smart-Heat Electric Series II, instructions (2025, dealer-hosted)",
+     "year": 2025,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Select-Coastal-LC-Recess-Kit-Instructions.pdf"
+    },
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "Tungsten Series II at a glance · Coastal: Corrosion-resistant coating over 316 marine-grade stainless as standard (to confirm); IPX5.",
+   "src": [
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "b1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Smart-Heat Electric Select & Coastal Models, installation manual (2026, dealer-hosted)",
+     "year": 2026,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Electric-Select-Coastal-Manual.pdf"
+    },
+    {
+     "id": "p11",
+     "publisher": "Bromic Heating",
+     "title": "Outdoor Lookbook 2026, p.15–21 (Platinum collection)",
+     "year": 2026,
+     "url": "internal"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "Tungsten Series II at a glance · Controls: Affinity Smart-Heat® Dimmer in 1% steps, zones, schedules and timers in the Bromic app.",
+   "src": [
+    {
+     "id": "b3",
+     "publisher": "Bromic Heating",
+     "title": "Affinity Smart-Heat control system brochure 2026",
+     "year": 2026,
+     "url": "https://pim.bromic.com/wp-content/uploads/2026/08/Bromic-affinity-smart-heat-control-system-2026.pdf"
+    },
+    {
+     "id": "b4",
+     "publisher": "Bromic Heating",
+     "title": "Affinity Smart-Heat app",
+     "year": 2026,
+     "url": "https://www.bromic.com/affinity-smart-heat-app/"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "Tungsten Series II at a glance · Warranty: 3 years on the heater, 7 years on the elements.",
+   "src": [
+    {
+     "id": "pf",
+     "publisher": "Bromic Heating",
+     "title": "data/product-facts.json: Tungsten Select and Coastal launched October 2026; warranty \"3 years heater, 7 years elements\" (owner, 22 Nov 2026)",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "s4",
+     "publisher": "Bromic Heating",
+     "title": "Warranty",
+     "year": 2026,
+     "url": "https://www.bromic.com/warranty/"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "Heat · Output range · Tungsten Series II: 2 to 6 kW · Heatstrip: 2.4 and 3.2 kW (Classic, Enhance); 3.6 kW (Max); 6 kW (MAX DC) · edge info",
+   "src": [
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "hs",
+     "publisher": "Heatstrip (Thermofilm)",
+     "title": "Heatstrip Classic, Enhance and Max product specifications, heatstrip.com.au and heatstrip.com, retrieved 20 Oct 2026 (as compiled in the owner's campaign page)",
+     "year": 2026,
+     "url": "https://www.heatstrip.com.au/"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "Heat · Dimming · Tungsten Series II: 1% steps, Affinity Dimmer · Heatstrip: Enhance: 3 levels · edge bromic",
+   "src": [
+    {
+     "id": "b3",
+     "publisher": "Bromic Heating",
+     "title": "Affinity Smart-Heat control system brochure 2026",
+     "year": 2026,
+     "url": "https://pim.bromic.com/wp-content/uploads/2026/08/Bromic-affinity-smart-heat-control-system-2026.pdf"
+    },
+    {
+     "id": "hs",
+     "publisher": "Heatstrip (Thermofilm)",
+     "title": "Heatstrip Classic, Enhance and Max product specifications, heatstrip.com.au and heatstrip.com, retrieved 20 Oct 2026 (as compiled in the owner's campaign page)",
+     "year": 2026,
+     "url": "https://www.heatstrip.com.au/"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "Build · Body · Tungsten Series II: Coastal: 316 marine-grade stainless, coated · Heatstrip: Coated alloy (Classic, Enhance); anodised alloy (Max) · edge info",
+   "src": [
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "p11",
+     "publisher": "Bromic Heating",
+     "title": "Outdoor Lookbook 2026, p.15–21 (Platinum collection)",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "hs",
+     "publisher": "Heatstrip (Thermofilm)",
+     "title": "Heatstrip Classic, Enhance and Max product specifications, heatstrip.com.au and heatstrip.com, retrieved 20 Oct 2026 (as compiled in the owner's campaign page)",
+     "year": 2026,
+     "url": "https://www.heatstrip.com.au/"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "Build · Coastal version · Tungsten Series II: Tungsten Coastal · Heatstrip: Not listed · edge bromic",
+   "src": [
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "hs",
+     "publisher": "Heatstrip (Thermofilm)",
+     "title": "Heatstrip Classic, Enhance and Max product specifications, heatstrip.com.au and heatstrip.com, retrieved 20 Oct 2026 (as compiled in the owner's campaign page)",
+     "year": 2026,
+     "url": "https://www.heatstrip.com.au/"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "Build · Length · Tungsten Series II: 1144 or 1436 mm · Heatstrip: 920 to 1774 mm (Classic, Enhance) · edge info",
+   "src": [
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "hs",
+     "publisher": "Heatstrip (Thermofilm)",
+     "title": "Heatstrip Classic, Enhance and Max product specifications, heatstrip.com.au and heatstrip.com, retrieved 20 Oct 2026 (as compiled in the owner's campaign page)",
+     "year": 2026,
+     "url": "https://www.heatstrip.com.au/"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "Build · Weight · Tungsten Series II: 5.9 or 6.8 kg · Heatstrip: 7 to 10 kg (Classic, Enhance) · edge info",
+   "src": [
+    {
+     "id": "b1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Smart-Heat Electric Select & Coastal Models, installation manual (2026, dealer-hosted)",
+     "year": 2026,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Electric-Select-Coastal-Manual.pdf"
+    },
+    {
+     "id": "hs",
+     "publisher": "Heatstrip (Thermofilm)",
+     "title": "Heatstrip Classic, Enhance and Max product specifications, heatstrip.com.au and heatstrip.com, retrieved 20 Oct 2026 (as compiled in the owner's campaign page)",
+     "year": 2026,
+     "url": "https://www.heatstrip.com.au/"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "Recess · Standard recess · Tungsten Series II: Recess kit on every collection · Heatstrip: Flush enclosure or flush mount kit · edge parity",
+   "src": [
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "hs",
+     "publisher": "Heatstrip (Thermofilm)",
+     "title": "Heatstrip Classic, Enhance and Max product specifications, heatstrip.com.au and heatstrip.com, retrieved 20 Oct 2026 (as compiled in the owner's campaign page)",
+     "year": 2026,
+     "url": "https://www.heatstrip.com.au/"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "Recess · Low-clearance recess · Tungsten Series II: Worry-free, up to 6 kW: dual fan-ventilated kit, box supplied · Heatstrip: None published · edge bromic",
+   "src": [
+    {
+     "id": "b2",
+     "publisher": "Bromic Heating",
+     "title": "LC Ceiling Recess Kit for the Tungsten Smart-Heat Electric Series II, instructions (2025, dealer-hosted)",
+     "year": 2025,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Select-Coastal-LC-Recess-Kit-Instructions.pdf"
+    },
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "hs",
+     "publisher": "Heatstrip (Thermofilm)",
+     "title": "Heatstrip Classic, Enhance and Max product specifications, heatstrip.com.au and heatstrip.com, retrieved 20 Oct 2026 (as compiled in the owner's campaign page)",
+     "year": 2026,
+     "url": "https://www.heatstrip.com.au/"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "Controls · In the box · Tungsten Series II: Affinity Smart-Heat® controls and a wall switch, sold separately · Heatstrip: Enhance: remote and app included · edge heatstrip",
+   "src": [
+    {
+     "id": "b3",
+     "publisher": "Bromic Heating",
+     "title": "Affinity Smart-Heat control system brochure 2026",
+     "year": 2026,
+     "url": "https://pim.bromic.com/wp-content/uploads/2026/08/Bromic-affinity-smart-heat-control-system-2026.pdf"
+    },
+    {
+     "id": "hs",
+     "publisher": "Heatstrip (Thermofilm)",
+     "title": "Heatstrip Classic, Enhance and Max product specifications, heatstrip.com.au and heatstrip.com, retrieved 20 Oct 2026 (as compiled in the owner's campaign page)",
+     "year": 2026,
+     "url": "https://www.heatstrip.com.au/"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "Protection · Water rating · Tungsten Series II: IPX5 · Heatstrip: IPX5 Enhance · IP55 Classic, dust-rated too · edge heatstrip",
+   "src": [
+    {
+     "id": "b1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Smart-Heat Electric Select & Coastal Models, installation manual (2026, dealer-hosted)",
+     "year": 2026,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Electric-Select-Coastal-Manual.pdf"
+    },
+    {
+     "id": "hs",
+     "publisher": "Heatstrip (Thermofilm)",
+     "title": "Heatstrip Classic, Enhance and Max product specifications, heatstrip.com.au and heatstrip.com, retrieved 20 Oct 2026 (as compiled in the owner's campaign page)",
+     "year": 2026,
+     "url": "https://www.heatstrip.com.au/"
+    }
+   ]
+  },
+  {
+   "page": 3,
+   "fact": "Protection · Warranty · Tungsten Series II: 3 years heater, 7 years elements · Heatstrip: 3 years residential; 2 years commercial (Enhance) · edge bromic",
+   "src": [
+    {
+     "id": "pf",
+     "publisher": "Bromic Heating",
+     "title": "data/product-facts.json: Tungsten Select and Coastal launched October 2026; warranty \"3 years heater, 7 years elements\" (owner, 22 Nov 2026)",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "s4",
+     "publisher": "Bromic Heating",
+     "title": "Warranty",
+     "year": 2026,
+     "url": "https://www.bromic.com/warranty/"
+    },
+    {
+     "id": "hs",
+     "publisher": "Heatstrip (Thermofilm)",
+     "title": "Heatstrip Classic, Enhance and Max product specifications, heatstrip.com.au and heatstrip.com, retrieved 20 Oct 2026 (as compiled in the owner's campaign page)",
+     "year": 2026,
+     "url": "https://www.heatstrip.com.au/"
+    }
+   ]
+  },
+  {
+   "page": 4,
+   "fact": "Platinum Smart-Heat® Electric: The heater should all but disappear: a dark glass-ceramic face, recessed flush or slim on a wall. The customer asks which heater warms more of the table: Platinum is the one measured against Heatstrip. The ceiling cavity is shallow: the low-clearance kit is fan-cooled. By the sea, the 316 Marine model. Controls: Affinity Smart-Heat® Dimmer or On/Off, and a manual wall switch.",
+   "src": [
+    {
+     "id": "cp",
+     "publisher": "Bromic Heating (owner-supplied)",
+     "title": "Measured warmth: Bromic vs Heatstrip (Australia) campaign page and handover, 20 Oct 2026: SPEC table, claim register and status gates",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "p1",
+     "publisher": "Bromic Heating",
+     "title": "Platinum Smart-Heat Electric product page (features, FAQ, specifications, 3-year warranty)",
+     "year": 2026,
+     "url": "https://www.bromic.com/product/platinum-smart-heat-electric/"
+    },
+    {
+     "id": "p2",
+     "publisher": "Bromic Heating",
+     "title": "Platinum Smart-Heat Electric Marine product page",
+     "year": 2026,
+     "url": "https://www.bromic.com/product/platinum-smart-heat-electric-marine/"
+    },
+    {
+     "id": "p7",
+     "publisher": "Bromic Heating",
+     "title": "Platinum Smart-Heat Electric Low Clearance Ceiling Recess installation instructions (2300, 3400 and 4500 W)",
+     "year": 2024,
+     "url": "https://pim.bromic.com/wp-content/uploads/2021/08/Platinum-Electric-Low-Clearance-Ceiling-Recess-Instruction-Manual-REV3.pdf"
+    },
+    {
+     "id": "b3",
+     "publisher": "Bromic Heating",
+     "title": "Affinity Smart-Heat control system brochure 2026",
+     "year": 2026,
+     "url": "https://pim.bromic.com/wp-content/uploads/2026/08/Bromic-affinity-smart-heat-control-system-2026.pdf"
+    }
+   ]
+  },
+  {
+   "page": 4,
+   "fact": "Tungsten Smart-Heat® Electric Series II: The heater is part of the look: black, white or graphite, front included, with three front patterns. The ceiling is pitched, or the heat needs a single post or a tilt toward the seats. The customer wants the longest cover: 3 years on the heater and 7 on the elements. By the sea, Coastal. Controls: Affinity Smart-Heat® Dimmer as standard, On/Off where dimming is not wanted, and a manual wall switch.",
+   "src": [
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "b1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Smart-Heat Electric Select & Coastal Models, installation manual (2026, dealer-hosted)",
+     "year": 2026,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Electric-Select-Coastal-Manual.pdf"
+    },
+    {
+     "id": "pf",
+     "publisher": "Bromic Heating",
+     "title": "data/product-facts.json: Tungsten Select and Coastal launched October 2026; warranty \"3 years heater, 7 years elements\" (owner, 22 Nov 2026)",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "s4",
+     "publisher": "Bromic Heating",
+     "title": "Warranty",
+     "year": 2026,
+     "url": "https://www.bromic.com/warranty/"
+    },
+    {
+     "id": "b3",
+     "publisher": "Bromic Heating",
+     "title": "Affinity Smart-Heat control system brochure 2026",
+     "year": 2026,
+     "url": "https://pim.bromic.com/wp-content/uploads/2026/08/Bromic-affinity-smart-heat-control-system-2026.pdf"
+    }
+   ]
+  },
+  {
+   "page": 4,
+   "fact": "“Everyone has a Heatstrip.” Then compare the warmth. In an independent thermal test, Platinum 3400W warmed 33% more area than Heatstrip's Classic and Enhance 3200W, and up to 1.8× the area that gets properly warm.",
+   "src": [
+    {
+     "id": "ht",
+     "publisher": "Infrascan Thermal Imaging (commissioned by Bromic)",
+     "title": "Test reports 15499 and 15583: Bromic Platinum Electric 2.3 and 3.4 kW vs Heatstrip Classic and Enhance, Rev 1, 19 Sep 2026; tested 28 Jul to 12 Aug 2026, Ingleburn NSW. Figures as recomputed in the owner's campaign page.",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "cp",
+     "publisher": "Bromic Heating (owner-supplied)",
+     "title": "Measured warmth: Bromic vs Heatstrip (Australia) campaign page and handover, 20 Oct 2026: SPEC table, claim register and status gates",
+     "year": 2026,
+     "url": "internal"
+    }
+   ]
+  },
+  {
+   "page": 4,
+   "fact": "“I want it in the ceiling, but there isn’t much room.” Bromic offers worry-free recessing up to 6 kW: Tungsten Series II's low-clearance kit is dual fan-ventilated with the box supplied, and Platinum's has a built-in cooling fan. A licensed electrician installs it to AS/NZS 3000.",
+   "src": [
+    {
+     "id": "cp",
+     "publisher": "Bromic Heating (owner-supplied)",
+     "title": "Measured warmth: Bromic vs Heatstrip (Australia) campaign page and handover, 20 Oct 2026: SPEC table, claim register and status gates",
+     "year": 2026,
+     "url": "internal"
+    },
+    {
+     "id": "p7",
+     "publisher": "Bromic Heating",
+     "title": "Platinum Smart-Heat Electric Low Clearance Ceiling Recess installation instructions (2300, 3400 and 4500 W)",
+     "year": 2024,
+     "url": "https://pim.bromic.com/wp-content/uploads/2021/08/Platinum-Electric-Low-Clearance-Ceiling-Recess-Instruction-Manual-REV3.pdf"
+    },
+    {
+     "id": "b2",
+     "publisher": "Bromic Heating",
+     "title": "LC Ceiling Recess Kit for the Tungsten Smart-Heat Electric Series II, instructions (2025, dealer-hosted)",
+     "year": 2025,
+     "url": "https://cdn.shopify.com/s/files/1/0780/6926/8771/files/Bromic-Tungsten-Select-Coastal-LC-Recess-Kit-Instructions.pdf"
+    },
+    {
+     "id": "d1",
+     "publisher": "Bromic Heating",
+     "title": "Tungsten Electric Series II launch deck (July 2026), supplied by the owner",
+     "year": 2026,
+     "url": "internal"
+    }
+   ]
+  },
+  {
+   "page": 4,
+   "fact": "“The Heatstrip comes with a remote.” The Enhance does, and it is rated IPX5. Bromic heaters are quoted with Affinity Smart-Heat® controls chosen for the space: dimming, zones, schedules and the Bromic app.",
+   "src": [
+    {
+     "id": "hs",
+     "publisher": "Heatstrip (Thermofilm)",
+     "title": "Heatstrip Classic, Enhance and Max product specifications, heatstrip.com.au and heatstrip.com, retrieved 20 Oct 2026 (as compiled in the owner's campaign page)",
+     "year": 2026,
+     "url": "https://www.heatstrip.com.au/"
+    },
+    {
+     "id": "b3",
+     "publisher": "Bromic Heating",
+     "title": "Affinity Smart-Heat control system brochure 2026",
+     "year": 2026,
+     "url": "https://pim.bromic.com/wp-content/uploads/2026/08/Bromic-affinity-smart-heat-control-system-2026.pdf"
+    },
+    {
+     "id": "b4",
+     "publisher": "Bromic Heating",
+     "title": "Affinity Smart-Heat app",
+     "year": 2026,
+     "url": "https://www.bromic.com/affinity-smart-heat-app/"
+    }
+   ]
+  }
+ ]
+}

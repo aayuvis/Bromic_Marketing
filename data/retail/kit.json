@@ -110,6 +110,15 @@
    "thumb": "reports/retail/_hub/vs-infratech.webp"
   },
   {
+   "id": "vs-heatstrip",
+   "title": "Bromic Platinum And Tungsten vs Heatstrip",
+   "kicker": "Competitive sheet \u00b7 Australia \u00b7 draft, review before external use",
+   "desc": "Platinum Electric measured against Heatstrip Classic and Enhance, the warm zone drawn to scale; Tungsten Series II on published specifications; fair talk lines for the floor.",
+   "pdf": "reports/retail/vs-heatstrip/Bromic-vs-Heatstrip.pdf",
+   "cover": "reports/retail/vs-heatstrip/pages/p1.png",
+   "thumb": "reports/retail/_hub/vs-heatstrip.webp"
+  },
+  {
    "id": "op-why-bromic",
    "title": "Why Stock Bromic",
    "kicker": "BROMIC HEATING",

@@ -1,0 +1,417 @@
+{
+ "_readme": "Data for the retail comparison 'Bromic Platinum And Tungsten vs Heatstrip' (Australia), built by reports/retail/vs-heatstrip/build.js. Owner, 23 Nov 2026: \"create a bromic platinum and bromic tungsten v/s heatstrip too.....use the attached data for heatstrip comparison\". The attached data is the owner's campaign page 'Measured warmth' (campaign-page_measured-warmth.html, TESTS and SPEC tables, claim register) and its HANDOVER.md, 20 Oct 2026. Tests and Heatstrip specifications are copied from it as data; the [verify] and [Rev 2] flags in its SPEC table are kept here as [[VERIFY]] notes. Tungsten Series II facts come from data/product-facts.json and data/product-marketing/tungsten-electric-series-ii.json. No Tungsten test against Heatstrip exists: Tungsten is compared on published specifications only and no performance claim is made for it. Sources are kept here and in reports/retail/vs-heatstrip/sources.json and are not printed.",
+ "id": "vs-heatstrip",
+ "title": "Bromic Platinum And Tungsten vs Heatstrip",
+ "market": "AU",
+ "status": "draft",
+ "needs_approval": "Specification and compliance",
+ "platform_line": "Wider. Warmer. Worry-Free Recessing.",
+ "gates": [
+  {
+   "id": "comparative",
+   "rule": "The comparative test figures (warm-zone areas, temperature rise) go public only after Infrascan Rev 2 and Australian counsel have cleared them.",
+   "owner": "Specification and compliance",
+   "status": "open",
+   "src": [
+    "cp"
+   ]
+  },
+  {
+   "id": "lc-recess",
+   "rule": "Low-clearance recess lines (worry-free recessing, the 180 mm cavity) go public only once each kit's Australian electrical approval is on file and the 180 mm Australian figure is confirmed (US pages say 10 in). \"Safely\" is not used (owner: \"worry-free\").",
+   "owner": "Product team",
+   "status": "open",
+   "src": [
+    "cp"
+   ]
+  },
+  {
+   "id": "faster",
+   "rule": "Claim register: 'warms up faster' is on hold; only 'faster in the first 5 minutes', and only after Rev 2 (Heatstrip Enhance 3200W out-heats Platinum 3400W between 5 and 10 min; the Classic 2400W data is suspect).",
+   "owner": "Specification and compliance",
+   "status": "open",
+   "src": [
+    "cp"
+   ]
+  },
+  {
+   "id": "percent-basis",
+   "rule": "Claim register: never quote a percentage from the Infrascan PDFs (they divide by Bromic's figure). Publish raw m² and percentages computed here from them.",
+   "owner": "Specification and compliance",
+   "status": "applied",
+   "src": [
+    "cp"
+   ]
+  }
+ ],
+ "test": {
+  "lab": "Infrascan Thermal Imaging, Ingleburn NSW",
+  "dates": "28 Jul to 12 Aug 2026",
+  "reports": "Infrascan 15499 and 15583, Rev 1, 19 Sep 2026",
+  "method": "Single unit of each model, as purchased, mounted 2.0 m above a 4 x 4 m target. Areas where the target sat 2, 4 and 6 °C above ambient after 35 minutes. Quarter footprint measured with the heater at the corner; full areas are ellipses, pi x a x b. Commissioned by Bromic, using Bromic's test method.",
+  "verify": "[[VERIFY: Infrascan Rev 2: percentage basis, the Classic 2400W temperature column and the mounting height — Specification and compliance]]",
+  "src": [
+   "ht",
+   "cp"
+  ],
+  "classes": {
+   "34": {
+    "title": "3.2 to 3.4 kW class",
+    "units": [
+     {
+      "n": "Bromic Platinum Electric 3400W",
+      "short": "Platinum 3400W",
+      "bromic": true,
+      "kw": 3.4,
+      "d": [
+       [
+        2.4,
+        2.5
+       ],
+       [
+        1.7,
+        1.6
+       ],
+       [
+        1.45,
+        1.15
+       ]
+      ]
+     },
+     {
+      "n": "Heatstrip Enhance 3200W (THG3200BA)",
+      "short": "Heatstrip Enhance 3200W",
+      "kw": 3.2,
+      "d": [
+       [
+        2.2,
+        2.05
+       ],
+       [
+        1.7,
+        1.6
+       ],
+       [
+        1.1,
+        0.9
+       ]
+      ]
+     },
+     {
+      "n": "Heatstrip Classic 3200W (THH3200A)",
+      "short": "Heatstrip Classic 3200W",
+      "kw": 3.2,
+      "d": [
+       [
+        2.1,
+        2.15
+       ],
+       [
+        1.5,
+        1.5
+       ],
+       [
+        0.95,
+        0.95
+       ]
+      ]
+     }
+    ],
+    "rise5": [
+     7.96,
+     5.95,
+     3.85
+    ],
+    "rise5_verify": [
+     null,
+     null,
+     "[[VERIFY: Heatstrip Classic 3200W rise at 5 min, 3.85 °C — Infrascan Rev 2]]"
+    ],
+    "peak": [
+     13.07,
+     11.01,
+     9.41
+    ]
+   },
+   "23": {
+    "title": "2.3 to 2.4 kW class",
+    "units": [
+     {
+      "n": "Bromic Platinum Electric 2300W",
+      "short": "Platinum 2300W",
+      "bromic": true,
+      "kw": 2.3,
+      "d": [
+       [
+        2.2,
+        2.1
+       ],
+       [
+        1.45,
+        1.45
+       ],
+       [
+        0.65,
+        0.65
+       ]
+      ]
+     },
+     {
+      "n": "Heatstrip Classic 2400W (THH2400A)",
+      "short": "Heatstrip Classic 2400W",
+      "kw": 2.4,
+      "d": [
+       [
+        2.2,
+        2.0
+       ],
+       [
+        1.2,
+        1.2
+       ],
+       [
+        0.6,
+        0.4
+       ]
+      ]
+     },
+     {
+      "n": "Heatstrip Enhance 2400W (THG2400BA)",
+      "short": "Heatstrip Enhance 2400W",
+      "kw": 2.4,
+      "d": [
+       [
+        2.05,
+        1.8
+       ],
+       [
+        1.3,
+        1.05
+       ],
+       [
+        0.6,
+        0.2
+       ]
+      ]
+     }
+    ],
+    "rise5": [
+     4.6,
+     3.85,
+     3.63
+    ],
+    "rise5_verify": [
+     null,
+     "[[VERIFY: Heatstrip Classic 2400W rise at 5 min, 3.85 °C — Infrascan Rev 2]]",
+     null
+    ],
+    "peak": [
+     8.72,
+     8.27,
+     6.99
+    ],
+    "peak_verify": [
+     "[[VERIFY: Platinum 2300W peak rise 8.72 °C — Infrascan Rev 2]]",
+     "[[VERIFY: Heatstrip Classic 2400W peak rise 8.27 °C — Infrascan Rev 2]]",
+     null
+    ]
+   }
+  }
+ },
+ "heatstrip": {
+  "_note": "Heatstrip's published specifications as compiled in the owner's campaign page from heatstrip.com.au and heatstrip.com, retrieved 20 Oct 2026. Heatstrip and its product names are trade marks of their owner, used only to identify the products. Describe Enhance as 'glass front' only (handover).",
+  "src": [
+   "hs",
+   "cp"
+  ],
+  "models": {
+   "classic2400": {
+    "name": "Heatstrip Classic 2400W (THH2400A)",
+    "w": 2400,
+    "chassis": "Ceramic-coated extruded alloy",
+    "face": "Black front profile",
+    "size_mm": "1364 × 165 × 48",
+    "kg": 7,
+    "recess": "Flush-mount enclosure, passive vents",
+    "low_clearance": "None published. Enclosure 125 mm deep plus 150 mm clear behind",
+    "controls": "Optional controller and remote",
+    "ip": "IP55",
+    "warranty": "3 yr residential",
+    "warranty_verify": "[[VERIFY: Heatstrip Classic commercial warranty, 1 or 2 years; its site is inconsistent — Specification and compliance]]",
+    "coastal": "Not listed"
+   },
+   "enhance2400": {
+    "name": "Heatstrip Enhance 2400W (THG2400BA)",
+    "w": 2400,
+    "chassis": "Black-coated alloy",
+    "face": "Glass front",
+    "size_mm": "920 × 187 × 76",
+    "kg": 9,
+    "recess": "Flush mount kit",
+    "recess_verify": "[[VERIFY: Heatstrip Enhance flush mount kit type — Specification and compliance]]",
+    "low_clearance": "None published",
+    "controls": "Remote and app included, 3 levels, timer",
+    "ip": "IPX5",
+    "warranty": "3 yr residential, 2 yr commercial",
+    "coastal": "Not listed"
+   },
+   "classic3200": {
+    "name": "Heatstrip Classic 3200W (THH3200A)",
+    "w": 3200,
+    "chassis": "Ceramic-coated extruded alloy",
+    "face": "Black front profile",
+    "size_mm": "1774 × 165 × 48",
+    "kg": 8,
+    "recess": "Flush-mount enclosure, passive vents",
+    "low_clearance": "None published. Enclosure 125 mm deep plus 150 mm clear behind",
+    "controls": "Optional controller and remote",
+    "ip": "IP55",
+    "warranty": "3 yr residential",
+    "warranty_verify": "[[VERIFY: Heatstrip Classic commercial warranty, 1 or 2 years; its site is inconsistent — Specification and compliance]]",
+    "coastal": "Not listed"
+   },
+   "enhance3200": {
+    "name": "Heatstrip Enhance 3200W (THG3200BA)",
+    "w": 3200,
+    "chassis": "Black-coated alloy",
+    "face": "Glass front",
+    "size_mm": "1020 × 187 × 76",
+    "kg": 10,
+    "recess": "Flush mount kit",
+    "recess_verify": "[[VERIFY: Heatstrip Enhance flush mount kit type — Specification and compliance]]",
+    "low_clearance": "None published",
+    "controls": "Remote and app included, 3 levels, timer",
+    "ip": "IPX5",
+    "warranty": "3 yr residential, 2 yr commercial",
+    "coastal": "Not listed"
+   },
+   "max3600": {
+    "name": "Heatstrip Max 3600W (THX3600)",
+    "w": 3600,
+    "chassis": "Anodised alloy, chromed grille, Incoloy element",
+    "kg": 8,
+    "mount_height": "Ideal 2.4 to 2.8 m",
+    "recess": "Flush mount kit (THXAC-031)",
+    "low_clearance": "None published",
+    "controls": "Optional controller and remote",
+    "coastal": "Not listed"
+   },
+   "maxdc6000": {
+    "name": "Heatstrip MAX DC 6000W (THX6000DC)",
+    "w": 6000,
+    "w_verify": "[[VERIFY: Heatstrip MAX DC 6000W supply, commercial — Specification and compliance]]",
+    "chassis": "Alloy, grille",
+    "chassis_verify": "[[VERIFY: Heatstrip MAX DC chassis and grille — Specification and compliance]]",
+    "mount_height": "Ideal 2.5 to 2.8 m",
+    "recess": "Flush mount enclosure",
+    "recess_verify": "[[VERIFY: Heatstrip MAX DC flush mount enclosure — Specification and compliance]]",
+    "low_clearance": "None published",
+    "controls": "Remote",
+    "controls_verify": "[[VERIFY: Heatstrip MAX DC controls — Specification and compliance]]",
+    "coastal": "Not listed"
+   }
+  }
+ },
+ "platinum": {
+  "_note": "Platinum Smart-Heat Electric facts as the campaign page's SPEC table gives them for Australia (from Bromic product documentation), with the US product page and recess manual behind them.",
+  "src": [
+   "cp",
+   "p1",
+   "p2",
+   "p7"
+  ],
+  "models": {
+   "2300": {
+    "w": 2300,
+    "size_mm": "840 × 182 × 54",
+    "kg": 7.5
+   },
+   "3400": {
+    "w": 3400,
+    "size_mm": "1275 × 182 × 54",
+    "kg": 10
+   },
+   "4500": {
+    "w": 4500,
+    "kg": 15
+   }
+  },
+  "chassis": "304 stainless steel",
+  "face": "Schott tinted glass-ceramic",
+  "marine": "316 stainless Marine model",
+  "recess": "Standard recess kit, glass face flush with the ceiling",
+  "low_clearance": "Low-clearance recess kit with a built-in cooling fan, ceiling cavity from 180 mm, for 2300, 3400 and 4500W",
+  "low_clearance_verify": "[[VERIFY: Platinum low-clearance recess kit: the Australian cavity figure (180 mm here; US pages say 10 in) and the kit's Australian electrical approval — Product team]]",
+  "ip": "IPX4, undercover use",
+  "ip_verify": "[[VERIFY: Platinum Electric IP rating in Australia (IPX4 here) — Product team]]",
+  "warranty": "3 years",
+  "controls": "Affinity Smart-Heat On/Off or Dimmer controllers, multi-zone, and a manual wall switch (sold separately)"
+ },
+ "tungsten": {
+  "_note": "Tungsten Smart-Heat Electric Series II: Select and Coastal launched October 2026; Classic follows January 2027 (hard rule 7). US documents; Australian range, supply and listings are open.",
+  "src": [
+   "pf",
+   "d1",
+   "b1",
+   "b2",
+   "s4",
+   "b3",
+   "b4"
+  ],
+  "outputs": "2, 3, 4 and 6 kW on Select; 4 and 6 kW on Coastal",
+  "dual_elements": "Dual elements on 4 and 6 kW, dimmable in 1% steps with the Affinity Smart-Heat Dimmer",
+  "finishes": "Select: black, white or graphite (graphite on 4 and 6 kW), front included. Coastal: black or white",
+  "fronts": "Diamond Pattern as standard; oval and triangle sold separately (Select)",
+  "coastal": "Coastal: a high-temperature corrosion-resistant coating over 316 marine-grade stainless steel; marine-grade recess kit; not for marine craft",
+  "coastal_verify": "[[VERIFY: Coastal body material (316 per the Lookbook and launch deck) and the coating's name — Product team]]",
+  "length_mm": "1144 (2 and 4 kW), 1436 (3 and 6 kW)",
+  "width_mm": 183,
+  "size_verify": "[[VERIFY: which outputs share each body length; depth stays off customer copy until measured the same way — Product team]]",
+  "kg": "5.9 (2 and 4 kW), 6.8 (3 and 6 kW), from 13 and 15 lb in the US manuals",
+  "mounting": "Ceiling, pitched ceiling 3/12 to 12/12 (14 to 45°) with the adaptor, wall, extended wall, single post, recessed",
+  "tilt": "Up to 45°",
+  "tilt_verify": "[[VERIFY: 45° tilt on 4 and 6 kW; the Series II manual gives 30° — Product team]]",
+  "low_clearance": "Dual fan-ventilated low-clearance recess kit, recess box supplied with the kit; one kit for Select and Coastal (marine-grade on Coastal)",
+  "cavity": "190.5 mm (7.5 in) minimum cavity, US recess kit manual",
+  "cavity_verify": "[[VERIFY: Series II recess kit cavity depth in Australia, no fire-rated lining under its listing, and continuous-use guidance — Product team]]",
+  "ip": "IPX5",
+  "warranty": "3 years on the heater, 7 years on the elements",
+  "controls": "Affinity Smart-Heat Dimmer as standard, On/Off where dimming is not wanted, and a manual wall switch (sold separately)",
+  "au_verify": "[[VERIFY: Tungsten Series II in Australia: models, 230 V supply, listings and availability dates — Product team]]"
+ },
+ "sources": [
+  {
+   "id": "ht",
+   "publisher": "Infrascan Thermal Imaging (commissioned by Bromic)",
+   "title": "Test reports 15499 and 15583: Bromic Platinum Electric 2.3 and 3.4 kW vs Heatstrip Classic and Enhance, Rev 1, 19 Sep 2026; tested 28 Jul to 12 Aug 2026, Ingleburn NSW. Figures as recomputed in the owner's campaign page.",
+   "year": 2026,
+   "url": "internal"
+  },
+  {
+   "id": "hs",
+   "publisher": "Heatstrip (Thermofilm)",
+   "title": "Heatstrip Classic, Enhance and Max product specifications, heatstrip.com.au and heatstrip.com, retrieved 20 Oct 2026 (as compiled in the owner's campaign page)",
+   "year": 2026,
+   "url": "https://www.heatstrip.com.au/"
+  },
+  {
+   "id": "cp",
+   "publisher": "Bromic Heating (owner-supplied)",
+   "title": "Measured warmth: Bromic vs Heatstrip (Australia) campaign page and handover, 20 Oct 2026: SPEC table, claim register and status gates",
+   "year": 2026,
+   "url": "internal"
+  }
+ ],
+ "open": [
+  "[[VERIFY: Infrascan Rev 2: percentage basis, the Classic 2400W temperature column and the mounting height — Specification and compliance]]",
+  "[[VERIFY: Australian counsel sign-off on the comparative figures — Specification and compliance]]",
+  "[[VERIFY: Platinum low-clearance recess kit: the Australian cavity figure (180 mm; US pages say 10 in) and the kit's Australian electrical approval — Product team]]",
+  "[[VERIFY: Platinum Electric IP rating in Australia (IPX4) — Product team]]",
+  "[[VERIFY: Heatstrip Enhance flush mount kit type — Specification and compliance]]",
+  "[[VERIFY: Heatstrip Classic commercial warranty, 1 or 2 years — Specification and compliance]]",
+  "[[VERIFY: Tungsten Series II in Australia: models, 230 V supply, listings, recess cavity in mm — Product team]]",
+  "[[VERIFY: 45° tilt on Tungsten Series II 4 and 6 kW; the manual gives 30° — Product team]]",
+  "[[VERIFY: Tungsten Coastal body material and coating name — Product team]]"
+ ],
+ "platform_line_note": "Owner, 23 Nov 2026: \"bromic has worry free recessing and can recess up to 6 kw\". Customer-facing recess lines say \"worry-free\", never \"safely\". The campaign line \"Wider. Warmer. Recessed safely.\" is replaced; its gate stays on the low-clearance kits."
+}

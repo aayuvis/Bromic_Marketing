@@ -1,0 +1,12 @@
+{
+ "title": "Bromic Platinum And Tungsten vs Heatstrip",
+ "kicker": "Retail kit · competitive sheet · Australia",
+ "desc": "Four US Letter pages (A4-friendly) for Australian floor staff and buyers: the differences up front, Platinum Electric against Heatstrip Classic and Enhance with the measured warm zone drawn to scale, Tungsten Series II against Heatstrip on published specifications only, and how to sell it. Draft: test figures held until Infrascan Rev 2 and Australian counsel; Specification and compliance review required before external use.",
+ "market": "AU",
+ "pages": 4,
+ "needs_approval": "Specification and compliance",
+ "pdf": "reports/retail/vs-heatstrip/Bromic-vs-Heatstrip.pdf",
+ "cover": "reports/retail/vs-heatstrip/pages/p1.png",
+ "data": "data/retail/vs-heatstrip.json",
+ "sources": "reports/retail/vs-heatstrip/sources.json"
+}
