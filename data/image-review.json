@@ -3341,7 +3341,10 @@
    "file": "images/review/full/pr-a-white-logo-34-warm-grey.jpg",
    "thumb": "images/review/thumb/pr-a-white-logo-34-warm-grey.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-white-logo-34-grey",
@@ -3353,7 +3356,10 @@
    "file": "images/review/full/pr-a-white-logo-34-grey.jpg",
    "thumb": "images/review/thumb/pr-a-white-logo-34-grey.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-b-graphite-wall-concrete-garden",
@@ -3367,7 +3373,10 @@
    "file": "images/review/full/pr-b-graphite-wall-concrete-garden.jpg",
    "thumb": "images/review/thumb/pr-b-graphite-wall-concrete-garden.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-b-graphite-wall-concrete-firepit",
@@ -3381,7 +3390,11 @@
    "file": "images/review/full/pr-b-graphite-wall-concrete-firepit.jpg",
    "thumb": "images/review/thumb/pr-b-graphite-wall-concrete-firepit.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true,
+   "note": "use f14 and part the heater slightly weathered"
   }
  ]
 }
