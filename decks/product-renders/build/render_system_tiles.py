@@ -54,10 +54,14 @@ for k, h in enumerate(SH['heaters']):
         for o in nm_: bpy.data.objects.remove(o)
         HIDE = ['obsolete', 'terminal box', 'harness', 'junction box', 'cable', 'noctua', 'ref ', 'gland', 'receptacle', 'radiant barrier', 'label', 'gro-', 'ctsn', 'cb16', 'insulation', 'wire', 'flange']
         for o in list(new):
-            if any(x in o.data.name.lower() for x in HIDE): bpy.data.objects.remove(o); new.remove(o)
+            if any(x in o.data.name.lower() for x in HIDE) and not (h.get('empty') and 'noctua' in o.data.name.lower()): bpy.data.objects.remove(o); new.remove(o)
         for o in list(new):
             xs = [(o.matrix_world @ V(c)).x for c in o.bound_box]
             if min(xs) < -0.79 or max(xs) > 0.79: bpy.data.objects.remove(o); new.remove(o)
+        if h.get('empty'):   # the recess kit on its own (owner, 23 Nov 2026: "recess kits should not have heaters"): chassis and its top rivets
+            for o in list(new):
+                zs = [(o.matrix_world @ V(c)).z for c in o.bound_box]
+                if not ('chassis' in o.data.name.lower() or 'fan' in o.data.name.lower() or 'noctua' in o.data.name.lower() or ('rivet' in o.data.name.lower() and min(zs) > 0.15)): bpy.data.objects.remove(o); new.remove(o)
     if h.get('bare'):  # the heater on its own for a cut-out: bracket, plate and post removed
         for o in list(new):
             if o.type == 'MESH' and any(c in o.data.name.lower() for c in ['bmc-00538', 'bmc-00541', 'bmc-00553', 'heyco', 'bmc-00535']): bpy.data.objects.remove(o); new.remove(o)
@@ -113,7 +117,7 @@ for k, h in enumerate(SH['heaters']):
                 for j in range(13):
                     cx_ = xa + (xb - xa) * (i + 0.5) / 5; cy_ = -IY + 0.009 + j * (2 * IY - 0.018) / 12
                     plate(cx_ - 0.0055, cx_ + 0.0055, cy_ - 0.0045, cy_ + 0.0045, -0.0031, -0.0026, slot)
-        fc = [o for o in meshes if 'front cover' in o.data.name.lower()][0]
+        fc = ([o for o in meshes if 'front cover' in o.data.name.lower()] or [o for o in new if o.type == 'MESH' and o.data.name.startswith('Cube')])[0]
         lp = [fc.matrix_world @ p.center for p in fc.data.polygons if fc.material_slots[p.material_index].material == logo]
         cs = [o.matrix_world @ V(c) for o in new for c in o.bound_box]
         lo = V([min(c[i] for c in cs) for i in range(3)]); hi = V([max(c[i] for c in cs) for i in range(3)])
@@ -198,6 +202,7 @@ key = SH.get('key', (-2.0, -2.2, -1.6)); area('key', key, SH.get('key_size', 5.0
 area('fill', SH.get('fill', (2.4, -1.8, -0.8)), 3.0, SH.get('fill_w', 300), (0.95, 0.97, 1.0))
 area('rim', SH.get('rim', (0.5, 2.2, -0.4)), 1.2, SH.get('rim_w', 500))
 area('top', (0, -0.5, 2.5), 4, SH.get('top_w', 150))
+for j, L in enumerate(SH.get('lights', [])): area(f'x{j}', L['at'], L.get('size', 1.0), L['w'], tuple(L.get('col', (1, 1, 1))), look=base + V(L['to']))   # e.g. a fill into the open kit
 w = bpy.data.worlds.new('w'); sc.world = w; w.use_nodes = True; w.node_tree.nodes['Background'].inputs[0].default_value = (0.92, 0.92, 0.92, 1)
 w.node_tree.nodes['Background'].inputs[1].default_value = SH.get('world', 0.12)
 

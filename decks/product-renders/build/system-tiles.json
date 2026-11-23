@@ -266,5 +266,181 @@
   "noise": 0.04,
   "surface": false,
   "region": false
+ },
+ "kitempty-black": {
+  "heaters": [
+   {
+    "glb": "6kW heater and recess kit.glb",
+    "finish": "black",
+    "mount": "recess",
+    "glow": 16,
+    "empty": true
+   }
+  ],
+  "camera": {
+   "lens": 50,
+   "fstop": 11,
+   "fit": 0.03,
+   "target": [
+    0,
+    0,
+    0
+   ],
+   "pos": [
+    1.3,
+    -1.0,
+    -0.7
+   ],
+   "up": [
+    -1,
+    0.8,
+    0
+   ]
+  },
+  "res": [
+   2400,
+   1600
+  ],
+  "exposure": -1.5,
+  "samples": 16,
+  "noise": 0.04,
+  "surface": false,
+  "region": false,
+  "lights": [
+   {
+    "at": [
+     0.3,
+     -0.25,
+     -0.45
+    ],
+    "to": [
+     0,
+     0,
+     0.1
+    ],
+    "size": 0.8,
+    "w": 60
+   }
+  ]
+ },
+ "kitempty-graphite": {
+  "heaters": [
+   {
+    "glb": "6kW heater and recess kit.glb",
+    "finish": "graphite",
+    "mount": "recess",
+    "glow": 16,
+    "fin": {
+     "col": [
+      0.02,
+      0.019,
+      0.0175
+     ],
+     "coat": 0.2
+    },
+    "empty": true
+   }
+  ],
+  "camera": {
+   "lens": 50,
+   "fstop": 11,
+   "fit": 0.03,
+   "target": [
+    0,
+    0,
+    0
+   ],
+   "pos": [
+    1.3,
+    -1.0,
+    -0.7
+   ],
+   "up": [
+    -1,
+    0.8,
+    0
+   ]
+  },
+  "res": [
+   2400,
+   1600
+  ],
+  "exposure": -1.5,
+  "samples": 16,
+  "noise": 0.04,
+  "surface": false,
+  "region": false,
+  "lights": [
+   {
+    "at": [
+     0.3,
+     -0.25,
+     -0.45
+    ],
+    "to": [
+     0,
+     0,
+     0.1
+    ],
+    "size": 0.8,
+    "w": 45
+   }
+  ]
+ },
+ "kitempty-white": {
+  "heaters": [
+   {
+    "glb": "6kW heater and recess kit.glb",
+    "finish": "white",
+    "mount": "recess",
+    "glow": 16,
+    "empty": true
+   }
+  ],
+  "camera": {
+   "lens": 50,
+   "fstop": 11,
+   "fit": 0.03,
+   "target": [
+    0,
+    0,
+    0
+   ],
+   "pos": [
+    1.3,
+    -1.0,
+    -0.7
+   ],
+   "up": [
+    -1,
+    0.8,
+    0
+   ]
+  },
+  "res": [
+   2400,
+   1600
+  ],
+  "exposure": -1.5,
+  "samples": 16,
+  "noise": 0.04,
+  "surface": false,
+  "region": false,
+  "lights": [
+   {
+    "at": [
+     0.3,
+     -0.25,
+     -0.45
+    ],
+    "to": [
+     0,
+     0,
+     0.1
+    ],
+    "size": 0.8,
+    "w": 18
+   }
+  ]
  }
 }

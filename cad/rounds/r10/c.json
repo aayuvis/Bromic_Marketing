@@ -214,12 +214,13 @@
   "finish": "white",
   "aperture": "f/14",
   "background": "generated: garden pavilion with oak-boarded ceiling at dusk (prompted from real photo w-eclipse-pendant-uk-residential for light and materials)",
-  "w": 5056,
-  "h": 3392,
+  "w": 3840,
+  "h": 2560,
   "file": "images/review/full/pr-c-white-recessed-pair-oak-pavilion-lounge-dusk.jpg",
   "thumb": "images/review/thumb/pr-c-white-recessed-pair-oak-pavilion-lounge-dusk.webp",
   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-  "status": "pending"
+  "status": "pending",
+  "redo": "v2: cavity neutral, logo visible, pair further back over the seats"
  },
  {
   "id": "pr-c-white-recessed-pair-desert-kitchen-bar-sunset",
@@ -233,7 +234,8 @@
   "file": "images/review/full/pr-c-white-recessed-pair-desert-kitchen-bar-sunset.jpg",
   "thumb": "images/review/thumb/pr-c-white-recessed-pair-desert-kitchen-bar-sunset.webp",
   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-  "status": "pending"
+  "status": "pending",
+  "redo": "v2: cavity neutral, logo visible, pair further back over the seats"
  },
  {
   "id": "pr-c-graphite-recessed-pair-cedar-garden-dining-dusk",

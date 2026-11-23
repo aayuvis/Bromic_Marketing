@@ -2438,17 +2438,15 @@
    "finish": "white",
    "aperture": "f/14",
    "background": "generated: garden pavilion with oak-boarded ceiling at dusk (prompted from real photo w-eclipse-pendant-uk-residential for light and materials)",
-   "w": 5056,
-   "h": 3392,
+   "w": 3840,
+   "h": 2560,
    "file": "images/review/full/pr-c-white-recessed-pair-oak-pavilion-lounge-dusk.jpg",
    "thumb": "images/review/thumb/pr-c-white-recessed-pair-oak-pavilion-lounge-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "rejected",
+   "status": "pending",
    "review_note": "Side by side and parallel. Check: in several the pair sits nearer the camera than the seats, and the heaters are small in frame.",
-   "note": "what is the color streak between the rc kit and heaters. (it should be gray. ....the logo is not visible...the heaters should be further away..",
-   "decided": "2026-11-22",
-   "decided_by": "owner",
-   "learned": true
+   "redo": "v2: cavity neutral, logo visible, pair further back over the seats",
+   "previous_note": "what is the color streak between the rc kit and heaters. (it should be gray. ....the logo is not visible...the heaters should be further away.."
   },
   {
    "id": "pr-d-recess-white-beadboard-logo-f1-4",
@@ -2591,11 +2589,9 @@
    "file": "images/review/full/pr-c-white-recessed-pair-desert-kitchen-bar-sunset.jpg",
    "thumb": "images/review/thumb/pr-c-white-recessed-pair-desert-kitchen-bar-sunset.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "rejected",
-   "note": "what is the color streak between the rc kit and heaters. it should be gray.",
-   "decided": "2026-11-22",
-   "decided_by": "owner",
-   "learned": true
+   "status": "pending",
+   "redo": "v2: cavity neutral, logo visible, pair further back over the seats",
+   "previous_note": "what is the color streak between the rc kit and heaters. it should be gray."
   },
   {
    "id": "pr-c-graphite-recessed-pair-cedar-garden-dining-dusk",
@@ -2955,6 +2951,63 @@
    "review_note": "Side by side and parallel. Check: in several the pair sits nearer the camera than the seats, and the heaters are small in frame.",
    "redo": "v2: cavity neutral, logo visible, pair further back over the seats",
    "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away.."
+  },
+  {
+   "id": "pr-c-black-recessed-pair-city-balcony-night-system-a4",
+   "title": "System banner option A4 – split tone, ink block for the words and a warm stone panel for the products, joined by a flame rule",
+   "kind": "Scene with system banner (option)",
+   "finish": "black",
+   "w": 3840,
+   "h": 3533,
+   "file": "images/review/full/pr-c-black-recessed-pair-city-balcony-night-system-a4.jpg",
+   "thumb": "images/review/thumb/pr-c-black-recessed-pair-city-balcony-night-system-a4.webp",
+   "source": "pr-c-black-recessed-pair-city-balcony-night with banner option A4 (decks/build-system-banner-a-variants.py): Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in black; Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png) cut out from its white ground; product lines from data/product-facts.json; edge contrast [('Tungsten Smart-Heat® Electric', np.float64(10.31)), ('Low-Clearance Recess Kit', np.float64(10.93)), ('Affinity Smart-Heat® Dimmer, 2-Channel', np.float64(3.53))]",
+   "status": "pending"
+  },
+  {
+   "id": "pr-c-black-recessed-pair-city-balcony-night-system-a5",
+   "title": "System banner option A5 – gradient floor from ink to mid warm grey, products standing on the light floor with a reflection",
+   "kind": "Scene with system banner (option)",
+   "finish": "black",
+   "w": 3840,
+   "h": 3533,
+   "file": "images/review/full/pr-c-black-recessed-pair-city-balcony-night-system-a5.jpg",
+   "thumb": "images/review/thumb/pr-c-black-recessed-pair-city-balcony-night-system-a5.webp",
+   "source": "pr-c-black-recessed-pair-city-balcony-night with banner option A5 (decks/build-system-banner-a-variants.py): Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in black; Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png) cut out from its white ground; product lines from data/product-facts.json; edge contrast [('Tungsten Smart-Heat® Electric', np.float64(3.96)), ('Low-Clearance Recess Kit', np.float64(4.08)), ('Affinity Smart-Heat® Dimmer, 2-Channel', np.float64(1.11))]",
+   "status": "pending"
+  },
+  {
+   "id": "pr-c-white-recessed-pair-oak-pavilion-lounge-dusk",
+   "title": "Two Series II white heaters recessed side by side in the low-clearance kit, parallel with the oak ceiling boards and centred over a garden pavilion lounge at dusk",
+   "kind": "CAD render in a setting",
+   "finish": "white",
+   "aperture": "f/14",
+   "background": "generated: garden pavilion with oak-boarded ceiling at dusk (prompted from real photo w-eclipse-pendant-uk-residential for light and materials)",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-c-white-recessed-pair-oak-pavilion-lounge-dusk.jpg",
+   "thumb": "images/review/thumb/pr-c-white-recessed-pair-oak-pavilion-lounge-dusk.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending",
+   "review_note": "Side by side and parallel. Check: in several the pair sits nearer the camera than the seats, and the heaters are small in frame.",
+   "redo": "v2: cavity neutral, logo visible, pair further back over the seats",
+   "previous_note": "what is the color streak between the rc kit and heaters. (it should be gray. ....the logo is not visible...the heaters should be further away.."
+  },
+  {
+   "id": "pr-c-white-recessed-pair-desert-kitchen-bar-sunset",
+   "title": "Two Series II white heaters recessed side by side in the low-clearance kit, parallel with the kitchen island and centred over its bar stools in a desert outdoor kitchen at sunset",
+   "kind": "CAD render in a setting",
+   "finish": "white",
+   "aperture": "f/14",
+   "background": "generated: covered outdoor kitchen with flat plaster ceiling and desert garden at sunset (prompted from real photo w-dwell-modern-sunset-house for light and materials)",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-c-white-recessed-pair-desert-kitchen-bar-sunset.jpg",
+   "thumb": "images/review/thumb/pr-c-white-recessed-pair-desert-kitchen-bar-sunset.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending",
+   "redo": "v2: cavity neutral, logo visible, pair further back over the seats",
+   "previous_note": "what is the color streak between the rc kit and heaters. it should be gray."
   }
  ]
 }
