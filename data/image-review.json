@@ -5975,6 +5975,36 @@
    "file": "images/review/full/hb-platinum-gas-500-lounge-plan.jpg",
    "thumb": "images/review/thumb/hb-platinum-gas-500-lounge-plan.webp",
    "status": "pending"
+  },
+  {
+   "id": "hb-eclipse-pendant-dining",
+   "title": "Eclipse Electric 2900 W pendant heat bloom: 121 ft², 12.4 ft circle, 24 in twin pole under a 10 ft ceiling, pool terrace dining",
+   "kind": "Heat bloom (coverage)",
+   "finish": "black",
+   "aperture": "f/8",
+   "background": "Pool-terrace plate from the image model, built from our 3D layout; the Eclipse is modelled from the manual dimensions and checked against the Bromic DWG wireframe",
+   "source": "Coverage from the 2026 Bromic catalog (max heat area 121 ft2); circle of equal area; composited by the content team",
+   "review_note": "Open fixes: the wall controller sits behind the plan card, and a little more ceiling should show above the pole.",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/hb-eclipse-pendant-dining.jpg",
+   "thumb": "images/review/thumb/hb-eclipse-pendant-dining.webp",
+   "status": "pending"
+  },
+  {
+   "id": "hb-eclipse-pendant-dining-plan",
+   "title": "Eclipse Electric 2900 W pendant heat bloom, top-down plan: 121 ft² circle over a table for four",
+   "kind": "Heat bloom (coverage)",
+   "finish": "black",
+   "aperture": "f/8",
+   "background": "Pool-terrace plate from the image model, built from our 3D layout; the Eclipse is modelled from the manual dimensions and checked against the Bromic DWG wireframe",
+   "source": "Coverage from the 2026 Bromic catalog (max heat area 121 ft2); circle of equal area; composited by the content team",
+   "review_note": "Open fixes: the wall controller sits behind the plan card, and a little more ceiling should show above the pole.",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/hb-eclipse-pendant-dining-plan.jpg",
+   "thumb": "images/review/thumb/hb-eclipse-pendant-dining-plan.webp",
+   "status": "pending"
   }
  ]
 }
