@@ -358,5 +358,29 @@
   "thumb": "images/review/thumb/pr-a-white-up-9x16-grey.webp",
   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
   "status": "pending"
+ },
+ {
+  "id": "pr-a-3kw-white-logo-34-light",
+  "title": "Series II 3 kW, white, three-quarter view of the logo end and ceiling post, element glowing, on a light sweep",
+  "kind": "CAD studio render",
+  "finish": "white",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-a-3kw-white-logo-34-light.jpg",
+  "thumb": "images/review/thumb/pr-a-3kw-white-logo-34-light.webp",
+  "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+  "status": "pending"
+ },
+ {
+  "id": "pr-a-3kw-white-logo-34-warm-grey",
+  "title": "Series II 3 kW, white, three-quarter view of the logo end and ceiling post, element glowing, on a warm-grey sweep",
+  "kind": "CAD studio render",
+  "finish": "white",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-a-3kw-white-logo-34-warm-grey.jpg",
+  "thumb": "images/review/thumb/pr-a-3kw-white-logo-34-warm-grey.webp",
+  "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+  "status": "pending"
  }
 ]

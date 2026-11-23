@@ -190,7 +190,7 @@
   "thumb": "images/review/thumb/pr-c-black-recessed-pair-rooftop-lounge-dusk.webp",
   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
   "status": "pending",
-  "redo": "v2: cavity neutral, logo visible, pair further back over the seats"
+  "redo": "v3: logo upright"
  },
  {
   "id": "pr-c-graphite-recessed-pair-concrete-desert-dining-night",
@@ -205,7 +205,7 @@
   "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-concrete-desert-dining-night.webp",
   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
   "status": "pending",
-  "redo": "v2: cavity neutral, logo visible, pair further back over the seats"
+  "redo": "v3: logo upright"
  },
  {
   "id": "pr-c-white-recessed-pair-oak-pavilion-lounge-dusk",
@@ -265,7 +265,7 @@
   "thumb": "images/review/thumb/pr-c-black-recessed-pair-spotted-gum-dining-afternoon.webp",
   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
   "status": "pending",
-  "redo": "v2: cavity neutral, logo visible, pair further back over the seats"
+  "redo": "v3: logo upright"
  },
  {
   "id": "pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk",
