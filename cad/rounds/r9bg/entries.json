@@ -152,5 +152,19 @@
   "thumb": "images/review/thumb/pr-bg-graphite-pergola-beam-desert-dusk.webp",
   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
   "status": "pending"
+ },
+ {
+  "id": "pr-bg-white-whitewashed-brick-wall",
+  "title": "Series II Select white on the angled wall bracket, whitewashed brick wall, garden foliage beyond",
+  "kind": "CAD render in a setting",
+  "finish": "white",
+  "aperture": "f/1.4",
+  "background": "whitewashed brick and painted soffit: generated surface textures; real photo: w-eclipse-pendant-uk-residential (foliage backdrop, defocused)",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-bg-white-whitewashed-brick-wall.jpg",
+  "thumb": "images/review/thumb/pr-bg-white-whitewashed-brick-wall.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
  }
 ]

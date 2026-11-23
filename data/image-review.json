@@ -1562,7 +1562,8 @@
    "file": "images/review/full/pr-bg-black-recess-kit-plaster-ceiling.jpg",
    "thumb": "images/review/thumb/pr-bg-black-recess-kit-plaster-ceiling.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "review_note": "Recess trim modelled to the published size (1,624 × 283 mm), not the obsolete CAD trim; confirm the look."
   },
   {
    "id": "pr-a-graphite-dark-endcap",
@@ -1900,6 +1901,33 @@
    "thumb": "images/review/thumb/pr-c-graphite-wall-limewash-bench.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "pending"
+  },
+  {
+   "id": "pr-a-black-4x5-hero",
+   "title": "Series II 6 kW, black, ceiling post seen steeply from below, 4:5 portrait for social, elements glowing",
+   "kind": "CAD studio render",
+   "finish": "black",
+   "w": 3072,
+   "h": 3840,
+   "file": "images/review/full/pr-a-black-4x5-hero.jpg",
+   "thumb": "images/review/thumb/pr-a-black-4x5-hero.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+   "status": "pending"
+  },
+  {
+   "id": "pr-bg-white-whitewashed-brick-wall",
+   "title": "Series II Select white on the angled wall bracket, whitewashed brick wall, garden foliage beyond",
+   "kind": "CAD render in a setting",
+   "finish": "white",
+   "aperture": "f/1.4",
+   "background": "whitewashed brick and painted soffit: generated surface textures; real photo: w-eclipse-pendant-uk-residential (foliage backdrop, defocused)",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-bg-white-whitewashed-brick-wall.jpg",
+   "thumb": "images/review/thumb/pr-bg-white-whitewashed-brick-wall.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending",
+   "review_note": "Camera rolled about 35° so the logo reads upright; the brick runs on a diagonal."
   }
  ]
 }
