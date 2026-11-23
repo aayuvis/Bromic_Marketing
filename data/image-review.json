@@ -6005,6 +6005,62 @@
    "file": "images/review/full/hb-eclipse-pendant-dining-plan.jpg",
    "thumb": "images/review/thumb/hb-eclipse-pendant-dining-plan.webp",
    "status": "pending"
+  },
+  {
+   "id": "hb-platinum-gas-300-lounge",
+   "title": "Platinum Gas 300 heat bloom: 160 ft², 14.3 ft circle in front of the wall, wall-mounted at 9 ft, lounge",
+   "kind": "Heat bloom (coverage)",
+   "finish": "black",
+   "aperture": "f/8",
+   "background": "Lounge plate from the image model, built from our 3D layout; gas head modelled from the manual dimensions",
+   "source": "Coverage from the 2026 Bromic catalog (max heat area 160 ft2); circle of equal area in front of the wall; composited by the content team",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/hb-platinum-gas-300-lounge.jpg",
+   "thumb": "images/review/thumb/hb-platinum-gas-300-lounge.webp",
+   "status": "pending"
+  },
+  {
+   "id": "hb-platinum-gas-300-lounge-plan",
+   "title": "Platinum Gas 300 heat bloom, top-down plan: 160 ft² circle in front of the wall",
+   "kind": "Heat bloom (coverage)",
+   "finish": "black",
+   "aperture": "f/8",
+   "background": "Plan drawn by the content team",
+   "source": "Coverage from the 2026 Bromic catalog",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/hb-platinum-gas-300-lounge-plan.jpg",
+   "thumb": "images/review/thumb/hb-platinum-gas-300-lounge-plan.webp",
+   "status": "pending"
+  },
+  {
+   "id": "hb-eclipse-fs-patio",
+   "title": "Eclipse Freestanding 2900 W heat bloom: 121 ft², 12.4 ft circle under the head, patio lounge",
+   "kind": "Heat bloom (coverage)",
+   "finish": "black",
+   "aperture": "f/8",
+   "background": "Patio plate from the image model, built from our 3D layout; the heater is Bromic's own product photo (w-eclipse-portable) at true height, mirrored (round, no lettering)",
+   "source": "Coverage from the 2026 Bromic catalog (max heat area 121 ft2); composited by the content team",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/hb-eclipse-fs-patio.jpg",
+   "thumb": "images/review/thumb/hb-eclipse-fs-patio.webp",
+   "status": "pending"
+  },
+  {
+   "id": "hb-eclipse-fs-patio-plan",
+   "title": "Eclipse Freestanding heat bloom, top-down plan: 121 ft² circle over the lounge",
+   "kind": "Heat bloom (coverage)",
+   "finish": "black",
+   "aperture": "f/8",
+   "background": "Plan drawn by the content team",
+   "source": "Coverage from the 2026 Bromic catalog",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/hb-eclipse-fs-patio-plan.jpg",
+   "thumb": "images/review/thumb/hb-eclipse-fs-patio-plan.webp",
+   "status": "pending"
   }
  ]
 }
