@@ -1179,5 +1179,61 @@
   "thumb": "images/review/thumb/pr-b-black-wall-corten-oak-courtyard-dusk.webp",
   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
   "status": "pending"
+ },
+ {
+  "id": "pr-b-graphite-render-soffit-sea-dusk",
+  "title": "Series II Select 6 kW graphite on its short ceiling post, tilted 20 degrees on its bracket, painted render soffit, sea at dusk beyond",
+  "kind": "CAD render in a setting",
+  "finish": "graphite",
+  "aperture": "f/8",
+  "background": "generated empty setting: terrace view to the sea at dusk (backdrop, lens blur matched to f/8); render soffit: generated surface texture",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-b-graphite-render-soffit-sea-dusk.jpg",
+  "thumb": "images/review/thumb/pr-b-graphite-render-soffit-sea-dusk.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
+ },
+ {
+  "id": "pr-b-graphite-render-soffit-reflecting-pool",
+  "title": "Series II Select 6 kW graphite on its short ceiling post, tilted 20 degrees on its bracket, painted render soffit, concrete courtyard and reflecting pool beyond",
+  "kind": "CAD render in a setting",
+  "finish": "graphite",
+  "aperture": "f/8",
+  "background": "generated empty setting: concrete courtyard with reflecting pool (backdrop, lens blur matched to f/8); render soffit: generated surface texture",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-b-graphite-render-soffit-reflecting-pool.jpg",
+  "thumb": "images/review/thumb/pr-b-graphite-render-soffit-reflecting-pool.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
+ },
+ {
+  "id": "pr-b-graphite-wall-limestone-sea-dusk",
+  "title": "Series II Select 6 kW graphite on the angled wall bracket, honed limestone wall under a cedar soffit, sea and headland at dusk beyond",
+  "kind": "CAD render in a setting",
+  "finish": "graphite",
+  "aperture": "f/8",
+  "background": "generated empty setting: terrace view to the sea at dusk (backdrop, lens blur matched to f/8); limestone wall and cedar soffit: generated surface textures",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-b-graphite-wall-limestone-sea-dusk.jpg",
+  "thumb": "images/review/thumb/pr-b-graphite-wall-limestone-sea-dusk.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
+ },
+ {
+  "id": "pr-b-graphite-wall-limestone-courtyard-dusk",
+  "title": "Series II Select 6 kW graphite on the angled wall bracket, honed limestone wall under a cedar soffit, courtyard with lit glass doors beyond",
+  "kind": "CAD render in a setting",
+  "finish": "graphite",
+  "aperture": "f/8",
+  "background": "generated empty setting: concrete courtyard at dusk (backdrop, lens blur matched to f/8); limestone wall and cedar soffit: generated surface textures",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-b-graphite-wall-limestone-courtyard-dusk.jpg",
+  "thumb": "images/review/thumb/pr-b-graphite-wall-limestone-courtyard-dusk.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
  }
 ]
