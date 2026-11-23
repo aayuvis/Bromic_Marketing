@@ -67,3 +67,6 @@ controls statement and disclaimer stays, with the same meaning. A table stays a 
 ## Declining statistics (owner, 22 Nov 2026)
 
 When a statistic has fallen, never show the comparison with an earlier year – no "down from", no "second fall in a row", no slope or year-on-year chart of a decline. State the latest number on its own and frame it positively, e.g. "Architects Still Rank Outdoor Living First" with "a net 55% of architects report rising popularity (Q2 2025)". The fact stays exact and sourced; only the unfavourable comparison goes. Rising comparisons ("up from 65% in 2024") may stay. Internal `supports:` lines in front matter keep the full source facts.
+
+## Recessing (owner, 23 Nov 2026)
+Customer-facing recess lines say "worry-free recessing", never "safe" or "safely". Tungsten Smart-Heat Electric Series II: "Worry-free recessing, up to 6 kW" (dual fan-ventilated low-clearance kit, recess box supplied).

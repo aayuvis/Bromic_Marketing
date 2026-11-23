@@ -109,8 +109,8 @@ const CALLOUTS = [
     bromic: 'Three years on the heater and seven on the elements, across Select, Coastal and Classic.',
     infra: 'A 3-year limited warranty; a fourth year through Elite Retailers and the Installer Program.',
     src: ['pf', 's4', 'i9', 'i17'] },
-  { b: 'recess', icon: 'fan', label: 'Recessed, dual fan-ventilated', big: '6 kW', unit: 'recessed, two fans in the kit',
-    bromic: `6,000 W into a 7.5 in ceiling cavity (${TC}). The low-clearance kit is dual fan-ventilated and the recess box comes with it.`,
+  { b: 'recess', icon: 'fan', label: 'Worry-free recessing', big: '6 kW', unit: 'worry-free recessing, up to 6 kW',
+    bromic: `Worry-free recessing up to 6,000 W, into a 7.5 in ceiling cavity (${TC}). The low-clearance kit is dual fan-ventilated and the recess box comes with it.`,
     infra: 'Flush frames sit in a framed 2×8 pocket lined on five sides with Type X drywall; no fans are shown.',
     src: ['b2', 's5', 'd1', 'i12', 'i13'] },
   { b: 'install_flex', icon: 'house', label: 'Pitched ceilings and tilt', big: '3/12<em>–</em>12/12', unit: 'pitched-ceiling range',
@@ -235,7 +235,7 @@ const settings = SETTINGS.map((s) => `<article class="set">
 
 // ---------- page 4: how to sell it ----------
 const POINTS = [
-  { h: 'Start With The Ceiling', t: `Ask where the heat will mount. Flat, pitched from 3/12 to 12/12, or recessed: Series II recesses 6,000 W with a dual fan-ventilated kit and the recess box supplied. Infratech recesses 6 kW too; its flush frame needs a lined 2×8 pocket on a flat ceiling, and its drawing says: "After 4 hours of continuous use, a 15 minute cool down period is recommended".`,
+  { h: 'Start With The Ceiling', t: `Ask where the heat will mount. Flat, pitched from 3/12 to 12/12, or recessed: Series II offers worry-free recessing up to 6,000 W, with a dual fan-ventilated kit and the recess box supplied. Infratech recesses 6 kW too; its flush frame needs a lined 2×8 pocket on a flat ceiling, and its drawing says: "After 4 hours of continuous use, a 15 minute cool down period is recommended".`,
     src: ['b1', 'b2', 'i12', 'i13'] },
   { h: 'Show The Whole Heater', t: 'Black, white or graphite carries through to the front, with three front patterns that swap without re-wiring. If the customer wants a specific colour, Infratech offers eight plus custom: say so, then show how the Bromic heater reads as one piece.',
     src: ['d1', 'i2', 'i14'] },
