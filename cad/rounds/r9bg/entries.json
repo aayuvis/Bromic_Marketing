@@ -68,5 +68,33 @@
   "thumb": "images/review/thumb/pr-bg-graphite-ceiling-limestone-lounge.webp",
   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
   "status": "pending"
+ },
+ {
+  "id": "pr-bg-graphite-pair-ceiling-lounge-f14",
+  "title": "Two Series II Select graphite on short ceiling posts, in line and tilted 15 degrees, centred over a teak lounge group under a plaster loggia ceiling",
+  "kind": "CAD render in a setting",
+  "finish": "graphite",
+  "aperture": "f/14",
+  "background": "generated plate (no heater, no people, no lettering): stone-columned loggia with flat plaster ceiling about 2.6 m, teak lounge group, pine garden at dusk",
+  "w": 5056,
+  "h": 3392,
+  "file": "images/review/full/pr-bg-graphite-pair-ceiling-lounge-f14.jpg",
+  "thumb": "images/review/thumb/pr-bg-graphite-pair-ceiling-lounge-f14.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
+ },
+ {
+  "id": "pr-bg-white-ceiling-cedar-dining-f14",
+  "title": "Series II Select white on its short ceiling post, tilted 25 degrees toward the near seats, centred over an eight-seat teak dining table under a cedar-lined terrace ceiling",
+  "kind": "CAD render in a setting",
+  "finish": "white",
+  "aperture": "f/14",
+  "background": "generated plate (no heater, no people, no lettering): covered terrace with cedar-board ceiling about 2.4 m, dining table, garden at dusk",
+  "w": 5056,
+  "h": 3371,
+  "file": "images/review/full/pr-bg-white-ceiling-cedar-dining-f14.jpg",
+  "thumb": "images/review/thumb/pr-bg-white-ceiling-cedar-dining-f14.webp",
+  "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+  "status": "pending"
  }
 ]

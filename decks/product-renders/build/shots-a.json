@@ -1,0 +1,846 @@
+{
+ "graphite-ceiling-hero": {
+  "heaters": [
+   {
+    "glb": "6kW diamond, angled wall mount.glb",
+    "finish": "graphite",
+    "mount": "ceiling",
+    "glow": 16,
+    "offset": [
+     0,
+     0,
+     0
+    ],
+    "short_post": true
+   }
+  ],
+  "camera": {
+   "lens": 50,
+   "fstop": 8,
+   "fit": 0.08,
+   "target": [
+    0,
+    0,
+    0
+   ],
+   "pos": [
+    1.25,
+    1.5,
+    -0.95
+   ]
+  },
+  "res": [
+   3840,
+   2560
+  ],
+  "exposure": -1.5,
+  "samples": 44,
+  "noise": 0.05
+ },
+ "black-low-plusy": {
+  "heaters": [
+   {
+    "glb": "6kW diamond, angled wall mount.glb",
+    "finish": "black",
+    "mount": "ceiling",
+    "glow": 16,
+    "offset": [
+     0,
+     0,
+     0
+    ],
+    "short_post": true
+   }
+  ],
+  "camera": {
+   "lens": 50,
+   "fstop": 8,
+   "fit": 0.08,
+   "target": [
+    0,
+    0,
+    0
+   ],
+   "pos": [
+    1.7,
+    1.2,
+    -0.62
+   ]
+  },
+  "res": [
+   3840,
+   2560
+  ],
+  "exposure": -1.5,
+  "samples": 44,
+  "noise": 0.05
+ },
+ "white-low-plusy": {
+  "heaters": [
+   {
+    "glb": "6kW diamond, angled wall mount.glb",
+    "finish": "white",
+    "mount": "ceiling",
+    "glow": 16,
+    "offset": [
+     0,
+     0,
+     0
+    ],
+    "short_post": true
+   }
+  ],
+  "camera": {
+   "lens": 50,
+   "fstop": 8,
+   "fit": 0.08,
+   "target": [
+    0,
+    0,
+    0
+   ],
+   "pos": [
+    1.7,
+    1.2,
+    -0.62
+   ]
+  },
+  "res": [
+   3840,
+   2560
+  ],
+  "exposure": -1.8,
+  "samples": 44,
+  "noise": 0.05
+ },
+ "white-steep-plusy": {
+  "heaters": [
+   {
+    "glb": "6kW diamond, angled wall mount.glb",
+    "finish": "white",
+    "mount": "ceiling",
+    "glow": 16,
+    "offset": [
+     0,
+     0,
+     0
+    ],
+    "short_post": true
+   }
+  ],
+  "camera": {
+   "lens": 50,
+   "fstop": 8,
+   "fit": 0.08,
+   "target": [
+    0,
+    0,
+    0
+   ],
+   "pos": [
+    0.8,
+    0.95,
+    -1.6
+   ]
+  },
+  "res": [
+   3840,
+   2560
+  ],
+  "exposure": -1.8,
+  "samples": 44,
+  "noise": 0.05
+ },
+ "black-up-9x16": {
+  "heaters": [
+   {
+    "glb": "6kW diamond, angled wall mount.glb",
+    "finish": "black",
+    "mount": "ceiling",
+    "glow": 16,
+    "offset": [
+     0,
+     0,
+     0
+    ],
+    "short_post": true
+   }
+  ],
+  "camera": {
+   "lens": 50,
+   "fstop": 11,
+   "fit": 0.07,
+   "target": [
+    0,
+    0,
+    0
+   ],
+   "pos": [
+    0,
+    0,
+    -1.8
+   ],
+   "up": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "res": [
+   2160,
+   3840
+  ],
+  "exposure": -1.5,
+  "samples": 44,
+  "noise": 0.05
+ },
+ "graphite-up-4x5": {
+  "heaters": [
+   {
+    "glb": "6kW diamond, angled wall mount.glb",
+    "finish": "graphite",
+    "mount": "ceiling",
+    "glow": 16,
+    "offset": [
+     0,
+     0,
+     0
+    ],
+    "short_post": true
+   }
+  ],
+  "camera": {
+   "lens": 50,
+   "fstop": 8,
+   "fit": 0.07,
+   "target": [
+    0,
+    0,
+    0
+   ],
+   "pos": [
+    0.05,
+    0.55,
+    -1.7
+   ],
+   "up": [
+    -1,
+    0,
+    0
+   ]
+  },
+  "res": [
+   3072,
+   3840
+  ],
+  "exposure": -1.5,
+  "samples": 44,
+  "noise": 0.05
+ },
+ "3kw-black-logo-34": {
+  "heaters": [
+   {
+    "glb": "3kW diamond black, ceiling mount.glb",
+    "finish": "black",
+    "mount": "ceiling",
+    "glow": 16,
+    "offset": [
+     0,
+     0,
+     0
+    ],
+    "logo_front": true
+   }
+  ],
+  "camera": {
+   "pos": [
+    1.25,
+    -0.55,
+    -0.55
+   ],
+   "target": [
+    0.45,
+    0,
+    0
+   ],
+   "lens": 60,
+   "fstop": 4,
+   "focus": "logo",
+   "roll": 180
+  },
+  "res": [
+   3840,
+   2560
+  ],
+  "exposure": -1.5,
+  "samples": 44,
+  "noise": 0.05
+ },
+ "3kw-graphite-endcap": {
+  "heaters": [
+   {
+    "glb": "3kW diamond black, ceiling mount.glb",
+    "finish": "graphite",
+    "mount": "ceiling",
+    "glow": 16,
+    "offset": [
+     0,
+     0,
+     0
+    ],
+    "logo_front": true
+   }
+  ],
+  "camera": {
+   "pos": [
+    1.0,
+    0.32,
+    -0.36
+   ],
+   "target": [
+    0.62,
+    0.0,
+    -0.02
+   ],
+   "lens": 90,
+   "fstop": 2.8,
+   "focus": "logo",
+   "roll": 180
+  },
+  "res": [
+   3840,
+   2560
+  ],
+  "exposure": -1.5,
+  "samples": 44,
+  "noise": 0.05
+ },
+ "graphite-pair-parallel": {
+  "heaters": [
+   {
+    "glb": "6kW diamond, angled wall mount.glb",
+    "finish": "graphite",
+    "mount": "ceiling",
+    "glow": 16,
+    "offset": [
+     0,
+     -0.26,
+     0
+    ],
+    "short_post": true
+   },
+   {
+    "glb": "6kW diamond, angled wall mount.glb",
+    "finish": "graphite",
+    "mount": "ceiling",
+    "glow": 16,
+    "offset": [
+     0,
+     0.26,
+     0
+    ],
+    "short_post": true
+   }
+  ],
+  "camera": {
+   "lens": 50,
+   "fstop": 8,
+   "fit": 0.08,
+   "target": [
+    0,
+    0,
+    0
+   ],
+   "pos": [
+    1.0,
+    1.2,
+    -1.4
+   ]
+  },
+  "res": [
+   3840,
+   2560
+  ],
+  "exposure": -1.5,
+  "samples": 44,
+  "noise": 0.05
+ },
+ "black-trio-row": {
+  "heaters": [
+   {
+    "glb": "6kW diamond, angled wall mount.glb",
+    "finish": "black",
+    "mount": "ceiling",
+    "glow": 16,
+    "offset": [
+     0,
+     -0.5,
+     0
+    ],
+    "short_post": true
+   },
+   {
+    "glb": "6kW diamond, angled wall mount.glb",
+    "finish": "black",
+    "mount": "ceiling",
+    "glow": 16,
+    "offset": [
+     0,
+     0,
+     0
+    ],
+    "short_post": true
+   },
+   {
+    "glb": "6kW diamond, angled wall mount.glb",
+    "finish": "black",
+    "mount": "ceiling",
+    "glow": 16,
+    "offset": [
+     0,
+     0.5,
+     0
+    ],
+    "short_post": true
+   }
+  ],
+  "camera": {
+   "lens": 50,
+   "fstop": 8,
+   "fit": 0.08,
+   "target": [
+    0,
+    0,
+    0
+   ],
+   "pos": [
+    1.3,
+    1.7,
+    -1.0
+   ]
+  },
+  "res": [
+   3840,
+   2560
+  ],
+  "exposure": -1.5,
+  "samples": 44,
+  "noise": 0.05
+ },
+ "white-pair-in-line": {
+  "heaters": [
+   {
+    "glb": "6kW diamond, angled wall mount.glb",
+    "finish": "white",
+    "mount": "ceiling",
+    "glow": 16,
+    "offset": [
+     -0.78,
+     0,
+     0
+    ],
+    "short_post": true
+   },
+   {
+    "glb": "6kW diamond, angled wall mount.glb",
+    "finish": "white",
+    "mount": "ceiling",
+    "glow": 16,
+    "offset": [
+     0.78,
+     0,
+     0
+    ],
+    "short_post": true
+   }
+  ],
+  "camera": {
+   "lens": 50,
+   "fstop": 8,
+   "fit": 0.08,
+   "target": [
+    0,
+    0,
+    0
+   ],
+   "pos": [
+    0.45,
+    0.95,
+    -1.6
+   ]
+  },
+  "res": [
+   3840,
+   2560
+  ],
+  "exposure": -1.8,
+  "samples": 44,
+  "noise": 0.05
+ },
+ "graphite-glow-detail": {
+  "heaters": [
+   {
+    "glb": "6kW diamond, angled wall mount.glb",
+    "finish": "graphite",
+    "mount": "ceiling",
+    "glow": 16,
+    "offset": [
+     0,
+     0,
+     0
+    ],
+    "short_post": true
+   }
+  ],
+  "camera": {
+   "pos": [
+    0.12,
+    0.26,
+    -0.24
+   ],
+   "target": [
+    0.62,
+    0,
+    -0.02
+   ],
+   "lens": 70,
+   "fstop": 2.8,
+   "focus": "logo"
+  },
+  "res": [
+   3840,
+   2560
+  ],
+  "exposure": -1.5,
+  "samples": 44,
+  "noise": 0.05,
+  "region": false
+ },
+ "black-dark-hero": {
+  "heaters": [
+   {
+    "glb": "6kW diamond, angled wall mount.glb",
+    "finish": "black",
+    "mount": "ceiling",
+    "glow": 16,
+    "offset": [
+     0,
+     0,
+     0
+    ],
+    "short_post": true
+   }
+  ],
+  "camera": {
+   "lens": 50,
+   "fstop": 8,
+   "fit": 0.08,
+   "target": [
+    0,
+    0,
+    0
+   ],
+   "pos": [
+    1.4,
+    1.3,
+    -0.7
+   ]
+  },
+  "res": [
+   3840,
+   2560
+  ],
+  "exposure": -1.5,
+  "samples": 44,
+  "noise": 0.05
+ },
+ "graphite-dark-endcap": {
+  "heaters": [
+   {
+    "glb": "6kW diamond, angled wall mount.glb",
+    "finish": "graphite",
+    "mount": "ceiling",
+    "glow": 16,
+    "offset": [
+     0,
+     0,
+     0
+    ],
+    "short_post": true
+   }
+  ],
+  "camera": {
+   "pos": [
+    1.15,
+    0.45,
+    -0.42
+   ],
+   "target": [
+    0.55,
+    0,
+    -0.02
+   ],
+   "lens": 70,
+   "fstop": 4,
+   "focus": "logo",
+   "roll": 180
+  },
+  "res": [
+   3840,
+   2560
+  ],
+  "exposure": -1.5,
+  "samples": 44,
+  "noise": 0.05
+ },
+ "black-4x5-hero": {
+  "heaters": [
+   {
+    "glb": "6kW diamond, angled wall mount.glb",
+    "finish": "black",
+    "mount": "ceiling",
+    "glow": 16,
+    "offset": [
+     0,
+     0,
+     0
+    ],
+    "short_post": true
+   }
+  ],
+  "camera": {
+   "lens": 50,
+   "fstop": 8,
+   "fit": 0.08,
+   "target": [
+    0,
+    0,
+    0
+   ],
+   "pos": [
+    0.9,
+    0.75,
+    -1.4
+   ]
+  },
+  "res": [
+   3072,
+   3840
+  ],
+  "exposure": -1.5,
+  "samples": 44,
+  "noise": 0.05
+ },
+ "white-wall-hero": {
+  "heaters": [
+   {
+    "glb": "6kW diamond, angled wall mount.glb",
+    "finish": "white",
+    "mount": "wall",
+    "glow": 16,
+    "offset": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "camera": {
+   "lens": 50,
+   "fstop": 8,
+   "fit": 0.08,
+   "target": [
+    0,
+    0,
+    0
+   ],
+   "pos": [
+    1.1,
+    -1.6,
+    -0.55
+   ]
+  },
+  "res": [
+   3840,
+   2560
+  ],
+  "exposure": -1.8,
+  "samples": 44,
+  "noise": 0.05
+ },
+ "black-wall-low": {
+  "heaters": [
+   {
+    "glb": "6kW diamond, angled wall mount.glb",
+    "finish": "black",
+    "mount": "wall",
+    "glow": 16,
+    "offset": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "camera": {
+   "lens": 50,
+   "fstop": 8,
+   "fit": 0.08,
+   "target": [
+    0,
+    0,
+    0
+   ],
+   "pos": [
+    1.5,
+    -1.2,
+    -0.3
+   ]
+  },
+  "res": [
+   3840,
+   2560
+  ],
+  "exposure": -1.5,
+  "samples": 44,
+  "noise": 0.05
+ },
+ "graphite-wall-from-below": {
+  "heaters": [
+   {
+    "glb": "6kW diamond, angled wall mount.glb",
+    "finish": "graphite",
+    "mount": "wall",
+    "glow": 16,
+    "offset": [
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "camera": {
+   "lens": 50,
+   "fstop": 8,
+   "fit": 0.08,
+   "target": [
+    0,
+    0,
+    0
+   ],
+   "pos": [
+    0.8,
+    -1.2,
+    -1.3
+   ]
+  },
+  "res": [
+   3840,
+   2560
+  ],
+  "exposure": -1.5,
+  "samples": 44,
+  "noise": 0.05
+ },
+ "3kw-black-low-plusy": {
+  "heaters": [
+   {
+    "glb": "3kW diamond black, ceiling mount.glb",
+    "finish": "black",
+    "mount": "ceiling",
+    "glow": 16,
+    "offset": [
+     0,
+     0,
+     0
+    ],
+    "logo_front": true
+   }
+  ],
+  "camera": {
+   "lens": 50,
+   "fstop": 8,
+   "fit": 0.08,
+   "target": [
+    0,
+    0,
+    0
+   ],
+   "pos": [
+    1.9,
+    0.75,
+    -0.7
+   ]
+  },
+  "res": [
+   3840,
+   2560
+  ],
+  "exposure": -1.5,
+  "samples": 44,
+  "noise": 0.05
+ },
+ "graphite-trio-end-on": {
+  "heaters": [
+   {
+    "glb": "6kW diamond, angled wall mount.glb",
+    "finish": "graphite",
+    "mount": "ceiling",
+    "glow": 16,
+    "offset": [
+     0,
+     -0.5,
+     0
+    ],
+    "short_post": true
+   },
+   {
+    "glb": "6kW diamond, angled wall mount.glb",
+    "finish": "graphite",
+    "mount": "ceiling",
+    "glow": 16,
+    "offset": [
+     0,
+     0,
+     0
+    ],
+    "short_post": true
+   },
+   {
+    "glb": "6kW diamond, angled wall mount.glb",
+    "finish": "graphite",
+    "mount": "ceiling",
+    "glow": 16,
+    "offset": [
+     0,
+     0.5,
+     0
+    ],
+    "short_post": true
+   }
+  ],
+  "camera": {
+   "lens": 50,
+   "fstop": 8,
+   "fit": 0.08,
+   "target": [
+    0,
+    0,
+    0
+   ],
+   "pos": [
+    1.9,
+    0.5,
+    -1.1
+   ],
+   "roll": 180
+  },
+  "res": [
+   3840,
+   2560
+  ],
+  "exposure": -1.5,
+  "samples": 44,
+  "noise": 0.05
+ }
+}

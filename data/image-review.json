@@ -1479,6 +1479,46 @@
    "status": "pending",
    "plate": "ts2-r8e-03",
    "review_note": "One recessed white heater in the recess kit, centred over the seating (owner: \"one heater is fine here\"). The kit trim is the only one in the CAD, marked obsolete there; confirm with the Product team. Pushed at the owner's request before the independent quality check."
+  },
+  {
+   "id": "pr-a-3kw-black-logo-34",
+   "title": "Series II 3 kW, black, three-quarter view of the logo end and ceiling post, elements glowing",
+   "kind": "CAD studio render",
+   "finish": "black",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-a-3kw-black-logo-34.jpg",
+   "thumb": "images/review/thumb/pr-a-3kw-black-logo-34.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+   "status": "pending"
+  },
+  {
+   "id": "pr-bg-graphite-pair-ceiling-lounge-f14",
+   "title": "Two Series II Select graphite on short ceiling posts, in line and tilted 15 degrees, centred over a teak lounge group under a plaster loggia ceiling",
+   "kind": "CAD render in a setting",
+   "finish": "graphite",
+   "aperture": "f/14",
+   "background": "generated plate (no heater, no people, no lettering): stone-columned loggia with flat plaster ceiling about 2.6 m, teak lounge group, pine garden at dusk",
+   "w": 5056,
+   "h": 3392,
+   "file": "images/review/full/pr-bg-graphite-pair-ceiling-lounge-f14.jpg",
+   "thumb": "images/review/thumb/pr-bg-graphite-pair-ceiling-lounge-f14.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending"
+  },
+  {
+   "id": "pr-bg-white-ceiling-cedar-dining-f14",
+   "title": "Series II Select white on its short ceiling post, tilted 25 degrees toward the near seats, centred over an eight-seat teak dining table under a cedar-lined terrace ceiling",
+   "kind": "CAD render in a setting",
+   "finish": "white",
+   "aperture": "f/14",
+   "background": "generated plate (no heater, no people, no lettering): covered terrace with cedar-board ceiling about 2.4 m, dining table, garden at dusk",
+   "w": 5056,
+   "h": 3371,
+   "file": "images/review/full/pr-bg-white-ceiling-cedar-dining-f14.jpg",
+   "thumb": "images/review/thumb/pr-bg-white-ceiling-cedar-dining-f14.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending"
   }
  ]
 }
