@@ -3941,7 +3941,8 @@
    "file": "images/review/full/pr-b-white-oak-soffit-vineyard.jpg",
    "thumb": "images/review/thumb/pr-b-white-oak-soffit-vineyard.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-white-oak-soffit-rooftop-city",
@@ -3955,7 +3956,8 @@
    "file": "images/review/full/pr-b-white-oak-soffit-rooftop-city.jpg",
    "thumb": "images/review/thumb/pr-b-white-oak-soffit-rooftop-city.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-black-pergola-beam-garden-dining",
@@ -4141,7 +4143,8 @@
    "file": "images/review/full/pr-b-white-recess-render-vineyard.jpg",
    "thumb": "images/review/thumb/pr-b-white-recess-render-vineyard.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-white-recess-render-rooftop-city",
@@ -4155,7 +4158,8 @@
    "file": "images/review/full/pr-b-white-recess-render-rooftop-city.jpg",
    "thumb": "images/review/thumb/pr-b-white-recess-render-rooftop-city.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-white-wall-render-garden-lanterns",
@@ -4225,7 +4229,8 @@
    "file": "images/review/full/pr-b-black-cedar-soffit-garden-dining.jpg",
    "thumb": "images/review/thumb/pr-b-black-cedar-soffit-garden-dining.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-black-cedar-soffit-rooftop-city",
@@ -4239,7 +4244,8 @@
    "file": "images/review/full/pr-b-black-cedar-soffit-rooftop-city.jpg",
    "thumb": "images/review/thumb/pr-b-black-cedar-soffit-rooftop-city.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-graphite-wall-render-outdoor-lounge",
@@ -4515,7 +4521,8 @@
    "file": "images/review/full/pr-b-graphite-render-soffit-fountain-courtyard.jpg",
    "thumb": "images/review/thumb/pr-b-graphite-render-soffit-fountain-courtyard.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-graphite-render-soffit-pool-cabana",
@@ -4529,7 +4536,8 @@
    "file": "images/review/full/pr-b-graphite-render-soffit-pool-cabana.jpg",
    "thumb": "images/review/thumb/pr-b-graphite-render-soffit-pool-cabana.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-black-wall-render-garden-lounge",
@@ -4657,7 +4665,8 @@
    "file": "images/review/full/pr-b-black-recess-render-garden-dining.jpg",
    "thumb": "images/review/thumb/pr-b-black-recess-render-garden-dining.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-black-recess-render-fountain-courtyard",
@@ -4671,7 +4680,8 @@
    "file": "images/review/full/pr-b-black-recess-render-fountain-courtyard.jpg",
    "thumb": "images/review/thumb/pr-b-black-recess-render-fountain-courtyard.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-black-wall-concrete-oak-firepit",
@@ -4713,7 +4723,8 @@
    "file": "images/review/full/pr-b-graphite-recess-render-pool-cabana.jpg",
    "thumb": "images/review/thumb/pr-b-graphite-recess-render-pool-cabana.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-graphite-recess-render-vineyard",
@@ -4727,7 +4738,8 @@
    "file": "images/review/full/pr-b-graphite-recess-render-vineyard.jpg",
    "thumb": "images/review/thumb/pr-b-graphite-recess-render-vineyard.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-graphite-wall-concrete-cedar-garden-lounge",
@@ -4799,7 +4811,8 @@
    "file": "images/review/full/pr-b-white-plaster-soffit-vineyard.jpg",
    "thumb": "images/review/thumb/pr-b-white-plaster-soffit-vineyard.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-white-plaster-soffit-fountain-courtyard",
@@ -4813,7 +4826,8 @@
    "file": "images/review/full/pr-b-white-plaster-soffit-fountain-courtyard.jpg",
    "thumb": "images/review/thumb/pr-b-white-plaster-soffit-fountain-courtyard.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-white-wall-limestone-mountain-terrace",
@@ -4913,7 +4927,8 @@
    "file": "images/review/full/pr-b-black-render-soffit-outdoor-bar.jpg",
    "thumb": "images/review/thumb/pr-b-black-render-soffit-outdoor-bar.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-black-render-soffit-beach",
@@ -4927,7 +4942,8 @@
    "file": "images/review/full/pr-b-black-render-soffit-beach.jpg",
    "thumb": "images/review/thumb/pr-b-black-render-soffit-beach.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-graphite-recess-cedar-garden-lounge",
@@ -5143,7 +5159,8 @@
    "file": "images/review/full/pr-b-white-cedar-soffit-garden-lounge.jpg",
    "thumb": "images/review/thumb/pr-b-white-cedar-soffit-garden-lounge.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-white-cedar-soffit-outdoor-bar",
@@ -5157,7 +5174,8 @@
    "file": "images/review/full/pr-b-white-cedar-soffit-outdoor-bar.jpg",
    "thumb": "images/review/thumb/pr-b-white-cedar-soffit-outdoor-bar.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-black-wall-oak-cladding-wide-garden-lounge",
@@ -5229,7 +5247,8 @@
    "file": "images/review/full/pr-b-graphite-cedar-soffit-mountain-view.jpg",
    "thumb": "images/review/thumb/pr-b-graphite-cedar-soffit-mountain-view.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-graphite-cedar-soffit-garden-dining",
@@ -5243,7 +5262,8 @@
    "file": "images/review/full/pr-b-graphite-cedar-soffit-garden-dining.jpg",
    "thumb": "images/review/thumb/pr-b-graphite-cedar-soffit-garden-dining.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-white-wall-limestone-cedar-garden-dining",
