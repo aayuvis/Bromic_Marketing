@@ -5200,6 +5200,62 @@
    "thumb": "images/review/thumb/pr-b-black-oak-soffit-fountain-courtyard.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "pending"
+  },
+  {
+   "id": "pr-b-graphite-wall-render-oak-wide-beach",
+   "title": "Series II Select 6 kW graphite on the angled wall bracket, painted render wall under a white-oak soffit, wider view, a beach boardwalk and the sea at golden hour beyond",
+   "kind": "CAD render in a setting",
+   "finish": "graphite",
+   "aperture": "f/8",
+   "background": "generated empty setting: beach view at golden hour (backdrop, lens blur matched to f/8); render wall and white-oak soffit: generated surface textures",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-b-graphite-wall-render-oak-wide-beach.jpg",
+   "thumb": "images/review/thumb/pr-b-graphite-wall-render-oak-wide-beach.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending"
+  },
+  {
+   "id": "pr-b-graphite-wall-render-oak-wide-stone-courtyard",
+   "title": "Series II Select 6 kW graphite on the angled wall bracket, painted render wall under a white-oak soffit, wider view, a stone courtyard with lanterns at blue hour beyond",
+   "kind": "CAD render in a setting",
+   "finish": "graphite",
+   "aperture": "f/8",
+   "background": "generated empty setting: stone courtyard at blue hour (backdrop, lens blur matched to f/8); render wall and white-oak soffit: generated surface textures",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-b-graphite-wall-render-oak-wide-stone-courtyard.jpg",
+   "thumb": "images/review/thumb/pr-b-graphite-wall-render-oak-wide-stone-courtyard.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending"
+  },
+  {
+   "id": "pr-b-black-wall-concrete-cedar-wide-firepit",
+   "title": "Series II Select 6 kW black on the angled wall bracket, board-formed concrete wall under a cedar soffit, wider view, a fire-pit terrace at night beyond",
+   "kind": "CAD render in a setting",
+   "finish": "black",
+   "aperture": "f/8",
+   "background": "generated empty setting: terrace with fire pit (backdrop, lens blur matched to f/8); board-formed concrete wall and cedar soffit: generated surface textures",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-b-black-wall-concrete-cedar-wide-firepit.jpg",
+   "thumb": "images/review/thumb/pr-b-black-wall-concrete-cedar-wide-firepit.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending"
+  },
+  {
+   "id": "pr-b-black-wall-concrete-cedar-wide-rooftop-city",
+   "title": "Series II Select 6 kW black on the angled wall bracket, board-formed concrete wall under a cedar soffit, wider view, the city skyline at blue hour beyond a rooftop terrace",
+   "kind": "CAD render in a setting",
+   "finish": "black",
+   "aperture": "f/8",
+   "background": "generated empty setting: rooftop view to a city skyline at blue hour (backdrop, lens blur matched to f/8); board-formed concrete wall and cedar soffit: generated surface textures",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-b-black-wall-concrete-cedar-wide-rooftop-city.jpg",
+   "thumb": "images/review/thumb/pr-b-black-wall-concrete-cedar-wide-rooftop-city.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending"
   }
  ]
 }
