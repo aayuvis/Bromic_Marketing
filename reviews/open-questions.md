@@ -254,3 +254,4 @@ Data in `data/retail/vs-heatstrip.json` (from the owner's "Measured warmth" camp
 | vs-heatstrip | Platinum Electric IP rating in Australia (IPX4 in the campaign data). | Product team |
 | vs-heatstrip | Tungsten Series II in Australia: models, 230 V supply, listings, recess cavity in mm (US manual 190.5 mm), 45° tilt on 4 and 6 kW (manual 30°), Coastal body material and coating name. | Product team |
 | vs-heatstrip | Heatstrip Enhance flush mount kit type; Heatstrip Classic commercial warranty (1 or 2 years); MAX DC 6000W supply, chassis, enclosure and controls. | Specification and compliance |
+| CSP-01 Boneyard Saloon | Two design renderings of the upper deck supplied by the owner (23 Nov 2026): who made them (likely StruXure Utah), permission to publish and the credit line; whether the deck was built as rendered. | US field sales |

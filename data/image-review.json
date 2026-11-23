@@ -1379,9 +1379,12 @@
    "file": "images/review/full/pr-c-graphite-recessed-pair-walnut-terrace-dining.jpg",
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-walnut-terrace-dining.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
+   "status": "approved",
    "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away.. heaters parallel",
-   "redo": "Redone for your notes: dark neutral cavity (no streak), pair side by side and parallel, 1.75–2.0 m apart, over the seats, cropped in."
+   "redo": "Redone for your notes: dark neutral cavity (no streak), pair side by side and parallel, 1.75–2.0 m apart, over the seats, cropped in.",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-black-recessed-pair-beach-deck-blue-hour",
@@ -1830,9 +1833,13 @@
    "file": "images/review/full/pr-c-white-recessed-pair-desert-kitchen-bar-sunset.jpg",
    "thumb": "images/review/thumb/pr-c-white-recessed-pair-desert-kitchen-bar-sunset.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
+   "status": "rejected",
    "redo": "v4: logo visible",
-   "previous_note": "logo?"
+   "previous_note": "logo?",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "note": "heaters look fake",
+   "learned": true
   },
   {
    "id": "pr-c-graphite-recessed-pair-cedar-garden-dining-dusk",
@@ -1965,9 +1972,12 @@
    "h": 2560,
    "file": "images/review/full/pr-d-recess-black-timber-logo-f1-4.jpg",
    "thumb": "images/review/thumb/pr-d-recess-black-timber-logo-f1-4.webp",
-   "status": "pending",
+   "status": "approved",
    "redo": "owner rejected the first render: 'weird dent curve on the right corner edge of the heater'. Cause: the heater had been lifted 25 mm into the kit, which exposed the curved flank of the cover's end at the right corner against the cavity. Fixed by seating it at the kit's native depth (no lift).",
-   "previous_note": "there is wierd dent  curve on the right corner edge of the heater"
+   "previous_note": "there is wierd dent  curve on the right corner edge of the heater",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-d-recess-black-dark-timber-logo-f1-4",
@@ -1982,9 +1992,12 @@
    "h": 2560,
    "file": "images/review/full/pr-d-recess-black-dark-timber-logo-f1-4.jpg",
    "thumb": "images/review/thumb/pr-d-recess-black-dark-timber-logo-f1-4.webp",
-   "status": "pending",
+   "status": "approved",
    "redo": "owner rejected the first render: 'weird dent curve on the right corner edge of the heater'. Cause: the heater had been lifted 25 mm into the kit, which exposed the curved flank of the cover's end at the right corner against the cavity. Fixed by seating it at the kit's native depth (no lift).",
-   "previous_note": "there is wierd dent  curve on the right corner edge of the heater"
+   "previous_note": "there is wierd dent  curve on the right corner edge of the heater",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-d-cedar-dining-white-recessed-pair-system",
@@ -2289,7 +2302,10 @@
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-cedar-garden-dining-dusk-system.webp",
    "source": "pr-c-graphite-recessed-pair-cedar-garden-dining-dusk (unchanged) with system banner A5 gradient floor (decks/build-system-banner-a-variants.py): the Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in graphite; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); product lines from data/product-facts.json; edge contrast heater 3.75:1, kit 5.93:1",
    "rebuilt": "design rotation L1: one calm band, big labels, 2x heater",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-black-recessed-pair-spotted-gum-dining-afternoon-system",
@@ -2303,8 +2319,11 @@
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-spotted-gum-dining-afternoon-system.webp",
    "source": "pr-c-black-recessed-pair-spotted-gum-dining-afternoon (unchanged) with system banner A4 split tone (decks/build-system-banner-a-variants.py): the Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in black; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); product lines from data/product-facts.json; edge contrast heater 9.41:1, kit 12.5:1",
    "rebuilt": "design rotation L2: one calm band, big labels, 2x heater",
-   "status": "pending",
-   "previous_note": "dont like the white banned on the side..make the banner light gray..add logo on the heaters and ensure the heater in the banner is 2x zoomed"
+   "status": "approved",
+   "previous_note": "dont like the white banned on the side..make the banner light gray..add logo on the heaters and ensure the heater in the banner is 2x zoomed",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk-system",
@@ -2332,8 +2351,11 @@
    "thumb": "images/review/thumb/pr-c-white-recessed-pair-forest-loggia-lounge-evening-system.webp",
    "source": "pr-c-white-recessed-pair-forest-loggia-lounge-evening (unchanged) with system banner A2 charcoal band (decks/build-system-banner-a-variants.py): the Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in white; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); product lines from data/product-facts.json; edge contrast heater 6.09:1, kit 6.41:1",
    "rebuilt": "design rotation L4: one calm band, big labels, 2x heater, white edge",
-   "status": "pending",
-   "previous_note": "pink celinig no logo on heaterrs...top showing gray and below white..use white heaters on the image..zoom into the heater image on the banner"
+   "status": "approved",
+   "previous_note": "pink celinig no logo on heaterrs...top showing gray and below white..use white heaters on the image..zoom into the heater image on the banner",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-3kw-white-logo-34-light",
@@ -2392,9 +2414,12 @@
    "file": "images/review/full/pr-b-white-oak-soffit-sea-dusk.jpg",
    "thumb": "images/review/thumb/pr-b-white-oak-soffit-sea-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
+   "status": "approved",
    "redo": "v2: f/8",
-   "previous_note": "this should be f8 image...great image"
+   "previous_note": "this should be f8 image...great image",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-b-white-oak-soffit-garden",
@@ -2517,7 +2542,10 @@
    "file": "images/review/full/pr-a-white-wall-from-below-warm-grey.jpg",
    "thumb": "images/review/thumb/pr-a-white-wall-from-below-warm-grey.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-white-wall-from-below-grey",
@@ -2529,7 +2557,10 @@
    "file": "images/review/full/pr-a-white-wall-from-below-grey.jpg",
    "thumb": "images/review/thumb/pr-a-white-wall-from-below-grey.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-white-trio-row-warm-grey",
@@ -2541,7 +2572,10 @@
    "file": "images/review/full/pr-a-white-trio-row-warm-grey.jpg",
    "thumb": "images/review/thumb/pr-a-white-trio-row-warm-grey.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-white-trio-row-grey",
@@ -2553,7 +2587,10 @@
    "file": "images/review/full/pr-a-white-trio-row-grey.jpg",
    "thumb": "images/review/thumb/pr-a-white-trio-row-grey.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-black-wall-from-below-light",
@@ -2565,7 +2602,10 @@
    "file": "images/review/full/pr-a-black-wall-from-below-light.jpg",
    "thumb": "images/review/thumb/pr-a-black-wall-from-below-light.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-black-wall-from-below-warm-grey",
@@ -2577,7 +2617,10 @@
    "file": "images/review/full/pr-a-black-wall-from-below-warm-grey.jpg",
    "thumb": "images/review/thumb/pr-a-black-wall-from-below-warm-grey.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-d-recess-black-aluminium-logo-f1-4",
@@ -2594,7 +2637,10 @@
    "h": 2560,
    "file": "images/review/full/pr-d-recess-black-aluminium-logo-f1-4.jpg",
    "thumb": "images/review/thumb/pr-d-recess-black-aluminium-logo-f1-4.webp",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-white-pair-in-line-warm-grey",
@@ -2606,7 +2652,10 @@
    "file": "images/review/full/pr-a-white-pair-in-line-warm-grey.jpg",
    "thumb": "images/review/thumb/pr-a-white-pair-in-line-warm-grey.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-white-pair-in-line-grey",
@@ -2618,7 +2667,10 @@
    "file": "images/review/full/pr-a-white-pair-in-line-grey.jpg",
    "thumb": "images/review/thumb/pr-a-white-pair-in-line-grey.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-d-recess-white-aluminium-logo-f1-4",
@@ -2635,7 +2687,10 @@
    "h": 2560,
    "file": "images/review/full/pr-d-recess-white-aluminium-logo-f1-4.jpg",
    "thumb": "images/review/thumb/pr-d-recess-white-aluminium-logo-f1-4.webp",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-b-3kw-graphite-concrete-soffit-corten-courtyard",
@@ -2649,8 +2704,13 @@
    "file": "images/review/full/pr-b-3kw-graphite-concrete-soffit-corten-courtyard.jpg",
    "thumb": "images/review/thumb/pr-b-3kw-graphite-concrete-soffit-corten-courtyard.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
-   "review_note": "Check: the heater runs off the right edge of the frame."
+   "status": "rejected",
+   "review_note": "Check: the heater runs off the right edge of the frame.",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "note": "straighten the roof and this is then ok",
+   "learned": true,
+   "redo": "queued: level the soffit, then resubmit"
   },
   {
    "id": "pr-b-3kw-graphite-concrete-soffit-reflecting-pool",
@@ -2664,8 +2724,13 @@
    "file": "images/review/full/pr-b-3kw-graphite-concrete-soffit-reflecting-pool.jpg",
    "thumb": "images/review/thumb/pr-b-3kw-graphite-concrete-soffit-reflecting-pool.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
-   "review_note": "Check: the heater runs off the right edge of the frame."
+   "status": "rejected",
+   "review_note": "Check: the heater runs off the right edge of the frame.",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "note": "straighten the roof and this is then ok",
+   "learned": true,
+   "redo": "queued: level the soffit, then resubmit"
   },
   {
    "id": "pr-b-3kw-graphite-concrete-soffit-sea-dusk",
@@ -2679,8 +2744,13 @@
    "file": "images/review/full/pr-b-3kw-graphite-concrete-soffit-sea-dusk.jpg",
    "thumb": "images/review/thumb/pr-b-3kw-graphite-concrete-soffit-sea-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
-   "review_note": "Check: the heater runs off the right edge of the frame."
+   "status": "rejected",
+   "review_note": "Check: the heater runs off the right edge of the frame.",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "note": "straighten the roof and this is then ok",
+   "learned": true,
+   "redo": "queued: level the soffit, then resubmit"
   },
   {
    "id": "pr-b-3kw-graphite-concrete-soffit-string-lights",
@@ -2694,8 +2764,11 @@
    "file": "images/review/full/pr-b-3kw-graphite-concrete-soffit-string-lights.jpg",
    "thumb": "images/review/thumb/pr-b-3kw-graphite-concrete-soffit-string-lights.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
-   "review_note": "Check: the heater runs off the right edge of the frame."
+   "status": "approved",
+   "review_note": "Check: the heater runs off the right edge of the frame.",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-b-3kw-black-dark-soffit-lanterns",
@@ -2709,7 +2782,10 @@
    "file": "images/review/full/pr-b-3kw-black-dark-soffit-lanterns.jpg",
    "thumb": "images/review/thumb/pr-b-3kw-black-dark-soffit-lanterns.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-b-3kw-black-dark-soffit-firepit",
@@ -2821,7 +2897,10 @@
    "file": "images/review/full/pr-b-3kw-graphite-cedar-soffit-garden.jpg",
    "thumb": "images/review/thumb/pr-b-3kw-graphite-cedar-soffit-garden.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-b-3kw-graphite-cedar-soffit-sea-dusk",
@@ -2933,8 +3012,11 @@
    "file": "images/review/full/pr-b-3kw-white-render-soffit-garden.jpg",
    "thumb": "images/review/thumb/pr-b-3kw-white-render-soffit-garden.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
-   "review_note": "Check: the heater runs off the right edge of the frame."
+   "status": "approved",
+   "review_note": "Check: the heater runs off the right edge of the frame.",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-b-3kw-white-render-soffit-sea-dusk",
@@ -3007,7 +3089,10 @@
    "file": "images/review/full/pr-b-black-wall-concrete-lanterns.jpg",
    "thumb": "images/review/thumb/pr-b-black-wall-concrete-lanterns.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-b-black-wall-concrete-courtyard-dusk",
@@ -3049,7 +3134,10 @@
    "file": "images/review/full/pr-b-white-recess-cedar-garden.jpg",
    "thumb": "images/review/thumb/pr-b-white-recess-cedar-garden.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-b-white-recess-cedar-sea-dusk",
@@ -5143,7 +5231,11 @@
    "file": "images/review/full/pr-b-graphite-wall-limestone-oak-pool-cabana.jpg",
    "thumb": "images/review/thumb/pr-b-graphite-wall-limestone-oak-pool-cabana.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "note": "all looks fake",
+   "learned": true
   },
   {
    "id": "pr-b-graphite-recess-concrete-rooftop-city",
@@ -5157,7 +5249,12 @@
    "file": "images/review/full/pr-b-graphite-recess-concrete-rooftop-city.jpg",
    "thumb": "images/review/thumb/pr-b-graphite-recess-concrete-rooftop-city.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "note": "straighten the roof and this is then ok",
+   "learned": true,
+   "redo": "queued: level the soffit, then resubmit"
   },
   {
    "id": "pr-b-graphite-recess-concrete-garden-dining",
@@ -5171,7 +5268,12 @@
    "file": "images/review/full/pr-b-graphite-recess-concrete-garden-dining.jpg",
    "thumb": "images/review/thumb/pr-b-graphite-recess-concrete-garden-dining.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "note": "straighten the roof and this is then ok",
+   "learned": true,
+   "redo": "queued: level the soffit, then resubmit"
   },
   {
    "id": "pr-b-black-oak-soffit-vineyard",
@@ -5185,7 +5287,10 @@
    "file": "images/review/full/pr-b-black-oak-soffit-vineyard.jpg",
    "thumb": "images/review/thumb/pr-b-black-oak-soffit-vineyard.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-b-black-oak-soffit-fountain-courtyard",
@@ -5199,7 +5304,10 @@
    "file": "images/review/full/pr-b-black-oak-soffit-fountain-courtyard.jpg",
    "thumb": "images/review/thumb/pr-b-black-oak-soffit-fountain-courtyard.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-b-graphite-wall-render-oak-wide-beach",
@@ -5213,7 +5321,10 @@
    "file": "images/review/full/pr-b-graphite-wall-render-oak-wide-beach.jpg",
    "thumb": "images/review/thumb/pr-b-graphite-wall-render-oak-wide-beach.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-b-graphite-wall-render-oak-wide-stone-courtyard",
@@ -5227,7 +5338,11 @@
    "file": "images/review/full/pr-b-graphite-wall-render-oak-wide-stone-courtyard.jpg",
    "thumb": "images/review/thumb/pr-b-graphite-wall-render-oak-wide-stone-courtyard.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "note": "roof wall fake",
+   "learned": true
   },
   {
    "id": "pr-b-black-wall-concrete-cedar-wide-firepit",
@@ -5241,7 +5356,11 @@
    "file": "images/review/full/pr-b-black-wall-concrete-cedar-wide-firepit.jpg",
    "thumb": "images/review/thumb/pr-b-black-wall-concrete-cedar-wide-firepit.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "note": "roof wall fake",
+   "learned": true
   },
   {
    "id": "pr-b-black-wall-concrete-cedar-wide-rooftop-city",
@@ -5255,7 +5374,11 @@
    "file": "images/review/full/pr-b-black-wall-concrete-cedar-wide-rooftop-city.jpg",
    "thumb": "images/review/thumb/pr-b-black-wall-concrete-cedar-wide-rooftop-city.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "note": "roof wall fake",
+   "learned": true
   },
   {
    "id": "pr-b-white-wall-concrete-oak-wide-vineyard",
@@ -5269,7 +5392,11 @@
    "file": "images/review/full/pr-b-white-wall-concrete-oak-wide-vineyard.jpg",
    "thumb": "images/review/thumb/pr-b-white-wall-concrete-oak-wide-vineyard.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "note": "roof wall fake",
+   "learned": true
   },
   {
    "id": "pr-b-white-wall-concrete-oak-wide-garden-lounge",
@@ -5283,7 +5410,12 @@
    "file": "images/review/full/pr-b-white-wall-concrete-oak-wide-garden-lounge.jpg",
    "thumb": "images/review/thumb/pr-b-white-wall-concrete-oak-wide-garden-lounge.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "note": "roof wall fake",
+   "learned": true,
+   "review_note": "Approved with the comment \"roof wall fake\": kept as approved; the wall and soffit treatment is fixed in the rule for every new wide wall view."
   },
   {
    "id": "pr-b-black-wall-render-cedar-wide-outdoor-bar",
@@ -5297,7 +5429,11 @@
    "file": "images/review/full/pr-b-black-wall-render-cedar-wide-outdoor-bar.jpg",
    "thumb": "images/review/thumb/pr-b-black-wall-render-cedar-wide-outdoor-bar.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "note": "roof wall fake",
+   "learned": true
   },
   {
    "id": "pr-b-black-wall-render-cedar-wide-mountain",
@@ -5311,7 +5447,11 @@
    "file": "images/review/full/pr-b-black-wall-render-cedar-wide-mountain.jpg",
    "thumb": "images/review/thumb/pr-b-black-wall-render-cedar-wide-mountain.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "note": "the roof and the wall look fake",
+   "learned": true
   },
   {
    "id": "pr-b-black-dark-pergola-night-terrace",
@@ -5325,7 +5465,11 @@
    "file": "images/review/full/pr-b-black-dark-pergola-night-terrace.jpg",
    "thumb": "images/review/thumb/pr-b-black-dark-pergola-night-terrace.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "note": "what is this?",
+   "learned": true
   },
   {
    "id": "pr-b-black-dark-pergola-rooftop-city",
@@ -5339,7 +5483,11 @@
    "file": "images/review/full/pr-b-black-dark-pergola-rooftop-city.jpg",
    "thumb": "images/review/thumb/pr-b-black-dark-pergola-rooftop-city.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "note": "what is this?",
+   "learned": true
   },
   {
    "id": "pr-b-black-cedar-pergola-garden-dining",
@@ -5353,7 +5501,11 @@
    "file": "images/review/full/pr-b-black-cedar-pergola-garden-dining.jpg",
    "thumb": "images/review/thumb/pr-b-black-cedar-pergola-garden-dining.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "note": "what is this?",
+   "learned": true
   },
   {
    "id": "pr-b-black-cedar-pergola-beach-boardwalk",
@@ -5367,7 +5519,11 @@
    "file": "images/review/full/pr-b-black-cedar-pergola-beach-boardwalk.jpg",
    "thumb": "images/review/thumb/pr-b-black-cedar-pergola-beach-boardwalk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "note": "what is this?",
+   "learned": true
   },
   {
    "id": "pr-b-graphite-cedar-pergola-garden-lounge",
@@ -5381,7 +5537,11 @@
    "file": "images/review/full/pr-b-graphite-cedar-pergola-garden-lounge.jpg",
    "thumb": "images/review/thumb/pr-b-graphite-cedar-pergola-garden-lounge.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "note": "what is this?",
+   "learned": true
   },
   {
    "id": "pr-b-graphite-cedar-pergola-vineyard",
@@ -5395,7 +5555,11 @@
    "file": "images/review/full/pr-b-graphite-cedar-pergola-vineyard.jpg",
    "thumb": "images/review/thumb/pr-b-graphite-cedar-pergola-vineyard.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "note": "what is this?",
+   "learned": true
   },
   {
    "id": "pr-b-white-cedar-pergola-pool-cabana",
@@ -5409,7 +5573,11 @@
    "file": "images/review/full/pr-b-white-cedar-pergola-pool-cabana.jpg",
    "thumb": "images/review/thumb/pr-b-white-cedar-pergola-pool-cabana.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "note": "what is this?",
+   "learned": true
   },
   {
    "id": "pr-b-white-cedar-pergola-stone-courtyard",
@@ -5423,7 +5591,11 @@
    "file": "images/review/full/pr-b-white-cedar-pergola-stone-courtyard.jpg",
    "thumb": "images/review/thumb/pr-b-white-cedar-pergola-stone-courtyard.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "note": "what the hell is this?",
+   "learned": true
   },
   {
    "id": "pr-b-graphite-plaster-soffit-garden-lounge",
@@ -5437,7 +5609,11 @@
    "file": "images/review/full/pr-b-graphite-plaster-soffit-garden-lounge.jpg",
    "thumb": "images/review/thumb/pr-b-graphite-plaster-soffit-garden-lounge.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "note": "angle look weird",
+   "learned": true
   },
   {
    "id": "pr-b-graphite-plaster-soffit-rooftop-city",
@@ -5451,7 +5627,10 @@
    "file": "images/review/full/pr-b-graphite-plaster-soffit-rooftop-city.jpg",
    "thumb": "images/review/thumb/pr-b-graphite-plaster-soffit-rooftop-city.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-b-black-plaster-soffit-mountain-view",
@@ -5465,7 +5644,10 @@
    "file": "images/review/full/pr-b-black-plaster-soffit-mountain-view.jpg",
    "thumb": "images/review/thumb/pr-b-black-plaster-soffit-mountain-view.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-b-black-plaster-soffit-garden-dining",
@@ -5479,7 +5661,10 @@
    "file": "images/review/full/pr-b-black-plaster-soffit-garden-dining.jpg",
    "thumb": "images/review/thumb/pr-b-black-plaster-soffit-garden-dining.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-23",
+   "decided_by": "owner",
+   "learned": true
   }
  ]
 }

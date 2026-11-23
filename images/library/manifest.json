@@ -16030,5 +16030,47 @@
   "kind": "photo",
   "rights": "Third-party photo, owner-approved for internal Hub use 19 Nov 2026; [[VERIFY: permission to publish \u2013 Marketing]]",
   "status": "third-party"
+ },
+ {
+  "id": "v-boneyard-saloon-1",
+  "file": "images/library/v-boneyard-saloon-1.webp",
+  "thumb": "images/library/v-boneyard-saloon-1-t.webp",
+  "w": 1290,
+  "h": 715,
+  "orientation": "landscape",
+  "product": "Bromic electric",
+  "setting": "restaurant rooftop deck under a pergola",
+  "audiences": [
+   "COM"
+  ],
+  "alt": "Design rendering of the Boneyard Saloon upper deck in Park City: a louvred pergola with black linear electric heaters glowing over lounge and dining seats",
+  "source": "Supplied by the owner (design rendering of the project)",
+  "owner": "[[VERIFY: who made the rendering, likely StruXure Utah \u2013 US field sales]]",
+  "project": "CSP-01",
+  "page": 0,
+  "kind": "rendering",
+  "rights": "Third-party design rendering supplied by the owner 23 Nov 2026 for internal Hub use; [[VERIFY: permission to publish and credit \u2013 Marketing]]",
+  "status": "third-party"
+ },
+ {
+  "id": "v-boneyard-saloon-2",
+  "file": "images/library/v-boneyard-saloon-2.webp",
+  "thumb": "images/library/v-boneyard-saloon-2-t.webp",
+  "w": 1064,
+  "h": 711,
+  "orientation": "landscape",
+  "product": "Bromic electric",
+  "setting": "restaurant rooftop deck under a pergola",
+  "audiences": [
+   "COM"
+  ],
+  "alt": "Design rendering of the Boneyard Saloon upper deck dining area: linear electric heaters on the pergola beams above caf\u00e9 tables",
+  "source": "Supplied by the owner (design rendering of the project)",
+  "owner": "[[VERIFY: who made the rendering, likely StruXure Utah \u2013 US field sales]]",
+  "project": "CSP-01",
+  "page": 0,
+  "kind": "rendering",
+  "rights": "Third-party design rendering supplied by the owner 23 Nov 2026 for internal Hub use; [[VERIFY: permission to publish and credit \u2013 Marketing]]",
+  "status": "third-party"
  }
 ]

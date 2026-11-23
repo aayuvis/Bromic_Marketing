@@ -9,9 +9,9 @@ cell: COM-IN
 asset: A23
 summary: "The Boneyard Saloon's upper deck in Park City had been a warm-weather space. StruXure Utah posted plans to change that, pairing a StruXure pergola and Bromic heaters with screens that hold the warmth in and keep the mountain view."
 cta: {label: "Book a design consult", asset: A07}
-hero: l-002-008
-hero_caption: "Comparable Bromic installation, not this project: replace with project photography once licensed."
-images: ["l-002-008"]
+hero: v-boneyard-saloon-1
+hero_caption: "Design rendering of the upper deck, not a photograph. Credit and permission to publish to be confirmed."
+images: ["v-boneyard-saloon-1", "v-boneyard-saloon-2"]
 owner_review: "US field sales"
 status: draft
 source_kind: web-find
@@ -20,7 +20,7 @@ evidence: page-read
 completeness: partial
 gated: false
 related: [CS-TEMPLATE, CS-CANDIDATES]
-updated: 2026-11-16
+updated: 2026-11-23
 sources:
   - id: s1
     publisher: "StruXure Utah (Flickr account StruXureUT)"
@@ -57,9 +57,11 @@ Park City is a mountain-resort town with cold winters, and this project comes th
 
 ## Photos
 
-![Comparable Bromic installation, not this project](img:l-002-008)
+![Design rendering of the Boneyard Saloon upper deck: linear electric heaters glowing on the pergola beams over lounge and dining seats](img:v-boneyard-saloon-1)
 
-No licensed photograph of this project is held. The image above shows a comparable Bromic installation and must be replaced before publication.
+![Design rendering of the upper deck dining area, with heaters on the beams above the café tables](img:v-boneyard-saloon-2)
+
+These are design renderings of the planned deck, not photographs of the finished work. Who made them and permission to publish are still to be confirmed: [[VERIFY: rendering credit and permission to publish — US field sales]]
 
 **Photos to request** (owned by others; not copied into the library):
 
@@ -69,6 +71,6 @@ No licensed photograph of this project is held. The image above shows a comparab
 
 - Model, wattage and number of heaters
 - Controls and zones
-- Licensed project photography
+- Licensed photography of the finished deck (the renderings show the plan)
 - A named contact and consent to name the venue or home
 - Work through the consent checklist in the [case-study template](item:CS-TEMPLATE): permission to name the venue or home, approved numbers and quotes, credits, and a photo licence.
