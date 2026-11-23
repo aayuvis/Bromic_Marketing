@@ -2024,7 +2024,10 @@
    "file": "images/review/full/pr-a-black-4x5-hero.jpg",
    "thumb": "images/review/thumb/pr-a-black-4x5-hero.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-bg-white-whitewashed-brick-wall",
@@ -2038,8 +2041,11 @@
    "file": "images/review/full/pr-bg-white-whitewashed-brick-wall.jpg",
    "thumb": "images/review/thumb/pr-bg-white-whitewashed-brick-wall.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
-   "review_note": "Camera rolled about 35° so the logo reads upright; the brick runs on a diagonal."
+   "status": "approved",
+   "review_note": "Camera rolled about 35° so the logo reads upright; the brick runs on a diagonal.",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-b-black-wall-corten-firepit",
@@ -2053,7 +2059,10 @@
    "file": "images/review/full/pr-b-black-wall-corten-firepit.jpg",
    "thumb": "images/review/thumb/pr-b-black-wall-corten-firepit.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-b-black-wall-corten-lanterns",
@@ -2067,7 +2076,10 @@
    "file": "images/review/full/pr-b-black-wall-corten-lanterns.jpg",
    "thumb": "images/review/thumb/pr-b-black-wall-corten-lanterns.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-b-black-wall-corten-string-lights",
@@ -2081,7 +2093,10 @@
    "file": "images/review/full/pr-b-black-wall-corten-string-lights.jpg",
    "thumb": "images/review/thumb/pr-b-black-wall-corten-string-lights.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-b-black-wall-corten-garden-dusk",
@@ -2095,7 +2110,10 @@
    "file": "images/review/full/pr-b-black-wall-corten-garden-dusk.jpg",
    "thumb": "images/review/thumb/pr-b-black-wall-corten-garden-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-graphite-recessed-pair-walnut-terrace-dining",
@@ -2109,8 +2127,12 @@
    "file": "images/review/full/pr-c-graphite-recessed-pair-walnut-terrace-dining.jpg",
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-walnut-terrace-dining.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
-   "review_note": "Made before your cedar-dining note: the pair runs one behind the other. Later pairs are side by side and parallel."
+   "status": "rejected",
+   "review_note": "Made before your cedar-dining note: the pair runs one behind the other. Later pairs are side by side and parallel.",
+   "note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away.. heaters parallel",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-black-recessed-pair-beach-deck-blue-hour",
@@ -2124,8 +2146,12 @@
    "file": "images/review/full/pr-c-black-recessed-pair-beach-deck-blue-hour.jpg",
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-beach-deck-blue-hour.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
-   "review_note": "Made before your cedar-dining note: the pair runs one behind the other. Later pairs are side by side and parallel."
+   "status": "rejected",
+   "review_note": "Made before your cedar-dining note: the pair runs one behind the other. Later pairs are side by side and parallel.",
+   "note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away.. heaters parallel",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-white-steep-plusy-warm-grey",
@@ -2137,7 +2163,10 @@
    "file": "images/review/full/pr-a-white-steep-plusy-warm-grey.jpg",
    "thumb": "images/review/thumb/pr-a-white-steep-plusy-warm-grey.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-white-steep-plusy-grey",
@@ -2149,7 +2178,10 @@
    "file": "images/review/full/pr-a-white-steep-plusy-grey.jpg",
    "thumb": "images/review/thumb/pr-a-white-steep-plusy-grey.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-white-steep-plusy-dark",
@@ -2161,7 +2193,10 @@
    "file": "images/review/full/pr-a-white-steep-plusy-dark.jpg",
    "thumb": "images/review/thumb/pr-a-white-steep-plusy-dark.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-graphite-up-4x5-light",
@@ -2173,7 +2208,10 @@
    "file": "images/review/full/pr-a-graphite-up-4x5-light.jpg",
    "thumb": "images/review/thumb/pr-a-graphite-up-4x5-light.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-graphite-up-4x5-warm-grey",
@@ -2185,7 +2223,10 @@
    "file": "images/review/full/pr-a-graphite-up-4x5-warm-grey.jpg",
    "thumb": "images/review/thumb/pr-a-graphite-up-4x5-warm-grey.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-graphite-up-4x5-dark",
@@ -2197,7 +2238,10 @@
    "file": "images/review/full/pr-a-graphite-up-4x5-dark.jpg",
    "thumb": "images/review/thumb/pr-a-graphite-up-4x5-dark.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-black-recessed-pair-walnut-terrace-golden-hour",
@@ -2211,8 +2255,12 @@
    "file": "images/review/full/pr-c-black-recessed-pair-walnut-terrace-golden-hour.jpg",
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-walnut-terrace-golden-hour.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
-   "review_note": "Made before your cedar-dining note: the pair runs one behind the other. Later pairs are side by side and parallel."
+   "status": "rejected",
+   "review_note": "Made before your cedar-dining note: the pair runs one behind the other. Later pairs are side by side and parallel.",
+   "note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away.. heaters parallel",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-black-recessed-pair-concrete-desert-dining-night",
@@ -2226,8 +2274,12 @@
    "file": "images/review/full/pr-c-black-recessed-pair-concrete-desert-dining-night.jpg",
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-concrete-desert-dining-night.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
-   "review_note": "Made before your cedar-dining note: the pair runs one behind the other. Later pairs are side by side and parallel."
+   "status": "rejected",
+   "review_note": "Made before your cedar-dining note: the pair runs one behind the other. Later pairs are side by side and parallel.",
+   "note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away.. heaters parallel",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-3kw-graphite-endcap-light",
@@ -2239,7 +2291,10 @@
    "file": "images/review/full/pr-a-3kw-graphite-endcap-light.jpg",
    "thumb": "images/review/thumb/pr-a-3kw-graphite-endcap-light.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-3kw-graphite-endcap-warm-grey",
@@ -2251,7 +2306,10 @@
    "file": "images/review/full/pr-a-3kw-graphite-endcap-warm-grey.jpg",
    "thumb": "images/review/thumb/pr-a-3kw-graphite-endcap-warm-grey.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-3kw-graphite-endcap-dark",
@@ -2263,7 +2321,10 @@
    "file": "images/review/full/pr-a-3kw-graphite-endcap-dark.jpg",
    "thumb": "images/review/thumb/pr-a-3kw-graphite-endcap-dark.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-black-recessed-pair-city-balcony-night",
@@ -2277,8 +2338,12 @@
    "file": "images/review/full/pr-c-black-recessed-pair-city-balcony-night.jpg",
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-city-balcony-night.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
-   "review_note": "Side by side and parallel. Check: in several the pair sits nearer the camera than the seats, and the heaters are small in frame."
+   "status": "rejected",
+   "review_note": "Side by side and parallel. Check: in several the pair sits nearer the camera than the seats, and the heaters are small in frame.",
+   "note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-graphite-recessed-pair-rooftop-lounge-night",
@@ -2292,8 +2357,12 @@
    "file": "images/review/full/pr-c-graphite-recessed-pair-rooftop-lounge-night.jpg",
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-rooftop-lounge-night.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
-   "review_note": "Side by side and parallel. Check: in several the pair sits nearer the camera than the seats, and the heaters are small in frame."
+   "status": "rejected",
+   "review_note": "Side by side and parallel. Check: in several the pair sits nearer the camera than the seats, and the heaters are small in frame.",
+   "note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-black-recessed-pair-pool-cabana-dusk",
@@ -2307,8 +2376,12 @@
    "file": "images/review/full/pr-c-black-recessed-pair-pool-cabana-dusk.jpg",
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-pool-cabana-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
-   "review_note": "Side by side and parallel. Check: in several the pair sits nearer the camera than the seats, and the heaters are small in frame."
+   "status": "rejected",
+   "review_note": "Side by side and parallel. Check: in several the pair sits nearer the camera than the seats, and the heaters are small in frame.",
+   "note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-graphite-recessed-pair-oak-pavilion-lounge-dusk",
@@ -2322,8 +2395,12 @@
    "file": "images/review/full/pr-c-graphite-recessed-pair-oak-pavilion-lounge-dusk.jpg",
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-oak-pavilion-lounge-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
-   "review_note": "Side by side and parallel. Check: in several the pair sits nearer the camera than the seats, and the heaters are small in frame."
+   "status": "rejected",
+   "review_note": "Side by side and parallel. Check: in several the pair sits nearer the camera than the seats, and the heaters are small in frame.",
+   "note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-graphite-recessed-pair-beach-deck-golden-hour",
@@ -2337,8 +2414,12 @@
    "file": "images/review/full/pr-c-graphite-recessed-pair-beach-deck-golden-hour.jpg",
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-beach-deck-golden-hour.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
-   "review_note": "Side by side and parallel. Check: in several the pair sits nearer the camera than the seats, and the heaters are small in frame."
+   "status": "rejected",
+   "review_note": "Side by side and parallel. Check: in several the pair sits nearer the camera than the seats, and the heaters are small in frame.",
+   "note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-black-recessed-pair-rooftop-lounge-dusk",
@@ -2352,8 +2433,12 @@
    "file": "images/review/full/pr-c-black-recessed-pair-rooftop-lounge-dusk.jpg",
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-rooftop-lounge-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
-   "review_note": "Side by side and parallel. Check: in several the pair sits nearer the camera than the seats, and the heaters are small in frame."
+   "status": "rejected",
+   "review_note": "Side by side and parallel. Check: in several the pair sits nearer the camera than the seats, and the heaters are small in frame.",
+   "note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-graphite-recessed-pair-concrete-desert-dining-night",
@@ -2367,8 +2452,12 @@
    "file": "images/review/full/pr-c-graphite-recessed-pair-concrete-desert-dining-night.jpg",
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-concrete-desert-dining-night.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
-   "review_note": "Side by side and parallel. Check: in several the pair sits nearer the camera than the seats, and the heaters are small in frame."
+   "status": "rejected",
+   "review_note": "Side by side and parallel. Check: in several the pair sits nearer the camera than the seats, and the heaters are small in frame.",
+   "note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-white-recessed-pair-oak-pavilion-lounge-dusk",
@@ -2382,8 +2471,12 @@
    "file": "images/review/full/pr-c-white-recessed-pair-oak-pavilion-lounge-dusk.jpg",
    "thumb": "images/review/thumb/pr-c-white-recessed-pair-oak-pavilion-lounge-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
-   "review_note": "Side by side and parallel. Check: in several the pair sits nearer the camera than the seats, and the heaters are small in frame."
+   "status": "rejected",
+   "review_note": "Side by side and parallel. Check: in several the pair sits nearer the camera than the seats, and the heaters are small in frame.",
+   "note": "what is the color streak between the rc kit and heaters. (it should be gray. ....the logo is not visible...the heaters should be further away..",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-d-recess-white-beadboard-logo-f1-4",
@@ -2399,7 +2492,10 @@
    "h": 2560,
    "file": "images/review/full/pr-d-recess-white-beadboard-logo-f1-4.jpg",
    "thumb": "images/review/thumb/pr-d-recess-white-beadboard-logo-f1-4.webp",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-d-recess-white-plaster-logo-f1-4",
@@ -2415,7 +2511,10 @@
    "h": 2560,
    "file": "images/review/full/pr-d-recess-white-plaster-logo-f1-4.jpg",
    "thumb": "images/review/thumb/pr-d-recess-white-plaster-logo-f1-4.webp",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-white-wall-hero-warm-grey",
@@ -2427,7 +2526,10 @@
    "file": "images/review/full/pr-a-white-wall-hero-warm-grey.jpg",
    "thumb": "images/review/thumb/pr-a-white-wall-hero-warm-grey.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-white-wall-hero-grey",
@@ -2439,7 +2541,10 @@
    "file": "images/review/full/pr-a-white-wall-hero-grey.jpg",
    "thumb": "images/review/thumb/pr-a-white-wall-hero-grey.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-white-wall-hero-dark",
@@ -2451,7 +2556,11 @@
    "file": "images/review/full/pr-a-white-wall-hero-dark.jpg",
    "thumb": "images/review/thumb/pr-a-white-wall-hero-dark.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "rejected",
+   "note": "dark background",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-graphite-wall-from-below-light",
@@ -2463,7 +2572,10 @@
    "file": "images/review/full/pr-a-graphite-wall-from-below-light.jpg",
    "thumb": "images/review/thumb/pr-a-graphite-wall-from-below-light.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-graphite-wall-from-below-warm-grey",
@@ -2475,7 +2587,10 @@
    "file": "images/review/full/pr-a-graphite-wall-from-below-warm-grey.jpg",
    "thumb": "images/review/thumb/pr-a-graphite-wall-from-below-warm-grey.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-graphite-wall-from-below-dark",
@@ -2487,7 +2602,10 @@
    "file": "images/review/full/pr-a-graphite-wall-from-below-dark.jpg",
    "thumb": "images/review/thumb/pr-a-graphite-wall-from-below-dark.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
-   "status": "pending"
+   "status": "approved",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-white-recessed-pair-desert-kitchen-bar-sunset",
@@ -2501,7 +2619,11 @@
    "file": "images/review/full/pr-c-white-recessed-pair-desert-kitchen-bar-sunset.jpg",
    "thumb": "images/review/thumb/pr-c-white-recessed-pair-desert-kitchen-bar-sunset.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "note": "what is the color streak between the rc kit and heaters. it should be gray.",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-graphite-recessed-pair-cedar-garden-dining-dusk",
@@ -2515,7 +2637,11 @@
    "file": "images/review/full/pr-c-graphite-recessed-pair-cedar-garden-dining-dusk.jpg",
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-cedar-garden-dining-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-black-recessed-pair-spotted-gum-dining-afternoon",
@@ -2529,7 +2655,11 @@
    "file": "images/review/full/pr-c-black-recessed-pair-spotted-gum-dining-afternoon.jpg",
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-spotted-gum-dining-afternoon.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk",
@@ -2543,6 +2673,77 @@
    "file": "images/review/full/pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk.jpg",
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "rejected",
+   "note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
+  },
+  {
+   "id": "pr-a-black-trio-row-light",
+   "title": "Series II 6 kW, three black heaters in a parallel row on ceiling posts, logo ends nearest, elements glowing, on a light sweep",
+   "kind": "CAD studio render",
+   "finish": "black",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-a-black-trio-row-light.jpg",
+   "thumb": "images/review/thumb/pr-a-black-trio-row-light.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+   "status": "pending"
+  },
+  {
+   "id": "pr-a-black-trio-row-warm-grey",
+   "title": "Series II 6 kW, three black heaters in a parallel row on ceiling posts, logo ends nearest, elements glowing, on a warm-grey sweep",
+   "kind": "CAD studio render",
+   "finish": "black",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-a-black-trio-row-warm-grey.jpg",
+   "thumb": "images/review/thumb/pr-a-black-trio-row-warm-grey.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+   "status": "pending"
+  },
+  {
+   "id": "pr-a-black-trio-row-dark",
+   "title": "Series II 6 kW, three black heaters in a parallel row on ceiling posts, logo ends nearest, elements glowing, on a dark sweep",
+   "kind": "CAD studio render",
+   "finish": "black",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-a-black-trio-row-dark.jpg",
+   "thumb": "images/review/thumb/pr-a-black-trio-row-dark.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+   "status": "pending"
+  },
+  {
+   "id": "pr-c-white-recessed-pair-forest-loggia-lounge-evening",
+   "title": "Two Series II white heaters recessed side by side in the low-clearance kit, parallel and centred over a teak lounge group in a stone-piered loggia beside a pine forest, early evening",
+   "kind": "CAD render in a setting",
+   "finish": "white",
+   "aperture": "f/14",
+   "background": "generated: plaster-ceilinged loggia with stone piers by a pine forest (spare plate q3a from the r10 f/14 set, prompted from a real Bromic library photo for light and materials)",
+   "w": 5056,
+   "h": 3392,
+   "file": "images/review/full/pr-c-white-recessed-pair-forest-loggia-lounge-evening.jpg",
+   "thumb": "images/review/thumb/pr-c-white-recessed-pair-forest-loggia-lounge-evening.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending"
+  },
+  {
+   "id": "pr-d-cedar-dining-white-recessed-pair",
+   "title": "Cedar dining pavilion, two recessed white heaters in the recess kit, side by side and parallel, centred over the dining table for eight",
+   "kind": "CAD render in a setting",
+   "finish": "white",
+   "aperture": "f/14",
+   "format": "3:2",
+   "background": "generated plate (no heater, no people, no lettering): covered terrace with cedar-board ceiling about 2.4 m, dining table for eight, garden at dusk (same plate and solved camera as pr-bg-white-ceiling-cedar-dining-f14)",
+   "source": "CAD: '6kW heater and recess kit' (Series II 6 kW) in the LC kit trim as published (1,624 x 283 mm, vents at both ends; the same build as the owner-approved pr-bg-black-recess-kit-plaster-ceiling), owner-approved studio white. Two kits side by side and parallel, long axis with the boards running into the scene, 1.2 m centre to centre (about 0.9 m between kits), together centred on the table. The heater sits 25 mm up inside the kit so its cover stays inside the frame. Rendered in Blender (Cycles, 20 samples, OpenImageDenoise), composited by the content team; elements at a low warm glow (two thin lines through the grille, no spill on the cedar); housing graded to the shaded ceiling.",
+   "note": "replaces pr-bg-white-ceiling-cedar-dining-f14 (owner: mounting looked unreal); attempt 3 after pr-d-cedar-dining-graphite-recessed-f14",
+   "review_note": "The BROMIC logo is on the far end caps; at this distance it is small and not legible. A close-up of the same kit with the logo readable is pr-d-recess-white-beadboard-logo-f1-4.",
+   "w": 5056,
+   "h": 3392,
+   "file": "images/review/full/pr-d-cedar-dining-white-recessed-pair.jpg",
+   "thumb": "images/review/thumb/pr-d-cedar-dining-white-recessed-pair.webp",
    "status": "pending"
   }
  ]
