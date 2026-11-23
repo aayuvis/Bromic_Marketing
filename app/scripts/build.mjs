@@ -301,6 +301,12 @@ fs.copyFileSync(path.join(APP, 'node_modules', 'marked', 'marked.min.js'), path.
 { const v = (commit || 'dev') + '-' + Date.parse(HUB.built).toString(36);
   const ix = path.join(DIST, 'index.html');
   fs.writeFileSync(ix, fs.readFileSync(ix, 'utf8').replace(/(src|href)="(app\.js|data\.js|styles\.css|editor\.js)"/g, `$1="$2?v=${v}"`)); }
+// The approved set downloads as zips of at most ~80 MB each (GitHub Pages refuses files over 95 MB; owner approvals grew past it, 22 Nov 2026).
+const ZIP_PARTS = (() => { const ok = (HUB.review || []).filter((r) => r.status === 'approved' && !r.video && fs.existsSync(path.join(ROOT, r.file)));
+  const parts = []; let cur = [], sz = 0;
+  for (const r of ok) { const b = fs.statSync(path.join(ROOT, r.file)).size; if (cur.length && sz + b > 80e6) { parts.push(cur); cur = []; sz = 0; } cur.push(r.file); sz += b; }
+  if (cur.length) parts.push(cur); return parts; })();
+HUB.approvedZips = ZIP_PARTS.map((p, i) => ({ href: `review/approved-${i + 1}.zip`, n: p.length }));
 fs.writeFileSync(path.join(DIST, 'data.js'), 'window.HUB=' + JSON.stringify(HUB) + ';');
 for (const [lang, m] of Object.entries(tr)) fs.writeFileSync(path.join(DIST, `data-${lang}.js`), `(window.HUB_TR=window.HUB_TR||{})[${JSON.stringify(lang)}]=` + JSON.stringify(m) + ';');
 fs.cpSync(path.join(ROOT, 'images', 'library'), path.join(DIST, 'images', 'library'), { recursive: true });
@@ -329,10 +335,9 @@ if (fs.existsSync(path.join(ROOT, 'images', 'campaigns'))) fs.cpSync(path.join(R
 if (fs.existsSync(path.join(ROOT, 'images', 'review'))) {
   fs.cpSync(path.join(ROOT, 'images', 'review'), path.join(DIST, 'images', 'review'), { recursive: true });
   // the approved set as one download (rebuilt at every publish, so it follows the approvals file)
-  const ok = review.filter((r) => r.status === 'approved' && !r.video), zp = path.join(DIST, 'review', 'approved.zip');
-  fs.mkdirSync(path.dirname(zp), { recursive: true });
-  if (ok.length) { const { execFileSync } = await import('node:child_process');
-    execFileSync('python3', ['-c', 'import sys,zipfile,os\nz=zipfile.ZipFile(sys.argv[1],"w",zipfile.ZIP_STORED)\nfor f in sys.argv[2:]: z.write(f,os.path.basename(f))\nz.close()', zp, ...ok.map((r) => path.join(ROOT, r.file))]); }
+  fs.mkdirSync(path.join(DIST, 'review'), { recursive: true });
+  const { execFileSync } = await import('node:child_process');
+  ZIP_PARTS.forEach((files, i) => execFileSync('python3', ['-c', 'import sys,zipfile,os\nz=zipfile.ZipFile(sys.argv[1],"w",zipfile.ZIP_STORED)\nfor f in sys.argv[2:]: z.write(f,os.path.basename(f))\nz.close()', path.join(DIST, 'review', `approved-${i + 1}.zip`), ...files.map((f) => path.join(ROOT, f))]));
 }
 if (fs.existsSync(path.join(ROOT, 'tools', '_shared'))) fs.cpSync(path.join(ROOT, 'tools', '_shared'), path.join(DIST, 'tools', '_shared'), { recursive: true });
 for (const t of tools) fs.cpSync(path.join(ROOT, 'tools', t), path.join(DIST, 'tools', t), { recursive: true, filter: (s) => !/test\.mjs$|README\.md$|\.py$/.test(s) });
