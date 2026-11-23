@@ -4472,6 +4472,62 @@
    "thumb": "images/review/thumb/pr-b-white-concrete-soffit-mountain-view.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "pending"
+  },
+  {
+   "id": "pr-b-graphite-wall-oak-cladding-beach",
+   "title": "Series II Select 6 kW graphite on the angled wall bracket, white-oak clad wall under a painted soffit, a beach and the sea at golden hour beyond",
+   "kind": "CAD render in a setting",
+   "finish": "graphite",
+   "aperture": "f/8",
+   "background": "generated empty setting: beach view at golden hour (backdrop, lens blur matched to f/8); white-oak cladding and render soffit: generated surface textures",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-b-graphite-wall-oak-cladding-beach.jpg",
+   "thumb": "images/review/thumb/pr-b-graphite-wall-oak-cladding-beach.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending"
+  },
+  {
+   "id": "pr-b-graphite-wall-oak-cladding-garden-lounge",
+   "title": "Series II Select 6 kW graphite on the angled wall bracket, white-oak clad wall under a painted soffit, a garden lounge with clipped hedges at dusk beyond",
+   "kind": "CAD render in a setting",
+   "finish": "graphite",
+   "aperture": "f/8",
+   "background": "generated empty setting: garden lounge at dusk (backdrop, lens blur matched to f/8); white-oak cladding and render soffit: generated surface textures",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-b-graphite-wall-oak-cladding-garden-lounge.jpg",
+   "thumb": "images/review/thumb/pr-b-graphite-wall-oak-cladding-garden-lounge.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending"
+  },
+  {
+   "id": "pr-b-black-recess-render-garden-dining",
+   "title": "Series II Select 6 kW black recessed in the Bromic recess kit, smooth painted render soffit, a candlelit garden dining table beyond",
+   "kind": "CAD render in a setting",
+   "finish": "black",
+   "aperture": "f/8",
+   "background": "generated empty setting: garden dining table at dusk (backdrop, lens blur matched to f/8); render soffit: generated surface texture; recess kit trim at its published size",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-b-black-recess-render-garden-dining.jpg",
+   "thumb": "images/review/thumb/pr-b-black-recess-render-garden-dining.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending"
+  },
+  {
+   "id": "pr-b-black-recess-render-fountain-courtyard",
+   "title": "Series II Select 6 kW black recessed in the Bromic recess kit, smooth painted render soffit, a stone courtyard with a fountain at blue hour beyond",
+   "kind": "CAD render in a setting",
+   "finish": "black",
+   "aperture": "f/8",
+   "background": "generated empty setting: stone courtyard with fountain at blue hour (backdrop, lens blur matched to f/8); render soffit: generated surface texture; recess kit trim at its published size",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-b-black-recess-render-fountain-courtyard.jpg",
+   "thumb": "images/review/thumb/pr-b-black-recess-render-fountain-courtyard.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending"
   }
  ]
 }
