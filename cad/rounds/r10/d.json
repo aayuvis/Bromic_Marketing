@@ -296,5 +296,22 @@
   "file": "images/review/full/pr-d-recess-black-aluminium-logo-f1-4.jpg",
   "thumb": "images/review/thumb/pr-d-recess-black-aluminium-logo-f1-4.webp",
   "status": "pending"
+ },
+ {
+  "id": "pr-d-recess-white-aluminium-logo-f1-4",
+  "title": "Series II white recessed in the kit, linear aluminium soffit, logo end close up",
+  "kind": "CAD render in a setting",
+  "finish": "white",
+  "aperture": "f/1.4",
+  "format": "3:2",
+  "background": "satin aluminium linear soffit: generated surface texture (no heater, no lettering)",
+  "source": "CAD: '6kW heater and recess kit' (Series II 6 kW) in the LC kit trim as published (1,624 x 283 mm, vents at both ends; the build used for the owner-approved pr-bg-black-recess-kit-plaster-ceiling), owner-approved studio white, seated at the kit's own depth. Rendered in Blender (Cycles, 20 samples, OpenImageDenoise); the soffit plane mapped through the same camera and defocused per pixel by the f/1.4 lens; composited by the content team. Long axis with the panels; logo end cap in focus, BROMIC reading upright.",
+  "note": "owner on pr-d-recess-graphite-aluminium-logo-f1-4: \"make the heater black and one more image with white\"",
+  "review_note": "Any see-through gap inside the kit is filled neutral grey; the narrow side slot shows the dark kit cavity as rendered.",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-d-recess-white-aluminium-logo-f1-4.jpg",
+  "thumb": "images/review/thumb/pr-d-recess-white-aluminium-logo-f1-4.webp",
+  "status": "pending"
  }
 ]
