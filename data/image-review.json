@@ -2411,7 +2411,8 @@
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "pending",
    "redo": "v3: logo upright",
-   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away.."
+   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
+   "review_note": "Logo upright but too far from the camera to read (about 8 m). Fix options: move the pair closer, turn it diagonal, or accept."
   },
   {
    "id": "pr-c-graphite-recessed-pair-concrete-desert-dining-night",
@@ -2427,7 +2428,8 @@
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "pending",
    "redo": "v3: logo upright",
-   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away.."
+   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
+   "review_note": "Logo upright but too far from the camera to read (about 8 m). Fix options: move the pair closer, turn it diagonal, or accept."
   },
   {
    "id": "pr-c-white-recessed-pair-oak-pavilion-lounge-dusk",
@@ -2636,7 +2638,8 @@
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "pending",
    "redo": "v3: logo upright",
-   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away.."
+   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
+   "review_note": "Logo upright but too far from the camera to read (about 8 m). Fix options: move the pair closer, turn it diagonal, or accept."
   },
   {
    "id": "pr-a-black-trio-row-light",
@@ -2698,13 +2701,12 @@
    "format": "3:2",
    "background": "generated plate (no heater, no people, no lettering): covered terrace with cedar-board ceiling about 2.4 m, dining table for eight, garden at dusk (same plate and solved camera as pr-bg-white-ceiling-cedar-dining-f14)",
    "source": "CAD: '6kW heater and recess kit' (Series II 6 kW) in the LC kit trim as published (1,624 x 283 mm, vents at both ends; the same build as the owner-approved pr-bg-black-recess-kit-plaster-ceiling), owner-approved studio white. Two kits side by side and parallel, long axis with the boards running into the scene, 1.2 m centre to centre (about 0.9 m between kits), together centred on the table. The heater sits 25 mm up inside the kit so its cover stays inside the frame. Rendered in Blender (Cycles, 20 samples, OpenImageDenoise), composited by the content team; elements at a low warm glow (two thin lines through the grille, no spill on the cedar); housing graded to the shaded ceiling.",
-   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly.",
    "w": 3840,
    "h": 2560,
    "file": "images/review/full/pr-d-cedar-dining-white-recessed-pair.jpg",
    "thumb": "images/review/thumb/pr-d-cedar-dining-white-recessed-pair.webp",
    "status": "pending",
-   "redo": "v2: 1.6 m apart side by side and parallel over the table, near end-cap logo, neutral grey cavity, tight crop, low glow",
+   "redo": "v3: logo upright",
    "previous_note": "replaces pr-bg-white-ceiling-cedar-dining-f14 (owner: mounting looked unreal); attempt 3 after pr-d-cedar-dining-graphite-recessed-f14"
   },
   {
@@ -2963,7 +2965,7 @@
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-rooftop-lounge-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "pending",
-   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly.",
+   "review_note": "Logo upright but too far from the camera to read (about 8 m). Fix options: move the pair closer, turn it diagonal, or accept.",
    "redo": "v2: cavity neutral, logo visible, pair further back over the seats",
    "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away.."
   },
@@ -2980,7 +2982,7 @@
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-concrete-desert-dining-night.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "pending",
-   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly.",
+   "review_note": "Logo upright but too far from the camera to read (about 8 m). Fix options: move the pair closer, turn it diagonal, or accept.",
    "redo": "v2: cavity neutral, logo visible, pair further back over the seats",
    "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away.."
   },
@@ -3269,7 +3271,7 @@
    "status": "pending",
    "redo": "v2: cavity neutral, logo visible, pair further back over the seats",
    "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
-   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly."
+   "review_note": "Logo upright but too far from the camera to read (about 8 m). Fix options: move the pair closer, turn it diagonal, or accept."
   },
   {
    "id": "pr-c-white-recessed-pair-forest-loggia-lounge-evening",
@@ -3342,7 +3344,8 @@
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "pending",
    "redo": "v3: logo upright",
-   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away.."
+   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
+   "review_note": "Logo upright but too far from the camera to read (about 8 m). Fix options: move the pair closer, turn it diagonal, or accept."
   },
   {
    "id": "pr-c-graphite-recessed-pair-concrete-desert-dining-night",
@@ -3358,7 +3361,8 @@
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "pending",
    "redo": "v3: logo upright",
-   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away.."
+   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
+   "review_note": "Logo upright but too far from the camera to read (about 8 m). Fix options: move the pair closer, turn it diagonal, or accept."
   },
   {
    "id": "pr-c-black-recessed-pair-spotted-gum-dining-afternoon",
@@ -3406,7 +3410,25 @@
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
    "status": "pending",
    "redo": "v3: logo upright",
-   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away.."
+   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
+   "review_note": "Logo upright but too far from the camera to read (about 8 m). Fix options: move the pair closer, turn it diagonal, or accept."
+  },
+  {
+   "id": "pr-d-cedar-dining-white-recessed-pair",
+   "title": "Cedar dining pavilion, two recessed white heaters in the recess kit, side by side and parallel, centred over the dining table for eight",
+   "kind": "CAD render in a setting",
+   "finish": "white",
+   "aperture": "f/14",
+   "format": "3:2",
+   "background": "generated plate (no heater, no people, no lettering): covered terrace with cedar-board ceiling about 2.4 m, dining table for eight, garden at dusk (same plate and solved camera as pr-bg-white-ceiling-cedar-dining-f14)",
+   "source": "CAD: '6kW heater and recess kit' (Series II 6 kW) in the LC kit trim as published (1,624 x 283 mm, vents at both ends; the same build as the owner-approved pr-bg-black-recess-kit-plaster-ceiling), owner-approved studio white. Two kits side by side and parallel, long axis with the boards running into the scene, 1.2 m centre to centre (about 0.9 m between kits), together centred on the table. The heater sits 25 mm up inside the kit so its cover stays inside the frame. Rendered in Blender (Cycles, 20 samples, OpenImageDenoise), composited by the content team; elements at a low warm glow (two thin lines through the grille, no spill on the cedar); housing graded to the shaded ceiling.",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-d-cedar-dining-white-recessed-pair.jpg",
+   "thumb": "images/review/thumb/pr-d-cedar-dining-white-recessed-pair.webp",
+   "status": "pending",
+   "redo": "v3: logo upright",
+   "previous_note": "replaces pr-bg-white-ceiling-cedar-dining-f14 (owner: mounting looked unreal); attempt 3 after pr-d-cedar-dining-graphite-recessed-f14"
   }
  ]
 }
