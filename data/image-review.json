@@ -3158,7 +3158,8 @@
    "file": "images/review/full/pr-b-white-recess-cedar-sea-dusk.jpg",
    "thumb": "images/review/thumb/pr-b-white-recess-cedar-sea-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "pending",
+   "redo": "Soffit levelled and straightened (23 Nov)"
   },
   {
    "id": "pr-b-graphite-oak-soffit-garden",
