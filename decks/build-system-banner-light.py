@@ -31,15 +31,41 @@ def heater_zoom(im):
     a[..., 3] *= fade; return O.trim(Image.fromarray(a.astype(np.uint8), 'RGBA'))
 
 
-def build(scene, finish, out, thumb=None):
+def light_edge(out, im, x, y, u):
+    """Edge contrast for a white product: its face just inside the silhouette (median) against the edge just outside it (1-6 px)."""
+    from PIL import ImageFilter
+    a = np.array(im.getchannel('A')) > 200; A_ = Image.fromarray((a * 255).astype(np.uint8)); k = max(2, round(3 * u))
+    inn = (np.array(A_.filter(ImageFilter.MinFilter(3))) > 0) & ~(np.array(A_.filter(ImageFilter.MinFilter(4 * k + 1))) > 0)
+    outer = (np.array(A_.filter(ImageFilter.MaxFilter(4 * k + 1))) > 0) & ~a
+    crop = np.array(out.crop((x, y, x + im.width, y + im.height))).astype(float)
+    li, lo = np.median(A.lum(crop[inn])), np.median(A.lum(crop[outer]))
+    return (max(li, lo) + 0.05) / (min(li, lo) + 0.05)
+
+
+# the four designs (owner, 23 Nov 2026: "you can still use different designs of banners but core principles apply")
+DESIGNS = {
+    'L1': dict(band=(236, 235, 232), white_band=(217, 215, 211), ink=INK, name=GREY, rule=(208, 205, 200), logo='logo.png'),     # light grey
+    'L2': dict(band=(250, 248, 244), ink=INK, name=GREY, rule=(214, 209, 202), logo='logo.png', frame=(205, 199, 191)),          # warm white, hairline frame
+    'L3': dict(band=(46, 44, 42), ink=(245, 243, 240), name=(176, 172, 166), rule=(78, 75, 72), logo='logo-white.png', spot=True),  # deep warm charcoal, spotlit
+    'L4': dict(band=(228, 221, 211), ink=INK, name=(104, 96, 88), rule=(204, 196, 186), logo='logo.png', plinth=True),           # light stone, plinth row
+}
+
+
+def build(scene, finish, out, thumb=None, design='L1'):
+    from PIL import ImageFilter, ImageChops
+    D = DESIGNS[design]
     sc = Image.open(scene).convert('RGB')
     if sc.width < MINW: sc = sc.resize((MINW, round(sc.height * MINW / sc.width)), Image.LANCZOS)
     W, H = sc.size; u = W / 3840; bh = round(H * 0.19); y0 = H
-    im = Image.new('RGB', (W, H + bh), BAND); im.paste(sc, (0, 0)); d = ImageDraw.Draw(im)
+    band = D.get('white_band', D['band']) if finish == 'white' else D['band']
+    im = Image.new('RGB', (W, H + bh), band); im.paste(sc, (0, 0)); d = ImageDraw.Draw(im)
+    if D.get('frame'):   # a hairline frame inset in the band
+        fm = round(14 * u); d.rectangle((fm, y0 + fm, W - fm, y0 + bh - fm), outline=D['frame'], width=max(1, round(2 * u)))
+    edge = finish == 'white' and not D.get('spot')   # white products on a light band get a defined edge
     m = round(150 * u)
-    logo = fit(Image.open(os.path.join(HERE, 'img', 'logo.png')).convert('RGBA'), round(330 * u), round(100 * u))
+    logo = fit(Image.open(os.path.join(HERE, 'img', D['logo'])).convert('RGBA'), round(330 * u), round(100 * u))
     im.paste(logo, (m, y0 + round(78 * u)), logo)
-    d.text((m, y0 + round(232 * u)), 'The Complete Recessed System', font=F(DIDOT, 58 * u), fill=INK)
+    d.text((m, y0 + round(232 * u)), 'The Complete Recessed System', font=F(DIDOT, 58 * u), fill=D['ink'])
     d.rectangle((m, y0 + round(338 * u), m + round(100 * u), y0 + round(341 * u)), fill=FLAME)
     a0, a1 = round(1250 * u), W - round(100 * u); cw = (a1 - a0) / 3
     prods = O.products(finish); prods[0] = heater_zoom(prods[0])
@@ -47,15 +73,26 @@ def build(scene, finish, out, thumb=None):
     rep = []
     for i, (p, (n, step), name) in enumerate(zip(prods, STEPS, NAMES)):
         cx = a0 + cw * (i + 0.5)
-        if i: d.rectangle((round(a0 + cw * i), y0 + round(70 * u), round(a0 + cw * i) + max(1, round(1.5 * u)), y0 + bh - round(70 * u)), fill=(208, 205, 200))
-        w = spaced(d, (cx, y0 + round(38 * u)), f'{n}  {step}', fl, INK, round(9 * u), 'm')
+        if i: d.rectangle((round(a0 + cw * i), y0 + round(70 * u), round(a0 + cw * i) + max(1, round(1.5 * u)), y0 + bh - round(70 * u)), fill=D['rule'])
+        top, bot = y0 + round(112 * u), y0 + round((400 if D.get('plinth') else 418) * u)
+        if D.get('spot'):
+            A.glow(im, cx, (top + bot) / 2, round(cw * 0.40), round(150 * u), (120, 115, 108), 200, u)
+        if D.get('plinth'):
+            pw, ph = round(cw * 0.80), round(18 * u); px = round(cx - pw / 2)
+            sh = Image.new('L', (pw + 120, ph + 120), 0); ImageDraw.Draw(sh).rounded_rectangle((60, 66, 60 + pw, 66 + ph), radius=round(8 * u), fill=60)
+            im.paste((110, 96, 82), (px - 60, bot - 60), sh.filter(ImageFilter.GaussianBlur(round(14 * u))))
+            d.rounded_rectangle((px, bot, px + pw, bot + ph), radius=round(8 * u), fill=(240, 236, 230))
+        w = spaced(d, (cx, y0 + round(38 * u)), f'{n}  {step}', fl, D['ink'], round(9 * u), 'm')
         spaced(d, (cx - w / 2, y0 + round(38 * u)), n, fl, FLAME, round(9 * u))
-        top, bot = y0 + round(112 * u), y0 + round(418 * u)
         t = fit(p, round(cw * (0.96 if i == 0 else 0.74)), bot - top)
         x, y = round(cx - t.width / 2), bot - t.height
-        A.place(im, t, x, y, u, bot, shadow=(70, 62, 54), strength=0.5)
-        if i < 2: rep.append(round(A.contrast(im, t, x, y, u), 2))
-        centred(d, cx, y0 + round(432 * u), name, fn, GREY)
+        if edge and i < 2: A.backlight(im, t, x, y, (70, 66, 62) if D.get('plinth') else (78, 74, 69), 1.0, max(4, round(10 * u)))
+        A.place(im, t, x, y, u, bot, shadow=(0, 0, 0) if D.get('spot') else (70, 62, 54), strength=0.5)
+        if edge and i < 2:
+            a_ = t.getchannel('A'); ring = ImageChops.subtract(a_.filter(ImageFilter.MaxFilter(2 * max(1, round(1.5 * u)) + 1)), a_)
+            im.paste((72, 68, 64) if D.get('plinth') else (84, 79, 74), (x, y), ring)
+        if i < 2: rep.append(round(A.contrast(im, t, x, y, u) if finish != 'white' else light_edge(im, t, x, y, u), 2))
+        centred(d, cx, y0 + round(432 * u), name, fn, D['name'])
     im.save(out, quality=92, subsampling=0, optimize=True)
     if thumb:
         tt = im.copy(); tt.thumbnail((900, 900), Image.LANCZOS); tt.save(thumb, quality=82, method=6)
@@ -64,5 +101,5 @@ def build(scene, finish, out, thumb=None):
 
 if __name__ == '__main__':
     ap = argparse.ArgumentParser(); ap.add_argument('scene'); ap.add_argument('finish', choices=['black', 'graphite', 'white'])
-    ap.add_argument('out'); ap.add_argument('--thumb')
-    a = ap.parse_args(); print(*build(a.scene, a.finish, a.out, a.thumb))
+    ap.add_argument('out'); ap.add_argument('--thumb'); ap.add_argument('--design', default='L1', choices=sorted(DESIGNS))
+    a = ap.parse_args(); print(*build(a.scene, a.finish, a.out, a.thumb, a.design))

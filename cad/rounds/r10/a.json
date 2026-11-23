@@ -430,5 +430,29 @@
   "thumb": "images/review/thumb/pr-a-white-logo-34-grey.webp",
   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
   "status": "pending"
+ },
+ {
+  "id": "pr-a-white-wall-from-below-warm-grey",
+  "title": "Series II 6 kW, white, wall bracket seen from below, logo end, elements glowing, on a warm-grey sweep",
+  "kind": "CAD studio render",
+  "finish": "white",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-a-white-wall-from-below-warm-grey.jpg",
+  "thumb": "images/review/thumb/pr-a-white-wall-from-below-warm-grey.webp",
+  "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+  "status": "pending"
+ },
+ {
+  "id": "pr-a-white-wall-from-below-grey",
+  "title": "Series II 6 kW, white, wall bracket seen from below, logo end, elements glowing, on a deeper grey sweep",
+  "kind": "CAD studio render",
+  "finish": "white",
+  "w": 3840,
+  "h": 2560,
+  "file": "images/review/full/pr-a-white-wall-from-below-grey.jpg",
+  "thumb": "images/review/thumb/pr-a-white-wall-from-below-grey.webp",
+  "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+  "status": "pending"
  }
 ]

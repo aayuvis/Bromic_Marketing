@@ -2635,12 +2635,9 @@
    "file": "images/review/full/pr-c-black-recessed-pair-spotted-gum-dining-afternoon.jpg",
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-spotted-gum-dining-afternoon.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "approved",
-   "redo": "v3: logo upright",
-   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
-   "decided": "2026-11-22",
-   "decided_by": "owner",
-   "learned": true
+   "status": "pending",
+   "redo": "v4: logo visible",
+   "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away.."
   },
   {
    "id": "pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk",
@@ -2815,8 +2812,8 @@
    "thumb": "images/review/thumb/pr-d-cedar-dining-white-recessed-pair-system.webp",
    "source": "pr-d-cedar-dining-white-recessed-pair (unchanged) with the system banner below (decks/build-system-banner.py): the Series II heater and the heater in the low-clearance recess kit, both cut-outs rendered from the CAD in this finish; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); the Bromic logo",
    "status": "pending",
-   "variant": "L1",
-   "rebuilt": "light band, bigger labels, 2x heater",
+   "variant": "L4",
+   "rebuilt": "design rotation L4: one calm band, big labels, 2x heater, white edge",
    "previous_note": "white heaters and other commnts like before"
   },
   {
@@ -2830,8 +2827,8 @@
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-walnut-terrace-dining-system.webp",
    "source": "pr-c-graphite-recessed-pair-walnut-terrace-dining (unchanged) with the system banner below (decks/build-system-banner.py): the Series II heater and the heater in the low-clearance recess kit, both cut-outs rendered from the CAD in this finish; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); the Bromic logo",
    "status": "pending",
-   "variant": "L1",
-   "rebuilt": "light band, bigger labels, 2x heater"
+   "variant": "L2",
+   "rebuilt": "design rotation L2: one calm band, big labels, 2x heater"
   },
   {
    "id": "pr-c-black-recessed-pair-beach-deck-blue-hour-system",
@@ -2845,7 +2842,7 @@
    "source": "pr-c-black-recessed-pair-beach-deck-blue-hour (unchanged) with the system banner below (decks/build-system-banner.py): the Series II heater and the heater in the low-clearance recess kit, both cut-outs rendered from the CAD in this finish; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); the Bromic logo",
    "status": "pending",
    "variant": "L1",
-   "rebuilt": "light band, bigger labels, 2x heater"
+   "rebuilt": "design rotation L1: one calm band, big labels, 2x heater"
   },
   {
    "id": "pr-c-black-recessed-pair-walnut-terrace-golden-hour-system",
@@ -2859,7 +2856,7 @@
    "source": "pr-c-black-recessed-pair-walnut-terrace-golden-hour (unchanged) with the system banner below (decks/build-system-banner.py): the Series II heater and the heater in the low-clearance recess kit, both cut-outs rendered from the CAD in this finish; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); the Bromic logo",
    "status": "pending",
    "variant": "L1",
-   "rebuilt": "light band, bigger labels, 2x heater"
+   "rebuilt": "design rotation L1: one calm band, big labels, 2x heater"
   },
   {
    "id": "pr-c-black-recessed-pair-concrete-desert-dining-night-system",
@@ -2873,7 +2870,7 @@
    "source": "pr-c-black-recessed-pair-concrete-desert-dining-night (unchanged) with the system banner below (decks/build-system-banner.py): the Series II heater and the heater in the low-clearance recess kit, both cut-outs rendered from the CAD in this finish; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); the Bromic logo",
    "status": "pending",
    "variant": "L1",
-   "rebuilt": "light band, bigger labels, 2x heater"
+   "rebuilt": "design rotation L1: one calm band, big labels, 2x heater"
   },
   {
    "id": "pr-c-black-recessed-pair-city-balcony-night-system",
@@ -2886,8 +2883,8 @@
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-city-balcony-night-system.webp",
    "source": "pr-c-black-recessed-pair-city-balcony-night (unchanged) with the system banner below (decks/build-system-banner.py): the Series II heater and the heater in the low-clearance recess kit, both cut-outs rendered from the CAD in this finish; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); the Bromic logo",
    "status": "pending",
-   "variant": "L1",
-   "rebuilt": "light band, bigger labels, 2x heater",
+   "variant": "L2",
+   "rebuilt": "design rotation L2: one calm band, big labels, 2x heater",
    "previous_note": "logo on heaters....zoonin the banner heater 2x...make te text of heat, recess, control bigg3r on alll banners"
   },
   {
@@ -2902,7 +2899,7 @@
    "source": "pr-c-graphite-recessed-pair-rooftop-lounge-night (unchanged) with the system banner below (decks/build-system-banner.py): the Series II heater and the heater in the low-clearance recess kit, both cut-outs rendered from the CAD in this finish; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); the Bromic logo",
    "status": "pending",
    "variant": "L1",
-   "rebuilt": "light band, bigger labels, 2x heater",
+   "rebuilt": "design rotation L1: one calm band, big labels, 2x heater",
    "previous_note": "bring heaters closer and put logo on them..they are too further out"
   },
   {
@@ -2916,8 +2913,8 @@
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-pool-cabana-dusk-system.webp",
    "source": "pr-c-black-recessed-pair-pool-cabana-dusk (unchanged) with the system banner below (decks/build-system-banner.py): the Series II heater and the heater in the low-clearance recess kit, both cut-outs rendered from the CAD in this finish; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); the Bromic logo",
    "status": "pending",
-   "variant": "L1",
-   "rebuilt": "light band, bigger labels, 2x heater",
+   "variant": "L2",
+   "rebuilt": "design rotation L2: one calm band, big labels, 2x heater",
    "previous_note": "make baner all white and smaller...zoom 2x into the hearer"
   },
   {
@@ -2932,7 +2929,7 @@
    "source": "pr-c-graphite-recessed-pair-oak-pavilion-lounge-dusk (unchanged) with the system banner below (decks/build-system-banner.py): the Series II heater and the heater in the low-clearance recess kit, both cut-outs rendered from the CAD in this finish; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); the Bromic logo",
    "status": "pending",
    "variant": "L1",
-   "rebuilt": "light band, bigger labels, 2x heater"
+   "rebuilt": "design rotation L1: one calm band, big labels, 2x heater"
   },
   {
    "id": "pr-c-graphite-recessed-pair-beach-deck-golden-hour-system",
@@ -2945,8 +2942,8 @@
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-beach-deck-golden-hour-system.webp",
    "source": "pr-c-graphite-recessed-pair-beach-deck-golden-hour (unchanged) with the system banner below (decks/build-system-banner.py): the Series II heater and the heater in the low-clearance recess kit, both cut-outs rendered from the CAD in this finish; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); the Bromic logo",
    "status": "pending",
-   "variant": "L1",
-   "rebuilt": "light band, bigger labels, 2x heater"
+   "variant": "L2",
+   "rebuilt": "design rotation L2: one calm band, big labels, 2x heater"
   },
   {
    "id": "pr-c-black-recessed-pair-city-balcony-night-system-a",
@@ -3094,7 +3091,7 @@
    "file": "images/review/full/pr-c-black-recessed-pair-rooftop-lounge-dusk-system.jpg",
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-rooftop-lounge-dusk-system.webp",
    "source": "pr-c-black-recessed-pair-rooftop-lounge-dusk (unchanged) with system banner A4 split tone (decks/build-system-banner-a-variants.py): the Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in black; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); product lines from data/product-facts.json; edge contrast heater 9.41:1, kit 12.5:1",
-   "rebuilt": "light band, bigger labels, 2x heater",
+   "rebuilt": "design rotation L1: one calm band, big labels, 2x heater",
    "status": "pending"
   },
   {
@@ -3102,13 +3099,13 @@
    "title": "Two Series II graphite heaters recessed side by side in the low-clearance kit, parallel and centred over a six-seat dining table on a desert terrace with a board-formed concrete ceiling at night – with the system",
    "kind": "Scene with system banner",
    "finish": "graphite",
-   "variant": "L1",
+   "variant": "L2",
    "w": 3840,
    "h": 3046,
    "file": "images/review/full/pr-c-graphite-recessed-pair-concrete-desert-dining-night-system.jpg",
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-concrete-desert-dining-night-system.webp",
    "source": "pr-c-graphite-recessed-pair-concrete-desert-dining-night (unchanged) with system banner A5 gradient floor (decks/build-system-banner-a-variants.py): the Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in graphite; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); product lines from data/product-facts.json; edge contrast heater 3.75:1, kit 5.93:1",
-   "rebuilt": "light band, bigger labels, 2x heater",
+   "rebuilt": "design rotation L2: one calm band, big labels, 2x heater",
    "status": "pending"
   },
   {
@@ -3116,13 +3113,13 @@
    "title": "Two Series II white heaters recessed side by side in the low-clearance kit, parallel with the kitchen island and centred over its bar stools in a desert outdoor kitchen at sunset – with the system",
    "kind": "Scene with system banner",
    "finish": "white",
-   "variant": "L1",
+   "variant": "L3",
    "w": 3840,
    "h": 3046,
    "file": "images/review/full/pr-c-white-recessed-pair-desert-kitchen-bar-sunset-system.jpg",
    "thumb": "images/review/thumb/pr-c-white-recessed-pair-desert-kitchen-bar-sunset-system.webp",
    "source": "pr-c-white-recessed-pair-desert-kitchen-bar-sunset (unchanged) with system banner A2 charcoal band (decks/build-system-banner-a-variants.py): the Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in white; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); product lines from data/product-facts.json; edge contrast heater 6.09:1, kit 6.41:1",
-   "rebuilt": "light band, bigger labels, 2x heater",
+   "rebuilt": "design rotation L3: one calm band, big labels, 2x heater",
    "status": "pending",
    "previous_note": "logo on the heater...make recess heaters white"
   },
@@ -3131,13 +3128,13 @@
    "title": "Two Series II white heaters recessed side by side in the low-clearance kit, parallel with the oak ceiling boards and centred over a garden pavilion lounge at dusk – with the system",
    "kind": "Scene with system banner",
    "finish": "white",
-   "variant": "L1",
+   "variant": "L3",
    "w": 3840,
    "h": 3046,
    "file": "images/review/full/pr-c-white-recessed-pair-oak-pavilion-lounge-dusk-system.jpg",
    "thumb": "images/review/thumb/pr-c-white-recessed-pair-oak-pavilion-lounge-dusk-system.webp",
    "source": "pr-c-white-recessed-pair-oak-pavilion-lounge-dusk (unchanged) with system banner A2 charcoal band (decks/build-system-banner-a-variants.py): the Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in white; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); product lines from data/product-facts.json; edge contrast heater 6.09:1, kit 6.41:1",
-   "rebuilt": "light band, bigger labels, 2x heater",
+   "rebuilt": "design rotation L3: one calm band, big labels, 2x heater",
    "status": "pending"
   },
   {
@@ -3151,7 +3148,7 @@
    "file": "images/review/full/pr-c-graphite-recessed-pair-cedar-garden-dining-dusk-system.jpg",
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-cedar-garden-dining-dusk-system.webp",
    "source": "pr-c-graphite-recessed-pair-cedar-garden-dining-dusk (unchanged) with system banner A5 gradient floor (decks/build-system-banner-a-variants.py): the Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in graphite; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); product lines from data/product-facts.json; edge contrast heater 3.75:1, kit 5.93:1",
-   "rebuilt": "light band, bigger labels, 2x heater",
+   "rebuilt": "design rotation L1: one calm band, big labels, 2x heater",
    "status": "pending"
   },
   {
@@ -3159,13 +3156,13 @@
    "title": "Two Series II black heaters recessed side by side in the low-clearance kit, parallel with the timber ceiling boards and centred over an eight-seat dining table in a timber garden pavilion, late afternoon – with the system",
    "kind": "Scene with system banner",
    "finish": "black",
-   "variant": "L1",
+   "variant": "L2",
    "w": 3840,
    "h": 3046,
    "file": "images/review/full/pr-c-black-recessed-pair-spotted-gum-dining-afternoon-system.jpg",
    "thumb": "images/review/thumb/pr-c-black-recessed-pair-spotted-gum-dining-afternoon-system.webp",
    "source": "pr-c-black-recessed-pair-spotted-gum-dining-afternoon (unchanged) with system banner A4 split tone (decks/build-system-banner-a-variants.py): the Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in black; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); product lines from data/product-facts.json; edge contrast heater 9.41:1, kit 12.5:1",
-   "rebuilt": "light band, bigger labels, 2x heater",
+   "rebuilt": "design rotation L2: one calm band, big labels, 2x heater",
    "status": "pending",
    "previous_note": "dont like the white banned on the side..make the banner light gray..add logo on the heaters and ensure the heater in the banner is 2x zoomed"
   },
@@ -3174,13 +3171,13 @@
    "title": "Two Series II graphite heaters recessed side by side in the low-clearance kit, parallel and centred over a sofa and armchair lounge group in a plaster loggia opening to an olive grove at dusk – with the system",
    "kind": "Scene with system banner",
    "finish": "graphite",
-   "variant": "L1",
+   "variant": "L2",
    "w": 3840,
    "h": 3046,
    "file": "images/review/full/pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk-system.jpg",
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk-system.webp",
    "source": "pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk (unchanged) with system banner A5 gradient floor (decks/build-system-banner-a-variants.py): the Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in graphite; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); product lines from data/product-facts.json; edge contrast heater 3.75:1, kit 5.93:1",
-   "rebuilt": "light band, bigger labels, 2x heater",
+   "rebuilt": "design rotation L2: one calm band, big labels, 2x heater",
    "status": "pending"
   },
   {
@@ -3188,13 +3185,13 @@
    "title": "Two Series II white heaters recessed side by side in the low-clearance kit, parallel and centred over a teak lounge group in a stone-piered loggia beside a pine forest, early evening – with the system",
    "kind": "Scene with system banner",
    "finish": "white",
-   "variant": "L1",
+   "variant": "L4",
    "w": 3840,
    "h": 3046,
    "file": "images/review/full/pr-c-white-recessed-pair-forest-loggia-lounge-evening-system.jpg",
    "thumb": "images/review/thumb/pr-c-white-recessed-pair-forest-loggia-lounge-evening-system.webp",
    "source": "pr-c-white-recessed-pair-forest-loggia-lounge-evening (unchanged) with system banner A2 charcoal band (decks/build-system-banner-a-variants.py): the Series II heater and the empty low-clearance recess kit, cut-outs rendered from the CAD in white; the Affinity Smart-Heat 2-channel dimmer, bromic.com product image (Affinity-Dimmer-2CH-2.png); product lines from data/product-facts.json; edge contrast heater 6.09:1, kit 6.41:1",
-   "rebuilt": "light band, bigger labels, 2x heater",
+   "rebuilt": "design rotation L4: one calm band, big labels, 2x heater, white edge",
    "status": "pending",
    "previous_note": "pink celinig no logo on heaterrs...top showing gray and below white..use white heaters on the image..zoom into the heater image on the banner"
   },
@@ -3395,6 +3392,30 @@
    "decided_by": "owner",
    "learned": true,
    "note": "use f14 and part the heater slightly weathered"
+  },
+  {
+   "id": "pr-a-white-wall-from-below-warm-grey",
+   "title": "Series II 6 kW, white, wall bracket seen from below, logo end, elements glowing, on a warm-grey sweep",
+   "kind": "CAD studio render",
+   "finish": "white",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-a-white-wall-from-below-warm-grey.jpg",
+   "thumb": "images/review/thumb/pr-a-white-wall-from-below-warm-grey.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+   "status": "pending"
+  },
+  {
+   "id": "pr-a-white-wall-from-below-grey",
+   "title": "Series II 6 kW, white, wall bracket seen from below, logo end, elements glowing, on a deeper grey sweep",
+   "kind": "CAD studio render",
+   "finish": "white",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-a-white-wall-from-below-grey.jpg",
+   "thumb": "images/review/thumb/pr-a-white-wall-from-below-grey.webp",
+   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+   "status": "pending"
   }
  ]
 }
