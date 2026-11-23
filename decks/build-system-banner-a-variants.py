@@ -93,7 +93,7 @@ def build_variant(sc, finish, v):
     d.text((m, y0 + round(380 * u)), 'The Complete', font=fd, fill=WHITE)
     d.text((m, y0 + round(510 * u)), 'Recessed System', font=fd, fill=WHITE)
     d.rectangle((m, y0 + round(700 * u), m + round(110 * u), y0 + round(705 * u)), fill=FLAME)
-    sub = (205, 200, 194) if v == 'a5' else (170, 168, 165)
+    sub = (58, 55, 52) if v == 'a5' else (170, 168, 165)   # a5: the subtitle sits on the light lower floor
     spaced(d, (m, y0 + round(745 * u)), 'TUNGSTEN SMART-HEAT® ELECTRIC SERIES II', F(SANS, 26 * u), sub, round(5 * u))
     cw = (a1 - a0) / 3
     fl, fn, fs = F(SANS, 30 * u), F(SANS, 36 * u), F(SANS, 28 * u)
@@ -121,7 +121,7 @@ def build_variant(sc, finish, v):
         elif v == 'a4':
             place(out, t, x, y, u, floor, shadow=(70, 60, 50), strength=0.6)
         else:   # a5
-            if cad and finish != 'white': backlight(out, t, x, y, (200, 194, 186), 1.0, round(18 * u))
+            if cad and finish != 'white': backlight(out, t, x, y, (226, 220, 212) if finish == 'graphite' else (200, 194, 186), 1.0, round((30 if finish == 'graphite' else 18) * u))
             place(out, t, x, y, u, floor, shadow=(40, 35, 30), strength=0.6, reflect=0.16)
         report.append((name, round(contrast(out, t, x, y, u), 2)))
         centred(d, cx, y0 + round(745 * u), name, fn, namec)

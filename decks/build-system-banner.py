@@ -39,7 +39,7 @@ def fit(im, bw, bh):
 
 def tiles(finish):
     return [trim(Image.open(os.path.join(TILES, f)).convert('RGBA')) for f in
-            (f'heater-{finish}.png', f'kit-{finish}.png', 'affinity-dimmer-2ch.png')]
+            (f'heater-{finish}.png', f'kitempty-{finish}.png', 'affinity-dimmer-2ch.png')]
 
 
 def banner(W, H, finish):

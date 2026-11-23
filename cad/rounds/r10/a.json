@@ -334,5 +334,29 @@
   "thumb": "images/review/thumb/pr-a-black-trio-row-dark.webp",
   "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
   "status": "pending"
+ },
+ {
+  "id": "pr-a-white-up-9x16-warm-grey",
+  "title": "Series II 6 kW, white, fascia seen straight up from below, 9:16 portrait with the logo upright, elements glowing, on a warm-grey sweep",
+  "kind": "CAD studio render",
+  "finish": "white",
+  "w": 2160,
+  "h": 3840,
+  "file": "images/review/full/pr-a-white-up-9x16-warm-grey.jpg",
+  "thumb": "images/review/thumb/pr-a-white-up-9x16-warm-grey.webp",
+  "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+  "status": "pending"
+ },
+ {
+  "id": "pr-a-white-up-9x16-grey",
+  "title": "Series II 6 kW, white, fascia seen straight up from below, 9:16 portrait with the logo upright, elements glowing, on a deeper grey sweep",
+  "kind": "CAD studio render",
+  "finish": "white",
+  "w": 2160,
+  "h": 3840,
+  "file": "images/review/full/pr-a-white-up-9x16-grey.jpg",
+  "thumb": "images/review/thumb/pr-a-white-up-9x16-grey.webp",
+  "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
+  "status": "pending"
  }
 ]

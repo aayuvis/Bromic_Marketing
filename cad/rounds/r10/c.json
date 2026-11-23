@@ -249,7 +249,8 @@
   "file": "images/review/full/pr-c-graphite-recessed-pair-cedar-garden-dining-dusk.jpg",
   "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-cedar-garden-dining-dusk.webp",
   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-  "status": "pending"
+  "status": "pending",
+  "redo": "v2: cavity neutral, logo visible, pair further back over the seats"
  },
  {
   "id": "pr-c-black-recessed-pair-spotted-gum-dining-afternoon",
@@ -263,7 +264,8 @@
   "file": "images/review/full/pr-c-black-recessed-pair-spotted-gum-dining-afternoon.jpg",
   "thumb": "images/review/thumb/pr-c-black-recessed-pair-spotted-gum-dining-afternoon.webp",
   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-  "status": "pending"
+  "status": "pending",
+  "redo": "v2: cavity neutral, logo visible, pair further back over the seats"
  },
  {
   "id": "pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk",
@@ -277,7 +279,8 @@
   "file": "images/review/full/pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk.jpg",
   "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk.webp",
   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-  "status": "pending"
+  "status": "pending",
+  "redo": "v2: cavity neutral, logo visible, pair further back over the seats"
  },
  {
   "id": "pr-c-white-recessed-pair-forest-loggia-lounge-evening",
@@ -286,11 +289,12 @@
   "finish": "white",
   "aperture": "f/14",
   "background": "generated: plaster-ceilinged loggia with stone piers by a pine forest (spare plate q3a from the r10 f/14 set, prompted from a real Bromic library photo for light and materials)",
-  "w": 5056,
-  "h": 3392,
+  "w": 3840,
+  "h": 2560,
   "file": "images/review/full/pr-c-white-recessed-pair-forest-loggia-lounge-evening.jpg",
   "thumb": "images/review/thumb/pr-c-white-recessed-pair-forest-loggia-lounge-evening.webp",
   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-  "status": "pending"
+  "status": "pending",
+  "redo": "v2: cavity neutral, logo visible, pair further back over the seats"
  }
 ]

@@ -218,15 +218,15 @@
   "finish": "white",
   "aperture": "f/14",
   "format": "3:2",
-  "background": "generated plate (no heater, no people, no lettering): covered terrace with cedar-board ceiling about 2.4 m, dining table for eight, garden at dusk (same plate and solved camera as pr-bg-white-ceiling-cedar-dining-f14)",
-  "source": "CAD: '6kW heater and recess kit' (Series II 6 kW) in the LC kit trim as published (1,624 x 283 mm, vents at both ends; the same build as the owner-approved pr-bg-black-recess-kit-plaster-ceiling), owner-approved studio white. Two kits side by side and parallel, long axis with the boards running into the scene, 1.2 m centre to centre (about 0.9 m between kits), together centred on the table. The heater sits 25 mm up inside the kit so its cover stays inside the frame. Rendered in Blender (Cycles, 20 samples, OpenImageDenoise), composited by the content team; elements at a low warm glow (two thin lines through the grille, no spill on the cedar); housing graded to the shaded ceiling.",
+  "background": "generated plate (no heater, no people, no lettering): covered terrace with cedar-board ceiling about 2.4 m, dining table for eight, garden at dusk (same plate as pr-bg-white-ceiling-cedar-dining-f14; camera solved from the plate in the r10 c pipeline)",
+  "source": "CAD: '6kW heater and recess kit' (Series II 6 kW) in the LC kit trim as published (1,624 x 283 mm, vents at both ends), owner-approved studio white. Two kits side by side and parallel, long axis with the boards running into the scene, 1.6 m centre to centre, together centred on the table (solved camera, seat-centre floor point). Neutral grey cavity behind the trim; BROMIC logo on the near end caps. Rendered in Blender (Cycles, 24 samples, OpenImageDenoise), composited by the content team; elements at a low warm glow; cropped 3840 x 2560 from the 5056 plate (no upscaling).",
   "note": "replaces pr-bg-white-ceiling-cedar-dining-f14 (owner: mounting looked unreal); attempt 3 after pr-d-cedar-dining-graphite-recessed-f14",
-  "review_note": "The BROMIC logo is on the far end caps; at this distance it is small and not legible. A close-up of the same kit with the logo readable is pr-d-recess-white-beadboard-logo-f1-4.",
-  "w": 5056,
-  "h": 3392,
+  "w": 3840,
+  "h": 2560,
   "file": "images/review/full/pr-d-cedar-dining-white-recessed-pair.jpg",
   "thumb": "images/review/thumb/pr-d-cedar-dining-white-recessed-pair.webp",
-  "status": "pending"
+  "status": "pending",
+  "redo": "v2: 1.6 m apart side by side and parallel over the table, near end-cap logo, neutral grey cavity, tight crop, low glow"
  },
  {
   "id": "pr-d-recess-black-timber-logo-f1-4",
