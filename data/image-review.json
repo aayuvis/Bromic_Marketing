@@ -3453,6 +3453,62 @@
    "thumb": "images/review/thumb/pr-a-graphite-logo-34-dark.webp",
    "source": "Rendered from the Tungsten Series II CAD on a studio sweep. Graded to natural colour.",
    "status": "pending"
+  },
+  {
+   "id": "pr-b-white-oak-soffit-sea-dusk",
+   "title": "Series II Select 6 kW white on its short ceiling post, tilted 25 degrees on its bracket, white-oak soffit, sea at dusk beyond",
+   "kind": "CAD render in a setting",
+   "finish": "white",
+   "aperture": "f/1.4",
+   "background": "generated empty setting: terrace view to the sea at dusk (backdrop, defocused); white-oak soffit: generated surface texture",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-b-white-oak-soffit-sea-dusk.jpg",
+   "thumb": "images/review/thumb/pr-b-white-oak-soffit-sea-dusk.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending"
+  },
+  {
+   "id": "pr-b-white-oak-soffit-garden",
+   "title": "Series II Select 6 kW white on its short ceiling post, tilted 25 degrees on its bracket, white-oak soffit, garden foliage beyond",
+   "kind": "CAD render in a setting",
+   "finish": "white",
+   "aperture": "f/1.4",
+   "background": "generated empty setting: garden foliage (backdrop, defocused); white-oak soffit: generated surface texture",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-b-white-oak-soffit-garden.jpg",
+   "thumb": "images/review/thumb/pr-b-white-oak-soffit-garden.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending"
+  },
+  {
+   "id": "pr-b-white-oak-soffit-concrete-courtyard",
+   "title": "Series II Select 6 kW white on its short ceiling post, tilted 25 degrees on its bracket, white-oak soffit, concrete courtyard at dusk beyond",
+   "kind": "CAD render in a setting",
+   "finish": "white",
+   "aperture": "f/1.4",
+   "background": "generated empty setting: board-formed concrete courtyard at dusk (backdrop, defocused); white-oak soffit: generated surface texture",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-b-white-oak-soffit-concrete-courtyard.jpg",
+   "thumb": "images/review/thumb/pr-b-white-oak-soffit-concrete-courtyard.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending"
+  },
+  {
+   "id": "pr-b-white-oak-soffit-string-lights",
+   "title": "Series II Select 6 kW white on its short ceiling post, tilted 25 degrees on its bracket, white-oak soffit, string lights at blue hour beyond",
+   "kind": "CAD render in a setting",
+   "finish": "white",
+   "aperture": "f/1.4",
+   "background": "generated empty setting: courtyard with festoon lights at blue hour (backdrop, defocused); white-oak soffit: generated surface texture",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/pr-b-white-oak-soffit-string-lights.jpg",
+   "thumb": "images/review/thumb/pr-b-white-oak-soffit-string-lights.webp",
+   "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
+   "status": "pending"
   }
  ]
 }
