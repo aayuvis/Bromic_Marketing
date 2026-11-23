@@ -280,3 +280,4 @@ decision · the rule it adds. The QC agent checks every rule here.
   - No colour cast on ceilings (forest loggia: "why is the ceiling pink?"). White scenes use white heaters.
   - Recessed close-ups: no dent or curve at the heater's corner edge (the CAD outlet-end opening must be closed or hidden).
   - Studio: no dark sweep for graphite ("make background lighter") or white; a white trio as well as the black.
+- 22 Nov (owner): the white oak-soffit close-ups were "great image" but "this should be f8 image". Product-in-setting shots like these are made at f/8: the heater sharp, the setting readable, the background gently soft.

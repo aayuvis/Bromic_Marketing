@@ -2443,9 +2443,13 @@
    "file": "images/review/full/pr-c-white-recessed-pair-oak-pavilion-lounge-dusk.jpg",
    "thumb": "images/review/thumb/pr-c-white-recessed-pair-oak-pavilion-lounge-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
+   "status": "rejected",
    "redo": "v3: logo upright",
-   "previous_note": "what is the color streak between the rc kit and heaters. (it should be gray. ....the logo is not visible...the heaters should be further away.."
+   "previous_note": "what is the color streak between the rc kit and heaters. (it should be gray. ....the logo is not visible...the heaters should be further away..",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true,
+   "note": "logo on heaters?"
   },
   {
    "id": "pr-d-recess-white-beadboard-logo-f1-4",
@@ -2588,9 +2592,13 @@
    "file": "images/review/full/pr-c-white-recessed-pair-desert-kitchen-bar-sunset.jpg",
    "thumb": "images/review/thumb/pr-c-white-recessed-pair-desert-kitchen-bar-sunset.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
+   "status": "rejected",
    "redo": "v2: cavity neutral, logo visible, pair further back over the seats",
-   "previous_note": "what is the color streak between the rc kit and heaters. it should be gray."
+   "previous_note": "what is the color streak between the rc kit and heaters. it should be gray.",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true,
+   "note": "logo?"
   },
   {
    "id": "pr-c-graphite-recessed-pair-cedar-garden-dining-dusk",
@@ -2636,10 +2644,12 @@
    "file": "images/review/full/pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk.jpg",
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
+   "status": "approved",
    "redo": "v3: logo upright",
    "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
-   "review_note": "Logo upright but too far from the camera to read (about 8 m). Fix options: move the pair closer, turn it diagonal, or accept."
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-a-black-trio-row-light",
@@ -2715,9 +2725,13 @@
    "h": 2560,
    "file": "images/review/full/pr-d-cedar-dining-white-recessed-pair.jpg",
    "thumb": "images/review/thumb/pr-d-cedar-dining-white-recessed-pair.webp",
-   "status": "pending",
+   "status": "rejected",
    "redo": "v3: logo upright",
-   "previous_note": "replaces pr-bg-white-ceiling-cedar-dining-f14 (owner: mounting looked unreal); attempt 3 after pr-d-cedar-dining-graphite-recessed-f14"
+   "previous_note": "replaces pr-bg-white-ceiling-cedar-dining-f14 (owner: mounting looked unreal); attempt 3 after pr-d-cedar-dining-graphite-recessed-f14",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true,
+   "note": "logo on heaters...banner"
   },
   {
    "id": "pr-d-recess-black-timber-logo-f1-4",
@@ -3071,10 +3085,13 @@
    "file": "images/review/full/pr-c-white-recessed-pair-oak-pavilion-lounge-dusk.jpg",
    "thumb": "images/review/thumb/pr-c-white-recessed-pair-oak-pavilion-lounge-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
-   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly.",
+   "status": "rejected",
    "redo": "v2: cavity neutral, logo visible, pair further back over the seats",
-   "previous_note": "what is the color streak between the rc kit and heaters. (it should be gray. ....the logo is not visible...the heaters should be further away.."
+   "previous_note": "what is the color streak between the rc kit and heaters. (it should be gray. ....the logo is not visible...the heaters should be further away..",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true,
+   "note": "logo on heaters?"
   },
   {
    "id": "pr-c-white-recessed-pair-desert-kitchen-bar-sunset",
@@ -3088,9 +3105,13 @@
    "file": "images/review/full/pr-c-white-recessed-pair-desert-kitchen-bar-sunset.jpg",
    "thumb": "images/review/thumb/pr-c-white-recessed-pair-desert-kitchen-bar-sunset.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
+   "status": "rejected",
    "redo": "v2: cavity neutral, logo visible, pair further back over the seats",
-   "previous_note": "what is the color streak between the rc kit and heaters. it should be gray."
+   "previous_note": "what is the color streak between the rc kit and heaters. it should be gray.",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true,
+   "note": "logo?"
   },
   {
    "id": "pr-c-black-recessed-pair-city-balcony-night-system-a2",
@@ -3339,10 +3360,12 @@
    "file": "images/review/full/pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk.jpg",
    "thumb": "images/review/thumb/pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending",
+   "status": "approved",
    "redo": "v2: cavity neutral, logo visible, pair further back over the seats",
    "previous_note": "what is the color streak between the rc kit and heaters. (it should be black. ....the logo is not visible...the heaters should be further away..",
-   "review_note": "Logo upright but too far from the camera to read (about 8 m). Fix options: move the pair closer, turn it diagonal, or accept."
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true
   },
   {
    "id": "pr-c-white-recessed-pair-forest-loggia-lounge-evening",
@@ -3372,14 +3395,17 @@
    "format": "3:2",
    "background": "generated plate (no heater, no people, no lettering): covered terrace with cedar-board ceiling about 2.4 m, dining table for eight, garden at dusk (same plate and solved camera as pr-bg-white-ceiling-cedar-dining-f14)",
    "source": "CAD: '6kW heater and recess kit' (Series II 6 kW) in the LC kit trim as published (1,624 x 283 mm, vents at both ends; the same build as the owner-approved pr-bg-black-recess-kit-plaster-ceiling), owner-approved studio white. Two kits side by side and parallel, long axis with the boards running into the scene, 1.2 m centre to centre (about 0.9 m between kits), together centred on the table. The heater sits 25 mm up inside the kit so its cover stays inside the frame. Rendered in Blender (Cycles, 20 samples, OpenImageDenoise), composited by the content team; elements at a low warm glow (two thin lines through the grille, no spill on the cedar); housing graded to the shaded ceiling.",
-   "review_note": "Being re-rendered: the logo on the near heater reads upside down. An upright version replaces this shortly.",
    "w": 3840,
    "h": 2560,
    "file": "images/review/full/pr-d-cedar-dining-white-recessed-pair.jpg",
    "thumb": "images/review/thumb/pr-d-cedar-dining-white-recessed-pair.webp",
-   "status": "pending",
+   "status": "rejected",
    "redo": "v2: 1.6 m apart side by side and parallel over the table, near end-cap logo, neutral grey cavity, tight crop, low glow",
-   "previous_note": "replaces pr-bg-white-ceiling-cedar-dining-f14 (owner: mounting looked unreal); attempt 3 after pr-d-cedar-dining-graphite-recessed-f14"
+   "previous_note": "replaces pr-bg-white-ceiling-cedar-dining-f14 (owner: mounting looked unreal); attempt 3 after pr-d-cedar-dining-graphite-recessed-f14",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true,
+   "note": "logo on heaters...banner"
   },
   {
    "id": "pr-a-3kw-white-logo-34-light",
@@ -3480,12 +3506,13 @@
    "file": "images/review/full/pr-c-white-recessed-pair-oak-pavilion-lounge-dusk.jpg",
    "thumb": "images/review/thumb/pr-c-white-recessed-pair-oak-pavilion-lounge-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "approved",
+   "status": "rejected",
    "redo": "v3: logo upright",
    "previous_note": "what is the color streak between the rc kit and heaters. (it should be gray. ....the logo is not visible...the heaters should be further away..",
    "decided": "2026-11-22",
    "decided_by": "owner",
-   "learned": true
+   "learned": true,
+   "note": "logo on heaters?"
   },
   {
    "id": "pr-c-graphite-recessed-pair-plaster-loggia-lounge-dusk",
@@ -3519,12 +3546,13 @@
    "h": 2560,
    "file": "images/review/full/pr-d-cedar-dining-white-recessed-pair.jpg",
    "thumb": "images/review/thumb/pr-d-cedar-dining-white-recessed-pair.webp",
-   "status": "approved",
+   "status": "rejected",
    "redo": "v3: logo upright",
    "previous_note": "replaces pr-bg-white-ceiling-cedar-dining-f14 (owner: mounting looked unreal); attempt 3 after pr-d-cedar-dining-graphite-recessed-f14",
    "decided": "2026-11-22",
    "decided_by": "owner",
-   "learned": true
+   "learned": true,
+   "note": "logo on heaters...banner"
   },
   {
    "id": "pr-a-graphite-logo-34-light",
@@ -3569,7 +3597,11 @@
    "file": "images/review/full/pr-b-white-oak-soffit-sea-dusk.jpg",
    "thumb": "images/review/thumb/pr-b-white-oak-soffit-sea-dusk.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true,
+   "note": "this should be f8 image...great image"
   },
   {
    "id": "pr-b-white-oak-soffit-garden",
@@ -3583,7 +3615,11 @@
    "file": "images/review/full/pr-b-white-oak-soffit-garden.jpg",
    "thumb": "images/review/thumb/pr-b-white-oak-soffit-garden.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true,
+   "note": "this should be f8 image...great image"
   },
   {
    "id": "pr-b-white-oak-soffit-concrete-courtyard",
@@ -3597,7 +3633,11 @@
    "file": "images/review/full/pr-b-white-oak-soffit-concrete-courtyard.jpg",
    "thumb": "images/review/thumb/pr-b-white-oak-soffit-concrete-courtyard.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true,
+   "note": "this should be f8 image...great image"
   },
   {
    "id": "pr-b-white-oak-soffit-string-lights",
@@ -3611,7 +3651,11 @@
    "file": "images/review/full/pr-b-white-oak-soffit-string-lights.jpg",
    "thumb": "images/review/thumb/pr-b-white-oak-soffit-string-lights.webp",
    "source": "CAD: cad/tungsten-select (Series II, owner-approved studio materials); built and rendered in Blender, composited by the content team",
-   "status": "pending"
+   "status": "rejected",
+   "decided": "2026-11-22",
+   "decided_by": "owner",
+   "learned": true,
+   "note": "this should be f8 image...great image"
   },
   {
    "id": "pr-a-white-logo-34-warm-grey",
