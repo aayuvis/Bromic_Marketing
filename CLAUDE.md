@@ -107,7 +107,7 @@ before/after point and never repeat the source printed under the headline number
 `data/image-review.json` (`approvalsPage()` in app.js); files in `images/review/full/` (JPEG, full size) and `thumb/` (webp).
 Approve or reject per image, then **Save**: with the editor's GitHub token it commits the statuses to `data/image-review.json`
 (the publish workflow rebuilds the Hub); without one it opens an `[Image approval]` issue to apply. Each build zips the approved
-files to `review/approved-N.zip`, parts of at most 80 MB ("Download approved", one button per part; GitHub Pages refuses files over 95 MB). New generated images go here first, `status: pending`, with what
+files that are also ticked **Mark for download** (owner, 25 Nov 2026: "not all approved images must go in the download folder"; `download: true`, own tab) to `review/approved-N.zip`, parts of at most 80 MB ("Download marked", one button per part; GitHub Pages refuses files over 95 MB). New generated images go here first, `status: pending`, with what
 the background is (real photo or generated) and the finish. Approved images still enter `images/library` as `generated` before use.
 Rules for making them: [cad/CAD-TO-REAL-REQUIREMENTS.md](cad/CAD-TO-REAL-REQUIREMENTS.md); QC agent `.claude/agents/tungsten-render-qc.md`.
 Each card has a comment box; a rejection needs a reason (saved as `note`, with `decided` date).

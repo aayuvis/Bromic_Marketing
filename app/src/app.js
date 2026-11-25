@@ -1328,23 +1328,28 @@
   let apF = 'pending';
   const apSet = {}; // local decisions not yet saved (kept in the decisions lock, so a refresh keeps them)
   const apNote = {}; // local comments not yet saved
+  const apDl = {}; // local 'mark for download' ticks not yet saved
+  for (const [k, d] of Object.entries(dec)) if (k.startsWith('dl:') && !d.sent) apDl[k.slice(3)] = !!d.v;
   for (const [k, d] of Object.entries(dec)) if (k.startsWith('img:') && !d.sent) { const id = k.slice(4); if (d.s && d.s !== imgOf(id)?.status) apSet[id] = d.s; if (d.n != null) apNote[id] = d.n; }
   const apKeep = (id) => { if (apSet[id] == null && apNote[id] == null) delete dec['img:' + id]; else dec['img:' + id] = { s: apSet[id] || imgOf(id)?.status, n: apNote[id] ?? null, sent: false }; decSave(); };
-  const apSent = (ids) => { for (const id of ids) { const r = imgOf(id); dec['img:' + id] = { s: apSet[id] || r?.status, n: apNote[id] ?? null, sent: true }; if (r) { if (apSet[id]) r.status = apSet[id]; if (apNote[id] != null) r.note = apNote[id]; } delete apSet[id]; delete apNote[id]; } decSave(); };
+  const apDlKeep = (id) => { const o = !!imgOf(id)?.download; if (apDl[id] == null || apDl[id] === o) { delete apDl[id]; delete dec['dl:' + id]; } else dec['dl:' + id] = { v: apDl[id], sent: false }; decSave(); };
+  const apDlOn = (r) => (apDl[r.id] ?? !!r.download) && r.status === 'approved';
+  const apSent = (ids) => { for (const id of ids) if (apDl[id] != null) { const r = imgOf(id); if (r) r.download = apDl[id]; dec['dl:' + id] = { v: apDl[id], sent: true }; delete apDl[id]; }
+    for (const id of ids) { const r = imgOf(id); dec['img:' + id] = { s: apSet[id] || r?.status, n: apNote[id] ?? null, sent: true }; if (r) { if (apSet[id]) r.status = apSet[id]; if (apNote[id] != null) r.note = apNote[id]; } delete apSet[id]; delete apNote[id]; } decSave(); };
   function approvalsPage() {
     const all = (HUB.review || []).map((r) => ({ ...r, status: apSet[r.id] || r.status })).reverse();  // newest first
     if (!all.length) return '<div class="empty">No generated images waiting.</div>';
-    const isRedo = (r) => r.status === 'pending' && !!r.redo, n = (s) => s === 'redo' ? all.filter(isRedo).length : all.filter((r) => r.status === s && !(s === 'pending' && isRedo(r))).length, show = apF === 'all' ? all : apF === 'redo' ? all.filter(isRedo) : all.filter((r) => r.status === apF && !(apF === 'pending' && isRedo(r)));
+    const isRedo = (r) => r.status === 'pending' && !!r.redo, n = (s) => s === 'download' ? all.filter(apDlOn).length : s === 'redo' ? all.filter(isRedo).length : all.filter((r) => r.status === s && !(s === 'pending' && isRedo(r))).length, show = apF === 'all' ? all : apF === 'download' ? all.filter(apDlOn) : apF === 'redo' ? all.filter(isRedo) : all.filter((r) => r.status === apF && !(apF === 'pending' && isRedo(r)));
     apShown = show.map((r) => r.id);
-    const dirty = new Set([...Object.keys(apSet), ...Object.keys(apNote)]).size, okSaved = (HUB.review || []).filter((r) => r.status === 'approved').length;
+    const dirty = new Set([...Object.keys(apSet), ...Object.keys(apNote), ...Object.keys(apDl)]).size, okSaved = (HUB.review || []).filter((r) => r.status === 'approved' && r.download).length;
     return `<div class="rt-head"><span class="label">Image Approvals</span><h1>Generated Images and Videos Awaiting Approval</h1>
       <p class="muted">Tungsten Series II images made for the content team: the heater is rendered from the Series II CAD; backgrounds are either Bromic installation photos or generated scenes, as each card says. Approve or reject each one, then save. Approved images can be downloaded as one zip.</p></div>
-      <div class="ap-bar"><div class="ap-f">${[['pending', 'Waiting'], ['redo', 'Redone for your notes'], ['approved', 'Approved'], ['rejected', 'Rejected'], ['all', 'All']].map(([k, t]) => `<button class="${apF === k ? 'on' : ''}" data-apf="${k}">${t} <span>${k === 'all' ? all.length : n(k)}</span></button>`).join('')}</div>
-        <div class="ap-act"><button class="btn primary" data-apcopy title="Copies every approve, reject and comment so you can paste it to the content team">Send decisions to the content team</button>${dirty ? `<button class="btn primary" data-apsave>Save ${dirty} ${dirty === 1 ? 'decision' : 'decisions'}</button>` : ''}${okSaved ? ((HUB.approvedZips || []).length > 1 ? `<span class="muted">Download approved (${okSaved}):</span> ${(HUB.approvedZips || []).map((z, i) => `<a class="btn" href="${esc(z.href)}" download>Part ${i + 1} (${z.n})</a>`).join(' ')}` : `<a class="btn" href="${esc(((HUB.approvedZips || [])[0] || {}).href || 'review/approved-1.zip')}" download>Download approved (${okSaved}) as zip</a>`) : '<span class="muted">Nothing approved and saved yet.</span>'}</div></div>
+      <div class="ap-bar"><div class="ap-f">${[['pending', 'Waiting'], ['redo', 'Redone for your notes'], ['approved', 'Approved'], ['download', 'Marked for download'], ['rejected', 'Rejected'], ['all', 'All']].map(([k, t]) => `<button class="${apF === k ? 'on' : ''}" data-apf="${k}">${t} <span>${k === 'all' ? all.length : n(k)}</span></button>`).join('')}</div>
+        <div class="ap-act"><button class="btn primary" data-apcopy title="Copies every approve, reject and comment so you can paste it to the content team">Send decisions to the content team</button>${dirty ? `<button class="btn primary" data-apsave>Save ${dirty} ${dirty === 1 ? 'decision' : 'decisions'}</button>` : ''}${okSaved ? ((HUB.approvedZips || []).length > 1 ? `<span class="muted">Download marked (${okSaved}):</span> ${(HUB.approvedZips || []).map((z, i) => `<a class="btn" href="${esc(z.href)}" download>Part ${i + 1} (${z.n})</a>`).join(' ')}` : `<a class="btn" href="${esc(((HUB.approvedZips || [])[0] || {}).href || 'review/approved-1.zip')}" download>Download marked (${okSaved}) as zip</a>`) : '<span class="muted">Nothing marked for download yet: approve an image, tick Mark for download, then save.</span>'}</div></div>
       <div class="ap-grid">${show.map((r) => `<figure class="ap-card st-${r.status}">${r.video ? `<video controls preload="none" playsinline poster="${esc(r.thumb)}" src="${esc(r.file)}"></video>` : `<a href="${esc(r.file)}" data-aplb="${esc(r.id)}" title="Open full screen: arrows to move, A approve, R reject"><img loading="lazy" src="${esc(r.thumb)}" alt="${esc(r.title)}"></a>`}
         <figcaption><b>${esc(r.title)}</b><small>${esc(r.kind)} · ${esc(r.finish)} · ${r.w}×${r.h}</small>${r.redo && r.status === 'pending' ? `<small class="ap-note">Redone: ${esc(r.redo)}</small>` : ''}${r.note ? `<small class="ap-note">${esc(r.note)}</small>` : ''}
         <textarea class="ap-c" data-apnote="${esc(r.id)}" rows="2" placeholder="${r.status === 'rejected' ? 'Why not? (required)' : 'Comment (optional): what works, what to change'}">${esc(apNote[r.id] ?? r.note ?? '')}</textarea>
-        <span class="ap-btns"><button data-apset="${esc(r.id)}|approved" aria-pressed="${r.status === 'approved'}">Approve</button><button data-apset="${esc(r.id)}|rejected" aria-pressed="${r.status === 'rejected'}">Reject</button><a href="${esc(r.file)}" download>Full size</a></span></figcaption></figure>`).join('') || '<p class="muted">Nothing here.</p>'}</div>`;
+        <span class="ap-btns"><button data-apset="${esc(r.id)}|approved" aria-pressed="${r.status === 'approved'}">Approve</button><button data-apset="${esc(r.id)}|rejected" aria-pressed="${r.status === 'rejected'}">Reject</button><a href="${esc(r.file)}" download>Full size</a></span>${r.status === 'approved' ? `<label class="ap-dl"><input type="checkbox" data-apdl="${esc(r.id)}"${(apDl[r.id] ?? !!r.download) ? ' checked' : ''}> Mark for download</label>` : ''}</figcaption></figure>`).join('') || '<p class="muted">Nothing here.</p>'}</div>`;
   }
   // ---------- full-screen viewer: ← → to move, A approve, R reject (a reason is asked for), Esc to close ----------
   let apShown = [];
@@ -1392,30 +1397,30 @@
     el.requestFullscreen?.().catch(() => {});
   }
   function apDecisionsText() {  // every decision made in this browser that the published data does not carry yet, as plain text to paste
-    const rows = (HUB.review || []).map((r) => { const d = dec['img:' + r.id]; const st = apSet[r.id] || (d && d.s); const n = apNote[r.id] ?? (d && d.n); return st && st !== 'pending' || n ? `${r.id} (${r.title}): ${st || r.status}${n ? ' – ' + String(n).replace(/\n/g, ' ') : ''}` : null; }).filter(Boolean);
+    const rows = (HUB.review || []).map((r) => { const d = dec['img:' + r.id]; const st = apSet[r.id] || (d && d.s); const n = apNote[r.id] ?? (d && d.n); const dl = apDl[r.id]; return st && st !== 'pending' || n || dl != null ? `${r.id} (${r.title}): ${st || r.status}${dl != null ? (dl ? ' [download]' : ' [no download]') : ''}${n ? ' – ' + String(n).replace(/\n/g, ' ') : ''}` : null; }).filter(Boolean);
     return rows.length ? 'Image Approvals decisions\n' + rows.join('\n') : '';
   }
   async function apSave() {
     const R = HUB.repo, tokRaw = (() => { try { return localStorage.getItem('bromic-hub-gh') || sessionStorage.getItem('bromic-hub-gh'); } catch { return null; } })();
-    const tok = tokRaw ? JSON.parse(tokRaw) : null, ids = [...new Set([...Object.keys(apSet), ...Object.keys(apNote)])];
+    const tok = tokRaw ? JSON.parse(tokRaw) : null, ids = [...new Set([...Object.keys(apSet), ...Object.keys(apNote), ...Object.keys(apDl)])];
     const stOf = (id) => apSet[id] || ((HUB.review || []).find((r) => r.id === id) || {}).status;
     const missing = ids.filter((id) => stOf(id) === 'rejected' && !(apNote[id] ?? ((HUB.review || []).find((r) => r.id === id) || {}).note ?? '').trim());
     if (missing.length) { toast('Add a reason for each rejected image before saving.'); return; }
-    const list = ids.map((id) => [id, stOf(id), apNote[id]]);
+    const list = ids.map((id) => [id, stOf(id), apNote[id], apDl[id]]);
     if (tok) {
       try {
         const api = `https://api.github.com/repos/${R.owner}/${R.name}/contents/data/image-review.json`, h = { Authorization: `Bearer ${tok}`, Accept: 'application/vnd.github+json' };
         const g = await fetch(`${api}?ref=${encodeURIComponent(R.branch)}`, { headers: h }); if (!g.ok) throw new Error('GitHub said ' + g.status);
         const cur = await g.json(), doc = JSON.parse(new TextDecoder().decode(Uint8Array.from(atob(cur.content.replace(/\n/g, '')), (c) => c.charCodeAt(0))));
-        doc.items.forEach((it) => { if (apSet[it.id]) it.status = apSet[it.id]; if (apNote[it.id] != null) { it.note = apNote[it.id]; it.decided = new Date().toISOString().slice(0, 10); } });
+        doc.items.forEach((it) => { if (apDl[it.id] != null) it.download = apDl[it.id]; if (apSet[it.id]) it.status = apSet[it.id]; if (apNote[it.id] != null) { it.note = apNote[it.id]; it.decided = new Date().toISOString().slice(0, 10); } });
         const txt = JSON.stringify(doc, null, 1) + '\n', u = new TextEncoder().encode(txt); let bin = ''; for (let i = 0; i < u.length; i += 0x8000) bin += String.fromCharCode(...u.subarray(i, i + 0x8000));
         const p = await fetch(api, { method: 'PUT', headers: { ...h, 'Content-Type': 'application/json' }, body: JSON.stringify({ message: `Hub edit: image approvals (${list.length})`, content: btoa(bin), sha: cur.sha, branch: R.branch }) });
         if (!p.ok) throw new Error('GitHub said ' + p.status);
         apSent(ids);
-        toast('Saved. The zip of approved images updates in about three minutes.'); route.keepScroll = true; route(); return;
+        toast('Saved. The download zip updates in about three minutes.'); route.keepScroll = true; route(); return;
       } catch (err) { toast(String(err.message || err) + ' Opening an issue instead.'); }
     }
-    const body = `<!-- bromic-image-approval v1 -->\n` + list.map(([id, s, n]) => `${id}: ${s}${n ? ' — ' + n.replace(/\n/g, ' ') : ''}`).join('\n') + `\n\nApply to data/image-review.json.`;
+    const body = `<!-- bromic-image-approval v1 -->\n` + list.map(([id, s, n, dl]) => `${id}: ${s}${dl != null ? (dl ? ' [download]' : ' [no download]') : ''}${n ? ' — ' + n.replace(/\n/g, ' ') : ''}`).join('\n') + `\n\nApply to data/image-review.json.`;
     let url = `https://github.com/${R.owner}/${R.name}/issues/new?labels=edit&title=${encodeURIComponent('[Image approval] ' + list.length + ' decisions')}&body=${encodeURIComponent(body)}`;
     if (url.length > 6000) {  // GitHub refuses long links ("Whoops, something went wrong"): open a short form and put the full list on the clipboard
       try { navigator.clipboard && navigator.clipboard.writeText(body); } catch {}
@@ -1557,6 +1562,7 @@
     const apf = e.target.closest('[data-apf]'); if (apf) { apF = apf.dataset.apf; route.keepScroll = true; route(); return; }
     const aps = e.target.closest('[data-apset]'); if (aps) { const [id, st] = aps.dataset.apset.split('|'); const orig = (HUB.review || []).find((r) => r.id === id); if (apSet[id] === st || (!apSet[id] && orig && orig.status === st)) delete apSet[id]; else apSet[id] = st; if (orig && apSet[id] === orig.status) delete apSet[id]; apKeep(id); route.keepScroll = true; route(); return; }
     if (e.target.closest('[data-apsave]')) { apSave(); return; }
+    const apd = e.target.closest('[data-apdl]'); if (apd) { apDl[apd.dataset.apdl] = apd.checked; apDlKeep(apd.dataset.apdl); route.keepScroll = true; route(); return; }
     if (e.target.closest('[data-apcopy]')) {
       const t = apDecisionsText();
       if (!t) { toast('No decisions yet: approve or reject an image first.'); return; }

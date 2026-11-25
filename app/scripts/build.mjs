@@ -302,7 +302,7 @@ fs.copyFileSync(path.join(APP, 'node_modules', 'marked', 'marked.min.js'), path.
   const ix = path.join(DIST, 'index.html');
   fs.writeFileSync(ix, fs.readFileSync(ix, 'utf8').replace(/(src|href)="(app\.js|data\.js|styles\.css|editor\.js)"/g, `$1="$2?v=${v}"`)); }
 // The approved set downloads as zips of at most ~80 MB each (GitHub Pages refuses files over 95 MB; owner approvals grew past it, 22 Nov 2026).
-const ZIP_PARTS = (() => { const ok = (HUB.review || []).filter((r) => r.status === 'approved' && !r.video && fs.existsSync(path.join(ROOT, r.file)));
+const ZIP_PARTS = (() => { const ok = (HUB.review || []).filter((r) => r.status === 'approved' && r.download && !r.video && fs.existsSync(path.join(ROOT, r.file)));
   const parts = []; let cur = [], sz = 0;
   for (const r of ok) { const b = fs.statSync(path.join(ROOT, r.file)).size; if (cur.length && sz + b > 80e6) { parts.push(cur); cur = []; sz = 0; } cur.push(r.file); sz += b; }
   if (cur.length) parts.push(cur); return parts; })();
