@@ -6337,7 +6337,7 @@
    "finish": "white",
    "aperture": "f/8",
    "background": "White painted plaster ceiling rendered in 3D in Blender (photographed plaster texture as surface detail and bump, no lettering), lit by daylight from one open side with natural falloff; ceiling 3.15 m, camera at 1.6 m; recess kit trim 1,624 x 283 mm sitting on the ceiling face with vents at both ends, grey cavity",
-   "source": "CAD: cad/tungsten-select (Series II, 6kW heater and recess kit); rendered in Blender as a Hasselblad X2D II shoot (XCD 38 mm-equivalent framing, 40 mm), ISO 100, f/8, 1/200 s strobe, custom WB; composited by the content team",
+   "source": "CAD: cad/tungsten-select (Series II, 6kW heater and recess kit); rendered in Blender as a Hasselblad X2D II shoot (XCD 38 mm), ISO 100, f/8, 1/200 s strobe, custom WB; composited by the content team",
    "w": 3840,
    "h": 2560,
    "file": "images/review/full/ps2-white-recessed-plaster.jpg",
