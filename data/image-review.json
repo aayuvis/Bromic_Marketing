@@ -6209,7 +6209,7 @@
    "file": "images/review/full/ps2-graphite-34-studio.jpg",
    "thumb": "images/review/thumb/ps2-graphite-34-studio.webp",
    "status": "pending",
-   "review_note": "Being re-rendered: the glow must be a uniform warm orange behind the grille, not white, with the elements brighter and sized from Bromic photos (owner, 25 Nov)."
+   "redo": "Re-rendered 25 Nov: orange glow, real-size elements, one key light"
   }
  ]
 }
