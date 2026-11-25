@@ -6171,13 +6171,13 @@
    "format": "3:2",
    "background": "rendered: seamless light-grey studio sweep (the wall plane behind the bracket), one key softbox casting a single soft shadow down-right; nothing generated",
    "source": "CAD: cad/tungsten-select (Series II, 6 kW, angled wall bracket); rendered in Blender as a Hasselblad X2D II studio shoot, ISO 100, f/9, 1/200 s strobe, custom WB; composited by the content team",
-   "note": "Camera emulated: Hasselblad X2D II 100C, XCD 90 mm framing, Manual, ISO 100, f/9, 1/200 s at strobe sync; key 90 cm softbox top-left, weak fill, two strip rims (no shadows); custom WB from the sweep (210.7/210.7/210.7 neutral); faint MF grain, slight vignette. Coil tails outside the reflector unlit.",
+   "note": "Camera emulated: Hasselblad X2D II 100C, XCD 90 mm framing, Manual, ISO 100, f/9, 1/200 s at strobe sync; one 90 cm key softbox top-left (single soft shadow down-right), weak fill, two strip rims without shadows; custom WB from the sweep (210.7/210.7/210.7). Re-rendered 25 Nov at 3840 native, 48 samples, with the owner's glow (uniform orange-red reflector, brighter 16 mm element cores, tails dark). Element end hardware faintly visible inside the grille ends.",
    "w": 3840,
    "h": 2560,
    "file": "images/review/full/ps2-black-34-studio.jpg",
    "thumb": "images/review/thumb/ps2-black-34-studio.webp",
    "status": "pending",
-   "review_note": "Being re-rendered: the glow must be a uniform warm orange behind the grille, not white, with the elements brighter and sized from Bromic photos (owner, 25 Nov)."
+   "redo": "Re-rendered 25 Nov: orange glow, real-size elements, one key light"
   },
   {
    "id": "ps2-black-recessed-pine",
