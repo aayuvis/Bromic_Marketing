@@ -6159,7 +6159,8 @@
    "h": 2560,
    "file": "images/review/full/ps2-graphite-recessed-board-formed-concrete.jpg",
    "thumb": "images/review/thumb/ps2-graphite-recessed-board-formed-concrete.webp",
-   "status": "pending"
+   "status": "pending",
+   "review_note": "Being redone: the recess trim must sit on the ceiling face, not be sunk into it (owner, 25 Nov)."
   },
   {
    "id": "ps2-black-34-studio",
@@ -6192,7 +6193,7 @@
    "file": "images/review/full/ps2-black-recessed-pine.jpg",
    "thumb": "images/review/thumb/ps2-black-recessed-pine.webp",
    "status": "pending",
-   "review_note": "Re-render coming: element tails near-black and the kit aligned exactly with the boards."
+   "review_note": "Being redone: the recess trim must sit on the ceiling face, not be sunk into it (owner, 25 Nov)."
   }
  ]
 }
