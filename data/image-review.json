@@ -6240,6 +6240,22 @@
    "file": "images/review/full/ps2-white-right-product.jpg",
    "thumb": "images/review/thumb/ps2-white-right-product.webp",
    "status": "pending"
+  },
+  {
+   "id": "ps2-black-low34-studio",
+   "title": "Series II 6 kW, black, ceiling bracket on its short post, seen from below, grille and logo end, elements on, light-grey studio sweep",
+   "kind": "Product studio shot",
+   "finish": "black",
+   "aperture": "f/9",
+   "format": "3:2",
+   "background": "rendered: seamless light-grey studio sweep as the ceiling plane the post mounts to, one key softbox casting a single soft shadow; nothing generated",
+   "source": "CAD: cad/tungsten-select (Series II, 6 kW, ceiling bracket on the short post); rendered in Blender as a Hasselblad X2D II studio shoot, ISO 100, f/9, 1/200 s strobe, custom WB; composited by the content team",
+   "note": "Camera emulated: Hasselblad X2D II 100C, XCD 90 mm framing, Manual, ISO 100, f/9, 1/200 s at strobe sync, custom WB from the sweep (211.7/211.7/211.7). Native 3840x2560, 48 samples. BROMIC upright on the lower end cap; owner glow (orange-red reflector, brighter element cores).",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/ps2-black-low34-studio.jpg",
+   "thumb": "images/review/thumb/ps2-black-low34-studio.webp",
+   "status": "pending"
   }
  ]
 }
