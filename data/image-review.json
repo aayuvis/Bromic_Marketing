@@ -6146,6 +6146,20 @@
    "h": 2560,
    "file": "images/review/full/hb-tungsten-gas-300-dining-plan.jpg",
    "thumb": "images/review/thumb/hb-tungsten-gas-300-dining-plan.webp"
+  },
+  {
+   "id": "ps2-graphite-recessed-board-formed-concrete",
+   "title": "Tungsten Smart-Heat Electric Series II Select 6 kW, graphite, recessed in the low-clearance recess kit in a board-formed concrete ceiling, seen from below",
+   "kind": "Product in recess",
+   "finish": "graphite",
+   "aperture": "f/8",
+   "background": "board-formed concrete ceiling: generated surface texture (no lettering) mapped through the render camera, desaturated to neutral grey, daylight falloff and lens defocus added in 2D; heater and recess kit (1,624 x 283 mm trim, vents at both ends, black cavity) are the CAD; boards run with the heater long axis",
+   "source": "CAD: cad/tungsten-select (Series II); rendered in Blender as a Hasselblad X2D II shoot, XCD 38 mm-class lens (40 mm), ISO 100, f/8, 1/200 s strobe, custom WB (ceiling greys measured neutral); composited by the content team",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/ps2-graphite-recessed-board-formed-concrete.jpg",
+   "thumb": "images/review/thumb/ps2-graphite-recessed-board-formed-concrete.webp",
+   "status": "pending"
   }
  ]
 }
