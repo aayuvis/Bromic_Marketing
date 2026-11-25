@@ -6270,6 +6270,22 @@
    "file": "images/review/full/ps2-graphite-right-product.jpg",
    "thumb": "images/review/thumb/ps2-graphite-right-product.webp",
    "status": "pending"
+  },
+  {
+   "id": "ps2-black-elevation-studio",
+   "title": "Series II 6 kW, black, wall bracket, straight front elevation, elements on, light-grey studio sweep",
+   "kind": "Product studio shot",
+   "finish": "black",
+   "aperture": "f/9",
+   "format": "3:2",
+   "background": "rendered: seamless light-grey studio sweep (the wall plane behind the bracket), one key softbox casting a single soft shadow down-right; nothing generated",
+   "source": "CAD: cad/tungsten-select (Series II, 6 kW, angled wall bracket); rendered in Blender as a Hasselblad X2D II studio shoot, ISO 100, f/9, 1/200 s strobe, custom WB; composited by the content team",
+   "note": "Camera emulated: Hasselblad X2D II 100C, XCD 90 mm framing, Manual, ISO 100, f/9, 1/200 s at strobe sync, custom WB from the sweep (210.9/210.9/210.9). Native 3840x2560, 48 samples. BROMIC reads bottom-to-top on the right end cap; owner glow (orange-red reflector, brighter element cores, cold ends dark).",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/ps2-black-elevation-studio.jpg",
+   "thumb": "images/review/thumb/ps2-black-elevation-studio.webp",
+   "status": "pending"
   }
  ]
 }
