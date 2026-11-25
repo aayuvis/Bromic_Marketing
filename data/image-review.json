@@ -6301,6 +6301,20 @@
    "file": "images/review/full/ps2-white-34-studio.jpg",
    "thumb": "images/review/thumb/ps2-white-34-studio.webp",
    "status": "pending"
+  },
+  {
+   "id": "ps2-graphite-low34-studio",
+   "title": "Tungsten Smart-Heat Electric Series II Select 6 kW, graphite, single short ceiling post, low three-quarter from below showing the grille and the logo end",
+   "kind": "Product studio shot",
+   "finish": "graphite",
+   "aperture": "f/9",
+   "background": "neutral light-grey seamless sweep, drawn (no texture or photo); the sweep is the ceiling the post is fixed to: one key softbox casts the single down-right shadow",
+   "source": "CAD: cad/tungsten-select (Series II); rendered in Blender as a Hasselblad X2D II studio shoot, XCD 90 mm, ISO 100, f/9, 1/200 s strobe, softbox key high camera-left with shadowless fill and strip rims, custom WB (sweep greys measured neutral); composited by the content team",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/ps2-graphite-low34-studio.jpg",
+   "thumb": "images/review/thumb/ps2-graphite-low34-studio.webp",
+   "status": "pending"
   }
  ]
 }
