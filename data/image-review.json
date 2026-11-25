@@ -6153,14 +6153,15 @@
    "kind": "Product in recess",
    "finish": "graphite",
    "aperture": "f/8",
-   "background": "board-formed concrete ceiling: generated surface texture (no lettering) mapped through the render camera, desaturated to neutral grey, daylight falloff and lens defocus added in 2D; heater and recess kit (1,624 x 283 mm trim, vents at both ends, black cavity) are the CAD; boards run with the heater long axis",
+   "background": "board-formed concrete ceiling: generated surface texture (no lettering) mapped through the render camera, desaturated to neutral grey, daylight falloff, lens defocus and a fine contact-shadow line along the trim added in 2D; heater and recess kit are the CAD, the kit trim flange (1,624 x 283 mm, 6 mm proud) sits on the soffit and covers the cut edge; vents at both ends, black cavity; boards run with the heater's long axis",
    "source": "CAD: cad/tungsten-select (Series II); rendered in Blender as a Hasselblad X2D II shoot, XCD 38 mm-class lens (40 mm), ISO 100, f/8, 1/200 s strobe, custom WB (ceiling greys measured neutral); composited by the content team",
    "w": 3840,
    "h": 2560,
    "file": "images/review/full/ps2-graphite-recessed-board-formed-concrete.jpg",
    "thumb": "images/review/thumb/ps2-graphite-recessed-board-formed-concrete.webp",
    "status": "pending",
-   "review_note": "Being re-rendered: the glow must be a uniform warm orange behind the grille, not white, with the elements brighter and sized from Bromic photos (owner, 25 Nov)."
+   "review_note": "Trim now sits on the ceiling, orange glow. Graphite reads a little lighter here than in the studio shots; a darker re-render is queued.",
+   "redo": "Re-rendered 25 Nov: trim on the ceiling, orange glow"
   },
   {
    "id": "ps2-black-34-studio",
