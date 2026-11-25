@@ -6194,6 +6194,20 @@
    "thumb": "images/review/thumb/ps2-black-recessed-pine.webp",
    "status": "pending",
    "review_note": "Being redone: the recess trim must sit on the ceiling face, not be sunk into it (owner, 25 Nov)."
+  },
+  {
+   "id": "ps2-graphite-34-studio",
+   "title": "Tungsten Smart-Heat Electric Series II Select 6 kW, graphite, wall bracket, front three-quarter with the logo end nearest",
+   "kind": "Product studio shot",
+   "finish": "graphite",
+   "aperture": "f/9",
+   "background": "neutral light-grey seamless sweep, drawn (no texture or photo); the sweep is the wall the bracket is fixed to: one key softbox casts the single down-right shadow",
+   "source": "CAD: cad/tungsten-select (Series II); rendered in Blender as a Hasselblad X2D II studio shoot, XCD 90 mm, ISO 100, f/9, 1/200 s strobe, softbox key high camera-left with shadowless fill and strip rims, custom WB (sweep greys measured neutral); composited by the content team",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/ps2-graphite-34-studio.jpg",
+   "thumb": "images/review/thumb/ps2-graphite-34-studio.webp",
+   "status": "pending"
   }
  ]
 }
