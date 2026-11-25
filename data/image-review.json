@@ -6357,6 +6357,20 @@
    "file": "images/review/full/ps2-white-low34-studio.jpg",
    "thumb": "images/review/thumb/ps2-white-low34-studio.webp",
    "status": "pending"
+  },
+  {
+   "id": "ps2-white-elev-studio",
+   "title": "Tungsten Smart-Heat Electric Series II 6 kW, white, wall-mounted, straight front elevation, logo upright at the right end, elements on",
+   "kind": "Product studio shot",
+   "finish": "white",
+   "aperture": "f/9",
+   "background": "Light neutral grey seamless sweep as the mounting wall (rendered shadow catcher on a composited studio backdrop); one key softbox high camera-left casting a single shadow down-right",
+   "source": "CAD: cad/tungsten-select (Series II); rendered in Blender as a Hasselblad X2D II studio shoot (XCD 90 mm), ISO 100, f/9, 1/200 s strobe, custom WB; composited by the content team",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/ps2-white-elev-studio.jpg",
+   "thumb": "images/review/thumb/ps2-white-elev-studio.webp",
+   "status": "pending"
   }
  ]
 }
