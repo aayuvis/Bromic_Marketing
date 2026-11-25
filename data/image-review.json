@@ -6188,13 +6188,13 @@
    "format": "3:2",
    "background": "generated surface texture: clear-finished knotty-pine T&G ceiling boards (~90 mm), mapped through the render camera with daylight falloff (no heater, no lettering in the texture)",
    "source": "CAD: cad/tungsten-select (Series II 6 kW, \"6kW heater and recess kit\") in the LC kit trim as published (1,624 x 283 mm, vents at both ends, black cavity); rendered in Blender as a Hasselblad X2D II shoot, ISO 100, f/8, 1/200 s, custom WB; composited by the content team",
-   "note": "Camera emulated: Hasselblad X2D II 100C, XCD 45 mm framing, Manual, ISO 100, f/8, 1/200 s; camera ~1.8 m below the soffit at ~40 deg; boards run with the heater long axis; BROMIC upright on the near end cap. Coil tails visible as dark springs at the ends (not glowing).",
+   "note": "Camera emulated: Hasselblad X2D II 100C, XCD 45 mm framing, Manual, ISO 100, f/8, 1/200 s, custom WB; camera ~1.8 m below the soffit at ~40 deg; boards run with the heater long axis (checked against a stripe texture); kit trim flange sits ON the soffit (6 mm proud, contact line), black cavity; uniform orange-red interior with brighter element cores; coil tails hidden; BROMIC upright on the near end cap. Re-rendered 25 Nov at 3840 native, 32 samples.",
    "w": 3840,
    "h": 2560,
    "file": "images/review/full/ps2-black-recessed-pine.jpg",
    "thumb": "images/review/thumb/ps2-black-recessed-pine.webp",
    "status": "pending",
-   "review_note": "Being re-rendered: the glow must be a uniform warm orange behind the grille, not white, with the elements brighter and sized from Bromic photos (owner, 25 Nov)."
+   "redo": "Re-rendered 25 Nov: trim sits on the ceiling, orange glow, element tails hidden"
   },
   {
    "id": "ps2-graphite-34-studio",
