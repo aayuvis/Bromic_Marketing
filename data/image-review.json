@@ -6210,6 +6210,22 @@
    "thumb": "images/review/thumb/ps2-graphite-34-studio.webp",
    "status": "pending",
    "redo": "Re-rendered 25 Nov: orange glow, real-size elements, one key light"
+  },
+  {
+   "id": "ps2-black-right-product",
+   "title": "Series II 6 kW, black, product only, seen from the right, logo end nearest, elements on, light-grey studio sweep",
+   "kind": "Product studio shot",
+   "finish": "black",
+   "aperture": "f/9",
+   "format": "3:2",
+   "background": "rendered: seamless light-grey studio sweep 25 cm behind the heater, one key softbox casting a single soft shadow down-right; nothing generated",
+   "source": "CAD: cad/tungsten-select (Series II, 6 kW, heater only, bracket removed); rendered in Blender as a Hasselblad X2D II studio shoot, ISO 100, f/9, 1/200 s strobe, custom WB; composited by the content team",
+   "note": "Camera emulated: Hasselblad X2D II 100C, XCD 90 mm framing, Manual, ISO 100, f/9, 1/200 s at strobe sync, custom WB from the sweep (211/211/211). Native 3840x2560, 48 samples. Glow per owner refs: uniform orange-red reflector, two 16 mm elements brightest (CAD dims), coil tails hidden; faint end-terminal hardware still visible just inside the grille ends.",
+   "w": 3840,
+   "h": 2560,
+   "file": "images/review/full/ps2-black-right-product.jpg",
+   "thumb": "images/review/thumb/ps2-black-right-product.webp",
+   "status": "pending"
   }
  ]
 }
