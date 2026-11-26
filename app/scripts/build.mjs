@@ -266,6 +266,9 @@ const trends = fs.existsSync(TRF) ? JSON.parse(fs.readFileSync(TRF, 'utf8')) : n
 // Visual guides (reports/planning-guide/<edition>/): replace an item's text PDF with the designed guide (data/visual-guides.json).
 const VGF = path.join(ROOT, 'data', 'visual-guides.json');
 const vguides = fs.existsSync(VGF) ? JSON.parse(fs.readFileSync(VGF, 'utf8')).guides : [];
+// White papers (reports/white-papers/<id>/, built by reports/white-papers/build.py): Letter page, images, cover and PDF (data/white-papers.json).
+const WPF = path.join(ROOT, 'data', 'white-papers.json');
+const wpapers = (fs.existsSync(WPF) ? JSON.parse(fs.readFileSync(WPF, 'utf8')).papers : []).filter((w) => fs.existsSync(path.join(ROOT, 'reports', w.dir, w.file + '.pdf')));
 // Designed editions (owner, 22 Nov 2026: modernise every asset with the agreed themes): reports/designed/<ID>/meta.json and
 // reports/designed/case-studies/index.json. Each PDF (and its cover thumb, when one exists) is published under dist/designed/.
 const designed = { items: {}, cases: {} };
@@ -280,7 +283,7 @@ const designed = { items: {}, cases: {} };
   if (fs.existsSync(cf)) { const j = JSON.parse(fs.readFileSync(cf, 'utf8')); for (const m of (Array.isArray(j) ? j : j.built || j.items || j.studies || [])) add(m, 'case'); } }
 const RVF = path.join(ROOT, 'data', 'image-review.json');
 const review = fs.existsSync(RVF) ? JSON.parse(fs.readFileSync(RVF, 'utf8')).items : [];
-const HUB = { built: new Date().toISOString(), commit, repo, regions, roles, langsAvailable: Object.fromEntries(Object.entries(tr).map(([l, m]) => [l, Object.keys(m).length])), matrix, assets, facts, images, usage, tools, site, cs, blogPlan, pm, campaigns, portfolio, retail, retailKit, trends, vguides, designed, review, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
+const HUB = { built: new Date().toISOString(), commit, repo, regions, roles, langsAvailable: Object.fromEntries(Object.entries(tr).map(([l, m]) => [l, Object.keys(m).length])), matrix, assets, facts, images, usage, tools, site, cs, blogPlan, pm, campaigns, portfolio, retail, retailKit, trends, vguides, wpapers, designed, review, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
 
 console.log(`items ${items.length} · tools ${tools.length} · images ${images.length} · site pages ${site.length} · errors ${errors.length} · warnings ${warn.length}`);
 warn.forEach((w) => console.log('  warn  ' + w));
@@ -311,6 +314,13 @@ fs.writeFileSync(path.join(DIST, 'data.js'), 'window.HUB=' + JSON.stringify(HUB)
 for (const [lang, m] of Object.entries(tr)) fs.writeFileSync(path.join(DIST, `data-${lang}.js`), `(window.HUB_TR=window.HUB_TR||{})[${JSON.stringify(lang)}]=` + JSON.stringify(m) + ';');
 fs.cpSync(path.join(ROOT, 'images', 'library'), path.join(DIST, 'images', 'library'), { recursive: true });
 for (const e of [...Object.entries(designed.items), ...Object.entries(designed.cases)]) { const o = path.join(DIST, 'designed', e[0]); fs.mkdirSync(o, { recursive: true }); fs.copyFileSync(path.join(ROOT, e[1].pdf), path.join(o, path.basename(e[1].pdf))); if (e[1].thumb) fs.copyFileSync(path.join(ROOT, e[1].thumb), path.join(o, path.basename(e[1].thumb))); }
+for (const w of wpapers) {  // a white paper: its Letter page (paths rewritten for dist), images, cover and PDF
+  const src = path.join(ROOT, 'reports', w.dir), out = path.join(DIST, w.dir);
+  fs.mkdirSync(out, { recursive: true });
+  if (fs.existsSync(path.join(src, 'letter.html'))) fs.writeFileSync(path.join(out, 'letter.html'), fs.readFileSync(path.join(src, 'letter.html'), 'utf8').replaceAll('../../../app/src/fonts/', '../../fonts/').replaceAll('../../../images/portfolio/', '../../images/portfolio/'));
+  if (fs.existsSync(path.join(src, 'img'))) fs.cpSync(path.join(src, 'img'), path.join(out, 'img'), { recursive: true });
+  for (const f of [w.file + '.pdf', w.cover]) if (fs.existsSync(path.join(src, f))) fs.copyFileSync(path.join(src, f), path.join(out, f));
+}
 for (const g of vguides) {  // the designed guide: both formats, images, cover and PDFs, with paths rewritten for dist
   const src = path.join(ROOT, 'reports', g.dir), out = path.join(DIST, g.dir);
   if (!fs.existsSync(path.join(src, 'index.html'))) continue;

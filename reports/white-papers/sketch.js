@@ -84,8 +84,8 @@
 
   /* --- the pergola elevation for a brand: p = {span, clear, post, beamH, beamW, blade, mid, louvre:true|false, label} (inches) --- */
   function pergola(svg, p) {
-    const W = 700, H = 380, x0 = 40, floor = 336;
-    const span = p.span, s = Math.min((W - 2 * x0 - 40) / (span + 2 * p.post), (floor - 60) / (p.clear + p.beamH + 6));
+    const W = 700, H = 380, x0 = 66, floor = 336;
+    const span = p.span, s = Math.min((W - 2 * x0 - 150) / (span + 2 * p.post), (floor - 60) / (p.clear + p.beamH + 6));
     const xl = x0 + 20, xr = xl + (span + 2 * p.post) * s, ybeamB = floor - p.clear * s, ybeamT = ybeamB - p.beamH * s;
     line(svg, 10, floor, W - 10, floor, { stroke: INK2, strokeWidth: 1.2 });
     for (let x = 14; x < W - 14; x += 14) crisp(svg, x, floor + 1, x - 8, floor + 9, LINE, 0.8);
@@ -100,23 +100,39 @@
     if (p.mid) rect(svg, mid - (p.midW || p.beamW) * s / 2, ybeamT, (p.midW || p.beamW) * s, (p.midH || p.beamH) * s, { fill: '#D9D9D6', fillStyle: 'cross-hatch', hachureGap: 4, strokeWidth: 0.9 });
     // heaters: Tungsten on its single post under the beam, left third; Eclipse at the centre; Platinum right third
     const tx = xl + (xr - xl) * 0.22, px = xl + (xr - xl) * 0.78;
+    if (p.low) { // too low for ceiling heaters: wall-mount on the posts' inner faces at 6.5 ft, aimed in
+      const yw = floor - 84 * s;
+      rect(svg, xl + p.post * s, yw - 1.5 * s, 7 * s, 1.2 * s, { fill: INK, fillStyle: 'solid', strokeWidth: 0.6 });
+      const g = el('g', { transform: `rotate(28 ${xl + p.post * s + 7 * s} ${yw})` }, svg);
+      add(g, R(svg).rectangle(xl + p.post * s + 7 * s, yw, 4 * s, 2.4 * s, O({ fill: INK, fillStyle: 'solid', strokeWidth: 0.8 })));
+      rect(svg, xr - p.post * s - 7 * s, yw - 1.5 * s, 7 * s, 1.2 * s, { fill: '#9AA0A6', fillStyle: 'solid', strokeWidth: 0.6 });
+      const g2 = el('g', { transform: `rotate(-28 ${xr - p.post * s - 7 * s} ${yw})` }, svg);
+      add(g2, R(svg).rectangle(xr - p.post * s - 11 * s, yw, 4 * s, 2.4 * s, O({ fill: '#2B2B2B', fillStyle: 'solid', strokeWidth: 0.8 })));
+      table(svg, mid, floor, s);
+      T(svg, xl + p.post * s + 10, yw + 40, 'Tungsten Select', { size: 11, weight: 700 });
+      T(svg, xl + p.post * s + 10, yw + 54, 'wall bracket, 6 ft up', { size: 10, fill: STEEL });
+      T(svg, xr - p.post * s - 10, yw + 40, 'Platinum', { size: 11, anchor: 'end', weight: 700 });
+      T(svg, xr - p.post * s - 10, yw + 54, 'wall bracket', { size: 10, anchor: 'end', fill: STEEL });
+      T(svg, mid, ybeamT - 10, 'Under 8 ft clear: no ceiling heaters', { size: 10.5, anchor: 'middle', weight: 700, fill: FINK });
+    } else {
     const tb = tungstenElev(svg, tx, ybeamB, s, { L: p.tL || 45, post: 4, fin: p.tfin });
-    const eb = eclipseElev(svg, mid, ybeamB, s, { pole: p.ePole || 24 });
+    const eb = eclipseElev(svg, mid, ybeamB, s, { pole: p.ePole || 8 });
     if (p.platRecess) platinumRecess(svg, px, ybeamB, s, { L: 33.1 }); else platinumElev(svg, px, ybeamB, s, { L: 33.1, pole: 8 });
     table(svg, tx, floor, s); table(svg, mid, floor, s); table(svg, px, floor, s);
+    T(svg, tx, ybeamT - 10, 'Tungsten Select', { size: 11, anchor: 'middle', weight: 700 });
+    T(svg, mid, ybeamT - 10, 'Eclipse', { size: 11, anchor: 'middle', weight: 700 });
+    T(svg, px, ybeamT - 10, 'Platinum', { size: 11, anchor: 'middle', weight: 700 });
+    }
     // dimensions
-    dim(svg, xl + p.post * s, ybeamB + 10 + 64 * s, xr - p.post * s, ybeamB + 10 + 64 * s, p.spanLabel || `${p.span} in between posts`, { below: true });
+    dim(svg, xl + p.post * s, floor - 46 * s, xr - p.post * s, floor - 46 * s, p.spanLabel || `${p.span} in between posts`, { below: false });
     dim(svg, xr + 18, ybeamB, xr + 18, floor, p.clearLabel || `${p.clear} in clear`);
     dim(svg, xl - 14, ybeamT, xl - 14, ybeamB, p.beamLabel || `${p.beamH} in`, { left: true });
-    T(svg, tx, ybeamT - 10, 'Tungsten · single post', { size: 10.5, anchor: 'middle', weight: 700 });
-    T(svg, mid, ybeamT - 10, p.mid ? 'Eclipse · pendant on the centre beam' : 'Eclipse · pendant', { size: 10.5, anchor: 'middle', weight: 700 });
-    T(svg, px, ybeamT - 10, p.platRecess ? 'Platinum · recessed in a solid bay' : 'Platinum · on its 8 in pole', { size: 10.5, anchor: 'middle', weight: 700 });
-    crisp(svg, xl, floor - 96 * s, xr, floor - 96 * s, FLAME, 0.8, '2 5');
-    T(svg, xr - 4, floor - 96 * s - 5, '8 ft: lowest heater mount', { size: 9.5, anchor: 'end', fill: FINK });
+    if (!p.low) { crisp(svg, xl, floor - 96 * s, xr, floor - 96 * s, FLAME, 0.8, '2 5');
+    T(svg, xl + p.post * s + 6, floor - 96 * s + 13, '8 ft: lowest ceiling-heater mount', { size: 9.5, fill: FINK }); }
   }
   // beam detail: beam profile section with Tungsten section on single post below, both to one scale
   function beamDetail(svg, p) {
-    const s = p.ds || 9, cx = 170, y0 = 40;
+    const s = p.ds || 6.5, cx = 150, y0 = 28;
     const bw = p.beamW * s, bh = p.beamH * s;
     rect(svg, cx - bw / 2, y0, bw, bh, { fill: '#EDEDEB', fillStyle: 'solid' });
     if (p.gutter) rect(svg, cx - bw / 2 + 0.25 * s, y0 + 0.25 * s, bw * 0.45, bh * 0.45, { stroke: STEEL, strokeWidth: 0.8, fill: '#fff', fillStyle: 'solid' });
@@ -126,8 +142,8 @@
     dim(svg, cx - bw / 2, y0 - 12, cx + bw / 2, y0 - 12, `${p.beamW} in`);
     dim(svg, cx + bw / 2 + 14, y0, cx + bw / 2 + 14, y0 + bh, `${p.beamH} in`);
     dim(svg, cx - t.w / 2, t.bottom + 16, cx + t.w / 2, t.bottom + 16, '7.2 in', { below: true });
-    callout(svg, cx + 0.5 * s, y0 + bh + 2 * s, 300, y0 + bh + 4, 'Single post|wiring runs inside it', {});
-    callout(svg, cx, y0 + bh + 0.2 * s, 300, y0 + bh - 30, 'Plate 2.5 × 4 in|fixed to the beam', {});
+    callout(svg, cx + 0.5 * s, y0 + bh + 2 * s, 280, y0 + bh + 26, 'Single post|wiring runs inside it', {});
+    callout(svg, cx, y0 + bh + 0.2 * s, 280, y0 + bh - 16, 'Plate 2.5 × 4 in|fixed to the beam', {});
     if (p.note) T(svg, 20, 300, p.note, { size: 10, fill: STEEL });
   }
 
@@ -179,13 +195,12 @@
       T(svg, bx, ay + 58, 'Mounting bracket', { size: 10, anchor: 'middle', weight: 700 }); T(svg, bx, ay + 71, '15°, 30°, 45° set positions', { size: 10, anchor: 'middle', fill: STEEL });
     },
     coastal(svg) {
-      const x = 40, y = 40, w = 300;
-      [['Salt air, pool chemicals, sun', '#fff', STEEL], ['High-temperature corrosion-resistant coating', '#3A3A3A', '#fff'], ['316 marine-grade stainless steel', '#9AA0A6', INK], ['IPX5 heater body', '#C9CED3', INK]].forEach(([t, f, c], i) => {
-        if (i === 0) { for (let k = 0; k < 9; k++) { const xx = x + 20 + k * 32; crisp(svg, xx, y, xx + 10, y + 26, STEEL, 1, '2 4'); } T(svg, x + w + 20, y + 18, t, { size: 11.5, weight: 700, fill: INK2 }); return; }
-        rect(svg, x, y + 34 + (i - 1) * 46, w, 38, { fill: f, fillStyle: 'solid', strokeWidth: 1 }); T(svg, x + w + 20, y + 58 + (i - 1) * 46, t, { size: 11.5, weight: 700 });
+      const x = 10, y = 14, w = 200;
+      [['Salt air and sun', '#fff', STEEL], ['Corrosion-resistant coating', '#3A3A3A', '#fff'], ['316 marine-grade stainless steel', '#9AA0A6', INK], ['IPX5 heater body', '#C9CED3', INK]].forEach(([t, f, c], i) => {
+        if (i === 0) { for (let k = 0; k < 9; k++) { const xx = x + 20 + k * 32; crisp(svg, xx, y, xx + 10, y + 26, STEEL, 1, '2 4'); } T(svg, x + w + 14, y + 18, t, { size: 13, weight: 700, fill: INK2 }); return; }
+        rect(svg, x, y + 34 + (i - 1) * 46, w, 38, { fill: f, fillStyle: 'solid', strokeWidth: 1 }); T(svg, x + w + 14, y + 58 + (i - 1) * 46, t, { size: 13, weight: 700 });
       });
-      T(svg, x, y + 200, 'Tungsten Coastal: protected twice. Recess kit in powder-coated 316 stainless, IPX5.', { size: 10.5, fill: INK2 });
-      T(svg, x, y + 216, 'For coastal homes and venues; not for marine craft (Platinum Electric Marine covers vessels).', { size: 10.5, fill: INK2 });
+
     },
     smart(svg) {
       const cx = 340, cy = 160;
@@ -210,7 +225,7 @@
       ['Heat and light', 'from one pendant', 'on the centre beam'].forEach((d, j) => T(svg, x + 75, 162 + j * 13, d, { size: 9.5, anchor: 'middle', fill: INK2 }));
       ell(svg, x + 75, 222, 70, 14, { fill: '#1E1E1E', fillStyle: 'solid' }); crisp(svg, x + 75, 198, x + 75, 215, INK, 2);
       line(svg, 20, 252, 680, 252, { strokeWidth: 1.2 });
-      T(svg, 20, 272, 'Value', { size: 10, fill: STEEL }); T(svg, 470, 272, 'Architecture', { size: 10, anchor: 'end', fill: STEEL });
+      T(svg, 20, 272, 'Value', { size: 10, fill: STEEL }); T(svg, 436, 272, 'Architecture', { size: 10, fill: STEEL });
       crisp(svg, 60, 268, 420, 268, STEEL, 0.9); poly(svg, [[420, 264], [428, 268], [420, 272]], { fill: STEEL, fillStyle: 'solid', strokeWidth: 0.5 });
     },
   };

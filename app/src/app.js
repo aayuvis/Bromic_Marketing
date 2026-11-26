@@ -764,10 +764,11 @@
     const L = pdfList().filter((it) => uniq(it.title));
     const twin = (it) => L.filter((x) => shortTitle(x.title) === shortTitle(it.title)).length > 1;  // three statistics pages share a short title: name each by its subtitle
     const rest = L.map((it) => tile(`#/item/${esc(it.id)}`, DZ[it.id] && DZ[it.id].thumbHref ? pic(DZ[it.id].thumbHref, 'Cover of ' + it.title) : img(it.hero), (TYPES[it.type] || it.type) + (twin(it) ? ' · ' + shortTitle(it.title) : ''), twin(it) ? it.title.split(/[:—]/).slice(1).join(':').trim() || it.title : shortTitle(it.title), FRAMED ? '' : pdfHref(it), FRAMED ? '' : pdfHref(it)));
-    const total = trends.length + guides.length + rest.length;
+    const papers = (HUB.wpapers || []).filter((w) => uniq(w.title)).map((w) => tile(`${w.dir}/letter.html`, pic(`${w.dir}/${w.cover}`, 'Cover of ' + w.title), w.label || 'White paper', w.title, `${w.dir}/${w.file}.pdf`, `${w.dir}/letter.html`));
+    const total = papers.length + trends.length + guides.length + rest.length;
     const sec = (h, a) => a.length ? `<h2 class="dl-h">${h} <span class="wp-n">${a.length}</span></h2><div class="wp-grid">${a.join('')}</div>` : '';
     return `<div class="wp-head"><span class="label">White papers</span><h1>White Papers</h1><span class="muted">${total} documents, each a finished PDF</span></div>
-      ${sec('Outdoor Living Trends 2027', trends)}${sec('Plan Your Outdoor Heat 2027', guides)}${sec('Guides, Kits And Statistics', rest)}`;
+      ${sec('New: White Papers 2027', papers)}${sec('Outdoor Living Trends 2027', trends)}${sec('Plan Your Outdoor Heat 2027', guides)}${sec('Guides, Kits And Statistics', rest)}`;
   }
 
   // Signature Pieces on Home: the 2027 flagship editions as cover tiles (owner, 22 Nov 2026), the same tiles as the White Papers page.
@@ -776,6 +777,7 @@
     const pic = (src, alt) => `<img src="${esc(src)}" alt="${esc(alt)}" loading="lazy">`;
     const tile = (href, cover, label, title, pdf) => `<article class="wp-tile"><a class="wp-cover" href="${href}">${cover}</a><div class="wp-body"><span class="label">${esc(label)}</span><h3><a href="${href}">${esc(title)}</a></h3><div class="wp-btns">${pdf && !FRAMED ? `<a class="btn primary" href="${esc(pdf)}" download>${ic.down}PDF</a>` : ''}<a class="btn" href="${href}">${ic.arrow}Open</a></div></div></article>`;
     const out = [];
+    for (const w of HUB.wpapers || []) out.push(tile(`${w.dir}/letter.html`, pic(`${w.dir}/${w.cover}`, 'Cover of ' + w.title), w.label || 'White paper', w.title, `${w.dir}/${w.file}.pdf`));
     const tr = TRS.find((r) => /north america/i.test(r.region)) || TRS[0];
     if (tr) out.push(tile('#/trends', pic(`trends-2027/${tr.id}/cover-letter.webp`, 'Cover of ' + tr.title), 'Trend report · ' + tr.region, tr.title + ' · ' + tr.region, `trends-2027/${tr.id}/${tr.file}-Letter.pdf`));
     const g = VGL.find((x) => /pro/i.test(x.title)) || VGL[0];

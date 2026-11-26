@@ -31,7 +31,10 @@ def build(rid, pdf=False):
     def bl(items): return '<ul class="b">' + ''.join(f'<li>{md(x)}</li>' for x in items) + '</ul>'
     def tbl(t):
         head = ''.join(f'<th>{E(h)}</th>' for h in t['head'])
-        rows = ''.join('<tr' + (' class="hl"' if r[0].startswith('*') else '') + '>' + ''.join(f'<td>{md(c.lstrip("*") if j == 0 else c)}</td>' for j, c in enumerate(r)) + '</tr>' for r in t['rows'])
+        def cell(c):
+            if c.startswith('*') and not c.startswith('**'): return f'<td class="win">{md(c[1:])}</td>'
+            return f'<td>{md(c)}</td>'
+        rows = ''.join('<tr' + (' class="hl"' if r[0].startswith('!') else '') + '>' + ''.join(cell(c.lstrip('!')) for c in r) + '</tr>' for r in t['rows'])
         return f'<table class="t"><thead><tr>{head}</tr></thead><tbody>{rows}</tbody></table>'
     def block(b):
         k = b[0]
@@ -69,7 +72,7 @@ def build(rid, pdf=False):
             spec_ = ''.join(f'<div><b>{E(a)}</b>{md(b)}</div>' for a, b in pg['spec'])
             fit = ''.join(f'<div><h4>{E(a)}</h4><p>{md(b)}</p></div>' for a, b in pg['fit'])
             pj = E(json.dumps(pg['pergola'])); bj = E(json.dumps(pg['beam'])) if pg.get('beam') else ''
-            beam = f'<svg class="diag" data-beam="{bj}" viewBox="0 0 470 310" style="width:58%;float:left"></svg>' if bj else ''
+            beam = f'<svg class="diag" data-beam="{bj}" viewBox="0 0 470 215" style="width:56%;float:left"></svg>' if bj else ''
             pages.append(f'''<section class="pg brand"><div class="kick">{E(pg['kicker'])}</div><h2>{E(pg['h2'])}</h2><p>{md(pg['intro'])}</p>
   <div class="spec">{spec_}</div>
   <figure><svg class="diag" data-pergola="{pj}" viewBox="0 0 700 380"></svg><figcaption>{md(pg['cap'])}</figcaption></figure>
@@ -82,6 +85,7 @@ def build(rid, pdf=False):
         p += 1
 
     # images: library webp -> jpg, sized for print
+    used.update(re.findall(r'src="img/([^"]+)\.jpg"', '\n'.join(pages)))
     for i in used:
         out = os.path.join(RD, 'img', i + '.jpg')
         if not os.path.exists(out):
@@ -95,7 +99,7 @@ def build(rid, pdf=False):
 <title>{E(C.TITLE)}</title><style>{css}</style></head><body><main id="deck">{body}</main>{frames}<script>{rough}</script><script>{sk}</script></body></html>'''
     out = os.path.join(RD, 'letter.html'); open(out, 'w').write(doc); print(out, len(C.PAGES), 'pages')
     if pdf:
-        env = dict(os.environ, NODE_PATH=os.path.join(ROOT, 'app', 'node_modules'))
+        env = dict(os.environ, NODE_PATH=os.pathsep.join([os.path.join(ROOT, 'app', 'node_modules'), subprocess.run(['npm', 'root', '-g'], capture_output=True, text=True).stdout.strip()]))
         shots = sys.argv[sys.argv.index('--shots') + 1] if '--shots' in sys.argv else '-'
         r = subprocess.run(['node', os.path.join(ROOT, 'reports', 'trends-2027', 'engine', 'qa.js'), out, shots, os.path.join(RD, C.FILE + '.pdf')], cwd=ROOT, env=env)
         sys.exit(r.returncode)

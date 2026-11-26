@@ -102,3 +102,8 @@ table.t tr.hl td{background:var(--flame-wash)}
 .back .site{font-family:var(--serif);font-size:22px;margin-top:12px}
 .back .logo{width:150px;margin-top:40px}
 .back p{color:#ddd}
+
+table.t td.win{color:var(--ink);font-weight:700;background:var(--flame-wash)}
+.srcs li{overflow-wrap:anywhere}
+.back:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,18,19,0) 30%,rgba(20,18,19,.85) 75%);z-index:1}
+.back .bt{z-index:2}
