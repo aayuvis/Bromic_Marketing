@@ -262,3 +262,42 @@ figcaption{font-size:11px;margin-top:7px}
 .tgrid.t1{gap:14px}
 .bgrid.b1 .bt{grid-template-columns:250px 1fr}
 .bgrid.b1 svg{max-height:225px}
+
+/* v4: a size smaller, merged pages */
+.pg{padding:56px 56px 64px}
+h2{font-size:38px;margin:6px 0 14px}
+p{font-size:13.4px;line-height:1.55;margin:0 0 10px}
+.lede{font-size:19px;margin:0 0 16px}
+ul.b li{font-size:13.2px;margin-bottom:6px}
+.exec ul.b li{font-size:13.8px;margin-bottom:8px}
+table.t{font-size:11.6px}
+.st .n{font-size:58px}
+.st p{font-size:13.6px}
+.folio{left:56px;right:56px}
+.tc{grid-template-columns:70px 1fr 40px;padding:14px 0}
+.tn{font-size:38px}.tt2{font-size:26px}
+.quotes.q2{grid-template-columns:1fr 1fr;gap:20px 28px;margin-top:6px}
+.quotes.q2 p{font-size:15px;line-height:1.36}
+.quotes.q2 small{font-size:10.5px}
+.quotes.q2 .ql{height:30px;margin-top:10px}
+.quotes.q2 .ql svg{height:24px;max-width:160px}
+.rs.r2{grid-template-columns:1fr 1fr;gap:14px 16px}
+.rs.r2 .rsc{grid-template-columns:120px 1fr;gap:12px;padding:10px}
+.rs.r2 .rsi{height:210px}
+.rs.r2 .rst h3{font-size:17px}
+.rs.r2 .rst p{font-size:11.6px;line-height:1.45}
+.acc{gap:14px}
+.aci{height:180px}
+.ac p{font-size:11.6px}
+.tgrid.t2{grid-template-columns:1fr 1fr;gap:12px 20px}
+.tgrid.t2 .tti{height:175px}
+.tgrid.t2 figcaption{font-size:11.6px}
+.tgrid.t2 figcaption b{font-size:16px}
+.bgrid{gap:16px 18px}
+.bgrid figcaption{font-size:11.4px}
+.bgrid figcaption b{font-size:15px}
+.wk{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:6px}
+.wk div{border-top:2px solid var(--flame);padding-top:6px}
+.wk b{display:block;font-size:12px;color:var(--ink)}
+.wk span{font-size:11.4px;color:var(--ink-2)}
+.cols{gap:28px}

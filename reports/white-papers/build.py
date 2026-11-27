@@ -99,7 +99,7 @@ def build(rid, pdf=False):
     rough = open(os.path.join(ROOT, 'reports', 'trends-2027', 'engine', 'vendor', 'rough-4.6.6.js')).read()
     sk = open(os.path.join(HERE, 'sketch.js')).read()
     body = '\n'.join(pages).replace('src="LOGOW"', 'src="../../../images/portfolio/bromic-logo-white.png"').replace('src="LOGO"', 'src="../../../images/portfolio/bromic-logo.png"')
-    frames = f'<script>window.FRAMES={json.dumps(getattr(C, "FRAMES", []))}</script>'
+    frames = f'<script>window.FRAMES={json.dumps(getattr(C, "FRAMES", []))};window.HEIGHTS={json.dumps(getattr(C, "HEIGHTS", []))}</script>'
     body = re.sub(r'\s*<sup>[\d,]+</sup>', '', body)
     doc = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
 <title>{E(C.TITLE)}</title><style>{css}</style></head><body><main id="deck">{body}</main>{frames}<script>{rough}</script><script>{sk}</script></body></html>'''

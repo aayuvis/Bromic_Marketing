@@ -365,7 +365,26 @@
     T(svg, 100, 116, '3/12 to 12/12 roof pitch', { size: 11, anchor: 'middle', fill: INK2 });
   };
 
+
+  /* ---------- mounting heights chart (feet) ---------- */
+  D.heights = function (svg) {
+    const rows = (window.HEIGHTS || []), x0 = 70, y0 = 330, ft = 24, bw = 70, gap = 26;
+    line(svg, x0 - 10, y0, x0 + rows.length * (bw + gap), y0, { strokeWidth: 1.4 });
+    for (let f = 0; f <= 12; f += 2) { const y = y0 - f * ft; crisp(svg, x0 - 14, y, x0 + rows.length * (bw + gap) - gap, y, f ? '#EEE' : INK2, 0.8); T(svg, x0 - 20, y + 4, f + ' ft', { size: 11, anchor: 'end', fill: STEEL }); }
+    crisp(svg, x0 - 14, y0 - 6 * ft, x0 + rows.length * (bw + gap) - gap, y0 - 6 * ft, FLAME, 1, '4 4');
+    T(svg, x0 + rows.length * (bw + gap) - gap, y0 - 6 * ft - 6, 'wall or post mounts from 6 ft', { size: 10.5, anchor: 'end', fill: FINK });
+    rows.forEach(([name, lo, hi], i) => {
+      const x = x0 + i * (bw + gap);
+      rect(svg, x, y0 - hi * ft, bw, (hi - lo) * ft, { fill: FLAME, fillStyle: 'hachure', hachureGap: 4, stroke: FINK, strokeWidth: 1.2 });
+      rect(svg, x + 6, y0 - hi * ft - 10, bw - 12, 8, { fill: INK, fillStyle: 'solid', strokeWidth: 0.6 });
+      T(svg, x + bw / 2, y0 - hi * ft - 18, `${lo}–${hi} ft`, { size: 13, anchor: 'middle', weight: 700, fill: FINK });
+      name.split('|').forEach((l, j) => T(svg, x + bw / 2, y0 + 18 + j * 14, l, { size: 11, anchor: 'middle', fill: INK, weight: j ? 400 : 700 }));
+    });
+    // a table and chair at the left for scale
+  };
+
   function draw() {
+    window.HEIGHTS = window.HEIGHTS || [];
     document.querySelectorAll('svg[data-diag]').forEach(svg => { const k = svg.dataset.diag; if (D[k]) D[k](svg); });
     document.querySelectorAll('svg[data-pergola]').forEach(svg => pergola(svg, JSON.parse(svg.dataset.pergola)));
     document.querySelectorAll('svg[data-beam]').forEach(svg => beamDetail(svg, JSON.parse(svg.dataset.beam)));
