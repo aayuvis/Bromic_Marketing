@@ -317,3 +317,32 @@ table.t{font-size:11.6px}
 .steps span{grid-row:span 2;font-family:var(--serif);font-size:60px;line-height:1;color:var(--flame)}
 .steps h3{font-size:24px;margin:2px 0 4px}
 .steps p{margin:0}
+
+.sp{display:grid;grid-template-columns:1fr 1fr;gap:16px 24px}
+.sps{display:grid;grid-template-columns:46px 1fr;gap:10px;border-top:2px solid var(--ink);padding-top:12px}
+.sps span{font-family:var(--serif);font-size:42px;color:var(--flame);line-height:1}
+.sps h3{font-size:21px;margin:0 0 6px}
+.say{font-family:var(--serif);font-size:15.5px!important;color:var(--ink)!important;line-height:1.35!important}
+.ob{display:grid;grid-template-columns:1fr 1fr;gap:16px 24px;margin-top:8px}
+.obj{background:var(--paper-2);padding:16px 18px;border-left:4px solid var(--flame)}
+.obj h3{font-size:21px;margin:0 0 8px}
+.obj p{margin:0}
+.cm{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:8px 0 16px}
+.cmb{height:46px;display:flex;align-items:center;padding:0 10px;border:1px solid #D6D6D2}
+.cmb span{font-size:10px;letter-spacing:.14em;text-transform:uppercase;font-weight:700}
+.cmi{height:200px;overflow:hidden;background:#EDEBE8}
+.cmi img{width:100%;height:100%;object-fit:cover;object-position:50% 45%}
+.cmt b{display:block;font-size:12px;margin-top:6px}
+.cs2{display:grid;grid-template-columns:1fr;gap:20px}
+.cs2 .csi{height:330px}
+.cs4{display:grid;grid-template-columns:1fr 1fr;gap:18px 20px}
+.cs4 .csi{height:220px}
+.csi{overflow:hidden}.csi img{width:100%;height:100%;object-fit:cover}
+.loc{display:block;font-size:10px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--flame);margin-top:10px}
+.csc h3{font-size:22px;margin:4px 0 6px}
+.cs4 .csc h3{font-size:18px}
+.csc p{font-size:13px;margin:0}
+.ev{display:grid;grid-template-columns:1fr 1fr;gap:16px 18px;margin-top:6px}
+.evi{height:330px;overflow:hidden}.evi img{width:100%;height:100%;object-fit:cover}
+.ev figcaption b{display:block;font-family:var(--serif);font-weight:400;font-size:24px;color:var(--ink)}
+.ev figcaption{font-size:13px}

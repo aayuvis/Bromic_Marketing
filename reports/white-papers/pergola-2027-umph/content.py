@@ -3,7 +3,7 @@ import os
 _BASE = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'pergola-2027', 'content.py')
 _g = {'__file__': os.path.abspath(_BASE), '__name__': 'base'}
 exec(open(_BASE).read(), _g)
-for _k in ('SOURCES', 'FRAMES', 'HEIGHTS', 'NOTE'):
+for _k in ('SOURCES', 'FRAMES', 'HEIGHTS', 'NOTE', 'img'):
     globals()[_k] = _g[_k]
 TITLE = 'Heat The Pergola · Bromic 2027'
 FILE = 'Bromic-Heat-The-Pergola-2027'
@@ -23,20 +23,100 @@ def ren(h2_old, h2_new):
     return dict(find(h2_old), h2=h2_new)
 
 
-cover = dict(P[0], sub='Every pergola sold cold is half a room', blurb='For pergola makers, dealers and specifiers.')
+cover = dict(P[0], sub='Extend the moment under every roof', blurb='For pergola makers, dealers and specifiers.')
 
 hook = dict(type='hero', img='w-bromicatria23', pos='50% 50%', kicker='The Opportunity', n='23%',
             h2='Of Homeowners Plan Heat In From The Start',
-            line='The rest bolt it on later, badly, or go without. Every pergola sold without heat is a room used for half the year.')
+            line='Most think of it once the pergola is up and the first cool evening arrives. Bring it into the first conversation, and the evenings look after themselves.')
 
-money = pg('money', 'The Money', 'Heat Sells The Pergola Up',
-  ('lede', 'Heat is the upgrade that turns a shade structure into a room, and a good sale into a better one.'),
-  ('stats', [('$1,400–$3,600', 'A two- or three-heater package on a louvered pergola, installed, in one dealer\'s published packages.', ''),
-             ('68%', 'Of outdoor kitchen projects now install plumbing, electrical or heating systems.', '')]),
-  ('h4', 'Wire it now or pay for it later'),
-  ('diag', 'prewire', '680 210'),
-  ('p', 'Pre-wiring heater positions when the pergola goes up costs a fraction of a retrofit, by one dealer\'s figures. Put heat on the first quote, not the second.'),
-  ('photo', 'w-strx-230222-bromic-dc-1', 250, 'Tungsten Electric on a louvered pergola.', '50% 40%'))
+value = pg('money', 'The Case For Heat', 'More Evenings For Them. More Margin For You.',
+  ('lede', 'A heated pergola gets used in more months of the year. That is the reason to buy it, and the reason it sells.'),
+  ('cols', [[
+    ('h4', 'For the homeowner'),
+    ('ul', ['**More of the year:** spring and autumn evenings, and winter in milder climates.',
+            '**More of what they paid for:** a pergola that is a room, not a summer shade.',
+            '**Planned in:** wiring hidden in the structure, heat aimed at the seats.']),
+  ], [
+    ('h4', 'For the dealer'),
+    ('ul', ['**A bigger ticket:** heaters, controls and wiring on the same order.',
+            '**Better margin:** more value per visit, the same crew, the same day.',
+            '**Fewer callbacks and more referrals:** done once, seen working by friends and neighbours.']),
+  ]]),
+  ('diag', 'value', '680 210'),
+  ('photo', 'w-strx-230222-bromic-dc-1', 230, 'Tungsten Electric on a louvered pergola.', '50% 40%'))
+
+SCRIPT1 = [('Discover', 'When do you picture using it? Late summer dinners, autumn evenings, game nights in winter?', 'Ask before you design. The answer sizes the heat.'),
+           ('Design it in', 'We\'ll mark the heater positions now, so the wiring goes inside the posts and nothing shows.', 'Heat goes on the drawing, not the add-on list.'),
+           ('Show it', 'This is how the heat falls on the table. Here is the heater in your frame colour.', 'Use the coverage images and the finish swatches.'),
+           ('Quote it as standard', 'Your pergola, with heat and controls, ready for every season.', 'Quote heat in the base package, with a version without.'),
+           ('Install once', 'We pre-wire every bay while the frame is open.', 'One visit, no retrofit.'),
+           ('Hand over', 'Here is your app: the roof, the lights and the heat together.', 'Set zones and schedules on their phone before you leave.')]
+script1 = pg('script', 'Selling Heat · 1 of 2', 'Put Heat In The First Conversation',
+  ('lede', 'Six steps from the first visit to the first warm evening.'),
+  ('html', '<div class="sp">' + ''.join(f'<div class="sps"><span>{i}</span><div><h3>{t}</h3><p class="say">"{s}"</p><p>{n}</p></div></div>' for i, (t, s, n) in enumerate(SCRIPT1, 1)) + '</div>'))
+
+OBJ = [('"It\'s over budget."', 'Show the same warmth at two price points: Tungsten Classic and Select cover the same area. Start with one heater over the table and pre-wire for more.'),
+       ('"We\'ll add heat later."', 'Later means opening the frame and running visible conduit. Pre-wiring now costs a fraction and keeps every option open.'),
+       ('"Will we really use it?"', 'Ask how many evenings they lose to the cold now. Heat turns those into the best nights of the year.'),
+       ('"Heaters look bulky."', 'Tungsten Series II is slim, on one post, in black, white or graphite. Or recess Platinum flush in a solid bay.'),
+       ('"We\'re by the sea."', 'Tungsten Coastal is built for salt air: 316 marine-grade stainless under a corrosion-resistant coating.'),
+       ('"Not another app."', 'Affinity works with Alexa, Google and the home system they already have.'),
+       ('"Gas is cheaper."', 'Under a roof, electric needs no gas line, flue or ventilation sums, and switches on instantly.'),
+       ('"The electrician will cost a fortune."', 'One dedicated circuit per heater or channel, run while the frame is open, is the least it will ever cost.')]
+script2 = pg('script', 'Selling Heat · 2 of 2', 'Answers To Every Objection',
+  ('html', '<div class="ob">' + ''.join(f'<div class="obj"><h3>{q}</h3><p>{a_}</p></div>' for q, a_ in OBJ) + '</div>'))
+
+def sm_page():
+    SMB = find('Heat That Joins The Smart Home')['blocks']
+    return pg('issue', 'One Connected Outdoor Room', 'One App For The Roof And The Heat', SMB[0], ('diag', 'smart', '680 320'), SMB[2],
+              ('photos', [('w-bromic-heating-app-blog-image', 'The Bromic app.'), ('w-affinity-dimmer-5ch', 'Affinity 5-channel controller.')], 190))
+
+def research():
+    p_ = dict(find('Six Things Buyers Want From Heat')); p_['blocks'] = [(b[0], b[1].replace('img/t2-single-post-black.jpg', 'img/w-vbb7428.jpg')) if b[0] == 'html' else b for b in p_['blocks']]; return p_
+
+see = pg('see', 'See The Warmth', 'Where The Heat Lands',
+  ('lede', 'Each heater warms a defined zone below it. Plan the heat like the furniture.'),
+  ('photo', 'rv-hb-tungsten-6kw-terrace', 465, 'Tungsten 6 kW over a dining table: up to 160 ft².'),
+  ('photos', [('rv-hb-platinum-4500w-lounge', 'Platinum 4500 W over a lounge: up to 143 ft².'), ('rv-hb-eclipse-pendant-dining', 'Eclipse over a round table: up to 121 ft².')], 229))
+
+CM = [('#1E1E1E', 'Black frame', 'dk-Tungsten-Series-II-Select-black-hero', 'Select in black'),
+      ('#F4F4F2', 'White frame', 'dk-Tungsten-Series-II-Select-3kw-white-hero', 'Select in white'),
+      ('#4A4D50', 'Grey frame', 'dk-Tungsten-Series-II-Select-graphite-hero', 'Select in graphite'),
+      ('#5B4636', 'Bronze frame', 'dk-Tungsten-Series-II-Select-3kw-black-hero', 'Select in black')]
+def colour():
+    base = find('Graphite Joins Black And White')['blocks']
+    tiles = '<div class="cm">' + ''.join(f'<div class="cmt"><div class="cmb" style="background:{col}"><span style="color:{"#222" if col == "#F4F4F2" else "#fff"}">{fr}</span></div><div class="cmi"><img src="img/{im}.jpg" alt="{h}"></div><b>{h}</b></div>' for col, fr, im, h in CM) + '</div>'
+    return pg('issue', 'Colour That Matches The Frame', 'Every Frame, A Perfect Match', ('p', 'Black, white and graphite, carried through the whole heater, to sit with every frame colour.'), ('html', tiles), base[2])
+
+def place():
+    b = find('Where And How High')['blocks']
+    return pg('plan', 'Planning', 'Warm From 8 To 12 Feet', b[0], b[1], ('h4', 'Where to mount on the pergola'), ('diag', 'mount2', '680 270'), b[4])
+
+def cs(i, t, loc, line, flag=''):
+    return f'<div class="csc"><div class="csi">{img(i, t)}</div><span class="loc">{loc}</span><h3>{t}</h3><p>{line}</p></div>'
+case1 = pg('case', 'Pergola Stories · United States', 'The Boardwalk, Irvine: A Workplace Under Pergolas',
+  ('photo', 'w-boardwalk-edits-49', 420, 'Platinum Electric in the pergolas of The Boardwalk\'s courtyard.'),
+  ('cols', [[('h4', 'The brief'), ('p', 'An office campus wanted its two-acre courtyard used for work, meetings and breaks in every season, not just on warm afternoons.'),
+             ('h4', 'The solution'), ('p', 'Platinum Electric heaters set into the courtyard\'s pergolas: low-profile glass-ceramic heat over the seating, part of the architecture.')],
+            [('h4', 'The result'), ('p', 'A courtyard that works as an outdoor office and meeting space through the cooler months.'),
+             ('photo', 'w-boardwalk-edits-27', 170, 'The Boardwalk courtyard.')]]))
+case2 = pg('case', 'Pergola Stories · Europe And Canada', 'Two Rooms Under Opening Roofs',
+  ('html', '<div class="cs2">' + cs('w-kion-sui-madrid-spain-tungsten-electric-5', 'Kion & Sui, Madrid', 'Spain · Restaurant', 'Tungsten Electric along the beams of an opening louvered roof turns the terrace into the restaurant\'s best room, in every season.') +
+           cs('v-predator-ridge-range-1', 'Predator Ridge, Vernon', 'Canada · Golf resort', 'A retractable-roof pergola over the patio and fourteen Bromic 6000 W electric heaters turned it into a three-season dining room.') + '</div>'))
+case3 = pg('case', 'Pergola Stories · Around The World', 'From Brisbane To Bellheim',
+  ('html', '<div class="cs4">' +
+   cs('w-calilehero-2', 'The Calile Hotel, Brisbane', 'Australia · Hotel', 'A Platinum Electric heater in each of seven poolside cabanas, controlled by guests from inside.') +
+   cs('v-skyview-livonia-1', 'Private home, Livonia', 'United States · Residence', 'Bromic heaters built into a StruXure louvered roof, with solar screens, for a room used all year.') +
+   cs('w-dsc01766-bearbeitet', 'Pool house, Bellheim', 'Germany · Residence', 'Eclipse heaters on straight poles with the Eclipse Dimmer Controller, planned with a Bromic heating expert for a low ceiling.') +
+   cs('v-turtle-bay-pub-1', 'Turtle Bay Pub, Lake Country', 'Canada · Pub', 'A freestanding louvred pergola with privacy screens and Bromic gas heaters added about 50 seats for three seasons.') + '</div>'),
+  ('p', 'Photos of third-party projects: permission to publish to be confirmed.'))
+
+lookup = dict(type='hero', img='w-p1020710-hdr-2-denoiseai-clear', pos='50% 50%', kicker='Spot The Heater', h2='Look Up. That\'s The Heater.',
+              line='Platinum Electric, recessed flush in the timber ceiling. Warmth you feel, not a fixture you see.')
+evening = pg('evening', 'Extend The Moment', 'From Sunset To Last Call',
+  ('html', '<div class="ev">' + ''.join(f'<figure><div class="evi">{img(i, t)}</div><figcaption><b>{t}</b>{d}</figcaption></figure>' for i, t, d in [
+     ('l-007-041', 'Sunset', 'The light goes; the warmth stays.'), ('w-gno-2', 'Dinner', 'Heat over the table, aimed at the seats.'),
+     ('w-bromicatria23', 'Late', 'The fire is out. The heaters are not.'), ('w-kion-sui-madrid-spain-tungsten-electric-5', 'Last call', 'The terrace stays full.')]) + '</div>'))
 
 hero2 = pg('hero2', 'Meet Tungsten Series II', 'Made For The Pergola',
   ('html', '<div class="h2w"><img src="img/dk-Tungsten-Series-II-Select-black-hero.jpg" alt="Tungsten Series II Select in black on its single post">'
@@ -47,27 +127,8 @@ hero2 = pg('hero2', 'Meet Tungsten Series II', 'Made For The Pergola',
   ('photos', [('dk-Tungsten-Series-II-Select-family-three-finishes', 'Black, white and graphite.'),
               ('dk-Tungsten-Series-II-Select-graphite-grille-macro', 'The Diamond Pattern front.')], 230))
 
-see = pg('see', 'See The Warmth', 'Where The Heat Lands',
-  ('lede', 'Each heater warms a defined zone on the floor below it. Plan the heat like the furniture.'),
-  ('photo', 'rv-hb-tungsten-6kw-terrace', 410, 'Tungsten 6 kW over a dining table: up to 160 ft².'),
-  ('photos', [('rv-hb-platinum-4500w-lounge', 'Platinum 4500 W over a lounge: up to 143 ft².'),
-              ('rv-hb-eclipse-pendant-dining', 'Eclipse over a round table: up to 121 ft².')], 200))
-
 disappear = dict(type='hero', img='w-mountain-view-retreat-platinum-electric-rece', pos='50% 50%', kicker='Platinum Electric',
                  h2='Heat That Disappears Into The Roof', line='Glass-ceramic, 2.1 in deep, recessed flush in a 7.1 in cavity.')
-
-case = pg('case', 'A Real Pergola', 'Livonia, Michigan: A Louvered Room, Used All Year',
-  ('photos', [('v-skyview-livonia-1', 'Bromic heaters built into a StruXure louvered roof.'),
-              ('v-skyview-livonia-2', 'The same pergola, heated for cooler months.')], 300),
-  ('cols', [[
-    ('h4', 'The brief'), ('p', 'A family wanted their louvered pergola to work beyond summer: shade by day, warmth on cool evenings, nothing bolted on.'),
-    ('h4', 'The build'), ('p', 'A StruXure dealer paired the louvered roof with solar screens and Bromic radiant heaters integrated into the structure.'),
-  ], [
-    ('html', '<div class="quotes q2" style="grid-template-columns:1fr">'
-             '<blockquote><p>"This project shows how the right combination of systems can completely change how often a space gets used."</p><small>Owner and CEO, the StruXure dealer</small></blockquote>'
-             '<blockquote><p>"The end result is a space that\'s not only beautiful, but actually works for how we want to use it."</p><small>Homeowner, Livonia, Michigan</small></blockquote></div>'),
-  ]]),
-  ('p', 'Photos: the dealer\'s project page; permission to publish to be confirmed.'))
 
 close = pg('close', 'Next', 'Three Steps To A Warm Pergola',
   ('html', '<div class="steps">'
@@ -76,27 +137,28 @@ close = pg('close', 'Next', 'Three Steps To A Warm Pergola',
            '<div><span>3</span><h3>Join the roof and the heat</h3><p>Add Affinity to the control package: one app for louvres, lights and warmth.</p></div></div>'),
   ('photo', 'w-kion-sui-madrid-spain-tungsten-electric-5', 380, 'Tungsten under an opening roof.'))
 
+
 PAGES = [cover, hook,
-  ren('The Pergola Is Now The Outdoor Room', 'Every Pergola Sold Cold Is Half A Room'),
-  money,
+  ren('The Pergola Is Now The Outdoor Room', 'Make Every Pergola A Four-Season Room'),
+  value, script1, script2,
   find('Homeowners Are Building Roofs'), find('Then Wiring Them'),
   ren("Built In On The World's Leading Pergolas", 'Built In. Talked About.'),
-  find('Six Things Buyers Want From Heat'),
+  research(),
   hero2,
   ren('A Slimmer Heater For A Slim Beam', 'Lighter On The Beam, Lighter On The Eye'),
-  see,
+  see, lookup,
   find('Built For Salt Air'),
-  ren('Heat That Joins The Smart Home', 'One App For The Roof And The Heat'),
+  sm_page(),
   ren('One Post, Wiring Inside, Nothing On Show', 'Nothing On Show'),
-  ren('Graphite Joins Black And White', 'Every Frame, A Perfect Match'),
-  disappear,
+  colour(),
+  disappear, evening,
   ren('Every Fuel, Every Setting, Every Mount', 'One Brand For The Whole Backyard'),
   find('The Same Warmth At Every Price Point'),
   ren('Where Bromic Fits On Every Structure', 'Every Structure, Warmed'),
   ren('How Tungsten And Platinum Mount To Any Beam', 'Any Beam, One Plate'),
-  case,
+  case1, case2, case3,
   dict(find('Built For The Pergola. Ahead Where It Counts.'), blocks=find('Built For The Pergola. Ahead Where It Counts.')['blocks'][:2]),
-  ren('Where And How High', 'Warm From 8 To 12 Feet'),
+  place(),
   find('How Many Heaters'),
   ren('Circuits, Controls And Gas', 'Plan The Power Once'),
   close,

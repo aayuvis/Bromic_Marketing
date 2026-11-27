@@ -359,7 +359,7 @@
       T(svg, x0 + L * s + 34, y + 66, old ? 'two suspension tubes' : 'one single post', { size: 11, fill: INK2 });
     });
   };
-  D.pitched = function (svg) {
+  D.pitchedOld = function (svg) {
     poly(svg, [[20, 90], [180, 20], [180, 90]], { fill: '#EDEDEB', fillStyle: 'solid' });
     rect(svg, 116, 40, 26, 22, { fill: INK, fillStyle: 'solid', strokeWidth: 0.6 }); rect(svg, 124, 62, 10, 18, { fill: INK, fillStyle: 'solid', strokeWidth: 0.6 }); rect(svg, 70, 80, 120, 14, { fill: INK, fillStyle: 'solid' });
     T(svg, 100, 116, '3/12 to 12/12 roof pitch', { size: 11, anchor: 'middle', fill: INK2 });
@@ -393,6 +393,65 @@
       T(svg, x0 + hi * sc * 2 + 12, y + 24, '$' + lo.toLocaleString() + '–$' + hi.toLocaleString(), { size: 20, serif: true, fill: hl ? FINK : INK });
     });
   };
+
+  /* ---------- crisp technical drawing helpers (no roughness) ---------- */
+  function cr(svg, x, y, w, h, f = '#EEE', st = INK, sw = 1) { return el('rect', { x, y, width: w, height: h, fill: f, stroke: st, 'stroke-width': sw }, svg); }
+  function cl(svg, x1, y1, x2, y2, st = INK, sw = 1, dash) { const l = el('line', { x1, y1, x2, y2, stroke: st, 'stroke-width': sw }, svg); if (dash) l.setAttribute('stroke-dasharray', dash); return l; }
+  function cp(svg, pts, f = '#EEE', st = INK, sw = 1) { return el('polygon', { points: pts.map(p => p.join(',')).join(' '), fill: f, stroke: st, 'stroke-width': sw }, svg); }
+  function marker(svg, x, y, n) { el('circle', { cx: x, cy: y, r: 11, fill: FLAME }, svg); T(svg, x, y + 4, String(n), { size: 12, anchor: 'middle', fill: '#fff', weight: 700, halo: false }); }
+  function hatch(svg, x, y, w, h) { for (let i = -h; i < w; i += 5) cl(svg, x + Math.max(0, i), y + Math.max(0, -i), x + Math.min(w, i + h), y + Math.min(h, h - (i + h - w > 0 ? i + h - w : 0)), '#B9B9B5', 0.5); }
+
+  D.pitched = function (svg) {
+    // 6/12 roof (26.6 deg): rafter line, the adaptor wedge on the slope, vertical post, level heater
+    const a = Math.atan(6 / 12), x1 = 10, y1 = 112, x2 = 200, y2 = y1 - (x2 - x1) * Math.tan(a);
+    cp(svg, [[x1, y1], [x2, y2], [x2, y2 - 12], [x1, y1 - 12]], '#E4E2DE', INK2, 1);
+    const cx = 110, cy = y1 - (cx - x1) * Math.tan(a);
+    const wl = cx - 16, wr = cx + 16, yl = y1 - (wl - x1) * Math.tan(a), yr = y1 - (wr - x1) * Math.tan(a), yb = Math.max(yl, yr) + 6;
+    cp(svg, [[wl, yl], [wr, yr], [wr, yb], [wl, yb]], INK, INK, 1);
+    cr(svg, cx - 4, yb, 8, 26, INK, INK, 1);
+    cr(svg, cx - 70, yb + 26, 140, 12, INK, INK, 1);
+    cl(svg, cx - 58, yb + 37, cx + 58, yb + 37, FLAME, 2.6);
+    T(svg, x1 + 4, y1 - 18, '6/12 pitch', { size: 10, fill: STEEL });
+    T(svg, cx + 24, yb - 2, 'adaptor', { size: 10, fill: STEEL });
+  };
+
+  D.value = function (svg) {
+    const box = (x, y, w, t, sub, hl) => { cr(svg, x, y, w, 52, hl ? WASH : '#F5F5F4', hl ? FINK : '#D6D6D2', 1); T(svg, x + w / 2, y + 22, t, { size: 13, anchor: 'middle', weight: 700, halo: false }); if (sub) T(svg, x + w / 2, y + 40, sub, { size: 10.5, anchor: 'middle', fill: STEEL, halo: false }); };
+    const arr = (x1, y, x2) => { cl(svg, x1, y, x2 - 6, y, FINK, 1.6); cp(svg, [[x2 - 8, y - 5], [x2, y], [x2 - 8, y + 5]], FINK, FINK, 1); };
+    T(svg, 10, 22, 'THE HOMEOWNER', { size: 11, weight: 700, fill: FINK, halo: false });
+    [['Heat on the quote', 'planned in, not bolted on'], ['More evenings', 'spring, autumn and winter'], ['More use', 'of what they paid for'], ['Referrals', 'friends see it working']].forEach(([t, s], i) => { box(10 + i * 170, 34, 150, t, s, i === 2); if (i < 3) arr(160 + i * 170, 60, 180 + i * 170); });
+    T(svg, 10, 132, 'THE DEALER', { size: 11, weight: 700, fill: FINK, halo: false });
+    [['Heat on the quote', 'every pergola, every time'], ['A bigger ticket', 'heaters, controls, wiring'], ['More margin', 'per job, same visit'], ['Fewer callbacks', 'pre-wired, done once']].forEach(([t, s], i) => { box(10 + i * 170, 144, 150, t, s, i === 2); if (i < 3) arr(160 + i * 170, 170, 180 + i * 170); });
+  };
+
+  /* where to mount: crisp elevation of a two-bay louvered pergola with numbered mounting points */
+  D.mount2 = function (svg) {
+    const W = 680, floor = 250, s = 1.85, post = 6 * s, span = 300, H = 108;
+    const xl = 40, xr = xl + span * s * 1.0, yb = floor - H * s, bh = 9 * s, mid = (xl + xr) / 2;
+    cl(svg, 10, floor, W - 10, floor, INK, 1.2); for (let x = 14; x < W - 10; x += 9) cl(svg, x, floor + 1, x - 6, floor + 7, '#C9C9C6', 0.6);
+    [xl, mid - post / 2, xr - post].forEach(x => { cr(svg, x, yb - bh, post, floor - yb + bh, '#F2F2F0', INK, 1); });
+    cr(svg, xl, yb - bh, xr - xl, bh, '#F2F2F0', INK, 1);
+    cr(svg, xl + 3, yb - bh + 3, 26, bh * 0.5, '#fff', STEEL, 0.6);
+    for (let x = xl + post + 8; x < xr - post - 4; x += 15) { if (Math.abs(x - mid) < 10) continue; cl(svg, x - 5, yb - bh * 0.15, x + 5, yb - bh * 0.85, STEEL, 1.4); }
+    // 1: Tungsten on single post under perimeter beam (left bay), angled 15 deg
+    const t1 = xl + 70; cr(svg, t1 - 2, yb, 4, 8, INK, INK, 1); el('g', { transform: `rotate(-12 ${t1} ${yb + 10})` }, svg).appendChild(el('rect', { x: t1 - 40, y: yb + 8, width: 80, height: 7, fill: INK }));
+    marker(svg, t1, yb + 34, 1);
+    // 2: Eclipse pendant at the centre beam over a table
+    cr(svg, mid - 3, yb, 2, 16, INK, INK, 1); cr(svg, mid + 1, yb, 2, 16, INK, INK, 1); cp(svg, [[mid - 26, yb + 22], [mid - 22, yb + 16], [mid + 22, yb + 16], [mid + 26, yb + 22]], INK, INK, 1); cl(svg, mid - 24, yb + 24, mid + 24, yb + 24, '#F6C35C', 2);
+    marker(svg, mid + 40, yb + 34, 2);
+    // 3: wall bracket on the right post
+    const py = floor - 80 * s; cl(svg, xr - post, py, xr - post - 18, py, INK, 2); el('g', { transform: `rotate(28 ${xr - post - 18} ${py})` }, svg).appendChild(el('rect', { x: xr - post - 18 - 62, y: py, width: 62, height: 7, fill: INK }));
+    marker(svg, xr - post - 70, py + 40, 3);
+    // 4: recessed in a solid bay (right half shown with a ceiling panel)
+    const r1 = mid + 70, r2 = xr - post - 24; cr(svg, r1, yb - 4, r2 - r1, 4, '#D9D7D2', INK2, 0.8); cl(svg, (r1 + r2) / 2 - 36, yb, (r1 + r2) / 2 + 36, yb, FLAME, 3);
+    marker(svg, (r1 + r2) / 2, yb + 34, 4);
+    // tables
+    [xl + 70, mid, (r1 + r2) / 2].forEach(x => { cr(svg, x - 34, floor - 30 * s, 68, 3, STEEL, STEEL, 0.5); cl(svg, x - 28, floor - 29 * s, x - 28, floor, STEEL, 1); cl(svg, x + 28, floor - 29 * s, x + 28, floor, STEEL, 1); });
+    // dims
+    cl(svg, xr + 18, yb, xr + 18, floor, FINK, 0.9); cl(svg, xr + 13, yb, xr + 23, yb, FINK, 0.9); cl(svg, xr + 13, floor, xr + 23, floor, FINK, 0.9);
+    T(svg, xr + 26, (yb + floor) / 2, '8 ft min.', { size: 11, fill: FINK, weight: 700 });
+  };
+
   function draw() {
     window.HEIGHTS = window.HEIGHTS || [];
     document.querySelectorAll('svg[data-diag]').forEach(svg => { const k = svg.dataset.diag; if (D[k]) D[k](svg); });
