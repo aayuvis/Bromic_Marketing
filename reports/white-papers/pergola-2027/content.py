@@ -79,29 +79,29 @@ json_dumps = json.dumps
 def n_heaters(area, cov, f=0.85): return math.ceil(area / (cov * f) - 1e-9)
 def img(i, alt=''): return f'<img src="img/{i}.jpg" alt="{alt}">'
 
-PAGES.append(dict(type='cover', img='w-bromicatria23', alt='A black louvered pergola at night, warmed by recessed Platinum Electric heaters', pos='50% 45%',
+PAGES.append(dict(type='cover', img='w-kion-sui-madrid-spain-tungsten-electric-4', alt='A Tungsten heater glowing under an open louvered roof', pos='40% 50%',
     kicker='Bromic Planning Guide 2027', title_html='Heat The<br><em>Pergola</em>',
     sub='Heat built into the structure',
-    blurb='For pergola makers, dealers, builders and specifiers: what the market wants, and how Tungsten, Platinum and Eclipse fit today\'s pergolas.',
+    blurb='For pergola makers, dealers and specifiers.',
     note='Tungsten Series II · Platinum · Eclipse · Affinity'))
 
 PAGES.append(dict(type='exec', kicker='Executive Summary', h2='The Pergola Is Now The Outdoor Room', blocks=[
-  ('lede', 'Homeowners are roofing their patios and wiring them for year-round use. The pergola is where that money goes, and heat is what turns three seasons into twelve.'),
+  ('lede', 'The pergola is where outdoor money goes. Heat turns three seasons into twelve.'),
   ('cols', [[
     ('h4', 'Key insights'),
     ('ul', [
-      f'**Outdoor rooms lead.** Architects\' net score for outdoor living rooms rose from 40% to 51% in a year [{c("aia")}]; shade structures in Houzz projects rose 15 points to 35% [{c("hz26")}].',
-      f'**Our market research shows six things pergola buyers want from heat:** a slim look on slim beams, durability by the water, smart control that joins the rest of the outdoor room, clean installs, colours that match the frame, and an option for every budget [{c("pq")}].',
-      '**Pergola makers are choosing heater partners now,** and building heat into their own systems.',
-      '**Control is converging:** roofs, screens and lights already run from one app. Heat is the next piece, and it needs smart controls that integrate.',
+      '**Outdoor rooms lead:** architects\' net demand score up from 40% to 51% in a year; shade structures up 15 points.',
+      '**Buyers want six things from heat:** slim looks, durability by the water, smart control, clean installs, matching colours and an option for every budget.',
+      '**Pergola makers are choosing heater partners now.**',
+      '**Control is converging:** heat needs smart controls that integrate.',
     ]),
   ], [
     ('h4', 'So what'),
     ('ul', [
-      '**Tungsten Series II answers the beam:** about 14% narrower, a third lighter, one single post with the wiring inside it.',
-      '**Coastal answers the sea:** 316 marine-grade stainless under a corrosion-resistant coating.',
-      '**Affinity answers the app:** Bromic\'s own controls, with Alexa, Google, Control4, Crestron and Lutron.',
-      '**A portfolio answers the budget:** Tungsten Classic and Select give the same heat at two price points; Platinum is the architectural choice; Eclipse brings heat and light to the centre beam.',
+      '**Tungsten Series II:** 14% narrower, a third lighter, one post.',
+      '**Coastal:** built for salt air.',
+      '**Affinity:** one app, voice and home systems.',
+      '**A portfolio for every budget:** Classic, Select, Platinum, Eclipse.',
     ]),
     ('box', 'Action plan', [('ul', [
       '**Pergola makers:** add a Bromic heat option and pre-wired heater positions to the standard spec.',
@@ -113,7 +113,7 @@ PAGES.append(dict(type='exec', kicker='Executive Summary', h2='The Pergola Is No
   ('html', '<ol class="toc">' + ''.join(f'<li><span>{i:02d}</span><span>{t}</span><span>{p}</span></li>' for i, (t, p) in enumerate([
       ('Fits the leading pergola systems', 3), ('The trends', 4), ('What our research shows', 6), ('Slim · Coastal · Smart · Clean install · Colour', 7),
       ('A portfolio for every pergola', 12), ('Every pergola type · every beam', 14), ('Against the competition', 16),
-      ('Planning: heights, sizing, circuits', 17), ('For pergola makers and dealers · Sources', 19)], 1)) + '</ol>'),
+      ('Planning: heights, sizing, circuits', 17), ('For pergola makers and dealers', 19)], 1)) + '</ol>'),
 ]))
 
 S('bca1', 'Bromic Heating (bromic.ca), "Maximizing outdoor living spaces with outdoor structures and heating solutions", with StruXure. bromic.ca/blog/maximizing-outdoor-living-spaces-with-outdoor-structures-and-heating-solutions/')
@@ -133,13 +133,13 @@ QUOTES = [
   ('The end result is a space that\'s not only beautiful, but actually works for how we want to use it.', 'Homeowner, Livonia, Michigan', 'qsky', lg('struxure')),
 ]
 PAGES.append(dict(type='brands', kicker='Built In On The World\'s Leading Pergolas', h2='In Their Words', blocks=[
-  ('lede', 'Pergola makers, builders, dealers and owners on Bromic heaters built into their structures, from louvered roofs in Michigan to opening roofs in New Zealand and bioclimatic pergolas in Santiago.'),
+  ('lede', 'Pergola makers, builders, dealers and owners on Bromic.'),
   ('html', '<div class="quotes">' + ''.join(f'<blockquote><p>"{q}"</p><small>{r} <sup>{c(s)}</sup></small>{l}</blockquote>' for q, r, s, l in QUOTES) + '</div>'),
   ('p', 'Quotes as published by each company, its dealer or Bromic. Logos and quotes need each company\'s permission before external use.'),
 ]))
 
 PAGES.append(dict(type='trends', kicker='The Trends · 1 of 2', h2='Homeowners Are Building Roofs, Then Wiring Them', blocks=[
-  ('lede', 'The money in outdoor living is moving under a roof, and the roof is becoming a room with power, light and heat.'),
+  ('lede', 'Outdoor living is moving under a roof, with power, light and heat.'),
   ('stats', [
     ('51%', f'Net share of residential architecture firms reporting rising demand for outdoor living rooms, Q2 2026, up from 40% a year earlier. Heated exterior space rose from 12% to 16% [{c("aia")}].', 'AIA Home Design Trends Survey Q3 2026; net index, not a share of homes'),
     ('35%', f'Homeowners upgrading structures who added shade structures, up 15 percentage points on the 2024 study [{c("hz26")}].', 'Houzz 2026 U.S. Outdoor Trends Study, 1,191 users'),
@@ -178,12 +178,12 @@ RS = [
   ('l-008-059', 'High-Performance Heat At Every Budget', 'High-performance heaters do not fit every pergola customer\'s budget, and the heater is often the first line cut.', 'Tungsten Classic and Select give the same heat coverage at two price points; Platinum for the architectural top end.'),
 ]
 PAGES.append(dict(type='research', kicker='What Our Research Shows', h2='Six Things Pergola Buyers Want From Heat', blocks=[
-  ('p', f'We studied pergola makers\' specifications, dealer and installer guides, and the questions that come up on real projects [{c("pq")}]. Six themes stood out. Each is an opportunity, and Bromic has an answer for each.'),
+  ('p', 'Six themes stood out in our research. Each is an opportunity, and Bromic has an answer for each.'),
   ('html', '<div class="rs">' + ''.join(f'<div class="rsc"><div class="rsi">{img(i, t)}</div><div class="rst"><span class="rn">{n:02d}</span><h3>{t}</h3><p>{w}</p><p class="ra"><b>Bromic:</b> {a}</p></div></div>' for n, (i, t, w, a) in enumerate(RS, 1)) + '</div>'),
 ]))
 
 PAGES.append(dict(type='issue', kicker='Slim Structures', h2='A Slimmer Heater For A Slim Beam', blocks=[
-  ('p', 'Louvered pergolas sell on clean lines: 8 in beams in the US, 230–260 mm frames in Europe. Tungsten Series II was drawn for exactly this: narrower, lighter and on one post.'),
+  ('p', 'Drawn for slim beams: narrower, lighter, on one post.'),
   ('h4', 'Side view'),
   ('diag', 'footprint', '680 340', 'End views under the same 6 in beam, drawn to one scale.'),
   ('h4', 'Front view'),
@@ -198,7 +198,7 @@ PAGES.append(dict(type='issue', kicker='Slim Structures', h2='A Slimmer Heater F
 ]))
 
 PAGES.append(dict(type='issue', kicker='Life By The Water', h2='Built For Salt Air', blocks=[
-  ('lede', 'Coastal and pool-side pergolas are where heaters are tested hardest. Pergola makers handle it in different ways: some limit finish warranties near the sea, others specify marine-grade stainless hardware. A heater under that roof should be built to the same standard.'),
+  ('lede', 'Coastal and pool-side pergolas test every metal. The heater under that roof should be built to the same standard as the roof.'),
   ('cols', [[
     ('h4', 'Tungsten Coastal'),
     ('ul', ['**Two layers:** 316 marine-grade stainless steel under a high-temperature, corrosion-resistant coating.', '**Recess kit** in powder-coated 316 stainless, IPX5.', '**4 and 6 kW**, 208 and 240 V, black or white.', '**For coastal homes and venues**, not marine craft.']),
@@ -214,7 +214,7 @@ PAGES.append(dict(type='issue', kicker='Life By The Water', h2='Built For Salt A
 
 APP = ['**Zones:** group the heaters over the dining table, the lounge and the bar, and run each on its own.', '**Schedules and timers:** warm before guests arrive, off when the evening ends.', '**Dimming in 1% steps** on the Dimmer: turn up on a cold night, down on a mild one.', '**Heat and light** set separately on Eclipse.', '**Voice:** Amazon Alexa and Google Assistant, no extra hub.', '**Home systems:** Control4, Crestron and Lutron; Ethernet and 0–10 V for building management on the 5-channel controller.']
 PAGES.append(dict(type='issue', kicker='One Connected Outdoor Room', h2='Heat That Joins The Smart Home', blocks=[
-  ('lede', 'The roof, the lights and the screens already answer to a phone. Affinity Smart-Heat brings the heat into the same evening: one app, every heater, every zone.'),
+  ('lede', 'The roof, lights and screens already answer to a phone. Now the heat does too.'),
   ('cols', [[
     ('photo', 'w-bromic-heating-app-blog-image', 300, 'The Bromic app: every heater and zone on the phone.'),
   ], [
@@ -230,7 +230,7 @@ ACC = [('rv-pr-d-social-black-ceiling-post-graphite-4x5', 'Single post', 'Fixes 
        ('rv-pr-select-graphite-angled-bracket', 'Angled mounting bracket', 'Set positions at 15°, 30° and 45° to aim the heat at the seats.'),
        ('t2-low-clearance-recess', 'Low-clearance recess kit', 'Flush in a 7.5 in cavity, fan-ventilated, recess box supplied.')]
 PAGES.append(dict(type='issue', kicker='Clean Installs', h2='One Post, Wiring Inside, Nothing On Show', blocks=[
-  ('p', 'Pergola makers already route power through hollow posts and beams. Series II keeps it hidden all the way to the heater, and its accessories fit every surface a pergola offers.'),
+  ('p', 'Power runs hidden through the post and beam, all the way to the heater.'),
   ('html', '<div class="acc">' + ''.join(f'<div class="ac"><div class="aci">{img(i, t)}</div><h4>{t}</h4><p>{d}</p></div>' for i, t, d in ACC) + '</div>'),
   ('cols', [[
     ('h4', 'Pitched-ceiling adaptor'),
@@ -249,7 +249,7 @@ PAGES.append(dict(type='issue', kicker='Clean Installs', h2='One Post, Wiring In
 
 FRAMES[:] = [['Black', '#1E1E1E', 'pair: black'], ['White', '#F4F4F2', 'pair: white'], ['Bronze', '#5B4636', 'pair: black, graphite'], ['Gray', '#4A4D50', 'pair: graphite']]
 PAGES.append(dict(type='issue', kicker='Colour That Matches The Frame', h2='Graphite Joins Black And White', blocks=[
-  ('p', 'Pergola frames come in more than black and white: grey, anthracite and bronze are now standard on louvered roofs. Graphite gives Tungsten Select a third, full-body finish that sits with darker frames.'),
+  ('p', 'Graphite gives Tungsten Select a third full-body finish for today\'s darker frames.'),
   ('diag', 'colours', '700 130'),
   ('table', {'head': ['Frame colour', 'Heater finish', 'The effect'], 'rows': [
     ['**Black**', 'Tungsten Select black; Platinum black glass; Eclipse', 'The heater disappears into the frame'],
@@ -265,7 +265,7 @@ def pcard(i, name, tags):
     return f'<div class="pc"><div class="pci">{img(i, name)}</div><h4>{name}</h4><div class="tags">' + ''.join(f'<span class="tg {k}">{t}</span>' for t, k in tags) + '</div></div>'
 E_, G_, M_, F_, W_ = ('Electric', 'e'), ('Gas', 'g'), ('On the pergola', 'm'), ('Freestanding', 'f'), ('By the water', 'w')
 PAGES.append(dict(type='portfolio', kicker='A Portfolio That Fits Every Need · 1 of 2', h2='Every Fuel, Every Setting, Every Mount', blocks=[
-  ('p', 'Electric or gas, on the structure or beside it, inland or by the sea: one Bromic family covers every pergola and the space around it.'),
+  ('p', 'Electric or gas, on the structure or beside it, inland or by the sea.'),
   ('html', '<div class="pgrid">' + ''.join([
     pcard('pf-tungsten-series-ii', 'Tungsten Electric Series II', [E_, M_]),
     pcard('pf-tungsten-coastal', 'Tungsten Coastal', [E_, M_, W_]),
@@ -291,7 +291,7 @@ def lcard(tier, name, i, rows, best=False):
     return (f'<div class="lc{" best" if best else ""}"><div class="tier">{tier}</div><h3>{name}</h3><div class="lci">{img(i, name)}</div>'
             + ''.join(f'<div class="lr"><b>{a}</b><span>{b}</span></div>' for a, b in rows) + '</div>')
 PAGES.append(dict(type='portfolio', kicker='A Portfolio That Fits Every Need · 2 of 2', h2='The Same Warmth At Every Price Point', blocks=[
-  ('lede', 'Tungsten Classic and Tungsten Select deliver the same heat coverage. The customer chooses the look and the features; the warmth is the same.'),
+  ('lede', 'Classic and Select give the same heat coverage. The customer chooses the look.'),
   ('html', '<div class="ladder">' + ''.join([
     lcard('Good · $', 'Tungsten Classic', 't2-classic', [('Heat', '2, 3, 4, 6 kW · 65–160 ft²'), ('Finish', 'Black, stainless end covers'), ('Mount', 'Proven two-tube mount'), ('Warranty', '2 years'), ('Controls', 'Affinity On/Off or Dimmer')]),
     lcard('Better · $$', 'Tungsten Select', 't2-select-black', [('Heat', 'Same as Classic · 65–160 ft²'), ('Finish', 'Black, white, graphite; 3 fronts'), ('Mount', 'Single post; 7.5 in recess; IPX5'), ('Warranty', '3 yr heater, 7 yr elements'), ('Controls', 'Affinity Dimmer and app')]),
@@ -320,7 +320,7 @@ BT = [(dict(w=2, h=8, wl='2 in', hl='8 in', gutter=True), 'Aluminium box beam wi
       (dict(w=5.5, h=9.25, wl='6×10', hl='9¼ in', timber=True), 'Timber beam', 'Tungsten on a single post into solid timber; keep 12 in above the heater to the rafters. Platinum on its pole.'),
       (dict(w=2, h=6, wl='2 in', hl='6 in', channel=True), 'Fan beam or accessory channel', 'The pergola maker\'s own mounting point across the bay: Eclipse pendant or Tungsten over the table.')]
 PAGES.append(dict(type='beams', kicker='Every Beam', h2='How Tungsten And Platinum Mount To Any Beam', blocks=[
-  ('p', f'Pergola beams vary by maker and market, from 8 in aluminium boxes in the US to deep frames in Europe and timber in traditional builds [{c("pq")}]. Tungsten Series II\'s single post needs only a 2.5 × 4 in plate; Platinum mounts on its 8 in pole, a wall bracket or a recess.'),
+  ('p', 'Tungsten needs only a 2.5 × 4 in plate; Platinum mounts on its pole, a wall bracket or a recess.'),
   ('html', '<div class="bgrid">' + ''.join(f'<figure class="bt"><svg class="diag" data-beamtype="{E(json_dumps(p))}" viewBox="0 0 260 205"></svg><figcaption><b>{t}</b>{d}</figcaption></figure>' for p, t, d in BT) + '</div>'),
   ('p', 'Beams and heaters drawn to one scale. Typical sizes from pergola makers\' published specifications.'),
 ]))
@@ -334,7 +334,7 @@ SC = [('Water rating', 'IPX4', 'IPX5 on Tungsten Series II, made for rain throug
       ('Element warranty', 'Elements rated to 5,000 hours; parts only, labour excluded (2024 terms)', '7 years on Series II elements'),
       ('One family for the patio', 'Fixed electric heaters only', 'Electric, Eclipse pendant and freestanding, built-in and freestanding gas')]
 PAGES.append(dict(type='comp', kicker='Against The Competition', h2='Built For The Pergola. Ahead Where It Counts.', blocks=[
-  ('lede', 'Dealers compare Bromic with the best-known heater partner in the pergola market. On the points that matter under a pergola, Bromic leads.'),
+  ('lede', 'On the points that matter under a pergola, Bromic leads.'),
   ('html', '<div class="sc"><div class="sch"><span></span><span>The competition</span><span>Bromic</span></div>' + ''.join(f'<div class="scr"><b>{a}</b><span class="cx">{b}</span><span class="bx">{cc}</span></div>' for a, b, cc in SC) + '</div>'),
   ('p', f'Competitor facts from the competition\'s own manuals, warranty and pages [{c("infm")}]; Bromic facts from [{c("deck","look","faq","man2","plclr")}]. Bromic clearances from the FAQ; Series II figures to confirm. Comparative statements await Specification and compliance approval before external use.'),
   ('photo', 'w-mountain-view-retreat-platinum-electric-rece', 230, 'Platinum Electric recessed in a louvered roof.'),
@@ -360,7 +360,7 @@ PAGES.append(dict(type='plan', kicker='Planning · 1 of 2', h2='Where, How High,
     ]),
   ]]),
   ('h4', 'How many heaters'),
-  ('p', f'Heaters = seating area ÷ (heat area × cover factor × climate factor), rounded up: partly covered 1.0, cool evenings around 40–50°F 0.85 [{c("calc")}]. Tungsten Classic and Select share the same heat areas.'),
+  ('p', 'Seating area ÷ (heat area × 0.85), rounded up, for a pergola on cool evenings. Classic and Select share the same heat areas.'),
   ('table', {'head': ['Pergola', 'Area'] + [m for m, _ in MODELS], 'rows': [[f'**{n}**', f'{a} ft²'] + [str(n_heaters(a, cv)) for _, cv in MODELS] for n, a in SIZES]}),
   ('p', 'Example: a 14 × 20 ft pergola is 280 ft²; 280 ÷ (160 × 0.85) = 2.06, so three Tungsten 6 kW heaters, on one Affinity 5-channel Dimmer with a wall switch.'),
 ]))
@@ -398,7 +398,7 @@ PAGES.append(dict(type='plan', kicker='Planning · 2 of 2', h2='Circuits, Contro
 PAGES.append(dict(type='check', kicker='For Pergola Makers And Dealers', h2='Make Heat Part Of Every Pergola', blocks=[
   ('cols', [[
     ('h4', 'What Bromic brings a pergola maker'),
-    ('ul', ['**A heat option for your spec:** Classic, Select, Coastal, Platinum and Eclipse, in your frame colours.', '**CAD and Revit files** for your drawings and configurators.', '**A light load:** Series II weighs 13–15 lb on one 2.5 × 4 in plate.', '**IPX5** for heaters that see rain through open louvres.', '**Affinity** for app and home-system control alongside your roof.', '**The Bromic Partner Program:** partner pricing, design plans, extended warranty, one point of contact, project marketing.']),
+    ('ul', ['**A heat option for your spec:** Classic, Select, Coastal, Platinum and Eclipse, in your frame colours.', '**CAD and Revit files** for your drawings and configurators.', '**A light load:** Series II weighs 13–15 lb on one 2.5 × 4 in plate.', '**IPX5** for heaters that see rain through open louvres.', '**Affinity** for app and home-system control alongside your roof.', '**Design support:** heating layouts and specifications for your projects.']),
     ('h4', 'Still to agree with each maker'),
     ('ul', ['Approved mounting points and fixings on their beams.', 'The frame warranty when a heater is fitted.', 'Where the heater circuit shares a post with the downspout.']),
   ], [
@@ -411,6 +411,18 @@ PAGES.append(dict(type='check', kicker='For Pergola Makers And Dealers', h2='Mak
 
 PAGES.append(dict(type='sources'))
 PAGES.append(dict(type='back', img='w-kion-sui-madrid-spain-tungsten-electric-5', alt='Tungsten heaters in a louvered pergola restaurant',
-  kicker='Bromic Partner Program', h2='You Build The Pergola. We Know How To Heat It.',
-  text='Partner pricing, free heating design plans for your projects, extended warranty and one point of contact at Bromic.',
-  cta='Join the Bromic Partner Program', site='bromic.com/lp-builders'))
+  kicker='Bromic Heating', h2='You Build The Pergola. We Know How To Heat It.',
+  text='', cta='', site='bromic.com'))
+
+import re as _re
+_NOTE = _re.compile(r'^(Sources|Widths|Finishes|Competitor facts|Classic launches|Quotes as published|Bromic installations|Platinum and Eclipse from|Bromic recommended|Figures from|Gas under a roof follows|"Installed|Beams and heaters drawn|Illustrations|Example:)')
+PAGES[:] = [p for p in PAGES if p['type'] != 'sources']
+for p in PAGES:
+    if 'blocks' in p:
+        nb = []
+        for b in p['blocks']:
+            if b[0] == 'p' and _NOTE.match(b[1]): continue
+            if b[0] == 'stats': b = ('stats', [(n, t, '') for n, t, s in b[1]])
+            if b[0] == 'diag' and len(b) > 3: b = b[:3]
+            nb.append(b)
+        p['blocks'] = nb

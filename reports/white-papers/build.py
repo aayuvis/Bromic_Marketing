@@ -12,7 +12,7 @@ def md(s):
     """Light inline markup: **bold**, [n] -> superscript source number."""
     s = E(s)
     s = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', s)
-    s = re.sub(r'\[(\d+(?:,\s*\d+)*)\]', lambda m: f'<sup>{m.group(1).replace(" ", "")}</sup>', s)
+    s = re.sub(r'\s*\[(\d+(?:,\s*\d+)*)\]', '', s)
     return s
 
 def build(rid, pdf=False):
@@ -64,7 +64,7 @@ def build(rid, pdf=False):
   <div class="cvnote"><span>{E(pg['note'])}</span><span>Draft for review</span></div></section>''')
         elif t == 'back':
             pages.append(f'''<section class="pg back">{img(pg['img'], 'bg', pg['alt'])}<div class="bt"><div class="kick">{E(pg['kicker'])}</div><h2>{E(pg['h2'])}</h2>
-  <p>{md(pg['text'])}</p><div class="cta">{E(pg['cta'])}</div><div class="site">{E(pg['site'])}</div><img class="logo" src="LOGOW" alt="Bromic Heating"></div></section>''')
+  {f"<p>{md(pg['text'])}</p>" if pg['text'] else ''}{f'<div class="cta">{E(pg["cta"])}</div>' if pg['cta'] else ''}<div class="site">{E(pg['site'])}</div><img class="logo" src="LOGOW" alt="Bromic Heating"></div></section>''')
         elif t == 'sources':
             src = ''.join(f'<li>{E(s)}</li>' for s in C.SOURCES)
             pages.append(f'<section class="pg srcs"><div class="kick">Sources</div><h2>Where The Facts Come From</h2><p class="note" style="margin-bottom:10px">{md(C.NOTE)}</p><ol>{src}</ol>{folio(p)}</section>')
@@ -98,6 +98,7 @@ def build(rid, pdf=False):
     sk = open(os.path.join(HERE, 'sketch.js')).read()
     body = '\n'.join(pages).replace('src="LOGOW"', 'src="../../../images/portfolio/bromic-logo-white.png"').replace('src="LOGO"', 'src="../../../images/portfolio/bromic-logo.png"')
     frames = f'<script>window.FRAMES={json.dumps(getattr(C, "FRAMES", []))}</script>'
+    body = re.sub(r'\s*<sup>[\d,]+</sup>', '', body)
     doc = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex">
 <title>{E(C.TITLE)}</title><style>{css}</style></head><body><main id="deck">{body}</main>{frames}<script>{rough}</script><script>{sk}</script></body></html>'''
     out = os.path.join(RD, 'letter.html'); open(out, 'w').write(doc); print(out, len(C.PAGES), 'pages')
