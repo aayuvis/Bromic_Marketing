@@ -89,7 +89,10 @@ def build(rid, pdf=False):
     for i in used:
         out = os.path.join(RD, 'img', i + '.jpg')
         if not os.path.exists(out):
-            im = Image.open(os.path.join(ROOT, 'images', 'library', i + '.webp')).convert('RGB'); im.thumbnail((1800, 1800)); im.save(out, quality=82, optimize=True)
+            srcp = (os.path.join(ROOT, 'images', 'review', 'full', i[3:] + '.jpg') if i.startswith('rv-') else
+                    os.path.join(ROOT, 'images', 'portfolio', i[3:] + '.webp') if i.startswith('pf-') else
+                    os.path.join(ROOT, 'images', 'library', i + '.webp'))
+            im = Image.open(srcp).convert('RGB'); im.thumbnail((1800, 1800)); im.save(out, quality=82, optimize=True)
     css = open(os.path.join(HERE, 'wp.css')).read().replace('FONT_DIDOT', '../../../app/src/fonts/gfs-didot-latin.woff2').replace('FONT_ARIMO', '../../../app/src/fonts/arimo-latin.woff2')
     rough = open(os.path.join(ROOT, 'reports', 'trends-2027', 'engine', 'vendor', 'rough-4.6.6.js')).read()
     sk = open(os.path.join(HERE, 'sketch.js')).read()

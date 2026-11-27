@@ -230,10 +230,147 @@
     },
   };
 
+
+  /* ---------- isometric pergola types (feet; x right-down, y left-down, z up) ---------- */
+  function isoScene(svg, boxes, o) {
+    const c = 0.866, sn = 0.5, vb = svg.viewBox.baseVal, VW = vb.width, VH = vb.height;
+    const U = (x, y, z) => [(x - y) * c, (x + y) * sn - z];
+    const pts = []; boxes.forEach(b => { for (const dx of [0, b.w]) for (const dy of [0, b.d]) for (const dz of [0, b.h]) pts.push(U(b.x + dx, b.y + dy, b.z + dz)); });
+    if (o.ground) { const [W, D] = o.ground; [[-1, -1], [W + 1, -1], [W + 1, D + 1], [-1, D + 1]].forEach(([x, y]) => pts.push(U(x, y, 0))); }
+    if (o.wall) { const [W, H] = o.wall; pts.push(U(-0.2, -0.2, H), U(W + 0.4, -0.2, H)); }
+    const xs = pts.map(p => p[0]), ys = pts.map(p => p[1]), x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys);
+    const k = Math.min((VW - 16) / (x1 - x0), (VH - 12) / (y1 - y0)), ox = (VW - (x1 - x0) * k) / 2 - x0 * k, oy = (VH - (y1 - y0) * k) / 2 - y0 * k;
+    const P = (x, y, z) => { const u = U(x, y, z); return [ox + u[0] * k, oy + u[1] * k]; };
+    // ground
+    if (o.ground) { const [W, D] = o.ground; poly(svg, [P(-1, -1, 0), P(W + 1, -1, 0), P(W + 1, D + 1, 0), P(-1, D + 1, 0)], { stroke: LINE, fill: PAPER2, fillStyle: 'solid', strokeWidth: 0.8, roughness: 0.6 }); }
+    if (o.wall) { const [W, H] = o.wall; poly(svg, [P(-0.2, -0.2, 0), P(W + 0.4, -0.2, 0), P(W + 0.4, -0.2, H), P(-0.2, -0.2, H)], { stroke: STEEL, fill: '#E9E6E1', fillStyle: 'hachure', hachureGap: 6, hachureAngle: 60, strokeWidth: 0.8 }); }
+    boxes.slice().sort((a, b) => (a.x + a.w / 2 + a.y + a.d / 2 + (a.z + a.h / 2) * 0.3) - (b.x + b.w / 2 + b.y + b.d / 2 + (b.z + b.h / 2) * 0.3)).forEach(b => {
+      const { x, y, z, w, d, h } = b, f = b.f || '#F2F2F0', g = b.g || '#DADAD6', t = b.t || '#FFFFFF', sw = b.sw || 0.9;
+      poly(svg, [P(x + w, y, z), P(x + w, y + d, z), P(x + w, y + d, z + h), P(x + w, y, z + h)], { fill: f, fillStyle: 'solid', strokeWidth: sw, roughness: 0.5 });
+      poly(svg, [P(x, y + d, z), P(x + w, y + d, z), P(x + w, y + d, z + h), P(x, y + d, z + h)], { fill: g, fillStyle: 'solid', strokeWidth: sw, roughness: 0.5 });
+      poly(svg, [P(x, y, z + h), P(x + w, y, z + h), P(x + w, y + d, z + h), P(x, y + d, z + h)], { fill: t, fillStyle: 'solid', strokeWidth: sw, roughness: 0.5 });
+      if (b.glow) { const a = P(x + 0.15 * w, y + d, z), bb = P(x + 0.85 * w, y + d, z); crisp(svg, a[0], a[1] + 1, bb[0], bb[1] + 1, FLAME, 3); }
+      if (b.disc) { const [cx, cy] = P(x + w / 2, y + d / 2, z); ell(svg, cx, cy + 1, w * k * 1.2, w * k * 0.62, { fill: INK, fillStyle: 'solid', strokeWidth: 0.8 }); ell(svg, cx, cy + 3, w * k * 1.05, w * k * 0.5, { stroke: '#F6C35C', strokeWidth: 2, roughness: 0.3 }); }
+    });
+    (o.labels || []).forEach(([x, y, z, tx, ty, t]) => { const [px, py] = P(x, y, z); callout(svg, px, py, tx, ty, t, { size: 10.5, anchor: tx < px ? 'end' : 'start' }); });
+    return P;
+  }
+  const FR = { f: '#E4E4E1', g: '#CFCFCB', t: '#F7F7F5' }, DK = { f: '#3A3A3A', g: '#2A2A2A', t: '#4A4A4A' }, TIM = { f: '#C9A27A', g: '#A9825C', t: '#D9B68E' };
+  const HT = (x, y, z, w = 4.7) => Object.assign({ x, y, z, w, d: 0.6, h: 0.32, glow: 1, sw: 0.7 }, DK);
+  function frame(W, D, H, o = {}) {
+    const m = o.mat || FR, p = o.post || 0.5, bh = o.bh || 0.7, out = [];
+    if (!o.attached) out.push(Object.assign({ x: 0, y: 0, z: 0, w: p, d: p, h: H }, m));
+    out.push(Object.assign({ x: W - p, y: 0, z: 0, w: p, d: p, h: o.attached ? 0 : H }, m));
+    out.push(Object.assign({ x: 0, y: D - p, z: 0, w: p, d: p, h: H }, m), Object.assign({ x: W - p, y: D - p, z: 0, w: p, d: p, h: H }, m));
+    out.push(Object.assign({ x: 0, y: 0, z: H, w: W, d: p, h: bh }, m), Object.assign({ x: 0, y: D - p, z: H, w: W, d: p, h: bh }, m));
+    out.push(Object.assign({ x: 0, y: 0, z: H, w: p, d: D, h: bh }, m), Object.assign({ x: W - p, y: 0, z: H, w: p, d: D, h: bh }, m));
+    return out.filter(b => b.h > 0);
+  }
+  const TYPES = {
+    louvered(svg) { const W = 12, D = 10, H = 8.6, b = frame(W, D, H);
+      for (let x = 0.9; x < W - 0.6; x += 0.75) b.push({ x, y: 0.5, z: H + 0.15, w: 0.45, d: D - 1, h: 0.12, f: '#ECECEA', g: '#D8D8D4', t: '#FAFAF8', sw: 0.5 });
+      b.push(HT(3.6, D - 1.3, H - 0.55), HT(3.6, 0.6, H - 0.55));
+      isoScene(svg, b, { ground: [W, D], ox: 170, oy: 40, k: 13 }); },
+    attached(svg) { const W = 12, D = 9, H = 8.4, b = frame(W, D, H, { attached: true, mat: DK });
+      for (let y = 1; y < D - 0.6; y += 0.75) b.push({ x: 0.5, y, z: H + 0.15, w: W - 1, d: 0.45, h: 0.12, f: '#555', g: '#444', t: '#666', sw: 0.5 });
+      b.push(Object.assign({ x: 0.1, y: 2.5, z: 6.3, w: 0.5, d: 4.7, h: 0.32, glow: 0 }, DK));
+      b.push(HT(3.2, D - 1.2, H - 0.55));
+      const P = isoScene(svg, b, { wall: [W, 10], ground: [W, D], ox: 175, oy: 38, k: 13 }); },
+    timber(svg) { const W = 12, D = 10, H = 8.8, b = frame(W, D, H, { mat: TIM, post: 0.55, bh: 0.9 });
+      for (let x = 0.8; x < W - 0.5; x += 1.1) b.push(Object.assign({ x, y: -0.4, z: H + 0.9, w: 0.25, d: D + 0.8, h: 0.5, sw: 0.6 }, TIM));
+      b.push(HT(3.6, D - 1.4, H - 0.6));
+      isoScene(svg, b, { ground: [W, D], ox: 170, oy: 34, k: 13 }); },
+    pavilion(svg) { const W = 12, D = 10, H = 8.6, b = frame(W, D, H, { mat: TIM });
+      b.push({ x: -0.3, y: -0.3, z: H + 0.7, w: W + 0.6, d: D + 0.6, h: 0.45, f: '#BBB6AE', g: '#A39E96', t: '#D4CFC6' });
+      b.push({ x: 2.5, y: 3.2, z: H + 0.68, w: 4.7, d: 0.6, h: 0.02, f: INK, g: INK, t: INK, glow: 1 }, { x: 2.5, y: 6.4, z: H + 0.68, w: 4.7, d: 0.6, h: 0.02, f: INK, g: INK, t: INK, glow: 1 });
+      isoScene(svg, b, { ground: [W, D], ox: 170, oy: 34, k: 13 }); },
+    fabric(svg) { const W = 12, D = 10, H = 8.4, b = frame(W, D, H, { mat: DK });
+      b.push({ x: 0.5, y: 0.5, z: H + 0.55, w: W - 1, d: D - 1, h: 0.05, f: '#EFE9DE', g: '#E6DFD2', t: '#F6F1E8', sw: 0.6 });
+      b.push(Object.assign({ x: W - 0.95, y: 3, z: 6.4, w: 0.45, d: 4.7, h: 0.32, glow: 0 }, DK));
+      isoScene(svg, b, { ground: [W, D], ox: 170, oy: 36, k: 13 }); },
+    hospitality(svg) { const W = 20, D = 12, H = 9.4, b = frame(W, D, H);
+      b.push({ x: W / 2 - 0.25, y: 0, z: H, w: 0.5, d: D, h: 0.7, f: '#E4E4E1', g: '#CFCFCB', t: '#F7F7F5' });
+      for (let x = 0.9; x < W - 0.6; x += 0.9) if (Math.abs(x - W / 2) > 0.5) b.push({ x, y: 0.5, z: H + 0.15, w: 0.5, d: D - 1, h: 0.1, f: '#ECECEA', g: '#D8D8D4', t: '#FAFAF8', sw: 0.45 });
+      b.push(HT(2.2, D - 1.3, H - 0.55), HT(12.8, D - 1.3, H - 0.55), HT(2.2, 0.6, H - 0.55), HT(12.8, 0.6, H - 0.55));
+      b.push({ x: W / 2 - 0.9, y: D / 2 - 0.9, z: H - 2.3, w: 1.8, d: 1.8, h: 0.1, f: INK, g: INK, t: INK, disc: 1 });
+      isoScene(svg, b, { ground: [W, D], ox: 165, oy: 26, k: 9.6 }); },
+  };
+
+
+  /* ---------- pergola types as elevations (inches) ---------- */
+  function typeElev(svg, p) {
+    const vb = svg.viewBox.baseVal, VW = vb.width, VH = vb.height, floor = VH - 14;
+    const span = p.span || 144, H = p.H || 108, post = 5, s = Math.min((VW - 60) / (span + 2 * post), (floor - 30) / (H + 24));
+    const xl = (VW - (span + 2 * post) * s) / 2, xr = xl + (span + 2 * post) * s, yb = floor - H * s;
+    const fr = p.mat === 'timber' ? { fill: '#D9B68E', fillStyle: 'hachure', hachureGap: 3, stroke: '#7A5534' } : p.mat === 'dark' ? { fill: '#3A3A3A', fillStyle: 'solid' } : { fill: '#EDEDEB', fillStyle: 'solid' };
+    line(svg, 6, floor, VW - 6, floor, { stroke: INK2, strokeWidth: 1.1 });
+    for (let x = 10; x < VW - 10; x += 12) crisp(svg, x, floor + 1, x - 7, floor + 8, LINE, 0.7);
+    const bh = (p.bh || 8) * s;
+    if (p.wall) { rect(svg, xl - 14, floor - (H + 40) * s, 14 + post * s, (H + 40) * s, { fill: '#E9E6E1', fillStyle: 'hachure', hachureGap: 5, stroke: STEEL }); }
+    else rect(svg, xl, yb - bh, post * s, floor - yb + bh, fr);
+    rect(svg, xr - post * s, yb - bh, post * s, floor - yb + bh, fr);
+    if (p.bays) for (let i = 1; i < p.bays; i++) { const x = xl + (xr - xl) * i / p.bays - post * s / 2; rect(svg, x, yb - bh, post * s, floor - yb + bh, fr); }
+    if (p.type === 'pavilion') { rect(svg, xl - 10, yb - 16 * s, xr - xl + 20, 16 * s, { fill: '#C9C4BC', fillStyle: 'solid' }); }
+    else rect(svg, xl, yb - bh, xr - xl, bh, fr);
+    if (p.type === 'louvered') { for (let x = xl + 10; x < xr - 6; x += 8 * s) line(svg, x - 2.6 * s, yb - bh * 0.75, x + 2.6 * s, yb - bh * 0.9, { stroke: STEEL, strokeWidth: 1.3, roughness: 0.4 }); }
+    if (p.type === 'timber') { for (let x = xl - 6; x < xr + 6; x += 16 * s) rect(svg, x, yb - bh - 7 * s, 2 * s, 7 * s, { fill: '#D9B68E', fillStyle: 'solid', stroke: '#7A5534', strokeWidth: 0.7 }); line(svg, xl - 12, yb - bh - 7 * s, xr + 12, yb - bh - 7 * s, { stroke: '#7A5534' }); }
+    if (p.type === 'fabric') { const pts = []; for (let i = 0; i <= 12; i++) { const x = xl + (xr - xl) * i / 12; pts.push([x, yb - bh - 6 - Math.sin(i / 12 * Math.PI * 6) * 2.5]); } add(svg, R(svg).linearPath(pts, O({ stroke: '#B8A98C', strokeWidth: 2 }))); }
+    const tbl = (f) => table(svg, xl + (xr - xl) * f, floor, s);
+    (p.heaters || []).forEach(([k, f]) => {
+      const x = xl + (xr - xl) * f;
+      if (k === 't') tungstenElev(svg, x, yb, s, { L: 45, post: 4 });
+      if (k === 'e') eclipseElev(svg, x, yb, s, { pole: 8 });
+      if (k === 'p') platinumElev(svg, x, yb, s, { L: 33.1, pole: 8 });
+      if (k === 'r') { const L = 45 * s; line(svg, x - L / 2, yb - 1, x + L / 2, yb - 1, { stroke: INK, strokeWidth: 4, roughness: 0.2 }); line(svg, x - L / 2 + 4, yb + 1.5, x + L / 2 - 4, yb + 1.5, { stroke: FLAME, strokeWidth: 2.2, roughness: 0.2 }); }
+      if (k === 'wl' || k === 'wr') { const left = k === 'wl', px = left ? xl + post * s : xr - post * s, y = floor - 84 * s, d = left ? 1 : -1;
+        line(svg, px, y, px + d * 7 * s, y, { strokeWidth: 2.2 });
+        const g = el('g', { transform: `rotate(${left ? 30 : -30} ${px + d * 7 * s} ${y})` }, svg);
+        add(g, R(svg).rectangle(left ? px + 7 * s : px - 7 * s - 33 * s, y, 33 * s, Math.max(3 * s, 6), O({ fill: f > 0.5 ? '#2B2B2B' : INK, fillStyle: 'solid', strokeWidth: 0.8 }))); }
+    });
+    (p.tables || [0.5]).forEach(tbl);
+    T(svg, xr + 6, yb + 4, p.H === 92 ? '' : '', { size: 9 });
+  }
+
+  /* ---------- generic beam types (inches, to one scale) ---------- */
+  function beamType(svg, p) {
+    const s = 7.2, cx = 110, y0 = 22, bw = p.w * s, bh = p.h * s;
+    const fill = p.timber ? '#D9B68E' : p.steel ? '#9AA0A6' : '#EDEDEB';
+    rect(svg, cx - bw / 2, y0, bw, bh, { fill, fillStyle: p.timber ? 'hachure' : 'solid', hachureGap: 4 });
+    if (p.gutter) rect(svg, cx - bw / 2 + 2, y0 + 2, bw * 0.5, bh * 0.4, { stroke: STEEL, strokeWidth: 0.7, fill: '#fff', fillStyle: 'solid' });
+    if (p.channel) rect(svg, cx - 0.7 * s, y0 + bh - 0.8 * s, 1.4 * s, 0.8 * s, { stroke: FINK, strokeWidth: 0.9, fill: '#fff', fillStyle: 'solid' });
+    rect(svg, cx - 2 * s, y0 + bh, 4 * s, 0.5 * s, { fill: INK, fillStyle: 'solid', strokeWidth: 0.6 });
+    const t = tungstenSection(svg, cx, y0 + bh + 0.5 * s, s, { post: 4 });
+    dim(svg, cx - bw / 2, y0 - 9, cx + bw / 2, y0 - 9, p.wl, { size: 10 });
+    dim(svg, cx + bw / 2 + 10, y0, cx + bw / 2 + 10, y0 + bh, p.hl, { size: 10 });
+    T(svg, cx, t.bottom + 18, 'Tungsten on its single post', { size: 9.5, anchor: 'middle', fill: STEEL });
+  }
+
+  /* ---------- Series I vs II front elevations, one scale (mm) ---------- */
+  D.front = function (svg) {
+    const s = 0.3, x0 = 40;
+    [[40, 'Series I · 3 and 6 kW', 1410, true], [150, 'Series II · 3 and 6 kW', 1436, false]].forEach(([y, n, L, old]) => {
+      line(svg, x0 - 20, y, x0 + L * s + 20, y, { stroke: STEEL, strokeWidth: 1 });
+      if (old) { rect(svg, x0 + 0.2 * L * s, y, 12, 26, { fill: STEEL, fillStyle: 'solid', strokeWidth: 0.6 }); rect(svg, x0 + 0.8 * L * s - 12, y, 12, 26, { fill: STEEL, fillStyle: 'solid', strokeWidth: 0.6 }); }
+      else rect(svg, x0 + L * s / 2 - 8, y, 16, 26, { fill: INK, fillStyle: 'solid', strokeWidth: 0.6 });
+      rect(svg, x0, y + 26, L * s, 36, { fill: old ? STEEL : INK, fillStyle: 'solid' });
+      line(svg, x0 + 30, y + 58, x0 + L * s - 30, y + 58, { stroke: FLAME, strokeWidth: 2.6, roughness: 0.3 });
+      dim(svg, x0, y + 78, x0 + L * s, y + 78, `${L} mm`, { below: true, size: 11 });
+      T(svg, x0 + L * s + 34, y + 50, n, { size: 13, weight: 700, fill: old ? STEEL : INK });
+      T(svg, x0 + L * s + 34, y + 66, old ? 'two suspension tubes' : 'one single post', { size: 11, fill: INK2 });
+    });
+  };
+  D.pitched = function (svg) {
+    poly(svg, [[20, 90], [180, 20], [180, 90]], { fill: '#EDEDEB', fillStyle: 'solid' });
+    rect(svg, 116, 40, 26, 22, { fill: INK, fillStyle: 'solid', strokeWidth: 0.6 }); rect(svg, 124, 62, 10, 18, { fill: INK, fillStyle: 'solid', strokeWidth: 0.6 }); rect(svg, 70, 80, 120, 14, { fill: INK, fillStyle: 'solid' });
+    T(svg, 100, 116, '3/12 to 12/12 roof pitch', { size: 11, anchor: 'middle', fill: INK2 });
+  };
+
   function draw() {
     document.querySelectorAll('svg[data-diag]').forEach(svg => { const k = svg.dataset.diag; if (D[k]) D[k](svg); });
     document.querySelectorAll('svg[data-pergola]').forEach(svg => pergola(svg, JSON.parse(svg.dataset.pergola)));
     document.querySelectorAll('svg[data-beam]').forEach(svg => beamDetail(svg, JSON.parse(svg.dataset.beam)));
+    document.querySelectorAll('svg[data-type]').forEach(svg => typeElev(svg, JSON.parse(svg.dataset.type)));
+    document.querySelectorAll('svg[data-beamtype]').forEach(svg => beamType(svg, JSON.parse(svg.dataset.beamtype)));
     window.__ready = true;
   }
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(draw); else window.addEventListener('load', draw);
