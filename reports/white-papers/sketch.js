@@ -383,6 +383,16 @@
     // a table and chair at the left for scale
   };
 
+  D.prewire = function (svg) {
+    const x0 = 40, sc = 0.15;
+    [['Pre-wire at build', 200, 400, false], ['Retrofit later', 600, 1200, true]].forEach(([n, lo, hi, hl], i) => {
+      const y = 40 + i * 90;
+      T(svg, x0, y - 8, n, { size: 14, weight: 700 });
+      rect(svg, x0, y, lo * sc * 2, 34, { fill: hl ? FLAME : STEEL, fillStyle: hl ? 'hachure' : 'cross-hatch', hachureGap: 5, stroke: hl ? FINK : INK2 });
+      rect(svg, x0 + lo * sc * 2, y, (hi - lo) * sc * 2, 34, { fill: hl ? '#F6B8A8' : '#C9CDD1', fillStyle: 'hachure', hachureGap: 7, stroke: hl ? FINK : INK2, strokeWidth: 0.8 });
+      T(svg, x0 + hi * sc * 2 + 12, y + 24, '$' + lo.toLocaleString() + '–$' + hi.toLocaleString(), { size: 20, serif: true, fill: hl ? FINK : INK });
+    });
+  };
   function draw() {
     window.HEIGHTS = window.HEIGHTS || [];
     document.querySelectorAll('svg[data-diag]').forEach(svg => { const k = svg.dataset.diag; if (D[k]) D[k](svg); });

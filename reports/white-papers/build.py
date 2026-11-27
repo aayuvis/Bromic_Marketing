@@ -62,6 +62,8 @@ def build(rid, pdf=False):
   <div class="cv"><img class="logo" src="LOGOW" alt="Bromic Heating"><div class="ck">{E(pg['kicker'])}</div><h1>{pg['title_html']}</h1>
   <div class="sub">{E(pg['sub'])}</div><p>{E(pg['blurb'])}</p></div>
   <div class="cvnote"><span>{E(pg['note'])}</span><span>Draft for review</span></div></section>''')
+        elif t == 'hero':
+            pages.append(f'''<section class="pg divider hero">{img(pg['img'], 'bg', pg['h2'], pg.get('pos'))}<div class="dv"><div class="kick" style="color:#fff">{E(pg['kicker'])}</div>{f'<div class="dn">{E(pg["n"])}</div>' if pg.get('n') else ''}<h2>{E(pg['h2'])}</h2><p>{E(pg['line'])}</p></div>{folio(p, True)}</section>''')
         elif t == 'divider':
             pages.append(f'''<section class="pg divider">{img(pg['img'], 'bg', pg['title'], pg.get('pos'))}<div class="dv"><div class="dn">{E(pg['n'])}</div><h2>{E(pg['title'])}</h2><p>{E(pg['line'])}</p></div>{folio(p, True)}</section>''')
         elif t == 'back':
@@ -92,6 +94,7 @@ def build(rid, pdf=False):
         out = os.path.join(RD, 'img', i + '.jpg')
         if not os.path.exists(out):
             srcp = (os.path.join(ROOT, 'images', 'review', 'full', i[3:] + '.jpg') if i.startswith('rv-') else
+                    os.path.join(ROOT, 'decks', 'product-renders', i[3:] + '.jpg') if i.startswith('dk-') else
                     os.path.join(ROOT, 'images', 'portfolio', i[3:] + '.webp') if i.startswith('pf-') else
                     os.path.join(ROOT, 'images', 'library', i + '.webp'))
             im = Image.open(srcp).convert('RGB'); im.thumbnail((1800, 1800)); im.save(out, quality=82, optimize=True)
