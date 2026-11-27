@@ -138,9 +138,15 @@ close = pg('close', 'Next', 'Three Steps To A Warm Pergola',
   ('photo', 'w-kion-sui-madrid-spain-tungsten-electric-5', 380, 'Tungsten under an opening roof.'))
 
 
+
+after5 = pg('before', 'Extend The Moment', 'Before 5 PM. After 5 PM.',
+  ('html', '<div class="ba"><figure><div class="bai">' + img('w-240619-yorba-linda-ca-dc-64', 'The pergola by day') + '<span class="bal">Before 5 pm</span></div><figcaption>Shade, a kitchen and the pool.</figcaption></figure>'
+           '<figure><div class="bai">' + img('rv-pg-yorba-linda-after-5pm', 'The same pergola after sunset, heaters on') + '<span class="bal dk">After 5 pm</span></div><figcaption>The same pergola, still in use: heat on the beam, a blanket on the sofa.</figcaption></figure></div>'),
+  ('p', 'After 5 pm: an illustration made from the daytime photograph of this Bromic installation.'))
+
 PAGES = [cover, hook,
   ren('The Pergola Is Now The Outdoor Room', 'Make Every Pergola A Four-Season Room'),
-  value, script1, script2,
+  after5, script1, script2,
   find('Homeowners Are Building Roofs'), find('Then Wiring Them'),
   ren("Built In On The World's Leading Pergolas", 'Built In. Talked About.'),
   research(),

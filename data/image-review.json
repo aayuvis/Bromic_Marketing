@@ -6371,6 +6371,18 @@
    "file": "images/review/full/ps2-white-elev-studio.jpg",
    "thumb": "images/review/thumb/ps2-white-elev-studio.webp",
    "status": "pending"
+  },
+  {
+   "id": "pg-yorba-linda-after-5pm",
+   "title": "After 5 pm: the Yorba Linda louvered pergola at blue hour, heaters on",
+   "status": "pending",
+   "background": "Generated edit of the Bromic-published daytime photo w-240619-yorba-linda-ca-dc-64; architecture and heaters kept, light, people and time of day changed",
+   "finish": "Tungsten on the beam, recessed heater at the centre",
+   "source": "image model edit of a Bromic photograph, for the pergola white paper (story edition) before/after page",
+   "w": 2528,
+   "h": 1696,
+   "file": "images/review/full/pg-yorba-linda-after-5pm.jpg",
+   "thumb": "images/review/thumb/pg-yorba-linda-after-5pm.webp"
   }
  ]
 }

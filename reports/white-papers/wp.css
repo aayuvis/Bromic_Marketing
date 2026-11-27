@@ -346,3 +346,9 @@ table.t{font-size:11.6px}
 .evi{height:330px;overflow:hidden}.evi img{width:100%;height:100%;object-fit:cover}
 .ev figcaption b{display:block;font-family:var(--serif);font-weight:400;font-size:24px;color:var(--ink)}
 .ev figcaption{font-size:13px}
+
+.ba{display:grid;grid-template-columns:1fr;gap:14px;margin-top:4px}
+.bai{position:relative;height:395px;overflow:hidden}
+.bai img{width:100%;height:100%;object-fit:cover}
+.bal{position:absolute;left:16px;top:16px;background:#fff;color:var(--ink);font-family:var(--serif);font-size:26px;padding:6px 14px}
+.bal.dk{background:var(--flame);color:#fff}
