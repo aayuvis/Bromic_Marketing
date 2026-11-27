@@ -25,7 +25,7 @@ def ren(h2_old, h2_new):
 
 cover = dict(P[0], sub='Extend the moment under every roof', blurb='For pergola makers, dealers and specifiers.')
 
-hook = dict(type='hero', img='w-bromicatria23', pos='50% 50%', kicker='The Opportunity', n='23%',
+hook = dict(type='hero', img='w-gazebo-bromic', pos='50% 50%', kicker='The Opportunity', n='23%',
             h2='Of Homeowners Plan Heat In From The Start',
             line='Most think of it once the pergola is up and the first cool evening arrives. Bring it into the first conversation, and the evenings look after themselves.')
 
@@ -111,12 +111,12 @@ case3 = pg('case', 'Pergola Stories · Around The World', 'From Brisbane To Bell
    cs('v-turtle-bay-pub-1', 'Turtle Bay Pub, Lake Country', 'Canada · Pub', 'A freestanding louvred pergola with privacy screens and Bromic gas heaters added about 50 seats for three seasons.') + '</div>'),
   ('p', 'Photos of third-party projects: permission to publish to be confirmed.'))
 
-lookup = dict(type='hero', img='w-p1020710-hdr-2-denoiseai-clear', pos='50% 50%', kicker='Spot The Heater', h2='Look Up. That\'s The Heater.',
-              line='Platinum Electric, recessed flush in the timber ceiling. Warmth you feel, not a fixture you see.')
+lookup = dict(type='hero', img='w-mountain-view-retreat-platinum-electric-rece', pos='38% 50%', kicker='Spot The Heater', h2='Look Up. That\'s The Heater.',
+              line='Platinum Electric, recessed flush in the louvered roof: glass-ceramic, 2.1 in deep. Warmth you feel, not a fixture you see.')
 evening = pg('evening', 'Extend The Moment', 'From Sunset To Last Call',
   ('html', '<div class="ev">' + ''.join(f'<figure><div class="evi">{img(i, t)}</div><figcaption><b>{t}</b>{d}</figcaption></figure>' for i, t, d in [
      ('l-007-041', 'Sunset', 'The light goes; the warmth stays.'), ('w-gno-2', 'Dinner', 'Heat over the table, aimed at the seats.'),
-     ('w-bromicatria23', 'Late', 'The fire is out. The heaters are not.'), ('w-kion-sui-madrid-spain-tungsten-electric-5', 'Last call', 'The terrace stays full.')]) + '</div>'))
+     ('w-slc-bromic-heater-1-cropped', 'Late', 'Eclipse keeps the table warm and lit.'), ('w-kion-sui-madrid-spain-tungsten-electric-5', 'Last call', 'The terrace stays full.')]) + '</div>'))
 
 hero2 = pg('hero2', 'Meet Tungsten Series II', 'Made For The Pergola',
   ('html', '<div class="h2w"><img src="img/dk-Tungsten-Series-II-Select-black-hero.jpg" alt="Tungsten Series II Select in black on its single post">'
@@ -157,7 +157,7 @@ PAGES = [cover, hook,
   sm_page(),
   ren('One Post, Wiring Inside, Nothing On Show', 'Nothing On Show'),
   colour(),
-  disappear, evening,
+  evening,
   ren('Every Fuel, Every Setting, Every Mount', 'One Brand For The Whole Backyard'),
   find('The Same Warmth At Every Price Point'),
   ren('Where Bromic Fits On Every Structure', 'Every Structure, Warmed'),
