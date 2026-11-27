@@ -163,3 +163,10 @@ table.t td.win{color:var(--ink);font-weight:700;background:var(--flame-wash)}
 .bx{font-size:11.2px;color:var(--ink);font-weight:700;line-height:1.4;padding-left:22px;position:relative}
 .bx:before{content:"";position:absolute;left:0;top:1px;width:14px;height:14px;border-radius:50%;background:var(--flame)}
 .bx:after{content:"";position:absolute;left:4px;top:4px;width:5px;height:3px;border-left:2px solid #fff;border-bottom:2px solid #fff;transform:rotate(-45deg)}
+.tti{height:205px;overflow:hidden}
+.tti img{width:100%;height:100%;object-fit:cover}
+.quotes{grid-template-columns:1fr 1fr;gap:16px 26px}
+.quotes blockquote{display:flex;flex-direction:column}
+.ql{margin-top:8px;height:26px;display:flex;align-items:center}
+.ql svg{height:22px;width:auto;max-width:150px;color:#231F20}
+.ql.qt{font-size:11px;letter-spacing:.18em;font-weight:700;color:var(--ink)}

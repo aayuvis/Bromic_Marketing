@@ -116,24 +116,26 @@ PAGES.append(dict(type='exec', kicker='Executive Summary', h2='The Pergola Is No
       ('Planning: heights, sizing, circuits', 17), ('For pergola makers and dealers · Sources', 19)], 1)) + '</ol>'),
 ]))
 
-BR_IN = ['StruXure', 'Renson', 'Louvretec', 'Apollo', 'Pratic']
-BR_FIT = ['Azenco', 'Equinox', 'Suncoast', 'Corradi', 'Pergolux', 'Stratco', 'Gibus', 'KE']
-wall = lambda L, cls: ''.join(f'<div class="wm {cls}">{n}</div>' for n in L)
+S('bca1', 'Bromic Heating (bromic.ca), "Maximizing outdoor living spaces with outdoor structures and heating solutions", with StruXure. bromic.ca/blog/maximizing-outdoor-living-spaces-with-outdoor-structures-and-heating-solutions/')
+S('bca2', 'Bromic Heating (bromic.ca), case study: Tungsten Electric heaters at Clínica Las Condes, Santiago, August 2023. bromic.ca/case-study/tungsten-electric-heaters-at-clinica-las-condes/')
+S('bca3', 'Bromic Heating (bromic.ca), case study: Platinum Electric heaters recessed using the low clearance recess kit, June 2023. bromic.ca/case-study/platinum-electric-heaters-recessed-using-the-low-clearance-recess-kit/')
+LOGO = lambda n: open(__file__.rsplit('/', 1)[0] + f'/logos/{n}.svg').read()
+def lg(n): return f'<div class="ql">{LOGO(n)}</div>'
+def lt(t): return f'<div class="ql qt">{t}</div>'
 QUOTES = [
-  ('Designed specifically with low-clearance, semi-enclosed outdoor spaces in mind, this heater minimizes light emission to blend seamlessly under your Louvretec Opening Roof.', f'Louvretec, on Bromic Platinum Electric [{c("qlou")}]'),
-  ('We purchased a Renson Pergola System and Bromic Electric Heaters – they fit [the] new deck like a glove.', f'Homeowner, Toronto, via a Renson dealer [{c("qgal")}]'),
-  ('To extend the usability of the space into cooler months, Bromic radiant heaters were integrated into the structure.', f'StruXure dealer, Detroit [{c("qsky")}]'),
-  ('The end result is a space that\'s not only beautiful, but actually works for how we want to use it.', f'Homeowner, Livonia, Michigan; StruXure pergola with Bromic heaters [{c("qsky")}]'),
+  ('If your outdoor space isn\'t comfortable, it won\'t get used.', 'President and Founder', 'bca1', lg('struxure')),
+  ('By pairing Bromic heaters with our smart pergolas and cabanas, you\'re going to extend the comfort of your outdoor area in a very functional and stylish way.', 'President and Founder', 'bca1', lg('struxure')),
+  ('Designed specifically with low-clearance, semi-enclosed outdoor spaces in mind, this heater minimizes light emission to blend seamlessly under your Louvretec Opening Roof.', 'Product Guide: Heating, on Bromic Platinum Electric', 'qlou', lg('louvretec')),
+  ('We purchased a Renson Pergola System and Bromic Electric Heaters – they fit [the] new deck like a glove.', 'Homeowner, Toronto', 'qgal', lg('renson')),
+  ('The Platinum Electric heaters are so clean and modern looking that people don\'t even recognize them as heaters.', 'Project Manager, pergola builder', 'bca3', lt('ARTIVO SHADES')),
+  ('The heaters impressed the designers, hospital executives and restaurant operators by their performance, reliability, and beautiful design blending in impeccably with the new Bioclimatic Pergolas.', 'Bioclimatic pergolas over three restaurant terraces, Santiago', 'bca2', lt('BIOCLIMATIC PERGOLA')),
+  ('In the winter, it was completely uninhabitable due to the cold. We don\'t have to worry about that anymore with these additions.', 'General Manager, local Bromic dealer, Santiago', 'bca2', lt('BIOCLIMATIC PERGOLA')),
+  ('The end result is a space that\'s not only beautiful, but actually works for how we want to use it.', 'Homeowner, Livonia, Michigan', 'qsky', lg('struxure')),
 ]
-PAGES.append(dict(type='brands', kicker='Works With The Leading Pergola Systems', h2='Built In On The World\'s Leading Pergolas', blocks=[
-  ('lede', 'From louvered roofs in Chicago to opening roofs in Auckland, Bromic heaters are built into the pergolas homeowners and venues choose most.'),
-  ('h4', 'Installed with Bromic'),
-  ('html', f'<div class="wall">{wall(BR_IN, "in")}</div>'),
-  ('h4', 'Made to fit'),
-  ('html', f'<div class="wall">{wall(BR_FIT, "fit")}</div>'),
-  ('html', '<div class="quotes">' + ''.join(f'<blockquote><p>"{q}"</p><small>{a}</small></blockquote>' for q, a in QUOTES).replace('[', '<sup>').replace(']', '</sup>').replace('<sup>the</sup>', '[the]') + '</div>'),
-  ('photos', [('w-strx-230222-bromic-dc-6', 'Tungsten Electric on a louvered pergola.'), ('w-kion-sui-madrid-spain-tungsten-electric-4', 'Tungsten Electric under an opening roof, Madrid.')], 200),
-  ('p', f'"Installed with Bromic": brands shown with Bromic heaters by their dealers or partners [{c("qsky","qgal","qlou","qrev")}]. "Made to fit": systems whose published beams and posts take Bromic\'s mounts (pages 14–15). Brand names are shown as text; logos and quotes need each company\'s permission before external use.'),
+PAGES.append(dict(type='brands', kicker='Built In On The World\'s Leading Pergolas', h2='In Their Words', blocks=[
+  ('lede', 'Pergola makers, builders, dealers and owners on Bromic heaters built into their structures, from louvered roofs in Michigan to opening roofs in New Zealand and bioclimatic pergolas in Santiago.'),
+  ('html', '<div class="quotes">' + ''.join(f'<blockquote><p>"{q}"</p><small>{r} <sup>{c(s)}</sup></small>{l}</blockquote>' for q, r, s, l in QUOTES) + '</div>'),
+  ('p', 'Quotes as published by each company, its dealer or Bromic. Logos and quotes need each company\'s permission before external use.'),
 ]))
 
 PAGES.append(dict(type='trends', kicker='The Trends · 1 of 2', h2='Homeowners Are Building Roofs, Then Wiring Them', blocks=[
@@ -300,15 +302,15 @@ PAGES.append(dict(type='portfolio', kicker='A Portfolio That Fits Every Need · 
   ('photo', 'l-008-059', 190, 'Tungsten over a pergola dining table.', '50% 30%'),
 ]))
 
-TYP = [(dict(type='louvered', heaters=[['t', 0.25], ['e', 0.5], ['t', 0.75]], tables=[0.5], span=168), 'Louvered aluminium roof', 'Tungsten Select on single posts under the perimeter beam; Eclipse from a fan beam over the table.'),
-       (dict(type='louvered', mat='dark', wall=True, heaters=[['wl', 0], ['t', 0.65]], tables=[0.55], span=144), 'Attached patio cover', 'Platinum or Tungsten on the wall bracket on the house side; Tungsten under the front beam.'),
-       (dict(type='timber', mat='timber', heaters=[['t', 0.3], ['t', 0.72]], tables=[0.5], span=156, bh=10), 'Open timber pergola', 'Tungsten Select or Coastal on single posts under the main beam, below the rafters.'),
-       (dict(type='pavilion', mat='timber', heaters=[['r', 0.3], ['r', 0.72]], tables=[0.5], span=156), 'Pavilion with a solid roof', 'Tungsten or Platinum recessed flush in the ceiling with the low-clearance kit.'),
-       (dict(type='fabric', mat='dark', heaters=[['wl', 0], ['wr', 1]], tables=[0.5], span=144, H=96), 'Retractable fabric roof', 'Heaters on the posts with the wall bracket, aimed in, below and clear of the fabric.'),
-       (dict(type='louvered', bays=2, heaters=[['t', 0.16], ['e', 0.33], ['e', 0.67], ['t', 0.84]], tables=[0.33, 0.67], span=288, H=114), 'Multi-bay hospitality structure', 'Rows of Tungsten on the perimeter beams; Eclipse on the centre beam over tables.')]
+TYP = [('w-240619-yorba-linda-ca-dc-64', 'Louvered aluminium roof', 'Tungsten on the perimeter beam; Eclipse from a fan beam over the table.'),
+       ('w-bromic-patio-heater-platinum-electric', 'Covered veranda or patio cover', 'Platinum recessed flush in the ceiling; Tungsten on the beam or wall.'),
+       ('l-007-041', 'Open timber pergola', 'Tungsten on single posts under the main beams, aimed at the table.'),
+       ('w-p1020710-hdr-2-denoiseai-clear', 'Timber pavilion with a solid roof', 'Platinum or Tungsten recessed with the low-clearance kit.'),
+       ('w-olivia-eger-oslo-norway-2', 'Awning or fabric roof', 'Heaters on the posts or the wall, below and clear of the fabric.'),
+       ('w-vbb7418', 'Hospitality pergola', 'Rows of Tungsten along the beams over every table.')]
 PAGES.append(dict(type='types', kicker='Every Pergola Type', h2='Where Bromic Fits On Every Structure', blocks=[
-  ('html', '<div class="tgrid">' + ''.join(f'<figure class="tt"><svg class="diag" data-type="{E(json_dumps(k))}" viewBox="0 0 360 200"></svg><figcaption><b>{t}</b>{d}</figcaption></figure>' for k, t, d in TYP) + '</div>'),
-  ('p', 'Illustrations of mounting concepts, not engineering drawings. Every install follows the heater manual, the pergola maker\'s guidance and the local authority.'),
+  ('html', '<div class="tgrid">' + ''.join(f'<figure class="tt"><div class="tti">{img(i, t)}</div><figcaption><b>{t}</b>{d}</figcaption></figure>' for i, t, d in TYP) + '</div>'),
+  ('p', 'Bromic installations. Every install follows the heater manual, the structure maker\'s guidance and the local authority.'),
 ]))
 
 BT = [(dict(w=2, h=8, wl='2 in', hl='8 in', gutter=True), 'Aluminium box beam with gutter', 'The common US louvered-roof beam. Tungsten: single post to the underside or a fan beam. Platinum: 8 in pole or wall bracket on the beam face.'),
