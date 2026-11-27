@@ -333,7 +333,7 @@
 
   /* ---------- generic beam types (inches, to one scale) ---------- */
   function beamType(svg, p) {
-    const s = 7.2, cx = 110, y0 = 22, bw = p.w * s, bh = p.h * s;
+    const s = 7.2, cx = 110, y0 = 34, bw = p.w * s, bh = p.h * s;
     const fill = p.timber ? '#D9B68E' : p.steel ? '#9AA0A6' : '#EDEDEB';
     rect(svg, cx - bw / 2, y0, bw, bh, { fill, fillStyle: p.timber ? 'hachure' : 'solid', hachureGap: 4 });
     if (p.gutter) rect(svg, cx - bw / 2 + 2, y0 + 2, bw * 0.5, bh * 0.4, { stroke: STEEL, strokeWidth: 0.7, fill: '#fff', fillStyle: 'solid' });

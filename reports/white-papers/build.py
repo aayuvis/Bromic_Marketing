@@ -62,6 +62,8 @@ def build(rid, pdf=False):
   <div class="cv"><img class="logo" src="LOGOW" alt="Bromic Heating"><div class="ck">{E(pg['kicker'])}</div><h1>{pg['title_html']}</h1>
   <div class="sub">{E(pg['sub'])}</div><p>{E(pg['blurb'])}</p></div>
   <div class="cvnote"><span>{E(pg['note'])}</span><span>Draft for review</span></div></section>''')
+        elif t == 'divider':
+            pages.append(f'''<section class="pg divider">{img(pg['img'], 'bg', pg['title'], pg.get('pos'))}<div class="dv"><div class="dn">{E(pg['n'])}</div><h2>{E(pg['title'])}</h2><p>{E(pg['line'])}</p></div>{folio(p, True)}</section>''')
         elif t == 'back':
             pages.append(f'''<section class="pg back">{img(pg['img'], 'bg', pg['alt'])}<div class="bt"><div class="kick">{E(pg['kicker'])}</div><h2>{E(pg['h2'])}</h2>
   {f"<p>{md(pg['text'])}</p>" if pg['text'] else ''}{f'<div class="cta">{E(pg["cta"])}</div>' if pg['cta'] else ''}<div class="site">{E(pg['site'])}</div><img class="logo" src="LOGOW" alt="Bromic Heating"></div></section>''')

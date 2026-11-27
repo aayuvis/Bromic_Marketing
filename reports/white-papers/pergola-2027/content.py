@@ -321,7 +321,7 @@ BT = [(dict(w=2, h=8, wl='2 in', hl='8 in', gutter=True), 'Aluminium box beam wi
       (dict(w=2, h=6, wl='2 in', hl='6 in', channel=True), 'Fan beam or accessory channel', 'The pergola maker\'s own mounting point across the bay: Eclipse pendant or Tungsten over the table.')]
 PAGES.append(dict(type='beams', kicker='Every Beam', h2='How Tungsten And Platinum Mount To Any Beam', blocks=[
   ('p', 'Tungsten needs only a 2.5 × 4 in plate; Platinum mounts on its pole, a wall bracket or a recess.'),
-  ('html', '<div class="bgrid">' + ''.join(f'<figure class="bt"><svg class="diag" data-beamtype="{E(json_dumps(p))}" viewBox="0 0 260 205"></svg><figcaption><b>{t}</b>{d}</figcaption></figure>' for p, t, d in BT) + '</div>'),
+  ('html', '<div class="bgrid">' + ''.join(f'<figure class="bt"><svg class="diag" data-beamtype="{E(json_dumps(p))}" viewBox="0 0 260 220"></svg><figcaption><b>{t}</b>{d}</figcaption></figure>' for p, t, d in BT) + '</div>'),
   ('p', 'Beams and heaters drawn to one scale. Typical sizes from pergola makers\' published specifications.'),
 ]))
 
@@ -426,3 +426,67 @@ for p in PAGES:
             if b[0] == 'diag' and len(b) > 3: b = b[:3]
             nb.append(b)
         p['blocks'] = nb
+
+# ---------- layout v3 (owner, 27 Nov 2026: larger fonts, more spread out, more interesting) ----------
+_P = {p.get('kicker'): p for p in PAGES}
+def _b(kicker, i): return _P[kicker]['blocks'][i]
+def pg(t, kicker, h2, *blocks): return dict(type=t, kicker=kicker, h2=h2, blocks=list(blocks))
+def div(n, title, line, img_, pos='50% 50%'): return dict(type='divider', n=n, title=title, line=line, img=img_, pos=pos)
+TR1, TR2 = _P['The Trends · 1 of 2'], _P['The Trends · 2 of 2']
+S1, S2 = TR1['blocks'][1][1], TR2['blocks'][0][1]
+qhtml = _P["Built In On The World's Leading Pergolas"]['blocks'][1][1]
+import re as _r
+_qs = _r.findall(r'<blockquote>.*?</blockquote>', qhtml, _r.S)
+RSH = _P['What Our Research Shows']['blocks'][1][1]
+_tiles = _r.findall(r'<div class="rsc">.*?</p></div></div>', RSH, _r.S)
+ACCH = _P['Clean Installs']['blocks'][1][1]
+TYPH = _P['Every Pergola Type']['blocks'][0][1]
+_tt = _r.findall(r'<figure class="tt">.*?</figure>', TYPH, _r.S)
+BTH = _P['Every Beam']['blocks'][1][1]
+_bt = _r.findall(r'<figure class="bt">.*?</figure>', BTH, _r.S)
+SM = _P['One Connected Outdoor Room']['blocks']
+PL1, PL2 = _P['Planning · 1 of 2']['blocks'], _P['Planning · 2 of 2']['blocks']
+CK = _P['For Pergola Makers And Dealers']['blocks']
+EX = _P['Executive Summary']['blocks']
+TOC = [('01', 'The Market', 'Outdoor rooms, smart homes, the coast and the move to electric, in owners\' words', 4),
+       ('02', 'What Buyers Want', 'Six things our research shows', 10),
+       ('03', 'The Bromic Answer', 'Slim, coastal, smart, clean, in colour, at every budget', 13),
+       ('04', 'Fit And Plan', 'Every structure, every beam, the competition and planning', 25)]
+NEW = [PAGES[0],
+  pg('exec', 'Executive Summary', 'The Pergola Is Now The Outdoor Room', EX[0], EX[1], ('photo', 'l-006-028', 150, 'Tungsten Select over a terrace lounge.', '50% 55%')),
+  pg('toc', 'Contents', 'Inside', ('html', '<div class="toc2">' + ''.join(f'<a class="tc"><span class="tn">{n}</span><span class="tt2">{t}<small>{d}</small></span><span class="tp">{p}</span></a>' for n, t, d, p in TOC) + '</div>'),
+     ('photo', 'w-bromicatria23', 430, 'Platinum Electric recessed in a louvered roof.')),
+  div('01', 'The Market', 'Outdoor living is moving under a roof, with power, light and heat.', 'w-strx-230222-bromic-dc-1', '50% 40%'),
+  pg('trends', 'The Market', 'Homeowners Are Building Roofs', ('stats', S1[:2]), ('photo', 'w-240619-yorba-linda-ca-dc-64', 470, 'A louvered pergola as the backyard\'s main room.')),
+  pg('trends', 'The Market', 'Then Wiring Them', ('stats', S1[2:] + S2[:2])),
+  pg('trends', 'The Market', 'Coastal And Electric', ('stats', S2[2:]), TR2['blocks'][1], ('photo', 'l-001-000', 300, 'Tungsten on a coastal terrace.')),
+  pg('brands', 'In Their Words', 'Built In On The World\'s Leading Pergolas', ('html', '<div class="quotes q1">' + ''.join(_qs[:4]) + '</div>')),
+  pg('brands', 'In Their Words', 'Heat That Looks Designed In', ('html', '<div class="quotes q1">' + ''.join(_qs[4:]) + '</div>')),
+  div('02', 'What Buyers Want', 'Six themes stood out in our research. Each is an opportunity.', 'w-gazebo-bromic', '50% 60%'),
+  pg('research', 'What Our Research Shows · 1 of 2', 'Six Things Buyers Want From Heat', ('html', '<div class="rs r1">' + ''.join(_tiles[:3]) + '</div>')),
+  pg('research', 'What Our Research Shows · 2 of 2', 'And Bromic Has An Answer For Each', ('html', '<div class="rs r1">' + ''.join(_tiles[3:]) + '</div>')),
+  div('03', 'The Bromic Answer', 'Slim, coastal, smart, clean, in colour, at every budget.', 'w-mountain-view-retreat-platinum-electric-rece', '50% 50%'),
+  pg('issue', 'Slim Structures', 'A Slimmer Heater For A Slim Beam', ('lede', 'Drawn for slim beams: narrower, lighter, on one post.'), _P['Slim Structures']['blocks'][2], _P['Slim Structures']['blocks'][5]),
+  pg('issue', 'Slim Structures', 'One Post Instead Of Two', _P['Slim Structures']['blocks'][4], ('photo', 'rv-pr-d-social-black-ceiling-post-graphite-4x5', 420, 'Tungsten Series II on its single post.', '50% 50%')),
+  _P['Life By The Water'],
+  pg('issue', 'One Connected Outdoor Room', 'Heat That Joins The Smart Home', SM[0], SM[1]),
+  pg('issue', 'One Connected Outdoor Room', 'One App, Every Heater', SM[2], SM[3], ('photo', 'w-eclipse-electric-w-bromic-heating-app', 330, 'Eclipse and the Bromic app.')),
+  pg('issue', 'Clean Installs', 'One Post, Wiring Inside', ('lede', 'Power runs hidden through the post and beam, all the way to the heater.'), ('html', ACCH.replace('class="acc"', 'class="acc a2"'))),
+  pg('issue', 'Clean Installs', 'Every Surface A Pergola Offers', _P['Clean Installs']['blocks'][2], ('photo', 'w-vbb7428', 360, 'Tungsten on a pergola beam, aimed at the seats.')),
+  _P['Colour That Matches The Frame'],
+  _P['A Portfolio That Fits Every Need · 1 of 2'] | {'blocks': _P['A Portfolio That Fits Every Need · 1 of 2']['blocks'][:2]},
+  pg('portfolio', 'A Portfolio That Fits Every Need', 'Every Way To Mount It', _P['A Portfolio That Fits Every Need · 1 of 2']['blocks'][2], ('photo', 'w-slc-bromic-heater-1-cropped', 380, 'Eclipse pendants over the table.')),
+  _P['A Portfolio That Fits Every Need · 2 of 2'],
+  div('04', 'Fit And Plan', 'Every structure, every beam, and how to plan it.', 'w-vbb7509', '50% 50%'),
+  pg('types', 'Every Pergola Type · 1 of 2', 'Where Bromic Fits', ('html', '<div class="tgrid t1">' + ''.join(_tt[:3]) + '</div>')),
+  pg('types', 'Every Pergola Type · 2 of 2', 'On Every Structure', ('html', '<div class="tgrid t1">' + ''.join(_tt[3:]) + '</div>')),
+  pg('beams', 'Every Beam · 1 of 2', 'How Tungsten And Platinum Mount', _P['Every Beam']['blocks'][0], ('html', '<div class="bgrid b1">' + ''.join(_bt[:3]) + '</div>')),
+  pg('beams', 'Every Beam · 2 of 2', 'To Any Beam', ('html', '<div class="bgrid b1">' + ''.join(_bt[3:]) + '</div>')),
+  _P['Against The Competition'] | {'blocks': _P['Against The Competition']['blocks'][:2]},
+  pg('plan', 'Planning', 'Where And How High', PL1[0], ('photo', 'w-kion-sui-madrid-spain-tungsten-electric-5', 360, 'Tungsten along the beams of an opening roof.')),
+  pg('plan', 'Planning', 'How Many Heaters', PL1[2], PL1[3], ('photo', 'l-008-059', 330, 'Tungsten over a pergola dining table.', '50% 30%')),
+  pg('plan', 'Planning', 'Circuits, Controls And Gas', PL2[0]),
+  pg('check', 'For Pergola Makers', 'Make Heat Part Of Every Pergola', ('cols', [CK[0][1][0], [('photo', 'w-strx-230222-bromic-dc-6', 520, 'Tungsten Electric on a louvered pergola.')]])),
+  pg('check', 'For Dealers', 'Sell The Heat With The Pergola', ('cols', [CK[0][1][1][:2], CK[0][1][1][2:]]), ('photo', 'w-strx-230222-bromic-dc-3', 330, 'Tungsten Electric on a louvered pergola.', '50% 30%')),
+  PAGES[-1]]
+PAGES[:] = NEW
