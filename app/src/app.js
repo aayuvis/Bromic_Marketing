@@ -1446,6 +1446,21 @@
         <div class="btns">${pdf(g, '', 'Landscape PDF')}${pdf(g, '-Letter', 'Letter PDF')}<a class="btn" href="${esc(g.dir)}/index.html" target="_blank" rel="noopener">${ic.ext}View</a><a class="btn" href="#/item/${esc(g.item)}">Guide page</a></div></div></article>`).join('')}</div>`;
   }
 
+
+  // Training Hub (owner, 28 Nov 2026): the curriculum by track, each course a Bromic deck to download.
+  function trainingPage() {
+    const T = HUB.training; if (!T) return '<div class="empty">No training yet.</div>';
+    const course = (c) => `<article class="tr-c${c.ready ? '' : ' next'}">
+      ${c.ready && c.coverReady ? `<a class="tr-cv" href="training/${esc(c.file)}.pdf" target="_blank" rel="noopener"><img src="training/${esc(c.file)}-cover.jpg" alt="Cover of ${esc(c.title)}" loading="lazy"></a>` : `<div class="tr-cv ph"><span>${c.ready ? '' : 'Coming next'}</span></div>`}
+      <div class="tr-cb"><span class="label">${esc(c.id)} · ${esc(c.format)} · ${c.minutes} min</span><h3>${esc(c.title)}</h3>
+      <ul>${(c.objectives || []).map((o) => `<li>${esc(o)}</li>`).join('')}</ul>
+      ${(c.exercises || []).length ? `<p class="tr-ex"><b>Exercises</b> ${c.exercises.map(esc).join(' · ')}</p>` : ''}
+      ${c.ready ? `<div class="btns"><a class="btn primary" href="training/${esc(c.file)}.pptx" download>${ic.down}PowerPoint${c.mb ? ' · ' + c.mb + ' MB' : ''}</a>${c.pdfReady ? `<a class="btn" href="training/${esc(c.file)}.pdf" target="_blank" rel="noopener">${ic.ext}PDF</a>` : ''}</div>` : ''}</div></article>`;
+    return `<div class="ph"><div><span class="label">Training Hub</span><h1>Bromic Training</h1><p>Four tracks, from the AIA lunch and learn to installer certification. Every course is a Bromic deck with exercises, knowledge checks and speaker notes. Draft for review.</p></div></div>
+      ${T.tracks.map((t) => `<section class="tr-t"><div class="tr-th"><span class="tr-n">${esc(t.id)}</span><div><h2>${esc(t.name)}</h2><p><b>For</b> ${esc(t.who)}. ${esc(t.promise)}</p></div></div>
+      <div class="tr-g">${t.courses.map(course).join('')}</div></section>`).join('')}`;
+  }
+
   function trendsPage() {
     const T = HUB.trends; if (!T) return '<div class="empty">No trend reports yet.</div>';
     const pdf = (r, s, lab) => `<a class="btn${s ? '' : ' primary'}" href="trends-2027/${esc(r.id)}/${esc(r.file)}${s}.pdf" download>${ic.down}${lab}</a>`;
@@ -1527,7 +1542,7 @@
     document.querySelectorAll('.tabs a').forEach((x) => x.toggleAttribute('aria-current', false) || (x.dataset.tab === tab && x.setAttribute('aria-current', 'page')));
     document.querySelectorAll('.tabs .mega').forEach((m) => { m.open = false; m.toggleAttribute('data-on', m.dataset.tab === tab); });
     const html = p === '' ? home() : p === 'library' ? library() : p === 'item' ? item(decodeURIComponent(a || '')) : p === 'journey' ? journey(a) : p === 'assets' ? assets(a)
-      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : p === 'cases' ? casesPage(a) : p === 'blog' ? blogPage() : p === 'whitepapers' ? whitepapersPage() : p === 'todo' ? todo() : p === 'pm' ? pmPage(a) : p === 'campaigns' ? campaignsPage(a) : p === 'knowledge' ? knowledgePage(a) : p === 'retail' ? retailPage(a) : p === 'trends' ? trendsPage() : p === 'guides' ? guidesPage() : p === 'approvals' ? approvalsPage() : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
+      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : p === 'cases' ? casesPage(a) : p === 'blog' ? blogPage() : p === 'whitepapers' ? whitepapersPage() : p === 'todo' ? todo() : p === 'pm' ? pmPage(a) : p === 'campaigns' ? campaignsPage(a) : p === 'knowledge' ? knowledgePage(a) : p === 'retail' ? retailPage(a) : p === 'training' ? trainingPage() : p === 'trends' ? trendsPage() : p === 'guides' ? guidesPage() : p === 'approvals' ? approvalsPage() : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
     view.innerHTML = html;
     document.querySelector('.cs-modal')?.remove(); document.body.classList.remove('cs-locked');
     if (p === 'cases' && a && CSR[a]) csModal(CSR[a]);

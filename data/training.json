@@ -1,0 +1,212 @@
+{
+ "_readme": "Bromic Training Hub (#/training): the curriculum. Decks are built by decks/training/<script>.js on decks/training/lib.js into decks/training/out/<file>.pptx and .pdf; build.mjs copies them with a cover image. Status 'ready' shows downloads; 'next' shows the course as coming.",
+ "tracks": [
+  {
+   "id": "A",
+   "name": "Architects And Designers",
+   "who": "Architects, landscape architects, interior and outdoor designers",
+   "promise": "They leave able to picture heat in their next project, and put it on the drawings early.",
+   "courses": [
+    {
+     "id": "A1",
+     "title": "The Evolution Of Outdoor Heating",
+     "format": "AIA/CES lunch and learn · 1 LU HSW (course AIA4041002)",
+     "minutes": 60,
+     "file": "Bromic-AIA-Evolution-Of-Outdoor-Heating",
+     "status": "ready",
+     "objectives": [
+      "Understand the value of outdoor heating",
+      "Differentiate heating technologies",
+      "Evaluate fuel sources",
+      "Apply specification and placement best practice",
+      "Anticipate future trends: electrification, zoning, smart controls"
+     ],
+     "exercises": [
+      "Where would you sit?",
+      "Feel the wavelength",
+      "Fuel match",
+      "Spot the heater",
+      "Fix the install",
+      "Heat-map this plan (team challenge)"
+     ]
+    },
+    {
+     "id": "A2",
+     "title": "Design Studio Workshop",
+     "format": "45-minute studio session",
+     "minutes": 45,
+     "status": "next",
+     "objectives": [
+      "Heat-map a live project with the Bromic design team"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "name": "Dealers And Retail",
+   "who": "Showroom, dealer and pergola sales teams",
+   "promise": "They sell heat on every quote, with the right controls.",
+   "courses": [
+    {
+     "id": "B1",
+     "title": "How To Sell Outdoor Heat, And Bromic",
+     "format": "Dealer module",
+     "minutes": 40,
+     "file": "Bromic-Dealer-How-To-Sell-Outdoor-Heat",
+     "status": "ready",
+     "objectives": [
+      "Why customers buy heat",
+      "The six-step sale",
+      "Answers to every objection",
+      "Heat and controls on the first quote"
+     ],
+     "exercises": [
+      "Role-play the objections",
+      "Write your opening question",
+      "Build a good, better, best quote"
+     ]
+    },
+    {
+     "id": "B2",
+     "title": "The Bromic Portfolio",
+     "format": "Dealer module",
+     "minutes": 40,
+     "file": "Bromic-Dealer-Bromic-Portfolio",
+     "status": "ready",
+     "objectives": [
+      "Electric and gas, mounted and freestanding",
+      "Every series and its controls",
+      "Good, better, best and Eclipse",
+      "The heater to show first in nine spaces"
+     ],
+     "exercises": [
+      "Match the heater to the photo",
+      "Which one for this customer?",
+      "Build the package"
+     ]
+    },
+    {
+     "id": "B3",
+     "title": "Affinity Smart-Heat Controls",
+     "format": "Dealer module",
+     "minutes": 30,
+     "file": "Bromic-Dealer-Affinity-Smart-Heat-Controls",
+     "status": "ready",
+     "objectives": [
+      "The controller line-up",
+      "Channels and capacity",
+      "The app, voice and home systems",
+      "Quoting controls with every heater"
+     ],
+     "exercises": [
+      "Pick the controller: four scenarios",
+      "Demo the app"
+     ]
+    },
+    {
+     "id": "B4",
+     "title": "Tungsten Series II",
+     "format": "Dealer module",
+     "minutes": 35,
+     "file": "Bromic-Dealer-Tungsten-Series-II",
+     "status": "ready",
+     "objectives": [
+      "Classic, Select and Coastal",
+      "What changed from Series I",
+      "Accessories and recessing",
+      "How it wins against the competition"
+     ],
+     "exercises": [
+      "Series I or Series II?",
+      "Spec a pergola package",
+      "Pitch it in 60 seconds"
+     ]
+    },
+    {
+     "id": "B5",
+     "title": "Sizing And Planning",
+     "format": "Dealer workshop",
+     "minutes": 30,
+     "status": "next",
+     "objectives": [
+      "Area and coverage",
+      "Mounting heights",
+      "Using the design service"
+     ]
+    },
+    {
+     "id": "B6",
+     "title": "Merchandising And The Showroom",
+     "format": "Dealer workshop",
+     "minutes": 30,
+     "status": "next",
+     "objectives": [
+      "Displays and live demos",
+      "The take-home flyer and brochure"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C",
+   "name": "Bromic Certified Installer",
+   "who": "Electricians, gas fitters, pergola and patio installers",
+   "promise": "Five modules and an exam to certification, and the Bromic Partner Program behind every job.",
+   "courses": [
+    {
+     "id": "C",
+     "title": "Bromic Certified Installer",
+     "format": "Five modules, a 20-question exam, the Partner Program",
+     "minutes": 150,
+     "file": "Bromic-Certified-Installer-Training",
+     "status": "ready",
+     "objectives": [
+      "C1 Safety, codes and clearances",
+      "C2 Electric installs and recessing",
+      "C3 Gas installs",
+      "C4 Controls: wiring and commissioning",
+      "C5 Handover, care and warranty"
+     ],
+     "exercises": [
+      "Find the five faults",
+      "Lay out the recess cut-out",
+      "Which controller, how many channels?",
+      "Commissioning checklist race"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "D",
+   "name": "Builders And Commercial",
+   "who": "Home builders, hospitality operators and their teams",
+   "promise": "Heat specified at planning, not retrofitted.",
+   "courses": [
+    {
+     "id": "D1",
+     "title": "Heat At Planning",
+     "format": "Builder workshop",
+     "minutes": 30,
+     "status": "next",
+     "objectives": [
+      "The pre-wire",
+      "The builder package",
+      "Budgets"
+     ]
+    },
+    {
+     "id": "D2",
+     "title": "Heated Seats, Paid Back",
+     "format": "Hospitality workshop",
+     "minutes": 30,
+     "status": "next",
+     "objectives": [
+      "Seats, seasons and return",
+      "Zones and controls for venues"
+     ]
+    }
+   ]
+  }
+ ]
+}

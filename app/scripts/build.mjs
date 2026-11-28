@@ -265,6 +265,14 @@ const TRF = path.join(ROOT, 'data', 'trends-2027.json');
 const trends = fs.existsSync(TRF) ? JSON.parse(fs.readFileSync(TRF, 'utf8')) : null;
 // Visual guides (reports/planning-guide/<edition>/): replace an item's text PDF with the designed guide (data/visual-guides.json).
 const VGF = path.join(ROOT, 'data', 'visual-guides.json');
+// Training Hub (data/training.json): decks built into decks/training/out/; each ready course ships its .pptx, .pdf and cover.
+const TRF2 = path.join(ROOT, 'data', 'training.json');
+const training = fs.existsSync(TRF2) ? JSON.parse(fs.readFileSync(TRF2, 'utf8')) : null;
+if (training) for (const t of training.tracks) for (const c of t.courses) {
+  const o = path.join(ROOT, 'decks', 'training', 'out', (c.file || '') + '.pptx');
+  c.ready = !!(c.file && fs.existsSync(o));
+  if (c.ready) { c.mb = +(fs.statSync(o).size / 1048576).toFixed(1); c.pdfReady = fs.existsSync(o.replace(/\.pptx$/, '.pdf')); c.coverReady = fs.existsSync(o.replace(/\.pptx$/, '-cover.jpg')); }
+}
 const vguides = fs.existsSync(VGF) ? JSON.parse(fs.readFileSync(VGF, 'utf8')).guides : [];
 // White papers (reports/white-papers/<id>/, built by reports/white-papers/build.py): Letter page, images, cover and PDF (data/white-papers.json).
 const WPF = path.join(ROOT, 'data', 'white-papers.json');
@@ -283,7 +291,7 @@ const designed = { items: {}, cases: {} };
   if (fs.existsSync(cf)) { const j = JSON.parse(fs.readFileSync(cf, 'utf8')); for (const m of (Array.isArray(j) ? j : j.built || j.items || j.studies || [])) add(m, 'case'); } }
 const RVF = path.join(ROOT, 'data', 'image-review.json');
 const review = fs.existsSync(RVF) ? JSON.parse(fs.readFileSync(RVF, 'utf8')).items : [];
-const HUB = { built: new Date().toISOString(), commit, repo, regions, roles, langsAvailable: Object.fromEntries(Object.entries(tr).map(([l, m]) => [l, Object.keys(m).length])), matrix, assets, facts, images, usage, tools, site, cs, blogPlan, pm, campaigns, portfolio, retail, retailKit, trends, vguides, wpapers, designed, review, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
+const HUB = { built: new Date().toISOString(), commit, repo, regions, roles, langsAvailable: Object.fromEntries(Object.entries(tr).map(([l, m]) => [l, Object.keys(m).length])), matrix, assets, facts, images, usage, tools, site, cs, blogPlan, pm, campaigns, portfolio, retail, retailKit, trends, vguides, wpapers, training, designed, review, openQuestions: [...extraReviews, ...openQuestions], types: TYPES, items };
 
 console.log(`items ${items.length} · tools ${tools.length} · images ${images.length} · site pages ${site.length} · errors ${errors.length} · warnings ${warn.length}`);
 warn.forEach((w) => console.log('  warn  ' + w));
@@ -314,6 +322,8 @@ fs.writeFileSync(path.join(DIST, 'data.js'), 'window.HUB=' + JSON.stringify(HUB)
 for (const [lang, m] of Object.entries(tr)) fs.writeFileSync(path.join(DIST, `data-${lang}.js`), `(window.HUB_TR=window.HUB_TR||{})[${JSON.stringify(lang)}]=` + JSON.stringify(m) + ';');
 fs.cpSync(path.join(ROOT, 'images', 'library'), path.join(DIST, 'images', 'library'), { recursive: true });
 for (const e of [...Object.entries(designed.items), ...Object.entries(designed.cases)]) { const o = path.join(DIST, 'designed', e[0]); fs.mkdirSync(o, { recursive: true }); fs.copyFileSync(path.join(ROOT, e[1].pdf), path.join(o, path.basename(e[1].pdf))); if (e[1].thumb) fs.copyFileSync(path.join(ROOT, e[1].thumb), path.join(o, path.basename(e[1].thumb))); }
+if (training) { const o = path.join(DIST, 'training'); fs.mkdirSync(o, { recursive: true });
+  for (const t of training.tracks) for (const c of t.courses) if (c.ready) for (const ext of ['.pptx', '.pdf', '-cover.jpg']) { const f = path.join(ROOT, 'decks', 'training', 'out', c.file + ext); if (fs.existsSync(f)) fs.copyFileSync(f, path.join(o, c.file + ext)); } }
 for (const w of wpapers) {  // a white paper: its Letter page (paths rewritten for dist), images, cover and PDF
   const src = path.join(ROOT, 'reports', w.dir), out = path.join(DIST, w.dir);
   fs.mkdirSync(out, { recursive: true });
