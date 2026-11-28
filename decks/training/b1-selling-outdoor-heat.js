@@ -115,24 +115,24 @@ async function main() {
   // 6a–6c · the market in USD millions (owner, 28 Nov 2026: "retailers should take outdoor heating more seriously")
   const SRC = (s, t) => T(s, t, { x: M, y: 6.62, w: 12.1, h: 0.3, fontSize: 9, color: HEX.STEEL });
   {
-    const s = L.content('Why Customers Buy Heat', 'The Market', 'A USD 1,410 Million Category, Growing Every Year',
-      'Outdoor heating was worth about USD 1,410 million worldwide in 2025 and is forecast to reach USD 2,470 million by 2034, about 6.6% a year (Fortune Business Insights, Outdoor Heating Market, 2026 edition). North America is the largest region: USD 640 million in 2025, 45.7% of the world. The US alone is about USD 550 million in 2026. Reports disagree on the size: five other publishers put today\'s market between USD 1,500 and 2,000 million, growing 4.7% to 8.2% a year (IMARC 2026, Market Glass 2025, Technavio 2026). Every one of them has it growing. Use the range if a customer pushes back. These are free summaries of paid reports; check against the live pages before external use.');
+    const s = L.content('Why Customers Buy Heat', 'The Market', 'USD 1.4–1.5 Billion Today, 2.5 Billion By 2032',
+      'The line to say: outdoor heating is a USD 1.4 to 1.5 billion category today, heading to about USD 2.5 billion by 2032, and the growth is driven by high-end installed heating: electric, mounted, built-in and controlled from a phone. Where the numbers come from: Fortune Business Insights (Outdoor Heating Market, 2026 edition) puts the global market at USD 1,410 million in 2025 and 1,480 million in 2026; IMARC (2026) at USD 1,500 million in 2025. Fortune forecasts USD 2,470 million by 2034, so "2.5 billion by 2032" is our framing of the faster forecasts (Technavio 2026: 8.2% a year; Market Glass 2025: USD 3,000 million by 2030); reports range from 4.7% to 8.2% growth a year. North America is the largest region: USD 640 million in 2025, 45.7% of the world; the US alone is about USD 550 million in 2026 (Fortune). Electric is the fastest-growing fuel (Market Glass: 9.2% a year against 5.3% for gas), and smart, connected heaters in North America grow 14.2% a year (Ken Research 2026). These are free summaries of paid reports; check against the live pages before external use.');
     card(s, M, 1.9, 7.35, 4.6, HEX.GREY, 'chart-card');
-    T(s, 'GLOBAL OUTDOOR HEATING, USD MILLIONS', { x: M + 0.35, y: 2.1, w: 6.5, h: 0.35, fontSize: 11, bold: true, color: HEX.STEEL, charSpacing: 2 });
-    const base = 6.0, k = 0.0013;
-    [['2025', 1410], ['2026', 1480], ['2034 forecast', 2470]].forEach(([yr, v], i) => {
-      const x = M + 0.8 + i * 2.2, h = v * k, col = i === 2 ? HEX.FLAME : HEX.STEEL;
-      s.addShape(pres.shapes.RECTANGLE, { x, y: base - h, w: 1.45, h, fill: { color: col }, line: { color: col, width: 0 }, objectName: 'bar' });
-      H1(s, v.toLocaleString('en-US'), { x: x - 0.4, y: base - h - 0.62, w: 2.25, h: 0.55, fontSize: 26, align: 'center', color: i === 2 ? HEX.FLAME : HEX.INK });
-      T(s, yr, { x: x - 0.4, y: base + 0.08, w: 2.25, h: 0.3, fontSize: 13, align: 'center', color: HEX.STEEL });
+    T(s, 'GLOBAL OUTDOOR HEATING, USD BILLIONS', { x: M + 0.35, y: 2.1, w: 6.5, h: 0.35, fontSize: 11, bold: true, color: HEX.STEEL, charSpacing: 2 });
+    const base = 6.0, k = 1.15;
+    [['Today', 1.45, '1.4–1.5'], ['2032', 2.5, '2.5']].forEach(([yr, v, lab], i) => {
+      const x = M + 1.2 + i * 3.0, h = v * k, col = i ? HEX.FLAME : HEX.STEEL;
+      s.addShape(pres.shapes.RECTANGLE, { x, y: base - h, w: 1.9, h, fill: { color: col }, line: { color: col, width: 0 }, objectName: 'bar' });
+      H1(s, lab, { x: x - 0.5, y: base - h - 0.7, w: 2.9, h: 0.62, fontSize: 32, align: 'center', color: i ? HEX.FLAME : HEX.INK });
+      T(s, yr, { x: x - 0.5, y: base + 0.08, w: 2.9, h: 0.3, fontSize: 14, align: 'center', color: HEX.STEEL });
     });
     card(s, 8.15, 1.9, 4.58, 4.6, HEX.INK, 'stat-card');
     ico(s, 'LuTrendingUp', 8.5, 2.2, 0.62, 'solid');
-    H1(s, '6.6%', { x: 8.5, y: 2.95, w: 4, h: 1.0, fontSize: 60, color: HEX.WHITE });
-    T(s, 'growth a year, to 2034', { x: 8.5, y: 3.95, w: 4, h: 0.4, fontSize: 15, color: 'E6E2DE' });
-    H1(s, 'USD 640M', { x: 8.5, y: 4.55, w: 4, h: 0.7, fontSize: 34, color: HEX.FLAME });
-    T(s, 'North America, the largest region: 46% of the world. The US alone is about USD 550M.', { x: 8.5, y: 5.3, w: 3.95, h: 0.9, fontSize: 13, color: 'E6E2DE' });
-    SRC(s, 'Source: Fortune Business Insights, Outdoor Heating Market, 2026. Other publishers: USD 1,500–2,000M today, 4.7–8.2% a year.');
+    T(s, 'DRIVEN BY', { x: 8.5, y: 3.0, w: 4, h: 0.3, fontSize: 11, bold: true, color: HEX.FLAME, charSpacing: 2 });
+    H1(s, 'High-End Installed Heating', { x: 8.5, y: 3.35, w: 3.95, h: 1.3, fontSize: 30, color: HEX.WHITE });
+    T(s, 'Electric, mounted and built-in, run from the phone.', { x: 8.5, y: 4.7, w: 3.95, h: 0.6, fontSize: 14, color: 'E6E2DE' });
+    T(s, 'North America is the largest region: USD 640M, 46% of the world.', { x: 8.5, y: 5.45, w: 3.95, h: 0.8, fontSize: 13, bold: true, color: HEX.FLAME });
+    SRC(s, 'Sources: Fortune Business Insights 2026; IMARC 2026; Technavio 2026; Market Glass 2025. Reports range from 4.7% to 8.2% growth a year.');
   }
   {
     const s = L.content('Why Customers Buy Heat', 'The Market', 'Where The Money Is Today, And Where It Is Moving',

@@ -1918,7 +1918,7 @@
  ],
  "deck": "decks/Tungsten-Series-II-Launch-Playbook.pptx",
  "benefit_order_note": "Ordered by priority: total weight across the six audiences (3 matters most, 2 matters, 1 nice to have), ties broken by the owner's order; proposed fields last.",
- "tilt_verify": "[[VERIFY: 45° tilt on 4 and 6 kW (owner, 18 Nov 2026) against the Series II manual, which gives a 30° maximum for 4 and 6 kW — Product team: correct the manual or the claim]]",
+ "tilt_verify": "Confirmed by the owner, 28 Nov 2026: every Series II model, 2 to 6 kW, tilts up to 45°. The Series II manual still says 30° for 4 and 6 kW and should be corrected.",
  "warranty_note": "Series II warranty: Select and Coastal 3 years on the heater and 7 years on the elements; Classic 2 years (owner, 27 Nov 2026).",
  "carousels": [
   {
@@ -2116,7 +2116,7 @@
    "name": "New Mounting Bracket",
    "fits": "Tungsten Series II",
    "what": "Set positions for 15°, 30° or 45°; 62 × 102 mm (2.5 × 4 in) plate. The heater can be mounted straight or at an angle up to 45° either way.",
-   "verify": "[[VERIFY: 45° on 4 and 6 kW against the Series II manual (30°); see tilt_verify — Product team]]",
+   "verify": "Confirmed: up to 45° on every model, 4 and 6 kW included (owner, 28 Nov 2026).",
    "source": "d1"
   }
  ],

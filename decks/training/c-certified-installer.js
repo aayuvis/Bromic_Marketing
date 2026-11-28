@@ -255,8 +255,8 @@ card(s, M, 1.95, 5.3, 4.8, HEX.GREY); pic(s, 't2-single-post-black', M + 0.2, 2.
   row(s, i, 8.95, 2.05 + k * 1.55, 3.8, t, d, { h: 1.3 }));
 
 s = L.content(C2, 'Tungsten Series II', 'Angle The Heat, Reach Off The Wall',
-  'Two brackets aim the heat where people sit. The new mounting bracket has set positions at 15, 30 and 45 degrees. Check the manual for the maximum on the 4 and 6 kW before you set 45; that figure is being confirmed with the Product team. The wall bracket holds the heater out from the wall with 14 in or 18 in of reach, and wall mounts stay at least 72 in above the floor. Source: launch deck accessories.');
-[['rv-pr-select-graphite-angled-bracket', 'Mounting Bracket', 'Set positions at 15°, 30° and 45°. Check the manual for the 4 and 6 kW maximum.'],
+  'Two brackets aim the heat where people sit. The new mounting bracket has set positions at 15, 30 and 45 degrees. Every Series II model, 2 to 6 kW, tilts up to 45 degrees. If a customer has an older printed manual that says 30 degrees for 4 and 6 kW, 45 is correct. The wall bracket holds the heater out from the wall with 14 in or 18 in of reach, and wall mounts stay at least 72 in above the floor. Source: launch deck accessories.');
+[['rv-pr-select-graphite-angled-bracket', 'Mounting Bracket', 'Set positions at 15°, 30° and 45°, on every model from 2 to 6 kW.'],
  ['rv-pr-bg-graphite-limestone-wall-dusk', 'Wall Bracket', '14 in or 18 in of reach off the wall, at least 72 in above the floor.']].forEach(([img, t, d], k) => {
   const x = M + k * 6.2;
   card(s, x, 1.95, 5.9, 3.2, HEX.GREY); pic(s, img, x, 1.95, 5.9, 3.2);
