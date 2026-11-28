@@ -20,7 +20,7 @@ T = shots.timeline([max(a, b) for a, b in zip(L['us'], L['au'])]); T['vo'] = L; 
 P
 fi
 GLB="${GLB:-$WORK/../cad/glb/6kW heater and recess kit.glb}" THREADS=3 "$PY" "$B/render_hq.py" "$WORK" plates aux explode fans
-X264="-c:v libx264 -preset slow -profile:v high -tune film -crf 19 -pix_fmt yuv420p -threads 3 -x264-params keyint=60:min-keyint=30"
+X264="-c:v libx264 -preset slow -profile:v high -tune film -crf 16 -maxrate 8500k -bufsize 17000k -pix_fmt yuv420p -threads 3 -x264-params keyint=60:min-keyint=30"
 seg() {  # mode frames WxH -> master_<mode>.mkv
   local M=$1 N=$2 S=$3 K=$(( ($2 + J - 1) / J )) pids=()
   for ((i=0;i<J;i++)); do

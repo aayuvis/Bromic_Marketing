@@ -317,7 +317,7 @@ def grade(im, night=False):
     H, W = a.shape[:2]; yy, xx = np.mgrid[0:H, 0:W]
     r = np.sqrt(((xx - W / 2) / (W / 2)) ** 2 + ((yy - H / 2) / (H / 2)) ** 2)
     a *= (1 - (0.22 if night else 0.10) * np.clip(r - 0.45, 0, 1) ** 1.5)[..., None]
-    g = np.random.default_rng(int(1e6 * random.random())).normal(0, 0.006, (H, W, 1)); a += g
+    g = np.random.default_rng(int(1e6 * random.random())).normal(0, 0.003, (H, W, 1)); a += g
     return Image.fromarray((np.clip(a, 0, 1) * 255).astype(np.uint8))
 
 def cavity_air(t, size=(1920, 1080), crop=None, alpha=0.20):
