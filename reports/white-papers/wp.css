@@ -352,3 +352,18 @@ table.t{font-size:11.6px}
 .bai img{width:100%;height:100%;object-fit:cover}
 .bal{position:absolute;left:16px;top:16px;background:#fff;color:var(--ink);font-family:var(--serif);font-size:26px;padding:6px 14px}
 .bal.dk{background:var(--flame);color:#fff}
+/* portfolio by application */
+.gl{display:grid;grid-template-columns:repeat(3,1fr);gap:16px 16px;margin-top:8px}
+.gli{height:190px;overflow:hidden}.gli img{width:100%;height:100%;object-fit:cover}
+.gl figcaption b{display:block;font-family:var(--serif);font-weight:400;font-size:19px;color:var(--ink);margin-top:6px}
+.gl figcaption span{font-size:12px;color:var(--flame-ink);font-weight:700}
+.aps{display:grid;grid-template-columns:1fr;gap:18px;margin-top:6px}
+.apc{display:grid;grid-template-columns:290px 1fr;gap:20px;border-top:2px solid var(--ink);padding-top:14px}
+.api{height:230px;overflow:hidden}.api img{width:100%;height:100%;object-fit:cover}
+.apt h3{font-size:24px;margin:0 0 8px}
+.show{font-family:var(--serif);font-size:17px;color:var(--ink);margin-bottom:8px}
+.show span{display:block;font-family:var(--sans);font-size:10px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--flame);margin-bottom:2px}
+.apt p{font-size:13.2px;margin-bottom:8px}
+.kv{display:grid;grid-template-columns:82px 1fr;font-size:12px;padding:5px 0;border-top:1px solid var(--line)}
+.kv b{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink)}
+.kv span{color:var(--ink-2)}

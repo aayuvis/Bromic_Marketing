@@ -5,8 +5,8 @@
   {
    "id": "portfolio-applications",
    "title": "Portfolio By Application",
-   "kicker": "6-page brochure",
-   "desc": "Which Bromic heater goes where, with its controls, and who to sell it to.",
+   "kicker": "12-page brochure",
+   "desc": "Every outdoor room and the heater to show first, the range at every price point, coverage, controls and three questions for the floor.",
    "pdf": "reports/retail/portfolio-applications/Bromic-Portfolio-By-Application.pdf",
    "cover": "reports/retail/portfolio-applications/pages/p1.png",
    "thumb": "reports/retail/_hub/portfolio-applications.webp"
@@ -23,19 +23,6 @@
     "pdf": "reports/retail/take-home-flyer/Bromic-Take-Home-Flyer-Half-Letter.pdf"
    },
    "thumb": "reports/retail/_hub/take-home-flyer.webp"
-  },
-  {
-   "id": "ecommerce-kit",
-   "title": "E-Commerce Content Kit",
-   "kicker": "For online retailers",
-   "desc": "Titles, bullets, descriptions, specs and image plans per series, with white-ground images and product-page modules.",
-   "pdf": "reports/retail/ecommerce-kit/Bromic-Ecommerce-Content-Kit.pdf",
-   "cover": "/tmp/claude-0/ek-01.png",
-   "thumb": "reports/retail/_hub/ecommerce-kit.webp",
-   "alt": {
-    "label": "Import spreadsheet (CSV)",
-    "pdf": "reports/retail/ecommerce-kit/listings.csv"
-   }
   },
   {
    "id": "series-tungsten-series-ii",
@@ -103,7 +90,7 @@
   {
    "id": "vs-infratech",
    "title": "Where Bromic Pulls Ahead",
-   "kicker": "Competitive sheet \u00b7 review before external use",
+   "kicker": "Competitive sheet · review before external use",
    "desc": "Four pages: the six differences up front, a point-by-point comparison, three settings with their controls, and how to sell it.",
    "pdf": "reports/retail/vs-infratech/Bromic-vs-Infratech.pdf",
    "cover": "reports/retail/vs-infratech/pages/p1.png",
@@ -112,7 +99,7 @@
   {
    "id": "vs-heatstrip",
    "title": "Bromic Platinum And Tungsten vs Heatstrip",
-   "kicker": "Competitive sheet \u00b7 Australia \u00b7 draft, review before external use",
+   "kicker": "Competitive sheet · Australia · draft, review before external use",
    "desc": "Platinum Electric measured against Heatstrip Classic and Enhance, the warm zone drawn to scale; Tungsten Series II on published specifications; fair talk lines for the floor.",
    "pdf": "reports/retail/vs-heatstrip/Bromic-vs-Heatstrip.pdf",
    "cover": "reports/retail/vs-heatstrip/pages/p1.png",
