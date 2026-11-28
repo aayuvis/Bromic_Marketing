@@ -1,12 +1,15 @@
-"""Full-quality CAD renders for the recess-kit film (owner, 21 Nov 2026: "not pixelated or smudged… ensure CAD is used").
-Every product part on screen is the real CAD (6 kW heater and low-clearance recess kit). Cameras are locked off per beat, so each beat
-is one clean plate rendered natively at 2240 x 1260 (compose.py only ever reduces it); only moving CAD parts are rendered per frame:
-  - the exploding kit (beat 3): every explode frame at 1920 x 1080 (reassembly reuses them in reverse);
-  - the Noctua impellers (beat 5): split from their frames and spun about each fan's own axis, rendered in small border regions over
-    the plate (spin-up frames + the 3 frames of a blade-pitch cycle at steady speed), with motion blur.
+"""Full-quality CAD renders for the recess-kit film (owner, 21 Nov 2026: "not pixelated or smudged… ensure CAD is used"; v4, 28 Nov 2026).
+Every product part on screen is the real CAD (6 kW heater and low-clearance recess kit). Cameras are locked off per beat (shots.py), so
+each beat is one clean plate rendered natively at 2240 x 1260 (compose_hq.py only ever reduces it); only moving CAD parts are rendered
+per state, indexed by the beat's own state rather than by frame number (a new voice-over never forces a re-render):
+  - plates: P0OFF / P0ON (bright cold open, heater off and on), P1A / P1B (ceiling, uncut and cut), P2 (exploded, transparent: studio
+    white is laid in 2D), P4N (no kit), P5K (with kit), P6 (protection, whole kit) and P6D (its detail inset), P7 (hero end);
+  - the exploding kit: NX states at evenly spaced progress (1920 x 1080, transparent; reassembly reuses them in reverse);
+  - the Noctua impellers (beat KIT): spin-up states + the 3 angles of a blade-pitch cycle, rendered in small border regions with motion blur.
 Aux maps (world X, world Y and a part category, Raw colour, 16-bit PNG) drive the 2D section wipe and the cavity tint.
-Cycles + OpenImageDenoise (albedo + normal), adaptive sampling, fixed seed, PNG. Restartable: existing outputs are skipped.
-  python render_hq.py WORK [job ...]        jobs: plates aux explode fans   (default: all)  -> WORK/r2/…"""
+Heater look (owner, 28 Nov 2026): medium-wave, an even deep orange behind the grille with the elements brightest, never white.
+Cycles + OpenImageDenoise (albedo + normal), adaptive sampling, fixed seed, PNG, 3 threads. Restartable: existing outputs are skipped.
+  python render_hq.py WORK [job ...]        jobs: plates aux explode fans   (default: all)  -> WORK/r2/…  (R2, RES, ONLY, SAMPLES env)"""
 import sys, os, math, json, time
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import bpy, numpy as np

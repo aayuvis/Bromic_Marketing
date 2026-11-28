@@ -1,13 +1,23 @@
-# Music for the recess-kit film
+# Music for the recess-kit film (v4, 28 Nov 2026)
 
-**Track:** "Another August" – The Cynic Project (cynicmusic), album *Pixelsphere* (2017). Serene ambient instrumental, no vocals.
-**Source:** https://opengameart.org/content/another-august (file: https://opengameart.org/sites/default/files/013_Another_August_0.mp3)
-**Licence:** CC0 1.0 (public domain dedication), as stated on the OpenGameArt page. Free for commercial use; no attribution required.
-**Downloaded:** 21 Nov 2026, into the build's scratch folder (not committed to the repo).
+**Track:** original, composed for this film and synthesised in code by `music.py` (numpy only: no samples, no loops, no third-party
+recordings). Licence-clean by construction: Bromic owns it outright; nothing to credit or clear.
 
-Edited by `audio_hq.py`: the opening 64 s (16:9 film) and 31 s (Reels), 1.5 s fade in, 3 s fade out, about 12 dB under the voice in
-the gaps and about 18 dB under it while the narrator speaks; the final mix is normalised to −14 LUFS integrated (−1.5 dBTP).
+**Why it changed:** the owner found v3's track ("Another August", CC0) dull and boring. v4 is warmer and more modern, but stays under
+the voice: a light groove at 96 BPM in D major.
 
-Sources checked first: FreePD.com (CC0) has closed; Pixabay and Chosic refuse automated access; ccMixter's CC0 instrumentals were
-techno/drone. A second CC0 track from the same artist ("Vaporware", https://opengameart.org/content/calm-piano-1-vaporware) is the
-alternative. Tracks on OpenGameArt that look like re-uploads of Pixabay music were not used (Pixabay's licence is not CC0).
+- Chords, one a bar: Dmaj9 – Bm9 – Gmaj9 – A7sus4 (I – vi – IV – V), resolving on Dmaj9 as the end card lands.
+- Electric piano (two-operator FM, soft bell attack, slight tremolo) on every bar, with a gentle re-voice on the "and" of beat 3.
+- A pluck arpeggio in eighths from bar 2 (lifted an octave from bar 5), a round sub bass from bar 3, an opening pad.
+- A soft tonal pulse: a low sine "thump" on beats 1 and 3 and a very quiet high tick on the off-beats, both made from decaying sine
+  tones. **No noise-based sound anywhere** (the owner heard a hiss at 0:07 in v3: the section-sweep whoosh, filtered noise, is gone).
+- A lighter two-bar breath mid-film; a dark synthetic reverb (convolved, 2.4 s); gentle tanh glue.
+
+**Mix** (`audio_hq.py`): about 9 dB under the voice in the gaps and about 16 dB under it while the narrator speaks; 1 s fade in, 2 s fade
+out; the 16:9 film and the Reels each get their own arrangement timed to their own length and end card. The final mix is normalised to
+−14 LUFS integrated, −1.5 dBTP (two-pass loudnorm in `make_hq.sh`).
+
+Sound cues (also all sine-based): a soft click and warm two-note swell as the heater switches on, tonal ticks as the kit reassembles,
+a low hum as the fans spin up.
+
+v3's track remains documented here for the record: "Another August" – The Cynic Project, OpenGameArt, CC0 1.0. It is no longer used.
