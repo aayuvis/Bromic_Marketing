@@ -181,7 +181,7 @@ PAGES = [cover, hook,
   find('The Same Warmth At Every Price Point'),
   ren('Where Bromic Fits On Every Structure', 'Every Structure, Warmed'),
   ren('How Tungsten And Platinum Mount To Any Beam', 'Any Beam, One Plate'),
-  recess,
+
   case1, case2, case3,
   dict(find('Built For The Pergola. Ahead Where It Counts.'), blocks=find('Built For The Pergola. Ahead Where It Counts.')['blocks'][:2]),
   place(),
