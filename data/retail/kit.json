@@ -15,13 +15,9 @@
    "id": "take-home-flyer",
    "title": "Take-Home Flyer",
    "kicker": "Customer leave-behind",
-   "desc": "Two-sided flyer for shoppers, with QR codes and a box for your store stamp.",
+   "desc": "Two sides: one evening image that sells the feeling, then four heaters, three reasons, one QR to plan their space and a box for your store stamp.",
    "pdf": "reports/retail/take-home-flyer/Bromic-Take-Home-Flyer.pdf",
    "cover": "reports/retail/take-home-flyer/pages/front.png",
-   "alt": {
-    "label": "Half-letter",
-    "pdf": "reports/retail/take-home-flyer/Bromic-Take-Home-Flyer-Half-Letter.pdf"
-   },
    "thumb": "reports/retail/_hub/take-home-flyer.webp"
   },
   {

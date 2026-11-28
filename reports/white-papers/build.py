@@ -62,6 +62,8 @@ def build(rid, pdf=False):
   <div class="cv"><img class="logo" src="LOGOW" alt="Bromic Heating"><div class="ck">{E(pg['kicker'])}</div><h1>{pg['title_html']}</h1>
   <div class="sub">{E(pg['sub'])}</div><p>{E(pg['blurb'])}</p></div>
   <div class="cvnote"><span>{E(pg['note'])}</span><span>Draft for review</span></div></section>''')
+        elif t == 'raw':
+            pages.append(f'<section class="pg raw {pg.get("cls", "")}">{pg["html"]}</section>')
         elif t == 'hero':
             pages.append(f'''<section class="pg divider hero">{img(pg['img'], 'bg', pg['h2'], pg.get('pos'))}<div class="dv"><div class="kick" style="color:#fff">{E(pg['kicker'])}</div>{f'<div class="dn">{E(pg["n"])}</div>' if pg.get('n') else ''}<h2>{E(pg['h2'])}</h2><p>{E(pg['line'])}</p></div>{folio(p, True)}</section>''')
         elif t == 'divider':
