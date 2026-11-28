@@ -41,7 +41,7 @@ def beat_at(T, t):
 # ---- cameras: (location, target, lens) per beat (and the protection detail inset, 'PROT_D')
 def cam_b(b):
     if b == OPEN:    # from below, a bright terrace ceiling: the black trim and grille read against a light board
-        return (0.70, -1.75, -1.25), (0.0, 0.02, -0.02), 30
+        return (0.70, -1.75, -1.25), (0.0, 0.02, -0.02), 36
     if b == CEIL:    # 3/4 above the ceiling line, pulled back so the whole kit (both ends) and the 7.5 in dimension are in frame
         return (-1.25, -2.30, 0.62), (0.0, 0.0, 0.06), 30
     if b == EXPL:    # exploded kit on studio white, from the front and a little above so the fans read face-on

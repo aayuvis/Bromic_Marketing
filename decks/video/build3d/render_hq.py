@@ -117,13 +117,13 @@ def setup_frame(b, e=0.0, spin=None, on=True, ycut=None, camb=None, blur=False):
     co.data.dof.aperture_fstop = 4.0 if bright else (11.0 if studio2 else 5.6)
     clip.default_value = shots.ycut_b(b) if ycut is None else ycut
     bg = sc.world.node_tree.nodes['Background']
-    if b == shots.OPEN: bg.inputs[0].default_value = (0.78, 0.83, 0.92, 1); bg.inputs[1].default_value = 1.25
-    elif b == shots.END: bg.inputs[0].default_value = (0.62, 0.60, 0.72, 1); bg.inputs[1].default_value = 0.95
-    elif studio2: bg.inputs[0].default_value = (1.0, 1.0, 1.0, 1); bg.inputs[1].default_value = 0.85
+    if b == shots.OPEN: bg.inputs[0].default_value = (0.80, 0.84, 0.92, 1); bg.inputs[1].default_value = float(os.environ.get('W0', '0.55'))
+    elif b == shots.END: bg.inputs[0].default_value = (0.42, 0.40, 0.55, 1); bg.inputs[1].default_value = float(os.environ.get('W7', '0.45'))
+    elif studio2: bg.inputs[0].default_value = (1.0, 1.0, 1.0, 1); bg.inputs[1].default_value = 0.35
     else: scene.set_world(False)
-    sc.render.film_transparent = studio2                 # studio white is laid in 2D behind the parts (clean #FFF, no grey cast)
+    sc.render.film_transparent = studio2; sc.render.image_settings.color_mode = 'RGBA' if studio2 else 'RGB'                # studio white is laid in 2D behind the parts (clean #FFF, no grey cast)
     for l in studio: l.hide_render = bright; l.data.energy = l.data['e0'] * (0.8 if studio2 else 1.0)
-    under.energy = (420 if b == shots.OPEN else 300) if bright else 0
+    under.energy = (float(os.environ.get('U0', '160')) if b == shots.OPEN else float(os.environ.get('U7', '90'))) if bright else 0
     under.color = (1.0, 0.95, 0.88) if b == shots.OPEN else (1.0, 0.86, 0.72)
     rim2.energy = 420 if studio2 else 0
     warm.energy = (5 if b == shots.OPEN else 8) if (bright and on) else 0
@@ -132,7 +132,7 @@ def setup_frame(b, e=0.0, spin=None, on=True, ycut=None, camb=None, blur=False):
     EL.inputs['Emission Color'].default_value = (1.0, 0.20, 0.035, 1)
     EL.inputs['Base Color'].default_value = EL_BASE if on else (0.16, 0.15, 0.15, 1)
     for s_ in STEEL:
-        s_.inputs['Base Color'].default_value = ((0.26, 0.27, 0.29, 1) if studio2 else (0.55, 0.56, 0.57, 1))
+        s_.inputs['Base Color'].default_value = ((0.34, 0.35, 0.37, 1) if studio2 else (0.55, 0.56, 0.57, 1))
         s_.inputs['Roughness'].default_value = 0.40 if studio2 else 0.32
     CUT.inputs['Emission Strength'].default_value = 6.0 if b == shots.PROT else 0.0
     HX = shots.heater_xf(e)
