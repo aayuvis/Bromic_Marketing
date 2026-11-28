@@ -1143,3 +1143,12 @@ body.cs-locked { overflow: hidden; }
 
 #mega-review { display: block; left: auto; right: 24px; width: 380px; max-width: calc(100vw - 16px); }
 @media (max-width: 900px) { #mega-review { left: 8px; right: 8px; width: auto; } }
+
+/* icon library */
+.ic-g{margin:26px 0 34px}.ic-g h2{border-top:1px solid var(--ink,#231F20);padding-top:12px;margin:0 0 14px}
+.ic-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px}
+.ic-t{margin:0;border:1px solid var(--line,#E3E3E1);background:var(--card,#fff);display:flex;flex-direction:column}
+.ic-p{display:flex;align-items:center;justify-content:center;height:96px;background:#fff}.ic-p.dk{background:#231F20;height:64px}
+.ic-p img{width:56px;height:56px}.ic-p.dk img{width:36px;height:36px}
+.ic-t figcaption{padding:8px 10px 10px;display:flex;flex-direction:column;gap:2px;font-size:13px}
+.ic-t figcaption small{color:#71777D;font-size:11px}.ic-t figcaption span{display:flex;gap:10px;margin-top:4px;font-size:12px}

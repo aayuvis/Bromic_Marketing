@@ -319,6 +319,9 @@ const ZIP_PARTS = (() => { const ok = (HUB.review || []).filter((r) => r.status 
   for (const r of ok) { const b = fs.statSync(path.join(ROOT, r.file)).size; if (cur.length && sz + b > 80e6) { parts.push(cur); cur = []; sz = 0; } cur.push(r.file); sz += b; }
   if (cur.length) parts.push(cur); return parts; })();
 HUB.approvedZips = ZIP_PARTS.map((p, i) => ({ href: `review/approved-${i + 1}.zip`, n: p.length }));
+// Bromic icon library (decks/icons: icons.json, svg/, png/), published under dist/icons with one zip of everything.
+const ICJ = path.join(ROOT, 'decks', 'icons', 'icons.json');
+HUB.icons = fs.existsSync(ICJ) ? JSON.parse(fs.readFileSync(ICJ, 'utf8')).filter((i) => fs.existsSync(path.join(ROOT, 'decks', 'icons', 'svg', i.name + '.svg'))) : [];
 fs.writeFileSync(path.join(DIST, 'data.js'), 'window.HUB=' + JSON.stringify(HUB) + ';');
 for (const [lang, m] of Object.entries(tr)) fs.writeFileSync(path.join(DIST, `data-${lang}.js`), `(window.HUB_TR=window.HUB_TR||{})[${JSON.stringify(lang)}]=` + JSON.stringify(m) + ';');
 fs.cpSync(path.join(ROOT, 'images', 'library'), path.join(DIST, 'images', 'library'), { recursive: true });
@@ -326,6 +329,9 @@ for (const e of [...Object.entries(designed.items), ...Object.entries(designed.c
 if (training) { const o = path.join(DIST, 'training'); fs.mkdirSync(o, { recursive: true });
   for (const t of training.tracks) for (const c of t.courses) if (c.ready) for (const ext of ['.pptx', '.pdf', '-cover.jpg']) { const f = path.join(ROOT, 'decks', 'training', 'out', c.file + ext); if (fs.existsSync(f)) fs.copyFileSync(f, path.join(o, c.file + ext)); }
   for (const t of training.tracks) for (const c of t.courses) if (c.ready && c.slides) { const sd = path.join(ROOT, 'decks', 'training', 'out', 'slides', c.file); fs.cpSync(sd, path.join(o, 'slides', c.file), { recursive: true }); } }
+if (HUB.icons.length) { const I = path.join(ROOT, 'decks', 'icons'), o = path.join(DIST, 'icons'); fs.mkdirSync(o, { recursive: true });
+  for (const d of ['svg', 'png']) if (fs.existsSync(path.join(I, d))) fs.cpSync(path.join(I, d), path.join(o, d), { recursive: true });
+  execFileSync('python3', ['-c', 'import sys,zipfile,os\nz=zipfile.ZipFile(sys.argv[1],"w",zipfile.ZIP_DEFLATED)\nfor d in ("svg","png"):\n  p=os.path.join(sys.argv[2],d)\n  if os.path.isdir(p):\n    for r,_,fs in os.walk(p):\n      for f in fs: z.write(os.path.join(r,f),os.path.relpath(os.path.join(r,f),sys.argv[2]))\nz.write(os.path.join(sys.argv[2],"README.md"),"README.md")\nz.close()', path.join(o, 'Bromic-Icons.zip'), I]); }
 for (const w of wpapers) {  // a white paper: its Letter page (paths rewritten for dist), images, cover and PDF
   const src = path.join(ROOT, 'reports', w.dir), out = path.join(DIST, w.dir);
   fs.mkdirSync(out, { recursive: true });

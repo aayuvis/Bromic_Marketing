@@ -1,6 +1,8 @@
 // Bromic training decks: one shared library so every deck in the Training Hub looks and behaves the same.
-// Look: the Tungsten Series II launch playbook (Bodoni MT headlines as the Office-safe Didot, Arial body,
-// white pages, ink and steel, flame #EF4123 as the single accent). LAYOUT_WIDE 13.333 x 7.5 in.
+// Look v2 (owner, 28 Nov 2026: "looks like Claude did it... the iconography is claudy... take the design elements from the PDFs"):
+// the white papers' language. No icon discs. Didot headlines (Bodoni MT, the Office-safe Didot; rendered here with GFS Didot),
+// a flame italic accent word (*word* in a title), big Didot figures over hairline rules, full-bleed photographs under a
+// dark gradient, product cut-outs on white, numbered steps in Didot, white pages, ink and steel, flame as the one accent.
 // Usage (each deck file):
 //   const L = require('./lib'); const { pres, s } = L.start({ title, footer, icons: ['LuFlame', ...] });
 //   ... L.cover(...), L.divider(...), L.content(...), L.exercise(...), L.quiz(...), L.closing(...)
@@ -26,6 +28,7 @@ const W = 13.333, H = 7.5, M = 0.6;
 const HEX = { INK: '231F20', BODY: '4A4546', STEEL: '71777D', FLAME: 'EF4123', WASH: 'FCE3DC', LINE: 'E3E3E1', GREY: 'F5F5F4', WHITE: 'FFFFFF' };
 
 let pres, C, sec = '', JOBS = [], ICONS = {}, NEED = new Set(), FOOT = '';
+const LATE = { push: (f) => f() }; // shades are made by prepIcons() before any slide
 
 // ---- images: any library id (images/library/<id>.webp), review image ('rv-<id>' -> images/review/full), portfolio
 // ('pf-<id>'), deck render ('dk-<name>' -> decks/product-renders), or an absolute path. Always cropped (cover) or
@@ -50,16 +53,49 @@ async function iconPng(name, color) {
   const buf = await sharp(Buffer.from(svg)).resize(256, 256).png().toBuffer();
   return (ICONS[key] = 'image/png;base64,' + buf.toString('base64'));
 }
-// An icon in a circle: style 'light' (flame on wash), 'solid' (white on flame), 'dark' (white on ink).
-function ico(s, name, x, y, d = 0.62, style = 'light') {
-  const fill = style === 'solid' ? HEX.FLAME : style === 'dark' ? HEX.INK : HEX.WASH, col = style === 'light' ? HEX.FLAME : HEX.WHITE;
-  s.addShape(pres.shapes.OVAL, { x, y, w: d, h: d, fill: { color: fill }, line: { color: fill, width: 0 }, objectName: 'icon-disc' });
-  const k = name + col; if (!ICONS[k]) throw new Error('icon not prepared (list it in start({icons})): ' + name);
-  s.addImage({ data: ICONS[k], x: x + d * 0.22, y: y + d * 0.22, w: d * 0.56, h: d * 0.56, objectName: 'icon-' + name, altText: name });
+// Icons: the Bromic set in decks/icons/svg (owner, 28 Nov 2026: "a Bromic style unique iconography"): line drawings
+// in ink with one flame detail, no discs or containers. icon(s, name, x, y, size, { dark }) — dark: white strokes for ink or
+// photo backgrounds. The old Lucide ico() is retired and draws nothing.
+const ICON_DIR = path.join(ROOT, 'decks', 'icons', 'svg');
+function icon(s, name, x, y, d = 0.5, o = {}) {
+  const f = path.join(ICON_DIR, name + '.svg'); if (!fs.existsSync(f)) throw new Error('no Bromic icon: ' + name);
+  const out = path.join(CACHE, `icon-${name}-${o.dark ? 'w' : 'k'}.png`);
+  if (!fs.existsSync(out) || fs.statSync(out).mtimeMs < fs.statSync(f).mtimeMs) {
+    let svg = fs.readFileSync(f, 'utf8'); if (o.dark) svg = svg.replace(/#231F20/gi, '#FFFFFF');
+    JOBS.push(sharp(Buffer.from(svg), { density: 600 }).resize(400, 400).png().toFile(out));
+  }
+  s.addImage({ path: out, x, y, w: d, h: d, objectName: 'icon-' + name, altText: name });
 }
+function ico() {}
 const T = (s, text, o) => s.addText(text, { isTextBox: true, margin: 0, fontSize: 15, color: HEX.BODY, valign: 'top', fontFace: 'Arial', ...o });
 const H1 = (s, text, o) => T(s, text, { fontFace: 'Bodoni MT', color: HEX.INK, ...o });
-const card = (s, x, y, w, h, fill = HEX.GREY, name = 'card') => s.addShape(pres.shapes.RECTANGLE, { x, y, w, h, fill: { color: fill }, line: { color: fill, width: 0 }, objectName: name });
+const card = (s, x, y, w, h, fill = HEX.GREY, name = 'card') => {
+  if (fill === HEX.GREY || fill === 'F5F5F4') return rule(s, x, y, w, HEX.INK, 0.75, name);
+  return s.addShape(pres.shapes.RECTANGLE, { x, y, w, h, fill: { color: fill }, line: { color: fill, width: 0 }, objectName: name });
+};
+// a hairline rule (the PDFs put one over every column, stat and step)
+function rule(s, x, y, w, color = HEX.INK, pt = 0.75, name = 'rule') { s.addShape(pres.shapes.LINE, { x, y, w, h: 0, line: { color, width: pt }, objectName: name }); }
+// a Didot numeral in flame, for steps and lists: 01, 02...
+function num(s, n, x, y, o = {}) { T(s, typeof n === 'number' ? String(n).padStart(2, '0') : n, { x, y, w: o.w || 0.9, h: o.h || 0.6, fontFace: 'Bodoni MT', fontSize: o.size || 30, color: o.color || HEX.FLAME, ...o.t }); }
+// a big Didot figure over a rule, with its line underneath (the PDFs' 51% / 35% / 74%)
+function stat(s, figure, label, x, y, w, o = {}) {
+  rule(s, x, y, w, o.ruleColor || HEX.INK);
+  T(s, figure, { x, y: y + 0.12, w, h: o.h || 1.1, fontFace: 'Bodoni MT', fontSize: o.size || 60, color: o.color || HEX.FLAME });
+  T(s, label, { x, y: y + 0.12 + (o.h || 1.1), w, h: o.lh || 0.9, fontSize: o.ls || 14, color: o.lc || HEX.BODY });
+}
+// *word* in a title becomes the flame italic accent, as on the white papers' covers ("Heat The *Pergola*")
+function rich(text, color) {
+  const parts = String(text).split(/(\*[^*]+\*)/).filter(Boolean);
+  return parts.map((p) => p.startsWith('*') ? { text: p.slice(1, -1), options: { italic: true, color: HEX.FLAME } } : { text: p, options: color ? { color } : {} });
+}
+// a dark gradient for text over photographs (left to right, or bottom to top)
+async function shade(dir) {
+  const f = path.join(CACHE, `shade-${dir}.png`); if (fs.existsSync(f)) return f;
+  const g = dir === 'up' ? 'x1="0" y1="1" x2="0" y2="0"' : 'x1="0" y1="0" x2="1" y2="0"';
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900"><defs><linearGradient id="g" ${g}><stop offset="0" stop-color="#231F20" stop-opacity=".88"/><stop offset=".45" stop-color="#231F20" stop-opacity=".55"/><stop offset="1" stop-color="#231F20" stop-opacity="0"/></linearGradient></defs><rect width="1600" height="900" fill="url(#g)"/></svg>`;
+  await sharp(Buffer.from(svg)).png().toFile(f); return f;
+}
+
 const bullets = (items, o = {}) => items.map((t, i) => ({ text: t, options: { bullet: { code: '25A0' }, breakLine: i < items.length - 1, paraSpaceAfter: 8, ...o } }));
 
 function slide(master, section) {
@@ -79,8 +115,8 @@ function start({ title, footer, icons = [] }) {
     objects: [
       { image: { path: LOGO, x: M, y: 7.0, w: 0.95, h: 0.3 } },
       { text: { text: FOOT, options: { x: 1.75, y: 7.0, w: 9, h: 0.3, fontSize: 9, color: C.accent2, valign: 'middle', margin: 0 } } },
-      { placeholder: { options: { name: 'kicker', type: 'body', x: M, y: 0.4, w: 10, h: 0.3, fontSize: 11, bold: true, color: C.accent1, charSpacing: 3, margin: 0 }, text: '' } },
-      { placeholder: { options: { name: 'title', type: 'title', x: M, y: 0.72, w: 12.1, h: 0.9, fontFace: 'Bodoni MT', fontSize: 34, color: C.text1, valign: 'top', align: 'left', margin: 0 }, text: '' } },
+      { placeholder: { options: { name: 'kicker', type: 'body', x: M, y: 0.42, w: 10, h: 0.28, fontSize: 9.5, bold: true, color: C.accent1, charSpacing: 4, margin: 0 }, text: '' } },
+      { placeholder: { options: { name: 'title', type: 'title', x: M, y: 0.72, w: 12.1, h: 0.9, fontFace: 'Bodoni MT', fontSize: 32, color: C.text1, valign: 'top', align: 'left', margin: 0 }, text: '' } },
     ],
     slideNumber: { x: 12.2, y: 7.0, w: 0.5, h: 0.3, fontSize: 9, color: C.accent2, align: 'right' },
   });
@@ -93,95 +129,120 @@ function start({ title, footer, icons = [] }) {
     ],
   });
   pres.defineSlideMaster({
-    title: 'EXERCISE', background: { color: C.accent3 },
+    title: 'EXERCISE', background: { color: C.background1 },
     objects: [
       { image: { path: LOGO, x: M, y: 7.0, w: 0.95, h: 0.3 } },
       { text: { text: FOOT, options: { x: 1.75, y: 7.0, w: 9, h: 0.3, fontSize: 9, color: C.accent2, valign: 'middle', margin: 0 } } },
-      { placeholder: { options: { name: 'kicker', type: 'body', x: 1.55, y: 0.5, w: 10, h: 0.3, fontSize: 11, bold: true, color: C.accent5, charSpacing: 3, margin: 0 }, text: '' } },
-      { placeholder: { options: { name: 'title', type: 'title', x: 1.55, y: 0.82, w: 11.1, h: 0.9, fontFace: 'Bodoni MT', fontSize: 34, color: C.text1, valign: 'top', align: 'left', margin: 0 }, text: '' } },
+      { placeholder: { options: { name: 'kicker', type: 'body', x: M, y: 0.42, w: 10, h: 0.28, fontSize: 9.5, bold: true, color: C.accent1, charSpacing: 4, margin: 0 }, text: '' } },
+      { placeholder: { options: { name: 'title', type: 'title', x: M, y: 0.72, w: 12.1, h: 0.9, fontFace: 'Bodoni MT', fontSize: 32, color: C.text1, valign: 'top', align: 'left', margin: 0 }, text: '' } },
     ],
     slideNumber: { x: 12.2, y: 7.0, w: 0.5, h: 0.3, fontSize: 9, color: C.accent2, align: 'right' },
   });
+  pres.defineSlideMaster({ title: 'BLANK', background: { color: C.text1 }, objects: [] });
   return { pres, C };
 }
 
-const kt = (s, kicker, title) => { s.addText(String(kicker).toUpperCase(), { placeholder: 'kicker' }); s.addText(title, { placeholder: 'title' }); };
+const kt = (s, kicker, title) => { s.addText(String(kicker).toUpperCase(), { placeholder: 'kicker' }); s.addText(rich(title), { placeholder: 'title' }); };
 
-// ---- slide recipes ----
-// cover: full-height photo right, title block left on ink
+// ---- slide recipes (v2: the white papers' language) ----
+// cover: a full-bleed photograph under a dark gradient; white logo; flame kicker; Didot title with a flame italic accent
 function cover({ kicker, title, sub, img, meta, section = 'Welcome', notes }) {
   pres.addSection({ title: section }); sec = section;
   const s = pres.addSlide({ sectionTitle: section }); s.background = { color: HEX.INK };
-  pic(s, img, 5.4, 0, W - 5.4, H, 'cover', 'cover-image');
-  s.addImage({ path: LOGO_W, x: M, y: 0.55, w: 1.8, h: 0.56 });
-  T(s, kicker.toUpperCase(), { x: M, y: 2.7, w: 4.5, h: 0.35, fontSize: 12, bold: true, color: HEX.FLAME, charSpacing: 4 });
-  H1(s, title, { x: M, y: 3.1, w: 4.6, h: 2.0, fontSize: 38, color: HEX.WHITE });
-  if (sub) T(s, sub, { x: M, y: 5.2, w: 4.5, h: 1.0, fontSize: 14, color: 'D9D6D2' });
-  if (meta) T(s, meta, { x: M, y: 6.75, w: 4.6, h: 0.3, fontSize: 10, color: 'B9B5B0' });
+  pic(s, img, 0, 0, W, H, 'cover', 'cover-image');
+  LATE.push(() => s.addImage({ path: path.join(CACHE, 'shade-right.png'), x: 0, y: 0, w: W * 0.72, h: H, objectName: 'shade' }));
+  LATE.push(() => {
+    s.addImage({ path: LOGO_W, x: M, y: 0.55, w: 1.6, h: 0.5 });
+    T(s, kicker.toUpperCase(), { x: M, y: 3.0, w: 6.5, h: 0.3, fontSize: 10, bold: true, color: HEX.FLAME, charSpacing: 5 });
+    H1(s, rich(title), { x: M, y: 3.35, w: 7.2, h: 2.1, fontSize: 48, color: HEX.WHITE });
+    if (sub) T(s, sub, { x: M, y: 5.5, w: 6.2, h: 0.9, fontSize: 15, color: 'E6E2DE' });
+    if (meta) { rule(s, M, 6.6, 6.2, '8A8580', 0.5); T(s, meta, { x: M, y: 6.7, w: 6.2, h: 0.3, fontSize: 9, color: 'B9B5B0', charSpacing: 2 }); }
+  });
   if (notes) s.addNotes(notes);
   return s;
 }
-// divider: ink page, photo right, big module number
-function divider({ n, title, line, img, section, icon, notes }) {
-  const s = slide('DARK', section || title);
-  pic(s, img, 7.6, 0, W - 7.6, H, 'cover', 'divider-image');
-  if (icon) ico(s, icon, M, 2.9, 0.75, 'solid');
-  s.addText(n, { placeholder: 'kicker' }); s.addText(title, { placeholder: 'title' });
-  if (line) T(s, line, { x: M, y: 6.1, w: 6.6, h: 0.8, fontSize: 14, color: 'D9D6D2' });
+// divider: a full-bleed photograph, gradient from the bottom; a big flame Didot numeral, the title, one line
+function divider({ n, title, line, img, section, notes }) {
+  const s = slide('BLANK', section || title);
+  pic(s, img, 0, 0, W, H, 'cover', 'divider-image');
+  LATE.push(() => s.addImage({ path: path.join(CACHE, 'shade-up.png'), x: 0, y: 0, w: W, h: H, objectName: 'shade' }));
+  LATE.push(() => {
+    T(s, 'PART ' + n, { x: M, y: 3.25, w: 6, h: 0.3, fontSize: 10, bold: true, color: HEX.FLAME, charSpacing: 5 });
+    H1(s, n, { x: M - 0.04, y: 3.5, w: 3, h: 1.4, fontSize: 96, color: HEX.FLAME });
+    H1(s, rich(title), { x: M, y: 4.95, w: 9, h: 0.9, fontSize: 40, color: HEX.WHITE });
+    if (line) T(s, line, { x: M, y: 5.9, w: 8, h: 0.7, fontSize: 15, color: 'E6E2DE' });
+  });
   if (notes) s.addNotes(notes);
   return s;
 }
 // content: kicker + title on the white layout; caller composes the rest. Returns the slide.
 function content(section, kicker, title, notes) { const s = slide('CONTENT', section); kt(s, kicker, title); if (notes) s.addNotes(notes); return s; }
-// exercise: flame-wash page with an icon, the task, how long, and the steps; optional photo or plan on the right
-function exercise({ section, n, title, task, minutes, steps = [], img, imgMode = 'cover', notes, icon = 'LuPencilRuler' }) {
+// exercise: white page; the task in Didot; numbered steps on a wash panel; optional photo or plan on the right
+function exercise({ section, n, title, task, minutes, steps = [], img, imgMode = 'cover', notes }) {
   const s = slide('EXERCISE', section);
-  ico(s, icon, M, 0.55, 0.75, 'solid');
-  kt(s, `Exercise ${n}  ·  ${minutes} min`, title);
+  kt(s, `Exercise ${String(n).padStart(2, '0')}  ·  ${minutes} min`, title);
   const tw = img ? 6.4 : 12.1;
-  T(s, task, { x: M, y: 1.95, w: tw, h: 1.3, fontSize: 19, color: HEX.INK, fontFace: 'Bodoni MT' });
-  if (steps.length) T(s, steps.map((t, i) => ({ text: `${i + 1}   ${t}`, options: { breakLine: i < steps.length - 1, paraSpaceAfter: 10 } })), { x: M, y: 3.35, w: tw, h: 3.4, fontSize: 15, color: HEX.BODY });
-  if (img) pic(s, img, 7.35, 1.95, 5.38, 4.8, imgMode, 'exercise-image');
+  rule(s, M, 1.85, tw, HEX.FLAME, 1.5);
+  T(s, task, { x: M, y: 2.0, w: tw, h: 1.25, fontSize: 19, color: HEX.INK, fontFace: 'Bodoni MT' });
+  if (steps.length) {
+    s.addShape(pres.shapes.RECTANGLE, { x: M, y: 3.35, w: tw, h: 3.4, fill: { color: HEX.WASH }, line: { color: HEX.WASH, width: 0 }, objectName: 'steps-panel' });
+    const sh = Math.min(0.8, 3.1 / steps.length);
+    steps.forEach((t, i) => { num(s, i + 1, M + 0.25, 3.5 + i * sh, { size: 18, h: 0.4, w: 0.6 }); T(s, t, { x: M + 0.9, y: 3.55 + i * sh, w: tw - 1.15, h: sh, fontSize: 14, color: HEX.INK }); });
+  }
+  if (img) pic(s, img, 7.35, 1.85, 5.38, 4.9, imgMode, 'exercise-image');
   if (notes) s.addNotes(notes);
   return s;
 }
-// quiz: question, 3-4 options as cards; the answer goes in the notes (never on the slide)
+// quiz: the question, then 3-4 options under hairline rules with Didot letters; the answer goes in the notes
 function quiz({ section, n, q, options, answer, why }) {
   const s = slide('CONTENT', section);
   kt(s, `Check ${n}`, q);
-  const cw = (W - 2 * M - (options.length - 1) * 0.3) / options.length;
+  const cw = (W - 2 * M - (options.length - 1) * 0.35) / options.length;
   options.forEach((o, i) => {
-    const x = M + i * (cw + 0.3);
-    card(s, x, 2.3, cw, 3.6, HEX.GREY, 'option-card');
-    T(s, String.fromCharCode(65 + i), { x: x + 0.3, y: 2.55, w: 1, h: 0.7, fontFace: 'Bodoni MT', fontSize: 40, color: HEX.FLAME });
-    T(s, o, { x: x + 0.3, y: 3.45, w: cw - 0.6, h: 2.3, fontSize: 16, color: HEX.INK });
+    const x = M + i * (cw + 0.35);
+    rule(s, x, 2.35, cw, HEX.INK, 0.75);
+    T(s, String.fromCharCode(65 + i), { x, y: 2.5, w: 1, h: 0.9, fontFace: 'Bodoni MT', fontSize: 48, color: HEX.FLAME });
+    T(s, o, { x, y: 3.55, w: cw - 0.1, h: 2.6, fontSize: 17, color: HEX.INK });
   });
   s.addNotes(`Answer: ${String.fromCharCode(65 + answer)}. ${why || ''}`);
   return s;
 }
-// statement: one big line over a full-bleed photo
+// statement: one big Didot line over a full-bleed photograph, gradient from the left
 function statement({ section, kicker, line, img, notes }) {
-  const s = slide('DARK', section);
+  const s = slide('BLANK', section);
   pic(s, img, 0, 0, W, H, 'cover', 'statement-image');
-  s.addShape(pres.shapes.RECTANGLE, { x: 0, y: 3.9, w: W, h: 3.6, fill: { color: HEX.INK, transparency: 25 }, line: { color: HEX.INK, width: 0 }, objectName: 'scrim' });
-  T(s, kicker.toUpperCase(), { x: M, y: 4.3, w: 11, h: 0.35, fontSize: 12, bold: true, color: HEX.FLAME, charSpacing: 4 });
-  H1(s, line, { x: M, y: 4.75, w: 11.8, h: 2.0, fontSize: 36, color: HEX.WHITE });
+  LATE.push(() => s.addImage({ path: path.join(CACHE, 'shade-right.png'), x: 0, y: 0, w: W * 0.8, h: H, objectName: 'shade' }));
+  LATE.push(() => {
+    T(s, kicker.toUpperCase(), { x: M, y: 3.6, w: 7, h: 0.3, fontSize: 10, bold: true, color: HEX.FLAME, charSpacing: 5 });
+    H1(s, rich(line), { x: M, y: 3.95, w: 7.4, h: 2.6, fontSize: 34, color: HEX.WHITE });
+  });
   if (notes) s.addNotes(notes);
   return s;
 }
-// closing: ink page with the take-aways and what to do next
+// closing: a photograph on the right; take-aways as numbered lines on ink
 function closing({ section = 'Close', title, points, next, img, notes }) {
-  const s = slide('DARK', section);
-  if (img) pic(s, img, 7.6, 0, W - 7.6, H, 'cover', 'closing-image');
-  s.addText('NEXT', { placeholder: 'kicker' }); s.addText(title, { placeholder: 'title' });
-  if (points) T(s, bullets(points), { x: M, y: 1.4, w: 6.6, h: 2.3, fontSize: 15, color: 'E6E2DE' });
-  if (next) T(s, next, { x: M, y: 6.3, w: 6.6, h: 0.6, fontSize: 13, color: 'D9D6D2' });
+  const s = slide('BLANK', section); s.background = { color: HEX.INK };
+  if (img) pic(s, img, 7.3, 0, W - 7.3, H, 'cover', 'closing-image');
+  s.addImage({ path: LOGO_W, x: M, y: 0.55, w: 1.6, h: 0.5 });
+  T(s, 'NEXT', { x: M, y: 1.5, w: 6, h: 0.3, fontSize: 10, bold: true, color: HEX.FLAME, charSpacing: 5 });
+  H1(s, rich(title), { x: M, y: 1.85, w: 6.3, h: 1.4, fontSize: 36, color: HEX.WHITE });
+  if (points) { const ph = Math.min(0.85, 2.9 / points.length); points.forEach((t, i) => { rule(s, M, 3.35 + i * ph, 6.2, '5A5556', 0.5); num(s, i + 1, M, 3.42 + i * ph, { size: 16, h: 0.35, w: 0.55 }); T(s, t, { x: M + 0.65, y: 3.45 + i * ph, w: 5.55, h: ph - 0.1, fontSize: 14, color: 'E6E2DE' }); }); }
+  if (next) T(s, next, { x: M, y: 6.45, w: 6.2, h: 0.6, fontSize: 12, color: 'B9B5B0' });
   if (notes) s.addNotes(notes);
   return s;
 }
 
+// Renders here use GFS Didot for Bodoni MT (the brand's Didot; LibreOffice otherwise falls back to a sans): install it once.
+function didot() {
+  const f = path.join(require('os').homedir(), '.fonts', 'GFSDidot.ttf'); if (fs.existsSync(f)) return;
+  fs.mkdirSync(path.dirname(f), { recursive: true });
+  execFileSync('python3', ['-c', `from fontTools.ttLib import TTFont; t=TTFont('${ROOT}/app/src/fonts/gfs-didot-latin.woff2'); t.flavor=None; t.save('${f}')`]);
+  const c = path.join(require('os').homedir(), '.config', 'fontconfig', 'fonts.conf'); fs.mkdirSync(path.dirname(c), { recursive: true });
+  fs.writeFileSync(c, '<?xml version="1.0"?><!DOCTYPE fontconfig SYSTEM "fonts.dtd"><fontconfig><alias binding="same"><family>Bodoni MT</family><prefer><family>GFS Didot</family></prefer></alias><alias binding="same"><family>Didot</family><prefer><family>GFS Didot</family></prefer></alias></fontconfig>');
+  execFileSync('fc-cache', ['-f']);
+}
 async function finish(fileName) {
-  for (const n of NEED) for (const c of [HEX.FLAME, HEX.WHITE]) await iconPng(n, c);
+  didot();
   await Promise.all(JOBS);
   const out = path.join(OUTDIR, fileName + '.pptx');
   await pres.writeFile({ fileName: out });
@@ -195,6 +256,6 @@ async function finish(fileName) {
 }
 
 // icons must be known before slides that use them are composed: call prepIcons first (start() registers the list)
-async function prepIcons(list = []) { list.forEach((n) => NEED.add(n)); for (const n of NEED) for (const c of [HEX.FLAME, HEX.WHITE]) await iconPng(n, c); }
+async function prepIcons() { await shade('right'); await shade('up'); }
 
-module.exports = { start, prepIcons, cover, divider, content, exercise, quiz, statement, closing, finish, pic, ico, T, H1, card, bullets, HEX, W, H, M, get pres() { return pres; } };
+module.exports = { icon, rule, num, stat, rich, start, prepIcons, cover, divider, content, exercise, quiz, statement, closing, finish, pic, ico, T, H1, card, bullets, HEX, W, H, M, get pres() { return pres; } };

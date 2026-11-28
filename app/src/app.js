@@ -1485,6 +1485,17 @@
   }
   document.addEventListener('click', (e) => { const d = e.target.closest('[data-deck]'); if (!d) return; e.preventDefault(); deckViewer(d.dataset.deck, +d.dataset.n, d.dataset.title || ''); });
 
+  // Bromic icon library (owner, 28 Nov 2026): the deck iconography as downloadable SVG and PNG, by group.
+  function iconsPage() {
+    const I = HUB.icons || []; if (!I.length) return '<div class="empty">The icon set is being drawn.</div>';
+    const groups = [...new Set(I.map((i) => i.group))];
+    const tile = (i) => `<figure class="ic-t"><div class="ic-p"><img src="icons/svg/${esc(i.name)}.svg" alt="${esc(i.label)}" loading="lazy"></div><div class="ic-p dk"><img src="icons/png/white/${esc(i.name)}.png" alt="" loading="lazy"></div>
+      <figcaption><b>${esc(i.label)}</b><small>${esc(i.name)}</small><span><a href="icons/svg/${esc(i.name)}.svg" download>SVG</a><a href="icons/png/ink/${esc(i.name)}.png" download>PNG</a><a href="icons/png/white/${esc(i.name)}.png" download>PNG white</a></span></figcaption></figure>`;
+    return `<div class="ph"><div><span class="label">Brand Assets</span><h1>Bromic Icons</h1><p>${I.length} line icons drawn for Bromic: ink lines with one flame detail, the glow. Use them in decks, documents and the website. On dark or photo backgrounds, use the white version.</p>
+      <div class="btns"><a class="btn primary" href="icons/Bromic-Icons.zip" download>${ic.down}Download all (SVG and PNG)</a></div></div></div>
+      ${groups.map((g) => `<section class="ic-g"><h2>${esc(g)}</h2><div class="ic-grid">${I.filter((i) => i.group === g).map(tile).join('')}</div></section>`).join('')}`;
+  }
+
   function trendsPage() {
     const T = HUB.trends; if (!T) return '<div class="empty">No trend reports yet.</div>';
     const pdf = (r, s, lab) => `<a class="btn${s ? '' : ' primary'}" href="trends-2027/${esc(r.id)}/${esc(r.file)}${s}.pdf" download>${ic.down}${lab}</a>`;
@@ -1531,6 +1542,7 @@
       <div class="mg-col"><span class="label">Share</span>
         ${lk(libHref({ shelf: 'trade' }), 'For Our Trade Partners', 'Builder program, contractor guide, spec kit', n('trade'))}
         ${lk('#/images', 'Image Library', 'Every Bromic photograph and render', H.images.length)}
+        ${(HUB.icons || []).length ? lk('#/icons', 'Icon Library', 'The Bromic icon set, SVG and PNG', HUB.icons.length) : ''}
         ${lk('#/library', 'All Assets', 'Everything, by where it goes')}</div>
       <div class="mg-col mg-minor"><span class="label">Working files</span>
         <a href="#/journey">Buyer journey map</a><a href="#/assets">Asset backlog</a><a href="#/sources">Sources</a><a href="#/site">bromic.com audit</a><a href="#/review">Review numbers</a><a href="${libHref({ shelf: 'internal' })}">Behind the scenes</a></div>`;
@@ -1563,11 +1575,11 @@
     // A case study opens over the grid: moving between #/cases and #/cases/<id> only opens or closes the panel.
     if (p === 'cases' && view.querySelector('.cs-layout') && (!a || CSR[a]) && !raw.includes('?')) { csModal(a ? CSR[a] : null); return; }
     // The library pages sit under Home ▾ now (owner, 23 Nov 2026), so Home stays lit on them.
-    const tab = { '': 'home', item: (ITEM[decodeURIComponent(a || '')] && ['article', 'kb'].includes(ITEM[decodeURIComponent(a || '')].type)) ? 'knowledge' : (ITEM[decodeURIComponent(a || '')] && hasPdf(ITEM[decodeURIComponent(a || '')]) ? 'papers' : 'home'), library: 'home', tool: 'home', tools: 'home', blog: 'home', images: 'home', whitepapers: 'papers', trends: 'papers', guides: 'papers', journey: 'home', assets: 'home', sources: 'home', site: 'home', review: 'home', pm: 'marketing', campaigns: 'marketing', approvals: 'todo' }[p] ?? p;
+    const tab = { '': 'home', item: (ITEM[decodeURIComponent(a || '')] && ['article', 'kb'].includes(ITEM[decodeURIComponent(a || '')].type)) ? 'knowledge' : (ITEM[decodeURIComponent(a || '')] && hasPdf(ITEM[decodeURIComponent(a || '')]) ? 'papers' : 'home'), library: 'home', icons: 'home', tool: 'home', tools: 'home', blog: 'home', images: 'home', whitepapers: 'papers', trends: 'papers', guides: 'papers', journey: 'home', assets: 'home', sources: 'home', site: 'home', review: 'home', pm: 'marketing', campaigns: 'marketing', approvals: 'todo' }[p] ?? p;
     document.querySelectorAll('.tabs a').forEach((x) => x.toggleAttribute('aria-current', false) || (x.dataset.tab === tab && x.setAttribute('aria-current', 'page')));
     document.querySelectorAll('.tabs .mega').forEach((m) => { m.open = false; m.toggleAttribute('data-on', m.dataset.tab === tab); });
     const html = p === '' ? home() : p === 'library' ? library() : p === 'item' ? item(decodeURIComponent(a || '')) : p === 'journey' ? journey(a) : p === 'assets' ? assets(a)
-      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : p === 'cases' ? casesPage(a) : p === 'blog' ? blogPage() : p === 'whitepapers' ? whitepapersPage() : p === 'todo' ? todo() : p === 'pm' ? pmPage(a) : p === 'campaigns' ? campaignsPage(a) : p === 'knowledge' ? knowledgePage(a) : p === 'retail' ? retailPage(a) : p === 'training' ? trainingPage() : p === 'trends' ? trendsPage() : p === 'guides' ? guidesPage() : p === 'approvals' ? approvalsPage() : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
+      : p === 'tools' ? tools() : p === 'tool' ? tool(a) : p === 'images' ? images() : p === 'sources' ? sources() : p === 'review' ? review() : p === 'site' ? sitePage() : p === 'cases' ? casesPage(a) : p === 'blog' ? blogPage() : p === 'whitepapers' ? whitepapersPage() : p === 'todo' ? todo() : p === 'pm' ? pmPage(a) : p === 'campaigns' ? campaignsPage(a) : p === 'knowledge' ? knowledgePage(a) : p === 'retail' ? retailPage(a) : p === 'training' ? trainingPage() : p === 'trends' ? trendsPage() : p === 'guides' ? guidesPage() : p === 'approvals' ? approvalsPage() : p === 'icons' ? iconsPage() : '<div class="empty">Not found. <a href="#/home">Overview</a></div>';
     view.innerHTML = html;
     document.querySelector('.cs-modal')?.remove(); document.body.classList.remove('cs-locked');
     if (p === 'cases' && a && CSR[a]) csModal(CSR[a]);
