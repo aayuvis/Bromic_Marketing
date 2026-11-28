@@ -452,6 +452,31 @@
     T(svg, xr + 26, (yb + floor) / 2, '8 ft min.', { size: 11, fill: FINK, weight: 700 });
   };
 
+
+  /* recess in a pergola: single centre beam (does not fit) vs a heater channel between two beams (fits); section, inches */
+  D.channel = function (svg) {
+    const s = 9, y0 = 62, dim = (x1, x2, y, t) => { cl(svg, x1, y, x2, y, FINK, 0.9); cl(svg, x1, y - 4, x1, y + 4, FINK, 0.9); cl(svg, x2, y - 4, x2, y + 4, FINK, 0.9); T(svg, (x1 + x2) / 2, y - 6, t, { size: 11, anchor: 'middle', fill: FINK, weight: 700 }); };
+    const vdim = (x, y1, y2, t) => { cl(svg, x, y1, x, y2, FINK, 0.9); cl(svg, x - 4, y1, x + 4, y1, FINK, 0.9); cl(svg, x - 4, y2, x + 4, y2, FINK, 0.9); T(svg, x + 7, (y1 + y2) / 2 + 4, t, { size: 11, fill: FINK, weight: 700 }); };
+    // A: single 6x10 beam with a 10 in cut-out overlaid
+    const ax = 70; T(svg, ax + 30, 22, 'A · Inside one centre beam', { size: 12.5, weight: 700, anchor: 'middle', halo: false });
+    cr(svg, ax, y0, 6 * s, 10 * s, '#F2F2F0', INK, 1.2);
+    cr(svg, ax + 3 * s - 5 * s, y0 + 10 * s - 7.5 * s, 10 * s, 7.5 * s, 'none', FLAME, 1.4).setAttribute('stroke-dasharray', '5 4');
+    dim(ax, ax + 6 * s, y0 - 6, '6 in widest beam');
+    dim(ax + 3 * s - 5 * s, ax + 3 * s + 5 * s, y0 + 10 * s + 18, '10 in kit cut-out');
+    T(svg, ax + 3 * s, y0 + 10 * s + 52, 'Does not fit, and beams', { size: 11.5, anchor: 'middle', fill: INK2, halo: false });
+    T(svg, ax + 3 * s, y0 + 10 * s + 67, 'must not be cut or notched', { size: 11.5, anchor: 'middle', fill: INK2, halo: false });
+    // B: heater channel: two 2x8 beams, clear gap, soffit, kit inside
+    const bx = 330; T(svg, bx + 7 * s, 22, 'B · A heater channel between two beams', { size: 12.5, weight: 700, anchor: 'middle', halo: false });
+    cr(svg, bx, y0, 2 * s, 8 * s, '#F2F2F0', INK, 1.2); cr(svg, bx + 12 * s, y0, 2 * s, 8 * s, '#F2F2F0', INK, 1.2);
+    cr(svg, bx - 6, y0 + 8 * s, 14 * s + 12, 0.8 * s, '#D9D7D2', INK2, 1);
+    cr(svg, bx + 2 * s + 0.4 * s, y0 + 8 * s - 7.5 * s, 10 * s - 0.8 * s, 7.5 * s, '#3A3A3A', INK, 1);
+    cr(svg, bx + 2 * s - 0.6 * s, y0 + 8.8 * s, 11.2 * s, 0.5 * s, INK, INK, 1);
+    cl(svg, bx + 2 * s + 6, y0 + 9.3 * s + 2, bx + 12 * s - 6, y0 + 9.3 * s + 2, FLAME, 2.6);
+    dim(bx + 2 * s, bx + 12 * s, y0 - 6, '10 in clear between beams');
+    vdim(bx + 14 * s + 14, y0, y0 + 8 * s, '8 in beam: room for the 7.5 in cavity');
+    T(svg, bx + 7 * s, y0 + 10 * s + 34, 'Soffit closes the channel; the kit’s trim sits on it.', { size: 11.5, anchor: 'middle', fill: INK2, halo: false });
+  };
+
   function draw() {
     window.HEIGHTS = window.HEIGHTS || [];
     document.querySelectorAll('svg[data-diag]').forEach(svg => { const k = svg.dataset.diag; if (D[k]) D[k](svg); });

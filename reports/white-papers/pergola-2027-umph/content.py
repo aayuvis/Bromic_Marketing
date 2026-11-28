@@ -47,7 +47,7 @@ value = pg('money', 'The Case For Heat', 'More Evenings For Them. More Margin Fo
 
 SCRIPT1 = [('Discover', 'When do you picture using it? Late summer dinners, autumn evenings, game nights in winter?', 'Ask before you design. The answer sizes the heat.'),
            ('Design it in', 'We\'ll mark the heater positions now, so the wiring goes inside the posts and nothing shows.', 'Heat goes on the drawing, not the add-on list.'),
-           ('Show it', 'This is how the heat falls on the table. Here is the heater in your frame colour.', 'Use the coverage images and the finish swatches.'),
+           ('Show it', 'This is how the heat falls on the table. Here is Tungsten in your frame colour, and Platinum if you want it flush.', 'Use the coverage images and the finish swatches.'),
            ('Quote it as standard', 'Your pergola, with heat and controls, ready for every season.', 'Quote heat in the base package, with a version without.'),
            ('Install once', 'We pre-wire every bay while the frame is open.', 'One visit, no retrofit.'),
            ('Hand over', 'Here is your app: the roof, the lights and the heat together.', 'Set zones and schedules on their phone before you leave.')]
@@ -55,14 +55,14 @@ script1 = pg('script', 'Selling Heat · 1 of 2', 'Put Heat In The First Conversa
   ('lede', 'Six steps from the first visit to the first warm evening.'),
   ('html', '<div class="sp">' + ''.join(f'<div class="sps"><span>{i}</span><div><h3>{t}</h3><p class="say">"{s}"</p><p>{n}</p></div></div>' for i, (t, s, n) in enumerate(SCRIPT1, 1)) + '</div>'))
 
-OBJ = [('"It\'s over budget."', 'Show the same warmth at two price points: Tungsten Classic and Select cover the same area. Start with one heater over the table and pre-wire for more.'),
-       ('"We\'ll add heat later."', 'Later means opening the frame and running visible conduit. Pre-wiring now costs a fraction and keeps every option open.'),
-       ('"Will we really use it?"', 'Ask how many evenings they lose to the cold now. Heat turns those into the best nights of the year.'),
-       ('"Heaters look bulky."', 'Tungsten Series II is slim, on one post, in black, white or graphite. Or recess Platinum flush in a solid bay.'),
-       ('"We\'re by the sea."', 'Tungsten Coastal is built for salt air: 316 marine-grade stainless under a corrosion-resistant coating.'),
-       ('"Not another app."', 'Affinity works with Alexa, Google and the home system they already have.'),
-       ('"Gas is cheaper."', 'Under a roof, electric needs no gas line, flue or ventilation sums, and switches on instantly.'),
-       ('"The electrician will cost a fortune."', 'One dedicated circuit per heater or channel, run while the frame is open, is the least it will ever cost.')]
+OBJ = [('"It\'s over budget."', 'Tungsten Classic and Select give the same heat coverage at two price points. Platinum is there when the design leads. Start with one heater over the table and pre-wire for more.'),
+       ('"We\'ll add heat later."', 'Later means opening the frame and running visible conduit. Pre-wire now, and both Tungsten and Platinum, surface or recessed, stay an option.'),
+       ('"Will we really use it?"', 'Ask how many evenings they lose to the cold now. Tungsten for strong, directional warmth; Platinum for quiet heat with very little visible glow.'),
+       ('"Heaters look bulky."', 'Tungsten Series II is slim, on one post, in black, white or graphite. Platinum is 2.1 in deep glass-ceramic and recesses flush in a solid bay.'),
+       ('"We\'re by the sea."', 'Tungsten Coastal and Platinum Electric Marine are both built in 316 marine-grade stainless; Coastal adds a corrosion-resistant coating.'),
+       ('"Not another app."', 'Affinity runs Tungsten and Platinum alike, with Alexa, Google and the home system they already have.'),
+       ('"Gas is cheaper."', 'Under a roof, electric Tungsten and Platinum need no gas line, flue or ventilation sums, and switch on instantly.'),
+       ('"The electrician will cost a fortune."', 'Tungsten and Platinum each take one dedicated circuit per heater or controller channel. Run while the frame is open, it is the least it will ever cost.')]
 script2 = pg('script', 'Selling Heat · 2 of 2', 'Answers To Every Objection',
   ('html', '<div class="ob">' + ''.join(f'<div class="obj"><h3>{q}</h3><p>{a_}</p></div>' for q, a_ in OBJ) + '</div>'))
 
@@ -144,6 +144,25 @@ after5 = pg('before', 'Extend The Moment', 'Before 5 PM. After 5 PM.',
            '<figure><div class="bai">' + img('rv-pg-yorba-linda-after-5pm', 'The same pergola after sunset, heaters on') + '<span class="bal dk">After 5 pm</span></div><figcaption>The same pergola, still in use: heat on the beam, a blanket on the sofa.</figcaption></figure></div>'),
   ('p', 'After 5 pm: an illustration made from the daytime photograph of this Bromic installation.'))
 
+
+recess = pg('plan', 'Recessing In A Pergola', 'The Centre-Beam Question',
+  ('lede', 'Can a recess kit go in the centre beam? Not inside it, but between two of them.'),
+  ('diag', 'channel', '680 285'),
+  ('table', {'head': ['', 'Tungsten Series II LC kit', 'Platinum LC kit'], 'rows': [
+    ['**Ceiling cut-out**', '1257 × 255 mm (2, 4 kW); 1550 × 255 mm (3, 6 kW)', '995 × 240 mm (2300 W); 1430 × 240 mm (3400 W); 1550 × 317 mm (4500 W)'],
+    ['**Clear gap between beams**', '255 mm (10 in)', '240 mm (9.4 in); 317 mm (12.5 in) for 4500 W'],
+    ['**Cavity depth**', '190.5 mm (7.5 in)', '180 mm (7.1 in) from the glass'],
+    ['**Trim on the ceiling**', '1331 or 1624 × 283 mm', 'Stainless trim around the glass'],
+    ['**Ceiling (soffit) board**', '10–30 mm thick', '10–30 mm thick'],
+  ]}),
+  ('cols', [[
+    ('h4', 'Centre beams today'),
+    ('ul', ['US louvered roofs: 2×8 to 6×10 in beams, 2–6 in wide.', 'European frames: 150–220 mm profiles, blades inside.', 'Engineered roofs: box beams to 300 × 50 mm, single or double.']),
+  ], [
+    ('h4', 'How to recess'),
+    ('ul', ['**Build a heater channel:** two centre beams with at least 10 in clear (9.4 in for Platinum 2300/3400 W), closed below with a soffit.', '**Or a solid bay:** a fixed panel in place of louvres, framed to the same clear width and depth.', '**Agree it with the pergola maker:** loads, drainage and their warranty.']),
+  ]]))
+
 PAGES = [cover, hook,
   ren('The Pergola Is Now The Outdoor Room', 'Make Every Pergola A Four-Season Room'),
   after5, script1, script2,
@@ -162,6 +181,7 @@ PAGES = [cover, hook,
   find('The Same Warmth At Every Price Point'),
   ren('Where Bromic Fits On Every Structure', 'Every Structure, Warmed'),
   ren('How Tungsten And Platinum Mount To Any Beam', 'Any Beam, One Plate'),
+  recess,
   case1, case2, case3,
   dict(find('Built For The Pergola. Ahead Where It Counts.'), blocks=find('Built For The Pergola. Ahead Where It Counts.')['blocks'][:2]),
   place(),
