@@ -58,8 +58,8 @@ async function main() {
   }
 
   // 3 · divider
-  L.divider({ n: '01', title: 'How To Choose', line: 'Fuel, mount and setting: three questions narrow it to one heater.', img: 'w-aba-restaurant', icon: 'LuSearch',
-    notes: 'Module one. Before the series, three choices that narrow the range: electric or gas, on the structure or freestanding, and how close to the water.' });
+  L.divider({ n: '01', title: 'How To Choose', line: 'Fuel, mount, setting and style: four questions narrow it to one heater.', img: 'w-aba-restaurant', icon: 'LuSearch',
+    notes: 'Module one. Before the series, four choices that narrow the range: electric or gas, on the structure or freestanding, how close to the water, and the design style of the outdoor room.' });
 
   // 4 · electric vs gas
   {
@@ -109,6 +109,29 @@ async function main() {
       H1(s, h, { x: 8.1, y: y + 0.25, w: 4.4, h: 0.6, fontSize: 21, valign: 'middle' });
       T(s, L.bullets(pts, { paraSpaceAfter: 4 }), { x: 7.3, y: y + 1.0, w: 5.2, h: 1.2, fontSize: 15, color: HEX.INK });
     });
+  }
+
+  // 6a · design style (owner, 28 Nov 2026: "what's your design style... if it's modern, the default is Platinum and or Eclipse")
+  {
+    const s = L.content('How To Choose', 'Choice 4', 'What Is The Style Of Your Outdoor Room?',
+      'Ask it early: "How would you describe the style of your outdoor space?" The answer picks the series faster than any spec. Modern, contemporary or minimal: show Platinum and Eclipse first, by default. Platinum is the quiet glass-ceramic panel, 2.1 in deep, black or white, surface-mounted or flush in the ceiling with very little visible glow; Eclipse turns the heater into a piece of lighting, with radiant heat and a dimmable 3000K LED ring over the table. Many modern rooms take both: Platinum over the lounge, Eclipse over the dining table. Transitional, modern farmhouse or California casual: Tungsten Select, slim on a single post in black, white or graphite to match the window frames and the pergola; Classic where the budget is tighter, with the same warmth. Timber, craftsman or traditional, with exposed beams or tongue-and-groove: Tungsten in black or graphite on the beam, or recessed so the ceiling stays the feature; Platinum recessed where the look must disappear. By the water, whatever the style: Tungsten Coastal or Platinum Electric Marine. Industrial, rustic or a busy venue: Tungsten in graphite or black on the beam, or Tungsten Gas where the line runs. Whatever the style, every heater leaves with its controls: Affinity On/Off or Dimmer for Tungsten and Platinum, the Eclipse controller for Eclipse, and a wall switch.');
+    const cols = [
+      ['l-010-071', 'MODERN · DEFAULT', 'Platinum And Eclipse', 'Flush glass panel, or heat and light as one fixture.', 1],
+      ['w-connecticut-privateresidence-tungstenelectri-3', 'TRANSITIONAL · FARMHOUSE', 'Tungsten Select', 'Slim on one post, in black, white or graphite.', 0],
+      ['w-dsc05737-courtney-saib', 'TIMBER · TRADITIONAL', 'Tungsten, On The Beam Or Recessed', 'Black or graphite; the ceiling stays the feature.', 0],
+      ['l-005-022', 'COASTAL', 'Tungsten Coastal · Platinum Marine', 'Built for salt air, whatever the style.', 0],
+      ['w-tungsten-gas-500-fiddler-sydney-2-1', 'INDUSTRIAL · VENUE', 'Tungsten Electric Or Gas', 'Graphite or black on exposed beams.', 0],
+    ];
+    const cw = 2.28, gap = 0.175;
+    cols.forEach(([im, k, h, d, hot], i) => {
+      const x = M + i * (cw + gap);
+      card(s, x, 1.85, cw, 4.6, hot ? HEX.INK : HEX.GREY, 'style-card');
+      pic(s, im, x, 1.85, cw, 2.0, 'cover', 'photo');
+      T(s, k, { x: x + 0.18, y: 4.0, w: cw - 0.3, h: 0.45, fontSize: 10, bold: true, charSpacing: 1, color: HEX.FLAME });
+      H1(s, h, { x: x + 0.18, y: 4.45, w: cw - 0.3, h: 0.95, fontSize: 17, color: hot ? HEX.WHITE : HEX.INK });
+      T(s, d, { x: x + 0.18, y: 5.4, w: cw - 0.3, h: 0.95, fontSize: 13, color: hot ? 'E6E2DE' : HEX.BODY });
+    });
+    T(s, 'Every heater leaves with its controls: Affinity On/Off or Dimmer, the Eclipse controller for Eclipse, and a wall switch.', { x: M, y: 6.58, w: 12.1, h: 0.3, fontSize: 13, bold: true, color: HEX.INK });
   }
 
   // 7 · check 1

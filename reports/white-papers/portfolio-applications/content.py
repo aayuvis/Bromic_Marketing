@@ -67,7 +67,7 @@ A3 = pg('apps', 'Open Air And Hospitality', 'Warmth Wherever The Evening Goes',
 
 QS = [('Is there a roof, wall or post?', 'No: Eclipse Freestanding or the Tungsten Gas tower. Yes: mount it, and choose by ceiling.'),
       ('Electric or gas?', 'Under a roof, electric is simplest: no gas line, flue or ventilation sums. Gas where the line already runs.'),
-      ('How should it look?', 'Slim on a post: Tungsten. Flush and quiet: Platinum. Heat and light over the table: Eclipse.')]
+      ('What is the style of the space?', 'Modern: Platinum or Eclipse, first. Transitional or farmhouse: Tungsten Select. Timber or traditional: Tungsten, on the beam or recessed.')]
 floor = pg('floor', 'On The Floor', 'Three Questions, The Right Heater',
   ('html', '<div class="steps">' + ''.join(f'<div><span>{i}</span><h3>{q}</h3><p>{a}</p></div>' for i, (q, a) in enumerate(QS, 1)) + '</div>'),
   ('h4', 'Then close with the controls'),

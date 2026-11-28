@@ -24,7 +24,7 @@ T = [('l-006-028', 'Tungsten', 'Slim, powerful warmth for patios and pergolas.',
      ('w-p1021414-hdr-denoiseai-low-light', 'Platinum', 'Flush, quiet heat that disappears into the ceiling.', 'Glass-ceramic, just 2.1 in deep.'),
      ('w-eclipse-electric-24twin-pole-residential-sce', 'Eclipse', 'Heat and a warm glow of light over the table.', 'Heat and light, each dimmed on its own.'),
      ('pf-eclipse-freestanding', 'Freestanding', 'Warmth wherever the furniture goes.', 'Plug-in Eclipse, or the Tungsten gas tower.')]
-STEPS = [('Where will you sit?', 'Under a roof, by a wall, or out in the open.'), ('How big is it?', 'Measure the seating area; we\'ll size the heat for you.'), ('How should it look?', 'Slim, flush, or heat and light in one.')]
+STEPS = [('Where will you sit?', 'Under a roof, by a wall, or out in the open.'), ('How big is it?', 'Measure the seating area; we\'ll size the heat for you.'), ('What is your style?', 'Modern: flush Platinum or Eclipse. Classic or farmhouse: slim Tungsten.')]
 back = '''<div class="fb"><div class="fbk">Find your Bromic</div><h2>Which Warmth Is Yours?</h2>
 <div class="fbg">''' + ''.join(f'<figure><div class="fbi">{img(i, n)}</div><figcaption><b>{n}</b>{d}<i>{x}</i></figcaption></figure>' for i, n, d, x in T) + '''</div>
 <div class="fst">''' + ''.join(f'<div><span>{k}</span><b>{q}</b><em>{a}</em></div>' for k, (q, a) in enumerate(STEPS, 1)) + '''</div>

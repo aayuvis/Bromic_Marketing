@@ -104,16 +104,16 @@ const ICONS = ['LuWind', 'LuThermometer', 'LuSun', 'LuZap', 'LuFuel', 'LuMountai
 
   {
     const s = L.content('Why Heat The Outdoors', 'What Clients Ask For', 'Clients Want Outdoor Rooms',
-      'Source: The American Institute of Architects, Home Design Trends Survey, Q2 2026 (figure 1): share of residential architects reporting client interest in a room type increasing, minus the share reporting it decreasing. Outdoor living areas and rooms led every special-function room at a net 51, up from 40 a year earlier; heated exterior space rose from 12 to 16. The point: clients are asking for outdoor rooms, and a room is only a room if it is comfortable on a cool evening.');
-    T(s, '51', { x: M, y: 1.9, w: 3.5, h: 1.6, fontFace: 'Bodoni MT', fontSize: 96, color: HEX.FLAME });
-    T(s, 'Net share of residential architects seeing rising client interest in outdoor living areas and rooms, up from 40 a year earlier.', { x: M, y: 3.6, w: 4.9, h: 1.4, fontSize: 17, color: HEX.INK });
-    T(s, 'Heated exterior space rose too, from 12 to 16.', { x: M, y: 5.1, w: 4.9, h: 0.8, fontSize: 15 });
+      'Source: The American Institute of Architects, Home Design Trends Survey, Q2 2026 (figure 1): share of residential architects reporting client interest in a room type increasing, minus the share reporting it decreasing. Outdoor living areas and rooms led every special-function room at a net 51%, up from 40% a year earlier; heated exterior space rose from 12% to 16%. The figure is a net percentage: the share of firms seeing interest rise minus the share seeing it fall, so 51% means about half the profession, net, sees more clients asking. The point: clients are asking for outdoor rooms, and a room is only a room if it is comfortable on a cool evening.');
+    T(s, '51%', { x: M, y: 1.9, w: 4.5, h: 1.6, fontFace: 'Bodoni MT', fontSize: 96, color: HEX.FLAME });
+    T(s, 'Net share of residential architects seeing rising client interest in outdoor living areas and rooms (more firms seeing it rise than fall), up from 40% a year earlier.', { x: M, y: 3.6, w: 4.9, h: 1.4, fontSize: 17, color: HEX.INK });
+    T(s, 'Heated exterior space rose too, from 12% to 16%.', { x: M, y: 5.1, w: 4.9, h: 0.8, fontSize: 15 });
     cap(s, 'AIA Home Design Trends Survey, Q2 2026', M, 6.35, 4.9);
     s.addChart(pres.charts.BAR, [
       { name: 'Q2 2025', labels: ['Outdoor living areas', 'Heated exterior space'], values: [40, 12] },
       { name: 'Q2 2026', labels: ['Outdoor living areas', 'Heated exterior space'], values: [51, 16] },
     ], { x: 6.0, y: 1.8, w: 6.7, h: 4.95, barDir: 'col', barGrouping: 'clustered', chartColors: ['C9C9C6', HEX.FLAME],
-      showValue: true, dataLabelFontSize: 14, dataLabelColor: HEX.INK, dataLabelPosition: 'outEnd', catAxisLabelFontSize: 14, catAxisLabelColor: HEX.INK,
+      showValue: true, dataLabelFormatCode: '0"%"', dataLabelFontSize: 14, dataLabelColor: HEX.INK, dataLabelPosition: 'outEnd', catAxisLabelFontSize: 14, catAxisLabelColor: HEX.INK,
       valAxisHidden: true, valGridLine: { style: 'none' }, catAxisLineShow: true, showLegend: true, legendPos: 'b', legendFontSize: 13, legendColor: HEX.BODY, barGapWidthPct: 60, valAxisMaxVal: 60, valAxisMinVal: 0 });
   }
 
@@ -490,6 +490,29 @@ const ICONS = ['LuWind', 'LuThermometer', 'LuSun', 'LuZap', 'LuFuel', 'LuMountai
       T(s, h, { x, y: 4.5, w: cw, h: 0.5, fontFace: 'Bodoni MT', fontSize: 24, color: HEX.INK });
       T(s, b, { x, y: 5.05, w: cw, h: 1.6, fontSize: 15 });
     });
+  }
+
+  // design style (owner, 28 Nov 2026): the style of the outdoor room picks the series; modern defaults to Platinum and Eclipse
+  {
+    const s = L.content('About Bromic', 'Specify By Style', 'Match The Heater To The Architecture',
+      'A quick way to choose: start from the design style of the outdoor room. Modern, contemporary or minimal: Platinum and Eclipse, by default. Platinum is a glass-ceramic panel 2.1 in deep, black or white, surface-mounted or flush in the ceiling with very little visible glow; Eclipse makes the heater a light fitting, with radiant heat and a dimmable 3000K LED ring over the table. Many modern rooms take both. Transitional or modern farmhouse: Tungsten Select, slim on a single post, in black, white or graphite to match the frames. Timber or traditional, with exposed beams or boarded ceilings: Tungsten in black or graphite on the beam, or recessed in the low-clearance kit so the ceiling stays the feature. Coastal: Tungsten Coastal or Platinum Electric Marine. Industrial or hospitality: Tungsten electric, or Tungsten Gas where the line runs. Every heater is specified with its Affinity controls and a wall switch.');
+    const cols = [
+      ['l-010-071', 'MODERN · DEFAULT', 'Platinum And Eclipse', 'Flush glass panel, or heat and light as one fixture.', 1],
+      ['w-connecticut-privateresidence-tungstenelectri-3', 'TRANSITIONAL · FARMHOUSE', 'Tungsten Select', 'Slim on one post, in black, white or graphite.', 0],
+      ['w-dsc05737-courtney-saib', 'TIMBER · TRADITIONAL', 'Tungsten, On The Beam Or Recessed', 'Black or graphite; the ceiling stays the feature.', 0],
+      ['l-005-022', 'COASTAL', 'Tungsten Coastal · Platinum Marine', 'Built for salt air, whatever the style.', 0],
+      ['w-tungsten-gas-500-fiddler-sydney-2-1', 'INDUSTRIAL · HOSPITALITY', 'Tungsten Electric Or Gas', 'Graphite or black on exposed beams.', 0],
+    ];
+    const cw = 2.28, gap = 0.175;
+    cols.forEach(([im, k, h, d, hot], i) => {
+      const x = M + i * (cw + gap);
+      card(s, x, 1.85, cw, 4.6, hot ? HEX.INK : HEX.GREY, 'style-card');
+      pic(s, im, x, 1.85, cw, 2.0, 'cover');
+      T(s, k, { x: x + 0.18, y: 4.0, w: cw - 0.3, h: 0.45, fontSize: 10, bold: true, charSpacing: 1, color: HEX.FLAME });
+      T(s, h, { x: x + 0.18, y: 4.45, w: cw - 0.3, h: 0.95, fontFace: 'Bodoni MT', fontSize: 17, color: hot ? HEX.WHITE : HEX.INK });
+      T(s, d, { x: x + 0.18, y: 5.4, w: cw - 0.3, h: 0.95, fontSize: 13, color: hot ? 'E6E2DE' : HEX.BODY });
+    });
+    T(s, 'Every heater is specified with its controls: Affinity On/Off or Dimmer, the Eclipse controller for Eclipse, and a wall switch.', { x: M, y: 6.58, w: 12.1, h: 0.3, fontSize: 13, bold: true, color: HEX.INK });
   }
 
   {

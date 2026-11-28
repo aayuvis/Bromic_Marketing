@@ -250,14 +250,14 @@ async function main() {
 
   // 14, 15 · the six steps
   const SCRIPT = [
-    ['LuSearch', 'Discover', '"When do you picture using it? Late summer dinners, autumn evenings, game nights in winter?"', 'Ask before you design. The answer sizes the heat.'],
+    ['LuSearch', 'Discover', '"When do you picture using it? And how would you describe the style of the space?"', 'The evening sizes the heat; the style picks the series. Modern: Platinum or Eclipse first.'],
     ['LuPencil', 'Design It In', '"We\'ll mark the heater positions now, so the wiring goes inside the posts and nothing shows."', 'Heat goes on the drawing, not the add-on list.'],
     ['LuEye', 'Show It', '"This is how the heat falls on the table. Here is Tungsten in your frame colour, and Platinum if you want it flush."', 'Use the coverage images and the finish swatches.'],
     ['LuReceipt', 'Quote It As Standard', '"Your pergola, with heat and controls, ready for every season."', 'Quote heat in the base package, with a version without.'],
     ['LuWrench', 'Install Once', '"We pre-wire every bay while the frame is open."', 'One visit, no retrofit.'],
     ['LuKey', 'Hand Over', '"Here is your app: the roof, the lights and the heat together."', 'Set zones and schedules on their phone before you leave.'],
   ];
-  [[0, 'Steps 1–3', 'Before The Drawing Is Done', 'The first three steps happen before anyone draws a line. Ask the evening question first: how late, how cold, how often. Then mark heater positions on the plan so the wiring runs inside the posts. Then show where the heat lands, using the coverage images and the frame-colour finishes.'],
+  [[0, 'Steps 1–3', 'Before The Drawing Is Done', 'The first three steps happen before anyone draws a line. Ask the evening question first: how late, how cold, how often. Then ask the style question: how would they describe the style of the space? Modern, contemporary or minimal: show Platinum and Eclipse first, by default. Transitional or farmhouse: Tungsten Select in black, white or graphite. Timber or traditional: Tungsten on the beam in black or graphite, or recessed. By the water: Tungsten Coastal or Platinum Marine. Every one with its Affinity controls and a wall switch. Then mark heater positions on the plan so the wiring runs inside the posts. Then show where the heat lands, using the coverage images and the frame-colour finishes.'],
    [3, 'Steps 4–6', 'Quote, Install, Hand Over', 'Quote heat as standard, with a version without, so the customer decides to take it out rather than to add it. Pre-wire every bay while the frame is open: one visit, no retrofit. At handover, set up the app on their phone with zones and schedules before you leave. A customer who leaves warm and in control sends you the neighbours.']].forEach(([from, k, t, notes]) => {
     const s = L.content('The Six-Step Sale', `The Six-Step Sale · ${k}`, t, notes);
     const cw = 3.75;
