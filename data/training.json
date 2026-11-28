@@ -35,9 +35,16 @@
      "title": "Design Studio Workshop",
      "format": "45-minute studio session",
      "minutes": 45,
-     "status": "next",
+     "status": "ready",
      "objectives": [
       "Heat-map a live project with the Bromic design team"
+     ],
+     "file": "Bromic-Design-Studio-Workshop",
+     "exercises": [
+      "Read the site",
+      "Heat-map a studio brief",
+      "Write the control schedule",
+      "Pin it up"
      ]
     }
    ]
@@ -128,11 +135,17 @@
      "title": "Sizing And Planning",
      "format": "Dealer workshop",
      "minutes": 30,
-     "status": "next",
+     "status": "ready",
      "objectives": [
       "Area and coverage",
       "Mounting heights",
       "Using the design service"
+     ],
+     "file": "Bromic-Dealer-Sizing-And-Planning",
+     "exercises": [
+      "Count the heaters",
+      "Plan this pergola",
+      "Quote it or send it?"
      ]
     },
     {

@@ -216,7 +216,7 @@ sources:
     title: "Warranty, bromic.com; Tungsten Smart-Heat Electric Series II warranty confirmed by the owner (18 and 22 Nov 2026)"
     year: 2026
     url: https://www.bromic.com/warranty/
-    supports: "Tungsten Smart-Heat Electric Series II (Select, Coastal and Classic): 3-year warranty on the heater, 7 years on the elements"
+    supports: "Tungsten Smart-Heat Electric Series II: Select and Coastal 3-year warranty on the heater, 7 years on the elements; Classic 2 years"
     verified: true
   - id: s29
     publisher: Bromic Heating
@@ -413,7 +413,7 @@ Start from what the zone needs; the model follows. Full ratings, SKUs and cut sh
 | Large, open spaces on gas | Built-in gas, surface-mounted, never recessed | Platinum Gas 23,600 / 39,800 Btu/h, 160 / 215 ft²; Intertek[^s10] |
 | Salt air | 316 marine-grade stainless for the coast | Platinum Marine, IPX5[^s6]; Tungsten Coastal[^s2] |
 
-Coverage is approximate and varies with mounting height, wind and installation[^s2]. Tungsten Smart-Heat Electric Series II has launched: Select and Coastal have been available since October 2026, and Classic follows in January 2027; until then, drawings that call for Classic carry an approved current alternate. Series II carries a 3-year warranty on the heater and 7 years on the elements[^s28]. Every heater is specified with its Affinity Smart-Heat Controls. [[VERIFY: Eclipse 2900 W (spec table) vs 3000 W (FAQ); Tungsten Freestanding Gas 38,000 Btu/h (Lookbook) vs 38,500 (site); Select and Coastal wattages and coverage per model (64–144 ft² in the Lookbook) — Product team]]
+Coverage is approximate and varies with mounting height, wind and installation[^s2]. Tungsten Smart-Heat Electric Series II has launched: Select and Coastal have been available since October 2026, and Classic follows in January 2027; until then, drawings that call for Classic carry an approved current alternate. Select and Coastal carry a 3-year warranty on the heater and 7 years on the elements[^s28]; Classic carries 2 years. Every heater is specified with its Affinity Smart-Heat Controls. [[VERIFY: Eclipse 2900 W (spec table) vs 3000 W (FAQ); Tungsten Freestanding Gas 38,000 Btu/h (Lookbook) vs 38,500 (site); Select and Coastal wattages and coverage per model (64–144 ft² in the Lookbook) — Product team]]
 
 More cities are restricting new gas connections and portable propane, and clients increasingly ask for all-electric outdoor rooms[^s25]. An electric scheme with zoned, scheduled controls, and fixtures that bring heat and light in one, such as the Eclipse[^s7], is the one least likely to need redesign as codes change. The [Electrification compliance guide](asset:A12) sets out what applies where a jurisdiction restricts gas.
 

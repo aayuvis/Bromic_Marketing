@@ -202,7 +202,7 @@ sources:
     title: "Warranty, bromic.com; Tungsten Smart-Heat Electric Series II warranty confirmed by the owner (18 and 22 Nov 2026)"
     year: 2026
     url: https://www.bromic.com/warranty/
-    supports: "Tungsten Smart-Heat Electric Series II (Select, Coastal and Classic): 3-year warranty on the heater, 7 years on the elements"
+    supports: "Tungsten Smart-Heat Electric Series II: Select and Coastal 3-year warranty on the heater, 7 years on the elements; Classic 2 years"
     verified: true
 ---
 
@@ -345,7 +345,7 @@ Start from what the space needs; the look follows. Every Bromic heater is paired
 | Big, open spaces on gas | Built-in gas for larger, more open areas | Platinum Gas, Tungsten Gas |
 | By the sea | 316 marine-grade stainless for coastal homes | Platinum Electric Marine[^s6], Tungsten Coastal[^s2] |
 
-Tungsten Smart-Heat Electric Series II has launched: Select and Coastal have been available since October 2026, and Classic follows in January 2027. Series II carries a 3-year warranty on the heater and 7 years on the elements[^s26].
+Tungsten Smart-Heat Electric Series II has launched: Select and Coastal have been available since October 2026, and Classic follows in January 2027. Select and Coastal carry a 3-year warranty on the heater and 7 years on the elements[^s26]; Classic carries 2 years.
 
 ![Tungsten Select in the new low-clearance recess kit](img:t2-low-clearance-recess)
 

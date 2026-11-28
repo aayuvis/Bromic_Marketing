@@ -243,7 +243,7 @@ sources:
     title: "Warranty, bromic.com; Tungsten Smart-Heat Electric Series II warranty confirmed by the owner (18 and 22 Nov 2026)"
     year: 2026
     url: https://www.bromic.com/warranty/
-    supports: "Tungsten Smart-Heat Electric Series II (Select, Coastal and Classic): 3-year warranty on the heater, 7 years on the elements"
+    supports: "Tungsten Smart-Heat Electric Series II: Select and Coastal 3-year warranty on the heater, 7 years on the elements; Classic 2 years"
     verified: true
 ---
 
@@ -420,7 +420,7 @@ Start from what the space and the service need; the look follows. A finish that 
 | Tungsten Gas built-in, smaller / larger | 160 / 215 ft²[^s11] |
 | Tungsten Freestanding Gas, 38,000 Btu/h | 215 ft²[^s2] |
 
-Tungsten Smart-Heat Electric Series II has launched: Select and Coastal have been available since October 2026, and Classic follows in January 2027, with a 3-year warranty on the heater and 7 years on the elements[^s32]. Platinum Electric carries 3 years[^s5], Eclipse 3 years[^s7] and built-in gas 2 years, excluding hoses and igniters[^s10][^s11]. [[VERIFY: Eclipse 2900 W vs 3000 W; Tungsten Freestanding Gas 38,000 vs 38,500 Btu/h; per-model coverage against the 2026 cut sheets — Product team]] [[VERIFY: warranty terms for commercial use, and the Tungsten Freestanding Gas natural-gas warranty — Product team]]
+Tungsten Smart-Heat Electric Series II has launched: Select and Coastal have been available since October 2026, and Classic follows in January 2027, with a 3-year warranty on the heater and 7 years on the elements on Select and Coastal[^s32]; Classic carries 2 years. Platinum Electric carries 3 years[^s5], Eclipse 3 years[^s7] and built-in gas 2 years, excluding hoses and igniters[^s10][^s11]. [[VERIFY: Eclipse 2900 W vs 3000 W; Tungsten Freestanding Gas 38,000 vs 38,500 Btu/h; per-model coverage against the 2026 cut sheets — Product team]] [[VERIFY: warranty terms for commercial use, and the Tungsten Freestanding Gas natural-gas warranty — Product team]]
 
 ![Tungsten Electric heaters](img:w-tungelec-stacked)
 

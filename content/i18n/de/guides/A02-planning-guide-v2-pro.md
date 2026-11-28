@@ -219,7 +219,7 @@ sources:
     title: "Warranty, bromic.com; Tungsten Smart-Heat Electric Series II warranty confirmed by the owner (18 and 22 Nov 2026)"
     year: 2026
     url: https://www.bromic.com/warranty/
-    supports: "Tungsten Smart-Heat Electric Series II (Select, Coastal and Classic): 3-year warranty on the heater, 7 years on the elements"
+    supports: "Tungsten Smart-Heat Electric Series II: Select and Coastal 3-year warranty on the heater, 7 years on the elements; Classic 2 years"
     verified: true
   - id: s29
     publisher: Bromic Heating
@@ -416,7 +416,7 @@ Beginnen Sie mit dem, was die Zone braucht; das Modell folgt. Vollständige Date
 | Große, offene Bereiche mit Gas | Fest eingebautes Gas, auf der Oberfläche montiert, nie eingelassen | Platinum Gas ca. 6,9 / 11,7 kW, ca. 15 / 20 m²; Intertek[^s10] |
 | Salzluft | Seewasserfester Edelstahl 316 für die Küste | Platinum Marine, IPX5[^s6]; Tungsten Coastal[^s2] |
 
-Die Heizfläche ist ein Näherungswert und hängt von Montagehöhe, Wind und Installation ab[^s2]. Tungsten Smart-Heat Electric Series II ist eingeführt: Select und Coastal sind seit Oktober 2026 erhältlich, Classic folgt im Januar 2027; bis dahin erhalten Pläne, die Classic vorsehen, eine freigegebene aktuelle Alternative. Series II hat laut US-Bedingungen 3 Jahre Garantie auf das Gerät und 7 Jahre auf die Heizelemente[^s28]. Jeder Heizstrahler wird mit seiner Affinity Smart-Heat Steuerung ausgeschrieben. Spannungen, Prüfzeichen und Garantien sind die US-Angaben; in Deutschland ist das Netz 230 V, 50 Hz. [[VERIFY: Eclipse 2900 W (Datentabelle) gegenüber 3000 W (FAQ); Tungsten Freestanding Gas ca. 11,1 kW (Lookbook) gegenüber ca. 11,3 kW (Website); Leistungen und Heizflächen je Modell von Select und Coastal (ca. 6–13 m² im Lookbook) — Produktteam]] [[VERIFY: CE-Kennzeichnung, Ausführungen für 230 V und Garantiebedingungen für Deutschland je Modell — Produktteam]]
+Die Heizfläche ist ein Näherungswert und hängt von Montagehöhe, Wind und Installation ab[^s2]. Tungsten Smart-Heat Electric Series II ist eingeführt: Select und Coastal sind seit Oktober 2026 erhältlich, Classic folgt im Januar 2027; bis dahin erhalten Pläne, die Classic vorsehen, eine freigegebene aktuelle Alternative. Series II hat laut US-Bedingungen bei Select und Coastal 3 Jahre Garantie auf das Gerät und 7 Jahre auf die Heizelemente[^s28]; Classic hat 2 Jahre. Jeder Heizstrahler wird mit seiner Affinity Smart-Heat Steuerung ausgeschrieben. Spannungen, Prüfzeichen und Garantien sind die US-Angaben; in Deutschland ist das Netz 230 V, 50 Hz. [[VERIFY: Eclipse 2900 W (Datentabelle) gegenüber 3000 W (FAQ); Tungsten Freestanding Gas ca. 11,1 kW (Lookbook) gegenüber ca. 11,3 kW (Website); Leistungen und Heizflächen je Modell von Select und Coastal (ca. 6–13 m² im Lookbook) — Produktteam]] [[VERIFY: CE-Kennzeichnung, Ausführungen für 230 V und Garantiebedingungen für Deutschland je Modell — Produktteam]]
 
 Immer mehr Städte beschränken neue Gasanschlüsse und mobile Flüssiggasgeräte, und Bauherren fragen zunehmend nach rein elektrischen Außenräumen[^s25]. Ein elektrisches Konzept mit Zonen und Zeitplänen, und mit Leuchten, die Wärme und Licht in einem bringen, wie der Eclipse[^s7], muss bei sich ändernden Vorschriften am wenigsten umgeplant werden. Der [Leitfaden zur Elektrifizierung](asset:A12) zeigt, was gilt, wo Gas beschränkt wird.
 

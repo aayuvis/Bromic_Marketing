@@ -246,7 +246,7 @@ sources:
     title: "Warranty, bromic.com; Tungsten Smart-Heat Electric Series II warranty confirmed by the owner (18 and 22 Nov 2026)"
     year: 2026
     url: https://www.bromic.com/warranty/
-    supports: "Tungsten Smart-Heat Electric Series II (Select, Coastal and Classic): 3-year warranty on the heater, 7 years on the elements"
+    supports: "Tungsten Smart-Heat Electric Series II: Select and Coastal 3-year warranty on the heater, 7 years on the elements; Classic 2 years"
     verified: true
 ---
 
@@ -423,7 +423,7 @@ Beginnen Sie mit dem, was Fläche und Service brauchen; die Optik folgt. Eine Ob
 | Tungsten Gas Einbau, kleiner / größer | ca. 14,9 / 20,0 m²[^s11] |
 | Tungsten Freestanding Gas, ca. 11,1 kW | ca. 20,0 m²[^s2] |
 
-Tungsten Smart-Heat Electric Series II ist eingeführt: Select und Coastal sind seit Oktober 2026 erhältlich, Classic folgt im Januar 2027, laut US-Bedingungen mit 3 Jahren Garantie auf das Gerät und 7 Jahren auf die Heizelemente[^s32]. Platinum Electric hat 3 Jahre[^s5], Eclipse 3 Jahre[^s7] und fest eingebautes Gas 2 Jahre, ausgenommen Schläuche und Zünder[^s10][^s11]. [[VERIFY: Eclipse 2900 W gegenüber 3000 W; Tungsten Freestanding Gas ca. 11,1 gegenüber ca. 11,3 kW; Heizfläche je Modell gegen die Produktdatenblätter 2026 — Produktteam]] [[VERIFY: Garantiebedingungen für gewerbliche Nutzung, das Erdgasmodell des Tungsten Freestanding Gas und die Bedingungen in Deutschland — Produktteam]]
+Tungsten Smart-Heat Electric Series II ist eingeführt: Select und Coastal sind seit Oktober 2026 erhältlich, Classic folgt im Januar 2027, laut US-Bedingungen mit 3 Jahren Garantie auf das Gerät und 7 Jahren auf die Heizelemente bei Select und Coastal[^s32]; Classic hat 2 Jahre. Platinum Electric hat 3 Jahre[^s5], Eclipse 3 Jahre[^s7] und fest eingebautes Gas 2 Jahre, ausgenommen Schläuche und Zünder[^s10][^s11]. [[VERIFY: Eclipse 2900 W gegenüber 3000 W; Tungsten Freestanding Gas ca. 11,1 gegenüber ca. 11,3 kW; Heizfläche je Modell gegen die Produktdatenblätter 2026 — Produktteam]] [[VERIFY: Garantiebedingungen für gewerbliche Nutzung, das Erdgasmodell des Tungsten Freestanding Gas und die Bedingungen in Deutschland — Produktteam]]
 
 ![Tungsten Electric Heizstrahler](img:w-tungelec-stacked)
 

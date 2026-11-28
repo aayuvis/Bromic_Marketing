@@ -219,7 +219,7 @@ sources:
     title: "Warranty, bromic.com; Tungsten Smart-Heat Electric Series II warranty confirmed by the owner (18 and 22 Nov 2026)"
     year: 2026
     url: https://www.bromic.com/warranty/
-    supports: "Tungsten Smart-Heat Electric Series II (Select, Coastal and Classic): 3-year warranty on the heater, 7 years on the elements"
+    supports: "Tungsten Smart-Heat Electric Series II: Select and Coastal 3-year warranty on the heater, 7 years on the elements; Classic 2 years"
     verified: true
   - id: s29
     publisher: Bromic Heating
@@ -416,7 +416,7 @@ Begin bij wat de zone nodig heeft; het model volgt. Volledige specificaties, art
 | Grote, open ruimten op gas | Ingebouwd gas, op het oppervlak gemonteerd, nooit ingebouwd | Platinum Gas ca. 6,9 / 11,7 kW, ca. 15 / 20 m²; Intertek[^s10] |
 | Zilte lucht | Maritiem roestvast staal 316 voor de kust | Platinum Marine, IPX5[^s6]; Tungsten Coastal[^s2] |
 
-Het verwarmde oppervlak is een benadering en hangt af van montagehoogte, wind en installatie[^s2]. Tungsten Smart-Heat Electric Series II is gelanceerd: Select en Coastal zijn sinds oktober 2026 verkrijgbaar, Classic volgt in januari 2027; tot dan krijgen tekeningen die Classic voorschrijven een goedgekeurd huidig alternatief. Series II heeft volgens de Amerikaanse voorwaarden 3 jaar garantie op de verwarmer en 7 jaar op de elementen[^s28]. Elke verwarmer wordt voorgeschreven met zijn Affinity Smart-Heat-bediening. Spanningen, keurmerken en garanties zijn de Amerikaanse gegevens; in Nederland is het net 230 V, 50 Hz. [[VERIFY: Eclipse 2900 W (specificatietabel) tegenover 3000 W (FAQ); Tungsten Freestanding Gas ca. 11,1 kW (Lookbook) tegenover ca. 11,3 kW (site); vermogens en verwarmd oppervlak per model van Select en Coastal (ca. 6–13 m² in het Lookbook) — productteam]] [[VERIFY: CE-markering, uitvoeringen voor 230 V en garantievoorwaarden voor Nederland per model — productteam]]
+Het verwarmde oppervlak is een benadering en hangt af van montagehoogte, wind en installatie[^s2]. Tungsten Smart-Heat Electric Series II is gelanceerd: Select en Coastal zijn sinds oktober 2026 verkrijgbaar, Classic volgt in januari 2027; tot dan krijgen tekeningen die Classic voorschrijven een goedgekeurd huidig alternatief. Series II heeft volgens de Amerikaanse voorwaarden bij Select en Coastal 3 jaar garantie op de verwarmer en 7 jaar op de elementen[^s28]; Classic heeft 2 jaar. Elke verwarmer wordt voorgeschreven met zijn Affinity Smart-Heat-bediening. Spanningen, keurmerken en garanties zijn de Amerikaanse gegevens; in Nederland is het net 230 V, 50 Hz. [[VERIFY: Eclipse 2900 W (specificatietabel) tegenover 3000 W (FAQ); Tungsten Freestanding Gas ca. 11,1 kW (Lookbook) tegenover ca. 11,3 kW (site); vermogens en verwarmd oppervlak per model van Select en Coastal (ca. 6–13 m² in het Lookbook) — productteam]] [[VERIFY: CE-markering, uitvoeringen voor 230 V en garantievoorwaarden voor Nederland per model — productteam]]
 
 Steeds meer steden beperken nieuwe gasaansluitingen en verplaatsbare propaantoestellen, en opdrachtgevers vragen steeds vaker om volledig elektrische buitenruimten[^s25]. Een elektrisch ontwerp met zones en schema's, en armaturen die warmte en licht in één brengen, zoals de Eclipse[^s7], hoeft het minst te worden aangepast als de regels veranderen. De [gids voor elektrificatie](asset:A12) zet uiteen wat er geldt waar gas wordt beperkt.
 

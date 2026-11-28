@@ -246,7 +246,7 @@ sources:
     title: "Warranty, bromic.com; Tungsten Smart-Heat Electric Series II warranty confirmed by the owner (18 and 22 Nov 2026)"
     year: 2026
     url: https://www.bromic.com/warranty/
-    supports: "Tungsten Smart-Heat Electric Series II (Select, Coastal and Classic): 3-year warranty on the heater, 7 years on the elements"
+    supports: "Tungsten Smart-Heat Electric Series II: Select and Coastal 3-year warranty on the heater, 7 years on the elements; Classic 2 years"
     verified: true
 ---
 
@@ -423,7 +423,7 @@ Begin bij wat de ruimte en de bediening nodig hebben; de uitstraling volgt. Een 
 | Tungsten Gas inbouw, kleiner / groter | 14,9 / 20,0 m²[^s11] |
 | Tungsten Freestanding Gas, 11,1 kW | 20,0 m²[^s2] |
 
-Tungsten Smart-Heat Electric Series II is gelanceerd: Select en Coastal zijn sinds oktober 2026 verkrijgbaar, Classic volgt in januari 2027, met volgens de Amerikaanse voorwaarden 3 jaar garantie op de verwarmer en 7 jaar op de elementen[^s32]. Platinum Electric heeft 3 jaar[^s5], Eclipse 3 jaar[^s7] en ingebouwd gas 2 jaar, exclusief slangen en ontstekers[^s10][^s11]. [[VERIFY: Eclipse 2900 W tegenover 3000 W; Tungsten Freestanding Gas 11,1 tegenover 11,3 kW; verwarmd oppervlak per model tegen de productbladen van 2026 — productteam]] [[VERIFY: garantievoorwaarden voor zakelijk gebruik, het aardgasmodel van de Tungsten Freestanding Gas en de voorwaarden in Nederland — productteam]]
+Tungsten Smart-Heat Electric Series II is gelanceerd: Select en Coastal zijn sinds oktober 2026 verkrijgbaar, Classic volgt in januari 2027, met volgens de Amerikaanse voorwaarden 3 jaar garantie op de verwarmer en 7 jaar op de elementen bij Select en Coastal[^s32]; Classic heeft 2 jaar. Platinum Electric heeft 3 jaar[^s5], Eclipse 3 jaar[^s7] en ingebouwd gas 2 jaar, exclusief slangen en ontstekers[^s10][^s11]. [[VERIFY: Eclipse 2900 W tegenover 3000 W; Tungsten Freestanding Gas 11,1 tegenover 11,3 kW; verwarmd oppervlak per model tegen de productbladen van 2026 — productteam]] [[VERIFY: garantievoorwaarden voor zakelijk gebruik, het aardgasmodel van de Tungsten Freestanding Gas en de voorwaarden in Nederland — productteam]]
 
 ![Tungsten Electric-verwarmers](img:w-tungelec-stacked)
 
