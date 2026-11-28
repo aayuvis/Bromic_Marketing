@@ -331,7 +331,7 @@ if (training) { const o = path.join(DIST, 'training'); fs.mkdirSync(o, { recursi
   for (const t of training.tracks) for (const c of t.courses) if (c.ready && c.slides) { const sd = path.join(ROOT, 'decks', 'training', 'out', 'slides', c.file); fs.cpSync(sd, path.join(o, 'slides', c.file), { recursive: true }); } }
 if (HUB.icons.length) { const I = path.join(ROOT, 'decks', 'icons'), o = path.join(DIST, 'icons'); fs.mkdirSync(o, { recursive: true });
   for (const d of ['svg', 'png']) if (fs.existsSync(path.join(I, d))) fs.cpSync(path.join(I, d), path.join(o, d), { recursive: true });
-  execFileSync('python3', ['-c', 'import sys,zipfile,os\nz=zipfile.ZipFile(sys.argv[1],"w",zipfile.ZIP_DEFLATED)\nfor d in ("svg","png"):\n  p=os.path.join(sys.argv[2],d)\n  if os.path.isdir(p):\n    for r,_,fs in os.walk(p):\n      for f in fs: z.write(os.path.join(r,f),os.path.relpath(os.path.join(r,f),sys.argv[2]))\nz.write(os.path.join(sys.argv[2],"README.md"),"README.md")\nz.close()', path.join(o, 'Bromic-Icons.zip'), I]); }
+  (await import('node:child_process')).execFileSync('python3', ['-c', 'import sys,zipfile,os\nz=zipfile.ZipFile(sys.argv[1],"w",zipfile.ZIP_DEFLATED)\nfor d in ("svg","png"):\n  p=os.path.join(sys.argv[2],d)\n  if os.path.isdir(p):\n    for r,_,fs in os.walk(p):\n      for f in fs: z.write(os.path.join(r,f),os.path.relpath(os.path.join(r,f),sys.argv[2]))\nz.write(os.path.join(sys.argv[2],"README.md"),"README.md")\nz.close()', path.join(o, 'Bromic-Icons.zip'), I]); }
 for (const w of wpapers) {  // a white paper: its Letter page (paths rewritten for dist), images, cover and PDF
   const src = path.join(ROOT, 'reports', w.dir), out = path.join(DIST, w.dir);
   fs.mkdirSync(out, { recursive: true });

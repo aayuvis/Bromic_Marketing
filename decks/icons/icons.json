@@ -1,0 +1,302 @@
+[
+  {
+    "name": "heater-tungsten",
+    "label": "Tungsten",
+    "group": "Heaters"
+  },
+  {
+    "name": "heater-platinum",
+    "label": "Platinum",
+    "group": "Heaters"
+  },
+  {
+    "name": "heater-eclipse",
+    "label": "Eclipse",
+    "group": "Heaters"
+  },
+  {
+    "name": "heater-freestanding",
+    "label": "Freestanding",
+    "group": "Heaters"
+  },
+  {
+    "name": "heater-gas",
+    "label": "Gas Heater",
+    "group": "Heaters"
+  },
+  {
+    "name": "radiant-heat",
+    "label": "Radiant Heat",
+    "group": "Heat"
+  },
+  {
+    "name": "coverage-area",
+    "label": "Coverage Area",
+    "group": "Heat"
+  },
+  {
+    "name": "mount-height",
+    "label": "Mount Height",
+    "group": "Heat"
+  },
+  {
+    "name": "clearance",
+    "label": "Clearance",
+    "group": "Heat"
+  },
+  {
+    "name": "fan-ventilated",
+    "label": "Fan-Ventilated",
+    "group": "Heat"
+  },
+  {
+    "name": "mount-ceiling",
+    "label": "Ceiling Mount",
+    "group": "Mounting"
+  },
+  {
+    "name": "mount-wall",
+    "label": "Wall Mount",
+    "group": "Mounting"
+  },
+  {
+    "name": "mount-pole",
+    "label": "Pole Mount",
+    "group": "Mounting"
+  },
+  {
+    "name": "mount-pitched",
+    "label": "Pitched Ceiling",
+    "group": "Mounting"
+  },
+  {
+    "name": "recess-kit",
+    "label": "Recess Kit",
+    "group": "Mounting"
+  },
+  {
+    "name": "single-post",
+    "label": "Single Post",
+    "group": "Mounting"
+  },
+  {
+    "name": "hidden-wiring",
+    "label": "Hidden Wiring",
+    "group": "Mounting"
+  },
+  {
+    "name": "controller-onoff",
+    "label": "On/Off Control",
+    "group": "Controls"
+  },
+  {
+    "name": "controller-dimmer",
+    "label": "Dimmer",
+    "group": "Controls"
+  },
+  {
+    "name": "app",
+    "label": "App",
+    "group": "Controls"
+  },
+  {
+    "name": "wall-switch",
+    "label": "Wall Switch",
+    "group": "Controls"
+  },
+  {
+    "name": "voice",
+    "label": "Voice",
+    "group": "Controls"
+  },
+  {
+    "name": "schedule",
+    "label": "Schedule",
+    "group": "Controls"
+  },
+  {
+    "name": "zones",
+    "label": "Zones",
+    "group": "Controls"
+  },
+  {
+    "name": "timer",
+    "label": "Timer",
+    "group": "Controls"
+  },
+  {
+    "name": "electric",
+    "label": "Electric",
+    "group": "Power and weather"
+  },
+  {
+    "name": "gas",
+    "label": "Gas",
+    "group": "Power and weather"
+  },
+  {
+    "name": "circuit",
+    "label": "Dedicated Circuit",
+    "group": "Power and weather"
+  },
+  {
+    "name": "water-rating",
+    "label": "Water Rating",
+    "group": "Power and weather"
+  },
+  {
+    "name": "coastal",
+    "label": "Coastal",
+    "group": "Power and weather"
+  },
+  {
+    "name": "wind",
+    "label": "Wind",
+    "group": "Power and weather"
+  },
+  {
+    "name": "cold",
+    "label": "Cold",
+    "group": "Power and weather"
+  },
+  {
+    "name": "evening",
+    "label": "Evening",
+    "group": "Power and weather"
+  },
+  {
+    "name": "all-seasons",
+    "label": "All Seasons",
+    "group": "Power and weather"
+  },
+  {
+    "name": "pergola",
+    "label": "Pergola",
+    "group": "Spaces"
+  },
+  {
+    "name": "covered-patio",
+    "label": "Covered Patio",
+    "group": "Spaces"
+  },
+  {
+    "name": "open-terrace",
+    "label": "Open Terrace",
+    "group": "Spaces"
+  },
+  {
+    "name": "rooftop",
+    "label": "Rooftop",
+    "group": "Spaces"
+  },
+  {
+    "name": "restaurant",
+    "label": "Restaurant",
+    "group": "Spaces"
+  },
+  {
+    "name": "hotel",
+    "label": "Hotel",
+    "group": "Spaces"
+  },
+  {
+    "name": "home",
+    "label": "Home",
+    "group": "Spaces"
+  },
+  {
+    "name": "dining",
+    "label": "Dining",
+    "group": "Spaces"
+  },
+  {
+    "name": "lounge",
+    "label": "Lounge",
+    "group": "Spaces"
+  },
+  {
+    "name": "pool",
+    "label": "Pool",
+    "group": "Spaces"
+  },
+  {
+    "name": "architect",
+    "label": "Architect",
+    "group": "People and work"
+  },
+  {
+    "name": "builder",
+    "label": "Builder",
+    "group": "People and work"
+  },
+  {
+    "name": "installer",
+    "label": "Installer",
+    "group": "People and work"
+  },
+  {
+    "name": "dealer",
+    "label": "Dealer",
+    "group": "People and work"
+  },
+  {
+    "name": "customer",
+    "label": "Customer",
+    "group": "People and work"
+  },
+  {
+    "name": "quote",
+    "label": "Quote",
+    "group": "People and work"
+  },
+  {
+    "name": "measure",
+    "label": "Measure",
+    "group": "People and work"
+  },
+  {
+    "name": "plan",
+    "label": "Plan",
+    "group": "People and work"
+  },
+  {
+    "name": "warranty",
+    "label": "Warranty",
+    "group": "Assurance"
+  },
+  {
+    "name": "safety",
+    "label": "Safety",
+    "group": "Assurance"
+  },
+  {
+    "name": "certified",
+    "label": "Certified",
+    "group": "Assurance"
+  },
+  {
+    "name": "check",
+    "label": "Knowledge Check",
+    "group": "Assurance"
+  },
+  {
+    "name": "exercise",
+    "label": "Exercise",
+    "group": "Assurance"
+  },
+  {
+    "name": "idea",
+    "label": "Idea",
+    "group": "Assurance"
+  },
+  {
+    "name": "finishes",
+    "label": "Finishes",
+    "group": "Assurance"
+  },
+  {
+    "name": "design-style",
+    "label": "Design Style",
+    "group": "Assurance"
+  }
+]
