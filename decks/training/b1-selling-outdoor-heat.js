@@ -112,6 +112,69 @@ async function main() {
     pic(s, 'w-bromic-heating-app-blog-image', 7.35, 1.85, 5.38, 4.9, 'cover', 'photo');
   }
 
+  // 6a–6c · the market in USD millions (owner, 28 Nov 2026: "retailers should take outdoor heating more seriously")
+  const SRC = (s, t) => T(s, t, { x: M, y: 6.62, w: 12.1, h: 0.3, fontSize: 9, color: HEX.STEEL });
+  {
+    const s = L.content('Why Customers Buy Heat', 'The Market', 'A USD 1,410 Million Category, Growing Every Year',
+      'Outdoor heating was worth about USD 1,410 million worldwide in 2025 and is forecast to reach USD 2,470 million by 2034, about 6.6% a year (Fortune Business Insights, Outdoor Heating Market, 2026 edition). North America is the largest region: USD 640 million in 2025, 45.7% of the world. The US alone is about USD 550 million in 2026. Reports disagree on the size: five other publishers put today\'s market between USD 1,500 and 2,000 million, growing 4.7% to 8.2% a year (IMARC 2026, Market Glass 2025, Technavio 2026). Every one of them has it growing. Use the range if a customer pushes back. These are free summaries of paid reports; check against the live pages before external use.');
+    card(s, M, 1.9, 7.35, 4.6, HEX.GREY, 'chart-card');
+    T(s, 'GLOBAL OUTDOOR HEATING, USD MILLIONS', { x: M + 0.35, y: 2.1, w: 6.5, h: 0.35, fontSize: 11, bold: true, color: HEX.STEEL, charSpacing: 2 });
+    const base = 6.0, k = 0.0013;
+    [['2025', 1410], ['2026', 1480], ['2034 forecast', 2470]].forEach(([yr, v], i) => {
+      const x = M + 0.8 + i * 2.2, h = v * k, col = i === 2 ? HEX.FLAME : HEX.STEEL;
+      s.addShape(pres.shapes.RECTANGLE, { x, y: base - h, w: 1.45, h, fill: { color: col }, line: { color: col, width: 0 }, objectName: 'bar' });
+      H1(s, v.toLocaleString('en-US'), { x: x - 0.4, y: base - h - 0.62, w: 2.25, h: 0.55, fontSize: 26, align: 'center', color: i === 2 ? HEX.FLAME : HEX.INK });
+      T(s, yr, { x: x - 0.4, y: base + 0.08, w: 2.25, h: 0.3, fontSize: 13, align: 'center', color: HEX.STEEL });
+    });
+    card(s, 8.15, 1.9, 4.58, 4.6, HEX.INK, 'stat-card');
+    ico(s, 'LuTrendingUp', 8.5, 2.2, 0.62, 'solid');
+    H1(s, '6.6%', { x: 8.5, y: 2.95, w: 4, h: 1.0, fontSize: 60, color: HEX.WHITE });
+    T(s, 'growth a year, to 2034', { x: 8.5, y: 3.95, w: 4, h: 0.4, fontSize: 15, color: 'E6E2DE' });
+    H1(s, 'USD 640M', { x: 8.5, y: 4.55, w: 4, h: 0.7, fontSize: 34, color: HEX.FLAME });
+    T(s, 'North America, the largest region: 46% of the world. The US alone is about USD 550M.', { x: 8.5, y: 5.3, w: 3.95, h: 0.9, fontSize: 13, color: 'E6E2DE' });
+    SRC(s, 'Source: Fortune Business Insights, Outdoor Heating Market, 2026. Other publishers: USD 1,500–2,000M today, 4.7–8.2% a year.');
+  }
+  {
+    const s = L.content('Why Customers Buy Heat', 'The Market', 'Where The Money Is Today, And Where It Is Moving',
+      'Three splits from the same report, so they add up (Fortune Business Insights, Outdoor Heating Market, 2026 edition, 2026 shares). Fuel: gas and propane are 54% of the market; electric is the fastest-growing fuel. Market Glass (Patio Heaters, 2025) puts electric growth at 9.2% a year against 5.3% for gas. End use: hospitality, meaning restaurants, bars and hotels, is 58%; residential is rising. Product: freestanding, the portable mushroom heater, is 61%; wall-mounted and hanging heaters, which include built-in and recessed, are growing steadily. No free source splits propane from natural gas, or reports recessed heaters on their own; do not quote a figure for either. The point for the floor: today\'s market is portable gas for restaurants, and the growth is electric, mounted and at home. That is exactly where Bromic plays.');
+    const rows = [
+      ['LuFlame', 'Fuel', 54, 'Gas and propane', 'Electric and other', 'Electric is the fastest-growing fuel: 9.2% a year, against 5.3% for gas'],
+      ['LuUsers', 'Who buys', 58, 'Hospitality', 'Residential and other', 'Homes are the rising share'],
+      ['LuLayers', 'Type', 61, 'Freestanding (mushroom)', 'Wall, ceiling, built-in, tabletop', 'Mounted and built-in heaters are growing steadily'],
+    ];
+    rows.forEach(([ic, lab, v, a, b, grow], i) => {
+      const y = 1.95 + i * 1.55, x0 = M + 2.0, bw = 6.0, wa = bw * v / 100;
+      ico(s, ic, M, y + 0.05, 0.55, 'light');
+      T(s, lab.toUpperCase(), { x: M + 0.7, y: y + 0.17, w: 1.3, h: 0.3, fontSize: 11, bold: true, color: HEX.STEEL, charSpacing: 2 });
+      s.addShape(pres.shapes.RECTANGLE, { x: x0, y, w: wa, h: 0.65, fill: { color: HEX.STEEL }, line: { color: HEX.STEEL, width: 0 }, objectName: 'bar-today' });
+      s.addShape(pres.shapes.RECTANGLE, { x: x0 + wa, y, w: bw - wa, h: 0.65, fill: { color: HEX.FLAME }, line: { color: HEX.FLAME, width: 0 }, objectName: 'bar-growth' });
+      T(s, `${v}%`, { x: x0 + 0.15, y, w: 1.2, h: 0.65, fontSize: 20, bold: true, valign: 'middle', color: HEX.WHITE });
+      T(s, `${100 - v}%`, { x: x0 + wa + 0.15, y, w: 1.2, h: 0.65, fontSize: 20, bold: true, valign: 'middle', color: HEX.WHITE });
+      T(s, a, { x: x0, y: y + 0.72, w: wa, h: 0.3, fontSize: 12, color: HEX.STEEL });
+      T(s, b, { x: x0 + wa, y: y + 0.72, w: bw - wa + 0.6, h: 0.3, fontSize: 12, bold: true, color: HEX.FLAME });
+      ico(s, 'LuTrendingUp', 8.85, y + 0.05, 0.5, 'light');
+      T(s, grow, { x: 9.5, y: y + 0.02, w: 3.25, h: 0.95, fontSize: 14, color: HEX.INK, valign: 'top' });
+    });
+    T(s, 'Grey is where the market is today. Flame is where it is growing, and where Bromic is strongest.', { x: M, y: 6.25, w: 12.1, h: 0.35, fontSize: 14, bold: true, color: HEX.INK });
+    SRC(s, 'Shares: Fortune Business Insights, Outdoor Heating Market, 2026. Fuel growth: Market Glass, Patio Heaters, 2025.');
+  }
+  {
+    const s = L.content('Why Customers Buy Heat', 'The Market', 'The Fastest-Growing Corners Are Ours',
+      'Growth a year by segment, each from its own publisher, so read them as directions rather than one consistent model. Smart and connected heaters in North America: about USD 31 million in 2024, growing 14.2% a year (Ken Research, North America Outdoor Heating Market, 2026). Electric heaters: 9.2% a year (Market Glass, Patio Heaters, 2025). Outdoor kitchens, the room heat goes into: USD 26,300 million in 2025, growing 9.1% a year (Grand View Research). Outdoor heating overall: 6.6% a year (Fortune Business Insights, 2026). Gas heaters: 5.3% a year (Market Glass). Ken Research calls gas and propane patio heaters in North America the largest but slowest-growing pool. The ask: give outdoor heat a permanent place on the floor, lead with electric and controls, and sell it with the outdoor kitchen and the pergola.');
+    const bars = [['Smart, connected heaters (N. America)', 14.2, 1], ['Electric heaters', 9.2, 1], ['Outdoor kitchens', 9.1, 0], ['Outdoor heating overall', 6.6, 0], ['Gas heaters', 5.3, 0]];
+    T(s, 'GROWTH A YEAR', { x: M, y: 1.9, w: 6, h: 0.3, fontSize: 11, bold: true, color: HEX.STEEL, charSpacing: 2 });
+    bars.forEach(([lab, v, hot], i) => {
+      const y = 2.35 + i * 0.82, w = v * 0.28, col = hot ? HEX.FLAME : HEX.STEEL;
+      T(s, lab, { x: M, y, w: 3.4, h: 0.6, fontSize: 14, valign: 'middle', color: HEX.INK, bold: !!hot });
+      s.addShape(pres.shapes.RECTANGLE, { x: M + 3.5, y: y + 0.08, w, h: 0.44, fill: { color: col }, line: { color: col, width: 0 }, objectName: 'bar' });
+      T(s, `${v}%`, { x: M + 3.6 + w, y, w: 1.1, h: 0.6, fontSize: 18, bold: true, valign: 'middle', color: hot ? HEX.FLAME : HEX.INK });
+    });
+    card(s, 9.4, 1.9, 3.33, 4.45, HEX.INK, 'ask-card');
+    T(s, 'THE ASK', { x: 9.7, y: 2.15, w: 2.8, h: 0.3, fontSize: 11, bold: true, color: HEX.FLAME, charSpacing: 2 });
+    T(s, bullets(['Give heat a place on the floor all year', 'Lead with electric and controls', 'Sell it with the kitchen and the pergola']), { x: 9.7, y: 2.6, w: 2.8, h: 3.5, fontSize: 16, color: HEX.WHITE });
+    SRC(s, 'Ken Research 2026 (smart, N. America); Market Glass 2025 (electric, gas); Grand View Research (outdoor kitchens); Fortune Business Insights 2026 (overall).');
+  }
+
   // 7 · before 5 pm / after 5 pm
   {
     const s = L.content('Why Customers Buy Heat', 'Extend The Moment', 'Before 5 PM. After 5 PM.',
