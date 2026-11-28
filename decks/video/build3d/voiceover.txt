@@ -1,25 +1,29 @@
-Tungsten Smart-Heat Electric Series II – low-clearance recess kit, premium 3D film (voice-over, US English).
-Facts only from the launch framework (data/product-marketing/tungsten-electric-series-ii.json), the low-clearance recess kit
-instructions and the named parts of the 6 kW heater and recess kit CAD. The airflow is an illustration; which way the fans blow and
-what the fan thermostat does are to be confirmed by the Product team, so neither is stated.
+Tungsten Smart-Heat Electric Series II – low-clearance recess kit, premium 3D film (voice-over; two reads: US English and Australian English).
+Facts only from the launch framework (data/product-marketing/tungsten-electric-series-ii.json: 2, 3, 4 and 6 kW; 7.5 in / 190.5 mm cavity;
+integrated cooling fans, two per the owner; recess box supplied; app schedules and timers; complimentary design plan), the low-clearance
+recess kit instructions and the named parts of the 6 kW heater and recess kit CAD. The claim line is the owner's cleared wording (28 Nov 2026).
+Which way the fans blow and what the fan thermostat does are to be confirmed by the Product team, so neither is stated. No timer duration is stated.
 
 [1 · Cold open]
-Six kilowatts. Seven and a half inches. Flush.
+Two, three, four and six kilowatts. Seven and a half inches. Worry-free recessing.
 
 [2 · The ceiling opens]
-Behind the ceiling: six kilowatts, in a cavity just seven and a half inches deep.
+Behind the ceiling, the low-clearance recess kit sits in a cavity just seven and a half inches deep.
 
 [3 · Exploded build]
 One supplied recess box, so there's no box to build on site. Dual cooling fans. A radiant barrier. And the terminal box at one end.
 
-[4 · Without a ventilated kit – illustration]
-An illustration. Without a ventilated kit, heat behind the heater has nowhere to go. It rises, and pools against the joists and the deck.
+[4 · Peace of mind in the app]
+And on top of worry-free, dual fan-ventilated recessing, set a shut-off time in the Bromic app for extra peace of mind.
 
-[5 · With the kit]
-With the kit, the fans draw air in at one end, carry it behind the heater, and out at the other. The cavity stays cool, and the radiant heat goes down to the seats.
+[5 · Without a ventilated kit]
+Without a ventilated kit, heat behind the heater has nowhere to go. It rises, and pools against the joists and the deck.
 
-[6 · Built-in protection]
+[6 · With the kit]
+With the kit, the fans draw air in at one end, carry it behind the heater, and out at the other. The radiant barrier also reduces heat build-up in the cavity. The cavity stays cool, and the radiant heat goes down to the seats.
+
+[7 · Built-in protection]
 And built in: an over-temperature cut-out in the terminal box, with a manual reset.
 
-[7 · Hero end]
-Worry-free, dual fan-ventilated, six-kilowatt recessing. Plan it in, at bromic dot com.
+[8 · Hero end]
+The only six-kilowatt recessed outdoor heater with a dual fan-ventilated, low-clearance recess kit. Plan it in at bromic dot com, and contact us for a complimentary design plan.
