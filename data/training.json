@@ -140,10 +140,15 @@
      "title": "Merchandising And The Showroom",
      "format": "Dealer workshop",
      "minutes": 30,
-     "status": "next",
+     "status": "ready",
      "objectives": [
       "Displays and live demos",
       "The take-home flyer and brochure"
+     ],
+     "file": "Bromic-Dealer-Merchandising-And-Showroom",
+     "exercises": [
+      "Plan a heat room set",
+      "Run a two-minute live demo"
      ]
     }
    ]
