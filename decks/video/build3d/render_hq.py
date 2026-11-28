@@ -132,8 +132,8 @@ def setup_frame(b, e=0.0, spin=None, on=True, ycut=None, camb=None, blur=False):
     EL.inputs['Emission Color'].default_value = (1.0, 0.20, 0.035, 1)
     EL.inputs['Base Color'].default_value = EL_BASE if on else (0.16, 0.15, 0.15, 1)
     for s_ in STEEL:
-        s_.inputs['Base Color'].default_value = ((0.34, 0.35, 0.37, 1) if studio2 else (0.55, 0.56, 0.57, 1))
-        s_.inputs['Roughness'].default_value = 0.40 if studio2 else 0.32
+        s_.inputs['Base Color'].default_value = ((0.20, 0.21, 0.22, 1) if studio2 else (0.55, 0.56, 0.57, 1))
+        s_.inputs['Roughness'].default_value = 0.48 if studio2 else 0.32
     CUT.inputs['Emission Strength'].default_value = 6.0 if b == shots.PROT else 0.0
     HX = shots.heater_xf(e)
     for o in meshes:

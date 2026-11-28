@@ -43,7 +43,7 @@ def cam_b(b):
     if b == OPEN:    # from below, a bright terrace ceiling: the black trim and grille read against a light board
         return (0.70, -1.75, -1.25), (0.0, 0.02, -0.02), 36
     if b == CEIL:    # 3/4 above the ceiling line, pulled back so the whole kit (both ends) and the 7.5 in dimension are in frame
-        return (-1.25, -2.30, 0.62), (0.0, 0.0, 0.06), 30
+        return (-1.25, -2.30, 0.62), (0.0, 0.0, 0.06), 32
     if b == EXPL:    # exploded kit on studio white, from the front and a little above so the fans read face-on
         a = math.radians(-100); r = 3.25
         return (-0.18 + r * math.cos(a), r * math.sin(a), 0.95), (-0.18, 0.0, 0.02), 31
@@ -54,7 +54,7 @@ def cam_b(b):
     if b == 'PROT_D':  # detail for the inset: the terminal box and the over-temperature cut-out
         return (-0.62, -0.78, 0.02), (-0.83, -0.01, 0.08), 38
     if b == END:     # hero end, bright dusk from below
-        return (0.95, -2.10, -1.45), (0.0, 0.0, -0.10), 28
+        return (0.95, -2.10, -1.45), (0.0, 0.0, -0.10), 33
     return cam_b(OPEN)
 
 def cam(T, t): return cam_b(beat_at(T, t)[0])
