@@ -193,11 +193,16 @@
      "title": "Heat At Planning",
      "format": "Builder workshop",
      "minutes": 30,
-     "status": "next",
+     "status": "ready",
      "objectives": [
       "The pre-wire",
       "The builder package",
       "Budgets"
+     ],
+     "file": "Bromic-Builder-Heat-At-Planning",
+     "exercises": [
+      "Mark up a plan for the pre-wire",
+      "Build a builder package"
      ]
     },
     {
@@ -205,10 +210,15 @@
      "title": "Heated Seats, Paid Back",
      "format": "Hospitality workshop",
      "minutes": 30,
-     "status": "next",
+     "status": "ready",
      "objectives": [
       "Seats, seasons and return",
       "Zones and controls for venues"
+     ],
+     "file": "Bromic-Hospitality-Heated-Seats-Paid-Back",
+     "exercises": [
+      "Run the seat-payback sum for your venue",
+      "Zone a terrace"
      ]
     }
    ]
