@@ -396,18 +396,18 @@ def app_page(L, d, bt, D, W=1920, H=1080, vertical=False):
     d.line((120, 700, 220, 700), fill=(*FLAME, int(255 * a2)), width=3)
     text(d, (120, 860), 'App control needs compatible Affinity Smart-Heat controls, sold separately.', LS(21), (110, 110, 110), alpha=clamp((bt - 1.4) / 0.6))
 
-def end_card(L, d, bt, x=110, y=120, size=64, vertical=False):
+def end_card(L, d, bt, x=110, y=110, size=60, vertical=False):
     a = clamp((bt - 0.6) / 0.8)
     if vertical:
-        kicker(d, 'Tungsten Smart-Heat Electric Series II', a, 64, 130)
+        kicker(d, 'Tungsten Smart-Heat Electric Series II', a, 64, 110)
         lines = ['The Only 6 kW Recessed', 'Outdoor Heater With A', 'Dual Fan-Ventilated,', 'Low-Clearance Recess Kit']
-        for i, s in enumerate(lines): text(d, (64, 230 + i * 86 + 20 * (1 - E(a))), s, DD(70), INK, alpha=clamp((bt - 0.6 - 0.3 * i) / 0.8))
+        for i, s in enumerate(lines): text(d, (64, 180 + i * 78 + 20 * (1 - E(a))), s, DD(64), INK, alpha=clamp((bt - 0.6 - 0.3 * i) / 0.8))
         a2 = clamp((bt - vo_t(END, 0.55)) / 0.6)
         f = LS(30, True); s = 'PLAN IT IN AT BROMIC.COM'; w = d.textlength(s, font=f)
         if a2 > 0:
-            d.rectangle((540 - w / 2 - 30, 1560, 540 + w / 2 + 30, 1630), outline=(*INK, int(255 * a2)), width=2); text(d, (540, 1595), s, f, INK, 'mm', a2)
-            text(d, (540, 1690), 'Contact us for a complimentary design plan', LS(34), INK, 'mm', clamp((bt - vo_t(END, 0.72)) / 0.6))
-        big_logo(L, clamp((bt - vo_t(END, 0.85)) / 0.8), 390, 1760, 300)
+            d.rectangle((540 - w / 2 - 30, 1636, 540 + w / 2 + 30, 1700), outline=(*INK, int(255 * a2)), width=2); text(d, (540, 1668), s, f, INK, 'mm', a2)
+            text(d, (540, 1748), 'Contact us for a complimentary design plan', LS(34), INK, 'mm', clamp((bt - vo_t(END, 0.72)) / 0.6))
+        big_logo(L, clamp((bt - vo_t(END, 0.85)) / 0.8), 410, 1792, 260)
         return
     kicker(d, 'Tungsten Smart-Heat Electric Series II', a, x, y)
     lines = ['The Only 6 kW Recessed Outdoor Heater', 'With A Dual Fan-Ventilated,', 'Low-Clearance Recess Kit']
@@ -415,7 +415,7 @@ def end_card(L, d, bt, x=110, y=120, size=64, vertical=False):
     a2 = clamp((bt - vo_t(END, 0.55)) / 0.6)
     if a2 > 0:
         f = LS(24, True); s = 'PLAN IT IN AT BROMIC.COM  ·  CONTACT US FOR A COMPLIMENTARY DESIGN PLAN'; w = d.textlength(s, font=f)
-        yb = y + 30 + 3 * (size + 14) + 34
+        yb = 896
         d.rectangle((x, yb, x + w + 56, yb + 56), fill=(255, 255, 255, int(150 * a2)), outline=(*INK, int(255 * a2)), width=2)
         text(d, (x + 28, yb + 28), s, f, INK, 'lm', a2)
     big_logo(L, clamp((bt - vo_t(END, 0.85)) / 0.8), 1540, 92, 280)
@@ -512,7 +512,7 @@ def frame_h(f):
     im = over(im, reduce(L, (1920, 1080)))
     return grade_v(im, b)
 
-def prot_inset(L, d, t, bt, D, cx=1450, cy=560, r=250, crop=None, scale=1.0):
+def prot_inset(L, d, t, bt, D, cx=1600, cy=870, r=170, crop=None, scale=1.0):
     """The whole kit stays in frame (owner: no cropped kit shots); the cut-out is shown in a round inset from the detail plate P6D,
     reduced from its native render, with a leader to where it sits in the kit."""
     a = clamp((bt - 0.9) / 0.6)
@@ -526,7 +526,7 @@ def prot_inset(L, d, t, bt, D, cx=1450, cy=560, r=250, crop=None, scale=1.0):
     m = Image.new('L', sub.size, 0); ImageDraw.Draw(m).ellipse((0, 0, sub.size[0] - 1, sub.size[1] - 1), fill=int(255 * a)); sub.putalpha(m)
     ccx, ccy = cx, cy
     if q:
-        d.line((q[0], q[1], ccx - R * 0.72, ccy + R * 0.69), fill=(*FLAME, int(230 * a)), width=3)
+        d.line((q[0], q[1], ccx - R * 0.94, ccy - R * 0.34), fill=(*FLAME, int(230 * a)), width=3)
         d.ellipse((q[0] - 7, q[1] - 7, q[0] + 7, q[1] + 7), fill=(*FLAME, int(255 * a)))
     L.alpha_composite(sub, (int((ccx - R) * SS), int((ccy - R) * SS)))
     d.ellipse((ccx - R, ccy - R, ccx + R, ccy + R), outline=(*FLAME, int(255 * a)), width=4)
@@ -535,8 +535,9 @@ def prot_inset(L, d, t, bt, D, cx=1450, cy=560, r=250, crop=None, scale=1.0):
     d.ellipse((ix - 16, iy - 16, ix + 16, iy + 16), outline=(*FLAME, int(255 * clamp((bt - 1.5) / 0.4))), width=3)
     f = LS(int(24 * max(1, scale)), True); s = 'Over-temperature cut-out · manual reset'; w = d.textlength(s, font=f)
     a2 = clamp((bt - 1.5) / 0.5)
-    d.rounded_rectangle((ccx - w / 2 - 12, ccy + R + 18, ccx + w / 2 + 12, ccy + R + 58), 8, fill=(255, 255, 255, int(215 * a2)))
-    text(d, (ccx, ccy + R + 38), s, f, INK, 'mm', a2)
+    xr = ccx - R - 28
+    d.rounded_rectangle((xr - w - 12, ccy + 40, xr + 12, ccy + 80), 8, fill=(255, 255, 255, int(215 * a2)))
+    text(d, (xr, ccy + 60), s, f, INK, 'rm', a2)
 
 # ------------------------------------------------------------------ Reels (9:16): KIT, then the hero end, big type
 def reels_timeline():
@@ -549,17 +550,19 @@ def frame_v(f):
     else: src_t = segs[-1][0] + segs[-1][1] - 1 / FPS
     sf = int(round(src_t * FPS)); b, u = shots.beat_at(T, src_t); bt = src_t - T['start'][b]
     full = base(sf)
-    crop = (420, 0, 1080 / 1080)                      # a 1080 x 1080 square from the middle of the 16:9 frame
-    panel = full.crop((420, 0, 1500, 1080))
-    if b == KIT:
+    if b == KIT:                                      # the WHOLE kit (owner: no cropped kit shots): the full 16:9 picture, reduced to 1080 wide
+        crop = (0, 0, 1080 / 1920); PW, PH = 1080, 608
+        panel = full.resize((PW, PH), Image.LANCZOS)
         spin_in = clamp(bt / shots.SPINUP)
-        dots, lines = trail_dots(particles_kit(src_t, u, spin_in), particles_kit(src_t - 0.12, u, clamp((bt - 0.12) / shots.SPINUP)), src_t, crop, 1.15)
-        rh, _ = glow_layer((1080, 1080), [], ray_lines(src_t, 0.65, crop, 1.15), 10); panel = add_light(panel, rh, 1.6)
-        halo, core = glow_layer((1080, 1080), dots, lines, 9); panel = add_light(panel, halo, 2.2); panel = over(panel, core)
-        ca = cavity_air(src_t, (1080, 1080), crop)
+        dots, lines = trail_dots(particles_kit(src_t, u, spin_in), particles_kit(src_t - 0.12, u, clamp((bt - 0.12) / shots.SPINUP)), src_t, crop, 0.75)
+        rh, _ = glow_layer((PW, PH), [], ray_lines(src_t, 0.65, crop, 0.75), 7); panel = add_light(panel, rh, 1.6)
+        halo, core = glow_layer((PW, PH), dots, lines, 6); panel = add_light(panel, halo, 2.2); panel = over(panel, core)
+        ca = cavity_air(src_t, (PW, PH), crop)
         if ca is not None: panel = over(panel, ca)
-    canvas = Image.new('RGB', (1080, 1920), (244, 243, 241))
-    canvas.paste(panel, (0, 420))
+        canvas = Image.new('RGB', (1080, 1920), (244, 243, 241)); canvas.paste(panel, (0, 640))
+    else:                                             # the hero end: a 1080 x 1080 square from the middle of the 16:9 frame
+        panel = full.crop((420, 0, 1500, 1080))
+        canvas = Image.new('RGB', (1080, 1920), (244, 243, 241)); canvas.paste(panel, (0, 520))
     L, d = new_layer((1080, 1920))
     if b == KIT:
         kicker(d, 'Tungsten Series II · recess kit', clamp(bt / 0.5), 64, 120)
