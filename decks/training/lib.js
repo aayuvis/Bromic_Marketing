@@ -92,7 +92,7 @@ function rich(text, color) {
 async function shade(dir) {
   const f = path.join(CACHE, `shade-${dir}.png`); if (fs.existsSync(f)) return f;
   const g = dir === 'up' ? 'x1="0" y1="1" x2="0" y2="0"' : 'x1="0" y1="0" x2="1" y2="0"';
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900"><defs><linearGradient id="g" ${g}><stop offset="0" stop-color="#231F20" stop-opacity=".88"/><stop offset=".45" stop-color="#231F20" stop-opacity=".55"/><stop offset="1" stop-color="#231F20" stop-opacity="0"/></linearGradient></defs><rect width="1600" height="900" fill="url(#g)"/></svg>`;
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900"><defs><linearGradient id="g" ${g}><stop offset="0" stop-color="#231F20" stop-opacity=".9"/><stop offset=".5" stop-color="#231F20" stop-opacity=".6"/><stop offset="1" stop-color="#231F20" stop-opacity="0"/></linearGradient></defs><rect width="1600" height="900" fill="url(#g)"/></svg>`;
   await sharp(Buffer.from(svg)).png().toFile(f); return f;
 }
 
@@ -167,7 +167,6 @@ function divider({ n, title, line, img, section, notes }) {
   pic(s, img, 0, 0, W, H, 'cover', 'divider-image');
   LATE.push(() => s.addImage({ path: path.join(CACHE, 'shade-up.png'), x: 0, y: 0, w: W, h: H, objectName: 'shade' }));
   LATE.push(() => {
-    T(s, 'PART ' + n, { x: M, y: 3.25, w: 6, h: 0.3, fontSize: 10, bold: true, color: HEX.FLAME, charSpacing: 5 });
     H1(s, n, { x: M - 0.04, y: 3.5, w: 3, h: 1.4, fontSize: 96, color: HEX.FLAME });
     H1(s, rich(title), { x: M, y: 4.95, w: 9, h: 0.9, fontSize: 40, color: HEX.WHITE });
     if (line) T(s, line, { x: M, y: 5.9, w: 8, h: 0.7, fontSize: 15, color: 'E6E2DE' });
@@ -225,8 +224,8 @@ function closing({ section = 'Close', title, points, next, img, notes }) {
   if (img) pic(s, img, 7.3, 0, W - 7.3, H, 'cover', 'closing-image');
   s.addImage({ path: LOGO_W, x: M, y: 0.55, w: 1.6, h: 0.5 });
   T(s, 'NEXT', { x: M, y: 1.5, w: 6, h: 0.3, fontSize: 10, bold: true, color: HEX.FLAME, charSpacing: 5 });
-  H1(s, rich(title), { x: M, y: 1.85, w: 6.3, h: 1.4, fontSize: 36, color: HEX.WHITE });
-  if (points) { const ph = Math.min(0.85, 2.9 / points.length); points.forEach((t, i) => { rule(s, M, 3.35 + i * ph, 6.2, '5A5556', 0.5); num(s, i + 1, M, 3.42 + i * ph, { size: 16, h: 0.35, w: 0.55 }); T(s, t, { x: M + 0.65, y: 3.45 + i * ph, w: 5.55, h: ph - 0.1, fontSize: 14, color: 'E6E2DE' }); }); }
+  H1(s, rich(title), { x: M, y: 1.85, w: 6.3, h: 1.2, fontSize: 34, color: HEX.WHITE });
+  if (points) { const ph = Math.min(0.85, 3.2 / points.length); points.forEach((t, i) => { rule(s, M, 3.15 + i * ph, 6.2, '5A5556', 0.5); num(s, i + 1, M, 3.22 + i * ph, { size: 16, h: 0.35, w: 0.55 }); T(s, t, { x: M + 0.65, y: 3.25 + i * ph, w: 5.55, h: ph - 0.1, fontSize: 14, color: 'E6E2DE' }); }); }
   if (next) T(s, next, { x: M, y: 6.45, w: 6.2, h: 0.6, fontSize: 12, color: 'B9B5B0' });
   if (notes) s.addNotes(notes);
   return s;
