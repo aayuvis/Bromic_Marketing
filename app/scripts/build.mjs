@@ -271,7 +271,8 @@ const training = fs.existsSync(TRF2) ? JSON.parse(fs.readFileSync(TRF2, 'utf8'))
 if (training) for (const t of training.tracks) for (const c of t.courses) {
   const o = path.join(ROOT, 'decks', 'training', 'out', (c.file || '') + '.pptx');
   c.ready = !!(c.file && fs.existsSync(o));
-  if (c.ready) { c.mb = +(fs.statSync(o).size / 1048576).toFixed(1); c.pdfReady = fs.existsSync(o.replace(/\.pptx$/, '.pdf')); c.coverReady = fs.existsSync(o.replace(/\.pptx$/, '-cover.jpg')); }
+  if (c.ready) { c.mb = +(fs.statSync(o).size / 1048576).toFixed(1); c.pdfReady = fs.existsSync(o.replace(/\.pptx$/, '.pdf')); c.coverReady = fs.existsSync(o.replace(/\.pptx$/, '-cover.jpg'));
+    const sd = path.join(ROOT, 'decks', 'training', 'out', 'slides', c.file); c.slides = fs.existsSync(sd) ? fs.readdirSync(sd).filter((f) => f.endsWith('.webp')).length : 0; }
 }
 const vguides = fs.existsSync(VGF) ? JSON.parse(fs.readFileSync(VGF, 'utf8')).guides : [];
 // White papers (reports/white-papers/<id>/, built by reports/white-papers/build.py): Letter page, images, cover and PDF (data/white-papers.json).
@@ -323,7 +324,8 @@ for (const [lang, m] of Object.entries(tr)) fs.writeFileSync(path.join(DIST, `da
 fs.cpSync(path.join(ROOT, 'images', 'library'), path.join(DIST, 'images', 'library'), { recursive: true });
 for (const e of [...Object.entries(designed.items), ...Object.entries(designed.cases)]) { const o = path.join(DIST, 'designed', e[0]); fs.mkdirSync(o, { recursive: true }); fs.copyFileSync(path.join(ROOT, e[1].pdf), path.join(o, path.basename(e[1].pdf))); if (e[1].thumb) fs.copyFileSync(path.join(ROOT, e[1].thumb), path.join(o, path.basename(e[1].thumb))); }
 if (training) { const o = path.join(DIST, 'training'); fs.mkdirSync(o, { recursive: true });
-  for (const t of training.tracks) for (const c of t.courses) if (c.ready) for (const ext of ['.pptx', '.pdf', '-cover.jpg']) { const f = path.join(ROOT, 'decks', 'training', 'out', c.file + ext); if (fs.existsSync(f)) fs.copyFileSync(f, path.join(o, c.file + ext)); } }
+  for (const t of training.tracks) for (const c of t.courses) if (c.ready) for (const ext of ['.pptx', '.pdf', '-cover.jpg']) { const f = path.join(ROOT, 'decks', 'training', 'out', c.file + ext); if (fs.existsSync(f)) fs.copyFileSync(f, path.join(o, c.file + ext)); }
+  for (const t of training.tracks) for (const c of t.courses) if (c.ready && c.slides) { const sd = path.join(ROOT, 'decks', 'training', 'out', 'slides', c.file); fs.cpSync(sd, path.join(o, 'slides', c.file), { recursive: true }); } }
 for (const w of wpapers) {  // a white paper: its Letter page (paths rewritten for dist), images, cover and PDF
   const src = path.join(ROOT, 'reports', w.dir), out = path.join(DIST, w.dir);
   fs.mkdirSync(out, { recursive: true });

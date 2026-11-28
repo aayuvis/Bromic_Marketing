@@ -1451,15 +1451,39 @@
   function trainingPage() {
     const T = HUB.training; if (!T) return '<div class="empty">No training yet.</div>';
     const course = (c) => `<article class="tr-c${c.ready ? '' : ' next'}">
-      ${c.ready && c.coverReady ? `<a class="tr-cv" href="training/${esc(c.file)}.pdf" target="_blank" rel="noopener"><img src="training/${esc(c.file)}-cover.jpg" alt="Cover of ${esc(c.title)}" loading="lazy"></a>` : `<div class="tr-cv ph"><span>${c.ready ? '' : 'Coming next'}</span></div>`}
+      ${c.ready && c.coverReady ? `<a class="tr-cv" href="training/${esc(c.file)}.pdf" target="_blank" rel="noopener"${c.slides ? ` data-deck="${esc(c.file)}" data-n="${c.slides}" data-title="${esc(c.title)}"` : ''}><img src="training/${esc(c.file)}-cover.jpg" alt="Cover of ${esc(c.title)}" loading="lazy"></a>` : `<div class="tr-cv ph"><span>${c.ready ? '' : 'Coming next'}</span></div>`}
       <div class="tr-cb"><span class="label">${esc(c.id)} · ${esc(c.format)} · ${c.minutes} min</span><h3>${esc(c.title)}</h3>
       <ul>${(c.objectives || []).map((o) => `<li>${esc(o)}</li>`).join('')}</ul>
       ${(c.exercises || []).length ? `<p class="tr-ex"><b>Exercises</b> ${c.exercises.map(esc).join(' · ')}</p>` : ''}
-      ${c.ready ? `<div class="btns"><a class="btn primary" href="training/${esc(c.file)}.pptx" download>${ic.down}PowerPoint${c.mb ? ' · ' + c.mb + ' MB' : ''}</a>${c.pdfReady ? `<a class="btn" href="training/${esc(c.file)}.pdf" target="_blank" rel="noopener">${ic.ext}PDF</a>` : ''}</div>` : ''}</div></article>`;
+      ${c.ready ? `<div class="btns">${c.slides ? `<button class="btn primary" data-deck="${esc(c.file)}" data-n="${c.slides}" data-title="${esc(c.title)}">${ic.ext}View full screen</button>` : ''}<a class="btn" href="training/${esc(c.file)}.pptx" download>${ic.down}PowerPoint${c.mb ? ' · ' + c.mb + ' MB' : ''}</a>${c.pdfReady ? `<a class="btn" href="training/${esc(c.file)}.pdf" target="_blank" rel="noopener">${ic.ext}PDF</a>` : ''}</div>` : ''}</div></article>`;
     return `<div class="ph"><div><span class="label">Training Hub</span><h1>Bromic Training</h1><p>Four tracks, from the AIA lunch and learn to installer certification. Every course is a Bromic deck with exercises, knowledge checks and speaker notes. Draft for review.</p></div></div>
       ${T.tracks.map((t) => `<section class="tr-t"><div class="tr-th"><span class="tr-n">${esc(t.id)}</span><div><h2>${esc(t.name)}</h2><p><b>For</b> ${esc(t.who)}. ${esc(t.promise)}</p></div></div>
       <div class="tr-g">${t.courses.map(course).join('')}</div></section>`).join('')}`;
   }
+
+  // Full-screen deck viewer (owner, 28 Nov 2026: "a full screen viewer without having to download"): slide images from
+  // decks/training/slides.py; arrows, keys, swipe, a slide strip, and the browser's own full screen.
+  function deckViewer(file, n, title, at = 0) {
+    const src = (i) => `training/slides/${file}/${String(i + 1).padStart(2, '0')}.webp`;
+    const el = document.createElement('div'); el.className = 'dv-x'; el.tabIndex = -1; el.setAttribute('role', 'dialog'); el.setAttribute('aria-label', title);
+    el.innerHTML = `<div class="dv-top"><b>${esc(title)}</b><span class="dv-c"></span><button data-dv="fs" title="Full screen (F)">Full screen</button><button data-dv="x" title="Close (Esc)" aria-label="Close">✕</button></div>
+      <div class="dv-stage"><button class="dv-a l" data-dv="p" aria-label="Previous slide">‹</button><img alt=""><button class="dv-a r" data-dv="n" aria-label="Next slide">›</button></div>
+      <div class="dv-strip">${Array.from({ length: n }, (_, i) => `<button data-dv-i="${i}"><img loading="lazy" src="${src(i)}" alt="Slide ${i + 1}"></button>`).join('')}</div>`;
+    const im = el.querySelector('.dv-stage img'); let i = at;
+    const show = () => { i = Math.max(0, Math.min(n - 1, i)); im.src = src(i); im.alt = `${title}, slide ${i + 1}`; el.querySelector('.dv-c').textContent = `${i + 1} / ${n}`;
+      el.querySelectorAll('.dv-strip button').forEach((b, k) => b.classList.toggle('on', k === i)); const on = el.querySelector('.dv-strip .on'); if (on) on.scrollIntoView({ block: 'nearest', inline: 'center' });
+      [i - 1, i + 1].forEach((k) => { if (k >= 0 && k < n) new Image().src = src(k); }); };
+    const fs = () => { if (document.fullscreenElement) document.exitFullscreen(); else if (el.requestFullscreen) el.requestFullscreen().catch(() => {}); };
+    const close = () => { if (document.fullscreenElement) document.exitFullscreen().catch(() => {}); document.removeEventListener('keydown', key, true); el.remove(); document.body.style.overflow = ''; };
+    const key = (e) => { const k = e.key; if (k === 'Escape' && !document.fullscreenElement) close(); else if (k === 'ArrowRight' || k === 'PageDown' || k === ' ') { i++; show(); } else if (k === 'ArrowLeft' || k === 'PageUp') { i--; show(); }
+      else if (k === 'Home') { i = 0; show(); } else if (k === 'End') { i = n - 1; show(); } else if (k === 'f' || k === 'F') fs(); else return; e.preventDefault(); e.stopPropagation(); };
+    el.addEventListener('click', (e) => { const b = e.target.closest('[data-dv],[data-dv-i]'); if (!b) { if (e.target.classList.contains('dv-stage')) close(); return; }
+      if (b.dataset.dvI) { i = +b.dataset.dvI; show(); return; } const a = b.dataset.dv; if (a === 'x') close(); else if (a === 'fs') fs(); else { i += a === 'n' ? 1 : -1; show(); } });
+    let sx = null; el.addEventListener('touchstart', (e) => { sx = e.touches[0].clientX; }, { passive: true });
+    el.addEventListener('touchend', (e) => { if (sx == null) return; const d = e.changedTouches[0].clientX - sx; if (Math.abs(d) > 40) { i += d < 0 ? 1 : -1; show(); } sx = null; });
+    document.addEventListener('keydown', key, true); document.body.appendChild(el); document.body.style.overflow = 'hidden'; show(); el.focus();
+  }
+  document.addEventListener('click', (e) => { const d = e.target.closest('[data-deck]'); if (!d) return; e.preventDefault(); deckViewer(d.dataset.deck, +d.dataset.n, d.dataset.title || ''); });
 
   function trendsPage() {
     const T = HUB.trends; if (!T) return '<div class="empty">No trend reports yet.</div>';
@@ -1513,8 +1537,9 @@
     M.innerHTML = `<div class="mg-col"><span class="label">Product marketing</span>${(H.pm || []).map((x) => lk('#/pm/' + x.id, x.short || x.name, (x.m3 && x.m3.competitors ? 'Against ' + x.m3.competitors.map((c) => c.name.split(/[ (]/)[0]).join(', ') : 'Benefits, claims, matrices and the launch playbook'))).join('')}</div>
       <div class="mg-col"><span class="label">Brand</span>${lk('#/campaigns', 'Campaigns', 'Get Bromic: films, receipts, concept bank, trade and the audit')}${lk('#/retail', 'Retail Hub', 'One-pagers a retailer needs to sell Bromic', (HUB.retail && HUB.retail.pages || []).length || null)}</div>
       <div class="mg-col"><span class="label">Video</span>${lk('decks/video/Tungsten-Series-II-Recess-Airflow-3D.mp4', 'Recess Kit Film', 'Tungsten Series II, 64 s, 16:9')}${lk('decks/video/Tungsten-Series-II-Recess-Airflow-3D-Reels.mp4', 'Recess Kit Reels', '20 s, 9:16')}</div>`;
-    const rn = $('#review-n'); if (rn) rn.textContent = H.items.filter(awaiting).length;
-    const an = $('#appr-n'); if (an) an.textContent = (HUB.review || []).filter((r) => r.status === 'pending').length || '';
+    const nItems = H.items.filter(awaiting).length, nImg = (HUB.review || []).filter((r) => r.status === 'pending').length;
+    const R = $('#mega-review'); if (R) R.innerHTML = `<div class="mg-col"><span class="label">Review</span>${lk('#/todo', 'Content To Review', 'Case studies and articles awaiting approval, facts to confirm', nItems)}${lk('#/approvals', 'Image Approvals', 'Generated images and videos for sign-off', nImg || null)}</div>`;
+    const rn = $('#review-n'); if (rn) rn.textContent = nItems + nImg;
   }
   document.addEventListener('click', (e) => { if (!e.target.closest('.tabs .mega')) document.querySelectorAll('.tabs .mega[open]').forEach((m) => (m.open = false)); });
   document.addEventListener('toggle', (e) => { const m = e.target; if (m.classList && m.classList.contains('mega') && m.open) document.querySelectorAll('.tabs .mega[open]').forEach((x) => x !== m && (x.open = false)); }, true);
@@ -1538,7 +1563,7 @@
     // A case study opens over the grid: moving between #/cases and #/cases/<id> only opens or closes the panel.
     if (p === 'cases' && view.querySelector('.cs-layout') && (!a || CSR[a]) && !raw.includes('?')) { csModal(a ? CSR[a] : null); return; }
     // The library pages sit under Home ▾ now (owner, 23 Nov 2026), so Home stays lit on them.
-    const tab = { '': 'home', item: (ITEM[decodeURIComponent(a || '')] && ['article', 'kb'].includes(ITEM[decodeURIComponent(a || '')].type)) ? 'knowledge' : (ITEM[decodeURIComponent(a || '')] && hasPdf(ITEM[decodeURIComponent(a || '')]) ? 'papers' : 'home'), library: 'home', tool: 'home', tools: 'home', blog: 'home', images: 'home', whitepapers: 'papers', trends: 'papers', guides: 'papers', journey: 'home', assets: 'home', sources: 'home', site: 'home', review: 'home', pm: 'marketing', campaigns: 'marketing' }[p] ?? p;
+    const tab = { '': 'home', item: (ITEM[decodeURIComponent(a || '')] && ['article', 'kb'].includes(ITEM[decodeURIComponent(a || '')].type)) ? 'knowledge' : (ITEM[decodeURIComponent(a || '')] && hasPdf(ITEM[decodeURIComponent(a || '')]) ? 'papers' : 'home'), library: 'home', tool: 'home', tools: 'home', blog: 'home', images: 'home', whitepapers: 'papers', trends: 'papers', guides: 'papers', journey: 'home', assets: 'home', sources: 'home', site: 'home', review: 'home', pm: 'marketing', campaigns: 'marketing', approvals: 'todo' }[p] ?? p;
     document.querySelectorAll('.tabs a').forEach((x) => x.toggleAttribute('aria-current', false) || (x.dataset.tab === tab && x.setAttribute('aria-current', 'page')));
     document.querySelectorAll('.tabs .mega').forEach((m) => { m.open = false; m.toggleAttribute('data-on', m.dataset.tab === tab); });
     const html = p === '' ? home() : p === 'library' ? library() : p === 'item' ? item(decodeURIComponent(a || '')) : p === 'journey' ? journey(a) : p === 'assets' ? assets(a)
