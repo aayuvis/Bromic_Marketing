@@ -387,7 +387,7 @@ def app_page(L, d, bt, D, W=1920, H=1080, vertical=False):
         text(d, (64, 1640), 'controls, sold separately.', LS(26), (110, 110, 110), alpha=clamp((bt - 1.6) / 0.6))
         return
     kicker(d, 'Affinity Smart-Heat Controls', clamp(bt / 0.6), 120, 300)
-    t1 = vo_t(APP, 0.55) - 0.6
+    t1 = min(vo_t(APP, 0.5) - 0.6, 2.2)
     title(d, 'Set A Shut-Off Time', t1, bt, x=120, y=340, size=72)
     title(d, 'In The Bromic App', t1 + 0.25, bt, x=120, y=428, size=72)
     a2 = clamp((bt - 0.5) / 0.6)
@@ -444,8 +444,8 @@ def frame_h(f):
     if b == OPEN:                                     # three lines land with the voice; the heater switches on with the first
         for i, (w, fr) in enumerate((('2, 3, 4 and 6 kW.', 0.0), ('7.5 In.', 0.47), ('Worry-Free Recessing.', 0.74))):
             t0 = vo_t(OPEN, fr) - 0.15; a = clamp((bt - t0) / 0.5)
-            text(d, (1130 + 40 * (1 - E(a)), 720 + i * 96), w, DD(80), INK, 'ls', a * clamp((D - bt) / 0.6))
-        kicker(d, 'Tungsten Smart-Heat Electric Series II', clamp((bt - 0.2) / 0.6) * clamp((D - bt) / 0.6), 1134, 600)
+            text(d, (1010 + 40 * (1 - E(a)), 730 + i * 90), w, DD(74), INK, 'ls', a * clamp((D - bt) / 0.6))
+        kicker(d, 'Tungsten Smart-Heat Electric Series II', clamp((bt - 0.2) / 0.6) * clamp((D - bt) / 0.6), 1014, 620)
     if b == CEIL:
         kicker(d, 'The low-clearance recess kit', clamp(bt / 0.6))
         title(d, 'Recessed In A 7.5 In Cavity', 0.3, bt)
